@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertProperty.put_PropertyId
-title: ICertProperty::put_PropertyId
+title: ICertProperty::put_PropertyId (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a value of the CERTENROLL_PROPERTYID enumeration that identifies an external certificate property.
 old-location: security\icertproperty_propertyid_property.htm

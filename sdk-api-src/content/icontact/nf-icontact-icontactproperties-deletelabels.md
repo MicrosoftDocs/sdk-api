@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactProperties.DeleteLabels
-title: IContactProperties::DeleteLabels
+title: IContactProperties::DeleteLabels (icontact.h)
 author: windows-sdk-content
 description: Deletes the labels at a specified array entry.
 old-location: wincontacts\_wincontacts_IContactProperties_DeleteLabels.htm

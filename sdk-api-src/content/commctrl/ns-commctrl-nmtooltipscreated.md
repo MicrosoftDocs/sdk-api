@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMTOOLTIPSCREATED
-title: NMTOOLTIPSCREATED
+title: NMTOOLTIPSCREATED (commctrl.h)
 author: windows-sdk-content
 description: Contains information used with NM_TOOLTIPSCREATED notification codes.
 old-location: controls\NMTOOLTIPSCREATED.htm

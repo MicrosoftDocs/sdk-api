@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_ServerSelection
-title: IUpdateHistoryEntry::get_ServerSelection
+title: IUpdateHistoryEntry::get_ServerSelection (wuapi.h)
 author: windows-sdk-content
 description: Gets the ServerSelection value that indicates which server provided an update.
 old-location: wua\iupdatehistoryentry_serverselection.htm

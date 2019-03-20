@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_PinControl.GetPinID
-title: IBDA_PinControl::GetPinID
+title: IBDA_PinControl::GetPinID (bdaiface.h)
 author: windows-sdk-content
 description: The GetPinID method retrieves the ID of the pin.
 old-location: mstv\ibda_pincontrol_getpinid.htm

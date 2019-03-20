@@ -1,6 +1,6 @@
 ---
 UID: NE:shldisp.ShellFolderViewOptions
-title: ShellFolderViewOptions
+title: ShellFolderViewOptions (shldisp.h)
 author: windows-sdk-content
 description: Specifies the view options returned by the ViewOptions property.
 old-location: shell\ShellFolderViewOptions.htm

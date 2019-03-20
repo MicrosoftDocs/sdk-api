@@ -1,6 +1,6 @@
 ---
 UID: NF:mmiscapi.DrvDefDriverProc
-title: DrvDefDriverProc function
+title: DrvDefDriverProc function (mmiscapi.h)
 author: windows-sdk-content
 description: Provides default processing for any messages not processed by an installable driver. This function is intended to be used only within the DriverProc function of an installable driver.
 old-location: multimedia\defdriverproc.htm

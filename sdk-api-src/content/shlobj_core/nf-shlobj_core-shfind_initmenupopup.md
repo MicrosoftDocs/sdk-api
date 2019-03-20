@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHFind_InitMenuPopup
-title: SHFind_InitMenuPopup function
+title: SHFind_InitMenuPopup function (shlobj_core.h)
 author: windows-sdk-content
 description: SHFind_InitMenuPopup may be altered or unavailable.
 old-location: shell\SHFind_InitMenuPopup.htm

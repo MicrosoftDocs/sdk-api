@@ -1,6 +1,6 @@
 ---
 UID: NN:vdshwprv.IVdsIscsiPortal
-title: IVdsIscsiPortal
+title: IVdsIscsiPortal (vdshwprv.h)
 author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on an iSCSI portal.
 old-location: base\ivdsiscsiportal.htm

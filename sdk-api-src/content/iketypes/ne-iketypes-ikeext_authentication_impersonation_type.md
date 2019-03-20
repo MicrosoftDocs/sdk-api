@@ -1,6 +1,6 @@
 ---
 UID: NE:iketypes.IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE_
-title: IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE
+title: IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE (iketypes.h)
 author: windows-sdk-content
 description: Specifies the type of impersonation to perform when Authenticated Internet Protocol (AuthIP) is used for authentication.
 old-location: fwp\ikeext_authentication_impersonation_type.htm

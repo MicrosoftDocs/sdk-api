@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_RESOURCE_MISC_FLAG
-title: D3D11_RESOURCE_MISC_FLAG
+title: D3D11_RESOURCE_MISC_FLAG (d3d11.h)
 author: windows-sdk-content
 description: Identifies options for resources.
 old-location: direct3d11\d3d11_resource_misc_flag.htm

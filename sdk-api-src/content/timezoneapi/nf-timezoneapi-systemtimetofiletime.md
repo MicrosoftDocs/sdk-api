@@ -1,6 +1,6 @@
 ---
 UID: NF:timezoneapi.SystemTimeToFileTime
-title: SystemTimeToFileTime function
+title: SystemTimeToFileTime function (timezoneapi.h)
 author: windows-sdk-content
 description: Converts a system time to file time format. System time is based on Coordinated Universal Time (UTC).
 old-location: base\systemtimetofiletime.htm

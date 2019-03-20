@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IChannelTuneRequest.get_Channel
-title: IChannelTuneRequest::get_Channel
+title: IChannelTuneRequest::get_Channel (tuner.h)
 author: windows-sdk-content
 description: The get_Channel method gets the channel to be tuned.
 old-location: mstv\ichanneltunerequest_get_channel.htm

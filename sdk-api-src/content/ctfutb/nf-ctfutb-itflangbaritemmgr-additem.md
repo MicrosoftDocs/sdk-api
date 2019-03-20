@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.AddItem
-title: ITfLangBarItemMgr::AddItem
+title: ITfLangBarItemMgr::AddItem (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarItemMgr::AddItem method
 old-location: tsf\itflangbaritemmgr_additem.htm

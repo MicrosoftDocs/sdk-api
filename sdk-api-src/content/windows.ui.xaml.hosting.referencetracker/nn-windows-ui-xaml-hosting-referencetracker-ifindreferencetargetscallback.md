@@ -1,6 +1,6 @@
 ---
 UID: NN:windows.ui.xaml.hosting.referencetracker.IFindReferenceTargetsCallback
-title: IFindReferenceTargetsCallback
+title: IFindReferenceTargetsCallback (windows.ui.xaml.hosting.referencetracker.h)
 author: windows-sdk-content
 description: Defines the interface for callbacks from IReferenceTracker::FindTrackerTargets. The implementation of this interface must pass any IReferenceTrackerTarget instances it finds to the FoundTrackerTarget method.
 old-location: winrt\ifindreferencetargetscallback.htm

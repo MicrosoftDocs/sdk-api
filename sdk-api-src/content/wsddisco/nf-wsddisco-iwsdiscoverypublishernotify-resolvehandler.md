@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisherNotify.ResolveHandler
-title: IWSDiscoveryPublisherNotify::ResolveHandler
+title: IWSDiscoveryPublisherNotify::ResolveHandler (wsddisco.h)
 author: windows-sdk-content
 description: Is called when a Resolve is received by the discovery publisher.
 old-location: ncd\iwsdiscoverypublishernotify_resolvehandler_method.htm

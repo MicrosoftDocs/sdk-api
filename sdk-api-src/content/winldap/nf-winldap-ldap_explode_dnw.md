@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_explode_dnW
-title: ldap_explode_dnW function
+title: ldap_explode_dnW function (winldap.h)
 author: windows-sdk-content
 description: The ldap_explode_dn function breaks up an entry name into its component parts.
 old-location: ldap\ldap_explode_dn.htm

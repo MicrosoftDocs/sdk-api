@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IFolderBandPriv.SetNoIcons
-title: IFolderBandPriv::SetNoIcons
+title: IFolderBandPriv::SetNoIcons (shobjidl.h)
 author: windows-sdk-content
 description: Sets whether icons are displayed in a folder band.
 old-location: shell\IFolderBandPriv_SetNoIcons.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:directxmath.XMFLOAT3
-title: XMFLOAT3
+title: XMFLOAT3 (directxmath.h)
 author: windows-sdk-content
 description: Describes a 3D vector consisting of three single-precision floating-point values.
 old-location: dxmath\xmfloat3.htm

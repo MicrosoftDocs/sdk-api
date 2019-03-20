@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.IsEqual
-title: IFont::IsEqual
+title: IFont::IsEqual (ocidl.h)
 author: windows-sdk-content
 description: Compares this font object to another for equivalence.
 old-location: com\ifont_isequal.htm

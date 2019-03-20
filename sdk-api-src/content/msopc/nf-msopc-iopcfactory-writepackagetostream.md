@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcFactory.WritePackageToStream
-title: IOpcFactory::WritePackageToStream
+title: IOpcFactory::WritePackageToStream (msopc.h)
 author: windows-sdk-content
 description: Serializes a package that is represented by a package object.
 old-location: opc\iopcfactory_writepackagetostream.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfileMgr.ReleaseInputProcessor
-title: ITfInputProcessorProfileMgr::ReleaseInputProcessor
+title: ITfInputProcessorProfileMgr::ReleaseInputProcessor (msctf.h)
 author: windows-sdk-content
 description: The ITfInputProcessorProfileMgr::ReleaseInputProcessor method deactivates the profiles belonging to the text services of the specified CLSID and releases the instance of ITfTextInputProcessorEx interface.
 old-location: tsf\itfinputprocessorprofilemgr_releaseinputprocessor.htm

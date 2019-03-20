@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServicePoolConfig.get_MinPoolSize
-title: IServicePoolConfig::get_MinPoolSize
+title: IServicePoolConfig::get_MinPoolSize (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the minimum number of objects in the pool.
 old-location: cos\iservicepoolconfig_get_minpoolsize.htm

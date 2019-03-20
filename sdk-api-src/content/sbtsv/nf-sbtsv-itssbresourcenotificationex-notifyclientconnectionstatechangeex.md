@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourceNotificationEx.NotifyClientConnectionStateChangeEx
-title: ITsSbResourceNotificationEx::NotifyClientConnectionStateChangeEx
+title: ITsSbResourceNotificationEx::NotifyClientConnectionStateChangeEx (sbtsv.h)
 author: windows-sdk-content
 description: Notifies registered plug-ins about state changes in a client connection.
 old-location: termserv\itssbresourcenotificationex_notifyclientconnectionstatechangeex.htm

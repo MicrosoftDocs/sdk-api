@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2.SetCookie
-title: IXMLHTTPRequest2::SetCookie
+title: IXMLHTTPRequest2::SetCookie (msxml6.h)
 author: windows-sdk-content
 description: Sets a cookie associated with the specified URL in the HTTP cookie jar.
 old-location: ixhr2\ixmlhttprequest2_setcookie.htm

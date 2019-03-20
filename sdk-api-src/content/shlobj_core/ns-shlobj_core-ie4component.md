@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core._tagIE4COMPONENT
-title: IE4COMPONENT
+title: IE4COMPONENT (shlobj_core.h)
 author: windows-sdk-content
 description: Used by Microsoft Internet Explorer 4.0 and Microsoft Internet Explorer 4.01 to hold information about a component. With Windows 2000, it is replaced by the COMPONENT structure.
 old-location: shell\IE4COMPONENT.htm

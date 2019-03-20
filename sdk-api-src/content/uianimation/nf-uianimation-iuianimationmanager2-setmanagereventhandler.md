@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.SetManagerEventHandler
-title: IUIAnimationManager2::SetManagerEventHandler
+title: IUIAnimationManager2::SetManagerEventHandler (uianimation.h)
 author: windows-sdk-content
 description: Specifies a handler for animation manager status updates.
 old-location: uianimation\iuianimationmanager2_setmanagereventhandler.htm

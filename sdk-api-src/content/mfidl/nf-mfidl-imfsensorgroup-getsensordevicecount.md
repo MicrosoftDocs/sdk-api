@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorGroup.GetSensorDeviceCount
-title: IMFSensorGroup::GetSensorDeviceCount
+title: IMFSensorGroup::GetSensorDeviceCount (mfidl.h)
 author: windows-sdk-content
 description: Gets the number of devices that are virtualized by the sensor group.
 old-location: mf\imfsensorgroup_getsensordevicecount.htm

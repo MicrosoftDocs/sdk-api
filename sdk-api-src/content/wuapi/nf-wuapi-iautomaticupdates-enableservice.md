@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdates.EnableService
-title: IAutomaticUpdates::EnableService
+title: IAutomaticUpdates::EnableService (wuapi.h)
 author: windows-sdk-content
 description: Enables all the components that Automatic Updates requires.
 old-location: wua\iautomaticupdates_enableservice.htm

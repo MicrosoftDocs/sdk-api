@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll.put_ContainerName
-title: ICEnroll::put_ContainerName
+title: ICEnroll::put_ContainerName (xenroll.h)
 author: windows-sdk-content
 description: The ContainerName property of ICEnroll4 sets or retrieves the name of the key container to use.
 old-location: security\icenroll4_containername.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.CompareFileTime
-title: CompareFileTime function
+title: CompareFileTime function (fileapi.h)
 author: windows-sdk-content
 description: Compares two file times.
 old-location: base\comparefiletime.htm

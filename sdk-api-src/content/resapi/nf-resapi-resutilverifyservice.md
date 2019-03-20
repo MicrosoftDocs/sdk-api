@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilVerifyService
-title: ResUtilVerifyService function
+title: ResUtilVerifyService function (resapi.h)
 author: windows-sdk-content
 description: Checks if a service identified by a handle is starting or currently running. The PRESUTIL_VERIFY_SERVICE type defines a pointer to this function.
 old-location: mscs\resutilverifyservice.htm

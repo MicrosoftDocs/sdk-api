@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11VideoProcessorEnumerator
-title: ID3D11VideoProcessorEnumerator
+title: ID3D11VideoProcessorEnumerator (d3d11.h)
 author: windows-sdk-content
 description: Enumerates the video processor capabilities of a Microsoft Direct3D 11 device.
 old-location: mf\id3d11videoprocessorenumerator.htm

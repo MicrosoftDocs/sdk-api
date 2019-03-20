@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.ITocEntry.GetSubEntries
-title: ITocEntry::GetSubEntries
+title: ITocEntry::GetSubEntries (wmcodecdsp.h)
 author: windows-sdk-content
 description: The GetSubEntries method gets an array of subentry indices that were set by a previous call to SetSubEntries.
 old-location: mf\itocentry_getsubentries.htm

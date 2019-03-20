@@ -1,6 +1,6 @@
 ---
 UID: NS:gdiplusmetaheader.__unnamed_struct_1
-title: PWMFRect16
+title: PWMFRect16 (gdiplusmetaheader.h)
 author: windows-sdk-content
 description: The PWMFRect16 structure defines a rectangle that bounds a placeable metafile. The rectangle defines the size and position of the metafile.
 old-location: gdiplus\_gdiplus_STRUC_PWMFRect16.htm

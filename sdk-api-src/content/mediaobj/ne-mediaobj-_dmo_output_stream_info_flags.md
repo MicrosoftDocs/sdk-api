@@ -1,6 +1,6 @@
 ---
 UID: NE:mediaobj._DMO_OUTPUT_STREAM_INFO_FLAGS
-title: "_DMO_OUTPUT_STREAM_INFO_FLAGS"
+title: "_DMO_OUTPUT_STREAM_INFO_FLAGS" (mediaobj.h)
 author: windows-sdk-content
 description: The DMO_OUTPUT_STREAM_INFO_FLAGS enumeration defines flags that describe an output stream.
 old-location: dshow\dmo_output_stream_info_flags.htm

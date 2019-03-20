@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10.D3D10_BUFFER_DESC
-title: D3D10_BUFFER_DESC
+title: D3D10_BUFFER_DESC (d3d10.h)
 author: windows-sdk-content
 description: Describes a buffer resource.
 old-location: direct3d10\d3d10_buffer_desc.htm

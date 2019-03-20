@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IOleCommandTarget.Exec
-title: IOleCommandTarget::Exec
+title: IOleCommandTarget::Exec (docobj.h)
 author: windows-sdk-content
 description: Executes the specified command or displays help for the command.
 old-location: com\iolecommandtarget_exec.htm

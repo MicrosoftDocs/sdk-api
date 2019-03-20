@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationContent.GetOutputTransform
-title: IDirectManipulationContent::GetOutputTransform
+title: IDirectManipulationContent::GetOutputTransform (directmanipulation.h)
 author: windows-sdk-content
 description: Gets the final transform applied to the content.
 old-location: directmanipulation\idirectmanipulationcontent_getoutputtransform.htm

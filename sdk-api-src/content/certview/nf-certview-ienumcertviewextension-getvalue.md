@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.IEnumCERTVIEWEXTENSION.GetValue
-title: IEnumCERTVIEWEXTENSION::GetValue
+title: IEnumCERTVIEWEXTENSION::GetValue (certview.h)
 author: windows-sdk-content
 description: Retrieves the value of the current extension in the extension-enumeration sequence.
 old-location: security\ienumcertviewextension_getvalue.htm

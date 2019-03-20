@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRSurfaceAllocator9.TerminateDevice
-title: IVMRSurfaceAllocator9::TerminateDevice
+title: IVMRSurfaceAllocator9::TerminateDevice (vmr9.h)
 author: windows-sdk-content
 description: The TerminateDevice method releases the Direct3D device.
 old-location: dshow\ivmrsurfaceallocator9_terminatedevice.htm

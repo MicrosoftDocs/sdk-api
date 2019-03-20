@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProvider.Attach
-title: IWSDiscoveryProvider::Attach
+title: IWSDiscoveryProvider::Attach (wsddisco.h)
 author: windows-sdk-content
 description: Attaches a callback interface to the discovery provider.
 old-location: ncd\iwsdiscoveryprovider_attach_method.htm

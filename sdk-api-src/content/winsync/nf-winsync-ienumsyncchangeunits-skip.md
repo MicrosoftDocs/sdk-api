@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IEnumSyncChangeUnits.Skip
-title: IEnumSyncChangeUnits::Skip
+title: IEnumSyncChangeUnits::Skip (winsync.h)
 author: windows-sdk-content
 description: This method is not implemented.
 old-location: winsync\ienumsyncchangeunits_skip.htm

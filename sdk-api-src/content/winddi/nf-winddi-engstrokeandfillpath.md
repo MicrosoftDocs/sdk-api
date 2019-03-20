@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngStrokeAndFillPath
-title: EngStrokeAndFillPath function
+title: EngStrokeAndFillPath function (winddi.h)
 author: windows-sdk-content
 description: The EngStrokeAndFillPath function causes GDI to fill a path and stroke it at the same time.
 old-location: display\engstrokeandfillpath.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:sbtsv.ITsSbLoadBalancing
-title: ITsSbLoadBalancing
+title: ITsSbLoadBalancing (sbtsv.h)
 author: windows-sdk-content
 description: Exposes methods you can use to provide a custom load-balancing algorithm.
 old-location: termserv\itssbloadbalancing.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IPrint.SetInitialPageNum
-title: IPrint::SetInitialPageNum
+title: IPrint::SetInitialPageNum (docobj.h)
 author: windows-sdk-content
 description: Sets the page number of the first page of a document.
 old-location: com\iprint_setinitialpagenum.htm

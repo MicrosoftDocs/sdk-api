@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFContentInfo.GetProfile
-title: IMFASFContentInfo::GetProfile
+title: IMFASFContentInfo::GetProfile (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves an Advanced Systems Format (ASF) profile that describes the ASF content.
 old-location: mf\imfasfcontentinfo_getprofile.htm

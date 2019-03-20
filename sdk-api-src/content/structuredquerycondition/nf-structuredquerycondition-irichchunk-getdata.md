@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquerycondition.IRichChunk.GetData
-title: IRichChunk::GetData
+title: IRichChunk::GetData (structuredquerycondition.h)
 author: windows-sdk-content
 description: Retrieves the PROPVARIANT and input string that represents a chunk of data.
 old-location: search\_search_IRichChunk_GetData.htm

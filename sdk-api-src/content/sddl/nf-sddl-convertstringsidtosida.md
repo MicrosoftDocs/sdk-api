@@ -1,6 +1,6 @@
 ---
 UID: NF:sddl.ConvertStringSidToSidA
-title: ConvertStringSidToSidA function
+title: ConvertStringSidToSidA function (sddl.h)
 author: windows-sdk-content
 description: Converts a string-format security identifier (SID) into a valid, functional SID. You can use this function to retrieve a SID that the ConvertSidToStringSid function converted to string format.
 old-location: security\convertstringsidtosid.htm

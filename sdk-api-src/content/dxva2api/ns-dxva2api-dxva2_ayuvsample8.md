@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva2api._DXVA2_AYUVSample8
-title: DXVA2_AYUVSample8
+title: DXVA2_AYUVSample8 (dxva2api.h)
 author: windows-sdk-content
 description: Defines an 8-bit AYUV pixel value.
 old-location: mf\dxva2_ayuvsample8.htm

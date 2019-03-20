@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.SHCreateItemFromParsingName
-title: SHCreateItemFromParsingName function
+title: SHCreateItemFromParsingName function (shobjidl_core.h)
 author: windows-sdk-content
 description: Creates and initializes a Shell item object from a parsing name.
 old-location: shell\SHCreateItemFromParsingName.htm

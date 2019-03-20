@@ -1,6 +1,6 @@
 ---
 UID: NF:lmuse.NetUseDel
-title: NetUseDel function
+title: NetUseDel function (lmuse.h)
 author: windows-sdk-content
 description: The NetUseDel function ends a connection to a shared resource.
 old-location: netmgmt\netusedel.htm

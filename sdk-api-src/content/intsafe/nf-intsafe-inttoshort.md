@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.IntToShort
-title: IntToShort function
+title: IntToShort function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type INT to a value of type SHORT.
 old-location: shell\IntToShort.htm

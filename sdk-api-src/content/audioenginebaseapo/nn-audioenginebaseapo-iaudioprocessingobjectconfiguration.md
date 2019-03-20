@@ -1,6 +1,6 @@
 ---
 UID: NN:audioenginebaseapo.IAudioProcessingObjectConfiguration
-title: IAudioProcessingObjectConfiguration
+title: IAudioProcessingObjectConfiguration (audioenginebaseapo.h)
 author: windows-sdk-content
 description: The IAudioProcessingObjectConfiguration interface is used to configure the APO. This interface uses its methods to lock and unlock the APO for processing.
 old-location: audio\iaudioprocessingobjectconfiguration.htm

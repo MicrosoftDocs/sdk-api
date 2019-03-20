@@ -1,6 +1,6 @@
 ---
 UID: NF:peerdist.PeerDistServerPublishCompleteStream
-title: PeerDistServerPublishCompleteStream function
+title: PeerDistServerPublishCompleteStream function (peerdist.h)
 author: windows-sdk-content
 description: PeerDistServerPublishCompleteStream function completes the process of adding data to the stream.
 old-location: p2p\peerdistserverpublishcompletestream.htm

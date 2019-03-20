@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IBDA_Topology
-title: IBDA_Topology
+title: IBDA_Topology (bdaiface.h)
 author: windows-sdk-content
 description: The IBDA_Topology interface is implemented on BDA device filters.
 old-location: mstv\ibda_topology.htm

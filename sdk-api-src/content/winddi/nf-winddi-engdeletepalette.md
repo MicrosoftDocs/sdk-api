@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngDeletePalette
-title: EngDeletePalette function
+title: EngDeletePalette function (winddi.h)
 author: windows-sdk-content
 description: The EngDeletePalette function sends a request to GDI to delete the specified palette.
 old-location: display\engdeletepalette.htm

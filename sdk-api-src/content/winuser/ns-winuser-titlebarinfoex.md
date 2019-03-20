@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagTITLEBARINFOEX
-title: TITLEBARINFOEX
+title: TITLEBARINFOEX (winuser.h)
 author: windows-sdk-content
 description: Expands on the information described in the TITLEBARINFO structure by including the coordinates of each element of the title bar.
 old-location: winmsg\titlebarinfoex.htm

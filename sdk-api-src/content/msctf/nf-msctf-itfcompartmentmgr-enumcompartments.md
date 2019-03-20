@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCompartmentMgr.EnumCompartments
-title: ITfCompartmentMgr::EnumCompartments
+title: ITfCompartmentMgr::EnumCompartments (msctf.h)
 author: windows-sdk-content
 description: The ITfCompartmentMgr::EnumCompartments method obtains an enumerator that contains the GUID of the compartments within the compartment manager.
 old-location: tsf\itfcompartmentmgr_enumcompartments.htm

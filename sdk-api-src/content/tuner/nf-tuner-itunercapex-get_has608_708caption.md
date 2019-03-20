@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITunerCapEx.get_Has608_708Caption
-title: ITunerCapEx::get_Has608_708Caption
+title: ITunerCapEx::get_Has608_708Caption (tuner.h)
 author: windows-sdk-content
 description: Gets a flag indicating whether a BDA tuner device supports 608/708 closed captioning for ATSC, digital cable, or analog cable. In 608/708 closed captioning, the broadcast includes closed-captioning data.
 old-location: mstv\itunercapex_has608_708caption.htm

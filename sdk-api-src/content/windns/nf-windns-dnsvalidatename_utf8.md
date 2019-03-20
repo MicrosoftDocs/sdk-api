@@ -1,6 +1,6 @@
 ---
 UID: NF:windns.DnsValidateName_UTF8
-title: DnsValidateName_UTF8 function
+title: DnsValidateName_UTF8 function (windns.h)
 author: windows-sdk-content
 description: The DnsValidateName function validates the status of a specified DNS name.
 old-location: dns\dnsvalidatename.htm

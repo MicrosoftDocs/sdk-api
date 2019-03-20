@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1107
-title: SERVER_INFO_1107
+title: SERVER_INFO_1107 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1107 structure specifies the number of users that can simultaneously log on to the specified server.
 old-location: netmgmt\server_info_1107_str.htm

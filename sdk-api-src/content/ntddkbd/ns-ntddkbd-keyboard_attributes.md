@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddkbd._KEYBOARD_ATTRIBUTES
-title: KEYBOARD_ATTRIBUTES
+title: KEYBOARD_ATTRIBUTES (ntddkbd.h)
 author: windows-sdk-content
 description: KEYBOARD_ATTRIBUTES specifies the attributes of a keyboard.
 old-location: hid\keyboard_attributes.htm

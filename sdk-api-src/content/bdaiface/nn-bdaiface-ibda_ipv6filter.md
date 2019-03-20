@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IBDA_IPV6Filter
-title: IBDA_IPV6Filter
+title: IBDA_IPV6Filter (bdaiface.h)
 author: windows-sdk-content
 description: This interface is not supported.
 old-location: mstv\ibda_ipv6filter.htm

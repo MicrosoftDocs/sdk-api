@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IConditionGenerator.Initialize
-title: IConditionGenerator::Initialize
+title: IConditionGenerator::Initialize (structuredquery.h)
 author: windows-sdk-content
 description: Resets all states of the interface to default values and retrieves any necessary information from the schema.
 old-location: search\_search_IConditionGenerator_Initialize.htm

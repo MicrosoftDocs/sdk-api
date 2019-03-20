@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncVideoContentType
-title: eAVEncVideoContentType
+title: eAVEncVideoContentType (codecapi.h)
 author: windows-sdk-content
 description: Specifies the type of video content.
 old-location: mf\eavencvideocontenttype.htm

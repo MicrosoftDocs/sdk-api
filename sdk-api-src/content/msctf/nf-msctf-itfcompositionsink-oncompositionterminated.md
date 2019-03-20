@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCompositionSink.OnCompositionTerminated
-title: ITfCompositionSink::OnCompositionTerminated
+title: ITfCompositionSink::OnCompositionTerminated (msctf.h)
 author: windows-sdk-content
 description: ITfCompositionSink::OnCompositionTerminated method
 old-location: tsf\itfcompositionsink_oncompositionterminated.htm

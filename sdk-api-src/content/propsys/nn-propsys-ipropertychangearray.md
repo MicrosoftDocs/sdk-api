@@ -1,6 +1,6 @@
 ---
 UID: NN:propsys.IPropertyChangeArray
-title: IPropertyChangeArray
+title: IPropertyChangeArray (propsys.h)
 author: windows-sdk-content
 description: Exposes methods for several multiple change operations that may be passed to IFileOperation.
 old-location: properties\IPropertyChangeArray.htm

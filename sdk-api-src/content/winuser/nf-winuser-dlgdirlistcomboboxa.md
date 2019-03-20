@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DlgDirListComboBoxA
-title: DlgDirListComboBoxA function
+title: DlgDirListComboBoxA function (winuser.h)
 author: windows-sdk-content
 description: Replaces the contents of a combo box with the names of the subdirectories and files in a specified directory. You can filter the list of names by specifying a set of file attributes. The list of names can include mapped drive letters.
 old-location: controls\DlgDirListComboBox.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeOSVersion.get_OSVersion
-title: IX509AttributeOSVersion::get_OSVersion
+title: IX509AttributeOSVersion::get_OSVersion (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the client operating system version information.
 old-location: security\ix509attributeosversioner_osversion_property.htm

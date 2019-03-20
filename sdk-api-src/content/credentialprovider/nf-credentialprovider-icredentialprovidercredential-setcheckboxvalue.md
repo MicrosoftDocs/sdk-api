@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.SetCheckboxValue
-title: ICredentialProviderCredential::SetCheckboxValue
+title: ICredentialProviderCredential::SetCheckboxValue (credentialprovider.h)
 author: windows-sdk-content
 description: Enables a Logon UI and Credential UI to indicate that a checkbox value has changed.
 old-location: shell\ICredentialProviderCredential_SetCheckboxValue.htm

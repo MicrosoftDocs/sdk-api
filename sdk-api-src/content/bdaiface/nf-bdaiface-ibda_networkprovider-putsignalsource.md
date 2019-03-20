@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_NetworkProvider.PutSignalSource
-title: IBDA_NetworkProvider::PutSignalSource
+title: IBDA_NetworkProvider::PutSignalSource (bdaiface.h)
 author: windows-sdk-content
 description: The PutSignalSource method specifies the signal source.
 old-location: mstv\ibda_networkprovider_putsignalsource.htm

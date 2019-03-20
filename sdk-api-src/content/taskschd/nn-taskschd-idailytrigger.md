@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.IDailyTrigger
-title: IDailyTrigger
+title: IDailyTrigger (taskschd.h)
 author: windows-sdk-content
 description: Represents a trigger that starts a task based on a daily schedule.
 old-location: taskschd\idailytrigger.htm

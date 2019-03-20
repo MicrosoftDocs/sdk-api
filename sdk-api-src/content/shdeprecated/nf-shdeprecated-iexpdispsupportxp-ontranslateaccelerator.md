@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IExpDispSupportXP.OnTranslateAccelerator
-title: IExpDispSupportXP::OnTranslateAccelerator
+title: IExpDispSupportXP::OnTranslateAccelerator (shdeprecated.h)
 author: windows-sdk-content
 description: Not implemented.
 old-location: shell\IExpDispSupportXP_OnTranslateAccelerator.htm

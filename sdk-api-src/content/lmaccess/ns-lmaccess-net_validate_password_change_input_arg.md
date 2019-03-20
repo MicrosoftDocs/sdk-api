@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG
-title: NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG
+title: NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG (lmaccess.h)
 author: windows-sdk-content
 description: A client application passes the NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG structure to the NetValidatePasswordPolicy function when the application requests a password change validation.
 old-location: netmgmt\net_validate_password_change_input_arg.htm

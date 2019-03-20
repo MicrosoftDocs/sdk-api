@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmExportImport.ExportQuotaTemplates
-title: IFsrmExportImport::ExportQuotaTemplates
+title: IFsrmExportImport::ExportQuotaTemplates (fsrm.h)
 author: windows-sdk-content
 description: Exports one or more quota templates to the specified file.
 old-location: fsrm\ifsrmexportimport_exportquotatemplates.htm

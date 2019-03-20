@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioClient.ActivateSpatialAudioStream
-title: ISpatialAudioClient::ActivateSpatialAudioStream
+title: ISpatialAudioClient::ActivateSpatialAudioStream (spatialaudioclient.h)
 author: windows-sdk-content
 description: Activates and initializes spatial audio stream using one of the spatial audio stream activation structures.
 old-location: coreaudio\ispatialaudioclient_activatespatialaudiostream.htm

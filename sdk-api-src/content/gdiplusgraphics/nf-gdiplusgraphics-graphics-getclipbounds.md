@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetClipBounds
-title: Graphics::GetClipBounds
+title: Graphics::GetClipBounds (gdiplusgraphics.h)
 author: windows-sdk-content
 description: This topic lists the GetClipBounds methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetClipBounds_Methods.htm

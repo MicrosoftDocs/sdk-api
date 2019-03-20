@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._ATTRIBUTESYNTAX
-title: ATTRIBUTESYNTAX
+title: ATTRIBUTESYNTAX (sdoias.h)
 author: windows-sdk-content
 description: Each value from the ATTRIBUTESYNTAX enumeration type specifies a possible attribute syntax.
 old-location: nps\SDO_attributesyntax.htm

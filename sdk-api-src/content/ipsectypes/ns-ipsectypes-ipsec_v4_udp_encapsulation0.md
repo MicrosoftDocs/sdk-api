@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_V4_UDP_ENCAPSULATION0_
-title: IPSEC_V4_UDP_ENCAPSULATION0
+title: IPSEC_V4_UDP_ENCAPSULATION0 (ipsectypes.h)
 author: windows-sdk-content
 description: Stores the User Datagram Protocol (UDP) encapsulation ports for Encapsulating Security Payload (ESP) encapsulation.
 old-location: fwp\ipsec_v4_udp_encapsulation0_struct.htm

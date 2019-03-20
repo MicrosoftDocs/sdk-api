@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DBaseTexture9.SetLOD
-title: IDirect3DBaseTexture9::SetLOD
+title: IDirect3DBaseTexture9::SetLOD (d3d9helper.h)
 author: windows-sdk-content
 description: Sets the most detailed level-of-detail for a managed texture.
 old-location: direct3d9\idirect3dbasetexture9__setlod.htm

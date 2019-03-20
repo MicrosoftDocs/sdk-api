@@ -1,6 +1,6 @@
 ---
 UID: NF:dsclient.IDsDisplaySpecifier.GetAttributeADsType
-title: IDsDisplaySpecifier::GetAttributeADsType
+title: IDsDisplaySpecifier::GetAttributeADsType (dsclient.h)
 author: windows-sdk-content
 description: Retrieves the attribute type for a given attribute.
 old-location: ad\idsdisplayspecifier_getattributeadstype.htm

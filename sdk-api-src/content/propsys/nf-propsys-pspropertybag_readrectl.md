@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadRECTL
-title: PSPropertyBag_ReadRECTL function
+title: PSPropertyBag_ReadRECTL function (propsys.h)
 author: windows-sdk-content
 description: Retrieves the coordinates of a rectangle stored in a property contained in a specified property bag.
 old-location: properties\PSPropertyBag_ReadRECTL.htm

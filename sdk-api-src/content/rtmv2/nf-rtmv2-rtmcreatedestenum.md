@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmCreateDestEnum
-title: RtmCreateDestEnum function
+title: RtmCreateDestEnum function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmCreateDestEnum function starts an enumeration of the destinations in the routing table. A client can enumerate destinations for one or more views, or for all views.
 old-location: rras\rtmcreatedestenum.htm

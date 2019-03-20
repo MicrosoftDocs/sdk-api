@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiEnumComponentQualifiersW
-title: MsiEnumComponentQualifiersW function
+title: MsiEnumComponentQualifiersW function (msi.h)
 author: windows-sdk-content
 description: The MsiEnumComponentQualifiers function enumerates the advertised qualifiers for the given component. This function retrieves one qualifier each time it is called.
 old-location: setup\msienumcomponentqualifiers.htm

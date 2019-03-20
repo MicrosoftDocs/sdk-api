@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumParams
-title: IMetaDataImport::EnumParams
+title: IMetaDataImport::EnumParams (rometadataapi.h)
 author: windows-sdk-content
 description: Enumerates ParamDef tokens representing the parameters of the method referenced by the specified MethodDef token.
 old-location: winrt\imetadataimport_enumparams.htm

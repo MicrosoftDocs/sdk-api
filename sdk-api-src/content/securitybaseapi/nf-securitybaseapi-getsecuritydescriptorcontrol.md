@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.GetSecurityDescriptorControl
-title: GetSecurityDescriptorControl function
+title: GetSecurityDescriptorControl function (securitybaseapi.h)
 author: windows-sdk-content
 description: Retrieves a security descriptor control and revision information.
 old-location: security\getsecuritydescriptorcontrol.htm

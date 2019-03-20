@@ -1,6 +1,6 @@
 ---
 UID: NS:rpcndr._NDR_USER_MARSHAL_INFO
-title: NDR_USER_MARSHAL_INFO
+title: NDR_USER_MARSHAL_INFO (rpcndr.h)
 author: windows-sdk-content
 description: The NDR_USER_MARSHAL_INFO structure holds information about the state of an RPC call that can be passed to wire_marshal and user_marshal helper functions.
 old-location: rpc\ndr_user_marshal_info.htm

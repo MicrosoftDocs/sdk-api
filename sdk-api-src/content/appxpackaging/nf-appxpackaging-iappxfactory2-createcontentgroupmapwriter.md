@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxFactory2.CreateContentGroupMapWriter
-title: IAppxFactory2::CreateContentGroupMapWriter
+title: IAppxFactory2::CreateContentGroupMapWriter (appxpackaging.h)
 author: windows-sdk-content
 description: Creates an IAppxContentGroupMapWriter.
 old-location: appxpkg\iappxfactory2_createcontentgroupmapwriter.htm

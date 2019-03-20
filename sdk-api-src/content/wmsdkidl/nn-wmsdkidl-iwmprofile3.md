@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMProfile3
-title: IWMProfile3
+title: IWMProfile3 (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMProfile3 interface provides enhanced features for profiles.
 old-location: wmformat\iwmprofile3.htm

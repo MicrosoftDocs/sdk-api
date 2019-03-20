@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMCreateEnablingBitsEncryptor
-title: DRMCreateEnablingBitsEncryptor function
+title: DRMCreateEnablingBitsEncryptor function (msdrm.h)
 author: windows-sdk-content
 description: Creates an AD RMS encrypting object that is used to encrypt content data.
 old-location: rm\drmcreateenablingbitsencryptor.htm

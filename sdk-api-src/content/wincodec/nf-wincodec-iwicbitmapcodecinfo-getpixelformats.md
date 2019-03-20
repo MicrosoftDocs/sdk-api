@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.GetPixelFormats
-title: IWICBitmapCodecInfo::GetPixelFormats
+title: IWICBitmapCodecInfo::GetPixelFormats (wincodec.h)
 author: windows-sdk-content
 description: Retrieves the pixel formats the codec supports.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_getpixelformats.htm

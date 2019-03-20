@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ComboBox_GetItemData
-title: ComboBox_GetItemData macro
+title: ComboBox_GetItemData macro (windowsx.h)
 author: windows-sdk-content
 description: Gets the application-defined value associated with the specified list item in a combo box. You can use this macro or send the CB_GETITEMDATA message explicitly.
 old-location: controls\ComboBox_GetItemData.htm

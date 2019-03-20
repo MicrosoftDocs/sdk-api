@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.Rect.Rect(IN const Point &,IN const Size &)
-title: Rect::Rect(IN const Point &,IN const Size &)
+title: Rect::Rect(IN const Point &,IN const Size &) (gdiplustypes.h)
 author: windows-sdk-content
 description: Creates a Rect object by using a Point object to initialize the X and Y data members and a Size object to initialize the Width and Height data members.
 old-location: gdiplus\_gdiplus_CLASS_Rect_Rect_location_size_.htm

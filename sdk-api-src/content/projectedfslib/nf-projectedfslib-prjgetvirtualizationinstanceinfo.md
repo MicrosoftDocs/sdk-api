@@ -1,6 +1,6 @@
 ---
 UID: NF:projectedfslib.PrjGetVirtualizationInstanceInfo
-title: PrjGetVirtualizationInstanceInfo function
+title: PrjGetVirtualizationInstanceInfo function (projectedfslib.h)
 author: windows-sdk-content
 description: Retrieves information about the virtualization instance.
 old-location: projfs\prjgetvirtualizationinstanceinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1Ink.SetStartPoint(const D2D1_INK_POINT)
-title: ID2D1Ink::SetStartPoint(const D2D1_INK_POINT)
+title: ID2D1Ink::SetStartPoint(const D2D1_INK_POINT) (d2d1_3.h)
 author: windows-sdk-content
 description: Sets the starting point for this ink object. This determines where this ink object will start rendering.
 old-location: direct2d\id2d1ink_setstartpoint.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertificatePolicies.get_Count
-title: ICertificatePolicies::get_Count
+title: ICertificatePolicies::get_Count (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the number of objects in the collection.
 old-location: security\icertificatepolicies_count_property.htm

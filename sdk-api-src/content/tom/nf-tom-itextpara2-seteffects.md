@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara2.SetEffects
-title: ITextPara2::SetEffects
+title: ITextPara2::SetEffects (tom.h)
 author: windows-sdk-content
 description: Sets the paragraph format effects.
 old-location: controls\itextpara2_seteffects.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsResult.GetColumn
-title: ISettingsResult::GetColumn
+title: ISettingsResult::GetColumn (wcmconfig.h)
 author: windows-sdk-content
 description: Returns the column number where the error occurred.
 old-location: smi\isettingsresult_getcolumn.htm

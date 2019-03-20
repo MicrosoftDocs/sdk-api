@@ -1,6 +1,6 @@
 ---
 UID: NF:identitystore.IIdentityStore.GetAt
-title: IIdentityStore::GetAt
+title: IIdentityStore::GetAt (identitystore.h)
 author: windows-sdk-content
 description: Retrieves an IIdentityProvider interface pointer for the specified identity provider.
 old-location: security\iidentitystore_getat.htm

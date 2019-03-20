@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.APPLICATION_VIEW_SIZE_PREFERENCE
-title: APPLICATION_VIEW_SIZE_PREFERENCE
+title: APPLICATION_VIEW_SIZE_PREFERENCE (shobjidl_core.h)
 author: windows-sdk-content
 description: Defines the set of possible general window (app view) size preferences. Used by ILaunchSourceViewSizePreference::GetSourceViewSizePreference and ILaunchTargetViewSizePreference::GetTargetViewSizePreference.
 old-location: shell\APPLICATION_VIEW_SIZE_PREFERENCE.htm

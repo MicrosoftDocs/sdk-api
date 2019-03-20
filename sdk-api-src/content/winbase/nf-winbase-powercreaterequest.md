@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.PowerCreateRequest
-title: PowerCreateRequest function
+title: PowerCreateRequest function (winbase.h)
 author: windows-sdk-content
 description: Creates a new power request object.
 old-location: base\powercreaterequest.htm

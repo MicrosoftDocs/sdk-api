@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SoundSentry
-title: SoundSentry function
+title: SoundSentry function (winuser.h)
 author: windows-sdk-content
 description: Triggers a visual signal to indicate that a sound is playing.
 old-location: winmsg\soundsentry.htm

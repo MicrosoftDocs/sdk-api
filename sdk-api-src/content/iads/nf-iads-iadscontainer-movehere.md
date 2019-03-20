@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsContainer.MoveHere
-title: IADsContainer::MoveHere
+title: IADsContainer::MoveHere (iads.h)
 author: windows-sdk-content
 description: Moves a specified object to the container that implements this interface.
 old-location: adsi\iadscontainer_movehere.htm

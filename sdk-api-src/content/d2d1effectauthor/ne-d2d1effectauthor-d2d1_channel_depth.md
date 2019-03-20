@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effectauthor.D2D1_CHANNEL_DEPTH
-title: D2D1_CHANNEL_DEPTH
+title: D2D1_CHANNEL_DEPTH (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Allows a caller to control the channel depth of a stage in the rendering pipeline.
 old-location: direct2d\d2d1_channel_depth.htm

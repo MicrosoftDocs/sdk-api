@@ -1,6 +1,6 @@
 ---
 UID: NF:appmodel.AppPolicyGetLifecycleManagement
-title: AppPolicyGetLifecycleManagement function
+title: AppPolicyGetLifecycleManagement function (appmodel.h)
 author: windows-sdk-content
 description: Retrieves a value indicating whether a process can be suspended/resumed by the Process Lifecycle Manager (PLM).
 old-location: appxpkg\apppolicygetlifecyclemanagement_function.htm

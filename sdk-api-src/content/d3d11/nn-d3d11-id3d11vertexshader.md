@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11VertexShader
-title: ID3D11VertexShader
+title: ID3D11VertexShader (d3d11.h)
 author: windows-sdk-content
 description: A vertex-shader interface manages an executable program (a vertex shader) that controls the vertex-shader stage.
 old-location: direct3d11\id3d11vertexshader.htm

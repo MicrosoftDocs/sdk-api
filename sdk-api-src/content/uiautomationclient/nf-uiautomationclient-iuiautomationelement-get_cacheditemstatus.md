@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedItemStatus
-title: IUIAutomationElement::get_CachedItemStatus
+title: IUIAutomationElement::get_CachedItemStatus (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached description of the status of an item within an element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedItemStatus.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.InvokePattern_Invoke
-title: InvokePattern_Invoke function
+title: InvokePattern_Invoke function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Sends a request to activate a control and initiate its single, unambiguous action.
 old-location: winauto\uiauto_InvokePattern_InvokeConPat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.SetUrlCacheEntryGroupA
-title: SetUrlCacheEntryGroupA function
+title: SetUrlCacheEntryGroupA function (wininet.h)
 author: windows-sdk-content
 description: Adds entries to or removes entries from a cache group.
 old-location: wininet\seturlcacheentrygroup.htm

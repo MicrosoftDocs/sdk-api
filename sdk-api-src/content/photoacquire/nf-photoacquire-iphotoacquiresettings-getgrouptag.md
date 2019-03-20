@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.GetGroupTag
-title: IPhotoAcquireSettings::GetGroupTag
+title: IPhotoAcquireSettings::GetGroupTag (photoacquire.h)
 author: windows-sdk-content
 description: The GetGroupTag method retrieves a tag string for the group of files being downloaded from the device.
 old-location: picacq\iphotoacquiresettings_getgrouptag.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:evntcons._EVENT_HEADER_EXTENDED_DATA_ITEM
-title: EVENT_HEADER_EXTENDED_DATA_ITEM
+title: EVENT_HEADER_EXTENDED_DATA_ITEM (evntcons.h)
 author: windows-sdk-content
 description: Defines the extended data that ETW collects as part of the event data.
 old-location: etw\event_header_extended_data_item.htm

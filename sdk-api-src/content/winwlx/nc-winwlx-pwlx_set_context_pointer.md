@@ -1,6 +1,6 @@
 ---
 UID: NC:winwlx.PWLX_SET_CONTEXT_POINTER
-title: PWLX_SET_CONTEXT_POINTER
+title: PWLX_SET_CONTEXT_POINTER (winwlx.h)
 author: windows-sdk-content
 description: Called by GINA to specify the context pointer passed by Winlogon as the first parameter to all future calls to GINA functions.
 old-location: security\wlxsetcontextpointer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mediaobj._DMO_PROCESS_OUTPUT_FLAGS
-title: "_DMO_PROCESS_OUTPUT_FLAGS"
+title: "_DMO_PROCESS_OUTPUT_FLAGS" (mediaobj.h)
 author: windows-sdk-content
 description: The DMO_PROCESS_OUTPUT_FLAGS enumeration defines flags that specify output processing requests.
 old-location: dshow\dmo_process_output_flags.htm

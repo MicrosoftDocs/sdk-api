@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertySystem.EnumeratePropertyDescriptions
-title: IPropertySystem::EnumeratePropertyDescriptions
+title: IPropertySystem::EnumeratePropertyDescriptions (propsys.h)
 author: windows-sdk-content
 description: Gets an instance of the subsystem object that implements IPropertyDescriptionList, to obtain either the entire or a partial list of property descriptions in the system.
 old-location: properties\IPropertySystem_EnumeratePropertyDescriptions.htm

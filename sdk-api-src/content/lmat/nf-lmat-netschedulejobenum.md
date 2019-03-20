@@ -1,6 +1,6 @@
 ---
 UID: NF:lmat.NetScheduleJobEnum
-title: NetScheduleJobEnum function
+title: NetScheduleJobEnum function (lmat.h)
 author: windows-sdk-content
 description: The NetScheduleJobEnum function lists the jobs queued on a specified computer. This function requires that the schedule service be started.
 old-location: netmgmt\netschedulejobenum.htm

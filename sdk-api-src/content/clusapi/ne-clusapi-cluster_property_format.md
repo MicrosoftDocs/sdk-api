@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.CLUSTER_PROPERTY_FORMAT
-title: CLUSTER_PROPERTY_FORMAT
+title: CLUSTER_PROPERTY_FORMAT (clusapi.h)
 author: windows-sdk-content
 description: Specifies the data type of a property value in a property list.
 old-location: mscs\cluster_property_format.htm

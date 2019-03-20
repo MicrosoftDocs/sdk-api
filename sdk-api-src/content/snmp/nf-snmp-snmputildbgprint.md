@@ -1,6 +1,6 @@
 ---
 UID: NF:snmp.SnmpUtilDbgPrint
-title: SnmpUtilDbgPrint function
+title: SnmpUtilDbgPrint function (snmp.h)
 author: windows-sdk-content
 description: The SnmpUtilDbgPrint function enables debugging output from the SNMP service. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputildbgprint.htm

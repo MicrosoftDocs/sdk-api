@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrComplexArrayMarshall
-title: NdrComplexArrayMarshall function
+title: NdrComplexArrayMarshall function (rpcndr.h)
 author: windows-sdk-content
 description: The NdrComplexArrayMarshall function marshals the complex array into a network buffer.
 old-location: winprog\ndrcomplexarraymarshall.htm

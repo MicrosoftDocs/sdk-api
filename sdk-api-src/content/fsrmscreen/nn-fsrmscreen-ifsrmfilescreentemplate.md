@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmscreen.IFsrmFileScreenTemplate
-title: IFsrmFileScreenTemplate
+title: IFsrmFileScreenTemplate (fsrmscreen.h)
 author: windows-sdk-content
 description: Used to configure templates from which new file screens can be derived.
 old-location: fsrm\ifsrmfilescreentemplate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IJolietDiscMaster.GetDataBlockSize
-title: IJolietDiscMaster::GetDataBlockSize
+title: IJolietDiscMaster::GetDataBlockSize (imapi.h)
 author: windows-sdk-content
 description: Retrieves the size of a data block.
 old-location: imapi\ijolietdiscmaster_getdatablocksize.htm

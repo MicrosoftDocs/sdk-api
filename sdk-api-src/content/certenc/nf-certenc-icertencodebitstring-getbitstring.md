@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeBitString.GetBitString
-title: ICertEncodeBitString::GetBitString
+title: ICertEncodeBitString::GetBitString (certenc.h)
 author: windows-sdk-content
 description: Returns the string of bits in the object's bit string.
 old-location: security\icertencodebitstring_getbitstring.htm

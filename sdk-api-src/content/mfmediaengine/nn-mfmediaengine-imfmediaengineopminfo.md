@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineOPMInfo
-title: IMFMediaEngineOPMInfo
+title: IMFMediaEngineOPMInfo (mfmediaengine.h)
 author: windows-sdk-content
 description: Provides methods for getting information about the Output Protection Manager (OPM).
 old-location: mf\imfmediaengineopminfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamList.RemoveStream
-title: IWMStreamList::RemoveStream
+title: IWMStreamList::RemoveStream (wmsdkidl.h)
 author: windows-sdk-content
 description: The RemoveStream method removes a stream from the list.
 old-location: wmformat\iwmstreamlist_removestream.htm

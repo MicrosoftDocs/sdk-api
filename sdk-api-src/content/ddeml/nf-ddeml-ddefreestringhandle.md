@@ -1,6 +1,6 @@
 ---
 UID: NF:ddeml.DdeFreeStringHandle
-title: DdeFreeStringHandle function
+title: DdeFreeStringHandle function (ddeml.h)
 author: windows-sdk-content
 description: Frees a string handle in the calling application.
 old-location: dataxchg\ddefreestringhandle.htm

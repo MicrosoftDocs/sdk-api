@@ -1,6 +1,6 @@
 ---
 UID: NN:notificationactivationcallback.INotificationActivationCallback
-title: INotificationActivationCallback
+title: INotificationActivationCallback (notificationactivationcallback.h)
 author: windows-sdk-content
 description: Receives notification messages when an app is triggered through a toast from the action center.
 old-location: win32_tile_badge_notif\inotificationactivationcallback.htm

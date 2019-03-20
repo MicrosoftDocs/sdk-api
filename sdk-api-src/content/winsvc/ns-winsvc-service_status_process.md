@@ -1,6 +1,6 @@
 ---
 UID: NS:winsvc._SERVICE_STATUS_PROCESS
-title: SERVICE_STATUS_PROCESS
+title: SERVICE_STATUS_PROCESS (winsvc.h)
 author: windows-sdk-content
 description: Contains process status information for a service. The ControlServiceEx, EnumServicesStatusEx, NotifyServiceStatusChange, and QueryServiceStatusEx functions use this structure.
 old-location: base\service_status_process_str.htm

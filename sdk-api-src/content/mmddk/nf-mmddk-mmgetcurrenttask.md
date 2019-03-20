@@ -1,6 +1,6 @@
 ---
 UID: NF:mmddk.mmGetCurrentTask
-title: mmGetCurrentTask function
+title: mmGetCurrentTask function (mmddk.h)
 author: windows-sdk-content
 description: The mmGetCurrentTask function is deprecated. Applications should not use this function.
 old-location: multimedia\mmgetcurrenttask.htm

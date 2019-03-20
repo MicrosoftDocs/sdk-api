@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertySystem.GetPropertyDescription
-title: IPropertySystem::GetPropertyDescription
+title: IPropertySystem::GetPropertyDescription (propsys.h)
 author: windows-sdk-content
 description: Gets an instance of the subsystem object that implements IPropertyDescription, to obtain the property description for a given PROPERTYKEY.
 old-location: properties\IPropertySystem_GetPropertyDescription.htm

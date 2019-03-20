@@ -1,6 +1,6 @@
 ---
 UID: NS:featurestagingapi.FEATURE_ERROR
-title: FEATURE_ERROR
+title: FEATURE_ERROR (featurestagingapi.h)
 author: windows-sdk-content
 description: This structure is intended for infrastructure use only.
 old-location: winprog\feature_error.htm

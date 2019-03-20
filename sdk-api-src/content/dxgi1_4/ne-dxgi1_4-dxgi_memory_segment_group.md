@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgi1_4.DXGI_MEMORY_SEGMENT_GROUP
-title: DXGI_MEMORY_SEGMENT_GROUP
+title: DXGI_MEMORY_SEGMENT_GROUP (dxgi1_4.h)
 author: windows-sdk-content
 description: Specifies the memory segment group to use.
 old-location: direct3ddxgi\dxgi_memory_segment_group.htm

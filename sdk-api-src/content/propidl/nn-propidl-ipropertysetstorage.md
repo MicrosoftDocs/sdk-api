@@ -1,6 +1,6 @@
 ---
 UID: NN:propidl.IPropertySetStorage
-title: IPropertySetStorage
+title: IPropertySetStorage (propidl.h)
 author: windows-sdk-content
 description: The IPropertySetStorage interface creates, opens, deletes, and enumerates property set storages that support instances of the IPropertyStorage interface.
 old-location: stg\ipropertysetstorage.htm

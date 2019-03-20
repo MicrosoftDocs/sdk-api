@@ -1,6 +1,6 @@
 ---
 UID: NC:dxvahd.PDXVAHDSW_DestroyVideoProcessor
-title: PDXVAHDSW_DestroyVideoProcessor
+title: PDXVAHDSW_DestroyVideoProcessor (dxvahd.h)
 author: windows-sdk-content
 description: Destroys a sofware Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
 old-location: mf\pdxvahdsw_destroyvideoprocessor.htm

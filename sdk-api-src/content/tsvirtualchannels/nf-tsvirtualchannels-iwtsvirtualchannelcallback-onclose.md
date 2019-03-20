@@ -1,6 +1,6 @@
 ---
 UID: NF:tsvirtualchannels.IWTSVirtualChannelCallback.OnClose
-title: IWTSVirtualChannelCallback::OnClose
+title: IWTSVirtualChannelCallback::OnClose (tsvirtualchannels.h)
 author: windows-sdk-content
 description: Notifies the user that the channel has been closed.
 old-location: termserv\iwtsvirtualchannelcallback_onclose.htm

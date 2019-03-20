@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView.GetFolder
-title: IFolderView::GetFolder
+title: IFolderView::GetFolder (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the folder object.
 old-location: shell\IFolderView_GetFolder.htm

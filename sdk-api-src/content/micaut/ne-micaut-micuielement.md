@@ -1,6 +1,6 @@
 ---
 UID: NE:micaut.__MIDL___MIDL_itf_micaut_0000_0000_0001
-title: MICUIELEMENT
+title: MICUIELEMENT (micaut.h)
 author: windows-sdk-content
 description: Specifies the user interface (UI) elements of a math input control (MIC).
 old-location: tablet\micuielement.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.SetPostRestoreFailureMsg
-title: IVssComponent::SetPostRestoreFailureMsg
+title: IVssComponent::SetPostRestoreFailureMsg (vswriter.h)
 author: windows-sdk-content
 description: The SetPostRestoreFailureMsg method is used to create a message describing a failure in processing a PostRestore event.
 old-location: base\ivsscomponent_setpostrestorefailuremsg.htm

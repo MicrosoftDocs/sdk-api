@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.GetLocaleInfoW
-title: GetLocaleInfoW function
+title: GetLocaleInfoW function (winnls.h)
 author: windows-sdk-content
 description: Retrieves information about a locale specified by identifier.
 old-location: intl\getlocaleinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Pager_SetPos
-title: Pager_SetPos macro
+title: Pager_SetPos macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the scroll position for the pager control. You can use this macro or send the PGM_SETPOS message explicitly.
 old-location: controls\Pager_SetPos.htm

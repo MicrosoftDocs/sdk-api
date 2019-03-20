@@ -1,6 +1,6 @@
 ---
 UID: NN:callobj.ICallFrameWalker
-title: ICallFrameWalker
+title: ICallFrameWalker (callobj.h)
 author: windows-sdk-content
 description: Walks a stack frame looking for interesting values.
 old-location: com\icallframewalker.htm

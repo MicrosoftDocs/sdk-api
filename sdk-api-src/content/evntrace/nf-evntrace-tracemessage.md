@@ -1,6 +1,6 @@
 ---
 UID: NF:evntrace.TraceMessage
-title: TraceMessage function
+title: TraceMessage function (evntrace.h)
 author: windows-sdk-content
 description: The TraceMessage function sends an informational message to an event tracing session.
 old-location: etw\tracemessage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.get_WriteCertToUserDS
-title: IEnroll::get_WriteCertToUserDS
+title: IEnroll::get_WriteCertToUserDS (xenroll.h)
 author: windows-sdk-content
 description: The WriteCertToUserDS property of IEnroll4 sets or retrieves a Boolean value that determines whether the certificate is written to the user's Active Directory store.
 old-location: security\ienroll4_writecerttouserds.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_REVOCATION_INFO
-title: CERT_REVOCATION_INFO
+title: CERT_REVOCATION_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Indicates the revocation status of a certificate in a CERT_CHAIN_ELEMENT.
 old-location: security\cert_revocation_info.htm

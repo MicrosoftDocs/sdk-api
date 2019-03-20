@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioOutputEndpointRT.ReleaseOutputDataPointer
-title: IAudioOutputEndpointRT::ReleaseOutputDataPointer
+title: IAudioOutputEndpointRT::ReleaseOutputDataPointer (audioengineendpoint.h)
 author: windows-sdk-content
 description: Releases the pointer to the output buffer.
 old-location: termserv\iaudiooutputendpointrt_releaseoutputdatapointer.htm

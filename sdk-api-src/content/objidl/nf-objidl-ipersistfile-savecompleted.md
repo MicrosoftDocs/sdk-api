@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IPersistFile.SaveCompleted
-title: IPersistFile::SaveCompleted
+title: IPersistFile::SaveCompleted (objidl.h)
 author: windows-sdk-content
 description: Notifies the object that it can write to its file.
 old-location: com\ipersistfile_savecompleted.htm

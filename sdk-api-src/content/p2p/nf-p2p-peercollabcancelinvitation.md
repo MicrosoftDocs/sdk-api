@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabCancelInvitation
-title: PeerCollabCancelInvitation function
+title: PeerCollabCancelInvitation function (p2p.h)
 author: windows-sdk-content
 description: Cancels an invitation previously sent by the caller to a contact.
 old-location: p2p\peercollabcancelinvitation.htm

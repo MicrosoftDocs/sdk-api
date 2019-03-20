@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextStory.GetProperty
-title: ITextStory::GetProperty
+title: ITextStory::GetProperty (tom.h)
 author: windows-sdk-content
 description: Gets the value of the specified property.
 old-location: controls\itextstory_getproperty.htm

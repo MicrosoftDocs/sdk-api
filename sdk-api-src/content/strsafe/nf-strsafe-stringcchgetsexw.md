@@ -1,6 +1,6 @@
 ---
 UID: NF:strsafe.StringCchGetsExW
-title: StringCchGetsExW function
+title: StringCchGetsExW function (strsafe.h)
 author: windows-sdk-content
 description: Gets one line of text from stdin, up to and including the newline character ('\n').
 old-location: menurc\stringcchgetsex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolumeMF.AddAccessPath
-title: IVdsVolumeMF::AddAccessPath
+title: IVdsVolumeMF::AddAccessPath (vds.h)
 author: windows-sdk-content
 description: Adds an access path.
 old-location: base\ivdsvolumemf_addaccesspath.htm

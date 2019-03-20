@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_3.ID3D11UnorderedAccessView1.GetDesc1
-title: ID3D11UnorderedAccessView1::GetDesc1
+title: ID3D11UnorderedAccessView1::GetDesc1 (d3d11_3.h)
 author: windows-sdk-content
 description: Gets a description of the resource.
 old-location: direct3d11\id3d11unorderedaccessview1_getdesc1.htm

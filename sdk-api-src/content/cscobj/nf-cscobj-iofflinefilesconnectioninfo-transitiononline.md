@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesConnectionInfo.TransitionOnline
-title: IOfflineFilesConnectionInfo::TransitionOnline
+title: IOfflineFilesConnectionInfo::TransitionOnline (cscobj.h)
 author: windows-sdk-content
 description: Transitions an item online if possible.
 old-location: of\iofflinefilesconnectioninfo_transitiononline.htm

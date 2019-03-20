@@ -1,6 +1,6 @@
 ---
 UID: NF:npapi.NPGetCaps
-title: NPGetCaps function
+title: NPGetCaps function (npapi.h)
 author: windows-sdk-content
 description: Returns information about which services are supported on the network.
 old-location: security\npgetcaps.htm

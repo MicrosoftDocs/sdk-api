@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.core.interop.IAudioFrameNative.GetData
-title: IAudioFrameNative::core
+title: IAudioFrameNative::core (windows.media.core.interop.h)
 author: windows-sdk-content
 description: This method returns an interface that provides access to the audio data.
 old-location: winrt\iaudioframenative_getdata.htm

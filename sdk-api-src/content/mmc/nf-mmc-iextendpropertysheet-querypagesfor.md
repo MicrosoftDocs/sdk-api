@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IExtendPropertySheet.QueryPagesFor
-title: IExtendPropertySheet::QueryPagesFor
+title: IExtendPropertySheet::QueryPagesFor (mmc.h)
 author: windows-sdk-content
 description: Determines whether the object requires pages.
 old-location: mmc\iextendpropertysheet_querypagesfor.htm

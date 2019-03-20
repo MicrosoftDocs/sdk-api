@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.SetFlowDirection
-title: IDWriteTextFormat::SetFlowDirection
+title: IDWriteTextFormat::SetFlowDirection (dwrite.h)
 author: windows-sdk-content
 description: Sets the paragraph flow direction.
 old-location: directwrite\IDWriteTextFormat_SetFlowDirection.htm

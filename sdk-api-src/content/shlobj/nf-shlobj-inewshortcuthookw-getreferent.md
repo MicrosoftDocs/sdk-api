@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.INewShortcutHookW.GetReferent
-title: INewShortcutHookW::GetReferent
+title: INewShortcutHookW::GetReferent (shlobj.h)
 author: windows-sdk-content
 description: Gets the referent of the shortcut object.
 old-location: shell\INewShortcutHook_GetReferent.htm

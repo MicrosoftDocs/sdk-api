@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.GopherFindFirstFileW
-title: GopherFindFirstFileW function
+title: GopherFindFirstFileW function (wininet.h)
 author: windows-sdk-content
 description: Uses a Gopher locator and search criteria to create a session with the server and locate the requested documents, binary files, index servers, or directory trees.
 old-location: wininet\gopherfindfirstfile.htm

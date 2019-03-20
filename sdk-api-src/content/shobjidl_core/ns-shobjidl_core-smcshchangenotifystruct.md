@@ -1,6 +1,6 @@
 ---
 UID: NS:shobjidl_core.SHCSCHANGENOTIFYSTRUCT
-title: SMCSHCHANGENOTIFYSTRUCT
+title: SMCSHCHANGENOTIFYSTRUCT (shobjidl_core.h)
 author: windows-sdk-content
 description: Contains information about change notification. It is used by IShellMenuCallback::CallbackSM.
 old-location: shell\SMCSHCHANGENOTIFYSTRUCT.htm

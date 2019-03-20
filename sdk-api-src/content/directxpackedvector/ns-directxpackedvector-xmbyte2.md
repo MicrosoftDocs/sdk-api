@@ -1,6 +1,6 @@
 ---
 UID: NS:directxpackedvector.XMBYTE2
-title: XMBYTE2
+title: XMBYTE2 (directxpackedvector.h)
 author: windows-sdk-content
 description: A 2D vector where each component is a signed integer, 8-bits (1 byte) in length.
 old-location: dxmath\xmbyte2.htm

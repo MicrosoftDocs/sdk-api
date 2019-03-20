@@ -1,6 +1,6 @@
 ---
 UID: NS:windns.__unnamed_struct_12
-title: DNS_TXT_DATAA
+title: DNS_TXT_DATAA (windns.h)
 author: windows-sdk-content
 description: The DNS_TXT_DATA structure represents a DNS text (TXT) record as specified in section 3.3.14 of RFC 1035.
 old-location: dns\dns_txt_data.htm

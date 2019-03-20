@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.PreserveKey
-title: ITfKeystrokeMgr::PreserveKey
+title: ITfKeystrokeMgr::PreserveKey (msctf.h)
 author: windows-sdk-content
 description: ITfKeystrokeMgr::PreserveKey method
 old-location: tsf\itfkeystrokemgr_preservekey.htm

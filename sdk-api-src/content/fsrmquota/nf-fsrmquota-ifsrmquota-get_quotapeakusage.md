@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuota.get_QuotaPeakUsage
-title: IFsrmQuota::get_QuotaPeakUsage
+title: IFsrmQuota::get_QuotaPeakUsage (fsrmquota.h)
 author: windows-sdk-content
 description: Retrieves the highest amount of disk space usage charged to this quota.
 old-location: fsrm\ifsrmquota_quotapeakusage.htm

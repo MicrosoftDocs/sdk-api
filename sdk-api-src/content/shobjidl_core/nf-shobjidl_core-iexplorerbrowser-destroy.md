@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.Destroy
-title: IExplorerBrowser::Destroy
+title: IExplorerBrowser::Destroy (shobjidl_core.h)
 author: windows-sdk-content
 description: Destroys the browser.
 old-location: shell\IExplorerBrowser_Destroy.htm

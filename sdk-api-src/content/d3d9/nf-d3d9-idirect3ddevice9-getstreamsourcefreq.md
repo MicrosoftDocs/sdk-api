@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetStreamSourceFreq
-title: IDirect3DDevice9::GetStreamSourceFreq
+title: IDirect3DDevice9::GetStreamSourceFreq (d3d9.h)
 author: windows-sdk-content
 description: Gets the stream source frequency divider value.
 old-location: direct3d9\idirect3ddevice9__getstreamsourcefreq.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionEvents.OnSessionDisconnected
-title: IAudioSessionEvents::OnSessionDisconnected
+title: IAudioSessionEvents::OnSessionDisconnected (audiopolicy.h)
 author: windows-sdk-content
 description: The OnSessionDisconnected method notifies the client that the audio session has been disconnected.
 old-location: coreaudio\iaudiosessionevents_onsessiondisconnected.htm

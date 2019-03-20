@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.VirtualLock
-title: VirtualLock function
+title: VirtualLock function (memoryapi.h)
 author: windows-sdk-content
 description: Locks the specified region of the process's virtual address space into physical memory, ensuring that subsequent access to the region will not incur a page fault.
 old-location: base\virtuallock.htm

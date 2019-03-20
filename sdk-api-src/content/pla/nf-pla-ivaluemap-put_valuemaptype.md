@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IValueMap.put_ValueMapType
-title: IValueMap::put_ValueMapType
+title: IValueMap::put_ValueMapType (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the type of items in the collection.
 old-location: pla\ivaluemap_valuemaptype.htm

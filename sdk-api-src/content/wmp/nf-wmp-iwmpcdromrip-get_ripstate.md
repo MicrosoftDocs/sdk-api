@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCdromRip.get_ripState
-title: IWMPCdromRip::get_ripState
+title: IWMPCdromRip::get_ripState (wmp.h)
 author: windows-sdk-content
 description: The get_ripState method retrieves an enumeration value that indicates the current state of the ripping process.
 old-location: wmp\iwmpcdromrip_get_ripstate.htm

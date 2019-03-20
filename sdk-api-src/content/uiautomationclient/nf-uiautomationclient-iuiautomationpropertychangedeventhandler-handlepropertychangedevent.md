@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationPropertyChangedEventHandler.HandlePropertyChangedEvent
-title: IUIAutomationPropertyChangedEventHandler::HandlePropertyChangedEvent
+title: IUIAutomationPropertyChangedEventHandler::HandlePropertyChangedEvent (uiautomationclient.h)
 author: windows-sdk-content
 description: Handles a Microsoft UI Automation property-changed event.
 old-location: winauto\uiauto_IUIAutomationPropertyChangedEventHandler_HandlePropertyChangedEvent.htm

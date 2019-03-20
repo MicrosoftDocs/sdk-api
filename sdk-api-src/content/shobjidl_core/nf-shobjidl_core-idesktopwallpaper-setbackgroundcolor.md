@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.SetBackgroundColor
-title: IDesktopWallpaper::SetBackgroundColor
+title: IDesktopWallpaper::SetBackgroundColor (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the color that is visible on the desktop when no image is displayed or when the desktop background has been disabled. This color is also used as a border when the desktop wallpaper does not fill the entire screen.
 old-location: shell\IDesktopWallpaper_SetBackgroundColor.htm

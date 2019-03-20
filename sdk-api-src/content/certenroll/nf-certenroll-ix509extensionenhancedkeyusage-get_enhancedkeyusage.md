@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionEnhancedKeyUsage.get_EnhancedKeyUsage
-title: IX509ExtensionEnhancedKeyUsage::get_EnhancedKeyUsage
+title: IX509ExtensionEnhancedKeyUsage::get_EnhancedKeyUsage (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a collection of key usage object identifiers (OIDs).
 old-location: security\ix509extensionenhancedkeyusage_enhancedkeyusage_property.htm

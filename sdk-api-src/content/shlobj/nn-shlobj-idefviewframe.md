@@ -1,6 +1,6 @@
 ---
 UID: NN:shlobj.IDefViewFrame
-title: IDefViewFrame
+title: IDefViewFrame (shlobj.h)
 author: windows-sdk-content
 description: Used only for its IUnknown functionality. It has no methods of its own.
 old-location: shell\IDefViewFrame.htm

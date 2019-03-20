@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpGetMibInfoV5
-title: DhcpGetMibInfoV5 function
+title: DhcpGetMibInfoV5 function (dhcpsapi.h)
 author: windows-sdk-content
 description: Obtains a MIB data structure that contains current statistics about the specified DHCP server.
 old-location: dhcp\dhcpgetmibinfov5.htm

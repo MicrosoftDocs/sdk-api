@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._CSV_QUERY_FILE_REVISION
-title: CSV_QUERY_FILE_REVISION
+title: CSV_QUERY_FILE_REVISION (winioctl.h)
 author: windows-sdk-content
 description: Contains information about whether files in a stream have been modified.
 old-location: fs\csv_query_file_revision.htm

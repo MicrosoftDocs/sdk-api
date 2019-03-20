@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Extension.put_Critical
-title: IX509Extension::put_Critical
+title: IX509Extension::put_Critical (certenroll.h)
 author: windows-sdk-content
 description: Specifies and retrieves a Boolean value that identifies whether the certificate extension is critical.
 old-location: security\ix509extension_critical_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertySystem.GetPropertyDescriptionByName
-title: IPropertySystem::GetPropertyDescriptionByName
+title: IPropertySystem::GetPropertyDescriptionByName (propsys.h)
 author: windows-sdk-content
 description: Gets an instance of the subsystem object that implements IPropertyDescription, to obtain the property description for a given canonical name.
 old-location: properties\IPropertySystem_GetPropertyDescriptionByName.htm

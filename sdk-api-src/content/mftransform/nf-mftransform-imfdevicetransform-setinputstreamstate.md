@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.SetInputStreamState
-title: IMFDeviceTransform::SetInputStreamState
+title: IMFDeviceTransform::SetInputStreamState (mftransform.h)
 author: windows-sdk-content
 description: The SetInputStreamState method sets the Device MFT input stream state and media type.
 old-location: stream\imfdevicetransform_setinputstreamstate.htm

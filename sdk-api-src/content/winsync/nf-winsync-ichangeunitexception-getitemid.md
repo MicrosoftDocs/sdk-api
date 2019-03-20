@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IChangeUnitException.GetItemId
-title: IChangeUnitException::GetItemId
+title: IChangeUnitException::GetItemId (winsync.h)
 author: windows-sdk-content
 description: Gets the item ID for the item that contains the change unit that is associated with the exception.
 old-location: winsync\ichangeunitexception_getitemid.htm

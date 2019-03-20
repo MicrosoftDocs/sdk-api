@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_MODULE
-title: MINIDUMP_MODULE
+title: MINIDUMP_MODULE (minidumpapiset.h)
 author: windows-sdk-content
 description: Contains information for a specific module.
 old-location: base\minidump_module_str.htm

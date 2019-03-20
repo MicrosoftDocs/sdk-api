@@ -1,6 +1,6 @@
 ---
 UID: NE:mgm._MGM_ENUM_TYPES
-title: MGM_ENUM_TYPES
+title: MGM_ENUM_TYPES (mgm.h)
 author: windows-sdk-content
 description: The MGM_ENUM_TYPES enumeration lists the types of group enumerations that the multicast group manager uses. This structure is used by the MgmGroupEnumerationStart function.
 old-location: rras\mgm_enum_types.htm

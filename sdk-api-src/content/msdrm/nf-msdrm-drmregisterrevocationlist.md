@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMRegisterRevocationList
-title: DRMRegisterRevocationList function
+title: DRMRegisterRevocationList function (msdrm.h)
 author: windows-sdk-content
 description: Registers a rights revocation list on the client.
 old-location: rm\drmregisterrevocationlist.htm

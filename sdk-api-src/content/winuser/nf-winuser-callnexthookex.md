@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CallNextHookEx
-title: CallNextHookEx function
+title: CallNextHookEx function (winuser.h)
 author: windows-sdk-content
 description: Passes the hook information to the next hook procedure in the current hook chain. A hook procedure can call this function either before or after processing the hook information.
 old-location: winmsg\callnexthookex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmLogControl.WriteLogRecord
-title: ICrmLogControl::WriteLogRecord
+title: ICrmLogControl::WriteLogRecord (comsvcs.h)
 author: windows-sdk-content
 description: The CRM Worker and CRM Compensator use this method to write unstructured log records to the log.
 old-location: cos\icrmlogcontrol_writelogrecord.htm

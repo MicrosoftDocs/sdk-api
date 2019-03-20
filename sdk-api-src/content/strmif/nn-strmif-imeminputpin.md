@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IMemInputPin
-title: IMemInputPin
+title: IMemInputPin (strmif.h)
 author: windows-sdk-content
 description: The IMemInputPin interface delivers media data to an input pin.
 old-location: dshow\imeminputpin.htm

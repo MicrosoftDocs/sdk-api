@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxPackageReader.GetManifest
-title: IAppxPackageReader::GetManifest
+title: IAppxPackageReader::GetManifest (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves the object model of the app manifest of the package.
 old-location: appxpkg\iappxpackagereader_getmanifest.htm

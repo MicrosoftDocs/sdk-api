@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.Remove
-title: ITraceDataProviderCollection::Remove
+title: ITraceDataProviderCollection::Remove (pla.h)
 author: windows-sdk-content
 description: Removes a trace provider from the collection.
 old-location: pla\itracedataprovidercollection_remove.htm

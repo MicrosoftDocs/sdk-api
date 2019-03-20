@@ -1,6 +1,6 @@
 ---
 UID: NF:refptrco.TRefPointerCollection.TRefPointerCollection(const TRefPointerCollection &)
-title: TRefPointerCollection::TRefPointerCollection(const TRefPointerCollection &)
+title: TRefPointerCollection::TRefPointerCollection(const TRefPointerCollection &) (refptrco.h)
 author: windows-sdk-content
 description: This constructor initializes a new TRefPointerCollection object.
 old-location: wmi\trefpointercollection_trefpointercollection.htm

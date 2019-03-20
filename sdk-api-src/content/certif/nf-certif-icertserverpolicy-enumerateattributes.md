@@ -1,6 +1,6 @@
 ---
 UID: NF:certif.ICertServerPolicy.EnumerateAttributes
-title: ICertServerPolicy::EnumerateAttributes
+title: ICertServerPolicy::EnumerateAttributes (certif.h)
 author: windows-sdk-content
 description: Retrieves the name of the current attribute and moves the internal enumeration pointer to the next attribute.
 old-location: security\icertserverpolicy_enumerateattributes.htm

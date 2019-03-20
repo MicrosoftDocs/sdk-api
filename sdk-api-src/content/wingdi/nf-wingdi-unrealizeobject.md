@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.UnrealizeObject
-title: UnrealizeObject function
+title: UnrealizeObject function (wingdi.h)
 author: windows-sdk-content
 description: The UnrealizeObject function resets the origin of a brush or resets a logical palette.
 old-location: gdi\unrealizeobject.htm

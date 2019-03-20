@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.get_Description
-title: ITDirectoryObjectConference::get_Description
+title: ITDirectoryObjectConference::get_Description (rend.h)
 author: windows-sdk-content
 description: The get_Description method gets the description of the conference.
 old-location: tapi3\itdirectoryobjectconference_get_description.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:certenroll.FNIMPORTPFXTOPROVIDER
-title: ImportPFXToProvider
+title: ImportPFXToProvider (certenroll.h)
 author: windows-sdk-content
 description: Imports a PFX certificate.
 old-location: security\fnimportpfxtoprovider.htm

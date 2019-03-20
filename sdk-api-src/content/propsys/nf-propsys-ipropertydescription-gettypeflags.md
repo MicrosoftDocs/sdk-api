@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetTypeFlags
-title: IPropertyDescription::GetTypeFlags
+title: IPropertyDescription::GetTypeFlags (propsys.h)
 author: windows-sdk-content
 description: Gets a set of flags that describe the uses and capabilities of the property.
 old-location: properties\IPropertyDescription_GetTypeFlags.htm

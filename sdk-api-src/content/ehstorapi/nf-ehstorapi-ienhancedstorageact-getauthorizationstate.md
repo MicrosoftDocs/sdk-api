@@ -1,6 +1,6 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageACT.GetAuthorizationState
-title: IEnhancedStorageACT::GetAuthorizationState
+title: IEnhancedStorageACT::GetAuthorizationState (ehstorapi.h)
 author: windows-sdk-content
 description: Returns the current authorization state of the ACT.
 old-location: enstor\ienhancedstorageact_getauthorizationstate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_SetHot
-title: TreeView_SetHot macro
+title: TreeView_SetHot macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the hot item for a tree-view control. You can use this macro or send the TVM_SETHOT message explicitly.
 old-location: controls\TreeView_SetHot.htm

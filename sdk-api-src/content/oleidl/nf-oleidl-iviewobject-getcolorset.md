@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IViewObject.GetColorSet
-title: IViewObject::GetColorSet
+title: IViewObject::GetColorSet (oleidl.h)
 author: windows-sdk-content
 description: Returns the logical palette that the object will use for drawing in its IViewObject::Draw method with the corresponding parameters.
 old-location: com\iviewobject_getcolorset.htm

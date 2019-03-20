@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.CreateRecognizer
-title: CreateRecognizer function
+title: CreateRecognizer function (recapis.h)
 author: windows-sdk-content
 description: Creates a recognizer.
 old-location: tablet\createrecognizer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shimgdata.IShellImageDataFactory.GetDataFormatFromPath
-title: IShellImageDataFactory::GetDataFormatFromPath
+title: IShellImageDataFactory::GetDataFormatFromPath (shimgdata.h)
 author: windows-sdk-content
 description: Determines a file's format based on its extension.
 old-location: shell\IShellImageDataFactory_GetDataFormatFromPath.htm

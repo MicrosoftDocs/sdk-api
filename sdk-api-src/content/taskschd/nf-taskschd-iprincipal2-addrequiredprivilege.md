@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IPrincipal2.AddRequiredPrivilege
-title: IPrincipal2::AddRequiredPrivilege
+title: IPrincipal2::AddRequiredPrivilege (taskschd.h)
 author: windows-sdk-content
 description: Adds the required privilege to the task process token.
 old-location: taskschd\iprincipal2_addrequiredprivilege.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.ISelectionItemProvider
-title: ISelectionItemProvider
+title: ISelectionItemProvider (uiautomationcore.h)
 author: windows-sdk-content
 description: Provides access to individual, selectable child controls of containers that implement ISelectionProvider.
 old-location: winauto\uiauto_ISelectionItemProvider.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmscreen.IFsrmFileGroupManager
-title: IFsrmFileGroupManager
+title: IFsrmFileGroupManager (fsrmscreen.h)
 author: windows-sdk-content
 description: Used to manage file group objects.
 old-location: fsrm\ifsrmfilegroupmanager.htm

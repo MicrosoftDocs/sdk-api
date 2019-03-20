@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVdProvider.GetVDiskFromDisk
-title: IVdsVdProvider::GetVDiskFromDisk
+title: IVdsVdProvider::GetVDiskFromDisk (vds.h)
 author: windows-sdk-content
 description: Returns an IVdsVDisk interface pointer for the virtual disk given an IVdsDisk interface pointer.
 old-location: base\ivdsvdprovider_getvdiskfromdisk.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.StillOff
-title: IDvdControl2::StillOff
+title: IDvdControl2::StillOff (strmif.h)
 author: windows-sdk-content
 description: The StillOff method resumes playback, canceling still mode.
 old-location: dshow\idvdcontrol2_stilloff.htm

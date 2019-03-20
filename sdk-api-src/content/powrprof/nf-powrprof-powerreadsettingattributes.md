@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerReadSettingAttributes
-title: PowerReadSettingAttributes function
+title: PowerReadSettingAttributes function (powrprof.h)
 author: windows-sdk-content
 description: Returns the current attribute of the specified power setting.
 old-location: base\powerreadsettingattributes.htm

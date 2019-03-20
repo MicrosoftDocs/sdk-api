@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif._AllocatorProperties
-title: ALLOCATOR_PROPERTIES
+title: ALLOCATOR_PROPERTIES (strmif.h)
 author: windows-sdk-content
 description: The ALLOCATOR_PROPERTIES structure describes an allocator's count, size, alignment, and prefix properties.
 old-location: dshow\allocator_properties.htm

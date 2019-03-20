@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflict.Resolve
-title: ISyncMgrConflict::Resolve
+title: ISyncMgrConflict::Resolve (syncmgr.h)
 author: windows-sdk-content
 description: Resolves the conflict using its own sync handler, controls UI.
 old-location: shell\ISyncMgrConflict_Resolve.htm

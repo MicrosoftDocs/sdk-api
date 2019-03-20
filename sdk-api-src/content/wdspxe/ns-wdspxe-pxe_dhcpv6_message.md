@@ -1,6 +1,6 @@
 ---
 UID: NS:wdspxe.tagPXE_DHCPV6_MESSAGE
-title: PXE_DHCPV6_MESSAGE
+title: PXE_DHCPV6_MESSAGE (wdspxe.h)
 author: windows-sdk-content
 description: A DHCPV6 message.
 old-location: wds\pxe_dhcpv6_message.htm

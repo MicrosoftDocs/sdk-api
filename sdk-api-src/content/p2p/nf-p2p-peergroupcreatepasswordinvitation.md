@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGroupCreatePasswordInvitation
-title: PeerGroupCreatePasswordInvitation function
+title: PeerGroupCreatePasswordInvitation function (p2p.h)
 author: windows-sdk-content
 description: Returns an XML string that can be used by the specified peer to join a group with a matching password.
 old-location: p2p\peergroupcreatepasswordinvitation.htm

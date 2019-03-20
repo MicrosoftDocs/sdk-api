@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.ICertView.GetColumnIndex
-title: ICertView::GetColumnIndex
+title: ICertView::GetColumnIndex (certview.h)
 author: windows-sdk-content
 description: Retrieves the zero-based index of a column.
 old-location: security\icertview2_getcolumnindex.htm

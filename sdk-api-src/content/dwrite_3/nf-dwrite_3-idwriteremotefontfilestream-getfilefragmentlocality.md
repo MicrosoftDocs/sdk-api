@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteRemoteFontFileStream.GetFileFragmentLocality
-title: IDWriteRemoteFontFileStream::GetFileFragmentLocality
+title: IDWriteRemoteFontFileStream::GetFileFragmentLocality (dwrite_3.h)
 author: windows-sdk-content
 description: Returns information about the locality of a byte range (i.e., font fragment) within the font file stream.
 old-location: directwrite\idwriteremotefontfilestream_getfilefragmentlocality.htm

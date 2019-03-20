@@ -1,6 +1,6 @@
 ---
 UID: NS:mgm._ROUTING_PROTOCOL_CONFIG
-title: ROUTING_PROTOCOL_CONFIG
+title: ROUTING_PROTOCOL_CONFIG (mgm.h)
 author: windows-sdk-content
 description: The ROUTING_PROTOCOL_CONFIG structure describes the routing protocol configuration information that is passed to the multicast group manager when a protocol registers with the multicast group manager.
 old-location: rras\routing_protocol_config_str.htm

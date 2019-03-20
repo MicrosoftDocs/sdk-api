@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactProperties.GetBinary
-title: IContactProperties::GetBinary
+title: IContactProperties::GetBinary (icontact.h)
 author: windows-sdk-content
 description: Retrieves the binary data of a property using an IStream interface [Structured Storage].
 old-location: wincontacts\_wincontacts_IContactProperties_GetBinary.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IBindCtx.RegisterObjectBound
-title: IBindCtx::RegisterObjectBound
+title: IBindCtx::RegisterObjectBound (objidl.h)
 author: windows-sdk-content
 description: Registers an object with the bind context to ensure that the object remains active until the bind context is released.
 old-location: com\ibindctx_registerobjectbound.htm

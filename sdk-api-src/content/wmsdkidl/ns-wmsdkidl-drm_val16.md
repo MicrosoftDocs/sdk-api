@@ -1,6 +1,6 @@
 ---
 UID: NS:wmsdkidl._DRM_VAL16
-title: DRM_VAL16
+title: DRM_VAL16 (wmsdkidl.h)
 author: windows-sdk-content
 description: The DRM_VAL16 structure is used by some DRM-related methods for passing 128-bit device identification values.
 old-location: wmformat\drm_val16.htm

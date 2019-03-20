@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_SetWorkAreas
-title: ListView_SetWorkAreas macro
+title: ListView_SetWorkAreas macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the working areas within a list-view control. You can use this macro or send the LVM_SETWORKAREAS message explicitly.
 old-location: controls\ListView_SetWorkAreas.htm

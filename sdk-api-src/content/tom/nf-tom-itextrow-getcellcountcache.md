@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.GetCellCountCache
-title: ITextRow::GetCellCountCache
+title: ITextRow::GetCellCountCache (tom.h)
 author: windows-sdk-content
 description: Gets the count of cells cached for this row.
 old-location: controls\itextrow_getcellcountcache.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumSubnetClientsFilterStatusInfo
-title: DhcpEnumSubnetClientsFilterStatusInfo function
+title: DhcpEnumSubnetClientsFilterStatusInfo function (dhcpsapi.h)
 author: windows-sdk-content
 description: Enumerates all of the DHCP clients serviced on the specified subnet, and includes link-layer filter status for each of them.
 old-location: dhcp\dhcpenumsubnetclientsfilterstatusinfo.htm

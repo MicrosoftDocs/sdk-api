@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoderService.CreateVideoDecoder
-title: IDirectXVideoDecoderService::CreateVideoDecoder
+title: IDirectXVideoDecoderService::CreateVideoDecoder (dxva2api.h)
 author: windows-sdk-content
 description: Creates a video decoder device.
 old-location: mf\idirectxvideodecoderservice_createvideodecoder.htm

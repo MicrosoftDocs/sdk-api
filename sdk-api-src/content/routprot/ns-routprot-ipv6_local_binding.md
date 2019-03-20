@@ -1,6 +1,6 @@
 ---
 UID: NS:routprot.IPV6_LOCAL_BINDING
-title: IPV6_LOCAL_BINDING
+title: IPV6_LOCAL_BINDING (routprot.h)
 author: windows-sdk-content
 description: The IPV6_LOCAL_BINDING structure contains IPv6 address information for an adapter.
 old-location: rras\ipv6_local_binding.htm

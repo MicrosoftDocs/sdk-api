@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStreamBuffer.get_Storage
-title: IRDPSRAPITransportStreamBuffer::get_Storage
+title: IRDPSRAPITransportStreamBuffer::get_Storage (rdpencomapi.h)
 author: windows-sdk-content
 description: The address of the internal storage buffer for the stream.
 old-location: rdp\irdpsrapitransportstreambuffer_storage.htm

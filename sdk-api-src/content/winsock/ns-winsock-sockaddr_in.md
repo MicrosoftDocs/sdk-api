@@ -1,6 +1,6 @@
 ---
 UID: NS:winsock.sockaddr_in
-title: SOCKADDR_IN
+title: SOCKADDR_IN (winsock.h)
 author: windows-sdk-content
 description: The sockaddr structure varies depending on the protocol selected.
 old-location: winsock\sockaddr_2.htm

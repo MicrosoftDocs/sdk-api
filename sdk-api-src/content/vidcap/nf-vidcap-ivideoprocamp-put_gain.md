@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_Gain
-title: IVideoProcAmp::put_Gain
+title: IVideoProcAmp::put_Gain (vidcap.h)
 author: windows-sdk-content
 description: The put_Gain method sets the camera's gain setting.
 old-location: dshow\ivideoprocamp_put_gain.htm

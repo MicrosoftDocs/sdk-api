@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.INodeProperties.GetProperty
-title: INodeProperties::GetProperty
+title: INodeProperties::GetProperty (mmc.h)
 author: windows-sdk-content
 description: The GetProperty method retrieves text-only property values for a node. Your implementation of the INodeProperties::GetProperty method is called when an application based on the MMC 2.0 Automation Object Model retrieves the Node.Property property.
 old-location: mmc\inodeproperties_getproperty.htm

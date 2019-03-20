@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1_1.D2D1_STROKE_TRANSFORM_TYPE
-title: D2D1_STROKE_TRANSFORM_TYPE
+title: D2D1_STROKE_TRANSFORM_TYPE (d2d1_1.h)
 author: windows-sdk-content
 description: Defines how the world transform, dots per inch (dpi), and stroke width affect the shape of the pen used to stroke a primitive.
 old-location: direct2d\__d2d1_stroke_transform_type.htm

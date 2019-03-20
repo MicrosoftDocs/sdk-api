@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaManager.EnumAutoApplyQuotas
-title: IFsrmQuotaManager::EnumAutoApplyQuotas
+title: IFsrmQuotaManager::EnumAutoApplyQuotas (fsrmquota.h)
 author: windows-sdk-content
 description: Enumerates the automatic quotas that are associated with the specified directory.
 old-location: fsrm\ifsrmquotamanager_enumautoapplyquotas.htm

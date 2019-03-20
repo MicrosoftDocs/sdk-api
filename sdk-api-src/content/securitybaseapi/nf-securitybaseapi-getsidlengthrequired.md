@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.GetSidLengthRequired
-title: GetSidLengthRequired function
+title: GetSidLengthRequired function (securitybaseapi.h)
 author: windows-sdk-content
 description: Returns the length, in bytes, of the buffer required to store a SID with a specified number of subauthorities.
 old-location: security\getsidlengthrequired.htm

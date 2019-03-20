@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.ApplyChanges
-title: IActiveDesktop::ApplyChanges
+title: IActiveDesktop::ApplyChanges (shlobj_core.h)
 author: windows-sdk-content
 description: Applies changes to the Active Desktop and saves them in the registry.
 old-location: lwef\iactivedesktop_applychanges.htm

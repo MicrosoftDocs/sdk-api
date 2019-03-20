@@ -1,6 +1,6 @@
 ---
 UID: NS:gdiplustypes.GdiplusAbort
-title: GdiplusAbort
+title: GdiplusAbort (gdiplustypes.h)
 author: windows-sdk-content
 description: The GdiplusAbort structure provides a mechanism that allows Windows GDI+ to call an application-defined Abort method periodically during time-consuming rendering operations.
 old-location: gdiplus\_gdiplus_STRUC_GdiplusAbort.htm

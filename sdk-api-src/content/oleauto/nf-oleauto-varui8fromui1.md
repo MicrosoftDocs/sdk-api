@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarUI8FromUI1
-title: VarUI8FromUI1 function
+title: VarUI8FromUI1 function (oleauto.h)
 author: windows-sdk-content
 description: Converts a byte value to an 8-byte unsigned integer value.
 old-location: automat\varui8fromui1.htm

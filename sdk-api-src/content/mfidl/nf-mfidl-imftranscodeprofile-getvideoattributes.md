@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTranscodeProfile.GetVideoAttributes
-title: IMFTranscodeProfile::GetVideoAttributes
+title: IMFTranscodeProfile::GetVideoAttributes (mfidl.h)
 author: windows-sdk-content
 description: Gets the video stream settings that are currently set in the transcode profile.
 old-location: mf\imftranscodeprofile_getvideoattributes.htm

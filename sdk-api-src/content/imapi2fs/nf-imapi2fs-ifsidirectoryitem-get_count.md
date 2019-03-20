@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem.get_Count
-title: IFsiDirectoryItem::get_Count
+title: IFsiDirectoryItem::get_Count (imapi2fs.h)
 author: windows-sdk-content
 description: Number of child items in the enumeration.
 old-location: imapi\ifsidirectoryitem_get_count.htm

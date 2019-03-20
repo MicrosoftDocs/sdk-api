@@ -1,6 +1,6 @@
 ---
 UID: NF:reconcil.IReconcilableObject.Reconcile
-title: IReconcilableObject::Reconcile
+title: IReconcilableObject::Reconcile (reconcil.h)
 author: windows-sdk-content
 description: Reconciles the state of an object with one or more other objects. The reconciliation updates the internal state of the object by merging the states of all objects to form a combined state.
 old-location: lwef\ireconcilableobject_reconcile.htm

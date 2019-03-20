@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellView.GetCurrentInfo
-title: IShellView::GetCurrentInfo
+title: IShellView::GetCurrentInfo (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the current folder settings.
 old-location: shell\IShellView_GetCurrentInfo.htm

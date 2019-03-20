@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.NSTCFOLDERCAPABILITIES
-title: NSTCFOLDERCAPABILITIES
+title: NSTCFOLDERCAPABILITIES (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies the state of a tree item. These values are used by methods of the INameSpaceTreeControlFolderCapabilities interface.
 old-location: shell\NSTCFOLDERCAPABILITIES.htm

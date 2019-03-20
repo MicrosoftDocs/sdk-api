@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITTerminalManager2.GetPluggableTerminalClasses
-title: ITTerminalManager2::GetPluggableTerminalClasses
+title: ITTerminalManager2::GetPluggableTerminalClasses (termmgr.h)
 author: windows-sdk-content
 description: The GetPluggableTerminalClasses method lists the terminal classes for all pluggable terminals registered under a terminal superclass.
 old-location: tapi3\itterminalmanager2_getpluggableterminalclasses.htm

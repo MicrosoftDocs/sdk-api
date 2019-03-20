@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxManifestMainPackageDependency
-title: IAppxManifestMainPackageDependency
+title: IAppxManifestMainPackageDependency (appxpackaging.h)
 author: windows-sdk-content
 description: Provides access to attribute values of the main package dependency.
 old-location: appxpkg\iappxmanifestmainpackagedependency.htm

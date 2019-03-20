@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.__unnamed_struct_1
-title: BITMAPV5HEADER
+title: BITMAPV5HEADER (wingdi.h)
 author: windows-sdk-content
 description: The BITMAPV5HEADER structure is the bitmap information header file. It is an extended version of the BITMAPINFOHEADER structure.
 old-location: gdi\bitmapv5header.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wmcontainer.MFASF_INDEXERFLAGS
-title: MFASF_INDEXER_FLAGS
+title: MFASF_INDEXER_FLAGS (wmcontainer.h)
 author: windows-sdk-content
 description: Defines the ASF indexer options.
 old-location: mf\mfasf_indexer_flags.htm

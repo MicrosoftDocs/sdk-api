@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.SetSigningLocale
-title: IXpsSignatureRequest::SetSigningLocale
+title: IXpsSignatureRequest::SetSigningLocale (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Sets the legal jurisdiction of the package signing location.
 old-location: xps\ixpssignaturerequest_setsigninglocale.htm

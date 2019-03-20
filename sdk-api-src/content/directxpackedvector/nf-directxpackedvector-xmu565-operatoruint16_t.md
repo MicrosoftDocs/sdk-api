@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMU565.operator uint16_t
-title: XMU565::operator uint16_t
+title: XMU565::operator uint16_t (directxpackedvector.h)
 author: windows-sdk-content
 description: Returns an instance of uint16_t containing the components of the XMU555instance in a packed format.
 old-location: dxmath\xmu565_operator_uint16_t.htm

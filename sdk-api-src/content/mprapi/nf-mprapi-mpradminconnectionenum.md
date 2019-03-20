@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminConnectionEnum
-title: MprAdminConnectionEnum function
+title: MprAdminConnectionEnum function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminConnectionEnum function enumerates all active connections.
 old-location: rras\mpradminconnectionenum.htm

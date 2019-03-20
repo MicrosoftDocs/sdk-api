@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_HTTP_HEADER_MAPPING
-title: WS_HTTP_HEADER_MAPPING
+title: WS_HTTP_HEADER_MAPPING (webservices.h)
 author: windows-sdk-content
 description: Specifies an individual header that is mapped as part of WS_HTTP_MESSAGE_MAPPING.
 old-location: wsw\ws_http_header_mapping.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.GetMaximumSupportedFeatureLevel
-title: ID2D1EffectContext::GetMaximumSupportedFeatureLevel
+title: ID2D1EffectContext::GetMaximumSupportedFeatureLevel (d2d1effectauthor.h)
 author: windows-sdk-content
 description: This indicates the maximum feature level from the provided list which is supported by the device.
 old-location: direct2d\id2d1contextinternal_getfeaturelevel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._KERB_EXTERNAL_TICKET
-title: KERB_EXTERNAL_TICKET
+title: KERB_EXTERNAL_TICKET (ntsecapi.h)
 author: windows-sdk-content
 description: Contains information about an external ticket.
 old-location: security\kerb_external_ticket.htm

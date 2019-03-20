@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfUIElement.IsShown
-title: ITfUIElement::IsShown
+title: ITfUIElement::IsShown (msctf.h)
 author: windows-sdk-content
 description: The ITfUIElement::IsShown method returns true if the UI is currently shown by a text service; otherwise false.
 old-location: tsf\itfuielement_isshown.htm

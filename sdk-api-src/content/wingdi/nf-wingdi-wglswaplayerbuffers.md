@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.wglSwapLayerBuffers
-title: wglSwapLayerBuffers function
+title: wglSwapLayerBuffers function (wingdi.h)
 author: windows-sdk-content
 description: The wglSwapLayerBuffers function swaps the front and back buffers in the overlay, underlay, and main planes of the window referenced by a specified device context.
 old-location: opengl\wglswaplayerbuffers.htm

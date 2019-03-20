@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.get_Name
-title: IFont::get_Name
+title: IFont::get_Name (ocidl.h)
 author: windows-sdk-content
 description: Retrieves the name of the font family.
 old-location: com\ifont_get_name.htm

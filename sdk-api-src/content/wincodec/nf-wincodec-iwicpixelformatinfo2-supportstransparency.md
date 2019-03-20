@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICPixelFormatInfo2.SupportsTransparency
-title: IWICPixelFormatInfo2::SupportsTransparency
+title: IWICPixelFormatInfo2::SupportsTransparency (wincodec.h)
 author: windows-sdk-content
 description: Returns whether the format supports transparent pixels.
 old-location: wic\_wic_codec_iwicpixelformatinfo2_supportstransparency.htm

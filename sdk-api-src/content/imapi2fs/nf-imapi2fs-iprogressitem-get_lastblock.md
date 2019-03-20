@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IProgressItem.get_LastBlock
-title: IProgressItem::get_LastBlock
+title: IProgressItem::get_LastBlock (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the last block in this segment of the result image.
 old-location: imapi\iprogressitem_get_lastblock.htm

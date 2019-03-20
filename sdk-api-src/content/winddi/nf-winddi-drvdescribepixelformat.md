@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvDescribePixelFormat
-title: DrvDescribePixelFormat function
+title: DrvDescribePixelFormat function (winddi.h)
 author: windows-sdk-content
 description: The DrvDescribePixelFormat function describes the pixel format for a device-specified PDEV by writing a pixel format description to a PIXELFORMATDESCRIPTOR structure.
 old-location: display\drvdescribepixelformat.htm

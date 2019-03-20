@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IOperationsProgressDialog.UpdateProgress
-title: IOperationsProgressDialog::UpdateProgress
+title: IOperationsProgressDialog::UpdateProgress (shobjidl_core.h)
 author: windows-sdk-content
 description: Updates the current progress dialog, as specified.
 old-location: shell\IOperationsProgressDialog_UpdateProgress.htm

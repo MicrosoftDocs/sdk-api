@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._INFCONTEXT
-title: INFCONTEXT
+title: INFCONTEXT (setupapi.h)
 author: windows-sdk-content
 description: The INFCONTEXT structure stores context information that functions such as SetupGetLineText use to navigate INF files.
 old-location: setup\infcontext_str.htm

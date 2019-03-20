@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineGetAddressCapsA
-title: lineGetAddressCapsA function
+title: lineGetAddressCapsA function (tapi.h)
 author: windows-sdk-content
 description: The lineGetAddressCaps function queries the specified address on the specified line device to determine its telephony capabilities.
 old-location: tapi2\linegetaddresscaps.htm

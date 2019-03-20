@@ -1,6 +1,6 @@
 ---
 UID: NF:winusb.WinUsb_SetCurrentAlternateSetting
-title: WinUsb_SetCurrentAlternateSetting function
+title: WinUsb_SetCurrentAlternateSetting function (winusb.h)
 author: windows-sdk-content
 description: The WinUsb_SetCurrentAlternateSetting function sets the alternate setting of an interface.
 old-location: buses\winusb_setcurrentalternatesetting.htm

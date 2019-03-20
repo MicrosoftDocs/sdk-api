@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetMessageTime
-title: GetMessageTime function
+title: GetMessageTime function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the message time for the last message retrieved by the GetMessage function.
 old-location: winmsg\getmessagetime.htm

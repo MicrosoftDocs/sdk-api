@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUICollection.RemoveAt
-title: IUICollection::RemoveAt
+title: IUICollection::RemoveAt (uiribbon.h)
 author: windows-sdk-content
 description: Removes an item from the IUICollection at the specified index.
 old-location: windowsribbon\windowsribbon_iuicollection_removeat.htm

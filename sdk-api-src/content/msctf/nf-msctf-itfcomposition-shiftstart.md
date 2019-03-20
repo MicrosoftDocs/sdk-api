@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfComposition.ShiftStart
-title: ITfComposition::ShiftStart
+title: ITfComposition::ShiftStart (msctf.h)
 author: windows-sdk-content
 description: ITfComposition::ShiftStart method
 old-location: tsf\itfcomposition_shiftstart.htm

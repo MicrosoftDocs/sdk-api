@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_HW_FIRMWARE_DOWNLOAD
-title: STORAGE_HW_FIRMWARE_DOWNLOAD
+title: STORAGE_HW_FIRMWARE_DOWNLOAD (winioctl.h)
 author: windows-sdk-content
 description: This structure contains a firmware image payload to be downloaded to the target.
 old-location: fs\storage_hw_firmware_download.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wsnwlink._IPX_NETNUM_DATA
-title: IPX_NETNUM_DATA
+title: IPX_NETNUM_DATA (wsnwlink.h)
 author: windows-sdk-content
 description: The IPX_NETNUM_DATA structure provides information about a specified IPX network number. Used in conjunction with getsockopt function calls that specify IPX_GETNETINFO in the optname parameter.
 old-location: winsock\ipx_netnum_data_2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IInitializeSpy.PreInitialize
-title: IInitializeSpy::PreInitialize
+title: IInitializeSpy::PreInitialize (objidl.h)
 author: windows-sdk-content
 description: Performs initialization steps required before calling the CoInitializeEx function.
 old-location: com\iinitializespy_preinitialize.htm

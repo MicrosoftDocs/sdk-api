@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.GetName
-title: IDiskQuotaUser::GetName
+title: IDiskQuotaUser::GetName (dskquota.h)
 author: windows-sdk-content
 description: Retrieves the name strings associated with a disk quota user.
 old-location: fs\idiskquotauser_getname.htm

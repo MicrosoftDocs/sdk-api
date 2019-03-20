@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IRunningObjectTable.GetObject
-title: IRunningObjectTable::GetObject
+title: IRunningObjectTable::GetObject (objidl.h)
 author: windows-sdk-content
 description: Determines whether the object identified by the specified moniker is running, and if it is, retrieves a pointer to that object.
 old-location: com\irunningobjecttable_getobject.htm

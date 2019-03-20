@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.SetThumbnailResource
-title: IXpsOMPageReference::SetThumbnailResource
+title: IXpsOMPageReference::SetThumbnailResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the pointer to the IXpsOMImageResource interface of the thumbnail image resource to be assigned to the page.
 old-location: xps\ixpsompagereference_setthumbnailresource.htm

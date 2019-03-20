@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsIscsiTarget.SetFriendlyName
-title: IVdsIscsiTarget::SetFriendlyName
+title: IVdsIscsiTarget::SetFriendlyName (vds.h)
 author: windows-sdk-content
 description: Sets the friendly name of the target.
 old-location: base\ivdsiscsitarget_setfriendlyname.htm

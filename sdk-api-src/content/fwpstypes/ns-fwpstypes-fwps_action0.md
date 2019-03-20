@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpstypes.FWPS_ACTION0_
-title: FWPS_ACTION0
+title: FWPS_ACTION0 (fwpstypes.h)
 author: windows-sdk-content
 description: The FWPS_ACTION0 structure specifies the run-time action that the filter engine takes if all of the filter's filtering conditions are true.Note  FWPS_ACTION0 is a specific version of FWPS_ACTION.
 old-location: netvista\fwps_action0.htm

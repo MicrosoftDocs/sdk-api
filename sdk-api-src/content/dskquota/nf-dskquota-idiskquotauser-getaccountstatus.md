@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.GetAccountStatus
-title: IDiskQuotaUser::GetAccountStatus
+title: IDiskQuotaUser::GetAccountStatus (dskquota.h)
 author: windows-sdk-content
 description: Retrieves the status of the user object's account.
 old-location: fs\idiskquotauser_getaccountstatus.htm

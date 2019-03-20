@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_GETVPORTSIGNALDATA
-title: DD_GETVPORTSIGNALDATA
+title: DD_GETVPORTSIGNALDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_GETVPORTSIGNALDATA structure contains the signal status of the hardware video port.
 old-location: display\dd_getvportsignaldata.htm

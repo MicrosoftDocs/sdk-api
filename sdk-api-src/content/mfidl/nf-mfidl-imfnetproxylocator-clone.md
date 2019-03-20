@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFNetProxyLocator.Clone
-title: IMFNetProxyLocator::Clone
+title: IMFNetProxyLocator::Clone (mfidl.h)
 author: windows-sdk-content
 description: Creates a new instance of the default proxy locator.
 old-location: mf\imfnetproxylocator_clone.htm

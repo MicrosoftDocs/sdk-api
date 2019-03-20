@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetTypeComp
-title: ITypeInfo::GetTypeComp
+title: ITypeInfo::GetTypeComp (oaidl.h)
 author: windows-sdk-content
 description: Retrieves the ITypeComp interface for the type description, which enables a client compiler to bind to the type description's members.
 old-location: automat\itypeinfo_gettypecomp.htm

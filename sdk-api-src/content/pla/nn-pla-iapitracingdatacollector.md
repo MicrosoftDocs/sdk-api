@@ -1,6 +1,6 @@
 ---
 UID: NN:pla.IApiTracingDataCollector
-title: IApiTracingDataCollector
+title: IApiTracingDataCollector (pla.h)
 author: windows-sdk-content
 description: Logs Win32 calls to Kernel32.dll, Advapi32.dll, Gdi32.dll, and User32.dll.
 old-location: pla\iapitracingdatacollector.htm

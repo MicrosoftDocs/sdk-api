@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_METADATA_SECTION
-title: WSD_METADATA_SECTION
+title: WSD_METADATA_SECTION (wsdtypes.h)
 author: windows-sdk-content
 description: Represents a section of metadata in a generic form.
 old-location: ncd\wsd_metadata_section_struct.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMAnalogVideoDecoder.put_TVFormat
-title: IAMAnalogVideoDecoder::put_TVFormat
+title: IAMAnalogVideoDecoder::put_TVFormat (strmif.h)
 author: windows-sdk-content
 description: The put_TVFormat method sets the analog video format.
 old-location: dshow\iamanalogvideodecoder_put_tvformat.htm

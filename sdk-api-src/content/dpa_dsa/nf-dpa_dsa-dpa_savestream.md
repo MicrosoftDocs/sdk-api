@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DPA_SaveStream
-title: DPA_SaveStream function
+title: DPA_SaveStream function (dpa_dsa.h)
 author: windows-sdk-content
 description: Saves the dynamic pointer array (DPA) to a stream by writing out a header, and then calling the specified callback function to write each element.
 old-location: controls\DPA_SaveStream.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMedia.put_name
-title: IWMPMedia::put_name
+title: IWMPMedia::put_name (wmp.h)
 author: windows-sdk-content
 description: The put_name method specifies sets the name of the media item.
 old-location: wmp\iwmpmedia_put_name.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.GiveUserNameResolutionPriority
-title: IDiskQuotaControl::GiveUserNameResolutionPriority
+title: IDiskQuotaControl::GiveUserNameResolutionPriority (dskquota.h)
 author: windows-sdk-content
 description: Promotes the specified user object to the head of the queue so that it is next in line for resolution.
 old-location: fs\idiskquotacontrol_giveusernameresolutionpriority.htm

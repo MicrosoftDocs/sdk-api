@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMScalarASin
-title: XMScalarASin function
+title: XMScalarASin function (directxmath.h)
 author: windows-sdk-content
 description: Computes the arcsine of a floating-point number.
 old-location: dxmath\xmscalarasin.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_2.ID3D11DeviceContext2.BeginEventInt
-title: ID3D11DeviceContext2::BeginEventInt
+title: ID3D11DeviceContext2::BeginEventInt (d3d11_2.h)
 author: windows-sdk-content
 description: Allows applications to annotate the beginning of a range of graphics commands.
 old-location: direct3d11\id3d11devicecontext2_begineventint.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.GraphicsPath(IN const Point,IN const BYTE,IN INT,IN FillMode)
-title: GraphicsPath::GraphicsPath(IN const Point,IN const BYTE,IN INT,IN FillMode)
+title: GraphicsPath::GraphicsPath(IN const Point,IN const BYTE,IN INT,IN FillMode) (gdipluspath.h)
 author: windows-sdk-content
 description: Creates a GraphicsPath::GraphicsPath object based on an array of points, an array of types, and a fill mode.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GraphicsPath_Point_points_BYTE_types_INT_count_FillMode_fillMode_.htm

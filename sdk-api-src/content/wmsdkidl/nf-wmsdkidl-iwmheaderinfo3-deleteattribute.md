@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo3.DeleteAttribute
-title: IWMHeaderInfo3::DeleteAttribute
+title: IWMHeaderInfo3::DeleteAttribute (wmsdkidl.h)
 author: windows-sdk-content
 description: The DeleteAttribute method removes an attribute from the file header.
 old-location: wmformat\iwmheaderinfo3_deleteattribute.htm

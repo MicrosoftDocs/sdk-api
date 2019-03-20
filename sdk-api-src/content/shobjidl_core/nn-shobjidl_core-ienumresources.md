@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IEnumResources
-title: IEnumResources
+title: IEnumResources (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes resource enumeration methods.
 old-location: shell\IEnumResources.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorGroup.SetDefaultSensorDeviceIndex
-title: IMFSensorGroup::SetDefaultSensorDeviceIndex
+title: IMFSensorGroup::SetDefaultSensorDeviceIndex (mfidl.h)
 author: windows-sdk-content
 description: Configures one of the devices in the sensor group as the default device.
 old-location: mf\imfsensorgroup_setdefaultsensordeviceindex.htm

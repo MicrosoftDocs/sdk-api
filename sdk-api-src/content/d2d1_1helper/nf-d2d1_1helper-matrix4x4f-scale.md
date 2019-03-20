@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1helper.Matrix4x4F.Scale
-title: Matrix4x4F::Scale
+title: Matrix4x4F::Scale (d2d1_1helper.h)
 author: windows-sdk-content
 description: Scales the perspective plane of the matrix.
 old-location: direct2d\matrix4x4f_scale.htm

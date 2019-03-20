@@ -1,6 +1,6 @@
 ---
 UID: NF:audioenginebaseapo.IAudioProcessingObjectRT.APOProcess
-title: IAudioProcessingObjectRT::APOProcess
+title: IAudioProcessingObjectRT::APOProcess (audioenginebaseapo.h)
 author: windows-sdk-content
 description: The APOProcess method causes the APO to make a processing pass.
 old-location: audio\iaudioprocessingobjectrt_apoprocess.htm

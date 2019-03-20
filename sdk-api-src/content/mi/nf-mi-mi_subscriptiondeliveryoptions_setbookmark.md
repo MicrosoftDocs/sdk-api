@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_SetBookmark
-title: MI_SubscriptionDeliveryOptions_SetBookmark function
+title: MI_SubscriptionDeliveryOptions_SetBookmark function (mi.h)
 author: windows-sdk-content
 description: Sets a bookmark for subscription indication delivery.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_setbookmark.htm

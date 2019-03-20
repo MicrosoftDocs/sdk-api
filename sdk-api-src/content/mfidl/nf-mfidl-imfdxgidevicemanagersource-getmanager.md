@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFDXGIDeviceManagerSource.GetManager
-title: IMFDXGIDeviceManagerSource::GetManager
+title: IMFDXGIDeviceManagerSource::GetManager (mfidl.h)
 author: windows-sdk-content
 description: Gets the IMFDXGIDeviceManager from the Microsoft Media Foundation video rendering sink.
 old-location: mf\imfdxgidevicemanagersource_getmanager.htm

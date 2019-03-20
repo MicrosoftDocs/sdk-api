@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantToBooleanWithDefault
-title: VariantToBooleanWithDefault function
+title: VariantToBooleanWithDefault function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts a BOOL value from a VARIANT structure. If no value exists, then the specified default value is returned.
 old-location: properties\VariantToBooleanWithDefault.htm

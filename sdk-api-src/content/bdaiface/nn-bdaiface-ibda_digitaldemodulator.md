@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IBDA_DigitalDemodulator
-title: IBDA_DigitalDemodulator
+title: IBDA_DigitalDemodulator (bdaiface.h)
 author: windows-sdk-content
 description: The IBDA_DigitalDemodulator interface is exposed on BDA device filters, specifically demodulators, that are not capable of automatically detecting the characteristics of a signal.
 old-location: mstv\ibda_digitaldemodulator.htm

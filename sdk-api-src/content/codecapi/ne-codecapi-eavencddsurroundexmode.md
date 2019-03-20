@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncDDSurroundExMode
-title: eAVEncDDSurroundExMode
+title: eAVEncDDSurroundExMode (codecapi.h)
 author: windows-sdk-content
 description: Specifies whether a Dolby Digital audio stream is encoded in Dolby Digital Surround EX. This enumeration is used with the AVEncDDSurroundExMode property.
 old-location: dshow\eavencddsurroundexmode.htm

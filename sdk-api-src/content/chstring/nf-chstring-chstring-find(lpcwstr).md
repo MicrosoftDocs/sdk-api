@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.Find(LPCWSTR)
-title: CHString::Find(LPCWSTR)
+title: CHString::Find(LPCWSTR) (chstring.h)
 author: windows-sdk-content
 description: The Find method searches a string for the first match of a substring.
 old-location: wmi\chstring_find_lpcwstr_.htm

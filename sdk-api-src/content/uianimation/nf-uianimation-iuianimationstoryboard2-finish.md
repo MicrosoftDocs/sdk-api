@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.Finish
-title: IUIAnimationStoryboard2::Finish
+title: IUIAnimationStoryboard2::Finish (uianimation.h)
 author: windows-sdk-content
 description: Finishes the storyboard within the specified time, compressing the storyboard if necessary.
 old-location: uianimation\iuianimationstoryboard2_finish.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rtlsupportapi.RtlRaiseException
-title: RtlRaiseException function
+title: RtlRaiseException function (rtlsupportapi.h)
 author: windows-sdk-content
 description: Raises an exception.
 old-location: winprog\rtlraiseexception.htm

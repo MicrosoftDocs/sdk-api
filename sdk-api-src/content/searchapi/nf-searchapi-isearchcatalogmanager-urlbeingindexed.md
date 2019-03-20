@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.URLBeingIndexed
-title: ISearchCatalogManager::URLBeingIndexed
+title: ISearchCatalogManager::URLBeingIndexed (searchapi.h)
 author: windows-sdk-content
 description: Gets the URL that is currently being indexed. If no indexing is currently in process, pszUrl is set to NULL.
 old-location: search\_search_ISearchCatalogManager_URLBeingIndexed.htm

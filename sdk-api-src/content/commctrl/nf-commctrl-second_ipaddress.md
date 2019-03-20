@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.SECOND_IPADDRESS
-title: SECOND_IPADDRESS macro
+title: SECOND_IPADDRESS macro (commctrl.h)
 author: windows-sdk-content
 description: Extracts the field 1 value from a packed IP address retrieved with the IPM_GETADDRESS message.
 old-location: controls\SECOND_IPADDRESS.htm

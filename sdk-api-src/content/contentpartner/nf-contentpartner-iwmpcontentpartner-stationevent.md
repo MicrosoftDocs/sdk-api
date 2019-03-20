@@ -1,6 +1,6 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.StationEvent
-title: IWMPContentPartner::StationEvent
+title: IWMPContentPartner::StationEvent (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartner_stationevent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMMatrixTransformation2D
-title: XMMatrixTransformation2D function
+title: XMMatrixTransformation2D function (directxmath.h)
 author: windows-sdk-content
 description: Builds a 2D transformation matrix in the xy plane.
 old-location: dxmath\xmmatrixtransformation2d.htm

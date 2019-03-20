@@ -1,6 +1,6 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.SetColorKey
-title: IMixerPinConfig::SetColorKey
+title: IMixerPinConfig::SetColorKey (mpconfig.h)
 author: windows-sdk-content
 description: The SetColorKey method sets the color key being used by a video stream.
 old-location: dshow\imixerpinconfig_setcolorkey.htm

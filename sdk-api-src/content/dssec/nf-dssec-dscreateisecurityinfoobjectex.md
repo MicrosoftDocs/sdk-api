@@ -1,6 +1,6 @@
 ---
 UID: NF:dssec.DSCreateISecurityInfoObjectEx
-title: DSCreateISecurityInfoObjectEx function
+title: DSCreateISecurityInfoObjectEx function (dssec.h)
 author: windows-sdk-content
 description: Creates an instance of the ISecurityInformation interface associated with the specified directory service (DS) object on the specified server.
 old-location: security\dscreateisecurityinfoobjectex.htm

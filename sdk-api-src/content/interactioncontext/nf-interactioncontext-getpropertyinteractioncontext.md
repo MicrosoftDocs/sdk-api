@@ -1,6 +1,6 @@
 ---
 UID: NF:interactioncontext.GetPropertyInteractionContext
-title: GetPropertyInteractionContext function
+title: GetPropertyInteractionContext function (interactioncontext.h)
 author: windows-sdk-content
 description: Gets Interaction Context object properties.
 old-location: input_intcontext\getpropertyinteractioncontext.htm

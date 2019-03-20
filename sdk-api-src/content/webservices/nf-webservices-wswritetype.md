@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsWriteType
-title: WsWriteType function
+title: WsWriteType function (webservices.h)
 author: windows-sdk-content
 description: Write a value of a given WS_TYPE to XML according to the WS_TYPE_MAPPING.
 old-location: wsw\wswritetype.htm

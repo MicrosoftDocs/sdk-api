@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_3.ID2D1GradientMesh
-title: ID2D1GradientMesh
+title: ID2D1GradientMesh (d2d1_3.h)
 author: windows-sdk-content
 description: Represents a device-dependent representation of a gradient mesh composed of patches. Use the ID2D1DeviceContext2::CreateGradientMesh method to create an instance of ID2D1GradientMesh.
 old-location: direct2d\id2d1gradientmesh.htm

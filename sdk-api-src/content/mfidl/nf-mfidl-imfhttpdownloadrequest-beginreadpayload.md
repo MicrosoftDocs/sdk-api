@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.BeginReadPayload
-title: IMFHttpDownloadRequest::BeginReadPayload
+title: IMFHttpDownloadRequest::BeginReadPayload (mfidl.h)
 author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to receive the message body of the response to a previously sent HTTP or HTTPS request.
 old-location: mf\imfhttpdownloadrequest_beginreadpayload.htm

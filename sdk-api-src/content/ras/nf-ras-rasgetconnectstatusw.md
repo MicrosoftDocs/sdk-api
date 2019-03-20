@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasGetConnectStatusW
-title: RasGetConnectStatusW function
+title: RasGetConnectStatusW function (ras.h)
 author: windows-sdk-content
 description: The RasGetConnectStatus function retrieves information on the current status of the specified remote access connection. An application can use this call to determine when an asynchronous RasDial call is complete.
 old-location: rras\rasgetconnectstatus.htm

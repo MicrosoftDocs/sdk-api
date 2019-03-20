@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiEnableLogA
-title: MsiEnableLogA function
+title: MsiEnableLogA function (msi.h)
 author: windows-sdk-content
 description: The MsiEnableLog function sets the log mode for all subsequent installations that are initiated in the calling process.
 old-location: setup\msienablelog.htm

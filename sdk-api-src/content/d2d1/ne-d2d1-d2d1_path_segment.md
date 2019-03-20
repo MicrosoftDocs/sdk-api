@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1.D2D1_PATH_SEGMENT
-title: D2D1_PATH_SEGMENT
+title: D2D1_PATH_SEGMENT (d2d1.h)
 author: windows-sdk-content
 description: Indicates whether a segment should be stroked and whether the join between this segment and the previous one should be smooth. This enumeration allows a bitwise combination of its member values.
 old-location: direct2d\D2D1_PATH_SEGMENT.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.CLIPOBJ_ppoGetPath
-title: CLIPOBJ_ppoGetPath function
+title: CLIPOBJ_ppoGetPath function (winddi.h)
 author: windows-sdk-content
 description: The CLIPOBJ_ppoGetPath function creates a PATHOBJ structure that contains the outline of the specified clip region.
 old-location: display\clipobj_ppogetpath.htm

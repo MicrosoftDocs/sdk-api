@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.DateTime_SetSystemtime
-title: DateTime_SetSystemtime macro
+title: DateTime_SetSystemtime macro (commctrl.h)
 author: windows-sdk-content
 description: Sets a date and time picker (DTP) control to a given date and time. You can use this macro or send the DTM_SETSYSTEMTIME message explicitly.
 old-location: controls\DateTime_SetSystemtime.htm

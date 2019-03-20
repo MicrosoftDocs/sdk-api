@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComObjectEvents.OnObjectActivate
-title: IComObjectEvents::OnObjectActivate
+title: IComObjectEvents::OnObjectActivate (comsvcs.h)
 author: windows-sdk-content
 description: Generated when an object gets an instance of a new JIT-activated object.
 old-location: cos\icomobjectevents_onobjectactivate.htm

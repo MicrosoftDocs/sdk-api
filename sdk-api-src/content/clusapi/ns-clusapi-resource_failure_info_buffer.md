@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.RESOURCE_FAILURE_INFO_BUFFER
-title: RESOURCE_FAILURE_INFO_BUFFER
+title: RESOURCE_FAILURE_INFO_BUFFER (clusapi.h)
 author: windows-sdk-content
 description: Represents a buffer for a resource failure.
 old-location: mscs\resource_failure_info_buffer.htm

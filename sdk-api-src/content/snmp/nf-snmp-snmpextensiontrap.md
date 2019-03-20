@@ -1,6 +1,6 @@
 ---
 UID: NF:snmp.SnmpExtensionTrap
-title: SnmpExtensionTrap function
+title: SnmpExtensionTrap function (snmp.h)
 author: windows-sdk-content
 description: The Microsoft SNMP service calls the SnmpExtensionTrap function to retrieve information the service needs to generate traps for the SNMP extension agent.
 old-location: snmp\snmpextensiontrap.htm

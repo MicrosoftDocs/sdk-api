@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarBstrFromI4
-title: VarBstrFromI4 function
+title: VarBstrFromI4 function (oleauto.h)
 author: windows-sdk-content
 description: Converts a long value to a BSTR value.
 old-location: automat\varbstrfromi4.htm

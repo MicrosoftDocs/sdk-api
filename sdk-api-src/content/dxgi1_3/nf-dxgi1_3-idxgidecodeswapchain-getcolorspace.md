@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGIDecodeSwapChain.GetColorSpace
-title: IDXGIDecodeSwapChain::GetColorSpace
+title: IDXGIDecodeSwapChain::GetColorSpace (dxgi1_3.h)
 author: windows-sdk-content
 description: Gets the color space used by the swap chain.
 old-location: direct3ddxgi\idxgidecodeswapchain_getcolorspace.htm

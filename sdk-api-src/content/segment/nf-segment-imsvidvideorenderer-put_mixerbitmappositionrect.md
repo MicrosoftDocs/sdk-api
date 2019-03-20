@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.put_MixerBitmapPositionRect
-title: IMSVidVideoRenderer::put_MixerBitmapPositionRect
+title: IMSVidVideoRenderer::put_MixerBitmapPositionRect (segment.h)
 author: windows-sdk-content
 description: The put_MixerBitmapPositionRect method specifies the position of the static bitmap image, relative to the video window.
 old-location: mstv\imsvidvideorenderer_put_mixerbitmappositionrect.htm

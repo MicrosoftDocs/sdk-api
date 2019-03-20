@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.UrlHashA
-title: UrlHashA function
+title: UrlHashA function (shlwapi.h)
 author: windows-sdk-content
 description: Hashes a URL string.
 old-location: shell\UrlHash.htm

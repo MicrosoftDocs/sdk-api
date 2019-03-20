@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.RequestClientInfoClientId
-title: RequestClientInfoClientId
+title: RequestClientInfoClientId (certenroll.h)
 author: windows-sdk-content
 description: Specifies the type of application that created a certificate request.
 old-location: security\requestclientinfoclientid_enum.htm

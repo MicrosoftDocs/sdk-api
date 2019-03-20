@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.CreateFileMappingW
-title: CreateFileMappingW function
+title: CreateFileMappingW function (memoryapi.h)
 author: windows-sdk-content
 description: Creates or opens a named or unnamed file mapping object for a specified file.
 old-location: base\createfilemapping.htm

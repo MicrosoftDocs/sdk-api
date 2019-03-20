@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSCreateAdapterFromPropertyStore
-title: PSCreateAdapterFromPropertyStore function
+title: PSCreateAdapterFromPropertyStore function (propsys.h)
 author: windows-sdk-content
 description: Creates an adapter from an IPropertyStore.
 old-location: properties\PSCreateAdapterFromPropertyStore.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2.IDiscFormat2RawCD
-title: IDiscFormat2RawCD
+title: IDiscFormat2RawCD (imapi2.h)
 author: windows-sdk-content
 description: Use this interface to write raw images to a disc device using Disc At Once (DAO) mode (also known as uninterrupted recording).
 old-location: imapi\idiscformat2rawcd.htm

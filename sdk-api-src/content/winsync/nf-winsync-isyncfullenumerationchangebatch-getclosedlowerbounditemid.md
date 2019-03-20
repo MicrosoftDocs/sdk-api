@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncFullEnumerationChangeBatch.GetClosedLowerBoundItemId
-title: ISyncFullEnumerationChangeBatch::GetClosedLowerBoundItemId
+title: ISyncFullEnumerationChangeBatch::GetClosedLowerBoundItemId (winsync.h)
 author: windows-sdk-content
 description: Gets the closed lower bound on item IDs that require destination versions.
 old-location: winsync\isyncfullenumerationchangebatch_getclosedlowerbounditemid.htm

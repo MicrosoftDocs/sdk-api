@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegisteredTask.get_NumberOfMissedRuns
-title: IRegisteredTask::get_NumberOfMissedRuns
+title: IRegisteredTask::get_NumberOfMissedRuns (taskschd.h)
 author: windows-sdk-content
 description: Gets the number of times the registered task has missed a scheduled run.
 old-location: taskschd\iregisteredtask_numberofmissedruns.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdef._LUID
-title: LUID
+title: LUID (ntdef.h)
 author: windows-sdk-content
 description: The LUID structure is an opaque structure that specifies an identifier that is guaranteed to be unique on the local machine. For more information, see the reference page for LUID in the Microsoft Windows SDK documentation.
 old-location: kernel\luid.htm

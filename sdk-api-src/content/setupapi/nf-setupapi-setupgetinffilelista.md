@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupGetInfFileListA
-title: SetupGetInfFileListA function
+title: SetupGetInfFileListA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupGetInfFileList function returns a list of INF files located in a caller-specified directory to a call-supplied buffer.
 old-location: setup\setupgetinffilelist.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CreateMDIWindowA
-title: CreateMDIWindowA function
+title: CreateMDIWindowA function (winuser.h)
 author: windows-sdk-content
 description: Creates a multiple-document interface (MDI) child window.
 old-location: winmsg\createmdiwindow.htm

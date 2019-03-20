@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_CryptAttributes
-title: IX509CertificateRequestPkcs10::get_CryptAttributes
+title: IX509CertificateRequestPkcs10::get_CryptAttributes (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an ICryptAttributes collection of optional certificate attributes.
 old-location: security\ix509certificaterequestpkcs10_cryptattributes_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_4.IDXGIFactory4.EnumAdapterByLuid
-title: IDXGIFactory4::EnumAdapterByLuid
+title: IDXGIFactory4::EnumAdapterByLuid (dxgi1_4.h)
 author: windows-sdk-content
 description: Outputs the IDXGIAdapter for the specified LUID.
 old-location: direct3ddxgi\idxgifactory4_enumadapterbyluid.htm

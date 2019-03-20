@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFWorkQueueServices.GetPlaftormWorkQueueMMCSSClass
-title: IMFWorkQueueServices::GetPlaftormWorkQueueMMCSSClass
+title: IMFWorkQueueServices::GetPlaftormWorkQueueMMCSSClass (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the Multimedia Class Scheduler Service (MMCSS) class for a specified platform work queue.
 old-location: mf\imfworkqueueservices_getplaftormworkqueuemmcssclass.htm

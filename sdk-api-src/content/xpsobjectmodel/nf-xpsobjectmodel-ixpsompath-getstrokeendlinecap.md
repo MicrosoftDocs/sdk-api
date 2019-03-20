@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeEndLineCap
-title: IXpsOMPath::GetStrokeEndLineCap
+title: IXpsOMPath::GetStrokeEndLineCap (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the style of the stroke line's end cap.
 old-location: xps\ixpsompath_getstrokeendlinecap.htm

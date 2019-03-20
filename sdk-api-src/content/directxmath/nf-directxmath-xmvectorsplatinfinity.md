@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorSplatInfinity
-title: XMVectorSplatInfinity function
+title: XMVectorSplatInfinity function (directxmath.h)
 author: windows-sdk-content
 description: Returns a vector, each of whose components are infinity (0x7F800000).
 old-location: dxmath\xmvectorsplatinfinity.htm

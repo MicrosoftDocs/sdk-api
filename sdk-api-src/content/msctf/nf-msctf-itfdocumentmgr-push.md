@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfDocumentMgr.Push
-title: ITfDocumentMgr::Push
+title: ITfDocumentMgr::Push (msctf.h)
 author: windows-sdk-content
 description: ITfDocumentMgr::Push method
 old-location: tsf\itfdocumentmgr_push.htm

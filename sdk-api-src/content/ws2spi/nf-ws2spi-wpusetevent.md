@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2spi.WPUSetEvent
-title: WPUSetEvent function
+title: WPUSetEvent function (ws2spi.h)
 author: windows-sdk-content
 description: The WPUSetEvent function sets the state of the specified event object to signaled. This call is safe for use within interrupt context.
 old-location: winsock\wpusetevent_2.htm

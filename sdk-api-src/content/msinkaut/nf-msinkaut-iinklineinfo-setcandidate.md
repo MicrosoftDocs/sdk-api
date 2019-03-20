@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkLineInfo.SetCandidate
-title: IInkLineInfo::SetCandidate
+title: IInkLineInfo::SetCandidate (msinkaut.h)
 author: windows-sdk-content
 description: Updates one recognition alternate in the recognition result list, either by replacing an existing alternate, or by adding an alternate to the list.
 old-location: tablet\iinklineinfo_setcandidate.htm

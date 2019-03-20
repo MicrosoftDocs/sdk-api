@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupInstallFilesFromInfSectionA
-title: SetupInstallFilesFromInfSectionA function
+title: SetupInstallFilesFromInfSectionA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupInstallFilesFromInfSection function queues all the files for an installation that are specified in the Copy Files, Delete Files, and Rename Files sections that are listed by an Install section.
 old-location: setup\setupinstallfilesfrominfsection.htm

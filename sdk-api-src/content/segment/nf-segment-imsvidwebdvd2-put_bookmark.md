@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidWebDVD2.put_Bookmark
-title: IMSVidWebDVD2::put_Bookmark
+title: IMSVidWebDVD2::put_Bookmark (segment.h)
 author: windows-sdk-content
 description: Saves or loads the playback position and state information for a DVD.
 old-location: mstv\imsvidwebdvd2_bookmark.htm

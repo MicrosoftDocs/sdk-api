@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDescriptionDocument.Load
-title: IUPnPDescriptionDocument::Load
+title: IUPnPDescriptionDocument::Load (upnp.h)
 author: windows-sdk-content
 description: The Load method loads a document synchronously. This method does not return control to the caller until the load operation is complete.
 old-location: upnp\iupnpdescriptiondocument_load.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2data.ISectionList.CancelPendingRequest
-title: ISectionList::CancelPendingRequest
+title: ISectionList::CancelPendingRequest (mpeg2data.h)
 author: windows-sdk-content
 description: The CancelPendingRequest method cancels any pending asynchronous request.
 old-location: mstv\isectionlist_cancelpendingrequest.htm

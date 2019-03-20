@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PublicKey.get_Algorithm
-title: IX509PublicKey::get_Algorithm
+title: IX509PublicKey::get_Algorithm (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an object identifier (OID) for the public key algorithm.
 old-location: security\ix509publickey_algorithm_property.htm

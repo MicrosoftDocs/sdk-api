@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_InitialOriginX
-title: IInertiaProcessor::put_InitialOriginX
+title: IInertiaProcessor::put_InitialOriginX (manipulations.h)
 author: windows-sdk-content
 description: The InitialOriginX property specifies the starting horizontal location for a target with inertia.
 old-location: wintouch\iinertiaprocessor_initialoriginx.htm

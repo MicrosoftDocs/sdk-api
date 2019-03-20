@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_QUERY
-title: D3D11_QUERY
+title: D3D11_QUERY (d3d11.h)
 author: windows-sdk-content
 description: Query types.
 old-location: direct3d11\d3d11_query.htm

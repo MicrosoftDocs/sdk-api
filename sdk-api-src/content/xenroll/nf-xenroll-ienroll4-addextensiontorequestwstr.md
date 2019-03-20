@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll4.addExtensionToRequestWStr
-title: IEnroll4::addExtensionToRequestWStr
+title: IEnroll4::addExtensionToRequestWStr (xenroll.h)
 author: windows-sdk-content
 description: Adds an extension to the request.
 old-location: security\ienroll4_addextensiontorequestwstr.htm

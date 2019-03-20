@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymGetFileLineOffsets64
-title: SymGetFileLineOffsets64 function
+title: SymGetFileLineOffsets64 function (dbghelp.h)
 author: windows-sdk-content
 description: Locates line information for the specified module and file name.
 old-location: base\symgetfilelineoffsets64.htm

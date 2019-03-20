@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._MESSAGE_RESOURCE_ENTRY
-title: MESSAGE_RESOURCE_ENTRY
+title: MESSAGE_RESOURCE_ENTRY (winnt.h)
 author: windows-sdk-content
 description: Contains the error message or message box display text for a message table resource.
 old-location: menurc\message_resource_entry.htm

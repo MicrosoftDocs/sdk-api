@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeInfo.Invoke
-title: ITypeInfo::Invoke
+title: ITypeInfo::Invoke (oaidl.h)
 author: windows-sdk-content
 description: Invokes a method, or accesses a property of an object, that implements the interface described by the type description.
 old-location: automat\itypeinfo_invoke.htm

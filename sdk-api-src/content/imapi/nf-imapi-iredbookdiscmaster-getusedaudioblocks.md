@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IRedbookDiscMaster.GetUsedAudioBlocks
-title: IRedbookDiscMaster::GetUsedAudioBlocks
+title: IRedbookDiscMaster::GetUsedAudioBlocks (imapi.h)
 author: windows-sdk-content
 description: Retrieves the total number of audio blocks in use.
 old-location: imapi\iredbookdiscmaster_getusedaudioblocks.htm

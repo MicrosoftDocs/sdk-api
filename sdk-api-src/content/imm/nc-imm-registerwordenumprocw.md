@@ -1,6 +1,6 @@
 ---
 UID: NC:imm.REGISTERWORDENUMPROCW
-title: REGISTERWORDENUMPROCW
+title: REGISTERWORDENUMPROCW (imm.h)
 author: windows-sdk-content
 description: An application-defined callback function used with the ImmEnumRegisterWord function.
 old-location: intl\enumregisterwordproc.htm

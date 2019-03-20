@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngLoadModule
-title: EngLoadModule function
+title: EngLoadModule function (winddi.h)
 author: windows-sdk-content
 description: The EngLoadModule function loads the specified data module into system memory for reading.
 old-location: display\engloadmodule.htm

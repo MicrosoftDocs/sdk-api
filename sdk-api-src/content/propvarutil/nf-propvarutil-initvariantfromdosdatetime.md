@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.InitVariantFromDosDateTime
-title: InitVariantFromDosDateTime function
+title: InitVariantFromDosDateTime function (propvarutil.h)
 author: windows-sdk-content
 description: Initializes a VARIANT structure with a date and time given in the format used by Microsoft MS-DOS. The date and time values are converted to the format used to store date and time in a VARIANT.
 old-location: properties\InitVariantFromDosDateTime.htm

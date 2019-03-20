@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsHwProviderStoragePools
-title: IVdsHwProviderStoragePools
+title: IVdsHwProviderStoragePools (vds.h)
 author: windows-sdk-content
 description: Provides methods to create LUNs in a storage pool and enumerate the storage pools managed by a hardware provider.
 old-location: base\ivdshwproviderstoragepools.htm

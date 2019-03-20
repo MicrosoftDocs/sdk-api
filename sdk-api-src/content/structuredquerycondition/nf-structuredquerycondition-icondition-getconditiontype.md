@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquerycondition.ICondition.GetConditionType
-title: ICondition::GetConditionType
+title: ICondition::GetConditionType (structuredquerycondition.h)
 author: windows-sdk-content
 description: Retrieves the condition type for this search condition node, identifying it as a logical AND, OR, or NOT, or as a leaf node.
 old-location: search\_search_ICondition_GetConditionType.htm

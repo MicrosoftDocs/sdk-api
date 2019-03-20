@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.IRowsetEvents.OnRowsetEvent
-title: IRowsetEvents::OnRowsetEvent
+title: IRowsetEvents::OnRowsetEvent (searchapi.h)
 author: windows-sdk-content
 description: Called by the indexer to notify clients of an event related to the client rowset.
 old-location: search\_search_IRowsetEvents_OnRowsetEvent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMBYTE2.XMBYTE2(int8_t,int8_t)
-title: XMBYTE2::XMBYTE2(int8_t,int8_t)
+title: XMBYTE2::XMBYTE2(int8_t,int8_t) (directxpackedvector.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMBYTE2 from XMBYTE2 int8_t arguments.
 old-location: dxmath\xmbyte2_ctor_2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:tssbx.__MIDL_IWTSSBPlugin_0007
-title: WTSSBX_MACHINE_INFO
+title: WTSSBX_MACHINE_INFO (tssbx.h)
 author: windows-sdk-content
 description: Contains information about a computer and its current state.
 old-location: termserv\wtssbx_machine_info.htm

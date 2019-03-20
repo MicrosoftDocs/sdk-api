@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3D9.GetAdapterCount
-title: IDirect3D9::GetAdapterCount
+title: IDirect3D9::GetAdapterCount (d3d9helper.h)
 author: windows-sdk-content
 description: Returns the number of adapters on the system.
 old-location: direct3d9\idirect3d9__getadaptercount.htm

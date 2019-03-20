@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspAlgorithms.get_IndexByObjectId
-title: ICspAlgorithms::get_IndexByObjectId
+title: ICspAlgorithms::get_IndexByObjectId (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the index of an ICspAlgorithm object by object identifier (OID).
 old-location: security\icspalgorithms_indexbyobjectid_property.htm

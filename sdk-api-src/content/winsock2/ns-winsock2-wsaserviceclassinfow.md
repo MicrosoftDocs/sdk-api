@@ -1,6 +1,6 @@
 ---
 UID: NS:winsock2._WSAServiceClassInfoW
-title: WSASERVICECLASSINFOW
+title: WSASERVICECLASSINFOW (winsock2.h)
 author: windows-sdk-content
 description: The WSASERVICECLASSINFO structure contains information about a specified service class. For each service class in Windows Sockets 2, there is a single WSASERVICECLASSINFO structure.
 old-location: winsock\wsaserviceclassinfo_2.htm

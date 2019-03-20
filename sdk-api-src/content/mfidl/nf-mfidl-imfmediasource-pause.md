@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSource.Pause
-title: IMFMediaSource::Pause
+title: IMFMediaSource::Pause (mfidl.h)
 author: windows-sdk-content
 description: Pauses all active streams in the media source.
 old-location: mf\imfmediasource_pause.htm

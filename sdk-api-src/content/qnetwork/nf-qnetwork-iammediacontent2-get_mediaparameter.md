@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMMediaContent2.get_MediaParameter
-title: IAMMediaContent2::get_MediaParameter
+title: IAMMediaContent2::get_MediaParameter (qnetwork.h)
 author: windows-sdk-content
 description: The get_MediaParameter method retrieves the value of a custom parameter in the ASX file.
 old-location: dshow\iammediacontent2_get_mediaparameter.htm

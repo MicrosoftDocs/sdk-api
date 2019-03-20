@@ -1,6 +1,6 @@
 ---
 UID: NE:faxcomex.FAX_RULE_STATUS_ENUM
-title: FAX_RULE_STATUS_ENUM
+title: FAX_RULE_STATUS_ENUM (faxcomex.h)
 author: windows-sdk-content
 description: The FAX_RULE_STATUS_ENUM enumeration defines the status types for outbound routing rules.
 old-location: fax\_mfax_fax_rule_status_enum.htm

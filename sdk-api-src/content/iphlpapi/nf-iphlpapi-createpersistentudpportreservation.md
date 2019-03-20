@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.CreatePersistentUdpPortReservation
-title: CreatePersistentUdpPortReservation function
+title: CreatePersistentUdpPortReservation function (iphlpapi.h)
 author: windows-sdk-content
 description: Creates a persistent UDP port reservation for a consecutive block of UDP ports on the local computer.
 old-location: iphlp\createpersistentudpportreservation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:avrt.AvRtDeleteThreadOrderingGroup
-title: AvRtDeleteThreadOrderingGroup function
+title: AvRtDeleteThreadOrderingGroup function (avrt.h)
 author: windows-sdk-content
 description: Deletes the specified thread ordering group created by the caller. It cleans up resources for the thread ordering group, including the context information, and returns.
 old-location: base\avrtdeletethreadorderinggroup.htm

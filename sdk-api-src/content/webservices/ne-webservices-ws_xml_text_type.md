@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_5
-title: WS_XML_TEXT_TYPE
+title: WS_XML_TEXT_TYPE (webservices.h)
 author: windows-sdk-content
 description: The type of WS_XML_TEXT structure.
 old-location: wsw\ws_xml_text_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.InstallPartition
-title: ICOMAdminCatalog2::InstallPartition
+title: ICOMAdminCatalog2::InstallPartition (comadmin.h)
 author: windows-sdk-content
 description: Imports a partition from a file.
 old-location: cos\icomadmincatalog2_installpartition.htm

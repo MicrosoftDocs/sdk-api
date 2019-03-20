@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetRefTypeInfo
-title: ITypeInfo::GetRefTypeInfo
+title: ITypeInfo::GetRefTypeInfo (oaidl.h)
 author: windows-sdk-content
 description: If a type description references other type descriptions, it retrieves the referenced type descriptions.
 old-location: automat\itypeinfo_getreftypeinfo.htm

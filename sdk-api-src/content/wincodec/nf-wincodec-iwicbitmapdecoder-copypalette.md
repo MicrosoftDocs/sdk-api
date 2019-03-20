@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoder.CopyPalette
-title: IWICBitmapDecoder::CopyPalette
+title: IWICBitmapDecoder::CopyPalette (wincodec.h)
 author: windows-sdk-content
 description: Copies the decoder's IWICPalette .
 old-location: wic\_wic_codec_iwicbitmapdecoder_copypalette.htm

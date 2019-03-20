@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IAdviseSink.OnSave
-title: IAdviseSink::OnSave
+title: IAdviseSink::OnSave (objidl.h)
 author: windows-sdk-content
 description: Called by the server to notify all registered advisory sinks that the object has been saved.
 old-location: com\iadvisesink_onsave.htm

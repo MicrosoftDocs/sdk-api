@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFGetAttributeDouble
-title: MFGetAttributeDouble function
+title: MFGetAttributeDouble function (mfapi.h)
 author: windows-sdk-content
 description: Returns a double value from an attribute store, or a default value if the attribute is not present.
 old-location: mf\mfgetattributedouble.htm

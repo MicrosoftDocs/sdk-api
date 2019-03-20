@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.GetCurrentMode
-title: IFullScreenVideoEx::GetCurrentMode
+title: IFullScreenVideoEx::GetCurrentMode (amvideo.h)
 author: windows-sdk-content
 description: The GetCurrentMode method retrieves the current display mode.
 old-location: dshow\ifullscreenvideoex_getcurrentmode.htm

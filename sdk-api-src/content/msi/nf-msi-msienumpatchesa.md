@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiEnumPatchesA
-title: MsiEnumPatchesA function
+title: MsiEnumPatchesA function (msi.h)
 author: windows-sdk-content
 description: The MsiEnumPatches function enumerates all of the patches that have been applied to a product.
 old-location: setup\msienumpatches.htm

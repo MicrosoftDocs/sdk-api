@@ -1,6 +1,6 @@
 ---
 UID: NF:eappapis.EapHostPeerGetSendPacket
-title: EapHostPeerGetSendPacket function
+title: EapHostPeerGetSendPacket function (eappapis.h)
 author: windows-sdk-content
 description: Is called by the supplicant when the supplicant needs to obtains a packet from EAPHost to send to the authenticator.
 old-location: eaphost\eaphostpeergetsendpacket.htm

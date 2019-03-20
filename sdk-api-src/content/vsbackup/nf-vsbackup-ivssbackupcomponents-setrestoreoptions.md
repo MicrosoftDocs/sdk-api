@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SetRestoreOptions
-title: IVssBackupComponents::SetRestoreOptions
+title: IVssBackupComponents::SetRestoreOptions (vsbackup.h)
 author: windows-sdk-content
 description: The SetRestoreOptions method sets a string of private, or writer-dependent, restore parameters for a writer component.
 old-location: base\ivssbackupcomponents_setrestoreoptions.htm

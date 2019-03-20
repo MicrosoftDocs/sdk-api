@@ -1,6 +1,6 @@
 ---
 UID: NS:filter.tagSTAT_CHUNK
-title: STAT_CHUNK
+title: STAT_CHUNK (filter.h)
 author: windows-sdk-content
 description: Describes the characteristics of a chunk.
 old-location: indexsrv\stat_chunk.htm

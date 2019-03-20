@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.Int8Sub
-title: Int8Sub function
+title: Int8Sub function (intsafe.h)
 author: windows-sdk-content
 description: Subtracts one value of type INT8 from another.
 old-location: shell\Int8Sub.htm

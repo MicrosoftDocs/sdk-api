@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.FindResourceA
-title: FindResourceA function
+title: FindResourceA function (winbase.h)
 author: windows-sdk-content
 description: Determines the location of a resource with the specified type and name in the specified module.
 old-location: menurc\findresource.htm

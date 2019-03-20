@@ -1,6 +1,6 @@
 ---
 UID: NF:npapi.NPGetResourceInformation
-title: NPGetResourceInformation function
+title: NPGetResourceInformation function (npapi.h)
 author: windows-sdk-content
 description: Separates the part of a network resource accessed through the WNet API from the part accessed through APIs specific to the resource type.
 old-location: security\npgetresourceinformation.htm

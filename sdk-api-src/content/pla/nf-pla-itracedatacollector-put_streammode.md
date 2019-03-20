@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.put_StreamMode
-title: ITraceDataCollector::put_StreamMode
+title: ITraceDataCollector::put_StreamMode (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the logging mode of the trace session.
 old-location: pla\itracedatacollector_streammode.htm

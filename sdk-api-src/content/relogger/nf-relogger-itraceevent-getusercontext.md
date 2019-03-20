@@ -1,6 +1,6 @@
 ---
 UID: NF:relogger.ITraceEvent.GetUserContext
-title: ITraceEvent::GetUserContext
+title: ITraceEvent::GetUserContext (relogger.h)
 author: windows-sdk-content
 description: Retrieves the user context associated with the stream to which the event belongs.
 old-location: etw\ievent_getusercontext.htm

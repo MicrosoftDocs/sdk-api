@@ -1,6 +1,6 @@
 ---
 UID: NF:filehc.TerminateCache
-title: TerminateCache function
+title: TerminateCache function (filehc.h)
 author: windows-sdk-content
 description: Eliminates the cache and ends asynchronous I/O with the DLL.
 old-location: winprog\_terminatecache.htm

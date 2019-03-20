@@ -1,6 +1,6 @@
 ---
 UID: NF:eappapis.EapHostPeerGetIdentity
-title: EapHostPeerGetIdentity function
+title: EapHostPeerGetIdentity function (eappapis.h)
 author: windows-sdk-content
 description: This function is called by tunnel methods to request identity information from the inner methods. This function returns the identity and user credential information.
 old-location: eaphost\eaphostpeergetidentity.htm

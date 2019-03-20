@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImageEncoder.WriteFrame
-title: IWICImageEncoder::WriteFrame
+title: IWICImageEncoder::WriteFrame (wincodec.h)
 author: windows-sdk-content
 description: Encodes the image to the frame given by the IWICBitmapFrameEncode.
 old-location: wic\iwicimageencoder_writeframe.htm

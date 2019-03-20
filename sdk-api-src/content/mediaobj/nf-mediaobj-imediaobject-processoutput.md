@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IMediaObject.ProcessOutput
-title: IMediaObject::ProcessOutput
+title: IMediaObject::ProcessOutput (mediaobj.h)
 author: windows-sdk-content
 description: The ProcessOutput method generates output from the current input data.
 old-location: dshow\imediaobject_processoutput.htm

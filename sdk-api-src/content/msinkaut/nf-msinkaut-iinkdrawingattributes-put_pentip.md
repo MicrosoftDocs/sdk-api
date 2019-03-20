@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDrawingAttributes.put_PenTip
-title: IInkDrawingAttributes::put_PenTip
+title: IInkDrawingAttributes::put_PenTip (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets a value that indicates which pen tip to use when drawing ink that is associated with this InkDrawingAttributes object.
 old-location: tablet\inkdrawingattributes_pentip.htm

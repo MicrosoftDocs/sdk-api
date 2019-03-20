@@ -1,6 +1,6 @@
 ---
 UID: NF:wsbapp.IWsbApplicationRestoreSupport.OrderComponents
-title: IWsbApplicationRestoreSupport::OrderComponents
+title: IWsbApplicationRestoreSupport::OrderComponents (wsbapp.h)
 author: windows-sdk-content
 description: Specifies the order in which application components are to be restored.
 old-location: wsb\iwsbapplicationrestoresupport_ordercomponents.htm

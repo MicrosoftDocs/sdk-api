@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.OnBackOffIOOnVolume
-title: CVssWriter::OnBackOffIOOnVolume
+title: CVssWriter::OnBackOffIOOnVolume (vswriter.h)
 author: windows-sdk-content
 description: Not supported.
 old-location: base\cvsswriter_onbackoffioonvolume.htm

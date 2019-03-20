@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP.GetScreenExt
-title: ITextStoreACP::GetScreenExt
+title: ITextStoreACP::GetScreenExt (textstor.h)
 author: windows-sdk-content
 description: The ITextStoreACP::GetScreenExt method returns the bounding box screen coordinates of the display surface where the text stream is rendered.
 old-location: tsf\itextstoreacp_getscreenext.htm

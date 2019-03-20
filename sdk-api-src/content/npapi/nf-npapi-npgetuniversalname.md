@@ -1,6 +1,6 @@
 ---
 UID: NF:npapi.NPGetUniversalName
-title: NPGetUniversalName function
+title: NPGetUniversalName function (npapi.h)
 author: windows-sdk-content
 description: Retrieves the universal name of a network resource. The NPGetUniversalName function can retrieve this universal name in UNC format or in the older, remote-name format.
 old-location: security\npgetuniversalname.htm

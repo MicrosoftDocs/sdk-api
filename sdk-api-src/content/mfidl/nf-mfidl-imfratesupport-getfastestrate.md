@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFRateSupport.GetFastestRate
-title: IMFRateSupport::GetFastestRate
+title: IMFRateSupport::GetFastestRate (mfidl.h)
 author: windows-sdk-content
 description: Gets the fastest playback rate supported by the object.
 old-location: mf\imfratesupport_getfastestrate.htm

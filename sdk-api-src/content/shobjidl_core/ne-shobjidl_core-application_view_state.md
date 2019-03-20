@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.APPLICATION_VIEW_STATE
-title: APPLICATION_VIEW_STATE
+title: APPLICATION_VIEW_STATE (shobjidl_core.h)
 author: windows-sdk-content
 description: Indicates the current view state of a Windows Store app. Used by IApplicationDesignModeSettings::SetApplicationViewState and IApplicationDesignModeSettings::IsApplicationViewStateSupported.
 old-location: shell\APPLICATION_VIEW_STATE.htm

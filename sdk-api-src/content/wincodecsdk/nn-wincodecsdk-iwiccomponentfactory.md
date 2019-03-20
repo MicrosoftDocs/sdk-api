@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodecsdk.IWICComponentFactory
-title: IWICComponentFactory
+title: IWICComponentFactory (wincodecsdk.h)
 author: windows-sdk-content
 description: Exposes methods that create components used by component developers. This includes metadata readers, writers and other services for use by codec and metadata handler developers.
 old-location: wic\_wic_codec_iwiccomponentfactory.htm

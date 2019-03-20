@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_HW_FIRMWARE_ACTIVATE
-title: STORAGE_HW_FIRMWARE_ACTIVATE
+title: STORAGE_HW_FIRMWARE_ACTIVATE (winioctl.h)
 author: windows-sdk-content
 description: This structure contains information about the downloaded firmware to activate.
 old-location: fs\storage_hw_firmware_activate.htm

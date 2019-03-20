@@ -1,6 +1,6 @@
 ---
 UID: NF:mspcall.CMSPCallBase.ReceiveTSPCallData
-title: CMSPCallBase::ReceiveTSPCallData
+title: CMSPCallBase::ReceiveTSPCallData (mspcall.h)
 author: windows-sdk-content
 description: The ReceiveTSPCallData method is called by the MSP address object's ReceiveTSPData method to dispatch TSP data to the correct call.
 old-location: tapi3\cmspcallbase_receivetspcalldata.htm

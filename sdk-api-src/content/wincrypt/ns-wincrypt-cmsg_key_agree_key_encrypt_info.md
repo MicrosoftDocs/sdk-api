@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMSG_KEY_AGREE_KEY_ENCRYPT_INFO
-title: CMSG_KEY_AGREE_KEY_ENCRYPT_INFO
+title: CMSG_KEY_AGREE_KEY_ENCRYPT_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains the encrypted key for a key agreement recipient of an enveloped message.
 old-location: security\cmsg_key_agree_key_encrypt_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetCreator
-title: IXpsOMCoreProperties::SetCreator
+title: IXpsOMCoreProperties::SetCreator (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the creator property.
 old-location: xps\ixpsomcoreproperties_setcreator.htm

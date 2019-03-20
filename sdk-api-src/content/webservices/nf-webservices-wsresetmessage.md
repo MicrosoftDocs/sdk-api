@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsResetMessage
-title: WsResetMessage function
+title: WsResetMessage function (webservices.h)
 author: windows-sdk-content
 description: Sets the Message state back to WS_MESSAGE_STATE_EMPTY. In this state the Message object can be reused.
 old-location: wsw\wsresetmessage.htm

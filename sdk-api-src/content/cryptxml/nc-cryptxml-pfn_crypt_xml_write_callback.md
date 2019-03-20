@@ -1,6 +1,6 @@
 ---
 UID: NC:cryptxml.PFN_CRYPT_XML_WRITE_CALLBACK
-title: PFN_CRYPT_XML_WRITE_CALLBACK
+title: PFN_CRYPT_XML_WRITE_CALLBACK (cryptxml.h)
 author: windows-sdk-content
 description: Writes XML data.
 old-location: security\pfn_crypt_xml_write_callback.htm

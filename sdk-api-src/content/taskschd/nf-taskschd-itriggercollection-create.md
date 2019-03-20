@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITriggerCollection.Create
-title: ITriggerCollection::Create
+title: ITriggerCollection::Create (taskschd.h)
 author: windows-sdk-content
 description: Creates a new trigger for the task.
 old-location: taskschd\itriggercollection_create.htm

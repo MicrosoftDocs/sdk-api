@@ -1,6 +1,6 @@
 ---
 UID: NN:mobsync.ISyncMgrRegister
-title: ISyncMgrRegister
+title: ISyncMgrRegister (mobsync.h)
 author: windows-sdk-content
 description: Exposes methods so that an application can register with the synchronization manager. This can be achieved either through the ISyncMgrRegister interface or by registering directly in the registry.
 old-location: shell\syncmgr_isyncmgrregister.htm

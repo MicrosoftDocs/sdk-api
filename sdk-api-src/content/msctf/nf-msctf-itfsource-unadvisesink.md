@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfSource.UnadviseSink
-title: ITfSource::UnadviseSink
+title: ITfSource::UnadviseSink (msctf.h)
 author: windows-sdk-content
 description: ITfSource::UnadviseSink method
 old-location: tsf\itfsource_unadvisesink.htm

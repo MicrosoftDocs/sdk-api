@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_CoverpageName
-title: IFaxDoc::put_CoverpageName
+title: IFaxDoc::put_CoverpageName (faxcom.h)
 author: windows-sdk-content
 description: Sets or retrieves the CoverpageName property for a FaxDoc object. The CoverpageName property is a null-terminated string that contains the name of the cover page template file (.cov) associated with the object.
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_coverpagename_cpp.htm

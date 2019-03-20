@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.EnumDateFormatsExEx
-title: EnumDateFormatsExEx function
+title: EnumDateFormatsExEx function (winnls.h)
 author: windows-sdk-content
 description: Enumerates the long date, short date, or year/month formats that are available for a locale specified by name.Note  The application should call this function in preference to EnumDateFormats or EnumDateFormatsEx if designed to run only on Windows Vista and later. Note  This function can enumerate data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see Using Persistent Locale Data.
 old-location: intl\enumdateformatsexex.htm

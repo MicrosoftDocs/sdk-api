@@ -1,6 +1,6 @@
 ---
 UID: NE:appmodel.AppPolicyCreateFileAccess
-title: AppPolicyCreateFileAccess
+title: AppPolicyCreateFileAccess (appmodel.h)
 author: windows-sdk-content
 description: The AppPolicyCreateFileAccess enumeration indicates whether a process has full or restricted access to the IO devices (file, file stream, directory, physical disk, volume, console buffer, tape drive, communications resource, mailslot, and pipe).
 old-location: appxpkg\apppolicycreatefileaccess_enumeration.htm

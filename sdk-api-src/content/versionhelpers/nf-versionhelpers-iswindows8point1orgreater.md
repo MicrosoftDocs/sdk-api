@@ -1,6 +1,6 @@
 ---
 UID: NF:versionhelpers.IsWindows8Point1OrGreater
-title: IsWindows8Point1OrGreater function
+title: IsWindows8Point1OrGreater function (versionhelpers.h)
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows 8.1 version.
 old-location: base\iswindows8_1orgreater.htm

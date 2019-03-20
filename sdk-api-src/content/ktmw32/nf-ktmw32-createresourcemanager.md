@@ -1,6 +1,6 @@
 ---
 UID: NF:ktmw32.CreateResourceManager
-title: CreateResourceManager function
+title: CreateResourceManager function (ktmw32.h)
 author: windows-sdk-content
 description: Creates a new resource manager (RM) object, and associates the RM with a transaction manager (TM).
 old-location: fs\createresourcemanager.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITTerminalManager.CreateDynamicTerminal
-title: ITTerminalManager::CreateDynamicTerminal
+title: ITTerminalManager::CreateDynamicTerminal (termmgr.h)
 author: windows-sdk-content
 description: The CreateDynamicTerminal method creates a dynamic terminal of a specified terminal class, media type, and direction.
 old-location: tapi3\itterminalmanager_createdynamicterminal.htm

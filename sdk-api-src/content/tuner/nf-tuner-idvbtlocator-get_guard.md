@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBTLocator.get_Guard
-title: IDVBTLocator::get_Guard
+title: IDVBTLocator::get_Guard (tuner.h)
 author: windows-sdk-content
 description: The get_Guard method retrieves the guard interval.
 old-location: mstv\idvbtlocator_get_guard.htm

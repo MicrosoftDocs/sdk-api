@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.ISBE2MediaTypeProfile.GetStreamCount
-title: ISBE2MediaTypeProfile::GetStreamCount
+title: ISBE2MediaTypeProfile::GetStreamCount (sbe.h)
 author: windows-sdk-content
 description: Gets the number of streams in a media type profile.
 old-location: mstv\isbe2mediatypeprofile_getstreamcount.htm

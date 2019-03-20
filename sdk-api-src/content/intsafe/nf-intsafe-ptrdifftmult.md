@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.PtrdiffTMult
-title: PtrdiffTMult function
+title: PtrdiffTMult function (intsafe.h)
 author: windows-sdk-content
 description: Multiplies two values of type ptrdiff_t.
 old-location: shell\PtrdiffTMult.htm

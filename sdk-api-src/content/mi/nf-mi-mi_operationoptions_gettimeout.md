@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_OperationOptions_GetTimeout
-title: MI_OperationOptions_GetTimeout function
+title: MI_OperationOptions_GetTimeout function (mi.h)
 author: windows-sdk-content
 description: Gets the operation timeout value.
 old-location: wmi_v2\mi_operationoptions_gettimeout.htm

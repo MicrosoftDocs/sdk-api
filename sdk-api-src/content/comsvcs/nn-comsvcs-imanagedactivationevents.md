@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IManagedActivationEvents
-title: IManagedActivationEvents
+title: IManagedActivationEvents (comsvcs.h)
 author: windows-sdk-content
 description: Used to create and destroy stubs for managed objects within the current COM+ context.
 old-location: cos\imanagedactivationevents.htm

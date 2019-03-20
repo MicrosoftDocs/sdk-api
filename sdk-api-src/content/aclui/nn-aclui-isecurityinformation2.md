@@ -1,6 +1,6 @@
 ---
 UID: NN:aclui.ISecurityInformation2
-title: ISecurityInformation2
+title: ISecurityInformation2 (aclui.h)
 author: windows-sdk-content
 description: Enables the access control editor to obtain information from the client that is not provided by the ISecurityInformation interface.
 old-location: security\isecurityinformation2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IComTrackingInfoCollection
-title: IComTrackingInfoCollection
+title: IComTrackingInfoCollection (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves information about a tracking information collection.
 old-location: cos\icomtrackinginfocollection.htm

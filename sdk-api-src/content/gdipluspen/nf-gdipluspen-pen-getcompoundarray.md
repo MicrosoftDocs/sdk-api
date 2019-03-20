@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.GetCompoundArray
-title: Pen::GetCompoundArray
+title: Pen::GetCompoundArray (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::GetCompoundArray method gets the compound array currently set for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetCompoundArray_compoundArray_count_.htm

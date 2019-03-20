@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DlgDirSelectExW
-title: DlgDirSelectExW function
+title: DlgDirSelectExW function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the current selection from a single-selection list box. It assumes that the list box has been filled by the DlgDirList function and that the selection is a drive letter, filename, or directory name.
 old-location: controls\DlgDirSelectEx.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellingError.get_CorrectiveAction
-title: ISpellingError::get_CorrectiveAction
+title: ISpellingError::get_CorrectiveAction (spellcheck.h)
 author: windows-sdk-content
 description: Indicates which corrective action should be taken for the spelling error.
 old-location: intl\ispellingerror_correctiveaction.htm

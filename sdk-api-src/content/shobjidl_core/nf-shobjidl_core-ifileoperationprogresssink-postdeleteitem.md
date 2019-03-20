@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.PostDeleteItem
-title: IFileOperationProgressSink::PostDeleteItem
+title: IFileOperationProgressSink::PostDeleteItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Performs caller-implemented actions after the delete process for each item is complete.
 old-location: shell\IFileOperationProgressSink_PostDeleteItem.htm

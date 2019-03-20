@@ -1,6 +1,6 @@
 ---
 UID: NF:winsvc.RegisterServiceCtrlHandlerW
-title: RegisterServiceCtrlHandlerW function
+title: RegisterServiceCtrlHandlerW function (winsvc.h)
 author: windows-sdk-content
 description: Registers a function to handle service control requests.
 old-location: base\registerservicectrlhandler.htm

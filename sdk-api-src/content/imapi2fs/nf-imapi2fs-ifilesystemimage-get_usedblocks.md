@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_UsedBlocks
-title: IFileSystemImage::get_UsedBlocks
+title: IFileSystemImage::get_UsedBlocks (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the number of blocks in use.
 old-location: imapi\ifilesystemimage_get_usedblocks.htm

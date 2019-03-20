@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_USER_STREAM
-title: MINIDUMP_USER_STREAM
+title: MINIDUMP_USER_STREAM (minidumpapiset.h)
 author: windows-sdk-content
 description: Contains user-defined information stored in a data stream.
 old-location: base\minidump_user_stream_str.htm

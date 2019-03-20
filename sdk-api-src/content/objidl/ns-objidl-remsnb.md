@@ -1,6 +1,6 @@
 ---
 UID: NS:objidl.tagRemSNB
-title: RemSNB
+title: RemSNB (objidl.h)
 author: windows-sdk-content
 description: The RemSNB structure is used for marshaling the SNB data type.Defined in the IStorage interface (Storag.idl).
 old-location: stg\remsnb.htm

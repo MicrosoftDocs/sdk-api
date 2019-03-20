@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetRecordVersionIndicator
-title: IISDB_SDTT::GetRecordVersionIndicator
+title: IISDB_SDTT::GetRecordVersionIndicator (dvbsiparser.h)
 author: windows-sdk-content
 description: Receives the version indicator from a record in an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_getrecordversionindicator.htm

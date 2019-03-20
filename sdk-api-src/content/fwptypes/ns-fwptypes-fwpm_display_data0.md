@@ -1,6 +1,6 @@
 ---
 UID: NS:fwptypes.FWPM_DISPLAY_DATA0_
-title: FWPM_DISPLAY_DATA0
+title: FWPM_DISPLAY_DATA0 (fwptypes.h)
 author: windows-sdk-content
 description: Stores an optional friendly name and an optional description for an object.
 old-location: fwp\fwpm_display_data0_struct.htm

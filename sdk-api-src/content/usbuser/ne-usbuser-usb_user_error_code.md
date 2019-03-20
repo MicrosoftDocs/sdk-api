@@ -1,6 +1,6 @@
 ---
 UID: NE:usbuser._USB_USER_ERROR_CODE
-title: USB_USER_ERROR_CODE
+title: USB_USER_ERROR_CODE (usbuser.h)
 author: windows-sdk-content
 description: The USB_USER_ERROR_CODE enumeration lists the error codes that a USB user-mode request reports when it fails.
 old-location: buses\usb_user_error_code.htm

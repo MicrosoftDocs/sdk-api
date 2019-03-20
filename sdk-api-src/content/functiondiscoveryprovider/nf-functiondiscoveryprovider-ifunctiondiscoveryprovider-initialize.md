@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProvider.Initialize
-title: IFunctionDiscoveryProvider::Initialize
+title: IFunctionDiscoveryProvider::Initialize (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: Initializes the Function Discovery provider object.
 old-location: ncd\ifunctiondiscoveryprovider_initialize_method.htm

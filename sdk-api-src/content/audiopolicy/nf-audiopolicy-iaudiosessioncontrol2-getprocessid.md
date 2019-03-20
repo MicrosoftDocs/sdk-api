@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl2.GetProcessId
-title: IAudioSessionControl2::GetProcessId
+title: IAudioSessionControl2::GetProcessId (audiopolicy.h)
 author: windows-sdk-content
 description: The GetProcessId method retrieves the process identifier of the audio session.
 old-location: coreaudio\iaudiosessioncontrol2_getprocessid.htm

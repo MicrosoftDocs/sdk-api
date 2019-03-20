@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService.IsControlWindowShown
-title: IBrowserService::IsControlWindowShown
+title: IBrowserService::IsControlWindowShown (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Retrieves a value that indicates whether a specified frame control is currently visible.
 old-location: shell\IBrowserService_IsControlWindowShown.htm

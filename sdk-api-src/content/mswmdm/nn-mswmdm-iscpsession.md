@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.ISCPSession
-title: ISCPSession
+title: ISCPSession (mswmdm.h)
 author: windows-sdk-content
 description: The ISCPSession interface provides efficient common state management for multiple operations.A secure content provider (SCP) session is useful when transferring multiple files.
 old-location: wmdm\iscpsession.htm

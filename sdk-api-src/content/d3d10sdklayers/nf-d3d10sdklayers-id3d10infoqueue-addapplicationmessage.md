@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.AddApplicationMessage
-title: ID3D10InfoQueue::AddApplicationMessage
+title: ID3D10InfoQueue::AddApplicationMessage (d3d10sdklayers.h)
 author: windows-sdk-content
 description: Add a user-defined message to the message queue and send that message to debug output.
 old-location: direct3d10\id3d10infoqueue_addapplicationmessage.htm

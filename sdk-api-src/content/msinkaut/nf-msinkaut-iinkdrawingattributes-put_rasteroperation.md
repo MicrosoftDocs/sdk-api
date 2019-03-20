@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDrawingAttributes.put_RasterOperation
-title: IInkDrawingAttributes::put_RasterOperation
+title: IInkDrawingAttributes::put_RasterOperation (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets a value that defines how the colors of the pen and background interact.
 old-location: tablet\inkdrawingattributes_rasteroperation.htm

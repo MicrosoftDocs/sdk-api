@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage2.Refresh
-title: IFaxIncomingMessage2::Refresh
+title: IFaxIncomingMessage2::Refresh (faxcomex.h)
 author: windows-sdk-content
 description: Refreshes FaxIncomingMessage object information from the fax server.
 old-location: fax\_mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_refresh_cpp.htm

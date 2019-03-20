@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_ALGORITHM
-title: CRYPT_XML_ALGORITHM
+title: CRYPT_XML_ALGORITHM (cryptxml.h)
 author: windows-sdk-content
 description: Specifies the algorithm used to sign or transform the message.
 old-location: security\crypt_xml_algorithm.htm

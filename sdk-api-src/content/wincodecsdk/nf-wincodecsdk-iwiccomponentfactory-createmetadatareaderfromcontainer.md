@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICComponentFactory.CreateMetadataReaderFromContainer
-title: IWICComponentFactory::CreateMetadataReaderFromContainer
+title: IWICComponentFactory::CreateMetadataReaderFromContainer (wincodecsdk.h)
 author: windows-sdk-content
 description: Creates an IWICMetadataReader based on the given parameters.
 old-location: wic\_wic_codec_iwiccomponentfactory_createmetadatareaderfromcontainer.htm

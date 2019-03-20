@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprConfigServerGetInfo
-title: MprConfigServerGetInfo function
+title: MprConfigServerGetInfo function (mprapi.h)
 author: windows-sdk-content
 description: The MprConfigServerGetInfo function retrieves server-level configuration information for the specified router.
 old-location: rras\mprconfigservergetinfo.htm

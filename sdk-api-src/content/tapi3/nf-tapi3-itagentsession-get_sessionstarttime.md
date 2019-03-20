@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAgentSession.get_SessionStartTime
-title: ITAgentSession::get_SessionStartTime
+title: ITAgentSession::get_SessionStartTime (tapi3.h)
 author: windows-sdk-content
 description: The get_SessionStartTime method gets the time that the session was created.
 old-location: tapi3\itagentsession_get_sessionstarttime.htm

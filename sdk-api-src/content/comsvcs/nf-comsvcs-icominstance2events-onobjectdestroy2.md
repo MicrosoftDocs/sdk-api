@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComInstance2Events.OnObjectDestroy2
-title: IComInstance2Events::OnObjectDestroy2
+title: IComInstance2Events::OnObjectDestroy2 (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a client releases an object.
 old-location: cos\icominstance2events_onobjectdestroy2.htm

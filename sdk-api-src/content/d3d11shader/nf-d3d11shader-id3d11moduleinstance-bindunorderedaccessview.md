@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ModuleInstance.BindUnorderedAccessView
-title: ID3D11ModuleInstance::BindUnorderedAccessView
+title: ID3D11ModuleInstance::BindUnorderedAccessView (d3d11shader.h)
 author: windows-sdk-content
 description: Rebinds an unordered access view (UAV) from source slot to destination slot.
 old-location: direct3d11\id3d11moduleinstance_bindunorderedaccessview.htm

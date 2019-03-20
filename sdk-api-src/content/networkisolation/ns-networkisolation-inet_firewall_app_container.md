@@ -1,6 +1,6 @@
 ---
 UID: NS:networkisolation._INET_FIREWALL_APP_CONTAINER
-title: INET_FIREWALL_APP_CONTAINER
+title: INET_FIREWALL_APP_CONTAINER (networkisolation.h)
 author: windows-sdk-content
 description: Contains information about an specific app container.
 old-location: ics\inet_firewall_app_container.htm

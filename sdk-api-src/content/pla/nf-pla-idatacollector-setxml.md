@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollector.SetXml
-title: IDataCollector::SetXml
+title: IDataCollector::SetXml (pla.h)
 author: windows-sdk-content
 description: Sets the property values of those properties included in the XML.
 old-location: pla\idatacollector_setxml.htm

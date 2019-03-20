@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsAbortServiceHost
-title: WsAbortServiceHost function
+title: WsAbortServiceHost function (webservices.h)
 author: windows-sdk-content
 description: Aborts all current operations on the specified service host.
 old-location: wsw\wsabortservicehost.htm

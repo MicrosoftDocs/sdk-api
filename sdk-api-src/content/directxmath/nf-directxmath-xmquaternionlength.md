@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMQuaternionLength
-title: XMQuaternionLength function
+title: XMQuaternionLength function (directxmath.h)
 author: windows-sdk-content
 description: Computes the magnitude of a quaternion.
 old-location: dxmath\xmquaternionlength.htm

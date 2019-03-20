@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorDevice.GetDeviceType
-title: IMFSensorDevice::GetDeviceType
+title: IMFSensorDevice::GetDeviceType (mfidl.h)
 author: windows-sdk-content
 description: Gets a value that specifies the type of sensor device represented by the object.
 old-location: mf\imfsensordevice_getdevicetype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TabCtrl_InsertItem
-title: TabCtrl_InsertItem macro
+title: TabCtrl_InsertItem macro (commctrl.h)
 author: windows-sdk-content
 description: Inserts a new tab in a tab control. You can use this macro or send the TCM_INSERTITEM message explicitly.
 old-location: controls\TabCtrl_InsertItem.htm

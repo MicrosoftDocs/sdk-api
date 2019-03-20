@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMBackupRestoreProps
-title: IWMBackupRestoreProps
+title: IWMBackupRestoreProps (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMBackupRestoreProps interface sets and retrieves properties required by the IWMLicenseBackup and IWMLicenseRestore interfaces.
 old-location: wmformat\iwmbackuprestoreprops.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:uiribbon.UI_FONTPROPERTIES
-title: UI_FONTPROPERTIES
+title: UI_FONTPROPERTIES (uiribbon.h)
 author: windows-sdk-content
 description: Specifies values that identify the font property state of a FontControl, such as Strikethrough.
 old-location: windowsribbon\windowsribbon_ui_fontproperties.htm

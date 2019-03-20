@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSMan.CreateConnectionOptions
-title: IWSMan::CreateConnectionOptions
+title: IWSMan::CreateConnectionOptions (wsmandisp.h)
 author: windows-sdk-content
 description: Creates an IWSManConnectionOptions object that specifies the user name and password used when creating a session.
 old-location: winrm\iwsman_createconnectionoptions.htm

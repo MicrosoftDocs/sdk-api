@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_CREATEPALETTEDATA
-title: DD_CREATEPALETTEDATA
+title: DD_CREATEPALETTEDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_CREATEPALETTEDATA structure contains information necessary to create a DirectDrawPalette object for this Microsoft DirectDraw object.
 old-location: display\dd_createpalettedata.htm

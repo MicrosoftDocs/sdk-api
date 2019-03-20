@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.ReleaseHfont
-title: IFont::ReleaseHfont
+title: IFont::ReleaseHfont (ocidl.h)
 author: windows-sdk-content
 description: Notifies the font object that the caller that previously locked this font in the cache with IFont::AddRefHfont no longer requires the lock.
 old-location: com\ifont_releasehfont.htm

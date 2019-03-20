@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionRotateTransform3D.SetAngle(float)
-title: IDCompositionRotateTransform3D::SetAngle(float)
+title: IDCompositionRotateTransform3D::SetAngle(float) (dcomp.h)
 author: windows-sdk-content
 description: Changes the value of the Angle property of a 3D rotation transform. The Angle property specifies the rotation angle. The default value is zero.
 old-location: directcomp\idcompositionrotatetransform3d_setangle_float.htm

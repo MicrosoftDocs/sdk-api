@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.ResumeSuspendedDownload
-title: ResumeSuspendedDownload function
+title: ResumeSuspendedDownload function (wininet.h)
 author: windows-sdk-content
 description: The ResumeSuspendedDownload function resumes a request that is suspended by a user interface dialog box.
 old-location: wininet\resumesuspendeddownload.htm

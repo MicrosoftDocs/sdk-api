@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateCompositeEffect
-title: IDCompositionDevice3::CreateCompositeEffect
+title: IDCompositionDevice3::CreateCompositeEffect (dcomp.h)
 author: windows-sdk-content
 description: Creates an instance of IDCompositionCompositeEffect.
 old-location: directcomp\idcompositiondevice3_createcompositeeffect.htm

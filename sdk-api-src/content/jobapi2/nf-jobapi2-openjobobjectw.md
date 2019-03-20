@@ -1,6 +1,6 @@
 ---
 UID: NF:jobapi2.OpenJobObjectW
-title: OpenJobObjectW function
+title: OpenJobObjectW function (jobapi2.h)
 author: windows-sdk-content
 description: Opens an existing job object.
 old-location: base\openjobobject.htm

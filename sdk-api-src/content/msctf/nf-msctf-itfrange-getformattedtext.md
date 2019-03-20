@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.GetFormattedText
-title: ITfRange::GetFormattedText
+title: ITfRange::GetFormattedText (msctf.h)
 author: windows-sdk-content
 description: The ITfRange::GetFormattedText method obtains formatted content contained within a range of text. The content is packaged in an object that supports the IDataObject interface.
 old-location: tsf\itfrange_getformattedtext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcLibrary.CreateGeneratorParameters
-title: IRdcLibrary::CreateGeneratorParameters
+title: IRdcLibrary::CreateGeneratorParameters (msrdc.h)
 author: windows-sdk-content
 description: Returns an IRdcGeneratorParameters interface pointer initialized with the parameters necessary for a signature generator.
 old-location: rdc\irdclibrary_creategeneratorparameters.htm

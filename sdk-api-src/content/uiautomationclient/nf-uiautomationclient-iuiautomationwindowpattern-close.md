@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.Close
-title: IUIAutomationWindowPattern::Close
+title: IUIAutomationWindowPattern::Close (uiautomationclient.h)
 author: windows-sdk-content
 description: Closes the window.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_Close.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig2.SetEnableResends
-title: IWMReaderNetworkConfig2::SetEnableResends
+title: IWMReaderNetworkConfig2::SetEnableResends (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetEnableResends method enables or disables resends.
 old-location: wmformat\iwmreadernetworkconfig2_setenableresends.htm

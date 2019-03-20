@@ -1,6 +1,6 @@
 ---
 UID: NS:fwptypes.FWP_TOKEN_INFORMATION_
-title: FWP_TOKEN_INFORMATION
+title: FWP_TOKEN_INFORMATION (fwptypes.h)
 author: windows-sdk-content
 description: The FWP_TOKEN_INFORMATION structure defines a set of security identifiers that are used for user-mode classification.
 old-location: fwp\fwp_token_information.htm

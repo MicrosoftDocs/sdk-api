@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation2.get_AutoSetFocus
-title: IUIAutomation2::get_AutoSetFocus
+title: IUIAutomation2::get_AutoSetFocus (uiautomationclient.h)
 author: windows-sdk-content
 description: Specifies whether calls to UI Automation control pattern methods automatically set focus to the target element.
 old-location: winauto\uiauto_IUIAutomation2_AutoSetFocus.htm

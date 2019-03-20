@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext3.GetGroups
-title: IAzClientContext3::GetGroups
+title: IAzClientContext3::GetGroups (azroles.h)
 author: windows-sdk-content
 description: Returns an array of the application groups associated with this client context.
 old-location: security\iazclientcontext3_getgroups.htm

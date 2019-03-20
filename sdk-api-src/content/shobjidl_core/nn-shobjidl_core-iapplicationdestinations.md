@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IApplicationDestinations
-title: IApplicationDestinations
+title: IApplicationDestinations (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that allow an application to remove one or all destinations from the Recent or Frequent categories in a Jump List.
 old-location: shell\IApplicationDestinations.htm

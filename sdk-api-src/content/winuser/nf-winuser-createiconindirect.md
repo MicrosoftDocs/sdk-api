@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CreateIconIndirect
-title: CreateIconIndirect function
+title: CreateIconIndirect function (winuser.h)
 author: windows-sdk-content
 description: Creates an icon or cursor from an ICONINFO structure.
 old-location: menurc\createiconindirect.htm

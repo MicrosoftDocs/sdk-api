@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetGetAnyDCName
-title: NetGetAnyDCName function
+title: NetGetAnyDCName function (lmaccess.h)
 author: windows-sdk-content
 description: The NetGetAnyDCName function returns the name of any domain controller (DC) for a domain that is directly trusted by the specified server.
 old-location: netmgmt\netgetanydcname.htm

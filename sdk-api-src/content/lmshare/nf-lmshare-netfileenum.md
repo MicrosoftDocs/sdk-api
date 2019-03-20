@@ -1,6 +1,6 @@
 ---
 UID: NF:lmshare.NetFileEnum
-title: NetFileEnum function
+title: NetFileEnum function (lmshare.h)
 author: windows-sdk-content
 description: Returns information about some or all open files on a server, depending on the parameters specified.
 old-location: fs\netfileenum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:projectedfslib.PRJ_FILE_STATE
-title: PRJ_FILE_STATE
+title: PRJ_FILE_STATE (projectedfslib.h)
 author: windows-sdk-content
 description: The state of an item.
 old-location: projfs\prj_file_state.htm

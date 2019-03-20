@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcompiler.D3DCreateBlob
-title: D3DCreateBlob function
+title: D3DCreateBlob function (d3dcompiler.h)
 author: windows-sdk-content
 description: Creates a buffer.
 old-location: direct3dhlsl\d3dcreateblob.htm

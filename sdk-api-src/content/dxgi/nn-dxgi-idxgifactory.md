@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi.IDXGIFactory
-title: IDXGIFactory
+title: IDXGIFactory (dxgi.h)
 author: windows-sdk-content
 description: An IDXGIFactory interface implements methods for generating DXGI objects (which handle full screen transitions).
 old-location: direct3ddxgi\idxgifactory.htm

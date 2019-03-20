@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncAudioDualMono
-title: eAVEncAudioDualMono
+title: eAVEncAudioDualMono (codecapi.h)
 author: windows-sdk-content
 description: Specifies whether 2-channel audio is encoded as stereo or dual mono. This enumeration is used with the AVEncAudioDualMono property.
 old-location: dshow\eavencaudiodualmono.htm

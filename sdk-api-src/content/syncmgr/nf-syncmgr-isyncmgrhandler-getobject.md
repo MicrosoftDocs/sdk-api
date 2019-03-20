@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandler.GetObject
-title: ISyncMgrHandler::GetObject
+title: ISyncMgrHandler::GetObject (syncmgr.h)
 author: windows-sdk-content
 description: Creates a specific type of object related to the handler.
 old-location: shell\ISyncMgrHandler_GetObject.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileOpenDialog.GetResults
-title: IFileOpenDialog::GetResults
+title: IFileOpenDialog::GetResults (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the user's choices in a dialog that allows multiple selection.
 old-location: shell\IFileOpenDialog_GetResults.htm

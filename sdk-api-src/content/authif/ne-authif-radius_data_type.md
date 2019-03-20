@@ -1,6 +1,6 @@
 ---
 UID: NE:authif._RADIUS_DATA_TYPE
-title: RADIUS_DATA_TYPE
+title: RADIUS_DATA_TYPE (authif.h)
 author: windows-sdk-content
 description: The RADIUS_DATA_TYPE type enumerates the possible data type for a RADIUS attribute or extended attribute.
 old-location: nps\IAS_radius_data_type.htm

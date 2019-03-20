@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_FDC.GetTableSection
-title: IBDA_FDC::GetTableSection
+title: IBDA_FDC::GetTableSection (bdaiface.h)
 author: windows-sdk-content
 description: Gets the latest table section.
 old-location: mstv\ibda_fdc_gettablesection.htm

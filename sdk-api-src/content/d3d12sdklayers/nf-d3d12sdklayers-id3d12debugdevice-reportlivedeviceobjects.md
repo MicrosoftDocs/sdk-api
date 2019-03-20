@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12DebugDevice.ReportLiveDeviceObjects
-title: ID3D12DebugDevice::ReportLiveDeviceObjects
+title: ID3D12DebugDevice::ReportLiveDeviceObjects (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Reports information about a device object's lifetime.
 old-location: direct3d12\id3d12debugdevice_reportlivedeviceobjects.htm

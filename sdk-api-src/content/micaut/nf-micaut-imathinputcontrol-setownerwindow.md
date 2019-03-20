@@ -1,6 +1,6 @@
 ---
 UID: NF:micaut.IMathInputControl.SetOwnerWindow
-title: IMathInputControl::SetOwnerWindow
+title: IMathInputControl::SetOwnerWindow (micaut.h)
 author: windows-sdk-content
 description: Modifies the window that owns this control.
 old-location: tablet\imathinputcontrol_setownerwindow.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IEnumWorkItems.Reset
-title: IEnumWorkItems::Reset
+title: IEnumWorkItems::Reset (mstask.h)
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: taskschd\ienumworkitems_reset.htm

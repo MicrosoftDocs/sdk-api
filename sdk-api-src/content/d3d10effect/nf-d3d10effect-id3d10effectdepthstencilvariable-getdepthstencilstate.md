@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectDepthStencilVariable.GetDepthStencilState
-title: ID3D10EffectDepthStencilVariable::GetDepthStencilState
+title: ID3D10EffectDepthStencilVariable::GetDepthStencilState (d3d10effect.h)
 author: windows-sdk-content
 description: Get a pointer to a depth-stencil interface.
 old-location: direct3d10\id3d10effectdepthstencilvariable_getdepthstencilstate.htm

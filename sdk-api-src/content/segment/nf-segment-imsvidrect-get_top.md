@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidRect.get_Top
-title: IMSVidRect::get_Top
+title: IMSVidRect::get_Top (segment.h)
 author: windows-sdk-content
 description: The get_Top method retrieves the top y-coordinate of the rectangle. This coordinate is relative to the rectangle's associated window.
 old-location: mstv\imsvidrect_get_top.htm

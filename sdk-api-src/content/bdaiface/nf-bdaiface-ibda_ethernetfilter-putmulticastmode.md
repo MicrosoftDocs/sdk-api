@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_EthernetFilter.PutMulticastMode
-title: IBDA_EthernetFilter::PutMulticastMode
+title: IBDA_EthernetFilter::PutMulticastMode (bdaiface.h)
 author: windows-sdk-content
 description: The PutMulticastMode method sets the multicast mode.
 old-location: mstv\ibda_ethernetfilter_putmulticastmode.htm

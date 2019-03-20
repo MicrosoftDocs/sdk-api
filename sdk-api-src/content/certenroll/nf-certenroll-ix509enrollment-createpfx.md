@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Enrollment.CreatePFX
-title: IX509Enrollment::CreatePFX
+title: IX509Enrollment::CreatePFX (certenroll.h)
 author: windows-sdk-content
 description: Creates a Personal Information Exchange (PFX) message.
 old-location: security\ix509enrollment_createpfx_method.htm

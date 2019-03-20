@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite.DWRITE_FLOW_DIRECTION
-title: DWRITE_FLOW_DIRECTION
+title: DWRITE_FLOW_DIRECTION (dwrite.h)
 author: windows-sdk-content
 description: Indicates the direction of how lines of text are placed relative to one another.
 old-location: directwrite\dwrite_flow_direction.htm

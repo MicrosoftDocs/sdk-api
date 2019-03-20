@@ -1,6 +1,6 @@
 ---
 UID: NF:appmodel.OpenPackageInfoByFullName
-title: OpenPackageInfoByFullName function
+title: OpenPackageInfoByFullName function (appmodel.h)
 author: windows-sdk-content
 description: Opens the package information of the specified package.
 old-location: appxpkg\openpackageinfobyfullname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChange.GetCreationVersion
-title: ISyncChange::GetCreationVersion
+title: ISyncChange::GetCreationVersion (winsync.h)
 author: windows-sdk-content
 description: Gets the creation version of the changed item.
 old-location: winsync\isyncchange_getcreationversion.htm

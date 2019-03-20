@@ -1,6 +1,6 @@
 ---
 UID: NE:drt._DRT_REGISTRATION_STATE
-title: DRT_REGISTRATION_STATE
+title: DRT_REGISTRATION_STATE (drt.h)
 author: windows-sdk-content
 description: The DRT_REGISTRATION_STATE enumeration defines the set of legal states for a registered key.
 old-location: p2p\drt_registration_state.htm

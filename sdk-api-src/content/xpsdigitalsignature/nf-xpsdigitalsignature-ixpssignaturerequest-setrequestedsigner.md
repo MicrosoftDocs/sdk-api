@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.SetRequestedSigner
-title: IXpsSignatureRequest::SetRequestedSigner
+title: IXpsSignatureRequest::SetRequestedSigner (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Sets the identity of the person who signed or is requested to sign the package.
 old-location: xps\ixpssignaturerequest_setrequestedsigner.htm

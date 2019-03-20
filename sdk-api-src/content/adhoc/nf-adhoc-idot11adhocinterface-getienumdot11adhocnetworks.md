@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocInterface.GetIEnumDot11AdHocNetworks
-title: IDot11AdHocInterface::GetIEnumDot11AdHocNetworks
+title: IDot11AdHocInterface::GetIEnumDot11AdHocNetworks (adhoc.h)
 author: windows-sdk-content
 description: Gets the collection of networks associated with this NIC.
 old-location: nwifi\idot11adhocinterface_getienumdot11adhocnetworks.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecpkg.CredMarshalTargetInfo
-title: CredMarshalTargetInfo function
+title: CredMarshalTargetInfo function (ntsecpkg.h)
 author: windows-sdk-content
 description: Serializes the specified target into an array of byte values.
 old-location: security\credmarshaltargetinfo.htm

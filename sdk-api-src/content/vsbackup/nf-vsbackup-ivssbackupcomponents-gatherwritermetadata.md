@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.GatherWriterMetadata
-title: IVssBackupComponents::GatherWriterMetadata
+title: IVssBackupComponents::GatherWriterMetadata (vsbackup.h)
 author: windows-sdk-content
 description: The GatherWriterMetadata method prompts each writer to send the metadata they have collected. The method will generate an Identify event to communicate with writers.
 old-location: base\ivssbackupcomponents_gatherwritermetadata.htm

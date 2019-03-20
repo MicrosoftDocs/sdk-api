@@ -1,6 +1,6 @@
 ---
 UID: NE:oaidl.tagSYSKIND
-title: SYSKIND
+title: SYSKIND (oaidl.h)
 author: windows-sdk-content
 description: Identifies the target operating system platform.
 old-location: automat\syskind.htm

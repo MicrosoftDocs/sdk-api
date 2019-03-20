@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_RealTimeBuffersLost
-title: ITraceDataCollector::get_RealTimeBuffersLost
+title: ITraceDataCollector::get_RealTimeBuffersLost (pla.h)
 author: windows-sdk-content
 description: Retrieves the number of buffers that were not delivered in real time to the consumer.
 old-location: pla\itracedatacollector_realtimebufferslost.htm

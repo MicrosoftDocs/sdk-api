@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSMan.get_Error
-title: IWSMan::get_Error
+title: IWSMan::get_Error (wsmandisp.h)
 author: windows-sdk-content
 description: Gets additional error information, in an XML stream, for the preceding call to an IWSMan method if Windows Remote Management service was unable to create an IWSManSession object, an IWSManConnectionOptions object, or an IWSManResourceLocator object.
 old-location: winrm\iwsman_error.htm

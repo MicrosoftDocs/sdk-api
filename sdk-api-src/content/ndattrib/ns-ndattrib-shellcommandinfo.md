@@ -1,6 +1,6 @@
 ---
 UID: NS:ndattrib.tagShellCommandInfo
-title: ShellCommandInfo
+title: ShellCommandInfo (ndattrib.h)
 author: windows-sdk-content
 description: The ShellCommandInfo structure contains data required to launch an additional application for manual repair options.
 old-location: ndf\shellcommandinfo.htm

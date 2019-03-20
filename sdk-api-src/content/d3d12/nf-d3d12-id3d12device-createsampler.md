@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateSampler
-title: ID3D12Device::CreateSampler
+title: ID3D12Device::CreateSampler (d3d12.h)
 author: windows-sdk-content
 description: Create a sampler object that encapsulates sampling information for a texture.
 old-location: direct3d12\id3d12device_createsampler.htm

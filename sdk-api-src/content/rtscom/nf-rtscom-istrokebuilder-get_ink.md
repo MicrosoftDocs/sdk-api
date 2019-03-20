@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IStrokeBuilder.get_Ink
-title: IStrokeBuilder::get_Ink
+title: IStrokeBuilder::get_Ink (rtscom.h)
 author: windows-sdk-content
 description: Gets or sets the ink object that is associated with the IStrokeBuilder object.
 old-location: tablet\istrokebuilder_ink.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel_2.IXpsOMPackageWriter3D
-title: IXpsOMPackageWriter3D
+title: IXpsOMPackageWriter3D (xpsobjectmodel_2.h)
 author: windows-sdk-content
 description: Contains methods that support model textures and print ticket.
 old-location: xps\ixpsompackagewriter3d.htm

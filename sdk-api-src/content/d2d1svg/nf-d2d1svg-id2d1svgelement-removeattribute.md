@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.RemoveAttribute
-title: ID2D1SvgElement::RemoveAttribute
+title: ID2D1SvgElement::RemoveAttribute (d2d1svg.h)
 author: windows-sdk-content
 description: Removes the attribute from this element.
 old-location: direct2d\id2d1svgelement_removeattribute.htm

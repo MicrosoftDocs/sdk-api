@@ -1,6 +1,6 @@
 ---
 UID: NE:projectedfslib.PRJ_COMPLETE_COMMAND_TYPE
-title: PRJ_COMPLETE_COMMAND_TYPE
+title: PRJ_COMPLETE_COMMAND_TYPE (projectedfslib.h)
 author: windows-sdk-content
 description: Specifies command types.
 old-location: projfs\prj_complete_command_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wcndevice.IWCNDevice
-title: IWCNDevice
+title: IWCNDevice (wcndevice.h)
 author: windows-sdk-content
 description: Use this interface to configure the device and initiate the session.
 old-location: wcn\iwcndevice.htm

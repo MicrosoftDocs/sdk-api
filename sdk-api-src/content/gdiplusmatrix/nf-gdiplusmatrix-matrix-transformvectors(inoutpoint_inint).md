@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.TransformVectors(IN OUT Point,IN INT)
-title: Matrix::TransformVectors(IN OUT Point,IN INT)
+title: Matrix::TransformVectors(IN OUT Point,IN INT) (gdiplusmatrix.h)
 author: windows-sdk-content
 description: The Matrix::TransformVectors method multiplies each vector in an array by this matrix.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_TransformVectors_Point_pts_INT_count_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMapping.CloseMapping
-title: ISimilarityTraitsMapping::CloseMapping
+title: ISimilarityTraitsMapping::CloseMapping (msrdc.h)
 author: windows-sdk-content
 description: Closes a file mapping object for a similarity traits table file.
 old-location: rdc\isimilaritytraitsmapping_closemapping.htm

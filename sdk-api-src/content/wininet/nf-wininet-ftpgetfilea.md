@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.FtpGetFileA
-title: FtpGetFileA function
+title: FtpGetFileA function (wininet.h)
 author: windows-sdk-content
 description: Retrieves a file from the FTP server and stores it under the specified file name, creating a new local file in the process.
 old-location: wininet\ftpgetfile.htm

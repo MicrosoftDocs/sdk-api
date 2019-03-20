@@ -1,6 +1,6 @@
 ---
 UID: NS:mfapi.tagCapturedMetadataExposureCompensation
-title: CapturedMetadataExposureCompensation
+title: CapturedMetadataExposureCompensation (mfapi.h)
 author: windows-sdk-content
 description: This structure contains blob information for the EV compensation feedback for the photo captured.
 old-location: stream\capturedmetadataexposurecompensation.htm

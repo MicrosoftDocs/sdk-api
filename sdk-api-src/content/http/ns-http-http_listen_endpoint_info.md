@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_LISTEN_ENDPOINT_INFO
-title: HTTP_LISTEN_ENDPOINT_INFO
+title: HTTP_LISTEN_ENDPOINT_INFO (http.h)
 author: windows-sdk-content
 description: Controls whether IP-based URLs should listen on the specific IP address or on a wildcard.
 old-location: http\http_listen_endpoint_info.htm

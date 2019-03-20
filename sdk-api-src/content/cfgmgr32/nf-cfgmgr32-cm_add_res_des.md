@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Add_Res_Des
-title: CM_Add_Res_Des function
+title: CM_Add_Res_Des function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Add_Res_Des function adds a resource descriptor to a logical configuration.
 old-location: devinst\cm_add_res_des.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntimeclientext.IWorkspaceClientExt.IssueDisconnect
-title: IWorkspaceClientExt::IssueDisconnect
+title: IWorkspaceClientExt::IssueDisconnect (workspaceruntimeclientext.h)
 author: windows-sdk-content
 description: Disconnects the custom client in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspaceclientext_issuedisconnect.htm

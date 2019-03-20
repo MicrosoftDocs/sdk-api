@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsdefs._WTS_USER_DATA
-title: WTS_USER_DATA
+title: WTS_USER_DATA (wtsdefs.h)
 author: windows-sdk-content
 description: Contains select client property values.
 old-location: termserv\wts_user_data.htm

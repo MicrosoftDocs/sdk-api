@@ -1,6 +1,6 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.GetVideoFormats
-title: IVPBaseConfig::GetVideoFormats
+title: IVPBaseConfig::GetVideoFormats (vpconfig.h)
 author: windows-sdk-content
 description: The GetVideoFormats method retrieves the video formats the driver supports.
 old-location: dshow\ivpbaseconfig_getvideoformats.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tsvirtualchannels.IWTSVirtualChannel.Close
-title: IWTSVirtualChannel::Close
+title: IWTSVirtualChannel::Close (tsvirtualchannels.h)
 author: windows-sdk-content
 description: Closes the channel.
 old-location: termserv\iwtsvirtualchannel_close.htm

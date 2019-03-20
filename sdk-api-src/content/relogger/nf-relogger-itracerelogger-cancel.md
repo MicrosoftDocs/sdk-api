@@ -1,6 +1,6 @@
 ---
 UID: NF:relogger.ITraceRelogger.Cancel
-title: ITraceRelogger::Cancel
+title: ITraceRelogger::Cancel (relogger.h)
 author: windows-sdk-content
 description: Terminates the relogging process.
 old-location: etw\itracerelogger_cancel.htm

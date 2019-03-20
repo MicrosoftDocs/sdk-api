@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_application_registration_info_tag
-title: PEER_APPLICATION_REGISTRATION_INFO
+title: PEER_APPLICATION_REGISTRATION_INFO (p2p.h)
 author: windows-sdk-content
 description: The PEER_APPLICATION_REGISTRATION_INFO structure contains peer application information for registration with the local computer.
 old-location: p2p\peer_application_registration_info.htm

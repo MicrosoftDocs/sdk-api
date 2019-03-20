@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFMediaBuffer.SetCurrentLength
-title: IMFMediaBuffer::SetCurrentLength
+title: IMFMediaBuffer::SetCurrentLength (mfobjects.h)
 author: windows-sdk-content
 description: Sets the length of the valid data in the buffer.
 old-location: mf\imfmediabuffer_setcurrentlength.htm

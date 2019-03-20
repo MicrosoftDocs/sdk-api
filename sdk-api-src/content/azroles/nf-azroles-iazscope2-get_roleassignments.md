@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope2.get_RoleAssignments
-title: IAzScope2::get_RoleAssignments
+title: IAzScope2::get_RoleAssignments (azroles.h)
 author: windows-sdk-content
 description: Retrieves an IAzRoleAssignments object that represents the collection of IAzRoleAssignment objects associated with this scope.
 old-location: security\iazscope2_roleassignments.htm

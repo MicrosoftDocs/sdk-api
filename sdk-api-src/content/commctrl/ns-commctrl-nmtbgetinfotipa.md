@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMTBGETINFOTIPA
-title: NMTBGETINFOTIPA
+title: NMTBGETINFOTIPA (commctrl.h)
 author: windows-sdk-content
 description: Contains and receives infotip information for a toolbar item. This structure is used with the TBN_GETINFOTIP notification code.
 old-location: controls\NMTBGETINFOTIP.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFOutputPolicy.GenerateRequiredSchemas
-title: IMFOutputPolicy::GenerateRequiredSchemas
+title: IMFOutputPolicy::GenerateRequiredSchemas (mfidl.h)
 author: windows-sdk-content
 description: Retrieves a list of the output protection systems that the output trust authority (OTA) must enforce, along with configuration data for each protection system.
 old-location: mf\imfoutputpolicy_generaterequiredschemas.htm

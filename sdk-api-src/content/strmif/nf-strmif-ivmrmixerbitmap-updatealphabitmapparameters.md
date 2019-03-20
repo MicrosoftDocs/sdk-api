@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRMixerBitmap.UpdateAlphaBitmapParameters
-title: IVMRMixerBitmap::UpdateAlphaBitmapParameters
+title: IVMRMixerBitmap::UpdateAlphaBitmapParameters (strmif.h)
 author: windows-sdk-content
 description: The UpdateAlphaBitmapParameters method changes the bitmap location, size and blending value.
 old-location: dshow\ivmrmixerbitmap_updatealphabitmapparameters.htm

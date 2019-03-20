@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRole.SetProperty
-title: IAzRole::SetProperty
+title: IAzRole::SetProperty (azroles.h)
 author: windows-sdk-content
 description: Sets the specified value to the IAzRole object property with the specified property ID.
 old-location: security\iazrole_setproperty.htm

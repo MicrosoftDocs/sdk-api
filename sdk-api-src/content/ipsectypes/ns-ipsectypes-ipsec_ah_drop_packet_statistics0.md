@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_AH_DROP_PACKET_STATISTICS0_
-title: IPSEC_AH_DROP_PACKET_STATISTICS0
+title: IPSEC_AH_DROP_PACKET_STATISTICS0 (ipsectypes.h)
 author: windows-sdk-content
 description: Stores IPsec AH drop packet statistics.
 old-location: fwp\ipsec_ah_drop_packet_statistics0_struct.htm

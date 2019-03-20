@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.ColorFill
-title: IDirect3DDevice9::ColorFill
+title: IDirect3DDevice9::ColorFill (d3d9.h)
 author: windows-sdk-content
 description: Allows an application to fill a rectangular area of a D3DPOOL_DEFAULT surface with a specified color.
 old-location: direct3d9\idirect3ddevice9__colorfill.htm

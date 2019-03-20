@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.OpenCluster
-title: OpenCluster function
+title: OpenCluster function (clusapi.h)
 author: windows-sdk-content
 description: Opens a connection to a cluster and returns a handle to it.
 old-location: mscs\opencluster.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.ValidateRect
-title: ValidateRect function
+title: ValidateRect function (winuser.h)
 author: windows-sdk-content
 description: The ValidateRect function validates the client area within a rectangle by removing the rectangle from the update region of the specified window.
 old-location: gdi\validaterect.htm

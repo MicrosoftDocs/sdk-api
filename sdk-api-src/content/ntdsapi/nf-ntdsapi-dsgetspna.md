@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsGetSpnA
-title: DsGetSpnA function
+title: DsGetSpnA function (ntdsapi.h)
 author: windows-sdk-content
 description: The DsGetSpn function constructs an array of one or more service principal names (SPNs). Each name in the array identifies an instance of a service. These SPNs may be registered with the directory service (DS) using the DsWriteAccountSpn function.
 old-location: ad\dsgetspn.htm

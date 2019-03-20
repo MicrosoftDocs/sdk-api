@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_AutoDemodulateEx.get_SupportedVideoFormats
-title: IBDA_AutoDemodulateEx::get_SupportedVideoFormats
+title: IBDA_AutoDemodulateEx::get_SupportedVideoFormats (bdaiface.h)
 author: windows-sdk-content
 description: The get_SupportedVideoFormats method retrieves the video formats that are supported by the demodulator.
 old-location: mstv\ibda_autodemodulateex_get_supportedvideoformats.htm

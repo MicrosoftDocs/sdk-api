@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquirePlugin.TransferComplete
-title: IPhotoAcquirePlugin::TransferComplete
+title: IPhotoAcquirePlugin::TransferComplete (photoacquire.h)
 author: windows-sdk-content
 description: Provides extended functionality when a transfer session is completed. The application provides the implementation of the TransferComplete method.
 old-location: picacq\iphotoacquireplugin_transfercomplete.htm

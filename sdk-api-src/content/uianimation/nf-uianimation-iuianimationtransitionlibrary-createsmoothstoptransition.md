@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary.CreateSmoothStopTransition
-title: IUIAnimationTransitionLibrary::CreateSmoothStopTransition
+title: IUIAnimationTransitionLibrary::CreateSmoothStopTransition (uianimation.h)
 author: windows-sdk-content
 description: Creates a smooth-stop transition.
 old-location: uianimation\iuianimationtransitionlibrary_createsmoothstoptransition.htm

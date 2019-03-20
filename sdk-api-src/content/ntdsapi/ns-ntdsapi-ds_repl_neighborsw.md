@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdsapi._DS_REPL_NEIGHBORSW
-title: DS_REPL_NEIGHBORSW
+title: DS_REPL_NEIGHBORSW (ntdsapi.h)
 author: windows-sdk-content
 description: The DS_REPL_NEIGHBORS structure is used with the DsReplicaGetInfo and DsReplicaGetInfo2 functions to provide inbound replication state data for naming context and source server pairs.
 old-location: ad\ds_repl_neighbors.htm

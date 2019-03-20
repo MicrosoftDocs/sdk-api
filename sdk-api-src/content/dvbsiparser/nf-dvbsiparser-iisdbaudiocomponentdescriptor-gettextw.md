@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetTextW
-title: IIsdbAudioComponentDescriptor::GetTextW
+title: IIsdbAudioComponentDescriptor::GetTextW (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the component stream description from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor, in Unicode text format,.
 old-location: mstv\iisdbaudiocomponentdescriptor_gettextw.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2spi.WSCUnInstallNameSpace32
-title: WSCUnInstallNameSpace32 function
+title: WSCUnInstallNameSpace32 function (ws2spi.h)
 author: windows-sdk-content
 description: Uninstalls a specific 32-bit namespace provider.
 old-location: winsock\wscuninstallnamespace32.htm

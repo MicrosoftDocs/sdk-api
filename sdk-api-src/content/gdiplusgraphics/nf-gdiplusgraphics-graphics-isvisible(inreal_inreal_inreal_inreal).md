@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.IsVisible(IN REAL,IN REAL,IN REAL,IN REAL)
-title: Graphics::IsVisible(IN REAL,IN REAL,IN REAL,IN REAL)
+title: Graphics::IsVisible(IN REAL,IN REAL,IN REAL,IN REAL) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::IsVisible method determines whether the specified rectangle intersects the visible clipping region of this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_IsVisible_REAL_x_REAL_y_REAL_width_REAL_height_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDTransportAddress.GetPort
-title: IWSDTransportAddress::GetPort
+title: IWSDTransportAddress::GetPort (wsdbase.h)
 author: windows-sdk-content
 description: Gets the IP port number associated with this transport address.
 old-location: ncd\iwsdtransportaddress_getport.htm

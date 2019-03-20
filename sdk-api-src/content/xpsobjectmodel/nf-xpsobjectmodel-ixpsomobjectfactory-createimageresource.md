@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateImageResource
-title: IXpsOMObjectFactory::CreateImageResource
+title: IXpsOMObjectFactory::CreateImageResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Creates an IXpsOMImageResource interface, which is used to access an image resource stream.
 old-location: xps\ixpsomobjectfactory_createimageresource.htm

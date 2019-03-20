@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymEnumLinesW
-title: SymEnumLinesW function
+title: SymEnumLinesW function (dbghelp.h)
 author: windows-sdk-content
 description: Enumerates all lines in the specified module.
 old-location: base\symenumlines.htm

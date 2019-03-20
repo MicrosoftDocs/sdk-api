@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsLunMpio.GetSupportedLbPolicies
-title: IVdsLunMpio::GetSupportedLbPolicies
+title: IVdsLunMpio::GetSupportedLbPolicies (vds.h)
 author: windows-sdk-content
 description: Retrieves the load balance policies that are supported by the hardware provider.
 old-location: base\ivdslunmpio_getsupportedlbpolicies.htm

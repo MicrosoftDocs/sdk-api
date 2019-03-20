@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.SetTrimPriorityComparison
-title: IUIAnimationManager2::SetTrimPriorityComparison
+title: IUIAnimationManager2::SetTrimPriorityComparison (uianimation.h)
 author: windows-sdk-content
 description: Sets the priority comparison handler that determines whether a scheduled storyboard can be trimmed.
 old-location: uianimation\iuianimationmanager2_settrimprioritycomparison.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IBitsPeer.IsAuthenticated
-title: IBitsPeer::IsAuthenticated
+title: IBitsPeer::IsAuthenticated (bits3_0.h)
 author: windows-sdk-content
 description: Determines whether the peer is authenticated.
 old-location: bits\ibitspeer_isauthenticated.htm

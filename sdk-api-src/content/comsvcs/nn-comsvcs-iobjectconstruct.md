@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IObjectConstruct
-title: IObjectConstruct
+title: IObjectConstruct (comsvcs.h)
 author: windows-sdk-content
 description: Controls the object construction process by passing in parameters from other methods or objects.
 old-location: cos\iobjectconstruct.htm

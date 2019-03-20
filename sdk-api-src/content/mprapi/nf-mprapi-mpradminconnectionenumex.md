@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminConnectionEnumEx
-title: MprAdminConnectionEnumEx function
+title: MprAdminConnectionEnumEx function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminConnectionEnumEx function enumerates the active connections for a specified RRAS server.
 old-location: rras\mpradminconnectionenumex.htm

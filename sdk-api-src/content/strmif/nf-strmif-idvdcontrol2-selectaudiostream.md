@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectAudioStream
-title: IDvdControl2::SelectAudioStream
+title: IDvdControl2::SelectAudioStream (strmif.h)
 author: windows-sdk-content
 description: The SelectAudioStream method selects the audio stream to play.
 old-location: dshow\idvdcontrol2_selectaudiostream.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagDRAWTEXTPARAMS
-title: DRAWTEXTPARAMS
+title: DRAWTEXTPARAMS (winuser.h)
 author: windows-sdk-content
 description: The DRAWTEXTPARAMS structure contains extended formatting options for the DrawTextEx function.
 old-location: gdi\drawtextparams.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.INameSpaceTreeControlFolderCapabilities
-title: INameSpaceTreeControlFolderCapabilities
+title: INameSpaceTreeControlFolderCapabilities (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes a single method that retrieves the status of a folder's System.IsPinnedToNameSpaceTree filtering support.
 old-location: shell\INameSpaceTreeControlFolderCapabilities.htm

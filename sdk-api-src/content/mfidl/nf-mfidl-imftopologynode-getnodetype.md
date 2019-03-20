@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.GetNodeType
-title: IMFTopologyNode::GetNodeType
+title: IMFTopologyNode::GetNodeType (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the node type.
 old-location: mf\imftopologynode_getnodetype.htm

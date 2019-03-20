@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.SetBlendBellShape
-title: PathGradientBrush::SetBlendBellShape
+title: PathGradientBrush::SetBlendBellShape (gdipluspath.h)
 author: windows-sdk-content
 description: The PathGradientBrush::SetBlendBellShape method sets the blend shape of this path gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetBlendBellShape_focus_scale_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceconnectapi.IPortableDeviceConnector.Cancel
-title: IPortableDeviceConnector::Cancel
+title: IPortableDeviceConnector::Cancel (portabledeviceconnectapi.h)
 author: windows-sdk-content
 description: Cancels a pending request to connect or disconnect an MTP/Bluetooth device.
 old-location: wpdsdk\iportabledeviceconnector_cancel.htm

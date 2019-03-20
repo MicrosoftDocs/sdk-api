@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdsapi._DS_REPL_CURSOR_2
-title: DS_REPL_CURSOR_2
+title: DS_REPL_CURSOR_2 (ntdsapi.h)
 author: windows-sdk-content
 description: The DS_REPL_CURSOR_2 structure contains inbound replication state data with respect to all replicas of a given naming context, as returned by the DsReplicaGetInfo2 function. This structure is an enhanced version of the DS_REPL_CURSOR structure.
 old-location: ad\ds_repl_cursor_2.htm

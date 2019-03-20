@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CreateAcceleratorTableW
-title: CreateAcceleratorTableW function
+title: CreateAcceleratorTableW function (winuser.h)
 author: windows-sdk-content
 description: Creates an accelerator table.
 old-location: menurc\createacceleratortable.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_3.ID3D11DeviceContext3.SetHardwareProtectionState
-title: ID3D11DeviceContext3::SetHardwareProtectionState
+title: ID3D11DeviceContext3::SetHardwareProtectionState (d3d11_3.h)
 author: windows-sdk-content
 description: Sets the hardware protection state.
 old-location: direct3d11\id3d11devicecontext3_sethardwareprotectionstate.htm

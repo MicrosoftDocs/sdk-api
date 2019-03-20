@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMVideoProcAmp.Set
-title: IAMVideoProcAmp::Set
+title: IAMVideoProcAmp::Set (strmif.h)
 author: windows-sdk-content
 description: The Set method sets video quality for a specified property.
 old-location: dshow\iamvideoprocamp_set.htm

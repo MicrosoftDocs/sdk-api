@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.IAction
-title: IAction
+title: IAction (taskschd.h)
 author: windows-sdk-content
 description: Provides the common properties inherited by all action objects.
 old-location: taskschd\iaction.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITFileTerminalEvent.get_Call
-title: ITFileTerminalEvent::get_Call
+title: ITFileTerminalEvent::get_Call (tapi3if.h)
 author: windows-sdk-content
 description: The get_Call method gets a pointer to the call information interface for the call on which the event has occurred.
 old-location: tapi3\itfileterminalevent_get_call.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings2.put_DisallowStartOnRemoteAppSession
-title: ITaskSettings2::put_DisallowStartOnRemoteAppSession
+title: ITaskSettings2::put_DisallowStartOnRemoteAppSession (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a Boolean value that specifies that the task will not be started if triggered to run in a Remote Applications Integrated Locally (RAIL) session.
 old-location: taskschd\itasksettings2_disallowstartonremoteappsession.htm

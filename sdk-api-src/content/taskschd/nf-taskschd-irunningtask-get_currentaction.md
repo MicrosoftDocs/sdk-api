@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRunningTask.get_CurrentAction
-title: IRunningTask::get_CurrentAction
+title: IRunningTask::get_CurrentAction (taskschd.h)
 author: windows-sdk-content
 description: Gets the name of the current action that the running task is performing.
 old-location: taskschd\irunningtask_currentaction.htm

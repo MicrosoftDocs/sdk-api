@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.IsNLSDefinedString
-title: IsNLSDefinedString function
+title: IsNLSDefinedString function (winnls.h)
 author: windows-sdk-content
 description: Determines if each character in a string has a defined result for a specified NLS capability.
 old-location: intl\isnlsdefinedstring.htm

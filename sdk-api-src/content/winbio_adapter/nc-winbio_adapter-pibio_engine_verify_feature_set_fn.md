@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_VERIFY_FEATURE_SET_FN
-title: PIBIO_ENGINE_VERIFY_FEATURE_SET_FN
+title: PIBIO_ENGINE_VERIFY_FEATURE_SET_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Compares the template in the current feature set with a specific template in the database.
 old-location: secbiomet\engineadapterverifyfeatureset.htm

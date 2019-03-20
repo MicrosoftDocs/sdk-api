@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IEnumClockVector.Next
-title: IEnumClockVector::Next
+title: IEnumClockVector::Next (winsync.h)
 author: windows-sdk-content
 description: Returns the next elements in the clock vector, if they are available.
 old-location: winsync\ienumclockvector_next.htm

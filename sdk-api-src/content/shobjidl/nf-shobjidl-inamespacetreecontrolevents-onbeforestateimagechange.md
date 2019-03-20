@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnBeforeStateImageChange
-title: INameSpaceTreeControlEvents::OnBeforeStateImageChange
+title: INameSpaceTreeControlEvents::OnBeforeStateImageChange (shobjidl.h)
 author: windows-sdk-content
 description: Called before the state icon of the given IShellItem is changed.
 old-location: shell\INameSpaceTreeControlEvents_OnBeforeStateImageChange.htm

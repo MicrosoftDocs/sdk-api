@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.SizeF.operator-add
-title: SizeF::operator-add
+title: SizeF::operator-add (gdiplustypes.h)
 author: windows-sdk-content
 description: The SizeF::operator+ method adds the Width and Height data members of two SizeF objects.
 old-location: gdiplus\_gdiplus_CLASS_SizeF_operator_opadd_sz_.htm

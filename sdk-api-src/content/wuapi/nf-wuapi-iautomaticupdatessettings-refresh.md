@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings.Refresh
-title: IAutomaticUpdatesSettings::Refresh
+title: IAutomaticUpdatesSettings::Refresh (wuapi.h)
 author: windows-sdk-content
 description: Retrieves the latest Automatic Updates settings.
 old-location: wua\iautomaticupdatessettings_refresh.htm

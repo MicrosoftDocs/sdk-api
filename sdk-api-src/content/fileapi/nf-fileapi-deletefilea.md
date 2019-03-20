@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.DeleteFileA
-title: DeleteFileA function
+title: DeleteFileA function (fileapi.h)
 author: windows-sdk-content
 description: Deletes an existing file.
 old-location: fs\deletefile.htm

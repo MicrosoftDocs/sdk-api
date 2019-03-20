@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IUIAutomationPatternHandler.CreateClientWrapper
-title: IUIAutomationPatternHandler::CreateClientWrapper
+title: IUIAutomationPatternHandler::CreateClientWrapper (uiautomationcore.h)
 author: windows-sdk-content
 description: Creates an object that enables a client application to interact with a custom control pattern.
 old-location: winauto\uiauto_IUIAutomationPatternHandler_CreateClientWrapper.htm

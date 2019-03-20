@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFSensorGroup
-title: IMFSensorGroup
+title: IMFSensorGroup (mfidl.h)
 author: windows-sdk-content
 description: Represents a group of sensor devices from which an IMFMediaSource can be created.
 old-location: mf\imfsensorgroup.htm

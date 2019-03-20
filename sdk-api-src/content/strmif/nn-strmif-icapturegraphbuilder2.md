@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.ICaptureGraphBuilder2
-title: ICaptureGraphBuilder2
+title: ICaptureGraphBuilder2 (strmif.h)
 author: windows-sdk-content
 description: The ICaptureGraphBuilder2 interface builds capture graphs and other custom filter graphs.
 old-location: dshow\icapturegraphbuilder2.htm

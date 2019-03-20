@@ -1,6 +1,6 @@
 ---
 UID: NE:rendezvoussession.__MIDL___MIDL_itf_rendezvoussession_0000_0000_0001
-title: RENDEZVOUS_SESSION_STATE
+title: RENDEZVOUS_SESSION_STATE (rendezvoussession.h)
 author: windows-sdk-content
 description: Provides the list of possible state codes of the session invitation.
 old-location: remoteassist\remoteassist_RENDEZVOUS_SESSION_STATE.htm

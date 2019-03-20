@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCustomTone.put_CadenceOn
-title: ITCustomTone::put_CadenceOn
+title: ITCustomTone::put_CadenceOn (tapi3if.h)
 author: windows-sdk-content
 description: The put_CadenceOn method sets the &#0034;on&#0034; duration of the cadence of the custom tone to generate.
 old-location: tapi3\itcustomtone_put_cadenceon.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:npapi.NPLogonNotify
-title: NPLogonNotify function
+title: NPLogonNotify function (npapi.h)
 author: windows-sdk-content
 description: MPR calls this function to notify the credential manager that a logon event has occurred, allowing the credential manager to return a logon script.
 old-location: security\nplogonnotify.htm

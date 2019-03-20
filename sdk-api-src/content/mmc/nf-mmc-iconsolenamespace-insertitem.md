@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IConsoleNameSpace.InsertItem
-title: IConsoleNameSpace::InsertItem
+title: IConsoleNameSpace::InsertItem (mmc.h)
 author: windows-sdk-content
 description: The IConsoleNameSpace2::InsertItem method enables the snap-in to insert a single item into the scope view.
 old-location: mmc\iconsolenamespace2_insertitem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mpegtype.IMpegAudioDecoder
-title: IMpegAudioDecoder
+title: IMpegAudioDecoder (mpegtype.h)
 author: windows-sdk-content
 description: The IMpegAudioDecoder interface is exposed on the MPEG-1 Audio Decoder filter and it enables applications to control decoding parameters.
 old-location: dshow\impegaudiodecoder.htm

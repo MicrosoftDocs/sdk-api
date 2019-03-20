@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReader.SetCurrentMediaType
-title: IMFSourceReader::SetCurrentMediaType
+title: IMFSourceReader::SetCurrentMediaType (mfreadwrite.h)
 author: windows-sdk-content
 description: Sets the media type for a stream.
 old-location: mf\imfsourcereader_setcurrentmediatype.htm

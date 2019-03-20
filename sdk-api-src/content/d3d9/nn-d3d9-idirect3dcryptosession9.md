@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d9.IDirect3DCryptoSession9
-title: IDirect3DCryptoSession9
+title: IDirect3DCryptoSession9 (d3d9.h)
 author: windows-sdk-content
 description: Represents a cryptographic session.To get a pointer to this interface, call IDirect3DDevice9Video::CreateCryptoSession.
 old-location: mf\idirect3dcryptosession9.htm

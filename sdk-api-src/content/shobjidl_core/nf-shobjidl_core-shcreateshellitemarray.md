@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.SHCreateShellItemArray
-title: SHCreateShellItemArray function
+title: SHCreateShellItemArray function (shobjidl_core.h)
 author: windows-sdk-content
 description: Creates a Shell item array object.
 old-location: shell\SHCreateShellItemArray.htm

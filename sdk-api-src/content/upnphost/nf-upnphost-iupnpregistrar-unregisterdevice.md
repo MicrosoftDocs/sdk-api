@@ -1,6 +1,6 @@
 ---
 UID: NF:upnphost.IUPnPRegistrar.UnregisterDevice
-title: IUPnPRegistrar::UnregisterDevice
+title: IUPnPRegistrar::UnregisterDevice (upnphost.h)
 author: windows-sdk-content
 description: The UnregisterDevice method unregisters the device from the device host. A device is either temporarily or permanently unregistered.
 old-location: upnp\iupnpregistrar_unregisterdevice.htm

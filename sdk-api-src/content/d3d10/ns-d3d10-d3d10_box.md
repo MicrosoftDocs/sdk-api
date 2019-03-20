@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10.D3D10_BOX
-title: D3D10_BOX
+title: D3D10_BOX (d3d10.h)
 author: windows-sdk-content
 description: Defines a 3D box.
 old-location: direct3d10\d3d10_box.htm

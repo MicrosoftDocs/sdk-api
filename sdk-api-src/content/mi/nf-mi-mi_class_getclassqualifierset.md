@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Class_GetClassQualifierSet
-title: MI_Class_GetClassQualifierSet function
+title: MI_Class_GetClassQualifierSet function (mi.h)
 author: windows-sdk-content
 description: Gets the qualifier set that is associated with the specified class object.
 old-location: wmi_v2\mi_class_getclassqualifierset.htm

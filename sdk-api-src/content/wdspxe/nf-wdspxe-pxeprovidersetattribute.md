@@ -1,6 +1,6 @@
 ---
 UID: NF:wdspxe.PxeProviderSetAttribute
-title: PxeProviderSetAttribute function
+title: PxeProviderSetAttribute function (wdspxe.h)
 author: windows-sdk-content
 description: Specifies attributes for the provider.
 old-location: wds\pxeprovidersetattribute.htm

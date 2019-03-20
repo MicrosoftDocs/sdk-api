@@ -1,6 +1,6 @@
 ---
 UID: NF:certif.ICertServerExit.EnumerateExtensions
-title: ICertServerExit::EnumerateExtensions
+title: ICertServerExit::EnumerateExtensions (certif.h)
 author: windows-sdk-content
 description: Returns the object identifier (OID) string (also known as the extension name) of the next certificate extension to be enumerated, then increments the internal pointer to the following extension.
 old-location: security\icertserverexit_enumerateextensions.htm

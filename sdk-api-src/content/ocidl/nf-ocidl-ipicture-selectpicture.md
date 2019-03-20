@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPicture.SelectPicture
-title: IPicture::SelectPicture
+title: IPicture::SelectPicture (ocidl.h)
 author: windows-sdk-content
 description: Selects a bitmap picture into a given device context, and returns the device context in which the picture was previously selected as well as the picture's GDI handle. This method works in conjunction with IPicture::get_CurDC.
 old-location: com\ipicture_selectpicture.htm

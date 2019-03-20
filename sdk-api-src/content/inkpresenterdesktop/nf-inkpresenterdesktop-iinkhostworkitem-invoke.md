@@ -1,6 +1,6 @@
 ---
 UID: NF:inkpresenterdesktop.IInkHostWorkItem.Invoke
-title: IInkHostWorkItem::Invoke
+title: IInkHostWorkItem::Invoke (inkpresenterdesktop.h)
 author: windows-sdk-content
 description: Executes the ink operation on an IInkDesktopHost object thread.
 old-location: input_ink\iinkhostworkitem_invoke.htm

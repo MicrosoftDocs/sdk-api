@@ -1,6 +1,6 @@
 ---
 UID: NF:winsvc.SetServiceObjectSecurity
-title: SetServiceObjectSecurity function
+title: SetServiceObjectSecurity function (winsvc.h)
 author: windows-sdk-content
 description: Sets the security descriptor of a service object.
 old-location: security\setserviceobjectsecurity.htm

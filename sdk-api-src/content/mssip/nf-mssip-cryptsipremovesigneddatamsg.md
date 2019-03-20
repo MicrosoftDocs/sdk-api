@@ -1,6 +1,6 @@
 ---
 UID: NF:mssip.CryptSIPRemoveSignedDataMsg
-title: CryptSIPRemoveSignedDataMsg function
+title: CryptSIPRemoveSignedDataMsg function (mssip.h)
 author: windows-sdk-content
 description: Removes a specified Authenticode signature.
 old-location: security\cryptsipremovesigneddatamsg.htm

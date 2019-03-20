@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.ReleaseSemaphore
-title: ReleaseSemaphore function
+title: ReleaseSemaphore function (synchapi.h)
 author: windows-sdk-content
 description: Increases the count of the specified semaphore object by a specified amount.
 old-location: base\releasesemaphore.htm

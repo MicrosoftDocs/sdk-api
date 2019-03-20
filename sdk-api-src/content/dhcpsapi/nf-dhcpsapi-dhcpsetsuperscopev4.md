@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpSetSuperScopeV4
-title: DhcpSetSuperScopeV4 function
+title: DhcpSetSuperScopeV4 function (dhcpsapi.h)
 author: windows-sdk-content
 description: Sets a subnet as the superscope on a DHCP server.
 old-location: dhcp\dhcpsetsuperscopev4.htm

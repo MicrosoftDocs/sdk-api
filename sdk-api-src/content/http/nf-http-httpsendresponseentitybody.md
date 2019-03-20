@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpSendResponseEntityBody
-title: HttpSendResponseEntityBody function
+title: HttpSendResponseEntityBody function (http.h)
 author: windows-sdk-content
 description: Sends entity-body data associated with an HTTP response.
 old-location: http\httpsendresponseentitybody.htm

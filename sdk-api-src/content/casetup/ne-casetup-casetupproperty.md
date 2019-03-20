@@ -1,6 +1,6 @@
 ---
 UID: NE:casetup.__MIDL___MIDL_itf_casetup_0000_0002_0001
-title: CASetupProperty
+title: CASetupProperty (casetup.h)
 author: windows-sdk-content
 description: Specifies a property type for setup and configuration of a certification authority (CA) role when using the ICertSrvSetup interface.
 old-location: security\icertsrvsetup_casetupproperty.htm

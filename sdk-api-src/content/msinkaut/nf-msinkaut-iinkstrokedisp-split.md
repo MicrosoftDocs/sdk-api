@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.Split
-title: IInkStrokeDisp::Split
+title: IInkStrokeDisp::Split (msinkaut.h)
 author: windows-sdk-content
 description: Splits the stroke at the specified location on the stroke.
 old-location: tablet\iinkstrokedisp_split.htm

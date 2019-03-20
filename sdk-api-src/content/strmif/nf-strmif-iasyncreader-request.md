@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAsyncReader.Request
-title: IAsyncReader::Request
+title: IAsyncReader::Request (strmif.h)
 author: windows-sdk-content
 description: The Request method queues an asynchronous request for data.
 old-location: dshow\iasyncreader_request.htm

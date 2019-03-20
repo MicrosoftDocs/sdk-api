@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSetting.GetValue
-title: IOfflineFilesSetting::GetValue
+title: IOfflineFilesSetting::GetValue (cscobj.h)
 author: windows-sdk-content
 description: Retrieves the value of a particular Offline Files setting.
 old-location: of\iofflinefilessetting_getvalue.htm

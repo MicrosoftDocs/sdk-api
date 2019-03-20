@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetRemoveServiceAccount
-title: NetRemoveServiceAccount function
+title: NetRemoveServiceAccount function (lmaccess.h)
 author: windows-sdk-content
 description: Deletes the specified service account from the Active Directory database if the account is a standalone managed service account (sMSA).
 old-location: security\netremoveserviceaccount.htm

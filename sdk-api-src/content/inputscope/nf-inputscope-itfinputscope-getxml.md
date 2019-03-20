@@ -1,6 +1,6 @@
 ---
 UID: NF:inputscope.ITfInputScope.GetXML
-title: ITfInputScope::GetXML
+title: ITfInputScope::GetXML (inputscope.h)
 author: windows-sdk-content
 description: ITfInputScope::GetXML method
 old-location: tsf\itfinputscope_getXML.htm

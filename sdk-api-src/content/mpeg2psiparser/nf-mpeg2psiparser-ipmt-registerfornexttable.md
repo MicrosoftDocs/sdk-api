@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.RegisterForNextTable
-title: IPMT::RegisterForNextTable
+title: IPMT::RegisterForNextTable (mpeg2psiparser.h)
 author: windows-sdk-content
 description: The RegisterForNextTable method registers the client to be notified when a next table arrives that will replace the current table.
 old-location: mstv\ipmt_registerfornexttable.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.Reset
-title: ID3D12GraphicsCommandList::Reset
+title: ID3D12GraphicsCommandList::Reset (d3d12.h)
 author: windows-sdk-content
 description: Resets a command list back to its initial state as if a new command list was just created.
 old-location: direct3d12\id3d12graphicscommandlist_reset.htm

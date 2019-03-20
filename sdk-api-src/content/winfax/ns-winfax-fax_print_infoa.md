@@ -1,6 +1,6 @@
 ---
 UID: NS:winfax._FAX_PRINT_INFOA
-title: FAX_PRINT_INFOA
+title: FAX_PRINT_INFOA (winfax.h)
 author: windows-sdk-content
 description: The FAX_PRINT_INFO structure contains the information necessary for the fax server to print a fax transmission. The structure includes sender and recipient data, an optional billing code, and delivery report information.
 old-location: fax\_mfax_fax_print_info_str.htm

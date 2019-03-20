@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSAProviderConfigChange
-title: WSAProviderConfigChange function
+title: WSAProviderConfigChange function (winsock2.h)
 author: windows-sdk-content
 description: The WSAProviderConfigChange function notifies the application when the provider configuration is changed.
 old-location: winsock\wsaproviderconfigchange_2.htm

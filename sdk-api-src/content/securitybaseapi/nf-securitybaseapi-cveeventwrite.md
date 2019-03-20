@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.CveEventWrite
-title: CveEventWrite function
+title: CveEventWrite function (securitybaseapi.h)
 author: windows-sdk-content
 description: A tracing function for publishing events when an attempted security vulnerability exploit is detected in your user-mode application.
 old-location: etw\cveeventwrite.htm

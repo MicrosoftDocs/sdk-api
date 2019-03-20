@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryMapping.ClearTable
-title: IUIAutomationProxyFactoryMapping::ClearTable
+title: IUIAutomationProxyFactoryMapping::ClearTable (uiautomationclient.h)
 author: windows-sdk-content
 description: Removes all entries from the proxy factory table.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_ClearTable.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winldap.LdapReferralCallback
-title: LDAP_REFERRAL_CALLBACK
+title: LDAP_REFERRAL_CALLBACK (winldap.h)
 author: windows-sdk-content
 description: Used to implement external caching of connections.
 old-location: ldap\ldap_referral_callback.htm

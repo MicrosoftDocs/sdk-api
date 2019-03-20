@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.GetStylusSyncPluginCount
-title: IRealTimeStylus::GetStylusSyncPluginCount
+title: IRealTimeStylus::GetStylusSyncPluginCount (rtscom.h)
 author: windows-sdk-content
 description: Retrieves the number of plug-ins in the synchronous plug-in collection.
 old-location: tablet\irealtimestylus_getstylussyncplugincount.htm

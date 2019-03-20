@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpoint.GetFrameFormat
-title: IAudioEndpoint::GetFrameFormat
+title: IAudioEndpoint::GetFrameFormat (audioengineendpoint.h)
 author: windows-sdk-content
 description: Retrieves the format of the audio endpoint.
 old-location: termserv\iaudioendpoint_getframeformat.htm

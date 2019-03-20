@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiDatabaseOpenViewW
-title: MsiDatabaseOpenViewW function
+title: MsiDatabaseOpenViewW function (msiquery.h)
 author: windows-sdk-content
 description: The MsiDatabaseOpenView function prepares a database query and creates a view object. This function returns a handle that should be closed using MsiCloseHandle.
 old-location: setup\msidatabaseopenview.htm

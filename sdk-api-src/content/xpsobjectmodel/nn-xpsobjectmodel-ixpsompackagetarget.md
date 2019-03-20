@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPackageTarget
-title: IXpsOMPackageTarget
+title: IXpsOMPackageTarget (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Provides the method to create an IXpsOMPackageWriter that can be used by a print job that was created by the StartXpsPrintJob1 function.
 old-location: xps\ixpsompackagetarget.htm

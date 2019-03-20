@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IMessageView.SetBodyText
-title: IMessageView::SetBodyText
+title: IMessageView::SetBodyText (mmc.h)
 author: windows-sdk-content
 description: The IMessageView::SetBodyText method enables a snap-in to set the body text for the result pane message displayed using the MMC message OCX control.
 old-location: mmc\imessageview_setbodytext.htm

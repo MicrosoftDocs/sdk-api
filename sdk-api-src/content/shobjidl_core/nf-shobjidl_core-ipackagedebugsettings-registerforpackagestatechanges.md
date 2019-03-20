@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.RegisterForPackageStateChanges
-title: IPackageDebugSettings::RegisterForPackageStateChanges
+title: IPackageDebugSettings::RegisterForPackageStateChanges (shobjidl_core.h)
 author: windows-sdk-content
 description: Register for package state-change notifications.
 old-location: shell\IPackageDebugSettings_RegisterForPackageStateChanges.htm

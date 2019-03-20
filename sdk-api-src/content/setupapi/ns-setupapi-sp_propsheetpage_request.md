@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._SP_PROPSHEETPAGE_REQUEST
-title: SP_PROPSHEETPAGE_REQUEST
+title: SP_PROPSHEETPAGE_REQUEST (setupapi.h)
 author: windows-sdk-content
 description: An SP_PROPSHEETPAGE_REQUEST structure can be passed as the first parameter (lpv) to the ExtensionPropSheetPageProc entry point in the SetupAPI DLL.
 old-location: devinst\sp_propsheetpage_request.htm

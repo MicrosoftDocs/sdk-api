@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_FLIPVPORTDATA
-title: DD_FLIPVPORTDATA
+title: DD_FLIPVPORTDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_FLIPVPORTDATA structure contains the information necessary for the video port extensions (VPE) object to perform a flip.
 old-location: display\dd_flipvportdata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IVirtualizedItemProvider.Realize
-title: IVirtualizedItemProvider::Realize
+title: IVirtualizedItemProvider::Realize (uiautomationcore.h)
 author: windows-sdk-content
 description: Makes the virtual item fully accessible as a UI Automation element.
 old-location: winauto\uiauto_IVirtualizedItemProvider_Realize.htm

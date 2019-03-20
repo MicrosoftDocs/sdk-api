@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegOpenCurrentUser
-title: RegOpenCurrentUser function
+title: RegOpenCurrentUser function (winreg.h)
 author: windows-sdk-content
 description: Retrieves a handle to the HKEY_CURRENT_USER key for the user the current thread is impersonating.
 old-location: base\regopencurrentuser.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.IsVarTypeSignedInteger
-title: IsVarTypeSignedInteger function
+title: IsVarTypeSignedInteger function (propvarutil.h)
 author: windows-sdk-content
 description: Returns whether a VARTYPE is a signed integer.
 old-location: properties\IsVarTypeSignedInteger.htm

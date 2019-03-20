@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.VSGetShader
-title: ID3D10Device::VSGetShader
+title: ID3D10Device::VSGetShader (d3d10.h)
 author: windows-sdk-content
 description: Get the vertex shader currently set on the device.
 old-location: direct3d10\id3d10device_vsgetshader.htm

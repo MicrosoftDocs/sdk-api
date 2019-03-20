@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector3GreaterR
-title: XMVector3GreaterR function
+title: XMVector3GreaterR function (directxmath.h)
 author: windows-sdk-content
 description: Tests whether one 3D vector is greater than another 3D vector and returns a comparison value that can be examined using functions such as XMComparisonAllTrue.
 old-location: dxmath\xmvector3greaterr.htm

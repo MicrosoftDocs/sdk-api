@@ -1,6 +1,6 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIApplicationFilter
-title: IRDPSRAPIApplicationFilter
+title: IRDPSRAPIApplicationFilter (rdpencomapi.h)
 author: windows-sdk-content
 description: Manages the shared desktop area at the window and process level. Applications can use the enumerators to display lists of objects in the session that can be shared.
 old-location: rdp\irdpsrapiapplicationfilter.htm

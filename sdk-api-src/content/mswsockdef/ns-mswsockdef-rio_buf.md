@@ -1,6 +1,6 @@
 ---
 UID: NS:mswsockdef._RIO_BUF
-title: RIO_BUF
+title: RIO_BUF (mswsockdef.h)
 author: windows-sdk-content
 description: Specifies a portion of a registered buffer used for sending or receiving network data with the Winsock registered I/O extensions.
 old-location: winsock\rio_buf.htm

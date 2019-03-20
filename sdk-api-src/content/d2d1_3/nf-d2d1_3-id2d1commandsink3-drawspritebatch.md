@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1CommandSink3.DrawSpriteBatch
-title: ID2D1CommandSink3::DrawSpriteBatch
+title: ID2D1CommandSink3::DrawSpriteBatch (d2d1_3.h)
 author: windows-sdk-content
 description: Renders part or all of the given sprite batch to the device context using the specified drawing options.
 old-location: direct2d\id2d1commandsink3_drawspritebatch.htm

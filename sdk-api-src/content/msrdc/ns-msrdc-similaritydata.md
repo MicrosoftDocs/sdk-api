@@ -1,6 +1,6 @@
 ---
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0012
-title: SimilarityData
+title: SimilarityData (msrdc.h)
 author: windows-sdk-content
 description: Contains the similarity data for a file.
 old-location: rdc\similaritydata.htm

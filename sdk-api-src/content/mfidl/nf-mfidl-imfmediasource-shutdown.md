@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSource.Shutdown
-title: IMFMediaSource::Shutdown
+title: IMFMediaSource::Shutdown (mfidl.h)
 author: windows-sdk-content
 description: Shuts down the media source and releases the resources it is using.
 old-location: mf\imfmediasource_shutdown.htm

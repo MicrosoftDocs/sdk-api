@@ -1,6 +1,6 @@
 ---
 UID: NS:wincred._USERNAME_TARGET_CREDENTIAL_INFO
-title: USERNAME_TARGET_CREDENTIAL_INFO
+title: USERNAME_TARGET_CREDENTIAL_INFO (wincred.h)
 author: windows-sdk-content
 description: The USERNAME_TARGET_CREDENTIAL_INFO structure contains a reference to a credential.
 old-location: security\username_target_credential_info.htm

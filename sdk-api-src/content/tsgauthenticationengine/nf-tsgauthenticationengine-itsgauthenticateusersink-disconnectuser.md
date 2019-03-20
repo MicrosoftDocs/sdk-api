@@ -1,6 +1,6 @@
 ---
 UID: NF:tsgauthenticationengine.ITSGAuthenticateUserSink.DisconnectUser
-title: ITSGAuthenticateUserSink::DisconnectUser
+title: ITSGAuthenticateUserSink::DisconnectUser (tsgauthenticationengine.h)
 author: windows-sdk-content
 description: Notifies Remote Desktop Gateway (RD Gateway) that it should disconnect the client.
 old-location: termserv\itsgauthenticateusersink_disconnectuser.htm

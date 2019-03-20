@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterCloseEnumEx
-title: ClusterCloseEnumEx function
+title: ClusterCloseEnumEx function (clusapi.h)
 author: windows-sdk-content
 description: Closes a handle to an enumeration that was opened by the ClusterOpenEnumEx function.
 old-location: mscs\clustercloseenumex.htm

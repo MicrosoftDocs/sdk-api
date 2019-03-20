@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkLineInfo.GetCandidate
-title: IInkLineInfo::GetCandidate
+title: IInkLineInfo::GetCandidate (msinkaut.h)
 author: windows-sdk-content
 description: Returns one recognition alternate from the recognition result list.
 old-location: tablet\iinklineinfo_getcandidate.htm

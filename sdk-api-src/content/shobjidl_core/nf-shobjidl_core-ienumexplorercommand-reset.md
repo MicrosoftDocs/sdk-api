@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IEnumExplorerCommand.Reset
-title: IEnumExplorerCommand::Reset
+title: IEnumExplorerCommand::Reset (shobjidl_core.h)
 author: windows-sdk-content
 description: Resets the enumeration to 0.
 old-location: shell\IEnumExplorerCommand_Reset.htm

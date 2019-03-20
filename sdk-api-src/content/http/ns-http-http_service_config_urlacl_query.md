@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_SERVICE_CONFIG_URLACL_QUERY
-title: HTTP_SERVICE_CONFIG_URLACL_QUERY
+title: HTTP_SERVICE_CONFIG_URLACL_QUERY (http.h)
 author: windows-sdk-content
 description: Used to specify a particular reservation record to query in the URL namespace reservation store.
 old-location: http\http_service_config_urlacl_query.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509SCEPEnrollment
-title: IX509SCEPEnrollment
+title: IX509SCEPEnrollment (certenroll.h)
 author: windows-sdk-content
 description: X.509 Simple Computer Enrollment Protocol Interface
 old-location: security\ix509scepenrollment.htm

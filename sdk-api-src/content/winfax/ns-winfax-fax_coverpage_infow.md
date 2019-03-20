@@ -1,6 +1,6 @@
 ---
 UID: NS:winfax._FAX_COVERPAGE_INFOW
-title: FAX_COVERPAGE_INFOW
+title: FAX_COVERPAGE_INFOW (winfax.h)
 author: windows-sdk-content
 description: The FAX_COVERPAGE_INFO structure contains data to display on the cover page of a fax transmission. The SizeOfStruct and CoverPageName members are required; other members are optional.
 old-location: fax\_mfax_fax_coverpage_info_str.htm

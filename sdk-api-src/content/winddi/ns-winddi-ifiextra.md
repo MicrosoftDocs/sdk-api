@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._IFIEXTRA
-title: IFIEXTRA
+title: IFIEXTRA (winddi.h)
 author: windows-sdk-content
 description: The IFIEXTRA structure defines additional information for a given typeface that GDI can use.
 old-location: display\ifiextra.htm

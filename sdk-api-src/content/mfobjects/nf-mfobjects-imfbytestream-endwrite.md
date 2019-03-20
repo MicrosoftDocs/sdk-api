@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFByteStream.EndWrite
-title: IMFByteStream::EndWrite
+title: IMFByteStream::EndWrite (mfobjects.h)
 author: windows-sdk-content
 description: Completes an asynchronous write operation.
 old-location: mf\imfbytestream_endwrite.htm

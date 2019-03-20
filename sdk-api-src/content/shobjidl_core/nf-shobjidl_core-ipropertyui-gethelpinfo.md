@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPropertyUI.GetHelpInfo
-title: IPropertyUI::GetHelpInfo
+title: IPropertyUI::GetHelpInfo (shobjidl_core.h)
 author: windows-sdk-content
 description: Developers should use IPropertyDescription instead.
 old-location: properties\IPropertyUI_GetHelpInfo.htm

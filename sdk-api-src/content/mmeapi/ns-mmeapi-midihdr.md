@@ -1,6 +1,6 @@
 ---
 UID: NS:mmeapi.midihdr_tag
-title: MIDIHDR
+title: MIDIHDR (mmeapi.h)
 author: windows-sdk-content
 description: The MIDIHDR structure defines the header used to identify a MIDI system-exclusive or stream buffer.
 old-location: multimedia\midihdr.htm

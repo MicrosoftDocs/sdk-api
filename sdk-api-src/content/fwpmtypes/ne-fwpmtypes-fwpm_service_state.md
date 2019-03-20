@@ -1,6 +1,6 @@
 ---
 UID: NE:fwpmtypes.FWPM_SERVICE_STATE_
-title: FWPM_SERVICE_STATE
+title: FWPM_SERVICE_STATE (fwpmtypes.h)
 author: windows-sdk-content
 description: Specifies the current state of the filter engine.
 old-location: fwp\fwpm_service_state.htm

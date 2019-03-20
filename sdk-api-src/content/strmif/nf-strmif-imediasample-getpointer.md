@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaSample.GetPointer
-title: IMediaSample::GetPointer
+title: IMediaSample::GetPointer (strmif.h)
 author: windows-sdk-content
 description: The GetPointer method retrieves a read/write pointer to the media sample's buffer.
 old-location: dshow\imediasample_getpointer.htm

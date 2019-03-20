@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.ICDBurn.GetRecorderDriveLetter
-title: ICDBurn::GetRecorderDriveLetter
+title: ICDBurn::GetRecorderDriveLetter (shobjidl.h)
 author: windows-sdk-content
 description: Gets the drive letter of a CD drive that has been marked as write-enabled.
 old-location: shell\ICDBurn_GetRecorderDriveLetter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.ICertView.SetResultColumn
-title: ICertView::SetResultColumn
+title: ICertView::SetResultColumn (certview.h)
 author: windows-sdk-content
 description: Specifies a column for the result set of a customized view of the Certificate Services database.
 old-location: security\icertview2_setresultcolumn.htm

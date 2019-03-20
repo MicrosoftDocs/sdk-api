@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateRasterizerState
-title: ID3D10Device::CreateRasterizerState
+title: ID3D10Device::CreateRasterizerState (d3d10.h)
 author: windows-sdk-content
 description: Create a rasterizer state object that tells the rasterizer stage how to behave.
 old-location: direct3d10\id3d10device_createrasterizerstate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSession.GetSessionCapabilities
-title: IMFMediaSession::GetSessionCapabilities
+title: IMFMediaSession::GetSessionCapabilities (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the capabilities of the Media Session, based on the current presentation.
 old-location: mf\imfmediasession_getsessioncapabilities.htm

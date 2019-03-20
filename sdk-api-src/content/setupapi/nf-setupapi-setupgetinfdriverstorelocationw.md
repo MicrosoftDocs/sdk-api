@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupGetInfDriverStoreLocationW
-title: SetupGetInfDriverStoreLocationW function
+title: SetupGetInfDriverStoreLocationW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupGetInfDriverStoreLocation function retrieves the fully qualified file name (directory path and file name) of an INF file in the driver store that corresponds to a specified INF file in the system INF file directory or a specified INF file in the driver store.
 old-location: devinst\setupgetinfdriverstorelocation.htm

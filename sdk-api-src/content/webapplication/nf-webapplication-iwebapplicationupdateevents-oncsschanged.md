@@ -1,6 +1,6 @@
 ---
 UID: NF:webapplication.IWebApplicationUpdateEvents.OnCssChanged
-title: IWebApplicationUpdateEvents::OnCssChanged
+title: IWebApplicationUpdateEvents::OnCssChanged (webapplication.h)
 author: windows-sdk-content
 description: Notifies the authoring app that the Cascading Style Sheets (CSS) has changed.
 old-location: debug\iwebapplicationupdateevents_oncsschanged.htm

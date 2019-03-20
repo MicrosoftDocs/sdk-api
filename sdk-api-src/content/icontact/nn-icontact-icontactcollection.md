@@ -1,6 +1,6 @@
 ---
 UID: NN:icontact.IContactCollection
-title: IContactCollection
+title: IContactCollection (icontact.h)
 author: windows-sdk-content
 description: Do not use. Enumerates the contacts known by the IContactManager.
 old-location: wincontacts\_wincontacts_IContactCollection.htm

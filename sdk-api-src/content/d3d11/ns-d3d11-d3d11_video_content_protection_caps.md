@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_CONTENT_PROTECTION_CAPS
-title: D3D11_VIDEO_CONTENT_PROTECTION_CAPS
+title: D3D11_VIDEO_CONTENT_PROTECTION_CAPS (d3d11.h)
 author: windows-sdk-content
 description: Describes the content-protection capabilities of a graphics driver.
 old-location: mf\d3d11_video_content_protection_caps.htm

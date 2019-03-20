@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.GetDWORD
-title: CInstance::GetDWORD
+title: CInstance::GetDWORD (instance.h)
 author: windows-sdk-content
 description: The GetDWORD method retrieves a DWORD property.
 old-location: wmi\cinstance_getdword.htm

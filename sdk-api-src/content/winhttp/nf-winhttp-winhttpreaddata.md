@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpReadData
-title: WinHttpReadData function
+title: WinHttpReadData function (winhttp.h)
 author: windows-sdk-content
 description: The WinHttpReadData function reads data from a handle opened by the WinHttpOpenRequest function.
 old-location: http\winhttpreaddata.htm

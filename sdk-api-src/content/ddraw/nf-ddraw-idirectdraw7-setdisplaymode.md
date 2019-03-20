@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.SetDisplayMode
-title: IDirectDraw7::SetDisplayMode
+title: IDirectDraw7::SetDisplayMode (ddraw.h)
 author: windows-sdk-content
 description: Sets the mode of the display-device hardware.
 old-location: directdraw\idirectdraw7_setdisplaymode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IItemNameLimits.GetValidCharacters
-title: IItemNameLimits::GetValidCharacters
+title: IItemNameLimits::GetValidCharacters (shobjidl_core.h)
 author: windows-sdk-content
 description: Loads a string that contains each of the characters that are valid or invalid in the namespace under which it is called.
 old-location: shell\IItemNameLimits_GetValidCharacters.htm

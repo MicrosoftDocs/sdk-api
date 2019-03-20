@@ -1,6 +1,6 @@
 ---
 UID: NS:minwinbase._EXIT_THREAD_DEBUG_INFO
-title: EXIT_THREAD_DEBUG_INFO
+title: EXIT_THREAD_DEBUG_INFO (minwinbase.h)
 author: windows-sdk-content
 description: Contains the exit code for a terminating thread.
 old-location: base\exit_thread_debug_info_str.htm

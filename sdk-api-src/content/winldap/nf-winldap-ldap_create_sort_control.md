@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_create_sort_control
-title: ldap_create_sort_control function
+title: ldap_create_sort_control function (winldap.h)
 author: windows-sdk-content
 description: The ldap_create_sort_control function is used to format a list of sort keys into a search control. Support for controls is available effective with LDAP 3, but whether the sort control is supported or not is dependent on the particular server.
 old-location: ldap\ldap_create_sort_control.htm

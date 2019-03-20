@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.PATHOBJ_bMoveTo
-title: PATHOBJ_bMoveTo function
+title: PATHOBJ_bMoveTo function (winddi.h)
 author: windows-sdk-content
 description: The PATHOBJ_bMoveTo function sets the current position in a given path.
 old-location: display\pathobj_bmoveto.htm

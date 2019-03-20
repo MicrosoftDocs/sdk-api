@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_Uint32Field
-title: MI_Uint32Field
+title: MI_Uint32Field (mi.h)
 author: windows-sdk-content
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_uint32field.htm

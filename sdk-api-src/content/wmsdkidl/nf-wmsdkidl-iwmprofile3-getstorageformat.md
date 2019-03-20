@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.GetStorageFormat
-title: IWMProfile3::GetStorageFormat
+title: IWMProfile3::GetStorageFormat (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetStorageFormat method is not implemented.
 old-location: wmformat\iwmprofile3_getstorageformat.htm

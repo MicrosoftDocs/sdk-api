@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._KERB_CERTIFICATE_S4U_LOGON
-title: KERB_CERTIFICATE_S4U_LOGON
+title: KERB_CERTIFICATE_S4U_LOGON (ntsecapi.h)
 author: windows-sdk-content
 description: Contains information about the certificate for a service for user (S4U) logon.
 old-location: security\kerb_certificate_s4u_logon.htm

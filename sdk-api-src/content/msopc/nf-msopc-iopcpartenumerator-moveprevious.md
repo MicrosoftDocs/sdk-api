@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcPartEnumerator.MovePrevious
-title: IOpcPartEnumerator::MovePrevious
+title: IOpcPartEnumerator::MovePrevious (msopc.h)
 author: windows-sdk-content
 description: Moves the current position of the enumerator to the previous IOpcPart interface pointer.
 old-location: opc\iopcpartenumerator_moveprevious.htm

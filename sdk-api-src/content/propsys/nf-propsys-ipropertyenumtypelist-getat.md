@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyEnumTypeList.GetAt
-title: IPropertyEnumTypeList::GetAt
+title: IPropertyEnumTypeList::GetAt (propsys.h)
 author: windows-sdk-content
 description: Gets the IPropertyEnumType object at the specified index in the list.
 old-location: properties\IPropertyEnumTypeList_GetAt.htm

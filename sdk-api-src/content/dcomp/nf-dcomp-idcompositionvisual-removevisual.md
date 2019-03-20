@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.RemoveVisual
-title: IDCompositionVisual::RemoveVisual
+title: IDCompositionVisual::RemoveVisual (dcomp.h)
 author: windows-sdk-content
 description: Removes a child visual from the children list of this visual.
 old-location: directcomp\idcompositionvisual_removevisual.htm

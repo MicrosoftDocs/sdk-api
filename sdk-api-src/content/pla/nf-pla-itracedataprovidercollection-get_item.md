@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.get_Item
-title: ITraceDataProviderCollection::get_Item
+title: ITraceDataProviderCollection::get_Item (pla.h)
 author: windows-sdk-content
 description: Retrieves the requested trace provider from the collection.
 old-location: pla\itracedataprovidercollection_item.htm

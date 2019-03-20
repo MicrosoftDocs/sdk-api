@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_VOICE_CLASS
-title: MBN_VOICE_CLASS
+title: MBN_VOICE_CLASS (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_VOICE_CLASS enumerated type specifies a device's voice capabilities and how they interact with the data service.
 old-location: mbn\mbn_voice_class.htm

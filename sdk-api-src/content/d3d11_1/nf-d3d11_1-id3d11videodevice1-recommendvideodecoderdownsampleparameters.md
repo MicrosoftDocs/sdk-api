@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoDevice1.RecommendVideoDecoderDownsampleParameters
-title: ID3D11VideoDevice1::RecommendVideoDecoderDownsampleParameters
+title: ID3D11VideoDevice1::RecommendVideoDecoderDownsampleParameters (d3d11_1.h)
 author: windows-sdk-content
 description: Allows the driver to recommend optimal output downsample parameters from the input parameters.
 old-location: mf\id3d11videodevice1_recommendvideodecoderdownsampleparameters.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strsafe.StringCbGetsExA
-title: StringCbGetsExA function
+title: StringCbGetsExA function (strsafe.h)
 author: windows-sdk-content
 description: Gets one line of text from stdin, up to and including the newline character ('\n').
 old-location: menurc\stringcbgetsex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.ILCloneFirst
-title: ILCloneFirst function
+title: ILCloneFirst function (shlobj_core.h)
 author: windows-sdk-content
 description: Clones the first SHITEMID structure in an ITEMIDLIST structure.
 old-location: shell\ILCloneFirst.htm

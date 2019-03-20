@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.INewWindowManager
-title: INewWindowManager
+title: INewWindowManager (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes a method that determines whether a window that is launched by another window should be displayed or blocked, allowing control of pop-up windows.
 old-location: shell\INewWindowManager.htm

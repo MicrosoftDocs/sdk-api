@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeStringArray.SetValue
-title: ICertEncodeStringArray::SetValue
+title: ICertEncodeStringArray::SetValue (certenc.h)
 author: windows-sdk-content
 description: Sets a string value at the specified index of the string array.
 old-location: security\icertencodestringarray_setvalue.htm

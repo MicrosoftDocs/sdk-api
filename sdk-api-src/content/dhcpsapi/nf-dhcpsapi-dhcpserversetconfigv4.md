@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpServerSetConfigV4
-title: DhcpServerSetConfigV4 function
+title: DhcpServerSetConfigV4 function (dhcpsapi.h)
 author: windows-sdk-content
 description: The DhcpServerSetConfigV4 function configures a DHCP server with specific settings, including information on the JET database used to store subnet and client lease information, and the supported protocols.
 old-location: dhcp\dhcpserversetconfigv4.htm

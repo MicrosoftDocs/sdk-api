@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiDestroyDeviceInfoList
-title: SetupDiDestroyDeviceInfoList function
+title: SetupDiDestroyDeviceInfoList function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiDestroyDeviceInfoList function deletes a device information set and frees all associated memory.
 old-location: devinst\setupdidestroydeviceinfolist.htm

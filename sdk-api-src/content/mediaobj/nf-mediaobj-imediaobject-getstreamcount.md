@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetStreamCount
-title: IMediaObject::GetStreamCount
+title: IMediaObject::GetStreamCount (mediaobj.h)
 author: windows-sdk-content
 description: The GetStreamCount method retrieves the number of input and output streams.
 old-location: dshow\imediaobject_getstreamcount.htm

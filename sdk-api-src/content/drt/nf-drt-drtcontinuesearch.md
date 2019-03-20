@@ -1,6 +1,6 @@
 ---
 UID: NF:drt.DrtContinueSearch
-title: DrtContinueSearch function
+title: DrtContinueSearch function (drt.h)
 author: windows-sdk-content
 description: DrtContinueSearch function continues an iterative search for a key.
 old-location: p2p\drtcontinuesearch.htm

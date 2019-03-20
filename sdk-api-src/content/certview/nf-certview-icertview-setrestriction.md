@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.ICertView.SetRestriction
-title: ICertView::SetRestriction
+title: ICertView::SetRestriction (certview.h)
 author: windows-sdk-content
 description: Sets the sorting and qualifying restrictions on a column.
 old-location: security\icertview2_setrestriction.htm

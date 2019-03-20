@@ -1,6 +1,6 @@
 ---
 UID: NS:winnetwk._REMOTE_NAME_INFOA
-title: REMOTE_NAME_INFOA
+title: REMOTE_NAME_INFOA (winnetwk.h)
 author: windows-sdk-content
 description: The REMOTE_NAME_INFO structure contains information about the remote form of a universal name. It is used by the NPGetUniversalName function.
 old-location: security\remote_name_info.htm

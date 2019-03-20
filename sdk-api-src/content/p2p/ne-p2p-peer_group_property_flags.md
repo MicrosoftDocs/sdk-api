@@ -1,6 +1,6 @@
 ---
 UID: NE:p2p.peer_group_property_flags_tag
-title: PEER_GROUP_PROPERTY_FLAGS
+title: PEER_GROUP_PROPERTY_FLAGS (p2p.h)
 author: windows-sdk-content
 description: The PEER_GROUP_PROPERTY_FLAGS flags are used to specify various peer group membership settings.
 old-location: p2p\peer_group_property_flags.htm

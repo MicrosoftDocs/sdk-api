@@ -1,6 +1,6 @@
 ---
 UID: NF:winsnmp.SnmpRegister
-title: SnmpRegister function
+title: SnmpRegister function (winsnmp.h)
 author: windows-sdk-content
 description: The WinSNMP SnmpRegister function registers or unregisters a WinSNMP application for trap and notification reception. The application can register and receive traps and notifications, or unregister and disable traps and notifications.
 old-location: snmp\snmpregister.htm

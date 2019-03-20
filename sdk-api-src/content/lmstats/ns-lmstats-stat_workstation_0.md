@@ -1,6 +1,6 @@
 ---
 UID: NS:lmstats._STAT_WORKSTATION_0
-title: STAT_WORKSTATION_0
+title: STAT_WORKSTATION_0 (lmstats.h)
 author: windows-sdk-content
 description: Contains statistical information about the specified workstation.
 old-location: fs\stat_workstation_0_str.htm

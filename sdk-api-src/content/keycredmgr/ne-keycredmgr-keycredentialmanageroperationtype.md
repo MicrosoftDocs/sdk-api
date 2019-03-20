@@ -1,6 +1,6 @@
 ---
 UID: NE:keycredmgr.KeyCredentialManagerOperationType
-title: KeyCredentialManagerOperationType
+title: KeyCredentialManagerOperationType (keycredmgr.h)
 author: windows-sdk-content
 description: These are the operational enum values that are passed to KeyCredentialManagerShowUIOperation.
 old-location: security\keycredentialmanageroperationtype.htm

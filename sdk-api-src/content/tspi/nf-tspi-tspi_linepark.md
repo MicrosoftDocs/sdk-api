@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_linePark
-title: TSPI_linePark function
+title: TSPI_linePark function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_linePark function parks the specified call according to the specified park mode.
 old-location: tspi\tspi_linepark.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CreateActCtxW
-title: CreateActCtxW function
+title: CreateActCtxW function (winbase.h)
 author: windows-sdk-content
 description: The CreateActCtx function creates an activation context.
 old-location: setup\createactctx.htm

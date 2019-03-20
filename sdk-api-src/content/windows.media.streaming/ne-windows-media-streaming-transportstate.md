@@ -1,6 +1,6 @@
 ---
 UID: NE:windows.media.streaming.TransportState
-title: TransportState
+title: TransportState (windows.media.streaming.h)
 author: windows-sdk-content
 description: Defines the available transport states as defined by the UPnP Guidelines.
 old-location: mediastreaming\transportstate.htm

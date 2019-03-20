@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.ISchemaProvider.LookupAuthoredNamedEntity
-title: ISchemaProvider::LookupAuthoredNamedEntity
+title: ISchemaProvider::LookupAuthoredNamedEntity (structuredquery.h)
 author: windows-sdk-content
 description: Finds named entities of a specified type in a tokenized string, and returns the value of the entity and the number of tokens the entity value occupies.
 old-location: search\_search_ISchemaProvider_LookupAuthoredNamedEntity.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.X509CertificateTemplateEnrollmentFlag
-title: X509CertificateTemplateEnrollmentFlag
+title: X509CertificateTemplateEnrollmentFlag (certenroll.h)
 author: windows-sdk-content
 description: Contains values that specify server and client actions during enrollment.
 old-location: security\x509certificatetemplateenrollmentflag.htm

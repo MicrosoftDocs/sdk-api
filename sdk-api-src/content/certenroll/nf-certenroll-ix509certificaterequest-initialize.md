@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.Initialize
-title: IX509CertificateRequest::Initialize
+title: IX509CertificateRequest::Initialize (certenroll.h)
 author: windows-sdk-content
 description: Initializes the request object for a user or a computer.
 old-location: security\ix509certificaterequest_initialize_method.htm

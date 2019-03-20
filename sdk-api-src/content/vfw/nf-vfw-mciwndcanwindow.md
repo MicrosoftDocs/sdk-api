@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndCanWindow
-title: MCIWndCanWindow macro
+title: MCIWndCanWindow macro (vfw.h)
 author: windows-sdk-content
 description: The MCIWndCanWindow macro determines if an MCI device supports window-oriented MCI commands. You can use this macro or explicitly send the MCIWNDM_CAN_WINDOW message.
 old-location: multimedia\mciwndcanwindow.htm

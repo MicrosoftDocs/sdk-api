@@ -1,6 +1,6 @@
 ---
 UID: NS:wcmapi._WCM_CONNECTION_COST_DATA
-title: WCM_CONNECTION_COST_DATA
+title: WCM_CONNECTION_COST_DATA (wcmapi.h)
 author: windows-sdk-content
 description: Specifies information about a connection cost.
 old-location: wcm\wcm_connection_cost_data.htm

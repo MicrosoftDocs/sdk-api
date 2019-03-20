@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentAccessKey
-title: IUIAutomationElement::get_CurrentAccessKey
+title: IUIAutomationElement::get_CurrentAccessKey (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the access key character for the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentAccessKey.htm

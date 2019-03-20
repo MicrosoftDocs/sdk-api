@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsResource
-title: IADsResource
+title: IADsResource (iads.h)
 author: windows-sdk-content
 description: The IADsResource interface is a dual interface that inherits from IADs. It is designed to manage an open resource for a file service across a network.
 old-location: adsi\iadsresource.htm

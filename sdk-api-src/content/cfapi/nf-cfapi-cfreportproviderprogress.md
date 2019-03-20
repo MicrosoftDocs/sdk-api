@@ -1,6 +1,6 @@
 ---
 UID: NF:cfapi.CfReportProviderProgress
-title: CfReportProviderProgress function
+title: CfReportProviderProgress function (cfapi.h)
 author: windows-sdk-content
 description: Allows a sync provider to report progress out-of-band.
 old-location: cloudapi\cfreportproviderprogress.htm

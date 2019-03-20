@@ -1,6 +1,6 @@
 ---
 UID: NC:msdrmdefs.DRMCALLBACK
-title: DRMCALLBACK
+title: DRMCALLBACK (msdrmdefs.h)
 author: windows-sdk-content
 description: Some of the functions included in the AD RMS SDK provide status information and licenses to your application by using a callback function that you must implement. The callback syntax is shown below.
 old-location: rm\callback_prototype.htm

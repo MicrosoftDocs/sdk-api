@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateService.get_CanRegisterWithAU
-title: IUpdateService::get_CanRegisterWithAU
+title: IUpdateService::get_CanRegisterWithAU (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the service can register with Automatic Updates.
 old-location: wua\iupdateservice_canregisterwithau.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectShaderVariable
-title: ID3D10EffectShaderVariable
+title: ID3D10EffectShaderVariable (d3d10effect.h)
 author: windows-sdk-content
 description: A shader-variable interface accesses a shader variable.
 old-location: direct3d10\id3d10effectshadervariable.htm

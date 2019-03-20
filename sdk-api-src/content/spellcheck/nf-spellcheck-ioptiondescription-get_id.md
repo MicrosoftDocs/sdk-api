@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.IOptionDescription.get_Id
-title: IOptionDescription::get_Id
+title: IOptionDescription::get_Id (spellcheck.h)
 author: windows-sdk-content
 description: Gets the identifier of the spell checker option.
 old-location: intl\ioptiondescription_id.htm

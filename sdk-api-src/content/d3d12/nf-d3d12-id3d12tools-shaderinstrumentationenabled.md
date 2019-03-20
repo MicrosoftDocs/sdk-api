@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Tools.ShaderInstrumentationEnabled
-title: ID3D12Tools::ShaderInstrumentationEnabled
+title: ID3D12Tools::ShaderInstrumentationEnabled (d3d12.h)
 author: windows-sdk-content
 description: Determines whether shader instrumentation is enabled.
 old-location: direct3d12\id3d12tools_shaderinstrumentationenabled.htm

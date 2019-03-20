@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRSurface.IsSurfaceLocked
-title: IVMRSurface::IsSurfaceLocked
+title: IVMRSurface::IsSurfaceLocked (strmif.h)
 author: windows-sdk-content
 description: The IsSurfaceLocked method indicates whether the DirectDraw surface attached to this media sample is locked.
 old-location: dshow\ivmrsurface_issurfacelocked.htm

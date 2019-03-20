@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls32.WINNLSEnableIME
-title: WINNLSEnableIME function
+title: WINNLSEnableIME function (winnls32.h)
 author: windows-sdk-content
 description: Temporarily enables or disables an Input Method Editor (IME) and, at the same time, turns on or off the display of all windows owned by the IME.
 old-location: winprog\_win32_winnlsenableime.htm

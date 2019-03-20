@@ -1,6 +1,6 @@
 ---
 UID: NF:winevt.EvtRender
-title: EvtRender function
+title: EvtRender function (winevt.h)
 author: windows-sdk-content
 description: Renders an XML fragment based on the rendering context that you specify.
 old-location: wes\evtrender.htm

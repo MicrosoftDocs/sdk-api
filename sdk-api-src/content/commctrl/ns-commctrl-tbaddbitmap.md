@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagTBADDBITMAP
-title: TBADDBITMAP
+title: TBADDBITMAP (commctrl.h)
 author: windows-sdk-content
 description: Adds a bitmap that contains button images to a toolbar.
 old-location: controls\TBADDBITMAP.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10StateBlock.Apply
-title: ID3D10StateBlock::Apply
+title: ID3D10StateBlock::Apply (d3d10effect.h)
 author: windows-sdk-content
 description: Apply the state block to the current device state.
 old-location: direct3d10\id3d10stateblock_apply.htm

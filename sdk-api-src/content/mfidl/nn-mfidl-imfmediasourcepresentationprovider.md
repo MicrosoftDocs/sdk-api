@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFMediaSourcePresentationProvider
-title: IMFMediaSourcePresentationProvider
+title: IMFMediaSourcePresentationProvider (mfidl.h)
 author: windows-sdk-content
 description: Provides notifications to the sequencer source.
 old-location: mf\imfmediasourcepresentationprovider.htm

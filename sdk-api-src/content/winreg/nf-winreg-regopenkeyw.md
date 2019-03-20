@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegOpenKeyW
-title: RegOpenKeyW function
+title: RegOpenKeyW function (winreg.h)
 author: windows-sdk-content
 description: Opens the specified registry key.
 old-location: base\regopenkey.htm

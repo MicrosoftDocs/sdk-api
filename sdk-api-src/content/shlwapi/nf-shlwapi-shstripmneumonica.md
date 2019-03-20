@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHStripMneumonicA
-title: SHStripMneumonicA function
+title: SHStripMneumonicA function (shlwapi.h)
 author: windows-sdk-content
 description: Removes the mnemonic marker from a string.
 old-location: shell\SHStripMneumonic.htm

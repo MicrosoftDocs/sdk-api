@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiCallClassInstaller
-title: SetupDiCallClassInstaller function
+title: SetupDiCallClassInstaller function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiCallClassInstaller function calls the appropriate class installer, and any registered co-installers, with the specified installation request (DIF code).
 old-location: devinst\setupdicallclassinstaller.htm

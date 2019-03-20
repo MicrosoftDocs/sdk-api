@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionBasicConstraints.InitializeEncode
-title: IX509ExtensionBasicConstraints::InitializeEncode
+title: IX509ExtensionBasicConstraints::InitializeEncode (certenroll.h)
 author: windows-sdk-content
 description: Initializes the extension from a Boolean value that indicates whether the certificate subject is a certification authority (CA) and an integer that contains the depth of the subordinate CA chain.
 old-location: security\ix509extensionbasicconstraints_initializeencode_method.htm

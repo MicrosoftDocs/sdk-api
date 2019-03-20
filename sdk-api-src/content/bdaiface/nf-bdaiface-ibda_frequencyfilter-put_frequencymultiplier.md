@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_FrequencyFilter.put_FrequencyMultiplier
-title: IBDA_FrequencyFilter::put_FrequencyMultiplier
+title: IBDA_FrequencyFilter::put_FrequencyMultiplier (bdaiface.h)
 author: windows-sdk-content
 description: The put_FrequencyMultiplier method specifies the frequency multiplier. The frequency multiplier determines the frequency units for the methods on this interface. The default value is 1000, meaning that frequencies are expressed in kilohertz (kHz).
 old-location: mstv\ibda_frequencyfilter_put_frequencymultiplier.htm

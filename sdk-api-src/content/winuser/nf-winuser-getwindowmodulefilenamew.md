@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetWindowModuleFileNameW
-title: GetWindowModuleFileNameW function
+title: GetWindowModuleFileNameW function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the full path and file name of the module associated with the specified window handle.
 old-location: winmsg\getwindowmodulefilename.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.WriteFileGather
-title: WriteFileGather function
+title: WriteFileGather function (fileapi.h)
 author: windows-sdk-content
 description: Retrieves data from an array of buffers and writes the data to a file.
 old-location: fs\writefilegather.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridItemPattern.get_CachedRow
-title: IUIAutomationGridItemPattern::get_CachedRow
+title: IUIAutomationGridItemPattern::get_CachedRow (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached zero-based index of the row that contains the item.
 old-location: winauto\uiauto_IUIAutomationGridItemPattern_CachedRow.htm

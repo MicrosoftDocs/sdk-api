@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRFilterConfig9.SetImageCompositor
-title: IVMRFilterConfig9::SetImageCompositor
+title: IVMRFilterConfig9::SetImageCompositor (vmr9.h)
 author: windows-sdk-content
 description: The SetImageCompositor method installs an application-provided image compositor object.
 old-location: dshow\ivmrfilterconfig9_setimagecompositor.htm

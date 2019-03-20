@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionVisual3.SetOpacity
-title: IDCompositionVisual3::SetOpacity
+title: IDCompositionVisual3::SetOpacity (dcomp.h)
 author: windows-sdk-content
 description: Sets the value of the visual's opacity property.
 old-location: directcomp\idcompositionvisual3_setopacity.htm

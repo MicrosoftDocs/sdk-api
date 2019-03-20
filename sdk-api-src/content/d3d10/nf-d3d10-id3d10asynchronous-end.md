@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Asynchronous.End
-title: ID3D10Asynchronous::End
+title: ID3D10Asynchronous::End (d3d10.h)
 author: windows-sdk-content
 description: Ends the collection of GPU data.
 old-location: direct3d10\id3d10asynchronous_end.htm

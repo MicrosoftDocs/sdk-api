@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITILSConfig.put_Port
-title: ITILSConfig::put_Port
+title: ITILSConfig::put_Port (rend.h)
 author: windows-sdk-content
 description: The put_Port method sets the port number used to connect to the server of a specified ILS directory.
 old-location: tapi3\itilsconfig_put_port.htm

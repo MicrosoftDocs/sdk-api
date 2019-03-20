@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSpreadsheetItemPattern.get_CurrentFormula
-title: IUIAutomationSpreadsheetItemPattern::get_CurrentFormula
+title: IUIAutomationSpreadsheetItemPattern::get_CurrentFormula (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the formula for this cell.
 old-location: winauto\uiauto_IUIAutomationspreadSheetItemPattern_CurrentFormula.htm

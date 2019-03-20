@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.capCaptureSetSetup
-title: capCaptureSetSetup macro
+title: capCaptureSetSetup macro (vfw.h)
 author: windows-sdk-content
 description: The capCaptureSetSetup macro sets the configuration parameters used with streaming capture. You can use this macro or explicitly send the WM_CAP_SET_SEQUENCE_SETUP message.
 old-location: multimedia\capcapturesetsetup.htm

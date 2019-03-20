@@ -1,6 +1,6 @@
 ---
 UID: NN:sbe.IStreamBufferMediaSeeking
-title: IStreamBufferMediaSeeking
+title: IStreamBufferMediaSeeking (sbe.h)
 author: windows-sdk-content
 description: The IStreamBufferMediaSeeking interface controls seeking in a stream buffer source graph. The Stream Buffer Source filter exposes this interface.
 old-location: mstv\istreambuffermediaseeking.htm

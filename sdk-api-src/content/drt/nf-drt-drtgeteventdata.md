@@ -1,6 +1,6 @@
 ---
 UID: NF:drt.DrtGetEventData
-title: DrtGetEventData function
+title: DrtGetEventData function (drt.h)
 author: windows-sdk-content
 description: DrtGetEventData function retrieves event data associated with a signaled event.
 old-location: p2p\drtgeteventdata.htm

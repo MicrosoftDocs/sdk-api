@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_PROPERTY_QUERY
-title: STORAGE_PROPERTY_QUERY
+title: STORAGE_PROPERTY_QUERY (winioctl.h)
 author: windows-sdk-content
 description: Indicates the properties of a storage device or adapter to retrieve as the input buffer passed to the IOCTL_STORAGE_QUERY_PROPERTY control code.
 old-location: fs\storage_property_query.htm

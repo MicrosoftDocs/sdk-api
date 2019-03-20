@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IPublisherFilter.Initialize
-title: IPublisherFilter::Initialize
+title: IPublisherFilter::Initialize (eventsys.h)
 author: windows-sdk-content
 description: Associates an event method with a collection of subscription objects.
 old-location: cos\ipublisherfilter_initialize.htm

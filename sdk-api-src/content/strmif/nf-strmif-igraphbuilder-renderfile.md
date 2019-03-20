@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IGraphBuilder.RenderFile
-title: IGraphBuilder::RenderFile
+title: IGraphBuilder::RenderFile (strmif.h)
 author: windows-sdk-content
 description: The RenderFile method builds a filter graph that renders the specified file.
 old-location: dshow\igraphbuilder_renderfile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_ServerFT
-title: MI_ServerFT
+title: MI_ServerFT (mi.h)
 author: windows-sdk-content
 description: A support structure used in the MI_Server structure. Use the functions with the name prefix &#0034;MI_Server_&#0034; to manipulate these structures.
 old-location: wmi_v2\mi_serverft.htm

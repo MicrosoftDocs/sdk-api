@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxyEventing.BeginUnsubscribeToMultipleOperations
-title: IWSDServiceProxyEventing::BeginUnsubscribeToMultipleOperations
+title: IWSDServiceProxyEventing::BeginUnsubscribeToMultipleOperations (wsdclient.h)
 author: windows-sdk-content
 description: Initializes an asynchronous cancelation request for a subscription to a collection of notifications or solicit/response events.
 old-location: ncd\iwsdserviceproxyeventing_beginunsubscribetomultipleoperations.htm

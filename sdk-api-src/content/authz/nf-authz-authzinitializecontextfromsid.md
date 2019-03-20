@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzInitializeContextFromSid
-title: AuthzInitializeContextFromSid function
+title: AuthzInitializeContextFromSid function (authz.h)
 author: windows-sdk-content
 description: Creates a user-mode client context from a user security identifier (SID).
 old-location: security\authzinitializecontextfromsid.htm

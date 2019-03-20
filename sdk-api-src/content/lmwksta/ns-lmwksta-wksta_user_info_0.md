@@ -1,6 +1,6 @@
 ---
 UID: NS:lmwksta._WKSTA_USER_INFO_0
-title: WKSTA_USER_INFO_0
+title: WKSTA_USER_INFO_0 (lmwksta.h)
 author: windows-sdk-content
 description: The WKSTA_USER_INFO_0 structure contains the name of the user on a specified workstation.
 old-location: netmgmt\wksta_user_info_0_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NL:gdipluscolor.Color
-title: Color
+title: Color (gdipluscolor.h)
 author: windows-sdk-content
 description: A Color object stores a 32-bit value that represents a color.
 old-location: gdiplus\_gdiplus_CLASS_Color_Class.htm

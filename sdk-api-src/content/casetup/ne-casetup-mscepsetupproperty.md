@@ -1,6 +1,6 @@
 ---
 UID: NE:casetup.__MIDL___MIDL_itf_casetup_0000_0003_0001
-title: MSCEPSetupProperty
+title: MSCEPSetupProperty (casetup.h)
 author: windows-sdk-content
 description: Specifies a property type for setup and configuration of a Microsoft Simple Certificate Enrollment Protocol (SCEP) role using IMSCEPSetup.
 old-location: security\mscepsetupproperty.htm

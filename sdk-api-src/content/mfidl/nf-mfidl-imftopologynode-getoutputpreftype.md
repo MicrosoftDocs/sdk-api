@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.GetOutputPrefType
-title: IMFTopologyNode::GetOutputPrefType
+title: IMFTopologyNode::GetOutputPrefType (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the preferred media type for an output stream on this node.
 old-location: mf\imftopologynode_getoutputpreftype.htm

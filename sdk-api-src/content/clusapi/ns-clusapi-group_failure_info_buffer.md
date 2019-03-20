@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.GROUP_FAILURE_INFO_BUFFER
-title: GROUP_FAILURE_INFO_BUFFER
+title: GROUP_FAILURE_INFO_BUFFER (clusapi.h)
 author: windows-sdk-content
 description: Represents a buffer for a GROUP_FAILURE_INFO structure.
 old-location: mscs\group_failure_info_buffer.htm

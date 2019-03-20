@@ -1,6 +1,6 @@
 ---
 UID: NN:windows.ui.xaml.media.dxinterop.ISurfaceImageSourceManagerNative
-title: ISurfaceImageSourceManagerNative
+title: ISurfaceImageSourceManagerNative (windows.ui.xaml.media.dxinterop.h)
 author: windows-sdk-content
 description: Enables performing bulk operations across all SurfaceImageSource objects created in the same process.
 old-location: winrt\isurfaceimagesourcemanagernative.htm

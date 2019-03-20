@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.SetPreview
-title: IWICBitmapEncoder::SetPreview
+title: IWICBitmapEncoder::SetPreview (wincodec.h)
 author: windows-sdk-content
 description: Sets the global preview for the image.
 old-location: wic\_wic_codec_iwicbitmapencoder_setpreview.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:lsalookup._LSA_REFERENCED_DOMAIN_LIST
-title: LSA_REFERENCED_DOMAIN_LIST
+title: LSA_REFERENCED_DOMAIN_LIST (lsalookup.h)
 author: windows-sdk-content
 description: The LSA_REFERENCED_DOMAIN_LIST structure contains information about the domains referenced in a lookup operation.
 old-location: security\lsa_referenced_domain_list.htm

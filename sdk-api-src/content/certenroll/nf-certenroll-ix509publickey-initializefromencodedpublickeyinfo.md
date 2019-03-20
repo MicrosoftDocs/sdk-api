@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PublicKey.InitializeFromEncodedPublicKeyInfo
-title: IX509PublicKey::InitializeFromEncodedPublicKeyInfo
+title: IX509PublicKey::InitializeFromEncodedPublicKeyInfo (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from a byte array that contains a public key.
 old-location: security\ix509publickey_initializefromencodedpublickeyinfo_method.htm

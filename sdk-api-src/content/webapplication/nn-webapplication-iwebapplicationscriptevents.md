@@ -1,6 +1,6 @@
 ---
 UID: NN:webapplication.IWebApplicationScriptEvents
-title: IWebApplicationScriptEvents
+title: IWebApplicationScriptEvents (webapplication.h)
 author: windows-sdk-content
 description: Enables a debugging or authoring app to receive notification of scripting engine events.
 old-location: debug\iwebapplicationscriptevents.htm

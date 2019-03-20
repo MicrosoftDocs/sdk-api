@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2fx.XAudio2CreateReverb
-title: XAudio2CreateReverb function
+title: XAudio2CreateReverb function (xaudio2fx.h)
 author: windows-sdk-content
 description: Creates a new reverb audio processing object (APO), and returns a pointer to it.
 old-location: xaudio2\xaudio2createreverb.htm

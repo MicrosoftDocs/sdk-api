@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.put_URI
-title: IRegistrationInfo::put_URI
+title: IRegistrationInfo::put_URI (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the URI of the task.
 old-location: taskschd\iregistrationinfo_uri.htm

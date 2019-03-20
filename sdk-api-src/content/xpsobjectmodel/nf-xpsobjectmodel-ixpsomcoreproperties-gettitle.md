@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetTitle
-title: IXpsOMCoreProperties::GetTitle
+title: IXpsOMCoreProperties::GetTitle (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the title property.
 old-location: xps\ixpsomcoreproperties_gettitle.htm

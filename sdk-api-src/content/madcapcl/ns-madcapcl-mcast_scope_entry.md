@@ -1,6 +1,6 @@
 ---
 UID: NS:madcapcl._MCAST_SCOPE_ENTRY
-title: MCAST_SCOPE_ENTRY
+title: MCAST_SCOPE_ENTRY (madcapcl.h)
 author: windows-sdk-content
 description: The MCAST_SCOPE_ENTRY structure provides a complete set of information about a given multicast scope.
 old-location: madcap\mcast_scope_entry.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winldap.ldap_apifeature_infoA
-title: LDAPAPIFeatureInfoA
+title: LDAPAPIFeatureInfoA (winldap.h)
 author: windows-sdk-content
 description: Retrieves data about any supported LDAP API extensions.
 old-location: ldap\ldapapifeatureinfo.htm

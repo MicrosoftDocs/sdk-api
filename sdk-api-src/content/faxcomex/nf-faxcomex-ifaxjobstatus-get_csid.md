@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxJobStatus.get_CSID
-title: IFaxJobStatus::get_CSID
+title: IFaxJobStatus::get_CSID (faxcomex.h)
 author: windows-sdk-content
 description: The CSID property is a null-terminated string that contains the called station identifier (CSID) for the job.
 old-location: fax\_mfax_faxjobstatus_cpp_mfax_faxjobstatus_csid_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1_3.D2D1_TRANSFORMED_IMAGE_SOURCE_PROPERTIES
-title: D2D1_TRANSFORMED_IMAGE_SOURCE_PROPERTIES
+title: D2D1_TRANSFORMED_IMAGE_SOURCE_PROPERTIES (d2d1_3.h)
 author: windows-sdk-content
 description: Properties of a transformed image source.
 old-location: direct2d\d2d1_transformed_image_source_properties.htm

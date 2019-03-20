@@ -1,6 +1,6 @@
 ---
 UID: NF:usp10.ScriptStringFree
-title: ScriptStringFree function
+title: ScriptStringFree function (usp10.h)
 author: windows-sdk-content
 description: Frees a SCRIPT_STRING_ANALYSIS structure.
 old-location: intl\scriptstringfree.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IProgressNotify.OnProgress
-title: IProgressNotify::OnProgress
+title: IProgressNotify::OnProgress (objidl.h)
 author: windows-sdk-content
 description: Notifies registered objects and applications of the progress of a downloading operation.
 old-location: com\iprogressnotify_onprogress.htm

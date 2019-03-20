@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMEnumDevice.Reset
-title: IWMDMEnumDevice::Reset
+title: IWMDMEnumDevice::Reset (mswmdm.h)
 author: windows-sdk-content
 description: The Reset method resets the enumeration so that Next returns a pointer to the first device.
 old-location: wmdm\iwmdmenumdevice_reset.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IGetCapabilitiesKey.GetCapabilitiesKey
-title: IGetCapabilitiesKey::GetCapabilitiesKey
+title: IGetCapabilitiesKey::GetCapabilitiesKey (strmif.h)
 author: windows-sdk-content
 description: The GetCapabilitiesKey method gets a registry key that contains capability information for the codec.
 old-location: dshow\igetcapabilitieskey_getcapabilitieskey.htm

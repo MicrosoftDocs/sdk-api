@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.SetErrorInfo
-title: IWRdsProtocolConnection::SetErrorInfo
+title: IWRdsProtocolConnection::SetErrorInfo (wtsprotocol.h)
 author: windows-sdk-content
 description: Sets error information in the protocol.
 old-location: termserv\iwrdsprotocolconnection_seterrorinfo.htm

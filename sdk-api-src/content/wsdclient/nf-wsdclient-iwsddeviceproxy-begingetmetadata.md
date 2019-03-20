@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDDeviceProxy.BeginGetMetadata
-title: IWSDDeviceProxy::BeginGetMetadata
+title: IWSDDeviceProxy::BeginGetMetadata (wsdclient.h)
 author: windows-sdk-content
 description: Sends an asynchronous request for metadata.
 old-location: ncd\iwsddeviceproxy_begingetmetadata.htm

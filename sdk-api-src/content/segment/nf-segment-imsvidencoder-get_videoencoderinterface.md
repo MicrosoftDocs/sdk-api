@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidEncoder.get_VideoEncoderInterface
-title: IMSVidEncoder::get_VideoEncoderInterface
+title: IMSVidEncoder::get_VideoEncoderInterface (segment.h)
 author: windows-sdk-content
 description: The get_VideoEncoderInterface method retrieves a pointer to the video encoder interface.
 old-location: mstv\imsvidencoder_get_videoencoderinterface.htm

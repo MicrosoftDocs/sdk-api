@@ -1,6 +1,6 @@
 ---
 UID: NF:cmnquery.ICommonQuery.OpenQueryWindow
-title: ICommonQuery::OpenQueryWindow
+title: ICommonQuery::OpenQueryWindow (cmnquery.h)
 author: windows-sdk-content
 description: The ICommonQuery::OpenQueryWindow method displays the directory service query dialog. This method does not return until the dialog box has been closed by the user.
 old-location: ad\icommonquery_openquerywindow.htm

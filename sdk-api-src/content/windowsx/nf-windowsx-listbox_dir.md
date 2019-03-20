@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ListBox_Dir
-title: ListBox_Dir macro
+title: ListBox_Dir macro (windowsx.h)
 author: windows-sdk-content
 description: Adds names to the list displayed by a list box.
 old-location: controls\ListBox_Dir.htm

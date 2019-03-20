@@ -1,6 +1,6 @@
 ---
 UID: NE:wbemcli.tag_WBEM_CONDITION_FLAG_TYPE
-title: WBEM_CONDITION_FLAG_TYPE
+title: WBEM_CONDITION_FLAG_TYPE (wbemcli.h)
 author: windows-sdk-content
 description: Contains flags used with the IWbemClassObject::GetNames method.
 old-location: wmi\wbem_condition_flag_type.htm

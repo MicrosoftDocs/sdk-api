@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.IsComputerEnabled
-title: IGPMGPO::IsComputerEnabled
+title: IGPMGPO::IsComputerEnabled (gpmgmt.h)
 author: windows-sdk-content
 description: Checks whether the computer policies in the GPO are enabled.
 old-location: gpmc\igpmgpo_iscomputerenabled.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingSelect
-title: RpcNsBindingSelect function
+title: RpcNsBindingSelect function (rpcnsi.h)
 author: windows-sdk-content
 description: The RpcNsBindingSelect function returns a binding handle from a list of compatible binding handles.
 old-location: rpc\rpcnsbindingselect.htm

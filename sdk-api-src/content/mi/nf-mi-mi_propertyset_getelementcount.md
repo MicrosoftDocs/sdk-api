@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_PropertySet_GetElementCount
-title: MI_PropertySet_GetElementCount function
+title: MI_PropertySet_GetElementCount function (mi.h)
 author: windows-sdk-content
 description: Gets the number of elements in the specified property set.
 old-location: wmi_v2\mi_propertyset_getelementcount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.ITuneRequestInfo.GetLocatorData
-title: ITuneRequestInfo::GetLocatorData
+title: ITuneRequestInfo::GetLocatorData (bdatif.h)
 author: windows-sdk-content
 description: The GetLocatorData method fills in channel or program locator information for the specified tune request.
 old-location: mstv\itunerequestinfo_getlocatordata.htm

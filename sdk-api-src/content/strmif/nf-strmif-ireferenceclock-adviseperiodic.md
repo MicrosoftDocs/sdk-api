@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IReferenceClock.AdvisePeriodic
-title: IReferenceClock::AdvisePeriodic
+title: IReferenceClock::AdvisePeriodic (strmif.h)
 author: windows-sdk-content
 description: The AdvisePeriodic method creates a periodic advise request.
 old-location: dshow\ireferenceclock_adviseperiodic.htm

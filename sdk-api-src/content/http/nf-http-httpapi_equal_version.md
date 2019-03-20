@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HTTPAPI_EQUAL_VERSION
-title: HTTPAPI_EQUAL_VERSION macro
+title: HTTPAPI_EQUAL_VERSION macro (http.h)
 author: windows-sdk-content
 description: Returns a non-zero value if an HTTPAPI_VERSION structure is exactly equal to a specified major/minor version combination, or zero otherwise.
 old-location: http\httpapi_equal_version.htm

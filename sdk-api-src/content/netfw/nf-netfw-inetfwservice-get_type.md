@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwService.get_Type
-title: INetFwService::get_Type
+title: INetFwService::get_Type (netfw.h)
 author: windows-sdk-content
 description: Retrieves the type of the service.
 old-location: ics\inetfwservice_type.htm

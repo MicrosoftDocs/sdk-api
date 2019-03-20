@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollection.Item
-title: IFunctionInstanceCollection::Item
+title: IFunctionInstanceCollection::Item (functiondiscoveryapi.h)
 author: windows-sdk-content
 description: Gets the specified function instance, by index.
 old-location: ncd\ifunctioninstancecollection_item_method.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.SetAddressFamily
-title: IWSDiscoveryPublisher::SetAddressFamily
+title: IWSDiscoveryPublisher::SetAddressFamily (wsddisco.h)
 author: windows-sdk-content
 description: Specifies the IP address family (IPv4, IPv6, or both) over which the host will be published.
 old-location: ncd\iwsdiscoverypublisher_setaddressfamily.htm

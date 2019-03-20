@@ -1,6 +1,6 @@
 ---
 UID: NE:windns.__unnamed_enum_1
-title: DNS_FREE_TYPE
+title: DNS_FREE_TYPE (windns.h)
 author: windows-sdk-content
 description: The DNS_FREE_TYPE enumeration specifies the type of data to free.
 old-location: dns\dns_free_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessageIterator.MoveFirst
-title: IFaxOutgoingMessageIterator::MoveFirst
+title: IFaxOutgoingMessageIterator::MoveFirst (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingMessageIterator::MoveFirst method moves the archive cursor to the first fax message in the outbound archive.
 old-location: fax\_mfax_faxoutgoingmessageiterator_cpp_mfax_faxoutgoingmessageiterator_movefirst_cpp.htm

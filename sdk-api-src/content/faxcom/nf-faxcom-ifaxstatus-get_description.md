@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_Description
-title: IFaxStatus::get_Description
+title: IFaxStatus::get_Description (faxcom.h)
 author: windows-sdk-content
 description: Retrieves the Description property for the FaxStatus object of a parent FaxPort object. The Description property is a null-terminated string that describes the current status of the specified port.
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_description_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSink.Prepare
-title: IMFCaptureSink::Prepare
+title: IMFCaptureSink::Prepare (mfcaptureengine.h)
 author: windows-sdk-content
 description: Prepares the capture sink by loading any required pipeline components, such as encoders, video processors, and media sinks.
 old-location: mf\imfcapturesink_prepare.htm

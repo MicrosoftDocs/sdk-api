@@ -1,6 +1,6 @@
 ---
 UID: NF:propidl.StgConvertPropertyToVariant
-title: StgConvertPropertyToVariant function
+title: StgConvertPropertyToVariant function (propidl.h)
 author: windows-sdk-content
 description: Converts a SERIALIZEDPROPERTYVALUE data type to a PROPVARIANT data type.
 old-location: stg\stgconvertpropertytovariant.htm

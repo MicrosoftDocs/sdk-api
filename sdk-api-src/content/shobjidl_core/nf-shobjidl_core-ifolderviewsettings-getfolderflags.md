@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderViewSettings.GetFolderFlags
-title: IFolderViewSettings::GetFolderFlags
+title: IFolderViewSettings::GetFolderFlags (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets folder view options flags.
 old-location: shell\IFolderViewSettings_GetFolderFlags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.GetTempPathW
-title: GetTempPathW function
+title: GetTempPathW function (fileapi.h)
 author: windows-sdk-content
 description: Retrieves the path of the directory designated for temporary files.
 old-location: fs\gettemppath.htm

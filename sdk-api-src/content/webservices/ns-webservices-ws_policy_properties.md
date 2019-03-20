@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_POLICY_PROPERTIES
-title: WS_POLICY_PROPERTIES
+title: WS_POLICY_PROPERTIES (webservices.h)
 author: windows-sdk-content
 description: Specifies a set of WS_POLICY_PROPERTY structures.
 old-location: wsw\ws_policy_properties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dxmini._DXAPI_INTERFACE
-title: DXAPI_INTERFACE
+title: DXAPI_INTERFACE (dxmini.h)
 author: windows-sdk-content
 description: The DXAPI_INTERFACE structure contains the interface callback functions that a video miniport driver implements to support Kernel-Mode Video Transport.
 old-location: display\dxapi_interface.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:lmuse.NetUseAdd
-title: NetUseAdd function
+title: NetUseAdd function (lmuse.h)
 author: windows-sdk-content
 description: The NetUseAdd function establishes a connection between the local computer and a remote server.
 old-location: netmgmt\netuseadd.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.QueryProtectionStatus
-title: IFhConfigMgr::QueryProtectionStatus
+title: IFhConfigMgr::QueryProtectionStatus (fhcfg.h)
 author: windows-sdk-content
 description: Retrieves the current File History protection state.
 old-location: winprog\ifhconfigmgr_queryprotectionstatus.htm

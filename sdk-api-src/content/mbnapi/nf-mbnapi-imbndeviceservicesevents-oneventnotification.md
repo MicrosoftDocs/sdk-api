@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnEventNotification
-title: IMbnDeviceServicesEvents::OnEventNotification
+title: IMbnDeviceServicesEvents::OnEventNotification (mbnapi.h)
 author: windows-sdk-content
 description: Notification method signaling a device service state change event from the Mobile Broadband device.
 old-location: mbn\imbndeviceservicesevents_oneventnotification.htm

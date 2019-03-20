@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IScanningTunerEx
-title: IScanningTunerEx
+title: IScanningTunerEx (tuner.h)
 author: windows-sdk-content
 description: This topic applies to Windows Vista.
 old-location: mstv\iscanningtunerex.htm

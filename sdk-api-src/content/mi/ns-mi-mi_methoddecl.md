@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_MethodDecl
-title: MI_MethodDecl
+title: MI_MethodDecl (mi.h)
 author: windows-sdk-content
 description: Represents a CIM method.
 old-location: wmi_v2\mi_methoddecl.htm

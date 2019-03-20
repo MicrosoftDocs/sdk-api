@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IMediaPosition.CanSeekBackward
-title: IMediaPosition::CanSeekBackward
+title: IMediaPosition::CanSeekBackward (control.h)
 author: windows-sdk-content
 description: The CanSeekBackward method determines whether the filter graph can seek backward in the stream.
 old-location: dshow\imediaposition_canseekbackward.htm

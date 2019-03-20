@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_DIRECTDRAW_LOCAL
-title: DD_DIRECTDRAW_LOCAL
+title: DD_DIRECTDRAW_LOCAL (ddrawint.h)
 author: windows-sdk-content
 description: The DD_DIRECTDRAW_LOCAL structure contains driver information that is relevant to the current DirectDraw process only.
 old-location: display\dd_directdraw_local.htm

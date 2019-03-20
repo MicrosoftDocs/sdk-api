@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_lostPackets
-title: IWMPNetwork::get_lostPackets
+title: IWMPNetwork::get_lostPackets (wmp.h)
 author: windows-sdk-content
 description: The get_lostPackets method retrieves the number of packets lost.
 old-location: wmp\iwmpnetwork_get_lostpackets.htm

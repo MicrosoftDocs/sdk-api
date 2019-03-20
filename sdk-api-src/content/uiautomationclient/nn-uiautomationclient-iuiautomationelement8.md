@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationElement8
-title: IUIAutomationElement8
+title: IUIAutomationElement8 (uiautomationclient.h)
 author: windows-sdk-content
 description: Extends the IUIAutomationElement7 interface.
 old-location: winauto\uiauto_IUIAutomationElement8.htm

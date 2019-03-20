@@ -1,6 +1,6 @@
 ---
 UID: NN:adhoc.IDot11AdHocSecuritySettings
-title: IDot11AdHocSecuritySettings
+title: IDot11AdHocSecuritySettings (adhoc.h)
 author: windows-sdk-content
 description: Specifies the security settings for a wireless ad hoc network.
 old-location: nwifi\idot11adhocsecuritysettings.htm

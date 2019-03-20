@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_EVENTING_EXPIRES
-title: WSD_EVENTING_EXPIRES
+title: WSD_EVENTING_EXPIRES (wsdtypes.h)
 author: windows-sdk-content
 description: Represents the expiration time of a WS-Eventing message.
 old-location: ncd\wsd_eventing_expires.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS
-title: SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS
+title: SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS (clusapi.h)
 author: windows-sdk-content
 description: Describes a set of retrieved disks that can be used as log disks for the specified data disk.
 old-location: mscs\sr_resource_type_query_eligible_logdisks.htm

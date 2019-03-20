@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextServices.TxSendMessage
-title: ITextServices::TxSendMessage
+title: ITextServices::TxSendMessage (textserv.h)
 author: windows-sdk-content
 description: Used by the window host to forward messages sent from its window to the text services object.
 old-location: controls\ITextServices_TxSendMessage.htm

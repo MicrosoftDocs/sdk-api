@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddressCapabilities.get_DeviceClasses
-title: ITAddressCapabilities::get_DeviceClasses
+title: ITAddressCapabilities::get_DeviceClasses (tapi3if.h)
 author: windows-sdk-content
 description: The get_DeviceClasses method gets device classes. This method is provided for Automation client applications, such as those written in Visual Basic and scripting languages.
 old-location: tapi3\itaddresscapabilities_get_deviceclasses.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITask.SetTaskFlags
-title: ITask::SetTaskFlags
+title: ITask::SetTaskFlags (mstask.h)
 author: windows-sdk-content
 description: This method sets the flags that modify the behavior of a scheduled task.
 old-location: taskschd\itask_settaskflags.htm

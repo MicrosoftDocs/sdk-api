@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IDvbDefaultAuthorityDescriptor
-title: IDvbDefaultAuthorityDescriptor
+title: IDvbDefaultAuthorityDescriptor (dvbsiparser.h)
 author: windows-sdk-content
 description: Implements methods that get data from the default authority descriptor for a content reference identifier (CRID). The default authority descriptor is the first part of the CRID and identifies the body that created the CRID.
 old-location: mstv\idvbdefaultauthoritydescriptor.htm

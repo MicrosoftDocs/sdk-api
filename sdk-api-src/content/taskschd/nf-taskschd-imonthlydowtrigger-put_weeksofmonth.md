@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IMonthlyDOWTrigger.put_WeeksOfMonth
-title: IMonthlyDOWTrigger::put_WeeksOfMonth
+title: IMonthlyDOWTrigger::put_WeeksOfMonth (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the weeks of the month during which the task runs.
 old-location: taskschd\imonthlydowtrigger_weeksofmonth.htm

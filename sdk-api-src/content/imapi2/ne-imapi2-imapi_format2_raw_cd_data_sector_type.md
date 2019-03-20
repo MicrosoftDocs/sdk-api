@@ -1,6 +1,6 @@
 ---
 UID: NE:imapi2._IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE
-title: IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE
+title: IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE (imapi2.h)
 author: windows-sdk-content
 description: Defines values that indicate the type of sub-channel data.
 old-location: imapi\imapi_format2_raw_cd_data_sector_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.phoneSetVolume
-title: phoneSetVolume function
+title: phoneSetVolume function (tapi.h)
 author: windows-sdk-content
 description: The phoneSetVolume function sets the volume of the speaker component of the specified hookswitch device to the specified level.
 old-location: tapi2\phonesetvolume.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassifierModuleDefinition.put_NeedsExplicitValue
-title: IFsrmClassifierModuleDefinition::put_NeedsExplicitValue
+title: IFsrmClassifierModuleDefinition::put_NeedsExplicitValue (fsrmpipeline.h)
 author: windows-sdk-content
 description: Determines whether a rule that uses the classifier needs to provide the value for the classification property.
 old-location: fsrm\ifsrmclassifiermoduledefinition_needsexplicitvalue.htm

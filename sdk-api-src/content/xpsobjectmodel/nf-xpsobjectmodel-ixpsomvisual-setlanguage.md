@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetLanguage
-title: IXpsOMVisual::SetLanguage
+title: IXpsOMVisual::SetLanguage (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the Language property of the visual.
 old-location: xps\ixpsomvisual_setlanguage.htm

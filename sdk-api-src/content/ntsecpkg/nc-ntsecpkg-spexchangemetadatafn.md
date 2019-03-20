@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpExchangeMetaDataFn
-title: SpExchangeMetaDataFn
+title: SpExchangeMetaDataFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Sends metadata to a security support provider.
 old-location: security\spexchangemetadatafn.htm

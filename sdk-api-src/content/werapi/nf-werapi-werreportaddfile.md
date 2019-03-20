@@ -1,6 +1,6 @@
 ---
 UID: NF:werapi.WerReportAddFile
-title: WerReportAddFile function
+title: WerReportAddFile function (werapi.h)
 author: windows-sdk-content
 description: Adds a file to the specified report.
 old-location: wer\werreportaddfile.htm

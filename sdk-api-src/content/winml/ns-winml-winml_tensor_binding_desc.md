@@ -1,6 +1,6 @@
 ---
 UID: NS:winml.WINML_TENSOR_BINDING_DESC
-title: WINML_TENSOR_BINDING_DESC
+title: WINML_TENSOR_BINDING_DESC (winml.h)
 author: windows-sdk-content
 description: Contains description properties of the tensor binding.
 old-location: machinelearning\winml_tensor_binding_desc.htm

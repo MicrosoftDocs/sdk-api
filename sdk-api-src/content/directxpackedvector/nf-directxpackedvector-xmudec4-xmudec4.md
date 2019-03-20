@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMUDEC4.XMUDEC4
-title: XMUDEC4::XMUDEC4
+title: XMUDEC4::XMUDEC4 (directxpackedvector.h)
 author: windows-sdk-content
 description: Default constructor for XMUDEC4.
 old-location: dxmath\xmudec4_ctor_1.htm

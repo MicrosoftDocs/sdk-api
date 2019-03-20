@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.GetMethod
-title: IWbemClassObject::GetMethod
+title: IWbemClassObject::GetMethod (wbemcli.h)
 author: windows-sdk-content
 description: Returns information about the requested method.
 old-location: wmi\iwbemclassobject_getmethod.htm

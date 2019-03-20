@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSourceEvent.CertificateFailure
-title: IMSVidStreamBufferSourceEvent::CertificateFailure
+title: IMSVidStreamBufferSourceEvent::CertificateFailure (segment.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\imsvidstreambuffersourceevent_certificatefailure.htm

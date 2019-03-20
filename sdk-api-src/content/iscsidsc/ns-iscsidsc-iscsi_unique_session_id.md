@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsidsc._ISCSI_UNIQUE_SESSION_ID
-title: ISCSI_UNIQUE_SESSION_ID
+title: ISCSI_UNIQUE_SESSION_ID (iscsidsc.h)
 author: windows-sdk-content
 description: ISCSI_UNIQUE_SESSION_ID structure is an opaque entity that contains data that uniquely identifies a session.
 old-location: iscsidisc\iscsi_unique_session_id.htm

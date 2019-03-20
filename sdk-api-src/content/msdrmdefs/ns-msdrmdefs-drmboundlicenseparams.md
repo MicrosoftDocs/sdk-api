@@ -1,6 +1,6 @@
 ---
 UID: NS:msdrmdefs._DRMBOUNDLICENSEPARAMS
-title: DRMBOUNDLICENSEPARAMS
+title: DRMBOUNDLICENSEPARAMS (msdrmdefs.h)
 author: windows-sdk-content
 description: Used by DRMCreateBoundLicense to bind to a license.
 old-location: rm\drmboundlicenseparams.htm

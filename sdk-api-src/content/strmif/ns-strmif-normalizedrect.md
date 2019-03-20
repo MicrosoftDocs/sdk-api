@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif._NORMALIZEDRECT
-title: NORMALIZEDRECT
+title: NORMALIZEDRECT (strmif.h)
 author: windows-sdk-content
 description: The NORMALIZEDRECT structure is used with the VMR filter in mixing operations to specify the location of a video rectangle in composition space.
 old-location: dshow\normalizedrect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestTargetDeviceFamily.GetMaxVersionTested
-title: IAppxManifestTargetDeviceFamily::GetMaxVersionTested
+title: IAppxManifestTargetDeviceFamily::GetMaxVersionTested (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the maximum version tested from the AppxManifest.xml.
 old-location: appxpkg\iappxmanifesttargetdevicefamily_getmaxversiontested.htm

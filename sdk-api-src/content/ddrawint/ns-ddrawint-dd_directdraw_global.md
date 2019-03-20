@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_DIRECTDRAW_GLOBAL
-title: DD_DIRECTDRAW_GLOBAL
+title: DD_DIRECTDRAW_GLOBAL (ddrawint.h)
 author: windows-sdk-content
 description: The DD_DIRECTDRAW_GLOBAL structure contains driver information that describes the driver's device.
 old-location: display\dd_directdraw_global.htm

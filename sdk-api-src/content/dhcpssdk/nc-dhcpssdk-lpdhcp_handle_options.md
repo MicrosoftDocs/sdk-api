@@ -1,6 +1,6 @@
 ---
 UID: NC:dhcpssdk.LPDHCP_HANDLE_OPTIONS
-title: LPDHCP_HANDLE_OPTIONS
+title: LPDHCP_HANDLE_OPTIONS (dhcpssdk.h)
 author: windows-sdk-content
 description: The DhcpHandleOptionsHook function enables third-party DLLs to obtain commonly used options from a DHCP packet, avoiding the need to process the entire DHCP packet. The DhcpHandleOptionsHook function should not block.
 old-location: dhcp\dhcphandleoptionshook.htm

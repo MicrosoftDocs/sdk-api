@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IVMRImagePresenterExclModeConfig
-title: IVMRImagePresenterExclModeConfig
+title: IVMRImagePresenterExclModeConfig (strmif.h)
 author: windows-sdk-content
 description: The IVMRImagePresenterExclModeConfig interface inherits from IVMRImagePresenterConfig and provides methods for setting and retrieving the renderering preferences on the Exclusive Mode Allocator-Presenter.
 old-location: dshow\ivmrimagepresenterexclmodeconfig.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.InitMUILanguage
-title: InitMUILanguage function
+title: InitMUILanguage function (commctrl.h)
 author: windows-sdk-content
 description: Enables an application to specify a language to be used with the common controls that is different from the system language.
 old-location: controls\InitMUILanguage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:searchapi._AUTH_TYPE
-title: AUTH_TYPE
+title: AUTH_TYPE (searchapi.h)
 author: windows-sdk-content
 description: Describes authentication types for content access.
 old-location: search\_search_AUTH_TYPE.htm

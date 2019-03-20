@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.put_Name
-title: IAzScope::put_Name
+title: IAzScope::put_Name (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves the name of the scope.
 old-location: security\iazscope_name.htm

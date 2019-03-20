@@ -1,6 +1,6 @@
 ---
 UID: NC:routprot.PGET_GLOBAL_INFO
-title: PGET_GLOBAL_INFO
+title: PGET_GLOBAL_INFO (routprot.h)
 author: windows-sdk-content
 description: The GetGlobalInfo function retrieves global (as opposed to interface-specific) configuration information kept by the routing protocol.
 old-location: rras\getglobalinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.EnumTypes
-title: IDirectInputJoyConfig8::EnumTypes
+title: IDirectInputJoyConfig8::EnumTypes (dinputd.h)
 author: windows-sdk-content
 description: The IDirectInputJoyConfig8::EnumTypes method enumerates the joystick types currently supported by DirectInput.
 old-location: hid\idirectinputjoyconfig8_enumtypes.htm

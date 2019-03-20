@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanapi._WLAN_HOSTED_NETWORK_STATUS
-title: WLAN_HOSTED_NETWORK_STATUS
+title: WLAN_HOSTED_NETWORK_STATUS (wlanapi.h)
 author: windows-sdk-content
 description: Contains information about the status of the wireless Hosted Network.
 old-location: nwifi\wlan_hosted_network_status.htm

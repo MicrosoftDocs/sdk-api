@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioCaptureClient.ReleaseBuffer
-title: IAudioCaptureClient::ReleaseBuffer
+title: IAudioCaptureClient::ReleaseBuffer (audioclient.h)
 author: windows-sdk-content
 description: The ReleaseBuffer method releases the buffer.
 old-location: coreaudio\iaudiocaptureclient_releasebuffer.htm

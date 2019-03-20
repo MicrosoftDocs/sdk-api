@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure3.GetNamespace
-title: IStreamBufferConfigure3::GetNamespace
+title: IStreamBufferConfigure3::GetNamespace (sbe.h)
 author: windows-sdk-content
 description: The GetNamespace method retrieves the prefix that is added to the names of the synchronization objects that the Stream Buffer Engine uses to synchronize the reader and writer.
 old-location: mstv\istreambufferconfigure3_getnamespace.htm

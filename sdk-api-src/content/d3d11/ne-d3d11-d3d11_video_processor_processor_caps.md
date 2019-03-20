@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS
-title: D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS
+title: D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS (d3d11.h)
 author: windows-sdk-content
 description: Specifies video processing capabilities that relate to deinterlacing, inverse telecine (IVTC), and frame-rate conversion.
 old-location: mf\d3d11_video_processor_processor_caps.htm

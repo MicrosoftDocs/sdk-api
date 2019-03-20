@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IResultData.SetViewMode
-title: IResultData::SetViewMode
+title: IResultData::SetViewMode (mmc.h)
 author: windows-sdk-content
 description: Enables the snap-in to set the view mode in which the result view pane displays its items.
 old-location: mmc\iresultdata_setviewmode.htm

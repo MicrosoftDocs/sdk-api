@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IMDServiceProvider2
-title: IMDServiceProvider2
+title: IMDServiceProvider2 (mswmdm.h)
 author: windows-sdk-content
 description: The IMDServiceProvider2 interface extends the IMDServiceProvider interface by providing a way of obtaining IMDSPDevice object(s) for a given device path name. The device path name comes from the Plug and Play (PnP) subsystem.
 old-location: wmdm\imdserviceprovider2.htm

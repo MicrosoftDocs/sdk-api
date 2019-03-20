@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterRegDeleteValue
-title: ClusterRegDeleteValue function
+title: ClusterRegDeleteValue function (clusapi.h)
 author: windows-sdk-content
 description: Removes a named value from a cluster database key.
 old-location: mscs\clusterregdeletevalue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITextStoreACPServices.Serialize
-title: ITextStoreACPServices::Serialize
+title: ITextStoreACPServices::Serialize (msctf.h)
 author: windows-sdk-content
 description: ITextStoreACPServices::Serialize method
 old-location: tsf\itextstoreacpservices_serialize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.put_ISO9660InterchangeLevel
-title: IFileSystemImage::put_ISO9660InterchangeLevel
+title: IFileSystemImage::put_ISO9660InterchangeLevel (imapi2fs.h)
 author: windows-sdk-content
 description: Sets the ISO9660 compatibility level of the file system image.
 old-location: imapi\ifilesystemimage_put_iso9660interchangelevel.htm

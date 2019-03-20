@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.SetLanguage
-title: IXpsOMPage::SetLanguage
+title: IXpsOMPage::SetLanguage (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the Language property of the page.
 old-location: xps\ixpsompage_setlanguage.htm

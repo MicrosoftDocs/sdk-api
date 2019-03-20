@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorGroup.GetDefaultSensorDeviceIndex
-title: IMFSensorGroup::GetDefaultSensorDeviceIndex
+title: IMFSensorGroup::GetDefaultSensorDeviceIndex (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the index of the default device in the sensor group.
 old-location: mf\imfsensorgroup_getdefaultsensordeviceindex.htm

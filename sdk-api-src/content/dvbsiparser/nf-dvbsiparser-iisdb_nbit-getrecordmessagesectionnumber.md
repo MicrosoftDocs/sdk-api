@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_NBIT.GetRecordMessageSectionNumber
-title: IISDB_NBIT::GetRecordMessageSectionNumber
+title: IISDB_NBIT::GetRecordMessageSectionNumber (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the section_number field from a record in Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
 old-location: mstv\iisdb_nbit_getrecordmessagesectionnumber.htm

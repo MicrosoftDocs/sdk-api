@@ -1,6 +1,6 @@
 ---
 UID: NS:winsvc._SERVICE_REQUIRED_PRIVILEGES_INFOA
-title: SERVICE_REQUIRED_PRIVILEGES_INFOA
+title: SERVICE_REQUIRED_PRIVILEGES_INFOA (winsvc.h)
 author: windows-sdk-content
 description: Represents the required privileges for a service.
 old-location: base\service_required_privileges_info.htm

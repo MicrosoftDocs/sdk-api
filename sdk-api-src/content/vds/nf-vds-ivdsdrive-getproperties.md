@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsDrive.GetProperties
-title: IVdsDrive::GetProperties
+title: IVdsDrive::GetProperties (vds.h)
 author: windows-sdk-content
 description: Returns the properties of a drive object.
 old-location: base\ivdsdrive_getproperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_1.ID2D1DeviceContext
-title: ID2D1DeviceContext
+title: ID2D1DeviceContext (d2d1_1.h)
 author: windows-sdk-content
 description: Represents a set of state and command buffers that are used to render to a target.
 old-location: direct2d\id2d1devicecontext.htm

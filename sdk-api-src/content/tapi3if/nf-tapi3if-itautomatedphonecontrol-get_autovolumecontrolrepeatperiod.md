@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.get_AutoVolumeControlRepeatPeriod
-title: ITAutomatedPhoneControl::get_AutoVolumeControlRepeatPeriod
+title: ITAutomatedPhoneControl::get_AutoVolumeControlRepeatPeriod (tapi3if.h)
 author: windows-sdk-content
 description: The get_AutoVolumeControlRepeatPeriod method retrieves the current value of the AutoVolumeControlRepeatPeriod property. The property controls the period, in milliseconds (ms), of button repeats when a volume button is held down.
 old-location: tapi3\itautomatedphonecontrol_get_autovolumecontrolrepeatperiod.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:searchapi.ISearchProtocolThreadContext
-title: ISearchProtocolThreadContext
+title: ISearchProtocolThreadContext (searchapi.h)
 author: windows-sdk-content
 description: This optional interface enables the protocol handler to perform an action on the thread used for filtering in the protocol host.
 old-location: search\_search_ISearchProtocolThreadContext.htm

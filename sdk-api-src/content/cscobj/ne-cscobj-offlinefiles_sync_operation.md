@@ -1,6 +1,6 @@
 ---
 UID: NE:cscobj.tagOFFLINEFILES_SYNC_OPERATION
-title: OFFLINEFILES_SYNC_OPERATION
+title: OFFLINEFILES_SYNC_OPERATION (cscobj.h)
 author: windows-sdk-content
 description: Indicates the type of sync operation that was being performed when a sync error was encountered.
 old-location: of\offlinefiles_sync_operation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFInputTrustAuthority.GetPolicy
-title: IMFInputTrustAuthority::GetPolicy
+title: IMFInputTrustAuthority::GetPolicy (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the policy that defines which output protection systems are allowed for this stream, and the configuration data for each protection system.
 old-location: mf\imfinputtrustauthority_getpolicy.htm

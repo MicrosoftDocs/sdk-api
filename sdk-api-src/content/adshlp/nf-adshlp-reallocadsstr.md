@@ -1,6 +1,6 @@
 ---
 UID: NF:adshlp.ReallocADsStr
-title: ReallocADsStr function
+title: ReallocADsStr function (adshlp.h)
 author: windows-sdk-content
 description: Creates a copy of a Unicode string.
 old-location: adsi\reallocadsstr.htm

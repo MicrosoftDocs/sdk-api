@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_25
-title: CtrlLoadFlowspec
+title: CtrlLoadFlowspec (lpmapi.h)
 author: windows-sdk-content
 description: The CtrlLoadFlowspec structure contains a Controlled Load FLOWSPEC.
 old-location: qos\ctrlloadflowspec.htm

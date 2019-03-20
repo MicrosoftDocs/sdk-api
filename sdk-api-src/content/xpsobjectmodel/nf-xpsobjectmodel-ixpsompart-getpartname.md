@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPart.GetPartName
-title: IXpsOMPart::GetPartName
+title: IXpsOMPart::GetPartName (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the name that will be used when the part is serialized.
 old-location: xps\ixpsompart_getpartname.htm

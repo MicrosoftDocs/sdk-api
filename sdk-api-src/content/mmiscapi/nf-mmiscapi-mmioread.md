@@ -1,6 +1,6 @@
 ---
 UID: NF:mmiscapi.mmioRead
-title: mmioRead function
+title: mmioRead function (mmiscapi.h)
 author: windows-sdk-content
 description: The mmioRead function reads a specified number of bytes from a file opened by using the mmioOpen function.
 old-location: multimedia\mmioread.htm

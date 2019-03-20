@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IBasicDevice.add_ConnectionStatusChanged
-title: IBasicDevice::streaming
+title: IBasicDevice::streaming (windows.media.streaming.h)
 author: windows-sdk-content
 description: Registers an event handler for the ConnectionStatusChanged event.
 old-location: mediastreaming\ibasicdevice_add_connectionstatuschanged.htm

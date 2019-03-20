@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.CD3D11_RENDER_TARGET_VIEW_DESC
-title: CD3D11_RENDER_TARGET_VIEW_DESC
+title: CD3D11_RENDER_TARGET_VIEW_DESC (d3d11.h)
 author: windows-sdk-content
 description: Represents a render-target view and provides convenience methods for creating render-target views.
 old-location: direct3d11\cd3d11_render_target_view_desc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolumeMF2.QueryFileSystemFormatSupport
-title: IVdsVolumeMF2::QueryFileSystemFormatSupport
+title: IVdsVolumeMF2::QueryFileSystemFormatSupport (vds.h)
 author: windows-sdk-content
 description: Retrieves the properties of the file systems that are supported for formatting a volume.
 old-location: base\ivdsvolumemf2_queryfilesystemformatsupport.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleGetClipboardWithEnterpriseInfo
-title: OleGetClipboardWithEnterpriseInfo function
+title: OleGetClipboardWithEnterpriseInfo function (ole2.h)
 author: windows-sdk-content
 description: Enables Windows Information Protection enlightened applications to retrieve an IDataObject from the OLE Clipboard accompanied by Windows Information Protection information about the data and the source application.
 old-location: com\olegetclipboardwithenterpriseinfo.htm

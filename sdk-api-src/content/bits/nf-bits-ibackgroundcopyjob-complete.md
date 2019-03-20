@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.Complete
-title: IBackgroundCopyJob::Complete
+title: IBackgroundCopyJob::Complete (bits.h)
 author: windows-sdk-content
 description: Ends the job and saves the transferred files on the client.
 old-location: bits\ibackgroundcopyjob_complete.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.put_ClassificationReportMailTo
-title: IFsrmClassificationManager::put_ClassificationReportMailTo
+title: IFsrmClassificationManager::put_ClassificationReportMailTo (fsrmpipeline.h)
 author: windows-sdk-content
 description: The email address to which to send the classification reports, if any.
 old-location: fsrm\ifsrmclassificationmanager_classificationreportmailto.htm

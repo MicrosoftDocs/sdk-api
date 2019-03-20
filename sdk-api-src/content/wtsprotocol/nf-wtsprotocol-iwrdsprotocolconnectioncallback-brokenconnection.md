@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnectionCallback.BrokenConnection
-title: IWRdsProtocolConnectionCallback::BrokenConnection
+title: IWRdsProtocolConnectionCallback::BrokenConnection (wtsprotocol.h)
 author: windows-sdk-content
 description: Informs the Remote Desktop Services service that the client connection has been lost.
 old-location: termserv\iwrdsprotocolconnectioncallback_brokenconnection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.put_FixedUDPPort
-title: IAMNetShowConfig::put_FixedUDPPort
+title: IAMNetShowConfig::put_FixedUDPPort (qnetwork.h)
 author: windows-sdk-content
 description: The put_FixedUDPPort method specifies the fixed UDP port.
 old-location: dshow\iamnetshowconfig_put_fixedudpport.htm

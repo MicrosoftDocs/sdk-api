@@ -1,6 +1,6 @@
 ---
 UID: NN:amvideo.IQualProp
-title: IQualProp
+title: IQualProp (amvideo.h)
 author: windows-sdk-content
 description: The IQualProp interface provides methods for retrieving performance information from video renderers.
 old-location: dshow\iqualprop.htm

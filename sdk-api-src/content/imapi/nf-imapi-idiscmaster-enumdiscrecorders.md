@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscMaster.EnumDiscRecorders
-title: IDiscMaster::EnumDiscRecorders
+title: IDiscMaster::EnumDiscRecorders (imapi.h)
 author: windows-sdk-content
 description: Retrieves an enumerator for all disc recorders supported by the active disc master format.
 old-location: imapi\idiscmaster_enumdiscrecorders.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallHubEvent.get_Event
-title: ITCallHubEvent::get_Event
+title: ITCallHubEvent::get_Event (tapi3if.h)
 author: windows-sdk-content
 description: The get_Event method returns a pointer to a CALLHUB_EVENT enum description of the event that occurred.
 old-location: tapi3\itcallhubevent_get_event.htm

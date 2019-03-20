@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes.__unnamed_struct_8
-title: RESPONSEBODY_SubscriptionEnd
+title: RESPONSEBODY_SubscriptionEnd (wsdtypes.h)
 author: windows-sdk-content
 description: Represents a WS-Eventing SubscriptionEnd response message.
 old-location: ncd\responsebody_subscriptionend.htm

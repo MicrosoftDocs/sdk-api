@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextServices.TxGetCachedSize
-title: ITextServices::TxGetCachedSize
+title: ITextServices::TxGetCachedSize (textserv.h)
 author: windows-sdk-content
 description: Returns the cached drawing logical size (if any) that text services is using. Typically, this will be the size of the last client rectangle used in ITextServices::TxDraw, ITextServices::OnTxSetCursor, and so forth, although it is not guaranteed to be.
 old-location: controls\ITextServices_TxGetCachedSize.htm

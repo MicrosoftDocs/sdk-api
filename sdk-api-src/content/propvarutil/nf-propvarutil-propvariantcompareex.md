@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantCompareEx
-title: PropVariantCompareEx function
+title: PropVariantCompareEx function (propvarutil.h)
 author: windows-sdk-content
 description: Extends PropVariantCompare by allowing the caller to compare two PROPVARIANT structures based on specified comparison units and flags.
 old-location: properties\PropVariantCompareEx.htm

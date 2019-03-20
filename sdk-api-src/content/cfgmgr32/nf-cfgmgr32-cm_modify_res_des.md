@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Modify_Res_Des
-title: CM_Modify_Res_Des function
+title: CM_Modify_Res_Des function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Modify_Res_Des function modifies a specified resource descriptor on the local machine.
 old-location: devinst\cm_modify_res_des.htm

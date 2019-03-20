@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.IAVIStreaming.End
-title: IAVIStreaming::End
+title: IAVIStreaming::End (vfw.h)
 author: windows-sdk-content
 description: The End method ends the streaming operation. Called when an application uses the AVIStreamEndStreaming function.
 old-location: multimedia\iavistreaming_end.htm

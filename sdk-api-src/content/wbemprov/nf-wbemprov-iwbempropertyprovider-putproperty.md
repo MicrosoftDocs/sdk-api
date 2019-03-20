@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemPropertyProvider.PutProperty
-title: IWbemPropertyProvider::PutProperty
+title: IWbemPropertyProvider::PutProperty (wbemprov.h)
 author: windows-sdk-content
 description: The IWbemPropertyProvider::PutProperty method is called by Windows Management to update a property value supported by a property provider.
 old-location: wmi\iwbempropertyprovider_putproperty.htm

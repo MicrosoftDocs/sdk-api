@@ -1,6 +1,6 @@
 ---
 UID: NF:wpcapi.IWPCProviderState.Enable
-title: IWPCProviderState::Enable
+title: IWPCProviderState::Enable (wpcapi.h)
 author: windows-sdk-content
 description: Notifies the third-party application that it has been selected as the new current provider.
 old-location: parcon\iwpcproviderstate_enable.htm

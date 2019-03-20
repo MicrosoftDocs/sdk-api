@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComTransactionEvents.OnTransactionCommit
-title: IComTransactionEvents::OnTransactionCommit
+title: IComTransactionEvents::OnTransactionCommit (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a transaction commits.
 old-location: cos\icomtransactionevents_ontransactioncommit.htm

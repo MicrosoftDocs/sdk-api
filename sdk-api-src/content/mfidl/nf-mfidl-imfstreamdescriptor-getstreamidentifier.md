@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFStreamDescriptor.GetStreamIdentifier
-title: IMFStreamDescriptor::GetStreamIdentifier
+title: IMFStreamDescriptor::GetStreamIdentifier (mfidl.h)
 author: windows-sdk-content
 description: Retrieves an identifier for the stream.
 old-location: mf\imfstreamdescriptor_getstreamidentifier.htm

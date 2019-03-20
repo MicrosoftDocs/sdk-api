@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.ISnapinHelp2.GetLinkedTopics
-title: ISnapinHelp2::GetLinkedTopics
+title: ISnapinHelp2::GetLinkedTopics (mmc.h)
 author: windows-sdk-content
 description: Enables a snap-in to specify the names and locations of any HTML Help files that are linked to the snap-in's Help file (specified in the GetHelpTopic method).
 old-location: mmc\isnapinhelp2_getlinkedtopics.htm

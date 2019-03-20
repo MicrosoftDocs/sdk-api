@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccPropServices.DecomposeHmenuIdentityString
-title: IAccPropServices::DecomposeHmenuIdentityString
+title: IAccPropServices::DecomposeHmenuIdentityString (oleacc.h)
 author: windows-sdk-content
 description: Use this method to determine the HMENU, object ID, and child ID for the accessible element identified by the identity string.
 old-location: winauto\iaccpropservices_iaccpropservices__decomposehmenuidentitystring.htm

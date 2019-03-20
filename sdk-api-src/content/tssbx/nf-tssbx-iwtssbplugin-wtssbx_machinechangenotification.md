@@ -1,6 +1,6 @@
 ---
 UID: NF:tssbx.IWTSSBPlugin.WTSSBX_MachineChangeNotification
-title: IWTSSBPlugin::WTSSBX_MachineChangeNotification
+title: IWTSSBPlugin::WTSSBX_MachineChangeNotification (tssbx.h)
 author: windows-sdk-content
 description: Notifies the plug-in that a change occurred in the server environment.
 old-location: termserv\iwtssbplugin_wtssbx_machinechangenotification.htm

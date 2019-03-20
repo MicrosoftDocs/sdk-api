@@ -1,6 +1,6 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION
-title: DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION
+title: DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION (directmanipulation.h)
 author: windows-sdk-content
 description: Defines behaviors for the drag-drop interaction.
 old-location: directmanipulation\directmanipulation_drag_drop_configuration.htm

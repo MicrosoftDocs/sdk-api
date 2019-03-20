@@ -1,6 +1,6 @@
 ---
 UID: NS:wnvapi._WNV_POLICY_MISMATCH_PARAM
-title: WNV_POLICY_MISMATCH_PARAM
+title: WNV_POLICY_MISMATCH_PARAM (wnvapi.h)
 author: windows-sdk-content
 description: Specifies the parameters of an event (typically an incoming packet) that causes the Windows Network Virtualization (WNV) driver to generate a WnvPolicyMismatchType notification.
 old-location: wnv\wnv_policy_mismatch_param.htm

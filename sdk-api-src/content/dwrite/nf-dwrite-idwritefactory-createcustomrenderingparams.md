@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFactory.CreateCustomRenderingParams
-title: IDWriteFactory::CreateCustomRenderingParams
+title: IDWriteFactory::CreateCustomRenderingParams (dwrite.h)
 author: windows-sdk-content
 description: Creates a rendering parameters object with the specified properties.
 old-location: directwrite\IDWriteFactory_CreateCustomRenderingParams.htm

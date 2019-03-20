@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmIgnoreChangedDests
-title: RtmIgnoreChangedDests function
+title: RtmIgnoreChangedDests function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmIgnoreChangedDests function skips the next change for each destination if it has already occurred.
 old-location: rras\rtmignorechangeddests.htm

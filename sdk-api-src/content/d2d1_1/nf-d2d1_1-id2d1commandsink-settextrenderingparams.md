@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.SetTextRenderingParams
-title: ID2D1CommandSink::SetTextRenderingParams
+title: ID2D1CommandSink::SetTextRenderingParams (d2d1_1.h)
 author: windows-sdk-content
 description: Indicates more detailed text rendering parameters.
 old-location: direct2d\id2d1commandsink_settextrendeingparams.htm

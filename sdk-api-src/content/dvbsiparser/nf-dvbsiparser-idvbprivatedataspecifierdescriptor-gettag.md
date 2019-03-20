@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbPrivateDataSpecifierDescriptor.GetTag
-title: IDvbPrivateDataSpecifierDescriptor::GetTag
+title: IDvbPrivateDataSpecifierDescriptor::GetTag (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the tag that identifies a Digital Video Broadcast (DVB) private data descriptor.
 old-location: mstv\idvbprivatedataspecifierdescriptor_gettag.htm

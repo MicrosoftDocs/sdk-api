@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.CLUSTER_RESOURCE_STATE
-title: CLUSTER_RESOURCE_STATE
+title: CLUSTER_RESOURCE_STATE (clusapi.h)
 author: windows-sdk-content
 description: Describes the operational condition of a resource.
 old-location: mscs\cluster_resource_state.htm

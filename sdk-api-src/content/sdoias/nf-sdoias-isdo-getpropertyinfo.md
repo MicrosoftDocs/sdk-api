@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdo.GetPropertyInfo
-title: ISdo::GetPropertyInfo
+title: ISdo::GetPropertyInfo (sdoias.h)
 author: windows-sdk-content
 description: The GetPropertyInfo method retrieves a pointer to an ISdoPropertyInfo interface for the specified property.
 old-location: nps\SDO_isdo_getpropertyinfo.htm

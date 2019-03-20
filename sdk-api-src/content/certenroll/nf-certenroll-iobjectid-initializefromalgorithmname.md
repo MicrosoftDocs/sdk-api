@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IObjectId.InitializeFromAlgorithmName
-title: IObjectId::InitializeFromAlgorithmName
+title: IObjectId::InitializeFromAlgorithmName (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from an algorithm name or an object identifier.
 old-location: security\iobjectid_initializefromalgorithmname_method.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidDevice.get__Category
-title: IMSVidDevice::get__Category
+title: IMSVidDevice::get__Category (segment.h)
 author: windows-sdk-content
 description: The get__Category method retrieves the category of the device as a GUID.
 old-location: mstv\imsviddevice_get__category.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IObjectId.InitializeFromName
-title: IObjectId::InitializeFromName
+title: IObjectId::InitializeFromName (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from a CERTENROLL_OBJECTID enumeration value.
 old-location: security\iobjectid_initializefromname_method.htm

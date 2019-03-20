@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplication.put_Name
-title: INetFwAuthorizedApplication::put_Name
+title: INetFwAuthorizedApplication::put_Name (netfw.h)
 author: windows-sdk-content
 description: Specifies the friendly name of this application.
 old-location: ics\inetfwauthorizedapplication_name.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_MESSAGE_DESCRIPTION
-title: WS_MESSAGE_DESCRIPTION
+title: WS_MESSAGE_DESCRIPTION (webservices.h)
 author: windows-sdk-content
 description: The schema for the input/output WS_MESSAGE for a given operation description.
 old-location: wsw\ws_message_description.htm

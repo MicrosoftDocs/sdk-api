@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.LookupIconIdFromDirectoryEx
-title: LookupIconIdFromDirectoryEx function
+title: LookupIconIdFromDirectoryEx function (winuser.h)
 author: windows-sdk-content
 description: Searches through icon or cursor data for the icon or cursor that best fits the current display device.
 old-location: menurc\lookupiconidfromdirectoryex.htm

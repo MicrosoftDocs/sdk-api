@@ -1,6 +1,6 @@
 ---
 UID: NF:dmort.MoInitMediaType
-title: MoInitMediaType function
+title: MoInitMediaType function (dmort.h)
 author: windows-sdk-content
 description: The MoInitMediaType function initializes a media type structure.
 old-location: dshow\moinitmediatype.htm

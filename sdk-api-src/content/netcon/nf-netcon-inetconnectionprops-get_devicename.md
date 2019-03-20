@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetConnectionProps.get_DeviceName
-title: INetConnectionProps::get_DeviceName
+title: INetConnectionProps::get_DeviceName (netcon.h)
 author: windows-sdk-content
 description: The get_DeviceName method retrieves the name of the device associated with the connection.
 old-location: ics\inetconnectionprops_get_devicename.htm

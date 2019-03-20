@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGraphGetNodeInfo
-title: PeerGraphGetNodeInfo function
+title: PeerGraphGetNodeInfo function (p2p.h)
 author: windows-sdk-content
 description: The PeerGraphGetNodeInfo function retrieves information about a specific node.
 old-location: p2p\peergraphgetnodeinfo.htm

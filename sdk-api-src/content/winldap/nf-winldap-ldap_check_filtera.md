@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_check_filterA
-title: ldap_check_filterA function
+title: ldap_check_filterA function (winldap.h)
 author: windows-sdk-content
 description: The ldap_check_filter function is used to verify filter syntax.
 old-location: ldap\ldap_check_filter.htm

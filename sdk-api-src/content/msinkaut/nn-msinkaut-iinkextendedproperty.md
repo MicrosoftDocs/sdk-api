@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut.IInkExtendedProperty
-title: IInkExtendedProperty
+title: IInkExtendedProperty (msinkaut.h)
 author: windows-sdk-content
 description: Represents the ability to add your own data to a variety of objects within the Tablet PC object model.
 old-location: tablet\iinkextendedproperty.htm

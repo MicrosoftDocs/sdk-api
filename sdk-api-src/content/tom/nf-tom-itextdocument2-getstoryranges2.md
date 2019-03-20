@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.GetStoryRanges2
-title: ITextDocument2::GetStoryRanges2
+title: ITextDocument2::GetStoryRanges2 (tom.h)
 author: windows-sdk-content
 description: Gets an object for enumerating the stories in a document.
 old-location: controls\itextdocument2_getstoryranges2.htm

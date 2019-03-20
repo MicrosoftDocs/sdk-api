@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.ISupportFilteredSync
-title: ISupportFilteredSync
+title: ISupportFilteredSync (winsync.h)
 author: windows-sdk-content
 description: When implemented by a derived class, represents a source provider that supports filtered change enumeration, and that can negotiate the type of filter that is used.
 old-location: winsync\isupportfilteredsync.htm

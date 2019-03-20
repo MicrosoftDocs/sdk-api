@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleObject.SetColorScheme
-title: IOleObject::SetColorScheme
+title: IOleObject::SetColorScheme (oleidl.h)
 author: windows-sdk-content
 description: Specifies the color palette that the object application should use when it edits the specified object.
 old-location: com\ioleobject_setcolorscheme.htm

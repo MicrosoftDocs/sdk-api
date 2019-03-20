@@ -1,6 +1,6 @@
 ---
 UID: NC:rasdlg.RASPBDLGFUNCA
-title: RASPBDLGFUNCA
+title: RASPBDLGFUNCA (rasdlg.h)
 author: windows-sdk-content
 description: The RasPBDlgFunc function is an application-defined callback function that receives notifications of user activity while the RasPhonebookDlg dialog box is open.
 old-location: rras\raspbdlgfunc.htm

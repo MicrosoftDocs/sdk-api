@@ -1,6 +1,6 @@
 ---
 UID: NN:evr.IMFVideoPositionMapper
-title: IMFVideoPositionMapper
+title: IMFVideoPositionMapper (evr.h)
 author: windows-sdk-content
 description: Maps a position on an input video stream to the corresponding position on an output video stream.
 old-location: mf\imfvideopositionmapper.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:qossp._RSVP_ADSPEC
-title: RSVP_ADSPEC
+title: RSVP_ADSPEC (qossp.h)
 author: windows-sdk-content
 description: The QOS object RSVP_ADSPEC provides a means by which information describing network devices along the data path between sender and receiver, pertaining to RSVP functionality and available services, is provided or retrieved.
 old-location: qos\rsvp_adspec.htm

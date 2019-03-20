@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertGetCRLFromStore
-title: CertGetCRLFromStore function
+title: CertGetCRLFromStore function (wincrypt.h)
 author: windows-sdk-content
 description: Gets the first or next certificate revocation list (CRL) context from the certificate store for the specified issuer.
 old-location: security\certgetcrlfromstore.htm

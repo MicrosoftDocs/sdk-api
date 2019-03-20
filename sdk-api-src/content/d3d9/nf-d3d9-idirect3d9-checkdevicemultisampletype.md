@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3D9.CheckDeviceMultiSampleType
-title: IDirect3D9::CheckDeviceMultiSampleType
+title: IDirect3D9::CheckDeviceMultiSampleType (d3d9.h)
 author: windows-sdk-content
 description: Determines if a multisampling technique is available on this device.
 old-location: direct3d9\idirect3d9__checkdevicemultisampletype.htm

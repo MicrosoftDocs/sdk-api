@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.ICommDlgBrowser3.OnPreViewCreated
-title: ICommDlgBrowser3::OnPreViewCreated
+title: ICommDlgBrowser3::OnPreViewCreated (shobjidl.h)
 author: windows-sdk-content
 description: Called after a specified preview is created in the IShellView interface.
 old-location: shell\ICommDlgBrowser3_OnPreViewCreated.htm

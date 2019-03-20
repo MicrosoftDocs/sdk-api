@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetStockObject
-title: GetStockObject function
+title: GetStockObject function (wingdi.h)
 author: windows-sdk-content
 description: The GetStockObject function retrieves a handle to one of the stock pens, brushes, fonts, or palettes.
 old-location: gdi\getstockobject.htm

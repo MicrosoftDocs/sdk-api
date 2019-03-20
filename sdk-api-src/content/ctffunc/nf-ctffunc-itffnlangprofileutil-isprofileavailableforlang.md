@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnLangProfileUtil.IsProfileAvailableForLang
-title: ITfFnLangProfileUtil::IsProfileAvailableForLang
+title: ITfFnLangProfileUtil::IsProfileAvailableForLang (ctffunc.h)
 author: windows-sdk-content
 description: ITfFnLangProfileUtil::IsProfileAvailableForLang method
 old-location: tsf\itffnlangprofileutil_isprofileavailableforlang.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextOwnerServices.OnLayoutChange
-title: ITfContextOwnerServices::OnLayoutChange
+title: ITfContextOwnerServices::OnLayoutChange (msctf.h)
 author: windows-sdk-content
 description: The ITfContextOwnerServices::OnLayoutChange method is called by the context owner when the on-screen representation of the text stream is updated during a composition.
 old-location: tsf\itfcontextownerservices_onlayoutchange.htm

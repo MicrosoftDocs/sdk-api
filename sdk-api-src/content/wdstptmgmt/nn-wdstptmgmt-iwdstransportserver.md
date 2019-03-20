@@ -1,6 +1,6 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportServer
-title: IWdsTransportServer
+title: IWdsTransportServer (wdstptmgmt.h)
 author: windows-sdk-content
 description: Represents a WDS transport server. A WDS client can use an object of this interface to manage setup, configuration, and namespace tasks on the server.
 old-location: wds\iwdstransportserver.htm

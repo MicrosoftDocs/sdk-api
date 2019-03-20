@@ -1,6 +1,6 @@
 ---
 UID: NE:mmc._MMC_FILTER_CHANGE_CODE
-title: MMC_FILTER_CHANGE_CODE
+title: MMC_FILTER_CHANGE_CODE (mmc.h)
 author: windows-sdk-content
 description: The MMC_FILTER_CHANGE_CODE enumeration is introduced in MMC 1.2.
 old-location: mmc\mmc_filter_change_code.htm

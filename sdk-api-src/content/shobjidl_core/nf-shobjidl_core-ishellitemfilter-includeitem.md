@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItemFilter.IncludeItem
-title: IShellItemFilter::IncludeItem
+title: IShellItemFilter::IncludeItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets a given Shell item status to inclusion in the view.
 old-location: shell\IShellItemFilter_IncludeItem.htm

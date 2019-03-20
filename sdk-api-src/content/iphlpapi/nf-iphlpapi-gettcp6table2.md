@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.GetTcp6Table2
-title: GetTcp6Table2 function
+title: GetTcp6Table2 function (iphlpapi.h)
 author: windows-sdk-content
 description: Retrieves the TCP connection table for IPv6.
 old-location: iphlp\gettcp6table2.htm

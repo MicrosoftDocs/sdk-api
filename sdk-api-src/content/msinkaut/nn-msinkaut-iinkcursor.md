@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut.IInkCursor
-title: IInkCursor
+title: IInkCursor (msinkaut.h)
 author: windows-sdk-content
 description: Represents general information about the tablet cursor.
 old-location: tablet\iinkcursor.htm

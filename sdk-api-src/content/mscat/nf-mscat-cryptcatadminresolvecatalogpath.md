@@ -1,6 +1,6 @@
 ---
 UID: NF:mscat.CryptCATAdminResolveCatalogPath
-title: CryptCATAdminResolveCatalogPath function
+title: CryptCATAdminResolveCatalogPath function (mscat.h)
 author: windows-sdk-content
 description: Retrieves the fully qualified path of the specified catalog.
 old-location: security\cryptcatadminresolvecatalogpath.htm

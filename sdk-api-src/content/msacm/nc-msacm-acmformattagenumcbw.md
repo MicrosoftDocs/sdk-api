@@ -1,6 +1,6 @@
 ---
 UID: NC:msacm.ACMFORMATTAGENUMCBW
-title: ACMFORMATTAGENUMCBW
+title: ACMFORMATTAGENUMCBW (msacm.h)
 author: windows-sdk-content
 description: The acmFormatTagEnumCallback function specifies a callback function used with the acmFormatTagEnum function. The acmFormatTagEnumCallback name is a placeholder for an application-defined function name.
 old-location: multimedia\acmformattagenumcallback.htm

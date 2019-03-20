@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_3.ID2D1DeviceContext3
-title: ID2D1DeviceContext3
+title: ID2D1DeviceContext3 (d2d1_3.h)
 author: windows-sdk-content
 description: This interface performs all the same functions as the ID2D1DeviceContext2 interface, plus it enables functionality for creating and drawing sprite batches.
 old-location: direct2d\id2d1devicecontext3.htm

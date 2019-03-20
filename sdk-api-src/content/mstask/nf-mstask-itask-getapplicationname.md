@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITask.GetApplicationName
-title: ITask::GetApplicationName
+title: ITask::GetApplicationName (mstask.h)
 author: windows-sdk-content
 description: This method retrieves the name of the application that the task is associated with.
 old-location: taskschd\itask_getapplicationname.htm

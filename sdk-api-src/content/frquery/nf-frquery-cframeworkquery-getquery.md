@@ -1,6 +1,6 @@
 ---
 UID: NF:frquery.CFrameworkQuery.GetQuery
-title: CFrameworkQuery::GetQuery
+title: CFrameworkQuery::GetQuery (frquery.h)
 author: windows-sdk-content
 description: The GetQuery method retrieves the actual WQL command associated with the CFrameworkQuery object.
 old-location: wmi\cframeworkquery_getquery.htm

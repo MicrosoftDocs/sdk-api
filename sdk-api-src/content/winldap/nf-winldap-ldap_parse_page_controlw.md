@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_parse_page_controlW
-title: ldap_parse_page_controlW function
+title: ldap_parse_page_controlW function (winldap.h)
 author: windows-sdk-content
 description: The ldap_parse_page_control parses the results of a search into pages.
 old-location: ldap\ldap_parse_page_control.htm

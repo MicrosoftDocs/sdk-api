@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite.IDWriteLocalizedStrings
-title: IDWriteLocalizedStrings
+title: IDWriteLocalizedStrings (dwrite.h)
 author: windows-sdk-content
 description: Represents a collection of strings indexed by locale name.
 old-location: directwrite\IDWriteLocalizedStrings.htm

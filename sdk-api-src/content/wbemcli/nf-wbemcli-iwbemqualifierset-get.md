@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemQualifierSet.Get
-title: IWbemQualifierSet::Get
+title: IWbemQualifierSet::Get (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemQualifierSet::Get method gets the specified named qualifier, if found.
 old-location: wmi\iwbemqualifierset_get.htm

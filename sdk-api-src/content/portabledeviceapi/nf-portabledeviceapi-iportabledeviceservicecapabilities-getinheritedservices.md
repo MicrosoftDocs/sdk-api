@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetInheritedServices
-title: IPortableDeviceServiceCapabilities::GetInheritedServices
+title: IPortableDeviceServiceCapabilities::GetInheritedServices (portabledeviceapi.h)
 author: windows-sdk-content
 description: Retrieves the services having the specified inheritance type.
 old-location: wpdsdk\iportabledeviceservicecapabilities_getinheritedservices.htm

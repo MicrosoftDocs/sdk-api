@@ -1,6 +1,6 @@
 ---
 UID: NF:nspapi.GetServiceW
-title: GetServiceW function
+title: GetServiceW function (nspapi.h)
 author: windows-sdk-content
 description: The GetService function retrieves information about a network service in the context of a set of default namespaces or a specified namespace.
 old-location: winsock\getservice_2.htm

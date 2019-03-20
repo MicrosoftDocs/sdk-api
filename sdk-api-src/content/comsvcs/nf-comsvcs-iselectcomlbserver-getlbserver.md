@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISelectCOMLBServer.GetLBServer
-title: ISelectCOMLBServer::GetLBServer
+title: ISelectCOMLBServer::GetLBServer (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the name of the load balancing server.
 old-location: cos\iselectcomlbserver_getlbserver.htm

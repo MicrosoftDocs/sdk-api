@@ -1,6 +1,6 @@
 ---
 UID: NF:xinput.XInputEnable
-title: XInputEnable function
+title: XInputEnable function (xinput.h)
 author: windows-sdk-content
 description: Sets the reporting state of XInput.
 old-location: xinput\xinputenable.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:prsht._PROPSHEETPAGEA_V2
-title: PROPSHEETPAGEA_V2
+title: PROPSHEETPAGEA_V2 (prsht.h)
 author: windows-sdk-content
 description: Defines a page in a property sheet.
 old-location: controls\PROPSHEETPAGE.htm

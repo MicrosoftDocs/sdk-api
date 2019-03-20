@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.ITocParser.Init
-title: ITocParser::Init
+title: ITocParser::Init (wmcodecdsp.h)
 author: windows-sdk-content
 description: The Init method initializes the TOC Parser object and associates it with a media file.
 old-location: mf\itocparser_init.htm

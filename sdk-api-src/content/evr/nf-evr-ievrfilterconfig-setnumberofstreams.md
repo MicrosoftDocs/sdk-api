@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IEVRFilterConfig.SetNumberOfStreams
-title: IEVRFilterConfig::SetNumberOfStreams
+title: IEVRFilterConfig::SetNumberOfStreams (evr.h)
 author: windows-sdk-content
 description: Sets the number of input pins on the EVR filter.
 old-location: mf\ievrfilterconfig_setnumberofstreams.htm

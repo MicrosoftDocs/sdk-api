@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core._NRESARRAY
-title: NRESARRAY
+title: NRESARRAY (shlobj_core.h)
 author: windows-sdk-content
 description: Defines the CF_NETRESOURCE clipboard format.
 old-location: shell\NRESARRAY.htm

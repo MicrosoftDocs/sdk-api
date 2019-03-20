@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.DateTime_GetRange
-title: DateTime_GetRange macro
+title: DateTime_GetRange macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the current minimum and maximum allowable system times for a date and time picker (DTP) control. You can use this macro, or send the DTM_GETRANGE message explicitly.
 old-location: controls\DateTime_GetRange.htm

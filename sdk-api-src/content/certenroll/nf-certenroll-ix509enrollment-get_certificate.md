@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Enrollment.get_Certificate
-title: IX509Enrollment::get_Certificate
+title: IX509Enrollment::get_Certificate (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the installed certificate.
 old-location: security\ix509enrollment_certificate_property.htm

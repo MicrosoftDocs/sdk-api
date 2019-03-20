@@ -1,6 +1,6 @@
 ---
 UID: NE:mfmediaengine.MF_TIMED_TEXT_ALIGNMENT
-title: MF_TIMED_TEXT_ALIGNMENT
+title: MF_TIMED_TEXT_ALIGNMENT (mfmediaengine.h)
 author: windows-sdk-content
 description: Specifies how text is aligned in its parent block element.
 old-location: mf\mf_timed_text_alignment.htm

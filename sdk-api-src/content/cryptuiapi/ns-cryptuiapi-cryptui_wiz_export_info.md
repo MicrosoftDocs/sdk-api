@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptuiapi._CRYPTUI_WIZ_EXPORT_INFO
-title: CRYPTUI_WIZ_EXPORT_INFO
+title: CRYPTUI_WIZ_EXPORT_INFO (cryptuiapi.h)
 author: windows-sdk-content
 description: Contains information that controls the operation of the CryptUIWizExport function.
 old-location: security\cryptui_wiz_export_info.htm

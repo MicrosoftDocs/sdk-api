@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvisioning.CreateVirtualMachines
-title: ITsSbProvisioning::CreateVirtualMachines
+title: ITsSbProvisioning::CreateVirtualMachines (sbtsv.h)
 author: windows-sdk-content
 description: Creates a virtual machine asynchronously.
 old-location: termserv\itssbprovisioning_createvirtualmachines.htm

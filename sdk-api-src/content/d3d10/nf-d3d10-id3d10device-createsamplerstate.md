@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateSamplerState
-title: ID3D10Device::CreateSamplerState
+title: ID3D10Device::CreateSamplerState (d3d10.h)
 author: windows-sdk-content
 description: Create a sampler-state object that encapsulates sampling information for a texture.
 old-location: direct3d10\id3d10device_createsamplerstate.htm

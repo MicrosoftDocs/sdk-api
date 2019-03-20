@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpDeleteServiceConfiguration
-title: HttpDeleteServiceConfiguration function
+title: HttpDeleteServiceConfiguration function (http.h)
 author: windows-sdk-content
 description: Deletes specified data, such as IP addresses or SSL Certificates, from the HTTP Server API configuration store, one record at a time.
 old-location: http\httpdeleteserviceconfiguration.htm

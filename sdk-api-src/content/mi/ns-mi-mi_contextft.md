@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_ContextFT
-title: MI_ContextFT
+title: MI_ContextFT (mi.h)
 author: windows-sdk-content
 description: A support structure used in the MI_Context structure. Use the functions with the name prefix &#0034;MI_Context_&#0034; to manipulate these structures.
 old-location: wmi_v2\mi_contextft.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetExceptionCount
-title: ISCTE_EAS::GetExceptionCount
+title: ISCTE_EAS::GetExceptionCount (atscpsipparser.h)
 author: windows-sdk-content
 description: The GetExceptionCount method returns the number of exception services.
 old-location: mstv\iscte_eas_getexceptioncount.htm

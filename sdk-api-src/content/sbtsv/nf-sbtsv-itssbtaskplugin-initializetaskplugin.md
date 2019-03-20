@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTaskPlugin.InitializeTaskPlugin
-title: ITsSbTaskPlugin::InitializeTaskPlugin
+title: ITsSbTaskPlugin::InitializeTaskPlugin (sbtsv.h)
 author: windows-sdk-content
 description: Initializes a task that is in the queue of a Remote Desktop Connection Broker plugin.
 old-location: termserv\itssbtaskplugin_initializetaskplugin.htm

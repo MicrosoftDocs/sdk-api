@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2ipdef._SOCKADDR_INET
-title: SOCKADDR_INET
+title: SOCKADDR_INET (ws2ipdef.h)
 author: windows-sdk-content
 description: Contains an IPv4, an IPv6 address, or an address family.
 old-location: iphlp\sockaddr_inet.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:shlobj_core.IShellIconOverlay
-title: IShellIconOverlay
+title: IShellIconOverlay (shlobj_core.h)
 author: windows-sdk-content
 description: Exposes methods that are used by a namespace extension to specify icon overlays for the objects it contains.
 old-location: shell\IShellIconOverlay.htm

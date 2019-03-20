@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngGetProcessHandle
-title: EngGetProcessHandle function
+title: EngGetProcessHandle function (winddi.h)
 author: windows-sdk-content
 description: The EngGetProcessHandle function retrieves a handle to the current client process.
 old-location: display\enggetprocesshandle.htm

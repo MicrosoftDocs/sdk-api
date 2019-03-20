@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.GetStream
-title: IPhotoAcquireItem::GetStream
+title: IPhotoAcquireItem::GetStream (photoacquire.h)
 author: windows-sdk-content
 description: The GetStream method retrieves a read-only stream containing the contents of an item.
 old-location: picacq\iphotoacquireitem_getstream.htm

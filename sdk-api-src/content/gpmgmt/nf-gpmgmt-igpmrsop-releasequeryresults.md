@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMRSOP.ReleaseQueryResults
-title: IGPMRSOP::ReleaseQueryResults
+title: IGPMRSOP::ReleaseQueryResults (gpmgmt.h)
 author: windows-sdk-content
 description: Releases the WMI namespace allocated by calls to the IGPMRSOP::CreateQueryResults method and by calls to the IGPM::GetRSOP method.
 old-location: gpmc\igpmrsop_releasequeryresults.htm

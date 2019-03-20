@@ -1,6 +1,6 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingEventTag
-title: TraceLoggingEventTag macro
+title: TraceLoggingEventTag macro (traceloggingprovider.h)
 author: windows-sdk-content
 description: Wrapper macro for setting the event's tag(s).
 old-location: tracelogging\traceloggingeventtag.htm

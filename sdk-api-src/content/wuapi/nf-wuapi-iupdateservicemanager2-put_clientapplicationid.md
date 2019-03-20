@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager2.put_ClientApplicationID
-title: IUpdateServiceManager2::put_ClientApplicationID
+title: IUpdateServiceManager2::put_ClientApplicationID (wuapi.h)
 author: windows-sdk-content
 description: Gets and sets the identifier of the current client application.
 old-location: wua\iupdateservicemanager2_clientapplicationid.htm

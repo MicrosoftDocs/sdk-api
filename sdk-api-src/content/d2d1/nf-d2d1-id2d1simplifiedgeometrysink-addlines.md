@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1SimplifiedGeometrySink.AddLines
-title: ID2D1SimplifiedGeometrySink::AddLines
+title: ID2D1SimplifiedGeometrySink::AddLines (d2d1.h)
 author: windows-sdk-content
 description: Creates a sequence of lines using the specified points and adds them to the geometry sink.
 old-location: direct2d\ID2D1SimplifiedGeometrySink_AddLines.htm

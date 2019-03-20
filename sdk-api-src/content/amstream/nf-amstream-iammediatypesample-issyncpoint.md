@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.IsSyncPoint
-title: IAMMediaTypeSample::IsSyncPoint
+title: IAMMediaTypeSample::IsSyncPoint (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The IsSyncPoint method determines if the beginning of a sample is a synchronization point.
 old-location: dshow\iammediatypesample_issyncpoint.htm

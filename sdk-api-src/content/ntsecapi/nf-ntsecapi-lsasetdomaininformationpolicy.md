@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.LsaSetDomainInformationPolicy
-title: LsaSetDomainInformationPolicy function
+title: LsaSetDomainInformationPolicy function (ntsecapi.h)
 author: windows-sdk-content
 description: Sets domain information to the Policyobject.
 old-location: security\lsasetdomaininformationpolicy.htm

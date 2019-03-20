@@ -1,6 +1,6 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt.QueryDiffAreasForVolume
-title: IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForVolume
+title: IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForVolume (vsmgmt.h)
 author: windows-sdk-content
 description: Queries shadow copy storage areas in use by the volume.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt_querydiffareasforvolume.htm

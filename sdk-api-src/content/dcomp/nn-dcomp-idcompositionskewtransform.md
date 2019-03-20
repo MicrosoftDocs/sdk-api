@@ -1,6 +1,6 @@
 ---
 UID: NN:dcomp.IDCompositionSkewTransform
-title: IDCompositionSkewTransform
+title: IDCompositionSkewTransform (dcomp.h)
 author: windows-sdk-content
 description: Represents a 2D transformation that affects the skew of a visual along the x-axis and y-axis. The coordinate system is skewed around the specified center point.
 old-location: directcomp\idcompositionskewtransform.htm

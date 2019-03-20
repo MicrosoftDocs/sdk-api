@@ -1,6 +1,6 @@
 ---
 UID: NE:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0010
-title: RdcMappingAccessMode
+title: RdcMappingAccessMode (msrdc.h)
 author: windows-sdk-content
 description: Defines the access mode values for RDC file mapping objects.
 old-location: rdc\rdcmappingaccessmode.htm

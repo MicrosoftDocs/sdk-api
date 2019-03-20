@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.DragQueryFileW
-title: DragQueryFileW function
+title: DragQueryFileW function (shellapi.h)
 author: windows-sdk-content
 description: Retrieves the names of dropped files that result from a successful drag-and-drop operation.
 old-location: shell\DragQueryFile.htm

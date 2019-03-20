@@ -1,6 +1,6 @@
 ---
 UID: NF:immdev.ImmDisableTextFrameService
-title: ImmDisableTextFrameService function
+title: ImmDisableTextFrameService function (immdev.h)
 author: windows-sdk-content
 description: ImmDisableTextFrameService is no longer available for use as of Windows Vista.
 old-location: intl\immdisabletextframeservice.htm

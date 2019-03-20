@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CachedValue
-title: IUIAutomationLegacyIAccessiblePattern::get_CachedValue
+title: IUIAutomationLegacyIAccessiblePattern::get_CachedValue (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached Microsoft Active Accessibility value property.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedValue.htm

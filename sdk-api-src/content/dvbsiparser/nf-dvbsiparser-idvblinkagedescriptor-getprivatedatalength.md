@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbLinkageDescriptor.GetPrivateDataLength
-title: IDvbLinkageDescriptor::GetPrivateDataLength
+title: IDvbLinkageDescriptor::GetPrivateDataLength (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the length of the private data field from a Digital Video Broadcast (DVB) linkage descriptor.
 old-location: mstv\idvblinkagedescriptor_getprivatedatalength.htm

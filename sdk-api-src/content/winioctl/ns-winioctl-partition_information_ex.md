@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._PARTITION_INFORMATION_EX
-title: PARTITION_INFORMATION_EX
+title: PARTITION_INFORMATION_EX (winioctl.h)
 author: windows-sdk-content
 description: Contains partition information for standard AT-style master boot record (MBR) and Extensible Firmware Interface (EFI) disks.
 old-location: fs\partition_information_ex_str.htm

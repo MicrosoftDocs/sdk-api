@@ -1,6 +1,6 @@
 ---
 UID: NN:oleidl.IOleCache2
-title: IOleCache2
+title: IOleCache2 (oleidl.h)
 author: windows-sdk-content
 description: Enables object clients to selectively update each cache that was created with IOleCache::Cache.
 old-location: com\iolecache2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPSyncDevice
-title: IWMPSyncDevice
+title: IWMPSyncDevice (wmp.h)
 author: windows-sdk-content
 description: The IWMPSyncDevice interface represents a device to which Windows Media Player 10 or later can copy digital media files.
 old-location: wmp\iwmpsyncdevice.htm

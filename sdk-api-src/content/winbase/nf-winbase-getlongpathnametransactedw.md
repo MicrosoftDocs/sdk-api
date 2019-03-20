@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetLongPathNameTransactedW
-title: GetLongPathNameTransactedW function
+title: GetLongPathNameTransactedW function (winbase.h)
 author: windows-sdk-content
 description: Converts the specified path to its long form as a transacted operation.
 old-location: fs\getlongpathnametransacted.htm

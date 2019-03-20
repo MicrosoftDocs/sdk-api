@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateBitmapFromHBITMAP
-title: IWICImagingFactory::CreateBitmapFromHBITMAP
+title: IWICImagingFactory::CreateBitmapFromHBITMAP (wincodec.h)
 author: windows-sdk-content
 description: Creates an IWICBitmap from a bitmap handle.
 old-location: wic\_wic_codec_iwicimagingfactory_createbitmapfromhbitmap.htm

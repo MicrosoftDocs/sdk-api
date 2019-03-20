@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsVdProvider
-title: IVdsVdProvider
+title: IVdsVdProvider (vds.h)
 author: windows-sdk-content
 description: Defines methods for creating and managing virtual disks.
 old-location: base\ivdsvdprovider.htm

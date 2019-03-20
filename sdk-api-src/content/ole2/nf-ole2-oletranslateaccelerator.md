@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleTranslateAccelerator
-title: OleTranslateAccelerator function
+title: OleTranslateAccelerator function (ole2.h)
 author: windows-sdk-content
 description: Called by the object application, allows an object's container to translate accelerators according to the container's accelerator table.
 old-location: com\oletranslateaccelerator.htm

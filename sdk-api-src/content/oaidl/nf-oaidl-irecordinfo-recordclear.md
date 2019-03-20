@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.IRecordInfo.RecordClear
-title: IRecordInfo::RecordClear
+title: IRecordInfo::RecordClear (oaidl.h)
 author: windows-sdk-content
 description: Releases object references and other values of a record without deallocating the record.
 old-location: automat\irecordinfo_recordclear.htm

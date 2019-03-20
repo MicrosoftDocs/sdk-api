@@ -1,6 +1,6 @@
 ---
 UID: NS:wcmapi._WCM_PROFILE_INFO
-title: WCM_PROFILE_INFO
+title: WCM_PROFILE_INFO (wcmapi.h)
 author: windows-sdk-content
 description: Contains information about a specific profile.
 old-location: wcm\wcm_profile_info.htm

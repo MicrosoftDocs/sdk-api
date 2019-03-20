@@ -1,6 +1,6 @@
 ---
 UID: NE:dispatcherqueue.DISPATCHERQUEUE_THREAD_TYPE
-title: DISPATCHERQUEUE_THREAD_TYPE
+title: DISPATCHERQUEUE_THREAD_TYPE (dispatcherqueue.h)
 author: windows-sdk-content
 description: Specifies the thread affinity for a new DispatcherQueueController.
 old-location: base\dispatcherqueue_thread_type.htm

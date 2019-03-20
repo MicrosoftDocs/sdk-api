@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpace.CreateTuneRequest
-title: ITuningSpace::CreateTuneRequest
+title: ITuningSpace::CreateTuneRequest (tuner.h)
 author: windows-sdk-content
 description: The CreateTuneRequest method creates an empty (uninitialized) tune request.
 old-location: mstv\ituningspace_createtunerequest.htm

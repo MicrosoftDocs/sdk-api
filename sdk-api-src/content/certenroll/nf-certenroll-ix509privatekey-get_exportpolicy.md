@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_ExportPolicy
-title: IX509PrivateKey::get_ExportPolicy
+title: IX509PrivateKey::get_ExportPolicy (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves export constraints for a private key.
 old-location: security\ix509privatekey_exportpolicy.htm

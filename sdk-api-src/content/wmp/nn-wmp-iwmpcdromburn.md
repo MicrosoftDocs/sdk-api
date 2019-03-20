@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPCdromBurn
-title: IWMPCdromBurn
+title: IWMPCdromBurn (wmp.h)
 author: windows-sdk-content
 description: The IWMPCdromBurn interface provides methods to manage creating audio CDs.
 old-location: wmp\iwmpcdromburn.htm

@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD
-title: IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD
+title: IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD (winioctl.h)
 author: windows-sdk-content
 description: Windows applications can use this control code to set the temperature threshold of a device (when it's supported by the device).
 old-location: fs\ioctl_storage_set_temperature_threshold.htm

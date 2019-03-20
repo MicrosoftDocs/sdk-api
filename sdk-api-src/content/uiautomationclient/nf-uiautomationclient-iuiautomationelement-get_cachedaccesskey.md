@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedAccessKey
-title: IUIAutomationElement::get_CachedAccessKey
+title: IUIAutomationElement::get_CachedAccessKey (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached access key character for the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedAccessKey.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IComponent2.GetResultViewType2
-title: IComponent2::GetResultViewType2
+title: IComponent2::GetResultViewType2 (mmc.h)
 author: windows-sdk-content
 description: The GetResultViewType2 method retrieves the result view type. This method supersedes the IComponent::GetResultViewType method.
 old-location: mmc\icomponent2_getresultviewtype2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:lmmsg.NetMessageBufferSend
-title: NetMessageBufferSend function
+title: NetMessageBufferSend function (lmmsg.h)
 author: windows-sdk-content
 description: The NetMessageBufferSend function sends a buffer of information to a registered message alias.
 old-location: netmgmt\netmessagebuffersend.htm

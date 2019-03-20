@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.MakeReverse
-title: CHString::MakeReverse
+title: CHString::MakeReverse (chstring.h)
 author: windows-sdk-content
 description: The MakeReverse method reverses the order of the characters in a CHString string.
 old-location: wmi\chstring_makereverse.htm

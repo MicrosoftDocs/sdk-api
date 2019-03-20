@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetNextWindow
-title: GetNextWindow macro
+title: GetNextWindow macro (winuser.h)
 author: windows-sdk-content
 description: Retrieves a handle to the next or previous window in the Z-Order. The next window is below the specified window; the previous window is above.
 old-location: winmsg\getnextwindow.htm

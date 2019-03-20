@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_PROVIDER_CONTEXT0_
-title: FWPM_PROVIDER_CONTEXT0
+title: FWPM_PROVIDER_CONTEXT0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Stores the state associated with a provider context.
 old-location: fwp\fwpm_provider_context0_struct.htm

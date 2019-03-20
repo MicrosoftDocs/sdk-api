@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.put_FocusRelative
-title: ICameraControl::put_FocusRelative
+title: ICameraControl::put_FocusRelative (vidcap.h)
 author: windows-sdk-content
 description: The put_FocusRelative method sets the relative focus. The relative focus indicates the direction in which the lens group is moving.
 old-location: dshow\icameracontrol_put_focusrelative.htm

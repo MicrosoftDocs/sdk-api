@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl._tagEDITBALLOONTIP
-title: EDITBALLOONTIP
+title: EDITBALLOONTIP (commctrl.h)
 author: windows-sdk-content
 description: Contains information about a balloon tip associated with a button control.
 old-location: controls\EDITBALLOONTIP.htm

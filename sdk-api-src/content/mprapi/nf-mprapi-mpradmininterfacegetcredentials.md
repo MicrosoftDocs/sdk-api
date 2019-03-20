@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceGetCredentials
-title: MprAdminInterfaceGetCredentials function
+title: MprAdminInterfaceGetCredentials function (mprapi.h)
 author: windows-sdk-content
 description: Use the MprAdminInterfaceGetCredentials function to retrieve the domain, user name, and password for dialing out on the specified demand-dial interface.
 old-location: rras\mpradmininterfacegetcredentials.htm

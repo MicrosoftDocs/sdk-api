@@ -1,6 +1,6 @@
 ---
 UID: NF:mscat.CryptCATEnumerateCatAttr
-title: CryptCATEnumerateCatAttr function
+title: CryptCATEnumerateCatAttr function (mscat.h)
 author: windows-sdk-content
 description: Enumerates the attributes associated with a catalog. This function has no associated import library.
 old-location: security\cryptcatenumeratecatattr.htm

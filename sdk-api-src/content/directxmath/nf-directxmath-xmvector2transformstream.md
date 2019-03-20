@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector2TransformStream
-title: XMVector2TransformStream function
+title: XMVector2TransformStream function (directxmath.h)
 author: windows-sdk-content
 description: Transforms a stream of 2D vectors by a given matrix.
 old-location: dxmath\xmvector2transformstream.htm

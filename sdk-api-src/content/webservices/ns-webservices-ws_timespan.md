@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_TIMESPAN
-title: WS_TIMESPAN
+title: WS_TIMESPAN (webservices.h)
 author: windows-sdk-content
 description: Represents a signed 64-bit time interval in 100 nanosecond units.
 old-location: wsw\ws_timespan.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRSurface.GetSurface
-title: IVMRSurface::GetSurface
+title: IVMRSurface::GetSurface (strmif.h)
 author: windows-sdk-content
 description: The GetSurface method retrieves the attached DirectDraw surface interface.
 old-location: dshow\ivmrsurface_getsurface.htm

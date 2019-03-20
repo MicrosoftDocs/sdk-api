@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.RemoveRoot
-title: INameSpaceTreeControl::RemoveRoot
+title: INameSpaceTreeControl::RemoveRoot (shobjidl_core.h)
 author: windows-sdk-content
 description: Removes a root and its children from a tree.
 old-location: shell\INameSpaceTreeControl_RemoveRoot.htm

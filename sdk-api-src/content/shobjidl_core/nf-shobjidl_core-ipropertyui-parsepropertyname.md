@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPropertyUI.ParsePropertyName
-title: IPropertyUI::ParsePropertyName
+title: IPropertyUI::ParsePropertyName (shobjidl_core.h)
 author: windows-sdk-content
 description: Developers should use IPropertyDescription instead. Reads the characters of the specified property name and identifies the FMTID and PROPID of the property.
 old-location: properties\IPropertyUI_ParsePropertyName.htm

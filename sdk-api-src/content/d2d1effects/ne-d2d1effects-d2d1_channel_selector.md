@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects.D2D1_CHANNEL_SELECTOR
-title: D2D1_CHANNEL_SELECTOR
+title: D2D1_CHANNEL_SELECTOR (d2d1effects.h)
 author: windows-sdk-content
 description: Specifies the color channel the Displacement map effectextracts the intensity from and uses it to spatially displace the image in the X or Y direction.
 old-location: direct2d\d2d1_channel_selector.htm

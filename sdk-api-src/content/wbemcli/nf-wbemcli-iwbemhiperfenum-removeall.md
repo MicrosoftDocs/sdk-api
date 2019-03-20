@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemHiPerfEnum.RemoveAll
-title: IWbemHiPerfEnum::RemoveAll
+title: IWbemHiPerfEnum::RemoveAll (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemHiPerfEnum::RemoveAll method empties all objects from the enumerator.
 old-location: wmi\iwbemhiperfenum_removeall.htm

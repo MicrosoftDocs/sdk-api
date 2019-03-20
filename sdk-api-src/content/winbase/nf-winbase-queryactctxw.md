@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.QueryActCtxW
-title: QueryActCtxW function
+title: QueryActCtxW function (winbase.h)
 author: windows-sdk-content
 description: The QueryActCtxW function queries the activation context.
 old-location: setup\queryactctxw.htm

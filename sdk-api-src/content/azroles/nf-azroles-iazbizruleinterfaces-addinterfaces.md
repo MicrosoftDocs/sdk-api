@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzBizRuleInterfaces.AddInterfaces
-title: IAzBizRuleInterfaces::AddInterfaces
+title: IAzBizRuleInterfaces::AddInterfaces (azroles.h)
 author: windows-sdk-content
 description: Adds the specified interfaces to the list of IDispatch interfaces that can be called by business rule (BizRule) scripts.
 old-location: security\iazbizruleinterfaces_addinterfaces_method.htm

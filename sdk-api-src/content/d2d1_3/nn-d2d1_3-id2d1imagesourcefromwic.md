@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_3.ID2D1ImageSourceFromWic
-title: ID2D1ImageSourceFromWic
+title: ID2D1ImageSourceFromWic (d2d1_3.h)
 author: windows-sdk-content
 description: Produces 2D pixel data that has been sourced from WIC.
 old-location: direct2d\id2d1imagesourcefromwic.htm

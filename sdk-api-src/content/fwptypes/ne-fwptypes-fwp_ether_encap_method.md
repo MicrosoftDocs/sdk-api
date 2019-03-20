@@ -1,6 +1,6 @@
 ---
 UID: NE:fwptypes.FWP_ETHER_ENCAP_METHOD_
-title: FWP_ETHER_ENCAP_METHOD
+title: FWP_ETHER_ENCAP_METHOD (fwptypes.h)
 author: windows-sdk-content
 description: Specifies the method of encapsulating Ethernet II and SNAP traffic. Reserved.
 old-location: fwp\fwp_ether_encap_method.htm

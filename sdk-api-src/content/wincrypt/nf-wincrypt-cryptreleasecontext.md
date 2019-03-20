@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptReleaseContext
-title: CryptReleaseContext function
+title: CryptReleaseContext function (wincrypt.h)
 author: windows-sdk-content
 description: Releases the handle of a cryptographic service provider (CSP) and a key container.
 old-location: security\cryptreleasecontext.htm

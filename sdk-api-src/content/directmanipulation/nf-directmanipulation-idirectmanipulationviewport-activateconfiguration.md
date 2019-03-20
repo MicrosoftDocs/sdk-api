@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.ActivateConfiguration
-title: IDirectManipulationViewport::ActivateConfiguration
+title: IDirectManipulationViewport::ActivateConfiguration (directmanipulation.h)
 author: windows-sdk-content
 description: Sets the configuration for input interaction.
 old-location: directmanipulation\idirectmanipulationviewport_activateconfiguration.htm

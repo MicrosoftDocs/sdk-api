@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.GetScanLine
-title: IDirectDraw7::GetScanLine
+title: IDirectDraw7::GetScanLine (ddraw.h)
 author: windows-sdk-content
 description: Retrieves the scan line that is currently being drawn on the monitor.
 old-location: directdraw\idirectdraw7_getscanline.htm

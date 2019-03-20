@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAgentSession.get_Agent
-title: ITAgentSession::get_Agent
+title: ITAgentSession::get_Agent (tapi3.h)
 author: windows-sdk-content
 description: The get_Agent method gets a pointer to the ITAgent interface associated with this session.
 old-location: tapi3\itagentsession_get_agent.htm

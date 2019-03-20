@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_POL_EXPR_ARRAY
-title: DHCP_POL_EXPR_ARRAY
+title: DHCP_POL_EXPR_ARRAY (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_POL_EXPR_ARRAY structure defines an array of DHCP server policy expressions.
 old-location: dhcp\dhcp_pol_expr_array.htm

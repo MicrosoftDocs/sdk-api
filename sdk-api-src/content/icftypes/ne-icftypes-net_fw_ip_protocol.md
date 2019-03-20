@@ -1,6 +1,6 @@
 ---
 UID: NE:icftypes.NET_FW_IP_PROTOCOL_
-title: NET_FW_IP_PROTOCOL
+title: NET_FW_IP_PROTOCOL (icftypes.h)
 author: windows-sdk-content
 description: Specifies the Internet protocol.
 old-location: ics\net_fw_ip_protocol.htm

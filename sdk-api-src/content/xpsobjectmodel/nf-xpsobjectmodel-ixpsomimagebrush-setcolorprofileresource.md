@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageBrush.SetColorProfileResource
-title: IXpsOMImageBrush::SetColorProfileResource
+title: IXpsOMImageBrush::SetColorProfileResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets a pointer to the IXpsOMColorProfileResource interface, which contains the color profile resource that is associated with the image.
 old-location: xps\ixpsomimagebrush_setcolorprofileresource.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:inked.InkDisplayMode
-title: InkDisplayMode
+title: InkDisplayMode (inked.h)
 author: windows-sdk-content
 description: Specifies how a selection appears on the control.
 old-location: tablet\inkdisplaymode.htm

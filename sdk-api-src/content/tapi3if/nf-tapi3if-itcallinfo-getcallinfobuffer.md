@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallInfo.GetCallInfoBuffer
-title: ITCallInfo::GetCallInfoBuffer
+title: ITCallInfo::GetCallInfoBuffer (tapi3if.h)
 author: windows-sdk-content
 description: The GetCallInfoBuffer method gets call information items that require a buffer, such as user-user information. Automation client applications, such as those written in Visual Basic, must use the ITCallInfo::get_CallInfoBuffer method.
 old-location: tapi3\itcallinfo_getcallinfobuffer.htm

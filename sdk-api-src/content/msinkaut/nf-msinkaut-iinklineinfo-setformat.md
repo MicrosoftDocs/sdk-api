@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkLineInfo.SetFormat
-title: IInkLineInfo::SetFormat
+title: IInkLineInfo::SetFormat (msinkaut.h)
 author: windows-sdk-content
 description: Specifies the display properties to set on the text ink object (tInk).
 old-location: tablet\iinklineinfo_setformat.htm

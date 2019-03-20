@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPicture.Render
-title: IPicture::Render
+title: IPicture::Render (ocidl.h)
 author: windows-sdk-content
 description: Renders (draws) a specified portion of the picture defined by the offset (xSrc,ySrc) of the source picture and the dimensions to copy (cxSrc,xySrc).
 old-location: com\ipicture_render.htm

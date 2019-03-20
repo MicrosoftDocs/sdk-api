@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfContexts.Clone
-title: IEnumTfContexts::Clone
+title: IEnumTfContexts::Clone (msctf.h)
 author: windows-sdk-content
 description: IEnumTfContexts::Clone method
 old-location: tsf\ienumtfcontexts_clone.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolManager.NotifySessionOfServiceStop
-title: IWRdsProtocolManager::NotifySessionOfServiceStop
+title: IWRdsProtocolManager::NotifySessionOfServiceStop (wtsprotocol.h)
 author: windows-sdk-content
 description: Notifies the protocol provider that the Remote Desktop Services service has stopped for a given session.
 old-location: termserv\iwrdsprotocolmanager_notifysessionofservicestop.htm

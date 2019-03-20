@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionDiscovery.AddInstance
-title: IFunctionDiscovery::AddInstance
+title: IFunctionDiscovery::AddInstance (functiondiscoveryapi.h)
 author: windows-sdk-content
 description: Creates or modifies a function instance.
 old-location: ncd\ifunctiondiscovery_addinstance_method.htm

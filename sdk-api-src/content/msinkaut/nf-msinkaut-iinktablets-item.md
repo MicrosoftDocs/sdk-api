@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkTablets.Item
-title: IInkTablets::Item
+title: IInkTablets::Item (msinkaut.h)
 author: windows-sdk-content
 description: Retrieves the IInkTablet object at the specified index within the InkTablets collection.
 old-location: tablet\inktablets_item.htm

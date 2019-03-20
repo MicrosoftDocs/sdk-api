@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1ColorContext1.GetDXGIColorSpace
-title: ID2D1ColorContext1::GetDXGIColorSpace
+title: ID2D1ColorContext1::GetDXGIColorSpace (d2d1_3.h)
 author: windows-sdk-content
 description: Retrieves the DXGI color space of this context. Returns DXGI_COLOR_SPACE_CUSTOM when color context type is ICC.
 old-location: direct2d\id2d1colorcontext1_getdxgicolorspace.htm

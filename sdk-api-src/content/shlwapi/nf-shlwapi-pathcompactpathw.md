@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathCompactPathW
-title: PathCompactPathW function
+title: PathCompactPathW function (shlwapi.h)
 author: windows-sdk-content
 description: Truncates a file path to fit within a given pixel width by replacing path components with ellipses.
 old-location: shell\PathCompactPath.htm

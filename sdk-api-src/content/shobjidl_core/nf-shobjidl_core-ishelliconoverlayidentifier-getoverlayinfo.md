@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellIconOverlayIdentifier.GetOverlayInfo
-title: IShellIconOverlayIdentifier::GetOverlayInfo
+title: IShellIconOverlayIdentifier::GetOverlayInfo (shobjidl_core.h)
 author: windows-sdk-content
 description: Provides the location of the icon overlay's bitmap.
 old-location: shell\IShellIconOverlayIdentifier_GetOverlayInfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IDispenserManager.RegisterDispenser
-title: IDispenserManager::RegisterDispenser
+title: IDispenserManager::RegisterDispenser (comsvcs.h)
 author: windows-sdk-content
 description: Registers the resource dispenser with the dispenser manager.
 old-location: cos\idispensermanager_registerdispenser.htm

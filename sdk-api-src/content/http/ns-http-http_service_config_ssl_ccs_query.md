@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_SERVICE_CONFIG_SSL_CCS_QUERY
-title: HTTP_SERVICE_CONFIG_SSL_CCS_QUERY
+title: HTTP_SERVICE_CONFIG_SSL_CCS_QUERY (http.h)
 author: windows-sdk-content
 description: Specifies a Secure Sockets Layer (SSL) configuration to query for an SSL Centralized Certificate Store (CCS) record on the port when you call the HttpQueryServiceConfiguration function.
 old-location: http\http_service_config_ssl_ccs_query.htm

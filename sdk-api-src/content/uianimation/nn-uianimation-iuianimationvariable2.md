@@ -1,6 +1,6 @@
 ---
 UID: NN:uianimation.IUIAnimationVariable2
-title: IUIAnimationVariable2
+title: IUIAnimationVariable2 (uianimation.h)
 author: windows-sdk-content
 description: Defines an animation variable, which represents a visual element that can be animated in multiple dimensions.
 old-location: uianimation\iuianimationvariable2.htm

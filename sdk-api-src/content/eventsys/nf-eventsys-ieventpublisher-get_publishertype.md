@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventPublisher.get_PublisherType
-title: IEventPublisher::get_PublisherType
+title: IEventPublisher::get_PublisherType (eventsys.h)
 author: windows-sdk-content
 description: The optional administrative group for the event publisher.
 old-location: com\ieventpublisher_publishertype.htm

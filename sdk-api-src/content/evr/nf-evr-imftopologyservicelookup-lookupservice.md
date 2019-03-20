@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IMFTopologyServiceLookup.LookupService
-title: IMFTopologyServiceLookup::LookupService
+title: IMFTopologyServiceLookup::LookupService (evr.h)
 author: windows-sdk-content
 description: Retrieves an interface from the enhanced video renderer (EVR), or from the video mixer or video presenter.
 old-location: mf\imftopologyservicelookup_lookupservice.htm

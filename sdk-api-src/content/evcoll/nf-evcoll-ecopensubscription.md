@@ -1,6 +1,6 @@
 ---
 UID: NF:evcoll.EcOpenSubscription
-title: EcOpenSubscription function
+title: EcOpenSubscription function (evcoll.h)
 author: windows-sdk-content
 description: Opens an existing subscription or creates a new subscription.
 old-location: wec\ecopensubscription.htm

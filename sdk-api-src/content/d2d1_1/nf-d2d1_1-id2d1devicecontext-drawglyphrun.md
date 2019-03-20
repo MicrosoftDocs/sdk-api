@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.DrawGlyphRun
-title: ID2D1DeviceContext::DrawGlyphRun
+title: ID2D1DeviceContext::DrawGlyphRun (d2d1_1.h)
 author: windows-sdk-content
 description: Draws a series of glyphs to the device context.
 old-location: direct2d\id2d1devicecontext_drawglyphrun.htm

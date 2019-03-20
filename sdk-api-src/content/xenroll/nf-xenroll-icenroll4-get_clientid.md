@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll4.get_ClientId
-title: ICEnroll4::get_ClientId
+title: ICEnroll4::get_ClientId (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves a client ID request attribute. The client ID request attribute indicates the source of the certificate request. This property was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_clientid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.SetOwnerWindow
-title: IFileOperation::SetOwnerWindow
+title: IFileOperation::SetOwnerWindow (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the parent or owner window for progress and dialog windows.
 old-location: shell\IFileOperation_SetOwnerWindow.htm

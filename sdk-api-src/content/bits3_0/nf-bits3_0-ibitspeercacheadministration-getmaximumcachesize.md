@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.GetMaximumCacheSize
-title: IBitsPeerCacheAdministration::GetMaximumCacheSize
+title: IBitsPeerCacheAdministration::GetMaximumCacheSize (bits3_0.h)
 author: windows-sdk-content
 description: Gets the maximum size of the cache.
 old-location: bits\ibitspeercacheadministration_getmaximumcachesize.htm

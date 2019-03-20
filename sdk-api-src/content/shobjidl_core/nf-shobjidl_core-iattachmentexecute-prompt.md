@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IAttachmentExecute.Prompt
-title: IAttachmentExecute::Prompt
+title: IAttachmentExecute::Prompt (shobjidl_core.h)
 author: windows-sdk-content
 description: Presents a prompt UI to the user.
 old-location: shell\IAttachmentExecute_Prompt.htm

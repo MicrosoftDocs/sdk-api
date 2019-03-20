@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetPosition
-title: IMFPMediaPlayer::GetPosition
+title: IMFPMediaPlayer::GetPosition (mfplay.h)
 author: windows-sdk-content
 description: Gets the current playback position.
 old-location: mf\imfpmediaplayer_getposition.htm

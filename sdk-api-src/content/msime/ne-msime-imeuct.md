@@ -1,6 +1,6 @@
 ---
 UID: NE:msime.__unnamed_enum_2
-title: IMEUCT
+title: IMEUCT (msime.h)
 author: windows-sdk-content
 description: Type of user comment in a IMEWRD structure.
 old-location: intl\imeuct.htm

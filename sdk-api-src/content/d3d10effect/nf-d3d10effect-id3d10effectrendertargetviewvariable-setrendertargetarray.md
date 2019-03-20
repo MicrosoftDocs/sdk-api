@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectRenderTargetViewVariable.SetRenderTargetArray
-title: ID3D10EffectRenderTargetViewVariable::SetRenderTargetArray
+title: ID3D10EffectRenderTargetViewVariable::SetRenderTargetArray (d3d10effect.h)
 author: windows-sdk-content
 description: Set an array of render-targets.
 old-location: direct3d10\id3d10effectrendertargetviewvariable_setrendertargetarray.htm

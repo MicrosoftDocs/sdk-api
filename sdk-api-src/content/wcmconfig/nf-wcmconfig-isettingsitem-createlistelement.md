@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.CreateListElement
-title: ISettingsItem::CreateListElement
+title: ISettingsItem::CreateListElement (wcmconfig.h)
 author: windows-sdk-content
 description: Creates a new list element.
 old-location: smi\isettingsitem_createlistelement.htm

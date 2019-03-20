@@ -1,6 +1,6 @@
 ---
 UID: NS:winsock2.WSAData
-title: WSADATA
+title: WSADATA (winsock2.h)
 author: windows-sdk-content
 description: Contains information about the Windows Sockets implementation.
 old-location: winsock\wsadata_2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:libloaderapi.ENUMRESNAMEPROCA
-title: ENUMRESNAMEPROCA
+title: ENUMRESNAMEPROCA (libloaderapi.h)
 author: windows-sdk-content
 description: An application-defined callback function used with the EnumResourceNames and EnumResourceNamesEx functions.
 old-location: menurc\enumresnameproc.htm

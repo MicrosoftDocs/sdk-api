@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFPresentationClock.RemoveClockStateSink
-title: IMFPresentationClock::RemoveClockStateSink
+title: IMFPresentationClock::RemoveClockStateSink (mfidl.h)
 author: windows-sdk-content
 description: Unregisters an object that is receiving state-change notifications from the clock.
 old-location: mf\imfpresentationclock_removeclockstatesink.htm

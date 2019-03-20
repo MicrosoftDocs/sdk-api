@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspAlgorithm.get_Type
-title: ICspAlgorithm::get_Type
+title: ICspAlgorithm::get_Type (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the algorithm type.
 old-location: security\icspalgorithm_type_property.htm

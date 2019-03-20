@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognitionResult.get_Strokes
-title: IInkRecognitionResult::get_Strokes
+title: IInkRecognitionResult::get_Strokes (msinkaut.h)
 author: windows-sdk-content
 description: Gets the collection of strokes that are contained in an object or used to create an object.
 old-location: tablet\iinkrecognitionresult_strokes.htm

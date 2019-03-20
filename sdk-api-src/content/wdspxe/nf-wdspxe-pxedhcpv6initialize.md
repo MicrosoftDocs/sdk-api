@@ -1,6 +1,6 @@
 ---
 UID: NF:wdspxe.PxeDhcpv6Initialize
-title: PxeDhcpv6Initialize function
+title: PxeDhcpv6Initialize function (wdspxe.h)
 author: windows-sdk-content
 description: Initializes a response packet as a DHCPv6 reply packet.
 old-location: wds\pxedhcpv6initialize.htm

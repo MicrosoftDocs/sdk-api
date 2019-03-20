@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.ColorCorrectPalette
-title: ColorCorrectPalette function
+title: ColorCorrectPalette function (wingdi.h)
 author: windows-sdk-content
 description: The ColorCorrectPalette function corrects the entries of a palette using the WCS 1.0 parameters in the specified device context.
 old-location: wcs\colorcorrectpalette.htm

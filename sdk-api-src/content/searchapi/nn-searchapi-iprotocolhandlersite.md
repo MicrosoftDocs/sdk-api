@@ -1,6 +1,6 @@
 ---
 UID: NN:searchapi.IProtocolHandlerSite
-title: IProtocolHandlerSite
+title: IProtocolHandlerSite (searchapi.h)
 author: windows-sdk-content
 description: Provides methods for a protocol handler's IUrlAccessor object to query the Filter Daemon for the appropriate filter for the URL item.
 old-location: search\_search_IProtocolHandlerSite.htm

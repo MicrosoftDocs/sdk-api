@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzTask.DeletePropertyItem
-title: IAzTask::DeletePropertyItem
+title: IAzTask::DeletePropertyItem (azroles.h)
 author: windows-sdk-content
 description: Removes the specified entity from the specified list.
 old-location: security\iaztask_deletepropertyitem.htm

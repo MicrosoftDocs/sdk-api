@@ -1,6 +1,6 @@
 ---
 UID: NF:winusb.WinUsb_Initialize
-title: WinUsb_Initialize function
+title: WinUsb_Initialize function (winusb.h)
 author: windows-sdk-content
 description: The WinUsb_Initialize function creates a WinUSB handle for the device specified by a file handle.
 old-location: buses\winusb_initialize.htm

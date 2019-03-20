@@ -1,6 +1,6 @@
 ---
 UID: NF:provider.Provider.ExecMethod(ParsedObjectPath,BSTR,long,CInstance,CInstance,MethodContext)
-title: Provider::ExecMethod(ParsedObjectPath,BSTR,long,CInstance,CInstance,MethodContext)
+title: Provider::ExecMethod(ParsedObjectPath,BSTR,long,CInstance,CInstance,MethodContext) (provider.h)
 author: windows-sdk-content
 description: The ExecMethod method is called by WMI to invoke a method on a class or instance.
 old-location: wmi\provider_execmethod.htm

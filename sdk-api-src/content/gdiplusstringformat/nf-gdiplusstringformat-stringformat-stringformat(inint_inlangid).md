@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.StringFormat(IN INT,IN LANGID)
-title: StringFormat::StringFormat(IN INT,IN LANGID)
+title: StringFormat::StringFormat(IN INT,IN LANGID) (gdiplusstringformat.h)
 author: windows-sdk-content
 description: Creates a StringFormat object based on string format flags and a language.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_StringFormat_formatFlags_language_.htm

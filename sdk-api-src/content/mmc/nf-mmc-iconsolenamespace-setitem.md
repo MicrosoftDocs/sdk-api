@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IConsoleNameSpace.SetItem
-title: IConsoleNameSpace::SetItem
+title: IConsoleNameSpace::SetItem (mmc.h)
 author: windows-sdk-content
 description: The IConsoleNameSpace2::SetItem method enables the snap-in to set the attributes of a single scope-view item.
 old-location: mmc\iconsolenamespace2_setitem.htm

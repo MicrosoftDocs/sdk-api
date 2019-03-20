@@ -1,6 +1,6 @@
 ---
 UID: NS:wcmapi.WCM_BILLING_CYCLE_INFO
-title: WCM_BILLING_CYCLE_INFO
+title: WCM_BILLING_CYCLE_INFO (wcmapi.h)
 author: windows-sdk-content
 description: Specifies information about the billing cycle.
 old-location: wcm\wcm_billing_cycle_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdates2.get_Results
-title: IAutomaticUpdates2::get_Results
+title: IAutomaticUpdates2::get_Results (wuapi.h)
 author: windows-sdk-content
 description: Returns a pointer to an IAutomaticUpdatesResults interface.
 old-location: wua\iautomaticupdates2_results.htm

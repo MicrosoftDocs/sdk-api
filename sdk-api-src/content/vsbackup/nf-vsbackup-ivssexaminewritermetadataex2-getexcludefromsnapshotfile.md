@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotFile
-title: IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile
+title: IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile (vsbackup.h)
 author: windows-sdk-content
 description: Obtains information about file sets that have been explicitly excluded from a given shadow copy.
 old-location: base\ivssexaminewritermetadataex2_getexcludefromsnapshotfile.htm

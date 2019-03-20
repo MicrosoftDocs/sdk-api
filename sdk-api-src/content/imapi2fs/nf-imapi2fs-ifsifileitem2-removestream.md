@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem2.RemoveStream
-title: IFsiFileItem2::RemoveStream
+title: IFsiFileItem2::RemoveStream (imapi2fs.h)
 author: windows-sdk-content
 description: Removes a named stream association with a file.
 old-location: imapi\ifsifileitem2_removestream.htm

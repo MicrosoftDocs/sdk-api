@@ -1,6 +1,6 @@
 ---
 UID: NE:dsrole._DSROLE_OPERATION_STATE
-title: DSROLE_OPERATION_STATE
+title: DSROLE_OPERATION_STATE (dsrole.h)
 author: windows-sdk-content
 description: Used with the DSROLE_OPERATION_STATE_INFO structure to indicate the operational state of a computer.
 old-location: ad\dsrole_operation_state.htm

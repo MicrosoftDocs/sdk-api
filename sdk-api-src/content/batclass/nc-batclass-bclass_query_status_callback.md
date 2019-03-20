@@ -1,6 +1,6 @@
 ---
 UID: NC:batclass.BCLASS_QUERY_STATUS_CALLBACK
-title: BCLASS_QUERY_STATUS_CALLBACK
+title: BCLASS_QUERY_STATUS_CALLBACK (batclass.h)
 author: windows-sdk-content
 description: BatteryMiniQueryStatus returns status information about the given battery device.
 old-location: battery\batteryminiquerystatus.htm

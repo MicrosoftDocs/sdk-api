@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_SelfIntersections
-title: IInkStrokeDisp::get_SelfIntersections
+title: IInkStrokeDisp::get_SelfIntersections (msinkaut.h)
 author: windows-sdk-content
 description: Gets the self-intersections of the stroke.
 old-location: tablet\iinkstrokedisp_selfintersections.htm

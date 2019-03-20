@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Animate_Seek
-title: Animate_Seek macro
+title: Animate_Seek macro (commctrl.h)
 author: windows-sdk-content
 description: Directs an animation control to display a particular frame of an AVI clip. The control displays the clip in the background while the thread continues executing. You can use this macro or send the ACM_PLAY message explicitly.
 old-location: controls\Animate_Seek.htm

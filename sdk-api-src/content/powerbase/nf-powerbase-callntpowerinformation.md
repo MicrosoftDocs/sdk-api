@@ -1,6 +1,6 @@
 ---
 UID: NF:powerbase.CallNtPowerInformation
-title: CallNtPowerInformation function
+title: CallNtPowerInformation function (powerbase.h)
 author: windows-sdk-content
 description: Sets or retrieves power information.
 old-location: base\callntpowerinformation.htm

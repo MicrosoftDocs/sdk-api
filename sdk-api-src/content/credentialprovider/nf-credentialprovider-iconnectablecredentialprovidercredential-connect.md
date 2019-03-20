@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.IConnectableCredentialProviderCredential.Connect
-title: IConnectableCredentialProviderCredential::Connect
+title: IConnectableCredentialProviderCredential::Connect (credentialprovider.h)
 author: windows-sdk-content
 description: Connects an IConnectableCredentialProviderCredential object. This method is called after the user clicks the Submit button within the Pre-Logon-Access Provider screen and before ICredentialProviderCredential::GetSerialization is called.
 old-location: shell\IConnectableCredentialProviderCredential_Connect.htm

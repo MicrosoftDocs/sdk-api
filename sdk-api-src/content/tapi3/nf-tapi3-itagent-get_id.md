@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAgent.get_ID
-title: ITAgent::get_ID
+title: ITAgent::get_ID (tapi3.h)
 author: windows-sdk-content
 description: The get_ID method gets an agent's ID.
 old-location: tapi3\itagent_get_id.htm

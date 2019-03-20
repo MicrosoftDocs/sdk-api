@@ -1,6 +1,6 @@
 ---
 UID: NS:peerdist.peerdist_publication_options_tag
-title: PEERDIST_PUBLICATION_OPTIONS
+title: PEERDIST_PUBLICATION_OPTIONS (peerdist.h)
 author: windows-sdk-content
 description: PEERDIST_PUBLICATION_OPTIONS structure contains publication options, including the API version information and possible option flags.
 old-location: p2p\peerdist_publication_options.htm

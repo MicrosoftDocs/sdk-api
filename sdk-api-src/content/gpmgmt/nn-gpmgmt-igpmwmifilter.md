@@ -1,6 +1,6 @@
 ---
 UID: NN:gpmgmt.IGPMWMIFilter
-title: IGPMWMIFilter
+title: IGPMWMIFilter (gpmgmt.h)
 author: windows-sdk-content
 description: The IGPMWMIFilter interface contains methods that allow you to set and retrieve security attributes and various properties for a WMI filter. WMI filter queries are specified using WMI Query Language (WQL).
 old-location: gpmc\igpmwmifilter.htm

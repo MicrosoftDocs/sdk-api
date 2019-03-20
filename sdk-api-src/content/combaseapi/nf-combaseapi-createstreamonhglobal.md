@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CreateStreamOnHGlobal
-title: CreateStreamOnHGlobal function
+title: CreateStreamOnHGlobal function (combaseapi.h)
 author: windows-sdk-content
 description: Creates a stream object that uses an HGLOBAL memory handle to store the stream contents.
 old-location: stg\createstreamonhglobal.htm

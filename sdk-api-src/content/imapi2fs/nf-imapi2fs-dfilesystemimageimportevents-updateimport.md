@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.DFileSystemImageImportEvents.UpdateImport
-title: DFileSystemImageImportEvents::UpdateImport
+title: DFileSystemImageImportEvents::UpdateImport (imapi2fs.h)
 author: windows-sdk-content
 description: Receives import notification for every file and directory item imported from an optical medium.
 old-location: imapi\dfilesystemimageimportevents_updateimport.htm

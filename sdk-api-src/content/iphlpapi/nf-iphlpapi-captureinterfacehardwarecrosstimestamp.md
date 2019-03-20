@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.CaptureInterfaceHardwareCrossTimestamp
-title: CaptureInterfaceHardwareCrossTimestamp function
+title: CaptureInterfaceHardwareCrossTimestamp function (iphlpapi.h)
 author: windows-sdk-content
 description: This function is reserved for system use, and you should not call it from your code.
 old-location: iphlp\captureinterfacehardwarecrosstimestamp.htm

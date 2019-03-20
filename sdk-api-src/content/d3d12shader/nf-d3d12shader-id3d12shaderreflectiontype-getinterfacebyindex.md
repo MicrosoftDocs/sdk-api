@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionType.GetInterfaceByIndex
-title: ID3D12ShaderReflectionType::GetInterfaceByIndex
+title: ID3D12ShaderReflectionType::GetInterfaceByIndex (d3d12shader.h)
 author: windows-sdk-content
 description: Gets an interface by index.
 old-location: direct3d12\id3d12shaderreflectiontype_getinterfacebyindex.htm

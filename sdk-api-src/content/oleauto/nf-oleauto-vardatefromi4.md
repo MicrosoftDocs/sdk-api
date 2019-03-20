@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarDateFromI4
-title: VarDateFromI4 function
+title: VarDateFromI4 function (oleauto.h)
 author: windows-sdk-content
 description: Converts a long value to a date value.
 old-location: automat\vardatefromi4.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccess.get_SmartCardApplications
-title: IBDA_ConditionalAccess::get_SmartCardApplications
+title: IBDA_ConditionalAccess::get_SmartCardApplications (bdaiface.h)
 author: windows-sdk-content
 description: The get_SmartCardApplications method retrieves a list of the smart card applications.
 old-location: mstv\ibda_conditionalaccess_get_smartcardapplications.htm

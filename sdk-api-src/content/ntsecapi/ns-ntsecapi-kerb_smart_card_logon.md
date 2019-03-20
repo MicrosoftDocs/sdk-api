@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._KERB_SMART_CARD_LOGON
-title: KERB_SMART_CARD_LOGON
+title: KERB_SMART_CARD_LOGON (ntsecapi.h)
 author: windows-sdk-content
 description: Contains information about a smart card logon session.
 old-location: security\kerb_smart_card_logon.htm

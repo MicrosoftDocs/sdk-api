@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_SURFCB_SETPALETTE
-title: PDD_SURFCB_SETPALETTE
+title: PDD_SURFCB_SETPALETTE (ddrawint.h)
 author: windows-sdk-content
 description: The DdSetPalette callback function attaches a palette to the specified surface.
 old-location: display\ddsetpalette.htm

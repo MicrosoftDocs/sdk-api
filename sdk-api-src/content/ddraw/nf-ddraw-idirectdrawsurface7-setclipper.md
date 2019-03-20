@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.SetClipper
-title: IDirectDrawSurface7::SetClipper
+title: IDirectDrawSurface7::SetClipper (ddraw.h)
 author: windows-sdk-content
 description: Attaches a clipper object to, or deletes one from, this surface.
 old-location: directdraw\idirectdrawsurface7_setclipper.htm

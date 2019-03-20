@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.GetObject
-title: IShellFolderView::GetObject
+title: IShellFolderView::GetObject (shlobj_core.h)
 author: windows-sdk-content
 description: Gets an item from the view.
 old-location: shell\IShellFolderView_GetObject.htm

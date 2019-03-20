@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspixelformats.IsCanonicalPixelFormat
-title: IsCanonicalPixelFormat function
+title: IsCanonicalPixelFormat function (gdipluspixelformats.h)
 author: windows-sdk-content
 description: The IsCanonicalPixelFormat method determines whether a specified pixel format is one of the canonical formats:\_PixelFormat32bppARGB or PixelFormat64bppARGB.
 old-location: gdiplus\_gdiplus_FUNC_IsCanonicalPixelFormat_.htm

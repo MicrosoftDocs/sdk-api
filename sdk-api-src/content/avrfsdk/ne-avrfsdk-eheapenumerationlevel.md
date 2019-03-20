@@ -1,6 +1,6 @@
 ---
 UID: NE:avrfsdk.eHeapEnumerationLevel
-title: eHeapEnumerationLevel
+title: eHeapEnumerationLevel (avrfsdk.h)
 author: windows-sdk-content
 description: Determines whether the enumeration operation should continue or stop.
 old-location: winprog\eheapenumerationlevel.htm

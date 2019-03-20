@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetTableDescriptorByIndex
-title: IPMT::GetTableDescriptorByIndex
+title: IPMT::GetTableDescriptorByIndex (mpeg2psiparser.h)
 author: windows-sdk-content
 description: The GetTableDescriptorByIndex method retrieves a table-wide descriptor for the PMT.
 old-location: mstv\ipmt_gettabledescriptorbyindex.htm

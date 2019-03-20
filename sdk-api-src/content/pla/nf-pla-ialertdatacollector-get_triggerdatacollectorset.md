@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IAlertDataCollector.get_TriggerDataCollectorSet
-title: IAlertDataCollector::get_TriggerDataCollectorSet
+title: IAlertDataCollector::get_TriggerDataCollectorSet (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the name of a data collector set to start each time the counter value crosses the threshold.
 old-location: pla\ialertdatacollector_triggerdatacollectorset.htm

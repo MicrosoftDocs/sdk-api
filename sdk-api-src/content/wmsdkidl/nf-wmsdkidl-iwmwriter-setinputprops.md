@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.SetInputProps
-title: IWMWriter::SetInputProps
+title: IWMWriter::SetInputProps (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetInputProps method specifies the media properties of an input stream.
 old-location: wmformat\iwmwriter_setinputprops.htm

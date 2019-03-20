@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymFromAddr
-title: SymFromAddr function
+title: SymFromAddr function (dbghelp.h)
 author: windows-sdk-content
 description: Retrieves symbol information for the specified address.
 old-location: base\symfromaddr.htm

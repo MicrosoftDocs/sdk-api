@@ -1,6 +1,6 @@
 ---
 UID: NE:wuapicommon.tagServerSelection
-title: ServerSelection
+title: ServerSelection (wuapicommon.h)
 author: windows-sdk-content
 description: Defines the update services that Windows Update can operate against.
 old-location: wua\serverselection.htm

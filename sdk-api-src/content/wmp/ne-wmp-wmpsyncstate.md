@@ -1,6 +1,6 @@
 ---
 UID: NE:wmp.WMPSyncState
-title: WMPSyncState
+title: WMPSyncState (wmp.h)
 author: windows-sdk-content
 description: The WMPSyncState enumeration type defines the possible operational states of Windows Media Player as it synchronizes digital media to a device. To use this enumeration you must create a remoted instance of the Windows Media Player 10 or later control.
 old-location: wmp\wmpsyncstate.htm

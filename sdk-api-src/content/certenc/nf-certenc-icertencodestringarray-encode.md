@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeStringArray.Encode
-title: ICertEncodeStringArray::Encode
+title: ICertEncodeStringArray::Encode (certenc.h)
 author: windows-sdk-content
 description: Returns an ASN.1-encoded string of the string array stored in this object.
 old-location: security\icertencodestringarray_encode.htm

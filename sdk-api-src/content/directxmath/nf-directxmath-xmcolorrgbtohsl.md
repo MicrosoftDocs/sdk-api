@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMColorRGBToHSL
-title: XMColorRGBToHSL function
+title: XMColorRGBToHSL function (directxmath.h)
 author: windows-sdk-content
 description: Converts RGB color values to HSL color values.
 old-location: dxmath\xmcolorrgbtohsl.htm

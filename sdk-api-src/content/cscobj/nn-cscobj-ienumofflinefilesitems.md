@@ -1,6 +1,6 @@
 ---
 UID: NN:cscobj.IEnumOfflineFilesItems
-title: IEnumOfflineFilesItems
+title: IEnumOfflineFilesItems (cscobj.h)
 author: windows-sdk-content
 description: Represents a collection of IOfflineFilesItem interface pointers.
 old-location: of\ienumofflinefilesitems.htm

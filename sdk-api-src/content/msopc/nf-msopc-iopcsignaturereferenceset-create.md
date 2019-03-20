@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureReferenceSet.Create
-title: IOpcSignatureReferenceSet::Create
+title: IOpcSignatureReferenceSet::Create (msopc.h)
 author: windows-sdk-content
 description: Creates an IOpcSignatureReference interface pointer that represents a reference to an XML element to be signed.
 old-location: opc\iopcsignaturereferenceset_create.htm

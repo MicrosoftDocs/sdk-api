@@ -1,6 +1,6 @@
 ---
 UID: NS:ddkmapi._DDOPENVIDEOPORTIN
-title: DDOPENVIDEOPORTIN
+title: DDOPENVIDEOPORTIN (ddkmapi.h)
 author: windows-sdk-content
 description: The DDOPENVIDEOPORTIN structure contains the video port extensions (VPE) object information.
 old-location: display\ddopenvideoportin.htm

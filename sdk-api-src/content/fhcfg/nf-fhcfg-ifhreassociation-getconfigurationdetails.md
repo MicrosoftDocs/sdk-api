@@ -1,6 +1,6 @@
 ---
 UID: NF:fhcfg.IFhReassociation.GetConfigurationDetails
-title: IFhReassociation::GetConfigurationDetails
+title: IFhReassociation::GetConfigurationDetails (fhcfg.h)
 author: windows-sdk-content
 description: This method enumerates File History configurations that were discovered on a storage device or network share by the IFhReassociation::ScanTargetForConfigurations method and returns additional information about each of the discovered configurations.
 old-location: winprog\ifhreassociation_getconfigurationdetails.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetTransformLocal
-title: IXpsOMVisual::SetTransformLocal
+title: IXpsOMVisual::SetTransformLocal (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the local, unshared matrix transform.
 old-location: xps\ixpsomvisual_settransformlocal.htm

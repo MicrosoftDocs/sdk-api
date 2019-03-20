@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IDownloadProgressChangedCallbackArgs
-title: IDownloadProgressChangedCallbackArgs
+title: IDownloadProgressChangedCallbackArgs (wuapi.h)
 author: windows-sdk-content
 description: Contains information about the change in the progress of an asynchronous download operation.
 old-location: wua\idownloadprogresschangedcallbackargs.htm

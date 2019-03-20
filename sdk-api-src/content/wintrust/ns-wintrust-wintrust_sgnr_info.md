@@ -1,6 +1,6 @@
 ---
 UID: NS:wintrust.WINTRUST_SGNR_INFO_
-title: WINTRUST_SGNR_INFO
+title: WINTRUST_SGNR_INFO (wintrust.h)
 author: windows-sdk-content
 description: Used when calling WinVerifyTrust to verify a CMSG_SIGNER_INFO structure.
 old-location: security\wintrust_sgnr_info.htm

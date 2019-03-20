@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_SetImageList
-title: TreeView_SetImageList macro
+title: TreeView_SetImageList macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the normal or state image list for a tree-view control and redraws the control using the new images. You can use this macro or send the TVM_SETIMAGELIST message explicitly.
 old-location: controls\TreeView_SetImageList.htm

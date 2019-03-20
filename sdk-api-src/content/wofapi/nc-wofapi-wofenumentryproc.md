@@ -1,6 +1,6 @@
 ---
 UID: NC:wofapi.WofEnumEntryProc
-title: WofEnumEntryProc
+title: WofEnumEntryProc (wofapi.h)
 author: windows-sdk-content
 description: Callback function that gets called for each data source in response to a call to WofEnumEntries.
 old-location: fs\wofenumentryproc.htm

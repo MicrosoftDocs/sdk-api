@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.THIRD_IPADDRESS
-title: THIRD_IPADDRESS macro
+title: THIRD_IPADDRESS macro (commctrl.h)
 author: windows-sdk-content
 description: Extracts the field 2 value from a packed IP address retrieved with the IPM_GETADDRESS message.
 old-location: controls\THIRD_IPADDRESS.htm

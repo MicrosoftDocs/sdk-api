@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskDefinition.get_RegistrationInfo
-title: ITaskDefinition::get_RegistrationInfo
+title: ITaskDefinition::get_RegistrationInfo (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the registration information used to describe a task, such as the description of the task, the author of the task, and the date the task is registered.
 old-location: taskschd\itaskdefinition_registrationinfo.htm

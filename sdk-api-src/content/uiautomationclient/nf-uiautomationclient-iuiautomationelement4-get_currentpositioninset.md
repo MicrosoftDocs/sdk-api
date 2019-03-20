@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement4.get_CurrentPositionInSet
-title: IUIAutomationElement4::get_CurrentPositionInSet
+title: IUIAutomationElement4::get_CurrentPositionInSet (uiautomationclient.h)
 author: windows-sdk-content
 description: Returns the current 1-based integer for the ordinal position in the set for the element.
 old-location: winauto\uiauto_IUIAutomationElement4_CurrentPositionInSet.htm

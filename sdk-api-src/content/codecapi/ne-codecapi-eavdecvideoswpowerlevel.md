@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVDecVideoSWPowerLevel
-title: eAVDecVideoSWPowerLevel
+title: eAVDecVideoSWPowerLevel (codecapi.h)
 author: windows-sdk-content
 description: Specifies the power-saving level of a video decoder.
 old-location: dshow\eavdecvideoswpowerlevel.htm

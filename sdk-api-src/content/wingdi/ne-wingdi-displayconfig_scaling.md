@@ -1,6 +1,6 @@
 ---
 UID: NE:wingdi.__unnamed_enum_2
-title: DISPLAYCONFIG_SCALING
+title: DISPLAYCONFIG_SCALING (wingdi.h)
 author: windows-sdk-content
 description: The DISPLAYCONFIG_SCALING enumeration specifies the scaling transformation applied to content displayed on a video present network (VidPN) present path.
 old-location: display\displayconfig_scaling.htm

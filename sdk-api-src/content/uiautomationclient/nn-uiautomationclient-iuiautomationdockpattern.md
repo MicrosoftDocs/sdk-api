@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationDockPattern
-title: IUIAutomationDockPattern
+title: IUIAutomationDockPattern (uiautomationclient.h)
 author: windows-sdk-content
 description: Provides access to a control that enables child elements to be arranged horizontally and vertically, relative to each other.
 old-location: winauto\uiauto_IUIAutomationDockPattern.htm

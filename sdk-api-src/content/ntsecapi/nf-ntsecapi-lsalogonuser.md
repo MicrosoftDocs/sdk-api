@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.LsaLogonUser
-title: LsaLogonUser function
+title: LsaLogonUser function (ntsecapi.h)
 author: windows-sdk-content
 description: Authenticates a security principal's logon data by using stored credentials information.
 old-location: security\lsalogonuser.htm

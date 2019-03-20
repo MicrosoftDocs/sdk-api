@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_WriteProtectStatus
-title: IDiscFormat2Data::get_WriteProtectStatus
+title: IDiscFormat2Data::get_WriteProtectStatus (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the current write protect state of the media in the device.
 old-location: imapi\idiscformat2data_get_writeprotectstatus.htm

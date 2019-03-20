@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsAsyncExecute
-title: WsAsyncExecute function
+title: WsAsyncExecute function (webservices.h)
 author: windows-sdk-content
 description: Helper function for implementing an asynchronous operation.
 old-location: wsw\wsasyncexecute.htm

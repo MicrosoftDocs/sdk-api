@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscMasterProgressEvents.NotifyAddProgress
-title: IDiscMasterProgressEvents::NotifyAddProgress
+title: IDiscMasterProgressEvents::NotifyAddProgress (imapi.h)
 author: windows-sdk-content
 description: Notifies an application of its progress in response to calls to IRedbookDiscMaster::AddAudioTrackBlocks or IJolietDiscMaster::AddData. Notifications are sent for the first and last steps, and at points in between.
 old-location: imapi\idiscmasterprogressevents_notifyaddprogress.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.GetExtendedErrorCode
-title: IMFTimedTextTrack::GetExtendedErrorCode
+title: IMFTimedTextTrack::GetExtendedErrorCode (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the extended error code for the latest error associated with the track.
 old-location: mf\imftimedtexttrack_getextendederrorcode.htm

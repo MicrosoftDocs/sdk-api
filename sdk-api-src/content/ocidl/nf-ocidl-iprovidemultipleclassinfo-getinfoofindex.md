@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IProvideMultipleClassInfo.GetInfoOfIndex
-title: IProvideMultipleClassInfo::GetInfoOfIndex
+title: IProvideMultipleClassInfo::GetInfoOfIndex (ocidl.h)
 author: windows-sdk-content
 description: Retrieves the type information from the specified index.
 old-location: com\iprovidemultipleclassinfo_getinfoofindex.htm

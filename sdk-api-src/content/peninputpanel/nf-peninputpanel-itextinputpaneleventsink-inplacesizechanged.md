@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.ITextInputPanelEventSink.InPlaceSizeChanged
-title: ITextInputPanelEventSink::InPlaceSizeChanged
+title: ITextInputPanelEventSink::InPlaceSizeChanged (peninputpanel.h)
 author: windows-sdk-content
 description: Occurs when the in-place Input Panel size has changed due to a user resize, auto growth, or an input area change.
 old-location: tablet\itextinputpaneleventsink_inplacesizechanged.htm

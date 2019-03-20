@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.TEXT
-title: TEXT macro
+title: TEXT macro (winnt.h)
 author: windows-sdk-content
 description: Identifies a string as Unicode when UNICODE is defined by a preprocessor directive during compilation. Otherwise, the macro identifies a string as an ANSI string.
 old-location: intl\text.htm

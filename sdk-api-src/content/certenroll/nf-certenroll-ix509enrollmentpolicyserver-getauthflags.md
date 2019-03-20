@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetAuthFlags
-title: IX509EnrollmentPolicyServer::GetAuthFlags
+title: IX509EnrollmentPolicyServer::GetAuthFlags (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a value that specifies the authentication type used by the client to authenticate itself to the certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_getauthflags.htm

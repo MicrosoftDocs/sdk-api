@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchManager.get_UserAgent
-title: ISearchManager::get_UserAgent
+title: ISearchManager::get_UserAgent (searchapi.h)
 author: windows-sdk-content
 description: Retrieves the user agent string.
 old-location: search\_search_ISearchManager_get_UserAgent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymSetScopeFromInlineContext
-title: SymSetScopeFromInlineContext function
+title: SymSetScopeFromInlineContext function (dbghelp.h)
 author: windows-sdk-content
 description: Sets the local scope to the symbol that matches the specified address and inline context.
 old-location: base\symsetscopefrominlinecontext.htm

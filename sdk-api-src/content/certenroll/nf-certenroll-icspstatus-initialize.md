@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspStatus.Initialize
-title: ICspStatus::Initialize
+title: ICspStatus::Initialize (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from a cryptographic provider and an associated algorithm.
 old-location: security\icspstatus_initialize.htm

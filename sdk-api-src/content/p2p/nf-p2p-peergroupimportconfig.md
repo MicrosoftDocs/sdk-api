@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGroupImportConfig
-title: PeerGroupImportConfig function
+title: PeerGroupImportConfig function (p2p.h)
 author: windows-sdk-content
 description: The PeerGroupImportConfig function imports a peer group configuration for an identity based on the specific settings in a supplied XML configuration string.
 old-location: p2p\peergroupimportconfig.htm

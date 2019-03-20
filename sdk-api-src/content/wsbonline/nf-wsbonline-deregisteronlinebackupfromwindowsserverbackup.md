@@ -1,6 +1,6 @@
 ---
 UID: NF:wsbonline.DeregisterOnlineBackupFromWindowsServerBackup
-title: DeregisterOnlineBackupFromWindowsServerBackup function
+title: DeregisterOnlineBackupFromWindowsServerBackup function (wsbonline.h)
 author: windows-sdk-content
 description: De-registers an already registered Cloud backup provider.
 old-location: wsb\deregisteronlinebackupfromwindowsserverbackup.htm

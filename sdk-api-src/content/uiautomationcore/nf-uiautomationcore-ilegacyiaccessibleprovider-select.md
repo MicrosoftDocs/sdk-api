@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.Select
-title: ILegacyIAccessibleProvider::Select
+title: ILegacyIAccessibleProvider::Select (uiautomationcore.h)
 author: windows-sdk-content
 description: Selects the element.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_Select.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:vdshwprv._VDS_SUB_SYSTEM_NOTIFICATION
-title: VDS_SUB_SYSTEM_NOTIFICATION
+title: VDS_SUB_SYSTEM_NOTIFICATION (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the details of subsystem events.
 old-location: base\vds_sub_system_notification.htm

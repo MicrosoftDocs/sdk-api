@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.OnVSSShutdown
-title: CVssWriter::OnVSSShutdown
+title: CVssWriter::OnVSSShutdown (vswriter.h)
 author: windows-sdk-content
 description: Not supported.
 old-location: base\cvsswriter_onvssshutdown.htm

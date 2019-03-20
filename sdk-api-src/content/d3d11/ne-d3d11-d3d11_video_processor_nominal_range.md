@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE
-title: D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE
+title: D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE (d3d11.h)
 author: windows-sdk-content
 description: Specifies values for the luminance range of YUV data.
 old-location: mf\d3d11_video_processor_nominal_range.htm

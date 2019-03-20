@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_Encoder.EnumAudioCapability
-title: IBDA_Encoder::EnumAudioCapability
+title: IBDA_Encoder::EnumAudioCapability (bdaiface.h)
 author: windows-sdk-content
 description: Gets one of the audio formats supported by the device.
 old-location: mstv\ibda_encoder_enumaudiocapability.htm

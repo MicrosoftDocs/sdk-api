@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCertificate.get_SerialNumber
-title: IX509CertificateRequestCertificate::get_SerialNumber
+title: IX509CertificateRequestCertificate::get_SerialNumber (certenroll.h)
 author: windows-sdk-content
 description: Specifies and retrieves the certificate serial number.
 old-location: security\ix509certificaterequestcertificate_serialnumber_property.htm

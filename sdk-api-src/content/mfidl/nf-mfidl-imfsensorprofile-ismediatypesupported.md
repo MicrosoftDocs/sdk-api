@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorProfile.IsMediaTypeSupported
-title: IMFSensorProfile::IsMediaTypeSupported
+title: IMFSensorProfile::IsMediaTypeSupported (mfidl.h)
 author: windows-sdk-content
 description: Determines if a media stream supports the specified media type.
 old-location: mf\imfsensorprofile_ismediatypesupported.htm

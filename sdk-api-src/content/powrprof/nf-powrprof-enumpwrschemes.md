@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.EnumPwrSchemes
-title: EnumPwrSchemes function
+title: EnumPwrSchemes function (powrprof.h)
 author: windows-sdk-content
 description: Enumerates all power schemes.
 old-location: base\enumpwrschemes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.IEnumSyncChanges
-title: IEnumSyncChanges
+title: IEnumSyncChanges (winsync.h)
 author: windows-sdk-content
 description: Enumerates a list of item changes.
 old-location: winsync\ienumsyncchanges.htm

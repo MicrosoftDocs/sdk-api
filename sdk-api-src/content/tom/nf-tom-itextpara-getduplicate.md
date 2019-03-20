@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.GetDuplicate
-title: ITextPara::GetDuplicate
+title: ITextPara::GetDuplicate (tom.h)
 author: windows-sdk-content
 description: Creates a duplicate of the specified paragraph format object. The duplicate property is the default property of an ITextPara object.
 old-location: controls\ITextPara_GetDuplicate.htm

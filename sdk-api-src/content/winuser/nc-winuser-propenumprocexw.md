@@ -1,6 +1,6 @@
 ---
 UID: NC:winuser.PROPENUMPROCEXW
-title: PROPENUMPROCEXW
+title: PROPENUMPROCEXW (winuser.h)
 author: windows-sdk-content
 description: Application-defined callback function used with the EnumPropsEx function.
 old-location: winmsg\propenumprocex.htm

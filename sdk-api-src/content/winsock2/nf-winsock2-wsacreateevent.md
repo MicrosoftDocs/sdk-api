@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSACreateEvent
-title: WSACreateEvent function
+title: WSACreateEvent function (winsock2.h)
 author: windows-sdk-content
 description: The WSACreateEvent function creates a new event object.
 old-location: winsock\wsacreateevent_2.htm

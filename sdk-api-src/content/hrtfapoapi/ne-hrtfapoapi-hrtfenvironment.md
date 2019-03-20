@@ -1,6 +1,6 @@
 ---
 UID: NE:hrtfapoapi.HrtfEnvironment
-title: HrtfEnvironment
+title: HrtfEnvironment (hrtfapoapi.h)
 author: windows-sdk-content
 description: Indicates one of several stock environment types.
 old-location: xaudio2\hrtfenvironment.htm

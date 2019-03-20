@@ -1,6 +1,6 @@
 ---
 UID: NS:wmcontainer.ASF_MUX_STATISTICS
-title: ASF_MUX_STATISTICS
+title: ASF_MUX_STATISTICS (wmcontainer.h)
 author: windows-sdk-content
 description: Contains statistics about the progress of the ASF multiplexer.
 old-location: mf\asf_mux_statistics.htm

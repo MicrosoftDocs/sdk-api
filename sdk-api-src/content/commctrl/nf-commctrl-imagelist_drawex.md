@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_DrawEx
-title: ImageList_DrawEx function
+title: ImageList_DrawEx function (commctrl.h)
 author: windows-sdk-content
 description: Draws an image list item in the specified device context. The function uses the specified drawing style and blends the image with the specified color.
 old-location: controls\ImageList_DrawEx.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMF2DBuffer2.Copy2DTo
-title: IMF2DBuffer2::Copy2DTo
+title: IMF2DBuffer2::Copy2DTo (mfobjects.h)
 author: windows-sdk-content
 description: Copies the buffer to another 2D buffer object.
 old-location: mf\imf2dbuffer2_copy2dto.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Header_GetItemRect
-title: Header_GetItemRect macro
+title: Header_GetItemRect macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the bounding rectangle for a given item in a header control. You can use this macro or send the HDM_GETITEMRECT message explicitly.
 old-location: controls\Header_GetItemRect.htm

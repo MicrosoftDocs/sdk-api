@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.IEnumTfDisplayAttributeInfo
-title: IEnumTfDisplayAttributeInfo
+title: IEnumTfDisplayAttributeInfo (msctf.h)
 author: windows-sdk-content
 description: The IEnumTfDisplayAttributeInfo interface is implemented by the TSF manager to provide an enumeration of display attribute information objects.
 old-location: tsf\ienumtfdisplayattributeinfo.htm

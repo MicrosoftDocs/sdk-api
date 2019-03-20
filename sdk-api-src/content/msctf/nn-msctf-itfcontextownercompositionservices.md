@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfContextOwnerCompositionServices
-title: ITfContextOwnerCompositionServices
+title: ITfContextOwnerCompositionServices (msctf.h)
 author: windows-sdk-content
 description: The ITfContextOwnerCompositionServices interface is implemented by the TSF manager and used by a context owner to manipulate compositions created by a text service.
 old-location: tsf\itfcontextownercompositionservices.htm

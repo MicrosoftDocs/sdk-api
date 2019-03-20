@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProvider.SetSerialization
-title: ICredentialProvider::SetSerialization
+title: ICredentialProvider::SetSerialization (credentialprovider.h)
 author: windows-sdk-content
 description: Sets the serialization characteristics of the credential provider.
 old-location: shell\ICredentialProvider_SetSerialization.htm

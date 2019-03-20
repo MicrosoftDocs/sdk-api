@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeArchiveKey.get_EncryptedKeyBlob
-title: IX509AttributeArchiveKey::get_EncryptedKeyBlob
+title: IX509AttributeArchiveKey::get_EncryptedKeyBlob (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a byte array that contains the encrypted key.
 old-location: security\ix509attributearchivekey_encryptedkeyblob_property.htm

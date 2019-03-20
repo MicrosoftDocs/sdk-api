@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrResolutionHandler.KeepOther
-title: ISyncMgrResolutionHandler::KeepOther
+title: ISyncMgrResolutionHandler::KeepOther (syncmgr.h)
 author: windows-sdk-content
 description: Replaces the versions in conflict with a different Shell item that is usually a merged version of the originals.
 old-location: shell\ISyncMgrResolutionHandler_KeepOther.htm

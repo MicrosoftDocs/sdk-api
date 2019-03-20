@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_8
-title: FILTER_SPEC
+title: FILTER_SPEC (lpmapi.h)
 author: windows-sdk-content
 description: The FILTER_SPEC structure stores information about an RSVP FILTERSPEC.
 old-location: qos\filter_spec.htm

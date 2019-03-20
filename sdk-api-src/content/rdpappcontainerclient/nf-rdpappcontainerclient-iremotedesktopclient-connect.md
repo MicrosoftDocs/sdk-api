@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClient.Connect
-title: IRemoteDesktopClient::Connect
+title: IRemoteDesktopClient::Connect (rdpappcontainerclient.h)
 author: windows-sdk-content
 description: Initiates a connection by using the properties currently set on the Remote Desktop Protocol (RDP) app container client control.
 old-location: termserv\iremotedesktopclient_connect.htm

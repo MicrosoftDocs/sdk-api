@@ -1,6 +1,6 @@
 ---
 UID: NF:websocket.WebSocketBeginClientHandshake
-title: WebSocketBeginClientHandshake function
+title: WebSocketBeginClientHandshake function (websocket.h)
 author: windows-sdk-content
 description: Begins the client-side handshake.
 old-location: websock\websocketbeginclienthandshake.htm

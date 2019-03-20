@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedCulture
-title: IUIAutomationElement::get_CachedCulture
+title: IUIAutomationElement::get_CachedCulture (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached value that indicates the culture associated with the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedCulture.htm

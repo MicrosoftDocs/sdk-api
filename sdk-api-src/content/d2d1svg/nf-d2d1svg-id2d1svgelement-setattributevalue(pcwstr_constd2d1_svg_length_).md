@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.SetAttributeValue(PCWSTR,const D2D1_SVG_LENGTH &)
-title: ID2D1SvgElement::SetAttributeValue(PCWSTR,const D2D1_SVG_LENGTH &)
+title: ID2D1SvgElement::SetAttributeValue(PCWSTR,const D2D1_SVG_LENGTH &) (d2d1svg.h)
 author: windows-sdk-content
 description: Sets an attribute of this element as a length value.
 old-location: direct2d\id2d1svgelement_setattributevalue_16.htm

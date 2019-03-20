@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate2.get_CveIDs
-title: IWindowsDriverUpdate2::get_CveIDs
+title: IWindowsDriverUpdate2::get_CveIDs (wuapi.h)
 author: windows-sdk-content
 description: Contains a collection of the Common Vulnerabilities and Exposures (CVE) identifiers that are associated with an update.
 old-location: wua\iwindowsdriverupdate2_cveids.htm

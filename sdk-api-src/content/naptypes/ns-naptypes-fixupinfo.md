@@ -1,6 +1,6 @@
 ---
 UID: NS:naptypes.tagFixupInfo
-title: FixupInfo
+title: FixupInfo (naptypes.h)
 author: windows-sdk-content
 description: Contains fix-up information for the Sysytem Health Agent (SHA).
 old-location: nap\fixupinfo_struct.htm

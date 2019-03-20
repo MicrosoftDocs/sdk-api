@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.SetPriority
-title: IBackgroundCopyJob::SetPriority
+title: IBackgroundCopyJob::SetPriority (bits.h)
 author: windows-sdk-content
 description: Specifies the priority level of your job. The priority level determines when your job is processed relative to other jobs in the transfer queue.
 old-location: bits\ibackgroundcopyjob_setpriority.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHGetSpecialFolderLocation
-title: SHGetSpecialFolderLocation function
+title: SHGetSpecialFolderLocation function (shlobj_core.h)
 author: windows-sdk-content
 description: SHGetSpecialFolderLocation is not supported and may be altered or unavailable in the future. Instead, use SHGetFolderLocation.
 old-location: shell\SHGetSpecialFolderLocation.htm

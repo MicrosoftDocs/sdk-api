@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIStreamPrevKeyFrame
-title: AVIStreamPrevKeyFrame macro
+title: AVIStreamPrevKeyFrame macro (vfw.h)
 author: windows-sdk-content
 description: The AVIStreamPrevKeyFrame macro locates the key frame that precedes a specified position in a stream.
 old-location: multimedia\avistreamprevkeyframe.htm

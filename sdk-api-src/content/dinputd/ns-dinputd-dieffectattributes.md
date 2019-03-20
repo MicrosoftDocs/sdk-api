@@ -1,6 +1,6 @@
 ---
 UID: NS:dinputd.DIEFFECTATTRIBUTES
-title: DIEFFECTATTRIBUTES
+title: DIEFFECTATTRIBUTES (dinputd.h)
 author: windows-sdk-content
 description: The DIEFFECTATTRIBUTES structure describes the information contained in the &#0034;Attributes&#0034; value of the registry key for each effect that is supported by a force-feedback device.
 old-location: hid\dieffectattributes.htm

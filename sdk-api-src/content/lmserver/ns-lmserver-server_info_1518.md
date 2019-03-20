@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1518
-title: SERVER_INFO_1518
+title: SERVER_INFO_1518 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1518 structure specifies whether the server is visible to LAN Manager 2.x clients.
 old-location: netmgmt\server_info_1518_str.htm

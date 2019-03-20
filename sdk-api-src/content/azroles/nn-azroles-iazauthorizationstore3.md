@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzAuthorizationStore3
-title: IAzAuthorizationStore3
+title: IAzAuthorizationStore3 (azroles.h)
 author: windows-sdk-content
 description: Extends the IAzAuthorizationStore2 interface with methods that manage business rule (BizRule) support and caching.
 old-location: security\iazauthorizationstore3.htm

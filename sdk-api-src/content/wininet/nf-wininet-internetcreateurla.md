@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetCreateUrlA
-title: InternetCreateUrlA function
+title: InternetCreateUrlA function (wininet.h)
 author: windows-sdk-content
 description: Creates a URL from its component parts.
 old-location: wininet\internetcreateurl.htm

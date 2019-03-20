@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IConnector.GetConnectedTo
-title: IConnector::GetConnectedTo
+title: IConnector::GetConnectedTo (devicetopology.h)
 author: windows-sdk-content
 description: The GetConnectedTo method gets the connector to which this connector is connected.
 old-location: coreaudio\iconnector_getconnectedto.htm

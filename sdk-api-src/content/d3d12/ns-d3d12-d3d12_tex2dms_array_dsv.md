@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_TEX2DMS_ARRAY_DSV
-title: D3D12_TEX2DMS_ARRAY_DSV
+title: D3D12_TEX2DMS_ARRAY_DSV (d3d12.h)
 author: windows-sdk-content
 description: Describes the subresources from an array of multi sampled 2D textures for a depth-stencil view.
 old-location: direct3d12\d3d12_tex2dms_array_dsv.htm

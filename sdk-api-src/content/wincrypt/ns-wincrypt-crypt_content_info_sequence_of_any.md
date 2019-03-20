@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY
-title: CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY
+title: CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY (wincrypt.h)
 author: windows-sdk-content
 description: Contains information representing the Netscape certificate sequence of certificates.
 old-location: security\crypt_content_info_sequence_of_any.htm

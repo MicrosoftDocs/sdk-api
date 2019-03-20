@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509CertificateRequestCertificate
-title: IX509CertificateRequestCertificate
+title: IX509CertificateRequestCertificate (certenroll.h)
 author: windows-sdk-content
 description: The IX509CertificateRequestCertificate interface represents a request object for a self-generated certificate, enabling you to create a certificate directly without going through a registration or certification authority.
 old-location: security\ix509certificaterequestcertificate.htm

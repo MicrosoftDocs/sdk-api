@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFSourceBuffer
-title: IMFSourceBuffer
+title: IMFSourceBuffer (mfmediaengine.h)
 author: windows-sdk-content
 description: Represents a buffer which contains media data for a IMFMediaSourceExtension.
 old-location: mf\imfsourcebuffer.htm

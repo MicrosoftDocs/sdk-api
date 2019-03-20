@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite.DWRITE_FONT_WEIGHT
-title: DWRITE_FONT_WEIGHT
+title: DWRITE_FONT_WEIGHT (dwrite.h)
 author: windows-sdk-content
 description: Represents the density of a typeface, in terms of the lightness or heaviness of the strokes.
 old-location: directwrite\dwrite_font_weight.htm

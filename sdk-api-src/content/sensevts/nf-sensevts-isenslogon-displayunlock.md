@@ -1,6 +1,6 @@
 ---
 UID: NF:sensevts.ISensLogon.DisplayUnlock
-title: ISensLogon::DisplayUnlock
+title: ISensLogon::DisplayUnlock (sensevts.h)
 author: windows-sdk-content
 description: The DisplayUnLock method notifies an application that the screen display is unlocked.
 old-location: sens\isenslogon_displayunlock.htm

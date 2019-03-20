@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_Recorder
-title: IDiscFormat2RawCD::get_Recorder
+title: IDiscFormat2RawCD::get_Recorder (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the recording device to use for the write operation.
 old-location: imapi\idiscformat2rawcd_get_recorder.htm

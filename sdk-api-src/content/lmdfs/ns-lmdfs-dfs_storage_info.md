@@ -1,6 +1,6 @@
 ---
 UID: NS:lmdfs._DFS_STORAGE_INFO
-title: DFS_STORAGE_INFO
+title: DFS_STORAGE_INFO (lmdfs.h)
 author: windows-sdk-content
 description: Contains information about a DFS root or link target in a DFS namespace or from the cache maintained by the DFS client.
 old-location: dfs\dfs_storage_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:p2p.peer_record_change_type_tag
-title: PEER_RECORD_CHANGE_TYPE
+title: PEER_RECORD_CHANGE_TYPE (p2p.h)
 author: windows-sdk-content
 description: The PEER_RECORD_CHANGE_TYPE enumeration specifies the changes that can occur to a record.
 old-location: p2p\peer_record_change_type.htm

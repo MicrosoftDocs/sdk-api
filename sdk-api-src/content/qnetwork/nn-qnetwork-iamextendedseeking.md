@@ -1,6 +1,6 @@
 ---
 UID: NN:qnetwork.IAMExtendedSeeking
-title: IAMExtendedSeeking
+title: IAMExtendedSeeking (qnetwork.h)
 author: windows-sdk-content
 description: The IAMExtendedSeeking interface seeks to a marker in a Windows Media stream or changes the playback rate for a Windows Media file. This interface is implemented by the Windows Media Source filter and the WM ASF Reader filter.
 old-location: dshow\iamextendedseeking.htm

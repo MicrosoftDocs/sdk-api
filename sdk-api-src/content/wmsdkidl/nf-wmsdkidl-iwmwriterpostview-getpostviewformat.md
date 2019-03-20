@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostView.GetPostViewFormat
-title: IWMWriterPostView::GetPostViewFormat
+title: IWMWriterPostView::GetPostViewFormat (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetPostViewFormat method retrieves the media properties for the specified output stream and output format.
 old-location: wmformat\iwmwriterpostview_getpostviewformat.htm

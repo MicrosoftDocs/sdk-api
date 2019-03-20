@@ -1,6 +1,6 @@
 ---
 UID: NE:highlevelmonitorconfigurationapi._MC_DISPLAY_TECHNOLOGY_TYPE
-title: MC_DISPLAY_TECHNOLOGY_TYPE
+title: MC_DISPLAY_TECHNOLOGY_TYPE (highlevelmonitorconfigurationapi.h)
 author: windows-sdk-content
 description: Identifies monitor display technologies.
 old-location: monitor\mc_display_technology_type.htm

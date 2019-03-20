@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IObjectProvider.QueryObject
-title: IObjectProvider::QueryObject
+title: IObjectProvider::QueryObject (shobjidl_core.h)
 author: windows-sdk-content
 description: Queries for a specified object.
 old-location: shell\IObjectProvider_QueryObject.htm

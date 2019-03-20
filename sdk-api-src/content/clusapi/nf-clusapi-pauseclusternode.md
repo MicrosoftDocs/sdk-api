@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.PauseClusterNode
-title: PauseClusterNode function
+title: PauseClusterNode function (clusapi.h)
 author: windows-sdk-content
 description: Requests that a node temporarily suspend its cluster activity. The PCLUSAPI_PAUSE_CLUSTER_NODE type defines a pointer to this function.
 old-location: mscs\pauseclusternode.htm

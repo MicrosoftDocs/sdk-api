@@ -1,6 +1,6 @@
 ---
 UID: NF:wintrust.WintrustAddActionID
-title: WintrustAddActionID function
+title: WintrustAddActionID function (wintrust.h)
 author: windows-sdk-content
 description: Adds a trust provider action to the user's system.
 old-location: security\wintrustaddactionid.htm

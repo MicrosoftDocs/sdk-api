@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IMediaControl.Run
-title: IMediaControl::Run
+title: IMediaControl::Run (control.h)
 author: windows-sdk-content
 description: The Run method runs all the filters in the filter graph. While the graph is running, data moves through the graph and is rendered.
 old-location: dshow\imediacontrol_run.htm

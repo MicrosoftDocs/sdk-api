@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptDeleteContext
-title: BCryptDeleteContext function
+title: BCryptDeleteContext function (bcrypt.h)
 author: windows-sdk-content
 description: Deletes an existing CNG configuration context.
 old-location: security\bcryptdeletecontext.htm

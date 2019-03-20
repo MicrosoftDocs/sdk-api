@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.get_DestinationWidth
-title: IBasicVideo::get_DestinationWidth
+title: IBasicVideo::get_DestinationWidth (control.h)
 author: windows-sdk-content
 description: The get_DestinationWidth method retrieves the width of the destination rectangle.
 old-location: dshow\ibasicvideo_get_destinationwidth.htm

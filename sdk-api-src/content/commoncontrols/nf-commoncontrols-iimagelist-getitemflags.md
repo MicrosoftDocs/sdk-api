@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList.GetItemFlags
-title: IImageList::GetItemFlags
+title: IImageList::GetItemFlags (commoncontrols.h)
 author: windows-sdk-content
 description: Gets the flags of an image.
 old-location: controls\IImageList_GetItemFlags.htm

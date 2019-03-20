@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxEncryptionFactory4
-title: IAppxEncryptionFactory4
+title: IAppxEncryptionFactory4 (appxpackaging.h)
 author: windows-sdk-content
 description: Creates objects for encrypting Windows app packages and bundles.
 old-location: appxpkg\iappxencryptionfactory4.htm

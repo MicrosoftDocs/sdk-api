@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccPropServices.DecomposeHwndIdentityString
-title: IAccPropServices::DecomposeHwndIdentityString
+title: IAccPropServices::DecomposeHwndIdentityString (oleacc.h)
 author: windows-sdk-content
 description: Use this method to determine the HWND, object ID, and child ID for the accessible element identified by the identity string.
 old-location: winauto\iaccpropservices_iaccpropservices__decomposehwndidentitystring.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMSG_RECIPIENT_ENCODE_INFO
-title: CMSG_RECIPIENT_ENCODE_INFO
+title: CMSG_RECIPIENT_ENCODE_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains information a message recipient's content encryption key management type.
 old-location: security\cmsg_recipient_encode_info.htm

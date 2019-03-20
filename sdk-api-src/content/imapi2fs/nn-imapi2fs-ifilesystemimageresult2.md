@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2fs.IFileSystemImageResult2
-title: IFileSystemImageResult2
+title: IFileSystemImageResult2 (imapi2fs.h)
 author: windows-sdk-content
 description: The IFileSystemImageResult2 interface allows the data recorder object to retrieve information about modified blocks in images created for rewritable discs.
 old-location: imapi\ifilesystemimageresult2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SspiEncodeAuthIdentityAsStrings
-title: SspiEncodeAuthIdentityAsStrings function
+title: SspiEncodeAuthIdentityAsStrings function (sspi.h)
 author: windows-sdk-content
 description: Encodes the specified authentication identity as three strings.
 old-location: security\sspiencodeauthidentityasstrings.htm

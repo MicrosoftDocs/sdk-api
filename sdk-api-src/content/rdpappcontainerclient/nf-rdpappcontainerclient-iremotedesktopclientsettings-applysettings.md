@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientSettings.ApplySettings
-title: IRemoteDesktopClientSettings::ApplySettings
+title: IRemoteDesktopClientSettings::ApplySettings (rdpappcontainerclient.h)
 author: windows-sdk-content
 description: Stores the specified contents in the RDP file.
 old-location: termserv\iremotedesktopclientsettings_applysettings.htm

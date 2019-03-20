@@ -1,6 +1,6 @@
 ---
 UID: NN:encdec.IXDSCodec
-title: IXDSCodec
+title: IXDSCodec (encdec.h)
 author: windows-sdk-content
 description: The IXDSCodec interface is exposed by the XDS Codec filter. Most applications will not have to use this interface.
 old-location: mstv\ixdscodec.htm

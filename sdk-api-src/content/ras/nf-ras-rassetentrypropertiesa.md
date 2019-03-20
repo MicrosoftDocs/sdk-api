@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasSetEntryPropertiesA
-title: RasSetEntryPropertiesA function
+title: RasSetEntryPropertiesA function (ras.h)
 author: windows-sdk-content
 description: The RasSetEntryProperties function changes the connection information for an entry in the phone book or creates a new phone-book entry.
 old-location: rras\rassetentryproperties.htm

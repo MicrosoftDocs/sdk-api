@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.VariantToRect
-title: IUIAutomation::VariantToRect
+title: IUIAutomation::VariantToRect (uiautomationclient.h)
 author: windows-sdk-content
 description: Converts a VARIANT containing rectangle coordinates to a RECT.
 old-location: winauto\uiauto_IUIAutomation_VariantToRect.htm

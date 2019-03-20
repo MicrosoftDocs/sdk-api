@@ -1,6 +1,6 @@
 ---
 UID: NS:ipxrtdef._IPX_IF_INFO
-title: IPX_IF_INFO
+title: IPX_IF_INFO (ipxrtdef.h)
 author: windows-sdk-content
 description: The IPX_IF_INFO structure stores information for an IPX interface.
 old-location: rras\ipx_if_info.htm

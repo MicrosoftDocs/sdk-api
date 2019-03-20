@@ -1,6 +1,6 @@
 ---
 UID: NC:timeprov.LogTimeProvEventFunc
-title: LogTimeProvEventFunc
+title: LogTimeProvEventFunc (timeprov.h)
 author: windows-sdk-content
 description: Logs a time provider event in the event log.
 old-location: base\logtimeprovevent.htm

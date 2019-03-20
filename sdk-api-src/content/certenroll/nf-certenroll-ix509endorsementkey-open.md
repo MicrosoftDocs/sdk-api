@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EndorsementKey.Open
-title: IX509EndorsementKey::Open
+title: IX509EndorsementKey::Open (certenroll.h)
 author: windows-sdk-content
 description: Opens the endorsement key. The endorsement key must be open before you can retrieve an information from the endorsement key, add or remove certificates, or export the endorsement key.
 old-location: security\ix509endorsementkey_open.htm

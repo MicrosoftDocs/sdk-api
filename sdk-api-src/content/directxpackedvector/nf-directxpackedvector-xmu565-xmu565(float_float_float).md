@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMU565.XMU565(float,float,float)
-title: XMU565::XMU565(float,float,float)
+title: XMU565::XMU565(float,float,float) (directxpackedvector.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMU565 from three float arguments.
 old-location: dxmath\xmu565_ctor_5.htm

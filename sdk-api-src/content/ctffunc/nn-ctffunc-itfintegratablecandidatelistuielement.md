@@ -1,6 +1,6 @@
 ---
 UID: NN:ctffunc.ITfIntegratableCandidateListUIElement
-title: ITfIntegratableCandidateListUIElement
+title: ITfIntegratableCandidateListUIElement (ctffunc.h)
 author: windows-sdk-content
 description: Enables text services and Input Method Editors (IMEs) to adjust UI-less mode behavior.
 old-location: tsf\itfintegratablecandidatelistuielement.htm

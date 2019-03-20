@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.Refresh
-title: IFaxConfiguration::Refresh
+title: IFaxConfiguration::Refresh (faxcomex.h)
 author: windows-sdk-content
 description: Refreshes the object.
 old-location: fax\_mfax_IFaxConfiguration_Refresh.htm

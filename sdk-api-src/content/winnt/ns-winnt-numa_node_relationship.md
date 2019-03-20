@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._NUMA_NODE_RELATIONSHIP
-title: NUMA_NODE_RELATIONSHIP
+title: NUMA_NODE_RELATIONSHIP (winnt.h)
 author: windows-sdk-content
 description: Represents information about a NUMA node in a processor group. This structure is used with the GetLogicalProcessorInformationEx function.
 old-location: base\numa_node_relationship.htm

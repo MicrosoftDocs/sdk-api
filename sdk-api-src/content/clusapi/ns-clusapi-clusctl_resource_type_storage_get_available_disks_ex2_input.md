@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INPUT
-title: CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INPUT
+title: CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INPUT (clusapi.h)
 author: windows-sdk-content
 description: Represents an input buffer for the CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INT control code.
 old-location: mscs\clusctl_resource_type_storage_get_available_disks_ex2_input.htm

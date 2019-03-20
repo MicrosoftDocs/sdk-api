@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPCore2
-title: IWMPCore2
+title: IWMPCore2 (wmp.h)
 author: windows-sdk-content
 description: The IWMPCore2 interface provides a method that supplements the IWMPCore interface.
 old-location: wmp\iwmpcore2.htm

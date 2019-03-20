@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.IEnumTerminalClass
-title: IEnumTerminalClass
+title: IEnumTerminalClass (tapi3if.h)
 author: windows-sdk-content
 description: The IEnumTerminalClass interface provides COM-standard enumeration methods to discover and use the dynamic terminal classes that are available. The ITTerminalSupport::EnumerateDynamicTerminalClasses method returns a pointer to this interface.
 old-location: tapi3\ienumterminalclass.htm

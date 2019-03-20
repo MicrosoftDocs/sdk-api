@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.D3D10StateBlockMaskDisableAll
-title: D3D10StateBlockMaskDisableAll function
+title: D3D10StateBlockMaskDisableAll function (d3d10effect.h)
 author: windows-sdk-content
 description: Disable all state capturing with a state-block mask.
 old-location: direct3d10\d3d10stateblockmaskdisableall.htm

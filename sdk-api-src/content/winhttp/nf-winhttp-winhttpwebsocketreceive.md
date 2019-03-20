@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpWebSocketReceive
-title: WinHttpWebSocketReceive function
+title: WinHttpWebSocketReceive function (winhttp.h)
 author: windows-sdk-content
 description: Receives data from a WebSocket connection.
 old-location: http\winhttpwebsocketreceive.htm

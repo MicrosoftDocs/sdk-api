@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.WritePrivateProfileStringW
-title: WritePrivateProfileStringW function
+title: WritePrivateProfileStringW function (winbase.h)
 author: windows-sdk-content
 description: Copies a string into the specified section of an initialization file.
 old-location: base\writeprivateprofilestring.htm

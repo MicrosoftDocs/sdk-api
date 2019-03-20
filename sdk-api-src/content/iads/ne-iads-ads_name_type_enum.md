@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0050_0001
-title: ADS_NAME_TYPE_ENUM
+title: ADS_NAME_TYPE_ENUM (iads.h)
 author: windows-sdk-content
 description: Specifies the formats used for representing distinguished names.
 old-location: adsi\ads_name_type_enum.htm

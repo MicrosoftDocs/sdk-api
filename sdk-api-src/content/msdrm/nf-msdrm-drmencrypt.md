@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMEncrypt
-title: DRMEncrypt function
+title: DRMEncrypt function (msdrm.h)
 author: windows-sdk-content
 description: Encrypts data.
 old-location: rm\drmencrypt.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:threadpoolapiset.TrySubmitThreadpoolCallback
-title: TrySubmitThreadpoolCallback function
+title: TrySubmitThreadpoolCallback function (threadpoolapiset.h)
 author: windows-sdk-content
 description: Requests that a thread pool worker thread call the specified callback function.
 old-location: base\trysubmitthreadpoolcallback.htm

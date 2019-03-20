@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.AddDifferencedFilesByLastModifyTime
-title: IVssComponent::AddDifferencedFilesByLastModifyTime
+title: IVssComponent::AddDifferencedFilesByLastModifyTime (vswriter.h)
 author: windows-sdk-content
 description: Used by a writer to indicate that a file set (a specified file or files) should be evaluated against a last modification time stamp for inclusion in a time stamped incremental or differential backup using entire files.
 old-location: base\ivsscomponent_adddifferencedfilesbylastmodifytime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.IRecordInfo.RecordInit
-title: IRecordInfo::RecordInit
+title: IRecordInfo::RecordInit (oaidl.h)
 author: windows-sdk-content
 description: Initializes a new instance of a record.
 old-location: automat\irecordinfo_recordinit.htm

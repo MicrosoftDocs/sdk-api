@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertCompareIntegerBlob
-title: CertCompareIntegerBlob function
+title: CertCompareIntegerBlob function (wincrypt.h)
 author: windows-sdk-content
 description: The CertCompareIntegerBlob function compares two integer BLOBs to determine whether they represent equal numeric values.
 old-location: security\certcompareintegerblob.htm

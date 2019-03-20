@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.SafeArrayGetUBound
-title: SafeArrayGetUBound function
+title: SafeArrayGetUBound function (oleauto.h)
 author: windows-sdk-content
 description: Gets the upper bound for any dimension of the specified safe array.
 old-location: automat\safearraygetubound.htm

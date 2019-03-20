@@ -1,6 +1,6 @@
 ---
 UID: NS:schannel._SecPkgContext_SessionInfo
-title: SecPkgContext_SessionInfo
+title: SecPkgContext_SessionInfo (schannel.h)
 author: windows-sdk-content
 description: Specifies whether the session is a reconnection and retrieves a value that identifies the session.
 old-location: security\secpkgcontext_sessioninfo.htm

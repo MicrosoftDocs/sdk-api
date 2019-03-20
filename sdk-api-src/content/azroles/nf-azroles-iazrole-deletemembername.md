@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRole.DeleteMemberName
-title: IAzRole::DeleteMemberName
+title: IAzRole::DeleteMemberName (azroles.h)
 author: windows-sdk-content
 description: Removes the specified account name from the list of accounts that belong to the role.
 old-location: security\iazrole_deletemembername.htm

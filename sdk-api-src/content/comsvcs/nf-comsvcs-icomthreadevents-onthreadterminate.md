@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComThreadEvents.OnThreadTerminate
-title: IComThreadEvents::OnThreadTerminate
+title: IComThreadEvents::OnThreadTerminate (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a single-threaded apartment (STA) thread is terminated.
 old-location: cos\icomthreadevents_onthreadterminate.htm

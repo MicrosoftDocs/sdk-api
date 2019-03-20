@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionTranslateTransform.SetOffsetY
-title: IDCompositionTranslateTransform::SetOffsetY
+title: IDCompositionTranslateTransform::SetOffsetY (dcomp.h)
 author: windows-sdk-content
 description: Changes the value of the OffsetY property of a 2D translation transform.
 old-location: directcomp\idcompositiontranslatetransform_setoffsety_float.htm

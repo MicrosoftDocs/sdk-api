@@ -1,6 +1,6 @@
 ---
 UID: NN:shlobj.IDocViewSite
-title: IDocViewSite
+title: IDocViewSite (shlobj.h)
 author: windows-sdk-content
 description: Used as a site object by the IShellView interface.
 old-location: shell\IDocViewSite.htm

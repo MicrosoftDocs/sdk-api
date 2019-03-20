@@ -1,6 +1,6 @@
 ---
 UID: NF:lpmapi.LPM_AdmitRsvpMsg
-title: LPM_AdmitRsvpMsg function
+title: LPM_AdmitRsvpMsg function (lpmapi.h)
 author: windows-sdk-content
 description: The LPM_AdmitRsvpMsg function is called by the PCM to pass RSVP messages to the LPM for policy based&#8211;admission control decisions.
 old-location: qos\lpm_admitrsvpmsg.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreateMediaBufferFromMediaType
-title: MFCreateMediaBufferFromMediaType function
+title: MFCreateMediaBufferFromMediaType function (mfapi.h)
 author: windows-sdk-content
 description: Allocates a system-memory buffer that is optimal for a specified media type.
 old-location: mf\mfcreatemediabufferfrommediatype.htm

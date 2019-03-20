@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.get_Originator
-title: ITDirectoryObjectConference::get_Originator
+title: ITDirectoryObjectConference::get_Originator (rend.h)
 author: windows-sdk-content
 description: The get_Originator method gets the originator's user name.
 old-location: tapi3\itdirectoryobjectconference_get_originator.htm

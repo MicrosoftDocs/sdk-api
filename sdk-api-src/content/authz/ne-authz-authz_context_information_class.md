@@ -1,6 +1,6 @@
 ---
 UID: NE:authz._AUTHZ_CONTEXT_INFORMATION_CLASS
-title: AUTHZ_CONTEXT_INFORMATION_CLASS
+title: AUTHZ_CONTEXT_INFORMATION_CLASS (authz.h)
 author: windows-sdk-content
 description: Specifies the type of information to be retrieved from an existing AuthzClientContext. This enumeration is used by the AuthzGetInformationFromContext function.
 old-location: security\authz_context_information_class.htm

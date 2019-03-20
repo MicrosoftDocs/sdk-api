@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderSetUserArray.SetUserArray
-title: ICredentialProviderSetUserArray::SetUserArray
+title: ICredentialProviderSetUserArray::SetUserArray (credentialprovider.h)
 author: windows-sdk-content
 description: Called by the system during the initialization of a logon or credential UI to retrieve the set of users to show in that UI.
 old-location: shell\ICredentialProviderSetUserArray_SetUserArray.htm

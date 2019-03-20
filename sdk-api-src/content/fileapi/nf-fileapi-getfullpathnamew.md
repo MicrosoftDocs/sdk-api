@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.GetFullPathNameW
-title: GetFullPathNameW function
+title: GetFullPathNameW function (fileapi.h)
 author: windows-sdk-content
 description: Retrieves the full path and file name of the specified file.
 old-location: fs\getfullpathname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certcli.ICertRequest.GetCACertificate
-title: ICertRequest::GetCACertificate
+title: ICertRequest::GetCACertificate (certcli.h)
 author: windows-sdk-content
 description: Returns the certification authority (CA) certificate for the Certificate Services server.
 old-location: security\icertrequest2_getcacertificate.htm

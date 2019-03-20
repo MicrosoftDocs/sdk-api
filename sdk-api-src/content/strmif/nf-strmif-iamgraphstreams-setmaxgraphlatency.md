@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMGraphStreams.SetMaxGraphLatency
-title: IAMGraphStreams::SetMaxGraphLatency
+title: IAMGraphStreams::SetMaxGraphLatency (strmif.h)
 author: windows-sdk-content
 description: The SetMaxGraphLatency method sets the maximum latency for the graph. You must call the IAMGraphStreams::SyncUsingStreamOffset method before calling this method.
 old-location: dshow\iamgraphstreams_setmaxgraphlatency.htm

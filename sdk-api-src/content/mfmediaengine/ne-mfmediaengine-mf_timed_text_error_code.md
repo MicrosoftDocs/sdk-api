@@ -1,6 +1,6 @@
 ---
 UID: NE:mfmediaengine.MF_TIMED_TEXT_ERROR_CODE
-title: MF_TIMED_TEXT_ERROR_CODE
+title: MF_TIMED_TEXT_ERROR_CODE (mfmediaengine.h)
 author: windows-sdk-content
 description: Specifies the kind error that occurred with a timed text track.
 old-location: mf\mf_timed_text_error_code.htm

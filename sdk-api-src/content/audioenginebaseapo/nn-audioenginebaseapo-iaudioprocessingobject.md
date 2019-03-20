@@ -1,6 +1,6 @@
 ---
 UID: NN:audioenginebaseapo.IAudioProcessingObject
-title: IAudioProcessingObject
+title: IAudioProcessingObject (audioenginebaseapo.h)
 author: windows-sdk-content
 description: System Effects Audio Processing Objects (sAPOs) are typically used in or called from real-time process threads.
 old-location: audio\iaudioprocessingobject.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsRemoveHeader
-title: WsRemoveHeader function
+title: WsRemoveHeader function (webservices.h)
 author: windows-sdk-content
 description: Removes the standard WS_HEADER_TYPE object from a message.
 old-location: wsw\wsremoveheader.htm

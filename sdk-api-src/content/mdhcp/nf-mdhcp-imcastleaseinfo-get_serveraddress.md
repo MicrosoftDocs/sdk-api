@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IMcastLeaseInfo.get_ServerAddress
-title: IMcastLeaseInfo::get_ServerAddress
+title: IMcastLeaseInfo::get_ServerAddress (mdhcp.h)
 author: windows-sdk-content
 description: The get_ServerAddress method obtains a string representing the address of the multicast server granting this lease.
 old-location: tapi3\imcastleaseinfo_get_serveraddress.htm

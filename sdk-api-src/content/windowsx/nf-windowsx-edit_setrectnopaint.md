@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Edit_SetRectNoPaint
-title: Edit_SetRectNoPaint macro
+title: Edit_SetRectNoPaint macro (windowsx.h)
 author: windows-sdk-content
 description: Sets the formatting rectangle of a multiline edit control. This macro is equivalent to Edit_SetRect, except that it does not redraw the edit control window. You can use this macro or send the EM_SETRECTNP message explicitly.
 old-location: controls\Edit_SetRectNoPaint.htm

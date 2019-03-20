@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMVideoMediaProps.SetQuality
-title: IWMVideoMediaProps::SetQuality
+title: IWMVideoMediaProps::SetQuality (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetQuality method specifies the quality setting for the video stream.
 old-location: wmformat\iwmvideomediaprops_setquality.htm

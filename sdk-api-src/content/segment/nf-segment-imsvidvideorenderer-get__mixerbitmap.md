@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get__MixerBitmap
-title: IMSVidVideoRenderer::get__MixerBitmap
+title: IMSVidVideoRenderer::get__MixerBitmap (segment.h)
 author: windows-sdk-content
 description: The get__MixerBitmap method retrieves the Video Mixing Renderer's IVMRMixerBitmap interface, which controls how the VMR mixes a static bitmap.
 old-location: mstv\imsvidvideorenderer_get__mixerbitmap.htm

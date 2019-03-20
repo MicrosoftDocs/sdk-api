@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmreports.IFsrmFileManagementJobManager
-title: IFsrmFileManagementJobManager
+title: IFsrmFileManagementJobManager (fsrmreports.h)
 author: windows-sdk-content
 description: Used to manage file management jobs.
 old-location: fsrm\ifsrmfilemanagementjobmanager.htm

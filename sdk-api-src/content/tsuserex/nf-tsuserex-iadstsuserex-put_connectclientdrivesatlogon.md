@@ -1,6 +1,6 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.put_ConnectClientDrivesAtLogon
-title: IADsTSUserEx::put_ConnectClientDrivesAtLogon
+title: IADsTSUserEx::put_ConnectClientDrivesAtLogon (tsuserex.h)
 author: windows-sdk-content
 description: A value that specifies if mapped client drives should be reconnected when a Remote Desktop Services session is started.
 old-location: termserv\iadstsuserex_connectclientdrivesatlogon.htm

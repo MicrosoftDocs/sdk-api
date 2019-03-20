@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvUnloadFontFile
-title: DrvUnloadFontFile function
+title: DrvUnloadFontFile function (winddi.h)
 author: windows-sdk-content
 description: The DrvUnloadFontFile function informs a font driver that the specified font file is no longer needed.
 old-location: display\drvunloadfontfile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DBaseTexture9.GetAutoGenFilterType
-title: IDirect3DBaseTexture9::GetAutoGenFilterType
+title: IDirect3DBaseTexture9::GetAutoGenFilterType (d3d9.h)
 author: windows-sdk-content
 description: Get the filter type that is used for automatically generated mipmap sublevels.
 old-location: direct3d9\idirect3dbasetexture9__getautogenfiltertype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasEnumAutodialAddressesW
-title: RasEnumAutodialAddressesW function
+title: RasEnumAutodialAddressesW function (ras.h)
 author: windows-sdk-content
 description: The RasEnumAutodialAddresses function returns a list of all addresses in the AutoDial mapping database.
 old-location: rras\rasenumautodialaddresses.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:winnt.PVECTORED_EXCEPTION_HANDLER
-title: PVECTORED_EXCEPTION_HANDLER
+title: PVECTORED_EXCEPTION_HANDLER (winnt.h)
 author: windows-sdk-content
 description: An application-defined function that serves as a vectored exception handler.
 old-location: base\vectoredhandler.htm

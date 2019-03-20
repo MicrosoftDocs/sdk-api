@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLUnregisterEvent
-title: SLUnregisterEvent function
+title: SLUnregisterEvent function (slpublic.h)
 author: windows-sdk-content
 description: Unregisters a registered event in the SL service.
 old-location: security\slunregisterevent.htm

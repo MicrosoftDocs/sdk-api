@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorSplatZ
-title: XMVectorSplatZ function
+title: XMVectorSplatZ function (directxmath.h)
 author: windows-sdk-content
 description: Replicates the z component of a vector to all of the components.
 old-location: dxmath\xmvectorsplatz.htm

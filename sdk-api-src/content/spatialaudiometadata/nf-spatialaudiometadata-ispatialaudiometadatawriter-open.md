@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataWriter.Open
-title: ISpatialAudioMetadataWriter::Open
+title: ISpatialAudioMetadataWriter::Open (spatialaudiometadata.h)
 author: windows-sdk-content
 description: Opens an ISpatialAudioMetadataItems object for writing.
 old-location: coreaudio\ispatialaudiometadatawriter_open.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzScope
-title: IAzScope
+title: IAzScope (azroles.h)
 author: windows-sdk-content
 description: Defines a logical container of resources to which the application manages access.
 old-location: security\iazscope.htm

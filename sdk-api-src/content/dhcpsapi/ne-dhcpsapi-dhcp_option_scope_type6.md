@@ -1,6 +1,6 @@
 ---
 UID: NE:dhcpsapi._DHCP_OPTION_SCOPE_TYPE6
-title: DHCP_OPTION_SCOPE_TYPE6
+title: DHCP_OPTION_SCOPE_TYPE6 (dhcpsapi.h)
 author: windows-sdk-content
 description: Defines the set of possible scopes for DHCP options.
 old-location: dhcp\dhcp_option_scope_type6.htm

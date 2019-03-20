@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IEnumRegFilters
-title: IEnumRegFilters
+title: IEnumRegFilters (strmif.h)
 author: windows-sdk-content
 description: Note  This interface has been deprecated.
 old-location: dshow\ienumregfilters.htm

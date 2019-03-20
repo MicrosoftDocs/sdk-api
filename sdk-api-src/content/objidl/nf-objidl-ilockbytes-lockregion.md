@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ILockBytes.LockRegion
-title: ILockBytes::LockRegion
+title: ILockBytes::LockRegion (objidl.h)
 author: windows-sdk-content
 description: The LockRegion method restricts access to a specified range of bytes in the byte array.
 old-location: stg\ilockbytes_lockregion.htm

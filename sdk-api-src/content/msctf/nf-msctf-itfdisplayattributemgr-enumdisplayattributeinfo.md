@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeMgr.EnumDisplayAttributeInfo
-title: ITfDisplayAttributeMgr::EnumDisplayAttributeInfo
+title: ITfDisplayAttributeMgr::EnumDisplayAttributeInfo (msctf.h)
 author: windows-sdk-content
 description: ITfDisplayAttributeMgr::EnumDisplayAttributeInfo method
 old-location: tsf\itfdisplayattributemgr_enumdisplayattributeinfo.htm

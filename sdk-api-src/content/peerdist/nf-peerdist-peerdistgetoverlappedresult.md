@@ -1,6 +1,6 @@
 ---
 UID: NF:peerdist.PeerDistGetOverlappedResult
-title: PeerDistGetOverlappedResult function
+title: PeerDistGetOverlappedResult function (peerdist.h)
 author: windows-sdk-content
 description: The PeerDistGetOverlappedResult function retrieves the results of asynchronous operations.
 old-location: p2p\peerdistgetoverlappedresult.htm

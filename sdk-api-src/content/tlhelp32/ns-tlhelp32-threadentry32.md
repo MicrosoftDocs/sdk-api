@@ -1,6 +1,6 @@
 ---
 UID: NS:tlhelp32.tagTHREADENTRY32
-title: THREADENTRY32
+title: THREADENTRY32 (tlhelp32.h)
 author: windows-sdk-content
 description: Describes an entry from a list of the threads executing in the system when a snapshot was taken.
 old-location: toolhelp\threadentry32_str.htm

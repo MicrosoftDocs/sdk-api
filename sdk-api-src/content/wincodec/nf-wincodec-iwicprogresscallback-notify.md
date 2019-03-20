@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICProgressCallback.Notify
-title: IWICProgressCallback::Notify
+title: IWICProgressCallback::Notify (wincodec.h)
 author: windows-sdk-content
 description: Notify method is documented only for compliance; its use is not recommended and may be altered or unavailable in the future. Instead, and use RegisterProgressNotification.
 old-location: wic\_wic_codec_iwicprogresscallback_notify.htm

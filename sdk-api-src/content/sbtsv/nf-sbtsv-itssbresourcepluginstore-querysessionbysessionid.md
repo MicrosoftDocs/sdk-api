@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.QuerySessionBySessionId
-title: ITsSbResourcePluginStore::QuerySessionBySessionId
+title: ITsSbResourcePluginStore::QuerySessionBySessionId (sbtsv.h)
 author: windows-sdk-content
 description: Returns the session object that has the specified session ID.
 old-location: termserv\itssbresourcepluginstore_querysessionbysessionid.htm

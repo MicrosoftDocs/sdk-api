@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_Create
-title: ImageList_Create function
+title: ImageList_Create function (commctrl.h)
 author: windows-sdk-content
 description: Creates a new image list.
 old-location: controls\ImageList_Create.htm

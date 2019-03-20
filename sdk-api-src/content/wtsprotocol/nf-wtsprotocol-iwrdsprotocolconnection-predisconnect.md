@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.PreDisconnect
-title: IWRdsProtocolConnection::PreDisconnect
+title: IWRdsProtocolConnection::PreDisconnect (wtsprotocol.h)
 author: windows-sdk-content
 description: Notifies the protocol that the session is about to be disconnected.
 old-location: termserv\iwrdsprotocolconnection_predisconnect.htm

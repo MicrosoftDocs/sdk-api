@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStop.Clone
-title: IXpsOMGradientStop::Clone
+title: IXpsOMGradientStop::Clone (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Makes a deep copy of the IXpsOMGradientStop interface.
 old-location: xps\ixpsomgradientstop_clone.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagBITMAPINFO
-title: BITMAPINFO
+title: BITMAPINFO (wingdi.h)
 author: windows-sdk-content
 description: The BITMAPINFO structure defines the dimensions and color information for a DIB.
 old-location: gdi\bitmapinfo.htm

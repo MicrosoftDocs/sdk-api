@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemServices.CancelAsyncCall
-title: IWbemServices::CancelAsyncCall
+title: IWbemServices::CancelAsyncCall (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemServices::CancelAsyncCall method cancels any currently pending asynchronous calls based on the IWbemObjectSink pointer, which was originally passed to the asynchronous method.
 old-location: wmi\iwbemservices_cancelasynccall.htm

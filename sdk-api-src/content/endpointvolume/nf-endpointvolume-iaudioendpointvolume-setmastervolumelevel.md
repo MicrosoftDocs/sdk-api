@@ -1,6 +1,6 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.SetMasterVolumeLevel
-title: IAudioEndpointVolume::SetMasterVolumeLevel
+title: IAudioEndpointVolume::SetMasterVolumeLevel (endpointvolume.h)
 author: windows-sdk-content
 description: The SetMasterVolumeLevel method sets the master volume level, in decibels, of the audio stream that enters or leaves the audio endpoint device.
 old-location: coreaudio\iaudioendpointvolume_setmastervolumelevel.htm

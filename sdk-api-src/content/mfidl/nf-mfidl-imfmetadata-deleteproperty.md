@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMetadata.DeleteProperty
-title: IMFMetadata::DeleteProperty
+title: IMFMetadata::DeleteProperty (mfidl.h)
 author: windows-sdk-content
 description: Deletes a metadata property.
 old-location: mf\imfmetadata_deleteproperty.htm

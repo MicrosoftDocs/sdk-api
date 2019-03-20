@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectBase.GetAudioObjectType
-title: ISpatialAudioObjectBase::GetAudioObjectType
+title: ISpatialAudioObjectBase::GetAudioObjectType (spatialaudioclient.h)
 author: windows-sdk-content
 description: Gets a value specifying the type of audio object that is represented by the ISpatialAudioObject.
 old-location: coreaudio\ispatialaudioobject_getaudioobjecttype.htm

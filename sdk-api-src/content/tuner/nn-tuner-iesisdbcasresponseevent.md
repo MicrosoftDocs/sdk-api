@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IESIsdbCasResponseEvent
-title: IESIsdbCasResponseEvent
+title: IESIsdbCasResponseEvent (tuner.h)
 author: windows-sdk-content
 description: Implements methods that get information from a Protected Broadcast Driver Architecture (PBDA) IsdbCasResponse event.
 old-location: mstv\iesisdbcasresponseevent.htm

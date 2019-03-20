@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IPerChannelDbLevel.GetChannelCount
-title: IPerChannelDbLevel::GetChannelCount
+title: IPerChannelDbLevel::GetChannelCount (devicetopology.h)
 author: windows-sdk-content
 description: The GetChannelCount method gets the number of channels in the audio stream.
 old-location: coreaudio\iperchanneldblevel_getchannelcount.htm

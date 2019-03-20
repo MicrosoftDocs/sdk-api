@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_WRITER_RAW_ENCODING
-title: WS_XML_WRITER_RAW_ENCODING
+title: WS_XML_WRITER_RAW_ENCODING (webservices.h)
 author: windows-sdk-content
 description: Used to indicate that the writer should emit bytes from decoded base64 characters.
 old-location: wsw\ws_xml_writer_raw_encoding.htm

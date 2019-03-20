@@ -1,6 +1,6 @@
 ---
 UID: NF:tspubplugin2com.ItsPubPlugin2.ResolvePersonalDesktop
-title: ItsPubPlugin2::ResolvePersonalDesktop
+title: ItsPubPlugin2::ResolvePersonalDesktop (tspubplugin2com.h)
 author: windows-sdk-content
 description: Called to resolve a mapping between the specified user and a virtual machine in a personal virtual desktop collection.
 old-location: termserv\itspubplugin2_resolvepersonaldesktop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winsvc._SERVICE_PRESHUTDOWN_INFO
-title: SERVICE_PRESHUTDOWN_INFO
+title: SERVICE_PRESHUTDOWN_INFO (winsvc.h)
 author: windows-sdk-content
 description: Contains preshutdown settings.
 old-location: base\service_preshutdown_info.htm

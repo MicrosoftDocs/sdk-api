@@ -1,6 +1,6 @@
 ---
 UID: NE:ntsecpkg._LSA_TOKEN_INFORMATION_TYPE
-title: LSA_TOKEN_INFORMATION_TYPE
+title: LSA_TOKEN_INFORMATION_TYPE (ntsecpkg.h)
 author: windows-sdk-content
 description: Specifies the levels of information that can be included in a logon token.
 old-location: security\lsa_token_information_type.htm

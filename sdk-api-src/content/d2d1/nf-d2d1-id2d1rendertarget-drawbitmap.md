@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.DrawBitmap
-title: ID2D1RenderTarget::DrawBitmap
+title: ID2D1RenderTarget::DrawBitmap (d2d1.h)
 author: windows-sdk-content
 description: Draws the specified bitmap after scaling it to the size of the specified rectangle.
 old-location: direct2d\ID2D1RenderTarget_DrawBitmap_ptr_ID2D1Bitmap_ptr_D2D_RECT_F_FLOAT_D2D1_BITMAP_INTERPOLATION_MODE_ptr_D2D_RECT_F.htm

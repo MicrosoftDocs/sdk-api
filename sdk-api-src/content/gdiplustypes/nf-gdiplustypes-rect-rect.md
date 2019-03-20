@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.Rect.Rect
-title: Rect::Rect
+title: Rect::Rect (gdiplustypes.h)
 author: windows-sdk-content
 description: Creates a Rect object whose x-coordinate, y-coordinate, width, and height are all zero. This is the default constructor.
 old-location: gdiplus\_gdiplus_CLASS_Rect_Rect_.htm

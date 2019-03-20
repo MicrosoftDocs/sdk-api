@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_3
-title: Rsvp_Hop_IPv4
+title: Rsvp_Hop_IPv4 (lpmapi.h)
 author: windows-sdk-content
 description: The Rsvp_Hop_IPv4 structure stores information about an RSVP-enabled IPv4 hop.
 old-location: qos\rsvp_hop_ipv4.htm

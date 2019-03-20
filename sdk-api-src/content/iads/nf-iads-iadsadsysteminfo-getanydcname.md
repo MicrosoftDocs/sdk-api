@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsADSystemInfo.GetAnyDCName
-title: IADsADSystemInfo::GetAnyDCName
+title: IADsADSystemInfo::GetAnyDCName (iads.h)
 author: windows-sdk-content
 description: Retrieves the DNS name of a domain controller in the local computer's domain.
 old-location: adsi\iadsadsysteminfo_getanydcname.htm

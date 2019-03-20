@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.Rect.Intersect(OUT Rect &,IN const Rect &,IN const Rect &)
-title: Rect::Intersect(OUT Rect &,IN const Rect &,IN const Rect &)
+title: Rect::Intersect(OUT Rect &,IN const Rect &,IN const Rect &) (gdiplustypes.h)
 author: windows-sdk-content
 description: The Rect::Intersect method determines the intersection of two rectangles and stores the result in a Rect object.
 old-location: gdiplus\_gdiplus_CLASS_Rect_Intersect_c_a_b_.htm

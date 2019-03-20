@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDTransportAddress.SetPort
-title: IWSDTransportAddress::SetPort
+title: IWSDTransportAddress::SetPort (wsdbase.h)
 author: windows-sdk-content
 description: Sets only the IP port number for this transport address.
 old-location: ncd\iwsdtransportaddress_setport.htm

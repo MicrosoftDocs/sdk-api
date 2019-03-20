@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmReleaseChangedDests
-title: RtmReleaseChangedDests function
+title: RtmReleaseChangedDests function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmReleaseChangedDests function releases the changed destination handles.
 old-location: rras\rtmreleasechangeddests.htm

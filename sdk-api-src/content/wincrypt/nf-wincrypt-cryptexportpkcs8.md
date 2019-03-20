@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptExportPKCS8
-title: CryptExportPKCS8 function
+title: CryptExportPKCS8 function (wincrypt.h)
 author: windows-sdk-content
 description: Exports the private key in PKCS #8 format. The function is superseded by CryptExportPKCS8Ex, which also may be altered or unavailable in subsequent versions.
 old-location: security\cryptexportpkcs8.htm

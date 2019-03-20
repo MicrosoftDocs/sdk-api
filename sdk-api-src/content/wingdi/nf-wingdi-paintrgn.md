@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.PaintRgn
-title: PaintRgn function
+title: PaintRgn function (wingdi.h)
 author: windows-sdk-content
 description: The PaintRgn function paints the specified region by using the brush currently selected into the device context.
 old-location: gdi\paintrgn.htm

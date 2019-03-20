@@ -1,6 +1,6 @@
 ---
 UID: NF:imm.ImmIsUIMessageW
-title: ImmIsUIMessageW function
+title: ImmIsUIMessageW function (imm.h)
 author: windows-sdk-content
 description: Checks for messages intended for the IME window and sends those messages to the window.
 old-location: intl\immisuimessage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantToInt64
-title: PropVariantToInt64 function
+title: PropVariantToInt64 function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts a LONGLONG value from a PROPVARIANT structure. If no value can be extracted, then a default value is assigned.
 old-location: properties\PropVariantToInt64.htm

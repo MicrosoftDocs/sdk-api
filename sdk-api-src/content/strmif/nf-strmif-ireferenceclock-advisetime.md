@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IReferenceClock.AdviseTime
-title: IReferenceClock::AdviseTime
+title: IReferenceClock::AdviseTime (strmif.h)
 author: windows-sdk-content
 description: The AdviseTime method creates a one-shot advise request.
 old-location: dshow\ireferenceclock_advisetime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:comsvcs.tagCrmLogRecordRead
-title: CrmLogRecordRead
+title: CrmLogRecordRead (comsvcs.h)
 author: windows-sdk-content
 description: Contains unstructured log records for the Compensating Resource Manager (CRM).
 old-location: cos\crmlogrecordread.htm

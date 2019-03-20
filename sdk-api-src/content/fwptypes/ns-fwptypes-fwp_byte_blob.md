@@ -1,6 +1,6 @@
 ---
 UID: NS:fwptypes.FWP_BYTE_BLOB_
-title: FWP_BYTE_BLOB
+title: FWP_BYTE_BLOB (fwptypes.h)
 author: windows-sdk-content
 description: Stores an array containing a variable number of bytes.
 old-location: fwp\fwp_byte_blob_struct.htm

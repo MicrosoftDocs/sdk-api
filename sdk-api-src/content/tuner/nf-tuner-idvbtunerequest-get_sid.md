@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBTuneRequest.get_SID
-title: IDVBTuneRequest::get_SID
+title: IDVBTuneRequest::get_SID (tuner.h)
 author: windows-sdk-content
 description: The get_SID method retrieves the service ID for the network.
 old-location: mstv\idvbtunerequest_get_sid.htm

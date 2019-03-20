@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_CDT.Initialize
-title: IISDB_CDT::Initialize
+title: IISDB_CDT::Initialize (dvbsiparser.h)
 author: windows-sdk-content
 description: Initializes the object by using captured table section data from an Integrated Services Digital Broadcasting System (ISDB) common data table (CDT).
 old-location: mstv\iisdb_cdt_initialize.htm

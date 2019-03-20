@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkTablet.GetPropertyMetrics
-title: IInkTablet::GetPropertyMetrics
+title: IInkTablet::GetPropertyMetrics (msinkaut.h)
 author: windows-sdk-content
 description: Retrieves the metrics data for a specified property.
 old-location: tablet\iinktablet_getpropertymetrics.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectScalarVariable.GetBoolArray
-title: ID3D10EffectScalarVariable::GetBoolArray
+title: ID3D10EffectScalarVariable::GetBoolArray (d3d10effect.h)
 author: windows-sdk-content
 description: Get an array of boolean variables.
 old-location: direct3d10\id3d10effectscalarvariable_getboolarray.htm

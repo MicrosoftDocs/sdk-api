@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.lstrcpynA
-title: lstrcpynA function
+title: lstrcpynA function (winbase.h)
 author: windows-sdk-content
 description: Copies a specified number of characters from a source string into a buffer.Warning  Do not use.
 old-location: menurc\lstrcpyn.htm

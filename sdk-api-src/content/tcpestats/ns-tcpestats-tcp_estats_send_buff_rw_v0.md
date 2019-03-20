@@ -1,6 +1,6 @@
 ---
 UID: NS:tcpestats._TCP_ESTATS_SEND_BUFF_RW_v0
-title: TCP_ESTATS_SEND_BUFF_RW_v0
+title: TCP_ESTATS_SEND_BUFF_RW_v0 (tcpestats.h)
 author: windows-sdk-content
 description: Contains read/write configuration information for extended TCP statistics on output queuing for a TCP connection.
 old-location: iphlp\tcp_estats_send_buff_rw_v0.htm

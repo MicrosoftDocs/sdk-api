@@ -1,6 +1,6 @@
 ---
 UID: NE:syncmgr.SYNCMGR_HANDLER_CAPABILITIES
-title: SYNCMGR_HANDLER_CAPABILITIES
+title: SYNCMGR_HANDLER_CAPABILITIES (syncmgr.h)
 author: windows-sdk-content
 description: Specifies the capabilities of a handler regarding the actions that can be performed against it.
 old-location: shell\SYNCMGR_HANDLER_CAPABILITIES.htm

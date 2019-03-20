@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtTransport.GetEditProperty
-title: IAMExtTransport::GetEditProperty
+title: IAMExtTransport::GetEditProperty (strmif.h)
 author: windows-sdk-content
 description: The GetEditProperty method retrieves parameters and values associated with an edit event.
 old-location: dshow\iamexttransport_geteditproperty.htm

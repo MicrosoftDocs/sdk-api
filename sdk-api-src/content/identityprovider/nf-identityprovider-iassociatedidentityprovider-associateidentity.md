@@ -1,6 +1,6 @@
 ---
 UID: NF:identityprovider.IAssociatedIdentityProvider.AssociateIdentity
-title: IAssociatedIdentityProvider::AssociateIdentity
+title: IAssociatedIdentityProvider::AssociateIdentity (identityprovider.h)
 author: windows-sdk-content
 description: Associates an identity with a local user account.
 old-location: security\iassociatedidentityprovider_associateidentity.htm

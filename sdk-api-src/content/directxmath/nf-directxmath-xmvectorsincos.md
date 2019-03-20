@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorSinCos
-title: XMVectorSinCos function
+title: XMVectorSinCos function (directxmath.h)
 author: windows-sdk-content
 description: Computes the sine and cosine of each component of an XMVECTOR.
 old-location: dxmath\xmvectorsincos.htm

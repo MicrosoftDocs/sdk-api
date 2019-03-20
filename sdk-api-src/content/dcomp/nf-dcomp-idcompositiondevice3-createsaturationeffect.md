@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateSaturationEffect
-title: IDCompositionDevice3::CreateSaturationEffect
+title: IDCompositionDevice3::CreateSaturationEffect (dcomp.h)
 author: windows-sdk-content
 description: Creates an instance of IDCompositionSaturationEffect.
 old-location: directcomp\idcompositiondevice3_createsaturationeffect.htm

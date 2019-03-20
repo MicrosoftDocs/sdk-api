@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleControl.FreezeEvents
-title: IOleControl::FreezeEvents
+title: IOleControl::FreezeEvents (ocidl.h)
 author: windows-sdk-content
 description: Indicates whether the container is ignoring or accepting events from the control.
 old-location: com\iolecontrol_freezeevents.htm

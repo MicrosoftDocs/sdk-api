@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsController.SetStatus
-title: IVdsController::SetStatus
+title: IVdsController::SetStatus (vdshwprv.h)
 author: windows-sdk-content
 description: Sets the status of a controller to the specified value.
 old-location: base\ivdscontroller_setstatus.htm

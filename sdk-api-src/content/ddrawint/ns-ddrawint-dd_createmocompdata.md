@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_CREATEMOCOMPDATA
-title: DD_CREATEMOCOMPDATA
+title: DD_CREATEMOCOMPDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_CREATEMOCOMPDATA structure contains the data required to begin using motion compensation.
 old-location: display\dd_createmocompdata.htm

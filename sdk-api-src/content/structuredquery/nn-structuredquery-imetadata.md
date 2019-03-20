@@ -1,6 +1,6 @@
 ---
 UID: NN:structuredquery.IMetaData
-title: IMetaData
+title: IMetaData (structuredquery.h)
 author: windows-sdk-content
 description: Provides a method for retrieving a key/value pair of strings from an IEntity, IRelationship or ISchemaProvider object.
 old-location: search\_search_IMetaData.htm

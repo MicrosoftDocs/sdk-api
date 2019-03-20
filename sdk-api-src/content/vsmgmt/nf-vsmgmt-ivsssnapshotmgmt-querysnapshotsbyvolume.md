@@ -1,6 +1,6 @@
 ---
 UID: NF:vsmgmt.IVssSnapshotMgmt.QuerySnapshotsByVolume
-title: IVssSnapshotMgmt::QuerySnapshotsByVolume
+title: IVssSnapshotMgmt::QuerySnapshotsByVolume (vsmgmt.h)
 author: windows-sdk-content
 description: Reserved for system use.
 old-location: base\ivsssnapshotmgmt_querysnapshotsbyvolume.htm

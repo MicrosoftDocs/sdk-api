@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPViewerInputSink.SendMouseMoveEvent
-title: IRDPViewerInputSink::SendMouseMoveEvent
+title: IRDPViewerInputSink::SendMouseMoveEvent (rdpencomapi.h)
 author: windows-sdk-content
 description: Sends a mouse move event message.
 old-location: rdp\irdpviewerinputsink_sendmousemoveevent.htm

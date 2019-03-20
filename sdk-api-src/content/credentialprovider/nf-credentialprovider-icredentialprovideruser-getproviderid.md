@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderUser.GetProviderID
-title: ICredentialProviderUser::GetProviderID
+title: ICredentialProviderUser::GetProviderID (credentialprovider.h)
 author: windows-sdk-content
 description: Retrieves the ID of the account provider for this user.
 old-location: shell\ICredentialProviderUser_GetProviderID.htm

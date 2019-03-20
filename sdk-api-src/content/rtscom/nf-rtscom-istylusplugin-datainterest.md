@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IStylusPlugin.DataInterest
-title: IStylusPlugin::DataInterest
+title: IStylusPlugin::DataInterest (rtscom.h)
 author: windows-sdk-content
 description: Retrieves the events for which the plug-in is to receive notifications.
 old-location: tablet\istylusplugin_datainterest.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPropertyPageSite.OnStatusChange
-title: IPropertyPageSite::OnStatusChange
+title: IPropertyPageSite::OnStatusChange (ocidl.h)
 author: windows-sdk-content
 description: Informs the frame that the property page managed by this site has changed its state, that is, one or more property values have been changed in the page. Property pages should call this method whenever changes occur in their dialog boxes.
 old-location: com\ipropertypagesite_onstatuschange.htm

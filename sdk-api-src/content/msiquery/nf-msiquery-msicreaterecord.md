@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiCreateRecord
-title: MsiCreateRecord function
+title: MsiCreateRecord function (msiquery.h)
 author: windows-sdk-content
 description: The MsiCreateRecord function creates a new record object with the specified number of fields. This function returns a handle that should be closed using MsiCloseHandle.
 old-location: setup\msicreaterecord.htm

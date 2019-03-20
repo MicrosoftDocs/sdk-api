@@ -1,6 +1,6 @@
 ---
 UID: NF:iscsidsc.ReportPersistentIScsiDevicesA
-title: ReportPersistentIScsiDevicesA function
+title: ReportPersistentIScsiDevicesA function (iscsidsc.h)
 author: windows-sdk-content
 description: The ReportPersistentIscsiDevices function retrieves the list of persistently bound volumes and devices.
 old-location: iscsidisc\reportpersistentiscsidevices.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassifierModuleImplementation.OnEndFile
-title: IFsrmClassifierModuleImplementation::OnEndFile
+title: IFsrmClassifierModuleImplementation::OnEndFile (fsrmpipeline.h)
 author: windows-sdk-content
 description: Instructs the classifier to perform any cleanup after processing a file.
 old-location: fsrm\ifsrmclassifiermoduleimplementation_onendfile.htm

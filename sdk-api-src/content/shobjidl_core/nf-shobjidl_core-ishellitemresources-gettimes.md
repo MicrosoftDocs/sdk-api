@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItemResources.GetTimes
-title: IShellItemResources::GetTimes
+title: IShellItemResources::GetTimes (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets file times.
 old-location: shell\IShellItemResources_GetTimes.htm

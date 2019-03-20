@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsResetError
-title: WsResetError function
+title: WsResetError function (webservices.h)
 author: windows-sdk-content
 description: Releases the content of the error object parameter but does not release the resource allocated to the error object parameter.
 old-location: wsw\wsreseterror.htm

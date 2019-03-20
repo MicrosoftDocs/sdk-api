@@ -1,6 +1,6 @@
 ---
 UID: NF:indexsrv.IStemmer.Init
-title: IStemmer::Init
+title: IStemmer::Init (indexsrv.h)
 author: windows-sdk-content
 description: Initializes the stemmer.
 old-location: search\_search_IStemmer_Init.htm

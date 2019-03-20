@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.SysReAllocStringLen
-title: SysReAllocStringLen function
+title: SysReAllocStringLen function (oleauto.h)
 author: windows-sdk-content
 description: Creates a new BSTR containing a specified number of characters from an old BSTR, and frees the old BSTR.
 old-location: automat\sysreallocstringlen.htm

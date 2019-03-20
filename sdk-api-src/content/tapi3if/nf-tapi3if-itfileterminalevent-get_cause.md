@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITFileTerminalEvent.get_Cause
-title: ITFileTerminalEvent::get_Cause
+title: ITFileTerminalEvent::get_Cause (tapi3if.h)
 author: windows-sdk-content
 description: The get_Cause method gets the cause associated with this event.
 old-location: tapi3\itfileterminalevent_get_cause.htm

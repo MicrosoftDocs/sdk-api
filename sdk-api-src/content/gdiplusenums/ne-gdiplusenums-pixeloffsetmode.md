@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.PixelOffsetMode
-title: PixelOffsetMode
+title: PixelOffsetMode (gdiplusenums.h)
 author: windows-sdk-content
 description: The PixelOffsetMode enumeration specifies the pixel offset mode of a Graphics object. This enumeration is used by the Graphics::GetPixelOffsetMode and Graphics::SetPixelOffsetMode methods of the Graphics class.
 old-location: gdiplus\_gdiplus_ENUM_PixelOffsetMode.htm

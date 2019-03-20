@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_RAISE_FLAG
-title: D3D11_RAISE_FLAG
+title: D3D11_RAISE_FLAG (d3d11.h)
 author: windows-sdk-content
 description: Option(s) for raising an error to a non-continuable exception.
 old-location: direct3d11\d3d11_raise_flag.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformations.Add
-title: ICspInformations::Add
+title: ICspInformations::Add (certenroll.h)
 author: windows-sdk-content
 description: Adds an ICspInformation object to the collection.
 old-location: security\icspinformations_add_method.htm

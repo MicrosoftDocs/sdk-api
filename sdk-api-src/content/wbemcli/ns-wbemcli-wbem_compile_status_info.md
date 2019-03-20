@@ -1,6 +1,6 @@
 ---
 UID: NS:wbemcli.tag_CompileStatusInfo
-title: WBEM_COMPILE_STATUS_INFO
+title: WBEM_COMPILE_STATUS_INFO (wbemcli.h)
 author: windows-sdk-content
 description: Describes an error for the IMofCompiler interface.
 old-location: wmi\wbem_compile_status_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantToInt16WithDefault
-title: PropVariantToInt16WithDefault function
+title: PropVariantToInt16WithDefault function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts the Int16 property value of a PROPVARIANT structure. If no value currently exists, then specified default value is returned.
 old-location: properties\PropVariantToInt16WithDefault.htm

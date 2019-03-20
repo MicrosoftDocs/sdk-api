@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptFormatObject
-title: CryptFormatObject function
+title: CryptFormatObject function (wincrypt.h)
 author: windows-sdk-content
 description: The CryptFormatObject function formats the encoded data and returns a Unicode string in the allocated buffer according to the certificate encoding type.
 old-location: security\cryptformatobject.htm

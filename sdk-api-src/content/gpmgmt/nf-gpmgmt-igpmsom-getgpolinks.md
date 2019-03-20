@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMSOM.GetGPOLinks
-title: IGPMSOM::GetGPOLinks
+title: IGPMSOM::GetGPOLinks (gpmgmt.h)
 author: windows-sdk-content
 description: Returns a GPMGPOLinksCollection object that contains the GPO links for the scope of management (SOM). The collection is sorted in the SOM link order and contains both enabled and disabled links. See IGPMGPOLink for the definition of SOM link order.
 old-location: gpmc\igpmsom_getgpolinks.htm

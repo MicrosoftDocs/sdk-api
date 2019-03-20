@@ -1,6 +1,6 @@
 ---
 UID: NE:accctrl._PROGRESS_INVOKE_SETTING
-title: PROG_INVOKE_SETTING
+title: PROG_INVOKE_SETTING (accctrl.h)
 author: windows-sdk-content
 description: Indicates the initial setting of the function used to track the progress of a call to the TreeSetNamedSecurityInfo or TreeResetNamedSecurityInfo function.
 old-location: security\prog_invoke_setting.htm

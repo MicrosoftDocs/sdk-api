@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.ISnapinAbout.GetProvider
-title: ISnapinAbout::GetProvider
+title: ISnapinAbout::GetProvider (mmc.h)
 author: windows-sdk-content
 description: The ISnapinAbout::GetProvider method enables the console to obtain the snap-in provider name.
 old-location: mmc\isnapinabout_getprovider.htm

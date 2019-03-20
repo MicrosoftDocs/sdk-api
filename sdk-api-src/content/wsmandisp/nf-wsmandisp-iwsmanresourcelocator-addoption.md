@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.AddOption
-title: IWSManResourceLocator::AddOption
+title: IWSManResourceLocator::AddOption (wsmandisp.h)
 author: windows-sdk-content
 description: Adds data required to process the request. For example, some WMI providers may require an IWbemContext or SWbemNamedValueSet object with provider-specific information.
 old-location: winrm\iwsmanresourcelocator_addoption.htm

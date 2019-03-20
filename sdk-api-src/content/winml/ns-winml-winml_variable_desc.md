@@ -1,6 +1,6 @@
 ---
 UID: NS:winml.WINML_VARIABLE_DESC
-title: WINML_VARIABLE_DESC
+title: WINML_VARIABLE_DESC (winml.h)
 author: windows-sdk-content
 description: Contains description properties of the variable.
 old-location: machinelearning\winml_variable_desc.htm

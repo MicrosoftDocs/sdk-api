@@ -1,6 +1,6 @@
 ---
 UID: NF:srpapi.SrpGetEnterpriseIds
-title: SrpGetEnterpriseIds function
+title: SrpGetEnterpriseIds function (srpapi.h)
 author: windows-sdk-content
 description: Gets the list of enterprise identifiers for the given token.
 old-location: edp\srpgetenterpriseids.htm

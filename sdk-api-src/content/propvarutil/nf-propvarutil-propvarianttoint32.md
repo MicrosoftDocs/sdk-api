@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantToInt32
-title: PropVariantToInt32 function
+title: PropVariantToInt32 function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts the Int32 property value of a PROPVARIANT structure. If no value can be extracted, then a default value is assigned.
 old-location: properties\PropVariantToInt32.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.GetLineSpacing
-title: FontFamily::GetLineSpacing
+title: FontFamily::GetLineSpacing (gdiplusheaders.h)
 author: windows-sdk-content
 description: The FontFamily::GetLineSpacing method gets the line spacing, in design units, of this font family for the specified style or style combination. The line spacing is the vertical distance between the base lines of two consecutive lines of text.
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_GetLineSpacing_style_.htm

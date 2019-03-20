@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMStreamControl.GetInfo
-title: IAMStreamControl::GetInfo
+title: IAMStreamControl::GetInfo (strmif.h)
 author: windows-sdk-content
 description: The GetInfo method retrieves information about the current stream-control settings, including the start and stop times.
 old-location: dshow\iamstreamcontrol_getinfo.htm

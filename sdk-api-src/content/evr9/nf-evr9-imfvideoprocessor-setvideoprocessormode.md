@@ -1,6 +1,6 @@
 ---
 UID: NF:evr9.IMFVideoProcessor.SetVideoProcessorMode
-title: IMFVideoProcessor::SetVideoProcessorMode
+title: IMFVideoProcessor::SetVideoProcessorMode (evr9.h)
 author: windows-sdk-content
 description: Sets the preferred video processor mode. The EVR will attempt to use this mode when playback starts.
 old-location: mf\imfvideoprocessor_setvideoprocessormode.htm

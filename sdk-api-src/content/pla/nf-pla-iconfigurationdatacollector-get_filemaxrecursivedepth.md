@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IConfigurationDataCollector.get_FileMaxRecursiveDepth
-title: IConfigurationDataCollector::get_FileMaxRecursiveDepth
+title: IConfigurationDataCollector::get_FileMaxRecursiveDepth (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the maximum number of subfolders from which to recursively collect files.
 old-location: pla\iconfigurationdatacollector_filemaxrecursivedepth.htm

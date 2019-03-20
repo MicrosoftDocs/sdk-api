@@ -1,6 +1,6 @@
 ---
 UID: NF:mgmtapi.SnmpMgrGetTrap
-title: SnmpMgrGetTrap function
+title: SnmpMgrGetTrap function (mgmtapi.h)
 author: windows-sdk-content
 description: The SnmpMgrGetTrap function returns outstanding trap data that the caller has not received if trap reception is enabled. This function is an element of the SNMP Management API.
 old-location: snmp\snmpmgrgettrap.htm

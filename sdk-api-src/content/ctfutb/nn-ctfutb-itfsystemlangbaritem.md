@@ -1,6 +1,6 @@
 ---
 UID: NN:ctfutb.ITfSystemLangBarItem
-title: ITfSystemLangBarItem
+title: ITfSystemLangBarItem (ctfutb.h)
 author: windows-sdk-content
 description: The ITfSystemLangBarItem interface is implemented by a system language bar menu and is used by a system language bar extension to modify the icon and/or tooltip string displayed for the menu.
 old-location: tsf\itfsystemlangbaritem.htm

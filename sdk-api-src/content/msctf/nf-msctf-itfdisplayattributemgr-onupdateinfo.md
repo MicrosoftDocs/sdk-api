@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeMgr.OnUpdateInfo
-title: ITfDisplayAttributeMgr::OnUpdateInfo
+title: ITfDisplayAttributeMgr::OnUpdateInfo (msctf.h)
 author: windows-sdk-content
 description: ITfDisplayAttributeMgr::OnUpdateInfo method
 old-location: tsf\itfdisplayattributemgr_onupdateinfo.htm

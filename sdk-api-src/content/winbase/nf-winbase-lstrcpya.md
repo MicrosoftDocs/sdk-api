@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.lstrcpyA
-title: lstrcpyA function
+title: lstrcpyA function (winbase.h)
 author: windows-sdk-content
 description: Copies a string to a buffer.
 old-location: menurc\lstrcpy.htm

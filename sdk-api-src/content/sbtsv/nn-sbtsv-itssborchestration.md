@@ -1,6 +1,6 @@
 ---
 UID: NN:sbtsv.ITsSbOrchestration
-title: ITsSbOrchestration
+title: ITsSbOrchestration (sbtsv.h)
 author: windows-sdk-content
 description: Exposes methods that Remote Desktop Connection Broker (RD Connection Broker) uses to ensure that the target is ready before a client is redirected to it.
 old-location: termserv\itssborchestration.htm

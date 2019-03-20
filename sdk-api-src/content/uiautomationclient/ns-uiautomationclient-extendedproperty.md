@@ -1,6 +1,6 @@
 ---
 UID: NS:uiautomationclient.ExtendedProperty
-title: ExtendedProperty
+title: ExtendedProperty (uiautomationclient.h)
 author: windows-sdk-content
 description: Contains information about an extended property.
 old-location: winauto\uiauto_extendedproperty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ListBox_FindItemData
-title: ListBox_FindItemData macro
+title: ListBox_FindItemData macro (windowsx.h)
 author: windows-sdk-content
 description: Finds the first item in a list box that has the specified item data. You can use this macro or send the LB_FINDSTRING message explicitly.
 old-location: controls\ListBox_FindItemData.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemHiPerfProvider.StopRefreshing
-title: IWbemHiPerfProvider::StopRefreshing
+title: IWbemHiPerfProvider::StopRefreshing (wbemprov.h)
 author: windows-sdk-content
 description: Stops refreshing the object or enumerator corresponding to the supplied identifier.
 old-location: wmi\iwbemhiperfprovider_stoprefreshing.htm

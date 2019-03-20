@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfReverseConversionMgr.GetReverseConversion
-title: ITfReverseConversionMgr::GetReverseConversion
+title: ITfReverseConversionMgr::GetReverseConversion (msctf.h)
 author: windows-sdk-content
 description: Retrieves an ITfReverseConversion object that can perform reverse conversions.
 old-location: tsf\itfreverseconversionmgr_getreverseconversion.htm

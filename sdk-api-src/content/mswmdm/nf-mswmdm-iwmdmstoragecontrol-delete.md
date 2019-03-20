@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorageControl.Delete
-title: IWMDMStorageControl::Delete
+title: IWMDMStorageControl::Delete (mswmdm.h)
 author: windows-sdk-content
 description: The Delete method permanently deletes this storage.
 old-location: wmdm\iwmdmstoragecontrol_delete.htm

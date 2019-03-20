@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0_
-title: IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0
+title: IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0 (ipsectypes.h)
 author: windows-sdk-content
 description: Stores aggregate IPsec kernel packet drop statistics.Note  IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0 is the specific implementation of IPSEC_AGGREGATE_DROP_PACKET_STATISTICS used in Windows Vista.
 old-location: fwp\ipsec_aggregate_drop_packet_statistics0_struct.htm

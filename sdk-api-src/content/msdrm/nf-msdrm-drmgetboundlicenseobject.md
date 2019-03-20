@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMGetBoundLicenseObject
-title: DRMGetBoundLicenseObject function
+title: DRMGetBoundLicenseObject function (msdrm.h)
 author: windows-sdk-content
 description: Returns an object from a bound license.
 old-location: rm\drmgetboundlicenseobject.htm

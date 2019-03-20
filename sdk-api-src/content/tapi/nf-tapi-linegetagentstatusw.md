@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineGetAgentStatusW
-title: lineGetAgentStatusW function
+title: lineGetAgentStatusW function (tapi.h)
 author: windows-sdk-content
 description: The lineGetAgentStatus function obtains the agent-related status on the specified address.
 old-location: tapi2\linegetagentstatus.htm

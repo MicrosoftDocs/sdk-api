@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IObjectWithCancelEvent.GetCancelEvent
-title: IObjectWithCancelEvent::GetCancelEvent
+title: IObjectWithCancelEvent::GetCancelEvent (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves an event that will be sent when an operation is canceled.
 old-location: shell\IObjectWithCancelEvent_GetCancelEvent.htm

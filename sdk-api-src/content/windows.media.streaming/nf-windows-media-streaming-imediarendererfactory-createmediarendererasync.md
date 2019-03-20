@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IMediaRendererFactory.CreateMediaRendererAsync
-title: IMediaRendererFactory::streaming
+title: IMediaRendererFactory::streaming (windows.media.streaming.h)
 author: windows-sdk-content
 description: Asynchronously creates a new instance of an object that implements the IMediaRenderer interface using the specified Unique Device Name (UDN).
 old-location: mediastreaming\imediarendererfactory_createmediarendererasync.htm

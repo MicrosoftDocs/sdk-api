@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcFactory.CreatePackage
-title: IOpcFactory::CreatePackage
+title: IOpcFactory::CreatePackage (msopc.h)
 author: windows-sdk-content
 description: Creates a package object that represents an empty package.
 old-location: opc\iopcfactory_createpackage.htm

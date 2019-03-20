@@ -1,6 +1,6 @@
 ---
 UID: NS:t2embapi.__unnamed_struct_3
-title: TTVALIDATIONTESTSPARAMSEX
+title: TTVALIDATIONTESTSPARAMSEX (t2embapi.h)
 author: windows-sdk-content
 description: The TTVALIDATIONTESTSPARAMSEX structure contains parameters for testing a Microsoft OpenType font.
 old-location: gdi\ttvalidationtestparamsex.htm

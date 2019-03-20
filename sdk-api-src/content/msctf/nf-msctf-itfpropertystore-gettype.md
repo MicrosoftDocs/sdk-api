@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfPropertyStore.GetType
-title: ITfPropertyStore::GetType
+title: ITfPropertyStore::GetType (msctf.h)
 author: windows-sdk-content
 description: ITfPropertyStore::GetType method
 old-location: tsf\itfpropertystore_gettype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.SetEmboss
-title: ITextFont::SetEmboss
+title: ITextFont::SetEmboss (tom.h)
 author: windows-sdk-content
 description: Sets whether characters are embossed.
 old-location: controls\ITextFont_SetEmboss.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:qos._QOS_SD_MODE
-title: QOS_SD_MODE
+title: QOS_SD_MODE (qos.h)
 author: windows-sdk-content
 description: The QOS object QOS_SD_MODE defines the behavior of the traffic control-packet shaper component.
 old-location: qos\qos_sd_mode.htm

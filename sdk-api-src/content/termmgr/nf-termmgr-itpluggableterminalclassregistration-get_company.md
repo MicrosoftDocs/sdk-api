@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.get_Company
-title: ITPluggableTerminalClassRegistration::get_Company
+title: ITPluggableTerminalClassRegistration::get_Company (termmgr.h)
 author: windows-sdk-content
 description: The get_Company method gets the name of the company that issued this pluggable terminal.
 old-location: tapi3\itpluggableterminalclassregistration_get_company.htm

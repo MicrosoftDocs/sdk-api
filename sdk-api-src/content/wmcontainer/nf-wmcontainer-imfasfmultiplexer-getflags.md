@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFMultiplexer.GetFlags
-title: IMFASFMultiplexer::GetFlags
+title: IMFASFMultiplexer::GetFlags (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves flags indicating the configured multiplexer options.
 old-location: mf\imfasfmultiplexer_getflags.htm

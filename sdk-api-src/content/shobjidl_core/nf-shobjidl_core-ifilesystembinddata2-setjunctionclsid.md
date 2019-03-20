@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileSystemBindData2.SetJunctionCLSID
-title: IFileSystemBindData2::SetJunctionCLSID
+title: IFileSystemBindData2::SetJunctionCLSID (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the class identifier (CLSID) of the object that implements IShellFolder, if the current item is a junction point.
 old-location: shell\IFileSystemBindData2_SetJunctionCLSID.htm

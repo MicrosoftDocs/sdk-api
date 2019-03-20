@@ -1,6 +1,6 @@
 ---
 UID: NN:wbemprov.IWbemProviderInitSink
-title: IWbemProviderInitSink
+title: IWbemProviderInitSink (wbemprov.h)
 author: windows-sdk-content
 description: The IWbemProviderInitSink interface is implemented by WMI and called by providers to report initialization status.
 old-location: wmi\iwbemproviderinitsink.htm

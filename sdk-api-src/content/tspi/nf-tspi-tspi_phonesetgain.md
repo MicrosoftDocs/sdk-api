@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_phoneSetGain
-title: TSPI_phoneSetGain function
+title: TSPI_phoneSetGain function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_phoneSetGain function sets the gain of the microphone of the specified hookswitch device to the specified gain level.
 old-location: tspi\tspi_phonesetgain.htm

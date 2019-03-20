@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.ISurfaceImageSourceManagerNative.FlushAllSurfacesWithDevice
-title: ISurfaceImageSourceManagerNative::xaml
+title: ISurfaceImageSourceManagerNative::xaml (windows.ui.xaml.media.dxinterop.h)
 author: windows-sdk-content
 description: Flushes all current GPU work for all SurfaceImageSource or VirtualSurfaceImageSource objects associated with the given device.
 old-location: winrt\isurfaceimagesourcemanagernative_flushallsurfaceswithdevice.htm

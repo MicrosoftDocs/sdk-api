@@ -1,6 +1,6 @@
 ---
 UID: NS:tsgpolicyengine.__MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0003
-title: AAAccountingData
+title: AAAccountingData (tsgpolicyengine.h)
 author: windows-sdk-content
 description: This structure contains information about a connection event.
 old-location: termserv\aaaccountingdata.htm

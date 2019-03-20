@@ -1,6 +1,6 @@
 ---
 UID: NF:imagehlp.SetImageConfigInformation
-title: SetImageConfigInformation function
+title: SetImageConfigInformation function (imagehlp.h)
 author: windows-sdk-content
 description: Locates and changes the load configuration data of an image.
 old-location: base\setimageconfiginformation.htm

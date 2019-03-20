@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComThreadEvents.OnThreadUnassignApartment
-title: IComThreadEvents::OnThreadUnassignApartment
+title: IComThreadEvents::OnThreadUnassignApartment (comsvcs.h)
 author: windows-sdk-content
 description: Generated when an activity is unassigned from an apartment thread.
 old-location: cos\icomthreadevents_onthreadunassignapartment.htm

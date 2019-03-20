@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDeskBar.OnPosRectChangeDB
-title: IDeskBar::OnPosRectChangeDB
+title: IDeskBar::OnPosRectChangeDB (shobjidl_core.h)
 author: windows-sdk-content
 description: Notifies the object that the rectangle has changed.
 old-location: shell\IDeskBar_OnPosRectChangeDB.htm

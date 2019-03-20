@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationUpdateManager.Update
-title: IDirectManipulationUpdateManager::Update
+title: IDirectManipulationUpdateManager::Update (directmanipulation.h)
 author: windows-sdk-content
 description: Updates Direct Manipulation at the current time.
 old-location: directmanipulation\idirectmanipulationupdatemanager_update.htm

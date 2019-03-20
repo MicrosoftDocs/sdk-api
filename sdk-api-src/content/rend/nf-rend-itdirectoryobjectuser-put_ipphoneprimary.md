@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObjectUser.put_IPPhonePrimary
-title: ITDirectoryObjectUser::put_IPPhonePrimary
+title: ITDirectoryObjectUser::put_IPPhonePrimary (rend.h)
 author: windows-sdk-content
 description: The put_IPPhonePrimary method sets the name of a machine as the primary IP phone for a user.
 old-location: tapi3\itdirectoryobjectuser_put_ipphoneprimary.htm

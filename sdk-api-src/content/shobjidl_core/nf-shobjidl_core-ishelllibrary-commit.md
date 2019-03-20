@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.Commit
-title: IShellLibrary::Commit
+title: IShellLibrary::Commit (shobjidl_core.h)
 author: windows-sdk-content
 description: Commits library updates to an existing Library Description file.
 old-location: shell\IShellLibrary_Commit.htm

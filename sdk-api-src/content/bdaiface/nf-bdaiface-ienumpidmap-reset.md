@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IEnumPIDMap.Reset
-title: IEnumPIDMap::Reset
+title: IEnumPIDMap::Reset (bdaiface.h)
 author: windows-sdk-content
 description: The Reset method moves the iterator to the beginning of the collection.
 old-location: dshow\ienumpidmap_reset.htm

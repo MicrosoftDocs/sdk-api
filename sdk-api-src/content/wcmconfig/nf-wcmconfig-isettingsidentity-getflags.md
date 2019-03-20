@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsIdentity.GetFlags
-title: ISettingsIdentity::GetFlags
+title: ISettingsIdentity::GetFlags (wcmconfig.h)
 author: windows-sdk-content
 description: Returns the flags for a namespace identity.
 old-location: smi\isettingsidentity_getflags.htm

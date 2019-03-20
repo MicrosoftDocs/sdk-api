@@ -1,6 +1,6 @@
 ---
 UID: NF:heapapi.HeapCreate
-title: HeapCreate function
+title: HeapCreate function (heapapi.h)
 author: windows-sdk-content
 description: Creates a private heap object that can be used by the calling process. The function reserves space in the virtual address space of the process and allocates physical storage for a specified initial portion of this block.
 old-location: base\heapcreate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPreviewHandler.SetRect
-title: IPreviewHandler::SetRect
+title: IPreviewHandler::SetRect (shobjidl_core.h)
 author: windows-sdk-content
 description: Directs the preview handler to change the area within the parent hwnd that it draws into.
 old-location: shell\IPreviewHandler_SetRect.htm

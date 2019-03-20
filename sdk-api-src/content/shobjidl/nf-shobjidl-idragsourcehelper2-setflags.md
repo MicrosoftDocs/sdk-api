@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IDragSourceHelper2.SetFlags
-title: IDragSourceHelper2::SetFlags
+title: IDragSourceHelper2::SetFlags (shobjidl.h)
 author: windows-sdk-content
 description: Sets the characteristics of a drag-and-drop operation over an IDragSourceHelper object.
 old-location: shell\IDragSourceHelper2_SetFlags.htm

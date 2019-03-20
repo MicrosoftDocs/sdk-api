@@ -1,6 +1,6 @@
 ---
 UID: NS:commdlg.tagOFNA
-title: OPENFILENAMEA
+title: OPENFILENAMEA (commdlg.h)
 author: windows-sdk-content
 description: Contains information that the GetOpenFileName and GetSaveFileName functions use to initialize an Open or Save As dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure.
 old-location: dlgbox\openfilename_str.htm

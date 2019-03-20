@@ -1,6 +1,6 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIPerfCounterLogger
-title: IRDPSRAPIPerfCounterLogger
+title: IRDPSRAPIPerfCounterLogger (rdpencomapi.h)
 author: windows-sdk-content
 description: Enables a client application to implement custom performance logging.
 old-location: rdp\irdpsrapiperfcounterlogger.htm

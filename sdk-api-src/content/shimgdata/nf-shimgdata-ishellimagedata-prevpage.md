@@ -1,6 +1,6 @@
 ---
 UID: NF:shimgdata.IShellImageData.PrevPage
-title: IShellImageData::PrevPage
+title: IShellImageData::PrevPage (shimgdata.h)
 author: windows-sdk-content
 description: Switches to the previous page of a multipage image. Any associated animations are reset.
 old-location: shell\IShellImageData_PrevPage.htm

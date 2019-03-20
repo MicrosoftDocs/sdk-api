@@ -1,6 +1,6 @@
 ---
 UID: NE:winevt._EVT_QUERY_FLAGS
-title: EVT_QUERY_FLAGS
+title: EVT_QUERY_FLAGS (winevt.h)
 author: windows-sdk-content
 description: Defines the values that specify how to return the query results and whether you are query against a channel or log file.
 old-location: wes\evt_query_flags.htm

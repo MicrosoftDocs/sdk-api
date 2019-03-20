@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.FillOpacityMask
-title: ID2D1CommandSink::FillOpacityMask
+title: ID2D1CommandSink::FillOpacityMask (d2d1_1.h)
 author: windows-sdk-content
 description: Fills an opacity mask on the command sink.
 old-location: direct2d\id2d1commandsink_fillopacitymask.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcCertificateEnumerator.MovePrevious
-title: IOpcCertificateEnumerator::MovePrevious
+title: IOpcCertificateEnumerator::MovePrevious (msopc.h)
 author: windows-sdk-content
 description: Moves the current position of the enumerator to the previous CERT_CONTEXT structure.
 old-location: opc\iopccertificateenumerator_moveprevious.htm

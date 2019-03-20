@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPropertyPage.Activate
-title: IPropertyPage::Activate
+title: IPropertyPage::Activate (ocidl.h)
 author: windows-sdk-content
 description: Creates the dialog box window for the property page.
 old-location: com\ipropertypage_activate.htm

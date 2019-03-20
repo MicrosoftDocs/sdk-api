@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.CreateEditableStream
-title: CreateEditableStream function
+title: CreateEditableStream function (vfw.h)
 author: windows-sdk-content
 description: The CreateEditableStream function creates an editable stream. Use this function before using other stream editing functions.
 old-location: multimedia\createeditablestream.htm

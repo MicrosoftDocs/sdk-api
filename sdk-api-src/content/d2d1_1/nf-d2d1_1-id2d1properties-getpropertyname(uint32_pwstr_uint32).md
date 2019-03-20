@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1Properties.GetPropertyName(UINT32,PWSTR,UINT32)
-title: ID2D1Properties::GetPropertyName(UINT32,PWSTR,UINT32)
+title: ID2D1Properties::GetPropertyName(UINT32,PWSTR,UINT32) (d2d1_1.h)
 author: windows-sdk-content
 description: Gets the property name that corresponds to the given index.
 old-location: direct2d\id2d1properties_getpropertyname.htm

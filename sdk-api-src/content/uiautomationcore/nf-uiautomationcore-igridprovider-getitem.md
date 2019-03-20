@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IGridProvider.GetItem
-title: IGridProvider::GetItem
+title: IGridProvider::GetItem (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves the Microsoft UI Automation provider for the specified cell.
 old-location: winauto\uiauto_IGridProvider_GetItem.htm

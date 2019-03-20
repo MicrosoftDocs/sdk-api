@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._TOKEN_ACCESS_INFORMATION
-title: TOKEN_ACCESS_INFORMATION
+title: TOKEN_ACCESS_INFORMATION (winnt.h)
 author: windows-sdk-content
 description: Specifies all the information in a token that is necessary to perform an access check.
 old-location: security\token_access_information.htm

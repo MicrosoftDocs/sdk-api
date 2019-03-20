@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.SetConnectionName
-title: IWMStreamConfig::SetConnectionName
+title: IWMStreamConfig::SetConnectionName (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetConnectionName method specifies a name for an input. If the profile you are creating contains multiple bit rate mutual exclusion, each of the mutually exclusive streams must have the same connection name.
 old-location: wmformat\iwmstreamconfig_setconnectionname.htm

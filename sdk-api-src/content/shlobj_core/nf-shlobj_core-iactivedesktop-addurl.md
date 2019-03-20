@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.AddUrl
-title: IActiveDesktop::AddUrl
+title: IActiveDesktop::AddUrl (shlobj_core.h)
 author: windows-sdk-content
 description: Adds the desktop item associated with the specified URL.
 old-location: lwef\iactivedesktop_addurl_method.htm

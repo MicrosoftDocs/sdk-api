@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorBaryCentricV
-title: XMVectorBaryCentricV function
+title: XMVectorBaryCentricV function (directxmath.h)
 author: windows-sdk-content
 description: Returns a point in Barycentric coordinates, using the specified position vectors.
 old-location: dxmath\xmvectorbarycentricv.htm

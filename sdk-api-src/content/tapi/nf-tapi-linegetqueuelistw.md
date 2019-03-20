@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineGetQueueListW
-title: lineGetQueueListW function
+title: lineGetQueueListW function (tapi.h)
 author: windows-sdk-content
 description: The lineGetQueueList function returns a list of queues associated with a particular ACD Group.
 old-location: tapi2\linegetqueuelist.htm

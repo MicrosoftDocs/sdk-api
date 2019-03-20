@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite.DWRITE_READING_DIRECTION
-title: DWRITE_READING_DIRECTION
+title: DWRITE_READING_DIRECTION (dwrite.h)
 author: windows-sdk-content
 description: Specifies the direction in which reading progresses.
 old-location: directwrite\dwrite_reading_direction.htm

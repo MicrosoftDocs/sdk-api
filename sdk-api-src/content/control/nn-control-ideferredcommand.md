@@ -1,6 +1,6 @@
 ---
 UID: NN:control.IDeferredCommand
-title: IDeferredCommand
+title: IDeferredCommand (control.h)
 author: windows-sdk-content
 description: The IDeferredCommand interface cancels or modify graph-control commands that were queued using the IQueueCommand interface.When an application calls an IQueueCommand method on the Filter Graph Manager, it receives a pointer to the IDeferredCommand interface. The application can use the interface to cancel or postpone the command, or retrieve the return value from the command.
 old-location: dshow\ideferredcommand.htm

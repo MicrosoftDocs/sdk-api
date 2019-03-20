@@ -1,6 +1,6 @@
 ---
 UID: NF:locationapi.ILatLongReport.GetLatitude
-title: ILatLongReport::GetLatitude
+title: ILatLongReport::GetLatitude (locationapi.h)
 author: windows-sdk-content
 description: Retrieves the latitude, in degrees.
 old-location: winlocation_com_ref\ilatlongreport_getlatitude.htm

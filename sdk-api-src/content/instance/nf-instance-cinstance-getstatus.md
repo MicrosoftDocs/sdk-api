@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.GetStatus
-title: CInstance::GetStatus
+title: CInstance::GetStatus (instance.h)
 author: windows-sdk-content
 description: The GetStatus method determines whether a property exists and, if so, determines its type.
 old-location: wmi\cinstance_getstatus.htm

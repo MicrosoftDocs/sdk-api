@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelperEx.ReconfirmLowHealth
-title: INetDiagHelperEx::ReconfirmLowHealth
+title: INetDiagHelperEx::ReconfirmLowHealth (ndhelper.h)
 author: windows-sdk-content
 description: Used to add a second Low Health pass after hypotheses have been diagnosed and before repairs are retrieved.
 old-location: ndf\inetdiaghelperex_reconfirmlowhealth.htm

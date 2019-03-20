@@ -1,6 +1,6 @@
 ---
 UID: NF:userenv.DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName
-title: DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName function
+title: DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName function (userenv.h)
 author: windows-sdk-content
 description: DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName is reserved for future use.
 old-location: shell\deriverestrictedappcontainersidfromappcontainersidandrestrictedname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.getMyStore
-title: IEnroll::getMyStore
+title: IEnroll::getMyStore (xenroll.h)
 author: windows-sdk-content
 description: The getMyStore method is not implemented.
 old-location: security\ienroll4_getmystore.htm

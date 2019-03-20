@@ -1,6 +1,6 @@
 ---
 UID: NE:wuapi.tagDownloadPriority
-title: DownloadPriority
+title: DownloadPriority (wuapi.h)
 author: windows-sdk-content
 description: Defines the possible priorities for a download operation.
 old-location: wua\downloadpriority.htm

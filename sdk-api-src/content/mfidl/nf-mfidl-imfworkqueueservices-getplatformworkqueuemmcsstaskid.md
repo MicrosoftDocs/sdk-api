@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFWorkQueueServices.GetPlatformWorkQueueMMCSSTaskId
-title: IMFWorkQueueServices::GetPlatformWorkQueueMMCSSTaskId
+title: IMFWorkQueueServices::GetPlatformWorkQueueMMCSSTaskId (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the Multimedia Class Scheduler Service (MMCSS) task identifier for a specified platform work queue.
 old-location: mf\imfworkqueueservices_getplatformworkqueuemmcsstaskid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRMixerControl9.SetBackgroundClr
-title: IVMRMixerControl9::SetBackgroundClr
+title: IVMRMixerControl9::SetBackgroundClr (vmr9.h)
 author: windows-sdk-content
 description: The SetBackgroundClr method sets the background color on the output rectangle.
 old-location: dshow\ivmrmixercontrol9_setbackgroundclr.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0000_0000_0022
-title: ADS_PREFERENCES_ENUM
+title: ADS_PREFERENCES_ENUM (iads.h)
 author: windows-sdk-content
 description: The ADS_PREFERENCES_ENUM enumeration specifies the query preferences of the OLE DB provider for ADSI.
 old-location: adsi\ads_preferences_enum.htm

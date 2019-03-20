@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IDeviceTopology.GetSignalPath
-title: IDeviceTopology::GetSignalPath
+title: IDeviceTopology::GetSignalPath (devicetopology.h)
 author: windows-sdk-content
 description: The GetSignalPath method gets a list of parts in the signal path that links two parts, if the path exists.
 old-location: coreaudio\idevicetopology_getsignalpath.htm

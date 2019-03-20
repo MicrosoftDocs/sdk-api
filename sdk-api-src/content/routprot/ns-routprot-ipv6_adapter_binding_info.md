@@ -1,6 +1,6 @@
 ---
 UID: NS:routprot.IPV6_ADAPTER_BINDING_INFO
-title: IPV6_ADAPTER_BINDING_INFO
+title: IPV6_ADAPTER_BINDING_INFO (routprot.h)
 author: windows-sdk-content
 description: The IPV6_ADAPTER_BINDING_INFO structure contains IPv6-specific information for a particular network adapter.
 old-location: rras\ipv6_adapter_binding_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.Flush
-title: ID2D1RenderTarget::Flush
+title: ID2D1RenderTarget::Flush (d2d1.h)
 author: windows-sdk-content
 description: Executes all pending drawing commands.
 old-location: direct2d\ID2D1RenderTarget_Flush.htm

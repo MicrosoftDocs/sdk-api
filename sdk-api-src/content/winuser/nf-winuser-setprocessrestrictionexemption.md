@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetProcessRestrictionExemption
-title: SetProcessRestrictionExemption function
+title: SetProcessRestrictionExemption function (winuser.h)
 author: windows-sdk-content
 description: Exempts the calling process from restrictions preventing desktop processes from interacting with the Windows Store app environment. This function is used by development and debugging tools.
 old-location: base\setprocessrestrictionexemption.htm

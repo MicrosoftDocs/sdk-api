@@ -1,6 +1,6 @@
 ---
 UID: NS:amva._tag_AMVABUFFERINFO
-title: AMVABUFFERINFO
+title: AMVABUFFERINFO (amva.h)
 author: windows-sdk-content
 description: The AMVABUFFERINFO structure specifies a buffer for the IAMVideoAccelerator::Execute method.
 old-location: dshow\amvabufferinfo.htm

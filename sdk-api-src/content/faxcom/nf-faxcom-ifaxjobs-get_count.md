@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxJobs.get_Count
-title: IFaxJobs::get_Count
+title: IFaxJobs::get_Count (faxcom.h)
 author: windows-sdk-content
 description: The IFaxJobs::get_Count method returns the number of queued fax jobs associated with the connected fax server.
 old-location: fax\_mfax_ifaxjobs_get_count.htm

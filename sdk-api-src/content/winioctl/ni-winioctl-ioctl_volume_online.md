@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_VOLUME_ONLINE
-title: IOCTL_VOLUME_ONLINE
+title: IOCTL_VOLUME_ONLINE (winioctl.h)
 author: windows-sdk-content
 description: Brings a volume online.
 old-location: fs\ioctl_volume_online.htm

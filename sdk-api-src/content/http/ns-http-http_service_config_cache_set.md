@@ -1,6 +1,6 @@
 ---
 UID: NS:http.__unnamed_struct_0
-title: HTTP_SERVICE_CONFIG_CACHE_SET
+title: HTTP_SERVICE_CONFIG_CACHE_SET (http.h)
 author: windows-sdk-content
 description: Used in the pConfigInformation parameter of the HttpSetServiceConfiguration function.
 old-location: http\http_service_config_cache_set.htm

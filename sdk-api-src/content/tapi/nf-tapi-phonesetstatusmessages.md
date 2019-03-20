@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.phoneSetStatusMessages
-title: phoneSetStatusMessages function
+title: phoneSetStatusMessages function (tapi.h)
 author: windows-sdk-content
 description: The phoneSetStatusMessages function enables an application to monitor the specified phone device for selected status events.
 old-location: tapi2\phonesetstatusmessages.htm

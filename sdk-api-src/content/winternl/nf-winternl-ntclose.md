@@ -1,6 +1,6 @@
 ---
 UID: NF:winternl.NtClose
-title: NtClose function
+title: NtClose function (winternl.h)
 author: windows-sdk-content
 description: Deprecated. Closes the specified handle. NtClose is superseded by CloseHandle.
 old-location: winprog\ntclose.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:imapi2._IMAPI_FORMAT2_DATA_MEDIA_STATE
-title: IMAPI_FORMAT2_DATA_MEDIA_STATE
+title: IMAPI_FORMAT2_DATA_MEDIA_STATE (imapi2.h)
 author: windows-sdk-content
 description: Defines values for the possible media states.
 old-location: imapi\imapi_format2_data_media_state.htm

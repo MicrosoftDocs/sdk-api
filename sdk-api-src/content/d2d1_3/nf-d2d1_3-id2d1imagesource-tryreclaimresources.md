@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1ImageSource.TryReclaimResources
-title: ID2D1ImageSource::TryReclaimResources
+title: ID2D1ImageSource::TryReclaimResources (d2d1_3.h)
 author: windows-sdk-content
 description: Restores access to resources that were previously offered by calling OfferResources.
 old-location: direct2d\id2d1imagesource_tryreclaimresources.htm

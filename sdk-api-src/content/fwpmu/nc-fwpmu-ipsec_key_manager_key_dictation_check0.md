@@ -1,6 +1,6 @@
 ---
 UID: NC:fwpmu.IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0
-title: IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0
+title: IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0 (fwpmu.h)
 author: windows-sdk-content
 description: Indicates whether the Trusted Intermediary Agent (TIA) will dictate the keys for the SA being negotiated.
 old-location: fwp\ipsec_key_manager_key_dictation_check0.htm

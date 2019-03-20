@@ -1,6 +1,6 @@
 ---
 UID: NF:wincred.CredUIStoreSSOCredW
-title: CredUIStoreSSOCredW function
+title: CredUIStoreSSOCredW function (wincred.h)
 author: windows-sdk-content
 description: The CredUIStoreSSOCredW function stores a single logon credential.
 old-location: security\creduistoressocredw.htm

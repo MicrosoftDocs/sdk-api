@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.put_BufferUnderrunFreeDisabled
-title: IDiscFormat2Data::put_BufferUnderrunFreeDisabled
+title: IDiscFormat2Data::put_BufferUnderrunFreeDisabled (imapi2.h)
 author: windows-sdk-content
 description: Determines if Buffer Underrun Free recording is enabled.
 old-location: imapi\idiscformat2data_put_bufferunderrunfreedisabled.htm

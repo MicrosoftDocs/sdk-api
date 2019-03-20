@@ -1,6 +1,6 @@
 ---
 UID: NF:amxmlgraphbuilder.IXMLGraphBuilder.BuildFromXML
-title: IXMLGraphBuilder::BuildFromXML
+title: IXMLGraphBuilder::BuildFromXML (amxmlgraphbuilder.h)
 author: windows-sdk-content
 description: The BuildFromXML method loads a filter graph from an XML element.
 old-location: dshow\ixmlgraphbuilder_buildfromxml.htm

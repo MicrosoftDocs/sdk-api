@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.linetermcaps_tag
-title: LINETERMCAPS
+title: LINETERMCAPS (tapi.h)
 author: windows-sdk-content
 description: The LINETERMCAPS structure describes the capabilities of a line's terminal device. The LINEDEVCAPS structure can contain an array of LINETERMCAPS structures.
 old-location: tapi2\linetermcaps_str.htm

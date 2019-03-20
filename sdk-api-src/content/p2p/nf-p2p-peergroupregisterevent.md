@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGroupRegisterEvent
-title: PeerGroupRegisterEvent function
+title: PeerGroupRegisterEvent function (p2p.h)
 author: windows-sdk-content
 description: The PeerGroupRegisterEvent function registers a peer for specific peer group events.
 old-location: p2p\peergroupregisterevent.htm

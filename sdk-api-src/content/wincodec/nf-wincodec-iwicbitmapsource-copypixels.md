@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapSource.CopyPixels
-title: IWICBitmapSource::CopyPixels
+title: IWICBitmapSource::CopyPixels (wincodec.h)
 author: windows-sdk-content
 description: Instructs the object to produce pixels.
 old-location: wic\_wic_codec_iwicbitmapsource_copypixels.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wtsdefs.__unnamed_enum_1
-title: WTS_RCM_DRAIN_STATE
+title: WTS_RCM_DRAIN_STATE (wtsdefs.h)
 author: windows-sdk-content
 description: Contains information about the drain state of the Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wts_rcm_drain_state.htm

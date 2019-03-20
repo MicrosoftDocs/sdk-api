@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwOpenPort.put_IpVersion
-title: INetFwOpenPort::put_IpVersion
+title: INetFwOpenPort::put_IpVersion (netfw.h)
 author: windows-sdk-content
 description: Specifies the IP version setting for this port.
 old-location: ics\inetfwopenport_ipversion.htm

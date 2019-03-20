@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IMenuButton.AddButton
-title: IMenuButton::AddButton
+title: IMenuButton::AddButton (mmc.h)
 author: windows-sdk-content
 description: The IMenuButton::AddButton method enables a user to add a button to the MMC menu bar for a particular view.
 old-location: mmc\imenubutton_addbutton.htm

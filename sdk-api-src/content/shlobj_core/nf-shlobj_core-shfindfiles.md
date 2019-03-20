@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHFindFiles
-title: SHFindFiles function
+title: SHFindFiles function (shlobj_core.h)
 author: windows-sdk-content
 description: SHFindFiles may be altered or unavailable.
 old-location: shell\SHFindFiles.htm

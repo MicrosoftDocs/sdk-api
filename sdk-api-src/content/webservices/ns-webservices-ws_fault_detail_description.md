@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_FAULT_DETAIL_DESCRIPTION
-title: WS_FAULT_DETAIL_DESCRIPTION
+title: WS_FAULT_DETAIL_DESCRIPTION (webservices.h)
 author: windows-sdk-content
 description: A description of the detail element of a fault message.
 old-location: wsw\ws_fault_detail_description.htm

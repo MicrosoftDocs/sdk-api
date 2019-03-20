@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509Extensions
-title: IX509Extensions
+title: IX509Extensions (certenroll.h)
 author: windows-sdk-content
 description: The IX509Extensions interface defines the following methods and properties to manage a collection of IX509Extension objects.
 old-location: security\ix509extensions.htm

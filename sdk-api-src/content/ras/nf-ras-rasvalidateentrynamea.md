@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasValidateEntryNameA
-title: RasValidateEntryNameA function
+title: RasValidateEntryNameA function (ras.h)
 author: windows-sdk-content
 description: The RasValidateEntryName function validates the format of a connection entry name. The name must contain at least one non-white-space alphanumeric character.
 old-location: rras\rasvalidateentryname.htm

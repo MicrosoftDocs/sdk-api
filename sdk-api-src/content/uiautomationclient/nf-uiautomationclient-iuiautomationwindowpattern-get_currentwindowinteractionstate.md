@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CurrentWindowInteractionState
-title: IUIAutomationWindowPattern::get_CurrentWindowInteractionState
+title: IUIAutomationWindowPattern::get_CurrentWindowInteractionState (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the current state of the window for the purposes of user interaction.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CurrentWindowInteractionState.htm

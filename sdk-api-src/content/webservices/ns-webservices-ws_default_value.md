@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_DEFAULT_VALUE
-title: WS_DEFAULT_VALUE
+title: WS_DEFAULT_VALUE (webservices.h)
 author: windows-sdk-content
 description: Defines a default value for a field. This is used in a WS_FIELD_DESCRIPTION.
 old-location: wsw\ws_default_value.htm

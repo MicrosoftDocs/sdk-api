@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.VirtualizedItemPattern_Realize
-title: VirtualizedItemPattern_Realize function
+title: VirtualizedItemPattern_Realize function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Makes the virtual item fully accessible as a UI Automation element.
 old-location: winauto\uiauto_VirtualizedItemPattern_Realize.htm

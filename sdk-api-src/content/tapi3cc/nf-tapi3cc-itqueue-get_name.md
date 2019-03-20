@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITQueue.get_Name
-title: ITQueue::get_Name
+title: ITQueue::get_Name (tapi3cc.h)
 author: windows-sdk-content
 description: The get_Name method gets the queue name.
 old-location: tapi3\itqueue_get_name.htm

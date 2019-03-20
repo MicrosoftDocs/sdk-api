@@ -1,6 +1,6 @@
 ---
 UID: NF:bits2_0.IBackgroundCopyJob3.GetFileACLFlags
-title: IBackgroundCopyJob3::GetFileACLFlags
+title: IBackgroundCopyJob3::GetFileACLFlags (bits2_0.h)
 author: windows-sdk-content
 description: Retrieves the flags that identify the owner and ACL information to maintain when transferring a file using SMB.
 old-location: bits\ibackgroundcopyjob3_getfileaclflags.htm

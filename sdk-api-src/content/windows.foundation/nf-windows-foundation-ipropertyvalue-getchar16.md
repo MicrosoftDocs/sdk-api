@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetChar16
-title: IPropertyValue::IPropertyValue
+title: IPropertyValue::IPropertyValue (windows.foundation.h)
 author: windows-sdk-content
 description: Gets the Unicode character that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getchar16.htm

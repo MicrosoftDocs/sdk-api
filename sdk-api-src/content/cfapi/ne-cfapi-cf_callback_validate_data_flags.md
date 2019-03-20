@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_CALLBACK_VALIDATE_DATA_FLAGS
-title: CF_CALLBACK_VALIDATE_DATA_FLAGS
+title: CF_CALLBACK_VALIDATE_DATA_FLAGS (cfapi.h)
 author: windows-sdk-content
 description: Flags to validate the data of a placeholder file or directory.
 old-location: cloudapi\cf_callback_validate_data_flags.htm

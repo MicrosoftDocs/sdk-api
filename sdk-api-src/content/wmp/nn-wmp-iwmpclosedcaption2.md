@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPClosedCaption2
-title: IWMPClosedCaption2
+title: IWMPClosedCaption2 (wmp.h)
 author: windows-sdk-content
 description: The IWMPClosedCaption2 interface provides closed captioning methods that supplement the IWMPClosedCaption interface.
 old-location: wmp\iwmpclosedcaption2.htm

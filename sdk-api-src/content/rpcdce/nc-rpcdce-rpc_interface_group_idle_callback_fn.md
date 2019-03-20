@@ -1,6 +1,6 @@
 ---
 UID: NC:rpcdce.RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN
-title: RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN
+title: RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN (rpcdce.h)
 author: windows-sdk-content
 description: The RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN is a user-defined callback that can be implemented for each defined interface group. This callback is invoked by the RPC runtime when it detects that the idle state of an interface group has changed.
 old-location: rpc\rpc_interface_group_idle_callback_fn.htm

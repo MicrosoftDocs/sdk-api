@@ -1,6 +1,6 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0024
-title: MPEG_TIME
+title: MPEG_TIME (mpeg2structs.h)
 author: windows-sdk-content
 description: The MPEG_TIME structure represents a time of day, or a duration.
 old-location: mstv\mpeg_time.htm

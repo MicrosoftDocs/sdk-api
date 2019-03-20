@@ -1,6 +1,6 @@
 ---
 UID: NN:mstask.ITask
-title: ITask
+title: ITask (mstask.h)
 author: windows-sdk-content
 description: Provides the methods for running tasks, getting or setting task information, and terminating tasks. It is derived from the IScheduledWorkItem interface and inherits all the methods of that interface.
 old-location: taskschd\itask.htm

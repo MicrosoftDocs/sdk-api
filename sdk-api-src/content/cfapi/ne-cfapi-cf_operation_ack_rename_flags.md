@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_OPERATION_ACK_RENAME_FLAGS
-title: CF_OPERATION_ACK_RENAME_FLAGS
+title: CF_OPERATION_ACK_RENAME_FLAGS (cfapi.h)
 author: windows-sdk-content
 description: Flags for acknowledging placeholder file or directory renaming.
 old-location: cloudapi\cf_operation_ack_rename_flags.htm

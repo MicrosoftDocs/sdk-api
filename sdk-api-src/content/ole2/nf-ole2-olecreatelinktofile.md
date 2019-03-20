@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleCreateLinkToFile
-title: OleCreateLinkToFile function
+title: OleCreateLinkToFile function (ole2.h)
 author: windows-sdk-content
 description: Creates an object that is linked to a file.
 old-location: com\olecreatelinktofile.htm

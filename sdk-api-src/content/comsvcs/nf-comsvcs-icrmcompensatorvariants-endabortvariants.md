@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmCompensatorVariants.EndAbortVariants
-title: ICrmCompensatorVariants::EndAbortVariants
+title: ICrmCompensatorVariants::EndAbortVariants (comsvcs.h)
 author: windows-sdk-content
 description: Notifies the CRM Compensator that it has received all the log records available during the abort phase.
 old-location: cos\icrmcompensatorvariants_endabortvariants.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.PushLayer(const D2D1_LAYER_PARAMETERS1 &,ID2D1Layer)
-title: ID2D1DeviceContext::PushLayer(const D2D1_LAYER_PARAMETERS1 &,ID2D1Layer)
+title: ID2D1DeviceContext::PushLayer(const D2D1_LAYER_PARAMETERS1 &,ID2D1Layer) (d2d1_1.h)
 author: windows-sdk-content
 description: Push a layer onto the clip and layer stack of the device context.
 old-location: direct2d\id2d1devicecontext_pushlayer.htm

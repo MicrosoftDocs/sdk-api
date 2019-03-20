@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IResultsFolder
-title: IResultsFolder
+title: IResultsFolder (shobjidl.h)
 author: windows-sdk-content
 description: Exposes methods that hold items from a data object.
 old-location: shell\IResultsFolder.htm

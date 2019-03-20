@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMallocSpy.PostFree
-title: IMallocSpy::PostFree
+title: IMallocSpy::PostFree (objidl.h)
 author: windows-sdk-content
 description: Performs operations required after calling IMalloc::Free.
 old-location: com\imallocspy_postfree.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineOPMInfo.GetOPMInfo
-title: IMFMediaEngineOPMInfo::GetOPMInfo
+title: IMFMediaEngineOPMInfo::GetOPMInfo (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets status information about the Output Protection Manager (OPM).
 old-location: mf\imfmediaengineopminfo_getopminfo.htm

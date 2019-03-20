@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionArithmeticCompositeEffect.SetCoefficient4(IDCompositionAnimation)
-title: IDCompositionArithmeticCompositeEffect::SetCoefficient4(IDCompositionAnimation)
+title: IDCompositionArithmeticCompositeEffect::SetCoefficient4(IDCompositionAnimation) (dcomp.h)
 author: windows-sdk-content
 description: Sets the fourth coefficient for the equation used to composite the two input images.
 old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient4_2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12sdklayers.D3D12_MESSAGE_ID
-title: D3D12_MESSAGE_ID
+title: D3D12_MESSAGE_ID (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Specifies debug message IDs for setting up an info-queue filter (see D3D12_INFO_QUEUE_FILTER); use these messages to allow or deny message categories to pass through the storage and retrieval filters.
 old-location: direct3d12\d3d12_message_id.htm

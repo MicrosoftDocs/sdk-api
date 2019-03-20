@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServiceActivity.UnbindFromThread
-title: IServiceActivity::UnbindFromThread
+title: IServiceActivity::UnbindFromThread (comsvcs.h)
 author: windows-sdk-content
 description: Unbinds the user-defined batch work from the thread on which it is running.
 old-location: cos\iserviceactivity_unbindfromthread.htm

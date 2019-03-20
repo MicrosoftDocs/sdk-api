@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif._AM_INTF_SEARCH_FLAGS
-title: "_AM_INTF_SEARCH_FLAGS"
+title: "_AM_INTF_SEARCH_FLAGS" (strmif.h)
 author: windows-sdk-content
 description: Specifies the types of object to search, when attempting to find an interface on the filter graph.
 old-location: dshow\am_intf_search_flags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_BIT.GetCountOfTableDescriptors
-title: IISDB_BIT::GetCountOfTableDescriptors
+title: IISDB_BIT::GetCountOfTableDescriptors (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the broadcaster_descriptors_length field value from an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
 old-location: mstv\iisdb_bit_getcountoftabledescriptors.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:winml.WINML_FEATURE_TYPE
-title: WINML_FEATURE_TYPE
+title: WINML_FEATURE_TYPE (winml.h)
 author: windows-sdk-content
 description: Specifies the different types of WinML features.
 old-location: machinelearning\winml_feature_type.htm

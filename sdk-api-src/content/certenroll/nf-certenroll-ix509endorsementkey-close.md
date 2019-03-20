@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EndorsementKey.Close
-title: IX509EndorsementKey::Close
+title: IX509EndorsementKey::Close (certenroll.h)
 author: windows-sdk-content
 description: Closes the endorsement key. You can only call the Close method after the Open method has been successfully called.
 old-location: security\ix509endorsementkey_close.htm

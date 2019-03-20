@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathIsDirectoryEmptyW
-title: PathIsDirectoryEmptyW function
+title: PathIsDirectoryEmptyW function (shlwapi.h)
 author: windows-sdk-content
 description: Determines whether a specified path is an empty directory.
 old-location: shell\PathIsDirectoryEmpty.htm

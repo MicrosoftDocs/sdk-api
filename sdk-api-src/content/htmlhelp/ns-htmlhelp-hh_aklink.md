@@ -1,6 +1,6 @@
 ---
 UID: NS:htmlhelp.tagHH_AKLINK
-title: HH_AKLINK
+title: HH_AKLINK (htmlhelp.h)
 author: windows-sdk-content
 description: Use this structure to specify one or more ALink names or KLink keywords that you want to search for.
 old-location: htmlhelp\hh_aklink_structure.htm

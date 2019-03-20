@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxInvalidateRect
-title: ITextHost::TxInvalidateRect
+title: ITextHost::TxInvalidateRect (textserv.h)
 author: windows-sdk-content
 description: Specifies a rectangle for the text host to add to the update region of the text host window.
 old-location: controls\ITextHost_TxInvalidateRect.htm

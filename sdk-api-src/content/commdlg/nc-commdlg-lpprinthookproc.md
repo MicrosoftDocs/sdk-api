@@ -1,6 +1,6 @@
 ---
 UID: NC:commdlg.LPPRINTHOOKPROC
-title: LPPRINTHOOKPROC
+title: LPPRINTHOOKPROC (commdlg.h)
 author: windows-sdk-content
 description: Receives messages or notifications intended for the default dialog box procedure of the Print dialog box. This is an application-defined or library-defined callback function that is used with the PrintDlg function.
 old-location: dlgbox\printhookproc.htm

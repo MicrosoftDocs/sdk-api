@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10.D3D10_CREATE_DEVICE_FLAG
-title: D3D10_CREATE_DEVICE_FLAG
+title: D3D10_CREATE_DEVICE_FLAG (d3d10.h)
 author: windows-sdk-content
 description: Device creation flags.
 old-location: direct3d10\d3d10_create_device_flag.htm

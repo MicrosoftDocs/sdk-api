@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IControlbar
-title: IControlbar
+title: IControlbar (mmc.h)
 author: windows-sdk-content
 description: The IControlbar interface provides a way to create toolbars and other controls.
 old-location: mmc\icontrolbar.htm

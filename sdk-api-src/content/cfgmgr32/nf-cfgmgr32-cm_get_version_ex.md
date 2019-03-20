@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Version_Ex
-title: CM_Get_Version_Ex function
+title: CM_Get_Version_Ex function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Get_Version_Ex function returns version 4.0 of the Plug and Play (PnP) Configuration Manager DLL (Cfgmgr32.dll) for a local or a remote machine.
 old-location: devinst\cm_get_version_ex.htm

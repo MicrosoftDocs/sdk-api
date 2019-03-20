@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcServerTestCancel
-title: RpcServerTestCancel function
+title: RpcServerTestCancel function (rpcdce.h)
 author: windows-sdk-content
 description: The server calls RpcServerTestCancel to test for client cancel requests.
 old-location: rpc\rpcservertestcancel.htm

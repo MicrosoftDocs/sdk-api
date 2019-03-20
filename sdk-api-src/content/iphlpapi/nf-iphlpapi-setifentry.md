@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.SetIfEntry
-title: SetIfEntry function
+title: SetIfEntry function (iphlpapi.h)
 author: windows-sdk-content
 description: The SetIfEntry function sets the administrative status of an interface.
 old-location: iphlp\setifentry.htm

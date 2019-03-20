@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IContextMenuCB.CallBack
-title: IContextMenuCB::CallBack
+title: IContextMenuCB::CallBack (shobjidl_core.h)
 author: windows-sdk-content
 description: Enables the callback function for a context menu.
 old-location: shell\IContextMenuCB_CallBack.htm

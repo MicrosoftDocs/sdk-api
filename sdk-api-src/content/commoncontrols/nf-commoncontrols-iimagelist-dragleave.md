@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList.DragLeave
-title: IImageList::DragLeave
+title: IImageList::DragLeave (commoncontrols.h)
 author: windows-sdk-content
 description: Unlocks the specified window and hides the drag image, which enables the window to update.
 old-location: controls\IImageList_DragLeave.htm

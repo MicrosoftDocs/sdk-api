@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFPresentationTimeSource.GetUnderlyingClock
-title: IMFPresentationTimeSource::GetUnderlyingClock
+title: IMFPresentationTimeSource::GetUnderlyingClock (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the underlying clock that the presentation time source uses to generate its clock times.
 old-location: mf\imfpresentationtimesource_getunderlyingclock.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wcntypes.tagWCN_VALUE_TYPE_CONNECTION_TYPE
-title: WCN_VALUE_TYPE_CONNECTION_TYPE
+title: WCN_VALUE_TYPE_CONNECTION_TYPE (wcntypes.h)
 author: windows-sdk-content
 description: WCN_VALUE_TYPE_CONNECTION_TYPE.
 old-location: wcn\wcn_value_type_connection_type.htm

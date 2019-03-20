@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_DOSP_STATE0_
-title: IPSEC_DOSP_STATE0
+title: IPSEC_DOSP_STATE0 (ipsectypes.h)
 author: windows-sdk-content
 description: Used to store state information for IPsec DoS Protection.
 old-location: fwp\ipsec_dosp_state0.htm

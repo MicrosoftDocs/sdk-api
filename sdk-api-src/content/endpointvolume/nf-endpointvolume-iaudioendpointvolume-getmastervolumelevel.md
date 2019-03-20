@@ -1,6 +1,6 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.GetMasterVolumeLevel
-title: IAudioEndpointVolume::GetMasterVolumeLevel
+title: IAudioEndpointVolume::GetMasterVolumeLevel (endpointvolume.h)
 author: windows-sdk-content
 description: The GetMasterVolumeLevel method gets the master volume level, in decibels, of the audio stream that enters or leaves the audio endpoint device.
 old-location: coreaudio\iaudioendpointvolume_getmastervolumelevel.htm

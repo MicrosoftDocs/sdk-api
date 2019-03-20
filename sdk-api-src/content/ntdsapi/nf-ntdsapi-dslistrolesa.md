@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsListRolesA
-title: DsListRolesA function
+title: DsListRolesA function (ntdsapi.h)
 author: windows-sdk-content
 description: The DsListRoles function lists roles recognized by the server.
 old-location: ad\dslistroles.htm

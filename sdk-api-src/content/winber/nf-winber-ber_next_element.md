@@ -1,6 +1,6 @@
 ---
 UID: NF:winber.ber_next_element
-title: ber_next_element function
+title: ber_next_element function (winber.h)
 author: windows-sdk-content
 description: The ber_next_element function is used along with ber_first_element to traverse a SET, SET OF, SEQUENCE or SEQUENCE OF data value stored in the supplied BerElement structure. It returns the tag and length of the next element in the constructed type.
 old-location: ldap\ber_next_element.htm

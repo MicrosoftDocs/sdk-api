@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbTeletextDescriptor.GetRecordTeletextType
-title: IDvbTeletextDescriptor::GetRecordTeletextType
+title: IDvbTeletextDescriptor::GetRecordTeletextType (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the teletext type code from from a Digital Video Broadcast (DVB) teletext descriptor.
 old-location: mstv\idvbteletextdescriptor_getrecordteletexttype.htm

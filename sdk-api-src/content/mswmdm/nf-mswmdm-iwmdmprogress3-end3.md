@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMProgress3.End3
-title: IWMDMProgress3::End3
+title: IWMDMProgress3::End3 (mswmdm.h)
 author: windows-sdk-content
 description: The End3 method is called by Windows Media Device Manager to indicate that an operation has finished.
 old-location: wmdm\iwmdmprogress3_end3.htm

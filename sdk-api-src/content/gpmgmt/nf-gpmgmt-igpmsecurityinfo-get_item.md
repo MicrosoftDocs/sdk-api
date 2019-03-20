@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMSecurityInfo.get_Item
-title: IGPMSecurityInfo::get_Item
+title: IGPMSecurityInfo::get_Item (gpmgmt.h)
 author: windows-sdk-content
 description: Given an index, returns a GPMPermission object from the collection.
 old-location: gpmc\igpmsecurityinfo_get_item.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymGetModuleBase
-title: SymGetModuleBase function
+title: SymGetModuleBase function (dbghelp.h)
 author: windows-sdk-content
 description: Retrieves the base address of the module that contains the specified address.
 old-location: base\symgetmodulebase64.htm

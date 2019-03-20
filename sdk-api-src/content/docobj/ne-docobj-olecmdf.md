@@ -1,6 +1,6 @@
 ---
 UID: NE:docobj.OLECMDF
-title: OLECMDF
+title: OLECMDF (docobj.h)
 author: windows-sdk-content
 description: Specifies the type of support provided by an object for the command specified in an OLECMD structure.
 old-location: com\olecmdf.htm

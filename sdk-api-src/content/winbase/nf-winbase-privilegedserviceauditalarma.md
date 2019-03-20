@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.PrivilegedServiceAuditAlarmA
-title: PrivilegedServiceAuditAlarmA function
+title: PrivilegedServiceAuditAlarmA function (winbase.h)
 author: windows-sdk-content
 description: Generates an audit message in the security event log.
 old-location: security\privilegedserviceauditalarm.htm

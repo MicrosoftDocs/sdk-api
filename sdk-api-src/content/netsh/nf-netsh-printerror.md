@@ -1,6 +1,6 @@
 ---
 UID: NF:netsh.PrintError
-title: PrintError function
+title: PrintError function (netsh.h)
 author: windows-sdk-content
 description: Displays a system or application error message to the NetShell console.
 old-location: netshell\printerror.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_InitialTimestamp
-title: IInertiaProcessor::put_InitialTimestamp
+title: IInertiaProcessor::put_InitialTimestamp (manipulations.h)
 author: windows-sdk-content
 description: The InitialTimestamp property specifies the starting time stamp for a target object with inertia.
 old-location: wintouch\iinertiaprocessor_initialtimestamp.htm

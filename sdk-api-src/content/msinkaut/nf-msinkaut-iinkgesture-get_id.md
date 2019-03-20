@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkGesture.get_Id
-title: IInkGesture::get_Id
+title: IInkGesture::get_Id (msinkaut.h)
 author: windows-sdk-content
 description: Gets the identifier of an object.
 old-location: tablet\iinkgesture_id.htm

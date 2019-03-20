@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IEnumReadyCallback
-title: IEnumReadyCallback
+title: IEnumReadyCallback (shobjidl.h)
 author: windows-sdk-content
 description: Exposes methods that enable the view to notify the implementer when the enumeration has completed.
 old-location: shell\IEnumReadyCallback.htm

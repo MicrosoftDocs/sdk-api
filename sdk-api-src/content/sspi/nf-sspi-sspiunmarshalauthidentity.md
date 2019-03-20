@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SspiUnmarshalAuthIdentity
-title: SspiUnmarshalAuthIdentity function
+title: SspiUnmarshalAuthIdentity function (sspi.h)
 author: windows-sdk-content
 description: Deserializes the specified array of byte values into an identity structure.
 old-location: security\sspiunmarshalauthidentity.htm

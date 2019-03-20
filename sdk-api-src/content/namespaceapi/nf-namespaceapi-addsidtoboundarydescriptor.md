@@ -1,6 +1,6 @@
 ---
 UID: NF:namespaceapi.AddSIDToBoundaryDescriptor
-title: AddSIDToBoundaryDescriptor function
+title: AddSIDToBoundaryDescriptor function (namespaceapi.h)
 author: windows-sdk-content
 description: Adds a security identifier (SID) to the specified boundary descriptor.
 old-location: base\addsidtoboundarydescriptor.htm

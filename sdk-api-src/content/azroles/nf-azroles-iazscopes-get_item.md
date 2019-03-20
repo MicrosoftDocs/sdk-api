@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScopes.get_Item
-title: IAzScopes::get_Item
+title: IAzScopes::get_Item (azroles.h)
 author: windows-sdk-content
 description: Retrieves the IAzScope object at the specified index into the IAzScopes collection.
 old-location: security\iazscopes_item.htm

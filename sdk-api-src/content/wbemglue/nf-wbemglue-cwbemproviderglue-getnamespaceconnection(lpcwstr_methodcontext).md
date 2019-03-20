@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.GetNamespaceConnection(LPCWSTR,MethodContext)
-title: CWbemProviderGlue::GetNamespaceConnection(LPCWSTR,MethodContext)
+title: CWbemProviderGlue::GetNamespaceConnection(LPCWSTR,MethodContext) (wbemglue.h)
 author: windows-sdk-content
 description: The GetNameSpaceConnection method is used to retrieve a namespace connection.
 old-location: wmi\cwbemproviderglue_getnamespaceconnection.htm

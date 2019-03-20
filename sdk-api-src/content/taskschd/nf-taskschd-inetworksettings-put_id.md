@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.INetworkSettings.put_Id
-title: INetworkSettings::put_Id
+title: INetworkSettings::put_Id (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a GUID value that identifies a network profile.
 old-location: taskschd\inetworksettings_id.htm

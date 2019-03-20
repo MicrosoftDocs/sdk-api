@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMQuaternionBaryCentric
-title: XMQuaternionBaryCentric function
+title: XMQuaternionBaryCentric function (directxmath.h)
 author: windows-sdk-content
 description: Returns a point in barycentric coordinates, using the specified quaternions.
 old-location: dxmath\xmquaternionbarycentric.htm

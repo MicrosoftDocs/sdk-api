@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IProgressDialog.SetLine
-title: IProgressDialog::SetLine
+title: IProgressDialog::SetLine (shlobj_core.h)
 author: windows-sdk-content
 description: Displays a message in the progress dialog.
 old-location: shell\IProgressDialog_SetLine.htm

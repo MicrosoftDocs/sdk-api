@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IConsole2
-title: IConsole2
+title: IConsole2 (mmc.h)
 author: windows-sdk-content
 description: The IConsole2 interface is introduced in MMC 1.1.
 old-location: mmc\iconsole2.htm

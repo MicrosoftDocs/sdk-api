@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardListReadersWithDeviceInstanceIdA
-title: SCardListReadersWithDeviceInstanceIdA function
+title: SCardListReadersWithDeviceInstanceIdA function (winscard.h)
 author: windows-sdk-content
 description: Gets the list of readers that have provided a device instance identifier. This function does not affect the state of the reader.
 old-location: security\scardlistreaderswithdeviceinstanceid.htm

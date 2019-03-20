@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3.ITQueueEvent
-title: ITQueueEvent
+title: ITQueueEvent (tapi3.h)
 author: windows-sdk-content
 description: The ITQueueEvent interface contains methods that retrieve the description of Automatic Call Distribution (ACD) queue events.
 old-location: tapi3\itqueueevent.htm

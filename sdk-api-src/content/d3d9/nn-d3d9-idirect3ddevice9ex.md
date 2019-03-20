@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d9.IDirect3DDevice9Ex
-title: IDirect3DDevice9Ex
+title: IDirect3DDevice9Ex (d3d9.h)
 author: windows-sdk-content
 description: Applications use the methods of the IDirect3DDevice9Ex interface to render primitives, create resources, work with system-level variables, adjust gamma ramp levels, work with palettes, and create shaders.
 old-location: direct3d9\idirect3ddevice9ex.htm

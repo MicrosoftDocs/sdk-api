@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateCollection.RemoveAt
-title: IUpdateCollection::RemoveAt
+title: IUpdateCollection::RemoveAt (wuapi.h)
 author: windows-sdk-content
 description: Removes the item at the specified index from the collection.
 old-location: wua\iupdatecollection_removeat.htm

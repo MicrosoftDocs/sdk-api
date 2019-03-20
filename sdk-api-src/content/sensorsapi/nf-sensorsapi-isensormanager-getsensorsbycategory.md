@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsapi.ISensorManager.GetSensorsByCategory
-title: ISensorManager::GetSensorsByCategory
+title: ISensorManager::GetSensorsByCategory (sensorsapi.h)
 author: windows-sdk-content
 description: Retrieves a collection containing all sensors associated with the specified category.
 old-location: winsensors_com_ref\isensormanager_getsensorsbycategory.htm

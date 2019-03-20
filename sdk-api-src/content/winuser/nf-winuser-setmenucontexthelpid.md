@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetMenuContextHelpId
-title: SetMenuContextHelpId function
+title: SetMenuContextHelpId function (winuser.h)
 author: windows-sdk-content
 description: Associates a Help context identifier with a menu.
 old-location: shell\SetMenuContextHelpId.htm

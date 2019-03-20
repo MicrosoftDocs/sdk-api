@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsstoragecom.IUnbufferedFileHandleOplockCallback.OnBrokenCallback
-title: IUnbufferedFileHandleOplockCallback::OnBrokenCallback
+title: IUnbufferedFileHandleOplockCallback::OnBrokenCallback (windowsstoragecom.h)
 author: windows-sdk-content
 description: Runs when the opportunistic lock for a handle that you get by calling the IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle method is broken.
 old-location: winrt\iunbufferedfilehandleoplockcallback_onbrokencallback.htm

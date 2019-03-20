@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagWCRANGE
-title: WCRANGE
+title: WCRANGE (wingdi.h)
 author: windows-sdk-content
 description: The WCRANGE structure specifies a range of Unicode characters.
 old-location: gdi\wcrange.htm

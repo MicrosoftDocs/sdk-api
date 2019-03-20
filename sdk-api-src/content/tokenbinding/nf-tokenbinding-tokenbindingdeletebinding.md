@@ -1,6 +1,6 @@
 ---
 UID: NF:tokenbinding.TokenBindingDeleteBinding
-title: TokenBindingDeleteBinding function
+title: TokenBindingDeleteBinding function (tokenbinding.h)
 author: windows-sdk-content
 description: Deletes the token binding key that is associated with the specified target string.
 old-location: security\tokenbindingdeletebinding.htm

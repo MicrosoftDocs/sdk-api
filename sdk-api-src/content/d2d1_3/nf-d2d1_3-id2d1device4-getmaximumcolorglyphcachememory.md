@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1Device4.GetMaximumColorGlyphCacheMemory
-title: ID2D1Device4::GetMaximumColorGlyphCacheMemory
+title: ID2D1Device4::GetMaximumColorGlyphCacheMemory (d2d1_3.h)
 author: windows-sdk-content
 description: Gets the maximum capacity of the color glyph cache.
 old-location: direct2d\id2d1device4_getmaximumcolorglyphcachememory.htm

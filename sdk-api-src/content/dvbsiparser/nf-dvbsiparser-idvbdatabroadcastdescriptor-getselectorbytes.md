@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbDataBroadcastDescriptor.GetSelectorBytes
-title: IDvbDataBroadcastDescriptor::GetSelectorBytes
+title: IDvbDataBroadcastDescriptor::GetSelectorBytes (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the data from the selector in a Digital Video Broadcast (DVB) data broadcast descriptor. The selector is defined by the broadcast standard for the network.
 old-location: mstv\idvbdatabroadcastdescriptor_getselectorbytes.htm

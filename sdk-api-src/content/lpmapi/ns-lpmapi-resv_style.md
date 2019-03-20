@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_5
-title: RESV_STYLE
+title: RESV_STYLE (lpmapi.h)
 author: windows-sdk-content
 description: The RESV_STYLE structure contains information about RSVP RESV style.
 old-location: qos\resv_style.htm

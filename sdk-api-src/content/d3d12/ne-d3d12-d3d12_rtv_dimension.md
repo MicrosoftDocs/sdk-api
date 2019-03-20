@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_RTV_DIMENSION
-title: D3D12_RTV_DIMENSION
+title: D3D12_RTV_DIMENSION (d3d12.h)
 author: windows-sdk-content
 description: Identifies the type of resource to view as a render target.
 old-location: direct3d12\d3d12_rtv_dimension.htm

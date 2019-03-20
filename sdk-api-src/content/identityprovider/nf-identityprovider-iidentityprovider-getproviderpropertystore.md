@@ -1,6 +1,6 @@
 ---
 UID: NF:identityprovider.IIdentityProvider.GetProviderPropertyStore
-title: IIdentityProvider::GetProviderPropertyStore
+title: IIdentityProvider::GetProviderPropertyStore (identityprovider.h)
 author: windows-sdk-content
 description: Retrieves a pointer to the IPropertyStore interface associated with the identity provider.
 old-location: security\iidentityprovider_getproviderpropertystore.htm

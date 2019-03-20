@@ -1,6 +1,6 @@
 ---
 UID: NN:control.IQueueCommand
-title: IQueueCommand
+title: IQueueCommand (control.h)
 author: windows-sdk-content
 description: The IQueueCommand interface queues a command for processing at a designated time.
 old-location: dshow\iqueuecommand.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:tvratings.EnTvRat_MPAA
-title: EnTvRat_MPAA
+title: EnTvRat_MPAA (tvratings.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\entvrat_mpaa.htm

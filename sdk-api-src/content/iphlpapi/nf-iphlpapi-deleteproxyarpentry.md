@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.DeleteProxyArpEntry
-title: DeleteProxyArpEntry function
+title: DeleteProxyArpEntry function (iphlpapi.h)
 author: windows-sdk-content
 description: The DeleteProxyArpEntry function deletes the PARP entry on the local computer specified by the dwAddress and dwIfIndex parameters.
 old-location: iphlp\deleteproxyarpentry.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddressCapabilities.get_CallTreatments
-title: ITAddressCapabilities::get_CallTreatments
+title: ITAddressCapabilities::get_CallTreatments (tapi3if.h)
 author: windows-sdk-content
 description: The get_CallTreatments method gets call treatments. This method is provided for Automation client applications, such as those written in Visual Basic and scripting languages.
 old-location: tapi3\itaddresscapabilities_get_calltreatments.htm

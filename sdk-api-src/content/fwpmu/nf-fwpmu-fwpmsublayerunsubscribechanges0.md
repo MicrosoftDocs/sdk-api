@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmSubLayerUnsubscribeChanges0
-title: FwpmSubLayerUnsubscribeChanges0 function
+title: FwpmSubLayerUnsubscribeChanges0 function (fwpmu.h)
 author: windows-sdk-content
 description: Is used to cancel a sublayer change subscription and stop receiving change notifications.
 old-location: fwp\fwpmsublayerunsubscribechanges0_func.htm

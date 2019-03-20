@@ -1,6 +1,6 @@
 ---
 UID: NE:directxcollision.PlaneIntersectionType
-title: PlaneIntersectionType
+title: PlaneIntersectionType (directxcollision.h)
 author: windows-sdk-content
 description: Indicates whether an object intersects a plane.
 old-location: dxmath\planeintersectiontype.htm

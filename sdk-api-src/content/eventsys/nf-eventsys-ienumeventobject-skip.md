@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEnumEventObject.Skip
-title: IEnumEventObject::Skip
+title: IEnumEventObject::Skip (eventsys.h)
 author: windows-sdk-content
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: cos\ienumeventobject_skip.htm

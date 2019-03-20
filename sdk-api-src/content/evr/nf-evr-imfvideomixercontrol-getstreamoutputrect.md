@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IMFVideoMixerControl.GetStreamOutputRect
-title: IMFVideoMixerControl::GetStreamOutputRect
+title: IMFVideoMixerControl::GetStreamOutputRect (evr.h)
 author: windows-sdk-content
 description: Retrieves the position of a video stream within the composition rectangle.
 old-location: mf\imfvideomixercontrol_getstreamoutputrect.htm

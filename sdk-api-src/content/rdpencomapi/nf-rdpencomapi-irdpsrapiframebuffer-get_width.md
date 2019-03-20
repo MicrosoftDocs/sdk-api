@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIFrameBuffer.get_Width
-title: IRDPSRAPIFrameBuffer::get_Width
+title: IRDPSRAPIFrameBuffer::get_Width (rdpencomapi.h)
 author: windows-sdk-content
 description: Width, in pixels, of the frame buffer.
 old-location: rdp\irdpsrapiframebuffer_width.htm

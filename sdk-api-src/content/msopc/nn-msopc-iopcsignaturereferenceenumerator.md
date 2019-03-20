@@ -1,6 +1,6 @@
 ---
 UID: NN:msopc.IOpcSignatureReferenceEnumerator
-title: IOpcSignatureReferenceEnumerator
+title: IOpcSignatureReferenceEnumerator (msopc.h)
 author: windows-sdk-content
 description: A read-only enumerator of IOpcSignatureReference interface pointers.
 old-location: opc\iopcsignaturereferenceenumerator.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.put_Blocked
-title: IFaxOutgoingQueue::put_Blocked
+title: IFaxOutgoingQueue::put_Blocked (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingQueue::get_Blocked property is a Boolean value that indicates whether the job queue for outgoing faxes is blocked.
 old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_blocked_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.SetSmoothingMode
-title: Graphics::SetSmoothingMode
+title: Graphics::SetSmoothingMode (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::SetSmoothingMode method sets the rendering quality of the Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_SetSmoothingMode_smoothingMode_.htm

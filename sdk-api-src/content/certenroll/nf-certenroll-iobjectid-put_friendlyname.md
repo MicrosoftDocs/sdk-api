@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IObjectId.put_FriendlyName
-title: IObjectId::put_FriendlyName
+title: IObjectId::put_FriendlyName (certenroll.h)
 author: windows-sdk-content
 description: Specifies and retrieves a display name for the object identifier.
 old-location: security\iobjectid_friendlyname_property.htm

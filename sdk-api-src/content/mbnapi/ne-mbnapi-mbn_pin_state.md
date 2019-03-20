@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_PIN_STATE
-title: MBN_PIN_STATE
+title: MBN_PIN_STATE (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_PIN_STATE enumerated type indicates the current PIN state of the Mobile Broadband device.
 old-location: mbn\mbn_pin_state.htm

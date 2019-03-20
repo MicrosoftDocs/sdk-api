@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.CreateColorContextFromFilename
-title: ID2D1EffectContext::CreateColorContextFromFilename
+title: ID2D1EffectContext::CreateColorContextFromFilename (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Creates a color context by loading it from the specified filename. The profile bytes are the contents of the file specified by filename.
 old-location: direct2d\id2d1contextinternal_createcolorcontextfromfilename.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageSiloAction.GetName
-title: IEnhancedStorageSiloAction::GetName
+title: IEnhancedStorageSiloAction::GetName (ehstorapi.h)
 author: windows-sdk-content
 description: Returns a string for the name of the action specified by the IEnhancedStorageSiloAction object.
 old-location: enstor\ienhancedstoragesiloaction_getname.htm

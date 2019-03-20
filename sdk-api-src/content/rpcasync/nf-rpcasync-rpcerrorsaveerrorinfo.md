@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcasync.RpcErrorSaveErrorInfo
-title: RpcErrorSaveErrorInfo function
+title: RpcErrorSaveErrorInfo function (rpcasync.h)
 author: windows-sdk-content
 description: The RpcErrorSaveErrorInfo function returns all error information for an enumeration handle as a BLOB.
 old-location: rpc\rpcerrorsaveerrorinfo.htm

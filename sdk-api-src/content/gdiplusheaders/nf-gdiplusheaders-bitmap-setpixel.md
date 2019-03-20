@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.SetPixel
-title: Bitmap::SetPixel
+title: Bitmap::SetPixel (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Bitmap::SetPixel method sets the color of a specified pixel in this bitmap.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_SetPixel_x_y_color_.htm

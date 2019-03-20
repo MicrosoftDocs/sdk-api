@@ -1,6 +1,6 @@
 ---
 UID: NS:drt.drt_search_result_tag
-title: DRT_SEARCH_RESULT
+title: DRT_SEARCH_RESULT (drt.h)
 author: windows-sdk-content
 description: DRT_SEARCH_RESULT.
 old-location: p2p\drt_search_result.htm

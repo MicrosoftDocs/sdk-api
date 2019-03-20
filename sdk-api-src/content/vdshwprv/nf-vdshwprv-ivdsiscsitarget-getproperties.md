@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiTarget.GetProperties
-title: IVdsIscsiTarget::GetProperties
+title: IVdsIscsiTarget::GetProperties (vdshwprv.h)
 author: windows-sdk-content
 description: Returns the properties of an iSCSI target.
 old-location: base\ivdsiscsitarget_getproperties.htm

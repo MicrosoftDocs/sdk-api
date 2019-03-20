@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.GetCollectionByQuery2
-title: ICOMAdminCatalog2::GetCollectionByQuery2
+title: ICOMAdminCatalog2::GetCollectionByQuery2 (comadmin.h)
 author: windows-sdk-content
 description: Retrieves a collection of items in the COM+ catalog that satisfy the specified set of query keys.
 old-location: cos\icomadmincatalog2_getcollectionbyquery2.htm

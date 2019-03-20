@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0000_0000_0001
-title: ADSTYPEENUM
+title: ADSTYPEENUM (iads.h)
 author: windows-sdk-content
 description: Used to identify the data type of an ADSI property value.
 old-location: adsi\adstypeenum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IEnumGuideDataProperties.Reset
-title: IEnumGuideDataProperties::Reset
+title: IEnumGuideDataProperties::Reset (bdatif.h)
 author: windows-sdk-content
 description: The Reset method resets the enumerator to the first item in the collection.
 old-location: mstv\ienumguidedataproperties_reset.htm

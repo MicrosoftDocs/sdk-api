@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasSetEntryDialParamsA
-title: RasSetEntryDialParamsA function
+title: RasSetEntryDialParamsA function (ras.h)
 author: windows-sdk-content
 description: The RasSetEntryDialParams function changes the connection information saved by the last successful call to the RasDial or RasSetEntryDialParams function for a specified phone-book entry.
 old-location: rras\rassetentrydialparams.htm

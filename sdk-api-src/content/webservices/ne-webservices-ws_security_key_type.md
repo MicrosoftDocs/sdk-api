@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_62
-title: WS_SECURITY_KEY_TYPE
+title: WS_SECURITY_KEY_TYPE (webservices.h)
 author: windows-sdk-content
 description: The key type of a security token. It is used as the return type when a security token is queried about its key. It is also used to specify the required key type when requesting a security token from a security token service.
 old-location: wsw\ws_security_key_type.htm

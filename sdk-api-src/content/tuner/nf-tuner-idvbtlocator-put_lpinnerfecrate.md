@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBTLocator.put_LPInnerFECRate
-title: IDVBTLocator::put_LPInnerFECRate
+title: IDVBTLocator::put_LPInnerFECRate (tuner.h)
 author: windows-sdk-content
 description: The put_LPInnerFECRate method sets the inner FEC rate of the low-priority stream.
 old-location: mstv\idvbtlocator_put_lpinnerfecrate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiConfigureProductW
-title: MsiConfigureProductW function
+title: MsiConfigureProductW function (msi.h)
 author: windows-sdk-content
 description: The MsiConfigureProduct function installs or uninstalls a product.
 old-location: setup\msiconfigureproduct.htm

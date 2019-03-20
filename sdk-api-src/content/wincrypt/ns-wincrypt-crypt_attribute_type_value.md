@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_ATTRIBUTE_TYPE_VALUE
-title: CRYPT_ATTRIBUTE_TYPE_VALUE
+title: CRYPT_ATTRIBUTE_TYPE_VALUE (wincrypt.h)
 author: windows-sdk-content
 description: Contains a single attribute value. The Value member's CRYPT_OBJID_BLOB is encoded.
 old-location: security\crypt_attribute_type_value.htm

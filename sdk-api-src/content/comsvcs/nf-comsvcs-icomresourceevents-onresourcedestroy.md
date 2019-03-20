@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComResourceEvents.OnResourceDestroy
-title: IComResourceEvents::OnResourceDestroy
+title: IComResourceEvents::OnResourceDestroy (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a resource is destroyed.
 old-location: cos\icomresourceevents_onresourcedestroy.htm

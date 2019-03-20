@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.EnumRecords
-title: IBitsPeerCacheAdministration::EnumRecords
+title: IBitsPeerCacheAdministration::EnumRecords (bits3_0.h)
 author: windows-sdk-content
 description: Gets an IEnumBitsPeerCacheRecords interface pointer that you use to enumerate the records in the cache. The enumeration is a snapshot of the records in the cache.
 old-location: bits\ibitspeercacheadministration_enumrecords.htm

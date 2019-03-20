@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_MaxScriptEngines
-title: IAzAuthorizationStore::get_MaxScriptEngines
+title: IAzAuthorizationStore::get_MaxScriptEngines (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves the maximum number of Business Rule (BizRule) script engines that will be cached.
 old-location: security\azauthorizationstore_maxscriptengines.htm

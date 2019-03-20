@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterGroupSetOpenEnum
-title: ClusterGroupSetOpenEnum function
+title: ClusterGroupSetOpenEnum function (clusapi.h)
 author: windows-sdk-content
 description: Starts the enumeration of groupset for a cluster.
 old-location: mscs\clustergroupcollectionopenenum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_POLICY_EXTENSION
-title: WS_POLICY_EXTENSION
+title: WS_POLICY_EXTENSION (webservices.h)
 author: windows-sdk-content
 description: The base class for all policy extension structures. Policy extensions are assertions that are directly handled by applications such as custom assertions.
 old-location: wsw\ws_policy_extension.htm

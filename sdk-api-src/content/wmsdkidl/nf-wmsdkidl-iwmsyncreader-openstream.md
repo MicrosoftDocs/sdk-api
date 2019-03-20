@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.OpenStream
-title: IWMSyncReader::OpenStream
+title: IWMSyncReader::OpenStream (wmsdkidl.h)
 author: windows-sdk-content
 description: The OpenStream method opens a stream for reading.
 old-location: wmformat\iwmsyncreader_openstream.htm

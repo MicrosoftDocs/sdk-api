@@ -1,6 +1,6 @@
 ---
 UID: NN:upnp.IUPnPServiceCallback
-title: IUPnPServiceCallback
+title: IUPnPServiceCallback (upnp.h)
 author: windows-sdk-content
 description: The IUPnPServiceCallback interface is used to send event notifications to clients of Service objects.
 old-location: upnp\iupnpservicecallback.htm

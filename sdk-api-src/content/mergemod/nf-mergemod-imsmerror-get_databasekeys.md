@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmError.get_DatabaseKeys
-title: IMsmError::get_DatabaseKeys
+title: IMsmError::get_DatabaseKeys (mergemod.h)
 author: windows-sdk-content
 description: The get_DatabaseKeys method retrieves the DatabaseKeys property of the Error object. This method returns a pointer to a string collection containing the primary keys of the row in the database causing the error, one key per entry in the collection.
 old-location: setup\imsmerror_get_databasekeys.htm

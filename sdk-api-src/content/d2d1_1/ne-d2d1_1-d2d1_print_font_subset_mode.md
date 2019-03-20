@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1_1.D2D1_PRINT_FONT_SUBSET_MODE
-title: D2D1_PRINT_FONT_SUBSET_MODE
+title: D2D1_PRINT_FONT_SUBSET_MODE (d2d1_1.h)
 author: windows-sdk-content
 description: Defines when font resources should be subset during printing.
 old-location: direct2d\d2d1_cprint_font_subset_mode.htm

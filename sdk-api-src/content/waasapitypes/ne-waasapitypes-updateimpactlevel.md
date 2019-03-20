@@ -1,6 +1,6 @@
 ---
 UID: NE:waasapitypes.tagUpdateImpactLevel
-title: UpdateImpactLevel
+title: UpdateImpactLevel (waasapitypes.h)
 author: windows-sdk-content
 description: Indicates a high, medium, or low impact of a device running an out-of-date OS.
 old-location: base\updateimpactlevel.htm

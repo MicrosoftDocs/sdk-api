@@ -1,6 +1,6 @@
 ---
 UID: NS:dsclient.__unnamed_struct_6
-title: DSBROWSEINFOA
+title: DSBROWSEINFOA (dsclient.h)
 author: windows-sdk-content
 description: The DSBROWSEINFO structure is used with the DsBrowseForContainer function to supply and return data about the Active Directory container browser dialog box.
 old-location: ad\dsbrowseinfo.htm

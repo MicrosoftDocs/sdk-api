@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataManager.Run
-title: IDataManager::Run
+title: IDataManager::Run (pla.h)
 author: windows-sdk-content
 description: Manually runs the data manager.
 old-location: pla\idatamanager_run.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolShadowCallback.StopShadow
-title: IWRdsProtocolShadowCallback::StopShadow
+title: IWRdsProtocolShadowCallback::StopShadow (wtsprotocol.h)
 author: windows-sdk-content
 description: Instructs the Remote Desktop Services service to stop shadowing a target.
 old-location: termserv\iwrdsprotocolshadowcallback_stopshadow.htm

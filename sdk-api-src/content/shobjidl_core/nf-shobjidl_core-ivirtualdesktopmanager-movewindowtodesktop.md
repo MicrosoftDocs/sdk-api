@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IVirtualDesktopManager.MoveWindowToDesktop
-title: IVirtualDesktopManager::MoveWindowToDesktop
+title: IVirtualDesktopManager::MoveWindowToDesktop (shobjidl_core.h)
 author: windows-sdk-content
 description: Moves a window to the specified virtual desktop.
 old-location: shell\ivirtualdesktopmanager_movewindowtodesktop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi._RGNDATA
-title: RGNDATA
+title: RGNDATA (wingdi.h)
 author: windows-sdk-content
 description: The RGNDATA structure contains a header and an array of rectangles that compose a region. The rectangles are sorted top to bottom, left to right. They do not overlap.
 old-location: gdi\rgndata.htm

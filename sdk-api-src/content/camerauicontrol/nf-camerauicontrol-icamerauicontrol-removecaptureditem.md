@@ -1,6 +1,6 @@
 ---
 UID: NF:camerauicontrol.ICameraUIControl.RemoveCapturedItem
-title: ICameraUIControl::RemoveCapturedItem
+title: ICameraUIControl::RemoveCapturedItem (camerauicontrol.h)
 author: windows-sdk-content
 description: Removes the captured item.
 old-location: winprog\icamerauicontrol_removecaptureditem.htm

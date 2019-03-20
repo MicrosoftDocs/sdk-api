@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetPaletteEntries
-title: IDirect3DDevice9::GetPaletteEntries
+title: IDirect3DDevice9::GetPaletteEntries (d3d9helper.h)
 author: windows-sdk-content
 description: Retrieves palette entries.
 old-location: direct3d9\idirect3ddevice9__getpaletteentries.htm

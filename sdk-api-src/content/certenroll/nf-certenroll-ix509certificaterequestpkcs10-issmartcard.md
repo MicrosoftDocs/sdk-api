@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.IsSmartCard
-title: IX509CertificateRequestPkcs10::IsSmartCard
+title: IX509CertificateRequestPkcs10::IsSmartCard (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a Boolean value that indicates whether any of the cryptographic providers associated with the request object is a smart card provider.
 old-location: security\ix509certificaterequestpkcs10_issmartcard_method.htm

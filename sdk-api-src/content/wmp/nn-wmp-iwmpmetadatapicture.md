@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPMetadataPicture
-title: IWMPMetadataPicture
+title: IWMPMetadataPicture (wmp.h)
 author: windows-sdk-content
 description: The IWMPMetadataPicture interface provides methods for retrieving information about the WM/Picture metadata attribute.
 old-location: wmp\iwmpmetadatapicture.htm

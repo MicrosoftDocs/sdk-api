@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanRegisterVirtualStationNotification
-title: WlanRegisterVirtualStationNotification function
+title: WlanRegisterVirtualStationNotification function (wlanapi.h)
 author: windows-sdk-content
 description: Is used to register and unregister notifications on a virtual station.
 old-location: nwifi\wlanregistervirtualstationnotification.htm

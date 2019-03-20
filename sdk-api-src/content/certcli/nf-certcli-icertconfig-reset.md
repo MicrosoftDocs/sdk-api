@@ -1,6 +1,6 @@
 ---
 UID: NF:certcli.ICertConfig.Reset
-title: ICertConfig::Reset
+title: ICertConfig::Reset (certcli.h)
 author: windows-sdk-content
 description: Resets the configuration query state to point at the Certificate Services server configuration indexed on the specified configuration point. This method was first defined in the ICertConfig interface.
 old-location: security\icertconfig2_reset.htm

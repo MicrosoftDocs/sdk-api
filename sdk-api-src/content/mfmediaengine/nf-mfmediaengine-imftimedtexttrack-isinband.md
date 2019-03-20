@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.IsInBand
-title: IMFTimedTextTrack::IsInBand
+title: IMFTimedTextTrack::IsInBand (mfmediaengine.h)
 author: windows-sdk-content
 description: Determines whether the timed-text track is inband.
 old-location: mf\imftimedtexttrack_isinband.htm

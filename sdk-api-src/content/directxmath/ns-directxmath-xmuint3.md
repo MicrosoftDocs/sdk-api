@@ -1,6 +1,6 @@
 ---
 UID: NS:directxmath.XMUINT3
-title: XMUINT3
+title: XMUINT3 (directxmath.h)
 author: windows-sdk-content
 description: A 3D vector where each component is an unsigned integer.
 old-location: dxmath\xmuint3.htm

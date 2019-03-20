@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1Factory1.RegisterEffectFromString
-title: ID2D1Factory1::RegisterEffectFromString
+title: ID2D1Factory1::RegisterEffectFromString (d2d1_1.h)
 author: windows-sdk-content
 description: Registers an effect within the factory instance with the property XML specified as a string.
 old-location: direct2d\id2d1factory1_registereffect.htm

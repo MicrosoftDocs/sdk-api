@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.UpdateCache
-title: IAzAuthorizationStore::UpdateCache
+title: IAzAuthorizationStore::UpdateCache (azroles.h)
 author: windows-sdk-content
 description: Updates the cache of objects and object attributes to match the underlying policy store.
 old-location: security\azauthorizationstore_updatecache.htm

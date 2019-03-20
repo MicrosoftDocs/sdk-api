@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsLun.GetIdentificationData
-title: IVdsLun::GetIdentificationData
+title: IVdsLun::GetIdentificationData (vds.h)
 author: windows-sdk-content
 description: Returns data from the SCSI Inquiry Data and Vital Product Data pages 0x80 and 0x83.
 old-location: base\ivdslun_getidentificationdata.htm

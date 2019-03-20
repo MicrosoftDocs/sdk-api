@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SetContext
-title: IVssBackupComponents::SetContext
+title: IVssBackupComponents::SetContext (vsbackup.h)
 author: windows-sdk-content
 description: The SetContext method sets the context for subsequent shadow copy-related operations.
 old-location: base\ivssbackupcomponents_setcontext.htm

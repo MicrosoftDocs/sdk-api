@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.put_AllowRedirect
-title: INetFwIcmpSettings::put_AllowRedirect
+title: INetFwIcmpSettings::put_AllowRedirect (netfw.h)
 author: windows-sdk-content
 description: Indicates whether redirect is allowed.
 old-location: ics\inetfwicmpsettings_allowredirect.htm

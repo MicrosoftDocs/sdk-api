@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CachedDefaultAction
-title: IUIAutomationLegacyIAccessiblePattern::get_CachedDefaultAction
+title: IUIAutomationLegacyIAccessiblePattern::get_CachedDefaultAction (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the Microsoft Active Accessibility cached default action for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDefaultAction.htm

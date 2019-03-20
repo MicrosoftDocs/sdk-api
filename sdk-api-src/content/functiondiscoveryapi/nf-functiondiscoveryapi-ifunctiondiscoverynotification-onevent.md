@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionDiscoveryNotification.OnEvent
-title: IFunctionDiscoveryNotification::OnEvent
+title: IFunctionDiscoveryNotification::OnEvent (functiondiscoveryapi.h)
 author: windows-sdk-content
 description: Receives any add, remove, or update events during a notification.
 old-location: ncd\ifunctiondiscoverynotification_onevent.htm

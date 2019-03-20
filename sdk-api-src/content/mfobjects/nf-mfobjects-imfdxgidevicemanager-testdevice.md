@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFDXGIDeviceManager.TestDevice
-title: IMFDXGIDeviceManager::TestDevice
+title: IMFDXGIDeviceManager::TestDevice (mfobjects.h)
 author: windows-sdk-content
 description: Tests whether a Microsoft Direct3D device handle is valid.
 old-location: mf\imfdxgidevicemanager_testdevice.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyCallback.JobError
-title: IBackgroundCopyCallback::JobError
+title: IBackgroundCopyCallback::JobError (bits.h)
 author: windows-sdk-content
 description: BITS calls your implementation of the JobError method when the state of the job changes to BG_JOB_STATE_ERROR.
 old-location: bits\ibackgroundcopycallback_joberror.htm

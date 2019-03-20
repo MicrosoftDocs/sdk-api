@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilGetQwordValue
-title: ResUtilGetQwordValue function
+title: ResUtilGetQwordValue function (resapi.h)
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\resutilgetqwordvalue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextNotify.TrackRemoved
-title: IMFTimedTextNotify::TrackRemoved
+title: IMFTimedTextNotify::TrackRemoved (mfmediaengine.h)
 author: windows-sdk-content
 description: Called when a text track is removed.
 old-location: mf\imftimedtextnotify_trackremoved.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mpeg2data.IMpeg2Data
-title: IMpeg2Data
+title: IMpeg2Data (mpeg2data.h)
 author: windows-sdk-content
 description: IMpeg2Data is no longer available for use as of Windows 7.
 old-location: mstv\impeg2data.htm

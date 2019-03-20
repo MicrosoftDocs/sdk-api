@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpReceiveClientCertificate
-title: HttpReceiveClientCertificate function
+title: HttpReceiveClientCertificate function (http.h)
 author: windows-sdk-content
 description: The HttpReceiveClientCertificate function is used by a server application to retrieve a client SSL certificate or channel binding token (CBT).
 old-location: http\httpreceiveclientcertificate.htm

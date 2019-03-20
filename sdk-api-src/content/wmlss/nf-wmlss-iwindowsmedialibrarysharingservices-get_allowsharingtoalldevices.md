@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.get_allowSharingToAllDevices
-title: IWindowsMediaLibrarySharingServices::get_allowSharingToAllDevices
+title: IWindowsMediaLibrarySharingServices::get_allowSharingToAllDevices (wmlss.h)
 author: windows-sdk-content
 description: The get_allowSharingToAllDevices method retrieves a value that indicates whether the current user's media library is shared with all devices on the home network.
 old-location: wmlss\IWMLSSget_allowSharingToAllDevices.htm

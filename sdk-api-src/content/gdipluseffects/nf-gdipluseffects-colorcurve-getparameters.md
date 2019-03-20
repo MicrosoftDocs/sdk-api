@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.ColorCurve.GetParameters
-title: ColorCurve::GetParameters
+title: ColorCurve::GetParameters (gdipluseffects.h)
 author: windows-sdk-content
 description: The ColorCurve::GetParameters gets the current values of the parameters of this ColorCurve object.
 old-location: gdiplus\_gdiplus_CLASS_ColorCurve_GetParameters_.htm

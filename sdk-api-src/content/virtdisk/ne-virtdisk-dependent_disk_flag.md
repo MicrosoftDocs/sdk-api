@@ -1,6 +1,6 @@
 ---
 UID: NE:virtdisk._DEPENDENT_DISK_FLAG
-title: DEPENDENT_DISK_FLAG
+title: DEPENDENT_DISK_FLAG (virtdisk.h)
 author: windows-sdk-content
 description: Contains virtual hard disk (VHD) dependency information flags.
 old-location: vhd\dependent_disk_flag.htm

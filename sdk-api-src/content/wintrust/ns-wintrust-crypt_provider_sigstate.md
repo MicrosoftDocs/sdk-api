@@ -1,6 +1,6 @@
 ---
 UID: NS:wintrust._CRYPT_PROVIDER_SIGSTATE
-title: CRYPT_PROVIDER_SIGSTATE
+title: CRYPT_PROVIDER_SIGSTATE (wintrust.h)
 author: windows-sdk-content
 description: Is used to communicate between policy providers and Wintrust.
 old-location: security\crypt_provider_sigstate.htm

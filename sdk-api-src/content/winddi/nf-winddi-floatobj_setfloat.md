@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.FLOATOBJ_SetFloat
-title: FLOATOBJ_SetFloat function
+title: FLOATOBJ_SetFloat function (winddi.h)
 author: windows-sdk-content
 description: The FLOATOBJ_SetFloat function assigns the value of type FLOATL to the FLOATOBJ.
 old-location: display\floatobj_setfloat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:sbe.ISBE2Crossbar
-title: ISBE2Crossbar
+title: ISBE2Crossbar (sbe.h)
 author: windows-sdk-content
 description: Defines crossbar functionality for a Stream Buffer Engine (SBE) version 2 (SBE2) Stream Buffer Source filter.
 old-location: mstv\isbe2crossbar.htm

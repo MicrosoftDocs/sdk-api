@@ -1,6 +1,6 @@
 ---
 UID: NL:gdipluslinecaps.AdjustableArrowCap
-title: AdjustableArrowCap
+title: AdjustableArrowCap (gdipluslinecaps.h)
 author: windows-sdk-content
 description: The AdjustableArrowCap class is a subclass of the CustomLineCap. This class builds a line cap that looks like an arrow.
 old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_Class.htm

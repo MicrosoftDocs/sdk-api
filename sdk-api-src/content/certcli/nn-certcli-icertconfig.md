@@ -1,6 +1,6 @@
 ---
 UID: NN:certcli.ICertConfig
-title: ICertConfig
+title: ICertConfig (certcli.h)
 author: windows-sdk-content
 description: The ICertConfig interface provides functionality for retrieving the public configuration data (specified during client setup) for a Certificate Services server.
 old-location: security\icertconfig.htm

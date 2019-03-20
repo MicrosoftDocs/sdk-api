@@ -1,6 +1,6 @@
 ---
 UID: NN:dshowasf.IAMWMBufferPass
-title: IAMWMBufferPass
+title: IAMWMBufferPass (dshowasf.h)
 author: windows-sdk-content
 description: The IAMWMBufferPass interface is implemented on the output pins of the WM ASF Reader and the input pins of the WM ASF Writer.
 old-location: wmformat\iamwmbufferpass.htm

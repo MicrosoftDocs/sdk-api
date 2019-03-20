@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PolicyServerListManager.get_ItemByIndex
-title: IX509PolicyServerListManager::get_ItemByIndex
+title: IX509PolicyServerListManager::get_ItemByIndex (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an IX509PolicyServerUrl object from the collection by index number.
 old-location: security\ix509policyserverlistmanager_itembyindex.htm

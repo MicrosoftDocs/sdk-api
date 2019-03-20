@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemContext.GetValue
-title: IWbemContext::GetValue
+title: IWbemContext::GetValue (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemContext::GetValue method is used to retrieve a specific named context value by name.
 old-location: wmi\iwbemcontext_getvalue.htm

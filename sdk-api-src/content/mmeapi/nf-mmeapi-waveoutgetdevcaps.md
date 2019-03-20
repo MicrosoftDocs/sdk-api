@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.waveOutGetDevCaps
-title: waveOutGetDevCaps function
+title: waveOutGetDevCaps function (mmeapi.h)
 author: windows-sdk-content
 description: The waveOutGetDevCaps function retrieves the capabilities of a given waveform-audio output device.
 old-location: multimedia\waveoutgetdevcaps.htm

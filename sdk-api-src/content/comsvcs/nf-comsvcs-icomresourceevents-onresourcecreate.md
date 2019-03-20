@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComResourceEvents.OnResourceCreate
-title: IComResourceEvents::OnResourceCreate
+title: IComResourceEvents::OnResourceCreate (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a new resource is created and allocated.
 old-location: cos\icomresourceevents_onresourcecreate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMDecrypt
-title: DRMDecrypt function
+title: DRMDecrypt function (msdrm.h)
 author: windows-sdk-content
 description: Decrypts encrypted content.
 old-location: rm\drmdecrypt.htm

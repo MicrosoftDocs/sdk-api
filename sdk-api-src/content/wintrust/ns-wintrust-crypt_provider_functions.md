@@ -1,6 +1,6 @@
 ---
 UID: NS:wintrust._CRYPT_PROVIDER_FUNCTIONS
-title: CRYPT_PROVIDER_FUNCTIONS
+title: CRYPT_PROVIDER_FUNCTIONS (wintrust.h)
 author: windows-sdk-content
 description: Defines the functions used by a cryptographic service provider (CSP) for WinTrust operations.
 old-location: security\crypt_provider_functions.htm

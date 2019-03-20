@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetSignaturePartName
-title: IOpcSigningOptions::GetSignaturePartName
+title: IOpcSigningOptions::GetSignaturePartName (msopc.h)
 author: windows-sdk-content
 description: Gets the part name of the signature part where the signature markup will be stored.
 old-location: opc\iopcsigningoptions_getsignaturepartname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcsx.ID3DX11FFT.SetForwardScale
-title: ID3DX11FFT::SetForwardScale
+title: ID3DX11FFT::SetForwardScale (d3dcsx.h)
 author: windows-sdk-content
 description: Sets the scale used for forward transforms.
 old-location: direct3d11\id3dx11fft_setforwardscale.htm

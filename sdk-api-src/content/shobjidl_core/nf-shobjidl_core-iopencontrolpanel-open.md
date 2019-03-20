@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IOpenControlPanel.Open
-title: IOpenControlPanel::Open
+title: IOpenControlPanel::Open (shobjidl_core.h)
 author: windows-sdk-content
 description: Opens the specified Control Panel item, optionally to a specific page.
 old-location: shell\IOpenControlPanel_Open.htm

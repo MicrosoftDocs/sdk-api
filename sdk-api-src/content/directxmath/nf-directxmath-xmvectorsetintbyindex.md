@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorSetIntByIndex
-title: XMVectorSetIntByIndex function
+title: XMVectorSetIntByIndex function (directxmath.h)
 author: windows-sdk-content
 description: Use an integer instance to set the value of one of the four components of an XMVECTOR Data Type containing integer data referenced by an index.
 old-location: dxmath\xmvectorsetintbyindex.htm

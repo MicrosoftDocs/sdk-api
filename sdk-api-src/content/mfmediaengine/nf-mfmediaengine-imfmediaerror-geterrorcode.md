@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaError.GetErrorCode
-title: IMFMediaError::GetErrorCode
+title: IMFMediaError::GetErrorCode (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the error code.
 old-location: mf\imfmediaerror_geterrorcode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:locationapi.ILocation.RegisterForReport
-title: ILocation::RegisterForReport
+title: ILocation::RegisterForReport (locationapi.h)
 author: windows-sdk-content
 description: Requests location report events.
 old-location: winlocation_com_ref\ilocation_registerforreport.htm

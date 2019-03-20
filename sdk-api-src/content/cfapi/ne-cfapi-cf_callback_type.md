@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_CALLBACK_TYPE
-title: CF_CALLBACK_TYPE
+title: CF_CALLBACK_TYPE (cfapi.h)
 author: windows-sdk-content
 description: Contains the various types of callbacks used on placeholder files or folders.
 old-location: cloudapi\cf_callback_type.htm

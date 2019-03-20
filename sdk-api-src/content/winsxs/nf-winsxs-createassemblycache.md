@@ -1,6 +1,6 @@
 ---
 UID: NF:winsxs.CreateAssemblyCache
-title: CreateAssemblyCache function
+title: CreateAssemblyCache function (winsxs.h)
 author: windows-sdk-content
 description: The CreateAssemblyCache function obtains an instance of the IAssemblyCache interface.
 old-location: setup\createassemblycache.htm

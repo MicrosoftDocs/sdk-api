@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnectionCallback.OnReady
-title: IWTSProtocolConnectionCallback::OnReady
+title: IWTSProtocolConnectionCallback::OnReady (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolConnectionCallback::OnReady is no longer available. Instead, use IWRdsProtocolConnectionCallback::OnReady.
 old-location: termserv\iwtsprotocolconnectioncallback_onready.htm

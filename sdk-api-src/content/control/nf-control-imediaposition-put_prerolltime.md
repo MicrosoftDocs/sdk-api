@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IMediaPosition.put_PrerollTime
-title: IMediaPosition::put_PrerollTime
+title: IMediaPosition::put_PrerollTime (control.h)
 author: windows-sdk-content
 description: The put_PrerollTime method sets the amount of data that will be queued before the start position.
 old-location: dshow\imediaposition_put_prerolltime.htm

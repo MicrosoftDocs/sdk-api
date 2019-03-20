@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerEndEnumeration
-title: PeerEndEnumeration function
+title: PeerEndEnumeration function (p2p.h)
 author: windows-sdk-content
 description: The PeerEndEnumeration function releases an enumeration, for example, a record or member enumeration, and deallocates all resources associated with the enumeration.
 old-location: p2p\peerendenumeration.htm

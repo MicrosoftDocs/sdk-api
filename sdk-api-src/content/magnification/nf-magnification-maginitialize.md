@@ -1,6 +1,6 @@
 ---
 UID: NF:magnification.MagInitialize
-title: MagInitialize function
+title: MagInitialize function (magnification.h)
 author: windows-sdk-content
 description: Creates and initializes the magnifier run-time objects.
 old-location: magapi\magapi_MagInitialize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.getRange_Focus
-title: ICameraControl::getRange_Focus
+title: ICameraControl::getRange_Focus (vidcap.h)
 author: windows-sdk-content
 description: The getRange_Focus method returns the range of focal distances supported by the camera.
 old-location: dshow\icameracontrol_getrange_focus.htm

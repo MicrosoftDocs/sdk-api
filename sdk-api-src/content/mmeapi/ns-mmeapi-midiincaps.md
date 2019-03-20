@@ -1,6 +1,6 @@
 ---
 UID: NS:mmeapi.midiincaps_tag
-title: MIDIINCAPS
+title: MIDIINCAPS (mmeapi.h)
 author: windows-sdk-content
 description: The MIDIINCAPS structure describes the capabilities of a MIDI input device.
 old-location: multimedia\midiincaps.htm

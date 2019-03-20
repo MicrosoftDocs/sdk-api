@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataManager.get_Rules
-title: IDataManager::get_Rules
+title: IDataManager::get_Rules (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the rules to apply to the report.
 old-location: pla\idatamanager_rules.htm

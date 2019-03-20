@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_First_Log_Conf_Ex
-title: CM_Get_First_Log_Conf_Ex function
+title: CM_Get_First_Log_Conf_Ex function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Get_First_Log_Conf_Ex function obtains the first logical configuration associated with a specified device instance on a local or a remote machine.
 old-location: devinst\cm_get_first_log_conf_ex.htm

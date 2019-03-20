@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsService.QueryFileSystemTypes
-title: IVdsService::QueryFileSystemTypes
+title: IVdsService::QueryFileSystemTypes (vds.h)
 author: windows-sdk-content
 description: Returns property details for all file systems known to VDS.
 old-location: base\ivdsservice_queryfilesystemtypes.htm

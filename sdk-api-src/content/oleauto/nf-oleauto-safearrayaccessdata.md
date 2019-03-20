@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.SafeArrayAccessData
-title: SafeArrayAccessData function
+title: SafeArrayAccessData function (oleauto.h)
 author: windows-sdk-content
 description: Increments the lock count of an array, and retrieves a pointer to the array data.
 old-location: automat\safearrayaccessdata.htm

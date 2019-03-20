@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_AP_CALL_PACKAGE
-title: LSA_AP_CALL_PACKAGE
+title: LSA_AP_CALL_PACKAGE (ntsecpkg.h)
 author: windows-sdk-content
 description: Called by the Local Security Authority (LSA) when a logon application with a trusted connection to the LSA calls the LsaCallAuthenticationPackage function and specifies the authentication package's identifier.
 old-location: security\lsaapcallpackage.htm

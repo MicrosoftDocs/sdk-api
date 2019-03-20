@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_addA
-title: ldap_addA function
+title: ldap_addA function (winldap.h)
 author: windows-sdk-content
 description: Initiates an asynchronous add operation to a directory tree.
 old-location: ldap\ldap_add.htm

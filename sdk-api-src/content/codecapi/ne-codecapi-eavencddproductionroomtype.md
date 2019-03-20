@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncDDProductionRoomType
-title: eAVEncDDProductionRoomType
+title: eAVEncDDProductionRoomType (codecapi.h)
 author: windows-sdk-content
 description: Specifies the room type for a Dolby Digital audio stream. This enumeration is used with the AVEncDDProductionRoomType property.
 old-location: dshow\eavencddproductionroomtype.htm

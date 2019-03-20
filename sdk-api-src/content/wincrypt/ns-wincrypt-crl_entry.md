@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRL_ENTRY
-title: CRL_ENTRY
+title: CRL_ENTRY (wincrypt.h)
 author: windows-sdk-content
 description: Contains information about a single revoked certificate. It is a member of a CRL_INFO structure.
 old-location: security\crl_entry.htm

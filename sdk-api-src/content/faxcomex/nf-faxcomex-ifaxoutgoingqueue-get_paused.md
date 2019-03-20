@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.get_Paused
-title: IFaxOutgoingQueue::get_Paused
+title: IFaxOutgoingQueue::get_Paused (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingQueue::get_Paused property is a Boolean value that indicates whether the job queue for outgoing faxes is paused.
 old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_paused_cpp.htm

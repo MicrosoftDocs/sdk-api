@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAudioRendererEvent2.AVDecCommonMeanBitRate
-title: IMSVidAudioRendererEvent2::AVDecCommonMeanBitRate
+title: IMSVidAudioRendererEvent2::AVDecCommonMeanBitRate (segment.h)
 author: windows-sdk-content
 description: Indicates a change in the AVDecCommonMeanBitRate codec property.
 old-location: mstv\imsvidaudiorendererevent2_avdeccommonmeanbitrate.htm

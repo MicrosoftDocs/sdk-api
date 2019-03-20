@@ -1,6 +1,6 @@
 ---
 UID: NF:appmodel.AppPolicyGetShowDeveloperDiagnostic
-title: AppPolicyGetShowDeveloperDiagnostic function
+title: AppPolicyGetShowDeveloperDiagnostic function (appmodel.h)
 author: windows-sdk-content
 description: Retrieves the method used for a process to surface developer information, such as asserts, to the user.
 old-location: appxpkg\apppolicygetshowdeveloperdiagnostic_function.htm

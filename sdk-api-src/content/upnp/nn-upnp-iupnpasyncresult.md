@@ -1,6 +1,6 @@
 ---
 UID: NN:upnp.IUPnPAsyncResult
-title: IUPnPAsyncResult
+title: IUPnPAsyncResult (upnp.h)
 author: windows-sdk-content
 description: The IUPnPAsyncResult interface is used to notify the UPnP control point of a completed asynchronous I/O operation.
 old-location: upnp\iupnpasyncresult.htm

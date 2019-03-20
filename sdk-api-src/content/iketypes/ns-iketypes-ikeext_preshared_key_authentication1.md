@@ -1,6 +1,6 @@
 ---
 UID: NS:iketypes.IKEEXT_PRESHARED_KEY_AUTHENTICATION1__
-title: IKEEXT_PRESHARED_KEY_AUTHENTICATION1
+title: IKEEXT_PRESHARED_KEY_AUTHENTICATION1 (iketypes.h)
 author: windows-sdk-content
 description: Stores information needed for pre-shared key authentication.
 old-location: fwp\ikeext_preshared_key_authentication1.htm

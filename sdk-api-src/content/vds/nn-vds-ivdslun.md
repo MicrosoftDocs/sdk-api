@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsLun
-title: IVdsLun
+title: IVdsLun (vds.h)
 author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on a logical unit number (LUN).
 old-location: base\ivdslun.htm

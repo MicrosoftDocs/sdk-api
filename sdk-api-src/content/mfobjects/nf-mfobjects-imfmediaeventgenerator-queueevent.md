@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFMediaEventGenerator.QueueEvent
-title: IMFMediaEventGenerator::QueueEvent
+title: IMFMediaEventGenerator::QueueEvent (mfobjects.h)
 author: windows-sdk-content
 description: Puts a new event in the object's queue.
 old-location: mf\imfmediaeventgenerator_queueevent.htm

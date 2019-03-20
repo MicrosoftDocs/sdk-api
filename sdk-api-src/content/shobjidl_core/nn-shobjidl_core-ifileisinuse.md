@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IFileIsInUse
-title: IFileIsInUse
+title: IFileIsInUse (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that can be called to get information on or close a file that is in use by another application.
 old-location: shell\IFileIsInUse.htm

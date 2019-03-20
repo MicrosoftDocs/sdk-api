@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.put_SelInks
-title: IInkEdit::put_SelInks
+title: IInkEdit::put_SelInks (inked.h)
 author: windows-sdk-content
 description: Gets or sets the array of embedded InkDisp objects (if displayed as ink) in the current selection.
 old-location: tablet\inkedit_selinks.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:ndhelper.tagPROBLEM_TYPE
-title: PROBLEM_TYPE
+title: PROBLEM_TYPE (ndhelper.h)
 author: windows-sdk-content
 description: The PROBLEM_TYPE enumeration describes the type of problem a helper class indicates is present.
 old-location: ndf\problem_type.htm

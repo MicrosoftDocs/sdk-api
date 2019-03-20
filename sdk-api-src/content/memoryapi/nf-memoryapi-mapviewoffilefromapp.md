@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.MapViewOfFileFromApp
-title: MapViewOfFileFromApp function
+title: MapViewOfFileFromApp function (memoryapi.h)
 author: windows-sdk-content
 description: Maps a view of a file mapping into the address space of a calling Windows Store app.
 old-location: base\mapviewoffilefromapp.htm

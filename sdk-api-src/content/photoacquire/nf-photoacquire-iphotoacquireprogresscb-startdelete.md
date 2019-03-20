@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.StartDelete
-title: IPhotoAcquireProgressCB::StartDelete
+title: IPhotoAcquireProgressCB::StartDelete (photoacquire.h)
 author: windows-sdk-content
 description: The StartDelete method provides extended functionality when deletion of items from the device begins.
 old-location: picacq\iphotoacquireprogresscb_startdelete.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:realtimeapiset.QueryIdleProcessorCycleTimeEx
-title: QueryIdleProcessorCycleTimeEx function
+title: QueryIdleProcessorCycleTimeEx function (realtimeapiset.h)
 author: windows-sdk-content
 description: Retrieves the accumulated cycle time for the idle thread on each logical processor in the specified processor group.
 old-location: base\queryidleprocessorcycletimeex.htm

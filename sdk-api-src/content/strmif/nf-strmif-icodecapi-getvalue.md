@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICodecAPI.GetValue
-title: ICodecAPI::GetValue
+title: ICodecAPI::GetValue (strmif.h)
 author: windows-sdk-content
 description: The GetValue method gets the current value of a codec property.
 old-location: dshow\icodecapi_getvalue.htm

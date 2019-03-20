@@ -1,6 +1,6 @@
 ---
 UID: NN:uianimation.IUIAnimationPriorityComparison
-title: IUIAnimationPriorityComparison
+title: IUIAnimationPriorityComparison (uianimation.h)
 author: windows-sdk-content
 description: Defines a method for priority comparison that the animation manager uses to resolve scheduling conflicts.
 old-location: uianimation\iuianimationprioritycomparison.htm

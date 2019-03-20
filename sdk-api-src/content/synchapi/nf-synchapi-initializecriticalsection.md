@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.InitializeCriticalSection
-title: InitializeCriticalSection function
+title: InitializeCriticalSection function (synchapi.h)
 author: windows-sdk-content
 description: Initializes a critical section object.
 old-location: base\initializecriticalsection.htm

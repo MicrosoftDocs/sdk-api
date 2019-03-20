@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._PPTP_CONFIG_PARAMS
-title: PPTP_CONFIG_PARAMS
+title: PPTP_CONFIG_PARAMS (mprapi.h)
 author: windows-sdk-content
 description: Used to get and set the device configuration for Point-to-Point Tunneling Protocool (PPTP) on a RAS Server.
 old-location: rras\pptp_config_params.htm

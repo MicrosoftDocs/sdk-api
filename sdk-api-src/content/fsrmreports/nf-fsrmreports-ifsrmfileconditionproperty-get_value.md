@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileConditionProperty.get_Value
-title: IFsrmFileConditionProperty::get_Value
+title: IFsrmFileConditionProperty::get_Value (fsrmreports.h)
 author: windows-sdk-content
 description: Specifies the file condition property value.
 old-location: fsrm\ifsrmfileconditionproperty_value.htm

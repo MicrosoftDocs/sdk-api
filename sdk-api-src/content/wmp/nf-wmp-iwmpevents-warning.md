@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.Warning
-title: IWMPEvents::Warning
+title: IWMPEvents::Warning (wmp.h)
 author: windows-sdk-content
 description: The Warning event is reserved for future use.
 old-location: wmp\iwmpevents_iwmpevents__warning.htm

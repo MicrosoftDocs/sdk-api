@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET
-title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET
+title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET (wincrypt.h)
 author: windows-sdk-content
 description: Retrieves an object.
 old-location: security\pfn_crypt_object_locator_provider_get.htm

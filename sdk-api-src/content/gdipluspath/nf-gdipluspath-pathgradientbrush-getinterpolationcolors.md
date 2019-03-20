@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.GetInterpolationColors
-title: PathGradientBrush::GetInterpolationColors
+title: PathGradientBrush::GetInterpolationColors (gdipluspath.h)
 author: windows-sdk-content
 description: The PathGradientBrush::GetInterpolationColors method gets the preset colors and blend positions currently specified for this path gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetInterpolationColors_presetColors_blendPositions_count_.htm

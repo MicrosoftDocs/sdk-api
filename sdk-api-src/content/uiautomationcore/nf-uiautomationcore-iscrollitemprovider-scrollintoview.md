@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IScrollItemProvider.ScrollIntoView
-title: IScrollItemProvider::ScrollIntoView
+title: IScrollItemProvider::ScrollIntoView (uiautomationcore.h)
 author: windows-sdk-content
 description: Scrolls the content area of a container object in order to display the control within the visible region (viewport) of the container.
 old-location: winauto\uiauto_IScrollItemProvider_ScrollIntoView.htm

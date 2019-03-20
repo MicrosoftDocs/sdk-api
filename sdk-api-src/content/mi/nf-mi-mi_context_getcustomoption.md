@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_GetCustomOption
-title: MI_Context_GetCustomOption function
+title: MI_Context_GetCustomOption function (mi.h)
 author: windows-sdk-content
 description: Retrieves an option set by the client.
 old-location: wmi_v2\mi_context_getcustomoption.htm

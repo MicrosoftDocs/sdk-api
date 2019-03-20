@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_PostResult
-title: MI_Context_PostResult function
+title: MI_Context_PostResult function (mi.h)
 author: windows-sdk-content
 description: Posts the final terminating result code back to the client (through the server) in response to a request.
 old-location: wmi_v2\mi_context_postresult.htm

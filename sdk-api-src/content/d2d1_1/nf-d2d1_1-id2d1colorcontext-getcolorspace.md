@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1ColorContext.GetColorSpace
-title: ID2D1ColorContext::GetColorSpace
+title: ID2D1ColorContext::GetColorSpace (d2d1_1.h)
 author: windows-sdk-content
 description: Gets the color space of the color context.
 old-location: direct2d\id2d1colorcontext_getcolorspace.htm

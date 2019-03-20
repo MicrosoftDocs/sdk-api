@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.CreateCubeTexture
-title: IDirect3DDevice9::CreateCubeTexture
+title: IDirect3DDevice9::CreateCubeTexture (d3d9helper.h)
 author: windows-sdk-content
 description: Creates a cube texture resource.
 old-location: direct3d9\idirect3ddevice9__createcubetexture.htm

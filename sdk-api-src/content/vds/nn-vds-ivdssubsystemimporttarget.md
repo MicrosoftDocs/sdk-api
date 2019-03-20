@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsSubSystemImportTarget
-title: IVdsSubSystemImportTarget
+title: IVdsSubSystemImportTarget (vds.h)
 author: windows-sdk-content
 description: Provides methods to query and configure the default VSS import target for the subsystem.
 old-location: base\ivdssubsystemimporttarget.htm

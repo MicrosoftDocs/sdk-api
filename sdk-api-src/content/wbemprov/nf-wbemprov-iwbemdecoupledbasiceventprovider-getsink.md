@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemDecoupledBasicEventProvider.GetSink
-title: IWbemDecoupledBasicEventProvider::GetSink
+title: IWbemDecoupledBasicEventProvider::GetSink (wbemprov.h)
 author: windows-sdk-content
 description: The IWbemDecoupledBasicEventProvider::GetSink method retrieves an IWbemObjectSink object for event forwarding to WMI. This method provides for fully concurrent access.
 old-location: wmi\iwbemdecoupledbasiceventprovider_getsink.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateVideoRendererActivate
-title: MFCreateVideoRendererActivate function
+title: MFCreateVideoRendererActivate function (mfidl.h)
 author: windows-sdk-content
 description: Creates an activation object for the enhanced video renderer (EVR) media sink.
 old-location: mf\mfcreatevideorendereractivate.htm

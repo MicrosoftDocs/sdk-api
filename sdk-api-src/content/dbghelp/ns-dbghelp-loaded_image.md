@@ -1,6 +1,6 @@
 ---
 UID: NS:dbghelp._LOADED_IMAGE
-title: LOADED_IMAGE
+title: LOADED_IMAGE (dbghelp.h)
 author: windows-sdk-content
 description: Contains information about the loaded image.
 old-location: base\loaded_image_str.htm

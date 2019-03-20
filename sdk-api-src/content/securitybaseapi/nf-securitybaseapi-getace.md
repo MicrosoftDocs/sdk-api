@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.GetAce
-title: GetAce function
+title: GetAce function (securitybaseapi.h)
 author: windows-sdk-content
 description: Obtains a pointer to an access control entry (ACE) in an access control list (ACL).
 old-location: security\getace.htm

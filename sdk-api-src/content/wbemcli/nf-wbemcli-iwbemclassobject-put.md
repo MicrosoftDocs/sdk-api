@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.Put
-title: IWbemClassObject::Put
+title: IWbemClassObject::Put (wbemcli.h)
 author: windows-sdk-content
 description: Sets a named property to a new value.
 old-location: wmi\iwbemclassobject_put.htm

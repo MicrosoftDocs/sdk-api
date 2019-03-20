@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProvider.get_UniqueName
-title: IFaxDeviceProvider::get_UniqueName
+title: IFaxDeviceProvider::get_UniqueName (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDeviceProvider::get_UniqueName property is a null-terminated string that contains the unique name that identifies the fax service provider (FSP).
 old-location: fax\_mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_uniquename_cpp.htm

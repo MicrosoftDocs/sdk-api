@@ -1,6 +1,6 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.SetBackupStatus
-title: IFhConfigMgr::SetBackupStatus
+title: IFhConfigMgr::SetBackupStatus (fhcfg.h)
 author: windows-sdk-content
 description: Changes the backup status value for an FhConfigMgr object.
 old-location: winprog\ifhconfigmgr_setbackupstatus.htm

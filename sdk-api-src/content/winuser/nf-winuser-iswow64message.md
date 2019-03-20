@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.IsWow64Message
-title: IsWow64Message function
+title: IsWow64Message function (winuser.h)
 author: windows-sdk-content
 description: Determines whether the last message read from the current thread's queue originated from a WOW64 process.
 old-location: base\iswow64message.htm

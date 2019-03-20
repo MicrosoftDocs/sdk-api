@@ -1,6 +1,6 @@
 ---
 UID: NF:fltuser.FilterSendMessage
-title: FilterSendMessage function
+title: FilterSendMessage function (fltuser.h)
 author: windows-sdk-content
 description: The FilterSendMessage function sends a message to a kernel-mode minifilter.
 old-location: ifsk\filtersendmessage.htm

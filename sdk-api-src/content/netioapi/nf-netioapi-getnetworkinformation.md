@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.GetNetworkInformation
-title: GetNetworkInformation function
+title: GetNetworkInformation function (netioapi.h)
 author: windows-sdk-content
 description: Reserved for future use. Do not use this function.
 old-location: netvista\getnetworkinformation.htm

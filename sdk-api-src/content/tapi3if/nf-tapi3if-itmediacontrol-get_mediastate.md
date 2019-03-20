@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITMediaControl.get_MediaState
-title: ITMediaControl::get_MediaState
+title: ITMediaControl::get_MediaState (tapi3if.h)
 author: windows-sdk-content
 description: The get_MediaState method gets the current state of media on the file terminal.
 old-location: tapi3\itmediacontrol_get_mediastate.htm

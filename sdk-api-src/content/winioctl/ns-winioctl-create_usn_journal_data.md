@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl.__unnamed_struct_16
-title: CREATE_USN_JOURNAL_DATA
+title: CREATE_USN_JOURNAL_DATA (winioctl.h)
 author: windows-sdk-content
 description: Contains information that describes an update sequence number (USN) change journal.
 old-location: fs\create_usn_journal_data_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.SetStreamSink
-title: IMFPMediaItem::SetStreamSink
+title: IMFPMediaItem::SetStreamSink (mfplay.h)
 author: windows-sdk-content
 description: Sets a media sink for the media item.
 old-location: mf\imfpmediaitem_setstreamsink.htm

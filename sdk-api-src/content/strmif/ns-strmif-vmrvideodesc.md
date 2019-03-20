@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif._VMRVideoDesc
-title: VMRVideoDesc
+title: VMRVideoDesc (strmif.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later. The VMRVideoDesc structure describes a video stream to be deinterlaced.
 old-location: dshow\vmrvideodesc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMFilterMiscFlags
-title: IAMFilterMiscFlags
+title: IAMFilterMiscFlags (strmif.h)
 author: windows-sdk-content
 description: The IAMFilterMiscFlags interface queries whether a filter is a source filter or a renderer.
 old-location: dshow\iamfiltermiscflags.htm

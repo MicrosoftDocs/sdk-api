@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPropertyList.Skip
-title: IADsPropertyList::Skip
+title: IADsPropertyList::Skip (iads.h)
 author: windows-sdk-content
 description: Skips a specified number of items, counting from the current cursor position, in the property list.
 old-location: adsi\iadspropertylist_skip.htm

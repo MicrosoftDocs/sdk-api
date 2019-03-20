@@ -1,6 +1,6 @@
 ---
 UID: NN:dcomp.IDCompositionAffineTransform2DEffect
-title: IDCompositionAffineTransform2DEffect
+title: IDCompositionAffineTransform2DEffect (dcomp.h)
 author: windows-sdk-content
 description: The arithmetic composite effect is used to combine 2 images using a weighted sum of pixels from the input images.
 old-location: directcomp\idcompositionaffinetransform2deffect.htm

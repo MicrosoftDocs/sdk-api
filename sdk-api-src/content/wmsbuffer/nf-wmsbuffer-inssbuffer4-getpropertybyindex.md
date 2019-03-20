@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsbuffer.INSSBuffer4.GetPropertyByIndex
-title: INSSBuffer4::GetPropertyByIndex
+title: INSSBuffer4::GetPropertyByIndex (wmsbuffer.h)
 author: windows-sdk-content
 description: The GetPropertyByIndex method retrieves a buffer property, also called a data unit extension, that was set using INSSBuffer3::SetProperty.
 old-location: wmformat\inssbuffer4_getpropertybyindex.htm

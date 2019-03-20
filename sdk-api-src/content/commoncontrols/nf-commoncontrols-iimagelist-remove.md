@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList.Remove
-title: IImageList::Remove
+title: IImageList::Remove (commoncontrols.h)
 author: windows-sdk-content
 description: Removes an image from an image list.
 old-location: controls\IImageList_Remove.htm

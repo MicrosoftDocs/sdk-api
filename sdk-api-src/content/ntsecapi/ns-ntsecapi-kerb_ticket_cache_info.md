@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._KERB_TICKET_CACHE_INFO
-title: KERB_TICKET_CACHE_INFO
+title: KERB_TICKET_CACHE_INFO (ntsecapi.h)
 author: windows-sdk-content
 description: Contains information about a cached Kerberos ticket. The Kerberos ticket is defined in Internet RFC 4120. For more information, see http://www.ietf.org.
 old-location: security\kerb_ticket_cache_info.htm

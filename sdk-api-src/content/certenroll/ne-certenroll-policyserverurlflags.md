@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.PolicyServerUrlFlags
-title: PolicyServerUrlFlags
+title: PolicyServerUrlFlags (certenroll.h)
 author: windows-sdk-content
 description: Contains certificate enrollment policy (CEP) server flags.
 old-location: security\policyserverurlflags.htm

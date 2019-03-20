@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.WindowPattern_Close
-title: WindowPattern_Close function
+title: WindowPattern_Close function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Closes an open window.
 old-location: winauto\uiauto_WindowPattern_CloseConPat.htm

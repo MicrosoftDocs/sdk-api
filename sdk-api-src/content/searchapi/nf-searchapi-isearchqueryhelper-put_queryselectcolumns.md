@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.put_QuerySelectColumns
-title: ISearchQueryHelper::put_QuerySelectColumns
+title: ISearchQueryHelper::put_QuerySelectColumns (searchapi.h)
 author: windows-sdk-content
 description: Sets the columns (or properties) requested in the select statement.
 old-location: search\_search_ISearchQueryHelper_put_QuerySelectColumns.htm

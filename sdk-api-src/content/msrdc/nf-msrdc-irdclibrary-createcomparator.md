@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcLibrary.CreateComparator
-title: IRdcLibrary::CreateComparator
+title: IRdcLibrary::CreateComparator (msrdc.h)
 author: windows-sdk-content
 description: Creates a signature comparator.
 old-location: rdc\irdclibrary_createcomparator.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.GetAttributeCount
-title: IWMRegisteredDevice::GetAttributeCount
+title: IWMRegisteredDevice::GetAttributeCount (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetAttributeCount method retrieves the total number of attributes associated with the device.
 old-location: wmformat\iwmregistereddevice_getattributecount.htm

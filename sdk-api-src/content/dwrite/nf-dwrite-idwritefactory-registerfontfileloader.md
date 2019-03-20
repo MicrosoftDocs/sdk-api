@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFactory.RegisterFontFileLoader
-title: IDWriteFactory::RegisterFontFileLoader
+title: IDWriteFactory::RegisterFontFileLoader (dwrite.h)
 author: windows-sdk-content
 description: Registers a font file loader with DirectWrite.
 old-location: directwrite\IDWriteFactory_RegisterFontFileLoader.htm

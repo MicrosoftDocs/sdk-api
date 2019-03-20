@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchLanguageSupport.LoadStemmer
-title: ISearchLanguageSupport::LoadStemmer
+title: ISearchLanguageSupport::LoadStemmer (searchapi.h)
 author: windows-sdk-content
 description: Retrieves an interface to the word stemmer registered for the specified language code identifier (LCID).
 old-location: search\_search_ISearchLanguageSupport_LoadStemmer.htm

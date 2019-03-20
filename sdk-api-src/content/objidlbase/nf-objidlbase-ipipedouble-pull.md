@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IPipeDouble.Pull
-title: IPipeDouble::Pull
+title: IPipeDouble::Pull (objidlbase.h)
 author: windows-sdk-content
 description: Retrieves data of the double integer type from the pipe source.
 old-location: com\ipipedouble_pull.htm

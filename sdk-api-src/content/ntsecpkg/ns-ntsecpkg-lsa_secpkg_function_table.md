@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._LSA_SECPKG_FUNCTION_TABLE
-title: LSA_SECPKG_FUNCTION_TABLE
+title: LSA_SECPKG_FUNCTION_TABLE (ntsecpkg.h)
 author: windows-sdk-content
 description: Contains pointers to the LSA functions that a security package can call. The Local Security Authority (LSA) passes this structure to a security package when it calls the package's SpInitialize function.
 old-location: security\lsa_secpkg_function_table.htm

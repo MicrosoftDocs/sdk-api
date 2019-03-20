@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTimecodeDisplay.SetTCDisplay
-title: IAMTimecodeDisplay::SetTCDisplay
+title: IAMTimecodeDisplay::SetTCDisplay (strmif.h)
 author: windows-sdk-content
 description: The SetTCDisplay method sets the timecode character generator output characteristics.
 old-location: dshow\iamtimecodedisplay_settcdisplay.htm

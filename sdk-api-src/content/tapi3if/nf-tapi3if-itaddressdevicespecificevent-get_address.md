@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddressDeviceSpecificEvent.get_Address
-title: ITAddressDeviceSpecificEvent::get_Address
+title: ITAddressDeviceSpecificEvent::get_Address (tapi3if.h)
 author: windows-sdk-content
 description: The get_Address method gets a pointer to the ITAddress interface of the Address object involved in the event.
 old-location: tapi3\itaddressdevicespecificevent_get_address.htm

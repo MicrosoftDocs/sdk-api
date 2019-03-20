@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.WriteProfileStringA
-title: WriteProfileStringA function
+title: WriteProfileStringA function (winbase.h)
 author: windows-sdk-content
 description: Copies a string into the specified section of the Win.ini file.
 old-location: base\writeprofilestring.htm

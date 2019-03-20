@@ -1,6 +1,6 @@
 ---
 UID: NN:termmgr.ITPluggableTerminalClassRegistration
-title: ITPluggableTerminalClassRegistration
+title: ITPluggableTerminalClassRegistration (termmgr.h)
 author: windows-sdk-content
 description: The ITPluggableTerminalClassRegistration interface exposes methods that allow the creation, modification, and deletion of the registry entry for a pluggable terminal.
 old-location: tapi3\itpluggableterminalclassregistration.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilFindSzProperty
-title: ResUtilFindSzProperty function
+title: ResUtilFindSzProperty function (resapi.h)
 author: windows-sdk-content
 description: Locates a string property in a property list. The PRESUTIL_FIND_SZ_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilfindszproperty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRunningTaskCollection.get_Count
-title: IRunningTaskCollection::get_Count
+title: IRunningTaskCollection::get_Count (taskschd.h)
 author: windows-sdk-content
 description: Gets the number of running tasks in the collection.
 old-location: taskschd\irunningtaskcollection_count.htm

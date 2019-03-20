@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdattachment.IWSDOutboundAttachment.Abort
-title: IWSDOutboundAttachment::Abort
+title: IWSDOutboundAttachment::Abort (wsdattachment.h)
 author: windows-sdk-content
 description: Aborts the transfer of data on the attachment MIME data stream.
 old-location: ncd\iwsdoutboundattachment_abort.htm

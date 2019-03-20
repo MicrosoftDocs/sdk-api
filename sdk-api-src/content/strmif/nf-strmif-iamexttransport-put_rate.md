@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtTransport.put_Rate
-title: IAMExtTransport::put_Rate
+title: IAMExtTransport::put_Rate (strmif.h)
 author: windows-sdk-content
 description: The put_Rate method sets the playback rate for variable-speed external devices.
 old-location: dshow\iamexttransport_put_rate.htm

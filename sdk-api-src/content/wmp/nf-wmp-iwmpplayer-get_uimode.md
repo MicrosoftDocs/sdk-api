@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlayer.get_uiMode
-title: IWMPPlayer::get_uiMode
+title: IWMPPlayer::get_uiMode (wmp.h)
 author: windows-sdk-content
 description: The get_uiMode method retrieves a value indicating which controls are shown in the user interface.
 old-location: wmp\iwmpplayer_get_uimode.htm

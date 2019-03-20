@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_ENDPOINT_REFERENCE
-title: WSD_ENDPOINT_REFERENCE
+title: WSD_ENDPOINT_REFERENCE (wsdtypes.h)
 author: windows-sdk-content
 description: Represents a WS-Addressing endpoint reference.
 old-location: ncd\wsd_endpoint_reference_struct.htm

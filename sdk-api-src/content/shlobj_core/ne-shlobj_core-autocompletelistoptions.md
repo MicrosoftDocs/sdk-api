@@ -1,6 +1,6 @@
 ---
 UID: NE:shlobj_core._tagAUTOCOMPLETELISTOPTIONS
-title: AUTOCOMPLETELISTOPTIONS
+title: AUTOCOMPLETELISTOPTIONS (shlobj_core.h)
 author: windows-sdk-content
 description: Specifies which objects are enumerated for autocompletion lists.
 old-location: shell\AUTOCOMPLETELISTOPTIONS.htm

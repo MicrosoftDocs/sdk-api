@@ -1,6 +1,6 @@
 ---
 UID: NN:oleidl.IParseDisplayName
-title: IParseDisplayName
+title: IParseDisplayName (oleidl.h)
 author: windows-sdk-content
 description: Parses a displayable name string to convert it into a moniker for custom moniker implementations.
 old-location: com\iparsedisplayname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataHandlerInfo.DoesRequireFullStream
-title: IWICMetadataHandlerInfo::DoesRequireFullStream
+title: IWICMetadataHandlerInfo::DoesRequireFullStream (wincodecsdk.h)
 author: windows-sdk-content
 description: Determines if the handler requires a full stream.
 old-location: wic\_wic_codec_iwicmetadatahandlerinfo_doesrequirefullstream.htm

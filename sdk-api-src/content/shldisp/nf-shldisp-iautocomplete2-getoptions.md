@@ -1,6 +1,6 @@
 ---
 UID: NF:shldisp.IAutoComplete2.GetOptions
-title: IAutoComplete2::GetOptions
+title: IAutoComplete2::GetOptions (shldisp.h)
 author: windows-sdk-content
 description: Gets the current autocomplete options.
 old-location: shell\IAutoComplete2_GetOptions.htm

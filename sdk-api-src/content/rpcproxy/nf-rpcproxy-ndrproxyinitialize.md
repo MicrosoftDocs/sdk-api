@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcproxy.NdrProxyInitialize
-title: NdrProxyInitialize function
+title: NdrProxyInitialize function (rpcproxy.h)
 author: windows-sdk-content
 description: The NdrProxyInitialize function initializes the proxy for an object method.
 old-location: rpc\ndrproxyinitialize.htm

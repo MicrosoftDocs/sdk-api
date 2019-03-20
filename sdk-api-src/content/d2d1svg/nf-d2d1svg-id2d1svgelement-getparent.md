@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetParent
-title: ID2D1SvgElement::GetParent
+title: ID2D1SvgElement::GetParent (d2d1svg.h)
 author: windows-sdk-content
 description: Gets the parent element.
 old-location: direct2d\id2d1svgelement_getparent.htm

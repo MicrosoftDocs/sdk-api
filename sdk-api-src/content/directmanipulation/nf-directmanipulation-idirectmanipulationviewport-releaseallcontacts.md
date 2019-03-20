@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.ReleaseAllContacts
-title: IDirectManipulationViewport::ReleaseAllContacts
+title: IDirectManipulationViewport::ReleaseAllContacts (directmanipulation.h)
 author: windows-sdk-content
 description: Removes all contacts that are associated with the viewport. Inertia is started if the viewport supports inertia.
 old-location: directmanipulation\idirectmanipulationviewport_releaseallcontacts.htm

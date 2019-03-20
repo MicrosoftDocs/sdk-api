@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientSettings.SetRdpProperty
-title: IRemoteDesktopClientSettings::SetRdpProperty
+title: IRemoteDesktopClientSettings::SetRdpProperty (rdpappcontainerclient.h)
 author: windows-sdk-content
 description: Sets the value of a single named RDP property.
 old-location: termserv\iremotedesktopclientsettings_setrdpproperty.htm

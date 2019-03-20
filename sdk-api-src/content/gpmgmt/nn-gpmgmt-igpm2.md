@@ -1,6 +1,6 @@
 ---
 UID: NN:gpmgmt.IGPM2
-title: IGPM2
+title: IGPM2 (gpmgmt.h)
 author: windows-sdk-content
 description: The IGPM2 interface extends the GPMBackupDir and InitializeReporting methods of the IGPM interface of the Group Policy Management Console (GPMC).
 old-location: gpmc\igpm2.htm

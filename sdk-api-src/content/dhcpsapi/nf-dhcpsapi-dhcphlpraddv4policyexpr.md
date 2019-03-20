@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpHlprAddV4PolicyExpr
-title: DhcpHlprAddV4PolicyExpr function
+title: DhcpHlprAddV4PolicyExpr function (dhcpsapi.h)
 author: windows-sdk-content
 description: Allocates, initializes, and adds a DHCP server policy expression to a DHCP server policy.
 old-location: dhcp\dhcphlpraddv4policyexpr.htm

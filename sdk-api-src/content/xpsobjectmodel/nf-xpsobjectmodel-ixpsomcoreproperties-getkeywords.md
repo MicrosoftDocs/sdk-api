@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetKeywords
-title: IXpsOMCoreProperties::GetKeywords
+title: IXpsOMCoreProperties::GetKeywords (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the keywords property.
 old-location: xps\ixpsomcoreproperties_getkeywords.htm

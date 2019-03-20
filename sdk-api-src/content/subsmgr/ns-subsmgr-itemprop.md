@@ -1,6 +1,6 @@
 ---
 UID: NS:subsmgr._tagITEMPROP
-title: ITEMPROP
+title: ITEMPROP (subsmgr.h)
 author: windows-sdk-content
 description: Stores information about properties in the Windows Property System, and is used by the IItemPropertyBag interface.
 old-location: search\itemprop.htm

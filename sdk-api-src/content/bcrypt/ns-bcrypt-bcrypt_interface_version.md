@@ -1,6 +1,6 @@
 ---
 UID: NS:bcrypt._BCRYPT_INTERFACE_VERSION
-title: BCRYPT_INTERFACE_VERSION
+title: BCRYPT_INTERFACE_VERSION (bcrypt.h)
 author: windows-sdk-content
 description: Contains version information for a programmatic interface for a CNG provider.
 old-location: security\bcrypt_interface_version.htm

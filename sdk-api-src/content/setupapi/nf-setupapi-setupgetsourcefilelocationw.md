@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupGetSourceFileLocationW
-title: SetupGetSourceFileLocationW function
+title: SetupGetSourceFileLocationW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupGetSourceFileLocation function retrieves the location of a source file listed in an INF file.
 old-location: setup\setupgetsourcefilelocation.htm

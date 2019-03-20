@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.put_UseDeviceTSID
-title: IFaxOutgoingQueue::put_UseDeviceTSID
+title: IFaxOutgoingQueue::put_UseDeviceTSID (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingQueue::get_UseDeviceTSID property is a Boolean value that indicates whether the fax service uses the device transmitting station identifier (TSID) instead of a sender TSID.
 old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_usedevicetsid_cpp.htm

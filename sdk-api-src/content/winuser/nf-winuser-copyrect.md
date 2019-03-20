@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CopyRect
-title: CopyRect function
+title: CopyRect function (winuser.h)
 author: windows-sdk-content
 description: The CopyRect function copies the coordinates of one rectangle to another.
 old-location: gdi\copyrect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:windns.__unnamed_struct_21
-title: DNS_NSEC_DATAA
+title: DNS_NSEC_DATAA (windns.h)
 author: windows-sdk-content
 description: Represents an NSEC resource record (RR) as specified in section 4 of RFC 4034.
 old-location: dns\dns_nsec_data.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.GetBackColor
-title: ITextFont::GetBackColor
+title: ITextFont::GetBackColor (tom.h)
 author: windows-sdk-content
 description: Gets the text background (highlight) color.
 old-location: controls\ITextFont_GetBackColor.htm

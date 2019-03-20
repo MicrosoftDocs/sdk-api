@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextOwnerCompositionServices.TerminateComposition
-title: ITfContextOwnerCompositionServices::TerminateComposition
+title: ITfContextOwnerCompositionServices::TerminateComposition (msctf.h)
 author: windows-sdk-content
 description: ITfContextOwnerCompositionServices::TerminateComposition method
 old-location: tsf\itfcontextownercompositionservices_terminatecomposition.htm

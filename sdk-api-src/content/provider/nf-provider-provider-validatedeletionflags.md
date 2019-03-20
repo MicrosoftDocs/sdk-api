@@ -1,6 +1,6 @@
 ---
 UID: NF:provider.Provider.ValidateDeletionFlags
-title: Provider::ValidateDeletionFlags
+title: Provider::ValidateDeletionFlags (provider.h)
 author: windows-sdk-content
 description: The ValidateDeletionFlags method determines whether a set of flags is valid for a delete operation.
 old-location: wmi\provider_validatedeletionflags.htm

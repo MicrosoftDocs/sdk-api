@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IRpcOptions.Set
-title: IRpcOptions::Set
+title: IRpcOptions::Set (objidl.h)
 author: windows-sdk-content
 description: Sets the value of an RPC binding option property.
 old-location: com\irpcoptions_set.htm

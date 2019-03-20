@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1effectauthor.D2D1_CUSTOM_VERTEX_BUFFER_PROPERTIES
-title: D2D1_CUSTOM_VERTEX_BUFFER_PROPERTIES
+title: D2D1_CUSTOM_VERTEX_BUFFER_PROPERTIES (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Defines a vertex shader and the input element description to define the input layout.
 old-location: direct2d\d2d1_custom_vertex_buffer_properties.htm

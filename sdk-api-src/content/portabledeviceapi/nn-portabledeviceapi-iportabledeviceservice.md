@@ -1,6 +1,6 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceService
-title: IPortableDeviceService
+title: IPortableDeviceService (portabledeviceapi.h)
 author: windows-sdk-content
 description: Provides access to a service.
 old-location: wpdsdk\iportabledeviceservice.htm

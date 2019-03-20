@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMMediaProps.GetType
-title: IWMMediaProps::GetType
+title: IWMMediaProps::GetType (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetType method retrieves the major type of the media in the stream, input, or output described by the object to which the current IWMMediaProps interface belongs.
 old-location: wmformat\iwmmediaprops_gettype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bits2_0.IBackgroundCopyJob3.AddFileWithRanges
-title: IBackgroundCopyJob3::AddFileWithRanges
+title: IBackgroundCopyJob3::AddFileWithRanges (bits2_0.h)
 author: windows-sdk-content
 description: Adds a file to a download job and specifies the ranges of the file you want to download.
 old-location: bits\ibackgroundcopyjob3_addfilewithranges.htm

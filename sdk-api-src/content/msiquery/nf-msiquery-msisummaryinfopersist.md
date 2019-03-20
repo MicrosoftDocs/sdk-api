@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiSummaryInfoPersist
-title: MsiSummaryInfoPersist function
+title: MsiSummaryInfoPersist function (msiquery.h)
 author: windows-sdk-content
 description: The MsiSummaryInfoPersist function writes changed summary information back to the summary information stream.
 old-location: setup\msisummaryinfopersist.htm

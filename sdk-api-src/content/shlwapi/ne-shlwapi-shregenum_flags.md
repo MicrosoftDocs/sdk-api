@@ -1,6 +1,6 @@
 ---
 UID: NE:shlwapi.__unnamed_enum_4
-title: SHREGENUM_FLAGS
+title: SHREGENUM_FLAGS (shlwapi.h)
 author: windows-sdk-content
 description: Provides a set of values that indicate the base key that will be used for an enumeration.
 old-location: shell\SHREGENUM_FLAGS.htm

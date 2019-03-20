@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineGetCallInfo
-title: lineGetCallInfo function
+title: lineGetCallInfo function (tapi.h)
 author: windows-sdk-content
 description: The lineGetCallInfo function enables an application to obtain fixed information about the specified call.
 old-location: tapi2\linegetcallinfo.htm

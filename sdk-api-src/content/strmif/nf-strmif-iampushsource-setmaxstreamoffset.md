@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMPushSource.SetMaxStreamOffset
-title: IAMPushSource::SetMaxStreamOffset
+title: IAMPushSource::SetMaxStreamOffset (strmif.h)
 author: windows-sdk-content
 description: The SetMaxStreamOffset method specifies the stream offset that will be allowed in the filter graph.
 old-location: dshow\iampushsource_setmaxstreamoffset.htm

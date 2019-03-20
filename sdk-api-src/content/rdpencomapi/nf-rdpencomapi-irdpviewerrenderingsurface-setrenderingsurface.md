@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPViewerRenderingSurface.SetRenderingSurface
-title: IRDPViewerRenderingSurface::SetRenderingSurface
+title: IRDPViewerRenderingSurface::SetRenderingSurface (rdpencomapi.h)
 author: windows-sdk-content
 description: Sets the rendering surface to be used by the viewer.
 old-location: rdp\irdpviewerrenderingsurface_setrenderingsurface.htm

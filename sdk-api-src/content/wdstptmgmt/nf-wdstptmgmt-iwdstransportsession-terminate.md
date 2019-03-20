@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSession.Terminate
-title: IWdsTransportSession::Terminate
+title: IWdsTransportSession::Terminate (wdstptmgmt.h)
 author: windows-sdk-content
 description: Terminates an active session on the WDS transport server and disconnects all WDS clients joined to the session.
 old-location: wds\iwdstransportsession_terminate.htm

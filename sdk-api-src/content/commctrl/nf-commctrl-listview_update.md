@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_Update
-title: ListView_Update macro
+title: ListView_Update macro (commctrl.h)
 author: windows-sdk-content
 description: Updates a list-view item. If the list-view control has the LVS_AUTOARRANGE style, this macro causes the list-view control to be arranged. You can use this macro or send the LVM_UPDATE message explicitly.
 old-location: controls\ListView_Update.htm

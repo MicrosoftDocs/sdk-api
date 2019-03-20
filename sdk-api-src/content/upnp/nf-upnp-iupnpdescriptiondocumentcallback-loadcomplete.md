@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDescriptionDocumentCallback.LoadComplete
-title: IUPnPDescriptionDocumentCallback::LoadComplete
+title: IUPnPDescriptionDocumentCallback::LoadComplete (upnp.h)
 author: windows-sdk-content
 description: The LoadComplete method is invoked when the UPnP framework has finished loading a device description.
 old-location: upnp\iupnpdescriptiondocumentcallback_loadcomplete.htm

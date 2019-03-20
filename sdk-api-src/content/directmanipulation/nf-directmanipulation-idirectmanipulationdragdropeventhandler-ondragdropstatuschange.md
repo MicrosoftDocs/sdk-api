@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationDragDropEventHandler.OnDragDropStatusChange
-title: IDirectManipulationDragDropEventHandler::OnDragDropStatusChange
+title: IDirectManipulationDragDropEventHandler::OnDragDropStatusChange (directmanipulation.h)
 author: windows-sdk-content
 description: Called when a status change happens in the viewport that the drag-and-drop behavior is attached to.
 old-location: directmanipulation\idirectmanipulationdragdropeventhandler_ondragdropstatuschange.htm

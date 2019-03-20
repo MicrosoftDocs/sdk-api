@@ -1,6 +1,6 @@
 ---
 UID: NF:chstrarr.CHStringArray.RemoveAll
-title: CHStringArray::RemoveAll
+title: CHStringArray::RemoveAll (chstrarr.h)
 author: windows-sdk-content
 description: The RemoveAll method removes all the CHString members from this array.
 old-location: wmi\chstringarray_removeall.htm

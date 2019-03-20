@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITTerminalSupport2.get_PluggableSuperclasses
-title: ITTerminalSupport2::get_PluggableSuperclasses
+title: ITTerminalSupport2::get_PluggableSuperclasses (tapi3if.h)
 author: windows-sdk-content
 description: The get_PluggableSuperclasses method returns a collection of ITPluggableTerminalSuperclassInfo superclass information interface pointers.
 old-location: tapi3\itterminalsupport2_get_pluggablesuperclasses.htm

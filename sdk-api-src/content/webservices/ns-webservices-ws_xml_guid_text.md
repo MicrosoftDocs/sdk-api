@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_GUID_TEXT
-title: WS_XML_GUID_TEXT
+title: WS_XML_GUID_TEXT (webservices.h)
 author: windows-sdk-content
 description: Represents a GUID formatted as the text &#0034;xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx&#0034;.
 old-location: wsw\ws_xml_guid_text.htm

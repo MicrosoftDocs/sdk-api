@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10_1shader._D3D10_SHADER_DEBUG_REGTYPE
-title: D3D10_SHADER_DEBUG_REGTYPE
+title: D3D10_SHADER_DEBUG_REGTYPE (d3d10_1shader.h)
 author: windows-sdk-content
 description: Shader register types.
 old-location: direct3d10\d3d10_shader_debug_regtype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhUpdateLogFileCatalog
-title: PdhUpdateLogFileCatalog function
+title: PdhUpdateLogFileCatalog function (pdh.h)
 author: windows-sdk-content
 description: Synchronizes the information in the log file catalog with the performance data in the log file.
 old-location: perf\pdhupdatelogfilecatalog.htm

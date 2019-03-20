@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFCdmSuspendNotify.Begin
-title: IMFCdmSuspendNotify::Begin
+title: IMFCdmSuspendNotify::Begin (mfmediaengine.h)
 author: windows-sdk-content
 description: Indicates that the suspend process is starting and resources should be brought into a consistent state.
 old-location: mf\imfcdmsuspendnotify_begin.htm

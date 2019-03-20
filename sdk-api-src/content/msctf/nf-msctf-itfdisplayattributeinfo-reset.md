@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeInfo.Reset
-title: ITfDisplayAttributeInfo::Reset
+title: ITfDisplayAttributeInfo::Reset (msctf.h)
 author: windows-sdk-content
 description: ITfDisplayAttributeInfo::Reset method
 old-location: tsf\itfdisplayattributeinfo_reset.htm

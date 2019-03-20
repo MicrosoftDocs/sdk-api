@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IWMDMOperation
-title: IWMDMOperation
+title: IWMDMOperation (mswmdm.h)
 author: windows-sdk-content
 description: This optional, application-implemented IWMDMOperation interface allows the application to control how data is read from or written to the computer during a file transfer.
 old-location: wmdm\iwmdmoperation.htm

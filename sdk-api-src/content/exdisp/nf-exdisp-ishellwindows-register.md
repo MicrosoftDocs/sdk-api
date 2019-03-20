@@ -1,6 +1,6 @@
 ---
 UID: NF:exdisp.IShellWindows.Register
-title: IShellWindows::Register
+title: IShellWindows::Register (exdisp.h)
 author: windows-sdk-content
 description: Registers an open window as a Shell window; the window is specified by handle.
 old-location: shell\IShellWindows_Register.htm

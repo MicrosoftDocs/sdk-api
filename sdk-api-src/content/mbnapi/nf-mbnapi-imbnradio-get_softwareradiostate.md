@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnRadio.get_SoftwareRadioState
-title: IMbnRadio::get_SoftwareRadioState
+title: IMbnRadio::get_SoftwareRadioState (mbnapi.h)
 author: windows-sdk-content
 description: The software radio state of a Mobile Broadband device.
 old-location: mbn\imbnradio_softwareradiostate.htm

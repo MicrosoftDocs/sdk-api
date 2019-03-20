@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer.get_LoggingOptions
-title: IFaxServer::get_LoggingOptions
+title: IFaxServer::get_LoggingOptions (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxServer::get_LoggingOptions property creates a IFaxLoggingOptions configuration interface. The interface permits configuration of both the activity logging options and the event logging categories that the fax service uses.
 old-location: fax\_mfax_faxserver_loggingoptions_cpp.htm

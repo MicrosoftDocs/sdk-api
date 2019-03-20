@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpModifyClassV6
-title: DhcpModifyClassV6 function
+title: DhcpModifyClassV6 function (dhcpsapi.h)
 author: windows-sdk-content
 description: Modifies a DHCPv6 user or vendor class defined on the server.
 old-location: dhcp\dhcpmodifyclassv6.htm

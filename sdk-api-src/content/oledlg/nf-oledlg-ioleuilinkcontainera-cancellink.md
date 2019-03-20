@@ -1,6 +1,6 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerA.CancelLink
-title: IOleUILinkContainerA::CancelLink
+title: IOleUILinkContainerA::CancelLink (oledlg.h)
 author: windows-sdk-content
 description: Disconnects the selected links.
 old-location: com\ioleuilinkcontainer_cancellink.htm

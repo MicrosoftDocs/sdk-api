@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest3.SetClientCertificate
-title: IXMLHTTPRequest3::SetClientCertificate
+title: IXMLHTTPRequest3::SetClientCertificate (msxml6.h)
 author: windows-sdk-content
 description: Sets a client certificate to be used to authenticate against the URL specified in the Open method.
 old-location: ixhr2\ixmlhttprequest3_setclientcertificate.htm

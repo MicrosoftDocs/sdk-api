@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12sdklayers.D3D12_INFO_QUEUE_FILTER_DESC
-title: D3D12_INFO_QUEUE_FILTER_DESC
+title: D3D12_INFO_QUEUE_FILTER_DESC (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Allow or deny certain types of messages to pass through a filter.
 old-location: direct3d12\d3d12_info_queue_filter_desc.htm

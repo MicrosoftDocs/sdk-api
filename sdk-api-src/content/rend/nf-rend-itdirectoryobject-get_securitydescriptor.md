@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObject.get_SecurityDescriptor
-title: ITDirectoryObject::get_SecurityDescriptor
+title: ITDirectoryObject::get_SecurityDescriptor (rend.h)
 author: windows-sdk-content
 description: The get_SecurityDescriptor method gets an IDispatch pointer on a directory service security descriptor object describing current security permissions.
 old-location: tapi3\itdirectoryobject_get_securitydescriptor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.QueryProperty
-title: IWRdsProtocolConnection::QueryProperty
+title: IWRdsProtocolConnection::QueryProperty (wtsprotocol.h)
 author: windows-sdk-content
 description: Retrieves a property value from the protocol.
 old-location: termserv\iwrdsprotocolconnection_queryproperty.htm

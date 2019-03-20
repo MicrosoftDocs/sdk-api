@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Free_Res_Des
-title: CM_Free_Res_Des function
+title: CM_Free_Res_Des function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Free_Res_Des function removes a resource descriptor from a logical configuration on the local machine.
 old-location: devinst\cm_free_res_des.htm

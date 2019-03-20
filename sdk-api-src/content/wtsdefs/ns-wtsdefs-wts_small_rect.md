@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsdefs._WTS_SMALL_RECT
-title: WTS_SMALL_RECT
+title: WTS_SMALL_RECT (wtsdefs.h)
 author: windows-sdk-content
 description: Contains client window coordinates.
 old-location: termserv\wts_small_rect.htm

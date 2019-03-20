@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdGraphBuilder.GetDvdInterface
-title: IDvdGraphBuilder::GetDvdInterface
+title: IDvdGraphBuilder::GetDvdInterface (strmif.h)
 author: windows-sdk-content
 description: The GetDvdInterface method retrieves interfaces from the DVD-Video playback graph to make DVD-Video playback development easier.
 old-location: dshow\idvdgraphbuilder_getdvdinterface.htm

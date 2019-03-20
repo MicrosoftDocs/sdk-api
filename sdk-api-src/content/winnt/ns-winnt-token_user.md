@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._TOKEN_USER
-title: TOKEN_USER
+title: TOKEN_USER (winnt.h)
 author: windows-sdk-content
 description: Identifies the user associated with an access token.
 old-location: security\token_user.htm

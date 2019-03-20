@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_CUSTOM_TYPE_DESCRIPTION
-title: WS_CUSTOM_TYPE_DESCRIPTION
+title: WS_CUSTOM_TYPE_DESCRIPTION (webservices.h)
 author: windows-sdk-content
 description: Represents a custom mapping between a C data type and an XML element.
 old-location: wsw\ws_custom_type_description.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolShadowConnection
-title: IWRdsProtocolShadowConnection
+title: IWRdsProtocolShadowConnection (wtsprotocol.h)
 author: windows-sdk-content
 description: Exposes methods that notify the protocol provider about the status of session shadowing.
 old-location: termserv\iwrdsprotocolshadowconnection.htm

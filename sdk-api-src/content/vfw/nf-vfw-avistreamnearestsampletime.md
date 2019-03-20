@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIStreamNearestSampleTime
-title: AVIStreamNearestSampleTime macro
+title: AVIStreamNearestSampleTime macro (vfw.h)
 author: windows-sdk-content
 description: The AVIStreamNearestSampleTime macro determines the time corresponding to the beginning of a sample that is nearest to a specified time in a stream.
 old-location: multimedia\avistreamnearestsampletime.htm

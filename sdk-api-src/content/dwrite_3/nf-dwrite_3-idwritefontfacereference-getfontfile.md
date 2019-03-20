@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference.GetFontFile
-title: IDWriteFontFaceReference::GetFontFile
+title: IDWriteFontFaceReference::GetFontFile (dwrite_3.h)
 author: windows-sdk-content
 description: Obtains the font file representing a font face.
 old-location: directwrite\idwritefontfacereference_getfontfile.htm

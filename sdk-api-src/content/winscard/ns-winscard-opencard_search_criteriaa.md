@@ -1,6 +1,6 @@
 ---
 UID: NS:winscard.__unnamed_struct_2
-title: OPENCARD_SEARCH_CRITERIAA
+title: OPENCARD_SEARCH_CRITERIAA (winscard.h)
 author: windows-sdk-content
 description: The OPENCARD_SEARCH_CRITERIA structure is used by the SCardUIDlgSelectCard function in order to recognize cards that meet the requirements set forth by the caller. You can, however, call SCardUIDlgSelectCard without using this structure.
 old-location: security\opencard_search_criteria.htm

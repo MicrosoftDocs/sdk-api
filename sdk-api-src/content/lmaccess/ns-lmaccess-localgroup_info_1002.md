@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._LOCALGROUP_INFO_1002
-title: LOCALGROUP_INFO_1002
+title: LOCALGROUP_INFO_1002 (lmaccess.h)
 author: windows-sdk-content
 description: The LOCALGROUP_INFO_1002 structure contains a comment describing a local group.
 old-location: netmgmt\localgroup_info_1002_str.htm

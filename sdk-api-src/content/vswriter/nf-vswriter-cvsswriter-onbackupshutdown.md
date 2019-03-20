@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.OnBackupShutdown
-title: CVssWriter::OnBackupShutdown
+title: CVssWriter::OnBackupShutdown (vswriter.h)
 author: windows-sdk-content
 description: The OnBackupShutdown method is called by a writer following a BackupShutdown event. It is used to perform operations considered necessary when a backup application shuts down, particularly in the case of a crash of the backup application.
 old-location: base\cvsswriter_onbackupshutdown.htm

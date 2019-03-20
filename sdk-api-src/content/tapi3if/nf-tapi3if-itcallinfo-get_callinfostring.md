@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallInfo.get_CallInfoString
-title: ITCallInfo::get_CallInfoString
+title: ITCallInfo::get_CallInfoString (tapi3if.h)
 author: windows-sdk-content
 description: The get_CallInfoString method gets call information items described by a string, such as the displayable address.
 old-location: tapi3\itcallinfo_get_callinfostring.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:docobj.OLECMDTEXTF
-title: OLECMDTEXTF
+title: OLECMDTEXTF (docobj.h)
 author: windows-sdk-content
 description: Specifies the type of information that an object should store in the OLECMDTEXT structure passed in IOleCommandTarget::QueryStatus.
 old-location: com\olecmdtextf.htm

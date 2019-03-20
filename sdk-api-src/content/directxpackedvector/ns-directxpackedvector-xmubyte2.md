@@ -1,6 +1,6 @@
 ---
 UID: NS:directxpackedvector.XMUBYTE2
-title: XMUBYTE2
+title: XMUBYTE2 (directxpackedvector.h)
 author: windows-sdk-content
 description: Describes a 2D vector where each component is a unsigned integer, 8-bits (1 byte) in length.
 old-location: dxmath\xmubyte2.htm

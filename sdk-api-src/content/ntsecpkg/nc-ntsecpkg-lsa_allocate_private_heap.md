@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_ALLOCATE_PRIVATE_HEAP
-title: LSA_ALLOCATE_PRIVATE_HEAP
+title: LSA_ALLOCATE_PRIVATE_HEAP (ntsecpkg.h)
 author: windows-sdk-content
 description: Allocates memory on the private heap.
 old-location: security\allocateprivateheap.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincred.CredEnumerateW
-title: CredEnumerateW function
+title: CredEnumerateW function (wincred.h)
 author: windows-sdk-content
 description: Enumerates the credentials from the user's credential set.
 old-location: security\credenumerate.htm

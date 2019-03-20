@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetSignaturePartReferenceEnumerator
-title: IOpcDigitalSignature::GetSignaturePartReferenceEnumerator
+title: IOpcDigitalSignature::GetSignaturePartReferenceEnumerator (msopc.h)
 author: windows-sdk-content
 description: Gets an enumerator of IOpcSignaturePartReference interface pointers, which represent references to parts that have been signed.
 old-location: opc\iopcdigitalsignature_getsignaturepartreferenceenumerator.htm

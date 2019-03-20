@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetwork.SetCategory
-title: INetwork::SetCategory
+title: INetwork::SetCategory (netlistmgr.h)
 author: windows-sdk-content
 description: The SetCategory method sets the category of a network. Changes made take effect immediately. Callers of this API must be members of the Administrators group.
 old-location: nla\inetwork_setcategory.htm

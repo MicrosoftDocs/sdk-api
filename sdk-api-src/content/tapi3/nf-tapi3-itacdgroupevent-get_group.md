@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITACDGroupEvent.get_Group
-title: ITACDGroupEvent::get_Group
+title: ITACDGroupEvent::get_Group (tapi3.h)
 author: windows-sdk-content
 description: The get_Group method gets the ITACDGroup interface pointer for the group on which the event occurred.
 old-location: tapi3\itacdgroupevent_get_group.htm

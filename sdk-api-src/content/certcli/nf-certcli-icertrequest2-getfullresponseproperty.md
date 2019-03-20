@@ -1,6 +1,6 @@
 ---
 UID: NF:certcli.ICertRequest2.GetFullResponseProperty
-title: ICertRequest2::GetFullResponseProperty
+title: ICertRequest2::GetFullResponseProperty (certcli.h)
 author: windows-sdk-content
 description: Retrieves the cached response data returned by the server.
 old-location: security\icertrequest2_getfullresponseproperty.htm

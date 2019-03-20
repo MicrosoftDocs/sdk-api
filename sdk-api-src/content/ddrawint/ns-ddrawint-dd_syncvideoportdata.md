@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_SYNCVIDEOPORTDATA
-title: DD_SYNCVIDEOPORTDATA
+title: DD_SYNCVIDEOPORTDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_SYNCVIDEOPORTDATA structure contains the video port extensions (VPE) object information.
 old-location: display\dd_syncvideoportdata.htm

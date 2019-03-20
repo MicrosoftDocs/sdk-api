@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICPlanarFormatConverter.Initialize
-title: IWICPlanarFormatConverter::Initialize
+title: IWICPlanarFormatConverter::Initialize (wincodec.h)
 author: windows-sdk-content
 description: Initializes a format converter with a planar source, and specifies the interleaved output pixel format.
 old-location: wic\iwicplanarformatconverter_initialize.htm

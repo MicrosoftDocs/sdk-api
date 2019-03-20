@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetCustomObjectEnumerator
-title: IOpcDigitalSignature::GetCustomObjectEnumerator
+title: IOpcDigitalSignature::GetCustomObjectEnumerator (msopc.h)
 author: windows-sdk-content
 description: Gets an enumerator of IOpcSignatureCustomObject interface pointers that represent application-specific Object elements in the signature markup.
 old-location: opc\iopcdigitalsignature_getcustomobjectenumerator.htm

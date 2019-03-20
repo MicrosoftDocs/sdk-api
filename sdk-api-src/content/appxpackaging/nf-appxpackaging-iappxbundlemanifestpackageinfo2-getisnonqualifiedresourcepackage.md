@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfo2.GetIsNonQualifiedResourcePackage
-title: IAppxBundleManifestPackageInfo2::GetIsNonQualifiedResourcePackage
+title: IAppxBundleManifestPackageInfo2::GetIsNonQualifiedResourcePackage (appxpackaging.h)
 author: windows-sdk-content
 description: Determines whether the app package is a non-qualified resource package.
 old-location: appxpkg\iappxbundlemanifestpackageinfo2_getisnonqualifiedresourcepackage.htm

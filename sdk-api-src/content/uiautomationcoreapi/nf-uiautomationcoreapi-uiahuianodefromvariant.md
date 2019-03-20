@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.UiaHUiaNodeFromVariant
-title: UiaHUiaNodeFromVariant function
+title: UiaHUiaNodeFromVariant function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Gets an HUIANODE from a VARIANT type.
 old-location: winauto\uiauto_UiaHUiaNodeFromVariantFunction.htm

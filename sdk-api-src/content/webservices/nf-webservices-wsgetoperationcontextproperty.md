@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsGetOperationContextProperty
-title: WsGetOperationContextProperty function
+title: WsGetOperationContextProperty function (webservices.h)
 author: windows-sdk-content
 description: Returns a property of the specified operation context. It should be noted that the validity of these property is limited to the lifetime of the operation context itself.
 old-location: wsw\wsgetoperationcontextproperty.htm

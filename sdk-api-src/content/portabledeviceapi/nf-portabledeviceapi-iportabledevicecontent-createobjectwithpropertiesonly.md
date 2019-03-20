@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceContent.CreateObjectWithPropertiesOnly
-title: IPortableDeviceContent::CreateObjectWithPropertiesOnly
+title: IPortableDeviceContent::CreateObjectWithPropertiesOnly (portabledeviceapi.h)
 author: windows-sdk-content
 description: The CreateObjectWithPropertiesOnly method creates an object with only properties on the device.
 old-location: wpdsdk\iportabledevicecontent_createobjectwithpropertiesonly.htm

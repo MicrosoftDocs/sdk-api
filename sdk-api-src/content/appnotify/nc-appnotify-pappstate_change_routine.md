@@ -1,6 +1,6 @@
 ---
 UID: NC:appnotify.PAPPSTATE_CHANGE_ROUTINE
-title: PAPPSTATE_CHANGE_ROUTINE
+title: PAPPSTATE_CHANGE_ROUTINE (appnotify.h)
 author: windows-sdk-content
 description: Specifies an app-defined callback function that notifies the app when the app is entering or leaving a suspended state.
 old-location: shell\PAPPSTATE_CHANGE_ROUTINE.htm

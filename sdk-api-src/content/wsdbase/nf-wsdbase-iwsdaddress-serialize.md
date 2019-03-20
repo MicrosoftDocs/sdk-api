@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDAddress.Serialize
-title: IWSDAddress::Serialize
+title: IWSDAddress::Serialize (wsdbase.h)
 author: windows-sdk-content
 description: Assembles the component parts of the address into a string.
 old-location: ncd\iwsdaddress_serialize.htm

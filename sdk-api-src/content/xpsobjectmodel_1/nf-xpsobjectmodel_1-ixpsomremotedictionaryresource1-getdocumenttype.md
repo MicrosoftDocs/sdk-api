@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMRemoteDictionaryResource1.GetDocumentType
-title: IXpsOMRemoteDictionaryResource1::GetDocumentType
+title: IXpsOMRemoteDictionaryResource1::GetDocumentType (xpsobjectmodel_1.h)
 author: windows-sdk-content
 description: Gets the XPS_DOCUMENT_TYPE of the resource.
 old-location: xps\ixpsomremotedictionaryresource1_getdocumenttype.htm

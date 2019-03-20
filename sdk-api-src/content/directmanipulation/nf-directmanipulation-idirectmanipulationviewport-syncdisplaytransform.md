@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SyncDisplayTransform
-title: IDirectManipulationViewport::SyncDisplayTransform
+title: IDirectManipulationViewport::SyncDisplayTransform (directmanipulation.h)
 author: windows-sdk-content
 description: Specifies a display transform for the viewport, and synchronizes the output transform with the new value of the display transform.
 old-location: directmanipulation\idirectmanipulationviewport_syncdisplaytransform.htm

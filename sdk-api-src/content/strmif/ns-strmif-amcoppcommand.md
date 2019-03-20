@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif._AMCOPPCommand
-title: AMCOPPCommand
+title: AMCOPPCommand (strmif.h)
 author: windows-sdk-content
 description: The AMCOPPCommand structure contains a Certified Output Protection Protocol (COPP) command.
 old-location: dshow\amcoppcommand.htm

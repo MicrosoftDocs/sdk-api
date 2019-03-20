@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2fs.IFileSystemImageResult
-title: IFileSystemImageResult
+title: IFileSystemImageResult (imapi2fs.h)
 author: windows-sdk-content
 description: Use this interface to get information about the burn image, the image data stream, and progress information.
 old-location: imapi\ifilesystemimageresult.htm

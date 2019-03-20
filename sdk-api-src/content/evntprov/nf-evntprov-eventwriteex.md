@@ -1,6 +1,6 @@
 ---
 UID: NF:evntprov.EventWriteEx
-title: EventWriteEx function
+title: EventWriteEx function (evntprov.h)
 author: windows-sdk-content
 description: Use this function to write an event.
 old-location: etw\eventwriteex.htm

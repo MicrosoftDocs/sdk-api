@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.GetOutputCount
-title: IMFASFStreamSelector::GetOutputCount
+title: IMFASFStreamSelector::GetOutputCount (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves the number of outputs for the Advanced Systems Format (ASF) content.
 old-location: mf\imfasfstreamselector_getoutputcount.htm

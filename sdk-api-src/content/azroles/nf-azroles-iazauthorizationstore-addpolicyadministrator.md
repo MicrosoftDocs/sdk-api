@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.AddPolicyAdministrator
-title: IAzAuthorizationStore::AddPolicyAdministrator
+title: IAzAuthorizationStore::AddPolicyAdministrator (azroles.h)
 author: windows-sdk-content
 description: Adds the specified security identifier (SID) in text form to the list of principals that act as policy administrators.
 old-location: security\azauthorizationstore_addpolicyadministrator.htm

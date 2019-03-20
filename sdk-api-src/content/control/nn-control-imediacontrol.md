@@ -1,6 +1,6 @@
 ---
 UID: NN:control.IMediaControl
-title: IMediaControl
+title: IMediaControl (control.h)
 author: windows-sdk-content
 description: The IMediaControl interface provides methods for controlling the flow of data through the filter graph.
 old-location: dshow\imediacontrol.htm

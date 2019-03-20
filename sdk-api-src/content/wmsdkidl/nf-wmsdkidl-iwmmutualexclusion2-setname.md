@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion2.SetName
-title: IWMMutualExclusion2::SetName
+title: IWMMutualExclusion2::SetName (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetName method assigns a name to a mutual exclusion object.
 old-location: wmformat\iwmmutualexclusion2_setname.htm

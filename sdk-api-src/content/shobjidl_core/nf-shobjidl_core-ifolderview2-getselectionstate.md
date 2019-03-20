@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.GetSelectionState
-title: IFolderView2::GetSelectionState
+title: IFolderView2::GetSelectionState (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the selection state including check state.
 old-location: shell\IFolderView2_GetSelectionState.htm

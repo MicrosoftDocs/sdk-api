@@ -1,6 +1,6 @@
 ---
 UID: NF:natupnp.INATEventManager.put_NumberOfEntriesCallback
-title: INATEventManager::put_NumberOfEntriesCallback
+title: INATEventManager::put_NumberOfEntriesCallback (natupnp.h)
 author: windows-sdk-content
 description: The put_NumberOfEntriesCallback method enables the NAT application with UPnP technology to register a callback interface with the NAT. The system calls the first method in this callback interface if the number of NAT port mappings changes.
 old-location: ics\inateventmanager_put_numberofentriescallback.htm

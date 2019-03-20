@@ -1,6 +1,6 @@
 ---
 UID: NE:syncmgr.SYNCMGR_PROGRESS_STATUS
-title: SYNCMGR_PROGRESS_STATUS
+title: SYNCMGR_PROGRESS_STATUS (syncmgr.h)
 author: windows-sdk-content
 description: Specifies the current progress status of a synchronization process. Used by ISyncMgrSyncCallback::ReportProgress.
 old-location: shell\SYNCMGR_PROGRESS_STATUS.htm

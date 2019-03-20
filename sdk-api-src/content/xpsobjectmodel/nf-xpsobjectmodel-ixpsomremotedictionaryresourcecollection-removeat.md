@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRemoteDictionaryResourceCollection.RemoveAt
-title: IXpsOMRemoteDictionaryResourceCollection::RemoveAt
+title: IXpsOMRemoteDictionaryResourceCollection::RemoveAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Removes and releases an IXpsOMRemoteDictionaryResource interface pointer from a specified location in the collection.
 old-location: xps\ixpsomremotedictionaryresourcecollection_removeat.htm

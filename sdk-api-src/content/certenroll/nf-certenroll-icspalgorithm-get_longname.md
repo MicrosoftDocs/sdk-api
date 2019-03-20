@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspAlgorithm.get_LongName
-title: ICspAlgorithm::get_LongName
+title: ICspAlgorithm::get_LongName (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the full name of the algorithm.
 old-location: security\icspalgorithm_longname_property.htm

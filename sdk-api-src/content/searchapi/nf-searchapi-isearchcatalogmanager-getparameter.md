@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.GetParameter
-title: ISearchCatalogManager::GetParameter
+title: ISearchCatalogManager::GetParameter (searchapi.h)
 author: windows-sdk-content
 description: Not implemented.
 old-location: search\_search_ISearchCatalogManager_GetParameter.htm

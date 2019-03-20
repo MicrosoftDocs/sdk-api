@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IMPEG2PIDMap.MapPID
-title: IMPEG2PIDMap::MapPID
+title: IMPEG2PIDMap::MapPID (bdaiface.h)
 author: windows-sdk-content
 description: The MapPID method maps one or more PIDs to the pin.
 old-location: dshow\impeg2pidmap_mappid.htm

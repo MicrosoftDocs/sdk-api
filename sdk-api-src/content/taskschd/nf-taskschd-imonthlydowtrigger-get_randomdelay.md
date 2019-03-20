@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IMonthlyDOWTrigger.get_RandomDelay
-title: IMonthlyDOWTrigger::get_RandomDelay
+title: IMonthlyDOWTrigger::get_RandomDelay (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a delay time that is randomly added to the start time of the trigger.
 old-location: taskschd\imonthlydowtrigger_randomdelay.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvIcmSetDeviceGammaRamp
-title: DrvIcmSetDeviceGammaRamp function
+title: DrvIcmSetDeviceGammaRamp function (winddi.h)
 author: windows-sdk-content
 description: The DrvIcmSetDeviceGammaRamp function sets the hardware gamma ramp of the specified display device.
 old-location: display\drvicmsetdevicegammaramp.htm

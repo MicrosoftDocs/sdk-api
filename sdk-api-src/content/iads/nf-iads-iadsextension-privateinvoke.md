@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsExtension.PrivateInvoke
-title: IADsExtension::PrivateInvoke
+title: IADsExtension::PrivateInvoke (iads.h)
 author: windows-sdk-content
 description: The IADsExtension::PrivateInvoke method is normally called by ADSI after the IADsExtension::PrivateGetIDsOfNames method. This method can either have a custom implementation or it can delegate the operation to IDispatch::DispInvoke method.
 old-location: adsi\iadsextension_privateinvoke.htm

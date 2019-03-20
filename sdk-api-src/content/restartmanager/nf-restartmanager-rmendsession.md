@@ -1,6 +1,6 @@
 ---
 UID: NF:restartmanager.RmEndSession
-title: RmEndSession function
+title: RmEndSession function (restartmanager.h)
 author: windows-sdk-content
 description: Ends the Restart Manager session.
 old-location: rstmgr\rmendsession.htm

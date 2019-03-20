@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirectXVideoProcessor.GetProcAmpRange
-title: IDirectXVideoProcessor::GetProcAmpRange
+title: IDirectXVideoProcessor::GetProcAmpRange (dxva2api.h)
 author: windows-sdk-content
 description: Retrieves the range of values for a video processor (ProcAmp) setting on this video processor device.
 old-location: mf\idirectxvideoprocessor_getprocamprange.htm

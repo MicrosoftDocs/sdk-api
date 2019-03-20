@@ -1,6 +1,6 @@
 ---
 UID: NN:tom.ITextRange2
-title: ITextRange2
+title: ITextRange2 (tom.h)
 author: windows-sdk-content
 description: The ITextRange2 interface is derived from ITextRange, and its objects are powerful editing and data-binding tools that enable a program to select text in a story and then examine or change that text.
 old-location: controls\itextrange2.htm

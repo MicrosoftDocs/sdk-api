@@ -1,6 +1,6 @@
 ---
 UID: NF:deviceaccess.ICreateDeviceAccessAsync.Wait
-title: ICreateDeviceAccessAsync::Wait
+title: ICreateDeviceAccessAsync::Wait (deviceaccess.h)
 author: windows-sdk-content
 description: The Wait method waits a specified length of time for an asynchronous bind operation that is in progress to finish.
 old-location: deviceaccess\icreatedeviceaccessasync_wait.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.DiscardUndoState
-title: IOleInPlaceSite::DiscardUndoState
+title: IOleInPlaceSite::DiscardUndoState (oleidl.h)
 author: windows-sdk-content
 description: Instructs the container to discard its undo state. The container should not call IOleInPlaceObject::ReActivateAndUndo.
 old-location: com\ioleinplacesite_discardundostate.htm

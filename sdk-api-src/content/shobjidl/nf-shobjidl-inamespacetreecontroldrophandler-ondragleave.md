@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlDropHandler.OnDragLeave
-title: INameSpaceTreeControlDropHandler::OnDragLeave
+title: INameSpaceTreeControlDropHandler::OnDragLeave (shobjidl.h)
 author: windows-sdk-content
 description: Called on drag leave for a specified item.
 old-location: shell\INameSpaceTreeControlDropHandler_OnDragLeave.htm

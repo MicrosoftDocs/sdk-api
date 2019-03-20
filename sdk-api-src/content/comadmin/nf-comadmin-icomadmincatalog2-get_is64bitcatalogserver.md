@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.get_Is64BitCatalogServer
-title: ICOMAdminCatalog2::get_Is64BitCatalogServer
+title: ICOMAdminCatalog2::get_Is64BitCatalogServer (comadmin.h)
 author: windows-sdk-content
 description: Indicates whether the currently connected catalog server is a 64-bit computer.
 old-location: cos\icomadmincatalog2_is64bitcatalogserver.htm

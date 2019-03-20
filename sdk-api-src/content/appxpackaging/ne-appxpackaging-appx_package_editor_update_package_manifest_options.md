@@ -1,6 +1,6 @@
 ---
 UID: NE:appxpackaging.APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_MANIFEST_OPTIONS
-title: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_MANIFEST_OPTIONS
+title: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_MANIFEST_OPTIONS (appxpackaging.h)
 author: windows-sdk-content
 description: Options for app manifest validation when updating the manifest.
 old-location: appxpkg\appx_package_editor_update_package_manifest_options.htm

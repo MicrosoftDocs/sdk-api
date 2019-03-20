@@ -1,6 +1,6 @@
 ---
 UID: NF:lmdfs.NetDfsAdd
-title: NetDfsAdd function
+title: NetDfsAdd function (lmdfs.h)
 author: windows-sdk-content
 description: Creates a new Distributed File System (DFS) link or adds targets to an existing link in a DFS namespace.
 old-location: dfs\netdfsadd.htm

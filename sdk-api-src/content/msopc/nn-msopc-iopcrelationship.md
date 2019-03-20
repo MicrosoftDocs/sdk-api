@@ -1,6 +1,6 @@
 ---
 UID: NN:msopc.IOpcRelationship
-title: IOpcRelationship
+title: IOpcRelationship (msopc.h)
 author: windows-sdk-content
 description: Represents a relationship, which is a link between a source, which is a part or the package, and a target.
 old-location: opc\iopcrelationship.htm

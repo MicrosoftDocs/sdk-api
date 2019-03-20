@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadata.MetaDataGetDispenser
-title: MetaDataGetDispenser function
+title: MetaDataGetDispenser function (rometadata.h)
 author: windows-sdk-content
 description: Creates a dispenser class.
 old-location: winrt\metadatagetdispenser.htm

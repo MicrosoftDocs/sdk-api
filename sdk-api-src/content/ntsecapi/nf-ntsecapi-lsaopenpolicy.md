@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.LsaOpenPolicy
-title: LsaOpenPolicy function
+title: LsaOpenPolicy function (ntsecapi.h)
 author: windows-sdk-content
 description: Opens a handle to the Policy object on a local or remote system.
 old-location: security\lsaopenpolicy.htm

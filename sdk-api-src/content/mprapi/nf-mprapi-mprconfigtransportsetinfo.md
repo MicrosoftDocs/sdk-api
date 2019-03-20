@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprConfigTransportSetInfo
-title: MprConfigTransportSetInfo function
+title: MprConfigTransportSetInfo function (mprapi.h)
 author: windows-sdk-content
 description: The MprConfigTransportSetInfo function changes the configuration for the specified transport protocol in the specified router configuration.
 old-location: rras\mprconfigtransportsetinfo.htm

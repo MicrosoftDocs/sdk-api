@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1.ID2D1Geometry
-title: ID2D1Geometry
+title: ID2D1Geometry (d2d1.h)
 author: windows-sdk-content
 description: Represents a geometry resource and defines a set of helper methods for manipulating and measuring geometric shapes. Interfaces that inherit from ID2D1Geometry define specific shapes.
 old-location: direct2d\ID2D1Geometry.htm

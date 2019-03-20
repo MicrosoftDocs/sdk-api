@@ -1,6 +1,6 @@
 ---
 UID: NS:avifmt.__unnamed_struct_1
-title: AVIStreamHeader
+title: AVIStreamHeader (avifmt.h)
 author: windows-sdk-content
 description: The AVISTREAMHEADER structure contains information about one stream in an AVI file.
 old-location: dshow\avistreamheader.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRunningTaskCollection.get_Item
-title: IRunningTaskCollection::get_Item
+title: IRunningTaskCollection::get_Item (taskschd.h)
 author: windows-sdk-content
 description: Gets the specified task from the collection.
 old-location: taskschd\irunningtaskcollection_item.htm

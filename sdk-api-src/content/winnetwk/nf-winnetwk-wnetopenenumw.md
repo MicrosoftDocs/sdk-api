@@ -1,6 +1,6 @@
 ---
 UID: NF:winnetwk.WNetOpenEnumW
-title: WNetOpenEnumW function
+title: WNetOpenEnumW function (winnetwk.h)
 author: windows-sdk-content
 description: The WNetOpenEnum function starts an enumeration of network resources or existing connections. You can continue the enumeration by calling the WNetEnumResource function.
 old-location: wnet\wnetopenenum.htm

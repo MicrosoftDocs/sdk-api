@@ -1,6 +1,6 @@
 ---
 UID: NF:midles.MesIncrementalHandleReset
-title: MesIncrementalHandleReset function
+title: MesIncrementalHandleReset function (midles.h)
 author: windows-sdk-content
 description: The MesIncrementalHandleReset function re-initializes the handle for incremental serialization.
 old-location: rpc\mesincrementalhandlereset.htm

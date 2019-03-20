@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflectionType.GetMemberTypeName
-title: ID3D11ShaderReflectionType::GetMemberTypeName
+title: ID3D11ShaderReflectionType::GetMemberTypeName (d3d11shader.h)
 author: windows-sdk-content
 description: Get a shader-reflection-variable type.
 old-location: direct3d11\id3d11shaderreflectiontype_getmembertypename.htm

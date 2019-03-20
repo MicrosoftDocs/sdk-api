@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.MonthCal_SetDayState
-title: MonthCal_SetDayState macro
+title: MonthCal_SetDayState macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the day states for all months that are currently visible within a month calendar control. You can use this macro or send the MCM_SETDAYSTATE message explicitly.
 old-location: controls\MonthCal_SetDayState.htm

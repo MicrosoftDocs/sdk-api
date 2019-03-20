@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IBitsPeer.GetPeerName
-title: IBitsPeer::GetPeerName
+title: IBitsPeer::GetPeerName (bits3_0.h)
 author: windows-sdk-content
 description: Gets the server principal name that uniquely identifies the peer.
 old-location: bits\ibitspeer_getpeername.htm

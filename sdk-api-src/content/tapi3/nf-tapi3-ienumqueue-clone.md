@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.IEnumQueue.Clone
-title: IEnumQueue::Clone
+title: IEnumQueue::Clone (tapi3.h)
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienumqueue_clone.htm

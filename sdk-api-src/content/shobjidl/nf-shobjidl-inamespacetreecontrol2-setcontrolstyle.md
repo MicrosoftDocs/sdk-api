@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControl2.SetControlStyle
-title: INameSpaceTreeControl2::SetControlStyle
+title: INameSpaceTreeControl2::SetControlStyle (shobjidl.h)
 author: windows-sdk-content
 description: Sets the display styles for the namespace object's treeview controls.
 old-location: shell\INameSpaceTreeControl2_SetControlStyle.htm

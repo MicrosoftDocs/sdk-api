@@ -1,6 +1,6 @@
 ---
 UID: NS:wdspxe.tagPXE_DHCPV6_RELAY_MESSAGE
-title: PXE_DHCPV6_RELAY_MESSAGE
+title: PXE_DHCPV6_RELAY_MESSAGE (wdspxe.h)
 author: windows-sdk-content
 description: Provides the DHCPV6 relay message.
 old-location: wds\pxe_dhcpv6_relay_message.htm

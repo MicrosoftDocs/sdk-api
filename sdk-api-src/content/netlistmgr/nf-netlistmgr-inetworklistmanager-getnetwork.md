@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkListManager.GetNetwork
-title: INetworkListManager::GetNetwork
+title: INetworkListManager::GetNetwork (netlistmgr.h)
 author: windows-sdk-content
 description: The GetNetwork method retrieves a network based on a supplied network ID.
 old-location: nla\inetworklistmanager_getnetwork.htm

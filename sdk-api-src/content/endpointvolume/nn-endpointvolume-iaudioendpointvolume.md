@@ -1,6 +1,6 @@
 ---
 UID: NN:endpointvolume.IAudioEndpointVolume
-title: IAudioEndpointVolume
+title: IAudioEndpointVolume (endpointvolume.h)
 author: windows-sdk-content
 description: The IAudioEndpointVolume interface represents the volume controls on the audio stream to or from an audio endpoint device.
 old-location: coreaudio\iaudioendpointvolume.htm

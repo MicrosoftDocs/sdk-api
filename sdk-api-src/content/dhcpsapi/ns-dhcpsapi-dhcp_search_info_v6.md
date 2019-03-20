@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLIENT_SEARCH_INFO_V6
-title: DHCP_SEARCH_INFO_V6
+title: DHCP_SEARCH_INFO_V6 (dhcpsapi.h)
 author: windows-sdk-content
 description: Contains the term or value on which the DHCPv6 server database will be searched.
 old-location: dhcp\dhcp_search_info_v6.htm

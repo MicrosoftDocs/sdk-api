@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl.MF_MEDIASOURCE_STATUS_INFO
-title: MF_MEDIASOURCE_STATUS_INFO
+title: MF_MEDIASOURCE_STATUS_INFO (mfidl.h)
 author: windows-sdk-content
 description: "."
 old-location: stream\mf_mediasource_status_info.htm

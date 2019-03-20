@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_3.ID3D11DeviceContext3.Flush1
-title: ID3D11DeviceContext3::Flush1
+title: ID3D11DeviceContext3::Flush1 (d3d11_3.h)
 author: windows-sdk-content
 description: Sends queued-up commands in the command buffer to the graphics processing unit (GPU), with a specified context type and an optional event handle to create an event query.
 old-location: direct3d11\id3d11devicecontext3_flush1.htm

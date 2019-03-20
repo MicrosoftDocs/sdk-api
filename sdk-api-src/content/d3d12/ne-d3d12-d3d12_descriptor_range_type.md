@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_DESCRIPTOR_RANGE_TYPE
-title: D3D12_DESCRIPTOR_RANGE_TYPE
+title: D3D12_DESCRIPTOR_RANGE_TYPE (d3d12.h)
 author: windows-sdk-content
 description: Specifies a range so that, for example, if part of a descriptor table has 100 shader-resource views (SRVs) that range can be declared in one entry rather than 100.
 old-location: direct3d12\d3d12_descriptor_range_type.htm

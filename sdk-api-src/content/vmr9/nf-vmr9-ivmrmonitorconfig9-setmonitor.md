@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRMonitorConfig9.SetMonitor
-title: IVMRMonitorConfig9::SetMonitor
+title: IVMRMonitorConfig9::SetMonitor (vmr9.h)
 author: windows-sdk-content
 description: On a multi-monitor system, the SetMonitor method specifies the monitor that the VMR should use when it creates the Direct3D device.
 old-location: dshow\ivmrmonitorconfig9_setmonitor.htm

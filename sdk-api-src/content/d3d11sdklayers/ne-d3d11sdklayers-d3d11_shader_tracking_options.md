@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11sdklayers.D3D11_SHADER_TRACKING_OPTION
-title: D3D11_SHADER_TRACKING_OPTIONS
+title: D3D11_SHADER_TRACKING_OPTIONS (d3d11sdklayers.h)
 author: windows-sdk-content
 description: Options that specify how to perform shader debug tracking.
 old-location: direct3d11\d3d11_shader_tracking_options.htm

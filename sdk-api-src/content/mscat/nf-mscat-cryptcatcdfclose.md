@@ -1,6 +1,6 @@
 ---
 UID: NF:mscat.CryptCATCDFClose
-title: CryptCATCDFClose function
+title: CryptCATCDFClose function (mscat.h)
 author: windows-sdk-content
 description: Closes a catalog definition file (CDF) and frees the memory for the corresponding CRYPTCATCDF structure.
 old-location: security\cryptcatcdfclose.htm

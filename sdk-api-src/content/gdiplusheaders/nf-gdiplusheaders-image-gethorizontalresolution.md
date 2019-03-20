@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.GetHorizontalResolution
-title: Image::GetHorizontalResolution
+title: Image::GetHorizontalResolution (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::GetHorizontalResolution method gets the horizontal resolution, in dots per inch, of this image.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetHorizontalResolution_.htm

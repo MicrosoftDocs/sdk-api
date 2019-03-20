@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IMarshal.UnmarshalInterface
-title: IMarshal::UnmarshalInterface
+title: IMarshal::UnmarshalInterface (objidlbase.h)
 author: windows-sdk-content
 description: Unmarshals an interface pointer.
 old-location: com\imarshal_unmarshalinterface.htm

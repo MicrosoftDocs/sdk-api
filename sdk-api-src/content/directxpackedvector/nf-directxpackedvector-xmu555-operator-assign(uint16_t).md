@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMU555.operator-assign(uint16_t)
-title: XMU555::operator-assign(uint16_t)
+title: XMU555::operator-assign(uint16_t) (directxpackedvector.h)
 author: windows-sdk-content
 description: Assigns the vector component data packed in an instance of uint16_t to the current instance of XMU555.
 old-location: dxmath\xmu555_operator_eq_2.htm

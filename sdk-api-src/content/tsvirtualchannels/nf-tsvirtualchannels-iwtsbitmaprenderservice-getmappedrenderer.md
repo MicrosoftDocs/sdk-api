@@ -1,6 +1,6 @@
 ---
 UID: NF:tsvirtualchannels.IWTSBitmapRenderService.GetMappedRenderer
-title: IWTSBitmapRenderService::GetMappedRenderer
+title: IWTSBitmapRenderService::GetMappedRenderer (tsvirtualchannels.h)
 author: windows-sdk-content
 description: Obtains the bitmap rendering object used to render media on the server.
 old-location: termserv\iwtsbitmaprenderservice_getmappedrenderer.htm

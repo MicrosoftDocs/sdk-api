@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11_4.ID3D11Device4
-title: ID3D11Device4
+title: ID3D11Device4 (d3d11_4.h)
 author: windows-sdk-content
 description: The device interface represents a virtual adapter; it is used to create resources. ID3D11Device4 adds new methods to those in ID3D11Device3, such as RegisterDeviceRemovedEvent and UnregisterDeviceRemoved.
 old-location: direct3d11\id3d11device4.htm

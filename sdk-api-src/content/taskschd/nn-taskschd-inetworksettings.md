@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.INetworkSettings
-title: INetworkSettings
+title: INetworkSettings (taskschd.h)
 author: windows-sdk-content
 description: Provides the settings that the Task Scheduler service uses to obtain a network profile.
 old-location: taskschd\inetworksettings.htm

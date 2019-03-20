@@ -1,6 +1,6 @@
 ---
 UID: NE:wmiutils.tag_WBEM_GET_TEXT_FLAGS
-title: tag_WBEM_GET_TEXT_FLAGS
+title: tag_WBEM_GET_TEXT_FLAGS (wmiutils.h)
 author: windows-sdk-content
 description: Contains flags which controls how the text is returned.
 old-location: wmi\tag_wbem_get_text_flags.htm

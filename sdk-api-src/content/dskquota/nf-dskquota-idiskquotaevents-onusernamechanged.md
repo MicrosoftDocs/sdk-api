@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaEvents.OnUserNameChanged
-title: IDiskQuotaEvents::OnUserNameChanged
+title: IDiskQuotaEvents::OnUserNameChanged (dskquota.h)
 author: windows-sdk-content
 description: Notifies the client's connection sink whenever a user's SID has been asynchronously resolved.
 old-location: fs\idiskquotaevents_onusernamechanged.htm

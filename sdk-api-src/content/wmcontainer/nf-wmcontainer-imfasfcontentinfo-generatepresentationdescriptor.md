@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFContentInfo.GeneratePresentationDescriptor
-title: IMFASFContentInfo::GeneratePresentationDescriptor
+title: IMFASFContentInfo::GeneratePresentationDescriptor (wmcontainer.h)
 author: windows-sdk-content
 description: Creates a presentation descriptor for ASF content.
 old-location: mf\imfasfcontentinfo_generatepresentationdescriptor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITask.SetApplicationName
-title: ITask::SetApplicationName
+title: ITask::SetApplicationName (mstask.h)
 author: windows-sdk-content
 description: This method assigns a specific application to the current task.
 old-location: taskschd\itask_setapplicationname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.phoneGetIcon
-title: phoneGetIcon function
+title: phoneGetIcon function (tapi.h)
 author: windows-sdk-content
 description: The phoneGetIcon function allows an application to retrieve a service phone device-specific (or provider-specific) icon that can be displayed to the user.
 old-location: tapi2\phonegeticon.htm

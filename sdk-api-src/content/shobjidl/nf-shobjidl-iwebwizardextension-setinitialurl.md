@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IWebWizardExtension.SetInitialURL
-title: IWebWizardExtension::SetInitialURL
+title: IWebWizardExtension::SetInitialURL (shobjidl.h)
 author: windows-sdk-content
 description: Sets the URL of the initial server-provided HTML page in a hosted wizard.
 old-location: shell\IWebWizardExtension_SetInitialURL.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.VkKeyScanExA
-title: VkKeyScanExA function
+title: VkKeyScanExA function (winuser.h)
 author: windows-sdk-content
 description: Translates a character to the corresponding virtual-key code and shift state. The function translates the character using the input language and physical keyboard layout identified by the input locale identifier.
 old-location: inputdev\vkkeyscanex.htm

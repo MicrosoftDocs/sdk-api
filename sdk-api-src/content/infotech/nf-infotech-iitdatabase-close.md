@@ -1,6 +1,6 @@
 ---
 UID: NF:infotech.IITDatabase.Close
-title: IITDatabase::Close
+title: IITDatabase::Close (infotech.h)
 author: windows-sdk-content
 description: Closes a database.
 old-location: htmlhelp\iitdatabase_close.htm

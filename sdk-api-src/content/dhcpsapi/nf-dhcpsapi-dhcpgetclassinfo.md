@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpGetClassInfo
-title: DhcpGetClassInfo function
+title: DhcpGetClassInfo function (dhcpsapi.h)
 author: windows-sdk-content
 description: The DhcpGetClassInfo function returns the user or vendor class information configured on a specific DHCP server.
 old-location: dhcp\dhcpgetclassinfo.htm

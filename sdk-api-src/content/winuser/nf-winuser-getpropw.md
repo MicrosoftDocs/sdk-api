@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetPropW
-title: GetPropW function
+title: GetPropW function (winuser.h)
 author: windows-sdk-content
 description: Retrieves a data handle from the property list of the specified window. The character string identifies the handle to be retrieved. The string and handle must have been added to the property list by a previous call to the SetProp function.
 old-location: winmsg\getprop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IDockingWindowSite.GetBorderDW
-title: IDockingWindowSite::GetBorderDW
+title: IDockingWindowSite::GetBorderDW (shlobj_core.h)
 author: windows-sdk-content
 description: Gets the border space allocated for the specified IDockingWindow object.
 old-location: shell\IDockingWindowSite_GetBorderDW.htm

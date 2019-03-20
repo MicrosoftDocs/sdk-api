@@ -1,6 +1,6 @@
 ---
 UID: NE:isysmon.__MIDL___MIDL_itf_sysmon_0000_0000_0001
-title: SysmonFileType
+title: SysmonFileType (isysmon.h)
 author: windows-sdk-content
 description: Determines the format in which the counter data is saved to a file.
 old-location: sysmon\sysmonfiletype.htm

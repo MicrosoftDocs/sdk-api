@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICatalogCollection.PopulateByKey
-title: ICatalogCollection::PopulateByKey
+title: ICatalogCollection::PopulateByKey (comadmin.h)
 author: windows-sdk-content
 description: Populates a selected list of items in the collection from the COM+ catalog, based on the specified keys.
 old-location: cos\icatalogcollection_populatebykey.htm

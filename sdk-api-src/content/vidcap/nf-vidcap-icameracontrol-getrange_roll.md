@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.getRange_Roll
-title: ICameraControl::getRange_Roll
+title: ICameraControl::getRange_Roll (vidcap.h)
 author: windows-sdk-content
 description: The getRange_Roll method returns the range of roll angles supported by the camera.
 old-location: dshow\icameracontrol_getrange_roll.htm

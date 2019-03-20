@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.AddTransitionBetweenKeyframes
-title: IUIAnimationStoryboard2::AddTransitionBetweenKeyframes
+title: IUIAnimationStoryboard2::AddTransitionBetweenKeyframes (uianimation.h)
 author: windows-sdk-content
 description: Adds a transition between two keyframes.
 old-location: uianimation\iuianimationstoryboard2_addtransitionbetweenkeyframes.htm

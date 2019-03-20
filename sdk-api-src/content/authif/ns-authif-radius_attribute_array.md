@@ -1,6 +1,6 @@
 ---
 UID: NS:authif._RADIUS_ATTRIBUTE_ARRAY
-title: RADIUS_ATTRIBUTE_ARRAY
+title: RADIUS_ATTRIBUTE_ARRAY (authif.h)
 author: windows-sdk-content
 description: The RADIUS_ATTRIBUTE_ARRAY structure represents an array of attributes.
 old-location: nps\IAS_radius_attribute_array.htm

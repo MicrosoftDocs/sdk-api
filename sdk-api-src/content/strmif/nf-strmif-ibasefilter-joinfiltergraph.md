@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IBaseFilter.JoinFilterGraph
-title: IBaseFilter::JoinFilterGraph
+title: IBaseFilter::JoinFilterGraph (strmif.h)
 author: windows-sdk-content
 description: The JoinFilterGraph method notifies the filter that it has joined or left the filter graph.
 old-location: dshow\ibasefilter_joinfiltergraph.htm

@@ -1,6 +1,6 @@
 ---
 UID: NI:emi.IOCTL_EMI_GET_MEASUREMENT
-title: IOCTL_EMI_GET_MEASUREMENT
+title: IOCTL_EMI_GET_MEASUREMENT (emi.h)
 author: windows-sdk-content
 description: The IOCTL_EMI_GET_MEASUREMENT control code retrieves the current energy measurement and the time at which the measurement was taken.
 old-location: powermeter\ioctl_emi_get_measurement.htm

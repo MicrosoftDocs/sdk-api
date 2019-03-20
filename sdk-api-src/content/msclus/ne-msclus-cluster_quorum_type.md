@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.CLUSTER_QUORUM_TYPE
-title: CLUSTER_QUORUM_TYPE
+title: CLUSTER_QUORUM_TYPE (msclus.h)
 author: windows-sdk-content
 description: The type of quorum resource to be created.
 old-location: mscs\cluster_quorum_type.htm

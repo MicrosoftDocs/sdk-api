@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateSensorProfileCollection
-title: MFCreateSensorProfileCollection function
+title: MFCreateSensorProfileCollection function (mfidl.h)
 author: windows-sdk-content
 description: Creates a sensor profile collection.
 old-location: mf\mfcreatesensorprofilecollection.htm

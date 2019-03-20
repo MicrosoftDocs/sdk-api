@@ -1,6 +1,6 @@
 ---
 UID: NF:mfspatialaudio.IMFSpatialAudioObjectBuffer.SetType
-title: IMFSpatialAudioObjectBuffer::SetType
+title: IMFSpatialAudioObjectBuffer::SetType (mfspatialaudio.h)
 author: windows-sdk-content
 description: Sets the type of the spatial audio object represented by the buffer.
 old-location: mf\imfspatialaudioobjectbuffer_settype.htm

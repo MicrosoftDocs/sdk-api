@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector3NearEqual
-title: XMVector3NearEqual function
+title: XMVector3NearEqual function (directxmath.h)
 author: windows-sdk-content
 description: Tests whether one 3D vector is near another 3D vector.
 old-location: dxmath\xmvector3nearequal.htm

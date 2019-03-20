@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFContentEnabler
-title: IMFContentEnabler
+title: IMFContentEnabler (mfidl.h)
 author: windows-sdk-content
 description: Implements one step that must be performed for the user to access media content.
 old-location: mf\imfcontentenabler.htm

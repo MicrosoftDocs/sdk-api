@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_3.IDWriteFontCollection1
-title: IDWriteFontCollection1
+title: IDWriteFontCollection1 (dwrite_3.h)
 author: windows-sdk-content
 description: An object that encapsulates a set of fonts, such as the set of fonts installed on the system, or the set of fonts in a particular directory.
 old-location: directwrite\idwritefontcollection1.htm

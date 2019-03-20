@@ -1,6 +1,6 @@
 ---
 UID: NE:windns._DNS_CHARSET
-title: DNS_CHARSET
+title: DNS_CHARSET (windns.h)
 author: windows-sdk-content
 description: The DNS_CHARSET enumeration specifies the character set used.
 old-location: dns\dns_charset.htm

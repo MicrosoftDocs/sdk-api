@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10.D3D10_INPUT_CLASSIFICATION
-title: D3D10_INPUT_CLASSIFICATION
+title: D3D10_INPUT_CLASSIFICATION (d3d10.h)
 author: windows-sdk-content
 description: Type of data contained in an input slot.
 old-location: direct3d10\d3d10_input_classification.htm

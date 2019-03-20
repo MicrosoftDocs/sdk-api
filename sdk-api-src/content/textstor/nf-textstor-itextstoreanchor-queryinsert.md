@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.QueryInsert
-title: ITextStoreAnchor::QueryInsert
+title: ITextStoreAnchor::QueryInsert (textstor.h)
 author: windows-sdk-content
 description: The ITextStoreAnchor::QueryInsert method determines whether the specified start and end anchors are valid. Use this method to adjust an edit to a document before you execute the edit. The method must not return values outside the range of the document.
 old-location: tsf\itextstoreanchor_queryinsert.htm

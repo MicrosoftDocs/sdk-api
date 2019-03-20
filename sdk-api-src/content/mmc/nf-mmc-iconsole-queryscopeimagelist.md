@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IConsole.QueryScopeImageList
-title: IConsole::QueryScopeImageList
+title: IConsole::QueryScopeImageList (mmc.h)
 author: windows-sdk-content
 description: Queries the console-provided scope pane image list.
 old-location: mmc\iconsole_queryscopeimagelist.htm

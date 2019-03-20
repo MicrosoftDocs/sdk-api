@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.NegotiateCryptoSessionKeyExchange
-title: ID3D11VideoContext::NegotiateCryptoSessionKeyExchange
+title: ID3D11VideoContext::NegotiateCryptoSessionKeyExchange (d3d11.h)
 author: windows-sdk-content
 description: Establishes the session key for a cryptographic session.
 old-location: mf\id3d11videocontext_negotiatecryptosessionkeyexchange.htm

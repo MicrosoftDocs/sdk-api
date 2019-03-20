@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecapi.PSAM_PASSWORD_NOTIFICATION_ROUTINE
-title: PSAM_PASSWORD_NOTIFICATION_ROUTINE
+title: PSAM_PASSWORD_NOTIFICATION_ROUTINE (ntsecapi.h)
 author: windows-sdk-content
 description: Is implemented by a password filter DLL. It notifies the DLL that a password was changed.
 old-location: security\passwordchangenotify.htm

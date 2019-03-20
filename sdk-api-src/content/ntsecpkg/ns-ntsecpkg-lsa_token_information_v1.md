@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._LSA_TOKEN_INFORMATION_V1
-title: LSA_TOKEN_INFORMATION_V1
+title: LSA_TOKEN_INFORMATION_V1 (ntsecpkg.h)
 author: windows-sdk-content
 description: Contains information an authentication package can place in a Version 2 Windows token object and has superceded LSA_TOKEN_INFORMATION_V1.
 old-location: security\lsa_token_information_v2.htm

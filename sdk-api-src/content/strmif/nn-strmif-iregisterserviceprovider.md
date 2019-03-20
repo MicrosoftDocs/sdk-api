@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IRegisterServiceProvider
-title: IRegisterServiceProvider
+title: IRegisterServiceProvider (strmif.h)
 author: windows-sdk-content
 description: The IRegisterServiceProvider interface registers an object as a service with the Filter Graph Manager. For more information, see IRegisterServiceProvider::RegisterService.
 old-location: dshow\iregisterserviceprovider.htm

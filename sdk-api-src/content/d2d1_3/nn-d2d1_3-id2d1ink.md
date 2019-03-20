@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_3.ID2D1Ink
-title: ID2D1Ink
+title: ID2D1Ink (d2d1_3.h)
 author: windows-sdk-content
 description: Represents a single continuous stroke of variable-width ink, as defined by a series of Bezier segments and widths.
 old-location: direct2d\id2d1ink.htm

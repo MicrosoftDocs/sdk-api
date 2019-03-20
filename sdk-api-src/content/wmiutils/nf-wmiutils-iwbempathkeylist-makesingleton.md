@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPathKeyList.MakeSingleton
-title: IWbemPathKeyList::MakeSingleton
+title: IWbemPathKeyList::MakeSingleton (wmiutils.h)
 author: windows-sdk-content
 description: The IWbemPathKeyList::MakeSingleton method governs whether or not a key is singleton.
 old-location: wmi\iwbempathkeylist_makesingleton.htm

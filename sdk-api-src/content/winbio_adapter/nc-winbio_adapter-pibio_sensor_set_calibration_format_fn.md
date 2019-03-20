@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_SET_CALIBRATION_FORMAT_FN
-title: PIBIO_SENSOR_SET_CALIBRATION_FORMAT_FN
+title: PIBIO_SENSOR_SET_CALIBRATION_FORMAT_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Notifies the sensor adapter that a particular calibration data format has been selected by the engine adapter.
 old-location: secbiomet\sensoradaptersetcalibrationformat.htm

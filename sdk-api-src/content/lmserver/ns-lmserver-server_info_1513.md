@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1513
-title: SERVER_INFO_1513
+title: SERVER_INFO_1513 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1513 structure contains the maximum size of pageable memory that the specified server can allocate at a particular time.
 old-location: netmgmt\server_info_1513_str.htm

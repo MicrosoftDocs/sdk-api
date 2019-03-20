@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ListBox_SetTabStops
-title: ListBox_SetTabStops macro
+title: ListBox_SetTabStops macro (windowsx.h)
 author: windows-sdk-content
 description: Sets the tab-stop positions in a list box. You can use this macro or send the LB_SETTABSTOPS message explicitly.
 old-location: controls\ListBox_SetTabStops.htm

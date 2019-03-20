@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_CLEAR_FLAGS
-title: D3D12_CLEAR_FLAGS
+title: D3D12_CLEAR_FLAGS (d3d12.h)
 author: windows-sdk-content
 description: Specifies what to clear from the depth stencil view.
 old-location: direct3d12\d3d12_clear_flags.htm

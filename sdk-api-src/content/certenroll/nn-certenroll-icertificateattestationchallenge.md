@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.ICertificateAttestationChallenge
-title: ICertificateAttestationChallenge
+title: ICertificateAttestationChallenge (certenroll.h)
 author: windows-sdk-content
 description: Allows applications to decrypt a key attestation challenge received from a server.
 old-location: security\icertificateattestationchallenge.htm

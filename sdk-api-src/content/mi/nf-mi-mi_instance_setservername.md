@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Instance_SetServerName
-title: MI_Instance_SetServerName function
+title: MI_Instance_SetServerName function (mi.h)
 author: windows-sdk-content
 description: Sets the server name of the specified instance.
 old-location: wmi_v2\mi_instance_setservername.htm

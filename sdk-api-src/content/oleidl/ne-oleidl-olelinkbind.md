@@ -1,6 +1,6 @@
 ---
 UID: NE:oleidl.tagOLELINKBIND
-title: OLELINKBIND
+title: OLELINKBIND (oleidl.h)
 author: windows-sdk-content
 description: Controls binding operations to a link source.
 old-location: com\olelinkbind.htm

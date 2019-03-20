@@ -1,6 +1,6 @@
 ---
 UID: NF:dsclient.IDsDisplaySpecifier.GetClassCreationInfo
-title: IDsDisplaySpecifier::GetClassCreationInfo
+title: IDsDisplaySpecifier::GetClassCreationInfo (dsclient.h)
 author: windows-sdk-content
 description: Retrieves data about the class creation wizard objects for a given object class.
 old-location: ad\idsdisplayspecifier_getclasscreationinfo.htm

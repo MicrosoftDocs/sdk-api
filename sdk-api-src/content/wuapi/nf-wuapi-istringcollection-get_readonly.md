@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IStringCollection.get_ReadOnly
-title: IStringCollection::get_ReadOnly
+title: IStringCollection::get_ReadOnly (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the collection is read-only.
 old-location: wua\istringcollection_readonly.htm

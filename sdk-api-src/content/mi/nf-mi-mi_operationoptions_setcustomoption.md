@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_OperationOptions_SetCustomOption
-title: MI_OperationOptions_SetCustomOption function
+title: MI_OperationOptions_SetCustomOption function (mi.h)
 author: windows-sdk-content
 description: Sets a custom option for the operation.
 old-location: wmi_v2\mi_operationoptions_setcustomoption.htm

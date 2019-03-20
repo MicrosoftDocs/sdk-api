@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2def._SOCKET_ADDRESS_LIST
-title: SOCKET_ADDRESS_LIST
+title: SOCKET_ADDRESS_LIST (ws2def.h)
 author: windows-sdk-content
 description: The SOCKET_ADDRESS_LIST structure defines a variable-sized list of transport addresses.
 old-location: netvista\socket_address_list.htm

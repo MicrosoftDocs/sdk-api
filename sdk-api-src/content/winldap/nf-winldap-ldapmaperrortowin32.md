@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.LdapMapErrorToWin32
-title: LdapMapErrorToWin32 function
+title: LdapMapErrorToWin32 function (winldap.h)
 author: windows-sdk-content
 description: The LdapMapErrorToWin32 function translates an LdapError value to the closest Win32 error code.
 old-location: ldap\ldapmaperrortowin32.htm

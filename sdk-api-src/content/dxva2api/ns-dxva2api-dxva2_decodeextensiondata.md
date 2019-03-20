@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva2api._DXVA2_DecodeExtensionData
-title: DXVA2_DecodeExtensionData
+title: DXVA2_DecodeExtensionData (dxva2api.h)
 author: windows-sdk-content
 description: Contains private data for the IDirectXVideoDecoder::Execute method.
 old-location: mf\dxva2_decodeextensiondata.htm

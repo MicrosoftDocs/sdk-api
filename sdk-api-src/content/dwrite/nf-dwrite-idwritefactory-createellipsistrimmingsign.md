@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFactory.CreateEllipsisTrimmingSign
-title: IDWriteFactory::CreateEllipsisTrimmingSign
+title: IDWriteFactory::CreateEllipsisTrimmingSign (dwrite.h)
 author: windows-sdk-content
 description: Creates an inline object for trimming, using an ellipsis as the omission sign.
 old-location: directwrite\IDWriteFactory_CreateEllipsisTrimmingSign.htm

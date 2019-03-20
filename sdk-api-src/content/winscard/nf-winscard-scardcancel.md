@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardCancel
-title: SCardCancel function
+title: SCardCancel function (winscard.h)
 author: windows-sdk-content
 description: Terminates all outstanding actions within a specific resource manager context.
 old-location: security\scardcancel.htm

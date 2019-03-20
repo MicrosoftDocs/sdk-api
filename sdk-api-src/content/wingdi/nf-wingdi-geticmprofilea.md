@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetICMProfileA
-title: GetICMProfileA function
+title: GetICMProfileA function (wingdi.h)
 author: windows-sdk-content
 description: The GetICMProfile function retrieves the file name of the current output color profile for a specified device context.
 old-location: wcs\geticmprofile.htm

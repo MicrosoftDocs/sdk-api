@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IEnumOleDocumentViews.Reset
-title: IEnumOleDocumentViews::Reset
+title: IEnumOleDocumentViews::Reset (docobj.h)
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienumoledocumentviews_reset.htm

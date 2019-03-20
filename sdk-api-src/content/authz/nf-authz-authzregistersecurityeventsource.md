@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzRegisterSecurityEventSource
-title: AuthzRegisterSecurityEventSource function
+title: AuthzRegisterSecurityEventSource function (authz.h)
 author: windows-sdk-content
 description: Registers a security event source with the Local Security Authority (LSA).
 old-location: security\authzregistersecurityeventsource.htm

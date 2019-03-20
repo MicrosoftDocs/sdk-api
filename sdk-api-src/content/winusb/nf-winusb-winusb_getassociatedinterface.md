@@ -1,6 +1,6 @@
 ---
 UID: NF:winusb.WinUsb_GetAssociatedInterface
-title: WinUsb_GetAssociatedInterface function
+title: WinUsb_GetAssociatedInterface function (winusb.h)
 author: windows-sdk-content
 description: The WinUsb_GetAssociatedInterface function retrieves a handle for an associated interface. This is a synchronous operation.
 old-location: buses\winusb_getassociatedinterface.htm

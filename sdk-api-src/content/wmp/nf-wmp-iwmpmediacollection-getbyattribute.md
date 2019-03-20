@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMediaCollection.getByAttribute
-title: IWMPMediaCollection::getByAttribute
+title: IWMPMediaCollection::getByAttribute (wmp.h)
 author: windows-sdk-content
 description: The getByAttribute method retrieves a pointer to an IWMPPlaylist interface. This interface corresponds to the specified attribute having the specified value.
 old-location: wmp\iwmpmediacollection_getbyattribute.htm

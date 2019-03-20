@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._IMAGE_RUNTIME_FUNCTION_ENTRY
-title: RUNTIME_FUNCTION
+title: RUNTIME_FUNCTION (winnt.h)
 author: windows-sdk-content
 description: Represents an entry in the function table on 64-bit Windows.
 old-location: base\_image_runtime_function_entry.htm

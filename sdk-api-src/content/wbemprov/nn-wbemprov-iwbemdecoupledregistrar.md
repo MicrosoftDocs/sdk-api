@@ -1,6 +1,6 @@
 ---
 UID: NN:wbemprov.IWbemDecoupledRegistrar
-title: IWbemDecoupledRegistrar
+title: IWbemDecoupledRegistrar (wbemprov.h)
 author: windows-sdk-content
 description: The IWbemDecoupledRegistrar interface associates decoupled providers with WMI. This interface allows a process-hosted provider to define the interoperability lifetime of the interface and to coexist with other providers.
 old-location: wmi\iwbemdecoupledregistrar.htm

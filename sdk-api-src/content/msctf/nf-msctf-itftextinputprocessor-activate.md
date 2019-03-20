@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfTextInputProcessor.Activate
-title: ITfTextInputProcessor::Activate
+title: ITfTextInputProcessor::Activate (msctf.h)
 author: windows-sdk-content
 description: ITfTextInputProcessor::Activate method
 old-location: tsf\itftextinputprocessor_activate.htm

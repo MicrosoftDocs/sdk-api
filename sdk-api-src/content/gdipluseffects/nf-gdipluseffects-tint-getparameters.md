@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.Tint.GetParameters
-title: Tint::GetParameters
+title: Tint::GetParameters (gdipluseffects.h)
 author: windows-sdk-content
 description: The Tint::GetParameters method gets the current values of the parameters of this Tint object.
 old-location: gdiplus\_gdiplus_CLASS_Tint_GetParameters_.htm

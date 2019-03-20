@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.SetModulePath
-title: ITargetInfo::SetModulePath
+title: ITargetInfo::SetModulePath (wcmconfig.h)
 author: windows-sdk-content
 description: Sets the module path for the offline installation location.
 old-location: smi\itargetinfo_setmodulepath.htm

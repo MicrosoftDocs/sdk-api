@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGISwapChain.GetBuffer
-title: IDXGISwapChain::GetBuffer
+title: IDXGISwapChain::GetBuffer (dxgi.h)
 author: windows-sdk-content
 description: Accesses one of the swap-chain's back buffers.
 old-location: direct3ddxgi\idxgiswapchain_getbuffer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dsadmin.IDsAdminNewObj.SetButtons
-title: IDsAdminNewObj::SetButtons
+title: IDsAdminNewObj::SetButtons (dsadmin.h)
 author: windows-sdk-content
 description: The IDsAdminNewObj::SetButtons method enables or disables the &#0034;Next&#0034; command button in the wizard for a specific page.
 old-location: ad\idsadminnewobj_setbuttons.htm

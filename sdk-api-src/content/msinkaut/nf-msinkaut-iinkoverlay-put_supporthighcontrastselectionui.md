@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkOverlay.put_SupportHighContrastSelectionUI
-title: IInkOverlay::put_SupportHighContrastSelectionUI
+title: IInkOverlay::put_SupportHighContrastSelectionUI (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets a value that specifies whether all selection user interface (UI) elements are drawn in high contrast when the system is in High Contrast mode.
 old-location: tablet\inkoverlay_supporthighcontrastselectionui.htm

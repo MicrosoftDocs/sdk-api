@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2fs.IFileSystemImage
-title: IFileSystemImage
+title: IFileSystemImage (imapi2fs.h)
 author: windows-sdk-content
 description: Use this interface to build a file system image, set session parameter, and import or export an image.
 old-location: imapi\ifilesystemimage.htm

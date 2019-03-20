@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.lineproxyrequest_tag
-title: LINEPROXYREQUEST
+title: LINEPROXYREQUEST (tapi.h)
 author: windows-sdk-content
 description: The LINEPROXYREQUEST structure contains parameter values of the application making the proxy request. Multiple TAPI call center functions generate a LINE_PROXYREQUEST message that references a LINEPROXYREQUEST structure.
 old-location: tapi2\lineproxyrequest_str.htm

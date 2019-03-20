@@ -1,6 +1,6 @@
 ---
 UID: NE:mfapi._MFFrameSourceTypes
-title: MFFrameSourceTypes
+title: MFFrameSourceTypes (mfapi.h)
 author: windows-sdk-content
 description: Describes the type of data provided by a frame source.
 old-location: mf\mfframesourcetypes.htm

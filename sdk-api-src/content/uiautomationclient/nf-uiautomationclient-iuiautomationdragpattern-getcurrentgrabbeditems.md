@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationDragPattern.GetCurrentGrabbedItems
-title: IUIAutomationDragPattern::GetCurrentGrabbedItems
+title: IUIAutomationDragPattern::GetCurrentGrabbedItems (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a collection of elements that represent the full set of items that the user is dragging as part of a drag operation.
 old-location: winauto\uiauto_iuiautomationdragpattern_getcurrentgrabbeditems.htm

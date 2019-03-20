@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1_1.D2D1_STROKE_STYLE_PROPERTIES1
-title: D2D1_STROKE_STYLE_PROPERTIES1
+title: D2D1_STROKE_STYLE_PROPERTIES1 (d2d1_1.h)
 author: windows-sdk-content
 description: Describes the stroke that outlines a shape.
 old-location: direct2d\d2d1_stroke_style_properties1.htm

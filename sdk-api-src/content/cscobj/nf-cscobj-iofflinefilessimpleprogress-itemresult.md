@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSimpleProgress.ItemResult
-title: IOfflineFilesSimpleProgress::ItemResult
+title: IOfflineFilesSimpleProgress::ItemResult (cscobj.h)
 author: windows-sdk-content
 description: Reports that an item has been processed during the operation.
 old-location: of\iofflinefilessimpleprogress_itemresult.htm

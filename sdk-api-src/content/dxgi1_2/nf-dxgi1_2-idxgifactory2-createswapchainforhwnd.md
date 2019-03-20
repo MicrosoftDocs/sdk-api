@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIFactory2.CreateSwapChainForHwnd
-title: IDXGIFactory2::CreateSwapChainForHwnd
+title: IDXGIFactory2::CreateSwapChainForHwnd (dxgi1_2.h)
 author: windows-sdk-content
 description: Creates a swap chain that is associated with an HWND handle to the output window for the swap chain.
 old-location: direct3ddxgi\idxgifactory2_createswapchain1.htm

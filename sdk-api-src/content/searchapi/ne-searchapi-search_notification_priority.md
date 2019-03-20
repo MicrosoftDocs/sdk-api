@@ -1,6 +1,6 @@
 ---
 UID: NE:searchapi._SEARCH_NOTIFICATION_PRIORITY
-title: SEARCH_NOTIFICATION_PRIORITY
+title: SEARCH_NOTIFICATION_PRIORITY (searchapi.h)
 author: windows-sdk-content
 description: Indicates the priority of processing an item that has changed.
 old-location: search\_search_SEARCH_NOTIFICATION_PRIORITY.htm

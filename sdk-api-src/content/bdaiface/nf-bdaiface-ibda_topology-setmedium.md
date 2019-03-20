@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_Topology.SetMedium
-title: IBDA_Topology::SetMedium
+title: IBDA_Topology::SetMedium (bdaiface.h)
 author: windows-sdk-content
 description: The SetMedium method configures the medium on which a particular pin sends data.
 old-location: mstv\ibda_topology_setmedium.htm

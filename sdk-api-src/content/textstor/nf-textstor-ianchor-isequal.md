@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.IAnchor.IsEqual
-title: IAnchor::IsEqual
+title: IAnchor::IsEqual (textstor.h)
 author: windows-sdk-content
 description: The IAnchor::IsEqual method evaluates two anchors within a text stream and returns a Boolean value that specifies the equality or inequality of the anchor positions.
 old-location: tsf\ianchor_isequal.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingArchive.get_LowQuotaWaterMark
-title: IFaxOutgoingArchive::get_LowQuotaWaterMark
+title: IFaxOutgoingArchive::get_LowQuotaWaterMark (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingArchive::get_LowQuotaWaterMark property is a value that specifies the lower threshold for the archive of outbound fax messages, in megabytes.
 old-location: fax\_mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_lowquotawatermark_cpp.htm

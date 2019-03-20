@@ -1,6 +1,6 @@
 ---
 UID: NS:ncrypt.NCryptKeyName
-title: NCryptKeyName
+title: NCryptKeyName (ncrypt.h)
 author: windows-sdk-content
 description: Used to contain information about a CNG key.
 old-location: security\ncryptkeyname_struct.htm

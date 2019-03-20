@@ -1,6 +1,6 @@
 ---
 UID: NF:prsht.PropSheet_InsertPage
-title: PropSheet_InsertPage macro
+title: PropSheet_InsertPage macro (prsht.h)
 author: windows-sdk-content
 description: Inserts a new page into an existing property sheet. The page can be inserted either at a specified index or after a specified page. You can use this macro or send the PSM_INSERTPAGE message explicitly.
 old-location: controls\PropSheet_InsertPage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolumeOnline.Online
-title: IVdsVolumeOnline::Online
+title: IVdsVolumeOnline::Online (vds.h)
 author: windows-sdk-content
 description: Returns a volume to the healthy state, if possible. This method is supported only for dynamic disks.
 old-location: base\ivdsvolumeonline_online.htm

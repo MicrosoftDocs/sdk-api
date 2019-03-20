@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagLASTINPUTINFO
-title: LASTINPUTINFO
+title: LASTINPUTINFO (winuser.h)
 author: windows-sdk-content
 description: Contains the time of the last input.
 old-location: inputdev\lastinputinfo.htm

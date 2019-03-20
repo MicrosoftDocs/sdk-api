@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineSetMediaControl
-title: lineSetMediaControl function
+title: lineSetMediaControl function (tapi.h)
 author: windows-sdk-content
 description: The lineSetMediaControl function enables and disables control actions on the media stream associated with the specified line, address, or call.
 old-location: tapi2\linesetmediacontrol.htm

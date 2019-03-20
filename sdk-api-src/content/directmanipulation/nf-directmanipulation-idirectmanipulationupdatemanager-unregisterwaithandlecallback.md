@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationUpdateManager.UnregisterWaitHandleCallback
-title: IDirectManipulationUpdateManager::UnregisterWaitHandleCallback
+title: IDirectManipulationUpdateManager::UnregisterWaitHandleCallback (directmanipulation.h)
 author: windows-sdk-content
 description: Deregisters a callback.
 old-location: directmanipulation\idirectmanipulationupdatemanager_unregisterwaithandlecallback.htm

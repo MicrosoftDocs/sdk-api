@@ -1,6 +1,6 @@
 ---
 UID: NS:mapi.__unnamed_struct_2
-title: MapiFileTagExt
+title: MapiFileTagExt (mapi.h)
 author: windows-sdk-content
 description: A MapiFileTagExt structure specifies a message attachment's type at its creation and its current form of encoding so that it can be restored to its original type at its destination.
 old-location: mapi\mapifiletagext.htm

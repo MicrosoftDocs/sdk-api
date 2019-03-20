@@ -1,6 +1,6 @@
 ---
 UID: NE:vdshwprv._VDS_MAINTENANCE_OPERATION
-title: VDS_MAINTENANCE_OPERATION
+title: VDS_MAINTENANCE_OPERATION (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the set of valid subsystem maintenance operations.
 old-location: base\vds_maintenance_operation.htm

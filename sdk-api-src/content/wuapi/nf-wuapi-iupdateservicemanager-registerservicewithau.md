@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager.RegisterServiceWithAU
-title: IUpdateServiceManager::RegisterServiceWithAU
+title: IUpdateServiceManager::RegisterServiceWithAU (wuapi.h)
 author: windows-sdk-content
 description: Registers a service with Automatic Updates.
 old-location: wua\iupdateservicemanager_registerservicewithau.htm

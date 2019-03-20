@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITableProvider.get_RowOrColumnMajor
-title: ITableProvider::get_RowOrColumnMajor
+title: ITableProvider::get_RowOrColumnMajor (uiautomationcore.h)
 author: windows-sdk-content
 description: Specifies the primary direction of traversal for the table.
 old-location: winauto\uiauto_ITableProvider_RowOrColumnMajor.htm

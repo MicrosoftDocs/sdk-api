@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnPinEvents.OnEnableComplete
-title: IMbnPinEvents::OnEnableComplete
+title: IMbnPinEvents::OnEnableComplete (mbnapi.h)
 author: windows-sdk-content
 description: Notification method called by the Mobile Broadband service to indicate that a PIN enable operation has completed.
 old-location: mbn\imbnpinevents_onenablecomplete.htm

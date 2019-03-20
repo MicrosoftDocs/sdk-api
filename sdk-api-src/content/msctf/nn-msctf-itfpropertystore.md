@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfPropertyStore
-title: ITfPropertyStore
+title: ITfPropertyStore (msctf.h)
 author: windows-sdk-content
 description: The ITfPropertyStore interface is implemented by a text service and used by the TSF manager to provide non-static property values. An instance of this interface is passed to ITfProperty::SetValueStore.
 old-location: tsf\itfpropertystore.htm

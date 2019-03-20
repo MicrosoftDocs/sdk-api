@@ -1,6 +1,6 @@
 ---
 UID: NS:wsman._WSMAN_RESPONSE_DATA
-title: WSMAN_RESPONSE_DATA
+title: WSMAN_RESPONSE_DATA (wsman.h)
 author: windows-sdk-content
 description: Represents the output data received from a WSMan operation.
 old-location: winrm\wsman_response_data.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink3.GetMode
-title: IWMWriterFileSink3::GetMode
+title: IWMWriterFileSink3::GetMode (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetMode method retrieves the supported file sink mode. More than one mode can be supported.
 old-location: wmformat\iwmwriterfilesink3_getmode.htm

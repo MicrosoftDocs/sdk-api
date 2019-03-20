@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.core.interop.IVideoFrameNative.GetData
-title: IVideoFrameNative::core
+title: IVideoFrameNative::core (windows.media.core.interop.h)
 author: windows-sdk-content
 description: This method returns an interface that provides access to the video data.
 old-location: winrt\ivideoframenative_getdata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_CONFIGURATION
-title: DIRECTMANIPULATION_CONFIGURATION
+title: DIRECTMANIPULATION_CONFIGURATION (directmanipulation.h)
 author: windows-sdk-content
 description: Defines the interaction configuration states available in Direct Manipulation.
 old-location: directmanipulation\directmanipulation_configuration.htm

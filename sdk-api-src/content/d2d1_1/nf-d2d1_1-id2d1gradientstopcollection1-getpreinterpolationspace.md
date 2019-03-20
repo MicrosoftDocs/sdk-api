@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1GradientStopCollection1.GetPreInterpolationSpace
-title: ID2D1GradientStopCollection1::GetPreInterpolationSpace
+title: ID2D1GradientStopCollection1::GetPreInterpolationSpace (d2d1_1.h)
 author: windows-sdk-content
 description: Gets the color space of the input colors as well as the space in which gradient stops are interpolated.
 old-location: direct2d\id2d1gradientstopcollection1_getpreinterpolationspace.htm

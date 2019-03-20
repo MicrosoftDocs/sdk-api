@@ -1,6 +1,6 @@
 ---
 UID: NF:ddstream.IDirectDrawMediaStream.CreateSample
-title: IDirectDrawMediaStream::CreateSample
+title: IDirectDrawMediaStream::CreateSample (ddstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Creates a stream sample using the specified DirectDraw surface object.
 old-location: dshow\idirectdrawmediastream_createsample.htm

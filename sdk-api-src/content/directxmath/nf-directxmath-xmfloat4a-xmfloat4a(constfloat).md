@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMFLOAT4A.XMFLOAT4A(const float)
-title: XMFLOAT4A::XMFLOAT4A(const float)
+title: XMFLOAT4A::XMFLOAT4A(const float) (directxmath.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMFLOAT4 from a four element float array argument.
 old-location: dxmath\xmfloat4_ctor_3.htm

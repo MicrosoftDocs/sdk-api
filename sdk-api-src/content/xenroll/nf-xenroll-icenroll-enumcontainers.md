@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll.enumContainers
-title: ICEnroll::enumContainers
+title: ICEnroll::enumContainers (xenroll.h)
 author: windows-sdk-content
 description: Retrieves the names of containers for the cryptographic service provider (CSP) specified by the ProviderName property. This method was first defined in the ICEnroll interface.
 old-location: security\icenroll4_enumcontainers.htm

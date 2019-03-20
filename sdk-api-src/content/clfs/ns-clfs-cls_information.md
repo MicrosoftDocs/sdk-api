@@ -1,6 +1,6 @@
 ---
 UID: NS:clfs._CLS_INFORMATION
-title: CLS_INFORMATION
+title: CLS_INFORMATION (clfs.h)
 author: windows-sdk-content
 description: Describes general information about a log.
 old-location: fs\clfs_information.htm

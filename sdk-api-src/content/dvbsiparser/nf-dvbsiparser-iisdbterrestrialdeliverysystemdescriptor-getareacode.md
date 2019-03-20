@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbTerrestrialDeliverySystemDescriptor.GetAreaCode
-title: IIsdbTerrestrialDeliverySystemDescriptor::GetAreaCode
+title: IIsdbTerrestrialDeliverySystemDescriptor::GetAreaCode (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the service area code from an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor.
 old-location: mstv\iisdbterrestrialdeliverysystemdescriptor_getareacode.htm

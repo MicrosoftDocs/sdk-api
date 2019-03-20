@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_UNKNOWN_ENDPOINT_IDENTITY
-title: WS_UNKNOWN_ENDPOINT_IDENTITY
+title: WS_UNKNOWN_ENDPOINT_IDENTITY (webservices.h)
 author: windows-sdk-content
 description: Type for unknown endpoint identity. This type is only used to represent an endpoint identity type that was deserialized but was not understood.
 old-location: wsw\ws_unknown_endpoint_identity.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.SetCurrentThreadCompartmentId
-title: SetCurrentThreadCompartmentId function
+title: SetCurrentThreadCompartmentId function (netioapi.h)
 author: windows-sdk-content
 description: Reserved for future use. Do not use this function.
 old-location: netvista\setcurrentthreadcompartmentid.htm

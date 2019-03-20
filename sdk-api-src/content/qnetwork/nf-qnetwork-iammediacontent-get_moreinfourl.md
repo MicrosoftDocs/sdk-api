@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_MoreInfoURL
-title: IAMMediaContent::get_MoreInfoURL
+title: IAMMediaContent::get_MoreInfoURL (qnetwork.h)
 author: windows-sdk-content
 description: The get_MoreInfoURL method retrieves a URL for additional information about the content.
 old-location: dshow\iammediacontent_get_moreinfourl.htm

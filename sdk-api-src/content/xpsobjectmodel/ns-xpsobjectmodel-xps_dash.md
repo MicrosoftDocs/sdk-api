@@ -1,6 +1,6 @@
 ---
 UID: NS:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0020
-title: XPS_DASH
+title: XPS_DASH (xpsobjectmodel.h)
 author: windows-sdk-content
 description: This structure describes a dash element of a path.
 old-location: xps\xps_dash.htm

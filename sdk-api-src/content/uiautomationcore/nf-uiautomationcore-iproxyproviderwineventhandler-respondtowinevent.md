@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IProxyProviderWinEventHandler.RespondToWinEvent
-title: IProxyProviderWinEventHandler::RespondToWinEvent
+title: IProxyProviderWinEventHandler::RespondToWinEvent (uiautomationcore.h)
 author: windows-sdk-content
 description: Handles a WinEvent.
 old-location: winauto\uiauto_IProxyProviderWinEventHandler_RespondToWinEvent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRepetitionPattern.get_Duration
-title: IRepetitionPattern::get_Duration
+title: IRepetitionPattern::get_Duration (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets how long the pattern is repeated.
 old-location: taskschd\irepetitionpattern_duration.htm

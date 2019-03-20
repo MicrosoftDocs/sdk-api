@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.CreateUnicastIpAddressEntry
-title: CreateUnicastIpAddressEntry function
+title: CreateUnicastIpAddressEntry function (netioapi.h)
 author: windows-sdk-content
 description: Adds a new unicast IP address entry on the local computer.
 old-location: iphlp\createunicastipaddressentry.htm

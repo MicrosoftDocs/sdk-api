@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluscolor.Color.SetFromCOLORREF
-title: Color::SetFromCOLORREF
+title: Color::SetFromCOLORREF (gdipluscolor.h)
 author: windows-sdk-content
 description: The Color::SetFromCOLORREF method uses a Windows Graphics Device Interface (GDI)COLORREF value to set the ARGB value of this Color object.
 old-location: gdiplus\_gdiplus_CLASS_Color_SetFromCOLORREF_rgb_.htm

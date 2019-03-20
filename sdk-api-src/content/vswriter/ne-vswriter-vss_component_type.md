@@ -1,6 +1,6 @@
 ---
 UID: NE:vswriter.VSS_COMPONENT_TYPE
-title: VSS_COMPONENT_TYPE
+title: VSS_COMPONENT_TYPE (vswriter.h)
 author: windows-sdk-content
 description: Specify the type of component being used with a shadow copy backup operation.
 old-location: base\vss_component_type.htm

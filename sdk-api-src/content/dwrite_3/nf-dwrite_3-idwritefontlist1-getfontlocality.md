@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontList1.GetFontLocality
-title: IDWriteFontList1::GetFontLocality
+title: IDWriteFontList1::GetFontLocality (dwrite_3.h)
 author: windows-sdk-content
 description: Gets the current location of a font given its zero-based index.
 old-location: directwrite\idwritefontlist1_getfontlocality.htm

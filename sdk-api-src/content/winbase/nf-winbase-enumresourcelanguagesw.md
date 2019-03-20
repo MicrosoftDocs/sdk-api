@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.EnumResourceLanguagesW
-title: EnumResourceLanguagesW function
+title: EnumResourceLanguagesW function (winbase.h)
 author: windows-sdk-content
 description: Enumerates language-specific resources, of the specified type and name, associated with a binary module.
 old-location: menurc\enumresourcelanguages.htm

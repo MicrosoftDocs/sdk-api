@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_CHAIN_ELEMENT
-title: CERT_CHAIN_ELEMENT
+title: CERT_CHAIN_ELEMENT (wincrypt.h)
 author: windows-sdk-content
 description: The CERT_CHAIN_ELEMENT structure is a single element in a simple certificate chain.
 old-location: security\cert_chain_element.htm

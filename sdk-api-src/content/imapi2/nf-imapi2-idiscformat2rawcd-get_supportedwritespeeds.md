@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_SupportedWriteSpeeds
-title: IDiscFormat2RawCD::get_SupportedWriteSpeeds
+title: IDiscFormat2RawCD::get_SupportedWriteSpeeds (imapi2.h)
 author: windows-sdk-content
 description: Retrieves a list of the write speeds supported by the disc recorder and current media.
 old-location: imapi\idiscformat2rawcd_get_supportedwritespeeds.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.UnregisterPowerSettingNotification
-title: UnregisterPowerSettingNotification function
+title: UnregisterPowerSettingNotification function (winuser.h)
 author: windows-sdk-content
 description: Unregisters the power setting notification.
 old-location: base\unregisterpowersettingnotification.htm

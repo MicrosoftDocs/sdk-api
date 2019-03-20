@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcGeneratorFilterMaxParameters.GetHashWindowSize
-title: IRdcGeneratorFilterMaxParameters::GetHashWindowSize
+title: IRdcGeneratorFilterMaxParameters::GetHashWindowSize (msrdc.h)
 author: windows-sdk-content
 description: Returns the hash window size&#8212;the size of the sliding window used by the FilterMax generator for computing the hash used in the local maxima calculations.
 old-location: rdc\irdcgeneratorfiltermaxparameters_gethashwindowsize.htm

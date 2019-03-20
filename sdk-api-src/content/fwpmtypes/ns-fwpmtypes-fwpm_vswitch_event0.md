@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_VSWITCH_EVENT0_
-title: FWPM_VSWITCH_EVENT0
+title: FWPM_VSWITCH_EVENT0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Contains information about a vSwitch event.
 old-location: fwp\fwpm_vswitch_event0.htm

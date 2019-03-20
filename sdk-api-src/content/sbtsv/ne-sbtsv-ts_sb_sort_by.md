@@ -1,6 +1,6 @@
 ---
 UID: NE:sbtsv._TS_SB_SORT_BY
-title: TS_SB_SORT_BY
+title: TS_SB_SORT_BY (sbtsv.h)
 author: windows-sdk-content
 description: Specifies sort order. It is used as a parameter in the EnumerateTargets method.
 old-location: termserv\ts_sb_sort_by.htm

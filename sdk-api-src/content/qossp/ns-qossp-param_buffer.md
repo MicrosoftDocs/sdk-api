@@ -1,6 +1,6 @@
 ---
 UID: NS:qossp._PARAM_BUFFER
-title: PARAM_BUFFER
+title: PARAM_BUFFER (qossp.h)
 author: windows-sdk-content
 description: The PARAM_BUFFER structure describes the format of the parameter buffer that can be included in the CONTROL_SERVICE structure.
 old-location: qos\param_buffer.htm

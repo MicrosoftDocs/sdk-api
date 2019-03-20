@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIOutput.ReleaseOwnership
-title: IDXGIOutput::ReleaseOwnership
+title: IDXGIOutput::ReleaseOwnership (dxgi.h)
 author: windows-sdk-content
 description: Releases ownership of the output.
 old-location: direct3ddxgi\idxgioutput_releaseownership.htm

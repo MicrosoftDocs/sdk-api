@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RadialGradientBrush.GetCenter
-title: ID2D1RadialGradientBrush::GetCenter
+title: ID2D1RadialGradientBrush::GetCenter (d2d1.h)
 author: windows-sdk-content
 description: Retrieves the center of the gradient ellipse.
 old-location: direct2d\ID2D1RadialGradientBrush_GetCenter.htm

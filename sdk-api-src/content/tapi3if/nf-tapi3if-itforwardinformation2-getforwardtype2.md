@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITForwardInformation2.GetForwardType2
-title: ITForwardInformation2::GetForwardType2
+title: ITForwardInformation2::GetForwardType2 (tapi3if.h)
 author: windows-sdk-content
 description: The GetForwardType2 method gets the current forwarding mode, specified by caller address.
 old-location: tapi3\itforwardinformation2_getforwardtype2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateColorContext
-title: IWICImagingFactory::CreateColorContext
+title: IWICImagingFactory::CreateColorContext (wincodec.h)
 author: windows-sdk-content
 description: Creates a new instance of the IWICColorContext class.
 old-location: wic\_wic_codec_iwicimagingfactory_createcolorcontext.htm

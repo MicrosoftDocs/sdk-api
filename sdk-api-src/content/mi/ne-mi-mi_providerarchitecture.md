@@ -1,6 +1,6 @@
 ---
 UID: NE:mi._MI_ProviderArchitecture
-title: MI_ProviderArchitecture
+title: MI_ProviderArchitecture (mi.h)
 author: windows-sdk-content
 description: This enumeration defines the WMI provider architecture used on the server.
 old-location: wmi_v2\mi_providerarchitecture.htm

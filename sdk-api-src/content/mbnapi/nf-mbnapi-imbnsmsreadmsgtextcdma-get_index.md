@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgTextCdma.get_Index
-title: IMbnSmsReadMsgTextCdma::get_Index
+title: IMbnSmsReadMsgTextCdma::get_Index (mbnapi.h)
 author: windows-sdk-content
 description: The index of the message in device SMS memory.
 old-location: mbn\imbnsmsreadmsgtextcdma_index.htm

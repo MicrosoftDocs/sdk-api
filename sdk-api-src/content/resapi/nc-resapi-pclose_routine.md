@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.PCLOSE_ROUTINE
-title: PCLOSE_ROUTINE
+title: PCLOSE_ROUTINE (resapi.h)
 author: windows-sdk-content
 description: Closes a resource.
 old-location: mscs\close.htm

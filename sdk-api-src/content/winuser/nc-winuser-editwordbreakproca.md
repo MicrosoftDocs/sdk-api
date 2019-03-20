@@ -1,6 +1,6 @@
 ---
 UID: NC:winuser.EDITWORDBREAKPROCA
-title: EDITWORDBREAKPROCA
+title: EDITWORDBREAKPROCA (winuser.h)
 author: windows-sdk-content
 description: An application-defined callback function used with the EM_SETWORDBREAKPROC message.
 old-location: controls\EditWordBreakProc.htm

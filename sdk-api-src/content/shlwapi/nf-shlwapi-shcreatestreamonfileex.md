@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHCreateStreamOnFileEx
-title: SHCreateStreamOnFileEx function
+title: SHCreateStreamOnFileEx function (shlwapi.h)
 author: windows-sdk-content
 description: Opens or creates a file and retrieves a stream to read or write to that file.
 old-location: shell\SHCreateStreamOnFileEx.htm

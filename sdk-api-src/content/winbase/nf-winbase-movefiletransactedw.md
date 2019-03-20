@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.MoveFileTransactedW
-title: MoveFileTransactedW function
+title: MoveFileTransactedW function (winbase.h)
 author: windows-sdk-content
 description: Moves an existing file or a directory, including its children, as a transacted operation.
 old-location: fs\movefiletransacted.htm

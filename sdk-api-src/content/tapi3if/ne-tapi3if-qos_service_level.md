@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.QOS_SERVICE_LEVEL
-title: QOS_SERVICE_LEVEL
+title: QOS_SERVICE_LEVEL (tapi3if.h)
 author: windows-sdk-content
 description: The QOS_SERVICE_LEVEL enum is used by the ITBasicCallControl::SetQOS method to indicate quality of service requirements for a call.
 old-location: tapi3\qos_service_level.htm

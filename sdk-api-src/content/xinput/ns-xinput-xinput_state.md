@@ -1,6 +1,6 @@
 ---
 UID: NS:xinput._XINPUT_STATE
-title: XINPUT_STATE
+title: XINPUT_STATE (xinput.h)
 author: windows-sdk-content
 description: Represents the state of a controller.
 old-location: xinput\xinput_state.htm

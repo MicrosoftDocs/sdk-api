@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsStoragePool.QueryDriveExtents
-title: IVdsStoragePool::QueryDriveExtents
+title: IVdsStoragePool::QueryDriveExtents (vds.h)
 author: windows-sdk-content
 description: Returns an array of the drive extents that are used by a storage pool.
 old-location: base\ivdsstoragepool_querydriveextents.htm

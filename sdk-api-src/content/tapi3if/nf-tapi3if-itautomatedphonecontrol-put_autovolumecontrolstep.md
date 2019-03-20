@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.put_AutoVolumeControlStep
-title: ITAutomatedPhoneControl::put_AutoVolumeControlStep
+title: ITAutomatedPhoneControl::put_AutoVolumeControlStep (tapi3if.h)
 author: windows-sdk-content
 description: The put_AutoVolumeControlStep method sets the AutoVolumeControlStep property. The property determines the amount that the phone volume is adjusted when the volume button is pressed.
 old-location: tapi3\itautomatedphonecontrol_put_autovolumecontrolstep.htm

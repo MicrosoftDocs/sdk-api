@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_Timestamp
-title: MI_Timestamp
+title: MI_Timestamp (mi.h)
 author: windows-sdk-content
 description: MI_Timestamp specifies a timestamp or a specific point in time.
 old-location: wmi_v2\mi_timestamp.htm

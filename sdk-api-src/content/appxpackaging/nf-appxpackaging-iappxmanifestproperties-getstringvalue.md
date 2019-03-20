@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestProperties.GetStringValue
-title: IAppxManifestProperties::GetStringValue
+title: IAppxManifestProperties::GetStringValue (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the value of the specified string element in the properties section.
 old-location: appxpkg\iappxmanifestproperties_getstringvalue.htm

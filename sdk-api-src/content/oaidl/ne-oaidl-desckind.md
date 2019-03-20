@@ -1,6 +1,6 @@
 ---
 UID: NE:oaidl.tagDESCKIND
-title: DESCKIND
+title: DESCKIND (oaidl.h)
 author: windows-sdk-content
 description: Identifies the type description being bound to.
 old-location: automat\desckind.htm

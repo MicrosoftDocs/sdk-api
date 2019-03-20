@@ -1,6 +1,6 @@
 ---
 UID: NF:subauth.Msv1_0SubAuthenticationRoutine
-title: Msv1_0SubAuthenticationRoutine function
+title: Msv1_0SubAuthenticationRoutine function (subauth.h)
 author: windows-sdk-content
 description: Performs client/server-specific authentication.
 old-location: security\msv1_0subauthenticationroutine.htm

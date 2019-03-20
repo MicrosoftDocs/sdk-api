@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1SourceTransform.Draw
-title: ID2D1SourceTransform::Draw
+title: ID2D1SourceTransform::Draw (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Draws the transform to the graphics processing unit (GPU)–based Direct2D pipeline.
 old-location: direct2d\id2d1sourcetransform_draw.htm

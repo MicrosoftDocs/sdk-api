@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePackage
-title: IXpsOMObjectFactory::CreatePackage
+title: IXpsOMObjectFactory::CreatePackage (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Creates an IXpsOMPackage interface that serves as the root node of an XPS object model document tree.
 old-location: xps\ixpsomobjectfactory_createpackage.htm

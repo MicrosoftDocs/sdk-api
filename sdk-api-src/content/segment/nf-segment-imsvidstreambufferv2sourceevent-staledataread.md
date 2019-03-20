@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferV2SourceEvent.StaleDataRead
-title: IMSVidStreamBufferV2SourceEvent::StaleDataRead
+title: IMSVidStreamBufferV2SourceEvent::StaleDataRead (segment.h)
 author: windows-sdk-content
 description: Fired when the SBE2 source filter receives a STREAMBUFFER_EC_STALE_DATA_READ event, which indicates an MSVidStreamBufferSource object has read from a temporary recording file that is marked for deletion.
 old-location: mstv\imsvidstreambufferv2sourceevent_staledataread.htm

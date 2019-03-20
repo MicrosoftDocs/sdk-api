@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.GetEndCap
-title: Pen::GetEndCap
+title: Pen::GetEndCap (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::GetEndCap method gets the end cap currently set for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetEndCap_.htm

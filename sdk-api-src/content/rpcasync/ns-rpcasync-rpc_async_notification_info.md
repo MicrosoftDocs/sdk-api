@@ -1,6 +1,6 @@
 ---
 UID: NS:rpcasync._RPC_ASYNC_NOTIFICATION_INFO
-title: RPC_ASYNC_NOTIFICATION_INFO
+title: RPC_ASYNC_NOTIFICATION_INFO (rpcasync.h)
 author: windows-sdk-content
 description: Contains notification information for asynchronous remote procedure calls. This notification information can be configured for I/O completion ports (IOC), Windows asynchronous procedure calls (APC), Windows messaging, and Windows event notification.
 old-location: rpc\rpc_async_notification_info.htm

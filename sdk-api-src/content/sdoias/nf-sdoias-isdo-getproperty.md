@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdo.GetProperty
-title: ISdo::GetProperty
+title: ISdo::GetProperty (sdoias.h)
 author: windows-sdk-content
 description: The GetProperty method retrieves the value of the specified property.
 old-location: nps\SDO_isdo_getproperty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_STATE_INFO
-title: HTTP_STATE_INFO
+title: HTTP_STATE_INFO (http.h)
 author: windows-sdk-content
 description: Used to enable or disable a Server Session or URL Group.
 old-location: http\http_state_info.htm

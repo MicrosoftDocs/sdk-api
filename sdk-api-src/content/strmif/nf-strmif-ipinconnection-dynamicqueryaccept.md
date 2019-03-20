@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IPinConnection.DynamicQueryAccept
-title: IPinConnection::DynamicQueryAccept
+title: IPinConnection::DynamicQueryAccept (strmif.h)
 author: windows-sdk-content
 description: The DynamicQueryAccept method queries whether the pin can accept the specified media type while the graph is running with the current connection to this pin.
 old-location: dshow\ipinconnection_dynamicqueryaccept.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.CanDelete
-title: IPhotoAcquireItem::CanDelete
+title: IPhotoAcquireItem::CanDelete (photoacquire.h)
 author: windows-sdk-content
 description: The CanDelete method indicates whether an item may be deleted.
 old-location: picacq\iphotoacquireitem_candelete.htm

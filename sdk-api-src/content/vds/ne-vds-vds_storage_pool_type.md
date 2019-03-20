@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_STORAGE_POOL_TYPE
-title: VDS_STORAGE_POOL_TYPE
+title: VDS_STORAGE_POOL_TYPE (vds.h)
 author: windows-sdk-content
 description: Defines the set of storage pool types.
 old-location: base\vds_storage_pool_type.htm

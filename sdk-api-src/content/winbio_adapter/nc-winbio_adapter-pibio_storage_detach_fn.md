@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_DETACH_FN
-title: PIBIO_STORAGE_DETACH_FN
+title: PIBIO_STORAGE_DETACH_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Releases adapter-specific resources attached to the pipeline.
 old-location: secbiomet\storageadapterdetach.htm

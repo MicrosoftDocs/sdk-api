@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IConsoleVerb
-title: IConsoleVerb
+title: IConsoleVerb (mmc.h)
 author: windows-sdk-content
 description: The IConsoleVerb interface allows snap-ins to enable standard verbs including cut, copy, paste, delete, properties, rename, refresh, and print. When an item is selected, the snap-in can update the state of these verbs.
 old-location: mmc\iconsoleverb.htm

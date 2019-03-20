@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_ACCEPT_CHANNEL_CALLBACK
-title: WS_ACCEPT_CHANNEL_CALLBACK
+title: WS_ACCEPT_CHANNEL_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Handles the WsAcceptChannel call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_accept_channel_callback.htm

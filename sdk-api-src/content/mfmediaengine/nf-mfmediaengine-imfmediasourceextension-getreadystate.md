@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaSourceExtension.GetReadyState
-title: IMFMediaSourceExtension::GetReadyState
+title: IMFMediaSourceExtension::GetReadyState (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the ready state of the media source.
 old-location: mf\imfmediasourceextension_getreadystate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:powersetting.PowerReadACValue
-title: PowerReadACValue function
+title: PowerReadACValue function (powersetting.h)
 author: windows-sdk-content
 description: Retrieves the AC power value for the specified power setting.
 old-location: base\powerreadacvalue.htm

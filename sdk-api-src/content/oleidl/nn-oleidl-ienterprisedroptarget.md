@@ -1,6 +1,6 @@
 ---
 UID: NN:oleidl.IEnterpriseDropTarget
-title: IEnterpriseDropTarget
+title: IEnterpriseDropTarget (oleidl.h)
 author: windows-sdk-content
 description: When implemented by the drop target application, this interface gives the OLE drag and drop engine the ability to determine whether the drop target application intends to evaluate enterprise protection policy and gives the OLE drag and drop engine a way to provide the enterprise ID of the drop source application to the drop target application.
 old-location: com\ienterprisedroptarget.htm

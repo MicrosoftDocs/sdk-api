@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceCapabilities.GetFixedPropertyAttributes
-title: IPortableDeviceCapabilities::GetFixedPropertyAttributes
+title: IPortableDeviceCapabilities::GetFixedPropertyAttributes (portabledeviceapi.h)
 author: windows-sdk-content
 description: The GetFixedPropertyAttributes method retrieves the standard property attributes for a specified property and format.
 old-location: wpdsdk\iportabledevicecapabilities_getfixedpropertyattributes.htm

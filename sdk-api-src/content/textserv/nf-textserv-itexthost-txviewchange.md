@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxViewChange
-title: ITextHost::TxViewChange
+title: ITextHost::TxViewChange (textserv.h)
 author: windows-sdk-content
 description: Indicates to the text host that the update region has changed.
 old-location: controls\ITextHost_TxViewChange.htm

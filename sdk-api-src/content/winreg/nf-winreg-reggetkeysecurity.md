@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegGetKeySecurity
-title: RegGetKeySecurity function
+title: RegGetKeySecurity function (winreg.h)
 author: windows-sdk-content
 description: Retrieves a copy of the security descriptor protecting the specified open registry key.
 old-location: security\reggetkeysecurity.htm

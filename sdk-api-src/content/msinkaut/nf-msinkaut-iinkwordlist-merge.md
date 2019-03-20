@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkWordList.Merge
-title: IInkWordList::Merge
+title: IInkWordList::Merge (msinkaut.h)
 author: windows-sdk-content
 description: Merges the specified InkWordList object into this word list.
 old-location: tablet\inkwordlist_merge.htm

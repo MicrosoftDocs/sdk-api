@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Class_Registry_PropertyW
-title: CM_Get_Class_Registry_PropertyW function
+title: CM_Get_Class_Registry_PropertyW function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Get_Class_Registry_Property function retrieves a device setup class property.
 old-location: devinst\cm_get_class_registry_property.htm

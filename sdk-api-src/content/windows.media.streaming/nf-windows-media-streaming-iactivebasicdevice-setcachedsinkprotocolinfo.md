@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IActiveBasicDevice.SetCachedSinkProtocolInfo
-title: IActiveBasicDevice::streaming
+title: IActiveBasicDevice::streaming (windows.media.streaming.h)
 author: windows-sdk-content
 description: Gets the cached sink protocol info for the device.
 old-location: mediastreaming\iactivebasicdevice_setcachedsinkprotocolinfo.htm

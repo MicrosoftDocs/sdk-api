@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.CreateVideoDecoder
-title: ID3D11VideoDevice::CreateVideoDecoder
+title: ID3D11VideoDevice::CreateVideoDecoder (d3d11.h)
 author: windows-sdk-content
 description: Creates a video decoder device for Microsoft Direct3D 11.
 old-location: mf\id3d11videodevice_createvideodecoder.htm

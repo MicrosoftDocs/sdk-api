@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IAlternativeName.InitializeFromOtherName
-title: IAlternativeName::InitializeFromOtherName
+title: IAlternativeName::InitializeFromOtherName (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from an object identifier (OID) and the associated raw data (byte array).
 old-location: security\ialternativename_initializefromothername_method.htm

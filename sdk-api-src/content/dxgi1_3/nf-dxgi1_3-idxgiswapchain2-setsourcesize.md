@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGISwapChain2.SetSourceSize
-title: IDXGISwapChain2::SetSourceSize
+title: IDXGISwapChain2::SetSourceSize (dxgi1_3.h)
 author: windows-sdk-content
 description: Sets the source region to be used for the swap chain.
 old-location: direct3ddxgi\idxgioutpu2_setsourcesize.htm

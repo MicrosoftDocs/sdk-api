@@ -1,6 +1,6 @@
 ---
 UID: NF:certcli.ICertRequest3.GetRequestIdString
-title: ICertRequest3::GetRequestIdString
+title: ICertRequest3::GetRequestIdString (certcli.h)
 author: windows-sdk-content
 description: Gets the current internal request number, formatted as a string, for the request and subsequent certificate.
 old-location: security\icertrequest3_getrequestidstring.htm

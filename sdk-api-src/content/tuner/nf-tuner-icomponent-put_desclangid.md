@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponent.put_DescLangID
-title: IComponent::put_DescLangID
+title: IComponent::put_DescLangID (tuner.h)
 author: windows-sdk-content
 description: The put_DescLangID method sets the language for presentation of the description.
 old-location: mstv\icomponent_put_desclangid.htm

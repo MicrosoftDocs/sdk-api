@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_OID_INFO
-title: CRYPT_OID_INFO
+title: CRYPT_OID_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains information about an object identifier (OID).
 old-location: security\crypt_oid_info.htm

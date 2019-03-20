@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.ArrangeIconicWindows
-title: ArrangeIconicWindows function
+title: ArrangeIconicWindows function (winuser.h)
 author: windows-sdk-content
 description: Arranges all the minimized (iconic) child windows of the specified parent window.
 old-location: winmsg\arrangeiconicwindows.htm

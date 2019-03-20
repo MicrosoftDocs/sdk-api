@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock.getprotobyname
-title: getprotobyname function
+title: getprotobyname function (winsock.h)
 author: windows-sdk-content
 description: The getprotobyname function retrieves the protocol information corresponding to a protocol name.
 old-location: winsock\getprotobyname_2.htm

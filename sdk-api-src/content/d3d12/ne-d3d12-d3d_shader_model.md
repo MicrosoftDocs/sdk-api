@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D_SHADER_MODEL
-title: D3D_SHADER_MODEL
+title: D3D_SHADER_MODEL (d3d12.h)
 author: windows-sdk-content
 description: Specifies a shader model.
 old-location: direct3d12\d3d_shader_model.htm

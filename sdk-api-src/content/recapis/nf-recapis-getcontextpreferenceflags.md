@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.GetContextPreferenceFlags
-title: GetContextPreferenceFlags function
+title: GetContextPreferenceFlags function (recapis.h)
 author: windows-sdk-content
 description: Gets the context preference flags.
 old-location: tablet\getcontextpreferenceflags.htm

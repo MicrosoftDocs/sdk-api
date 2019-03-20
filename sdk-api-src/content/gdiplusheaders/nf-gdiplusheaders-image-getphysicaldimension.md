@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.GetPhysicalDimension
-title: Image::GetPhysicalDimension
+title: Image::GetPhysicalDimension (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::GetPhysicalDimension method gets the width and height of this image.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetPhysicalDimension_size_.htm

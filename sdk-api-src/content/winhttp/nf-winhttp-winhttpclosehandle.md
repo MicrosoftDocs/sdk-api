@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpCloseHandle
-title: WinHttpCloseHandle function
+title: WinHttpCloseHandle function (winhttp.h)
 author: windows-sdk-content
 description: The WinHttpCloseHandle function closes a single HINTERNET handle.
 old-location: http\winhttpclosehandle.htm

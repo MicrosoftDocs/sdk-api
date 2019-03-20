@@ -1,6 +1,6 @@
 ---
 UID: NF:fci.FNFCIALLOC
-title: FNFCIALLOC macro
+title: FNFCIALLOC macro (fci.h)
 author: windows-sdk-content
 description: The FNFCIALLOC provides the declaration for the application-defined callback function to allocate memory within an FCI context.
 old-location: winprog\fnfcialloc.htm

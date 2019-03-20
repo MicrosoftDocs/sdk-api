@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreateLegacyMediaBufferOnMFMediaBuffer
-title: MFCreateLegacyMediaBufferOnMFMediaBuffer function
+title: MFCreateLegacyMediaBufferOnMFMediaBuffer function (mfapi.h)
 author: windows-sdk-content
 description: Converts a Media Foundation media buffer into a buffer that is compatible with DirectX Media Objects (DMOs).
 old-location: mf\mfcreatelegacymediabufferonmfmediabuffer.htm

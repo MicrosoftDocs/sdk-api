@@ -1,6 +1,6 @@
 ---
 UID: NF:tvratings.IEvalRat.get_BlockedRatingAttributes
-title: IEvalRat::get_BlockedRatingAttributes
+title: IEvalRat::get_BlockedRatingAttributes (tvratings.h)
 author: windows-sdk-content
 description: The get_BlockedRatingAttributes method determines whether content is blocked for a given rating system and rating level.
 old-location: mstv\ievalrat_get_blockedratingattributes.htm

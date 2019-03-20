@@ -1,6 +1,6 @@
 ---
 UID: NS:iptypes.__unnamed_struct_12
-title: FIXED_INFO_W2KSP1
+title: FIXED_INFO_W2KSP1 (iptypes.h)
 author: windows-sdk-content
 description: The FIXED_INFO structure contains information that is the same across all the interfaces on a computer.
 old-location: iphlp\fixed_info.htm

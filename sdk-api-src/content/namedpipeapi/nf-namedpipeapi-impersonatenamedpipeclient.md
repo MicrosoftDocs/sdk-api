@@ -1,6 +1,6 @@
 ---
 UID: NF:namedpipeapi.ImpersonateNamedPipeClient
-title: ImpersonateNamedPipeClient function
+title: ImpersonateNamedPipeClient function (namedpipeapi.h)
 author: windows-sdk-content
 description: Impersonates a named-pipe client application.
 old-location: security\impersonatenamedpipeclient.htm

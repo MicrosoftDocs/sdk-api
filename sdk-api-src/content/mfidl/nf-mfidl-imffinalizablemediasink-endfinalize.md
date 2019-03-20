@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFFinalizableMediaSink.EndFinalize
-title: IMFFinalizableMediaSink::EndFinalize
+title: IMFFinalizableMediaSink::EndFinalize (mfidl.h)
 author: windows-sdk-content
 description: Completes an asynchronous finalize operation.
 old-location: mf\imffinalizablemediasink_endfinalize.htm

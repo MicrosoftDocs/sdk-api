@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IObjectControl
-title: IObjectControl
+title: IObjectControl (comsvcs.h)
 author: windows-sdk-content
 description: Defines context-specific initialization and cleanup procedures for your COM+ objects, and specifies whether the objects can be recycled.
 old-location: cos\iobjectcontrol.htm

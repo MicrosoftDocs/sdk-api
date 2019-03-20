@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d9.IDirect3DSwapChain9
-title: IDirect3DSwapChain9
+title: IDirect3DSwapChain9 (d3d9.h)
 author: windows-sdk-content
 description: Applications use the methods of the IDirect3DSwapChain9 interface to manipulate a swap chain.
 old-location: direct3d9\idirect3dswapchain9.htm

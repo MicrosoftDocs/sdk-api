@@ -1,6 +1,6 @@
 ---
 UID: NC:scesvc.PFSCE_QUERY_INFO
-title: PFSCE_QUERY_INFO
+title: PFSCE_QUERY_INFO (scesvc.h)
 author: windows-sdk-content
 description: Queries service-specific information from the Security Configuration file or analysis database.
 old-location: security\pfsce_query_info.htm

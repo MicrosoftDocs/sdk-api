@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetIsServiceAccount
-title: NetIsServiceAccount function
+title: NetIsServiceAccount function (lmaccess.h)
 author: windows-sdk-content
 description: Tests whether the specified standalone managed service account (sMSA) or group managed service account (gMSA) exists in the Netlogon store on the specified server.
 old-location: security\netisserviceaccount.htm

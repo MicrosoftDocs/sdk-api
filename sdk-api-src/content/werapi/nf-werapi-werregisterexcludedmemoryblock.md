@@ -1,6 +1,6 @@
 ---
 UID: NF:werapi.WerRegisterExcludedMemoryBlock
-title: WerRegisterExcludedMemoryBlock function
+title: WerRegisterExcludedMemoryBlock function (werapi.h)
 author: windows-sdk-content
 description: Marks a memory block (that is normally included by default in error reports) to be excluded from the error report.
 old-location: wer\werregisterexcludedmemoryblock.htm

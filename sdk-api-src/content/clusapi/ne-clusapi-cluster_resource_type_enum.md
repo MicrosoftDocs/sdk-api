@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.CLUSTER_RESOURCE_TYPE_ENUM
-title: CLUSTER_RESOURCE_TYPE_ENUM
+title: CLUSTER_RESOURCE_TYPE_ENUM (clusapi.h)
 author: windows-sdk-content
 description: Describes the type of cluster object being enumerated by the ClusterResourceTypeEnum and ClusterResourceTypeOpenEnum functions.
 old-location: mscs\cluster_resource_type_enum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationMultipleViewPattern.get_CurrentCurrentView
-title: IUIAutomationMultipleViewPattern::get_CurrentCurrentView
+title: IUIAutomationMultipleViewPattern::get_CurrentCurrentView (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the control-specific identifier of the current view of the control.
 old-location: winauto\uiauto_IUIAutomationMultipleViewPattern_CurrentCurrentView.htm

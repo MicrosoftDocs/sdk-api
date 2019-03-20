@@ -1,6 +1,6 @@
 ---
 UID: NF:projectedfslib.PrjClearNegativePathCache
-title: PrjClearNegativePathCache function
+title: PrjClearNegativePathCache function (projectedfslib.h)
 author: windows-sdk-content
 description: Purges the virtualization instance's negative path cache, if it is active.
 old-location: projfs\prjclearnegativepathcache.htm

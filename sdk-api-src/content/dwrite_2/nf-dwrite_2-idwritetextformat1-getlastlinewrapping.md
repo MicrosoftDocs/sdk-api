@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteTextFormat1.GetLastLineWrapping
-title: IDWriteTextFormat1::GetLastLineWrapping
+title: IDWriteTextFormat1::GetLastLineWrapping (dwrite_2.h)
 author: windows-sdk-content
 description: Gets the wrapping mode of the last line.
 old-location: directwrite\idwritetextformat1_getlastlinewrapping.htm

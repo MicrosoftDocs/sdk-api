@@ -1,6 +1,6 @@
 ---
 UID: NN:sbe.IStreamBufferSink3
-title: IStreamBufferSink3
+title: IStreamBufferSink3 (sbe.h)
 author: windows-sdk-content
 description: The IStreamBufferSink3 interface is exposed by the Stream Buffer Sink filter.
 old-location: mstv\istreambuffersink3.htm

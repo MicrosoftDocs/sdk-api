@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.AddPolicyReaderName
-title: IAzApplication::AddPolicyReaderName
+title: IAzApplication::AddPolicyReaderName (azroles.h)
 author: windows-sdk-content
 description: Adds the specified account name to the list of principals that act as policy readers.
 old-location: security\iazapplication_addpolicyreadername.htm

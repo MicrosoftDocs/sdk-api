@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IAutomaticUpdates2
-title: IAutomaticUpdates2
+title: IAutomaticUpdates2 (wuapi.h)
 author: windows-sdk-content
 description: Contains the functionality of Automatic Updates.
 old-location: wua\iautomaticupdates2.htm

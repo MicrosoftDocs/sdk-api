@@ -1,6 +1,6 @@
 ---
 UID: NF:infotech.IStemmerConfig.SetLocaleInfo
-title: IStemmerConfig::SetLocaleInfo
+title: IStemmerConfig::SetLocaleInfo (infotech.h)
 author: windows-sdk-content
 description: Sets locale information for the stemmer.
 old-location: htmlhelp\istemmerconfig_setlocaleinfo.htm

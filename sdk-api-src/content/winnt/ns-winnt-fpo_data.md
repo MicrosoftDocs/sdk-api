@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._FPO_DATA
-title: FPO_DATA
+title: FPO_DATA (winnt.h)
 author: windows-sdk-content
 description: Represents the stack frame layout for a function on an x86 computer when frame pointer omission (FPO) optimization is used. The structure is used to locate the base of the call frame.
 old-location: base\fpo_data_str.htm

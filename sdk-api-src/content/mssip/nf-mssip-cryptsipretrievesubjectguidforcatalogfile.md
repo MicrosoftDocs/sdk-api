@@ -1,6 +1,6 @@
 ---
 UID: NF:mssip.CryptSIPRetrieveSubjectGuidForCatalogFile
-title: CryptSIPRetrieveSubjectGuidForCatalogFile function
+title: CryptSIPRetrieveSubjectGuidForCatalogFile function (mssip.h)
 author: windows-sdk-content
 description: Retrieves the subject GUID associated with the specified file.
 old-location: security\cryptsipretrievesubjectguidforcatalogfile.htm

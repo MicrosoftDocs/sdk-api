@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeLib2.DeleteTypeInfo
-title: ICreateTypeLib2::DeleteTypeInfo
+title: ICreateTypeLib2::DeleteTypeInfo (oaidl.h)
 author: windows-sdk-content
 description: Deletes a specified type information from the type library.
 old-location: automat\icreatetypelib2_deletetypeinfo.htm

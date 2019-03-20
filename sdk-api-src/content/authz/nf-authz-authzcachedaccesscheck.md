@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzCachedAccessCheck
-title: AuthzCachedAccessCheck function
+title: AuthzCachedAccessCheck function (authz.h)
 author: windows-sdk-content
 description: Performs a fast access check based on a cached handle containing the static granted bits from a previous AuthzAccessCheck call.
 old-location: security\authzcachedaccesscheck.htm

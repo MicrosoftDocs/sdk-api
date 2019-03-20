@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMedia3.getAttributeCountByType
-title: IWMPMedia3::getAttributeCountByType
+title: IWMPMedia3::getAttributeCountByType (wmp.h)
 author: windows-sdk-content
 description: The getAttributeCountByType method retrieves the number of attributes associated with the specified attribute type.
 old-location: wmp\iwmpmedia3_getattributecountbytype.htm

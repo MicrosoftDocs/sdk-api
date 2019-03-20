@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertFreeCertificateChainEngine
-title: CertFreeCertificateChainEngine function
+title: CertFreeCertificateChainEngine function (wincrypt.h)
 author: windows-sdk-content
 description: The CertFreeCertificateChainEngine function frees a certificate trust engine.
 old-location: security\certfreecertificatechainengine.htm

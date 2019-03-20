@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_CULL_MODE
-title: D3D11_CULL_MODE
+title: D3D11_CULL_MODE (d3d11.h)
 author: windows-sdk-content
 description: Indicates triangles facing a particular direction are not drawn.
 old-location: direct3d11\d3d11_cull_mode.htm

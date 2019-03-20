@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventPublisher.put_PublisherName
-title: IEventPublisher::put_PublisherName
+title: IEventPublisher::put_PublisherName (eventsys.h)
 author: windows-sdk-content
 description: The display name for the event publisher.
 old-location: com\ieventpublisher_publishername.htm

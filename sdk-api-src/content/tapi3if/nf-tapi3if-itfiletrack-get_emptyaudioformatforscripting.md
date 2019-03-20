@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITFileTrack.get_EmptyAudioFormatForScripting
-title: ITFileTrack::get_EmptyAudioFormatForScripting
+title: ITFileTrack::get_EmptyAudioFormatForScripting (tapi3if.h)
 author: windows-sdk-content
 description: The get_EmptyAudioFormatForScripting method is used to get an ITScriptableAudioFormat interface with all fields set to 0.
 old-location: tapi3\itfiletrack_get_emptyaudioformatforscripting.htm

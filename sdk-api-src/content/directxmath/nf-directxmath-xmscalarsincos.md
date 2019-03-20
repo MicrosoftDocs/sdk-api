@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMScalarSinCos
-title: XMScalarSinCos function
+title: XMScalarSinCos function (directxmath.h)
 author: windows-sdk-content
 description: Computes both the sine and cosine of a radian angle.
 old-location: dxmath\xmscalarsincos.htm

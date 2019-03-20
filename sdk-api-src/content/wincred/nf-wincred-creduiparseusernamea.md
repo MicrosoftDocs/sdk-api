@@ -1,6 +1,6 @@
 ---
 UID: NF:wincred.CredUIParseUserNameA
-title: CredUIParseUserNameA function
+title: CredUIParseUserNameA function (wincred.h)
 author: windows-sdk-content
 description: The CredUIParseUserName function extracts the domain and user account name from a fully qualified user name.
 old-location: security\creduiparseusername.htm

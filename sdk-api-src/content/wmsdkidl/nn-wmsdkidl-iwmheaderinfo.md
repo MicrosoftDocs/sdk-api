@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMHeaderInfo
-title: IWMHeaderInfo
+title: IWMHeaderInfo (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMHeaderInfo interface sets and retrieves information in the header section of an ASF file.
 old-location: wmformat\iwmheaderinfo.htm

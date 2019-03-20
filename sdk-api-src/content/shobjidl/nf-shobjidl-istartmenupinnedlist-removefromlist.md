@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IStartMenuPinnedList.RemoveFromList
-title: IStartMenuPinnedList::RemoveFromList
+title: IStartMenuPinnedList::RemoveFromList (shobjidl.h)
 author: windows-sdk-content
 description: Windows Vista:\_Removes an item from the Start menu pinned list, which is the list in the upper left position of the Start menu.
 old-location: shell\IStartMenuPinnedList_RemoveFromList.htm

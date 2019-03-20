@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagTVKEYDOWN
-title: NMTVKEYDOWN
+title: NMTVKEYDOWN (commctrl.h)
 author: windows-sdk-content
 description: Contains information about a keyboard event in a tree-view control. This structure is used with the TVN_KEYDOWN notification code. The structure is identical to the TV_KEYDOWN structure, but it has been renamed to follow current naming conventions.
 old-location: controls\NMTVKEYDOWN.htm

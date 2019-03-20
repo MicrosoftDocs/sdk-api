@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMWriter3.SetProtectStreamSamples
-title: IWMDRMWriter3::SetProtectStreamSamples
+title: IWMDRMWriter3::SetProtectStreamSamples (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetProtectStreamSamples method configures the writer to accept encrypted stream samples. This method is used as part of the process of importing protected content from a third party content protection scheme (CPS) into Windows Media DRM.
 old-location: wmformat\iwmdrmwriter3_setprotectstreamsamples.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IRegisterServiceProvider.RegisterService
-title: IRegisterServiceProvider::RegisterService
+title: IRegisterServiceProvider::RegisterService (strmif.h)
 author: windows-sdk-content
 description: The RegisterService method registers an object as a service.
 old-location: dshow\iregisterserviceprovider_registerservice.htm

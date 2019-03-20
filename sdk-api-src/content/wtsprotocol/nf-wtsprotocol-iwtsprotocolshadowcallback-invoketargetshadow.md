@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolShadowCallback.InvokeTargetShadow
-title: IWTSProtocolShadowCallback::InvokeTargetShadow
+title: IWTSProtocolShadowCallback::InvokeTargetShadow (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolShadowCallback::InvokeTargetShadow is no longer available. Instead, use IWRdsProtocolShadowCallback::InvokeTargetShadow.
 old-location: termserv\iwtsprotocolshadowcallback_invoketargetshadow.htm

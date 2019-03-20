@@ -1,6 +1,6 @@
 ---
 UID: NE:mfobjects._MF_ATTRIBUTE_TYPE
-title: MF_ATTRIBUTE_TYPE
+title: MF_ATTRIBUTE_TYPE (mfobjects.h)
 author: windows-sdk-content
 description: Defines the data type for a key/value pair.
 old-location: mf\mf_attribute_type.htm

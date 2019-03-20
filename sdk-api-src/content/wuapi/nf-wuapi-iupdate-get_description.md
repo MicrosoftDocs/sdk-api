@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_Description
-title: IUpdate::get_Description
+title: IUpdate::get_Description (wuapi.h)
 author: windows-sdk-content
 description: Gets the localized description of the update.
 old-location: wua\iupdate_description.htm

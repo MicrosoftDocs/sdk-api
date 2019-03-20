@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleUndoUnit.GetUnitType
-title: IOleUndoUnit::GetUnitType
+title: IOleUndoUnit::GetUnitType (ocidl.h)
 author: windows-sdk-content
 description: Retrieves the CLSID and a type identifier for the undo unit.
 old-location: com\ioleundounit_getunittype.htm

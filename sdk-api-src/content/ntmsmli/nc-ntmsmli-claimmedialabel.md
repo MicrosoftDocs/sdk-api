@@ -1,6 +1,6 @@
 ---
 UID: NC:ntmsmli.CLAIMMEDIALABEL
-title: CLAIMMEDIALABEL
+title: CLAIMMEDIALABEL (ntmsmli.h)
 author: windows-sdk-content
 description: The ClaimMediaLabel callback function determines whether a specified media label was created by the media's associated application.
 old-location: fs\claimmedialabel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwOpenPorts.Add
-title: INetFwOpenPorts::Add
+title: INetFwOpenPorts::Add (netfw.h)
 author: windows-sdk-content
 description: Opens a new port and adds it to the collection.
 old-location: ics\inetfwopenports_add.htm

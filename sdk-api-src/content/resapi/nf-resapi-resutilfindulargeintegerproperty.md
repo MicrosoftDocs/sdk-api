@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilFindULargeIntegerProperty
-title: ResUtilFindULargeIntegerProperty function
+title: ResUtilFindULargeIntegerProperty function (resapi.h)
 author: windows-sdk-content
 description: Gets a large integer property value from a property list. The PRESUTIL_FIND_ULARGEINTEGER_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilfindulargeintegerproperty.htm

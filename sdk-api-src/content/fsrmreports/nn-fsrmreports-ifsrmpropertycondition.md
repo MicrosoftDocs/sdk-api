@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmreports.IFsrmPropertyCondition
-title: IFsrmPropertyCondition
+title: IFsrmPropertyCondition (fsrmreports.h)
 author: windows-sdk-content
 description: Defines a property condition that the file management job uses to determine if the file is expired.
 old-location: fsrm\ifsrmpropertycondition.htm

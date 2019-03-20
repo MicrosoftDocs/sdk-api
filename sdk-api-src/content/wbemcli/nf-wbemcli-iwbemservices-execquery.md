@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemServices.ExecQuery
-title: IWbemServices::ExecQuery
+title: IWbemServices::ExecQuery (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemServices::ExecQuery method executes a query to retrieve objects.
 old-location: wmi\iwbemservices_execquery.htm

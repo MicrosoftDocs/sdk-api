@@ -1,6 +1,6 @@
 ---
 UID: NF:cryptuiapi.CryptUIWizExport
-title: CryptUIWizExport function
+title: CryptUIWizExport function (cryptuiapi.h)
 author: windows-sdk-content
 description: Exports a certificate, a certificate trust list (CTL), a certificate revocation list (CRL), or a certificate store to a file.
 old-location: security\cryptuiwizexport.htm

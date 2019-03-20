@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.midiStreamOpen
-title: midiStreamOpen function
+title: midiStreamOpen function (mmeapi.h)
 author: windows-sdk-content
 description: The midiStreamOpen function opens a MIDI stream for output. By default, the device is opened in paused mode. The stream handle retrieved by this function must be used in all subsequent references to the stream.
 old-location: multimedia\midistreamopen.htm

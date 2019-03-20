@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_OPERATION_ACK_DELETE_FLAGS
-title: CF_OPERATION_ACK_DELETE_FLAGS
+title: CF_OPERATION_ACK_DELETE_FLAGS (cfapi.h)
 author: windows-sdk-content
 description: Flags to acknowledge the deletion of a placeholder file or directory.
 old-location: cloudapi\cf_operation_ack_delete_flags.htm

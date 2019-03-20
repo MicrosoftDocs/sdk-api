@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.WriteEncryptedFileRaw
-title: WriteEncryptedFileRaw function
+title: WriteEncryptedFileRaw function (winbase.h)
 author: windows-sdk-content
 description: Restores (import) encrypted files.
 old-location: fs\writeencryptedfileraw.htm

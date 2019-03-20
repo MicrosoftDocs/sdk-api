@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfDisplayAttributeInfo.Reset
-title: IEnumTfDisplayAttributeInfo::Reset
+title: IEnumTfDisplayAttributeInfo::Reset (msctf.h)
 author: windows-sdk-content
 description: IEnumTfDisplayAttributeInfo::Reset method
 old-location: tsf\ienumtfdisplayattributeinfo_reset.htm

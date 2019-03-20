@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePage
-title: IXpsOMObjectFactory::CreatePage
+title: IXpsOMObjectFactory::CreatePage (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Creates an IXpsOMPage interface, which provides the root node of a tree of objects that represent the contents of a single page.
 old-location: xps\ixpsomobjectfactory_createpage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.GetClusterNetworkState
-title: GetClusterNetworkState function
+title: GetClusterNetworkState function (clusapi.h)
 author: windows-sdk-content
 description: Current state of a network.
 old-location: mscs\getclusternetworkstate.htm

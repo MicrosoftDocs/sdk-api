@@ -1,6 +1,6 @@
 ---
 UID: NF:mobsync.ISyncMgrEnumItems.Skip
-title: ISyncMgrEnumItems::Skip
+title: ISyncMgrEnumItems::Skip (mobsync.h)
 author: windows-sdk-content
 description: Instructs the enumerator to skip the next celt elements in the enumeration so that the next call to ISyncMgrEnumItems::Next does not return those elements.
 old-location: shell\syncmgr_isyncmgrenumitems_skip.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.CompareStart
-title: ITfRange::CompareStart
+title: ITfRange::CompareStart (msctf.h)
 author: windows-sdk-content
 description: The ITfRange::CompareStart method compares the start anchor position of this range of text to an anchor in another range.
 old-location: tsf\itfrange_comparestart.htm

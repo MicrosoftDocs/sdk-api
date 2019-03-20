@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12CommandQueue.GetTimestampFrequency
-title: ID3D12CommandQueue::GetTimestampFrequency
+title: ID3D12CommandQueue::GetTimestampFrequency (d3d12.h)
 author: windows-sdk-content
 description: This method is used to determine the rate at which the GPU timestamp counter increments.
 old-location: direct3d12\id3d12commandqueue_gettimestampfrequency.htm

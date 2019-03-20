@@ -1,6 +1,6 @@
 ---
 UID: NF:wmprealestate.IWMPRenderConfig.get_inProcOnly
-title: IWMPRenderConfig::get_inProcOnly
+title: IWMPRenderConfig::get_inProcOnly (wmprealestate.h)
 author: windows-sdk-content
 description: The get_inProcOnly method retrieves a value indicating whether playback is restricted to the current process.
 old-location: wmp\iwmprenderconfig_get_inproconly.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi1_6.IDXGIFactory6
-title: IDXGIFactory6
+title: IDXGIFactory6 (dxgi1_6.h)
 author: windows-sdk-content
 description: This interface enables a single method that enumerates graphics adapters based on a given GPU preference.
 old-location: direct3ddxgi\idxgifactory6.htm

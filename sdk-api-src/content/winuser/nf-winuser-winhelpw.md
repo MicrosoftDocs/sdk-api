@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.WinHelpW
-title: WinHelpW function
+title: WinHelpW function (winuser.h)
 author: windows-sdk-content
 description: Launches Windows Help (Winhelp.exe) and passes additional data that indicates the nature of the help requested by the application.
 old-location: shell\WinHelp.htm

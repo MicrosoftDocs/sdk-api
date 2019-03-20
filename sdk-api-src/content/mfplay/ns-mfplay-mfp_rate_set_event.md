@@ -1,6 +1,6 @@
 ---
 UID: NS:mfplay.MFP_RATE_SET_EVENT
-title: MFP_RATE_SET_EVENT
+title: MFP_RATE_SET_EVENT (mfplay.h)
 author: windows-sdk-content
 description: Event structure for the MFP_EVENT_TYPE_RATE_SET event.
 old-location: mf\mfp_rate_set_event.htm

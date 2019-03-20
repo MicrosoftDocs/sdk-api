@@ -1,6 +1,6 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.GetVPDataInfo
-title: IVPBaseConfig::GetVPDataInfo
+title: IVPBaseConfig::GetVPDataInfo (vpconfig.h)
 author: windows-sdk-content
 description: The GetVPDataInfo method retrieves the current video port data information.
 old-location: dshow\ivpbaseconfig_getvpdatainfo.htm

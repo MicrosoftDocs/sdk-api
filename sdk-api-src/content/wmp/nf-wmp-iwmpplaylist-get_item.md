@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlaylist.get_item
-title: IWMPPlaylist::get_item
+title: IWMPPlaylist::get_item (wmp.h)
 author: windows-sdk-content
 description: The get_item method retrieves the media item at the specified index.
 old-location: wmp\iwmpplaylist_get_item.htm

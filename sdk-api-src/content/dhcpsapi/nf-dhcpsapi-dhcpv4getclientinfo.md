@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpV4GetClientInfo
-title: DhcpV4GetClientInfo function
+title: DhcpV4GetClientInfo function (dhcpsapi.h)
 author: windows-sdk-content
 description: Retrieves DHCP client lease record information from the DHCP server database.
 old-location: dhcp\dhcpv4getclientinfo.htm

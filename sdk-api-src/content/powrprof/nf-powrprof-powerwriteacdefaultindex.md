@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerWriteACDefaultIndex
-title: PowerWriteACDefaultIndex function
+title: PowerWriteACDefaultIndex function (powrprof.h)
 author: windows-sdk-content
 description: Sets the default AC index of the specified power setting.
 old-location: base\powerwriteacdefaultindex.htm

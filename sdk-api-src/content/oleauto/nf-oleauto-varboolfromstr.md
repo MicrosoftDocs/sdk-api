@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarBoolFromStr
-title: VarBoolFromStr function
+title: VarBoolFromStr function (oleauto.h)
 author: windows-sdk-content
 description: Converts an OLECHAR string to a Boolean value.
 old-location: automat\varboolfromstr.htm

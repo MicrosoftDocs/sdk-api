@@ -1,6 +1,6 @@
 ---
 UID: NN:qnetwork.IAMNetworkStatus
-title: IAMNetworkStatus
+title: IAMNetworkStatus (qnetwork.h)
 author: windows-sdk-content
 description: The IAMNetworkStatus interface reports the quality of the network connection for the legacy Windows Media Player 6.4 source filter.
 old-location: dshow\iamnetworkstatus.htm

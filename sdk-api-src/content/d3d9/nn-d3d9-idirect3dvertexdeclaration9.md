@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d9.IDirect3DVertexDeclaration9
-title: IDirect3DVertexDeclaration9
+title: IDirect3DVertexDeclaration9 (d3d9.h)
 author: windows-sdk-content
 description: Applications use the methods of the IDirect3DVertexDeclaration9 interface to encapsulate the vertex shader declaration.
 old-location: direct3d9\idirect3dvertexdeclaration9.htm

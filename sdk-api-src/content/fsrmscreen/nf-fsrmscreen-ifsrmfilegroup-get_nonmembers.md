@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroup.get_NonMembers
-title: IFsrmFileGroup::get_NonMembers
+title: IFsrmFileGroup::get_NonMembers (fsrmscreen.h)
 author: windows-sdk-content
 description: Retrieves or sets the filename patterns that determine the files that are excluded from the file group.
 old-location: fsrm\ifsrmfilegroup_nonmembers.htm

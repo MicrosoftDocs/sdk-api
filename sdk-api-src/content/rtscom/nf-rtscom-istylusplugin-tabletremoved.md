@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IStylusPlugin.TabletRemoved
-title: IStylusPlugin::TabletRemoved
+title: IStylusPlugin::TabletRemoved (rtscom.h)
 author: windows-sdk-content
 description: Notifies an implementing plug-in when an ITablet object is removed from the system.
 old-location: tablet\istylusplugin_tabletremoved.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.get_LastError
-title: IFsrmReportJob::get_LastError
+title: IFsrmReportJob::get_LastError (fsrmreports.h)
 author: windows-sdk-content
 description: Retrieves the error message from the last time the reports were run.
 old-location: fsrm\ifsrmreportjob_lasterror.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fdi_fci_types.TCOMPfromLZXWindow
-title: TCOMPfromLZXWindow macro
+title: TCOMPfromLZXWindow macro (fdi_fci_types.h)
 author: windows-sdk-content
 description: The TCOMPfromLZXWindow macro converts window size into an LXZTCOMP value for FCIAddFile.
 old-location: winprog\tcompfromlzxwindow.htm

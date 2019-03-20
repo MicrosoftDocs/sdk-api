@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._PPP_ATCP_INFO
-title: PPP_ATCP_INFO
+title: PPP_ATCP_INFO (mprapi.h)
 author: windows-sdk-content
 description: The PPP_ATCP_INFO structure contains the result of a PPP AppleTalk projection operation.
 old-location: rras\ppp_atcp_info.htm

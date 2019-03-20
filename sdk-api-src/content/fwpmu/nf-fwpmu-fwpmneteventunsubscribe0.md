@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmNetEventUnsubscribe0
-title: FwpmNetEventUnsubscribe0 function
+title: FwpmNetEventUnsubscribe0 function (fwpmu.h)
 author: windows-sdk-content
 description: Is used to cancel a net event subscription and stop receiving notifications.
 old-location: fwp\fwpmneteventunsubscribe0.htm

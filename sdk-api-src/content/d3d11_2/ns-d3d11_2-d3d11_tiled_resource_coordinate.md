@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11_2.D3D11_TILED_RESOURCE_COORDINATE
-title: D3D11_TILED_RESOURCE_COORDINATE
+title: D3D11_TILED_RESOURCE_COORDINATE (d3d11_2.h)
 author: windows-sdk-content
 description: Describes the coordinates of a tiled resource.
 old-location: direct3d11\d3d11_tiled_resource_coordinate.htm

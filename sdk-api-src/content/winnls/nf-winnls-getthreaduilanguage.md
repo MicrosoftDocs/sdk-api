@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.GetThreadUILanguage
-title: GetThreadUILanguage function
+title: GetThreadUILanguage function (winnls.h)
 author: windows-sdk-content
 description: Returns the language identifier of the first user interface language for the current thread.
 old-location: intl\getthreaduilanguage.htm

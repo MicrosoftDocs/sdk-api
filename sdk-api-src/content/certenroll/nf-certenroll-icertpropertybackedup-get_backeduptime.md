@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyBackedUp.get_BackedUpTime
-title: ICertPropertyBackedUp::get_BackedUpTime
+title: ICertPropertyBackedUp::get_BackedUpTime (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the date and time at which the certificate was backed up.
 old-location: security\icertpropertybackedup_backeduptime_property.htm

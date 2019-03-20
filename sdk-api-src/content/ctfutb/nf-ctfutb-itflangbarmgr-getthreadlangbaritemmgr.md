@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.GetThreadLangBarItemMgr
-title: ITfLangBarMgr::GetThreadLangBarItemMgr
+title: ITfLangBarMgr::GetThreadLangBarItemMgr (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarMgr::GetThreadLangBarItemMgr method
 old-location: tsf\itflangbarmgr_getthreadlangbaritemmgr.htm

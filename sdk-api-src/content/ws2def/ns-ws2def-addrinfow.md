@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2def.addrinfoW
-title: ADDRINFOW
+title: ADDRINFOW (ws2def.h)
 author: windows-sdk-content
 description: Used by the GetAddrInfoW function to hold host address information.
 old-location: winsock\addrinfow.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_3.ID3D11DeviceContext4.Wait
-title: ID3D11DeviceContext4::Wait
+title: ID3D11DeviceContext4::Wait (d3d11_3.h)
 author: windows-sdk-content
 description: Waits until the specified fence reaches or exceeds the specified value before future work can begin.
 old-location: direct3d11\id3d11devicecontext4_wait.htm

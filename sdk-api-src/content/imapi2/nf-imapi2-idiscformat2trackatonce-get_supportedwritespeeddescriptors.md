@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_SupportedWriteSpeedDescriptors
-title: IDiscFormat2TrackAtOnce::get_SupportedWriteSpeedDescriptors
+title: IDiscFormat2TrackAtOnce::get_SupportedWriteSpeedDescriptors (imapi2.h)
 author: windows-sdk-content
 description: Retrieves a list of the detailed write configurations supported by the disc recorder and current media.
 old-location: imapi\idiscformat2trackatonce_get_supportedwritespeeddescriptors.htm

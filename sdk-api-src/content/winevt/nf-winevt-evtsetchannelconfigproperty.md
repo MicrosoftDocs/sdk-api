@@ -1,6 +1,6 @@
 ---
 UID: NF:winevt.EvtSetChannelConfigProperty
-title: EvtSetChannelConfigProperty function
+title: EvtSetChannelConfigProperty function (winevt.h)
 author: windows-sdk-content
 description: Sets the specified configuration property of a channel.
 old-location: wes\evtsetchannelconfigproperty.htm

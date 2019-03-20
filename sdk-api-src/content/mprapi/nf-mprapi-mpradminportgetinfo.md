@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminPortGetInfo
-title: MprAdminPortGetInfo function
+title: MprAdminPortGetInfo function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminPortGetInfo function gets information for a specific port.
 old-location: rras\mpradminportgetinfo.htm

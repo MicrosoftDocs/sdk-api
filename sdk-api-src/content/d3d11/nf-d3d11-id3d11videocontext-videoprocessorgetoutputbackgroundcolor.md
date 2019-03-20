@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetOutputBackgroundColor
-title: ID3D11VideoContext::VideoProcessorGetOutputBackgroundColor
+title: ID3D11VideoContext::VideoProcessorGetOutputBackgroundColor (d3d11.h)
 author: windows-sdk-content
 description: Gets the current background color for the video processor.
 old-location: mf\id3d11videocontext_videoprocessorgetoutputbackgroundcolor.htm

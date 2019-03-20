@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFQualityManager.Shutdown
-title: IMFQualityManager::Shutdown
+title: IMFQualityManager::Shutdown (mfidl.h)
 author: windows-sdk-content
 description: Called when the Media Session is shutting down.
 old-location: mf\imfqualitymanager_shutdown.htm

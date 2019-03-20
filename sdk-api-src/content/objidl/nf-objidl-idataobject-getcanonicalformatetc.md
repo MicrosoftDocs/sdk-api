@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IDataObject.GetCanonicalFormatEtc
-title: IDataObject::GetCanonicalFormatEtc
+title: IDataObject::GetCanonicalFormatEtc (objidl.h)
 author: windows-sdk-content
 description: Provides a potentially different but logically equivalent FORMATETC structure. You use this method to determine whether two different FORMATETC structures would return the same data, removing the need for duplicate rendering.
 old-location: com\idataobject_getcanonicalformatetc.htm

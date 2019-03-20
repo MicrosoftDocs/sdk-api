@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPObject.Write
-title: IMDSPObject::Write
+title: IMDSPObject::Write (mswmdm.h)
 author: windows-sdk-content
 description: The Write method writes data to the object at the current position within the object. This operation is valid only if the storage object represents a file.
 old-location: wmdm\imdspobject_write.htm

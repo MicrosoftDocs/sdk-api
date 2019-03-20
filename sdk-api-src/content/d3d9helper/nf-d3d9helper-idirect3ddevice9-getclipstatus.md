@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetClipStatus
-title: IDirect3DDevice9::GetClipStatus
+title: IDirect3DDevice9::GetClipStatus (d3d9helper.h)
 author: windows-sdk-content
 description: Retrieves the clip status.
 old-location: direct3d9\idirect3ddevice9__getclipstatus.htm

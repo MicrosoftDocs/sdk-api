@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHPropStgCreate
-title: SHPropStgCreate function
+title: SHPropStgCreate function (shlobj_core.h)
 author: windows-sdk-content
 description: Ensures proper handling of code page retrieval or assignment for the requested property set operation.
 old-location: properties\SHPropStgCreate.htm

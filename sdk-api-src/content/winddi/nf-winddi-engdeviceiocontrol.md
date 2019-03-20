@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngDeviceIoControl
-title: EngDeviceIoControl function
+title: EngDeviceIoControl function (winddi.h)
 author: windows-sdk-content
 description: The EngDeviceIoControl function sends a control code to the specified video miniport driver, causing the device to perform the specified operation.
 old-location: display\engdeviceiocontrol.htm

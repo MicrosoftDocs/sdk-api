@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IPerPropertyBrowsing
-title: IPerPropertyBrowsing
+title: IPerPropertyBrowsing (ocidl.h)
 author: windows-sdk-content
 description: Retrieves the information in the property pages offered by an object.
 old-location: com\iperpropertybrowsing.htm

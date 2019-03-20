@@ -1,6 +1,6 @@
 ---
 UID: NS:mfapi.tagFaceRectInfoBlobHeader
-title: FaceRectInfoBlobHeader
+title: FaceRectInfoBlobHeader (mfapi.h)
 author: windows-sdk-content
 description: The FaceRectInfoBlobHeader structure describes the size and count information of the blob format for the MF_CAPTURE_METADATA_FACEROIS attribute.
 old-location: stream\facerectinfoblobheader.htm

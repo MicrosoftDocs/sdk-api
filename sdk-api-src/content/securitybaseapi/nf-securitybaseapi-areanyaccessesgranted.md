@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.AreAnyAccessesGranted
-title: AreAnyAccessesGranted function
+title: AreAnyAccessesGranted function (securitybaseapi.h)
 author: windows-sdk-content
 description: Tests whether any of a set of requested access rights has been granted. The access rights are represented as bit flags in an access mask.
 old-location: security\areanyaccessesgranted.htm

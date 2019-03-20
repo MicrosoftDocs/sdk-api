@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.SetOutputMatrix
-title: IXAudio2Voice::SetOutputMatrix
+title: IXAudio2Voice::SetOutputMatrix (xaudio2.h)
 author: windows-sdk-content
 description: Sets the volume level of each channel of the final output for the voice. These channels are mapped to the input channels of a specified destination voice.
 old-location: xaudio2\ixaudio2voice_interface_setoutputmatrix.htm

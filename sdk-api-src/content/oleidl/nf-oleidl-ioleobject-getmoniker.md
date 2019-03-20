@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleObject.GetMoniker
-title: IOleObject::GetMoniker
+title: IOleObject::GetMoniker (oleidl.h)
 author: windows-sdk-content
 description: Retrieves an embedded object's moniker, which the caller can use to link to the object.
 old-location: com\ioleobject_getmoniker.htm

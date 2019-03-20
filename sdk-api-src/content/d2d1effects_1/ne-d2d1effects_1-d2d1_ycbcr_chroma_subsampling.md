@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects_1.D2D1_YCBCR_CHROMA_SUBSAMPLING
-title: D2D1_YCBCR_CHROMA_SUBSAMPLING
+title: D2D1_YCBCR_CHROMA_SUBSAMPLING (d2d1effects_1.h)
 author: windows-sdk-content
 description: Specifies the chroma subsampling of the input chroma image used by the YCbCr effect.
 old-location: direct2d\d2d1_ycbcr_chroma_subsampling.htm

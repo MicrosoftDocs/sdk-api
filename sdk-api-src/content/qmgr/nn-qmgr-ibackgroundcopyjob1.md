@@ -1,6 +1,6 @@
 ---
 UID: NN:qmgr.IBackgroundCopyJob1
-title: IBackgroundCopyJob1
+title: IBackgroundCopyJob1 (qmgr.h)
 author: windows-sdk-content
 description: Use the IBackgroundCopyJob1 interface to add files to the job and retrieve the job's status.
 old-location: bits\ibackgroundcopyjob1.htm

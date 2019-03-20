@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFactory.CreateNumberSubstitution
-title: IDWriteFactory::CreateNumberSubstitution
+title: IDWriteFactory::CreateNumberSubstitution (dwrite.h)
 author: windows-sdk-content
 description: Creates a number substitution object using a locale name, substitution method, and an indicator whether to ignore user overrides (use NLS defaults for the given culture instead).
 old-location: directwrite\IDWriteFactory_CreateNumberSubstitution.htm

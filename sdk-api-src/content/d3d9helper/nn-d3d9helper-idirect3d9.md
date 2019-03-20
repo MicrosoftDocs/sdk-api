@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d9helper.IDirect3D9
-title: IDirect3D9
+title: IDirect3D9 (d3d9helper.h)
 author: windows-sdk-content
 description: Applications use the methods of the IDirect3D9 interface to create Microsoft Direct3D objects and set up the environment. This interface includes methods for enumerating and retrieving capabilities of the device.
 old-location: direct3d9\idirect3d9.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:evcoll._EC_VARIANT
-title: EC_VARIANT
+title: EC_VARIANT (evcoll.h)
 author: windows-sdk-content
 description: Contains event collector data (subscription data) or property values.
 old-location: wec\ec_variant.htm

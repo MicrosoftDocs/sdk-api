@@ -1,6 +1,6 @@
 ---
 UID: NN:activationregistration.IDllServerActivatableClassRegistration
-title: IDllServerActivatableClassRegistration
+title: IDllServerActivatableClassRegistration (activationregistration.h)
 author: windows-sdk-content
 description: Enables getting the registration info for an in-process server.
 old-location: winrt\idllserveractivatableclassregistration.htm

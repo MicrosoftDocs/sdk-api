@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.put_CanAutomaticallyUpgradeService
-title: IUpdateSearcher::put_CanAutomaticallyUpgradeService
+title: IUpdateSearcher::put_CanAutomaticallyUpgradeService (wuapi.h)
 author: windows-sdk-content
 description: Gets and sets a Boolean value that indicates whether future calls to the BeginSearch and Search methods result in an automatic upgrade to Windows Update Agent (WUA).
 old-location: wua\iupdatesearchercanautomaticallyupgradeservice.htm

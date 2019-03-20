@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncMPVQScaleType
-title: eAVEncMPVQScaleType
+title: eAVEncMPVQScaleType (codecapi.h)
 author: windows-sdk-content
 description: Specifies whether the quantizer scale is linear or non-linear. This enumeration is used with the AVEncMPVQScaleType property.
 old-location: dshow\eavencmpvqscaletype.htm

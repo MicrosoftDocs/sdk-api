@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsIdentity.SetFlags
-title: ISettingsIdentity::SetFlags
+title: ISettingsIdentity::SetFlags (wcmconfig.h)
 author: windows-sdk-content
 description: Sets the identity flags for a namespace identity.
 old-location: smi\isettingsidentity_setflags.htm

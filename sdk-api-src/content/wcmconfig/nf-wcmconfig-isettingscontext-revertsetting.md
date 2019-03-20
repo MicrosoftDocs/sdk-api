@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsContext.RevertSetting
-title: ISettingsContext::RevertSetting
+title: ISettingsContext::RevertSetting (wcmconfig.h)
 author: windows-sdk-content
 description: Reverts a setting in the namespace.
 old-location: smi\isettingscontext_revertsetting.htm

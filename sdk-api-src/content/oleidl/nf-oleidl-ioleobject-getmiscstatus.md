@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleObject.GetMiscStatus
-title: IOleObject::GetMiscStatus
+title: IOleObject::GetMiscStatus (oleidl.h)
 author: windows-sdk-content
 description: Retrieves the status of an object at creation and loading.
 old-location: com\ioleobject_getmiscstatus.htm

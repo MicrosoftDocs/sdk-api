@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_GetImageCount
-title: ImageList_GetImageCount function
+title: ImageList_GetImageCount function (commctrl.h)
 author: windows-sdk-content
 description: Retrieves the number of images in an image list.
 old-location: controls\ImageList_GetImageCount.htm

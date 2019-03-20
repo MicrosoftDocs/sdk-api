@@ -1,6 +1,6 @@
 ---
 UID: NC:winnls.UILANGUAGE_ENUMPROCW
-title: UILANGUAGE_ENUMPROCW
+title: UILANGUAGE_ENUMPROCW (winnls.h)
 author: windows-sdk-content
 description: An application-defined callback function that processes enumerated user interface language information provided by the EnumUILanguages function.
 old-location: intl\enumuilanguagesproc.htm

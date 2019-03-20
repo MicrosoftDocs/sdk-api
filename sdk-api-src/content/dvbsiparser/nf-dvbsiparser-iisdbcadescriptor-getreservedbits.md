@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbCADescriptor.GetReservedBits
-title: IIsdbCADescriptor::GetReservedBits
+title: IIsdbCADescriptor::GetReservedBits (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the reserved bits from a conditional access (CA) descriptor.
 old-location: mstv\iisdbcadescriptor_getreservedbits.htm

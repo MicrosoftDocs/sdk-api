@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvPaint
-title: DrvPaint function
+title: DrvPaint function (winddi.h)
 author: windows-sdk-content
 description: The DrvPaint function is obsolete, and is no longer called by GDI in Windows 2000 and later. New drivers should implement one or more of DrvFillPath, DrvStrokePath, or DrvStrokeAndFillPath.
 old-location: display\drvpaint.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.get_DefaultInputArea
-title: ITextInputPanel::get_DefaultInputArea
+title: ITextInputPanel::get_DefaultInputArea (peninputpanel.h)
 author: windows-sdk-content
 description: Gets or sets the default input area as specified by the PanelInputArea Enumeration.
 old-location: tablet\itextinputpanel_defaultinputarea.htm

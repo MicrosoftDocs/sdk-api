@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRangeBackup.Restore
-title: ITfRangeBackup::Restore
+title: ITfRangeBackup::Restore (msctf.h)
 author: windows-sdk-content
 description: ITfRangeBackup::Restore method
 old-location: tsf\itfrangebackup_restore.htm

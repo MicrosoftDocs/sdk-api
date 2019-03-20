@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.CoGetObject
-title: CoGetObject function
+title: CoGetObject function (objbase.h)
 author: windows-sdk-content
 description: Converts a display name into a moniker that identifies the object named, and then binds to the object identified by the moniker.
 old-location: com\cogetobject.htm

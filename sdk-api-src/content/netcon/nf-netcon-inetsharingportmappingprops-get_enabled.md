@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingPortMappingProps.get_Enabled
-title: INetSharingPortMappingProps::get_Enabled
+title: INetSharingPortMappingProps::get_Enabled (netcon.h)
 author: windows-sdk-content
 description: The get_Enabled method retrieves the status for this port mapping.
 old-location: ics\inetsharingportmappingprops_get_enabled.htm

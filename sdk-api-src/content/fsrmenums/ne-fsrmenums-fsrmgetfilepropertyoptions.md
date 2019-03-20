@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmGetFilePropertyOptions
-title: FsrmGetFilePropertyOptions
+title: FsrmGetFilePropertyOptions (fsrmenums.h)
 author: windows-sdk-content
 description: Flags that defines how classification properties associated with a file are retrieved.
 old-location: fsrm\fsrmgetfilepropertyoptions.htm

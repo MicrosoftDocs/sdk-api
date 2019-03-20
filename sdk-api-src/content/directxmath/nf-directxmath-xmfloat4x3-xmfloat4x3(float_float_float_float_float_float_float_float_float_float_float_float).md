@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMFLOAT4X3.XMFLOAT4X3(float,float,float,float,float,float,float,float,float,float,float,float)
-title: XMFLOAT4X3::XMFLOAT4X3(float,float,float,float,float,float,float,float,float,float,float,float)
+title: XMFLOAT4X3::XMFLOAT4X3(float,float,float,float,float,float,float,float,float,float,float,float) (directxmath.h)
 author: windows-sdk-content
 description: Initializes a new instance of the XMFLOAT4X3 structure from twelve scalar float values.
 old-location: dxmath\xmfloat4x3_ctor_2.htm

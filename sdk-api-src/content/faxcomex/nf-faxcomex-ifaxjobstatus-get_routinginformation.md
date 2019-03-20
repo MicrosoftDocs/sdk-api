@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxJobStatus.get_RoutingInformation
-title: IFaxJobStatus::get_RoutingInformation
+title: IFaxJobStatus::get_RoutingInformation (faxcomex.h)
 author: windows-sdk-content
 description: The RoutingInformation property is a null-terminated string that specifies the routing information for the fax job.
 old-location: fax\_mfax_faxjobstatus_cpp_mfax_faxjobstatus_routinginformation_cpp.htm

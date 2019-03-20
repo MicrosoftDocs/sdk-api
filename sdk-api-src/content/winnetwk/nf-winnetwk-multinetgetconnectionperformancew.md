@@ -1,6 +1,6 @@
 ---
 UID: NF:winnetwk.MultinetGetConnectionPerformanceW
-title: MultinetGetConnectionPerformanceW function
+title: MultinetGetConnectionPerformanceW function (winnetwk.h)
 author: windows-sdk-content
 description: Returns information about the expected performance of a connection used to access a network resource.
 old-location: wnet\multinetgetconnectionperformance.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkListManager.GetNetworks
-title: INetworkListManager::GetNetworks
+title: INetworkListManager::GetNetworks (netlistmgr.h)
 author: windows-sdk-content
 description: The GetNetworks method retrieves the list of networks available on the local machine.
 old-location: nla\inetworklistmanager_getnetworks.htm

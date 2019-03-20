@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_21
-title: ISCSI_DEVICE_ON_SESSIONA
+title: ISCSI_DEVICE_ON_SESSIONA (iscsidsc.h)
 author: windows-sdk-content
 description: ISCSI_DEVICE_ON_SESSION structure specifies multiple methods for identifying a device associated with an iSCSI login session.
 old-location: iscsidisc\iscsi_device_on_session.htm

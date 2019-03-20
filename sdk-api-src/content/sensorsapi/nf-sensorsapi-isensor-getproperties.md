@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsapi.ISensor.GetProperties
-title: ISensor::GetProperties
+title: ISensor::GetProperties (sensorsapi.h)
 author: windows-sdk-content
 description: Retrieves multiple sensor properties.
 old-location: winsensors_com_ref\isensor_getproperties.htm

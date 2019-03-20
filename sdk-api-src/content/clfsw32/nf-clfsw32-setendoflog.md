@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.SetEndOfLog
-title: SetEndOfLog function
+title: SetEndOfLog function (clfsw32.h)
 author: windows-sdk-content
 description: This function has been deprecated. Use TruncateLog instead.
 old-location: fs\setendoflog.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.MaskBlt
-title: MaskBlt function
+title: MaskBlt function (wingdi.h)
 author: windows-sdk-content
 description: The MaskBlt function combines the color data for the source and destination bitmaps using the specified mask and raster operation.
 old-location: gdi\maskblt.htm

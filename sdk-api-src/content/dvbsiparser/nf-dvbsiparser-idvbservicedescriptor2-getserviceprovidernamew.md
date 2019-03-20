@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbServiceDescriptor2.GetServiceProviderNameW
-title: IDvbServiceDescriptor2::GetServiceProviderNameW
+title: IDvbServiceDescriptor2::GetServiceProviderNameW (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets a string containing the service provider name from a Digital Video Broadcast (DVB) service descriptor.
 old-location: mstv\idvbservicedescriptor2_getserviceprovidernamew.htm

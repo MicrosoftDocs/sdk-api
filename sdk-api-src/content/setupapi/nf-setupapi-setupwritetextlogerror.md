@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupWriteTextLogError
-title: SetupWriteTextLogError function
+title: SetupWriteTextLogError function (setupapi.h)
 author: windows-sdk-content
 description: The SetupWriteTextLogError function writes information about a SetupAPI-specific error or a Win32 system error to a SetupAPI text log.
 old-location: devinst\setupwritetextlogerror.htm

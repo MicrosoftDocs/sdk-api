@@ -1,6 +1,6 @@
 ---
 UID: NF:propidlbase.IPropertyStorage.SetTimes
-title: IPropertyStorage::SetTimes
+title: IPropertyStorage::SetTimes (propidlbase.h)
 author: windows-sdk-content
 description: The SetTimes method sets the modification, access, and creation times of this property set, if supported by the implementation. Not all implementations support all these time values.
 old-location: stg\ipropertystorage_settimes.htm

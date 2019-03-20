@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiRemovePatchesW
-title: MsiRemovePatchesW function
+title: MsiRemovePatchesW function (msi.h)
 author: windows-sdk-content
 description: Removes one or more patches from a single product.
 old-location: setup\msiremovepatches.htm

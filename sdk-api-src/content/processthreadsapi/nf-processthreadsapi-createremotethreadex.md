@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.CreateRemoteThreadEx
-title: CreateRemoteThreadEx function
+title: CreateRemoteThreadEx function (processthreadsapi.h)
 author: windows-sdk-content
 description: Creates a thread that runs in the virtual address space of another process and optionally specifies extended attributes such as processor group affinity.
 old-location: base\createremotethreadex.htm

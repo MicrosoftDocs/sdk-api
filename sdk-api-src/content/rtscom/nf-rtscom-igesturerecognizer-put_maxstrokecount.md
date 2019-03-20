@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IGestureRecognizer.put_MaxStrokeCount
-title: IGestureRecognizer::put_MaxStrokeCount
+title: IGestureRecognizer::put_MaxStrokeCount (rtscom.h)
 author: windows-sdk-content
 description: Gets or sets the maximum number of strokes allowed per gesture recognition.
 old-location: tablet\igesturerecognizer_maxstrokecount.htm

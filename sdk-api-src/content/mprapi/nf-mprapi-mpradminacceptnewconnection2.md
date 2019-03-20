@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminAcceptNewConnection2
-title: MprAdminAcceptNewConnection2 function
+title: MprAdminAcceptNewConnection2 function (mprapi.h)
 author: windows-sdk-content
 description: Remote Access Service calls the MprAdminAcceptNewConnection2 function each time a new user dials in and successfully completes RAS authentication. MprAdminAcceptNewConnection2 determines whether the user is allowed to connect.
 old-location: rras\mpradminacceptnewconnection2.htm

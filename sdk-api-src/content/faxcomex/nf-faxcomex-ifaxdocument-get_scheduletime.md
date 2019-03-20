@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDocument.get_ScheduleTime
-title: IFaxDocument::get_ScheduleTime
+title: IFaxDocument::get_ScheduleTime (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDocument::get_ScheduleTime property indicates the time to submit the fax for processing to the fax service.
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_scheduletime_cpp.htm

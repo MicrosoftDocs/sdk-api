@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.get_Id
-title: IWdsTransportClient::get_Id
+title: IWdsTransportClient::get_Id (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives a unique client ID that identifies this WDS client on the WDS server.
 old-location: wds\iwdstransportclient_id.htm

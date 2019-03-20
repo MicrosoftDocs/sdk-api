@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IComponent.Notify
-title: IComponent::Notify
+title: IComponent::Notify (mmc.h)
 author: windows-sdk-content
 description: The IComponent::Notify method notifies the snap-in of actions taken by the user.
 old-location: mmc\icomponent_notify.htm

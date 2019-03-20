@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.PostQuitMessage
-title: PostQuitMessage function
+title: PostQuitMessage function (winuser.h)
 author: windows-sdk-content
 description: Indicates to the system that a thread has made a request to terminate (quit). It is typically used in response to a WM_DESTROY message.
 old-location: winmsg\postquitmessage.htm

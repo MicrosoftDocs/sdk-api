@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingDevices.GetDevice
-title: IWindowsMediaLibrarySharingDevices::GetDevice
+title: IWindowsMediaLibrarySharingDevices::GetDevice (wmlss.h)
 author: windows-sdk-content
 description: The GetDevice method retrieves an IWindowsMediaLibrarySharingDevice interface that represents an individual media device.
 old-location: wmlss\IWMLSDevicesGetDevice.htm

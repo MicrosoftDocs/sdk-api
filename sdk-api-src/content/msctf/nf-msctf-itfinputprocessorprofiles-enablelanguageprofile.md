@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.EnableLanguageProfile
-title: ITfInputProcessorProfiles::EnableLanguageProfile
+title: ITfInputProcessorProfiles::EnableLanguageProfile (msctf.h)
 author: windows-sdk-content
 description: ITfInputProcessorProfiles::EnableLanguageProfile method
 old-location: tsf\itfinputprocessorprofiles_enablelanguageprofile.htm

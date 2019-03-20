@@ -1,6 +1,6 @@
 ---
 UID: NS:xapofx.FXREVERB_PARAMETERS
-title: FXREVERB_PARAMETERS
+title: FXREVERB_PARAMETERS (xapofx.h)
 author: windows-sdk-content
 description: Parameters for use with the FXReverb XAPO.
 old-location: xaudio2\fxreverb_parameters.htm

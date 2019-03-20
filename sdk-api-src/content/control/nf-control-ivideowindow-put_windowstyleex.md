@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.put_WindowStyleEx
-title: IVideoWindow::put_WindowStyleEx
+title: IVideoWindow::put_WindowStyleEx (control.h)
 author: windows-sdk-content
 description: The put_WindowStyleEx method sets the extended window styles on the video window.
 old-location: dshow\ivideowindow_put_windowstyleex.htm

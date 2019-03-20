@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.AddClusterNode
-title: AddClusterNode function
+title: AddClusterNode function (clusapi.h)
 author: windows-sdk-content
 description: Adds a node to an existing cluster.
 old-location: mscs\addclusternode.htm

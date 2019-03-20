@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupQueueDeleteSectionA
-title: SetupQueueDeleteSectionA function
+title: SetupQueueDeleteSectionA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupQueueDeleteSection function queues all the files in a section of an INF file for deletion. The section must be in the correct Delete Files format and the INF file must contain a DestinationDirs section.
 old-location: setup\setupqueuedeletesection.htm

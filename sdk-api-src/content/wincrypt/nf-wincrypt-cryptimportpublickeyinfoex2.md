@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptImportPublicKeyInfoEx2
-title: CryptImportPublicKeyInfoEx2 function
+title: CryptImportPublicKeyInfoEx2 function (wincrypt.h)
 author: windows-sdk-content
 description: Imports a public key into the CNG asymmetric provider that corresponds to the public key object identifier (OID) and returns a CNG handle to the key.
 old-location: security\cryptimportpublickeyinfoex2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdef._SINGLE_LIST_ENTRY
-title: SINGLE_LIST_ENTRY
+title: SINGLE_LIST_ENTRY (ntdef.h)
 author: windows-sdk-content
 description: A SINGLE_LIST_ENTRY structure describes an entry in a singly linked list, or serves as the header for such a list.
 old-location: kernel\single_list_entry.htm

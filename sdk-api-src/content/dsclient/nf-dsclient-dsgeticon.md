@@ -1,6 +1,6 @@
 ---
 UID: NF:dsclient.DsGetIcon
-title: DsGetIcon function
+title: DsGetIcon function (dsclient.h)
 author: windows-sdk-content
 description: Obtains the icon for a given object class.
 old-location: ad\dsgeticon.htm

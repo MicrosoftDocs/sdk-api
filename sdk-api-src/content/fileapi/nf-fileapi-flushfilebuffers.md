@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.FlushFileBuffers
-title: FlushFileBuffers function
+title: FlushFileBuffers function (fileapi.h)
 author: windows-sdk-content
 description: Flushes the buffers of a specified file and causes all buffered data to be written to a file.
 old-location: fs\flushfilebuffers.htm

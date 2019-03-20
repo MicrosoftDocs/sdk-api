@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_VOLUME_PLEX_TYPE
-title: VDS_VOLUME_PLEX_TYPE
+title: VDS_VOLUME_PLEX_TYPE (vds.h)
 author: windows-sdk-content
 description: Defines the set of valid types for a volume plex.
 old-location: base\vds_volume_plex_type.htm

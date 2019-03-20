@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IDeviceSpecificProperty.GetValue
-title: IDeviceSpecificProperty::GetValue
+title: IDeviceSpecificProperty::GetValue (devicetopology.h)
 author: windows-sdk-content
 description: The GetValue method gets the current value of the device-specific property.
 old-location: coreaudio\idevicespecificproperty_getvalue.htm

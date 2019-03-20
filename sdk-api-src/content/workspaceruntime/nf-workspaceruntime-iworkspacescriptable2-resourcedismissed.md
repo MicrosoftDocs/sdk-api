@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceScriptable2.ResourceDismissed
-title: IWorkspaceScriptable2::ResourceDismissed
+title: IWorkspaceScriptable2::ResourceDismissed (workspaceruntime.h)
 author: windows-sdk-content
 description: Alerts the user that a resource has been disabled or otherwise dismissed.
 old-location: termserv\iworkspacescriptable2_resourcedismissed.htm

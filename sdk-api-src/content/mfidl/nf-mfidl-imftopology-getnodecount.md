@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTopology.GetNodeCount
-title: IMFTopology::GetNodeCount
+title: IMFTopology::GetNodeCount (mfidl.h)
 author: windows-sdk-content
 description: Gets the number of nodes in the topology.
 old-location: mf\imftopology_getnodecount.htm

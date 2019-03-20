@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMediaCollection2.createQuery
-title: IWMPMediaCollection2::createQuery
+title: IWMPMediaCollection2::createQuery (wmp.h)
 author: windows-sdk-content
 description: The createQuery method retrieves a pointer to an IWMPQuery interface that represents a new query.
 old-location: wmp\iwmpmediacollection2_createquery.htm

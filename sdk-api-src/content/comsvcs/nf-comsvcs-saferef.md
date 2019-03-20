@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.SafeRef
-title: SafeRef function
+title: SafeRef function (comsvcs.h)
 author: windows-sdk-content
 description: SafeRef function
 old-location: cos\saferef.htm

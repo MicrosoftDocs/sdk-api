@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfKeyTraceEventSink
-title: ITfKeyTraceEventSink
+title: ITfKeyTraceEventSink (msctf.h)
 author: windows-sdk-content
 description: The ITfKeyTraceEventSink interface is implemented by an application or text service to receive key stroke event notifications before the event is processed by the target.
 old-location: tsf\itfkeytraceeventsink.htm

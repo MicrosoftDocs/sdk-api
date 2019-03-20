@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetEnd
-title: ITextStoreAnchor::GetEnd
+title: ITextStoreAnchor::GetEnd (textstor.h)
 author: windows-sdk-content
 description: The ITextStoreAnchor::GetEnd method returns an anchor positioned at the end of the text stream.
 old-location: tsf\itextstoreanchor_getend.htm

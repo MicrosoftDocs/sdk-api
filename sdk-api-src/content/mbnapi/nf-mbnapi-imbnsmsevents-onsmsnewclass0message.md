@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsEvents.OnSmsNewClass0Message
-title: IMbnSmsEvents::OnSmsNewClass0Message
+title: IMbnSmsEvents::OnSmsNewClass0Message (mbnapi.h)
 author: windows-sdk-content
 description: Notification method signaling the arrival of a new class 0/flash message.
 old-location: mbn\imbnsmsevents_onsmsnewclass0message.htm

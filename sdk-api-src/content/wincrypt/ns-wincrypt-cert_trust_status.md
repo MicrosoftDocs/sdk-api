@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_TRUST_STATUS
-title: CERT_TRUST_STATUS
+title: CERT_TRUST_STATUS (wincrypt.h)
 author: windows-sdk-content
 description: Contains trust information about a certificate in a certificate chain, summary trust information about a simple chain of certificates, or summary information about an array of simple chains.
 old-location: security\cert_trust_status.htm

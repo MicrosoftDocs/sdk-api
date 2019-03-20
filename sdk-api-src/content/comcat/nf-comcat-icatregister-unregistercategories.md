@@ -1,6 +1,6 @@
 ---
 UID: NF:comcat.ICatRegister.UnRegisterCategories
-title: ICatRegister::UnRegisterCategories
+title: ICatRegister::UnRegisterCategories (comcat.h)
 author: windows-sdk-content
 description: Removes the registration of one or more component categories. Each component category consists of a CATID and a list of locale-dependent description strings.
 old-location: com\icatregister_unregistercategories.htm

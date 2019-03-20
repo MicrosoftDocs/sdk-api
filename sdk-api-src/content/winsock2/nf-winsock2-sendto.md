@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.sendto
-title: sendto function
+title: sendto function (winsock2.h)
 author: windows-sdk-content
 description: The sendto function sends data to a specific destination.
 old-location: winsock\sendto_2.htm

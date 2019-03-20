@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.ISBE2StreamMap.MapStream
-title: ISBE2StreamMap::MapStream
+title: ISBE2StreamMap::MapStream (sbe.h)
 author: windows-sdk-content
 description: Maps a stream to an output pin for a Stream Buffer Source filter.
 old-location: mstv\isbe2streammap_mapstream.htm

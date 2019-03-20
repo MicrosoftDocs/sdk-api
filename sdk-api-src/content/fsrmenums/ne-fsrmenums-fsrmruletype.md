@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmRuleType
-title: FsrmRuleType
+title: FsrmRuleType (fsrmenums.h)
 author: windows-sdk-content
 description: Defines the types of rules that you can define.
 old-location: fsrm\fsrmruletype.htm

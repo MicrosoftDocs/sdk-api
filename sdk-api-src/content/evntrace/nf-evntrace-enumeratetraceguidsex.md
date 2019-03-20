@@ -1,6 +1,6 @@
 ---
 UID: NF:evntrace.EnumerateTraceGuidsEx
-title: EnumerateTraceGuidsEx function
+title: EnumerateTraceGuidsEx function (evntrace.h)
 author: windows-sdk-content
 description: Use this function to retrieve information about trace providers that are registered on the computer.
 old-location: etw\enumeratetraceguidsex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarBoolFromDec
-title: VarBoolFromDec function
+title: VarBoolFromDec function (oleauto.h)
 author: windows-sdk-content
 description: Converts a decimal value to a Boolean value.
 old-location: automat\varboolfromdec.htm

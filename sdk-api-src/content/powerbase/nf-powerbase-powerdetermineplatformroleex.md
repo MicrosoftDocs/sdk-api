@@ -1,6 +1,6 @@
 ---
 UID: NF:powerbase.PowerDeterminePlatformRoleEx
-title: PowerDeterminePlatformRoleEx function
+title: PowerDeterminePlatformRoleEx function (powerbase.h)
 author: windows-sdk-content
 description: Determines the computer role for the specified platform.
 old-location: base\powerdetermineplatformroleex.htm

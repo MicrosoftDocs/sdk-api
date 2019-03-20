@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxShowScrollBar
-title: ITextHost::TxShowScrollBar
+title: ITextHost::TxShowScrollBar (textserv.h)
 author: windows-sdk-content
 description: Shows or hides the scroll bar in the text host window.
 old-location: controls\ITextHost_TxShowScrollBar.htm

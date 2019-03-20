@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMpeg2Demultiplexer.CreateOutputPin
-title: IMpeg2Demultiplexer::CreateOutputPin
+title: IMpeg2Demultiplexer::CreateOutputPin (strmif.h)
 author: windows-sdk-content
 description: The CreateOutputPin method creates a new output pin on the Demux.
 old-location: dshow\impeg2demultiplexer_createoutputpin.htm

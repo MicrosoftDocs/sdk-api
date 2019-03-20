@@ -1,6 +1,6 @@
 ---
 UID: NF:evntrace.QueryTraceW
-title: QueryTraceW function
+title: QueryTraceW function (evntrace.h)
 author: windows-sdk-content
 description: The QueryTrace function retrieves the property settings and session statistics for the specified event tracing session. The ControlTrace function supersedes this function.
 old-location: etw\querytrace.htm

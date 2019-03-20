@@ -1,6 +1,6 @@
 ---
 UID: NE:interactioncontext.CROSS_SLIDE_THRESHOLD
-title: CROSS_SLIDE_THRESHOLD
+title: CROSS_SLIDE_THRESHOLD (interactioncontext.h)
 author: windows-sdk-content
 description: Specifies the cross-slide behavior thresholds.
 old-location: input_intcontext\cross_slide_threshold.htm

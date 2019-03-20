@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUS_MAINTENANCE_MODE_INFO
-title: CLUS_MAINTENANCE_MODE_INFO
+title: CLUS_MAINTENANCE_MODE_INFO (clusapi.h)
 author: windows-sdk-content
 description: Enables or disables maintenance mode on a cluster node.
 old-location: mscs\clus_maintenance_mode_info.htm

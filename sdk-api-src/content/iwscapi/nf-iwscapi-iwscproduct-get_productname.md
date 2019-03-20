@@ -1,6 +1,6 @@
 ---
 UID: NF:iwscapi.IWscProduct.get_ProductName
-title: IWscProduct::get_ProductName
+title: IWscProduct::get_ProductName (iwscapi.h)
 author: windows-sdk-content
 description: Returns the current product information for the security product.
 old-location: winprog\iwscproduct_productname.htm

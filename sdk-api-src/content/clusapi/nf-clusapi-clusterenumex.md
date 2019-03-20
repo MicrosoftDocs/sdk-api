@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterEnumEx
-title: ClusterEnumEx function
+title: ClusterEnumEx function (clusapi.h)
 author: windows-sdk-content
 description: Enumerates the objects in a cluster, and then gets the name and properties of the cluster object.
 old-location: mscs\clusterenumex.htm

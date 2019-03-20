@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shadertracing.ID3D11ShaderTrace.GetInitialRegisterContents
-title: ID3D11ShaderTrace::GetInitialRegisterContents
+title: ID3D11ShaderTrace::GetInitialRegisterContents (d3d11shadertracing.h)
 author: windows-sdk-content
 description: Retrieves the initial contents of the specified input register.
 old-location: direct3d11\id3d11shadertrace_getinitialregistercontents.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognitionResult.get_TopString
-title: IInkRecognitionResult::get_TopString
+title: IInkRecognitionResult::get_TopString (msinkaut.h)
 author: windows-sdk-content
 description: Gets the result text for the TopAlternate property.
 old-location: tablet\iinkrecognitionresult_topstring.htm

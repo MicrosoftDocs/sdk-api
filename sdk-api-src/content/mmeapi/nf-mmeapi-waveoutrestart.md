@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.waveOutRestart
-title: waveOutRestart function
+title: waveOutRestart function (mmeapi.h)
 author: windows-sdk-content
 description: The waveOutRestart function resumes playback on a paused waveform-audio output device.
 old-location: multimedia\waveoutrestart.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IGetCapabilitiesKey
-title: IGetCapabilitiesKey
+title: IGetCapabilitiesKey (strmif.h)
 author: windows-sdk-content
 description: The IGetCapabilitiesKey interface enables an application to retrieve the capabilities of a software or hardware codec from the registry, without creating an instance of the encoder filter.
 old-location: dshow\igetcapabilitieskey.htm

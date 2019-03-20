@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_LNBInfo.get_HighLowSwitchFrequency
-title: IBDA_LNBInfo::get_HighLowSwitchFrequency
+title: IBDA_LNBInfo::get_HighLowSwitchFrequency (bdaiface.h)
 author: windows-sdk-content
 description: The get_HighLowSwitchFrequency method retrieves the frequency of the high-low switch.
 old-location: mstv\ibda_lnbinfo_get_highlowswitchfrequency.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wbemprov.IWbemUnboundObjectSink
-title: IWbemUnboundObjectSink
+title: IWbemUnboundObjectSink (wbemprov.h)
 author: windows-sdk-content
 description: The IWbemUnboundObjectSink interface is implemented by all logical event consumers. It is a simple sink interface that accepts delivery of event objects.
 old-location: wmi\iwbemunboundobjectsink.htm

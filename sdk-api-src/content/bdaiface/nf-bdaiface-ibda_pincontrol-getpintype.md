@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_PinControl.GetPinType
-title: IBDA_PinControl::GetPinType
+title: IBDA_PinControl::GetPinType (bdaiface.h)
 author: windows-sdk-content
 description: The GetPinType method retrieves the type of the pin.
 old-location: mstv\ibda_pincontrol_getpintype.htm

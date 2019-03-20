@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactCollection.Reset
-title: IContactCollection::Reset
+title: IContactCollection::Reset (icontact.h)
 author: windows-sdk-content
 description: Resets the enumerator to before the logical first element.
 old-location: wincontacts\_wincontacts_IContactCollection_Reset.htm

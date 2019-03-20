@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ISurrogate.LoadDllServer
-title: ISurrogate::LoadDllServer
+title: ISurrogate::LoadDllServer (objidl.h)
 author: windows-sdk-content
 description: Loads a DLL server into the implementing surrogate. COM calls this method when there is an activation request for the DLL server's class, if the class is registered as DllSurrogate.
 old-location: com\isurrogate_loaddllserver.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.GetRecordInfoFromGuids
-title: GetRecordInfoFromGuids function
+title: GetRecordInfoFromGuids function (oleauto.h)
 author: windows-sdk-content
 description: Returns a pointer to the IRecordInfo interface for a UDT by passing the GUID of the type information without having to load the type library.
 old-location: automat\getrecordinfofromguids.htm

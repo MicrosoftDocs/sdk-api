@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoder.EndFrame
-title: IDirectXVideoDecoder::EndFrame
+title: IDirectXVideoDecoder::EndFrame (dxva2api.h)
 author: windows-sdk-content
 description: Signals the end of the decoding operation.
 old-location: mf\idirectxvideodecoder_endframe.htm

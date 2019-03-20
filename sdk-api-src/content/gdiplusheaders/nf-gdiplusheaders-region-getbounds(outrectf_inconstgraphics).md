@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.GetBounds(OUT RectF,IN const Graphics)
-title: Region::GetBounds(OUT RectF,IN const Graphics)
+title: Region::GetBounds(OUT RectF,IN const Graphics) (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Region::GetBounds method gets a rectangle that encloses this region.
 old-location: gdiplus\_gdiplus_CLASS_Region_GetBounds_RectF_rect_Graphics_g_.htm

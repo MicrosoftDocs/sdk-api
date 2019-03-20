@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFRemoteDesktopPlugin
-title: IMFRemoteDesktopPlugin
+title: IMFRemoteDesktopPlugin (mfidl.h)
 author: windows-sdk-content
 description: Modifies a topology for use in a Terminal Services environment.
 old-location: mf\imfremotedesktopplugin.htm

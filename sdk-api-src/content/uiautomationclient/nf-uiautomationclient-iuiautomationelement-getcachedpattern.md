@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.GetCachedPattern
-title: IUIAutomationElement::GetCachedPattern
+title: IUIAutomationElement::GetCachedPattern (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves from the cache the IUnknown interface of the specified control pattern of this UI Automation element.
 old-location: winauto\uiauto_IUIAutomationElement_GetCachedPattern.htm

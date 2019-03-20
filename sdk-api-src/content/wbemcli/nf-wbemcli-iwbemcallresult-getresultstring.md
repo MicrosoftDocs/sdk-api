@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemCallResult.GetResultString
-title: IWbemCallResult::GetResultString
+title: IWbemCallResult::GetResultString (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemCallResult::GetResultString method returns the assigned object path of an instance newly created by IWbemServices::PutInstance.
 old-location: wmi\iwbemcallresult_getresultstring.htm

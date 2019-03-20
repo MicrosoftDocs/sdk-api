@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_RefuseUnload
-title: MI_Context_RefuseUnload function
+title: MI_Context_RefuseUnload function (mi.h)
 author: windows-sdk-content
 description: Tells the provider infrastructure not to unload the provider.
 old-location: wmi_v2\mi_context_refuseunload.htm

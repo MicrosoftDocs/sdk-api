@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.GetAllTabletContextIds
-title: IRealTimeStylus::GetAllTabletContextIds
+title: IRealTimeStylus::GetAllTabletContextIds (rtscom.h)
 author: windows-sdk-content
 description: Retrieves an array containing all of the currently active tablet context identifiers.
 old-location: tablet\irealtimestylus_getalltabletcontextids.htm

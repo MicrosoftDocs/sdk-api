@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IVMRImagePresenterConfig
-title: IVMRImagePresenterConfig
+title: IVMRImagePresenterConfig (strmif.h)
 author: windows-sdk-content
 description: The IVMRImagePresenterConfig interface provides methods for setting the renderering preferences on the allocator-presenter used by the Video Mixing Renderer Filter 7 (VMR-7).Applications should not use this interface directly.
 old-location: dshow\ivmrimagepresenterconfig.htm

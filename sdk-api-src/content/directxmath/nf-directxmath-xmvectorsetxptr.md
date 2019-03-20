@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorSetXPtr
-title: XMVectorSetXPtr function
+title: XMVectorSetXPtr function (directxmath.h)
 author: windows-sdk-content
 description: Sets the x component of an XMVECTOR containing floating-point data, with a value contained in an instance of float referred to by a pointer.
 old-location: dxmath\xmvectorsetxptr.htm

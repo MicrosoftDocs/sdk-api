@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IInsertItem.InsertItem
-title: IInsertItem::InsertItem
+title: IInsertItem::InsertItem (shobjidl.h)
 author: windows-sdk-content
 description: Adds an ITEMIDLIST structure to a list of such structures.
 old-location: shell\IInsertitem_InsertItem.htm

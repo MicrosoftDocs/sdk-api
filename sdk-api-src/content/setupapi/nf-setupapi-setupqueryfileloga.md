@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupQueryFileLogA
-title: SetupQueryFileLogA function
+title: SetupQueryFileLogA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupQueryFileLog function returns information from a setup file log.
 old-location: setup\setupqueryfilelog.htm

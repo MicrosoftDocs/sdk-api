@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.IPsecKeyManagerAddAndRegister0
-title: IPsecKeyManagerAddAndRegister0 function
+title: IPsecKeyManagerAddAndRegister0 function (fwpmu.h)
 author: windows-sdk-content
 description: Registers a Trusted Intermediary Agent (TIA) with IPsec.
 old-location: fwp\ipseckeymanageraddandregister0.htm

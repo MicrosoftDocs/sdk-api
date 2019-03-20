@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IPersistTuneXmlUtility2.Serialize
-title: IPersistTuneXmlUtility2::Serialize
+title: IPersistTuneXmlUtility2::Serialize (tuner.h)
 author: windows-sdk-content
 description: Serializes a tuning request to an XML tuning request string.
 old-location: mstv\ipersisttunexmlutility2_serialize.htm

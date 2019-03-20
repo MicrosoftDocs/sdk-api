@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.CLUSTER_MAKE_VERSION
-title: CLUSTER_MAKE_VERSION macro
+title: CLUSTER_MAKE_VERSION macro (clusapi.h)
 author: windows-sdk-content
 description: Creates a Cluster service version number.
 old-location: mscs\cluster_make_version.htm

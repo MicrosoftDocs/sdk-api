@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetIconInfoExW
-title: GetIconInfoExW function
+title: GetIconInfoExW function (winuser.h)
 author: windows-sdk-content
 description: Retrieves information about the specified icon or cursor. GetIconInfoEx extends GetIconInfo by using the newer ICONINFOEX structure.
 old-location: menurc\geticoninfoex.htm

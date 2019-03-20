@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineGetAddressStatus
-title: lineGetAddressStatus function
+title: lineGetAddressStatus function (tapi.h)
 author: windows-sdk-content
 description: The lineGetAddressStatus function allows an application to query the specified address for its current status.
 old-location: tapi2\linegetaddressstatus.htm

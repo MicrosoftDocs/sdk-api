@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.Int8ToUInt8
-title: Int8ToUInt8 function
+title: Int8ToUInt8 function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type INT8 to a value of type UINT8.
 old-location: shell\Int8ToUInt8.htm

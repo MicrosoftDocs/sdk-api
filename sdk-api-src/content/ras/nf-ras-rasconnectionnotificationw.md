@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasConnectionNotificationW
-title: RasConnectionNotificationW function
+title: RasConnectionNotificationW function (ras.h)
 author: windows-sdk-content
 description: The RasConnectionNotification function specifies an event object that the system sets to the signaled state when a RAS connection is created or terminated.
 old-location: rras\rasconnectionnotification.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:cfgmgr32.Mem_Resource_s
-title: MEM_RESOURCE
+title: MEM_RESOURCE (cfgmgr32.h)
 author: windows-sdk-content
 description: The MEM_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes memory usage for a device instance. For more information about resource lists and resource requirements lists, see Hardware Resources.
 old-location: devinst\mem_resource.htm

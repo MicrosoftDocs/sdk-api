@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IDTFilterConfig.GetSecureChannelObject
-title: IDTFilterConfig::GetSecureChannelObject
+title: IDTFilterConfig::GetSecureChannelObject (encdec.h)
 author: windows-sdk-content
 description: The GetSecureChannelObject method retrieves the secure channel object used to decrypt the stream.
 old-location: mstv\idtfilterconfig_getsecurechannelobject.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:dcomp.IDCompositionFilterEffect
-title: IDCompositionFilterEffect
+title: IDCompositionFilterEffect (dcomp.h)
 author: windows-sdk-content
 description: Represents a filter effect.
 old-location: directcomp\idcompositionfiltereffect.htm

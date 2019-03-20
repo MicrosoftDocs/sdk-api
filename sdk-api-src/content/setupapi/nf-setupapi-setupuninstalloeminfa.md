@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupUninstallOEMInfA
-title: SetupUninstallOEMInfA function
+title: SetupUninstallOEMInfA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupUninstallOEMInf function uninstalls a specified .inf file and any associated .pnf file.
 old-location: setup\setupuninstalloeminf.htm

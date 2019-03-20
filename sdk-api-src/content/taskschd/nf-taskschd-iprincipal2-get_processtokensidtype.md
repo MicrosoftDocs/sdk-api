@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IPrincipal2.get_ProcessTokenSidType
-title: IPrincipal2::get_ProcessTokenSidType
+title: IPrincipal2::get_ProcessTokenSidType (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the task process security identifier (SID) type.
 old-location: taskschd\iprincipal2_processtokensidtype.htm

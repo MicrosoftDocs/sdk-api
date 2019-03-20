@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMMatrixScalingFromVector
-title: XMMatrixScalingFromVector function
+title: XMMatrixScalingFromVector function (directxmath.h)
 author: windows-sdk-content
 description: Builds a scaling matrix from a 3D vector.
 old-location: dxmath\xmmatrixscalingfromvector.htm

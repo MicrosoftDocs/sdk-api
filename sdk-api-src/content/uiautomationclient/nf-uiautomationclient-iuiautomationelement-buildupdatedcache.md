@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.BuildUpdatedCache
-title: IUIAutomationElement::BuildUpdatedCache
+title: IUIAutomationElement::BuildUpdatedCache (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a new UI Automation element with an updated cache.
 old-location: winauto\uiauto_IUIAutomationElement_BuildUpdatedCache.htm

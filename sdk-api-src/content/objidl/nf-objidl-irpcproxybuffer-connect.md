@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IRpcProxyBuffer.Connect
-title: IRpcProxyBuffer::Connect
+title: IRpcProxyBuffer::Connect (objidl.h)
 author: windows-sdk-content
 description: Initializes a client proxy, binding it to the specified RPC channel.
 old-location: com\irpcproxybuffer_connect.htm

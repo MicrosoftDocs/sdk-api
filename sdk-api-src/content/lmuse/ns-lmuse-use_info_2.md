@@ -1,6 +1,6 @@
 ---
 UID: NS:lmuse._USE_INFO_2
-title: USE_INFO_2
+title: USE_INFO_2 (lmuse.h)
 author: windows-sdk-content
 description: The USE_INFO_2 structure contains information about a connection between a local computer and a shared resource, including connection type, connection status, user name, and domain name.
 old-location: netmgmt\use_info_2_str.htm

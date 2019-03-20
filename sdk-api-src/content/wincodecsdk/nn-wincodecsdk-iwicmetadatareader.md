@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodecsdk.IWICMetadataReader
-title: IWICMetadataReader
+title: IWICMetadataReader (wincodecsdk.h)
 author: windows-sdk-content
 description: Exposes methods that provide access to underlining metadata content. This interface is implemented by independent software vendors (ISVs) to create new metadata readers.
 old-location: wic\_wic_codec_iwicmetadatareader.htm

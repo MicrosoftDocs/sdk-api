@@ -1,6 +1,6 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingRegisterEx
-title: TraceLoggingRegisterEx function
+title: TraceLoggingRegisterEx function (traceloggingprovider.h)
 author: windows-sdk-content
 description: Registers a TraceLogging provider with callback so that it can be used for to log events.
 old-location: tracelogging\traceloggingregisterex.htm

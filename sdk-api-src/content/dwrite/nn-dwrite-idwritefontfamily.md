@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite.IDWriteFontFamily
-title: IDWriteFontFamily
+title: IDWriteFontFamily (dwrite.h)
 author: windows-sdk-content
 description: Represents a family of related fonts.
 old-location: directwrite\IDWriteFontFamily.htm

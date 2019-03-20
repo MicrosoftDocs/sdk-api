@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IFileSinkFilter
-title: IFileSinkFilter
+title: IFileSinkFilter (strmif.h)
 author: windows-sdk-content
 description: The IFileSinkFilter interface is implemented on filters that write media streams to a file.
 old-location: dshow\ifilesinkfilter.htm

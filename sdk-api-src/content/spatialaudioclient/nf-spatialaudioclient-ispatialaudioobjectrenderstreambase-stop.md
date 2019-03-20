@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectRenderStreamBase.Stop
-title: ISpatialAudioObjectRenderStreamBase::Stop
+title: ISpatialAudioObjectRenderStreamBase::Stop (spatialaudioclient.h)
 author: windows-sdk-content
 description: Stops a running audio stream.
 old-location: coreaudio\ispatialaudioobjectrenderstream_stop.htm

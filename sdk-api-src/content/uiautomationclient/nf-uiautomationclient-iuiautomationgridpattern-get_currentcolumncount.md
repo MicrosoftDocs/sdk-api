@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridPattern.get_CurrentColumnCount
-title: IUIAutomationGridPattern::get_CurrentColumnCount
+title: IUIAutomationGridPattern::get_CurrentColumnCount (uiautomationclient.h)
 author: windows-sdk-content
 description: The number of columns in the grid.
 old-location: winauto\uiauto_IUIAutomationGridPattern_CurrentColumnCount.htm

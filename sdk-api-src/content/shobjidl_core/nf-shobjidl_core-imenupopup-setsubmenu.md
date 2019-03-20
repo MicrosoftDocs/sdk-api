@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IMenuPopup.SetSubMenu
-title: IMenuPopup::SetSubMenu
+title: IMenuPopup::SetSubMenu (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the given menu bar interface to be the submenu of the calling application object's interface.
 old-location: shell\IMenuPopup_SetSubMenu.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterOpenEnum
-title: ClusterOpenEnum function
+title: ClusterOpenEnum function (clusapi.h)
 author: windows-sdk-content
 description: Opens an enumerator for iterating through cluster objects in a cluster.
 old-location: mscs\clusteropenenum.htm

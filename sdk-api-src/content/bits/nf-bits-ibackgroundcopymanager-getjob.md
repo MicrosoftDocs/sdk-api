@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyManager.GetJob
-title: IBackgroundCopyManager::GetJob
+title: IBackgroundCopyManager::GetJob (bits.h)
 author: windows-sdk-content
 description: Retrieves a specified job from the transfer queue. Typically, your application persists the job identifier, so you can later retrieve the job from the queue.
 old-location: bits\ibackgroundcopymanager_getjob.htm

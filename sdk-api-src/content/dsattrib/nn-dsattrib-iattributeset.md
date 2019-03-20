@@ -1,6 +1,6 @@
 ---
 UID: NN:dsattrib.IAttributeSet
-title: IAttributeSet
+title: IAttributeSet (dsattrib.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. The IAttributeSet interface sets key/value pairs on an object, where the key is a GUID and the value is any binary data.
 old-location: mstv\iattributeset.htm

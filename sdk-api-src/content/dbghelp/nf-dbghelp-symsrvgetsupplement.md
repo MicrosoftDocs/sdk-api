@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymSrvGetSupplement
-title: SymSrvGetSupplement function
+title: SymSrvGetSupplement function (dbghelp.h)
 author: windows-sdk-content
 description: Retrieves the specified file from the supplement for a symbol store.
 old-location: base\symsrvgetsupplement.htm

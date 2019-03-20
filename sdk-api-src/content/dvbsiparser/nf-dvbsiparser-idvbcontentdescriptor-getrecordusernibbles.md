@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbContentDescriptor.GetRecordUserNibbles
-title: IDvbContentDescriptor::GetRecordUserNibbles
+title: IDvbContentDescriptor::GetRecordUserNibbles (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the two 4-bit fields that make up a broadcaster-defined identifier for a content descriptor.
 old-location: mstv\idvbcontentdescriptor_getrecordusernibbles.htm

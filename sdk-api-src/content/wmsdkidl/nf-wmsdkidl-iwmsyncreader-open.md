@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.Open
-title: IWMSyncReader::Open
+title: IWMSyncReader::Open (wmsdkidl.h)
 author: windows-sdk-content
 description: The Open method opens a file for reading. Unlike IWMReader::Open, this method is a synchronous call.
 old-location: wmformat\iwmsyncreader_open.htm

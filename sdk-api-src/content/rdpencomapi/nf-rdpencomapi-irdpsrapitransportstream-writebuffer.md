@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStream.WriteBuffer
-title: IRDPSRAPITransportStream::WriteBuffer
+title: IRDPSRAPITransportStream::WriteBuffer (rdpencomapi.h)
 author: windows-sdk-content
 description: Called by the Remote Desktop Protocol (RDP) stack to write the contents of a stream buffer to the network.
 old-location: rdp\irdpsrapitransportstream_writebuffer.htm

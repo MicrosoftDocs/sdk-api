@@ -1,6 +1,6 @@
 ---
 UID: NE:objbase.tagCOMSD
-title: COMSD
+title: COMSD (objbase.h)
 author: windows-sdk-content
 description: Determines the type of COM security descriptor to get when calling CoGetSystemSecurityPermissions.
 old-location: com\comsd.htm

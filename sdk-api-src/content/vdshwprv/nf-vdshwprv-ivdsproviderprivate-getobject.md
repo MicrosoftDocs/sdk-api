@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsProviderPrivate.GetObject
-title: IVdsProviderPrivate::GetObject
+title: IVdsProviderPrivate::GetObject (vdshwprv.h)
 author: windows-sdk-content
 description: Returns the specified object.
 old-location: base\ivdsproviderprivate_getobject.htm

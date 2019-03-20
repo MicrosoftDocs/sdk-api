@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.SetVideoPosition
-title: IMFVideoDisplayControl::SetVideoPosition
+title: IMFVideoDisplayControl::SetVideoPosition (evr.h)
 author: windows-sdk-content
 description: Sets the source and destination rectangles for the video.
 old-location: mf\imfvideodisplaycontrol_setvideoposition.htm

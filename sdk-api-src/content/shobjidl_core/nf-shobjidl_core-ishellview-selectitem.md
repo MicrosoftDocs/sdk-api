@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellView.SelectItem
-title: IShellView::SelectItem
+title: IShellView::SelectItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Changes the selection state of one or more items within the Shell view window.
 old-location: shell\IShellView_SelectItem.htm

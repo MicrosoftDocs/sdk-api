@@ -1,6 +1,6 @@
 ---
 UID: NS:xapo.XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS
-title: XAPO_LOCKFORPROCESS_PARAMETERS
+title: XAPO_LOCKFORPROCESS_PARAMETERS (xapo.h)
 author: windows-sdk-content
 description: Defines stream buffer parameters that remain constant while an XAPO is locked. Used with the IXAPO::LockForProcess method.
 old-location: xaudio2\xapo_lockforprocess_buffer_parameters.htm

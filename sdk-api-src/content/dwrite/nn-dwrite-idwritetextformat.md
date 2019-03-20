@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite.IDWriteTextFormat
-title: IDWriteTextFormat
+title: IDWriteTextFormat (dwrite.h)
 author: windows-sdk-content
 description: The IDWriteTextFormat interface describes the font and paragraph properties used to format text, and it describes locale information.
 old-location: directwrite\IDWriteTextFormat.htm

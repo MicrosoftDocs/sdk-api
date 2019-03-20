@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IDvbLogicalChannel2Descriptor
-title: IDvbLogicalChannel2Descriptor
+title: IDvbLogicalChannel2Descriptor (dvbsiparser.h)
 author: windows-sdk-content
 description: Implements methods that get data from a logical channel descriptor (LCD) in a Digital Video Broadcast (DVB) MPEG-2 stream that uses the format defined in the Nordig specification used in Scandinavian countries.
 old-location: mstv\idvblogicalchannel2descriptor.htm

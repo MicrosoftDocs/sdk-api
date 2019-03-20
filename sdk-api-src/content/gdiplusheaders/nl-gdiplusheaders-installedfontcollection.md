@@ -1,6 +1,6 @@
 ---
 UID: NL:gdiplusheaders.InstalledFontCollection
-title: InstalledFontCollection
+title: InstalledFontCollection (gdiplusheaders.h)
 author: windows-sdk-content
 description: The InstalledFontCollection class defines a class that represents the fonts installed on the system.
 old-location: gdiplus\_gdiplus_CLASS_InstalledFontCollection_Class.htm

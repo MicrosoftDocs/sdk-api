@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_CHECK_VERIFY
-title: IOCTL_STORAGE_CHECK_VERIFY
+title: IOCTL_STORAGE_CHECK_VERIFY (winioctl.h)
 author: windows-sdk-content
 description: Determines whether media are accessible for a device.
 old-location: base\ioctl_storage_check_verify.htm

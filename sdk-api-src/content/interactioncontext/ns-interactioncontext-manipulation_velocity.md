@@ -1,6 +1,6 @@
 ---
 UID: NS:interactioncontext.MANIPULATION_VELOCITY
-title: MANIPULATION_VELOCITY
+title: MANIPULATION_VELOCITY (interactioncontext.h)
 author: windows-sdk-content
 description: Defines the velocity data of a manipulation.
 old-location: input_intcontext\manipulation_velocity.htm

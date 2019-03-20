@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut.IInkRecognitionResult
-title: IInkRecognitionResult
+title: IInkRecognitionResult (msinkaut.h)
 author: windows-sdk-content
 description: Represents the result of the recognition. The results of recognizing handwritten ink are returned in an IInkRecognitionResult object.
 old-location: tablet\iinkrecognitionresult.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsDrive.SetStatus
-title: IVdsDrive::SetStatus
+title: IVdsDrive::SetStatus (vds.h)
 author: windows-sdk-content
 description: Sets the status of the drive to the specified value.
 old-location: base\ivdsdrive_setstatus.htm

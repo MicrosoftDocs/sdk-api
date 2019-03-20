@@ -1,6 +1,6 @@
 ---
 UID: NE:comsvcs.tagCSC_TrackerConfig
-title: CSC_TrackerConfig
+title: CSC_TrackerConfig (comsvcs.h)
 author: windows-sdk-content
 description: Indicates whether the tracker property is added to the context in which the enclosed code runs.
 old-location: cos\csc_trackerconfig.htm

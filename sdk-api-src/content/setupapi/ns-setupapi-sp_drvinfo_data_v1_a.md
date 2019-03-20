@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._SP_DRVINFO_DATA_V1_A
-title: SP_DRVINFO_DATA_V1_A
+title: SP_DRVINFO_DATA_V1_A (setupapi.h)
 author: windows-sdk-content
 description: An SP_DRVINFO_DATA structure contains information about a driver. This structure is a member of a driver information list that can be associated with a particular device instance or globally with a device information set.
 old-location: devinst\sp_drvinfo_data.htm

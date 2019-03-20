@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_FromDate
-title: IFsrmFileManagementJob::get_FromDate
+title: IFsrmFileManagementJob::get_FromDate (fsrmreports.h)
 author: windows-sdk-content
 description: The date from which you want the file management job to begin expiring files (moving files to the expired files directory). This property also applies to custom commands for the file management job.
 old-location: fsrm\ifsrmfilemanagementjob_fromdate.htm

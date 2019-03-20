@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMResource
-title: IXpsOMResource
+title: IXpsOMResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Used as the base interface for the resource interfaces of the XPS object model.
 old-location: xps\ixpsomresource.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptuiapi._CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT
-title: CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT
+title: CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT (cryptuiapi.h)
 author: windows-sdk-content
 description: Used with the CryptUIWizDigitalSign function to contain information about a BLOB.
 old-location: security\cryptui_wiz_digital_sign_context.htm

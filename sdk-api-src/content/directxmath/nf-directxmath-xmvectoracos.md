@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorACos
-title: XMVectorACos function
+title: XMVectorACos function (directxmath.h)
 author: windows-sdk-content
 description: Computes the arccosine of each component of an XMVECTOR.
 old-location: dxmath\xmvectoracos.htm

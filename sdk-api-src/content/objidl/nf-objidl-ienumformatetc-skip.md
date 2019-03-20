@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IEnumFORMATETC.Skip
-title: IEnumFORMATETC::Skip
+title: IEnumFORMATETC::Skip (objidl.h)
 author: windows-sdk-content
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: com\ienumformatetc_skip.htm

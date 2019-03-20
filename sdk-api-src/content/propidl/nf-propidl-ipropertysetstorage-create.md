@@ -1,6 +1,6 @@
 ---
 UID: NF:propidl.IPropertySetStorage.Create
-title: IPropertySetStorage::Create
+title: IPropertySetStorage::Create (propidl.h)
 author: windows-sdk-content
 description: Creates and opens a new property set in the property set storage object.
 old-location: stg\ipropertysetstorage_create.htm

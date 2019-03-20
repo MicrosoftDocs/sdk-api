@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.GetInterpolationColors
-title: LinearGradientBrush::GetInterpolationColors
+title: LinearGradientBrush::GetInterpolationColors (gdiplusbrush.h)
 author: windows-sdk-content
 description: The LinearGradientBrush::GetInterpolationColors method gets the colors currently set to be interpolated for this linear gradient brush and their corresponding blend positions.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_GetInterpolationColors_presetColors_blendPositions_count_.htm

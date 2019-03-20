@@ -1,6 +1,6 @@
 ---
 UID: NL:vswriter.IVssComponent
-title: IVssComponent
+title: IVssComponent (vswriter.h)
 author: windows-sdk-content
 description: The IVssComponent interface is a C++ (not COM) interface containing methods for examining and modifying information about components contained in a requester's Backup Components Document.
 old-location: base\ivsscomponent.htm

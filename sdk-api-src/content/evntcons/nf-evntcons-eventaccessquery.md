@@ -1,6 +1,6 @@
 ---
 UID: NF:evntcons.EventAccessQuery
-title: EventAccessQuery function
+title: EventAccessQuery function (evntcons.h)
 author: windows-sdk-content
 description: Retrieves the permissions for the specified controller or provider.
 old-location: etw\eventaccessquery_func.htm

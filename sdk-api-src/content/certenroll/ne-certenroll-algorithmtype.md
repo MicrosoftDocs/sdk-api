@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.AlgorithmType
-title: AlgorithmType
+title: AlgorithmType (certenroll.h)
 author: windows-sdk-content
 description: Specifies the intended purpose of a cryptographic algorithm supported by a cryptographic provider.
 old-location: security\algorithmtype_enum.htm

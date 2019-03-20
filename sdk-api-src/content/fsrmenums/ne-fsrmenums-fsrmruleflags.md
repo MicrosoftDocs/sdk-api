@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmRuleFlags
-title: FsrmRuleFlags
+title: FsrmRuleFlags (fsrmenums.h)
 author: windows-sdk-content
 description: Defines the possible states of a rule.
 old-location: fsrm\fsrmruleflags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureRecordSink.SetRotation
-title: IMFCaptureRecordSink::SetRotation
+title: IMFCaptureRecordSink::SetRotation (mfcaptureengine.h)
 author: windows-sdk-content
 description: Rotates the recorded video stream.
 old-location: mf\imfcapturerecordsink_setrotation.htm

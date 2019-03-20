@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardEndTransaction
-title: SCardEndTransaction function
+title: SCardEndTransaction function (winscard.h)
 author: windows-sdk-content
 description: Completes a previously declared transaction, allowing other applications to resume interactions with the card.
 old-location: security\scardendtransaction.htm

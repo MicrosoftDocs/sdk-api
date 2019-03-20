@@ -1,6 +1,6 @@
 ---
 UID: NF:hrtfapoapi.CreateHrtfApo
-title: CreateHrtfApo function
+title: CreateHrtfApo function (hrtfapoapi.h)
 author: windows-sdk-content
 description: Creates an instance of the IXAPO interface for head-related transfer function (HRTF) processing.
 old-location: xaudio2\createhrtfapo.htm

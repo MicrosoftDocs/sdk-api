@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcMgmtEpEltInqBegin
-title: RpcMgmtEpEltInqBegin function
+title: RpcMgmtEpEltInqBegin function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcMgmtEpEltInqBegin function creates an inquiry context for viewing the elements in an endpoint map.
 old-location: rpc\rpcmgmtepeltinqbegin.htm

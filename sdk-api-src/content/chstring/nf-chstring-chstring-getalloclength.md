@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.GetAllocLength
-title: CHString::GetAllocLength
+title: CHString::GetAllocLength (chstring.h)
 author: windows-sdk-content
 description: The GetAllocLength method returns the size of the allocated string buffer.
 old-location: wmi\chstring_getalloclength.htm

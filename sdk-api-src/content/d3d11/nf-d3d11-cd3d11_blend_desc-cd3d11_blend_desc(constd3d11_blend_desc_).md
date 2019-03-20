@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.CD3D11_BLEND_DESC.CD3D11_BLEND_DESC(const D3D11_BLEND_DESC &)
-title: CD3D11_BLEND_DESC::CD3D11_BLEND_DESC(const D3D11_BLEND_DESC &)
+title: CD3D11_BLEND_DESC::CD3D11_BLEND_DESC(const D3D11_BLEND_DESC &) (d3d11.h)
 author: windows-sdk-content
 description: Instantiates a new instance of a CD3D11_BLEND_DESC structure that is initialized with default blend-state values.
 old-location: direct3d11\cd3d11_blend_desc_cd3d11_blend_desc_cd3d11_default_.htm

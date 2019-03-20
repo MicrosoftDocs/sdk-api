@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssWMComponent.FreeComponentInfo
-title: IVssWMComponent::FreeComponentInfo
+title: IVssWMComponent::FreeComponentInfo (vsbackup.h)
 author: windows-sdk-content
 description: The FreeComponentInfo method deallocates system resources devoted to the specified component information.
 old-location: base\ivsswmcomponent_freecomponentinfo.htm

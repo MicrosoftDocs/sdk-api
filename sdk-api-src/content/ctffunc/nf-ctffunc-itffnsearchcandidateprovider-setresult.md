@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnSearchCandidateProvider.SetResult
-title: ITfFnSearchCandidateProvider::SetResult
+title: ITfFnSearchCandidateProvider::SetResult (ctffunc.h)
 author: windows-sdk-content
 description: Provides a text Service or IME with history data when a candidate is chosen by the user.
 old-location: tsf\itffnsearchcandidateprovider_setresult.htm

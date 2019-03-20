@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbGlobalStore.QueryTarget
-title: ITsSbGlobalStore::QueryTarget
+title: ITsSbGlobalStore::QueryTarget (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves the ITsSbTarget object for the given parameters.
 old-location: termserv\itssbglobalstore_querytarget.htm

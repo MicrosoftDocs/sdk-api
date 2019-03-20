@@ -1,6 +1,6 @@
 ---
 UID: NE:propsys.PROPDESC_AGGREGATION_TYPE
-title: PROPDESC_AGGREGATION_TYPE
+title: PROPDESC_AGGREGATION_TYPE (propsys.h)
 author: windows-sdk-content
 description: Describes how property values are displayed when multiple items are selected.
 old-location: properties\PROPDESC_AGGREGATION_TYPE.htm

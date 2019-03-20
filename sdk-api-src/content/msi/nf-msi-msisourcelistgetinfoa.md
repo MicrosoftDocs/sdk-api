@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiSourceListGetInfoA
-title: MsiSourceListGetInfoA function
+title: MsiSourceListGetInfoA function (msi.h)
 author: windows-sdk-content
 description: The MsiSourceListGetInfo function retrieves information about the source list for a product or patch in a specific context.
 old-location: setup\msisourcelistgetinfo.htm

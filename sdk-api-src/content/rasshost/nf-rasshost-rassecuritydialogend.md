@@ -1,6 +1,6 @@
 ---
 UID: NF:rasshost.RasSecurityDialogEnd
-title: RasSecurityDialogEnd function
+title: RasSecurityDialogEnd function (rasshost.h)
 author: windows-sdk-content
 description: The RasSecurityDialogEnd function is a third-party RAS security DLL entry point that the RAS server calls to terminate an authentication transaction.
 old-location: rras\rassecuritydialogend.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingArchive.get_HighQuotaWaterMark
-title: IFaxIncomingArchive::get_HighQuotaWaterMark
+title: IFaxIncomingArchive::get_HighQuotaWaterMark (faxcomex.h)
 author: windows-sdk-content
 description: The HighQuotaWaterMark property is a value that specifies the upper warning threshold for the size of the archive of inbound fax messages, in megabytes.
 old-location: fax\_mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_highquotawatermark_cpp.htm

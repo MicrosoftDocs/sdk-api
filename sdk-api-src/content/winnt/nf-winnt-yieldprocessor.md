@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.YieldProcessor
-title: YieldProcessor function
+title: YieldProcessor function (winnt.h)
 author: windows-sdk-content
 description: Signals to the processor to give resources to threads that are waiting for them.
 old-location: base\yieldprocessor.htm

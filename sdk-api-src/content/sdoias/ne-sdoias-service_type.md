@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._SERVICE_TYPE
-title: SERVICE_TYPE
+title: SERVICE_TYPE (sdoias.h)
 author: windows-sdk-content
 description: The values of the SERVICE_TYPE enumeration type specify the type of service administered from the SDO API.
 old-location: nps\SDO_service_type.htm

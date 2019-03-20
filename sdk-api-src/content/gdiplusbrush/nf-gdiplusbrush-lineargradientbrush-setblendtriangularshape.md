@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.SetBlendTriangularShape
-title: LinearGradientBrush::SetBlendTriangularShape
+title: LinearGradientBrush::SetBlendTriangularShape (gdiplusbrush.h)
 author: windows-sdk-content
 description: The LinearGradientBrush::SetBlendTriangularShape method sets the blend shape of this linear gradient brush to create a custom blend based on a triangular shape.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_SetBlendTriangularShape_focus_scale_.htm

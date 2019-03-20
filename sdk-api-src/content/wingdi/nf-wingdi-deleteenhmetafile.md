@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.DeleteEnhMetaFile
-title: DeleteEnhMetaFile function
+title: DeleteEnhMetaFile function (wingdi.h)
 author: windows-sdk-content
 description: The DeleteEnhMetaFile function deletes an enhanced-format metafile or an enhanced-format metafile handle.
 old-location: gdi\deleteenhmetafile.htm

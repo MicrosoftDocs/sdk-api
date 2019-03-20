@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DQuery9.Issue
-title: IDirect3DQuery9::Issue
+title: IDirect3DQuery9::Issue (d3d9helper.h)
 author: windows-sdk-content
 description: Issue a query.
 old-location: direct3d9\idirect3dquery9__issue.htm

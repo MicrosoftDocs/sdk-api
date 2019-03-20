@@ -1,6 +1,6 @@
 ---
 UID: NS:coml2api.tagSTGOPTIONS
-title: STGOPTIONS
+title: STGOPTIONS (coml2api.h)
 author: windows-sdk-content
 description: Specifies features of the storage object, such as sector size, in the StgCreateStorageEx and StgOpenStorageEx functions.
 old-location: stg\stgoptions.htm

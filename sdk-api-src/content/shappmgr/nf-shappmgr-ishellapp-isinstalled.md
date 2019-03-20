@@ -1,6 +1,6 @@
 ---
 UID: NF:shappmgr.IShellApp.IsInstalled
-title: IShellApp::IsInstalled
+title: IShellApp::IsInstalled (shappmgr.h)
 author: windows-sdk-content
 description: Gets a value indicating whether a specified application is currently installed.
 old-location: shell\IShellApp_IsInstalled.htm

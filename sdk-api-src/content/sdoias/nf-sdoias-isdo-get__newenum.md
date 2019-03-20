@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdo.get__NewEnum
-title: ISdo::get__NewEnum
+title: ISdo::get__NewEnum (sdoias.h)
 author: windows-sdk-content
 description: The get__NewEnum method retrieves an IEnumVARIANT interface for the Server Data Objects (SDO) properties.
 old-location: nps\SDO_isdo_get__newenum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:evalcom2.IValidate.OpenDatabase
-title: IValidate::OpenDatabase
+title: IValidate::OpenDatabase (evalcom2.h)
 author: windows-sdk-content
 description: The OpenDatabase method opens a Windows Installer installation package or merge module for validation.
 old-location: setup\ivalidate_opendatabase.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.IEnumCall
-title: IEnumCall
+title: IEnumCall (tapi3if.h)
 author: windows-sdk-content
 description: The IEnumCall interface provides COM-standard enumeration methods for the ITCallInfo interface. The ITCallHub::EnumerateCalls and ITAddress::EnumerateCalls methods return a pointer to IEnumCall.
 old-location: tapi3\ienumcall.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core._tagCOMPONENTSOPT
-title: COMPONENTSOPT
+title: COMPONENTSOPT (shlobj_core.h)
 author: windows-sdk-content
 description: Contains the desktop item options.
 old-location: shell\COMPONENTSOPT.htm

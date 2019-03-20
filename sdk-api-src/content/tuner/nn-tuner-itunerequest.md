@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.ITuneRequest
-title: ITuneRequest
+title: ITuneRequest (tuner.h)
 author: windows-sdk-content
 description: The ITuneRequest interface is the base interface for all tune requests.
 old-location: mstv\itunerequest.htm

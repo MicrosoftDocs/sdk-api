@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorSum
-title: XMVectorSum function
+title: XMVectorSum function (directxmath.h)
 author: windows-sdk-content
 description: Computes the horizontal sum of the components of an XMVECTOR. The horizontal sum is the result of adding each component in the vector together.
 old-location: dxmath\xmvectorsum.htm

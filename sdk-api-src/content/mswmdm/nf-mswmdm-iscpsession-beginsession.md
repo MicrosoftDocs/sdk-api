@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.ISCPSession.BeginSession
-title: ISCPSession::BeginSession
+title: ISCPSession::BeginSession (mswmdm.h)
 author: windows-sdk-content
 description: The BeginSession method indicates beginning of a transfer session. It can be used to optimize operations that need to occur only once per transfer session.
 old-location: wmdm\iscpsession_beginsession.htm

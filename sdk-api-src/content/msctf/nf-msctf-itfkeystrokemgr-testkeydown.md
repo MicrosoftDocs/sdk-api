@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.TestKeyDown
-title: ITfKeystrokeMgr::TestKeyDown
+title: ITfKeystrokeMgr::TestKeyDown (msctf.h)
 author: windows-sdk-content
 description: ITfKeystrokeMgr::TestKeyDown method
 old-location: tsf\itfkeystrokemgr_testkeydown.htm

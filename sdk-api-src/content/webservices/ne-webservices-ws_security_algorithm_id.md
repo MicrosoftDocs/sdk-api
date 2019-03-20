@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_59
-title: WS_SECURITY_ALGORITHM_ID
+title: WS_SECURITY_ALGORITHM_ID (webservices.h)
 author: windows-sdk-content
 description: Defines the security algorithms to be used with WS-Security. These values are relevant to message security bindings and mixed-mode security bindings.
 old-location: wsw\ws_security_algorithm_id.htm

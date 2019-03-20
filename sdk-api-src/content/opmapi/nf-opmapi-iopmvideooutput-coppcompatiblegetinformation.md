@@ -1,6 +1,6 @@
 ---
 UID: NF:opmapi.IOPMVideoOutput.COPPCompatibleGetInformation
-title: IOPMVideoOutput::COPPCompatibleGetInformation
+title: IOPMVideoOutput::COPPCompatibleGetInformation (opmapi.h)
 author: windows-sdk-content
 description: Sends an Output Protection Manager (OPM) status request to the display driver. Use this method when OPM is emulating Certified Output Protection Manager (COPP).
 old-location: mf\iopmvideooutput_iopmvideooutput__coppcompatiblegetinformation.htm

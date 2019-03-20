@@ -1,6 +1,6 @@
 ---
 UID: NN:objectarray.IObjectArray
-title: IObjectArray
+title: IObjectArray (objectarray.h)
 author: windows-sdk-content
 description: Exposes methods that enable clients to access items in a collection of objects that support IUnknown.
 old-location: shell\IObjectArray.htm

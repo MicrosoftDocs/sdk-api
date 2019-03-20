@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathRemoveFileSpecW
-title: PathRemoveFileSpecW function
+title: PathRemoveFileSpecW function (shlwapi.h)
 author: windows-sdk-content
 description: Removes the trailing file name and backslash from a path, if they are present.
 old-location: shell\PathRemoveFileSpec.htm

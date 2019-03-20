@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.RegisterClipboardFormatW
-title: RegisterClipboardFormatW function
+title: RegisterClipboardFormatW function (winuser.h)
 author: windows-sdk-content
 description: Registers a new clipboard format. This format can then be used as a valid clipboard format.
 old-location: dataxchg\registerclipboardformat.htm

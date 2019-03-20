@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._SECURITY_LOGON_SESSION_DATA
-title: SECURITY_LOGON_SESSION_DATA
+title: SECURITY_LOGON_SESSION_DATA (ntsecapi.h)
 author: windows-sdk-content
 description: Contains information about a logon session.
 old-location: security\security_logon_session_data.htm

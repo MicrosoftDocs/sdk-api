@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.get_SelAlignment
-title: IInkEdit::get_SelAlignment
+title: IInkEdit::get_SelAlignment (inked.h)
 author: windows-sdk-content
 description: Gets or sets a value that controls the alignment of the paragraphs in an InkEdit control.
 old-location: tablet\inkedit_selalignment.htm

@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddkbd.IOCTL_KEYBOARD_QUERY_ATTRIBUTES
-title: IOCTL_KEYBOARD_QUERY_ATTRIBUTES
+title: IOCTL_KEYBOARD_QUERY_ATTRIBUTES (ntddkbd.h)
 author: windows-sdk-content
 description: The IOCTL_KEYBOARD_QUERY_ATTRIBUTES request returns information about the keyboard attributes.
 old-location: hid\ioctl_keyboard_query_attributes2.htm

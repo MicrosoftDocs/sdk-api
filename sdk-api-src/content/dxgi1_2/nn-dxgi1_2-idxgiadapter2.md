@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi1_2.IDXGIAdapter2
-title: IDXGIAdapter2
+title: IDXGIAdapter2 (dxgi1_2.h)
 author: windows-sdk-content
 description: The IDXGIAdapter2 interface represents a display subsystem, which includes one or more GPUs, DACs, and video memory.
 old-location: direct3ddxgi\idxgiadapter2.htm

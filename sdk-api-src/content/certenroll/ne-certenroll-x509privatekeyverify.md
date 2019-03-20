@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.X509PrivateKeyVerify
-title: X509PrivateKeyVerify
+title: X509PrivateKeyVerify (certenroll.h)
 author: windows-sdk-content
 description: Specifies whether a user interface is displayed during private key verification and whether verification can proceed if the cryptographic provider is a smart card provider.
 old-location: security\x509privatekeyverify.htm

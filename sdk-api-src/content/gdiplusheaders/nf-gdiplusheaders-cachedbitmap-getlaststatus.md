@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.CachedBitmap.GetLastStatus
-title: CachedBitmap::GetLastStatus
+title: CachedBitmap::GetLastStatus (gdiplusheaders.h)
 author: windows-sdk-content
 description: The CachedBitmap::GetLastStatus method returns a value that indicates whether this CachedBitmap object was constructed successfully.
 old-location: gdiplus\_gdiplus_CLASS_CachedBitmap_GetLastStatus_.htm

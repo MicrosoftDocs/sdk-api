@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextView.GetTextExt
-title: ITfContextView::GetTextExt
+title: ITfContextView::GetTextExt (msctf.h)
 author: windows-sdk-content
 description: The ITfContextView::GetTextExt method returns the bounding box, in screen coordinates, of a range of text.
 old-location: tsf\itfcontextview_gettextext.htm

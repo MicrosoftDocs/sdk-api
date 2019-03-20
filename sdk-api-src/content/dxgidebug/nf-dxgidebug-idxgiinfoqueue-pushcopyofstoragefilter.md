@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PushCopyOfStorageFilter
-title: IDXGIInfoQueue::PushCopyOfStorageFilter
+title: IDXGIInfoQueue::PushCopyOfStorageFilter (dxgidebug.h)
 author: windows-sdk-content
 description: Pushes a copy of the storage filter that is currently on the top of the storage-filter stack onto the storage-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_pushcopyofstoragefilter.htm

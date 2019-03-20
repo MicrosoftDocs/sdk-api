@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._CSV_IS_OWNED_BY_CSVFS
-title: CSV_IS_OWNED_BY_CSVFS
+title: CSV_IS_OWNED_BY_CSVFS (winioctl.h)
 author: windows-sdk-content
 description: Contains the output for the FSCTL_IS_VOLUME_OWNED_BYCSVFS control code that determines whether a volume is owned by CSVFS.
 old-location: fs\csv_is_owned_by_csvfs.htm

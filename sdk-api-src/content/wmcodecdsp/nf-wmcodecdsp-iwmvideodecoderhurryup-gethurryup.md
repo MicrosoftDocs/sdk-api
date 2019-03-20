@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IWMVideoDecoderHurryup.GetHurryup
-title: IWMVideoDecoderHurryup::GetHurryup
+title: IWMVideoDecoderHurryup::GetHurryup (wmcodecdsp.h)
 author: windows-sdk-content
 description: Retrieves the current speed mode of the video decoder.
 old-location: mf\iwmvideodecoderhurryupgethurryup.htm

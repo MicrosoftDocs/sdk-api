@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegQueryValueA
-title: RegQueryValueA function
+title: RegQueryValueA function (winreg.h)
 author: windows-sdk-content
 description: Retrieves the data associated with the default or unnamed value of a specified registry key. The data must be a null-terminated string.
 old-location: base\regqueryvalue.htm

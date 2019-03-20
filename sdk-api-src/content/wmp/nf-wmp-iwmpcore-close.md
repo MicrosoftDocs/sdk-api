@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCore.close
-title: IWMPCore::close
+title: IWMPCore::close (wmp.h)
 author: windows-sdk-content
 description: The close method releases Windows Media Player resources.
 old-location: wmp\iwmpcore_close.htm

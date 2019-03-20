@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFSeekInfo
-title: IMFSeekInfo
+title: IMFSeekInfo (mfidl.h)
 author: windows-sdk-content
 description: For a particular seek position, gets the two nearest key frames.
 old-location: mf\imfseekinfo.htm

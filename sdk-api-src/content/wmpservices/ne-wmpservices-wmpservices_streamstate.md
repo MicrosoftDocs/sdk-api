@@ -1,6 +1,6 @@
 ---
 UID: NE:wmpservices.WMPServices_StreamState
-title: WMPServices_StreamState
+title: WMPServices_StreamState (wmpservices.h)
 author: windows-sdk-content
 description: The WMPServices_StreamState enumeration indicates whether the stream is currently stopped, paused, or playing.
 old-location: wmp\wmpservices_streamstate.htm

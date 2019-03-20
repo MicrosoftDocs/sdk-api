@@ -1,6 +1,6 @@
 ---
 UID: NF:wiavideo.IWiaVideo.DestroyVideo
-title: IWiaVideo::DestroyVideo
+title: IWiaVideo::DestroyVideo (wiavideo.h)
 author: windows-sdk-content
 description: The IWiaVideo::DestroyVideo method shuts down the streaming video. To restart video playback, the application must call one of the IWiaVideo CreateVideo methods again.
 old-location: wia\_wia_IWiaVideo_DestroyVideo.htm

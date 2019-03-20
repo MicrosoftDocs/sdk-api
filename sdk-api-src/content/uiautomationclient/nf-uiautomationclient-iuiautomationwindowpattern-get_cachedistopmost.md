@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CachedIsTopmost
-title: IUIAutomationWindowPattern::get_CachedIsTopmost
+title: IUIAutomationWindowPattern::get_CachedIsTopmost (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached value that indicates whether the window is the topmost element in the z-order.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CachedIsTopmost.htm

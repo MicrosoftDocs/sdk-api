@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetDlgItemInt
-title: SetDlgItemInt function
+title: SetDlgItemInt function (winuser.h)
 author: windows-sdk-content
 description: Sets the text of a control in a dialog box to the string representation of a specified integer value.
 old-location: dlgbox\setdlgitemint.htm

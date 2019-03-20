@@ -1,6 +1,6 @@
 ---
 UID: NS:xaudio2fx.XAUDIO2FX_REVERB_I3DL2_PARAMETERS
-title: XAUDIO2FX_REVERB_I3DL2_PARAMETERS
+title: XAUDIO2FX_REVERB_I3DL2_PARAMETERS (xaudio2fx.h)
 author: windows-sdk-content
 description: Describes I3DL2 (Interactive 3D Audio Rendering Guidelines Level 2.0) parameters for use in the ReverbConvertI3DL2ToNative function.
 old-location: xaudio2\xaudio2fx_reverb_i3dl2_parameters.htm

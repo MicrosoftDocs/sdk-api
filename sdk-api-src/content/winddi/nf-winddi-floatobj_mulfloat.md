@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.FLOATOBJ_MulFloat
-title: FLOATOBJ_MulFloat function
+title: FLOATOBJ_MulFloat function (winddi.h)
 author: windows-sdk-content
 description: The FLOATOBJ_MulFloat function multiplies the FLOATOBJ by the value of type FLOATL, and returns with the result in the first parameter.
 old-location: display\floatobj_mulfloat.htm

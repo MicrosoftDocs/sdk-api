@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsListSitesW
-title: DsListSitesW function
+title: DsListSitesW function (ntdsapi.h)
 author: windows-sdk-content
 description: Lists all the sites in the enterprise forest.
 old-location: ad\dslistsites.htm

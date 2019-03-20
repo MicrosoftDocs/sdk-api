@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2def.sockaddr_in
-title: SOCKADDR_IN
+title: SOCKADDR_IN (ws2def.h)
 author: windows-sdk-content
 description: The SOCKADDR_IN structure specifies a transport address and port for the AF_INET address family.
 old-location: netvista\sockaddr_in.htm

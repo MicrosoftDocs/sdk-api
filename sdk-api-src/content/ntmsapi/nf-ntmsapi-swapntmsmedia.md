@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.SwapNtmsMedia
-title: SwapNtmsMedia function
+title: SwapNtmsMedia function (ntmsapi.h)
 author: windows-sdk-content
 description: The SwapNtmsMedia function swaps the sides associated with the two specified LMIDs. The specified LMIDs must be in the same media pool.
 old-location: fs\swapntmsmedia.htm

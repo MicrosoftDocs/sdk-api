@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_MAPMEMORYDATA
-title: DD_MAPMEMORYDATA
+title: DD_MAPMEMORYDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_MAPMEMORYDATA structure contains the information necessary to map or unmap a frame buffer into user-mode memory.
 old-location: display\dd_mapmemorydata.htm

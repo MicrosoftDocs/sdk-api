@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetTopIndex
-title: ListView_GetTopIndex macro
+title: ListView_GetTopIndex macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the index of the topmost visible item when in list or report view. You can use this macro or send the LVM_GETTOPINDEX message explicitly.
 old-location: controls\ListView_GetTopIndex.htm

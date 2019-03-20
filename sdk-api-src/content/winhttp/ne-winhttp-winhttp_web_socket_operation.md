@@ -1,6 +1,6 @@
 ---
 UID: NE:winhttp._WINHTTP_WEB_SOCKET_OPERATION
-title: WINHTTP_WEB_SOCKET_OPERATION
+title: WINHTTP_WEB_SOCKET_OPERATION (winhttp.h)
 author: windows-sdk-content
 description: The WINHTTP_WEB_SOCKET_OPERATION enumeration includes the WebSocket operation type.
 old-location: http\winhttp_web_socket_operation.htm

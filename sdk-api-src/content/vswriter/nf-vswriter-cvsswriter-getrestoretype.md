@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.GetRestoreType
-title: CVssWriter::GetRestoreType
+title: CVssWriter::GetRestoreType (vswriter.h)
 author: windows-sdk-content
 description: The GetRestoreType method returns the type of restore a writer is participating in.
 old-location: base\cvsswriter_getrestoretype.htm

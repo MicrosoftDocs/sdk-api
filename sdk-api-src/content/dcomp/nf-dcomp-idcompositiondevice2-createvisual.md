@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDevice2.CreateVisual
-title: IDCompositionDevice2::CreateVisual
+title: IDCompositionDevice2::CreateVisual (dcomp.h)
 author: windows-sdk-content
 description: Creates a new visual object.
 old-location: directcomp\idcompositiondevice2_createvisual.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsAdmin.UnregisterProvider
-title: IVdsAdmin::UnregisterProvider
+title: IVdsAdmin::UnregisterProvider (vdshwprv.h)
 author: windows-sdk-content
 description: Removes VDS provider registration data. Hardware providers call this method.
 old-location: base\ivdsadmin_unregisterprovider.htm

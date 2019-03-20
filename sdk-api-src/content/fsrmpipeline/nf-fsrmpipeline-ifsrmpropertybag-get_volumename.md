@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_VolumeName
-title: IFsrmPropertyBag::get_VolumeName
+title: IFsrmPropertyBag::get_VolumeName (fsrmpipeline.h)
 author: windows-sdk-content
 description: The name of the volume on which the file exists.
 old-location: fsrm\ifsrmpropertybag_volumename.htm

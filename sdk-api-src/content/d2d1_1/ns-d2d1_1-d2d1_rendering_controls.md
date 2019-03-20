@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1_1.D2D1_RENDERING_CONTROLS
-title: D2D1_RENDERING_CONTROLS
+title: D2D1_RENDERING_CONTROLS (d2d1_1.h)
 author: windows-sdk-content
 description: Describes limitations to be applied to an imaging effect renderer.
 old-location: direct2d\d2d1_rendering_controls.htm

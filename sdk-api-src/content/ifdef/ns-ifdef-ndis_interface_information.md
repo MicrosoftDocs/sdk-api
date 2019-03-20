@@ -1,6 +1,6 @@
 ---
 UID: NS:ifdef._NDIS_INTERFACE_INFORMATION
-title: NDIS_INTERFACE_INFORMATION
+title: NDIS_INTERFACE_INFORMATION (ifdef.h)
 author: windows-sdk-content
 description: The NDIS_INTERFACE_INFORMATION structure provides information about a network interface for the OID_GEN_INTERFACE_INFO OID.
 old-location: netvista\ndis_interface_information_str.htm

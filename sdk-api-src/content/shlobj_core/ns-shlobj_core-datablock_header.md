@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core.tagDATABLOCKHEADER
-title: DATABLOCK_HEADER
+title: DATABLOCK_HEADER (shlobj_core.h)
 author: windows-sdk-content
 description: Serves as the header for some of the extra data structures used by IShellLinkDataList.
 old-location: shell\DATABLOCK_HEADER_str.htm

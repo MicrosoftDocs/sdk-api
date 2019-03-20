@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_Services
-title: IUPnPDevice::get_Services
+title: IUPnPDevice::get_Services (upnp.h)
 author: windows-sdk-content
 description: The Services property specifies the list of services provided by the device.
 old-location: upnp\iupnpdevice_services.htm

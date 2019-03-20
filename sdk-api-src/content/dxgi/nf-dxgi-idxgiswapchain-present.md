@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGISwapChain.Present
-title: IDXGISwapChain::Present
+title: IDXGISwapChain::Present (dxgi.h)
 author: windows-sdk-content
 description: Presents a rendered image to the user.
 old-location: direct3ddxgi\idxgiswapchain_present.htm

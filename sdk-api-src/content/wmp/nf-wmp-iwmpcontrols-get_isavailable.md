@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPControls.get_isAvailable
-title: IWMPControls::get_isAvailable
+title: IWMPControls::get_isAvailable (wmp.h)
 author: windows-sdk-content
 description: The get_isAvailable method indicates whether a specified type of information is available or a specified action can be performed.
 old-location: wmp\iwmpcontrols_get_isavailable.htm

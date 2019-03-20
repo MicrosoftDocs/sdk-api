@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.IEnumCERTVIEWROW.Next
-title: IEnumCERTVIEWROW::Next
+title: IEnumCERTVIEWROW::Next (certview.h)
 author: windows-sdk-content
 description: Moves to the next row in the row-enumeration sequence.
 old-location: security\ienumcertviewrow_next.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.Terminate
-title: IWSDDeviceHost::Terminate
+title: IWSDDeviceHost::Terminate (wsdhost.h)
 author: windows-sdk-content
 description: Terminates the host and releases any attached services.
 old-location: ncd\iwsddevicehost_terminate.htm

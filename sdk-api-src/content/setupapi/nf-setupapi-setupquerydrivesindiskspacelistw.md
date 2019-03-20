@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupQueryDrivesInDiskSpaceListW
-title: SetupQueryDrivesInDiskSpaceListW function
+title: SetupQueryDrivesInDiskSpaceListW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupQueryDrivesInDiskSpaceList function fills a buffer with a list of the drives referenced by the file operations listed in the disk-space list.
 old-location: setup\setupquerydrivesindiskspacelist.htm

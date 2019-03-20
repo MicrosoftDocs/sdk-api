@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.GetState
-title: IXAudio2SourceVoice::GetState
+title: IXAudio2SourceVoice::GetState (xaudio2.h)
 author: windows-sdk-content
 description: Returns the voice's current cursor position data.
 old-location: xaudio2\ixaudio2sourcevoice_interface_getstate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGetNextItem
-title: PeerGetNextItem function
+title: PeerGetNextItem function (p2p.h)
 author: windows-sdk-content
 description: The PeerGetNextItem function returns a specific number of items from a peer enumeration.
 old-location: p2p\peergetnextitem.htm

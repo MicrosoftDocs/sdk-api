@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataBlockWriter.RemoveWriterByIndex
-title: IWICMetadataBlockWriter::RemoveWriterByIndex
+title: IWICMetadataBlockWriter::RemoveWriterByIndex (wincodecsdk.h)
 author: windows-sdk-content
 description: Removes the metadata writer from the specified index location.
 old-location: wic\_wic_codec_iwicmetadatablockwriter_removewriterbyindex.htm

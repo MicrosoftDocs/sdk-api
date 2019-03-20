@@ -1,6 +1,6 @@
 ---
 UID: NL:gdiplusmetaheader.MetafileHeader
-title: MetafileHeader
+title: MetafileHeader (gdiplusmetaheader.h)
 author: windows-sdk-content
 description: A MetafileHeader object stores properties of an associated metafile.
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_Class.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msacm.acmStreamUnprepareHeader
-title: acmStreamUnprepareHeader function
+title: acmStreamUnprepareHeader function (msacm.h)
 author: windows-sdk-content
 description: The acmStreamUnprepareHeader function cleans up the preparation performed by the acmStreamPrepareHeader function for an ACM stream.
 old-location: multimedia\acmstreamunprepareheader.htm

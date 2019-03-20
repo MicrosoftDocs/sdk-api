@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_DATA_PROVIDER
-title: CRYPT_XML_DATA_PROVIDER
+title: CRYPT_XML_DATA_PROVIDER (cryptxml.h)
 author: windows-sdk-content
 description: Specifies the interface to the XML data provider.
 old-location: security\crypt_xml_data_provider.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleCache.SetData
-title: IOleCache::SetData
+title: IOleCache::SetData (oleidl.h)
 author: windows-sdk-content
 description: Initializes the cache with data in a specified format and on a specified medium.
 old-location: com\iolecache_setdata.htm

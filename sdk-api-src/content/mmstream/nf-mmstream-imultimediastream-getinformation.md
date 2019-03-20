@@ -1,6 +1,6 @@
 ---
 UID: NF:mmstream.IMultiMediaStream.GetInformation
-title: IMultiMediaStream::GetInformation
+title: IMultiMediaStream::GetInformation (mmstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The GetInformation method retrieves the capabilities of the multimedia stream object.
 old-location: dshow\imultimediastream_getinformation.htm

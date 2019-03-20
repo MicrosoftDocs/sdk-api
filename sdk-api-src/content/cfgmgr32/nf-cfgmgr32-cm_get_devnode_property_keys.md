@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_DevNode_Property_Keys
-title: CM_Get_DevNode_Property_Keys function
+title: CM_Get_DevNode_Property_Keys function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Get_DevNode_Property_Keys function retrieves an array of the device property keys that represent the device properties that are set for a device instance.
 old-location: devinst\cm_get_devnode_property_keys.htm

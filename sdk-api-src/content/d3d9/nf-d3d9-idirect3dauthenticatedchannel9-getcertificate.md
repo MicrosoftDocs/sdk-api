@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DAuthenticatedChannel9.GetCertificate
-title: IDirect3DAuthenticatedChannel9::GetCertificate
+title: IDirect3DAuthenticatedChannel9::GetCertificate (d3d9.h)
 author: windows-sdk-content
 description: Gets the driver's certificate chain.
 old-location: mf\idirect3dauthenticatedchannel9_getcertificate.htm

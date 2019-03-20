@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.GetCellMargin
-title: ITextRow::GetCellMargin
+title: ITextRow::GetCellMargin (tom.h)
 author: windows-sdk-content
 description: Gets the cell margin of this row.
 old-location: controls\itextrow_getcellmargin.htm

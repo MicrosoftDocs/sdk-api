@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.ISynchronizeContainer.WaitMultiple
-title: ISynchronizeContainer::WaitMultiple
+title: ISynchronizeContainer::WaitMultiple (objidlbase.h)
 author: windows-sdk-content
 description: Waits for any synchronization object in the container to be signaled or for a specified timeout period to elapse, whichever comes first.
 old-location: com\isynchronizecontainer_waitmultiple.htm

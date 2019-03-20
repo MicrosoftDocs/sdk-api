@@ -1,6 +1,6 @@
 ---
 UID: NF:imm.ImmGetProperty
-title: ImmGetProperty function
+title: ImmGetProperty function (imm.h)
 author: windows-sdk-content
 description: Retrieves the property and capabilities of the IME associated with the specified input locale.
 old-location: intl\immgetproperty.htm

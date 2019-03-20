@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITFileTerminalEvent.get_Track
-title: ITFileTerminalEvent::get_Track
+title: ITFileTerminalEvent::get_Track (tapi3if.h)
 author: windows-sdk-content
 description: The get_Track method returns the track terminal that generated this event.
 old-location: tapi3\itfileterminalevent_get_track.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_NetworkProvider.GetNetworkType
-title: IBDA_NetworkProvider::GetNetworkType
+title: IBDA_NetworkProvider::GetNetworkType (bdaiface.h)
 author: windows-sdk-content
 description: The GetNetworkType method retrieves the network type.
 old-location: mstv\ibda_networkprovider_getnetworktype.htm

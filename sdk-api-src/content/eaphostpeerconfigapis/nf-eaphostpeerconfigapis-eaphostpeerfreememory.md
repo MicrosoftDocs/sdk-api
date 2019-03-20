@@ -1,6 +1,6 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerFreeMemory
-title: EapHostPeerFreeMemory function
+title: EapHostPeerFreeMemory function (eaphostpeerconfigapis.h)
 author: windows-sdk-content
 description: Frees memory returned by the configuration APIs.
 old-location: eaphost\eaphostpeerfreememory.htm

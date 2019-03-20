@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventClass2.get_FireInParallel
-title: IEventClass2::get_FireInParallel
+title: IEventClass2::get_FireInParallel (eventsys.h)
 author: windows-sdk-content
 description: Indicates whether events of this class can be fired in parallel.
 old-location: cos\ieventclass2_fireinparallel.htm

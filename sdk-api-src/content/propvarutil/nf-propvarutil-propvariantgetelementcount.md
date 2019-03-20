@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantGetElementCount
-title: PropVariantGetElementCount function
+title: PropVariantGetElementCount function (propvarutil.h)
 author: windows-sdk-content
 description: Retrieves the element count of a PROPVARIANT structure.
 old-location: properties\PropVariantGetElementCount.htm

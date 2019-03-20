@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.QueryTextMetrics
-title: IFont::QueryTextMetrics
+title: IFont::QueryTextMetrics (ocidl.h)
 author: windows-sdk-content
 description: Fills a caller-allocated structure with information about the font.
 old-location: com\ifont_querytextmetrics.htm

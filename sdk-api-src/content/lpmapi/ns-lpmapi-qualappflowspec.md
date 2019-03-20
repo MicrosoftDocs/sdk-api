@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_22
-title: QualAppFlowSpec
+title: QualAppFlowSpec (lpmapi.h)
 author: windows-sdk-content
 description: The QualAppFlowSpec structure contains FLOWSPEC information for a qualitative application.
 old-location: qos\qualappflowspec.htm

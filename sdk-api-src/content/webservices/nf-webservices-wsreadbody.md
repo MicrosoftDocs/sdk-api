@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsReadBody
-title: WsReadBody function
+title: WsReadBody function (webservices.h)
 author: windows-sdk-content
 description: This is a helper function that deserializes a value from the XML Readerof the message. The WS_MESSAGE_STATE must be set to WS_MESSAGE_STATE_READING. This function does not cause any state transitions.
 old-location: wsw\wsreadbody.htm

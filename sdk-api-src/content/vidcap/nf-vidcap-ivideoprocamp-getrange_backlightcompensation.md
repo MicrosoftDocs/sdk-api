@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_BacklightCompensation
-title: IVideoProcAmp::getRange_BacklightCompensation
+title: IVideoProcAmp::getRange_BacklightCompensation (vidcap.h)
 author: windows-sdk-content
 description: The getRange_BacklightCompensation method returns the range of backlight compensation settings supported by the camera.
 old-location: dshow\ivideoprocamp_getrange_backlightcompensation.htm

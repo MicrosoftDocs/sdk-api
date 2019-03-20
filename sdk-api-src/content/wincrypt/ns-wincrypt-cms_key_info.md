@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMS_KEY_INFO
-title: CMS_KEY_INFO
+title: CMS_KEY_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Not used.
 old-location: security\cms_key_info.htm

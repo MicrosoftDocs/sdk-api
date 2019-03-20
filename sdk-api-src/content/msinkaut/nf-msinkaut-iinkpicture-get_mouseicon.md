@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkPicture.get_MouseIcon
-title: IInkPicture::get_MouseIcon
+title: IInkPicture::get_MouseIcon (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the custom mouse icon.
 old-location: tablet\inkpicture_mouseicon.htm

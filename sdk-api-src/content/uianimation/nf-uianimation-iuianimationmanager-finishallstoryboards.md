@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.FinishAllStoryboards
-title: IUIAnimationManager::FinishAllStoryboards
+title: IUIAnimationManager::FinishAllStoryboards (uianimation.h)
 author: windows-sdk-content
 description: Finishes all active storyboards within the specified time interval.
 old-location: uianimation\iuianimationmanager_finishallstoryboards.htm

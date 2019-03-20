@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingImportNext
-title: RpcNsBindingImportNext function
+title: RpcNsBindingImportNext function (rpcnsi.h)
 author: windows-sdk-content
 description: The RpcNsBindingImportNext function looks up an interface (and optionally an object from a name-service database) and returns a binding handle of a compatible server, if found.
 old-location: rpc\rpcnsbindingimportnext.htm

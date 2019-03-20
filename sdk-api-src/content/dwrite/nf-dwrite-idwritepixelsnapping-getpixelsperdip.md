@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWritePixelSnapping.GetPixelsPerDip
-title: IDWritePixelSnapping::GetPixelsPerDip
+title: IDWritePixelSnapping::GetPixelsPerDip (dwrite.h)
 author: windows-sdk-content
 description: Gets the number of physical pixels per DIP.
 old-location: directwrite\IDWritePixelSnapping_GetPixelsPerDip.htm

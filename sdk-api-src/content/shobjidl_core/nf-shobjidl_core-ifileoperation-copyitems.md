@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.CopyItems
-title: IFileOperation::CopyItems
+title: IFileOperation::CopyItems (shobjidl_core.h)
 author: windows-sdk-content
 description: Declares a set of items that are to be copied to a specified destination.
 old-location: shell\IFileOperation_CopyItems.htm

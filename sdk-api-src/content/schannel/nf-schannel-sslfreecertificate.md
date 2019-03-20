@@ -1,6 +1,6 @@
 ---
 UID: NF:schannel.SslFreeCertificate
-title: SslFreeCertificate function
+title: SslFreeCertificate function (schannel.h)
 author: windows-sdk-content
 description: Frees a certificate that was allocated by a previous call to the SslCrackCertificate function.
 old-location: security\sslfreecertificate.htm

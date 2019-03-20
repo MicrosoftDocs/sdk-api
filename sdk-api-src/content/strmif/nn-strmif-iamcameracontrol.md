@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMCameraControl
-title: IAMCameraControl
+title: IAMCameraControl (strmif.h)
 author: windows-sdk-content
 description: The IAMCameraControl interface controls camera settings such as zoom, pan, aperture adjustment, or shutter speed. To obtain this interface, query the filter that controls the camera.
 old-location: dshow\iamcameracontrol.htm

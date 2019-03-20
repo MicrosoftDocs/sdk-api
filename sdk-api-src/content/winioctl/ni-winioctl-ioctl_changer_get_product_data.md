@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_CHANGER_GET_PRODUCT_DATA
-title: IOCTL_CHANGER_GET_PRODUCT_DATA
+title: IOCTL_CHANGER_GET_PRODUCT_DATA (winioctl.h)
 author: windows-sdk-content
 description: Retrieves the product data for the specified device.
 old-location: base\ioctl_changer_get_product_data.htm

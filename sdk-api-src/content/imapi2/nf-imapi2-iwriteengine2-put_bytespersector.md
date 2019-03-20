@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IWriteEngine2.put_BytesPerSector
-title: IWriteEngine2::put_BytesPerSector
+title: IWriteEngine2::put_BytesPerSector (imapi2.h)
 author: windows-sdk-content
 description: Sets the number of bytes to use for each sector during writing.
 old-location: imapi\iwriteengine2_put_bytespersector.htm

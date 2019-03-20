@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.TextDecorationLineStyle
-title: TextDecorationLineStyle
+title: TextDecorationLineStyle (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains values that specify the OverlineStyle, StrikethroughStyle, and UnderlineStyle text attributes.
 old-location: winauto\uiauto_TextDecLineStyle.htm

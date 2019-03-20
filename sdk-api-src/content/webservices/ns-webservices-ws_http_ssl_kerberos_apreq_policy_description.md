@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_HTTP_SSL_KERBEROS_APREQ_POLICY_DESCRIPTION
-title: WS_HTTP_SSL_KERBEROS_APREQ_POLICY_DESCRIPTION
+title: WS_HTTP_SSL_KERBEROS_APREQ_POLICY_DESCRIPTION (webservices.h)
 author: windows-sdk-content
 description: Describes the policy specifying http channel binding with SSL transport security and KERBEROS AP_REQ message security.
 old-location: wsw\ws_http_ssl_kerberos_apreq_policy_description.htm

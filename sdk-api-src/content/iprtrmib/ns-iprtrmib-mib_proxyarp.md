@@ -1,6 +1,6 @@
 ---
 UID: NS:iprtrmib._MIB_PROXYARP
-title: MIB_PROXYARP
+title: MIB_PROXYARP (iprtrmib.h)
 author: windows-sdk-content
 description: Stores information for a Proxy Address Resolution Protocol (PARP) entry.
 old-location: mib\mib_proxyarp.htm

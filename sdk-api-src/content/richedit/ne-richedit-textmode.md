@@ -1,6 +1,6 @@
 ---
 UID: NE:richedit.tagTextMode
-title: TEXTMODE
+title: TEXTMODE (richedit.h)
 author: windows-sdk-content
 description: Indicates the text mode of a rich edit control. The EM_SETTEXTMODE and EM_GETTEXTMODE messages use this enumeration type.
 old-location: controls\TEXTMODE.htm

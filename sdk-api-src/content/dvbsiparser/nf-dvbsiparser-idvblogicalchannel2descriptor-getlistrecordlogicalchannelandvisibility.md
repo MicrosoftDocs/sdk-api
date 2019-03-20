@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannel2Descriptor.GetListRecordLogicalChannelAndVisibility
-title: IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelAndVisibility
+title: IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelAndVisibility (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the visible_service_flag and logical_channel_number fields from a Digital Video Broadcast (DVB) logical channel descriptor.
 old-location: mstv\idvblogicalchannel2descriptor_getlistrecordlogicalchannelandvisibility.htm

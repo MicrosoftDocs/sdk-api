@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMPropertyVault.SetProperty
-title: IWMPropertyVault::SetProperty
+title: IWMPropertyVault::SetProperty (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetProperty method sets the values for a property. If the property named already exists in the property vault, SetProperty changes its value as specified. If the property named does not exist, SetProperty adds it to the property vault.
 old-location: wmformat\iwmpropertyvault_setproperty.htm

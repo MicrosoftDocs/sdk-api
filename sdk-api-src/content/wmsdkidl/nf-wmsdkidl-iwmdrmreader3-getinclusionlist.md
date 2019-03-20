@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader3.GetInclusionList
-title: IWMDRMReader3::GetInclusionList
+title: IWMDRMReader3::GetInclusionList (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetInclusionList method retrieves a list of identifiers specifying approved protection systems.
 old-location: wmformat\iwmdrmreader3_getinclusionlist.htm

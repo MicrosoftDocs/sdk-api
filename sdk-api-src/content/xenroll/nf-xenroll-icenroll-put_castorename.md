@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll.put_CAStoreName
-title: ICEnroll::put_CAStoreName
+title: ICEnroll::put_CAStoreName (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves the name of the store where all non-&#0034;ROOT&#0034; and non-&#0034;MY&#0034; certificates are kept.
 old-location: security\icenroll4_castorename.htm

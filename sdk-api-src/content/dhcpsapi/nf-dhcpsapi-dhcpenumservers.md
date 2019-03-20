@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumServers
-title: DhcpEnumServers function
+title: DhcpEnumServers function (dhcpsapi.h)
 author: windows-sdk-content
 description: The DhcpEnumServers function returns an enumerated list of DHCP servers found in the directory service.
 old-location: dhcp\dhcpenumservers.htm

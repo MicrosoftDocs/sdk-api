@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateCounter
-title: ID3D10Device::CreateCounter
+title: ID3D10Device::CreateCounter (d3d10.h)
 author: windows-sdk-content
 description: Create a counter object for measuring GPU performance.
 old-location: direct3d10\id3d10device_createcounter.htm

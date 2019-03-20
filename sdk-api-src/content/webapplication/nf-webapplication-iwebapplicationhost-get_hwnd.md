@@ -1,6 +1,6 @@
 ---
 UID: NF:webapplication.IWebApplicationHost.get_HWND
-title: IWebApplicationHost::get_HWND
+title: IWebApplicationHost::get_HWND (webapplication.h)
 author: windows-sdk-content
 description: Gets the handle of the current WWAHost window.
 old-location: debug\iwebapplicationhost_hwnd.htm

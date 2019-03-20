@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.put_CAStoreNameWStr
-title: IEnroll::put_CAStoreNameWStr
+title: IEnroll::put_CAStoreNameWStr (xenroll.h)
 author: windows-sdk-content
 description: The CAStoreNameWStr property of IEnroll4 sets or retrieves the name of the store where all non-&#0034;ROOT&#0034; and non-&#0034;MY&#0034; certificates are kept.
 old-location: security\ienroll4_castorenamewstr.htm

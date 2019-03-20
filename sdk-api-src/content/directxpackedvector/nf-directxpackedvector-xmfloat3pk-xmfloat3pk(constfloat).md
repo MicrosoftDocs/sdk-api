@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMFLOAT3PK.XMFLOAT3PK(const float)
-title: XMFLOAT3PK::XMFLOAT3PK(const float)
+title: XMFLOAT3PK::XMFLOAT3PK(const float) (directxpackedvector.h)
 author: windows-sdk-content
 description: Default constructor for XMFLOAT3PK.
 old-location: dxmath\xmfloat3pk_ctor_1.htm

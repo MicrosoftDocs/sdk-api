@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptMemRealloc
-title: CryptMemRealloc function
+title: CryptMemRealloc function (wincrypt.h)
 author: windows-sdk-content
 description: The CryptMemRealloc function frees the memory currently allocated for a buffer and allocates memory for a new buffer.
 old-location: security\cryptmemrealloc.htm

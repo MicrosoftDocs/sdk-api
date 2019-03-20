@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IIsoImageManager.Validate
-title: IIsoImageManager::Validate
+title: IIsoImageManager::Validate (imapi2fs.h)
 author: windows-sdk-content
 description: Determines if the provided .iso image is valid.
 old-location: imapi\iisoimagemanager_validate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleIsRunning
-title: OleIsRunning function
+title: OleIsRunning function (ole2.h)
 author: windows-sdk-content
 description: Determines whether a compound document object is currently in the running state.
 old-location: com\oleisrunning.htm

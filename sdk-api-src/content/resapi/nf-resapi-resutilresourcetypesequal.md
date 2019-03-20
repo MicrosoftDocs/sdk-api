@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilResourceTypesEqual
-title: ResUtilResourceTypesEqual function
+title: ResUtilResourceTypesEqual function (resapi.h)
 author: windows-sdk-content
 description: Tests whether a resource type matches the resource type name of a specified resource. The PRESUTIL_RESOURCE_TYPES_EQUAL type defines a pointer to this function.
 old-location: mscs\resutilresourcetypesequal.htm

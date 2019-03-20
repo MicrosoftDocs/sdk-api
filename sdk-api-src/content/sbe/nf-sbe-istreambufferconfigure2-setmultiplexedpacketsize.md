@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure2.SetMultiplexedPacketSize
-title: IStreamBufferConfigure2::SetMultiplexedPacketSize
+title: IStreamBufferConfigure2::SetMultiplexedPacketSize (sbe.h)
 author: windows-sdk-content
 description: The SetMultiplexedPacketSize method sets the size of the multiplexed packets in the backing files for the Stream Buffer Engine.
 old-location: mstv\istreambufferconfigure2_setmultiplexedpacketsize.htm

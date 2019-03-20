@@ -1,6 +1,6 @@
 ---
 UID: NF:prsht.PropSheet_SetTitle
-title: PropSheet_SetTitle macro
+title: PropSheet_SetTitle macro (prsht.h)
 author: windows-sdk-content
 description: Sets the title of a property sheet. You can use this macro or send the PSM_SETTITLE message explicitly.
 old-location: controls\PropSheet_SetTitle.htm

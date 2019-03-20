@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFontFileStream.ReadFileFragment
-title: IDWriteFontFileStream::ReadFileFragment
+title: IDWriteFontFileStream::ReadFileFragment (dwrite.h)
 author: windows-sdk-content
 description: Reads a fragment from a font file.
 old-location: directwrite\IDWriteFontFileStream_ReadFileFragment.htm

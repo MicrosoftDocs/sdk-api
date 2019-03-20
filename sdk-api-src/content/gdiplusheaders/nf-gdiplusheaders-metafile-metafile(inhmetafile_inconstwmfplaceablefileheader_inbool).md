@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Metafile.Metafile(IN HMETAFILE,IN const WmfPlaceableFileHeader,IN BOOL)
-title: Metafile::Metafile(IN HMETAFILE,IN const WmfPlaceableFileHeader,IN BOOL)
+title: Metafile::Metafile(IN HMETAFILE,IN const WmfPlaceableFileHeader,IN BOOL) (gdiplusheaders.h)
 author: windows-sdk-content
 description: Creates a Windows GDI+Metafile::Metafile object for recording. The format will be placeable metafile.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_Metafile_hWmf_wmfPlaceableFileHeader_deleteWmf_.htm

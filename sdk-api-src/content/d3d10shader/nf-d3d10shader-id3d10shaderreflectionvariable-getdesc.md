@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10shader.ID3D10ShaderReflectionVariable.GetDesc
-title: ID3D10ShaderReflectionVariable::GetDesc
+title: ID3D10ShaderReflectionVariable::GetDesc (d3d10shader.h)
 author: windows-sdk-content
 description: Get a shader-variable description.
 old-location: direct3d10\id3d10shaderreflectionvariable_getdesc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITSubStream.get_Terminals
-title: ITSubStream::get_Terminals
+title: ITSubStream::get_Terminals (tapi3if.h)
 author: windows-sdk-content
 description: The get_Terminals method creates a collection of terminals associated with the current substream. Provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateTerminals method.
 old-location: tapi3\itsubstream_get_terminals.htm

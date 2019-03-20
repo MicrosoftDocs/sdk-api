@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.INetworkSettings.put_Name
-title: INetworkSettings::put_Name
+title: INetworkSettings::put_Name (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the name of a network profile.
 old-location: taskschd\inetworksettings_name.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_Real64A
-title: MI_Real64A
+title: MI_Real64A (mi.h)
 author: windows-sdk-content
 description: Represents an array of MI_Real64 types.
 old-location: wmi_v2\mi_real64a.htm

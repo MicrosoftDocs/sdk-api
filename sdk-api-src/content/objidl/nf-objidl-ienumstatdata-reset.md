@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IEnumSTATDATA.Reset
-title: IEnumSTATDATA::Reset
+title: IEnumSTATDATA::Reset (objidl.h)
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienumstatdata_reset.htm

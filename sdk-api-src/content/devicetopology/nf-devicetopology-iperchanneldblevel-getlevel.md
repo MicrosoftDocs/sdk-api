@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IPerChannelDbLevel.GetLevel
-title: IPerChannelDbLevel::GetLevel
+title: IPerChannelDbLevel::GetLevel (devicetopology.h)
 author: windows-sdk-content
 description: The GetLevel method gets the volume level, in decibels, of the specified channel.
 old-location: coreaudio\iperchanneldblevel_getlevel.htm

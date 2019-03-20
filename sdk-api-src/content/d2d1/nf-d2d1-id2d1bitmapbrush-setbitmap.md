@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1BitmapBrush.SetBitmap
-title: ID2D1BitmapBrush::SetBitmap
+title: ID2D1BitmapBrush::SetBitmap (d2d1.h)
 author: windows-sdk-content
 description: Specifies the bitmap source that this brush uses to paint.
 old-location: direct2d\ID2D1BitmapBrush_SetBitmap.htm

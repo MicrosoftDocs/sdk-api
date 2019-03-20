@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IPropertySheetProvider
-title: IPropertySheetProvider
+title: IPropertySheetProvider (mmc.h)
 author: windows-sdk-content
 description: The IPropertySheetProvider interface implements Windows property sheets as COM objects.
 old-location: mmc\ipropertysheetprovider.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:winnt.__unnamed_enum_9
-title: ACTCTX_COMPATIBILITY_ELEMENT_TYPE
+title: ACTCTX_COMPATIBILITY_ELEMENT_TYPE (winnt.h)
 author: windows-sdk-content
 description: The ACTCTX_COMPATIBILITY_ELEMENT_TYPE enumeration describes the compatibility element in the application manifest.
 old-location: setup\actctx_compatibility_element_type.htm

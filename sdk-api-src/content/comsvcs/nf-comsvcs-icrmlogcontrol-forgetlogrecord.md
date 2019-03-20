@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmLogControl.ForgetLogRecord
-title: ICrmLogControl::ForgetLogRecord
+title: ICrmLogControl::ForgetLogRecord (comsvcs.h)
 author: windows-sdk-content
 description: Forgets the last log record written by this instance of the interface.
 old-location: cos\icrmlogcontrol_forgetlogrecord.htm

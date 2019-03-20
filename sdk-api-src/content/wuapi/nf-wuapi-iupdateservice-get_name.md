@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateService.get_Name
-title: IUpdateService::get_Name
+title: IUpdateService::get_Name (wuapi.h)
 author: windows-sdk-content
 description: Gets the name of the service.
 old-location: wua\iupdateservice_name.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocManager.GetIEnumDot11AdHocNetworks
-title: IDot11AdHocManager::GetIEnumDot11AdHocNetworks
+title: IDot11AdHocManager::GetIEnumDot11AdHocNetworks (adhoc.h)
 author: windows-sdk-content
 description: Returns a list of available ad hoc network destinations within connection range.
 old-location: nwifi\idot11adhocmanager_getienumdot11adhocnetworks.htm

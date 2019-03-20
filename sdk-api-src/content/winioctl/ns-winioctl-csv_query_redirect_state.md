@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._CSV_QUERY_REDIRECT_STATE
-title: CSV_QUERY_REDIRECT_STATE
+title: CSV_QUERY_REDIRECT_STATE (winioctl.h)
 author: windows-sdk-content
 description: Contains information about whether files in a stream have been redirected.
 old-location: fs\csv_query_redirect_state.htm

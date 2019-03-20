@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.X509CertificateTemplatePrivateKeyFlag
-title: X509CertificateTemplatePrivateKeyFlag
+title: X509CertificateTemplatePrivateKeyFlag (certenroll.h)
 author: windows-sdk-content
 description: Contains values that specify client actions regarding a private key.
 old-location: security\x509certificatetemplateprivatekeyflag.htm

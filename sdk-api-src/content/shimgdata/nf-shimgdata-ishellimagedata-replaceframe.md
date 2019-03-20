@@ -1,6 +1,6 @@
 ---
 UID: NF:shimgdata.IShellImageData.ReplaceFrame
-title: IShellImageData::ReplaceFrame
+title: IShellImageData::ReplaceFrame (shimgdata.h)
 author: windows-sdk-content
 description: Replaces the current frame with a new image.
 old-location: shell\IShellImageData_ReplaceFrame.htm

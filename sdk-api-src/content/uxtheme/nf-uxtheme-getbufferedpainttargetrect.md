@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetBufferedPaintTargetRect
-title: GetBufferedPaintTargetRect function
+title: GetBufferedPaintTargetRect function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves the target rectangle specified by BeginBufferedPaint.
 old-location: controls\GetBufferedPaintTargetRect.htm

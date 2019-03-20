@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService.SetProperty
-title: IVisualTreeService::SetProperty
+title: IVisualTreeService::SetProperty (xamlom.h)
 author: windows-sdk-content
 description: Sets a property value on a XAML element.
 old-location: xaml_diagnostics\ivisualtreeservice_setproperty.htm

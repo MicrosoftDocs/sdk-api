@@ -1,6 +1,6 @@
 ---
 UID: NF:usp10.ScriptCPtoX
-title: ScriptCPtoX function
+title: ScriptCPtoX function (usp10.h)
 author: windows-sdk-content
 description: Generates the x offset from the left end or leading edge of a run to either the leading or trailing edge of a logical character cluster.
 old-location: intl\scriptcptox.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbSIParameterDescriptor.GetTableDescriptionBytes
-title: IIsdbSIParameterDescriptor::GetTableDescriptionBytes
+title: IIsdbSIParameterDescriptor::GetTableDescriptionBytes (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets description data from a table descriptor in a service information (SI) parameter descriptor.
 old-location: mstv\iisdbsiparameterdescriptor_gettabledescriptionbytes.htm

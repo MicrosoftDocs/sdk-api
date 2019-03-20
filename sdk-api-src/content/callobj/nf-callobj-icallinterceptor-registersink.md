@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallInterceptor.RegisterSink
-title: ICallInterceptor::RegisterSink
+title: ICallInterceptor::RegisterSink (callobj.h)
 author: windows-sdk-content
 description: Registers an event sink for receiving notifications of method calls.
 old-location: com\icallinterceptor_registersink.htm

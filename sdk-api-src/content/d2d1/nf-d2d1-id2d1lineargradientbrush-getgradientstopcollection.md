@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1LinearGradientBrush.GetGradientStopCollection
-title: ID2D1LinearGradientBrush::GetGradientStopCollection
+title: ID2D1LinearGradientBrush::GetGradientStopCollection (d2d1.h)
 author: windows-sdk-content
 description: Retrieves the ID2D1GradientStopCollection associated with this linear gradient brush.
 old-location: direct2d\ID2D1LinearGradientBrush_GetGradientStopCollection.htm

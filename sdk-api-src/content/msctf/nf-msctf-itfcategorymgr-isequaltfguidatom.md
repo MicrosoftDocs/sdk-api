@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.IsEqualTfGuidAtom
-title: ITfCategoryMgr::IsEqualTfGuidAtom
+title: ITfCategoryMgr::IsEqualTfGuidAtom (msctf.h)
 author: windows-sdk-content
 description: ITfCategoryMgr::IsEqualTfGuidAtom method
 old-location: tsf\itfcategorymgr_isequaltfguidatom.htm

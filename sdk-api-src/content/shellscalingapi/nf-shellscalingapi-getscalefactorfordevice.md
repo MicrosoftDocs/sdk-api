@@ -1,6 +1,6 @@
 ---
 UID: NF:shellscalingapi.GetScaleFactorForDevice
-title: GetScaleFactorForDevice function
+title: GetScaleFactorForDevice function (shellscalingapi.h)
 author: windows-sdk-content
 description: Gets the preferred scale factor for a display device.
 old-location: shell\getscalefactorfordevice.htm

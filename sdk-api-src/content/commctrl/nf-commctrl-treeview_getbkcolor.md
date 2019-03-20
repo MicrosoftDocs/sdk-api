@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_GetBkColor
-title: TreeView_GetBkColor macro
+title: TreeView_GetBkColor macro (commctrl.h)
 author: windows-sdk-content
 description: Retrieves the current background color of the control. You can use this macro or send the TVM_GETBKCOLOR message explicitly.
 old-location: controls\TreeView_GetBkColor.htm

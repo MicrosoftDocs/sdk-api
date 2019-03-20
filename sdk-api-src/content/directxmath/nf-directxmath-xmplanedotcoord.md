@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMPlaneDotCoord
-title: XMPlaneDotCoord function
+title: XMPlaneDotCoord function (directxmath.h)
 author: windows-sdk-content
 description: Calculates the dot product between an input plane and a 3D vector.
 old-location: dxmath\xmplanedotcoord.htm

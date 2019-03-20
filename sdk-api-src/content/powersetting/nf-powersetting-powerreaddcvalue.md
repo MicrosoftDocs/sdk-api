@@ -1,6 +1,6 @@
 ---
 UID: NF:powersetting.PowerReadDCValue
-title: PowerReadDCValue function
+title: PowerReadDCValue function (powersetting.h)
 author: windows-sdk-content
 description: Retrieves the DC power value for the specified power setting.
 old-location: base\powerreaddcvalue.htm

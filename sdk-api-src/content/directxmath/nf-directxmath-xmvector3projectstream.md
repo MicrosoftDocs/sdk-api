@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector3ProjectStream
-title: XMVector3ProjectStream function
+title: XMVector3ProjectStream function (directxmath.h)
 author: windows-sdk-content
 description: Projects a stream of 3D vectors from object space into screen space.
 old-location: dxmath\xmvector3projectstream.htm

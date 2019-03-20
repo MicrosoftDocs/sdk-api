@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamConfig.GetStreamType
-title: IMFASFStreamConfig::GetStreamType
+title: IMFASFStreamConfig::GetStreamType (wmcontainer.h)
 author: windows-sdk-content
 description: Gets the major media type of the stream.
 old-location: mf\imfasfstreamconfig_getstreamtype.htm

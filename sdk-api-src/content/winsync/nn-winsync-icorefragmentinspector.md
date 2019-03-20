@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.ICoreFragmentInspector
-title: ICoreFragmentInspector
+title: ICoreFragmentInspector (winsync.h)
 author: windows-sdk-content
 description: Enumerates the ICoreFragment objects that are contained in a knowledge object.
 old-location: winsync\icorefragmentinspector.htm

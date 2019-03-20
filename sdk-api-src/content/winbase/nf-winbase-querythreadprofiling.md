@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.QueryThreadProfiling
-title: QueryThreadProfiling function
+title: QueryThreadProfiling function (winbase.h)
 author: windows-sdk-content
 description: Determines whether thread profiling is enabled for the specified thread.
 old-location: hcp\querythreadprofiling.htm

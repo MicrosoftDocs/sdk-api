@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITransformProvider2.get_ZoomMinimum
-title: ITransformProvider2::get_ZoomMinimum
+title: ITransformProvider2::get_ZoomMinimum (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves the minimum zoom level of the element.
 old-location: winauto\uiauto_itransformprovider2_zoomminimum.htm

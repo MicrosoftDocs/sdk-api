@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnPin.get_PinMode
-title: IMbnPin::get_PinMode
+title: IMbnPin::get_PinMode (mbnapi.h)
 author: windows-sdk-content
 description: The PIN mode.
 old-location: mbn\imbnpin_pinmode.htm

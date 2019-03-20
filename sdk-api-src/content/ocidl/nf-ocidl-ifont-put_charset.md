@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.put_Charset
-title: IFont::put_Charset
+title: IFont::put_Charset (ocidl.h)
 author: windows-sdk-content
 description: Sets the font's character set.
 old-location: com\ifont_put_charset.htm

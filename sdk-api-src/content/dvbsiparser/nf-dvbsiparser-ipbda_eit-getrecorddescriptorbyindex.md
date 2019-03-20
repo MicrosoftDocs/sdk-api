@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IPBDA_EIT.GetRecordDescriptorByIndex
-title: IPBDA_EIT::GetRecordDescriptorByIndex
+title: IPBDA_EIT::GetRecordDescriptorByIndex (dvbsiparser.h)
 author: windows-sdk-content
 description: Retrieves a descriptor for a specified record in an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_eit_getrecorddescriptorbyindex.htm

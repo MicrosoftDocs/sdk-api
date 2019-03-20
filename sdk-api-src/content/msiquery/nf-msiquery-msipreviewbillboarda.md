@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiPreviewBillboardA
-title: MsiPreviewBillboardA function
+title: MsiPreviewBillboardA function (msiquery.h)
 author: windows-sdk-content
 description: The MsiPreviewBillboard function displays a billboard with the host control in the displayed dialog box.
 old-location: setup\msipreviewbillboard.htm

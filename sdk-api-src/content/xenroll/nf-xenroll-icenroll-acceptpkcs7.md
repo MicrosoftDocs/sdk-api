@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll.acceptPKCS7
-title: ICEnroll::acceptPKCS7
+title: ICEnroll::acceptPKCS7 (xenroll.h)
 author: windows-sdk-content
 description: Accepts and processes a PKCS #7 message that contains a certificate. The PKCS #7 is input as a parameter. This method was first defined in the ICEnroll interface.
 old-location: security\icenroll4_acceptpkcs7.htm

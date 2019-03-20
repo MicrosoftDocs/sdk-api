@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.BrushType
-title: BrushType
+title: BrushType (gdiplusenums.h)
 author: windows-sdk-content
 description: The BrushType enumeration indicates the type of brush. There are five types of brushes.
 old-location: gdiplus\_gdiplus_ENUM_BrushType.htm

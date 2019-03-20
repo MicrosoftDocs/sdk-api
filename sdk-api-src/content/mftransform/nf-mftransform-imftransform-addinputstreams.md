@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFTransform.AddInputStreams
-title: IMFTransform::AddInputStreams
+title: IMFTransform::AddInputStreams (mftransform.h)
 author: windows-sdk-content
 description: Adds one or more new input streams to this Media Foundation transform (MFT).
 old-location: mf\imftransform_addinputstreams.htm

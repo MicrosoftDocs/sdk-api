@@ -1,6 +1,6 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetHelpId
-title: IXblIdpAuthTokenResult::GetHelpId
+title: IXblIdpAuthTokenResult::GetHelpId (xblidpauthmanager.h)
 author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_gethelpid.htm

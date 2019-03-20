@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssCreateExpressWriterMetadata.AddComponentDependency
-title: IVssCreateExpressWriterMetadata::AddComponentDependency
+title: IVssCreateExpressWriterMetadata::AddComponentDependency (vswriter.h)
 author: windows-sdk-content
 description: Allows an express writer to indicate that a component it manages has an explicit writer-component dependency; that is, another component (possibly managed by another writer) must be backed up and restored with it.
 old-location: base\ivsscreateexpresswritermetadata_addcomponentdependency.htm

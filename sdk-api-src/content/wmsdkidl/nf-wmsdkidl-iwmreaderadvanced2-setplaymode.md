@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.SetPlayMode
-title: IWMReaderAdvanced2::SetPlayMode
+title: IWMReaderAdvanced2::SetPlayMode (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetPlayMode method specifies the play mode.
 old-location: wmformat\iwmreaderadvanced2_setplaymode.htm

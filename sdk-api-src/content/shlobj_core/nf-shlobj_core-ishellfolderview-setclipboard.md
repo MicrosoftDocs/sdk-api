@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.SetClipboard
-title: IShellFolderView::SetClipboard
+title: IShellFolderView::SetClipboard (shlobj_core.h)
 author: windows-sdk-content
 description: SetClipboard may be altered or unavailable.
 old-location: shell\IShellFolderView_SetClipboard.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._OFSTRUCT
-title: OFSTRUCT
+title: OFSTRUCT (winbase.h)
 author: windows-sdk-content
 description: Contains information about a file that the OpenFile function opened or attempted to open.
 old-location: fs\ofstruct_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IEnumWIA_DEV_CAPS.Reset
-title: IEnumWIA_DEV_CAPS::Reset
+title: IEnumWIA_DEV_CAPS::Reset (wia_xp.h)
 author: windows-sdk-content
 description: The IEnumWIA_DEV_CAPS::Reset method is used by applications to restart the enumeration of device capabilities.
 old-location: wia\_wia_IEnumWIA_DEV_CAPS_Reset.htm

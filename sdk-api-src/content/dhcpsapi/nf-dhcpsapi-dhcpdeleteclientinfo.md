@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpDeleteClientInfo
-title: DhcpDeleteClientInfo function
+title: DhcpDeleteClientInfo function (dhcpsapi.h)
 author: windows-sdk-content
 description: The DhcpDeleteClientInfo function deletes a client information record from the DHCP server.
 old-location: dhcp\dhcpdeleteclientinfo.htm

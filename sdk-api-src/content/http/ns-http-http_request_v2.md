@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_REQUEST_V2
-title: HTTP_REQUEST_V2
+title: HTTP_REQUEST_V2 (http.h)
 author: windows-sdk-content
 description: Extends the HTTP_REQUEST_V1 request structure with more information about the request.
 old-location: http\http_request_v2.htm

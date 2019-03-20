@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetPath
-title: ISettingsItem::GetPath
+title: ISettingsItem::GetPath (wcmconfig.h)
 author: windows-sdk-content
 description: Gets the path for the item.
 old-location: smi\isettingsitem_getpath.htm

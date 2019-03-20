@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPersistFolder3.InitializeEx
-title: IPersistFolder3::InitializeEx
+title: IPersistFolder3::InitializeEx (shobjidl_core.h)
 author: windows-sdk-content
 description: Initializes a folder and specifies its location in the namespace. If the folder is a shortcut, this method also specifies the location of the target folder.
 old-location: shell\IPersistFolder3_InitializeEx.htm

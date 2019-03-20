@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocInterface.GetIEnumSecuritySettings
-title: IDot11AdHocInterface::GetIEnumSecuritySettings
+title: IDot11AdHocInterface::GetIEnumSecuritySettings (adhoc.h)
 author: windows-sdk-content
 description: Gets the collection of security settings associated with this NIC.
 old-location: nwifi\idot11adhocinterface_getienumsecuritysettings.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.GetText
-title: ITextRangeProvider::GetText
+title: ITextRangeProvider::GetText (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves the plain text of the range.
 old-location: winauto\uiauto_ITextRangeProvider_GetText.htm

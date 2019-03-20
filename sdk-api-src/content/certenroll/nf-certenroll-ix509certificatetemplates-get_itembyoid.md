@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateTemplates.get_ItemByOid
-title: IX509CertificateTemplates::get_ItemByOid
+title: IX509CertificateTemplates::get_ItemByOid (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an IX509CertificateTemplate object from the collection by object identifier.
 old-location: security\ix509certificatetemplates_itembyoid.htm

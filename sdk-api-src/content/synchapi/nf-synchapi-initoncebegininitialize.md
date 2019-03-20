@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.InitOnceBeginInitialize
-title: InitOnceBeginInitialize function
+title: InitOnceBeginInitialize function (synchapi.h)
 author: windows-sdk-content
 description: Begins one-time initialization.
 old-location: base\initoncebegininitialize.htm

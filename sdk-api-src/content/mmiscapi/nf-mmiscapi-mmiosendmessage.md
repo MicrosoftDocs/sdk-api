@@ -1,6 +1,6 @@
 ---
 UID: NF:mmiscapi.mmioSendMessage
-title: mmioSendMessage function
+title: mmioSendMessage function (mmiscapi.h)
 author: windows-sdk-content
 description: The mmioSendMessage function sends a message to the I/O procedure associated with the specified file.
 old-location: multimedia\mmiosendmessage.htm

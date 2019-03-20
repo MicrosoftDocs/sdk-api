@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcUri.GetRelationshipsPartUri
-title: IOpcUri::GetRelationshipsPartUri
+title: IOpcUri::GetRelationshipsPartUri (msopc.h)
 author: windows-sdk-content
 description: Gets the part name of the Relationships part that stores relationships that have the source URI represented by the current OPC URI object.
 old-location: opc\iopcuri_getrelationshipsparturi.htm

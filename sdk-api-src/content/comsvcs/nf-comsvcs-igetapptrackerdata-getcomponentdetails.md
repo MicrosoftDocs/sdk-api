@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IGetAppTrackerData.GetComponentDetails
-title: IGetAppTrackerData::GetComponentDetails
+title: IGetAppTrackerData::GetComponentDetails (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves detailed information about a single COM+ component hosted in a process.
 old-location: cos\igetapptrackerdata_getcomponentdetails.htm

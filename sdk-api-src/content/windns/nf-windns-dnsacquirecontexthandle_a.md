@@ -1,6 +1,6 @@
 ---
 UID: NF:windns.DnsAcquireContextHandle_A
-title: DnsAcquireContextHandle_A function
+title: DnsAcquireContextHandle_A function (windns.h)
 author: windows-sdk-content
 description: The DnsAcquireContextHandle function type acquires a context handle to a set of credentials.
 old-location: dns\dnsacquirecontexthandle.htm

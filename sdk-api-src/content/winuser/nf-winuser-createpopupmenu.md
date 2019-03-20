@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CreatePopupMenu
-title: CreatePopupMenu function
+title: CreatePopupMenu function (winuser.h)
 author: windows-sdk-content
 description: Creates a drop-down menu, submenu, or shortcut menu.
 old-location: menurc\createpopupmenu.htm

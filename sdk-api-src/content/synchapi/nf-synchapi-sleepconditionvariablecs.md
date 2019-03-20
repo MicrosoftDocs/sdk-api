@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.SleepConditionVariableCS
-title: SleepConditionVariableCS function
+title: SleepConditionVariableCS function (synchapi.h)
 author: windows-sdk-content
 description: Sleeps on the specified condition variable and releases the specified critical section as an atomic operation.
 old-location: base\sleepconditionvariablecs.htm

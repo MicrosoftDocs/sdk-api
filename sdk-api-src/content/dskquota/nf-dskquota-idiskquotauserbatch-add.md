@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaUserBatch.Add
-title: IDiskQuotaUserBatch::Add
+title: IDiskQuotaUserBatch::Add (dskquota.h)
 author: windows-sdk-content
 description: Adds an IDiskQuotaUser pointer to the batch list.
 old-location: fs\idiskquotauserbatch_add.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._RAS_CONNECTION_3
-title: RAS_CONNECTION_3
+title: RAS_CONNECTION_3 (mprapi.h)
 author: windows-sdk-content
 description: The RAS_CONNECTION_3 structure contains information for the connection, including the Globally Unique Identifier (GUID) that identifies the connection and the quarantine state of the connection.
 old-location: rras\ras_connection_3.htm

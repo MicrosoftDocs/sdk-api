@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMetadataText.get_description
-title: IWMPMetadataText::get_description
+title: IWMPMetadataText::get_description (wmp.h)
 author: windows-sdk-content
 description: The get_description method retrieves a description of the metadata text.
 old-location: wmp\iwmpmetadatatext_get_description.htm

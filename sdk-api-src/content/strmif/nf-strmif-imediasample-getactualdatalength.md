@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaSample.GetActualDataLength
-title: IMediaSample::GetActualDataLength
+title: IMediaSample::GetActualDataLength (strmif.h)
 author: windows-sdk-content
 description: The GetActualDataLength method retrieves the length of the valid data in the buffer.
 old-location: dshow\imediasample_getactualdatalength.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.put_EnableAutoProxy
-title: IAMNetShowConfig::put_EnableAutoProxy
+title: IAMNetShowConfig::put_EnableAutoProxy (qnetwork.h)
 author: windows-sdk-content
 description: The put_EnableAutoProxy method enables or disables auto-proxy.
 old-location: dshow\iamnetshowconfig_put_enableautoproxy.htm

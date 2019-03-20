@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpGetInfoFn
-title: SpGetInfoFn
+title: SpGetInfoFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Provides general information about the security package, such as its name and capabilities.
 old-location: security\spgetinfo.htm

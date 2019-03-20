@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.AddRefTypeInfo
-title: ICreateTypeInfo::AddRefTypeInfo
+title: ICreateTypeInfo::AddRefTypeInfo (oaidl.h)
 author: windows-sdk-content
 description: Adds a type description to those referenced by the type description being created.
 old-location: automat\icreatetypeinfo_addreftypeinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:restartmanager._RM_PROCESS_INFO
-title: RM_PROCESS_INFO
+title: RM_PROCESS_INFO (restartmanager.h)
 author: windows-sdk-content
 description: Describes an application that is to be registered with the Restart Manager.
 old-location: rstmgr\rm_process_info.htm

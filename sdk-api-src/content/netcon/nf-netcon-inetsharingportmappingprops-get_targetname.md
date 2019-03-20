@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingPortMappingProps.get_TargetName
-title: INetSharingPortMappingProps::get_TargetName
+title: INetSharingPortMappingProps::get_TargetName (netcon.h)
 author: windows-sdk-content
 description: The get_TargetName method retrieves the name of the target computer for this port mapping.
 old-location: ics\inetsharingportmappingprops_get_targetname.htm

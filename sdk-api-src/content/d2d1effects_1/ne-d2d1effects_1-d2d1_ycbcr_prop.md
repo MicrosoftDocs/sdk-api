@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects_1.D2D1_YCBCR_PROP
-title: D2D1_YCBCR_PROP
+title: D2D1_YCBCR_PROP (d2d1effects_1.h)
 author: windows-sdk-content
 description: Identifiers for properties of the YCbCr effect.
 old-location: direct2d\d2d1_ycbcr_prop.htm

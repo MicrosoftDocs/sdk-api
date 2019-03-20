@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddPie
-title: GraphicsPath::AddPie
+title: GraphicsPath::AddPie (gdipluspath.h)
 author: windows-sdk-content
 description: This topic lists the AddPie methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddPie_Methods.htm

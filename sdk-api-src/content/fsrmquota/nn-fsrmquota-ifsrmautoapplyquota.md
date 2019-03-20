@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmquota.IFsrmAutoApplyQuota
-title: IFsrmAutoApplyQuota
+title: IFsrmAutoApplyQuota (fsrmquota.h)
 author: windows-sdk-content
 description: Used to automatically add the quota to new and existing subdirectories of the directory on which the automatic quota is applied.
 old-location: fsrm\ifsrmautoapplyquota.htm

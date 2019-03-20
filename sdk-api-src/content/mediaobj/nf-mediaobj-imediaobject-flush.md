@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IMediaObject.Flush
-title: IMediaObject::Flush
+title: IMediaObject::Flush (mediaobj.h)
 author: windows-sdk-content
 description: The Flush method flushes all internally buffered data.
 old-location: dshow\imediaobject_flush.htm

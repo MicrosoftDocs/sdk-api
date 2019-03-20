@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpAcquireCredentialsHandleFn
-title: SpAcquireCredentialsHandleFn
+title: SpAcquireCredentialsHandleFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Called to obtain a handle to a principal's credentials.
 old-location: security\spacquirecredentialshandle.htm

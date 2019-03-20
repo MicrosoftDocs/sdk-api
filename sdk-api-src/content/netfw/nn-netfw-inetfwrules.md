@@ -1,6 +1,6 @@
 ---
 UID: NN:netfw.INetFwRules
-title: INetFwRules
+title: INetFwRules (netfw.h)
 author: windows-sdk-content
 description: Collection of firewall rules.
 old-location: ics\inetfwrules.htm

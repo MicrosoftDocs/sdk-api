@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._SECPKG_SUPPLIED_CREDENTIAL
-title: SECPKG_SUPPLIED_CREDENTIAL
+title: SECPKG_SUPPLIED_CREDENTIAL (ntsecpkg.h)
 author: windows-sdk-content
 description: Specifies the supplied credentials.
 old-location: security\secpkg_supplied_credential.htm

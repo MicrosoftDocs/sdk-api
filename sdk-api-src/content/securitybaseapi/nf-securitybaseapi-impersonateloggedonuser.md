@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.ImpersonateLoggedOnUser
-title: ImpersonateLoggedOnUser function
+title: ImpersonateLoggedOnUser function (securitybaseapi.h)
 author: windows-sdk-content
 description: Lets the calling thread impersonate the security context of a logged-on user. The user is represented by a token handle.
 old-location: security\impersonateloggedonuser.htm

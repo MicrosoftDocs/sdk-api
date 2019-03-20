@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsIscsiInitiatorAdapter.LogoutFromTarget
-title: IVdsIscsiInitiatorAdapter::LogoutFromTarget
+title: IVdsIscsiInitiatorAdapter::LogoutFromTarget (vds.h)
 author: windows-sdk-content
 description: Performs a manual logout from an iSCSI target on all iSCSI sessions to the specified target.
 old-location: base\ivdsiscsiinitiatoradapter_logoutfromtarget.htm

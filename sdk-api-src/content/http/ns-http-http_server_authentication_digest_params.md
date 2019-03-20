@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS
-title: HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS
+title: HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS (http.h)
 author: windows-sdk-content
 description: Contains the information for digest authentication on a URL Group.
 old-location: http\http_server_authentication_digest_params.htm

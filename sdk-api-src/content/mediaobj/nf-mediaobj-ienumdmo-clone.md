@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IEnumDMO.Clone
-title: IEnumDMO::Clone
+title: IEnumDMO::Clone (mediaobj.h)
 author: windows-sdk-content
 description: This method is not implemented.
 old-location: dshow\ienumdmo_clone.htm

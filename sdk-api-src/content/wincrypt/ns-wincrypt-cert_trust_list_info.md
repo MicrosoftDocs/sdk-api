@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_TRUST_LIST_INFO
-title: CERT_TRUST_LIST_INFO
+title: CERT_TRUST_LIST_INFO (wincrypt.h)
 author: windows-sdk-content
 description: The CERT_TRUST_LIST_INFO structure that indicates valid usage of a CTL.
 old-location: security\cert_trust_list_info.htm

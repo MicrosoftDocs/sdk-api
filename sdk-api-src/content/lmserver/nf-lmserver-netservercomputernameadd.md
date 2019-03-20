@@ -1,6 +1,6 @@
 ---
 UID: NF:lmserver.NetServerComputerNameAdd
-title: NetServerComputerNameAdd function
+title: NetServerComputerNameAdd function (lmserver.h)
 author: windows-sdk-content
 description: The NetServerComputerNameAdd function enumerates the transports on which the specified server is active, and binds the emulated server name to each of the transports.
 old-location: netmgmt\netservercomputernameadd.htm

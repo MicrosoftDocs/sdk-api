@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPluggableTerminalClassInfo.get_Company
-title: ITPluggableTerminalClassInfo::get_Company
+title: ITPluggableTerminalClassInfo::get_Company (tapi3if.h)
 author: windows-sdk-content
 description: The get_Company method gets the name of the company that issued this pluggable terminal.
 old-location: tapi3\itpluggableterminalclassinfo_get_company.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.FlushLogToLsn
-title: FlushLogToLsn function
+title: FlushLogToLsn function (clfsw32.h)
 author: windows-sdk-content
 description: Forces all records appended to this marshaling area up to the record with the specified log sequence number (LSN) to be flushed to the disk. More records than specified may be flushed during this operation.
 old-location: fs\flushlogtolsn.htm

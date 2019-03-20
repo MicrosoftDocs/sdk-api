@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.GetTargetProcessorArchitecture
-title: ITargetInfo::GetTargetProcessorArchitecture
+title: ITargetInfo::GetTargetProcessorArchitecture (wcmconfig.h)
 author: windows-sdk-content
 description: Gets processor architecture associated with the current target.
 old-location: smi\itargetinfo_gettargetprocessorarchitecture.htm

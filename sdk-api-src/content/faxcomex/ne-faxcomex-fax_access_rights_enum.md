@@ -1,6 +1,6 @@
 ---
 UID: NE:faxcomex.FAX_ACCESS_RIGHTS_ENUM
-title: FAX_ACCESS_RIGHTS_ENUM
+title: FAX_ACCESS_RIGHTS_ENUM (faxcomex.h)
 author: windows-sdk-content
 description: The FAX_ACCESS_RIGHTS_ENUM enumeration defines access rights to the fax server.
 old-location: fax\_mfax_fax_access_rights_enum.htm

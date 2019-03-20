@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESEvents.OnESEventReceived
-title: IESEvents::OnESEventReceived
+title: IESEvents::OnESEventReceived (tuner.h)
 author: windows-sdk-content
 description: Defines a handler for an event that is derived from the IESEvent interface.
 old-location: mstv\iesevents_oneseventreceived.htm

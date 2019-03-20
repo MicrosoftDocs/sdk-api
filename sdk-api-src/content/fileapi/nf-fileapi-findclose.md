@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.FindClose
-title: FindClose function
+title: FindClose function (fileapi.h)
 author: windows-sdk-content
 description: Closes a file search handle opened by the FindFirstFile, FindFirstFileEx, FindFirstFileNameW, FindFirstFileNameTransactedW, FindFirstFileTransacted, FindFirstStreamTransactedW, or FindFirstStreamW functions.
 old-location: fs\findclose.htm

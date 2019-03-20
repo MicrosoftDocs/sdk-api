@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IAccessibleObject.SetAccessibleName
-title: IAccessibleObject::SetAccessibleName
+title: IAccessibleObject::SetAccessibleName (shobjidl.h)
 author: windows-sdk-content
 description: Sets text that is retrieved by IAccessible::get_accName which accessibility tools use to obtain the Name Property of an object.
 old-location: shell\IAccessibleObject_SetAccessibleName.htm

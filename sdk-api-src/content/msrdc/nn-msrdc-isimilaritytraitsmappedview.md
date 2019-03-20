@@ -1,6 +1,6 @@
 ---
 UID: NN:msrdc.ISimilarityTraitsMappedView
-title: ISimilarityTraitsMappedView
+title: ISimilarityTraitsMappedView (msrdc.h)
 author: windows-sdk-content
 description: Provides methods that an RDC application can implement for manipulating a mapped view of a similarity traits table file.
 old-location: rdc\isimilaritytraitsmappedview.htm

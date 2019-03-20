@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.ExcludeClip
-title: Graphics::ExcludeClip
+title: Graphics::ExcludeClip (gdiplusgraphics.h)
 author: windows-sdk-content
 description: This topic lists the ExcludeClip methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_ExcludeClip_Methods.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wbemcli.tag_WBEM_COMPILER_OPTIONS
-title: WBEM_COMPILER_OPTIONS
+title: WBEM_COMPILER_OPTIONS (wbemcli.h)
 author: windows-sdk-content
 description: Contains option flags for IMofCompiler methods.
 old-location: wmi\wbem_compiler_options.htm

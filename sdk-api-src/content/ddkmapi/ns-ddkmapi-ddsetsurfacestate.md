@@ -1,6 +1,6 @@
 ---
 UID: NS:ddkmapi._DDSETSURFACETATE
-title: DDSETSURFACESTATE
+title: DDSETSURFACESTATE (ddkmapi.h)
 author: windows-sdk-content
 description: The DDSETSURFACESTATE structure contains the surface state information.
 old-location: display\ddsetsurfacestate.htm

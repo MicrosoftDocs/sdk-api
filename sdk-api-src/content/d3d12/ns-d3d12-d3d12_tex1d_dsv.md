@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_TEX1D_DSV
-title: D3D12_TEX1D_DSV
+title: D3D12_TEX1D_DSV (d3d12.h)
 author: windows-sdk-content
 description: Describes the subresource from a 1D texture that is accessible to a depth-stencil view.
 old-location: direct3d12\d3d12_tex1d_dsv.htm

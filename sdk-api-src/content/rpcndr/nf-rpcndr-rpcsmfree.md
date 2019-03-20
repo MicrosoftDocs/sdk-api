@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.RpcSmFree
-title: RpcSmFree function
+title: RpcSmFree function (rpcndr.h)
 author: windows-sdk-content
 description: The RpcSmFree function releases memory allocated by RpcSmAllocate.
 old-location: rpc\rpcsmfree.htm

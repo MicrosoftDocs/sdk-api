@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSettings2.requestMediaAccessRights
-title: IWMPSettings2::requestMediaAccessRights
+title: IWMPSettings2::requestMediaAccessRights (wmp.h)
 author: windows-sdk-content
 description: The requestMediaAccessRights method requests a specified level of access to the library.
 old-location: wmp\iwmpsettings2_requestmediaaccessrights.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:indexsrv.IWordBreaker.Init
-title: IWordBreaker::Init
+title: IWordBreaker::Init (indexsrv.h)
 author: windows-sdk-content
 description: Initializes the IWordBreaker implementation and indicates the mode in which the component operates.
 old-location: search\_search_IWordBreaker_Init.htm

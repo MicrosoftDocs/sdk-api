@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMSearchCriteria.Add
-title: IGPMSearchCriteria::Add
+title: IGPMSearchCriteria::Add (gpmgmt.h)
 author: windows-sdk-content
 description: Adds a criterion for search operations.
 old-location: gpmc\igpmsearchcriteria_add.htm

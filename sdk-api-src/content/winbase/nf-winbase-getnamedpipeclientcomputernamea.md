@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetNamedPipeClientComputerNameA
-title: GetNamedPipeClientComputerNameA function
+title: GetNamedPipeClientComputerNameA function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the client computer name for the specified named pipe.
 old-location: base\getnamedpipeclientcomputername.htm

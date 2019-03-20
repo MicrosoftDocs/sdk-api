@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxActivityLogging.put_LogOutgoing
-title: IFaxActivityLogging::put_LogOutgoing
+title: IFaxActivityLogging::put_LogOutgoing (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxActivityLogging::get_LogOutgoing property is a Boolean value that indicates whether the fax service logs entries for outgoing faxes in the activity log database.
 old-location: fax\_mfax_faxactivitylogging_cpp_mfax_faxactivitylogging_logoutgoing_cpp.htm

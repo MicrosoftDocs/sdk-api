@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut.IInkTablet
-title: IInkTablet
+title: IInkTablet (msinkaut.h)
 author: windows-sdk-content
 description: Represents the digitizer device of Tablet PC that receives tablet device messages or events.
 old-location: tablet\iinktablet.htm

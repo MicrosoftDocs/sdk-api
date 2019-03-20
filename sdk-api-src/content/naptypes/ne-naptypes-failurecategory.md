@@ -1,6 +1,6 @@
 ---
 UID: NE:naptypes.tagFailureCategory
-title: FailureCategory
+title: FailureCategory (naptypes.h)
 author: windows-sdk-content
 description: Indicates the source of a failure.
 old-location: nap\failurecategory_enum.htm

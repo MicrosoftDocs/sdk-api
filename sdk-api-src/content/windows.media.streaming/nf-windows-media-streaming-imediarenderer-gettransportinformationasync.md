@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.GetTransportInformationAsync
-title: IMediaRenderer::streaming
+title: IMediaRenderer::streaming (windows.media.streaming.h)
 author: windows-sdk-content
 description: Queries the DMR asynchronously to retrieve transport information.
 old-location: mediastreaming\imediarenderer_gettransportinformationasync.htm

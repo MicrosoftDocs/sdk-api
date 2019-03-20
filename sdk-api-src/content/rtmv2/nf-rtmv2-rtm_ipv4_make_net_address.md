@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RTM_IPV4_MAKE_NET_ADDRESS
-title: RTM_IPV4_MAKE_NET_ADDRESS macro
+title: RTM_IPV4_MAKE_NET_ADDRESS macro (rtmv2.h)
 author: windows-sdk-content
 description: The RTM_IPV4_MAKE_NET_ADDRESS macro converts an IPv4 address and a length to a generic RTM_NET_ADDRESS structure.
 old-location: rras\rtm_ipv4_make_net_address.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.DevicePowerSetDeviceState
-title: DevicePowerSetDeviceState function
+title: DevicePowerSetDeviceState function (powrprof.h)
 author: windows-sdk-content
 description: Modifies the specified data on the specified device.
 old-location: base\devicepowersetdevicestate.htm

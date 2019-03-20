@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.QueryContextAttributesA
-title: QueryContextAttributesA function
+title: QueryContextAttributesA function (sspi.h)
 author: windows-sdk-content
 description: Lets a transport application query the Credential Security Support Provider (CredSSP) security package for certain attributes of a security context.
 old-location: security\querycontextattributes__credssp_.htm

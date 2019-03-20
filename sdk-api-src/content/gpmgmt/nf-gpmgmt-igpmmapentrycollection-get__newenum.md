@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMMapEntryCollection.get__NewEnum
-title: IGPMMapEntryCollection::get__NewEnum
+title: IGPMMapEntryCollection::get__NewEnum (gpmgmt.h)
 author: windows-sdk-content
 description: Retrieves an enumerator for the collection.
 old-location: gpmc\igpmmapentrycollection_get__newenum.htm

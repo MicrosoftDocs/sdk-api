@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICryptAttribute.InitializeFromObjectId
-title: ICryptAttribute::InitializeFromObjectId
+title: ICryptAttribute::InitializeFromObjectId (certenroll.h)
 author: windows-sdk-content
 description: Initializes a cryptographic attribute by using an object identifier.
 old-location: security\icryptattribute_initializefromobjectid_method.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:cfg._PNP_VETO_TYPE
-title: PNP_VETO_TYPE
+title: PNP_VETO_TYPE (cfg.h)
 author: windows-sdk-content
 description: If the PnP manager rejects a request to perform an operation, the PNP_VETO_TYPE enumeration is used to identify the reason for the rejection.
 old-location: devinst\pnp_veto_type.htm

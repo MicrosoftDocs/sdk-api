@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CreateWriterEx
-title: CreateWriterEx function
+title: CreateWriterEx function (vswriter.h)
 author: windows-sdk-content
 description: This function is reserved for system use.
 old-location: base\createwriterex.htm

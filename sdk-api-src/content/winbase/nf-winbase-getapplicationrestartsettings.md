@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetApplicationRestartSettings
-title: GetApplicationRestartSettings function
+title: GetApplicationRestartSettings function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the restart information registered for the specified process.
 old-location: recovery\getapplicationrestartsettings.htm

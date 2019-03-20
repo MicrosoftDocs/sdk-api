@@ -1,6 +1,6 @@
 ---
 UID: NS:qossp._CONTROL_SERVICE
-title: CONTROL_SERVICE
+title: CONTROL_SERVICE (qossp.h)
 author: windows-sdk-content
 description: The CONTROL_SERVICE structure contains supported RSVP service types.
 old-location: qos\control_service.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationRangeValuePattern.get_CurrentMaximum
-title: IUIAutomationRangeValuePattern::get_CurrentMaximum
+title: IUIAutomationRangeValuePattern::get_CurrentMaximum (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the maximum value of the control.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CurrentMaximum.htm

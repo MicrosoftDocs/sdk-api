@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DAuthenticatedChannel9.NegotiateKeyExchange
-title: IDirect3DAuthenticatedChannel9::NegotiateKeyExchange
+title: IDirect3DAuthenticatedChannel9::NegotiateKeyExchange (d3d9.h)
 author: windows-sdk-content
 description: Establishes a session key for the authenticated channel.
 old-location: mf\idirect3dauthenticatedchannel9_negotiatekeyexchange.htm

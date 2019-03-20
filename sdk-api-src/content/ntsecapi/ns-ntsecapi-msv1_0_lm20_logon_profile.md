@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._MSV1_0_LM20_LOGON_PROFILE
-title: MSV1_0_LM20_LOGON_PROFILE
+title: MSV1_0_LM20_LOGON_PROFILE (ntsecapi.h)
 author: windows-sdk-content
 description: Contains information about a network logon session.
 old-location: security\msv1_0_lm20_logon_profile.htm

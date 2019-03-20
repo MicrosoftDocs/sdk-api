@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.AddRetrievalFilterEntries
-title: IDXGIInfoQueue::AddRetrievalFilterEntries
+title: IDXGIInfoQueue::AddRetrievalFilterEntries (dxgidebug.h)
 author: windows-sdk-content
 description: Adds retrieval filters to the top of the retrieval-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_addretrievalfilterentries.htm

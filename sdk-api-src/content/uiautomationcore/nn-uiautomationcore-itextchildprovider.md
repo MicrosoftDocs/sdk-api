@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.ITextChildProvider
-title: ITextChildProvider
+title: ITextChildProvider (uiautomationcore.h)
 author: windows-sdk-content
 description: Provides access to a text-based control (or an object embedded in text) that is a child or descendant of another text-based control.
 old-location: winauto\uiauto__ITextChildProvider.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfSystemDeviceTypeLangBarItem.SetIconMode
-title: ITfSystemDeviceTypeLangBarItem::SetIconMode
+title: ITfSystemDeviceTypeLangBarItem::SetIconMode (ctfutb.h)
 author: windows-sdk-content
 description: ITfSystemDeviceTypeLangBarItem::SetIconMode method
 old-location: tsf\itfsystemdevicetypelangbaritem_seticonmode.htm

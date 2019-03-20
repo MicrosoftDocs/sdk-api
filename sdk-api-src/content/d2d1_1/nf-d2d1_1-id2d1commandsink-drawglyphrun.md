@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.DrawGlyphRun
-title: ID2D1CommandSink::DrawGlyphRun
+title: ID2D1CommandSink::DrawGlyphRun (d2d1_1.h)
 author: windows-sdk-content
 description: Indicates the glyphs to be drawn.
 old-location: direct2d\id2d1commandsink_drawglyphrun.htm

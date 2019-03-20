@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.SetMessageCountLimit
-title: IDXGIInfoQueue::SetMessageCountLimit
+title: IDXGIInfoQueue::SetMessageCountLimit (dxgidebug.h)
 author: windows-sdk-content
 description: Sets the maximum number of messages that can be added to the message queue.
 old-location: direct3ddxgi\idxgiinfoqueue_setmessagecountlimit.htm

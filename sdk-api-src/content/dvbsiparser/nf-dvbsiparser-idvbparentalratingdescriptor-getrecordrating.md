@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbParentalRatingDescriptor.GetRecordRating
-title: IDvbParentalRatingDescriptor::GetRecordRating
+title: IDvbParentalRatingDescriptor::GetRecordRating (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets a code that indicates the age-based rating for a Digital Video Broadcast (DVB) broadcast from a DVB parental rating descriptor.
 old-location: mstv\idvbparentalratingdescriptor_getrecordrating.htm

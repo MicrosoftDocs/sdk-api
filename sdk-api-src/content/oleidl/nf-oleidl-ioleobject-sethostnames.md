@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleObject.SetHostNames
-title: IOleObject::SetHostNames
+title: IOleObject::SetHostNames (oleidl.h)
 author: windows-sdk-content
 description: Provides an object with the names of its container application and the compound document in which it is embedded.
 old-location: com\ioleobject_sethostnames.htm

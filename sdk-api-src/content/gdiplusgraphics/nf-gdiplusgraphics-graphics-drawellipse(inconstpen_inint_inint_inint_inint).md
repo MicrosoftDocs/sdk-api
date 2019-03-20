@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawEllipse(IN const Pen,IN INT,IN INT,IN INT,IN INT)
-title: Graphics::DrawEllipse(IN const Pen,IN INT,IN INT,IN INT,IN INT)
+title: Graphics::DrawEllipse(IN const Pen,IN INT,IN INT,IN INT,IN INT) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::DrawEllipse method draws an ellipse.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawEllipse_Pen_pen_INT_x_INT_y_INT_width_INT_height_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.RemoveConfiguration
-title: IDirectManipulationViewport::RemoveConfiguration
+title: IDirectManipulationViewport::RemoveConfiguration (directmanipulation.h)
 author: windows-sdk-content
 description: Removes an interaction configuration for the viewport.
 old-location: directmanipulation\idirectmanipulationviewport_removeconfiguration.htm

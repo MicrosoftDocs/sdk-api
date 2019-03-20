@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CTL_FIND_USAGE_PARA
-title: CTL_FIND_USAGE_PARA
+title: CTL_FIND_USAGE_PARA (wincrypt.h)
 author: windows-sdk-content
 description: A member of the CTL_FIND_SUBJECT_PARA structure and it is used by CertFindCTLInStore.
 old-location: security\ctl_find_usage_para.htm

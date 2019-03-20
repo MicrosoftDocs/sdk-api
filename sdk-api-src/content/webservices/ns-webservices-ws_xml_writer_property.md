@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_WRITER_PROPERTY
-title: WS_XML_WRITER_PROPERTY
+title: WS_XML_WRITER_PROPERTY (webservices.h)
 author: windows-sdk-content
 description: Specifies a writer specific setting.
 old-location: wsw\ws_xml_writer_property.htm

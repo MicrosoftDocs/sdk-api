@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Button_SetState
-title: Button_SetState macro
+title: Button_SetState macro (windowsx.h)
 author: windows-sdk-content
 description: Sets the highlight state of a button. The highlight state indicates whether the button is highlighted as if the user had pushed it. You can use this macro or send the BM_SETSTATE message explicitly.
 old-location: controls\Button_SetState.htm

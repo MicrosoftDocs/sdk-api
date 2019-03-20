@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSLocator2.put_SignalPilot
-title: IDVBSLocator2::put_SignalPilot
+title: IDVBSLocator2::put_SignalPilot (tuner.h)
 author: windows-sdk-content
 description: Specifies the pilot mode for a Digital Video Broadcasting-Satellite, Second Generation (DVB-S2) signal.
 old-location: mstv\idvbslocator2_signalpilot.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessible.get_accChildCount
-title: IAccessible::get_accChildCount
+title: IAccessible::get_accChildCount (oleacc.h)
 author: windows-sdk-content
 description: The IAccessible::get_accChildCount method retrieves the number of children that belong to this object. All objects must support this property.
 old-location: winauto\iaccessible_iaccessible__get_accchildcount.htm

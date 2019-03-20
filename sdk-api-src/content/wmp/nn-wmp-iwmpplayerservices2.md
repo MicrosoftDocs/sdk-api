@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPPlayerServices2
-title: IWMPPlayerServices2
+title: IWMPPlayerServices2 (wmp.h)
 author: windows-sdk-content
 description: The IWMPPlayerServices2 interface provides a method used by the host of a remoted Windows Media Player control to manipulate the full mode of the Player.
 old-location: wmp\iwmpplayerservices2.htm

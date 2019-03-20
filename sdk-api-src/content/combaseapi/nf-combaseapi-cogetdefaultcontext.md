@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoGetDefaultContext
-title: CoGetDefaultContext function
+title: CoGetDefaultContext function (combaseapi.h)
 author: windows-sdk-content
 description: Retrieves a reference to the default context of the specified apartment.
 old-location: cos\cogetdefaultcontext.htm

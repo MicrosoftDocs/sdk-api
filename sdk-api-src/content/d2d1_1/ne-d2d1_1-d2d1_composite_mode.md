@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1_1.D2D1_COMPOSITE_MODE
-title: D2D1_COMPOSITE_MODE
+title: D2D1_COMPOSITE_MODE (d2d1_1.h)
 author: windows-sdk-content
 description: Used to specify the blend mode for all of the Direct2D blending operations.
 old-location: direct2d\__d2d1_composite_mode.htm

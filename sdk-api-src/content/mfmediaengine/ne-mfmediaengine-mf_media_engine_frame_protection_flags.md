@@ -1,6 +1,6 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAGS
-title: MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAGS
+title: MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAGS (mfmediaengine.h)
 author: windows-sdk-content
 description: Specifies the content protection requirements for a video frame.
 old-location: mf\mf_media_engine_frame_protection_flags.htm

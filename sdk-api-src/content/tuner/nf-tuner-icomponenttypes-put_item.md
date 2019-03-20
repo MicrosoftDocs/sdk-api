@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponentTypes.put_Item
-title: IComponentTypes::put_Item
+title: IComponentTypes::put_Item (tuner.h)
 author: windows-sdk-content
 description: The put_Item method replaces the ComponentType object at the specified index with a new ComponentType object.
 old-location: mstv\icomponenttypes_put_item.htm

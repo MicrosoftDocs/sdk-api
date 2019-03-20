@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.HatchStyle
-title: HatchStyle
+title: HatchStyle (gdiplusenums.h)
 author: windows-sdk-content
 description: The HatchStyle enumeration specifies the hatch pattern used by a brush of type HatchBrush. The hatch pattern consists of a solid background color and lines drawn over the background.
 old-location: gdiplus\_gdiplus_ENUM_HatchStyle.htm

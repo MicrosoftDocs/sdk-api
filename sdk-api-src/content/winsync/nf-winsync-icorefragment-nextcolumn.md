@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ICoreFragment.NextColumn
-title: ICoreFragment::NextColumn
+title: ICoreFragment::NextColumn (winsync.h)
 author: windows-sdk-content
 description: Returns the next change unit ID in the set of change unit IDs that this knowledge fragment applies to.
 old-location: winsync\icorefragment_nextcolumn.htm

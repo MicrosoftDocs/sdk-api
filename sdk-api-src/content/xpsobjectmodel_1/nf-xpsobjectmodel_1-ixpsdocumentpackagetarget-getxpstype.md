@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsDocumentPackageTarget.GetXpsType
-title: IXpsDocumentPackageTarget::GetXpsType
+title: IXpsDocumentPackageTarget::GetXpsType (xpsobjectmodel_1.h)
 author: windows-sdk-content
 description: Gets the XPS_DOCUMENT_TYPE enumerated value for the document package.
 old-location: xps\ixpsdocumentpackagetarget_getxpstype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:usp10.__unnamed_struct_1
-title: SCRIPT_FONTPROPERTIES
+title: SCRIPT_FONTPROPERTIES (usp10.h)
 author: windows-sdk-content
 description: Contains information about the properties of the current font.
 old-location: intl\script_fontproperties.htm

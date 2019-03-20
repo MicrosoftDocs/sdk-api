@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPService.QueryStateVariable
-title: IUPnPService::QueryStateVariable
+title: IUPnPService::QueryStateVariable (upnp.h)
 author: windows-sdk-content
 description: The QueryStateVariable method returns the value of the specified service's state variable.
 old-location: upnp\iupnpservice_querystatevariable.htm

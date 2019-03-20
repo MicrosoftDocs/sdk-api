@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAgentHandler.EnumerateACDGroups
-title: ITAgentHandler::EnumerateACDGroups
+title: ITAgentHandler::EnumerateACDGroups (tapi3.h)
 author: windows-sdk-content
 description: The EnumerateACDGroups method enumerates ACD groups currently associated with the agent handler.
 old-location: tapi3\itagenthandler_enumerateacdgroups.htm

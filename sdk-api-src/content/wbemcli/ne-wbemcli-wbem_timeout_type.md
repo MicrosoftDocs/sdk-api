@@ -1,6 +1,6 @@
 ---
 UID: NE:wbemcli.tag_WBEM_TIMEOUT_TYPE
-title: WBEM_TIMEOUT_TYPE
+title: WBEM_TIMEOUT_TYPE (wbemcli.h)
 author: windows-sdk-content
 description: Contains values used to specify the timeout for the IEnumWbemClassObject::Next method.
 old-location: wmi\wbem_timeout_type.htm

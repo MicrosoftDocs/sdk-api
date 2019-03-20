@@ -1,6 +1,6 @@
 ---
 UID: NF:mspcall.CMSPCallBase.ShutDown
-title: CMSPCallBase::ShutDown
+title: CMSPCallBase::ShutDown (mspcall.h)
 author: windows-sdk-content
 description: The ShutDown method is called by the MSPAddress object (in the method ShutdownMSPCall) to shut down the call.
 old-location: tapi3\cmspcallbase_shutdown.htm

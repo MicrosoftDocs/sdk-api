@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset.MINIDUMP_EXCEPTION_STREAM
-title: MINIDUMP_EXCEPTION_STREAM
+title: MINIDUMP_EXCEPTION_STREAM (minidumpapiset.h)
 author: windows-sdk-content
 description: Represents an exception information stream.
 old-location: base\minidump_exception_stream_str.htm

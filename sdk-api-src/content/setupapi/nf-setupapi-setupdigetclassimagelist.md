@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetClassImageList
-title: SetupDiGetClassImageList function
+title: SetupDiGetClassImageList function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetClassImageList function builds an image list that contains bitmaps for every installed class and returns the list in a data structure.
 old-location: devinst\setupdigetclassimagelist.htm

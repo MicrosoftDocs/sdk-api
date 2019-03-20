@@ -1,6 +1,6 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingDescription
-title: TraceLoggingDescription macro
+title: TraceLoggingDescription macro (traceloggingprovider.h)
 author: windows-sdk-content
 description: Wrapper macro for setting a description for an event.
 old-location: tracelogging\traceloggingdescription.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winfax._FAX_TIME
-title: FAX_TIME
+title: FAX_TIME (winfax.h)
 author: windows-sdk-content
 description: The FAX_TIME structure represents a time, using individual members for the current hour and minute. The time is expressed in Coordinated Universal Time (UTC).
 old-location: fax\_mfax_fax_time_str.htm

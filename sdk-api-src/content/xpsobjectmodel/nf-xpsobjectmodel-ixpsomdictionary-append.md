@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDictionary.Append
-title: IXpsOMDictionary::Append
+title: IXpsOMDictionary::Append (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Appends an IXpsOMShareable interface along with its key to the end of the dictionary.
 old-location: xps\ixpsomdictionary_append.htm

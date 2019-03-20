@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.RpcSmDisableAllocate
-title: RpcSmDisableAllocate function
+title: RpcSmDisableAllocate function (rpcndr.h)
 author: windows-sdk-content
 description: The RpcSmDisableAllocate function frees resources and memory within the stub memory&#8211;management environment.
 old-location: rpc\rpcsmdisableallocate.htm

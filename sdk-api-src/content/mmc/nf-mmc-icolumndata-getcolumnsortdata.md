@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IColumnData.GetColumnSortData
-title: IColumnData::GetColumnSortData
+title: IColumnData::GetColumnSortData (mmc.h)
 author: windows-sdk-content
 description: The IColumnData::GetColumnSortData method enables a snap-in to retrieve from memory the sorted column and sorting direction for columns in a column set.
 old-location: mmc\icolumndata_getcolumnsortdata.htm

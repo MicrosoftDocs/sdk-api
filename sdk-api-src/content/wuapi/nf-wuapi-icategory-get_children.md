@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.ICategory.get_Children
-title: ICategory::get_Children
+title: ICategory::get_Children (wuapi.h)
 author: windows-sdk-content
 description: Gets an interface collection that contains the child categories of this category.
 old-location: wua\icategory_children.htm

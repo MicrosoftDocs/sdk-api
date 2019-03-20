@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope2.DeleteRoleDefinition
-title: IAzScope2::DeleteRoleDefinition
+title: IAzScope2::DeleteRoleDefinition (azroles.h)
 author: windows-sdk-content
 description: Removes the specified IAzRoleDefinition object from this scope.
 old-location: security\iazscope2_deleteroledefinition.htm

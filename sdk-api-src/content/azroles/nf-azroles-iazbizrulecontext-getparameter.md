@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzBizRuleContext.GetParameter
-title: IAzBizRuleContext::GetParameter
+title: IAzBizRuleContext::GetParameter (azroles.h)
 author: windows-sdk-content
 description: Gets the specified value from the varParameterValues parameter of the IAzClientContext::AccessCheck method.
 old-location: security\azbizrulecontext_getparameter.htm

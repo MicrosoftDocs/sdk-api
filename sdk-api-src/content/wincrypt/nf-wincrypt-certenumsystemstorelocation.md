@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertEnumSystemStoreLocation
-title: CertEnumSystemStoreLocation function
+title: CertEnumSystemStoreLocation function (wincrypt.h)
 author: windows-sdk-content
 description: The CertEnumSystemStoreLocation function retrieves all of the system store locations. The function calls the provided callback function for each system store location found.
 old-location: security\certenumsystemstorelocation.htm

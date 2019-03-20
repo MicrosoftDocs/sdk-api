@@ -1,6 +1,6 @@
 ---
 UID: NF:winsnmp.SnmpGetVb
-title: SnmpGetVb function
+title: SnmpGetVb function (winsnmp.h)
 author: windows-sdk-content
 description: A WinSNMP application calls the SnmpGetVb function to retrieve information from a variable bindings list. This WinSNMP function retrieves a variable name and its associated value from the variable binding entry specified by the index parameter.
 old-location: snmp\snmpgetvb.htm

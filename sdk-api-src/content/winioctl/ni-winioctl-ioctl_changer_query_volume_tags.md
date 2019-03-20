@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_CHANGER_QUERY_VOLUME_TAGS
-title: IOCTL_CHANGER_QUERY_VOLUME_TAGS
+title: IOCTL_CHANGER_QUERY_VOLUME_TAGS (winioctl.h)
 author: windows-sdk-content
 description: Retrieves the volume tag information for the specified elements.
 old-location: base\ioctl_changer_query_volume_tags.htm

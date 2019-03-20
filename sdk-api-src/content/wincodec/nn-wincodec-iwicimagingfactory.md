@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICImagingFactory
-title: IWICImagingFactory
+title: IWICImagingFactory (wincodec.h)
 author: windows-sdk-content
 description: Exposes methods used to create components for the Windows Imaging Component (WIC) such as decoders, encoders and pixel format converters.
 old-location: wic\_wic_codec_iwicimagingfactory.htm

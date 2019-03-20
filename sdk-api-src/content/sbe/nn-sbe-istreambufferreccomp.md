@@ -1,6 +1,6 @@
 ---
 UID: NN:sbe.IStreamBufferRecComp
-title: IStreamBufferRecComp
+title: IStreamBufferRecComp (sbe.h)
 author: windows-sdk-content
 description: The IStreamBufferRecComp interface is used to create new content recordings by concatenating existing recordings. The new recording can be created from a mix of reference and content recordings.The Stream Buffer RecComp object exposes this interface.
 old-location: mstv\istreambufferreccomp.htm

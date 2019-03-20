@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxAccount.get_RegisteredEvents
-title: IFaxAccount::get_RegisteredEvents
+title: IFaxAccount::get_RegisteredEvents (faxcomex.h)
 author: windows-sdk-content
 description: A set of flags indicating the type of events for which the account is listening.
 old-location: fax\_mfax_faxaccount_cpp_mfax_faxaccount_registeredevents_cpp.htm

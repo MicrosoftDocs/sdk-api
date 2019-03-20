@@ -1,6 +1,6 @@
 ---
 UID: NF:evntprov.EventDescSetVersion
-title: EventDescSetVersion function
+title: EventDescSetVersion function (evntprov.h)
 author: windows-sdk-content
 description: Sets the Version member of the event descriptor.
 old-location: etw\eventdescsetversion_func.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetClassBitmapIndex
-title: SetupDiGetClassBitmapIndex function
+title: SetupDiGetClassBitmapIndex function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetClassBitmapIndex function retrieves the index of the mini-icon supplied for the specified class.
 old-location: devinst\setupdigetclassbitmapindex.htm

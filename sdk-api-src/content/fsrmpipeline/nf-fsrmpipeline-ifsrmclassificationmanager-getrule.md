@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.GetRule
-title: IFsrmClassificationManager::GetRule
+title: IFsrmClassificationManager::GetRule (fsrmpipeline.h)
 author: windows-sdk-content
 description: Retrieves the specified rule.
 old-location: fsrm\ifsrmclassificationmanager_getrule.htm

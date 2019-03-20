@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetLeakRate
-title: IIsdbDownloadContentDescriptor::GetLeakRate
+title: IIsdbDownloadContentDescriptor::GetLeakRate (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the leak rate of the transport buffer from an Integrated Services Digital Broadcasting (ISDB) download content descriptor, in bytes per second.
 old-location: mstv\iisdbdownloadcontentdescriptor_getleakrate.htm

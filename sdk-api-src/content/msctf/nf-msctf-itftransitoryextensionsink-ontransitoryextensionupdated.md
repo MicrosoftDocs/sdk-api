@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfTransitoryExtensionSink.OnTransitoryExtensionUpdated
-title: ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated
+title: ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated (msctf.h)
 author: windows-sdk-content
 description: ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated method
 old-location: tsf\itftransitoryextensionsink_ontransitoryextensionupdated.htm

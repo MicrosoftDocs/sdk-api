@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_CLASSIFY_OPTION0_
-title: FWPM_CLASSIFY_OPTION0
+title: FWPM_CLASSIFY_OPTION0 (fwpmtypes.h)
 author: windows-sdk-content
 description: The FWPM_CLASSIFY_OPTION0 structure.
 old-location: fwp\fwpm_classify_option0.htm

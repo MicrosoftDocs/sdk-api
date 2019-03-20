@@ -1,6 +1,6 @@
 ---
 UID: NL:gdiplustypes.RectF
-title: RectF
+title: RectF (gdiplustypes.h)
 author: windows-sdk-content
 description: A RectF object stores the upper-left corner, width, and height of a rectangle.
 old-location: gdiplus\_gdiplus_CLASS_RectF_Class.htm

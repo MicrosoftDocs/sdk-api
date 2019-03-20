@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagENUMLOGFONTEXDVA
-title: ENUMLOGFONTEXDVA
+title: ENUMLOGFONTEXDVA (wingdi.h)
 author: windows-sdk-content
 description: The ENUMLOGFONTEXDV structure contains the information used to create a font.
 old-location: gdi\enumlogfontexdv.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreen.get_UserSid
-title: IFsrmFileScreen::get_UserSid
+title: IFsrmFileScreen::get_UserSid (fsrmscreen.h)
 author: windows-sdk-content
 description: The SID of the user whose files will be screened.
 old-location: fsrm\ifsrmfilescreen_usersid.htm

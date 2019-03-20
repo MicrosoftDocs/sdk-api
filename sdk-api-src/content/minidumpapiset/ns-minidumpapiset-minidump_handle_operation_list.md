@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_HANDLE_OPERATION_LIST
-title: MINIDUMP_HANDLE_OPERATION_LIST
+title: MINIDUMP_HANDLE_OPERATION_LIST (minidumpapiset.h)
 author: windows-sdk-content
 description: Contains a list of handle operations.
 old-location: base\minidump_handle_operation_list.htm

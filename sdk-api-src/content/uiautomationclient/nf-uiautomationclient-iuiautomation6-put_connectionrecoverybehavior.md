@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation6.put_ConnectionRecoveryBehavior
-title: IUIAutomation6::put_ConnectionRecoveryBehavior
+title: IUIAutomation6::put_ConnectionRecoveryBehavior (uiautomationclient.h)
 author: windows-sdk-content
 description: Indicates whether an accessible technology client adjusts provider request timeouts when the provider is non-responsive.
 old-location: winauto\uiauto_IUIAutomation6_ConnectionRecoveryBehavior.htm

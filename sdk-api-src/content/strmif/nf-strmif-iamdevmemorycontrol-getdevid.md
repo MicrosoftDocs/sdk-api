@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMDevMemoryControl.GetDevId
-title: IAMDevMemoryControl::GetDevId
+title: IAMDevMemoryControl::GetDevId (strmif.h)
 author: windows-sdk-content
 description: Note  The IAMDevMemoryControl interface is deprecated. Retrieves the device ID of the on-board memory allocator.
 old-location: dshow\iamdevmemorycontrol_getdevid.htm

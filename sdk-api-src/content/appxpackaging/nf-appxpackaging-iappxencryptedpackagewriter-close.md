@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptedPackageWriter.Close
-title: IAppxEncryptedPackageWriter::Close
+title: IAppxEncryptedPackageWriter::Close (appxpackaging.h)
 author: windows-sdk-content
 description: Closes and finalizes the written package stream.
 old-location: appxpkg\iappxencryptedpackagewriter_close.htm

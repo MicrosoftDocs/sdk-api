@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IVMRSurfaceAllocatorNotify
-title: IVMRSurfaceAllocatorNotify
+title: IVMRSurfaceAllocatorNotify (strmif.h)
 author: windows-sdk-content
 description: The IVMRSurfaceAllocatorNotify interface is implemented by the Video Mixing Renderer Filter 7 (VMR-7).
 old-location: dshow\ivmrsurfaceallocatornotify.htm

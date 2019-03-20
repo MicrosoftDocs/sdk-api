@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICColorContext.InitializeFromFilename
-title: IWICColorContext::InitializeFromFilename
+title: IWICColorContext::InitializeFromFilename (wincodec.h)
 author: windows-sdk-content
 description: Initializes the color context from the given file.
 old-location: wic\_wic_codec_iwiccolorcontext_initializefromfilename.htm

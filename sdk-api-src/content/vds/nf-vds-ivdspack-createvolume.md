@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsPack.CreateVolume
-title: IVdsPack::CreateVolume
+title: IVdsPack::CreateVolume (vds.h)
 author: windows-sdk-content
 description: Creates a volume within the pack.
 old-location: base\ivdspack_createvolume.htm

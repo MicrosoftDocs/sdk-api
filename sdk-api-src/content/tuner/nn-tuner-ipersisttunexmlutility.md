@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IPersistTuneXmlUtility
-title: IPersistTuneXmlUtility
+title: IPersistTuneXmlUtility (tuner.h)
 author: windows-sdk-content
 description: Defines utility methods for deserializing XML tuning requests to objects that expose their IUnknown interfaces.
 old-location: mstv\ipersisttunexmlutility.htm

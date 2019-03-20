@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetStartStopPosition
-title: IMFPMediaItem::GetStartStopPosition
+title: IMFPMediaItem::GetStartStopPosition (mfplay.h)
 author: windows-sdk-content
 description: Gets the start and stop times for the media item.
 old-location: mf\imfpmediaitem_getstartstopposition.htm

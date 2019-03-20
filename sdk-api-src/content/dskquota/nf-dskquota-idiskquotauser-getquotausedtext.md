@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.GetQuotaUsedText
-title: IDiskQuotaUser::GetQuotaUsedText
+title: IDiskQuotaUser::GetQuotaUsedText (dskquota.h)
 author: windows-sdk-content
 description: Retrieves the user's quota used value for the volume.
 old-location: fs\idiskquotauser_getquotausedtext.htm

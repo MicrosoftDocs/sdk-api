@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.phoneGetRing
-title: phoneGetRing function
+title: phoneGetRing function (tapi.h)
 author: windows-sdk-content
 description: The phoneGetRing function enables an application to query the specified open phone device as to its current ring mode.
 old-location: tapi2\phonegetring.htm

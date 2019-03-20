@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterAddGroupToGroupSet
-title: ClusterAddGroupToGroupSet function
+title: ClusterAddGroupToGroupSet function (clusapi.h)
 author: windows-sdk-content
 description: Adds the specified group to a groupset in the cluster.
 old-location: mscs\clusteraddgrouptogroupcollection.htm

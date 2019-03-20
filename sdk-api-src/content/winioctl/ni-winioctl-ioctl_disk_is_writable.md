@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_IS_WRITABLE
-title: IOCTL_DISK_IS_WRITABLE
+title: IOCTL_DISK_IS_WRITABLE (winioctl.h)
 author: windows-sdk-content
 description: Determines whether the specified disk is writable.
 old-location: fs\ioctl_disk_is_writable.htm

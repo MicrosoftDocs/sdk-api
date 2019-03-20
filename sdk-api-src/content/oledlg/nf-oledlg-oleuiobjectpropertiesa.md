@@ -1,6 +1,6 @@
 ---
 UID: NF:oledlg.OleUIObjectPropertiesA
-title: OleUIObjectPropertiesA function
+title: OleUIObjectPropertiesA function (oledlg.h)
 author: windows-sdk-content
 description: Invokes the Object Properties dialog box, which displays General, View, and Link information about an object.
 old-location: com\oleuiobjectproperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpSetOption
-title: WinHttpSetOption function
+title: WinHttpSetOption function (winhttp.h)
 author: windows-sdk-content
 description: The WinHttpSetOption function sets an Internet option.
 old-location: http\winhttpsetoption.htm

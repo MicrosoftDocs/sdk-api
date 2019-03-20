@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationValuePattern.get_CachedValue
-title: IUIAutomationValuePattern::get_CachedValue
+title: IUIAutomationValuePattern::get_CachedValue (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached value of the element.
 old-location: winauto\uiauto_IUIAutomationValuePattern_CachedValue.htm

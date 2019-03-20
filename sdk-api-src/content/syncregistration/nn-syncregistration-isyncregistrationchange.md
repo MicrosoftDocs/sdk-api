@@ -1,6 +1,6 @@
 ---
 UID: NN:syncregistration.ISyncRegistrationChange
-title: ISyncRegistrationChange
+title: ISyncRegistrationChange (syncregistration.h)
 author: windows-sdk-content
 description: Represents a change to the registration of a synchronization provider or a synchronization provider configuration UI. The changes are reported as registration events.
 old-location: winsync\isyncregistrationchange.htm

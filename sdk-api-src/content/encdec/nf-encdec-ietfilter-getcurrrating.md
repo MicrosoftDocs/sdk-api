@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IETFilter.GetCurrRating
-title: IETFilter::GetCurrRating
+title: IETFilter::GetCurrRating (encdec.h)
 author: windows-sdk-content
 description: The GetCurrRating method retrieves the current rating, based on the most recent media sample.
 old-location: mstv\ietfilter_getcurrrating.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFQualityAdviseLimits.GetMaximumDropMode
-title: IMFQualityAdviseLimits::GetMaximumDropMode
+title: IMFQualityAdviseLimits::GetMaximumDropMode (mfidl.h)
 author: windows-sdk-content
 description: Gets the maximum drop mode.
 old-location: mf\imfqualityadviselimits_getmaximumdropmode.htm

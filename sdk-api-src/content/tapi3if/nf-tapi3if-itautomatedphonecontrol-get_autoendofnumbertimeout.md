@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.get_AutoEndOfNumberTimeout
-title: ITAutomatedPhoneControl::get_AutoEndOfNumberTimeout
+title: ITAutomatedPhoneControl::get_AutoEndOfNumberTimeout (tapi3if.h)
 author: windows-sdk-content
 description: The get_AutoEndOfNumberTimeout method retrieves the current value of the AutoEndOfNumberTimeout property. The property specifies how long to wait after a digit has been pressed before it is assumed that the entire number has been gathered.
 old-location: tapi3\itautomatedphonecontrol_get_autoendofnumbertimeout.htm

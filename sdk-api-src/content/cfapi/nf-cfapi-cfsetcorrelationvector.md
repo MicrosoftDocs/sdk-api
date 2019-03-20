@@ -1,6 +1,6 @@
 ---
 UID: NF:cfapi.CfSetCorrelationVector
-title: CfSetCorrelationVector function
+title: CfSetCorrelationVector function (cfapi.h)
 author: windows-sdk-content
 description: Allows a sync provider to instruct the platform to use a specific correlation vector for telemetry purposes on a placeholder file. This is optional.
 old-location: cloudapi\cfsetcorrelationvector.htm

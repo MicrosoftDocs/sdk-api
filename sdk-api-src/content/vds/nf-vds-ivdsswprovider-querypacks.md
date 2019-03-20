@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsSwProvider.QueryPacks
-title: IVdsSwProvider::QueryPacks
+title: IVdsSwProvider::QueryPacks (vds.h)
 author: windows-sdk-content
 description: Returns an enumeration object that contains all packs managed by the software provider.
 old-location: base\ivdsswprovider_querypacks.htm

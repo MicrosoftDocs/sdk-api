@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxBundleWriter2
-title: IAppxBundleWriter2
+title: IAppxBundleWriter2 (appxpackaging.h)
 author: windows-sdk-content
 description: Provides a write-only object model for bundle packages.
 old-location: appxpkg\iappxbundlewriter2.htm

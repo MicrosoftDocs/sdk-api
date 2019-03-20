@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.IRunningTaskCollection
-title: IRunningTaskCollection
+title: IRunningTaskCollection (taskschd.h)
 author: windows-sdk-content
 description: Provides a collection that is used to control running tasks.
 old-location: taskschd\irunningtaskcollection.htm

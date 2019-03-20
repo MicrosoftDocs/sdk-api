@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMScalarCosEst
-title: XMScalarCosEst function
+title: XMScalarCosEst function (directxmath.h)
 author: windows-sdk-content
 description: Estimates the cosine of a radian angle.
 old-location: dxmath\xmscalarcosest.htm

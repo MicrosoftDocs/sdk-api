@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IStringCollection.RemoveAt
-title: IStringCollection::RemoveAt
+title: IStringCollection::RemoveAt (wuapi.h)
 author: windows-sdk-content
 description: Removes the item at the specified index from the collection.
 old-location: wua\istringcollection_removeat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:winnt._FIRMWARE_TYPE
-title: FIRMWARE_TYPE
+title: FIRMWARE_TYPE (winnt.h)
 author: windows-sdk-content
 description: Specifies a firmware type.
 old-location: base\firmware_type.htm

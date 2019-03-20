@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEncoderAPI.IsSupported
-title: IEncoderAPI::IsSupported
+title: IEncoderAPI::IsSupported (strmif.h)
 author: windows-sdk-content
 description: The IsSupported method queries whether a given parameter is supported.
 old-location: mstv\iencoderapi_issupported.htm

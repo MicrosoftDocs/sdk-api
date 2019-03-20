@@ -1,6 +1,6 @@
 ---
 UID: NI:genericusbfnioctl.IOCTL_GENERICUSBFN_DEACTIVATE_USB_BUS
-title: IOCTL_GENERICUSBFN_DEACTIVATE_USB_BUS
+title: IOCTL_GENERICUSBFN_DEACTIVATE_USB_BUS (genericusbfnioctl.h)
 author: windows-sdk-content
 description: This IOCTL code is nevtot supported.
 old-location: buses\ioctl_genericusbfn_deactivate_usb_bus.htm

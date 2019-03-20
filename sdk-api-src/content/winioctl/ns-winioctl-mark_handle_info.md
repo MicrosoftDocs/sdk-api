@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl.__unnamed_struct_32
-title: MARK_HANDLE_INFO
+title: MARK_HANDLE_INFO (winioctl.h)
 author: windows-sdk-content
 description: Contains information that is used to mark a specified file or directory, and its update sequence number (USN) change journal record with data about changes.
 old-location: fs\mark_handle_info_str.htm

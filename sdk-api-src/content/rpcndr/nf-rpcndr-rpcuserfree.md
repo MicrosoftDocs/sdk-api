@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.RpcUserFree
-title: RpcUserFree function
+title: RpcUserFree function (rpcndr.h)
 author: windows-sdk-content
 description: RpcUserFree may be altered or unavailable.
 old-location: rpc\rpcuserfree.htm

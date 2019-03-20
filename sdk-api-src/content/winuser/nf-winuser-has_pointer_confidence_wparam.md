@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.HAS_POINTER_CONFIDENCE_WPARAM
-title: HAS_POINTER_CONFIDENCE_WPARAM macro
+title: HAS_POINTER_CONFIDENCE_WPARAM macro (winuser.h)
 author: windows-sdk-content
 description: Checks whether the specified pointer message is considered intentional rather than accidental.
 old-location: inputmsg\has_pointer_confidence_wparam.htm

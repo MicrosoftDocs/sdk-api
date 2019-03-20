@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10.D3D10_BLEND_OP
-title: D3D10_BLEND_OP
+title: D3D10_BLEND_OP (d3d10.h)
 author: windows-sdk-content
 description: RGB or alpha blending operation.
 old-location: direct3d10\d3d10_blend_op.htm

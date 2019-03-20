@@ -1,6 +1,6 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.CreateJob
-title: IBackgroundCopyGroup::CreateJob
+title: IBackgroundCopyGroup::CreateJob (qmgr.h)
 author: windows-sdk-content
 description: Use the CreateJob method to add a new job to the group. A group can contain only one job.
 old-location: bits\ibackgroundcopygroup_createjob.htm

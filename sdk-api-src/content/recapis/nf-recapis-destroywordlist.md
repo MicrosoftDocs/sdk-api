@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.DestroyWordList
-title: DestroyWordList function
+title: DestroyWordList function (recapis.h)
 author: windows-sdk-content
 description: Destroys the current word list.
 old-location: tablet\destroywordlist.htm

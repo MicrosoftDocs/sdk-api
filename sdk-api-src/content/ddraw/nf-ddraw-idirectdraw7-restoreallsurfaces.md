@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.RestoreAllSurfaces
-title: IDirectDraw7::RestoreAllSurfaces
+title: IDirectDraw7::RestoreAllSurfaces (ddraw.h)
 author: windows-sdk-content
 description: Restores all the surfaces that were created for the DirectDraw object, in the order that they were created.
 old-location: directdraw\idirectdraw7_restoreallsurfaces.htm

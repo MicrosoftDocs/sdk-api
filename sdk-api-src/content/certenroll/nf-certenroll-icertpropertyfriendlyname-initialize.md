@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyFriendlyName.Initialize
-title: ICertPropertyFriendlyName::Initialize
+title: ICertPropertyFriendlyName::Initialize (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from the certificate display name.
 old-location: security\icertpropertyfriendlyname_initialize_method.htm

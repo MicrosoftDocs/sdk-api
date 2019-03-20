@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetClassImageListExA
-title: SetupDiGetClassImageListExA function
+title: SetupDiGetClassImageListExA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetClassImageListEx function builds an image list of bitmaps for every class installed on a local or remote system.
 old-location: devinst\setupdigetclassimagelistex.htm

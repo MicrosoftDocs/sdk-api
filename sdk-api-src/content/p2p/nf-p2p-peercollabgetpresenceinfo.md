@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabGetPresenceInfo
-title: PeerCollabGetPresenceInfo function
+title: PeerCollabGetPresenceInfo function (p2p.h)
 author: windows-sdk-content
 description: Retrieves the presence information for the endpoint associated with a specific contact.
 old-location: p2p\peercollabgetpresenceinfo.htm

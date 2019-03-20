@@ -1,6 +1,6 @@
 ---
 UID: NF:peerdist.PeerDistUnregisterForStatusChangeNotification
-title: PeerDistUnregisterForStatusChangeNotification function
+title: PeerDistUnregisterForStatusChangeNotification function (peerdist.h)
 author: windows-sdk-content
 description: PeerDistUnregisterForStatusChangeNotification function unregisters the status change notification for the session associated with the specified handle.
 old-location: p2p\peerdistunregisterforstatuschangenotification.htm

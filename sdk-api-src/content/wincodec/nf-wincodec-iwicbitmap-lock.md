@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmap.Lock
-title: IWICBitmap::Lock
+title: IWICBitmap::Lock (wincodec.h)
 author: windows-sdk-content
 description: Provides access to a rectangular area of the bitmap.
 old-location: wic\_wic_codec_iwicbitmap_lock.htm

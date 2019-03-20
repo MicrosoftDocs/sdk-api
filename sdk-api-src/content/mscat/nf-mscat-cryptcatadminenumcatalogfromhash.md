@@ -1,6 +1,6 @@
 ---
 UID: NF:mscat.CryptCATAdminEnumCatalogFromHash
-title: CryptCATAdminEnumCatalogFromHash function
+title: CryptCATAdminEnumCatalogFromHash function (mscat.h)
 author: windows-sdk-content
 description: Enumerates the catalogs that contain a specified hash.
 old-location: security\cryptcatadminenumcatalogfromhash.htm

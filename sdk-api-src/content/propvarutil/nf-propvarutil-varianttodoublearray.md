@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantToDoubleArray
-title: VariantToDoubleArray function
+title: VariantToDoubleArray function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts an array of DOUBLE values from a VARIANT structure.
 old-location: properties\VariantToDoubleArray.htm

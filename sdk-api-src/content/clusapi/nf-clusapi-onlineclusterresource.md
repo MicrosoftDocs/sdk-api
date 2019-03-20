@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.OnlineClusterResource
-title: OnlineClusterResource function
+title: OnlineClusterResource function (clusapi.h)
 author: windows-sdk-content
 description: Brings an offline or failed resource online.
 old-location: mscs\onlineclusterresource.htm

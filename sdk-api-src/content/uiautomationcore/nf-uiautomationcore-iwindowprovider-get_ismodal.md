@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IWindowProvider.get_IsModal
-title: IWindowProvider::get_IsModal
+title: IWindowProvider::get_IsModal (uiautomationcore.h)
 author: windows-sdk-content
 description: Indicates whether the window is modal.
 old-location: winauto\uiauto_IWindowProvider_IsModal.htm

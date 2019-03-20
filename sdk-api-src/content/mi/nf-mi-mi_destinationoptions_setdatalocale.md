@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_SetDataLocale
-title: MI_DestinationOptions_SetDataLocale function
+title: MI_DestinationOptions_SetDataLocale function (mi.h)
 author: windows-sdk-content
 description: Sets the default data locale to use for operations.
 old-location: wmi_v2\mi_destinationoptions_setdatalocale.htm

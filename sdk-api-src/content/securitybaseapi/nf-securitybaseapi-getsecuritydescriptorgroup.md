@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.GetSecurityDescriptorGroup
-title: GetSecurityDescriptorGroup function
+title: GetSecurityDescriptorGroup function (securitybaseapi.h)
 author: windows-sdk-content
 description: Retrieves the primary group information from a security descriptor.
 old-location: security\getsecuritydescriptorgroup.htm

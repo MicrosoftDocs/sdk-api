@@ -1,6 +1,6 @@
 ---
 UID: NS:mfobjects._MFOffset
-title: MFOffset
+title: MFOffset (mfobjects.h)
 author: windows-sdk-content
 description: Specifies an offset as a fixed-point real number.
 old-location: mf\mfoffset.htm

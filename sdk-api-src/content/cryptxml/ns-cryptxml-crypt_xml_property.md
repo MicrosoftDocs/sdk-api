@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_PROPERTY
-title: CRYPT_XML_PROPERTY
+title: CRYPT_XML_PROPERTY (cryptxml.h)
 author: windows-sdk-content
 description: Contains information about a CryptXML property.
 old-location: security\crypt_xml_property.htm

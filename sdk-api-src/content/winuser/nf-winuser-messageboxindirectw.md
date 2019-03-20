@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.MessageBoxIndirectW
-title: MessageBoxIndirectW function
+title: MessageBoxIndirectW function (winuser.h)
 author: windows-sdk-content
 description: Creates, displays, and operates a message box. The message box contains application-defined message text and title, any icon, and any combination of predefined push buttons.
 old-location: dlgbox\messageboxindirect.htm

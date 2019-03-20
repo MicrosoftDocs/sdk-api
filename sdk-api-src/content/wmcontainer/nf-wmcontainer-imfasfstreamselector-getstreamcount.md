@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.GetStreamCount
-title: IMFASFStreamSelector::GetStreamCount
+title: IMFASFStreamSelector::GetStreamCount (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves the number of streams that are in the Advanced Systems Format (ASF) content.
 old-location: mf\imfasfstreamselector_getstreamcount.htm

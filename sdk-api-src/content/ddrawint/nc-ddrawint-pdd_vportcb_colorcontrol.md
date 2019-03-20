@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_VPORTCB_COLORCONTROL
-title: PDD_VPORTCB_COLORCONTROL
+title: PDD_VPORTCB_COLORCONTROL (ddrawint.h)
 author: windows-sdk-content
 description: The DdVideoPortColorControl callback function gets or sets the VPE object color controls.
 old-location: display\ddvideoportcolorcontrol.htm

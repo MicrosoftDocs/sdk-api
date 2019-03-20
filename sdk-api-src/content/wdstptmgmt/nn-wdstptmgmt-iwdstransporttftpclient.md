@@ -1,6 +1,6 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportTftpClient
-title: IWdsTransportTftpClient
+title: IWdsTransportTftpClient (wdstptmgmt.h)
 author: windows-sdk-content
 description: This interface is used to specify information of a TFTP client session currently active in the server.
 old-location: wds\iwdstransporttftpclient.htm

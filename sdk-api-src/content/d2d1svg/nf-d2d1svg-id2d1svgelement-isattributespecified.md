@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.IsAttributeSpecified
-title: ID2D1SvgElement::IsAttributeSpecified
+title: ID2D1SvgElement::IsAttributeSpecified (d2d1svg.h)
 author: windows-sdk-content
 description: Returns a boolean indicating if the attribute is explicitly set on the element.
 old-location: direct2d\id2d1svgelement_isattributespecified.htm

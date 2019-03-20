@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntime.IWorkspace3.GetClaimsToken2
-title: IWorkspace3::GetClaimsToken2
+title: IWorkspace3::GetClaimsToken2 (workspaceruntime.h)
 author: windows-sdk-content
 description: Retrieves a claims token.
 old-location: termserv\iworkspace3_getclaimstoken2.htm

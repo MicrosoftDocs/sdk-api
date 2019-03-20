@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextRenderer.DrawStrikethrough
-title: IDWriteTextRenderer::DrawStrikethrough
+title: IDWriteTextRenderer::DrawStrikethrough (dwrite.h)
 author: windows-sdk-content
 description: IDWriteTextLayout::Draw calls this function to instruct the client to draw a strikethrough.
 old-location: directwrite\IDWriteTextRenderer_DrawStrikethrough.htm

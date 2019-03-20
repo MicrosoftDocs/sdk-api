@@ -1,6 +1,6 @@
 ---
 UID: NS:appmgmt._MANAGEDAPPLICATION
-title: MANAGEDAPPLICATION
+title: MANAGEDAPPLICATION (appmgmt.h)
 author: windows-sdk-content
 description: The MANAGEDAPPLICATION structure contains information about an application. The function GetManagedApplications returns an array of MANAGEDAPPLICATION structures.
 old-location: policy\managedapplication_str.htm

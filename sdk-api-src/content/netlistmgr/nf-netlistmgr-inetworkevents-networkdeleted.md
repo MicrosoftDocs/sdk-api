@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkEvents.NetworkDeleted
-title: INetworkEvents::NetworkDeleted
+title: INetworkEvents::NetworkDeleted (netlistmgr.h)
 author: windows-sdk-content
 description: The NetworkDeleted method is called when a network is deleted.
 old-location: nla\inetworkevents_networkdeleted.htm

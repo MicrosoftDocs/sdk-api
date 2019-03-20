@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.CacheIsFull
-title: IOfflineFilesEvents::CacheIsFull
+title: IOfflineFilesEvents::CacheIsFull (cscobj.h)
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: of\iofflinefilesevents_cacheisfull.htm

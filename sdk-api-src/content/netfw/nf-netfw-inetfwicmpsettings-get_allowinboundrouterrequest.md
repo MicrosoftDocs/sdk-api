@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.get_AllowInboundRouterRequest
-title: INetFwIcmpSettings::get_AllowInboundRouterRequest
+title: INetFwIcmpSettings::get_AllowInboundRouterRequest (netfw.h)
 author: windows-sdk-content
 description: Indicates whether this is allowed.
 old-location: ics\inetfwicmpsettings_allowinboundrouterrequest.htm

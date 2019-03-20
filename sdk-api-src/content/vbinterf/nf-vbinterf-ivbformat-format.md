@@ -1,6 +1,6 @@
 ---
 UID: NF:vbinterf.IVBFormat.Format
-title: IVBFormat::Format
+title: IVBFormat::Format (vbinterf.h)
 author: windows-sdk-content
 description: Formats a string according to a pattern.
 old-location: com\ivbformat_format.htm

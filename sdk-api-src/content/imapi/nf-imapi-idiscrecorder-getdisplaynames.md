@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscRecorder.GetDisplayNames
-title: IDiscRecorder::GetDisplayNames
+title: IDiscRecorder::GetDisplayNames (imapi.h)
 author: windows-sdk-content
 description: Retrieves a formatted name for the recorder that can be displayed. The name consists of the manufacturer and product identifier of the device.
 old-location: imapi\idiscrecorder_getdisplaynames.htm

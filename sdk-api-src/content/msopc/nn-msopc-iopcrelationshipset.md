@@ -1,6 +1,6 @@
 ---
 UID: NN:msopc.IOpcRelationshipSet
-title: IOpcRelationshipSet
+title: IOpcRelationshipSet (msopc.h)
 author: windows-sdk-content
 description: Represents a Relationships part as an unordered set of IOpcRelationship interface pointers to relationship objects.
 old-location: opc\iopcrelationshipset.htm

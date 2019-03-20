@@ -1,6 +1,6 @@
 ---
 UID: NF:winfax.FaxEnumRoutingMethodsA
-title: FaxEnumRoutingMethodsA function
+title: FaxEnumRoutingMethodsA function (winfax.h)
 author: windows-sdk-content
 description: The FaxEnumRoutingMethods function enumerates all fax routing methods for a specific fax device. The function returns information about each routing method to a fax client application.
 old-location: fax\_mfax_faxenumroutingmethods.htm

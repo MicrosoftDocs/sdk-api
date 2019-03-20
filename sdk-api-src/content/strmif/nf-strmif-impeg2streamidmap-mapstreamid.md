@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMPEG2StreamIdMap.MapStreamId
-title: IMPEG2StreamIdMap::MapStreamId
+title: IMPEG2StreamIdMap::MapStreamId (strmif.h)
 author: windows-sdk-content
 description: The MapStreamId method maps the Stream ID of an elementary stream within an MPEG-2 program stream to a media content type and substream filtering information.
 old-location: dshow\impeg2streamidmap_mapstreamid.htm

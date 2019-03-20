@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.WMCreateWriterNetworkSink
-title: WMCreateWriterNetworkSink function
+title: WMCreateWriterNetworkSink function (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMCreateWriterNetworkSink function creates a writer network sink object.
 old-location: wmformat\wmcreatewriternetworksink.htm

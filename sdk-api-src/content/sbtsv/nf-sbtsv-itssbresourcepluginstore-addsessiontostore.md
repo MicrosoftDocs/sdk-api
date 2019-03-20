@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.AddSessionToStore
-title: ITsSbResourcePluginStore::AddSessionToStore
+title: ITsSbResourcePluginStore::AddSessionToStore (sbtsv.h)
 author: windows-sdk-content
 description: Adds a new session to the resource plug-in store.
 old-location: termserv\itssbresourcepluginstore_addsessiontostore.htm

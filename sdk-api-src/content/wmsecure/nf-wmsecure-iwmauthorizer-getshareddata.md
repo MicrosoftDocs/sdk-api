@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsecure.IWMAuthorizer.GetSharedData
-title: IWMAuthorizer::GetSharedData
+title: IWMAuthorizer::GetSharedData (wmsecure.h)
 author: windows-sdk-content
 description: Retrieves shared data for the specified certificate.
 old-location: wmformat\iwmauthorizer_getshareddata.htm

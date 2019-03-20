@@ -1,6 +1,6 @@
 ---
 UID: NN:sbtsv.ITsSbLoadBalanceResult
-title: ITsSbLoadBalanceResult
+title: ITsSbLoadBalanceResult (sbtsv.h)
 author: windows-sdk-content
 description: Exposes methods and properties that store the target name returned by a load-balancing algorithm.
 old-location: termserv\itssbloadbalanceresult.htm

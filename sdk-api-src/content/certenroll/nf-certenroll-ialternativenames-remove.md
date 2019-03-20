@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IAlternativeNames.Remove
-title: IAlternativeNames::Remove
+title: IAlternativeNames::Remove (certenroll.h)
 author: windows-sdk-content
 description: Removes an object from the collection by index number.
 old-location: security\ialternativenames_remove_method.htm

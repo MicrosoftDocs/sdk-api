@@ -1,6 +1,6 @@
 ---
 UID: NN:objidlbase.IMarshal
-title: IMarshal
+title: IMarshal (objidlbase.h)
 author: windows-sdk-content
 description: Enables a COM object to define and manage the marshaling of its interface pointers.
 old-location: com\imarshal.htm

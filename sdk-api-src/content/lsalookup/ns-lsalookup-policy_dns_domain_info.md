@@ -1,6 +1,6 @@
 ---
 UID: NS:lsalookup._POLICY_DNS_DOMAIN_INFO
-title: POLICY_DNS_DOMAIN_INFO
+title: POLICY_DNS_DOMAIN_INFO (lsalookup.h)
 author: windows-sdk-content
 description: The POLICY_DNS_DOMAIN_INFO structure is used to set and query Domain Name System (DNS) information about the primary domain associated with a Policy object.
 old-location: security\policy_dns_domain_info.htm

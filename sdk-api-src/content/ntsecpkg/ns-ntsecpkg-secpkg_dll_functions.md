@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._SECPKG_DLL_FUNCTIONS
-title: SECPKG_DLL_FUNCTIONS
+title: SECPKG_DLL_FUNCTIONS (ntsecpkg.h)
 author: windows-sdk-content
 description: The SECPKG_DLL_FUNCTIONS structure contains pointers to the LSA functions that a security package can call while executing in-process with a client/server application.
 old-location: security\secpkg_dll_functions.htm

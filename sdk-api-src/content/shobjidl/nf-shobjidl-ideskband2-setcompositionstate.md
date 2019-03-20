@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IDeskBand2.SetCompositionState
-title: IDeskBand2::SetCompositionState
+title: IDeskBand2::SetCompositionState (shobjidl.h)
 author: windows-sdk-content
 description: Sets the composition state.
 old-location: shell\IDeskBand2_SetCompositionState.htm

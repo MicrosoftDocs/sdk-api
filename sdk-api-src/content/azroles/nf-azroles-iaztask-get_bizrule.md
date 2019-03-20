@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzTask.get_BizRule
-title: IAzTask::get_BizRule
+title: IAzTask::get_BizRule (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves the text of the script that implements the business rule (BizRule).
 old-location: security\iaztask_bizrule.htm

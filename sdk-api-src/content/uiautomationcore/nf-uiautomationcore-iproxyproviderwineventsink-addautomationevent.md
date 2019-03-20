@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IProxyProviderWinEventSink.AddAutomationEvent
-title: IProxyProviderWinEventSink::AddAutomationEvent
+title: IProxyProviderWinEventSink::AddAutomationEvent (uiautomationcore.h)
 author: windows-sdk-content
 description: Raises a Microsoft UI Automation event.
 old-location: winauto\uiauto_IProxyProviderWinEventSink_AddAutomationEvent.htm

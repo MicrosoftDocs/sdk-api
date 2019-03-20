@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponentType.get_MediaFormatType
-title: IComponentType::get_MediaFormatType
+title: IComponentType::get_MediaFormatType (tuner.h)
 author: windows-sdk-content
 description: The get_MediaFormatType method retrieves the DirectShow media format type as a BSTR.
 old-location: mstv\icomponenttype_get_mediaformattype.htm

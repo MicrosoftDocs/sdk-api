@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._MaySaveChanges
-title: IBrowserService2::_MaySaveChanges
+title: IBrowserService2::_MaySaveChanges (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Enables the base class to check whether the browser view needs to save changes before closing.
 old-location: shell\IBrowserService2__MaySaveChanges.htm

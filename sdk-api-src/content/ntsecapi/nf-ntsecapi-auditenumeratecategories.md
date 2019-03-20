@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.AuditEnumerateCategories
-title: AuditEnumerateCategories function
+title: AuditEnumerateCategories function (ntsecapi.h)
 author: windows-sdk-content
 description: Enumerates the available audit-policy categories.
 old-location: security\auditenumeratecategories_func.htm

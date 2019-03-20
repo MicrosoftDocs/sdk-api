@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITTerminalControl.RunRenderFilter
-title: ITTerminalControl::RunRenderFilter
+title: ITTerminalControl::RunRenderFilter (termmgr.h)
 author: windows-sdk-content
 description: The RunRenderFilter method starts the rightmost render filter in the terminal. Needed for dynamic filter graphs.
 old-location: tapi3\itterminalcontrol_runrenderfilter.htm

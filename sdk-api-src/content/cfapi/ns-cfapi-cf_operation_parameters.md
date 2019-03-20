@@ -1,6 +1,6 @@
 ---
 UID: NS:cfapi.CF_OPERATION_PARAMETERS
-title: CF_OPERATION_PARAMETERS
+title: CF_OPERATION_PARAMETERS (cfapi.h)
 author: windows-sdk-content
 description: Parameters of an operation on a placeholder file or folder.
 old-location: cloudapi\cf_operation_parameters.htm

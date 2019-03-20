@@ -1,6 +1,6 @@
 ---
 UID: NF:vpconfig.IVPConfig.IsVPDecimationAllowed
-title: IVPConfig::IsVPDecimationAllowed
+title: IVPConfig::IsVPDecimationAllowed (vpconfig.h)
 author: windows-sdk-content
 description: The IsVPDecimationAllowed method, given the context, retrieves whether scaling at the video port is possible.
 old-location: dshow\ivpconfig_isvpdecimationallowed.htm

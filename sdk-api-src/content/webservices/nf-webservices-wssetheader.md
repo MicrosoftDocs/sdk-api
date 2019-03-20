@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsSetHeader
-title: WsSetHeader function
+title: WsSetHeader function (webservices.h)
 author: windows-sdk-content
 description: Adds or replaces the specified standard header in the message.
 old-location: wsw\wssetheader.htm

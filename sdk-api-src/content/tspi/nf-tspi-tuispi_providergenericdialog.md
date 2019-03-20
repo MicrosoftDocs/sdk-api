@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TUISPI_providerGenericDialog
-title: TUISPI_providerGenericDialog function
+title: TUISPI_providerGenericDialog function (tspi.h)
 author: windows-sdk-content
 description: The TUISPI_providerGenericDialog function in the UI DLL is called when the service provider sends a LINE_CREATEDIALOGINSTANCE message.
 old-location: tspi\tuispi_providergenericdialog.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement7.FindAllWithOptions
-title: IUIAutomationElement7::FindAllWithOptions
+title: IUIAutomationElement7::FindAllWithOptions (uiautomationclient.h)
 author: windows-sdk-content
 description: Find all matching elements in the specified order.
 old-location: winauto\uiauto_IUIAutomationElement7_FindAllWithOptions.htm

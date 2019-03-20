@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.GetUserCredentials
-title: IWTSProtocolConnection::GetUserCredentials
+title: IWTSProtocolConnection::GetUserCredentials (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolConnection::GetUserCredentials is no longer available. Instead, use IWRdsProtocolConnection::GetUserCredentials.
 old-location: termserv\iwtsprotocolconnection_getusercredentials.htm

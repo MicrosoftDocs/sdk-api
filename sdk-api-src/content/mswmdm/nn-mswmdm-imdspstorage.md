@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IMDSPStorage
-title: IMDSPStorage
+title: IMDSPStorage (mswmdm.h)
 author: windows-sdk-content
 description: The IMDSPStorage interface provides an instanced-based association with a storage medium on a device.
 old-location: wmdm\imdspstorage.htm

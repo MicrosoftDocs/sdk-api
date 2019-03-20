@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbServiceListDescriptor.GetLength
-title: IDvbServiceListDescriptor::GetLength
+title: IDvbServiceListDescriptor::GetLength (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the descriptor_length field value from a Digital Video Broadcast (DVB) service descriptor.
 old-location: mstv\idvbservicelistdescriptor_getlength.htm

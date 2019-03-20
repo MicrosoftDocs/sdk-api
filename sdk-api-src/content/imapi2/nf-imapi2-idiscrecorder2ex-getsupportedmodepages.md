@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.GetSupportedModePages
-title: IDiscRecorder2Ex::GetSupportedModePages
+title: IDiscRecorder2Ex::GetSupportedModePages (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the supported mode pages for the device.
 old-location: imapi\idiscrecorder2ex_getsupportedmodepages.htm

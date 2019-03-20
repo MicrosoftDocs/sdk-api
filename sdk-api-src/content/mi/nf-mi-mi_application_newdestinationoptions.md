@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Application_NewDestinationOptions
-title: MI_Application_NewDestinationOptions function
+title: MI_Application_NewDestinationOptions function (mi.h)
 author: windows-sdk-content
 description: Creates an MI_DestinationOptions object that can be used with the MI_Application_NewSession function.
 old-location: wmi_v2\mi_application_newdestinationoptions.htm

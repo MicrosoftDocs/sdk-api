@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICStream.InitializeFromFilename
-title: IWICStream::InitializeFromFilename
+title: IWICStream::InitializeFromFilename (wincodec.h)
 author: windows-sdk-content
 description: Initializes a stream from a particular file.
 old-location: wic\_wic_codec_iwicstream_initializefromfilename.htm

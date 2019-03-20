@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSUnregisterPropertySchema
-title: PSUnregisterPropertySchema function
+title: PSUnregisterPropertySchema function (propsys.h)
 author: windows-sdk-content
 description: Informs the schema subsystem of the removal of a property description schema file.
 old-location: properties\PSUnregisterPropertySchema.htm

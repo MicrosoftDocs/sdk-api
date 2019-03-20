@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagAUDIODESCRIPTION
-title: AUDIODESCRIPTION
+title: AUDIODESCRIPTION (winuser.h)
 author: windows-sdk-content
 description: Contains information associated with audio descriptions. This structure is used with the SystemParametersInfo function when the SPI_GETAUDIODESCRIPTION or SPI_SETAUDIODESCRIPTION action value is specified.
 old-location: winmsg\audiodescription.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara2.GetDuplicate2
-title: ITextPara2::GetDuplicate2
+title: ITextPara2::GetDuplicate2 (tom.h)
 author: windows-sdk-content
 description: Gets a duplicate of this text paragraph format object.
 old-location: controls\itextpara2_getduplicate2.htm

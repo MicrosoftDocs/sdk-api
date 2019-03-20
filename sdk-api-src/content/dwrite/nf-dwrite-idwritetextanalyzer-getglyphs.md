@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalyzer.GetGlyphs
-title: IDWriteTextAnalyzer::GetGlyphs
+title: IDWriteTextAnalyzer::GetGlyphs (dwrite.h)
 author: windows-sdk-content
 description: Parses the input text string and maps it to the set of glyphs and associated glyph data according to the font and the writing system's rendering rules.
 old-location: directwrite\IDWriteTextAnalyzer_GetGlyphs.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionSkewTransform.SetCenterX(IDCompositionAnimation)
-title: IDCompositionSkewTransform::SetCenterX(IDCompositionAnimation)
+title: IDCompositionSkewTransform::SetCenterX(IDCompositionAnimation) (dcomp.h)
 author: windows-sdk-content
 description: Animates the value of the CenterX property of a 2D skew transform.
 old-location: directcomp\idcompositionskewtransform_setcenterx_idcompositionanimation.htm

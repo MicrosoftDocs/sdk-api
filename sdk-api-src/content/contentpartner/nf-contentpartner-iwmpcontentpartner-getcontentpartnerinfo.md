@@ -1,6 +1,6 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.GetContentPartnerInfo
-title: IWMPContentPartner::GetContentPartnerInfo
+title: IWMPContentPartner::GetContentPartnerInfo (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetContentPartnerInfo method retrieves specific information about the online store.
 old-location: wmp\iwmpcontentpartner_getcontentpartnerinfo.htm

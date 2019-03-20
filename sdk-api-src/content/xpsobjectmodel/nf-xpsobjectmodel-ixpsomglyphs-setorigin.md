@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.SetOrigin
-title: IXpsOMGlyphs::SetOrigin
+title: IXpsOMGlyphs::SetOrigin (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the starting position of the text.
 old-location: xps\ixpsomglyphs_setorigin.htm

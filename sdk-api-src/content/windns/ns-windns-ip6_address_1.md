@@ -1,6 +1,6 @@
 ---
 UID: NS:windns.__unnamed_union_1
-title: IP6_ADDRESS
+title: IP6_ADDRESS (windns.h)
 author: windows-sdk-content
 description: The IP6_ADDRESS structure stores an IPv6 address.
 old-location: dns\ip6_address.htm

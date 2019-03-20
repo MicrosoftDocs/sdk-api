@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IBDA_EthernetFilter
-title: IBDA_EthernetFilter
+title: IBDA_EthernetFilter (bdaiface.h)
 author: windows-sdk-content
 description: The IBDA_EthernetFilter interface is implemented on a Network Provider.
 old-location: mstv\ibda_ethernetfilter.htm

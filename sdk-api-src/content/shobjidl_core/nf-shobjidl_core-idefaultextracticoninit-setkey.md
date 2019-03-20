@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDefaultExtractIconInit.SetKey
-title: IDefaultExtractIconInit::SetKey
+title: IDefaultExtractIconInit::SetKey (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the registry key from which to load the &#0034;DefaultIcon&#0034; value.
 old-location: shell\IDefaultExtractIconInit_SetKey.htm

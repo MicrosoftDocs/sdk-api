@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfUIElementMgr.EndUIElement
-title: ITfUIElementMgr::EndUIElement
+title: ITfUIElementMgr::EndUIElement (msctf.h)
 author: windows-sdk-content
 description: The ITfUIElementMgr::EndUIElement method is called by a text service when the element of UI is hidden.
 old-location: tsf\itfuielementmgr_enduielement.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolShadowCallback.StopShadow
-title: IWTSProtocolShadowCallback::StopShadow
+title: IWTSProtocolShadowCallback::StopShadow (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolShadowCallback::StopShadow is no longer available. Instead, use IWRdsProtocolShadowCallback::StopShadow.
 old-location: termserv\iwtsprotocolshadowcallback_stopshadow.htm

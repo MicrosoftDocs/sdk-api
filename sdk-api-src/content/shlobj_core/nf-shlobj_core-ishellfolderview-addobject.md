@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.AddObject
-title: IShellFolderView::AddObject
+title: IShellFolderView::AddObject (shlobj_core.h)
 author: windows-sdk-content
 description: AddObject may be altered or unavailable.
 old-location: shell\IShellFolderView_AddObject.htm

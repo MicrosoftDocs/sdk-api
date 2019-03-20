@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.GetPwrDiskSpindownRange
-title: GetPwrDiskSpindownRange function
+title: GetPwrDiskSpindownRange function (powrprof.h)
 author: windows-sdk-content
 description: Retrieves the disk spindown range.
 old-location: base\getpwrdiskspindownrange.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo3.GetCodecFormatProp
-title: IWMCodecInfo3::GetCodecFormatProp
+title: IWMCodecInfo3::GetCodecFormatProp (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetCodecFormatProp method retrieves a property from one format of a codec.
 old-location: wmformat\iwmcodecinfo3_getcodecformatprop.htm

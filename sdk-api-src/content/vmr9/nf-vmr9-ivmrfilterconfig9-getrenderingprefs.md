@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRFilterConfig9.GetRenderingPrefs
-title: IVMRFilterConfig9::GetRenderingPrefs
+title: IVMRFilterConfig9::GetRenderingPrefs (vmr9.h)
 author: windows-sdk-content
 description: The GetRenderingPrefs method retrieves the current set of rendering preferences being used by the VMR-9.
 old-location: dshow\ivmrfilterconfig9_getrenderingprefs.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ISessionStateChangeTrigger.get_Delay
-title: ISessionStateChangeTrigger::get_Delay
+title: ISessionStateChangeTrigger::get_Delay (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a value that indicates how long of a delay takes place before a task is started after a Terminal Server session state change is detected.
 old-location: taskschd\isessionstatechangetrigger_delay.htm

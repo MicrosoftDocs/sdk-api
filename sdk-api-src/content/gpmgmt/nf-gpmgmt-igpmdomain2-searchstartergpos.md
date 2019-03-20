@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMDomain2.SearchStarterGPOs
-title: IGPMDomain2::SearchStarterGPOs
+title: IGPMDomain2::SearchStarterGPOs (gpmgmt.h)
 author: windows-sdk-content
 description: Executes a search for GPMStarterGPO objects.
 old-location: gpmc\igpmdomain2_searchstartergpos.htm

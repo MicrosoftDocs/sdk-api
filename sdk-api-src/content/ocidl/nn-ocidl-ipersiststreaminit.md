@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IPersistStreamInit
-title: IPersistStreamInit
+title: IPersistStreamInit (ocidl.h)
 author: windows-sdk-content
 description: A replacement for IPersistStream that adds an initialization method.
 old-location: com\ipersiststreaminit.htm

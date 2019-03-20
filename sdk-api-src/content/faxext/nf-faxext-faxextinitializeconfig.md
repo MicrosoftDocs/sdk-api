@@ -1,6 +1,6 @@
 ---
 UID: NF:faxext.FaxExtInitializeConfig
-title: FaxExtInitializeConfig function
+title: FaxExtInitializeConfig function (faxext.h)
 author: windows-sdk-content
 description: The fax service calls the FaxExtInitializeConfig function to initialize the fax extension DLL. The service calls this function before it calls any other fax extension initialization function.
 old-location: fax\_mfax_faxextinitializeconfig.htm

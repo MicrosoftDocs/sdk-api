@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext6.BlendImage
-title: ID2D1DeviceContext6::BlendImage
+title: ID2D1DeviceContext6::BlendImage (d2d1_3.h)
 author: windows-sdk-content
 description: Draws an image to the device context using the specified blend mode. Results are equivalent to using Direct2D's built-in Blend effect.
 old-location: direct2d\id2d1devicecontext6_blendimage.htm

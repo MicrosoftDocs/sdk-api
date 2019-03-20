@@ -1,6 +1,6 @@
 ---
 UID: NF:relogger.ITraceEvent.SetTimeStamp
-title: ITraceEvent::SetTimeStamp
+title: ITraceEvent::SetTimeStamp (relogger.h)
 author: windows-sdk-content
 description: Sets the time at which an event occurred.
 old-location: etw\ievent_settimestamp.htm

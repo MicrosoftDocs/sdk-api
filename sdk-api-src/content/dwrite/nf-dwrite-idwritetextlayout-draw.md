@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.Draw
-title: IDWriteTextLayout::Draw
+title: IDWriteTextLayout::Draw (dwrite.h)
 author: windows-sdk-content
 description: Draws text using the specified client drawing context.
 old-location: directwrite\IDWriteTextLayout_Draw.htm

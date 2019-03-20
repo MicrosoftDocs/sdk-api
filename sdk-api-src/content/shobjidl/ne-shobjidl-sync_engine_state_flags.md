@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl.SYNC_ENGINE_STATE_FLAGS
-title: SYNC_ENGINE_STATE_FLAGS
+title: SYNC_ENGINE_STATE_FLAGS (shobjidl.h)
 author: windows-sdk-content
 description: Specifies values used by any sync engine to expose their internal engine states to the Property Store's PKEY_StorageProviderStatus value in the File Indexer To update the property, first call IShellItem2::GetPropertyStore with the GPS_EXTRINSICPROPERTIES flag. Next, call the IPropertyStore::SetValue method of the returned object, specifying the PKEY_StorageProviderStatus key, to set the property's bitmask value using these SYNC_ENGINE_STATE_FLAGS.
 old-location: properties\SYNC_ENGINE_STATE_FLAGS.htm

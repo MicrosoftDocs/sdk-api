@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportContent.RetrieveSessions
-title: IWdsTransportContent::RetrieveSessions
+title: IWdsTransportContent::RetrieveSessions (wdstptmgmt.h)
 author: windows-sdk-content
 description: Retrieves a collection of active transport sessions associated with this content.
 old-location: wds\iwdstransportcontent_retrievesessions.htm

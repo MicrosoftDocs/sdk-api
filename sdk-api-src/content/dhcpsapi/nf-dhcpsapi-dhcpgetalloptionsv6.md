@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpGetAllOptionsV6
-title: DhcpGetAllOptionsV6 function
+title: DhcpGetAllOptionsV6 function (dhcpsapi.h)
 author: windows-sdk-content
 description: The DhcpGetAllOptionsV6 function returns an array that contains all options defined on the DHCP server.
 old-location: dhcp\dhcpgetalloptionsv6.htm

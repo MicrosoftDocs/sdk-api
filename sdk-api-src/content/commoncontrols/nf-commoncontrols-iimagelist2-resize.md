@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList2.Resize
-title: IImageList2::Resize
+title: IImageList2::Resize (commoncontrols.h)
 author: windows-sdk-content
 description: Resizes the current image.
 old-location: controls\IImageList2_Resize.htm

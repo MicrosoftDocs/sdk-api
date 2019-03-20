@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAudioRendererDevices.Add
-title: IMSVidAudioRendererDevices::Add
+title: IMSVidAudioRendererDevices::Add (segment.h)
 author: windows-sdk-content
 description: The Add method adds an audio renderer to the collection.
 old-location: mstv\imsvidaudiorendererdevices_add.htm

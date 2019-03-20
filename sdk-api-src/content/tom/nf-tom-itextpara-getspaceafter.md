@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.GetSpaceAfter
-title: ITextPara::GetSpaceAfter
+title: ITextPara::GetSpaceAfter (tom.h)
 author: windows-sdk-content
 description: Retrieves the amount of vertical space below a paragraph.
 old-location: controls\ITextPara_GetSpaceAfter.htm

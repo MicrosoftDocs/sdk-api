@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerIdentityGetDefault
-title: PeerIdentityGetDefault function
+title: PeerIdentityGetDefault function (p2p.h)
 author: windows-sdk-content
 description: The PeerIdentityGetDefault function retrieves the default peer name set for the current user.
 old-location: p2p\peeridentitygetdefault.htm

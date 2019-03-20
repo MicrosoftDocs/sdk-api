@@ -1,6 +1,6 @@
 ---
 UID: NF:npapi.NPGetConnectionPerformance
-title: NPGetConnectionPerformance function
+title: NPGetConnectionPerformance function (npapi.h)
 author: windows-sdk-content
 description: Returns information about the expected performance of a connection used to access a network resource. The request can only be for a network resource that is currently connected.
 old-location: security\npgetconnectionperformance.htm

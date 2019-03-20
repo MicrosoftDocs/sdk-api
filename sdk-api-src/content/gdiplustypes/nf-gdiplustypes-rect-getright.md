@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.Rect.GetRight
-title: Rect::GetRight
+title: Rect::GetRight (gdiplustypes.h)
 author: windows-sdk-content
 description: The Rect::GetRight method gets the x-coordinate of the right edge of the rectangle.
 old-location: gdiplus\_gdiplus_CLASS_Rect_GetRight_.htm

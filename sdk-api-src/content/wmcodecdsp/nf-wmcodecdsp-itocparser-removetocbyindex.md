@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.ITocParser.RemoveTocByIndex
-title: ITocParser::RemoveTocByIndex
+title: ITocParser::RemoveTocByIndex (wmcodecdsp.h)
 author: windows-sdk-content
 description: The RemoveTocByIndex method removes a table of contents, specified by an index, from the TOC Parser object.
 old-location: mf\itocparser_removetocbyindex.htm

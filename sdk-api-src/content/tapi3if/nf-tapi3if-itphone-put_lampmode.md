@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.put_LampMode
-title: ITPhone::put_LampMode
+title: ITPhone::put_LampMode (tapi3if.h)
 author: windows-sdk-content
 description: The put_LampMode method sets the current lamp mode for the given lamp.
 old-location: tapi3\itphone_put_lampmode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mmdeviceapi.IMMDevice.OpenPropertyStore
-title: IMMDevice::OpenPropertyStore
+title: IMMDevice::OpenPropertyStore (mmdeviceapi.h)
 author: windows-sdk-content
 description: The OpenPropertyStore method retrieves an interface to the device's property store.
 old-location: coreaudio\immdevice_openpropertystore.htm

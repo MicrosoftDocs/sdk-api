@@ -1,6 +1,6 @@
 ---
 UID: NF:avrfsdk.VerifierEnumerateResource
-title: VerifierEnumerateResource function
+title: VerifierEnumerateResource function (avrfsdk.h)
 author: windows-sdk-content
 description: Enumerates operating system resources for use by debugging and support tools.
 old-location: winprog\verifierenumerateresource.htm

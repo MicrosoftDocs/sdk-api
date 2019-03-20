@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPrivateEvent.get_EventCode
-title: ITPrivateEvent::get_EventCode
+title: ITPrivateEvent::get_EventCode (tapi3if.h)
 author: windows-sdk-content
 description: The get_EventCode method returns a pointer to a provider-specific event descriptor.
 old-location: tapi3\itprivateevent_get_eventcode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10.D3D10_INPUT_ELEMENT_DESC
-title: D3D10_INPUT_ELEMENT_DESC
+title: D3D10_INPUT_ELEMENT_DESC (d3d10.h)
 author: windows-sdk-content
 description: A description of a single element for the input-assembler stage.
 old-location: direct3d10\d3d10_input_element_desc.htm

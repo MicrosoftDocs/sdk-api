@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IKnownFolderManager.FolderIdToCsidl
-title: IKnownFolderManager::FolderIdToCsidl
+title: IKnownFolderManager::FolderIdToCsidl (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the legacy CSIDL value that is the equivalent of a given KNOWNFOLDERID.
 old-location: shell\IKnownFolderManager_FolderIdToCsidl.htm

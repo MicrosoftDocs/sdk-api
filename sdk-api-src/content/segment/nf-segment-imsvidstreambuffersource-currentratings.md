@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSource.CurrentRatings
-title: IMSVidStreamBufferSource::CurrentRatings
+title: IMSVidStreamBufferSource::CurrentRatings (segment.h)
 author: windows-sdk-content
 description: The CurrentRatings method retrieves the current ratings information from the data source.
 old-location: mstv\imsvidstreambuffersource_currentratings.htm

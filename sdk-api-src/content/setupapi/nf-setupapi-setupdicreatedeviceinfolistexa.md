@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiCreateDeviceInfoListExA
-title: SetupDiCreateDeviceInfoListExA function
+title: SetupDiCreateDeviceInfoListExA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiCreateDeviceInfoList function creates an empty device information set on a remote or a local computer and optionally associates the set with a device setup class .
 old-location: devinst\setupdicreatedeviceinfolistex.htm

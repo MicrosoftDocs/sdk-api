@@ -1,6 +1,6 @@
 ---
 UID: NF:prsht.PropSheet_PressButton
-title: PropSheet_PressButton macro
+title: PropSheet_PressButton macro (prsht.h)
 author: windows-sdk-content
 description: Simulates the selection of a property sheet button. You can use this macro or send the PSM_PRESSBUTTON message explicitly.
 old-location: controls\PropSheet_PressButton.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Instance_AddElement
-title: MI_Instance_AddElement function
+title: MI_Instance_AddElement function (mi.h)
 author: windows-sdk-content
 description: Adds a new property to a dynamic instance (supported only by dynamic instances whose schema may be extended at run time).
 old-location: wmi_v2\mi_instance_addelement.htm

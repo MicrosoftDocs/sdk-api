@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTime.IsOk
-title: WBEMTime::IsOk
+title: WBEMTime::IsOk (wbemtime.h)
 author: windows-sdk-content
 description: The IsOk method indicates whether the WBEMTime object represents a valid time.
 old-location: wmi\wbemtime_isok.htm

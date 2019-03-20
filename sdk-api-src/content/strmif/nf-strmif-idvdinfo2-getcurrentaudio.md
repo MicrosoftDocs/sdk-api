@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetCurrentAudio
-title: IDvdInfo2::GetCurrentAudio
+title: IDvdInfo2::GetCurrentAudio (strmif.h)
 author: windows-sdk-content
 description: The GetCurrentAudio method retrieves the number of available audio streams and the number of the currently selected audio stream.
 old-location: dshow\idvdinfo2_getcurrentaudio.htm

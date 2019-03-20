@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetGeometryLookup
-title: IXpsOMPath::SetGeometryLookup
+title: IXpsOMPath::SetGeometryLookup (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the lookup key name of a shared geometry in a resource dictionary.
 old-location: xps\ixpsompath_setgeometrylookup.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1SimplifiedGeometrySink.SetSegmentFlags
-title: ID2D1SimplifiedGeometrySink::SetSegmentFlags
+title: ID2D1SimplifiedGeometrySink::SetSegmentFlags (d2d1.h)
 author: windows-sdk-content
 description: Specifies stroke and join options to be applied to new segments added to the geometry sink.
 old-location: direct2d\ID2D1SimplifiedGeometrySink_SetSegmentFlags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertSrvSetup.SetCASetupProperty
-title: ICertSrvSetup::SetCASetupProperty
+title: ICertSrvSetup::SetCASetupProperty (casetup.h)
 author: windows-sdk-content
 description: Sets a property value for a certification authority (CA) configuration.
 old-location: security\icertsrvsetup_setcasetupproperty.htm

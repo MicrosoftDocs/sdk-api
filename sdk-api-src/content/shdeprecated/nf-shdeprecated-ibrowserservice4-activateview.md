@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService4.ActivateView
-title: IBrowserService4::ActivateView
+title: IBrowserService4::ActivateView (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated.
 old-location: shell\IBrowserService4_ActivateView.htm

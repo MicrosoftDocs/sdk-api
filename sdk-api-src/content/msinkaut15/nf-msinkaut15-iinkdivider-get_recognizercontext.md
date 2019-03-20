@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut15.IInkDivider.get_RecognizerContext
-title: IInkDivider::get_RecognizerContext
+title: IInkDivider::get_RecognizerContext (msinkaut15.h)
 author: windows-sdk-content
 description: Gets or sets the InkRecognizerContext object that the InkDivider object uses for layout analysis.
 old-location: tablet\inkdivider_recognizercontext.htm

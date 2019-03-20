@@ -1,6 +1,6 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.GetMonitorRedGreenOrBlueDrive
-title: GetMonitorRedGreenOrBlueDrive function
+title: GetMonitorRedGreenOrBlueDrive function (highlevelmonitorconfigurationapi.h)
 author: windows-sdk-content
 description: Retrieves a monitor's red, green, or blue drive value.
 old-location: monitor\getmonitorredgreenorbluedrive.htm

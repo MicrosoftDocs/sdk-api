@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_SUBNET_ELEMENT_DATA_V5
-title: DHCP_SUBNET_ELEMENT_DATA_V5
+title: DHCP_SUBNET_ELEMENT_DATA_V5 (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_SUBNET_ELEMENT_DATA_V5 structure defines an element that describes a feature or restriction of a subnet.
 old-location: dhcp\dhcp_subnet_element_data_v5.htm

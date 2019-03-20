@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfSystemLangBarItem.SetIcon
-title: ITfSystemLangBarItem::SetIcon
+title: ITfSystemLangBarItem::SetIcon (ctfutb.h)
 author: windows-sdk-content
 description: ITfSystemLangBarItem::SetIcon method
 old-location: tsf\itfsystemlangbaritem_seticon.htm

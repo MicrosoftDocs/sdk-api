@@ -1,6 +1,6 @@
 ---
 UID: NC:netsh.NS_OSVERSIONCHECK
-title: NS_OSVERSIONCHECK
+title: NS_OSVERSIONCHECK (netsh.h)
 author: windows-sdk-content
 description: Is the operating system check function for helpers.
 old-location: netshell\ns_osversioncheck.htm

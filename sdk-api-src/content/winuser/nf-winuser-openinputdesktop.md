@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.OpenInputDesktop
-title: OpenInputDesktop function
+title: OpenInputDesktop function (winuser.h)
 author: windows-sdk-content
 description: Opens the desktop that receives user input.
 old-location: winstation\openinputdesktop.htm

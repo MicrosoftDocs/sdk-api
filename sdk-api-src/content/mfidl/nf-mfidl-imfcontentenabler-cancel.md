@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFContentEnabler.Cancel
-title: IMFContentEnabler::Cancel
+title: IMFContentEnabler::Cancel (mfidl.h)
 author: windows-sdk-content
 description: Cancels a pending content enabling action.
 old-location: mf\imfcontentenabler_cancel.htm

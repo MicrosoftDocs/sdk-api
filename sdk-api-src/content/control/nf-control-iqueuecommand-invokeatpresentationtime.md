@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IQueueCommand.InvokeAtPresentationTime
-title: IQueueCommand::InvokeAtPresentationTime
+title: IQueueCommand::InvokeAtPresentationTime (control.h)
 author: windows-sdk-content
 description: The InvokeAtPresentationTime method queues a method to be invoked at the specified presentation time.
 old-location: dshow\iqueuecommand_invokeatpresentationtime.htm

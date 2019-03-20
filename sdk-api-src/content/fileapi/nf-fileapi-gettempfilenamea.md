@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.GetTempFileNameA
-title: GetTempFileNameA function
+title: GetTempFileNameA function (fileapi.h)
 author: windows-sdk-content
 description: Creates a name for a temporary file. If a unique file name is generated, an empty file is created and the handle to it is released; otherwise, only a file name is generated.
 old-location: fs\gettempfilename.htm

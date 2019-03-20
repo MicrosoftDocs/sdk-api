@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasnot.IPrintAsyncNotifyChannel.CloseChannel
-title: IPrintAsyncNotifyChannel::CloseChannel
+title: IPrintAsyncNotifyChannel::CloseChannel (prnasnot.h)
 author: windows-sdk-content
 description: Closes the channel.
 old-location: gdi\iprintasyncnotifychannel_iprintasyncnotifychannel__closechannel.htm

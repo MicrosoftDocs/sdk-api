@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl.TimeSearch
-title: IDvdControl::TimeSearch
+title: IDvdControl::TimeSearch (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Halts playback of the current chapter and starts playback from the specified time in the same media file.
 old-location: dshow\idvdcontrol_timesearch.htm

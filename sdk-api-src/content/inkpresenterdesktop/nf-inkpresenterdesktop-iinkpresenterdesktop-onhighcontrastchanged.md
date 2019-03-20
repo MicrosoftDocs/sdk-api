@@ -1,6 +1,6 @@
 ---
 UID: NF:inkpresenterdesktop.IInkPresenterDesktop.OnHighContrastChanged
-title: IInkPresenterDesktop::OnHighContrastChanged
+title: IInkPresenterDesktop::OnHighContrastChanged (inkpresenterdesktop.h)
 author: windows-sdk-content
 description: Specifies a high contrast change handler. This handler is notified of changes to the high contrast system settings.
 old-location: input_ink\iinkpresenterdesktop_onhighcontrastchanged.htm

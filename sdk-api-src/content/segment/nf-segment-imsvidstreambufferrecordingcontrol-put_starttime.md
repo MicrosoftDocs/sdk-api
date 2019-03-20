@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferRecordingControl.put_StartTime
-title: IMSVidStreamBufferRecordingControl::put_StartTime
+title: IMSVidStreamBufferRecordingControl::put_StartTime (segment.h)
 author: windows-sdk-content
 description: The put_StartTime method sets the start time for the recording.
 old-location: mstv\imsvidstreambufferrecordingcontrol_put_starttime.htm

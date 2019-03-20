@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_VolumeIndex
-title: IFsrmPropertyBag::get_VolumeIndex
+title: IFsrmPropertyBag::get_VolumeIndex (fsrmpipeline.h)
 author: windows-sdk-content
 description: The index that the scanner uses to refer to the volume on which the file exists.
 old-location: fsrm\ifsrmpropertybag_volumeindex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.ICertPropertyEnrollment
-title: ICertPropertyEnrollment
+title: ICertPropertyEnrollment (certenroll.h)
 author: windows-sdk-content
 description: Represents a certificate property that contains certificate and certification authority (CA) information created when the client calls the Enroll method on the IX509Enrollment interface.
 old-location: security\icertpropertyenrollment.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzOperation.Submit
-title: IAzOperation::Submit
+title: IAzOperation::Submit (azroles.h)
 author: windows-sdk-content
 description: Persists changes made to the IAzOperation object.
 old-location: security\iazoperation_submit.htm

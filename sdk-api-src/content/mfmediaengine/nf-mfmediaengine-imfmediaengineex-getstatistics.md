@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetStatistics
-title: IMFMediaEngineEx::GetStatistics
+title: IMFMediaEngineEx::GetStatistics (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets a playback statistic from the Media Engine.
 old-location: mf\imfmediaengineex_getstatistics.htm

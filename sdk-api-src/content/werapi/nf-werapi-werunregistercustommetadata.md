@@ -1,6 +1,6 @@
 ---
 UID: NF:werapi.WerUnregisterCustomMetadata
-title: WerUnregisterCustomMetadata function
+title: WerUnregisterCustomMetadata function (werapi.h)
 author: windows-sdk-content
 description: Removes an item of app-specific metadata being collected during error reporting for the application.
 old-location: wer\werunregistercustommetadata.htm

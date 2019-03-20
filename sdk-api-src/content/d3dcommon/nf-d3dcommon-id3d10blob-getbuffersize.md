@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcommon.ID3D10Blob.GetBufferSize
-title: ID3D10Blob::GetBufferSize
+title: ID3D10Blob::GetBufferSize (d3dcommon.h)
 author: windows-sdk-content
 description: Gets the size.
 old-location: direct3d11\id3d10blob_getbuffersize.htm

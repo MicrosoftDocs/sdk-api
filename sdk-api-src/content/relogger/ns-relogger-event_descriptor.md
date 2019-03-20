@@ -1,6 +1,6 @@
 ---
 UID: NS:relogger._EVENT_DESCRIPTOR
-title: EVENT_DESCRIPTOR
+title: EVENT_DESCRIPTOR (relogger.h)
 author: windows-sdk-content
 description: Contains metadata that defines the event.
 old-location: etw\event_descriptor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetDetailsMajor
-title: ISCTE_EAS::GetDetailsMajor
+title: ISCTE_EAS::GetDetailsMajor (atscpsipparser.h)
 author: windows-sdk-content
 description: The GetDetailsMajor method returns the major channel number for the details channel.
 old-location: mstv\iscte_eas_getdetailsmajor.htm

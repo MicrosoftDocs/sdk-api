@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IAccessibleEx.GetIAccessiblePair
-title: IAccessibleEx::GetIAccessiblePair
+title: IAccessibleEx::GetIAccessiblePair (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves the IAccessible interface and child ID for this item.
 old-location: winauto\uiauto_IAccessibleEx_GetIAccessiblePair.htm

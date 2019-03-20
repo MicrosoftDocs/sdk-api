@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IAudioChannelConfig.GetChannelConfig
-title: IAudioChannelConfig::GetChannelConfig
+title: IAudioChannelConfig::GetChannelConfig (devicetopology.h)
 author: windows-sdk-content
 description: The GetChannelConfig method gets the current channel-configuration mask from a channel-configuration control.
 old-location: coreaudio\iaudiochannelconfig_getchannelconfig.htm

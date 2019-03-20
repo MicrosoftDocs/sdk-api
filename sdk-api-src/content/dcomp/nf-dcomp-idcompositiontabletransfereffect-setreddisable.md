@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetRedDisable
-title: IDCompositionTableTransferEffect::SetRedDisable
+title: IDCompositionTableTransferEffect::SetRedDisable (dcomp.h)
 author: windows-sdk-content
 description: Specifies whether to apply the transfer function to the red channel.
 old-location: directcomp\idcompositiontabletransfereffect_setreddisable.htm

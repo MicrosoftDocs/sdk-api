@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.GetNativeVideoSize
-title: IMFVideoDisplayControl::GetNativeVideoSize
+title: IMFVideoDisplayControl::GetNativeVideoSize (evr.h)
 author: windows-sdk-content
 description: Gets the size and aspect ratio of the video, prior to any stretching by the video renderer.
 old-location: mf\imfvideodisplaycontrol_getnativevideosize.htm

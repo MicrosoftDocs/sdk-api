@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetwork.GetTimeCreatedAndConnected
-title: INetwork::GetTimeCreatedAndConnected
+title: INetwork::GetTimeCreatedAndConnected (netlistmgr.h)
 author: windows-sdk-content
 description: The GetTimeCreatedAndConnected method returns the local date and time when the network was created and connected.
 old-location: nla\inetwork_gettimecreatedandconnected.htm

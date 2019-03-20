@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.CHString(LPCSTR)
-title: CHString::CHString(LPCSTR)
+title: CHString::CHString(LPCSTR) (chstring.h)
 author: windows-sdk-content
 description: Initializes a new CHString object with the specified data.
 old-location: wmi\chstring_chstring_lpcstr_.htm

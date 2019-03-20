@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_LOGGING_INFO
-title: HTTP_LOGGING_INFO
+title: HTTP_LOGGING_INFO (http.h)
 author: windows-sdk-content
 description: Used to enable server side logging on a URL Group or on a server session.
 old-location: http\http_logging_info.htm

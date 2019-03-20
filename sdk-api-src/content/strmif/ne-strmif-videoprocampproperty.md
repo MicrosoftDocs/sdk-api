@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagVideoProcAmpProperty
-title: VideoProcAmpProperty
+title: VideoProcAmpProperty (strmif.h)
 author: windows-sdk-content
 description: The VideoProcAmpProperty enumeration specifies video properties on a video capture device.
 old-location: dshow\videoprocampproperty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.TerminateProcess
-title: TerminateProcess function
+title: TerminateProcess function (processthreadsapi.h)
 author: windows-sdk-content
 description: Terminates the specified process and all of its threads.
 old-location: base\terminateprocess.htm

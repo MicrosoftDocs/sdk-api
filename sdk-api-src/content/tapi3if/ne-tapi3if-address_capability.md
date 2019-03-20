@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.ADDRESS_CAPABILITY
-title: ADDRESS_CAPABILITY
+title: ADDRESS_CAPABILITY (tapi3if.h)
 author: windows-sdk-content
 description: A member of the ADDRESS_CAPABILITY enum is used by the ITAddressCapabilities::get_AddressCapability method to indicate the address capability required.
 old-location: tapi3\address_capability.htm

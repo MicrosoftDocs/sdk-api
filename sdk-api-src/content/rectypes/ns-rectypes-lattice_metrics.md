@@ -1,6 +1,6 @@
 ---
 UID: NS:rectypes.tagLATTICE_METRICS
-title: LATTICE_METRICS
+title: LATTICE_METRICS (rectypes.h)
 author: windows-sdk-content
 description: Describes the baseline and the midline height.
 old-location: tablet\lattice_metrics.htm

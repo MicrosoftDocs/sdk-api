@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRSurface.LockSurface
-title: IVMRSurface::LockSurface
+title: IVMRSurface::LockSurface (strmif.h)
 author: windows-sdk-content
 description: The LockSurface method locks the attached DirectDraw surface.
 old-location: dshow\ivmrsurface_locksurface.htm

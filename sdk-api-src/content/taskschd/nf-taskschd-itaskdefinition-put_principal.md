@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskDefinition.put_Principal
-title: ITaskDefinition::put_Principal
+title: ITaskDefinition::put_Principal (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the principal for the task that provides the security credentials for the task.
 old-location: taskschd\itaskdefinition_principal.htm

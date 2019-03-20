@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingExtension.get_MinorBuild
-title: IFaxInboundRoutingExtension::get_MinorBuild
+title: IFaxInboundRoutingExtension::get_MinorBuild (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxInboundRoutingExtension::get_MinorBuild property is a value that specifies the minor part of the build number for the fax routing extension's DLL.
 old-location: fax\_mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_minorbuild_cpp.htm

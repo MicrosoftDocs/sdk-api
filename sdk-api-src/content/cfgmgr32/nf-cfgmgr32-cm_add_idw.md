@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Add_IDW
-title: CM_Add_IDW function
+title: CM_Add_IDW function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Add_ID function appends a specified device ID (if not already present) to a device instance's&#160;hardware ID list or compatible ID list.
 old-location: devinst\cm_add_id.htm

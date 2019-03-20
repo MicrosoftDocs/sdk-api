@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceTransportSetInfo
-title: MprAdminInterfaceTransportSetInfo function
+title: MprAdminInterfaceTransportSetInfo function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminInterfaceTransportSetInfo function sets information for a transport running on a specified interface.
 old-location: rras\mpradmininterfacetransportsetinfo.htm

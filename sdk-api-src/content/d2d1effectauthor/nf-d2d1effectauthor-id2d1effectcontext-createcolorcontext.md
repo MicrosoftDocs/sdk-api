@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.CreateColorContext
-title: ID2D1EffectContext::CreateColorContext
+title: ID2D1EffectContext::CreateColorContext (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Creates a color context from a color space.
 old-location: direct2d\id2d1contextinternal_createcolorcontext.htm

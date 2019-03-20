@@ -1,6 +1,6 @@
 ---
 UID: NF:mtxdm.GetDispenserManager
-title: GetDispenserManager function
+title: GetDispenserManager function (mtxdm.h)
 author: windows-sdk-content
 description: Retrieves the dispenser manager's IDispenserManager interface.
 old-location: cos\getdispensermanager.htm

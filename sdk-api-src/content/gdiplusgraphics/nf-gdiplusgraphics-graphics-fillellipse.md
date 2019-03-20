@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillEllipse
-title: Graphics::FillEllipse
+title: Graphics::FillEllipse (gdiplusgraphics.h)
 author: windows-sdk-content
 description: This topic lists the FillEllipse methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FillEllipse_Methods.htm

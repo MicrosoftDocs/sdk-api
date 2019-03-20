@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.AddPolicyAdministrator
-title: IAzApplication::AddPolicyAdministrator
+title: IAzApplication::AddPolicyAdministrator (azroles.h)
 author: windows-sdk-content
 description: Adds the specified security identifier (SID) in text form to the list of principals that act as policy administrators.
 old-location: security\iazapplication_addpolicyadministrator.htm

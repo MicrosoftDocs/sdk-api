@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.GetNodeCount
-title: ID3D12Device::GetNodeCount
+title: ID3D12Device::GetNodeCount (d3d12.h)
 author: windows-sdk-content
 description: Reports the number of physical adapters (nodes) that are associated with this device.
 old-location: direct3d12\id3d12device_getnodecount.htm

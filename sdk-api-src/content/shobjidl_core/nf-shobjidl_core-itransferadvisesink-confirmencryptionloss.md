@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITransferAdviseSink.ConfirmEncryptionLoss
-title: ITransferAdviseSink::ConfirmEncryptionLoss
+title: ITransferAdviseSink::ConfirmEncryptionLoss (shobjidl_core.h)
 author: windows-sdk-content
 description: Displays a message to the user confirming that loss of encryption is acceptable for this operation.
 old-location: shell\ITransferAdviseSink_ConfirmEncryptionLoss.htm

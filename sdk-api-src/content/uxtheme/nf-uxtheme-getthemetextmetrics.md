@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemeTextMetrics
-title: GetThemeTextMetrics function
+title: GetThemeTextMetrics function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves information about the font specified by a visual style for a particular part.
 old-location: controls\GetThemeTextMetrics.htm

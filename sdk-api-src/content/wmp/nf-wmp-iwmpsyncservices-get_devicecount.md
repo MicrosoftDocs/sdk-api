@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSyncServices.get_deviceCount
-title: IWMPSyncServices::get_deviceCount
+title: IWMPSyncServices::get_deviceCount (wmp.h)
 author: windows-sdk-content
 description: The get_deviceCount method retrieves the number of available devices.
 old-location: wmp\iwmpsyncservices_get_devicecount.htm

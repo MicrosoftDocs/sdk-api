@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_IP_RANGE_V6
-title: DHCP_IP_RANGE_V6
+title: DHCP_IP_RANGE_V6 (dhcpsapi.h)
 author: windows-sdk-content
 description: Specifies a range of IPv6 addresses for use with a DHCPv6 server.
 old-location: dhcp\dhcp_ip_range_v6.htm

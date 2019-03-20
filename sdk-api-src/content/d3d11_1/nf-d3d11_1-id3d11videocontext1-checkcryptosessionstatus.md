@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoContext1.CheckCryptoSessionStatus
-title: ID3D11VideoContext1::CheckCryptoSessionStatus
+title: ID3D11VideoContext1::CheckCryptoSessionStatus (d3d11_1.h)
 author: windows-sdk-content
 description: Checks the status of a crypto session.
 old-location: mf\id3d11videocontext1_checkcryptosessionstatus.htm

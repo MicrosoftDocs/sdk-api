@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPServices.get_Count
-title: IUPnPServices::get_Count
+title: IUPnPServices::get_Count (upnp.h)
 author: windows-sdk-content
 description: The Count property specifies the number of services in the collection.
 old-location: upnp\iupnpservices_count.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IEnumFullIDList.Next
-title: IEnumFullIDList::Next
+title: IEnumFullIDList::Next (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves a specified number of IDLIST_ABSOLUTE items.
 old-location: shell\IEnumFullIDList_Next.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.GetSelectedCount
-title: IShellFolderView::GetSelectedCount
+title: IShellFolderView::GetSelectedCount (shlobj_core.h)
 author: windows-sdk-content
 description: Gets the number of items in the view that are selected.
 old-location: shell\IShellFolderView_GetSelectedCount.htm

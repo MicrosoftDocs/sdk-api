@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IObjPool
-title: IObjPool
+title: IObjPool (comsvcs.h)
 author: windows-sdk-content
 description: Represents the key to each object in the transaction resource pool.
 old-location: cos\iobjpool.htm

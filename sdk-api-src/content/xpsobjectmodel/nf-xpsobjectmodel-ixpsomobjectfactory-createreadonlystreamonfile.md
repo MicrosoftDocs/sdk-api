@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateReadOnlyStreamOnFile
-title: IXpsOMObjectFactory::CreateReadOnlyStreamOnFile
+title: IXpsOMObjectFactory::CreateReadOnlyStreamOnFile (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Creates a read-only IStream over the specified file.
 old-location: xps\ixpsomobjectfactory_createreadonlystreamonfile.htm

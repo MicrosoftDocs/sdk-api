@@ -1,6 +1,6 @@
 ---
 UID: NC:psapi.PENUM_PAGE_FILE_CALLBACKW
-title: PENUM_PAGE_FILE_CALLBACKW
+title: PENUM_PAGE_FILE_CALLBACKW (psapi.h)
 author: windows-sdk-content
 description: An application-defined callback function used with the EnumPageFiles function.
 old-location: psapi\enumpagefilesproc.htm

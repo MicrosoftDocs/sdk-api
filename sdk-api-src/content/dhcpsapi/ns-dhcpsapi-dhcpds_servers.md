@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCPDS_SERVERS
-title: DHCPDS_SERVERS
+title: DHCPDS_SERVERS (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCPDS_SERVERS structure defines a list of DHCP servers in the context of directory services.
 old-location: dhcp\dhcpds_servers.htm

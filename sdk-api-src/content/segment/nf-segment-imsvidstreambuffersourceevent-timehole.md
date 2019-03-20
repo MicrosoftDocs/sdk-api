@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSourceEvent.TimeHole
-title: IMSVidStreamBufferSourceEvent::TimeHole
+title: IMSVidStreamBufferSourceEvent::TimeHole (segment.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\imsvidstreambuffersourceevent_timehole.htm

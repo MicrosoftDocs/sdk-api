@@ -1,6 +1,6 @@
 ---
 UID: NS:iprtrmib._MIB_IPMCAST_BOUNDARY_TABLE
-title: MIB_IPMCAST_BOUNDARY_TABLE
+title: MIB_IPMCAST_BOUNDARY_TABLE (iprtrmib.h)
 author: windows-sdk-content
 description: Contains a list of a router's scoped IPv4 multicast address boundaries.
 old-location: mib\mib_ipmcast_boundary_table.htm

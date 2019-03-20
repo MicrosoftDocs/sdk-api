@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core._SHChangeNotifyEntry
-title: SHChangeNotifyEntry
+title: SHChangeNotifyEntry (shlobj_core.h)
 author: windows-sdk-content
 description: Contains and receives information for change notifications. This structure is used with the SHChangeNotifyRegister function and the SFVM_QUERYFSNOTIFY notification.
 old-location: shell\SHChangeNotifyEntry.htm

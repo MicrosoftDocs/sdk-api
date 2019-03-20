@@ -1,6 +1,6 @@
 ---
 UID: NF:prsht.PropertySheetW
-title: PropertySheetW function
+title: PropertySheetW function (prsht.h)
 author: windows-sdk-content
 description: Creates a property sheet and adds the pages defined in the specified property sheet header structure.
 old-location: controls\PropertySheet.htm

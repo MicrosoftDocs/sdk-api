@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcompiler.D3DReflectLibrary
-title: D3DReflectLibrary function
+title: D3DReflectLibrary function (d3dcompiler.h)
 author: windows-sdk-content
 description: Creates a library-reflection interface from source data that contains an HLSL library of functions.
 old-location: direct3dhlsl\d3dreflectlibrary.htm

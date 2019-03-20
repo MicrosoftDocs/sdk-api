@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut.IInkCursorButtons
-title: IInkCursorButtons
+title: IInkCursorButtons (msinkaut.h)
 author: windows-sdk-content
 description: Represents a collection of IInkCursorButton objects for an IInkCursor interface.
 old-location: tablet\iinkcursorbuttons.htm

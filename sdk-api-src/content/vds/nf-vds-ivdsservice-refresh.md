@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsService.Refresh
-title: IVdsService::Refresh
+title: IVdsService::Refresh (vds.h)
 author: windows-sdk-content
 description: Refreshes disk-ownership and disk-layout information.
 old-location: base\ivdsservice_refresh.htm

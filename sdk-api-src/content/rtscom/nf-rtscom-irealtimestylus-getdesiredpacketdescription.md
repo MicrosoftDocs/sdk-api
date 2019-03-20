@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.GetDesiredPacketDescription
-title: IRealTimeStylus::GetDesiredPacketDescription
+title: IRealTimeStylus::GetDesiredPacketDescription (rtscom.h)
 author: windows-sdk-content
 description: Retrieves the list of properties that have been requested to be included in the packet stream.
 old-location: tablet\irealtimestylus_getdesiredpacketdescription.htm

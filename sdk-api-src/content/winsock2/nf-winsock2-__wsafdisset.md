@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.__WSAFDIsSet
-title: "__WSAFDIsSet function"
+title: "__WSAFDIsSet function" (winsock2.h)
 author: windows-sdk-content
 description: The __WSAFDIsSet function specifies whether a socket is included in a set of socket descriptors.
 old-location: winsock\wsafdisset.htm

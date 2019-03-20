@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_HTTPS_URL
-title: WS_HTTPS_URL
+title: WS_HTTPS_URL (webservices.h)
 author: windows-sdk-content
 description: The URL subtype for specifying an HTTPS URL.
 old-location: wsw\ws_https_url.htm

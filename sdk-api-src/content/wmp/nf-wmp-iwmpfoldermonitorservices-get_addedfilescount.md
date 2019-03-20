@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.get_addedFilesCount
-title: IWMPFolderMonitorServices::get_addedFilesCount
+title: IWMPFolderMonitorServices::get_addedFilesCount (wmp.h)
 author: windows-sdk-content
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The get_addedFilesCount method retrieves the count of files added to the library during the current scanning operation.
 old-location: wmp\iwmpfoldermonitorservices_get_addedfilescount.htm

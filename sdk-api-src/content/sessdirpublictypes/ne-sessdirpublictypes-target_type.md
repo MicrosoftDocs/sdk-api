@@ -1,6 +1,6 @@
 ---
 UID: NE:sessdirpublictypes._TARGET_TYPE
-title: TARGET_TYPE
+title: TARGET_TYPE (sessdirpublictypes.h)
 author: windows-sdk-content
 description: Indicates whether a target belongs to a pool or farm.
 old-location: termserv\target_type.htm

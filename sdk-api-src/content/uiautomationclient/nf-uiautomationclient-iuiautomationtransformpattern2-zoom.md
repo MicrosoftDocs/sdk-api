@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern2.Zoom
-title: IUIAutomationTransformPattern2::Zoom
+title: IUIAutomationTransformPattern2::Zoom (uiautomationclient.h)
 author: windows-sdk-content
 description: Zooms the viewport of the control.
 old-location: winauto\uiauto_IUIAutomationTransformPattern2_Zoom.htm

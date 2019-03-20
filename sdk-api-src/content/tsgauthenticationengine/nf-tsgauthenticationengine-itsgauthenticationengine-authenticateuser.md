@@ -1,6 +1,6 @@
 ---
 UID: NF:tsgauthenticationengine.ITSGAuthenticationEngine.AuthenticateUser
-title: ITSGAuthenticationEngine::AuthenticateUser
+title: ITSGAuthenticationEngine::AuthenticateUser (tsgauthenticationengine.h)
 author: windows-sdk-content
 description: Authenticates a user.
 old-location: termserv\itsgauthenticationengine_authenticateuser.htm

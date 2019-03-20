@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICodecAPI.UnregisterForEvent
-title: ICodecAPI::UnregisterForEvent
+title: ICodecAPI::UnregisterForEvent (strmif.h)
 author: windows-sdk-content
 description: The UnregisterForEvent method unregisters the application for a specified encoder event.
 old-location: dshow\icodecapi_unregisterforevent.htm

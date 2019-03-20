@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICStream
-title: IWICStream
+title: IWICStream (wincodec.h)
 author: windows-sdk-content
 description: Represents a Windows Imaging Component (WIC) stream for referencing imaging and metadata content.
 old-location: wic\_wic_codec_iwicstream.htm

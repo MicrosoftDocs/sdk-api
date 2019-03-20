@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackageWriter.StartNewDocument
-title: IXpsOMPackageWriter::StartNewDocument
+title: IXpsOMPackageWriter::StartNewDocument (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Opens and initializes a new FixedDocument in the FixedDocumentSequence of the package.
 old-location: xps\ixpsompackagewriter_startnewdocument.htm

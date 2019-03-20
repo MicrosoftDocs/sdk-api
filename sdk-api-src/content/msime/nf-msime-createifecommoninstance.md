@@ -1,6 +1,6 @@
 ---
 UID: NF:msime.CreateIFECommonInstance
-title: CreateIFECommonInstance function
+title: CreateIFECommonInstance function (msime.h)
 author: windows-sdk-content
 description: Returns a pointer to an IFECommon interface.
 old-location: intl\createifecommoninstance.htm

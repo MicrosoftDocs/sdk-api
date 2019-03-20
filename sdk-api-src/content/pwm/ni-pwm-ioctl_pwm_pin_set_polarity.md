@@ -1,6 +1,6 @@
 ---
 UID: NI:pwm.IOCTL_PWM_PIN_SET_POLARITY
-title: IOCTL_PWM_PIN_SET_POLARITY
+title: IOCTL_PWM_PIN_SET_POLARITY (pwm.h)
 author: windows-sdk-content
 description: Sets the signal polarity of the pin or channel. The control code sets the signal polarity based on a PWM_PIN_SET_POLARITY_INPUT structure. The signal polarity is either Active High or Active Low, as defined in the PWM_POLARITY enumeration.
 old-location: base\ioctl_pwm_pin_set_polarity.htm

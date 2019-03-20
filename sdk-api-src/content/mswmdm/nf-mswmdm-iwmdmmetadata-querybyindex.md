@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMMetaData.QueryByIndex
-title: IWMDMMetaData::QueryByIndex
+title: IWMDMMetaData::QueryByIndex (mswmdm.h)
 author: windows-sdk-content
 description: The QueryByIndex method retrieves the value of a property specified by index.
 old-location: wmdm\iwmdmmetadata_querybyindex.htm

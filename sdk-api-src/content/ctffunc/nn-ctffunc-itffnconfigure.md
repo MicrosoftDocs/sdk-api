@@ -1,6 +1,6 @@
 ---
 UID: NN:ctffunc.ITfFnConfigure
-title: ITfFnConfigure
+title: ITfFnConfigure (ctffunc.h)
 author: windows-sdk-content
 description: The ITfFnConfigure interface is implemented by a text service to enable the Text Services control panel application to allow the text service to display a configuration dialog box.
 old-location: tsf\itffnconfigure.htm

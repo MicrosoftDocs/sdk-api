@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcServerInqBindings
-title: RpcServerInqBindings function
+title: RpcServerInqBindings function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcServerInqBindings function returns the binding handles over which remote procedure calls can be received.
 old-location: rpc\rpcserverinqbindings.htm

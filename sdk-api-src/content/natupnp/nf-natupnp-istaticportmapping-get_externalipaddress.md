@@ -1,6 +1,6 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.get_ExternalIPAddress
-title: IStaticPortMapping::get_ExternalIPAddress
+title: IStaticPortMapping::get_ExternalIPAddress (natupnp.h)
 author: windows-sdk-content
 description: The get_ExternalIPAddress method retrieves the external IP address for this port mapping on the NAT computer.
 old-location: ics\istaticportmapping_get_externalipaddress.htm

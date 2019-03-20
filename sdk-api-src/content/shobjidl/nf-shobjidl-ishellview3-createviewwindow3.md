@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IShellView3.CreateViewWindow3
-title: IShellView3::CreateViewWindow3
+title: IShellView3::CreateViewWindow3 (shobjidl.h)
 author: windows-sdk-content
 description: Requests the creation of a new Shell view window. The view can be either the right pane of Windows Explorer or the client window of a folder window. This method replaces CreateViewWindow2.
 old-location: shell\IShellView3_CreateViewWindow3.htm

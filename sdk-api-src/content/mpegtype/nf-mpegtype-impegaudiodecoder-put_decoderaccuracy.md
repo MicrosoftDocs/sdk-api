@@ -1,6 +1,6 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.put_DecoderAccuracy
-title: IMpegAudioDecoder::put_DecoderAccuracy
+title: IMpegAudioDecoder::put_DecoderAccuracy (mpegtype.h)
 author: windows-sdk-content
 description: Specifies the decoder accuracy as a three-level quality setting.
 old-location: dshow\impegaudiodecoder_put_decoderaccuracy.htm

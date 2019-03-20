@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBitmapButton.GetPreferredSize
-title: ITfLangBarItemBitmapButton::GetPreferredSize
+title: ITfLangBarItemBitmapButton::GetPreferredSize (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarItemBitmapButton::GetPreferredSize method
 old-location: tsf\itflangbaritembitmapbutton_getpreferredsize.htm

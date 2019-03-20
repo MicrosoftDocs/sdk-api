@@ -1,6 +1,6 @@
 ---
 UID: NE:virtdisk._RESIZE_VIRTUAL_DISK_VERSION
-title: RESIZE_VIRTUAL_DISK_VERSION
+title: RESIZE_VIRTUAL_DISK_VERSION (virtdisk.h)
 author: windows-sdk-content
 description: Enumerates the possible versions for parameters for the ResizeVirtualDisk function.
 old-location: vstor\resize_virtual_disk_version.htm

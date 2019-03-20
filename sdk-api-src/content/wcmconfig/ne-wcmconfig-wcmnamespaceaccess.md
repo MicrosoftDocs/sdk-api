@@ -1,6 +1,6 @@
 ---
 UID: NE:wcmconfig.__MIDL___MIDL_itf_wcmconfig_0000_0000_0007
-title: WcmNamespaceAccess
+title: WcmNamespaceAccess (wcmconfig.h)
 author: windows-sdk-content
 description: Describes the options passed to the ISettingsEngine::GetNamespace method to choose how the namespace must be accessed.
 old-location: smi\wcmnamespaceaccess.htm

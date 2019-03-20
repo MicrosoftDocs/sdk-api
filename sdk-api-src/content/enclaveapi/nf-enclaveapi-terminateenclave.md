@@ -1,6 +1,6 @@
 ---
 UID: NF:enclaveapi.TerminateEnclave
-title: TerminateEnclave function
+title: TerminateEnclave function (enclaveapi.h)
 author: windows-sdk-content
 description: Ends the execution of the threads that are running within an enclave.
 old-location: base\terminateenclave.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoSwitchCallContext
-title: CoSwitchCallContext function
+title: CoSwitchCallContext function (combaseapi.h)
 author: windows-sdk-content
 description: Switches the call context object used by CoGetCallContext.
 old-location: com\coswitchcallcontext.htm

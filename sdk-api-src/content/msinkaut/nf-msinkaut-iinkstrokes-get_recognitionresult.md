@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokes.get_RecognitionResult
-title: IInkStrokes::get_RecognitionResult
+title: IInkStrokes::get_RecognitionResult (msinkaut.h)
 author: windows-sdk-content
 description: Gets the IInkRecognitionResult object of the InkStrokes collection.
 old-location: tablet\inkstrokes_recognitionresult.htm

@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_RESET_SNAPSHOT_INFO
-title: IOCTL_DISK_RESET_SNAPSHOT_INFO
+title: IOCTL_DISK_RESET_SNAPSHOT_INFO (winioctl.h)
 author: windows-sdk-content
 description: Clears all Volume Shadow Copy Service (VSS) hardware-based shadow copy (also called &#0034;snapshot&#0034;) information from the disk.
 old-location: fs\ioctl_disk_reset_snapshot_info.htm

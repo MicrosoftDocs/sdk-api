@@ -1,6 +1,6 @@
 ---
 UID: NF:physicalmonitorenumerationapi.DestroyPhysicalMonitor
-title: DestroyPhysicalMonitor function
+title: DestroyPhysicalMonitor function (physicalmonitorenumerationapi.h)
 author: windows-sdk-content
 description: Closes a handle to a physical monitor.
 old-location: monitor\destroyphysicalmonitor.htm

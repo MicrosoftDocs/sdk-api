@@ -1,6 +1,6 @@
 ---
 UID: NF:frquery.CFrameworkQuery.GetRequiredProperties
-title: CFrameworkQuery::GetRequiredProperties
+title: CFrameworkQuery::GetRequiredProperties (frquery.h)
 author: windows-sdk-content
 description: The GetRequiredProperties method returns a list of all of the properties specified in the SELECT statement of a query. It returns the properties from both the SELECT and WHERE clauses.
 old-location: wmi\cframeworkquery_getrequiredproperties.htm

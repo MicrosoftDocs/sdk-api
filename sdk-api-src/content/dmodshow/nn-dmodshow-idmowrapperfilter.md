@@ -1,6 +1,6 @@
 ---
 UID: NN:dmodshow.IDMOWrapperFilter
-title: IDMOWrapperFilter
+title: IDMOWrapperFilter (dmodshow.h)
 author: windows-sdk-content
 description: The IDMOWrapperFilter interface enables an application to use a DirectX Media Object (DMO) inside a filter graph.
 old-location: dshow\idmowrapperfilter.htm

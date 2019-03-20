@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxEncryptedBundleWriter3
-title: IAppxEncryptedBundleWriter3
+title: IAppxEncryptedBundleWriter3 (appxpackaging.h)
 author: windows-sdk-content
 description: Provides a write-only object model for encrypted bundle packages.
 old-location: appxpkg\iappxencryptedbundlewriter3.htm

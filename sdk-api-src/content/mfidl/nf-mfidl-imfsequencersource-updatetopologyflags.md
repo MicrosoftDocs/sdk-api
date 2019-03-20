@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSequencerSource.UpdateTopologyFlags
-title: IMFSequencerSource::UpdateTopologyFlags
+title: IMFSequencerSource::UpdateTopologyFlags (mfidl.h)
 author: windows-sdk-content
 description: Updates the flags for a topology in the queue.
 old-location: mf\imfsequencersource_updatetopologyflags.htm

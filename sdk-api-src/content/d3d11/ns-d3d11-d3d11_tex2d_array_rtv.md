@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_TEX2D_ARRAY_RTV
-title: D3D11_TEX2D_ARRAY_RTV
+title: D3D11_TEX2D_ARRAY_RTV (d3d11.h)
 author: windows-sdk-content
 description: Specifies the subresources from an array of 2D textures to use in a render-target view.
 old-location: direct3d11\d3d11_tex2d_array_rtv.htm

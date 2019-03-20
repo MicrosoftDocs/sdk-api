@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoGetCallerTID
-title: CoGetCallerTID function
+title: CoGetCallerTID function (combaseapi.h)
 author: windows-sdk-content
 description: Returns a pointer to a DWORD that contains the apartment ID of the caller's thread.
 old-location: com\cogetcallertid.htm

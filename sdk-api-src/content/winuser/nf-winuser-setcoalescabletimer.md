@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetCoalescableTimer
-title: SetCoalescableTimer function
+title: SetCoalescableTimer function (winuser.h)
 author: windows-sdk-content
 description: Creates a timer with the specified time-out value and coalescing tolerance delay.
 old-location: winmsg\setcoalescabletimer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRoleAssignment.AddRoleDefinition
-title: IAzRoleAssignment::AddRoleDefinition
+title: IAzRoleAssignment::AddRoleDefinition (azroles.h)
 author: windows-sdk-content
 description: Adds the specified IAzRoleDefinition object to this IAzRoleAssignment object.
 old-location: security\iazroleassignment_addroledefinition.htm

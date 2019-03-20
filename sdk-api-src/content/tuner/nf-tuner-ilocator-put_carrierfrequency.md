@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ILocator.put_CarrierFrequency
-title: ILocator::put_CarrierFrequency
+title: ILocator::put_CarrierFrequency (tuner.h)
 author: windows-sdk-content
 description: The put_CarrierFrequency method sets the frequency of the RF signal.
 old-location: mstv\ilocator_put_carrierfrequency.htm

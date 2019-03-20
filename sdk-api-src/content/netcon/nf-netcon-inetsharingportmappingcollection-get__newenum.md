@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingPortMappingCollection.get__NewEnum
-title: INetSharingPortMappingCollection::get__NewEnum
+title: INetSharingPortMappingCollection::get__NewEnum (netcon.h)
 author: windows-sdk-content
 description: The get__NewEnum method retrieves an enumerator for the port mapping collection.
 old-location: ics\inetsharingportmappingcollection_get__newenum.htm

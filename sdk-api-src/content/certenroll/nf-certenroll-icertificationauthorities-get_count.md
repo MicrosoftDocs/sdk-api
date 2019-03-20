@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertificationAuthorities.get_Count
-title: ICertificationAuthorities::get_Count
+title: ICertificationAuthorities::get_Count (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the number of ICertificationAuthority objects in the collection.
 old-location: security\icertificationauthorities_count.htm

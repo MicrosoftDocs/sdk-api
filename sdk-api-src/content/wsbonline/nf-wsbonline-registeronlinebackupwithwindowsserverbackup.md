@@ -1,6 +1,6 @@
 ---
 UID: NF:wsbonline.RegisterOnlineBackupWithWindowsServerBackup
-title: RegisterOnlineBackupWithWindowsServerBackup function
+title: RegisterOnlineBackupWithWindowsServerBackup function (wsbonline.h)
 author: windows-sdk-content
 description: Registers a Cloud backup provider with Windows Server Backup.
 old-location: wsb\registeronlinebackupwithwindowsserverbackup.htm

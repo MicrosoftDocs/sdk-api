@@ -1,6 +1,6 @@
 ---
 UID: NF:ncrypt.NCryptDecrypt
-title: NCryptDecrypt function
+title: NCryptDecrypt function (ncrypt.h)
 author: windows-sdk-content
 description: Decrypts a block of encrypted data.
 old-location: security\ncryptdecrypt_func.htm

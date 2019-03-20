@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatchAdvanced.GetUpperBoundItemId
-title: ISyncChangeBatchAdvanced::GetUpperBoundItemId
+title: ISyncChangeBatchAdvanced::GetUpperBoundItemId (winsync.h)
 author: windows-sdk-content
 description: Gets the highest item ID that is represented in the knowledge of any group in the change batch.
 old-location: winsync\isyncchangebatchadvanced_getupperbounditemid.htm

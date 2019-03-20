@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComObjectEvents.OnDisableCommit
-title: IComObjectEvents::OnDisableCommit
+title: IComObjectEvents::OnDisableCommit (comsvcs.h)
 author: windows-sdk-content
 description: Generated when the client calls DisableCommit on a context.
 old-location: cos\icomobjectevents_ondisablecommit.htm

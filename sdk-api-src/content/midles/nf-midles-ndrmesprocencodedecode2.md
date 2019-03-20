@@ -1,6 +1,6 @@
 ---
 UID: NF:midles.NdrMesProcEncodeDecode2
-title: NdrMesProcEncodeDecode2 function
+title: NdrMesProcEncodeDecode2 function (midles.h)
 author: windows-sdk-content
 description: NdrMesProcEncodeDecode2 may be altered or unavailable.
 old-location: rpc\ndrmesprocencodedecode2.htm

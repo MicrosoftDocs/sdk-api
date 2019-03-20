@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgTextCdma.get_Message
-title: IMbnSmsReadMsgTextCdma::get_Message
+title: IMbnSmsReadMsgTextCdma::get_Message (mbnapi.h)
 author: windows-sdk-content
 description: The contents of the message.
 old-location: mbn\imbnsmsreadmsgtextcdma_message.htm

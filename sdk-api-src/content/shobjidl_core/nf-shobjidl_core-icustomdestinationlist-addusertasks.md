@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ICustomDestinationList.AddUserTasks
-title: ICustomDestinationList::AddUserTasks
+title: ICustomDestinationList::AddUserTasks (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies items to include in the Tasks category of a custom Jump List.
 old-location: shell\ICustomDestinationList_AddUserTasks.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ListBox_GetItemHeight
-title: ListBox_GetItemHeight macro
+title: ListBox_GetItemHeight macro (windowsx.h)
 author: windows-sdk-content
 description: Retrieves the height of items in a list box.
 old-location: controls\ListBox_GetItemHeight.htm

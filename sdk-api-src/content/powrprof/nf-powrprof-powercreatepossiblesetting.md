@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerCreatePossibleSetting
-title: PowerCreatePossibleSetting function
+title: PowerCreatePossibleSetting function (powrprof.h)
 author: windows-sdk-content
 description: Creates a possible setting value for a specified power setting.
 old-location: base\powercreatepossiblesetting.htm

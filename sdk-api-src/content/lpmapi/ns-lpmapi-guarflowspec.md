@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_27
-title: GuarFlowSpec
+title: GuarFlowSpec (lpmapi.h)
 author: windows-sdk-content
 description: The GuarFlowSpec structure contains guaranteed flowspec information.
 old-location: qos\guarflowspec.htm

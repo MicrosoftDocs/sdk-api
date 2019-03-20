@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextStrings.SetOpCp
-title: ITextStrings::SetOpCp
+title: ITextStrings::SetOpCp (tom.h)
 author: windows-sdk-content
 description: Sets the character position in the source range's story that has desired character formatting attributes.
 old-location: controls\itextstrings_setopcp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostView.GetPostViewFormatCount
-title: IWMWriterPostView::GetPostViewFormatCount
+title: IWMWriterPostView::GetPostViewFormatCount (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetPostViewFormatCount method is used for ascertaining all possible format types supported for the specified stream.
 old-location: wmformat\iwmwriterpostview_getpostviewformatcount.htm

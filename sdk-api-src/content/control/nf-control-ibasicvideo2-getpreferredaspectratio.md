@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo2.GetPreferredAspectRatio
-title: IBasicVideo2::GetPreferredAspectRatio
+title: IBasicVideo2::GetPreferredAspectRatio (control.h)
 author: windows-sdk-content
 description: The GetPreferredAspectRatio method retrieves the preferred aspect ratio.
 old-location: dshow\ibasicvideo2_getpreferredaspectratio.htm

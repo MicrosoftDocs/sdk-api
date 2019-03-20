@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.phoneGetDevCapsA
-title: phoneGetDevCapsA function
+title: phoneGetDevCapsA function (tapi.h)
 author: windows-sdk-content
 description: The phoneGetDevCaps function queries a specified phone device to determine its telephony capabilities.
 old-location: tapi2\phonegetdevcaps.htm

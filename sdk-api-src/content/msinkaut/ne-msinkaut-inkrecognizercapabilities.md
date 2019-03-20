@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.InkRecognizerCapabilities
-title: InkRecognizerCapabilities
+title: InkRecognizerCapabilities (msinkaut.h)
 author: windows-sdk-content
 description: Specifies the attributes of a recognizer. You also use this enumeration to determine which attributes to use when you search for an installed recognizer.
 old-location: tablet\inkrecognizercapabilities.htm

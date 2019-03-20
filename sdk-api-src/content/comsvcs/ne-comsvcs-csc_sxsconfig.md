@@ -1,6 +1,6 @@
 ---
 UID: NE:comsvcs.tagCSC_SxsConfig
-title: CSC_SxsConfig
+title: CSC_SxsConfig (comsvcs.h)
 author: windows-sdk-content
 description: Indicates how side-by-side assemblies are configured for CServiceConfig.
 old-location: cos\csc_sxsconfig.htm

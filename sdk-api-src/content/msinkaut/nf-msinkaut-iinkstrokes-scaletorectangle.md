@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokes.ScaleToRectangle
-title: IInkStrokes::ScaleToRectangle
+title: IInkStrokes::ScaleToRectangle (msinkaut.h)
 author: windows-sdk-content
 description: Scales the IInkStrokeDisp object or InkStrokes collection to fit in the specified InkRectangle object.
 old-location: tablet\inkstrokes_scaletorectangle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionType.GetNumInterfaces
-title: ID3D12ShaderReflectionType::GetNumInterfaces
+title: ID3D12ShaderReflectionType::GetNumInterfaces (d3d12shader.h)
 author: windows-sdk-content
 description: Gets the number of interfaces.
 old-location: direct3d12\id3d12shaderreflectiontype_getnuminterfaces.htm

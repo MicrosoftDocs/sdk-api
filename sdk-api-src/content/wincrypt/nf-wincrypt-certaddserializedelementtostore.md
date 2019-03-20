@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertAddSerializedElementToStore
-title: CertAddSerializedElementToStore function
+title: CertAddSerializedElementToStore function (wincrypt.h)
 author: windows-sdk-content
 description: Adds a serialized certificate, certificate revocation list (CRL), or certificate trust list (CTL) element to the store.
 old-location: security\certaddserializedelementtostore.htm

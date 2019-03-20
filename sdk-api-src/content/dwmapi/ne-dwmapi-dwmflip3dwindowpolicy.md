@@ -1,6 +1,6 @@
 ---
 UID: NE:dwmapi.DWMFLIP3DWINDOWPOLICY
-title: DWMFLIP3DWINDOWPOLICY
+title: DWMFLIP3DWINDOWPOLICY (dwmapi.h)
 author: windows-sdk-content
 description: Flags used by the DwmSetWindowAttribute function to specify the Flip3D window policy.
 old-location: dwm\dwmflip3dwindowpolicy.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:msdrmdefs._DRM_USAGEPOLICY_TYPE
-title: DRM_USAGEPOLICY_TYPE
+title: DRM_USAGEPOLICY_TYPE (msdrmdefs.h)
 author: windows-sdk-content
 description: Used with the DRMGetUsagePolicy and DRMSetUsagePolicy functions to specify a type of usage policy.
 old-location: rm\drm_usagepolicy_type.htm

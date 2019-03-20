@@ -1,6 +1,6 @@
 ---
 UID: NF:activation.IActivationFactory.ActivateInstance
-title: IActivationFactory::ActivateInstance
+title: IActivationFactory::ActivateInstance (activation.h)
 author: windows-sdk-content
 description: Creates a new instance of the Windows Runtime class that is associated with the current activation factory.
 old-location: winrt\iactivationfactory_activateinstance.htm

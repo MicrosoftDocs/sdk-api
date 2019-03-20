@@ -1,6 +1,6 @@
 ---
 UID: NE:opmapi._OPM_IMAGE_ASPECT_RATIO_EN300294
-title: OPM_IMAGE_ASPECT_RATIO_EN300294
+title: OPM_IMAGE_ASPECT_RATIO_EN300294 (opmapi.h)
 author: windows-sdk-content
 description: Specifies the aspect ratio for ETSI EN 300 294.
 old-location: mf\opm_image_aspect_ratio_en300294.htm

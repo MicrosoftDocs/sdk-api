@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpSetRequestQueueProperty
-title: HttpSetRequestQueueProperty function
+title: HttpSetRequestQueueProperty function (http.h)
 author: windows-sdk-content
 description: Sets a new property or modifies an existing property on the request queue identified by the specified handle.
 old-location: http\httpsetrequestqueueproperty.htm

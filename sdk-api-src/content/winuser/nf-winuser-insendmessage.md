@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.InSendMessage
-title: InSendMessage function
+title: InSendMessage function (winuser.h)
 author: windows-sdk-content
 description: Determines whether the current window procedure is processing a message that was sent from another thread (in the same process or a different process) by a call to the SendMessage function.
 old-location: winmsg\insendmessage.htm

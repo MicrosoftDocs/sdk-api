@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsAsync.Cancel
-title: IVdsAsync::Cancel
+title: IVdsAsync::Cancel (vdshwprv.h)
 author: windows-sdk-content
 description: Cancels the asynchronous operation.
 old-location: base\ivdsasync_cancel.htm

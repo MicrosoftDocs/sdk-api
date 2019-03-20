@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptdlg.tagCERT_VIEWPROPERTIES_STRUCT_W
-title: CERT_VIEWPROPERTIES_STRUCT_W
+title: CERT_VIEWPROPERTIES_STRUCT_W (cryptdlg.h)
 author: windows-sdk-content
 description: The CERT_VIEWPROPERTIES_STRUCT structure defines information used when the CertViewProperties function is called to display a certificate's properties.
 old-location: security\cert_viewproperties_struct.htm

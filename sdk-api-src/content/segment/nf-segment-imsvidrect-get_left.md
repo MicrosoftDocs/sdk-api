@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidRect.get_Left
-title: IMSVidRect::get_Left
+title: IMSVidRect::get_Left (segment.h)
 author: windows-sdk-content
 description: The get_Left method retrieves the left x-coordinate of the rectangle. This coordinate is relative to the rectangle's associated window.
 old-location: mstv\imsvidrect_get_left.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IAnalogTVTuningSpace.put_MinChannel
-title: IAnalogTVTuningSpace::put_MinChannel
+title: IAnalogTVTuningSpace::put_MinChannel (tuner.h)
 author: windows-sdk-content
 description: The put_MinChannel method sets the lowest channel number for this tuning space.
 old-location: mstv\ianalogtvtuningspace_put_minchannel.htm

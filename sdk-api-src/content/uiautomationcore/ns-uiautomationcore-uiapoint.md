@@ -1,6 +1,6 @@
 ---
 UID: NS:uiautomationcore.UiaPoint
-title: UiaPoint
+title: UiaPoint (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains the coordinates of a point.
 old-location: winauto\uiauto_UiaPointStruct.htm

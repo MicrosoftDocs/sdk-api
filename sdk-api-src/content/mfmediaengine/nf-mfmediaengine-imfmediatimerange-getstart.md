@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaTimeRange.GetStart
-title: IMFMediaTimeRange::GetStart
+title: IMFMediaTimeRange::GetStart (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the start time for a specified time range.
 old-location: mf\imfmediatimerange_getstart.htm

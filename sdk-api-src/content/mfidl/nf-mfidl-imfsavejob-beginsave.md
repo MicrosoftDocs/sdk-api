@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSaveJob.BeginSave
-title: IMFSaveJob::BeginSave
+title: IMFSaveJob::BeginSave (mfidl.h)
 author: windows-sdk-content
 description: Begins saving a Windows Media file to the application's byte stream.
 old-location: mf\imfsavejob_beginsave.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_SetIconSpacing
-title: ListView_SetIconSpacing macro
+title: ListView_SetIconSpacing macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the spacing between icons in list-view controls set to the LVS_ICON style. You can use this macro or send the LVM_SETICONSPACING message explicitly.
 old-location: controls\ListView_SetIconSpacing.htm

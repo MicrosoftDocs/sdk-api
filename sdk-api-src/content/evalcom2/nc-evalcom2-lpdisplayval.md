@@ -1,6 +1,6 @@
 ---
 UID: NC:evalcom2.LPDISPLAYVAL
-title: LPDISPLAYVAL
+title: LPDISPLAYVAL (evalcom2.h)
 author: windows-sdk-content
 description: The LPDISPLAYVAL function specification defines a callback function prototype. The IValidate::SetDisplay method enables an authoring tool to receive ICE status messages through the registered callback function.
 old-location: setup\lpdisplayval.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsADSystemInfo
-title: IADsADSystemInfo
+title: IADsADSystemInfo (iads.h)
 author: windows-sdk-content
 description: The IADsADSystemInfo interface retrieves data about the local computer if it is running a Windows operating system in a Windows domain. For example, you can get the domain, site, and distinguished name of the local computer.
 old-location: adsi\iadsadsysteminfo.htm

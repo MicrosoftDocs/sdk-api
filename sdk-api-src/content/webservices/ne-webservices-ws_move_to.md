@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_7
-title: WS_MOVE_TO
+title: WS_MOVE_TO (webservices.h)
 author: windows-sdk-content
 description: This enumeration identifies the various ways to move about an xml document.
 old-location: wsw\ws_move_to.htm

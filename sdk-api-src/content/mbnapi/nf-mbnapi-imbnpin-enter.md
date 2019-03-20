@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnPin.Enter
-title: IMbnPin::Enter
+title: IMbnPin::Enter (mbnapi.h)
 author: windows-sdk-content
 description: Enters a PIN.
 old-location: mbn\imbnpin_enter.htm

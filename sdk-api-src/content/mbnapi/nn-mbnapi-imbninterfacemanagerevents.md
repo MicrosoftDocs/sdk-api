@@ -1,6 +1,6 @@
 ---
 UID: NN:mbnapi.IMbnInterfaceManagerEvents
-title: IMbnInterfaceManagerEvents
+title: IMbnInterfaceManagerEvents (mbnapi.h)
 author: windows-sdk-content
 description: This notification interface signals an application about the arrival and removal of devices in the system.
 old-location: mbn\imbninterfacemanagerevents.htm

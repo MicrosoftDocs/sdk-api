@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.GetPropertyCount
-title: Image::GetPropertyCount
+title: Image::GetPropertyCount (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::GetPropertyCount method gets the number of properties (pieces of metadata) stored in this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetPropertyCount_.htm

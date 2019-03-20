@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformation.GetDefaultSecurityDescriptor
-title: ICspInformation::GetDefaultSecurityDescriptor
+title: ICspInformation::GetDefaultSecurityDescriptor (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the default private key security descriptor.
 old-location: security\icspinformation_getdefaultsecuritydescriptor.htm

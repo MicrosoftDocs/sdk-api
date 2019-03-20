@@ -1,6 +1,6 @@
 ---
 UID: NF:tdh.TdhLoadManifestFromBinary
-title: TdhLoadManifestFromBinary function
+title: TdhLoadManifestFromBinary function (tdh.h)
 author: windows-sdk-content
 description: Takes a NULL-terminated path to a binary file that contains metadata resources needed to decode a specific event provider.
 old-location: etw\tdhloadmanifestfrombinary.htm

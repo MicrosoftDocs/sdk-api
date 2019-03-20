@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.SetName
-title: ICreateTypeInfo2::SetName
+title: ICreateTypeInfo2::SetName (oaidl.h)
 author: windows-sdk-content
 description: Sets the name of the typeinfo.
 old-location: automat\icreatetypeinfo2_setname.htm

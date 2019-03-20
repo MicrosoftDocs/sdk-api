@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.SetOutputStreamState
-title: IMFDeviceTransform::SetOutputStreamState
+title: IMFDeviceTransform::SetOutputStreamState (mftransform.h)
 author: windows-sdk-content
 description: The SetOutputStreamState method sets the Device MFT output stream state and media type.
 old-location: stream\imfdevicetransform_setoutputstreamstate.htm

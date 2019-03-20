@@ -1,6 +1,6 @@
 ---
 UID: NS:winbio_adapter._WINBIO_STORAGE_INTERFACE
-title: WINBIO_STORAGE_INTERFACE
+title: WINBIO_STORAGE_INTERFACE (winbio_adapter.h)
 author: windows-sdk-content
 description: Contains pointers to your custom storage adapter functions.
 old-location: secbiomet\winbio_storage_interface.htm

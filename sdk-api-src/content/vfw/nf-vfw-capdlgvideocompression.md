@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.capDlgVideoCompression
-title: capDlgVideoCompression macro
+title: capDlgVideoCompression macro (vfw.h)
 author: windows-sdk-content
 description: The capDlgVideoCompression macro displays a dialog box in which the user can select a compressor to use during the capture process.
 old-location: multimedia\capdlgvideocompression.htm

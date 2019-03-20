@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IEnumerableView.SetEnumReadyCallback
-title: IEnumerableView::SetEnumReadyCallback
+title: IEnumerableView::SetEnumReadyCallback (shobjidl.h)
 author: windows-sdk-content
 description: Sets a callback on the view that is notified when the initial view enumeration is complete.
 old-location: shell\IEnumerableView_SetEnumReadyCallback.htm

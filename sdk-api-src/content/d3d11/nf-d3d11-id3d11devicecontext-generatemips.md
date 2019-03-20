@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.GenerateMips
-title: ID3D11DeviceContext::GenerateMips
+title: ID3D11DeviceContext::GenerateMips (d3d11.h)
 author: windows-sdk-content
 description: Generates mipmaps for the given shader resource.
 old-location: direct3d11\id3d11devicecontext_generatemips.htm

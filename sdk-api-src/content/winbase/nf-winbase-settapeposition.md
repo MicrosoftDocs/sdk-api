@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SetTapePosition
-title: SetTapePosition function
+title: SetTapePosition function (winbase.h)
 author: windows-sdk-content
 description: Sets the tape position on the specified device.
 old-location: backup\settapeposition.htm

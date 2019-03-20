@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdsapi._DS_REPL_PENDING_OPSW
-title: DS_REPL_PENDING_OPSW
+title: DS_REPL_PENDING_OPSW (ntdsapi.h)
 author: windows-sdk-content
 description: Contains an array of DS_REPL_OP structures, which in turn describe the replication tasks currently executing and queued to execute, as returned by the DsReplicaGetInfo and DsReplicaGetInfo2 functions.
 old-location: ad\ds_repl_pending_ops.htm

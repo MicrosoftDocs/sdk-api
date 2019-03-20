@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IBitmapData.GetSourceBitmapDescription
-title: IBitmapData::GetSourceBitmapDescription
+title: IBitmapData::GetSourceBitmapDescription (xamlom.h)
 author: windows-sdk-content
 description: Gets a BitmapDescription that describes the original format of the bitmap data stored in the IBitmapData.
 old-location: xaml_diagnostics\ibitmapdata_getsourcebitmapdescription.htm

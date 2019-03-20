@@ -1,6 +1,6 @@
 ---
 UID: NF:psapi.EnumProcessModulesEx
-title: EnumProcessModulesEx function
+title: EnumProcessModulesEx function (psapi.h)
 author: windows-sdk-content
 description: Retrieves a handle for each module in the specified process that meets the specified filter criteria.
 old-location: psapi\enumprocessmodulesex.htm

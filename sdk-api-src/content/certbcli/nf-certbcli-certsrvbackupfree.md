@@ -1,6 +1,6 @@
 ---
 UID: NF:certbcli.CertSrvBackupFree
-title: CertSrvBackupFree function
+title: CertSrvBackupFree function (certbcli.h)
 author: windows-sdk-content
 description: Used to free memory allocated from certain Certificate Services Backup APIs.
 old-location: security\certsrvbackupfree.htm

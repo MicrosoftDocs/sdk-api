@@ -1,6 +1,6 @@
 ---
 UID: NF:cmnquery.IPersistQuery.WriteInt
-title: IPersistQuery::WriteInt
+title: IPersistQuery::WriteInt (cmnquery.h)
 author: windows-sdk-content
 description: Writes an integer value to the query store.
 old-location: ad\ipersistquery_writeint.htm

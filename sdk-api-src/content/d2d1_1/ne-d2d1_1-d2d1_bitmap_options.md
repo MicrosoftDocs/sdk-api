@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1_1.D2D1_BITMAP_OPTIONS
-title: D2D1_BITMAP_OPTIONS
+title: D2D1_BITMAP_OPTIONS (d2d1_1.h)
 author: windows-sdk-content
 description: Specifies how a bitmap can be used.
 old-location: direct2d\__d2d1_bitmap_options.htm

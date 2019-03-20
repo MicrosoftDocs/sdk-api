@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GlobalSize
-title: GlobalSize function
+title: GlobalSize function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the current size of the specified global memory object, in bytes.
 old-location: base\globalsize.htm

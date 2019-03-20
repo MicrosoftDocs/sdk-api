@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.FlattenPath
-title: FlattenPath function
+title: FlattenPath function (wingdi.h)
 author: windows-sdk-content
 description: The FlattenPath function transforms any curves in the path that is selected into the current device context (DC), turning each curve into a sequence of lines.
 old-location: gdi\flattenpath.htm

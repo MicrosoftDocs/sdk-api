@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.GetIAccessible
-title: ILegacyIAccessibleProvider::GetIAccessible
+title: ILegacyIAccessibleProvider::GetIAccessible (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves an accessible object that corresponds to a UI Automation element that supports the LegacyIAccessible control pattern.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_GetIAccessible.htm

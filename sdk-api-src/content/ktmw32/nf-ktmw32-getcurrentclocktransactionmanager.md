@@ -1,6 +1,6 @@
 ---
 UID: NF:ktmw32.GetCurrentClockTransactionManager
-title: GetCurrentClockTransactionManager function
+title: GetCurrentClockTransactionManager function (ktmw32.h)
 author: windows-sdk-content
 description: Obtains a virtual clock value from a transaction manager.
 old-location: fs\getcurrentclocktransactionmanager_func.htm

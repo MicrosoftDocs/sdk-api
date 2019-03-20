@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallIndirect.GetIID
-title: ICallIndirect::GetIID
+title: ICallIndirect::GetIID (callobj.h)
 author: windows-sdk-content
 description: Retrieves the interface id supported by this ICallIndirect implementation.
 old-location: com\icallindirect_getiid.htm

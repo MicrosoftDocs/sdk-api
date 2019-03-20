@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateBitmapFlipRotator
-title: IWICImagingFactory::CreateBitmapFlipRotator
+title: IWICImagingFactory::CreateBitmapFlipRotator (wincodec.h)
 author: windows-sdk-content
 description: Creates a new instance of an IWICBitmapFlipRotator object.
 old-location: wic\_wic_codec_iwicimagingfactory_createbitmapfliprotator.htm

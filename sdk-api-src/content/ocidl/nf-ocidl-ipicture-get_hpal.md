@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPicture.get_hPal
-title: IPicture::get_hPal
+title: IPicture::get_hPal (ocidl.h)
 author: windows-sdk-content
 description: Retrieves a copy of the palette currently used by the picture object.
 old-location: com\ipicture_get_hpal.htm

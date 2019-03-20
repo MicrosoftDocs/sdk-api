@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminReleaseIpv6AddressForUser
-title: MprAdminReleaseIpv6AddressForUser function
+title: MprAdminReleaseIpv6AddressForUser function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminReleaseIpv6AddressForUser function is called once for each user that needs to release an IPv6 address.
 old-location: rras\mpradminreleaseipv6addressforuser.htm

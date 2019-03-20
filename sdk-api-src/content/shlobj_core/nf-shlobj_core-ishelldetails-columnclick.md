@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellDetails.ColumnClick
-title: IShellDetails::ColumnClick
+title: IShellDetails::ColumnClick (shlobj_core.h)
 author: windows-sdk-content
 description: Rearranges a column.
 old-location: shell\IShellDetails_ColumnClick.htm

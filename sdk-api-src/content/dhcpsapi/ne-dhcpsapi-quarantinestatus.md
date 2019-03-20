@@ -1,6 +1,6 @@
 ---
 UID: NE:dhcpsapi._QuarantineStatus
-title: QuarantineStatus
+title: QuarantineStatus (dhcpsapi.h)
 author: windows-sdk-content
 description: The QuarantineStatus enumeration specifies possible health status values for the DHCPv4 client, as validated at the NAP server.
 old-location: dhcp\quarantinestatus.htm

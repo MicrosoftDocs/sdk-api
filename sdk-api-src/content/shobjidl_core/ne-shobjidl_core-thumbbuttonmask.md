@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.THUMBBUTTONMASK
-title: THUMBBUTTONMASK
+title: THUMBBUTTONMASK (shobjidl_core.h)
 author: windows-sdk-content
 description: Used by the THUMBBUTTON structure to specify which members of that structure contain valid data.
 old-location: shell\THUMBBUTTONMASK.htm

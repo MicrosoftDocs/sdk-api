@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoSetProxyBlanket
-title: CoSetProxyBlanket function
+title: CoSetProxyBlanket function (combaseapi.h)
 author: windows-sdk-content
 description: Sets the authentication information that will be used to make calls on the specified proxy.
 old-location: com\cosetproxyblanket.htm

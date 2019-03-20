@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHPropStgWriteMultiple
-title: SHPropStgWriteMultiple function
+title: SHPropStgWriteMultiple function (shlobj_core.h)
 author: windows-sdk-content
 description: Wraps the IPropertyStorage::WriteMultiple function to ensure that ANSI and Unicode translations are handled properly for deprecated property sets.
 old-location: properties\SHPropStgWriteMultiple.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIStreamWrite
-title: AVIStreamWrite function
+title: AVIStreamWrite function (vfw.h)
 author: windows-sdk-content
 description: The AVIStreamWrite function writes data to a stream.
 old-location: multimedia\avistreamwrite.htm

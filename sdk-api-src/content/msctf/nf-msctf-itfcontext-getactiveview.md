@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContext.GetActiveView
-title: ITfContext::GetActiveView
+title: ITfContext::GetActiveView (msctf.h)
 author: windows-sdk-content
 description: ITfContext::GetActiveView method
 old-location: tsf\itfcontext_getactiveview.htm

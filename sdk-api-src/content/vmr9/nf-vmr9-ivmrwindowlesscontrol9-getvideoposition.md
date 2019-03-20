@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRWindowlessControl9.GetVideoPosition
-title: IVMRWindowlessControl9::GetVideoPosition
+title: IVMRWindowlessControl9::GetVideoPosition (vmr9.h)
 author: windows-sdk-content
 description: The GetVideoPosition method retrieves the current source and destination rectangles used to display the video.
 old-location: dshow\ivmrwindowlesscontrol9_getvideoposition.htm

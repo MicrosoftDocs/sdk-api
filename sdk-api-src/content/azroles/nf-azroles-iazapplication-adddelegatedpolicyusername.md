@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.AddDelegatedPolicyUserName
-title: IAzApplication::AddDelegatedPolicyUserName
+title: IAzApplication::AddDelegatedPolicyUserName (azroles.h)
 author: windows-sdk-content
 description: Adds the specified account name to the list of principals that act as delegated policy users.
 old-location: security\iazapplication_adddelegatedpolicyusername.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IFilterMapper
-title: IFilterMapper
+title: IFilterMapper (strmif.h)
 author: windows-sdk-content
 description: Note  This interface has been deprecated.
 old-location: dshow\ifiltermapper.htm

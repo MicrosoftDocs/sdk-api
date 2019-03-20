@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPropertyValue.Clear
-title: IADsPropertyValue::Clear
+title: IADsPropertyValue::Clear (iads.h)
 author: windows-sdk-content
 description: Clears the current values of the property value object.
 old-location: adsi\iadspropertyvalue_clear.htm

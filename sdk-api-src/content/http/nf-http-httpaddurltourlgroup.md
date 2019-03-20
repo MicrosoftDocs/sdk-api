@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpAddUrlToUrlGroup
-title: HttpAddUrlToUrlGroup function
+title: HttpAddUrlToUrlGroup function (http.h)
 author: windows-sdk-content
 description: Adds the specified URL to the URL Group identified by the URL Group ID.
 old-location: http\httpaddurltourlgroup.htm

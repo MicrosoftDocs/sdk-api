@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Extensions.get_Count
-title: IX509Extensions::get_Count
+title: IX509Extensions::get_Count (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the number of IX509Extension objects in the collection.
 old-location: security\ix509extensions_count_property.htm

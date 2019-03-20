@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_ADDATTACHEDSURFACEDATA
-title: DD_ADDATTACHEDSURFACEDATA
+title: DD_ADDATTACHEDSURFACEDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_ADDATTACHEDSURFACEDATA structure contains information necessary to attach a surface to another surface.
 old-location: display\dd_addattachedsurfacedata.htm

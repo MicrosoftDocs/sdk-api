@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMClockSlave.SetErrorTolerance
-title: IAMClockSlave::SetErrorTolerance
+title: IAMClockSlave::SetErrorTolerance (strmif.h)
 author: windows-sdk-content
 description: The SetErrorTolerance method sets the audio renderer's rate-matching tolerance.
 old-location: dshow\iamclockslave_seterrortolerance.htm

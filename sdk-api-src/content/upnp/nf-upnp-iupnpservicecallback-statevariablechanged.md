@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPServiceCallback.StateVariableChanged
-title: IUPnPServiceCallback::StateVariableChanged
+title: IUPnPServiceCallback::StateVariableChanged (upnp.h)
 author: windows-sdk-content
 description: The StateVariableChanged method is invoked when a state variable has changed.
 old-location: upnp\iupnpservicecallback_statevariablechanged.htm

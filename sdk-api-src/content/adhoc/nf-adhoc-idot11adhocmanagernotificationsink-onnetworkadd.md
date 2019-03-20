@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocManagerNotificationSink.OnNetworkAdd
-title: IDot11AdHocManagerNotificationSink::OnNetworkAdd
+title: IDot11AdHocManagerNotificationSink::OnNetworkAdd (adhoc.h)
 author: windows-sdk-content
 description: Notifies the client that a new wireless ad hoc network destination is in range and available for connection.
 old-location: nwifi\idot11adhocmanagernotificationsink_onnetworkadd.htm

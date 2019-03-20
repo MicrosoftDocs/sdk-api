@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupCommitFileQueueA
-title: SetupCommitFileQueueA function
+title: SetupCommitFileQueueA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupCommitFileQueue function performs file operations queued on a setup file queue.
 old-location: setup\setupcommitfilequeue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10.D3D10_SHADER_RESOURCE_VIEW_DESC
-title: D3D10_SHADER_RESOURCE_VIEW_DESC
+title: D3D10_SHADER_RESOURCE_VIEW_DESC (d3d10.h)
 author: windows-sdk-content
 description: Describes a shader-resource view.
 old-location: direct3d10\d3d10_shader_resource_view_desc.htm

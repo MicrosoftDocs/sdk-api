@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_GetChild
-title: TreeView_GetChild macro
+title: TreeView_GetChild macro (commctrl.h)
 author: windows-sdk-content
 description: Retrieves the first child item of the specified tree-view item. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_CHILD flag.
 old-location: controls\TreeView_GetChild.htm

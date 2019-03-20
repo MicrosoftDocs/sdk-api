@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagCHANGEFILTERSTRUCT
-title: CHANGEFILTERSTRUCT
+title: CHANGEFILTERSTRUCT (winuser.h)
 author: windows-sdk-content
 description: Contains extended result information obtained by calling the ChangeWindowMessageFilterEx function.
 old-location: winmsg\changefilterstruct.htm

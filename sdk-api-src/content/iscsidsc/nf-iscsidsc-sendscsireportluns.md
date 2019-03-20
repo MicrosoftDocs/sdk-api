@@ -1,6 +1,6 @@
 ---
 UID: NF:iscsidsc.SendScsiReportLuns
-title: SendScsiReportLuns function
+title: SendScsiReportLuns function (iscsidsc.h)
 author: windows-sdk-content
 description: SendScsiReportLuns function sends a SCSI REPORT LUNS command to a specified target.
 old-location: iscsidisc\sendscsireportluns.htm

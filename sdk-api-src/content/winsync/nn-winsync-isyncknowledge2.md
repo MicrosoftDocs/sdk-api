@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.ISyncKnowledge2
-title: ISyncKnowledge2
+title: ISyncKnowledge2 (winsync.h)
 author: windows-sdk-content
 description: Represents additional information about the knowledge that a replica has about its item store.
 old-location: winsync\isyncknowledge2.htm

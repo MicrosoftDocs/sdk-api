@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.get_PopDownCorrectionHeight
-title: ITextInputPanel::get_PopDownCorrectionHeight
+title: ITextInputPanel::get_PopDownCorrectionHeight (peninputpanel.h)
 author: windows-sdk-content
 description: Gets the height of the Post-Insertion correction comb when it is positioned below Input Panel.
 old-location: tablet\itextinputpanel_popdowncorrectionheight.htm

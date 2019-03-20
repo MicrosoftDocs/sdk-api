@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBalloon.GetPreferredSize
-title: ITfLangBarItemBalloon::GetPreferredSize
+title: ITfLangBarItemBalloon::GetPreferredSize (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarItemBalloon::GetPreferredSize method
 old-location: tsf\itflangbaritemballoon_getpreferredsize.htm

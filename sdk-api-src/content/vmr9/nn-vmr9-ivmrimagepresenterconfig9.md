@@ -1,6 +1,6 @@
 ---
 UID: NN:vmr9.IVMRImagePresenterConfig9
-title: IVMRImagePresenterConfig9
+title: IVMRImagePresenterConfig9 (vmr9.h)
 author: windows-sdk-content
 description: The IVMRImagePresenterConfig interface provides methods for setting the renderering preferences on the allocator-presenter used by the Video Mixing Renderer Filter 9 (VMR-9).Applications should not use this interface directly.
 old-location: dshow\ivmrimagepresenterconfig9.htm

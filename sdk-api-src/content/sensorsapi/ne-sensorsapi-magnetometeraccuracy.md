@@ -1,6 +1,6 @@
 ---
 UID: NE:sensorsapi.MagnetometerAccuracy
-title: MagnetometerAccuracy
+title: MagnetometerAccuracy (sensorsapi.h)
 author: windows-sdk-content
 description: Specifies the accuracy of the magnetometer.
 old-location: winsensors\magnetometeraccuracy.htm

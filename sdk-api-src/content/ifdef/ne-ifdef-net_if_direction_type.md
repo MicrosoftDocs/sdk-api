@@ -1,6 +1,6 @@
 ---
 UID: NE:ifdef._NET_IF_DIRECTION_TYPE
-title: NET_IF_DIRECTION_TYPE
+title: NET_IF_DIRECTION_TYPE (ifdef.h)
 author: windows-sdk-content
 description: The NET_IF_ACCESS_TYPE enumeration type specifies the NDIS network interface direction type.
 old-location: netvista\net_if_direction_type.htm

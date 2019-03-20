@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupPromptReboot
-title: SetupPromptReboot function
+title: SetupPromptReboot function (setupapi.h)
 author: windows-sdk-content
 description: The SetupPromptReboot function asks the user if he wants to reboot the system, optionally dependent on whether any files in a committed file queue were in use during a file operation.
 old-location: setup\setuppromptreboot.htm

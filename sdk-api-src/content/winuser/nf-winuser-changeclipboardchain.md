@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.ChangeClipboardChain
-title: ChangeClipboardChain function
+title: ChangeClipboardChain function (winuser.h)
 author: windows-sdk-content
 description: Removes a specified window from the chain of clipboard viewers.
 old-location: dataxchg\changeclipboardchain.htm

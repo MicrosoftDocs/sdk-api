@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetCapture
-title: GetCapture function
+title: GetCapture function (winuser.h)
 author: windows-sdk-content
 description: Retrieves a handle to the window (if any) that has captured the mouse. Only one window at a time can capture the mouse; this window receives mouse input whether or not the cursor is within its borders.
 old-location: inputdev\getcapture.htm

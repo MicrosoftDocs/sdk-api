@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.ImportPFXFlags
-title: ImportPFXFlags
+title: ImportPFXFlags (certenroll.h)
 author: windows-sdk-content
 description: Flags to use when importing a PFX certificate.
 old-location: security\importpfxflags.htm

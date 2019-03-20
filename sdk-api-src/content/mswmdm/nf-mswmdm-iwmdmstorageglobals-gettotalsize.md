@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorageGlobals.GetTotalSize
-title: IWMDMStorageGlobals::GetTotalSize
+title: IWMDMStorageGlobals::GetTotalSize (mswmdm.h)
 author: windows-sdk-content
 description: The GetTotalSize method retrieves the total size in bytes of the storage medium associated with the IWMDMStorageGlobals interface.
 old-location: wmdm\iwmdmstorageglobals_gettotalsize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineReleaseUserUserInfo
-title: lineReleaseUserUserInfo function
+title: lineReleaseUserUserInfo function (tapi.h)
 author: windows-sdk-content
 description: The lineReleaseUserUserInfo function informs the service provider that the application has processed the user-user information contained in the LINECALLINFO structure.
 old-location: tapi2\linereleaseuseruserinfo.htm

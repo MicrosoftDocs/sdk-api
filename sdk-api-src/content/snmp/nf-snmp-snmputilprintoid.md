@@ -1,6 +1,6 @@
 ---
 UID: NF:snmp.SnmpUtilPrintOid
-title: SnmpUtilPrintOid function
+title: SnmpUtilPrintOid function (snmp.h)
 author: windows-sdk-content
 description: The SnmpUtilPrintOid function formats the specified object identifier (OID) and prints the result to the standard output device. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputilprintoid.htm

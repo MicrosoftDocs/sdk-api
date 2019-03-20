@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpHlprFreeV4Policy
-title: DhcpHlprFreeV4Policy function
+title: DhcpHlprFreeV4Policy function (dhcpsapi.h)
 author: windows-sdk-content
 description: Frees the memory of all the data structures within a DHCP server policy structure.
 old-location: dhcp\dhcphlprfreev4policy.htm

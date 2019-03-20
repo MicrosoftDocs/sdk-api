@@ -1,6 +1,6 @@
 ---
 UID: NS:dxmini._DDLOCKININFO
-title: DDLOCKININFO
+title: DDLOCKININFO (dxmini.h)
 author: windows-sdk-content
 description: The DDLOCKININFO structure contains the surface information.
 old-location: display\ddlockininfo.htm

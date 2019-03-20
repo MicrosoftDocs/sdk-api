@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmPipelineModuleType
-title: FsrmPipelineModuleType
+title: FsrmPipelineModuleType (fsrmenums.h)
 author: windows-sdk-content
 description: Defines the types of modules that you can define.
 old-location: fsrm\fsrmpipelinemoduletype.htm

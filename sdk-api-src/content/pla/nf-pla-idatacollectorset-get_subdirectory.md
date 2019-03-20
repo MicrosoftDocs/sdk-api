@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_Subdirectory
-title: IDataCollectorSet::get_Subdirectory
+title: IDataCollectorSet::get_Subdirectory (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets a base subdirectory of the root path where the next instance of the data collector set will write its logs.
 old-location: pla\idatacollectorset_get_subdirectory.htm

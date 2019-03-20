@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1018
-title: SERVER_INFO_1018
+title: SERVER_INFO_1018 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1018 structure contains information about how much the announce rate can vary for the specified server.
 old-location: netmgmt\server_info_1018_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dwmapi._MilMatrix3x2D
-title: MilMatrix3x2D
+title: MilMatrix3x2D (dwmapi.h)
 author: windows-sdk-content
 description: Specifies a 3x2 matrix that describes a transform.
 old-location: dwm\milmatrix3x2d.htm

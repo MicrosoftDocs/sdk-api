@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterResourceControl
-title: ClusterResourceControl function
+title: ClusterResourceControl function (clusapi.h)
 author: windows-sdk-content
 description: Initiates an operation affecting a resource. The operation performed depends on the control code passed to the dwControlCode parameter.
 old-location: mscs\clusterresourcecontrol.htm

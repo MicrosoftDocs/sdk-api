@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._SR_RESOURCE_TYPE_ELIGIBLE_SOURCE_DATADISKS
-title: SR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS
+title: SR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS (clusapi.h)
 author: windows-sdk-content
 description: Describes a set of retrieved data disks that can be used as source sites for replication.
 old-location: mscs\sr_resource_type_query_eligible_source_datadisks.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingDevices.get_Count
-title: IWindowsMediaLibrarySharingDevices::get_Count
+title: IWindowsMediaLibrarySharingDevices::get_Count (wmlss.h)
 author: windows-sdk-content
 description: The get_Count method retrieves the number of media devices on the home network.
 old-location: wmlss\IWMLSDevicesget_Count.htm

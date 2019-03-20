@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.MakeLower
-title: CHString::MakeLower
+title: CHString::MakeLower (chstring.h)
 author: windows-sdk-content
 description: The MakeLower method converts a CHString string to a lowercase string.
 old-location: wmi\chstring_makelower.htm

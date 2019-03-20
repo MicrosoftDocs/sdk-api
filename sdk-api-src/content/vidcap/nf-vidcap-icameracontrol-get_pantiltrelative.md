@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.get_PanTiltRelative
-title: ICameraControl::get_PanTiltRelative
+title: ICameraControl::get_PanTiltRelative (vidcap.h)
 author: windows-sdk-content
 description: The get_PanTiltRelative method returns the camera's relative pan and tilt. The relative pan and tilt are expressed as a number of steps, where the size of each step depends on the camera model.
 old-location: dshow\icameracontrol_get_pantiltrelative.htm

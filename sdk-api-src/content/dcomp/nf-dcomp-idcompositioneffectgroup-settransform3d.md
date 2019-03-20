@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionEffectGroup.SetTransform3D
-title: IDCompositionEffectGroup::SetTransform3D
+title: IDCompositionEffectGroup::SetTransform3D (dcomp.h)
 author: windows-sdk-content
 description: Sets the 3D transformation effect object that modifies the rasterization of the visuals that this effect group is applied to.
 old-location: directcomp\idcompositioneffectgroup_settransform3d.htm

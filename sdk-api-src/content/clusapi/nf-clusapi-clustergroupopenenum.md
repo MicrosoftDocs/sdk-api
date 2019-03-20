@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterGroupOpenEnum
-title: ClusterGroupOpenEnum function
+title: ClusterGroupOpenEnum function (clusapi.h)
 author: windows-sdk-content
 description: Opens an enumerator for iterating through a group's resources and/or the nodes that are included in its list of preferred owners.
 old-location: mscs\clustergroupopenenum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:devicetopology.IAudioPeakMeter
-title: IAudioPeakMeter
+title: IAudioPeakMeter (devicetopology.h)
 author: windows-sdk-content
 description: The IAudioPeakMeter interface provides access to a hardware peak-meter control.
 old-location: coreaudio\iaudiopeakmeter.htm

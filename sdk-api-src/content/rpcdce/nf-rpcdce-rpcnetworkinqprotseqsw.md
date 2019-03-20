@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcNetworkInqProtseqsW
-title: RpcNetworkInqProtseqsW function
+title: RpcNetworkInqProtseqsW function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcNetworkInqProtseqs function returns all protocol sequences supported by both the RPC run-time library and the operating system.
 old-location: rpc\rpcnetworkinqprotseqs.htm

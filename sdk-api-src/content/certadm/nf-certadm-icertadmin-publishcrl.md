@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.ICertAdmin.PublishCRL
-title: ICertAdmin::PublishCRL
+title: ICertAdmin::PublishCRL (certadm.h)
 author: windows-sdk-content
 description: Sends a request to the Certificate Services certification authority (CA) to publish a new certificate revocation list (CRL). This method was first introduced in the ICertAdmin interface.
 old-location: security\icertadmin2_publishcrl.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_SHADER_COMPONENT_MAPPING
-title: D3D12_SHADER_COMPONENT_MAPPING
+title: D3D12_SHADER_COMPONENT_MAPPING (d3d12.h)
 author: windows-sdk-content
 description: Specifies how memory gets routed by a shader resource view (SRV).
 old-location: direct3d12\d3d12_shader_component_mapping.htm

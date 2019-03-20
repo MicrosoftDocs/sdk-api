@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IMcastLeaseInfo.get_RequestID
-title: IMcastLeaseInfo::get_RequestID
+title: IMcastLeaseInfo::get_RequestID (mdhcp.h)
 author: windows-sdk-content
 description: The get_RequestID method obtains the request ID for a lease.
 old-location: tapi3\imcastleaseinfo_get_requestid.htm

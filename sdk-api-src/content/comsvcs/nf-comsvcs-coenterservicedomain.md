@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.CoEnterServiceDomain
-title: CoEnterServiceDomain function
+title: CoEnterServiceDomain function (comsvcs.h)
 author: windows-sdk-content
 description: Used to enter code that can then use COM+ services.
 old-location: cos\coenterservicedomain.htm

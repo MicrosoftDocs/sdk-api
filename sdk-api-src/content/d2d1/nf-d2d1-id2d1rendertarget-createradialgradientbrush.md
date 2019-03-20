@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.CreateRadialGradientBrush
-title: ID2D1RenderTarget::CreateRadialGradientBrush
+title: ID2D1RenderTarget::CreateRadialGradientBrush (d2d1.h)
 author: windows-sdk-content
 description: Creates an ID2D1RadialGradientBrush object that can be used to paint areas with a radial gradient.
 old-location: direct2d\id2d1rendertarget_createradialgradientbrush.htm

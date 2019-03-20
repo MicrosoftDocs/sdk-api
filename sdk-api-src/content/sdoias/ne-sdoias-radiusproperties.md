@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._RADIUSPROPERTIES
-title: RADIUSPROPERTIES
+title: RADIUSPROPERTIES (sdoias.h)
 author: windows-sdk-content
 description: The values of the RADIUSPROPERTIES enumeration type enumerate properties of the Microsoft RADIUS protocol SDO.
 old-location: nps\SDO_radiusproperties.htm

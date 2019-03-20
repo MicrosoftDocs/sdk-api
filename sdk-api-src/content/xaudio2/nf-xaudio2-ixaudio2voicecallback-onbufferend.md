@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2VoiceCallback.OnBufferEnd
-title: IXAudio2VoiceCallback::OnBufferEnd
+title: IXAudio2VoiceCallback::OnBufferEnd (xaudio2.h)
 author: windows-sdk-content
 description: Called when the voice finishes processing a buffer.
 old-location: xaudio2\ixaudio2voicecallback_interface_onbufferend.htm

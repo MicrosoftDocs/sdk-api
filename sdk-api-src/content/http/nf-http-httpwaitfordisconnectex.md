@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpWaitForDisconnectEx
-title: HttpWaitForDisconnectEx function
+title: HttpWaitForDisconnectEx function (http.h)
 author: windows-sdk-content
 description: This function is an extension to HttpWaitForDisconnect.
 old-location: http\httpwaitfordisconnectex.htm

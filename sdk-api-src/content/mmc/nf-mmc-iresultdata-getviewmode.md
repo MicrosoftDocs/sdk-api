@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IResultData.GetViewMode
-title: IResultData::GetViewMode
+title: IResultData::GetViewMode (mmc.h)
 author: windows-sdk-content
 description: Enables the snap-in to retrieve a view mode for the result view pane.
 old-location: mmc\iresultdata_getviewmode.htm

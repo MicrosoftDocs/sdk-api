@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAudioStream.FreeBuffer
-title: IRDPSRAPIAudioStream::FreeBuffer
+title: IRDPSRAPIAudioStream::FreeBuffer (rdpencomapi.h)
 author: windows-sdk-content
 description: Releases the hold on the buffer after the GetBuffer method is called.
 old-location: rdp\irdpsrapiaudiostream_freebuffer.htm

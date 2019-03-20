@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3cc.AGENT_SESSION_EVENT
-title: AGENT_SESSION_EVENT
+title: AGENT_SESSION_EVENT (tapi3cc.h)
 author: windows-sdk-content
 description: The AGENT_SESSION_EVENT enum describes agent session events. The ITAgentSessionEvent::get_Event method returns a member of this enum to indicate the type of agent session event that occurred.
 old-location: tapi3\agent_session_event.htm

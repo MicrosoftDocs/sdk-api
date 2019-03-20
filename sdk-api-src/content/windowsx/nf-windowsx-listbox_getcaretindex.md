@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ListBox_GetCaretIndex
-title: ListBox_GetCaretIndex macro
+title: ListBox_GetCaretIndex macro (windowsx.h)
 author: windows-sdk-content
 description: Retrieves the index of the list box item that has the focus rectangle in a multiple-selection list box. The item may or may not be selected. You can use this macro or send the LB_GETCARETINDEX message explicitly.
 old-location: controls\ListBox_GetCaretIndex.htm

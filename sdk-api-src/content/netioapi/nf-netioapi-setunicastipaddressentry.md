@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.SetUnicastIpAddressEntry
-title: SetUnicastIpAddressEntry function
+title: SetUnicastIpAddressEntry function (netioapi.h)
 author: windows-sdk-content
 description: Sets the properties of an existing unicast IP address entry on the local computer.
 old-location: iphlp\setunicastipaddressentry.htm

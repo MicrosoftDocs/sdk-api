@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPathIterator.NextSubpath(OUT const GraphicsPath,OUT BOOL)
-title: GraphicsPathIterator::NextSubpath(OUT const GraphicsPath,OUT BOOL)
+title: GraphicsPathIterator::NextSubpath(OUT const GraphicsPath,OUT BOOL) (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPathIterator::NextSubpath method gets the next figure (subpath) from this iterator's associated path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_NextSubpath_path_isClosed_.htm

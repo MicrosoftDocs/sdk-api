@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.GetRestrictToOutput
-title: IDXGISwapChain1::GetRestrictToOutput
+title: IDXGISwapChain1::GetRestrictToOutput (dxgi1_2.h)
 author: windows-sdk-content
 description: Gets the output (the display monitor) to which you can restrict the contents of a present operation.
 old-location: direct3ddxgi\idxgiswapchain1_getrestricttooutput.htm

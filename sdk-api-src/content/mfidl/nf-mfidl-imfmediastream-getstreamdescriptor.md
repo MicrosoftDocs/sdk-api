@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaStream.GetStreamDescriptor
-title: IMFMediaStream::GetStreamDescriptor
+title: IMFMediaStream::GetStreamDescriptor (mfidl.h)
 author: windows-sdk-content
 description: Retrieves a stream descriptor for this media stream.
 old-location: mf\imfmediastream_getstreamdescriptor.htm

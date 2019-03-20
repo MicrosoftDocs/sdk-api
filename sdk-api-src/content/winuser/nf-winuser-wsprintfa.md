@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.wsprintfA
-title: wsprintfA function
+title: wsprintfA function (winuser.h)
 author: windows-sdk-content
 description: Writes formatted data to the specified buffer.
 old-location: menurc\wsprintf.htm

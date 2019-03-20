@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeStringArray.Decode
-title: ICertEncodeStringArray::Decode
+title: ICertEncodeStringArray::Decode (certenc.h)
 author: windows-sdk-content
 description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded string array and stores the resulting array of strings in the CertEncodeStringArray object.
 old-location: security\icertencodestringarray_decode.htm

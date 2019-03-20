@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi.IDXGISurface
-title: IDXGISurface
+title: IDXGISurface (dxgi.h)
 author: windows-sdk-content
 description: The IDXGISurface interface implements methods for image-data objects.
 old-location: direct3ddxgi\idxgisurface.htm

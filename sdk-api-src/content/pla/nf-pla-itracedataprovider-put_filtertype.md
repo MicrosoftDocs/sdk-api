@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProvider.put_FilterType
-title: ITraceDataProvider::put_FilterType
+title: ITraceDataProvider::put_FilterType (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets a provider-defined filter type.
 old-location: pla\itracedataprovider_filtertype.htm

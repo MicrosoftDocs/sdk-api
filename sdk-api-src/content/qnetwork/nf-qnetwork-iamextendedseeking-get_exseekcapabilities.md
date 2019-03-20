@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMExtendedSeeking.get_ExSeekCapabilities
-title: IAMExtendedSeeking::get_ExSeekCapabilities
+title: IAMExtendedSeeking::get_ExSeekCapabilities (qnetwork.h)
 author: windows-sdk-content
 description: The get_ExSeekCapabilities method retrieves the extended seeking capabilities of the filter.
 old-location: dshow\iamextendedseeking_get_exseekcapabilities.htm

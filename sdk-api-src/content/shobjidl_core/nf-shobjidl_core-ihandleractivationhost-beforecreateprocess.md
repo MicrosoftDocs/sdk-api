@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IHandlerActivationHost.BeforeCreateProcess
-title: IHandlerActivationHost::BeforeCreateProcess
+title: IHandlerActivationHost::BeforeCreateProcess (shobjidl_core.h)
 author: windows-sdk-content
 description: "."
 old-location: shell\IHandlerActivationHost_BeforeCreateProcess.htm

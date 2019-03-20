@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetId
-title: IBackgroundCopyJob::GetId
+title: IBackgroundCopyJob::GetId (bits.h)
 author: windows-sdk-content
 description: Retrieves the identifier used to identify the job in the queue.
 old-location: bits\ibackgroundcopyjob_getid.htm

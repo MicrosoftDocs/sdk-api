@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.put__CustomCompositor
-title: IMSVidVideoRenderer::put__CustomCompositor
+title: IMSVidVideoRenderer::put__CustomCompositor (segment.h)
 author: windows-sdk-content
 description: The put__CustomCompositor method specifies a custom image compositor for the Video Mixing Renderer (VMR) to use.
 old-location: mstv\imsvidvideorenderer_put__customcompositor.htm

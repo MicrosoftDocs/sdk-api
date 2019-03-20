@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProviderNotify.Add
-title: IWSDiscoveryProviderNotify::Add
+title: IWSDiscoveryProviderNotify::Add (wsddisco.h)
 author: windows-sdk-content
 description: Provides information on either a newly announced discovery host (from a Hello message), or a match to a user initiated query.
 old-location: ncd\iwsdiscoveryprovidernotify_add.htm

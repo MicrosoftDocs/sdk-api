@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MF_CROSS_ORIGIN_POLICY
-title: MF_CROSS_ORIGIN_POLICY
+title: MF_CROSS_ORIGIN_POLICY (mfidl.h)
 author: windows-sdk-content
 description: Maps to the W3C cross origin settings (CORS) attribute used by the HTML5 media element.
 old-location: mf\_mf_cross_origin_policy.htm

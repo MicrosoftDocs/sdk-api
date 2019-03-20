@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore2.CreateApplication2
-title: IAzAuthorizationStore2::CreateApplication2
+title: IAzAuthorizationStore2::CreateApplication2 (azroles.h)
 author: windows-sdk-content
 description: Creates an IAzApplication2 object by using the specified name.
 old-location: security\iazauthorizationstore2_createapplication2.htm

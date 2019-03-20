@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl.MFSESSION_SETTOPOLOGY_FLAGS
-title: MFSESSION_SETTOPOLOGY_FLAGS
+title: MFSESSION_SETTOPOLOGY_FLAGS (mfidl.h)
 author: windows-sdk-content
 description: Defines the behavior of the IMFMediaSession::SetTopology method.
 old-location: mf\mfsession_settopology_flags.htm

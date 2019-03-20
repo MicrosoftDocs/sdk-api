@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1.ID2D1RadialGradientBrush
-title: ID2D1RadialGradientBrush
+title: ID2D1RadialGradientBrush (d2d1.h)
 author: windows-sdk-content
 description: Paints an area with a radial gradient.
 old-location: direct2d\ID2D1RadialGradientBrush.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzClientContext2
-title: IAzClientContext2
+title: IAzClientContext2 (azroles.h)
 author: windows-sdk-content
 description: Inherits from the IAzClientContext interface and implements new methods that manipulate the client context.
 old-location: security\iazclientcontext2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteBitmapRenderTarget.Resize
-title: IDWriteBitmapRenderTarget::Resize
+title: IDWriteBitmapRenderTarget::Resize (dwrite.h)
 author: windows-sdk-content
 description: Resizes the bitmap.
 old-location: directwrite\IDWriteBitmapRenderTarget_Resize.htm

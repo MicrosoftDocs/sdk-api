@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2spi.WSCInstallNameSpace32
-title: WSCInstallNameSpace32 function
+title: WSCInstallNameSpace32 function (ws2spi.h)
 author: windows-sdk-content
 description: Installs a specified 32-bit namespace provider.
 old-location: winsock\wscinstallnamespace32.htm

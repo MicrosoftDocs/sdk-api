@@ -1,6 +1,6 @@
 ---
 UID: NE:mftransform._MFT_SET_TYPE_FLAGS
-title: "_MFT_SET_TYPE_FLAGS"
+title: "_MFT_SET_TYPE_FLAGS" (mftransform.h)
 author: windows-sdk-content
 description: Defines flags for the setting or testing the media type on a Media Foundation transform (MFT).
 old-location: mf\_mft_set_type_flags.htm

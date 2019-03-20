@@ -1,6 +1,6 @@
 ---
 UID: NS:wsman._WSMAN_KEY
-title: WSMAN_KEY
+title: WSMAN_KEY (wsman.h)
 author: windows-sdk-content
 description: Represents a key and value pair within a selector set and is used to identify a particular resource.
 old-location: winrm\wsman_key.htm

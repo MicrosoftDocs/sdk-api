@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdxmldom._WSDXML_NAME
-title: WSDXML_NAME
+title: WSDXML_NAME (wsdxmldom.h)
 author: windows-sdk-content
 description: Specifies an XML qualified name.
 old-location: ncd\wsdxml_name_struct.htm

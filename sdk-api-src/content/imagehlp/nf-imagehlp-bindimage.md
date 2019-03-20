@@ -1,6 +1,6 @@
 ---
 UID: NF:imagehlp.BindImage
-title: BindImage function
+title: BindImage function (imagehlp.h)
 author: windows-sdk-content
 description: Computes the virtual address of each imported function.
 old-location: base\bindimage.htm

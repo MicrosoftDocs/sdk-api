@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMUINT4.XMUINT4(const XMUINT4 &)
-title: XMUINT4::XMUINT4(const XMUINT4 &)
+title: XMUINT4::XMUINT4(const XMUINT4 &) (directxmath.h)
 author: windows-sdk-content
 description: Default constructor for XMUINT4.
 old-location: dxmath\xmuint4_ctor_1.htm

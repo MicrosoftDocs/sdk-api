@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTreeWalker.GetFirstChildElementBuildCache
-title: IUIAutomationTreeWalker::GetFirstChildElementBuildCache
+title: IUIAutomationTreeWalker::GetFirstChildElementBuildCache (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the first child element of the specified UI Automation element, and caches properties and control patterns.
 old-location: winauto\uiauto_IUIAutomationTreeWalker_GetFirstChildBuildCache.htm

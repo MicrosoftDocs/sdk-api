@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_SetColumnWidth
-title: ListView_SetColumnWidth macro
+title: ListView_SetColumnWidth macro (commctrl.h)
 author: windows-sdk-content
 description: Used to change the width of a column in report view or the width of all columns in list-view mode. You can use this macro or send the LVM_SETCOLUMNWIDTH message explicitly.
 old-location: controls\ListView_SetColumnWidth.htm

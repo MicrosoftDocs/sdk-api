@@ -1,6 +1,6 @@
 ---
 UID: NS:psapi._PERFORMANCE_INFORMATION
-title: PERFORMANCE_INFORMATION
+title: PERFORMANCE_INFORMATION (psapi.h)
 author: windows-sdk-content
 description: Contains performance information.
 old-location: psapi\performance_information_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_Delete
-title: MI_SubscriptionDeliveryOptions_Delete function
+title: MI_SubscriptionDeliveryOptions_Delete function (mi.h)
 author: windows-sdk-content
 description: Deletes the specified subscription delivery options structure.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_delete.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPNetwork.put_bufferingTime
-title: IWMPNetwork::put_bufferingTime
+title: IWMPNetwork::put_bufferingTime (wmp.h)
 author: windows-sdk-content
 description: The put_bufferingTime method specifies the amount of time in milliseconds allocated for buffering incoming data before playing begins.
 old-location: wmp\iwmpnetwork_put_bufferingtime.htm

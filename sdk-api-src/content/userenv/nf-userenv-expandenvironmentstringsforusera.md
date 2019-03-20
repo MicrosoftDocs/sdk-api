@@ -1,6 +1,6 @@
 ---
 UID: NF:userenv.ExpandEnvironmentStringsForUserA
-title: ExpandEnvironmentStringsForUserA function
+title: ExpandEnvironmentStringsForUserA function (userenv.h)
 author: windows-sdk-content
 description: Expands the source string by using the environment block established for the specified user.
 old-location: shell\ExpandEnvironmentStringsForUser.htm

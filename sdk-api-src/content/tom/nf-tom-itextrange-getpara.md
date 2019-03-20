@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.GetPara
-title: ITextRange::GetPara
+title: ITextRange::GetPara (tom.h)
 author: windows-sdk-content
 description: Gets an ITextPara object with the paragraph attributes of the specified range.
 old-location: controls\ITextRange_GetPara.htm

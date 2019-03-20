@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_LUN_STATUS
-title: VDS_LUN_STATUS
+title: VDS_LUN_STATUS (vds.h)
 author: windows-sdk-content
 description: Defines the set of object status values for a LUN.
 old-location: base\vds_lun_status.htm

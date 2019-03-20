@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IShellFolder
-title: IShellFolder
+title: IShellFolder (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposed by all Shell namespace folder objects, its methods are used to manage folders.
 old-location: shell\IShellFolder.htm

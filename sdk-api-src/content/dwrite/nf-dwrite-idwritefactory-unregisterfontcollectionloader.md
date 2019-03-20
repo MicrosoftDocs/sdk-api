@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFactory.UnregisterFontCollectionLoader
-title: IDWriteFactory::UnregisterFontCollectionLoader
+title: IDWriteFactory::UnregisterFontCollectionLoader (dwrite.h)
 author: windows-sdk-content
 description: Unregisters a custom font collection loader that was previously registered using RegisterFontCollectionLoader.
 old-location: directwrite\IDWriteFactory_UnregisterFontCollectionLoader.htm

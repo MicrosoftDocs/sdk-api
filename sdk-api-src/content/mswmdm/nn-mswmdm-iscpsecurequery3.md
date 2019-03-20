@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.ISCPSecureQuery3
-title: ISCPSecureQuery3
+title: ISCPSecureQuery3 (mswmdm.h)
 author: windows-sdk-content
 description: The ISCPSecureQuery3 interface extends ISCPSecureQuery2 by providing a set of new methods for retrieving the rights and making decision on a clear channel.
 old-location: wmdm\iscpsecurequery3.htm

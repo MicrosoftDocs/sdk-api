@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_ACTIVATION_STATE
-title: MBN_ACTIVATION_STATE
+title: MBN_ACTIVATION_STATE (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_ACTIVATION_STATE enumerated type indicates the current data connection state.
 old-location: mbn\mbn_activation_state.htm

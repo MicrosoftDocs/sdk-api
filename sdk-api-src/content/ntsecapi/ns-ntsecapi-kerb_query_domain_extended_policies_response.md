@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE
-title: KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE
+title: KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE (ntsecapi.h)
 author: windows-sdk-content
 description: Contains the results of querying for the extended policies of the specified domain.
 old-location: security\kerb_query_domain_extended_policies_response.htm

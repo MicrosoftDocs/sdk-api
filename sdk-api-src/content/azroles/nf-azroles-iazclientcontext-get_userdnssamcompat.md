@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext.get_UserDnsSamCompat
-title: IAzClientContext::get_UserDnsSamCompat
+title: IAzClientContext::get_UserDnsSamCompat (azroles.h)
 author: windows-sdk-content
 description: Retrieves the name of the current client in a DNS format compatible with Windows&#160;Security&#160;Account&#160;Manager (SAM).
 old-location: security\iazclientcontext_userdnssamcompat.htm

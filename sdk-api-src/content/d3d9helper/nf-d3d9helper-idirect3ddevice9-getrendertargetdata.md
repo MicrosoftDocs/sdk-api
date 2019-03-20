@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetRenderTargetData
-title: IDirect3DDevice9::GetRenderTargetData
+title: IDirect3DDevice9::GetRenderTargetData (d3d9helper.h)
 author: windows-sdk-content
 description: Copies the render-target data from device memory to system memory.
 old-location: direct3d9\idirect3ddevice9__getrendertargetdata.htm

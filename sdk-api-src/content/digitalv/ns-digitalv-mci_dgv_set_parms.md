@@ -1,6 +1,6 @@
 ---
 UID: NS:digitalv.__unnamed_struct_24
-title: MCI_DGV_SET_PARMS
+title: MCI_DGV_SET_PARMS (digitalv.h)
 author: windows-sdk-content
 description: The MCI_DGV_SET_PARMS structure contains parameters for the MCI_SET command for digital-video devices.
 old-location: multimedia\mci_dgv_set_parms.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:evntrace.CloseTrace
-title: CloseTrace function
+title: CloseTrace function (evntrace.h)
 author: windows-sdk-content
 description: The CloseTrace function closes a trace.
 old-location: etw\closetrace.htm

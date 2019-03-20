@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertProperties.Add
-title: ICertProperties::Add
+title: ICertProperties::Add (certenroll.h)
 author: windows-sdk-content
 description: Adds a property to the collection.
 old-location: security\icertproperties_add_method.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_event_synchronized_data_tag
-title: PEER_EVENT_SYNCHRONIZED_DATA
+title: PEER_EVENT_SYNCHRONIZED_DATA (p2p.h)
 author: windows-sdk-content
 description: The PEER_EVENT_SYNCHRONIZED_DATA is pointed to by a PEER_GRAPH_EVENT_DATA structure's union if a PEER_GRAPH_EVENT_RECORD_CHANGE or PEER_GROUP_EVENT_RECORD_CHANGE event is triggered.
 old-location: p2p\peer_event_synchronized_data.htm

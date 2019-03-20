@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.put_DataTimeout
-title: ISearchCatalogManager::put_DataTimeout
+title: ISearchCatalogManager::put_DataTimeout (searchapi.h)
 author: windows-sdk-content
 description: Sets the time-out value for data transactions between the indexer and the search filter host. This information is stored in the TIMEOUT_INFO structure and is measured in seconds.
 old-location: search\_search_ISearchCatalogManager_put_DataTimeout.htm

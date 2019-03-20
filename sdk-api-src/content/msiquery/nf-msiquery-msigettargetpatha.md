@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiGetTargetPathA
-title: MsiGetTargetPathA function
+title: MsiGetTargetPathA function (msiquery.h)
 author: windows-sdk-content
 description: The MsiGetTargetPath function returns the full target path for a folder in the Directory table.
 old-location: setup\msigettargetpath.htm

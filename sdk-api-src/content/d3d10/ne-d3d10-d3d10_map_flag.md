@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10.D3D10_MAP_FLAG
-title: D3D10_MAP_FLAG
+title: D3D10_MAP_FLAG (d3d10.h)
 author: windows-sdk-content
 description: Specifies how the CPU should respond when Map is called on a resource being used by the GPU.
 old-location: direct3d10\d3d10_map_flag.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.ISBE2EnumStream.Skip
-title: ISBE2EnumStream::Skip
+title: ISBE2EnumStream::Skip (sbe.h)
 author: windows-sdk-content
 description: Skips a specified number of streams in the enumeration sequence.
 old-location: mstv\isbe2enumstream_skip.htm

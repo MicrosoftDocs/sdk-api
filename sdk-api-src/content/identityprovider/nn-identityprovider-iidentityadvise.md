@@ -1,6 +1,6 @@
 ---
 UID: NN:identityprovider.IIdentityAdvise
-title: IIdentityAdvise
+title: IIdentityAdvise (identityprovider.h)
 author: windows-sdk-content
 description: Allows an identity provider to notify a calling application when an identity is updated.
 old-location: security\iidentityadvise.htm

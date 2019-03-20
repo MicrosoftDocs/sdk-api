@@ -1,6 +1,6 @@
 ---
 UID: NS:wincodec.WICDdsFormatInfo
-title: WICDdsFormatInfo
+title: WICDdsFormatInfo (wincodec.h)
 author: windows-sdk-content
 description: Specifies the DXGI_FORMAT and block information of a DDS format.
 old-location: wic\wicddsformatinfo.htm

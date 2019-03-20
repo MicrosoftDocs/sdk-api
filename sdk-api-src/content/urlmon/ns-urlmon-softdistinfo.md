@@ -1,6 +1,6 @@
 ---
 UID: NS:urlmon._tagSOFTDISTINFO
-title: SOFTDISTINFO
+title: SOFTDISTINFO (urlmon.h)
 author: windows-sdk-content
 description: Contains information about a software update.
 old-location: shell\SOFTDISTINFO.htm

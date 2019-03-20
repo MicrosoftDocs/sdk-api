@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaPropertyStorage.GetCount
-title: IWiaPropertyStorage::GetCount
+title: IWiaPropertyStorage::GetCount (wia_xp.h)
 author: windows-sdk-content
 description: The IWiaPropertyStorage::GetCount method returns the number of properties stored in the property storage.
 old-location: wia\_wia_IWiaPropertyStorage_GetCount.htm

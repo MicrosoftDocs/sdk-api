@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFontCollection.GetFontFromFontFace
-title: IDWriteFontCollection::GetFontFromFontFace
+title: IDWriteFontCollection::GetFontFromFontFace (dwrite.h)
 author: windows-sdk-content
 description: Gets the font object that corresponds to the same physical font as the specified font face object. The specified physical font must belong to the font collection.
 old-location: directwrite\IDWriteFontCollection_GetFontFromFontFace.htm

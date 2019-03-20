@@ -1,6 +1,6 @@
 ---
 UID: NF:relogger.ITraceEvent.GetEventRecord
-title: ITraceEvent::GetEventRecord
+title: ITraceEvent::GetEventRecord (relogger.h)
 author: windows-sdk-content
 description: Retrieves the event record that describes an event.
 old-location: etw\ievent_geteventrecord.htm

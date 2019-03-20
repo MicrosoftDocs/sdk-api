@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10.D3D10_COLOR_WRITE_ENABLE
-title: D3D10_COLOR_WRITE_ENABLE
+title: D3D10_COLOR_WRITE_ENABLE (d3d10.h)
 author: windows-sdk-content
 description: Identify which components of each pixel of a render target are writable during blending.
 old-location: direct3d10\d3d10_color_write_enable.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:authz._AUTHZ_SOURCE_SCHEMA_REGISTRATION
-title: AUTHZ_SOURCE_SCHEMA_REGISTRATION
+title: AUTHZ_SOURCE_SCHEMA_REGISTRATION (authz.h)
 author: windows-sdk-content
 description: Specifies information about source schema registration.
 old-location: security\authz_source_schema_registration.htm

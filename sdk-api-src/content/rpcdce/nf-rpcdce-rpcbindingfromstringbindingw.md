@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcBindingFromStringBindingW
-title: RpcBindingFromStringBindingW function
+title: RpcBindingFromStringBindingW function (rpcdce.h)
 author: windows-sdk-content
 description: Returns a binding handle from a string representation of a binding handle.
 old-location: rpc\rpcbindingfromstringbinding.htm

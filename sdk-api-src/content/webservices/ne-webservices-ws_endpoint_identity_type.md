@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_28
-title: WS_ENDPOINT_IDENTITY_TYPE
+title: WS_ENDPOINT_IDENTITY_TYPE (webservices.h)
 author: windows-sdk-content
 description: The type of the endpoint IDentity, used as a selector for subtypes of WS_ENDPOINT_IDENTITY.
 old-location: wsw\ws_endpoint_identity_type.htm

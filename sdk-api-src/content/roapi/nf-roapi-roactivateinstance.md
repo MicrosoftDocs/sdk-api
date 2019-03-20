@@ -1,6 +1,6 @@
 ---
 UID: NF:roapi.RoActivateInstance
-title: RoActivateInstance function
+title: RoActivateInstance function (roapi.h)
 author: windows-sdk-content
 description: Activates the specified Windows Runtime class.
 old-location: winrt\roactivateinstance.htm

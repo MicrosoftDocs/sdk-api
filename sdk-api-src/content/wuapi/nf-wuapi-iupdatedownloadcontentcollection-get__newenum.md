@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateDownloadContentCollection.get__NewEnum
-title: IUpdateDownloadContentCollection::get__NewEnum
+title: IUpdateDownloadContentCollection::get__NewEnum (wuapi.h)
 author: windows-sdk-content
 description: Gets an IEnumVARIANT interface that is used to enumerate the collection.
 old-location: wua\iupdatedownloadcontentcollection__newenum.htm

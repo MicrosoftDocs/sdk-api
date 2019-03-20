@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.ITextRangeProvider
-title: ITextRangeProvider
+title: ITextRangeProvider (uiautomationcore.h)
 author: windows-sdk-content
 description: Provides access to a span of continuous text in a text container that implements ITextProvider or ITextProvider2.
 old-location: winauto\uiauto_ITextRangeProvider.htm

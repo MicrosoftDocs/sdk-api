@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRole.Submit
-title: IAzRole::Submit
+title: IAzRole::Submit (azroles.h)
 author: windows-sdk-content
 description: Persists changes made to the IAzRole object.
 old-location: security\iazrole_submit.htm

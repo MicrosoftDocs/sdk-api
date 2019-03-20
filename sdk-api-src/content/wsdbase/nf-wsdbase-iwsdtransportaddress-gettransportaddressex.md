@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDTransportAddress.GetTransportAddressEx
-title: IWSDTransportAddress::GetTransportAddressEx
+title: IWSDTransportAddress::GetTransportAddressEx (wsdbase.h)
 author: windows-sdk-content
 description: Gets a pointer to a string representation of the address object.
 old-location: ncd\iwsdtransportaddress_gettransportaddressex.htm

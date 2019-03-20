@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.get_ColorDepth
-title: IRDPSRAPISharingSession::get_ColorDepth
+title: IRDPSRAPISharingSession::get_ColorDepth (rdpencomapi.h)
 author: windows-sdk-content
 description: Retrieves or sets the color depth for the shared session.
 old-location: rdp\irdpsrapisharingsession_colordepth.htm

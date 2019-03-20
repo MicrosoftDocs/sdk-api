@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.put_AttachedEditWindow
-title: IPenInputPanel::put_AttachedEditWindow
+title: IPenInputPanel::put_AttachedEditWindow (peninputpanel.h)
 author: windows-sdk-content
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Sets or gets the window handle of the object that the PenInputPanel object is attached to.
 old-location: tablet\peninputpanel_attachededitwindow.htm

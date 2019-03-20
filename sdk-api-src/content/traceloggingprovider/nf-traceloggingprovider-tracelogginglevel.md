@@ -1,6 +1,6 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingLevel
-title: TraceLoggingLevel macro
+title: TraceLoggingLevel macro (traceloggingprovider.h)
 author: windows-sdk-content
 description: Wrapper macro for setting the event's level.
 old-location: tracelogging\tracelogginglevel.htm

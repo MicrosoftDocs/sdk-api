@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.ITuneRequestInfo.GetPreviousProgram
-title: ITuneRequestInfo::GetPreviousProgram
+title: ITuneRequestInfo::GetPreviousProgram (bdatif.h)
 author: windows-sdk-content
 description: The GetPreviousProgram method creates a new tune request with channel or program locator information for the previous service.
 old-location: mstv\itunerequestinfo_getpreviousprogram.htm

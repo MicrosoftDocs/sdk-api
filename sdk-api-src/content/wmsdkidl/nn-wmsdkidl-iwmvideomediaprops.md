@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMVideoMediaProps
-title: IWMVideoMediaProps
+title: IWMVideoMediaProps (wmsdkidl.h)
 author: windows-sdk-content
 description: With this interface, the application can specify additional video-specific parameters not available on the IWMMediaProps interface.To get access to the methods of this interface, call QueryInterface on a stream configuration object.
 old-location: wmformat\iwmvideomediaprops.htm

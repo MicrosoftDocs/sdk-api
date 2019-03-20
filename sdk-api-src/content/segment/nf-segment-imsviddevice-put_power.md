@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidDevice.put_Power
-title: IMSVidDevice::put_Power
+title: IMSVidDevice::put_Power (segment.h)
 author: windows-sdk-content
 description: The put_Power method turns the device on or off.
 old-location: mstv\imsviddevice_put_power.htm

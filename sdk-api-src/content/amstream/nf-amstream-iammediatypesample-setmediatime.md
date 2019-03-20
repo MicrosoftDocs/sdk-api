@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.SetMediaTime
-title: IAMMediaTypeSample::SetMediaTime
+title: IAMMediaTypeSample::SetMediaTime (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The SetMediaTime method sets the media time stamps for this sample.
 old-location: dshow\iammediatypesample_setmediatime.htm

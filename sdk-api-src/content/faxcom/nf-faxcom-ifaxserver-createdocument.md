@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxServer.CreateDocument
-title: IFaxServer::CreateDocument
+title: IFaxServer::CreateDocument (faxcom.h)
 author: windows-sdk-content
 description: The IFaxServer::CreateDocument method creates a FaxDoc object for a specified FaxServer object. The FaxDoc object allows a user to create and transmit a document to one or more fax recipients.
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_createdocument_cpp.htm

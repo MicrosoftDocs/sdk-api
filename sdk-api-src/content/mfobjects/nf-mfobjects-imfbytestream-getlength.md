@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFByteStream.GetLength
-title: IMFByteStream::GetLength
+title: IMFByteStream::GetLength (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves the length of the stream.
 old-location: mf\imfbytestream_getlength.htm

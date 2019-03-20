@@ -1,6 +1,6 @@
 ---
 UID: NF:enclaveapi.IsEnclaveTypeSupported
-title: IsEnclaveTypeSupported function
+title: IsEnclaveTypeSupported function (enclaveapi.h)
 author: windows-sdk-content
 description: Retrieves whether the specified type of enclave is supported.
 old-location: base\isenclavetypesupported.htm

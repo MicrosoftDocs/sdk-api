@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirectXVideoAccelerationService.CreateSurface
-title: IDirectXVideoAccelerationService::CreateSurface
+title: IDirectXVideoAccelerationService::CreateSurface (dxva2api.h)
 author: windows-sdk-content
 description: Creates a DirectX Video Acceleration (DXVA) video processor or DXVA decoder render target.
 old-location: mf\idirectxvideoaccelerationservice_createsurface.htm

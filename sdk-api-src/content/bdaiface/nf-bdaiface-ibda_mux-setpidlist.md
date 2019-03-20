@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_MUX.SetPidList
-title: IBDA_MUX::SetPidList
+title: IBDA_MUX::SetPidList (bdaiface.h)
 author: windows-sdk-content
 description: Sets the list of packet identifiers (PIDs) that are enabled to go across the Protected Broadcast Driver Architecture (PBDA) interface.
 old-location: mstv\ibda_mux_setpidlist.htm

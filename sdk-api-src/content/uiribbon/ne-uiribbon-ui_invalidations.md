@@ -1,6 +1,6 @@
 ---
 UID: NE:uiribbon.UI_INVALIDATIONS
-title: UI_INVALIDATIONS
+title: UI_INVALIDATIONS (uiribbon.h)
 author: windows-sdk-content
 description: Specifies values that identify the aspect of a Command to invalidate.
 old-location: windowsribbon\windowsribbon_ui_invalidations.htm

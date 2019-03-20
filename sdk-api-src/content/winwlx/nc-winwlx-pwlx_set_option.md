@@ -1,6 +1,6 @@
 ---
 UID: NC:winwlx.PWLX_SET_OPTION
-title: PWLX_SET_OPTION
+title: PWLX_SET_OPTION (winwlx.h)
 author: windows-sdk-content
 description: Called by GINA to set the value of an option.
 old-location: security\wlxsetoption.htm

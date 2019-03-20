@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.GetPropertyQualifierSet
-title: IWbemClassObject::GetPropertyQualifierSet
+title: IWbemClassObject::GetPropertyQualifierSet (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemClassObject::GetPropertyQualifierSet method gets the qualifier set for a particular property in the class object. You can use this method with properties that are a member of an instance or a class definition.
 old-location: wmi\iwbemclassobject_getpropertyqualifierset.htm

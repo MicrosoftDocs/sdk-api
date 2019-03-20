@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCompartmentEventSink.OnChange
-title: ITfCompartmentEventSink::OnChange
+title: ITfCompartmentEventSink::OnChange (msctf.h)
 author: windows-sdk-content
 description: ITfCompartmentEventSink::OnChange method
 old-location: tsf\itfcompartmenteventsink_onchange.htm

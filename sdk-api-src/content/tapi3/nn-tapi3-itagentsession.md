@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3.ITAgentSession
-title: ITAgentSession
+title: ITAgentSession (tapi3.h)
 author: windows-sdk-content
 description: An agent session represents an association between an agent, group, and address.
 old-location: tapi3\itagentsession.htm

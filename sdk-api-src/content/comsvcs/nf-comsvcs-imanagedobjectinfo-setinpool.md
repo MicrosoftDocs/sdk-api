@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IManagedObjectInfo.SetInPool
-title: IManagedObjectInfo::SetInPool
+title: IManagedObjectInfo::SetInPool (comsvcs.h)
 author: windows-sdk-content
 description: Sets whether the managed object belongs to the COM+ object pool.
 old-location: cos\imanagedobjectinfo_setinpool.htm

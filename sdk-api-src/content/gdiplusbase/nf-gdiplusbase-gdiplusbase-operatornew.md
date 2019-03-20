@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbase.GdiplusBase.operator new
-title: GdiplusBase::operator new
+title: GdiplusBase::operator new (gdiplusbase.h)
 author: windows-sdk-content
 description: The GdiplusBase::operator new method allocates memory for one Windows GDI+ object.
 old-location: gdiplus\_gdiplus_CLASS_GdiplusBase_operator_new_in_size_.htm

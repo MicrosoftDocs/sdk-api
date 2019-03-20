@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetRetrievalFilter
-title: IDXGIInfoQueue::GetRetrievalFilter
+title: IDXGIInfoQueue::GetRetrievalFilter (dxgidebug.h)
 author: windows-sdk-content
 description: Gets the retrieval filter at the top of the retrieval-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_getretrievalfilter.htm

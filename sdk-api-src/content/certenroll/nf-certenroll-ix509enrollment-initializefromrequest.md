@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Enrollment.InitializeFromRequest
-title: IX509Enrollment::InitializeFromRequest
+title: IX509Enrollment::InitializeFromRequest (certenroll.h)
 author: windows-sdk-content
 description: Initializes the enrollment object from an existing IX509CertificateRequest object.
 old-location: security\ix509enrollment_initializefromrequest_method.htm

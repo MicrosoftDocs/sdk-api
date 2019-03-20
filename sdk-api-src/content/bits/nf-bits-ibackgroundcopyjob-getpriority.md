@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetPriority
-title: IBackgroundCopyJob::GetPriority
+title: IBackgroundCopyJob::GetPriority (bits.h)
 author: windows-sdk-content
 description: Retrieves the priority level for the job. The priority level determines when the job is processed relative to other jobs in the transfer queue.
 old-location: bits\ibackgroundcopyjob_getpriority.htm

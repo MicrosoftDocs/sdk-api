@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IMenuBand.IsMenuMessage
-title: IMenuBand::IsMenuMessage
+title: IMenuBand::IsMenuMessage (shobjidl_core.h)
 author: windows-sdk-content
 description: A message pump calls this method to see if any messages should be redirected to the Component Object Model (COM) object.
 old-location: shell\IMenuBand_IsMenuMessage.htm

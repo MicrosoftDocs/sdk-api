@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfRanges.Clone
-title: IEnumTfRanges::Clone
+title: IEnumTfRanges::Clone (msctf.h)
 author: windows-sdk-content
 description: IEnumTfRanges::Clone method
 old-location: tsf\ienumtfranges_clone.htm

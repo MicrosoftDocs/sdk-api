@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionDiscovery.GetInstance
-title: IFunctionDiscovery::GetInstance
+title: IFunctionDiscovery::GetInstance (functiondiscoveryapi.h)
 author: windows-sdk-content
 description: Gets the specified function instance, based on identifier.
 old-location: ncd\ifunctiondiscovery_getinstance_method.htm

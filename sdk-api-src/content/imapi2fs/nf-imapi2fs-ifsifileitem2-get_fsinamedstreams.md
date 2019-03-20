@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem2.get_FsiNamedStreams
-title: IFsiFileItem2::get_FsiNamedStreams
+title: IFsiFileItem2::get_FsiNamedStreams (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves a collection of named streams associated with a file in the file system image.
 old-location: imapi\ifsifileitem2_get_fsinamedstreams.htm

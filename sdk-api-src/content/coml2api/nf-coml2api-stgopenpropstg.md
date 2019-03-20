@@ -1,6 +1,6 @@
 ---
 UID: NF:coml2api.StgOpenPropStg
-title: StgOpenPropStg function
+title: StgOpenPropStg function (coml2api.h)
 author: windows-sdk-content
 description: Opens a specified property set in a specified storage or stream object.
 old-location: stg\stgopenpropstg.htm

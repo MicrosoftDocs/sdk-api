@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasDeleteSubEntryA
-title: RasDeleteSubEntryA function
+title: RasDeleteSubEntryA function (ras.h)
 author: windows-sdk-content
 description: The RasDeleteSubEntry function deletes the specified subentry from the specified phone-book entry.
 old-location: rras\rasdeletesubentry.htm

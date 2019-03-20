@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollPattern.get_CurrentVerticalViewSize
-title: IUIAutomationScrollPattern::get_CurrentVerticalViewSize
+title: IUIAutomationScrollPattern::get_CurrentVerticalViewSize (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the vertical size of the viewable region of a scrollable element.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_CurrentVerticalViewSize.htm

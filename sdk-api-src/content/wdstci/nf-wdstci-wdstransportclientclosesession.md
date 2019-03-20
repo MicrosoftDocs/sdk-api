@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstci.WdsTransportClientCloseSession
-title: WdsTransportClientCloseSession function
+title: WdsTransportClientCloseSession function (wdstci.h)
 author: windows-sdk-content
 description: Releases the resources associated with a session in the client.
 old-location: wds\wdstransportclientclosesession.htm

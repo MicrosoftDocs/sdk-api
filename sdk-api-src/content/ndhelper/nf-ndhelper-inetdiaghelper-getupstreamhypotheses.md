@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetUpStreamHypotheses
-title: INetDiagHelper::GetUpStreamHypotheses
+title: INetDiagHelper::GetUpStreamHypotheses (ndhelper.h)
 author: windows-sdk-content
 description: Generate hypotheses for possible causes of high utilization in the upstream network components.
 old-location: ndf\inetdiaghelpe_getupstreathypotheses.htm

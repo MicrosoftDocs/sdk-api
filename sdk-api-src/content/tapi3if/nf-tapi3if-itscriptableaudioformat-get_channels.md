@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITScriptableAudioFormat.get_Channels
-title: ITScriptableAudioFormat::get_Channels
+title: ITScriptableAudioFormat::get_Channels (tapi3if.h)
 author: windows-sdk-content
 description: The get_Channels method returns the value for the nChannels member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_get_channels.htm

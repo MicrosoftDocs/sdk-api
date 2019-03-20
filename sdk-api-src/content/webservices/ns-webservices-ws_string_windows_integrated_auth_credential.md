@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
-title: WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
+title: WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL (webservices.h)
 author: windows-sdk-content
 description: Type for supplying a Windows credential as username, password, domain strings.
 old-location: wsw\ws_string_windows_integrated_auth_credential.htm

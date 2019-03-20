@@ -1,6 +1,6 @@
 ---
 UID: NS:pwm._PWM_PIN_SET_POLARITY_INPUT
-title: PWM_PIN_SET_POLARITY_INPUT
+title: PWM_PIN_SET_POLARITY_INPUT (pwm.h)
 author: windows-sdk-content
 description: Contains a desired value for polarity of a pin or channel.
 old-location: base\pwm_pin_set_polarity_input.htm

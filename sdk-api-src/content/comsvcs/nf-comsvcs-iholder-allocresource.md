@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IHolder.AllocResource
-title: IHolder::AllocResource
+title: IHolder::AllocResource (comsvcs.h)
 author: windows-sdk-content
 description: Allocates a resource from the inventory.
 old-location: cos\iholder_allocresource.htm

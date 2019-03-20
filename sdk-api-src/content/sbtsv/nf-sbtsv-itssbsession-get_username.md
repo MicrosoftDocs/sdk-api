@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbSession.get_Username
-title: ITsSbSession::get_Username
+title: ITsSbSession::get_Username (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves the user name for this session.
 old-location: termserv\itssbsession_username.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_Receive
-title: IFaxStatus::get_Receive
+title: IFaxStatus::get_Receive (faxcom.h)
 author: windows-sdk-content
 description: Retrieves the Receive property for the FaxStatus object of a parent FaxPort object. The Receive property is a Boolean value that indicates whether a specified fax port is currently receiving a fax.
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_receive_cpp.htm

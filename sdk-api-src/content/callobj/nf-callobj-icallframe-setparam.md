@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallFrame.SetParam
-title: ICallFrame::SetParam
+title: ICallFrame::SetParam (callobj.h)
 author: windows-sdk-content
 description: Sets the value of a specified parameter in the call frame.
 old-location: com\icallframe_setparam.htm

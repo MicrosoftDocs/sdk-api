@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvDeriveSurface
-title: DrvDeriveSurface function
+title: DrvDeriveSurface function (winddi.h)
 author: windows-sdk-content
 description: The DrvDeriveSurface function derives a GDI surface from the specified DirectDraw surface.
 old-location: display\drvderivesurface.htm

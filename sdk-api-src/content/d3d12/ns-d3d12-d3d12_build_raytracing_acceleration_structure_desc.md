@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC
-title: D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC
+title: D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC (d3d12.h)
 author: windows-sdk-content
 description: Describes a raytracing acceleration structure. Pass this structure into ID3D12GraphicsCommandList4::BuildRaytracingAccelerationStructure to describe the acceleration structure to be built.
 old-location: direct3d12\d3d12_build_raytracing_acceleration_structure_desc.htm

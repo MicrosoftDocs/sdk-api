@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscMasterProgressEvents.NotifyClosingDisc
-title: IDiscMasterProgressEvents::NotifyClosingDisc
+title: IDiscMasterProgressEvents::NotifyClosingDisc (imapi.h)
 author: windows-sdk-content
 description: Notifies the application that it is has started closing the disc. No further notifications are sent until the burn is finished.
 old-location: imapi\idiscmasterprogressevents_notifyclosingdisc.htm

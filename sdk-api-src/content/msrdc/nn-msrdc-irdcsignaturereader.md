@@ -1,6 +1,6 @@
 ---
 UID: NN:msrdc.IRdcSignatureReader
-title: IRdcSignatureReader
+title: IRdcSignatureReader (msrdc.h)
 author: windows-sdk-content
 description: Reads the signatures and the parameters used to generate the signatures.
 old-location: rdc\irdcsignaturereader.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetContentType
-title: IXpsOMCoreProperties::SetContentType
+title: IXpsOMCoreProperties::SetContentType (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the contentType property.
 old-location: xps\ixpsomcoreproperties_setcontenttype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerInvokeIdentityUI
-title: EapPeerInvokeIdentityUI function
+title: EapPeerInvokeIdentityUI function (eapmethodpeerapis.h)
 author: windows-sdk-content
 description: Raises a custom interactive user interface dialog to obtain user identity information for the EAP method on the client.
 old-location: eaphost\eappeerinvokeidentityui.htm

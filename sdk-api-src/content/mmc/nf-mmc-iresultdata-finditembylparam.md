@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IResultData.FindItemByLParam
-title: IResultData::FindItemByLParam
+title: IResultData::FindItemByLParam (mmc.h)
 author: windows-sdk-content
 description: The IResultData::FindItemByLParam method enables the snap-in to find an item or subitem based on its user-inserted lParam value.
 old-location: mmc\iresultdata_finditembylparam.htm

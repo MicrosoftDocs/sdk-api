@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPrintQueueOperations.Pause
-title: IADsPrintQueueOperations::Pause
+title: IADsPrintQueueOperations::Pause (iads.h)
 author: windows-sdk-content
 description: The IADsPrintQueueOperations::Pause method suspends the processing of print jobs within a print queue service.
 old-location: adsi\iadsprintqueueoperations_pause.htm

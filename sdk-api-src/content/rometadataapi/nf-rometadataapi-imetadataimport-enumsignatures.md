@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumSignatures
-title: IMetaDataImport::EnumSignatures
+title: IMetaDataImport::EnumSignatures (rometadataapi.h)
 author: windows-sdk-content
 description: Enumerates Signature tokens representing stand-alone signatures in the current scope.
 old-location: winrt\imetadataimport_enumsignatures.htm

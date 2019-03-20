@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.put_Company
-title: IFsrmPipelineModuleDefinition::put_Company
+title: IFsrmPipelineModuleDefinition::put_Company (fsrmpipeline.h)
 author: windows-sdk-content
 description: The name of the company that created the classification or storage module.
 old-location: fsrm\ifsrmpipelinemoduledefinition_company.htm

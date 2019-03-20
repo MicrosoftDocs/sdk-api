@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ISpreadsheetItemProvider.GetAnnotationObjects
-title: ISpreadsheetItemProvider::GetAnnotationObjects
+title: ISpreadsheetItemProvider::GetAnnotationObjects (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves an array of objects that represent the annotations associated with this spreadsheet cell.
 old-location: winauto\uiauto_ISpreadsheetItemProvider_GetAnnotationObjects.htm

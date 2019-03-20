@@ -1,6 +1,6 @@
 ---
 UID: NF:jobapi2.SetIoRateControlInformationJobObject
-title: SetIoRateControlInformationJobObject function
+title: SetIoRateControlInformationJobObject function (jobapi2.h)
 author: windows-sdk-content
 description: Sets I/O limits on a job object.
 old-location: base\setioratecontrolinformationjobobject.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.CommitTemplateFlags
-title: CommitTemplateFlags
+title: CommitTemplateFlags (certenroll.h)
 author: windows-sdk-content
 description: Specifies options for saving and deleting templates.
 old-location: security\committemplateflags.htm

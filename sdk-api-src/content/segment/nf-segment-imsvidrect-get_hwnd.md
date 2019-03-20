@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidRect.get_HWnd
-title: IMSVidRect::get_HWnd
+title: IMSVidRect::get_HWnd (segment.h)
 author: windows-sdk-content
 description: The get_HWnd method retrieves the window associated with the rectangle.
 old-location: mstv\imsvidrect_get_hwnd.htm

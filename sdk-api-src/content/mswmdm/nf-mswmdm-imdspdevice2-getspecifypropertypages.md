@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDevice2.GetSpecifyPropertyPages
-title: IMDSPDevice2::GetSpecifyPropertyPages
+title: IMDSPDevice2::GetSpecifyPropertyPages (mswmdm.h)
 author: windows-sdk-content
 description: The GetSpecifyPropertyPages method gets property pages describing non-standard capabilities of portable devices.
 old-location: wmdm\imdspdevice2_getspecifypropertypages.htm

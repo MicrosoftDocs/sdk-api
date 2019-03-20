@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DISK_GEOMETRY
-title: DISK_GEOMETRY
+title: DISK_GEOMETRY (winioctl.h)
 author: windows-sdk-content
 description: Describes the geometry of disk devices and media.
 old-location: fs\disk_geometry_str.htm

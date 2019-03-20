@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects.D2D1_BORDER_EDGE_MODE
-title: D2D1_BORDER_EDGE_MODE
+title: D2D1_BORDER_EDGE_MODE (d2d1effects.h)
 author: windows-sdk-content
 description: The edge mode for the Border effect.
 old-location: direct2d\d2d1_border_edge_mode.htm

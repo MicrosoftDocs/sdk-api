@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskNamedValueCollection.Create
-title: ITaskNamedValueCollection::Create
+title: ITaskNamedValueCollection::Create (taskschd.h)
 author: windows-sdk-content
 description: Creates a name-value pair in the collection.
 old-location: taskschd\itasknamedvaluecollection_create.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0008
-title: XPS_IMAGE_TYPE
+title: XPS_IMAGE_TYPE (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Describes the image type.
 old-location: xps\xps_image_type.htm

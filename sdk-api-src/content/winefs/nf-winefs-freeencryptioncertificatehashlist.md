@@ -1,6 +1,6 @@
 ---
 UID: NF:winefs.FreeEncryptionCertificateHashList
-title: FreeEncryptionCertificateHashList function
+title: FreeEncryptionCertificateHashList function (winefs.h)
 author: windows-sdk-content
 description: Frees a certificate hash list.
 old-location: fs\freeencryptioncertificatehashlist.htm

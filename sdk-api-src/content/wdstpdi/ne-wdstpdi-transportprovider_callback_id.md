@@ -1,6 +1,6 @@
 ---
 UID: NE:wdstpdi._TRANSPORTPROVIDER_CALLBACK_ID
-title: TRANSPORTPROVIDER_CALLBACK_ID
+title: TRANSPORTPROVIDER_CALLBACK_ID (wdstpdi.h)
 author: windows-sdk-content
 description: This structure is used by the WdsTransportServerRegisterCallback function.
 old-location: wds\transportprovider_callback_id.htm

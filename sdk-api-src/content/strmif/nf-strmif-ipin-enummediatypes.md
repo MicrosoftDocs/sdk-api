@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IPin.EnumMediaTypes
-title: IPin::EnumMediaTypes
+title: IPin::EnumMediaTypes (strmif.h)
 author: windows-sdk-content
 description: The EnumMediaTypes method enumerates the pin's preferred media types.
 old-location: dshow\ipin_enummediatypes.htm

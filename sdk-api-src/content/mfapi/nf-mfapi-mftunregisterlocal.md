@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFTUnregisterLocal
-title: MFTUnregisterLocal function
+title: MFTUnregisterLocal function (mfapi.h)
 author: windows-sdk-content
 description: Unregisters one or more Media Foundation transforms (MFTs) from the caller's process.
 old-location: mf\mftunregisterlocal.htm

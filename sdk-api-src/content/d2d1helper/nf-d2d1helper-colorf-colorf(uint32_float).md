@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1helper.ColorF.ColorF(UINT32,FLOAT)
-title: ColorF::ColorF(UINT32,FLOAT)
+title: ColorF::ColorF(UINT32,FLOAT) (d2d1helper.h)
 author: windows-sdk-content
 description: Instantiates a new instance of the ColorF class that contains the specified RGB and alpha values.
 old-location: direct2d\colorf_colorf_uint32_rgb__float_a_.htm

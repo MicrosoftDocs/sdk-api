@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva2api._DXVA2_Frequency
-title: DXVA2_Frequency
+title: DXVA2_Frequency (dxva2api.h)
 author: windows-sdk-content
 description: Defines a video frequency.
 old-location: mf\dxva2_frequency.htm

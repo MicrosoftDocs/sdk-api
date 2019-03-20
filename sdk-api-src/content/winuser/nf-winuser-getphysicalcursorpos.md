@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetPhysicalCursorPos
-title: GetPhysicalCursorPos function
+title: GetPhysicalCursorPos function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the position of the cursor in physical coordinates.
 old-location: menurc\getphysicalcursorpos.htm

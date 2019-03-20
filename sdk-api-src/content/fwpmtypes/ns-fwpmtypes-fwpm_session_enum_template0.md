@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_SESSION_ENUM_TEMPLATE0_
-title: FWPM_SESSION_ENUM_TEMPLATE0
+title: FWPM_SESSION_ENUM_TEMPLATE0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Used for enumerating sessions.
 old-location: fwp\fwpm_session_enum_template0_struct.htm

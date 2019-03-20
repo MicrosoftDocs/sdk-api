@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_invitation_response_tag
-title: PEER_INVITATION_RESPONSE
+title: PEER_INVITATION_RESPONSE (p2p.h)
 author: windows-sdk-content
 description: The PEER_INVITATION_RESPONSE structure contains a response to an invitation to join a peer collaboration activity.
 old-location: p2p\peer_invitation_response.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.AddDirectedTarget
-title: IVssComponent::AddDirectedTarget
+title: IVssComponent::AddDirectedTarget (vswriter.h)
 author: windows-sdk-content
 description: The AddDirectedTarget method allows a writer to indicate at restore time that when a file is to be restored, it (the source file) should be remapped.
 old-location: base\ivsscomponent_adddirectedtarget.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkConnection.GetConnectionId
-title: INetworkConnection::GetConnectionId
+title: INetworkConnection::GetConnectionId (netlistmgr.h)
 author: windows-sdk-content
 description: The GetConnectionID method returns the Connection ID associated with this network connection.
 old-location: nla\inetworkconnection_getconnectionid.htm

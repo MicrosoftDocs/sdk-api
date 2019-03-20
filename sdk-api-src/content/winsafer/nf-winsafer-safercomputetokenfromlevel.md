@@ -1,6 +1,6 @@
 ---
 UID: NF:winsafer.SaferComputeTokenFromLevel
-title: SaferComputeTokenFromLevel function
+title: SaferComputeTokenFromLevel function (winsafer.h)
 author: windows-sdk-content
 description: Restricts a token using restrictions specified by a SAFER_LEVEL_HANDLE.
 old-location: security\safercomputetokenfromlevel.htm

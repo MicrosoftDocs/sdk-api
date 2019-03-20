@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBTLocator.put_Bandwidth
-title: IDVBTLocator::put_Bandwidth
+title: IDVBTLocator::put_Bandwidth (tuner.h)
 author: windows-sdk-content
 description: The put_BandWidth method sets the bandwidth of the frequency.
 old-location: mstv\idvbtlocator_put_bandwidth.htm

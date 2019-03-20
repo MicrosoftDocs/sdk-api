@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.SetIsHyperlinkTarget
-title: IXpsOMPage::SetIsHyperlinkTarget
+title: IXpsOMPage::SetIsHyperlinkTarget (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Specifies whether the page is the target of a hyperlink.
 old-location: xps\ixpsompage_setishyperlinktarget.htm

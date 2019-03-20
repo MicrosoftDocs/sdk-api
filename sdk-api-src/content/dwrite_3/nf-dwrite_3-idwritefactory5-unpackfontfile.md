@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory5.UnpackFontFile
-title: IDWriteFactory5::UnpackFontFile
+title: IDWriteFactory5::UnpackFontFile (dwrite_3.h)
 author: windows-sdk-content
 description: The UnpackFontFile method unpacks font data from a container file (WOFF or WOFF2) and returns the unpacked font data in the form of a font file stream.
 old-location: directwrite\idwritefactory5_unpackfontfile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.get_DestinationHeight
-title: IBasicVideo::get_DestinationHeight
+title: IBasicVideo::get_DestinationHeight (control.h)
 author: windows-sdk-content
 description: The get_DestinationHeight method retrieves the height of the destination rectangle.
 old-location: dshow\ibasicvideo_get_destinationheight.htm

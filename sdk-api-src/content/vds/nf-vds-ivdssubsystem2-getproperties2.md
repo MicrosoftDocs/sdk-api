@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsSubSystem2.GetProperties2
-title: IVdsSubSystem2::GetProperties2
+title: IVdsSubSystem2::GetProperties2 (vds.h)
 author: windows-sdk-content
 description: Returns the properties of a subsystem. This method is identical to the IVdsSubSystem::GetProperties method, except that it returns a VDS_SUB_SYSTEM_PROP2 structure instead of a VDS_SUB_SYSTEM_PROP structure.
 old-location: base\ivdssubsystem2_getproperties2.htm

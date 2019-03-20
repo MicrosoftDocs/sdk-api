@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.Sharpen.GetParameters
-title: Sharpen::GetParameters
+title: Sharpen::GetParameters (gdipluseffects.h)
 author: windows-sdk-content
 description: The Sharpen::GetParameters method gets the current values of the parameters of this Sharpen object.
 old-location: gdiplus\_gdiplus_CLASS_Sharpen_GetParameters_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mfcaptureengine.IMFCaptureRecordSink
-title: IMFCaptureRecordSink
+title: IMFCaptureRecordSink (mfcaptureengine.h)
 author: windows-sdk-content
 description: Controls the recording sink.
 old-location: mf\imfcapturerecordsink.htm

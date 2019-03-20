@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManConnectionOptionsEx2.SetProxy
-title: IWSManConnectionOptionsEx2::SetProxy
+title: IWSManConnectionOptionsEx2::SetProxy (wsmandisp.h)
 author: windows-sdk-content
 description: Sets the proxy information for the session.
 old-location: winrm\iwsmanconnectionoptionsex2_setproxy.htm

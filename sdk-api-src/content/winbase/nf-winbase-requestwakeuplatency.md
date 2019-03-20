@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.RequestWakeupLatency
-title: RequestWakeupLatency function
+title: RequestWakeupLatency function (winbase.h)
 author: windows-sdk-content
 description: Has no effect and returns STATUS_NOT_SUPPORTED. This function is provided only for compatibility with earlier versions of Windows.Windows Server 2008 and Windows Vista:  Has no effect and always returns success.
 old-location: base\requestwakeuplatency.htm

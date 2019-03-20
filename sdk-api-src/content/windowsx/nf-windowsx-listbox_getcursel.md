@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ListBox_GetCurSel
-title: ListBox_GetCurSel macro
+title: ListBox_GetCurSel macro (windowsx.h)
 author: windows-sdk-content
 description: Gets the index of the currently selected item in a single-selection list box. You can use this macro or send the LB_GETCURSEL message explicitly.
 old-location: controls\ListBox_GetCurSel.htm

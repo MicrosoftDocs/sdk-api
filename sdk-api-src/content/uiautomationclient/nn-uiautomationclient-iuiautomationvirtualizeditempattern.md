@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationVirtualizedItemPattern
-title: IUIAutomationVirtualizedItemPattern
+title: IUIAutomationVirtualizedItemPattern (uiautomationclient.h)
 author: windows-sdk-content
 description: Represents an virtualized item, which is an item that is represented by a placeholder automation element in the Microsoft UI Automation tree.
 old-location: winauto\uiauto_IUIAutomationVirtualizedItemPattern.htm

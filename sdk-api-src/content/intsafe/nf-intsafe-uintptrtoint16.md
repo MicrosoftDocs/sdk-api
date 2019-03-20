@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.UIntPtrToInt16
-title: UIntPtrToInt16 function
+title: UIntPtrToInt16 function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type UINT_PTR to a value of type INT16.
 old-location: shell\UIntPtrToInt16.htm

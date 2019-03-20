@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_ECC_CMS_SHARED_INFO
-title: CRYPT_ECC_CMS_SHARED_INFO
+title: CRYPT_ECC_CMS_SHARED_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Represents key-encryption key information when using Elliptic Curve Cryptography (ECC) in the Cryptographic Message Syntax (CMS) EnvelopedData content type.
 old-location: security\crypt_ecc_cms_shared_info.htm

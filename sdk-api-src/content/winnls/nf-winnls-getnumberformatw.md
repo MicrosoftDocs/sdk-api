@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.GetNumberFormatW
-title: GetNumberFormatW function
+title: GetNumberFormatW function (winnls.h)
 author: windows-sdk-content
 description: Formats a number string as a number string customized for a locale specified by identifier.
 old-location: intl\getnumberformat.htm

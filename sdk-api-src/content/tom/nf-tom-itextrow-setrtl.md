@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.SetRTL
-title: ITextRow::SetRTL
+title: ITextRow::SetRTL (tom.h)
 author: windows-sdk-content
 description: Sets whether this row has right-to-left orientation.
 old-location: controls\itextrow_setrtl.htm

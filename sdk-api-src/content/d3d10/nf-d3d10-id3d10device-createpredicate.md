@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreatePredicate
-title: ID3D10Device::CreatePredicate
+title: ID3D10Device::CreatePredicate (d3d10.h)
 author: windows-sdk-content
 description: Creates a predicate.
 old-location: direct3d10\id3d10device_createpredicate.htm

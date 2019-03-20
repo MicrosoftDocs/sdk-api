@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.IRegisteredSyncProvider.Init
-title: IRegisteredSyncProvider::Init
+title: IRegisteredSyncProvider::Init (syncregistration.h)
 author: windows-sdk-content
 description: Initializes the synchronization provider before it is ready for a synchronization session.
 old-location: winsync\iregisteredsyncprovider_init.htm

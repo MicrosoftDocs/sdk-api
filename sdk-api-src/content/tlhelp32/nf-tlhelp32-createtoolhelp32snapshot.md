@@ -1,6 +1,6 @@
 ---
 UID: NF:tlhelp32.CreateToolhelp32Snapshot
-title: CreateToolhelp32Snapshot function
+title: CreateToolhelp32Snapshot function (tlhelp32.h)
 author: windows-sdk-content
 description: Takes a snapshot of the specified processes, as well as the heaps, modules, and threads used by these processes.
 old-location: toolhelp\createtoolhelp32snapshot.htm

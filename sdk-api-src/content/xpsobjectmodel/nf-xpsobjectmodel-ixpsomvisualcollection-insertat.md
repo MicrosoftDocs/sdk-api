@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualCollection.InsertAt
-title: IXpsOMVisualCollection::InsertAt
+title: IXpsOMVisualCollection::InsertAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Inserts an IXpsOMVisual interface pointer at a specified location in the collection.
 old-location: xps\ixpsomvisualcollection_insertat.htm

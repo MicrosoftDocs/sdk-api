@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponent.put_Status
-title: IComponent::put_Status
+title: IComponent::put_Status (tuner.h)
 author: windows-sdk-content
 description: The put_Status method sets the requested or actual status of the component.
 old-location: mstv\icomponent_put_status.htm

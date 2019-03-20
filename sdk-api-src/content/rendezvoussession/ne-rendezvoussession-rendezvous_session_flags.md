@@ -1,6 +1,6 @@
 ---
 UID: NE:rendezvoussession.__MIDL___MIDL_itf_rendezvoussession_0000_0000_0002
-title: RENDEZVOUS_SESSION_FLAGS
+title: RENDEZVOUS_SESSION_FLAGS (rendezvoussession.h)
 author: windows-sdk-content
 description: Provides the list of possible flags for the session invitation.
 old-location: remoteassist\remoteassist_RENDEZVOUS_SESSION_FLAGS.htm

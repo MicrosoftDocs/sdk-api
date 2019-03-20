@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Session_ModifyInstance
-title: MI_Session_ModifyInstance function
+title: MI_Session_ModifyInstance function (mi.h)
 author: windows-sdk-content
 description: Updates an existing instance in the server represented by the session.
 old-location: wmi_v2\mi_session_modifyinstance.htm

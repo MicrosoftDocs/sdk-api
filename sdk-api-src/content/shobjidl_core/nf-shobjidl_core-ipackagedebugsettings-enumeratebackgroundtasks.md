@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.EnumerateBackgroundTasks
-title: IPackageDebugSettings::EnumerateBackgroundTasks
+title: IPackageDebugSettings::EnumerateBackgroundTasks (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the background tasks that are provided by the specified package.
 old-location: shell\IPackageDebugSettings_EnumerateBackgroundTasks.htm

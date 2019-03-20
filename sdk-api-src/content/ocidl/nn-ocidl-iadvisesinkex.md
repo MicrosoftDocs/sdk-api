@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IAdviseSinkEx
-title: IAdviseSinkEx
+title: IAdviseSinkEx (ocidl.h)
 author: windows-sdk-content
 description: This interface is derived from IAdviseSink to provide extensions for notifying the sink of changes in an object's view status.
 old-location: com\iadvisesinkex.htm

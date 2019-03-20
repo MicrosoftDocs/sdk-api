@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageDependency.GetMinVersion
-title: IAppxManifestPackageDependency::GetMinVersion
+title: IAppxManifestPackageDependency::GetMinVersion (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the minimum version of the package on which the current package has a dependency.
 old-location: appxpkg\iappxmanifestpackagedependency_getminversion.htm

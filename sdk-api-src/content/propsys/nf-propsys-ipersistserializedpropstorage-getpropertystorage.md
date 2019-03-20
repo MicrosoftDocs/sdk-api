@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPersistSerializedPropStorage.GetPropertyStorage
-title: IPersistSerializedPropStorage::GetPropertyStorage
+title: IPersistSerializedPropStorage::GetPropertyStorage (propsys.h)
 author: windows-sdk-content
 description: Gets the serialized property storage data from the property store instance.
 old-location: shell\IPersistSerializedPropStorage_GetPropertyStorage.htm

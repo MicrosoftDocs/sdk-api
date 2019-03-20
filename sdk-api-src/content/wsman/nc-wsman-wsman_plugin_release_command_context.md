@@ -1,6 +1,6 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT
-title: WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT
+title: WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT (wsman.h)
 author: windows-sdk-content
 description: Defines the release command callback for the plug-in.
 old-location: winrm\wsman_plugin_release_command_context.htm

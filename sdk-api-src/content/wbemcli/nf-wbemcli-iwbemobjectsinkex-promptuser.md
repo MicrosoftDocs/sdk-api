@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemObjectSinkEx.PromptUser
-title: IWbemObjectSinkEx::PromptUser
+title: IWbemObjectSinkEx::PromptUser (wbemcli.h)
 author: windows-sdk-content
 description: TBD
 old-location: wmi\iwbemobjectsinkex_promptuser.htm

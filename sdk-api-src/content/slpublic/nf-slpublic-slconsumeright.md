@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLConsumeRight
-title: SLConsumeRight function
+title: SLConsumeRight function (slpublic.h)
 author: windows-sdk-content
 description: Let an application to exercise rights on a locally-stored licenses.
 old-location: security\slconsumeright.htm

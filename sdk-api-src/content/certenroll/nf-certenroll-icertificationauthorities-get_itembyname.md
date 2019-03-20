@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertificationAuthorities.get_ItemByName
-title: ICertificationAuthorities::get_ItemByName
+title: ICertificationAuthorities::get_ItemByName (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an ICertificationAuthority object from the collection by certification authority name.
 old-location: security\icertificationauthorities_itembyname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:exdisp.IShellWindows.ProcessAttachDetach
-title: IShellWindows::ProcessAttachDetach
+title: IShellWindows::ProcessAttachDetach (exdisp.h)
 author: windows-sdk-content
 description: Deprecated. Always returns S_OK.
 old-location: shell\IShellWindows_ProcessAttachDetach.htm

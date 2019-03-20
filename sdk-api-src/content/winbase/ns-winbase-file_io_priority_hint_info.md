@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._FILE_IO_PRIORITY_HINT_INFO
-title: FILE_IO_PRIORITY_HINT_INFO
+title: FILE_IO_PRIORITY_HINT_INFO (winbase.h)
 author: windows-sdk-content
 description: Specifies the priority hint for a file I/O operation.
 old-location: fs\file_io_priority_hint_info.htm

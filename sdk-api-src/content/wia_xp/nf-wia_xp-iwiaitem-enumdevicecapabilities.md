@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaItem.EnumDeviceCapabilities
-title: IWiaItem::EnumDeviceCapabilities
+title: IWiaItem::EnumDeviceCapabilities (wia_xp.h)
 author: windows-sdk-content
 description: The IWiaItem::EnumDeviceCapabilities method creates an enumerator that is used to ascertain the commands and events a Windows Image Acquisition (WIA) device supports.
 old-location: wia\_wia_IWiaItem_EnumDeviceCapabilities.htm

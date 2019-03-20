@@ -1,6 +1,6 @@
 ---
 UID: NS:winnls._currencyfmtA
-title: CURRENCYFMTA
+title: CURRENCYFMTA (winnls.h)
 author: windows-sdk-content
 description: Contains information that defines the format of a currency string. The GetCurrencyFormat function uses this information to customize a currency string for a specified locale.
 old-location: intl\currencyfmt.htm

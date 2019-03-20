@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvFillPath
-title: DrvFillPath function
+title: DrvFillPath function (winddi.h)
 author: windows-sdk-content
 description: The DrvFillPath function is an optional entry point to handle the filling of closed paths.
 old-location: display\drvfillpath.htm

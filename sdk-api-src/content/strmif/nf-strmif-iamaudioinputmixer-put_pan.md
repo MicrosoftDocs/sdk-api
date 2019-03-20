@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.put_Pan
-title: IAMAudioInputMixer::put_Pan
+title: IAMAudioInputMixer::put_Pan (strmif.h)
 author: windows-sdk-content
 description: The put_Pan method sets the pan level.
 old-location: dshow\iamaudioinputmixer_put_pan.htm

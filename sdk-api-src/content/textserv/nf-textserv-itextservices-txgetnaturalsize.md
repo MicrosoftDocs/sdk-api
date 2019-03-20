@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextServices.TxGetNaturalSize
-title: ITextServices::TxGetNaturalSize
+title: ITextServices::TxGetNaturalSize (textserv.h)
 author: windows-sdk-content
 description: Allows a control to be resized so it fits its content appropriately.
 old-location: controls\ITextServices_TxGetNaturalSize.htm

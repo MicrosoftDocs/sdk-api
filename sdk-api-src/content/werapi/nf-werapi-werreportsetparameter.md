@@ -1,6 +1,6 @@
 ---
 UID: NF:werapi.WerReportSetParameter
-title: WerReportSetParameter function
+title: WerReportSetParameter function (werapi.h)
 author: windows-sdk-content
 description: Sets the parameters that uniquely identify an event for the specified report.
 old-location: wer\werreportsetparameter.htm

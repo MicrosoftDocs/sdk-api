@@ -1,6 +1,6 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.put_TerminalServicesProfilePath
-title: IADsTSUserEx::put_TerminalServicesProfilePath
+title: IADsTSUserEx::put_TerminalServicesProfilePath (tsuserex.h)
 author: windows-sdk-content
 description: The roaming or mandatory profile path to be used when the user logs on to the Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\iadstsuserex_terminalservicesprofilepath.htm

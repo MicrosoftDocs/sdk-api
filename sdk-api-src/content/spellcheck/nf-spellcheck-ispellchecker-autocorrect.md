@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellChecker.AutoCorrect
-title: ISpellChecker::AutoCorrect
+title: ISpellChecker::AutoCorrect (spellcheck.h)
 author: windows-sdk-content
 description: Causes occurrences of one word to be replaced by another.
 old-location: intl\ispellchecker_autocorrect.htm

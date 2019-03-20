@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_CspInformations
-title: IX509PrivateKey::put_CspInformations
+title: IX509PrivateKey::put_CspInformations (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a collection of ICspInformation objects that contain information about the available cryptographic providers that support the public key algorithm associated with the private key.
 old-location: security\ix509privatekey_cspinformations.htm

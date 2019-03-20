@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertAddRefServerOcspResponse
-title: CertAddRefServerOcspResponse function
+title: CertAddRefServerOcspResponse function (wincrypt.h)
 author: windows-sdk-content
 description: Increments the reference count for an HCERT_SERVER_OCSP_RESPONSE handle.
 old-location: security\certaddrefserverocspresponse.htm

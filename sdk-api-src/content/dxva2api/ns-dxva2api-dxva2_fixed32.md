@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva2api._DXVA2_Fixed32
-title: DXVA2_Fixed32
+title: DXVA2_Fixed32 (dxva2api.h)
 author: windows-sdk-content
 description: Defines a 32-bit fixed-point number.
 old-location: mf\dxva2_fixed32.htm

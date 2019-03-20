@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBuffer.Remove
-title: IMFSourceBuffer::Remove
+title: IMFSourceBuffer::Remove (mfmediaengine.h)
 author: windows-sdk-content
 description: Removes the media segments defined by the specified time range from the IMFSourceBuffer.
 old-location: mf\imfsourcebuffer_remove.htm

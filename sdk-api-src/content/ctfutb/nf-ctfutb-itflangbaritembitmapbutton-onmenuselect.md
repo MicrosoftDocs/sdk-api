@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBitmapButton.OnMenuSelect
-title: ITfLangBarItemBitmapButton::OnMenuSelect
+title: ITfLangBarItemBitmapButton::OnMenuSelect (ctfutb.h)
 author: windows-sdk-content
 description: This method is not used if the button item does not have the TF_LBI_STYLE_BTN_MENU style.
 old-location: tsf\itflangbaritembitmapbutton_onmenuselect.htm

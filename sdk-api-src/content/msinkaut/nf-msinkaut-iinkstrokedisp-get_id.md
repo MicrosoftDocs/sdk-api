@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_ID
-title: IInkStrokeDisp::get_ID
+title: IInkStrokeDisp::get_ID (msinkaut.h)
 author: windows-sdk-content
 description: Gets the identifier of an object.
 old-location: tablet\iinkstrokedisp_id.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:coml2api.StgOpenStorage
-title: StgOpenStorage function
+title: StgOpenStorage function (coml2api.h)
 author: windows-sdk-content
 description: Opens an existing root storage object in the file system.
 old-location: stg\stgopenstorage.htm

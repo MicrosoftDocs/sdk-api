@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.PrivateFontCollection.AddFontFile
-title: PrivateFontCollection::AddFontFile
+title: PrivateFontCollection::AddFontFile (gdiplusheaders.h)
 author: windows-sdk-content
 description: The PrivateFontCollection::AddFontFile method adds a font file to this private font collection.
 old-location: gdiplus\_gdiplus_CLASS_PrivateFontCollection_AddFontFile_filename_.htm

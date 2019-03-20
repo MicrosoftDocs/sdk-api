@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_IN_SYNC_STATE
-title: CF_IN_SYNC_STATE
+title: CF_IN_SYNC_STATE (cfapi.h)
 author: windows-sdk-content
 description: Specifies the in-sync state for placeholder files and folders.
 old-location: cloudapi\cf_in_sync_state.htm

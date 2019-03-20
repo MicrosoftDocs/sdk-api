@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._SCHANNEL_ALG
-title: SCHANNEL_ALG
+title: SCHANNEL_ALG (wincrypt.h)
 author: windows-sdk-content
 description: The SCHANNEL_ALG structure contains algorithm and key size information. It is used as the structure passed as pbData in CryptSetKeyParam when dwParam is set to KP_SCHANNEL_ALG.
 old-location: security\schannel_alg.htm

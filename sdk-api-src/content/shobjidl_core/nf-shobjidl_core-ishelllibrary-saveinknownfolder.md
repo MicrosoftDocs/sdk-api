@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.SaveInKnownFolder
-title: IShellLibrary::SaveInKnownFolder
+title: IShellLibrary::SaveInKnownFolder (shobjidl_core.h)
 author: windows-sdk-content
 description: Saves the library to a new file in a specified known folder.
 old-location: shell\IShellLibrary_SaveInKnownFolder.htm

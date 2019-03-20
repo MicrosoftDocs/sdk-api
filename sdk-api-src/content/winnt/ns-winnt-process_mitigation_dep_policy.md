@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._PROCESS_MITIGATION_DEP_POLICY
-title: PROCESS_MITIGATION_DEP_POLICY
+title: PROCESS_MITIGATION_DEP_POLICY (winnt.h)
 author: windows-sdk-content
 description: Contains process mitigation policy settings for data execution prevention (DEP).
 old-location: base\process_mitigation_dep_policy.htm

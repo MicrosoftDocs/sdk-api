@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagMCGRIDINFO
-title: MCGRIDINFO
+title: MCGRIDINFO (commctrl.h)
 author: windows-sdk-content
 description: Contains information about part of a calendar control.
 old-location: controls\MCGRIDINFO.htm

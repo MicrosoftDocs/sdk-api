@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrSimpleStructUnmarshall
-title: NdrSimpleStructUnmarshall function
+title: NdrSimpleStructUnmarshall function (rpcndr.h)
 author: windows-sdk-content
 description: The NdrSimpleStructUnmarshall function unmarshals the simple structure from the network buffer to memory.
 old-location: winprog\ndrsimplestructunmarshall.htm

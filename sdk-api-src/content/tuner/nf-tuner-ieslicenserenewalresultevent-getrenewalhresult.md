@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.GetRenewalHResult
-title: IESLicenseRenewalResultEvent::GetRenewalHResult
+title: IESLicenseRenewalResultEvent::GetRenewalHResult (tuner.h)
 author: windows-sdk-content
 description: Gets the final HRESULT value from a LicenseRenewalResult event that is returned by a call to a COM interface method during the renewal process.
 old-location: mstv\ieslicenserenewalresultevent_getrenewalhresult.htm

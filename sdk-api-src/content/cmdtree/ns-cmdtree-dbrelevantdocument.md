@@ -1,6 +1,6 @@
 ---
 UID: NS:cmdtree.tagDBRELEVANTDOCUMENT
-title: DBRELEVANTDOCUMENT
+title: DBRELEVANTDOCUMENT (cmdtree.h)
 author: windows-sdk-content
 description: The DBRELEVANTDOCUMENT structure is reserved for future use.
 old-location: indexsrv\dbrelevantdocument.htm

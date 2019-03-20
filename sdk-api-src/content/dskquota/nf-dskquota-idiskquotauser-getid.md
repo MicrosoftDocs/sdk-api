@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.GetID
-title: IDiskQuotaUser::GetID
+title: IDiskQuotaUser::GetID (dskquota.h)
 author: windows-sdk-content
 description: Retrieves a unique identifier (ID) number for the DiskQuotaUser object.
 old-location: fs\idiskquotauser_getid.htm

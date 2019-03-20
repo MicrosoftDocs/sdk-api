@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSAMIStyle.SetSelectedStyle
-title: IMFSAMIStyle::SetSelectedStyle
+title: IMFSAMIStyle::SetSelectedStyle (mfidl.h)
 author: windows-sdk-content
 description: Sets the current style on the SAMI media source.
 old-location: mf\imfsamistyle_setselectedstyle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEx.CreateResourceLocator
-title: IWSManEx::CreateResourceLocator
+title: IWSManEx::CreateResourceLocator (wsmandisp.h)
 author: windows-sdk-content
 description: Creates a ResourceLocator object that can be used instead of a resource URI in Session object operations such as IWSManSession.Get, IWSManSession.Put, or Session.Enumerate.
 old-location: winrm\iwsmanex_createresourcelocator.htm

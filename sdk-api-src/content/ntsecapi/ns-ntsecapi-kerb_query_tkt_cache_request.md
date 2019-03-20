@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._KERB_QUERY_TKT_CACHE_REQUEST
-title: KERB_QUERY_TKT_CACHE_REQUEST
+title: KERB_QUERY_TKT_CACHE_REQUEST (ntsecapi.h)
 author: windows-sdk-content
 description: Contains information used to query the ticket cache.
 old-location: security\kerb_query_tkt_cache_request.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineSetCallQualityOfService
-title: lineSetCallQualityOfService function
+title: lineSetCallQualityOfService function (tapi.h)
 author: windows-sdk-content
 description: The lineSetCallQualityOfService function allows the application to attempt to change the quality of service parameters (reserved capacity and performance guarantees) for an existing call.
 old-location: tapi2\linesetcallqualityofservice.htm

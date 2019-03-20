@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmReleaseEntities
-title: RtmReleaseEntities function
+title: RtmReleaseEntities function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmReleaseEntities function releases the client handles returned by RtmGetRegisteredEntities.
 old-location: rras\rtmreleaseentities.htm

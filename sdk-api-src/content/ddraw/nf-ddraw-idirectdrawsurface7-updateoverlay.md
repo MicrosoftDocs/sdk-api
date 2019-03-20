@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.UpdateOverlay
-title: IDirectDrawSurface7::UpdateOverlay
+title: IDirectDrawSurface7::UpdateOverlay (ddraw.h)
 author: windows-sdk-content
 description: Repositions or modifies the visual attributes of an overlay surface. These surfaces must have the DDSCAPS_OVERLAY flag set.
 old-location: directdraw\idirectdrawsurface7_updateoverlay.htm

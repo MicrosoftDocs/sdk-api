@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DeleteMenu
-title: DeleteMenu function
+title: DeleteMenu function (winuser.h)
 author: windows-sdk-content
 description: Deletes an item from the specified menu. If the menu item opens a menu or submenu, this function destroys the handle to the menu or submenu and frees the memory used by the menu or submenu.
 old-location: menurc\deletemenu.htm

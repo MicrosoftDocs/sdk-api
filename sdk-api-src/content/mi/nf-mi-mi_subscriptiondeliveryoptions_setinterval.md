@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_SetInterval
-title: MI_SubscriptionDeliveryOptions_SetInterval function
+title: MI_SubscriptionDeliveryOptions_SetInterval function (mi.h)
 author: windows-sdk-content
 description: Sets the value of a named interval option.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_setinterval.htm

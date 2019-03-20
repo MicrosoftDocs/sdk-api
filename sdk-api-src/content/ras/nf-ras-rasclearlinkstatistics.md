@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasClearLinkStatistics
-title: RasClearLinkStatistics function
+title: RasClearLinkStatistics function (ras.h)
 author: windows-sdk-content
 description: The RasClearLinkStatistics functions clears any accumulated statistics for the specified link in a RAS multilink connection.
 old-location: rras\rasclearlinkstatistics.htm

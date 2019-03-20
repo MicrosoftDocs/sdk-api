@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1_3.D2D1_COLOR_CONTEXT_TYPE
-title: D2D1_COLOR_CONTEXT_TYPE
+title: D2D1_COLOR_CONTEXT_TYPE (d2d1_3.h)
 author: windows-sdk-content
 description: Specifies which way a color profile is defined.
 old-location: direct2d\d2d1_color_context_type.htm

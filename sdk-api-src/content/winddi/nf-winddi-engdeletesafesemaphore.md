@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngDeleteSafeSemaphore
-title: EngDeleteSafeSemaphore function
+title: EngDeleteSafeSemaphore function (winddi.h)
 author: windows-sdk-content
 description: The EngDeleteSafeSemaphore function removes a reference to the specified safe semaphore.
 old-location: display\engdeletesafesemaphore.htm

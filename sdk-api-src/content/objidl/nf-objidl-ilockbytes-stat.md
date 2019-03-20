@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ILockBytes.Stat
-title: ILockBytes::Stat
+title: ILockBytes::Stat (objidl.h)
 author: windows-sdk-content
 description: The Stat method retrieves a STATSTG structure containing information for this byte array object.
 old-location: stg\ilockbytes_stat.htm

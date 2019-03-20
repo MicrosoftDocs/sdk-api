@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList3.ThumbBarUpdateButtons
-title: ITaskbarList3::ThumbBarUpdateButtons
+title: ITaskbarList3::ThumbBarUpdateButtons (shobjidl_core.h)
 author: windows-sdk-content
 description: Shows, enables, disables, or hides buttons in a thumbnail toolbar as required by the window's current state. A thumbnail toolbar is a toolbar embedded in a thumbnail image of a window in a taskbar button flyout.
 old-location: shell\ITaskbarList3_ThumbBarUpdateButtons.htm

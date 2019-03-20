@@ -1,6 +1,6 @@
 ---
 UID: NS:ntlsa._CENTRAL_ACCESS_POLICY_ENTRY
-title: CENTRAL_ACCESS_POLICY_ENTRY
+title: CENTRAL_ACCESS_POLICY_ENTRY (ntlsa.h)
 author: windows-sdk-content
 description: Represents a central access policy entry containing a list of security descriptors and staged security descriptors.
 old-location: security\central_access_policy_entry.htm

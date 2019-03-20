@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagTRBTHUMBPOSCHANGING
-title: NMTRBTHUMBPOSCHANGING
+title: NMTRBTHUMBPOSCHANGING (commctrl.h)
 author: windows-sdk-content
 description: Contains information about a trackbar change notification. This message is sent with the TRBN_THUMBPOSCHANGING notification.
 old-location: controls\NMTRBTHUMBPOSCHANGING.htm

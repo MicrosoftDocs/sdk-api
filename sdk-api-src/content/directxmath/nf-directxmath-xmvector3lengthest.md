@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector3LengthEst
-title: XMVector3LengthEst function
+title: XMVector3LengthEst function (directxmath.h)
 author: windows-sdk-content
 description: Estimates the length of a 3D vector.
 old-location: dxmath\xmvector3lengthest.htm

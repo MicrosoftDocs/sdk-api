@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.SetAccountInformation
-title: IScheduledWorkItem::SetAccountInformation
+title: IScheduledWorkItem::SetAccountInformation (mstask.h)
 author: windows-sdk-content
 description: Sets the account name and password used to run the work item.
 old-location: taskschd\ischeduledworkitem_setaccountinformation.htm

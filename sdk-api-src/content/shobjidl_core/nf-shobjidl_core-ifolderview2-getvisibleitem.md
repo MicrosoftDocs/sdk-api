@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.GetVisibleItem
-title: IFolderView2::GetVisibleItem
+title: IFolderView2::GetVisibleItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the next visible item in relation to a given index in the view.
 old-location: shell\IFolderView2_GetVisibleItem.htm

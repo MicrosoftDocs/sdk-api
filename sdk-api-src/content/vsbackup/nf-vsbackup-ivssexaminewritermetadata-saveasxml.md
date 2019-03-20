@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadata.SaveAsXML
-title: IVssExamineWriterMetadata::SaveAsXML
+title: IVssExamineWriterMetadata::SaveAsXML (vsbackup.h)
 author: windows-sdk-content
 description: The SaveAsXML method saves the Writer Metadata Document that contains a writer's state information to a specified string. This string can be saved as part of a backup operation.
 old-location: base\ivssexaminewritermetadata_saveasxml.htm

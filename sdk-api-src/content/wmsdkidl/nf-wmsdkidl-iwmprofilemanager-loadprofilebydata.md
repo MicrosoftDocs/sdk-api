@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManager.LoadProfileByData
-title: IWMProfileManager::LoadProfileByData
+title: IWMProfileManager::LoadProfileByData (wmsdkidl.h)
 author: windows-sdk-content
 description: The LoadProfileByData method creates a profile object and populates it with data from a stored string. You must use this method to manipulate custom profiles. System profiles should be accessed using either LoadProfileByID or LoadSystemProfile.
 old-location: wmformat\iwmprofilemanager_loadprofilebydata.htm

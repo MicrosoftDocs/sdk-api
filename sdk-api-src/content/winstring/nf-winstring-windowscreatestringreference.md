@@ -1,6 +1,6 @@
 ---
 UID: NF:winstring.WindowsCreateStringReference
-title: WindowsCreateStringReference function
+title: WindowsCreateStringReference function (winstring.h)
 author: windows-sdk-content
 description: Creates a new string reference based on the specified string.
 old-location: winrt\windowscreatestringreference.htm

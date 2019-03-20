@@ -1,6 +1,6 @@
 ---
 UID: NS:wcsplugin._PrimaryXYZColors
-title: PrimaryXYZColors
+title: PrimaryXYZColors (wcsplugin.h)
 author: windows-sdk-content
 description: This structure contains eight primary colors in XYZ coordinates.
 old-location: wcs\primaryxyzcolors.htm

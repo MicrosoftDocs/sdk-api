@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1StrokeStyle.GetLineJoin
-title: ID2D1StrokeStyle::GetLineJoin
+title: ID2D1StrokeStyle::GetLineJoin (d2d1.h)
 author: windows-sdk-content
 description: Retrieves the type of joint used at the vertices of a shape's outline.
 old-location: direct2d\ID2D1StrokeStyle_GetLineJoin.htm

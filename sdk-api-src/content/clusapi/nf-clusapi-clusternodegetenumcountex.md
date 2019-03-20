@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterNodeGetEnumCountEx
-title: ClusterNodeGetEnumCountEx function
+title: ClusterNodeGetEnumCountEx function (clusapi.h)
 author: windows-sdk-content
 description: Returns the number of cluster objects that are associated with a node enumeration handle.
 old-location: mscs\clusternodegetenumcountex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRMixerControl9.SetAlpha
-title: IVMRMixerControl9::SetAlpha
+title: IVMRMixerControl9::SetAlpha (vmr9.h)
 author: windows-sdk-content
 description: The SetAlpha method sets a constant alpha value that is applied to this video stream.
 old-location: dshow\ivmrmixercontrol9_setalpha.htm

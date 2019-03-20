@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMedia.getItemInfo
-title: IWMPMedia::getItemInfo
+title: IWMPMedia::getItemInfo (wmp.h)
 author: windows-sdk-content
 description: The getItemInfo method retrieves the value of the specified attribute for the media item.
 old-location: wmp\iwmpmedia_getiteminfo.htm

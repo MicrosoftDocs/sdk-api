@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.MetafileType
-title: MetafileType
+title: MetafileType (gdiplusenums.h)
 author: windows-sdk-content
 description: The MetafileType enumeration specifies types of metafiles. The MetafileHeader::GetType method returns an element of this enumeration.
 old-location: gdiplus\_gdiplus_ENUM_MetafileType.htm

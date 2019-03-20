@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPOBackupCollection.get_Item
-title: IGPMStarterGPOBackupCollection::get_Item
+title: IGPMStarterGPOBackupCollection::get_Item (gpmgmt.h)
 author: windows-sdk-content
 description: Given an index, returns an GPMStarterGPOBackup object from the collection.
 old-location: gpmc\igpmstartergpobackupcollection_get_item.htm

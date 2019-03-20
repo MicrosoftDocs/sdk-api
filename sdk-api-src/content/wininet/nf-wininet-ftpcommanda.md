@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.FtpCommandA
-title: FtpCommandA function
+title: FtpCommandA function (wininet.h)
 author: windows-sdk-content
 description: Sends commands directly to an FTP server.
 old-location: wininet\ftpcommand.htm

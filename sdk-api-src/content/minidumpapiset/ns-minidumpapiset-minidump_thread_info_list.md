@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_THREAD_INFO_LIST
-title: MINIDUMP_THREAD_INFO_LIST
+title: MINIDUMP_THREAD_INFO_LIST (minidumpapiset.h)
 author: windows-sdk-content
 description: Contains a list of threads.
 old-location: base\minidump_thread_info_list_str.htm

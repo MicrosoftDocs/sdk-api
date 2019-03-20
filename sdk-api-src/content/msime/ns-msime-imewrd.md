@@ -1,6 +1,6 @@
 ---
 UID: NS:msime._IMEWRD
-title: IMEWRD
+title: IMEWRD (msime.h)
 author: windows-sdk-content
 description: Contains data about a word in the Word data of the Microsoft IME dictionary.
 old-location: intl\imewrd.htm

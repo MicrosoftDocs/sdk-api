@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.CERTENROLL_OBJECTID
-title: CERTENROLL_OBJECTID
+title: CERTENROLL_OBJECTID (certenroll.h)
 author: windows-sdk-content
 description: Contains the predefined object identifiers (OIDs) supported by Certificate Enrollment API.
 old-location: security\certenroll_objectid_enum.htm

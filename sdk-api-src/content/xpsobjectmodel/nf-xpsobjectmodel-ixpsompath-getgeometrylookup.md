@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetGeometryLookup
-title: IXpsOMPath::GetGeometryLookup
+title: IXpsOMPath::GetGeometryLookup (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the lookup key of a shared geometry object that is stored in a resource dictionary and that describes the resolved fill area for this path.
 old-location: xps\ixpsompath_getgeometrylookup.htm

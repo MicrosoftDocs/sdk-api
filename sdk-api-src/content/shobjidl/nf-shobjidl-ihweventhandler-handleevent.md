@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IHWEventHandler.HandleEvent
-title: IHWEventHandler::HandleEvent
+title: IHWEventHandler::HandleEvent (shobjidl.h)
 author: windows-sdk-content
 description: Handles AutoPlay device events for which there is no content of the type the application is registered to handle.
 old-location: shell\IHWEventHandler_HandleEvent.htm

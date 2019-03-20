@@ -1,6 +1,6 @@
 ---
 UID: NF:effects.IWMPEffects.Render
-title: IWMPEffects::Render
+title: IWMPEffects::Render (effects.h)
 author: windows-sdk-content
 description: The Render method renders the visualization.
 old-location: wmp\iwmpeffects_render.htm

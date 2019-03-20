@@ -1,6 +1,6 @@
 ---
 UID: NE:shlwapi.__unnamed_enum_6
-title: ASSOCSTR
+title: ASSOCSTR (shlwapi.h)
 author: windows-sdk-content
 description: Used by IQueryAssociations::GetString to define the type of string that is to be returned.
 old-location: shell\ASSOCSTR_str.htm

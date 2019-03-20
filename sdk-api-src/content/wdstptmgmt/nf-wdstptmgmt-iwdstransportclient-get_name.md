@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.get_Name
-title: IWdsTransportClient::get_Name
+title: IWdsTransportClient::get_Name (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives the name of the WDS client on the WDS server.
 old-location: wds\iwdstransportclient_name.htm

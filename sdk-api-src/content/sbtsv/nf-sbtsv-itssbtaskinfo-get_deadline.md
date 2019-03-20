@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTaskInfo.get_Deadline
-title: ITsSbTaskInfo::get_Deadline
+title: ITsSbTaskInfo::get_Deadline (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves the time by which the task must be initiated. This is used to prioritize patches. The patch with the earliest deadline will get initiated first.
 old-location: termserv\itssbtaskinfo_deadline.htm

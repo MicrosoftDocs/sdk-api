@@ -1,6 +1,6 @@
 ---
 UID: NF:winwlx.WlxWkstaLockedSAS
-title: WlxWkstaLockedSAS function
+title: WlxWkstaLockedSAS function (winwlx.h)
 author: windows-sdk-content
 description: Winlogon calls this function when it receives a secure attention sequence (SAS) and the workstation is locked.
 old-location: security\wlxwkstalockedsas.htm

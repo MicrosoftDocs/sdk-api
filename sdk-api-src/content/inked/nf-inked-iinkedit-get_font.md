@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.get_Font
-title: IInkEdit::get_Font
+title: IInkEdit::get_Font (inked.h)
 author: windows-sdk-content
 description: Gets or sets a Font object.
 old-location: tablet\inkedit_font.htm

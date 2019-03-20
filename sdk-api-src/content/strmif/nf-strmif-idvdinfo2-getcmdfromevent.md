@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetCmdFromEvent
-title: IDvdInfo2::GetCmdFromEvent
+title: IDvdInfo2::GetCmdFromEvent (strmif.h)
 author: windows-sdk-content
 description: The GetCmdFromEvent method retrieves an IDvdCmd object from an EC_DVD_CMD_START or EC_DVD_CMD_END event.
 old-location: dshow\idvdinfo2_getcmdfromevent.htm

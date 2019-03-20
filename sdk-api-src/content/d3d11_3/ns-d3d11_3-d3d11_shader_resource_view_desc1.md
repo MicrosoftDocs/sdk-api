@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11_3.D3D11_SHADER_RESOURCE_VIEW_DESC1
-title: D3D11_SHADER_RESOURCE_VIEW_DESC1
+title: D3D11_SHADER_RESOURCE_VIEW_DESC1 (d3d11_3.h)
 author: windows-sdk-content
 description: Describes a shader-resource view.
 old-location: direct3d11\d3d11_shader_resource_view_desc1.htm

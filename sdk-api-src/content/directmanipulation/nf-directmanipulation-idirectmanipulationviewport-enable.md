@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.Enable
-title: IDirectManipulationViewport::Enable
+title: IDirectManipulationViewport::Enable (directmanipulation.h)
 author: windows-sdk-content
 description: Starts or resumes input processing by the viewport.
 old-location: directmanipulation\idirectmanipulationviewport_enable.htm

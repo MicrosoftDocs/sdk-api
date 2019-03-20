@@ -1,6 +1,6 @@
 ---
 UID: NS:aclui._SID_INFO
-title: SID_INFO
+title: SID_INFO (aclui.h)
 author: windows-sdk-content
 description: Contains the list of common names corresponding to the SID structures returned by ISecurityInformation2::LookupSids.
 old-location: security\sid_info.htm

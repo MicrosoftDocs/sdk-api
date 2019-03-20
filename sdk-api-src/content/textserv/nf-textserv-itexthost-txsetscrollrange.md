@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxSetScrollRange
-title: ITextHost::TxSetScrollRange
+title: ITextHost::TxSetScrollRange (textserv.h)
 author: windows-sdk-content
 description: Sets the minimum and maximum position values for the specified scroll bar in the text host window.
 old-location: controls\ITextHost_TxSetScrollRange.htm

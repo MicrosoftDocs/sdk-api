@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector4AngleBetweenNormalsEst
-title: XMVector4AngleBetweenNormalsEst function
+title: XMVector4AngleBetweenNormalsEst function (directxmath.h)
 author: windows-sdk-content
 description: Estimates the radian angle between two normalized 4D vectors.
 old-location: dxmath\xmvector4anglebetweennormalsest.htm

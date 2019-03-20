@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaItem.GetItemType
-title: IWiaItem::GetItemType
+title: IWiaItem::GetItemType (wia_xp.h)
 author: windows-sdk-content
 description: The IWiaItem::GetItemType method is called by applications to obtain the type information of an item.
 old-location: wia\_wia_IWiaItem_GetItemType.htm

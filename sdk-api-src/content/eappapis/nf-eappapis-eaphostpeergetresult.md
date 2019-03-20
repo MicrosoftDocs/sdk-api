@@ -1,6 +1,6 @@
 ---
 UID: NF:eappapis.EapHostPeerGetResult
-title: EapHostPeerGetResult function
+title: EapHostPeerGetResult function (eappapis.h)
 author: windows-sdk-content
 description: Obtains the authentication result for the specified EAP authentication session.
 old-location: eaphost\eaphostpeergetresult.htm

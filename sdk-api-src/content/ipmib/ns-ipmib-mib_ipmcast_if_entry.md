@@ -1,6 +1,6 @@
 ---
 UID: NS:ipmib._MIB_IPMCAST_IF_ENTRY
-title: MIB_IPMCAST_IF_ENTRY
+title: MIB_IPMCAST_IF_ENTRY (ipmib.h)
 author: windows-sdk-content
 description: Stores information about an IP multicast interface.
 old-location: mib\mib_ipmcast_if_entry.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_BLEND_OP
-title: D3D11_BLEND_OP
+title: D3D11_BLEND_OP (d3d11.h)
 author: windows-sdk-content
 description: RGB or alpha blending operation.
 old-location: direct3d11\d3d11_blend_op.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IToc.GetEntryListCount
-title: IToc::GetEntryListCount
+title: IToc::GetEntryListCount (wmcodecdsp.h)
 author: windows-sdk-content
 description: The GetEntryListCount method retrieves the number of entry lists in the table of contents.
 old-location: mf\itoc_getentrylistcount.htm

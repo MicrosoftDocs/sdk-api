@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgTextCdma.get_Timestamp
-title: IMbnSmsReadMsgTextCdma::get_Timestamp
+title: IMbnSmsReadMsgTextCdma::get_Timestamp (mbnapi.h)
 author: windows-sdk-content
 description: The timestamp of a message.
 old-location: mbn\imbnsmsreadmsgtextcdma_timestamp.htm

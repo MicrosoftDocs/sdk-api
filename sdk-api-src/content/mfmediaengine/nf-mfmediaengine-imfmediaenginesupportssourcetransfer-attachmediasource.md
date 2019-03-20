@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSupportsSourceTransfer.AttachMediaSource
-title: IMFMediaEngineSupportsSourceTransfer::AttachMediaSource
+title: IMFMediaEngineSupportsSourceTransfer::AttachMediaSource (mfmediaengine.h)
 author: windows-sdk-content
 description: Attaches the media source.
 old-location: mf\imfmediaenginesupportssourcetransfer_attachmediasource.htm

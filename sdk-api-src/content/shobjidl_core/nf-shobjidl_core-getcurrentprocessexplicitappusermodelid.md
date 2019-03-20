@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.GetCurrentProcessExplicitAppUserModelID
-title: GetCurrentProcessExplicitAppUserModelID function
+title: GetCurrentProcessExplicitAppUserModelID function (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the application-defined, explicit Application User Model ID (AppUserModelID) for the current process.
 old-location: shell\GetCurrentProcessExplicitAppUserModelID.htm

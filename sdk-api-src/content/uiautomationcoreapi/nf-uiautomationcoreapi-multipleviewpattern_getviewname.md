@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.MultipleViewPattern_GetViewName
-title: MultipleViewPattern_GetViewName function
+title: MultipleViewPattern_GetViewName function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Retrieves the name of a control-specific view.
 old-location: winauto\uiauto_MultipleViewPattern_GetViewNameConPat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorCosH
-title: XMVectorCosH function
+title: XMVectorCosH function (directxmath.h)
 author: windows-sdk-content
 description: Computes the hyperbolic cosine of each component of an XMVECTOR.
 old-location: dxmath\xmvectorcosh.htm

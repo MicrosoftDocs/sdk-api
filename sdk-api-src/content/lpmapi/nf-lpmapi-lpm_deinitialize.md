@@ -1,6 +1,6 @@
 ---
 UID: NF:lpmapi.LPM_Deinitialize
-title: LPM_Deinitialize function
+title: LPM_Deinitialize function (lpmapi.h)
 author: windows-sdk-content
 description: The LPM_Deinitialize function allows the PCM to instruct LPMs to deinitialize, whether due to system shutdown or a change in Designated Subnet Bandwidth Manager (DSBM) status.
 old-location: qos\lpm_deinitialize.htm

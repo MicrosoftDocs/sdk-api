@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertCompareCertificateName
-title: CertCompareCertificateName function
+title: CertCompareCertificateName function (wincrypt.h)
 author: windows-sdk-content
 description: The CertCompareCertificateName function compares two certificate CERT_NAME_BLOB structures to determine whether they are identical. The CERT_NAME_BLOB structures are used for the subject and the issuer of certificates.
 old-location: security\certcomparecertificatename.htm

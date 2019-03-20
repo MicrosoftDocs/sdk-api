@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.Refresh
-title: IPenInputPanel::Refresh
+title: IPenInputPanel::Refresh (peninputpanel.h)
 author: windows-sdk-content
 description: Refresh is no longer available for use as of Windows XP Tablet PC Edition.
 old-location: tablet\peninputpanel_refresh.htm

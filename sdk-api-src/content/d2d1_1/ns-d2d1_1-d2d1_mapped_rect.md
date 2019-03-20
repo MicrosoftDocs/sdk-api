@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1_1.D2D1_MAPPED_RECT
-title: D2D1_MAPPED_RECT
+title: D2D1_MAPPED_RECT (d2d1_1.h)
 author: windows-sdk-content
 description: Describes mapped memory from the ID2D1Bitmap1::Map API.
 old-location: direct2d\d2d1_mapped_rect.htm

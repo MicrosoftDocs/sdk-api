@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.ActivateKeyboardLayout
-title: ActivateKeyboardLayout function
+title: ActivateKeyboardLayout function (winuser.h)
 author: windows-sdk-content
 description: Sets the input locale identifier (formerly called the keyboard layout handle) for the calling thread or the current process. The input locale identifier specifies a locale as well as the physical layout of the keyboard.
 old-location: inputdev\activatekeyboardlayout.htm

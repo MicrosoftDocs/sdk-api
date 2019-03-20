@@ -1,6 +1,6 @@
 ---
 UID: NF:muiload.LoadMUILibraryA
-title: LoadMUILibraryA function
+title: LoadMUILibraryA function (muiload.h)
 author: windows-sdk-content
 description: Returns a handle to the language-specific resources associated with a particular language-neutral (LN) file.
 old-location: intl\loadmuilibrary.htm

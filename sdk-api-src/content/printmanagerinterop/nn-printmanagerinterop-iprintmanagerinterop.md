@@ -1,6 +1,6 @@
 ---
 UID: NN:printmanagerinterop.IPrintManagerInterop
-title: IPrintManagerInterop
+title: IPrintManagerInterop (printmanagerinterop.h)
 author: windows-sdk-content
 description: Enables access to PrintManager methods in a Windows Store app that manages multiple windows.
 old-location: winrt\iprintmanagerinterop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIPerfCounterLoggingManager.CreateLogger
-title: IRDPSRAPIPerfCounterLoggingManager::CreateLogger
+title: IRDPSRAPIPerfCounterLoggingManager::CreateLogger (rdpencomapi.h)
 author: windows-sdk-content
 description: Creates a new IRDPSRAPIPerfCounterLogger object.
 old-location: rdp\irdpsrapiperfcounterloggingmanager_createlogger.htm

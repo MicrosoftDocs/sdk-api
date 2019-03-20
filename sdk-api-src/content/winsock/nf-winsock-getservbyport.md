@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock.getservbyport
-title: getservbyport function
+title: getservbyport function (winsock.h)
 author: windows-sdk-content
 description: The getservbyport function retrieves service information corresponding to a port and protocol.
 old-location: winsock\getservbyport_2.htm

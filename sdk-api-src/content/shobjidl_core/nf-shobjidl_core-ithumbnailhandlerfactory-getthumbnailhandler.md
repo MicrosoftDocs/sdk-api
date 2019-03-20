@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IThumbnailHandlerFactory.GetThumbnailHandler
-title: IThumbnailHandlerFactory::GetThumbnailHandler
+title: IThumbnailHandlerFactory::GetThumbnailHandler (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the requested thumbnail handler for the thumbnail of a given item.
 old-location: shell\IThumbnailHandlerFactory_GetThumbnailHandler.htm

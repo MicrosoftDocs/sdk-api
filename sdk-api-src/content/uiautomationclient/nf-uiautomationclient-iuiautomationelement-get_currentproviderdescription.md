@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentProviderDescription
-title: IUIAutomationElement::get_CurrentProviderDescription
+title: IUIAutomationElement::get_CurrentProviderDescription (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a description of the provider for this element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentProviderDescription.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mfapi._MF_QUATERNION
-title: MF_QUATERNION
+title: MF_QUATERNION (mfapi.h)
 author: windows-sdk-content
 description: A four dimensional vector, used to represent a rotation.
 old-location: mf\mf_quaternion.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.LongPtrAdd
-title: LongPtrAdd function
+title: LongPtrAdd function (intsafe.h)
 author: windows-sdk-content
 description: Adds two values of type LONG_PTR.
 old-location: shell\LongPtrAdd.htm

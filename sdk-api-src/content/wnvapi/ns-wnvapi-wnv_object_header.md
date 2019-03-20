@@ -1,6 +1,6 @@
 ---
 UID: NS:wnvapi._WNV_OBJECT_HEADER
-title: WNV_OBJECT_HEADER
+title: WNV_OBJECT_HEADER (wnvapi.h)
 author: windows-sdk-content
 description: Specifies the major version, minor version, and buffer size of the WNV_NOTIFICATION_PARAM structure that is passed to the WnvRequestNotification function.
 old-location: wnv\wnv_object_header.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsStoragePool.GetProperties
-title: IVdsStoragePool::GetProperties
+title: IVdsStoragePool::GetProperties (vdshwprv.h)
 author: windows-sdk-content
 description: Returns the properties of a storage pool.
 old-location: base\ivdsstoragepool_getproperties.htm

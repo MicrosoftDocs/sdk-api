@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFStreamingSinkConfig
-title: IMFStreamingSinkConfig
+title: IMFStreamingSinkConfig (mfidl.h)
 author: windows-sdk-content
 description: Passes configuration information to the media sinks that are used for streaming the content.
 old-location: mf\imfstreamingsinkconfig.htm

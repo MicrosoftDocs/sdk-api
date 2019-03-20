@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMNameCollection.GetCount
-title: IXpsOMNameCollection::GetCount
+title: IXpsOMNameCollection::GetCount (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the number of name strings in the collection.
 old-location: xps\ixpsomnamecollection_getcount.htm

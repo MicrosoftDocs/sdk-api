@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IEnumWIA_FORMAT_INFO.Skip
-title: IEnumWIA_FORMAT_INFO::Skip
+title: IEnumWIA_FORMAT_INFO::Skip (wia_xp.h)
 author: windows-sdk-content
 description: The IEnumWIA_FORMAT_INFO::Skip method skips the specified number of structures in the enumeration.
 old-location: wia\_wia_IEnumWIA_FORMAT_INFO_Skip.htm

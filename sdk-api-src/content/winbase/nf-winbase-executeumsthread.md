@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.ExecuteUmsThread
-title: ExecuteUmsThread function
+title: ExecuteUmsThread function (winbase.h)
 author: windows-sdk-content
 description: Runs the specified UMS worker thread.
 old-location: base\executeumsthread.htm

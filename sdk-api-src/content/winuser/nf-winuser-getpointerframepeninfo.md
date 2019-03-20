@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetPointerFramePenInfo
-title: GetPointerFramePenInfo function
+title: GetPointerFramePenInfo function (winuser.h)
 author: windows-sdk-content
 description: Gets the entire frame of pen-based information for the specified pointers (of type PT_PEN) associated with the current message.
 old-location: inputmsg\getpointerframepeninfo.htm

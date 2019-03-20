@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock.recv
-title: recv function
+title: recv function (winsock.h)
 author: windows-sdk-content
 description: Receives data from a connected socket or a bound connectionless socket.
 old-location: winsock\recv_2.htm

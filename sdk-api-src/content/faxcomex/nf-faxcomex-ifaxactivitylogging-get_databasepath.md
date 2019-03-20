@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxActivityLogging.get_DatabasePath
-title: IFaxActivityLogging::get_DatabasePath
+title: IFaxActivityLogging::get_DatabasePath (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxActivityLogging::get_DatabasePath property is a null-terminated string that contains the path to the activity log database file.
 old-location: fax\_mfax_faxactivitylogging_cpp_mfax_faxactivitylogging_databasepath_cpp.htm

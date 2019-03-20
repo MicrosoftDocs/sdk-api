@@ -1,6 +1,6 @@
 ---
 UID: NC:dbghelp.PSYM_ENUMSOURCEFILES_CALLBACK
-title: PSYM_ENUMSOURCEFILES_CALLBACK
+title: PSYM_ENUMSOURCEFILES_CALLBACK (dbghelp.h)
 author: windows-sdk-content
 description: An application-defined callback function used with the SymEnumSourceFiles function.
 old-location: base\symenumsourcefilesproc.htm

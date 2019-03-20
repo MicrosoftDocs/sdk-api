@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsapi.ISensor.GetProperty
-title: ISensor::GetProperty
+title: ISensor::GetProperty (sensorsapi.h)
 author: windows-sdk-content
 description: Retrieves a property value.
 old-location: winsensors_com_ref\isensor_getproperty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IPackageExecutionStateChangeNotification
-title: IPackageExecutionStateChangeNotification
+title: IPackageExecutionStateChangeNotification (shobjidl_core.h)
 author: windows-sdk-content
 description: Enables receiving package state-change notifications during Windows Store app debugging.
 old-location: shell\IPackageExecutionStateChangeNotification.htm

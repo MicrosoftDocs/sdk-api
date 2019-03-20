@@ -1,6 +1,6 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPITransportStreamEvents
-title: IRDPSRAPITransportStreamEvents
+title: IRDPSRAPITransportStreamEvents (rdpencomapi.h)
 author: windows-sdk-content
 description: Exposes methods called by the stream interface (IRDPSRAPITransportStream) to notify the Remote Desktop Protocol (RDP) stack about the completion of events.
 old-location: rdp\irdpsrapitransportstreamevents.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1ImageBrush.GetExtendModeX
-title: ID2D1ImageBrush::GetExtendModeX
+title: ID2D1ImageBrush::GetExtendModeX (d2d1_1.h)
 author: windows-sdk-content
 description: Gets the extend mode of the image brush on the x-axis.
 old-location: direct2d\id2d1imagebrush_getextendmodex.htm

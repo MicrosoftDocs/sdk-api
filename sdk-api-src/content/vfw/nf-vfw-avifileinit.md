@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIFileInit
-title: AVIFileInit function
+title: AVIFileInit function (vfw.h)
 author: windows-sdk-content
 description: The AVIFileInit function initializes the AVIFile library.
 old-location: multimedia\avifileinit.htm

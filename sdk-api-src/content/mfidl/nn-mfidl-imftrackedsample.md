@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFTrackedSample
-title: IMFTrackedSample
+title: IMFTrackedSample (mfidl.h)
 author: windows-sdk-content
 description: Tracks the reference counts on a video media sample.
 old-location: mf\imftrackedsample.htm

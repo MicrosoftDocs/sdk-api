@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.StringFromIID
-title: StringFromIID function
+title: StringFromIID function (combaseapi.h)
 author: windows-sdk-content
 description: Converts an interface identifier into a string of printable characters.
 old-location: com\stringfromiid.htm

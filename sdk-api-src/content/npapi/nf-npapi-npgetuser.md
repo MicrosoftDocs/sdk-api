@@ -1,6 +1,6 @@
 ---
 UID: NF:npapi.NPGetUser
-title: NPGetUser function
+title: NPGetUser function (npapi.h)
 author: windows-sdk-content
 description: Retrieves the value of the current default user name or the user name used to establish a network connection.
 old-location: security\npgetuser.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.SetSpaceAfter
-title: ITextPara::SetSpaceAfter
+title: ITextPara::SetSpaceAfter (tom.h)
 author: windows-sdk-content
 description: Sets the amount of space that follows a paragraph.
 old-location: controls\ITextPara_SetSpaceAfter.htm

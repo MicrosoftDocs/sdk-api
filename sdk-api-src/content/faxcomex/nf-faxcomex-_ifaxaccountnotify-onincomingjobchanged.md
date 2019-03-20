@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex._IFaxAccountNotify.OnIncomingJobChanged
-title: "_IFaxAccountNotify::OnIncomingJobChanged"
+title: "_IFaxAccountNotify::OnIncomingJobChanged" (faxcomex.h)
 author: windows-sdk-content
 description: Called by the fax service when the status of an incoming fax job for a particular fax account changes.
 old-location: fax\_mfax_ifaxaccountnotify_onincomingjobchanged.htm

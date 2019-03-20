@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._SP_DRVINSTALL_PARAMS
-title: SP_DRVINSTALL_PARAMS
+title: SP_DRVINSTALL_PARAMS (setupapi.h)
 author: windows-sdk-content
 description: An SP_DRVINSTALL_PARAMS structure contains driver installation parameters associated with a particular driver information element.
 old-location: devinst\sp_drvinstall_params.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComObjectPoolEvents.OnObjPoolGetObject
-title: IComObjectPoolEvents::OnObjPoolGetObject
+title: IComObjectPoolEvents::OnObjPoolGetObject (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a non-transactional object is obtained from the pool.
 old-location: cos\icomobjectpoolevents_onobjpoolgetobject.htm

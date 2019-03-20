@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_SAMPLER_DESC
-title: D3D11_SAMPLER_DESC
+title: D3D11_SAMPLER_DESC (d3d11.h)
 author: windows-sdk-content
 description: Describes a sampler state.
 old-location: direct3d11\d3d11_sampler_desc.htm

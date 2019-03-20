@@ -1,6 +1,6 @@
 ---
 UID: NC:dxmini.PDX_LOCK
-title: PDX_LOCK
+title: PDX_LOCK (dxmini.h)
 author: windows-sdk-content
 description: The DxLock callback function is called when a client of the video miniport driver wants access to the frame buffer.
 old-location: display\dxlock.htm

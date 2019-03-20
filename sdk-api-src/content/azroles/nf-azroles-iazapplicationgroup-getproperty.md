@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.GetProperty
-title: IAzApplicationGroup::GetProperty
+title: IAzApplicationGroup::GetProperty (azroles.h)
 author: windows-sdk-content
 description: Returns the IAzApplicationGroup object property with the specified property ID.
 old-location: security\iazapplicationgroup_getproperty.htm

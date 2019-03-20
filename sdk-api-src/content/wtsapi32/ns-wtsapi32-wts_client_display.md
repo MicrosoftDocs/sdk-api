@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsapi32._WTS_CLIENT_DISPLAY
-title: WTS_CLIENT_DISPLAY
+title: WTS_CLIENT_DISPLAY (wtsapi32.h)
 author: windows-sdk-content
 description: Contains information about the display of a Remote Desktop Connection (RDC) client.
 old-location: termserv\wts_client_display_str.htm

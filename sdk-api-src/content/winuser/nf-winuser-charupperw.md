@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CharUpperW
-title: CharUpperW function
+title: CharUpperW function (winuser.h)
 author: windows-sdk-content
 description: Converts a character string or a single character to uppercase. If the operand is a character string, the function converts the characters in place.
 old-location: menurc\charupper.htm

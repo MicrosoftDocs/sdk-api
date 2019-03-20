@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IAlertDataCollector.get_Task
-title: IAlertDataCollector::get_Task
+title: IAlertDataCollector::get_Task (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the name of a Task Scheduler job to start each time the counter value crosses the threshold.
 old-location: pla\ialertdatacollector_task.htm

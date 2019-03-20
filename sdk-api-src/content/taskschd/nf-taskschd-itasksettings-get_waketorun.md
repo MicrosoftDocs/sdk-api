@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings.get_WakeToRun
-title: ITaskSettings::get_WakeToRun
+title: ITaskSettings::get_WakeToRun (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates that the Task Scheduler will wake the computer when it is time to run the task, and keep the computer awake until the task is completed.
 old-location: taskschd\itasksettings_waketorun.htm

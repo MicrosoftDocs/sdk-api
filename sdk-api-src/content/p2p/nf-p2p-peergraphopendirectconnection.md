@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGraphOpenDirectConnection
-title: PeerGraphOpenDirectConnection function
+title: PeerGraphOpenDirectConnection function (p2p.h)
 author: windows-sdk-content
 description: The PeerGraphOpenDirectConnection function allows an application to establish a direct connection with a node in a peer graph.
 old-location: p2p\peergraphopendirectconnection.htm

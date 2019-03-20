@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_Contrast
-title: IVideoProcAmp::put_Contrast
+title: IVideoProcAmp::put_Contrast (vidcap.h)
 author: windows-sdk-content
 description: The put_Contrast method sets the camera's contrast setting.
 old-location: dshow\ivideoprocamp_put_contrast.htm

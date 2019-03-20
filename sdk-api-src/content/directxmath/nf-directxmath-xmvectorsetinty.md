@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorSetIntY
-title: XMVectorSetIntY function
+title: XMVectorSetIntY function (directxmath.h)
 author: windows-sdk-content
 description: Set the value of the y component of an XMVECTOR Data Type.
 old-location: dxmath\xmvectorsetinty.htm

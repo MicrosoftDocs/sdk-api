@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.CLUSPROP_PROPERTY_NAME_DECLARE
-title: CLUSPROP_PROPERTY_NAME_DECLARE macro
+title: CLUSPROP_PROPERTY_NAME_DECLARE macro (clusapi.h)
 author: windows-sdk-content
 description: Creates a CLUSPROP_PROPERTY_NAME structure with the sz member set to a size determined by the caller.
 old-location: mscs\clusprop_property_name_declare.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:cluadmex.IGetClusterResourceInfo
-title: IGetClusterResourceInfo
+title: IGetClusterResourceInfo (cluadmex.h)
 author: windows-sdk-content
 description: Called by a Failover Cluster Administrator extension to retrieve information about a resource.
 old-location: mscs\igetclusterresourceinfo.htm

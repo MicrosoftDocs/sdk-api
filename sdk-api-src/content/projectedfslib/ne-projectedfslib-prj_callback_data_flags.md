@@ -1,6 +1,6 @@
 ---
 UID: NE:projectedfslib.PRJ_CALLBACK_DATA_FLAGS
-title: PRJ_CALLBACK_DATA_FLAGS
+title: PRJ_CALLBACK_DATA_FLAGS (projectedfslib.h)
 author: windows-sdk-content
 description: Flags controlling what is returned in the enumeration.
 old-location: projfs\prj_callback_data_flags.htm

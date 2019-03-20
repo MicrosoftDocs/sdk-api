@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItemResources.EnumResources
-title: IShellItemResources::EnumResources
+title: IShellItemResources::EnumResources (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets a resource enumerator object.
 old-location: shell\IShellItemResources_EnumResources.htm

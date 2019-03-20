@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleSave
-title: OleSave function
+title: OleSave function (ole2.h)
 author: windows-sdk-content
 description: Saves an object opened in transacted mode into the specified storage object.
 old-location: com\olesave.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpstypes.FWPS_FILTER0_
-title: FWPS_FILTER0
+title: FWPS_FILTER0 (fwpstypes.h)
 author: windows-sdk-content
 description: The FWPS_FILTER0 structure defines a run-time filter in the filter engine.Note  FWPS_FILTER0 is the specific version of FWPS_FILTER used in Windows Vista and later.
 old-location: netvista\fwps_filter0.htm

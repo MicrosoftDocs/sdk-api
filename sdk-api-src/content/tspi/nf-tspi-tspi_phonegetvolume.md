@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_phoneGetVolume
-title: TSPI_phoneGetVolume function
+title: TSPI_phoneGetVolume function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_phoneGetVolume function returns the volume setting of the specified phone's hookswitch device.
 old-location: tspi\tspi_phonegetvolume.htm

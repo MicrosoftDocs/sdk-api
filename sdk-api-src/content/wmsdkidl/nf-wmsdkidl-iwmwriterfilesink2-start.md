@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink2.Start
-title: IWMWriterFileSink2::Start
+title: IWMWriterFileSink2::Start (wmsdkidl.h)
 author: windows-sdk-content
 description: The Start method starts recording at the specified time.
 old-location: wmformat\iwmwriterfilesink2_start.htm

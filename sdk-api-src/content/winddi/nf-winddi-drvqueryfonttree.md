@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvQueryFontTree
-title: DrvQueryFontTree function
+title: DrvQueryFontTree function (winddi.h)
 author: windows-sdk-content
 description: The DrvQueryFontTree function provides GDI with a pointer to a structure that defines one of the following:A mapping from Unicode to glyph handles, including glyph variantsA mapping of kerning pairs to kerning handles
 old-location: display\drvqueryfonttree.htm

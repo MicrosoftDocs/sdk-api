@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.IEnumDirectory.Clone
-title: IEnumDirectory::Clone
+title: IEnumDirectory::Clone (rend.h)
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienumdirectory_clone.htm

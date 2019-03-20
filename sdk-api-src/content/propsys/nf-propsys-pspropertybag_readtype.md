@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadType
-title: PSPropertyBag_ReadType function
+title: PSPropertyBag_ReadType function (propsys.h)
 author: windows-sdk-content
 description: Reads the type of data value of a property that is stored in a property bag.
 old-location: properties\PSPropertyBag_ReadType.htm

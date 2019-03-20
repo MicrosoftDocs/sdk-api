@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSLocator2.get_DiseqLNBSource
-title: IDVBSLocator2::get_DiseqLNBSource
+title: IDVBSLocator2::get_DiseqLNBSource (tuner.h)
 author: windows-sdk-content
 description: Specifies the input for a Digital Satellite Equipment Control (DiSEqC) low-noise block converter (LNB).
 old-location: mstv\idvbslocator2_diseqlnbsource.htm

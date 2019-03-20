@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PushDenyAllStorageFilter
-title: IDXGIInfoQueue::PushDenyAllStorageFilter
+title: IDXGIInfoQueue::PushDenyAllStorageFilter (dxgidebug.h)
 author: windows-sdk-content
 description: Pushes a deny-all storage filter onto the storage-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_pushdenyallstoragefilter.htm

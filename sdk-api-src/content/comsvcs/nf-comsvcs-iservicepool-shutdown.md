@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServicePool.Shutdown
-title: IServicePool::Shutdown
+title: IServicePool::Shutdown (comsvcs.h)
 author: windows-sdk-content
 description: Shuts down an object pool.
 old-location: cos\iservicepool_shutdown.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:vswriter.VSS_ALTERNATE_WRITER_STATE
-title: VSS_ALTERNATE_WRITER_STATE
+title: VSS_ALTERNATE_WRITER_STATE (vswriter.h)
 author: windows-sdk-content
 description: Used to indicate whether a given writer has an associated alternate writer.
 old-location: base\vss_alternate_writer_state.htm

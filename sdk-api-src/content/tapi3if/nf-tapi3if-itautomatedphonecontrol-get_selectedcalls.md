@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.get_SelectedCalls
-title: ITAutomatedPhoneControl::get_SelectedCalls
+title: ITAutomatedPhoneControl::get_SelectedCalls (tapi3if.h)
 author: windows-sdk-content
 description: The get_SelectedCalls method retrieves a VARIANT containing a pointer to a collection object indicating which calls are currently selected on this phone. See ITAutomatedPhoneControl::SelectCall for more information.
 old-location: tapi3\itautomatedphonecontrol_get_selectedcalls.htm

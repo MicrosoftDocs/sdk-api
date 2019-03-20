@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPAdmin.GetSecurity
-title: IOCSPAdmin::GetSecurity
+title: IOCSPAdmin::GetSecurity (certadm.h)
 author: windows-sdk-content
 description: Gets security descriptor information for an Online Certificate Status Protocol (OCSP) responder server.
 old-location: security\iocspadmin_getsecurity.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.Translate(IN INT,IN INT)
-title: Region::Translate(IN INT,IN INT)
+title: Region::Translate(IN INT,IN INT) (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Region::Translate method offsets this region by specified amounts in the horizontal and vertical directions.
 old-location: gdiplus\_gdiplus_CLASS_Region_Translate_INT_dx_INT_dy_.htm

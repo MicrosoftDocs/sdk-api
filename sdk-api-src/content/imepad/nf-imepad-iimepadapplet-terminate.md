@@ -1,6 +1,6 @@
 ---
 UID: NF:imepad.IImePadApplet.Terminate
-title: IImePadApplet::Terminate
+title: IImePadApplet::Terminate (imepad.h)
 author: windows-sdk-content
 description: Called from IImePad to terminate IImePadApplet when the IMEPad instance exits.
 old-location: intl\iimepadapplet_terminate.htm

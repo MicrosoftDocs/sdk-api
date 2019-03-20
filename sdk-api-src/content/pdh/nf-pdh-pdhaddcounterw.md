@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhAddCounterW
-title: PdhAddCounterW function
+title: PdhAddCounterW function (pdh.h)
 author: windows-sdk-content
 description: Adds the specified counter to the query.
 old-location: perf\pdhaddcounter.htm

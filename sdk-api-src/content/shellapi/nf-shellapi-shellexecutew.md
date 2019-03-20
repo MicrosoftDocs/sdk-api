@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.ShellExecuteW
-title: ShellExecuteW function
+title: ShellExecuteW function (shellapi.h)
 author: windows-sdk-content
 description: Performs an operation on a specified file.
 old-location: shell\ShellExecute.htm

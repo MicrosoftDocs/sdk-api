@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathRemoveBlanksA
-title: PathRemoveBlanksA function
+title: PathRemoveBlanksA function (shlwapi.h)
 author: windows-sdk-content
 description: Removes all leading and trailing spaces from a string.
 old-location: shell\PathRemoveBlanks.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingConfiguration.EnableSharing
-title: INetSharingConfiguration::EnableSharing
+title: INetSharingConfiguration::EnableSharing (netcon.h)
 author: windows-sdk-content
 description: The EnableSharing method enables sharing on this connection.
 old-location: ics\inetsharingconfiguration_enablesharing.htm

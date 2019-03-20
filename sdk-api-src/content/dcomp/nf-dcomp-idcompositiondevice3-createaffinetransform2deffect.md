@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateAffineTransform2DEffect
-title: IDCompositionDevice3::CreateAffineTransform2DEffect
+title: IDCompositionDevice3::CreateAffineTransform2DEffect (dcomp.h)
 author: windows-sdk-content
 description: Creates an instance of IDCompositionAffineTransform2DEffect.
 old-location: directcomp\idcompositiondevice3_createaffinetransform2deffect.htm

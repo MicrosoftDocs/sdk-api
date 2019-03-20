@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects.D2D1_FLOOD_PROP
-title: D2D1_FLOOD_PROP
+title: D2D1_FLOOD_PROP (d2d1effects.h)
 author: windows-sdk-content
 description: Identifiers for properties of the Flood effect.
 old-location: direct2d\d2d1_flood_prop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winver.GetFileVersionInfoExW
-title: GetFileVersionInfoExW function
+title: GetFileVersionInfoExW function (winver.h)
 author: windows-sdk-content
 description: Retrieves version information for the specified file.
 old-location: menurc\getfileversioninfoex.htm

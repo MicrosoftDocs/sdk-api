@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDashCollection.SetAt
-title: IXpsOMDashCollection::SetAt
+title: IXpsOMDashCollection::SetAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Replaces an XPS_DASH structure at a specified location in the collection.
 old-location: xps\ixpsomdashcollection_setat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commdlg.FindTextA
-title: FindTextA function
+title: FindTextA function (commdlg.h)
 author: windows-sdk-content
 description: Creates a system-defined modeless Find dialog box that lets the user specify a string to search for and options to use when searching for text in a document.
 old-location: dlgbox\findtext.htm

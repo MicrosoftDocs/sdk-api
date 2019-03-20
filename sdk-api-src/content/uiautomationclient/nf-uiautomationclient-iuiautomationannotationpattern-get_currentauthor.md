@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAnnotationPattern.get_CurrentAuthor
-title: IUIAutomationAnnotationPattern::get_CurrentAuthor
+title: IUIAutomationAnnotationPattern::get_CurrentAuthor (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the name of the annotation author.
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CurrentAuthor.htm

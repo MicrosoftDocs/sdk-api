@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorSetByIndexPtr
-title: XMVectorSetByIndexPtr function
+title: XMVectorSetByIndexPtr function (directxmath.h)
 author: windows-sdk-content
 description: Use a pointer to a floating-point instance to set the value of one of the four components of an XMVECTOR Data Type containing floating-point data referenced by an index.
 old-location: dxmath\xmvectorsetbyindexptr.htm

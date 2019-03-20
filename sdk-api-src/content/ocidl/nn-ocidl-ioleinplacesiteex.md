@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IOleInPlaceSiteEx
-title: IOleInPlaceSiteEx
+title: IOleInPlaceSiteEx (ocidl.h)
 author: windows-sdk-content
 description: Provides an additional set of activation and deactivation notification methods that enable an object to avoid unnecessary flashing on the screen when the object is activated and deactivated.
 old-location: com\ioleinplacesiteex.htm

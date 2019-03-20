@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegUnLoadKeyA
-title: RegUnLoadKeyA function
+title: RegUnLoadKeyA function (winreg.h)
 author: windows-sdk-content
 description: Unloads the specified registry key and its subkeys from the registry.
 old-location: base\regunloadkey.htm

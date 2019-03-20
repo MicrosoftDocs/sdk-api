@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrScheduleWizardUIOperation.InitWizard
-title: ISyncMgrScheduleWizardUIOperation::InitWizard
+title: ISyncMgrScheduleWizardUIOperation::InitWizard (syncmgr.h)
 author: windows-sdk-content
 description: Initializes the sync schedule wizard.
 old-location: shell\ISyncMgrScheduleWizardUIOperation_InitWizard.htm

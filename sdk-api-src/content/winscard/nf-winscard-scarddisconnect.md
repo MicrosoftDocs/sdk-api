@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardDisconnect
-title: SCardDisconnect function
+title: SCardDisconnect function (winscard.h)
 author: windows-sdk-content
 description: Terminates a connection previously opened between the calling application and a smart card in the target reader.
 old-location: security\scarddisconnect.htm

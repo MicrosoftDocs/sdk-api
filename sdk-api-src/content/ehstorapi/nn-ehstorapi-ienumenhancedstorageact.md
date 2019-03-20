@@ -1,6 +1,6 @@
 ---
 UID: NN:ehstorapi.IEnumEnhancedStorageACT
-title: IEnumEnhancedStorageACT
+title: IEnumEnhancedStorageACT (ehstorapi.h)
 author: windows-sdk-content
 description: Use this interface as the top level enumerator for all IEEE 1667 Addressable Contact Targets (ACT).
 old-location: enstor\ienumenhancedstorageact.htm

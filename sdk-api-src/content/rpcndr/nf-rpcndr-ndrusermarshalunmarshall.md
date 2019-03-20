@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrUserMarshalUnmarshall
-title: NdrUserMarshalUnmarshall function
+title: NdrUserMarshalUnmarshall function (rpcndr.h)
 author: windows-sdk-content
 description: The NdrUserMarshalUnmarshall function calls a user-defined unmarshal routine to unmarshal data with the attribute.
 old-location: winprog\ndrusermarshalunmarshall.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_COLOR_WRITE_ENABLE
-title: D3D12_COLOR_WRITE_ENABLE
+title: D3D12_COLOR_WRITE_ENABLE (d3d12.h)
 author: windows-sdk-content
 description: Identifies which components of each pixel of a render target are writable during blending.
 old-location: direct3d12\d3d12_color_write_enable.htm

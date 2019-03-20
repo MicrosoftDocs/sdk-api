@@ -1,6 +1,6 @@
 ---
 UID: NC:commdlg.LPFRHOOKPROC
-title: LPFRHOOKPROC
+title: LPFRHOOKPROC (commdlg.h)
 author: windows-sdk-content
 description: Receives messages or notifications intended for the default dialog box procedure of the Find or Replace dialog box.
 old-location: dlgbox\frhookproc.htm

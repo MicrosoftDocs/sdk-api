@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.IsMoveInSameFolder
-title: IFolderView2::IsMoveInSameFolder
+title: IFolderView2::IsMoveInSameFolder (shobjidl_core.h)
 author: windows-sdk-content
 description: Checks to see if this view sourced the current drag-and-drop or cut-and-paste operation (used by drop target objects).
 old-location: shell\IFolderView2_IsMoveInSameFolder.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesProgress.End
-title: IOfflineFilesProgress::End
+title: IOfflineFilesProgress::End (cscobj.h)
 author: windows-sdk-content
 description: Reports that an operation has ended.
 old-location: of\iofflinefilesprogress_end.htm

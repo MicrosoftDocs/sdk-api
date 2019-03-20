@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_HYDRATE_FLAGS
-title: CF_HYDRATE_FLAGS
+title: CF_HYDRATE_FLAGS (cfapi.h)
 author: windows-sdk-content
 description: Placeholder data hydration flags.
 old-location: cloudapi\cf_hydrate_flags.htm

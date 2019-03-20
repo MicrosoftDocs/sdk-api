@@ -1,6 +1,6 @@
 ---
 UID: NF:winusb.WinUsb_GetPipePolicy
-title: WinUsb_GetPipePolicy function
+title: WinUsb_GetPipePolicy function (winusb.h)
 author: windows-sdk-content
 description: The WinUsb_GetPipePolicy function retrieves the policy for a specific pipe associated with an endpoint on the device. This is a synchronous operation.
 old-location: buses\winusb_getpipepolicy.htm

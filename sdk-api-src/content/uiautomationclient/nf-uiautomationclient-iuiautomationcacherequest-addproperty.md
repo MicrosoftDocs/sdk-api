@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationCacheRequest.AddProperty
-title: IUIAutomationCacheRequest::AddProperty
+title: IUIAutomationCacheRequest::AddProperty (uiautomationclient.h)
 author: windows-sdk-content
 description: Adds a property to the cache request.
 old-location: winauto\uiauto_IUIAutomationCacheRequest_AddProperty.htm

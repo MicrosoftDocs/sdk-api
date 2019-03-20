@@ -1,6 +1,6 @@
 ---
 UID: NF:sas.SendSAS
-title: SendSAS function
+title: SendSAS function (sas.h)
 author: windows-sdk-content
 description: Simulates a secure attention sequence (SAS).
 old-location: security\sendsas.htm

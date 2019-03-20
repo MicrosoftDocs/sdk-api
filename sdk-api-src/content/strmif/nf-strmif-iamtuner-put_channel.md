@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTuner.put_Channel
-title: IAMTuner::put_Channel
+title: IAMTuner::put_Channel (strmif.h)
 author: windows-sdk-content
 description: The put_Channel method sets the TV channel.
 old-location: dshow\iamtuner_put_channel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.IsVisible(IN INT,IN INT,IN INT,IN INT)
-title: Graphics::IsVisible(IN INT,IN INT,IN INT,IN INT)
+title: Graphics::IsVisible(IN INT,IN INT,IN INT,IN INT) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::IsVisible method determines whether the specified rectangle intersects the visible clipping region of this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_IsVisible_INT_x_INT_y_INT_width_INT_height_.htm

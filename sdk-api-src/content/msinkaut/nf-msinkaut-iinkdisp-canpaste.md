@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDisp.CanPaste
-title: IInkDisp::CanPaste
+title: IInkDisp::CanPaste (msinkaut.h)
 author: windows-sdk-content
 description: Indicates whether the IDataObject can be converted to an InkDisp object.
 old-location: tablet\inkdisp_canpaste.htm

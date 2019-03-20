@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfo.GetSize
-title: IAppxBundleManifestPackageInfo::GetSize
+title: IAppxBundleManifestPackageInfo::GetSize (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves the size of the package, in bytes.
 old-location: appxpkg\iappxbundlemanifestpackageinfo_getsize.htm

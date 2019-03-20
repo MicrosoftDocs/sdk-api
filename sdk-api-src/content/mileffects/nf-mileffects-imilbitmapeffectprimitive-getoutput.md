@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectPrimitive.GetOutput
-title: IMILBitmapEffectPrimitive::GetOutput
+title: IMILBitmapEffectPrimitive::GetOutput (mileffects.h)
 author: windows-sdk-content
 description: Performs pixel processing for the bitmap effect.
 old-location: wibe\_wibe_imilbitmapeffectprimitive_getoutput.htm

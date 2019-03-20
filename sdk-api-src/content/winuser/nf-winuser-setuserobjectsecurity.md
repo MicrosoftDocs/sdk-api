@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetUserObjectSecurity
-title: SetUserObjectSecurity function
+title: SetUserObjectSecurity function (winuser.h)
 author: windows-sdk-content
 description: Sets the security of a user object. This can be, for example, a window or a DDE conversation.
 old-location: security\setuserobjectsecurity.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.VerSetConditionMask
-title: VerSetConditionMask function
+title: VerSetConditionMask function (winnt.h)
 author: windows-sdk-content
 description: Sets the bits of a 64-bit value to indicate the comparison operator to use for a specified operating system version attribute. This function is used to build the dwlConditionMask parameter of the VerifyVersionInfo function.
 old-location: base\versetconditionmask.htm

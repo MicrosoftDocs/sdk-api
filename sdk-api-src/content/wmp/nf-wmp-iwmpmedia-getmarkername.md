@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMedia.getMarkerName
-title: IWMPMedia::getMarkerName
+title: IWMPMedia::getMarkerName (wmp.h)
 author: windows-sdk-content
 description: The getMarkerName method retrieves the name of the marker at the specified index.
 old-location: wmp\iwmpmedia_getmarkername.htm

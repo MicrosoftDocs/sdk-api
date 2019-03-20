@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmGetExactMatchRoute
-title: RtmGetExactMatchRoute function
+title: RtmGetExactMatchRoute function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmGetExactMatchRoute function searches the routing table for a route that exactly matches the specified route.
 old-location: rras\rtmgetexactmatchroute.htm

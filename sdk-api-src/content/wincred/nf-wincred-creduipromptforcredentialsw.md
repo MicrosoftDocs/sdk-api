@@ -1,6 +1,6 @@
 ---
 UID: NF:wincred.CredUIPromptForCredentialsW
-title: CredUIPromptForCredentialsW function
+title: CredUIPromptForCredentialsW function (wincred.h)
 author: windows-sdk-content
 description: Creates and displays a configurable dialog box that accepts credentials information from a user.
 old-location: security\creduipromptforcredentials.htm

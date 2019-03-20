@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_ENCRYPT_MESSAGE_PARA
-title: CRYPT_ENCRYPT_MESSAGE_PARA
+title: CRYPT_ENCRYPT_MESSAGE_PARA (wincrypt.h)
 author: windows-sdk-content
 description: Contains information used to encrypt messages.
 old-location: security\crypt_encrypt_message_para.htm

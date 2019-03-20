@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.FlushProcessWriteBuffers
-title: FlushProcessWriteBuffers function
+title: FlushProcessWriteBuffers function (processthreadsapi.h)
 author: windows-sdk-content
 description: Flushes the write queue of each processor that is running a thread of the current process.
 old-location: base\flushprocesswritebuffers.htm

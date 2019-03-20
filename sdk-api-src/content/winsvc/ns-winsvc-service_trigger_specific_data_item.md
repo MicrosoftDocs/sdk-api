@@ -1,6 +1,6 @@
 ---
 UID: NS:winsvc._SERVICE_TRIGGER_SPECIFIC_DATA_ITEM
-title: SERVICE_TRIGGER_SPECIFIC_DATA_ITEM
+title: SERVICE_TRIGGER_SPECIFIC_DATA_ITEM (winsvc.h)
 author: windows-sdk-content
 description: Contains trigger-specific data for a service trigger event.
 old-location: base\service_trigger_specific_data_item.htm

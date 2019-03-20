@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.FreeWriterStatus
-title: IVssBackupComponents::FreeWriterStatus
+title: IVssBackupComponents::FreeWriterStatus (vsbackup.h)
 author: windows-sdk-content
 description: The FreeWriterStatus method frees system resources allocated during the call to IVssBackupComponents::GatherWriterStatus.
 old-location: base\ivssbackupcomponents_freewriterstatus.htm

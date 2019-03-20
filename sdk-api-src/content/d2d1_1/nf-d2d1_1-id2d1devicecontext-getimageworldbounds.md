@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.GetImageWorldBounds
-title: ID2D1DeviceContext::GetImageWorldBounds
+title: ID2D1DeviceContext::GetImageWorldBounds (d2d1_1.h)
 author: windows-sdk-content
 description: Gets the bounds of an image with the world transform of the context applied.
 old-location: direct2d\id2d1devicecontext_getimageworldbounds.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sysinfoapi.GetSystemFirmwareTable
-title: GetSystemFirmwareTable function
+title: GetSystemFirmwareTable function (sysinfoapi.h)
 author: windows-sdk-content
 description: Retrieves the specified firmware table from the firmware table provider.
 old-location: base\getsystemfirmwaretable.htm

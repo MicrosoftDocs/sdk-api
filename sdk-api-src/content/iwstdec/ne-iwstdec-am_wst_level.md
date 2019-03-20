@@ -1,6 +1,6 @@
 ---
 UID: NE:iwstdec._AM_WST_LEVEL
-title: AM_WST_LEVEL
+title: AM_WST_LEVEL (iwstdec.h)
 author: windows-sdk-content
 description: The AM_WST_LEVEL enumeration is not supported.
 old-location: dshow\am_wst_level.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IResourceManager.RegisterGroup
-title: IResourceManager::RegisterGroup
+title: IResourceManager::RegisterGroup (strmif.h)
 author: windows-sdk-content
 description: The RegisterGroup method registers a named resource group with the resource manager.
 old-location: dshow\iresourcemanager_registergroup.htm

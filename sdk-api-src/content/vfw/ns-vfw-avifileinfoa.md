@@ -1,6 +1,6 @@
 ---
 UID: NS:vfw._AVIFILEINFOA
-title: AVIFILEINFOA
+title: AVIFILEINFOA (vfw.h)
 author: windows-sdk-content
 description: The AVIFILEINFO structure contains global information for an entire AVI file.
 old-location: multimedia\avifileinfo_struct.htm

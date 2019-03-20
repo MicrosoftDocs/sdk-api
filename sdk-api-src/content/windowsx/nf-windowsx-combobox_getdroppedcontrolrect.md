@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ComboBox_GetDroppedControlRect
-title: ComboBox_GetDroppedControlRect macro
+title: ComboBox_GetDroppedControlRect macro (windowsx.h)
 author: windows-sdk-content
 description: Retrieves the screen coordinates of a combo box in its dropped-down state. You can use this macro or send the CB_GETDROPPEDCONTROLRECT message explicitly.
 old-location: controls\ComboBox_GetDroppedControlRect.htm

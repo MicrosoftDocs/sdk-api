@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11CryptoSession.GetCryptoType
-title: ID3D11CryptoSession::GetCryptoType
+title: ID3D11CryptoSession::GetCryptoType (d3d11.h)
 author: windows-sdk-content
 description: Gets the type of encryption that is supported by this session.
 old-location: mf\id3d11cryptosession_getcryptotype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkinfo.__unnamed_struct_0
-title: NDK_VERSION
+title: NDK_VERSION (ndkinfo.h)
 author: windows-sdk-content
 description: The NDK_VERSION structure specifies major and minor versions in the NDK interface.
 old-location: netvista\ndk_version.htm

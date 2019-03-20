@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeAltName.Reset
-title: ICertEncodeAltName::Reset
+title: ICertEncodeAltName::Reset (certenc.h)
 author: windows-sdk-content
 description: Specifies the size of the alternate name array in this object. The value of all elements in the array are set to zero.
 old-location: security\icertencodealtname_reset.htm

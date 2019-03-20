@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.midiStreamStop
-title: midiStreamStop function
+title: midiStreamStop function (mmeapi.h)
 author: windows-sdk-content
 description: The midiStreamStop function turns off all notes on all MIDI channels for the specified MIDI output device.
 old-location: multimedia\midistreamstop.htm

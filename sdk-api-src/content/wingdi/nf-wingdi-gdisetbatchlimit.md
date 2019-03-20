@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GdiSetBatchLimit
-title: GdiSetBatchLimit function
+title: GdiSetBatchLimit function (wingdi.h)
 author: windows-sdk-content
 description: The GdiSetBatchLimit function sets the maximum number of function calls that can be accumulated in the calling thread's current batch. The system flushes the current batch whenever this limit is exceeded.
 old-location: gdi\gdisetbatchlimit.htm

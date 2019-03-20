@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING
-title: WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING
+title: WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING (webservices.h)
 author: windows-sdk-content
 description: The security binding subtype for specifying the use of the Windows Integrated Authentication protocol (such as Kerberos, NTLM or SPNEGO) with the named pipe transport.
 old-location: wsw\ws_namedpipe_sspi_transport_security_binding.htm

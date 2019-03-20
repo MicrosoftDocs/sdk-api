@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetStrokeDashCap
-title: IXpsOMPath::SetStrokeDashCap
+title: IXpsOMPath::SetStrokeDashCap (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the style of the stroke's dash cap.
 old-location: xps\ixpsompath_setstrokedashcap.htm

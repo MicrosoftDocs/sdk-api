@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFGetLocalId
-title: MFGetLocalId function
+title: MFGetLocalId function (mfidl.h)
 author: windows-sdk-content
 description: Gets the local system ID.
 old-location: mf\mfgetlocalid.htm

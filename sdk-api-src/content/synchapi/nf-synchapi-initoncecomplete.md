@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.InitOnceComplete
-title: InitOnceComplete function
+title: InitOnceComplete function (synchapi.h)
 author: windows-sdk-content
 description: Completes one-time initialization started with the InitOnceBeginInitialize function.
 old-location: base\initoncecomplete.htm

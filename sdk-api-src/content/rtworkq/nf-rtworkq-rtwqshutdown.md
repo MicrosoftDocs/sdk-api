@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.RtwqShutdown
-title: RtwqShutdown function
+title: RtwqShutdown function (rtworkq.h)
 author: windows-sdk-content
 description: Shuts down the platform. Call this function once for every call to RtwqStartup. Do not call this function from work queue threads.
 old-location: base\rtwqshutdown.htm

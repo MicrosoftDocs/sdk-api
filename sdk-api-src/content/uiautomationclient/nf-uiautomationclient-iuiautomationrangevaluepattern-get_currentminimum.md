@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationRangeValuePattern.get_CurrentMinimum
-title: IUIAutomationRangeValuePattern::get_CurrentMinimum
+title: IUIAutomationRangeValuePattern::get_CurrentMinimum (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the minimum value of the control.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CurrentMinimum.htm

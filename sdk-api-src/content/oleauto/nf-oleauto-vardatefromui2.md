@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarDateFromUI2
-title: VarDateFromUI2 function
+title: VarDateFromUI2 function (oleauto.h)
 author: windows-sdk-content
 description: Converts an unsigned short value to a date value.
 old-location: automat\vardatefromui2.htm

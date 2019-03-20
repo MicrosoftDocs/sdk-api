@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE
-title: WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE
+title: WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE (webservices.h)
 author: windows-sdk-content
 description: The type for specifying asymmetric cryptographic keys as a CryptoNG NCRYPT_KEY_HANDLE.
 old-location: wsw\ws_ncrypt_asymmetric_security_key_handle.htm

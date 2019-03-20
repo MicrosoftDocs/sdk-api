@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptHashCertificate2
-title: CryptHashCertificate2 function
+title: CryptHashCertificate2 function (wincrypt.h)
 author: windows-sdk-content
 description: Hashes a block of data by using a CNG hash provider.
 old-location: security\crypthashcertificate2.htm

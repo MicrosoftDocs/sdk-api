@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeCspProvider.get_Signature
-title: IX509AttributeCspProvider::get_Signature
+title: IX509AttributeCspProvider::get_Signature (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the digital signature on the provider.
 old-location: security\ix509attributecspprovider_signature_property.htm

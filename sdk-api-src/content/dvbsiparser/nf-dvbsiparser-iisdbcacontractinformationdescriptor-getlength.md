@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAContractInformationDescriptor.GetLength
-title: IIsdbCAContractInformationDescriptor::GetLength
+title: IIsdbCAContractInformationDescriptor::GetLength (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor, in bytes.
 old-location: mstv\iisdbcacontractinformationdescriptor_getlength.htm

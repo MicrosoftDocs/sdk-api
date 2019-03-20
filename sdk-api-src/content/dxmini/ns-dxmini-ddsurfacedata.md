@@ -1,6 +1,6 @@
 ---
 UID: NS:dxmini._DDSURFACEDATA
-title: DDSURFACEDATA
+title: DDSURFACEDATA (dxmini.h)
 author: windows-sdk-content
 description: The DDSURFACEDATA structure is used by DirectDraw to represent a surface to the kernel-mode miniport driver.
 old-location: display\ddsurfacedata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchManager.GetParameter
-title: ISearchManager::GetParameter
+title: ISearchManager::GetParameter (searchapi.h)
 author: windows-sdk-content
 description: Not supported.This method returns E_INVALIDARG when called.
 old-location: search\_search_ISearchManager_GetParameter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.put_AutoVolumeControlRepeatPeriod
-title: ITAutomatedPhoneControl::put_AutoVolumeControlRepeatPeriod
+title: ITAutomatedPhoneControl::put_AutoVolumeControlRepeatPeriod (tapi3if.h)
 author: windows-sdk-content
 description: The put_AutoVolumeControlRepeatPeriod method sets the AutoVolumeControlRepeatPeriod property. The property controls the period, in milliseconds (ms), of button repeats when a volume button is held down.
 old-location: tapi3\itautomatedphonecontrol_put_autovolumecontrolrepeatperiod.htm

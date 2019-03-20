@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagBITMAPFILEHEADER
-title: BITMAPFILEHEADER
+title: BITMAPFILEHEADER (wingdi.h)
 author: windows-sdk-content
 description: The BITMAPFILEHEADER structure contains information about the type, size, and layout of a file that contains a DIB.
 old-location: gdi\bitmapfileheader.htm

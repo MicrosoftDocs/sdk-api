@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarCyCmpR8
-title: VarCyCmpR8 function
+title: VarCyCmpR8 function (oleauto.h)
 author: windows-sdk-content
 description: Compares a variant of type currency with a value of type double.
 old-location: automat\varcycmpr8.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:shellscalingapi.MONITOR_DPI_TYPE
-title: MONITOR_DPI_TYPE
+title: MONITOR_DPI_TYPE (shellscalingapi.h)
 author: windows-sdk-content
 description: Identifies the dots per inch (dpi) setting for a monitor.
 old-location: hidpi\monitor_dpi_type_enumeration.htm

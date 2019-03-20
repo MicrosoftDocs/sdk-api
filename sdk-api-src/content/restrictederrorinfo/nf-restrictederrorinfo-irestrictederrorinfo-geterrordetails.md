@@ -1,6 +1,6 @@
 ---
 UID: NF:restrictederrorinfo.IRestrictedErrorInfo.GetErrorDetails
-title: IRestrictedErrorInfo::GetErrorDetails
+title: IRestrictedErrorInfo::GetErrorDetails (restrictederrorinfo.h)
 author: windows-sdk-content
 description: Returns information about an error, including the restricted error description.
 old-location: winrt\irestrictederrorinfo_geterrordetails.htm

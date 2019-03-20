@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReader.Close
-title: IWMReader::Close
+title: IWMReader::Close (wmsdkidl.h)
 author: windows-sdk-content
 description: The Close method deletes all outputs on the reader and releases the file resources.
 old-location: wmformat\iwmreader_close.htm

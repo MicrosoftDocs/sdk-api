@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineOpen
-title: TSPI_lineOpen function
+title: TSPI_lineOpen function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineOpen function opens the line device whose device identifier is given, returning the service provider's handle for the device.
 old-location: tspi\tspi_lineopen.htm

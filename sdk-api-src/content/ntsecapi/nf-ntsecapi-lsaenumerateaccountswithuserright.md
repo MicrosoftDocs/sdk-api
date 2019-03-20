@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.LsaEnumerateAccountsWithUserRight
-title: LsaEnumerateAccountsWithUserRight function
+title: LsaEnumerateAccountsWithUserRight function (ntsecapi.h)
 author: windows-sdk-content
 description: Returns the accounts in the database of a Local Security Authority (LSA) Policy object that hold a specified privilege.
 old-location: security\lsaenumerateaccountswithuserright.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.SwapHold
-title: ITBasicCallControl::SwapHold
+title: ITBasicCallControl::SwapHold (tapi3if.h)
 author: windows-sdk-content
 description: The SwapHold method swaps the call (which is active) with the specified call on hold.
 old-location: tapi3\itbasiccallcontrol_swaphold.htm

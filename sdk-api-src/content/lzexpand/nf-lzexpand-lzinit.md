@@ -1,6 +1,6 @@
 ---
 UID: NF:lzexpand.LZInit
-title: LZInit function
+title: LZInit function (lzexpand.h)
 author: windows-sdk-content
 description: Allocates memory for the internal data structures required to decompress files, and then creates and initializes them.
 old-location: fs\lzinit.htm

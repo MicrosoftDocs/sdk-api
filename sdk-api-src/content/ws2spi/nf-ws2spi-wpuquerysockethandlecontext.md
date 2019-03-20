@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2spi.WPUQuerySocketHandleContext
-title: WPUQuerySocketHandleContext function
+title: WPUQuerySocketHandleContext function (ws2spi.h)
 author: windows-sdk-content
 description: The WPUQuerySocketHandleContext function queries the context value associated with the specified socket handle.
 old-location: winsock\wpuquerysockethandlecontext_2.htm

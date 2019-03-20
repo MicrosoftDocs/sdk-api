@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.UnDecorateSymbolName
-title: UnDecorateSymbolName function
+title: UnDecorateSymbolName function (dbghelp.h)
 author: windows-sdk-content
 description: Undecorates the specified decorated C++ symbol name.
 old-location: base\undecoratesymbolname.htm

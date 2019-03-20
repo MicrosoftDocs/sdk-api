@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_NBIT.GetRecordUserDefined
-title: IISDB_NBIT::GetRecordUserDefined
+title: IISDB_NBIT::GetRecordUserDefined (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the user_defined field from an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
 old-location: mstv\iisdb_nbit_getrecorduserdefined.htm

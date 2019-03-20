@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngMapFontFileFD
-title: EngMapFontFileFD function
+title: EngMapFontFileFD function (winddi.h)
 author: windows-sdk-content
 description: The EngMapFontFileFD function maps a font file into system memory, if necessary, and returns a pointer to the base location of the font data in the file.
 old-location: display\engmapfontfilefd.htm

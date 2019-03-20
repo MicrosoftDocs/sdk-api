@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_ModelName
-title: IUPnPDevice::get_ModelName
+title: IUPnPDevice::get_ModelName (upnp.h)
 author: windows-sdk-content
 description: The ModelName property specifies a human-readable form of the model name of the device.
 old-location: upnp\iupnpdevice_modelname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:docobj.tagPAGESET
-title: PAGESET
+title: PAGESET (docobj.h)
 author: windows-sdk-content
 description: Identifies one or more page-ranges to be printed and, optionally, identifies only the even or odd pages as part of a pageset.
 old-location: com\pageset.htm

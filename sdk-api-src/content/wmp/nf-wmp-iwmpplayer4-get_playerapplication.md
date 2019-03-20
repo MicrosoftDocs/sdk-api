@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlayer4.get_playerApplication
-title: IWMPPlayer4::get_playerApplication
+title: IWMPPlayer4::get_playerApplication (wmp.h)
 author: windows-sdk-content
 description: The get_playerApplication method retrieves a pointer to an IWMPPlayerApplication interface when a remoted Windows Media Player control is running.
 old-location: wmp\iwmpplayer4_get_playerapplication.htm

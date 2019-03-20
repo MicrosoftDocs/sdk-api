@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcasync.RpcBindingUnbind
-title: RpcBindingUnbind function
+title: RpcBindingUnbind function (rpcasync.h)
 author: windows-sdk-content
 description: Unbinds a binding handle previously bound by RpcBindingBind.
 old-location: rpc\rpcbindingunbind.htm

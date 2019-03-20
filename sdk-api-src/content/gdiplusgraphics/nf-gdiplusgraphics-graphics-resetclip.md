@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.ResetClip
-title: Graphics::ResetClip
+title: Graphics::ResetClip (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::ResetClip method sets the clipping region of this Graphics object to an infinite region.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_ResetClip_.htm

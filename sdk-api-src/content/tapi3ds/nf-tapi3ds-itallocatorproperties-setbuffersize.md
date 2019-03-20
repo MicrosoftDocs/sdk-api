@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3ds.ITAllocatorProperties.SetBufferSize
-title: ITAllocatorProperties::SetBufferSize
+title: ITAllocatorProperties::SetBufferSize (tapi3ds.h)
 author: windows-sdk-content
 description: The SetBufferSize method sets the size of the allocator buffer.
 old-location: tapi3\itallocatorproperties_setbuffersize.htm

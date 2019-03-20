@@ -1,6 +1,6 @@
 ---
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0007
-title: RdcSignature
+title: RdcSignature (msrdc.h)
 author: windows-sdk-content
 description: Contains a single signature and the length of the chunk used to generate it.
 old-location: rdc\rdcsignature.htm

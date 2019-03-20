@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_102
-title: WS_DATETIME_FORMAT
+title: WS_DATETIME_FORMAT (webservices.h)
 author: windows-sdk-content
 description: Specifies the textual format of a WS_DATETIME.
 old-location: wsw\ws_datetime_format.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.AddItemMetadataToGroup
-title: ISyncChangeBatchBase::AddItemMetadataToGroup
+title: ISyncChangeBatchBase::AddItemMetadataToGroup (winsync.h)
 author: windows-sdk-content
 description: Adds a specified item change to the group that is currently open.
 old-location: winsync\isyncchangebatchbase_additemmetadatatogroup.htm

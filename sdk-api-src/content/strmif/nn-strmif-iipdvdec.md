@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IIPDVDec
-title: IIPDVDec
+title: IIPDVDec (strmif.h)
 author: windows-sdk-content
 description: The IIPDVDec interface provides methods for setting and retrieving properties on the DV Video Decoder filter.
 old-location: dshow\iipdvdec.htm

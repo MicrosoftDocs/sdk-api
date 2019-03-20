@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataDispenser.OpenScope
-title: IMetaDataDispenser::OpenScope
+title: IMetaDataDispenser::OpenScope (rometadataapi.h)
 author: windows-sdk-content
 description: Opens an existing, on-disk file and maps its metadata into memory.
 old-location: winrt\imetadatadispenser_openscope.htm

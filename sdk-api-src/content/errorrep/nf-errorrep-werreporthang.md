@@ -1,6 +1,6 @@
 ---
 UID: NF:errorrep.WerReportHang
-title: WerReportHang function
+title: WerReportHang function (errorrep.h)
 author: windows-sdk-content
 description: Initiates &#0034;no response&#0034; reporting on the specified window.
 old-location: wer\werreporthang.htm

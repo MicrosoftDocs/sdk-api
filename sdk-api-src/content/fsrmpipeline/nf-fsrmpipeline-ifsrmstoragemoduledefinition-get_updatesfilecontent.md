@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmStorageModuleDefinition.get_UpdatesFileContent
-title: IFsrmStorageModuleDefinition::get_UpdatesFileContent
+title: IFsrmStorageModuleDefinition::get_UpdatesFileContent (fsrmpipeline.h)
 author: windows-sdk-content
 description: Determines whether the module updates the contents of the file.
 old-location: fsrm\ifsrmstoragemoduledefinition_updatesfilecontent.htm

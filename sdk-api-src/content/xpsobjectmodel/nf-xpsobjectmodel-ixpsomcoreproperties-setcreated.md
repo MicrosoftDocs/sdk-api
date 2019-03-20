@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetCreated
-title: IXpsOMCoreProperties::SetCreated
+title: IXpsOMCoreProperties::SetCreated (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the created property.
 old-location: xps\ixpsomcoreproperties_setcreated.htm

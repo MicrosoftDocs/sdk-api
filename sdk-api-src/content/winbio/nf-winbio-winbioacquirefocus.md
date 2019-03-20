@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio.WinBioAcquireFocus
-title: WinBioAcquireFocus function
+title: WinBioAcquireFocus function (winbio.h)
 author: windows-sdk-content
 description: Acquires window focus.
 old-location: secbiomet\winbioacquirefocus.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:searchapi._CatalogPausedReason
-title: CatalogPausedReason
+title: CatalogPausedReason (searchapi.h)
 author: windows-sdk-content
 description: Used by ISearchCatalogManager::GetCatalogStatus to determine the reason the catalog is paused.
 old-location: search\_search_CatalogPausedReason.htm

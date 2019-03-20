@@ -1,6 +1,6 @@
 ---
 UID: NF:ktmw32.CommitTransaction
-title: CommitTransaction function
+title: CommitTransaction function (ktmw32.h)
 author: windows-sdk-content
 description: Requests that the specified transaction be committed.
 old-location: fs\committransaction.htm

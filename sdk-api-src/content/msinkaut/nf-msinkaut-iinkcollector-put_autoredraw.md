@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCollector.put_AutoRedraw
-title: IInkCollector::put_AutoRedraw
+title: IInkCollector::put_AutoRedraw (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets a value that specifies whether an ink collector repaints the ink when the window is invalidated.
 old-location: tablet\inkcollector_autoredraw.htm

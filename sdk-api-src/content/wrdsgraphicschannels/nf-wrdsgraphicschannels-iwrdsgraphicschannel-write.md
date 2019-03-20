@@ -1,6 +1,6 @@
 ---
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannel.Write
-title: IWRdsGraphicsChannel::Write
+title: IWRdsGraphicsChannel::Write (wrdsgraphicschannels.h)
 author: windows-sdk-content
 description: Called to send data to the virtual channel.
 old-location: termserv\iwrdsgraphicschannel_write.htm

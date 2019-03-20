@@ -1,6 +1,6 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageDescription
-title: WdsCliGetImageDescription function
+title: WdsCliGetImageDescription function (wdsclientapi.h)
 author: windows-sdk-content
 description: Returns a description of the current image.
 old-location: wds\wdscligetimagedescription.htm

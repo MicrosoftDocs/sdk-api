@@ -1,6 +1,6 @@
 ---
 UID: NF:fdi.FDIIsCabinet
-title: FDIIsCabinet function
+title: FDIIsCabinet function (fdi.h)
 author: windows-sdk-content
 description: The FDIIsCabinet function determines whether a file is a cabinet and, if it is, returns information about it.
 old-location: winprog\fdiiscabinet.htm

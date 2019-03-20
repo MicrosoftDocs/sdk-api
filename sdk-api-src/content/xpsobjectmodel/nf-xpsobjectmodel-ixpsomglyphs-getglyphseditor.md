@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetGlyphsEditor
-title: IXpsOMGlyphs::GetGlyphsEditor
+title: IXpsOMGlyphs::GetGlyphsEditor (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMGlyphsEditor interface that will be used to edit the glyphs in the object.
 old-location: xps\ixpsomglyphs_getglyphseditor.htm

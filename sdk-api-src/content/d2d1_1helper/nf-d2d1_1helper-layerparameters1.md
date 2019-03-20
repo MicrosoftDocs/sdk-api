@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1helper.LayerParameters1
-title: LayerParameters1 function
+title: LayerParameters1 function (d2d1_1helper.h)
 author: windows-sdk-content
 description: Returns a D2D1_LAYER_PARAMETERS1 struct that contains the content bounds, mask information, opacity settings, and other options for a layer resource.
 old-location: direct2d\layerparameters1.htm

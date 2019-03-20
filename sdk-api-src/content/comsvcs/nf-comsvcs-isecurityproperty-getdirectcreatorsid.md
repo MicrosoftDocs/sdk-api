@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISecurityProperty.GetDirectCreatorSID
-title: ISecurityProperty::GetDirectCreatorSID
+title: ISecurityProperty::GetDirectCreatorSID (comsvcs.h)
 author: windows-sdk-content
 description: In MTS 2.0, this method retrieves the security identifier of the external process that directly created the current object. Do not use this method in COM+.
 old-location: cos\isecurityproperty_getdirectcreatorsid.htm

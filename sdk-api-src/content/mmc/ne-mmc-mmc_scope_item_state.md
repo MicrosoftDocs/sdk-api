@@ -1,6 +1,6 @@
 ---
 UID: NE:mmc._MMC_SCOPE_ITEM_STATE
-title: MMC_SCOPE_ITEM_STATE
+title: MMC_SCOPE_ITEM_STATE (mmc.h)
 author: windows-sdk-content
 description: Used to specify the nState member of the SCOPEDATAITEM structure.
 old-location: mmc\mmc_scope_item_state.htm

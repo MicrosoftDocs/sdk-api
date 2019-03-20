@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.RemoveClusterResourceNode
-title: RemoveClusterResourceNode function
+title: RemoveClusterResourceNode function (clusapi.h)
 author: windows-sdk-content
 description: Removes a node from the list of nodes that can host a resource.
 old-location: mscs\removeclusterresourcenode.htm

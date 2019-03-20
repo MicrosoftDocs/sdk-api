@@ -1,6 +1,6 @@
 ---
 UID: NF:lmjoin.NetProvisionComputerAccount
-title: NetProvisionComputerAccount function
+title: NetProvisionComputerAccount function (lmjoin.h)
 author: windows-sdk-content
 description: Provisions a computer account for later use in an offline domain join operation.
 old-location: netmgmt\netprovisioncomputeraccount.htm

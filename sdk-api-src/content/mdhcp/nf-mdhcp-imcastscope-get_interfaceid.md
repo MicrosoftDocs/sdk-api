@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IMcastScope.get_InterfaceID
-title: IMcastScope::get_InterfaceID
+title: IMcastScope::get_InterfaceID (mdhcp.h)
 author: windows-sdk-content
 description: The get_InterfaceID method obtains an interface identifier of this scope, which identifies the interface on which the server that published this scope resides. This is normally the network address of the interface.
 old-location: tapi3\imcastscope_get_interfaceid.htm

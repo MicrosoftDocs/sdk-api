@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestTargetDeviceFamily.GetMinVersion
-title: IAppxManifestTargetDeviceFamily::GetMinVersion
+title: IAppxManifestTargetDeviceFamily::GetMinVersion (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the minimum version of the target device family from the AppxManifest.xml.
 old-location: appxpkg\iappxmanifesttargetdevicefamily_getminversion.htm

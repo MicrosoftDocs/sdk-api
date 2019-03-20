@@ -1,6 +1,6 @@
 ---
 UID: NS:sbe.SBE_PIN_DATA
-title: SBE_PIN_DATA
+title: SBE_PIN_DATA (sbe.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 2 only. The STREAMBUFFER_ATTRIBUTE structure contains performance data for the stream buffer filters.
 old-location: mstv\sbe_pin_data.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.CLUSTER_RESOURCE_CLASS
-title: CLUSTER_RESOURCE_CLASS
+title: CLUSTER_RESOURCE_CLASS (clusapi.h)
 author: windows-sdk-content
 description: Defines the class of a resource.
 old-location: mscs\cluster_resource_class.htm

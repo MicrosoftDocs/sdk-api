@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSPropertyBag_Delete
-title: PSPropertyBag_Delete function
+title: PSPropertyBag_Delete function (propsys.h)
 author: windows-sdk-content
 description: Deletes a property from a property bag.
 old-location: properties\PSPropertyBag_Delete.htm

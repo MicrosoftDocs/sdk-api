@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsContainer.get__NewEnum
-title: IADsContainer::get__NewEnum
+title: IADsContainer::get__NewEnum (iads.h)
 author: windows-sdk-content
 description: Retrieves an enumerator object for the container.
 old-location: adsi\iadscontainer_get__newenum.htm

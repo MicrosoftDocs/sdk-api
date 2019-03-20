@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscMaster.Open
-title: IDiscMaster::Open
+title: IDiscMaster::Open (imapi.h)
 author: windows-sdk-content
 description: Opens an upper-level IMAPI object for access by a client application.
 old-location: imapi\idiscmaster_open.htm

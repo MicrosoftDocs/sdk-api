@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.GetCount
-title: ITextFont2::GetCount
+title: ITextFont2::GetCount (tom.h)
 author: windows-sdk-content
 description: Gets the count of extra properties in this character formatting collection.
 old-location: controls\itextfont2_getcount.htm

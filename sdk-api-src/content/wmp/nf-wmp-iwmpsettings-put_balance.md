@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSettings.put_balance
-title: IWMPSettings::put_balance
+title: IWMPSettings::put_balance (wmp.h)
 author: windows-sdk-content
 description: The put_balance method specifies the current stereo balance.
 old-location: wmp\iwmpsettings_put_balance.htm

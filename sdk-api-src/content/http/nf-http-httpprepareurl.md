@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpPrepareUrl
-title: HttpPrepareUrl function
+title: HttpPrepareUrl function (http.h)
 author: windows-sdk-content
 description: Parses, analyzes, and normalizes a non-normalized Unicode or punycode URL so it is safe and valid to use in other HTTP functions.
 old-location: http\httpprepareurl.htm

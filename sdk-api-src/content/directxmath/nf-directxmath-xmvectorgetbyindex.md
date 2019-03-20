@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorGetByIndex
-title: XMVectorGetByIndex function
+title: XMVectorGetByIndex function (directxmath.h)
 author: windows-sdk-content
 description: Retrieve the value of one of the four components of an XMVECTOR Data Type containing floating-point data by index.
 old-location: dxmath\xmvectorgetbyindex.htm

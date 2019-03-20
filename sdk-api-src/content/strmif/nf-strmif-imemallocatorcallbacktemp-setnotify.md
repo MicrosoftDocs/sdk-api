@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMemAllocatorCallbackTemp.SetNotify
-title: IMemAllocatorCallbackTemp::SetNotify
+title: IMemAllocatorCallbackTemp::SetNotify (strmif.h)
 author: windows-sdk-content
 description: The SetNotify method sets or removes a callback on the allocator. The allocator calls the callback method whenever the allocator's IMemAllocator::ReleaseBuffer method is called.
 old-location: dshow\imemallocatorcallbacktemp_setnotify.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfileSubstituteLayout.GetSubstituteKeyboardLayout
-title: ITfInputProcessorProfileSubstituteLayout::GetSubstituteKeyboardLayout
+title: ITfInputProcessorProfileSubstituteLayout::GetSubstituteKeyboardLayout (msctf.h)
 author: windows-sdk-content
 description: ITfInputProcessorProfileSubstituteLayout::GetSubstituteKeyboardLayout method
 old-location: tsf\getsubstitutekeyboardlayout.htm

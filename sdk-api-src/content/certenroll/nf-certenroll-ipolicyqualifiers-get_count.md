@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IPolicyQualifiers.get_Count
-title: IPolicyQualifiers::get_Count
+title: IPolicyQualifiers::get_Count (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the number of objects in the collection.
 old-location: security\ipolicyqualifiers_count_property.htm

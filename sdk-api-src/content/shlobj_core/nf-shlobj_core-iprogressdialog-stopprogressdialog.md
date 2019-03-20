@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IProgressDialog.StopProgressDialog
-title: IProgressDialog::StopProgressDialog
+title: IProgressDialog::StopProgressDialog (shlobj_core.h)
 author: windows-sdk-content
 description: Stops the progress dialog box and removes it from the screen.
 old-location: shell\IProgressDialog_StopProgressDialog.htm

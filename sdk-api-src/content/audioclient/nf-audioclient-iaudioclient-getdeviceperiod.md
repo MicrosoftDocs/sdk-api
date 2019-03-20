@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioClient.GetDevicePeriod
-title: IAudioClient::GetDevicePeriod
+title: IAudioClient::GetDevicePeriod (audioclient.h)
 author: windows-sdk-content
 description: The GetDevicePeriod method retrieves the length of the periodic interval separating successive processing passes by the audio engine on the data in the endpoint buffer.
 old-location: coreaudio\iaudioclient_getdeviceperiod.htm

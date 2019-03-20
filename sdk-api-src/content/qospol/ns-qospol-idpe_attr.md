@@ -1,6 +1,6 @@
 ---
 UID: NS:qospol._IDPE_ATTR
-title: IDPE_ATTR
+title: IDPE_ATTR (qospol.h)
 author: windows-sdk-content
 description: The IDPE_ATTR structure contains identity policy element attribute information.
 old-location: qos\idpe_attr.htm

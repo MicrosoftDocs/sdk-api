@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Application_NewDeserializer
-title: MI_Application_NewDeserializer function
+title: MI_Application_NewDeserializer function (mi.h)
 author: windows-sdk-content
 description: Creates a deserializer object that can then be used to convert a serialized object back into a class or instance.
 old-location: wmi_v2\mi_application_newdeserializer.htm

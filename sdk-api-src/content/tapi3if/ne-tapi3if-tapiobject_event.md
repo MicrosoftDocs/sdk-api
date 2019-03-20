@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.TAPIOBJECT_EVENT
-title: TAPIOBJECT_EVENT
+title: TAPIOBJECT_EVENT (tapi3if.h)
 author: windows-sdk-content
 description: The TAPIOBJECT_EVENT enum describes TAPI object events. The ITTAPIObjectEvent::get_Event method returns a member of this enum to indicate the type of TAPI object event that occurred.
 old-location: tapi3\tapiobject_event.htm

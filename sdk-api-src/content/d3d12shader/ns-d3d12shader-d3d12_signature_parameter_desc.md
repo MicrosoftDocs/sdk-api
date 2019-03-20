@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12shader._D3D12_SIGNATURE_PARAMETER_DESC
-title: D3D12_SIGNATURE_PARAMETER_DESC
+title: D3D12_SIGNATURE_PARAMETER_DESC (d3d12shader.h)
 author: windows-sdk-content
 description: Describes a shader signature.
 old-location: direct3d12\d3d12_signature_parameter_desc.htm

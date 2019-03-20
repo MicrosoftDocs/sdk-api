@@ -1,6 +1,6 @@
 ---
 UID: NF:werapi.WerUnregisterMemoryBlock
-title: WerUnregisterMemoryBlock function
+title: WerUnregisterMemoryBlock function (werapi.h)
 author: windows-sdk-content
 description: Removes a memory block from the list of data to be collected during error reporting for the application.
 old-location: wer\werunregistermemoryblock.htm

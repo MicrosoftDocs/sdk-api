@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IComQCEvents
-title: IComQCEvents
+title: IComQCEvents (comsvcs.h)
 author: windows-sdk-content
 description: Notifies the subscriber if a queued message is created, de-queued, or moved to a retry or dead letter queue.
 old-location: cos\icomqcevents.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICatalogCollection.get__NewEnum
-title: ICatalogCollection::get__NewEnum
+title: ICatalogCollection::get__NewEnum (comadmin.h)
 author: windows-sdk-content
 description: Retrieves an enumerator that can be used to iterate through the collection objects.
 old-location: cos\icatalogcollection__newenum.htm

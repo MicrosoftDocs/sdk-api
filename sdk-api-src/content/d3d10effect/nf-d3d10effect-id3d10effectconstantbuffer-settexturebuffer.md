@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectConstantBuffer.SetTextureBuffer
-title: ID3D10EffectConstantBuffer::SetTextureBuffer
+title: ID3D10EffectConstantBuffer::SetTextureBuffer (d3d10effect.h)
 author: windows-sdk-content
 description: Set a texture-buffer.
 old-location: direct3d10\id3d10effectconstantbuffer_settexturebuffer.htm

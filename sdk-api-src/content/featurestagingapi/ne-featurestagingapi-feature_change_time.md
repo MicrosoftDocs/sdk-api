@@ -1,6 +1,6 @@
 ---
 UID: NE:featurestagingapi.FEATURE_CHANGE_TIME
-title: FEATURE_CHANGE_TIME
+title: FEATURE_CHANGE_TIME (featurestagingapi.h)
 author: windows-sdk-content
 description: This enumeration is intended for infrastructure use only.
 old-location: winprog\feature_change_time.htm

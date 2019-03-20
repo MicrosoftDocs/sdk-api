@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.LsaAddAccountRights
-title: LsaAddAccountRights function
+title: LsaAddAccountRights function (ntsecapi.h)
 author: windows-sdk-content
 description: Assigns one or more privileges to an account.
 old-location: security\lsaaddaccountrights.htm

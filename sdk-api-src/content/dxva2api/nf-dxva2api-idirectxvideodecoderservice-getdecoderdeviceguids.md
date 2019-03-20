@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoderService.GetDecoderDeviceGuids
-title: IDirectXVideoDecoderService::GetDecoderDeviceGuids
+title: IDirectXVideoDecoderService::GetDecoderDeviceGuids (dxva2api.h)
 author: windows-sdk-content
 description: Retrieves an array of GUIDs that identifies the decoder devices supported by the graphics hardware.
 old-location: mf\idirectxvideodecoderservice_getdecoderdeviceguids.htm

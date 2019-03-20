@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportConfigurationManager.get_WdsTransportServicesRunning
-title: IWdsTransportConfigurationManager::get_WdsTransportServicesRunning
+title: IWdsTransportConfigurationManager::get_WdsTransportServicesRunning (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives a value that indicates whether WDS transport services are running on the server.
 old-location: wds\iwdstransportconfigurationmanager_wdstransportservicesrunning.htm

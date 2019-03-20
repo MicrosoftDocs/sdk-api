@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetSupportedMethods
-title: IPortableDeviceServiceCapabilities::GetSupportedMethods
+title: IPortableDeviceServiceCapabilities::GetSupportedMethods (portabledeviceapi.h)
 author: windows-sdk-content
 description: Retrieves the methods supported by the service.
 old-location: wpdsdk\iportabledeviceservicecapabilities_getsupportedmethods.htm

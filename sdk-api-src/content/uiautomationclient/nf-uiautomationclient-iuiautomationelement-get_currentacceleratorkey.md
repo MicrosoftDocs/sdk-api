@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentAcceleratorKey
-title: IUIAutomationElement::get_CurrentAcceleratorKey
+title: IUIAutomationElement::get_CurrentAcceleratorKey (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the accelerator key for the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentAcceleratorKey.htm

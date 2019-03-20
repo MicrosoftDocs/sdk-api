@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.get_DelegatedPolicyUsers
-title: IAzApplication::get_DelegatedPolicyUsers
+title: IAzApplication::get_DelegatedPolicyUsers (azroles.h)
 author: windows-sdk-content
 description: Retrieves the security identifiers (SIDs), in text form, of principals that act as delegated policy users.
 old-location: security\iazapplication_delegatedpolicyusers.htm

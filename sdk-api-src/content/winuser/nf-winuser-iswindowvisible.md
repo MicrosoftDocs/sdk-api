@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.IsWindowVisible
-title: IsWindowVisible function
+title: IsWindowVisible function (winuser.h)
 author: windows-sdk-content
 description: Determines the visibility state of the specified window.
 old-location: winmsg\iswindowvisible.htm

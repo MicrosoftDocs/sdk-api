@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICatalogCollection.PopulateByQuery
-title: ICatalogCollection::PopulateByQuery
+title: ICatalogCollection::PopulateByQuery (comadmin.h)
 author: windows-sdk-content
 description: Reserved for future use.
 old-location: cos\icatalogcollection_populatebyquery.htm

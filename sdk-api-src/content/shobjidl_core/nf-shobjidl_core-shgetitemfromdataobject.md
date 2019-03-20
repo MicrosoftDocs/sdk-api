@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.SHGetItemFromDataObject
-title: SHGetItemFromDataObject function
+title: SHGetItemFromDataObject function (shobjidl_core.h)
 author: windows-sdk-content
 description: Creates an IShellItem or related object based on an item specified by an IDataObject.
 old-location: shell\SHGetItemFromDataObject.htm

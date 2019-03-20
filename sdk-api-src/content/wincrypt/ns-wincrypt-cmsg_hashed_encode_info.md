@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMSG_HASHED_ENCODE_INFO
-title: CMSG_HASHED_ENCODE_INFO
+title: CMSG_HASHED_ENCODE_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Used with hashed messages. It is passed to the CryptMsgOpenToEncode function if the CryptMsgOpenToEncode function's dwMsgType parameter is CMSG_ENVELOPED.
 old-location: security\cmsg_hashed_encode_info.htm

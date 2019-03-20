@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_DEHYDRATE_FLAGS
-title: CF_DEHYDRATE_FLAGS
+title: CF_DEHYDRATE_FLAGS (cfapi.h)
 author: windows-sdk-content
 description: Placeholder dehydration flags.
 old-location: cloudapi\cf_dehydrate_flags.htm

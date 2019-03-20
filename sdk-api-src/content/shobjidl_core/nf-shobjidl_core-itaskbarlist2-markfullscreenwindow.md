@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList2.MarkFullscreenWindow
-title: ITaskbarList2::MarkFullscreenWindow
+title: ITaskbarList2::MarkFullscreenWindow (shobjidl_core.h)
 author: windows-sdk-content
 description: Marks a window as full-screen.
 old-location: shell\ITaskbarList2_MarkFullscreenWindow.htm

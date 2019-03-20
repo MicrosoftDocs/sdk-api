@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetWhitePointKelvin
-title: IWICDevelopRaw::GetWhitePointKelvin
+title: IWICDevelopRaw::GetWhitePointKelvin (wincodec.h)
 author: windows-sdk-content
 description: Gets the white point Kelvin temperature of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_getwhitepointkelvin.htm

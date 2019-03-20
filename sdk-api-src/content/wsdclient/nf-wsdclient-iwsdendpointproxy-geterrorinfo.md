@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDEndpointProxy.GetErrorInfo
-title: IWSDEndpointProxy::GetErrorInfo
+title: IWSDEndpointProxy::GetErrorInfo (wsdclient.h)
 author: windows-sdk-content
 description: Retrieves information on the last error.
 old-location: ncd\iwsdendpointproxy_geterrorinfo.htm

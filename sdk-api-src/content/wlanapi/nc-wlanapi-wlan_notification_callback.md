@@ -1,6 +1,6 @@
 ---
 UID: NC:wlanapi.WLAN_NOTIFICATION_CALLBACK
-title: WLAN_NOTIFICATION_CALLBACK
+title: WLAN_NOTIFICATION_CALLBACK (wlanapi.h)
 author: windows-sdk-content
 description: Defines the type of notification callback function.
 old-location: nwifi\notif_callback.htm

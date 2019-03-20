@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.BindIoCompletionCallback
-title: BindIoCompletionCallback function
+title: BindIoCompletionCallback function (winbase.h)
 author: windows-sdk-content
 description: Associates the I/O completion port owned by the thread pool with the specified file handle. On completion of an I/O request involving this file, a non-I/O worker thread will execute the specified callback function.
 old-location: base\bindiocompletioncallback.htm

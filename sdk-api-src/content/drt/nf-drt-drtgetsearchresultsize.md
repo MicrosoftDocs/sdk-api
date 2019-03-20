@@ -1,6 +1,6 @@
 ---
 UID: NF:drt.DrtGetSearchResultSize
-title: DrtGetSearchResultSize function
+title: DrtGetSearchResultSize function (drt.h)
 author: windows-sdk-content
 description: DrtGetSearchResultSize function returns the size of the next available search result.
 old-location: p2p\drtgetsearchresultsize.htm

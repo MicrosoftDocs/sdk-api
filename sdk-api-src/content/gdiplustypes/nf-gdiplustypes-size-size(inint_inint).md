@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.Size.Size(IN INT,IN INT)
-title: Size::Size(IN INT,IN INT)
+title: Size::Size(IN INT,IN INT) (gdiplustypes.h)
 author: windows-sdk-content
 description: Creates a Size object and initializes its Width and Height data members.
 old-location: gdiplus\_gdiplus_CLASS_Size_Size_width_height_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.PLACEMENT_OPTIONS
-title: PLACEMENT_OPTIONS
+title: PLACEMENT_OPTIONS (clusapi.h)
 author: windows-sdk-content
 description: Defines options for placing the cluster.
 old-location: mscs\placement_options.htm

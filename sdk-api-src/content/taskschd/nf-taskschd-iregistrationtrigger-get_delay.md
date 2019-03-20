@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegistrationTrigger.get_Delay
-title: IRegistrationTrigger::get_Delay
+title: IRegistrationTrigger::get_Delay (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the amount of time between when the task is registered and when the task is started.
 old-location: taskschd\iregistrationtrigger_delay.htm

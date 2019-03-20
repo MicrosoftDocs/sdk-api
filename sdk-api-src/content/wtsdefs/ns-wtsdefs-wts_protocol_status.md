@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsdefs._WTS_PROTOCOL_STATUS
-title: WTS_PROTOCOL_STATUS
+title: WTS_PROTOCOL_STATUS (wtsdefs.h)
 author: windows-sdk-content
 description: Contains information about the status of the protocol.
 old-location: termserv\wts_protocol_status.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemQuery.Parse
-title: IWbemQuery::Parse
+title: IWbemQuery::Parse (wmiutils.h)
 author: windows-sdk-content
 description: Parses a query string.
 old-location: wmi\iwbemquery_parse.htm

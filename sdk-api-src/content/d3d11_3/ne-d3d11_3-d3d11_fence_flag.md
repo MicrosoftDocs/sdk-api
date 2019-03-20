@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11_3.D3D11_FENCE_FLAG
-title: D3D11_FENCE_FLAG
+title: D3D11_FENCE_FLAG (d3d11_3.h)
 author: windows-sdk-content
 description: Specifies fence options.
 old-location: direct3d11\d3d11_fence_flag.htm

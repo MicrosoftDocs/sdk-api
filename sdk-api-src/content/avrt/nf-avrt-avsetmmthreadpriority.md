@@ -1,6 +1,6 @@
 ---
 UID: NF:avrt.AvSetMmThreadPriority
-title: AvSetMmThreadPriority function
+title: AvSetMmThreadPriority function (avrt.h)
 author: windows-sdk-content
 description: Adjusts the thread priority of the calling thread relative to other threads performing the same task.
 old-location: base\avsetmmthreadpriority.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:cfapi.CfUpdateSyncProviderStatus
-title: CfUpdateSyncProviderStatus function
+title: CfUpdateSyncProviderStatus function (cfapi.h)
 author: windows-sdk-content
 description: Updates the current status of the sync provider.
 old-location: cloudapi\cfupdatesyncproviderstatus.htm

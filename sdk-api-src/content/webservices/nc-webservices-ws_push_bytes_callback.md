@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_PUSH_BYTES_CALLBACK
-title: WS_PUSH_BYTES_CALLBACK
+title: WS_PUSH_BYTES_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Used by the WsPushBytes function to request that data be written.
 old-location: wsw\ws_push_bytes_callback.htm

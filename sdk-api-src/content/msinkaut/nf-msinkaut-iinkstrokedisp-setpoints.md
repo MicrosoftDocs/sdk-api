@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.SetPoints
-title: IInkStrokeDisp::SetPoints
+title: IInkStrokeDisp::SetPoints (msinkaut.h)
 author: windows-sdk-content
 description: Sets the points of the IInkStrokeDisp using an array of X, Y values.
 old-location: tablet\iinkstrokedisp_setpoints.htm

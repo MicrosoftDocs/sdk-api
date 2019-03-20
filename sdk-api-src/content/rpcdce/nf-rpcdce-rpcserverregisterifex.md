@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcServerRegisterIfEx
-title: RpcServerRegisterIfEx function
+title: RpcServerRegisterIfEx function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcServerRegisterIfEx function registers an interface with the RPC run-time library.
 old-location: rpc\rpcserverregisterifex.htm

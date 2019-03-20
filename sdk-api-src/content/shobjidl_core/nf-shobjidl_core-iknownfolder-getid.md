@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IKnownFolder.GetId
-title: IKnownFolder::GetId
+title: IKnownFolder::GetId (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the ID of the selected folder.
 old-location: shell\IKnownFolder_GetId.htm

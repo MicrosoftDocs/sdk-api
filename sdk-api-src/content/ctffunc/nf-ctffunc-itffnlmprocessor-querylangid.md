@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnLMProcessor.QueryLangID
-title: ITfFnLMProcessor::QueryLangID
+title: ITfFnLMProcessor::QueryLangID (ctffunc.h)
 author: windows-sdk-content
 description: ITfFnLMProcessor::QueryLangID method
 old-location: tsf\itffnlmprocessor_querylangid.htm

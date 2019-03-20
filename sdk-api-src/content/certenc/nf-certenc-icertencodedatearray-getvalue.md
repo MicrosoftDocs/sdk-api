@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeDateArray.GetValue
-title: ICertEncodeDateArray::GetValue
+title: ICertEncodeDateArray::GetValue (certenc.h)
 author: windows-sdk-content
 description: Returns the specified date from the DATE array.
 old-location: security\icertencodedatearray_getvalue.htm

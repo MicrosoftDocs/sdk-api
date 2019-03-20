@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.get_SamUserAccount
-title: ITsSbClientConnection::get_SamUserAccount
+title: ITsSbClientConnection::get_SamUserAccount (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves a value that indicates the domain name and user name of the user who initiated the connection.
 old-location: termserv\itssbclientconnection_samuseraccount.htm

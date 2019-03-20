@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DRM.GetDRMPairingStatus
-title: IBDA_DRM::GetDRMPairingStatus
+title: IBDA_DRM::GetDRMPairingStatus (bdaiface.h)
 author: windows-sdk-content
 description: The GetDRMPairingStatus method queries the status of the DRM handshake.
 old-location: mstv\ibda_drm_getdrmpairingstatus.htm

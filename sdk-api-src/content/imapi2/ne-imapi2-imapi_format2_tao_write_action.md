@@ -1,6 +1,6 @@
 ---
 UID: NE:imapi2._IMAPI_FORMAT2_TAO_WRITE_ACTION
-title: IMAPI_FORMAT2_TAO_WRITE_ACTION
+title: IMAPI_FORMAT2_TAO_WRITE_ACTION (imapi2.h)
 author: windows-sdk-content
 description: Defines values that indicate the current state of the write operation when using the IDiscFormat2TrackAtOnceEventArgs interface.
 old-location: imapi\imapi_format2_tao_write_action.htm

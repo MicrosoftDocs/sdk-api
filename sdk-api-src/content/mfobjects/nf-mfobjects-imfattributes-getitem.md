@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetItem
-title: IMFAttributes::GetItem
+title: IMFAttributes::GetItem (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves the value associated with a key.
 old-location: mf\imfattributes_getitem.htm

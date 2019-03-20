@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CharToOemW
-title: CharToOemW function
+title: CharToOemW function (winuser.h)
 author: windows-sdk-content
 description: Translates a string into the OEM-defined character set.Warning  Do not use.
 old-location: menurc\chartooem.htm

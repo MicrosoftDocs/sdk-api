@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlaylistArray.get_count
-title: IWMPPlaylistArray::get_count
+title: IWMPPlaylistArray::get_count (wmp.h)
 author: windows-sdk-content
 description: The get_count method retrieves the number of playlists in the playlist array.
 old-location: wmp\iwmpplaylistarray_get_count.htm

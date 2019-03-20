@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilFindMultiSzProperty
-title: ResUtilFindMultiSzProperty function
+title: ResUtilFindMultiSzProperty function (resapi.h)
 author: windows-sdk-content
 description: Locates a multiple string property in a property list. The PRESUTIL_FIND_MULTI_SZ_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilfindmultiszproperty.htm

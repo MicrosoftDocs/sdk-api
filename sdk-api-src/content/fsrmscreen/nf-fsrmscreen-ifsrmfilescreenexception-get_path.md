@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenException.get_Path
-title: IFsrmFileScreenException::get_Path
+title: IFsrmFileScreenException::get_Path (fsrmscreen.h)
 author: windows-sdk-content
 description: Retrieves the path that is associated with this file screen exception.
 old-location: fsrm\ifsrmfilescreenexception_path.htm

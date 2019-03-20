@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._JOBOBJECT_BASIC_PROCESS_ID_LIST
-title: JOBOBJECT_BASIC_PROCESS_ID_LIST
+title: JOBOBJECT_BASIC_PROCESS_ID_LIST (winnt.h)
 author: windows-sdk-content
 description: Contains the process identifier list for a job object.
 old-location: base\jobobject_basic_process_id_list_str.htm

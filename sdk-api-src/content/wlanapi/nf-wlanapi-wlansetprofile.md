@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanSetProfile
-title: WlanSetProfile function
+title: WlanSetProfile function (wlanapi.h)
 author: windows-sdk-content
 description: Sets the content of a specific profile.
 old-location: nwifi\wlansetprofile.htm

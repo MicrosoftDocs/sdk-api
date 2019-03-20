@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IWMDMOperation2
-title: IWMDMOperation2
+title: IWMDMOperation2 (mswmdm.h)
 author: windows-sdk-content
 description: The optional, application-implemented IWMDMOperation2 interface extends IWMDMOperation by providing methods to get and set extended attributes.
 old-location: wmdm\iwmdmoperation2.htm

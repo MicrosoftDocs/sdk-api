@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.InstallAlternateWriter
-title: CVssWriter::InstallAlternateWriter
+title: CVssWriter::InstallAlternateWriter (vswriter.h)
 author: windows-sdk-content
 description: Not supported.
 old-location: base\cvsswriter_installalternatewriter.htm

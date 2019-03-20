@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkTransform.get_eM11
-title: IInkTransform::get_eM11
+title: IInkTransform::get_eM11 (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the element in the first row, first column of the affine transform matrix that is represented by an InkTransform object.
 old-location: tablet\inktransform_em11.htm

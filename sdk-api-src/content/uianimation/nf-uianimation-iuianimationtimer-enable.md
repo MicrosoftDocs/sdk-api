@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTimer.Enable
-title: IUIAnimationTimer::Enable
+title: IUIAnimationTimer::Enable (uianimation.h)
 author: windows-sdk-content
 description: Enables the animation timer.
 old-location: uianimation\iuianimationtimer_enable.htm

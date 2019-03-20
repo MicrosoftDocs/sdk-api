@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplication.put_IpVersion
-title: INetFwAuthorizedApplication::put_IpVersion
+title: INetFwAuthorizedApplication::put_IpVersion (netfw.h)
 author: windows-sdk-content
 description: Specifies the IP version setting for this application.
 old-location: ics\inetfwauthorizedapplication_ipversion.htm

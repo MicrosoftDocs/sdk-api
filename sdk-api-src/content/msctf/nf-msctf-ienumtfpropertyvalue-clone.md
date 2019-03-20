@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfPropertyValue.Clone
-title: IEnumTfPropertyValue::Clone
+title: IEnumTfPropertyValue::Clone (msctf.h)
 author: windows-sdk-content
 description: IEnumTfPropertyValue::Clone method
 old-location: tsf\ienumtfpropertyvalue_clone.htm

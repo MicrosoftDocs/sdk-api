@@ -1,6 +1,6 @@
 ---
 UID: NF:drt.DrtClose
-title: DrtClose function
+title: DrtClose function (drt.h)
 author: windows-sdk-content
 description: DrtClose function closes the local instance of the DRT.
 old-location: p2p\drtclose.htm

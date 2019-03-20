@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.ITrayDeskBand.HideDeskBand
-title: ITrayDeskBand::HideDeskBand
+title: ITrayDeskBand::HideDeskBand (shobjidl.h)
 author: windows-sdk-content
 description: Hides a specified deskband.
 old-location: shell\ITrayDeskBand_HideDeskBand.htm

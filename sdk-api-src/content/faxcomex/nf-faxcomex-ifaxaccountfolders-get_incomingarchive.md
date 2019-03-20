@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxAccountFolders.get_IncomingArchive
-title: IFaxAccountFolders::get_IncomingArchive
+title: IFaxAccountFolders::get_IncomingArchive (faxcomex.h)
 author: windows-sdk-content
 description: Represents the archive of incoming faxes for a particular fax account. These are the faxes that have been received.
 old-location: fax\_mfax_faxaccountfolders_cpp_mfax_faxaccountfolders_incomingarchive_cpp.htm

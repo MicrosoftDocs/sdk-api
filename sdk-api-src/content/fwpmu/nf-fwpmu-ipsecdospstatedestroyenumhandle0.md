@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.IPsecDospStateDestroyEnumHandle0
-title: IPsecDospStateDestroyEnumHandle0 function
+title: IPsecDospStateDestroyEnumHandle0 function (fwpmu.h)
 author: windows-sdk-content
 description: Frees a handle returned by IPsecDospStateCreateEnumHandle0.
 old-location: fwp\ipsecdospstatedestroyenumhandle0.htm

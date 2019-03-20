@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkWordList2.AddWords
-title: IInkWordList2::AddWords
+title: IInkWordList2::AddWords (msinkaut.h)
 author: windows-sdk-content
 description: Adds more than one word to an InkWordList in a single operation.
 old-location: tablet\iinkwordlist2_addwords.htm

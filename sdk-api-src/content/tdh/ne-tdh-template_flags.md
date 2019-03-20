@@ -1,6 +1,6 @@
 ---
 UID: NE:tdh._TEMPLATE_FLAGS
-title: TEMPLATE_FLAGS
+title: TEMPLATE_FLAGS (tdh.h)
 author: windows-sdk-content
 description: Defines constant values that indicates the layout of the event data.
 old-location: etw\template_flags_enum.htm

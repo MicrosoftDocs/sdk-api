@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.Reset
-title: ITextFont::Reset
+title: ITextFont::Reset (tom.h)
 author: windows-sdk-content
 description: Resets the character formatting to the specified values.
 old-location: controls\ITextFont_Reset.htm

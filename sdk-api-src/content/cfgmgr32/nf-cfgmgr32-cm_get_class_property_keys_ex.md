@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Class_Property_Keys_Ex
-title: CM_Get_Class_Property_Keys_Ex function
+title: CM_Get_Class_Property_Keys_Ex function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Get_Class_Property_Keys_Ex function retrieves an array of the device property keys that represent the device properties that are set for a device interface class or device setup class.
 old-location: devinst\cm_get_class_property_keys_ex.htm

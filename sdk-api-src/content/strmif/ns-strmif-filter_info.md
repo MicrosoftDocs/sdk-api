@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif._FilterInfo
-title: FILTER_INFO
+title: FILTER_INFO (strmif.h)
 author: windows-sdk-content
 description: The FILTER_INFO structure contains information about a filter.
 old-location: dshow\filter_info.htm

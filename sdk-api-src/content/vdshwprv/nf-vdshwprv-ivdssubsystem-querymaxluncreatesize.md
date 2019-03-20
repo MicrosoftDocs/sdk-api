@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem.QueryMaxLunCreateSize
-title: IVdsSubSystem::QueryMaxLunCreateSize
+title: IVdsSubSystem::QueryMaxLunCreateSize (vdshwprv.h)
 author: windows-sdk-content
 description: Returns the size of the maximum LUN that can be created using the specified LUN type and hints.
 old-location: base\ivdssubsystem_querymaxluncreatesize.htm

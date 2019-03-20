@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilIsResourceClassEqual
-title: ResUtilIsResourceClassEqual function
+title: ResUtilIsResourceClassEqual function (resapi.h)
 author: windows-sdk-content
 description: Tests whether the resource class of a specified resource is equal to a specified resource class. The PRESUTIL_IS_RESOURCE_CLASS_EQUAL type defines a pointer to this function.
 old-location: mscs\resutilisresourceclassequal.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorAdd
-title: XMVectorAdd function
+title: XMVectorAdd function (directxmath.h)
 author: windows-sdk-content
 description: Computes the sum of two vectors.
 old-location: dxmath\xmvectoradd.htm

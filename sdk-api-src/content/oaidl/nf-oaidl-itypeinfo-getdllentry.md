@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetDllEntry
-title: ITypeInfo::GetDllEntry
+title: ITypeInfo::GetDllEntry (oaidl.h)
 author: windows-sdk-content
 description: Retrieves a description or specification of an entry point for a function in a DLL.
 old-location: automat\itypeinfo_getdllentry.htm

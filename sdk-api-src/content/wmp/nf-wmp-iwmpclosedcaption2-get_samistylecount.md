@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPClosedCaption2.get_SAMIStyleCount
-title: IWMPClosedCaption2::get_SAMIStyleCount
+title: IWMPClosedCaption2::get_SAMIStyleCount (wmp.h)
 author: windows-sdk-content
 description: The get_SAMIStyleCount method retrieves the number of styles supported by the current SAMI file.
 old-location: wmp\iwmpclosedcaption2_get_samistylecount.htm

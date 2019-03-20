@@ -1,6 +1,6 @@
 ---
 UID: NN:evr.IMFVideoDisplayControl
-title: IMFVideoDisplayControl
+title: IMFVideoDisplayControl (evr.h)
 author: windows-sdk-content
 description: Controls how the Enhanced Video Renderer (EVR) displays video.
 old-location: mf\imfvideodisplaycontrol.htm

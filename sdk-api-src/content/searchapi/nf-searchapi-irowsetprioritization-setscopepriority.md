@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.IRowsetPrioritization.SetScopePriority
-title: IRowsetPrioritization::SetScopePriority
+title: IRowsetPrioritization::SetScopePriority (searchapi.h)
 author: windows-sdk-content
 description: Sets the current indexer prioritization level for the scope specified by this query.
 old-location: search\_search_IRowsetPrioritization_SetScopePriority.htm

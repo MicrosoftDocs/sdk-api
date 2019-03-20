@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Delete_Device_Interface_Key_ExW
-title: CM_Delete_Device_Interface_Key_ExW function
+title: CM_Delete_Device_Interface_Key_ExW function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Delete_Device_Interface_Key_ExW function deletes the registry subkey that is used by applications and drivers to store interface-specific information.
 old-location: devinst\cm_delete_device_interface_key_exw.htm

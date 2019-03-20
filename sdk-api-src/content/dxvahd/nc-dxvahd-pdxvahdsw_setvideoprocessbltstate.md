@@ -1,6 +1,6 @@
 ---
 UID: NC:dxvahd.PDXVAHDSW_SetVideoProcessBltState
-title: PDXVAHDSW_SetVideoProcessBltState
+title: PDXVAHDSW_SetVideoProcessBltState (dxvahd.h)
 author: windows-sdk-content
 description: Sets a state parameter for blit operations by a software Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
 old-location: mf\pdxvahdsw_setvideoprocessbltstate.htm

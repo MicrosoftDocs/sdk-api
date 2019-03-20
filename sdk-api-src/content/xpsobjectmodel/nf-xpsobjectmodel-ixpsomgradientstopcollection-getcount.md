@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStopCollection.GetCount
-title: IXpsOMGradientStopCollection::GetCount
+title: IXpsOMGradientStopCollection::GetCount (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the number of IXpsOMGradientStop interface pointers in the collection.
 old-location: xps\ixpsomgradientstopcollection_getcount.htm

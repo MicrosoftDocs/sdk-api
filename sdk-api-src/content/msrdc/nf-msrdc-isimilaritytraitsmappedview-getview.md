@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMappedView.GetView
-title: ISimilarityTraitsMappedView::GetView
+title: ISimilarityTraitsMappedView::GetView (msrdc.h)
 author: windows-sdk-content
 description: Returns the beginning and ending addresses for the mapped view of a similarity traits table file.
 old-location: rdc\isimilaritytraitsmappedview_getview.htm

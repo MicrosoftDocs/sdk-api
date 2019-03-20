@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Enrollment2.InitializeFromTemplate
-title: IX509Enrollment2::InitializeFromTemplate
+title: IX509Enrollment2::InitializeFromTemplate (certenroll.h)
 author: windows-sdk-content
 description: Initializes the enrollment object by using a template.
 old-location: security\ix509enrollment2_initializefromtemplate.htm

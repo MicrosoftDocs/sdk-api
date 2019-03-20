@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.IEnumAgentHandler.Clone
-title: IEnumAgentHandler::Clone
+title: IEnumAgentHandler::Clone (tapi3.h)
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienumagenthandler_clone.htm

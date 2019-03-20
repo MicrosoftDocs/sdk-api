@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantToDoubleArrayAlloc
-title: VariantToDoubleArrayAlloc function
+title: VariantToDoubleArrayAlloc function (propvarutil.h)
 author: windows-sdk-content
 description: Allocates an array of DOUBLE values then extracts data from a VARIANT structure into that array.
 old-location: properties\VariantToDoubleArrayAlloc.htm

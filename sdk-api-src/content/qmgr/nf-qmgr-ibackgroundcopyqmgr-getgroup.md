@@ -1,6 +1,6 @@
 ---
 UID: NF:qmgr.IBackgroundCopyQMgr.GetGroup
-title: IBackgroundCopyQMgr::GetGroup
+title: IBackgroundCopyQMgr::GetGroup (qmgr.h)
 author: windows-sdk-content
 description: Use the GetGroup method to retrieve a group from the download queue.
 old-location: bits\ibackgroundcopyqmgr_getgroup.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IEnumPortableDeviceObjectIDs.Next
-title: IEnumPortableDeviceObjectIDs::Next
+title: IEnumPortableDeviceObjectIDs::Next (portabledeviceapi.h)
 author: windows-sdk-content
 description: The Next method retrieves the next one or more object IDs in the enumeration sequence.
 old-location: wpdsdk\ienumportabledeviceobjectids_next.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.ProcessMessage
-title: IMFDeviceTransform::ProcessMessage
+title: IMFDeviceTransform::ProcessMessage (mftransform.h)
 author: windows-sdk-content
 description: The ProcessMessage method sends a message to the Device Media Foundation transform (MFT).
 old-location: stream\imfdevicetransform_processmessage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDevice.put_CSID
-title: IFaxDevice::put_CSID
+title: IFaxDevice::put_CSID (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDevice::get_CSID property is a null-terminated string that contains the called station identifier (CSID) for the device.
 old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_csid_cpp.htm

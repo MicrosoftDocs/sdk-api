@@ -1,6 +1,6 @@
 ---
 UID: NS:ipexport._IP_MCAST_COUNTER_INFO
-title: IP_MCAST_COUNTER_INFO
+title: IP_MCAST_COUNTER_INFO (ipexport.h)
 author: windows-sdk-content
 description: The IP_MCAST_COUNTER_INFO structure stores statistical information about Multicast traffic.
 old-location: iphlp\ip_mcast_counter_info.htm

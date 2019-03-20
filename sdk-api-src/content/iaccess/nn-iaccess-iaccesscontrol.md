@@ -1,6 +1,6 @@
 ---
 UID: NN:iaccess.IAccessControl
-title: IAccessControl
+title: IAccessControl (iaccess.h)
 author: windows-sdk-content
 description: Enables the management of access to objects and properties on the objects.
 old-location: com\iaccesscontrol.htm

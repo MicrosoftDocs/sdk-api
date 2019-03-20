@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRole.GetProperty
-title: IAzRole::GetProperty
+title: IAzRole::GetProperty (azroles.h)
 author: windows-sdk-content
 description: Returns the IAzRole object property with the specified property ID.
 old-location: security\iazrole_getproperty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorIsInfinite
-title: XMVectorIsInfinite function
+title: XMVectorIsInfinite function (directxmath.h)
 author: windows-sdk-content
 description: Performs a per-component test for +/- infinity on a vector.
 old-location: dxmath\xmvectorisinfinite.htm

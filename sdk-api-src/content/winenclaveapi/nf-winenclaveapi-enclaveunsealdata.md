@@ -1,6 +1,6 @@
 ---
 UID: NF:winenclaveapi.EnclaveUnsealData
-title: EnclaveUnsealData function
+title: EnclaveUnsealData function (winenclaveapi.h)
 author: windows-sdk-content
 description: Decrypts an encrypted binary large object (blob).
 old-location: base\enclaveunsealdata.htm

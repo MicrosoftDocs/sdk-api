@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IObjectContextTip
-title: IObjectContextTip
+title: IObjectContextTip (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves properties describing the Transaction Internet Protocol (TIP) transaction context.
 old-location: cos\iobjectcontexttip.htm

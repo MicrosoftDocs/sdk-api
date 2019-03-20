@@ -1,6 +1,6 @@
 ---
 UID: NF:endpointvolume.IAudioMeterInformation.GetMeteringChannelCount
-title: IAudioMeterInformation::GetMeteringChannelCount
+title: IAudioMeterInformation::GetMeteringChannelCount (endpointvolume.h)
 author: windows-sdk-content
 description: The GetMeteringChannelCount method gets the number of channels in the audio stream that are monitored by peak meters.
 old-location: coreaudio\iaudiometerinformation_getmeteringchannelcount.htm

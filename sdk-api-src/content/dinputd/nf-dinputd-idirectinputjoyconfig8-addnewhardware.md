@@ -1,6 +1,6 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.AddNewHardware
-title: IDirectInputJoyConfig8::AddNewHardware
+title: IDirectInputJoyConfig8::AddNewHardware (dinputd.h)
 author: windows-sdk-content
 description: The IDirectInputJoyConfig8::AddNewHardware method displays the Add New Hardware dialog box which guides the user through installing a new input device.
 old-location: hid\idirectinputjoyconfig8_addnewhardware.htm

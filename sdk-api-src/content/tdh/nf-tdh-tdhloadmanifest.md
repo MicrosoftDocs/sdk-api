@@ -1,6 +1,6 @@
 ---
 UID: NF:tdh.TdhLoadManifest
-title: TdhLoadManifest function
+title: TdhLoadManifest function (tdh.h)
 author: windows-sdk-content
 description: Loads the manifest used to decode a log file.
 old-location: etw\tdhloadmanifest.htm

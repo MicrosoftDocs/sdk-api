@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IDynamicRenderer.put_ClipRectangle
-title: IDynamicRenderer::put_ClipRectangle
+title: IDynamicRenderer::put_ClipRectangle (rtscom.h)
 author: windows-sdk-content
 description: Gets or sets the clipping rectangle for the DynamicRenderer Class object.
 old-location: tablet\idynamicrenderer_cliprectangle.htm

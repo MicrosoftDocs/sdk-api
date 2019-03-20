@@ -1,6 +1,6 @@
 ---
 UID: NF:lmjoin.NetGetJoinInformation
-title: NetGetJoinInformation function
+title: NetGetJoinInformation function (lmjoin.h)
 author: windows-sdk-content
 description: The NetGetJoinInformation function retrieves join status information for the specified computer.
 old-location: netmgmt\netgetjoininformation.htm

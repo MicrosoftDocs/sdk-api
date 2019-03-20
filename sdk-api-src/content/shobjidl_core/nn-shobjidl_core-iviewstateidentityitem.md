@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IViewStateIdentityItem
-title: IViewStateIdentityItem
+title: IViewStateIdentityItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Provides a canonical persistence item, an item for which view customizations will be remembered.
 old-location: shell\IViewStateIdentityItem.htm

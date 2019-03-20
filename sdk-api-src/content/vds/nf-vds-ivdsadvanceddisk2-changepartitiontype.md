@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsAdvancedDisk2.ChangePartitionType
-title: IVdsAdvancedDisk2::ChangePartitionType
+title: IVdsAdvancedDisk2::ChangePartitionType (vds.h)
 author: windows-sdk-content
 description: Changes the partition type on the disk at a specified byte offset.
 old-location: base\ivdsadvanceddisk2_changepartitiontype.htm

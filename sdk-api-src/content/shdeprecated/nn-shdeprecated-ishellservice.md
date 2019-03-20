@@ -1,6 +1,6 @@
 ---
 UID: NN:shdeprecated.IShellService
-title: IShellService
+title: IShellService (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. IShellService Exposes one method that declares ownership when a service component implementing a certain interface is shared among multiple clients, such as Windows Internet Explorer and Windows Explorer.
 old-location: shell\IShellService.htm

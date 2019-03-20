@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IScrollProvider.Scroll
-title: IScrollProvider::Scroll
+title: IScrollProvider::Scroll (uiautomationcore.h)
 author: windows-sdk-content
 description: Scrolls the visible region of the content area horizontally and vertically.
 old-location: winauto\uiauto_IScrollProvider_Scroll.htm

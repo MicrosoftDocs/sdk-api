@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetAccessibilityLongDescription
-title: IXpsOMPath::GetAccessibilityLongDescription
+title: IXpsOMPath::GetAccessibilityLongDescription (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the long (detailed) textual description of the object's contents.
 old-location: xps\ixpsompath_getaccessibilitylongdescription.htm

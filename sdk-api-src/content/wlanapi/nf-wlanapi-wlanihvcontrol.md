@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanIhvControl
-title: WlanIhvControl function
+title: WlanIhvControl function (wlanapi.h)
 author: windows-sdk-content
 description: Provides a mechanism for independent hardware vendor (IHV) control of WLAN drivers or services.
 old-location: nwifi\wlanihvcontrol.htm

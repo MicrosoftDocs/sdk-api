@@ -1,6 +1,6 @@
 ---
 UID: NF:evr9.IMFVideoProcessor.GetVideoProcessorCaps
-title: IMFVideoProcessor::GetVideoProcessorCaps
+title: IMFVideoProcessor::GetVideoProcessorCaps (evr9.h)
 author: windows-sdk-content
 description: Retrieves the capabilities of a video processor mode.
 old-location: mf\imfvideoprocessor_getvideoprocessorcaps.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialogEvents.OnFolderChanging
-title: IFileDialogEvents::OnFolderChanging
+title: IFileDialogEvents::OnFolderChanging (shobjidl_core.h)
 author: windows-sdk-content
 description: Called before IFileDialogEvents::OnFolderChange. This allows the implementer to stop navigation to a particular location.
 old-location: shell\IFileDialogEvents_OnFolderChanging.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wpcapi.IWPCSettings.IsLoggingRequired
-title: IWPCSettings::IsLoggingRequired
+title: IWPCSettings::IsLoggingRequired (wpcapi.h)
 author: windows-sdk-content
 description: Determines whether activity logging should be performed when obtaining the IWPCSettings interface.
 old-location: parcon\iwpcsettings_isloggingrequired.htm

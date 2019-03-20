@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.GetItemNum
-title: ITfLangBarItemMgr::GetItemNum
+title: ITfLangBarItemMgr::GetItemNum (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarItemMgr::GetItemNum method
 old-location: tsf\itflangbaritemmgr_getitemnum.htm

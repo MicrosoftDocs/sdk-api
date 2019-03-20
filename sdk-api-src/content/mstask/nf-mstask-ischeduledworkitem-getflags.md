@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetFlags
-title: IScheduledWorkItem::GetFlags
+title: IScheduledWorkItem::GetFlags (mstask.h)
 author: windows-sdk-content
 description: Retrieves the flags that modify the behavior of any type of work item.
 old-location: taskschd\ischeduledworkitem_getflags.htm

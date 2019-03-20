@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite.IDWriteTypography
-title: IDWriteTypography
+title: IDWriteTypography (dwrite.h)
 author: windows-sdk-content
 description: Represents a font typography setting.
 old-location: directwrite\IDWriteTypography.htm

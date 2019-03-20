@@ -1,6 +1,6 @@
 ---
 UID: NF:winnetwk.WNetCancelConnection2A
-title: WNetCancelConnection2A function
+title: WNetCancelConnection2A function (winnetwk.h)
 author: windows-sdk-content
 description: The WNetCancelConnection2 function cancels an existing network connection. You can also call the function to remove remembered network connections that are not currently connected.
 old-location: wnet\wnetcancelconnection2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCertificate2.get_Template
-title: IX509CertificateRequestCertificate2::get_Template
+title: IX509CertificateRequestCertificate2::get_Template (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the certificate request template used during initialization.
 old-location: security\ix509certificaterequestcertificate2_template.htm

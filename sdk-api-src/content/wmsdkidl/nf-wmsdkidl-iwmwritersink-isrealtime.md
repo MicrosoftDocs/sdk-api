@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterSink.IsRealTime
-title: IWMWriterSink::IsRealTime
+title: IWMWriterSink::IsRealTime (wmsdkidl.h)
 author: windows-sdk-content
 description: The IsRealTime is called by the writer to determine whether the sink needs data units to be delivered in real time. It is up to you to decide whether your custom sink requires real-time delivery.
 old-location: wmformat\iwmwritersink_isrealtime.htm

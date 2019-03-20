@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.get_Strokes
-title: IInkRecognizerContext::get_Strokes
+title: IInkRecognizerContext::get_Strokes (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the InkStrokes collection associated with the InkRecognizerContext object.
 old-location: tablet\inkrecognizercontext_strokes.htm

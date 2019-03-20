@@ -1,6 +1,6 @@
 ---
 UID: NF:psapi.GetModuleBaseNameA
-title: GetModuleBaseNameA function
+title: GetModuleBaseNameA function (psapi.h)
 author: windows-sdk-content
 description: Retrieves the base name of the specified module.
 old-location: psapi\getmodulebasename.htm

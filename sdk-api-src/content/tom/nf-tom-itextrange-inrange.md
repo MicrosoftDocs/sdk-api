@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.InRange
-title: ITextRange::InRange
+title: ITextRange::InRange (tom.h)
 author: windows-sdk-content
 description: Determines whether this range is within or at the same text as a specified range.
 old-location: controls\ITextRange_InRange.htm

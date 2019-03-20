@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.CreateFileMoniker
-title: CreateFileMoniker function
+title: CreateFileMoniker function (objbase.h)
 author: windows-sdk-content
 description: Creates a file moniker based on the specified path.
 old-location: com\createfilemoniker.htm

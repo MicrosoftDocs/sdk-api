@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgi1_2.DXGI_SCALING
-title: DXGI_SCALING
+title: DXGI_SCALING (dxgi1_2.h)
 author: windows-sdk-content
 description: Identifies resize behavior when the back-buffer size does not match the size of the target output.
 old-location: direct3ddxgi\dxgi_scaling.htm

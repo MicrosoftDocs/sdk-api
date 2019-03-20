@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.SetClusterQuorumResource
-title: SetClusterQuorumResource function
+title: SetClusterQuorumResource function (clusapi.h)
 author: windows-sdk-content
 description: Establishes a resource as the quorum resource for a cluster.
 old-location: mscs\setclusterquorumresource.htm

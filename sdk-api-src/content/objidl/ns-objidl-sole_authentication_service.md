@@ -1,6 +1,6 @@
 ---
 UID: NS:objidl.tagSOLE_AUTHENTICATION_SERVICE
-title: SOLE_AUTHENTICATION_SERVICE
+title: SOLE_AUTHENTICATION_SERVICE (objidl.h)
 author: windows-sdk-content
 description: Identifies an authentication service that a server is willing to use to communicate to a client.
 old-location: com\sole_authentication_service.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMemAllocator.Commit
-title: IMemAllocator::Commit
+title: IMemAllocator::Commit (strmif.h)
 author: windows-sdk-content
 description: The Commit method allocates the buffer memory.
 old-location: dshow\imemallocator_commit.htm

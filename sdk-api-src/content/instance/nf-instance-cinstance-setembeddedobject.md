@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.SetEmbeddedObject
-title: CInstance::SetEmbeddedObject
+title: CInstance::SetEmbeddedObject (instance.h)
 author: windows-sdk-content
 description: The SetEmbeddedObject method sets an embedded CInstance property.
 old-location: wmi\cinstance_setembeddedobject.htm

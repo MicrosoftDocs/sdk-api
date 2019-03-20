@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMMapEntryCollection.get_Item
-title: IGPMMapEntryCollection::get_Item
+title: IGPMMapEntryCollection::get_Item (gpmgmt.h)
 author: windows-sdk-content
 description: Given an index, returns a map entry from the collection.
 old-location: gpmc\igpmmapentrycollection_get_item.htm

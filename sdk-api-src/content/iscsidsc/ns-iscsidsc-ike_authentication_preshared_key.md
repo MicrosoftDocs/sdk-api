@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_1
-title: IKE_AUTHENTICATION_PRESHARED_KEY
+title: IKE_AUTHENTICATION_PRESHARED_KEY (iscsidsc.h)
 author: windows-sdk-content
 description: IKE_AUTHENTICATION_PRESHARED_KEY structure contains information about the preshared key used in the Internet Key Exchange (IKE) protocol.
 old-location: iscsidisc\ike_authentication_preshared_key.htm

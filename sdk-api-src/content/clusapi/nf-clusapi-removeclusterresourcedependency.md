@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.RemoveClusterResourceDependency
-title: RemoveClusterResourceDependency function
+title: RemoveClusterResourceDependency function (clusapi.h)
 author: windows-sdk-content
 description: Removes a dependency relationship between two resources.
 old-location: mscs\removeclusterresourcedependency.htm

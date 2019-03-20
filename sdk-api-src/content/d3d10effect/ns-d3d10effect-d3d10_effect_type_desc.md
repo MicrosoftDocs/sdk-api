@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10effect._D3D10_EFFECT_TYPE_DESC
-title: D3D10_EFFECT_TYPE_DESC
+title: D3D10_EFFECT_TYPE_DESC (d3d10effect.h)
 author: windows-sdk-content
 description: Describes an effect-variable type.
 old-location: direct3d10\d3d10_effect_type_desc.htm

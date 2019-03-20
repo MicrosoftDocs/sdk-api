@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRouting.GetRules
-title: IFaxOutboundRouting::GetRules
+title: IFaxOutboundRouting::GetRules (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutboundRouting::GetRules method retrieves an interface that represents a collection of outbound routing groups.
 old-location: fax\_mfax_faxoutboundrouting_getrules_cpp.htm

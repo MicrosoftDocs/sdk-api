@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.AddText
-title: IFileDialogCustomize::AddText
+title: IFileDialogCustomize::AddText (shobjidl_core.h)
 author: windows-sdk-content
 description: Adds text content to the dialog.
 old-location: shell\IFileDialogCustomize_AddText.htm

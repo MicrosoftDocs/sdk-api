@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.SetWaitableTimer
-title: SetWaitableTimer function
+title: SetWaitableTimer function (synchapi.h)
 author: windows-sdk-content
 description: Activates the specified waitable timer. When the due time arrives, the timer is signaled and the thread that set the timer calls the optional completion routine.
 old-location: base\setwaitabletimer.htm

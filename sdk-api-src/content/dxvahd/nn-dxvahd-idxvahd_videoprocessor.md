@@ -1,6 +1,6 @@
 ---
 UID: NN:dxvahd.IDXVAHD_VideoProcessor
-title: IDXVAHD_VideoProcessor
+title: IDXVAHD_VideoProcessor (dxvahd.h)
 author: windows-sdk-content
 description: Represents a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
 old-location: mf\idxvahd_videoprocessor.htm

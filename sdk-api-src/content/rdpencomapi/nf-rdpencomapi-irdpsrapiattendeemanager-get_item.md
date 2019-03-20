@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendeeManager.get_Item
-title: IRDPSRAPIAttendeeManager::get_Item
+title: IRDPSRAPIAttendeeManager::get_Item (rdpencomapi.h)
 author: windows-sdk-content
 description: An item in the attendee collection.
 old-location: rdp\irdpsrapiattendeemanager_item.htm

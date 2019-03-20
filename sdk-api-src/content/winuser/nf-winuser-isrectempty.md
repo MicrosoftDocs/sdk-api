@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.IsRectEmpty
-title: IsRectEmpty function
+title: IsRectEmpty function (winuser.h)
 author: windows-sdk-content
 description: The IsRectEmpty function determines whether the specified rectangle is empty.
 old-location: gdi\isrectempty.htm

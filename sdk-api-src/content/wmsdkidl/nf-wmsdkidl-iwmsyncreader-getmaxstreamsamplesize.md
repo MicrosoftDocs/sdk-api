@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.GetMaxStreamSampleSize
-title: IWMSyncReader::GetMaxStreamSampleSize
+title: IWMSyncReader::GetMaxStreamSampleSize (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetMaxStreamSampleSize method retrieves the maximum sample size for a specified stream in the file that is open in the synchronous reader.
 old-location: wmformat\iwmsyncreader_getmaxstreamsamplesize.htm

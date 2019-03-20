@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IEmailAction.put_Server
-title: IEmailAction::put_Server
+title: IEmailAction::put_Server (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the name of the SMTP server that you use to send email from.
 old-location: taskschd\iemailaction_server.htm

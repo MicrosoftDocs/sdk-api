@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.Flush
-title: IWMWriter::Flush
+title: IWMWriter::Flush (wmsdkidl.h)
 author: windows-sdk-content
 description: The functionality of the Flush method has been removed, because IWMWriter::EndWriting performs the needed checks internally. For compatibility with older applications, calls to flush will always return S_OK even though the call does nothing.
 old-location: wmformat\iwmwriter_flush.htm

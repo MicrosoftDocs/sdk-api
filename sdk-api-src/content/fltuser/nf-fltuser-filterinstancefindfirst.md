@@ -1,6 +1,6 @@
 ---
 UID: NF:fltuser.FilterInstanceFindFirst
-title: FilterInstanceFindFirst function
+title: FilterInstanceFindFirst function (fltuser.h)
 author: windows-sdk-content
 description: The FilterInstanceFindFirst function returns information about a minifilter driver instance and is used as a starting point for scanning the instances of a minifilter.
 old-location: ifsk\filterinstancefindfirst.htm

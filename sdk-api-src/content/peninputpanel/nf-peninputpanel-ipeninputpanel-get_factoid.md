@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.get_Factoid
-title: IPenInputPanel::get_Factoid
+title: IPenInputPanel::get_Factoid (peninputpanel.h)
 author: windows-sdk-content
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets the string name of the factoid used by the PenInputPanel object.
 old-location: tablet\peninputpanel_factoid.htm

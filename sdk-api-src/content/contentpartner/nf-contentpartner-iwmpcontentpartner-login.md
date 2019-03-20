@@ -1,6 +1,6 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.Login
-title: IWMPContentPartner::Login
+title: IWMPContentPartner::Login (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The Login method logs the user in to the online store.
 old-location: wmp\iwmpcontentpartner_login.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquerycondition.ICondition.GetValueType
-title: ICondition::GetValueType
+title: ICondition::GetValueType (structuredquerycondition.h)
 author: windows-sdk-content
 description: Retrieves the semantic type of the value of the search condition node.
 old-location: search\_search_ICondition_GetValueType.htm

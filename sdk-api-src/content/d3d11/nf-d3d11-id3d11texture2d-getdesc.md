@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11Texture2D.GetDesc
-title: ID3D11Texture2D::GetDesc
+title: ID3D11Texture2D::GetDesc (d3d11.h)
 author: windows-sdk-content
 description: Get the properties of the texture resource.
 old-location: direct3d11\id3d11texture2d_getdesc.htm

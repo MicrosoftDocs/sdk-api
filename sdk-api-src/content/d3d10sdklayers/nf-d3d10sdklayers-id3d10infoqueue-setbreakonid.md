@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.SetBreakOnID
-title: ID3D10InfoQueue::SetBreakOnID
+title: ID3D10InfoQueue::SetBreakOnID (d3d10sdklayers.h)
 author: windows-sdk-content
 description: Set a message identifier to break on when a message with that identifier passes through the storage filter.
 old-location: direct3d10\id3d10infoqueue_setbreakonid.htm

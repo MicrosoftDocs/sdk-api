@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetStreamFrameFormat
-title: ID3D11VideoContext::VideoProcessorGetStreamFrameFormat
+title: ID3D11VideoContext::VideoProcessorGetStreamFrameFormat (d3d11.h)
 author: windows-sdk-content
 description: Gets the format of an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorgetstreamframeformat.htm

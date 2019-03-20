@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRule.get_Grouping
-title: INetFwRule::get_Grouping
+title: INetFwRule::get_Grouping (netfw.h)
 author: windows-sdk-content
 description: Specifies the group to which an individual rule belongs.
 old-location: ics\inetfwrule_grouping.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:aclui.ISecurityInformation4
-title: ISecurityInformation4
+title: ISecurityInformation4 (aclui.h)
 author: windows-sdk-content
 description: Enables the access control editor (ACE) to obtain the share's security descriptor to initialize the share page.
 old-location: security\isecurityinformation4.htm

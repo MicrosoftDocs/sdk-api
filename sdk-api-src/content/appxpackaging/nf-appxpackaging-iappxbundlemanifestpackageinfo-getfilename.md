@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfo.GetFileName
-title: IAppxBundleManifestPackageInfo::GetFileName
+title: IAppxBundleManifestPackageInfo::GetFileName (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves the file-name attribute of the package.
 old-location: appxpkg\iappxbundlemanifestpackageinfo_getfilename.htm

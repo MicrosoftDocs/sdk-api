@@ -1,6 +1,6 @@
 ---
 UID: NS:tokenbinding.TOKENBINDING_RESULT_LIST
-title: TOKENBINDING_RESULT_LIST
+title: TOKENBINDING_RESULT_LIST (tokenbinding.h)
 author: windows-sdk-content
 description: Contains the results for each of the token bindings that TokenBindingVerifyMessage verified.
 old-location: security\tokenbinding_result_list.htm

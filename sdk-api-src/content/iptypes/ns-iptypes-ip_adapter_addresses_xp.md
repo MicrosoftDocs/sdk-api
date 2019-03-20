@@ -1,6 +1,6 @@
 ---
 UID: NS:iptypes._IP_ADAPTER_ADDRESSES_XP
-title: IP_ADAPTER_ADDRESSES_XP
+title: IP_ADAPTER_ADDRESSES_XP (iptypes.h)
 author: windows-sdk-content
 description: The header node for a linked list of addresses for a particular adapter.
 old-location: iphlp\ip_adapter_addresses.htm

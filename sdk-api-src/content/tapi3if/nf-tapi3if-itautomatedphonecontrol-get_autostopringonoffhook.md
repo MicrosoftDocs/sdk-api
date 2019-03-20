@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.get_AutoStopRingOnOffHook
-title: ITAutomatedPhoneControl::get_AutoStopRingOnOffHook
+title: ITAutomatedPhoneControl::get_AutoStopRingOnOffHook (tapi3if.h)
 author: windows-sdk-content
 description: The get_AutoStopRingOnOffHook method retrieves the current value of the AutoStopRingOnOffHook property.
 old-location: tapi3\itautomatedphonecontrol_get_autostopringonoffhook.htm

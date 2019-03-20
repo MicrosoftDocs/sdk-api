@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetMemberRefProps
-title: IMetaDataImport::GetMemberRefProps
+title: IMetaDataImport::GetMemberRefProps (rometadataapi.h)
 author: windows-sdk-content
 description: Gets metadata associated with the member referenced by the specified token.
 old-location: winrt\imetadataimport_getmemberrefprops.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystemIscsi.SetIpsecGroupPresharedKey
-title: IVdsSubSystemIscsi::SetIpsecGroupPresharedKey
+title: IVdsSubSystemIscsi::SetIpsecGroupPresharedKey (vdshwprv.h)
 author: windows-sdk-content
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdssubsystemiscsi_setipsecgrouppresharedkey.htm

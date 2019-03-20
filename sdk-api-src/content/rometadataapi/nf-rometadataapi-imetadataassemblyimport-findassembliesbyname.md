@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.FindAssembliesByName
-title: IMetaDataAssemblyImport::FindAssembliesByName
+title: IMetaDataAssemblyImport::FindAssembliesByName (rometadataapi.h)
 author: windows-sdk-content
 description: Gets an array of assemblies with the specified name, using the standard rules employed by the common language runtime (CLR) for resolving references.
 old-location: winrt\imetadataassemblyimport_findassembliesbyname.htm

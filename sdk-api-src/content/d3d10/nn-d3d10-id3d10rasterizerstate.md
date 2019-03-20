@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10.ID3D10RasterizerState
-title: ID3D10RasterizerState
+title: ID3D10RasterizerState (d3d10.h)
 author: windows-sdk-content
 description: A rasterizer-state interface accesses rasterizer state for the rasterizer stage.
 old-location: direct3d10\id3d10rasterizerstate.htm

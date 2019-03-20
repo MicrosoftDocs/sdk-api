@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpQueryUrlGroupProperty
-title: HttpQueryUrlGroupProperty function
+title: HttpQueryUrlGroupProperty function (http.h)
 author: windows-sdk-content
 description: Queries a property on the specified URL Group.
 old-location: http\httpqueryurlgroupproperty.htm

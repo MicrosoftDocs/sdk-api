@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdxmldom._WSDXML_ELEMENT_LIST
-title: WSDXML_ELEMENT_LIST
+title: WSDXML_ELEMENT_LIST (wsdxmldom.h)
 author: windows-sdk-content
 description: Represents a node in a linked list of XML elements.
 old-location: ncd\wsdxml_element_list_struct.htm

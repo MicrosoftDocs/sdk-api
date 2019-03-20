@@ -1,6 +1,6 @@
 ---
 UID: NS:winfax._FAX_CONFIGURATIONW
-title: FAX_CONFIGURATIONW
+title: FAX_CONFIGURATIONW (winfax.h)
 author: windows-sdk-content
 description: The FAX_CONFIGURATION structure contains information about the global configuration settings of a fax server.
 old-location: fax\_mfax_fax_configuration_str.htm

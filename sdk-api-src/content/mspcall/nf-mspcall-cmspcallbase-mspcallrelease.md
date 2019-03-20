@@ -1,6 +1,6 @@
 ---
 UID: NF:mspcall.CMSPCallBase.MSPCallRelease
-title: CMSPCallBase::MSPCallRelease
+title: CMSPCallBase::MSPCallRelease (mspcall.h)
 author: windows-sdk-content
 description: The MSPCallRelease method is the private Release method for the call object.
 old-location: tapi3\cmspcallbase_mspcallrelease.htm

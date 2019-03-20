@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.ILIsParent
-title: ILIsParent function
+title: ILIsParent function (shlobj_core.h)
 author: windows-sdk-content
 description: Tests whether an ITEMIDLIST structure is the parent of another ITEMIDLIST structure.
 old-location: shell\ILIsParent.htm

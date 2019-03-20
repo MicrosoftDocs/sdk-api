@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanapi._WLAN_CONNECTION_NOTIFICATION_DATA
-title: WLAN_CONNECTION_NOTIFICATION_DATA
+title: WLAN_CONNECTION_NOTIFICATION_DATA (wlanapi.h)
 author: windows-sdk-content
 description: Contains information about connection related notifications.
 old-location: nwifi\wlan_connection_notification_data.htm

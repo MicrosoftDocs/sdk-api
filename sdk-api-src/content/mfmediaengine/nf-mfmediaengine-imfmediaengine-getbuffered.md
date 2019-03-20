@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetBuffered
-title: IMFMediaEngine::GetBuffered
+title: IMFMediaEngine::GetBuffered (mfmediaengine.h)
 author: windows-sdk-content
 description: Queries how much resource data the media engine has buffered.
 old-location: mf\imfmediaengine_getbuffered.htm

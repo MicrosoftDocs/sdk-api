@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetSelectedCount
-title: ListView_GetSelectedCount macro
+title: ListView_GetSelectedCount macro (commctrl.h)
 author: windows-sdk-content
 description: Determines the number of selected items in a list-view control. You can use this macro or send the LVM_GETSELECTEDCOUNT message explicitly.
 old-location: controls\ListView_GetSelectedCount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winperf._PERF_DATA_BLOCK
-title: PERF_DATA_BLOCK
+title: PERF_DATA_BLOCK (winperf.h)
 author: windows-sdk-content
 description: Describes the performance data block that you queried, for example, the number of performance objects returned by the provider and the time-based values that you use when calculating performance values.
 old-location: perf\perf_data_block_str.htm

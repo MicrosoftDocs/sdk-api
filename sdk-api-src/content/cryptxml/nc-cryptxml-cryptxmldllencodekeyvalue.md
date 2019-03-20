@@ -1,6 +1,6 @@
 ---
 UID: NC:cryptxml.CryptXmlDllEncodeKeyValue
-title: CryptXmlDllEncodeKeyValue
+title: CryptXmlDllEncodeKeyValue (cryptxml.h)
 author: windows-sdk-content
 description: Encodes a KeyValue element.
 old-location: security\cryptxmldllencodekeyvalue.htm

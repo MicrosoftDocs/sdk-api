@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgi1_2.DXGI_OUTDUPL_POINTER_SHAPE_TYPE
-title: DXGI_OUTDUPL_POINTER_SHAPE_TYPE
+title: DXGI_OUTDUPL_POINTER_SHAPE_TYPE (dxgi1_2.h)
 author: windows-sdk-content
 description: Identifies the type of pointer shape.
 old-location: direct3ddxgi\dxgi_outdupl_pointer_shape_type.htm

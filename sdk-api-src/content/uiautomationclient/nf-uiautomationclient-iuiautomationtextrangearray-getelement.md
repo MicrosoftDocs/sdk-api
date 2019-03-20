@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRangeArray.GetElement
-title: IUIAutomationTextRangeArray::GetElement
+title: IUIAutomationTextRangeArray::GetElement (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a text range from the collection.
 old-location: winauto\uiauto_IUIAutomationTextRangeArray_GetElement.htm

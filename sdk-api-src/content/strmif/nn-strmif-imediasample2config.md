@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IMediaSample2Config
-title: IMediaSample2Config
+title: IMediaSample2Config (strmif.h)
 author: windows-sdk-content
 description: The IMediaSample2Config interface returns a pointer to a Direct3D surface representing a VRAM capture buffer.
 old-location: dshow\imediasample2config.htm

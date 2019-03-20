@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IMcastLeaseInfo.put_LeaseStopTime
-title: IMcastLeaseInfo::put_LeaseStopTime
+title: IMcastLeaseInfo::put_LeaseStopTime (mdhcp.h)
 author: windows-sdk-content
 description: The put_LeaseStopTime method sets the stop time of the lease. This method, along with put_LeaseStartTime, allows you to renew a lease without calling IMcastAddressAllocation::CreateLeaseInfo.
 old-location: tapi3\imcastleaseinfo_put_leasestoptime.htm

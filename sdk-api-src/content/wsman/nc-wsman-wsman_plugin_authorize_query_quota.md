@@ -1,6 +1,6 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_AUTHORIZE_QUERY_QUOTA
-title: WSMAN_PLUGIN_AUTHORIZE_QUERY_QUOTA
+title: WSMAN_PLUGIN_AUTHORIZE_QUERY_QUOTA (wsman.h)
 author: windows-sdk-content
 description: Retrieves quota information for the user after a connection has been authorized.
 old-location: winrm\wsman_plugin_authorize_query_quota.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDictionary.GetAt
-title: IXpsOMDictionary::GetAt
+title: IXpsOMDictionary::GetAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the IXpsOMShareable interface pointer and the key name string of the entry at a specified index in the dictionary.
 old-location: xps\ixpsomdictionary_getat.htm

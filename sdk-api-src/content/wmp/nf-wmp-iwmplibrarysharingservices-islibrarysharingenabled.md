@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPLibrarySharingServices.isLibrarySharingEnabled
-title: IWMPLibrarySharingServices::isLibrarySharingEnabled
+title: IWMPLibrarySharingServices::isLibrarySharingEnabled (wmp.h)
 author: windows-sdk-content
 description: The isLibrarySharingEnabled method retrieves a value indicating whether the user has enabled library sharing in Windows Media Player.
 old-location: wmp\iwmplibrarysharingservices_islibrarysharingenabled.htm

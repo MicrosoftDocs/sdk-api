@@ -1,6 +1,6 @@
 ---
 UID: NF:propidlbase.IPropertyStorage.SetClass
-title: IPropertyStorage::SetClass
+title: IPropertyStorage::SetClass (propidlbase.h)
 author: windows-sdk-content
 description: The SetClass method assigns a new CLSID to the current property storage object, and persistently stores the CLSID with the object.
 old-location: stg\ipropertystorage_setclass.htm

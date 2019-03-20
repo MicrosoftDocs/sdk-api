@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFProtectedEnvironmentAccess.ReadGRL
-title: IMFProtectedEnvironmentAccess::ReadGRL
+title: IMFProtectedEnvironmentAccess::ReadGRL (mfidl.h)
 author: windows-sdk-content
 description: Gets the Global Revocation List (GLR).
 old-location: mf\imfprotectedenvironmentaccess_readgrl.htm

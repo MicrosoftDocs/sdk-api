@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IEnumExplorerCommand
-title: IEnumExplorerCommand
+title: IEnumExplorerCommand (shobjidl_core.h)
 author: windows-sdk-content
 description: Provided by an IExplorerCommandProvider. This interface contains the enumeration of commands to be put into the command bar.
 old-location: shell\IEnumExplorerCommand.htm

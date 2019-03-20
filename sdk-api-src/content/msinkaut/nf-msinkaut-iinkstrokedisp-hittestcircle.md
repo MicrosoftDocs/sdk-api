@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.HitTestCircle
-title: IInkStrokeDisp::HitTestCircle
+title: IInkStrokeDisp::HitTestCircle (msinkaut.h)
 author: windows-sdk-content
 description: Determines whether a stroke is either completely inside or intersected by a given circle.
 old-location: tablet\iinkstrokedisp_hittestcircle.htm

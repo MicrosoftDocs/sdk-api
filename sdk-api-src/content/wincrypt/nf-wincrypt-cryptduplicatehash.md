@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptDuplicateHash
-title: CryptDuplicateHash function
+title: CryptDuplicateHash function (wincrypt.h)
 author: windows-sdk-content
 description: Makes an exact copy of a hash to the point when the duplication is done.
 old-location: security\cryptduplicatehash.htm

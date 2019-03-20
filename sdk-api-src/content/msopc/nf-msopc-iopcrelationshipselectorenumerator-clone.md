@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcRelationshipSelectorEnumerator.Clone
-title: IOpcRelationshipSelectorEnumerator::Clone
+title: IOpcRelationshipSelectorEnumerator::Clone (msopc.h)
 author: windows-sdk-content
 description: Creates a copy of the current IOpcRelationshipSelectorEnumeratorinterface pointer and all its descendants.
 old-location: opc\iopcrelationshipselectorenumerator_clone.htm

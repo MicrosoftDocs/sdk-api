@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICPngHistProperties
-title: WICPngHistProperties
+title: WICPngHistProperties (wincodec.h)
 author: windows-sdk-content
 description: Specifies the Portable Network Graphics (PNG) hIST chunk metadata properties.
 old-location: wic\_wic_codec_wicpnghistproperties.htm

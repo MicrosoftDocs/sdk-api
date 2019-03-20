@@ -1,6 +1,6 @@
 ---
 UID: NE:xamlom.ResourceType
-title: ResourceType
+title: ResourceType (xamlom.h)
 author: windows-sdk-content
 description: Defines constants that specify the type of a resource in a resource dictionary.
 old-location: xaml_diagnostics\resourcetype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICFastMetadataEncoder
-title: IWICFastMetadataEncoder
+title: IWICFastMetadataEncoder (wincodec.h)
 author: windows-sdk-content
 description: Exposes methods used for in-place metadata editing. A fast metadata encoder enables you to add and remove metadata to an image without having to fully re-encode the image.
 old-location: wic\_wic_codec_iwicfastmetadataencoder.htm

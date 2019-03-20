@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IMessageView.Clear
-title: IMessageView::Clear
+title: IMessageView::Clear (mmc.h)
 author: windows-sdk-content
 description: The IMessageView::Clear method enables a snap-in to clear the title, text, and icon of the result pane message displayed using the MMC message OCX control.
 old-location: mmc\imessageview_clear.htm

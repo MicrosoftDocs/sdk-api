@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.IEnumCERTVIEWROW.EnumCertViewColumn
-title: IEnumCERTVIEWROW::EnumCertViewColumn
+title: IEnumCERTVIEWROW::EnumCertViewColumn (certview.h)
 author: windows-sdk-content
 description: Obtains an instance of a column-enumeration sequence for the current row of the row-enumeration sequence.
 old-location: security\ienumcertviewrow_enumcertviewcolumn.htm

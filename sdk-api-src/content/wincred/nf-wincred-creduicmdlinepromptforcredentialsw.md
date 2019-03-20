@@ -1,6 +1,6 @@
 ---
 UID: NF:wincred.CredUICmdLinePromptForCredentialsW
-title: CredUICmdLinePromptForCredentialsW function
+title: CredUICmdLinePromptForCredentialsW function (wincred.h)
 author: windows-sdk-content
 description: Prompts for and accepts credential information from a user working in a command-line (console) application. The name and password typed by the user are passed back to the calling application for verification.
 old-location: security\creduicmdlinepromptforcredentials.htm

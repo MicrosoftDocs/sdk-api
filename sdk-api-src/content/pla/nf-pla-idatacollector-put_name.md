@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollector.put_Name
-title: IDataCollector::put_Name
+title: IDataCollector::put_Name (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the name of the data collector.
 old-location: pla\idatacollector_name.htm

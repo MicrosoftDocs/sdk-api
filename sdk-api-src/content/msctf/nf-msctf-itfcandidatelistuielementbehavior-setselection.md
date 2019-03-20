@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElementBehavior.SetSelection
-title: ITfCandidateListUIElementBehavior::SetSelection
+title: ITfCandidateListUIElementBehavior::SetSelection (msctf.h)
 author: windows-sdk-content
 description: The ITfCandidateListUIElementBehavior::SetSelection method set the selection of the candidate list.
 old-location: tsf\itfcandidatelistuielementbehavior_setselection.htm

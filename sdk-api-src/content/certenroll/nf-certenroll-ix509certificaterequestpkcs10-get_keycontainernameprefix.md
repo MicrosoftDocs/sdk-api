@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_KeyContainerNamePrefix
-title: IX509CertificateRequestPkcs10::get_KeyContainerNamePrefix
+title: IX509CertificateRequestPkcs10::get_KeyContainerNamePrefix (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a prefix used to create the container name for a new private key.
 old-location: security\ix509certificaterequestpkcs10_keycontainernameprefix_property.htm

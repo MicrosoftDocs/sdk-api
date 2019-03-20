@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ICustomDestinationList.BeginList
-title: ICustomDestinationList::BeginList
+title: ICustomDestinationList::BeginList (shobjidl_core.h)
 author: windows-sdk-content
 description: Initiates a building session for a custom Jump List.
 old-location: shell\ICustomDestinationList_BeginList.htm

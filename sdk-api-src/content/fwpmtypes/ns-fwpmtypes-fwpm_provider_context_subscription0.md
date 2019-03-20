@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0_
-title: FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0
+title: FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Used to subscribe for change notifications.
 old-location: fwp\fwpm_provider_context_subscription0_struct.htm

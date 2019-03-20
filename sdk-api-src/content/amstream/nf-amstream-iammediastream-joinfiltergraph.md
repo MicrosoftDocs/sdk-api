@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMediaStream.JoinFilterGraph
-title: IAMMediaStream::JoinFilterGraph
+title: IAMMediaStream::JoinFilterGraph (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The JoinFilterGraph method connects a media stream filter to a filter graph.
 old-location: dshow\iammediastream_joinfiltergraph.htm

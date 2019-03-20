@@ -1,6 +1,6 @@
 ---
 UID: NF:interactioncontext.CreateInteractionContext
-title: CreateInteractionContext function
+title: CreateInteractionContext function (interactioncontext.h)
 author: windows-sdk-content
 description: Creates and initializes an Interaction Context object.
 old-location: input_intcontext\createinteractioncontext.htm

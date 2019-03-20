@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSampleProtection.GetOutputProtectionVersion
-title: IMFSampleProtection::GetOutputProtectionVersion
+title: IMFSampleProtection::GetOutputProtectionVersion (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the version of sample protection that the component implements on output.
 old-location: mf\imfsampleprotection_getoutputprotectionversion.htm

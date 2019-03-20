@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.OpenEventLogA
-title: OpenEventLogA function
+title: OpenEventLogA function (winbase.h)
 author: windows-sdk-content
 description: Opens a handle to the specified event log.
 old-location: base\openeventlog.htm

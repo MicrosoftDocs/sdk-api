@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio.PWINBIO_ASYNC_COMPLETION_CALLBACK
-title: PWINBIO_ASYNC_COMPLETION_CALLBACK
+title: PWINBIO_ASYNC_COMPLETION_CALLBACK (winbio.h)
 author: windows-sdk-content
 description: Notifies the client application that an asynchronous operation started by using WinBioAsyncOpenSession or WinBioAsyncOpenFramework has completed.
 old-location: secbiomet\pwinbio_async_completion_callback.htm

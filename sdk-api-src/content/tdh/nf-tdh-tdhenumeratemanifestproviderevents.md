@@ -1,6 +1,6 @@
 ---
 UID: NF:tdh.TdhEnumerateManifestProviderEvents
-title: TdhEnumerateManifestProviderEvents function
+title: TdhEnumerateManifestProviderEvents function (tdh.h)
 author: windows-sdk-content
 description: Retrieves the list of events present in the provider manifest.
 old-location: etw\tdhenumeratemanifestproviderevents.htm

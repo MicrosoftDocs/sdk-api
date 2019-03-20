@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IHWEventHandler.Initialize
-title: IHWEventHandler::Initialize
+title: IHWEventHandler::Initialize (shobjidl.h)
 author: windows-sdk-content
 description: Initializes an object that contains an implementation of the IHWEventHandler interface.
 old-location: shell\IHWEventHandler_Initialize.htm

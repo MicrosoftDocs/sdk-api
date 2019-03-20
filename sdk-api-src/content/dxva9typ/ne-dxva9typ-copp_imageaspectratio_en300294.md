@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva9typ._COPP_ImageAspectRatio_EN300294
-title: COPP_ImageAspectRatio_EN300294
+title: COPP_ImageAspectRatio_EN300294 (dxva9typ.h)
 author: windows-sdk-content
 description: Specifies the aspect ratio for EN 300 294.
 old-location: dshow\copp_imageaspectratio_en300294.htm

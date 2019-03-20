@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._Initialize
-title: IBrowserService2::_Initialize
+title: IBrowserService2::_Initialize (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Coordinates the initializing of state between the base and the derived classes.
 old-location: shell\IBrowserService2__Initialize.htm

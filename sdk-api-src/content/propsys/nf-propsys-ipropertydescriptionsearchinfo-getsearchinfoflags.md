@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyDescriptionSearchInfo.GetSearchInfoFlags
-title: IPropertyDescriptionSearchInfo::GetSearchInfoFlags
+title: IPropertyDescriptionSearchInfo::GetSearchInfoFlags (propsys.h)
 author: windows-sdk-content
 description: Gets the PROPDESC_SEARCHINFO_FLAGS associated with the property.
 old-location: properties\IPropertyDescriptionSearchInfo_GetSearchInfoFlags.htm

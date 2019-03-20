@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_FilePropertyNames
-title: IFsrmPropertyBag::get_FilePropertyNames
+title: IFsrmPropertyBag::get_FilePropertyNames (fsrmpipeline.h)
 author: windows-sdk-content
 description: A list of the names of the properties that the bag contains.
 old-location: fsrm\ifsrmpropertybag_filepropertynames.htm

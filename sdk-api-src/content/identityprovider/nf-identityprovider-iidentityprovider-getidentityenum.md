@@ -1,6 +1,6 @@
 ---
 UID: NF:identityprovider.IIdentityProvider.GetIdentityEnum
-title: IIdentityProvider::GetIdentityEnum
+title: IIdentityProvider::GetIdentityEnum (identityprovider.h)
 author: windows-sdk-content
 description: Retrieves an IEnumUnknown interface pointer that can be used to enumerate identities.
 old-location: security\iidentityprovider_getidentityenum.htm

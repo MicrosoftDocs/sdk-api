@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetClientMonitorData
-title: IWRdsProtocolConnection::GetClientMonitorData
+title: IWRdsProtocolConnection::GetClientMonitorData (wtsprotocol.h)
 author: windows-sdk-content
 description: Retrieves the number of monitors and the primary monitor number on the client.
 old-location: termserv\iwrdsprotocolconnection_getclientmonitordata.htm

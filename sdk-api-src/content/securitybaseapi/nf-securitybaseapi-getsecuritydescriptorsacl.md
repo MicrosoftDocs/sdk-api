@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.GetSecurityDescriptorSacl
-title: GetSecurityDescriptorSacl function
+title: GetSecurityDescriptorSacl function (securitybaseapi.h)
 author: windows-sdk-content
 description: Retrieves a pointer to the system access control list (SACL) in a specified security descriptor.
 old-location: security\getsecuritydescriptorsacl.htm

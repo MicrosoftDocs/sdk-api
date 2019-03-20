@@ -1,6 +1,6 @@
 ---
 UID: NF:joystickapi.joyGetPos
-title: joyGetPos function
+title: joyGetPos function (joystickapi.h)
 author: windows-sdk-content
 description: The joyGetPos function queries a joystick for its position and button status.
 old-location: multimedia\joygetpos.htm

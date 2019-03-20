@@ -1,6 +1,6 @@
 ---
 UID: NS:vdshwprv._VDS_MOUNT_POINT_NOTIFICATION
-title: VDS_MOUNT_POINT_NOTIFICATION
+title: VDS_MOUNT_POINT_NOTIFICATION (vdshwprv.h)
 author: windows-sdk-content
 description: Represents notification information that was returned by the basic or dynamic software provider because a drive letter or volume GUID path changed.
 old-location: base\vds_mount_point_notification.htm

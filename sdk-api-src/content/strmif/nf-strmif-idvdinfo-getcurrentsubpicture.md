@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo.GetCurrentSubpicture
-title: IDvdInfo::GetCurrentSubpicture
+title: IDvdInfo::GetCurrentSubpicture (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the number of available subpicture streams, the currently selected subpicture stream number, and whether the subpicture display is disabled.
 old-location: dshow\idvdinfo_getcurrentsubpicture.htm

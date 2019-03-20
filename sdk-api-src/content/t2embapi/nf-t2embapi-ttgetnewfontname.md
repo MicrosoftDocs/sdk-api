@@ -1,6 +1,6 @@
 ---
 UID: NF:t2embapi.TTGetNewFontName
-title: TTGetNewFontName function
+title: TTGetNewFontName function (t2embapi.h)
 author: windows-sdk-content
 description: Obtains the family name for the font loaded through TTLoadEmbeddedFont.
 old-location: gdi\ttgetnewfontname.htm

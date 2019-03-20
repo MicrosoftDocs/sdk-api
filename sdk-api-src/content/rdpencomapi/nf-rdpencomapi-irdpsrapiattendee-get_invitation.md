@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendee.get_Invitation
-title: IRDPSRAPIAttendee::get_Invitation
+title: IRDPSRAPIAttendee::get_Invitation (rdpencomapi.h)
 author: windows-sdk-content
 description: The invitation used to grant the attendee access to the conference.
 old-location: rdp\irdpsrapiattendee_invitation.htm

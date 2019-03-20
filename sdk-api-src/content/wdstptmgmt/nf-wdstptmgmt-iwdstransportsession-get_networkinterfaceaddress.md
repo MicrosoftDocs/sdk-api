@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSession.get_NetworkInterfaceAddress
-title: IWdsTransportSession::get_NetworkInterfaceAddress
+title: IWdsTransportSession::get_NetworkInterfaceAddress (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives the MAC address of the server network interface used by this transport session.
 old-location: wds\iwdstransportsession_networkinterfaceaddress.htm

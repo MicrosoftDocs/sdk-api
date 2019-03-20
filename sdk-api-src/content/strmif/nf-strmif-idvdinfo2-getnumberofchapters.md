@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetNumberOfChapters
-title: IDvdInfo2::GetNumberOfChapters
+title: IDvdInfo2::GetNumberOfChapters (strmif.h)
 author: windows-sdk-content
 description: The GetNumberOfChapters method retrieves the number of chapters in a given title.
 old-location: dshow\idvdinfo2_getnumberofchapters.htm

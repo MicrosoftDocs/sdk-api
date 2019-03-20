@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngAllocUserMem
-title: EngAllocUserMem macro
+title: EngAllocUserMem macro (winddi.h)
 author: windows-sdk-content
 description: The EngAllocUserMem function allocates a block of memory from the address space of the current process and inserts a caller-supplied tag before the allocation.
 old-location: display\engallocusermem.htm

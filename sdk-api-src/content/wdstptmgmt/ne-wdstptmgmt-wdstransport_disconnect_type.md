@@ -1,6 +1,6 @@
 ---
 UID: NE:wdstptmgmt.__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0004
-title: WDSTRANSPORT_DISCONNECT_TYPE
+title: WDSTRANSPORT_DISCONNECT_TYPE (wdstptmgmt.h)
 author: windows-sdk-content
 description: Indicates what action a WDS client should take when it is disconnected from the session.
 old-location: wds\wdstransport_disconnect_type.htm

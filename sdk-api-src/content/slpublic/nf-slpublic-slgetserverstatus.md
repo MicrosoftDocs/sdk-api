@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLGetServerStatus
-title: SLGetServerStatus function
+title: SLGetServerStatus function (slpublic.h)
 author: windows-sdk-content
 description: Checks the server status according to the specified URL and RequestType.
 old-location: security\slgetserverstatus.htm

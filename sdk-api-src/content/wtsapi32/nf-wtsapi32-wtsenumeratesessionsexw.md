@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSEnumerateSessionsExW
-title: WTSEnumerateSessionsExW function
+title: WTSEnumerateSessionsExW function (wtsapi32.h)
 author: windows-sdk-content
 description: Retrieves a list of sessions on a specified Remote Desktop Session Host (RD Session Host) server or Remote Desktop Virtualization Host (RD Virtualization Host) server.
 old-location: termserv\wtsenumeratesessionsex.htm

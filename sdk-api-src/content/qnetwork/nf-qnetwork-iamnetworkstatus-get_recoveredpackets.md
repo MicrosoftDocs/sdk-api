@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetworkStatus.get_RecoveredPackets
-title: IAMNetworkStatus::get_RecoveredPackets
+title: IAMNetworkStatus::get_RecoveredPackets (qnetwork.h)
 author: windows-sdk-content
 description: The get_RecoveredPackets method retrieves the number of recovered packets.
 old-location: dshow\iamnetworkstatus_get_recoveredpackets.htm

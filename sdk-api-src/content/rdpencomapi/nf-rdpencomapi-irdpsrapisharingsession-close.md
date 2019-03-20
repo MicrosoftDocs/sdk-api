@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.Close
-title: IRDPSRAPISharingSession::Close
+title: IRDPSRAPISharingSession::Close (rdpencomapi.h)
 author: windows-sdk-content
 description: Disconnects all attendees from the session and stops listening to incoming connections.
 old-location: rdp\irdpsrapisharingsession_close.htm

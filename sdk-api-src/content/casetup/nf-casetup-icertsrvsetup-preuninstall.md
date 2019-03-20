@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertSrvSetup.PreUnInstall
-title: ICertSrvSetup::PreUnInstall
+title: ICertSrvSetup::PreUnInstall (casetup.h)
 author: windows-sdk-content
 description: Temporarily saves role-specific state information and then it uninstalls the role.
 old-location: security\icertsrvsetup_preuninstall.htm

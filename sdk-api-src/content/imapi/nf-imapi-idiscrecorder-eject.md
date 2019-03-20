@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscRecorder.Eject
-title: IDiscRecorder::Eject
+title: IDiscRecorder::Eject (imapi.h)
 author: windows-sdk-content
 description: Unlocks and ejects the tray of the disc recorder, if possible.
 old-location: imapi\idiscrecorder_eject.htm

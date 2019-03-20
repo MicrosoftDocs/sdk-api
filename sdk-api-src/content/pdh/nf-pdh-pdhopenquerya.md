@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhOpenQueryA
-title: PdhOpenQueryA function
+title: PdhOpenQueryA function (pdh.h)
 author: windows-sdk-content
 description: Creates a new query that is used to manage the collection of performance data. To use handles to data sources, use the PdhOpenQueryH function.
 old-location: perf\pdhopenquery.htm

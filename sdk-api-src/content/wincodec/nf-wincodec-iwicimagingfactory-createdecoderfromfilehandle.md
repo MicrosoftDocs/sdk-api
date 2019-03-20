@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateDecoderFromFileHandle
-title: IWICImagingFactory::CreateDecoderFromFileHandle
+title: IWICImagingFactory::CreateDecoderFromFileHandle (wincodec.h)
 author: windows-sdk-content
 description: Creates a new instance of the IWICBitmapDecoder based on the given file handle.
 old-location: wic\_wic_codec_iwicimagingfactory_createdecoderfromfilehandle.htm

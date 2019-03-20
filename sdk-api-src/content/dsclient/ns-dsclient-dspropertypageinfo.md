@@ -1,6 +1,6 @@
 ---
 UID: NS:dsclient.__unnamed_struct_2
-title: DSPROPERTYPAGEINFO
+title: DSPROPERTYPAGEINFO (dsclient.h)
 author: windows-sdk-content
 description: The DSPROPERTYPAGEINFO structure is used by an Active Directory property sheet extension to obtain static registration data for the extension. This structure is supplied by the CFSTR_DSPROPERTYPAGEINFO clipboard format.
 old-location: ad\dspropertypageinfo.htm

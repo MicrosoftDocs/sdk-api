@@ -1,6 +1,6 @@
 ---
 UID: NF:micaut.IMathInputControl.LoadInk
-title: IMathInputControl::LoadInk
+title: IMathInputControl::LoadInk (micaut.h)
 author: windows-sdk-content
 description: Processes ink and triggers recognition.
 old-location: tablet\imathinputcontrol_loadink.htm

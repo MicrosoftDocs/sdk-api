@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.GetMaximumBitmapSize
-title: ID2D1RenderTarget::GetMaximumBitmapSize
+title: ID2D1RenderTarget::GetMaximumBitmapSize (d2d1.h)
 author: windows-sdk-content
 description: Gets the maximum size, in device-dependent units (pixels), of any one bitmap dimension supported by the render target.
 old-location: direct2d\id2d1rendertarget_getmaximumbitmapsize.htm

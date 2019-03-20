@@ -1,6 +1,6 @@
 ---
 UID: NS:mfidl._MFINPUTTRUSTAUTHORITY_ACTION
-title: MFINPUTTRUSTAUTHORITY_ACCESS_ACTION
+title: MFINPUTTRUSTAUTHORITY_ACCESS_ACTION (mfidl.h)
 author: windows-sdk-content
 description: Describes an action requested by an output trust authority (OTA). The request is sent to an input trust authority (ITA).
 old-location: mf\mfinputtrustauthority_access_action.htm

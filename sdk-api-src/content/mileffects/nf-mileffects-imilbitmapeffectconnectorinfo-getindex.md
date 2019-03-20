@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnectorInfo.GetIndex
-title: IMILBitmapEffectConnectorInfo::GetIndex
+title: IMILBitmapEffectConnectorInfo::GetIndex (mileffects.h)
 author: windows-sdk-content
 description: Retrieves the zero based index value for the pin.
 old-location: wibe\_wibe_imilbitmapeffectconnectorinfo_getindex.htm

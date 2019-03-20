@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMediaTypeStream.GetFormat
-title: IAMMediaTypeStream::GetFormat
+title: IAMMediaTypeStream::GetFormat (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The GetFormat method retrieves the format of the stream.
 old-location: dshow\iammediatypestream_getformat.htm

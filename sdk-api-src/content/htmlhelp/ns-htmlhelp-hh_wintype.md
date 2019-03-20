@@ -1,6 +1,6 @@
 ---
 UID: NS:htmlhelp.tagHH_WINTYPE
-title: HH_WINTYPE
+title: HH_WINTYPE (htmlhelp.h)
 author: windows-sdk-content
 description: Use this structure to specify or modify the attributes of a window type.
 old-location: htmlhelp\hh_wintype_structure.htm

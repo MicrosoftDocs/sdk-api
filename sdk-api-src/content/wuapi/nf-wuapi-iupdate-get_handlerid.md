@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_HandlerID
-title: IUpdate::get_HandlerID
+title: IUpdate::get_HandlerID (wuapi.h)
 author: windows-sdk-content
 description: Gets the install handler of the update.
 old-location: wua\iupdate_handlerid.htm

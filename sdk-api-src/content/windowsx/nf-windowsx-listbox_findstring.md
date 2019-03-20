@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ListBox_FindString
-title: ListBox_FindString macro
+title: ListBox_FindString macro (windowsx.h)
 author: windows-sdk-content
 description: Finds the first string in a list box that begins with the specified string. You can use this macro or send the LB_FINDSTRING message explicitly.
 old-location: controls\ListBox_FindString.htm

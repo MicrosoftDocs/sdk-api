@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.AddAccessDeniedObjectAce
-title: AddAccessDeniedObjectAce function
+title: AddAccessDeniedObjectAce function (securitybaseapi.h)
 author: windows-sdk-content
 description: Adds an access-denied access control entry (ACE) to the end of a discretionary access control list (DACL). The new ACE can deny access to an object, or to a property set or property on an object.
 old-location: security\addaccessdeniedobjectace.htm

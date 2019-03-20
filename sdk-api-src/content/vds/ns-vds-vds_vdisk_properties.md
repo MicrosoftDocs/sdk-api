@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_VDISK_PROPERTIES
-title: VDS_VDISK_PROPERTIES
+title: VDS_VDISK_PROPERTIES (vds.h)
 author: windows-sdk-content
 description: Defines the properties of a virtual disk.
 old-location: base\vds_vdisk_properties.htm

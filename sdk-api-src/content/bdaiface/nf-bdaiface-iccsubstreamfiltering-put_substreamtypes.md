@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.ICCSubStreamFiltering.put_SubstreamTypes
-title: ICCSubStreamFiltering::put_SubstreamTypes
+title: ICCSubStreamFiltering::put_SubstreamTypes (bdaiface.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iccsubstreamfiltering_put_substreamtypes.htm

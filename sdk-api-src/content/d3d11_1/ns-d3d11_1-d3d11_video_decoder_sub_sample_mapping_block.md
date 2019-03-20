@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11_1.D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK
-title: D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK
+title: D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK (d3d11_1.h)
 author: windows-sdk-content
 description: Describes a sub sample mapping block.
 old-location: mf\d3d11_video_decoder_sub_sample_mapping_block.htm

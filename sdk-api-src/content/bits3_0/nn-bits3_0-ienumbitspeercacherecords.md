@@ -1,6 +1,6 @@
 ---
 UID: NN:bits3_0.IEnumBitsPeerCacheRecords
-title: IEnumBitsPeerCacheRecords
+title: IEnumBitsPeerCacheRecords (bits3_0.h)
 author: windows-sdk-content
 description: Use IEnumBitsPeerCacheRecords to enumerate the records of the cache.
 old-location: bits\ienumbitspeercacherecords.htm

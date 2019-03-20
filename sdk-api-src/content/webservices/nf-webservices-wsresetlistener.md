@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsResetListener
-title: WsResetListener function
+title: WsResetListener function (webservices.h)
 author: windows-sdk-content
 description: Resets a Listener object so it can be reused. Use of this function requires that the Listener state be set to WS_LISTENER_STATE_CREATED or WS_LISTENER_STATE_CLOSED.
 old-location: wsw\wsresetlistener.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIFactory1.IsCurrent
-title: IDXGIFactory1::IsCurrent
+title: IDXGIFactory1::IsCurrent (dxgi.h)
 author: windows-sdk-content
 description: Informs an application of the possible need to re-enumerate adapters.
 old-location: direct3ddxgi\idxgifactory1_iscurrent.htm

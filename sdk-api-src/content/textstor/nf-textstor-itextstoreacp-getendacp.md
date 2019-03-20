@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP.GetEndACP
-title: ITextStoreACP::GetEndACP
+title: ITextStoreACP::GetEndACP (textstor.h)
 author: windows-sdk-content
 description: The ITextStoreACP::GetEndACP method returns the number of characters in a document.
 old-location: tsf\itextstoreacp_getendacp.htm

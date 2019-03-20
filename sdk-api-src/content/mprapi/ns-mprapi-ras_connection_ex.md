@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._RAS_CONNECTION_EX
-title: RAS_CONNECTION_EX
+title: RAS_CONNECTION_EX (mprapi.h)
 author: windows-sdk-content
 description: Contains specific information for the connection that includes:\_the user name, domain, and Globally Unique Identifier (GUID) associated with the connection, its Network Access Protection (NAP) quarantine state, its packet statistics, as well as its Point-to-Point(PPP) and Internet Key Exchange version 2 (IKEv2) related information.
 old-location: rras\ras_connection_ex.htm

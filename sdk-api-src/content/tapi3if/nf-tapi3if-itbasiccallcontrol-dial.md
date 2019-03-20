@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.Dial
-title: ITBasicCallControl::Dial
+title: ITBasicCallControl::Dial (tapi3if.h)
 author: windows-sdk-content
 description: The Dial method dials the specified address.
 old-location: tapi3\itbasiccallcontrol_dial.htm

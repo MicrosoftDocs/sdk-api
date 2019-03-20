@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCPV4_FAILOVER_CLIENT_INFO_ARRAY
-title: DHCPV4_FAILOVER_CLIENT_INFO_ARRAY
+title: DHCPV4_FAILOVER_CLIENT_INFO_ARRAY (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCPV4_FAILOVER_CLIENT_INFO_ARRAY structure defines an array of DHCP server scope statistics that are part of a failover relationship.
 old-location: dhcp\dhcpv4_failover_client_info_array.htm

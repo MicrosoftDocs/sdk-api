@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngSetLastError
-title: EngSetLastError function
+title: EngSetLastError function (winddi.h)
 author: windows-sdk-content
 description: The EngSetLastError function causes GDI to report an error code, which can be retrieved by an application.
 old-location: display\engsetlasterror.htm

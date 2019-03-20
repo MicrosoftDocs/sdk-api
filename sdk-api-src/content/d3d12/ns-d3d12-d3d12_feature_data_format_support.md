@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_FORMAT_SUPPORT
-title: D3D12_FEATURE_DATA_FORMAT_SUPPORT
+title: D3D12_FEATURE_DATA_FORMAT_SUPPORT (d3d12.h)
 author: windows-sdk-content
 description: Describes which resources are supported by the current graphics driver for a given format.
 old-location: direct3d12\d3d12_feature_data_format_support.htm

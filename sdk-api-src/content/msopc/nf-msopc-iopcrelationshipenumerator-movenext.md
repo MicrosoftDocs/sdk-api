@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcRelationshipEnumerator.MoveNext
-title: IOpcRelationshipEnumerator::MoveNext
+title: IOpcRelationshipEnumerator::MoveNext (msopc.h)
 author: windows-sdk-content
 description: Moves the current position of the enumerator to the next IOpcRelationship interface pointer.
 old-location: opc\iopcrelationshipenumerator_movenext.htm

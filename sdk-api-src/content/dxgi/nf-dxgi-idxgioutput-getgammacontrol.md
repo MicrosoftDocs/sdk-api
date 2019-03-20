@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIOutput.GetGammaControl
-title: IDXGIOutput::GetGammaControl
+title: IDXGIOutput::GetGammaControl (dxgi.h)
 author: windows-sdk-content
 description: Gets the gamma control settings.
 old-location: direct3ddxgi\idxgioutput_getgammacontrol.htm

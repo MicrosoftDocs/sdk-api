@@ -1,6 +1,6 @@
 ---
 UID: NF:effects.IWMPEffects2.RenderWindowed
-title: IWMPEffects2::RenderWindowed
+title: IWMPEffects2::RenderWindowed (effects.h)
 author: windows-sdk-content
 description: The RenderWindowed method is called by Windows Media Player to render a windowed visualization.
 old-location: wmp\iwmpeffects2_renderwindowed.htm

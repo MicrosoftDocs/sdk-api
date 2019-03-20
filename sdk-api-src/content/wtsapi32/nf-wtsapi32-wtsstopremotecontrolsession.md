@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSStopRemoteControlSession
-title: WTSStopRemoteControlSession function
+title: WTSStopRemoteControlSession function (wtsapi32.h)
 author: windows-sdk-content
 description: Stops a remote control session.
 old-location: termserv\wtsstopremotecontrolsession.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509Attributes
-title: IX509Attributes
+title: IX509Attributes (certenroll.h)
 author: windows-sdk-content
 description: The IX509Attributes interface defines the following methods and properties that enable you to manage a collection of IX509Attribute objects.
 old-location: security\ix509attributes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilGetFileTimeProperty
-title: ResUtilGetFileTimeProperty function
+title: ResUtilGetFileTimeProperty function (resapi.h)
 author: windows-sdk-content
 description: TBD. The PRESUTIL_GET_FILETIME_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilgetfiletimeproperty.htm

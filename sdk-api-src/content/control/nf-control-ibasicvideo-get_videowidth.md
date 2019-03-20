@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.get_VideoWidth
-title: IBasicVideo::get_VideoWidth
+title: IBasicVideo::get_VideoWidth (control.h)
 author: windows-sdk-content
 description: The get_VideoWidth method retrieves the native width of the video.
 old-location: dshow\ibasicvideo_get_videowidth.htm

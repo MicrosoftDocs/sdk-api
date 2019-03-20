@@ -1,6 +1,6 @@
 ---
 UID: NF:peerdist.PeerDistStartup
-title: PeerDistStartup function
+title: PeerDistStartup function (peerdist.h)
 author: windows-sdk-content
 description: PeerDistStartup function creates a new Peer Distribution instance handle which must be passed to all other Peer Distribution APIs.
 old-location: p2p\peerdiststartup.htm

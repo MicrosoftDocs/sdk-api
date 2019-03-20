@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.IEnumTfFunctionProviders
-title: IEnumTfFunctionProviders
+title: IEnumTfFunctionProviders (msctf.h)
 author: windows-sdk-content
 description: The IEnumTfFunctionProviders interface is implemented by the TSF manager to provide an enumeration of function provider objects.
 old-location: tsf\ienumtffunctionproviders.htm

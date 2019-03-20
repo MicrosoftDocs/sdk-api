@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IGetClusterUIInfo.GetFont
-title: IGetClusterUIInfo::GetFont
+title: IGetClusterUIInfo::GetFont (cluadmex.h)
 author: windows-sdk-content
 description: Returns a handle to the font to be displayed on property and wizard pages.
 old-location: mscs\igetclusteruiinfo_getfont.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertSrvSetup.InitializeDefaults
-title: ICertSrvSetup::InitializeDefaults
+title: ICertSrvSetup::InitializeDefaults (casetup.h)
 author: windows-sdk-content
 description: Initializes a CCertSrvSetup object with default values to enable installation of the Certification Authority role.
 old-location: security\icertsrvsetup_initializedefaults.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeLongArray.Decode
-title: ICertEncodeLongArray::Decode
+title: ICertEncodeLongArray::Decode (certenc.h)
 author: windows-sdk-content
 description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded Long array and stores the resulting array of Long values in the CertEncodeLongArray object.
 old-location: security\icertencodelongarray_decode.htm

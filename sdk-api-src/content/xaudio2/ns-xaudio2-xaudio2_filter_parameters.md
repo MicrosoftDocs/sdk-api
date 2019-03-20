@@ -1,6 +1,6 @@
 ---
 UID: NS:xaudio2.XAUDIO2_FILTER_PARAMETERS
-title: XAUDIO2_FILTER_PARAMETERS
+title: XAUDIO2_FILTER_PARAMETERS (xaudio2.h)
 author: windows-sdk-content
 description: Defines filter parameters for a source voice.
 old-location: xaudio2\xaudio2_filter_parameters.htm

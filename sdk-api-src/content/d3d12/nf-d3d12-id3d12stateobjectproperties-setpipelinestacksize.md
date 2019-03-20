@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12StateObjectProperties.SetPipelineStackSize
-title: ID3D12StateObjectProperties::SetPipelineStackSize
+title: ID3D12StateObjectProperties::SetPipelineStackSize (d3d12.h)
 author: windows-sdk-content
 description: Set the current pipeline stack size.
 old-location: direct3d12\id3d12stateobjectproperties_setpipelinestacksize.htm

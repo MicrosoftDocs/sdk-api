@@ -1,6 +1,6 @@
 ---
 UID: NF:filter.IFilter.GetChunk
-title: IFilter::GetChunk
+title: IFilter::GetChunk (filter.h)
 author: windows-sdk-content
 description: Positions the filter at the beginning of the next chunk, or at the first chunk if this is the first call to the GetChunk method, and returns a description of the current chunk.
 old-location: indexsrv\ifilter_getchunk.htm

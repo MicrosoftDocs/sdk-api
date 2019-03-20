@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMBackupRestoreProps.GetPropCount
-title: IWMBackupRestoreProps::GetPropCount
+title: IWMBackupRestoreProps::GetPropCount (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetPropCount method retrieves the number of properties.
 old-location: wmformat\iwmbackuprestoreprops_getpropcount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mmcobj._MMC_PROPERTY_ACTION
-title: MMC_PROPERTY_ACTION
+title: MMC_PROPERTY_ACTION (mmcobj.h)
 author: windows-sdk-content
 description: The MMC_PROPERTY_ACTION enumeration specifies the operations that can occur to a property contained in an MMC_SNAPIN_PROPERTY structure.
 old-location: mmc\mmc_property_action.htm

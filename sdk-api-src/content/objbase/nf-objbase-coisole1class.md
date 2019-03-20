@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.CoIsOle1Class
-title: CoIsOle1Class function
+title: CoIsOle1Class function (objbase.h)
 author: windows-sdk-content
 description: Determines whether the specified CLSID represents an OLE 1 object.
 old-location: com\coisole1class.htm

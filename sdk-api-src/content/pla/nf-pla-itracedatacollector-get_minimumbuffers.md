@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_MinimumBuffers
-title: ITraceDataCollector::get_MinimumBuffers
+title: ITraceDataCollector::get_MinimumBuffers (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the minimum number of buffers allocated for the event tracing session's buffer pool.
 old-location: pla\itracedatacollector_minimumbuffers.htm

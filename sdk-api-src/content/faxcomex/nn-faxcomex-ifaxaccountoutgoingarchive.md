@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcomex.IFaxAccountOutgoingArchive
-title: IFaxAccountOutgoingArchive
+title: IFaxAccountOutgoingArchive (faxcomex.h)
 author: windows-sdk-content
 description: Used by a fax client application to access a specified fax account's archive of successfully sent outbound fax messages. Use this interface to retrieve messages and get the size of the archive.
 old-location: fax\_mfax_faxaccountoutgoingarchive_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects.D2D1_HISTOGRAM_PROP
-title: D2D1_HISTOGRAM_PROP
+title: D2D1_HISTOGRAM_PROP (d2d1effects.h)
 author: windows-sdk-content
 description: Identifiers for properties of the Histogram effect.
 old-location: direct2d\d2d1_histogram_prop.htm

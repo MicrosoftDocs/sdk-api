@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedIsEnabled
-title: IUIAutomationElement::get_CachedIsEnabled
+title: IUIAutomationElement::get_CachedIsEnabled (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached value that indicates whether the element is enabled.
 old-location: winauto\uiauto_IUIAutomationElement_CachedIsEnabled.htm

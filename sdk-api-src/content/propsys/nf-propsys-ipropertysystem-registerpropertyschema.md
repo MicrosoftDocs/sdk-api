@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertySystem.RegisterPropertySchema
-title: IPropertySystem::RegisterPropertySchema
+title: IPropertySystem::RegisterPropertySchema (propsys.h)
 author: windows-sdk-content
 description: Informs the schema subsystem of the addition of a property description schema file.
 old-location: properties\IPropertySystem_RegisterPropertySchema.htm

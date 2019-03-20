@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._SwitchActivationNow
-title: IBrowserService2::_SwitchActivationNow
+title: IBrowserService2::_SwitchActivationNow (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Coordinates state updates while switching between current and pending browser views.
 old-location: shell\IBrowserService2__SwitchActivationNow.htm

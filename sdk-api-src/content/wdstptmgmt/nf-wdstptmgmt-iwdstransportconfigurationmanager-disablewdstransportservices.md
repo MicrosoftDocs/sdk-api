@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportConfigurationManager.DisableWdsTransportServices
-title: IWdsTransportConfigurationManager::DisableWdsTransportServices
+title: IWdsTransportConfigurationManager::DisableWdsTransportServices (wdstptmgmt.h)
 author: windows-sdk-content
 description: Sets all WDS transport services to Disabled mode.
 old-location: wds\iwdstransportconfigurationmanager_disablewdstransportservices.htm

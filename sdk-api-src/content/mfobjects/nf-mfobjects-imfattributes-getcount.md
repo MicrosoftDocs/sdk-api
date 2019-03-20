@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetCount
-title: IMFAttributes::GetCount
+title: IMFAttributes::GetCount (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves the number of attributes that are set on this object.
 old-location: mf\imfattributes_getcount.htm

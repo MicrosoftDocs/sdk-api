@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiohrtf.ISpatialAudioObjectForHrtf.SetDistanceDecay
-title: ISpatialAudioObjectForHrtf::SetDistanceDecay
+title: ISpatialAudioObjectForHrtf::SetDistanceDecay (spatialaudiohrtf.h)
 author: windows-sdk-content
 description: Sets the decay model that is applied over distance from the position of an ISpatialAudioObjectForHrtf to the position of the listener.
 old-location: coreaudio\ispatialaudioobjectforhrtf_setdistancedecay.htm

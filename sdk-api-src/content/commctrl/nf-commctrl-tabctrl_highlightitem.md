@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TabCtrl_HighlightItem
-title: TabCtrl_HighlightItem macro
+title: TabCtrl_HighlightItem macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the highlight state of a tab item. You can use this macro or send the TCM_HIGHLIGHTITEM message explicitly.
 old-location: controls\TabCtrl_HighlightItem.htm

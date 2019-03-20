@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.UnmapDebugInformation
-title: UnmapDebugInformation function
+title: UnmapDebugInformation function (dbghelp.h)
 author: windows-sdk-content
 description: Deallocates the memory and resources allocated by a call to the MapDebugInformation function.
 old-location: base\unmapdebuginformation.htm

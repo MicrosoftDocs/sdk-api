@@ -1,6 +1,6 @@
 ---
 UID: NS:mmc._MMC_LISTPAD_INFO
-title: MMC_LISTPAD_INFO
+title: MMC_LISTPAD_INFO (mmc.h)
 author: windows-sdk-content
 description: The MMC_LISTPAD_INFO structure is introduced in MMC 1.1.
 old-location: mmc\mmc_listpad_info.htm

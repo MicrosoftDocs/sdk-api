@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.SetAbort
-title: Graphics::SetAbort
+title: Graphics::SetAbort (gdiplusgraphics.h)
 author: windows-sdk-content
 description: Not used in Windows GDI+ versions 1.0 and 1.1.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_SetAbort_.htm

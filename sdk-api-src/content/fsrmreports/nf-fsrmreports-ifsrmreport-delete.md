@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReport.Delete
-title: IFsrmReport::Delete
+title: IFsrmReport::Delete (fsrmreports.h)
 author: windows-sdk-content
 description: Removes this report object from the report job object.
 old-location: fsrm\ifsrmreport_delete.htm

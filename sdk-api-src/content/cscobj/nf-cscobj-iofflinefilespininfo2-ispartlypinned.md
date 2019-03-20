@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesPinInfo2.IsPartlyPinned
-title: IOfflineFilesPinInfo2::IsPartlyPinned
+title: IOfflineFilesPinInfo2::IsPartlyPinned (cscobj.h)
 author: windows-sdk-content
 description: Determines whether the item is partly pinned.
 old-location: of\iofflinefilespininfo2_ispartlypinned.htm

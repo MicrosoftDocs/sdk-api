@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorTruncate
-title: XMVectorTruncate function
+title: XMVectorTruncate function (directxmath.h)
 author: windows-sdk-content
 description: Rounds each component of a vector to the nearest integer value in the direction of zero.
 old-location: dxmath\xmvectortruncate.htm

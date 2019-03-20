@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsCreateServiceHost
-title: WsCreateServiceHost function
+title: WsCreateServiceHost function (webservices.h)
 author: windows-sdk-content
 description: Creates a service host for the specified endpoints.
 old-location: wsw\wscreateservicehost.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngQueryDeviceAttribute
-title: EngQueryDeviceAttribute function
+title: EngQueryDeviceAttribute function (winddi.h)
 author: windows-sdk-content
 description: The EngQueryDeviceAttribute function allows the driver to query the system about particular attributes of the device.
 old-location: display\engquerydeviceattribute.htm

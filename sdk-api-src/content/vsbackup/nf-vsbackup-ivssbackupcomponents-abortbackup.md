@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.AbortBackup
-title: IVssBackupComponents::AbortBackup
+title: IVssBackupComponents::AbortBackup (vsbackup.h)
 author: windows-sdk-content
 description: The AbortBackup method notifies VSS that a backup operation was terminated.
 old-location: base\ivssbackupcomponents_abortbackup.htm

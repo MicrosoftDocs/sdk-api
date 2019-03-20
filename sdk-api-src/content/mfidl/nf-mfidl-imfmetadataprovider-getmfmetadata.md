@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMetadataProvider.GetMFMetadata
-title: IMFMetadataProvider::GetMFMetadata
+title: IMFMetadataProvider::GetMFMetadata (mfidl.h)
 author: windows-sdk-content
 description: Gets a collection of metadata, either for an entire presentation, or for one stream in the presentation.
 old-location: mf\imfmetadataprovider_getmfmetadata.htm

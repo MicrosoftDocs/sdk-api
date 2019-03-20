@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProvider.InstanceQueryService
-title: IFunctionDiscoveryProvider::InstanceQueryService
+title: IFunctionDiscoveryProvider::InstanceQueryService (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: Creates a provider-specific COM object for the function instance.
 old-location: ncd\ifunctiondiscoveryprovider_instancequeryservice_method.htm

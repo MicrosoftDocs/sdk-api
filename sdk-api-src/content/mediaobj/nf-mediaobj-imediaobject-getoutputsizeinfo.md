@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetOutputSizeInfo
-title: IMediaObject::GetOutputSizeInfo
+title: IMediaObject::GetOutputSizeInfo (mediaobj.h)
 author: windows-sdk-content
 description: The GetOutputSizeInfo method retrieves the buffer requirements for a specified output stream.
 old-location: dshow\imediaobject_getoutputsizeinfo.htm

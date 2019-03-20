@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingConfiguration.DisableSharing
-title: INetSharingConfiguration::DisableSharing
+title: INetSharingConfiguration::DisableSharing (netcon.h)
 author: windows-sdk-content
 description: The DisableSharing method disables sharing on this connection. It also disables all mappings on this connection. It does not disable Internet Connection Firewall or bridge configuration.
 old-location: ics\inetsharingconfiguration_disablesharing.htm

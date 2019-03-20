@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.GetTextTracks
-title: IMFTimedText::GetTextTracks
+title: IMFTimedText::GetTextTracks (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the list of all the timed-text tracks in the timed-text component.
 old-location: mf\imftimedtext_gettexttracks.htm

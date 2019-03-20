@@ -1,6 +1,6 @@
 ---
 UID: NF:dwmapi.DwmEnableComposition
-title: DwmEnableComposition function
+title: DwmEnableComposition function (dwmapi.h)
 author: windows-sdk-content
 description: Enables or disables Desktop Window Manager (DWM) composition.
 old-location: dwm\dwmenablecomposition.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:vss._VSS_BACKUP_TYPE
-title: VSS_BACKUP_TYPE
+title: VSS_BACKUP_TYPE (vss.h)
 author: windows-sdk-content
 description: Indicates the type of backup to be performed.
 old-location: base\vss_backup_type.htm

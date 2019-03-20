@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRTEXT
-title: EMRTEXT
+title: EMRTEXT (wingdi.h)
 author: windows-sdk-content
 description: The EMRTEXT structure contains members for text output.
 old-location: gdi\emrtext.htm

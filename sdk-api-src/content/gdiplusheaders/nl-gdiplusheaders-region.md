@@ -1,6 +1,6 @@
 ---
 UID: NL:gdiplusheaders.Region
-title: Region
+title: Region (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Region class describes an area of the display surface.
 old-location: gdiplus\_gdiplus_CLASS_Region_Class.htm

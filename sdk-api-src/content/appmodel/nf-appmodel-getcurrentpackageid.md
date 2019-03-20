@@ -1,6 +1,6 @@
 ---
 UID: NF:appmodel.GetCurrentPackageId
-title: GetCurrentPackageId function
+title: GetCurrentPackageId function (appmodel.h)
 author: windows-sdk-content
 description: Gets the package identifier (ID) for the calling process.
 old-location: appxpkg\getcurrentpackageid.htm

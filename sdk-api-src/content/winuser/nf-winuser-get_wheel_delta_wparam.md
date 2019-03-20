@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GET_WHEEL_DELTA_WPARAM
-title: GET_WHEEL_DELTA_WPARAM macro
+title: GET_WHEEL_DELTA_WPARAM macro (winuser.h)
 author: windows-sdk-content
 description: Retrieves the wheel-delta value from the specified WPARAM value.
 old-location: inputdev\get_wheel_delta_wparam.htm

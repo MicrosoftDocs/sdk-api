@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryEntry.SetWinEventsForAutomationEvent
-title: IUIAutomationProxyFactoryEntry::SetWinEventsForAutomationEvent
+title: IUIAutomationProxyFactoryEntry::SetWinEventsForAutomationEvent (uiautomationclient.h)
 author: windows-sdk-content
 description: Maps Microsoft UI Automation events to WinEvents.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_SetWinEventsForAutomationEvent.htm

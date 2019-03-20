@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.INewShortcutHookA.SetReferent
-title: INewShortcutHookA::SetReferent
+title: INewShortcutHookA::SetReferent (shlobj.h)
 author: windows-sdk-content
 description: Sets the referent of the shortcut object.
 old-location: shell\INewShortcutHook_SetReferent.htm

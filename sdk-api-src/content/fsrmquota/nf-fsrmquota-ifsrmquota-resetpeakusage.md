@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuota.ResetPeakUsage
-title: IFsrmQuota::ResetPeakUsage
+title: IFsrmQuota::ResetPeakUsage (fsrmquota.h)
 author: windows-sdk-content
 description: Resets the peak usage of this quota to the current usage.
 old-location: fsrm\ifsrmquota_resetpeakusage.htm

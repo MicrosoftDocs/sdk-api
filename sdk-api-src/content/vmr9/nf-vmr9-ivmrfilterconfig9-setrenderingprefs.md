@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRFilterConfig9.SetRenderingPrefs
-title: IVMRFilterConfig9::SetRenderingPrefs
+title: IVMRFilterConfig9::SetRenderingPrefs (vmr9.h)
 author: windows-sdk-content
 description: The SetRenderingPrefs method sets various application preferences related to video rendering.
 old-location: dshow\ivmrfilterconfig9_setrenderingprefs.htm

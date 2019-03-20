@@ -1,6 +1,6 @@
 ---
 UID: NF:dmort.MoDuplicateMediaType
-title: MoDuplicateMediaType function
+title: MoDuplicateMediaType function (dmort.h)
 author: windows-sdk-content
 description: The MoDuplicateMediaType function duplicates a media type structure.
 old-location: dshow\moduplicatemediatype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:syncmgr.IEnumSyncMgrSyncItems
-title: IEnumSyncMgrSyncItems
+title: IEnumSyncMgrSyncItems (syncmgr.h)
 author: windows-sdk-content
 description: Exposes methods that enumerate the sync item objects managed by the handler.
 old-location: shell\IEnumSyncMgrSyncItems.htm

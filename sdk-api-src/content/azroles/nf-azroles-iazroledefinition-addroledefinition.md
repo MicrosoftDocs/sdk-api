@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRoleDefinition.AddRoleDefinition
-title: IAzRoleDefinition::AddRoleDefinition
+title: IAzRoleDefinition::AddRoleDefinition (azroles.h)
 author: windows-sdk-content
 description: Adds the specified IAzRoleDefinition object to this IAzRoleDefinition object.
 old-location: security\iazroledefinition_addroledefinition.htm

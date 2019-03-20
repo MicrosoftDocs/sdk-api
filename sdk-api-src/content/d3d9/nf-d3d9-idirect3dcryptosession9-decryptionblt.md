@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DCryptoSession9.DecryptionBlt
-title: IDirect3DCryptoSession9::DecryptionBlt
+title: IDirect3DCryptoSession9::DecryptionBlt (d3d9.h)
 author: windows-sdk-content
 description: Writes encrypted data to a protected surface.
 old-location: mf\idirect3dcryptosession9_decryptionblt.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationSelectionPattern
-title: IUIAutomationSelectionPattern
+title: IUIAutomationSelectionPattern (uiautomationclient.h)
 author: windows-sdk-content
 description: Provides access to a control that contains selectable child items. The children of this element support IUIAutomationSelectionItemPattern.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern.htm

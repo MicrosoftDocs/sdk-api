@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsConfiguration.get_SmsFormat
-title: IMbnSmsConfiguration::get_SmsFormat
+title: IMbnSmsConfiguration::get_SmsFormat (mbnapi.h)
 author: windows-sdk-content
 description: Format in which newly received SMS should be reported by the device.
 old-location: mbn\imbnsmsconfiguration_smsformat.htm

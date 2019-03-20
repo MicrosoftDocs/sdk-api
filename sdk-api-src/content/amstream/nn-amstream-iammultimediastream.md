@@ -1,6 +1,6 @@
 ---
 UID: NN:amstream.IAMMultiMediaStream
-title: IAMMultiMediaStream
+title: IAMMultiMediaStream (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The IAMMultiMediaStream interface is supported by the multimedia stream object. It contains methods for creating the underlying filter graph that the object manages.
 old-location: dshow\iammultimediastream.htm

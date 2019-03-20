@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.TrimLeft
-title: CHString::TrimLeft
+title: CHString::TrimLeft (chstring.h)
 author: windows-sdk-content
 description: The TrimLeft method trims leading whitespace characters from the string by removing new line, space, and tab characters.
 old-location: wmi\chstring_trimleft.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmLockDestination
-title: RtmLockDestination function
+title: RtmLockDestination function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmLockDestination function locks or unlocks a destination in the routing table. Use this function to protect a destination while changing opaque pointers.
 old-location: rras\rtmlockdestination.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.Xor(IN const RectF &)
-title: Region::Xor(IN const RectF &)
+title: Region::Xor(IN const RectF &) (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Region::Xor method updates this region to the nonintersecting portions of itself and the specified rectangle's interior.
 old-location: gdiplus\_gdiplus_CLASS_Region_Xor_RectF_rect_.htm

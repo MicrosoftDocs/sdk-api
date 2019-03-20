@@ -1,6 +1,6 @@
 ---
 UID: NE:accctrl._MULTIPLE_TRUSTEE_OPERATION
-title: MULTIPLE_TRUSTEE_OPERATION
+title: MULTIPLE_TRUSTEE_OPERATION (accctrl.h)
 author: windows-sdk-content
 description: Contains values that indicate whether a TRUSTEE structure is an impersonation trustee.
 old-location: security\multiple_trustee_operation.htm

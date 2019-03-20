@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetFontData
-title: GetFontData function
+title: GetFontData function (wingdi.h)
 author: windows-sdk-content
 description: The GetFontData function retrieves font metric data for a TrueType font.
 old-location: gdi\getfontdata.htm

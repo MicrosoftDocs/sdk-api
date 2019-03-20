@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.SetSecurityDescriptorGroup
-title: SetSecurityDescriptorGroup function
+title: SetSecurityDescriptorGroup function (securitybaseapi.h)
 author: windows-sdk-content
 description: Sets the primary group information of an absolute-format security descriptor, replacing any primary group information already present in the security descriptor.
 old-location: security\setsecuritydescriptorgroup.htm

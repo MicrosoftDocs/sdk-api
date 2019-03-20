@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.SetGlyphIndices
-title: IXpsOMGlyphsEditor::SetGlyphIndices
+title: IXpsOMGlyphsEditor::SetGlyphIndices (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets an XPS_GLYPH_INDEX structure array that describes which glyph indices are to be used in the font.
 old-location: xps\ixpsomglyphseditor_setglyphindices.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.IStream_WritePidl
-title: IStream_WritePidl function
+title: IStream_WritePidl function (shlwapi.h)
 author: windows-sdk-content
 description: Writes a pointer to an item identifier list (PIDL) from a PCUIDLIST_RELATIVE object into an IStream object.
 old-location: shell\IStream_WritePidl.htm

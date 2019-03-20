@@ -1,6 +1,6 @@
 ---
 UID: NF:errhandlingapi.RaiseFailFastException
-title: RaiseFailFastException function
+title: RaiseFailFastException function (errhandlingapi.h)
 author: windows-sdk-content
 description: Raises an exception that bypasses all exception handlers (frame or vector based).
 old-location: base\raisefailfastexception.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAudioRendererEvent2.AVDecAudioDualMono
-title: IMSVidAudioRendererEvent2::AVDecAudioDualMono
+title: IMSVidAudioRendererEvent2::AVDecAudioDualMono (segment.h)
 author: windows-sdk-content
 description: Indicates a change in the AVDecAudioDualMono codec property.
 old-location: mstv\imsvidaudiorendererevent2_avdecaudiodualmono.htm

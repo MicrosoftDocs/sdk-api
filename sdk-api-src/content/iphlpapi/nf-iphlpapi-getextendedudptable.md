@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.GetExtendedUdpTable
-title: GetExtendedUdpTable function
+title: GetExtendedUdpTable function (iphlpapi.h)
 author: windows-sdk-content
 description: Retrieves a table that contains a list of UDP endpoints available to the application.
 old-location: iphlp\getextendedudptable.htm

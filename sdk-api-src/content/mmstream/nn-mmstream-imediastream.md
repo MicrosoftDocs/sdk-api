@@ -1,6 +1,6 @@
 ---
 UID: NN:mmstream.IMediaStream
-title: IMediaStream
+title: IMediaStream (mmstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated.
 old-location: dshow\imediastream.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_STARTUP
-title: WSMAN_PLUGIN_STARTUP
+title: WSMAN_PLUGIN_STARTUP (wsman.h)
 author: windows-sdk-content
 description: Defines the startup callback for the plug-in.
 old-location: winrm\wsman_plugin_startup.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPM.CreateMigrationTable
-title: IGPM::CreateMigrationTable
+title: IGPM::CreateMigrationTable (gpmgmt.h)
 author: windows-sdk-content
 description: Creates an empty migration table.
 old-location: gpmc\igpm_createmigrationtable.htm

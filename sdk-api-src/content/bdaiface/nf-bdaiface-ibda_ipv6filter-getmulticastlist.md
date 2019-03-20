@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_IPV6Filter.GetMulticastList
-title: IBDA_IPV6Filter::GetMulticastList
+title: IBDA_IPV6Filter::GetMulticastList (bdaiface.h)
 author: windows-sdk-content
 description: The GetMulticastList method retrieves the list of multicast addresses on the Network Provider.
 old-location: mstv\ibda_ipv6filter_getmulticastlist.htm

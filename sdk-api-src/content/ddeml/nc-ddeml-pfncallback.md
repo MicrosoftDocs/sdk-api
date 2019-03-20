@@ -1,6 +1,6 @@
 ---
 UID: NC:ddeml.PFNCALLBACK
-title: PFNCALLBACK
+title: PFNCALLBACK (ddeml.h)
 author: windows-sdk-content
 description: An application-defined callback function used with the Dynamic Data Exchange Management Library (DDEML) functions.
 old-location: dataxchg\ddecallback.htm

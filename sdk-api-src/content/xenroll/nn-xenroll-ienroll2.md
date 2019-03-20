@@ -1,6 +1,6 @@
 ---
 UID: NN:xenroll.IEnroll2
-title: IEnroll2
+title: IEnroll2 (xenroll.h)
 author: windows-sdk-content
 description: Represents the Certificate Enrollment Control and is used primarily to generate certificate requests.
 old-location: security\ienroll2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.ExpandTargetPath
-title: ITargetInfo::ExpandTargetPath
+title: ITargetInfo::ExpandTargetPath (wcmconfig.h)
 author: windows-sdk-content
 description: Expands a location string to indicate the offline installation location.
 old-location: smi\itargetinfo_expandtargetpath.htm

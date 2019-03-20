@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication3.get_RoleAssignments
-title: IAzApplication3::get_RoleAssignments
+title: IAzApplication3::get_RoleAssignments (azroles.h)
 author: windows-sdk-content
 description: Gets an IAzRoleAssignments object that represents the collection of IAzRoleAssignment objects associated with the current IAzApplication3 object.
 old-location: security\iazapplication3_roleassignments.htm

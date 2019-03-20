@@ -1,6 +1,6 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_LOCAL_SERVICE_INFO
-title: BLUETOOTH_LOCAL_SERVICE_INFO_STRUCT
+title: BLUETOOTH_LOCAL_SERVICE_INFO_STRUCT (bluetoothapis.h)
 author: windows-sdk-content
 description: Contains local service information for a Bluetooth device.
 old-location: bluetooth\bluetooth_local_service_info.htm

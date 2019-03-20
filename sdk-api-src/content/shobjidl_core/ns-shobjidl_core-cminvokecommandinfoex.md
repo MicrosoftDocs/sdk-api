@@ -1,6 +1,6 @@
 ---
 UID: NS:shobjidl_core._CMINVOKECOMMANDINFOEX
-title: CMINVOKECOMMANDINFOEX
+title: CMINVOKECOMMANDINFOEX (shobjidl_core.h)
 author: windows-sdk-content
 description: Contains extended information about a shortcut menu command. This structure is an extended version of CMINVOKECOMMANDINFO that allows the use of Unicode values.
 old-location: shell\CmInvokeCommandInfoEx.htm

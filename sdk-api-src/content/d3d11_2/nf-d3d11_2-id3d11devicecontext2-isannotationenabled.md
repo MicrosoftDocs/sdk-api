@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_2.ID3D11DeviceContext2.IsAnnotationEnabled
-title: ID3D11DeviceContext2::IsAnnotationEnabled
+title: ID3D11DeviceContext2::IsAnnotationEnabled (d3d11_2.h)
 author: windows-sdk-content
 description: Allows apps to determine when either a capture or profiling request is enabled.
 old-location: direct3d11\id3d11devicecontext2_isannotationenabled.htm

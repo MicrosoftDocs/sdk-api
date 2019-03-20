@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio.WinBioControlUnitPrivileged
-title: WinBioControlUnitPrivileged function
+title: WinBioControlUnitPrivileged function (winbio.h)
 author: windows-sdk-content
 description: Allows the caller to perform privileged vendor-defined control operations on a biometric unit. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbiocontrolunitprivileged.htm

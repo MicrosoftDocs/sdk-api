@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.GetNtmsObjectInformation
-title: GetNtmsObjectInformation function
+title: GetNtmsObjectInformation function (ntmsapi.h)
 author: windows-sdk-content
 description: The GetNtmsObjectInformation function returns an object's information structure for the specified object.
 old-location: fs\getntmsobjectinformation.htm

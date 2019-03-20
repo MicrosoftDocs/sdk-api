@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut.IInkRecognizerContext2
-title: IInkRecognizerContext2
+title: IInkRecognizerContext2 (msinkaut.h)
 author: windows-sdk-content
 description: Adds members to the InkRecognizerContext Class.
 old-location: tablet\iinkrecognizercontext2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.EnumResourceTypesW
-title: EnumResourceTypesW function
+title: EnumResourceTypesW function (winbase.h)
 author: windows-sdk-content
 description: Enumerates resource types within a binary module.
 old-location: menurc\enumresourcetypes.htm

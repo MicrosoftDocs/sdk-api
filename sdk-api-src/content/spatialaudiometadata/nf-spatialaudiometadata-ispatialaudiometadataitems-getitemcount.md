@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataItems.GetItemCount
-title: ISpatialAudioMetadataItems::GetItemCount
+title: ISpatialAudioMetadataItems::GetItemCount (spatialaudiometadata.h)
 author: windows-sdk-content
 description: The current number of items stored by the ISpatialAudioMetadataItems.
 old-location: coreaudio\ispatialaudiometadataitems_getitemcount.htm

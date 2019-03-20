@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyEnumTypeList.FindMatchingIndex
-title: IPropertyEnumTypeList::FindMatchingIndex
+title: IPropertyEnumTypeList::FindMatchingIndex (propsys.h)
 author: windows-sdk-content
 description: Compares the specified property value against the enumerated values in a list and returns the matching index.
 old-location: properties\IPropertyEnumTypeList_FindMatchingIndex.htm

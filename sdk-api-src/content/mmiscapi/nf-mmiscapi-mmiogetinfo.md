@@ -1,6 +1,6 @@
 ---
 UID: NF:mmiscapi.mmioGetInfo
-title: mmioGetInfo function
+title: mmioGetInfo function (mmiscapi.h)
 author: windows-sdk-content
 description: The mmioGetInfo function retrieves information about a file opened by using the mmioOpen function. This information allows the application to directly access the I/O buffer, if the file is opened for buffered I/O.
 old-location: multimedia\mmiogetinfo.htm

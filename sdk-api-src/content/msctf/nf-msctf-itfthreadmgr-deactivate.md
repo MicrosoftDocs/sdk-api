@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr.Deactivate
-title: ITfThreadMgr::Deactivate
+title: ITfThreadMgr::Deactivate (msctf.h)
 author: windows-sdk-content
 description: ITfThreadMgr::Deactivate method
 old-location: tsf\itfthreadmgr_deactivate.htm

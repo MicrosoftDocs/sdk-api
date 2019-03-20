@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11sdklayers.ID3D11RefDefaultTrackingOptions
-title: ID3D11RefDefaultTrackingOptions
+title: ID3D11RefDefaultTrackingOptions (d3d11sdklayers.h)
 author: windows-sdk-content
 description: The default tracking interface sets reference default tracking options.
 old-location: direct3d11\id3d11refdefaulttrackingoptions.htm

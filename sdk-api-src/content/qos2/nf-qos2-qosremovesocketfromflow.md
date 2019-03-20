@@ -1,6 +1,6 @@
 ---
 UID: NF:qos2.QOSRemoveSocketFromFlow
-title: QOSRemoveSocketFromFlow function
+title: QOSRemoveSocketFromFlow function (qos2.h)
 author: windows-sdk-content
 description: Notifies the QOS subsystem that a previously added flow has been terminated.
 old-location: qos\qosremovesocketfromflow.htm

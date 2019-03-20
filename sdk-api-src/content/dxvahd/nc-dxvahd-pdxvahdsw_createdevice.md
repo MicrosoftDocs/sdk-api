@@ -1,6 +1,6 @@
 ---
 UID: NC:dxvahd.PDXVAHDSW_CreateDevice
-title: PDXVAHDSW_CreateDevice
+title: PDXVAHDSW_CreateDevice (dxvahd.h)
 author: windows-sdk-content
 description: Creates an instance of a software plug-in Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\pdxvahdsw_createdevice.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptAcquireCertificatePrivateKey
-title: CryptAcquireCertificatePrivateKey function
+title: CryptAcquireCertificatePrivateKey function (wincrypt.h)
 author: windows-sdk-content
 description: Obtains the private key for a certificate.
 old-location: security\cryptacquirecertificateprivatekey.htm

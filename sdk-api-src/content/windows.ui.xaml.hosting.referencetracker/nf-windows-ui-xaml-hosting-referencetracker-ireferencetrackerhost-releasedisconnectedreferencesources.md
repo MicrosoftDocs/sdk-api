@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerHost.ReleaseDisconnectedReferenceSources
-title: IReferenceTrackerHost::xaml
+title: IReferenceTrackerHost::xaml (windows.ui.xaml.hosting.referencetracker.h)
 author: windows-sdk-content
 description: Requests that the host call IUnknown::Release on any reference tracker objects that have been disconnected by a reference source.
 old-location: winrt\ireferencetrackerhost_releasedisconnectedreferencesources.htm

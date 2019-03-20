@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.get_Properties
-title: IRDPSRAPIViewer::get_Properties
+title: IRDPSRAPIViewer::get_Properties (rdpencomapi.h)
 author: windows-sdk-content
 description: Returns an object implementing the IRDPSRAPISessionProperties interface.
 old-location: rdp\irdpsrapiviewer_properties.htm

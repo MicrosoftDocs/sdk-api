@@ -1,6 +1,6 @@
 ---
 UID: NN:cscobj.IOfflineFilesChangeInfo
-title: IOfflineFilesChangeInfo
+title: IOfflineFilesChangeInfo (cscobj.h)
 author: windows-sdk-content
 description: Represents the information associated with local changes made to an item while working offline.
 old-location: of\iofflinefileschangeinfo.htm

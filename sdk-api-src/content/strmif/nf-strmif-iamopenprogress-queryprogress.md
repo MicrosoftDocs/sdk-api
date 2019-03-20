@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMOpenProgress.QueryProgress
-title: IAMOpenProgress::QueryProgress
+title: IAMOpenProgress::QueryProgress (strmif.h)
 author: windows-sdk-content
 description: The QueryProgress method retrieves the progress of the file-open operation.
 old-location: dshow\iamopenprogress_queryprogress.htm

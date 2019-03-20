@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetLanguageCode2
-title: IIsdbAudioComponentDescriptor::GetLanguageCode2
+title: IIsdbAudioComponentDescriptor::GetLanguageCode2 (dvbsiparser.h)
 author: windows-sdk-content
 description: In ES multilingual mode, gets the second three-character ISO 639 language code from an ISDB audio component descriptor.
 old-location: mstv\iisdbaudiocomponentdescriptor_getlanguagecode2.htm

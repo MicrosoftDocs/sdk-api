@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.PHONECAPS_BUFFER
-title: PHONECAPS_BUFFER
+title: PHONECAPS_BUFFER (tapi3if.h)
 author: windows-sdk-content
 description: The PHONECAPS_BUFFER enum is used by methods that set or get phone capabilities described by a buffer.
 old-location: tapi3\phonecaps_buffer.htm

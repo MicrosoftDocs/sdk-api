@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.IShellImageStore.IsEntryInStore
-title: IShellImageStore::IsEntryInStore
+title: IShellImageStore::IsEntryInStore (shlobj.h)
 author: windows-sdk-content
 description: Checks to see if the image is in the store.
 old-location: shell\IShellImageStore_IsEntryInStore.htm

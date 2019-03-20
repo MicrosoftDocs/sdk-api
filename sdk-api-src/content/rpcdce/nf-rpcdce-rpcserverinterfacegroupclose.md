@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcServerInterfaceGroupClose
-title: RpcServerInterfaceGroupClose function
+title: RpcServerInterfaceGroupClose function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcServerInterfaceGroupClose function is used to free an interface group.
 old-location: rpc\rpcserverinterfacegroupclose.htm

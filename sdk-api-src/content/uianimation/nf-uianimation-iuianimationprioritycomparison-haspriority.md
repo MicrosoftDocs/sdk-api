@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationPriorityComparison.HasPriority
-title: IUIAnimationPriorityComparison::HasPriority
+title: IUIAnimationPriorityComparison::HasPriority (uianimation.h)
 author: windows-sdk-content
 description: Determines whether a new storyboard has priority over a scheduled storyboard.
 old-location: uianimation\iuianimationprioritycomparison_haspriority.htm

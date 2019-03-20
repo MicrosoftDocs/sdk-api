@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagREBARBANDINFOA
-title: REBARBANDINFOA
+title: REBARBANDINFOA (commctrl.h)
 author: windows-sdk-content
 description: Contains information that defines a band in a rebar control.
 old-location: controls\REBARBANDINFO.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:documenttarget.PrintDocumentPackageCompletion
-title: PrintDocumentPackageCompletion
+title: PrintDocumentPackageCompletion (documenttarget.h)
 author: windows-sdk-content
 description: The PrintDocumentPackageCompletion enumeration specifies the status of the print operation.
 old-location: xps\printdocumentpackagecompletion.htm

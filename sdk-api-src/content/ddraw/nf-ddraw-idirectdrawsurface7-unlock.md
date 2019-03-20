@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.Unlock
-title: IDirectDrawSurface7::Unlock
+title: IDirectDrawSurface7::Unlock (ddraw.h)
 author: windows-sdk-content
 description: Notifies DirectDraw that the direct surface manipulations are complete.
 old-location: directdraw\idirectdrawsurface7_unlock.htm

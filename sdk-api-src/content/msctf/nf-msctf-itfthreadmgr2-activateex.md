@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.ActivateEx
-title: ITfThreadMgr2::ActivateEx
+title: ITfThreadMgr2::ActivateEx (msctf.h)
 author: windows-sdk-content
 description: Initializes and activates TSF for the calling thread with a flag that specifies how TSF is activated.
 old-location: tsf\itfthreadmgr2_activateex.htm

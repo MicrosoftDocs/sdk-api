@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument.SetSaved
-title: ITextDocument::SetSaved
+title: ITextDocument::SetSaved (tom.h)
 author: windows-sdk-content
 description: Sets the document Saved property.
 old-location: controls\ITextDocument_SetSaved.htm

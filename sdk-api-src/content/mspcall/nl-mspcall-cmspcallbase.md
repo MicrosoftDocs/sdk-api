@@ -1,6 +1,6 @@
 ---
 UID: NL:mspcall.CMSPCallBase
-title: CMSPCallBase
+title: CMSPCallBase (mspcall.h)
 author: windows-sdk-content
 description: The CMSPCallBase class provides a generic implementation of the call object. It supports the ITStreamControl interface. It serves as a simple base class that maintains the stream list. This class is defined in MSPcall.h.
 old-location: tapi3\cmspcallbase.htm

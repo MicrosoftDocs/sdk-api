@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsWddmIddProps.EnableWddmIdd
-title: IWRdsWddmIddProps::EnableWddmIdd
+title: IWRdsWddmIddProps::EnableWddmIdd (wtsprotocol.h)
 author: windows-sdk-content
 description: Termsrv uses this method to tell protocol stack which mode it is operating.
 old-location: termserv\iwrdswddmiddprops_enablewddmidd.htm

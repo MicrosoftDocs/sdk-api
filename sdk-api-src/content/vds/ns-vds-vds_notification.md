@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_NOTIFICATION
-title: VDS_NOTIFICATION
+title: VDS_NOTIFICATION (vds.h)
 author: windows-sdk-content
 description: Defines the VDS notification structures specific to each notification target type (subject).
 old-location: base\vds_notification.htm

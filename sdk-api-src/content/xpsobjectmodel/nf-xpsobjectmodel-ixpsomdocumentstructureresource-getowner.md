@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentStructureResource.GetOwner
-title: IXpsOMDocumentStructureResource::GetOwner
+title: IXpsOMDocumentStructureResource::GetOwner (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMDocument interface that contains the resource.
 old-location: xps\ixpsomdocumentstructureresource_getowner.htm

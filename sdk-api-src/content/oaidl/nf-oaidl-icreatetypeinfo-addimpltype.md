@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.AddImplType
-title: ICreateTypeInfo::AddImplType
+title: ICreateTypeInfo::AddImplType (oaidl.h)
 author: windows-sdk-content
 description: Specifies an inherited interface, or an interface implemented by a component object class (coclass).
 old-location: automat\icreatetypeinfo_addimpltype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.VerifyVersionInfoW
-title: VerifyVersionInfoW function
+title: VerifyVersionInfoW function (winbase.h)
 author: windows-sdk-content
 description: Compares a set of operating system version requirements to the corresponding values for the currently running version of the system.
 old-location: base\verifyversioninfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGraphSearchRecords
-title: PeerGraphSearchRecords function
+title: PeerGraphSearchRecords function (p2p.h)
 author: windows-sdk-content
 description: The PeerGraphSearchRecords function searches the peer graph for specific records.
 old-location: p2p\peergraphsearchrecords.htm

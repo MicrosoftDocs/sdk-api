@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_SIGNAL_CONSTANTS
-title: MBN_SIGNAL_CONSTANTS
+title: MBN_SIGNAL_CONSTANTS (mbnapi.h)
 author: windows-sdk-content
 description: THE MBN_SIGNAL_CONSTANTS enumerated type contains specific values used by IMbnSignal interface operations.
 old-location: mbn\mbn_signal_constants.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITAgentHandlerEvent.get_Event
-title: ITAgentHandlerEvent::get_Event
+title: ITAgentHandlerEvent::get_Event (tapi3cc.h)
 author: windows-sdk-content
 description: The get_Event method gets the description for the event that has occurred.
 old-location: tapi3\itagenthandlerevent_get_event.htm

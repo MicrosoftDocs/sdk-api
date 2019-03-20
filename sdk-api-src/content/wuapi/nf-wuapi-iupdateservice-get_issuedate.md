@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateService.get_IssueDate
-title: IUpdateService::get_IssueDate
+title: IUpdateService::get_IssueDate (wuapi.h)
 author: windows-sdk-content
 description: Gets the date on which the authorization cabinet file was issued.
 old-location: wua\iupdateservice_issuedate.htm

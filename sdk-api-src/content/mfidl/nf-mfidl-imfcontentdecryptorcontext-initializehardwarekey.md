@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFContentDecryptorContext.InitializeHardwareKey
-title: IMFContentDecryptorContext::InitializeHardwareKey
+title: IMFContentDecryptorContext::InitializeHardwareKey (mfidl.h)
 author: windows-sdk-content
 description: Allows the display driver to return IHV-specific information used when initializing a new hardware key.
 old-location: mf\imfcontentdecryptorcontext_initializehardwarekey.htm

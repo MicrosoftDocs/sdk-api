@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanHostedNetworkSetProperty
-title: WlanHostedNetworkSetProperty function
+title: WlanHostedNetworkSetProperty function (wlanapi.h)
 author: windows-sdk-content
 description: Sets static properties of the wireless Hosted Network.
 old-location: nwifi\wlanhostednetworksetproperty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.CancelNtmsOperatorRequest
-title: CancelNtmsOperatorRequest function
+title: CancelNtmsOperatorRequest function (ntmsapi.h)
 author: windows-sdk-content
 description: The CancelNtmsOperatorRequest function cancels the specified RSM operator request.
 old-location: fs\cancelntmsoperatorrequest.htm

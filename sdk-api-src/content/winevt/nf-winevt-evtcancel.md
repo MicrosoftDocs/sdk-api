@@ -1,6 +1,6 @@
 ---
 UID: NF:winevt.EvtCancel
-title: EvtCancel function
+title: EvtCancel function (winevt.h)
 author: windows-sdk-content
 description: Cancels all pending operations on a handle.
 old-location: wes\evtcancel.htm

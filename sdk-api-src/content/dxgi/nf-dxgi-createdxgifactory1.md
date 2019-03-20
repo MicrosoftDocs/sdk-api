@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.CreateDXGIFactory1
-title: CreateDXGIFactory1 function
+title: CreateDXGIFactory1 function (dxgi.h)
 author: windows-sdk-content
 description: Creates a DXGI 1.1 factory that you can use to generate other DXGI objects.
 old-location: direct3ddxgi\createdxgifactory1.htm

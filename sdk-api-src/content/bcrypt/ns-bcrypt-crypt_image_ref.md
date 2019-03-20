@@ -1,6 +1,6 @@
 ---
 UID: NS:bcrypt._CRYPT_IMAGE_REF
-title: CRYPT_IMAGE_REF
+title: CRYPT_IMAGE_REF (bcrypt.h)
 author: windows-sdk-content
 description: Contains information about a CNG provider module.
 old-location: security\crypt_image_ref.htm

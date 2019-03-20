@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMetadata.GetProperty
-title: IMFMetadata::GetProperty
+title: IMFMetadata::GetProperty (mfidl.h)
 author: windows-sdk-content
 description: Gets the value of a metadata property.
 old-location: mf\imfmetadata_getproperty.htm

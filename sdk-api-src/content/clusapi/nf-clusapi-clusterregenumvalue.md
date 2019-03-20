@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterRegEnumValue
-title: ClusterRegEnumValue function
+title: ClusterRegEnumValue function (clusapi.h)
 author: windows-sdk-content
 description: Enumerates the values of an open cluster database key.
 old-location: mscs\clusterregenumvalue.htm

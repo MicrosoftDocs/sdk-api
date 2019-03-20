@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.ISyncFullEnumerationChangeBatch
-title: ISyncFullEnumerationChangeBatch
+title: ISyncFullEnumerationChangeBatch (winsync.h)
 author: windows-sdk-content
 description: Represents the metadata for a set of changes that is created as part of a recovery synchronization.
 old-location: winsync\isyncfullenumerationchangebatch.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.HasChild
-title: ISettingsItem::HasChild
+title: ISettingsItem::HasChild (wcmconfig.h)
 author: windows-sdk-content
 description: Determines whether the current item has a child item.
 old-location: smi\isettingsitem_haschild.htm

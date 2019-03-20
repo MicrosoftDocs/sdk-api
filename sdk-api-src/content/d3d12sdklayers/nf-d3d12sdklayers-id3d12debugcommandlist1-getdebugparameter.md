@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12DebugCommandList1.GetDebugParameter
-title: ID3D12DebugCommandList1::GetDebugParameter
+title: ID3D12DebugCommandList1::GetDebugParameter (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Gets optional Command List Debug Layer settings.
 old-location: direct3d12\id3d12debugcommandlist1_getdebugparameter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mmstream.IMultiMediaStream.GetState
-title: IMultiMediaStream::GetState
+title: IMultiMediaStream::GetState (mmstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The GetState method retrieves the current state of the multimedia stream object.
 old-location: dshow\imultimediastream_getstate.htm

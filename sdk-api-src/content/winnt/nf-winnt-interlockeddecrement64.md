@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.InterlockedDecrement64
-title: InterlockedDecrement64 function
+title: InterlockedDecrement64 function (winnt.h)
 author: windows-sdk-content
 description: Decrements (decreases by one) the value of the specified 64-bit variable as an atomic operation.
 old-location: base\interlockeddecrement64.htm

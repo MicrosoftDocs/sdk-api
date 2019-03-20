@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IRpcStubBuffer.Disconnect
-title: IRpcStubBuffer::Disconnect
+title: IRpcStubBuffer::Disconnect (objidl.h)
 author: windows-sdk-content
 description: Disconnects a server stub from any interface to which it is connected.
 old-location: com\irpcstubbuffer_disconnect.htm

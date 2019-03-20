@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPServiceAsync.EndSCPDDownload
-title: IUPnPServiceAsync::EndSCPDDownload
+title: IUPnPServiceAsync::EndSCPDDownload (upnp.h)
 author: windows-sdk-content
 description: EndSCPDDownload method retrieves the results of a previous asynchronous download of an Service Control Protocol Description (SCPD) document.
 old-location: upnp\iupnpserviceasync_endscpddownload.htm

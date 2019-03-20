@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_PALCB_SETENTRIES
-title: PDD_PALCB_SETENTRIES
+title: PDD_PALCB_SETENTRIES (ddrawint.h)
 author: windows-sdk-content
 description: The DdSetEntries callback function updates the palette entries in the specified palette.
 old-location: display\ddsetentries.htm

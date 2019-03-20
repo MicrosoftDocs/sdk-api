@@ -1,6 +1,6 @@
 ---
 UID: NF:npapi.NPGetConnection3
-title: NPGetConnection3 function
+title: NPGetConnection3 function (npapi.h)
 author: windows-sdk-content
 description: Retrieves information about a network connection, even if it is currently disconnected.
 old-location: security\npgetconnection3.htm

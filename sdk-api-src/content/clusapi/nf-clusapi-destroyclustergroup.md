@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.DestroyClusterGroup
-title: DestroyClusterGroup function
+title: DestroyClusterGroup function (clusapi.h)
 author: windows-sdk-content
 description: Deletes the specified group from a cluster.
 old-location: mscs\destroyclustergroup.htm

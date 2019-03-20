@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ITransactionResourcePool.PutResource
-title: ITransactionResourcePool::PutResource
+title: ITransactionResourcePool::PutResource (comsvcs.h)
 author: windows-sdk-content
 description: Adds an object to the list of pooled objects.
 old-location: cos\itransactionresourcepool_putresource.htm

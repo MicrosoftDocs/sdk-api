@@ -1,6 +1,6 @@
 ---
 UID: NF:dmoimpl.IMediaObjectImpl.InputType
-title: IMediaObjectImpl::InputType
+title: IMediaObjectImpl::InputType (dmoimpl.h)
 author: windows-sdk-content
 description: The InputType method retrieves the current media type for a specified input stream.
 old-location: dshow\imediaobjectimpl_inputtype.htm

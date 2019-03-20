@@ -1,6 +1,6 @@
 ---
 UID: NS:winsnmp.__unnamed_struct_0
-title: smiOCTETS
+title: smiOCTETS (winsnmp.h)
 author: windows-sdk-content
 description: The WinSNMP smiOCTETS structure passes context strings to multiple WinSNMP functions. The structure also describes and receives encoded SNMP messages.
 old-location: snmp\smioctets_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarDateFromStr
-title: VarDateFromStr function
+title: VarDateFromStr function (oleauto.h)
 author: windows-sdk-content
 description: Converts an OLECHAR string to a date value.
 old-location: automat\vardatefromstr.htm

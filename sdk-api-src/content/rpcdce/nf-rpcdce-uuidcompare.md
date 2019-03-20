@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.UuidCompare
-title: UuidCompare function
+title: UuidCompare function (rpcdce.h)
 author: windows-sdk-content
 description: An application calls the UuidCompare function to compare two UUIDs and determine their order. The returned value gives the order.
 old-location: rpc\uuidcompare.htm

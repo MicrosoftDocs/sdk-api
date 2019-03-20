@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10.D3D10_MAP
-title: D3D10_MAP
+title: D3D10_MAP (d3d10.h)
 author: windows-sdk-content
 description: Identifies a resource to be accessed for reading and writing by the CPU. Applications may combine one or more of these flags.
 old-location: direct3d10\d3d10_map.htm

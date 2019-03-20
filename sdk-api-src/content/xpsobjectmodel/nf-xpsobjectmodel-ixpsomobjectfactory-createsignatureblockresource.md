@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateSignatureBlockResource
-title: IXpsOMObjectFactory::CreateSignatureBlockResource
+title: IXpsOMObjectFactory::CreateSignatureBlockResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Creates an IXpsOMSignatureBlockResource that can contain one or more signature requests.
 old-location: xps\ixpsomobjectfactory_createsignatureblockresource.htm

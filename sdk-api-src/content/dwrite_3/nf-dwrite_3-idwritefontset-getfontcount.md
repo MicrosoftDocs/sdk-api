@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet.GetFontCount
-title: IDWriteFontSet::GetFontCount
+title: IDWriteFontSet::GetFontCount (dwrite_3.h)
 author: windows-sdk-content
 description: Get the number of total fonts in the set.
 old-location: directwrite\idwritefontset_getfontcount.htm

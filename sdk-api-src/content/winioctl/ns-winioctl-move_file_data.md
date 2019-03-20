@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl.__unnamed_struct_10
-title: MOVE_FILE_DATA
+title: MOVE_FILE_DATA (winioctl.h)
 author: windows-sdk-content
 description: Contains input data for the FSCTL_MOVE_FILE control code.
 old-location: fs\move_file_data_str.htm

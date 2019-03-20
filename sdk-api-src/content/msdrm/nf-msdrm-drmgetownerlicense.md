@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMGetOwnerLicense
-title: DRMGetOwnerLicense function
+title: DRMGetOwnerLicense function (msdrm.h)
 author: windows-sdk-content
 description: Retrieves an owner license created by calling the DRMGetSignedIssuanceLicense.
 old-location: rm\drmgetownerlicense.htm

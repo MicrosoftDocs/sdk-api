@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMObjectFactory1.CreatePackageWriterOnStream1
-title: IXpsOMObjectFactory1::CreatePackageWriterOnStream1
+title: IXpsOMObjectFactory1::CreatePackageWriterOnStream1 (xpsobjectmodel_1.h)
 author: windows-sdk-content
 description: Opens a stream for writing the contents of an XPS OM to an XPS package of a specified type.
 old-location: xps\ixpsomobjectfactory1_createpackagewriteronstream1.htm

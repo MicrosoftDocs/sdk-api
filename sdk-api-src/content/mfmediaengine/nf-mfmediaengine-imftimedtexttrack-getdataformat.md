@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.GetDataFormat
-title: IMFTimedTextTrack::GetDataFormat
+title: IMFTimedTextTrack::GetDataFormat (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets a GUID that identifies the track's underlying data format.
 old-location: mf\imftimedtexttrack_getdataformat.htm

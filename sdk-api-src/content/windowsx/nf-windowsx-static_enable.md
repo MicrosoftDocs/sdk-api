@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Static_Enable
-title: Static_Enable macro
+title: Static_Enable macro (windowsx.h)
 author: windows-sdk-content
 description: Enables or disables a static control.
 old-location: controls\Static_Enable.htm

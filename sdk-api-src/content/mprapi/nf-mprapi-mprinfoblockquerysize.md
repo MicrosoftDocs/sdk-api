@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprInfoBlockQuerySize
-title: MprInfoBlockQuerySize function
+title: MprInfoBlockQuerySize function (mprapi.h)
 author: windows-sdk-content
 description: The MprInfoBlockQuerySize function returns the returns the size of the information header.
 old-location: rras\mprinfoblockquerysize.htm

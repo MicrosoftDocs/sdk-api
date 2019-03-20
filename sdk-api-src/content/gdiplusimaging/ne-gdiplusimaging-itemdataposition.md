@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusimaging.ItemDataPosition
-title: ItemDataPosition
+title: ItemDataPosition (gdiplusimaging.h)
 author: windows-sdk-content
 description: The ItemDataPosition enumeration is used to specify the location of custom metadata in an image file.
 old-location: gdiplus\_gdiplus_ENUM_ItemDataPosition.htm

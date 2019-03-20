@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionScaleTransform.SetScaleY(IDCompositionAnimation)
-title: IDCompositionScaleTransform::SetScaleY(IDCompositionAnimation)
+title: IDCompositionScaleTransform::SetScaleY(IDCompositionAnimation) (dcomp.h)
 author: windows-sdk-content
 description: Animates the value of the ScaleY property of a 2D scale transform.
 old-location: directcomp\idcompositionscaletransform_setscaley_idcompositionanimation.htm

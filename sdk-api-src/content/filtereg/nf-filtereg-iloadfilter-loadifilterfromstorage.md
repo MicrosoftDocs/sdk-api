@@ -1,6 +1,6 @@
 ---
 UID: NF:filtereg.ILoadFilter.LoadIFilterFromStorage
-title: ILoadFilter::LoadIFilterFromStorage
+title: ILoadFilter::LoadIFilterFromStorage (filtereg.h)
 author: windows-sdk-content
 description: Do not use:\_this method is not implemented.
 old-location: search\iloadfilter_loadifilterfromstorage.htm

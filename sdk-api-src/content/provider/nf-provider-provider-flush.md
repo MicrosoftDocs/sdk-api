@@ -1,6 +1,6 @@
 ---
 UID: NF:provider.Provider.Flush
-title: Provider::Flush
+title: Provider::Flush (provider.h)
 author: windows-sdk-content
 description: The Flush method is called by the provider framework to delete all unnecessary memory in use by the provider.
 old-location: wmi\provider_flush.htm

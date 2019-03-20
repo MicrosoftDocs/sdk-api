@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquire.EnumResults
-title: IPhotoAcquire::EnumResults
+title: IPhotoAcquire::EnumResults (photoacquire.h)
 author: windows-sdk-content
 description: The EnumResults method retrieves an enumeration containing the paths of all files successfully transferred during the most recent call to Acquire.
 old-location: picacq\iphotoacquire_enumresults.htm

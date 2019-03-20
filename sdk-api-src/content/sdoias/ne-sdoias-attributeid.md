@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._ATTRIBUTEID
-title: ATTRIBUTEID
+title: ATTRIBUTEID (sdoias.h)
 author: windows-sdk-content
 description: The ATTRIBUTEID enumeration type enumerates the RADIUS attributes supported by the SDO API.
 old-location: nps\SDO_attributeid.htm

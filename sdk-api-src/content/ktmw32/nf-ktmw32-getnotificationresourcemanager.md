@@ -1,6 +1,6 @@
 ---
 UID: NF:ktmw32.GetNotificationResourceManager
-title: GetNotificationResourceManager function
+title: GetNotificationResourceManager function (ktmw32.h)
 author: windows-sdk-content
 description: Requests and receives a notification for a resource manager (RM). This function is used by the RM register to receive notifications when a transaction changes state.
 old-location: fs\getnotificationresourcemanager.htm

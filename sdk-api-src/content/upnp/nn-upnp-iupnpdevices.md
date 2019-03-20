@@ -1,6 +1,6 @@
 ---
 UID: NN:upnp.IUPnPDevices
-title: IUPnPDevices
+title: IUPnPDevices (upnp.h)
 author: windows-sdk-content
 description: The IUPnPDevices interface enumerates a collection of devices.
 old-location: upnp\iupnpdevices.htm

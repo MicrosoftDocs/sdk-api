@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IBDA_PinControl
-title: IBDA_PinControl
+title: IBDA_PinControl (bdaiface.h)
 author: windows-sdk-content
 description: The IBDA_PinControl interface is exposed on a BDA device filter's pins. A Network Provider calls these methods to determine the type and identifier of each pin on the filter. A Network Provider uses this information when building the graph.
 old-location: mstv\ibda_pincontrol.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:dxvahd._DXVAHD_ALPHA_FILL_MODE
-title: DXVAHD_ALPHA_FILL_MODE
+title: DXVAHD_ALPHA_FILL_MODE (dxvahd.h)
 author: windows-sdk-content
 description: Specifies how the output alpha values are calculated for Microsoft DirectX Video Acceleration High Definition (DXVA-HD) blit operations.
 old-location: mf\dxvahd_alpha_fill_mode.htm

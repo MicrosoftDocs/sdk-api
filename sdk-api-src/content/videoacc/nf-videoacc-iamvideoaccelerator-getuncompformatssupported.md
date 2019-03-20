@@ -1,6 +1,6 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.GetUncompFormatsSupported
-title: IAMVideoAccelerator::GetUncompFormatsSupported
+title: IAMVideoAccelerator::GetUncompFormatsSupported (videoacc.h)
 author: windows-sdk-content
 description: The GetUncompFormatsSupported method gets a list of uncompressed pixel formats that can be rendered using a specified DirectX Video Acceleration (DXVA) profile.
 old-location: dshow\iamvideoaccelerator_getuncompformatssupported.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IKnownFolderManager.GetFolderIds
-title: IKnownFolderManager::GetFolderIds
+title: IKnownFolderManager::GetFolderIds (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets an array of all registered known folder IDs. This can be used in enumerating all known folders.
 old-location: shell\IKnownFolderManager_GetFolderIds.htm

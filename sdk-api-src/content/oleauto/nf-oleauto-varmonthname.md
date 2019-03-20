@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarMonthName
-title: VarMonthName function
+title: VarMonthName function (oleauto.h)
 author: windows-sdk-content
 description: Returns a string containing the localized month name.
 old-location: automat\varmonthname.htm

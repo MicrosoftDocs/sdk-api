@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_QC_STATEMENT
-title: CERT_QC_STATEMENT
+title: CERT_QC_STATEMENT (wincrypt.h)
 author: windows-sdk-content
 description: Represents a single statement in a sequence of one or more statements for inclusion in a Qualified Certificate (QC) statements extension.
 old-location: security\cert_qc_statement.htm

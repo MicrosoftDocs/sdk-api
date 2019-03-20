@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IBDA_NullTransform
-title: IBDA_NullTransform
+title: IBDA_NullTransform (bdaiface.h)
 author: windows-sdk-content
 description: The IBDA_NullTransform interface is implemented on all BDA device filters.
 old-location: mstv\ibda_nulltransform.htm

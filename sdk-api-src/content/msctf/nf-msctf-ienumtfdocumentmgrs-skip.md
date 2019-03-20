@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfDocumentMgrs.Skip
-title: IEnumTfDocumentMgrs::Skip
+title: IEnumTfDocumentMgrs::Skip (msctf.h)
 author: windows-sdk-content
 description: IEnumTfDocumentMgrs::Skip method
 old-location: tsf\ienumtfdocumentmgrs_skip.htm

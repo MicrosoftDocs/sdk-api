@@ -1,6 +1,6 @@
 ---
 UID: NN:shlobj.ICurrentWorkingDirectory
-title: ICurrentWorkingDirectory
+title: ICurrentWorkingDirectory (shlobj.h)
 author: windows-sdk-content
 description: Exposes methods that enable a client to retrieve or set an object's current working directory.
 old-location: shell\ICurrentWorkingDirectory.htm

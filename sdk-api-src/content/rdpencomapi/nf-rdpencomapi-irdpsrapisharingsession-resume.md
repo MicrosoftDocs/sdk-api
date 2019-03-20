@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.Resume
-title: IRDPSRAPISharingSession::Resume
+title: IRDPSRAPISharingSession::Resume (rdpencomapi.h)
 author: windows-sdk-content
 description: Causes the graphics stream that is sent to all viewers from the sharer to resume until either IRDPSRAPISharingSession::Pause or IRDPSRAPISharingSession::Close is called.
 old-location: rdp\irdpsrapisharingsession_resume.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsControllerControllerPort.QueryControllerPorts
-title: IVdsControllerControllerPort::QueryControllerPorts
+title: IVdsControllerControllerPort::QueryControllerPorts (vds.h)
 author: windows-sdk-content
 description: Returns an IEnumVdsObject object that enumerates the ports of the controller.
 old-location: base\ivdscontrollercontrollerport_querycontrollerports.htm

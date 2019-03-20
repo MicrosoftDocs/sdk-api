@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontCollection1.GetFontSet
-title: IDWriteFontCollection1::GetFontSet
+title: IDWriteFontCollection1::GetFontSet (dwrite_3.h)
 author: windows-sdk-content
 description: Gets the underlying font set used by this collection.
 old-location: directwrite\idwritefontcollection1_getfontset.htm

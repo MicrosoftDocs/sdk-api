@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.DrawThemeBackgroundEx
-title: DrawThemeBackgroundEx function
+title: DrawThemeBackgroundEx function (uxtheme.h)
 author: windows-sdk-content
 description: Draws the background image defined by the visual style for the specified control part.
 old-location: controls\DrawThemeBackgroundEx.htm

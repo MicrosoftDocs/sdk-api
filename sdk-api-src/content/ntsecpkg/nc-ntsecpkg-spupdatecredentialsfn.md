@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpUpdateCredentialsFn
-title: SpUpdateCredentialsFn
+title: SpUpdateCredentialsFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Updates the credentials associated with the specified context.
 old-location: security\spupdatecredentialsfn.htm

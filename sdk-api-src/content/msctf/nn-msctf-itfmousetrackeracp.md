@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfMouseTrackerACP
-title: ITfMouseTrackerACP
+title: ITfMouseTrackerACP (msctf.h)
 author: windows-sdk-content
 description: The ITfMouseTrackerACP interface is implemented by an application to support mouse event sinks.
 old-location: tsf\itfmousetrackeracp.htm

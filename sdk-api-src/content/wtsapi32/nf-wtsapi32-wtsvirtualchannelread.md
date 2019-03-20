@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSVirtualChannelRead
-title: WTSVirtualChannelRead function
+title: WTSVirtualChannelRead function (wtsapi32.h)
 author: windows-sdk-content
 description: Reads data from the server end of a virtual channel.
 old-location: termserv\wtsvirtualchannelread.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CreateIconFromResourceEx
-title: CreateIconFromResourceEx function
+title: CreateIconFromResourceEx function (winuser.h)
 author: windows-sdk-content
 description: Creates an icon or cursor from resource bits describing the icon.
 old-location: menurc\createiconfromresourceex.htm

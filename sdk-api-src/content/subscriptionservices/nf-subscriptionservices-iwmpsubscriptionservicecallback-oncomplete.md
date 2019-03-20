@@ -1,6 +1,6 @@
 ---
 UID: NF:subscriptionservices.IWMPSubscriptionServiceCallback.onComplete
-title: IWMPSubscriptionServiceCallback::onComplete
+title: IWMPSubscriptionServiceCallback::onComplete (subscriptionservices.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The onComplete method notifies Windows Media Player when a background process is completed.
 old-location: wmp\iwmpsubscriptionservicecallback_oncomplete.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.SetTarget
-title: ID2D1DeviceContext::SetTarget
+title: ID2D1DeviceContext::SetTarget (d2d1_1.h)
 author: windows-sdk-content
 description: The bitmap or command list to which the Direct2D device context will now render.
 old-location: direct2d\id2d1devicecontext_settarget.htm

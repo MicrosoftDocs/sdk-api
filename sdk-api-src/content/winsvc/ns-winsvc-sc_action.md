@@ -1,6 +1,6 @@
 ---
 UID: NS:winsvc._SC_ACTION
-title: SC_ACTION
+title: SC_ACTION (winsvc.h)
 author: windows-sdk-content
 description: Represents an action that the service control manager can perform.
 old-location: base\sc_action_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winternl._TEB
-title: TEB
+title: TEB (winternl.h)
 author: windows-sdk-content
 description: The Thread Environment Block (TEB structure) describes the state of a thread.
 old-location: base\teb.htm

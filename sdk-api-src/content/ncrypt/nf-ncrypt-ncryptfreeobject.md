@@ -1,6 +1,6 @@
 ---
 UID: NF:ncrypt.NCryptFreeObject
-title: NCryptFreeObject function
+title: NCryptFreeObject function (ncrypt.h)
 author: windows-sdk-content
 description: Frees a CNG key storage object.
 old-location: security\ncryptfreeobject_func.htm

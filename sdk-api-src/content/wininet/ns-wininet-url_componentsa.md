@@ -1,6 +1,6 @@
 ---
 UID: NS:wininet.__unnamed_struct_10
-title: URL_COMPONENTSA
+title: URL_COMPONENTSA (wininet.h)
 author: windows-sdk-content
 description: Contains the constituent parts of a URL. This structure is used with the InternetCrackUrl and InternetCreateUrl functions.
 old-location: wininet\url_components.htm

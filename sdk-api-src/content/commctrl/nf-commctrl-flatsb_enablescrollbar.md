@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.FlatSB_EnableScrollBar
-title: FlatSB_EnableScrollBar function
+title: FlatSB_EnableScrollBar function (commctrl.h)
 author: windows-sdk-content
 description: Enables or disables one or both flat scroll bar direction buttons. If flat scroll bars are not initialized for the window, this function calls the standard EnableScrollBar function.
 old-location: controls\FlatSB_EnableScrollBar.htm

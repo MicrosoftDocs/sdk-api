@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISignerCertificates.Find
-title: ISignerCertificates::Find
+title: ISignerCertificates::Find (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the index number of an ISignerCertificate object.
 old-location: security\isignercertificates_find_method.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winevt.EvtCreateBookmark
-title: EvtCreateBookmark function
+title: EvtCreateBookmark function (winevt.h)
 author: windows-sdk-content
 description: Creates a bookmark that identifies an event in a channel.
 old-location: wes\evtcreatebookmark.htm

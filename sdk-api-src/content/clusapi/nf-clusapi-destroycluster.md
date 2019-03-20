@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.DestroyCluster
-title: DestroyCluster function
+title: DestroyCluster function (clusapi.h)
 author: windows-sdk-content
 description: Removes a cluster.
 old-location: mscs\destroycluster.htm

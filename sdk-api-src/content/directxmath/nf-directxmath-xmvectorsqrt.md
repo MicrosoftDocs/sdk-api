@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorSqrt
-title: XMVectorSqrt function
+title: XMVectorSqrt function (directxmath.h)
 author: windows-sdk-content
 description: Computes the per-component square root of a vector.
 old-location: dxmath\xmvectorsqrt.htm

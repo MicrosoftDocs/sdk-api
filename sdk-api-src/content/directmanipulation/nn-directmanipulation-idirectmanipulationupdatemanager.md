@@ -1,6 +1,6 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationUpdateManager
-title: IDirectManipulationUpdateManager
+title: IDirectManipulationUpdateManager (directmanipulation.h)
 author: windows-sdk-content
 description: Manages how compositor updates are sent to Direct Manipulation.
 old-location: directmanipulation\idirectmanipulationupdatemanager.htm

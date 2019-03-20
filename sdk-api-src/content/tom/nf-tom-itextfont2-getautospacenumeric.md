@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.GetAutospaceNumeric
-title: ITextFont2::GetAutospaceNumeric
+title: ITextFont2::GetAutospaceNumeric (tom.h)
 author: windows-sdk-content
 description: Gets the East Asian &#0034;autospace numeric&#0034; state.
 old-location: controls\itextfont2_getautospacenumeric.htm

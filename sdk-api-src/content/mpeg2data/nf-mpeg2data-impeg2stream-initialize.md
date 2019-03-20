@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2data.IMpeg2Stream.Initialize
-title: IMpeg2Stream::Initialize
+title: IMpeg2Stream::Initialize (mpeg2data.h)
 author: windows-sdk-content
 description: The Initialize method initializes the MPEG2Stream object. This method should be called once, immediately after creating the object. The IMpeg2Data::GetStreamOfSections method calls this method internally, so typically an application will not call it.
 old-location: mstv\impeg2stream_initialize.htm

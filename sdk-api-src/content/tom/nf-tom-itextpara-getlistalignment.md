@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.GetListAlignment
-title: ITextPara::GetListAlignment
+title: ITextPara::GetListAlignment (tom.h)
 author: windows-sdk-content
 description: Retrieves the kind of alignment to use for bulleted and numbered lists.
 old-location: controls\ITextPara_GetListAlignment.htm

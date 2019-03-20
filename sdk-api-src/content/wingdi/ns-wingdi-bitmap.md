@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagBITMAP
-title: BITMAP
+title: BITMAP (wingdi.h)
 author: windows-sdk-content
 description: The BITMAP structure defines the type, width, height, color format, and bit values of a bitmap.
 old-location: gdi\bitmap.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.TestAndSetServerState
-title: ITsSbResourcePluginStore::TestAndSetServerState
+title: ITsSbResourcePluginStore::TestAndSetServerState (sbtsv.h)
 author: windows-sdk-content
 description: Conditionally sets a new state on a server.
 old-location: termserv\itssbresourcepluginstore_testandsetserverstate.htm

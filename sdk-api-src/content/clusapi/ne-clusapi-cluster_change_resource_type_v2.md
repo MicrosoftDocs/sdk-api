@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.CLUSTER_CHANGE_RESOURCE_TYPE_V2
-title: CLUSTER_CHANGE_RESOURCE_TYPE_V2
+title: CLUSTER_CHANGE_RESOURCE_TYPE_V2 (clusapi.h)
 author: windows-sdk-content
 description: Defines the set of notifications that are generated for a resource type.
 old-location: mscs\cluster_change_resource_type_v2.htm

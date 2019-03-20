@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITQueue.get_TotalCallsQueued
-title: ITQueue::get_TotalCallsQueued
+title: ITQueue::get_TotalCallsQueued (tapi3.h)
 author: windows-sdk-content
 description: The get_TotalCallsQueued method gets the total number of incoming calls for this queue during the current measurement period.
 old-location: tapi3\itqueue_get_totalcallsqueued.htm

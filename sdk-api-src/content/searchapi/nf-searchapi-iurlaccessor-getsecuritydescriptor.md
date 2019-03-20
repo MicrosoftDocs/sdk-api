@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetSecurityDescriptor
-title: IUrlAccessor::GetSecurityDescriptor
+title: IUrlAccessor::GetSecurityDescriptor (searchapi.h)
 author: windows-sdk-content
 description: Gets the security descriptor for the URL item. Security is applied at query time, so this descriptor identifies security for read access.
 old-location: search\_search_IUrlAccessor_GetSecurityDescriptor.htm

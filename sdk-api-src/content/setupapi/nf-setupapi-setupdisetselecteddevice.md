@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiSetSelectedDevice
-title: SetupDiSetSelectedDevice function
+title: SetupDiSetSelectedDevice function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiSetSelectedDevice function sets a device information element as the selected member of a device information set. This function is typically used by an installation wizard.
 old-location: devinst\setupdisetselecteddevice.htm

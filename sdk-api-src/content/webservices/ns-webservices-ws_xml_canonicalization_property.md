@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_CANONICALIZATION_PROPERTY
-title: WS_XML_CANONICALIZATION_PROPERTY
+title: WS_XML_CANONICALIZATION_PROPERTY (webservices.h)
 author: windows-sdk-content
 description: Specifies a setting that controls how XML canonicalization is done.
 old-location: wsw\ws_xml_canonicalization_property.htm

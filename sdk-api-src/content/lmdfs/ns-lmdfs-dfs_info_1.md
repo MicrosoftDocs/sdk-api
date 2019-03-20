@@ -1,6 +1,6 @@
 ---
 UID: NS:lmdfs._DFS_INFO_1
-title: DFS_INFO_1
+title: DFS_INFO_1 (lmdfs.h)
 author: windows-sdk-content
 description: Contains the name of a Distributed File System (DFS) root or link.
 old-location: dfs\dfs_info_1_str.htm

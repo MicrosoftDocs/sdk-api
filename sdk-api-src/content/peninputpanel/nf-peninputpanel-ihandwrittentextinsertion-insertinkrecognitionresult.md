@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.IHandwrittenTextInsertion.InsertInkRecognitionResult
-title: IHandwrittenTextInsertion::InsertInkRecognitionResult
+title: IHandwrittenTextInsertion::InsertInkRecognitionResult (peninputpanel.h)
 author: windows-sdk-content
 description: Inserts recognition results.
 old-location: tablet\ihandwrittentextinsertion_insertinkrecognitionresult.htm

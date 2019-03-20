@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva2api._DXVA2_VideoProcessBltParams
-title: DXVA2_VideoProcessBltParams
+title: DXVA2_VideoProcessBltParams (dxva2api.h)
 author: windows-sdk-content
 description: Contains parameters for the IDirectXVideoProcessor::VideoProcessBlt method.
 old-location: mf\dxva2_videoprocessbltparams.htm

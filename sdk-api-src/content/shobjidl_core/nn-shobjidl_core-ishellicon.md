@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IShellIcon
-title: IShellIcon
+title: IShellIcon (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes a method that obtains an icon index for an IShellFolder object.
 old-location: shell\IShellIcon.htm

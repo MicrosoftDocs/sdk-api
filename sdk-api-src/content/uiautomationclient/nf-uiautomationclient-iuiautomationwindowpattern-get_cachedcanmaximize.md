@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CachedCanMaximize
-title: IUIAutomationWindowPattern::get_CachedCanMaximize
+title: IUIAutomationWindowPattern::get_CachedCanMaximize (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached value that indicates whether the window can be maximized.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CachedCanMaximize.htm

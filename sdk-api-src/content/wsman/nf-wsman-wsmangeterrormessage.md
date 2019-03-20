@@ -1,6 +1,6 @@
 ---
 UID: NF:wsman.WSManGetErrorMessage
-title: WSManGetErrorMessage function
+title: WSManGetErrorMessage function (wsman.h)
 author: windows-sdk-content
 description: Retrieves the error messages associated with a particular error and language codes.
 old-location: winrm\wsmangeterrormessage.htm

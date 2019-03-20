@@ -1,6 +1,6 @@
 ---
 UID: NF:tsgpolicyengine.ITSGAccountingEngine.DoAccounting
-title: ITSGAccountingEngine::DoAccounting
+title: ITSGAccountingEngine::DoAccounting (tsgpolicyengine.h)
 author: windows-sdk-content
 description: Provides information about the creation or closing of sessions for a connection.
 old-location: termserv\itsgaccountingengine_doaccounting.htm

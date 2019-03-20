@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IConditionFactory2.CreateCompoundFromObjectArray
-title: IConditionFactory2::CreateCompoundFromObjectArray
+title: IConditionFactory2::CreateCompoundFromObjectArray (structuredquery.h)
 author: windows-sdk-content
 description: Creates a leaf condition node that is a conjunction (AND) or a disjunction (OR) of a collection of subconditions. The returned object supports ICondition and ICondition2.
 old-location: search\_search_IConditionFactory2_CreateCompoundFromObjectArray.htm

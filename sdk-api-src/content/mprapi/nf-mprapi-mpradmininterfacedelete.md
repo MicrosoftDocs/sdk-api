@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceDelete
-title: MprAdminInterfaceDelete function
+title: MprAdminInterfaceDelete function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminInterfaceDelete function deletes an interface on a specified server.
 old-location: rras\mpradmininterfacedelete.htm

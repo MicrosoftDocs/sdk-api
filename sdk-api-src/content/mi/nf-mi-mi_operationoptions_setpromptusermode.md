@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_OperationOptions_SetPromptUserMode
-title: MI_OperationOptions_SetPromptUserMode function
+title: MI_OperationOptions_SetPromptUserMode function (mi.h)
 author: windows-sdk-content
 description: Sets the value that tells the server how to respond to a provider's call to the MI_Context_PromptUser function.
 old-location: wmi_v2\mi_operationoptions_setpromptusermode.htm

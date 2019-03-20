@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmreports.IFsrmReportJob
-title: IFsrmReportJob
+title: IFsrmReportJob (fsrmreports.h)
 author: windows-sdk-content
 description: Used to configure a report job.
 old-location: fsrm\ifsrmreportjob.htm

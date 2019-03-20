@@ -1,6 +1,6 @@
 ---
 UID: NS:aclui._SID_INFO_LIST
-title: SID_INFO_LIST
+title: SID_INFO_LIST (aclui.h)
 author: windows-sdk-content
 description: Contains a list of SID_INFO structures.
 old-location: security\sid_info_list.htm

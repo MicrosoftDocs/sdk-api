@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core.SHARDAPPIDINFOIDLIST
-title: SHARDAPPIDINFOIDLIST
+title: SHARDAPPIDINFOIDLIST (shlobj_core.h)
 author: windows-sdk-content
 description: Contains data used by SHAddToRecentDocs to identify both an item&#8212;in this case by an absolute pointer to an item identifier list (PIDL)&#8212;and the process that it is associated with.
 old-location: shell\SHARDAPPIDINFOIDLIST.htm

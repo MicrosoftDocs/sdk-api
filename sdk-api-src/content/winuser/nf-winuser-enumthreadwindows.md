@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.EnumThreadWindows
-title: EnumThreadWindows function
+title: EnumThreadWindows function (winuser.h)
 author: windows-sdk-content
 description: Enumerates all nonchild windows associated with a thread by passing the handle to each window, in turn, to an application-defined callback function.
 old-location: winmsg\enumthreadwindows.htm

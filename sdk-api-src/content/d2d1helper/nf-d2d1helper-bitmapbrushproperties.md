@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1helper.BitmapBrushProperties
-title: BitmapBrushProperties function
+title: BitmapBrushProperties function (d2d1helper.h)
 author: windows-sdk-content
 description: Creates a D2D1_BITMAP_BRUSH_PROPERTIES structure.
 old-location: direct2d\bitmapbrushproperties.htm

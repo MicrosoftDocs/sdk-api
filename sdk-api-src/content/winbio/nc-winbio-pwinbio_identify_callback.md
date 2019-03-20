@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio.PWINBIO_IDENTIFY_CALLBACK
-title: PWINBIO_IDENTIFY_CALLBACK
+title: PWINBIO_IDENTIFY_CALLBACK (winbio.h)
 author: windows-sdk-content
 description: Returns results from the asynchronous WinBioIdentifyWithCallback function.
 old-location: secbiomet\pwinbio_identify_callback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.SetTransform
-title: TextureBrush::SetTransform
+title: TextureBrush::SetTransform (gdiplusbrush.h)
 author: windows-sdk-content
 description: The TextureBrush::SetTransform method sets the transformation matrix of this texture brush.
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_SetTransform_matrix_.htm

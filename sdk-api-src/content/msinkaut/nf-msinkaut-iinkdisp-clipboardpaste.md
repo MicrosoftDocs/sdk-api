@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDisp.ClipboardPaste
-title: IInkDisp::ClipboardPaste
+title: IInkDisp::ClipboardPaste (msinkaut.h)
 author: windows-sdk-content
 description: Copies the IDataObject from the Clipboard to the InkDisp object.
 old-location: tablet\inkdisp_clipboardpaste.htm

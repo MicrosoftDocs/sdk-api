@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIStreamStart
-title: AVIStreamStart function
+title: AVIStreamStart function (vfw.h)
 author: windows-sdk-content
 description: The AVIStreamStart function returns the starting sample number for the stream.
 old-location: multimedia\avistreamstart.htm

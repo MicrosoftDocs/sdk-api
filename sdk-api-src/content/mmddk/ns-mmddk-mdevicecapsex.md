@@ -1,6 +1,6 @@
 ---
 UID: NS:mmddk.__unnamed_struct_1
-title: MDEVICECAPSEX
+title: MDEVICECAPSEX (mmddk.h)
 author: windows-sdk-content
 description: The MDEVICECAPSEX structure contains device capability information for Plug and Play (PnP) device drivers.
 old-location: audio\mdevicecapsex.htm

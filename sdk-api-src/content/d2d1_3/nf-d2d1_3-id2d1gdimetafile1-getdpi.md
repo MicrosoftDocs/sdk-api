@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1GdiMetafile1.GetDpi
-title: ID2D1GdiMetafile1::GetDpi
+title: ID2D1GdiMetafile1::GetDpi (d2d1_3.h)
 author: windows-sdk-content
 description: Gets the DPI reported by the metafile.
 old-location: direct2d\id2d1gdimetafile1_getdpi.htm

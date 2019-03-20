@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMStreamList
-title: IWMStreamList
+title: IWMStreamList (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMStreamList interface is used by mutual exclusion objects and bandwidth sharing objects to maintain lists of streams.
 old-location: wmformat\iwmstreamlist.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMPushSource.GetPushSourceFlags
-title: IAMPushSource::GetPushSourceFlags
+title: IAMPushSource::GetPushSourceFlags (strmif.h)
 author: windows-sdk-content
 description: The GetPushSourceFlags method retrieves a combination of flags describing the behavior of the filter.
 old-location: dshow\iampushsource_getpushsourceflags.htm

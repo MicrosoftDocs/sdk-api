@@ -1,6 +1,6 @@
 ---
 UID: NE:rectypes.enumLINE_METRICS
-title: LINE_METRICS
+title: LINE_METRICS (rectypes.h)
 author: windows-sdk-content
 description: Represents the lines found in a recognition segment.
 old-location: tablet\line_metrics.htm

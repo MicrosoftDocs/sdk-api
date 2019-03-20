@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP.FindNextAttrTransition
-title: ITextStoreACP::FindNextAttrTransition
+title: ITextStoreACP::FindNextAttrTransition (textstor.h)
 author: windows-sdk-content
 description: The ITextStoreACP::FindNextAttrTransition method determines the character position where a transition occurs in an attribute value. The specified attribute to check is application-dependent.
 old-location: tsf\itextstoreacp_findnextattrtransition.htm

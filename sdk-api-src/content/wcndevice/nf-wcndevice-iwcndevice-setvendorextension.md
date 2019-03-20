@@ -1,6 +1,6 @@
 ---
 UID: NF:wcndevice.IWCNDevice.SetVendorExtension
-title: IWCNDevice::SetVendorExtension
+title: IWCNDevice::SetVendorExtension (wcndevice.h)
 author: windows-sdk-content
 description: The IWCNDevice::SetVendorExtension method queues a vendor extension for use in the pending session. This function may only be called prior to IWCNDevice::Connect.
 old-location: wcn\iwcndevice_setvendorextension.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingMethod.put_Priority
-title: IFaxInboundRoutingMethod::put_Priority
+title: IFaxInboundRoutingMethod::put_Priority (faxcomex.h)
 author: windows-sdk-content
 description: The Priority property is a value associated with the order in which the fax service calls the routing method when the service receives a fax job.
 old-location: fax\_mfax_faxinboundroutingmethod_priority_cpp.htm

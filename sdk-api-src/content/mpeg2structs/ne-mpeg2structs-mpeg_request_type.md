@@ -1,6 +1,6 @@
 ---
 UID: NE:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0032
-title: MPEG_REQUEST_TYPE
+title: MPEG_REQUEST_TYPE (mpeg2structs.h)
 author: windows-sdk-content
 description: The MPEG_REQUEST_TYPE enumeration type specifies a request for MPEG-2 data.
 old-location: mstv\mpeg_request_type.htm

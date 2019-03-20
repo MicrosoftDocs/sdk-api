@@ -1,6 +1,6 @@
 ---
 UID: NF:inkpresenterdesktop.IInkPresenterDesktop.SetRootVisual
-title: IInkPresenterDesktop::SetRootVisual
+title: IInkPresenterDesktop::SetRootVisual (inkpresenterdesktop.h)
 author: windows-sdk-content
 description: Sets the connection to the app's DirectComposition visual tree.
 old-location: input_ink\iinkpresenterdesktop_setrootvisual.htm

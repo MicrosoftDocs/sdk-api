@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmActionEmail.get_MailCc
-title: IFsrmActionEmail::get_MailCc
+title: IFsrmActionEmail::get_MailCc (fsrm.h)
 author: windows-sdk-content
 description: Retrieves or sets the carbon copy (Cc) email address to which email is sent when this action generates email.
 old-location: fsrm\ifsrmactionemail_mailcc.htm

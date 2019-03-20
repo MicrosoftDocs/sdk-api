@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.put_Width
-title: IVideoWindow::put_Width
+title: IVideoWindow::put_Width (control.h)
 author: windows-sdk-content
 description: The put_Width method specifies the width of the video window.
 old-location: dshow\ivideowindow_put_width.htm

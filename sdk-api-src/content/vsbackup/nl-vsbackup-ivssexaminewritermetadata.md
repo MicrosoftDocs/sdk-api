@@ -1,6 +1,6 @@
 ---
 UID: NL:vsbackup.IVssExamineWriterMetadata
-title: IVssExamineWriterMetadata
+title: IVssExamineWriterMetadata (vsbackup.h)
 author: windows-sdk-content
 description: The IVssExamineWriterMetadata interface is a C++ (not COM) interface that allows a requester to examine the metadata of a specific writer instance.
 old-location: base\ivssexaminewritermetadata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:tapi.LINECALLBACK
-title: LINECALLBACK
+title: LINECALLBACK (tapi.h)
 author: windows-sdk-content
 description: The lineCallback function is a placeholder for the application-supplied function name.
 old-location: tapi2\linecallbackfunc.htm

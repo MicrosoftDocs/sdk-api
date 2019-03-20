@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumModuleRefs
-title: IMetaDataImport::EnumModuleRefs
+title: IMetaDataImport::EnumModuleRefs (rometadataapi.h)
 author: windows-sdk-content
 description: Enumerates ModuleRef tokens that represent imported modules.
 old-location: winrt\imetadataimport_enummodulerefs.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IRootStorage
-title: IRootStorage
+title: IRootStorage (objidl.h)
 author: windows-sdk-content
 description: The IRootStorage interface contains a single method that switches a storage object to a different underlying file and saves the storage object to that file.
 old-location: stg\irootstorage.htm

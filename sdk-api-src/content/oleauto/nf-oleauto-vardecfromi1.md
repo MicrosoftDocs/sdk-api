@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarDecFromI1
-title: VarDecFromI1 function
+title: VarDecFromI1 function (oleauto.h)
 author: windows-sdk-content
 description: Converts a char value to a decimal value.
 old-location: automat\vardecfromi1.htm

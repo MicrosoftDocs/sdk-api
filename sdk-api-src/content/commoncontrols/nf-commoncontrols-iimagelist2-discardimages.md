@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList2.DiscardImages
-title: IImageList2::DiscardImages
+title: IImageList2::DiscardImages (commoncontrols.h)
 author: windows-sdk-content
 description: Discards images from list, as specified.
 old-location: controls\IImageList2_DiscardImages.htm

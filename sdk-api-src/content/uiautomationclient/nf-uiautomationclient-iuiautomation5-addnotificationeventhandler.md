@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation5.AddNotificationEventHandler
-title: IUIAutomation5::AddNotificationEventHandler
+title: IUIAutomation5::AddNotificationEventHandler (uiautomationclient.h)
 author: windows-sdk-content
 description: Registers a method that handles notification events.Note  Before implementing an event handler, you should be familiar with the threading issues described in Understanding Threading Issues.
 old-location: winauto\uiauto_IUIAutomation5_AddNotificationEventHandler.htm

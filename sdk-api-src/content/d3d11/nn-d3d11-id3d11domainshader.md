@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11DomainShader
-title: ID3D11DomainShader
+title: ID3D11DomainShader (d3d11.h)
 author: windows-sdk-content
 description: A domain-shader interface manages an executable program (a domain shader) that controls the domain-shader stage.
 old-location: direct3d11\id3d11domainshader.htm

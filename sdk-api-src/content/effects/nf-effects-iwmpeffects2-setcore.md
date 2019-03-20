@@ -1,6 +1,6 @@
 ---
 UID: NF:effects.IWMPEffects2.SetCore
-title: IWMPEffects2::SetCore
+title: IWMPEffects2::SetCore (effects.h)
 author: windows-sdk-content
 description: The SetCore method is called by Windows Media Player to provide visualization access to the core Windows Media Player APIs.
 old-location: wmp\iwmpeffects2_setcore.htm

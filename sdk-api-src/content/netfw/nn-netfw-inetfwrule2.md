@@ -1,6 +1,6 @@
 ---
 UID: NN:netfw.INetFwRule2
-title: INetFwRule2
+title: INetFwRule2 (netfw.h)
 author: windows-sdk-content
 description: Allows an application or service to access all the properties of INetFwRule as well as the four edge properties of a firewall rule specified by NET_FW_EDGE_TRAVERSAL_TYPE.
 old-location: ics\inetfwrule2.htm

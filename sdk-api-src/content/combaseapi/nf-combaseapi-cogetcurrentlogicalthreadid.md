@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoGetCurrentLogicalThreadId
-title: CoGetCurrentLogicalThreadId function
+title: CoGetCurrentLogicalThreadId function (combaseapi.h)
 author: windows-sdk-content
 description: Returns the logical thread identifier of the current physical thread.
 old-location: com\cogetcurrentlogicalthreadid.htm

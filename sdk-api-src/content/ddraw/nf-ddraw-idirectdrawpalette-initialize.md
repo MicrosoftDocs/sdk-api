@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawPalette.Initialize
-title: IDirectDrawPalette::Initialize
+title: IDirectDrawPalette::Initialize (ddraw.h)
 author: windows-sdk-content
 description: Initializes the DirectDrawPalette object.
 old-location: directdraw\idirectdrawpalette_initialize.htm

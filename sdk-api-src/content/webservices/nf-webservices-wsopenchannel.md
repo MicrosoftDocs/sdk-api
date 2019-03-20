@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsOpenChannel
-title: WsOpenChannel function
+title: WsOpenChannel function (webservices.h)
 author: windows-sdk-content
 description: Open a channel to an endpoint.
 old-location: wsw\wsopenchannel.htm

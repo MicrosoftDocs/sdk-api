@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPPropertyCollection.InitializeFromProperties
-title: IOCSPPropertyCollection::InitializeFromProperties
+title: IOCSPPropertyCollection::InitializeFromProperties (certadm.h)
 author: windows-sdk-content
 description: Creates a property set from the properties contained in an existing server configuration.
 old-location: security\iocsppropertycollection_initializefromproperties_method.htm

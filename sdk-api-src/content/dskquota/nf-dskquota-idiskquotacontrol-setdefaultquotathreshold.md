@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.SetDefaultQuotaThreshold
-title: IDiskQuotaControl::SetDefaultQuotaThreshold
+title: IDiskQuotaControl::SetDefaultQuotaThreshold (dskquota.h)
 author: windows-sdk-content
 description: Modifies the default warning threshold.
 old-location: fs\idiskquotacontrol_setdefaultquotathreshold.htm

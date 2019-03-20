@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmReportLimit
-title: FsrmReportLimit
+title: FsrmReportLimit (fsrmenums.h)
 author: windows-sdk-content
 description: Defines the limit used to limit the files included in a report.
 old-location: fsrm\fsrmreportlimit.htm

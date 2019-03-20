@@ -1,6 +1,6 @@
 ---
 UID: NS:olectl.tagFONTDESC
-title: FONTDESC
+title: FONTDESC (olectl.h)
 author: windows-sdk-content
 description: Contains parameters used to create a font object through the OleCreateFontIndirect function.
 old-location: com\fontdesc.htm

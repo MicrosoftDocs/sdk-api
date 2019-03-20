@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.InkShiftKeyModifierFlags
-title: InkShiftKeyModifierFlags
+title: InkShiftKeyModifierFlags (msinkaut.h)
 author: windows-sdk-content
 description: Specifies which modifier key was pressed.
 old-location: tablet\inkshiftkeymodifierflags.htm

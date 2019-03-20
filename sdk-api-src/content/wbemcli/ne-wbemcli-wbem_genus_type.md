@@ -1,6 +1,6 @@
 ---
 UID: NE:wbemcli.tag_WBEM_GENUS_TYPE
-title: WBEM_GENUS_TYPE
+title: WBEM_GENUS_TYPE (wbemcli.h)
 author: windows-sdk-content
 description: Contains constants used to distinguish between classes and instances.
 old-location: wmi\wbem_genus_type.htm

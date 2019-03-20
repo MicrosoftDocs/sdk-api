@@ -1,6 +1,6 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportManager
-title: IWdsTransportManager
+title: IWdsTransportManager (wdstptmgmt.h)
 author: windows-sdk-content
 description: Manages a WDS transport server. This is the top-level interface into the Windows Deployment Services (WDS) Transport Management API and the only interface that can be created using the CoCreateInstance function.
 old-location: wds\iwdstransportmanager.htm

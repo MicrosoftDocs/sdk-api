@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.IntersectRect
-title: IntersectRect function
+title: IntersectRect function (winuser.h)
 author: windows-sdk-content
 description: The IntersectRect function calculates the intersection of two source rectangles and places the coordinates of the intersection rectangle into the destination rectangle.
 old-location: gdi\intersectrect.htm

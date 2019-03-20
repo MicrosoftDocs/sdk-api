@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.IsValidDpiAwarenessContext
-title: IsValidDpiAwarenessContext function
+title: IsValidDpiAwarenessContext function (winuser.h)
 author: windows-sdk-content
 description: Determines if a specified DPI_AWARENESS_CONTEXT is valid and supported by the current system.
 old-location: hidpi\isvaliddpiawarenesscontext.htm

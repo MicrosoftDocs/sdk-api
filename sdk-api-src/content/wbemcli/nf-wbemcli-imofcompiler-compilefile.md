@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IMofCompiler.CompileFile
-title: IMofCompiler::CompileFile
+title: IMofCompiler::CompileFile (wbemcli.h)
 author: windows-sdk-content
 description: The IMofCompiler::CompileFile method compiles a MOF file (including binary MOFs) and stores the information in the WMI repository.
 old-location: wmi\imofcompiler_compilefile.htm

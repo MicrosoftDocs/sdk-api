@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterGroupGetEnumCountEx
-title: ClusterGroupGetEnumCountEx function
+title: ClusterGroupGetEnumCountEx function (clusapi.h)
 author: windows-sdk-content
 description: Returns the number of elements in the enumeration.
 old-location: mscs\clustergroupgetenumcountex.htm

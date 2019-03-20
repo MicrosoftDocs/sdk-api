@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMBYTEN2.XMBYTEN2(XMBYTEN2 &&)
-title: XMBYTEN2::XMBYTEN2(XMBYTEN2 &&)
+title: XMBYTEN2::XMBYTEN2(XMBYTEN2 &&) (directxpackedvector.h)
 author: windows-sdk-content
 description: Default constructor for XMBYTEN2.
 old-location: dxmath\xmbyten2_ctor_1.htm

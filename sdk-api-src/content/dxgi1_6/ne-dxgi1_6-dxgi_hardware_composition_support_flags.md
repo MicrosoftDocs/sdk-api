@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgi1_6.DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS
-title: DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS
+title: DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS (dxgi1_6.h)
 author: windows-sdk-content
 description: Describes which levels of hardware composition are supported.
 old-location: direct3ddxgi\dxgi_hardware_composition_support_flags.htm

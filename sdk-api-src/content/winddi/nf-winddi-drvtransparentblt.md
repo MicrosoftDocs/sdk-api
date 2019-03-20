@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvTransparentBlt
-title: DrvTransparentBlt function
+title: DrvTransparentBlt function (winddi.h)
 author: windows-sdk-content
 description: The DrvTransparentBlt function provides bit-block transfer capabilities with transparency.
 old-location: display\drvtransparentblt.htm

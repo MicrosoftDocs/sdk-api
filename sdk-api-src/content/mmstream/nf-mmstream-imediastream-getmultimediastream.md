@@ -1,6 +1,6 @@
 ---
 UID: NF:mmstream.IMediaStream.GetMultiMediaStream
-title: IMediaStream::GetMultiMediaStream
+title: IMediaStream::GetMultiMediaStream (mmstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Retrieves a pointer to the multimedia stream that contains the specified media stream.
 old-location: dshow\imediastream_getmultimediastream.htm

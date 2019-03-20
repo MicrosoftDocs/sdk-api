@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICodecAPI.SetValue
-title: ICodecAPI::SetValue
+title: ICodecAPI::SetValue (strmif.h)
 author: windows-sdk-content
 description: The SetValue method sets the value of a codec property.
 old-location: dshow\icodecapi_setvalue.htm

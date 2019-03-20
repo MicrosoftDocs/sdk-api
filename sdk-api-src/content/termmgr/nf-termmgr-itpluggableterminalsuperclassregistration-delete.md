@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalSuperclassRegistration.Delete
-title: ITPluggableTerminalSuperclassRegistration::Delete
+title: ITPluggableTerminalSuperclassRegistration::Delete (termmgr.h)
 author: windows-sdk-content
 description: The Delete method removes the current terminal superclass from the registry.
 old-location: tapi3\itpluggableterminalsuperclassregistration_delete.htm

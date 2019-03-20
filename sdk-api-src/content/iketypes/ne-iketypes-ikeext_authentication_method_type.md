@@ -1,6 +1,6 @@
 ---
 UID: NE:iketypes.IKEEXT_AUTHENTICATION_METHOD_TYPE_
-title: IKEEXT_AUTHENTICATION_METHOD_TYPE
+title: IKEEXT_AUTHENTICATION_METHOD_TYPE (iketypes.h)
 author: windows-sdk-content
 description: Specifies the type of authentication method used by Internet Key Exchange (IKE), Authenticated Internet Protocol (AuthIP), or IKEv2.
 old-location: fwp\ikeext_authentication_method_type.htm

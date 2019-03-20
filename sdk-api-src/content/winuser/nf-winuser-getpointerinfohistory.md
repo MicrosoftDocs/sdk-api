@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetPointerInfoHistory
-title: GetPointerInfoHistory function
+title: GetPointerInfoHistory function (winuser.h)
 author: windows-sdk-content
 description: Gets the information associated with the individual inputs, if any, that were coalesced into the current message for the specified pointer.
 old-location: inputmsg\getpointerinfohistory.htm

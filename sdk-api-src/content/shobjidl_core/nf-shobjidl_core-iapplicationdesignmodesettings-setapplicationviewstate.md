@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings.SetApplicationViewState
-title: IApplicationDesignModeSettings::SetApplicationViewState
+title: IApplicationDesignModeSettings::SetApplicationViewState (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets a spoofed application view state (full-screen landscape, full-screen portrait, filled, or snapped) to be used for a Windows Store app running in design mode.
 old-location: shell\IApplicationDesignModeSettings_SetApplicationViewState.htm

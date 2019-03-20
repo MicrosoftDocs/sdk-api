@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleClientSite.GetContainer
-title: IOleClientSite::GetContainer
+title: IOleClientSite::GetContainer (oleidl.h)
 author: windows-sdk-content
 description: Retrieves a pointer to the object's container.
 old-location: com\ioleclientsite_getcontainer.htm

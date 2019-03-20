@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.put_ButtonText
-title: ITPhone::put_ButtonText
+title: ITPhone::put_ButtonText (tapi3if.h)
 author: windows-sdk-content
 description: The put_ButtonText method sets the button text.
 old-location: tapi3\itphone_put_buttontext.htm

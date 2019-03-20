@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetErrorDlg
-title: InternetErrorDlg function
+title: InternetErrorDlg function (wininet.h)
 author: windows-sdk-content
 description: Displays a dialog box for the error that is passed to InternetErrorDlg, if an appropriate dialog box exists.
 old-location: wininet\interneterrordlg.htm

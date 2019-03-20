@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFSplitter.GetSelectedStreams
-title: IMFASFSplitter::GetSelectedStreams
+title: IMFASFSplitter::GetSelectedStreams (wmcontainer.h)
 author: windows-sdk-content
 description: Gets a list of currently selected streams.
 old-location: mf\imfasfsplitter_getselectedstreams.htm

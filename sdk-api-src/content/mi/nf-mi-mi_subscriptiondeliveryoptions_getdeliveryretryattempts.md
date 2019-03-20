@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetDeliveryRetryAttempts
-title: MI_SubscriptionDeliveryOptions_GetDeliveryRetryAttempts function
+title: MI_SubscriptionDeliveryOptions_GetDeliveryRetryAttempts function (mi.h)
 author: windows-sdk-content
 description: Gets the number of delivery retry attempts.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getdeliveryretryattempts.htm

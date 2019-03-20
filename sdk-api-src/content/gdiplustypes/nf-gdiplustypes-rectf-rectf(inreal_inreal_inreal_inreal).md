@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.RectF.RectF(IN REAL,IN REAL,IN REAL,IN REAL)
-title: RectF::RectF(IN REAL,IN REAL,IN REAL,IN REAL)
+title: RectF::RectF(IN REAL,IN REAL,IN REAL,IN REAL) (gdiplustypes.h)
 author: windows-sdk-content
 description: Creates a RectF object by using four integers to initialize the X, Y, Width, and Height data members.
 old-location: gdiplus\_gdiplus_CLASS_RectF_RectF_x_y_width_height_.htm

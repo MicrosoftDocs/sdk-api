@@ -1,6 +1,6 @@
 ---
 UID: NF:sysinfoapi.SetLocalTime
-title: SetLocalTime function
+title: SetLocalTime function (sysinfoapi.h)
 author: windows-sdk-content
 description: Sets the current local time and date.
 old-location: base\setlocaltime.htm

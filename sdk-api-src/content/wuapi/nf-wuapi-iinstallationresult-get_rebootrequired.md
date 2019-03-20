@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationResult.get_RebootRequired
-title: IInstallationResult::get_RebootRequired
+title: IInstallationResult::get_RebootRequired (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether you must restart the computer to complete the installation or uninstallation of an update.
 old-location: wua\iinstallationresult_rebootrequired.htm

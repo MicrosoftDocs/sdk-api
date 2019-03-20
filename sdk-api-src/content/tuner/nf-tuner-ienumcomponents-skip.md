@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IEnumComponents.Skip
-title: IEnumComponents::Skip
+title: IEnumComponents::Skip (tuner.h)
 author: windows-sdk-content
 description: The Skip method skips the specified element in the collection without retrieving it.
 old-location: mstv\ienumcomponents_skip.htm

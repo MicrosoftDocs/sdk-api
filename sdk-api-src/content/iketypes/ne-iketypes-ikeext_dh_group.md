@@ -1,6 +1,6 @@
 ---
 UID: NE:iketypes.IKEEXT_DH_GROUP_
-title: IKEEXT_DH_GROUP
+title: IKEEXT_DH_GROUP (iketypes.h)
 author: windows-sdk-content
 description: Specifies the type of Diffie Hellman group used for Internet Key Exchange (IKE) and Authenticated Internet Protocol (AuthIP) key generation.
 old-location: fwp\ikeext_dh_group.htm

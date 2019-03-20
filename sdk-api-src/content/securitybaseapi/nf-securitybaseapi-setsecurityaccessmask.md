@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.SetSecurityAccessMask
-title: SetSecurityAccessMask function
+title: SetSecurityAccessMask function (securitybaseapi.h)
 author: windows-sdk-content
 description: Creates an access mask that represents the access permissions necessary to set the specified object security information.
 old-location: security\setsecurityaccessmask.htm

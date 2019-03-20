@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpLsaModeInitializeFn
-title: SpLsaModeInitializeFn
+title: SpLsaModeInitializeFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Provides the LSA with pointers to the functions implemented by each security package in the SSP/AP DLL.
 old-location: security\splsamodeinitialize.htm

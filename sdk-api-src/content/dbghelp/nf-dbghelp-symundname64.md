@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymUnDName64
-title: SymUnDName64 function
+title: SymUnDName64 function (dbghelp.h)
 author: windows-sdk-content
 description: Undecorates a decorated C++ symbol name.
 old-location: base\symundname64.htm

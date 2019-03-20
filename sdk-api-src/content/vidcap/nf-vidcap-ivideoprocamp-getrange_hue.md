@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_Hue
-title: IVideoProcAmp::getRange_Hue
+title: IVideoProcAmp::getRange_Hue (vidcap.h)
 author: windows-sdk-content
 description: The getRange_Hue method returns the range of hue settings supported by the camera.
 old-location: dshow\ivideoprocamp_getrange_hue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:msopc.IOpcSignaturePartReference
-title: IOpcSignaturePartReference
+title: IOpcSignaturePartReference (msopc.h)
 author: windows-sdk-content
 description: Represents a reference to a part that has been or will be signed.
 old-location: opc\iopcsignaturepartreference.htm

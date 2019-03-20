@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRDeinterlaceControl9.SetDeinterlaceMode
-title: IVMRDeinterlaceControl9::SetDeinterlaceMode
+title: IVMRDeinterlaceControl9::SetDeinterlaceMode (vmr9.h)
 author: windows-sdk-content
 description: The SetDeinterlaceMode method sets the deinterlacing mode for the specified video stream.
 old-location: dshow\ivmrdeinterlacecontrol9_setdeinterlacemode.htm

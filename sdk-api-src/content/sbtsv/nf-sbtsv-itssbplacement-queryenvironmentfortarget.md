@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbPlacement.QueryEnvironmentForTarget
-title: ITsSbPlacement::QueryEnvironmentForTarget
+title: ITsSbPlacement::QueryEnvironmentForTarget (sbtsv.h)
 author: windows-sdk-content
 description: Determines whether the specified environment is ready to host the target that was returned by load balancing.
 old-location: termserv\itssbplacement_queryenvironmentfortarget.htm

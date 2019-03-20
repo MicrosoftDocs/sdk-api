@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3D9.GetAdapterDisplayMode
-title: IDirect3D9::GetAdapterDisplayMode
+title: IDirect3D9::GetAdapterDisplayMode (d3d9.h)
 author: windows-sdk-content
 description: Retrieves the current display mode of the adapter.
 old-location: direct3d9\idirect3d9__getadapterdisplaymode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winfax._FAX_DEVICE_STATUSA
-title: FAX_DEVICE_STATUSA
+title: FAX_DEVICE_STATUSA (winfax.h)
 author: windows-sdk-content
 description: The FAX_DEVICE_STATUS structure contains information about the current status of a fax device.
 old-location: fax\_mfax_fax_device_status_str.htm

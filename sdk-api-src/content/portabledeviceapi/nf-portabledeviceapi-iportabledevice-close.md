@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevice.Close
-title: IPortableDevice::Close
+title: IPortableDevice::Close (portabledeviceapi.h)
 author: windows-sdk-content
 description: The Close method closes the connection with the device.
 old-location: wpdsdk\iportabledevice_close.htm

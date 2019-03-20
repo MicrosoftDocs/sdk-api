@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_SYSTEM_INFO
-title: MINIDUMP_SYSTEM_INFO
+title: MINIDUMP_SYSTEM_INFO (minidumpapiset.h)
 author: windows-sdk-content
 description: Contains processor and operating system information.
 old-location: base\minidump_system_info_str.htm

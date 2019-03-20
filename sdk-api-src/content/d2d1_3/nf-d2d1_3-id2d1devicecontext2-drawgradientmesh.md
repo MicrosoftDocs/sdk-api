@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext2.DrawGradientMesh
-title: ID2D1DeviceContext2::DrawGradientMesh
+title: ID2D1DeviceContext2::DrawGradientMesh (d2d1_3.h)
 author: windows-sdk-content
 description: Renders a given gradient mesh to the target.
 old-location: direct2d\id2d1devicecontext2_drawgradientmesh.htm

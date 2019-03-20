@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_24
-title: SENDER_TSPEC
+title: SENDER_TSPEC (lpmapi.h)
 author: windows-sdk-content
 description: The SENDER_TSPEC structure contains information for an RSVP sender Tspec.
 old-location: qos\sender_tspec.htm

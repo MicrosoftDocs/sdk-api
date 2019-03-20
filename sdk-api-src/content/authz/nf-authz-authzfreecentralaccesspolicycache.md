@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzFreeCentralAccessPolicyCache
-title: AuthzFreeCentralAccessPolicyCache function
+title: AuthzFreeCentralAccessPolicyCache function (authz.h)
 author: windows-sdk-content
 description: Decreases the CAP cache reference count by one so that the CAP cache can be deallocated.
 old-location: security\authzfreecentralaccesspolicycache.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mfsharingengine.MF_SHARING_ENGINE_EVENT
-title: MF_SHARING_ENGINE_EVENT
+title: MF_SHARING_ENGINE_EVENT (mfsharingengine.h)
 author: windows-sdk-content
 description: Defines events that are sent by the sharing engine.
 old-location: mf\mf_sharing_engine_event.htm

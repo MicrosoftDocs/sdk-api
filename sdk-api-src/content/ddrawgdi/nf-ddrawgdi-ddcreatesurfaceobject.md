@@ -1,6 +1,6 @@
 ---
 UID: NF:ddrawgdi.DdCreateSurfaceObject
-title: DdCreateSurfaceObject function
+title: DdCreateSurfaceObject function (ddrawgdi.h)
 author: windows-sdk-content
 description: Wrapper for the NtGdiDdCreateSurfaceObject function and creates a kernel-mode surface object. GdiEntry4 is defined as an alias for this function.
 old-location: winprog\_dxgkernel_ddcreatesurfaceobject.htm

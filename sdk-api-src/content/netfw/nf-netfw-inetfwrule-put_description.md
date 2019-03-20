@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRule.put_Description
-title: INetFwRule::put_Description
+title: INetFwRule::put_Description (netfw.h)
 author: windows-sdk-content
 description: Specifies the description of this rule.
 old-location: ics\inetfwrule_description.htm

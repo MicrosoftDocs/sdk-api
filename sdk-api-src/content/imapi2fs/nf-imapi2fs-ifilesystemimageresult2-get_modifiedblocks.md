@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImageResult2.get_ModifiedBlocks
-title: IFileSystemImageResult2::get_ModifiedBlocks
+title: IFileSystemImageResult2::get_ModifiedBlocks (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the list of modified blocks in the result image.
 old-location: imapi\ifilesystemimageresult2_get_modifiedblocks.htm

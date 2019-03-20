@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.GetCheckboxValue
-title: ICredentialProviderCredential::GetCheckboxValue
+title: ICredentialProviderCredential::GetCheckboxValue (credentialprovider.h)
 author: windows-sdk-content
 description: Retrieves the checkbox value.
 old-location: shell\ICredentialProviderCredential_GetCheckboxValue.htm

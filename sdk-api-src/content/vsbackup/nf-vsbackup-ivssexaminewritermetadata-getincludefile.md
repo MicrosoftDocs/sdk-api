@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadata.GetIncludeFile
-title: IVssExamineWriterMetadata::GetIncludeFile
+title: IVssExamineWriterMetadata::GetIncludeFile (vsbackup.h)
 author: windows-sdk-content
 description: Not supported.
 old-location: base\ivssexaminewritermetadata_getincludefile.htm

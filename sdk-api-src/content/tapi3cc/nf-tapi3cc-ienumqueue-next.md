@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.IEnumQueue.Next
-title: IEnumQueue::Next
+title: IEnumQueue::Next (tapi3cc.h)
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumqueue_next.htm

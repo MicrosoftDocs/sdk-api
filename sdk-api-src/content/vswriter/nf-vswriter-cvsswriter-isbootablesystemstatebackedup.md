@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.IsBootableSystemStateBackedUp
-title: CVssWriter::IsBootableSystemStateBackedUp
+title: CVssWriter::IsBootableSystemStateBackedUp (vswriter.h)
 author: windows-sdk-content
 description: The IsBootableSystemStateBackedUp method indicates whether the bootable state will be backed up.
 old-location: base\cvsswriter_isbootablestatebackedup.htm

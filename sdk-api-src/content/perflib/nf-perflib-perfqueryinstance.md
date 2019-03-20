@@ -1,6 +1,6 @@
 ---
 UID: NF:perflib.PerfQueryInstance
-title: PerfQueryInstance function
+title: PerfQueryInstance function (perflib.h)
 author: windows-sdk-content
 description: Retrieves a pointer to the specified counter set instance. Providers use this function.
 old-location: perf\perfqueryinstance.htm

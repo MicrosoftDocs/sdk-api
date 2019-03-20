@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.CacheMoved
-title: IOfflineFilesEvents::CacheMoved
+title: IOfflineFilesEvents::CacheMoved (cscobj.h)
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: of\iofflinefilesevents_cachemoved.htm

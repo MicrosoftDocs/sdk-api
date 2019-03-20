@@ -1,6 +1,6 @@
 ---
 UID: NS:minwinbase._RIP_INFO
-title: RIP_INFO
+title: RIP_INFO (minwinbase.h)
 author: windows-sdk-content
 description: Contains the error that caused the RIP debug event.
 old-location: base\rip_info_str.htm

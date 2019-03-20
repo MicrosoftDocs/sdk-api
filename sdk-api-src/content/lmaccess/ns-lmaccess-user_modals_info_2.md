@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._USER_MODALS_INFO_2
-title: USER_MODALS_INFO_2
+title: USER_MODALS_INFO_2 (lmaccess.h)
 author: windows-sdk-content
 description: The USER_MODALS_INFO_2 structure contains the Security Account Manager (SAM) domain name and identifier.
 old-location: netmgmt\user_modals_info_2_str.htm

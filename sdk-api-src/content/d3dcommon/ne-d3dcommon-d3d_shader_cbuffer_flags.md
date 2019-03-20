@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dcommon._D3D_SHADER_CBUFFER_FLAGS
-title: D3D_SHADER_CBUFFER_FLAGS
+title: D3D_SHADER_CBUFFER_FLAGS (d3dcommon.h)
 author: windows-sdk-content
 description: Values that identify the indended use of a constant-data buffer.
 old-location: direct3d11\d3d_shader_cbuffer_flags.htm

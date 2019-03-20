@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorDevice.GetDeviceId
-title: IMFSensorDevice::GetDeviceId
+title: IMFSensorDevice::GetDeviceId (mfidl.h)
 author: windows-sdk-content
 description: Gets the unique identifier for the device. This value is currently unused.
 old-location: mf\imfsensordevice_getdeviceid.htm

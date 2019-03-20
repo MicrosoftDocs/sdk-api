@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.GetAllDerivedInstancesAsynch
-title: CWbemProviderGlue::GetAllDerivedInstancesAsynch
+title: CWbemProviderGlue::GetAllDerivedInstancesAsynch (wbemglue.h)
 author: windows-sdk-content
 description: The GetAllDerivedInstancesAsynch method retrieves a list of instances supported by a particular provider and derived from a particular base class. This method allows the provider to respond asynchronously by returning one instance at a time.
 old-location: wmi\cwbemproviderglue_getallderivedinstancesasynch.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_ArchiveLocation
-title: IFaxConfiguration::get_ArchiveLocation
+title: IFaxConfiguration::get_ArchiveLocation (faxcomex.h)
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates the location of the archive on the server.
 old-location: fax\_mfax_IFaxConfiguration_ArchiveLocation.htm

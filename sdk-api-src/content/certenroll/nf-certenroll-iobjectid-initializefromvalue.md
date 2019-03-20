@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IObjectId.InitializeFromValue
-title: IObjectId::InitializeFromValue
+title: IObjectId::InitializeFromValue (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from a string that contains a dotted decimal object identifier (OID).
 old-location: security\iobjectid_initializefromvalue_method.htm

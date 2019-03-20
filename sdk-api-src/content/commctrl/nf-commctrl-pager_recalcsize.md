@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Pager_RecalcSize
-title: Pager_RecalcSize macro
+title: Pager_RecalcSize macro (commctrl.h)
 author: windows-sdk-content
 description: Forces the pager control to recalculate the size of the contained window. Using this macro will result in a PGN_CALCSIZE notification being sent. You can use this macro or send the PGM_RECALCSIZE message explicitly.
 old-location: controls\Pager_RecalcSize.htm

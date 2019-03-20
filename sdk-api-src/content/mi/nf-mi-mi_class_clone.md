@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Class_Clone
-title: MI_Class_Clone function
+title: MI_Class_Clone function (mi.h)
 author: windows-sdk-content
 description: Clones an MI_Class object.
 old-location: wmi_v2\mi_class_clone.htm

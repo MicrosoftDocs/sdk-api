@@ -1,6 +1,6 @@
 ---
 UID: NN:adhoc.IEnumDot11AdHocSecuritySettings
-title: IEnumDot11AdHocSecuritySettings
+title: IEnumDot11AdHocSecuritySettings (adhoc.h)
 author: windows-sdk-content
 description: Represents the collection of security settings associated with each visible wireless ad hoc network.
 old-location: nwifi\ienumdot11adhocsecuritysettings.htm

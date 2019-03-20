@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateCollection.Copy
-title: IUpdateCollection::Copy
+title: IUpdateCollection::Copy (wuapi.h)
 author: windows-sdk-content
 description: Creates a shallow read/write copy of the collection.
 old-location: wua\iupdatecollection_copy.htm

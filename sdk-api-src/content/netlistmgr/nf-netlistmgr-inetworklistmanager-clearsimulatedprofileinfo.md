@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkListManager.ClearSimulatedProfileInfo
-title: INetworkListManager::ClearSimulatedProfileInfo
+title: INetworkListManager::ClearSimulatedProfileInfo (netlistmgr.h)
 author: windows-sdk-content
 description: Clears the connection profile values previously applied to the internet connection profile by SetSimulatedProfileInfo. The next internet connection query, via GetInternetConnectionProfile, will use system information.
 old-location: nla\inetworklistmanager_clearsimulatedprofileinfo.htm

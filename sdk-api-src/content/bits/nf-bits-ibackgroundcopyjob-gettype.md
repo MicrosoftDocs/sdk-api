@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetType
-title: IBackgroundCopyJob::GetType
+title: IBackgroundCopyJob::GetType (bits.h)
 author: windows-sdk-content
 description: Retrieves the type of transfer being performed, such as a file download or upload.
 old-location: bits\ibackgroundcopyjob_gettype.htm

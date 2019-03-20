@@ -1,6 +1,6 @@
 ---
 UID: NE:wcmapi._WCM_MEDIA_TYPE
-title: WCM_MEDIA_TYPE
+title: WCM_MEDIA_TYPE (wcmapi.h)
 author: windows-sdk-content
 description: Specifies the type of media for a connection.
 old-location: wcm\wcm_media_type.htm

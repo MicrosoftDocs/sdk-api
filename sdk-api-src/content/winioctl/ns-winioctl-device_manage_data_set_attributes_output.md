@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
-title: DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
+title: DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT (winioctl.h)
 author: windows-sdk-content
 description: Output structure for the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
 old-location: base\device_manage_data_set_attributes_output.htm

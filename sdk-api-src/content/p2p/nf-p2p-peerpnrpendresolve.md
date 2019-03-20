@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerPnrpEndResolve
-title: PeerPnrpEndResolve function
+title: PeerPnrpEndResolve function (p2p.h)
 author: windows-sdk-content
 description: Closes the handle for an asynchronous PNRP resolution operation initiated with a previous call to PeerPnrpStartResolve.
 old-location: p2p\peerpnrpendresolve.htm

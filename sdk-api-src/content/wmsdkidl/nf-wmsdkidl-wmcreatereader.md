@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.WMCreateReader
-title: WMCreateReader function
+title: WMCreateReader function (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMCreateReader function creates a reader object.
 old-location: wmformat\wmcreatereader.htm

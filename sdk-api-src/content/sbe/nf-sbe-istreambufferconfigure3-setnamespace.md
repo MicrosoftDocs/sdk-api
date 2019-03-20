@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure3.SetNamespace
-title: IStreamBufferConfigure3::SetNamespace
+title: IStreamBufferConfigure3::SetNamespace (sbe.h)
 author: windows-sdk-content
 description: The SetNamespace method specifies a prefix that is added to the names of the synchronization objects that the Stream Buffer Engine uses to synchronize the reader and writer.
 old-location: mstv\istreambufferconfigure3_setnamespace.htm

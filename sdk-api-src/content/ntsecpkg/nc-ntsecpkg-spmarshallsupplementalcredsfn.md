@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpMarshallSupplementalCredsFn
-title: SpMarshallSupplementalCredsFn
+title: SpMarshallSupplementalCredsFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Converts supplemental credentials from a public format into a format suitable for local procedure calls.
 old-location: security\spmarshallsupplementalcreds.htm

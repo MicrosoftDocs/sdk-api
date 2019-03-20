@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IConnector.GetType
-title: IConnector::GetType
+title: IConnector::GetType (devicetopology.h)
 author: windows-sdk-content
 description: The GetType method gets the type of this connector.
 old-location: coreaudio\iconnector_gettype.htm

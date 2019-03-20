@@ -1,6 +1,6 @@
 ---
 UID: NF:ddrawgdi.DdReleaseDC
-title: DdReleaseDC function
+title: DdReleaseDC function (ddrawgdi.h)
 author: windows-sdk-content
 description: Wrapper for the NtGdiDdReleaseDC function and releases a device context (DC) previously obtained through DdGetDC or GdiEntry7. GdiEntry8 is defined as an alias for this function.
 old-location: winprog\_dxgkernel_ddreleasedc.htm

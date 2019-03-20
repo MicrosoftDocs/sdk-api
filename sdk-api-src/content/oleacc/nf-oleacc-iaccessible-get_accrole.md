@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessible.get_accRole
-title: IAccessible::get_accRole
+title: IAccessible::get_accRole (oleacc.h)
 author: windows-sdk-content
 description: The IAccessible::get_accRole method retrieves information that describes the role of the specified object. All objects support this property.
 old-location: winauto\iaccessible_iaccessible__get_accrole.htm

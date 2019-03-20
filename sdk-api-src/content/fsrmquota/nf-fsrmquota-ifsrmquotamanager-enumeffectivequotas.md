@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaManager.EnumEffectiveQuotas
-title: IFsrmQuotaManager::EnumEffectiveQuotas
+title: IFsrmQuotaManager::EnumEffectiveQuotas (fsrmquota.h)
 author: windows-sdk-content
 description: Enumerates all the quotas that affect the specified path.
 old-location: fsrm\ifsrmquotamanager_enumeffectivequotas.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptDeriveKey
-title: BCryptDeriveKey function
+title: BCryptDeriveKey function (bcrypt.h)
 author: windows-sdk-content
 description: Derives a key from a secret agreement value.
 old-location: security\bcryptderivekey.htm

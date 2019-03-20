@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_Brightness
-title: IVideoProcAmp::put_Brightness
+title: IVideoProcAmp::put_Brightness (vidcap.h)
 author: windows-sdk-content
 description: The put_Brightness method sets the camera's brightness setting.
 old-location: dshow\ivideoprocamp_put_brightness.htm

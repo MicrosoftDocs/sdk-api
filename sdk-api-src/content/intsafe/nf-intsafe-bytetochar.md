@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.ByteToChar
-title: ByteToChar function
+title: ByteToChar function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type BYTE to a value of type CHAR.
 old-location: shell\ByteToChar.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RadialGradientBrush.SetRadiusX
-title: ID2D1RadialGradientBrush::SetRadiusX
+title: ID2D1RadialGradientBrush::SetRadiusX (d2d1.h)
 author: windows-sdk-content
 description: Specifies the x-radius of the gradient ellipse, in the brush's coordinate space.
 old-location: direct2d\ID2D1RadialGradientBrush_SetRadiusX.htm

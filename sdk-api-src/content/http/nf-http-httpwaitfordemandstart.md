@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpWaitForDemandStart
-title: HttpWaitForDemandStart function
+title: HttpWaitForDemandStart function (http.h)
 author: windows-sdk-content
 description: Waits for the arrival of a new request that can be served by a new request queue process.
 old-location: http\httpwaitfordemandstart.htm

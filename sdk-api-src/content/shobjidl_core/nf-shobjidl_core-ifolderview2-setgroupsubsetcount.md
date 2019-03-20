@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.SetGroupSubsetCount
-title: IFolderView2::SetGroupSubsetCount
+title: IFolderView2::SetGroupSubsetCount (shobjidl_core.h)
 author: windows-sdk-content
 description: Turns on group subsetting and sets the number of visible rows of items in each group.
 old-location: shell\IFolderView2_SetGroupSubsetCount.htm

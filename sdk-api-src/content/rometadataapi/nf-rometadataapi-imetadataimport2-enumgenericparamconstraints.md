@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport2.EnumGenericParamConstraints
-title: IMetaDataImport2::EnumGenericParamConstraints
+title: IMetaDataImport2::EnumGenericParamConstraints (rometadataapi.h)
 author: windows-sdk-content
 description: Gets an enumerator for an array of generic parameter constraints associated with the generic parameter represented by the specified token.
 old-location: winrt\imetadataimport2_enumgenericparamconstraints.htm

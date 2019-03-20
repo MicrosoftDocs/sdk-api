@@ -1,6 +1,6 @@
 ---
 UID: NF:fltuser.FilterConnectCommunicationPort
-title: FilterConnectCommunicationPort function
+title: FilterConnectCommunicationPort function (fltuser.h)
 author: windows-sdk-content
 description: FilterConnectCommunicationPort opens a new connection to a communication server port that is created by a file system minifilter.
 old-location: ifsk\filterconnectcommunicationport.htm

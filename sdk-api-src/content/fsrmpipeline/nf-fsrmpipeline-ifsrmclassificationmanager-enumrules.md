@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.EnumRules
-title: IFsrmClassificationManager::EnumRules
+title: IFsrmClassificationManager::EnumRules (fsrmpipeline.h)
 author: windows-sdk-content
 description: Enumerates the rules of the specified type.
 old-location: fsrm\ifsrmclassificationmanager_enumrules.htm

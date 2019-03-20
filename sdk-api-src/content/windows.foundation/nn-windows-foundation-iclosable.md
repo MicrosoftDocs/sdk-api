@@ -1,6 +1,6 @@
 ---
 UID: NN:windows.foundation.IClosable
-title: IClosable
+title: IClosable (windows.foundation.h)
 author: windows-sdk-content
 description: Defines a method to release allocated resources.
 old-location: winrt\iclosable.htm

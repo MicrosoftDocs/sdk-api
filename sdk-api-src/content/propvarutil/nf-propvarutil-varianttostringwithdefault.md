@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantToStringWithDefault
-title: VariantToStringWithDefault function
+title: VariantToStringWithDefault function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts the string property value of a variant structure. If no value exists, then the specified default value is returned.
 old-location: properties\VariantToStringWithDefault.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.RectF.Contains
-title: RectF::Contains
+title: RectF::Contains (gdiplustypes.h)
 author: windows-sdk-content
 description: This topic lists the Contains methods of the RectF class. For a complete list of methods for the RectF class, see RectF Methods.
 old-location: gdiplus\_gdiplus_CLASS_RectF_Contains_Methods.htm

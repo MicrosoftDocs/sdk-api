@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.SetRenderHandle
-title: IMFCapturePreviewSink::SetRenderHandle
+title: IMFCapturePreviewSink::SetRenderHandle (mfcaptureengine.h)
 author: windows-sdk-content
 description: Specifies a window for preview.
 old-location: mf\imfcapturepreviewsink_setrenderhandle.htm

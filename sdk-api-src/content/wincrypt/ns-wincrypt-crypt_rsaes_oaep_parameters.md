@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_RSAES_OAEP_PARAMETERS
-title: CRYPT_RSAES_OAEP_PARAMETERS
+title: CRYPT_RSAES_OAEP_PARAMETERS (wincrypt.h)
 author: windows-sdk-content
 description: Contains the parameters for an RSAES-OAEP key encryption.
 old-location: security\crypt_rsaes_oaep_parameters.htm

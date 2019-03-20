@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.GetVelocityY
-title: IManipulationProcessor::GetVelocityY
+title: IManipulationProcessor::GetVelocityY (manipulations.h)
 author: windows-sdk-content
 description: Calculates and returns the vertical velocity.
 old-location: wintouch\imanipulationprocessor_getvelocityy.htm

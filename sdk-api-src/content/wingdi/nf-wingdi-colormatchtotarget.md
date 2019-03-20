@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.ColorMatchToTarget
-title: ColorMatchToTarget function
+title: ColorMatchToTarget function (wingdi.h)
 author: windows-sdk-content
 description: The ColorMatchToTarget function enables you to preview colors as they would appear on the target device.
 old-location: wcs\colormatchtotarget.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiRecordClearData
-title: MsiRecordClearData function
+title: MsiRecordClearData function (msiquery.h)
 author: windows-sdk-content
 description: The MsiRecordClearData function sets all fields in a record to null.
 old-location: setup\msirecordcleardata.htm

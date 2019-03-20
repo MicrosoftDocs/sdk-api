@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService.SetHistoryObject
-title: IBrowserService::SetHistoryObject
+title: IBrowserService::SetHistoryObject (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Sets the browser's history object.
 old-location: shell\IBrowserService_SetHistoryObject.htm

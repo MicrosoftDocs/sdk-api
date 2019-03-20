@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoder.GetFrame
-title: IWICBitmapDecoder::GetFrame
+title: IWICBitmapDecoder::GetFrame (wincodec.h)
 author: windows-sdk-content
 description: Retrieves the specified frame of the image.
 old-location: wic\_wic_codec_iwicbitmapdecoder_getframe.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:websocket._WEB_SOCKET_PROPERTY
-title: WEB_SOCKET_PROPERTY
+title: WEB_SOCKET_PROPERTY (websocket.h)
 author: windows-sdk-content
 description: Contains a single WebSocket property.
 old-location: websock\web_socket_property.htm

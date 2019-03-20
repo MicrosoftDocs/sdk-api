@@ -1,6 +1,6 @@
 ---
 UID: NN:mbnapi.IMbnSignalEvents
-title: IMbnSignalEvents
+title: IMbnSignalEvents (mbnapi.h)
 author: windows-sdk-content
 description: Notification interface used to indicate that a signal event has occurred.
 old-location: mbn\imbnsignalevents.htm

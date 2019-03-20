@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpoint.GetFramesPerPacket
-title: IAudioEndpoint::GetFramesPerPacket
+title: IAudioEndpoint::GetFramesPerPacket (audioengineendpoint.h)
 author: windows-sdk-content
 description: Gets the maximum number of frames per packet that the audio endpoint can support, based on the endpoint's period and the sample rate.
 old-location: termserv\iaudioendpoint_getframesperpacket.htm

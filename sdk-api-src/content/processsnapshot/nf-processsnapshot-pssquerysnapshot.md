@@ -1,6 +1,6 @@
 ---
 UID: NF:processsnapshot.PssQuerySnapshot
-title: PssQuerySnapshot function
+title: PssQuerySnapshot function (processsnapshot.h)
 author: windows-sdk-content
 description: Queries the snapshot.
 old-location: proc_snap\pssquerysnapshot.htm

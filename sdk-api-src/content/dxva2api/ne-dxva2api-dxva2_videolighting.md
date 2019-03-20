@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva2api._DXVA2_VideoLighting
-title: DXVA2_VideoLighting
+title: DXVA2_VideoLighting (dxva2api.h)
 author: windows-sdk-content
 description: Describes the intended lighting conditions for viewing video content.
 old-location: mf\dxva2_videolighting.htm

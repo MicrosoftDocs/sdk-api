@@ -1,6 +1,6 @@
 ---
 UID: NS:bcrypt._CRYPT_PROPERTY_REF
-title: CRYPT_PROPERTY_REF
+title: CRYPT_PROPERTY_REF (bcrypt.h)
 author: windows-sdk-content
 description: Contains information about a CNG context property.
 old-location: security\crypt_property_ref.htm

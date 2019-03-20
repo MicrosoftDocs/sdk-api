@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1StrokeStyle.GetDashesCount
-title: ID2D1StrokeStyle::GetDashesCount
+title: ID2D1StrokeStyle::GetDashesCount (d2d1.h)
 author: windows-sdk-content
 description: Retrieves the number of entries in the dashes array.
 old-location: direct2d\ID2D1StrokeStyle_GetDashesCount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchRoot.put_RootURL
-title: ISearchRoot::put_RootURL
+title: ISearchRoot::put_RootURL (searchapi.h)
 author: windows-sdk-content
 description: Sets the URL of the current search root.
 old-location: search\_search_ISearchRoot_put_RootURL.htm

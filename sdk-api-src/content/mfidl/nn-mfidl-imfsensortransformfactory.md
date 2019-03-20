@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFSensorTransformFactory
-title: IMFSensorTransformFactory
+title: IMFSensorTransformFactory (mfidl.h)
 author: windows-sdk-content
 description: The interface implemented by sensor transforms to allow the media pipeline to query requirements of the sensor transform and to create a runtime instance of the sensor transform.
 old-location: mf\imfsensortransformfactory.htm

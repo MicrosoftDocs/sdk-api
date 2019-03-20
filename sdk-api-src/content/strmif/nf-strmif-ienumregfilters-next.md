@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEnumRegFilters.Next
-title: IEnumRegFilters::Next
+title: IEnumRegFilters::Next (strmif.h)
 author: windows-sdk-content
 description: Note  The IEnumRegFilters interface is deprecated. Fills the array with descriptions of the next set of filters (specified by the cFilters parameter) that meet the requirements specified upon creation of the enumerator.
 old-location: dshow\ienumregfilters_next.htm

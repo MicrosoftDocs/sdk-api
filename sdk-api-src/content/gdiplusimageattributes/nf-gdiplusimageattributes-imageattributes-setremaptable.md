@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.SetRemapTable
-title: ImageAttributes::SetRemapTable
+title: ImageAttributes::SetRemapTable (gdiplusimageattributes.h)
 author: windows-sdk-content
 description: The ImageAttributes::SetRemapTable method sets the color-remap table for a specified category.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_SetRemapTable_mapSize_map_type_.htm

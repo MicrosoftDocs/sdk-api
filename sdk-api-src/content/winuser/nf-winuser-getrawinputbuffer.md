@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetRawInputBuffer
-title: GetRawInputBuffer function
+title: GetRawInputBuffer function (winuser.h)
 author: windows-sdk-content
 description: Performs a buffered read of the raw input data.
 old-location: inputdev\getrawinputbuffer.htm

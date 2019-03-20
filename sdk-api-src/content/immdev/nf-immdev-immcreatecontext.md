@@ -1,6 +1,6 @@
 ---
 UID: NF:immdev.ImmCreateContext
-title: ImmCreateContext function
+title: ImmCreateContext function (immdev.h)
 author: windows-sdk-content
 description: Creates a new input context, allocating memory for the context and initializing it. An application calls this function to prepare its own input context.
 old-location: intl\immcreatecontext.htm

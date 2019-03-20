@@ -1,6 +1,6 @@
 ---
 UID: NF:bits5_0.IBackgroundCopyFile5.GetProperty
-title: IBackgroundCopyFile5::GetProperty
+title: IBackgroundCopyFile5::GetProperty (bits5_0.h)
 author: windows-sdk-content
 description: Gets a generic property of a BITS file transfer.
 old-location: bits\ibackgroundcopyfile5_getproperty.htm

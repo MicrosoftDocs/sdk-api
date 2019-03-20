@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaBase.EnumThresholdActions
-title: IFsrmQuotaBase::EnumThresholdActions
+title: IFsrmQuotaBase::EnumThresholdActions (fsrmquota.h)
 author: windows-sdk-content
 description: Enumerates all the actions for the specified threshold.
 old-location: fsrm\ifsrmquotabase_enumthresholdactions.htm

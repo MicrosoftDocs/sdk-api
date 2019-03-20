@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CharLowerBuffA
-title: CharLowerBuffA function
+title: CharLowerBuffA function (winuser.h)
 author: windows-sdk-content
 description: Converts uppercase characters in a buffer to lowercase characters. The function converts the characters in place.
 old-location: menurc\charlowerbuff.htm

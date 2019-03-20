@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsHwProviderStoragePools.QueryMaxLunCreateSizeInStoragePool
-title: IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool
+title: IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool (vds.h)
 author: windows-sdk-content
 description: Returns the maximum size of the LUN that can be created in the storage pool based on the specified LUN type and hints.
 old-location: base\ivdshwproviderstoragepools_querymaxluncreatesizeinstoragepool.htm

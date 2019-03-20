@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestMainPackageDependency.GetPackageFamilyName
-title: IAppxManifestMainPackageDependency::GetPackageFamilyName
+title: IAppxManifestMainPackageDependency::GetPackageFamilyName (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the package family name of the main package dependency from the AppxManifest.xml.
 old-location: appxpkg\iappxmanifestmainpackagedependency_getpackagefamilyname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.GetKnowledgeCookie
-title: ISyncKnowledge2::GetKnowledgeCookie
+title: ISyncKnowledge2::GetKnowledgeCookie (winsync.h)
 author: windows-sdk-content
 description: Gets a lightweight, read-only representation of this knowledge object that can be used for fast comparisons.
 old-location: winsync\isyncknowledge2_getknowledgecookie.htm

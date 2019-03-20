@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.ApplicationRecoveryFinished
-title: ApplicationRecoveryFinished function
+title: ApplicationRecoveryFinished function (winbase.h)
 author: windows-sdk-content
 description: Indicates that the calling application has completed its data recovery.
 old-location: recovery\applicationrecoveryfinished.htm

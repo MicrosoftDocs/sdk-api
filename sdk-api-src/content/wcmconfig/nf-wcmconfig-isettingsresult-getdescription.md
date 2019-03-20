@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsResult.GetDescription
-title: ISettingsResult::GetDescription
+title: ISettingsResult::GetDescription (wcmconfig.h)
 author: windows-sdk-content
 description: Returns the description of the error.
 old-location: smi\isettingsresult_getdescription.htm

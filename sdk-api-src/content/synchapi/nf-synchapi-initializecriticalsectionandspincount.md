@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.InitializeCriticalSectionAndSpinCount
-title: InitializeCriticalSectionAndSpinCount function
+title: InitializeCriticalSectionAndSpinCount function (synchapi.h)
 author: windows-sdk-content
 description: Initializes a critical section object and sets the spin count for the critical section.
 old-location: base\initializecriticalsectionandspincount.htm

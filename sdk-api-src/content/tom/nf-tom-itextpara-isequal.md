@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.IsEqual
-title: ITextPara::IsEqual
+title: ITextPara::IsEqual (tom.h)
 author: windows-sdk-content
 description: Determines if the current range has the same properties as a specified range.
 old-location: controls\ITextPara_IsEqual.htm

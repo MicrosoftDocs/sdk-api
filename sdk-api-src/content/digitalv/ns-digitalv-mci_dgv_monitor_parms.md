@@ -1,6 +1,6 @@
 ---
 UID: NS:digitalv.__unnamed_struct_11
-title: MCI_DGV_MONITOR_PARMS
+title: MCI_DGV_MONITOR_PARMS (digitalv.h)
 author: windows-sdk-content
 description: The MCI_DGV_MONITOR_PARMS structure contains parameters for the MCI_MONITOR command.
 old-location: multimedia\mci_dgv_monitor_parms.htm

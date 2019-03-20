@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathMakeSystemFolderW
-title: PathMakeSystemFolderW function
+title: PathMakeSystemFolderW function (shlwapi.h)
 author: windows-sdk-content
 description: Gives an existing folder the proper attributes to become a system folder.
 old-location: shell\PathMakeSystemFolder.htm

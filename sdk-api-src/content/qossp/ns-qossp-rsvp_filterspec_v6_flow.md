@@ -1,6 +1,6 @@
 ---
 UID: NS:qossp._RSVP_FILTERSPEC_V6_FLOW
-title: RSVP_FILTERSPEC_V6_FLOW
+title: RSVP_FILTERSPEC_V6_FLOW (qossp.h)
 author: windows-sdk-content
 description: The RSVP_FILTERSPEC_V6_FLOW structure provides flow label information for an IPv6 FILTERSPEC.
 old-location: qos\rsvp_filterspec_v6_flow.htm

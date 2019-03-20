@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_BIT.GetRecordDescriptorByTag
-title: IISDB_BIT::GetRecordDescriptorByTag
+title: IISDB_BIT::GetRecordDescriptorByTag (dvbsiparser.h)
 author: windows-sdk-content
 description: Searches a record in an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
 old-location: mstv\iisdb_bit_getrecorddescriptorbytag.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage.get_Id
-title: IFaxIncomingMessage::get_Id
+title: IFaxIncomingMessage::get_Id (faxcomex.h)
 author: windows-sdk-content
 description: The Id property is a null-terminated string that contains a unique ID for the inbound fax message.
 old-location: fax\_mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_id_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.SetCurrentDeviceMediaType
-title: IMFCaptureSource::SetCurrentDeviceMediaType
+title: IMFCaptureSource::SetCurrentDeviceMediaType (mfcaptureengine.h)
 author: windows-sdk-content
 description: Sets the output format for a capture stream.
 old-location: mf\imfcapturesource_setcurrentdevicemediatype.htm

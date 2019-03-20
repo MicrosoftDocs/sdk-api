@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi._ABCFLOAT
-title: ABCFLOAT
+title: ABCFLOAT (wingdi.h)
 author: windows-sdk-content
 description: The ABCFLOAT structure contains the A, B, and C widths of a font character.
 old-location: gdi\abcfloat.htm

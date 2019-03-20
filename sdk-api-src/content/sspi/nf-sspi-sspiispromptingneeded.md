@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SspiIsPromptingNeeded
-title: SspiIsPromptingNeeded function
+title: SspiIsPromptingNeeded function (sspi.h)
 author: windows-sdk-content
 description: Indicates whether an error returned after a call to either the InitializeSecurityContext or the AcceptSecurityContext function requires an additional call to the SspiPromptForCredentials function.
 old-location: security\sspiispromptingneeded.htm

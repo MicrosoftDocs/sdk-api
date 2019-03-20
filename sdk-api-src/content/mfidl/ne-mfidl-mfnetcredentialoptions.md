@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MFNetCredentialOptions
-title: MFNetCredentialOptions
+title: MFNetCredentialOptions (mfidl.h)
 author: windows-sdk-content
 description: Describes options for the caching network credentials.
 old-location: mf\mfnetcredentialoptions.htm

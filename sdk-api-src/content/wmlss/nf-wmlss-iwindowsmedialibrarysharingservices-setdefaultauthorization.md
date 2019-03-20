@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.setDefaultAuthorization
-title: IWindowsMediaLibrarySharingServices::setDefaultAuthorization
+title: IWindowsMediaLibrarySharingServices::setDefaultAuthorization (wmlss.h)
 author: windows-sdk-content
 description: The setDefaultAuthorization method enables or disables access to all users' media libraries by a specified set of devices.
 old-location: wmlss\IWMLSSsetDefaultAuthorization.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskDefinition.put_Settings
-title: ITaskDefinition::put_Settings
+title: ITaskDefinition::put_Settings (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the settings that define how the Task Scheduler service performs the task.
 old-location: taskschd\itaskdefinition_settings.htm

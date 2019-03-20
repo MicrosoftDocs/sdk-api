@@ -1,6 +1,6 @@
 ---
 UID: NF:activationregistration.IActivatableClassRegistration.get_ActivatableClassId
-title: IActivatableClassRegistration::get_ActivatableClassId
+title: IActivatableClassRegistration::get_ActivatableClassId (activationregistration.h)
 author: windows-sdk-content
 description: Gets the class identifier for the current activatable class.
 old-location: winrt\iactivatableclassregistration_activatableclassid.htm

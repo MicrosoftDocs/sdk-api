@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpHlprIsV4PolicyValid
-title: DhcpHlprIsV4PolicyValid function
+title: DhcpHlprIsV4PolicyValid function (dhcpsapi.h)
 author: windows-sdk-content
 description: Verifies a DHCP server policy.
 old-location: dhcp\dhcphlprisv4policyvalid.htm

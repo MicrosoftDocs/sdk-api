@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CopyAcceleratorTableW
-title: CopyAcceleratorTableW function
+title: CopyAcceleratorTableW function (winuser.h)
 author: windows-sdk-content
 description: Copies the specified accelerator table. This function is used to obtain the accelerator-table data that corresponds to an accelerator-table handle, or to determine the size of the accelerator-table data.
 old-location: menurc\copyacceleratortable.htm

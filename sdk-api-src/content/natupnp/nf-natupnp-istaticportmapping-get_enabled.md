@@ -1,6 +1,6 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.get_Enabled
-title: IStaticPortMapping::get_Enabled
+title: IStaticPortMapping::get_Enabled (natupnp.h)
 author: windows-sdk-content
 description: The get_Enabled method retrieves whether the port mapping is enabled.
 old-location: ics\istaticportmapping_get_enabled.htm

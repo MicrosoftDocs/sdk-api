@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetDVDTextLanguageInfo
-title: IDvdInfo2::GetDVDTextLanguageInfo
+title: IDvdInfo2::GetDVDTextLanguageInfo (strmif.h)
 author: windows-sdk-content
 description: The GetDVDTextLanguageInfo method retrieves information about the text strings for a specified language. The method retrieves the number of strings for that language, the locale identifier, and the character set.
 old-location: dshow\idvdinfo2_getdvdtextlanguageinfo.htm

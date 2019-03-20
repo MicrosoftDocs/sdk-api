@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemePropertyOrigin
-title: GetThemePropertyOrigin function
+title: GetThemePropertyOrigin function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves the location of the theme property definition for a property.
 old-location: controls\GetThemePropertyOrigin.htm

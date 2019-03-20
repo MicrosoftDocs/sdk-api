@@ -1,6 +1,6 @@
 ---
 UID: NS:bcrypt._BCRYPT_PKCS1_PADDING_INFO
-title: BCRYPT_PKCS1_PADDING_INFO
+title: BCRYPT_PKCS1_PADDING_INFO (bcrypt.h)
 author: windows-sdk-content
 description: Used to provide options for the PKCS #1 padding scheme.
 old-location: security\bcrypt_pkcs1_padding_info.htm

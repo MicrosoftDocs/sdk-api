@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetCanonicalizationMethod
-title: IOpcDigitalSignature::GetCanonicalizationMethod
+title: IOpcDigitalSignature::GetCanonicalizationMethod (msopc.h)
 author: windows-sdk-content
 description: Gets the canonicalization method that was applied to the SignedInfo element of the serialized signature.
 old-location: opc\iopcdigitalsignature_getcanonicalizationmethod.htm

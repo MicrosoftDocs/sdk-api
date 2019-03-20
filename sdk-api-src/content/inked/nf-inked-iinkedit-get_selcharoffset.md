@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.get_SelCharOffset
-title: IInkEdit::get_SelCharOffset
+title: IInkEdit::get_SelCharOffset (inked.h)
 author: windows-sdk-content
 description: Returns or sets a value that determines whether text in the InkEdit control appears on the baseline (normal), as a superscript above the baseline, or as a subscript below the baseline.
 old-location: tablet\inkedit_selcharoffset.htm

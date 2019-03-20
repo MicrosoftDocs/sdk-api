@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DVertexBuffer9.Lock
-title: IDirect3DVertexBuffer9::Lock
+title: IDirect3DVertexBuffer9::Lock (d3d9.h)
 author: windows-sdk-content
 description: Locks a range of vertex data and obtains a pointer to the vertex buffer memory.
 old-location: direct3d9\idirect3dvertexbuffer9__lock.htm

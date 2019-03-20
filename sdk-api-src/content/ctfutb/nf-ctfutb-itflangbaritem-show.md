@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItem.Show
-title: ITfLangBarItem::Show
+title: ITfLangBarItem::Show (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarItem::Show method
 old-location: tsf\itflangbaritem_show.htm

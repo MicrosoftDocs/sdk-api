@@ -1,6 +1,6 @@
 ---
 UID: NS:usbuser._USBUSER_PASS_THRU_REQUEST
-title: USBUSER_PASS_THRU_REQUEST
+title: USBUSER_PASS_THRU_REQUEST (usbuser.h)
 author: windows-sdk-content
 description: The USBUSER_PASS_THRU_REQUEST structure is used in conjunction with the IOCTL_USB_USER_REQUEST I/O control request to send a vendor-specific command to the host controller miniport driver.
 old-location: buses\usbuser_pass_thru_request.htm

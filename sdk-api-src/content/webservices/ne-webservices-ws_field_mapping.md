@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_82
-title: WS_FIELD_MAPPING
+title: WS_FIELD_MAPPING (webservices.h)
 author: windows-sdk-content
 description: Specifies how a field of a structure is represented in XML. This is used within a WS_FIELD_DESCRIPTION.
 old-location: wsw\ws_field_mapping.htm

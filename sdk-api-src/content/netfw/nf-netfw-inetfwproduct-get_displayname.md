@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwProduct.get_DisplayName
-title: INetFwProduct::get_DisplayName
+title: INetFwProduct::get_DisplayName (netfw.h)
 author: windows-sdk-content
 description: Indicates the display name for a third-party firewall product registration.
 old-location: ics\inetfwproduct_displayname.htm

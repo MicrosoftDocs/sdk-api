@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteTextFormat1.GetFontFallback
-title: IDWriteTextFormat1::GetFontFallback
+title: IDWriteTextFormat1::GetFontFallback (dwrite_2.h)
 author: windows-sdk-content
 description: Gets the current fallback. If none was ever set since creating the layout, it will be nullptr.
 old-location: directwrite\idwritetextformat1_getfontfallback.htm

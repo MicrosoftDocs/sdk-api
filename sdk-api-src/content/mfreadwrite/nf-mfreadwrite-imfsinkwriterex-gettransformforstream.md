@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriterEx.GetTransformForStream
-title: IMFSinkWriterEx::GetTransformForStream
+title: IMFSinkWriterEx::GetTransformForStream (mfreadwrite.h)
 author: windows-sdk-content
 description: Gets a pointer to a Media Foundation transform (MFT) for a specified stream.
 old-location: mf\imfsinkwriterex_gettransformforstream.htm

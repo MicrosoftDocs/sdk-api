@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.InterlockedIncrement64
-title: InterlockedIncrement64 function
+title: InterlockedIncrement64 function (winnt.h)
 author: windows-sdk-content
 description: Increments (increases by one) the value of the specified 64-bit variable as an atomic operation.
 old-location: base\interlockedincrement64.htm

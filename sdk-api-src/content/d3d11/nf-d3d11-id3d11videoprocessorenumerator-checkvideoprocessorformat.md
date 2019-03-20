@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoProcessorEnumerator.CheckVideoProcessorFormat
-title: ID3D11VideoProcessorEnumerator::CheckVideoProcessorFormat
+title: ID3D11VideoProcessorEnumerator::CheckVideoProcessorFormat (d3d11.h)
 author: windows-sdk-content
 description: Queries whether the video processor supports a specified video format.
 old-location: mf\id3d11videoprocessorenumerator_checkvideoprocessorformat.htm

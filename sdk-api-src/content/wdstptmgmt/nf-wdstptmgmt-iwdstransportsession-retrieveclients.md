@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSession.RetrieveClients
-title: IWdsTransportSession::RetrieveClients
+title: IWdsTransportSession::RetrieveClients (wdstptmgmt.h)
 author: windows-sdk-content
 description: Retrieves a collection of WDS clients joined to the transport session.
 old-location: wds\iwdstransportsession_retrieveclients.htm

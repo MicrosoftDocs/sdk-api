@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_FDC.AddTid
-title: IBDA_FDC::AddTid
+title: IBDA_FDC::AddTid (bdaiface.h)
 author: windows-sdk-content
 description: Adds one or more table identifiers (TIDs) to the MPEG flow.
 old-location: mstv\ibda_fdc_addtid.htm

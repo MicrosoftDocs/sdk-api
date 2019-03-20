@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMCHAR
-title: NMCHAR
+title: NMCHAR (commctrl.h)
 author: windows-sdk-content
 description: Contains information used with character notification messages.
 old-location: controls\NMCHAR.htm

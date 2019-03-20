@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.ITocEntry.SetDescriptor
-title: ITocEntry::SetDescriptor
+title: ITocEntry::SetDescriptor (wmcodecdsp.h)
 author: windows-sdk-content
 description: The SetDescriptor method associates a descriptor with the entry.
 old-location: mf\itocentry_setdescriptor.htm

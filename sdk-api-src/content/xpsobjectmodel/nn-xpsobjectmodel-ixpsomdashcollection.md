@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMDashCollection
-title: IXpsOMDashCollection
+title: IXpsOMDashCollection (xpsobjectmodel.h)
 author: windows-sdk-content
 description: A collection of XPS_DASH structures.
 old-location: xps\ixpsomdashcollection.htm

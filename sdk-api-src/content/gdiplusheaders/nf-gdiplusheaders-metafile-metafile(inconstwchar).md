@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Metafile.Metafile(IN const WCHAR)
-title: Metafile::Metafile(IN const WCHAR)
+title: Metafile::Metafile(IN const WCHAR) (gdiplusheaders.h)
 author: windows-sdk-content
 description: Creates a Metafile::Metafile object for playback.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_Metafile_filename_.htm

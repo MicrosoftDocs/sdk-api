@@ -1,6 +1,6 @@
 ---
 UID: NN:wtsprotocol.IWTSProtocolConnectionCallback
-title: IWTSProtocolConnectionCallback
+title: IWTSProtocolConnectionCallback (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolConnectionCallback is no longer available. Instead, use IWRdsProtocolConnectionCallback.
 old-location: termserv\iwtsprotocolconnectioncallback.htm

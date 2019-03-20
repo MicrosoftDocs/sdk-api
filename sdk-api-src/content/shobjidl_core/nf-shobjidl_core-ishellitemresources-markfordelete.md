@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItemResources.MarkForDelete
-title: IShellItemResources::MarkForDelete
+title: IShellItemResources::MarkForDelete (shobjidl_core.h)
 author: windows-sdk-content
 description: Marks for delete.
 old-location: shell\IShellItemResources_MarkForDelete.htm

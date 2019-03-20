@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcoreapi.AsyncContentLoadedState
-title: AsyncContentLoadedState
+title: AsyncContentLoadedState (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Contains values that describe the progress of asynchronous loading of content.
 old-location: winauto\uiauto_AsyncContentLoadedStateEnum.htm

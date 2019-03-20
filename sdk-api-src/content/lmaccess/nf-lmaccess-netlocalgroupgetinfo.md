@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetLocalGroupGetInfo
-title: NetLocalGroupGetInfo function
+title: NetLocalGroupGetInfo function (lmaccess.h)
 author: windows-sdk-content
 description: The NetLocalGroupGetInfo function retrieves information about a particular local group account on a server.
 old-location: netmgmt\netlocalgroupgetinfo.htm

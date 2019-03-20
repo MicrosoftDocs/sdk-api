@@ -1,6 +1,6 @@
 ---
 UID: NN:bits4_0.IBitsTokenOptions
-title: IBitsTokenOptions
+title: IBitsTokenOptions (bits4_0.h)
 author: windows-sdk-content
 description: Use IBitsTokenOptions to associate and manage a pair of security tokens for a Background Intelligent Transfer Service (BITS) transfer job.
 old-location: bits\ibitstokenoptions.htm

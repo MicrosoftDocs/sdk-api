@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManSession.Create
-title: IWSManSession::Create
+title: IWSManSession::Create (wsmandisp.h)
 author: windows-sdk-content
 description: Creates a new instance of a resource and returns the endpoint reference (EPR) of the new object.
 old-location: winrm\iwsmansession_create.htm

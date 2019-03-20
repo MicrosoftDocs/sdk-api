@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dcompiler.D3D_BLOB_PART
-title: D3D_BLOB_PART
+title: D3D_BLOB_PART (d3dcompiler.h)
 author: windows-sdk-content
 description: Values that identify parts of the content of an arbitrary length data buffer.
 old-location: direct3dhlsl\d3d_blob_part.htm

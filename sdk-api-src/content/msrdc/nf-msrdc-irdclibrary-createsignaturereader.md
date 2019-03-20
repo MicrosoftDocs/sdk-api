@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcLibrary.CreateSignatureReader
-title: IRdcLibrary::CreateSignatureReader
+title: IRdcLibrary::CreateSignatureReader (msrdc.h)
 author: windows-sdk-content
 description: Creates a signature reader to allow an application to decode the contents of a signature file.
 old-location: rdc\irdclibrary_createsignaturereader.htm

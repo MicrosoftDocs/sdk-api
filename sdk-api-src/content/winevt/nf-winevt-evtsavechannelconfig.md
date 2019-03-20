@@ -1,6 +1,6 @@
 ---
 UID: NF:winevt.EvtSaveChannelConfig
-title: EvtSaveChannelConfig function
+title: EvtSaveChannelConfig function (winevt.h)
 author: windows-sdk-content
 description: Saves the changes made to a channel's configuration.
 old-location: wes\evtsavechannelconfig.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:vptype._AMVP_MODE
-title: AMVP_MODE
+title: AMVP_MODE (vptype.h)
 author: windows-sdk-content
 description: Specifies the various modes for video ports.
 old-location: dshow\amvp_mode.htm

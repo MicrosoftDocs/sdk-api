@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ICustomDestinationList.DeleteList
-title: ICustomDestinationList::DeleteList
+title: ICustomDestinationList::DeleteList (shobjidl_core.h)
 author: windows-sdk-content
 description: Deletes a custom Jump List for a specified application.
 old-location: shell\ICustomDestinationList_DeleteList.htm

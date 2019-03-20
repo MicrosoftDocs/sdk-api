@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallHub.get_Calls
-title: ITCallHub::get_Calls
+title: ITCallHub::get_Calls (tapi3if.h)
 author: windows-sdk-content
 description: The get_Calls method creates a collection of calls associated with the current call hub. This method is provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateCalls method.
 old-location: tapi3\itcallhub_get_calls.htm

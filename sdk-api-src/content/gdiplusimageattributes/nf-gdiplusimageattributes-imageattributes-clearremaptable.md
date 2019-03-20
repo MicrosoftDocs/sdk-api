@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.ClearRemapTable
-title: ImageAttributes::ClearRemapTable
+title: ImageAttributes::ClearRemapTable (gdiplusimageattributes.h)
 author: windows-sdk-content
 description: The ImageAttributes::ClearRemapTable method clears the color-remap table for a specified category.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_ClearRemapTable_type_.htm

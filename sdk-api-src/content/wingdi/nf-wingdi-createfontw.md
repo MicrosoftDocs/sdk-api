@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.CreateFontW
-title: CreateFontW function
+title: CreateFontW function (wingdi.h)
 author: windows-sdk-content
 description: The CreateFont function creates a logical font with the specified characteristics. The logical font can subsequently be selected as the font for any device.
 old-location: gdi\createfont.htm

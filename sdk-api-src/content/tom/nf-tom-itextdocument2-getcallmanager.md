@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.GetCallManager
-title: ITextDocument2::GetCallManager
+title: ITextDocument2::GetCallManager (tom.h)
 author: windows-sdk-content
 description: Gets the call manager.
 old-location: controls\itextdocument2_getcallmanager.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:p2p.peer_change_type_tag
-title: PEER_CHANGE_TYPE
+title: PEER_CHANGE_TYPE (p2p.h)
 author: windows-sdk-content
 description: The PEER_CHANGE_TYPE enumeration defines the set of changes that were performed on a peer object, endpoint, or application in a peer event. It is used to qualify the peer event associated with the change type.
 old-location: p2p\peer_change_type.htm

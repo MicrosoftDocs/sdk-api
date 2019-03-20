@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10SwitchToRef.GetUseRef
-title: ID3D10SwitchToRef::GetUseRef
+title: ID3D10SwitchToRef::GetUseRef (d3d10sdklayers.h)
 author: windows-sdk-content
 description: Get a boolean value that indicates the type of device being used.
 old-location: direct3d10\id3d10switchtoref_getuseref.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:msclus.GROUP_FAILURE_INFO
-title: GROUP_FAILURE_INFO
+title: GROUP_FAILURE_INFO (msclus.h)
 author: windows-sdk-content
 description: Represents information about the Failover attempts for a group failure.
 old-location: mscs\group_failure_info.htm

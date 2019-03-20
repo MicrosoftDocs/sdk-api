@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.GetLogonErrorRedirector
-title: IWTSProtocolConnection::GetLogonErrorRedirector
+title: IWTSProtocolConnection::GetLogonErrorRedirector (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolConnection::GetLogonErrorRedirector is no longer available. Instead, use IWRdsProtocolConnection::GetLogonErrorRedirector.
 old-location: termserv\iwtsprotocolconnection_getlogonerrorredirector.htm

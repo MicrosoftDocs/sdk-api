@@ -1,6 +1,6 @@
 ---
 UID: NS:tabflicks.FLICK_POINT
-title: FLICK_POINT
+title: FLICK_POINT (tabflicks.h)
 author: windows-sdk-content
 description: Provides information about a pen flick.
 old-location: tablet\flick_point.htm

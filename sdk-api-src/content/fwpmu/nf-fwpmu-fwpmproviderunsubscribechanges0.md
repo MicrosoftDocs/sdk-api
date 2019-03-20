@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmProviderUnsubscribeChanges0
-title: FwpmProviderUnsubscribeChanges0 function
+title: FwpmProviderUnsubscribeChanges0 function (fwpmu.h)
 author: windows-sdk-content
 description: Is used to cancel a provider change subscription and stop receiving change notifications.
 old-location: fwp\fwpmproviderunsubscribechanges0_func.htm

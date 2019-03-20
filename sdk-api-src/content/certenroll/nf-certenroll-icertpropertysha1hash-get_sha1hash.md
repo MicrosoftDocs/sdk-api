@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertySHA1Hash.get_SHA1Hash
-title: ICertPropertySHA1Hash::get_SHA1Hash
+title: ICertPropertySHA1Hash::get_SHA1Hash (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the SHA-1 hash of a certificate.
 old-location: security\icertpropertysha1hash_sha1hash_property.htm

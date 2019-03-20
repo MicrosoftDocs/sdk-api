@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_FAILOVER_STATISTICS
-title: DHCP_FAILOVER_STATISTICS
+title: DHCP_FAILOVER_STATISTICS (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_FAILOVER_STATISTICS structure defines DHCP server scope statistics that are part of a failover relationship.
 old-location: dhcp\dhcp_failover_statistics.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents3.CdromBurnError
-title: IWMPEvents3::CdromBurnError
+title: IWMPEvents3::CdromBurnError (wmp.h)
 author: windows-sdk-content
 description: The CdromBurnError event occurs when a generic error happens during a CD burning operation.
 old-location: wmp\iwmpevents3_iwmpevents3__cdromburnerror.htm

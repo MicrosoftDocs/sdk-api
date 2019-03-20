@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IQueryParser.ParsePropertyValue
-title: IQueryParser::ParsePropertyValue
+title: IQueryParser::ParsePropertyValue (structuredquery.h)
 author: windows-sdk-content
 description: Parses a condition for a specified property.
 old-location: search\_search_IQueryParser_ParsePropertyValue.htm

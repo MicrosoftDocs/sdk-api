@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorActivitiesReportCallback.OnActivitiesReport
-title: IMFSensorActivitiesReportCallback::OnActivitiesReport
+title: IMFSensorActivitiesReportCallback::OnActivitiesReport (mfidl.h)
 author: windows-sdk-content
 description: Raised by the media pipeline when a new IMFSensorActivitiesReport is available.
 old-location: mf\imfsensoractivitiesreportcallback_onactivitiesreport.htm

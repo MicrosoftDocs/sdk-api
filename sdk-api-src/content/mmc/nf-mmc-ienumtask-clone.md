@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IEnumTASK.Clone
-title: IEnumTASK::Clone
+title: IEnumTASK::Clone (mmc.h)
 author: windows-sdk-content
 description: The IEnumTASK::Clone method creates a new IEnumTASK object that has the same state as this IEnumTASK object. MMC does not use this method. It must be included for completeness.
 old-location: mmc\ienumtask_clone.htm

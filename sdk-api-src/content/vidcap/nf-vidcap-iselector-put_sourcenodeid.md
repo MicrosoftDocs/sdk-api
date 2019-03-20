@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ISelector.put_SourceNodeId
-title: ISelector::put_SourceNodeId
+title: ISelector::put_SourceNodeId (vidcap.h)
 author: windows-sdk-content
 description: The put_SourceNodeId method activates a source node.
 old-location: dshow\iselector_put_sourcenodeid.htm

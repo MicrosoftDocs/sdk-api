@@ -1,6 +1,6 @@
 ---
 UID: NS:mmeapi.auxcaps_tag
-title: AUXCAPS
+title: AUXCAPS (mmeapi.h)
 author: windows-sdk-content
 description: The AUXCAPS structure describes the capabilities of an auxiliary output device.
 old-location: multimedia\auxcaps.htm

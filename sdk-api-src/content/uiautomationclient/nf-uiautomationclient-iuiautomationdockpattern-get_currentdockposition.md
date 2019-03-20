@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationDockPattern.get_CurrentDockPosition
-title: IUIAutomationDockPattern::get_CurrentDockPosition
+title: IUIAutomationDockPattern::get_CurrentDockPosition (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the dock position of this element within its docking container.
 old-location: winauto\uiauto_IUIAutomationDockPattern_CurrentDockPosition.htm

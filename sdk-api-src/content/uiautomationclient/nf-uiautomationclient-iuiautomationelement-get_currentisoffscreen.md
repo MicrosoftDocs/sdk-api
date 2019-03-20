@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentIsOffscreen
-title: IUIAutomationElement::get_CurrentIsOffscreen
+title: IUIAutomationElement::get_CurrentIsOffscreen (uiautomationclient.h)
 author: windows-sdk-content
 description: Indicates whether the element is off-screen.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentIsOffscreen.htm

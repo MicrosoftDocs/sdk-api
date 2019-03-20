@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IMediaObject.SetInputType
-title: IMediaObject::SetInputType
+title: IMediaObject::SetInputType (mediaobj.h)
 author: windows-sdk-content
 description: The SetInputType method sets the media type on an input stream, or tests whether a media type is acceptable.
 old-location: dshow\imediaobject_setinputtype.htm

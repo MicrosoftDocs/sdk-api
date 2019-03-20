@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._CLUSTER_GROUP_ENUM_ITEM
-title: CLUSTER_GROUP_ENUM_ITEM
+title: CLUSTER_GROUP_ENUM_ITEM (clusapi.h)
 author: windows-sdk-content
 description: Contains the properties of a cluster group.
 old-location: mscs\cluster_group_enum_item.htm

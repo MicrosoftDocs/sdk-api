@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetVolume
-title: IMFPMediaPlayer::GetVolume
+title: IMFPMediaPlayer::GetVolume (mfplay.h)
 author: windows-sdk-content
 description: Gets the current audio volume.
 old-location: mf\imfpmediaplayer_getvolume.htm

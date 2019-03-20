@@ -1,6 +1,6 @@
 ---
 UID: NC:userenv.PFNPROCESSGROUPPOLICY
-title: PFNPROCESSGROUPPOLICY
+title: PFNPROCESSGROUPPOLICY (userenv.h)
 author: windows-sdk-content
 description: The ProcessGroupPolicy function is an application-defined callback function used when applying policy.
 old-location: policy\processgrouppolicy.htm

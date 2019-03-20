@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IBackgroundCopyCallback2.FileTransferred
-title: IBackgroundCopyCallback2::FileTransferred
+title: IBackgroundCopyCallback2::FileTransferred (bits3_0.h)
 author: windows-sdk-content
 description: BITS calls your implementation of the FileTransferred method when BITS successfully finishes transferring a file.
 old-location: bits\ibackgroundcopycallback2_filetransferred.htm

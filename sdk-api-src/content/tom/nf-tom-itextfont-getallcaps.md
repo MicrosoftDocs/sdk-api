@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.GetAllCaps
-title: ITextFont::GetAllCaps
+title: ITextFont::GetAllCaps (tom.h)
 author: windows-sdk-content
 description: Gets whether the characters are all uppercase.
 old-location: controls\ITextFont_GetAllCaps.htm

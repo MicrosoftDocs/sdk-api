@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionSkewTransform.SetAngleX(float)
-title: IDCompositionSkewTransform::SetAngleX(float)
+title: IDCompositionSkewTransform::SetAngleX(float) (dcomp.h)
 author: windows-sdk-content
 description: Changes the value of the AngleX property of a 2D skew transform.
 old-location: directcomp\idcompositionskewtransform_setanglex_float.htm

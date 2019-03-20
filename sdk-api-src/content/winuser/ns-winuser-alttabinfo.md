@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagALTTABINFO
-title: ALTTABINFO
+title: ALTTABINFO (winuser.h)
 author: windows-sdk-content
 description: Contains status information for the application-switching (ALT+TAB) window.
 old-location: winmsg\alttabinfo.htm

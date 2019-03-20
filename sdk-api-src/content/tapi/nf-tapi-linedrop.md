@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineDrop
-title: lineDrop function
+title: lineDrop function (tapi.h)
 author: windows-sdk-content
 description: The lineDrop function drops or disconnects the specified call. The application has the option to specify user-user information to be transmitted as part of the call disconnect.
 old-location: tapi2\linedrop.htm

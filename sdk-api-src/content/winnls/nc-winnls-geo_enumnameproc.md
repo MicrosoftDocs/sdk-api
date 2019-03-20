@@ -1,6 +1,6 @@
 ---
 UID: NC:winnls.GEO_ENUMNAMEPROC
-title: GEO_ENUMNAMEPROC
+title: GEO_ENUMNAMEPROC (winnls.h)
 author: windows-sdk-content
 description: An application-defined callback function that processes enumerated geographical location information provided by the EnumSystemGeoNames function.
 old-location: intl\geo_enumnameproc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DPA_AppendPtr
-title: DPA_AppendPtr macro
+title: DPA_AppendPtr macro (dpa_dsa.h)
 author: windows-sdk-content
 description: Inserts a new item at the end of a dynamic pointer array (DPA).
 old-location: controls\DPA_AppendPtr.htm

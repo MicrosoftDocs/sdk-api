@@ -1,6 +1,6 @@
 ---
 UID: NF:werapi.WerGetFlags
-title: WerGetFlags function
+title: WerGetFlags function (werapi.h)
 author: windows-sdk-content
 description: Retrieves the fault reporting settings for the specified process.
 old-location: wer\wergetflags.htm

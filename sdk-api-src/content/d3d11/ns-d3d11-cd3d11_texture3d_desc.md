@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.CD3D11_TEXTURE3D_DESC
-title: CD3D11_TEXTURE3D_DESC
+title: CD3D11_TEXTURE3D_DESC (d3d11.h)
 author: windows-sdk-content
 description: Represents a 3D texture and provides convenience methods for creating 3D textures.
 old-location: direct3d11\cd3d11_texture3d_desc.htm

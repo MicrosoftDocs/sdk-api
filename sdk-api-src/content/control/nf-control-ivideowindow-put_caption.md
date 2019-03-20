@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.put_Caption
-title: IVideoWindow::put_Caption
+title: IVideoWindow::put_Caption (control.h)
 author: windows-sdk-content
 description: The put_Caption method sets the video window caption.
 old-location: dshow\ivideowindow_put_caption.htm

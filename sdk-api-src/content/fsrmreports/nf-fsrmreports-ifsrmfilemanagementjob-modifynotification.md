@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.ModifyNotification
-title: IFsrmFileManagementJob::ModifyNotification
+title: IFsrmFileManagementJob::ModifyNotification (fsrmreports.h)
 author: windows-sdk-content
 description: Change a notification value in the file management job's list of notifications.
 old-location: fsrm\ifsrmfilemanagementjob_modifynotification.htm

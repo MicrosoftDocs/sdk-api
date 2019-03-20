@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CurrentHelp
-title: IUIAutomationLegacyIAccessiblePattern::get_CurrentHelp
+title: IUIAutomationLegacyIAccessiblePattern::get_CurrentHelp (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the Microsoft Active Accessibility help string for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentHelp.htm

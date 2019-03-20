@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpSetExtendedInformationFn
-title: SpSetExtendedInformationFn
+title: SpSetExtendedInformationFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Sets extended information about the security package.
 old-location: security\spsetextendedinformation.htm

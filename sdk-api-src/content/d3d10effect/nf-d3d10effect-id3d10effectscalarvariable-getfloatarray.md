@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectScalarVariable.GetFloatArray
-title: ID3D10EffectScalarVariable::GetFloatArray
+title: ID3D10EffectScalarVariable::GetFloatArray (d3d10effect.h)
 author: windows-sdk-content
 description: Get an array of floating-point variables.
 old-location: direct3d10\id3d10effectscalarvariable_getfloatarray.htm

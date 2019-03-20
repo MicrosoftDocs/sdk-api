@@ -1,6 +1,6 @@
 ---
 UID: NF:bluetoothapis.BluetoothAuthenticateMultipleDevices
-title: BluetoothAuthenticateMultipleDevices function
+title: BluetoothAuthenticateMultipleDevices function (bluetoothapis.h)
 author: windows-sdk-content
 description: Enables the caller to prompt for multiple devices to be authenticated during a single instance of the Bluetooth Connection wizard.
 old-location: bluetooth\bluetoothauthenticatemultipledevices.htm

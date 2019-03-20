@@ -1,6 +1,6 @@
 ---
 UID: NF:winternl.NtOpenFile
-title: NtOpenFile function
+title: NtOpenFile function (winternl.h)
 author: windows-sdk-content
 description: Opens an existing file, device, directory, or volume, and returns a handle for the file object.
 old-location: winprog\ntopenfile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IStylesProvider.get_StyleName
-title: IStylesProvider::get_StyleName
+title: IStylesProvider::get_StyleName (uiautomationcore.h)
 author: windows-sdk-content
 description: Specifies the name of the visual style of an element in a document.
 old-location: winauto\iuiauto_stylesprovider_stylename.htm

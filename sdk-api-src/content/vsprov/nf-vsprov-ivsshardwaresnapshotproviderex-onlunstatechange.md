@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssHardwareSnapshotProviderEx.OnLunStateChange
-title: IVssHardwareSnapshotProviderEx::OnLunStateChange
+title: IVssHardwareSnapshotProviderEx::OnLunStateChange (vsprov.h)
 author: windows-sdk-content
 description: The VSS service calls this method to notify hardware providers of a LUN state change.
 old-location: base\ivsshardwaresnapshotproviderex_onlunstatechange.htm

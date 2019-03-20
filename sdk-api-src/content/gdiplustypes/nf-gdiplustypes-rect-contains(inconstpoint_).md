@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.Rect.Contains(IN const Point &)
-title: Rect::Contains(IN const Point &)
+title: Rect::Contains(IN const Point &) (gdiplustypes.h)
 author: windows-sdk-content
 description: The Rect::Contains method determines whether a point is inside this rectangle.
 old-location: gdiplus\_gdiplus_CLASS_Rect_Contains_pt_.htm

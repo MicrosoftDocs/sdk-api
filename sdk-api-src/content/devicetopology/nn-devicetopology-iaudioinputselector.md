@@ -1,6 +1,6 @@
 ---
 UID: NN:devicetopology.IAudioInputSelector
-title: IAudioInputSelector
+title: IAudioInputSelector (devicetopology.h)
 author: windows-sdk-content
 description: The IAudioInputSelector interface provides access to a hardware multiplexer control (input selector).
 old-location: coreaudio\iaudioinputselector.htm

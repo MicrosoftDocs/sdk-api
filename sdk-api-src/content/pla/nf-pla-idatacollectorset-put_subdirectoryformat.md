@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_SubdirectoryFormat
-title: IDataCollectorSet::put_SubdirectoryFormat
+title: IDataCollectorSet::put_SubdirectoryFormat (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets flags that describe how to decorate the subdirectory name.
 old-location: pla\idatacollectorset_get_subdirectoryformat.htm

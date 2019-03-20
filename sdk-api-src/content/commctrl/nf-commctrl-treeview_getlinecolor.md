@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_GetLineColor
-title: TreeView_GetLineColor macro
+title: TreeView_GetLineColor macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the current line color. You can also use the TVM_GETLINECOLOR message directly.
 old-location: controls\TreeView_GetLineColor.htm

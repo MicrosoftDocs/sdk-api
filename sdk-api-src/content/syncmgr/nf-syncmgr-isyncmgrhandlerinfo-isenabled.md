@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandlerInfo.IsEnabled
-title: ISyncMgrHandlerInfo::IsEnabled
+title: ISyncMgrHandlerInfo::IsEnabled (syncmgr.h)
 author: windows-sdk-content
 description: Gets a value that indicates whether the handler is enabled.
 old-location: shell\ISyncMgrHandlerInfo_IsEnabled.htm

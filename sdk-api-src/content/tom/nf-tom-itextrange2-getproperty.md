@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.GetProperty
-title: ITextRange2::GetProperty
+title: ITextRange2::GetProperty (tom.h)
 author: windows-sdk-content
 description: Gets the value of a property.
 old-location: controls\itextrange2_getproperty.htm

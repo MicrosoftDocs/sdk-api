@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_KEYINFO_PARAM
-title: CRYPT_XML_KEYINFO_PARAM
+title: CRYPT_XML_KEYINFO_PARAM (cryptxml.h)
 author: windows-sdk-content
 description: Is used by the CryptXmlSign function to specify the members of the KeyInfo element to be encoded.
 old-location: security\crypt_xml_keyinfo_param.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:vpnotify.IVPBaseNotify
-title: IVPBaseNotify
+title: IVPBaseNotify (vpnotify.h)
 author: windows-sdk-content
 description: Enables the Overlay Mixer to control the properties of a hardware device such as a decoder that uses a video port. The IVPNotify interface derives from this interface.Applications should never use this interface.
 old-location: dshow\ivpbasenotify.htm

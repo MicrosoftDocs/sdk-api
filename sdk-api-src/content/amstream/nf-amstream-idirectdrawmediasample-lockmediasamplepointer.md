@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IDirectDrawMediaSample.LockMediaSamplePointer
-title: IDirectDrawMediaSample::LockMediaSamplePointer
+title: IDirectDrawMediaSample::LockMediaSamplePointer (amstream.h)
 author: windows-sdk-content
 description: The LockMediaSamplePointer method locks the surface that the sample represents.
 old-location: dshow\idirectdrawmediasample_lockmediasamplepointer.htm

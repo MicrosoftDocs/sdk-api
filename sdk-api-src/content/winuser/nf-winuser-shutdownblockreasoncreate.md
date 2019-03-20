@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.ShutdownBlockReasonCreate
-title: ShutdownBlockReasonCreate function
+title: ShutdownBlockReasonCreate function (winuser.h)
 author: windows-sdk-content
 description: Indicates that the system cannot be shut down and sets a reason string to be displayed to the user if system shutdown is initiated.
 old-location: base\shutdownblockreasoncreate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResourceCollection.Append
-title: IXpsOMColorProfileResourceCollection::Append
+title: IXpsOMColorProfileResourceCollection::Append (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Appends an IXpsOMColorProfileResource interface pointer to the end of the collection.
 old-location: xps\ixpsomcolorprofileresourcecollection_append.htm

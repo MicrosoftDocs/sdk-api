@@ -1,6 +1,6 @@
 ---
 UID: NE:mfmediaengine.MF_TIMED_TEXT_DISPLAY_ALIGNMENT
-title: MF_TIMED_TEXT_DISPLAY_ALIGNMENT
+title: MF_TIMED_TEXT_DISPLAY_ALIGNMENT (mfmediaengine.h)
 author: windows-sdk-content
 description: Specifies how text is aligned with the display.
 old-location: mf\mf_timed_text_display_alignment.htm

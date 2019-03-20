@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.IEnumSpellingError.Next
-title: IEnumSpellingError::Next
+title: IEnumSpellingError::Next (spellcheck.h)
 author: windows-sdk-content
 description: Gets the next spelling error.
 old-location: intl\ienumspellingerror_next.htm

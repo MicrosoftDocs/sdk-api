@@ -1,6 +1,6 @@
 ---
 UID: NC:winbase.PFE_EXPORT_FUNC
-title: PFE_EXPORT_FUNC
+title: PFE_EXPORT_FUNC (winbase.h)
 author: windows-sdk-content
 description: An application-defined callback function used with ReadEncryptedFileRaw.
 old-location: fs\exportcallback.htm

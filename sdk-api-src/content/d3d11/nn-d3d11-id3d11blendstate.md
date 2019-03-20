@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11BlendState
-title: ID3D11BlendState
+title: ID3D11BlendState (d3d11.h)
 author: windows-sdk-content
 description: The blend-state interface holds a description for blending state that you can bind to the output-merger stage.
 old-location: direct3d11\id3d11blendstate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:shobjidl._OVERLAPPED
-title: OVERLAPPED
+title: OVERLAPPED (shobjidl.h)
 author: windows-sdk-content
 description: Contains information used in asynchronous (overlapped) input/output (I/O).
 old-location: shell\OVERLAPPED.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.SerializeWithOptions
-title: ISyncKnowledge2::SerializeWithOptions
+title: ISyncKnowledge2::SerializeWithOptions (winsync.h)
 author: windows-sdk-content
 description: Serializes the knowledge object data to a byte array based on the specified version and serialization options.
 old-location: winsync\isyncknowledge2_serializewithoptions.htm

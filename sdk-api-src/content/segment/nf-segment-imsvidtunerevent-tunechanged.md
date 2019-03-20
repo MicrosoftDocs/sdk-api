@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidTunerEvent.TuneChanged
-title: IMSVidTunerEvent::TuneChanged
+title: IMSVidTunerEvent::TuneChanged (segment.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsvidtunerevent_tunechanged.htm

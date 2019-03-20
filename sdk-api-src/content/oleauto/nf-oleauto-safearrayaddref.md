@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.SafeArrayAddRef
-title: SafeArrayAddRef function
+title: SafeArrayAddRef function (oleauto.h)
 author: windows-sdk-content
 description: Increases the pinning reference count of the descriptor for the specified safe array by one, and may increase the pinning reference count of the data for the specified safe array by one if that data was dynamically allocated, as determined by the descriptor of the safe array.
 old-location: automat\safearrayaddref.htm

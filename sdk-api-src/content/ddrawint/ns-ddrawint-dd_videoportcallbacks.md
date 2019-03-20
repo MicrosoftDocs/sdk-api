@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint.DD_VIDEOPORTCALLBACKS
-title: DD_VIDEOPORTCALLBACKS
+title: DD_VIDEOPORTCALLBACKS (ddrawint.h)
 author: windows-sdk-content
 description: The DD_VIDEOPORTCALLBACKS structure contains entry pointers to Microsoft DirectDraw video port extensions (VPE) callback functions that a device driver supports.
 old-location: display\dd_videoportcallbacks.htm

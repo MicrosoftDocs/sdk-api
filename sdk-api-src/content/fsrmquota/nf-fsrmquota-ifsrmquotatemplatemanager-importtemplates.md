@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaTemplateManager.ImportTemplates
-title: IFsrmQuotaTemplateManager::ImportTemplates
+title: IFsrmQuotaTemplateManager::ImportTemplates (fsrmquota.h)
 author: windows-sdk-content
 description: Imports the specified quota templates from an XML string.
 old-location: fsrm\ifsrmquotatemplatemanager_importtemplates.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITrigger.put_ExecutionTimeLimit
-title: ITrigger::put_ExecutionTimeLimit
+title: ITrigger::put_ExecutionTimeLimit (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the maximum amount of time that the task launched by this trigger is allowed to run.
 old-location: taskschd\itrigger_executiontimelimit.htm

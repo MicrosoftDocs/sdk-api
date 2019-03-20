@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectPass.Apply
-title: ID3D10EffectPass::Apply
+title: ID3D10EffectPass::Apply (d3d10effect.h)
 author: windows-sdk-content
 description: Set the state contained in a pass to the device.
 old-location: direct3d10\id3d10effectpass_apply.htm

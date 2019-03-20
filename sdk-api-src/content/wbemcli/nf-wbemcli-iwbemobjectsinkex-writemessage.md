@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemObjectSinkEx.WriteMessage
-title: IWbemObjectSinkEx::WriteMessage
+title: IWbemObjectSinkEx::WriteMessage (wbemcli.h)
 author: windows-sdk-content
 description: TBD
 old-location: wmi\iwbemobjectsinkex_writemessage.htm

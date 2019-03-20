@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagVideoControlFlags
-title: VideoControlFlags
+title: VideoControlFlags (strmif.h)
 author: windows-sdk-content
 description: Specifies the video mode of operation for a video device.
 old-location: dshow\videocontrolflags.htm

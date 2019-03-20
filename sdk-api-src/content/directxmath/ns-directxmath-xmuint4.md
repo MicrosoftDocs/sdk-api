@@ -1,6 +1,6 @@
 ---
 UID: NS:directxmath.XMUINT4
-title: XMUINT4
+title: XMUINT4 (directxmath.h)
 author: windows-sdk-content
 description: A 4D vector where each component is an unsigned integer.
 old-location: dxmath\xmuint4.htm

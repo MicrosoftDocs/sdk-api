@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncResult.Result
-title: ISyncMgrSyncResult::Result
+title: ISyncMgrSyncResult::Result (syncmgr.h)
 author: windows-sdk-content
 description: Gets the result of a StartHandlerSync or StartItemSync call.
 old-location: shell\ISyncMgrSyncResult_Result.htm

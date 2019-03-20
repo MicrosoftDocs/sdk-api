@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.ICDecompressSetPalette
-title: ICDecompressSetPalette macro
+title: ICDecompressSetPalette macro (vfw.h)
 author: windows-sdk-content
 description: The ICDecompressSetPalette macro specifies a palette for a video decompression driver to use if it is decompressing to a format that uses a palette. You can use this macro or explicitly call the ICM_DECOMPRESS_SET_PALETTE message.
 old-location: multimedia\icdecompresssetpalette.htm

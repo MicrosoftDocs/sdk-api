@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetLastModifiedBy
-title: IXpsOMCoreProperties::SetLastModifiedBy
+title: IXpsOMCoreProperties::SetLastModifiedBy (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the lastModifiedBy property.
 old-location: xps\ixpsomcoreproperties_setlastmodifiedby.htm

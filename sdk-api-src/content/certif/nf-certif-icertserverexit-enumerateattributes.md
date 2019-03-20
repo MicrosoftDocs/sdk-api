@@ -1,6 +1,6 @@
 ---
 UID: NF:certif.ICertServerExit.EnumerateAttributes
-title: ICertServerExit::EnumerateAttributes
+title: ICertServerExit::EnumerateAttributes (certif.h)
 author: windows-sdk-content
 description: Returns the name of the next request attribute within the current context, then increments the internal pointer to the following attribute.
 old-location: security\icertserverexit_enumerateattributes.htm

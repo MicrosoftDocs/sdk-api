@@ -1,6 +1,6 @@
 ---
 UID: NF:wsbapp.IWsbApplicationAsync.Abort
-title: IWsbApplicationAsync::Abort
+title: IWsbApplicationAsync::Abort (wsbapp.h)
 author: windows-sdk-content
 description: Cancels an incomplete asynchronous operation.
 old-location: wsb\iwsbapplicationasync_abort.htm

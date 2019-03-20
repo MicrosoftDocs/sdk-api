@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList1.SetViewInstanceMask
-title: ID3D12GraphicsCommandList1::SetViewInstanceMask
+title: ID3D12GraphicsCommandList1::SetViewInstanceMask (d3d12.h)
 author: windows-sdk-content
 description: Set a mask that controls which view instances are enabled for subsequent draws.
 old-location: direct3d12\id3d12graphicscommandlist1_setviewinstancemask_uint.htm

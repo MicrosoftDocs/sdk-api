@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetEnableTCP
-title: IWMReaderNetworkConfig::SetEnableTCP
+title: IWMReaderNetworkConfig::SetEnableTCP (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetEnableTCP method enables or disables TCP.
 old-location: wmformat\iwmreadernetworkconfig_setenabletcp.htm

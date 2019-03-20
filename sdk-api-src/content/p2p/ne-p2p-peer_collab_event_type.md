@@ -1,6 +1,6 @@
 ---
 UID: NE:p2p.peer_collab_event_type_tag
-title: PEER_COLLAB_EVENT_TYPE
+title: PEER_COLLAB_EVENT_TYPE (p2p.h)
 author: windows-sdk-content
 description: The PEER_COLLAB_EVENT_TYPE enumeration defines the set of events that can be raised on a peer by the peer collaboration network event infrastructure.
 old-location: p2p\peer_collab_event_type.htm

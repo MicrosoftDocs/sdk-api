@@ -1,6 +1,6 @@
 ---
 UID: NE:mi._MI_CallbackMode
-title: MI_CallbackMode
+title: MI_CallbackMode (mi.h)
 author: windows-sdk-content
 description: Defines the callback mode for the CIM extensions for WriteError and PromptUser functions.
 old-location: wmi_v2\mi_callbackmode.htm

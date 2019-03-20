@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.GetDeviceRemovedReason
-title: ID3D10Device::GetDeviceRemovedReason
+title: ID3D10Device::GetDeviceRemovedReason (d3d10.h)
 author: windows-sdk-content
 description: Get the reason why the device was removed.
 old-location: direct3d10\id3d10device_getdeviceremovedreason.htm

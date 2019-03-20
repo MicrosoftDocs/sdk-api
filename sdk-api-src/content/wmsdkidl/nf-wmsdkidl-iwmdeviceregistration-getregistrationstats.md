@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDeviceRegistration.GetRegistrationStats
-title: IWMDeviceRegistration::GetRegistrationStats
+title: IWMDeviceRegistration::GetRegistrationStats (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetRegistrationStats method retrieves the number of devices in the device registration database that have a specified type.
 old-location: wmformat\iwmdeviceregistration_getregistrationstats.htm

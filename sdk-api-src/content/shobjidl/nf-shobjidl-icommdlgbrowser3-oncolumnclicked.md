@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.ICommDlgBrowser3.OnColumnClicked
-title: ICommDlgBrowser3::OnColumnClicked
+title: ICommDlgBrowser3::OnColumnClicked (shobjidl.h)
 author: windows-sdk-content
 description: Called after a specified column is clicked in the IShellView interface.
 old-location: shell\ICommDlgBrowser3_OnColumnClicked.htm

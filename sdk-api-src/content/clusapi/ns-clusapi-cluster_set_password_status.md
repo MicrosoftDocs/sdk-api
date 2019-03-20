@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUSTER_SET_PASSWORD_STATUS
-title: CLUSTER_SET_PASSWORD_STATUS
+title: CLUSTER_SET_PASSWORD_STATUS (clusapi.h)
 author: windows-sdk-content
 description: Used by the SetClusterServiceAccountPassword function to return the results of a Cluster service user account password change for each cluster node.
 old-location: mscs\cluster_set_password_status.htm

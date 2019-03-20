@@ -1,6 +1,6 @@
 ---
 UID: NE:msdrmdefs._DRM_DISTRIBUTION_POINT_INFO
-title: DRM_DISTRIBUTION_POINT_INFO
+title: DRM_DISTRIBUTION_POINT_INFO (msdrmdefs.h)
 author: windows-sdk-content
 description: Specifies the type of distribution point to retrieve information about when calling DRMGetIssuanceLicenseInfo.
 old-location: rm\drm_distribution_point_info.htm

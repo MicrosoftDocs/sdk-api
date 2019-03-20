@@ -1,6 +1,6 @@
 ---
 UID: NS:mmc._SMMCDataObjects
-title: SMMCDataObjects
+title: SMMCDataObjects (mmc.h)
 author: windows-sdk-content
 description: The SMMCDataObjects structure defines the format of the data for the CCF_MULTI_SELECT_SNAPINS clipboard format.
 old-location: mmc\smmcdataobjects.htm

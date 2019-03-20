@@ -1,6 +1,6 @@
 ---
 UID: NS:winnetwk._CONNECTDLGSTRUCTA
-title: CONNECTDLGSTRUCTA
+title: CONNECTDLGSTRUCTA (winnetwk.h)
 author: windows-sdk-content
 description: Used by the WNetConnectionDialog1 function to establish browsing dialog box parameters.
 old-location: wnet\connectdlgstruct_str.htm

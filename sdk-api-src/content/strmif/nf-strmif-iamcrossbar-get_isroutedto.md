@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMCrossbar.get_IsRoutedTo
-title: IAMCrossbar::get_IsRoutedTo
+title: IAMCrossbar::get_IsRoutedTo (strmif.h)
 author: windows-sdk-content
 description: The get_IsRoutedTo method retrieves the input pin that is currently routed to the specified output pin.
 old-location: dshow\iamcrossbar_get_isroutedto.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESEventServiceConfiguration.RemoveGraph
-title: IESEventServiceConfiguration::RemoveGraph
+title: IESEventServiceConfiguration::RemoveGraph (tuner.h)
 author: windows-sdk-content
 description: Removes an event service that implements the IESEventService interface from a filter graph. This method prevents the processing of events from Protected Broadcast Driver Architecture (PBDA) devices in the graph.
 old-location: mstv\ieseventserviceconfiguration_removegraph.htm

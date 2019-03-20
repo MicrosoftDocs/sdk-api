@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_UPDATE_ENROLLMENT_FN
-title: PIBIO_ENGINE_UPDATE_ENROLLMENT_FN
+title: PIBIO_ENGINE_UPDATE_ENROLLMENT_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Adds the current feature set to the enrollment object.
 old-location: secbiomet\engineadapterupdateenrollment.htm

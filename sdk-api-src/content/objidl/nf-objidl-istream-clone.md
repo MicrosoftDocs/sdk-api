@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStream.Clone
-title: IStream::Clone
+title: IStream::Clone (objidl.h)
 author: windows-sdk-content
 description: The Clone method creates a new stream object with its own seek pointer that references the same bytes as the original stream.
 old-location: stg\istream_clone.htm

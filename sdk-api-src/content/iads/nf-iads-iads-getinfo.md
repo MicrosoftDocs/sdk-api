@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADs.GetInfo
-title: IADs::GetInfo
+title: IADs::GetInfo (iads.h)
 author: windows-sdk-content
 description: Loads into the property cache values of the supported properties of this ADSI object from the underlying directory store.
 old-location: adsi\iads_getinfo.htm

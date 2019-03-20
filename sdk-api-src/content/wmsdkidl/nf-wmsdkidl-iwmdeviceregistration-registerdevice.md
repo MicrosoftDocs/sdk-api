@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDeviceRegistration.RegisterDevice
-title: IWMDeviceRegistration::RegisterDevice
+title: IWMDeviceRegistration::RegisterDevice (wmsdkidl.h)
 author: windows-sdk-content
 description: The RegisterDevice method adds a device to the device list.
 old-location: wmformat\iwmdeviceregistration_registerdevice.htm

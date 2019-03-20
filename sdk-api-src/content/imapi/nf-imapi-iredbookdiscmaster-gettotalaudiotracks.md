@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IRedbookDiscMaster.GetTotalAudioTracks
-title: IRedbookDiscMaster::GetTotalAudioTracks
+title: IRedbookDiscMaster::GetTotalAudioTracks (imapi.h)
 author: windows-sdk-content
 description: Retrieves the total number of tracks that have either been staged or are being staged.
 old-location: imapi\iredbookdiscmaster_gettotalaudiotracks.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:appmodel.GetCurrentPackageFullName
-title: GetCurrentPackageFullName function
+title: GetCurrentPackageFullName function (appmodel.h)
 author: windows-sdk-content
 description: Gets the package full name for the calling process.
 old-location: appxpkg\getcurrentpackagefullname.htm

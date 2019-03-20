@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.INodeProperties
-title: INodeProperties
+title: INodeProperties (mmc.h)
 author: windows-sdk-content
 description: The INodeProperties interface retrieves text-only properties for a node.
 old-location: mmc\inodeproperties.htm

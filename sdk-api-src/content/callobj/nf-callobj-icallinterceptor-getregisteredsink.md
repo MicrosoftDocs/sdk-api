@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallInterceptor.GetRegisteredSink
-title: ICallInterceptor::GetRegisteredSink
+title: ICallInterceptor::GetRegisteredSink (callobj.h)
 author: windows-sdk-content
 description: Retrieves the registered event sink.
 old-location: com\icallinterceptor_getregisteredsink.htm

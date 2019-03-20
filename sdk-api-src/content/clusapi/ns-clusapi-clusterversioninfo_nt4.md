@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUSTERVERSIONINFO_NT4
-title: CLUSTERVERSIONINFO_NT4
+title: CLUSTERVERSIONINFO_NT4 (clusapi.h)
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\clusterversioninfo_nt4.htm

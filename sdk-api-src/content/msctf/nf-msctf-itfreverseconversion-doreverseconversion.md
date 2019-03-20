@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfReverseConversion.DoReverseConversion
-title: ITfReverseConversion::DoReverseConversion
+title: ITfReverseConversion::DoReverseConversion (msctf.h)
 author: windows-sdk-content
 description: Performs a reverse conversion of the specified string.
 old-location: tsf\itfreverseconversion__doreverseconversion.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winsock.linger
-title: LINGER
+title: LINGER (winsock.h)
 author: windows-sdk-content
 description: Maintains information about a specific socket that specifies how that socket should behave when data is queued to be sent and the closesocket function is called on the socket.
 old-location: winsock\linger_2.htm

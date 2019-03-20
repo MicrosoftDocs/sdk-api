@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagEVENTMSG
-title: EVENTMSG
+title: EVENTMSG (winuser.h)
 author: windows-sdk-content
 description: Contains information about a hardware message sent to the system message queue. This structure is used to store message information for the JournalPlaybackProc callback function.
 old-location: winmsg\eventmsg.htm

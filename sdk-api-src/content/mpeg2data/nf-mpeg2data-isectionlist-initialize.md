@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2data.ISectionList.Initialize
-title: ISectionList::Initialize
+title: ISectionList::Initialize (mpeg2data.h)
 author: windows-sdk-content
 description: The Initialize method initializes the object. This method should be called once, immediately after creating the object. The IMpeg2Data::GetSection and IMpeg2Data::GetTable methods call this method internally, so typically an application will not call it.
 old-location: mstv\isectionlist_initialize.htm

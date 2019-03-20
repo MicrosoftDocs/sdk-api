@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SetSearchPathMode
-title: SetSearchPathMode function
+title: SetSearchPathMode function (winbase.h)
 author: windows-sdk-content
 description: Sets the per-process mode that the SearchPath function uses when locating files.
 old-location: fs\setsearchpathmode.htm

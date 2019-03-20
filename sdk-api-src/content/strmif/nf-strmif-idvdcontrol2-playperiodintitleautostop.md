@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.PlayPeriodInTitleAutoStop
-title: IDvdControl2::PlayPeriodInTitleAutoStop
+title: IDvdControl2::PlayPeriodInTitleAutoStop (strmif.h)
 author: windows-sdk-content
 description: The PlayPeriodInTitleAutoStop method starts playback in the specified title from the specified start time until the specified end time.
 old-location: dshow\idvdcontrol2_playperiodintitleautostop.htm

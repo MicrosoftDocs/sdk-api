@@ -1,6 +1,6 @@
 ---
 UID: NF:identityprovider.IIdentityProvider.Create
-title: IIdentityProvider::Create
+title: IIdentityProvider::Create (identityprovider.h)
 author: windows-sdk-content
 description: Creates a new identity associated with the specified user name.
 old-location: security\iidentityprovider_create.htm

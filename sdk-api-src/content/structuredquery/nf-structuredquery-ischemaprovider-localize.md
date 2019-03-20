@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.ISchemaProvider.Localize
-title: ISchemaProvider::Localize
+title: ISchemaProvider::Localize (structuredquery.h)
 author: windows-sdk-content
 description: Localizes the currently loaded schema for a specified locale.
 old-location: search\_search_ISchemaProvider_Localize.htm

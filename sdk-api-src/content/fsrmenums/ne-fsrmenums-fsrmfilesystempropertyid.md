@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmFileSystemPropertyId
-title: FsrmFileSystemPropertyId
+title: FsrmFileSystemPropertyId (fsrmenums.h)
 author: windows-sdk-content
 description: Defines the possible types of file system property ids.
 old-location: fsrm\fsrmfilesystempropertyid.htm

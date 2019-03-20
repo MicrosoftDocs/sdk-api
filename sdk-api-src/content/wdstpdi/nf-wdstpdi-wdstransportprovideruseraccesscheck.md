@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderUserAccessCheck
-title: WdsTransportProviderUserAccessCheck function
+title: WdsTransportProviderUserAccessCheck function (wdstpdi.h)
 author: windows-sdk-content
 description: Specifies access to a content stream based on a user's token.
 old-location: wds\wdstransportprovideruseraccesscheck.htm

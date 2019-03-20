@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwProfile.get_FirewallEnabled
-title: INetFwProfile::get_FirewallEnabled
+title: INetFwProfile::get_FirewallEnabled (netfw.h)
 author: windows-sdk-content
 description: Indicates whether the firewall is enabled.
 old-location: ics\inetfwprofile_firewallenabled.htm

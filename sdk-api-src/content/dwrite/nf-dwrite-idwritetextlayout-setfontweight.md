@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetFontWeight
-title: IDWriteTextLayout::SetFontWeight
+title: IDWriteTextLayout::SetFontWeight (dwrite.h)
 author: windows-sdk-content
 description: Sets the font weight for text within a text range specified by a DWRITE_TEXT_RANGE structure.
 old-location: directwrite\IDWriteTextLayout_SetFontWeight.htm

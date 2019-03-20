@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IKnownFolderManager
-title: IKnownFolderManager
+title: IKnownFolderManager (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that create, enumerate or manage existing known folders.
 old-location: shell\IKnownFolderManager.htm

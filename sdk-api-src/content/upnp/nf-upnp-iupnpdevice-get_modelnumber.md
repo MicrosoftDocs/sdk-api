@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_ModelNumber
-title: IUPnPDevice::get_ModelNumber
+title: IUPnPDevice::get_ModelNumber (upnp.h)
 author: windows-sdk-content
 description: The ModelNumber property specifies a human-readable form of the model number of the device.
 old-location: upnp\iupnpdevice_modelnumber.htm

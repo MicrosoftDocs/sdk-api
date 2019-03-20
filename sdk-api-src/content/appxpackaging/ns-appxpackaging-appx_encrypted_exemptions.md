@@ -1,6 +1,6 @@
 ---
 UID: NS:appxpackaging.APPX_ENCRYPTED_EXEMPTIONS
-title: APPX_ENCRYPTED_EXEMPTIONS
+title: APPX_ENCRYPTED_EXEMPTIONS (appxpackaging.h)
 author: windows-sdk-content
 description: Files exempted from Windows app package encryption.
 old-location: appxpkg\appx_encrypted_exemptions.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleConnector.get_HostingProcessPid
-title: IFsrmPipelineModuleConnector::get_HostingProcessPid
+title: IFsrmPipelineModuleConnector::get_HostingProcessPid (fsrmpipeline.h)
 author: windows-sdk-content
 description: The process identifier of the module.
 old-location: fsrm\ifsrmpipelinemoduleconnector_hostingprocesspid.htm

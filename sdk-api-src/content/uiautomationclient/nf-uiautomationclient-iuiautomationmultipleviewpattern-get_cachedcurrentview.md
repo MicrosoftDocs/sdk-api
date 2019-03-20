@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationMultipleViewPattern.get_CachedCurrentView
-title: IUIAutomationMultipleViewPattern::get_CachedCurrentView
+title: IUIAutomationMultipleViewPattern::get_CachedCurrentView (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached control-specific identifier of the current view of the control.
 old-location: winauto\uiauto_IUIAutomationMultipleViewPattern_CachedCurrentView.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IConditionFactory2.CreateBooleanLeaf
-title: IConditionFactory2::CreateBooleanLeaf
+title: IConditionFactory2::CreateBooleanLeaf (structuredquery.h)
 author: windows-sdk-content
 description: Creates a search condition that is either TRUE or FALSE.
 old-location: search\_search_IConditionFactory2_CreateBooleanLeaf.htm

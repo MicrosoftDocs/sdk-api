@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRMixerControl9.GetProcAmpControl
-title: IVMRMixerControl9::GetProcAmpControl
+title: IVMRMixerControl9::GetProcAmpControl (vmr9.h)
 author: windows-sdk-content
 description: The GetProcAmpControl method retrieves the current image adjustment settings for the VMR-9.
 old-location: dshow\ivmrmixercontrol9_getprocampcontrol.htm

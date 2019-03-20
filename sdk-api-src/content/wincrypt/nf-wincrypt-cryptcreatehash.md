@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptCreateHash
-title: CryptCreateHash function
+title: CryptCreateHash function (wincrypt.h)
 author: windows-sdk-content
 description: Initiates the hashing of a stream of data. It creates and returns to the calling application a handle to a cryptographic service provider (CSP) hash object.
 old-location: security\cryptcreatehash.htm

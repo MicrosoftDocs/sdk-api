@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.OpenRole
-title: IAzApplication::OpenRole
+title: IAzApplication::OpenRole (azroles.h)
 author: windows-sdk-content
 description: Opens an IAzRole object with the specified name.
 old-location: security\iazapplication_openrole.htm

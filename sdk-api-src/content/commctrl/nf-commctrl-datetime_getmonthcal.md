@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.DateTime_GetMonthCal
-title: DateTime_GetMonthCal macro
+title: DateTime_GetMonthCal macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the handle to a date and time picker's (DTP) child month calendar control. You can use this macro or send the DTM_GETMONTHCAL message explicitly.
 old-location: controls\DateTime_GetMonthCal.htm

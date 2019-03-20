@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.CreateRenderTarget
-title: IDirect3DDevice9::CreateRenderTarget
+title: IDirect3DDevice9::CreateRenderTarget (d3d9helper.h)
 author: windows-sdk-content
 description: Creates a render-target surface.
 old-location: direct3d9\idirect3ddevice9__createrendertarget.htm

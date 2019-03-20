@@ -1,6 +1,6 @@
 ---
 UID: NC:cchannel.VIRTUALCHANNELENTRY
-title: VIRTUALCHANNELENTRY
+title: VIRTUALCHANNELENTRY (cchannel.h)
 author: windows-sdk-content
 description: An application-defined entry point for the client-side DLL of an application that uses Remote Desktop Services virtual channels.
 old-location: termserv\virtualchannelentry.htm

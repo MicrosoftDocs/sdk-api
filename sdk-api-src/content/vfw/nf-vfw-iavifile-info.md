@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.IAVIFile.Info
-title: IAVIFile::Info
+title: IAVIFile::Info (vfw.h)
 author: windows-sdk-content
 description: The Info method returns with information about an AVI file. Called when an application uses the AVIFileInfo function.
 old-location: multimedia\iavifile_info.htm

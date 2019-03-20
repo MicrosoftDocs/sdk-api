@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2.CreateSubmixVoice
-title: IXAudio2::CreateSubmixVoice
+title: IXAudio2::CreateSubmixVoice (xaudio2.h)
 author: windows-sdk-content
 description: Creates and configures a submix voice.
 old-location: xaudio2\ixaudio2_interface_createsubmixvoice.htm

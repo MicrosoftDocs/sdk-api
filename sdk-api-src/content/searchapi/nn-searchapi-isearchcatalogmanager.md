@@ -1,6 +1,6 @@
 ---
 UID: NN:searchapi.ISearchCatalogManager
-title: ISearchCatalogManager
+title: ISearchCatalogManager (searchapi.h)
 author: windows-sdk-content
 description: Provides methods to manage a search catalog for purposes such as re-indexing or setting timeouts.
 old-location: search\_search_ISearchCatalogManager.htm

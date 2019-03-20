@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIFactory2.CreateSwapChainForCoreWindow
-title: IDXGIFactory2::CreateSwapChainForCoreWindow
+title: IDXGIFactory2::CreateSwapChainForCoreWindow (dxgi1_2.h)
 author: windows-sdk-content
 description: Creates a swap chain that is associated with the CoreWindow object for the output window for the swap chain.
 old-location: direct3ddxgi\idxgifactory2_createswapchainforimmersivewindow.htm

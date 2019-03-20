@@ -1,6 +1,6 @@
 ---
 UID: NF:wdsclientapi.WdsCliTransferImage
-title: WdsCliTransferImage function
+title: WdsCliTransferImage function (wdsclientapi.h)
 author: windows-sdk-content
 description: Transfers an image from a WDS server to the WDS client.
 old-location: wds\wdsclitransferimage.htm

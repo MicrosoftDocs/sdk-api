@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAServiceDescriptor.GetServiceIds
-title: IIsdbCAServiceDescriptor::GetServiceIds
+title: IIsdbCAServiceDescriptor::GetServiceIds (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the service identifier (ID) records from a conditional access (CA) service descriptor.
 old-location: mstv\iisdbcaservicedescriptor_getserviceids.htm

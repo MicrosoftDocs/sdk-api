@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumSubnetElementsV5
-title: DhcpEnumSubnetElementsV5 function
+title: DhcpEnumSubnetElementsV5 function (dhcpsapi.h)
 author: windows-sdk-content
 description: The DhcpEnumSubnetElementsV5 function returns an enumerated list of elements for a specific DHCP subnet.
 old-location: dhcp\dhcpenumsubnetelementsv5.htm

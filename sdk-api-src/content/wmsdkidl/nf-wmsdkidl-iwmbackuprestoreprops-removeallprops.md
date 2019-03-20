@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMBackupRestoreProps.RemoveAllProps
-title: IWMBackupRestoreProps::RemoveAllProps
+title: IWMBackupRestoreProps::RemoveAllProps (wmsdkidl.h)
 author: windows-sdk-content
 description: The RemoveAllProps method removes all properties.
 old-location: wmformat\iwmbackuprestoreprops_removeallprops.htm

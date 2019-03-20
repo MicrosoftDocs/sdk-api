@@ -1,6 +1,6 @@
 ---
 UID: NS:wmsdkidl._WMAddressAccessEntry
-title: WM_ADDRESS_ACCESSENTRY
+title: WM_ADDRESS_ACCESSENTRY (wmsdkidl.h)
 author: windows-sdk-content
 description: The WM_ADDRESS_ACCESSENTRY structure specifies an entry in an IP address access list.
 old-location: wmformat\wm_address_accessentry.htm

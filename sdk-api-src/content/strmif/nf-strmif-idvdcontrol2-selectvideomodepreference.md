@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectVideoModePreference
-title: IDvdControl2::SelectVideoModePreference
+title: IDvdControl2::SelectVideoModePreference (strmif.h)
 author: windows-sdk-content
 description: The SelectVideoModePreference method sets the specified video mode display (wide screen, letterbox, or pan-scan) for playback.
 old-location: dshow\idvdcontrol2_selectvideomodepreference.htm

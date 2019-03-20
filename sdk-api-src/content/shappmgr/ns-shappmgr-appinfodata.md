@@ -1,6 +1,6 @@
 ---
 UID: NS:shappmgr._AppInfoData
-title: APPINFODATA
+title: APPINFODATA (shappmgr.h)
 author: windows-sdk-content
 description: Provides information about a published application to the Add/Remove Programs Control Panel utility.
 old-location: shell\APPINFODATA.htm

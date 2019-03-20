@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IWEInvokeCommand.InvokeCommand
-title: IWEInvokeCommand::InvokeCommand
+title: IWEInvokeCommand::InvokeCommand (cluadmex.h)
 author: windows-sdk-content
 description: Allows you to implement procedures that execute when users select your context menu items.
 old-location: mscs\iweinvokecommand_invokecommand.htm

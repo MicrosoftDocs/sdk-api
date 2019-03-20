@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderCallbackAdvanced.OnTime
-title: IWMReaderCallbackAdvanced::OnTime
+title: IWMReaderCallbackAdvanced::OnTime (wmsdkidl.h)
 author: windows-sdk-content
 description: The OnTime method notifies the application of the clock time the reader is working to. This method is used when a user-provided clock has been specified.
 old-location: wmformat\iwmreadercallbackadvanced_ontime.htm

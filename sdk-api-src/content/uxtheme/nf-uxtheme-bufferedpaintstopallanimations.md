@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.BufferedPaintStopAllAnimations
-title: BufferedPaintStopAllAnimations function
+title: BufferedPaintStopAllAnimations function (uxtheme.h)
 author: windows-sdk-content
 description: Stops all buffered animations for the given window.
 old-location: controls\BufferedPaintStopAllAnimations.htm

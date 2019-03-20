@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.PQUORUM_RESOURCE_LOST
-title: PQUORUM_RESOURCE_LOST
+title: PQUORUM_RESOURCE_LOST (resapi.h)
 author: windows-sdk-content
 description: Called when control of the quorum resource has been lost.
 old-location: mscs\quorumresourcelost.htm

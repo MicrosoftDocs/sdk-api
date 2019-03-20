@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsVolumeOnline
-title: IVdsVolumeOnline
+title: IVdsVolumeOnline (vds.h)
 author: windows-sdk-content
 description: Provides a method to repair single volumes.
 old-location: base\ivdsvolumeonline.htm

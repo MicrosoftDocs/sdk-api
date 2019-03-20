@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCollector.SetEventInterest
-title: IInkCollector::SetEventInterest
+title: IInkCollector::SetEventInterest (msinkaut.h)
 author: windows-sdk-content
 description: Modifies a value that indicates whether an object or control has interest in a specified event.
 old-location: tablet\inkcollector_seteventinterest.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannelEvents.OnClose
-title: IWRdsGraphicsChannelEvents::OnClose
+title: IWRdsGraphicsChannelEvents::OnClose (wrdsgraphicschannels.h)
 author: windows-sdk-content
 description: Called when the channel has been closed.
 old-location: termserv\iwrdsgraphicschannelevents_onclose.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.GetEventClassesForIID
-title: ICOMAdminCatalog::GetEventClassesForIID
+title: ICOMAdminCatalog::GetEventClassesForIID (comadmin.h)
 author: windows-sdk-content
 description: Retrieves a list of the event classes registered on the computer that implement a specified interface.
 old-location: cos\icomadmincatalog_geteventclassesforiid.htm

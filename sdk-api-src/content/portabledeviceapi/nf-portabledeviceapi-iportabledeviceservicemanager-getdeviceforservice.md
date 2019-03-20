@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceManager.GetDeviceForService
-title: IPortableDeviceServiceManager::GetDeviceForService
+title: IPortableDeviceServiceManager::GetDeviceForService (portabledeviceapi.h)
 author: windows-sdk-content
 description: Retrieves the device associated with the specified service.
 old-location: wpdsdk\iportabledeviceservicemanager_getdeviceforservice.htm

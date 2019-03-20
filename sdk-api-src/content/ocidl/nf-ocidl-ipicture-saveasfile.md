@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPicture.SaveAsFile
-title: IPicture::SaveAsFile
+title: IPicture::SaveAsFile (ocidl.h)
 author: windows-sdk-content
 description: Saves the picture's data into a stream in the same format that it would save itself into a file. Bitmaps use the BMP file format, metafiles the WMF format, and icons the ICO format.
 old-location: com\ipicture_saveasfile.htm

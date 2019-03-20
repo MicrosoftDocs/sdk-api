@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DrawTextExA
-title: DrawTextExA function
+title: DrawTextExA function (winuser.h)
 author: windows-sdk-content
 description: The DrawTextEx function draws formatted text in the specified rectangle.
 old-location: gdi\drawtextex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmMerge.ExtractCAB
-title: IMsmMerge::ExtractCAB
+title: IMsmMerge::ExtractCAB (mergemod.h)
 author: windows-sdk-content
 description: The ExtractCAB method extracts the embedded .cab file from a module and saves it as the specified file.
 old-location: setup\imsmmerge_extractcab.htm

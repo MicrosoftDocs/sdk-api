@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_FreeMediaBlocks
-title: IFileSystemImage::get_FreeMediaBlocks
+title: IFileSystemImage::get_FreeMediaBlocks (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the maximum number of blocks available for the image.
 old-location: imapi\ifilesystemimage_get_freemediablocks.htm

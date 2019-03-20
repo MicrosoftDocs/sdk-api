@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2.GetCookie
-title: IXMLHTTPRequest2::GetCookie
+title: IXMLHTTPRequest2::GetCookie (msxml6.h)
 author: windows-sdk-content
 description: Gets a cookie associated with the specified URL from the HTTP cookie jar.
 old-location: ixhr2\ixmlhttprequest2_getcookie.htm

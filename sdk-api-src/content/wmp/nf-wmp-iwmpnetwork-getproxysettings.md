@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPNetwork.getProxySettings
-title: IWMPNetwork::getProxySettings
+title: IWMPNetwork::getProxySettings (wmp.h)
 author: windows-sdk-content
 description: The getProxySettings method retrieves the proxy setting for a given protocol.
 old-location: wmp\iwmpnetwork_getproxysettings.htm

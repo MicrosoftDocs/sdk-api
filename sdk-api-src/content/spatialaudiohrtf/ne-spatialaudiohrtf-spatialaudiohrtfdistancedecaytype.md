@@ -1,6 +1,6 @@
 ---
 UID: NE:spatialaudiohrtf.SpatialAudioHrtfDistanceDecayType
-title: SpatialAudioHrtfDistanceDecayType
+title: SpatialAudioHrtfDistanceDecayType (spatialaudiohrtf.h)
 author: windows-sdk-content
 description: Specifies the type of decay applied over distance from the position of an ISpatialAudioObjectForHrtf to the position of the listener.
 old-location: coreaudio\spatialaudiohrtfdistancedecaytype.htm

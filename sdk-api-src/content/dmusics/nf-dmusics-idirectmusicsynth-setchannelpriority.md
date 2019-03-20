@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.SetChannelPriority
-title: IDirectMusicSynth::SetChannelPriority
+title: IDirectMusicSynth::SetChannelPriority (dmusics.h)
 author: windows-sdk-content
 description: The SetChannelPriority method sets the priority of a MIDI channel.
 old-location: audio\idirectmusicsynth_setchannelpriority.htm

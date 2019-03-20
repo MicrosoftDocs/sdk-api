@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif.REGFILTERPINS
-title: REGFILTERPINS
+title: REGFILTERPINS (strmif.h)
 author: windows-sdk-content
 description: The REGFILTERPINS structure contains pin information for registering a filter.
 old-location: dshow\regfilterpins.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:cpl.tagNEWCPLINFOW
-title: NEWCPLINFOW
+title: NEWCPLINFOW (cpl.h)
 author: windows-sdk-content
 description: Contains resource information and an application-defined value for a dialog box supported by a Control Panel application.
 old-location: shell\NEWCPLINFO.htm

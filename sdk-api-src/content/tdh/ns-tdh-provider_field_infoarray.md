@@ -1,6 +1,6 @@
 ---
 UID: NS:tdh._PROVIDER_FIELD_INFOARRAY
-title: PROVIDER_FIELD_INFOARRAY
+title: PROVIDER_FIELD_INFOARRAY (tdh.h)
 author: windows-sdk-content
 description: Defines metadata information about the requested field.
 old-location: etw\provider_field_infoarray_struct.htm

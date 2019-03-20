@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiGetFeatureValidStatesA
-title: MsiGetFeatureValidStatesA function
+title: MsiGetFeatureValidStatesA function (msiquery.h)
 author: windows-sdk-content
 description: The MsiGetFeatureValidStates function returns a valid installation state.
 old-location: setup\msigetfeaturevalidstates.htm

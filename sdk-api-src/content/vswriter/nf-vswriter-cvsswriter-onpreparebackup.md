@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.OnPrepareBackup
-title: CVssWriter::OnPrepareBackup
+title: CVssWriter::OnPrepareBackup (vswriter.h)
 author: windows-sdk-content
 description: The OnPrepareBackup method is called by a writer following a PrepareForBackup event. This method is used to configure a writer's state and its components in preparation for a backup operation.
 old-location: base\cvsswriter_onpreparebackup.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.mixerGetLineInfo
-title: mixerGetLineInfo function
+title: mixerGetLineInfo function (mmeapi.h)
 author: windows-sdk-content
 description: The mixerGetLineInfo function retrieves information about a specific line of a mixer device.
 old-location: multimedia\mixergetlineinfo.htm

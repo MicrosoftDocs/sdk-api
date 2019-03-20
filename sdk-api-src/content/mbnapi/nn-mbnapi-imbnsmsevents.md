@@ -1,6 +1,6 @@
 ---
 UID: NN:mbnapi.IMbnSmsEvents
-title: IMbnSmsEvents
+title: IMbnSmsEvents (mbnapi.h)
 author: windows-sdk-content
 description: This notification interface signals an application with the completion status of SMS operations and changes in the device SMS status.
 old-location: mbn\imbnsmsevents.htm

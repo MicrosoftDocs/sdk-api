@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICPixelFormatInfo.GetChannelCount
-title: IWICPixelFormatInfo::GetChannelCount
+title: IWICPixelFormatInfo::GetChannelCount (wincodec.h)
 author: windows-sdk-content
 description: Gets the number of channels the pixel format contains.
 old-location: wic\_wic_codec_iwicpixelformatinfo_getchannelcount.htm

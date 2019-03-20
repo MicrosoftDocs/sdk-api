@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCreatePeerName
-title: PeerCreatePeerName function
+title: PeerCreatePeerName function (p2p.h)
 author: windows-sdk-content
 description: The PeerCreatePeerName function creates a new name based on the existing name of the specified peer identity and classifier. However, a new identity is not created by a call to PeerCreatePeerName.
 old-location: p2p\peercreatepeername.htm

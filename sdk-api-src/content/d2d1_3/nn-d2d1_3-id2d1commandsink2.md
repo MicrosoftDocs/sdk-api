@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_3.ID2D1CommandSink2
-title: ID2D1CommandSink2
+title: ID2D1CommandSink2 (d2d1_3.h)
 author: windows-sdk-content
 description: This interface performs all the same functions as the existing ID2D1CommandSink1 interface. It also enables access to ink rendering and gradient mesh rendering.
 old-location: direct2d\id2d1commandsink2.htm

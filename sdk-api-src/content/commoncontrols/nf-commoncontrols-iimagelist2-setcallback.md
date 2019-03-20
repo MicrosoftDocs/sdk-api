@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList2.SetCallback
-title: IImageList2::SetCallback
+title: IImageList2::SetCallback (commoncontrols.h)
 author: windows-sdk-content
 description: Sets an image list callback.
 old-location: controls\IImageList2_SetCallback.htm

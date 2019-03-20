@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.CreateObjrefMoniker
-title: CreateObjrefMoniker function
+title: CreateObjrefMoniker function (objbase.h)
 author: windows-sdk-content
 description: Creates an OBJREF moniker based on a pointer to an object.
 old-location: com\createobjrefmoniker.htm

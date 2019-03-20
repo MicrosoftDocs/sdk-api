@@ -1,6 +1,6 @@
 ---
 UID: NL:gdipluseffects.Tint
-title: Tint
+title: Tint (gdipluseffects.h)
 author: windows-sdk-content
 description: The Tint class enables you to apply a tint to a bitmap.
 old-location: gdiplus\_gdiplus_CLASS_Tint_Class.htm

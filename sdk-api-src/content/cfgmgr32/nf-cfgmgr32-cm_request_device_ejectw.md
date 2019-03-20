@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Request_Device_EjectW
-title: CM_Request_Device_EjectW function
+title: CM_Request_Device_EjectW function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Request_Device_Eject function prepares a local device instance for safe removal, if the device is removable. If the device can be physically ejected, it will be.
 old-location: devinst\cm_request_device_eject.htm

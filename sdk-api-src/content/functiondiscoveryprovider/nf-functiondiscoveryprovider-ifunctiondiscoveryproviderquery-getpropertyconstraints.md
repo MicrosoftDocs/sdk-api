@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProviderQuery.GetPropertyConstraints
-title: IFunctionDiscoveryProviderQuery::GetPropertyConstraints
+title: IFunctionDiscoveryProviderQuery::GetPropertyConstraints (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: Retrieves the current property constraints.
 old-location: ncd\ifunctiondiscoveryproviderquery_getpropertyconstraints.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptDestroyKey
-title: CryptDestroyKey function
+title: CryptDestroyKey function (wincrypt.h)
 author: windows-sdk-content
 description: Releases the handle referenced by the hKey parameter.
 old-location: security\cryptdestroykey.htm

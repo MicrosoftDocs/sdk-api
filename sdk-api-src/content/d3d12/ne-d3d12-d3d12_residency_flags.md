@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_RESIDENCY_FLAGS
-title: D3D12_RESIDENCY_FLAGS
+title: D3D12_RESIDENCY_FLAGS (d3d12.h)
 author: windows-sdk-content
 description: Used with the EnqueuMakeResident function to choose how residency operations proceed when the memory budget is exceeded.
 old-location: direct3d12\d3d12_residency_flags.htm

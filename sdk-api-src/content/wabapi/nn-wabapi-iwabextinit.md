@@ -1,6 +1,6 @@
 ---
 UID: NN:wabapi.IWABExtInit
-title: IWABExtInit
+title: IWABExtInit (wabapi.h)
 author: windows-sdk-content
 description: Do not use. This interface ndicates which Windows Address Book (WAB) object is being displayed (for example, a property sheet or context menu).
 old-location: wab\_wab_IWABExtInit.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IMediaStreamFilter.GetMediaStream
-title: IMediaStreamFilter::GetMediaStream
+title: IMediaStreamFilter::GetMediaStream (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The GetMediaStream method retrieves a media stream, specified by purpose ID.
 old-location: dshow\imediastreamfilter_getmediastream.htm

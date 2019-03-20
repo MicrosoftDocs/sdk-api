@@ -1,6 +1,6 @@
 ---
 UID: NC:winevt.EVT_SUBSCRIBE_CALLBACK
-title: EVT_SUBSCRIBE_CALLBACK
+title: EVT_SUBSCRIBE_CALLBACK (winevt.h)
 author: windows-sdk-content
 description: Implement this callback if you call the EvtSubscribe function to receive events that match your query.
 old-location: wes\evt_subscribe_callback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.GetCachedPropertyValue
-title: IUIAutomationElement::GetCachedPropertyValue
+title: IUIAutomationElement::GetCachedPropertyValue (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a property value from the cache for this UI Automation element.
 old-location: winauto\uiauto_IUIAutomationElement_GetCachedPropertyValue.htm

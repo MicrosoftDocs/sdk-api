@@ -1,6 +1,6 @@
 ---
 UID: NN:mfobjects.IMFAudioMediaType
-title: IMFAudioMediaType
+title: IMFAudioMediaType (mfobjects.h)
 author: windows-sdk-content
 description: IMFAudioMediaType is no longer available for use as of Windows 7.
 old-location: mf\imfaudiomediatype.htm

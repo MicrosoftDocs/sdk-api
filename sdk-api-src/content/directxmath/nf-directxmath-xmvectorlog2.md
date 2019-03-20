@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorLog2
-title: XMVectorLog2 function
+title: XMVectorLog2 function (directxmath.h)
 author: windows-sdk-content
 description: Computes the base two logarithm of each component of a vector.
 old-location: dxmath\xmvectorlog2.htm

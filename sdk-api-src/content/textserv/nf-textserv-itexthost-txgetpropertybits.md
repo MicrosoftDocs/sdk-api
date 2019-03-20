@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxGetPropertyBits
-title: ITextHost::TxGetPropertyBits
+title: ITextHost::TxGetPropertyBits (textserv.h)
 author: windows-sdk-content
 description: Requests the bit property settings for the text host.
 old-location: controls\ITextHost_TxGetPropertyBits.htm

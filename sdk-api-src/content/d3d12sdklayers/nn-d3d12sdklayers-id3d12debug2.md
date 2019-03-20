@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12sdklayers.ID3D12Debug2
-title: ID3D12Debug2
+title: ID3D12Debug2 (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Adds configurable levels of GPU-Based Validation to the debug layer.
 old-location: direct3d12\id3d12debug2.htm

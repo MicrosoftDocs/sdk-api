@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_VOLUME_GET_GPT_ATTRIBUTES
-title: IOCTL_VOLUME_GET_GPT_ATTRIBUTES
+title: IOCTL_VOLUME_GET_GPT_ATTRIBUTES (winioctl.h)
 author: windows-sdk-content
 description: Retrieves the attributes for a volume.
 old-location: fs\ioctl_volume_get_gpt_attributes.htm

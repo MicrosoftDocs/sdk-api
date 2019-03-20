@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IExecuteCommand
-title: IExecuteCommand
+title: IExecuteCommand (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that set a given state or parameter related to the command verb, as well as a method to invoke that verb.
 old-location: shell\IExecuteCommand.htm

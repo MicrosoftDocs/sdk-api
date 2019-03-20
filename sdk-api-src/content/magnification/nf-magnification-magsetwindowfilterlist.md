@@ -1,6 +1,6 @@
 ---
 UID: NF:magnification.MagSetWindowFilterList
-title: MagSetWindowFilterList function
+title: MagSetWindowFilterList function (magnification.h)
 author: windows-sdk-content
 description: Sets the list of windows to be magnified or the list of windows to be excluded from magnification.
 old-location: magapi\magapi_MagSetWindowFilterList.htm

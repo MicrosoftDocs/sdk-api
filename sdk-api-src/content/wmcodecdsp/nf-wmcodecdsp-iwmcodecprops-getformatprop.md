@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecProps.GetFormatProp
-title: IWMCodecProps::GetFormatProp
+title: IWMCodecProps::GetFormatProp (wmcodecdsp.h)
 author: windows-sdk-content
 description: Retrieves a format property for an output media type. Use this method to get information about enumerated audio formats.
 old-location: mf\iwmcodecpropsgetformatprop.htm

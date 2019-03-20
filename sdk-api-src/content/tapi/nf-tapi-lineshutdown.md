@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineShutdown
-title: lineShutdown function
+title: lineShutdown function (tapi.h)
 author: windows-sdk-content
 description: The lineShutdown function shuts down the application's usage of the line abstraction of the API.
 old-location: tapi2\lineshutdown.htm

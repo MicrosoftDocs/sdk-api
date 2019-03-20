@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Header_SetOrderArray
-title: Header_SetOrderArray macro
+title: Header_SetOrderArray macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the left-to-right order of header items. You can use this macro or send the HDM_SETORDERARRAY message explicitly.
 old-location: controls\Header_SetOrderArray.htm

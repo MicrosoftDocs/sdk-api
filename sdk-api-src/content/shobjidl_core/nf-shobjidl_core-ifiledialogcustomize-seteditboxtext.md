@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.SetEditBoxText
-title: IFileDialogCustomize::SetEditBoxText
+title: IFileDialogCustomize::SetEditBoxText (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the text in an edit box control found in the dialog.
 old-location: shell\IFileDialogCustomize_SetEditBoxText.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_VIDEO_PROCESSOR_AUTO_STREAM_CAPS
-title: D3D11_VIDEO_PROCESSOR_AUTO_STREAM_CAPS
+title: D3D11_VIDEO_PROCESSOR_AUTO_STREAM_CAPS (d3d11.h)
 author: windows-sdk-content
 description: Specifies the automatic image processing capabilities of the video processor.
 old-location: mf\d3d11_video_processor_auto_stream_caps.htm

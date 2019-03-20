@@ -1,6 +1,6 @@
 ---
 UID: NS:wcmapi._WCM_USAGE_DATA
-title: WCM_USAGE_DATA
+title: WCM_USAGE_DATA (wcmapi.h)
 author: windows-sdk-content
 description: Contains information related to connection usage.
 old-location: wcm\wcm_usage_data.htm

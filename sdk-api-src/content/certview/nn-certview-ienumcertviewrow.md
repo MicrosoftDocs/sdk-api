@@ -1,6 +1,6 @@
 ---
 UID: NN:certview.IEnumCERTVIEWROW
-title: IEnumCERTVIEWROW
+title: IEnumCERTVIEWROW (certview.h)
 author: windows-sdk-content
 description: Represents a row-enumeration sequence that contains the data in the rows of the Certificate Services view, allowing further access to the columns, attributes, and extensions associated with each row.
 old-location: security\ienumcertviewrow.htm

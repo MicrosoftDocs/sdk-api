@@ -1,6 +1,6 @@
 ---
 UID: NE:interactioncontext.INERTIA_PARAMETER
-title: INERTIA_PARAMETER
+title: INERTIA_PARAMETER (interactioncontext.h)
 author: windows-sdk-content
 description: Specifies the inertia values for a manipulation (translation, rotation, scaling).
 old-location: input_intcontext\inertia_parameter.htm

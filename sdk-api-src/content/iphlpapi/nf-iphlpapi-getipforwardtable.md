@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.GetIpForwardTable
-title: GetIpForwardTable function
+title: GetIpForwardTable function (iphlpapi.h)
 author: windows-sdk-content
 description: The GetIpForwardTable function retrieves the IPv4 routing table.
 old-location: iphlp\getipforwardtable.htm

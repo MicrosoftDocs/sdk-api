@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardUIDlgSelectCardW
-title: SCardUIDlgSelectCardW function
+title: SCardUIDlgSelectCardW function (winscard.h)
 author: windows-sdk-content
 description: Displays the smart card Select Card dialog box.
 old-location: security\scarduidlgselectcard.htm

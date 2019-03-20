@@ -1,6 +1,6 @@
 ---
 UID: NS:filtereg._FILTERED_DATA_SOURCES
-title: FILTERED_DATA_SOURCES
+title: FILTERED_DATA_SOURCES (filtereg.h)
 author: windows-sdk-content
 description: Specifies parameters for a Shell data source for which a filter is loaded.
 old-location: search\filtered_data_sources.htm

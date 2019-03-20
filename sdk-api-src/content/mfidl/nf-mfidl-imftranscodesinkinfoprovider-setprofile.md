@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTranscodeSinkInfoProvider.SetProfile
-title: IMFTranscodeSinkInfoProvider::SetProfile
+title: IMFTranscodeSinkInfoProvider::SetProfile (mfidl.h)
 author: windows-sdk-content
 description: Sets the transcoding profile on the transcode sink activation object.
 old-location: mf\imftranscodesinkinfoprovider_setprofile.htm

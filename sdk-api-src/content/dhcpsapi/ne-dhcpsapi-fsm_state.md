@@ -1,6 +1,6 @@
 ---
 UID: NE:dhcpsapi._FSM_STATE
-title: FSM_STATE
+title: FSM_STATE (dhcpsapi.h)
 author: windows-sdk-content
 description: The FSM_STATE enumeration defines the set of possible failover relationship states on a DHCPv4 server.
 old-location: dhcp\fsm_state.htm

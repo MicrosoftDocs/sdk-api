@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.ICertAdmin2.GetMyRoles
-title: ICertAdmin2::GetMyRoles
+title: ICertAdmin2::GetMyRoles (certadm.h)
 author: windows-sdk-content
 description: Retrieves the certification authority (CA) roles of the caller.
 old-location: security\icertadmin2_getmyroles.htm

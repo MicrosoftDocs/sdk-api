@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._USER_INFO_1052
-title: USER_INFO_1052
+title: USER_INFO_1052 (lmaccess.h)
 author: windows-sdk-content
 description: The USER_INFO_1052 structure contains the path to a network user's profile. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1052_str.htm

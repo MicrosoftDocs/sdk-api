@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineGetTranslateCapsW
-title: lineGetTranslateCapsW function
+title: lineGetTranslateCapsW function (tapi.h)
 author: windows-sdk-content
 description: The lineGetTranslateCaps function returns address translation capabilities.
 old-location: tapi2\linegettranslatecaps.htm

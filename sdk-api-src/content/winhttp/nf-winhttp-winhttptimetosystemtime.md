@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpTimeToSystemTime
-title: WinHttpTimeToSystemTime function
+title: WinHttpTimeToSystemTime function (winhttp.h)
 author: windows-sdk-content
 description: The WinHttpTimeToSystemTime function takes an HTTP time/date string and converts it to a SYSTEMTIME structure.
 old-location: http\winhttptimetosystemtime.htm

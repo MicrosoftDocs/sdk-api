@@ -1,6 +1,6 @@
 ---
 UID: NF:aux_ulib.AuxUlibIsDLLSynchronizationHeld
-title: AuxUlibIsDLLSynchronizationHeld function
+title: AuxUlibIsDLLSynchronizationHeld function (aux_ulib.h)
 author: windows-sdk-content
 description: Determines whether the caller is holding a synchronization primitive.
 old-location: winprog\auxulibisdllsynchronizationheld.htm

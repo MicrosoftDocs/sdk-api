@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceEvents.OnReadyStateChange
-title: IMbnInterfaceEvents::OnReadyStateChange
+title: IMbnInterfaceEvents::OnReadyStateChange (mbnapi.h)
 author: windows-sdk-content
 description: This notification method is called by the Mobile Broadband service to indicate a change in an interface's ready state.
 old-location: mbn\imbninterfaceevents_onreadystatechange.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.PLACEHOLDER_STATES
-title: PLACEHOLDER_STATES
+title: PLACEHOLDER_STATES (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies the states that a placeholder file can have. Retrieve this value through the System.FilePlaceholderStatus (PKEY_FilePlaceholderStatus) property.
 old-location: properties\PLACEHOLDER_STATES.htm

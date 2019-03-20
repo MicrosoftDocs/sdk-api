@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinition2.get_ValueDefinitions
-title: IFsrmPropertyDefinition2::get_ValueDefinitions
+title: IFsrmPropertyDefinition2::get_ValueDefinitions (fsrmpipeline.h)
 author: windows-sdk-content
 description: This property contains the possible value definitions of the property definition.
 old-location: fsrm\ifsrmpropertydefinition2_valuedefinitions.htm

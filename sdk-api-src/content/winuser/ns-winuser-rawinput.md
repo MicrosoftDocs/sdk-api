@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagRAWINPUT
-title: RAWINPUT
+title: RAWINPUT (winuser.h)
 author: windows-sdk-content
 description: Contains the raw input from a device.
 old-location: inputdev\rawinput.htm

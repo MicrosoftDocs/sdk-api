@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.get_MediaTypes
-title: ITPluggableTerminalClassRegistration::get_MediaTypes
+title: ITPluggableTerminalClassRegistration::get_MediaTypes (termmgr.h)
 author: windows-sdk-content
 description: The get_MediaTypes method gets the media types supported by the terminal.
 old-location: tapi3\itpluggableterminalclassregistration_get_mediatypes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_NBIT.GetRecordInformationId
-title: IISDB_NBIT::GetRecordInformationId
+title: IISDB_NBIT::GetRecordInformationId (dvbsiparser.h)
 author: windows-sdk-content
 description: an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
 old-location: mstv\iisdb_nbit_getrecordinformationid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10V3.get_EncryptionStrength
-title: IX509CertificateRequestPkcs10V3::get_EncryptionStrength
+title: IX509CertificateRequestPkcs10V3::get_EncryptionStrength (certenroll.h)
 author: windows-sdk-content
 description: Identifies the bit length for the EncryptionAlgorithm to use for encryption. If the EncryptionAlgorithm only supports one bit length, then you do not need to specify a value for the EncryptionStrength property.
 old-location: security\ix509certificaterequestpkcs10v3_encryptionstrength.htm

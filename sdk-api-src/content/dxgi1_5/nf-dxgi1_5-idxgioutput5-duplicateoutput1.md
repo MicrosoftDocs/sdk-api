@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_5.IDXGIOutput5.DuplicateOutput1
-title: IDXGIOutput5::DuplicateOutput1
+title: IDXGIOutput5::DuplicateOutput1 (dxgi1_5.h)
 author: windows-sdk-content
 description: Allows specifying a list of supported formats for fullscreen surfaces that can be returned by the IDXGIOutputDuplication object.
 old-location: direct3ddxgi\idxgioutput5_duplicateoutput1.htm

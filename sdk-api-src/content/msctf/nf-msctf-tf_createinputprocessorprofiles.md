@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.TF_CreateInputProcessorProfiles
-title: TF_CreateInputProcessorProfiles function
+title: TF_CreateInputProcessorProfiles function (msctf.h)
 author: windows-sdk-content
 description: The TF_CreateInputProcessorProfiles function is used to create a input processor profile object without having to initialize COM.
 old-location: tsf\tf_createinputprocessorprofiles.htm

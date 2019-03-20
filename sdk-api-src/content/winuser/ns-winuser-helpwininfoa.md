@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagHELPWININFOA
-title: HELPWININFOA
+title: HELPWININFOA (winuser.h)
 author: windows-sdk-content
 description: Contains the size and position of either a primary or secondary Help window. An application can set this information by calling the WinHelp function with the HELP_SETWINPOS value.
 old-location: shell\HELPWININFO_str.htm

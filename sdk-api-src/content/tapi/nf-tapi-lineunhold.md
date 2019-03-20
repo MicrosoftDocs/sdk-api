@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineUnhold
-title: lineUnhold function
+title: lineUnhold function (tapi.h)
 author: windows-sdk-content
 description: The lineUnhold function retrieves the specified held call.
 old-location: tapi2\lineunhold.htm

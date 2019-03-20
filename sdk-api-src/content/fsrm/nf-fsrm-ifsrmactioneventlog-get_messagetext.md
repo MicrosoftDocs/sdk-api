@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmActionEventLog.get_MessageText
-title: IFsrmActionEventLog::get_MessageText
+title: IFsrmActionEventLog::get_MessageText (fsrm.h)
 author: windows-sdk-content
 description: Retrieves or sets the event text that is logged when the action runs.
 old-location: fsrm\ifsrmactioneventlog_messagetext.htm

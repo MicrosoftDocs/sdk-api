@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.ValidateDevice
-title: IDirect3DDevice9::ValidateDevice
+title: IDirect3DDevice9::ValidateDevice (d3d9helper.h)
 author: windows-sdk-content
 description: Reports the device's ability to render the current texture-blending operations and arguments in a single pass.
 old-location: direct3d9\idirect3ddevice9__validatedevice.htm

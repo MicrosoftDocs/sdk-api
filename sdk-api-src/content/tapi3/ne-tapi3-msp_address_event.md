@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3.__MIDL___MIDL_itf_tapi3_0000_0018_0001
-title: MSP_ADDRESS_EVENT
+title: MSP_ADDRESS_EVENT (tapi3.h)
 author: windows-sdk-content
 description: The MSP_ADDRESS_EVENT constant is returned within the MSP_EVENT_INFO struct by the GetEvent method when MSP_EVENT is ME_ADDRESS_EVENT.
 old-location: tapi3\msp_address_event.htm

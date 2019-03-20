@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineGetIconA
-title: lineGetIconA function
+title: lineGetIconA function (tapi.h)
 author: windows-sdk-content
 description: The lineGetIcon function allows an application to retrieve a service line device-specific (or provider-specific) icon for display to the user.
 old-location: tapi2\linegeticon.htm

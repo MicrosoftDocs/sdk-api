@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetMainComponentFlag
-title: IIsdbAudioComponentDescriptor::GetMainComponentFlag
+title: IIsdbAudioComponentDescriptor::GetMainComponentFlag (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets a flag from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor that indicates whether the audio component is the main audio.
 old-location: mstv\iisdbaudiocomponentdescriptor_getmaincomponentflag.htm

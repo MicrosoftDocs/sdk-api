@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientSettings.RetrieveSettings
-title: IRemoteDesktopClientSettings::RetrieveSettings
+title: IRemoteDesktopClientSettings::RetrieveSettings (rdpappcontainerclient.h)
 author: windows-sdk-content
 description: Retrieves the entire RDP file as a string.
 old-location: termserv\iremotedesktopclientsettings_retrievesettings.htm

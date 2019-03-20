@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemPropertyProvider.GetProperty
-title: IWbemPropertyProvider::GetProperty
+title: IWbemPropertyProvider::GetProperty (wbemprov.h)
 author: windows-sdk-content
 description: The IWbemPropertyProvider::GetProperty method is called by Windows Management to retrieve an individual property value.
 old-location: wmi\iwbempropertyprovider_getproperty.htm

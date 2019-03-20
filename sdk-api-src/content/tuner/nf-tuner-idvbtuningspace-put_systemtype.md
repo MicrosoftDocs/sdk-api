@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBTuningSpace.put_SystemType
-title: IDVBTuningSpace::put_SystemType
+title: IDVBTuningSpace::put_SystemType (tuner.h)
 author: windows-sdk-content
 description: The put_SystemType method sets the system type.
 old-location: mstv\idvbtuningspace_put_systemtype.htm

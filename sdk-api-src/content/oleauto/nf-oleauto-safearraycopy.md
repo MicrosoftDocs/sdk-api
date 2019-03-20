@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.SafeArrayCopy
-title: SafeArrayCopy function
+title: SafeArrayCopy function (oleauto.h)
 author: windows-sdk-content
 description: Creates a copy of an existing safe array.
 old-location: automat\safearraycopy.htm

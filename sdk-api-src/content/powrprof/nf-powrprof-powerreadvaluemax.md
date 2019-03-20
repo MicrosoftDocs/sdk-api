@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerReadValueMax
-title: PowerReadValueMax function
+title: PowerReadValueMax function (powrprof.h)
 author: windows-sdk-content
 description: Retrieves the maximum value for the specified power setting.
 old-location: base\powerreadvaluemax.htm

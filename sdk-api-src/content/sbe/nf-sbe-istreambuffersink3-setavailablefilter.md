@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferSink3.SetAvailableFilter
-title: IStreamBufferSink3::SetAvailableFilter
+title: IStreamBufferSink3::SetAvailableFilter (sbe.h)
 author: windows-sdk-content
 description: The SetAvailableFilter method limits how far the Stream Buffer Source filter can seek backward, relative to the current recording position.
 old-location: mstv\istreambuffersink3_setavailablefilter.htm

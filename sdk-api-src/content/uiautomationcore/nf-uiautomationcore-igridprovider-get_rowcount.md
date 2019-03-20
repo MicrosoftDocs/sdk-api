@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IGridProvider.get_RowCount
-title: IGridProvider::get_RowCount
+title: IGridProvider::get_RowCount (uiautomationcore.h)
 author: windows-sdk-content
 description: Specifies the total number of rows in the grid.
 old-location: winauto\uiauto_IGridProvider_RowCount.htm

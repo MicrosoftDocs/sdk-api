@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_GetNumberOption
-title: MI_Context_GetNumberOption function
+title: MI_Context_GetNumberOption function (mi.h)
 author: windows-sdk-content
 description: Gets the numeric option that the client sets, based on the operation name.
 old-location: wmi_v2\mi_context_getnumberoption.htm

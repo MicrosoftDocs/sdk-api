@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsFreeServiceHost
-title: WsFreeServiceHost function
+title: WsFreeServiceHost function (webservices.h)
 author: windows-sdk-content
 description: Releases the memory associated with a Service Host object.
 old-location: wsw\wsfreeservicehost.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsIscsiTarget.GetConnectedInitiators
-title: IVdsIscsiTarget::GetConnectedInitiators
+title: IVdsIscsiTarget::GetConnectedInitiators (vds.h)
 author: windows-sdk-content
 description: Returns the list of iSCSI names of the initiators currently logged into the target.
 old-location: base\ivdsiscsitarget_getconnectedinitiators.htm

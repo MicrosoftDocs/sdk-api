@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.ITextInputPanelRunInfo.IsTipRunning
-title: ITextInputPanelRunInfo::IsTipRunning
+title: ITextInputPanelRunInfo::IsTipRunning (peninputpanel.h)
 author: windows-sdk-content
 description: Indicates if the Tablet PC Input Panel is running at the time the method is called.
 old-location: tablet\itextinputpanelruninfo_istiprunning.htm

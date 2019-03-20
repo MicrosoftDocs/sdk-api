@@ -1,6 +1,6 @@
 ---
 UID: NF:exdisp.IWebBrowser2.put_TheaterMode
-title: IWebBrowser2::put_TheaterMode
+title: IWebBrowser2::put_TheaterMode (exdisp.h)
 author: windows-sdk-content
 description: Sets or gets whether the object is in theater mode.
 old-location: winprog\iwebbrowser2_theatermode.htm

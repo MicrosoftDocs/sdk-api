@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._SET_DISK_ATTRIBUTES
-title: SET_DISK_ATTRIBUTES
+title: SET_DISK_ATTRIBUTES (winioctl.h)
 author: windows-sdk-content
 description: Specifies the attributes to be set on a disk device.
 old-location: fs\set_disk_attributes.htm

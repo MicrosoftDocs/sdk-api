@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.PreMoveItem
-title: IFileOperationProgressSink::PreMoveItem
+title: IFileOperationProgressSink::PreMoveItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Performs caller-implemented actions before the move process for each item begins.
 old-location: shell\IFileOperationProgressSink_PreMoveItem.htm

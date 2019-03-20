@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptGetProperty
-title: BCryptGetProperty function
+title: BCryptGetProperty function (bcrypt.h)
 author: windows-sdk-content
 description: Retrieves the value of a named property for a CNG object.
 old-location: security\bcryptgetproperty_func.htm

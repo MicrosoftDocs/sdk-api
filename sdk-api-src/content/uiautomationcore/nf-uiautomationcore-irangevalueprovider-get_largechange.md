@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IRangeValueProvider.get_LargeChange
-title: IRangeValueProvider::get_LargeChange
+title: IRangeValueProvider::get_LargeChange (uiautomationcore.h)
 author: windows-sdk-content
 description: Specifies the value that is added to or subtracted from the IRangeValueProvider::Value property when a large change is made, such as when the PAGE DOWN key is pressed.
 old-location: winauto\uiauto_IRangeValueProvider_LargeChange.htm

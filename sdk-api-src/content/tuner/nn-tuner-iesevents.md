@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IESEvents
-title: IESEvents
+title: IESEvents (tuner.h)
 author: windows-sdk-content
 description: Implements event handling for devices that have registered to receive specific events derived from the IESEvent interface.
 old-location: mstv\iesevents.htm

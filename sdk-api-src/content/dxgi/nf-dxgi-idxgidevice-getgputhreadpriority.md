@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIDevice.GetGPUThreadPriority
-title: IDXGIDevice::GetGPUThreadPriority
+title: IDXGIDevice::GetGPUThreadPriority (dxgi.h)
 author: windows-sdk-content
 description: Gets the GPU thread priority.
 old-location: direct3ddxgi\idxgidevice_getgputhreadpriority.htm

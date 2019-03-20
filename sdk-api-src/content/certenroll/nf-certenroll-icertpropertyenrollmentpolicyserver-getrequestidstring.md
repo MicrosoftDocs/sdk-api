@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollmentPolicyServer.GetRequestIdString
-title: ICertPropertyEnrollmentPolicyServer::GetRequestIdString
+title: ICertPropertyEnrollmentPolicyServer::GetRequestIdString (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a unique string identifier for the certificate request sent to the certification authority during enrollment.
 old-location: security\icertpropertyenrollmentpolicyserver_getrequestidstring.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupQuerySourceListW
-title: SetupQuerySourceListW function
+title: SetupQuerySourceListW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupQuerySourceList function queries the current list of installation sources. The list is built from the system and user-specific lists, and potentially overridden by a temporary list (see SetupSetSourceList).
 old-location: setup\setupquerysourcelist.htm

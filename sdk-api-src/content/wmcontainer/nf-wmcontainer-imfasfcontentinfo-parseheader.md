@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFContentInfo.ParseHeader
-title: IMFASFContentInfo::ParseHeader
+title: IMFASFContentInfo::ParseHeader (wmcontainer.h)
 author: windows-sdk-content
 description: Parses the information in an ASF header and uses that information to set values in the ContentInfo object. You can pass the entire header in a single buffer or send it in several pieces.
 old-location: mf\imfasfcontentinfo_parseheader.htm

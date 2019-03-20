@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_SET_TARGET_PERSISTENCE
-title: DISPLAYCONFIG_SET_TARGET_PERSISTENCE
+title: DISPLAYCONFIG_SET_TARGET_PERSISTENCE (wingdi.h)
 author: windows-sdk-content
 description: The DISPLAYCONFIG_SET_TARGET_PERSISTENCE structure contains information about setting the display.
 old-location: display\displayconfig_set_target_persistence.htm

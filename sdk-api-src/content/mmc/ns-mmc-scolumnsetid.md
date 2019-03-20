@@ -1,6 +1,6 @@
 ---
 UID: NS:mmc._SColumnSetID
-title: SColumnSetID
+title: SColumnSetID (mmc.h)
 author: windows-sdk-content
 description: The SColumnSetID structure is introduced in MMC 1.2.
 old-location: mmc\scolumnsetid.htm

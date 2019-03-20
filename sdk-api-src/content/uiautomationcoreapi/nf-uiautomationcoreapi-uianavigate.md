@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.UiaNavigate
-title: UiaNavigate function
+title: UiaNavigate function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Navigates in the UI Automation tree, optionally retrieving cached information.
 old-location: winauto\uiauto_UiaNavigateAutoMeth.htm

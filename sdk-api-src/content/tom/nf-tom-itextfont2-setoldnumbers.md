@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.SetOldNumbers
-title: ITextFont2::SetOldNumbers
+title: ITextFont2::SetOldNumbers (tom.h)
 author: windows-sdk-content
 description: Sets whether old-style numbers are active.
 old-location: controls\itextfont2_setoldnumbers.htm

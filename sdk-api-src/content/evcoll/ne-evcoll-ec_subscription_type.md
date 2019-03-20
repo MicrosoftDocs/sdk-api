@@ -1,6 +1,6 @@
 ---
 UID: NE:evcoll._EC_SUBSCRIPTION_TYPE
-title: EC_SUBSCRIPTION_TYPE
+title: EC_SUBSCRIPTION_TYPE (evcoll.h)
 author: windows-sdk-content
 description: Specifies the type of subscription to use (a source initiated or collector initiated subscription).
 old-location: wec\ec_subscription_type.htm

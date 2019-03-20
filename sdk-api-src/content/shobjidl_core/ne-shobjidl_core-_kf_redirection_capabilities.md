@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core._KF_REDIRECTION_CAPABILITIES
-title: "_KF_REDIRECTION_CAPABILITIES"
+title: "_KF_REDIRECTION_CAPABILITIES" (shobjidl_core.h)
 author: windows-sdk-content
 description: Flags that specify the current redirection capabilities of a known folder. Used by IKnownFolder::GetRedirectionCapabilities.
 old-location: shell\KF_REDIRECTION_CAPABILITIES.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLIENT_FILTER_STATUS_INFO
-title: DHCP_CLIENT_FILTER_STATUS_INFO
+title: DHCP_CLIENT_FILTER_STATUS_INFO (dhcpsapi.h)
 author: windows-sdk-content
 description: Defines information about the DHCPv4 client, including filter status information.
 old-location: dhcp\dhcp_client_filter_status_info.htm

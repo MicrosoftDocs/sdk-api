@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMQuaternionIsInfinite
-title: XMQuaternionIsInfinite function
+title: XMQuaternionIsInfinite function (directxmath.h)
 author: windows-sdk-content
 description: Test whether any component of a quaternion is either positive or negative infinity.
 old-location: dxmath\xmquaternionisinfinite.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:iprtrmib._TCP_TABLE_CLASS
-title: TCP_TABLE_CLASS
+title: TCP_TABLE_CLASS (iprtrmib.h)
 author: windows-sdk-content
 description: Defines the set of values used to indicate the type of table returned by calls to GetExtendedTcpTable.
 old-location: iphlp\tcp_table_class.htm

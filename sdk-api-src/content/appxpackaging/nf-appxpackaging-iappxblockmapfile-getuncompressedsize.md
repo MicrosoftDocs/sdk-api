@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapFile.GetUncompressedSize
-title: IAppxBlockMapFile::GetUncompressedSize
+title: IAppxBlockMapFile::GetUncompressedSize (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves the uncompressed size of the associated zip file item.
 old-location: appxpkg\iappxblockmapfile_getuncompressedsize.htm

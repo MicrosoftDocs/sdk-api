@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs7.InitializeFromCertificate
-title: IX509CertificateRequestPkcs7::InitializeFromCertificate
+title: IX509CertificateRequestPkcs7::InitializeFromCertificate (certenroll.h)
 author: windows-sdk-content
 description: Initializes the certificate request by using an existing certificate.
 old-location: security\ix509certificaterequestpkcs7_initializefromcertificate_method.htm

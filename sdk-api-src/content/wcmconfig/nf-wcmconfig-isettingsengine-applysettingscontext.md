@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.ApplySettingsContext
-title: ISettingsEngine::ApplySettingsContext
+title: ISettingsEngine::ApplySettingsContext (wcmconfig.h)
 author: windows-sdk-content
 description: Applies a settings context.
 old-location: smi\isettingsengine_applysettingscontext.htm

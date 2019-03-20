@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IAnalogLocator
-title: IAnalogLocator
+title: IAnalogLocator (tuner.h)
 author: windows-sdk-content
 description: The IAnalogLocator interface provides tuning information for an analog television network.
 old-location: mstv\ianaloglocator.htm

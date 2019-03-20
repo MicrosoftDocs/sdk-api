@@ -1,6 +1,6 @@
 ---
 UID: NE:compressapi.__unnamed_enum_0
-title: COMPRESS_INFORMATION_CLASS
+title: COMPRESS_INFORMATION_CLASS (compressapi.h)
 author: windows-sdk-content
 description: The values of this enumeration identify the type of information class being set or retrieved.
 old-location: cmpapi\compress_information_class.htm

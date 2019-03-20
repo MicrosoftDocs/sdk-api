@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICJpegIndexingOptions
-title: WICJpegIndexingOptions
+title: WICJpegIndexingOptions (wincodec.h)
 author: windows-sdk-content
 description: Specifies the options for indexing a JPEG image.
 old-location: wic\wicjpegindexingoptions.htm

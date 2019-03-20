@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponents.put_Item
-title: IComponents::put_Item
+title: IComponents::put_Item (tuner.h)
 author: windows-sdk-content
 description: The put_Item method inserts a component into the collection, replacing the item that is identified by the specified index.
 old-location: mstv\icomponents_put_item.htm

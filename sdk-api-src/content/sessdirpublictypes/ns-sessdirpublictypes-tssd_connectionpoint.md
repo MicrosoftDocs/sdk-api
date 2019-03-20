@@ -1,6 +1,6 @@
 ---
 UID: NS:sessdirpublictypes.__MIDL___MIDL_itf_sessdirpublictypes_0000_0000_0002
-title: TSSD_ConnectionPoint
+title: TSSD_ConnectionPoint (sessdirpublictypes.h)
 author: windows-sdk-content
 description: Defines the IP address of a target.
 old-location: termserv\tssd_connectionpoint.htm

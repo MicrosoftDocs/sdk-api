@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetDpiY
-title: Graphics::GetDpiY
+title: Graphics::GetDpiY (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::GetDpiY method gets the vertical resolution, in dots per inch, of the display device associated with this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetDpiY_.htm

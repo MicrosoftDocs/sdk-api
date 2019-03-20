@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.VMR_ASPECT_RATIO_MODE
-title: VMR_ASPECT_RATIO_MODE
+title: VMR_ASPECT_RATIO_MODE (strmif.h)
 author: windows-sdk-content
 description: The VMR_ASPECT_RATIO_MODE enumeration type describes whether the Video Mixing Renderer Filter 7 preserves the aspect ratio of the source video.
 old-location: dshow\vmr_aspect_ratio_mode.htm

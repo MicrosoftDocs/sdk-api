@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiUseFeatureExW
-title: MsiUseFeatureExW function
+title: MsiUseFeatureExW function (msi.h)
 author: windows-sdk-content
 description: The MsiUseFeatureEx function increments the usage count for a particular feature and indicates the installation state for that feature. This function should be used to indicate an application's intent to use a feature.
 old-location: setup\msiusefeatureex.htm

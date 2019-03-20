@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.CreateRole
-title: IAzApplication::CreateRole
+title: IAzApplication::CreateRole (azroles.h)
 author: windows-sdk-content
 description: Creates an IAzRole object with the specified name.
 old-location: security\iazapplication_createrole.htm

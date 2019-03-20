@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.MFP_GET_ACQUIRE_USER_CREDENTIAL_EVENT
-title: MFP_GET_ACQUIRE_USER_CREDENTIAL_EVENT macro
+title: MFP_GET_ACQUIRE_USER_CREDENTIAL_EVENT macro (mfplay.h)
 author: windows-sdk-content
 description: Casts an MFP_EVENT_HEADER pointer to an MFP_ACQUIRE_USER_CREDENTIAL_EVENT pointer.
 old-location: mf\mfp_get_acquire_user_credential_event.htm

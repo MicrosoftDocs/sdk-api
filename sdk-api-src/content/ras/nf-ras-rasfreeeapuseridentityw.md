@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasFreeEapUserIdentityW
-title: RasFreeEapUserIdentityW function
+title: RasFreeEapUserIdentityW function (ras.h)
 author: windows-sdk-content
 description: Use the RasFreeEapUserIdentity function to free the memory buffer returned by RasGetEapUserIdentity.
 old-location: rras\rasfreeeapuseridentity.htm

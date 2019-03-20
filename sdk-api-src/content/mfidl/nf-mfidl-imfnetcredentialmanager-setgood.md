@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFNetCredentialManager.SetGood
-title: IMFNetCredentialManager::SetGood
+title: IMFNetCredentialManager::SetGood (mfidl.h)
 author: windows-sdk-content
 description: Specifies whether the user's credentials succeeded in the authentication challenge. The network source calls this method to informs the application whether the user's credentials were authenticated.
 old-location: mf\imfnetcredentialmanager_setgood.htm

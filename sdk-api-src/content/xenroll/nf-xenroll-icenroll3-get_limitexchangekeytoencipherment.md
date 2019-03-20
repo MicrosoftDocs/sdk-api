@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll3.get_LimitExchangeKeyToEncipherment
-title: ICEnroll3::get_LimitExchangeKeyToEncipherment
+title: ICEnroll3::get_LimitExchangeKeyToEncipherment (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves a Boolean value that determines whether an AT_KEYEXCHANGE request contains digital signature and nonrepudiation key usages.
 old-location: security\icenroll4_limitexchangekeytoencipherment.htm

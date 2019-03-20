@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPSkinManager
-title: IWMPSkinManager
+title: IWMPSkinManager (wmp.h)
 author: windows-sdk-content
 description: The IWMPSkinManager interface provides a method used to synchronize the current skin with the current desktop theme in Microsoft Windows XP.
 old-location: wmp\iwmpskinmanager.htm

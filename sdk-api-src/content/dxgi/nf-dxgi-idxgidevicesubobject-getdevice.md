@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIDeviceSubObject.GetDevice
-title: IDXGIDeviceSubObject::GetDevice
+title: IDXGIDeviceSubObject::GetDevice (dxgi.h)
 author: windows-sdk-content
 description: Retrieves the device.
 old-location: direct3ddxgi\idxgidevicesubobject_getdevice.htm

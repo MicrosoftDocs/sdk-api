@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Class_GetElementCount
-title: MI_Class_GetElementCount function
+title: MI_Class_GetElementCount function (mi.h)
 author: windows-sdk-content
 description: Gets the number of elements in a class.
 old-location: wmi_v2\mi_class_getelementcount.htm

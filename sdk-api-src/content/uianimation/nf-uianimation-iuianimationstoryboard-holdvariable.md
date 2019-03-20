@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.HoldVariable
-title: IUIAnimationStoryboard::HoldVariable
+title: IUIAnimationStoryboard::HoldVariable (uianimation.h)
 author: windows-sdk-content
 description: Directs the storyboard to hold the specified animation variable at its final value until the storyboard ends.
 old-location: uianimation\iuianimationstoryboard_holdvariable.htm

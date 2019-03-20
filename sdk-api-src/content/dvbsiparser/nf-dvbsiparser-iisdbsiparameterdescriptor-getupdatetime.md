@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbSIParameterDescriptor.GetUpdateTime
-title: IIsdbSIParameterDescriptor::GetUpdateTime
+title: IIsdbSIParameterDescriptor::GetUpdateTime (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the time at which a parameter becomes valid from a service information (SI) parameter descriptor.
 old-location: mstv\iisdbsiparameterdescriptor_getupdatetime.htm

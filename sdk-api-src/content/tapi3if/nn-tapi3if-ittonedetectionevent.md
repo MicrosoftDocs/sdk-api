@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITToneDetectionEvent
-title: ITToneDetectionEvent
+title: ITToneDetectionEvent (tapi3if.h)
 author: windows-sdk-content
 description: The ITToneDetectionEvent interface exposes methods that allow an application to retrieve information about a tone detection event.
 old-location: tapi3\ittonedetectionevent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStreamBuffer.put_Context
-title: IRDPSRAPITransportStreamBuffer::put_Context
+title: IRDPSRAPITransportStreamBuffer::put_Context (rdpencomapi.h)
 author: windows-sdk-content
 description: This property is reserved for use by the Remote Desktop Protocol (RDP) stack. Do not modify it.
 old-location: rdp\irdpsrapitransportstreambuffer_context.htm

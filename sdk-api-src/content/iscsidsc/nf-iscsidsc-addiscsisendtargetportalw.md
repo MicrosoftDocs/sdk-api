@@ -1,6 +1,6 @@
 ---
 UID: NF:iscsidsc.AddIScsiSendTargetPortalW
-title: AddIScsiSendTargetPortalW function
+title: AddIScsiSendTargetPortalW function (iscsidsc.h)
 author: windows-sdk-content
 description: AddIscsiSendTargetPortal function adds a static target portal to the list of target portals to which the iSCSI initiator service transmits SendTargets requests.
 old-location: iscsidisc\addiscsisendtargetportal.htm

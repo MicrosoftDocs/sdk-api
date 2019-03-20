@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.IMSCEPSetup.get_MSCEPErrorString
-title: IMSCEPSetup::get_MSCEPErrorString
+title: IMSCEPSetup::get_MSCEPErrorString (casetup.h)
 author: windows-sdk-content
 description: Contains the string data for additional error information related to a failed Network Device Enrollment Service (NDES) specification. Any method call on the parent object resets this property.
 old-location: security\imscepsetup_msceperrorstring.htm

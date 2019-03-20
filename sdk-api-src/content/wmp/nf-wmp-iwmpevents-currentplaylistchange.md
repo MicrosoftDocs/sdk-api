@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.CurrentPlaylistChange
-title: IWMPEvents::CurrentPlaylistChange
+title: IWMPEvents::CurrentPlaylistChange (wmp.h)
 author: windows-sdk-content
 description: The CurrentPlaylistChange event occurs when something changes within the current playlist.
 old-location: wmp\iwmpevents_iwmpevents__currentplaylistchange.htm

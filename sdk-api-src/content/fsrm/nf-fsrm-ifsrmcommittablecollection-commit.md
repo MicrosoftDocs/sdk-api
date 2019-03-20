@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmCommittableCollection.Commit
-title: IFsrmCommittableCollection::Commit
+title: IFsrmCommittableCollection::Commit (fsrm.h)
 author: windows-sdk-content
 description: Commits all the objects of the collection and returns the commit results for each object.
 old-location: fsrm\ifsrmcommittablecollection_commit.htm

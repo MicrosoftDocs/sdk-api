@@ -1,6 +1,6 @@
 ---
 UID: NS:windns.__unnamed_struct_31
-title: DNS_SRV_DATAA
+title: DNS_SRV_DATAA (windns.h)
 author: windows-sdk-content
 description: The DNS_SRV_DATA structure represents a DNS service (SRV) record as specified in RFC 2782.
 old-location: dns\dns_srv_data.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiRecordSetInteger
-title: MsiRecordSetInteger function
+title: MsiRecordSetInteger function (msiquery.h)
 author: windows-sdk-content
 description: Sets a record field to an integer field.
 old-location: setup\msirecordsetinteger.htm

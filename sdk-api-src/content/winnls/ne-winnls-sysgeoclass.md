@@ -1,6 +1,6 @@
 ---
 UID: NE:winnls.SYSGEOCLASS
-title: SYSGEOCLASS
+title: SYSGEOCLASS (winnls.h)
 author: windows-sdk-content
 description: Specifies the geographical location class.
 old-location: intl\sysgeoclass.htm

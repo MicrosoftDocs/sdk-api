@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DResource9.SetPriority
-title: IDirect3DResource9::SetPriority
+title: IDirect3DResource9::SetPriority (d3d9.h)
 author: windows-sdk-content
 description: Assigns the priority of a resource for scheduling purposes.
 old-location: direct3d9\idirect3dresource9__setpriority.htm

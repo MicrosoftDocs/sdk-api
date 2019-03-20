@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilGetEnvironmentWithNetName
-title: ResUtilGetEnvironmentWithNetName function
+title: ResUtilGetEnvironmentWithNetName function (resapi.h)
 author: windows-sdk-content
 description: Adjusts environment data for a resource so that the resource uses a cluster network name to identify its location.
 old-location: mscs\resutilgetenvironmentwithnetname.htm

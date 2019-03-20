@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaTypeHandler.SetCurrentMediaType
-title: IMFMediaTypeHandler::SetCurrentMediaType
+title: IMFMediaTypeHandler::SetCurrentMediaType (mfidl.h)
 author: windows-sdk-content
 description: Sets the object's media type.
 old-location: mf\imfmediatypehandler_setcurrentmediatype.htm

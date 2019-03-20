@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMediaCollection2.getByAttributeAndMediaType
-title: IWMPMediaCollection2::getByAttributeAndMediaType
+title: IWMPMediaCollection2::getByAttributeAndMediaType (wmp.h)
 author: windows-sdk-content
 description: The getByAttributeAndMediaType method retrieves a pointer to an IWMPPlaylist interface. This interface represents a playlist that contains media items that have a specified attribute and media type.
 old-location: wmp\iwmpmediacollection2_getbyattributeandmediatype.htm

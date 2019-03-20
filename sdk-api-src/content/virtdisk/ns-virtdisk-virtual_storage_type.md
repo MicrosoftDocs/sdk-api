@@ -1,6 +1,6 @@
 ---
 UID: NS:virtdisk._VIRTUAL_STORAGE_TYPE
-title: VIRTUAL_STORAGE_TYPE
+title: VIRTUAL_STORAGE_TYPE (virtdisk.h)
 author: windows-sdk-content
 description: Contains the type and provider (vendor) of the virtual storage device.
 old-location: vhd\virtual_storage_type.htm

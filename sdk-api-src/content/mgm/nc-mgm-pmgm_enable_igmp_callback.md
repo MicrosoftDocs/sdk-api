@@ -1,6 +1,6 @@
 ---
 UID: NC:mgm.PMGM_ENABLE_IGMP_CALLBACK
-title: PMGM_ENABLE_IGMP_CALLBACK
+title: PMGM_ENABLE_IGMP_CALLBACK (mgm.h)
 author: windows-sdk-content
 description: The PMGM_ENABLE_IGMP_CALLBACK callback is a call into IGMP to notify it that a routing protocol has finished taking or releasing ownership of an interface.
 old-location: rras\pmgm_enable_igmp_callback.htm

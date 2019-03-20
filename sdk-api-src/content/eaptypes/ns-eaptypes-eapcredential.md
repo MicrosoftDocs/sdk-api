@@ -1,6 +1,6 @@
 ---
 UID: NS:eaptypes._EapCredential
-title: EapCredential
+title: EapCredential (eaptypes.h)
 author: windows-sdk-content
 description: Contains information about the credentials type and the appropriate credentials. This is passed as an input to the EapPeerGetConfigBlobAndUserBlob API.
 old-location: eaphost\eapcredential.htm

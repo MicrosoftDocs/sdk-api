@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core.__unnamed_struct_8
-title: DROPDESCRIPTION
+title: DROPDESCRIPTION (shlobj_core.h)
 author: windows-sdk-content
 description: Describes the image and accompanying text for a drop object.
 old-location: shell\DROPDESCRIPTION.htm

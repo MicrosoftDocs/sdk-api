@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMMatrixRotationY
-title: XMMatrixRotationY function
+title: XMMatrixRotationY function (directxmath.h)
 author: windows-sdk-content
 description: Builds a matrix that rotates around the y-axis.
 old-location: dxmath\xmmatrixrotationy.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certbcli.CertSrvBackupGetDatabaseNamesW
-title: CertSrvBackupGetDatabaseNamesW function
+title: CertSrvBackupGetDatabaseNamesW function (certbcli.h)
 author: windows-sdk-content
 description: Retrieves the list of Certificate Services database file names that need to be backed up for the given backup context.
 old-location: security\certsrvbackupgetdatabasenames.htm

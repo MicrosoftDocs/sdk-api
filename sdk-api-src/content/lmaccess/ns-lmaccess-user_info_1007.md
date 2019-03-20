@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._USER_INFO_1007
-title: USER_INFO_1007
+title: USER_INFO_1007 (lmaccess.h)
 author: windows-sdk-content
 description: The USER_INFO_1007 structure contains a comment associated with a user network account. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1007_str.htm

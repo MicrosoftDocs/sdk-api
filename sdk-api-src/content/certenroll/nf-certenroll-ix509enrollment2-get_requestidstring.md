@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Enrollment2.get_RequestIdString
-title: IX509Enrollment2::get_RequestIdString
+title: IX509Enrollment2::get_RequestIdString (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a string that contains a unique identifier for the certificate request sent to the certification enrollment server (CES).
 old-location: security\ix509enrollment2_requestidstring.htm

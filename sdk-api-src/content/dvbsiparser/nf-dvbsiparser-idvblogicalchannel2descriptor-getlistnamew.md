@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannel2Descriptor.GetListNameW
-title: IDvbLogicalChannel2Descriptor::GetListNameW
+title: IDvbLogicalChannel2Descriptor::GetListNameW (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the name of a channel list from a Digital Video Broadcast (DVB) logical channel descriptor.
 old-location: mstv\idvblogicalchannel2descriptor_getlistnamew.htm

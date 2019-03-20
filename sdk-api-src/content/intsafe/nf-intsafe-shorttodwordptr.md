@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.ShortToDWordPtr
-title: ShortToDWordPtr function
+title: ShortToDWordPtr function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type SHORT to a value of type DWORD_PTR.
 old-location: shell\ShortToDWordPtr.htm

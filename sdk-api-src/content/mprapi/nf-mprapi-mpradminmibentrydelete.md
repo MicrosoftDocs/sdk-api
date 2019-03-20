@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminMIBEntryDelete
-title: MprAdminMIBEntryDelete function
+title: MprAdminMIBEntryDelete function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminMIBEntryDelete function deletes an entry for one of the variables exported by a routing protocol or router manager.
 old-location: rras\mpradminmibentrydelete.htm

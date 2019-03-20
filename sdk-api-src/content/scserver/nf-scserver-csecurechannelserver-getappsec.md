@@ -1,6 +1,6 @@
 ---
 UID: NF:scserver.CSecureChannelServer.GetAppSec
-title: CSecureChannelServer::GetAppSec
+title: CSecureChannelServer::GetAppSec (scserver.h)
 author: windows-sdk-content
 description: The GetAppSec method retrieves the application security levels of the local and remote components. This method is published and available, but normally is used only by Windows Media Device Manager.
 old-location: wmdm\csecurechannelserver_getappsec.htm

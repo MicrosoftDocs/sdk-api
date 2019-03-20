@@ -1,6 +1,6 @@
 ---
 UID: NF:richole.IRichEditOle.SetLinkAvailable
-title: IRichEditOle::SetLinkAvailable
+title: IRichEditOle::SetLinkAvailable (richole.h)
 author: windows-sdk-content
 description: Sets the value of the link-available bit in the object's flags.
 old-location: controls\IRichEditOle_SetLinkAvailable.htm

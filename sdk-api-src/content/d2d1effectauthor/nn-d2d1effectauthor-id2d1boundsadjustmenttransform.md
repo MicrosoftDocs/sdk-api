@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1BoundsAdjustmentTransform
-title: ID2D1BoundsAdjustmentTransform
+title: ID2D1BoundsAdjustmentTransform (d2d1effectauthor.h)
 author: windows-sdk-content
 description: A support transform for effects to modify the output rectangle of the previous effect or bitmap.
 old-location: direct2d\id2d1boundadjustmenttransform.htm

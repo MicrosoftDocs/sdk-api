@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ContextInfo.IsInTransaction
-title: ContextInfo::IsInTransaction
+title: ContextInfo::IsInTransaction (comsvcs.h)
 author: windows-sdk-content
 description: Indicates whether the current object is executing in a transaction.
 old-location: cos\contextinfo_isintransaction.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:iads._ads_object_info
-title: ADS_OBJECT_INFO
+title: ADS_OBJECT_INFO (iads.h)
 author: windows-sdk-content
 description: The ADS_OBJECT_INFO structure specifies the data, including the identity and location, of a directory service object.
 old-location: adsi\ads_object_info.htm

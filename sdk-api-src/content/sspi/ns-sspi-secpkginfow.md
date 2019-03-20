@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SecPkgInfoW
-title: SecPkgInfoW
+title: SecPkgInfoW (sspi.h)
 author: windows-sdk-content
 description: The SecPkgInfo structure provides general information about a security package, such as its name and capabilities.
 old-location: security\secpkginfo.htm

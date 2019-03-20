@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetDocument
-title: ID2D1SvgElement::GetDocument
+title: ID2D1SvgElement::GetDocument (d2d1svg.h)
 author: windows-sdk-content
 description: Gets the document that contains this element.
 old-location: direct2d\id2d1svgelement_getdocument.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.IMSCEPSetup.Install
-title: IMSCEPSetup::Install
+title: IMSCEPSetup::Install (casetup.h)
 author: windows-sdk-content
 description: Installs a Network Device Enrollment Service (NDES) role as configured in a CMSCEPSetup object.
 old-location: security\imscepsetup_install.htm

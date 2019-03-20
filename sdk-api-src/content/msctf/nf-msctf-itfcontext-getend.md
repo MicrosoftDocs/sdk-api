@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContext.GetEnd
-title: ITfContext::GetEnd
+title: ITfContext::GetEnd (msctf.h)
 author: windows-sdk-content
 description: ITfContext::GetEnd method
 old-location: tsf\itfcontext_getend.htm

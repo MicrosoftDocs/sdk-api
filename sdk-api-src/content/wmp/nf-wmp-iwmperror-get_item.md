@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPError.get_item
-title: IWMPError::get_item
+title: IWMPError::get_item (wmp.h)
 author: windows-sdk-content
 description: The get_item method retrieves a pointer to an IWMPErrorItem interface from the error queue.
 old-location: wmp\iwmperror_get_item.htm

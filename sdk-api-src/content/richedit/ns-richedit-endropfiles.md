@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._endropfiles
-title: ENDROPFILES
+title: ENDROPFILES (richedit.h)
 author: windows-sdk-content
 description: Contains information associated with an EN_DROPFILES notification code. A rich edit control sends this notification code when it receives a WM_DROPFILES message.
 old-location: controls\ENDROPFILES.htm

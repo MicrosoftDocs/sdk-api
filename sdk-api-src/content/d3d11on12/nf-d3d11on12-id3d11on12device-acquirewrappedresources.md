@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11on12.ID3D11On12Device.AcquireWrappedResources
-title: ID3D11On12Device::AcquireWrappedResources
+title: ID3D11On12Device::AcquireWrappedResources (d3d11on12.h)
 author: windows-sdk-content
 description: Acquires D3D11 resources for use with D3D 11on12. Indicates that rendering to the wrapped resources can begin again.
 old-location: direct3d12\id3d11on12device_acquirewrappedresources.htm

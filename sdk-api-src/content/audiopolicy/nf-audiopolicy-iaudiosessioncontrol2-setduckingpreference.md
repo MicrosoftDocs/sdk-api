@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl2.SetDuckingPreference
-title: IAudioSessionControl2::SetDuckingPreference
+title: IAudioSessionControl2::SetDuckingPreference (audiopolicy.h)
 author: windows-sdk-content
 description: The SetDuckingPreference method enables or disables the default stream attenuation experience (auto-ducking) provided by the system.
 old-location: coreaudio\iaudiosessioncontrol2_setduckingpreference.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgidebug.IDXGIDebug
-title: IDXGIDebug
+title: IDXGIDebug (dxgidebug.h)
 author: windows-sdk-content
 description: This interface controls debug settings, and can only be used if the debug layer is turned on.
 old-location: direct3ddxgi\idxgidebug.htm

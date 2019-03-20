@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFTransform.GetInputStreamInfo
-title: IMFTransform::GetInputStreamInfo
+title: IMFTransform::GetInputStreamInfo (mftransform.h)
 author: windows-sdk-content
 description: Gets the buffer requirements and other information for an input stream on this Media Foundation transform (MFT).
 old-location: mf\imftransform_getinputstreaminfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.LoadMenuA
-title: LoadMenuA function
+title: LoadMenuA function (winuser.h)
 author: windows-sdk-content
 description: Loads the specified menu resource from the executable (.exe) file associated with an application instance.
 old-location: menurc\loadmenu.htm

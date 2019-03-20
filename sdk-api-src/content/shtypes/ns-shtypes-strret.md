@@ -1,6 +1,6 @@
 ---
 UID: NS:shtypes._STRRET
-title: STRRET
+title: STRRET (shtypes.h)
 author: windows-sdk-content
 description: Contains strings returned from the IShellFolder interface methods.
 old-location: shell\STRRET.htm

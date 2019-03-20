@@ -1,6 +1,6 @@
 ---
 UID: NC:eappapis.NotificationHandler
-title: NotificationHandler
+title: NotificationHandler (eappapis.h)
 author: windows-sdk-content
 description: Notifies the supplicant that there is a change in the Statement of Health (SoH) and re-authentication of a Network Access Protection (NAP) system connection is required.
 old-location: eaphost\notificationhandler.htm

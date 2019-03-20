@@ -1,6 +1,6 @@
 ---
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannelEvents.OnChannelOpened
-title: IWRdsGraphicsChannelEvents::OnChannelOpened
+title: IWRdsGraphicsChannelEvents::OnChannelOpened (wrdsgraphicschannels.h)
 author: windows-sdk-content
 description: Called when the channel has been opened and is ready for use, or when an error occurs when a channel is opened.
 old-location: termserv\iwrdsgraphicschannelevents_onchannelopened.htm

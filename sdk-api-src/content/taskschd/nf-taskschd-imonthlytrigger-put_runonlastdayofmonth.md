@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IMonthlyTrigger.put_RunOnLastDayOfMonth
-title: IMonthlyTrigger::put_RunOnLastDayOfMonth
+title: IMonthlyTrigger::put_RunOnLastDayOfMonth (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates that the task runs on the last day of the month.
 old-location: taskschd\imonthlytrigger_runonlastdayofmonth.htm

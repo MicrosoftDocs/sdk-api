@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetStrikethrough
-title: IDWriteTextLayout::SetStrikethrough
+title: IDWriteTextLayout::SetStrikethrough (dwrite.h)
 author: windows-sdk-content
 description: Sets strikethrough for text within a specified text range.
 old-location: directwrite\IDWriteTextLayout_SetStrikethrough.htm

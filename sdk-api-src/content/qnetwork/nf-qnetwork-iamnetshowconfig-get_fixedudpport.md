@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_FixedUDPPort
-title: IAMNetShowConfig::get_FixedUDPPort
+title: IAMNetShowConfig::get_FixedUDPPort (qnetwork.h)
 author: windows-sdk-content
 description: The get_FixedUDPPort method gets the fixed UDP port number.
 old-location: dshow\iamnetshowconfig_get_fixedudpport.htm

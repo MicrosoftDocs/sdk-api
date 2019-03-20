@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem.Reenumerate
-title: IVdsSubSystem::Reenumerate
+title: IVdsSubSystem::Reenumerate (vdshwprv.h)
 author: windows-sdk-content
 description: Prompts the subsystem to scan its bus to discover newly-connected drives or newly-disconnected drives.
 old-location: base\ivdssubsystem_reenumerate.htm

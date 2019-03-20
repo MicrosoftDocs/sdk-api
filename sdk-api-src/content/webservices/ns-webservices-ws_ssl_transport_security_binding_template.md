@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_SSL_TRANSPORT_SECURITY_BINDING_TEMPLATE
-title: WS_SSL_TRANSPORT_SECURITY_BINDING_TEMPLATE
+title: WS_SSL_TRANSPORT_SECURITY_BINDING_TEMPLATE (webservices.h)
 author: windows-sdk-content
 description: The security binding template for specifying the use of SSL/TLS protocol based transport security.
 old-location: wsw\ws_ssl_transport_security_binding_template.htm

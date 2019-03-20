@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IManagedPoolAction.LastRelease
-title: IManagedPoolAction::LastRelease
+title: IManagedPoolAction::LastRelease (comsvcs.h)
 author: windows-sdk-content
 description: Called when a COM+ object pool drops the last reference to the object that implements it.
 old-location: cos\imanagedpoolaction_lastrelease.htm

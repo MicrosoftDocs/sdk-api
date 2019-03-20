@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._CLUS_SHARED_VOLUME_BACKUP_MODE
-title: CLUS_SHARED_VOLUME_BACKUP_MODE
+title: CLUS_SHARED_VOLUME_BACKUP_MODE (clusapi.h)
 author: windows-sdk-content
 description: Describes the backup mode for CSV.
 old-location: mscs\clus_shared_volume_backup_mode.htm

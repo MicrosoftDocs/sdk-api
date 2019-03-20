@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents3.FolderScanStateChange
-title: IWMPEvents3::FolderScanStateChange
+title: IWMPEvents3::FolderScanStateChange (wmp.h)
 author: windows-sdk-content
 description: The FolderScanStateChange event occurs when a folder monitoring operation changes state.
 old-location: wmp\iwmpevents3_iwmpevents3__folderscanstatechange.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLSetCurrentProductKey
-title: SLSetCurrentProductKey function
+title: SLSetCurrentProductKey function (slpublic.h)
 author: windows-sdk-content
 description: Sets the current product key to the previously installed product key.
 old-location: security\slsetcurrentproductkey.htm

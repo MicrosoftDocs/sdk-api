@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HTTP_SET_VERSION
-title: HTTP_SET_VERSION macro
+title: HTTP_SET_VERSION macro (http.h)
 author: windows-sdk-content
 description: Sets a specified HTTP_VERSION structure to a specified major/minor version combination.
 old-location: http\http_set_version.htm

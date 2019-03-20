@@ -1,6 +1,6 @@
 ---
 UID: NI:usbuser.IOCTL_USB_USER_REQUEST
-title: IOCTL_USB_USER_REQUEST
+title: IOCTL_USB_USER_REQUEST (usbuser.h)
 author: windows-sdk-content
 description: The IOCTL_USB_USER_REQUEST I/O control request is available to both user-mode applications and kernel-mode drivers.
 old-location: buses\ioctl_usb_user_request.htm

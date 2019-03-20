@@ -1,6 +1,6 @@
 ---
 UID: NS:mmeapi.tMIXERCAPS
-title: MIXERCAPS
+title: MIXERCAPS (mmeapi.h)
 author: windows-sdk-content
 description: The MIXERCAPS structure describes the capabilities of a mixer device.
 old-location: multimedia\mixercaps.htm

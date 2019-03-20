@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagPOINTFX
-title: POINTFX
+title: POINTFX (wingdi.h)
 author: windows-sdk-content
 description: The POINTFX structure contains the coordinates of points that describe the outline of a character in a TrueType font.
 old-location: gdi\pointfx.htm

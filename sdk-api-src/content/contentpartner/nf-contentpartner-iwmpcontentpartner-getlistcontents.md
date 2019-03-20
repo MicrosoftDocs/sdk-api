@@ -1,6 +1,6 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.GetListContents
-title: IWMPContentPartner::GetListContents
+title: IWMPContentPartner::GetListContents (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetListContents method initiates the retrieval of a dynamic list.
 old-location: wmp\iwmpcontentpartner_getlistcontents.htm

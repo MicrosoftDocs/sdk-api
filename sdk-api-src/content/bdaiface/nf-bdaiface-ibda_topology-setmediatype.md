@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_Topology.SetMediaType
-title: IBDA_Topology::SetMediaType
+title: IBDA_Topology::SetMediaType (bdaiface.h)
 author: windows-sdk-content
 description: The SetMediaType method sets the media type for a pin on a BDA device filter.
 old-location: mstv\ibda_topology_setmediatype.htm

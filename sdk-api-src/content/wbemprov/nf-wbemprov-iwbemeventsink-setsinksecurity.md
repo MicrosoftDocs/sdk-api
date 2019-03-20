@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemEventSink.SetSinkSecurity
-title: IWbemEventSink::SetSinkSecurity
+title: IWbemEventSink::SetSinkSecurity (wbemprov.h)
 author: windows-sdk-content
 description: Used to set a security descriptor (SD) on a sink for all the events passing through.
 old-location: wmi\iwbemeventsink_setsinksecurity.htm

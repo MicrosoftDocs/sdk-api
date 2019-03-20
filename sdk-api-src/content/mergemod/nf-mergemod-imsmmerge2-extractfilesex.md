@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmMerge2.ExtractFilesEx
-title: IMsmMerge2::ExtractFilesEx
+title: IMsmMerge2::ExtractFilesEx (mergemod.h)
 author: windows-sdk-content
 description: The ExtractFilesEx method extracts the embedded .cab file from a module and then writes those files to the destination directory. For more information, see the ExtractFilesEx method of the Merge object.
 old-location: setup\imsmmerge2_extractfilesex.htm

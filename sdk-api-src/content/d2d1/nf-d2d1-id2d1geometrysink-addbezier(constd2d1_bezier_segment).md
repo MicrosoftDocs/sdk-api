@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1GeometrySink.AddBezier(const D2D1_BEZIER_SEGMENT)
-title: ID2D1GeometrySink::AddBezier(const D2D1_BEZIER_SEGMENT)
+title: ID2D1GeometrySink::AddBezier(const D2D1_BEZIER_SEGMENT) (d2d1.h)
 author: windows-sdk-content
 description: Creates a cubic Bezier curve between the current point and the specified endpoint.
 old-location: direct2d\ID2D1GeometrySink_AddBezier_ptr_D2D1_BEZIER_SEGMENT.htm

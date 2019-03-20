@@ -1,6 +1,6 @@
 ---
 UID: NC:dbghelp.PSYM_ENUMPROCESSES_CALLBACK
-title: PSYM_ENUMPROCESSES_CALLBACK
+title: PSYM_ENUMPROCESSES_CALLBACK (dbghelp.h)
 author: windows-sdk-content
 description: An application-defined function used with the SymEnumProcesses function.
 old-location: base\symenumprocessesproc.htm

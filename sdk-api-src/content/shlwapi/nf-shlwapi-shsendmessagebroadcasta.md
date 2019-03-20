@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHSendMessageBroadcastA
-title: SHSendMessageBroadcastA function
+title: SHSendMessageBroadcastA function (shlwapi.h)
 author: windows-sdk-content
 description: Sends a message to all top-level windows in the system.
 old-location: shell\SHSendMessageBroadcast.htm

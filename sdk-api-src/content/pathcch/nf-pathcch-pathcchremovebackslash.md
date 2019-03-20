@@ -1,6 +1,6 @@
 ---
 UID: NF:pathcch.PathCchRemoveBackslash
-title: PathCchRemoveBackslash function
+title: PathCchRemoveBackslash function (pathcch.h)
 author: windows-sdk-content
 description: Removes the trailing backslash from the end of a path string.This function differs from PathRemoveBackslash in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
 old-location: shell\PathCchRemoveBackslash.htm

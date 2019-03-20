@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.GetStatistics
-title: IWMReaderAdvanced::GetStatistics
+title: IWMReaderAdvanced::GetStatistics (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetStatistics method retrieves the current reader statistics.
 old-location: wmformat\iwmreaderadvanced_getstatistics.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcFileWriter.DeleteOnClose
-title: IRdcFileWriter::DeleteOnClose
+title: IRdcFileWriter::DeleteOnClose (msrdc.h)
 author: windows-sdk-content
 description: Sets a file to be deleted (or truncated) on close.
 old-location: rdc\irdcfilewriter_deleteonclose.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFSample.RemoveBufferByIndex
-title: IMFSample::RemoveBufferByIndex
+title: IMFSample::RemoveBufferByIndex (mfobjects.h)
 author: windows-sdk-content
 description: Removes a buffer at a specified index from the sample.
 old-location: mf\imfsample_removebufferbyindex.htm

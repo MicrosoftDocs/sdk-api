@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFSensorActivitiesReportCallback
-title: IMFSensorActivitiesReportCallback
+title: IMFSensorActivitiesReportCallback (mfidl.h)
 author: windows-sdk-content
 description: Interface implemented by the client to receive callbacks when sensor activity reports are available.
 old-location: mf\imfsensoractivitiesreportcallback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollection.DeleteAll
-title: IFunctionInstanceCollection::DeleteAll
+title: IFunctionInstanceCollection::DeleteAll (functiondiscoveryapi.h)
 author: windows-sdk-content
 description: Removes all function instances from the collection.
 old-location: ncd\ifunctioninstancecollection_deleteall.htm

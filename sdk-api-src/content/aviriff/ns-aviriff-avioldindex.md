@@ -1,6 +1,6 @@
 ---
 UID: NS:aviriff._avioldindex
-title: AVIOLDINDEX
+title: AVIOLDINDEX (aviriff.h)
 author: windows-sdk-content
 description: The AVIOLDINDEX structure describes an AVI 1.0 index ('idx1' format). New AVI files should use an AVI 2.0 index ('indx' format).
 old-location: dshow\avioldindex.htm

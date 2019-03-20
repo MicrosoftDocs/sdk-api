@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspAlgorithm.get_IncrementLength
-title: ICspAlgorithm::get_IncrementLength
+title: ICspAlgorithm::get_IncrementLength (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a value, in bits, that can be used to determine valid incremental key lengths for algorithms that support multiple key sizes.
 old-location: security\icspalgorithm_incrementlength_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarCyFromDate
-title: VarCyFromDate function
+title: VarCyFromDate function (oleauto.h)
 author: windows-sdk-content
 description: Converts a date value to a currency value.
 old-location: automat\varcyfromdate.htm

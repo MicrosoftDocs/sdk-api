@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_PublisherID
-title: IEventSubscription::put_PublisherID
+title: IEventSubscription::put_PublisherID (eventsys.h)
 author: windows-sdk-content
 description: The unique ID of the event publisher.
 old-location: cos\ieventsubscription_publisherid.htm

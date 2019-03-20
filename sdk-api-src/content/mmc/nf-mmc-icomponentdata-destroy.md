@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IComponentData.Destroy
-title: IComponentData::Destroy
+title: IComponentData::Destroy (mmc.h)
 author: windows-sdk-content
 description: The IComponentData::Destroy method releases all references to the console.
 old-location: mmc\icomponentdata_destroy.htm

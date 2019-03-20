@@ -1,6 +1,6 @@
 ---
 UID: NE:adtgen._AUDIT_PARAM_TYPE
-title: AUDIT_PARAM_TYPE
+title: AUDIT_PARAM_TYPE (adtgen.h)
 author: windows-sdk-content
 description: Defines the type of audit parameters that are available.
 old-location: security\audit_param_type.htm

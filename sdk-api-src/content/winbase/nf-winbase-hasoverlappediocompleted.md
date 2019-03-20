@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.HasOverlappedIoCompleted
-title: HasOverlappedIoCompleted macro
+title: HasOverlappedIoCompleted macro (winbase.h)
 author: windows-sdk-content
 description: Provides a high performance test operation that can be used to poll for the completion of an outstanding I/O operation.
 old-location: base\hasoverlappediocompleted.htm

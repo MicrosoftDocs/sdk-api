@@ -1,6 +1,6 @@
 ---
 UID: NN:mbnapi.IMbnSignal
-title: IMbnSignal
+title: IMbnSignal (mbnapi.h)
 author: windows-sdk-content
 description: Get radio signal quality of a Mobile Broadband connection.
 old-location: mbn\imbnsignal.htm

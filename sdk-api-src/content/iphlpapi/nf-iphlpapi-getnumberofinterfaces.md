@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.GetNumberOfInterfaces
-title: GetNumberOfInterfaces function
+title: GetNumberOfInterfaces function (iphlpapi.h)
 author: windows-sdk-content
 description: The GetNumberOfInterfaces functions retrieves the number of interfaces on the local computer.
 old-location: iphlp\getnumberofinterfaces.htm

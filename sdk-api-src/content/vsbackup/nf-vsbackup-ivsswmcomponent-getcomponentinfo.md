@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssWMComponent.GetComponentInfo
-title: IVssWMComponent::GetComponentInfo
+title: IVssWMComponent::GetComponentInfo (vsbackup.h)
 author: windows-sdk-content
 description: The GetComponentInfo method obtains basic information about the specified writer metadata component.
 old-location: base\ivsswmcomponent_getcomponentinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingDevice.get_Authorization
-title: IWindowsMediaLibrarySharingDevice::get_Authorization
+title: IWindowsMediaLibrarySharingDevice::get_Authorization (wmlss.h)
 author: windows-sdk-content
 description: The get_Authorization method retrieves a value that indicates whether the device is authorized to have access to the current user's media library.
 old-location: wmlss\IWMLSDeviceget_Authorization.htm

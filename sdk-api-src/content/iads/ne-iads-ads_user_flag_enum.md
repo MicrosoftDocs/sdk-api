@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.ADS_USER_FLAG
-title: ADS_USER_FLAG_ENUM
+title: ADS_USER_FLAG_ENUM (iads.h)
 author: windows-sdk-content
 description: Defines the flags used for setting user properties in the directory.
 old-location: adsi\ads_user_flag_enum.htm

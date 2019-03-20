@@ -1,6 +1,6 @@
 ---
 UID: NS:wmsdkidl.__tagDRM_PLAY_OPL
-title: DRM_PLAY_OPL
+title: DRM_PLAY_OPL (wmsdkidl.h)
 author: windows-sdk-content
 description: The DRM_PLAY_OPL structure holds information about the output protection levels (OPL) specified in a license for play actions.
 old-location: wmformat\drm_play_opl.htm

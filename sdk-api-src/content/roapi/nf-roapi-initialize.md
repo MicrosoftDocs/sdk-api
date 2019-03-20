@@ -1,6 +1,6 @@
 ---
 UID: NF:roapi.Initialize
-title: Initialize function
+title: Initialize function (roapi.h)
 author: windows-sdk-content
 description: Initializes a thread to use Windows Runtime APIs.
 old-location: com\initialize.htm

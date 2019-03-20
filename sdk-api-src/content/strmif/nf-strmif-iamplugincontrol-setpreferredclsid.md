@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMPluginControl.SetPreferredClsid
-title: IAMPluginControl::SetPreferredClsid
+title: IAMPluginControl::SetPreferredClsid (strmif.h)
 author: windows-sdk-content
 description: Adds a class identifier (CLSID) to the preferred list or removes a CLSID from the list.
 old-location: dshow\iamplugincontrol_setpreferredclsid.htm

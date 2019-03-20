@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMEnumDevice.Skip
-title: IWMDMEnumDevice::Skip
+title: IWMDMEnumDevice::Skip (mswmdm.h)
 author: windows-sdk-content
 description: The Skip method skips over a specified number of devices in the enumeration sequence.
 old-location: wmdm\iwmdmenumdevice_skip.htm

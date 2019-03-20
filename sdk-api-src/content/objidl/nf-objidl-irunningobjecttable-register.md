@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IRunningObjectTable.Register
-title: IRunningObjectTable::Register
+title: IRunningObjectTable::Register (objidl.h)
 author: windows-sdk-content
 description: Registers an object and its identifying moniker in the running object table (ROT).
 old-location: com\irunningobjecttable_register.htm

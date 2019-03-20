@@ -1,6 +1,6 @@
 ---
 UID: NS:rtmv2._RTM_ENTITY_METHOD_OUTPUT
-title: RTM_ENTITY_METHOD_OUTPUT
+title: RTM_ENTITY_METHOD_OUTPUT (rtmv2.h)
 author: windows-sdk-content
 description: The RTM_ENTITY_METHOD_OUTPUT structure is used to pass information to the calling client when the routing table manager invokes a method.
 old-location: rras\rtm_entity_method_output.htm

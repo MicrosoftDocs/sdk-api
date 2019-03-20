@@ -1,6 +1,6 @@
 ---
 UID: NS:usp10.tagGOFFSET
-title: GOFFSET
+title: GOFFSET (usp10.h)
 author: windows-sdk-content
 description: Contains the x and y offsets of the combining glyph.
 old-location: intl\goffset.htm

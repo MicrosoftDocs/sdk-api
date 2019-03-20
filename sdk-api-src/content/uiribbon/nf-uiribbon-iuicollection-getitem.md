@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUICollection.GetItem
-title: IUICollection::GetItem
+title: IUICollection::GetItem (uiribbon.h)
 author: windows-sdk-content
 description: Retrieves an item from the IUICollection at the specified index.
 old-location: windowsribbon\windowsribbon_iuicollection_getitem.htm

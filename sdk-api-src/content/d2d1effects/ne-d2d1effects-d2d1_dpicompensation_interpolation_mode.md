@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects.D2D1_DPICOMPENSATION_INTERPOLATION_MODE
-title: D2D1_DPICOMPENSATION_INTERPOLATION_MODE
+title: D2D1_DPICOMPENSATION_INTERPOLATION_MODE (d2d1effects.h)
 author: windows-sdk-content
 description: The interpolation mode the DPI compensation effect uses to scale the image.
 old-location: direct2d\d2d1_dpicompensation_interpolation_mode.htm

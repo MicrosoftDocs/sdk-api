@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptSetOIDFunctionValue
-title: CryptSetOIDFunctionValue function
+title: CryptSetOIDFunctionValue function (wincrypt.h)
 author: windows-sdk-content
 description: The CryptSetOIDFunctionValue function sets a value for the specified encoding type, function name, OID, and value name.
 old-location: security\cryptsetoidfunctionvalue.htm

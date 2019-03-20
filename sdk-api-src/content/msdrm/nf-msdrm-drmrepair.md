@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMRepair
-title: DRMRepair function
+title: DRMRepair function (msdrm.h)
 author: windows-sdk-content
 description: Repairs a client machine by deleting certificates previously created for the machine or user.
 old-location: rm\drmrepair.htm

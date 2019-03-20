@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.VER_SET_CONDITION
-title: VER_SET_CONDITION macro
+title: VER_SET_CONDITION macro (winnt.h)
 author: windows-sdk-content
 description: Sets the bits of a 64-bit value to indicate the comparison operator to use for a specified operating system version attribute. This macro is used to build the dwlConditionMask parameter of the VerifyVersionInfo function.
 old-location: base\ver_set_condition.htm

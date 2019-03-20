@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRVideoStreamControl9.GetStreamActiveState
-title: IVMRVideoStreamControl9::GetStreamActiveState
+title: IVMRVideoStreamControl9::GetStreamActiveState (vmr9.h)
 author: windows-sdk-content
 description: The GetStreamActiveState method retrieves the state of the stream.
 old-location: dshow\ivmrvideostreamcontrol9_getstreamactivestate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMCertifiedOutputProtection.KeyExchange
-title: IAMCertifiedOutputProtection::KeyExchange
+title: IAMCertifiedOutputProtection::KeyExchange (strmif.h)
 author: windows-sdk-content
 description: The KeyExchange method returns the graphics driver's certificate.
 old-location: dshow\iamcertifiedoutputprotection_keyexchange.htm

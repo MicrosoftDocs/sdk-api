@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCore.get_network
-title: IWMPCore::get_network
+title: IWMPCore::get_network (wmp.h)
 author: windows-sdk-content
 description: The get_network method retrieves a pointer to an IWMPNetwork interface.
 old-location: wmp\iwmpcore_get_network.htm

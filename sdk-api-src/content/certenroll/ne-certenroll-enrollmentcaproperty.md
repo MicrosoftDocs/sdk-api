@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.EnrollmentCAProperty
-title: EnrollmentCAProperty
+title: EnrollmentCAProperty (certenroll.h)
 author: windows-sdk-content
 description: Specifies certification authority property values.
 old-location: security\enrollmentcaproperty.htm

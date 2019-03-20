@@ -1,6 +1,6 @@
 ---
 UID: NS:uiautomationcore.UIAutomationEventInfo
-title: UIAutomationEventInfo
+title: UIAutomationEventInfo (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains information about a custom event.
 old-location: winauto\uiauto_UIAutomationEventInfoStruct.htm

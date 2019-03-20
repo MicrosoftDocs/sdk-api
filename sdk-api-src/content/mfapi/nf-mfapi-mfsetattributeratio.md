@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFSetAttributeRatio
-title: MFSetAttributeRatio function
+title: MFSetAttributeRatio function (mfapi.h)
 author: windows-sdk-content
 description: Sets a ratio as a 64-bit attribute value.
 old-location: mf\mfsetattributeratio.htm

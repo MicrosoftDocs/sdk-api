@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl2.GetSessionIdentifier
-title: IAudioSessionControl2::GetSessionIdentifier
+title: IAudioSessionControl2::GetSessionIdentifier (audiopolicy.h)
 author: windows-sdk-content
 description: The GetSessionIdentifier method retrieves the audio session identifier.
 old-location: coreaudio\iaudiosessioncontrol2_getsessionidentifier.htm

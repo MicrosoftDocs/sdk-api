@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._TXFS_GET_TRANSACTED_VERSION
-title: TXFS_GET_TRANSACTED_VERSION
+title: TXFS_GET_TRANSACTED_VERSION (winioctl.h)
 author: windows-sdk-content
 description: Contains the information about the base and latest versions of the specified file.
 old-location: fs\txfs_get_transacted_version.htm

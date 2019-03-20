@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHOpenWithDialog
-title: SHOpenWithDialog function
+title: SHOpenWithDialog function (shlobj_core.h)
 author: windows-sdk-content
 description: Displays the Open With dialog box.
 old-location: shell\SHOpenWithDialog.htm

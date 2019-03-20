@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_first_reference
-title: ldap_first_reference function
+title: ldap_first_reference function (winldap.h)
 author: windows-sdk-content
 description: Returns the first reference from a message.
 old-location: ldap\ldap_first_reference.htm

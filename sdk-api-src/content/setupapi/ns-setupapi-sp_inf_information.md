@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._SP_INF_INFORMATION
-title: SP_INF_INFORMATION
+title: SP_INF_INFORMATION (setupapi.h)
 author: windows-sdk-content
 description: The SP_INF_INFORMATION structure stores information about an INF file, including the style, number of constituent INF files, and version data.
 old-location: setup\sp_inf_information_str.htm

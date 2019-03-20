@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite.DWRITE_FONT_SIMULATIONS
-title: DWRITE_FONT_SIMULATIONS
+title: DWRITE_FONT_SIMULATIONS (dwrite.h)
 author: windows-sdk-content
 description: Specifies algorithmic style simulations to be applied to the font face. Bold and oblique simulations can be combined via bitwise OR operation.
 old-location: directwrite\dwrite_font_simulations.htm

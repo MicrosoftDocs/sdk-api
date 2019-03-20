@@ -1,6 +1,6 @@
 ---
 UID: NN:relogger.ITraceEvent
-title: ITraceEvent
+title: ITraceEvent (relogger.h)
 author: windows-sdk-content
 description: Provides access to data relating to a specific event.
 old-location: etw\ievent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.CreatePrivateObjectSecurity
-title: CreatePrivateObjectSecurity function
+title: CreatePrivateObjectSecurity function (securitybaseapi.h)
 author: windows-sdk-content
 description: Allocates and initializes a self-relative security descriptor for a new private object. A protected server calls this function when it creates a new private object.
 old-location: security\createprivateobjectsecurity.htm

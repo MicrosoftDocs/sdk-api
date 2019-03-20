@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoGetStdMarshalEx
-title: CoGetStdMarshalEx function
+title: CoGetStdMarshalEx function (combaseapi.h)
 author: windows-sdk-content
 description: Creates an aggregated standard marshaler for use with lightweight client-side handlers.
 old-location: com\cogetstdmarshalex.htm

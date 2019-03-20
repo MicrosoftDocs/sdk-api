@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPStorage2.GetAttributes2
-title: IMDSPStorage2::GetAttributes2
+title: IMDSPStorage2::GetAttributes2 (mswmdm.h)
 author: windows-sdk-content
 description: The GetAttributes2 method gets attributes of files or storages.
 old-location: wmdm\imdspstorage2_getattributes2.htm

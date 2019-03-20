@@ -1,6 +1,6 @@
 ---
 UID: NN:mstask.IScheduledWorkItem
-title: IScheduledWorkItem
+title: IScheduledWorkItem (mstask.h)
 author: windows-sdk-content
 description: Provides the methods for managing specific work items.
 old-location: taskschd\ischeduledworkitem.htm

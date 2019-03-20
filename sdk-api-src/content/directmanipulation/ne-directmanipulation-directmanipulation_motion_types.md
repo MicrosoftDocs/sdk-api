@@ -1,6 +1,6 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_MOTION_TYPES
-title: DIRECTMANIPULATION_MOTION_TYPES
+title: DIRECTMANIPULATION_MOTION_TYPES (directmanipulation.h)
 author: windows-sdk-content
 description: Defines the Direct Manipulation motion type.
 old-location: directmanipulation\directmanipulation_motion_types.htm

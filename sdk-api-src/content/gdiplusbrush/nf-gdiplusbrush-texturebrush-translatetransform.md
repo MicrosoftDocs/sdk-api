@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.TranslateTransform
-title: TextureBrush::TranslateTransform
+title: TextureBrush::TranslateTransform (gdiplusbrush.h)
 author: windows-sdk-content
 description: The TextureBrush::TranslateTransform method updates this brush's current transformation matrix with the product of itself and a translation matrix.
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_TranslateTransform_dx_dy_order_.htm

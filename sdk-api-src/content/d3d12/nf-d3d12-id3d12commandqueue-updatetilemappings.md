@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12CommandQueue.UpdateTileMappings
-title: ID3D12CommandQueue::UpdateTileMappings
+title: ID3D12CommandQueue::UpdateTileMappings (d3d12.h)
 author: windows-sdk-content
 description: Updates mappings of tile locations in reserved resources to memory locations in a resource heap.
 old-location: direct3d12\id3d12commandqueue_updatetilemappings.htm

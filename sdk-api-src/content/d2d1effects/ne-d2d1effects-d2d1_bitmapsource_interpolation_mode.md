@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects.D2D1_BITMAPSOURCE_INTERPOLATION_MODE
-title: D2D1_BITMAPSOURCE_INTERPOLATION_MODE
+title: D2D1_BITMAPSOURCE_INTERPOLATION_MODE (d2d1effects.h)
 author: windows-sdk-content
 description: The interpolation mode used to scale the image in the Bitmap source effect.
 old-location: direct2d\d2d1_bitmapsource_interpolation_mode.htm

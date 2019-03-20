@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmCommitOptions
-title: FsrmCommitOptions
+title: FsrmCommitOptions (fsrmenums.h)
 author: windows-sdk-content
 description: Defines the options for committing a collection of objects.
 old-location: fsrm\fsrmcommitoptions.htm

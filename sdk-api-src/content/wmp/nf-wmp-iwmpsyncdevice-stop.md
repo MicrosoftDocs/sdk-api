@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.stop
-title: IWMPSyncDevice::stop
+title: IWMPSyncDevice::stop (wmp.h)
 author: windows-sdk-content
 description: The stop method ends synchronization.
 old-location: wmp\iwmpsyncdevice_stop.htm

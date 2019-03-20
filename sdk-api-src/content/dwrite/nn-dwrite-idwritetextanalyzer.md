@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite.IDWriteTextAnalyzer
-title: IDWriteTextAnalyzer
+title: IDWriteTextAnalyzer (dwrite.h)
 author: windows-sdk-content
 description: Analyzes various text properties for complex script processing such as bidirectional (bidi) support for languages like Arabic, determination of line break opportunities, glyph placement, and number substitution.
 old-location: directwrite\IDWriteTextAnalyzer.htm

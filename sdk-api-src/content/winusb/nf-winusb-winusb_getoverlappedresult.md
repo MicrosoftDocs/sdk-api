@@ -1,6 +1,6 @@
 ---
 UID: NF:winusb.WinUsb_GetOverlappedResult
-title: WinUsb_GetOverlappedResult function
+title: WinUsb_GetOverlappedResult function (winusb.h)
 author: windows-sdk-content
 description: The WinUsb_GetOverlappedResult function retrieves the results of an overlapped operation on the specified file.
 old-location: buses\winusb_getoverlappedresult.htm

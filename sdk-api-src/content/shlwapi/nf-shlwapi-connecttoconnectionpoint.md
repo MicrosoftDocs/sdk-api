@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.ConnectToConnectionPoint
-title: ConnectToConnectionPoint function
+title: ConnectToConnectionPoint function (shlwapi.h)
 author: windows-sdk-content
 description: Establishes or terminates a connection between a client's sink and a connection point container.
 old-location: shell\ConnectToConnectionPoint.htm

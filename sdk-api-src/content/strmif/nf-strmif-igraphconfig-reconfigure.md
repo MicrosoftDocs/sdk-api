@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IGraphConfig.Reconfigure
-title: IGraphConfig::Reconfigure
+title: IGraphConfig::Reconfigure (strmif.h)
 author: windows-sdk-content
 description: The Reconfigure method locks the filter graph and calls a callback function in the application or filter to perform a dynamic reconfiguration.
 old-location: dshow\igraphconfig_reconfigure.htm

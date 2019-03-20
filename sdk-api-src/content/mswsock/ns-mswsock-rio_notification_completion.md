@@ -1,6 +1,6 @@
 ---
 UID: NS:mswsock._RIO_NOTIFICATION_COMPLETION
-title: RIO_NOTIFICATION_COMPLETION
+title: RIO_NOTIFICATION_COMPLETION (mswsock.h)
 author: windows-sdk-content
 description: Specifies the method for I/O completion to be used with a RIONotify function for sending or receiving network data with the Winsock registered I/O extensions.
 old-location: winsock\rio_notification_completion.htm

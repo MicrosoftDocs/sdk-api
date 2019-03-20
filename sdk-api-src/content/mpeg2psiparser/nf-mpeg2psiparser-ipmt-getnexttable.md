@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetNextTable
-title: IPMT::GetNextTable
+title: IPMT::GetNextTable (mpeg2psiparser.h)
 author: windows-sdk-content
 description: The GetNextTable method retrieves the next table that follows the current table.
 old-location: mstv\ipmt_getnexttable.htm

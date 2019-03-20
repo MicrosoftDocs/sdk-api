@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePackageFromStream
-title: IXpsOMObjectFactory::CreatePackageFromStream
+title: IXpsOMObjectFactory::CreatePackageFromStream (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Opens a stream that contains an XPS package, and returns an instantiated XPS document object tree.
 old-location: xps\ixpsomobjectfactory_createpackagefromstream.htm

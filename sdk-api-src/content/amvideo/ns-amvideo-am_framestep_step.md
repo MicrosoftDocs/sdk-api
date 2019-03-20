@@ -1,6 +1,6 @@
 ---
 UID: NS:amvideo._AM_FRAMESTEP_STEP
-title: AM_FRAMESTEP_STEP
+title: AM_FRAMESTEP_STEP (amvideo.h)
 author: windows-sdk-content
 description: Specifies the number of frames to step.
 old-location: dshow\am_property_framestep.htm

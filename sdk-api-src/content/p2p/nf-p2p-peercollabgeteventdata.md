@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabGetEventData
-title: PeerCollabGetEventData function
+title: PeerCollabGetEventData function (p2p.h)
 author: windows-sdk-content
 description: Obtains the data associated with a peer collaboration event raised on the peer.
 old-location: p2p\peercollabgeteventdata.htm

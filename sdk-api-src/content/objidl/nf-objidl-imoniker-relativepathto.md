@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMoniker.RelativePathTo
-title: IMoniker::RelativePathTo
+title: IMoniker::RelativePathTo (objidl.h)
 author: windows-sdk-content
 description: Creates a relative moniker between this moniker and the specified moniker.
 old-location: com\imoniker_relativepathto.htm

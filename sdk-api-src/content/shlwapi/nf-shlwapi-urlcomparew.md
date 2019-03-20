@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.UrlCompareW
-title: UrlCompareW function
+title: UrlCompareW function (shlwapi.h)
 author: windows-sdk-content
 description: Makes a case-sensitive comparison of two URL strings.
 old-location: shell\UrlCompare.htm

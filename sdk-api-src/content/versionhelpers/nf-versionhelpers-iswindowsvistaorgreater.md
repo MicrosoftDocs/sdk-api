@@ -1,6 +1,6 @@
 ---
 UID: NF:versionhelpers.IsWindowsVistaOrGreater
-title: IsWindowsVistaOrGreater function
+title: IsWindowsVistaOrGreater function (versionhelpers.h)
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows Vista version.
 old-location: base\iswindowsvistaorgreater.htm

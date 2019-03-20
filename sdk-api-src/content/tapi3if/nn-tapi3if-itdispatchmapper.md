@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITDispatchMapper
-title: ITDispatchMapper
+title: ITDispatchMapper (tapi3if.h)
 author: windows-sdk-content
 description: The ITDispatchMapper interface allows an application to retrieve the dispatch pointer of another interface on an object, given the dispatch pointer of one interface and the GUID of another.
 old-location: tapi3\itdispatchmapper.htm

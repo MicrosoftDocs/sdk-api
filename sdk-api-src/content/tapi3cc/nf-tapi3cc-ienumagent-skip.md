@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.IEnumAgent.Skip
-title: IEnumAgent::Skip
+title: IEnumAgent::Skip (tapi3cc.h)
 author: windows-sdk-content
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumagent_skip.htm

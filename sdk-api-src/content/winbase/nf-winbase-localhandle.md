@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.LocalHandle
-title: LocalHandle function
+title: LocalHandle function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the handle associated with the specified pointer to a local memory object.
 old-location: base\localhandle.htm

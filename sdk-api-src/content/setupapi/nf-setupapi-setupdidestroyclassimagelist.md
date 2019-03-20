@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiDestroyClassImageList
-title: SetupDiDestroyClassImageList function
+title: SetupDiDestroyClassImageList function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiDestroyClassImageList function destroys a class image list that was built by a call to SetupDiGetClassImageList or SetupDiGetClassImageListEx.
 old-location: devinst\setupdidestroyclassimagelist.htm

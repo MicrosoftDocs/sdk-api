@@ -1,6 +1,6 @@
 ---
 UID: NS:lmremutl._TIME_OF_DAY_INFO
-title: TIME_OF_DAY_INFO
+title: TIME_OF_DAY_INFO (lmremutl.h)
 author: windows-sdk-content
 description: The TIME_OF_DAY_INFO structure contains information about the time of day from a remote server.
 old-location: netmgmt\time_of_day_info_str.htm

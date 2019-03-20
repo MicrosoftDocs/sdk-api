@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextSelection.EndKey
-title: ITextSelection::EndKey
+title: ITextSelection::EndKey (tom.h)
 author: windows-sdk-content
 description: Mimics the functionality of the End key.
 old-location: controls\ITextSelection_EndKey.htm

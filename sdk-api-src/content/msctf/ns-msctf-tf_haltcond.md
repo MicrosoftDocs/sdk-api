@@ -1,6 +1,6 @@
 ---
 UID: NS:msctf.TF_HALTCOND
-title: TF_HALTCOND
+title: TF_HALTCOND (msctf.h)
 author: windows-sdk-content
 description: The TF_HALTCOND structure is used to contain conditions of a range shift.
 old-location: tsf\tf_haltcond.htm

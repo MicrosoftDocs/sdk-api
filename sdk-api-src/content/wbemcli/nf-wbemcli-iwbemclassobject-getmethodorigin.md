@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.GetMethodOrigin
-title: IWbemClassObject::GetMethodOrigin
+title: IWbemClassObject::GetMethodOrigin (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemClassObject::GetMethodOrigin method is used to determine the class for which a method was declared.
 old-location: wmi\iwbemclassobject_getmethodorigin.htm

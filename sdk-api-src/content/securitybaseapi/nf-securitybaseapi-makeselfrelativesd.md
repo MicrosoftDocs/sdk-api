@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.MakeSelfRelativeSD
-title: MakeSelfRelativeSD function
+title: MakeSelfRelativeSD function (securitybaseapi.h)
 author: windows-sdk-content
 description: Creates a security descriptor in self-relative format by using a security descriptor in absolute format as a template.
 old-location: security\makeselfrelativesd.htm

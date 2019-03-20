@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuneRequest.Clone
-title: ITuneRequest::Clone
+title: ITuneRequest::Clone (tuner.h)
 author: windows-sdk-content
 description: The Clone method returns a new copy of this tune request.
 old-location: mstv\itunerequest_clone.htm

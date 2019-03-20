@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_CURRENT_SIZE_DESC
-title: D3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_CURRENT_SIZE_DESC
+title: D3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_CURRENT_SIZE_DESC (d3d12.h)
 author: windows-sdk-content
 description: Describes the space currently used by an acceleration structure..
 old-location: direct3d12\d3d12_raytracing_acceleration_structure_postbuild_info_current_size_desc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2tcpip.FreeAddrInfoEx
-title: FreeAddrInfoEx function
+title: FreeAddrInfoEx function (ws2tcpip.h)
 author: windows-sdk-content
 description: Frees address information that the GetAddrInfoEx function dynamically allocates in addrinfoex structures.
 old-location: winsock\freeaddrinfoex.htm

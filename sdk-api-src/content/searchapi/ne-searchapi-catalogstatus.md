@@ -1,6 +1,6 @@
 ---
 UID: NE:searchapi._CatalogStatus
-title: CatalogStatus
+title: CatalogStatus (searchapi.h)
 author: windows-sdk-content
 description: Used by ISearchCatalogManager::GetCatalogStatus to determine the current state of the catalog.
 old-location: search\_search_CatalogStatus.htm

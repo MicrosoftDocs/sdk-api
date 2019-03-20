@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptRetrieveObjectByUrlA
-title: CryptRetrieveObjectByUrlA function
+title: CryptRetrieveObjectByUrlA function (wincrypt.h)
 author: windows-sdk-content
 description: Retrieves the public key infrastructure (PKI) object from a location specified by a URL.
 old-location: security\cryptretrieveobjectbyurl.htm

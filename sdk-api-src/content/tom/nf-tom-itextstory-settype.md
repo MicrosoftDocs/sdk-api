@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextStory.SetType
-title: ITextStory::SetType
+title: ITextStory::SetType (tom.h)
 author: windows-sdk-content
 description: Sets the story type.
 old-location: controls\itextstory_settype.htm

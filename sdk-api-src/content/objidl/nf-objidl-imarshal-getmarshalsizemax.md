@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMarshal.GetMarshalSizeMax
-title: IMarshal::GetMarshalSizeMax
+title: IMarshal::GetMarshalSizeMax (objidl.h)
 author: windows-sdk-content
 description: Retrieves the maximum size of the buffer that will be needed during marshaling.
 old-location: com\imarshal_getmarshalsizemax.htm

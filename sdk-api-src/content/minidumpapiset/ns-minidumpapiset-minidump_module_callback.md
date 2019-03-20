@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_MODULE_CALLBACK
-title: MINIDUMP_MODULE_CALLBACK
+title: MINIDUMP_MODULE_CALLBACK (minidumpapiset.h)
 author: windows-sdk-content
 description: Contains module information for the MiniDumpCallback function when the callback type is ModuleCallback.
 old-location: base\minidump_module_callback_str.htm

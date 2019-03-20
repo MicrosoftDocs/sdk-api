@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetCodedTokenInfo
-title: IMetaDataTables::GetCodedTokenInfo
+title: IMetaDataTables::GetCodedTokenInfo (rometadataapi.h)
 author: windows-sdk-content
 description: Gets a pointer to an array of tokens associated with the specified row index.
 old-location: winrt\imetadatatables_getcodedtokeninfo.htm

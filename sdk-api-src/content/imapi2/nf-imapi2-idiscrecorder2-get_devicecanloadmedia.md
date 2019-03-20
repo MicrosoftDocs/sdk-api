@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_DeviceCanLoadMedia
-title: IDiscRecorder2::get_DeviceCanLoadMedia
+title: IDiscRecorder2::get_DeviceCanLoadMedia (imapi2.h)
 author: windows-sdk-content
 description: Determines if the device can eject and subsequently reload media.
 old-location: imapi\idiscrecorder2_get_devicecanloadmedia.htm

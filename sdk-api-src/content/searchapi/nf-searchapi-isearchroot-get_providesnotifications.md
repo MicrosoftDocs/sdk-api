@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_ProvidesNotifications
-title: ISearchRoot::get_ProvidesNotifications
+title: ISearchRoot::get_ProvidesNotifications (searchapi.h)
 author: windows-sdk-content
 description: Gets a value that indicates whether the search engine is notified (by protocol handlers or other applications) about changes to the URLs under the search root.
 old-location: search\_search_ISearchRoot_get_ProvidesNotifications.htm

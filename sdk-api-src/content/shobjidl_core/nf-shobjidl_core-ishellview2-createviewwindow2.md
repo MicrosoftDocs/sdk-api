@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellView2.CreateViewWindow2
-title: IShellView2::CreateViewWindow2
+title: IShellView2::CreateViewWindow2 (shobjidl_core.h)
 author: windows-sdk-content
 description: Used to request the creation of a new Shell view window. It can be either the right pane of Windows Explorer or the client window of a folder window.
 old-location: shell\IShellView2_CreateViewWindow2.htm

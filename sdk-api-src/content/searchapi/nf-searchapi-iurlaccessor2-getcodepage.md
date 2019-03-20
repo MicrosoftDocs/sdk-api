@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.IUrlAccessor2.GetCodePage
-title: IUrlAccessor2::GetCodePage
+title: IUrlAccessor2::GetCodePage (searchapi.h)
 author: windows-sdk-content
 description: Gets the code page for properties of the URL item.
 old-location: search\_search_IUrlAccessor2_GetCodePage.htm

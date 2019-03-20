@@ -1,6 +1,6 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeCallback.DeleteLogError
-title: ISyncMgrSynchronizeCallback::DeleteLogError
+title: ISyncMgrSynchronizeCallback::DeleteLogError (mobsync.h)
 author: windows-sdk-content
 description: Called by the registered application's handler to delete a previously logged ErrorInformation, warning, or error message in the error tab on the synchronization manager status dialog box.
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_deletelogerror.htm

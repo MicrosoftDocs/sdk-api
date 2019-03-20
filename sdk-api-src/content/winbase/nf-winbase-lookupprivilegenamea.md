@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.LookupPrivilegeNameA
-title: LookupPrivilegeNameA function
+title: LookupPrivilegeNameA function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the name that corresponds to the privilege represented on a specific system by a specified locally unique identifier (LUID).
 old-location: security\lookupprivilegename.htm

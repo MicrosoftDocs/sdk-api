@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IValueMapItem.get_ValueMapType
-title: IValueMapItem::get_ValueMapType
+title: IValueMapItem::get_ValueMapType (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the type of the item.
 old-location: pla\ivaluemapitem_valuemaptype.htm

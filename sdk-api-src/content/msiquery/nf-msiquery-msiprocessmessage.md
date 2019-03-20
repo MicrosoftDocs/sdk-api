@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiProcessMessage
-title: MsiProcessMessage function
+title: MsiProcessMessage function (msiquery.h)
 author: windows-sdk-content
 description: The MsiProcessMessage function sends an error record to the installer for processing.
 old-location: setup\msiprocessmessage.htm

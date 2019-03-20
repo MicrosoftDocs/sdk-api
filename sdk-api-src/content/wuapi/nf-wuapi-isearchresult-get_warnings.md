@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.ISearchResult.get_Warnings
-title: ISearchResult::get_Warnings
+title: ISearchResult::get_Warnings (wuapi.h)
 author: windows-sdk-content
 description: Gets a collection of the warnings that result from a search.
 old-location: wua\isearchresult_warnings.htm

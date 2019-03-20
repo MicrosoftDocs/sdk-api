@@ -1,6 +1,6 @@
 ---
 UID: NS:dxvahd._DXVAHD_CUSTOM_RATE_DATA
-title: DXVAHD_CUSTOM_RATE_DATA
+title: DXVAHD_CUSTOM_RATE_DATA (dxvahd.h)
 author: windows-sdk-content
 description: Specifies a custom rate for frame-rate conversion or inverse telecine (IVTC).
 old-location: mf\dxvahd_custom_rate_data.htm

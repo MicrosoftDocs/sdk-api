@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetClampOutput
-title: IDCompositionLinearTransferEffect::SetClampOutput
+title: IDCompositionLinearTransferEffect::SetClampOutput (dcomp.h)
 author: windows-sdk-content
 description: Specifies whether the effect clamps color values to between 0 and 1 before the effect passes the values to the next effect in the graph.
 old-location: directcomp\idcompositionlineartransfereffect_setclampoutput.htm

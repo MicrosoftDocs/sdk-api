@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure.GetDirectory
-title: IStreamBufferConfigure::GetDirectory
+title: IStreamBufferConfigure::GetDirectory (sbe.h)
 author: windows-sdk-content
 description: The GetDirectory method retrieves the directory where backing files are saved.
 old-location: mstv\istreambufferconfigure_getdirectory.htm

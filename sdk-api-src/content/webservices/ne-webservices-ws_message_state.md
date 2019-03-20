@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_39
-title: WS_MESSAGE_STATE
+title: WS_MESSAGE_STATE (webservices.h)
 author: windows-sdk-content
 description: The different states that a message can be in.
 old-location: wsw\ws_message_state.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmpplug.IWMPPluginUI.SetCore
-title: IWMPPluginUI::SetCore
+title: IWMPPluginUI::SetCore (wmpplug.h)
 author: windows-sdk-content
 description: The SetCore method is called by Windows Media Player to provide plug-in access to the core Windows Media Player APIs.
 old-location: wmp\iwmppluginui_setcore.htm

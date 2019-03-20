@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.SetBoundsRect
-title: SetBoundsRect function
+title: SetBoundsRect function (wingdi.h)
 author: windows-sdk-content
 description: The SetBoundsRect function controls the accumulation of bounding rectangle information for the specified device context.
 old-location: gdi\setboundsrect.htm

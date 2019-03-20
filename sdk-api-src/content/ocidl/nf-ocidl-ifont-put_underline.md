@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.put_Underline
-title: IFont::put_Underline
+title: IFont::put_Underline (ocidl.h)
 author: windows-sdk-content
 description: Sets the font's Underline property.
 old-location: com\ifont_put_underline.htm

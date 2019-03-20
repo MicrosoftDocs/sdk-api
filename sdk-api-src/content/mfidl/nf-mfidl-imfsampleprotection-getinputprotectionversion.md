@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSampleProtection.GetInputProtectionVersion
-title: IMFSampleProtection::GetInputProtectionVersion
+title: IMFSampleProtection::GetInputProtectionVersion (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the version of sample protection that the component implements on input.
 old-location: mf\imfsampleprotection_getinputprotectionversion.htm

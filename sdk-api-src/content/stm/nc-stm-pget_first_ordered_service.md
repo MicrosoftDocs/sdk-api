@@ -1,6 +1,6 @@
 ---
 UID: NC:stm.PGET_FIRST_ORDERED_SERVICE
-title: PGET_FIRST_ORDERED_SERVICE
+title: PGET_FIRST_ORDERED_SERVICE (stm.h)
 author: windows-sdk-content
 description: The GetFirstOrderedService function returns the first service in the specified order from the designated subset of services in the table.
 old-location: rras\getfirstorderedservice.htm

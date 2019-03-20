@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IHeaderCtrl
-title: IHeaderCtrl
+title: IHeaderCtrl (mmc.h)
 author: windows-sdk-content
 description: Enables the manipulation of columns and indicates the kind of information that is to be presented in the result view pane of the console.
 old-location: mmc\iheaderctrl.htm

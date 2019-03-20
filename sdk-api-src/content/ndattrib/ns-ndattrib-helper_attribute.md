@@ -1,6 +1,6 @@
 ---
 UID: NS:ndattrib.tagHELPER_ATTRIBUTE
-title: HELPER_ATTRIBUTE
+title: HELPER_ATTRIBUTE (ndattrib.h)
 author: windows-sdk-content
 description: The HELPER_ATTRIBUTE structure contains all NDF supported data types.
 old-location: ndf\helper_attribute.htm

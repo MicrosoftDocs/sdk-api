@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IOleDocumentView.SaveViewState
-title: IOleDocumentView::SaveViewState
+title: IOleDocumentView::SaveViewState (docobj.h)
 author: windows-sdk-content
 description: Saves the view state into the specified stream.
 old-location: com\ioledocumentview_saveviewstate.htm

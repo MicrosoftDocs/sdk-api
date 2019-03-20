@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dcommon.D3D_TESSELLATOR_DOMAIN
-title: D3D_TESSELLATOR_DOMAIN
+title: D3D_TESSELLATOR_DOMAIN (d3dcommon.h)
 author: windows-sdk-content
 description: Domain options for tessellator data.
 old-location: direct3d11\d3d11_tessellator_domain.htm

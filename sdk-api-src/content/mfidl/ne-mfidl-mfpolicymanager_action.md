@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MFPOLICYMANAGER_ACTION
-title: MFPOLICYMANAGER_ACTION
+title: MFPOLICYMANAGER_ACTION (mfidl.h)
 author: windows-sdk-content
 description: Defines actions that can be performed on a stream.
 old-location: mf\mfpolicymanager_action.htm

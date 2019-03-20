@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Geometry.CompareWithGeometry(ID2D1Geometry,const D2D1_MATRIX_3X2_F &,FLOAT,D2D1_GEOMETRY_RELATION)
-title: ID2D1Geometry::CompareWithGeometry(ID2D1Geometry,const D2D1_MATRIX_3X2_F &,FLOAT,D2D1_GEOMETRY_RELATION)
+title: ID2D1Geometry::CompareWithGeometry(ID2D1Geometry,const D2D1_MATRIX_3X2_F &,FLOAT,D2D1_GEOMETRY_RELATION) (d2d1.h)
 author: windows-sdk-content
 description: Describes the intersection between this geometry and the specified geometry. The comparison is performed using the specified flattening tolerance.
 old-location: direct2d\ID2D1Geometry_CompareWithGeometry_ptr_ID2D1Geometry_ref_D2D_MATRIX_3X2_F_FLOAT_ptr_D2D1_GEOMETRY_RELATION.htm

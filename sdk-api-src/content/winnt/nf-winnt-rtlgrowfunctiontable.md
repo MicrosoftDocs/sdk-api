@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.RtlGrowFunctionTable
-title: RtlGrowFunctionTable function
+title: RtlGrowFunctionTable function (winnt.h)
 author: windows-sdk-content
 description: Reports that a dynamic function table has increased in size.
 old-location: base\rtlgrowfunctiontable.htm

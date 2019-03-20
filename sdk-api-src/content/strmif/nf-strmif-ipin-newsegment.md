@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IPin.NewSegment
-title: IPin::NewSegment
+title: IPin::NewSegment (strmif.h)
 author: windows-sdk-content
 description: The NewSegment method notifies the pin that media samples received after this call are grouped as a segment, with a common start time, stop time, and rate.
 old-location: dshow\ipin_newsegment.htm

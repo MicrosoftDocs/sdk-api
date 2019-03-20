@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiAdvertiseProductExW
-title: MsiAdvertiseProductExW function
+title: MsiAdvertiseProductExW function (msi.h)
 author: windows-sdk-content
 description: The MsiAdvertiseProductEx function generates an advertise script or advertises a product to the computer.
 old-location: setup\msiadvertiseproductex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winevt.EvtOpenLog
-title: EvtOpenLog function
+title: EvtOpenLog function (winevt.h)
 author: windows-sdk-content
 description: Gets a handle to a channel or log file that you can then use to get information about the channel or log file.
 old-location: wes\evtopenlog.htm

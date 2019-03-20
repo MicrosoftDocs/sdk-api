@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.AssocCreate
-title: AssocCreate function
+title: AssocCreate function (shlwapi.h)
 author: windows-sdk-content
 description: Returns a pointer to an IQueryAssociations object.
 old-location: shell\AssocCreate.htm

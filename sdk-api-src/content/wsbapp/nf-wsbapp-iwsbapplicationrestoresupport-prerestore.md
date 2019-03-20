@@ -1,6 +1,6 @@
 ---
 UID: NF:wsbapp.IWsbApplicationRestoreSupport.PreRestore
-title: IWsbApplicationRestoreSupport::PreRestore
+title: IWsbApplicationRestoreSupport::PreRestore (wsbapp.h)
 author: windows-sdk-content
 description: Performs application-specific PreRestore operations.
 old-location: wsb\iwsbapplicationrestoresupport_prerestore.htm

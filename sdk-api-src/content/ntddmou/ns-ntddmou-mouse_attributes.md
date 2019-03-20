@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmou._MOUSE_ATTRIBUTES
-title: MOUSE_ATTRIBUTES
+title: MOUSE_ATTRIBUTES (ntddmou.h)
 author: windows-sdk-content
 description: MOUSE_ATTRIBUTES specifies the attributes of a mouse device.
 old-location: hid\mouse_attributes.htm

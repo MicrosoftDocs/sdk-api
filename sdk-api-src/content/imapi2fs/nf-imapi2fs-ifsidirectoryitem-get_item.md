@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem.get_Item
-title: IFsiDirectoryItem::get_Item
+title: IFsiDirectoryItem::get_Item (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the specified directory or file item from file system image.
 old-location: imapi\ifsidirectoryitem_get_item.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11._D3D11_AES_CTR_IV
-title: D3D11_AES_CTR_IV
+title: D3D11_AES_CTR_IV (d3d11.h)
 author: windows-sdk-content
 description: Contains an initialization vector (IV) for 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher encryption.
 old-location: mf\d3d11_aes_ctr_iv.htm

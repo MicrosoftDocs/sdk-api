@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRole.get_MembersName
-title: IAzRole::get_MembersName
+title: IAzRole::get_MembersName (azroles.h)
 author: windows-sdk-content
 description: Retrieves the account names of accounts that belong to the role.
 old-location: security\iazrole_membersname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzInitializeCompoundContext
-title: AuthzInitializeCompoundContext function
+title: AuthzInitializeCompoundContext function (authz.h)
 author: windows-sdk-content
 description: Creates a user-mode context from the given user and device security contexts.
 old-location: security\authzinitializecompoundcontext.htm

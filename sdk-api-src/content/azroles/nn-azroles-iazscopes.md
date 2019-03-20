@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzScopes
-title: IAzScopes
+title: IAzScopes (azroles.h)
 author: windows-sdk-content
 description: Represents a collection of IAzScope objects.
 old-location: security\iazscopes.htm

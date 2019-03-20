@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_DISK_EXTENT
-title: VDS_DISK_EXTENT
+title: VDS_DISK_EXTENT (vds.h)
 author: windows-sdk-content
 description: Defines the properties of a disk extent.
 old-location: base\vds_disk_extent.htm

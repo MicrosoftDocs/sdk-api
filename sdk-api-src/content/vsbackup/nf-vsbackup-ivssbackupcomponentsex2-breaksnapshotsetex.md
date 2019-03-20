@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx2.BreakSnapshotSetEx
-title: IVssBackupComponentsEx2::BreakSnapshotSetEx
+title: IVssBackupComponentsEx2::BreakSnapshotSetEx (vsbackup.h)
 author: windows-sdk-content
 description: Breaks a shadow copy set according to requester-specified options.
 old-location: base\ivssbackupcomponentsex2_breaksnapshotsetex.htm

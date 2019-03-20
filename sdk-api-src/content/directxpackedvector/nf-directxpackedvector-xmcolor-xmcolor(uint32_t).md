@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMCOLOR.XMCOLOR(uint32_t)
-title: XMCOLOR::XMCOLOR(uint32_t)
+title: XMCOLOR::XMCOLOR(uint32_t) (directxpackedvector.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMCOLOR from a uint32_t variable containing component data in a packed format.
 old-location: dxmath\xmcolor_ctor_2.htm

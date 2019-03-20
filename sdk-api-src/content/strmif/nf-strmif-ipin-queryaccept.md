@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IPin.QueryAccept
-title: IPin::QueryAccept
+title: IPin::QueryAccept (strmif.h)
 author: windows-sdk-content
 description: The QueryAccept method determines whether the pin accepts a specified media type.
 old-location: dshow\ipin_queryaccept.htm

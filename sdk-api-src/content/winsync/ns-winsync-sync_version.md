@@ -1,6 +1,6 @@
 ---
 UID: NS:winsync._SYNC_VERSION
-title: SYNC_VERSION
+title: SYNC_VERSION (winsync.h)
 author: windows-sdk-content
 description: Represents a version for an item or a change unit.
 old-location: winsync\sync_version.htm

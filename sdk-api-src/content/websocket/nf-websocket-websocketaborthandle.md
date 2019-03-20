@@ -1,6 +1,6 @@
 ---
 UID: NF:websocket.WebSocketAbortHandle
-title: WebSocketAbortHandle function
+title: WebSocketAbortHandle function (websocket.h)
 author: windows-sdk-content
 description: Aborts a WebSocket session handle created by WebSocketCreateClientHandle or WebSocketCreateServerHandle.
 old-location: websock\websocketaborthandle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:elscore._MAPPING_ENUM_OPTIONS
-title: MAPPING_ENUM_OPTIONS
+title: MAPPING_ENUM_OPTIONS (elscore.h)
 author: windows-sdk-content
 description: Contains options used by the MappingGetServices function to enumerate ELS services.
 old-location: intl\mappingenumoptions.htm

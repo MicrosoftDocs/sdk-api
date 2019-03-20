@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIObject.SetPrivateData
-title: IDXGIObject::SetPrivateData
+title: IDXGIObject::SetPrivateData (dxgi.h)
 author: windows-sdk-content
 description: Sets application-defined data to the object and associates that data with a GUID.
 old-location: direct3ddxgi\idxgiobject_setprivatedata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_3.IDWriteRemoteFontFileLoader
-title: IDWriteRemoteFontFileLoader
+title: IDWriteRemoteFontFileLoader (dwrite_3.h)
 author: windows-sdk-content
 description: Represents a font file loader that can access remote (i.e., downloadable) fonts.
 old-location: directwrite\idwriteremotefontfileloader.htm

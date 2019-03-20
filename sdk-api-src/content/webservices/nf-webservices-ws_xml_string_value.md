@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WS_XML_STRING_VALUE
-title: WS_XML_STRING_VALUE macro
+title: WS_XML_STRING_VALUE macro (webservices.h)
 author: windows-sdk-content
 description: Provides an initializer for a WS_XML_STRING structure when there is no associated dictionary ID.
 old-location: wsw\ws_xml_string_value.htm

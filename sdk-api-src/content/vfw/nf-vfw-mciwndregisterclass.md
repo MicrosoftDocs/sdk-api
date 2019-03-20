@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndRegisterClass
-title: MCIWndRegisterClass function
+title: MCIWndRegisterClass function (vfw.h)
 author: windows-sdk-content
 description: The MCIWndRegisterClass function registers the MCI window class MCIWND_WINDOW_CLASS.
 old-location: multimedia\mciwndregisterclass.htm

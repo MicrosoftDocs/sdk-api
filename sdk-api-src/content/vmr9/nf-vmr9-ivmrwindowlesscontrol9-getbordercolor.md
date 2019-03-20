@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRWindowlessControl9.GetBorderColor
-title: IVMRWindowlessControl9::GetBorderColor
+title: IVMRWindowlessControl9::GetBorderColor (vmr9.h)
 author: windows-sdk-content
 description: The GetBorderColor method retrieves the current border color used by the VMR.
 old-location: dshow\ivmrwindowlesscontrol9_getbordercolor.htm

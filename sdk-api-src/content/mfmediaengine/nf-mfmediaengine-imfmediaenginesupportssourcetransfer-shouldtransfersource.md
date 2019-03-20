@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSupportsSourceTransfer.ShouldTransferSource
-title: IMFMediaEngineSupportsSourceTransfer::ShouldTransferSource
+title: IMFMediaEngineSupportsSourceTransfer::ShouldTransferSource (mfmediaengine.h)
 author: windows-sdk-content
 description: Specifies wether or not the source should be transferred.
 old-location: mf\imfmediaenginesupportssourcetransfer_shouldtransfersource.htm

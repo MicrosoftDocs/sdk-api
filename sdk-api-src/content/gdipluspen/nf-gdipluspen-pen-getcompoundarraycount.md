@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.GetCompoundArrayCount
-title: Pen::GetCompoundArrayCount
+title: Pen::GetCompoundArrayCount (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::GetCompoundArrayCount method gets the number of elements in a compound array.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetCompoundArrayCount_.htm

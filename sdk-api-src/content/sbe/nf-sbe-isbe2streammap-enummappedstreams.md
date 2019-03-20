@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.ISBE2StreamMap.EnumMappedStreams
-title: ISBE2StreamMap::EnumMappedStreams
+title: ISBE2StreamMap::EnumMappedStreams (sbe.h)
 author: windows-sdk-content
 description: Enumerates streams that are mapped to output pins in a Stream Buffer Source filter.
 old-location: mstv\isbe2streammap_enummappedstreams.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsecure.IWMGetSecureChannel.GetPeerSecureChannelInterface
-title: IWMGetSecureChannel::GetPeerSecureChannelInterface
+title: IWMGetSecureChannel::GetPeerSecureChannelInterface (wmsecure.h)
 author: windows-sdk-content
 description: The GetPeerSecureChannelInterface method gets the IWMSecureChannel interface from the other communication party.
 old-location: wmformat\iwmgetsecurechannel_getpeersecurechannelinterface.htm

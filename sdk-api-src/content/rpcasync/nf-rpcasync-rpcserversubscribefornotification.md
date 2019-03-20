@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcasync.RpcServerSubscribeForNotification
-title: RpcServerSubscribeForNotification function
+title: RpcServerSubscribeForNotification function (rpcasync.h)
 author: windows-sdk-content
 description: Subscribes the server for RPC notifications.
 old-location: rpc\rpcserversubscribefornotification.htm

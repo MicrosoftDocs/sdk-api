@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbLoadBalancing.GetMostSuitableTarget
-title: ITsSbLoadBalancing::GetMostSuitableTarget
+title: ITsSbLoadBalancing::GetMostSuitableTarget (sbtsv.h)
 author: windows-sdk-content
 description: Determines the most suitable target to which to direct an incoming client connection.
 old-location: termserv\itssbloadbalancing_getmostsuitabletarget.htm

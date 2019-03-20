@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationValuePattern.get_CachedIsReadOnly
-title: IUIAutomationValuePattern::get_CachedIsReadOnly
+title: IUIAutomationValuePattern::get_CachedIsReadOnly (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached value that indicates whether the value of the element is read-only.
 old-location: winauto\uiauto_IUIAutomationValuePattern_CachedIsReadOnly.htm

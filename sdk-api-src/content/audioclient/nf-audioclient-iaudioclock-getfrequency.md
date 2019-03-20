@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioClock.GetFrequency
-title: IAudioClock::GetFrequency
+title: IAudioClock::GetFrequency (audioclient.h)
 author: windows-sdk-content
 description: The GetFrequency method gets the device frequency.
 old-location: coreaudio\iaudioclock_getfrequency.htm

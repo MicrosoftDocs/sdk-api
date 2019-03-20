@@ -1,6 +1,6 @@
 ---
 UID: NF:imm.ImmGetGuideLineA
-title: ImmGetGuideLineA function
+title: ImmGetGuideLineA function (imm.h)
 author: windows-sdk-content
 description: Retrieves information about errors. Applications use the information for user notifications.
 old-location: intl\immgetguideline.htm

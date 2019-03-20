@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.GetObjectText
-title: IWbemClassObject::GetObjectText
+title: IWbemClassObject::GetObjectText (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemClassObject::GetObjectText method returns a textual rendering of the object in the MOF syntax.
 old-location: wmi\iwbemclassobject_getobjecttext.htm

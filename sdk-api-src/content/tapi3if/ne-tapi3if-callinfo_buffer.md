@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.CALLINFO_BUFFER
-title: CALLINFO_BUFFER
+title: CALLINFO_BUFFER (tapi3if.h)
 author: windows-sdk-content
 description: The CALLINFO_BUFFER enum indicates the type of buffer accessed by the ITCallInfo::GetCallInfoBuffer method or the ITCallInfo::SetCallInfoBuffer method.
 old-location: tapi3\callinfo_buffer.htm

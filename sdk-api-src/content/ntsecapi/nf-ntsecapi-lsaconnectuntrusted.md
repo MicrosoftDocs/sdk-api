@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.LsaConnectUntrusted
-title: LsaConnectUntrusted function
+title: LsaConnectUntrusted function (ntsecapi.h)
 author: windows-sdk-content
 description: Establishes an untrusted connection to the LSA server.
 old-location: security\lsaconnectuntrusted.htm

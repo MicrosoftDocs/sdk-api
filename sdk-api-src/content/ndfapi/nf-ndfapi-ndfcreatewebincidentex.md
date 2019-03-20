@@ -1,6 +1,6 @@
 ---
 UID: NF:ndfapi.NdfCreateWebIncidentEx
-title: NdfCreateWebIncidentEx function
+title: NdfCreateWebIncidentEx function (ndfapi.h)
 author: windows-sdk-content
 description: Diagnoses web connectivity problems.
 old-location: ndf\ndfcreatewebincidentex.htm

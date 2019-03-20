@@ -1,6 +1,6 @@
 ---
 UID: NF:sysinfoapi.GetVersion
-title: GetVersion function
+title: GetVersion function (sysinfoapi.h)
 author: windows-sdk-content
 description: With the release of Windows 8.1, the behavior of the GetVersion API has changed in the value it will return for the operating system version. The value returned by the GetVersion function now depends on how the application is manifested.
 old-location: base\getversion.htm

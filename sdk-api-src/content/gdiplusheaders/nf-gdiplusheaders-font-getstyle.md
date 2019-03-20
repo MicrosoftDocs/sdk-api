@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Font.GetStyle
-title: Font::GetStyle
+title: Font::GetStyle (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Font::GetStyle method gets the style of this font's typeface.
 old-location: gdiplus\_gdiplus_CLASS_Font_GetStyle_.htm

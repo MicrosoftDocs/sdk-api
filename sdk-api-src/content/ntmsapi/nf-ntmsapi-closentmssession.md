@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.CloseNtmsSession
-title: CloseNtmsSession function
+title: CloseNtmsSession function (ntmsapi.h)
 author: windows-sdk-content
 description: The CloseNtmsSession function closes the specified RSM session.
 old-location: fs\closentmssession.htm

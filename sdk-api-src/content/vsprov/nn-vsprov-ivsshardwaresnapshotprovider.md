@@ -1,6 +1,6 @@
 ---
 UID: NN:vsprov.IVssHardwareSnapshotProvider
-title: IVssHardwareSnapshotProvider
+title: IVssHardwareSnapshotProvider (vsprov.h)
 author: windows-sdk-content
 description: Contains the methods used by VSS to map volumes to LUNs, discover LUNs created during the shadow copy process, and transport LUNs on a SAN.
 old-location: base\ivsshardwaresnapshotprovider.htm

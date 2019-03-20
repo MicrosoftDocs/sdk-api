@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaManager.get_ActionVariables
-title: IFsrmQuotaManager::get_ActionVariables
+title: IFsrmQuotaManager::get_ActionVariables (fsrmquota.h)
 author: windows-sdk-content
 description: Retrieves a list of macros that you can specify in action property values.
 old-location: fsrm\ifsrmquotamanager_actionvariables.htm

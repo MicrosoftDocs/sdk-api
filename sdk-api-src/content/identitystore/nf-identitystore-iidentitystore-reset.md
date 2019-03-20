@@ -1,6 +1,6 @@
 ---
 UID: NF:identitystore.IIdentityStore.Reset
-title: IIdentityStore::Reset
+title: IIdentityStore::Reset (identitystore.h)
 author: windows-sdk-content
 description: Sets the current index of the identity enumeration to zero.
 old-location: security\iidentitystore_reset.htm

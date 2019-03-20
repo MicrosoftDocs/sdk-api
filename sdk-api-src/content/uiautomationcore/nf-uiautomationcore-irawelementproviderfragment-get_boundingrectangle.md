@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderFragment.get_BoundingRectangle
-title: IRawElementProviderFragment::get_BoundingRectangle
+title: IRawElementProviderFragment::get_BoundingRectangle (uiautomationcore.h)
 author: windows-sdk-content
 description: Specifies the bounding rectangle of this element.
 old-location: winauto\uiauto_IRawElementProviderFragment_BoundingRectangle.htm

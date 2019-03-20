@@ -1,6 +1,6 @@
 ---
 UID: NE:appmodel.AppPolicyShowDeveloperDiagnostic
-title: AppPolicyShowDeveloperDiagnostic
+title: AppPolicyShowDeveloperDiagnostic (appmodel.h)
 author: windows-sdk-content
 description: The AppPolicyShowDeveloperDiagnostic enumeration indicates the method used for a process to surface developer information, such as asserts, to the user.
 old-location: appxpkg\apppolicyshowdeveloperdiagnostic_enumeration.htm

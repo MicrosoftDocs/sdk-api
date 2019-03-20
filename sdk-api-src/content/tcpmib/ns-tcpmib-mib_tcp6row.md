@@ -1,6 +1,6 @@
 ---
 UID: NS:tcpmib._MIB_TCP6ROW
-title: MIB_TCP6ROW
+title: MIB_TCP6ROW (tcpmib.h)
 author: windows-sdk-content
 description: Contains information that describes an IPv6 TCP connection.
 old-location: mib\mib_tcp6row.htm

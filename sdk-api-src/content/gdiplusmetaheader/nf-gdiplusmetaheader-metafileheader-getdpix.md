@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.GetDpiX
-title: MetafileHeader::GetDpiX
+title: MetafileHeader::GetDpiX (gdiplusmetaheader.h)
 author: windows-sdk-content
 description: The MetafileHeader::GetDpiX method gets the horizontal dots per inch of the associated metafile.
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetDpiX_.htm

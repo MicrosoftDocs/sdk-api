@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMTimecodeGenerator
-title: IAMTimecodeGenerator
+title: IAMTimecodeGenerator (strmif.h)
 author: windows-sdk-content
 description: The IAMTimecodeGenerator interface controls how an external SMPTE/MIDI timecode generator supplies data to the filter graph.DirectShow currently does not provide any filters that implement this interface.
 old-location: dshow\iamtimecodegenerator.htm

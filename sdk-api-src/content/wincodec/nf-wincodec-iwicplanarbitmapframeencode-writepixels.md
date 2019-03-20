@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICPlanarBitmapFrameEncode.WritePixels
-title: IWICPlanarBitmapFrameEncode::WritePixels
+title: IWICPlanarBitmapFrameEncode::WritePixels (wincodec.h)
 author: windows-sdk-content
 description: Writes lines from the source planes to the encoded format.
 old-location: wic\iwicplanarbitmapframeencode_writepixels.htm

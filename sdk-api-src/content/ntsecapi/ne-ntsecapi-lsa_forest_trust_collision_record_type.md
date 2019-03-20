@@ -1,6 +1,6 @@
 ---
 UID: NE:ntsecapi.__unnamed_enum_1
-title: LSA_FOREST_TRUST_COLLISION_RECORD_TYPE
+title: LSA_FOREST_TRUST_COLLISION_RECORD_TYPE (ntsecapi.h)
 author: windows-sdk-content
 description: Defines the types of collision that can occur between Local Security Authority forest trust records.
 old-location: security\lsa_forest_trust_collision_record_type.htm

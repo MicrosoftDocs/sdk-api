@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.IEnumPluggableSuperclassInfo
-title: IEnumPluggableSuperclassInfo
+title: IEnumPluggableSuperclassInfo (tapi3if.h)
 author: windows-sdk-content
 description: The IEnumPluggableSuperclassInfo interface provides COM-standard enumeration methods for the ITPluggableTerminalSuperclassInfo interface. The ITTerminalSupport2::EnumeratePluggableSuperclasses method returns a pointer to IEnumPluggableSuperclassInfo.
 old-location: tapi3\ienumpluggablesuperclassinfo.htm

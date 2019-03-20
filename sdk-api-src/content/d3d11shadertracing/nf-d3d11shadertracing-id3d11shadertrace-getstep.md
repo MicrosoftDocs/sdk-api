@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shadertracing.ID3D11ShaderTrace.GetStep
-title: ID3D11ShaderTrace::GetStep
+title: ID3D11ShaderTrace::GetStep (d3d11shadertracing.h)
 author: windows-sdk-content
 description: Retrieves information about the specified step in the trace.
 old-location: direct3d11\id3d11shadertrace_getstep.htm

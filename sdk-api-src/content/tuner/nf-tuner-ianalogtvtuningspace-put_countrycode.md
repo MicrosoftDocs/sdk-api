@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IAnalogTVTuningSpace.put_CountryCode
-title: IAnalogTVTuningSpace::put_CountryCode
+title: IAnalogTVTuningSpace::put_CountryCode (tuner.h)
 author: windows-sdk-content
 description: The put_CountryCode method sets the country/region code of the tuning space (based on TAPI country/region codes).
 old-location: mstv\ianalogtvtuningspace_put_countrycode.htm

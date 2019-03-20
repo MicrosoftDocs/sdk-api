@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetCurrentPositionEx
-title: GetCurrentPositionEx function
+title: GetCurrentPositionEx function (wingdi.h)
 author: windows-sdk-content
 description: The GetCurrentPositionEx function retrieves the current position in logical coordinates.
 old-location: gdi\getcurrentpositionex.htm

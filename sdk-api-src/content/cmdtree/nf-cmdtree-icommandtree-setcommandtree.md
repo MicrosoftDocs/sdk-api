@@ -1,6 +1,6 @@
 ---
 UID: NF:cmdtree.ICommandTree.SetCommandTree
-title: ICommandTree::SetCommandTree
+title: ICommandTree::SetCommandTree (cmdtree.h)
 author: windows-sdk-content
 description: The ICommandTree::SetCommandTree method sets a command object's command tree, replacing the existing one or replacing a text command specified with the ICommandText interface.
 old-location: indexsrv\icommandtree_setcommandtree.htm

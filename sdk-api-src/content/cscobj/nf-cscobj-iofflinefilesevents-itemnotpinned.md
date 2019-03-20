@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.ItemNotPinned
-title: IOfflineFilesEvents::ItemNotPinned
+title: IOfflineFilesEvents::ItemNotPinned (cscobj.h)
 author: windows-sdk-content
 description: Reports that an item in the Offline Files cache is no longer pinned.
 old-location: of\iofflinefilesevents_itemnotpinned.htm

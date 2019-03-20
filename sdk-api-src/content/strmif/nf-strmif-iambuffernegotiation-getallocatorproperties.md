@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMBufferNegotiation.GetAllocatorProperties
-title: IAMBufferNegotiation::GetAllocatorProperties
+title: IAMBufferNegotiation::GetAllocatorProperties (strmif.h)
 author: windows-sdk-content
 description: The GetAllocatorProperties method retrieves the allocator properties that the pin is using.
 old-location: dshow\iambuffernegotiation_getallocatorproperties.htm

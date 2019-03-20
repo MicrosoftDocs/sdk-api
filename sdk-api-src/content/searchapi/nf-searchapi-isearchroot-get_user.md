@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_User
-title: ISearchRoot::get_User
+title: ISearchRoot::get_User (searchapi.h)
 author: windows-sdk-content
 description: Not implemented.
 old-location: search\_search_ISearchRoot_get_User.htm

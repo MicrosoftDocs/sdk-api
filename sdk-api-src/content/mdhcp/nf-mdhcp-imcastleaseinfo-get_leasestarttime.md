@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IMcastLeaseInfo.get_LeaseStartTime
-title: IMcastLeaseInfo::get_LeaseStartTime
+title: IMcastLeaseInfo::get_LeaseStartTime (mdhcp.h)
 author: windows-sdk-content
 description: The get_LeaseStartTime method obtains the start time of the lease.
 old-location: tapi3\imcastleaseinfo_get_leasestarttime.htm

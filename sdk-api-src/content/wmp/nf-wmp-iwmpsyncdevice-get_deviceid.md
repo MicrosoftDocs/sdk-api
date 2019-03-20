@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.get_deviceId
-title: IWMPSyncDevice::get_deviceId
+title: IWMPSyncDevice::get_deviceId (wmp.h)
 author: windows-sdk-content
 description: The get_deviceId method retrieves the device identifier string.
 old-location: wmp\iwmpsyncdevice_get_deviceid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMColorRGBToSRGB
-title: XMColorRGBToSRGB function
+title: XMColorRGBToSRGB function (directxmath.h)
 author: windows-sdk-content
 description: Converts an RGB color vector to sRGB.
 old-location: dxmath\_xmcolorrgbtosrgb.htm

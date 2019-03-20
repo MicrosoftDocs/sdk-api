@@ -1,6 +1,6 @@
 ---
 UID: NF:chstrarr.CHStringArray.RemoveAt
-title: CHStringArray::RemoveAt
+title: CHStringArray::RemoveAt (chstrarr.h)
 author: windows-sdk-content
 description: The RemoveAt method removes one or more elements starting at a specified index in an array.
 old-location: wmi\chstringarray_removeat.htm

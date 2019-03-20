@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssProviderCreateSnapshotSet.CommitSnapshots
-title: IVssProviderCreateSnapshotSet::CommitSnapshots
+title: IVssProviderCreateSnapshotSet::CommitSnapshots (vsprov.h)
 author: windows-sdk-content
 description: Quickly commits all LUNs in this provider.
 old-location: base\ivssprovidercreatesnapshotset_commitsnapshots.htm

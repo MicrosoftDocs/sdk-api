@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorATan2Est
-title: XMVectorATan2Est function
+title: XMVectorATan2Est function (directxmath.h)
 author: windows-sdk-content
 description: Estimates the arctangent of Y/X.
 old-location: dxmath\xmvectoratan2est.htm

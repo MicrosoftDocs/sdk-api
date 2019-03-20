@@ -1,6 +1,6 @@
 ---
 UID: NE:tcpestats.__unnamed_enum_1
-title: TCP_SOFT_ERROR
+title: TCP_SOFT_ERROR (tcpestats.h)
 author: windows-sdk-content
 description: Defines the reason for non-fatal or soft errors recorded on a TCP connection.
 old-location: iphlp\tcp_soft_error.htm

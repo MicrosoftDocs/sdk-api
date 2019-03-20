@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_Merge
-title: ImageList_Merge function
+title: ImageList_Merge function (commctrl.h)
 author: windows-sdk-content
 description: Creates a new image by combining two existing images. The function also creates a new image list in which to store the image.
 old-location: controls\ImageList_Merge.htm

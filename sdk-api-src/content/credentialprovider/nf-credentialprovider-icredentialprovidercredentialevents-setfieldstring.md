@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents.SetFieldString
-title: ICredentialProviderCredentialEvents::SetFieldString
+title: ICredentialProviderCredentialEvents::SetFieldString (credentialprovider.h)
 author: windows-sdk-content
 description: Communicates to the Logon UI or Credential UI that the string associated with a field has changed and that the UI should be updated.
 old-location: shell\ICredentialProviderCredentialEvents_SetFieldString.htm

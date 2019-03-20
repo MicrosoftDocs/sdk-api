@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchRoot.put_EnumerationDepth
-title: ISearchRoot::put_EnumerationDepth
+title: ISearchRoot::put_EnumerationDepth (searchapi.h)
 author: windows-sdk-content
 description: Sets the enumeration depth for this search root.
 old-location: search\_search_ISearchRoot_put_EnumerationDepth.htm

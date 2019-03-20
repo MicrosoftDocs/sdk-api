@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSession.CreateUpdateInstaller
-title: IUpdateSession::CreateUpdateInstaller
+title: IUpdateSession::CreateUpdateInstaller (wuapi.h)
 author: windows-sdk-content
 description: Returns an IUpdateInstaller interface for this session.
 old-location: wua\iupdatesession_createupdateinstaller.htm

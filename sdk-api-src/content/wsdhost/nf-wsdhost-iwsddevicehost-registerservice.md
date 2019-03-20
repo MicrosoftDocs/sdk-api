@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.RegisterService
-title: IWSDDeviceHost::RegisterService
+title: IWSDDeviceHost::RegisterService (wsdhost.h)
 author: windows-sdk-content
 description: Registers a service object for incoming requests and adds the service to the device host metadata.
 old-location: ncd\iwsddevicehost_registerservice_method.htm

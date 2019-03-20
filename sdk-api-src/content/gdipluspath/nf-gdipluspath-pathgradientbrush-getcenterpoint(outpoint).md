@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.GetCenterPoint(OUT Point)
-title: PathGradientBrush::GetCenterPoint(OUT Point)
+title: PathGradientBrush::GetCenterPoint(OUT Point) (gdipluspath.h)
 author: windows-sdk-content
 description: The PathGradientBrush::GetCenterPoint method gets the center point of this path gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetCenterPoint_Point_point_.htm

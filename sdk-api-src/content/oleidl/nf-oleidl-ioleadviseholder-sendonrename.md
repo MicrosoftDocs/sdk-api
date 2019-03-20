@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleAdviseHolder.SendOnRename
-title: IOleAdviseHolder::SendOnRename
+title: IOleAdviseHolder::SendOnRename (oleidl.h)
 author: windows-sdk-content
 description: Sends notification to all advisory sinks currently registered with the advise holder that the name of object has changed.
 old-location: com\ioleadviseholder_sendonrename.htm

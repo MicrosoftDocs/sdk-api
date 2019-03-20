@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2ipdef.group_req
-title: GROUP_REQ
+title: GROUP_REQ (ws2ipdef.h)
 author: windows-sdk-content
 description: Provides multicast group information for IPv6 or IPv4 addresses.
 old-location: winsock\group_req.htm

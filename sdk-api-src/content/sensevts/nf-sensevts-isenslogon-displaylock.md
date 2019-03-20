@@ -1,6 +1,6 @@
 ---
 UID: NF:sensevts.ISensLogon.DisplayLock
-title: ISensLogon::DisplayLock
+title: ISensLogon::DisplayLock (sensevts.h)
 author: windows-sdk-content
 description: The DisplayLock method notifies an application that the screen display is locked.
 old-location: sens\isenslogon_displaylock.htm

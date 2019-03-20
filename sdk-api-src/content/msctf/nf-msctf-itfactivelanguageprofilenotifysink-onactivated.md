@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfActiveLanguageProfileNotifySink.OnActivated
-title: ITfActiveLanguageProfileNotifySink::OnActivated
+title: ITfActiveLanguageProfileNotifySink::OnActivated (msctf.h)
 author: windows-sdk-content
 description: ITfActiveLanguageProfileNotifySink::OnActivated method
 old-location: tsf\itfactivelanguageprofilenotifysink_onactivated.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformation.InitializeFromName
-title: ICspInformation::InitializeFromName
+title: ICspInformation::InitializeFromName (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from a string that contains a provider name.
 old-location: security\icspinformation_initializefromname_method.htm

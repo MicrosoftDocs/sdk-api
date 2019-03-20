@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileIsInUse.GetCapabilities
-title: IFileIsInUse::GetCapabilities
+title: IFileIsInUse::GetCapabilities (shobjidl_core.h)
 author: windows-sdk-content
 description: Determines whether the file can be closed and whether the UI is capable of switching to the window of the application that is using the file.
 old-location: shell\IFileIsInUse_GetCapabilities.htm

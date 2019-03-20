@@ -1,6 +1,6 @@
 ---
 UID: NN:gpmgmt.IGPMStarterGPOBackup
-title: IGPMStarterGPOBackup
+title: IGPMStarterGPOBackup (gpmgmt.h)
 author: windows-sdk-content
 description: The IGPMStarterGPOBackup interface supports methods that allow you to delete GPMStarterGPOBackup objects and to retrieve various properties of GPMStarterGPOBackup objects.
 old-location: gpmc\igpmstartergpobackup.htm

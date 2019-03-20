@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.ConvertInterfaceAliasToLuid
-title: ConvertInterfaceAliasToLuid function
+title: ConvertInterfaceAliasToLuid function (netioapi.h)
 author: windows-sdk-content
 description: Converts an interface alias name for a network interface to the locally unique identifier (LUID) for the interface.
 old-location: iphlp\convertinterfacealiastoluid.htm

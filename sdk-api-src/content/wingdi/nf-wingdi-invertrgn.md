@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.InvertRgn
-title: InvertRgn function
+title: InvertRgn function (wingdi.h)
 author: windows-sdk-content
 description: The InvertRgn function inverts the colors in the specified region.
 old-location: gdi\invertrgn.htm

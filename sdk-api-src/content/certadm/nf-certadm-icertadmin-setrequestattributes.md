@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.ICertAdmin.SetRequestAttributes
-title: ICertAdmin::SetRequestAttributes
+title: ICertAdmin::SetRequestAttributes (certadm.h)
 author: windows-sdk-content
 description: Sets attributes in the specified pending certificate request. This method was first defined in the ICertAdmin interface.
 old-location: security\icertadmin2_setrequestattributes.htm

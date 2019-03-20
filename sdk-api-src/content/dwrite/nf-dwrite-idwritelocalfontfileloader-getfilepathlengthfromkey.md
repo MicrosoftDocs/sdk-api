@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteLocalFontFileLoader.GetFilePathLengthFromKey
-title: IDWriteLocalFontFileLoader::GetFilePathLengthFromKey
+title: IDWriteLocalFontFileLoader::GetFilePathLengthFromKey (dwrite.h)
 author: windows-sdk-content
 description: Obtains the length of the absolute file path from the font file reference key.
 old-location: directwrite\idwritelocalfontfileloader_getfilepathlengthfromkey.htm

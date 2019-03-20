@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_SMIME_CAPABILITIES
-title: CRYPT_SMIME_CAPABILITIES
+title: CRYPT_SMIME_CAPABILITIES (wincrypt.h)
 author: windows-sdk-content
 description: Contains a prioritized array of supported capabilities.
 old-location: security\crypt_smime_capabilities.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._WCRUN
-title: WCRUN
+title: WCRUN (winddi.h)
 author: windows-sdk-content
 description: The WCRUN structure describes a run of Unicode characters.
 old-location: display\wcrun.htm

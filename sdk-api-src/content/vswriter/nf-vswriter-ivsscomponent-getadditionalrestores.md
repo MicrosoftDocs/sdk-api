@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.GetAdditionalRestores
-title: IVssComponent::GetAdditionalRestores
+title: IVssComponent::GetAdditionalRestores (vswriter.h)
 author: windows-sdk-content
 description: The GetAdditionalRestores method is used by a writer during incremental or differential restore operations to determine whether a given component will require additional restore operations to completely retrieve it.
 old-location: base\ivsscomponent_getadditionalrestores.htm

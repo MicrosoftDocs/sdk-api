@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineGetIcon
-title: TSPI_lineGetIcon function
+title: TSPI_lineGetIcon function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineGetIcon function retrieves a service line device-specific icon to display to the user.
 old-location: tspi\tspi_linegeticon.htm

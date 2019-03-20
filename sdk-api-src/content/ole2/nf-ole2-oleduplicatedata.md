@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleDuplicateData
-title: OleDuplicateData function
+title: OleDuplicateData function (ole2.h)
 author: windows-sdk-content
 description: Duplicates the data found in the specified handle and returns a handle to the duplicated data. The source data is in a clipboard format. Use this function to help implement some of the data transfer interfaces such as IDataObject.
 old-location: com\oleduplicatedata.htm

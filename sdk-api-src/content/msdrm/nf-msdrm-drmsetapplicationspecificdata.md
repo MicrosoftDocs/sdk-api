@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMSetApplicationSpecificData
-title: DRMSetApplicationSpecificData function
+title: DRMSetApplicationSpecificData function (msdrm.h)
 author: windows-sdk-content
 description: Allows an issuance license to store arbitrary name-value pairs for use by the content-consuming application.
 old-location: rm\drmsetapplicationspecificdata.htm

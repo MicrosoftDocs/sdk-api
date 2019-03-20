@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP2.GetStatus
-title: ITextStoreACP2::GetStatus
+title: ITextStoreACP2::GetStatus (textstor.h)
 author: windows-sdk-content
 description: Gets the document status. The document status is returned through the TS_STATUS structure.
 old-location: tsf\itextstoreacp2_getstatus.htm

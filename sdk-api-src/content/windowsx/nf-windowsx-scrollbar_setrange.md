@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ScrollBar_SetRange
-title: ScrollBar_SetRange macro
+title: ScrollBar_SetRange macro (windowsx.h)
 author: windows-sdk-content
 description: Sets the range of a scroll bar.
 old-location: controls\ScrollBar_SetRange.htm

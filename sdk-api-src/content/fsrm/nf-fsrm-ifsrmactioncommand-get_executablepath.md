@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmActionCommand.get_ExecutablePath
-title: IFsrmActionCommand::get_ExecutablePath
+title: IFsrmActionCommand::get_ExecutablePath (fsrm.h)
 author: windows-sdk-content
 description: Retrieves or sets the full path to the executable program or script to run.
 old-location: fsrm\ifsrmactioncommand_executablepath.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnActivityLoggingConfigChange
-title: "_IFaxServerNotify2::OnActivityLoggingConfigChange"
+title: "_IFaxServerNotify2::OnActivityLoggingConfigChange" (faxcomex.h)
 author: windows-sdk-content
 description: The fax service calls the IFaxServerNotify2::OnActivityLoggingConfigChange method when there is a configuration change related to activity logging.
 old-location: fax\_mfax_ifaxservernotify2_onactivityloggingconfigchange.htm

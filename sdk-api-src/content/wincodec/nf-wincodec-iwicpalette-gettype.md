@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICPalette.GetType
-title: IWICPalette::GetType
+title: IWICPalette::GetType (wincodec.h)
 author: windows-sdk-content
 description: Retrieves the WICBitmapPaletteType that describes the palette.
 old-location: wic\_wic_codec_iwicpalette_gettype.htm

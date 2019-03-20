@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartUriCollection.Append
-title: IXpsOMPartUriCollection::Append
+title: IXpsOMPartUriCollection::Append (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Appends an IOpcPartUri interface to the end of the collection.
 old-location: xps\ixpsomparturicollection_append.htm

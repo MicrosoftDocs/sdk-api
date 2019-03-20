@@ -1,6 +1,6 @@
 ---
 UID: NE:rend.RND_ADVERTISING_SCOPE
-title: RND_ADVERTISING_SCOPE
+title: RND_ADVERTISING_SCOPE (rend.h)
 author: windows-sdk-content
 description: Members of the RND_ADVERTISING_SCOPE enumeration specify how widely a conference announcement is distributed. Values correspond to the advertising scope property on the ITDirectoryObjectConference interface.
 old-location: tapi3\rnd_advertising_scope.htm

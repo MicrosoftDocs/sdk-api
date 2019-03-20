@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.get_BassRange
-title: IAMAudioInputMixer::get_BassRange
+title: IAMAudioInputMixer::get_BassRange (strmif.h)
 author: windows-sdk-content
 description: The get_BassRange method retrieves the bass range.
 old-location: dshow\iamaudioinputmixer_get_bassrange.htm

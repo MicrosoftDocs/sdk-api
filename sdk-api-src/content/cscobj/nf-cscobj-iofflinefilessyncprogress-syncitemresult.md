@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncProgress.SyncItemResult
-title: IOfflineFilesSyncProgress::SyncItemResult
+title: IOfflineFilesSyncProgress::SyncItemResult (cscobj.h)
 author: windows-sdk-content
 description: Reports that an item has been processed during the synchronization operation.
 old-location: of\iofflinefilessyncprogress_syncitemresult.htm

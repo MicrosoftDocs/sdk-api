@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.IAGetPrimitiveTopology
-title: ID3D10Device::IAGetPrimitiveTopology
+title: ID3D10Device::IAGetPrimitiveTopology (d3d10.h)
 author: windows-sdk-content
 description: Get information about the primitive type, and data order that describes input data for the input assembler stage.
 old-location: direct3d10\id3d10device_iagetprimitivetopology.htm

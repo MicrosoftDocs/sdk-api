@@ -1,6 +1,6 @@
 ---
 UID: NS:bits5_0.__MIDL___MIDL_itf_bits5_0_0000_0000_0003
-title: BITS_JOB_PROPERTY_VALUE
+title: BITS_JOB_PROPERTY_VALUE (bits5_0.h)
 author: windows-sdk-content
 description: Provides the property value of the BITS job based on the value of the BITS_JOB_PROPERTY_ID enumeration.
 old-location: bits\bits_job_property_value.htm

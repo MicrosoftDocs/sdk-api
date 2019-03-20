@@ -1,6 +1,6 @@
 ---
 UID: NS:rpcasync.tagRPC_ERROR_ENUM_HANDLE
-title: RPC_ERROR_ENUM_HANDLE
+title: RPC_ERROR_ENUM_HANDLE (rpcasync.h)
 author: windows-sdk-content
 description: The RPC_ERROR_ENUM_HANDLE structure provides an enumeration handle used by RpcError* functions for processing extended error information.
 old-location: rpc\rpc_error_enum_handle.htm

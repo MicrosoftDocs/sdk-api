@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorProcessActivity.GetStreamingState
-title: IMFSensorProcessActivity::GetStreamingState
+title: IMFSensorProcessActivity::GetStreamingState (mfidl.h)
 author: windows-sdk-content
 description: Gets a value indicating whether the sensor is currently streaming.
 old-location: mf\imfsensorprocessactivity_getstreamingstate.htm

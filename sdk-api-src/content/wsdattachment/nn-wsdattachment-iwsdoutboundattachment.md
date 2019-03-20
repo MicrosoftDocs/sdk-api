@@ -1,6 +1,6 @@
 ---
 UID: NN:wsdattachment.IWSDOutboundAttachment
-title: IWSDOutboundAttachment
+title: IWSDOutboundAttachment (wsdattachment.h)
 author: windows-sdk-content
 description: Enables applications to send attachment data in a message using a MIME container.
 old-location: ncd\iwsdoutboundattachment.htm

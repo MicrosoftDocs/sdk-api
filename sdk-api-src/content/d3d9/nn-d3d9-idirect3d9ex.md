@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d9.IDirect3D9Ex
-title: IDirect3D9Ex
+title: IDirect3D9Ex (d3d9.h)
 author: windows-sdk-content
 description: Applications use the methods of the IDirect3D9Ex interface (which inherits from IDirect3D9) to create Microsoft Direct3D 9Ex objects and set up the environment.
 old-location: direct3d9\idirect3d9ex.htm

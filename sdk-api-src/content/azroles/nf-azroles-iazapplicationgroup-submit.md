@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.Submit
-title: IAzApplicationGroup::Submit
+title: IAzApplicationGroup::Submit (azroles.h)
 author: windows-sdk-content
 description: Persists changes made to the IAzApplicationGroup object.
 old-location: security\iazapplicationgroup_submit.htm

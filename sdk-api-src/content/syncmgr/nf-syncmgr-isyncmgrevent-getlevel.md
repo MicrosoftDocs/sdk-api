@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetLevel
-title: ISyncMgrEvent::GetLevel
+title: ISyncMgrEvent::GetLevel (syncmgr.h)
 author: windows-sdk-content
 description: Gets the log level of the event.
 old-location: shell\ISyncMgrEvent_GetLevel.htm

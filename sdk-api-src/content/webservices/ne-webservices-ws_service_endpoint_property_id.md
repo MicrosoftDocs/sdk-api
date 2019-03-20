@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_92
-title: WS_SERVICE_ENDPOINT_PROPERTY_ID
+title: WS_SERVICE_ENDPOINT_PROPERTY_ID (webservices.h)
 author: windows-sdk-content
 description: Each property represents optional parameters for configuring the given WS_SERVICE_ENDPOINT structure. This enumeration is used within the WS_SERVICE_ENDPOINT_PROPERTY structure that is part of WS_SERVICE_ENDPOINT.
 old-location: wsw\ws_service_endpoint_property_id.htm

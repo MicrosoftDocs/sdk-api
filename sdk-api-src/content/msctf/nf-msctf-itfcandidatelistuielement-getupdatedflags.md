@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.GetUpdatedFlags
-title: ITfCandidateListUIElement::GetUpdatedFlags
+title: ITfCandidateListUIElement::GetUpdatedFlags (msctf.h)
 author: windows-sdk-content
 description: The ITfCandidateListUIElement::GetUpdatedFlags method returns the flag that tells which part of this element was updated.
 old-location: tsf\itfcandidatelistuielement_getupdatedflags.htm

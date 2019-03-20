@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestDeviceCapabilitiesEnumerator.MoveNext
-title: IAppxManifestDeviceCapabilitiesEnumerator::MoveNext
+title: IAppxManifestDeviceCapabilitiesEnumerator::MoveNext (appxpackaging.h)
 author: windows-sdk-content
 description: Advances the position of the enumerator to the next device capability.
 old-location: appxpkg\iappxmanifestdevicecapabilitiesenumerator_movenext.htm

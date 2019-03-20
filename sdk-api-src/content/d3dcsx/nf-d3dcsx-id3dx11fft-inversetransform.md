@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcsx.ID3DX11FFT.InverseTransform
-title: ID3DX11FFT::InverseTransform
+title: ID3DX11FFT::InverseTransform (d3dcsx.h)
 author: windows-sdk-content
 description: Performs an inverse FFT.
 old-location: direct3d11\id3dx11fft_inversetransform.htm

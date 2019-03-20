@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.PlayerDockedStateChange
-title: IWMPEvents::PlayerDockedStateChange
+title: IWMPEvents::PlayerDockedStateChange (wmp.h)
 author: windows-sdk-content
 description: The PlayerDockedStateChange event occurs when a remoted Windows Media Player control docks or undocks.
 old-location: wmp\iwmpevents_iwmpevents__playerdockedstatechange.htm

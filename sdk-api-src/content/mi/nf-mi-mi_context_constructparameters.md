@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_ConstructParameters
-title: MI_Context_ConstructParameters function
+title: MI_Context_ConstructParameters function (mi.h)
 author: windows-sdk-content
 description: A provider calls this function to initialize a parameter's instance.
 old-location: wmi_v2\mi_context_constructparameters.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:d3dcsx.ID3DX11Scan
-title: ID3DX11Scan
+title: ID3DX11Scan (d3dcsx.h)
 author: windows-sdk-content
 description: Scan context.
 old-location: direct3d11\id3dx11scan.htm

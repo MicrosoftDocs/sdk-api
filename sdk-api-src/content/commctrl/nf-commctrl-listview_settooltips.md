@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_SetToolTips
-title: ListView_SetToolTips macro
+title: ListView_SetToolTips macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the tooltip control that the list-view control will use to display tooltips. You can use this macro or send the LVM_SETTOOLTIPS message explicitly.
 old-location: controls\ListView_SetToolTips.htm

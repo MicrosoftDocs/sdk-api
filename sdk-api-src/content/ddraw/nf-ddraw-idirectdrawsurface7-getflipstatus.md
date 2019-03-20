@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetFlipStatus
-title: IDirectDrawSurface7::GetFlipStatus
+title: IDirectDrawSurface7::GetFlipStatus (ddraw.h)
 author: windows-sdk-content
 description: Retrieves status about whether this surface has finished its flipping process.
 old-location: directdraw\idirectdrawsurface7_getflipstatus.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IOverlayNotify.OnClipChange
-title: IOverlayNotify::OnClipChange
+title: IOverlayNotify::OnClipChange (strmif.h)
 author: windows-sdk-content
 description: The OnClipChange method provides notification that the window's visible region has changed. It is essential that any overlay hardware be updated to reflect the change to the visible region before returning from this method.
 old-location: dshow\ioverlaynotify_onclipchange.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Font.GetLogFontA
-title: Font::GetLogFontA
+title: Font::GetLogFontA (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Font::GetLogFontA method uses a LOGFONTA structure to get the attributes of this Font object.
 old-location: gdiplus\_gdiplus_CLASS_Font_GetLogFontA_g_logfontA_.htm

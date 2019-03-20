@@ -1,6 +1,6 @@
 ---
 UID: NE:eaphostpeertypes._EAPHOST_AUTH_STATUS
-title: EAPHOST_AUTH_STATUS
+title: EAPHOST_AUTH_STATUS (eaphostpeertypes.h)
 author: windows-sdk-content
 description: Defines the set of possible EAP authentication session status values during the authentication process.
 old-location: eaphost\eaphost_auth_status.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_DSV_DIMENSION
-title: D3D11_DSV_DIMENSION
+title: D3D11_DSV_DIMENSION (d3d11.h)
 author: windows-sdk-content
 description: Specifies how to access a resource used in a depth-stencil view.
 old-location: direct3d11\d3d11_dsv_dimension.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strsafe.StringCchVPrintfW
-title: StringCchVPrintfW function
+title: StringCchVPrintfW function (strsafe.h)
 author: windows-sdk-content
 description: Writes formatted data to the specified string using a pointer to a list of arguments.
 old-location: menurc\stringcchvprintf.htm

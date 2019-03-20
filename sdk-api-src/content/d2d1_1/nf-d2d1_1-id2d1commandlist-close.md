@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandList.Close
-title: ID2D1CommandList::Close
+title: ID2D1CommandList::Close (d2d1_1.h)
 author: windows-sdk-content
 description: Instructs the command list to stop accepting commands so that you can use it as an input to an effect or in a call to ID2D1DeviceContext::DrawImage.
 old-location: direct2d\id2d1commandlist_close.htm

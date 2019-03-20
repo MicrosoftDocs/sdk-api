@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.ResolveSubresource
-title: ID3D10Device::ResolveSubresource
+title: ID3D10Device::ResolveSubresource (d3d10.h)
 author: windows-sdk-content
 description: Copy a multisampled resource into a non-multisampled resource. This API is most useful when re-using the resulting rendertarget of one render pass as an input to a second render pass.
 old-location: direct3d10\id3d10device_resolvesubresource.htm

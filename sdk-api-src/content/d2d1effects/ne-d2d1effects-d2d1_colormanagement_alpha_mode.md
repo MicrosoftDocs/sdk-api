@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects.D2D1_COLORMANAGEMENT_ALPHA_MODE
-title: D2D1_COLORMANAGEMENT_ALPHA_MODE
+title: D2D1_COLORMANAGEMENT_ALPHA_MODE (d2d1effects.h)
 author: windows-sdk-content
 description: Indicates how the Color management effect should interpret alpha data that is contained in the input image.
 old-location: direct2d\d2d1_colormanagement_alpha_mode.htm

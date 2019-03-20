@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut15.IInkDivisionResult.get_Strokes
-title: IInkDivisionResult::get_Strokes
+title: IInkDivisionResult::get_Strokes (msinkaut15.h)
 author: windows-sdk-content
 description: Gets the collection of strokes that are contained in an object or used to create an object.
 old-location: tablet\iinkdivisionresult_strokes.htm

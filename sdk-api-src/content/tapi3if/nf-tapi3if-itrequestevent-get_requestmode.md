@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITRequestEvent.get_RequestMode
-title: ITRequestEvent::get_RequestMode
+title: ITRequestEvent::get_RequestMode (tapi3if.h)
 author: windows-sdk-content
 description: The get_RequestMode method gets the mode of the request.
 old-location: tapi3\itrequestevent_get_requestmode.htm

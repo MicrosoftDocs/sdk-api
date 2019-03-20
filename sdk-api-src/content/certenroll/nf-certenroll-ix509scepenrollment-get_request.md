@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.get_Request
-title: IX509SCEPEnrollment::get_Request
+title: IX509SCEPEnrollment::get_Request (certenroll.h)
 author: windows-sdk-content
 description: Gets the inner PKCS10 request.
 old-location: security\ix509scepenrollment_request.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IAnalogRadioTuningSpace.put_MinFrequency
-title: IAnalogRadioTuningSpace::put_MinFrequency
+title: IAnalogRadioTuningSpace::put_MinFrequency (tuner.h)
 author: windows-sdk-content
 description: The put_MinFrequency method sets the minimum frequency for this tuning space.
 old-location: mstv\ianalogradiotuningspace_put_minfrequency.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:ddstream.IDirectDrawStreamSample
-title: IDirectDrawStreamSample
+title: IDirectDrawStreamSample (ddstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated.
 old-location: dshow\idirectdrawstreamsample.htm

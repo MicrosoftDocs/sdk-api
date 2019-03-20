@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.IsSafeToDelete
-title: ICOMAdminCatalog2::IsSafeToDelete
+title: ICOMAdminCatalog2::IsSafeToDelete (comadmin.h)
 author: windows-sdk-content
 description: Determines whether the specified DLL is in use by the COM+ catalog or the registry.
 old-location: cos\icomadmincatalog2_issafetodelete.htm

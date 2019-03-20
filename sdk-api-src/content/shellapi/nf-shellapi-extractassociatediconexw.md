@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.ExtractAssociatedIconExW
-title: ExtractAssociatedIconExW function
+title: ExtractAssociatedIconExW function (shellapi.h)
 author: windows-sdk-content
 description: ExtractAssociatedIconEx may be altered or unavailable.
 old-location: shell\ExtractAssociatedIconEx.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509CertificateRequestCmc2
-title: IX509CertificateRequestCmc2
+title: IX509CertificateRequestCmc2 (certenroll.h)
 author: windows-sdk-content
 description: The IX509CertificateRequestCmc2 interface represents a CMC (Certificate Management Message over CMS) certificate request.
 old-location: security\ix509certificaterequestcmc2.htm

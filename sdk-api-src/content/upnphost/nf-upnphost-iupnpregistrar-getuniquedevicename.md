@@ -1,6 +1,6 @@
 ---
 UID: NF:upnphost.IUPnPRegistrar.GetUniqueDeviceName
-title: IUPnPRegistrar::GetUniqueDeviceName
+title: IUPnPRegistrar::GetUniqueDeviceName (upnphost.h)
 author: windows-sdk-content
 description: The GetUniqueDeviceName method retrieves the UDN for the specified device.
 old-location: upnp\iupnpregistrar_getuniquedevicename.htm

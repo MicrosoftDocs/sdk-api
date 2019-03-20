@@ -1,6 +1,6 @@
 ---
 UID: NS:msctf.TF_LANGUAGEPROFILE
-title: TF_LANGUAGEPROFILE
+title: TF_LANGUAGEPROFILE (msctf.h)
 author: windows-sdk-content
 description: The TF_LANGUAGEPROFILE structure contains information about a language profile.
 old-location: tsf\tf_languageprofile.htm

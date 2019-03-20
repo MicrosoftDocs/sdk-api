@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.AddApplicationMessage
-title: IDXGIInfoQueue::AddApplicationMessage
+title: IDXGIInfoQueue::AddApplicationMessage (dxgidebug.h)
 author: windows-sdk-content
 description: Adds a user-defined message to the message queue and sends that message to the debug output.
 old-location: direct3ddxgi\idxgiinfoqueue_addapplicationmessage.htm

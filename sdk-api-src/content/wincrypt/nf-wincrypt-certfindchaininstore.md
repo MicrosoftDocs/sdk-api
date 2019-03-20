@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertFindChainInStore
-title: CertFindChainInStore function
+title: CertFindChainInStore function (wincrypt.h)
 author: windows-sdk-content
 description: Finds the first or next certificate in a store that meets the specified criteria.
 old-location: security\certfindchaininstore.htm

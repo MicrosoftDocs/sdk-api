@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.SetDiscardControlPartName
-title: IXpsOMPackage::SetDiscardControlPartName
+title: IXpsOMPackage::SetDiscardControlPartName (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the name of the discard control part in the XPS package.
 old-location: xps\ixpsompackage_setdiscardcontrolpartname.htm

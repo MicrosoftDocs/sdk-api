@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwMgr.get_LocalPolicy
-title: INetFwMgr::get_LocalPolicy
+title: INetFwMgr::get_LocalPolicy (netfw.h)
 author: windows-sdk-content
 description: Retrieves the local firewall policy.
 old-location: ics\inetfwmgr_localpolicy.htm

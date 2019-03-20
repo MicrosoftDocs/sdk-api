@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.put_FlushTimer
-title: ITraceDataCollector::put_FlushTimer
+title: ITraceDataCollector::put_FlushTimer (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the time to wait before flushing buffers.
 old-location: pla\itracedatacollector_flushtimer.htm

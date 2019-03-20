@@ -1,6 +1,6 @@
 ---
 UID: NC:fwpmu.FWPM_PROVIDER_CHANGE_CALLBACK0
-title: FWPM_PROVIDER_CHANGE_CALLBACK0
+title: FWPM_PROVIDER_CHANGE_CALLBACK0 (fwpmu.h)
 author: windows-sdk-content
 description: To add custom behavior to the provider change notification process.
 old-location: fwp\fwpm_provider_change_callback0_func.htm

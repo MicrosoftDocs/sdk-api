@@ -1,6 +1,6 @@
 ---
 UID: NS:dxvahd._DXVAHD_STREAM_STATE_FILTER_DATA
-title: DXVAHD_STREAM_STATE_FILTER_DATA
+title: DXVAHD_STREAM_STATE_FILTER_DATA (dxvahd.h)
 author: windows-sdk-content
 description: Specifies the level for a filtering operation on a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) input stream.
 old-location: mf\dxvahd_stream_state_filter_data.htm

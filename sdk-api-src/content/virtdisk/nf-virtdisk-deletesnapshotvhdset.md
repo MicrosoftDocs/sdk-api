@@ -1,6 +1,6 @@
 ---
 UID: NF:virtdisk.DeleteSnapshotVhdSet
-title: DeleteSnapshotVhdSet function
+title: DeleteSnapshotVhdSet function (virtdisk.h)
 author: windows-sdk-content
 description: Deletes a snapshot from a VHD Set file.
 old-location: vhd\deletesnapshotvhdset.htm

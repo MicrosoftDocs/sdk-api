@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.SetEffect
-title: IDCompositionVisual::SetEffect
+title: IDCompositionVisual::SetEffect (dcomp.h)
 author: windows-sdk-content
 description: Sets the Effect property of this visual.
 old-location: directcomp\idcompositionvisual_seteffect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateComputePipelineState
-title: ID3D12Device::CreateComputePipelineState
+title: ID3D12Device::CreateComputePipelineState (d3d12.h)
 author: windows-sdk-content
 description: Creates a compute pipeline state object.
 old-location: direct3d12\id3d12device_createcomputepipelinestate.htm

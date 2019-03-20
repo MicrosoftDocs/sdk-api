@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfReverseConversionList
-title: ITfReverseConversionList
+title: ITfReverseConversionList (msctf.h)
 author: windows-sdk-content
 description: Represents a list of the keystroke sequences required to create a specified string.
 old-location: tsf\itfreverseconversionlist.htm

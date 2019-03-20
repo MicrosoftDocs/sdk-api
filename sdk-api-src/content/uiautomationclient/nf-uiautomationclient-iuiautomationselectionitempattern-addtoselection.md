@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionItemPattern.AddToSelection
-title: IUIAutomationSelectionItemPattern::AddToSelection
+title: IUIAutomationSelectionItemPattern::AddToSelection (uiautomationclient.h)
 author: windows-sdk-content
 description: Adds the current element to the collection of selected items.
 old-location: winauto\uiauto_IUIAutomationSelectionItemPattern_AddToSelection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.SetModalInput
-title: ITfLangBarMgr::SetModalInput
+title: ITfLangBarMgr::SetModalInput (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarMgr::SetModalInput method
 old-location: tsf\itflangbarmgr_setmodalinput.htm

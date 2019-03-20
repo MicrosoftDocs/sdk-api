@@ -1,6 +1,6 @@
 ---
 UID: NE:msopc.__MIDL___MIDL_itf_msopc_0001_0076_0003
-title: OPC_RELATIONSHIPS_SIGNING_OPTION
+title: OPC_RELATIONSHIPS_SIGNING_OPTION (msopc.h)
 author: windows-sdk-content
 description: Describes whether a reference represented by the IOpcSignatureRelationshipReference interface refers to all or a subset of relationships represented as relationship objects in a relationship set object.
 old-location: opc\opc_relationships_signing_option.htm

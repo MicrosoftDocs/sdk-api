@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpUserModeInitializeFn
-title: SpUserModeInitializeFn
+title: SpUserModeInitializeFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Called when a security support provider/authentication package (SSP/AP) DLL is loaded into the process space of a client/server application. This function provides the SECPKG_USER_FUNCTION_TABLE tables for each security package in the SSP/AP DLL.
 old-location: security\spusermodeinitialize.htm

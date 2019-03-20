@@ -1,6 +1,6 @@
 ---
 UID: NS:winfax._FAX_JOB_PARAMW
-title: FAX_JOB_PARAMW
+title: FAX_JOB_PARAMW (winfax.h)
 author: windows-sdk-content
 description: The FAX_JOB_PARAM structure contains the information necessary for the fax server to send an individual fax transmission.
 old-location: fax\_mfax_fax_job_param_str.htm

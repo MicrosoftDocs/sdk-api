@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509ExtensionAuthorityKeyIdentifier
-title: IX509ExtensionAuthorityKeyIdentifier
+title: IX509ExtensionAuthorityKeyIdentifier (certenroll.h)
 author: windows-sdk-content
 description: Enables you to specify an AuthorityKeyIdentifier extension.
 old-location: security\ix509extensionauthoritykeyidentifier.htm

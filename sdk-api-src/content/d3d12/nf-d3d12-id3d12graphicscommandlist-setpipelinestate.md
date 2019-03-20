@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetPipelineState
-title: ID3D12GraphicsCommandList::SetPipelineState
+title: ID3D12GraphicsCommandList::SetPipelineState (d3d12.h)
 author: windows-sdk-content
 description: Sets all shaders and programs most of the fixed-function state of the graphics processing unit (GPU) pipeline.
 old-location: direct3d12\id3d12graphicscommandlist_setpipelinestate.htm

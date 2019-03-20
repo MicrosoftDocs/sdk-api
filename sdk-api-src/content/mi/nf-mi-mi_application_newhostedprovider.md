@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Application_NewHostedProvider
-title: MI_Application_NewHostedProvider function
+title: MI_Application_NewHostedProvider function (mi.h)
 author: windows-sdk-content
 description: Registers a hosted provider with the WMI engine on the local machine.
 old-location: wmi_v2\mi_application_newhostedprovider.htm

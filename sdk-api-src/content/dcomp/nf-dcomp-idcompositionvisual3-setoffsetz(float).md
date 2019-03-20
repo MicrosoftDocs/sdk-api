@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionVisual3.SetOffsetZ(float)
-title: IDCompositionVisual3::SetOffsetZ(float)
+title: IDCompositionVisual3::SetOffsetZ(float) (dcomp.h)
 author: windows-sdk-content
 description: Changes the value of OffsetZ property.
 old-location: directcomp\idcompositionvisual3_setoffsetz.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMMatrixDecompose
-title: XMMatrixDecompose function
+title: XMMatrixDecompose function (directxmath.h)
 author: windows-sdk-content
 description: Breaks down a general 3D transformation matrix into its scalar, rotational, and translational components.
 old-location: dxmath\xmmatrixdecompose.htm

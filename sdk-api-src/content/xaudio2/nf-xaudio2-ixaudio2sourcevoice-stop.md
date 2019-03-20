@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.Stop
-title: IXAudio2SourceVoice::Stop
+title: IXAudio2SourceVoice::Stop (xaudio2.h)
 author: windows-sdk-content
 description: Stops consumption of audio by the current voice.
 old-location: xaudio2\ixaudio2sourcevoice_interface_stop.htm

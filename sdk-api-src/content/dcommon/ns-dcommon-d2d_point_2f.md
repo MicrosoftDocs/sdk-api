@@ -1,6 +1,6 @@
 ---
 UID: NS:dcommon.D2D_POINT_2F
-title: D2D_POINT_2F
+title: D2D_POINT_2F (dcommon.h)
 author: windows-sdk-content
 description: Represents an x-coordinate and y-coordinate pair, expressed as floating-point values, in two-dimensional space.
 old-location: direct2d\D2D_POINT_2F.htm

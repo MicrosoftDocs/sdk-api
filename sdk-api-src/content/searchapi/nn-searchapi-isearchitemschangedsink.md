@@ -1,6 +1,6 @@
 ---
 UID: NN:searchapi.ISearchItemsChangedSink
-title: ISearchItemsChangedSink
+title: ISearchItemsChangedSink (searchapi.h)
 author: windows-sdk-content
 description: Provides notifications for changes to indexed items. Also provides notification of the hierarchical scope that is being monitored for changed items.
 old-location: search\_search_ISearchItemsChangedSink.htm

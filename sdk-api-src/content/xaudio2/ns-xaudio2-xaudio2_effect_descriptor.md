@@ -1,6 +1,6 @@
 ---
 UID: NS:xaudio2.XAUDIO2_EFFECT_DESCRIPTOR
-title: XAUDIO2_EFFECT_DESCRIPTOR
+title: XAUDIO2_EFFECT_DESCRIPTOR (xaudio2.h)
 author: windows-sdk-content
 description: Contains information about an XAPO for use in an effect chain.
 old-location: xaudio2\xaudio2_effect_descriptor.htm

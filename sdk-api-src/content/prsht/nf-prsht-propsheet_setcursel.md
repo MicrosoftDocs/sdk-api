@@ -1,6 +1,6 @@
 ---
 UID: NF:prsht.PropSheet_SetCurSel
-title: PropSheet_SetCurSel macro
+title: PropSheet_SetCurSel macro (prsht.h)
 author: windows-sdk-content
 description: Activates the specified page in a property sheet. You can use this macro or send the PSM_SETCURSEL message explicitly.
 old-location: controls\PropSheet_SetCurSel.htm

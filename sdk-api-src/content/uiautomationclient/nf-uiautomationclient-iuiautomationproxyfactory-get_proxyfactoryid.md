@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactory.get_ProxyFactoryId
-title: IUIAutomationProxyFactory::get_ProxyFactoryId
+title: IUIAutomationProxyFactory::get_ProxyFactoryId (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the identifier of the proxy factory.
 old-location: winauto\uiauto_IUIAutomationProxyFactory_ProxyFactoryId.htm

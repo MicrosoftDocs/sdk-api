@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalysisSink.SetScriptAnalysis
-title: IDWriteTextAnalysisSink::SetScriptAnalysis
+title: IDWriteTextAnalysisSink::SetScriptAnalysis (dwrite.h)
 author: windows-sdk-content
 description: Reports script analysis for the specified text range.
 old-location: directwrite\idwritetextanalysissink_setscriptanalysis.htm

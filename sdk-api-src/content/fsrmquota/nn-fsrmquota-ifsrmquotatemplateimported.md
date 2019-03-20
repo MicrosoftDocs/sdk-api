@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmquota.IFsrmQuotaTemplateImported
-title: IFsrmQuotaTemplateImported
+title: IFsrmQuotaTemplateImported (fsrmquota.h)
 author: windows-sdk-content
 description: Used to modify and save imported quota templates.
 old-location: fsrm\ifsrmquotatemplateimported.htm

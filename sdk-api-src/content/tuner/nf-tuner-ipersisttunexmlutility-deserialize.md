@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IPersistTuneXmlUtility.Deserialize
-title: IPersistTuneXmlUtility::Deserialize
+title: IPersistTuneXmlUtility::Deserialize (tuner.h)
 author: windows-sdk-content
 description: Constructs and returns an object that initializes itself by using the XML node passed as a VARIANT parameter to the method. The returned object exposes its IUnknown interface so that other objects can query it.
 old-location: mstv\ipersisttunexmlutility_deserialize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:p2p.peer_group_authentication_scheme_tag
-title: PEER_GROUP_AUTHENTICATION_SCHEME
+title: PEER_GROUP_AUTHENTICATION_SCHEME (p2p.h)
 author: windows-sdk-content
 description: Defines the set of possible authentication schemes that can be used to authenticate peers joining a peer group.
 old-location: p2p\peer_group_authentication_scheme.htm

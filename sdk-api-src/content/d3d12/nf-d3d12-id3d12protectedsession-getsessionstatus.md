@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12ProtectedSession.GetSessionStatus
-title: ID3D12ProtectedSession::GetSessionStatus
+title: ID3D12ProtectedSession::GetSessionStatus (d3d12.h)
 author: windows-sdk-content
 description: Gets the status of the protected session.
 old-location: direct3d12\id3d12protectedsession_getsessionstatus.htm

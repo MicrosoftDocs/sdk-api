@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzApplication2
-title: IAzApplication2
+title: IAzApplication2 (azroles.h)
 author: windows-sdk-content
 description: Inherits from the IAzApplication interface and implements additional methods to initialize IAzClientContext2 objects.
 old-location: security\iazapplication2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProvider.GetSecurity
-title: ITraceDataProvider::GetSecurity
+title: ITraceDataProvider::GetSecurity (pla.h)
 author: windows-sdk-content
 description: Retrieves the security information for the trace data provider.
 old-location: pla\itracedataprovider_getsecurity.htm

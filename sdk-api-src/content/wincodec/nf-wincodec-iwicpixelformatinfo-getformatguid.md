@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICPixelFormatInfo.GetFormatGUID
-title: IWICPixelFormatInfo::GetFormatGUID
+title: IWICPixelFormatInfo::GetFormatGUID (wincodec.h)
 author: windows-sdk-content
 description: Gets the pixel format GUID.
 old-location: wic\_wic_codec_iwicpixelformatinfo_getformatguid.htm

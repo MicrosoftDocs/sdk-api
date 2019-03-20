@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut.IInkRecognizer
-title: IInkRecognizer
+title: IInkRecognizer (msinkaut.h)
 author: windows-sdk-content
 description: Represents the ability to process ink, or handwriting, and translate the stroke into text or gesture. The recognizer creates an InkRecognizerContext object, which is used to perform the actual handwriting recognition.
 old-location: tablet\iinkrecognizer.htm

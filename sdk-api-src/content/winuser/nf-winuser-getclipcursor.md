@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetClipCursor
-title: GetClipCursor function
+title: GetClipCursor function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the screen coordinates of the rectangular area to which the cursor is confined.
 old-location: menurc\getclipcursor.htm

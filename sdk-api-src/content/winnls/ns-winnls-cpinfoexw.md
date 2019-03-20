@@ -1,6 +1,6 @@
 ---
 UID: NS:winnls._cpinfoexW
-title: CPINFOEXW
+title: CPINFOEXW (winnls.h)
 author: windows-sdk-content
 description: Contains information about a code page. This structure is used by the GetCPInfoEx function.
 old-location: intl\cpinfoex.htm

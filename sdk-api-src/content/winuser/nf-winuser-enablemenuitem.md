@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.EnableMenuItem
-title: EnableMenuItem function
+title: EnableMenuItem function (winuser.h)
 author: windows-sdk-content
 description: Enables, disables, or grays the specified menu item.
 old-location: menurc\enablemenuitem.htm

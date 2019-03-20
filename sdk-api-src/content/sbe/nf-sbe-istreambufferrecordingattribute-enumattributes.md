@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferRecordingAttribute.EnumAttributes
-title: IStreamBufferRecordingAttribute::EnumAttributes
+title: IStreamBufferRecordingAttribute::EnumAttributes (sbe.h)
 author: windows-sdk-content
 description: The EnumAttributes method enumerates the existing attributes of the stream buffer file. This method returns an enumerator object, which the caller can then use to enumerate the attributes.
 old-location: mstv\istreambufferrecordingattribute_enumattributes.htm

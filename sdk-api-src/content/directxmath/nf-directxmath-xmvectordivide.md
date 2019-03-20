@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorDivide
-title: XMVectorDivide function
+title: XMVectorDivide function (directxmath.h)
 author: windows-sdk-content
 description: Divides one instance of XMVECTOR by a second instance, returning the result in a third instance.
 old-location: dxmath\xmvectordivide.htm

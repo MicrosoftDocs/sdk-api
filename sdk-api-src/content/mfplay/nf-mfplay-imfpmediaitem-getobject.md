@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetObject
-title: IMFPMediaItem::GetObject
+title: IMFPMediaItem::GetObject (mfplay.h)
 author: windows-sdk-content
 description: Gets the object that was used to create the media item.
 old-location: mf\imfpmediaitem_getobject.htm

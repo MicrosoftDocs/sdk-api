@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiSummaryInfoGetPropertyW
-title: MsiSummaryInfoGetPropertyW function
+title: MsiSummaryInfoGetPropertyW function (msiquery.h)
 author: windows-sdk-content
 description: The MsiSummaryInfoGetProperty function gets a single property from the summary information stream.
 old-location: setup\msisummaryinfogetproperty.htm

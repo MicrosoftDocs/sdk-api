@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi._CLUSTER_UPGRADE_PHASE
-title: CLUSTER_UPGRADE_PHASE
+title: CLUSTER_UPGRADE_PHASE (clusapi.h)
 author: windows-sdk-content
 description: Describes the state of a rolling upgrade of the operating system on a cluster. This enumeration is used by the ClusterUpgradeProgressCallback callback function.
 old-location: mscs\cluster_upgrade_phase.htm

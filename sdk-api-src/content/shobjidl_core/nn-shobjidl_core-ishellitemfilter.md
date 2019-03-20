@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IShellItemFilter
-title: IShellItemFilter
+title: IShellItemFilter (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposed by a client to specify how to filter the enumeration of a Shell item by a server application.
 old-location: shell\IShellItemFilter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:windns.DnsValidateName
-title: DnsValidateName macro
+title: DnsValidateName macro (windns.h)
 author: windows-sdk-content
 description: The DnsValidateName function validates the status of a specified DNS name.
 old-location: dns\dnsvalidatename.htm

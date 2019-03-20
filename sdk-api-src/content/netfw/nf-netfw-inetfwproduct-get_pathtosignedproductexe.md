@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwProduct.get_PathToSignedProductExe
-title: INetFwProduct::get_PathToSignedProductExe
+title: INetFwProduct::get_PathToSignedProductExe (netfw.h)
 author: windows-sdk-content
 description: Indicates the path to the signed executable file of a third-party firewall product registration.
 old-location: ics\inetfwproduct_pathtosignedproductexe.htm

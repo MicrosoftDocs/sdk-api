@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiDeleteDeviceInfo
-title: SetupDiDeleteDeviceInfo function
+title: SetupDiDeleteDeviceInfo function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiDeleteDeviceInfo function deletes a device information element from a device information set. This function does not delete the actual device.
 old-location: devinst\setupdideletedeviceinfo.htm

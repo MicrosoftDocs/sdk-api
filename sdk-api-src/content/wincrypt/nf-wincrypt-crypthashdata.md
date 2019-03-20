@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptHashData
-title: CryptHashData function
+title: CryptHashData function (wincrypt.h)
 author: windows-sdk-content
 description: Adds data to a specified hash object.
 old-location: security\crypthashdata.htm

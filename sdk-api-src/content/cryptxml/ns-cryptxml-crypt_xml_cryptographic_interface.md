@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_CRYPTOGRAPHIC_INTERFACE
-title: CRYPT_XML_CRYPTOGRAPHIC_INTERFACE
+title: CRYPT_XML_CRYPTOGRAPHIC_INTERFACE (cryptxml.h)
 author: windows-sdk-content
 description: Exposes the implemented CryptXML functions.
 old-location: security\crypt_xml_cryptographic_interface.htm

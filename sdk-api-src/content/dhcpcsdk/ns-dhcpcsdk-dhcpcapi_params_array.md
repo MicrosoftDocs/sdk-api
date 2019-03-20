@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpcsdk._DHCPCAPI_PARAMS_ARARAY
-title: DHCPCAPI_PARAMS_ARRAY
+title: DHCPCAPI_PARAMS_ARRAY (dhcpcsdk.h)
 author: windows-sdk-content
 description: The DHCPCAPI_PARAMS_ARRAY structure stores an array of DHCPAPI_PARAMS structures used to query DHCP parameters.
 old-location: dhcp\dhcpcapi_params_array.htm

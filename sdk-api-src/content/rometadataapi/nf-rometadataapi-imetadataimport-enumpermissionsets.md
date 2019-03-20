@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumPermissionSets
-title: IMetaDataImport::EnumPermissionSets
+title: IMetaDataImport::EnumPermissionSets (rometadataapi.h)
 author: windows-sdk-content
 description: Enumerates permissions for the objects in a specified metadata scope.
 old-location: winrt\imetadataimport_enumpermissionsets.htm

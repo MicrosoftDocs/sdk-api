@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMStoreUShortN2
-title: XMStoreUShortN2 function
+title: XMStoreUShortN2 function (directxpackedvector.h)
 author: windows-sdk-content
 description: Stores an XMVECTOR in an XMUSHORTN2.
 old-location: dxmath\xmstoreushortn2.htm

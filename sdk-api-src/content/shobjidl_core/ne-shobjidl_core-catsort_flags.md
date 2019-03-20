@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.CATSORT_FLAGS
-title: CATSORT_FLAGS
+title: CATSORT_FLAGS (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies methods for sorting category data.
 old-location: shell\CATSORT_FLAGS.htm

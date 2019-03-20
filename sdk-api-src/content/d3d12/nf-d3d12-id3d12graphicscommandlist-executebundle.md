@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ExecuteBundle
-title: ID3D12GraphicsCommandList::ExecuteBundle
+title: ID3D12GraphicsCommandList::ExecuteBundle (d3d12.h)
 author: windows-sdk-content
 description: Executes a bundle.
 old-location: direct3d12\id3d12graphicscommandlist_executebundle.htm

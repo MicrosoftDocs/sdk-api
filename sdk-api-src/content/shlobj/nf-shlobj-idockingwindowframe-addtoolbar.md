@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.IDockingWindowFrame.AddToolbar
-title: IDockingWindowFrame::AddToolbar
+title: IDockingWindowFrame::AddToolbar (shlobj.h)
 author: windows-sdk-content
 description: Adds the specified IDockingWindow object to the frame.
 old-location: shell\IDockingWindowFrame_AddToolbar.htm

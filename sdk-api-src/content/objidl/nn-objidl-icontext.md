@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IContext
-title: IContext
+title: IContext (objidl.h)
 author: windows-sdk-content
 description: Supports setting COM+ context properties.
 old-location: com\icontext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokes.RemoveRecognitionResult
-title: IInkStrokes::RemoveRecognitionResult
+title: IInkStrokes::RemoveRecognitionResult (msinkaut.h)
 author: windows-sdk-content
 description: Removes the RecognitionResult that is associated with the InkStrokes collection.
 old-location: tablet\inkstrokes_removerecognitionresult.htm

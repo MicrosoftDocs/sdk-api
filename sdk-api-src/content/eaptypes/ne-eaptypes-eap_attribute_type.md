@@ -1,6 +1,6 @@
 ---
 UID: NE:eaptypes._EAP_ATTRIBUTE_TYPE
-title: EAP_ATTRIBUTE_TYPE
+title: EAP_ATTRIBUTE_TYPE (eaptypes.h)
 author: windows-sdk-content
 description: Defines the set of possible EAP attribute types available on an authenticating entity.
 old-location: eaphost\eap_attribute_type.htm

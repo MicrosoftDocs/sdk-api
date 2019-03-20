@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.ReleaseCapture
-title: ReleaseCapture function
+title: ReleaseCapture function (winuser.h)
 author: windows-sdk-content
 description: Releases the mouse capture from a window in the current thread and restores normal mouse input processing.
 old-location: inputdev\releasecapture.htm

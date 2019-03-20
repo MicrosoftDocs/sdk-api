@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate2.get_IsPresent
-title: IUpdate2::get_IsPresent
+title: IUpdate2::get_IsPresent (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether an update is present on a computer.
 old-location: wua\iupdate2_ispresent.htm

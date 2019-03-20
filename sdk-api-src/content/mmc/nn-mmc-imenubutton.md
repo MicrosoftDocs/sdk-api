@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IMenuButton
-title: IMenuButton
+title: IMenuButton (mmc.h)
 author: windows-sdk-content
 description: The IMenuButton interface enables the user to add and manage menu buttons for a snap-in.
 old-location: mmc\imenubutton.htm

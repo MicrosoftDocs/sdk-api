@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_LIST_TEXT
-title: WS_XML_LIST_TEXT
+title: WS_XML_LIST_TEXT (webservices.h)
 author: windows-sdk-content
 description: Represents a list of text values separated by a single whitespace character.
 old-location: wsw\ws_xml_list_text.htm

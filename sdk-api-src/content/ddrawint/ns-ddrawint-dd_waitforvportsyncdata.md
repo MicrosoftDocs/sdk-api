@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_WAITFORVPORTSYNCDATA
-title: DD_WAITFORVPORTSYNCDATA
+title: DD_WAITFORVPORTSYNCDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_WAITFORVPORTSYNCDATA structure contains the information required for the driver to synchronize the video port extensions (VPE) object.
 old-location: display\dd_waitforvportsyncdata.htm

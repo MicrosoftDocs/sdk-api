@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.put_DecimateInput
-title: IMSVidVideoRenderer::put_DecimateInput
+title: IMSVidVideoRenderer::put_DecimateInput (segment.h)
 author: windows-sdk-content
 description: The put_DecimateInput method specifies whether the Video Mixing Renderer (VMR) will decimate the video (that is, reduce the native video size) before processing it.
 old-location: mstv\imsvidvideorenderer_put_decimateinput.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_ConstReal32A
-title: MI_ConstReal32A
+title: MI_ConstReal32A (mi.h)
 author: windows-sdk-content
 description: Represents an array of MI_Real32 types.
 old-location: wmi_v2\mi_constreal32a.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPathData.GetCommandsCount
-title: ID2D1SvgPathData::GetCommandsCount
+title: ID2D1SvgPathData::GetCommandsCount (d2d1svg.h)
 author: windows-sdk-content
 description: Gets the size of the commands array.
 old-location: direct2d\id2d1svgpathdata_getcommandscount.htm

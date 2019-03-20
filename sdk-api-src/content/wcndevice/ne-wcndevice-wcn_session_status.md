@@ -1,6 +1,6 @@
 ---
 UID: NE:wcndevice.tagWCN_SESSION_STATUS
-title: WCN_SESSION_STATUS
+title: WCN_SESSION_STATUS (wcndevice.h)
 author: windows-sdk-content
 description: Defines the outcome status of a WPS session.
 old-location: wcn\wcn_session_status.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage2.get_WasReAssigned
-title: IFaxIncomingMessage2::get_WasReAssigned
+title: IFaxIncomingMessage2::get_WasReAssigned (faxcomex.h)
 author: windows-sdk-content
 description: Indicates if the fax has been reassigned.
 old-location: fax\_mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_wasreassigned_cpp.htm

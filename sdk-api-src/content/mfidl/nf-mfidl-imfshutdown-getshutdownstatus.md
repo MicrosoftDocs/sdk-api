@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFShutdown.GetShutdownStatus
-title: IMFShutdown::GetShutdownStatus
+title: IMFShutdown::GetShutdownStatus (mfidl.h)
 author: windows-sdk-content
 description: Queries the status of an earlier call to the IMFShutdown::Shutdown method.
 old-location: mf\imfshutdown_getshutdownstatus.htm

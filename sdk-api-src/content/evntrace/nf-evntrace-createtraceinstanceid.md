@@ -1,6 +1,6 @@
 ---
 UID: NF:evntrace.CreateTraceInstanceId
-title: CreateTraceInstanceId function
+title: CreateTraceInstanceId function (evntrace.h)
 author: windows-sdk-content
 description: The CreateTraceInstanceId function creates a unique transaction identifier and maps it to a class GUID registration handle. You then use the transaction identifier when calling the TraceEventInstance function.
 old-location: etw\createtraceinstanceid.htm

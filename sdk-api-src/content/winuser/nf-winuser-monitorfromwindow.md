@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.MonitorFromWindow
-title: MonitorFromWindow function
+title: MonitorFromWindow function (winuser.h)
 author: windows-sdk-content
 description: The MonitorFromWindow function retrieves a handle to the display monitor that has the largest area of intersection with the bounding rectangle of a specified window.
 old-location: gdi\monitorfromwindow.htm

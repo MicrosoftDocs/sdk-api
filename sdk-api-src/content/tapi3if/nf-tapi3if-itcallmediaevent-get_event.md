@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallMediaEvent.get_Event
-title: ITCallMediaEvent::get_Event
+title: ITCallMediaEvent::get_Event (tapi3if.h)
 author: windows-sdk-content
 description: The get_Event method gets the call media event indicator.
 old-location: tapi3\itcallmediaevent_get_event.htm

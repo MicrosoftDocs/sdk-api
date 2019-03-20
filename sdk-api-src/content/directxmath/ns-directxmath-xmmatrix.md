@@ -1,6 +1,6 @@
 ---
 UID: NS:directxmath.XMMATRIX
-title: XMMATRIX
+title: XMMATRIX (directxmath.h)
 author: windows-sdk-content
 description: Describes a 4*4 matrix aligned on a 16-byte boundary that maps to four hardware vector registers.
 old-location: dxmath\xmmatrix.htm

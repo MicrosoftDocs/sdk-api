@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetStreamType
-title: IIsdbAudioComponentDescriptor::GetStreamType
+title: IIsdbAudioComponentDescriptor::GetStreamType (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets a code that indicates the stream type from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor.
 old-location: mstv\iisdbaudiocomponentdescriptor_getstreamtype.htm

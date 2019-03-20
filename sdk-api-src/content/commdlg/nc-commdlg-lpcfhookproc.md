@@ -1,6 +1,6 @@
 ---
 UID: NC:commdlg.LPCFHOOKPROC
-title: LPCFHOOKPROC
+title: LPCFHOOKPROC (commdlg.h)
 author: windows-sdk-content
 description: Receives messages or notifications intended for the default dialog box procedure of the Font dialog box. This is an application-defined or library-defined callback procedure that is used with the ChooseFont function.
 old-location: dlgbox\cfhookproc.htm

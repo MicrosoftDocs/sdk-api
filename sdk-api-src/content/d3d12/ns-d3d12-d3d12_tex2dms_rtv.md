@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_TEX2DMS_RTV
-title: D3D12_TEX2DMS_RTV
+title: D3D12_TEX2DMS_RTV (d3d12.h)
 author: windows-sdk-content
 description: Describes the subresource from a multi sampled 2D texture to use in a render-target view.
 old-location: direct3d12\d3d12_tex2dms_rtv.htm

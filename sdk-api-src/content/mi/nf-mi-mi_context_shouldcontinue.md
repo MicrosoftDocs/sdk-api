@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_ShouldContinue
-title: MI_Context_ShouldContinue function
+title: MI_Context_ShouldContinue function (mi.h)
 author: windows-sdk-content
 description: Queries the client to determine if an operation should continue.
 old-location: wmi_v2\mi_context_shouldcontinue.htm

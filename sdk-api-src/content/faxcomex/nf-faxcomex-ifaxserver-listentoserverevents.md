@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer.ListenToServerEvents
-title: IFaxServer::ListenToServerEvents
+title: IFaxServer::ListenToServerEvents (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxServer::ListenToServerEvents method registers the FaxServer object to receive notifications about one or more types of server events, or to stop these notifications.
 old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_listentoserverevents_cpp.htm

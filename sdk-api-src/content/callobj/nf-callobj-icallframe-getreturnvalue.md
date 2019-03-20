@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallFrame.GetReturnValue
-title: ICallFrame::GetReturnValue
+title: ICallFrame::GetReturnValue (callobj.h)
 author: windows-sdk-content
 description: Retrieves the return value stored in the call frame.
 old-location: com\icallframe_getreturnvalue.htm

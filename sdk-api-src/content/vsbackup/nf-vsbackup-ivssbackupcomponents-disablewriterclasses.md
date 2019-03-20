@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.DisableWriterClasses
-title: IVssBackupComponents::DisableWriterClasses
+title: IVssBackupComponents::DisableWriterClasses (vsbackup.h)
 author: windows-sdk-content
 description: The DisableWriterClasses method prevents a specific class of writers from receiving any events.
 old-location: base\ivssbackupcomponents_disablewriterclasses.htm

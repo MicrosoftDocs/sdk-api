@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Bitmap.GetDpi
-title: ID2D1Bitmap::GetDpi
+title: ID2D1Bitmap::GetDpi (d2d1.h)
 author: windows-sdk-content
 description: Return the dots per inch (DPI) of the bitmap.
 old-location: direct2d\ID2D1Bitmap_GetDpi.htm

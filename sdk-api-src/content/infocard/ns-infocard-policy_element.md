@@ -1,6 +1,6 @@
 ---
 UID: NS:infocard._POLICY_ELEMENT
-title: POLICY_ELEMENT
+title: POLICY_ELEMENT (infocard.h)
 author: windows-sdk-content
 description: The POLICY_ELEMENT structure contains an RSVP policy element.
 old-location: qos\policy_element.htm

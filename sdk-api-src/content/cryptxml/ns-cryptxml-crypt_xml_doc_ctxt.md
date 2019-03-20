@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_DOC_CTXT
-title: CRYPT_XML_DOC_CTXT
+title: CRYPT_XML_DOC_CTXT (cryptxml.h)
 author: windows-sdk-content
 description: Defines document context information.
 old-location: security\crypt_xml_doc_ctxt.htm

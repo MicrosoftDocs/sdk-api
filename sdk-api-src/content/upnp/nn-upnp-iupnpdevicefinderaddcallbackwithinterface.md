@@ -1,6 +1,6 @@
 ---
 UID: NN:upnp.IUPnPDeviceFinderAddCallbackWithInterface
-title: IUPnPDeviceFinderAddCallbackWithInterface
+title: IUPnPDeviceFinderAddCallbackWithInterface (upnp.h)
 author: windows-sdk-content
 description: The IUPnPDeviceFinderAddCallbackWithInterface interface allows the UPnP framework to communicate to an application:\_
 

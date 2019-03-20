@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader2.GetAllocateForStream
-title: IWMSyncReader2::GetAllocateForStream
+title: IWMSyncReader2::GetAllocateForStream (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetAllocateForStream method retrieves an interface for allocating stream samples.
 old-location: wmformat\iwmsyncreader2_getallocateforstream.htm

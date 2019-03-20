@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwServiceRestriction.ServiceRestricted
-title: INetFwServiceRestriction::ServiceRestricted
+title: INetFwServiceRestriction::ServiceRestricted (netfw.h)
 author: windows-sdk-content
 description: The ServiceRestricted method indicates whether service restriction rules are enabled to limit traffic to the resources specified by the firewall rules.
 old-location: ics\inetfwservicerestriction_servicerestricted.htm

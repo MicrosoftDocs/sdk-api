@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CreateDirectory
-title: CreateDirectory function
+title: CreateDirectory function (winbase.h)
 author: windows-sdk-content
 description: Creates a new directory.
 old-location: fs\createdirectory.htm

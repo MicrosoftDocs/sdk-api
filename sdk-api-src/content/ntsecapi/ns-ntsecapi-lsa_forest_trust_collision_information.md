@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._LSA_FOREST_TRUST_COLLISION_INFORMATION
-title: LSA_FOREST_TRUST_COLLISION_INFORMATION
+title: LSA_FOREST_TRUST_COLLISION_INFORMATION (ntsecapi.h)
 author: windows-sdk-content
 description: Contains information about Local Security Authority forest trust collisions.
 old-location: security\lsa_forest_trust_collision_information.htm

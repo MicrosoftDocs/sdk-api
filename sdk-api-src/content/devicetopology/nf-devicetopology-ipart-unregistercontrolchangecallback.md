@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IPart.UnregisterControlChangeCallback
-title: IPart::UnregisterControlChangeCallback
+title: IPart::UnregisterControlChangeCallback (devicetopology.h)
 author: windows-sdk-content
 description: The UnregisterControlChangeCallback method removes the registration of an IControlChangeNotify interface that the client previously registered by a call to the IPart::RegisterControlChangeCallback method.
 old-location: coreaudio\ipart_unregistercontrolchangecallback.htm

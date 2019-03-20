@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilSetExpandSzValue
-title: ResUtilSetExpandSzValue function
+title: ResUtilSetExpandSzValue function (resapi.h)
 author: windows-sdk-content
 description: Sets an expandable string value in the cluster database. The PRESUTIL_SET_EXPAND_SZ_VALUE type defines a pointer to this function.
 old-location: mscs\resutilsetexpandszvalue.htm

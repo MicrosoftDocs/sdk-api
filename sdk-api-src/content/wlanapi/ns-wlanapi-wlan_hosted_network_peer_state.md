@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanapi._WLAN_HOSTED_NETWORK_PEER_STATE
-title: WLAN_HOSTED_NETWORK_PEER_STATE
+title: WLAN_HOSTED_NETWORK_PEER_STATE (wlanapi.h)
 author: windows-sdk-content
 description: Contains information about the peer state for a peer on the wireless Hosted Network.
 old-location: nwifi\wlan_hosted_network_peer_state.htm

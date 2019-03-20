@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESFileExpiryDateEvent.DoesExpireAfterFirstUse
-title: IESFileExpiryDateEvent::DoesExpireAfterFirstUse
+title: IESFileExpiryDateEvent::DoesExpireAfterFirstUse (tuner.h)
 author: windows-sdk-content
 description: Gets a flag from a FileExpiryDate event that indicates whether a license for protected content expires after its first use.
 old-location: mstv\iesfileexpirydateevent_doesexpireafterfirstuse.htm

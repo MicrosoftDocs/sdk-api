@@ -1,6 +1,6 @@
 ---
 UID: NE:qossp.__unnamed_enum_0
-title: FilterType
+title: FilterType (qossp.h)
 author: windows-sdk-content
 description: The FilterType enumeration specifies the type of filter used for an RSVP FILTERSPEC.
 old-location: qos\filtertype.htm

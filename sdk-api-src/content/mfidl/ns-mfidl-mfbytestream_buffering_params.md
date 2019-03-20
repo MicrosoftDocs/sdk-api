@@ -1,6 +1,6 @@
 ---
 UID: NS:mfidl._MFBYTESTREAM_BUFFERING_PARAMS
-title: MFBYTESTREAM_BUFFERING_PARAMS
+title: MFBYTESTREAM_BUFFERING_PARAMS (mfidl.h)
 author: windows-sdk-content
 description: Specifies the buffering parameters for a network byte stream.
 old-location: mf\mfbytestream_buffering_params.htm

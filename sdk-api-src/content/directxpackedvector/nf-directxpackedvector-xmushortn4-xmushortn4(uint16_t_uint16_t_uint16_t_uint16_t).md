@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMUSHORTN4.XMUSHORTN4(uint16_t,uint16_t,uint16_t,uint16_t)
-title: XMUSHORTN4::XMUSHORTN4(uint16_t,uint16_t,uint16_t,uint16_t)
+title: XMUSHORTN4::XMUSHORTN4(uint16_t,uint16_t,uint16_t,uint16_t) (directxpackedvector.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMUSHORTN4 from four uint16_t arguments.
 old-location: dxmath\xmushortn4_ctor_2.htm

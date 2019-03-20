@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportCacheable.Refresh
-title: IWdsTransportCacheable::Refresh
+title: IWdsTransportCacheable::Refresh (wdstptmgmt.h)
 author: windows-sdk-content
 description: Refreshes the object data members by rereading their values from the underlying data store. This is allowed only if the object's IWdsTransportCacheable::Dirty property has been set.
 old-location: wds\iwdstransportcacheable_refresh.htm

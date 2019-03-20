@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.WriteToFile
-title: IXpsOMPackage::WriteToFile
+title: IXpsOMPackage::WriteToFile (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Writes the XPS package to a specified file.
 old-location: xps\ixpsompackage_writetofile.htm

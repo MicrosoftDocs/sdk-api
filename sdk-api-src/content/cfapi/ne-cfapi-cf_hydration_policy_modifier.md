@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_HYDRATION_POLICY_MODIFIER
-title: CF_HYDRATION_POLICY_MODIFIER
+title: CF_HYDRATION_POLICY_MODIFIER (cfapi.h)
 author: windows-sdk-content
 description: Allows a sync provider to control how placeholder files should be hydrated by the platform. This is a modifier that can be used with the primary policy:\_CF_HYDRATION_POLICY_PRIMARY.
 old-location: cloudapi\cf_hydration_policy_modifier.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzApplicationGroup
-title: IAzApplicationGroup
+title: IAzApplicationGroup (azroles.h)
 author: windows-sdk-content
 description: Defines a collection of principals.
 old-location: security\iazapplicationgroup.htm

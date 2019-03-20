@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ExecuteIndirect
-title: ID3D12GraphicsCommandList::ExecuteIndirect
+title: ID3D12GraphicsCommandList::ExecuteIndirect (d3d12.h)
 author: windows-sdk-content
 description: Apps perform indirect draws/dispatches using the ExecuteIndirect method.
 old-location: direct3d12\id3d12graphicscommandlist_executeindirect.htm

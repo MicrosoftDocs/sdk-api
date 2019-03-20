@@ -1,6 +1,6 @@
 ---
 UID: NF:evntrace.ControlTraceW
-title: ControlTraceW function
+title: ControlTraceW function (evntrace.h)
 author: windows-sdk-content
 description: The ControlTrace function flushes, queries, updates, or stops the specified event tracing session.
 old-location: etw\controltrace.htm

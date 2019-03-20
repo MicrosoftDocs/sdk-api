@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMoniker.IsSystemMoniker
-title: IMoniker::IsSystemMoniker
+title: IMoniker::IsSystemMoniker (objidl.h)
 author: windows-sdk-content
 description: Determines whether this moniker is one of the system-provided moniker classes.
 old-location: com\imoniker_issystemmoniker.htm

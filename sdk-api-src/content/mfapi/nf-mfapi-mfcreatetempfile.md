@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreateTempFile
-title: MFCreateTempFile function
+title: MFCreateTempFile function (mfapi.h)
 author: windows-sdk-content
 description: Creates a byte stream that is backed by a temporary local file.
 old-location: mf\mfcreatetempfile.htm

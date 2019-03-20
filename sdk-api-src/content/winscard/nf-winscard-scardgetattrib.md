@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardGetAttrib
-title: SCardGetAttrib function
+title: SCardGetAttrib function (winscard.h)
 author: windows-sdk-content
 description: Retrieves the current reader attributes for the given handle. It does not affect the state of the reader, driver, or card.
 old-location: security\scardgetattrib.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyBackedUp.InitializeFromCurrentTime
-title: ICertPropertyBackedUp::InitializeFromCurrentTime
+title: ICertPropertyBackedUp::InitializeFromCurrentTime (certenroll.h)
 author: windows-sdk-content
 description: Initializes the property from a Boolean value and the current system date and time.
 old-location: security\icertpropertybackedup_initializefromcurrenttime_method.htm

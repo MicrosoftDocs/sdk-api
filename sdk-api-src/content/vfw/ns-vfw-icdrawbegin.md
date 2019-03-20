@@ -1,6 +1,6 @@
 ---
 UID: NS:vfw.__unnamed_struct_7
-title: ICDRAWBEGIN
+title: ICDRAWBEGIN (vfw.h)
 author: windows-sdk-content
 description: The ICDRAWBEGIN structure contains decompression parameters used with the ICM_DRAW_BEGIN message.
 old-location: multimedia\icdrawbegin_struct.htm

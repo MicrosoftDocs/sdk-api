@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagMSGBOXPARAMSA
-title: MSGBOXPARAMSA
+title: MSGBOXPARAMSA (winuser.h)
 author: windows-sdk-content
 description: Contains information used to display a message box. The MessageBoxIndirect function uses this structure.
 old-location: dlgbox\msgboxparams.htm

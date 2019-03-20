@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_COMPARISON_FUNC
-title: D3D11_COMPARISON_FUNC
+title: D3D11_COMPARISON_FUNC (d3d11.h)
 author: windows-sdk-content
 description: Comparison options.
 old-location: direct3d11\d3d11_comparison_func.htm

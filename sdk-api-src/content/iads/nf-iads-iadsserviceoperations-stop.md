@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsServiceOperations.Stop
-title: IADsServiceOperations::Stop
+title: IADsServiceOperations::Stop (iads.h)
 author: windows-sdk-content
 description: The IADsServiceOperations::Stop method stops a currently active network service.
 old-location: adsi\iadsserviceoperations_stop.htm

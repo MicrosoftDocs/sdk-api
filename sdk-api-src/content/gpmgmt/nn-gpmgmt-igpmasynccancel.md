@@ -1,6 +1,6 @@
 ---
 UID: NN:gpmgmt.IGPMAsyncCancel
-title: IGPMAsyncCancel
+title: IGPMAsyncCancel (gpmgmt.h)
 author: windows-sdk-content
 description: A pointer to the IGPMAsyncCancel interface is returned to the client by the Group Policy Management Console (GPMC) method that the client calls asynchronously.
 old-location: gpmc\igpmasynccancel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamConfig.AddPayloadExtension
-title: IMFASFStreamConfig::AddPayloadExtension
+title: IMFASFStreamConfig::AddPayloadExtension (wmcontainer.h)
 author: windows-sdk-content
 description: Configures a payload extension for the stream.
 old-location: mf\imfasfstreamconfig_addpayloadextension.htm

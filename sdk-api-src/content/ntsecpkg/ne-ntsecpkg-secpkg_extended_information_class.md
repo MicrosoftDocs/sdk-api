@@ -1,6 +1,6 @@
 ---
 UID: NE:ntsecpkg._SECPKG_EXTENDED_INFORMATION_CLASS
-title: SECPKG_EXTENDED_INFORMATION_CLASS
+title: SECPKG_EXTENDED_INFORMATION_CLASS (ntsecpkg.h)
 author: windows-sdk-content
 description: The SECPKG_EXTENDED_INFORMATION_CLASS enumeration describes the type of information to set or get for a security package.This enumeration is used by the SpGetExtendedInformation and SpSetExtendedInformation functions.
 old-location: security\secpkg_extended_information_class.htm

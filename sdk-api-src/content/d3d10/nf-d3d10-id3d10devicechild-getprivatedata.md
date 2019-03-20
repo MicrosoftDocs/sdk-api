@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10DeviceChild.GetPrivateData
-title: ID3D10DeviceChild::GetPrivateData
+title: ID3D10DeviceChild::GetPrivateData (d3d10.h)
 author: windows-sdk-content
 description: Get application-defined data from a device child.
 old-location: direct3d10\id3d10devicechild_getprivatedata.htm

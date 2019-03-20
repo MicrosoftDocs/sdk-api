@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.get_Height
-title: IPenInputPanel::get_Height
+title: IPenInputPanel::get_Height (peninputpanel.h)
 author: windows-sdk-content
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets the height of the pen input panel in client coordinates.
 old-location: tablet\peninputpanel_height.htm

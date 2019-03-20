@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateSkewTransform
-title: IDCompositionDevice::CreateSkewTransform
+title: IDCompositionDevice::CreateSkewTransform (dcomp.h)
 author: windows-sdk-content
 description: Creates a 2D skew transform object.
 old-location: directcomp\idcompositiondevice_createskewtransform.htm

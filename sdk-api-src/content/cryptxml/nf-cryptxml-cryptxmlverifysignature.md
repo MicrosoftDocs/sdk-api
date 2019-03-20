@@ -1,6 +1,6 @@
 ---
 UID: NF:cryptxml.CryptXmlVerifySignature
-title: CryptXmlVerifySignature function
+title: CryptXmlVerifySignature function (cryptxml.h)
 author: windows-sdk-content
 description: Performs a cryptographic signature validation of a SignedInfo element.
 old-location: security\cryptxmlverifysignature.htm

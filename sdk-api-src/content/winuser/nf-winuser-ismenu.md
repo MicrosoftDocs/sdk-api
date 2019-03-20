@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.IsMenu
-title: IsMenu function
+title: IsMenu function (winuser.h)
 author: windows-sdk-content
 description: Determines whether a handle is a menu handle.
 old-location: menurc\ismenu.htm

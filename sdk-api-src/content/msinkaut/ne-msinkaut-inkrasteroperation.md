@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.InkRasterOperation
-title: InkRasterOperation
+title: InkRasterOperation (msinkaut.h)
 author: windows-sdk-content
 description: Defines values for performing raster operations on drawn ink.
 old-location: tablet\inkrasteroperation.htm

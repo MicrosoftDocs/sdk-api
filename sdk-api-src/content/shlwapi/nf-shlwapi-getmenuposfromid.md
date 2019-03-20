@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.GetMenuPosFromID
-title: GetMenuPosFromID function
+title: GetMenuPosFromID function (shlwapi.h)
 author: windows-sdk-content
 description: GetMenuPosFromID may be altered or unavailable.
 old-location: shell\GetMenuPosFromID.htm

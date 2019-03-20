@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetEventLogInformation
-title: GetEventLogInformation function
+title: GetEventLogInformation function (winbase.h)
 author: windows-sdk-content
 description: Retrieves information about the specified event log.
 old-location: base\geteventloginformation.htm

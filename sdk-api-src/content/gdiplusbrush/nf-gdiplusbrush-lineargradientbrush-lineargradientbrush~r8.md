@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.LinearGradientBrush~r8
-title: LinearGradientBrush::LinearGradientBrush~r8
+title: LinearGradientBrush::LinearGradientBrush~r8 (gdiplusbrush.h)
 author: windows-sdk-content
 description: This topic lists the constructors of the LinearGradientBrush class. For a complete class listing, see LinearGradientBrush Class.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_Constructors.htm

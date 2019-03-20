@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFrameworkInputPaneHandler.Showing
-title: IFrameworkInputPaneHandler::Showing
+title: IFrameworkInputPaneHandler::Showing (shobjidl_core.h)
 author: windows-sdk-content
 description: Called before the input pane is shown, to allow the app window to make any necessary adjustments to its UI in response to the reduced screen space available to it.
 old-location: shell\IFrameworkInputPaneHandler_Showing.htm

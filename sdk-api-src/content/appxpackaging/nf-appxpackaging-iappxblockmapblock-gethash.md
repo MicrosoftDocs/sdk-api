@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapBlock.GetHash
-title: IAppxBlockMapBlock::GetHash
+title: IAppxBlockMapBlock::GetHash (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves the hash value of the block.
 old-location: appxpkg\iappxblockmapblock_gethash.htm

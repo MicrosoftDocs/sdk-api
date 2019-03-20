@@ -1,6 +1,6 @@
 ---
 UID: NF:heapapi.HeapUnlock
-title: HeapUnlock function
+title: HeapUnlock function (heapapi.h)
 author: windows-sdk-content
 description: Releases ownership of the critical section object, or lock, that is associated with a specified heap.
 old-location: base\heapunlock.htm

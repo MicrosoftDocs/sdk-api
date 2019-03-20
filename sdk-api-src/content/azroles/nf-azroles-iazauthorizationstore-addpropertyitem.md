@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.AddPropertyItem
-title: IAzAuthorizationStore::AddPropertyItem
+title: IAzAuthorizationStore::AddPropertyItem (azroles.h)
 author: windows-sdk-content
 description: Adds the specified principal to the specified list of principals.
 old-location: security\azauthorizationstore_addpropertyitem.htm

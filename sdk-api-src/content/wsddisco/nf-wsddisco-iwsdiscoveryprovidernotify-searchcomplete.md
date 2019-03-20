@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProviderNotify.SearchComplete
-title: IWSDiscoveryProviderNotify::SearchComplete
+title: IWSDiscoveryProviderNotify::SearchComplete (wsddisco.h)
 author: windows-sdk-content
 description: Called to indicate a user initiated search has successfully completed and no more matches for the search will be accepted.
 old-location: ncd\iwsdiscoveryprovidernotify_searchcomplete.htm

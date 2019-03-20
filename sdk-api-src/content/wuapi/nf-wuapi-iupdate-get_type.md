@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_Type
-title: IUpdate::get_Type
+title: IUpdate::get_Type (wuapi.h)
 author: windows-sdk-content
 description: Gets the type of the update.
 old-location: wua\iupdate_type.htm

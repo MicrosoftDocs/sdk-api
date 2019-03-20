@@ -1,6 +1,6 @@
 ---
 UID: NE:ocidl.tagHITRESULT
-title: HITRESULT
+title: HITRESULT (ocidl.h)
 author: windows-sdk-content
 description: Indicates whether a location is within the image of an object.
 old-location: com\hitresult.htm

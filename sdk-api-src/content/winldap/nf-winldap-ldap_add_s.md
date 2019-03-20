@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_add_s
-title: ldap_add_s function
+title: ldap_add_s function (winldap.h)
 author: windows-sdk-content
 description: The ldap_add_s function initiates a synchronous add operation that adds an entry to a tree. The parent of the entry being added must already exist or the parent must be empty (equal to the root distinguished name) for an add operation to succeed.
 old-location: ldap\ldap_add_s.htm

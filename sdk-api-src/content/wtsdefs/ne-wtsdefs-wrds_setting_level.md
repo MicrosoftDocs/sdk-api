@@ -1,6 +1,6 @@
 ---
 UID: NE:wtsdefs._WRDS_SETTING_LEVEL
-title: WRDS_SETTING_LEVEL
+title: WRDS_SETTING_LEVEL (wtsdefs.h)
 author: windows-sdk-content
 description: Specifies the type of structure contained in the WRdsSetting member of the WRDS_SETTINGS structure.
 old-location: termserv\wrds_setting_level.htm

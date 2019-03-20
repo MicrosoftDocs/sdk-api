@@ -1,6 +1,6 @@
 ---
 UID: NN:mmdeviceapi.IActivateAudioInterfaceAsyncOperation
-title: IActivateAudioInterfaceAsyncOperation
+title: IActivateAudioInterfaceAsyncOperation (mmdeviceapi.h)
 author: windows-sdk-content
 description: Represents an asynchronous operation activating a WASAPI interface and provides a method to retrieve the results of the activation.
 old-location: coreaudio\iactivateaudiointerfaceasyncoperation.htm

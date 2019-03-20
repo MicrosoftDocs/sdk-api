@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IChannelIDTuneRequest
-title: IChannelIDTuneRequest
+title: IChannelIDTuneRequest (tuner.h)
 author: windows-sdk-content
 description: Implements methods that support channel requests using a string identifier.
 old-location: mstv\ichannelidtunerequest.htm

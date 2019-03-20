@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoContext1.SubmitDecoderBuffers1
-title: ID3D11VideoContext1::SubmitDecoderBuffers1
+title: ID3D11VideoContext1::SubmitDecoderBuffers1 (d3d11_1.h)
 author: windows-sdk-content
 description: Submits one or more buffers for decoding.
 old-location: mf\id3d11videocontext1_submitdecoderbuffers1.htm

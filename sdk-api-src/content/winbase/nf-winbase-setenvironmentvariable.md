@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SetEnvironmentVariable
-title: SetEnvironmentVariable function
+title: SetEnvironmentVariable function (winbase.h)
 author: windows-sdk-content
 description: Sets the contents of the specified environment variable for the current process.
 old-location: base\setenvironmentvariable.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.IEnumAgentHandler.Next
-title: IEnumAgentHandler::Next
+title: IEnumAgentHandler::Next (tapi3.h)
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumagenthandler_next.htm

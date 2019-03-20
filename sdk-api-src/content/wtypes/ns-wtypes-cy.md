@@ -1,6 +1,6 @@
 ---
 UID: NS:wtypes.tagCY
-title: CY
+title: CY (wtypes.h)
 author: windows-sdk-content
 description: A currency number stored as an 8-byte, two's complement integer, scaled by 10,000 to give a fixed-point number with 15 digits to the left of the decimal point and 4 digits to the right.
 old-location: automat\currency.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProvider.SetSecurity
-title: ITraceDataProvider::SetSecurity
+title: ITraceDataProvider::SetSecurity (pla.h)
 author: windows-sdk-content
 description: Sets the security information for the trace data provider.
 old-location: pla\itracedataprovider_setsecurity.htm

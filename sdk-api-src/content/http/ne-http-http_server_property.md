@@ -1,6 +1,6 @@
 ---
 UID: NE:http._HTTP_SERVER_PROPERTY
-title: HTTP_SERVER_PROPERTY
+title: HTTP_SERVER_PROPERTY (http.h)
 author: windows-sdk-content
 description: Defines the properties that are configured by the HTTP Server API on a URL group, server session, or request queue.
 old-location: http\http_server_property.htm

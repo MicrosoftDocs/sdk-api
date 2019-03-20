@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateHeap
-title: ID3D12Device::CreateHeap
+title: ID3D12Device::CreateHeap (d3d12.h)
 author: windows-sdk-content
 description: Creates a heap that can be used with placed resources and reserved resources.
 old-location: direct3d12\id3d12device_createheap.htm

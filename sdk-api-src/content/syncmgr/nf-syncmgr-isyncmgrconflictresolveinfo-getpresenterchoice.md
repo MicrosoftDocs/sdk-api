@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictResolveInfo.GetPresenterChoice
-title: ISyncMgrConflictResolveInfo::GetPresenterChoice
+title: ISyncMgrConflictResolveInfo::GetPresenterChoice (syncmgr.h)
 author: windows-sdk-content
 description: Gets what kind of choice was made and whether to apply the choice to all subsequent conflicts in the set.
 old-location: shell\ISyncMgrConflictResolveInfo_GetPresenterChoice.htm

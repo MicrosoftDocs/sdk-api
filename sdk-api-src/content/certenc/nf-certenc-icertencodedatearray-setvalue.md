@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeDateArray.SetValue
-title: ICertEncodeDateArray::SetValue
+title: ICertEncodeDateArray::SetValue (certenc.h)
 author: windows-sdk-content
 description: Sets a DATE value at the specified index of the DATE array.
 old-location: security\icertencodedatearray_setvalue.htm

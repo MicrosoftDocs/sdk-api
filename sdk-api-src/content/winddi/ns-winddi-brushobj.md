@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._BRUSHOBJ
-title: BRUSHOBJ
+title: BRUSHOBJ (winddi.h)
 author: windows-sdk-content
 description: The BRUSHOBJ structure contains three public members that describe a brush object.
 old-location: display\brushobj.htm

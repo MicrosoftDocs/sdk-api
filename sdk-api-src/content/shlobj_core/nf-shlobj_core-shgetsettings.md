@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHGetSettings
-title: SHGetSettings function
+title: SHGetSettings function (shlobj_core.h)
 author: windows-sdk-content
 description: Retrieves the current Shell option settings.
 old-location: shell\SHGetSettings.htm

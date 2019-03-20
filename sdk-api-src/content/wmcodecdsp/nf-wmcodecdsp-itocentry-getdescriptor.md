@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.ITocEntry.GetDescriptor
-title: ITocEntry::GetDescriptor
+title: ITocEntry::GetDescriptor (wmcodecdsp.h)
 author: windows-sdk-content
 description: The GetDescriptor method retrieves the descriptor, previously set by a call to SetDescriptor, of the entry.
 old-location: mf\itocentry_getdescriptor.htm

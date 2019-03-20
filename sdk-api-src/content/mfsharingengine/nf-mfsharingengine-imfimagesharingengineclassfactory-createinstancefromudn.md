@@ -1,6 +1,6 @@
 ---
 UID: NF:mfsharingengine.IMFImageSharingEngineClassFactory.CreateInstanceFromUDN
-title: IMFImageSharingEngineClassFactory::CreateInstanceFromUDN
+title: IMFImageSharingEngineClassFactory::CreateInstanceFromUDN (mfsharingengine.h)
 author: windows-sdk-content
 description: Creates an instance of the IMFImageSharingEngine from the provided unique device name.
 old-location: mf\imfimagesharingengineclassfactory_createinstancefromudn.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Header_GetItemDropDownRect
-title: Header_GetItemDropDownRect macro
+title: Header_GetItemDropDownRect macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the coordinates of the drop-down button for a specified item in a header control. The header control must be of type HDF_SPLITBUTTON. Use this macro or send the HDM_GETITEMDROPDOWNRECT message explicitly.
 old-location: controls\Header_GetItemDropDownRect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFontFile.GetReferenceKey
-title: IDWriteFontFile::GetReferenceKey
+title: IDWriteFontFile::GetReferenceKey (dwrite.h)
 author: windows-sdk-content
 description: Obtains the pointer to the reference key of a font file. The returned pointer is valid until the font file object is released.
 old-location: directwrite\IDWriteFontFile_GetReferenceKey.htm

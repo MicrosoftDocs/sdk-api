@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawLines(IN const Pen,IN const Point,IN INT)
-title: Graphics::DrawLines(IN const Pen,IN const Point,IN INT)
+title: Graphics::DrawLines(IN const Pen,IN const Point,IN INT) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::DrawLines method draws a sequence of connected lines.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawLines_Pen_pen_Point_points_INT_count_.htm

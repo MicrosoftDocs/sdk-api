@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_EVENTING_FILTER_ACTION
-title: WSD_EVENTING_FILTER_ACTION
+title: WSD_EVENTING_FILTER_ACTION (wsdtypes.h)
 author: windows-sdk-content
 description: Represents a boolean expression used for filtering events.
 old-location: ncd\wsd_eventing_filter_action.htm

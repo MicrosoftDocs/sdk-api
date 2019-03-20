@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IFolderActionCollection.Remove
-title: IFolderActionCollection::Remove
+title: IFolderActionCollection::Remove (pla.h)
 author: windows-sdk-content
 description: Removes a folder action from the collection based on the specified index.
 old-location: pla\ifolderactioncollection_remove.htm

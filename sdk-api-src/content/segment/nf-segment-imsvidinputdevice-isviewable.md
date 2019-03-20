@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidInputDevice.IsViewable
-title: IMSVidInputDevice::IsViewable
+title: IMSVidInputDevice::IsViewable (segment.h)
 author: windows-sdk-content
 description: The IsViewable method determines whether this device can view the specified tune request.
 old-location: mstv\imsvidinputdevice_isviewable.htm

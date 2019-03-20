@@ -1,6 +1,6 @@
 ---
 UID: NE:fwptypes.FWP_VSWITCH_NETWORK_TYPE_
-title: FWP_VSWITCH_NETWORK_TYPE
+title: FWP_VSWITCH_NETWORK_TYPE (fwptypes.h)
 author: windows-sdk-content
 description: Specifies the network type of a vSwitch.
 old-location: fwp\fwp_vswitch_network_type.htm

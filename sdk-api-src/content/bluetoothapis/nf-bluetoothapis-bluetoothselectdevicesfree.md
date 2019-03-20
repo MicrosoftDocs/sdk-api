@@ -1,6 +1,6 @@
 ---
 UID: NF:bluetoothapis.BluetoothSelectDevicesFree
-title: BluetoothSelectDevicesFree function
+title: BluetoothSelectDevicesFree function (bluetoothapis.h)
 author: windows-sdk-content
 description: Frees resources associated with a previous call to BluetoothSelectDevices.
 old-location: bluetooth\bluetoothselectdevicesfree.htm

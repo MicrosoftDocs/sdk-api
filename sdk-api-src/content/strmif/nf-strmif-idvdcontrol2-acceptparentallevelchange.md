@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.AcceptParentalLevelChange
-title: IDvdControl2::AcceptParentalLevelChange
+title: IDvdControl2::AcceptParentalLevelChange (strmif.h)
 author: windows-sdk-content
 description: The AcceptParentalLevelChange method accepts or rejects a request from the DVD Navigator to play content at a higher parental management level.
 old-location: dshow\idvdcontrol2_acceptparentallevelchange.htm

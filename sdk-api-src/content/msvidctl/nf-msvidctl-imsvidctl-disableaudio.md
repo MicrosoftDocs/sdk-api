@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.DisableAudio
-title: IMSVidCtl::DisableAudio
+title: IMSVidCtl::DisableAudio (msvidctl.h)
 author: windows-sdk-content
 description: The DisableAudio method disables the audio output device.
 old-location: mstv\imsvidctl_disableaudio.htm

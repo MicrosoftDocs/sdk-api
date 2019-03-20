@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGroupCreate
-title: PeerGroupCreate function
+title: PeerGroupCreate function (p2p.h)
 author: windows-sdk-content
 description: The PeerGroupCreate function creates a new peer group.
 old-location: p2p\peergroupcreate.htm

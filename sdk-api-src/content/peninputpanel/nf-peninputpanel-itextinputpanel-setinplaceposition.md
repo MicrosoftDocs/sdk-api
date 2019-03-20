@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.SetInPlacePosition
-title: ITextInputPanel::SetInPlacePosition
+title: ITextInputPanel::SetInPlacePosition (peninputpanel.h)
 author: windows-sdk-content
 description: Explicitly positions the Tablet PC Input Panel in screen coordinates.
 old-location: tablet\itextinputpanel_setinplaceposition.htm

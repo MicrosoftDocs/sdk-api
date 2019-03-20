@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.EnumDisplaySettingsExW
-title: EnumDisplaySettingsExW function
+title: EnumDisplaySettingsExW function (winuser.h)
 author: windows-sdk-content
 description: The EnumDisplaySettingsEx function retrieves information about one of the graphics modes for a display device. To retrieve information for all the graphics modes for a display device, make a series of calls to this function.
 old-location: gdi\enumdisplaysettingsex.htm

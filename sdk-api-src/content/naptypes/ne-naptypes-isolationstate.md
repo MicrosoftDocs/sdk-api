@@ -1,6 +1,6 @@
 ---
 UID: NE:naptypes.tagIsolationState
-title: IsolationState
+title: IsolationState (naptypes.h)
 author: windows-sdk-content
 description: Describes the isolation state of a connection.
 old-location: nap\isolationstate_enum.htm

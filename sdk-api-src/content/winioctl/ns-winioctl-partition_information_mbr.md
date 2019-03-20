@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._PARTITION_INFORMATION_MBR
-title: PARTITION_INFORMATION_MBR
+title: PARTITION_INFORMATION_MBR (winioctl.h)
 author: windows-sdk-content
 description: Contains partition information specific to master boot record (MBR) disks.
 old-location: fs\partition_information_mbr_str.htm

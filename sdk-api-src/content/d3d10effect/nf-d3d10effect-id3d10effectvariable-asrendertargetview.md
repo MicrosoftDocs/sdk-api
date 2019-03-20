@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.AsRenderTargetView
-title: ID3D10EffectVariable::AsRenderTargetView
+title: ID3D10EffectVariable::AsRenderTargetView (d3d10effect.h)
 author: windows-sdk-content
 description: Get a render-target-view variable.
 old-location: direct3d10\id3d10effectvariable_asrendertargetview.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Font.GetLogFontW
-title: Font::GetLogFontW
+title: Font::GetLogFontW (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Font::GetLogFontW method uses a LOGFONTW structure to get the attributes of this Font object.
 old-location: gdiplus\_gdiplus_CLASS_Font_GetLogFontW_g_logfontW_.htm

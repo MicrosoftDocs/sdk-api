@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetDocString
-title: ICreateTypeInfo::SetDocString
+title: ICreateTypeInfo::SetDocString (oaidl.h)
 author: windows-sdk-content
 description: Sets the documentation string displayed by type browsers.
 old-location: automat\icreatetypeinfo_setdocstring.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmAddRouteToDest
-title: RtmAddRouteToDest function
+title: RtmAddRouteToDest function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmAddRouteToDest function adds a new route to the routing table or updates an existing route in the routing table. If the best route changes, a change notification is generated.
 old-location: rras\rtmaddroutetodest.htm

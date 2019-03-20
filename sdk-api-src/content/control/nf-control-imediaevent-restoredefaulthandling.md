@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IMediaEvent.RestoreDefaultHandling
-title: IMediaEvent::RestoreDefaultHandling
+title: IMediaEvent::RestoreDefaultHandling (control.h)
 author: windows-sdk-content
 description: The RestoreDefaultHandling method restores the Filter Graph Manager's default handling for a specified event.
 old-location: dshow\imediaevent_restoredefaulthandling.htm

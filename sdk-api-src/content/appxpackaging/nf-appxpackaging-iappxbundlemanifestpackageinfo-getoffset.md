@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfo.GetOffset
-title: IAppxBundleManifestPackageInfo::GetOffset
+title: IAppxBundleManifestPackageInfo::GetOffset (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves the offset of the package relative to the beginning of the bundle.
 old-location: appxpkg\iappxbundlemanifestpackageinfo_getoffset.htm

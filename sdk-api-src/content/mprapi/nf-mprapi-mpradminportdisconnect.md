@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminPortDisconnect
-title: MprAdminPortDisconnect function
+title: MprAdminPortDisconnect function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminPortDisconnect function disconnects a connection on a specific port.
 old-location: rras\mpradminportdisconnect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:oaidl.tagFUNCKIND
-title: FUNCKIND
+title: FUNCKIND (oaidl.h)
 author: windows-sdk-content
 description: Specifies the function type.
 old-location: automat\funckind.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyStoreCapabilities.IsPropertyWritable
-title: IPropertyStoreCapabilities::IsPropertyWritable
+title: IPropertyStoreCapabilities::IsPropertyWritable (propsys.h)
 author: windows-sdk-content
 description: Queries whether the property handler allows a specific property to be edited in the UI by the user.
 old-location: properties\IPropertyStoreCapabilities_IsPropertyWritable.htm

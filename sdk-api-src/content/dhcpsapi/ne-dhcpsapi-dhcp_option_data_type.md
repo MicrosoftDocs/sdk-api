@@ -1,6 +1,6 @@
 ---
 UID: NE:dhcpsapi._DHCP_OPTION_DATA_TYPE
-title: DHCP_OPTION_DATA_TYPE
+title: DHCP_OPTION_DATA_TYPE (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_OPTION_DATA_TYPE enumeration defines the set of formats that represent DHCP option data.
 old-location: dhcp\dhcp_option_data_type.htm

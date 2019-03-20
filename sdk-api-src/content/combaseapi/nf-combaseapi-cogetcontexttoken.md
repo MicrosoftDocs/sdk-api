@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoGetContextToken
-title: CoGetContextToken function
+title: CoGetContextToken function (combaseapi.h)
 author: windows-sdk-content
 description: Returns a pointer to an implementation of IObjContext for the current context.
 old-location: com\cogetcontexttoken.htm

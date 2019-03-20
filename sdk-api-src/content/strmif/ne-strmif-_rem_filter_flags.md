@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif._REM_FILTER_FLAGS
-title: "_REM_FILTER_FLAGS"
+title: "_REM_FILTER_FLAGS" (strmif.h)
 author: windows-sdk-content
 description: Specifies how to remove a filter from the filter graph.
 old-location: dshow\rem_filter_flags.htm

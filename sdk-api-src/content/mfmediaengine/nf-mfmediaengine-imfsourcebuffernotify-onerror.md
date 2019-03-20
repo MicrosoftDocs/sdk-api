@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBufferNotify.OnError
-title: IMFSourceBufferNotify::OnError
+title: IMFSourceBufferNotify::OnError (mfmediaengine.h)
 author: windows-sdk-content
 description: Used to indicate that an error has occurred with the source buffer.
 old-location: mf\imfsourcebuffernotify_onerror.htm

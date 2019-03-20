@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.SetCellCount
-title: ITextRow::SetCellCount
+title: ITextRow::SetCellCount (tom.h)
 author: windows-sdk-content
 description: Sets the count of cells in a row.
 old-location: controls\itextrow_setcellcount.htm

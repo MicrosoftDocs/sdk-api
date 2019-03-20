@@ -1,6 +1,6 @@
 ---
 UID: NS:vfw.__unnamed_struct_6
-title: ICDECOMPRESSEX
+title: ICDECOMPRESSEX (vfw.h)
 author: windows-sdk-content
 description: The ICDECOMPRESSEX structure contains decompression parameters used with the ICM_DECOMPRESSEX message.
 old-location: multimedia\icdecompressex_struct.htm

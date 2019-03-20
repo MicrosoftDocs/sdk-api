@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_DeltaCompressedContentPreferred
-title: IUpdate::get_DeltaCompressedContentPreferred
+title: IUpdate::get_DeltaCompressedContentPreferred (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether to prefer delta-compressed content during the download and install or uninstall of the update if delta-compressed content is available.
 old-location: wua\iupdate_deltacompressedcontentpreferred.htm

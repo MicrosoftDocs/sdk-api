@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDevice3.GetProperty
-title: IMDSPDevice3::GetProperty
+title: IMDSPDevice3::GetProperty (mswmdm.h)
 author: windows-sdk-content
 description: The GetProperty method retrieves a specific device property.
 old-location: wmdm\imdspdevice3_getproperty.htm

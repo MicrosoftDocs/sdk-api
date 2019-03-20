@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMQuaternionNotEqual
-title: XMQuaternionNotEqual function
+title: XMQuaternionNotEqual function (directxmath.h)
 author: windows-sdk-content
 description: Tests whether two quaternions are not equal.
 old-location: dxmath\xmquaternionnotequal.htm

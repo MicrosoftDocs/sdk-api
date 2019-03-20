@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.EndItemTransfer
-title: IPhotoAcquireProgressCB::EndItemTransfer
+title: IPhotoAcquireProgressCB::EndItemTransfer (photoacquire.h)
 author: windows-sdk-content
 description: The EndItemTransfer method provides extended functionality each time a file is transferred from the image source. The application provides the implementation of the EndItemTransfer method.
 old-location: picacq\iphotoacquireprogresscb_enditemtransfer.htm

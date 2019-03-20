@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.SetNtmsMediaComplete
-title: SetNtmsMediaComplete function
+title: SetNtmsMediaComplete function (ntmsapi.h)
 author: windows-sdk-content
 description: The SetNtmsMediaComplete function marks a piece of logical media as complete.
 old-location: fs\setntmsmediacomplete.htm

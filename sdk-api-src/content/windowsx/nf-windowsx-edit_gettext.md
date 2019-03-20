@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Edit_GetText
-title: Edit_GetText macro
+title: Edit_GetText macro (windowsx.h)
 author: windows-sdk-content
 description: Gets the text of an edit control.
 old-location: controls\edit_GetText.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITLegacyAddressMediaControl2.ConfigDialogEdit
-title: ITLegacyAddressMediaControl2::ConfigDialogEdit
+title: ITLegacyAddressMediaControl2::ConfigDialogEdit (tapi3if.h)
 author: windows-sdk-content
 description: The ConfigDialogEdit method causes the provider of the specified line device to display a dialog box to allow the user to configure parameters related to the line device.
 old-location: tapi3\itlegacyaddressmediacontrol2_configdialogedit.htm

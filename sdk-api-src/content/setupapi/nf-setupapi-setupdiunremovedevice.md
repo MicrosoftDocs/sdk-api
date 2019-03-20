@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiUnremoveDevice
-title: SetupDiUnremoveDevice function
+title: SetupDiUnremoveDevice function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiUnremoveDevice function is the default handler for the DIF_UNREMOVE installation request.
 old-location: devinst\setupdiunremovedevice.htm

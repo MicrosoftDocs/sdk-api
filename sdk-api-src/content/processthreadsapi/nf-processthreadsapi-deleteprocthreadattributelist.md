@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.DeleteProcThreadAttributeList
-title: DeleteProcThreadAttributeList function
+title: DeleteProcThreadAttributeList function (processthreadsapi.h)
 author: windows-sdk-content
 description: Deletes the specified list of attributes for process and thread creation.
 old-location: base\deleteprocthreadattributelist.htm

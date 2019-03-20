@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_UTF16_TEXT
-title: WS_XML_UTF16_TEXT
+title: WS_XML_UTF16_TEXT (webservices.h)
 author: windows-sdk-content
 description: Represents text encoded as UTF-16 bytes.
 old-location: wsw\ws_xml_utf16_text.htm

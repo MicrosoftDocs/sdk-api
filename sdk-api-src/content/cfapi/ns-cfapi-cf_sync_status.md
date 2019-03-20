@@ -1,6 +1,6 @@
 ---
 UID: NS:cfapi.CF_SYNC_STATUS
-title: CF_SYNC_STATUS
+title: CF_SYNC_STATUS (cfapi.h)
 author: windows-sdk-content
 description: Used in a CF_OPERATION_INFO structure to describe the status of a specified sync root.
 old-location: cloudapi\cf_sync_status.htm

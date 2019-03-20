@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DisableProcessWindowsGhosting
-title: DisableProcessWindowsGhosting function
+title: DisableProcessWindowsGhosting function (winuser.h)
 author: windows-sdk-content
 description: Disables the window ghosting feature for the calling GUI process. Window ghosting is a Windows Manager feature that lets the user minimize, move, or close the main window of an application that is not responding.
 old-location: winprog\disableprocesswindowsghosting.htm

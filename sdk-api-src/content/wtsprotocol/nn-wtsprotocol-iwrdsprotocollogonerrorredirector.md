@@ -1,6 +1,6 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolLogonErrorRedirector
-title: IWRdsProtocolLogonErrorRedirector
+title: IWRdsProtocolLogonErrorRedirector (wtsprotocol.h)
 author: windows-sdk-content
 description: Exposes methods called by the Remote Desktop Services service to update logon status and determine how to direct logon error messages.
 old-location: termserv\iwrdsprotocollogonerrorredirector.htm

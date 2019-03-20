@@ -1,6 +1,6 @@
 ---
 UID: NF:infotech.IITPropList.SaveData
-title: IITPropList::SaveData
+title: IITPropList::SaveData (infotech.h)
 author: windows-sdk-content
 description: Saves the data size and data from the property list to a buffer.
 old-location: htmlhelp\iitproplist_savedata.htm

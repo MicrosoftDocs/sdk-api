@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetPath
-title: GetPath function
+title: GetPath function (wingdi.h)
 author: windows-sdk-content
 description: The GetPath function retrieves the coordinates defining the endpoints of lines and the control points of curves found in the path that is selected into the specified device context.
 old-location: gdi\getpath.htm

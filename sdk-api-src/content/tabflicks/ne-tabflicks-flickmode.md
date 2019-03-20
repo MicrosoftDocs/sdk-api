@@ -1,6 +1,6 @@
 ---
 UID: NE:tabflicks.FLICKMODE
-title: FLICKMODE
+title: FLICKMODE (tabflicks.h)
 author: windows-sdk-content
 description: Describes where Flick gestures are enabled.
 old-location: tablet\flickmode.htm

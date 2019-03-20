@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetRenderMode
-title: IWICDevelopRaw::SetRenderMode
+title: IWICDevelopRaw::SetRenderMode (wincodec.h)
 author: windows-sdk-content
 description: Sets the current WICRawRenderMode.
 old-location: wic\_wic_codec_iwicdevelopraw_setrendermode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertificatePolicy.Initialize
-title: ICertificatePolicy::Initialize
+title: ICertificatePolicy::Initialize (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from an object identifier (OID).
 old-location: security\icertificatepolicy_initialize_method.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:magnification.MagGetWindowTransform
-title: MagGetWindowTransform function
+title: MagGetWindowTransform function (magnification.h)
 author: windows-sdk-content
 description: Retrieves the transformation matrix associated with a magnifier control.
 old-location: magapi\magapi_MagGetWindowTransform.htm

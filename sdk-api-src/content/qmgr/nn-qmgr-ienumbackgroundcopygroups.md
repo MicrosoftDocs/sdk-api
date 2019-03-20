@@ -1,6 +1,6 @@
 ---
 UID: NN:qmgr.IEnumBackgroundCopyGroups
-title: IEnumBackgroundCopyGroups
+title: IEnumBackgroundCopyGroups (qmgr.h)
 author: windows-sdk-content
 description: Use the IEnumBackgroundCopyGroups interface to enumerate the list of groups in the download queue. To get an IEnumBackgroundCopyGroups interface pointer, call the IBackgroundCopyQMgr::EnumGroups method.
 old-location: bits\ienumbackgroundcopygroups.htm

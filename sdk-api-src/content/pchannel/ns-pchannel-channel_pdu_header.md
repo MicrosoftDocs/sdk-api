@@ -1,6 +1,6 @@
 ---
 UID: NS:pchannel.tagCHANNEL_PDU_HEADER
-title: CHANNEL_PDU_HEADER
+title: CHANNEL_PDU_HEADER (pchannel.h)
 author: windows-sdk-content
 description: Contains information about a data block being received by the server end of a virtual channel.
 old-location: termserv\channel_pdu_header_str.htm

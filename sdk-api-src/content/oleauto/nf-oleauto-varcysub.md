@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarCySub
-title: VarCySub function
+title: VarCySub function (oleauto.h)
 author: windows-sdk-content
 description: Subtracts two variants of type currency.
 old-location: automat\varcysub.htm

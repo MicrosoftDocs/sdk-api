@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.BackupRead
-title: BackupRead function
+title: BackupRead function (winbase.h)
 author: windows-sdk-content
 description: Back up a file or directory, including the security information.
 old-location: backup\backupread.htm

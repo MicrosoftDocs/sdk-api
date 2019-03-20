@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStream.SetSize
-title: IStream::SetSize
+title: IStream::SetSize (objidl.h)
 author: windows-sdk-content
 description: Changes the size of the stream object.
 old-location: stg\istream_setsize.htm

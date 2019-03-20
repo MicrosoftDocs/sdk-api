@@ -1,6 +1,6 @@
 ---
 UID: NE:mfmediaengine.MF_TIMED_TEXT_SCROLL_MODE
-title: MF_TIMED_TEXT_SCROLL_MODE
+title: MF_TIMED_TEXT_SCROLL_MODE (mfmediaengine.h)
 author: windows-sdk-content
 description: Specifies how text appears when the parent element is scrolled.
 old-location: mf\mf_timed_text_scroll_mode.htm

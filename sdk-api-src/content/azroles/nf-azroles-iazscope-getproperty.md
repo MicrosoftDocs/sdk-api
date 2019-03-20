@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.GetProperty
-title: IAzScope::GetProperty
+title: IAzScope::GetProperty (azroles.h)
 author: windows-sdk-content
 description: Returns the IAzScope object property with the specified property ID.
 old-location: security\iazscope_getproperty.htm

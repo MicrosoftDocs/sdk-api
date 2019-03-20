@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.stopBurn
-title: IWMPCdromBurn::stopBurn
+title: IWMPCdromBurn::stopBurn (wmp.h)
 author: windows-sdk-content
 description: The stopBurn method stops the CD burning process.
 old-location: wmp\iwmpcdromburn_stopburn.htm

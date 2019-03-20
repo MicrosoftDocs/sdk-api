@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineGenerateDigitsW
-title: lineGenerateDigitsW function
+title: lineGenerateDigitsW function (tapi.h)
 author: windows-sdk-content
 description: Initiates the generation of the specified digits on the specified call as inband tones using the specified signaling mode.
 old-location: tapi2\linegeneratedigits.htm

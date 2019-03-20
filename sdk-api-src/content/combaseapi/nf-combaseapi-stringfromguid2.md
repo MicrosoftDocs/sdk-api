@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.StringFromGUID2
-title: StringFromGUID2 function
+title: StringFromGUID2 function (combaseapi.h)
 author: windows-sdk-content
 description: Converts a globally unique identifier (GUID) into a string of printable characters.
 old-location: com\stringfromguid2.htm

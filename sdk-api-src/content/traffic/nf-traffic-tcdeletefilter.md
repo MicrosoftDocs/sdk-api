@@ -1,6 +1,6 @@
 ---
 UID: NF:traffic.TcDeleteFilter
-title: TcDeleteFilter function
+title: TcDeleteFilter function (traffic.h)
 author: windows-sdk-content
 description: The TcDeleteFilter function deletes a filter previously added with the TcAddFilter function.
 old-location: qos\tcdeletefilter.htm

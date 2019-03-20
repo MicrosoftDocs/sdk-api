@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.GetVersion
-title: ITextDocument2::GetVersion
+title: ITextDocument2::GetVersion (tom.h)
 author: windows-sdk-content
 description: Gets the version number of the Text Object Model (TOM) engine.
 old-location: controls\itextdocument2_getversion.htm

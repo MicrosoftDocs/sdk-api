@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector2TransformCoordStream
-title: XMVector2TransformCoordStream function
+title: XMVector2TransformCoordStream function (directxmath.h)
 author: windows-sdk-content
 description: Transforms a stream of 2D vectors by a given matrix, projecting the resulting vectors such that their w coordinates are equal to 1.0.
 old-location: dxmath\xmvector2transformcoordstream.htm

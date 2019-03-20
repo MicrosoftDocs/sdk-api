@@ -1,6 +1,6 @@
 ---
 UID: NF:ktmw32.ReadOnlyEnlistment
-title: ReadOnlyEnlistment function
+title: ReadOnlyEnlistment function (ktmw32.h)
 author: windows-sdk-content
 description: Requests that the specified enlistment be converted to a read-only enlistment. A read-only enlistment cannot participate in the outcome of the transaction and is not durably recorded for recovery.
 old-location: fs\readonlyenlistment.htm

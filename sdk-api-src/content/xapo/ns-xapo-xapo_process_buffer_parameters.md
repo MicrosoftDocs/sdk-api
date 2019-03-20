@@ -1,6 +1,6 @@
 ---
 UID: NS:xapo.XAPO_PROCESS_BUFFER_PARAMETERS
-title: XAPO_PROCESS_BUFFER_PARAMETERS
+title: XAPO_PROCESS_BUFFER_PARAMETERS (xapo.h)
 author: windows-sdk-content
 description: Defines stream buffer parameters that may change from one call to the next. Used with the Process method.
 old-location: xaudio2\xapo_process_buffer_parameters.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagCBT_CREATEWNDA
-title: CBT_CREATEWNDA
+title: CBT_CREATEWNDA (winuser.h)
 author: windows-sdk-content
 description: Contains information passed to a WH_CBT hook procedure, CBTProc, before a window is created.
 old-location: winmsg\cbt_createwnd.htm

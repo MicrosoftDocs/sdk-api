@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.ImportFileSystem
-title: IFileSystemImage::ImportFileSystem
+title: IFileSystemImage::ImportFileSystem (imapi2fs.h)
 author: windows-sdk-content
 description: Imports the default file system on the current disc.
 old-location: imapi\ifilesystemimage_importfilesystem.htm

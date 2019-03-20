@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_PROBE
-title: WSD_PROBE
+title: WSD_PROBE (wsdtypes.h)
 author: windows-sdk-content
 description: Represents a Probe message.
 old-location: ncd\wsd_probe_struct.htm

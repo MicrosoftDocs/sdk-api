@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransition.SetInitialValue
-title: IUIAnimationTransition::SetInitialValue
+title: IUIAnimationTransition::SetInitialValue (uianimation.h)
 author: windows-sdk-content
 description: Sets the initial value for the transition.
 old-location: uianimation\iuianimationtransition_setinitialvalue.htm

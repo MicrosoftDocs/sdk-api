@@ -1,6 +1,6 @@
 ---
 UID: NF:amsi.IAmsiStream.GetAttribute
-title: IAmsiStream::GetAttribute
+title: IAmsiStream::GetAttribute (amsi.h)
 author: windows-sdk-content
 description: Returns a requested attribute from the stream.
 old-location: amsi\iamsistream_getattribute.htm

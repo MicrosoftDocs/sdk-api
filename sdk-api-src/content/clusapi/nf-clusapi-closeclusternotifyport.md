@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.CloseClusterNotifyPort
-title: CloseClusterNotifyPort function
+title: CloseClusterNotifyPort function (clusapi.h)
 author: windows-sdk-content
 description: Closes a notification port established through CreateClusterNotifyPort.
 old-location: mscs\closeclusternotifyport.htm

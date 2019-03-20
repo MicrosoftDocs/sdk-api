@@ -1,6 +1,6 @@
 ---
 UID: NE:oaidl.tagTYPEFLAGS
-title: TYPEFLAGS
+title: TYPEFLAGS (oaidl.h)
 author: windows-sdk-content
 description: The type flags.
 old-location: automat\typeflags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:audioclient.IAudioClock2
-title: IAudioClock2
+title: IAudioClock2 (audioclient.h)
 author: windows-sdk-content
 description: The IAudioClock2 interface is used to get the current device position.
 old-location: coreaudio\iaudioclock2.htm

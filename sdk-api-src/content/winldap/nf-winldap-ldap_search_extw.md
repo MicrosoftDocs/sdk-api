@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_search_extW
-title: ldap_search_extW function
+title: ldap_search_extW function (winldap.h)
 author: windows-sdk-content
 description: Searches the LDAP directory and returns a requested set of attributes for each matched entry.
 old-location: ldap\ldap_search_ext.htm

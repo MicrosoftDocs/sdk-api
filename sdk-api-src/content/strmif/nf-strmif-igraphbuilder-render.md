@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IGraphBuilder.Render
-title: IGraphBuilder::Render
+title: IGraphBuilder::Render (strmif.h)
 author: windows-sdk-content
 description: The Render method builds a filter graph that renders the data from a specified output pin.
 old-location: dshow\igraphbuilder_render.htm

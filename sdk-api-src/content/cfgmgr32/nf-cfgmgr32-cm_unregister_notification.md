@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Unregister_Notification
-title: CM_Unregister_Notification function
+title: CM_Unregister_Notification function (cfgmgr32.h)
 author: windows-sdk-content
 description: Use UnregisterDeviceNotification instead of CM_Unregister_Notification if your code targets Windows 7 or earlier versions of Windows.
 old-location: devinst\cm_unregister_notification.htm

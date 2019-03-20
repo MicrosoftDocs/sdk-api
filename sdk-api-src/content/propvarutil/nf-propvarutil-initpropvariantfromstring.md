@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromString
-title: InitPropVariantFromString function
+title: InitPropVariantFromString function (propvarutil.h)
 author: windows-sdk-content
 description: Initializes a PROPVARIANT structure based on a specified string.
 old-location: properties\InitPropVariantFromString.htm

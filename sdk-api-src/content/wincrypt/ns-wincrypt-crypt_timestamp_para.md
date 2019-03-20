@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_TIMESTAMP_PARA
-title: CRYPT_TIMESTAMP_PARA
+title: CRYPT_TIMESTAMP_PARA (wincrypt.h)
 author: windows-sdk-content
 description: Defines additional parameters for the time stamp request.
 old-location: security\crypt_timestamp_para.htm

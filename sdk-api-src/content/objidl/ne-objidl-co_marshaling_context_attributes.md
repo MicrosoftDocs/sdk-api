@@ -1,6 +1,6 @@
 ---
 UID: NE:objidl.CO_MARSHALING_CONTEXT_ATTRIBUTES
-title: CO_MARSHALING_CONTEXT_ATTRIBUTES
+title: CO_MARSHALING_CONTEXT_ATTRIBUTES (objidl.h)
 author: windows-sdk-content
 description: Identifies one of the marshaling context attributes that you can query by using the GetMarshalingContextAttribute method.
 old-location: com\co_marshaling_context_attributes.htm

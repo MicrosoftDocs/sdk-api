@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMCOLOR.XMCOLOR
-title: XMCOLOR::XMCOLOR
+title: XMCOLOR::XMCOLOR (directxpackedvector.h)
 author: windows-sdk-content
 description: Default constructor for XMCOLOR.
 old-location: dxmath\xmcolor_ctor_1.htm

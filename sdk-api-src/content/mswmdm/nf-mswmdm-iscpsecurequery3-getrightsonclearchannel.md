@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.ISCPSecureQuery3.GetRightsOnClearChannel
-title: ISCPSecureQuery3::GetRightsOnClearChannel
+title: ISCPSecureQuery3::GetRightsOnClearChannel (mswmdm.h)
 author: windows-sdk-content
 description: The GetRightsOnClearChannel method retrieves rights information for the current piece of content on a clear channel.
 old-location: wmdm\iscpsecurequery3_getrightsonclearchannel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.CD3D11_RECT.operator const D3D11_RECT&
-title: CD3D11_RECT::operator const D3D11_RECT&
+title: CD3D11_RECT::operator const D3D11_RECT& (d3d11.h)
 author: windows-sdk-content
 description: This operator returns the address of a D3D11_RECT structure that contains the data from the CD3D11_RECT instance.
 old-location: direct3d11\cd3d11_rect_d3d11_rect__.htm

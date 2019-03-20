@@ -1,6 +1,6 @@
 ---
 UID: NS:gdipluseffects.BrightnessContrastParams
-title: BrightnessContrastParams
+title: BrightnessContrastParams (gdipluseffects.h)
 author: windows-sdk-content
 description: A BrightnessContrastParams structure contains members that specify the nature of a brightness or contrast adjustment.
 old-location: gdiplus\_gdiplus_STRUC_BrightnessContrastParams.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2data.ISectionList.GetSectionData
-title: ISectionList::GetSectionData
+title: ISectionList::GetSectionData (mpeg2data.h)
 author: windows-sdk-content
 description: The GetSectionData method retrieves a section.
 old-location: mstv\isectionlist_getsectiondata.htm

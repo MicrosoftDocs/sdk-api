@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetCrackUrlW
-title: InternetCrackUrlW function
+title: InternetCrackUrlW function (wininet.h)
 author: windows-sdk-content
 description: Cracks a URL into its component parts.
 old-location: wininet\internetcrackurl.htm

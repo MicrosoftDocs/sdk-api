@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessible.get_accState
-title: IAccessible::get_accState
+title: IAccessible::get_accState (oleacc.h)
 author: windows-sdk-content
 description: The IAccessible::get_accState method retrieves the current state of the specified object. All objects support this property.
 old-location: winauto\iaccessible_iaccessible__get_accstate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:evntprov.EventDescSetTask
-title: EventDescSetTask function
+title: EventDescSetTask function (evntprov.h)
 author: windows-sdk-content
 description: Sets the Task member of the event descriptor.
 old-location: etw\eventdescsettask_func.htm

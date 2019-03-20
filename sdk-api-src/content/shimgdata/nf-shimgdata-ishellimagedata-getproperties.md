@@ -1,6 +1,6 @@
 ---
 UID: NF:shimgdata.IShellImageData.GetProperties
-title: IShellImageData::GetProperties
+title: IShellImageData::GetProperties (shimgdata.h)
 author: windows-sdk-content
 description: Gets an IPropertySetStorage through which the properties of the image can be accessed.
 old-location: shell\IShellImageData_GetProperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:unknwnbase.IUnknown_AddRef_Proxy
-title: IUnknown_AddRef_Proxy function
+title: IUnknown_AddRef_Proxy function (unknwnbase.h)
 author: windows-sdk-content
 description: The IUnknown_AddRef_Proxy function implements the AddRef method for all interface proxies.
 old-location: rpc\iunknown_addref_proxy.htm

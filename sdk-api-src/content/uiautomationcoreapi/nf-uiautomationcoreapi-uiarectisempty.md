@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.UiaRectIsEmpty
-title: UiaRectIsEmpty function
+title: UiaRectIsEmpty function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that specifies whether a rectangle has all its coordinates set to 0.
 old-location: winauto\uiauto_UiaRectIsEmptyFunction.htm

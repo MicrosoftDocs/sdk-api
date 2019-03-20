@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.Tint.Tint
-title: Tint::Tint
+title: Tint::Tint (gdipluseffects.h)
 author: windows-sdk-content
 description: Creates a Tint object.
 old-location: gdiplus\_gdiplus_CLASS_Tint_Tint_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollPattern.SetScrollPercent
-title: IUIAutomationScrollPattern::SetScrollPercent
+title: IUIAutomationScrollPattern::SetScrollPercent (uiautomationclient.h)
 author: windows-sdk-content
 description: Sets the horizontal and vertical scroll positions as a percentage of the total content area within the UI Automation element.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_SetScrollPercent.htm

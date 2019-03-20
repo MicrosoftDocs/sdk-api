@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.ConvertDefaultLocale
-title: ConvertDefaultLocale function
+title: ConvertDefaultLocale function (winnls.h)
 author: windows-sdk-content
 description: Converts a default locale value to an actual locale identifier.
 old-location: intl\convertdefaultlocale.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriterEx2.IsWriterShuttingDown
-title: CVssWriterEx2::IsWriterShuttingDown
+title: CVssWriterEx2::IsWriterShuttingDown (vswriter.h)
 author: windows-sdk-content
 description: Determines whether the writer is shutting down.
 old-location: base\cvsswriterex2_iswritershuttingdown.htm

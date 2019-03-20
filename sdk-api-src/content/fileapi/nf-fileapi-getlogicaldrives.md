@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.GetLogicalDrives
-title: GetLogicalDrives function
+title: GetLogicalDrives function (fileapi.h)
 author: windows-sdk-content
 description: Retrieves a bitmask representing the currently available disk drives.
 old-location: fs\getlogicaldrives.htm

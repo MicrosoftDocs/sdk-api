@@ -1,6 +1,6 @@
 ---
 UID: NN:oleidl.IOleInPlaceSite
-title: IOleInPlaceSite
+title: IOleInPlaceSite (oleidl.h)
 author: windows-sdk-content
 description: Manages the interaction between the container and the object's in-place client site. Recall that the client site is the display site for embedded objects, and provides position and conceptual information about the object.
 old-location: com\ioleinplacesite.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winml.WINML_BINDING_DESC
-title: WINML_BINDING_DESC
+title: WINML_BINDING_DESC (winml.h)
 author: windows-sdk-content
 description: Contains a description of the WinML binding.
 old-location: machinelearning\winml_binding_desc.htm

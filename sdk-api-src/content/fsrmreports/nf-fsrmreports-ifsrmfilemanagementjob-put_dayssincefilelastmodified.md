@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.put_DaysSinceFileLastModified
-title: IFsrmFileManagementJob::put_DaysSinceFileLastModified
+title: IFsrmFileManagementJob::put_DaysSinceFileLastModified (fsrmreports.h)
 author: windows-sdk-content
 description: The number of days that have elapsed since a file was last modified.
 old-location: fsrm\ifsrmfilemanagementjob_dayssincefilelastmodified.htm

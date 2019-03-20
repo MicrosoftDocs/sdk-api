@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.ImportSpecificFileSystem
-title: IFileSystemImage::ImportSpecificFileSystem
+title: IFileSystemImage::ImportSpecificFileSystem (imapi2fs.h)
 author: windows-sdk-content
 description: Import a specific file system from disc.
 old-location: imapi\ifilesystemimage_importspecificfilesystem.htm

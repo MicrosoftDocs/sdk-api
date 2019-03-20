@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccess.AddProgram
-title: IBDA_ConditionalAccess::AddProgram
+title: IBDA_ConditionalAccess::AddProgram (bdaiface.h)
 author: windows-sdk-content
 description: Currently not implemented.
 old-location: mstv\ibda_conditionalaccess_addprogram.htm

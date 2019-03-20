@@ -1,6 +1,6 @@
 ---
 UID: NS:filter.tagFILTERREGION
-title: FILTERREGION
+title: FILTERREGION (filter.h)
 author: windows-sdk-content
 description: Describes the position and extent of a specified portion of text within an object.
 old-location: indexsrv\filterregion.htm

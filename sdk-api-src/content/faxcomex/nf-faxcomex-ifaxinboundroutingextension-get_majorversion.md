@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingExtension.get_MajorVersion
-title: IFaxInboundRoutingExtension::get_MajorVersion
+title: IFaxInboundRoutingExtension::get_MajorVersion (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxInboundRoutingExtension::get_MajorVersion property is a value that specifies the major part of the version number for the fax routing extension's DLL.
 old-location: fax\_mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_majorversion_cpp.htm

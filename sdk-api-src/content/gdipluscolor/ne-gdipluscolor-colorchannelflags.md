@@ -1,6 +1,6 @@
 ---
 UID: NE:gdipluscolor.ColorChannelFlags
-title: ColorChannelFlags
+title: ColorChannelFlags (gdipluscolor.h)
 author: windows-sdk-content
 description: The ColorChannelFlags enumeration specifies individual channels in the CMYK (cyan, magenta, yellow, black) color space. This enumeration is used by the ImageAttributes::SetOutputChannel method.
 old-location: gdiplus\_gdiplus_ENUM_ColorChannelFlags.htm

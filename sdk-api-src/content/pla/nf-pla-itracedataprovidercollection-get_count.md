@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.get_Count
-title: ITraceDataProviderCollection::get_Count
+title: ITraceDataProviderCollection::get_Count (pla.h)
 author: windows-sdk-content
 description: Retrieves the number of trace providers in the collection.
 old-location: pla\itracedataprovidercollection_count.htm

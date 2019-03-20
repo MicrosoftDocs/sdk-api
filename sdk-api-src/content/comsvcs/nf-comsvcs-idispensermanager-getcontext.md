@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IDispenserManager.GetContext
-title: IDispenserManager::GetContext
+title: IDispenserManager::GetContext (comsvcs.h)
 author: windows-sdk-content
 description: Determines the current context.
 old-location: cos\idispensermanager_getcontext.htm

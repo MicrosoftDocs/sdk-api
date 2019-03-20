@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrConformantArrayBufferSize
-title: NdrConformantArrayBufferSize function
+title: NdrConformantArrayBufferSize function (rpcndr.h)
 author: windows-sdk-content
 description: The NdrConformantArrayBufferSize function calculates the required buffer size, in bytes, to marshal the conformant array.
 old-location: winprog\ndrcomformantarraybuffersize.htm

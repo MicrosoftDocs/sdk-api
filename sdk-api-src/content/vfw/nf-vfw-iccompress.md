@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.ICCompress
-title: ICCompress function
+title: ICCompress function (vfw.h)
 author: windows-sdk-content
 description: The ICCompress function compresses a single video image.
 old-location: multimedia\iccompress.htm

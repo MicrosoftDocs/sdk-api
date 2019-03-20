@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet.GetMatchingFonts
-title: IDWriteFontSet::GetMatchingFonts
+title: IDWriteFontSet::GetMatchingFonts (dwrite_3.h)
 author: windows-sdk-content
 description: Returns a subset of fonts filtered by the given properties.
 old-location: directwrite\idwritefontset_getmatchingfonts_1.htm

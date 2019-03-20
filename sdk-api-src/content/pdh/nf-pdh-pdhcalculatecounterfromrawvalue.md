@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhCalculateCounterFromRawValue
-title: PdhCalculateCounterFromRawValue function
+title: PdhCalculateCounterFromRawValue function (pdh.h)
 author: windows-sdk-content
 description: Calculates the displayable value of two raw counter values.
 old-location: perf\pdhcalculatecounterfromrawvalue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingDeviceProperties.get_Item
-title: IWindowsMediaLibrarySharingDeviceProperties::get_Item
+title: IWindowsMediaLibrarySharingDeviceProperties::get_Item (wmlss.h)
 author: windows-sdk-content
 description: The get_Item method retrieves an IWindowsMediaLibrarySharingDeviceProperty interface that represents an individual property for a media device.
 old-location: wmlss\IWMLSDevicePropertiesget_Item.htm

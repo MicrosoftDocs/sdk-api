@@ -1,6 +1,6 @@
 ---
 UID: NF:immdev.ImmGetCompositionWindow
-title: ImmGetCompositionWindow function
+title: ImmGetCompositionWindow function (immdev.h)
 author: windows-sdk-content
 description: Retrieves information about the composition window.
 old-location: intl\immgetcompositionwindow.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngDeleteSurface
-title: EngDeleteSurface function
+title: EngDeleteSurface function (winddi.h)
 author: windows-sdk-content
 description: The EngDeleteSurface function deletes the specified surface.
 old-location: display\engdeletesurface.htm

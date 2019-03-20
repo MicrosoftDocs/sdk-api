@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagLVCOLUMNA
-title: LVCOLUMNA
+title: LVCOLUMNA (commctrl.h)
 author: windows-sdk-content
 description: Contains information about a column in report view. This structure is used both for creating and manipulating columns. This structure supersedes the LV_COLUMN structure.
 old-location: controls\LVCOLUMN.htm

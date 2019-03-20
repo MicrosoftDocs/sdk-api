@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.GetClipFactor
-title: IFullScreenVideoEx::GetClipFactor
+title: IFullScreenVideoEx::GetClipFactor (amvideo.h)
 author: windows-sdk-content
 description: The GetClipFactor method retrieves the clip factor, which determines how much of the video the Full Screen Renderer is allowed to clip. For example, if the clip factor is 25, the Full Screen Renderer can clip up to 25% of the video.
 old-location: dshow\ifullscreenvideoex_getclipfactor.htm

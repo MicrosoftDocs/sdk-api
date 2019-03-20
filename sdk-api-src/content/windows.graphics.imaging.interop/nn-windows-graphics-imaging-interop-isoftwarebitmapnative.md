@@ -1,6 +1,6 @@
 ---
 UID: NN:windows.graphics.imaging.interop.ISoftwareBitmapNative
-title: ISoftwareBitmapNative
+title: ISoftwareBitmapNative (windows.graphics.imaging.interop.h)
 author: windows-sdk-content
 description: Represents a software bitmap.
 old-location: winrt\isoftwarebitmapnative.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.CreateRoundRectRgn
-title: CreateRoundRectRgn function
+title: CreateRoundRectRgn function (wingdi.h)
 author: windows-sdk-content
 description: The CreateRoundRectRgn function creates a rectangular region with rounded corners.
 old-location: gdi\createroundrectrgn.htm

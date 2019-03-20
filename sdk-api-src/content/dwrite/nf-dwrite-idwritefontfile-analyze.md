@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFontFile.Analyze
-title: IDWriteFontFile::Analyze
+title: IDWriteFontFile::Analyze (dwrite.h)
 author: windows-sdk-content
 description: Analyzes a file and returns whether it represents a font, and whether the font type is supported by the font system.
 old-location: directwrite\IDWriteFontFile_Analyze.htm

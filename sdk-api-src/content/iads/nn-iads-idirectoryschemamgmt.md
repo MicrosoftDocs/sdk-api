@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IDirectorySchemaMgmt
-title: IDirectorySchemaMgmt
+title: IDirectorySchemaMgmt (iads.h)
 author: windows-sdk-content
 description: Not currently implemented and should not be used.
 old-location: adsi\idirectoryschemamgmt.htm

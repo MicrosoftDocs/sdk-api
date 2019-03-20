@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzOperation2.RoleAssignments
-title: IAzOperation2::RoleAssignments
+title: IAzOperation2::RoleAssignments (azroles.h)
 author: windows-sdk-content
 description: Returns a collection of the role assignments associated with this operation.
 old-location: security\iazoperation2_roleassignments_method.htm

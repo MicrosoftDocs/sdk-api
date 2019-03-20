@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetCharWidth32A
-title: GetCharWidth32A function
+title: GetCharWidth32A function (wingdi.h)
 author: windows-sdk-content
 description: The GetCharWidth32 function retrieves the widths, in logical coordinates, of consecutive characters in a specified range from the current font.
 old-location: gdi\getcharwidth32.htm

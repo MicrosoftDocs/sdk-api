@@ -1,6 +1,6 @@
 ---
 UID: NF:dxvahd.IDXVAHD_Device.GetVideoProcessorCustomRates
-title: IDXVAHD_Device::GetVideoProcessorCustomRates
+title: IDXVAHD_Device::GetVideoProcessorCustomRates (dxvahd.h)
 author: windows-sdk-content
 description: Gets a list of custom rates that a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor supports. Custom rates are used for frame-rate conversion and inverse telecine (IVTC).
 old-location: mf\idxvahd_device_getvideoprocessorcustomrates.htm

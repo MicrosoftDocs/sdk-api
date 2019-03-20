@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetNumaNodeNumberFromHandle
-title: GetNumaNodeNumberFromHandle function
+title: GetNumaNodeNumberFromHandle function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the NUMA node associated with the file or I/O device represented by the specified file handle.
 old-location: base\getnumanodenumberfromhandle.htm

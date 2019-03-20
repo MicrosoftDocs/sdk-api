@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IWindowProvider.get_CanMaximize
-title: IWindowProvider::get_CanMaximize
+title: IWindowProvider::get_CanMaximize (uiautomationcore.h)
 author: windows-sdk-content
 description: Indicates whether the window can be maximized.
 old-location: winauto\uiauto_IWindowProvider_CanMaximize.htm

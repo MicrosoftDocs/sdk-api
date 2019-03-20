@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._AdrClientErrorType
-title: AdrClientErrorType
+title: AdrClientErrorType (fsrmenums.h)
 author: windows-sdk-content
 description: Describes the possible access denied remediation (ADR) client error types.
 old-location: fsrm\adrclienterrortype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdsclientapi.WdsCliCancelTransfer
-title: WdsCliCancelTransfer function
+title: WdsCliCancelTransfer function (wdsclientapi.h)
 author: windows-sdk-content
 description: Cancels a WDS transfer operation.
 old-location: wds\wdsclicanceltransfer.htm

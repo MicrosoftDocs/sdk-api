@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMSELCHANGE
-title: NMSELCHANGE
+title: NMSELCHANGE (commctrl.h)
 author: windows-sdk-content
 description: Carries information required to process the MCN_SELCHANGE notification code.
 old-location: controls\NMSELCHANGE.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:ctffunc.ITfCandidateList
-title: ITfCandidateList
+title: ITfCandidateList (ctffunc.h)
 author: windows-sdk-content
 description: The ITfCandidateList interface is implemented by a text service and is used by the TSF manager or a client (application or other text service) to obtain and manipulate candidate string objects.
 old-location: tsf\itfcandidatelist.htm

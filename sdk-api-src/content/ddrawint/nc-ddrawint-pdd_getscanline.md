@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_GETSCANLINE
-title: PDD_GETSCANLINE
+title: PDD_GETSCANLINE (ddrawint.h)
 author: windows-sdk-content
 description: The DdGetScanLine callback function returns the number of the current physical scan line.
 old-location: display\ddgetscanline.htm

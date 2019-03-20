@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.GetPlayMode
-title: IWMReaderAdvanced2::GetPlayMode
+title: IWMReaderAdvanced2::GetPlayMode (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetPlayMode method retrieves the current play mode.
 old-location: wmformat\iwmreaderadvanced2_getplaymode.htm

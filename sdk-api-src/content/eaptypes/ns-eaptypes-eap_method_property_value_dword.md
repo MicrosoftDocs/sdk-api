@@ -1,6 +1,6 @@
 ---
 UID: NS:eaptypes._EAP_METHOD_PROPERTY_VALUE_DWORD
-title: EAP_METHOD_PROPERTY_VALUE_DWORD
+title: EAP_METHOD_PROPERTY_VALUE_DWORD (eaptypes.h)
 author: windows-sdk-content
 description: Contains the DWORD value of an EAP method property.
 old-location: eaphost\eap_method_property_value_dword.htm

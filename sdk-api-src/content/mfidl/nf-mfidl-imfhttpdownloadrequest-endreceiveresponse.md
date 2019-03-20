@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.EndReceiveResponse
-title: IMFHttpDownloadRequest::EndReceiveResponse
+title: IMFHttpDownloadRequest::EndReceiveResponse (mfidl.h)
 author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to complete the asynchronous operation started by BeginReceiveResponse.
 old-location: mf\imfhttpdownloadrequest_endreceiveresponse.htm

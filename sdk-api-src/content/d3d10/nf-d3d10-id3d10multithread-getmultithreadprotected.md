@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Multithread.GetMultithreadProtected
-title: ID3D10Multithread::GetMultithreadProtected
+title: ID3D10Multithread::GetMultithreadProtected (d3d10.h)
 author: windows-sdk-content
 description: Find out if multithreading is turned on or not.
 old-location: direct3d10\id3d10multithread_getmultithreadprotected.htm

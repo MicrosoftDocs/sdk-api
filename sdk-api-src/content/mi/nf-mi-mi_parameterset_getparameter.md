@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_ParameterSet_GetParameter
-title: MI_ParameterSet_GetParameter function
+title: MI_ParameterSet_GetParameter function (mi.h)
 author: windows-sdk-content
 description: Gets a method's parameter information based on a parameter name.
 old-location: wmi_v2\mi_parameterset_getparameter.htm

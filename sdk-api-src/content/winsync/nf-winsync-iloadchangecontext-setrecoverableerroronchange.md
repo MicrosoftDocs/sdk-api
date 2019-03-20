@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ILoadChangeContext.SetRecoverableErrorOnChange
-title: ILoadChangeContext::SetRecoverableErrorOnChange
+title: ILoadChangeContext::SetRecoverableErrorOnChange (winsync.h)
 author: windows-sdk-content
 description: Indicates a recoverable error on this change has occurred.
 old-location: winsync\iloadchangecontext_setrecoverableerroronchange.htm

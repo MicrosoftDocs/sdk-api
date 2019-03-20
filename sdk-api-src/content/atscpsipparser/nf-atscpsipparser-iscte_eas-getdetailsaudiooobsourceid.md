@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetDetailsAudioOOBSourceID
-title: ISCTE_EAS::GetDetailsAudioOOBSourceID
+title: ISCTE_EAS::GetDetailsAudioOOBSourceID (atscpsipparser.h)
 author: windows-sdk-content
 description: The GetDetailsAudioOOBSourceID method returns the source identifier of the virtual audio channel for the emergency alert.
 old-location: mstv\iscte_eas_getdetailsaudiooobsourceid.htm

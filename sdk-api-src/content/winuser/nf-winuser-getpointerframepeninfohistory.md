@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetPointerFramePenInfoHistory
-title: GetPointerFramePenInfoHistory function
+title: GetPointerFramePenInfoHistory function (winuser.h)
 author: windows-sdk-content
 description: Gets the entire frame of pen-based information (including coalesced input frames) for the specified pointers (of type PT_PEN) associated with the current message.
 old-location: inputmsg\getpointerframepeninfohistory.htm

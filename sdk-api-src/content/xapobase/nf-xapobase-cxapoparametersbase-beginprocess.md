@@ -1,6 +1,6 @@
 ---
 UID: NF:xapobase.CXAPOParametersBase.BeginProcess
-title: CXAPOParametersBase::BeginProcess
+title: CXAPOParametersBase::BeginProcess (xapobase.h)
 author: windows-sdk-content
 description: Returns the current process parameters.
 old-location: xaudio2\cxapoparametersbase_beginprocess.htm

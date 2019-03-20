@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.StrToIntExA
-title: StrToIntExA function
+title: StrToIntExA function (shlwapi.h)
 author: windows-sdk-content
 description: Converts a string representing a decimal or hexadecimal number to an integer.
 old-location: shell\StrToIntEx.htm

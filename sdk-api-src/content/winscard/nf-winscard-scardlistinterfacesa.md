@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardListInterfacesA
-title: SCardListInterfacesA function
+title: SCardListInterfacesA function (winscard.h)
 author: windows-sdk-content
 description: Provides a list of interfaces supplied by a given card.
 old-location: security\scardlistinterfaces.htm

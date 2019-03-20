@@ -1,6 +1,6 @@
 ---
 UID: NE:shlwapi.__unnamed_enum_7
-title: ASSOCKEY
+title: ASSOCKEY (shlwapi.h)
 author: windows-sdk-content
 description: Specifies the type of key to be returned by IQueryAssociations::GetKey.
 old-location: shell\ASSOCKEY_str.htm

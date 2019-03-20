@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrEventLinkUIOperation.Init
-title: ISyncMgrEventLinkUIOperation::Init
+title: ISyncMgrEventLinkUIOperation::Init (syncmgr.h)
 author: windows-sdk-content
 description: Enables Sync Center to provide the event to link to so ISyncMgrUIOperation::Run knows which event to operate upon.
 old-location: shell\ISyncMgrEventLinkUIOperation_Init.htm

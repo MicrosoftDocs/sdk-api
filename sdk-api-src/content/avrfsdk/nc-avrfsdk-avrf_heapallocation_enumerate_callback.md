@@ -1,6 +1,6 @@
 ---
 UID: NC:avrfsdk.AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK
-title: AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK
+title: AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK (avrfsdk.h)
 author: windows-sdk-content
 description: Receives information related to heap allocations.
 old-location: winprog\avrf_heap_allocation_enumerate_callback.htm

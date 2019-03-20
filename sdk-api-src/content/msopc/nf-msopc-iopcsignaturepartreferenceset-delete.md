@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignaturePartReferenceSet.Delete
-title: IOpcSignaturePartReferenceSet::Delete
+title: IOpcSignaturePartReferenceSet::Delete (msopc.h)
 author: windows-sdk-content
 description: Deletes a specified IOpcSignaturePartReference interface pointer from the set.
 old-location: opc\iopcsignaturepartreferenceset_delete.htm

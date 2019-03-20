@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IMediaStreamFilter.EndOfStream
-title: IMediaStreamFilter::EndOfStream
+title: IMediaStreamFilter::EndOfStream (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The EndOfStream method signals the end of a stream. The Media Stream filter's input pins call this method on the filter.
 old-location: dshow\imediastreamfilter_endofstream.htm

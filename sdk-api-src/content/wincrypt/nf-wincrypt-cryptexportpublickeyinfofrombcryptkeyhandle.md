@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptExportPublicKeyInfoFromBCryptKeyHandle
-title: CryptExportPublicKeyInfoFromBCryptKeyHandle function
+title: CryptExportPublicKeyInfoFromBCryptKeyHandle function (wincrypt.h)
 author: windows-sdk-content
 description: Exports the public key information associated with a provider's corresponding private key.
 old-location: security\cryptexportpublickeyinfofrombcryptkeyhandle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.LoadPixelShader
-title: ID2D1EffectContext::LoadPixelShader
+title: ID2D1EffectContext::LoadPixelShader (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Loads the given shader by its unique ID.
 old-location: direct2d\id2d1contextinternal_loadpixelshader.htm

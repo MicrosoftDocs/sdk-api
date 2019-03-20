@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.BrowseToIDList
-title: IExplorerBrowser::BrowseToIDList
+title: IExplorerBrowser::BrowseToIDList (shobjidl_core.h)
 author: windows-sdk-content
 description: Browses to a pointer to an item identifier list (PIDL)
 old-location: shell\IExplorerBrowser_BrowseToIDList.htm

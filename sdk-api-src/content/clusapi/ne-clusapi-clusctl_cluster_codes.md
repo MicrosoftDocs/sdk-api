@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.CLUSCTL_CLUSTER_CODES
-title: CLUSCTL_CLUSTER_CODES
+title: CLUSCTL_CLUSTER_CODES (clusapi.h)
 author: windows-sdk-content
 description: Enumerates cluster control codes used by the ClusterControl function.
 old-location: mscs\clusctl_cluster_codes.htm

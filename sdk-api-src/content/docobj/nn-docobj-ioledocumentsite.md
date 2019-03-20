@@ -1,6 +1,6 @@
 ---
 UID: NN:docobj.IOleDocumentSite
-title: IOleDocumentSite
+title: IOleDocumentSite (docobj.h)
 author: windows-sdk-content
 description: Enables a document that has been implemented as a document object to bypass the normal activation sequence for in-place-active objects and to directly instruct its client site to activate it as a document object.
 old-location: com\ioledocumentsite.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IWMResizerProps.SetFullCropRegion
-title: IWMResizerProps::SetFullCropRegion
+title: IWMResizerProps::SetFullCropRegion (wmcodecdsp.h)
 author: windows-sdk-content
 description: Sets the source and destination rectangles.
 old-location: mf\iwmresizerpropssetfullcropregion.htm

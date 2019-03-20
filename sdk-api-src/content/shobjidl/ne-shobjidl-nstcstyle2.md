@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl.NSTCSTYLE2
-title: NSTCSTYLE2
+title: NSTCSTYLE2 (shobjidl.h)
 author: windows-sdk-content
 description: Used by methods of the INameSpaceTreeControl2 to specify extended display styles in a Shell namespace treeview.
 old-location: shell\NSTCSTYLE2.htm

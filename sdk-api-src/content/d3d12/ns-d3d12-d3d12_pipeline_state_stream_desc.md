@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_PIPELINE_STATE_STREAM_DESC
-title: D3D12_PIPELINE_STATE_STREAM_DESC
+title: D3D12_PIPELINE_STATE_STREAM_DESC (d3d12.h)
 author: windows-sdk-content
 description: Describes a pipeline state stream.
 old-location: direct3d12\d3d12_pipeline_state_stream_desc.htm

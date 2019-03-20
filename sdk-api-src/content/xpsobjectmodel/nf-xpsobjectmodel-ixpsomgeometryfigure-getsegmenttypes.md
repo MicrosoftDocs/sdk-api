@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetSegmentTypes
-title: IXpsOMGeometryFigure::GetSegmentTypes
+title: IXpsOMGeometryFigure::GetSegmentTypes (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the types of segments in the figure.
 old-location: xps\ixpsomgeometryfigure_getsegmenttypes.htm

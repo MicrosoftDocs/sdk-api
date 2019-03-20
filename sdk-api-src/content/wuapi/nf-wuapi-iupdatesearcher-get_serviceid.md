@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.get_ServiceID
-title: IUpdateSearcher::get_ServiceID
+title: IUpdateSearcher::get_ServiceID (wuapi.h)
 author: windows-sdk-content
 description: Gets and sets a site to search when the site to search is not a Windows Update site.
 old-location: wua\iupdatesearcherserviceid.htm

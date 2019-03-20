@@ -1,6 +1,6 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0010
-title: ADS_HOLD
+title: ADS_HOLD (iads.h)
 author: windows-sdk-content
 description: The ADS_HOLD structure is an ADSI representation of the Hold attribute syntax.
 old-location: adsi\ads_hold.htm

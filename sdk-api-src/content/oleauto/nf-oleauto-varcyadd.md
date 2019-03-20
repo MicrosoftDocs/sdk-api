@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarCyAdd
-title: VarCyAdd function
+title: VarCyAdd function (oleauto.h)
 author: windows-sdk-content
 description: Adds two variants of type currency.
 old-location: automat\varcyadd.htm

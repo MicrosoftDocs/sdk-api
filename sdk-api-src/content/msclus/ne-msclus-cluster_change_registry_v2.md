@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.CLUSTER_CHANGE_REGISTRY_V2
-title: CLUSTER_CHANGE_REGISTRY_V2
+title: CLUSTER_CHANGE_REGISTRY_V2 (msclus.h)
 author: windows-sdk-content
 description: Defines the notifications that are generated for a registry key.
 old-location: mscs\cluster_change_registry_v2.htm

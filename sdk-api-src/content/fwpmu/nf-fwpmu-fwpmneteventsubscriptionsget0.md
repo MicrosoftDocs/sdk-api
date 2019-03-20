@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmNetEventSubscriptionsGet0
-title: FwpmNetEventSubscriptionsGet0 function
+title: FwpmNetEventSubscriptionsGet0 function (fwpmu.h)
 author: windows-sdk-content
 description: Retrieves an array of all the current net event notification subscriptions.
 old-location: fwp\fwpmneteventsubscriptionsget0.htm

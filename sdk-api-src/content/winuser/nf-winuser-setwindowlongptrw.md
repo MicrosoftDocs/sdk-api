@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetWindowLongPtrW
-title: SetWindowLongPtrW function
+title: SetWindowLongPtrW function (winuser.h)
 author: windows-sdk-content
 description: Changes an attribute of the specified window.
 old-location: winmsg\setwindowlongptr.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMHDDISPINFOW
-title: NMHDDISPINFOW
+title: NMHDDISPINFOW (commctrl.h)
 author: windows-sdk-content
 description: Contains information used in handling HDN_GETDISPINFO notification codes.
 old-location: controls\NMHDDISPINFO.htm

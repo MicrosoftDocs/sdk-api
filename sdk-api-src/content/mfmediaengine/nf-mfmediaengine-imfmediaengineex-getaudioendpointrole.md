@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetAudioEndpointRole
-title: IMFMediaEngineEx::GetAudioEndpointRole
+title: IMFMediaEngineEx::GetAudioEndpointRole (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the audio device endpoint role used for the next call to SetSource or Load.
 old-location: mf\imfmediaengineex_getaudioendpointrole.htm

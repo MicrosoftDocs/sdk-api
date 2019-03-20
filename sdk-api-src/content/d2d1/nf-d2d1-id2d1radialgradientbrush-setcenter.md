@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RadialGradientBrush.SetCenter
-title: ID2D1RadialGradientBrush::SetCenter
+title: ID2D1RadialGradientBrush::SetCenter (d2d1.h)
 author: windows-sdk-content
 description: Specifies the center of the gradient ellipse in the brush's coordinate space.
 old-location: direct2d\ID2D1RadialGradientBrush_SetCenter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.SetNotifyFlags
-title: IBackgroundCopyJob::SetNotifyFlags
+title: IBackgroundCopyJob::SetNotifyFlags (bits.h)
 author: windows-sdk-content
 description: Specifies the type of event notification you want to receive, such as job transferred events.
 old-location: bits\ibackgroundcopyjob_setnotifyflags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sysinfoapi.GetSystemTime
-title: GetSystemTime function
+title: GetSystemTime function (sysinfoapi.h)
 author: windows-sdk-content
 description: Retrieves the current system date and time. The system time is expressed in Coordinated Universal Time (UTC).
 old-location: base\getsystemtime.htm

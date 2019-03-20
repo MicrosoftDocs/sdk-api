@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_GET_MEDIA_TYPES_EX
-title: IOCTL_STORAGE_GET_MEDIA_TYPES_EX
+title: IOCTL_STORAGE_GET_MEDIA_TYPES_EX (winioctl.h)
 author: windows-sdk-content
 description: Retrieves information about the types of media supported by a device.
 old-location: base\ioctl_storage_get_media_types_ex.htm

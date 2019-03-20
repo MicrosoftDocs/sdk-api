@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.GetFlags
-title: IMFASFIndexer::GetFlags
+title: IMFASFIndexer::GetFlags (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves the flags that indicate the selected indexer options.
 old-location: mf\imfasfindexer_getflags.htm

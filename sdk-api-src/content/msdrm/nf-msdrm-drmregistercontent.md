@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMRegisterContent
-title: DRMRegisterContent function
+title: DRMRegisterContent function (msdrm.h)
 author: windows-sdk-content
 description: Informs the Active Directory Rights Management Services (AD RMS) client that an AD RMS-protected document is being or is no longer being displayed.
 old-location: rm\drmregistercontent.htm

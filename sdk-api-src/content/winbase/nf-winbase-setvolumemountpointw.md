@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SetVolumeMountPointW
-title: SetVolumeMountPointW function
+title: SetVolumeMountPointW function (winbase.h)
 author: windows-sdk-content
 description: Associates a volume with a drive letter or a directory on another volume.
 old-location: fs\setvolumemountpoint.htm

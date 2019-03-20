@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.ICertPropertyArchived
-title: ICertPropertyArchived
+title: ICertPropertyArchived (certenroll.h)
 author: windows-sdk-content
 description: Represents a certificate property that identifies whether a certificate has been archived.
 old-location: security\icertpropertyarchived.htm

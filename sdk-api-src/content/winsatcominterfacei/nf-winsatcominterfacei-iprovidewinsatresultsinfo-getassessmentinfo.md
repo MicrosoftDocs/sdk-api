@@ -1,6 +1,6 @@
 ---
 UID: NF:winsatcominterfacei.IProvideWinSATResultsInfo.GetAssessmentInfo
-title: IProvideWinSATResultsInfo::GetAssessmentInfo
+title: IProvideWinSATResultsInfo::GetAssessmentInfo (winsatcominterfacei.h)
 author: windows-sdk-content
 description: Retrieves summary information for a subcomponent of the assessment.
 old-location: winsat\iprovidewinsatresultsinfo_getassessmentinfo.htm

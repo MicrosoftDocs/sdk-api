@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_READER_INPUT
-title: WS_XML_READER_INPUT
+title: WS_XML_READER_INPUT (webservices.h)
 author: windows-sdk-content
 description: Specifies where the reader should obtain the bytes that comprise the xml document.
 old-location: wsw\ws_xml_reader_input.htm

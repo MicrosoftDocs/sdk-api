@@ -1,6 +1,6 @@
 ---
 UID: NF:userenv.CreateEnvironmentBlock
-title: CreateEnvironmentBlock function
+title: CreateEnvironmentBlock function (userenv.h)
 author: windows-sdk-content
 description: Retrieves the environment variables for the specified user. This block can then be passed to the CreateProcessAsUser function.
 old-location: shell\CreateEnvironmentBlock.htm

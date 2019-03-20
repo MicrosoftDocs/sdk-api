@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLGetServiceInformation
-title: SLGetServiceInformation function
+title: SLGetServiceInformation function (slpublic.h)
 author: windows-sdk-content
 description: Gets global data information.
 old-location: security\slgetserviceinformation.htm

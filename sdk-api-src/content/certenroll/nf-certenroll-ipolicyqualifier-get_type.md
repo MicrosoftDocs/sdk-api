@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IPolicyQualifier.get_Type
-title: IPolicyQualifier::get_Type
+title: IPolicyQualifier::get_Type (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the qualifier type.
 old-location: security\ipolicyqualifier_type_property.htm

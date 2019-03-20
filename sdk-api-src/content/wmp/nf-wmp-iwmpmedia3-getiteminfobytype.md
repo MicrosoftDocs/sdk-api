@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMedia3.getItemInfoByType
-title: IWMPMedia3::getItemInfoByType
+title: IWMPMedia3::getItemInfoByType (wmp.h)
 author: windows-sdk-content
 description: The getItemInfoByType method retrieves the value of the attribute corresponding to the specified attribute type and index.
 old-location: wmp\iwmpmedia3_getiteminfobytype.htm

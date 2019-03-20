@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCollector.put_CollectionMode
-title: IInkCollector::put_CollectionMode
+title: IInkCollector::put_CollectionMode (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the collection mode that determines whether ink, gesture, or both are recognized as the user writes.
 old-location: tablet\inkcollector_collectionmode.htm

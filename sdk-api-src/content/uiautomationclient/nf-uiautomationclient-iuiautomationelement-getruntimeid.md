@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.GetRuntimeId
-title: IUIAutomationElement::GetRuntimeId
+title: IUIAutomationElement::GetRuntimeId (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the unique identifier assigned to the UI element.
 old-location: winauto\uiauto_IUIAutomationElement_GetRuntimeId.htm

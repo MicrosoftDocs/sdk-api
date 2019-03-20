@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.OfferVirtualMemory
-title: OfferVirtualMemory function
+title: OfferVirtualMemory function (memoryapi.h)
 author: windows-sdk-content
 description: Indicates that the data contained in a range of memory pages is no longer needed by the application and can be discarded by the system if necessary.
 old-location: base\offervirtualmemory.htm

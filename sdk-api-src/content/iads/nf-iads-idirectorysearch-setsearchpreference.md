@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IDirectorySearch.SetSearchPreference
-title: IDirectorySearch::SetSearchPreference
+title: IDirectorySearch::SetSearchPreference (iads.h)
 author: windows-sdk-content
 description: Specifies a search preference for obtaining data in a subsequent search.
 old-location: adsi\idirectorysearch_setsearchpreference.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12FunctionParameterReflection.GetDesc
-title: ID3D12FunctionParameterReflection::GetDesc
+title: ID3D12FunctionParameterReflection::GetDesc (d3d12shader.h)
 author: windows-sdk-content
 description: Fills the parameter descriptor structure for the function's parameter.
 old-location: direct3d12\id3d12functionparameterreflection_getdesc.htm

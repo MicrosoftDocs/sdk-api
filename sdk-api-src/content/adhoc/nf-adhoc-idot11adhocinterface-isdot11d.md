@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocInterface.IsDot11d
-title: IDot11AdHocInterface::IsDot11d
+title: IDot11AdHocInterface::IsDot11d (adhoc.h)
 author: windows-sdk-content
 description: Specifies whether the NIC is 802.11d compliant.
 old-location: nwifi\idot11adhocinterface_isdot11d.htm

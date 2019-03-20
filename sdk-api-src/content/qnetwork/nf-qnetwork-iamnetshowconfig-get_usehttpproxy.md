@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_UseHTTPProxy
-title: IAMNetShowConfig::get_UseHTTPProxy
+title: IAMNetShowConfig::get_UseHTTPProxy (qnetwork.h)
 author: windows-sdk-content
 description: The get_UseHTTPProxy method queries whether the filter should use the HTTP proxy server.
 old-location: dshow\iamnetshowconfig_get_usehttpproxy.htm

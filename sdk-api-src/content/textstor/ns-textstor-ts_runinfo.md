@@ -1,6 +1,6 @@
 ---
 UID: NS:textstor.TS_RUNINFO
-title: TS_RUNINFO
+title: TS_RUNINFO (textstor.h)
 author: windows-sdk-content
 description: The TS_RUNINFO structure specifies the properties of text run data.
 old-location: tsf\ts_runinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPAdmin.SetSecurity
-title: IOCSPAdmin::SetSecurity
+title: IOCSPAdmin::SetSecurity (certadm.h)
 author: windows-sdk-content
 description: Updates security descriptor information for an Online Certificate Status Protocol (OCSP) responder server.
 old-location: security\iocspadmin_setsecurity.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdo.Apply
-title: ISdo::Apply
+title: ISdo::Apply (sdoias.h)
 author: windows-sdk-content
 description: The Apply method writes to persistent storage the changes made by calls to the ISdo::PutProperty method.
 old-location: nps\SDO_isdo_apply.htm

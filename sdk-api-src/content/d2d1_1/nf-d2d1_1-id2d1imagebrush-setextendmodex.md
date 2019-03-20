@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1ImageBrush.SetExtendModeX
-title: ID2D1ImageBrush::SetExtendModeX
+title: ID2D1ImageBrush::SetExtendModeX (d2d1_1.h)
 author: windows-sdk-content
 description: Sets how the content inside the source rectangle in the image brush will be extended on the x-axis.
 old-location: direct2d\id2d1imagebrush_setextendmodex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi.IJolietDiscMaster
-title: IJolietDiscMaster
+title: IJolietDiscMaster (imapi.h)
 author: windows-sdk-content
 description: The IJolietDiscMaster interface enables the staging of a CD data disc.
 old-location: imapi\ijolietdiscmaster.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagINPUT
-title: INPUT
+title: INPUT (winuser.h)
 author: windows-sdk-content
 description: Used by SendInput to store information for synthesizing input events such as keystrokes, mouse movement, and mouse clicks.
 old-location: inputdev\input.htm

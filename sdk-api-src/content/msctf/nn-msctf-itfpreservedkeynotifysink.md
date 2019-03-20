@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfPreservedKeyNotifySink
-title: ITfPreservedKeyNotifySink
+title: ITfPreservedKeyNotifySink (msctf.h)
 author: windows-sdk-content
 description: The ITfPreservedKeyNotifySink interface is implemented by an application or TSF text service to receive notifications when keys are preserved, unpreserved, or when a preserved key description changes.
 old-location: tsf\itfpreservedkeynotifysink.htm

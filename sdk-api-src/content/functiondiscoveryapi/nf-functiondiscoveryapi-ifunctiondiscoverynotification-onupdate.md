@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionDiscoveryNotification.OnUpdate
-title: IFunctionDiscoveryNotification::OnUpdate
+title: IFunctionDiscoveryNotification::OnUpdate (functiondiscoveryapi.h)
 author: windows-sdk-content
 description: Indicates that a function instance has been added, removed, or changed.
 old-location: ncd\ifunctiondiscoverynotification_onupdate_method.htm

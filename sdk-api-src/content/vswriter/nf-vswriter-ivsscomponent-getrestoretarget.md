@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.GetRestoreTarget
-title: IVssComponent::GetRestoreTarget
+title: IVssComponent::GetRestoreTarget (vswriter.h)
 author: windows-sdk-content
 description: The GetRestoreTarget method returns the restore target (in terms of the VSS_RESTORE_TARGET enumeration) for the current component.
 old-location: base\ivsscomponent_getrestoretarget.htm

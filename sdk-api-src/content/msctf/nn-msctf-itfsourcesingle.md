@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfSourceSingle
-title: ITfSourceSingle
+title: ITfSourceSingle (msctf.h)
 author: windows-sdk-content
 description: The ITfSourceSingle interface is implemented by the TSF manager.
 old-location: tsf\itfsourcesingle.htm

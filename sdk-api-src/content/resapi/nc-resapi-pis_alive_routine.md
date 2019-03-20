@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.PIS_ALIVE_ROUTINE
-title: PIS_ALIVE_ROUTINE
+title: PIS_ALIVE_ROUTINE (resapi.h)
 author: windows-sdk-content
 description: Determines whether a resource is available for use.
 old-location: mscs\isalive.htm

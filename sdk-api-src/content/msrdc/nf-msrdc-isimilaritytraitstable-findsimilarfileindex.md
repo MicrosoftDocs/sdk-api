@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsTable.FindSimilarFileIndex
-title: ISimilarityTraitsTable::FindSimilarFileIndex
+title: ISimilarityTraitsTable::FindSimilarFileIndex (msrdc.h)
 author: windows-sdk-content
 description: Returns a list of files that are similar to a given file. The results in the list are sorted in order of similarity, beginning with the most similar file.
 old-location: rdc\isimilaritytraitstable_findsimilarfileindex.htm

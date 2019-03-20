@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.GetText
-title: ITextRange::GetText
+title: ITextRange::GetText (tom.h)
 author: windows-sdk-content
 description: Gets the plain text in this range. The Text property is the default property of the ITextRange interface.
 old-location: controls\ITextRange_GetText.htm

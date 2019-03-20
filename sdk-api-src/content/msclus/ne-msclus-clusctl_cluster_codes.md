@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.CLUSCTL_CLUSTER_CODES
-title: CLUSCTL_CLUSTER_CODES
+title: CLUSCTL_CLUSTER_CODES (msclus.h)
 author: windows-sdk-content
 description: Enumerates cluster control codes used by the ClusterControl function.
 old-location: mscs\clusctl_cluster_codes.htm

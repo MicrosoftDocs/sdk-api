@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.GetInnerRequest
-title: IX509CertificateRequest::GetInnerRequest
+title: IX509CertificateRequest::GetInnerRequest (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a nested request object.
 old-location: security\ix509certificaterequest_getinnerrequest_method.htm

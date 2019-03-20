@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDefaultExtractIconInit.SetFlags
-title: IDefaultExtractIconInit::SetFlags
+title: IDefaultExtractIconInit::SetFlags (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets GIL_XXX flags.
 old-location: shell\IDefaultExtractIconInit_SetFlags.htm

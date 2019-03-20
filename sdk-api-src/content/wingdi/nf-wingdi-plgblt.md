@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.PlgBlt
-title: PlgBlt function
+title: PlgBlt function (wingdi.h)
 author: windows-sdk-content
 description: The PlgBlt function performs a bit-block transfer of the bits of color data from the specified rectangle in the source device context to the specified parallelogram in the destination device context.
 old-location: gdi\plgblt.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpV4GetFreeIPAddress
-title: DhcpV4GetFreeIPAddress function
+title: DhcpV4GetFreeIPAddress function (dhcpsapi.h)
 author: windows-sdk-content
 description: Retrieves the list of available IPv4 addresses that can be leased to clients.
 old-location: dhcp\dhcpv4getfreeipaddress.htm

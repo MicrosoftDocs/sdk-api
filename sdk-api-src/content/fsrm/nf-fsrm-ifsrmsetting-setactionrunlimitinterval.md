@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmSetting.SetActionRunLimitInterval
-title: IFsrmSetting::SetActionRunLimitInterval
+title: IFsrmSetting::SetActionRunLimitInterval (fsrm.h)
 author: windows-sdk-content
 description: Sets the time that an action that uses the global run limit interval must wait before the action is run again.
 old-location: fsrm\ifsrmsetting_setactionrunlimitinterval.htm

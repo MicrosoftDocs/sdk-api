@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.CLUSTER_CONTROL_OBJECT
-title: CLUSTER_CONTROL_OBJECT
+title: CLUSTER_CONTROL_OBJECT (msclus.h)
 author: windows-sdk-content
 description: The 8-bit object component of a control code that indicates the type of cluster object to which the control code applies. For more information, see Control Code Architecture.
 old-location: mscs\cluster_control_object.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:msdrmdefs._DRMSPECTYPE
-title: DRMSPECTYPE
+title: DRMSPECTYPE (msdrmdefs.h)
 author: windows-sdk-content
 description: The DRMSPECTYPE enumeration indicates what type of security or library providers are used.
 old-location: rm\drmspectype.htm

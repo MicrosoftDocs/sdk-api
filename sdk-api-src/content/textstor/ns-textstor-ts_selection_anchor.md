@@ -1,6 +1,6 @@
 ---
 UID: NS:textstor.TS_SELECTION_ANCHOR
-title: TS_SELECTION_ANCHOR
+title: TS_SELECTION_ANCHOR (textstor.h)
 author: windows-sdk-content
 description: The TS_SELECTION_ANCHOR structure contains anchor-based text selection data.
 old-location: tsf\ts_selection_anchor.htm

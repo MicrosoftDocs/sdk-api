@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IGlobalInterfaceTable
-title: IGlobalInterfaceTable
+title: IGlobalInterfaceTable (objidl.h)
 author: windows-sdk-content
 description: Enables any apartment in a process to get access to an interface implemented on an object in any other apartment in the process.
 old-location: com\iglobalinterfacetable.htm

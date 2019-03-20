@@ -1,6 +1,6 @@
 ---
 UID: NN:dinputd.IDirectInputJoyConfig8
-title: IDirectInputJoyConfig8
+title: IDirectInputJoyConfig8 (dinputd.h)
 author: windows-sdk-content
 description: IDirectInputJoyConfig8 interface contains methods that allow hardware developers who are writing property sheets to write and read information to and from the registry.
 old-location: hid\idirectinputjoyconfig8.htm

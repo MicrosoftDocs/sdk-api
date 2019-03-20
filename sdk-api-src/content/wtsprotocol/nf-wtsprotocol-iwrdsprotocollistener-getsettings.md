@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolListener.GetSettings
-title: IWRdsProtocolListener::GetSettings
+title: IWRdsProtocolListener::GetSettings (wtsprotocol.h)
 author: windows-sdk-content
 description: Gets the listener setting information for client connection requests.
 old-location: termserv\iwrdsprotocollistener_getsettings.htm

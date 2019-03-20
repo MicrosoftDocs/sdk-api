@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.DeleteScope
-title: IAzApplication::DeleteScope
+title: IAzApplication::DeleteScope (azroles.h)
 author: windows-sdk-content
 description: Removes the IAzScope object with the specified name from the IAzApplication object.
 old-location: security\iazapplication_deletescope.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreateDCRenderTarget
-title: ID2D1Factory::CreateDCRenderTarget
+title: ID2D1Factory::CreateDCRenderTarget (d2d1.h)
 author: windows-sdk-content
 description: Creates a render target that draws to a Windows Graphics Device Interface (GDI) device context.
 old-location: direct2d\ID2D1Factory_CreateDCRenderTarget.htm

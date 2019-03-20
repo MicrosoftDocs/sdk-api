@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.SetText
-title: ITextStoreAnchor::SetText
+title: ITextStoreAnchor::SetText (textstor.h)
 author: windows-sdk-content
 description: The ITextStoreAnchor::SetText method sets the text selection between two supplied anchor locations.
 old-location: tsf\itextstoreanchor_settext.htm

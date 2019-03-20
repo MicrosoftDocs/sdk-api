@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.INamespaceWalk.Walk
-title: INamespaceWalk::Walk
+title: INamespaceWalk::Walk (shobjidl_core.h)
 author: windows-sdk-content
 description: Initiates a recursive walk of the namespace from the specified root to the given depth.
 old-location: shell\INamespaceWalk_Walk.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkTablet.IsPacketPropertySupported
-title: IInkTablet::IsPacketPropertySupported
+title: IInkTablet::IsPacketPropertySupported (msinkaut.h)
 author: windows-sdk-content
 description: Determines whether a property of a tablet device or a collection of tablet devices, identified with a globally unique identifier (GUID), is supported.
 old-location: tablet\iinktablet_ispacketpropertysupported.htm

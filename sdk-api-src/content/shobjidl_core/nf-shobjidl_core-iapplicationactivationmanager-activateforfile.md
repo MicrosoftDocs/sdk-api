@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IApplicationActivationManager.ActivateForFile
-title: IApplicationActivationManager::ActivateForFile
+title: IApplicationActivationManager::ActivateForFile (shobjidl_core.h)
 author: windows-sdk-content
 description: Activates the specified Windows Store app for the file contract (Windows.File).
 old-location: shell\IApplicationActivationManager_ActivateForFile.htm

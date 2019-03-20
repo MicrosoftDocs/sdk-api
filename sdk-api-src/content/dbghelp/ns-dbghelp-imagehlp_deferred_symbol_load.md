@@ -1,6 +1,6 @@
 ---
 UID: NS:dbghelp._IMAGEHLP_DEFERRED_SYMBOL_LOAD
-title: IMAGEHLP_DEFERRED_SYMBOL_LOAD
+title: IMAGEHLP_DEFERRED_SYMBOL_LOAD (dbghelp.h)
 author: windows-sdk-content
 description: Contains information about a deferred symbol load.
 old-location: base\imagehlp_deferred_symbol_load64_str.htm

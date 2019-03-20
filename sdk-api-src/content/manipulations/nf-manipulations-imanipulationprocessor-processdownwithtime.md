@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.ProcessDownWithTime
-title: IManipulationProcessor::ProcessDownWithTime
+title: IManipulationProcessor::ProcessDownWithTime (manipulations.h)
 author: windows-sdk-content
 description: Feeds touch down data, including a timestamp, to the manipulation processor associated with a target.
 old-location: wintouch\imanpiulationprocessor_processdownwithtime.htm

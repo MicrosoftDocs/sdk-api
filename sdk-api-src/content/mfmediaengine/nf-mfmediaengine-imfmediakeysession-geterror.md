@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaKeySession.GetError
-title: IMFMediaKeySession::GetError
+title: IMFMediaKeySession::GetError (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the error state associated with the media key session.
 old-location: mf\imfmediakeysession_geterror.htm

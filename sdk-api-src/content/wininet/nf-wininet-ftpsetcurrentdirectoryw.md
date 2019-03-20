@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.FtpSetCurrentDirectoryW
-title: FtpSetCurrentDirectoryW function
+title: FtpSetCurrentDirectoryW function (wininet.h)
 author: windows-sdk-content
 description: Changes to a different working directory on the FTP server.
 old-location: wininet\ftpsetcurrentdirectory.htm

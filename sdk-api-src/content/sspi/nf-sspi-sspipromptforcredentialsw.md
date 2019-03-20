@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SspiPromptForCredentialsW
-title: SspiPromptForCredentialsW function
+title: SspiPromptForCredentialsW function (sspi.h)
 author: windows-sdk-content
 description: Allows a Security Support Provider Interface (SSPI) application to prompt a user to enter credentials.
 old-location: security\sspipromptforcredentials.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winternl._PEB_LDR_DATA
-title: PEB_LDR_DATA
+title: PEB_LDR_DATA (winternl.h)
 author: windows-sdk-content
 description: Contains information about the loaded modules for the process.
 old-location: base\peb_ldr_data.htm

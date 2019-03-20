@@ -1,6 +1,6 @@
 ---
 UID: NS:clfs._CLFS_NODE_ID
-title: CLFS_NODE_ID
+title: CLFS_NODE_ID (clfs.h)
 author: windows-sdk-content
 description: Represents a node identifier.
 old-location: fs\clfs_node_id.htm

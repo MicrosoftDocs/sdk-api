@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.GetProtocolName
-title: IWMReaderAdvanced2::GetProtocolName
+title: IWMReaderAdvanced2::GetProtocolName (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetProtocolName method retrieves the name of the protocol that is being used.
 old-location: wmformat\iwmreaderadvanced2_getprotocolname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tsgauthenticationengine.ITSGAuthenticationEngine.CancelAuthentication
-title: ITSGAuthenticationEngine::CancelAuthentication
+title: ITSGAuthenticationEngine::CancelAuthentication (tsgauthenticationengine.h)
 author: windows-sdk-content
 description: Cancels an existing authentication request.
 old-location: termserv\itsgauthenticationengine_cancelauthentication.htm

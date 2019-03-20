@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertSetEnhancedKeyUsage
-title: CertSetEnhancedKeyUsage function
+title: CertSetEnhancedKeyUsage function (wincrypt.h)
 author: windows-sdk-content
 description: The CertSetEnhancedKeyUsage function sets the enhanced key usage (EKU) property for the certificate.
 old-location: security\certsetenhancedkeyusage.htm

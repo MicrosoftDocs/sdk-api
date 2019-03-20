@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIFactory2.RegisterStereoStatusWindow
-title: IDXGIFactory2::RegisterStereoStatusWindow
+title: IDXGIFactory2::RegisterStereoStatusWindow (dxgi1_2.h)
 author: windows-sdk-content
 description: Registers an application window to receive notification messages of changes of stereo status.
 old-location: direct3ddxgi\idxgifactory2_RegisterStereoStatusWindow.htm

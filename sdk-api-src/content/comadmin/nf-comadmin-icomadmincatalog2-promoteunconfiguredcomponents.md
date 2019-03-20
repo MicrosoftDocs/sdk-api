@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.PromoteUnconfiguredComponents
-title: ICOMAdminCatalog2::PromoteUnconfiguredComponents
+title: ICOMAdminCatalog2::PromoteUnconfiguredComponents (comadmin.h)
 author: windows-sdk-content
 description: Promotes the specified classes from unconfigured components to configured components.
 old-location: cos\icomadmincatalog2_promoteunconfiguredcomponents.htm

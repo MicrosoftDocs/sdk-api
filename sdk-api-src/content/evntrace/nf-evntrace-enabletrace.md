@@ -1,6 +1,6 @@
 ---
 UID: NF:evntrace.EnableTrace
-title: EnableTrace function
+title: EnableTrace function (evntrace.h)
 author: windows-sdk-content
 description: Enables or disables the specified classic event trace provider. On Windows Vista and later, call the EnableTraceEx function to enable or disable a provider.
 old-location: etw\enabletrace.htm

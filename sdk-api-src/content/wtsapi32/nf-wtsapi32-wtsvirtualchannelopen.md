@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSVirtualChannelOpen
-title: WTSVirtualChannelOpen function
+title: WTSVirtualChannelOpen function (wtsapi32.h)
 author: windows-sdk-content
 description: Opens a handle to the server end of a specified virtual channel.
 old-location: termserv\wtsvirtualchannelopen.htm

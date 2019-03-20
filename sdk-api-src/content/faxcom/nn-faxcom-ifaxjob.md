@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcom.IFaxJob
-title: IFaxJob
+title: IFaxJob (faxcom.h)
 author: windows-sdk-content
 description: The IFaxJob dual interface is used by a fax client application to access information for a fax job on a connected fax server. A FaxJobs object is a collection of FaxJob objects.
 old-location: fax\_mfax_ifaxjob.htm

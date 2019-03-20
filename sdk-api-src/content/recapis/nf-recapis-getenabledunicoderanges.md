@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.GetEnabledUnicodeRanges
-title: GetEnabledUnicodeRanges function
+title: GetEnabledUnicodeRanges function (recapis.h)
 author: windows-sdk-content
 description: Retrieves a list of Unicode point ranges enabled on the context. If you do not call the SetEnabledUnicodeRanges function to specify the enabled ranges, this function returns the recognizer's default Unicode point ranges.
 old-location: tablet\getenabledunicoderanges.htm

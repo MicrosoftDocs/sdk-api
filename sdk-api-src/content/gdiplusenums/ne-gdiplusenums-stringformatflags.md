@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.StringFormatFlags
-title: StringFormatFlags
+title: StringFormatFlags (gdiplusenums.h)
 author: windows-sdk-content
 description: The StringFormatFlags enumeration specifies text layout information (such as orientation and clipping) and display manipulations (such as ellipsis insertion, digit substitution, and representation of characters that are not supported by a font).
 old-location: gdiplus\_gdiplus_ENUM_StringFormatFlags.htm

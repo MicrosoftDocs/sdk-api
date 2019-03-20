@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.HandoffDirect
-title: ITBasicCallControl::HandoffDirect
+title: ITBasicCallControl::HandoffDirect (tapi3if.h)
 author: windows-sdk-content
 description: The HandoffDirect method hands off the call to another application. This indicates that the application no longer requires ownership of the call.
 old-location: tapi3\itbasiccallcontrol_handoffdirect.htm

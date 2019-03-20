@@ -1,6 +1,6 @@
 ---
 UID: NS:wcmapi._WCM_PROFILE_INFO_LIST
-title: WCM_PROFILE_INFO_LIST
+title: WCM_PROFILE_INFO_LIST (wcmapi.h)
 author: windows-sdk-content
 description: Contains a list of profiles in preferred order.
 old-location: wcm\wcm_profile_info_list.htm

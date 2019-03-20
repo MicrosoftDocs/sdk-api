@@ -1,6 +1,6 @@
 ---
 UID: NF:aclui.ISecurityInformation2.LookupSids
-title: ISecurityInformation2::LookupSids
+title: ISecurityInformation2::LookupSids (aclui.h)
 author: windows-sdk-content
 description: The LookupSids method returns the common names corresponding to each of the elements in the specified list of SIDs.
 old-location: security\isecurityinformation2_lookupsids.htm

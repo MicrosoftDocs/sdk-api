@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComUserEvent.OnUserEvent
-title: IComUserEvent::OnUserEvent
+title: IComUserEvent::OnUserEvent (comsvcs.h)
 author: windows-sdk-content
 description: Provided for user components to generate user-defined events.
 old-location: cos\icomuserevent_onuserevent.htm

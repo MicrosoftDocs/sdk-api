@@ -1,6 +1,6 @@
 ---
 UID: NN:cmnquery.IPersistQuery
-title: IPersistQuery
+title: IPersistQuery (cmnquery.h)
 author: windows-sdk-content
 description: Used to store and retrieve query parameters to and from persistent storage.
 old-location: ad\ipersistquery.htm

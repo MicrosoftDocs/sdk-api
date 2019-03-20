@@ -1,6 +1,6 @@
 ---
 UID: NF:appnotify.RegisterAppStateChangeNotification
-title: RegisterAppStateChangeNotification function
+title: RegisterAppStateChangeNotification function (appnotify.h)
 author: windows-sdk-content
 description: Enables an app to register a callback function through which it can be notified that its library is going into or coming out of a suspended state.
 old-location: shell\RegisterAppStateChangeNotification.htm

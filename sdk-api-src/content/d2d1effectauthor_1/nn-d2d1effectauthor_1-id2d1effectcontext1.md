@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1effectauthor_1.ID2D1EffectContext1
-title: ID2D1EffectContext1
+title: ID2D1EffectContext1 (d2d1effectauthor_1.h)
 author: windows-sdk-content
 description: Provides factory methods and other state management for effect and transform authors.
 old-location: direct2d\id2d1effectcontext1.htm

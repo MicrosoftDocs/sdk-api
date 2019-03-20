@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.__MIDL___MIDL_itf_msclus_0000_0000_0001
-title: CLUSGROUP_TYPE
+title: CLUSGROUP_TYPE (msclus.h)
 author: windows-sdk-content
 description: Specifies the type of cluster group to create.
 old-location: mscs\clusgroup_type.htm

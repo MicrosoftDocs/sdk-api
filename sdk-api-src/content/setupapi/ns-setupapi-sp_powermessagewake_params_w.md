@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._SP_POWERMESSAGEWAKE_PARAMS_W
-title: SP_POWERMESSAGEWAKE_PARAMS_W
+title: SP_POWERMESSAGEWAKE_PARAMS_W (setupapi.h)
 author: windows-sdk-content
 description: An SP_POWERMESSAGEWAKE_PARAMS structure corresponds to a DIF_POWERMESSAGEWAKE installation request.
 old-location: devinst\sp_powermessagewake_params.htm

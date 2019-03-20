@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.put_HorizontalOffset
-title: IPenInputPanel::put_HorizontalOffset
+title: IPenInputPanel::put_HorizontalOffset (peninputpanel.h)
 author: windows-sdk-content
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets the offset between the left edge of the pen input panel and the left edge of the control to which it is attached.
 old-location: tablet\peninputpanel_horizontaloffset.htm

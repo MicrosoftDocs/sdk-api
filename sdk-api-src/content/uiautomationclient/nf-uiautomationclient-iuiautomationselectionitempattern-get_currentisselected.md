@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionItemPattern.get_CurrentIsSelected
-title: IUIAutomationSelectionItemPattern::get_CurrentIsSelected
+title: IUIAutomationSelectionItemPattern::get_CurrentIsSelected (uiautomationclient.h)
 author: windows-sdk-content
 description: Indicates whether this item is selected.
 old-location: winauto\uiauto_IUIAutomationSelectionItemPattern_CurrentIsSelected.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bits10_1.IBackgroundCopyFile6.UpdateDownloadPosition
-title: IBackgroundCopyFile6::UpdateDownloadPosition
+title: IBackgroundCopyFile6::UpdateDownloadPosition (bits10_1.h)
 author: windows-sdk-content
 description: Specifies a position to prioritize downloading missing data from.
 old-location: bits\ibackgroundcopyfile6_updatedownloadposition.htm

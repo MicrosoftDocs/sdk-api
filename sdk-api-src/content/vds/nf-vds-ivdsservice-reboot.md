@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsService.Reboot
-title: IVdsService::Reboot
+title: IVdsService::Reboot (vds.h)
 author: windows-sdk-content
 description: Restarts the computer hosting the provider.
 old-location: base\ivdsservice_reboot.htm

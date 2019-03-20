@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertySystem.RefreshPropertySchema
-title: IPropertySystem::RefreshPropertySchema
+title: IPropertySystem::RefreshPropertySchema (propsys.h)
 author: windows-sdk-content
 description: Not supported.
 old-location: properties\IPropertySystem_RefreshPropertySchema.htm

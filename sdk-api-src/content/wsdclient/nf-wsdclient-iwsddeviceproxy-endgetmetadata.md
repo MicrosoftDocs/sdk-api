@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDDeviceProxy.EndGetMetadata
-title: IWSDDeviceProxy::EndGetMetadata
+title: IWSDDeviceProxy::EndGetMetadata (wsdclient.h)
 author: windows-sdk-content
 description: Ends an asynchronous request for metadata.
 old-location: ncd\iwsddeviceproxy_endgetmetadata.htm

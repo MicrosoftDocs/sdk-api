@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetTimeout
-title: MI_DestinationOptions_GetTimeout function
+title: MI_DestinationOptions_GetTimeout function (mi.h)
 author: windows-sdk-content
 description: Gets the default options timeout value.
 old-location: wmi_v2\mi_destinationoptions_gettimeout.htm

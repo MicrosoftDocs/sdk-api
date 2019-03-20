@@ -1,6 +1,6 @@
 ---
 UID: NE:il21dec._AM_LINE21_CCSERVICE
-title: AM_LINE21_CCSERVICE
+title: AM_LINE21_CCSERVICE (il21dec.h)
 author: windows-sdk-content
 description: Indicates the closed captioning service.
 old-location: dshow\am_line21_ccservice.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:rpcdcep.__unnamed_struct_0
-title: RPC_DISPATCH_TABLE
+title: RPC_DISPATCH_TABLE (rpcdcep.h)
 author: windows-sdk-content
 description: The RPC_DISPATCH_TABLE structure is part of the private interface between the run-time libraries and the stubs. Most distributed applications that use Microsoft RPC do not need this structure.
 old-location: rpc\rpc_dispatch_table.htm

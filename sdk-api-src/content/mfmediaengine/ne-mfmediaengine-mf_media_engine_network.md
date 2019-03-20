@@ -1,6 +1,6 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_NETWORK
-title: MF_MEDIA_ENGINE_NETWORK
+title: MF_MEDIA_ENGINE_NETWORK (mfmediaengine.h)
 author: windows-sdk-content
 description: Defines network status codes for the Media Engine.
 old-location: mf\mf_media_engine_network.htm

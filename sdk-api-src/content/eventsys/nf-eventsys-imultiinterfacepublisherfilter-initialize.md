@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IMultiInterfacePublisherFilter.Initialize
-title: IMultiInterfacePublisherFilter::Initialize
+title: IMultiInterfacePublisherFilter::Initialize (eventsys.h)
 author: windows-sdk-content
 description: Associates an event class with a publisher filter.
 old-location: cos\imultiinterfacepublisherfilter_initialize.htm

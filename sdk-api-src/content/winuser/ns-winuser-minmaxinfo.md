@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagMINMAXINFO
-title: MINMAXINFO
+title: MINMAXINFO (winuser.h)
 author: windows-sdk-content
 description: Contains information about a window's maximized size and position and its minimum and maximum tracking size.
 old-location: winmsg\minmaxinfo.htm

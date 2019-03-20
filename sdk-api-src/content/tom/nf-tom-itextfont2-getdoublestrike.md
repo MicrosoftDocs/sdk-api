@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.GetDoubleStrike
-title: ITextFont2::GetDoubleStrike
+title: ITextFont2::GetDoubleStrike (tom.h)
 author: windows-sdk-content
 description: Gets whether characters are displayed with double horizontal lines through the center.
 old-location: controls\itextfont2_getdoublestrike.htm

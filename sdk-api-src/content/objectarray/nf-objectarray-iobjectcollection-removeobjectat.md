@@ -1,6 +1,6 @@
 ---
 UID: NF:objectarray.IObjectCollection.RemoveObjectAt
-title: IObjectCollection::RemoveObjectAt
+title: IObjectCollection::RemoveObjectAt (objectarray.h)
 author: windows-sdk-content
 description: Removes a single, specified object from the collection.
 old-location: shell\IObjectCollection_RemoveObjectAt.htm

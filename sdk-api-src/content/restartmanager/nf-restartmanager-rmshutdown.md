@@ -1,6 +1,6 @@
 ---
 UID: NF:restartmanager.RmShutdown
-title: RmShutdown function
+title: RmShutdown function (restartmanager.h)
 author: windows-sdk-content
 description: Initiates the shutdown of applications.
 old-location: rstmgr\rmshutdown.htm

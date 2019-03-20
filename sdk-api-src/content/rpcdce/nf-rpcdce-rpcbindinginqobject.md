@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcBindingInqObject
-title: RpcBindingInqObject function
+title: RpcBindingInqObject function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcBindingInqObject function returns the object UUID from a binding handle.
 old-location: rpc\rpcbindinginqobject.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFByteStreamCacheControl2.IsBackgroundTransferActive
-title: IMFByteStreamCacheControl2::IsBackgroundTransferActive
+title: IMFByteStreamCacheControl2::IsBackgroundTransferActive (mfidl.h)
 author: windows-sdk-content
 description: Queries whether background transfer is active.
 old-location: mf\imfbytestreamcachecontrol2_isbackgroundtransferactive.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara2.GetSnapToGrid
-title: ITextPara2::GetSnapToGrid
+title: ITextPara2::GetSnapToGrid (tom.h)
 author: windows-sdk-content
 description: Gets whether paragraph lines snap to a vertical grid that could be defined for the whole document.
 old-location: controls\itextpara2_getsnaptogrid.htm

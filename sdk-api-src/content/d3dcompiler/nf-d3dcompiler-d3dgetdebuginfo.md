@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcompiler.D3DGetDebugInfo
-title: D3DGetDebugInfo function
+title: D3DGetDebugInfo function (d3dcompiler.h)
 author: windows-sdk-content
 description: Note  You can use this API to develop your Windows Store apps, but you can't use it in apps that you submit to the Windows Store. Gets shader debug information.
 old-location: direct3dhlsl\d3dgetdebuginfo.htm

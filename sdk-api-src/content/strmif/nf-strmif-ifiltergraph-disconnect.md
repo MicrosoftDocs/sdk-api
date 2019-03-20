@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFilterGraph.Disconnect
-title: IFilterGraph::Disconnect
+title: IFilterGraph::Disconnect (strmif.h)
 author: windows-sdk-content
 description: The Disconnect method disconnects this pin.
 old-location: dshow\ifiltergraph_disconnect.htm

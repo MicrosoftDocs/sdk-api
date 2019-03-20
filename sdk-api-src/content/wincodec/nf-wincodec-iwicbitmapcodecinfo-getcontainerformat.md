@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.GetContainerFormat
-title: IWICBitmapCodecInfo::GetContainerFormat
+title: IWICBitmapCodecInfo::GetContainerFormat (wincodec.h)
 author: windows-sdk-content
 description: Retrieves the container GUID associated with the codec.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_getcontainerformat.htm

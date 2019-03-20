@@ -1,6 +1,6 @@
 ---
 UID: NS:bthdef._BTH_DEVICE_INFO
-title: BTH_DEVICE_INFO
+title: BTH_DEVICE_INFO (bthdef.h)
 author: windows-sdk-content
 description: Stores information about a Bluetooth device.
 old-location: bluetooth\bth_device_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:interactioncontext.SetPropertyInteractionContext
-title: SetPropertyInteractionContext function
+title: SetPropertyInteractionContext function (interactioncontext.h)
 author: windows-sdk-content
 description: Sets Interaction Context object properties.
 old-location: input_intcontext\setpropertyinteractioncontext.htm

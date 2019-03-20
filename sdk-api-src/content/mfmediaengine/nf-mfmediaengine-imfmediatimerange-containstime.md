@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaTimeRange.ContainsTime
-title: IMFMediaTimeRange::ContainsTime
+title: IMFMediaTimeRange::ContainsTime (mfmediaengine.h)
 author: windows-sdk-content
 description: Queries whether a specified time falls within any of the time ranges.
 old-location: mf\imfmediatimerange_containstime.htm

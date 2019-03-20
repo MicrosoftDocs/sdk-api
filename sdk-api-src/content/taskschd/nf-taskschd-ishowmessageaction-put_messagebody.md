@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IShowMessageAction.put_MessageBody
-title: IShowMessageAction::put_MessageBody
+title: IShowMessageAction::put_MessageBody (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the message text that is displayed in the body of the message box.
 old-location: taskschd\ishowmessageaction_messagebody.htm

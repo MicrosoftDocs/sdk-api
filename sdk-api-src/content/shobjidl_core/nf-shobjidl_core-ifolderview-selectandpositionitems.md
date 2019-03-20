@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView.SelectAndPositionItems
-title: IFolderView::SelectAndPositionItems
+title: IFolderView::SelectAndPositionItems (shobjidl_core.h)
 author: windows-sdk-content
 description: Allows the selection and positioning of items visible in the folder's view.
 old-location: shell\IFolderView_SelectAndPositionItems.htm

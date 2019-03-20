@@ -1,6 +1,6 @@
 ---
 UID: NN:wcndevice.IWCNConnectNotify
-title: IWCNConnectNotify
+title: IWCNConnectNotify (wcndevice.h)
 author: windows-sdk-content
 description: Use this interface to receive a success or failure notification when a Windows Connect Now connect session completes.
 old-location: wcn\iwcnconnectnotify.htm

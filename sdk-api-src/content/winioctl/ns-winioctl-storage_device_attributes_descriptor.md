@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
-title: STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
+title: STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR (winioctl.h)
 author: windows-sdk-content
 description: Reserved for future use.
 old-location: fs\storage_device_attributes_descriptor.htm

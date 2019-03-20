@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcomex.IFaxIncomingMessage2
-title: IFaxIncomingMessage2
+title: IFaxIncomingMessage2 (faxcomex.h)
 author: windows-sdk-content
 description: Used by a fax client application to retrieve information about a received fax message in the archive of inbound faxes.
 old-location: fax\_mfax_faxincomingmessage2_cpp.htm

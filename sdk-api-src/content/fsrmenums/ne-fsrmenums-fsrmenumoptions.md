@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmEnumOptions
-title: FsrmEnumOptions
+title: FsrmEnumOptions (fsrmenums.h)
 author: windows-sdk-content
 description: Defines the options for enumerating collections of objects.
 old-location: fsrm\fsrmenumoptions.htm

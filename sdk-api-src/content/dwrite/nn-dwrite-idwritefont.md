@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite.IDWriteFont
-title: IDWriteFont
+title: IDWriteFont (dwrite.h)
 author: windows-sdk-content
 description: Represents a physical font in a font collection. This interface is used to create font faces from physical fonts, or to retrieve information such as font face metrics or face names from existing font faces.
 old-location: directwrite\IDWriteFont.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IObjectId.get_Name
-title: IObjectId::get_Name
+title: IObjectId::get_Name (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a CERTENROLL_OBJECTID value that contains an object identifier.
 old-location: security\iobjectid_name_property.htm

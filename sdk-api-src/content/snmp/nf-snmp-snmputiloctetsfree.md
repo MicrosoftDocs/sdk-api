@@ -1,6 +1,6 @@
 ---
 UID: NF:snmp.SnmpUtilOctetsFree
-title: SnmpUtilOctetsFree function
+title: SnmpUtilOctetsFree function (snmp.h)
 author: windows-sdk-content
 description: The SnmpUtilOctetsFree function frees the memory allocated for the specified octet string. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputiloctetsfree.htm

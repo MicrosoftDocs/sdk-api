@@ -1,6 +1,6 @@
 ---
 UID: NF:ioapiset.GetOverlappedResultEx
-title: GetOverlappedResultEx function
+title: GetOverlappedResultEx function (ioapiset.h)
 author: windows-sdk-content
 description: Retrieves the results of an overlapped operation on the specified file, named pipe, or communications device within the specified time-out interval. The calling thread can perform an alertable wait.
 old-location: base\getoverlappedresultex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineGetLineDevStatus
-title: TSPI_lineGetLineDevStatus function
+title: TSPI_lineGetLineDevStatus function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineGetLineDevStatus function queries the specified open line device for its current status. The information returned is global to all addresses on the line.
 old-location: tspi\tspi_linegetlinedevstatus.htm

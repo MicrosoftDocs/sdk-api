@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_parse_extended_resultA
-title: ldap_parse_extended_resultA function
+title: ldap_parse_extended_resultA function (winldap.h)
 author: windows-sdk-content
 description: The ldap_parse_extended_result parses the results of an LDAP extended operation.
 old-location: ldap\ldap_parse_extended_result.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:textstor.ITextStoreACP
-title: ITextStoreACP
+title: ITextStoreACP (textstor.h)
 author: windows-sdk-content
 description: The ITextStoreACP interface is implemented by the application and is used by the TSF manager to manipulate text streams or text stores in TSF.
 old-location: tsf\itextstoreacp.htm

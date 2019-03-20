@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif._VMRALPHABITMAP
-title: VMRALPHABITMAP
+title: VMRALPHABITMAP (strmif.h)
 author: windows-sdk-content
 description: The VMRALPHABITMAP structure is used in the VMR-7 filter's IVMRMixerBitmap methods when the application is providing a static alpha-blended bitmap to be displayed on the composited video frame.
 old-location: dshow\vmralphabitmap.htm

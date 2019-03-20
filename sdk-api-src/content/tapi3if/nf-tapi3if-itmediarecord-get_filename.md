@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITMediaRecord.get_FileName
-title: ITMediaRecord::get_FileName
+title: ITMediaRecord::get_FileName (tapi3if.h)
 author: windows-sdk-content
 description: The get_FileName method retrieves the name of the file that was used for recording by this terminal.
 old-location: tapi3\itmediarecord_get_filename.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPErrorItem.get_remedy
-title: IWMPErrorItem::get_remedy
+title: IWMPErrorItem::get_remedy (wmp.h)
 author: windows-sdk-content
 description: Reserved for future use.
 old-location: wmp\iwmperroritem_get_remedy.htm

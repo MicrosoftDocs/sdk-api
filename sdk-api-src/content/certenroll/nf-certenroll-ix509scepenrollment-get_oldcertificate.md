@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.get_OldCertificate
-title: IX509SCEPEnrollment::get_OldCertificate
+title: IX509SCEPEnrollment::get_OldCertificate (certenroll.h)
 author: windows-sdk-content
 description: Gets or sets an old certificate that a request is intended to replace.
 old-location: security\ix509scepenrollment_oldcertificate.htm

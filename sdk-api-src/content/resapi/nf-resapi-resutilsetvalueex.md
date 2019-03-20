@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilSetValueEx
-title: ResUtilSetValueEx function
+title: ResUtilSetValueEx function (resapi.h)
 author: windows-sdk-content
 description: Sets a value in the cluster database.
 old-location: mscs\resutilsetvalueex.htm

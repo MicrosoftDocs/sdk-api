@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzTask.get_IsRoleDefinition
-title: IAzTask::get_IsRoleDefinition
+title: IAzTask::get_IsRoleDefinition (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates whether the task is a role definition.
 old-location: security\iaztask_isroledefinition.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.SORTIDFROMLCID
-title: SORTIDFROMLCID macro
+title: SORTIDFROMLCID macro (winnt.h)
 author: windows-sdk-content
 description: Retrieves a sort order identifier from a locale identifier.
 old-location: intl\sortidfromlcid.htm

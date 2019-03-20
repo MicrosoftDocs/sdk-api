@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.GetStreamName
-title: IWMStreamConfig::GetStreamName
+title: IWMStreamConfig::GetStreamName (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetStreamName method retrieves the stream name.
 old-location: wmformat\iwmstreamconfig_getstreamname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITQueueEvent.get_Queue
-title: ITQueueEvent::get_Queue
+title: ITQueueEvent::get_Queue (tapi3.h)
 author: windows-sdk-content
 description: The get_Queue method gets a pointer to the queue on which the event occurred.
 old-location: tapi3\itqueueevent_get_queue.htm

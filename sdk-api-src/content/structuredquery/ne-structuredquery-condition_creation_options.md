@@ -1,6 +1,6 @@
 ---
 UID: NE:structuredquery.CONDITION_CREATION_OPTIONS
-title: CONDITION_CREATION_OPTIONS
+title: CONDITION_CREATION_OPTIONS (structuredquery.h)
 author: windows-sdk-content
 description: Provides a set of flags to be used with the following interfaces to indicate the type of condition tree node:\_ICondition, ICondition2, IConditionFactory, IConditionFactory2, and IConditionGenerator.
 old-location: search\_search_CONDITION_CREATION_OPTIONS.htm

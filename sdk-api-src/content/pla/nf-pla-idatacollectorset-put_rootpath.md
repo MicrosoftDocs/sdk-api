@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_RootPath
-title: IDataCollectorSet::put_RootPath
+title: IDataCollectorSet::put_RootPath (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the base path where the subdirectories are created.
 old-location: pla\idatacollectorset_get_rootpath.htm

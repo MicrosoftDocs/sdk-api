@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSyncDevice2.setItemInfo
-title: IWMPSyncDevice2::setItemInfo
+title: IWMPSyncDevice2::setItemInfo (wmp.h)
 author: windows-sdk-content
 description: The setItemInfo method specifies an attribute value for a device.
 old-location: wmp\iwmpsyncdevice2_setiteminfo.htm

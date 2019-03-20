@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComQCEvents.OnQCMoveToDeadQueue
-title: IComQCEvents::OnQCMoveToDeadQueue
+title: IComQCEvents::OnQCMoveToDeadQueue (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a message is moved to the dead letter queue and cannot be delivered.
 old-location: cos\icomqcevents_onqcmovetodeadqueue.htm

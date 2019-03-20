@@ -1,6 +1,6 @@
 ---
 UID: NE:dot1x._ONEX_EAP_METHOD_BACKEND_SUPPORT
-title: ONEX_EAP_METHOD_BACKEND_SUPPORT
+title: ONEX_EAP_METHOD_BACKEND_SUPPORT (dot1x.h)
 author: windows-sdk-content
 description: Specifies the possible values for whether the EAP method configured on the supplicant for 802.1X authentication is supported on the authentication server.
 old-location: nwifi\onex_eap_method_backend_support.htm

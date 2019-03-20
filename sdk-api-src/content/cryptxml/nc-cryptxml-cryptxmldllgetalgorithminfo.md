@@ -1,6 +1,6 @@
 ---
 UID: NC:cryptxml.CryptXmlDllGetAlgorithmInfo
-title: CryptXmlDllGetAlgorithmInfo
+title: CryptXmlDllGetAlgorithmInfo (cryptxml.h)
 author: windows-sdk-content
 description: Decodes the XML algorithm and returns information about the algorithm.
 old-location: security\cryptxmldllgetalgorithminfo.htm

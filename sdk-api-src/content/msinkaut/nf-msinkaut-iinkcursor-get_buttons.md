@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCursor.get_Buttons
-title: IInkCursor::get_Buttons
+title: IInkCursor::get_Buttons (msinkaut.h)
 author: windows-sdk-content
 description: Gets the IInkCursorButtons collection that is available on an IInkCursor.
 old-location: tablet\iinkcursor_buttons.htm

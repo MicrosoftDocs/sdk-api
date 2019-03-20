@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1TransformGraph
-title: ID2D1TransformGraph
+title: ID2D1TransformGraph (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Represents a graph of transform nodes.
 old-location: direct2d\id2d1transformgraph.htm

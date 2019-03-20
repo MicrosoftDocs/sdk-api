@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3cc.ACDQUEUE_EVENT
-title: ACDQUEUE_EVENT
+title: ACDQUEUE_EVENT (tapi3cc.h)
 author: windows-sdk-content
 description: The ACDQUEUE_EVENT enum describes ACD queue events. The ITQueueEvent::get_Event method returns a member of this enum to indicate the type of ACD queue event that occurred.
 old-location: tapi3\acdqueue_event.htm

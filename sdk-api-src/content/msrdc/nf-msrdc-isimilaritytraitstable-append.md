@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsTable.Append
-title: ISimilarityTraitsTable::Append
+title: ISimilarityTraitsTable::Append (msrdc.h)
 author: windows-sdk-content
 description: Adds a SimilarityData structure to the similarity traits table.
 old-location: rdc\isimilaritytraitstable_append.htm

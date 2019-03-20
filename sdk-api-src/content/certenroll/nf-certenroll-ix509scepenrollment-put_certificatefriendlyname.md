@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.put_CertificateFriendlyName
-title: IX509SCEPEnrollment::put_CertificateFriendlyName
+title: IX509SCEPEnrollment::put_CertificateFriendlyName (certenroll.h)
 author: windows-sdk-content
 description: Gets or sets the friendly name for the certificate.
 old-location: security\ix509scepenrollment_certificatefriendlyname.htm

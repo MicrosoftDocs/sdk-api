@@ -1,6 +1,6 @@
 ---
 UID: NN:deviceaccess.IDeviceIoControl
-title: IDeviceIoControl
+title: IDeviceIoControl (deviceaccess.h)
 author: windows-sdk-content
 description: Sends a control code to a device driver.This action causes the device to perform the corresponding operation.
 old-location: deviceaccess\ideviceiocontrol.htm

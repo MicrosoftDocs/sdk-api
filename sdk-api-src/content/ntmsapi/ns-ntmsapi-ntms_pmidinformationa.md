@@ -1,6 +1,6 @@
 ---
 UID: NS:ntmsapi._NTMS_PMIDINFORMATIONA
-title: NTMS_PMIDINFORMATIONA
+title: NTMS_PMIDINFORMATIONA (ntmsapi.h)
 author: windows-sdk-content
 description: The NTMS_PMIDINFORMATION structure defines the properties specific to a physical media object.
 old-location: fs\ntms_pmidinformation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ddrawgdi.DdQueryDirectDrawObject
-title: DdQueryDirectDrawObject function
+title: DdQueryDirectDrawObject function (ddrawgdi.h)
 author: windows-sdk-content
 description: Wrapper for the NtGdiDdQueryDirectDrawObject function and queries a previously created kernel-mode representation for capabilities. GdiEntry2 is defined as an alias for this function.
 old-location: winprog\_dxgkernel_ddquerydirectdrawobject.htm

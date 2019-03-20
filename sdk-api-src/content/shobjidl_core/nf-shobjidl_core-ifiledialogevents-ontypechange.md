@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialogEvents.OnTypeChange
-title: IFileDialogEvents::OnTypeChange
+title: IFileDialogEvents::OnTypeChange (shobjidl_core.h)
 author: windows-sdk-content
 description: Called when the dialog is opened to notify the application of the initial chosen filetype.
 old-location: shell\IFileDialogEvents_OnTypeChange.htm

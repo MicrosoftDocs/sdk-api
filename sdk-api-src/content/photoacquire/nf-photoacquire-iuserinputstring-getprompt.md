@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetPrompt
-title: IUserInputString::GetPrompt
+title: IUserInputString::GetPrompt (photoacquire.h)
 author: windows-sdk-content
 description: The GetPrompt method retrieves the title of a prompt if the prompt is a modal dialog box.
 old-location: picacq\iuserinputstring_getprompt.htm

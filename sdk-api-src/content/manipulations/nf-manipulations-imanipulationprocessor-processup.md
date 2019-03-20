@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.ProcessUp
-title: IManipulationProcessor::ProcessUp
+title: IManipulationProcessor::ProcessUp (manipulations.h)
 author: windows-sdk-content
 description: The ProcessUp method feeds data to a target's manipulation processor for touch up sequences.
 old-location: wintouch\imanipulationprocessor_processup.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt.__unnamed_struct_26
-title: SYSTEM_POWER_CAPABILITIES
+title: SYSTEM_POWER_CAPABILITIES (winnt.h)
 author: windows-sdk-content
 description: Contains information about the power capabilities of the system.
 old-location: base\system_power_capabilities_str.htm

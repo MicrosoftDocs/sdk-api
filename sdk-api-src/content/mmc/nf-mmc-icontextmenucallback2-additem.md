@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IContextMenuCallback2.AddItem
-title: IContextMenuCallback2::AddItem
+title: IContextMenuCallback2::AddItem (mmc.h)
 author: windows-sdk-content
 description: The IContextMenuCallback2::AddItem method adds a single item to a context menu.
 old-location: mmc\icontextmenucallback2_additem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:evcoll.EcSetObjectArrayProperty
-title: EcSetObjectArrayProperty function
+title: EcSetObjectArrayProperty function (evcoll.h)
 author: windows-sdk-content
 description: Sets a property value in an array of property values for the event sources of a subscription.
 old-location: wec\ecsetobjectarrayproperty.htm

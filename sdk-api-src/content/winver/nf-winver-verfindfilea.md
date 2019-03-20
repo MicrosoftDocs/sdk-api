@@ -1,6 +1,6 @@
 ---
 UID: NF:winver.VerFindFileA
-title: VerFindFileA function
+title: VerFindFileA function (winver.h)
 author: windows-sdk-content
 description: Determines where to install a file based on whether it locates another version of the file in the system. The values VerFindFile returns in the specified buffers are used in a subsequent call to the VerInstallFile function.
 old-location: menurc\verfindfile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:casetup.ICertSrvSetup
-title: ICertSrvSetup
+title: ICertSrvSetup (casetup.h)
 author: windows-sdk-content
 description: Defines functionality to install and uninstall Certification Authority (CA) and Certification Authority Web Enrollment roles on a Certificate Services computer.
 old-location: security\icertsrvsetup.htm

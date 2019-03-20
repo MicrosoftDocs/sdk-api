@@ -1,6 +1,6 @@
 ---
 UID: NF:virtdisk.GetStorageDependencyInformation
-title: GetStorageDependencyInformation function
+title: GetStorageDependencyInformation function (virtdisk.h)
 author: windows-sdk-content
 description: Returns the relationships between virtual hard disks (VHDs) or CD or DVD image file (ISO) or the volumes contained within those disks and their parent disk or volume.
 old-location: vhd\getstoragedependencyinformation.htm

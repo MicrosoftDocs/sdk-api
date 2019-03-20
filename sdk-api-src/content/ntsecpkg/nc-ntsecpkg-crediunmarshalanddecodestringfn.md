@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.CrediUnmarshalandDecodeStringFn
-title: CrediUnmarshalandDecodeStringFn
+title: CrediUnmarshalandDecodeStringFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Transforms a marshaled string back into its original form, and decrypts the unmarshaled string.
 old-location: security\crediunmarshalanddecodestring.htm

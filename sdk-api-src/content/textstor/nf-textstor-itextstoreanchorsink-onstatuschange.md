@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchorSink.OnStatusChange
-title: ITextStoreAnchorSink::OnStatusChange
+title: ITextStoreAnchorSink::OnStatusChange (textstor.h)
 author: windows-sdk-content
 description: ITextStoreAnchorSink::OnStatusChange method
 old-location: tsf\itextstoreanchorsink_onstatuschange.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSource.GetDeviceId
-title: IPhotoAcquireSource::GetDeviceId
+title: IPhotoAcquireSource::GetDeviceId (photoacquire.h)
 author: windows-sdk-content
 description: The GetDeviceId method retrieves the identifier (ID) of the device.
 old-location: picacq\iphotoacquiresource_getdeviceid.htm

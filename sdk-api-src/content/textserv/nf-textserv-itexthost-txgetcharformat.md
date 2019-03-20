@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxGetCharFormat
-title: ITextHost::TxGetCharFormat
+title: ITextHost::TxGetCharFormat (textserv.h)
 author: windows-sdk-content
 description: Requests the text host's default character format.
 old-location: controls\ITextHost_TxGetCharFormat.htm

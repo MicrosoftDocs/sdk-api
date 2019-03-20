@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCustomStrokes.Remove
-title: IInkCustomStrokes::Remove
+title: IInkCustomStrokes::Remove (msinkaut.h)
 author: windows-sdk-content
 description: Removes the InkStrokes collection from the IInkCustomStrokes collection.
 old-location: tablet\iinkcustromstrokes_remove.htm

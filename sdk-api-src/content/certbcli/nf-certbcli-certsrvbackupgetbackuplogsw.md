@@ -1,6 +1,6 @@
 ---
 UID: NF:certbcli.CertSrvBackupGetBackupLogsW
-title: CertSrvBackupGetBackupLogsW function
+title: CertSrvBackupGetBackupLogsW function (certbcli.h)
 author: windows-sdk-content
 description: Retrieves the list of Certificate Services log file names that need to be backed up for the given backup context.
 old-location: security\certsrvbackupgetbackuplogs.htm

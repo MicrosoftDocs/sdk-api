@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx2.SetRollForward
-title: IVssBackupComponentsEx2::SetRollForward
+title: IVssBackupComponentsEx2::SetRollForward (vsbackup.h)
 author: windows-sdk-content
 description: Sets the roll-forward operation type for a component and specifies the restore point for a partial roll-forward operation.
 old-location: base\ivssbackupcomponentsex2_setrollforward.htm

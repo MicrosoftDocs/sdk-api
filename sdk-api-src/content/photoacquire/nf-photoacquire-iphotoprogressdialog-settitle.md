@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.SetTitle
-title: IPhotoProgressDialog::SetTitle
+title: IPhotoProgressDialog::SetTitle (photoacquire.h)
 author: windows-sdk-content
 description: The SetTitle method sets the title of the progress dialog box.
 old-location: picacq\iphotoprogressdialog_settitle.htm

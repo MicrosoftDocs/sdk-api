@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMUSHORTN2.XMUSHORTN2(float,float)
-title: XMUSHORTN2::XMUSHORTN2(float,float)
+title: XMUSHORTN2::XMUSHORTN2(float,float) (directxpackedvector.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMUSHORTN2 from two normalized floatarguments.
 old-location: dxmath\xmushortn2_ctor_4.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMUDECN4.XMUDECN4(float,float,float,float)
-title: XMUDECN4::XMUDECN4(float,float,float,float)
+title: XMUDECN4::XMUDECN4(float,float,float,float) (directxpackedvector.h)
 author: windows-sdk-content
 description: This constructor initializes a new instance of XMUDECN4 from four normalized float arguments.
 old-location: dxmath\xmudecn4_ctor_3.htm

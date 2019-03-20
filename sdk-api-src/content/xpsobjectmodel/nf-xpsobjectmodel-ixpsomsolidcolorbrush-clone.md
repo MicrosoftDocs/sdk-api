@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSolidColorBrush.Clone
-title: IXpsOMSolidColorBrush::Clone
+title: IXpsOMSolidColorBrush::Clone (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Makes a deep copy of the interface.
 old-location: xps\ixpsomsolidcolorbrush_clone.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.SetAspectRatioMode
-title: IMFPMediaPlayer::SetAspectRatioMode
+title: IMFPMediaPlayer::SetAspectRatioMode (mfplay.h)
 author: windows-sdk-content
 description: Specifies whether the aspect ratio of the video is preserved during playback.
 old-location: mf\imfpmediaplayer_setaspectratiomode.htm

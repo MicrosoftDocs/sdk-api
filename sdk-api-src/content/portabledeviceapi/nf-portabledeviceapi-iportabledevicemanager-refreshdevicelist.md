@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceManager.RefreshDeviceList
-title: IPortableDeviceManager::RefreshDeviceList
+title: IPortableDeviceManager::RefreshDeviceList (portabledeviceapi.h)
 author: windows-sdk-content
 description: The RefreshDeviceList method refreshes the list of devices that are connected to the computer.
 old-location: wpdsdk\iportabledevicemanager_refreshdevicelist.htm

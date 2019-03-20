@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_HEAP_TYPE
-title: D3D12_HEAP_TYPE
+title: D3D12_HEAP_TYPE (d3d12.h)
 author: windows-sdk-content
 description: Specifies the type of heap. When resident, heaps reside in a particular physical memory pool with certain CPU cache properties.
 old-location: direct3d12\d3d12_heap_type.htm

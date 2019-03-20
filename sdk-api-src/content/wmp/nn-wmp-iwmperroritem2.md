@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPErrorItem2
-title: IWMPErrorItem2
+title: IWMPErrorItem2 (wmp.h)
 author: windows-sdk-content
 description: The IWMPErrorItem2 interface provides a method that supplements the IWMPErrorItem interface.
 old-location: wmp\iwmperroritem2.htm

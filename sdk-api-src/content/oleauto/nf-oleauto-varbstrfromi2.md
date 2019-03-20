@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarBstrFromI2
-title: VarBstrFromI2 function
+title: VarBstrFromI2 function (oleauto.h)
 author: windows-sdk-content
 description: Converts a short value to a BSTR value.
 old-location: automat\varbstrfromi2.htm

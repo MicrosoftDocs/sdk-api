@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptQueryProviderRegistration
-title: BCryptQueryProviderRegistration function
+title: BCryptQueryProviderRegistration function (bcrypt.h)
 author: windows-sdk-content
 description: Retrieves information about a CNG provider.
 old-location: security\bcryptqueryproviderregistration.htm

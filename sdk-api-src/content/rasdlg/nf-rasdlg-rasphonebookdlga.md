@@ -1,6 +1,6 @@
 ---
 UID: NF:rasdlg.RasPhonebookDlgA
-title: RasPhonebookDlgA function
+title: RasPhonebookDlgA function (rasdlg.h)
 author: windows-sdk-content
 description: The RasPhonebookDlg function displays the main Dial-Up Networking dialog box.
 old-location: rras\rasphonebookdlg.htm

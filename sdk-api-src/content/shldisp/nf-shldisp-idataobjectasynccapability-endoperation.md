@@ -1,6 +1,6 @@
 ---
 UID: NF:shldisp.IDataObjectAsyncCapability.EndOperation
-title: IDataObjectAsyncCapability::EndOperation
+title: IDataObjectAsyncCapability::EndOperation (shldisp.h)
 author: windows-sdk-content
 description: Notifies the data object that the asynchronous data extraction has ended.
 old-location: shell\IDataObjectAsyncCapability_EndOperation.htm

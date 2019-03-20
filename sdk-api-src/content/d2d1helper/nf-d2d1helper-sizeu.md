@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1helper.SizeU
-title: SizeU function
+title: SizeU function (d2d1helper.h)
 author: windows-sdk-content
 description: Creates a D2D1_SIZE_U structure that contains the specified width and height.
 old-location: direct2d\sizeu.htm

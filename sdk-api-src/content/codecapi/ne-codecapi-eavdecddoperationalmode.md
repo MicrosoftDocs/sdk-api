@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVDecDDOperationalMode
-title: eAVDecDDOperationalMode
+title: eAVDecDDOperationalMode (codecapi.h)
 author: windows-sdk-content
 description: Specifies the compression control mode for a Dolby AC-3 audio stream. This enumeration is used with the AVDecDDOperationalMode property.
 old-location: dshow\eavdecddoperationalmode.htm

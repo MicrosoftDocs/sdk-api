@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGISwapChain2.GetSourceSize
-title: IDXGISwapChain2::GetSourceSize
+title: IDXGISwapChain2::GetSourceSize (dxgi1_3.h)
 author: windows-sdk-content
 description: Gets the source region used for the swap chain.
 old-location: direct3ddxgi\idxgioutpu2_getsourcesize.htm

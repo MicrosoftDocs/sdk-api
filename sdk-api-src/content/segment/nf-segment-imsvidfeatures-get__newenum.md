@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidFeatures.get__NewEnum
-title: IMSVidFeatures::get__NewEnum
+title: IMSVidFeatures::get__NewEnum (segment.h)
 author: windows-sdk-content
 description: The get__NewEnum method retrieves an enumerator for the collection.
 old-location: mstv\imsvidfeatures_get__newenum.htm

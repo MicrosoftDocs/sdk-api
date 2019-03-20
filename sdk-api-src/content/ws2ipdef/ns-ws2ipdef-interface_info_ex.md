@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2ipdef._INTERFACE_INFO_EX
-title: INTERFACE_INFO_EX
+title: INTERFACE_INFO_EX (ws2ipdef.h)
 author: windows-sdk-content
 description: The INTERFACE_INFO_EX structure is used in conjunction with the SIO_GET_INTERFACE_LIST IOCTL command to obtain information about an interface IP address.
 old-location: winsock\interface_info_ex.htm

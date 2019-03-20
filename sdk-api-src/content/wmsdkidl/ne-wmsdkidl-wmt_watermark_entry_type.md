@@ -1,6 +1,6 @@
 ---
 UID: NE:wmsdkidl.tagWMT_WATERMARK_ENTRY_TYPE
-title: WMT_WATERMARK_ENTRY_TYPE
+title: WMT_WATERMARK_ENTRY_TYPE (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMT_WATERMARK_ENTRY_TYPE enumeration type identifies the types of watermarking systems. Each watermarking system is a DirectX media object (DMO) that embeds some sort of digital watermark in digital media content.
 old-location: wmformat\wmt_watermark_entry_type.htm

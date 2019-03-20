@@ -1,6 +1,6 @@
 ---
 UID: NS:aclui._SECURITY_OBJECT
-title: SECURITY_OBJECT
+title: SECURITY_OBJECT (aclui.h)
 author: windows-sdk-content
 description: Contains the security object information.
 old-location: security\security_object.htm

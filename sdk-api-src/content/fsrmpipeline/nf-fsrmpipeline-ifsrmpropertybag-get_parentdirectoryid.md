@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_ParentDirectoryId
-title: IFsrmPropertyBag::get_ParentDirectoryId
+title: IFsrmPropertyBag::get_ParentDirectoryId (fsrmpipeline.h)
 author: windows-sdk-content
 description: The NTFS identifier of the file's parent directory.
 old-location: fsrm\ifsrmpropertybag_parentdirectoryid.htm

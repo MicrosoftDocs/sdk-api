@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IKsFormatSupport.GetDevicePreferredFormat
-title: IKsFormatSupport::GetDevicePreferredFormat
+title: IKsFormatSupport::GetDevicePreferredFormat (devicetopology.h)
 author: windows-sdk-content
 description: The GetDevicePreferredFormat method gets the preferred audio stream format for the connection.
 old-location: coreaudio\iksformatsupport_getdevicepreferredformat.htm

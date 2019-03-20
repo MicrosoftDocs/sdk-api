@@ -1,6 +1,6 @@
 ---
 UID: NN:inkpresenterdesktop.IInkHostWorkItem
-title: IInkHostWorkItem
+title: IInkHostWorkItem (inkpresenterdesktop.h)
 author: windows-sdk-content
 description: An IInkHostWorkItem object represents an ink operation to be executed on an IInkDesktopHost object thread.
 old-location: input_ink\iinkhostworkitem.htm

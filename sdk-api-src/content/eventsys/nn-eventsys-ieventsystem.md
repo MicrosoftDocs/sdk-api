@@ -1,6 +1,6 @@
 ---
 UID: NN:eventsys.IEventSystem
-title: IEventSystem
+title: IEventSystem (eventsys.h)
 author: windows-sdk-content
 description: Provides access to the event data store.
 old-location: cos\ieventsystem.htm

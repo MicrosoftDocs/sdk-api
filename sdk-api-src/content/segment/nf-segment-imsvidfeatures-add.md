@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidFeatures.Add
-title: IMSVidFeatures::Add
+title: IMSVidFeatures::Add (segment.h)
 author: windows-sdk-content
 description: The Add method adds a feature to the collection.
 old-location: mstv\imsvidfeatures_add.htm

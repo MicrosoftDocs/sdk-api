@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_RestartInterval
-title: ITaskSettings::put_RestartInterval
+title: ITaskSettings::put_RestartInterval (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a value that specifies how long the Task Scheduler will attempt to restart the task.
 old-location: taskschd\itasksettings_restartinterval.htm

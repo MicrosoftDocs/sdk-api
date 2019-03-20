@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.UIntMult
-title: UIntMult function
+title: UIntMult function (intsafe.h)
 author: windows-sdk-content
 description: Multiplies one value of type UINT by another.
 old-location: shell\UIntMult.htm

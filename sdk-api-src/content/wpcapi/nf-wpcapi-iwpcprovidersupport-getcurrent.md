@@ -1,6 +1,6 @@
 ---
 UID: NF:wpcapi.IWPCProviderSupport.GetCurrent
-title: IWPCProviderSupport::GetCurrent
+title: IWPCProviderSupport::GetCurrent (wpcapi.h)
 author: windows-sdk-content
 description: Retrieves the GUID of the current provider.
 old-location: parcon\iwpcprovidersupport_getcurrent.htm

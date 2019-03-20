@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IJolietDiscMaster.SetJolietProperties
-title: IJolietDiscMaster::SetJolietProperties
+title: IJolietDiscMaster::SetJolietProperties (imapi.h)
 author: windows-sdk-content
 description: Sets the Joliet properties.
 old-location: imapi\ijolietdiscmaster_setjolietproperties.htm

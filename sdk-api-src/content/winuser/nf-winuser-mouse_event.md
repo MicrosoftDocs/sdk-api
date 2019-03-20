@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.mouse_event
-title: mouse_event function
+title: mouse_event function (winuser.h)
 author: windows-sdk-content
 description: The mouse_event function synthesizes mouse motion and button clicks.
 old-location: inputdev\mouse_event.htm

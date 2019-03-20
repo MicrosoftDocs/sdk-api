@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IBandHost.SetBandAvailability
-title: IBandHost::SetBandAvailability
+title: IBandHost::SetBandAvailability (shobjidl.h)
 author: windows-sdk-content
 description: Sets the availability of a specified band.
 old-location: shell\IBandHost_SetBandAvailability.htm

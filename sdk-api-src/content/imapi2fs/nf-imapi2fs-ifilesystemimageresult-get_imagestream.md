@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImageResult.get_ImageStream
-title: IFileSystemImageResult::get_ImageStream
+title: IFileSystemImageResult::get_ImageStream (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the burn image stream.
 old-location: imapi\ifilesystemimageresult_get_imagestream.htm

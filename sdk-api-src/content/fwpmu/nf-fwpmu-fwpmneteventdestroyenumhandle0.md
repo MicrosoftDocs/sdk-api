@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmNetEventDestroyEnumHandle0
-title: FwpmNetEventDestroyEnumHandle0 function
+title: FwpmNetEventDestroyEnumHandle0 function (fwpmu.h)
 author: windows-sdk-content
 description: Frees a handle returned by FwpmNetEventCreateEnumHandle0.
 old-location: fwp\fwpmneteventdestroyenumhandle0.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:hrtfapoapi.HrtfDirectivityCardioid
-title: HrtfDirectivityCardioid
+title: HrtfDirectivityCardioid (hrtfapoapi.h)
 author: windows-sdk-content
 description: Describes a cardioid directivity pattern.
 old-location: xaudio2\hrtfdirectivitycardioid.htm

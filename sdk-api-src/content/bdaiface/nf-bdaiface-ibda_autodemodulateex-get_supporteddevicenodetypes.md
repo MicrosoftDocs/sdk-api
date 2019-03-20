@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_AutoDemodulateEx.get_SupportedDeviceNodeTypes
-title: IBDA_AutoDemodulateEx::get_SupportedDeviceNodeTypes
+title: IBDA_AutoDemodulateEx::get_SupportedDeviceNodeTypes (bdaiface.h)
 author: windows-sdk-content
 description: The get_SupportedDeviceNodeTypes method retrieves a list of the device node types that the demodulator supports.
 old-location: mstv\ibda_autodemodulateex_get_supporteddevicenodetypes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll.get_UseExistingKeySet
-title: ICEnroll::get_UseExistingKeySet
+title: ICEnroll::get_UseExistingKeySet (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves a Boolean value that determines whether the existing keys should be used.
 old-location: security\icenroll4_useexistingkeyset.htm

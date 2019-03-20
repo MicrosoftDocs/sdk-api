@@ -1,6 +1,6 @@
 ---
 UID: NF:winternl.RtlFreeOemString
-title: RtlFreeOemString function
+title: RtlFreeOemString function (winternl.h)
 author: windows-sdk-content
 description: Frees the string buffer allocated by RtlUnicodeStringToOemString.
 old-location: winprog\rtlfreeoemstring.htm

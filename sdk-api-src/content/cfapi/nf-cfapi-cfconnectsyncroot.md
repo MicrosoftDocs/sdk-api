@@ -1,6 +1,6 @@
 ---
 UID: NF:cfapi.CfConnectSyncRoot
-title: CfConnectSyncRoot function
+title: CfConnectSyncRoot function (cfapi.h)
 author: windows-sdk-content
 description: Initiates bi-directional communication between a sync provider and the sync filter API.
 old-location: cloudapi\cfconnectsyncroot.htm

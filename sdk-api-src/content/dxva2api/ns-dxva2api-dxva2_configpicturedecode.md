@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva2api._DXVA2_ConfigPictureDecode
-title: DXVA2_ConfigPictureDecode
+title: DXVA2_ConfigPictureDecode (dxva2api.h)
 author: windows-sdk-content
 description: Describes the configuration of a DXVA decoder device.
 old-location: mf\dxva2_configpicturedecode.htm

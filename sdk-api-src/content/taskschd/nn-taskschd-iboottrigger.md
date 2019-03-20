@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.IBootTrigger
-title: IBootTrigger
+title: IBootTrigger (taskschd.h)
 author: windows-sdk-content
 description: Represents a trigger that starts a task when the system is started.
 old-location: taskschd\iboottrigger.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_ActiveDiscRecorder
-title: IDiscRecorder2::get_ActiveDiscRecorder
+title: IDiscRecorder2::get_ActiveDiscRecorder (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the unique identifier used to initialize the disc device.
 old-location: imapi\idiscrecorder2_get_activediscrecorder.htm

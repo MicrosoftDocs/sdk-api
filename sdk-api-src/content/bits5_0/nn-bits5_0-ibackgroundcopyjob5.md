@@ -1,6 +1,6 @@
 ---
 UID: NN:bits5_0.IBackgroundCopyJob5
-title: IBackgroundCopyJob5
+title: IBackgroundCopyJob5 (bits5_0.h)
 author: windows-sdk-content
 description: Use this interface to query or set several optional behaviors of a job.
 old-location: bits\bits5_functions.htm

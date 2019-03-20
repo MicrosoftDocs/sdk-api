@@ -1,6 +1,6 @@
 ---
 UID: NE:wbemdisp.WbemCimtypeEnum
-title: WbemCimtypeEnum
+title: WbemCimtypeEnum (wbemdisp.h)
 author: windows-sdk-content
 description: Define the valid CIM types of a property value.
 old-location: wmi\wbemcimtypeenum.htm

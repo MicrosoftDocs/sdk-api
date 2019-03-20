@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFIsFormatYUV
-title: MFIsFormatYUV function
+title: MFIsFormatYUV function (mfapi.h)
 author: windows-sdk-content
 description: Queries whether a FOURCC code or D3DFORMAT value is a YUV format.
 old-location: mf\mfisformatyuv.htm

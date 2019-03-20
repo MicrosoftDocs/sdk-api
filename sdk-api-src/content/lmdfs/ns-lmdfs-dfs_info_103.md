@@ -1,6 +1,6 @@
 ---
 UID: NS:lmdfs._DFS_INFO_103
-title: DFS_INFO_103
+title: DFS_INFO_103 (lmdfs.h)
 author: windows-sdk-content
 description: Contains properties that set specific behaviors for a DFS root or link.
 old-location: dfs\dfs_info_103.htm

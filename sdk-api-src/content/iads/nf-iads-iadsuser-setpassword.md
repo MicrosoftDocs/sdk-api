@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsUser.SetPassword
-title: IADsUser::SetPassword
+title: IADsUser::SetPassword (iads.h)
 author: windows-sdk-content
 description: Sets the user password to a specified value.
 old-location: adsi\iadsuser_setpassword.htm

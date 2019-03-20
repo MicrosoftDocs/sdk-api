@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionManager2.RegisterDuckNotification
-title: IAudioSessionManager2::RegisterDuckNotification
+title: IAudioSessionManager2::RegisterDuckNotification (audiopolicy.h)
 author: windows-sdk-content
 description: The RegisterDuckNotification method registers the application with the session manager to receive ducking notifications.
 old-location: coreaudio\iaudiosessionmanager2_registerducknotification.htm

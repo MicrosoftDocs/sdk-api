@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUIFramework.Destroy
-title: IUIFramework::Destroy
+title: IUIFramework::Destroy (uiribbon.h)
 author: windows-sdk-content
 description: Terminates and releases all objects, hooks, and references for an instance of the Windows Ribbon framework.
 old-location: windowsribbon\windowsribbon_iuiframework_destroy.htm

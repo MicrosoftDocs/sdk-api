@@ -1,6 +1,6 @@
 ---
 UID: NS:commdlg.tagPRINTPAGERANGE
-title: PRINTPAGERANGE
+title: PRINTPAGERANGE (commdlg.h)
 author: windows-sdk-content
 description: Represents a range of pages in a print job. A print job can have more than one page range. This information is supplied in the PRINTDLGEX structure when calling the PrintDlgEx function.
 old-location: dlgbox\printpagerange_str.htm

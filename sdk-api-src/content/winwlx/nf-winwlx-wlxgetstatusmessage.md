@@ -1,6 +1,6 @@
 ---
 UID: NF:winwlx.WlxGetStatusMessage
-title: WlxGetStatusMessage function
+title: WlxGetStatusMessage function (winwlx.h)
 author: windows-sdk-content
 description: Winlogon calls this function to get the status message being displayed by the GINA DLL.
 old-location: security\wlxgetstatusmessage.htm

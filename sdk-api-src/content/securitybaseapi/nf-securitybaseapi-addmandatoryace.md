@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.AddMandatoryAce
-title: AddMandatoryAce function
+title: AddMandatoryAce function (securitybaseapi.h)
 author: windows-sdk-content
 description: Adds a SYSTEM_MANDATORY_LABEL_ACE access control entry (ACE) to the specified system access control list (SACL).
 old-location: security\addmandatoryace.htm

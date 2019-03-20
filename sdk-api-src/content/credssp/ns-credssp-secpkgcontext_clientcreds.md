@@ -1,6 +1,6 @@
 ---
 UID: NS:credssp._SecPkgContext_ClientCreds
-title: SecPkgContext_ClientCreds
+title: SecPkgContext_ClientCreds (credssp.h)
 author: windows-sdk-content
 description: Specifies client credentials when calling the QueryContextAttributes (CredSSP) function.
 old-location: security\secpkgcontext_clientcreds.htm

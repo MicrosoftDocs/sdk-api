@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.StringFromCLSID
-title: StringFromCLSID function
+title: StringFromCLSID function (combaseapi.h)
 author: windows-sdk-content
 description: Converts a CLSID into a string of printable characters. Different CLSIDs always convert to different strings.
 old-location: com\stringfromclsid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IAssocHandler.IsRecommended
-title: IAssocHandler::IsRecommended
+title: IAssocHandler::IsRecommended (shobjidl_core.h)
 author: windows-sdk-content
 description: Indicates whether the application is registered as a recommended handler for the queried file type.
 old-location: shell\IAssocHandler_IsRecommended.htm

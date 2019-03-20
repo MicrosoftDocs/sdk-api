@@ -1,6 +1,6 @@
 ---
 UID: NF:fhsvcctl.FhServiceStopBackup
-title: FhServiceStopBackup function
+title: FhServiceStopBackup function (fhsvcctl.h)
 author: windows-sdk-content
 description: This function stops an ongoing backup cycle for the current user.
 old-location: winprog\fhservicestopbackup.htm

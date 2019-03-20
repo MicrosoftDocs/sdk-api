@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader.GetApplications
-title: IAppxManifestReader::GetApplications
+title: IAppxManifestReader::GetApplications (appxpackaging.h)
 author: windows-sdk-content
 description: Gets an enumerator that iterates through the applications defined in the manifest.
 old-location: appxpkg\iappxmanifestreader_getapplications.htm

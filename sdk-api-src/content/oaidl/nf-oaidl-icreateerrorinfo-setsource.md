@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateErrorInfo.SetSource
-title: ICreateErrorInfo::SetSource
+title: ICreateErrorInfo::SetSource (oaidl.h)
 author: windows-sdk-content
 description: Sets the language-dependent programmatic identifier (ProgID) for the class or application that raised the error.
 old-location: automat\icreateerrorinfo_setsource.htm

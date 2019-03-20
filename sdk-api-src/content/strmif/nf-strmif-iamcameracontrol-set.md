@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMCameraControl.Set
-title: IAMCameraControl::Set
+title: IAMCameraControl::Set (strmif.h)
 author: windows-sdk-content
 description: The Set method sets a specified property on the camera.
 old-location: dshow\iamcameracontrol_set.htm

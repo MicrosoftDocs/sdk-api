@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsAccessControlList
-title: IADsAccessControlList
+title: IADsAccessControlList (iads.h)
 author: windows-sdk-content
 description: The IADsAccessControlList interface is a dual interface that manages individual access-control entries (ACEs).
 old-location: adsi\iadsaccesscontrollist.htm

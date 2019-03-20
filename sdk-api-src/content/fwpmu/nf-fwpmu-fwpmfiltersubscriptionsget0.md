@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmFilterSubscriptionsGet0
-title: FwpmFilterSubscriptionsGet0 function
+title: FwpmFilterSubscriptionsGet0 function (fwpmu.h)
 author: windows-sdk-content
 description: Retrieves an array of all the current filter change notification subscriptions.
 old-location: fwp\fwpmfiltersubscriptionsget0_func.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IAssocHandler.CreateInvoker
-title: IAssocHandler::CreateInvoker
+title: IAssocHandler::CreateInvoker (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves an object that enables the invocation of the associated handler on the current selection. The invoker includes the ability to verify whether the current selection is supported.
 old-location: shell\IAssocHandler_CreateInvoker.htm

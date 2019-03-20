@@ -1,6 +1,6 @@
 ---
 UID: NS:accctrl._ACTRL_ALISTW
-title: ACTRL_ACCESSW
+title: ACTRL_ACCESSW (accctrl.h)
 author: windows-sdk-content
 description: Contains an array of access-control lists for an object and its properties.
 old-location: com\actrl_access.htm

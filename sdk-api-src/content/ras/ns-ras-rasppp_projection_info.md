@@ -1,6 +1,6 @@
 ---
 UID: NS:ras._RASPPP_PROJECTION_INFO
-title: RASPPP_PROJECTION_INFO
+title: RASPPP_PROJECTION_INFO (ras.h)
 author: windows-sdk-content
 description: Contains information obtained during Point-to-Point (PPP) negotiation of Internet Protocol version 4 (IPv4) and IPv6 projection operations, and PPP Link Control Protocol (LCP)/multilink, and Compression Control Protocol (CCP) negotiation.
 old-location: rras\rasppp_projection_info.htm

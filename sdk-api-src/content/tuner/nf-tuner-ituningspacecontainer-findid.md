@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.FindID
-title: ITuningSpaceContainer::FindID
+title: ITuningSpaceContainer::FindID (tuner.h)
 author: windows-sdk-content
 description: The FindID method retrieves the ID of a specified tuning space within the collection.
 old-location: mstv\ituningspacecontainer_findid.htm

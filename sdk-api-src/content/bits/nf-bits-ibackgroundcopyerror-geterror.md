@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyError.GetError
-title: IBackgroundCopyError::GetError
+title: IBackgroundCopyError::GetError (bits.h)
 author: windows-sdk-content
 description: Retrieves the error code and identify the context in which the error occurred.
 old-location: bits\ibackgroundcopyerror_geterror.htm

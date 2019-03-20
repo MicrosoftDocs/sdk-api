@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamMediaTypeManager.RemoveStreamConfiguration
-title: IMFMuxStreamMediaTypeManager::RemoveStreamConfiguration
+title: IMFMuxStreamMediaTypeManager::RemoveStreamConfiguration (mfobjects.h)
 author: windows-sdk-content
 description: Unregisters a stream configuration, which defines a set of substreams that can be included the multiplexed output.
 old-location: mf\imfmuxstreammediatypemanager_removestreamconfiguration.htm

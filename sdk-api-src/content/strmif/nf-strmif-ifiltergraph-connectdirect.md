@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFilterGraph.ConnectDirect
-title: IFilterGraph::ConnectDirect
+title: IFilterGraph::ConnectDirect (strmif.h)
 author: windows-sdk-content
 description: The ConnectDirect method connects the two pins directly (without intervening filters).
 old-location: dshow\ifiltergraph_connectdirect.htm

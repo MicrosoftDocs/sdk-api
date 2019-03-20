@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerReadDCValueIndex
-title: PowerReadDCValueIndex function
+title: PowerReadDCValueIndex function (powrprof.h)
 author: windows-sdk-content
 description: Retrieves the DC value index of the specified power setting.
 old-location: base\powerreaddcvalueindex.htm

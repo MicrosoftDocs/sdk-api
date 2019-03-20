@@ -1,6 +1,6 @@
 ---
 UID: NN:audiopolicy.IAudioSessionNotification
-title: IAudioSessionNotification
+title: IAudioSessionNotification (audiopolicy.h)
 author: windows-sdk-content
 description: The IAudioSessionNotification interface provides notification when an audio session is created.
 old-location: coreaudio\iaudiosessionnotification.htm

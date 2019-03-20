@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12MetaCommand.GetRequiredParameterResourceSize
-title: ID3D12MetaCommand::GetRequiredParameterResourceSize
+title: ID3D12MetaCommand::GetRequiredParameterResourceSize (d3d12.h)
 author: windows-sdk-content
 description: Retrieves the amount of memory required for the specified runtime parameter resource for a meta command, for the specified stage.
 old-location: direct3d12\id3d12metacommand_getrequiredparameterresourcesize.htm

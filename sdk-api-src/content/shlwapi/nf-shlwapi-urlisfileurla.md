@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.UrlIsFileUrlA
-title: UrlIsFileUrlA macro
+title: UrlIsFileUrlA macro (shlwapi.h)
 author: windows-sdk-content
 description: Tests a URL to determine if it is a file URL.
 old-location: shell\UrlIsFileUrl.htm

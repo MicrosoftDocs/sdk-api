@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_SELECT_CHAIN_PARA
-title: CERT_SELECT_CHAIN_PARA
+title: CERT_SELECT_CHAIN_PARA (wincrypt.h)
 author: windows-sdk-content
 description: Contains the parameters used for building and selecting chains.
 old-location: security\cert_select_chain_para.htm

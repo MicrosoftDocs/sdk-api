@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.UnlockFile
-title: UnlockFile function
+title: UnlockFile function (fileapi.h)
 author: windows-sdk-content
 description: Unlocks a region in an open file.
 old-location: fs\unlockfile.htm

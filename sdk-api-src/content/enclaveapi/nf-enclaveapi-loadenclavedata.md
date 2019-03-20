@@ -1,6 +1,6 @@
 ---
 UID: NF:enclaveapi.LoadEnclaveData
-title: LoadEnclaveData function
+title: LoadEnclaveData function (enclaveapi.h)
 author: windows-sdk-content
 description: Loads data into an uninitialized enclave that you created by calling CreateEnclave.
 old-location: base\loadenclavedata.htm

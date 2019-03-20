@@ -1,6 +1,6 @@
 ---
 UID: NF:iscsidsc.LoginIScsiTargetW
-title: LoginIScsiTargetW function
+title: LoginIScsiTargetW function (iscsidsc.h)
 author: windows-sdk-content
 description: LoginIscsiTarget function establishes a full featured login session with the indicated target.
 old-location: iscsidisc\loginiscsitarget.htm

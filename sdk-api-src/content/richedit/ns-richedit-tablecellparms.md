@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._tableCellParms
-title: TABLECELLPARMS
+title: TABLECELLPARMS (richedit.h)
 author: windows-sdk-content
 description: Defines the attributes of cells in a table row.
 old-location: controls\tablecellparms.htm

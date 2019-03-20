@@ -1,6 +1,6 @@
 ---
 UID: NS:winwlx._WLX_CONSOLESWITCH_CREDENTIALS_INFO
-title: WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0
+title: WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0 (winwlx.h)
 author: windows-sdk-content
 description: Contains the client credentials returned by a call to WlxGetConsoleSwitchCredentials.
 old-location: security\wlx_consoleswitch_credentials_info_v1_0.htm

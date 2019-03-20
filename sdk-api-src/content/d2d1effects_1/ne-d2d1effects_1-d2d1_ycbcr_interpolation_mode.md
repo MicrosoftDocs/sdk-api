@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects_1.D2D1_YCBCR_INTERPOLATION_MODE
-title: D2D1_YCBCR_INTERPOLATION_MODE
+title: D2D1_YCBCR_INTERPOLATION_MODE (d2d1effects_1.h)
 author: windows-sdk-content
 description: Specifies the interpolation mode for the YCbCr effect.
 old-location: direct2d\d2d1_ycbcr_interpolation_mode.htm

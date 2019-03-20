@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.GetSelection
-title: ILegacyIAccessibleProvider::GetSelection
+title: ILegacyIAccessibleProvider::GetSelection (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves the selected item or items in the control.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_GetSelection.htm

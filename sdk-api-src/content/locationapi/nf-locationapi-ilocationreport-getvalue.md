@@ -1,6 +1,6 @@
 ---
 UID: NF:locationapi.ILocationReport.GetValue
-title: ILocationReport::GetValue
+title: ILocationReport::GetValue (locationapi.h)
 author: windows-sdk-content
 description: Retrieves a property value from the location report.
 old-location: winlocation_com_ref\ilocationreport_getvalue.htm

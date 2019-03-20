@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDeviceFinder.FindByUDN
-title: IUPnPDeviceFinder::FindByUDN
+title: IUPnPDeviceFinder::FindByUDN (upnp.h)
 author: windows-sdk-content
 description: The FindByUDN method searches synchronously for a device by its unique device name (UDN).
 old-location: upnp\iupnpdevicefinder_findbyudn.htm

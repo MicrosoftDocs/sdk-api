@@ -1,6 +1,6 @@
 ---
 UID: NN:encdec.IETFilter
-title: IETFilter
+title: IETFilter (encdec.h)
 author: windows-sdk-content
 description: The IETFilter interface is exposed by the Encrypter/Tagger filter. Most applications will not have to use this interface.
 old-location: mstv\ietfilter.htm

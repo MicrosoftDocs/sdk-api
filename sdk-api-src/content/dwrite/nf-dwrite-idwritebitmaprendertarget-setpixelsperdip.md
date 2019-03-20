@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteBitmapRenderTarget.SetPixelsPerDip
-title: IDWriteBitmapRenderTarget::SetPixelsPerDip
+title: IDWriteBitmapRenderTarget::SetPixelsPerDip (dwrite.h)
 author: windows-sdk-content
 description: Sets the number of bitmap pixels per DIP (device-independent pixel). A DIP is 1/96 inch, so this value is the number if pixels per inch divided by 96.
 old-location: directwrite\IDWriteBitmapRenderTarget_SetPixelsPerDip.htm

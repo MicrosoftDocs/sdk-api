@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._TryShell2Rename
-title: IBrowserService2::_TryShell2Rename
+title: IBrowserService2::_TryShell2Rename (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Coordinates the renaming of the current browser view when the browser is redirected.
 old-location: shell\IBrowserService2__TryShell2Rename.htm

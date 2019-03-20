@@ -1,6 +1,6 @@
 ---
 UID: NF:avrt.AvSetMmMaxThreadCharacteristicsA
-title: AvSetMmMaxThreadCharacteristicsA function
+title: AvSetMmMaxThreadCharacteristicsA function (avrt.h)
 author: windows-sdk-content
 description: Associates the calling thread with the specified tasks.
 old-location: base\avsetmmmaxthreadcharacteristics.htm

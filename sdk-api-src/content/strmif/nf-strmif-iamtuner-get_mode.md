@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTuner.get_Mode
-title: IAMTuner::get_Mode
+title: IAMTuner::get_Mode (strmif.h)
 author: windows-sdk-content
 description: The get_Mode method retrieves the current mode on a multifunction tuner.
 old-location: dshow\iamtuner_get_mode.htm

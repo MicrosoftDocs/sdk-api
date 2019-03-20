@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.BeginInstall
-title: IUpdateInstaller::BeginInstall
+title: IUpdateInstaller::BeginInstall (wuapi.h)
 author: windows-sdk-content
 description: Starts an asynchronous installation of the updates.
 old-location: wua\iupdateinstaller_begininstall.htm

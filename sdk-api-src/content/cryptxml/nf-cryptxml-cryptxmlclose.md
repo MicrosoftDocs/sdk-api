@@ -1,6 +1,6 @@
 ---
 UID: NF:cryptxml.CryptXmlClose
-title: CryptXmlClose function
+title: CryptXmlClose function (cryptxml.h)
 author: windows-sdk-content
 description: Closes a cryptographic XML object handle.
 old-location: security\cryptxmlclose.htm

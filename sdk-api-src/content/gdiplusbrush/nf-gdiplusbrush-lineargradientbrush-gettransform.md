@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.GetTransform
-title: LinearGradientBrush::GetTransform
+title: LinearGradientBrush::GetTransform (gdiplusbrush.h)
 author: windows-sdk-content
 description: The LinearGradientBrush::GetTransform method gets the transformation matrix of this linear gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_GetTransform_matrix_.htm

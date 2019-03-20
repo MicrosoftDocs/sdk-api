@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRule3.put_LocalAppPackageId
-title: INetFwRule3::put_LocalAppPackageId
+title: INetFwRule3::put_LocalAppPackageId (netfw.h)
 author: windows-sdk-content
 description: Specifies the package identifier or the app container identifier of a process, whether from a Windows Store app or a desktop app.
 old-location: ics\inetfwrule3_localapppackageid.htm

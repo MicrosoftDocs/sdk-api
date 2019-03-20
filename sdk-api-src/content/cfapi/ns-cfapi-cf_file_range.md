@@ -1,6 +1,6 @@
 ---
 UID: NS:cfapi.CF_FILE_RANGE
-title: CF_FILE_RANGE
+title: CF_FILE_RANGE (cfapi.h)
 author: windows-sdk-content
 description: Specifies a range of data in a placeholder file.
 old-location: cloudapi\cf_file_range.htm

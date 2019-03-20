@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.SavePackageToStream
-title: IXpsSignatureManager::SavePackageToStream
+title: IXpsSignatureManager::SavePackageToStream (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Saves the XPS package by writing it to a stream.
 old-location: xps\ixpssignaturemanager_savepackagetostream.htm

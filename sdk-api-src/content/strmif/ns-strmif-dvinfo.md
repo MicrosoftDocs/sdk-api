@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif.DVINFO
-title: DVINFO
+title: DVINFO (strmif.h)
 author: windows-sdk-content
 description: The DVINFO structure describes the format of a digital video (DV) stream.
 old-location: dshow\dvinfo.htm

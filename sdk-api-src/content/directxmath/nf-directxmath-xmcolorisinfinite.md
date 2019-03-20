@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMColorIsInfinite
-title: XMColorIsInfinite function
+title: XMColorIsInfinite function (directxmath.h)
 author: windows-sdk-content
 description: Tests to see whether any of the components of a color are either positive or negative infinity.
 old-location: dxmath\xmcolorisinfinite.htm

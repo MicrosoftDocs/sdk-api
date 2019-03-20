@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DWORD_DWORD
-title: DWORD_DWORD
+title: DWORD_DWORD (dhcpsapi.h)
 author: windows-sdk-content
 description: The DWORD_DWORD structure defines a 64-bit integer value.
 old-location: dhcp\dword_dword.htm

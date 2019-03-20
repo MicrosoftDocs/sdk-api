@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncCommonRateControlMode
-title: eAVEncCommonRateControlMode
+title: eAVEncCommonRateControlMode (codecapi.h)
 author: windows-sdk-content
 description: Specifies the rate control mode for an encoder. This enumeration is used with the AVEncCommonRateControlMode codec property.
 old-location: dshow\eavenccommonratecontrolmode.htm

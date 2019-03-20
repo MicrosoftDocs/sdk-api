@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IComponent.GetResultViewType
-title: IComponent::GetResultViewType
+title: IComponent::GetResultViewType (mmc.h)
 author: windows-sdk-content
 description: The IComponent::GetResultViewType method determines what the result pane view should be.
 old-location: mmc\icomponent_getresultviewtype.htm

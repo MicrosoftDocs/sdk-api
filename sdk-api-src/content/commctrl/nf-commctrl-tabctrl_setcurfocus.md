@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TabCtrl_SetCurFocus
-title: TabCtrl_SetCurFocus macro
+title: TabCtrl_SetCurFocus macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the focus to a specified tab in a tab control. You can use this macro or send the TCM_SETCURFOCUS message explicitly.
 old-location: controls\TabCtrl_SetCurFocus.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_group_event_data_tag
-title: PEER_GROUP_EVENT_DATA
+title: PEER_GROUP_EVENT_DATA (p2p.h)
 author: windows-sdk-content
 description: The PEER_GROUP_EVENT_DATA structure contains information about a specific peer group event that has occurred.
 old-location: p2p\peer_group_event_data.htm

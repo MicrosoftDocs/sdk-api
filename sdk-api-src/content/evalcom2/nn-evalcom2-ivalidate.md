@@ -1,6 +1,6 @@
 ---
 UID: NN:evalcom2.IValidate
-title: IValidate
+title: IValidate (evalcom2.h)
 author: windows-sdk-content
 description: The IValidate interface enables authoring tools to validate a Windows Installer package against a set of Internal Consistency Evaluators.
 old-location: setup\ivalidate.htm

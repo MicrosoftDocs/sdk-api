@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptVerifyCertificateSignature
-title: CryptVerifyCertificateSignature function
+title: CryptVerifyCertificateSignature function (wincrypt.h)
 author: windows-sdk-content
 description: Verifies the signature of a certificate, certificate revocation list (CRL), or certificate request by using the public key in a CERT_PUBLIC_KEY_INFO structure.
 old-location: security\cryptverifycertificatesignature.htm

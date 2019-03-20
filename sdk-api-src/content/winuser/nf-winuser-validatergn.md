@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.ValidateRgn
-title: ValidateRgn function
+title: ValidateRgn function (winuser.h)
 author: windows-sdk-content
 description: The ValidateRgn function validates the client area within a region by removing the region from the current update region of the specified window.
 old-location: gdi\validatergn.htm

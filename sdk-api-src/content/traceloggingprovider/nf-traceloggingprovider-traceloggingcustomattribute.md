@@ -1,6 +1,6 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingCustomAttribute
-title: TraceLoggingCustomAttribute macro
+title: TraceLoggingCustomAttribute macro (traceloggingprovider.h)
 author: windows-sdk-content
 description: Wrapper macro for adding custom information about an event to the PDB.
 old-location: tracelogging\traceloggingcustomattribute.htm

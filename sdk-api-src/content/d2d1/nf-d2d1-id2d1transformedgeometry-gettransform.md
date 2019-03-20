@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1TransformedGeometry.GetTransform
-title: ID2D1TransformedGeometry::GetTransform
+title: ID2D1TransformedGeometry::GetTransform (d2d1.h)
 author: windows-sdk-content
 description: Retrieves the matrix used to transform the ID2D1TransformedGeometry object's source geometry.
 old-location: direct2d\ID2D1TransformedGeometry_GetTransform.htm

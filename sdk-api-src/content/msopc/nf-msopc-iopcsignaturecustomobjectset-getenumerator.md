@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureCustomObjectSet.GetEnumerator
-title: IOpcSignatureCustomObjectSet::GetEnumerator
+title: IOpcSignatureCustomObjectSet::GetEnumerator (msopc.h)
 author: windows-sdk-content
 description: Gets an enumerator of IOpcSignatureCustomObject interface pointers in the set.
 old-location: opc\iopcsignaturecustomobjectset_getenumerator.htm

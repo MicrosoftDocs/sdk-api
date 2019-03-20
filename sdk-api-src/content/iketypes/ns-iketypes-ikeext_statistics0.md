@@ -1,6 +1,6 @@
 ---
 UID: NS:iketypes.IKEEXT_STATISTICS0_
-title: IKEEXT_STATISTICS0
+title: IKEEXT_STATISTICS0 (iketypes.h)
 author: windows-sdk-content
 description: Stores various IKE/AuthIP statistics.
 old-location: fwp\ikeext_statistics0.htm

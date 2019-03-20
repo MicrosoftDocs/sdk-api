@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.SetMediaItem
-title: IMFPMediaPlayer::SetMediaItem
+title: IMFPMediaPlayer::SetMediaItem (mfplay.h)
 author: windows-sdk-content
 description: Queues a media item for playback.
 old-location: mf\imfpmediaplayer_setmediaitem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICBitmapInterpolationMode
-title: WICBitmapInterpolationMode
+title: WICBitmapInterpolationMode (wincodec.h)
 author: windows-sdk-content
 description: Specifies the sampling or filtering mode to use when scaling an image.
 old-location: wic\_wic_codec_wicbitmapinterpolationmode.htm

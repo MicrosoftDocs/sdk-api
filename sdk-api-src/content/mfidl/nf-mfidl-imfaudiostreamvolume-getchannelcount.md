@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFAudioStreamVolume.GetChannelCount
-title: IMFAudioStreamVolume::GetChannelCount
+title: IMFAudioStreamVolume::GetChannelCount (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the number of channels in the audio stream.
 old-location: mf\imfaudiostreamvolume_getchannelcount.htm

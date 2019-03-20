@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.GetOutline
-title: ITextFont::GetOutline
+title: ITextFont::GetOutline (tom.h)
 author: windows-sdk-content
 description: Gets whether characters are displayed as outlined characters.
 old-location: controls\ITextFont_GetOutline.htm

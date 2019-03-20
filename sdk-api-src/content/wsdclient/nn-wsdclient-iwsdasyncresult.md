@@ -1,6 +1,6 @@
 ---
 UID: NN:wsdclient.IWSDAsyncResult
-title: IWSDAsyncResult
+title: IWSDAsyncResult (wsdclient.h)
 author: windows-sdk-content
 description: Represents an asynchronous operation.
 old-location: ncd\iwsdasyncresult.htm

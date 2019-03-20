@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptDuplicateHash
-title: BCryptDuplicateHash function
+title: BCryptDuplicateHash function (bcrypt.h)
 author: windows-sdk-content
 description: Duplicates an existing hash or Message Authentication Code (MAC) object.
 old-location: security\bcryptduplicatehash_func.htm

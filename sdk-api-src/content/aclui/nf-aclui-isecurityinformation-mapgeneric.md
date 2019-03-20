@@ -1,6 +1,6 @@
 ---
 UID: NF:aclui.ISecurityInformation.MapGeneric
-title: ISecurityInformation::MapGeneric
+title: ISecurityInformation::MapGeneric (aclui.h)
 author: windows-sdk-content
 description: The MapGeneric method requests that the generic access rights in an access mask be mapped to their corresponding standard and specific access rights.
 old-location: security\isecurityinformation_mapgeneric.htm

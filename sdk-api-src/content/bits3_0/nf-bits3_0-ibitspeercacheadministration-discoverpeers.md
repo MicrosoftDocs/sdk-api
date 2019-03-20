@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.DiscoverPeers
-title: IBitsPeerCacheAdministration::DiscoverPeers
+title: IBitsPeerCacheAdministration::DiscoverPeers (bits3_0.h)
 author: windows-sdk-content
 description: Generates a list of peers that can serve content.
 old-location: bits\ibitspeercacheadministration_discoverpeers.htm

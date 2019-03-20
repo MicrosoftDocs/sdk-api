@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectScalarVariable
-title: ID3D10EffectScalarVariable
+title: ID3D10EffectScalarVariable (d3d10effect.h)
 author: windows-sdk-content
 description: An effect-scalar-variable interface accesses scalar values.
 old-location: direct3d10\id3d10effectscalarvariable.htm

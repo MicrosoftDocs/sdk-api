@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_SURFCB_UPDATEOVERLAY
-title: PDD_SURFCB_UPDATEOVERLAY
+title: PDD_SURFCB_UPDATEOVERLAY (ddrawint.h)
 author: windows-sdk-content
 description: The DdUpdateOverlay callback function repositions or modifies the visual attributes of an overlay surface.
 old-location: display\ddupdateoverlay.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolShadowConnection.Start
-title: IWRdsProtocolShadowConnection::Start
+title: IWRdsProtocolShadowConnection::Start (wtsprotocol.h)
 author: windows-sdk-content
 description: Notifies the protocol that shadowing has started.
 old-location: termserv\iwrdsprotocolshadowconnection_start.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMDeviceControl.GetCapabilities
-title: IWMDMDeviceControl::GetCapabilities
+title: IWMDMDeviceControl::GetCapabilities (mswmdm.h)
 author: windows-sdk-content
 description: The GetCapabilities method retrieves the device capabilities to determine what operations the device can perform. The capabilities describe the methods of the device control that are supported by the media device.
 old-location: wmdm\iwmdmdevicecontrol_getcapabilities.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl.UnregisterAudioSessionNotification
-title: IAudioSessionControl::UnregisterAudioSessionNotification
+title: IAudioSessionControl::UnregisterAudioSessionNotification (audiopolicy.h)
 author: windows-sdk-content
 description: The UnregisterAudioSessionNotification method deletes a previous registration by the client to receive notifications.
 old-location: coreaudio\iaudiosessioncontrol_unregisteraudiosessionnotification.htm

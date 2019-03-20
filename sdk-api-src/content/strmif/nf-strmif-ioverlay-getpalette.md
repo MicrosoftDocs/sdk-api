@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IOverlay.GetPalette
-title: IOverlay::GetPalette
+title: IOverlay::GetPalette (strmif.h)
 author: windows-sdk-content
 description: The GetPalette method retrieves the current system palette.
 old-location: dshow\ioverlay_getpalette.htm

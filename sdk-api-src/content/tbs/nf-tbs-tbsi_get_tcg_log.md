@@ -1,6 +1,6 @@
 ---
 UID: NF:tbs.Tbsi_Get_TCG_Log
-title: Tbsi_Get_TCG_Log function
+title: Tbsi_Get_TCG_Log function (tbs.h)
 author: windows-sdk-content
 description: Retrieves the most recent Windows Boot Configuration Log (WBCL), also referred to as a TCG log.
 old-location: tbs\tbsi_get_tcg_log.htm

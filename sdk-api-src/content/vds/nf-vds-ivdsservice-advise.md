@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsService.Advise
-title: IVdsService::Advise
+title: IVdsService::Advise (vds.h)
 author: windows-sdk-content
 description: Registers the caller's IVdsAdviseSink interface with VDS so that the caller receives notifications from the VDS service.
 old-location: base\ivdsservice_advise.htm

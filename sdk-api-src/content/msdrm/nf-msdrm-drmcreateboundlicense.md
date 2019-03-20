@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMCreateBoundLicense
-title: DRMCreateBoundLicense function
+title: DRMCreateBoundLicense function (msdrm.h)
 author: windows-sdk-content
 description: Allows an application to examine or exercise the rights on a locally stored license.
 old-location: rm\drmcreateboundlicense.htm

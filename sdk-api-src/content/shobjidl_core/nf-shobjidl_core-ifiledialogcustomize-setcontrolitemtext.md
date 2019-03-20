@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.SetControlItemText
-title: IFileDialogCustomize::SetControlItemText
+title: IFileDialogCustomize::SetControlItemText (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the text of a control item. For example, the text that accompanies a radio button or an item in a menu.
 old-location: shell\IFileDialogCustomize_SetControlItemText.htm

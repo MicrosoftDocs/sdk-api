@@ -1,6 +1,6 @@
 ---
 UID: NE:evntrace._ETW_PROCESS_HANDLE_INFO_TYPE
-title: ETW_PROCESS_HANDLE_INFO_TYPE
+title: ETW_PROCESS_HANDLE_INFO_TYPE (evntrace.h)
 author: windows-sdk-content
 description: Specifies what kind of operation will be done on a handle.
 old-location: etw\etw_process_handle_info_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkExtendedProperties.Add
-title: IInkExtendedProperties::Add
+title: IInkExtendedProperties::Add (msinkaut.h)
 author: windows-sdk-content
 description: Creates and adds an IInkExtendedProperty object to the IInkExtendedProperties collection.
 old-location: tablet\iinkextendedproperties_add.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemHiPerfProvider.GetObjects
-title: IWbemHiPerfProvider::GetObjects
+title: IWbemHiPerfProvider::GetObjects (wbemprov.h)
 author: windows-sdk-content
 description: Inserts the non-key properties of the objects in the supplied array.
 old-location: wmi\iwbemhiperfprovider_getobjects.htm

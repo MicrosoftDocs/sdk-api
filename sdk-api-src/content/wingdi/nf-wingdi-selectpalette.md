@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.SelectPalette
-title: SelectPalette function
+title: SelectPalette function (wingdi.h)
 author: windows-sdk-content
 description: The SelectPalette function selects the specified logical palette into a device context.
 old-location: gdi\selectpalette.htm

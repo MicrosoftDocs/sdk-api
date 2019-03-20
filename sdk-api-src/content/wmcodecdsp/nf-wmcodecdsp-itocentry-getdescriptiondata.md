@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.ITocEntry.GetDescriptionData
-title: ITocEntry::GetDescriptionData
+title: ITocEntry::GetDescriptionData (wmcodecdsp.h)
 author: windows-sdk-content
 description: The GetDescriptionData method gets a description data block that was previously associated with the entry by a call to SetDescriptionData.
 old-location: mf\itocentry_getdescriptiondata.htm

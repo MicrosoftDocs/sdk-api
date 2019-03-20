@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetNumMessagesAllowedByStorageFilter
-title: IDXGIInfoQueue::GetNumMessagesAllowedByStorageFilter
+title: IDXGIInfoQueue::GetNumMessagesAllowedByStorageFilter (dxgidebug.h)
 author: windows-sdk-content
 description: Gets the number of messages that a storage filter allowed to pass through.
 old-location: direct3ddxgi\idxgiinfoqueue_getnummessagesallowedbystoragefilter.htm

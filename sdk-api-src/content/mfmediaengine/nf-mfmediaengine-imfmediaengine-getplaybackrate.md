@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetPlaybackRate
-title: IMFMediaEngine::GetPlaybackRate
+title: IMFMediaEngine::GetPlaybackRate (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the current playback rate.
 old-location: mf\imfmediaengine_getplaybackrate.htm

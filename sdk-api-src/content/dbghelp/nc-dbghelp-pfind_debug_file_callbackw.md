@@ -1,6 +1,6 @@
 ---
 UID: NC:dbghelp.PFIND_DEBUG_FILE_CALLBACKW
-title: PFIND_DEBUG_FILE_CALLBACKW
+title: PFIND_DEBUG_FILE_CALLBACKW (dbghelp.h)
 author: windows-sdk-content
 description: An application-defined callback function used with the FindDebugInfoFileEx function. It verifies whether the symbol file located by FindDebugInfoFileEx is the correct symbol file.
 old-location: base\finddebuginfofileproc.htm

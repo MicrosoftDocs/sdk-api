@@ -1,6 +1,6 @@
 ---
 UID: NF:xapobase.CXAPOParametersBase.ParametersChanged
-title: CXAPOParametersBase::ParametersChanged
+title: CXAPOParametersBase::ParametersChanged (xapobase.h)
 author: windows-sdk-content
 description: Indicates if IXAPOParameters::SetParameters has been called since the last processing pass.
 old-location: xaudio2\cxapoparametersbase_parameterschanged.htm

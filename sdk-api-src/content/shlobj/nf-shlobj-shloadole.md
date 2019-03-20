@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.SHLoadOLE
-title: SHLoadOLE function
+title: SHLoadOLE function (shlobj.h)
 author: windows-sdk-content
 description: Deprecated. Provided for backward compatibility.
 old-location: shell\SHLoadOLE.htm

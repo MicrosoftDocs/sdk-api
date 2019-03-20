@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.MAKEWPARAM
-title: MAKEWPARAM macro
+title: MAKEWPARAM macro (winuser.h)
 author: windows-sdk-content
 description: Creates a value for use as a wParam parameter in a message. The macro concatenates the specified values.
 old-location: winmsg\makewparam.htm

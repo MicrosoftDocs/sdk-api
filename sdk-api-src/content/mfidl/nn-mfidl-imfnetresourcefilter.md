@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFNetResourceFilter
-title: IMFNetResourceFilter
+title: IMFNetResourceFilter (mfidl.h)
 author: windows-sdk-content
 description: Notifies the application when a byte stream requests a URL, and enables the application to block URL redirection.
 old-location: mf\imfnetresourcefilter.htm

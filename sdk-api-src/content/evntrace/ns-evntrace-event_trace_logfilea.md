@@ -1,6 +1,6 @@
 ---
 UID: NS:evntrace._EVENT_TRACE_LOGFILEA
-title: EVENT_TRACE_LOGFILEA
+title: EVENT_TRACE_LOGFILEA (evntrace.h)
 author: windows-sdk-content
 description: The EVENT_TRACE_LOGFILE structure specifies how the consumer wants to read events (from a log file or in real-time) and the callbacks that will receive the events.
 old-location: etw\event_trace_logfile.htm

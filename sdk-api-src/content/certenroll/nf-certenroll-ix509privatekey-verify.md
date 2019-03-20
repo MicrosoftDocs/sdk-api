@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.Verify
-title: IX509PrivateKey::Verify
+title: IX509PrivateKey::Verify (certenroll.h)
 author: windows-sdk-content
 description: Verifies that a private key exists and can be used by the client but does not open the key.
 old-location: security\ix509privatekey_verify.htm

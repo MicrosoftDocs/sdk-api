@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPViewerInputSink.SendMouseButtonEvent
-title: IRDPViewerInputSink::SendMouseButtonEvent
+title: IRDPViewerInputSink::SendMouseButtonEvent (rdpencomapi.h)
 author: windows-sdk-content
 description: Sends a mouse button event message.
 old-location: rdp\irdpviewerinputsink_sendmousebuttonevent.htm

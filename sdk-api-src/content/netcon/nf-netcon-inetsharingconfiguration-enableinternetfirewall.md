@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingConfiguration.EnableInternetFirewall
-title: INetSharingConfiguration::EnableInternetFirewall
+title: INetSharingConfiguration::EnableInternetFirewall (netcon.h)
 author: windows-sdk-content
 description: The EnableInternetFirewall methods enables Internet Connection Firewall on this connection.
 old-location: ics\inetsharingconfiguration_enableinternetfirewall.htm

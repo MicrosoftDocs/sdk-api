@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.ITuneRequestInfo.GetPreviousLocator
-title: ITuneRequestInfo::GetPreviousLocator
+title: ITuneRequestInfo::GetPreviousLocator (bdatif.h)
 author: windows-sdk-content
 description: The GetPreviousLocator method creates a new tune request with locator information for the previous transport stream.
 old-location: mstv\itunerequestinfo_getpreviouslocator.htm

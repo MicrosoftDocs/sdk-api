@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession2.SendControlLevelChangeResponse
-title: IRDPSRAPISharingSession2::SendControlLevelChangeResponse
+title: IRDPSRAPISharingSession2::SendControlLevelChangeResponse (rdpencomapi.h)
 author: windows-sdk-content
 description: Sends an OnControlLevelChangeResponse event.
 old-location: rdp\irdpsrapisharingsession2_sendcontrollevelchangeresponse.htm

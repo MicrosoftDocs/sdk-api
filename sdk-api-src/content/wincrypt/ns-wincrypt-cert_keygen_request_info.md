@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_KEYGEN_REQUEST_INFO
-title: CERT_KEYGEN_REQUEST_INFO
+title: CERT_KEYGEN_REQUEST_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains information stored in the Netscape key generation request. The subject and subject public key BLOBs are encoded.
 old-location: security\cert_keygen_request_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._EVENTLOGRECORD
-title: EVENTLOGRECORD
+title: EVENTLOGRECORD (winnt.h)
 author: windows-sdk-content
 description: Contains information about an event record returned by the ReadEventLog function.
 old-location: base\eventlogrecord_str.htm

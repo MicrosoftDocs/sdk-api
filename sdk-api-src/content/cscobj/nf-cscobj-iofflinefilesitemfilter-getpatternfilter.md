@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesItemFilter.GetPatternFilter
-title: IOfflineFilesItemFilter::GetPatternFilter
+title: IOfflineFilesItemFilter::GetPatternFilter (cscobj.h)
 author: windows-sdk-content
 description: Provides a filter pattern string to limit enumerated items based on item name patterns.
 old-location: of\iofflinefilesitemfilter_getpatternfilter.htm

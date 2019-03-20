@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.tagDESKBANDCID
-title: tagDESKBANDCID
+title: tagDESKBANDCID (shobjidl_core.h)
 author: windows-sdk-content
 description: These command IDs can be sent to the band object's container with IOleCommandTarget::Exec.
 old-location: shell\DBID_Command_Flags.htm

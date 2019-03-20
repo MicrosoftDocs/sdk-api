@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.HEADER
-title: HEADER macro
+title: HEADER macro (amvideo.h)
 author: windows-sdk-content
 description: The HEADER macro returns the address of the BITMAPINFOHEADER within a VIDEOINFOHEADER.
 old-location: dshow\header.htm

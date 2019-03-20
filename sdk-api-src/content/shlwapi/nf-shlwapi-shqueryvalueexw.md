@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHQueryValueExW
-title: SHQueryValueExW function
+title: SHQueryValueExW function (shlwapi.h)
 author: windows-sdk-content
 description: Opens a registry key and queries it for a specific value.
 old-location: shell\SHQueryValueEx.htm

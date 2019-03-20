@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderHostingAccessibles.GetEmbeddedAccessibles
-title: IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles
+title: IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves the IAccessible interface pointers of the windowless Microsoft ActiveX controls that are hosted by this provider.
 old-location: winauto\uiauto_IRawElementProviderHostingAccessibles_GetEmbeddedAccessibles.htm

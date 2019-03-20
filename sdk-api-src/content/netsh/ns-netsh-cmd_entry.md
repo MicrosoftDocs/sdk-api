@@ -1,6 +1,6 @@
 ---
 UID: NS:netsh._CMD_ENTRY
-title: CMD_ENTRY
+title: CMD_ENTRY (netsh.h)
 author: windows-sdk-content
 description: Defines a helper command.
 old-location: netshell\cmd_entry.htm

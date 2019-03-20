@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._CLUSTER_BATCH_COMMAND
-title: CLUSTER_BATCH_COMMAND
+title: CLUSTER_BATCH_COMMAND (clusapi.h)
 author: windows-sdk-content
 description: Represents the order in which current batch command data is sent to the ClusterRegBatchReadCommand function.
 old-location: mscs\cluster_batch_command.htm

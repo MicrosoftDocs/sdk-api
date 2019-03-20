@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.get_PrivacyMode
-title: ICameraControl::get_PrivacyMode
+title: ICameraControl::get_PrivacyMode (vidcap.h)
 author: windows-sdk-content
 description: "."
 old-location: dshow\icameracontrol_get_privacymode.htm

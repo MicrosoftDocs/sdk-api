@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayerCallback.OnMediaPlayerEvent
-title: IMFPMediaPlayerCallback::OnMediaPlayerEvent
+title: IMFPMediaPlayerCallback::OnMediaPlayerEvent (mfplay.h)
 author: windows-sdk-content
 description: Called by the MFPlay player object to notify the application of a playback event.
 old-location: mf\imfpmediaplayercallback_onmediaplayerevent.htm

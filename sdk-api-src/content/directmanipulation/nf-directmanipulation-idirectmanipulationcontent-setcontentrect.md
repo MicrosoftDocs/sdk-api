@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationContent.SetContentRect
-title: IDirectManipulationContent::SetContentRect
+title: IDirectManipulationContent::SetContentRect (directmanipulation.h)
 author: windows-sdk-content
 description: Specifies the bounding rectangle of the content, relative to its viewport.
 old-location: directmanipulation\idirectmanipulationcontent_setcontentrect.htm

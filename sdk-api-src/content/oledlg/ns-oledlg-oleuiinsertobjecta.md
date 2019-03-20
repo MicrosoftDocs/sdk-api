@@ -1,6 +1,6 @@
 ---
 UID: NS:oledlg.tagOLEUIINSERTOBJECTA
-title: OLEUIINSERTOBJECTA
+title: OLEUIINSERTOBJECTA (oledlg.h)
 author: windows-sdk-content
 description: Contains information that the OLE User Interface Library uses to initialize the Insert Object dialog box, and space for the library to return information when the dialog box is dismissed.
 old-location: com\oleuiinsertobject_struct.htm

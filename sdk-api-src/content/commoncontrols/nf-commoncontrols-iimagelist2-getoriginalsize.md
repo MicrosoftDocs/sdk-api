@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList2.GetOriginalSize
-title: IImageList2::GetOriginalSize
+title: IImageList2::GetOriginalSize (commoncontrols.h)
 author: windows-sdk-content
 description: Gets the original size of a specified image.
 old-location: controls\IImageList2_GetOriginalSize.htm

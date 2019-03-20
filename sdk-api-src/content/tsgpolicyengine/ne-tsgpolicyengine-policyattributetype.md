@@ -1,6 +1,6 @@
 ---
 UID: NE:tsgpolicyengine.__MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0005
-title: PolicyAttributeType
+title: PolicyAttributeType (tsgpolicyengine.h)
 author: windows-sdk-content
 description: Specifies the redirection settings associated with a connection.
 old-location: termserv\policyattributetype.htm

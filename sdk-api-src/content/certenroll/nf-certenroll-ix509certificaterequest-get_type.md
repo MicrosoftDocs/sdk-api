@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.get_Type
-title: IX509CertificateRequest::get_Type
+title: IX509CertificateRequest::get_Type (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a value that specifies the type of the request object.
 old-location: security\ix509certificaterequest_type_property.htm

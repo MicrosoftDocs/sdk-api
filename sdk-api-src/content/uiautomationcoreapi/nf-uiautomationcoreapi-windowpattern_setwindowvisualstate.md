@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.WindowPattern_SetWindowVisualState
-title: WindowPattern_SetWindowVisualState function
+title: WindowPattern_SetWindowVisualState function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Sets the visual state of a window; for example, to maximize a window.
 old-location: winauto\uiauto_WindowPattern_SetVisualStateConPat.htm

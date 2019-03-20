@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgi1_4.DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG
-title: DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG
+title: DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG (dxgi1_4.h)
 author: windows-sdk-content
 description: Specifies support for overlay color space.
 old-location: direct3ddxgi\dxgi_overlay_color_space_support_flag.htm

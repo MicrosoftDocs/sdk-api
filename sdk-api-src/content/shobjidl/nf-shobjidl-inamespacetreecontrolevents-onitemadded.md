@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnItemAdded
-title: INameSpaceTreeControlEvents::OnItemAdded
+title: INameSpaceTreeControlEvents::OnItemAdded (shobjidl.h)
 author: windows-sdk-content
 description: Called after an IShellItem has been added.
 old-location: shell\INameSpaceTreeControlEvents_OnItemAdded.htm

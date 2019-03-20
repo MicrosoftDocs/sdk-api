@@ -1,6 +1,6 @@
 ---
 UID: NE:credentialprovider._CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE
-title: CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE
+title: CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE (credentialprovider.h)
 author: windows-sdk-content
 description: Describes the state of a field and how it a user can interact with it. Fields can be displayed by a credential provider in a variety of different interactive states.
 old-location: shell\CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE.htm

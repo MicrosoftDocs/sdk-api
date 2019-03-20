@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetClassImageIndex
-title: SetupDiGetClassImageIndex function
+title: SetupDiGetClassImageIndex function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetClassImageIndex function retrieves the index within the class image list of a specified class.
 old-location: devinst\setupdigetclassimageindex.htm

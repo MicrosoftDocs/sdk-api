@@ -1,6 +1,6 @@
 ---
 UID: NN:syncmgr.ISyncMgrConflictFolder
-title: ISyncMgrConflictFolder
+title: ISyncMgrConflictFolder (syncmgr.h)
 author: windows-sdk-content
 description: Exposes a method that gets the conflict ID list for a conflict object.
 old-location: shell\ISyncMgrConflictFolder.htm

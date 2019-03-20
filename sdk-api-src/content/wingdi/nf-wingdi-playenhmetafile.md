@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.PlayEnhMetaFile
-title: PlayEnhMetaFile function
+title: PlayEnhMetaFile function (wingdi.h)
 author: windows-sdk-content
 description: The PlayEnhMetaFile function displays the picture stored in the specified enhanced-format metafile.
 old-location: gdi\playenhmetafile.htm

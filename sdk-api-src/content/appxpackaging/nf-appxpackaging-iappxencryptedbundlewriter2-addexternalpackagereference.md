@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptedBundleWriter2.AddExternalPackageReference
-title: IAppxEncryptedBundleWriter2::AddExternalPackageReference
+title: IAppxEncryptedBundleWriter2::AddExternalPackageReference (appxpackaging.h)
 author: windows-sdk-content
 description: Adds a reference within the encrypted package bundle to an external app package.
 old-location: appxpkg\iappxencryptedbundlewriter2_addexternalpackagereference.htm

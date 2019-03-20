@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi1_5.IDXGISwapChain4
-title: IDXGISwapChain4
+title: IDXGISwapChain4 (dxgi1_5.h)
 author: windows-sdk-content
 description: This interface exposes a single method for setting video metadata.
 old-location: direct3ddxgi\idxgiswapchain4.htm

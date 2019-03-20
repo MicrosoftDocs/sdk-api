@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.InterlockedXor8
-title: InterlockedXor8 function
+title: InterlockedXor8 function (winnt.h)
 author: windows-sdk-content
 description: Performs an atomic XOR operation on the specified char values.
 old-location: base\interlockedxor8.htm

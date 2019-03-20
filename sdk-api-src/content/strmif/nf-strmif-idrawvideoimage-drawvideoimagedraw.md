@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDrawVideoImage.DrawVideoImageDraw
-title: IDrawVideoImage::DrawVideoImageDraw
+title: IDrawVideoImage::DrawVideoImageDraw (strmif.h)
 author: windows-sdk-content
 description: Note  This interface has been deprecated. New applications should not use it. The DrawVideoImageDraw method draws the specified source rectangle to the specified destination rectangle in the specified GDI device context.
 old-location: dshow\idrawvideoimage_drawvideoimagedraw.htm

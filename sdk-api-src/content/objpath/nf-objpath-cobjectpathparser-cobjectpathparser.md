@@ -1,6 +1,6 @@
 ---
 UID: NF:objpath.CObjectPathParser.CObjectPathParser
-title: CObjectPathParser::CObjectPathParser
+title: CObjectPathParser::CObjectPathParser (objpath.h)
 author: windows-sdk-content
 description: Constructs and initializes an instance of a CObjectPathParser object that requires a full object path. Use of this object is not recommended. Instead, use the IWbemPath COM interface.
 old-location: wmi\cobjectpathparser_cobjectpathparser.htm

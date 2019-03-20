@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MFNetAuthenticationFlags
-title: MFNetAuthenticationFlags
+title: MFNetAuthenticationFlags (mfidl.h)
 author: windows-sdk-content
 description: Specifies how the user's credentials will be used.
 old-location: mf\mfnetauthenticationflags.htm

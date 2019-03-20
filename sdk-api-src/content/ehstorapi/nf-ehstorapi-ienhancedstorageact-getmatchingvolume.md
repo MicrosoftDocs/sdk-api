@@ -1,6 +1,6 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageACT.GetMatchingVolume
-title: IEnhancedStorageACT::GetMatchingVolume
+title: IEnhancedStorageACT::GetMatchingVolume (ehstorapi.h)
 author: windows-sdk-content
 description: Returns the volume associated with the Addressable Command Target (ACT).
 old-location: enstor\ienhancedstorageact_getmatchingvolume.htm

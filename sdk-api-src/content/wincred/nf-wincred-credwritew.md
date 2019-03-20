@@ -1,6 +1,6 @@
 ---
 UID: NF:wincred.CredWriteW
-title: CredWriteW function
+title: CredWriteW function (wincred.h)
 author: windows-sdk-content
 description: Creates a new credential or modifies an existing credential in the user's credential set.
 old-location: security\credwrite.htm

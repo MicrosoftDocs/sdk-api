@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabShutdown
-title: PeerCollabShutdown function
+title: PeerCollabShutdown function (p2p.h)
 author: windows-sdk-content
 description: Shuts down the Peer Collaboration infrastructure and releases any resources associated with it.
 old-location: p2p\peercollabshutdown.htm

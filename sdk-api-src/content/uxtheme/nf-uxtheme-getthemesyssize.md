@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemeSysSize
-title: GetThemeSysSize function
+title: GetThemeSysSize function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves the value of a system size metric from theme data.
 old-location: controls\GetThemeSysSize.htm

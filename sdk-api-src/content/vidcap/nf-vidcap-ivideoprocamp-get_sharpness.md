@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_Sharpness
-title: IVideoProcAmp::get_Sharpness
+title: IVideoProcAmp::get_Sharpness (vidcap.h)
 author: windows-sdk-content
 description: The get_Sharpness method returns the camera's sharpness setting.
 old-location: dshow\ivideoprocamp_get_sharpness.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEnumRegFilters.Skip
-title: IEnumRegFilters::Skip
+title: IEnumRegFilters::Skip (strmif.h)
 author: windows-sdk-content
 description: Note  The IEnumRegFilters interface is deprecated. This method is not currently implemented and returns E_NOTIMPL.
 old-location: dshow\ienumregfilters_skip.htm

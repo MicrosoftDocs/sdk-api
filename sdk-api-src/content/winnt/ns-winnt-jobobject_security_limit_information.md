@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._JOBOBJECT_SECURITY_LIMIT_INFORMATION
-title: JOBOBJECT_SECURITY_LIMIT_INFORMATION
+title: JOBOBJECT_SECURITY_LIMIT_INFORMATION (winnt.h)
 author: windows-sdk-content
 description: Contains the security limitations for a job object.
 old-location: base\jobobject_security_limit_information_str.htm

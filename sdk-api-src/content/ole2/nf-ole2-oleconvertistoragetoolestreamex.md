@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleConvertIStorageToOLESTREAMEx
-title: OleConvertIStorageToOLESTREAMEx function
+title: OleConvertIStorageToOLESTREAMEx function (ole2.h)
 author: windows-sdk-content
 description: The OleConvertIStorageToOLESTREAMEx function converts the specified storage object from OLE 2 structured storage to the OLE 1 storage object model, including the presentation data.
 old-location: stg\oleconvertistoragetoolestreamex.htm

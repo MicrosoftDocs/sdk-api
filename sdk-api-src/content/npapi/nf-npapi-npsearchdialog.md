@@ -1,6 +1,6 @@
 ---
 UID: NF:npapi.NPSearchDialog
-title: NPSearchDialog function
+title: NPSearchDialog function (npapi.h)
 author: windows-sdk-content
 description: Enables network vendors to supply their own form of browsing and search, beyond the hierarchical view presented in the Connection dialog box.
 old-location: security\npsearchdialog.htm

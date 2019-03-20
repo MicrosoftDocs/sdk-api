@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollPattern.get_CurrentHorizontallyScrollable
-title: IUIAutomationScrollPattern::get_CurrentHorizontallyScrollable
+title: IUIAutomationScrollPattern::get_CurrentHorizontallyScrollable (uiautomationclient.h)
 author: windows-sdk-content
 description: Indicates whether the element can scroll horizontally.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_CurrentHorizontallyScrollable.htm

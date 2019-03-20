@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantToInt32WithDefault
-title: PropVariantToInt32WithDefault function
+title: PropVariantToInt32WithDefault function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts an Int32 value from a PROPVARIANT structure. If no value currently exists, then the specified default value is returned.
 old-location: properties\PropVariantToInt32WithDefault.htm

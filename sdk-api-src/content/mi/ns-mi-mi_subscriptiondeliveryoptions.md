@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_SubscriptionDeliveryOptions
-title: MI_SubscriptionDeliveryOptions
+title: MI_SubscriptionDeliveryOptions (mi.h)
 author: windows-sdk-content
 description: The subscription options object stores configuration options used for passing into subscription operations.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions.htm

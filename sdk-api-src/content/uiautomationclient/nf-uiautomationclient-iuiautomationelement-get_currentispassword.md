@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentIsPassword
-title: IUIAutomationElement::get_CurrentIsPassword
+title: IUIAutomationElement::get_CurrentIsPassword (uiautomationclient.h)
 author: windows-sdk-content
 description: Indicates whether the element contains a disguised password.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentIsPassword.htm

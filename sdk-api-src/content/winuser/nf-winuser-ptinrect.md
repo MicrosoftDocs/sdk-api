@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.PtInRect
-title: PtInRect function
+title: PtInRect function (winuser.h)
 author: windows-sdk-content
 description: The PtInRect function determines whether the specified point lies within the specified rectangle.
 old-location: gdi\ptinrect.htm

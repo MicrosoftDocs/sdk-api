@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateErrorInfo.SetHelpFile
-title: ICreateErrorInfo::SetHelpFile
+title: ICreateErrorInfo::SetHelpFile (oaidl.h)
 author: windows-sdk-content
 description: Sets the path of the Help file that describes the error.
 old-location: automat\icreateerrorinfo_sethelpfile.htm

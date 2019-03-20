@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.CopySubresourceRegion
-title: ID3D11DeviceContext::CopySubresourceRegion
+title: ID3D11DeviceContext::CopySubresourceRegion (d3d11.h)
 author: windows-sdk-content
 description: Copy a region from a source resource to a destination resource.
 old-location: direct3d11\id3d11devicecontext_copysubresourceregion.htm

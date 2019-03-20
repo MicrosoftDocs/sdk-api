@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedIsControlElement
-title: IUIAutomationElement::get_CachedIsControlElement
+title: IUIAutomationElement::get_CachedIsControlElement (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached value that indicates whether the element is a control element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedIsControlElement.htm

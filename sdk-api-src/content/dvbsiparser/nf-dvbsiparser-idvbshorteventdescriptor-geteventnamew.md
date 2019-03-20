@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbShortEventDescriptor.GetEventNameW
-title: IDvbShortEventDescriptor::GetEventNameW
+title: IDvbShortEventDescriptor::GetEventNameW (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the event name in Unicode string format from a Digital Video Broadcast (DVB) short event descriptor.
 old-location: mstv\idvbshorteventdescriptor_geteventnamew.htm

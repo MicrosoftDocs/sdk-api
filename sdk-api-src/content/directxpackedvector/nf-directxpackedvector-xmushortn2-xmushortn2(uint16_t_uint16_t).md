@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMUSHORTN2.XMUSHORTN2(uint16_t,uint16_t)
-title: XMUSHORTN2::XMUSHORTN2(uint16_t,uint16_t)
+title: XMUSHORTN2::XMUSHORTN2(uint16_t,uint16_t) (directxpackedvector.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMUSHORTN2 from two uint16_t arguments.
 old-location: dxmath\xmushortn2_ctor_2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContext.GetOutputDPI
-title: IMILBitmapEffectRenderContext::GetOutputDPI
+title: IMILBitmapEffectRenderContext::GetOutputDPI (mileffects.h)
 author: windows-sdk-content
 description: Gets the output dots per inch (dpi).
 old-location: wibe\_wibe_imilbitmapeffectrendercontext_getoutputdpi.htm

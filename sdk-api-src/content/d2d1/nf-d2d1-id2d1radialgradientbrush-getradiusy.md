@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RadialGradientBrush.GetRadiusY
-title: ID2D1RadialGradientBrush::GetRadiusY
+title: ID2D1RadialGradientBrush::GetRadiusY (d2d1.h)
 author: windows-sdk-content
 description: Retrieves the y-radius of the gradient ellipse.
 old-location: direct2d\ID2D1RadialGradientBrush_GetRadiusY.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:evr.IMFTopologyServiceLookup
-title: IMFTopologyServiceLookup
+title: IMFTopologyServiceLookup (evr.h)
 author: windows-sdk-content
 description: Enables a custom video mixer or video presenter to get interface pointers from the Enhanced Video Renderer (EVR).
 old-location: mf\imftopologyservicelookup.htm

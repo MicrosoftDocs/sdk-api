@@ -1,6 +1,6 @@
 ---
 UID: NC:vfw.CAPCONTROLCALLBACK
-title: CAPCONTROLCALLBACK
+title: CAPCONTROLCALLBACK (vfw.h)
 author: windows-sdk-content
 description: The capControlCallback function is the callback function used for precision control to begin and end streaming capture. The name capControlCallback is a placeholder for the application-supplied function name.
 old-location: multimedia\capcontrolcallback.htm

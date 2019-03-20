@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.ReserveAndAppendLog
-title: ReserveAndAppendLog function
+title: ReserveAndAppendLog function (clfsw32.h)
 author: windows-sdk-content
 description: Reserves space for log buffers, or appends a log record to the log, or does both. The function is atomic.
 old-location: fs\reserveandappendlog.htm

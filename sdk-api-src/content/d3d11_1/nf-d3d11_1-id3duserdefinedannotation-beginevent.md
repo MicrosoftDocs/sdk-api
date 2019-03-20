@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_1.ID3DUserDefinedAnnotation.BeginEvent
-title: ID3DUserDefinedAnnotation::BeginEvent
+title: ID3DUserDefinedAnnotation::BeginEvent (d3d11_1.h)
 author: windows-sdk-content
 description: Marks the beginning of a section of event code.
 old-location: direct3d11\id3duserdefinedannotation_beginevent.htm

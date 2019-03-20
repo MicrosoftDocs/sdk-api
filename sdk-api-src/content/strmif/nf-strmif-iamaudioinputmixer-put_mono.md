@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.put_Mono
-title: IAMAudioInputMixer::put_Mono
+title: IAMAudioInputMixer::put_Mono (strmif.h)
 author: windows-sdk-content
 description: The put_Mono method combines all channels into a mono signal.
 old-location: dshow\iamaudioinputmixer_put_mono.htm

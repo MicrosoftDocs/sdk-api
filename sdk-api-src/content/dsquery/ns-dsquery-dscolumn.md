@@ -1,6 +1,6 @@
 ---
 UID: NS:dsquery.__unnamed_struct_1
-title: DSCOLUMN
+title: DSCOLUMN (dsquery.h)
 author: windows-sdk-content
 description: The DSCOLUMN structure represents a column in the directory services query dialog box. An array of this structure is contained in the DSQUERYPARAMS structure.
 old-location: ad\dscolumn.htm

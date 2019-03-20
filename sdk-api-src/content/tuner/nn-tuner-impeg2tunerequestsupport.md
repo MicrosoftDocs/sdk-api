@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IMPEG2TuneRequestSupport
-title: IMPEG2TuneRequestSupport
+title: IMPEG2TuneRequestSupport (tuner.h)
 author: windows-sdk-content
 description: Indicates that the default network provider for a tuning space allows tuning through the IMPEG2TuneRequest interface as well as tuning through the native tuning request type implemented by that tuning space's CreateTuneRequest method.
 old-location: mstv\impeg2tunerequestsupport.htm

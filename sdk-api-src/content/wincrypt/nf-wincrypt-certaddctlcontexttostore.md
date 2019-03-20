@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertAddCTLContextToStore
-title: CertAddCTLContextToStore function
+title: CertAddCTLContextToStore function (wincrypt.h)
 author: windows-sdk-content
 description: Adds a certificate trust list (CTL) context to a certificate store.
 old-location: security\certaddctlcontexttostore.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_60
-title: WS_PROTECTION_LEVEL
+title: WS_PROTECTION_LEVEL (webservices.h)
 author: windows-sdk-content
 description: Defines the required integrity and confidentiality levels for sent and received messages.
 old-location: wsw\ws_protection_level.htm

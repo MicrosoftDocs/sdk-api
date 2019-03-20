@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMGetIssuanceLicenseTemplate
-title: DRMGetIssuanceLicenseTemplate function
+title: DRMGetIssuanceLicenseTemplate function (msdrm.h)
 author: windows-sdk-content
 description: Obtains an issuance license template from an existing issuance license.
 old-location: rm\drmgetissuancelicensetemplate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmStorageModuleImplementation.LoadProperties
-title: IFsrmStorageModuleImplementation::LoadProperties
+title: IFsrmStorageModuleImplementation::LoadProperties (fsrmpipeline.h)
 author: windows-sdk-content
 description: Instructs the storage module to load all properties.
 old-location: fsrm\ifsrmstoragemoduleimplementation_loadproperties.htm

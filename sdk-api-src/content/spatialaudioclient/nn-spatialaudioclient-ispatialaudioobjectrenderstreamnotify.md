@@ -1,6 +1,6 @@
 ---
 UID: NN:spatialaudioclient.ISpatialAudioObjectRenderStreamNotify
-title: ISpatialAudioObjectRenderStreamNotify
+title: ISpatialAudioObjectRenderStreamNotify (spatialaudioclient.h)
 author: windows-sdk-content
 description: Provides notifications for spatial audio clients to respond to changes in the state of an ISpatialAudioObjectRenderStream.
 old-location: coreaudio\ispatialaudioobjectrenderstreamnotify.htm

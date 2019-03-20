@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRouting.GetGroups
-title: IFaxOutboundRouting::GetGroups
+title: IFaxOutboundRouting::GetGroups (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutboundRouting::GetGroups method retrieves an interface that represents a collection of outbound routing groups.
 old-location: fax\_mfax_faxoutboundrouting_getgroups_cpp.htm

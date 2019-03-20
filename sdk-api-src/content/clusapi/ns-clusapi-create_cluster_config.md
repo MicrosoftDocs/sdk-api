@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._CREATE_CLUSTER_CONFIG
-title: CREATE_CLUSTER_CONFIG
+title: CREATE_CLUSTER_CONFIG (clusapi.h)
 author: windows-sdk-content
 description: Defines the initial cluster configuration.
 old-location: mscs\create_cluster_config.htm

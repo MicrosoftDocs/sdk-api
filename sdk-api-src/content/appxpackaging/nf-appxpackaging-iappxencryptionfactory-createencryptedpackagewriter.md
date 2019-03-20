@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory.CreateEncryptedPackageWriter
-title: IAppxEncryptionFactory::CreateEncryptedPackageWriter
+title: IAppxEncryptionFactory::CreateEncryptedPackageWriter (appxpackaging.h)
 author: windows-sdk-content
 description: Creates a new instance of an IAppxEncryptedPackageWriter.
 old-location: appxpkg\iappxencryptionfactory_createencryptedpackagewriter.htm

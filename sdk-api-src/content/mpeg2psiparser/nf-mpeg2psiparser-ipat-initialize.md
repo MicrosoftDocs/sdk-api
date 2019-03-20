@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPAT.Initialize
-title: IPAT::Initialize
+title: IPAT::Initialize (mpeg2psiparser.h)
 author: windows-sdk-content
 description: The Initialize method initializes the object using captured table section data. This method is called internally by the IAtscPsipParser::GetPAT method, so applications typically should not call it.
 old-location: mstv\ipat_initialize.htm

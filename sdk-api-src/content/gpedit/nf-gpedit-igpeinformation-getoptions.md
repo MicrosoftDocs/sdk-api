@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGPEInformation.GetOptions
-title: IGPEInformation::GetOptions
+title: IGPEInformation::GetOptions (gpedit.h)
 author: windows-sdk-content
 description: The GetOptions method retrieves the options the user has selected for the Group Policy Object Editor.
 old-location: policy\igpeinformation_getoptions.htm

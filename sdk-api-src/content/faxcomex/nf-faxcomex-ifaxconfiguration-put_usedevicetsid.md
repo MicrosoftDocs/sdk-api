@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_UseDeviceTSID
-title: IFaxConfiguration::put_UseDeviceTSID
+title: IFaxConfiguration::put_UseDeviceTSID (faxcomex.h)
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates whether the transmitting station identifier (TSID) is used.
 old-location: fax\_mfax_IFaxConfiguration_UseDeviceTSID.htm

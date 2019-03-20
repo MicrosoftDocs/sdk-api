@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptMsgVerifyCountersignatureEncoded
-title: CryptMsgVerifyCountersignatureEncoded function
+title: CryptMsgVerifyCountersignatureEncoded function (wincrypt.h)
 author: windows-sdk-content
 description: Verifies a countersignature in terms of the SignerInfo structure (as defined by PKCS #7).
 old-location: security\cryptmsgverifycountersignatureencoded.htm

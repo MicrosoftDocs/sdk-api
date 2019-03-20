@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.ImportSnapshots
-title: IVssBackupComponents::ImportSnapshots
+title: IVssBackupComponents::ImportSnapshots (vsbackup.h)
 author: windows-sdk-content
 description: Imports shadow copies transported from a different machine.
 old-location: base\ivssbackupcomponents_importsnapshots.htm

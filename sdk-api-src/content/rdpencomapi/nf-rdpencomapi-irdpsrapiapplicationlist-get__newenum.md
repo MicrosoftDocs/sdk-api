@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIApplicationList.get__NewEnum
-title: IRDPSRAPIApplicationList::get__NewEnum
+title: IRDPSRAPIApplicationList::get__NewEnum (rdpencomapi.h)
 author: windows-sdk-content
 description: An enumerator interface for the application collection.
 old-location: rdp\irdpsrapiapplicationlist__newenum.htm

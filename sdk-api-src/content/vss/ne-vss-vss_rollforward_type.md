@@ -1,6 +1,6 @@
 ---
 UID: NE:vss._VSS_ROLLFORWARD_TYPE
-title: VSS_ROLLFORWARD_TYPE
+title: VSS_ROLLFORWARD_TYPE (vss.h)
 author: windows-sdk-content
 description: The VSS_ROLLFORWARD_TYPE enumeration is used by a requester to indicate the type of roll-forward operation it is about to perform.
 old-location: base\vss_rollforward_type.htm

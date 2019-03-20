@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmConfigurableItem.get_HelpKeyword
-title: IMsmConfigurableItem::get_HelpKeyword
+title: IMsmConfigurableItem::get_HelpKeyword (mergemod.h)
 author: windows-sdk-content
 description: The get_HelpKeyword method retrieves the HelpKeyword property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_helpkeyword.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wlanapi._WLAN_AUTOCONF_OPCODE
-title: WLAN_AUTOCONF_OPCODE
+title: WLAN_AUTOCONF_OPCODE (wlanapi.h)
 author: windows-sdk-content
 description: Specifies an automatic configuration parameter.
 old-location: nwifi\wlan_autoconf_opcode.htm

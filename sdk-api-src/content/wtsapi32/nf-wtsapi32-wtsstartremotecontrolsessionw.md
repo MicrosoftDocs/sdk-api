@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSStartRemoteControlSessionW
-title: WTSStartRemoteControlSessionW function
+title: WTSStartRemoteControlSessionW function (wtsapi32.h)
 author: windows-sdk-content
 description: Starts the remote control of another Remote Desktop Services session. You must call this function from a remote session.
 old-location: termserv\wtsstartremotecontrolsession.htm

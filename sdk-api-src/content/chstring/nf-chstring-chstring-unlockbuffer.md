@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.UnlockBuffer
-title: CHString::UnlockBuffer
+title: CHString::UnlockBuffer (chstring.h)
 author: windows-sdk-content
 description: The UnlockBuffer method unlocks the buffer that was previously secured by calling LockBuffer and resets the reference count to 1.
 old-location: wmi\chstring_unlockbuffer.htm

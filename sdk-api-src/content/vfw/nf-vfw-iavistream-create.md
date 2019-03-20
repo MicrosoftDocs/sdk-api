@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.IAVIStream.Create
-title: IAVIStream::Create
+title: IAVIStream::Create (vfw.h)
 author: windows-sdk-content
 description: The Create method initializes a stream handler that is not associated with any file. Called when an application uses the AVIStreamCreate function.
 old-location: multimedia\iavistream_create.htm

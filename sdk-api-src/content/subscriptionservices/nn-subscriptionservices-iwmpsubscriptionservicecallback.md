@@ -1,6 +1,6 @@
 ---
 UID: NN:subscriptionservices.IWMPSubscriptionServiceCallback
-title: IWMPSubscriptionServiceCallback
+title: IWMPSubscriptionServiceCallback (subscriptionservices.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpsubscriptionservicecallback.htm

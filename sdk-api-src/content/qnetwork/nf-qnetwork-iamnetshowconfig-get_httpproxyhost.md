@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_HTTPProxyHost
-title: IAMNetShowConfig::get_HTTPProxyHost
+title: IAMNetShowConfig::get_HTTPProxyHost (qnetwork.h)
 author: windows-sdk-content
 description: The get_HTTPProxyHost method retrieves the HTTP address of the proxy host.
 old-location: dshow\iamnetshowconfig_get_httpproxyhost.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFont3.CreateFontFace
-title: IDWriteFont3::CreateFontFace
+title: IDWriteFont3::CreateFontFace (dwrite_3.h)
 author: windows-sdk-content
 description: Creates a font face object for the font.
 old-location: directwrite\idwritefont3_createfontface.htm

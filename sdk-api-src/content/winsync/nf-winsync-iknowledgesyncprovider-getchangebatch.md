@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IKnowledgeSyncProvider.GetChangeBatch
-title: IKnowledgeSyncProvider::GetChangeBatch
+title: IKnowledgeSyncProvider::GetChangeBatch (winsync.h)
 author: windows-sdk-content
 description: Gets a change batch that contains item metadata for items that are not contained in the specified knowledge from the destination provider.
 old-location: winsync\iknowledgesyncprovider_getchangebatch.htm

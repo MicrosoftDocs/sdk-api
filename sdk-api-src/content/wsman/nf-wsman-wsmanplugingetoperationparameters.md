@@ -1,6 +1,6 @@
 ---
 UID: NF:wsman.WSManPluginGetOperationParameters
-title: WSManPluginGetOperationParameters function
+title: WSManPluginGetOperationParameters function (wsman.h)
 author: windows-sdk-content
 description: Gets operational information for items such as time-outs and data restrictions that are associated with the operation.
 old-location: winrm\wsmanplugingetoperationparameters.htm

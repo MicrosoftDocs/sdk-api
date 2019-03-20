@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMShareable.GetOwner
-title: IXpsOMShareable::GetOwner
+title: IXpsOMShareable::GetOwner (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the IUnknown interface of the parent.
 old-location: xps\ixpsomshareable_getowner.htm

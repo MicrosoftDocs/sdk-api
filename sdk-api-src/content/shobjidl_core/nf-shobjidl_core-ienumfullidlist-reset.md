@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IEnumFullIDList.Reset
-title: IEnumFullIDList::Reset
+title: IEnumFullIDList::Reset (shobjidl_core.h)
 author: windows-sdk-content
 description: Returns the enumerator to the beginning of the enumeration sequence.
 old-location: shell\IEnumFullIDList_Reset.htm

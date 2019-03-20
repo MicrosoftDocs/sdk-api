@@ -1,6 +1,6 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.SetCurrentPage
-title: IAMWstDecoder::SetCurrentPage
+title: IAMWstDecoder::SetCurrentPage (iwstdec.h)
 author: windows-sdk-content
 description: Downstream filters use the SetCurrentPage method to assign the current page.
 old-location: dshow\iamwstdecoder_setcurrentpage.htm

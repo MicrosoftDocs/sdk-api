@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10sdklayers.ID3D10InfoQueue
-title: ID3D10InfoQueue
+title: ID3D10InfoQueue (d3d10sdklayers.h)
 author: windows-sdk-content
 description: An information-queue interface stores, retrieves, and filters debug messages. The queue consists of a message queue, an optional storage filter stack, and a optional retrieval filter stack.
 old-location: direct3d10\id3d10infoqueue.htm

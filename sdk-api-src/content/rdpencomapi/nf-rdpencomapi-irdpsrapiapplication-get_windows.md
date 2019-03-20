@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIApplication.get_Windows
-title: IRDPSRAPIApplication::get_Windows
+title: IRDPSRAPIApplication::get_Windows (rdpencomapi.h)
 author: windows-sdk-content
 description: The list of windows.
 old-location: rdp\irdpsrapiapplication_windows.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbExtendedEventDescriptor.GetLastDescriptorNumber
-title: IDvbExtendedEventDescriptor::GetLastDescriptorNumber
+title: IDvbExtendedEventDescriptor::GetLastDescriptorNumber (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the number of the last descriptor associated with this descriptor from a Digital Video Broadcast (DVB) extended event descriptor.
 old-location: mstv\idvbextendedeventdescriptor_getlastdescriptornumber.htm

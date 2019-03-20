@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.put_ClassificationReportFormats
-title: IFsrmClassificationManager::put_ClassificationReportFormats
+title: IFsrmClassificationManager::put_ClassificationReportFormats (fsrmpipeline.h)
 author: windows-sdk-content
 description: The list of formats in which to generate the classification reports.
 old-location: fsrm\ifsrmclassificationmanager_classificationreportformats.htm

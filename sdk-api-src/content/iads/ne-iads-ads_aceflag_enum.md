@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0048_0003
-title: ADS_ACEFLAG_ENUM
+title: ADS_ACEFLAG_ENUM (iads.h)
 author: windows-sdk-content
 description: The ADS_ACEFLAG_ENUM enumeration is used to specify the behavior of an Access Control Entry (ACE) for an Active Directory object.
 old-location: adsi\ads_aceflag_enum.htm

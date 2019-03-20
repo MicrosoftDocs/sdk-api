@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl.MenuCall
-title: IDvdControl::MenuCall
+title: IDvdControl::MenuCall (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Displays the specified menu on the screen.
 old-location: dshow\idvdcontrol_menucall.htm

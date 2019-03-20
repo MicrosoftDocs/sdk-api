@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif._AM_FILTER_MISC_FLAGS
-title: "_AM_FILTER_MISC_FLAGS"
+title: "_AM_FILTER_MISC_FLAGS" (strmif.h)
 author: windows-sdk-content
 description: The _AM_FILTER_MISC_FLAGS enumeration contains flags that indicate whether a filter is a source filter or a renderer filter.
 old-location: dshow\_am_filter_misc_flags.htm

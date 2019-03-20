@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfSystemLangBarItemSink.InitMenu
-title: ITfSystemLangBarItemSink::InitMenu
+title: ITfSystemLangBarItemSink::InitMenu (ctfutb.h)
 author: windows-sdk-content
 description: ITfSystemLangBarItemSink::InitMenu method
 old-location: tsf\itfsystemlangbaritemsink_initmenu.htm

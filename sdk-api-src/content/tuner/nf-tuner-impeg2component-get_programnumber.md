@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IMPEG2Component.get_ProgramNumber
-title: IMPEG2Component::get_ProgramNumber
+title: IMPEG2Component::get_ProgramNumber (tuner.h)
 author: windows-sdk-content
 description: The get_ProgramNumber method returns the program number for this substream.
 old-location: mstv\impeg2component_get_programnumber.htm

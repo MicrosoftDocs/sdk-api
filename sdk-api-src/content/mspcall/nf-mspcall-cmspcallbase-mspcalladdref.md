@@ -1,6 +1,6 @@
 ---
 UID: NF:mspcall.CMSPCallBase.MSPCallAddRef
-title: CMSPCallBase::MSPCallAddRef
+title: CMSPCallBase::MSPCallAddRef (mspcall.h)
 author: windows-sdk-content
 description: The MSPCallAddRef method is the private AddRef method for the call object.
 old-location: tapi3\cmspcallbase_mspcalladdref.htm

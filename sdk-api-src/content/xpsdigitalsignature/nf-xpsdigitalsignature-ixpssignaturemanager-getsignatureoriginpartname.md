@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.GetSignatureOriginPartName
-title: IXpsSignatureManager::GetSignatureOriginPartName
+title: IXpsSignatureManager::GetSignatureOriginPartName (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Gets the part name of the signature origin part.
 old-location: xps\ixpssignaturemanager_getsignatureoriginpartname.htm

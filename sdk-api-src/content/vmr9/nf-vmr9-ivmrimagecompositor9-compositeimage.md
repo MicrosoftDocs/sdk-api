@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRImageCompositor9.CompositeImage
-title: IVMRImageCompositor9::CompositeImage
+title: IVMRImageCompositor9::CompositeImage (vmr9.h)
 author: windows-sdk-content
 description: The CompositeImage method composites the current frames available in each input stream.
 old-location: dshow\ivmrimagecompositor9_compositeimage.htm

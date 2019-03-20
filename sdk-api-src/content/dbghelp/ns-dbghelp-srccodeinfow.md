@@ -1,6 +1,6 @@
 ---
 UID: NS:dbghelp._SRCCODEINFOW
-title: SRCCODEINFOW
+title: SRCCODEINFOW (dbghelp.h)
 author: windows-sdk-content
 description: Contains line information.
 old-location: base\srccodeinfo_str.htm

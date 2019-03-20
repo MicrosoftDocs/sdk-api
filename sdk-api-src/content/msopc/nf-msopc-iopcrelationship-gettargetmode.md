@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcRelationship.GetTargetMode
-title: IOpcRelationship::GetTargetMode
+title: IOpcRelationship::GetTargetMode (msopc.h)
 author: windows-sdk-content
 description: Gets a value that describes whether the relationship's target is internal or external to the package.
 old-location: opc\iopcrelationship_gettargetmode.htm

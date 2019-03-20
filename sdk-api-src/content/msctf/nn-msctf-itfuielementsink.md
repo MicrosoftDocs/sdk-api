@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfUIElementSink
-title: ITfUIElementSink
+title: ITfUIElementSink (msctf.h)
 author: windows-sdk-content
 description: The ITfUIElementSink interface is implemented by an application to receive notifications when the UI element is changed.
 old-location: tsf\itfuielementsink.htm

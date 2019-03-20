@@ -1,6 +1,6 @@
 ---
 UID: NE:projectedfslib.PRJ_STARTVIRTUALIZING_FLAGS
-title: PRJ_STARTVIRTUALIZING_FLAGS
+title: PRJ_STARTVIRTUALIZING_FLAGS (projectedfslib.h)
 author: windows-sdk-content
 description: Flags to provide when starting a virtualization instance.
 old-location: projfs\prj_startvirtualizing_flags.htm

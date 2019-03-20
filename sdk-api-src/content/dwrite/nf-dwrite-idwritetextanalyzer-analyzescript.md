@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalyzer.AnalyzeScript
-title: IDWriteTextAnalyzer::AnalyzeScript
+title: IDWriteTextAnalyzer::AnalyzeScript (dwrite.h)
 author: windows-sdk-content
 description: Analyzes a text range for script boundaries, reading text attributes from the source and reporting the Unicode script ID to the sink callback SetScript.
 old-location: directwrite\IDWriteTextAnalyzer_AnalyzeScript.htm

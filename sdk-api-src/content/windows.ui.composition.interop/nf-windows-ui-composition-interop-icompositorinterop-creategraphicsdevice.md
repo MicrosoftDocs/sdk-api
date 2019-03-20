@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.composition.interop.ICompositorInterop.CreateGraphicsDevice
-title: ICompositorInterop::composition
+title: ICompositorInterop::composition (windows.ui.composition.interop.h)
 author: windows-sdk-content
 description: Creates a CompositionGraphicsDevice backed by the specified rendering device.
 old-location: w_ui_comp\icompositorinterop_creategraphicsdevice.htm

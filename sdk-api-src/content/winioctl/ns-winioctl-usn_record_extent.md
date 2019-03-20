@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl.__unnamed_struct_25
-title: USN_RECORD_EXTENT
+title: USN_RECORD_EXTENT (winioctl.h)
 author: windows-sdk-content
 description: Contains the offset and length for an update sequence number (USN) record extent.
 old-location: fs\usn_record_extent.htm

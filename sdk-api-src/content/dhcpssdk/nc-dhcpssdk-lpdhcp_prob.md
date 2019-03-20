@@ -1,6 +1,6 @@
 ---
 UID: NC:dhcpssdk.LPDHCP_PROB
-title: LPDHCP_PROB
+title: LPDHCP_PROB (dhcpssdk.h)
 author: windows-sdk-content
 description: The DhcpAddressDelHook function is called by Microsoft DHCP Server when one of the following four defined events occurs.
 old-location: dhcp\dhcpaddressdelhook.htm

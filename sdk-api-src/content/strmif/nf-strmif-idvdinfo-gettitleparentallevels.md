@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo.GetTitleParentalLevels
-title: IDvdInfo::GetTitleParentalLevels
+title: IDvdInfo::GetTitleParentalLevels (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the parental levels that are defined for a particular title.
 old-location: dshow\idvdinfo_gettitleparentallevels.htm

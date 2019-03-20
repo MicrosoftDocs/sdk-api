@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.Unregister
-title: ITfInputProcessorProfiles::Unregister
+title: ITfInputProcessorProfiles::Unregister (msctf.h)
 author: windows-sdk-content
 description: ITfInputProcessorProfiles::Unregister method
 old-location: tsf\itfinputprocessorprofiles_unregister.htm

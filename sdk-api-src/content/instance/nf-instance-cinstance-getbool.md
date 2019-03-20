@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.Getbool
-title: CInstance::Getbool
+title: CInstance::Getbool (instance.h)
 author: windows-sdk-content
 description: The Getbool method retrieves a Boolean property.
 old-location: wmi\cinstance_getbool.htm

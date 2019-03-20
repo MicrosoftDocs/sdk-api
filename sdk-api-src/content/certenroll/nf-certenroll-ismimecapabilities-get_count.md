@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISmimeCapabilities.get_Count
-title: ISmimeCapabilities::get_Count
+title: ISmimeCapabilities::get_Count (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the number of objects in the collection.
 old-location: security\ismimecapabilities_count_property.htm

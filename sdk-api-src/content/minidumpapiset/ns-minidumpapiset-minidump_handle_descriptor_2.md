@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_HANDLE_DESCRIPTOR_2
-title: MINIDUMP_HANDLE_DESCRIPTOR_2
+title: MINIDUMP_HANDLE_DESCRIPTOR_2 (minidumpapiset.h)
 author: windows-sdk-content
 description: Describes the state of an individual system handle at the time the minidump was written.
 old-location: base\minidump_handle_descriptor_2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.AddNotification
-title: IFsrmFileManagementJob::AddNotification
+title: IFsrmFileManagementJob::AddNotification (fsrmreports.h)
 author: windows-sdk-content
 description: Adds a new notification value (period) to the file management job's list of notifications.
 old-location: fsrm\ifsrmfilemanagementjob_addnotification.htm

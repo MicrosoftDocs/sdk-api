@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.isAvailable
-title: IWMPCdromBurn::isAvailable
+title: IWMPCdromBurn::isAvailable (wmp.h)
 author: windows-sdk-content
 description: The isAvailable method provides information about the CD drive and media.
 old-location: wmp\iwmpcdromburn_isavailable.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.Effect.UseAuxData
-title: Effect::UseAuxData
+title: Effect::UseAuxData (gdipluseffects.h)
 author: windows-sdk-content
 description: The Effect::UseAuxData method sets or clears a flag that specifies whether the Bitmap::ApplyEffect method should return a pointer to the auxiliary data that it creates.
 old-location: gdiplus\_gdiplus_CLASS_Effect_UseAuxData_.htm

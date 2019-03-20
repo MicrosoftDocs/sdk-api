@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePhotoSink.SetOutputByteStream
-title: IMFCapturePhotoSink::SetOutputByteStream
+title: IMFCapturePhotoSink::SetOutputByteStream (mfcaptureengine.h)
 author: windows-sdk-content
 description: Specifies a byte stream that will receive the still image data.
 old-location: mf\imfcapturephotosink_setoutputbytestream.htm

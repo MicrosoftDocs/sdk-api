@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetMaxLength
-title: IUserInputString::GetMaxLength
+title: IUserInputString::GetMaxLength (photoacquire.h)
 author: windows-sdk-content
 description: The GetMaxLength method retrieves the maximum string length the user interface (UI) should allow.
 old-location: picacq\iuserinputstring_getmaxlength.htm

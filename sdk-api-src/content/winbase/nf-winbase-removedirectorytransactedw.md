@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.RemoveDirectoryTransactedW
-title: RemoveDirectoryTransactedW function
+title: RemoveDirectoryTransactedW function (winbase.h)
 author: windows-sdk-content
 description: Deletes an existing empty directory as a transacted operation.
 old-location: fs\removedirectorytransacted.htm

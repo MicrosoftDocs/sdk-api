@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFProtectedEnvironmentAccess.Call
-title: IMFProtectedEnvironmentAccess::Call
+title: IMFProtectedEnvironmentAccess::Call (mfidl.h)
 author: windows-sdk-content
 description: Allows content protection systems to access the protected environment.
 old-location: mf\imfprotectedenvironmentaccess_call.htm

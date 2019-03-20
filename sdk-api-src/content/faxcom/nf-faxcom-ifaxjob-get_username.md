@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxJob.get_UserName
-title: IFaxJob::get_UserName
+title: IFaxJob::get_UserName (faxcom.h)
 author: windows-sdk-content
 description: The IFaxJob::get_UserName property is a null-terminated string that contains the name of the user who submitted the fax job to the job queue. The IFaxJob::get_UserName property applies only to outgoing fax transmissions.
 old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_username_cpp.htm

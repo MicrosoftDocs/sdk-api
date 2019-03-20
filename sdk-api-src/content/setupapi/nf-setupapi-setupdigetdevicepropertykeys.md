@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetDevicePropertyKeys
-title: SetupDiGetDevicePropertyKeys function
+title: SetupDiGetDevicePropertyKeys function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetDevicePropertyKeys function retrieves an array of the device property keys that represent the device properties that are set for a device instance.
 old-location: devinst\setupdigetdevicepropertykeys.htm

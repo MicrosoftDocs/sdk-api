@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupOpenInfFileW
-title: SetupOpenInfFileW function
+title: SetupOpenInfFileW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupOpenInfFile function opens an INF file and returns a handle to it.
 old-location: setup\setupopeninffile.htm

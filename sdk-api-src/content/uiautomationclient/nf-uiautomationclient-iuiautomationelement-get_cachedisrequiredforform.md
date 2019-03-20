@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedIsRequiredForForm
-title: IUIAutomationElement::get_CachedIsRequiredForForm
+title: IUIAutomationElement::get_CachedIsRequiredForForm (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached value that indicates whether the element is required to be filled out on a form.
 old-location: winauto\uiauto_IUIAutomationElement_CachedIsRequiredForForm.htm

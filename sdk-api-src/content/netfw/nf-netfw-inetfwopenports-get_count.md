@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwOpenPorts.get_Count
-title: INetFwOpenPorts::get_Count
+title: INetFwOpenPorts::get_Count (netfw.h)
 author: windows-sdk-content
 description: Retrieves a read-only element yielding the number of items in the collection.
 old-location: ics\inetfwopenports_count.htm

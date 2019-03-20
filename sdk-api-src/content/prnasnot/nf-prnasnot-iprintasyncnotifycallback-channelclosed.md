@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasnot.IPrintAsyncNotifyCallback.ChannelClosed
-title: IPrintAsyncNotifyCallback::ChannelClosed
+title: IPrintAsyncNotifyCallback::ChannelClosed (prnasnot.h)
 author: windows-sdk-content
 description: Advises one member of a communication channel to notify the other member that the channel is being closed.
 old-location: gdi\iprintasyncnotifycallback_iprintasyncnotifycallback__channelclosed.htm

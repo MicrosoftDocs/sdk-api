@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_first_entry
-title: ldap_first_entry function
+title: ldap_first_entry function (winldap.h)
 author: windows-sdk-content
 description: The ldap_first_entry function returns the first entry of a message.
 old-location: ldap\ldap_first_entry.htm

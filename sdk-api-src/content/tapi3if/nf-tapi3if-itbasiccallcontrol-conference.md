@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.Conference
-title: ITBasicCallControl::Conference
+title: ITBasicCallControl::Conference (tapi3if.h)
 author: windows-sdk-content
 description: The Conference method adds a consultation call to the conference in which the current call is a participant. If an associated ITCallHub object does not exist, it is created.
 old-location: tapi3\itbasiccallcontrol_conference.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsatcominterfacei.IQueryRecentWinSATAssessment.get_XML
-title: IQueryRecentWinSATAssessment::get_XML
+title: IQueryRecentWinSATAssessment::get_XML (winsatcominterfacei.h)
 author: windows-sdk-content
 description: Retrieves data from the XML assessment document by using the specified XPath. The query is run against the most recent formal assessment in the WinSAT data store.
 old-location: winsat\iqueryrecentwinsatassessment_xml.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet.GetFontFaceReference
-title: IDWriteFontSet::GetFontFaceReference
+title: IDWriteFontSet::GetFontFaceReference (dwrite_3.h)
 author: windows-sdk-content
 description: Gets a reference to the font at the specified index, which may be local or remote.
 old-location: directwrite\idwritefontset_getfontfacereference.htm

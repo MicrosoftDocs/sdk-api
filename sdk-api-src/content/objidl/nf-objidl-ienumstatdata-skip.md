@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IEnumSTATDATA.Skip
-title: IEnumSTATDATA::Skip
+title: IEnumSTATDATA::Skip (objidl.h)
 author: windows-sdk-content
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: com\ienumstatdata_skip.htm

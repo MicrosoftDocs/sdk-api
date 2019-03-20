@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFGetPlaneSize
-title: MFGetPlaneSize function
+title: MFGetPlaneSize function (mfapi.h)
 author: windows-sdk-content
 description: Retrieves the image size, in bytes, for an uncompressed video format.
 old-location: mf\mfgetplanesize.htm

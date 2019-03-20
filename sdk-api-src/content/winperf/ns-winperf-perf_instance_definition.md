@@ -1,6 +1,6 @@
 ---
 UID: NS:winperf._PERF_INSTANCE_DEFINITION
-title: PERF_INSTANCE_DEFINITION
+title: PERF_INSTANCE_DEFINITION (winperf.h)
 author: windows-sdk-content
 description: Describes an instance of a performance object.
 old-location: perf\perf_instance_definition_str.htm

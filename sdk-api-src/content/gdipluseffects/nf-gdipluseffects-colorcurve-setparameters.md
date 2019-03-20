@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.ColorCurve.SetParameters
-title: ColorCurve::SetParameters
+title: ColorCurve::SetParameters (gdipluseffects.h)
 author: windows-sdk-content
 description: The ColorCurve::SetParameters method sets the parameters of this ColorCurve object.
 old-location: gdiplus\_gdiplus_CLASS_ColorCurve_SetParameters_.htm

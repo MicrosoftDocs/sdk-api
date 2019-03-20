@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.GetNotifyEventHandle
-title: GetNotifyEventHandle function
+title: GetNotifyEventHandle function (clusapi.h)
 author: windows-sdk-content
 description: Retrieves a handle to a notification event.
 old-location: mscs\getnotifyeventhandle.htm

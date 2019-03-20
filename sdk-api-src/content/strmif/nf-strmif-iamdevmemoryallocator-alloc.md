@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMDevMemoryAllocator.Alloc
-title: IAMDevMemoryAllocator::Alloc
+title: IAMDevMemoryAllocator::Alloc (strmif.h)
 author: windows-sdk-content
 description: Note  The IAMDevMemoryAllocator interface is deprecated. Allocates a memory buffer.
 old-location: dshow\iamdevmemoryallocator_alloc.htm

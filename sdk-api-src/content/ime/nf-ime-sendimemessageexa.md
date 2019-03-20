@@ -1,6 +1,6 @@
 ---
 UID: NF:ime.SendIMEMessageExA
-title: SendIMEMessageExA function
+title: SendIMEMessageExA function (ime.h)
 author: windows-sdk-content
 description: Specifies an action or processing for the Input Method Editor (IME) through a specified subfunction.
 old-location: winprog\_win32_sendimemessageex.htm

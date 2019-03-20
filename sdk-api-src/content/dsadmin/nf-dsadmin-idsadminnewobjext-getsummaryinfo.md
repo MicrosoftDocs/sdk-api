@@ -1,6 +1,6 @@
 ---
 UID: NF:dsadmin.IDsAdminNewObjExt.GetSummaryInfo
-title: IDsAdminNewObjExt::GetSummaryInfo
+title: IDsAdminNewObjExt::GetSummaryInfo (dsadmin.h)
 author: windows-sdk-content
 description: The IDsAdminNewObjExt::GetSummaryInfo method obtains a string that contains a summary of the data gathered by the new object wizard extension page. This string is displayed in the wizard Finish page.
 old-location: ad\idsadminnewobjext_getsummaryinfo.htm

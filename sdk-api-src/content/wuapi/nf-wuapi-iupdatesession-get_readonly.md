@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSession.get_ReadOnly
-title: IUpdateSession::get_ReadOnly
+title: IUpdateSession::get_ReadOnly (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the session object is read-only.
 old-location: wua\iupdatesession_readonly.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmpservices.IWMPPlugin.GetID
-title: IWMPPlugin::GetID
+title: IWMPPlugin::GetID (wmpservices.h)
 author: windows-sdk-content
 description: The IWMPPlugin::GetID method returns the class id of the plug-in.
 old-location: wmp\iwmpplugin_getid.htm

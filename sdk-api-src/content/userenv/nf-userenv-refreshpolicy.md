@@ -1,6 +1,6 @@
 ---
 UID: NF:userenv.RefreshPolicy
-title: RefreshPolicy function
+title: RefreshPolicy function (userenv.h)
 author: windows-sdk-content
 description: The RefreshPolicy function causes policy to be applied immediately on the client computer.
 old-location: policy\refreshpolicy.htm

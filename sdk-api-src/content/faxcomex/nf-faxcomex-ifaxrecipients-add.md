@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxRecipients.Add
-title: IFaxRecipients::Add
+title: IFaxRecipients::Add (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxRecipients::Add method adds a new FaxRecipient object to the FaxRecipients collection.
 old-location: fax\_mfax_faxrecipients_cpp_mfax_faxrecipients_add_cpp.htm

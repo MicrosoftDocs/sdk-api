@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoMarshalInterThreadInterfaceInStream
-title: CoMarshalInterThreadInterfaceInStream function
+title: CoMarshalInterThreadInterfaceInStream function (combaseapi.h)
 author: windows-sdk-content
 description: Marshals an interface pointer from one thread to another thread in the same process.
 old-location: com\comarshalinterthreadinterfaceinstream.htm

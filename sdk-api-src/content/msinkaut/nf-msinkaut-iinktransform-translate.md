@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkTransform.Translate
-title: IInkTransform::Translate
+title: IInkTransform::Translate (msinkaut.h)
 author: windows-sdk-content
 description: Applies a translation to a transform.
 old-location: tablet\inktransform_translate.htm

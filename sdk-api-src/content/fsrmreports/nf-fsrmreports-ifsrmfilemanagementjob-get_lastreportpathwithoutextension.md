@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_LastReportPathWithoutExtension
-title: IFsrmFileManagementJob::get_LastReportPathWithoutExtension
+title: IFsrmFileManagementJob::get_LastReportPathWithoutExtension (fsrmreports.h)
 author: windows-sdk-content
 description: The local directory path where the reports were stored the last time the job ran.
 old-location: fsrm\ifsrmfilemanagementjob_lastreportpathwithoutextension.htm

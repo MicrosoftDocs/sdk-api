@@ -1,6 +1,6 @@
 ---
 UID: NF:ddpbackup.IDedupReadFileCallback.ReadBackupFile
-title: IDedupReadFileCallback::ReadBackupFile
+title: IDedupReadFileCallback::ReadBackupFile (ddpbackup.h)
 author: windows-sdk-content
 description: Reads data from a Data Deduplication store metadata or container file located in the backup store.
 old-location: dedup\idedupreadfilecallback_readbackupfile.htm

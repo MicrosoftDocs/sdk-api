@@ -1,6 +1,6 @@
 ---
 UID: NE:wtypes.tagTYSPEC
-title: TYSPEC
+title: TYSPEC (wtypes.h)
 author: windows-sdk-content
 description: Specifies a mapping for a class ID.
 old-location: com\tyspec.htm

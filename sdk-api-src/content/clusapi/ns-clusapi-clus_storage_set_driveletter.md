@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._CLUS_STORAGE_SET_DRIVELETTER
-title: CLUS_STORAGE_SET_DRIVELETTER
+title: CLUS_STORAGE_SET_DRIVELETTER (clusapi.h)
 author: windows-sdk-content
 description: Supplies drive letter information for a disk partition associated with a storage class resource.
 old-location: mscs\clus_storage_set_driveletter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winml.WINML_IMAGE_VARIABLE_DESC
-title: WINML_IMAGE_VARIABLE_DESC
+title: WINML_IMAGE_VARIABLE_DESC (winml.h)
 author: windows-sdk-content
 description: Contains properties for the image variable description.
 old-location: machinelearning\winml_image_variable_desc.htm

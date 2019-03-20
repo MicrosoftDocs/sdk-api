@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.GetUserInput
-title: IPhotoAcquireProgressCB::GetUserInput
+title: IPhotoAcquireProgressCB::GetUserInput (photoacquire.h)
 author: windows-sdk-content
 description: The GetUserInput method overrides the default functionality that displays a message prompting the user for string input during acquisition. The application provides the implementation of the GetUserInput method.
 old-location: picacq\iphotoacquireprogresscb_getuserinput.htm

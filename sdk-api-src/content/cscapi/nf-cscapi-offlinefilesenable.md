@@ -1,6 +1,6 @@
 ---
 UID: NF:cscapi.OfflineFilesEnable
-title: OfflineFilesEnable function
+title: OfflineFilesEnable function (cscapi.h)
 author: windows-sdk-content
 description: Enables or disables the Offline Files feature.
 old-location: of\offlinefilesenable.htm

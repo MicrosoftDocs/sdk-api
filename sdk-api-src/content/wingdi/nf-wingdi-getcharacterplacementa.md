@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetCharacterPlacementA
-title: GetCharacterPlacementA function
+title: GetCharacterPlacementA function (wingdi.h)
 author: windows-sdk-content
 description: The GetCharacterPlacement function retrieves information about a character string, such as character widths, caret positioning, ordering within the string, and glyph rendering.
 old-location: gdi\getcharacterplacement.htm

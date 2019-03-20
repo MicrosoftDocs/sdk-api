@@ -1,6 +1,6 @@
 ---
 UID: NS:mfobjects._MFVideoArea
-title: MFVideoArea
+title: MFVideoArea (mfobjects.h)
 author: windows-sdk-content
 description: Specifies a rectangular area within a video frame.
 old-location: mf\mfvideoarea.htm

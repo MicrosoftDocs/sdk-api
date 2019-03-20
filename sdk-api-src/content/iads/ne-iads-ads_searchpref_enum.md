@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0000_0000_0025
-title: ADS_SEARCHPREF_ENUM
+title: ADS_SEARCHPREF_ENUM (iads.h)
 author: windows-sdk-content
 description: Specifies preferences for an IDirectorySearch object.
 old-location: adsi\ads_searchpref_enum.htm

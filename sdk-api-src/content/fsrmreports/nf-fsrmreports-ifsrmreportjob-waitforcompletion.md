@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.WaitForCompletion
-title: IFsrmReportJob::WaitForCompletion
+title: IFsrmReportJob::WaitForCompletion (fsrmreports.h)
 author: windows-sdk-content
 description: Waits for the reports in the job to complete.
 old-location: fsrm\ifsrmreportjob_waitforcompletion.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._TAPE_GET_DRIVE_PARAMETERS
-title: TAPE_GET_DRIVE_PARAMETERS
+title: TAPE_GET_DRIVE_PARAMETERS (winnt.h)
 author: windows-sdk-content
 description: Describes the tape drive. It is used by the GetTapeParameters function.
 old-location: backup\tape_get_drive_parameters_str.htm

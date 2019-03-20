@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetDescription
-title: IBackgroundCopyJob::GetDescription
+title: IBackgroundCopyJob::GetDescription (bits.h)
 author: windows-sdk-content
 description: Retrieves the description of the job.
 old-location: bits\ibackgroundcopyjob_getdescription.htm

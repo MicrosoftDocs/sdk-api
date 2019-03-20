@@ -1,6 +1,6 @@
 ---
 UID: NF:shimgdata.IShellImageData.IsPrintable
-title: IShellImageData::IsPrintable
+title: IShellImageData::IsPrintable (shimgdata.h)
 author: windows-sdk-content
 description: Determines whether the image can be printed.
 old-location: shell\IShellImageData_IsPrintable.htm

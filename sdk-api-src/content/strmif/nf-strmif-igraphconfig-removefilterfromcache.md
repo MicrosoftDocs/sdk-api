@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IGraphConfig.RemoveFilterFromCache
-title: IGraphConfig::RemoveFilterFromCache
+title: IGraphConfig::RemoveFilterFromCache (strmif.h)
 author: windows-sdk-content
 description: The RemoveFilterFromCache method removes a filter from the filter cache.
 old-location: dshow\igraphconfig_removefilterfromcache.htm

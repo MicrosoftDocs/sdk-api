@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiApplyMultiplePatchesA
-title: MsiApplyMultiplePatchesA function
+title: MsiApplyMultiplePatchesA function (msi.h)
 author: windows-sdk-content
 description: Applies one or more patches to products eligible to receive the patches.
 old-location: setup\msiapplymultiplepatches.htm

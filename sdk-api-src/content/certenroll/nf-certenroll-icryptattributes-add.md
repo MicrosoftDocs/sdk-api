@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICryptAttributes.Add
-title: ICryptAttributes::Add
+title: ICryptAttributes::Add (certenroll.h)
 author: windows-sdk-content
 description: Adds an ICryptAttribute object to the collection.
 old-location: security\icryptattributes_add_method.htm

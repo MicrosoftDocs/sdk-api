@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.put_Parameters
-title: IFsrmPipelineModuleDefinition::put_Parameters
+title: IFsrmPipelineModuleDefinition::put_Parameters (fsrmpipeline.h)
 author: windows-sdk-content
 description: The optional parameters to pass to the module.
 old-location: fsrm\ifsrmpipelinemoduledefinition_parameters.htm

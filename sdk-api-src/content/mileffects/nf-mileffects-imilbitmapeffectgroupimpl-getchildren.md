@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectGroupImpl.GetChildren
-title: IMILBitmapEffectGroupImpl::GetChildren
+title: IMILBitmapEffectGroupImpl::GetChildren (mileffects.h)
 author: windows-sdk-content
 description: Gets the children of the effect group.
 old-location: wibe\_wibe_imilbitmapeffectgroupimpl_getchildren.htm

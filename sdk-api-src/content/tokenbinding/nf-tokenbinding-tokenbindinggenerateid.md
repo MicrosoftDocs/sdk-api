@@ -1,6 +1,6 @@
 ---
 UID: NF:tokenbinding.TokenBindingGenerateID
-title: TokenBindingGenerateID function
+title: TokenBindingGenerateID function (tokenbinding.h)
 author: windows-sdk-content
 description: Constructs the token binding identifier by extracting the signature algorithm from the key type and copying the exported public key.
 old-location: security\tokenbindinggenerateid.htm

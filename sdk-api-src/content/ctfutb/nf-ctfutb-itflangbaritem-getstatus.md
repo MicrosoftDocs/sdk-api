@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItem.GetStatus
-title: ITfLangBarItem::GetStatus
+title: ITfLangBarItem::GetStatus (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarItem::GetStatus method
 old-location: tsf\itflangbaritem_getstatus.htm

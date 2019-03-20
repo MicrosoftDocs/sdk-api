@@ -1,6 +1,6 @@
 ---
 UID: NF:sddl.ConvertStringSecurityDescriptorToSecurityDescriptorW
-title: ConvertStringSecurityDescriptorToSecurityDescriptorW function
+title: ConvertStringSecurityDescriptorToSecurityDescriptorW function (sddl.h)
 author: windows-sdk-content
 description: Converts a string-format security descriptor into a valid, functional security descriptor.
 old-location: security\convertstringsecuritydescriptortosecuritydescriptor.htm

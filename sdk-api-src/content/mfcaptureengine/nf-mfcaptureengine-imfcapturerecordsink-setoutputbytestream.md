@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureRecordSink.SetOutputByteStream
-title: IMFCaptureRecordSink::SetOutputByteStream
+title: IMFCaptureRecordSink::SetOutputByteStream (mfcaptureengine.h)
 author: windows-sdk-content
 description: Specifies a byte stream that will receive the data for the recording.
 old-location: mf\imfcapturerecordsink_setoutputbytestream.htm

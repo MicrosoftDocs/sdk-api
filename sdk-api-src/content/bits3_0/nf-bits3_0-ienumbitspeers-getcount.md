@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeers.GetCount
-title: IEnumBitsPeers::GetCount
+title: IEnumBitsPeers::GetCount (bits3_0.h)
 author: windows-sdk-content
 description: Retrieves a count of the number of peers in the enumeration.
 old-location: bits\ienumbitspeers_getcount.htm

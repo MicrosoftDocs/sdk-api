@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.PSSetSamplers
-title: ID3D10Device::PSSetSamplers
+title: ID3D10Device::PSSetSamplers (d3d10.h)
 author: windows-sdk-content
 description: Set an array of sampler states to the pixel shader pipeline stage.
 old-location: direct3d10\id3d10device_pssetsamplers.htm

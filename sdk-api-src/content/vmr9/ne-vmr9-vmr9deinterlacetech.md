@@ -1,6 +1,6 @@
 ---
 UID: NE:vmr9.__MIDL___MIDL_itf_vmr9_0000_0013_0002
-title: VMR9DeinterlaceTech
+title: VMR9DeinterlaceTech (vmr9.h)
 author: windows-sdk-content
 description: The VMR9DeinterlaceTech enumeration type describes the algorithm used for deinterlacing a video stream. The flags are not mutually exclusive; drivers can set a combination of flags.
 old-location: dshow\vmr9deinterlacetech.htm

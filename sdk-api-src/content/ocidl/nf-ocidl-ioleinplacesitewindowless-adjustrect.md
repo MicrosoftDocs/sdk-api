@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.AdjustRect
-title: IOleInPlaceSiteWindowless::AdjustRect
+title: IOleInPlaceSiteWindowless::AdjustRect (ocidl.h)
 author: windows-sdk-content
 description: Adjusts a specified rectangle if it is entirely or partially covered by overlapping, opaque objects.
 old-location: com\ioleinplacesitewindowless_adjustrect.htm

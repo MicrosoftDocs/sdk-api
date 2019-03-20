@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineCompleteTransfer
-title: TSPI_lineCompleteTransfer function
+title: TSPI_lineCompleteTransfer function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineCompleteTransfer function completes the transfer of the specified call to the party connected in the consultation call.
 old-location: tspi\tspi_linecompletetransfer.htm

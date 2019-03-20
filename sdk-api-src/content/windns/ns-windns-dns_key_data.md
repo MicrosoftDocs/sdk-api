@@ -1,6 +1,6 @@
 ---
 UID: NS:windns.__unnamed_struct_18
-title: DNS_KEY_DATA
+title: DNS_KEY_DATA (windns.h)
 author: windows-sdk-content
 description: The DNS_KEY_DATA structure represents a DNS key (KEY) resource record (RR) as specified in RFC 3445.
 old-location: dns\dns_key_data.htm

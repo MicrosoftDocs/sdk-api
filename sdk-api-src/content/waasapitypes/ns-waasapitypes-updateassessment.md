@@ -1,6 +1,6 @@
 ---
 UID: NS:waasapitypes.tagUpdateAssessment
-title: UpdateAssessment
+title: UpdateAssessment (waasapitypes.h)
 author: windows-sdk-content
 description: UpdateAssessment contains information that assesses how up-to-date an installed OS is.
 old-location: base\updateassessment.htm

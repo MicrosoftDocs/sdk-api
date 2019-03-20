@@ -1,6 +1,6 @@
 ---
 UID: NN:wbemcli.IWbemShutdown
-title: IWbemShutdown
+title: IWbemShutdown (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemShutdown interface indicates to the provider that an instance of an object is ready to be discarded. The provider can use this call to release resources that it is referencing currently.
 old-location: wmi\iwbemshutdown.htm

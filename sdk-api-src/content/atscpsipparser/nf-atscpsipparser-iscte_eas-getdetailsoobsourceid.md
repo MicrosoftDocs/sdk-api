@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetDetailsOOBSourceID
-title: ISCTE_EAS::GetDetailsOOBSourceID
+title: ISCTE_EAS::GetDetailsOOBSourceID (atscpsipparser.h)
 author: windows-sdk-content
 description: The GetDetailsOOBSourceID method returns the source identifier of the virtual details channel for the emergency alert.
 old-location: mstv\iscte_eas_getdetailsoobsourceid.htm

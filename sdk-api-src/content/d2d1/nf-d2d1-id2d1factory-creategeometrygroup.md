@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreateGeometryGroup
-title: ID2D1Factory::CreateGeometryGroup
+title: ID2D1Factory::CreateGeometryGroup (d2d1.h)
 author: windows-sdk-content
 description: Creates an ID2D1GeometryGroup, which is an object that holds other geometries.
 old-location: direct2d\ID2D1Factory_CreateGeometryGroup.htm

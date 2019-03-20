@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfUIElements.Skip
-title: IEnumTfUIElements::Skip
+title: IEnumTfUIElements::Skip (msctf.h)
 author: windows-sdk-content
 description: The IEnumTfUIElements::Skip method obtains, from the current position, the specified number of elements in the enumeration sequence.
 old-location: tsf\ienumtfuielements_skip.htm

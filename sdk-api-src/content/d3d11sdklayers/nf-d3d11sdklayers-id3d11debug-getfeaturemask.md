@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11Debug.GetFeatureMask
-title: ID3D11Debug::GetFeatureMask
+title: ID3D11Debug::GetFeatureMask (d3d11sdklayers.h)
 author: windows-sdk-content
 description: Get a bitfield of flags that indicates which debug features are on or off.
 old-location: direct3d11\id3d11debug_getfeaturemask.htm

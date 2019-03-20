@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.SetClientGuid
-title: IFileDialog::SetClientGuid
+title: IFileDialog::SetClientGuid (shobjidl_core.h)
 author: windows-sdk-content
 description: Enables a calling application to associate a GUID with a dialog's persisted state.
 old-location: shell\IFileDialog_SetClientGuid.htm

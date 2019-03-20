@@ -1,6 +1,6 @@
 ---
 UID: NC:ras.PFNRASFREEBUFFER
-title: PFNRASFREEBUFFER
+title: PFNRASFREEBUFFER (ras.h)
 author: windows-sdk-content
 description: The custom-scripting DLL calls RasFreeBuffer to release a memory buffer that was allocated by a previous call to RasGetBuffer.
 old-location: rras\rasfreebuffer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10.D3D10_DEPTH_STENCIL_VIEW_DESC
-title: D3D10_DEPTH_STENCIL_VIEW_DESC
+title: D3D10_DEPTH_STENCIL_VIEW_DESC (d3d10.h)
 author: windows-sdk-content
 description: Specifies the subresource(s) from a texture that are accessible using a depth-stencil view.
 old-location: direct3d10\d3d10_depth_stencil_view_desc.htm

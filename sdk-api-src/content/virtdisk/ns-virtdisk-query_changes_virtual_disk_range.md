@@ -1,6 +1,6 @@
 ---
 UID: NS:virtdisk._QUERY_CHANGES_VIRTUAL_DISK_RANGE
-title: QUERY_CHANGES_VIRTUAL_DISK_RANGE
+title: QUERY_CHANGES_VIRTUAL_DISK_RANGE (virtdisk.h)
 author: windows-sdk-content
 description: Identifies an area on a virtual hard disk (VHD) that has changed as tracked by resilient change tracking (RCT).
 old-location: vhd\query_changes_virtual_disk_range.htm

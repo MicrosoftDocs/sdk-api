@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerReadFriendlyName
-title: PowerReadFriendlyName function
+title: PowerReadFriendlyName function (powrprof.h)
 author: windows-sdk-content
 description: Retrieves the friendly name for the specified power setting, subgroup, or scheme.
 old-location: base\powerreadfriendlyname.htm

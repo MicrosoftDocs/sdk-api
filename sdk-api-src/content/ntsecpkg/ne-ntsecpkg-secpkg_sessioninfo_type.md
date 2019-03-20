@@ -1,6 +1,6 @@
 ---
 UID: NE:ntsecpkg._SECPKG_SESSIONINFO_TYPE
-title: SECPKG_SESSIONINFO_TYPE
+title: SECPKG_SESSIONINFO_TYPE (ntsecpkg.h)
 author: windows-sdk-content
 description: Specifies the format of session information.
 old-location: security\secpkg_sessioninfo_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IServerSecurity.IsImpersonating
-title: IServerSecurity::IsImpersonating
+title: IServerSecurity::IsImpersonating (objidl.h)
 author: windows-sdk-content
 description: Indicates whether the server is currently impersonating the client.
 old-location: com\iserversecurity_isimpersonating.htm

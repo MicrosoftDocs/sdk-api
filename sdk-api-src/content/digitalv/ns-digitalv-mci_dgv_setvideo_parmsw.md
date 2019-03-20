@@ -1,6 +1,6 @@
 ---
 UID: NS:digitalv.__unnamed_struct_29
-title: MCI_DGV_SETVIDEO_PARMSW
+title: MCI_DGV_SETVIDEO_PARMSW (digitalv.h)
 author: windows-sdk-content
 description: The MCI_DGV_SETVIDEO_PARMS structure contains parameters for the MCI_SETVIDEO command for digital-video devices.
 old-location: multimedia\mci_dgv_setvideo_parms.htm

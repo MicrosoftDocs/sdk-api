@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngGetDriverName
-title: EngGetDriverName function
+title: EngGetDriverName function (winddi.h)
 author: windows-sdk-content
 description: The EngGetDriverName function returns the name of the driver's DLL.
 old-location: display\enggetdrivername.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPropertyPage.Help
-title: IPropertyPage::Help
+title: IPropertyPage::Help (ocidl.h)
 author: windows-sdk-content
 description: Invokes the property page help in response to an end-user request.
 old-location: com\ipropertypage_help.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12DebugCommandQueue.AssertResourceState
-title: ID3D12DebugCommandQueue::AssertResourceState
+title: ID3D12DebugCommandQueue::AssertResourceState (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Checks whether a resource, or subresource, is in a specified state, or not.
 old-location: direct3d12\id3d12debugcommandqueue_assertresourcestate.htm

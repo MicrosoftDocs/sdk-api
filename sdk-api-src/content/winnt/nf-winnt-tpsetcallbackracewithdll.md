@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.TpSetCallbackRaceWithDll
-title: TpSetCallbackRaceWithDll function
+title: TpSetCallbackRaceWithDll function (winnt.h)
 author: windows-sdk-content
 description: Ensures that the specified DLL remains loaded as long as there are outstanding callbacks.
 old-location: base\tpsetcallbackracewithdll.htm

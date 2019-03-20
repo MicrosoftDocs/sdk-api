@@ -1,6 +1,6 @@
 ---
 UID: NF:sysinfoapi.GetProductInfo
-title: GetProductInfo function
+title: GetProductInfo function (sysinfoapi.h)
 author: windows-sdk-content
 description: Retrieves the product type for the operating system on the local computer, and maps the type to the product types supported by the specified operating system.
 old-location: base\getproductinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2.CommitChanges
-title: IXAudio2::CommitChanges
+title: IXAudio2::CommitChanges (xaudio2.h)
 author: windows-sdk-content
 description: Atomically applies a set of operations that are tagged with a given identifier.
 old-location: xaudio2\ixaudio2_interface_commitchanges.htm

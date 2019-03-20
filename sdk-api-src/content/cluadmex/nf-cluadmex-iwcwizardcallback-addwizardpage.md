@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IWCWizardCallback.AddWizardPage
-title: IWCWizardCallback::AddWizardPage
+title: IWCWizardCallback::AddWizardPage (cluadmex.h)
 author: windows-sdk-content
 description: Adds a property page to a Failover Cluster Administrator Wizard.
 old-location: mscs\iwcwizardcallback_addwizardpage.htm

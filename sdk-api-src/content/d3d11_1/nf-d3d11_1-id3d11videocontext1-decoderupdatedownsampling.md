@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoContext1.DecoderUpdateDownsampling
-title: ID3D11VideoContext1::DecoderUpdateDownsampling
+title: ID3D11VideoContext1::DecoderUpdateDownsampling (d3d11_1.h)
 author: windows-sdk-content
 description: Updates the decoder downsampling parameters.
 old-location: mf\id3d11videocontext1_decoderupdatedownsampling.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeyTraceEventSink.OnKeyTraceDown
-title: ITfKeyTraceEventSink::OnKeyTraceDown
+title: ITfKeyTraceEventSink::OnKeyTraceDown (msctf.h)
 author: windows-sdk-content
 description: ITfKeyTraceEventSink::OnKeyTraceDown method
 old-location: tsf\itfkeytraceeventsink_onkeytracedown.htm

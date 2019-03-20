@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.Initialize
-title: INameSpaceTreeControl::Initialize
+title: INameSpaceTreeControl::Initialize (shobjidl_core.h)
 author: windows-sdk-content
 description: Initializes an INameSpaceTreeControl object.
 old-location: shell\INameSpaceTreeControl_Initialize.htm

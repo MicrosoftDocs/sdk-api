@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_HIT_GROUP_DESC
-title: D3D12_HIT_GROUP_DESC
+title: D3D12_HIT_GROUP_DESC (d3d12.h)
 author: windows-sdk-content
 description: Describes a raytracing hit group state subobject that can be included in a state object.
 old-location: direct3d12\d3d12_hit_group_desc.htm

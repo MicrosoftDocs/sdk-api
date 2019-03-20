@@ -1,6 +1,6 @@
 ---
 UID: NE:dwmapi.DWMNCRENDERINGPOLICY
-title: DWMNCRENDERINGPOLICY
+title: DWMNCRENDERINGPOLICY (dwmapi.h)
 author: windows-sdk-content
 description: Flags used by the DwmSetWindowAttribute function to specify the non-client area rendering policy.
 old-location: dwm\dwmncrenderingpolicy.htm

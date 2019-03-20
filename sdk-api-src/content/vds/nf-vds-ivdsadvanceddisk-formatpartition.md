@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsAdvancedDisk.FormatPartition
-title: IVdsAdvancedDisk::FormatPartition
+title: IVdsAdvancedDisk::FormatPartition (vds.h)
 author: windows-sdk-content
 description: Formats an existing OEM, ESP, or unknown partition.
 old-location: base\ivdsadvanceddisk_formatpartition.htm

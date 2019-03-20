@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFStartup
-title: MFStartup function
+title: MFStartup function (mfapi.h)
 author: windows-sdk-content
 description: Initializes Microsoft Media Foundation.
 old-location: mf\mfstartup.htm

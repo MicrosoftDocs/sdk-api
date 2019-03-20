@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._CLASS_MEDIA_CHANGE_CONTEXT
-title: CLASS_MEDIA_CHANGE_CONTEXT
+title: CLASS_MEDIA_CHANGE_CONTEXT (winioctl.h)
 author: windows-sdk-content
 description: Contains information associated with a media change event.
 old-location: base\class_media_change_context_str.htm

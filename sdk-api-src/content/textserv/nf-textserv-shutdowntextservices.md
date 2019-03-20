@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ShutdownTextServices
-title: ShutdownTextServices function
+title: ShutdownTextServices function (textserv.h)
 author: windows-sdk-content
 description: Disconnects a host from a text services instance.
 old-location: controls\shutdowntextservices.htm

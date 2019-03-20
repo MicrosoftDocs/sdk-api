@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_FDC.RequestTables
-title: IBDA_FDC::RequestTables
+title: IBDA_FDC::RequestTables (bdaiface.h)
 author: windows-sdk-content
 description: Requests MPEG-2 table sections, filtered by table identifier (TID).
 old-location: mstv\ibda_fdc_requesttables.htm

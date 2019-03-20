@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellCheckerChangedEventHandler.Invoke
-title: ISpellCheckerChangedEventHandler::Invoke
+title: ISpellCheckerChangedEventHandler::Invoke (spellcheck.h)
 author: windows-sdk-content
 description: Receives the SpellCheckerChanged event.
 old-location: intl\ispellcheckerchangedeventhandler_invoke.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetScrollBarInfo
-title: GetScrollBarInfo function
+title: GetScrollBarInfo function (winuser.h)
 author: windows-sdk-content
 description: The GetScrollBarInfo function retrieves information about the specified scroll bar.
 old-location: controls\GetScrollBarInfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetDpiX
-title: Graphics::GetDpiX
+title: Graphics::GetDpiX (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::GetDpiX method gets the horizontal resolution, in dots per inch, of the display device associated with this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetDpiX_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesItemFilter.GetTimeFilter
-title: IOfflineFilesItemFilter::GetTimeFilter
+title: IOfflineFilesItemFilter::GetTimeFilter (cscobj.h)
 author: windows-sdk-content
 description: Provides time-value-comparison semantics to control filtering of items based on time.
 old-location: of\iofflinefilesitemfilter_gettimefilter.htm

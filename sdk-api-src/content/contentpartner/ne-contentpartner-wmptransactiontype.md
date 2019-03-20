@@ -1,6 +1,6 @@
 ---
 UID: NE:contentpartner.WMPTransactionType
-title: WMPTransactionType
+title: WMPTransactionType (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The WMPTransactionType enumeration represents a transaction type.
 old-location: wmp\wmptransactiontype.htm

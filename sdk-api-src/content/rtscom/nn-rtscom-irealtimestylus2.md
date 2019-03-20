@@ -1,6 +1,6 @@
 ---
 UID: NN:rtscom.IRealTimeStylus2
-title: IRealTimeStylus2
+title: IRealTimeStylus2 (rtscom.h)
 author: windows-sdk-content
 description: Extends the IRealTimeStylus interface.
 old-location: tablet\irealtimestylus2.htm

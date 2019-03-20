@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_NameValueService.SetValue
-title: IBDA_NameValueService::SetValue
+title: IBDA_NameValueService::SetValue (bdaiface.h)
 author: windows-sdk-content
 description: Sets a name/value pair in device memory.
 old-location: mstv\ibda_namevalueservice_setvalue.htm

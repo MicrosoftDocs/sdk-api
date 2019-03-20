@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IConnectionPoint.EnumConnections
-title: IConnectionPoint::EnumConnections
+title: IConnectionPoint::EnumConnections (ocidl.h)
 author: windows-sdk-content
 description: Creates an enumerator object to iterate through the current connections for this connection point.
 old-location: com\iconnectionpoint_enumconnections.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:uxtheme.THEMESIZE
-title: THEMESIZE
+title: THEMESIZE (uxtheme.h)
 author: windows-sdk-content
 description: Identifies the type of size value to retrieve for a visual style part.
 old-location: controls\THEME_SIZE.htm

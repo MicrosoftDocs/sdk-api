@@ -1,6 +1,6 @@
 ---
 UID: NC:davclnt.PFNDAVAUTHCALLBACK_FREECRED
-title: PFNDAVAUTHCALLBACK_FREECRED
+title: PFNDAVAUTHCALLBACK_FREECRED (davclnt.h)
 author: windows-sdk-content
 description: The WebDAV client calls the application-defined DavFreeCredCallback callback function to free the credential information that was retrieved by the DavAuthCallback callback function.
 old-location: webdav\freecredcallback.htm

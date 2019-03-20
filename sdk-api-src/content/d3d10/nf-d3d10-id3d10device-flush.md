@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.Flush
-title: ID3D10Device::Flush
+title: ID3D10Device::Flush (d3d10.h)
 author: windows-sdk-content
 description: Send queued-up commands in the command buffer to the GPU.
 old-location: direct3d10\id3d10device_flush.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_DeviceId
-title: IFaxOutgoingJob::get_DeviceId
+title: IFaxOutgoingJob::get_DeviceId (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingJob::get_DeviceId property indicates the device ID of the device transmitting the outbound fax job.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_deviceid_cpp.htm

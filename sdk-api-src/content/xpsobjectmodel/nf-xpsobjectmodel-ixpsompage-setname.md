@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.SetName
-title: IXpsOMPage::SetName
+title: IXpsOMPage::SetName (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the Name property of this page.
 old-location: xps\ixpsompage_setname.htm

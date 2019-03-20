@@ -1,6 +1,6 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolListener
-title: IWRdsProtocolListener
+title: IWRdsProtocolListener (wtsprotocol.h)
 author: windows-sdk-content
 description: Exposes methods that request that the protocol start and stop listening for client connection requests.
 old-location: termserv\iwrdsprotocollistener.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Video.CreateCryptoSession
-title: IDirect3DDevice9Video::CreateCryptoSession
+title: IDirect3DDevice9Video::CreateCryptoSession (d3d9.h)
 author: windows-sdk-content
 description: Creates a cryptographic session to encrypt video content that is sent to the display driver.
 old-location: mf\idirect3ddevice9video_createcryptosession.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.get_ClientConnectionPropertySet
-title: ITsSbClientConnection::get_ClientConnectionPropertySet
+title: ITsSbClientConnection::get_ClientConnectionPropertySet (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves an object that contains properties associated with the client connection.
 old-location: termserv\itssbclientconnection_clientconnectionpropertyset.htm

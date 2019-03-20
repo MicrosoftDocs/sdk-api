@@ -1,6 +1,6 @@
 ---
 UID: NC:fwpmu.FWPM_NET_EVENT_CALLBACK1
-title: FWPM_NET_EVENT_CALLBACK1
+title: FWPM_NET_EVENT_CALLBACK1 (fwpmu.h)
 author: windows-sdk-content
 description: Is used to add custom behavior to the net event subscription process.
 old-location: fwp\fwpm_net_event_callback1.htm

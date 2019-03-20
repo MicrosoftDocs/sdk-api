@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkPicture.SetWindowInputRectangle
-title: IInkPicture::SetWindowInputRectangle
+title: IInkPicture::SetWindowInputRectangle (msinkaut.h)
 author: windows-sdk-content
 description: Modifies the window rectangle, in pixels, within which ink is drawn.
 old-location: tablet\inkpicture_setwindowinputrectangle.htm

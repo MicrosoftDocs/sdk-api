@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ISpreadsheetItemProvider.GetAnnotationTypes
-title: ISpreadsheetItemProvider::GetAnnotationTypes
+title: ISpreadsheetItemProvider::GetAnnotationTypes (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves an array of annotation type identifiers indicating the types of annotations that are associated with this spreadsheet cell.
 old-location: winauto\uiauto_ISpreadsheetItemProvider_GetAnnotationTypes.htm

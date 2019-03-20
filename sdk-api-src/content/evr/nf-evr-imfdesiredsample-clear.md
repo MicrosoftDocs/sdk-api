@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IMFDesiredSample.Clear
-title: IMFDesiredSample::Clear
+title: IMFDesiredSample::Clear (evr.h)
 author: windows-sdk-content
 description: Clears the time stamps previously set by a call to IMFDesiredSample::SetDesiredSampleTimeAndDuration.
 old-location: mf\imfdesiredsample_clear.htm

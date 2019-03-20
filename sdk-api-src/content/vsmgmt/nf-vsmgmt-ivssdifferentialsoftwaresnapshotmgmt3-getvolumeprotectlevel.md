@@ -1,6 +1,6 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt3.GetVolumeProtectLevel
-title: IVssDifferentialSoftwareSnapshotMgmt3::GetVolumeProtectLevel
+title: IVssDifferentialSoftwareSnapshotMgmt3::GetVolumeProtectLevel (vsmgmt.h)
 author: windows-sdk-content
 description: Gets the shadow copy protection level and status for the specified volume.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt3_getvolumeprotectlevel.htm

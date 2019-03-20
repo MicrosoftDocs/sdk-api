@@ -1,6 +1,6 @@
 ---
 UID: NF:batclass.BatteryClassInitializeDevice
-title: BatteryClassInitializeDevice function
+title: BatteryClassInitializeDevice function (batclass.h)
 author: windows-sdk-content
 description: The BatteryClassInitializeDevice routine initializes a new battery device for the class driver.
 old-location: battery\batteryclassinitializedevice.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock.inet_ntoa
-title: inet_ntoa function
+title: inet_ntoa function (winsock.h)
 author: windows-sdk-content
 description: The inet_ntoa function converts an (Ipv4) Internet network address into an ASCII string in Internet standard dotted-decimal format.
 old-location: winsock\inet_ntoa_2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAsyncReader.WaitForNext
-title: IAsyncReader::WaitForNext
+title: IAsyncReader::WaitForNext (strmif.h)
 author: windows-sdk-content
 description: The WaitForNext method waits for the next pending read request to complete.
 old-location: dshow\iasyncreader_waitfornext.htm

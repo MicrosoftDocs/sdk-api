@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsUser
-title: IADsUser
+title: IADsUser (iads.h)
 author: windows-sdk-content
 description: The IADsUser interface is a dual interface that inherits from IADs.
 old-location: adsi\iadsuser.htm

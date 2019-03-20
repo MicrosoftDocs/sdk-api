@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFMediaEvent.GetExtendedType
-title: IMFMediaEvent::GetExtendedType
+title: IMFMediaEvent::GetExtendedType (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves the extended type of the event.
 old-location: mf\imfmediaevent_getextendedtype.htm

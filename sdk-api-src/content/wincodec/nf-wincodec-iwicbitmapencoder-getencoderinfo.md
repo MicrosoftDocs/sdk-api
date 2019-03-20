@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.GetEncoderInfo
-title: IWICBitmapEncoder::GetEncoderInfo
+title: IWICBitmapEncoder::GetEncoderInfo (wincodec.h)
 author: windows-sdk-content
 description: Retrieves an IWICBitmapEncoderInfo for the encoder.
 old-location: wic\_wic_codec_iwicbitmapencoder_getencoderinfo.htm

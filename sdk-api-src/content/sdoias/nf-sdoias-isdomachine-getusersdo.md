@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdoMachine.GetUserSDO
-title: ISdoMachine::GetUserSDO
+title: ISdoMachine::GetUserSDO (sdoias.h)
 author: windows-sdk-content
 description: The GetUserSDO method retrieves an interface to the Server Data Object (SDO) for the specified user.
 old-location: nps\SDO_isdomachine_getusersdo.htm

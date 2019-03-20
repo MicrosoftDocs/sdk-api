@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.CanChange
-title: ITextFont::CanChange
+title: ITextFont::CanChange (tom.h)
 author: windows-sdk-content
 description: Determines whether the font can be changed.
 old-location: controls\ITextFont_CanChange.htm

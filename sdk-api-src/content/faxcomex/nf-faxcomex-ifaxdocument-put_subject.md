@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDocument.put_Subject
-title: IFaxDocument::put_Subject
+title: IFaxDocument::put_Subject (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDocument::get_Subject property is a null-terminated string that contains the contents of the subject field on the cover page of the fax.
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_subject_cpp.htm

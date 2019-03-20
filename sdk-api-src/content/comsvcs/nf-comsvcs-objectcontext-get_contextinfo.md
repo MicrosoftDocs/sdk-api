@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ObjectContext.get_ContextInfo
-title: ObjectContext::get_ContextInfo
+title: ObjectContext::get_ContextInfo (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the context information object of the current object's context.
 old-location: cos\objectcontext_get_contextinfo.htm

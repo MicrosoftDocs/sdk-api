@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_PORTAL_NOTIFICATION
-title: VDS_PORTAL_NOTIFICATION
+title: VDS_PORTAL_NOTIFICATION (vds.h)
 author: windows-sdk-content
 description: Defines the details of iSCSI portal events.
 old-location: base\vds_portal_notification.htm

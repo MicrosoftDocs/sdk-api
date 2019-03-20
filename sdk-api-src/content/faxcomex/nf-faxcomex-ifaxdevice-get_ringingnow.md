@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDevice.get_RingingNow
-title: IFaxDevice::get_RingingNow
+title: IFaxDevice::get_RingingNow (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDevice::get_RingingNow property is a Boolean value that indicates whether the fax device is ringing at the moment the property is retrieved (the status could change immediately thereafter).
 old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_ringingnow_cpp.htm

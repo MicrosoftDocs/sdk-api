@@ -1,6 +1,6 @@
 ---
 UID: NS:dsrole._DSROLE_PRIMARY_DOMAIN_INFO_BASIC
-title: DSROLE_PRIMARY_DOMAIN_INFO_BASIC
+title: DSROLE_PRIMARY_DOMAIN_INFO_BASIC (dsrole.h)
 author: windows-sdk-content
 description: Used with the DsRoleGetPrimaryDomainInformation function to contain domain data.
 old-location: ad\dsrole_primary_domain_info_basic.htm

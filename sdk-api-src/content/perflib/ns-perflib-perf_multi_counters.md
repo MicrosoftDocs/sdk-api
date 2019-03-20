@@ -1,6 +1,6 @@
 ---
 UID: NS:perflib._PERF_MULTI_COUNTERS
-title: PERF_MULTI_COUNTERS
+title: PERF_MULTI_COUNTERS (perflib.h)
 author: windows-sdk-content
 description: Provides information about the PERF_MULTI_COUNTERS block that contains the structure.
 old-location: perf\perf_multi_counters.htm

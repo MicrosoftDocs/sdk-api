@@ -1,6 +1,6 @@
 ---
 UID: NS:mbnapi.MBN_INTERFACE_CAPS
-title: MBN_INTERFACE_CAPS
+title: MBN_INTERFACE_CAPS (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_INTERFACE_CAPS structure represents the interface capabilities.
 old-location: mbn\mbn_interface_caps.htm

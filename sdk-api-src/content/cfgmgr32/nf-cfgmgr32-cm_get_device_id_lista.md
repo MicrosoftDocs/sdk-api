@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_ID_ListA
-title: CM_Get_Device_ID_ListA function
+title: CM_Get_Device_ID_ListA function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Get_Device_ID_List function retrieves a list of device instance IDs for the local computer's device instances.
 old-location: devinst\cm_get_device_id_list.htm

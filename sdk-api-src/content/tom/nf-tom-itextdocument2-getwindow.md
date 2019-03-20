@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.GetWindow
-title: ITextDocument2::GetWindow
+title: ITextDocument2::GetWindow (tom.h)
 author: windows-sdk-content
 description: Gets the handle of the window that the Text Object Model (TOM) engine is using to display output.
 old-location: controls\itextdocument2_getwindow.htm

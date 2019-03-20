@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMessageMover.get_CommitBatchSize
-title: IMessageMover::get_CommitBatchSize
+title: IMessageMover::get_CommitBatchSize (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the commit batch size.
 old-location: cos\imessagemover_get_commitbatchsize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.ISynchronousDataRetriever
-title: ISynchronousDataRetriever
+title: ISynchronousDataRetriever (winsync.h)
 author: windows-sdk-content
 description: Represents the mechanism by which the destination provider retrieves item data from the source provider.
 old-location: winsync\isynchronousdataretriever.htm

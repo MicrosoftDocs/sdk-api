@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbTSInformationDescriptor.GetRemoteControlKeyId
-title: IIsdbTSInformationDescriptor::GetRemoteControlKeyId
+title: IIsdbTSInformationDescriptor::GetRemoteControlKeyId (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the remote_control_key_id field value from an Integrated Services Digital Broadcasting (ISDB) transport stream (TS) information descriptor.
 old-location: mstv\iisdbtsinformationdescriptor_getremotecontrolkeyid.htm

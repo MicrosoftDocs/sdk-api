@@ -1,6 +1,6 @@
 ---
 UID: NC:ws2spi.LPNSPV2CLEANUP
-title: LPNSPV2CLEANUP
+title: LPNSPV2CLEANUP (ws2spi.h)
 author: windows-sdk-content
 description: Notifies a namespace service provider version-2 (NSPv2) provider that a client session has terminated.
 old-location: winsock\nspv2cleanup.htm

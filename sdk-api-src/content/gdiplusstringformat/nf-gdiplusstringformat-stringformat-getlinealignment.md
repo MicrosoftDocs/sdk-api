@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.GetLineAlignment
-title: StringFormat::GetLineAlignment
+title: StringFormat::GetLineAlignment (gdiplusstringformat.h)
 author: windows-sdk-content
 description: The StringFormat::GetLineAlignment method gets an element of the StringAlignment enumeration that indicates the line alignment of this StringFormat object in relation to the origin of the layout rectangle.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetLineAlignment_.htm

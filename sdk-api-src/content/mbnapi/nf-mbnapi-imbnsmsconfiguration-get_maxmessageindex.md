@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsConfiguration.get_MaxMessageIndex
-title: IMbnSmsConfiguration::get_MaxMessageIndex
+title: IMbnSmsConfiguration::get_MaxMessageIndex (mbnapi.h)
 author: windows-sdk-content
 description: SMS message memory capacity.
 old-location: mbn\imbnsmsconfiguration_maxmessageindex.htm

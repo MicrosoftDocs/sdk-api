@@ -1,6 +1,6 @@
 ---
 UID: NF:winevt.EvtOpenSession
-title: EvtOpenSession function
+title: EvtOpenSession function (winevt.h)
 author: windows-sdk-content
 description: Establishes a connection to a remote computer that you can use when calling the other Windows Event Log functions.
 old-location: wes\evtopensession.htm

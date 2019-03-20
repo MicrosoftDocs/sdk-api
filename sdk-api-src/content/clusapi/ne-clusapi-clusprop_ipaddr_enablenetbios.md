@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.CLUSPROP_IPADDR_ENABLENETBIOS
-title: CLUSPROP_IPADDR_ENABLENETBIOS
+title: CLUSPROP_IPADDR_ENABLENETBIOS (clusapi.h)
 author: windows-sdk-content
 description: When used with the CLUSPROP_DWORD structure, enables or disables the functionality of the EnableNetBIOS property of IP Address&#32;resources.
 old-location: mscs\clusprop_ipaddr_enablenetbios.htm

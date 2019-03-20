@@ -1,6 +1,6 @@
 ---
 UID: NC:projectedfslib.PRJ_QUERY_FILE_NAME_CB
-title: PRJ_QUERY_FILE_NAME_CB
+title: PRJ_QUERY_FILE_NAME_CB (projectedfslib.h)
 author: windows-sdk-content
 description: Determines whether a given file path exists in the provider's backing store.
 old-location: projfs\prj_query_file_name_cb.htm

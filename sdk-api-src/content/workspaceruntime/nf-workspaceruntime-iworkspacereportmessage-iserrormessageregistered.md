@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceReportMessage.IsErrorMessageRegistered
-title: IWorkspaceReportMessage::IsErrorMessageRegistered
+title: IWorkspaceReportMessage::IsErrorMessageRegistered (workspaceruntime.h)
 author: windows-sdk-content
 description: Determines whether a specified error message is registered in a specified workspace.
 old-location: termserv\iworkspacereportmessage_iserrormessageregistered.htm

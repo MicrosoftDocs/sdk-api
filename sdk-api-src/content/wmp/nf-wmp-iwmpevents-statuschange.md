@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.StatusChange
-title: IWMPEvents::StatusChange
+title: IWMPEvents::StatusChange (wmp.h)
 author: windows-sdk-content
 description: The StatusChange event occurs when the status property changes value.
 old-location: wmp\iwmpevents_iwmpevents__statuschange.htm

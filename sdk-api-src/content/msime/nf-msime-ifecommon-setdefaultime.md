@@ -1,6 +1,6 @@
 ---
 UID: NF:msime.IFECommon.SetDefaultIME
-title: IFECommon::SetDefaultIME
+title: IFECommon::SetDefaultIME (msime.h)
 author: windows-sdk-content
 description: Allows the Microsoft IME to become the default IME in the keyboard layout.
 old-location: intl\ifecommon_setdefaultime.htm

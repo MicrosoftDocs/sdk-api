@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_SetPacketEncoding
-title: MI_DestinationOptions_SetPacketEncoding function
+title: MI_DestinationOptions_SetPacketEncoding function (mi.h)
 author: windows-sdk-content
 description: Sets the encoding mechanism for certain protocol handles.
 old-location: wmi_v2\mi_destinationoptions_setpacketencoding.htm

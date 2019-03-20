@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingPublicConnectionCollection.get_Count
-title: INetSharingPublicConnectionCollection::get_Count
+title: INetSharingPublicConnectionCollection::get_Count (netcon.h)
 author: windows-sdk-content
 description: The get_Count method retrieves the number of items in the public connections collection.
 old-location: ics\inetsharingpublicconnectioncollection_get_count.htm

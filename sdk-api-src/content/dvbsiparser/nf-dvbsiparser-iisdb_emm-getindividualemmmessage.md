@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_EMM.GetIndividualEmmMessage
-title: IISDB_EMM::GetIndividualEmmMessage
+title: IISDB_EMM::GetIndividualEmmMessage (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets an individual message from an Integrated Services Digital Broadcasting (ISDB) entitlement management message (EMM) table.
 old-location: mstv\iisdb_emm_getindividualemmmessage.htm

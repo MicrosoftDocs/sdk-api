@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiApplyPatchW
-title: MsiApplyPatchW function
+title: MsiApplyPatchW function (msi.h)
 author: windows-sdk-content
 description: For each product listed by the patch package as eligible to receive the patch, the MsiApplyPatch function invokes an installation and sets the PATCH property to the path of the patch package.
 old-location: setup\msiapplypatch.htm

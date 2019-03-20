@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.SHInvokePrinterCommandW
-title: SHInvokePrinterCommandW function
+title: SHInvokePrinterCommandW function (shellapi.h)
 author: windows-sdk-content
 description: Executes a command on a printer object.
 old-location: shell\SHInvokePrinterCommand.htm

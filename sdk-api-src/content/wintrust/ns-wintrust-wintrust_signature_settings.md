@@ -1,6 +1,6 @@
 ---
 UID: NS:wintrust.WINTRUST_SIGNATURE_SETTINGS_
-title: WINTRUST_SIGNATURE_SETTINGS
+title: WINTRUST_SIGNATURE_SETTINGS (wintrust.h)
 author: windows-sdk-content
 description: Can be used to specify the signatures on a file.
 old-location: security\wintrust_signature_settings.htm

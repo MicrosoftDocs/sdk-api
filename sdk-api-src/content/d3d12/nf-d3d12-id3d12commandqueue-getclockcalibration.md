@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12CommandQueue.GetClockCalibration
-title: ID3D12CommandQueue::GetClockCalibration
+title: ID3D12CommandQueue::GetClockCalibration (d3d12.h)
 author: windows-sdk-content
 description: This method samples the CPU and GPU timestamp counters at the same moment in time.
 old-location: direct3d12\id3d12commandqueue_getclockcalibration.htm

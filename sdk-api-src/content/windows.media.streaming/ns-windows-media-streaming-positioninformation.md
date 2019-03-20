@@ -1,6 +1,6 @@
 ---
 UID: NS:windows.media.streaming.PositionInformation
-title: PositionInformation
+title: PositionInformation (windows.media.streaming.h)
 author: windows-sdk-content
 description: Contains the current values of media playback position information obtained from the DMR.
 old-location: mediastreaming\positioninformation.htm

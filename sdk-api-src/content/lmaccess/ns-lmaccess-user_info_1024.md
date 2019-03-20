@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._USER_INFO_1024
-title: USER_INFO_1024
+title: USER_INFO_1024 (lmaccess.h)
 author: windows-sdk-content
 description: The USER_INFO_1024 structure contains the country/region code for a network user's language of choice. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1024_str.htm

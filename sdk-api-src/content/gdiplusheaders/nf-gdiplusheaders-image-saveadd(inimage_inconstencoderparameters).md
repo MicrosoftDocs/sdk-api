@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.SaveAdd(IN Image,IN const EncoderParameters)
-title: Image::SaveAdd(IN Image,IN const EncoderParameters)
+title: Image::SaveAdd(IN Image,IN const EncoderParameters) (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::SaveAdd method adds a frame to a file or stream specified in a previous call to the Save method.
 old-location: gdiplus\_gdiplus_CLASS_Image_SaveAdd_newImage_encoderParams_.htm

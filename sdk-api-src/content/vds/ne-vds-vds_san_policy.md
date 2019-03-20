@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_SAN_POLICY
-title: VDS_SAN_POLICY
+title: VDS_SAN_POLICY (vds.h)
 author: windows-sdk-content
 description: Defines the set of valid disk SAN policy flags.
 old-location: base\vds_san_policy.htm

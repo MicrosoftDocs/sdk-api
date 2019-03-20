@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_INDIRECT_ARGUMENT_TYPE
-title: D3D12_INDIRECT_ARGUMENT_TYPE
+title: D3D12_INDIRECT_ARGUMENT_TYPE (d3d12.h)
 author: windows-sdk-content
 description: Specifies the type of the indirect parameter.
 old-location: direct3d12\d3d12_indirect_argument_type.htm

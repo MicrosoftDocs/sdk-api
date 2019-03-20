@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.ExtEscape
-title: ExtEscape function
+title: ExtEscape function (wingdi.h)
 author: windows-sdk-content
 description: The ExtEscape function enables an application to access device capabilities that are not available through GDI.
 old-location: gdi\extescape.htm

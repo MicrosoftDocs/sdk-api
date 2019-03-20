@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._XFORML
-title: XFORML
+title: XFORML (winddi.h)
 author: windows-sdk-content
 description: The FLOATOBJ_XFORM structure describes an arbitrary linear two-dimensional transform, such as for geometric wide lines.
 old-location: display\floatobj_xform.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolShadowCallback.InvokeTargetShadow
-title: IWRdsProtocolShadowCallback::InvokeTargetShadow
+title: IWRdsProtocolShadowCallback::InvokeTargetShadow (wtsprotocol.h)
 author: windows-sdk-content
 description: Instructs the Remote Desktop Services service to begin the target side of the shadow and passes any information that must be exchanged between the client and the target.
 old-location: termserv\iwrdsprotocolshadowcallback_invoketargetshadow.htm

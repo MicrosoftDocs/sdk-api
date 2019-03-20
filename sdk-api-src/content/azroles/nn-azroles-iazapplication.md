@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzApplication
-title: IAzApplication
+title: IAzApplication (azroles.h)
 author: windows-sdk-content
 description: Defines an installed instance of an application. An IAzApplication object is created when an application is installed.
 old-location: security\iazapplication.htm

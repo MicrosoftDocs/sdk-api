@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IBDA_DRM
-title: IBDA_DRM
+title: IBDA_DRM (bdaiface.h)
 author: windows-sdk-content
 description: The IBDA_DRM interface is used to request a tuner to perform a DRM handshake with the user's computer.
 old-location: mstv\ibda_drm.htm

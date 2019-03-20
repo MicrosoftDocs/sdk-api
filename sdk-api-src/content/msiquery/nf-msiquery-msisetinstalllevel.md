@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiSetInstallLevel
-title: MsiSetInstallLevel function
+title: MsiSetInstallLevel function (msiquery.h)
 author: windows-sdk-content
 description: The MsiSetInstallLevel function sets the installation level for a full product installation.
 old-location: setup\msisetinstalllevel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.ISwapChainBackgroundPanelNative.SetSwapChain
-title: ISwapChainBackgroundPanelNative::xaml
+title: ISwapChainBackgroundPanelNative::xaml (windows.ui.xaml.media.dxinterop.h)
 author: windows-sdk-content
 description: Sets the DirectX swap chain for SwapChainBackgroundPanel.
 old-location: winrt\iswapchainbackgroundpanelnative_setswapchain.htm

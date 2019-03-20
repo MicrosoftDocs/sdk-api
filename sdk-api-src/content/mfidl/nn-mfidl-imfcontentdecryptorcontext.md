@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFContentDecryptorContext
-title: IMFContentDecryptorContext
+title: IMFContentDecryptorContext (mfidl.h)
 author: windows-sdk-content
 description: Allows a decryptor to manage hardware keys and decrypt hardware samples.
 old-location: mf\imfcontentdecryptorcontext.htm

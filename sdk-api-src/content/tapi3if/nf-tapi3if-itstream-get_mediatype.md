@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITStream.get_MediaType
-title: ITStream::get_MediaType
+title: ITStream::get_MediaType (tapi3if.h)
 author: windows-sdk-content
 description: The get_MediaType method gets the stream's media type.
 old-location: tapi3\itstream_get_mediatype.htm

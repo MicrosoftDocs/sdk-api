@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.__unnamed_struct_13
-title: NMCBEENDEDITW
+title: NMCBEENDEDITW (commctrl.h)
 author: windows-sdk-content
 description: Contains information about the conclusion of an edit operation within a ComboBoxEx control. This structure is used with the CBEN_ENDEDIT notification code.
 old-location: controls\NMCBEENDEDIT.htm

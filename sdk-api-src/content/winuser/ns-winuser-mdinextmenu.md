@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagMDINEXTMENU
-title: MDINEXTMENU
+title: MDINEXTMENU (winuser.h)
 author: windows-sdk-content
 description: Contains information about the menu to be activated.
 old-location: menurc\mdinextmenu.htm

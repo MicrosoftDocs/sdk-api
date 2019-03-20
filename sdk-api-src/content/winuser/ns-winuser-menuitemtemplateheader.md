@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.__unnamed_struct_6
-title: MENUITEMTEMPLATEHEADER
+title: MENUITEMTEMPLATEHEADER (winuser.h)
 author: windows-sdk-content
 description: Defines the header for a menu template. A complete menu template consists of a header and one or more menu item lists.
 old-location: menurc\menuitemtemplateheader.htm

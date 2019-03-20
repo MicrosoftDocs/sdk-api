@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaSeeking.GetDuration
-title: IMediaSeeking::GetDuration
+title: IMediaSeeking::GetDuration (strmif.h)
 author: windows-sdk-content
 description: The GetDuration method gets the duration of the stream.
 old-location: dshow\imediaseeking_getduration.htm

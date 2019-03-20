@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITToneDetectionEvent.get_TickCount
-title: ITToneDetectionEvent::get_TickCount
+title: ITToneDetectionEvent::get_TickCount (tapi3if.h)
 author: windows-sdk-content
 description: The get_TickCount method gets the &#0034;tick count&#0034; (the number of milliseconds since Windows started) at which the tone was detected.
 old-location: tapi3\ittonedetectionevent_get_tickcount.htm

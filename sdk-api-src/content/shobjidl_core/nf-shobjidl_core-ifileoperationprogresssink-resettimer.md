@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.ResetTimer
-title: IFileOperationProgressSink::ResetTimer
+title: IFileOperationProgressSink::ResetTimer (shobjidl_core.h)
 author: windows-sdk-content
 description: Not supported.
 old-location: shell\IFileOperationProgressSink_ResetTimer.htm

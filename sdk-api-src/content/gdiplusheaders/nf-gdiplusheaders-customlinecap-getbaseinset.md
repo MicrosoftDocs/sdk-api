@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.GetBaseInset
-title: CustomLineCap::GetBaseInset
+title: CustomLineCap::GetBaseInset (gdiplusheaders.h)
 author: windows-sdk-content
 description: The CustomLineCap::GetBaseInset method gets the distance between the base cap to the start of the line.
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_GetBaseInset_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.SetBalance
-title: IMFPMediaPlayer::SetBalance
+title: IMFPMediaPlayer::SetBalance (mfplay.h)
 author: windows-sdk-content
 description: Sets the audio balance.
 old-location: mf\imfpmediaplayer_setbalance.htm

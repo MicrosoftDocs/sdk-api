@@ -1,6 +1,6 @@
 ---
 UID: NN:tom.ITextSelection
-title: ITextSelection
+title: ITextSelection (tom.h)
 author: windows-sdk-content
 description: A text selection is a text range with selection highlighting.
 old-location: controls\ITextSelection.htm

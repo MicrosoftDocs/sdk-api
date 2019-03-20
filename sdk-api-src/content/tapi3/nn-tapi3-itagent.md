@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3.ITAgent
-title: ITAgent
+title: ITAgent (tapi3.h)
 author: windows-sdk-content
 description: Agents are the heart of a call center.
 old-location: tapi3\itagent.htm

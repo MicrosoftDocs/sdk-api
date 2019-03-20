@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Metafile.SetDownLevelRasterizationLimit
-title: Metafile::SetDownLevelRasterizationLimit
+title: Metafile::SetDownLevelRasterizationLimit (gdiplusheaders.h)
 author: windows-sdk-content
 description: Sets the resolution for certain brush bitmaps that are stored in this metafile.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_SetDownLevelRasterizationLimit_.htm

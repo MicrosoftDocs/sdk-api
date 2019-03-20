@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IUpdateInstaller3
-title: IUpdateInstaller3
+title: IUpdateInstaller3 (wuapi.h)
 author: windows-sdk-content
 description: Installs or uninstalls updates on a computer.
 old-location: wua\iupdateinstaller3.htm

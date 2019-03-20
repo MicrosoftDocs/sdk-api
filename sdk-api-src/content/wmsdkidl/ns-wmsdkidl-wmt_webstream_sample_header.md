@@ -1,6 +1,6 @@
 ---
 UID: NS:wmsdkidl._WMT_WEBSTREAM_SAMPLE_HEADER
-title: WMT_WEBSTREAM_SAMPLE_HEADER
+title: WMT_WEBSTREAM_SAMPLE_HEADER (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMT_WEBSTREAM_SAMPLE_HEADER structure is used as a variable-sized header for each Web stream sample.
 old-location: wmformat\wmt_webstream_sample_header.htm

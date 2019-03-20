@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsdigitalsignature.IXpsSignatureBlockCollection
-title: IXpsSignatureBlockCollection
+title: IXpsSignatureBlockCollection (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: A collection of IXpsSignatureBlock interfaces.
 old-location: xps\ixpssignatureblockcollection.htm

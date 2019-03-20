@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetChaining
-title: IDirectManipulationViewport::SetChaining
+title: IDirectManipulationViewport::SetChaining (directmanipulation.h)
 author: windows-sdk-content
 description: Specifies the motion types supported in a viewport that can be chained to a parent viewport.
 old-location: directmanipulation\idirectmanipulationviewport_setchaining.htm

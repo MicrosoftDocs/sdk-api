@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.ISyncProviderConfigUI.GetRegisteredProperties
-title: ISyncProviderConfigUI::GetRegisteredProperties
+title: ISyncProviderConfigUI::GetRegisteredProperties (syncregistration.h)
 author: windows-sdk-content
 description: Obtains configuration UI properties for reading and writing.
 old-location: winsync\isyncproviderconfigui_getregisteredproperties.htm

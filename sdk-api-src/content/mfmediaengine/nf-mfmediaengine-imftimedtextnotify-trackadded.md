@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextNotify.TrackAdded
-title: IMFTimedTextNotify::TrackAdded
+title: IMFTimedTextNotify::TrackAdded (mfmediaengine.h)
 author: windows-sdk-content
 description: Called when a text track is added.
 old-location: mf\imftimedtextnotify_trackadded.htm

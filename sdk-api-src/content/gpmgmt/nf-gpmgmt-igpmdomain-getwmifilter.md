@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMDomain.GetWMIFilter
-title: IGPMDomain::GetWMIFilter
+title: IGPMDomain::GetWMIFilter (gpmgmt.h)
 author: windows-sdk-content
 description: Retrieves a GPMWMIFilter object for the specified path.
 old-location: gpmc\igpmdomain_getwmifilter.htm

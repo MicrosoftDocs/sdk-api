@@ -1,6 +1,6 @@
 ---
 UID: NF:wct.GetThreadWaitChain
-title: GetThreadWaitChain function
+title: GetThreadWaitChain function (wct.h)
 author: windows-sdk-content
 description: Retrieves the wait chain for the specified thread.
 old-location: base\getthreadwaitchain.htm

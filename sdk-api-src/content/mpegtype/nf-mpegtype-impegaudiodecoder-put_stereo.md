@@ -1,6 +1,6 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.put_Stereo
-title: IMpegAudioDecoder::put_Stereo
+title: IMpegAudioDecoder::put_Stereo (mpegtype.h)
 author: windows-sdk-content
 description: Specifies whether the decoder will decode the encoded stream into stereo or mono PCM.
 old-location: dshow\impegaudiodecoder_put_stereo.htm

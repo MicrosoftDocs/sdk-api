@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrEventStore.GetEvent
-title: ISyncMgrEventStore::GetEvent
+title: ISyncMgrEventStore::GetEvent (syncmgr.h)
 author: windows-sdk-content
 description: Gets a specified event object.
 old-location: shell\ISyncMgrEventStore_GetEvent.htm

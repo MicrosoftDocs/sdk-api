@@ -1,6 +1,6 @@
 ---
 UID: NS:aviriff._avistreamheader
-title: AVISTREAMHEADER
+title: AVISTREAMHEADER (aviriff.h)
 author: windows-sdk-content
 description: The AVISTREAMHEADER structure contains information about one stream in an AVI file.
 old-location: dshow\avistreamheader.htm

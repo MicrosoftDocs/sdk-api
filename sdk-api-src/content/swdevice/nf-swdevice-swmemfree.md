@@ -1,6 +1,6 @@
 ---
 UID: NF:swdevice.SwMemFree
-title: SwMemFree function
+title: SwMemFree function (swdevice.h)
 author: windows-sdk-content
 description: Frees memory that other Software Device API functions allocated.
 old-location: swdevice\swmemfree.htm

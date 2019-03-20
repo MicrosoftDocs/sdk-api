@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItem2.Update
-title: IShellItem2::Update
+title: IShellItem2::Update (shobjidl_core.h)
 author: windows-sdk-content
 description: Ensures that any cached information in this item is updated.
 old-location: shell\IShellItem2_Update.htm

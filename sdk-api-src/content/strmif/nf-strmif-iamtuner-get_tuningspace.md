@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTuner.get_TuningSpace
-title: IAMTuner::get_TuningSpace
+title: IAMTuner::get_TuningSpace (strmif.h)
 author: windows-sdk-content
 description: The get_TuningSpace method retrieves the tuning space.
 old-location: dshow\iamtuner_get_tuningspace.htm

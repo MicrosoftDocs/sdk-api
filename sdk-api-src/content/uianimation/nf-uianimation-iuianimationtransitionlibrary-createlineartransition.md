@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary.CreateLinearTransition
-title: IUIAnimationTransitionLibrary::CreateLinearTransition
+title: IUIAnimationTransitionLibrary::CreateLinearTransition (uianimation.h)
 author: windows-sdk-content
 description: Creates a linear transition.
 old-location: uianimation\iuianimationtransitionlibrary_createlineartransition.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:bits2_0._BG_FILE_RANGE
-title: BG_FILE_RANGE
+title: BG_FILE_RANGE (bits2_0.h)
 author: windows-sdk-content
 description: Identifies a range of bytes to download from a file.
 old-location: bits\bg_file_range.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminAcceptReauthenticationEx
-title: MprAdminAcceptReauthenticationEx function
+title: MprAdminAcceptReauthenticationEx function (mprapi.h)
 author: windows-sdk-content
 description: Remote Access Service (RAS) calls the MprAdminAcceptReauthenticationEx function whenever the quarantine state of the client changes.
 old-location: rras\mpradminacceptreauthenticationex.htm

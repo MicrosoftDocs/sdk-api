@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeStringArray.Reset
-title: ICertEncodeStringArray::Reset
+title: ICertEncodeStringArray::Reset (certenc.h)
 author: windows-sdk-content
 description: Specifies the size of the string array and the type of strings the array will contain.
 old-location: security\icertencodestringarray_reset.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMSOM.SetSecurityInfo
-title: IGPMSOM::SetSecurityInfo
+title: IGPMSOM::SetSecurityInfo (gpmgmt.h)
 author: windows-sdk-content
 description: Sets the list of permissions for the scope of management (SOM) to that of the specified object.
 old-location: gpmc\igpmsom_setsecurityinfo.htm

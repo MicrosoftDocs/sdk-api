@@ -1,6 +1,6 @@
 ---
 UID: NF:t2embapi.TTGetEmbeddingType
-title: TTGetEmbeddingType function
+title: TTGetEmbeddingType function (t2embapi.h)
 author: windows-sdk-content
 description: Obtains the embedding privileges of a font.
 old-location: gdi\ttgetembeddingtype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientBrush.SetTransformLookup
-title: IXpsOMGradientBrush::SetTransformLookup
+title: IXpsOMGradientBrush::SetTransformLookup (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the name of the lookup key of a shared matrix transform that is to be used for the brush.
 old-location: xps\ixpsomgradientbrush_settransformlookup.htm

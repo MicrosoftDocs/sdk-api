@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.DeleteAppNonMember
-title: IAzApplicationGroup::DeleteAppNonMember
+title: IAzApplicationGroup::DeleteAppNonMember (azroles.h)
 author: windows-sdk-content
 description: Removes the specified IAzApplicationGroup object from the list of application groups that are refused membership in this application group.
 old-location: security\iazapplicationgroup_deleteappnonmember.htm

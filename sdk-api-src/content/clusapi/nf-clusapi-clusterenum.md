@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterEnum
-title: ClusterEnum function
+title: ClusterEnum function (clusapi.h)
 author: windows-sdk-content
 description: Enumerates the cluster objects in a cluster, returning the name of one object with each call.
 old-location: mscs\clusterenum.htm

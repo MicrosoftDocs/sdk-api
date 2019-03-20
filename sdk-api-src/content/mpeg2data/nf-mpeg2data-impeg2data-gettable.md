@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2data.IMpeg2Data.GetTable
-title: IMpeg2Data::GetTable
+title: IMpeg2Data::GetTable (mpeg2data.h)
 author: windows-sdk-content
 description: GetTable is no longer available for use as of Windows 7.
 old-location: mstv\impeg2data_gettable.htm

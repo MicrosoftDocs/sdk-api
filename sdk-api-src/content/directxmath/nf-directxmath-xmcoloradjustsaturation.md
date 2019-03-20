@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMColorAdjustSaturation
-title: XMColorAdjustSaturation function
+title: XMColorAdjustSaturation function (directxmath.h)
 author: windows-sdk-content
 description: Adjusts the saturation value of a color.
 old-location: dxmath\xmcoloradjustsaturation.htm

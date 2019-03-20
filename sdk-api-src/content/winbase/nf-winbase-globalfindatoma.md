@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GlobalFindAtomA
-title: GlobalFindAtomA function
+title: GlobalFindAtomA function (winbase.h)
 author: windows-sdk-content
 description: Searches the global atom table for the specified character string and retrieves the global atom associated with that string.
 old-location: dataxchg\globalfindatom.htm

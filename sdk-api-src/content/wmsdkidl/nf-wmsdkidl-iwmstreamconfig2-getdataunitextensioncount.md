@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig2.GetDataUnitExtensionCount
-title: IWMStreamConfig2::GetDataUnitExtensionCount
+title: IWMStreamConfig2::GetDataUnitExtensionCount (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetDataUnitExtensionCount method retrieves the total number of data unit extension systems that have been added to the stream.
 old-location: wmformat\iwmstreamconfig2_getdataunitextensioncount.htm

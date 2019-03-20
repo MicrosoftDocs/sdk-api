@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrInterfacePointerMarshall
-title: NdrInterfacePointerMarshall function
+title: NdrInterfacePointerMarshall function (rpcndr.h)
 author: windows-sdk-content
 description: The NdrInterfacePointerMarshall function marshals the interface pointer into a network buffer to be sent to the server.
 old-location: rpc\ndrinterfacepointermarshall.htm

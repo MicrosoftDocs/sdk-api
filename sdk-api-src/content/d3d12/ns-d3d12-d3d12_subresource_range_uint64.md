@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_SUBRESOURCE_RANGE_UINT64
-title: D3D12_SUBRESOURCE_RANGE_UINT64
+title: D3D12_SUBRESOURCE_RANGE_UINT64 (d3d12.h)
 author: windows-sdk-content
 description: Describes a subresource memory range.
 old-location: direct3d12\d3d12_subresource_range_uint64.htm

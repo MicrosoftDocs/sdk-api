@@ -1,6 +1,6 @@
 ---
 UID: NE:wpcevent.tagWPCFLAG_ISBLOCKED
-title: WPCFLAG_ISBLOCKED
+title: WPCFLAG_ISBLOCKED (wpcevent.h)
 author: windows-sdk-content
 description: Indicates information about what events are blocked from use and what controls are in place.
 old-location: parcon\wpcflag_isblocked.htm

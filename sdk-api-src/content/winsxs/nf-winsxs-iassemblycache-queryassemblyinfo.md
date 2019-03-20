@@ -1,6 +1,6 @@
 ---
 UID: NF:winsxs.IAssemblyCache.QueryAssemblyInfo
-title: IAssemblyCache::QueryAssemblyInfo
+title: IAssemblyCache::QueryAssemblyInfo (winsxs.h)
 author: windows-sdk-content
 description: The QueryAssemblyInfo method queries the side-by-side assembly store for assembly information and validates the files in the side-by-side assembly store against the assembly manifest.
 old-location: setup\iassemblycache_queryassemblyinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.OnDestroy
-title: IBrowserService2::OnDestroy
+title: IBrowserService2::OnDestroy (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Calls the derived class from the base class on receipt of a WM_DESTROY message. The derived class handles the message.
 old-location: shell\IBrowserService2_OnDestroy.htm

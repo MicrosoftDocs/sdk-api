@@ -1,6 +1,6 @@
 ---
 UID: NS:clfs._CLS_SCAN_CONTEXT
-title: CLS_SCAN_CONTEXT
+title: CLS_SCAN_CONTEXT (clfs.h)
 author: windows-sdk-content
 description: Contains information about the containers that are being scanned by ScanLogContainers, the kind of scan that is being performed, and a cursor to track which containers have been scanned.
 old-location: fs\clfs_scan_context.htm

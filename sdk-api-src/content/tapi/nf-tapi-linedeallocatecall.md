@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineDeallocateCall
-title: lineDeallocateCall function
+title: lineDeallocateCall function (tapi.h)
 author: windows-sdk-content
 description: Deallocates the specified call handle.
 old-location: tapi2\linedeallocatecall.htm

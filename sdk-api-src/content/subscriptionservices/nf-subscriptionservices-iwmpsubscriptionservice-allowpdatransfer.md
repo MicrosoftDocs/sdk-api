@@ -1,6 +1,6 @@
 ---
 UID: NF:subscriptionservices.IWMPSubscriptionService.allowPDATransfer
-title: IWMPSubscriptionService::allowPDATransfer
+title: IWMPSubscriptionService::allowPDATransfer (subscriptionservices.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpsubscriptionservice_allowpdatransfer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:shlobj_core.IObjMgr
-title: IObjMgr
+title: IObjMgr (shlobj_core.h)
 author: windows-sdk-content
 description: Exposes methods that allow a client to append or remove an object from a collection of objects managed by a server object.
 old-location: shell\IObjMgr.htm

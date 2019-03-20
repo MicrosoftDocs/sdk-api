@@ -1,6 +1,6 @@
 ---
 UID: NS:ddkmapi._DDGETFIELDNUMOUT
-title: DDGETFIELDNUMOUT
+title: DDGETFIELDNUMOUT (ddkmapi.h)
 author: windows-sdk-content
 description: The DDGETFIELDNUMOUT structure contains the hardware video port's field number.
 old-location: display\ddgetfieldnumout.htm

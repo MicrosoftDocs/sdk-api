@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern2.get_CurrentZoomLevel
-title: IUIAutomationTransformPattern2::get_CurrentZoomLevel
+title: IUIAutomationTransformPattern2::get_CurrentZoomLevel (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the zoom level of the control's viewport.
 old-location: winauto\uiauto_iuiautomationtransformpattern2_currentzoomlevel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0015
-title: MPEG_PACKET_LIST
+title: MPEG_PACKET_LIST (mpeg2structs.h)
 author: windows-sdk-content
 description: The MPEG_PACKET_LIST structure contains a list of MPEG-2 sections.
 old-location: mstv\mpeg_packet_list.htm

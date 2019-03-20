@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfUIElementMgr.GetUIElement
-title: ITfUIElementMgr::GetUIElement
+title: ITfUIElementMgr::GetUIElement (msctf.h)
 author: windows-sdk-content
 description: The ITfUIElementMgr::GetUIElement method gets the ITfUIElement interface of the element id.
 old-location: tsf\itfuielementmgr_getuielement.htm

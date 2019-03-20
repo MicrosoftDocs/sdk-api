@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IEnumObjects.Next
-title: IEnumObjects::Next
+title: IEnumObjects::Next (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the next specified number and type of objects.
 old-location: shell\IEnumObjects_Next.htm

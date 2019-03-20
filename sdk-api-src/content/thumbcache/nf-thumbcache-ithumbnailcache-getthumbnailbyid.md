@@ -1,6 +1,6 @@
 ---
 UID: NF:thumbcache.IThumbnailCache.GetThumbnailByID
-title: IThumbnailCache::GetThumbnailByID
+title: IThumbnailCache::GetThumbnailByID (thumbcache.h)
 author: windows-sdk-content
 description: Gets a thumbnail from the thumbnail cache, given its ID.
 old-location: shell\IThumbnailCache_GetThumbnailByID.htm

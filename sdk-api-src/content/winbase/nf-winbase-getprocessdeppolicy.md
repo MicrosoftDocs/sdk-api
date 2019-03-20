@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetProcessDEPPolicy
-title: GetProcessDEPPolicy function
+title: GetProcessDEPPolicy function (winbase.h)
 author: windows-sdk-content
 description: Gets the data execution prevention (DEP) and DEP-ATL thunk emulation settings for the specified 32-bit process.Windows XP with SP3:  Gets the DEP and DEP-ATL thunk emulation settings for the current process.
 old-location: base\getprocessdeppolicy.htm

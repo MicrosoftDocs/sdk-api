@@ -1,6 +1,6 @@
 ---
 UID: NN:syncmgr.ISyncMgrHandlerInfo
-title: ISyncMgrHandlerInfo
+title: ISyncMgrHandlerInfo (syncmgr.h)
 author: windows-sdk-content
 description: Exposes methods that allow a handler to provide property and state information to Sync Center.
 old-location: shell\ISyncMgrHandlerInfo.htm

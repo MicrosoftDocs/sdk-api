@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminUserSetInfo
-title: MprAdminUserSetInfo function
+title: MprAdminUserSetInfo function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminUserSetInfo function sets RAS information for the specified user.
 old-location: rras\mpradminusersetinfo.htm

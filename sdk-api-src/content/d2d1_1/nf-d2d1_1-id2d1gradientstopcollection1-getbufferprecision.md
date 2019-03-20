@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1GradientStopCollection1.GetBufferPrecision
-title: ID2D1GradientStopCollection1::GetBufferPrecision
+title: ID2D1GradientStopCollection1::GetBufferPrecision (d2d1_1.h)
 author: windows-sdk-content
 description: Gets the precision of the gradient buffer.
 old-location: direct2d\id2d1gradientstopcollection1_getbufferprecision.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._FSCTL_GET_INTEGRITY_INFORMATION_BUFFER
-title: FSCTL_GET_INTEGRITY_INFORMATION_BUFFER
+title: FSCTL_GET_INTEGRITY_INFORMATION_BUFFER (winioctl.h)
 author: windows-sdk-content
 description: Contains the integrity information for a file or directory.
 old-location: fs\fsctl_get_integrity_information_buffer.htm

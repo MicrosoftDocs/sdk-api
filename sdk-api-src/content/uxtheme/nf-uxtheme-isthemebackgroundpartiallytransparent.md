@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.IsThemeBackgroundPartiallyTransparent
-title: IsThemeBackgroundPartiallyTransparent function
+title: IsThemeBackgroundPartiallyTransparent function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves whether the background specified by the visual style has transparent pieces or alpha-blended pieces.
 old-location: controls\IsThemeBackgroundPartiallyTransparent.htm

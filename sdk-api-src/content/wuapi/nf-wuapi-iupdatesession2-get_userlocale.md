@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSession2.get_UserLocale
-title: IUpdateSession2::get_UserLocale
+title: IUpdateSession2::get_UserLocale (wuapi.h)
 author: windows-sdk-content
 description: Gets and sets the preferred locale for which update information is retrieved..
 old-location: wua\iupdatesession2_userlocale.htm

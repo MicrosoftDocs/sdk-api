@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1Properties.GetValue
-title: ID2D1Properties::GetValue
+title: ID2D1Properties::GetValue (d2d1_1.h)
 author: windows-sdk-content
 description: Gets the value of the specified property by index.
 old-location: direct2d\id2d1properties_getvalue.htm

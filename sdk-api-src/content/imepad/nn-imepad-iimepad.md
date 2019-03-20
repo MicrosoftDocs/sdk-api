@@ -1,6 +1,6 @@
 ---
 UID: NN:imepad.IImePad
-title: IImePad
+title: IImePad (imepad.h)
 author: windows-sdk-content
 description: The IImePad interface inserts text into apps from IMEPadApplets that implement the IImePadApplet interface.
 old-location: intl\iimepad.htm

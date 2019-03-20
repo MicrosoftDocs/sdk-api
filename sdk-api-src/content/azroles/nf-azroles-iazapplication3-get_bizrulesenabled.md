@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication3.get_BizRulesEnabled
-title: IAzApplication3::get_BizRulesEnabled
+title: IAzApplication3::get_BizRulesEnabled (azroles.h)
 author: windows-sdk-content
 description: Gets or sets a value that indicates whether business rules are enabled for this application.
 old-location: security\iazapplication3_bizrulesenabled.htm

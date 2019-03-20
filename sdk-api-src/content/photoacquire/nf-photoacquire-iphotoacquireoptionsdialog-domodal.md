@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireOptionsDialog.DoModal
-title: IPhotoAcquireOptionsDialog::DoModal
+title: IPhotoAcquireOptionsDialog::DoModal (photoacquire.h)
 author: windows-sdk-content
 description: The DoModal method creates and displays the options dialog box as a modal dialog box.
 old-location: picacq\iphotoacquireoptionsdialog_domodal.htm

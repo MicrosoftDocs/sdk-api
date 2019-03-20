@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.LoadCursorFromFileA
-title: LoadCursorFromFileA function
+title: LoadCursorFromFileA function (winuser.h)
 author: windows-sdk-content
 description: Creates a cursor based on data contained in a file.
 old-location: menurc\loadcursorfromfile.htm

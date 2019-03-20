@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._CSV_NAMESPACE_INFO
-title: CSV_NAMESPACE_INFO
+title: CSV_NAMESPACE_INFO (winioctl.h)
 author: windows-sdk-content
 description: Contains the output for the FSCTL_IS_CSV_FILE control code that retrieves namespace information for a file.
 old-location: fs\csv_namespace_info.htm

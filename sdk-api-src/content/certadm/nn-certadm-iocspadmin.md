@@ -1,6 +1,6 @@
 ---
 UID: NN:certadm.IOCSPAdmin
-title: IOCSPAdmin
+title: IOCSPAdmin (certadm.h)
 author: windows-sdk-content
 description: Provides functionality to manage an Online Certificate Status Protocol (OCSP) responder server.
 old-location: security\iocspadmin.htm

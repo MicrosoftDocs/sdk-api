@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvNotify
-title: DrvNotify function
+title: DrvNotify function (winddi.h)
 author: windows-sdk-content
 description: The DrvNotify function allows a display driver to be notified about certain information by GDI.
 old-location: display\drvnotify.htm

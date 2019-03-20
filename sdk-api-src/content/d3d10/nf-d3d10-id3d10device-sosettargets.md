@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.SOSetTargets
-title: ID3D10Device::SOSetTargets
+title: ID3D10Device::SOSetTargets (d3d10.h)
 author: windows-sdk-content
 description: Set the target output buffers for the StreamOutput stage, which enables/disables the pipeline to stream-out data.
 old-location: direct3d10\id3d10device_sosettargets.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._IFIMETRICS
-title: IFIMETRICS
+title: IFIMETRICS (winddi.h)
 author: windows-sdk-content
 description: The IFIMETRICS structure defines information for a given typeface that GDI can use.
 old-location: display\ifimetrics.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpSetFilterV4
-title: DhcpSetFilterV4 function
+title: DhcpSetFilterV4 function (dhcpsapi.h)
 author: windows-sdk-content
 description: Enables or disables the allow and deny lists on a DHCP server.
 old-location: dhcp\dhcpsetfilterv4.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationRangeValuePattern.get_CachedIsReadOnly
-title: IUIAutomationRangeValuePattern::get_CachedIsReadOnly
+title: IUIAutomationRangeValuePattern::get_CachedIsReadOnly (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached value that indicates whether the value of the element can be changed.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CachedIsReadOnly.htm

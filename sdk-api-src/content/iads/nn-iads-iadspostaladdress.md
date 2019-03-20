@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsPostalAddress
-title: IADsPostalAddress
+title: IADsPostalAddress (iads.h)
 author: windows-sdk-content
 description: The IADsPostalAddress interface provides methods for an ADSI client to access the Postal Address attribute.
 old-location: adsi\iadspostaladdress.htm

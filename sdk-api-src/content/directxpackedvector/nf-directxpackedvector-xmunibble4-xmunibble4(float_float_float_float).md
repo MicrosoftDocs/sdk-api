@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMUNIBBLE4.XMUNIBBLE4(float,float,float,float)
-title: XMUNIBBLE4::XMUNIBBLE4(float,float,float,float)
+title: XMUNIBBLE4::XMUNIBBLE4(float,float,float,float) (directxpackedvector.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMUNIBBLE4 from four float arguments.
 old-location: dxmath\xmunibble4_ctor_5.htm

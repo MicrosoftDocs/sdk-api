@@ -1,6 +1,6 @@
 ---
 UID: NE:featurestagingapi.FEATURE_ENABLED_STATE
-title: FEATURE_ENABLED_STATE
+title: FEATURE_ENABLED_STATE (featurestagingapi.h)
 author: windows-sdk-content
 description: This enumeration is intended for infrastructure use only.
 old-location: winprog\feature_enabled_state.htm

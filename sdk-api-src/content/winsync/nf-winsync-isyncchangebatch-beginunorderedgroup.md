@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatch.BeginUnorderedGroup
-title: ISyncChangeBatch::BeginUnorderedGroup
+title: ISyncChangeBatch::BeginUnorderedGroup (winsync.h)
 author: windows-sdk-content
 description: Opens an unordered group in the change batch. Item changes in this group can be in any order.
 old-location: winsync\isyncchangebatch_beginunorderedgroup.htm

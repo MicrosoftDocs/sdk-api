@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupGetTargetPathW
-title: SetupGetTargetPathW function
+title: SetupGetTargetPathW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupGetTargetPath function determines the target directory for a file list section.
 old-location: setup\setupgettargetpath.htm

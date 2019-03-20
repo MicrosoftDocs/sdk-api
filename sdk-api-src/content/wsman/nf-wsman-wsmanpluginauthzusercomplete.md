@@ -1,6 +1,6 @@
 ---
 UID: NF:wsman.WSManPluginAuthzUserComplete
-title: WSManPluginAuthzUserComplete function
+title: WSManPluginAuthzUserComplete function (wsman.h)
 author: windows-sdk-content
 description: Reports either a successful or failed user connection authorization.
 old-location: winrm\wsmanpluginauthzusercomplete.htm

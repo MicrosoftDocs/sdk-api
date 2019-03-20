@@ -1,6 +1,6 @@
 ---
 UID: NS:lmwksta._WKSTA_INFO_102
-title: WKSTA_INFO_102
+title: WKSTA_INFO_102 (lmwksta.h)
 author: windows-sdk-content
 description: Contains information about a workstation environment, including platform-specific information, the name of the domain and the local computer, and information concerning the operating system.
 old-location: netmgmt\wksta_info_102_str.htm

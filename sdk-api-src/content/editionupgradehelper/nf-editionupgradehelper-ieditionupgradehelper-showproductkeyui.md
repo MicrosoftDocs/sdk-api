@@ -1,6 +1,6 @@
 ---
 UID: NF:editionupgradehelper.IEditionUpgradeHelper.ShowProductKeyUI
-title: IEditionUpgradeHelper::ShowProductKeyUI
+title: IEditionUpgradeHelper::ShowProductKeyUI (editionupgradehelper.h)
 author: windows-sdk-content
 description: Displays the user interface through which the user can provide a product key to upgrade or get a genuine copy of the operating system.
 old-location: winprog\ieditionupgradehelper_showproductkeyui.htm

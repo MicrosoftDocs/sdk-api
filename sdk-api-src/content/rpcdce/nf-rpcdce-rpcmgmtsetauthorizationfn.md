@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcMgmtSetAuthorizationFn
-title: RpcMgmtSetAuthorizationFn function
+title: RpcMgmtSetAuthorizationFn function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcMgmtSetAuthorizationFn function establishes an authorization function for processing remote calls to a server's management functions.
 old-location: rpc\rpcmgmtsetauthorizationfn.htm

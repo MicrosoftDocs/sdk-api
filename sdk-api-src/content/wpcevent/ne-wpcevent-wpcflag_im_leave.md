@@ -1,6 +1,6 @@
 ---
 UID: NE:wpcevent.tagWPCFLAG_IM_LEAVE_FLAG
-title: WPCFLAG_IM_LEAVE
+title: WPCFLAG_IM_LEAVE (wpcevent.h)
 author: windows-sdk-content
 description: Indicates information about when a participant leaves the instant messaging interaction.
 old-location: parcon\wpcflag_im_leave_flag.htm

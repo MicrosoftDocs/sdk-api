@@ -1,6 +1,6 @@
 ---
 UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0000_0006
-title: RDPENCOMAPI_ATTENDEE_FLAGS
+title: RDPENCOMAPI_ATTENDEE_FLAGS (rdpencomapi.h)
 author: windows-sdk-content
 description: Defines values for the type of attendee.
 old-location: rdp\rdpencomapi_attendee_flags.htm

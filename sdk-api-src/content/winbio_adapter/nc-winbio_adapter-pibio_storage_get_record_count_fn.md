@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_GET_RECORD_COUNT_FN
-title: PIBIO_STORAGE_GET_RECORD_COUNT_FN
+title: PIBIO_STORAGE_GET_RECORD_COUNT_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Retrieves the number of template records in the pipeline result set.
 old-location: secbiomet\storageadaptergetrecordcount.htm

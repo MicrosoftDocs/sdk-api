@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint.DD_KERNELCALLBACKS
-title: DD_KERNELCALLBACKS
+title: DD_KERNELCALLBACKS (ddrawint.h)
 author: windows-sdk-content
 description: The DD_KERNELCALLBACKS structure contains entry pointers to the DirectDraw kernel-mode callback functions that the driver supports.
 old-location: display\dd_kernelcallbacks.htm

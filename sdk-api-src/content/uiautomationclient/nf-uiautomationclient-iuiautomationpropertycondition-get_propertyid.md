@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationPropertyCondition.get_PropertyId
-title: IUIAutomationPropertyCondition::get_PropertyId
+title: IUIAutomationPropertyCondition::get_PropertyId (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the identifier of the property on which this condition is based.
 old-location: winauto\uiauto_IUIAutomationPropertyCondition_PropertyId.htm

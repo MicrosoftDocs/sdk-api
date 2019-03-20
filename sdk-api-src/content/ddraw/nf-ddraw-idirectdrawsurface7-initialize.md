@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.Initialize
-title: IDirectDrawSurface7::Initialize
+title: IDirectDrawSurface7::Initialize (ddraw.h)
 author: windows-sdk-content
 description: Initializes a DirectDrawSurface object.
 old-location: directdraw\idirectdrawsurface7_initialize.htm

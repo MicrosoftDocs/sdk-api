@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10.ID3D10DeviceChild
-title: ID3D10DeviceChild
+title: ID3D10DeviceChild (d3d10.h)
 author: windows-sdk-content
 description: A device-child interface accesses data used by a device.
 old-location: direct3d10\id3d10devicechild.htm

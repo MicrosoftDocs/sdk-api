@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.SetSpaceBefore
-title: ITextPara::SetSpaceBefore
+title: ITextPara::SetSpaceBefore (tom.h)
 author: windows-sdk-content
 description: Sets the amount of space preceding a paragraph.
 old-location: controls\ITextPara_SetSpaceBefore.htm

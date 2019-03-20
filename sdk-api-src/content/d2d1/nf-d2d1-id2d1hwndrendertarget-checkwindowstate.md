@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1HwndRenderTarget.CheckWindowState
-title: ID2D1HwndRenderTarget::CheckWindowState
+title: ID2D1HwndRenderTarget::CheckWindowState (d2d1.h)
 author: windows-sdk-content
 description: Indicates whether the HWND associated with this render target is occluded.
 old-location: direct2d\ID2D1HwndRenderTarget_CheckWindowState.htm

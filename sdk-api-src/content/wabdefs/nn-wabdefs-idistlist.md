@@ -1,6 +1,6 @@
 ---
 UID: NN:wabdefs.IDistList
-title: IDistList
+title: IDistList (wabdefs.h)
 author: windows-sdk-content
 description: Do not use. This interface is used to provide access to distribution lists in modifiable address book containers. The interface provides methods to create, copy, and delete distribution lists, in addition to performing name resolution.
 old-location: wab\_wab_IDistList.htm

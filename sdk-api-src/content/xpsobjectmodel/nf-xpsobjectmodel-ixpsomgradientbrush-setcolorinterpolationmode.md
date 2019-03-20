@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientBrush.SetColorInterpolationMode
-title: IXpsOMGradientBrush::SetColorInterpolationMode
+title: IXpsOMGradientBrush::SetColorInterpolationMode (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the XPS_COLOR_INTERPOLATION value, which describes the gamma function to be used for color interpolation.
 old-location: xps\ixpsomgradientbrush_setcolorinterpolationmode.htm

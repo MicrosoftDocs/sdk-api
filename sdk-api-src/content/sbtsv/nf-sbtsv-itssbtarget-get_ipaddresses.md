@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTarget.get_IpAddresses
-title: ITsSbTarget::get_IpAddresses
+title: ITsSbTarget::get_IpAddresses (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves or specifies the external IP addresses of the target.
 old-location: termserv\itssbtarget_ipaddresses.htm

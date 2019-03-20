@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.get_ModulationType
-title: IBDA_DigitalDemodulator::get_ModulationType
+title: IBDA_DigitalDemodulator::get_ModulationType (bdaiface.h)
 author: windows-sdk-content
 description: The get_ModulationType method retrieves the modulation type for the signal.
 old-location: mstv\ibda_digitaldemodulator_get_modulationtype.htm

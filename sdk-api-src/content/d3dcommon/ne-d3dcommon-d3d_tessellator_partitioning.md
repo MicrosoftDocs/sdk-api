@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dcommon.D3D_TESSELLATOR_PARTITIONING
-title: D3D_TESSELLATOR_PARTITIONING
+title: D3D_TESSELLATOR_PARTITIONING (d3dcommon.h)
 author: windows-sdk-content
 description: Partitioning options.
 old-location: direct3d11\d3d11_tessellator_partitioning.htm

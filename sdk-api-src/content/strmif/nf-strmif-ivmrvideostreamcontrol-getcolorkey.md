@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRVideoStreamControl.GetColorKey
-title: IVMRVideoStreamControl::GetColorKey
+title: IVMRVideoStreamControl::GetColorKey (strmif.h)
 author: windows-sdk-content
 description: The GetColorKey method retrieves the source color key currently set for this stream.
 old-location: dshow\ivmrvideostreamcontrol_getcolorkey.htm

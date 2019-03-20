@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallInfo.put_CallInfoBuffer
-title: ITCallInfo::put_CallInfoBuffer
+title: ITCallInfo::put_CallInfoBuffer (tapi3if.h)
 author: windows-sdk-content
 description: The put_CallInfoBuffer method sets call information items which require a buffer, such as user-user information.
 old-location: tapi3\itcallinfo_put_callinfobuffer.htm

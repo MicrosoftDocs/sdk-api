@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgidebug.DXGI_INFO_QUEUE_MESSAGE_SEVERITY
-title: DXGI_INFO_QUEUE_MESSAGE_SEVERITY
+title: DXGI_INFO_QUEUE_MESSAGE_SEVERITY (dxgidebug.h)
 author: windows-sdk-content
 description: Values that specify debug message severity levels for an information queue.
 old-location: direct3ddxgi\dxgi_info_queue_message_severity.htm

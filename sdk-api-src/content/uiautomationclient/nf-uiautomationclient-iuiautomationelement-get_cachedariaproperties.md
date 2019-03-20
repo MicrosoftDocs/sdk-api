@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedAriaProperties
-title: IUIAutomationElement::get_CachedAriaProperties
+title: IUIAutomationElement::get_CachedAriaProperties (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached Accessible Rich Internet Applications (ARIA) properties of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedAriaProperties.htm

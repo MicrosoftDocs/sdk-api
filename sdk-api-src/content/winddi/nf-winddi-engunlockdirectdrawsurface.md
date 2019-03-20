@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngUnlockDirectDrawSurface
-title: EngUnlockDirectDrawSurface function
+title: EngUnlockDirectDrawSurface function (winddi.h)
 author: windows-sdk-content
 description: The EngUnlockDirectDrawSurface function releases the lock on the specified surface.
 old-location: display\engunlockdirectdrawsurface.htm

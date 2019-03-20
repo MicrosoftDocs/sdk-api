@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IFolderViewHost.Initialize
-title: IFolderViewHost::Initialize
+title: IFolderViewHost::Initialize (shobjidl.h)
 author: windows-sdk-content
 description: Initializes the object that hosts an IFolderView object.
 old-location: shell\IFolderViewHost_Initialize.htm

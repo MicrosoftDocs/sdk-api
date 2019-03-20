@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDrawingAttributes.get_Width
-title: IInkDrawingAttributes::get_Width
+title: IInkDrawingAttributes::get_Width (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the y-axis dimension, or width, of the pen tip when drawing ink.
 old-location: tablet\inkdrawingattributes_width.htm

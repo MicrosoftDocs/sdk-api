@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorage.SetAttributes
-title: IWMDMStorage::SetAttributes
+title: IWMDMStorage::SetAttributes (mswmdm.h)
 author: windows-sdk-content
 description: The SetAttributes method sets the attributes of the storage.
 old-location: wmdm\iwmdmstorage_setattributes.htm

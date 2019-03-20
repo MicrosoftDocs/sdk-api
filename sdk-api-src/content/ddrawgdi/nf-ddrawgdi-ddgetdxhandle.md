@@ -1,6 +1,6 @@
 ---
 UID: NF:ddrawgdi.DdGetDxHandle
-title: DdGetDxHandle function
+title: DdGetDxHandle function (ddrawgdi.h)
 author: windows-sdk-content
 description: Returns the kernel-mode Microsoft DirectX  API handle to use in subsequent calls to the kernel-mode entry points that control the DirectX  API mechanism.
 old-location: winprog\_dxgkernel_ddgetdxhandle.htm

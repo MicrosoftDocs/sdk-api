@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.QueueUserAPC
-title: QueueUserAPC function
+title: QueueUserAPC function (processthreadsapi.h)
 author: windows-sdk-content
 description: Adds a user-mode asynchronous procedure call (APC) object to the APC queue of the specified thread.
 old-location: base\queueuserapc.htm

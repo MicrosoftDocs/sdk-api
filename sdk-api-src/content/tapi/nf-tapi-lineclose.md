@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineClose
-title: lineClose function
+title: lineClose function (tapi.h)
 author: windows-sdk-content
 description: The lineClose function closes the specified open line device.
 old-location: tapi2\lineclose.htm

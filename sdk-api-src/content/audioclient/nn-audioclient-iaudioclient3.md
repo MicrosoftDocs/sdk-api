@@ -1,6 +1,6 @@
 ---
 UID: NN:audioclient.IAudioClient3
-title: IAudioClient3
+title: IAudioClient3 (audioclient.h)
 author: windows-sdk-content
 description: The IAudioClient3 interface is derived from the IAudioClient2 interface, with a set of additional methods that enable a Windows Audio Session API (WASAPI) audio client to query for the audio engine's supported periodicities and current periodicity as well as request initialization a shared audio stream with a specified periodicity.
 old-location: coreaudio\iaudioclient3.htm

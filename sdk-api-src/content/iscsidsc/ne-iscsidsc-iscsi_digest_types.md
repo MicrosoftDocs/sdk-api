@@ -1,6 +1,6 @@
 ---
 UID: NE:iscsidsc.__unnamed_enum_0
-title: ISCSI_DIGEST_TYPES
+title: ISCSI_DIGEST_TYPES (iscsidsc.h)
 author: windows-sdk-content
 description: ISCSI_DIGEST_TYPES enumeration indicates the digest type.
 old-location: iscsidisc\iscsi_digest_types.htm

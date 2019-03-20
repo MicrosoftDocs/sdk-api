@@ -1,6 +1,6 @@
 ---
 UID: NE:dot1x._ONEX_AUTH_IDENTITY
-title: ONEX_AUTH_IDENTITY
+title: ONEX_AUTH_IDENTITY (dot1x.h)
 author: windows-sdk-content
 description: Specifies the possible values of the identity used for 802.1X authentication status.
 old-location: nwifi\onex_auth_identity.htm

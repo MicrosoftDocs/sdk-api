@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetBidiLevel
-title: IXpsOMGlyphs::GetBidiLevel
+title: IXpsOMGlyphs::GetBidiLevel (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the level of bidirectional text.
 old-location: xps\ixpsomglyphs_getbidilevel.htm

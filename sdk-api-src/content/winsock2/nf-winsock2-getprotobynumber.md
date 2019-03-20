@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.getprotobynumber
-title: getprotobynumber function
+title: getprotobynumber function (winsock2.h)
 author: windows-sdk-content
 description: The getprotobynumber function retrieves protocol information corresponding to a protocol number.
 old-location: winsock\getprotobynumber_2.htm

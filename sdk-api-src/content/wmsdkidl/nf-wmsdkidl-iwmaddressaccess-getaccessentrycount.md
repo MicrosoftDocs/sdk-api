@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMAddressAccess.GetAccessEntryCount
-title: IWMAddressAccess::GetAccessEntryCount
+title: IWMAddressAccess::GetAccessEntryCount (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetAccessEntryCount method retrieves the number of entries in the IP address access list.
 old-location: wmformat\iwmaddressaccess_getaccessentrycount.htm

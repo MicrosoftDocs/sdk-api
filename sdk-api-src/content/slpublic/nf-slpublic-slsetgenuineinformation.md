@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLSetGenuineInformation
-title: SLSetGenuineInformation function
+title: SLSetGenuineInformation function (slpublic.h)
 author: windows-sdk-content
 description: Specifies information about the genuine status of a Windows computer.
 old-location: security\slsetgenuineinformation.htm

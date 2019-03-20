@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SspiFreeAuthIdentity
-title: SspiFreeAuthIdentity function
+title: SspiFreeAuthIdentity function (sspi.h)
 author: windows-sdk-content
 description: Frees the memory allocated for the specified identity structure.
 old-location: security\sspifreeauthidentity.htm

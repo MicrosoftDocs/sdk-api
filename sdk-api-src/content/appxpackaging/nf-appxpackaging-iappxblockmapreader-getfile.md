@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapReader.GetFile
-title: IAppxBlockMapReader::GetFile
+title: IAppxBlockMapReader::GetFile (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves data corresponding to a file in the block map with the specified file name.
 old-location: appxpkg\iappxblockmapreader_getfile.htm

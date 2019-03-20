@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetIndices
-title: IDirect3DDevice9::SetIndices
+title: IDirect3DDevice9::SetIndices (d3d9.h)
 author: windows-sdk-content
 description: Sets index data.
 old-location: direct3d9\idirect3ddevice9__setindices.htm

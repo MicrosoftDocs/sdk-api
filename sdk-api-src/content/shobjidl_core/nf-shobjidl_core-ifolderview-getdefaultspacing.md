@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView.GetDefaultSpacing
-title: IFolderView::GetDefaultSpacing
+title: IFolderView::GetDefaultSpacing (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets a pointer to a POINT structure containing the default width (x) and height (y) measurements of an item, including the surrounding white space.
 old-location: shell\IFolderView_GetDefaultSpacing.htm

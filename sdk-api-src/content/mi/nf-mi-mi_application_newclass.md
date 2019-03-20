@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Application_NewClass
-title: MI_Application_NewClass function
+title: MI_Application_NewClass function (mi.h)
 author: windows-sdk-content
 description: Creates an MI_Class from an MI_ClassDecl structure.
 old-location: wmi_v2\mi_application_newclass.htm

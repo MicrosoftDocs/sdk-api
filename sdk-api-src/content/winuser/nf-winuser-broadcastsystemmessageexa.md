@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.BroadcastSystemMessageExA
-title: BroadcastSystemMessageExA function
+title: BroadcastSystemMessageExA function (winuser.h)
 author: windows-sdk-content
 description: Sends a message to the specified recipients.
 old-location: winmsg\broadcastsystemmessageex.htm

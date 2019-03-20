@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_SURFACE_MORE
-title: DD_SURFACE_MORE
+title: DD_SURFACE_MORE (ddrawint.h)
 author: windows-sdk-content
 description: The DD_SURFACE_MORE structure contains additional local data for each individual DirectDrawSurface object.
 old-location: display\dd_surface_more.htm

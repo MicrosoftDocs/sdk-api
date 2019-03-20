@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITForwardInformation
-title: ITForwardInformation
+title: ITForwardInformation (tapi3if.h)
 author: windows-sdk-content
 description: The ITForwardInformation interface provides methods for setup and implementation of call forwarding.
 old-location: tapi3\itforwardinformation.htm

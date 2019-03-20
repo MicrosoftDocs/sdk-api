@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagINPUT_MESSAGE_SOURCE
-title: INPUT_MESSAGE_SOURCE
+title: INPUT_MESSAGE_SOURCE (winuser.h)
 author: windows-sdk-content
 description: Contains information about the source of the input message.
 old-location: input_sourceid\input_message_source.htm

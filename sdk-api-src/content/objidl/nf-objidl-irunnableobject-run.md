@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IRunnableObject.Run
-title: IRunnableObject::Run
+title: IRunnableObject::Run (objidl.h)
 author: windows-sdk-content
 description: Forces an object to run.
 old-location: com\irunnableobject_run.htm

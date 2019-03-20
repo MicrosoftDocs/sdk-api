@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.get_PanRelative
-title: ICameraControl::get_PanRelative
+title: ICameraControl::get_PanRelative (vidcap.h)
 author: windows-sdk-content
 description: The get_PanRelative method returns the camera's relative pan. The relative pan is expressed as a number of steps, where the size of each step depends on the camera model.
 old-location: dshow\icameracontrol_get_panrelative.htm

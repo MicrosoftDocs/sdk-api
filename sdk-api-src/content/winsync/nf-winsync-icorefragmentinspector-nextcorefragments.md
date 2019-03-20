@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ICoreFragmentInspector.NextCoreFragments
-title: ICoreFragmentInspector::NextCoreFragments
+title: ICoreFragmentInspector::NextCoreFragments (winsync.h)
 author: windows-sdk-content
 description: Returns the next ICoreFragment objects in the knowledge, if they are available.
 old-location: winsync\icorefragmentinspector_nextcorefragments.htm

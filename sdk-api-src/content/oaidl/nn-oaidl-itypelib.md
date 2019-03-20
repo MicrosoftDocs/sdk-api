@@ -1,6 +1,6 @@
 ---
 UID: NN:oaidl.ITypeLib
-title: ITypeLib
+title: ITypeLib (oaidl.h)
 author: windows-sdk-content
 description: Represents a type library, the data that describes a set of objects.
 old-location: automat\itypelib.htm

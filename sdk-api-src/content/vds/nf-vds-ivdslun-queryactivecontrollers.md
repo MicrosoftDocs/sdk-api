@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsLun.QueryActiveControllers
-title: IVdsLun::QueryActiveControllers
+title: IVdsLun::QueryActiveControllers (vds.h)
 author: windows-sdk-content
 description: Returns an enumeration of currently active controllers&#8212;the controllers through which the LUN is accessible.
 old-location: base\ivdslun_queryactivecontrollers.htm

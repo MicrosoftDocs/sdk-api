@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMDomain.GetGPO
-title: IGPMDomain::GetGPO
+title: IGPMDomain::GetGPO (gpmgmt.h)
 author: windows-sdk-content
 description: Retrieves a GPMGPO object with a specified Group Policy object (GPO) ID. The group policy object ID is represented by a GUID.
 old-location: gpmc\igpmdomain_getgpo.htm

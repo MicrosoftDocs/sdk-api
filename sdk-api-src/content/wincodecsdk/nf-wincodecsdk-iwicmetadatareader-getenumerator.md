@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReader.GetEnumerator
-title: IWICMetadataReader::GetEnumerator
+title: IWICMetadataReader::GetEnumerator (wincodecsdk.h)
 author: windows-sdk-content
 description: Gets an enumerator of all the metadata items.
 old-location: wic\_wic_codec_iwicmetadatareader_getenumerator.htm

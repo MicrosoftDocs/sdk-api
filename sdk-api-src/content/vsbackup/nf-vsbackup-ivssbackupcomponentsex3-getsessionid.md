@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx3.GetSessionId
-title: IVssBackupComponentsEx3::GetSessionId
+title: IVssBackupComponentsEx3::GetSessionId (vsbackup.h)
 author: windows-sdk-content
 description: Returns the requester's session identifier.
 old-location: base\ivssbackupcomponentsex3_getsessionid.htm

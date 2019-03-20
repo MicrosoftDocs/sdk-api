@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbParentalRatingDescriptor.GetCountOfRecords
-title: IDvbParentalRatingDescriptor::GetCountOfRecords
+title: IDvbParentalRatingDescriptor::GetCountOfRecords (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the number of records in a Digital Video Broadcast (DVB) parental rating descriptor.
 old-location: mstv\idvbparentalratingdescriptor_getcountofrecords.htm

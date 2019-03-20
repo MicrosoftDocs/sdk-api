@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_UNLOADED_MODULE_LIST
-title: MINIDUMP_UNLOADED_MODULE_LIST
+title: MINIDUMP_UNLOADED_MODULE_LIST (minidumpapiset.h)
 author: windows-sdk-content
 description: Contains a list of unloaded modules.
 old-location: base\minidump_unloaded_module_list_str.htm

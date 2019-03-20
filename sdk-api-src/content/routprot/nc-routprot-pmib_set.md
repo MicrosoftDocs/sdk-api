@@ -1,6 +1,6 @@
 ---
 UID: NC:routprot.PMIB_SET
-title: PMIB_SET
+title: PMIB_SET (routprot.h)
 author: windows-sdk-content
 description: The MibSet function passes a SNMP MIB-style Set Request to the routing protocol.
 old-location: rras\mibset.htm

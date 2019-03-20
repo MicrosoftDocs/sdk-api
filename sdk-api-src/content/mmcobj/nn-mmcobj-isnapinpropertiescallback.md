@@ -1,6 +1,6 @@
 ---
 UID: NN:mmcobj.ISnapinPropertiesCallback
-title: ISnapinPropertiesCallback
+title: ISnapinPropertiesCallback (mmcobj.h)
 author: windows-sdk-content
 description: The ISnapinPropertiesCallback interface adds property names for the snap-in. This interface is implemented by MMC for the snap-in.
 old-location: mmc\isnapinpropertiescallback.htm

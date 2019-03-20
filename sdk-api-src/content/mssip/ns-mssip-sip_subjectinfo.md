@@ -1,6 +1,6 @@
 ---
 UID: NS:mssip.SIP_SUBJECTINFO_
-title: SIP_SUBJECTINFO
+title: SIP_SUBJECTINFO (mssip.h)
 author: windows-sdk-content
 description: Specifies subject information data to the subject interface package (SIP) APIs.
 old-location: security\sip_subjectinfo.htm

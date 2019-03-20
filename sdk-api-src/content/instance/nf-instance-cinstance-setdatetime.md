@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.SetDateTime
-title: CInstance::SetDateTime
+title: CInstance::SetDateTime (instance.h)
 author: windows-sdk-content
 description: The SetDateTime method sets a datetime property.
 old-location: wmi\cinstance_setdatetime.htm

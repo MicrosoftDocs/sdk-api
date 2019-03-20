@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced4.AddLogParam
-title: IWMReaderAdvanced4::AddLogParam
+title: IWMReaderAdvanced4::AddLogParam (wmsdkidl.h)
 author: windows-sdk-content
 description: The AddLogParam method adds a named value to the logging information that the reader object will send to the sever.
 old-location: wmformat\iwmreaderadvanced4_addlogparam.htm

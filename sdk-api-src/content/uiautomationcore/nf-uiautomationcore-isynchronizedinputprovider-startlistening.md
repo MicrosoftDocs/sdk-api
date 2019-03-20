@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ISynchronizedInputProvider.StartListening
-title: ISynchronizedInputProvider::StartListening
+title: ISynchronizedInputProvider::StartListening (uiautomationcore.h)
 author: windows-sdk-content
 description: Starts listening for input of the specified type.
 old-location: winauto\uiauto_ISynchronizedInputProvider_StartListening.htm

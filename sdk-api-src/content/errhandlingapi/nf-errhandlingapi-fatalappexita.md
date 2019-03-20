@@ -1,6 +1,6 @@
 ---
 UID: NF:errhandlingapi.FatalAppExitA
-title: FatalAppExitA function
+title: FatalAppExitA function (errhandlingapi.h)
 author: windows-sdk-content
 description: Displays a message box and terminates the application when the message box is closed.
 old-location: base\fatalappexit.htm

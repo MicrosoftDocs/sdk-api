@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.InitVariantFromBoolean
-title: InitVariantFromBoolean function
+title: InitVariantFromBoolean function (propvarutil.h)
 author: windows-sdk-content
 description: Initializes a VARIANT structure with a Boolean value.
 old-location: properties\InitVariantFromBoolean.htm

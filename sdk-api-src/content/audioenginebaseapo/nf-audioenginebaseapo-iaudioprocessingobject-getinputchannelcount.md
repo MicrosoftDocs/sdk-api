@@ -1,6 +1,6 @@
 ---
 UID: NF:audioenginebaseapo.IAudioProcessingObject.GetInputChannelCount
-title: IAudioProcessingObject::GetInputChannelCount
+title: IAudioProcessingObject::GetInputChannelCount (audioenginebaseapo.h)
 author: windows-sdk-content
 description: GetInputChannelCount returns the input channel count (samples-per-frame) for this APO.
 old-location: audio\iaudioprocessingobject_getinputchannelcount.htm

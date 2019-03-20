@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSettings.put_volume
-title: IWMPSettings::put_volume
+title: IWMPSettings::put_volume (wmp.h)
 author: windows-sdk-content
 description: The put_volume method specifies the current playback volume.
 old-location: wmp\iwmpsettings_put_volume.htm

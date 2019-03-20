@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_compareA
-title: ldap_compareA function
+title: ldap_compareA function (winldap.h)
 author: windows-sdk-content
 description: Use the ldap_compare function to determine whether an attribute for a given entry holds a known value.
 old-location: ldap\ldap_compare.htm

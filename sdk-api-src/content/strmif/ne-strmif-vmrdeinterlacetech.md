@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.VMRDeinterlaceTech
-title: VMRDeinterlaceTech
+title: VMRDeinterlaceTech (strmif.h)
 author: windows-sdk-content
 description: The VMRDeinterlaceTech enumeration type describes the algorithm used for deinterlacing a video stream. The flags are not mutually exclusive; drivers can set a combination of flags.
 old-location: dshow\vmrdeinterlacetech.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.EnumPropertyDefinitions
-title: IFsrmClassificationManager::EnumPropertyDefinitions
+title: IFsrmClassificationManager::EnumPropertyDefinitions (fsrmpipeline.h)
 author: windows-sdk-content
 description: Enumerates the property definitions.
 old-location: fsrm\ifsrmclassificationmanager_enumpropertydefinitions.htm

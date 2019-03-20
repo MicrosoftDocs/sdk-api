@@ -1,6 +1,6 @@
 ---
 UID: NF:emptyvc.IEmptyVolumeCache.Initialize
-title: IEmptyVolumeCache::Initialize
+title: IEmptyVolumeCache::Initialize (emptyvc.h)
 author: windows-sdk-content
 description: Initializes the disk cleanup handler, based on the information stored under the specified registry key.
 old-location: lwef\iemptyvolumecache_initialize.htm

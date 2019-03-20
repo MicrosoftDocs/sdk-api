@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLOpen
-title: SLOpen function
+title: SLOpen function (slpublic.h)
 author: windows-sdk-content
 description: Initializes the Software Licensing Client (SLC) and connects SLC to the Software Licensing Service (SLS).
 old-location: security\slopen.htm

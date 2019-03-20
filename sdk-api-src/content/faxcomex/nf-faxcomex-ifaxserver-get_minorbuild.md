@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer.get_MinorBuild
-title: IFaxServer::get_MinorBuild
+title: IFaxServer::get_MinorBuild (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxServer::get_MinorBuild property is a value that specifies the minor part of the build number for the fax service.
 old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_minorbuild_cpp.htm

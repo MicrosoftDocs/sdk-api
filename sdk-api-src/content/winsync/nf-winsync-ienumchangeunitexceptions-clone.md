@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IEnumChangeUnitExceptions.Clone
-title: IEnumChangeUnitExceptions::Clone
+title: IEnumChangeUnitExceptions::Clone (winsync.h)
 author: windows-sdk-content
 description: Clones the enumerator and returns a new enumerator that is in the same state as the current one.
 old-location: winsync\ienumchangeunitexceptions_clone.htm

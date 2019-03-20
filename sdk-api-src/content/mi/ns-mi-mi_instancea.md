@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_InstanceA
-title: MI_InstanceA
+title: MI_InstanceA (mi.h)
 author: windows-sdk-content
 description: Represents an array of MI_Instance structures.
 old-location: wmi_v2\mi_instancea.htm

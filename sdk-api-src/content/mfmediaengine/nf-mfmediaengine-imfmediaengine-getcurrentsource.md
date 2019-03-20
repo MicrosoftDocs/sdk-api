@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetCurrentSource
-title: IMFMediaEngine::GetCurrentSource
+title: IMFMediaEngine::GetCurrentSource (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the URL of the current media resource, or an empty string if no media resource is present.
 old-location: mf\imfmediaengine_getcurrentsource.htm

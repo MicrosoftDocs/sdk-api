@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteTextAnalyzer1.ApplyCharacterSpacing
-title: IDWriteTextAnalyzer1::ApplyCharacterSpacing
+title: IDWriteTextAnalyzer1::ApplyCharacterSpacing (dwrite_1.h)
 author: windows-sdk-content
 description: Applies spacing between characters, properly adjusting glyph clusters and diacritics.
 old-location: directwrite\idwritetextanalyzer1_applycharacterspacing.htm

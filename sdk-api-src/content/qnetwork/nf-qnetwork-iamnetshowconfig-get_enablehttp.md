@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_EnableHTTP
-title: IAMNetShowConfig::get_EnableHTTP
+title: IAMNetShowConfig::get_EnableHTTP (qnetwork.h)
 author: windows-sdk-content
 description: The get_EnableHTTP method queries whether HTTP-type streaming is enabled.
 old-location: dshow\iamnetshowconfig_get_enablehttp.htm

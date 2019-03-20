@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSARemoveServiceClass
-title: WSARemoveServiceClass function
+title: WSARemoveServiceClass function (winsock2.h)
 author: windows-sdk-content
 description: The WSARemoveServiceClass function permanently removes the service class schema from the registry.
 old-location: winsock\wsaremoveserviceclass_2.htm

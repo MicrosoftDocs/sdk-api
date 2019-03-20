@@ -1,6 +1,6 @@
 ---
 UID: NF:wsman.WSManCloseOperation
-title: WSManCloseOperation function
+title: WSManCloseOperation function (wsman.h)
 author: windows-sdk-content
 description: Cancels or closes an asynchronous operation.
 old-location: winrm\wsmancloseoperation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DefFrameProcA
-title: DefFrameProcA function
+title: DefFrameProcA function (winuser.h)
 author: windows-sdk-content
 description: Provides default processing for any window messages that the window procedure of a multiple-document interface (MDI) frame window does not process.
 old-location: winmsg\defframeproc.htm

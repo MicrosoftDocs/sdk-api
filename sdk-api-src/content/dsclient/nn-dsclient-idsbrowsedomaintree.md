@@ -1,6 +1,6 @@
 ---
 UID: NN:dsclient.IDsBrowseDomainTree
-title: IDsBrowseDomainTree
+title: IDsBrowseDomainTree (dsclient.h)
 author: windows-sdk-content
 description: The IDsBrowseDomainTree interface is used by an application to display a domain browser dialog box and/or obtain a list of trust domains related to a given computer.
 old-location: ad\idsbrowsedomaintree.htm

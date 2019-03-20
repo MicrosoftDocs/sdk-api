@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcGeneratorParameters.GetGeneratorParametersType
-title: IRdcGeneratorParameters::GetGeneratorParametersType
+title: IRdcGeneratorParameters::GetGeneratorParametersType (msrdc.h)
 author: windows-sdk-content
 description: Returns the specific type of the parameters.
 old-location: rdc\irdcgeneratorparameters_getgeneratorparameterstype.htm

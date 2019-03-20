@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.IEnumNetworkConnections.Clone
-title: IEnumNetworkConnections::Clone
+title: IEnumNetworkConnections::Clone (netlistmgr.h)
 author: windows-sdk-content
 description: The Clone method creates an enumerator that contains the same enumeration state as the enumerator currently in use.
 old-location: nla\ienumnetworkconnections_clone.htm

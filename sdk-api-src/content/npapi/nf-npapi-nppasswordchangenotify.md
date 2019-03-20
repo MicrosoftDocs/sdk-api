@@ -1,6 +1,6 @@
 ---
 UID: NF:npapi.NPPasswordChangeNotify
-title: NPPasswordChangeNotify function
+title: NPPasswordChangeNotify function (npapi.h)
 author: windows-sdk-content
 description: MPR calls this function to notify the credential manager of a password change event.
 old-location: security\nppasswordchangenotify.htm

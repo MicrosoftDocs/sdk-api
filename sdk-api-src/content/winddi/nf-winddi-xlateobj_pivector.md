@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.XLATEOBJ_piVector
-title: XLATEOBJ_piVector function
+title: XLATEOBJ_piVector function (winddi.h)
 author: windows-sdk-content
 description: The XLATEOBJ_piVector function retrieves a translation vector that the driver can use to translate source indices to destination indices.
 old-location: display\xlateobj_pivector.htm

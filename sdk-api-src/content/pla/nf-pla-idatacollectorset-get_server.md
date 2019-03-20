@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_Server
-title: IDataCollectorSet::get_Server
+title: IDataCollectorSet::get_Server (pla.h)
 author: windows-sdk-content
 description: Retrieves the name of the server where the data collector set is run.
 old-location: pla\idatacollectorset_get_server.htm

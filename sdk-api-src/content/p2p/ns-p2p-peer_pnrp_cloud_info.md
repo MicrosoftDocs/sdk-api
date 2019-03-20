@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_pnrp_cloud_info_tag
-title: PEER_PNRP_CLOUD_INFO
+title: PEER_PNRP_CLOUD_INFO (p2p.h)
 author: windows-sdk-content
 description: Contains information about a Peer Name Resolution Protocol (PNRP) cloud.
 old-location: p2p\peer_pnrp_cloud_info.htm

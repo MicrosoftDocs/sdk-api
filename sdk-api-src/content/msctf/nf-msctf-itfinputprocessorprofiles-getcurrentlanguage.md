@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.GetCurrentLanguage
-title: ITfInputProcessorProfiles::GetCurrentLanguage
+title: ITfInputProcessorProfiles::GetCurrentLanguage (msctf.h)
 author: windows-sdk-content
 description: ITfInputProcessorProfiles::GetCurrentLanguage method
 old-location: tsf\itfinputprocessorprofiles_getcurrentlanguage.htm

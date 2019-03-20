@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.ICertView.EnumCertViewColumn
-title: ICertView::EnumCertViewColumn
+title: ICertView::EnumCertViewColumn (certview.h)
 author: windows-sdk-content
 description: Obtains an instance of a column-enumeration sequence for the database schema.
 old-location: security\icertview2_enumcertviewcolumn.htm

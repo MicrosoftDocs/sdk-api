@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IPin.ConnectionMediaType
-title: IPin::ConnectionMediaType
+title: IPin::ConnectionMediaType (strmif.h)
 author: windows-sdk-content
 description: The ConnectionMediaType method retrieves the media type for the current pin connection, if any.
 old-location: dshow\ipin_connectionmediatype.htm

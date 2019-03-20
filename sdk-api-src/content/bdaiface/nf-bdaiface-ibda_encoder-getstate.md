@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_Encoder.GetState
-title: IBDA_Encoder::GetState
+title: IBDA_Encoder::GetState (bdaiface.h)
 author: windows-sdk-content
 description: Queries the current state of the Encoder Service.
 old-location: mstv\ibda_encoder_getstate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTranscodeProfile.SetVideoAttributes
-title: IMFTranscodeProfile::SetVideoAttributes
+title: IMFTranscodeProfile::SetVideoAttributes (mfidl.h)
 author: windows-sdk-content
 description: Sets video stream configuration settings in the transcode profile.
 old-location: mf\imftranscodeprofile_setvideoattributes.htm

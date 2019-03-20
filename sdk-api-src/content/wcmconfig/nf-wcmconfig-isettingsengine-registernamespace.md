@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.RegisterNamespace
-title: ISettingsEngine::RegisterNamespace
+title: ISettingsEngine::RegisterNamespace (wcmconfig.h)
 author: windows-sdk-content
 description: Registers a namespace from a stream.
 old-location: smi\isettingsengine_registernamespace.htm

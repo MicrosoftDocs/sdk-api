@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetContext
-title: ISyncMgrEvent::GetContext
+title: ISyncMgrEvent::GetContext (syncmgr.h)
 author: windows-sdk-content
 description: Gets a context object that can be used by a handler to display properties or execute a context menu action.
 old-location: shell\ISyncMgrEvent_GetContext.htm

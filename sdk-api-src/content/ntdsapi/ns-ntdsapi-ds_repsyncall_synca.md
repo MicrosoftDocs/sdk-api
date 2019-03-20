@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdsapi.__unnamed_struct_4
-title: DS_REPSYNCALL_SYNCA
+title: DS_REPSYNCALL_SYNCA (ntdsapi.h)
 author: windows-sdk-content
 description: The DS_REPSYNCALL_SYNC structure identifies a single replication operation performed between a source, and destination, server by the DsReplicaSyncAll function.
 old-location: ad\ds_repsyncall_sync.htm

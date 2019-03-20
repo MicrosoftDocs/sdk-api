@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern.get_CurrentCanRotate
-title: IUIAutomationTransformPattern::get_CurrentCanRotate
+title: IUIAutomationTransformPattern::get_CurrentCanRotate (uiautomationclient.h)
 author: windows-sdk-content
 description: Indicates whether the element can be rotated.
 old-location: winauto\uiauto_IUIAutomationTransformPattern_CurrentCanRotate.htm

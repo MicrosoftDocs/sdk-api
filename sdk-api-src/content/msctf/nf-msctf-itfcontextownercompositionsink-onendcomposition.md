@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextOwnerCompositionSink.OnEndComposition
-title: ITfContextOwnerCompositionSink::OnEndComposition
+title: ITfContextOwnerCompositionSink::OnEndComposition (msctf.h)
 author: windows-sdk-content
 description: ITfContextOwnerCompositionSink::OnEndComposition method
 old-location: tsf\itfcontextownercompositionsink_onendcomposition.htm

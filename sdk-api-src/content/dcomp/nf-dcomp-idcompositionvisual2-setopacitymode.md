@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionVisual2.SetOpacityMode
-title: IDCompositionVisual2::SetOpacityMode
+title: IDCompositionVisual2::SetOpacityMode (dcomp.h)
 author: windows-sdk-content
 description: Sets the opacity mode for this visual.
 old-location: directcomp\idcompositionvisual2_setopacitymode.htm

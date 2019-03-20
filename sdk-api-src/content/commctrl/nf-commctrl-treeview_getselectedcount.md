@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_GetSelectedCount
-title: TreeView_GetSelectedCount macro
+title: TreeView_GetSelectedCount macro (commctrl.h)
 author: windows-sdk-content
 description: TreeView_GetSelectedCount macro
 old-location: controls\TreeView_GetSelectedCount.htm

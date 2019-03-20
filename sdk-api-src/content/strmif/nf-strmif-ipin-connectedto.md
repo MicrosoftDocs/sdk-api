@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IPin.ConnectedTo
-title: IPin::ConnectedTo
+title: IPin::ConnectedTo (strmif.h)
 author: windows-sdk-content
 description: The ConnectedTo method retrieves a pointer to the connected pin, if any.
 old-location: dshow\ipin_connectedto.htm

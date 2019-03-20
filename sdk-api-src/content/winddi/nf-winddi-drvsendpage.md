@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvSendPage
-title: DrvSendPage function
+title: DrvSendPage function (winddi.h)
 author: windows-sdk-content
 description: A printer graphics DLL's DrvSendPage function is called by GDI when it has finished drawing a physical page, so the driver can send the page to the printer.
 old-location: display\drvsendpage.htm

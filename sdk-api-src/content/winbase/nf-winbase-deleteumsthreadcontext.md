@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.DeleteUmsThreadContext
-title: DeleteUmsThreadContext function
+title: DeleteUmsThreadContext function (winbase.h)
 author: windows-sdk-content
 description: Deletes the specified user-mode scheduling (UMS) thread context. The thread must be terminated.
 old-location: base\deleteumsthreadcontext.htm

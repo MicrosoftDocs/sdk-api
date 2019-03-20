@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidClosedCaptioning
-title: IMSVidClosedCaptioning
+title: IMSVidClosedCaptioning (segment.h)
 author: windows-sdk-content
 description: The IMSVidClosedCaptioning interface enables or disables closed captions.
 old-location: mstv\imsvidclosedcaptioning.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.capOverlay
-title: capOverlay macro
+title: capOverlay macro (vfw.h)
 author: windows-sdk-content
 description: The capOverlay macro enables or disables overlay mode. In overlay mode, video is displayed using hardware overlay. You can use this macro or explicitly call the WM_CAP_SET_OVERLAY message.
 old-location: multimedia\capoverlay.htm

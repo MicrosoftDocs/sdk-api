@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.GetNextLogArchiveExtent
-title: GetNextLogArchiveExtent function
+title: GetNextLogArchiveExtent function (clfsw32.h)
 author: windows-sdk-content
 description: Retrieves the next set of archive extents in a log archive context.
 old-location: fs\getnextlogarchiveextent.htm

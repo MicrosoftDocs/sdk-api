@@ -1,6 +1,6 @@
 ---
 UID: NF:wmdmlog.IWMDMLogger.LogDword
-title: IWMDMLogger::LogDword
+title: IWMDMLogger::LogDword (wmdmlog.h)
 author: windows-sdk-content
 description: The LogDword method logs a DWORD value to the current log file. A carriage return and line feed are added to each log entry.
 old-location: wmdm\iwmdmlogger_logdword.htm

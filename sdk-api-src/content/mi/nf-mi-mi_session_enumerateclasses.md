@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Session_EnumerateClasses
-title: MI_Session_EnumerateClasses function
+title: MI_Session_EnumerateClasses function (mi.h)
 author: windows-sdk-content
 description: Enumerates the classes of a specified session.
 old-location: wmi_v2\mi_session_enumerateclasses.htm

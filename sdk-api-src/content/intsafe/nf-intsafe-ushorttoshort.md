@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.UShortToShort
-title: UShortToShort function
+title: UShortToShort function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type USHORT to a value of type SHORT.
 old-location: shell\UShortToShort.htm

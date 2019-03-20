@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._LUID
-title: LUID
+title: LUID (winnt.h)
 author: windows-sdk-content
 description: Describes a local identifier for an adapter.
 old-location: direct3ddxgi\_luid.htm

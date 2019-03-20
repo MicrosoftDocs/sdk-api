@@ -1,6 +1,6 @@
 ---
 UID: NN:msopc.IOpcPartSet
-title: IOpcPartSet
+title: IOpcPartSet (msopc.h)
 author: windows-sdk-content
 description: An unordered set of IOpcPart interface pointers to part objects that represent the parts in a package that are not Relationships parts.
 old-location: opc\iopcpartset.htm

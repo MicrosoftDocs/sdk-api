@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngGetFileChangeTime
-title: EngGetFileChangeTime function
+title: EngGetFileChangeTime function (winddi.h)
 author: windows-sdk-content
 description: The EngGetFileChangeTime function retrieves a file's last write time.
 old-location: display\enggetfilechangetime.htm

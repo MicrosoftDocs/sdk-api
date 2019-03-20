@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagRAWMOUSE
-title: RAWMOUSE
+title: RAWMOUSE (winuser.h)
 author: windows-sdk-content
 description: Contains information about the state of the mouse.
 old-location: inputdev\rawmouse.htm

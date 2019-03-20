@@ -1,6 +1,6 @@
 ---
 UID: NC:prsht.PFNPROPSHEETCALLBACK
-title: PFNPROPSHEETCALLBACK
+title: PFNPROPSHEETCALLBACK (prsht.h)
 author: windows-sdk-content
 description: An application-defined callback function that the system calls when the property sheet is being created and initialized.
 old-location: controls\PropSheetProc.htm

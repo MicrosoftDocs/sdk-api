@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509SignatureInformation
-title: IX509SignatureInformation
+title: IX509SignatureInformation (certenroll.h)
 author: windows-sdk-content
 description: Represents information used to sign a certificate request.
 old-location: security\ix509signatureinformation.htm

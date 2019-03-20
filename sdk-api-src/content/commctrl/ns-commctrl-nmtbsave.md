@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMTBSAVE
-title: NMTBSAVE
+title: NMTBSAVE (commctrl.h)
 author: windows-sdk-content
 description: This structure is passed to applications when they receive a TBN_SAVE notification code. It contains information about the button currently being saved. Applications can modify the values of the members to save additional information.
 old-location: controls\NMTBSAVE.htm

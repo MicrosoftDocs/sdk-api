@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiRecordReadStream
-title: MsiRecordReadStream function
+title: MsiRecordReadStream function (msiquery.h)
 author: windows-sdk-content
 description: The MsiRecordReadStream function reads bytes from a record stream field into a buffer.
 old-location: setup\msirecordreadstream.htm

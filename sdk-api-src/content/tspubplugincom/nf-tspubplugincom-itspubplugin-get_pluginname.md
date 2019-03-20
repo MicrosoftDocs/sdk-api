@@ -1,6 +1,6 @@
 ---
 UID: NF:tspubplugincom.ItsPubPlugin.get_pluginName
-title: ItsPubPlugin::get_pluginName
+title: ItsPubPlugin::get_pluginName (tspubplugincom.h)
 author: windows-sdk-content
 description: Retrieves the name of the plug-in.
 old-location: termserv\itspubplugin_pluginname.htm

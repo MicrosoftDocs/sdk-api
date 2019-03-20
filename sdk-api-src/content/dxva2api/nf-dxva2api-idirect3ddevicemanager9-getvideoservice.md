@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirect3DDeviceManager9.GetVideoService
-title: IDirect3DDeviceManager9::GetVideoService
+title: IDirect3DDeviceManager9::GetVideoService (dxva2api.h)
 author: windows-sdk-content
 description: Gets a DirectX Video Acceleration (DXVA) service interface.
 old-location: mf\idirect3ddevicemanager9_getvideoservice.htm

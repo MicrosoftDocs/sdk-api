@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.FlashWindow
-title: FlashWindow function
+title: FlashWindow function (winuser.h)
 author: windows-sdk-content
 description: Flashes the specified window one time. It does not change the active state of the window.
 old-location: base\flashwindow.htm

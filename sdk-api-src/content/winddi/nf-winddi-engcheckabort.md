@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngCheckAbort
-title: EngCheckAbort function
+title: EngCheckAbort function (winddi.h)
 author: windows-sdk-content
 description: The EngCheckAbort function enables a printer graphics DLL to determine if a print job should be terminated.
 old-location: display\engcheckabort.htm

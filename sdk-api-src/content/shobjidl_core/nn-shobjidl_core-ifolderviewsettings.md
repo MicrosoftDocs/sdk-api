@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IFolderViewSettings
-title: IFolderViewSettings
+title: IFolderViewSettings (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods to obtain folder view settings.
 old-location: shell\IFolderViewSettings.htm

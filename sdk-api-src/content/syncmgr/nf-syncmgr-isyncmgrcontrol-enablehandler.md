@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.EnableHandler
-title: ISyncMgrControl::EnableHandler
+title: ISyncMgrControl::EnableHandler (syncmgr.h)
 author: windows-sdk-content
 description: Enables or disables a handler.
 old-location: shell\ISyncMgrControl_EnableHandler.htm

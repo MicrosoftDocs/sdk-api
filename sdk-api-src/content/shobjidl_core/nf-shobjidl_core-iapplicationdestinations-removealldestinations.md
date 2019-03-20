@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IApplicationDestinations.RemoveAllDestinations
-title: IApplicationDestinations::RemoveAllDestinations
+title: IApplicationDestinations::RemoveAllDestinations (shobjidl_core.h)
 author: windows-sdk-content
 description: Clears all destination entries from the Recent and Frequent categories in an application's Jump List.
 old-location: shell\IApplicationDestinations_RemoveAllDestinations.htm

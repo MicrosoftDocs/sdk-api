@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.SetStoryFragmentsResource
-title: IXpsOMPageReference::SetStoryFragmentsResource
+title: IXpsOMPageReference::SetStoryFragmentsResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the IXpsOMStoryFragmentsResource interface pointer of the StoryFragments resource to be assigned to the page.
 old-location: xps\ixpsompagereference_setstoryfragmentsresource.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderFragment.GetRuntimeId
-title: IRawElementProviderFragment::GetRuntimeId
+title: IRawElementProviderFragment::GetRuntimeId (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves the runtime identifier of an element.
 old-location: winauto\uiauto_IRawElementProviderFragment_GetRuntimeId.htm

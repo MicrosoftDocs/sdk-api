@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_SERVICE_PROPERTY_ACCEPT_CALLBACK
-title: WS_SERVICE_PROPERTY_ACCEPT_CALLBACK
+title: WS_SERVICE_PROPERTY_ACCEPT_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Specifies the callback which is called when a channel is successfully accepted.
 old-location: wsw\ws_service_property_accept_callback.htm

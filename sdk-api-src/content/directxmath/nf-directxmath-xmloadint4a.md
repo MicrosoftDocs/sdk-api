@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMLoadInt4A
-title: XMLoadInt4A function
+title: XMLoadInt4A function (directxmath.h)
 author: windows-sdk-content
 description: Loads 16-byte aligned data into an XMVECTOR, without type checking.
 old-location: dxmath\xmloadint4a.htm

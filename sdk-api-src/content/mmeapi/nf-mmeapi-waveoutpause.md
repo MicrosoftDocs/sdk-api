@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.waveOutPause
-title: waveOutPause function
+title: waveOutPause function (mmeapi.h)
 author: windows-sdk-content
 description: The waveOutPause function pauses playback on the given waveform-audio output device. The current position is saved. Use the waveOutRestart function to resume playback from the current position.
 old-location: multimedia\waveoutpause.htm

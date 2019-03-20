@@ -1,6 +1,6 @@
 ---
 UID: NE:imapi2._IMAPI_MEDIA_WRITE_PROTECT_STATE
-title: IMAPI_MEDIA_WRITE_PROTECT_STATE
+title: IMAPI_MEDIA_WRITE_PROTECT_STATE (imapi2.h)
 author: windows-sdk-content
 description: Defines values that indicate the media write protect status. One or more write protect values can be set on a given drive.
 old-location: imapi\imapi_media_write_protect_state.htm

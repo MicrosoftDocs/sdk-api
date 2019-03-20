@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._COMMCONFIG
-title: COMMCONFIG
+title: COMMCONFIG (winbase.h)
 author: windows-sdk-content
 description: Contains information about the configuration state of a communications device.
 old-location: base\commconfig_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wbemcli.IWbemObjectSink
-title: IWbemObjectSink
+title: IWbemObjectSink (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemObjectSink interface creates a sink interface that can receive all types of notifications within the WMI programming model.
 old-location: wmi\iwbemobjectsink.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.MoveStartWhile
-title: ITextRange::MoveStartWhile
+title: ITextRange::MoveStartWhile (tom.h)
 author: windows-sdk-content
 description: Moves the start position of the range either Count characters, or just past all contiguous characters that are found in the set of characters specified by Cset, whichever is less.
 old-location: controls\ITextRange_MoveStartWhile.htm

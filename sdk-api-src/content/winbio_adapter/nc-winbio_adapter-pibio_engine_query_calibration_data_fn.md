@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_QUERY_CALIBRATION_DATA_FN
-title: PIBIO_ENGINE_QUERY_CALIBRATION_DATA_FN
+title: PIBIO_ENGINE_QUERY_CALIBRATION_DATA_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Gets a set of post-capture calibration data from the engine adapter.
 old-location: secbiomet\engineadapterquerycalibrationdata.htm

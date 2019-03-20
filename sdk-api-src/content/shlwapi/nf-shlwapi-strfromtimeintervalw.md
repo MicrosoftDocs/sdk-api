@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.StrFromTimeIntervalW
-title: StrFromTimeIntervalW function
+title: StrFromTimeIntervalW function (shlwapi.h)
 author: windows-sdk-content
 description: Converts a time interval, specified in milliseconds, to a string.
 old-location: shell\StrFromTimeInterval.htm

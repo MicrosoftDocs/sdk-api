@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.graphics.effects.interop.IGraphicsEffectD2D1Interop.GetSource
-title: IGraphicsEffectD2D1Interop::effects
+title: IGraphicsEffectD2D1Interop::effects (windows.graphics.effects.interop.h)
 author: windows-sdk-content
 description: Retrieves the effect source at the specified index.
 old-location: w_graph_fx\igraphicseffectd2d1interop_getsource.htm

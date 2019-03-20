@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IComObjectPool2Events
-title: IComObjectPool2Events
+title: IComObjectPool2Events (comsvcs.h)
 author: windows-sdk-content
 description: Notifies the subscriber if a transactional or non-transactional object is added to or obtained from the object pool.
 old-location: cos\icomobjectpool2events.htm

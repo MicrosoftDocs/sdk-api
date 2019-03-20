@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptdlg._CTL_MODIFY_REQUEST
-title: CTL_MODIFY_REQUEST
+title: CTL_MODIFY_REQUEST (cryptdlg.h)
 author: windows-sdk-content
 description: Contains a request to modify a certificate trust list (CTL). This structure is used in the CertModifyCertificatesToTrust function.
 old-location: security\ctl_modify_request.htm

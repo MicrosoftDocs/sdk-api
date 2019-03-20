@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IRecoverableErrorData.Initialize
-title: IRecoverableErrorData::Initialize
+title: IRecoverableErrorData::Initialize (winsync.h)
 author: windows-sdk-content
 description: Initializes the object by using the specified display name of the item that caused the error and a description of the error.
 old-location: winsync\irecoverableerrordata_initialize.htm

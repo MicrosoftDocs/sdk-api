@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidVideoRendererEvent
-title: IMSVidVideoRendererEvent
+title: IMSVidVideoRendererEvent (segment.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsvidvideorendererevent.htm

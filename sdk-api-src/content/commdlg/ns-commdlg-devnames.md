@@ -1,6 +1,6 @@
 ---
 UID: NS:commdlg.tagDEVNAMES
-title: DEVNAMES
+title: DEVNAMES (commdlg.h)
 author: windows-sdk-content
 description: Contains strings that identify the driver, device, and output port names for a printer.
 old-location: dlgbox\devnames_str.htm

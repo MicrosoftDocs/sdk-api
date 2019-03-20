@@ -1,6 +1,6 @@
 ---
 UID: NF:werapi.WerUnregisterExcludedMemoryBlock
-title: WerUnregisterExcludedMemoryBlock function
+title: WerUnregisterExcludedMemoryBlock function (werapi.h)
 author: windows-sdk-content
 description: Removes a memory block that was previously marked as excluded (it will again be included in error reports).
 old-location: wer\werunregisterexcludedmemoryblock.htm

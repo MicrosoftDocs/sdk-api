@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolManager.NotifyServiceStateChange
-title: IWTSProtocolManager::NotifyServiceStateChange
+title: IWTSProtocolManager::NotifyServiceStateChange (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolManager::NotifyServiceStateChange is no longer available. Instead, use IWRdsProtocolManager::NotifyServiceStateChange.
 old-location: termserv\iwtsprotocolmanager_notifyservicestatechange.htm

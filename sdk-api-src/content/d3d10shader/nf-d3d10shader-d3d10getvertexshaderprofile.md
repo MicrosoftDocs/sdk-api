@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10shader.D3D10GetVertexShaderProfile
-title: D3D10GetVertexShaderProfile function
+title: D3D10GetVertexShaderProfile function (d3d10shader.h)
 author: windows-sdk-content
 description: Get the vertex shader profile best suited to a given device.
 old-location: direct3d10\d3d10getvertexshaderprofile.htm

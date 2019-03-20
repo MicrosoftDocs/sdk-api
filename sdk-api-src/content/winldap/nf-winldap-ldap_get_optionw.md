@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_get_optionW
-title: ldap_get_optionW function
+title: ldap_get_optionW function (winldap.h)
 author: windows-sdk-content
 description: Retrieves the current values of session-wide parameters.
 old-location: ldap\ldap_get_option.htm

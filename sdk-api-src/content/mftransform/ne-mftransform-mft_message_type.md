@@ -1,6 +1,6 @@
 ---
 UID: NE:mftransform._MFT_MESSAGE_TYPE
-title: MFT_MESSAGE_TYPE
+title: MFT_MESSAGE_TYPE (mftransform.h)
 author: windows-sdk-content
 description: Defines messages for a Media Foundation transform (MFT).
 old-location: mf\mft_message_type.htm

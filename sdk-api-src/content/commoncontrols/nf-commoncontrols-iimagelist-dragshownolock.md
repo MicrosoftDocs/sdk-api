@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList.DragShowNolock
-title: IImageList::DragShowNolock
+title: IImageList::DragShowNolock (commoncontrols.h)
 author: windows-sdk-content
 description: Shows or hides the image being dragged.
 old-location: controls\IImageList_DragShowNolock.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionVisualDebug.DisableRedrawRegions
-title: IDCompositionVisualDebug::DisableRedrawRegions
+title: IDCompositionVisualDebug::DisableRedrawRegions (dcomp.h)
 author: windows-sdk-content
 description: Disables visual redraw regions.
 old-location: directcomp\idcompositionvisualdebug_disableredrawregions.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRenderer.InkSpaceToPixel
-title: IInkRenderer::InkSpaceToPixel
+title: IInkRenderer::InkSpaceToPixel (msinkaut.h)
 author: windows-sdk-content
 description: Converts a location in ink space coordinates to a location in pixel space using a handle for the conversion.
 old-location: tablet\inkrenderer_inkspacetopixel.htm

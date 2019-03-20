@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_downloadProgress
-title: IWMPNetwork::get_downloadProgress
+title: IWMPNetwork::get_downloadProgress (wmp.h)
 author: windows-sdk-content
 description: The get_downloadProgress method retrieves the percentage of the download completed.
 old-location: wmp\iwmpnetwork_get_downloadprogress.htm

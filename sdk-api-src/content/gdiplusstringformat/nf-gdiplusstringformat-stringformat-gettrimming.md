@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.GetTrimming
-title: StringFormat::GetTrimming
+title: StringFormat::GetTrimming (gdiplusstringformat.h)
 author: windows-sdk-content
 description: The StringFormat::GetTrimming method gets an element of the StringTrimming enumeration that indicates the trimming style of this StringFormat object.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetTrimming_.htm

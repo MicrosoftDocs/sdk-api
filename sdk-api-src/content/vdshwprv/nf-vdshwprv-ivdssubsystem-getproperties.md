@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem.GetProperties
-title: IVdsSubSystem::GetProperties
+title: IVdsSubSystem::GetProperties (vdshwprv.h)
 author: windows-sdk-content
 description: Returns the properties of a subsystem.
 old-location: base\ivdssubsystem_getproperties.htm

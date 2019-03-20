@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IColumnManager.GetColumnInfo
-title: IColumnManager::GetColumnInfo
+title: IColumnManager::GetColumnInfo (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets information about each column:\_width, visibility, display name, and state.
 old-location: shell\IColumnManager_GetColumnInfo.htm

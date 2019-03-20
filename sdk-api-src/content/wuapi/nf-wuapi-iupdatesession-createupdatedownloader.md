@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSession.CreateUpdateDownloader
-title: IUpdateSession::CreateUpdateDownloader
+title: IUpdateSession::CreateUpdateDownloader (wuapi.h)
 author: windows-sdk-content
 description: Returns an IUpdateDownloader interface for this session.
 old-location: wua\iupdatesession_createupdatedownloader.htm

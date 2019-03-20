@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DPA_GetPtr
-title: DPA_GetPtr function
+title: DPA_GetPtr function (dpa_dsa.h)
 author: windows-sdk-content
 description: Gets an item from a dynamic pointer array (DPA).
 old-location: controls\DPA_GetPtr.htm

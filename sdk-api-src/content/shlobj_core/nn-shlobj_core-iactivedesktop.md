@@ -1,6 +1,6 @@
 ---
 UID: NN:shlobj_core.IActiveDesktop
-title: IActiveDesktop
+title: IActiveDesktop (shlobj_core.h)
 author: windows-sdk-content
 description: Allows a client program to manage the desktop items and wallpaper on a local computer.
 old-location: lwef\iactivedesktop_interface.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mbnapi.IMbnPinEvents
-title: IMbnPinEvents
+title: IMbnPinEvents (mbnapi.h)
 author: windows-sdk-content
 description: This interface is a notification interface used to indicate when asynchronous PIN requests have completed.
 old-location: mbn\imbnpinevents.htm

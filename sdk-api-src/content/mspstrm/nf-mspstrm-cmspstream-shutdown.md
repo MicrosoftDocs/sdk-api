@@ -1,6 +1,6 @@
 ---
 UID: NF:mspstrm.CMSPStream.ShutDown
-title: CMSPStream::ShutDown
+title: CMSPStream::ShutDown (mspstrm.h)
 author: windows-sdk-content
 description: The ShutDown method is called by the MSPCall object. It unselects all the terminal objects (via UnselectTerminal). It also calls MSPCallRelease on the call object. This is needed to break the circular refcount.
 old-location: tapi3\cmspstream_shutdown.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzBizRuleParameters
-title: IAzBizRuleParameters
+title: IAzBizRuleParameters (azroles.h)
 author: windows-sdk-content
 description: Provides methods and properties used to manage a list of parameters that can be passed to business rule (BizRule) scripts.
 old-location: security\iazbizruleparameters.htm

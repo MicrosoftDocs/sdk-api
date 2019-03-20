@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.put_Enabled
-title: IMSVidCtl::put_Enabled
+title: IMSVidCtl::put_Enabled (msvidctl.h)
 author: windows-sdk-content
 description: The put_Enabled method specifies a value that determines whether the Video Control can respond to user-generated events.
 old-location: mstv\imsvidctl_put_enabled.htm

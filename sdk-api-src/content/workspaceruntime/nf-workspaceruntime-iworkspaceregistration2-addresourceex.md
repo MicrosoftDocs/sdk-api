@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceRegistration2.AddResourceEx
-title: IWorkspaceRegistration2::AddResourceEx
+title: IWorkspaceRegistration2::AddResourceEx (workspaceruntime.h)
 author: windows-sdk-content
 description: Adds a resource to the connection in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspaceregistration2_addresourceex.htm

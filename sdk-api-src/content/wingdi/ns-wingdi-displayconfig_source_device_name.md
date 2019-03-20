@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_SOURCE_DEVICE_NAME
-title: DISPLAYCONFIG_SOURCE_DEVICE_NAME
+title: DISPLAYCONFIG_SOURCE_DEVICE_NAME (wingdi.h)
 author: windows-sdk-content
 description: The DISPLAYCONFIG_SOURCE_DEVICE_NAME structure contains the GDI device name for the source or view.
 old-location: display\displayconfig_source_device_name.htm

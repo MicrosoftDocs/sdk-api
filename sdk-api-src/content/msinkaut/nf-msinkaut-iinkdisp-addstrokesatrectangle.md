@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDisp.AddStrokesAtRectangle
-title: IInkDisp::AddStrokesAtRectangle
+title: IInkDisp::AddStrokesAtRectangle (msinkaut.h)
 author: windows-sdk-content
 description: Adds a specified Strokes collection into this InkDisp object at a specified rectangle.
 old-location: tablet\inkdisp_addstrokesatrectangle.htm

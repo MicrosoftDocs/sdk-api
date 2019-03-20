@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1_3.D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS
-title: D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS
+title: D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS (d2d1_3.h)
 author: windows-sdk-content
 description: Option flags controlling primary conversion performed by CreateImageSourceFromDxgi, if any.
 old-location: direct2d\d2d1_image_source_from_dxgi_options.htm

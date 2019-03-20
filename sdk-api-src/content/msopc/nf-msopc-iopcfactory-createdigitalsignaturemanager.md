@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcFactory.CreateDigitalSignatureManager
-title: IOpcFactory::CreateDigitalSignatureManager
+title: IOpcFactory::CreateDigitalSignatureManager (msopc.h)
 author: windows-sdk-content
 description: Creates a digital signature manager object for a package object.
 old-location: opc\iopcfactory_createdigitalsignaturemanager.htm

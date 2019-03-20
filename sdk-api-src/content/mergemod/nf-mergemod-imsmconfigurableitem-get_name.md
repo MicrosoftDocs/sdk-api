@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmConfigurableItem.get_Name
-title: IMsmConfigurableItem::get_Name
+title: IMsmConfigurableItem::get_Name (mergemod.h)
 author: windows-sdk-content
 description: The get_Name method retrieves the Name property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_name.htm

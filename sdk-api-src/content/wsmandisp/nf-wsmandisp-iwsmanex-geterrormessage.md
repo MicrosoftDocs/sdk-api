@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEx.GetErrorMessage
-title: IWSManEx::GetErrorMessage
+title: IWSManEx::GetErrorMessage (wsmandisp.h)
 author: windows-sdk-content
 description: Returns a formatted string containing the text of an error number.
 old-location: winrm\iwsmanex_geterrormessage.htm

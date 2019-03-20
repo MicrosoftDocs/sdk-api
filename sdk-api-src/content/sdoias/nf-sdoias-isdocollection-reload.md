@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdoCollection.Reload
-title: ISdoCollection::Reload
+title: ISdoCollection::Reload (sdoias.h)
 author: windows-sdk-content
 description: The Reload method reloads all the objects in the collection from the underlying datastore.
 old-location: nps\SDO_isdocollection_reload.htm

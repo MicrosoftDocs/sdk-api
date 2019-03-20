@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.ResetTransform
-title: Pen::ResetTransform
+title: Pen::ResetTransform (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::ResetTransform method sets the world transformation matrix of this Pen object to the identity matrix.
 old-location: gdiplus\_gdiplus_CLASS_Pen_ResetTransform_.htm

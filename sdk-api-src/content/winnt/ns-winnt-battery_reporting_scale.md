@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt.__unnamed_struct_3
-title: BATTERY_REPORTING_SCALE
+title: BATTERY_REPORTING_SCALE (winnt.h)
 author: windows-sdk-content
 description: Contains the granularity of the battery capacity that is reported by IOCTL_BATTERY_QUERY_STATUS.
 old-location: base\battery_reporting_scale_str.htm

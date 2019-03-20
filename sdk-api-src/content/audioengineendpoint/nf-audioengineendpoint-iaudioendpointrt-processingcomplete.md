@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointRT.ProcessingComplete
-title: IAudioEndpointRT::ProcessingComplete
+title: IAudioEndpointRT::ProcessingComplete (audioengineendpoint.h)
 author: windows-sdk-content
 description: Notifies the endpoint that a processing pass has been completed.
 old-location: termserv\iaudioendpointrt_processingcomplete.htm

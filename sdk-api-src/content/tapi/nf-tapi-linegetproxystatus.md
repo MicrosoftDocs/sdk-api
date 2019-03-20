@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineGetProxyStatus
-title: lineGetProxyStatus function
+title: lineGetProxyStatus function (tapi.h)
 author: windows-sdk-content
 description: The lineGetProxyStatus function returns a list of proxy request types that are currently being serviced for the specified device.
 old-location: tapi2\linegetproxystatus.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.SetColorAdjustment
-title: SetColorAdjustment function
+title: SetColorAdjustment function (wingdi.h)
 author: windows-sdk-content
 description: The SetColorAdjustment function sets the color adjustment values for a device context (DC) using the specified values.
 old-location: gdi\setcoloradjustment.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionSkewTransform.SetCenterY
-title: IDCompositionSkewTransform::SetCenterY
+title: IDCompositionSkewTransform::SetCenterY (dcomp.h)
 author: windows-sdk-content
 description: Changes the value of the CenterY property of a 2D skew transform.
 old-location: directcomp\idcompositionskewtransform_setcentery_float.htm

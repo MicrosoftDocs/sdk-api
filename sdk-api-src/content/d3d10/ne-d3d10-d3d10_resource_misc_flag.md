@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10.D3D10_RESOURCE_MISC_FLAG
-title: D3D10_RESOURCE_MISC_FLAG
+title: D3D10_RESOURCE_MISC_FLAG (d3d10.h)
 author: windows-sdk-content
 description: Identifies other, less common options for resources.
 old-location: direct3d10\d3d10_resource_misc_flag.htm

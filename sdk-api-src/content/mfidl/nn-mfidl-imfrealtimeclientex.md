@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFRealTimeClientEx
-title: IMFRealTimeClientEx
+title: IMFRealTimeClientEx (mfidl.h)
 author: windows-sdk-content
 description: Notifies a pipeline object to register itself with the Multimedia Class Scheduler Service (MMCSS).
 old-location: mf\imfrealtimeclientex.htm

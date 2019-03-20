@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaDataTransfer.idtQueryGetData
-title: IWiaDataTransfer::idtQueryGetData
+title: IWiaDataTransfer::idtQueryGetData (wia_xp.h)
 author: windows-sdk-content
 description: The IWiaDataTransfer::idtQueryGetData method is used by applications to query a Windows Image Acquisition (WIA) device to determine what types of data formats it supports.
 old-location: wia\_wia_IWiaDataTransfer_idtQueryGetData.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineProtectedContent.SetOPMWindow
-title: IMFMediaEngineProtectedContent::SetOPMWindow
+title: IMFMediaEngineProtectedContent::SetOPMWindow (mfmediaengine.h)
 author: windows-sdk-content
 description: Specifies the window that should receive output link protections.
 old-location: mf\imfmediaengineprotectedcontent_setopmwindow.htm

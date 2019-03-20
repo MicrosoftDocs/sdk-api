@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSALookupServiceBeginA
-title: WSALookupServiceBeginA function
+title: WSALookupServiceBeginA function (winsock2.h)
 author: windows-sdk-content
 description: The WSALookupServiceBegin function initiates a client query that is constrained by the information contained within a WSAQUERYSET structure.
 old-location: winsock\wsalookupservicebegin_2.htm

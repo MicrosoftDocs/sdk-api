@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ICoreFragment.NextRange
-title: ICoreFragment::NextRange
+title: ICoreFragment::NextRange (winsync.h)
 author: windows-sdk-content
 description: Returns the next range that is contained in this knowledge fragment, and the clock vector that defines what is known about the items in the range.
 old-location: winsync\icorefragment_nextrange.htm

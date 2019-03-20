@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.GetVolumeInformationByHandleW
-title: GetVolumeInformationByHandleW function
+title: GetVolumeInformationByHandleW function (fileapi.h)
 author: windows-sdk-content
 description: Retrieves information about the file system and volume associated with the specified file.
 old-location: fs\getvolumeinformationbyhandlew.htm

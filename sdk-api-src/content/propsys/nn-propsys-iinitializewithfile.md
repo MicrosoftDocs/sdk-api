@@ -1,6 +1,6 @@
 ---
 UID: NN:propsys.IInitializeWithFile
-title: IInitializeWithFile
+title: IInitializeWithFile (propsys.h)
 author: windows-sdk-content
 description: Exposes a method to initialize a handler, such as a property handler, thumbnail handler, or preview handler, with a file path.
 old-location: shell\IInitializeWithFile.htm

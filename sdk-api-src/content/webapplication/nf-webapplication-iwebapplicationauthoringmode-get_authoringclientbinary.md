@@ -1,6 +1,6 @@
 ---
 UID: NF:webapplication.IWebApplicationAuthoringMode.get_AuthoringClientBinary
-title: IWebApplicationAuthoringMode::get_AuthoringClientBinary
+title: IWebApplicationAuthoringMode::get_AuthoringClientBinary (webapplication.h)
 author: windows-sdk-content
 description: Gets the full local path to a DLL to be loaded into the WWAHost process.
 old-location: debug\iwebapplicationauthoringmode_authoringclientbinary.htm

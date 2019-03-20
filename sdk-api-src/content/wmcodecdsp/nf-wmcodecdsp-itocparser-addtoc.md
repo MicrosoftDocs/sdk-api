@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.ITocParser.AddToc
-title: ITocParser::AddToc
+title: ITocParser::AddToc (wmcodecdsp.h)
 author: windows-sdk-content
 description: The AddToc method adds a table of contents to the TOC Parser object and assigns an index to the added table of contents.
 old-location: mf\itocparser_addtoc.htm

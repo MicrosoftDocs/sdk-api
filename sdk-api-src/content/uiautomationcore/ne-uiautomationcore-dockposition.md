@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.DockPosition
-title: DockPosition
+title: DockPosition (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains values that specify the location of a docking window represented by the Dock&#32;control pattern.
 old-location: winauto\uiauto_dock_pos_enum.htm

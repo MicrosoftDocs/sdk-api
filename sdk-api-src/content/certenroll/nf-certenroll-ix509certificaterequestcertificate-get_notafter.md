@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCertificate.get_NotAfter
-title: IX509CertificateRequestCertificate::get_NotAfter
+title: IX509CertificateRequestCertificate::get_NotAfter (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves the date and time after which the certificate is no longer valid.
 old-location: security\ix509certificaterequestcertificate_notafter_property.htm

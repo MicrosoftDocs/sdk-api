@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarI2FromI4
-title: VarI2FromI4 function
+title: VarI2FromI4 function (oleauto.h)
 author: windows-sdk-content
 description: Converts a long value to a short value.
 old-location: automat\vari2fromi4.htm

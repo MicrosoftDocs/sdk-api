@@ -1,6 +1,6 @@
 ---
 UID: NS:powrprof._MACHINE_POWER_POLICY
-title: MACHINE_POWER_POLICY
+title: MACHINE_POWER_POLICY (powrprof.h)
 author: windows-sdk-content
 description: Contains computer power policy settings that are unique to each power scheme on the computer.
 old-location: base\machine_power_policy_str.htm

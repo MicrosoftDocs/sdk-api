@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfRangeACP
-title: ITfRangeACP
+title: ITfRangeACP (msctf.h)
 author: windows-sdk-content
 description: The ITfRangeACP interface is implemented by the TSF manager and is used by an application character position (ACP)-based application to access and manipulate range objects.
 old-location: tsf\itfrangeacp.htm

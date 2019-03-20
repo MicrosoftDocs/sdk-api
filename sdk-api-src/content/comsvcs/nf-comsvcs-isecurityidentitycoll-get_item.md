@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISecurityIdentityColl.get_Item
-title: ISecurityIdentityColl::get_Item
+title: ISecurityIdentityColl::get_Item (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves a specified property in the security identity collection.
 old-location: cos\isecurityidentitycoll_get_item.htm

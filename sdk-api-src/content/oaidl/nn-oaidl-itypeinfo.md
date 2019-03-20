@@ -1,6 +1,6 @@
 ---
 UID: NN:oaidl.ITypeInfo
-title: ITypeInfo
+title: ITypeInfo (oaidl.h)
 author: windows-sdk-content
 description: Used for reading information about objects.
 old-location: automat\itypeinfo.htm

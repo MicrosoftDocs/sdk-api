@@ -1,6 +1,6 @@
 ---
 UID: NS:iads._ads_vlv
-title: ADS_VLV
+title: ADS_VLV (iads.h)
 author: windows-sdk-content
 description: Contains metadata used to conduct virtual list view (VLV) searches.
 old-location: adsi\ads_vlv.htm

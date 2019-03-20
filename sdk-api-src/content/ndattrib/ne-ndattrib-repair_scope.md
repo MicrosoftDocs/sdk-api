@@ -1,6 +1,6 @@
 ---
 UID: NE:ndattrib.tagREPAIR_SCOPE
-title: REPAIR_SCOPE
+title: REPAIR_SCOPE (ndattrib.h)
 author: windows-sdk-content
 description: The REPAIR_SCOPE enumeration describes the scope of modification for a given repair.
 old-location: ndf\repair_scope.htm

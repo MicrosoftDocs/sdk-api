@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_IncomingQueueBlocked
-title: IFaxConfiguration::put_IncomingQueueBlocked
+title: IFaxConfiguration::put_IncomingQueueBlocked (faxcomex.h)
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates whether the fax server queue for incoming faxes has been blocked.
 old-location: fax\_mfax_IFaxConfiguration_BlockIncomingQueue.htm

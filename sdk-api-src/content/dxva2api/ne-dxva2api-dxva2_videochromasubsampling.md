@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva2api._DXVA2_VideoChromaSubSampling
-title: DXVA2_VideoChromaSubSampling
+title: DXVA2_VideoChromaSubSampling (dxva2api.h)
 author: windows-sdk-content
 description: Describes how chroma values are positioned relative to the luma samples in a YUV video frame.
 old-location: mf\dxva2_videochromasubsampling.htm

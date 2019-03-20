@@ -1,6 +1,6 @@
 ---
 UID: NS:schannel._SecPkgContext_KeyingMaterialInfo
-title: SecPkgContext_KeyingMaterialInfo
+title: SecPkgContext_KeyingMaterialInfo (schannel.h)
 author: windows-sdk-content
 description: The SecPkgContext_KeyingMaterialInfo structure contains information about the exportable keying material in a security context.
 old-location: security\secpkgcontext_keyingmaterialinfo.htm

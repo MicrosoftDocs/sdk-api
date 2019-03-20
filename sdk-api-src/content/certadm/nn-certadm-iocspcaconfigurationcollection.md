@@ -1,6 +1,6 @@
 ---
 UID: NN:certadm.IOCSPCAConfigurationCollection
-title: IOCSPCAConfigurationCollection
+title: IOCSPCAConfigurationCollection (certadm.h)
 author: windows-sdk-content
 description: Represents a set of certificates for which an Online Certificate Status Protocol (OCSP) service has been configured to provide certificate status responses.
 old-location: security\iocspcaconfigurationcollection.htm

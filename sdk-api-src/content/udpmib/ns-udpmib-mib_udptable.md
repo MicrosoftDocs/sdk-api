@@ -1,6 +1,6 @@
 ---
 UID: NS:udpmib._MIB_UDPTABLE
-title: MIB_UDPTABLE
+title: MIB_UDPTABLE (udpmib.h)
 author: windows-sdk-content
 description: Contains the User Datagram Protocol (UDP) listener table for IPv4 on the local computer.
 old-location: mib\mib_udptable.htm

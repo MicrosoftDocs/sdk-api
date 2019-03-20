@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_CALLBACK_CLOSE_COMPLETION_FLAGS
-title: CF_CALLBACK_CLOSE_COMPLETION_FLAGS
+title: CF_CALLBACK_CLOSE_COMPLETION_FLAGS (cfapi.h)
 author: windows-sdk-content
 description: Callback flags for notifying a sync provider that a placeholder under one of its sync roots that has been previously opened for read/write/delete access is now closed.
 old-location: cloudapi\cf_callback_close_completion_flags.htm

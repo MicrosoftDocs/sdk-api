@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbSession.get_Domain
-title: ITsSbSession::get_Domain
+title: ITsSbSession::get_Domain (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves the domain name of the user.
 old-location: termserv\itssbsession_domain.htm

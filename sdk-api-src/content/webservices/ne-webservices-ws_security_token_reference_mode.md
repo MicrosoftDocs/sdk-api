@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_64
-title: WS_SECURITY_TOKEN_REFERENCE_MODE
+title: WS_SECURITY_TOKEN_REFERENCE_MODE (webservices.h)
 author: windows-sdk-content
 description: With message and mixed-mode security bindings, the mechanism to use to refer to a security token from signatures, encrypted items and derived tokens.
 old-location: wsw\ws_security_token_reference_mode.htm

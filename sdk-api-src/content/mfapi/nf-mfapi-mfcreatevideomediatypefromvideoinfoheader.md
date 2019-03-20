@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreateVideoMediaTypeFromVideoInfoHeader
-title: MFCreateVideoMediaTypeFromVideoInfoHeader function
+title: MFCreateVideoMediaTypeFromVideoInfoHeader function (mfapi.h)
 author: windows-sdk-content
 description: Creates a media type from a KS_VIDEOINFOHEADER structure.
 old-location: mf\mfcreatevideomediatypefromvideoinfoheader.htm

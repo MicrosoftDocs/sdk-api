@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsComputerOperations.Status
-title: IADsComputerOperations::Status
+title: IADsComputerOperations::Status (iads.h)
 author: windows-sdk-content
 description: The IADsComputerOperations::Status method retrieves the status of a computer.
 old-location: adsi\iadscomputeroperations_status.htm

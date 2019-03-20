@@ -1,6 +1,6 @@
 ---
 UID: NE:authif._RADIUS_EXTENSION_POINT
-title: RADIUS_EXTENSION_POINT
+title: RADIUS_EXTENSION_POINT (authif.h)
 author: windows-sdk-content
 description: The RADIUS_EXTENSION_POINT enumeration type enumerates the possible points in the RADIUS request process when the RadiusExtensionProcess2 function can be called.
 old-location: nps\IAS_radius_extension_point.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:control.IVideoWindow
-title: IVideoWindow
+title: IVideoWindow (control.h)
 author: windows-sdk-content
 description: The IVideoWindow interface sets properties on the video window.
 old-location: dshow\ivideowindow.htm

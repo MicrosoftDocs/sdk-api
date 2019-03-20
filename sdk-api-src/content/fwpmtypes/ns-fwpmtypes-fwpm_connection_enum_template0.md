@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_CONNECTION_ENUM_TEMPLATE0_
-title: FWPM_CONNECTION_ENUM_TEMPLATE0
+title: FWPM_CONNECTION_ENUM_TEMPLATE0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Used for limiting connection object enumerations.
 old-location: fwp\fwpm_connection_enum_template0.htm

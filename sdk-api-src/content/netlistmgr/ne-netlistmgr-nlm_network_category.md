@@ -1,6 +1,6 @@
 ---
 UID: NE:netlistmgr.NLM_NETWORK_CATEGORY
-title: NLM_NETWORK_CATEGORY
+title: NLM_NETWORK_CATEGORY (netlistmgr.h)
 author: windows-sdk-content
 description: The NLM_NETWORK_CATEGORY enumeration is a set of flags that specify the category type of a network.
 old-location: nla\nlm_network_category.htm

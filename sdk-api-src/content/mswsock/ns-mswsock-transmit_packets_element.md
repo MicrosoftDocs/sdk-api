@@ -1,6 +1,6 @@
 ---
 UID: NS:mswsock._TRANSMIT_PACKETS_ELEMENT
-title: TRANSMIT_PACKETS_ELEMENT
+title: TRANSMIT_PACKETS_ELEMENT (mswsock.h)
 author: windows-sdk-content
 description: Specifies a single data element to be transmitted by the TransmitPackets function.
 old-location: winsock\transmit_packets_element_2.htm

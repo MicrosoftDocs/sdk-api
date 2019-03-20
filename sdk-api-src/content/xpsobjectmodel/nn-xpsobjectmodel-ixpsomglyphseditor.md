@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMGlyphsEditor
-title: IXpsOMGlyphsEditor
+title: IXpsOMGlyphsEditor (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Allows batch modification of properties that affect the text content in an IXpsOMGlyphs interface.
 old-location: xps\ixpsomglyphseditor.htm

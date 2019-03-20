@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.PublishEx
-title: IWSDiscoveryPublisher::PublishEx
+title: IWSDiscoveryPublisher::PublishEx (wsddisco.h)
 author: windows-sdk-content
 description: Announces the presence of a network host by sending a Hello message with extended information.
 old-location: ncd\iwsdiscoverypublisher_publishex_method.htm

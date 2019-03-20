@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DCryptoSession9.NegotiateKeyExchange
-title: IDirect3DCryptoSession9::NegotiateKeyExchange
+title: IDirect3DCryptoSession9::NegotiateKeyExchange (d3d9.h)
 author: windows-sdk-content
 description: Establishes the session key for the cryptographic session.
 old-location: mf\idirect3dcryptosession9_negotiatekeyexchange.htm

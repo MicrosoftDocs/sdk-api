@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetProxySettings
-title: IWMReaderNetworkConfig::GetProxySettings
+title: IWMReaderNetworkConfig::GetProxySettings (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetProxySettings method retrieves the current proxy settings.
 old-location: wmformat\iwmreadernetworkconfig_getproxysettings.htm

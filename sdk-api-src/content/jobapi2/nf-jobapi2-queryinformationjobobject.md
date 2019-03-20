@@ -1,6 +1,6 @@
 ---
 UID: NF:jobapi2.QueryInformationJobObject
-title: QueryInformationJobObject function
+title: QueryInformationJobObject function (jobapi2.h)
 author: windows-sdk-content
 description: Retrieves limit and job state information from the job object.
 old-location: base\queryinformationjobobject.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:xamlom.VisualElement
-title: VisualElement
+title: VisualElement (xamlom.h)
 author: windows-sdk-content
 description: Represents a XAML element in the Live Visual Tree in Microsoft Visual Studio.
 old-location: xaml_diagnostics\visualelement.htm

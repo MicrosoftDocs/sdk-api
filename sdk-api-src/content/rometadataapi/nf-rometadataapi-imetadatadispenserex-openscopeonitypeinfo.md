@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataDispenserEx.OpenScopeOnITypeInfo
-title: IMetaDataDispenserEx::OpenScopeOnITypeInfo
+title: IMetaDataDispenserEx::OpenScopeOnITypeInfo (rometadataapi.h)
 author: windows-sdk-content
 description: Opens the specified scope type.
 old-location: winrt\imetadatadispenserex_openscopeonitypeinfo.htm

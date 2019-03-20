@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Depth_Ex
-title: CM_Get_Depth_Ex function
+title: CM_Get_Depth_Ex function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Get_Depth_Ex function is used to obtain the depth of a specified device node (devnode) within a local or a remote machine's device tree.
 old-location: devinst\cm_get_depth_ex.htm

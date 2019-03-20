@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo.GetCurrentUOPS
-title: IDvdInfo::GetCurrentUOPS
+title: IDvdInfo::GetCurrentUOPS (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves which IDvdControl methods are currently valid.
 old-location: dshow\idvdinfo_getcurrentuops.htm

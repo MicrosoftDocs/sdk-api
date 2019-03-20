@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings.get_Hidden
-title: ITaskSettings::get_Hidden
+title: ITaskSettings::get_Hidden (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates that the task will not be visible in the UI.
 old-location: taskschd\itasksettings_hidden.htm

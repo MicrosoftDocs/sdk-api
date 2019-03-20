@@ -1,6 +1,6 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeCallback.EnableModeless
-title: ISyncMgrSynchronizeCallback::EnableModeless
+title: ISyncMgrSynchronizeCallback::EnableModeless (mobsync.h)
 author: windows-sdk-content
 description: Called by the registered application before and after any dialog boxes are displayed from within the PrepareForSync and Synchronize methods.
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_enablemodeless.htm

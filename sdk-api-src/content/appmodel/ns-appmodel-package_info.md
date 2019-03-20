@@ -1,6 +1,6 @@
 ---
 UID: NS:appmodel.PACKAGE_INFO
-title: PACKAGE_INFO
+title: PACKAGE_INFO (appmodel.h)
 author: windows-sdk-content
 description: Represents package identification information that includes the package identifier, full name, and install location.
 old-location: appxpkg\package_info.htm

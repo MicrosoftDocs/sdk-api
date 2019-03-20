@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IResultOwnerData.CacheHint
-title: IResultOwnerData::CacheHint
+title: IResultOwnerData::CacheHint (mmc.h)
 author: windows-sdk-content
 description: Called when a virtual list is about to request display information for a range of items, allowing the snap-in to collect the information ahead of time in cases where an optimization can be made.
 old-location: mmc\iresultownerdata_cachehint.htm

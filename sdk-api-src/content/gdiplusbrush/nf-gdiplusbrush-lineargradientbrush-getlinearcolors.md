@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.GetLinearColors
-title: LinearGradientBrush::GetLinearColors
+title: LinearGradientBrush::GetLinearColors (gdiplusbrush.h)
 author: windows-sdk-content
 description: The LinearGradientBrush::GetLinearColors method gets the starting color and ending color of this linear gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_GetLinearColors_colors_.htm

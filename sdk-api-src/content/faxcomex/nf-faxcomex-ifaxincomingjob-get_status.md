@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJob.get_Status
-title: IFaxIncomingJob::get_Status
+title: IFaxIncomingJob::get_Status (faxcomex.h)
 author: windows-sdk-content
 description: Retrieves the Status property of a FaxIncomingJob object. The Status property is a number that indicates the current status of an inbound fax job in the job queue.
 old-location: fax\_mfax_faxincomingjob_status_cpp.htm

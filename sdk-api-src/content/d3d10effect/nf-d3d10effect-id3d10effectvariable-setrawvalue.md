@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.SetRawValue
-title: ID3D10EffectVariable::SetRawValue
+title: ID3D10EffectVariable::SetRawValue (d3d10effect.h)
 author: windows-sdk-content
 description: Set data.
 old-location: direct3d10\id3d10effectvariable_setrawvalue.htm

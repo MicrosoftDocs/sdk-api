@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT_OUTPUT
-title: D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT_OUTPUT
+title: D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT_OUTPUT (d3d11.h)
 author: windows-sdk-content
 description: Contains the response to a D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT query.
 old-location: mf\d3d11_authenticated_query_output_id_count_output.htm

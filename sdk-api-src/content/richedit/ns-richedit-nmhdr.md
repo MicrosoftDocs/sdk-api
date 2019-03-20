@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._nmhdr
-title: NMHDR
+title: NMHDR (richedit.h)
 author: windows-sdk-content
 description: Contains information about a notification message.
 old-location: controls\NMHDR.htm

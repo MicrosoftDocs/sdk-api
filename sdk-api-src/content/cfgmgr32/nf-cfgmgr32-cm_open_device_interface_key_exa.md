@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Open_Device_Interface_Key_ExA
-title: CM_Open_Device_Interface_Key_ExA function
+title: CM_Open_Device_Interface_Key_ExA function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Open_Device_Interface_Key_ExA function opens the registry subkey that is used by applications and drivers to store information that is specific to a device interface.
 old-location: devinst\cm_open_device_interface_key_exa.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_IDLE_TIMEOUT0_
-title: IPSEC_SA_IDLE_TIMEOUT0
+title: IPSEC_SA_IDLE_TIMEOUT0 (ipsectypes.h)
 author: windows-sdk-content
 description: The security association (SA) idle timeout in IPsec policy.
 old-location: fwp\ipsec_sa_idle_timeout0.htm

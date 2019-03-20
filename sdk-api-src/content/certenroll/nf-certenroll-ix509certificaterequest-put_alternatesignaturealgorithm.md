@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.put_AlternateSignatureAlgorithm
-title: IX509CertificateRequest::put_AlternateSignatureAlgorithm
+title: IX509CertificateRequest::put_AlternateSignatureAlgorithm (certenroll.h)
 author: windows-sdk-content
 description: Specifies and retrieves a Boolean value that indicates whether the signature algorithm object identifier (OID) for a PKCS #10 request or certificate signature is discrete or combined.
 old-location: security\ix509certificaterequest_alternatesignaturealgorithm_property.htm

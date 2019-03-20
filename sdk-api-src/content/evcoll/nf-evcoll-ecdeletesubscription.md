@@ -1,6 +1,6 @@
 ---
 UID: NF:evcoll.EcDeleteSubscription
-title: EcDeleteSubscription function
+title: EcDeleteSubscription function (evcoll.h)
 author: windows-sdk-content
 description: Deletes an existing subscription.
 old-location: wec\ecdeletesubscription.htm

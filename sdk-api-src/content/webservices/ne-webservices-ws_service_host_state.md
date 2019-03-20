@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_95
-title: WS_SERVICE_HOST_STATE
+title: WS_SERVICE_HOST_STATE (webservices.h)
 author: windows-sdk-content
 description: The states that a service host can be in.
 old-location: wsw\ws_service_host_state.htm

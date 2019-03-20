@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.ElementFromHandle
-title: IUIAutomation::ElementFromHandle
+title: IUIAutomation::ElementFromHandle (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a UI Automation element for the specified window.
 old-location: winauto\uiauto_IUIAutomation_ElementFromHandle.htm

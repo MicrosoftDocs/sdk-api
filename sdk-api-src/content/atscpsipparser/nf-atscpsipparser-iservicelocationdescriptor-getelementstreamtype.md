@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IServiceLocationDescriptor.GetElementStreamType
-title: IServiceLocationDescriptor::GetElementStreamType
+title: IServiceLocationDescriptor::GetElementStreamType (atscpsipparser.h)
 author: windows-sdk-content
 description: Gets a code identifying the type of an elementary stream from an Advanced Television Systems Committee (ATSC) Service Location Descriptor.
 old-location: mstv\iservicelocationdescriptor_getelementstreamtype.htm

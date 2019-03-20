@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IViewObjectEx.GetNaturalExtent
-title: IViewObjectEx::GetNaturalExtent
+title: IViewObjectEx::GetNaturalExtent (ocidl.h)
 author: windows-sdk-content
 description: Provides sizing hints from the container for the object to use as the user resizes it.
 old-location: com\iviewobjectex_getnaturalextent.htm

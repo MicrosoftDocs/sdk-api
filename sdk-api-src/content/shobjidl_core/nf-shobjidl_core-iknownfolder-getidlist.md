@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IKnownFolder.GetIDList
-title: IKnownFolder::GetIDList
+title: IKnownFolder::GetIDList (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the location of the Shell namespace folder in the IDList (ITEMIDLIST) form.
 old-location: shell\IKnownFolder_GetIDList.htm

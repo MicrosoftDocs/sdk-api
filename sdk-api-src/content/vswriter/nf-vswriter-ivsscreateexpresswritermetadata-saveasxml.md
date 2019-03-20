@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssCreateExpressWriterMetadata.SaveAsXML
-title: IVssCreateExpressWriterMetadata::SaveAsXML
+title: IVssCreateExpressWriterMetadata::SaveAsXML (vswriter.h)
 author: windows-sdk-content
 description: Stores the Writer Metadata Document that contains an express writer's state information into a specified string.
 old-location: base\ivsscreateexpresswritermetadata_saveasxml.htm

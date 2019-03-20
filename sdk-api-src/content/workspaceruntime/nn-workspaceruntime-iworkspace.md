@@ -1,6 +1,6 @@
 ---
 UID: NN:workspaceruntime.IWorkspace
-title: IWorkspace
+title: IWorkspace (workspaceruntime.h)
 author: windows-sdk-content
 description: Exposes methods that provide information about a connection in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspace.htm

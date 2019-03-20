@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IValueMap.get_Count
-title: IValueMap::get_Count
+title: IValueMap::get_Count (pla.h)
 author: windows-sdk-content
 description: Retrieves the number of items in the collection.
 old-location: pla\ivaluemap_count.htm

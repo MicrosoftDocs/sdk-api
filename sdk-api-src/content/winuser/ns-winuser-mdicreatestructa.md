@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagMDICREATESTRUCTA
-title: MDICREATESTRUCTA
+title: MDICREATESTRUCTA (winuser.h)
 author: windows-sdk-content
 description: Contains information about the class, title, owner, location, and size of a multiple-document interface (MDI) child window.
 old-location: winmsg\mdicreatestruct.htm

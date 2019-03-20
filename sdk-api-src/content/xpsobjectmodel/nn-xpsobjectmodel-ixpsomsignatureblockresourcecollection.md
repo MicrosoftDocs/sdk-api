@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMSignatureBlockResourceCollection
-title: IXpsOMSignatureBlockResourceCollection
+title: IXpsOMSignatureBlockResourceCollection (xpsobjectmodel.h)
 author: windows-sdk-content
 description: A collection of IXpsOMSignatureBlockResource interface pointers.
 old-location: xps\ixpsomsignatureblockresourcecollection.htm

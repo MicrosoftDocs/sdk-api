@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_GET_AUTH_DATA_FOR_USER
-title: LSA_GET_AUTH_DATA_FOR_USER
+title: LSA_GET_AUTH_DATA_FOR_USER (ntsecpkg.h)
 author: windows-sdk-content
 description: The GetAuthDataForUser function retrieves authentication information for a user from the Security Accounts Manager (SAM) database and puts it into a format suitable for the ConvertAuthDataToToken function.
 old-location: security\getauthdataforuser.htm

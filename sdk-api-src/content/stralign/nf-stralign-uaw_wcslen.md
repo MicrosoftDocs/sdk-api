@@ -1,6 +1,6 @@
 ---
 UID: NF:stralign.uaw_wcslen
-title: uaw_wcslen function
+title: uaw_wcslen function (stralign.h)
 author: windows-sdk-content
 description: Retrieves the number of characters in a null-terminated Unicode string.
 old-location: winprog\uaw_wcslen.htm

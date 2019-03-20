@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.GetNLSVersion
-title: GetNLSVersion function
+title: GetNLSVersion function (winnls.h)
 author: windows-sdk-content
 description: Retrieves information about the current version of a specified NLS capability for a locale specified by identifier.Note  For interoperability reasons, the application should prefer the GetNLSVersionEx function to GetNLSVersion because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. This recommendation applies especially to custom locales, for which GetNLSVersionEx retrieves enough information to determine if sort behavior has changed. Any application that runs only on Windows Vista and later should use GetNLSVersionEx or at least pass the NLSVERSIONINFOEX structure when calling GetNLSVersion to obtain additional sorting versioning data.
 old-location: intl\getnlsversion.htm

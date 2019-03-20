@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.RtlAddGrowableFunctionTable
-title: RtlAddGrowableFunctionTable function
+title: RtlAddGrowableFunctionTable function (winnt.h)
 author: windows-sdk-content
 description: Informs the system of a dynamic function table representing a region of memory containing code.
 old-location: base\rtladdgrowablefunctiontable.htm

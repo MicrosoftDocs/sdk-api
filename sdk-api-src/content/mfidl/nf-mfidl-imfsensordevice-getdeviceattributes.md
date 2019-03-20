@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorDevice.GetDeviceAttributes
-title: IMFSensorDevice::GetDeviceAttributes
+title: IMFSensorDevice::GetDeviceAttributes (mfidl.h)
 author: windows-sdk-content
 description: Gets the IMFAttributes for the sensor group.
 old-location: mf\imfsensordevice_getdeviceattributes.htm

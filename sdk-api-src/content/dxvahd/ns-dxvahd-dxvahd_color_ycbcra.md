@@ -1,6 +1,6 @@
 ---
 UID: NS:dxvahd._DXVAHD_COLOR_YCbCrA
-title: DXVAHD_COLOR_YCbCrA
+title: DXVAHD_COLOR_YCbCrA (dxvahd.h)
 author: windows-sdk-content
 description: Specifies a YCbCr color value.
 old-location: mf\dxvahd_color_ycbcra.htm

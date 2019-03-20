@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITLocationInfo.get_CancelCallWaitingCode
-title: ITLocationInfo::get_CancelCallWaitingCode
+title: ITLocationInfo::get_CancelCallWaitingCode (tapi3if.h)
 author: windows-sdk-content
 description: The get_CancelCallWaitingCode method gets the dial digits and modifier characters that must be prefixed to a dialable string to cancel call waiting.
 old-location: tapi3\itlocationinfo_get_cancelcallwaitingcode.htm

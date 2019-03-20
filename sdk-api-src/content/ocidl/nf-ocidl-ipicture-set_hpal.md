@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPicture.set_hPal
-title: IPicture::set_hPal
+title: IPicture::set_hPal (ocidl.h)
 author: windows-sdk-content
 description: Assigns a GDI palette to the picture contained in the picture object.
 old-location: com\ipicture_set_hpal.htm

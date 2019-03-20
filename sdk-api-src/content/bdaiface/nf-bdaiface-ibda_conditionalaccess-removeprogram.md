@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccess.RemoveProgram
-title: IBDA_ConditionalAccess::RemoveProgram
+title: IBDA_ConditionalAccess::RemoveProgram (bdaiface.h)
 author: windows-sdk-content
 description: Currently not implemented.
 old-location: mstv\ibda_conditionalaccess_removeprogram.htm

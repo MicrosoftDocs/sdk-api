@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellPropSheetExt.ReplacePage
-title: IShellPropSheetExt::ReplacePage
+title: IShellPropSheetExt::ReplacePage (shobjidl_core.h)
 author: windows-sdk-content
 description: Replaces a page in a property sheet for a Control Panel object.
 old-location: shell\IShellPropSheetExt_ReplacePage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteRemoteFontFileStream.BeginDownload
-title: IDWriteRemoteFontFileStream::BeginDownload
+title: IDWriteRemoteFontFileStream::BeginDownload (dwrite_3.h)
 author: windows-sdk-content
 description: Begins downloading all or part of the font file.
 old-location: directwrite\idwriteremotefontfilestream_begindownload.htm

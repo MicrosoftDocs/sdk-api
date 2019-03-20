@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdoCollection.Add
-title: ISdoCollection::Add
+title: ISdoCollection::Add (sdoias.h)
 author: windows-sdk-content
 description: The Add method adds an item to the Server Data Objects (SDO) collection.
 old-location: nps\SDO_isdocollection_add.htm

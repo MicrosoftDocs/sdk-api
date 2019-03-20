@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.WaitCommEvent
-title: WaitCommEvent function
+title: WaitCommEvent function (winbase.h)
 author: windows-sdk-content
 description: Waits for an event to occur for a specified communications device. The set of events that are monitored by this function is contained in the event mask associated with the device handle.
 old-location: base\waitcommevent.htm

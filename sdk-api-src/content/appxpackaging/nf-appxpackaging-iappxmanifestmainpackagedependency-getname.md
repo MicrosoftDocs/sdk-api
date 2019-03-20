@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestMainPackageDependency.GetName
-title: IAppxManifestMainPackageDependency::GetName
+title: IAppxManifestMainPackageDependency::GetName (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the name of the main package dependency from the AppxManifest.xml.
 old-location: appxpkg\iappxmanifestmainpackagedependency_getname.htm

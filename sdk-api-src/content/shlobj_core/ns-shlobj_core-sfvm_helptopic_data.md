@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core._SFVM_HELPTOPIC_DATA
-title: SFVM_HELPTOPIC_DATA
+title: SFVM_HELPTOPIC_DATA (shlobj_core.h)
 author: windows-sdk-content
 description: Contains the name of an HTML Help file and a topic in that file. Used with the SFVM_GETHELPTOPIC notification. This structure requires Unicode strings.
 old-location: shell\SFVM_HELPTOPIC_DATA_str.htm

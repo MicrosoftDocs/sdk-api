@@ -1,6 +1,6 @@
 ---
 UID: NE:ocidl.tagPOINTERINACTIVE
-title: POINTERINACTIVE
+title: POINTERINACTIVE (ocidl.h)
 author: windows-sdk-content
 description: Indicate the activation policy of the object and are used in the IPointerInactive::GetActivationPolicy method.
 old-location: com\pointerinactive.htm

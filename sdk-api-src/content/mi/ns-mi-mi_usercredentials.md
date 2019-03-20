@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_UserCredentials
-title: MI_UserCredentials
+title: MI_UserCredentials (mi.h)
 author: windows-sdk-content
 description: A user's credentials. It includes an authentication type and either a username and password or a certificate thumbprint.
 old-location: wmi_v2\mi_usercredentials.htm

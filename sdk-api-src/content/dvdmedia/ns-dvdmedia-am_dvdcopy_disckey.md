@@ -1,6 +1,6 @@
 ---
 UID: NS:dvdmedia._AM_DVDCOPY_DISCKEY
-title: AM_DVDCOPY_DISCKEY
+title: AM_DVDCOPY_DISCKEY (dvdmedia.h)
 author: windows-sdk-content
 description: Specifies the DVD disc key.
 old-location: dshow\am_dvdcopy_disckey.htm

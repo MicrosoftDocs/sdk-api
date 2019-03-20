@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcServerUnregisterIf
-title: RpcServerUnregisterIf function
+title: RpcServerUnregisterIf function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcServerUnregisterIf function removes an interface from the RPC run-time library registry.
 old-location: rpc\rpcserverunregisterif.htm

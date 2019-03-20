@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_ACCESS_DESCRIPTION
-title: CERT_ACCESS_DESCRIPTION
+title: CERT_ACCESS_DESCRIPTION (wincrypt.h)
 author: windows-sdk-content
 description: The CERT_ACCESS_DESCRIPTION structure is a member of a CERT_AUTHORITY_INFO_ACCESS structure.
 old-location: security\cert_access_description.htm

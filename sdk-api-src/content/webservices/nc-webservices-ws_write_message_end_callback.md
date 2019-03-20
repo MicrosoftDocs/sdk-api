@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_WRITE_MESSAGE_END_CALLBACK
-title: WS_WRITE_MESSAGE_END_CALLBACK
+title: WS_WRITE_MESSAGE_END_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Handles the WsWriteMessageEnd call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_write_message_end_callback.htm

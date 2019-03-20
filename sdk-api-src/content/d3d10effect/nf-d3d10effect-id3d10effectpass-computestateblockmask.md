@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectPass.ComputeStateBlockMask
-title: ID3D10EffectPass::ComputeStateBlockMask
+title: ID3D10EffectPass::ComputeStateBlockMask (d3d10effect.h)
 author: windows-sdk-content
 description: Generate a mask for allowing/preventing state changes.
 old-location: direct3d10\id3d10effectpass_computestateblockmask.htm

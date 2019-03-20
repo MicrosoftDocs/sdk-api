@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TabCtrl_SetItem
-title: TabCtrl_SetItem macro
+title: TabCtrl_SetItem macro (commctrl.h)
 author: windows-sdk-content
 description: Sets some or all of a tab's attributes. You can use this macro or send the TCM_SETITEM message explicitly.
 old-location: controls\TabCtrl_SetItem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:mssip.pCryptSIPGetCaps
-title: pCryptSIPGetCaps
+title: pCryptSIPGetCaps (mssip.h)
 author: windows-sdk-content
 description: Is implemented by an subject interface package (SIP) to report capabilities.
 old-location: security\pfncryptsipgetcaps.htm

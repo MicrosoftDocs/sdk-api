@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Class_GetParentClass
-title: MI_Class_GetParentClass function
+title: MI_Class_GetParentClass function (mi.h)
 author: windows-sdk-content
 description: Gets the parent class for the specified class.
 old-location: wmi_v2\mi_class_getparentclass.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetLockRequestFile
-title: InternetLockRequestFile function
+title: InternetLockRequestFile function (wininet.h)
 author: windows-sdk-content
 description: Places a lock on the file that is being used.
 old-location: wininet\internetlockrequestfile.htm

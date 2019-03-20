@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSVirtualChannelOpenEx
-title: WTSVirtualChannelOpenEx function
+title: WTSVirtualChannelOpenEx function (wtsapi32.h)
 author: windows-sdk-content
 description: Creates a virtual channel in a manner similar to WTSVirtualChannelOpen.
 old-location: termserv\wtsvirtualchannelopenex.htm

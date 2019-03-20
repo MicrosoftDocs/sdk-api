@@ -1,6 +1,6 @@
 ---
 UID: NE:vss._VSS_BACKUP_SCHEMA
-title: VSS_BACKUP_SCHEMA
+title: VSS_BACKUP_SCHEMA (vss.h)
 author: windows-sdk-content
 description: Used by a writer to indicate the types of backup operations it can participate in.
 old-location: base\vss_backup_schema.htm

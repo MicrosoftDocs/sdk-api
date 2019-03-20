@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsprint.StartXpsPrintJob
-title: StartXpsPrintJob function
+title: StartXpsPrintJob function (xpsprint.h)
 author: windows-sdk-content
 description: Starts printing an XPS document stream to a printer.
 old-location: gdi\startxpsprintjob.htm

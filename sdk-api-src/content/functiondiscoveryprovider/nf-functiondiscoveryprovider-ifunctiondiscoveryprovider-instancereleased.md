@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProvider.InstanceReleased
-title: IFunctionDiscoveryProvider::InstanceReleased
+title: IFunctionDiscoveryProvider::InstanceReleased (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: Releases the specified function instance and frees the memory previously allocated.
 old-location: ncd\ifunctiondiscoveryprovider_instancereleased.htm

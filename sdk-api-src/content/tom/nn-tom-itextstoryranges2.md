@@ -1,6 +1,6 @@
 ---
 UID: NN:tom.ITextStoryRanges2
-title: ITextStoryRanges2
+title: ITextStoryRanges2 (tom.h)
 author: windows-sdk-content
 description: The ITextStoryRanges2 interface enumerates the stories in an ITextDocument.
 old-location: controls\itextstoryranges2.htm

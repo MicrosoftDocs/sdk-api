@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICJpegFrameDecode.CopyScan
-title: IWICJpegFrameDecode::CopyScan
+title: IWICJpegFrameDecode::CopyScan (wincodec.h)
 author: windows-sdk-content
 description: Retrieves a copy of the compressed JPEG scan directly from the WIC decoder frame's output stream.
 old-location: wic\iwicjpegframedecode_copyscan.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.GetDriveTypeA
-title: GetDriveTypeA function
+title: GetDriveTypeA function (fileapi.h)
 author: windows-sdk-content
 description: Determines whether a disk drive is a removable, fixed, CD-ROM, RAM disk, or network drive.
 old-location: fs\getdrivetype.htm

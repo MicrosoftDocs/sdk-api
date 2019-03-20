@@ -1,6 +1,6 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronize.GetItemObject
-title: ISyncMgrSynchronize::GetItemObject
+title: ISyncMgrSynchronize::GetItemObject (mobsync.h)
 author: windows-sdk-content
 description: Obtains an interface on a specified item that a registered application handles.
 old-location: shell\syncmgr_isyncmgrsynchronize_getitemobject.htm

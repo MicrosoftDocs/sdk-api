@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.GetWrapMode
-title: PathGradientBrush::GetWrapMode
+title: PathGradientBrush::GetWrapMode (gdipluspath.h)
 author: windows-sdk-content
 description: The PathGradientBrush::GetWrapMode method gets the wrap mode currently set for this path gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetWrapMode_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISmimeCapabilities.AddAvailableSmimeCapabilities
-title: ISmimeCapabilities::AddAvailableSmimeCapabilities
+title: ISmimeCapabilities::AddAvailableSmimeCapabilities (certenroll.h)
 author: windows-sdk-content
 description: Adds ISmimeCapability objects to the collection by identifying the encryption algorithms supported by the default RSA cryptographic provider.
 old-location: security\ismimecapabilities_addavailablesmimecapabilities_method.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mmstream.IMediaStream.GetInformation
-title: IMediaStream::GetInformation
+title: IMediaStream::GetInformation (mmstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Retrieves the stream's purpose ID and media type.
 old-location: dshow\imediastream_getinformation.htm

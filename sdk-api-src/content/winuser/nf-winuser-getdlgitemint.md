@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetDlgItemInt
-title: GetDlgItemInt function
+title: GetDlgItemInt function (winuser.h)
 author: windows-sdk-content
 description: Translates the text of a specified control in a dialog box into an integer value.
 old-location: dlgbox\getdlgitemint.htm

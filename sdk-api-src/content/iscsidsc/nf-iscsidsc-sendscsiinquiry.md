@@ -1,6 +1,6 @@
 ---
 UID: NF:iscsidsc.SendScsiInquiry
-title: SendScsiInquiry function
+title: SendScsiInquiry function (iscsidsc.h)
 author: windows-sdk-content
 description: SendScsiInquiry function sends a SCSI INQUIRY command to the specified target.
 old-location: iscsidisc\sendscsiinquiry.htm

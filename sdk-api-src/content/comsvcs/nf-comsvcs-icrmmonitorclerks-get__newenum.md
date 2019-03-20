@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmMonitorClerks.get__NewEnum
-title: ICrmMonitorClerks::get__NewEnum
+title: ICrmMonitorClerks::get__NewEnum (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves an enumerator for the instance CLSIDs of the CRM clerks.
 old-location: cos\icrmmonitorclerks_get__newenum.htm

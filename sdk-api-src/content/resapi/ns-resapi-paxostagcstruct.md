@@ -1,6 +1,6 @@
 ---
 UID: NS:resapi._PaxosTagCStruct
-title: PaxosTagCStruct
+title: PaxosTagCStruct (resapi.h)
 author: windows-sdk-content
 description: Contains the Paxos tag values of a cluster node, which stores information about the cluster configuration version of the node when the cluster uses a File Share witness.
 old-location: mscs\paxostagcstruct.htm

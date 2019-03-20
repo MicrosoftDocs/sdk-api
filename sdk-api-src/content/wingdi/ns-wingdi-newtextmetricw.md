@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagNEWTEXTMETRICW
-title: NEWTEXTMETRICW
+title: NEWTEXTMETRICW (wingdi.h)
 author: windows-sdk-content
 description: The NEWTEXTMETRIC structure contains data that describes a physical font.
 old-location: gdi\newtextmetric.htm

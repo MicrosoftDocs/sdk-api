@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiInstallClassExW
-title: SetupDiInstallClassExW function
+title: SetupDiInstallClassExW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiInstallClassEx function installs a class installer or an interface class.
 old-location: devinst\setupdiinstallclassex.htm

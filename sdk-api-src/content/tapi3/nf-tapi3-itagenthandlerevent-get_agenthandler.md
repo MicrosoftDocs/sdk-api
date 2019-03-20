@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAgentHandlerEvent.get_AgentHandler
-title: ITAgentHandlerEvent::get_AgentHandler
+title: ITAgentHandlerEvent::get_AgentHandler (tapi3.h)
 author: windows-sdk-content
 description: The get_AgentHandler method gets the ITAgentHandler interface pointer.
 old-location: tapi3\itagenthandlerevent_get_agenthandler.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IResourceManager.RequestResource
-title: IResourceManager::RequestResource
+title: IResourceManager::RequestResource (strmif.h)
 author: windows-sdk-content
 description: The RequestResource method requests the use of a given registered resource.
 old-location: dshow\iresourcemanager_requestresource.htm

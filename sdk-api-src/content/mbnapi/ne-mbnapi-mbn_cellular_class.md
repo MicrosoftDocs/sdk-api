@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_CELLULAR_CLASS
-title: MBN_CELLULAR_CLASS
+title: MBN_CELLULAR_CLASS (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_CELLULAR_CLASS enumerated type defines the type of cellular device.
 old-location: mbn\mbn_cellular_class.htm

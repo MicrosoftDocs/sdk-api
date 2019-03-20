@@ -1,6 +1,6 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolConnection
-title: IWRdsProtocolConnection
+title: IWRdsProtocolConnection (wtsprotocol.h)
 author: windows-sdk-content
 description: Exposes methods called by the Remote Desktop Services service to configure a client connection.
 old-location: termserv\iwrdsprotocolconnection.htm

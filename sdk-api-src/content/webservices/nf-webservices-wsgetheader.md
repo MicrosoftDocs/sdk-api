@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsGetHeader
-title: WsGetHeader function
+title: WsGetHeader function (webservices.h)
 author: windows-sdk-content
 description: Finds a particular standard header in the message and deserializes it.
 old-location: wsw\wsgetheader.htm

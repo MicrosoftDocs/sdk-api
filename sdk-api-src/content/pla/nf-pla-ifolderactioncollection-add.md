@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IFolderActionCollection.Add
-title: IFolderActionCollection::Add
+title: IFolderActionCollection::Add (pla.h)
 author: windows-sdk-content
 description: Adds a folder action to the collection.
 old-location: pla\ifolderactioncollection_add.htm

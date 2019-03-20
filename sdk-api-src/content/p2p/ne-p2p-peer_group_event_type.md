@@ -1,6 +1,6 @@
 ---
 UID: NE:p2p.peer_group_event_type_tag
-title: PEER_GROUP_EVENT_TYPE
+title: PEER_GROUP_EVENT_TYPE (p2p.h)
 author: windows-sdk-content
 description: The PEER_GROUP_EVENT_TYPE enumeration contains the specific peer event types that can occur within a peer group.
 old-location: p2p\peer_group_event_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDeviceRegistration.UnregisterDevice
-title: IWMDeviceRegistration::UnregisterDevice
+title: IWMDeviceRegistration::UnregisterDevice (wmsdkidl.h)
 author: windows-sdk-content
 description: The UnregisterDevice method removes a device from the device registration database.
 old-location: wmformat\iwmdeviceregistration_unregisterdevice.htm

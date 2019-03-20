@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IThreadPoolKnobs.GetMaxThreads
-title: IThreadPoolKnobs::GetMaxThreads
+title: IThreadPoolKnobs::GetMaxThreads (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the maximum number of threads that are allowed in the pool.
 old-location: cos\ithreadpoolknobs_getmaxthreads.htm

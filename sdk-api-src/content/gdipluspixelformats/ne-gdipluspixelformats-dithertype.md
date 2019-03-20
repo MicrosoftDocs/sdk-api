@@ -1,6 +1,6 @@
 ---
 UID: NE:gdipluspixelformats.DitherType
-title: DitherType
+title: DitherType (gdipluspixelformats.h)
 author: windows-sdk-content
 description: The DitherType enumeration identifies the available algorithms for dithering when a bitmap is converted.
 old-location: gdiplus\_gdiplus_ENUM_DitherType.htm

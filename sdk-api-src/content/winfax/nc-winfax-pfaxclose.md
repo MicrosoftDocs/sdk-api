@@ -1,6 +1,6 @@
 ---
 UID: NC:winfax.PFAXCLOSE
-title: PFAXCLOSE
+title: PFAXCLOSE (winfax.h)
 author: windows-sdk-content
 description: The FaxClose function closes the following types of fax handles:
 old-location: fax\_mfax_faxclose.htm

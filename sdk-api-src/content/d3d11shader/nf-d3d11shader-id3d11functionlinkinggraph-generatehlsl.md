@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11FunctionLinkingGraph.GenerateHlsl
-title: ID3D11FunctionLinkingGraph::GenerateHlsl
+title: ID3D11FunctionLinkingGraph::GenerateHlsl (d3d11shader.h)
 author: windows-sdk-content
 description: Generates Microsoft High Level Shader Language (HLSL) shader code that represents the function-linking-graph.
 old-location: direct3d11\id3d11functionlinkinggraph_generatehlsl.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wia_xp.IWiaDevMgr
-title: IWiaDevMgr
+title: IWiaDevMgr (wia_xp.h)
 author: windows-sdk-content
 description: Applications use the IWiaDevMgr interface to create and manage image acquisition devices.
 old-location: wia\_wia_IWiaDevMgr.htm

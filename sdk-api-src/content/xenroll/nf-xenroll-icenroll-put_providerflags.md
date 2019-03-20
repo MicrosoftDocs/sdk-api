@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll.put_ProviderFlags
-title: ICEnroll::put_ProviderFlags
+title: ICEnroll::put_ProviderFlags (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves the provider type.
 old-location: security\icenroll4_providerflags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IActiveBasicDevice.SetCachedBitrateMeasurement
-title: IActiveBasicDevice::streaming
+title: IActiveBasicDevice::streaming (windows.media.streaming.h)
 author: windows-sdk-content
 description: Sets the cached bitrate.
 old-location: mediastreaming\iactivebasicdevice_setcachedbitratemeasurement.htm

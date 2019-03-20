@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_TOKEN0_
-title: IPSEC_TOKEN0
+title: IPSEC_TOKEN0 (ipsectypes.h)
 author: windows-sdk-content
 description: Various information about an IPsec-specific access token.
 old-location: fwp\ipsec_token0.htm

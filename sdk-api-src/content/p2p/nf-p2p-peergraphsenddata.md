@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGraphSendData
-title: PeerGraphSendData function
+title: PeerGraphSendData function (p2p.h)
 author: windows-sdk-content
 description: The PeerGraphSendData function sends data to a neighbor node or a directly connected node.
 old-location: p2p\peergraphsenddata.htm

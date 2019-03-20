@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAnnotationPattern.get_CachedDateTime
-title: IUIAutomationAnnotationPattern::get_CachedDateTime
+title: IUIAutomationAnnotationPattern::get_CachedDateTime (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached date and time that this annotation was created.
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CachedDateTime.htm

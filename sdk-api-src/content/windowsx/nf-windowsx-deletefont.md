@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.DeleteFont
-title: DeleteFont macro
+title: DeleteFont macro (windowsx.h)
 author: windows-sdk-content
 description: The DeleteFont macro deletes a font object, freeing all system resources associated with the font object.
 old-location: gdi\deletefont.htm

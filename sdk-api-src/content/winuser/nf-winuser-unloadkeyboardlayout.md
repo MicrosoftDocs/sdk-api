@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.UnloadKeyboardLayout
-title: UnloadKeyboardLayout function
+title: UnloadKeyboardLayout function (winuser.h)
 author: windows-sdk-content
 description: Unloads an input locale identifier (formerly called a keyboard layout).
 old-location: inputdev\unloadkeyboardlayout.htm

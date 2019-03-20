@@ -1,6 +1,6 @@
 ---
 UID: NF:winternl.RtlConvertSidToUnicodeString
-title: RtlConvertSidToUnicodeString function
+title: RtlConvertSidToUnicodeString function (winternl.h)
 author: windows-sdk-content
 description: Converts a security identifier (SID) to its Unicode character representation.
 old-location: security\rtlconvertsidtounicodestring.htm

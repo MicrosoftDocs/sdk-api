@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPackageWriter
-title: IXpsOMPackageWriter
+title: IXpsOMPackageWriter (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Incrementally writes the parts of an XPS document to a package file.
 old-location: xps\ixpsompackagewriter.htm

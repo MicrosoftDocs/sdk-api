@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.RevertToDefaultScopes
-title: ISearchCrawlScopeManager::RevertToDefaultScopes
+title: ISearchCrawlScopeManager::RevertToDefaultScopes (searchapi.h)
 author: windows-sdk-content
 description: Reverts to the default scopes.
 old-location: search\_search_ISearchCrawlScopeManager_RevertToDefaultScopes.htm

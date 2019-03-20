@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1_3.D2D1_GAMMA1
-title: D2D1_GAMMA1
+title: D2D1_GAMMA1 (d2d1_3.h)
 author: windows-sdk-content
 description: Determines what gamma is used for interpolation and blending.
 old-location: direct2d\d2d1_gamma1.htm

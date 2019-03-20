@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsDomain
-title: IADsDomain
+title: IADsDomain (iads.h)
 author: windows-sdk-content
 description: The IADsDomain interface is a dual interface that inherits from IADs.
 old-location: adsi\iadsdomain.htm

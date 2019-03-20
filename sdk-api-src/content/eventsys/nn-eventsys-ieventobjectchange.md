@@ -1,6 +1,6 @@
 ---
 UID: NN:eventsys.IEventObjectChange
-title: IEventObjectChange
+title: IEventObjectChange (eventsys.h)
 author: windows-sdk-content
 description: Notifies subscribers of changes to the event store.
 old-location: cos\ieventobjectchange.htm

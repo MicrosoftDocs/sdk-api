@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmReleaseDestInfo
-title: RtmReleaseDestInfo function
+title: RtmReleaseDestInfo function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmReleaseDestInfo function releases a destination structure.
 old-location: rras\rtmreleasedestinfo.htm

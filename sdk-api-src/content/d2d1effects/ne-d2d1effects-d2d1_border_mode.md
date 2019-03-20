@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects.D2D1_BORDER_MODE
-title: D2D1_BORDER_MODE
+title: D2D1_BORDER_MODE (d2d1effects.h)
 author: windows-sdk-content
 description: Specifies how the Crop effect handles the crop rectangle falling on fractional pixel coordinates.
 old-location: direct2d\d2d1_border_mode.htm

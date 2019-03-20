@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.CreateReport
-title: IFsrmReportJob::CreateReport
+title: IFsrmReportJob::CreateReport (fsrmreports.h)
 author: windows-sdk-content
 description: Creates a new report object of the specified type.
 old-location: fsrm\ifsrmreportjob_createreport.htm

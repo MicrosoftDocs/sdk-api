@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfEditSession.DoEditSession
-title: ITfEditSession::DoEditSession
+title: ITfEditSession::DoEditSession (msctf.h)
 author: windows-sdk-content
 description: ITfEditSession::DoEditSession method
 old-location: tsf\itfeditsession_doeditsession.htm

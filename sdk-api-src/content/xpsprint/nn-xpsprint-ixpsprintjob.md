@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsprint.IXpsPrintJob
-title: IXpsPrintJob
+title: IXpsPrintJob (xpsprint.h)
 author: windows-sdk-content
 description: Provides access to a print job that is currently in progress.
 old-location: gdi\ixpsprintjob.htm

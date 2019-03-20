@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxActivity.get_RoutingMessages
-title: IFaxActivity::get_RoutingMessages
+title: IFaxActivity::get_RoutingMessages (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxActivity::get_RoutingMessages property is a number that represents the total number of incoming fax jobs that the fax service is currently routing.
 old-location: fax\_mfax_faxactivity_cpp_mfax_faxactivity_routingmessages_cpp.htm

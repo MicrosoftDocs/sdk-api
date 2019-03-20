@@ -1,6 +1,6 @@
 ---
 UID: NF:hrtfapoapi.IXAPOHrtfParameters.SetSourceOrientation
-title: IXAPOHrtfParameters::SetSourceOrientation
+title: IXAPOHrtfParameters::SetSourceOrientation (hrtfapoapi.h)
 author: windows-sdk-content
 description: Set the rotation matrix for the source orientation, with respect to the listener's coordinate system.
 old-location: xaudio2\ixapohrtfparameters_setsourceorientation.htm

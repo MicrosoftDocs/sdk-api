@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.ICategoryProvider
-title: ICategoryProvider
+title: ICategoryProvider (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes a list of categorizers registered on an IShellFolder.
 old-location: shell\ICategoryProvider.htm

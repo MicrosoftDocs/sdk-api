@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsHold
-title: IADsHold
+title: IADsHold (iads.h)
 author: windows-sdk-content
 description: The IADsHold interface provides methods for an ADSI client to access the Hold attribute.
 old-location: adsi\iadshold.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentStatus.put_Display
-title: IX509EnrollmentStatus::put_Display
+title: IX509EnrollmentStatus::put_Display (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a value that indicates whether to display the status information in a user interface.
 old-location: security\ix509enrollmentstatus_display_property.htm

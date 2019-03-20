@@ -1,6 +1,6 @@
 ---
 UID: NF:mspaddr.CMSPAddress.GetStaticTerminals
-title: CMSPAddress::GetStaticTerminals
+title: CMSPAddress::GetStaticTerminals (mspaddr.h)
 author: windows-sdk-content
 description: The GetStaticTerminals method is called by our wrapper methods ( get_StaticTerminals and EnumerateStaticTerminals) to get an array of static terminals that can be used on this address.
 old-location: tapi3\cmspaddress_getstaticterminals.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITScriptableAudioFormat.put_FormatTag
-title: ITScriptableAudioFormat::put_FormatTag
+title: ITScriptableAudioFormat::put_FormatTag (tapi3if.h)
 author: windows-sdk-content
 description: The put_FormatTag method sets the wFormatTag member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_put_formattag.htm

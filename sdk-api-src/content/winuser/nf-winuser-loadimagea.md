@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.LoadImageA
-title: LoadImageA function
+title: LoadImageA function (winuser.h)
 author: windows-sdk-content
 description: Loads an icon, cursor, animated cursor, or bitmap.
 old-location: menurc\loadimage.htm

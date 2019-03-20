@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.ICategoryCollection.get_Count
-title: ICategoryCollection::get_Count
+title: ICategoryCollection::get_Count (wuapi.h)
 author: windows-sdk-content
 description: Gets the number of elements in the collection.
 old-location: wua\icategorycollection_count.htm

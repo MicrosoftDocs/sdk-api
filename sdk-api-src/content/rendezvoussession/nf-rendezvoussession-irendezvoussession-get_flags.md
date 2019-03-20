@@ -1,6 +1,6 @@
 ---
 UID: NF:rendezvoussession.IRendezvousSession.get_Flags
-title: IRendezvousSession::get_Flags
+title: IRendezvousSession::get_Flags (rendezvoussession.h)
 author: windows-sdk-content
 description: Retrieves a value that indicates session information. For example, the session flag can indicate whether the user is the inviter or the invitee.
 old-location: remoteassist\remoteassist_IRendezvousSession_Flags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj.__unnamed_struct_4
-title: SHCOLUMNDATA
+title: SHCOLUMNDATA (shlobj.h)
 author: windows-sdk-content
 description: Contains information that identifies a particular file. It is used by IColumnProvider::GetItemData when requesting data for a particular file.
 old-location: shell\SHCOLUMNDATA_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassifierModuleImplementation.GetPropertyValueToApply
-title: IFsrmClassifierModuleImplementation::GetPropertyValueToApply
+title: IFsrmClassifierModuleImplementation::GetPropertyValueToApply (fsrmpipeline.h)
 author: windows-sdk-content
 description: Retrieves the value from the classifier that should be applied for the specified property of the file most recently specified by the IFsrmClassifierModuleImplementation::OnBeginFile method.
 old-location: fsrm\ifsrmclassifiermoduleimplementation_getpropertyvaluetoapply.htm

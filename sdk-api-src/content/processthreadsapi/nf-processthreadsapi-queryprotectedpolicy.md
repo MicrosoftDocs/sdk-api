@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.QueryProtectedPolicy
-title: QueryProtectedPolicy function
+title: QueryProtectedPolicy function (processthreadsapi.h)
 author: windows-sdk-content
 description: Queries the value associated with a protected policy.
 old-location: base\queryprotectedpolicy.htm

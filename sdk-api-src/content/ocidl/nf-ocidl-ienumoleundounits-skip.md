@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IEnumOleUndoUnits.Skip
-title: IEnumOleUndoUnits::Skip
+title: IEnumOleUndoUnits::Skip (ocidl.h)
 author: windows-sdk-content
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: com\ienumoleundounits_skip.htm

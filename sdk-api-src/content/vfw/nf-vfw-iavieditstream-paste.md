@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.IAVIEditStream.Paste
-title: IAVIEditStream::Paste
+title: IAVIEditStream::Paste (vfw.h)
 author: windows-sdk-content
 description: The Paste method copies a stream or a portion of it in another stream. Called when an application uses the EditStreamPaste function.
 old-location: multimedia\iavieditstream_paste.htm

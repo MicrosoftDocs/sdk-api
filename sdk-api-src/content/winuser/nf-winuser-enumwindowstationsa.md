@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.EnumWindowStationsA
-title: EnumWindowStationsA function
+title: EnumWindowStationsA function (winuser.h)
 author: windows-sdk-content
 description: Enumerates all window stations in the current session. The function passes the name of each window station, in turn, to an application-defined callback function.
 old-location: winstation\enumwindowstations.htm

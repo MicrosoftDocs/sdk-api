@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinitionValue.get_DisplayName
-title: IFsrmPropertyDefinitionValue::get_DisplayName
+title: IFsrmPropertyDefinitionValue::get_DisplayName (fsrmpipeline.h)
 author: windows-sdk-content
 description: Display name of the classification property definition value.
 old-location: fsrm\ifsrmpropertydefinitionvalue_displayname.htm

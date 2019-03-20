@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataReader.Open
-title: ISpatialAudioMetadataReader::Open
+title: ISpatialAudioMetadataReader::Open (spatialaudiometadata.h)
 author: windows-sdk-content
 description: Opens an ISpatialAudioMetadataItems object for reading.
 old-location: coreaudio\ispatialaudiometadatareader_open.htm

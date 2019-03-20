@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.DeleteObject
-title: DeleteObject function
+title: DeleteObject function (wingdi.h)
 author: windows-sdk-content
 description: The DeleteObject function deletes a logical pen, brush, font, bitmap, region, or palette, freeing all system resources associated with the object. After the object is deleted, the specified handle is no longer valid.
 old-location: gdi\deleteobject.htm

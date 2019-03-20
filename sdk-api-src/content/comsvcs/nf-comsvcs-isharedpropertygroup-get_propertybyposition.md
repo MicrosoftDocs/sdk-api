@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISharedPropertyGroup.get_PropertyByPosition
-title: ISharedPropertyGroup::get_PropertyByPosition
+title: ISharedPropertyGroup::get_PropertyByPosition (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves a reference to an existing shared property with the specified index.
 old-location: cos\isharedpropertygroup_get_propertybyposition.htm

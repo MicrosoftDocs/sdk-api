@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngMarkBandingSurface
-title: EngMarkBandingSurface function
+title: EngMarkBandingSurface function (winddi.h)
 author: windows-sdk-content
 description: The EngMarkBandingSurface function marks the specified surface as a banding surface.
 old-location: display\engmarkbandingsurface.htm

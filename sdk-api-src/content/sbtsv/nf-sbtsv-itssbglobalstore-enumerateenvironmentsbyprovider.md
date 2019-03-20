@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbGlobalStore.EnumerateEnvironmentsByProvider
-title: ITsSbGlobalStore::EnumerateEnvironmentsByProvider
+title: ITsSbGlobalStore::EnumerateEnvironmentsByProvider (sbtsv.h)
 author: windows-sdk-content
 description: Returns an array that contains the environments present on the specified provider.
 old-location: termserv\itssbglobalstore_enumerateenvironmentsbyprovider.htm

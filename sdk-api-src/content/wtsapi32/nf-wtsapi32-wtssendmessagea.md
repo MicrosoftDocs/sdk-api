@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSSendMessageA
-title: WTSSendMessageA function
+title: WTSSendMessageA function (wtsapi32.h)
 author: windows-sdk-content
 description: Displays a message box on the client desktop of a specified Remote Desktop Services session.
 old-location: termserv\wtssendmessage.htm

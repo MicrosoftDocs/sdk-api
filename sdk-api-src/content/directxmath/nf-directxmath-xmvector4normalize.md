@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector4Normalize
-title: XMVector4Normalize function
+title: XMVector4Normalize function (directxmath.h)
 author: windows-sdk-content
 description: Returns the normalized version of a 4D vector.
 old-location: dxmath\xmvector4normalize.htm

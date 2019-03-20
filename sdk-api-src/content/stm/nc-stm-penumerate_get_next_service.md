@@ -1,6 +1,6 @@
 ---
 UID: NC:stm.PENUMERATE_GET_NEXT_SERVICE
-title: PENUMERATE_GET_NEXT_SERVICE
+title: PENUMERATE_GET_NEXT_SERVICE (stm.h)
 author: windows-sdk-content
 description: The EnumerateGetNextService function returns the next service entry in an enumeration started by CreateServiceEnumerationHandle.
 old-location: rras\enumerategetnextservice.htm

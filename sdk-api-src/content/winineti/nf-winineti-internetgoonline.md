@@ -1,6 +1,6 @@
 ---
 UID: NF:winineti.InternetGoOnline
-title: InternetGoOnline function
+title: InternetGoOnline function (winineti.h)
 author: windows-sdk-content
 description: Prompts the user for permission to initiate connection to a URL.
 old-location: wininet\internetgoonline.htm

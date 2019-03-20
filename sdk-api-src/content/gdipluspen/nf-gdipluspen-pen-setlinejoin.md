@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.SetLineJoin
-title: Pen::SetLineJoin
+title: Pen::SetLineJoin (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::SetLineJoin method sets the line join for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetLineJoin_lineJoin_.htm

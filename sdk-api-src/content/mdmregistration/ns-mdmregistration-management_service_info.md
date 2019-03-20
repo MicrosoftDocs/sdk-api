@@ -1,6 +1,6 @@
 ---
 UID: NS:mdmregistration._MANAGEMENT_SERVICE_INFO
-title: MANAGEMENT_SERVICE_INFO
+title: MANAGEMENT_SERVICE_INFO (mdmregistration.h)
 author: windows-sdk-content
 description: Contains the endpoints and information about the management service.
 old-location: mdmreg\management_service_info.htm

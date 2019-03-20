@@ -1,6 +1,6 @@
 ---
 UID: NS:dbghelp._IMAGEHLP_DUPLICATE_SYMBOL
-title: IMAGEHLP_DUPLICATE_SYMBOL
+title: IMAGEHLP_DUPLICATE_SYMBOL (dbghelp.h)
 author: windows-sdk-content
 description: Contains duplicate symbol information.
 old-location: base\imagehlp_duplicate_symbol64_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.ISearchResult.get_Updates
-title: ISearchResult::get_Updates
+title: ISearchResult::get_Updates (wuapi.h)
 author: windows-sdk-content
 description: Gets an interface collection of the updates that result from a search.
 old-location: wua\isearchresult_updates.htm

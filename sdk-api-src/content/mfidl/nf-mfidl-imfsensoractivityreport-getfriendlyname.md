@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorActivityReport.GetFriendlyName
-title: IMFSensorActivityReport::GetFriendlyName
+title: IMFSensorActivityReport::GetFriendlyName (mfidl.h)
 author: windows-sdk-content
 description: Gets the friendly name for the sensor associated with the report.
 old-location: mf\imfsensoractivityreport_getfriendlyname.htm

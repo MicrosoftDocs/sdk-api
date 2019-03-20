@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.SetPageDimensions
-title: IXpsOMPage::SetPageDimensions
+title: IXpsOMPage::SetPageDimensions (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets dimensions of the page.
 old-location: xps\ixpsompage_setpagedimensions.htm

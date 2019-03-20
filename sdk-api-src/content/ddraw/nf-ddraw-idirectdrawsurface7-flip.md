@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.Flip
-title: IDirectDrawSurface7::Flip
+title: IDirectDrawSurface7::Flip (ddraw.h)
 author: windows-sdk-content
 description: Makes the surface memory that is associated with the DDSCAPS_BACKBUFFER surface become associated with the front-buffer surface.
 old-location: directdraw\idirectdrawsurface7_flip.htm

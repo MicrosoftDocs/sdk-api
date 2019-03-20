@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSinkEvent2.EncryptionOff
-title: IMSVidStreamBufferSinkEvent2::EncryptionOff
+title: IMSVidStreamBufferSinkEvent2::EncryptionOff (segment.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersinkevent2_encryptionoff.htm

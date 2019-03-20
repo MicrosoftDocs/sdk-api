@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidInputDevices.Remove
-title: IMSVidInputDevices::Remove
+title: IMSVidInputDevices::Remove (segment.h)
 author: windows-sdk-content
 description: The Remove method removes an item from the collection.
 old-location: mstv\imsvidinputdevices_remove.htm

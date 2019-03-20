@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectType.GetMemberName
-title: ID3D10EffectType::GetMemberName
+title: ID3D10EffectType::GetMemberName (d3d10effect.h)
 author: windows-sdk-content
 description: Get the name of a member.
 old-location: direct3d10\id3d10effecttype_getmembername.htm

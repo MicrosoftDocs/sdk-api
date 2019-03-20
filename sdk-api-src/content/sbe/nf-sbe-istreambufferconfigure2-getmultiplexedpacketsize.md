@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure2.GetMultiplexedPacketSize
-title: IStreamBufferConfigure2::GetMultiplexedPacketSize
+title: IStreamBufferConfigure2::GetMultiplexedPacketSize (sbe.h)
 author: windows-sdk-content
 description: The GetMultiplexedPacketSize method returns the size of the multiplexed packets in the backing files for the Stream Buffer Engine.
 old-location: mstv\istreambufferconfigure2_getmultiplexedpacketsize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.GET_Y_LPARAM
-title: GET_Y_LPARAM macro
+title: GET_Y_LPARAM macro (windowsx.h)
 author: windows-sdk-content
 description: Retrieves the signed y-coordinate from the given LPARAM value.
 old-location: winmsg\get_y_lparam.htm

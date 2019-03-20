@@ -1,6 +1,6 @@
 ---
 UID: NF:evalcom2.IValidate.OpenCUB
-title: IValidate::OpenCUB
+title: IValidate::OpenCUB (evalcom2.h)
 author: windows-sdk-content
 description: The OpenCUB method opens an Internal Consistency Evaluator (ICE) file that is to be used for validation.
 old-location: setup\ivalidate_opencub.htm

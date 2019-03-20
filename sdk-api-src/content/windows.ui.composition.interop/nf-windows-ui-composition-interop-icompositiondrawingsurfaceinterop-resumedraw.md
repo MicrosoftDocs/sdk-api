@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.composition.interop.ICompositionDrawingSurfaceInterop.ResumeDraw
-title: ICompositionDrawingSurfaceInterop::composition
+title: ICompositionDrawingSurfaceInterop::composition (windows.ui.composition.interop.h)
 author: windows-sdk-content
 description: Resumes drawing on the surface object.
 old-location: w_ui_comp\icompositiondrawingsurfaceinterop_resumedraw.htm

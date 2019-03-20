@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IATSCTuningSpace.get_MinPhysicalChannel
-title: IATSCTuningSpace::get_MinPhysicalChannel
+title: IATSCTuningSpace::get_MinPhysicalChannel (tuner.h)
 author: windows-sdk-content
 description: The get_MinPhysicalChannel method sets the lowest physical channel number for this tuning space.
 old-location: mstv\iatsctuningspace_get_minphysicalchannel.htm

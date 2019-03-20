@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsCreateServiceProxyFromTemplate
-title: WsCreateServiceProxyFromTemplate function
+title: WsCreateServiceProxyFromTemplate function (webservices.h)
 author: windows-sdk-content
 description: Helper routine for creating a service proxy from policy templates.
 old-location: wsw\wscreateserviceproxyfromtemplate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITcpConnectionInfo.get_LocalPort
-title: IRDPSRAPITcpConnectionInfo::get_LocalPort
+title: IRDPSRAPITcpConnectionInfo::get_LocalPort (rdpencomapi.h)
 author: windows-sdk-content
 description: Retrieves the local port that is being used by the sharer or by the viewer in communication.
 old-location: rdp\irdpsrapitcpconnectioninfo_localport.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_HTTP_HEADER_AUTH_SECURITY_BINDING
-title: WS_HTTP_HEADER_AUTH_SECURITY_BINDING
+title: WS_HTTP_HEADER_AUTH_SECURITY_BINDING (webservices.h)
 author: windows-sdk-content
 description: The security binding subtype for specifying the use of HTTP header authentication against a target service or a HTTP proxy server based on the basic, digest (RFC 2617) and the SPNEGO (RFC4559) protocols.
 old-location: wsw\ws_http_header_auth_security_binding.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:virtdisk.ApplySnapshotVhdSet
-title: ApplySnapshotVhdSet function
+title: ApplySnapshotVhdSet function (virtdisk.h)
 author: windows-sdk-content
 description: Applies a snapshot of the current virtual disk for VHD Set files.
 old-location: vhd\applysnapshotvhdset.htm

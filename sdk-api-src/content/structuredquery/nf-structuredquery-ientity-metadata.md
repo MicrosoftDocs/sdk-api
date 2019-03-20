@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IEntity.MetaData
-title: IEntity::MetaData
+title: IEntity::MetaData (structuredquery.h)
 author: windows-sdk-content
 description: Retrieves an enumeration of IMetaData objects for this entity.
 old-location: search\_search_IEntity_MetaData.htm

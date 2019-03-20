@@ -1,6 +1,6 @@
 ---
 UID: NF:vss.IVssAsync.QueryStatus
-title: IVssAsync::QueryStatus
+title: IVssAsync::QueryStatus (vss.h)
 author: windows-sdk-content
 description: The QueryStatus method queries the status of an asynchronous operation.
 old-location: base\ivssasync_querystatus.htm

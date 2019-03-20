@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument.Unfreeze
-title: ITextDocument::Unfreeze
+title: ITextDocument::Unfreeze (tom.h)
 author: windows-sdk-content
 description: Decrements the freeze count.
 old-location: controls\ITextDocument_Unfreeze.htm

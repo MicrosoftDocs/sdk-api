@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.GetMultipleComponentsInfo
-title: ICOMAdminCatalog::GetMultipleComponentsInfo
+title: ICOMAdminCatalog::GetMultipleComponentsInfo (comadmin.h)
 author: windows-sdk-content
 description: Retrieves information about the components found in the specified files.
 old-location: cos\icomadmincatalog_getmultiplecomponentsinfo.htm

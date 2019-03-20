@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMMatrixTransformation
-title: XMMatrixTransformation function
+title: XMMatrixTransformation function (directxmath.h)
 author: windows-sdk-content
 description: Builds a transformation matrix.
 old-location: dxmath\xmmatrixtransformation.htm

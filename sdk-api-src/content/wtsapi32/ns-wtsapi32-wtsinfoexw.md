@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsapi32._WTSINFOEXW
-title: WTSINFOEXW
+title: WTSINFOEXW (wtsapi32.h)
 author: windows-sdk-content
 description: Contains a WTSINFOEX_LEVEL union that contains extended information about a Remote Desktop Services session.
 old-location: termserv\wtsinfoex.htm

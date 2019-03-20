@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPLibrary.get_name
-title: IWMPLibrary::get_name
+title: IWMPLibrary::get_name (wmp.h)
 author: windows-sdk-content
 description: The get_name method retrieves the display name of the current library.
 old-location: wmp\iwmplibrary_get_name.htm

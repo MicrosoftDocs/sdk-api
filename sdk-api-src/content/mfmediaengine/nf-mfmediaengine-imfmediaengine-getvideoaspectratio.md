@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetVideoAspectRatio
-title: IMFMediaEngine::GetVideoAspectRatio
+title: IMFMediaEngine::GetVideoAspectRatio (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the picture aspect ratio of the video stream.
 old-location: mf\imfmediaengine_getvideoaspectratio.htm

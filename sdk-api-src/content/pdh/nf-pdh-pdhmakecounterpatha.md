@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhMakeCounterPathA
-title: PdhMakeCounterPathA function
+title: PdhMakeCounterPathA function (pdh.h)
 author: windows-sdk-content
 description: Creates a full counter path using the members specified in the PDH_COUNTER_PATH_ELEMENTS structure.
 old-location: perf\pdhmakecounterpath.htm

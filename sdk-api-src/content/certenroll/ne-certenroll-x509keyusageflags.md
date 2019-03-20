@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.X509KeyUsageFlags
-title: X509KeyUsageFlags
+title: X509KeyUsageFlags (certenroll.h)
 author: windows-sdk-content
 description: Specifies the purpose of a key contained in a certificate.
 old-location: security\x509keyusageflags_enum.htm

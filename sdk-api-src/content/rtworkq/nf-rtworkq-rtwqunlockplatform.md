@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.RtwqUnlockPlatform
-title: RtwqUnlockPlatform function
+title: RtwqUnlockPlatform function (rtworkq.h)
 author: windows-sdk-content
 description: Unlocks the platform after it was locked by a call to the RtwqLockPlatform function.
 old-location: base\rtwqunlockplatform.htm

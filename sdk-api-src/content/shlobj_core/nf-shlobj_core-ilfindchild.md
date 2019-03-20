@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.ILFindChild
-title: ILFindChild function
+title: ILFindChild function (shlobj_core.h)
 author: windows-sdk-content
 description: Determines whether a specified ITEMIDLIST structure is the child of another ITEMIDLIST structure.
 old-location: shell\ILFindChild.htm

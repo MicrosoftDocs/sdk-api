@@ -1,6 +1,6 @@
 ---
 UID: NS:wsman._WSMAN_COMMAND_ARG_SET
-title: WSMAN_COMMAND_ARG_SET
+title: WSMAN_COMMAND_ARG_SET (wsman.h)
 author: windows-sdk-content
 description: Represents the set of arguments that are passed in to the command line.
 old-location: winrm\wsman_command_arg_set.htm

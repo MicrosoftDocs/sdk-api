@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList2.SetOriginalSize
-title: IImageList2::SetOriginalSize
+title: IImageList2::SetOriginalSize (commoncontrols.h)
 author: windows-sdk-content
 description: Sets the original size of a specified image.
 old-location: controls\IImageList2_SetOriginalSize.htm

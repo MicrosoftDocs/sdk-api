@@ -1,6 +1,6 @@
 ---
 UID: NF:fhsvcctl.FhServiceOpenPipe
-title: FhServiceOpenPipe function
+title: FhServiceOpenPipe function (fhsvcctl.h)
 author: windows-sdk-content
 description: Opens a communication channel to the File History Service.
 old-location: winprog\fhserviceopenpipe.htm

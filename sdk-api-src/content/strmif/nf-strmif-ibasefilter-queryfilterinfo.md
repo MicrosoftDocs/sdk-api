@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IBaseFilter.QueryFilterInfo
-title: IBaseFilter::QueryFilterInfo
+title: IBaseFilter::QueryFilterInfo (strmif.h)
 author: windows-sdk-content
 description: The QueryFilterInfo method retrieves information about the filter.
 old-location: dshow\ibasefilter_queryfilterinfo.htm

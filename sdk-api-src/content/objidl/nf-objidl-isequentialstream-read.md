@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ISequentialStream.Read
-title: ISequentialStream::Read
+title: ISequentialStream::Read (objidl.h)
 author: windows-sdk-content
 description: Reads a specified number of bytes from the stream object into memory, starting at the current seek pointer.
 old-location: stg\isequentialstream_read.htm

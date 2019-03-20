@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.SmoothingMode
-title: SmoothingMode
+title: SmoothingMode (gdiplusenums.h)
 author: windows-sdk-content
 description: The SmoothingMode enumeration specifies the type of smoothing (antialiasing) that is applied to lines and curves. This enumeration is used by the Graphics::GetSmoothingMode and Graphics::SetSmoothingMode methods of the Graphics class.
 old-location: gdiplus\_gdiplus_ENUM_SmoothingMode.htm

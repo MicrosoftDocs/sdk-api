@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_OwnerSid
-title: IFsrmPropertyBag::get_OwnerSid
+title: IFsrmPropertyBag::get_OwnerSid (fsrmpipeline.h)
 author: windows-sdk-content
 description: The SID of the owner of the file.
 old-location: fsrm\ifsrmpropertybag_ownersid.htm

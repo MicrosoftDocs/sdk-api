@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetTransform
-title: Graphics::GetTransform
+title: Graphics::GetTransform (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::GetTransform method gets the world transformation matrix of this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetTransform_matrix_.htm

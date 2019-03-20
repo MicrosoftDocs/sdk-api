@@ -1,6 +1,6 @@
 ---
 UID: NE:comsvcs.tagCSC_PartitionConfig
-title: CSC_PartitionConfig
+title: CSC_PartitionConfig (comsvcs.h)
 author: windows-sdk-content
 description: Indicates the COM+ partition on which the enclosed context runs.
 old-location: cos\csc_partitionconfig.htm

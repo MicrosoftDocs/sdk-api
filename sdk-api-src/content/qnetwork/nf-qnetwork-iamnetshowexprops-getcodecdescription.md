@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowExProps.GetCodecDescription
-title: IAMNetShowExProps::GetCodecDescription
+title: IAMNetShowExProps::GetCodecDescription (qnetwork.h)
 author: windows-sdk-content
 description: The GetCodecDescription method retrieves a user-friendly description of a specified codec.
 old-location: dshow\iamnetshowexprops_getcodecdescription.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeAccessible.OnDoDefaultAccessibilityAction
-title: INameSpaceTreeAccessible::OnDoDefaultAccessibilityAction
+title: INameSpaceTreeAccessible::OnDoDefaultAccessibilityAction (shobjidl.h)
 author: windows-sdk-content
 description: Invokes the default accessibility action on a Shell item.
 old-location: shell\INameSpaceTreeAccessible_OnDoDefaultAccessibilityAction.htm

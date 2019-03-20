@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFilterMapper3.GetICreateDevEnum
-title: IFilterMapper3::GetICreateDevEnum
+title: IFilterMapper3::GetICreateDevEnum (strmif.h)
 author: windows-sdk-content
 description: The GetICreateDevEnum method returns a pointer to the ICreateDevEnum interface. You can use the ICreateDevEnum interface to create an enumerator for a category of filters, such as video capture devices or audio capture devices.
 old-location: dshow\ifiltermapper3_geticreatedevenum.htm

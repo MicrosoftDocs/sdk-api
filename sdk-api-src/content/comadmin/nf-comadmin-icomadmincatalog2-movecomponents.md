@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.MoveComponents
-title: ICOMAdminCatalog2::MoveComponents
+title: ICOMAdminCatalog2::MoveComponents (comadmin.h)
 author: windows-sdk-content
 description: Moves the specified components from one application to another.
 old-location: cos\icomadmincatalog2_movecomponents.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxContentGroupFilesEnumerator.GetHasCurrent
-title: IAppxContentGroupFilesEnumerator::GetHasCurrent
+title: IAppxContentGroupFilesEnumerator::GetHasCurrent (appxpackaging.h)
 author: windows-sdk-content
 description: Determines whether there is a file at the current position of the enumerator.
 old-location: appxpkg\iappxcontentgroupfilesenumerator__gethascurrent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager.AddService
-title: IUpdateServiceManager::AddService
+title: IUpdateServiceManager::AddService (wuapi.h)
 author: windows-sdk-content
 description: Registers a service with Windows Update Agent (WUA).
 old-location: wua\iupdateservicemanager_addservice.htm

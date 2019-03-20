@@ -1,6 +1,6 @@
 ---
 UID: NN:wpcapi.IWindowsParentalControls
-title: IWindowsParentalControls
+title: IWindowsParentalControls (wpcapi.h)
 author: windows-sdk-content
 description: Enables access to all settings interfaces of the Minimum Compliance API.
 old-location: parcon\iwindowsparentalcontrols.htm

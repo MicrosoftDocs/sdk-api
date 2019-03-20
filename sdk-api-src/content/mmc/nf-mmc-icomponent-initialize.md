@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IComponent.Initialize
-title: IComponent::Initialize
+title: IComponent::Initialize (mmc.h)
 author: windows-sdk-content
 description: The IComponent::Initialize method provides an entry point to the console.
 old-location: mmc\icomponent_initialize.htm

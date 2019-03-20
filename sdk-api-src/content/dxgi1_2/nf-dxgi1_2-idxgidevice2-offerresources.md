@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIDevice2.OfferResources
-title: IDXGIDevice2::OfferResources
+title: IDXGIDevice2::OfferResources (dxgi1_2.h)
 author: windows-sdk-content
 description: Allows the operating system to free the video memory of resources by discarding their content.
 old-location: direct3ddxgi\idxgidevice2_offerresources.htm

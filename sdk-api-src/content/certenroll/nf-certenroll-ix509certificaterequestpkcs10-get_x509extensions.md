@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_X509Extensions
-title: IX509CertificateRequestPkcs10::get_X509Extensions
+title: IX509CertificateRequestPkcs10::get_X509Extensions (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a collection of the extensions included in the certificate request.
 old-location: security\ix509certificaterequestpkcs10_x509extensions_property.htm

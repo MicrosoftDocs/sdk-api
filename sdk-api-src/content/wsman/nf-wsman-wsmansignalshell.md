@@ -1,6 +1,6 @@
 ---
 UID: NF:wsman.WSManSignalShell
-title: WSManSignalShell function
+title: WSManSignalShell function (wsman.h)
 author: windows-sdk-content
 description: Sends a control code to an existing command or to the shell itself.
 old-location: winrm\wsmansignalshell.htm

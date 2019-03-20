@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._textrangew
-title: TEXTRANGEW
+title: TEXTRANGEW (richedit.h)
 author: windows-sdk-content
 description: A range of text from a rich edit control. This structure is filled in by the EM_GETTEXTRANGE message. The buffer pointed to by the lpstrText member must be large enough to receive all characters and the terminating null character.
 old-location: controls\TEXTRANGE.htm

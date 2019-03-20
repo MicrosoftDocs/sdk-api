@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEx.EnumerationFlagReturnEPR
-title: IWSManEx::EnumerationFlagReturnEPR
+title: IWSManEx::EnumerationFlagReturnEPR (wsmandisp.h)
 author: windows-sdk-content
 description: Returns the value of the enumeration constant EnumerationFlagReturnEPR for use in the flags parameter of the IWSManSession::Enumerate method.
 old-location: winrm\iwsmanex_enumerationflagreturnepr.htm

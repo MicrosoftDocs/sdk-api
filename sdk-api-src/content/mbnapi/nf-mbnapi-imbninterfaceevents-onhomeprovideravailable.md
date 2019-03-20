@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceEvents.OnHomeProviderAvailable
-title: IMbnInterfaceEvents::OnHomeProviderAvailable
+title: IMbnInterfaceEvents::OnHomeProviderAvailable (mbnapi.h)
 author: windows-sdk-content
 description: This notification method is called by the Mobile Broadband service to indicate that home provider information for the device is available.
 old-location: mbn\imbninterfaceevents_onhomeprovideravailable.htm

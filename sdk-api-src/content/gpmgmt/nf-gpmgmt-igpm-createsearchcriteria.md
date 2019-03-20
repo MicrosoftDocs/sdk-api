@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPM.CreateSearchCriteria
-title: IGPM::CreateSearchCriteria
+title: IGPM::CreateSearchCriteria (gpmgmt.h)
 author: windows-sdk-content
 description: Creates and returns a GPMSearchCriteria that represents the criteria to use for performing search operations when you use the Group Policy Management Console (GPMC) interfaces.
 old-location: gpmc\igpm_createsearchcriteria.htm

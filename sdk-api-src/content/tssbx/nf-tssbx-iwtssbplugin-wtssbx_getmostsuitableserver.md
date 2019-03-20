@@ -1,6 +1,6 @@
 ---
 UID: NF:tssbx.IWTSSBPlugin.WTSSBX_GetMostSuitableServer
-title: IWTSSBPlugin::WTSSBX_GetMostSuitableServer
+title: IWTSSBPlugin::WTSSBX_GetMostSuitableServer (tssbx.h)
 author: windows-sdk-content
 description: Returns the ID of the server to which Terminal Services Session Broker (TS&#160;Session Broker) should direct the incoming connection.
 old-location: termserv\iwtssbplugin_wtssbx_getmostsuitableserver.htm

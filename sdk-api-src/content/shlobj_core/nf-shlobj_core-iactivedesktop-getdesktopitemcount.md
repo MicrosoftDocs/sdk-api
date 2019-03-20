@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.GetDesktopItemCount
-title: IActiveDesktop::GetDesktopItemCount
+title: IActiveDesktop::GetDesktopItemCount (shlobj_core.h)
 author: windows-sdk-content
 description: Gets a count of the desktop items.
 old-location: lwef\iactivedesktop_getdesktopitemcount.htm

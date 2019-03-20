@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCore3.newMedia
-title: IWMPCore3::newMedia
+title: IWMPCore3::newMedia (wmp.h)
 author: windows-sdk-content
 description: The newMedia method retrieves a pointer to an IWMPMedia interface for a new media item.
 old-location: wmp\iwmpcore3_newmedia.htm

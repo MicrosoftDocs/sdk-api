@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SetTapeParameters
-title: SetTapeParameters function
+title: SetTapeParameters function (winbase.h)
 author: windows-sdk-content
 description: Specifies the block size of a tape or configures the tape device.
 old-location: backup\settapeparameters.htm

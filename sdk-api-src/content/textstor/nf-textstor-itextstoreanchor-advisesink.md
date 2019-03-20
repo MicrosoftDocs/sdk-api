@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.AdviseSink
-title: ITextStoreAnchor::AdviseSink
+title: ITextStoreAnchor::AdviseSink (textstor.h)
 author: windows-sdk-content
 description: The ITextStoreAnchor::AdviseSink method installs a new advise sink from the ITextStoreAnchorSink interface or modifies an existing advise sink.
 old-location: tsf\itextstoreanchor_advisesink.htm

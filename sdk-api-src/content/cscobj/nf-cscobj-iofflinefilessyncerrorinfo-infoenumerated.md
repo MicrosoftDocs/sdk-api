@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncErrorInfo.InfoEnumerated
-title: IOfflineFilesSyncErrorInfo::InfoEnumerated
+title: IOfflineFilesSyncErrorInfo::InfoEnumerated (cscobj.h)
 author: windows-sdk-content
 description: Indicates whether information was queried for the local, remote, or original copy of the item during synchronization.
 old-location: of\iofflinefilessyncerrorinfo_infoenumerated.htm

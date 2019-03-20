@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.AssocGetPerceivedType
-title: AssocGetPerceivedType function
+title: AssocGetPerceivedType function (shlwapi.h)
 author: windows-sdk-content
 description: Retrieves a file's perceived type based on its extension.
 old-location: shell\AssocGetPerceivedType.htm

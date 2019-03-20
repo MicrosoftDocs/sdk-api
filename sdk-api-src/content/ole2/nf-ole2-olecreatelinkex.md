@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleCreateLinkEx
-title: OleCreateLinkEx function
+title: OleCreateLinkEx function (ole2.h)
 author: windows-sdk-content
 description: Extends OleCreateLink functionality by supporting more efficient instantiation of objects in containers requiring caching of multiple formats of presentations or data, instead of the single format supported by OleCreateLink.
 old-location: com\olecreatelinkex.htm

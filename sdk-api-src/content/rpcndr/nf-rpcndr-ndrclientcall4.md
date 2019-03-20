@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrClientCall4
-title: NdrClientCall4 function
+title: NdrClientCall4 function (rpcndr.h)
 author: windows-sdk-content
 description: NdrClientCall4 may be altered or unavailable.
 old-location: rpc\ndrclientcall4.htm

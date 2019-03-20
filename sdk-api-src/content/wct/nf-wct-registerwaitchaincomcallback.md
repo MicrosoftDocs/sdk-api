@@ -1,6 +1,6 @@
 ---
 UID: NF:wct.RegisterWaitChainCOMCallback
-title: RegisterWaitChainCOMCallback function
+title: RegisterWaitChainCOMCallback function (wct.h)
 author: windows-sdk-content
 description: Register COM callback functions for WCT.
 old-location: base\registerwaitchaincomcallback.htm

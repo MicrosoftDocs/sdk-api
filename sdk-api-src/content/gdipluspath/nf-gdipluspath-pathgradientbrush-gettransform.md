@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.GetTransform
-title: PathGradientBrush::GetTransform
+title: PathGradientBrush::GetTransform (gdipluspath.h)
 author: windows-sdk-content
 description: The PathGradientBrush::GetTransform method gets transformation matrix of this path gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetTransform_matrix_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IDvdControl2
-title: IDvdControl2
+title: IDvdControl2 (strmif.h)
 author: windows-sdk-content
 description: The IDvdControl2 interface navigates and plays DVD-Video titles.
 old-location: dshow\idvdcontrol2.htm

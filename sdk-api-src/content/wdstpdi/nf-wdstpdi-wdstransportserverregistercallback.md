@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstpdi.WdsTransportServerRegisterCallback
-title: WdsTransportServerRegisterCallback function
+title: WdsTransportServerRegisterCallback function (wdstpdi.h)
 author: windows-sdk-content
 description: Registers a provider callback with the multicast server.
 old-location: wds\wdstransportserverregistercallback.htm

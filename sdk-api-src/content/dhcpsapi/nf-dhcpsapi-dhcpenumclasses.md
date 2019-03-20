@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumClasses
-title: DhcpEnumClasses function
+title: DhcpEnumClasses function (dhcpsapi.h)
 author: windows-sdk-content
 description: Enumerates the user or vendor classes configured for the DHCP server.
 old-location: dhcp\dhcpenumclasses.htm

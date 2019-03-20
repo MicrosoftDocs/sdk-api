@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSource.CreatePresentationDescriptor
-title: IMFMediaSource::CreatePresentationDescriptor
+title: IMFMediaSource::CreatePresentationDescriptor (mfidl.h)
 author: windows-sdk-content
 description: Retrieves a copy of the media source's presentation descriptor. Applications use the presentation descriptor to select streams and to get information about the source content.
 old-location: mf\imfmediasource_createpresentationdescriptor.htm

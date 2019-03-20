@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_3.ID2D1Factory3
-title: ID2D1Factory3
+title: ID2D1Factory3 (d2d1_3.h)
 author: windows-sdk-content
 description: Creates Direct2D resources. This interface also enables the creation of ID2D1Device2 objects.
 old-location: direct2d\id2d1factory3.htm

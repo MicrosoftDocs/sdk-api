@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IAsyncErrorNotify.OnError
-title: IAsyncErrorNotify::OnError
+title: IAsyncErrorNotify::OnError (comsvcs.h)
 author: windows-sdk-content
 description: Called by COM+ when an error occurs in your asynchronous batch work.
 old-location: cos\iasyncerrornotify_onerror.htm

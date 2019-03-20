@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUS_FORCE_QUORUM_INFO
-title: CLUS_FORCE_QUORUM_INFO
+title: CLUS_FORCE_QUORUM_INFO (clusapi.h)
 author: windows-sdk-content
 description: Specifies information about the list of nodes sufficient to establish quorum in a majority-of-nodes cluster.
 old-location: mscs\clus_force_quorum_info.htm

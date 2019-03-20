@@ -1,6 +1,6 @@
 ---
 UID: NN:certadm.IOCSPProperty
-title: IOCSPProperty
+title: IOCSPProperty (certadm.h)
 author: windows-sdk-content
 description: Represents a name-value pair for OCSPServiceProperties or ProviderProperties.
 old-location: security\iocspproperty.htm

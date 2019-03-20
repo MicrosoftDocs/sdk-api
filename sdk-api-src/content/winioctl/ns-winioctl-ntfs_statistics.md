@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._NTFS_STATISTICS
-title: NTFS_STATISTICS
+title: NTFS_STATISTICS (winioctl.h)
 author: windows-sdk-content
 description: Contains statistical information from the NTFS file system.
 old-location: fs\ntfs_statistics_str.htm

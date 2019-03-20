@@ -1,6 +1,6 @@
 ---
 UID: NF:winnetwk.WNetGetNetworkInformationA
-title: WNetGetNetworkInformationA function
+title: WNetGetNetworkInformationA function (winnetwk.h)
 author: windows-sdk-content
 description: The WNetGetNetworkInformation function returns extended information about a specific network provider whose name was returned by a previous network enumeration.
 old-location: wnet\wnetgetnetworkinformation.htm

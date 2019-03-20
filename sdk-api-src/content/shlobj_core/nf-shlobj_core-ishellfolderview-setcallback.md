@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.SetCallback
-title: IShellFolderView::SetCallback
+title: IShellFolderView::SetCallback (shlobj_core.h)
 author: windows-sdk-content
 description: IShellFolderView::SetCallback may be altered or unavailable.
 old-location: shell\IShellFolderView_SetCallback.htm

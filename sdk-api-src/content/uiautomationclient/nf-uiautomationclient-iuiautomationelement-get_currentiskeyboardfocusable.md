@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentIsKeyboardFocusable
-title: IUIAutomationElement::get_CurrentIsKeyboardFocusable
+title: IUIAutomationElement::get_CurrentIsKeyboardFocusable (uiautomationclient.h)
 author: windows-sdk-content
 description: Indicates whether the element can accept keyboard focus.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentIsKeyboardFocusable.htm

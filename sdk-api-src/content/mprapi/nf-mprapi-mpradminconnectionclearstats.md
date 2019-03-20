@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminConnectionClearStats
-title: MprAdminConnectionClearStats function
+title: MprAdminConnectionClearStats function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminConnectionClearStats function resets the statistics counters for the specified connection.
 old-location: rras\mpradminconnectionclearstats.htm

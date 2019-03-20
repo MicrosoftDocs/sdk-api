@@ -1,6 +1,6 @@
 ---
 UID: NS:lsalookup._LSA_STRING
-title: LSA_STRING
+title: LSA_STRING (lsalookup.h)
 author: windows-sdk-content
 description: Used by Local Security Authority (LSA) functions to specify an ANSI string.
 old-location: security\lsa_string.htm

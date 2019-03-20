@@ -1,6 +1,6 @@
 ---
 UID: NN:msrdc.ISimilarityTraitsTable
-title: ISimilarityTraitsTable
+title: ISimilarityTraitsTable (msrdc.h)
 author: windows-sdk-content
 description: Defines methods for storing per-file similarity data and performing similarity lookups.
 old-location: rdc\isimilaritytraitstable.htm

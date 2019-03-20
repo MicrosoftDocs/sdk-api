@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11_2.D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG
-title: D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG
+title: D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG (d3d11_2.h)
 author: windows-sdk-content
 description: Identifies how to check multisample quality levels.
 old-location: direct3d11\d3d11_check_multisample_quality_levels_flags.htm

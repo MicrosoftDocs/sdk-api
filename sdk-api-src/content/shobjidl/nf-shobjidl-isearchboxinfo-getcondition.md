@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.ISearchBoxInfo.GetCondition
-title: ISearchBoxInfo::GetCondition
+title: ISearchBoxInfo::GetCondition (shobjidl.h)
 author: windows-sdk-content
 description: Retrieves the contents of the search box as an ICondition object.
 old-location: shell\ISearchBoxInfo_GetCondition.htm

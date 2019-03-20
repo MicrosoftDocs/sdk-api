@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsWriteText
-title: WsWriteText function
+title: WsWriteText function (webservices.h)
 author: windows-sdk-content
 description: Writes the specified text to the XML writer.
 old-location: wsw\wswritetext.htm

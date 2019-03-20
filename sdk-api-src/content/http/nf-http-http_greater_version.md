@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HTTP_GREATER_VERSION
-title: HTTP_GREATER_VERSION macro
+title: HTTP_GREATER_VERSION macro (http.h)
 author: windows-sdk-content
 description: Returns a non-zero value if an HTTP_VERSION structure is greater than a specified major/minor version combination, or zero otherwise.
 old-location: http\http_greater_version.htm

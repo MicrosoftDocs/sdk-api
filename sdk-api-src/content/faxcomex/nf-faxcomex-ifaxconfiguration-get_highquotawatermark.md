@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_HighQuotaWaterMark
-title: IFaxConfiguration::get_HighQuotaWaterMark
+title: IFaxConfiguration::get_HighQuotaWaterMark (faxcomex.h)
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates the maximum allotted size of a watermark.
 old-location: fax\_mfax_IFaxConfiguration_HighQuotaWaterMark.htm

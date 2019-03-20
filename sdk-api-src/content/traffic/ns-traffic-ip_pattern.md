@@ -1,6 +1,6 @@
 ---
 UID: NS:traffic._IP_PATTERN
-title: IP_PATTERN
+title: IP_PATTERN (traffic.h)
 author: windows-sdk-content
 description: The IP_PATTERN structure applies a specific pattern or corresponding mask for the IP protocol. The IP_PATTERN structure designation is used by the traffic control interface in the application of packet filters.
 old-location: qos\ip_pattern.htm

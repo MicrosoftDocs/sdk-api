@@ -1,6 +1,6 @@
 ---
 UID: NS:x3daudio.X3DAUDIO_EMITTER
-title: X3DAUDIO_EMITTER
+title: X3DAUDIO_EMITTER (x3daudio.h)
 author: windows-sdk-content
 description: Defines a single-point or multiple-point 3D audio source that is used with an arbitrary number of sound channels.
 old-location: xaudio2\x3daudio_emitter.htm

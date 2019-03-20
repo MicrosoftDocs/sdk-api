@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_SERVICE_MESSAGE_RECEIVE_CALLBACK
-title: WS_SERVICE_MESSAGE_RECEIVE_CALLBACK
+title: WS_SERVICE_MESSAGE_RECEIVE_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Invoked when a WS_MESSAGE is received on an endpoint configured with a WS_SERVICE_CONTRACT which has defaultMessageHandlerCallback set.
 old-location: wsw\ws_service_message_receive_callback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarBoolFromR8
-title: VarBoolFromR8 function
+title: VarBoolFromR8 function (oleauto.h)
 author: windows-sdk-content
 description: Converts a double value to a Boolean value.
 old-location: automat\varboolfromr8.htm

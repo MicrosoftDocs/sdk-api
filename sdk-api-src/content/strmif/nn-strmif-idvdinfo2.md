@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IDvdInfo2
-title: IDvdInfo2
+title: IDvdInfo2 (strmif.h)
 author: windows-sdk-content
 description: The IDvdInfo2 interface reports attributes of a DVD disc or the current state of DVD playback and navigation.
 old-location: dshow\idvdinfo2.htm

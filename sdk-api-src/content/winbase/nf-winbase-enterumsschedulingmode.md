@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.EnterUmsSchedulingMode
-title: EnterUmsSchedulingMode function
+title: EnterUmsSchedulingMode function (winbase.h)
 author: windows-sdk-content
 description: Converts the calling thread into a user-mode scheduling (UMS) scheduler thread.
 old-location: base\enterumsschedulingmode.htm

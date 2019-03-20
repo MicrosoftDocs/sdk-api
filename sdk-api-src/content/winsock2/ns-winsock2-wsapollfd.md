@@ -1,6 +1,6 @@
 ---
 UID: NS:winsock2.pollfd
-title: WSAPOLLFD
+title: WSAPOLLFD (winsock2.h)
 author: windows-sdk-content
 description: Stores socket information used by the WSAPoll function.
 old-location: winsock\pollfd.htm

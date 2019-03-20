@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.WaitForCompletion
-title: IFsrmFileManagementJob::WaitForCompletion
+title: IFsrmFileManagementJob::WaitForCompletion (fsrmreports.h)
 author: windows-sdk-content
 description: Waits for the specified period of time or until the job has finished running.
 old-location: fsrm\ifsrmfilemanagementjob_waitforcompletion.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:wsman.WSMAN_SHELL_COMPLETION_FUNCTION
-title: WSMAN_SHELL_COMPLETION_FUNCTION
+title: WSMAN_SHELL_COMPLETION_FUNCTION (wsman.h)
 author: windows-sdk-content
 description: The callback function that is called for shell operations, which result in a remote request.
 old-location: winrm\wsman_shell_completion_function.htm

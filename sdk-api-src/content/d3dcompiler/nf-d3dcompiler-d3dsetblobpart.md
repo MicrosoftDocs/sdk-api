@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcompiler.D3DSetBlobPart
-title: D3DSetBlobPart function
+title: D3DSetBlobPart function (d3dcompiler.h)
 author: windows-sdk-content
 description: Sets information in a compilation result.
 old-location: direct3dhlsl\d3dsetblobpart.htm

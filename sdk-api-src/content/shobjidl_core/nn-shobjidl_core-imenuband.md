@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IMenuBand
-title: IMenuBand
+title: IMenuBand (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that allow a Component Object Model (COM) object to receive and translate appropriate messages.
 old-location: shell\IMenuBand.htm

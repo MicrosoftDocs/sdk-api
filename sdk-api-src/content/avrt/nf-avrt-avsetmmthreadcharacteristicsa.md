@@ -1,6 +1,6 @@
 ---
 UID: NF:avrt.AvSetMmThreadCharacteristicsA
-title: AvSetMmThreadCharacteristicsA function
+title: AvSetMmThreadCharacteristicsA function (avrt.h)
 author: windows-sdk-content
 description: Associates the calling thread with the specified task.
 old-location: base\avsetmmthreadcharacteristics.htm

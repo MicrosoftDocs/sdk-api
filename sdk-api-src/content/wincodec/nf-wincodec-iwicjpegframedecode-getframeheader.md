@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICJpegFrameDecode.GetFrameHeader
-title: IWICJpegFrameDecode::GetFrameHeader
+title: IWICJpegFrameDecode::GetFrameHeader (wincodec.h)
 author: windows-sdk-content
 description: Retrieves header data from the entire frame.
 old-location: wic\iwicjpegframedecode_getframeheader.htm

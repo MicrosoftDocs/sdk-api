@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTVTuner.get_InputType
-title: IAMTVTuner::get_InputType
+title: IAMTVTuner::get_InputType (strmif.h)
 author: windows-sdk-content
 description: The get_InputType method retrieves the input type set in IAMTVTuner::put_InputType.
 old-location: dshow\iamtvtuner_get_inputtype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_LOCALIZED_STRING_LIST
-title: WSD_LOCALIZED_STRING_LIST
+title: WSD_LOCALIZED_STRING_LIST (wsdtypes.h)
 author: windows-sdk-content
 description: Represents a node in a single-linked list of localized strings.
 old-location: ncd\wsd_localized_string_list_struct.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList.SetIconSize
-title: IImageList::SetIconSize
+title: IImageList::SetIconSize (commoncontrols.h)
 author: windows-sdk-content
 description: Sets the dimensions of images in an image list and removes all images from the list.
 old-location: controls\IImageList_SetIconSize.htm

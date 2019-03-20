@@ -1,6 +1,6 @@
 ---
 UID: NS:psapi._PSAPI_WS_WATCH_INFORMATION
-title: PSAPI_WS_WATCH_INFORMATION
+title: PSAPI_WS_WATCH_INFORMATION (psapi.h)
 author: windows-sdk-content
 description: Contains information about a page added to a process working set.
 old-location: psapi\psapi_ws_watch_information_str.htm

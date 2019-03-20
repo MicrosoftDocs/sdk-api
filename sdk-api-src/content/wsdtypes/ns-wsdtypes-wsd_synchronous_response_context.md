@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_SYNCHRONOUS_RESPONSE_CONTEXT
-title: WSD_SYNCHRONOUS_RESPONSE_CONTEXT
+title: WSD_SYNCHRONOUS_RESPONSE_CONTEXT (wsdtypes.h)
 author: windows-sdk-content
 description: Provides a context for handling the response to a two-way request.
 old-location: ncd\wsd_synchronous_response_context_struct.htm

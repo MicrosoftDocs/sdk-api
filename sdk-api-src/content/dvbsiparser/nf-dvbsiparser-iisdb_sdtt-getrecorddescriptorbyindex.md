@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetRecordDescriptorByIndex
-title: IISDB_SDTT::GetRecordDescriptorByIndex
+title: IISDB_SDTT::GetRecordDescriptorByIndex (dvbsiparser.h)
 author: windows-sdk-content
 description: Returns a descriptor for a specified record in an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_getrecorddescriptorbyindex.htm

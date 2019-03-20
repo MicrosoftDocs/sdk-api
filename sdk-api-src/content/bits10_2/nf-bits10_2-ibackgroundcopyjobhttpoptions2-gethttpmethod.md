@@ -1,6 +1,6 @@
 ---
 UID: NF:bits10_2.IBackgroundCopyJobHttpOptions2.GetHttpMethod
-title: IBackgroundCopyJobHttpOptions2::GetHttpMethod
+title: IBackgroundCopyJobHttpOptions2::GetHttpMethod (bits10_2.h)
 author: windows-sdk-content
 description: Retrieves a wide string containing the HTTP method name for the BITS transfer. By default, download jobs will be &#0034;GET&#0034;, and upload and upload-reply jobs will be &#0034;BITS_POST&#0034;.
 old-location: bits\ibackgroundcopyjobhttpoptions2_gethttpmethod.htm

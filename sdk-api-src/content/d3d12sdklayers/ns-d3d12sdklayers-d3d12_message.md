@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12sdklayers.D3D12_MESSAGE
-title: D3D12_MESSAGE
+title: D3D12_MESSAGE (d3d12sdklayers.h)
 author: windows-sdk-content
 description: A debug message in the Information Queue.
 old-location: direct3d12\d3d12_message.htm

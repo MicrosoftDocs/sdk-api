@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetGamma
-title: IWICDevelopRaw::SetGamma
+title: IWICDevelopRaw::SetGamma (wincodec.h)
 author: windows-sdk-content
 description: Sets the desired gamma value.
 old-location: wic\_wic_codec_iwicdevelopraw_setgamma.htm

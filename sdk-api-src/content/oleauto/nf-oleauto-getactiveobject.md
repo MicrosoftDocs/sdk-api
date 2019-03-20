@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.GetActiveObject
-title: GetActiveObject function
+title: GetActiveObject function (oleauto.h)
 author: windows-sdk-content
 description: Retrieves a pointer to a running object that has been registered with OLE.
 old-location: automat\getactiveobject.htm

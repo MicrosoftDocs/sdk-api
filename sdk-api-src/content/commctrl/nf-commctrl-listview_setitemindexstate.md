@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_SetItemIndexState
-title: ListView_SetItemIndexState macro
+title: ListView_SetItemIndexState macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the state of a specified list-view item. Use this macro or send the LVM_SETITEMINDEXSTATE message explicitly.
 old-location: controls\ListView_SetItemIndexState.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.PHONE_LAMP_MODE
-title: PHONE_LAMP_MODE
+title: PHONE_LAMP_MODE (tapi3if.h)
 author: windows-sdk-content
 description: The PHONE_LAMP_MODE enum provides indicators of a phone lamp's status.
 old-location: tapi3\phone_lamp_mode.htm

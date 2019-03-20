@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertSaveStore
-title: CertSaveStore function
+title: CertSaveStore function (wincrypt.h)
 author: windows-sdk-content
 description: Saves the certificate store to a file or to a memory BLOB.
 old-location: security\certsavestore.htm

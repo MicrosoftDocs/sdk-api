@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._PROCESSOR_GROUP_INFO
-title: PROCESSOR_GROUP_INFO
+title: PROCESSOR_GROUP_INFO (winnt.h)
 author: windows-sdk-content
 description: Represents the number and affinity of processors in a processor group.
 old-location: base\processor_group_info.htm

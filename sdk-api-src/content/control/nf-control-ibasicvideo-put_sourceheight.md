@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.put_SourceHeight
-title: IBasicVideo::put_SourceHeight
+title: IBasicVideo::put_SourceHeight (control.h)
 author: windows-sdk-content
 description: The put_SourceHeight method sets the height of the source rectangle.
 old-location: dshow\ibasicvideo_put_sourceheight.htm

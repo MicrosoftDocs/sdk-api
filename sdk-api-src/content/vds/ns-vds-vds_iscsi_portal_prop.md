@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_ISCSI_PORTAL_PROP
-title: VDS_ISCSI_PORTAL_PROP
+title: VDS_ISCSI_PORTAL_PROP (vds.h)
 author: windows-sdk-content
 description: Defines the properties of an iSCSI portal.
 old-location: base\vds_iscsi_portal_prop.htm

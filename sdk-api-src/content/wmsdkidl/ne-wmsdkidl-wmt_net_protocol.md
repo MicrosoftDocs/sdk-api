@@ -1,6 +1,6 @@
 ---
 UID: NE:wmsdkidl.WMT_NET_PROTOCOL
-title: WMT_NET_PROTOCOL
+title: WMT_NET_PROTOCOL (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMT_STREAM_SELECTION enumeration type defines the types of protocols that the network sink supports.
 old-location: wmformat\wmt_net_protocol.htm

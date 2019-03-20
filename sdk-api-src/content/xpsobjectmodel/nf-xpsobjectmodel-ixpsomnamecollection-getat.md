@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMNameCollection.GetAt
-title: IXpsOMNameCollection::GetAt
+title: IXpsOMNameCollection::GetAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the name string that is stored at a specified location in the collection.
 old-location: xps\ixpsomnamecollection_getat.htm

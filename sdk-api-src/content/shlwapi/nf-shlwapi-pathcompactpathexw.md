@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathCompactPathExW
-title: PathCompactPathExW function
+title: PathCompactPathExW function (shlwapi.h)
 author: windows-sdk-content
 description: Truncates a path to fit within a certain number of characters by replacing path components with ellipses.
 old-location: shell\PathCompactPathEx.htm

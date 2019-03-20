@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpSetDefaultProxyConfiguration
-title: WinHttpSetDefaultProxyConfiguration function
+title: WinHttpSetDefaultProxyConfiguration function (winhttp.h)
 author: windows-sdk-content
 description: Sets the default WinHTTP proxy configuration in the registry.
 old-location: http\winhttpsetdefaultproxyconfiguration.htm

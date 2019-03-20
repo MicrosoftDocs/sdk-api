@@ -1,6 +1,6 @@
 ---
 UID: NS:usp10.tag_SCRIPT_LOGATTR
-title: SCRIPT_LOGATTR
+title: SCRIPT_LOGATTR (usp10.h)
 author: windows-sdk-content
 description: Contains attributes of logical characters that are useful when editing and formatting text.
 old-location: intl\script_logattr.htm

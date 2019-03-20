@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._GROUP_INFO_3
-title: GROUP_INFO_3
+title: GROUP_INFO_3 (lmaccess.h)
 author: windows-sdk-content
 description: The GROUP_INFO_3 structure contains information about a global group, including name, security identifier (SID), and resource attributes.
 old-location: netmgmt\group_info_3_str.htm

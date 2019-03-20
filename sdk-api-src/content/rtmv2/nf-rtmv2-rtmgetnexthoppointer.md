@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmGetNextHopPointer
-title: RtmGetNextHopPointer function
+title: RtmGetNextHopPointer function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmGetNextHopPointer function obtains a direct pointer to the specified next hop. The pointer allows the next-hop owner direct read access to the routing table manager's RTM_NEXTHOP_INFO structure.
 old-location: rras\rtmgetnexthoppointer.htm

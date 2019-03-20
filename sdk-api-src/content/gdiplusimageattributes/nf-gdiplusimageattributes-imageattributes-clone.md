@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.Clone
-title: ImageAttributes::Clone
+title: ImageAttributes::Clone (gdiplusimageattributes.h)
 author: windows-sdk-content
 description: The ImageAttributes::Clone method makes a copy of this ImageAttributes object.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_Clone_.htm

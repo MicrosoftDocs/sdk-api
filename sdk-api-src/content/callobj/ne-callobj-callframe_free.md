@@ -1,6 +1,6 @@
 ---
 UID: NE:callobj.CALLFRAME_FREE
-title: CALLFRAME_FREE
+title: CALLFRAME_FREE (callobj.h)
 author: windows-sdk-content
 description: Determines the parameter type to be freed.
 old-location: com\callframe_free.htm

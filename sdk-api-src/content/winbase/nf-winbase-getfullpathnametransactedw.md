@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetFullPathNameTransactedW
-title: GetFullPathNameTransactedW function
+title: GetFullPathNameTransactedW function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the full path and file name of the specified file as a transacted operation.
 old-location: fs\getfullpathnametransacted.htm

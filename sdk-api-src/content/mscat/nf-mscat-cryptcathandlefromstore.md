@@ -1,6 +1,6 @@
 ---
 UID: NF:mscat.CryptCATHandleFromStore
-title: CryptCATHandleFromStore function
+title: CryptCATHandleFromStore function (mscat.h)
 author: windows-sdk-content
 description: Retrieves a catalog handle from memory.
 old-location: security\cryptcathandlefromstore.htm

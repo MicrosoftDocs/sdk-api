@@ -1,6 +1,6 @@
 ---
 UID: NF:inputscope.ITfInputScope2.EnumWordList
-title: ITfInputScope2::EnumWordList
+title: ITfInputScope2::EnumWordList (inputscope.h)
 author: windows-sdk-content
 description: ITfInputScope2::EnumWordList method
 old-location: tsf\itfinputscope2_enumwordlist.htm

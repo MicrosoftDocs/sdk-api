@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.EncryptMessage
-title: EncryptMessage function
+title: EncryptMessage function (sspi.h)
 author: windows-sdk-content
 description: Encrypts a message to provide privacy by using Digest.
 old-location: security\encryptmessage__digest_.htm

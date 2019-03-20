@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextCue.GetId
-title: IMFTimedTextCue::GetId
+title: IMFTimedTextCue::GetId (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the identifier of a timed-text cue.
 old-location: mf\imftimedtextcue_getid.htm

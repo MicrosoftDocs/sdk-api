@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantGetInt16Elem
-title: PropVariantGetInt16Elem function
+title: PropVariantGetInt16Elem function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts a single Int16 element from a PROPVARIANT structure of type VT_I2, VT_VECTOR | VT_I2, or VT_ARRAY | VT_I2.
 old-location: properties\PropVariantGetInt16Elem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.ICertPropertyRenewal
-title: ICertPropertyRenewal
+title: ICertPropertyRenewal (certenroll.h)
 author: windows-sdk-content
 description: Represents a certificate property that contains a SHA-1 hash of the new certificate created when an existing certificate is renewed.
 old-location: security\icertpropertyrenewal.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirectXVideoProcessor.VideoProcessBlt
-title: IDirectXVideoProcessor::VideoProcessBlt
+title: IDirectXVideoProcessor::VideoProcessBlt (dxva2api.h)
 author: windows-sdk-content
 description: Performs a video process operation on one or more input samples and writes the result to a Direct3D9 surface.
 old-location: mf\idirectxvideoprocessor_videoprocessblt.htm

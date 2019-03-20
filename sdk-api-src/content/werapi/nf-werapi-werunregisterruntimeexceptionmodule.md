@@ -1,6 +1,6 @@
 ---
 UID: NF:werapi.WerUnregisterRuntimeExceptionModule
-title: WerUnregisterRuntimeExceptionModule function
+title: WerUnregisterRuntimeExceptionModule function (werapi.h)
 author: windows-sdk-content
 description: Removes the registration of your WER exception handler.
 old-location: wer\werunregisterruntimeexceptionmodule.htm

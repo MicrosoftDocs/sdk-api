@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognitionResult.get_TopAlternate
-title: IInkRecognitionResult::get_TopAlternate
+title: IInkRecognitionResult::get_TopAlternate (msinkaut.h)
 author: windows-sdk-content
 description: Gets the top alternate of the recognition result.
 old-location: tablet\iinkrecognitionresult_topalternate.htm

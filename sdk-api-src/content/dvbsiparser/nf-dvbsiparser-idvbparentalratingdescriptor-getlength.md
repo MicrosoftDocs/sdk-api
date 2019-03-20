@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbParentalRatingDescriptor.GetLength
-title: IDvbParentalRatingDescriptor::GetLength
+title: IDvbParentalRatingDescriptor::GetLength (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the body length of a Digital Video Broadcast (DVB) parental rating descriptor, in bytes,.
 old-location: mstv\idvbparentalratingdescriptor_getlength.htm

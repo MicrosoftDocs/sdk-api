@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.ImpersonateSelf
-title: ImpersonateSelf function
+title: ImpersonateSelf function (securitybaseapi.h)
 author: windows-sdk-content
 description: Obtains an access token that impersonates the security context of the calling process. The token is assigned to the calling thread.
 old-location: security\impersonateself.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbEmergencyInformationDescriptor.GetTag
-title: IIsdbEmergencyInformationDescriptor::GetTag
+title: IIsdbEmergencyInformationDescriptor::GetTag (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the tag that identifies an emergency information descriptor.
 old-location: mstv\iisdbemergencyinformationdescriptor_gettag.htm

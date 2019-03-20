@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.CreateDocumentMgr
-title: ITfThreadMgr2::CreateDocumentMgr
+title: ITfThreadMgr2::CreateDocumentMgr (msctf.h)
 author: windows-sdk-content
 description: Creates a document manager object.
 old-location: tsf\itfthreadmgr2_createdocumentmgr.htm

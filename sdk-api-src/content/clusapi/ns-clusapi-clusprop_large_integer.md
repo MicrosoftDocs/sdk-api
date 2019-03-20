@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUSPROP_LARGE_INTEGER
-title: CLUSPROP_LARGE_INTEGER
+title: CLUSPROP_LARGE_INTEGER (clusapi.h)
 author: windows-sdk-content
 description: Describes a signed large integer.
 old-location: mscs\clusprop_large_integer.htm

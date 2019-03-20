@@ -1,6 +1,6 @@
 ---
 UID: NF:dsgetdc.DsGetDcNameA
-title: DsGetDcNameA function
+title: DsGetDcNameA function (dsgetdc.h)
 author: windows-sdk-content
 description: Returns the name of a domain controller in a specified domain.
 old-location: ad\dsgetdcname.htm

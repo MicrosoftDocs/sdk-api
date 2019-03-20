@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdxml.IWSDXMLContext.SetTypes
-title: IWSDXMLContext::SetTypes
+title: IWSDXMLContext::SetTypes (wsdxml.h)
 author: windows-sdk-content
 description: Associates custom message types with the XML context object.
 old-location: ncd\iwsdxmlcontext_settypes_method.htm

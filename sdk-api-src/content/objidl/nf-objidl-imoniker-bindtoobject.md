@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMoniker.BindToObject
-title: IMoniker::BindToObject
+title: IMoniker::BindToObject (objidl.h)
 author: windows-sdk-content
 description: Binds to the specified object. The binding process involves finding the object, putting it into the running state if necessary, and providing the caller with a pointer to a specified interface on the identified object.
 old-location: com\imoniker_bindtoobject.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.InterlockedOr64
-title: InterlockedOr64 function
+title: InterlockedOr64 function (winnt.h)
 author: windows-sdk-content
 description: Performs an atomic OR operation on the specified LONGLONG values.
 old-location: base\interlockedor64.htm

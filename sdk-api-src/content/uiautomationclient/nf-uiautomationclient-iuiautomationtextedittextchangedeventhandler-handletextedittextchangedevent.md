@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextEditTextChangedEventHandler.HandleTextEditTextChangedEvent
-title: IUIAutomationTextEditTextChangedEventHandler::HandleTextEditTextChangedEvent
+title: IUIAutomationTextEditTextChangedEventHandler::HandleTextEditTextChangedEvent (uiautomationclient.h)
 author: windows-sdk-content
 description: Handles an event that is raised when a Microsoft UI Automation provider for a text-edit control reports a programmatic text change.
 old-location: winauto\uiauto_IUIAutomationTextEditTextChangedEventHandler_HandleTextEditTextChangedEvent.htm

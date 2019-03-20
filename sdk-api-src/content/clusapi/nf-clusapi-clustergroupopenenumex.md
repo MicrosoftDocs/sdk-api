@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterGroupOpenEnumEx
-title: ClusterGroupOpenEnumEx function
+title: ClusterGroupOpenEnumEx function (clusapi.h)
 author: windows-sdk-content
 description: Opens a handle to the group enumeration.
 old-location: mscs\clustergroupopenenumex.htm

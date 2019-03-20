@@ -1,6 +1,6 @@
 ---
 UID: NS:websocket._WEB_SOCKET_HTTP_HEADER
-title: WEB_SOCKET_HTTP_HEADER
+title: WEB_SOCKET_HTTP_HEADER (websocket.h)
 author: windows-sdk-content
 description: Contains an HTTP header.
 old-location: websock\web_socket_http_header.htm

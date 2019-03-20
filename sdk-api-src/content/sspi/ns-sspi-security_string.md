@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SECURITY_STRING
-title: SECURITY_STRING
+title: SECURITY_STRING (sspi.h)
 author: windows-sdk-content
 description: Used as the string interface for kernel operations and is a clone of the UNICODE_STRING structure.
 old-location: security\security_string.htm

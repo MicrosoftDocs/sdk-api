@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwOpenPort.get_Port
-title: INetFwOpenPort::get_Port
+title: INetFwOpenPort::get_Port (netfw.h)
 author: windows-sdk-content
 description: Specifiess the host-ordered port number for this port.
 old-location: ics\inetfwopenport_port.htm

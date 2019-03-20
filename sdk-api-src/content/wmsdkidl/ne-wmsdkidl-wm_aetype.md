@@ -1,6 +1,6 @@
 ---
 UID: NE:wmsdkidl.WM_AETYPE
-title: WM_AETYPE
+title: WM_AETYPE (wmsdkidl.h)
 author: windows-sdk-content
 description: The WM_AETYPE enumeration specifies the permissions for an entry in an IP address access list.
 old-location: wmformat\wm_aetype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.GetPreferredFont
-title: ITextDocument2::GetPreferredFont
+title: ITextDocument2::GetPreferredFont (tom.h)
 author: windows-sdk-content
 description: Retrieves the preferred font for a particular character repertoire and character position.
 old-location: controls\itextdocument2_getpreferredfont.htm

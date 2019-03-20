@@ -1,6 +1,6 @@
 ---
 UID: NE:segment.DVDSPExt
-title: DVDSPExt
+title: DVDSPExt (segment.h)
 author: windows-sdk-content
 description: The DVDSPExt enumeration type holds a value indicating the default DVD subpicture language extension.
 old-location: mstv\dvdspext.htm

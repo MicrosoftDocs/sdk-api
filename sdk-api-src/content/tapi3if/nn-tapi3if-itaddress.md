@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITAddress
-title: ITAddress
+title: ITAddress (tapi3if.h)
 author: windows-sdk-content
 description: The ITAddress interface is the base interface for the Address object. Applications use this interface to get information about and use the Address object.
 old-location: tapi3\itaddress.htm

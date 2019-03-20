@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_UniqueDeviceName
-title: IUPnPDevice::get_UniqueDeviceName
+title: IUPnPDevice::get_UniqueDeviceName (upnp.h)
 author: windows-sdk-content
 description: The UniqueDeviceName property specifies the unique device name (UDN) of the device. A UDN is unique; no two devices can have the same UDN.
 old-location: upnp\iupnpdevice_uniquedevicename.htm

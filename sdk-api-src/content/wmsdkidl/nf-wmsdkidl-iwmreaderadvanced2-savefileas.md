@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.SaveFileAs
-title: IWMReaderAdvanced2::SaveFileAs
+title: IWMReaderAdvanced2::SaveFileAs (wmsdkidl.h)
 author: windows-sdk-content
 description: The SaveFileAs method saves the current file.
 old-location: wmformat\iwmreaderadvanced2_savefileas.htm

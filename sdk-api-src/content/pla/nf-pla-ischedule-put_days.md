@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ISchedule.put_Days
-title: ISchedule::put_Days
+title: ISchedule::put_Days (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the days on which the data collector set runs.
 old-location: pla\ischedule_days.htm

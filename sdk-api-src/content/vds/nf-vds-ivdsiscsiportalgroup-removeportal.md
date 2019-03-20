@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsIscsiPortalGroup.RemovePortal
-title: IVdsIscsiPortalGroup::RemovePortal
+title: IVdsIscsiPortalGroup::RemovePortal (vds.h)
 author: windows-sdk-content
 description: Removes a portal from a portal group.
 old-location: base\ivdsiscsiportalgroup_removeportal.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrSessionCreator.CreateSession
-title: ISyncMgrSessionCreator::CreateSession
+title: ISyncMgrSessionCreator::CreateSession (syncmgr.h)
 author: windows-sdk-content
 description: Notifies Sync Center that synchronization of the specified items has begun.
 old-location: shell\ISyncMgrSessionCreator_CreateSession.htm

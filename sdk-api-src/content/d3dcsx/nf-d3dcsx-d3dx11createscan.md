@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcsx.D3DX11CreateScan
-title: D3DX11CreateScan function
+title: D3DX11CreateScan function (d3dcsx.h)
 author: windows-sdk-content
 description: Creates a scan context.
 old-location: direct3d11\d3dx11createscan.htm

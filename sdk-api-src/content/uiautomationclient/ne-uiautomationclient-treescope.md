@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationclient.TreeScope
-title: TreeScope
+title: TreeScope (uiautomationclient.h)
 author: windows-sdk-content
 description: Contains values that specify the scope of various operations in the Microsoft UI Automation tree.
 old-location: winauto\uiauto_TreeScopeEnum.htm

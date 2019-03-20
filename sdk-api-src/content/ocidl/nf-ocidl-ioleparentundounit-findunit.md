@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleParentUndoUnit.FindUnit
-title: IOleParentUndoUnit::FindUnit
+title: IOleParentUndoUnit::FindUnit (ocidl.h)
 author: windows-sdk-content
 description: Indicates whether the specified unit is a child of this undo unit or one of its children, that is if the specified unit is part of the hierarchy in this parent unit.
 old-location: com\ioleparentundounit_findunit.htm

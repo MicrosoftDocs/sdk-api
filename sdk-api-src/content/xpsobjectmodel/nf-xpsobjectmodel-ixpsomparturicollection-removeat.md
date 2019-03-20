@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartUriCollection.RemoveAt
-title: IXpsOMPartUriCollection::RemoveAt
+title: IXpsOMPartUriCollection::RemoveAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Removes and releases an IOpcPartUri interface pointer from a specified location in the collection.
 old-location: xps\ixpsomparturicollection_removeat.htm

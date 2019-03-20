@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1DrawInfo
-title: ID2D1DrawInfo
+title: ID2D1DrawInfo (d2d1effectauthor.h)
 author: windows-sdk-content
 description: This interface is used to describe a GPU rendering pass on a vertex or pixel shader. It is passed to ID2D1DrawTransform.
 old-location: direct2d\id2d1drawinfo.htm

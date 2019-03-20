@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageId.GetResourceId
-title: IAppxManifestPackageId::GetResourceId
+title: IAppxManifestPackageId::GetResourceId (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the package resource identifier as defined in the manifest.
 old-location: appxpkg\iappxmanifestpackageid_getresourceid.htm

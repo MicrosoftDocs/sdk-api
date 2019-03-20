@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteGlyphRunAnalysis.CreateAlphaTexture
-title: IDWriteGlyphRunAnalysis::CreateAlphaTexture
+title: IDWriteGlyphRunAnalysis::CreateAlphaTexture (dwrite.h)
 author: windows-sdk-content
 description: Creates an alpha texture of the specified type for glyphs within a specified bounding rectangle.
 old-location: directwrite\IDWriteGlyphRunAnalysis_CreateAlphaTexture.htm

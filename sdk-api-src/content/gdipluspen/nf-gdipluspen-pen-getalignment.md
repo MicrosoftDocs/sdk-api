@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.GetAlignment
-title: Pen::GetAlignment
+title: Pen::GetAlignment (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::GetAlignment method gets the alignment currently set for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetAlignment_.htm

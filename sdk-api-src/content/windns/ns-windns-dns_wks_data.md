@@ -1,6 +1,6 @@
 ---
 UID: NS:windns.__unnamed_struct_14
-title: DNS_WKS_DATA
+title: DNS_WKS_DATA (windns.h)
 author: windows-sdk-content
 description: The DNS_WKS_DATA structure represents a DNS well-known services (WKS) record as specified in section 3.4.2 of RFC 1035.
 old-location: dns\dns_wks_data.htm

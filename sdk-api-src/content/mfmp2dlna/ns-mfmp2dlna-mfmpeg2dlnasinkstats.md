@@ -1,6 +1,6 @@
 ---
 UID: NS:mfmp2dlna._MFMPEG2DLNASINKSTATS
-title: MFMPEG2DLNASINKSTATS
+title: MFMPEG2DLNASINKSTATS (mfmp2dlna.h)
 author: windows-sdk-content
 description: Contains encoding statistics from the Digital Living Network Alliance (DLNA) media sink.
 old-location: mf\mfmpeg2dlnasinkstats.htm

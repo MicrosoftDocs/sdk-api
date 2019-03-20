@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvStretchBltROP
-title: DrvStretchBltROP function
+title: DrvStretchBltROP function (winddi.h)
 author: windows-sdk-content
 description: The DrvStretchBltROP function performs a stretching bit-block transfer using a ROP.
 old-location: display\drvstretchbltrop.htm

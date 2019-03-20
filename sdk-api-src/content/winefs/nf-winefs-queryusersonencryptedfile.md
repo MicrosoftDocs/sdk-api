@@ -1,6 +1,6 @@
 ---
 UID: NF:winefs.QueryUsersOnEncryptedFile
-title: QueryUsersOnEncryptedFile function
+title: QueryUsersOnEncryptedFile function (winefs.h)
 author: windows-sdk-content
 description: Retrieves a list of users for the specified file.
 old-location: fs\queryusersonencryptedfile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.GetStreamNumberForOutput
-title: IWMSyncReader::GetStreamNumberForOutput
+title: IWMSyncReader::GetStreamNumberForOutput (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetStreamNumberForOutput method retrieves the stream number that corresponds with the specified output.
 old-location: wmformat\iwmsyncreader_getstreamnumberforoutput.htm

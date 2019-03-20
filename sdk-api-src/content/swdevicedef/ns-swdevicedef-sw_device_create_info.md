@@ -1,6 +1,6 @@
 ---
 UID: NS:swdevicedef._SW_DEVICE_CREATE_INFO
-title: SW_DEVICE_CREATE_INFO
+title: SW_DEVICE_CREATE_INFO (swdevicedef.h)
 author: windows-sdk-content
 description: Describes info that PnP uses to create the software device.
 old-location: swdevice\sw_device_create_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_ELEMENT_NODE
-title: WS_XML_ELEMENT_NODE
+title: WS_XML_ELEMENT_NODE (webservices.h)
 author: windows-sdk-content
 description: Represents a start element in xml (e.g.
 old-location: wsw\ws_xml_element_node.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.EnumDirTree
-title: EnumDirTree function
+title: EnumDirTree function (dbghelp.h)
 author: windows-sdk-content
 description: Enumerates all occurrences of the specified file in the specified directory tree.
 old-location: base\enumdirtree.htm

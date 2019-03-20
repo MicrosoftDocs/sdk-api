@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprInfoRemoveAll
-title: MprInfoRemoveAll function
+title: MprInfoRemoveAll function (mprapi.h)
 author: windows-sdk-content
 description: The MprInfoRemoveAll function removes all information blocks from the specified header.
 old-location: rras\mprinforemoveall.htm

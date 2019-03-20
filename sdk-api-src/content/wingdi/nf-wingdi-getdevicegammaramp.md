@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetDeviceGammaRamp
-title: GetDeviceGammaRamp function
+title: GetDeviceGammaRamp function (wingdi.h)
 author: windows-sdk-content
 description: The GetDeviceGammaRamp function gets the gamma ramp on direct color display boards having drivers that support downloadable gamma ramps in hardware.
 old-location: wcs\getdevicegammaramp.htm

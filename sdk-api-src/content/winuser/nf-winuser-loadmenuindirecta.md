@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.LoadMenuIndirectA
-title: LoadMenuIndirectA function
+title: LoadMenuIndirectA function (winuser.h)
 author: windows-sdk-content
 description: Loads the specified menu template in memory.
 old-location: menurc\loadmenuindirect.htm

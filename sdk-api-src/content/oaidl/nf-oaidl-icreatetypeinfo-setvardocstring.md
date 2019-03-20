@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetVarDocString
-title: ICreateTypeInfo::SetVarDocString
+title: ICreateTypeInfo::SetVarDocString (oaidl.h)
 author: windows-sdk-content
 description: Sets the documentation string for the variable with the specified index.
 old-location: automat\icreatetypeinfo_setvardocstring.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetFormattedText
-title: ITextStoreAnchor::GetFormattedText
+title: ITextStoreAnchor::GetFormattedText (textstor.h)
 author: windows-sdk-content
 description: The ITextStoreAnchor::GetFormattedText method returns formatted text information from a text stream.
 old-location: tsf\itextstoreanchor_getformattedtext.htm

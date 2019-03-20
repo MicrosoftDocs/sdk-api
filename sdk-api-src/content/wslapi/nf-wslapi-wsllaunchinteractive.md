@@ -1,6 +1,6 @@
 ---
 UID: NF:wslapi.WslLaunchInteractive
-title: WslLaunchInteractive function
+title: WslLaunchInteractive function (wslapi.h)
 author: windows-sdk-content
 description: Launches an interactive Windows Subsystem for Linux (WSL) process in the context of a particular distribution.
 old-location: wsl\wsllaunchinteractive.htm

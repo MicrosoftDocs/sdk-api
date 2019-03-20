@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddClosedCurve
-title: GraphicsPath::AddClosedCurve
+title: GraphicsPath::AddClosedCurve (gdipluspath.h)
 author: windows-sdk-content
 description: This topic lists the AddClosedCurve methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddClosedCurve_Methods.htm

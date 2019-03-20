@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteGdiInterop.ConvertFontFaceToLOGFONT
-title: IDWriteGdiInterop::ConvertFontFaceToLOGFONT
+title: IDWriteGdiInterop::ConvertFontFaceToLOGFONT (dwrite.h)
 author: windows-sdk-content
 description: Initializes a LOGFONT structure based on the GDI-compatible properties of the specified font.
 old-location: directwrite\IDWriteGdiInterop_ConvertFontFaceToLOGFONT.htm

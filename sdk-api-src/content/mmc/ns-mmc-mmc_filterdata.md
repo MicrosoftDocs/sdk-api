@@ -1,6 +1,6 @@
 ---
 UID: NS:mmc._MMC_FILTERDATA
-title: MMC_FILTERDATA
+title: MMC_FILTERDATA (mmc.h)
 author: windows-sdk-content
 description: The MMC_FILTERDATA structure is introduced in MMC 1.2.
 old-location: mmc\mmc_filterdata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITStaticAudioTerminal.get_WaveId
-title: ITStaticAudioTerminal::get_WaveId
+title: ITStaticAudioTerminal::get_WaveId (tapi3if.h)
 author: windows-sdk-content
 description: The get_WaveId method returns the wave ID for the audio device used to implement this terminal.
 old-location: tapi3\itstaticaudioterminal_get_waveid.htm

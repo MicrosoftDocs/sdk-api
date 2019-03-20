@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.RegisterClassA
-title: RegisterClassA function
+title: RegisterClassA function (winuser.h)
 author: windows-sdk-content
 description: Registers a window class for subsequent use in calls to the CreateWindow or CreateWindowEx function.
 old-location: winmsg\registerclass.htm

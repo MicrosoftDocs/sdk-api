@@ -1,6 +1,6 @@
 ---
 UID: NF:commdlg.GetFileTitleA
-title: GetFileTitleA function
+title: GetFileTitleA function (commdlg.h)
 author: windows-sdk-content
 description: Retrieves the name of the specified file.
 old-location: dlgbox\getfiletitle.htm

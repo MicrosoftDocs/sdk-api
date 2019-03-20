@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHDoDragDrop
-title: SHDoDragDrop function
+title: SHDoDragDrop function (shlobj_core.h)
 author: windows-sdk-content
 description: Executes a drag-and-drop operation. Supports drag source creation on demand, as well as drag images.
 old-location: shell\SHDoDragDrop.htm

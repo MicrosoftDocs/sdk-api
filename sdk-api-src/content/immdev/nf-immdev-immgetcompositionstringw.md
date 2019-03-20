@@ -1,6 +1,6 @@
 ---
 UID: NF:immdev.ImmGetCompositionStringW
-title: ImmGetCompositionStringW function
+title: ImmGetCompositionStringW function (immdev.h)
 author: windows-sdk-content
 description: Retrieves information about the composition string.
 old-location: intl\immgetcompositionstring.htm

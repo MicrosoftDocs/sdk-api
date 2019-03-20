@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcLibrary.GetRDCVersion
-title: IRdcLibrary::GetRDCVersion
+title: IRdcLibrary::GetRDCVersion (msrdc.h)
 author: windows-sdk-content
 description: Retrieves the version of the installed RDC runtime and the oldest version of the RDC interfaces supported by the installed runtime.
 old-location: rdc\irdclibrary_getrdcversion.htm

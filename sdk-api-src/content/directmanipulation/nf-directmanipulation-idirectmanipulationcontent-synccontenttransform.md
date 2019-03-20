@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationContent.SyncContentTransform
-title: IDirectManipulationContent::SyncContentTransform
+title: IDirectManipulationContent::SyncContentTransform (directmanipulation.h)
 author: windows-sdk-content
 description: Modifies the content transform while maintaining the output transform.
 old-location: directmanipulation\idirectmanipulationcontent_synccontenttransform.htm

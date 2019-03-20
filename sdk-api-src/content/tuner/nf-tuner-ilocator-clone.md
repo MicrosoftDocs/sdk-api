@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ILocator.Clone
-title: ILocator::Clone
+title: ILocator::Clone (tuner.h)
 author: windows-sdk-content
 description: The Clone method creates a copy of the Locator.
 old-location: mstv\ilocator_clone.htm

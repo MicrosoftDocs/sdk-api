@@ -1,6 +1,6 @@
 ---
 UID: NF:winsxs.IAssemblyName.Finalize
-title: IAssemblyName::Finalize
+title: IAssemblyName::Finalize (winsxs.h)
 author: windows-sdk-content
 description: The Finalize method prevents a side-by-side assembly name from being changed. After Finalize is called, additional calls to the SetProperty returns E_UNEXPECTED.
 old-location: setup\iassemblyname_finalize.htm

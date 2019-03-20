@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMStreamConfig.GetNumberOfCapabilities
-title: IAMStreamConfig::GetNumberOfCapabilities
+title: IAMStreamConfig::GetNumberOfCapabilities (strmif.h)
 author: windows-sdk-content
 description: The GetNumberOfCapabilities method retrieves the number of format capabilities that this pin supports.
 old-location: dshow\iamstreamconfig_getnumberofcapabilities.htm

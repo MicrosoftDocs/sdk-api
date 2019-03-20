@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IMediaObject.Discontinuity
-title: IMediaObject::Discontinuity
+title: IMediaObject::Discontinuity (mediaobj.h)
 author: windows-sdk-content
 description: The Discontinuity method signals a discontinuity on the specified input stream.
 old-location: dshow\imediaobject_discontinuity.htm

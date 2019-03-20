@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESEventService.FireESEvent
-title: IESEventService::FireESEvent
+title: IESEventService::FireESEvent (tuner.h)
 author: windows-sdk-content
 description: Raises an event derived from the IESEvent interface.
 old-location: mstv\ieseventservice_fireesevent.htm

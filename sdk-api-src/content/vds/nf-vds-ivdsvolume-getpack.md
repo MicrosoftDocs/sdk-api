@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolume.GetPack
-title: IVdsVolume::GetPack
+title: IVdsVolume::GetPack (vds.h)
 author: windows-sdk-content
 description: Retrieves the pack to which the volume is a member.
 old-location: base\ivdsvolume_getpack.htm

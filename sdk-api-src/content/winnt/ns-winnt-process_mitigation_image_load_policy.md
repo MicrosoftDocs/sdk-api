@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._PROCESS_MITIGATION_IMAGE_LOAD_POLICY
-title: PROCESS_MITIGATION_IMAGE_LOAD_POLICY
+title: PROCESS_MITIGATION_IMAGE_LOAD_POLICY (winnt.h)
 author: windows-sdk-content
 description: Contains process mitigation policy settings for the loading of images from a remote device.
 old-location: base\process_mitigation_image_load_policy.htm

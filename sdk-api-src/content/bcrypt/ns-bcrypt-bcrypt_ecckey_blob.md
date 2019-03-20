@@ -1,6 +1,6 @@
 ---
 UID: NS:bcrypt._BCRYPT_ECCKEY_BLOB
-title: BCRYPT_ECCKEY_BLOB
+title: BCRYPT_ECCKEY_BLOB (bcrypt.h)
 author: windows-sdk-content
 description: Used as a header for an elliptic curve public key or private key BLOB in memory.
 old-location: security\bcrypt_ecckey_blob.htm

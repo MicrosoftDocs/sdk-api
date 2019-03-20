@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluscolor.Color.Color
-title: Color::Color
+title: Color::Color (gdipluscolor.h)
 author: windows-sdk-content
 description: Creates a Color::Color object and initializes it to opaque black. This is the default constructor.
 old-location: gdiplus\_gdiplus_CLASS_Color_Color_.htm

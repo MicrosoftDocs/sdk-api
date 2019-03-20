@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.GetWrapMode
-title: TextureBrush::GetWrapMode
+title: TextureBrush::GetWrapMode (gdiplusbrush.h)
 author: windows-sdk-content
 description: The TextureBrush::GetWrapMode method gets the wrap mode currently set for this texture brush.
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_GetWrapMode_.htm

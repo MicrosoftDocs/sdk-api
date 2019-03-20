@@ -1,6 +1,6 @@
 ---
 UID: NS:mstask._MONTHLYDOW
-title: MONTHLYDOW
+title: MONTHLYDOW (mstask.h)
 author: windows-sdk-content
 description: Defines the date(s) that the task runs by month, week, and day of the week.
 old-location: taskschd\monthlydow.htm

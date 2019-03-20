@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMMigrationTable.Add
-title: IGPMMigrationTable::Add
+title: IGPMMigrationTable::Add (gpmgmt.h)
 author: windows-sdk-content
 description: Adds entries from the IGPMGPO and IGPMBackup interfaces. The method updates any entries that are already present in the migration table.
 old-location: gpmc\igpmmigrationtable_add.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.GetTransform
-title: TextureBrush::GetTransform
+title: TextureBrush::GetTransform (gdiplusbrush.h)
 author: windows-sdk-content
 description: The TextureBrush::GetTransform method gets the transformation matrix of this texture brush.
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_GetTransform_matrix_.htm

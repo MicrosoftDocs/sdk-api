@@ -1,6 +1,6 @@
 ---
 UID: NF:aclui.ISecurityInformation.GetAccessRights
-title: ISecurityInformation::GetAccessRights
+title: ISecurityInformation::GetAccessRights (aclui.h)
 author: windows-sdk-content
 description: The GetAccessRights method requests information about the access rights that can be controlled for a securable object.
 old-location: security\isecurityinformation_getaccessrights.htm

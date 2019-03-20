@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.GetStringTypeA
-title: GetStringTypeA function
+title: GetStringTypeA function (winnls.h)
 author: windows-sdk-content
 description: Deprecated.
 old-location: intl\getstringtypea.htm

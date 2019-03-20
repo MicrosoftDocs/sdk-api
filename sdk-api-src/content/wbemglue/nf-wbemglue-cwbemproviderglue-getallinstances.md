@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.GetAllInstances
-title: CWbemProviderGlue::GetAllInstances
+title: CWbemProviderGlue::GetAllInstances (wbemglue.h)
 author: windows-sdk-content
 description: The GetAllInstances method retrieves a list of instances returned by a specific class.
 old-location: wmi\cwbemproviderglue_getallinstances.htm

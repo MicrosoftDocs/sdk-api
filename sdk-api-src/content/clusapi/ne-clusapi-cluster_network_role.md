@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.CLUSTER_NETWORK_ROLE
-title: CLUSTER_NETWORK_ROLE
+title: CLUSTER_NETWORK_ROLE (clusapi.h)
 author: windows-sdk-content
 description: Describes the role a network plays in the cluster.
 old-location: mscs\cluster_network_role.htm

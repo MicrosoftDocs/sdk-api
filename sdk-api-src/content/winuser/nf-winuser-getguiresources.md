@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetGuiResources
-title: GetGuiResources function
+title: GetGuiResources function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the count of handles to graphical user interface (GUI) objects in use by the specified process.
 old-location: base\getguiresources.htm

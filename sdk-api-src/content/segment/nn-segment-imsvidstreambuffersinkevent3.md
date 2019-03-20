@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidStreamBufferSinkEvent3
-title: IMSVidStreamBufferSinkEvent3
+title: IMSVidStreamBufferSinkEvent3 (segment.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersinkevent3.htm

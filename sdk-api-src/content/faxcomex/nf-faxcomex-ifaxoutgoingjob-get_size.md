@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_Size
-title: IFaxOutgoingJob::get_Size
+title: IFaxOutgoingJob::get_Size (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingJob::get_Size property is a value that indicates the size of the Tagged Image File Format Class F (TIFF Class F) file associated with the outbound fax job.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_size_cpp.htm

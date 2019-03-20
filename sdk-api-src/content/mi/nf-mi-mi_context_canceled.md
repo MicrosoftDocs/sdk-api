@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_Canceled
-title: MI_Context_Canceled function
+title: MI_Context_Canceled function (mi.h)
 author: windows-sdk-content
 description: Determines whether the operation has been canceled. This function is reserved; instead, use the MI_Context_RegisterCancel function.
 old-location: wmi_v2\mi_context_canceled.htm

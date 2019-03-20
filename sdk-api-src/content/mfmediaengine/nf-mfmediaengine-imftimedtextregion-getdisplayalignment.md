@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetDisplayAlignment
-title: IMFTimedTextRegion::GetDisplayAlignment
+title: IMFTimedTextRegion::GetDisplayAlignment (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the display alignment of the region.
 old-location: mf\imftimedtextregion_getdisplayalignment.htm

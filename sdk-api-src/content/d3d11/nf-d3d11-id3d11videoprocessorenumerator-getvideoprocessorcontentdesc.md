@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoProcessorEnumerator.GetVideoProcessorContentDesc
-title: ID3D11VideoProcessorEnumerator::GetVideoProcessorContentDesc
+title: ID3D11VideoProcessorEnumerator::GetVideoProcessorContentDesc (d3d11.h)
 author: windows-sdk-content
 description: Gets the content description that was used to create this enumerator.
 old-location: mf\id3d11videoprocessorenumerator_getvideoprocessorcontentdesc.htm

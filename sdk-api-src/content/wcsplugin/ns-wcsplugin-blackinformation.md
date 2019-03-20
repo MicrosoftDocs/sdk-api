@@ -1,6 +1,6 @@
 ---
 UID: NS:wcsplugin._BlackInformation
-title: BlackInformation
+title: BlackInformation (wcsplugin.h)
 author: windows-sdk-content
 description: Contains information for device models that have a black color channel.
 old-location: wcs\blackinformation.htm

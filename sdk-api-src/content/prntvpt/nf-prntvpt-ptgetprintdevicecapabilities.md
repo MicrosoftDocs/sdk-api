@@ -1,6 +1,6 @@
 ---
 UID: NF:prntvpt.PTGetPrintDeviceCapabilities
-title: PTGetPrintDeviceCapabilities function
+title: PTGetPrintDeviceCapabilities function (prntvpt.h)
 author: windows-sdk-content
 description: Retrieves the device printer's capabilities formatted in compliance with the XML Print Schema.
 old-location: xps\ptgetprintdevicecapabilities.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.CSGetConstantBuffers
-title: ID3D11DeviceContext::CSGetConstantBuffers
+title: ID3D11DeviceContext::CSGetConstantBuffers (d3d11.h)
 author: windows-sdk-content
 description: Get the constant buffers used by the compute-shader stage.
 old-location: direct3d11\id3d11devicecontext_csgetconstantbuffers.htm

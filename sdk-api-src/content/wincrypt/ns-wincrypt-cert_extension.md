@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_EXTENSION
-title: CERT_EXTENSION
+title: CERT_EXTENSION (wincrypt.h)
 author: windows-sdk-content
 description: The CERT_EXTENSION structure contains the extension information for a certificate, Certificate Revocation List (CRL) or Certificate Trust List (CTL).
 old-location: security\cert_extension.htm

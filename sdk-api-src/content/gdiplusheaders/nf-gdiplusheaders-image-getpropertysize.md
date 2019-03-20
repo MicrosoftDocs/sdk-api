@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.GetPropertySize
-title: Image::GetPropertySize
+title: Image::GetPropertySize (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::GetPropertySize method gets the total size, in bytes, of all the property items stored in this Image object. The Image::GetPropertySize method also gets the number of property items stored in this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetPropertySize_totalBufferSize_numProperties_.htm

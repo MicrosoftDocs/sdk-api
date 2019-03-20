@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpCreateOptionV5
-title: DhcpCreateOptionV5 function
+title: DhcpCreateOptionV5 function (dhcpsapi.h)
 author: windows-sdk-content
 description: Creates a DHCP option.
 old-location: dhcp\dhcpcreateoptionv5.htm

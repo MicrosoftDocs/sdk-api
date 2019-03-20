@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.MatchResolveEx
-title: IWSDiscoveryPublisher::MatchResolveEx
+title: IWSDiscoveryPublisher::MatchResolveEx (wsddisco.h)
 author: windows-sdk-content
 description: Determines whether a Resolve message matches the specified host and sends a WS-Discovery ResolveMatches message with extended information if the match is made.
 old-location: ncd\iwsdiscoverypublisher_matchresolveex_method.htm

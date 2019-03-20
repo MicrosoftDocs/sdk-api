@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPDVD
-title: IWMPDVD
+title: IWMPDVD (wmp.h)
 author: windows-sdk-content
 description: The IWMPDVD interface provides methods for working with DVDs.
 old-location: wmp\iwmpdvd.htm

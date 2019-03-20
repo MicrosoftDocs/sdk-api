@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_BINDING_INFO
-title: HTTP_BINDING_INFO
+title: HTTP_BINDING_INFO (http.h)
 author: windows-sdk-content
 description: Used to associate a URL Group with a request queue.
 old-location: http\http_binding_info.htm

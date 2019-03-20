@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_NewParameters
-title: MI_Context_NewParameters function
+title: MI_Context_NewParameters function (mi.h)
 author: windows-sdk-content
 description: Creates a new instance of a method given a method declaration.
 old-location: wmi_v2\mi_context_newparameters.htm

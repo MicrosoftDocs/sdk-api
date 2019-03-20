@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.ScaleWindowExtEx
-title: ScaleWindowExtEx function
+title: ScaleWindowExtEx function (wingdi.h)
 author: windows-sdk-content
 description: The ScaleWindowExtEx function modifies the window for a device context using the ratios formed by the specified multiplicands and divisors.
 old-location: gdi\scalewindowextex.htm

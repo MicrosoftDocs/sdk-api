@@ -1,6 +1,6 @@
 ---
 UID: NS:ddkmapi._DDOPENSURFACEOUT
-title: DDOPENSURFACEOUT
+title: DDOPENSURFACEOUT (ddkmapi.h)
 author: windows-sdk-content
 description: The DDOPENSURFACEOUT structure contains a new DirectDrawSurface handle, if the ddRVal member of DDOPENSURFACEOUT is set to DD_OK. This new handle must be used on all subsequent calls that require a DirectDrawSurface handle.
 old-location: display\ddopensurfaceout.htm

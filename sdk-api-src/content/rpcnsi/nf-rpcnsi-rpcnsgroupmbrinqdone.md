@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcnsi.RpcNsGroupMbrInqDone
-title: RpcNsGroupMbrInqDone function
+title: RpcNsGroupMbrInqDone function (rpcnsi.h)
 author: windows-sdk-content
 description: The RpcNsGroupMbrInqDone function deletes the inquiry context for a group.
 old-location: rpc\rpcnsgroupmbrinqdone.htm

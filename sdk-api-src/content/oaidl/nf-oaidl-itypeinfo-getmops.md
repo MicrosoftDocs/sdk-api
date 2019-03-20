@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetMops
-title: ITypeInfo::GetMops
+title: ITypeInfo::GetMops (oaidl.h)
 author: windows-sdk-content
 description: Retrieves marshaling information.
 old-location: automat\itypeinfo_getmops.htm

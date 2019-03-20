@@ -1,6 +1,6 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual2.get_CurrentViewMode
-title: IShellFolderViewDual2::get_CurrentViewMode
+title: IShellFolderViewDual2::get_CurrentViewMode (shldisp.h)
 author: windows-sdk-content
 description: Gets the current view mode of the current folder.
 old-location: shell\IShellFolderViewDual2_get_CurrentViewMode.htm

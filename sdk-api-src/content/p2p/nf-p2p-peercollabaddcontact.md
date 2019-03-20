@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabAddContact
-title: PeerCollabAddContact function
+title: PeerCollabAddContact function (p2p.h)
 author: windows-sdk-content
 description: Adds a contact to the contact list of a peer.
 old-location: p2p\peercollabaddcontact.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsapi32._WTS_PROCESS_INFO_EXW
-title: WTS_PROCESS_INFO_EXW
+title: WTS_PROCESS_INFO_EXW (wtsapi32.h)
 author: windows-sdk-content
 description: Contains extended information about a process running on a Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wts_process_info_ex.htm

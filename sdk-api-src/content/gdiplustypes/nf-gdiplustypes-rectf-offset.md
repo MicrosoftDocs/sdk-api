@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.RectF.Offset
-title: RectF::Offset
+title: RectF::Offset (gdiplustypes.h)
 author: windows-sdk-content
 description: This topic lists the Offset methods of the RectF class. For a complete list of methods for the RectF class, see Rect Methods.
 old-location: gdiplus\_gdiplus_CLASS_RectF_Offset_Methods.htm

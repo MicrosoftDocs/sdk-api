@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICFastMetadataEncoder.Commit
-title: IWICFastMetadataEncoder::Commit
+title: IWICFastMetadataEncoder::Commit (wincodec.h)
 author: windows-sdk-content
 description: Finalizes metadata changes to the image stream.
 old-location: wic\_wic_codec_iwicfastmetadataencoder_commit.htm

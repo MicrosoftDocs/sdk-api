@@ -1,6 +1,6 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_AUTHORIZE_OPERATION
-title: WSMAN_PLUGIN_AUTHORIZE_OPERATION
+title: WSMAN_PLUGIN_AUTHORIZE_OPERATION (wsman.h)
 author: windows-sdk-content
 description: Authorizes a specific operation.
 old-location: winrm\wsman_plugin_authorize_operation.htm

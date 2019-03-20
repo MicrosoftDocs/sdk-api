@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_3.IDWriteRemoteFontFileStream
-title: IDWriteRemoteFontFileStream
+title: IDWriteRemoteFontFileStream (dwrite_3.h)
 author: windows-sdk-content
 description: Represents a font file stream, parts of which may be non-local.
 old-location: directwrite\idwriteremotefontfilestream.htm

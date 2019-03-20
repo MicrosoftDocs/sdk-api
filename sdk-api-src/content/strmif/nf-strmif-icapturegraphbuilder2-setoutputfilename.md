@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder2.SetOutputFileName
-title: ICaptureGraphBuilder2::SetOutputFileName
+title: ICaptureGraphBuilder2::SetOutputFileName (strmif.h)
 author: windows-sdk-content
 description: The SetOutputFileName method creates the file writing section of the filter graph.
 old-location: dshow\icapturegraphbuilder2_setoutputfilename.htm

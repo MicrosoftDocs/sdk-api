@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsServiceLoader
-title: IVdsServiceLoader
+title: IVdsServiceLoader (vds.h)
 author: windows-sdk-content
 description: Instantiates a service loader object.
 old-location: base\ivdsserviceloader.htm

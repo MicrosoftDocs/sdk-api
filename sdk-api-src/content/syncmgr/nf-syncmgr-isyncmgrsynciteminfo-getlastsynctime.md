@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItemInfo.GetLastSyncTime
-title: ISyncMgrSyncItemInfo::GetLastSyncTime
+title: ISyncMgrSyncItemInfo::GetLastSyncTime (syncmgr.h)
 author: windows-sdk-content
 description: Gets the date and time when the item was last synchronized.
 old-location: shell\ISyncMgrSyncItemInfo_GetLastSyncTime.htm

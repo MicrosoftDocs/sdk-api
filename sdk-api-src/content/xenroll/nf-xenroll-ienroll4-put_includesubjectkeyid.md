@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll4.put_IncludeSubjectKeyID
-title: IEnroll4::put_IncludeSubjectKeyID
+title: IEnroll4::put_IncludeSubjectKeyID (xenroll.h)
 author: windows-sdk-content
 description: The IncludeSubjectKeyID property of IEnroll4 determines whether the subject key ID extension is added to the certificate request that is generated.
 old-location: security\ienroll4_includesubjectkeyid.htm

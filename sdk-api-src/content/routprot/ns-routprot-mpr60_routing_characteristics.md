@@ -1,6 +1,6 @@
 ---
 UID: NS:routprot._MPR60_ROUTING_CHARACTERISTICS
-title: MPR60_ROUTING_CHARACTERISTICS
+title: MPR60_ROUTING_CHARACTERISTICS (routprot.h)
 author: windows-sdk-content
 description: The MPR_ROUTING_CHARACTERISTICS structure contains information used to register routing protocols with the router manager.
 old-location: rras\mpr_routing_characteristics.htm

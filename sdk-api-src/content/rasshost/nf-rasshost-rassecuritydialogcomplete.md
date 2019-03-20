@@ -1,6 +1,6 @@
 ---
 UID: NF:rasshost.RasSecurityDialogComplete
-title: RasSecurityDialogComplete function
+title: RasSecurityDialogComplete function (rasshost.h)
 author: windows-sdk-content
 description: The RasSecurityDialogComplete function notifies the RAS server of the results of a third-party security authentication transaction.
 old-location: rras\rassecuritydialogcomplete.htm

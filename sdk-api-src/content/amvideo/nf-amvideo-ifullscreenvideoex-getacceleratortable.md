@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.GetAcceleratorTable
-title: IFullScreenVideoEx::GetAcceleratorTable
+title: IFullScreenVideoEx::GetAcceleratorTable (amvideo.h)
 author: windows-sdk-content
 description: The GetAcceleratorTable method retrieves the accelerator table currently being used to translate keyboard messages. The Full Screen Renderer filter does not support this method.
 old-location: dshow\ifullscreenvideoex_getacceleratortable.htm

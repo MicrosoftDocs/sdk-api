@@ -1,6 +1,6 @@
 ---
 UID: NC:fontsub.CFP_FREEPROC
-title: CFP_FREEPROC
+title: CFP_FREEPROC (fontsub.h)
 author: windows-sdk-content
 description: Client-provided callback function, used by CreateFontPackage and MergeFontPackage to free memory.
 old-location: gdi\cfp_freeproc.htm

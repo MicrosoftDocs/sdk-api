@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.get_Display
-title: ITPhone::get_Display
+title: ITPhone::get_Display (tapi3if.h)
 author: windows-sdk-content
 description: The get_Display method gets the display for the phone. In TAPI, the display is simply an NxM character buffer.
 old-location: tapi3\itphone_get_display.htm

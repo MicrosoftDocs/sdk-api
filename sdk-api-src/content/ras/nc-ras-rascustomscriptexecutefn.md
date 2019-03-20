@@ -1,6 +1,6 @@
 ---
 UID: NC:ras.RasCustomScriptExecuteFn
-title: RasCustomScriptExecuteFn
+title: RasCustomScriptExecuteFn (ras.h)
 author: windows-sdk-content
 description: RAS calls the RasCustomScriptExecute function when establishing a connection for a phone-book entry that has the RASEO_CustomScript option set.
 old-location: rras\rascustomscriptexecute.htm

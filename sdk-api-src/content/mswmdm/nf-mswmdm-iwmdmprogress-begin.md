@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMProgress.Begin
-title: IWMDMProgress::Begin
+title: IWMDMProgress::Begin (mswmdm.h)
 author: windows-sdk-content
 description: The Begin method indicates that an operation is beginning. An estimate of the duration of the operation is provided when possible.
 old-location: wmdm\iwmdmprogress_begin.htm

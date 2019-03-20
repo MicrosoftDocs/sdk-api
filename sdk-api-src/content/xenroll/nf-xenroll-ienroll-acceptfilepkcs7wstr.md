@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.acceptFilePKCS7WStr
-title: IEnroll::acceptFilePKCS7WStr
+title: IEnroll::acceptFilePKCS7WStr (xenroll.h)
 author: windows-sdk-content
 description: Accepts and processes a PKCS #7 message containing a certificate, then stores the message to a file.
 old-location: security\ienroll4_acceptfilepkcs7wstr.htm

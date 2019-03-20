@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.GetPaletteSize
-title: Image::GetPaletteSize
+title: Image::GetPaletteSize (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::GetPaletteSize method gets the size, in bytes, of the color palette of this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetPaletteSize_.htm

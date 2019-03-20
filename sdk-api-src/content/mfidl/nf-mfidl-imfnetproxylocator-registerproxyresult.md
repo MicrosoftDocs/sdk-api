@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFNetProxyLocator.RegisterProxyResult
-title: IMFNetProxyLocator::RegisterProxyResult
+title: IMFNetProxyLocator::RegisterProxyResult (mfidl.h)
 author: windows-sdk-content
 description: Keeps a record of the success or failure of using the current proxy.
 old-location: mf\imfnetproxylocator_registerproxyresult.htm

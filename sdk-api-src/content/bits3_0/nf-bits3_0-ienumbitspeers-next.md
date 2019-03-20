@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeers.Next
-title: IEnumBitsPeers::Next
+title: IEnumBitsPeers::Next (bits3_0.h)
 author: windows-sdk-content
 description: Retrieves a specified number of items in the enumeration sequence. If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements.
 old-location: bits\ienumbitspeers_next.htm

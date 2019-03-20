@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFContentEnabler.GetEnableURL
-title: IMFContentEnabler::GetEnableURL
+title: IMFContentEnabler::GetEnableURL (mfidl.h)
 author: windows-sdk-content
 description: Retrieves a URL for performing a manual content enabling action.
 old-location: mf\imfcontentenabler_getenableurl.htm

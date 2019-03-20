@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DSA_GetSize
-title: DSA_GetSize function
+title: DSA_GetSize function (dpa_dsa.h)
 author: windows-sdk-content
 description: Gets the size of the dynamic structure array (DSA).
 old-location: controls\DSA_GetSize.htm

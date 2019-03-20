@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.ISCPSecureExchange2.TransferContainerData2
-title: ISCPSecureExchange2::TransferContainerData2
+title: ISCPSecureExchange2::TransferContainerData2 (mswmdm.h)
 author: windows-sdk-content
 description: The TransferContainerData2 method transfers container file data to the secure content provider.
 old-location: wmdm\iscpsecureexchange2_transfercontainerdata2.htm

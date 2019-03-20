@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IUIAutomationRegistrar.RegisterPattern
-title: IUIAutomationRegistrar::RegisterPattern
+title: IUIAutomationRegistrar::RegisterPattern (uiautomationcore.h)
 author: windows-sdk-content
 description: Registers a third-party control pattern.
 old-location: winauto\uiauto_IUIAutomationRegistrar_RegisterPattern.htm

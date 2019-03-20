@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITDigitDetectionEvent.get_DigitMode
-title: ITDigitDetectionEvent::get_DigitMode
+title: ITDigitDetectionEvent::get_DigitMode (tapi3if.h)
 author: windows-sdk-content
 description: The get_DigitMode method gets the indicator of the line digit mode, such as LINEDIGITMODE_DTMF.
 old-location: tapi3\itdigitdetectionevent_get_digitmode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Application_NewSerializer
-title: MI_Application_NewSerializer function
+title: MI_Application_NewSerializer function (mi.h)
 author: windows-sdk-content
 description: Retrieves a serializer object that can then be used to serialize instances and classes into various different formats.
 old-location: wmi_v2\mi_application_newserializer.htm

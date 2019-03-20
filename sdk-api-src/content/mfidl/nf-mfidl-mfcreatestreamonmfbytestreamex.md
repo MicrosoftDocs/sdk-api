@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateStreamOnMFByteStreamEx
-title: MFCreateStreamOnMFByteStreamEx function
+title: MFCreateStreamOnMFByteStreamEx function (mfidl.h)
 author: windows-sdk-content
 description: Creates an IRandomAccessStream object that wraps a Microsoft Media Foundation byte stream.
 old-location: mf\mfcreatestreamonmfbytestreamex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanapi._WLAN_AUTH_CIPHER_PAIR_LIST
-title: WLAN_AUTH_CIPHER_PAIR_LIST
+title: WLAN_AUTH_CIPHER_PAIR_LIST (wlanapi.h)
 author: windows-sdk-content
 description: Contains a list of authentication and cipher algorithm pairs.
 old-location: nwifi\wlan_auth_cipher_pair_list.htm

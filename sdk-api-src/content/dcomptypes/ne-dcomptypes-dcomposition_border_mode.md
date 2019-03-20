@@ -1,6 +1,6 @@
 ---
 UID: NE:dcomptypes.DCOMPOSITION_BORDER_MODE
-title: DCOMPOSITION_BORDER_MODE
+title: DCOMPOSITION_BORDER_MODE (dcomptypes.h)
 author: windows-sdk-content
 description: Specifies the border mode to use when composing a bitmap or applying a clip with any transform such that the edges of the bitmap or clip are not axis-aligned with integer coordinates.
 old-location: directcomp\dcomposition_border_mode.htm

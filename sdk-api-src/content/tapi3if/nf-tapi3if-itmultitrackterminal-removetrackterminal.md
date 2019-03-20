@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITMultiTrackTerminal.RemoveTrackTerminal
-title: ITMultiTrackTerminal::RemoveTrackTerminal
+title: ITMultiTrackTerminal::RemoveTrackTerminal (tapi3if.h)
 author: windows-sdk-content
 description: The RemoveTrackTerminal method removes the specified terminal from the collection of track terminals that belong to the multitrack terminal on which the method was called.
 old-location: tapi3\itmultitrackterminal_removetrackterminal.htm

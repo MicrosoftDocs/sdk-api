@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetCurrentUmsThread
-title: GetCurrentUmsThread function
+title: GetCurrentUmsThread function (winbase.h)
 author: windows-sdk-content
 description: Returns the user-mode scheduling (UMS) thread context of the calling UMS thread.
 old-location: base\getcurrentumsthread.htm

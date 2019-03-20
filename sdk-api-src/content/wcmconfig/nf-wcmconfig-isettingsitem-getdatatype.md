@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetDataType
-title: ISettingsItem::GetDataType
+title: ISettingsItem::GetDataType (wcmconfig.h)
 author: windows-sdk-content
 description: Gets the type information for the item.
 old-location: smi\isettingsitem_getdatatype.htm

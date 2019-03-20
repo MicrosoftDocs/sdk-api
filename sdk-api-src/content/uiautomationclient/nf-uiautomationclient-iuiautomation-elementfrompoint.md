@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.ElementFromPoint
-title: IUIAutomation::ElementFromPoint
+title: IUIAutomation::ElementFromPoint (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the UI Automation element at the specified point on the desktop.
 old-location: winauto\uiauto_IUIAutomation_ElementFromPoint.htm

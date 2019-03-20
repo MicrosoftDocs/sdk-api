@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Child
-title: CM_Get_Child function
+title: CM_Get_Child function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Get_Child function is used to retrieve a device instance handle to the first child node of a specified device node (devnode) in the local machine's device tree.
 old-location: devinst\cm_get_child.htm

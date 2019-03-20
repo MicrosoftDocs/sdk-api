@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.AreCharactersLocal
-title: IDWriteFontFace3::AreCharactersLocal
+title: IDWriteFontFace3::AreCharactersLocal (dwrite_3.h)
 author: windows-sdk-content
 description: Determines whether the specified characters are local.
 old-location: directwrite\idwritefontface3_arecharacterslocal.htm

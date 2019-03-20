@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkWordList.AddWord
-title: IInkWordList::AddWord
+title: IInkWordList::AddWord (msinkaut.h)
 author: windows-sdk-content
 description: Adds a single word to the InkWordList object.
 old-location: tablet\inkwordlist_addword.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._OPERATION_START_PARAMETERS
-title: OPERATION_START_PARAMETERS
+title: OPERATION_START_PARAMETERS (winbase.h)
 author: windows-sdk-content
 description: This structure is used by the OperationStart function.
 old-location: oprec\operation_start_parameters.htm

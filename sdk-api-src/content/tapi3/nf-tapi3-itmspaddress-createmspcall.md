@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITMSPAddress.CreateMSPCall
-title: ITMSPAddress::CreateMSPCall
+title: ITMSPAddress::CreateMSPCall (tapi3.h)
 author: windows-sdk-content
 description: The CreateMSPCall method creates an MSP Call object. TAPI aggregates this onto the main Call object and exposes the ITStreamControl interface.
 old-location: tapi3\itmspaddress_createmspcall.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core._SPACTION
-title: SPACTION
+title: SPACTION (shobjidl_core.h)
 author: windows-sdk-content
 description: Describes an action being performed that requires progress to be shown to the user using an IActionProgress interface.
 old-location: shell\SPACTION.htm

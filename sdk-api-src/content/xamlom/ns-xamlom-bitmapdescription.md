@@ -1,6 +1,6 @@
 ---
 UID: NS:xamlom.BitmapDescription
-title: BitmapDescription
+title: BitmapDescription (xamlom.h)
 author: windows-sdk-content
 description: Represents information about the bitmap stored in IBitmapData.
 old-location: xaml_diagnostics\bitmapdescription.htm

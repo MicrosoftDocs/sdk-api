@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.put_TransactionId
-title: IX509SCEPEnrollment::put_TransactionId
+title: IX509SCEPEnrollment::put_TransactionId (certenroll.h)
 author: windows-sdk-content
 description: Gets or sets the transaction id for the request.
 old-location: security\ix509scepenrollment_transactionid.htm

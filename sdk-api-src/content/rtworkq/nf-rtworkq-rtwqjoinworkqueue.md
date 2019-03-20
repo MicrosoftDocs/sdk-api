@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.RtwqJoinWorkQueue
-title: RtwqJoinWorkQueue function
+title: RtwqJoinWorkQueue function (rtworkq.h)
 author: windows-sdk-content
 description: Associates a work queue with an input/output (I/O) handle.
 old-location: base\rtwqjoinworkqueue.htm

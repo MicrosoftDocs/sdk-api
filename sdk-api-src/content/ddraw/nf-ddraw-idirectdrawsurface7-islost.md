@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.IsLost
-title: IDirectDrawSurface7::IsLost
+title: IDirectDrawSurface7::IsLost (ddraw.h)
 author: windows-sdk-content
 description: Determines whether the surface memory that is associated with a DirectDrawSurface object has been freed.
 old-location: directdraw\idirectdrawsurface7_islost.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_SortItems
-title: ListView_SortItems macro
+title: ListView_SortItems macro (commctrl.h)
 author: windows-sdk-content
 description: Uses an application-defined comparison function to sort the items of a list-view control. The index of each item changes to reflect the new sequence. You can use this macro or send the LVM_SORTITEMS message explicitly.
 old-location: controls\ListView_SortItems.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IMarshal.ReleaseMarshalData
-title: IMarshal::ReleaseMarshalData
+title: IMarshal::ReleaseMarshalData (objidlbase.h)
 author: windows-sdk-content
 description: Destroys a marshaled data packet.
 old-location: com\imarshal_releasemarshaldata.htm

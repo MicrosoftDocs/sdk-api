@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext.get_UserUpn
-title: IAzClientContext::get_UserUpn
+title: IAzClientContext::get_UserUpn (azroles.h)
 author: windows-sdk-content
 description: Retrieves the name of the current client in user principal name (UPN) format.
 old-location: security\iazclientcontext_userupn.htm

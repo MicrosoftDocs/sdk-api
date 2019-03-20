@@ -1,6 +1,6 @@
 ---
 UID: NF:wdsclientapi.WdsCliLog
-title: WdsCliLog function
+title: WdsCliLog function (wdsclientapi.h)
 author: windows-sdk-content
 description: Sends a log event to the WDS server.
 old-location: wds\wdsclilog.htm

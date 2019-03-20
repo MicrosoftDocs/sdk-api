@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineRemoveFromConference
-title: lineRemoveFromConference function
+title: lineRemoveFromConference function (tapi.h)
 author: windows-sdk-content
 description: The lineRemoveFromConference function removes the specified call from the conference call to which it currently belongs. The remaining calls in the conference call are unaffected.
 old-location: tapi2\lineremovefromconference.htm

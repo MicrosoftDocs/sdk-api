@@ -1,6 +1,6 @@
 ---
 UID: NS:psapi._PSAPI_WORKING_SET_EX_INFORMATION
-title: PSAPI_WORKING_SET_EX_INFORMATION
+title: PSAPI_WORKING_SET_EX_INFORMATION (psapi.h)
 author: windows-sdk-content
 description: Contains extended working set information for a process.
 old-location: psapi\psapi_working_set_ex_information.htm

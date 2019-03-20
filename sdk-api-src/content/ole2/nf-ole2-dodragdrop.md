@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.DoDragDrop
-title: DoDragDrop function
+title: DoDragDrop function (ole2.h)
 author: windows-sdk-content
 description: Carries out an OLE drag and drop operation.
 old-location: com\dodragdrop.htm

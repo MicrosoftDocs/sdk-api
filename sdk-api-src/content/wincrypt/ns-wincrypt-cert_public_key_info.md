@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_PUBLIC_KEY_INFO
-title: CERT_PUBLIC_KEY_INFO
+title: CERT_PUBLIC_KEY_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains a public key and its algorithm.
 old-location: security\cert_public_key_info.htm

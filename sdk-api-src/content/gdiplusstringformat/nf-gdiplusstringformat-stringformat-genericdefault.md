@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.GenericDefault
-title: StringFormat::GenericDefault
+title: StringFormat::GenericDefault (gdiplusstringformat.h)
 author: windows-sdk-content
 description: The StringFormat::GenericDefault method creates a generic, default StringFormat object.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GenericDefault_.htm

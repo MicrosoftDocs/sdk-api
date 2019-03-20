@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriterEx.GetIdentifyInformation
-title: CVssWriterEx::GetIdentifyInformation
+title: CVssWriterEx::GetIdentifyInformation (vswriter.h)
 author: windows-sdk-content
 description: Obtains the metadata that the writer's OnIdentify or OnIdentifyEx method previously reported.
 old-location: base\cvsswriterex_getidentifyinformation.htm

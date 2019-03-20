@@ -1,6 +1,6 @@
 ---
 UID: NS:spatialaudioclient.SpatialAudioClientActivationParams
-title: SpatialAudioClientActivationParams
+title: SpatialAudioClientActivationParams (spatialaudioclient.h)
 author: windows-sdk-content
 description: Represents optional activation parameters for a spatial audio render stream. Pass this structure to ActivateAudioInterfaceAsync when activating an ISpatialAudioClient interface.
 old-location: coreaudio\spatialaudioclientactivationparams.htm

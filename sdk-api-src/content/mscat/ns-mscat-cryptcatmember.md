@@ -1,6 +1,6 @@
 ---
 UID: NS:mscat.CRYPTCATMEMBER_
-title: CRYPTCATMEMBER
+title: CRYPTCATMEMBER (mscat.h)
 author: windows-sdk-content
 description: The CRYPTCATMEMBER structure provides information about a catalog member. This structure is used by the CryptCATGetMemberInfo and CryptCATEnumerateAttr functions.
 old-location: security\cryptcatmember.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.CLUSTER_GROUP_AUTOFAILBACK_TYPE
-title: CLUSTER_GROUP_AUTOFAILBACK_TYPE
+title: CLUSTER_GROUP_AUTOFAILBACK_TYPE (msclus.h)
 author: windows-sdk-content
 description: Used by the AutoFailbackType group common property to specify whether the group should be failed back to the node identified as its preferred owner when that node comes back online following a failover.
 old-location: mscs\cluster_group_autofailback_type.htm

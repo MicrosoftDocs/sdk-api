@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetProcessWorkingSetSize
-title: GetProcessWorkingSetSize function
+title: GetProcessWorkingSetSize function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the minimum and maximum working set sizes of the specified process.
 old-location: base\getprocessworkingsetsize.htm

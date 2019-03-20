@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.EnumWindows
-title: EnumWindows function
+title: EnumWindows function (winuser.h)
 author: windows-sdk-content
 description: Enumerates all top-level windows on the screen by passing the handle to each window, in turn, to an application-defined callback function. EnumWindows continues until the last top-level window is enumerated or the callback function returns FALSE.
 old-location: winmsg\enumwindows.htm

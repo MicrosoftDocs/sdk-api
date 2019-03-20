@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.GetUserDefaultUILanguage
-title: GetUserDefaultUILanguage function
+title: GetUserDefaultUILanguage function (winnls.h)
 author: windows-sdk-content
 description: Returns the language identifier for the user UI language for the current user.
 old-location: intl\getuserdefaultuilanguage.htm

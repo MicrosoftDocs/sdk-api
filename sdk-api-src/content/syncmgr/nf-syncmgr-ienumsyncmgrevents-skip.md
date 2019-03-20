@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrEvents.Skip
-title: IEnumSyncMgrEvents::Skip
+title: IEnumSyncMgrEvents::Skip (syncmgr.h)
 author: windows-sdk-content
 description: Skips forward the specified number of events in the enumeration.
 old-location: shell\IEnumSyncMgrEvents_Skip.htm

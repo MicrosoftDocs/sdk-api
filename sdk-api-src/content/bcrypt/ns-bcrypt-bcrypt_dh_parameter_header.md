@@ -1,6 +1,6 @@
 ---
 UID: NS:bcrypt._BCRYPT_DH_PARAMETER_HEADER
-title: BCRYPT_DH_PARAMETER_HEADER
+title: BCRYPT_DH_PARAMETER_HEADER (bcrypt.h)
 author: windows-sdk-content
 description: Used to contain parameter header information for a Diffie-Hellman key.
 old-location: security\bcrypt_dh_parameter_header.htm

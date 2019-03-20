@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceObject.SetObjectRects
-title: IOleInPlaceObject::SetObjectRects
+title: IOleInPlaceObject::SetObjectRects (oleidl.h)
 author: windows-sdk-content
 description: Specifies how much of the in-place object is to be visible.
 old-location: com\ioleinplaceobject_setobjectrects.htm

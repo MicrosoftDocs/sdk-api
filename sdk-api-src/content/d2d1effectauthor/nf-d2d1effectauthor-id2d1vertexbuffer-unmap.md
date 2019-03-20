@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1VertexBuffer.Unmap
-title: ID2D1VertexBuffer::Unmap
+title: ID2D1VertexBuffer::Unmap (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Unmaps the vertex buffer.
 old-location: direct2d\id2d1vertexbuffer_unmap.htm

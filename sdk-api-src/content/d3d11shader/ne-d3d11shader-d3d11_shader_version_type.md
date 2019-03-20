@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11shader.D3D11_SHADER_VERSION_TYPE
-title: D3D11_SHADER_VERSION_TYPE
+title: D3D11_SHADER_VERSION_TYPE (d3d11shader.h)
 author: windows-sdk-content
 description: Indicates shader type.
 old-location: direct3d11\d3d11_shader_version_type.htm

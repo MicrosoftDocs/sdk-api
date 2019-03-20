@@ -1,6 +1,6 @@
 ---
 UID: NN:medparam.IMediaParams
-title: IMediaParams
+title: IMediaParams (medparam.h)
 author: windows-sdk-content
 description: The IMediaParams interface sets and retrieves envelope-following parameters on an object.
 old-location: dshow\imediaparams.htm

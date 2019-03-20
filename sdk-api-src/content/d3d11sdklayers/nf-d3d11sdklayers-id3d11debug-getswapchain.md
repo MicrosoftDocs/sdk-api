@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11Debug.GetSwapChain
-title: ID3D11Debug::GetSwapChain
+title: ID3D11Debug::GetSwapChain (d3d11sdklayers.h)
 author: windows-sdk-content
 description: Get the swap chain that the runtime will use for automatically calling IDXGISwapChain::Present.
 old-location: direct3d11\id3d11debug_getswapchain.htm

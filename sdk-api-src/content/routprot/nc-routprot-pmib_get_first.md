@@ -1,6 +1,6 @@
 ---
 UID: NC:routprot.PMIB_GET_FIRST
-title: PMIB_GET_FIRST
+title: PMIB_GET_FIRST (routprot.h)
 author: windows-sdk-content
 description: The MibGetFirst function passes a SNMP MIB-style Get First Request to the routing protocol.
 old-location: rras\mibgetfirst.htm

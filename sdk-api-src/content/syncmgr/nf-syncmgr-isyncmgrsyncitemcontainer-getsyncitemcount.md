@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItemContainer.GetSyncItemCount
-title: ISyncMgrSyncItemContainer::GetSyncItemCount
+title: ISyncMgrSyncItemContainer::GetSyncItemCount (syncmgr.h)
 author: windows-sdk-content
 description: Gets a count of the sync items in the container.
 old-location: shell\ISyncMgrSyncItemContainer_GetSyncItemCount.htm

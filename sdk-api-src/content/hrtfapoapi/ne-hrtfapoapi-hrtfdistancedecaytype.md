@@ -1,6 +1,6 @@
 ---
 UID: NE:hrtfapoapi.HrtfDistanceDecayType
-title: HrtfDistanceDecayType
+title: HrtfDistanceDecayType (hrtfapoapi.h)
 author: windows-sdk-content
 description: Indicates a distance-based decay type applied to a sound.
 old-location: xaudio2\hrtfdistancedecaytype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IObjectIds.Add
-title: IObjectIds::Add
+title: IObjectIds::Add (certenroll.h)
 author: windows-sdk-content
 description: Adds an IObjectId object to the collection.
 old-location: security\iobjectids_add_method.htm

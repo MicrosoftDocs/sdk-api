@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._SP_CLASSIMAGELIST_DATA
-title: SP_CLASSIMAGELIST_DATA
+title: SP_CLASSIMAGELIST_DATA (setupapi.h)
 author: windows-sdk-content
 description: An SP_CLASSIMAGELIST_DATA structure describes a class image list.
 old-location: devinst\sp_classimagelist_data.htm

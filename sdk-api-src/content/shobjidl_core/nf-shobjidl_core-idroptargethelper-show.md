@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDropTargetHelper.Show
-title: IDropTargetHelper::Show
+title: IDropTargetHelper::Show (shobjidl_core.h)
 author: windows-sdk-content
 description: Notifies the drag-image manager to show or hide the drag image.
 old-location: shell\IDropTargetHelper_Show.htm

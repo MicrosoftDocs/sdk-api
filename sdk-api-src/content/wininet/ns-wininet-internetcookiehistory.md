@@ -1,6 +1,6 @@
 ---
 UID: NS:wininet.__unnamed_struct_15
-title: InternetCookieHistory
+title: InternetCookieHistory (wininet.h)
 author: windows-sdk-content
 description: The InternetCookieHistory structure contains the cookie history.
 old-location: wininet\internetcookiehistory.htm

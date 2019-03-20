@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlDropHandler.OnDragOver
-title: INameSpaceTreeControlDropHandler::OnDragOver
+title: INameSpaceTreeControlDropHandler::OnDragOver (shobjidl.h)
 author: windows-sdk-content
 description: Called on drag over to set drag effect, as specified.
 old-location: shell\INameSpaceTreeControlDropHandler_OnDragOver.htm

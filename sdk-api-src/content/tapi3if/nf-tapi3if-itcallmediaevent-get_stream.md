@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallMediaEvent.get_Stream
-title: ITCallMediaEvent::get_Stream
+title: ITCallMediaEvent::get_Stream (tapi3if.h)
 author: windows-sdk-content
 description: The get_Stream method gets a pointer to the ITStream interface associated with the call media event.
 old-location: tapi3\itcallmediaevent_get_stream.htm

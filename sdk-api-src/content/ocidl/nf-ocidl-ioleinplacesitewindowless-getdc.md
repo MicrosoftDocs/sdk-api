@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.GetDC
-title: IOleInPlaceSiteWindowless::GetDC
+title: IOleInPlaceSiteWindowless::GetDC (ocidl.h)
 author: windows-sdk-content
 description: Provides an object with a handle to a device context for a screen or compatible device from its container.
 old-location: com\ioleinplacesitewindowless_getdc.htm

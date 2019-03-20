@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.SetSchemaHiveLocation
-title: ITargetInfo::SetSchemaHiveLocation
+title: ITargetInfo::SetSchemaHiveLocation (wcmconfig.h)
 author: windows-sdk-content
 description: Sets the location of the schema hive.
 old-location: smi\itargetinfo_setschemahivelocation.htm

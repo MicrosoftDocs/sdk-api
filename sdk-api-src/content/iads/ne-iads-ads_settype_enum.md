@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0078_0001
-title: ADS_SETTYPE_ENUM
+title: ADS_SETTYPE_ENUM (iads.h)
 author: windows-sdk-content
 description: The ADS_SETTYPE_ENUM enumeration specifies the available pathname format used by the IADsPathname::Set method.
 old-location: adsi\ads_settype_enum.htm

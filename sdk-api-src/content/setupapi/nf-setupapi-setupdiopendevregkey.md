@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiOpenDevRegKey
-title: SetupDiOpenDevRegKey function
+title: SetupDiOpenDevRegKey function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiOpenDevRegKey function opens a registry key for device-specific configuration information.
 old-location: devinst\setupdiopendevregkey.htm

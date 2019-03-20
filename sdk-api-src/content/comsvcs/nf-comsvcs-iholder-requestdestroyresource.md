@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IHolder.RequestDestroyResource
-title: IHolder::RequestDestroyResource
+title: IHolder::RequestDestroyResource (comsvcs.h)
 author: windows-sdk-content
 description: Deletes a resource, calling its destructor to free memory and other associated system resources.
 old-location: cos\iholder_requestdestroyresource.htm

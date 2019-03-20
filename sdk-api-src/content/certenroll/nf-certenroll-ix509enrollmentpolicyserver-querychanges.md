@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.QueryChanges
-title: IX509EnrollmentPolicyServer::QueryChanges
+title: IX509EnrollmentPolicyServer::QueryChanges (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a value that specifies whether the template or certification authority collections have changed in Active Directory.
 old-location: security\ix509enrollmentpolicyserver_querychanges.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbGenericNotifySink.GetWaitTimeout
-title: ITsSbGenericNotifySink::GetWaitTimeout
+title: ITsSbGenericNotifySink::GetWaitTimeout (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves the wait timeout.
 old-location: termserv\itssbgenericnotifysink_getwaittimeout.htm

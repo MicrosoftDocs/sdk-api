@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMSG_STREAM_INFO
-title: CMSG_STREAM_INFO
+title: CMSG_STREAM_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Used to enable stream processing of data rather than single block processing.
 old-location: security\cmsg_stream_info.htm

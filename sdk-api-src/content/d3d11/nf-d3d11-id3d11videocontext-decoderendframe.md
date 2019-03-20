@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.DecoderEndFrame
-title: ID3D11VideoContext::DecoderEndFrame
+title: ID3D11VideoContext::DecoderEndFrame (d3d11.h)
 author: windows-sdk-content
 description: Signals the end of a decoding operation.
 old-location: mf\id3d11videocontext_decoderendframe.htm

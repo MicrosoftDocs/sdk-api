@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.GetGroupSubsetCount
-title: IFolderView2::GetGroupSubsetCount
+title: IFolderView2::GetGroupSubsetCount (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the count of visible rows displayed for a group's subset.
 old-location: shell\IFolderView2_GetGroupSubsetCount.htm

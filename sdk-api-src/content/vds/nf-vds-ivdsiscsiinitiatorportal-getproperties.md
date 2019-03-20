@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsIscsiInitiatorPortal.GetProperties
-title: IVdsIscsiInitiatorPortal::GetProperties
+title: IVdsIscsiInitiatorPortal::GetProperties (vds.h)
 author: windows-sdk-content
 description: Returns the properties of an initiator portal.
 old-location: base\ivdsiscsiinitiatorportal_getproperties.htm

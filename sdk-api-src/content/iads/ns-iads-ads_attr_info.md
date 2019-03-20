@@ -1,6 +1,6 @@
 ---
 UID: NS:iads._ads_attr_info
-title: ADS_ATTR_INFO
+title: ADS_ATTR_INFO (iads.h)
 author: windows-sdk-content
 description: Used to contain one or more attribute values for use with the IDirectoryObject::CreateDSObject, IDirectoryObject::GetObjectAttributes, or IDirectoryObject::SetObjectAttributes method.
 old-location: adsi\ads_attr_info.htm

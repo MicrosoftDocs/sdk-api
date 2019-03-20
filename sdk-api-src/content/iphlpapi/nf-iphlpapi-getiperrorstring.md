@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.GetIpErrorString
-title: GetIpErrorString function
+title: GetIpErrorString function (iphlpapi.h)
 author: windows-sdk-content
 description: The GetIpErrorString function retrieves an IP Helper error string.
 old-location: iphlp\getiperrorstring.htm

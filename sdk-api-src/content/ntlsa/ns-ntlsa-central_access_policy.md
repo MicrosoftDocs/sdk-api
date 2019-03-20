@@ -1,6 +1,6 @@
 ---
 UID: NS:ntlsa._CENTRAL_ACCESS_POLICY
-title: CENTRAL_ACCESS_POLICY
+title: CENTRAL_ACCESS_POLICY (ntlsa.h)
 author: windows-sdk-content
 description: Represents a central access policy that contains a set of central access policy entries.
 old-location: security\central_access_policy.htm

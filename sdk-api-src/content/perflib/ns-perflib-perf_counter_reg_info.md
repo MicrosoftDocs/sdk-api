@@ -1,6 +1,6 @@
 ---
 UID: NS:perflib._PERF_COUNTER_REG_INFO
-title: PERF_COUNTER_REG_INFO
+title: PERF_COUNTER_REG_INFO (perflib.h)
 author: windows-sdk-content
 description: Provides registration information about a performance counter.
 old-location: perf\perf_counter_reg_info.htm

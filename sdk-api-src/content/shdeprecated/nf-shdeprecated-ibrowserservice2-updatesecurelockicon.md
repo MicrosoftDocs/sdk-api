@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.UpdateSecureLockIcon
-title: IBrowserService2::UpdateSecureLockIcon
+title: IBrowserService2::UpdateSecureLockIcon (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Updates the value of the _eSecureLockIcon member of the BASEBROWSERDATA structure, which tracks the icon indicating a secure site, as well as updating the icon itself in the UI.
 old-location: shell\IBrowserService2_UpdateSecureLockIcon.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mfidl._MFT_REGISTRATION_INFO
-title: MFT_REGISTRATION_INFO
+title: MFT_REGISTRATION_INFO (mfidl.h)
 author: windows-sdk-content
 description: Contains parameters for the IMFLocalMFTRegistration::RegisterMFTs method.
 old-location: mf\mft_registration_info.htm

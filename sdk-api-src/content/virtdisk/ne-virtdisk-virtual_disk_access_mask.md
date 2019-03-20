@@ -1,6 +1,6 @@
 ---
 UID: NE:virtdisk._VIRTUAL_DISK_ACCESS_MASK
-title: VIRTUAL_DISK_ACCESS_MASK
+title: VIRTUAL_DISK_ACCESS_MASK (virtdisk.h)
 author: windows-sdk-content
 description: Contains the bitmask for specifying access rights to a virtual hard disk (VHD) or CD or DVD image file (ISO).
 old-location: vhd\virtual_disk_access_mask.htm

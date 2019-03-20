@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMSitesContainer.GetSite
-title: IGPMSitesContainer::GetSite
+title: IGPMSitesContainer::GetSite (gpmgmt.h)
 author: windows-sdk-content
 description: Returns the scope of management (SOM) object that corresponds to the site.
 old-location: gpmc\igpmsitescontainer_getsite.htm

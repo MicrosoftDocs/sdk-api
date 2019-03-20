@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccess.get_Entitlement
-title: IBDA_ConditionalAccess::get_Entitlement
+title: IBDA_ConditionalAccess::get_Entitlement (bdaiface.h)
 author: windows-sdk-content
 description: The get_Entitlement method retrieves the entitlement type for a virtual channel.
 old-location: mstv\ibda_conditionalaccess_get_entitlement.htm

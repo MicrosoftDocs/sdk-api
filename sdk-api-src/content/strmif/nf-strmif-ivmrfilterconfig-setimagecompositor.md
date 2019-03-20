@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRFilterConfig.SetImageCompositor
-title: IVMRFilterConfig::SetImageCompositor
+title: IVMRFilterConfig::SetImageCompositor (strmif.h)
 author: windows-sdk-content
 description: The SetImageCompositor method installs an application-provided image compositor.
 old-location: dshow\ivmrfilterconfig_setimagecompositor.htm

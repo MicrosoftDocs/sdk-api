@@ -1,6 +1,6 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingThreadActivity.TraceLoggingThreadActivity(TraceLoggingThreadActivity &&)
-title: TraceLoggingThreadActivity::TraceLoggingThreadActivity(TraceLoggingThreadActivity &&)
+title: TraceLoggingThreadActivity::TraceLoggingThreadActivity(TraceLoggingThreadActivity &&) (traceloggingactivity.h)
 author: windows-sdk-content
 description: Initializes a new instance of the TraceLoggingThreadActivity class.
 old-location: tracelogging\traceloggingthreadactivity_traceloggingthreadactivity.htm

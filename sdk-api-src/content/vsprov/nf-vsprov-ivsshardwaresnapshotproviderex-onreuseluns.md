@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssHardwareSnapshotProviderEx.OnReuseLuns
-title: IVssHardwareSnapshotProviderEx::OnReuseLuns
+title: IVssHardwareSnapshotProviderEx::OnReuseLuns (vsprov.h)
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: base\ivsshardwaresnapshotproviderex_onreuseluns.htm

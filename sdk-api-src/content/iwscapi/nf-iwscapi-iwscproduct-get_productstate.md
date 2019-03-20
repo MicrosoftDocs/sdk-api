@@ -1,6 +1,6 @@
 ---
 UID: NF:iwscapi.IWscProduct.get_ProductState
-title: IWscProduct::get_ProductState
+title: IWscProduct::get_ProductState (iwscapi.h)
 author: windows-sdk-content
 description: Returns the current state of the signature data for the security product.
 old-location: winprog\iwscproduct_productstate.htm

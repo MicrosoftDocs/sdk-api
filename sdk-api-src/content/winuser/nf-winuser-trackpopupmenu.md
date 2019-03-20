@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.TrackPopupMenu
-title: TrackPopupMenu function
+title: TrackPopupMenu function (winuser.h)
 author: windows-sdk-content
 description: Displays a shortcut menu at the specified location and tracks the selection of items on the menu. The shortcut menu can appear anywhere on the screen.
 old-location: menurc\trackpopupmenu.htm

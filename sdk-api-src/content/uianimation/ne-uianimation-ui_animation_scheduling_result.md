@@ -1,6 +1,6 @@
 ---
 UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0002_0002
-title: UI_ANIMATION_SCHEDULING_RESULT
+title: UI_ANIMATION_SCHEDULING_RESULT (uianimation.h)
 author: windows-sdk-content
 description: Defines results for storyboard scheduling.
 old-location: uianimation\ui_animation_scheduling_result.htm

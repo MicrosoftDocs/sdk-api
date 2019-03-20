@@ -1,6 +1,6 @@
 ---
 UID: NC:wingdi.LINEDDAPROC
-title: LINEDDAPROC
+title: LINEDDAPROC (wingdi.h)
 author: windows-sdk-content
 description: The LineDDAProc function is an application-defined callback function used with the LineDDA function.
 old-location: gdi\lineddaproc.htm

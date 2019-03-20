@@ -1,6 +1,6 @@
 ---
 UID: NN:comcat.ICatRegister
-title: ICatRegister
+title: ICatRegister (comcat.h)
 author: windows-sdk-content
 description: Provides methods for registering and unregistering component category information in the registry. This includes both the human-readable names of categories and the categories implemented/required by a given component or class.
 old-location: com\icatregister.htm

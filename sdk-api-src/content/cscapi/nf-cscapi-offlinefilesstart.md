@@ -1,6 +1,6 @@
 ---
 UID: NF:cscapi.OfflineFilesStart
-title: OfflineFilesStart function
+title: OfflineFilesStart function (cscapi.h)
 author: windows-sdk-content
 description: Starts the Offline Files service.
 old-location: of\offlinefilesstart.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Serializer_SerializeInstance
-title: MI_Serializer_SerializeInstance function
+title: MI_Serializer_SerializeInstance function (mi.h)
 author: windows-sdk-content
 description: Serializes an MI_Instance into a buffer in the format specified when the serializer was created. Options can be passed into the flags to control if the class is also serialized into the buffer as well as the instance.
 old-location: wmi_v2\mi_serializer_serializeinstance.htm

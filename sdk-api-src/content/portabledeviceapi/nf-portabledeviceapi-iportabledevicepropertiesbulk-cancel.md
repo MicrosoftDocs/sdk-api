@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevicePropertiesBulk.Cancel
-title: IPortableDevicePropertiesBulk::Cancel
+title: IPortableDevicePropertiesBulk::Cancel (portabledeviceapi.h)
 author: windows-sdk-content
 description: The Cancel method cancels a pending properties request.
 old-location: wpdsdk\iportabledevicepropertiesbulk_cancel.htm

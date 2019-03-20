@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMWMIFilterCollection.get_Count
-title: IGPMWMIFilterCollection::get_Count
+title: IGPMWMIFilterCollection::get_Count (gpmgmt.h)
 author: windows-sdk-content
 description: Returns the number of WMI filters in the collection.
 old-location: gpmc\igpmwmifiltercollection_get_count.htm

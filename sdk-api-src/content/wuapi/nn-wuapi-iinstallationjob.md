@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IInstallationJob
-title: IInstallationJob
+title: IInstallationJob (wuapi.h)
 author: windows-sdk-content
 description: Contains properties and methods that are available to an installation or uninstallation operation.
 old-location: wua\iinstallationjob.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:magnification.MagShowSystemCursor
-title: MagShowSystemCursor function
+title: MagShowSystemCursor function (magnification.h)
 author: windows-sdk-content
 description: Shows or hides the system cursor.
 old-location: magapi\magapi_magshowsystemcursor.htm

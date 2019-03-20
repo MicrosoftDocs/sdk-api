@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMPushSource.SetPushSourceFlags
-title: IAMPushSource::SetPushSourceFlags
+title: IAMPushSource::SetPushSourceFlags (strmif.h)
 author: windows-sdk-content
 description: The SetPushSourceFlags method sets flags that specify the behavior of the filter. Currently, applications should not call this method, because request flags are not supported and an application should not override the flags set by the filter.
 old-location: dshow\iampushsource_setpushsourceflags.htm

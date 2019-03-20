@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.IActiveDesktopP.SetSafeMode
-title: IActiveDesktopP::SetSafeMode
+title: IActiveDesktopP::SetSafeMode (shlobj.h)
 author: windows-sdk-content
 description: Sets or updates the Microsoft Active Desktop to safe mode.
 old-location: lwef\iactivedesktopp_setsafemode.htm

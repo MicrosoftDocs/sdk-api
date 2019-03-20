@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents3.TransparentCacheItemNotify
-title: IOfflineFilesEvents3::TransparentCacheItemNotify
+title: IOfflineFilesEvents3::TransparentCacheItemNotify (cscobj.h)
 author: windows-sdk-content
 description: Reports that an action has been performed on a transparently cached item.
 old-location: of\iofflinefilesevents3_transparentcacheitemnotify.htm

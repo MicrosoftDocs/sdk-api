@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRMixerControl.SetBackgroundClr
-title: IVMRMixerControl::SetBackgroundClr
+title: IVMRMixerControl::SetBackgroundClr (strmif.h)
 author: windows-sdk-content
 description: Sets the background color on the output rectangle.
 old-location: dshow\ivmrmixercontrol_setbackgroundclr.htm

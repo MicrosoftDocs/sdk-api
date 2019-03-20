@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_COMMAND_QUEUE_PRIORITY
-title: D3D12_FEATURE_DATA_COMMAND_QUEUE_PRIORITY
+title: D3D12_FEATURE_DATA_COMMAND_QUEUE_PRIORITY (d3d12.h)
 author: windows-sdk-content
 description: Details the adapter's support for prioritization of different command queue types.
 old-location: direct3d12\d3d12_feature_data_command_queue_priority.htm

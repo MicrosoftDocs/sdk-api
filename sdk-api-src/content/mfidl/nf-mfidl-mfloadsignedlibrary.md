@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFLoadSignedLibrary
-title: MFLoadSignedLibrary function
+title: MFLoadSignedLibrary function (mfidl.h)
 author: windows-sdk-content
 description: Loads a dynamic link library that is signed for the protected environment.
 old-location: mf\mfloadsignedlibrary.htm

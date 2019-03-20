@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsServiceUninstallDisk.GetDiskIdFromLunInfo
-title: IVdsServiceUninstallDisk::GetDiskIdFromLunInfo
+title: IVdsServiceUninstallDisk::GetDiskIdFromLunInfo (vds.h)
 author: windows-sdk-content
 description: Retrieves the VDS object ID for the disk that corresponds to a specified LUN.
 old-location: base\ivdsserviceuninstalldisk_getdiskidfromluninfo.htm

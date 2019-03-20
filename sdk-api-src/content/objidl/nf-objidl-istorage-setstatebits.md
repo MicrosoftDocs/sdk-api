@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStorage.SetStateBits
-title: IStorage::SetStateBits
+title: IStorage::SetStateBits (objidl.h)
 author: windows-sdk-content
 description: The SetStateBits method stores up to 32 bits of state information in this storage object.
 old-location: stg\istorage_setstatebits.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpGetSubnetInfoVQ
-title: DhcpGetSubnetInfoVQ function
+title: DhcpGetSubnetInfoVQ function (dhcpsapi.h)
 author: windows-sdk-content
 description: Retrieves the information about a specific IPv4 subnet defined on the DHCP server.
 old-location: dhcp\dhcpgetsubnetinfovq.htm

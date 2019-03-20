@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IObjPool.PutEndTx
-title: IObjPool::PutEndTx
+title: IObjPool::PutEndTx (comsvcs.h)
 author: windows-sdk-content
 description: Destroys the pooled object when the transaction ends.
 old-location: cos\iobjpool_putendtx.htm

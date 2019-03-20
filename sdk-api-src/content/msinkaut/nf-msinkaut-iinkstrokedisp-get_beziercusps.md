@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_BezierCusps
-title: IInkStrokeDisp::get_BezierCusps
+title: IInkStrokeDisp::get_BezierCusps (msinkaut.h)
 author: windows-sdk-content
 description: Gets an array that contains the indices of the cusps of the Bezier approximation of the stroke.
 old-location: tablet\iinkstrokedisp_beziercusps.htm

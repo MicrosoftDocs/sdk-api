@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CreateDialogIndirectW
-title: CreateDialogIndirectW macro
+title: CreateDialogIndirectW macro (winuser.h)
 author: windows-sdk-content
 description: Creates a modeless dialog box from a dialog box template in memory. The CreateDialogIndirect macro uses the CreateDialogIndirectParam function.
 old-location: dlgbox\createdialogindirect.htm

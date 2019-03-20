@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupGetBinaryField
-title: SetupGetBinaryField function
+title: SetupGetBinaryField function (setupapi.h)
 author: windows-sdk-content
 description: The SetupGetBinaryField function retrieves binary data from a line in an INF file section, from the specified field to the end of the line.
 old-location: setup\setupgetbinaryfield.htm

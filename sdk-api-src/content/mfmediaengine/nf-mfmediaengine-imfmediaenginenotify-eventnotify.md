@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineNotify.EventNotify
-title: IMFMediaEngineNotify::EventNotify
+title: IMFMediaEngineNotify::EventNotify (mfmediaengine.h)
 author: windows-sdk-content
 description: Notifies the application when a playback event occurs.
 old-location: mf\imfmediaenginenotify_eventnotify.htm

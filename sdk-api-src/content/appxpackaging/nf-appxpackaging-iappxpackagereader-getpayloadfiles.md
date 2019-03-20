@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxPackageReader.GetPayloadFiles
-title: IAppxPackageReader::GetPayloadFiles
+title: IAppxPackageReader::GetPayloadFiles (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves an enumerator that iterates through the payload files in the package.
 old-location: appxpkg\iappxpackagereader_getpayloadfiles.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsatcominterfacei.IProvideWinSATResultsInfo.get_RatingStateDesc
-title: IProvideWinSATResultsInfo::get_RatingStateDesc
+title: IProvideWinSATResultsInfo::get_RatingStateDesc (winsatcominterfacei.h)
 author: windows-sdk-content
 description: Retrieves a string that you can use in a UI to indicate whether the assessment is valid.
 old-location: winsat\iprovidewinsatresultsinfo_ratingstatedesc.htm

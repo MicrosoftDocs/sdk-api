@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLUnloadApplicationPolicies
-title: SLUnloadApplicationPolicies function
+title: SLUnloadApplicationPolicies function (slpublic.h)
 author: windows-sdk-content
 description: Releases the policy context handle returned by the SLLoadApplicationPolicies function.
 old-location: security\slunloadapplicationpolicies.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:dcommon.D2D1_ALPHA_MODE
-title: D2D1_ALPHA_MODE
+title: D2D1_ALPHA_MODE (dcommon.h)
 author: windows-sdk-content
 description: Specifies how the alpha value of a bitmap or render target should be treated.
 old-location: direct2d\D2D1_ALPHA_MODE.htm

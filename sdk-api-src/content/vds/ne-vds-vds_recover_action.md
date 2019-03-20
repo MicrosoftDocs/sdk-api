@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_RECOVER_ACTION
-title: VDS_RECOVER_ACTION
+title: VDS_RECOVER_ACTION (vds.h)
 author: windows-sdk-content
 description: This enumeration is reserved for system use.
 old-location: base\vds_recover_action.htm

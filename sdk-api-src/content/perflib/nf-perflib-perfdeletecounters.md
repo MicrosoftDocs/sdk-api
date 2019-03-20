@@ -1,6 +1,6 @@
 ---
 UID: NF:perflib.PerfDeleteCounters
-title: PerfDeleteCounters function
+title: PerfDeleteCounters function (perflib.h)
 author: windows-sdk-content
 description: Removes the specified performance counter specifications from the specified query.
 old-location: perf\perfdeletecounters.htm

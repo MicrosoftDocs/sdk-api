@@ -1,6 +1,6 @@
 ---
 UID: NN:dskquota.IDiskQuotaEvents
-title: IDiskQuotaEvents
+title: IDiskQuotaEvents (dskquota.h)
 author: windows-sdk-content
 description: Receives quota-related event notifications.
 old-location: fs\idiskquotaevents.htm

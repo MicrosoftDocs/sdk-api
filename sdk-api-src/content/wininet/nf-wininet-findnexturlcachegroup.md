@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.FindNextUrlCacheGroup
-title: FindNextUrlCacheGroup function
+title: FindNextUrlCacheGroup function (wininet.h)
 author: windows-sdk-content
 description: Retrieves the next cache group in a cache group enumeration started by FindFirstUrlCacheGroup.
 old-location: wininet\findnexturlcachegroup.htm

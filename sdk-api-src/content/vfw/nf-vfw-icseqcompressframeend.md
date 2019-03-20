@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.ICSeqCompressFrameEnd
-title: ICSeqCompressFrameEnd function
+title: ICSeqCompressFrameEnd function (vfw.h)
 author: windows-sdk-content
 description: The ICSeqCompressFrameEnd function ends sequence compression that was initiated by using the ICSeqCompressFrameStart and ICSeqCompressFrame functions.
 old-location: multimedia\icseqcompressframeend.htm

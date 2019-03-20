@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateMatrixTransform
-title: IDCompositionDevice::CreateMatrixTransform
+title: IDCompositionDevice::CreateMatrixTransform (dcomp.h)
 author: windows-sdk-content
 description: Creates a 2D 3-by-2 matrix transform object.
 old-location: directcomp\idcompositiondevice_creatematrixtransform.htm

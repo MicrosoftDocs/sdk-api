@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_TEMPERATURE_DATA_DESCRIPTOR
-title: STORAGE_TEMPERATURE_DATA_DESCRIPTOR
+title: STORAGE_TEMPERATURE_DATA_DESCRIPTOR (winioctl.h)
 author: windows-sdk-content
 description: This structure is used in conjunction with IOCTL_STORAGE_QUERY_PROPERTY to return temperature data from a storage device or adapter.
 old-location: fs\storage_temperature_data_descriptor.htm

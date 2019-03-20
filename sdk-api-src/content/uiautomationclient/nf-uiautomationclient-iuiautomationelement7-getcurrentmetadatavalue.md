@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement7.GetCurrentMetadataValue
-title: IUIAutomationElement7::GetCurrentMetadataValue
+title: IUIAutomationElement7::GetCurrentMetadataValue (uiautomationclient.h)
 author: windows-sdk-content
 description: Gets metadata from the UI Automation element that indicates how the information should be interpreted.
 old-location: winauto\uiauto_IUIAutomationElement7_GetCurrentMetadataValue.htm

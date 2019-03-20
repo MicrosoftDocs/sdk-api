@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFInitMediaTypeFromAMMediaType
-title: MFInitMediaTypeFromAMMediaType function
+title: MFInitMediaTypeFromAMMediaType function (mfapi.h)
 author: windows-sdk-content
 description: Initializes a media type from a DirectShow AM_MEDIA_TYPE structure.
 old-location: mf\mfinitmediatypefromammediatype.htm

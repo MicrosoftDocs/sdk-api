@@ -1,6 +1,6 @@
 ---
 UID: NS:ntmsapi._NTMS_ALLOCATION_INFORMATION
-title: NTMS_ALLOCATION_INFORMATION
+title: NTMS_ALLOCATION_INFORMATION (ntmsapi.h)
 author: windows-sdk-content
 description: The NTMS_ALLOCATION_INFORMATION structure contains information about the source media pool from which a medium was taken.
 old-location: fs\ntms_allocation_information.htm

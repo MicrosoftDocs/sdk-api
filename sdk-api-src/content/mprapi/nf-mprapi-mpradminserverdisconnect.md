@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminServerDisconnect
-title: MprAdminServerDisconnect function
+title: MprAdminServerDisconnect function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminServerDisconnect function disconnects the connection made by a previous call to MprAdminServerConnect.
 old-location: rras\mpradminserverdisconnect.htm

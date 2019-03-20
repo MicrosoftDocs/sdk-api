@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IEnumObjects.Skip
-title: IEnumObjects::Skip
+title: IEnumObjects::Skip (shobjidl_core.h)
 author: windows-sdk-content
 description: Skips a specified number of objects.
 old-location: shell\IEnumObjects_Skip.htm

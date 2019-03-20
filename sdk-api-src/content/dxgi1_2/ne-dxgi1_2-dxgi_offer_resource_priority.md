@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgi1_2._DXGI_OFFER_RESOURCE_PRIORITY
-title: DXGI_OFFER_RESOURCE_PRIORITY
+title: DXGI_OFFER_RESOURCE_PRIORITY (dxgi1_2.h)
 author: windows-sdk-content
 description: Identifies the importance of a resource’s content when you call the IDXGIDevice2::OfferResources method to offer the resource.
 old-location: direct3ddxgi\_dxgi_offer_resource_priority.htm

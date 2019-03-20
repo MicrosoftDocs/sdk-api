@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IServiceSysTxnConfig
-title: IServiceSysTxnConfig
+title: IServiceSysTxnConfig (comsvcs.h)
 author: windows-sdk-content
 description: Enables you to run a set of code in the scope of an existing transaction that you specify with a transaction proxy.
 old-location: cos\iservicesystxnconfig.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComObjectPoolEvents2.OnObjPoolDestroyObject
-title: IComObjectPoolEvents2::OnObjPoolDestroyObject
+title: IComObjectPoolEvents2::OnObjPoolDestroyObject (comsvcs.h)
 author: windows-sdk-content
 description: Generated when an object is permanently removed from the pool.
 old-location: cos\icomobjectpoolevents2_onobjpooldestroyobject.htm

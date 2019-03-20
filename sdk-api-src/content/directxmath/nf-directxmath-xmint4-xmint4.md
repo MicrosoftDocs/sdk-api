@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMINT4.XMINT4
-title: XMINT4::XMINT4
+title: XMINT4::XMINT4 (directxmath.h)
 author: windows-sdk-content
 description: Default constructor for XMINT4.
 old-location: dxmath\xmint4_ctor_1.htm

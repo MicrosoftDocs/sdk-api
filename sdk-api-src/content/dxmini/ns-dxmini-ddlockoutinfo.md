@@ -1,6 +1,6 @@
 ---
 UID: NS:dxmini._DDLOCKOUTINFO
-title: DDLOCKOUTINFO
+title: DDLOCKOUTINFO (dxmini.h)
 author: windows-sdk-content
 description: The DDLOCKOUTINFO structure contains the surface information output from the DxLock function.
 old-location: display\ddlockoutinfo.htm

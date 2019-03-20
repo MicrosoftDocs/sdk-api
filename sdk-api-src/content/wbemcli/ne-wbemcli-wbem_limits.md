@@ -1,6 +1,6 @@
 ---
 UID: NE:wbemcli.tag_WBEM_LIMITS
-title: WBEM_LIMITS
+title: WBEM_LIMITS (wbemcli.h)
 author: windows-sdk-content
 description: Defines some limit values.
 old-location: wmi\wbem_limits.htm

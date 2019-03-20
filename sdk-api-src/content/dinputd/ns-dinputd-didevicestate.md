@@ -1,6 +1,6 @@
 ---
 UID: NS:dinputd.DIDEVICESTATE
-title: DIDEVICESTATE
+title: DIDEVICESTATE (dinputd.h)
 author: windows-sdk-content
 description: The DIDEVICESTATE structure returns information about the state of a force feedback device.
 old-location: hid\didevicestate.htm

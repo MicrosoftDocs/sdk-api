@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.SetDoubleStrike
-title: ITextFont2::SetDoubleStrike
+title: ITextFont2::SetDoubleStrike (tom.h)
 author: windows-sdk-content
 description: Sets whether characters are displayed with double horizontal lines through the center.
 old-location: controls\itextfont2_setdoublestrike.htm

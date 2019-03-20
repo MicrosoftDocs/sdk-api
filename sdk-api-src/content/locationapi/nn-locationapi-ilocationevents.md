@@ -1,6 +1,6 @@
 ---
 UID: NN:locationapi.ILocationEvents
-title: ILocationEvents
+title: ILocationEvents (locationapi.h)
 author: windows-sdk-content
 description: ILocationEvents provides callback methods that you must implement if you want to receive event notifications.
 old-location: winlocation\ilocationevents.htm

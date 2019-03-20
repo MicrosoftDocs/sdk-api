@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.GetViewProperty
-title: IFolderView2::GetViewProperty
+title: IFolderView2::GetViewProperty (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets a property value for a given property key from the view's cache.
 old-location: shell\IFolderView2_GetViewProperty.htm

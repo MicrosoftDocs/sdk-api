@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.GetMathProperties
-title: ITextDocument2::GetMathProperties
+title: ITextDocument2::GetMathProperties (tom.h)
 author: windows-sdk-content
 description: Gets the math properties for the document.
 old-location: controls\itextdocument2_getmathproperties.htm

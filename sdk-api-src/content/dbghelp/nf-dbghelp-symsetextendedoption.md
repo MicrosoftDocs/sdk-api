@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymSetExtendedOption
-title: SymSetExtendedOption function
+title: SymSetExtendedOption function (dbghelp.h)
 author: windows-sdk-content
 description: Turns the specified extended symbol option on or off.
 old-location: base\symsetextendedoption.htm

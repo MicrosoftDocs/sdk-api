@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrier.GetVisibleProviders
-title: IMbnMultiCarrier::GetVisibleProviders
+title: IMbnMultiCarrier::GetVisibleProviders (mbnapi.h)
 author: windows-sdk-content
 description: Gets the list of visible providers in the current area for a multi-carrier device minus preferred and registered providers.
 old-location: mbn\imbnmulticarrier_getvisibleproviders.htm

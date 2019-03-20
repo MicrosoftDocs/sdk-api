@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetAlertText
-title: ISCTE_EAS::GetAlertText
+title: ISCTE_EAS::GetAlertText (atscpsipparser.h)
 author: windows-sdk-content
 description: The GetAlertText method gets the alert text for a specified ISO 639 language code.
 old-location: mstv\iscte_eas_getalerttext.htm

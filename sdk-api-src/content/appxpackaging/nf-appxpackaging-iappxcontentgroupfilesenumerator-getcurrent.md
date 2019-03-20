@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxContentGroupFilesEnumerator.GetCurrent
-title: IAppxContentGroupFilesEnumerator::GetCurrent
+title: IAppxContentGroupFilesEnumerator::GetCurrent (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the file from the content group at the current position of the enumerator.
 old-location: appxpkg\iappxcontentgroupfilesenumerator__getcurrent.htm

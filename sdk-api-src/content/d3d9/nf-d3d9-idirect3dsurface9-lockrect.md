@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DSurface9.LockRect
-title: IDirect3DSurface9::LockRect
+title: IDirect3DSurface9::LockRect (d3d9.h)
 author: windows-sdk-content
 description: Locks a rectangle on a surface.
 old-location: direct3d9\idirect3dsurface9__lockrect.htm

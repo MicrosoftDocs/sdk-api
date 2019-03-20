@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.GetSelection
-title: IFolderView2::GetSelection
+title: IFolderView2::GetSelection (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the current selection as an IShellItemArray.
 old-location: shell\IFolderView2_GetSelection.htm

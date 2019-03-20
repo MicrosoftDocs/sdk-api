@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactProperties.SetBinary
-title: IContactProperties::SetBinary
+title: IContactProperties::SetBinary (icontact.h)
 author: windows-sdk-content
 description: Sets the binary data at a specified property to the contents of a specified IStream interface [Structured Storage], which contains a null-terminated string (as MIME type) data.
 old-location: wincontacts\_wincontacts_IContactProperties_SetBinary.htm

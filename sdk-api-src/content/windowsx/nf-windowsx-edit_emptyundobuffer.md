@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Edit_EmptyUndoBuffer
-title: Edit_EmptyUndoBuffer macro
+title: Edit_EmptyUndoBuffer macro (windowsx.h)
 author: windows-sdk-content
 description: Resets the undo flag of an edit or rich edit control. The undo flag is set whenever an operation within the edit control can be undone. You can use this macro or send the EM_EMPTYUNDOBUFFER message explicitly.
 old-location: controls\Edit_EmptyUndoBuffer.htm

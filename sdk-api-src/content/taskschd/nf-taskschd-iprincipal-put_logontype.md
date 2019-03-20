@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IPrincipal.put_LogonType
-title: IPrincipal::put_LogonType
+title: IPrincipal::put_LogonType (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the security logon method that is required to run the tasks that are associated with the principal.
 old-location: taskschd\iprincipal_logontype.htm

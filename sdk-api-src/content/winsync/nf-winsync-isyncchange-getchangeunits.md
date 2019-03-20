@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChange.GetChangeUnits
-title: ISyncChange::GetChangeUnits
+title: ISyncChange::GetChangeUnits (winsync.h)
 author: windows-sdk-content
 description: Gets an object that can enumerate change units that are contained in this change.
 old-location: winsync\isyncchange_getchangeunits.htm

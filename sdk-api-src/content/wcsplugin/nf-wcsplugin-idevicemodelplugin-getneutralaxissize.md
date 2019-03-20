@@ -1,6 +1,6 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.GetNeutralAxisSize
-title: IDeviceModelPlugIn::GetNeutralAxisSize
+title: IDeviceModelPlugIn::GetNeutralAxisSize (wcsplugin.h)
 author: windows-sdk-content
 description: The IDeviceModelPlugIn::GetNeutralAxisSize function returns the number of data points along the neutral axis that are returned by the GetNeutralAxis function.
 old-location: wcs\IDeviceModelPlugIn_GetNeutralAxisSize.htm

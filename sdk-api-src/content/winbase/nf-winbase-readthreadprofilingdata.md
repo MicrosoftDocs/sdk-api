@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.ReadThreadProfilingData
-title: ReadThreadProfilingData function
+title: ReadThreadProfilingData function (winbase.h)
 author: windows-sdk-content
 description: Reads the specified profiling data associated with the thread.
 old-location: hcp\readthreadprofilingdata.htm

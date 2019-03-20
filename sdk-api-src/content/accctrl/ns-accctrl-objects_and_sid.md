@@ -1,6 +1,6 @@
 ---
 UID: NS:accctrl._OBJECTS_AND_SID
-title: OBJECTS_AND_SID
+title: OBJECTS_AND_SID (accctrl.h)
 author: windows-sdk-content
 description: Contains a security identifier (SID) that identifies a trustee and GUIDs that identify the object types of an object-specific access control entry (ACE).
 old-location: security\objects_and_sid.htm

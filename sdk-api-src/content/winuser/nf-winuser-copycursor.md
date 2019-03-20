@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CopyCursor
-title: CopyCursor macro
+title: CopyCursor macro (winuser.h)
 author: windows-sdk-content
 description: Copies the specified cursor.
 old-location: menurc\copycursor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteBOOL
-title: PSPropertyBag_WriteBOOL function
+title: PSPropertyBag_WriteBOOL function (propsys.h)
 author: windows-sdk-content
 description: Sets the BOOL value of a property in a property bag.
 old-location: properties\PSPropertyBag_WriteBOOL.htm

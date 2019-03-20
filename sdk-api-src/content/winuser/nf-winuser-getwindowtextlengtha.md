@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetWindowTextLengthA
-title: GetWindowTextLengthA function
+title: GetWindowTextLengthA function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the length, in characters, of the specified window's title bar text (if the window has a title bar).
 old-location: winmsg\getwindowtextlength.htm

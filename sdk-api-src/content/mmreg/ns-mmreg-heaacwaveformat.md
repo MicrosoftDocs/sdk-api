@@ -1,6 +1,6 @@
 ---
 UID: NS:mmreg.heaacwaveformat_tag
-title: HEAACWAVEFORMAT
+title: HEAACWAVEFORMAT (mmreg.h)
 author: windows-sdk-content
 description: Contains format data for an AAC or HE-AAC stream that includes AudioSpecificConfig() data.
 old-location: dshow\heaacwaveformat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:shlobj_core.IProgressDialog
-title: IProgressDialog
+title: IProgressDialog (shlobj_core.h)
 author: windows-sdk-content
 description: Exposes methods that provide options for an application to display a progress dialog box.
 old-location: shell\IProgressDialog.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetWrap
-title: IMFTimedTextRegion::GetWrap
+title: IMFTimedTextRegion::GetWrap (mfmediaengine.h)
 author: windows-sdk-content
 description: Determines whether the word wrap feature is enabled in the region.
 old-location: mf\imftimedtextregion_getwrap.htm

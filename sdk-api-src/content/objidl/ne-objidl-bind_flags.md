@@ -1,6 +1,6 @@
 ---
 UID: NE:objidl.tagBIND_FLAGS
-title: BIND_FLAGS
+title: BIND_FLAGS (objidl.h)
 author: windows-sdk-content
 description: Controls aspects of moniker binding operations.
 old-location: com\bind_flags.htm

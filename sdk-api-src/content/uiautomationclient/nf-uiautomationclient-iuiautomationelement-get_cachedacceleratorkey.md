@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedAcceleratorKey
-title: IUIAutomationElement::get_CachedAcceleratorKey
+title: IUIAutomationElement::get_CachedAcceleratorKey (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached accelerator key for the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedAcceleratorKey.htm

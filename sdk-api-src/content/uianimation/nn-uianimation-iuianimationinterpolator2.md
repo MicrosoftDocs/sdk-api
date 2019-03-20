@@ -1,6 +1,6 @@
 ---
 UID: NN:uianimation.IUIAnimationInterpolator2
-title: IUIAnimationInterpolator2
+title: IUIAnimationInterpolator2 (uianimation.h)
 author: windows-sdk-content
 description: Extends the IUIAnimationInterpolator interface that defines methods for creating a custom interpolator. IUIAnimationInterpolator2 supports interpolation in a given dimension.
 old-location: uianimation\iuianimationinterpolator2.htm

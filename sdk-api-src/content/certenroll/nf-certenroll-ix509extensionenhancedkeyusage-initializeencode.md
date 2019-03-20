@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionEnhancedKeyUsage.InitializeEncode
-title: IX509ExtensionEnhancedKeyUsage::InitializeEncode
+title: IX509ExtensionEnhancedKeyUsage::InitializeEncode (certenroll.h)
 author: windows-sdk-content
 description: Initializes the extension from a collection of IObjectId object identifiers (OIDs) that specify the intended uses of the public key.
 old-location: security\ix509extensionenhancedkeyusage_initializeencode_method.htm

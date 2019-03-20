@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.ToUnicode
-title: ToUnicode function
+title: ToUnicode function (winuser.h)
 author: windows-sdk-content
 description: Translates the specified virtual-key code and keyboard state to the corresponding Unicode character or characters.
 old-location: inputdev\tounicode.htm

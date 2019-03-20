@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace4.ReleaseGlyphImageData
-title: IDWriteFontFace4::ReleaseGlyphImageData
+title: IDWriteFontFace4::ReleaseGlyphImageData (dwrite_3.h)
 author: windows-sdk-content
 description: Releases the table data obtained from ReadGlyphData.
 old-location: directwrite\idwritefontface4_releaseglyphimagedata.htm

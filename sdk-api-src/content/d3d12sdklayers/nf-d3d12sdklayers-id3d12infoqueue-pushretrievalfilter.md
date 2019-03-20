@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.PushRetrievalFilter
-title: ID3D12InfoQueue::PushRetrievalFilter
+title: ID3D12InfoQueue::PushRetrievalFilter (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Push a retrieval filter onto the retrieval-filter stack.
 old-location: direct3d12\id3d12infoqueue_pushretrievalfilter.htm

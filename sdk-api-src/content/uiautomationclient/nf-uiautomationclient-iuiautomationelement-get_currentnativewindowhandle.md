@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentNativeWindowHandle
-title: IUIAutomationElement::get_CurrentNativeWindowHandle
+title: IUIAutomationElement::get_CurrentNativeWindowHandle (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the window handle of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentNativeWindowHandle.htm

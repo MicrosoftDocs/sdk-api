@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService.CacheOLEServer
-title: IBrowserService::CacheOLEServer
+title: IBrowserService::CacheOLEServer (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Caches a reference to an external object to avoid reloading the server on reuse.
 old-location: shell\IBrowserService_CacheOLEServer.htm

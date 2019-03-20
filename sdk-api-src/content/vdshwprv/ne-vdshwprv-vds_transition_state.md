@@ -1,6 +1,6 @@
 ---
 UID: NE:vdshwprv._VDS_TRANSITION_STATE
-title: VDS_TRANSITION_STATE
+title: VDS_TRANSITION_STATE (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the set of the valid transition state values for a VDS object.
 old-location: base\vds_transition_state.htm

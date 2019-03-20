@@ -1,6 +1,6 @@
 ---
 UID: NE:oleidl.tagOLEGETMONIKER
-title: OLEGETMONIKER
+title: OLEGETMONIKER (oleidl.h)
 author: windows-sdk-content
 description: Controls aspects of the behavior of the IOleObject::GetMoniker and IOleClientSite::GetMoniker methods.
 old-location: com\olegetmoniker.htm

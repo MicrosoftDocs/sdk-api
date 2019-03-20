@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_ALLOCATE_SHARED_MEMORY
-title: LSA_ALLOCATE_SHARED_MEMORY
+title: LSA_ALLOCATE_SHARED_MEMORY (ntsecpkg.h)
 author: windows-sdk-content
 description: The AllocateSharedMemory function allocates a block of shared memory from a section of memory previously reserved by a call to the CreateSharedMemory function.
 old-location: security\allocatesharedmemory.htm

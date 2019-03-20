@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteRemoteFontFileStream.GetLocality
-title: IDWriteRemoteFontFileStream::GetLocality
+title: IDWriteRemoteFontFileStream::GetLocality (dwrite_3.h)
 author: windows-sdk-content
 description: Gets the current locality of the file.
 old-location: directwrite\idwriteremotefontfilestream_getlocality.htm

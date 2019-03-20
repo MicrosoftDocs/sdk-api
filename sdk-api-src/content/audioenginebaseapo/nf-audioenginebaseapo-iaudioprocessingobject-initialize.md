@@ -1,6 +1,6 @@
 ---
 UID: NF:audioenginebaseapo.IAudioProcessingObject.Initialize
-title: IAudioProcessingObject::Initialize
+title: IAudioProcessingObject::Initialize (audioenginebaseapo.h)
 author: windows-sdk-content
 description: The Initialize method initializes the APO and supports data of variable length.
 old-location: audio\iaudioprocessingobject_initialize.htm

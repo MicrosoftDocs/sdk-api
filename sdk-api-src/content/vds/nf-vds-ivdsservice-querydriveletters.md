@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsService.QueryDriveLetters
-title: IVdsService::QueryDriveLetters
+title: IVdsService::QueryDriveLetters (vds.h)
 author: windows-sdk-content
 description: Returns property details for a set of drive letters.
 old-location: base\ivdsservice_querydriveletters.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridItemPattern.get_CachedColumnSpan
-title: IUIAutomationGridItemPattern::get_CachedColumnSpan
+title: IUIAutomationGridItemPattern::get_CachedColumnSpan (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached number of columns spanned by the grid item.
 old-location: winauto\uiauto_IUIAutomationGridItemPattern_CachedColumnSpan.htm

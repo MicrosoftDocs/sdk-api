@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_REQUEST_AUTH_INFO
-title: HTTP_REQUEST_AUTH_INFO
+title: HTTP_REQUEST_AUTH_INFO (http.h)
 author: windows-sdk-content
 description: Contains the authentication status of the request with a handle to the client token that the receiving process can use to impersonate the authenticated client.
 old-location: http\http_request_auth_info.htm

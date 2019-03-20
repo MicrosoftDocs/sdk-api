@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcasync.RpcErrorClearInformation
-title: RpcErrorClearInformation function
+title: RpcErrorClearInformation function (rpcasync.h)
 author: windows-sdk-content
 description: The RpcErrorClearInformation function clears all extended error information on the current thread.
 old-location: rpc\rpcerrorclearinformation.htm

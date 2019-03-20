@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHMapPIDLToSystemImageListIndex
-title: SHMapPIDLToSystemImageListIndex function
+title: SHMapPIDLToSystemImageListIndex function (shlobj_core.h)
 author: windows-sdk-content
 description: SHMapPIDLToSystemImageListIndex may be altered or unavailable.
 old-location: shell\SHMapPIDLToSystemImageListIndex.htm

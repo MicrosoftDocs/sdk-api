@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMAnalogVideoEncoder.put_CopyProtection
-title: IAMAnalogVideoEncoder::put_CopyProtection
+title: IAMAnalogVideoEncoder::put_CopyProtection (strmif.h)
 author: windows-sdk-content
 description: Note  The IAMAnalogVideoEncoder interface is deprecated. The put_CopyProtection method sets the level of copy protection for the encoder.
 old-location: dshow\iamanalogvideoencoder_put_copyprotection.htm

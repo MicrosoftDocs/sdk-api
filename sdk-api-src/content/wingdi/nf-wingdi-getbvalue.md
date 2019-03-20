@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetBValue
-title: GetBValue macro
+title: GetBValue macro (wingdi.h)
 author: windows-sdk-content
 description: The GetBValue macro retrieves an intensity value for the blue component of a red, green, blue (RGB) value.
 old-location: gdi\getbvalue.htm

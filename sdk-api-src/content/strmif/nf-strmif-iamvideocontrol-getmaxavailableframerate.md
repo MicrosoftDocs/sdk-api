@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMVideoControl.GetMaxAvailableFrameRate
-title: IAMVideoControl::GetMaxAvailableFrameRate
+title: IAMVideoControl::GetMaxAvailableFrameRate (strmif.h)
 author: windows-sdk-content
 description: The GetMaxAvailableFrameRate method retrieves the maximum frame rate currently available, based on bus bandwidth usage for connections, such as USB and IEEE 1394, where the maximum frame rate may be limited by bandwidth availability.
 old-location: dshow\iamvideocontrol_getmaxavailableframerate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngCreateBitmap
-title: EngCreateBitmap function
+title: EngCreateBitmap function (winddi.h)
 author: windows-sdk-content
 description: The EngCreateBitmap function requests that GDI create and manage a bitmap.
 old-location: display\engcreatebitmap.htm

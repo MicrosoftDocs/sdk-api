@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegisteredTask.get_Path
-title: IRegisteredTask::get_Path
+title: IRegisteredTask::get_Path (taskschd.h)
 author: windows-sdk-content
 description: Gets the path to where the registered task is stored.
 old-location: taskschd\iregisteredtask_path.htm

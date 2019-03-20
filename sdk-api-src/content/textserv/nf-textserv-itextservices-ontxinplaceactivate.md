@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextServices.OnTxInPlaceActivate
-title: ITextServices::OnTxInPlaceActivate
+title: ITextServices::OnTxInPlaceActivate (textserv.h)
 author: windows-sdk-content
 description: Notifies the text services object that this control is in-place active.
 old-location: controls\ITextServices_OnTxInPlaceActivate.htm

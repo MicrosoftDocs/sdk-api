@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.GetBorderColor
-title: IMFVideoDisplayControl::GetBorderColor
+title: IMFVideoDisplayControl::GetBorderColor (evr.h)
 author: windows-sdk-content
 description: Gets the border color for the video.
 old-location: mf\imfvideodisplaycontrol_getbordercolor.htm

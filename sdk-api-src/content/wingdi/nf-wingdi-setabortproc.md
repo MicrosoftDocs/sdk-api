@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.SetAbortProc
-title: SetAbortProc function
+title: SetAbortProc function (wingdi.h)
 author: windows-sdk-content
 description: The SetAbortProc function sets the application-defined abort function that allows a print job to be canceled during spooling.
 old-location: gdi\setabortproc.htm

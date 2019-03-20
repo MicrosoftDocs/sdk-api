@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoRevokeClassObject
-title: CoRevokeClassObject function
+title: CoRevokeClassObject function (combaseapi.h)
 author: windows-sdk-content
 description: Informs OLE that a class object, previously registered with the CoRegisterClassObject function, is no longer available for use.
 old-location: com\corevokeclassobject.htm

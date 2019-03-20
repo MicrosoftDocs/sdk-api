@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmMerge.CloseModule
-title: IMsmMerge::CloseModule
+title: IMsmMerge::CloseModule (mergemod.h)
 author: windows-sdk-content
 description: The CloseModule method closes the currently open Windows Installer merge module. For more information, see the CloseModule method of the Merge object.
 old-location: setup\imsmmerge_closemodule.htm

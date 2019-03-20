@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara2.SetFontAlignment
-title: ITextPara2::SetFontAlignment
+title: ITextPara2::SetFontAlignment (tom.h)
 author: windows-sdk-content
 description: Sets the paragraph font alignment for Chinese, Japanese, Korean text.
 old-location: controls\itextpara2_setfontalignment.htm

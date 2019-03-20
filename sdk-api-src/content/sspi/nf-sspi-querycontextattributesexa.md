@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.QueryContextAttributesExA
-title: QueryContextAttributesExA function
+title: QueryContextAttributesExA function (sspi.h)
 author: windows-sdk-content
 description: Enables a transport application to query a security package for certain attributes of a security context.
 old-location: security\querycontextattributesex.htm

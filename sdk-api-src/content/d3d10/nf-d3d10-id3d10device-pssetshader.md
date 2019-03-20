@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.PSSetShader
-title: ID3D10Device::PSSetShader
+title: ID3D10Device::PSSetShader (d3d10.h)
 author: windows-sdk-content
 description: Sets a pixel shader to the device.
 old-location: direct3d10\id3d10device_pssetshader.htm

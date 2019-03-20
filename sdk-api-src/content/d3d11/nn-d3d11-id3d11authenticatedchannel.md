@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11AuthenticatedChannel
-title: ID3D11AuthenticatedChannel
+title: ID3D11AuthenticatedChannel (d3d11.h)
 author: windows-sdk-content
 description: Provides a communication channel with the graphics driver or the Microsoft Direct3D runtime.
 old-location: mf\id3d11authenticatedchannel.htm

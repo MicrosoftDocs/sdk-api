@@ -1,6 +1,6 @@
 ---
 UID: NF:errhandlingapi.UnhandledExceptionFilter
-title: UnhandledExceptionFilter function
+title: UnhandledExceptionFilter function (errhandlingapi.h)
 author: windows-sdk-content
 description: An application-defined function that passes unhandled exceptions to the debugger, if the process is being debugged.
 old-location: base\unhandledexceptionfilter.htm

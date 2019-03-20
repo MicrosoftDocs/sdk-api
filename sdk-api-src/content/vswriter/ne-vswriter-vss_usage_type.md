@@ -1,6 +1,6 @@
 ---
 UID: NE:vswriter.VSS_USAGE_TYPE
-title: VSS_USAGE_TYPE
+title: VSS_USAGE_TYPE (vswriter.h)
 author: windows-sdk-content
 description: Specifies how the host system uses the data managed by a writer involved in a VSS operation.
 old-location: base\vss_usage_type.htm

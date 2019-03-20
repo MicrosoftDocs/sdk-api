@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchManager.get_BypassList
-title: ISearchManager::get_BypassList
+title: ISearchManager::get_BypassList (searchapi.h)
 author: windows-sdk-content
 description: Gets a proxy bypass list from the indexer. This list is used to determine which items or URLs are local and do not need to go through the proxy server. This list is set by calling ISearchManager::SetProxy.
 old-location: search\_search_ISearchManager_get_BypassList.htm

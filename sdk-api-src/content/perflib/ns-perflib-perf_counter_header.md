@@ -1,6 +1,6 @@
 ---
 UID: NS:perflib._PERF_COUNTER_HEADER
-title: PERF_COUNTER_HEADER
+title: PERF_COUNTER_HEADER (perflib.h)
 author: windows-sdk-content
 description: Contains information about the PERF_COUNTER_HEADER block that contains the structure.
 old-location: perf\perf_counter_header.htm

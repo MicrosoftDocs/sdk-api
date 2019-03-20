@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser._ICONINFO
-title: ICONINFO
+title: ICONINFO (winuser.h)
 author: windows-sdk-content
 description: Contains information about an icon or a cursor.
 old-location: menurc\iconinfo.htm

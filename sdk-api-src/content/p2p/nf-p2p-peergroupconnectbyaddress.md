@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGroupConnectByAddress
-title: PeerGroupConnectByAddress function
+title: PeerGroupConnectByAddress function (p2p.h)
 author: windows-sdk-content
 description: Attempts to connect to the peer group that other peers with known IPv6 addresses are participating in.
 old-location: p2p\peergroupconnectbyaddress.htm

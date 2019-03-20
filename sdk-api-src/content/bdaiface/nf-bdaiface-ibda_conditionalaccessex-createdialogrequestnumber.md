@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccessEx.CreateDialogRequestNumber
-title: IBDA_ConditionalAccessEx::CreateDialogRequestNumber
+title: IBDA_ConditionalAccessEx::CreateDialogRequestNumber (bdaiface.h)
 author: windows-sdk-content
 description: Gets a new dialog box request number.
 old-location: mstv\ibda_conditionalaccessex_createdialogrequestnumber.htm

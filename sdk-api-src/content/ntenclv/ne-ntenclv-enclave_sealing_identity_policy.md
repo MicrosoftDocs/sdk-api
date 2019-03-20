@@ -1,6 +1,6 @@
 ---
 UID: NE:ntenclv.ENCLAVE_SEALING_IDENTITY_POLICY
-title: ENCLAVE_SEALING_IDENTITY_POLICY
+title: ENCLAVE_SEALING_IDENTITY_POLICY (ntenclv.h)
 author: windows-sdk-content
 description: Defines values that specify how another enclave must be related to the enclave that calls EnclaveSealData for the enclave to unseal the data.
 old-location: base\enclave_sealing_identity_policy.htm

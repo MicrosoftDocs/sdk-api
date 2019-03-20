@@ -1,6 +1,6 @@
 ---
 UID: NN:cmdtree.IQuery
-title: IQuery
+title: IQuery (cmdtree.h)
 author: windows-sdk-content
 description: The IQuery interface is reserved for future use.
 old-location: indexsrv\iquery.htm

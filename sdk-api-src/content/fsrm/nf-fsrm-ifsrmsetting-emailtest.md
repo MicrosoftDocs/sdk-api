@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmSetting.EmailTest
-title: IFsrmSetting::EmailTest
+title: IFsrmSetting::EmailTest (fsrm.h)
 author: windows-sdk-content
 description: Send an email message to the specified email address.
 old-location: fsrm\ifsrmsetting_emailtest.htm

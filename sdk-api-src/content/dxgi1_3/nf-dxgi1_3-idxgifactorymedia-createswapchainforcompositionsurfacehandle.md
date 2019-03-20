@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGIFactoryMedia.CreateSwapChainForCompositionSurfaceHandle
-title: IDXGIFactoryMedia::CreateSwapChainForCompositionSurfaceHandle
+title: IDXGIFactoryMedia::CreateSwapChainForCompositionSurfaceHandle (dxgi1_3.h)
 author: windows-sdk-content
 description: Creates a YUV swap chain for an existing DirectComposition surface handle.
 old-location: direct3ddxgi\idxgifactorymedia_createswapchainforcompositionsurfacehandle.htm

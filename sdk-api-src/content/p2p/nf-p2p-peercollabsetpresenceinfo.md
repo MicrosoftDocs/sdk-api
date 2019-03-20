@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabSetPresenceInfo
-title: PeerCollabSetPresenceInfo function
+title: PeerCollabSetPresenceInfo function (p2p.h)
 author: windows-sdk-content
 description: Updates the caller's presence information to any contacts watching it.
 old-location: p2p\peercollabsetpresenceinfo.htm

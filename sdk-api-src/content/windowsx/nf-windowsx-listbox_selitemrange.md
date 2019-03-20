@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ListBox_SelItemRange
-title: ListBox_SelItemRange macro
+title: ListBox_SelItemRange macro (windowsx.h)
 author: windows-sdk-content
 description: Selects or deselects one or more consecutive items in a multiple-selection list box. You can use this macro or send the LB_SELITEMRANGE message explicitly.
 old-location: controls\ListBox_SelItemRange.htm

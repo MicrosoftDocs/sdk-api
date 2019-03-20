@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_403
-title: SERVER_INFO_403
+title: SERVER_INFO_403 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_403 structure contains information about a specified server.
 old-location: netmgmt\server_info_403_str.htm

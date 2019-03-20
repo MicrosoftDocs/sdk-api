@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_bindA
-title: ldap_bindA function
+title: ldap_bindA function (winldap.h)
 author: windows-sdk-content
 description: Asynchronously authenticates a client with the LDAP server.
 old-location: ldap\ldap_bind.htm

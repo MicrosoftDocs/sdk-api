@@ -1,6 +1,6 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.Unacquire
-title: IDirectInputJoyConfig8::Unacquire
+title: IDirectInputJoyConfig8::Unacquire (dinputd.h)
 author: windows-sdk-content
 description: The IDirectInputJoyConfig8::Unacquire method unacquires &#0034;joystick configuration mode&#0034;.
 old-location: hid\idirectinputjoyconfig8_unacquire.htm

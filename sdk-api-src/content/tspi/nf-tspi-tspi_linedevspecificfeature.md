@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineDevSpecificFeature
-title: TSPI_lineDevSpecificFeature function
+title: TSPI_lineDevSpecificFeature function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineDevSpecificFeature function is used as an extension mechanism to enable service providers to provide access to features not described in other operations.
 old-location: tspi\tspi_linedevspecificfeature.htm

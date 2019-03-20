@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxSender.get_Name
-title: IFaxSender::get_Name
+title: IFaxSender::get_Name (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxSender::get_Name property is a null-terminated string that contains the name of the sender.
 old-location: fax\_mfax_faxsender_cpp_mfax_faxsender_name_cpp.htm

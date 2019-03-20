@@ -1,6 +1,6 @@
 ---
 UID: NS:xapofx.FXECHO_INITDATA
-title: FXECHO_INITDATA
+title: FXECHO_INITDATA (xapofx.h)
 author: windows-sdk-content
 description: Initialization parameters for use with the FXECHO XAPOFX.
 old-location: xaudio2\fxecho_initdata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateBuffer
-title: ID3D10Device::CreateBuffer
+title: ID3D10Device::CreateBuffer (d3d10.h)
 author: windows-sdk-content
 description: Create a buffer (vertex buffer, index buffer, or shader-constant buffer).
 old-location: direct3d10\id3d10device_createbuffer.htm

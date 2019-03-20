@@ -1,6 +1,6 @@
 ---
 UID: NS:lmshare._SESSION_INFO_502
-title: SESSION_INFO_502
+title: SESSION_INFO_502 (lmshare.h)
 author: windows-sdk-content
 description: Contains information about the session, including name of the computer; name of the user; open files, pipes, and devices on the computer; and the name of the transport the client is using.
 old-location: fs\session_info_502_str.htm

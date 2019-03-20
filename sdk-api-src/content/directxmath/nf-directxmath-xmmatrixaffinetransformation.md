@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMMatrixAffineTransformation
-title: XMMatrixAffineTransformation function
+title: XMMatrixAffineTransformation function (directxmath.h)
 author: windows-sdk-content
 description: Builds an affine transformation matrix.
 old-location: dxmath\xmmatrixaffinetransformation.htm

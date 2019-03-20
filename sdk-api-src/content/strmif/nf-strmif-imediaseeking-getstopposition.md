@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaSeeking.GetStopPosition
-title: IMediaSeeking::GetStopPosition
+title: IMediaSeeking::GetStopPosition (strmif.h)
 author: windows-sdk-content
 description: The GetStopPosition method retrieves the time at which the playback will stop, relative to the duration of the stream.
 old-location: dshow\imediaseeking_getstopposition.htm

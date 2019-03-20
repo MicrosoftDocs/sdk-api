@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy.get_NetworkProfile
-title: IWdsTransportServicePolicy::get_NetworkProfile
+title: IWdsTransportServicePolicy::get_NetworkProfile (wdstptmgmt.h)
 author: windows-sdk-content
 description: Enables a client computer to configure the network profile that is used by the WDS Transport Server.
 old-location: wds\iwdstransportservicepolicy_networkprofile.htm

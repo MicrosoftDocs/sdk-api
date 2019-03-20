@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.FindExecutableA
-title: FindExecutableA function
+title: FindExecutableA function (shellapi.h)
 author: windows-sdk-content
 description: Retrieves the name of and handle to the executable (.exe) file associated with a specific document file.
 old-location: shell\FindExecutable.htm

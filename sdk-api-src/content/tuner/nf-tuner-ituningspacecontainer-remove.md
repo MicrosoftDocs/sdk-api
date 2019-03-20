@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.Remove
-title: ITuningSpaceContainer::Remove
+title: ITuningSpaceContainer::Remove (tuner.h)
 author: windows-sdk-content
 description: The Remove method permanently removes a tuning space from the system.
 old-location: mstv\ituningspacecontainer_remove.htm

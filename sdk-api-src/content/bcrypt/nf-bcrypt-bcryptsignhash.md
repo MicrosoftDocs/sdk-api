@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptSignHash
-title: BCryptSignHash function
+title: BCryptSignHash function (bcrypt.h)
 author: windows-sdk-content
 description: Creates a signature of a hash value.
 old-location: security\bcryptsignhash_func.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextSelection.MoveLeft
-title: ITextSelection::MoveLeft
+title: ITextSelection::MoveLeft (tom.h)
 author: windows-sdk-content
 description: Generalizes the functionality of the Left Arrow key.
 old-location: controls\ITextSelection_MoveLeft.htm

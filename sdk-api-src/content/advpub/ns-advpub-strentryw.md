@@ -1,6 +1,6 @@
 ---
 UID: NS:advpub._StrEntryW
-title: STRENTRYW
+title: STRENTRYW (advpub.h)
 author: windows-sdk-content
 description: Represents a registry string replacement.
 old-location: winprog\_strentryw.htm

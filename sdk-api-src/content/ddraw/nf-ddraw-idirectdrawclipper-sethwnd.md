@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawClipper.SetHWnd
-title: IDirectDrawClipper::SetHWnd
+title: IDirectDrawClipper::SetHWnd (ddraw.h)
 author: windows-sdk-content
 description: Sets the window handle that the clipper object uses to obtain clipping information.
 old-location: directdraw\idirectdrawclipper_sethwnd.htm

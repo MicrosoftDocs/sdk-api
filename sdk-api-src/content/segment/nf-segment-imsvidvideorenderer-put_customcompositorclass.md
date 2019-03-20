@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.put_CustomCompositorClass
-title: IMSVidVideoRenderer::put_CustomCompositorClass
+title: IMSVidVideoRenderer::put_CustomCompositorClass (segment.h)
 author: windows-sdk-content
 description: The put_CustomCompositorClass method specifies the class identifier (CLSID) of a custom image compositor, as a BSTR.
 old-location: mstv\imsvidvideorenderer_put_customcompositorclass.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:winsync.__MIDL___MIDL_itf_winsync_0000_0000_0011
-title: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+title: KNOWLEDGE_COOKIE_COMPARISON_RESULT (winsync.h)
 author: windows-sdk-content
 description: Represents the possible results when a knowledge cookie is compared with a knowledge object by using ISyncKnowledge2::CompareToKnowledgeCookie.
 old-location: winsync\knowledge_cookie_comparison_result.htm

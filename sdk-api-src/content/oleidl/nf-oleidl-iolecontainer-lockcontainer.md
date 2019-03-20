@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleContainer.LockContainer
-title: IOleContainer::LockContainer
+title: IOleContainer::LockContainer (oleidl.h)
 author: windows-sdk-content
 description: Keeps the container for embedded objects running until explicitly released.
 old-location: com\iolecontainer_lockcontainer.htm

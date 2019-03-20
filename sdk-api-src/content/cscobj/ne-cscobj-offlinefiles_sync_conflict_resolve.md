@@ -1,6 +1,6 @@
 ---
 UID: NE:cscobj.tagOFFLINEFILES_SYNC_CONFLICT_RESOLVE
-title: OFFLINEFILES_SYNC_CONFLICT_RESOLVE
+title: OFFLINEFILES_SYNC_CONFLICT_RESOLVE (cscobj.h)
 author: windows-sdk-content
 description: Identifies the conflict resolution code returned by the IOfflineFilesSyncConflictHandler::ResolveConflict method.
 old-location: of\offlinefiles_sync_conflict_resolve.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkOverlay.get_AttachMode
-title: IInkOverlay::get_AttachMode
+title: IInkOverlay::get_AttachMode (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the value that specifies whether the InkOverlay object is attached behind or in front of the known window.
 old-location: tablet\inkoverlay_attachmode.htm

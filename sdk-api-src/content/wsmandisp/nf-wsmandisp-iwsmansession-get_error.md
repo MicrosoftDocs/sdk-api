@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManSession.get_Error
-title: IWSManSession::get_Error
+title: IWSManSession::get_Error (wsmandisp.h)
 author: windows-sdk-content
 description: Gets additional error information in an XML stream for the preceding call to an IWSManSession object method.
 old-location: winrm\iwsmansession_error.htm

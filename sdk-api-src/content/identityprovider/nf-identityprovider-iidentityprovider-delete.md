@@ -1,6 +1,6 @@
 ---
 UID: NF:identityprovider.IIdentityProvider.Delete
-title: IIdentityProvider::Delete
+title: IIdentityProvider::Delete (identityprovider.h)
 author: windows-sdk-content
 description: Removes the specified identity from the identity store or the specified properties from the identity.
 old-location: security\iidentityprovider_delete.htm

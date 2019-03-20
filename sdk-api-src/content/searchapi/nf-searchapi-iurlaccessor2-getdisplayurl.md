@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.IUrlAccessor2.GetDisplayUrl
-title: IUrlAccessor2::GetDisplayUrl
+title: IUrlAccessor2::GetDisplayUrl (searchapi.h)
 author: windows-sdk-content
 description: Gets the user-friendly path for the URL item.
 old-location: search\_search_IUrlAccessor2_GetDisplayUrl.htm

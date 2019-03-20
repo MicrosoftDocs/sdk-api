@@ -1,6 +1,6 @@
 ---
 UID: NF:winsvc.StartServiceA
-title: StartServiceA function
+title: StartServiceA function (winsvc.h)
 author: windows-sdk-content
 description: Starts a service.
 old-location: base\startservice.htm

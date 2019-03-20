@@ -1,6 +1,6 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.GetServiceState
-title: IAMLine21Decoder::GetServiceState
+title: IAMLine21Decoder::GetServiceState (il21dec.h)
 author: windows-sdk-content
 description: The GetServiceState method indicates whether closed captioning is on or off.
 old-location: dshow\iamline21decoder_getservicestate.htm

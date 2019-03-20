@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorage4.GetRightsWithProgress
-title: IWMDMStorage4::GetRightsWithProgress
+title: IWMDMStorage4::GetRightsWithProgress (mswmdm.h)
 author: windows-sdk-content
 description: The GetRightsWithProgress method retrieves the rights information for the storage object, providing a callback mechanism for monitoring progress.
 old-location: wmdm\iwmdmstorage4_getrightswithprogress.htm

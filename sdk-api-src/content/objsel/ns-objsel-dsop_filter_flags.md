@@ -1,6 +1,6 @@
 ---
 UID: NS:objsel._DSOP_FILTER_FLAGS
-title: DSOP_FILTER_FLAGS
+title: DSOP_FILTER_FLAGS (objsel.h)
 author: windows-sdk-content
 description: Contains flags that indicate the types of objects presented to the user for a specified scope or scopes.
 old-location: ad\dsop_filter_flags.htm

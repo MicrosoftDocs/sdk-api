@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IFrequencyMap.get_CountryCodeList
-title: IFrequencyMap::get_CountryCodeList
+title: IFrequencyMap::get_CountryCodeList (bdaiface.h)
 author: windows-sdk-content
 description: The get_CountryCodeList method returns a list of all the country/region codes for which the Network Provider has a frequency table.
 old-location: mstv\ifrequencymap_get_countrycodelist.htm

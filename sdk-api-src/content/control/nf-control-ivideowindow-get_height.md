@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.get_Height
-title: IVideoWindow::get_Height
+title: IVideoWindow::get_Height (control.h)
 author: windows-sdk-content
 description: The get_Height method retrieves the height of the video window.
 old-location: dshow\ivideowindow_get_height.htm

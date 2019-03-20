@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IAgileReference
-title: IAgileReference
+title: IAgileReference (objidl.h)
 author: windows-sdk-content
 description: Enables retrieving an agile reference to an object.
 old-location: winrt\iagilereference.htm

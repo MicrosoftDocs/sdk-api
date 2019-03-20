@@ -1,6 +1,6 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.GetChannelVolumeLevelScalar
-title: IAudioEndpointVolume::GetChannelVolumeLevelScalar
+title: IAudioEndpointVolume::GetChannelVolumeLevelScalar (endpointvolume.h)
 author: windows-sdk-content
 description: The GetChannelVolumeLevelScalar method gets the normalized, audio-tapered volume level of the specified channel of the audio stream that enters or leaves the audio endpoint device.
 old-location: coreaudio\iaudioendpointvolume_getchannelvolumelevelscalar.htm

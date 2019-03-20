@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.__unnamed_enum_1
-title: CLUSTER_MGMT_POINT_TYPE
+title: CLUSTER_MGMT_POINT_TYPE (clusapi.h)
 author: windows-sdk-content
 description: Specifies the type of the management point for the cluster.
 old-location: mscs\cluster_mgmt_point_type.htm

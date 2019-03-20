@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfReverseConversionMgr
-title: ITfReverseConversionMgr
+title: ITfReverseConversionMgr (msctf.h)
 author: windows-sdk-content
 description: Provides access to ITfReverseConversion objects, which are used to perform reverse conversions.
 old-location: tsf\itfreverseconversionmgr.htm

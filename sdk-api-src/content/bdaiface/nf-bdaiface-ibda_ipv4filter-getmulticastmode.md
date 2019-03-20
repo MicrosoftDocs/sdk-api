@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_IPV4Filter.GetMulticastMode
-title: IBDA_IPV4Filter::GetMulticastMode
+title: IBDA_IPV4Filter::GetMulticastMode (bdaiface.h)
 author: windows-sdk-content
 description: The GetMulticastMode method retrieves the multicast mode.
 old-location: mstv\ibda_ipv4filter_getmulticastmode.htm

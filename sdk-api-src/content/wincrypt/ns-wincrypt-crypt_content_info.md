@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_CONTENT_INFO
-title: CRYPT_CONTENT_INFO
+title: CRYPT_CONTENT_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains data encoded in the PKCS #7 ContentInfo data format.
 old-location: security\crypt_content_info.htm

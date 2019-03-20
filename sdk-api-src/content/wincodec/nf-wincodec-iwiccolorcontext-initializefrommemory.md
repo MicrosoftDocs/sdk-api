@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICColorContext.InitializeFromMemory
-title: IWICColorContext::InitializeFromMemory
+title: IWICColorContext::InitializeFromMemory (wincodec.h)
 author: windows-sdk-content
 description: Initializes the color context from a memory block.
 old-location: wic\_wic_codec_iwiccolorcontext_initializefrommemory.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:olectl.OleLoadPictureFileEx
-title: OleLoadPictureFileEx function
+title: OleLoadPictureFileEx function (olectl.h)
 author: windows-sdk-content
 description: Loads a picture from a file.
 old-location: automat\oleloadpicturefileex.htm

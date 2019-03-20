@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SEC_WINNT_AUTH_SHORT_VECTOR
-title: SEC_WINNT_AUTH_SHORT_VECTOR
+title: SEC_WINNT_AUTH_SHORT_VECTOR (sspi.h)
 author: windows-sdk-content
 description: Specifies the offset and number of characters in an array of USHORT values.
 old-location: security\sec_winnt_auth_short_vector.htm

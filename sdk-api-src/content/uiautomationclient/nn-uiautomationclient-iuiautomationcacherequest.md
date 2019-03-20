@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationCacheRequest
-title: IUIAutomationCacheRequest
+title: IUIAutomationCacheRequest (uiautomationclient.h)
 author: windows-sdk-content
 description: Exposes properties and methods of a cache request. Client applications use this interface to specify the properties and control patterns to be cached when a Microsoft UI Automation element is obtained.
 old-location: winauto\uiauto_IUIAutomationCacheRequest.htm

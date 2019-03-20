@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.put_UseMouseForInput
-title: IInkEdit::put_UseMouseForInput
+title: IInkEdit::put_UseMouseForInput (inked.h)
 author: windows-sdk-content
 description: Gets or sets a value that indicates whether the mouse can be used as an input device.
 old-location: tablet\inkedit_usemouseforinput.htm

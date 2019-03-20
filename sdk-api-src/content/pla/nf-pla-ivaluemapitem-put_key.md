@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IValueMapItem.put_Key
-title: IValueMapItem::put_Key
+title: IValueMapItem::put_Key (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the name of the item.
 old-location: pla\ivaluemapitem_key.htm

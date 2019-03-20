@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetLayout
-title: GetLayout function
+title: GetLayout function (wingdi.h)
 author: windows-sdk-content
 description: The GetLayout function returns the layout of a device context (DC).
 old-location: gdi\getlayout.htm

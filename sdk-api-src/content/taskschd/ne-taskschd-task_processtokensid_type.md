@@ -1,6 +1,6 @@
 ---
 UID: NE:taskschd._TASK_PROCESSTOKENSID
-title: TASK_PROCESSTOKENSID_TYPE
+title: TASK_PROCESSTOKENSID_TYPE (taskschd.h)
 author: windows-sdk-content
 description: Defines the types of process security identifier (SID) that can be used by tasks.
 old-location: taskschd\task_processtokensid_type.htm

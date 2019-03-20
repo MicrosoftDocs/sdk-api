@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.IsPageLoaded
-title: IXpsOMPageReference::IsPageLoaded
+title: IXpsOMPageReference::IsPageLoaded (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the referenced page status, which indicates whether the page is loaded.
 old-location: xps\ixpsompagereference_ispageloaded.htm

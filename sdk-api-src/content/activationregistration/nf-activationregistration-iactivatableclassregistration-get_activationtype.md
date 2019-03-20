@@ -1,6 +1,6 @@
 ---
 UID: NF:activationregistration.IActivatableClassRegistration.get_ActivationType
-title: IActivatableClassRegistration::get_ActivationType
+title: IActivatableClassRegistration::get_ActivationType (activationregistration.h)
 author: windows-sdk-content
 description: Gets the kind of activation for the current activatable class.
 old-location: winrt\iactivatableclassregistration_activationtype.htm

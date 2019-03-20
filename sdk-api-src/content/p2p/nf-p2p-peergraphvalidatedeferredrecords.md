@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGraphValidateDeferredRecords
-title: PeerGraphValidateDeferredRecords function
+title: PeerGraphValidateDeferredRecords function (p2p.h)
 author: windows-sdk-content
 description: The PeerGraphValidateDeferredRecords function indicates to the Peer Graphing Infrastructure that it is time to resubmit any deferred records for the security module to validate.
 old-location: p2p\peergraphvalidatedeferredrecords.htm

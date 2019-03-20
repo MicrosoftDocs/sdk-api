@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.get_StartingTrackNumber
-title: IRawCDImageCreator::get_StartingTrackNumber
+title: IRawCDImageCreator::get_StartingTrackNumber (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the starting track number.
 old-location: imapi\irawcdimagecreator_get_startingtracknumber.htm

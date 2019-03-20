@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace4.GetGlyphImageFormats
-title: IDWriteFontFace4::GetGlyphImageFormats
+title: IDWriteFontFace4::GetGlyphImageFormats (dwrite_3.h)
 author: windows-sdk-content
 description: Gets all the glyph image formats supported by the entire font.
 old-location: directwrite\idwritefontface4_getglyphimageformats.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.Point.operator-add
-title: Point::operator-add
+title: Point::operator-add (gdiplustypes.h)
 author: windows-sdk-content
 description: The Point::operator+ method adds the X and Y data members of two Point objects.
 old-location: gdiplus\_gdiplus_CLASS_Point_operator_opadd_point_.htm

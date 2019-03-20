@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.put_Tilt
-title: ICameraControl::put_Tilt
+title: ICameraControl::put_Tilt (vidcap.h)
 author: windows-sdk-content
 description: The put_Tilt method sets the camera's tilt angle.
 old-location: dshow\icameracontrol_put_tilt.htm

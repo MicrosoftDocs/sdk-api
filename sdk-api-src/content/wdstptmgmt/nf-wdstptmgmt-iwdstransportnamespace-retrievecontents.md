@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.RetrieveContents
-title: IWdsTransportNamespace::RetrieveContents
+title: IWdsTransportNamespace::RetrieveContents (wdstptmgmt.h)
 author: windows-sdk-content
 description: Retrieves a collection of active transport content objects associated with the namespace.
 old-location: wds\iwdstransportnamespace_retrievecontents.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngMultiByteToUnicodeN
-title: EngMultiByteToUnicodeN function
+title: EngMultiByteToUnicodeN function (winddi.h)
 author: windows-sdk-content
 description: The EngMultiByteToUnicodeN function converts the specified ANSI source string into a Unicode string using the current ANSI code page.
 old-location: display\engmultibytetounicoden.htm

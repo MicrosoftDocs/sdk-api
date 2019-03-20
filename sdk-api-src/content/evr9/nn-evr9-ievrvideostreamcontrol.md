@@ -1,6 +1,6 @@
 ---
 UID: NN:evr9.IEVRVideoStreamControl
-title: IEVRVideoStreamControl
+title: IEVRVideoStreamControl (evr9.h)
 author: windows-sdk-content
 description: This interface is not supported.
 old-location: mf\ievrvideostreamcontrol.htm

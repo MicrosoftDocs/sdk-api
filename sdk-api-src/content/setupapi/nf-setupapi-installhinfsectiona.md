@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.InstallHinfSectionA
-title: InstallHinfSectionA function
+title: InstallHinfSectionA function (setupapi.h)
 author: windows-sdk-content
 description: InstallHinfSection is an entry-point function exported by Setupapi.dll that you can use to execute a section of an .inf file. InstallHinfSection can be invoked by calling the Rundll32.exe utility as described in the Remarks section.
 old-location: setup\installhinfsection.htm

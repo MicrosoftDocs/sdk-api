@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzTask2.RoleAssignments
-title: IAzTask2::RoleAssignments
+title: IAzTask2::RoleAssignments (azroles.h)
 author: windows-sdk-content
 description: Returns a collection of the role assignments associated with this task.
 old-location: security\iaztask2_roleassignments_method.htm

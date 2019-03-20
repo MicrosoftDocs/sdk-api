@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.GetGroupBy
-title: IFolderView2::GetGroupBy
+title: IFolderView2::GetGroupBy (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the property and sort order used for grouping items in the folder display.
 old-location: shell\IFolderView2_GetGroupBy.htm

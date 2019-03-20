@@ -1,6 +1,6 @@
 ---
 UID: NE:dcomptypes.DCOMPOSITION_OPACITY_MODE
-title: DCOMPOSITION_OPACITY_MODE
+title: DCOMPOSITION_OPACITY_MODE (dcomptypes.h)
 author: windows-sdk-content
 description: Specifies how the effective opacity value of a visual is applied to that visual’s content and children.
 old-location: directcomp\dcomposition_opacity_mode.htm

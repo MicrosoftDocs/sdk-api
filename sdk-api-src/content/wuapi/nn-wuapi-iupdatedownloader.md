@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IUpdateDownloader
-title: IUpdateDownloader
+title: IUpdateDownloader (wuapi.h)
 author: windows-sdk-content
 description: Downloads updates from the server.
 old-location: wua\iupdatedownloader.htm

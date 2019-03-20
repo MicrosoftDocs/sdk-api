@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfEditTransactionSink.OnEndEditTransaction
-title: ITfEditTransactionSink::OnEndEditTransaction
+title: ITfEditTransactionSink::OnEndEditTransaction (msctf.h)
 author: windows-sdk-content
 description: ITfEditTransactionSink::OnEndEditTransaction method
 old-location: tsf\itfedittransactionsink_onendedittransaction.htm

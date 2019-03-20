@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleWindow.GetWindow
-title: IOleWindow::GetWindow
+title: IOleWindow::GetWindow (oleidl.h)
 author: windows-sdk-content
 description: Retrieves a handle to one of the windows participating in in-place activation (frame, document, parent, or in-place object window).
 old-location: com\iolewindow_getwindow.htm

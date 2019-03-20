@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory4.ComputeGlyphOrigins(DWRITE_GLYPH_RUN const,D2D1_POINT_2F,D2D1_POINT_2F)
-title: IDWriteFactory4::ComputeGlyphOrigins(DWRITE_GLYPH_RUN const,D2D1_POINT_2F,D2D1_POINT_2F)
+title: IDWriteFactory4::ComputeGlyphOrigins(DWRITE_GLYPH_RUN const,D2D1_POINT_2F,D2D1_POINT_2F) (dwrite_3.h)
 author: windows-sdk-content
 description: Converts glyph run placements to glyph origins.
 old-location: directwrite\idwritefactory4_computeglyphorigins.htm

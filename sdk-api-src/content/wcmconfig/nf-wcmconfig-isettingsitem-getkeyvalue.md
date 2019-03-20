@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetKeyValue
-title: ISettingsItem::GetKeyValue
+title: ISettingsItem::GetKeyValue (wcmconfig.h)
 author: windows-sdk-content
 description: Extracts key values for any list that already exists in the image, for example, DNS, http settings, and user account information.
 old-location: smi\isettingsitem_getkeyvalue.htm

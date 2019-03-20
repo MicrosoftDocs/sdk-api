@@ -1,6 +1,6 @@
 ---
 UID: NF:wdsbp.WdsBpParseInitialize
-title: WdsBpParseInitialize function
+title: WdsBpParseInitialize function (wdsbp.h)
 author: windows-sdk-content
 description: Receives a handle to the packet sent by the network boot program.
 old-location: wds\wdsbpparseinitialize.htm

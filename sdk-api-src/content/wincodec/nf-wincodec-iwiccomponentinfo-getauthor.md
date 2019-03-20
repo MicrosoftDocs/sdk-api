@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICComponentInfo.GetAuthor
-title: IWICComponentInfo::GetAuthor
+title: IWICComponentInfo::GetAuthor (wincodec.h)
 author: windows-sdk-content
 description: Retrieves the name of component's author.
 old-location: wic\_wic_codec_iwiccomponentinfo_getauthor.htm

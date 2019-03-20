@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsDisk3.QueryFreeExtents
-title: IVdsDisk3::QueryFreeExtents
+title: IVdsDisk3::QueryFreeExtents (vds.h)
 author: windows-sdk-content
 description: Returns the free extents on the disk and aligns them to the specified alignment size.
 old-location: base\ivdsdisk3_queryfreeextents.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_BufferUnderrunFreeDisabled
-title: IDiscFormat2TrackAtOnce::get_BufferUnderrunFreeDisabled
+title: IDiscFormat2TrackAtOnce::get_BufferUnderrunFreeDisabled (imapi2.h)
 author: windows-sdk-content
 description: Determines if Buffer Underrun Free recording is enabled.
 old-location: imapi\idiscformat2trackatonce_get_bufferunderrunfreedisabled.htm

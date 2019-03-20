@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnBeforeItemDelete
-title: INameSpaceTreeControlEvents::OnBeforeItemDelete
+title: INameSpaceTreeControlEvents::OnBeforeItemDelete (shobjidl.h)
 author: windows-sdk-content
 description: Called before an IShellItem and all of its children are deleted.
 old-location: shell\INameSpaceTreeControlEvents_OnBeforeItemDelete.htm

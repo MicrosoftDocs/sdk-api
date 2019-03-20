@@ -1,6 +1,6 @@
 ---
 UID: NN:cscobj.IOfflineFilesGhostInfo
-title: IOfflineFilesGhostInfo
+title: IOfflineFilesGhostInfo (cscobj.h)
 author: windows-sdk-content
 description: Represents the ghosting status of an item in the Offline Files cache.
 old-location: of\iofflinefilesghostinfo.htm

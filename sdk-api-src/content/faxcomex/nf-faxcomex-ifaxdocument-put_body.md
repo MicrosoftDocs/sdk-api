@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDocument.put_Body
-title: IFaxDocument::put_Body
+title: IFaxDocument::put_Body (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDocument::get_Body property provides the path to the file that comprises the body of a fax. The body of a fax consists of the fax pages other than the cover page.
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_body_cpp.htm

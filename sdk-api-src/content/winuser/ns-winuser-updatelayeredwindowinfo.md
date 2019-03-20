@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagUPDATELAYEREDWINDOWINFO
-title: UPDATELAYEREDWINDOWINFO
+title: UPDATELAYEREDWINDOWINFO (winuser.h)
 author: windows-sdk-content
 description: Used by UpdateLayeredWindowIndirect to provide position, size, shape, content, and translucency information for a layered window.
 old-location: winmsg\updatelayeredwindowinfo.htm

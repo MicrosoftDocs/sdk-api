@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcServerInterfaceGroupActivate
-title: RpcServerInterfaceGroupActivate function
+title: RpcServerInterfaceGroupActivate function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcServerInterfaceGroupActivate function tells the RPC server runtime to register the interface group’s interfaces and endpoints and begin listening for calls.
 old-location: rpc\rpcserverinterfacegroupactivate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarUI1FromUI4
-title: VarUI1FromUI4 function
+title: VarUI1FromUI4 function (oleauto.h)
 author: windows-sdk-content
 description: Converts an unsigned long value to an unsigned char value.
 old-location: automat\varui1fromui4.htm

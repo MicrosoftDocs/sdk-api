@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IProvideClassInfo2.GetGUID
-title: IProvideClassInfo2::GetGUID
+title: IProvideClassInfo2::GetGUID (ocidl.h)
 author: windows-sdk-content
 description: Retrieves the specified GUID for the object.
 old-location: com\iprovideclassinfo2_getguid.htm

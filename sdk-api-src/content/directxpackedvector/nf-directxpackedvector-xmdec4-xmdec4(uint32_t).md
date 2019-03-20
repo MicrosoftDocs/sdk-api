@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMDEC4.XMDEC4(uint32_t)
-title: XMDEC4::XMDEC4(uint32_t)
+title: XMDEC4::XMDEC4(uint32_t) (directxpackedvector.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMDEC4 from a uint32_t variable containing component data in a packed format.
 old-location: dxmath\xmdec4_ctor_2.htm

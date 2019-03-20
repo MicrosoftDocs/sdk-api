@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgrEventSink.OnPushContext
-title: ITfThreadMgrEventSink::OnPushContext
+title: ITfThreadMgrEventSink::OnPushContext (msctf.h)
 author: windows-sdk-content
 description: ITfThreadMgrEventSink::OnPushContext method
 old-location: tsf\itfthreadmgreventsink_onpushcontext.htm

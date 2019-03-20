@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.SetTransformLookup
-title: IXpsOMTileBrush::SetTransformLookup
+title: IXpsOMTileBrush::SetTransformLookup (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the lookup key name of a shared matrix transform that will be used as the transform for this brush.
 old-location: xps\ixpsomtilebrush_settransformlookup.htm

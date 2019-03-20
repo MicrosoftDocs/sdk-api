@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateErrorInfo.SetGUID
-title: ICreateErrorInfo::SetGUID
+title: ICreateErrorInfo::SetGUID (oaidl.h)
 author: windows-sdk-content
 description: Sets the globally unique identifier (GUID) of the interface that defined the error.
 old-location: automat\icreateerrorinfo_setguid.htm

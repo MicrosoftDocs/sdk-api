@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSSLCertificateManager.GetCertificatePolicy
-title: IMFSSLCertificateManager::GetCertificatePolicy
+title: IMFSSLCertificateManager::GetCertificatePolicy (mfidl.h)
 author: windows-sdk-content
 description: Indicates whether the server SSL certificate must be verified by the caller, Media Foundation, or the IMFSSLCertificateManager implementation class.
 old-location: mf\imfsslcertificatemanager_getcertificatepolicy.htm

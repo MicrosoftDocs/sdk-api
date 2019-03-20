@@ -1,6 +1,6 @@
 ---
 UID: NS:evntcons._EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID
-title: EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID
+title: EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID (evntcons.h)
 author: windows-sdk-content
 description: Defines the parent event of this event.
 old-location: etw\event_extended_item_related_activityid.htm

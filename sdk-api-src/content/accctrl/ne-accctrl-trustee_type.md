@@ -1,6 +1,6 @@
 ---
 UID: NE:accctrl._TRUSTEE_TYPE
-title: TRUSTEE_TYPE
+title: TRUSTEE_TYPE (accctrl.h)
 author: windows-sdk-content
 description: Values that indicate the type of trustee identified by a TRUSTEE structure.
 old-location: security\trustee_type.htm

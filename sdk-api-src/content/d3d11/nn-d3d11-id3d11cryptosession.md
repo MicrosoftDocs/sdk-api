@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11CryptoSession
-title: ID3D11CryptoSession
+title: ID3D11CryptoSession (d3d11.h)
 author: windows-sdk-content
 description: Represents a cryptographic session.
 old-location: mf\id3d11cryptosession.htm

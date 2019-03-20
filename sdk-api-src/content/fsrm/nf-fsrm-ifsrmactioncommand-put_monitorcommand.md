@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmActionCommand.put_MonitorCommand
-title: IFsrmActionCommand::put_MonitorCommand
+title: IFsrmActionCommand::put_MonitorCommand (fsrm.h)
 author: windows-sdk-content
 description: Retrieves or sets a value that determines whether FSRM will monitor the executable program specified in the ExecutablePath property.
 old-location: fsrm\ifsrmactioncommand_monitorcommand.htm

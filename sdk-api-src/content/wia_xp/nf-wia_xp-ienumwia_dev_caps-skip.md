@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IEnumWIA_DEV_CAPS.Skip
-title: IEnumWIA_DEV_CAPS::Skip
+title: IEnumWIA_DEV_CAPS::Skip (wia_xp.h)
 author: windows-sdk-content
 description: The IEnumWIA_DEV_CAPS::Skip method skips the specified number of hardware device capabilities during an enumeration of available device capabilities.
 old-location: wia\_wia_IEnumWIA_DEV_CAPS_Skip.htm

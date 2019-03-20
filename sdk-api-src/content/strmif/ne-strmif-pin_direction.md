@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif._PinDirection
-title: PIN_DIRECTION
+title: PIN_DIRECTION (strmif.h)
 author: windows-sdk-content
 description: Indicates a pin's direction.
 old-location: dshow\pin_direction.htm

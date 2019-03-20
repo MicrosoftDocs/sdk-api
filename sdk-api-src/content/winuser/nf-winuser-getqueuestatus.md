@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetQueueStatus
-title: GetQueueStatus function
+title: GetQueueStatus function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the type of messages found in the calling thread's message queue.
 old-location: winmsg\getqueuestatus.htm

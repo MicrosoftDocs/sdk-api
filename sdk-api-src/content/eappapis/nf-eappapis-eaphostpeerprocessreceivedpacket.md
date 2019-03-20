@@ -1,6 +1,6 @@
 ---
 UID: NF:eappapis.EapHostPeerProcessReceivedPacket
-title: EapHostPeerProcessReceivedPacket function
+title: EapHostPeerProcessReceivedPacket function (eappapis.h)
 author: windows-sdk-content
 description: Is called by the supplicant every time the supplicant receives a packet that EAPHost needs to process.
 old-location: eaphost\eaphostpeerprocessreceivedpacket.htm

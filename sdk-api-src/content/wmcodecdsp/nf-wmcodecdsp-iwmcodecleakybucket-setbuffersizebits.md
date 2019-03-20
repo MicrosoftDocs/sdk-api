@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecLeakyBucket.SetBufferSizeBits
-title: IWMCodecLeakyBucket::SetBufferSizeBits
+title: IWMCodecLeakyBucket::SetBufferSizeBits (wmcodecdsp.h)
 author: windows-sdk-content
 description: Sets the buffer size in bits.
 old-location: mf\iwmcodecleakybucketsetbuffersizebits.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ddeml.DdeCreateStringHandleW
-title: DdeCreateStringHandleW function
+title: DdeCreateStringHandleW function (ddeml.h)
 author: windows-sdk-content
 description: Creates a handle that identifies the specified string. A Dynamic Data Exchange (DDE) client or server application can pass the string handle as a parameter to other Dynamic Data Exchange Management Library (DDEML) functions.
 old-location: dataxchg\ddecreatestringhandle.htm

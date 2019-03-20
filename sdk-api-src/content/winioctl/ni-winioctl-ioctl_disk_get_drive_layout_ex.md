@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_GET_DRIVE_LAYOUT_EX
-title: IOCTL_DISK_GET_DRIVE_LAYOUT_EX
+title: IOCTL_DISK_GET_DRIVE_LAYOUT_EX (winioctl.h)
 author: windows-sdk-content
 description: Retrieves extended information for each entry in the partition tables for a disk.
 old-location: fs\ioctl_disk_get_drive_layout_ex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetWritingMode
-title: IMFTimedTextRegion::GetWritingMode
+title: IMFTimedTextRegion::GetWritingMode (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the writing mode of the region.
 old-location: mf\imftimedtextregion_getwritingmode.htm

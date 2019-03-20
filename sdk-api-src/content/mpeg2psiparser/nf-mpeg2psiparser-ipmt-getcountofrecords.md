@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetCountOfRecords
-title: IPMT::GetCountOfRecords
+title: IPMT::GetCountOfRecords (mpeg2psiparser.h)
 author: windows-sdk-content
 description: The GetCountOfRecords method returns the number of records in the PMT. Each record corresponds to a stream in the program.
 old-location: mstv\ipmt_getcountofrecords.htm

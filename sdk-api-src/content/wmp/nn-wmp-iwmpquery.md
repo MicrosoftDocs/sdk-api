@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPQuery
-title: IWMPQuery
+title: IWMPQuery (wmp.h)
 author: windows-sdk-content
 description: The IWMPQuery interface represents a compound query.
 old-location: wmp\iwmpquery.htm

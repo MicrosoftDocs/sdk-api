@@ -1,6 +1,6 @@
 ---
 UID: NE:wbemcli.tag_WBEM_CONNECT_OPTIONS
-title: WBEM_CONNECT_OPTIONS
+title: WBEM_CONNECT_OPTIONS (wbemcli.h)
 author: windows-sdk-content
 description: Contains flags for the IWbemLocator::ConnectServer method.
 old-location: wmi\wbem_connect_options.htm

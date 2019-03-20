@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3cc.AGENT_SESSION_STATE
-title: AGENT_SESSION_STATE
+title: AGENT_SESSION_STATE (tapi3cc.h)
 author: windows-sdk-content
 description: This AGENT_SESSION_STATE enum defines the agent session indicators used by the ITAgentSession::get_State and the ITAgentSession::put_State methods.
 old-location: tapi3\agent_session_state.htm

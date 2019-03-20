@@ -1,6 +1,6 @@
 ---
 UID: NN:vdshwprv.IVdsLun
-title: IVdsLun
+title: IVdsLun (vdshwprv.h)
 author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on a logical unit number (LUN).
 old-location: base\ivdslun.htm

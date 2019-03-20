@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskHandler.Stop
-title: ITaskHandler::Stop
+title: ITaskHandler::Stop (taskschd.h)
 author: windows-sdk-content
 description: Called to stop the COM handler.
 old-location: taskschd\itaskhandler_stop.htm

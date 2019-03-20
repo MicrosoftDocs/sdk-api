@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore3.BizruleGroupSupported
-title: IAzAuthorizationStore3::BizruleGroupSupported
+title: IAzAuthorizationStore3::BizruleGroupSupported (azroles.h)
 author: windows-sdk-content
 description: Returns a Boolean value that specifies whether this IAzAuthorizationStore3 object supports application groups that use business rule (BizRule) scripts.
 old-location: security\iazauthorizationstore3_bizrulegroupsupported_method.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineRegisterRequestRecipient
-title: lineRegisterRequestRecipient function
+title: lineRegisterRequestRecipient function (tapi.h)
 author: windows-sdk-content
 description: The lineRegisterRequestRecipient function registers the invoking application as a recipient of requests for the specified request mode.
 old-location: tapi2\lineregisterrequestrecipient.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_X509DATA_ITEM
-title: CRYPT_XML_X509DATA_ITEM
+title: CRYPT_XML_X509DATA_ITEM (cryptxml.h)
 author: windows-sdk-content
 description: Represents X.509 data that is to be encoded in an X509Data named element.
 old-location: security\crypt_xml_x509data_item.htm

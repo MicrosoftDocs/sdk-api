@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkOverlay.get_Selection
-title: IInkOverlay::get_Selection
+title: IInkOverlay::get_Selection (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the InkStrokes collection that is currently selected inside the InkOverlay object or the InkPicture control.
 old-location: tablet\inkoverlay_selection.htm

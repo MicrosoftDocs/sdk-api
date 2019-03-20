@@ -1,6 +1,6 @@
 ---
 UID: NS:winfax._FAX_LOG_CATEGORYA
-title: FAX_LOG_CATEGORYA
+title: FAX_LOG_CATEGORYA (winfax.h)
 author: windows-sdk-content
 description: The FAX_LOG_CATEGORY structure describes one logging category.
 old-location: fax\_mfax_fax_log_category_str.htm

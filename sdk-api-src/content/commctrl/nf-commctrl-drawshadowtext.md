@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.DrawShadowText
-title: DrawShadowText function
+title: DrawShadowText function (commctrl.h)
 author: windows-sdk-content
 description: Draws text that has a shadow.
 old-location: controls\DrawShadowText.htm

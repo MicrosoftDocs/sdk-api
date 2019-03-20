@@ -1,6 +1,6 @@
 ---
 UID: NC:bluetoothapis.PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK
-title: PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK
+title: PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK (bluetoothapis.h)
 author: windows-sdk-content
 description: A callback function prototype that is called once for each attribute found in the pSDPStream parameter passed to the BluetoothSdpEnumAttributes function call.
 old-location: bluetooth\pfn_bluetooth_enum_attributes_callback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumSubnetClientsV4
-title: DhcpEnumSubnetClientsV4 function
+title: DhcpEnumSubnetClientsV4 function (dhcpsapi.h)
 author: windows-sdk-content
 description: Returns an enumerated list of client lease records with served IP addresses in the specified subnet.
 old-location: dhcp\dhcpenumsubnetclientsv4.htm

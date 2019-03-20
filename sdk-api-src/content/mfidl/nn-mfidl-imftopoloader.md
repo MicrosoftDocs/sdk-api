@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFTopoLoader
-title: IMFTopoLoader
+title: IMFTopoLoader (mfidl.h)
 author: windows-sdk-content
 description: Converts a partial topology into a full topology.
 old-location: mf\imftopoloader.htm

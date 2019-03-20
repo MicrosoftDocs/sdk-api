@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetMops
-title: ICreateTypeInfo::SetMops
+title: ICreateTypeInfo::SetMops (oaidl.h)
 author: windows-sdk-content
 description: Sets the marshaling opcode string associated with the type description or the function.
 old-location: automat\icreatetypeinfo_setmops.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.SetRequestSignByDate
-title: IXpsSignatureRequest::SetRequestSignByDate
+title: IXpsSignatureRequest::SetRequestSignByDate (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Sets the date and time before which the requested signer must sign the specified parts of the document.
 old-location: xps\ixpssignaturerequest_setrequestsignbydate.htm

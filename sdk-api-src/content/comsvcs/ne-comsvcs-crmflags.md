@@ -1,6 +1,6 @@
 ---
 UID: NE:comsvcs.tagCRMFLAGS
-title: CRMFLAGS
+title: CRMFLAGS (comsvcs.h)
 author: windows-sdk-content
 description: Provides information about when a particular log record to the CRM compensator was written.
 old-location: cos\crmflags.htm

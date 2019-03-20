@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteFontFallbackBuilder.AddMappings
-title: IDWriteFontFallbackBuilder::AddMappings
+title: IDWriteFontFallbackBuilder::AddMappings (dwrite_2.h)
 author: windows-sdk-content
 description: Add all the mappings from an existing font fallback object.
 old-location: directwrite\idwritefontfallbackbuilder_addmappings.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:tcpestats.__unnamed_enum_0
-title: TCP_ESTATS_TYPE
+title: TCP_ESTATS_TYPE (tcpestats.h)
 author: windows-sdk-content
 description: Defines the type of extended statistics for a TCP connection that is requested or being set.
 old-location: iphlp\tcp_estats_type.htm

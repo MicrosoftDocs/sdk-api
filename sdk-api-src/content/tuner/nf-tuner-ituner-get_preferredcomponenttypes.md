@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuner.get_PreferredComponentTypes
-title: ITuner::get_PreferredComponentTypes
+title: ITuner::get_PreferredComponentTypes (tuner.h)
 author: windows-sdk-content
 description: The get_PreferredComponentTypes method gets the collection of ComponentType objects used for default component selection.
 old-location: mstv\ituner_get_preferredcomponenttypes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ime.tagIMESTRUCT
-title: IMESTRUCT
+title: IMESTRUCT (ime.h)
 author: windows-sdk-content
 description: Used by SendIMEMessageEx to specify the subfunction to be executed in the Input Method Editor (IME) message and its parameters. This structure is also used to receive return values from those subfunctions.
 old-location: winprog\_win32_imestruct.htm

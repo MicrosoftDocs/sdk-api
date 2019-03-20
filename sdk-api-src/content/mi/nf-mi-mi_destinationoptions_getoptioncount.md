@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetOptionCount
-title: MI_DestinationOptions_GetOptionCount function
+title: MI_DestinationOptions_GetOptionCount function (mi.h)
 author: windows-sdk-content
 description: Gets the number of options previously added.
 old-location: wmi_v2\mi_destinationoptions_getoptioncount.htm

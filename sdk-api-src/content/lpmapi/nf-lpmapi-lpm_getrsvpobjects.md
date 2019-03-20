@@ -1,6 +1,6 @@
 ---
 UID: NF:lpmapi.LPM_GetRsvpObjects
-title: LPM_GetRsvpObjects function
+title: LPM_GetRsvpObjects function (lpmapi.h)
 author: windows-sdk-content
 description: The LPM_GetRsvpObjects function allows the PCM to query LPMs for policy data.
 old-location: qos\lpm_getrsvpobjects.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkLineInfo.GetFormat
-title: IInkLineInfo::GetFormat
+title: IInkLineInfo::GetFormat (msinkaut.h)
 author: windows-sdk-content
 description: Returns the display properties currently set on the text ink object (tInk).
 old-location: tablet\iinklineinfo_getformat.htm

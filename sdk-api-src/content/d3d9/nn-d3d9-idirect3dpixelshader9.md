@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d9.IDirect3DPixelShader9
-title: IDirect3DPixelShader9
+title: IDirect3DPixelShader9 (d3d9.h)
 author: windows-sdk-content
 description: Applications use the methods of the IDirect3DPixelShader9 interface to encapsulate the functionality of a pixel shader.
 old-location: direct3d9\idirect3dpixelshader9.htm

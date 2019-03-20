@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlaylistCollection.importPlaylist
-title: IWMPPlaylistCollection::importPlaylist
+title: IWMPPlaylistCollection::importPlaylist (wmp.h)
 author: windows-sdk-content
 description: The importPlaylist method adds a static playlist to the library.
 old-location: wmp\iwmpplaylistcollection_importplaylist.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsvc.ControlServiceExA
-title: ControlServiceExA function
+title: ControlServiceExA function (winsvc.h)
 author: windows-sdk-content
 description: Sends a control code to a service.
 old-location: base\controlserviceex.htm

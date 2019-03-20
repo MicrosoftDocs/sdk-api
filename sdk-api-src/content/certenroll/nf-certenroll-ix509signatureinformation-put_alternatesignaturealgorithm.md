@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509SignatureInformation.put_AlternateSignatureAlgorithm
-title: IX509SignatureInformation::put_AlternateSignatureAlgorithm
+title: IX509SignatureInformation::put_AlternateSignatureAlgorithm (certenroll.h)
 author: windows-sdk-content
 description: Specifies and retrieves a Boolean value that specifies whether the GetSignatureAlgorithm method should retrieve a discrete or combined algorithm object identifier (OID) for a PKCS #10 certificate request.
 old-location: security\ix509signatureinformation_alternatesignaturealgorithm_property.htm

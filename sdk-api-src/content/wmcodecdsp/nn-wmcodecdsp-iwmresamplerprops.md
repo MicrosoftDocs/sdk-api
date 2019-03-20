@@ -1,6 +1,6 @@
 ---
 UID: NN:wmcodecdsp.IWMResamplerProps
-title: IWMResamplerProps
+title: IWMResamplerProps (wmcodecdsp.h)
 author: windows-sdk-content
 description: Sets properties on the audio resampler DSP.
 old-location: mf\iwmresamplerpropsinterface.htm

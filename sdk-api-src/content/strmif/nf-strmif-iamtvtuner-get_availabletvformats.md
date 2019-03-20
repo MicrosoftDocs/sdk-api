@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTVTuner.get_AvailableTVFormats
-title: IAMTVTuner::get_AvailableTVFormats
+title: IAMTVTuner::get_AvailableTVFormats (strmif.h)
 author: windows-sdk-content
 description: The get_AvailableTVFormats method retrieves all the analog video TV standards that the tuner supports.
 old-location: dshow\iamtvtuner_get_availabletvformats.htm

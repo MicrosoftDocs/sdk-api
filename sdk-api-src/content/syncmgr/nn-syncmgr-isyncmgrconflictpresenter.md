@@ -1,6 +1,6 @@
 ---
 UID: NN:syncmgr.ISyncMgrConflictPresenter
-title: ISyncMgrConflictPresenter
+title: ISyncMgrConflictPresenter (syncmgr.h)
 author: windows-sdk-content
 description: Exposes a method that presents a conflict to the user.
 old-location: shell\ISyncMgrConflictPresenter.htm

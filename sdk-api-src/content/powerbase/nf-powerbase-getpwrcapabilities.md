@@ -1,6 +1,6 @@
 ---
 UID: NF:powerbase.GetPwrCapabilities
-title: GetPwrCapabilities function
+title: GetPwrCapabilities function (powerbase.h)
 author: windows-sdk-content
 description: Retrieves information about the system power capabilities.
 old-location: base\getpwrcapabilities.htm

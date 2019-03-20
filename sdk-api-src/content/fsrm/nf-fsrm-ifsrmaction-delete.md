@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmAction.Delete
-title: IFsrmAction::Delete
+title: IFsrmAction::Delete (fsrm.h)
 author: windows-sdk-content
 description: Removes the action from the quota or file screen's list of actions.
 old-location: fsrm\ifsrmaction_delete.htm

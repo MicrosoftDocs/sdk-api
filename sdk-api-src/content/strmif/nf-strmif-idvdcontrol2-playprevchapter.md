@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.PlayPrevChapter
-title: IDvdControl2::PlayPrevChapter
+title: IDvdControl2::PlayPrevChapter (strmif.h)
 author: windows-sdk-content
 description: The PlayPrevChapter method starts playback from the beginning of the previous chapter in the current title.
 old-location: dshow\idvdcontrol2_playprevchapter.htm

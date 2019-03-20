@@ -1,6 +1,6 @@
 ---
 UID: NE:cmdtree.DBCOMMANDREUSEENUM
-title: DBCOMMANDREUSEENUM
+title: DBCOMMANDREUSEENUM (cmdtree.h)
 author: windows-sdk-content
 description: The DBCOMMANDREUSEENUM enumerated type specifies whether a state from the previous command is retained.
 old-location: indexsrv\dbcommandreuseenum.htm

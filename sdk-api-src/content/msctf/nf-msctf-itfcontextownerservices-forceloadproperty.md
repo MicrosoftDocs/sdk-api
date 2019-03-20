@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextOwnerServices.ForceLoadProperty
-title: ITfContextOwnerServices::ForceLoadProperty
+title: ITfContextOwnerServices::ForceLoadProperty (msctf.h)
 author: windows-sdk-content
 description: ITfContextOwnerServices::ForceLoadProperty method
 old-location: tsf\itfcontextownerservices_forceloadproperty.htm

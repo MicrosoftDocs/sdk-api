@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICImageEncoder
-title: IWICImageEncoder
+title: IWICImageEncoder (wincodec.h)
 author: windows-sdk-content
 description: Encodes ID2D1Image interfaces to an IWICBitmapEncoder.
 old-location: wic\iwicimageencoder.htm

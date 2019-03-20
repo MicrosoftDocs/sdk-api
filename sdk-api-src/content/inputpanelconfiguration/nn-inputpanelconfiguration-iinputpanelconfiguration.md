@@ -1,6 +1,6 @@
 ---
 UID: NN:inputpanelconfiguration.IInputPanelConfiguration
-title: IInputPanelConfiguration
+title: IInputPanelConfiguration (inputpanelconfiguration.h)
 author: windows-sdk-content
 description: Provides functionality for desktop apps to opt in to the focus tracking mechanism used in Windows Store apps.
 old-location: shell\iinputpanelconfiguration.htm

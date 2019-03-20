@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectType
-title: ID3D10EffectType
+title: ID3D10EffectType (d3d10effect.h)
 author: windows-sdk-content
 description: The ID3D10EffectType interface accesses effect variables by type.
 old-location: direct3d10\id3d10effecttype.htm

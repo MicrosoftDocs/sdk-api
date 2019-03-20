@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetIsClosed
-title: IXpsOMGeometryFigure::GetIsClosed
+title: IXpsOMGeometryFigure::GetIsClosed (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a value that indicates whether the figure is closed.
 old-location: xps\ixpsomgeometryfigure_getisclosed.htm

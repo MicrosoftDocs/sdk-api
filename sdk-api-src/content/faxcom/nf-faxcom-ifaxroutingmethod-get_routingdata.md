@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxRoutingMethod.get_RoutingData
-title: IFaxRoutingMethod::get_RoutingData
+title: IFaxRoutingMethod::get_RoutingData (faxcom.h)
 author: windows-sdk-content
 description: The IFaxRoutingMethod::get_RoutingData property is a null-terminated string that contains the routing string for an incoming fax transmission.
 old-location: fax\_mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_routingdata_cpp.htm

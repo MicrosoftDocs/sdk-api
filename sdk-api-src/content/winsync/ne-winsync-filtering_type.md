@@ -1,6 +1,6 @@
 ---
 UID: NE:winsync.__MIDL___MIDL_itf_winsync_0000_0000_0008
-title: FILTERING_TYPE
+title: FILTERING_TYPE (winsync.h)
 author: windows-sdk-content
 description: Indicates the type of information that is included in a change batch during filtered synchronization.
 old-location: winsync\filtering_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SetTargetPropertyWithVersionCheck
-title: ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck
+title: ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck (sbtsv.h)
 author: windows-sdk-content
 description: Sets the value of a property of a target.
 old-location: termserv\itssbresourcepluginstore_settargetpropertywithversioncheck.htm

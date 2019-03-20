@@ -1,6 +1,6 @@
 ---
 UID: NE:winsync.__MIDL___MIDL_itf_winsync_0000_0000_0002
-title: CONFLICT_RESOLUTION_POLICY
+title: CONFLICT_RESOLUTION_POLICY (winsync.h)
 author: windows-sdk-content
 description: Represents the options for the concurrency conflict resolution policy to use for the synchronization session.
 old-location: winsync\conflict_resolution_policy.htm

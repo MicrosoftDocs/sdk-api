@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorage4.GetReferences
-title: IWMDMStorage4::GetReferences
+title: IWMDMStorage4::GetReferences (mswmdm.h)
 author: windows-sdk-content
 description: The GetReferences method retrieves an array of pointers to IWMDMStorage objects pointed to by this storage. An abstract album or playlist is typically stored as a collection of references on an MTP device.
 old-location: wmdm\iwmdmstorage4_getreferences.htm

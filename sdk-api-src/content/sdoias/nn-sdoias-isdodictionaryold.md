@@ -1,6 +1,6 @@
 ---
 UID: NN:sdoias.ISdoDictionaryOld
-title: ISdoDictionaryOld
+title: ISdoDictionaryOld (sdoias.h)
 author: windows-sdk-content
 description: Use the ISdoDictionaryOld interface to manipulate the dictionary of Remote Access Dial-In User Service (RADIUS) attributes.
 old-location: nps\SDO_isdodictionaryold.htm

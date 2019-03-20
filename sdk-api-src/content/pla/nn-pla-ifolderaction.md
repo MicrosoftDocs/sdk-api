@@ -1,6 +1,6 @@
 ---
 UID: NN:pla.IFolderAction
-title: IFolderAction
+title: IFolderAction (pla.h)
 author: windows-sdk-content
 description: Specifies the actions that the data manager is to take on each folder under the data collector set's root path if both conditions (age and size) are met. To get this interface, call the IFolderActionCollection::CreateFolderAction method.
 old-location: pla\ifolderaction.htm

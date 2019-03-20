@@ -1,6 +1,6 @@
 ---
 UID: NF:wdsclientapi.WdsCliTransferFile
-title: WdsCliTransferFile function
+title: WdsCliTransferFile function (wdsclientapi.h)
 author: windows-sdk-content
 description: Transfers a file from a WDS server to the WDS client using a multicast transfer protocol.
 old-location: wds\wdsclitransferfile.htm

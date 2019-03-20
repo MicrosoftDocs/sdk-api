@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHAddToRecentDocs
-title: SHAddToRecentDocs function
+title: SHAddToRecentDocs function (shlobj_core.h)
 author: windows-sdk-content
 description: Notifies the system that an item has been accessed, for the purposes of tracking those items used most recently and most frequently. This function can also be used to clear all usage data.
 old-location: shell\SHAddToRecentDocs.htm

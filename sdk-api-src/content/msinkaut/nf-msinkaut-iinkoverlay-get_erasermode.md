@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkOverlay.get_EraserMode
-title: IInkOverlay::get_EraserMode
+title: IInkOverlay::get_EraserMode (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the value that specifies whether ink is erased by stroke or by point.
 old-location: tablet\inkoverlay_erasermode.htm

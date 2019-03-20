@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbTSInformationDescriptor.GetTag
-title: IIsdbTSInformationDescriptor::GetTag
+title: IIsdbTSInformationDescriptor::GetTag (dvbsiparser.h)
 author: windows-sdk-content
 description: Receives the tag that identifies an Integrated Services Digital Broadcasting (ISDB) transport stream (TS) information descriptor.
 old-location: mstv\iisdbtsinformationdescriptor_gettag.htm

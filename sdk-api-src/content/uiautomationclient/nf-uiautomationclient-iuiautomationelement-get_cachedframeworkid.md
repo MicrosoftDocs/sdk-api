@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedFrameworkId
-title: IUIAutomationElement::get_CachedFrameworkId
+title: IUIAutomationElement::get_CachedFrameworkId (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached name of the underlying UI framework associated with the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedFrameworkId.htm

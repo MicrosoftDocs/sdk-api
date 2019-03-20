@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IATSCChannelTuneRequest.put_MinorChannel
-title: IATSCChannelTuneRequest::put_MinorChannel
+title: IATSCChannelTuneRequest::put_MinorChannel (tuner.h)
 author: windows-sdk-content
 description: The put_MinorChannel method sets the minor channel to be tuned.
 old-location: mstv\iatscchanneltunerequest_put_minorchannel.htm

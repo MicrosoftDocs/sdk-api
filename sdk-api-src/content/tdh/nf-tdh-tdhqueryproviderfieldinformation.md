@@ -1,6 +1,6 @@
 ---
 UID: NF:tdh.TdhQueryProviderFieldInformation
-title: TdhQueryProviderFieldInformation function
+title: TdhQueryProviderFieldInformation function (tdh.h)
 author: windows-sdk-content
 description: Retrieves information for the specified field from the event descriptions for those field values that match the given value.
 old-location: etw\tdhqueryproviderfieldinformation_func.htm

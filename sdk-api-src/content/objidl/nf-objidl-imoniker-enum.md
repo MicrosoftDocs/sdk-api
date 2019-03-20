@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMoniker.Enum
-title: IMoniker::Enum
+title: IMoniker::Enum (objidl.h)
 author: windows-sdk-content
 description: Retrieves a pointer to an enumerator for the components of a composite moniker.
 old-location: com\imoniker_enum.htm

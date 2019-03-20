@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMCrossbar.get_CrossbarPinInfo
-title: IAMCrossbar::get_CrossbarPinInfo
+title: IAMCrossbar::get_CrossbarPinInfo (strmif.h)
 author: windows-sdk-content
 description: The get_CrossbarPinInfo method retrieves information about a specified pin.
 old-location: dshow\iamcrossbar_get_crossbarpininfo.htm

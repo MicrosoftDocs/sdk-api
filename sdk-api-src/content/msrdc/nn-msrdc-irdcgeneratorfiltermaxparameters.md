@@ -1,6 +1,6 @@
 ---
 UID: NN:msrdc.IRdcGeneratorFilterMaxParameters
-title: IRdcGeneratorFilterMaxParameters
+title: IRdcGeneratorFilterMaxParameters (msrdc.h)
 author: windows-sdk-content
 description: Sets and retrieves parameters used by the FilterMax generator.
 old-location: rdc\irdcgeneratorfiltermaxparameters.htm

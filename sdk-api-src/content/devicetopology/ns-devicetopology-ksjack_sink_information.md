@@ -1,6 +1,6 @@
 ---
 UID: NS:devicetopology._tagKSJACK_SINK_INFORMATION
-title: KSJACK_SINK_INFORMATION
+title: KSJACK_SINK_INFORMATION (devicetopology.h)
 author: windows-sdk-content
 description: The KSJACK_SINK_INFORMATION structure stores information about an audio jack sink.
 old-location: coreaudio\ksjack_sink_information.htm

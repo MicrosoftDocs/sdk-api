@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidRect.get_Width
-title: IMSVidRect::get_Width
+title: IMSVidRect::get_Width (segment.h)
 author: windows-sdk-content
 description: The get_Width method retrieves the width of the rectangle.
 old-location: mstv\imsvidrect_get_width.htm

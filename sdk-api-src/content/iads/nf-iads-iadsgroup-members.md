@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsGroup.Members
-title: IADsGroup::Members
+title: IADsGroup::Members (iads.h)
 author: windows-sdk-content
 description: Retrieves a collection of the immediate members of the group.
 old-location: adsi\iadsgroup_members.htm

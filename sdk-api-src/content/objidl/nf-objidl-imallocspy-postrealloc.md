@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMallocSpy.PostRealloc
-title: IMallocSpy::PostRealloc
+title: IMallocSpy::PostRealloc (objidl.h)
 author: windows-sdk-content
 description: Performs operations required after calling IMalloc::Realloc.
 old-location: com\imallocspy_postrealloc.htm

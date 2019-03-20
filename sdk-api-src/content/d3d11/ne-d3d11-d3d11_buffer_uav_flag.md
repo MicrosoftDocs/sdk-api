@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_BUFFER_UAV_FLAG
-title: D3D11_BUFFER_UAV_FLAG
+title: D3D11_BUFFER_UAV_FLAG (d3d11.h)
 author: windows-sdk-content
 description: Identifies unordered-access view options for a buffer resource.
 old-location: direct3d11\d3d11_buffer_uav_flag.htm

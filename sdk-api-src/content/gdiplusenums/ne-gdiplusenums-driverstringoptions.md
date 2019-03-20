@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.DriverStringOptions
-title: DriverStringOptions
+title: DriverStringOptions (gdiplusenums.h)
 author: windows-sdk-content
 description: The DriverStringOptions enumeration specifies the spacing, orientation, and quality of the rendering for driver strings.
 old-location: gdiplus\_gdiplus_ENUM_DriverStringOptions.htm

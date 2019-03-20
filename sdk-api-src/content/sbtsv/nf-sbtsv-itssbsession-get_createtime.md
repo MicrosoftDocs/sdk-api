@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbSession.get_CreateTime
-title: ITsSbSession::get_CreateTime
+title: ITsSbSession::get_CreateTime (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves or specifies the time the session was created.
 old-location: termserv\itssbsession_createtime.htm

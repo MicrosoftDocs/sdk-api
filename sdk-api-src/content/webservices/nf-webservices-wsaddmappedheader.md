@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsAddMappedHeader
-title: WsAddMappedHeader function
+title: WsAddMappedHeader function (webservices.h)
 author: windows-sdk-content
 description: Adds a specified mapped header to the message.
 old-location: wsw\wsaddmappedheader.htm

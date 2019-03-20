@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetNumberOfEventLogRecords
-title: GetNumberOfEventLogRecords function
+title: GetNumberOfEventLogRecords function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the number of records in the specified event log.
 old-location: base\getnumberofeventlogrecords.htm

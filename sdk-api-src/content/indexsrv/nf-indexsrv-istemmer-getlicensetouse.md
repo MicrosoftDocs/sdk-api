@@ -1,6 +1,6 @@
 ---
 UID: NF:indexsrv.IStemmer.GetLicenseToUse
-title: IStemmer::GetLicenseToUse
+title: IStemmer::GetLicenseToUse (indexsrv.h)
 author: windows-sdk-content
 description: Gets the license information for this IStemmer implementation.
 old-location: search\_search_IStemmer_GetLicenseToUse.htm

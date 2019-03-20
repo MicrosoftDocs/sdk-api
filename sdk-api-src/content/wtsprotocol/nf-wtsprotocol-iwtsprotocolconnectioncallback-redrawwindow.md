@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnectionCallback.RedrawWindow
-title: IWTSProtocolConnectionCallback::RedrawWindow
+title: IWTSProtocolConnectionCallback::RedrawWindow (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolConnectionCallback::RedrawWindow is no longer available. Instead, use IWRdsProtocolConnectionCallback::RedrawWindow.
 old-location: termserv\iwtsprotocolconnectioncallback_redrawwindow.htm

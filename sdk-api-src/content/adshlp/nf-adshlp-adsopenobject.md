@@ -1,6 +1,6 @@
 ---
 UID: NF:adshlp.ADsOpenObject
-title: ADsOpenObject function
+title: ADsOpenObject function (adshlp.h)
 author: windows-sdk-content
 description: Binds to an ADSI object using explicit user name and password credentials.
 old-location: adsi\adsopenobject.htm

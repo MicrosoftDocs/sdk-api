@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.StretchDIB
-title: StretchDIB function
+title: StretchDIB function (vfw.h)
 author: windows-sdk-content
 description: The StretchDIB function copies a device independent bitmap from one memory location to another and resizes the image to fit the destination rectangle.
 old-location: multimedia\stretchdib.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.SetSourceFromByteStream
-title: IMFMediaEngineEx::SetSourceFromByteStream
+title: IMFMediaEngineEx::SetSourceFromByteStream (mfmediaengine.h)
 author: windows-sdk-content
 description: Opens a media resource from a byte stream.
 old-location: mf\imfmediaengineex_setsourcefrombytestream.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.createPartnership
-title: IWMPSyncDevice::createPartnership
+title: IWMPSyncDevice::createPartnership (wmp.h)
 author: windows-sdk-content
 description: The createPartnership method creates a partnership between Windows Media Player and the device.
 old-location: wmp\iwmpsyncdevice_createpartnership.htm

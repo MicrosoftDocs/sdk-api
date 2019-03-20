@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.CLRES_V1_FUNCTION_TABLE
-title: CLRES_V1_FUNCTION_TABLE macro
+title: CLRES_V1_FUNCTION_TABLE macro (resapi.h)
 author: windows-sdk-content
 description: Initializes a function table for version 1.0 of the Resource API.
 old-location: mscs\clres_v1_function_table.htm

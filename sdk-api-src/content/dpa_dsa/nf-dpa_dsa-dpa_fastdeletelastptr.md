@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DPA_FastDeleteLastPtr
-title: DPA_FastDeleteLastPtr macro
+title: DPA_FastDeleteLastPtr macro (dpa_dsa.h)
 author: windows-sdk-content
 description: Deletes the last pointer from a dynamic pointer array (DPA).
 old-location: controls\DPA_FastDeleteLastPtr.htm

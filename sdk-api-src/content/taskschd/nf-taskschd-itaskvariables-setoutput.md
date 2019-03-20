@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskVariables.SetOutput
-title: ITaskVariables::SetOutput
+title: ITaskVariables::SetOutput (taskschd.h)
 author: windows-sdk-content
 description: Sets the output variables for a task.
 old-location: taskschd\itaskvariables_setoutput.htm

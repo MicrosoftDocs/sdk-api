@@ -1,6 +1,6 @@
 ---
 UID: NF:t2embapi.TTRunValidationTests
-title: TTRunValidationTests function
+title: TTRunValidationTests function (t2embapi.h)
 author: windows-sdk-content
 description: Validates part or all glyph data of a wide-character (16-bit) font, in the size range specified.
 old-location: gdi\ttrunvalidationtests.htm

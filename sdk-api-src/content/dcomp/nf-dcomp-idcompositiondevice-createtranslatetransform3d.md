@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateTranslateTransform3D
-title: IDCompositionDevice::CreateTranslateTransform3D
+title: IDCompositionDevice::CreateTranslateTransform3D (dcomp.h)
 author: windows-sdk-content
 description: Creates a 3D translation transform object.
 old-location: directcomp\idcompositiondevice_createtranslatetransform3d.htm

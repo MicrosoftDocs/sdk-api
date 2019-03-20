@@ -1,6 +1,6 @@
 ---
 UID: NN:xapo.IXAPO
-title: IXAPO
+title: IXAPO (xapo.h)
 author: windows-sdk-content
 description: The interface for an Audio Processing Object which be used in an XAudio2 effect chain.
 old-location: xaudio2\ixapo.htm

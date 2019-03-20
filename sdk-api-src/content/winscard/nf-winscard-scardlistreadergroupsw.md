@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardListReaderGroupsW
-title: SCardListReaderGroupsW function
+title: SCardListReaderGroupsW function (winscard.h)
 author: windows-sdk-content
 description: Provides the list of reader groups that have previously been introduced to the system.
 old-location: security\scardlistreadergroups.htm

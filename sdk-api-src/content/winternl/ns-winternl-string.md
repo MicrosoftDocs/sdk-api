@@ -1,6 +1,6 @@
 ---
 UID: NS:winternl._STRING
-title: STRING
+title: STRING (winternl.h)
 author: windows-sdk-content
 description: Used with the RtlUnicodeStringToOemString function.
 old-location: winprog\_win32_string.htm

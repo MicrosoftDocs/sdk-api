@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagLAYERPLANEDESCRIPTOR
-title: LAYERPLANEDESCRIPTOR
+title: LAYERPLANEDESCRIPTOR (wingdi.h)
 author: windows-sdk-content
 description: The LAYERPLANEDESCRIPTOR structure describes the pixel format of a drawing surface.
 old-location: opengl\layerplanedescriptor.htm

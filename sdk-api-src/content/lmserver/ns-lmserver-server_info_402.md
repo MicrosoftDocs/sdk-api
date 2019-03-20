@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_402
-title: SERVER_INFO_402
+title: SERVER_INFO_402 (lmserver.h)
 author: windows-sdk-content
 description: Contains information about a specified server.
 old-location: netmgmt\server_info_402_str.htm

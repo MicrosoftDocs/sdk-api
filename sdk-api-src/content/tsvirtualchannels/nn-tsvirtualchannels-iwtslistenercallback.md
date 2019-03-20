@@ -1,6 +1,6 @@
 ---
 UID: NN:tsvirtualchannels.IWTSListenerCallback
-title: IWTSListenerCallback
+title: IWTSListenerCallback (tsvirtualchannels.h)
 author: windows-sdk-content
 description: Used to notify the Remote Desktop Connection (RDC) client plug-in about incoming requests on a particular listener.
 old-location: termserv\iwtslistenercallback.htm

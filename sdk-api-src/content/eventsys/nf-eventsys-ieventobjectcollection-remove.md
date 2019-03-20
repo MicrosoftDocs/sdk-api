@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventObjectCollection.Remove
-title: IEventObjectCollection::Remove
+title: IEventObjectCollection::Remove (eventsys.h)
 author: windows-sdk-content
 description: Removes an event object from the collection.
 old-location: cos\ieventobjectcollection_remove.htm

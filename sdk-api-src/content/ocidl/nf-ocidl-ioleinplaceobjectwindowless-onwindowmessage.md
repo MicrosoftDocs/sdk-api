@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleInPlaceObjectWindowless.OnWindowMessage
-title: IOleInPlaceObjectWindowless::OnWindowMessage
+title: IOleInPlaceObjectWindowless::OnWindowMessage (ocidl.h)
 author: windows-sdk-content
 description: Dispatches a message from a container to a windowless object that is in-place active.
 old-location: com\ioleinplaceobjectwindowless_onwindowmessage.htm

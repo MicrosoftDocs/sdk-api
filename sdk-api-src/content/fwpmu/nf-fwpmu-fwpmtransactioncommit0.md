@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmTransactionCommit0
-title: FwpmTransactionCommit0 function
+title: FwpmTransactionCommit0 function (fwpmu.h)
 author: windows-sdk-content
 description: Commits the current transaction within the current session.
 old-location: fwp\fwpmtransactioncommit0_func.htm

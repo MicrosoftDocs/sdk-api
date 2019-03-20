@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreateMFByteStreamWrapper
-title: MFCreateMFByteStreamWrapper function
+title: MFCreateMFByteStreamWrapper function (mfapi.h)
 author: windows-sdk-content
 description: Creates a wrapper for a byte stream.
 old-location: mf\mfcreatemfbytestreamwrapper.htm

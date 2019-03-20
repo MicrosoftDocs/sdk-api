@@ -1,6 +1,6 @@
 ---
 UID: NF:mscat.CryptCATAdminReleaseCatalogContext
-title: CryptCATAdminReleaseCatalogContext function
+title: CryptCATAdminReleaseCatalogContext function (mscat.h)
 author: windows-sdk-content
 description: Releases a handle to a catalog context previously returned by the CryptCATAdminAddCatalog function.
 old-location: security\cryptcatadminreleasecatalogcontext.htm

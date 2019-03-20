@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextServices.TxGetDropTarget
-title: ITextServices::TxGetDropTarget
+title: ITextServices::TxGetDropTarget (textserv.h)
 author: windows-sdk-content
 description: Gets the drop target for the text control.
 old-location: controls\ITextServices_TxGetDropTarget.htm

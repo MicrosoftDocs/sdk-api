@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CreateMenu
-title: CreateMenu function
+title: CreateMenu function (winuser.h)
 author: windows-sdk-content
 description: Creates a menu. The menu is initially empty, but it can be filled with menu items by using the InsertMenuItem, AppendMenu, and InsertMenu functions.
 old-location: menurc\createmenu.htm

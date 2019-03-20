@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanGetFilterList
-title: WlanGetFilterList function
+title: WlanGetFilterList function (wlanapi.h)
 author: windows-sdk-content
 description: Retrieves a group policy or user permission list.
 old-location: nwifi\wlangetfilterlist.htm

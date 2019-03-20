@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionRectangleClip.SetBottom(IDCompositionAnimation)
-title: IDCompositionRectangleClip::SetBottom(IDCompositionAnimation)
+title: IDCompositionRectangleClip::SetBottom(IDCompositionAnimation) (dcomp.h)
 author: windows-sdk-content
 description: Animates the value of the Bottom property of a clip rectangle.
 old-location: directcomp\idcompositionrectangleclip_setbottom_idcompositionanimation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderFilter.GetEnumFlags
-title: IFolderFilter::GetEnumFlags
+title: IFolderFilter::GetEnumFlags (shobjidl_core.h)
 author: windows-sdk-content
 description: Allows a client to specify which classes of objects in a Shell folder should be enumerated. When used with SHBrowseForFolder, specifies the class or classes of items that should be shown in the dialog box tree view and which class or classes should not.
 old-location: shell\IFolderFilter_GetEnumFlags.htm

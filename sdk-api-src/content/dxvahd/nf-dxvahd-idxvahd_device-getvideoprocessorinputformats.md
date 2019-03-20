@@ -1,6 +1,6 @@
 ---
 UID: NF:dxvahd.IDXVAHD_Device.GetVideoProcessorInputFormats
-title: IDXVAHD_Device::GetVideoProcessorInputFormats
+title: IDXVAHD_Device::GetVideoProcessorInputFormats (dxvahd.h)
 author: windows-sdk-content
 description: Gets a list of the input formats supported by the Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\idxvahd_device_getvideoprocessorinputformats.htm

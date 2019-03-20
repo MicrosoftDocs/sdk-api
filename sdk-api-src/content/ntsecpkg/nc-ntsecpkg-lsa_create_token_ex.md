@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_CREATE_TOKEN_EX
-title: LSA_CREATE_TOKEN_EX
+title: LSA_CREATE_TOKEN_EX (ntsecpkg.h)
 author: windows-sdk-content
 description: Creates tokens while processing calls to SpAcceptLsaModeContext.
 old-location: security\createtokenex.htm

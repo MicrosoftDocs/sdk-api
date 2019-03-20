@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagMOUSEINPUT
-title: MOUSEINPUT
+title: MOUSEINPUT (winuser.h)
 author: windows-sdk-content
 description: Contains information about a simulated mouse event.
 old-location: inputdev\mouseinput.htm

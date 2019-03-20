@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IConfigurationDataCollector.put_RegistryKeys
-title: IConfigurationDataCollector::put_RegistryKeys
+title: IConfigurationDataCollector::put_RegistryKeys (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets a list of registry keys to collect.
 old-location: pla\iconfigurationdatacollector_registrykeys.htm

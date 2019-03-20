@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzTask.get_Writable
-title: IAzTask::get_Writable
+title: IAzTask::get_Writable (azroles.h)
 author: windows-sdk-content
 description: Retrieves a value that indicates whether the task can be modified by the user context that initialized it.
 old-location: security\iaztask_writable.htm

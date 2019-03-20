@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.IsPlaybackRateSupported
-title: IMFMediaEngineEx::IsPlaybackRateSupported
+title: IMFMediaEngineEx::IsPlaybackRateSupported (mfmediaengine.h)
 author: windows-sdk-content
 description: Queries whether the Media Engine can play at a specified playback rate.
 old-location: mf\imfmediaengineex_isplaybackratesupported.htm

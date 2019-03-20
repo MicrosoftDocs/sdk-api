@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGroupUnregisterEvent
-title: PeerGroupUnregisterEvent function
+title: PeerGroupUnregisterEvent function (p2p.h)
 author: windows-sdk-content
 description: The PeerGroupUnregisterEvent function unregisters a peer from notification of peer events associated with the supplied event handle.
 old-location: p2p\peergroupunregisterevent.htm

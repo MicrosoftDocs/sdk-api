@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFTGetInfo
-title: MFTGetInfo function
+title: MFTGetInfo function (mfapi.h)
 author: windows-sdk-content
 description: Gets information from the registry about a Media Foundation transform (MFT).
 old-location: mf\mftgetinfo.htm

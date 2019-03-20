@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentHelper.Enroll
-title: IX509EnrollmentHelper::Enroll
+title: IX509EnrollmentHelper::Enroll (certenroll.h)
 author: windows-sdk-content
 description: Enrolls a certificate request and retrieves the issued certificate.
 old-location: security\ix509enrollmenthelper_enroll.htm

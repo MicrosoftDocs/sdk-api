@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmMonitorLogRecords.GetLogRecord
-title: ICrmMonitorLogRecords::GetLogRecord
+title: ICrmMonitorLogRecords::GetLogRecord (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves an unstructured log record given its numeric index.
 old-location: cos\icrmmonitorlogrecords_getlogrecord.htm

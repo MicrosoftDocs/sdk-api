@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._FILE_ID_INFO
-title: FILE_ID_INFO
+title: FILE_ID_INFO (winbase.h)
 author: windows-sdk-content
 description: Contains identification information for a file.
 old-location: fs\file_id_info.htm

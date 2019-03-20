@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.SaveDC
-title: SaveDC function
+title: SaveDC function (wingdi.h)
 author: windows-sdk-content
 description: The SaveDC function saves the current state of the specified device context (DC) by copying data describing selected objects and graphic modes (such as the bitmap, brush, palette, font, pen, region, drawing mode, and mapping mode) to a context stack.
 old-location: gdi\savedc.htm

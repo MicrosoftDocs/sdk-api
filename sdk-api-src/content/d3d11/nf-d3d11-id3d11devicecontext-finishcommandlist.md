@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.FinishCommandList
-title: ID3D11DeviceContext::FinishCommandList
+title: ID3D11DeviceContext::FinishCommandList (d3d11.h)
 author: windows-sdk-content
 description: Create a command list and record graphics commands into it.
 old-location: direct3d11\id3d11devicecontext_finishcommandlist.htm

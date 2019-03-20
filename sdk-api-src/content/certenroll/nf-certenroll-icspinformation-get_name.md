@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformation.get_Name
-title: ICspInformation::get_Name
+title: ICspInformation::get_Name (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the name.
 old-location: security\icspinformation_name_property.htm

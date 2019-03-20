@@ -1,6 +1,6 @@
 ---
 UID: NF:refptrco.TRefPointerCollection.EndEnum
-title: TRefPointerCollection::EndEnum
+title: TRefPointerCollection::EndEnum (refptrco.h)
 author: windows-sdk-content
 description: The EndEnum method ends the enumeration of the collection.
 old-location: wmi\trefpointercollection_endenum.htm

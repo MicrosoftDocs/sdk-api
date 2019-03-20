@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.GetWidthScale
-title: CustomLineCap::GetWidthScale
+title: CustomLineCap::GetWidthScale (gdiplusheaders.h)
 author: windows-sdk-content
 description: The CustomLineCap::GetWidthScale method gets the value of the scale width. This is the amount to scale the custom line cap relative to the width of the Pen object used to draw a line. The default value of 1.0 does not scale the line cap.
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_GetWidthScale_.htm

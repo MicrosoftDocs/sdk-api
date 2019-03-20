@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateDiscreteTransition
-title: IUIAnimationTransitionLibrary2::CreateDiscreteTransition
+title: IUIAnimationTransitionLibrary2::CreateDiscreteTransition (uianimation.h)
 author: windows-sdk-content
 description: Creates a discrete scalar transition.
 old-location: uianimation\iuianimationtransitionlibrary2_creatediscretetransition.htm

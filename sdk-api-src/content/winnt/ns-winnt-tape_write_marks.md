@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._TAPE_WRITE_MARKS
-title: TAPE_WRITE_MARKS
+title: TAPE_WRITE_MARKS (winnt.h)
 author: windows-sdk-content
 description: Describes the type and number of tapemarks to write.
 old-location: backup\tape_write_marks_str.htm

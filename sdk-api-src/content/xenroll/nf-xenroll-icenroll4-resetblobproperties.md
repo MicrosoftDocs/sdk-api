@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll4.resetBlobProperties
-title: ICEnroll4::resetBlobProperties
+title: ICEnroll4::resetBlobProperties (xenroll.h)
 author: windows-sdk-content
 description: Resets the properties of a BLOB.
 old-location: security\icenroll4_resetblobproperties.htm

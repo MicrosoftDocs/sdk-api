@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IATSCLocator.put_PhysicalChannel
-title: IATSCLocator::put_PhysicalChannel
+title: IATSCLocator::put_PhysicalChannel (tuner.h)
 author: windows-sdk-content
 description: The put_PhysicalChannel method sets the physical channel.
 old-location: mstv\iatsclocator_put_physicalchannel.htm

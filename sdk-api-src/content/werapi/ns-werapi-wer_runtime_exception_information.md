@@ -1,6 +1,6 @@
 ---
 UID: NS:werapi._WER_RUNTIME_EXCEPTION_INFORMATION
-title: WER_RUNTIME_EXCEPTION_INFORMATION
+title: WER_RUNTIME_EXCEPTION_INFORMATION (werapi.h)
 author: windows-sdk-content
 description: Contains the exception information that you use to determine whether you want to claim the crash.
 old-location: wer\wer_runtime_exception_information.htm

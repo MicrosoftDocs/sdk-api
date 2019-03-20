@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPM.GetConstants
-title: IGPM::GetConstants
+title: IGPM::GetConstants (gpmgmt.h)
 author: windows-sdk-content
 description: Creates and returns a GPMConstants object that allows you to retrieve the value of multiple Group Policy Management Console (GPMC) constants.
 old-location: gpmc\igpm_getconstants.htm

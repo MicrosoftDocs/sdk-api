@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetRecordStreamType
-title: IPMT::GetRecordStreamType
+title: IPMT::GetRecordStreamType (mpeg2psiparser.h)
 author: windows-sdk-content
 description: The GetRecordStreamType method returns the stream type for a given elementary stream in the program.
 old-location: mstv\ipmt_getrecordstreamtype.htm

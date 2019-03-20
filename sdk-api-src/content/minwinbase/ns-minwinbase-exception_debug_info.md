@@ -1,6 +1,6 @@
 ---
 UID: NS:minwinbase._EXCEPTION_DEBUG_INFO
-title: EXCEPTION_DEBUG_INFO
+title: EXCEPTION_DEBUG_INFO (minwinbase.h)
 author: windows-sdk-content
 description: Contains exception information that can be used by a debugger.
 old-location: base\exception_debug_info_str.htm

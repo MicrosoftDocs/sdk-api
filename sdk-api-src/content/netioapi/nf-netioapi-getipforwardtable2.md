@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.GetIpForwardTable2
-title: GetIpForwardTable2 function
+title: GetIpForwardTable2 function (netioapi.h)
 author: windows-sdk-content
 description: The GetIpForwardTable2 function retrieves the IP route entries on the local computer.
 old-location: iphlp\getipforwardtable2.htm

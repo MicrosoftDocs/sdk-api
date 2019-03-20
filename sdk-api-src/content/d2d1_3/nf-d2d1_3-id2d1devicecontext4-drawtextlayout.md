@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext4.DrawTextLayout
-title: ID2D1DeviceContext4::DrawTextLayout
+title: ID2D1DeviceContext4::DrawTextLayout (d2d1_3.h)
 author: windows-sdk-content
 description: Draws a text layout object. If the layout is not subsequently changed, this can be more efficient than DrawText when drawing the same layout repeatedly.
 old-location: direct2d\id2d1devicecontext4_drawtextlayout.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.GetStatus
-title: IBackgroundCopyGroup::GetStatus
+title: IBackgroundCopyGroup::GetStatus (qmgr.h)
 author: windows-sdk-content
 description: Use the GetStatus method to retrieve the state of the group.
 old-location: bits\ibackgroundcopygroup_getstatus.htm

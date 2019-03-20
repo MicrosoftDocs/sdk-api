@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgPdu.get_Index
-title: IMbnSmsReadMsgPdu::get_Index
+title: IMbnSmsReadMsgPdu::get_Index (mbnapi.h)
 author: windows-sdk-content
 description: The index of the message in the device SMS store.
 old-location: mbn\imbnsmsreadmsgpdu_index.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsVerifyXmlNCName
-title: WsVerifyXmlNCName function
+title: WsVerifyXmlNCName function (webservices.h)
 author: windows-sdk-content
 description: Verifies whether the input string is a valid XML NCName.
 old-location: wsw\wsverifyxmlncname.htm

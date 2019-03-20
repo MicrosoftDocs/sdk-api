@@ -1,6 +1,6 @@
 ---
 UID: NN:imepad.IImeSpecifyApplets
-title: IImeSpecifyApplets
+title: IImeSpecifyApplets (imepad.h)
 author: windows-sdk-content
 description: The IImeSpecifyApplets interface specifies methods called from the IImePad interface object to emulate the IImePadApplet interface.
 old-location: intl\iimespecifyapplets.htm

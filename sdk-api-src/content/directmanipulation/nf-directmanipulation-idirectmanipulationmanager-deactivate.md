@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationManager.Deactivate
-title: IDirectManipulationManager::Deactivate
+title: IDirectManipulationManager::Deactivate (directmanipulation.h)
 author: windows-sdk-content
 description: Deactivates Direct Manipulation for processing input and handling callbacks on the specified window.
 old-location: directmanipulation\idirectmanipulationmanager_deactivate.htm

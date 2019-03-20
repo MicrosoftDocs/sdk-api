@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.OpenClusterCryptProvider
-title: OpenClusterCryptProvider function
+title: OpenClusterCryptProvider function (resapi.h)
 author: windows-sdk-content
 description: Opens a handle to a Cryptographic Service Provider (CSP) in order to manage the encryption of Checkpointing data for a cluster resource. The POPEN_CLUSTER_CRYPT_PROVIDER type defines a pointer to this function.
 old-location: mscs\openclustercryptprovider.htm

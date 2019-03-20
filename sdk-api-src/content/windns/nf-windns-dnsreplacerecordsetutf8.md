@@ -1,6 +1,6 @@
 ---
 UID: NF:windns.DnsReplaceRecordSetUTF8
-title: DnsReplaceRecordSetUTF8 function
+title: DnsReplaceRecordSetUTF8 function (windns.h)
 author: windows-sdk-content
 description: Replaces an existing resource record (RR) set.
 old-location: dns\dnsreplacerecordset.htm

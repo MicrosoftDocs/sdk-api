@@ -1,6 +1,6 @@
 ---
 UID: NS:lmdfs._DFS_INFO_104
-title: DFS_INFO_104
+title: DFS_INFO_104 (lmdfs.h)
 author: windows-sdk-content
 description: Contains the priority of a DFS root target or link target.
 old-location: dfs\dfs_info_104.htm

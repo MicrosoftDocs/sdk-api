@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESValueUpdatedEvent.GetValueNames
-title: IESValueUpdatedEvent::GetValueNames
+title: IESValueUpdatedEvent::GetValueNames (tuner.h)
 author: windows-sdk-content
 description: For a name-value pair in the PBDA General Purpose Name-Value Service, gets the name for the value that has been updated.
 old-location: mstv\iesvalueupdatedevent_getvaluenames.htm

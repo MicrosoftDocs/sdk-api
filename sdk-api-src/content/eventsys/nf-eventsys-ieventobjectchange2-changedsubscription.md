@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventObjectChange2.ChangedSubscription
-title: IEventObjectChange2::ChangedSubscription
+title: IEventObjectChange2::ChangedSubscription (eventsys.h)
 author: windows-sdk-content
 description: Indicates that a subscription object has been added, modified, or deleted.
 old-location: cos\ieventobjectchange2_changedsubscription.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantToInt32Array
-title: VariantToInt32Array function
+title: VariantToInt32Array function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts data from a vector structure into an Int32 array.
 old-location: properties\VariantToInt32Array.htm

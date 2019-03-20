@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.SetEnabledUnicodeRanges
-title: SetEnabledUnicodeRanges function
+title: SetEnabledUnicodeRanges function (recapis.h)
 author: windows-sdk-content
 description: Enables one or more Unicode point ranges on the context.
 old-location: tablet\setenabledunicoderanges.htm

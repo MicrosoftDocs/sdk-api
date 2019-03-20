@@ -1,6 +1,6 @@
 ---
 UID: NS:lmshare._CONNECTION_INFO_1
-title: CONNECTION_INFO_1
+title: CONNECTION_INFO_1 (lmshare.h)
 author: windows-sdk-content
 description: Contains the identification number of a connection, number of open files, connection time, number of users on the connection, and the type of connection.
 old-location: fs\connection_info_1_str.htm

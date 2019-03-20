@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.GetLineJoin
-title: Pen::GetLineJoin
+title: Pen::GetLineJoin (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::GetLineJoin method gets the line join style currently set for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetLineJoin_.htm

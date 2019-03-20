@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.NODE_CLUSTER_STATE
-title: NODE_CLUSTER_STATE
+title: NODE_CLUSTER_STATE (clusapi.h)
 author: windows-sdk-content
 description: Indicates the state of the cluster.
 old-location: mscs\node_cluster_state.htm

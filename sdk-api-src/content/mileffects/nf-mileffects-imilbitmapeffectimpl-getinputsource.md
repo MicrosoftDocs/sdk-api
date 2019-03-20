@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectImpl.GetInputSource
-title: IMILBitmapEffectImpl::GetInputSource
+title: IMILBitmapEffectImpl::GetInputSource (mileffects.h)
 author: windows-sdk-content
 description: Retrieves the input IWICBitmapSource Interface.
 old-location: wibe\_wibe_imilbitmapeffectimpl_getinputsource.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:dxvahd.PDXVAHDSW_GetVideoProcessBltStatePrivate
-title: PDXVAHDSW_GetVideoProcessBltStatePrivate
+title: PDXVAHDSW_GetVideoProcessBltStatePrivate (dxvahd.h)
 author: windows-sdk-content
 description: Gets a private blit state from a software Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
 old-location: mf\pdxvahdsw_getvideoprocessbltstateprivate.htm

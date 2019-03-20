@@ -1,6 +1,6 @@
 ---
 UID: NE:naptypes.tagExtendedIsolationState
-title: ExtendedIsolationState
+title: ExtendedIsolationState (naptypes.h)
 author: windows-sdk-content
 description: Describes the extended isolation state of a connection.
 old-location: nap\extendedisolationstate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_UseNotificationsOnly
-title: ISearchRoot::get_UseNotificationsOnly
+title: ISearchRoot::get_UseNotificationsOnly (searchapi.h)
 author: windows-sdk-content
 description: Gets a value that indicates whether this search root should be indexed only by notification and not crawled.
 old-location: search\_search_ISearchRoot_get_UseNotificationsOnly.htm

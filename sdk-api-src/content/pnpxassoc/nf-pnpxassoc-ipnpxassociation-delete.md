@@ -1,6 +1,6 @@
 ---
 UID: NF:pnpxassoc.IPNPXAssociation.Delete
-title: IPNPXAssociation::Delete
+title: IPNPXAssociation::Delete (pnpxassoc.h)
 author: windows-sdk-content
 description: Removes an entry from the association database.
 old-location: ncd\ipnpxassociation_delete.htm

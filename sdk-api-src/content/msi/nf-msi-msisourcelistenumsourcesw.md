@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiSourceListEnumSourcesW
-title: MsiSourceListEnumSourcesW function
+title: MsiSourceListEnumSourcesW function (msi.h)
 author: windows-sdk-content
 description: The MsiSourceListEnumSources function enumerates the sources in the source list of a specified patch or product.
 old-location: setup\msisourcelistenumsources.htm

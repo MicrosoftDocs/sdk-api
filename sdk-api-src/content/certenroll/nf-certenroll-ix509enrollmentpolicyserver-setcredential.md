@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.SetCredential
-title: IX509EnrollmentPolicyServer::SetCredential
+title: IX509EnrollmentPolicyServer::SetCredential (certenroll.h)
 author: windows-sdk-content
 description: Sets the credential used to contact the certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_setcredential.htm

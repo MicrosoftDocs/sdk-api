@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HTTP_NOT_EQUAL_VERSION
-title: HTTP_NOT_EQUAL_VERSION macro
+title: HTTP_NOT_EQUAL_VERSION macro (http.h)
 author: windows-sdk-content
 description: Returns a non-zero value if an HTTP_VERSION structure is greater or less than a specified major/minor version combination, or zero if it is equal.
 old-location: http\http_not_equal_version.htm

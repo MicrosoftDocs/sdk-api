@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_GetBkColor
-title: ImageList_GetBkColor function
+title: ImageList_GetBkColor function (commctrl.h)
 author: windows-sdk-content
 description: Retrieves the current background color for an image list.
 old-location: controls\ImageList_GetBkColor.htm

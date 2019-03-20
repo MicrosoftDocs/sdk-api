@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.GetElapsedTime
-title: IUIAnimationStoryboard2::GetElapsedTime
+title: IUIAnimationStoryboard2::GetElapsedTime (uianimation.h)
 author: windows-sdk-content
 description: Gets the time that has elapsed since the storyboard started playing.
 old-location: uianimation\iuianimationstoryboard2_getelapsedtime.htm

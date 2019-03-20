@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetParent
-title: SetParent function
+title: SetParent function (winuser.h)
 author: windows-sdk-content
 description: Changes the parent window of the specified child window.
 old-location: winmsg\setparent.htm

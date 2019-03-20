@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.D2D1CreateDevice
-title: D2D1CreateDevice function
+title: D2D1CreateDevice function (d2d1_1.h)
 author: windows-sdk-content
 description: Creates a new Direct2D device associated with the provided DXGI device.
 old-location: direct2d\d2d1createdevice.htm

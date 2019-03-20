@@ -1,6 +1,6 @@
 ---
 UID: NS:routprot._SUPPORT_FUNCTIONS_60
-title: SUPPORT_FUNCTIONS_60
+title: SUPPORT_FUNCTIONS_60 (routprot.h)
 author: windows-sdk-content
 description: The SUPPORT_FUNCTIONS structure is used by the router manager to pass the routing protocol a set of pointers to functions provided by the router manager.
 old-location: rras\support_functions.htm

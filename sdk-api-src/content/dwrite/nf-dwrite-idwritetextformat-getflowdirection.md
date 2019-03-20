@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetFlowDirection
-title: IDWriteTextFormat::GetFlowDirection
+title: IDWriteTextFormat::GetFlowDirection (dwrite.h)
 author: windows-sdk-content
 description: Gets the direction that text lines flow.
 old-location: directwrite\IDWriteTextFormat_GetFlowDirection.htm

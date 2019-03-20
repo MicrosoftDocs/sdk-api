@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineGetRequestW
-title: lineGetRequestW function
+title: lineGetRequestW function (tapi.h)
 author: windows-sdk-content
 description: Retrieves the next by-proxy request for the specified request mode.
 old-location: tapi2\linegetrequest.htm

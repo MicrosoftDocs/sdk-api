@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_STRONG_SIGN_SERIALIZED_INFO
-title: CERT_STRONG_SIGN_SERIALIZED_INFO
+title: CERT_STRONG_SIGN_SERIALIZED_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains the signature algorithm/hash algorithm and public key algorithm/bit length pairs that can be used for strong signing.
 old-location: security\cert_strong_sign_serialized_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._GROUP_AFFINITY
-title: GROUP_AFFINITY
+title: GROUP_AFFINITY (winnt.h)
 author: windows-sdk-content
 description: Represents a processor group-specific affinity, such as the affinity of a thread.
 old-location: base\group_affinity.htm

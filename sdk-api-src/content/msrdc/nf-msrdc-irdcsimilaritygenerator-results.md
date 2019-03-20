@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcSimilarityGenerator.Results
-title: IRdcSimilarityGenerator::Results
+title: IRdcSimilarityGenerator::Results (msrdc.h)
 author: windows-sdk-content
 description: Retrieves the similarity data that was generated for a file by the signature generator.
 old-location: rdc\irdcsimilaritygenerator_results.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:winevt._EVT_VARIANT_TYPE
-title: EVT_VARIANT_TYPE
+title: EVT_VARIANT_TYPE (winevt.h)
 author: windows-sdk-content
 description: Defines the possible data types of a variant data item.
 old-location: wes\evt_variant_type.htm

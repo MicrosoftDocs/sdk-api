@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector2Cross
-title: XMVector2Cross function
+title: XMVector2Cross function (directxmath.h)
 author: windows-sdk-content
 description: Computes the 2D cross product.
 old-location: dxmath\xmvector2cross.htm

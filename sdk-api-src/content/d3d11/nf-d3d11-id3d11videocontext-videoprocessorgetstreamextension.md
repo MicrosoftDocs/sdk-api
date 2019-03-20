@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetStreamExtension
-title: ID3D11VideoContext::VideoProcessorGetStreamExtension
+title: ID3D11VideoContext::VideoProcessorGetStreamExtension (d3d11.h)
 author: windows-sdk-content
 description: Gets a driver-specific state for a video processing stream.
 old-location: mf\id3d11videocontext_videoprocessorgetstreamextension.htm

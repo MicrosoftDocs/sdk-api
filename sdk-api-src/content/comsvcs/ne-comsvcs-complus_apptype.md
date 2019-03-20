@@ -1,6 +1,6 @@
 ---
 UID: NE:comsvcs.tagCOMPLUS_APPTYPE
-title: COMPLUS_APPTYPE
+title: COMPLUS_APPTYPE (comsvcs.h)
 author: windows-sdk-content
 description: Represents types of applications tracked by the tracker server.
 old-location: cos\complus_apptype.htm

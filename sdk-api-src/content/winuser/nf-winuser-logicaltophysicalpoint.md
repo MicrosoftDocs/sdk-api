@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.LogicalToPhysicalPoint
-title: LogicalToPhysicalPoint function
+title: LogicalToPhysicalPoint function (winuser.h)
 author: windows-sdk-content
 description: Converts the logical coordinates of a point in a window to physical coordinates.
 old-location: winmsg\logicaltophysicalpoint.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1TransformNode.GetInputCount
-title: ID2D1TransformNode::GetInputCount
+title: ID2D1TransformNode::GetInputCount (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Gets the number of inputs to the transform node.
 old-location: direct2d\id2d1transformnode_getinputcount.htm

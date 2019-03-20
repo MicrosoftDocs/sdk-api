@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_TIMESTAMP_RESPONSE
-title: CRYPT_TIMESTAMP_RESPONSE
+title: CRYPT_TIMESTAMP_RESPONSE (wincrypt.h)
 author: windows-sdk-content
 description: Is used internally to encapsulate an Abstract Syntax Notation One (ASN.1) Distinguished Encoding Rules (DER) encoded response.
 old-location: security\crypt_timestamp_response.htm

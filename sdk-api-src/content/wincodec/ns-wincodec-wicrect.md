@@ -1,6 +1,6 @@
 ---
 UID: NS:wincodec.WICRect
-title: WICRect
+title: WICRect (wincodec.h)
 author: windows-sdk-content
 description: Represents a rectangle for Windows Imaging Component (WIC) API.
 old-location: wic\_wic_codec_wicrect.htm

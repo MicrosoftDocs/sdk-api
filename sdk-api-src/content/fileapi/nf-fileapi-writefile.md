@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.WriteFile
-title: WriteFile function
+title: WriteFile function (fileapi.h)
 author: windows-sdk-content
 description: Writes data to the specified file or input/output (I/O) device.
 old-location: fs\writefile.htm

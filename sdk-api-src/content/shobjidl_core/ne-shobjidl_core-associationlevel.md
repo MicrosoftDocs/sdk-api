@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.ASSOCIATIONLEVEL
-title: ASSOCIATIONLEVEL
+title: ASSOCIATIONLEVEL (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies the source of the default association for a file name extension. Used by methods of the IApplicationAssociationRegistration interface.
 old-location: shell\ASSOCIATIONLEVEL.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dbt._DEV_BROADCAST_PORT_W
-title: DEV_BROADCAST_PORT_W
+title: DEV_BROADCAST_PORT_W (dbt.h)
 author: windows-sdk-content
 description: Contains information about a modem, serial, or parallel port.
 old-location: base\dev_broadcast_port_str.htm

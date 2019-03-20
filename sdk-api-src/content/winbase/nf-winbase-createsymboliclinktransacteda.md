@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CreateSymbolicLinkTransactedA
-title: CreateSymbolicLinkTransactedA function
+title: CreateSymbolicLinkTransactedA function (winbase.h)
 author: windows-sdk-content
 description: Creates a symbolic link as a transacted operation.
 old-location: fs\createsymboliclinktransacted.htm

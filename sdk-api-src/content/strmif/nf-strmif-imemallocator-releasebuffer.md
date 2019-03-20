@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMemAllocator.ReleaseBuffer
-title: IMemAllocator::ReleaseBuffer
+title: IMemAllocator::ReleaseBuffer (strmif.h)
 author: windows-sdk-content
 description: The ReleaseBuffer method releases a media sample.
 old-location: dshow\imemallocator_releasebuffer.htm

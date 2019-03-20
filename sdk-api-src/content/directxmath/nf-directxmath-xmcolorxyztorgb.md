@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMColorXYZToRGB
-title: XMColorXYZToRGB function
+title: XMColorXYZToRGB function (directxmath.h)
 author: windows-sdk-content
 description: Converts XYZ color values to RGB color values.
 old-location: dxmath\xmcolorxyztorgb.htm

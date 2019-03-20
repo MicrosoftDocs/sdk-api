@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_ISCSI_LOGIN_FLAG
-title: VDS_ISCSI_LOGIN_FLAG
+title: VDS_ISCSI_LOGIN_FLAG (vds.h)
 author: windows-sdk-content
 description: Defines the set of valid flags for specifying iSCSI target login options.
 old-location: base\vds_iscsi_login_flag.htm

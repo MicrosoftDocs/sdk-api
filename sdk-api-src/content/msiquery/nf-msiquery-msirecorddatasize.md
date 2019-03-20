@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiRecordDataSize
-title: MsiRecordDataSize function
+title: MsiRecordDataSize function (msiquery.h)
 author: windows-sdk-content
 description: The MsiRecordDataSize function returns the length of a record field. The count does not include the terminating null character.
 old-location: setup\msirecorddatasize.htm

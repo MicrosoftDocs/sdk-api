@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_SUPER_SCOPE_TABLE_ENTRY
-title: DHCP_SUPER_SCOPE_TABLE_ENTRY
+title: DHCP_SUPER_SCOPE_TABLE_ENTRY (dhcpsapi.h)
 author: windows-sdk-content
 description: Defines a subnet entry within the superscope table.
 old-location: dhcp\dhcp_super_scope_table_entry.htm

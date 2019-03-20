@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IActionCollection.get_Item
-title: IActionCollection::get_Item
+title: IActionCollection::get_Item (taskschd.h)
 author: windows-sdk-content
 description: Gets a specified action from the collection.
 old-location: taskschd\iactioncollection_item.htm

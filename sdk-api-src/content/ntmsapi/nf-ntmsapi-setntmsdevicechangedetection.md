@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.SetNtmsDeviceChangeDetection
-title: SetNtmsDeviceChangeDetection function
+title: SetNtmsDeviceChangeDetection function (ntmsapi.h)
 author: windows-sdk-content
 description: The SetNtmsDeviceChangeDetection function sets one or more target devices for change detection.
 old-location: fs\setntmsdevicechangedetection.htm

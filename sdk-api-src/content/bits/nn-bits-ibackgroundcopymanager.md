@@ -1,6 +1,6 @@
 ---
 UID: NN:bits.IBackgroundCopyManager
-title: IBackgroundCopyManager
+title: IBackgroundCopyManager (bits.h)
 author: windows-sdk-content
 description: Creates transfer jobs, retrieves an enumerator object that contains the jobs in the queue, and retrieves individual jobs from the queue.
 old-location: bits\ibackgroundcopymanager.htm

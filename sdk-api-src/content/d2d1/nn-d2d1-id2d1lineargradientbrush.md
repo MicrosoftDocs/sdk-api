@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1.ID2D1LinearGradientBrush
-title: ID2D1LinearGradientBrush
+title: ID2D1LinearGradientBrush (d2d1.h)
 author: windows-sdk-content
 description: Paints an area with a linear gradient.
 old-location: direct2d\ID2D1LinearGradientBrush.htm

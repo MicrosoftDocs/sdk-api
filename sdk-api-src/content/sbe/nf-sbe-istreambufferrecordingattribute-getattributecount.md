@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferRecordingAttribute.GetAttributeCount
-title: IStreamBufferRecordingAttribute::GetAttributeCount
+title: IStreamBufferRecordingAttribute::GetAttributeCount (sbe.h)
 author: windows-sdk-content
 description: The GetAttributeCount method returns the number of attributes that are currently defined for this stream buffer file.
 old-location: mstv\istreambufferrecordingattribute_getattributecount.htm

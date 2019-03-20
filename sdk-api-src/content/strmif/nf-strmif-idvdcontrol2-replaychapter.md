@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.ReplayChapter
-title: IDvdControl2::ReplayChapter
+title: IDvdControl2::ReplayChapter (strmif.h)
 author: windows-sdk-content
 description: The ReplayChapter method starts playback from the beginning of the current chapter.
 old-location: dshow\idvdcontrol2_replaychapter.htm

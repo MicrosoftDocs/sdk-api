@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngineOnSampleCallback.OnSample
-title: IMFCaptureEngineOnSampleCallback::OnSample
+title: IMFCaptureEngineOnSampleCallback::OnSample (mfcaptureengine.h)
 author: windows-sdk-content
 description: Called when the capture sink receives a sample.
 old-location: mf\imfcaptureengineonsamplecallback_onsample.htm

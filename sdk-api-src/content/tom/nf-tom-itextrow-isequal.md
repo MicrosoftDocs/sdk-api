@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.IsEqual
-title: ITextRow::IsEqual
+title: ITextRow::IsEqual (tom.h)
 author: windows-sdk-content
 description: Compares two table rows to determine if they have the same properties.
 old-location: controls\itextrow_isequal.htm

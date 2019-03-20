@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.AddPolicyReader
-title: IAzAuthorizationStore::AddPolicyReader
+title: IAzAuthorizationStore::AddPolicyReader (azroles.h)
 author: windows-sdk-content
 description: Adds the specified security identifier (SID) in text form to the list of principals that act as policy readers.
 old-location: security\azauthorizationstore_addpolicyreader.htm

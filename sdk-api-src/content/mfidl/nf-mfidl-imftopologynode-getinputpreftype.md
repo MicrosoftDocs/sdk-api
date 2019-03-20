@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.GetInputPrefType
-title: IMFTopologyNode::GetInputPrefType
+title: IMFTopologyNode::GetInputPrefType (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the preferred media type for an input stream on this node.
 old-location: mf\imftopologynode_getinputpreftype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.GetPortCaps
-title: IDirectMusicSynth::GetPortCaps
+title: IDirectMusicSynth::GetPortCaps (dmusics.h)
 author: windows-sdk-content
 description: The GetPortCaps method retrieves the capabilities of a DirectMusic &#0034;port&#0034;, which is a DirectMusic term for a device that sends or receives music data.
 old-location: audio\idirectmusicsynth_getportcaps.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.SetAt
-title: CHString::SetAt
+title: CHString::SetAt (chstring.h)
 author: windows-sdk-content
 description: Overwrites one character specified by an index number.
 old-location: wmi\chstring_setat.htm

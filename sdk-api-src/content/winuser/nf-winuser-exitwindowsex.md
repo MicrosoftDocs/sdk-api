@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.ExitWindowsEx
-title: ExitWindowsEx function
+title: ExitWindowsEx function (winuser.h)
 author: windows-sdk-content
 description: Logs off the interactive user, shuts down the system, or shuts down and restarts the system.
 old-location: base\exitwindowsex.htm

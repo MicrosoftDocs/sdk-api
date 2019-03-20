@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateExceptionCollection.get__NewEnum
-title: IUpdateExceptionCollection::get__NewEnum
+title: IUpdateExceptionCollection::get__NewEnum (wuapi.h)
 author: windows-sdk-content
 description: Gets an IEnumVARIANT interface that can be used to enumerate the collection.
 old-location: wua\iupdateexceptioncollection__newenum.htm

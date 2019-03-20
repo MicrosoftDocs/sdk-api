@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IPrincipal.get_DisplayName
-title: IPrincipal::get_DisplayName
+title: IPrincipal::get_DisplayName (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the name of the principal.
 old-location: taskschd\iprincipal_displayname.htm

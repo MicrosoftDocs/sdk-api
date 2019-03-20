@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_SURFCB_BLT
-title: PDD_SURFCB_BLT
+title: PDD_SURFCB_BLT (ddrawint.h)
 author: windows-sdk-content
 description: The DdBlt callback function performs a bit-block transfer.
 old-location: display\ddblt.htm

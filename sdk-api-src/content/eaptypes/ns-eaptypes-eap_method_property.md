@@ -1,6 +1,6 @@
 ---
 UID: NS:eaptypes._EAP_METHOD_PROPERTY
-title: EAP_METHOD_PROPERTY
+title: EAP_METHOD_PROPERTY (eaptypes.h)
 author: windows-sdk-content
 description: Contains an EAP method property.
 old-location: eaphost\eap_method_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:contentpartner.IWMPContentContainer.GetType
-title: IWMPContentContainer::GetType
+title: IWMPContentContainer::GetType (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetType method retrieves the type of the content container.
 old-location: wmp\iwmpcontentcontainer_gettype.htm

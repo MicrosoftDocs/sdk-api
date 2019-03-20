@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantToUInt16VectorAlloc
-title: PropVariantToUInt16VectorAlloc function
+title: PropVariantToUInt16VectorAlloc function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts data from a PROPVARIANT structure into a newly-allocated unsigned short vector.
 old-location: properties\PropVariantToUInt16VectorAlloc.htm

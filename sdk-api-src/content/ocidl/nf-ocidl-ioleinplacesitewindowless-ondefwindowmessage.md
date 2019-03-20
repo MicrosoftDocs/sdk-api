@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.OnDefWindowMessage
-title: IOleInPlaceSiteWindowless::OnDefWindowMessage
+title: IOleInPlaceSiteWindowless::OnDefWindowMessage (ocidl.h)
 author: windows-sdk-content
 description: Invokes the default processing for all messages passed to an object.
 old-location: com\ioleinplacesitewindowless_ondefwindowmessage.htm

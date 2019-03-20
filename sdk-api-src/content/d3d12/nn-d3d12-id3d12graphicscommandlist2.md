@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12.ID3D12GraphicsCommandList2
-title: ID3D12GraphicsCommandList2
+title: ID3D12GraphicsCommandList2 (d3d12.h)
 author: windows-sdk-content
 description: Encapsulates a list of graphics commands for rendering, extending the interface to support writing immediate values directly to a buffer.
 old-location: direct3d12\id3d12graphicscommandlist2.htm

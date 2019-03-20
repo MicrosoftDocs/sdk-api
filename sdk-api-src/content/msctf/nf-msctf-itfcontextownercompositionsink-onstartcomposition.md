@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextOwnerCompositionSink.OnStartComposition
-title: ITfContextOwnerCompositionSink::OnStartComposition
+title: ITfContextOwnerCompositionSink::OnStartComposition (msctf.h)
 author: windows-sdk-content
 description: ITfContextOwnerCompositionSink::OnStartComposition method
 old-location: tsf\itfcontextownercompositionsink_onstartcomposition.htm

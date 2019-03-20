@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.FindFirstFileNameW
-title: FindFirstFileNameW function
+title: FindFirstFileNameW function (fileapi.h)
 author: windows-sdk-content
 description: Creates an enumeration of all the hard links to the specified file. The FindFirstFileNameW function returns a handle to the enumeration that can be used on subsequent calls to the FindNextFileNameW function.
 old-location: fs\findfirstfilenamew.htm

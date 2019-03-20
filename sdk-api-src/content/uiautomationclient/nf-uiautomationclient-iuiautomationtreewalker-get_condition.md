@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTreeWalker.get_Condition
-title: IUIAutomationTreeWalker::get_Condition
+title: IUIAutomationTreeWalker::get_Condition (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the condition that defines the view of the UI Automation tree.
 old-location: winauto\uiauto_IUIAutomationTreeWalker_Condition.htm

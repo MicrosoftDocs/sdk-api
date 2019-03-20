@@ -1,6 +1,6 @@
 ---
 UID: NF:audioenginebaseapo.IAudioProcessingObjectRT.CalcInputFrames
-title: IAudioProcessingObjectRT::CalcInputFrames
+title: IAudioProcessingObjectRT::CalcInputFrames (audioenginebaseapo.h)
 author: windows-sdk-content
 description: The CalcInputFrames method returns the number of input frames that an APO requires to generate a given number of output frames.
 old-location: audio\iaudioprocessingobjectrt_calcinputframes.htm

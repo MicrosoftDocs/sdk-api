@@ -1,6 +1,6 @@
 ---
 UID: NS:authz._AUTHZ_RPC_INIT_INFO_CLIENT
-title: AUTHZ_RPC_INIT_INFO_CLIENT
+title: AUTHZ_RPC_INIT_INFO_CLIENT (authz.h)
 author: windows-sdk-content
 description: Initializes a remote resource manager for a client.
 old-location: security\authz_rpc_init_info_client.htm

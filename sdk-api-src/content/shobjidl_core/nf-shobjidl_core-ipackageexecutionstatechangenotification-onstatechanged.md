@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPackageExecutionStateChangeNotification.OnStateChanged
-title: IPackageExecutionStateChangeNotification::OnStateChanged
+title: IPackageExecutionStateChangeNotification::OnStateChanged (shobjidl_core.h)
 author: windows-sdk-content
 description: Called when package state changes during Windows Store app debugging.
 old-location: shell\IPackageExecutionStateChangeNotification_OnStateChanged.htm

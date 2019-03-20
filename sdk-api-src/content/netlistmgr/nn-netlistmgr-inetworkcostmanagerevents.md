@@ -1,6 +1,6 @@
 ---
 UID: NN:netlistmgr.INetworkCostManagerEvents
-title: INetworkCostManagerEvents
+title: INetworkCostManagerEvents (netlistmgr.h)
 author: windows-sdk-content
 description: This interface to notify an application of machine-wide cost and data plan related events.
 old-location: nla\inetworkcostmanagerevents.htm

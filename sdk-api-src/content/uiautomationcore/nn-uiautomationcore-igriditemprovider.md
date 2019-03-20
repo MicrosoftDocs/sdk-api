@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.IGridItemProvider
-title: IGridItemProvider
+title: IGridItemProvider (uiautomationcore.h)
 author: windows-sdk-content
 description: Provides access to individual child controls of containers that implement IGridProvider.
 old-location: winauto\uiauto_IGridItemProvider.htm

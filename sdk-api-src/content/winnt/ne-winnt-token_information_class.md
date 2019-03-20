@@ -1,6 +1,6 @@
 ---
 UID: NE:winnt._TOKEN_INFORMATION_CLASS
-title: TOKEN_INFORMATION_CLASS
+title: TOKEN_INFORMATION_CLASS (winnt.h)
 author: windows-sdk-content
 description: Contains values that specify the type of information being assigned to or retrieved from an access token.
 old-location: security\token_information_class.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionGaussianBlurEffect.SetBorderMode
-title: IDCompositionGaussianBlurEffect::SetBorderMode
+title: IDCompositionGaussianBlurEffect::SetBorderMode (dcomp.h)
 author: windows-sdk-content
 description: Sets the mode used to calculate the border of the image.
 old-location: directcomp\idcompositiongaussianblureffect_setbordermode.htm

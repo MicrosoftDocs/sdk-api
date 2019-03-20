@@ -1,6 +1,6 @@
 ---
 UID: NE:faxcomex.FAX_ROUTING_RULE_CODE_ENUM
-title: FAX_ROUTING_RULE_CODE_ENUM
+title: FAX_ROUTING_RULE_CODE_ENUM (faxcomex.h)
 author: windows-sdk-content
 description: The FAX_ROUTING_RULE_CODE_ENUM enumeration defines the rules for outbound routing.
 old-location: fax\_mfax_fax_routing_rule_code_enum.htm

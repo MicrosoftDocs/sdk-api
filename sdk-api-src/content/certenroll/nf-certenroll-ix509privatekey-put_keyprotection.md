@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_KeyProtection
-title: IX509PrivateKey::put_KeyProtection
+title: IX509PrivateKey::put_KeyProtection (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a value that indicates how a private key is protected before use.
 old-location: security\ix509privatekey_keyprotection.htm

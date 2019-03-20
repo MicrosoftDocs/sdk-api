@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.IsVariantArray
-title: IsVariantArray function
+title: IsVariantArray function (propvarutil.h)
 author: windows-sdk-content
 description: Specifies whether a variant is an array.
 old-location: properties\IsVariantArray.htm

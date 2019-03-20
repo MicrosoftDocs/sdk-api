@@ -1,6 +1,6 @@
 ---
 UID: NC:wdsclientapi.PFN_WdsCliTraceFunction
-title: PFN_WdsCliTraceFunction
+title: PFN_WdsCliTraceFunction (wdsclientapi.h)
 author: windows-sdk-content
 description: Defines a callback function that can receive debugging messages from the WDS client.
 old-location: wds\pfn_wdsclitracefunction.htm

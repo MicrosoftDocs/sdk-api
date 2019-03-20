@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.CreateOffsetTransform
-title: ID2D1EffectContext::CreateOffsetTransform
+title: ID2D1EffectContext::CreateOffsetTransform (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Creates and returns an offset transform.
 old-location: direct2d\id2d1contextinternal_createoffsettransform.htm

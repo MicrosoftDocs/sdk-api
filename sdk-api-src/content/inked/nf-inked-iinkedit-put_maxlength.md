@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.put_MaxLength
-title: IInkEdit::put_MaxLength
+title: IInkEdit::put_MaxLength (inked.h)
 author: windows-sdk-content
 description: Gets or sets a value indicating whether there is a maximum number of characters an InkEdit control can hold and, if so, specifies the maximum number of characters.
 old-location: tablet\inkedit_maxlength.htm

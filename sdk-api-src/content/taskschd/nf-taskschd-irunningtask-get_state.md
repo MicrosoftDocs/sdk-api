@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRunningTask.get_State
-title: IRunningTask::get_State
+title: IRunningTask::get_State (taskschd.h)
 author: windows-sdk-content
 description: Gets an identifier for the state of the running task.
 old-location: taskschd\irunningtask_state.htm

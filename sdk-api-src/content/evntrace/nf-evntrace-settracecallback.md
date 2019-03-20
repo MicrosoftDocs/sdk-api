@@ -1,6 +1,6 @@
 ---
 UID: NF:evntrace.SetTraceCallback
-title: SetTraceCallback function
+title: SetTraceCallback function (evntrace.h)
 author: windows-sdk-content
 description: The SetTraceCallback function specifies an EventClassCallback function to process events for the specified event trace class.
 old-location: etw\settracecallback.htm

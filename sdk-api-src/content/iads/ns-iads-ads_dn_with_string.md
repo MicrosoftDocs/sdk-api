@@ -1,6 +1,6 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0016
-title: ADS_DN_WITH_STRING
+title: ADS_DN_WITH_STRING (iads.h)
 author: windows-sdk-content
 description: Used with the ADSVALUE structure to contain a distinguished name attribute value that also contains string data.
 old-location: adsi\ads_dn_with_string.htm

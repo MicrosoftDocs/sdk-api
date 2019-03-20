@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzNameResolver.NamesFromSids
-title: IAzNameResolver::NamesFromSids
+title: IAzNameResolver::NamesFromSids (azroles.h)
 author: windows-sdk-content
 description: Gets the display names that correspond to the specified security identifiers (SIDs).
 old-location: security\iaznameresolver_namesfromsids_method.htm

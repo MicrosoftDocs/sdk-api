@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiRecordGetFieldCount
-title: MsiRecordGetFieldCount function
+title: MsiRecordGetFieldCount function (msiquery.h)
 author: windows-sdk-content
 description: Returns the number of fields in a record.
 old-location: setup\msirecordgetfieldcount.htm

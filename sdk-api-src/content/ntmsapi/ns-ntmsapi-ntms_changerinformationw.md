@@ -1,6 +1,6 @@
 ---
 UID: NS:ntmsapi._NTMS_CHANGERINFORMATIONW
-title: NTMS_CHANGERINFORMATIONW
+title: NTMS_CHANGERINFORMATIONW (ntmsapi.h)
 author: windows-sdk-content
 description: The NTMS_CHANGERINFORMATION structure defines properties specific to a robotic changer object.
 old-location: fs\ntms_changerinformation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mobsync._tagSYNCMGRINVOKEFLAGS
-title: SYNCMGRINVOKEFLAGS
+title: SYNCMGRINVOKEFLAGS (mobsync.h)
 author: windows-sdk-content
 description: The SYNCMGRINVOKEFLAGS enumeration value specifies how the Sync Manager is to be invoked in the ISyncMgrSynchronizeInvoke::UpdateItems method.
 old-location: shell\syncmgr_syncmgrinvokeflags.htm

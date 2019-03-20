@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.GetClusterGroupKey
-title: GetClusterGroupKey function
+title: GetClusterGroupKey function (clusapi.h)
 author: windows-sdk-content
 description: Opens the root of the cluster database subtree for a group.
 old-location: mscs\getclustergroupkey.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.EraseTape
-title: EraseTape function
+title: EraseTape function (winbase.h)
 author: windows-sdk-content
 description: Erases all or part of a tape.
 old-location: backup\erasetape.htm

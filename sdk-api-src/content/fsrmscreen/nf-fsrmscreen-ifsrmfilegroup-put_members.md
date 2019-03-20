@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroup.put_Members
-title: IFsrmFileGroup::put_Members
+title: IFsrmFileGroup::put_Members (fsrmscreen.h)
 author: windows-sdk-content
 description: Retrieves or sets the filename patterns that determine the files that are included in the file group.
 old-location: fsrm\ifsrmfilegroup_members.htm

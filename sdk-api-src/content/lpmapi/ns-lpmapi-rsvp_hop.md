@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_4
-title: RSVP_HOP
+title: RSVP_HOP (lpmapi.h)
 author: windows-sdk-content
 description: The RSVP_HOP structure contains information about an RSVP-enabled hop.
 old-location: qos\rsvp_hop.htm

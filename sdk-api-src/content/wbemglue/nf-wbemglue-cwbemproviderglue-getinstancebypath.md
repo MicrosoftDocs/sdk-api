@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.GetInstanceByPath
-title: CWbemProviderGlue::GetInstanceByPath
+title: CWbemProviderGlue::GetInstanceByPath (wbemglue.h)
 author: windows-sdk-content
 description: The GetInstanceByPath method retrieves the instance identified by a particular object path by calling the provider GetObject method.
 old-location: wmi\cwbemproviderglue_getinstancebypath.htm

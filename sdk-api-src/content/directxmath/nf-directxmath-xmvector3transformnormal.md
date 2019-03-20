@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector3TransformNormal
-title: XMVector3TransformNormal function
+title: XMVector3TransformNormal function (directxmath.h)
 author: windows-sdk-content
 description: Transforms the 3D vector normal by the given matrix.
 old-location: dxmath\xmvector3transformnormal.htm

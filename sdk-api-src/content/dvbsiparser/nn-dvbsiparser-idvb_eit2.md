@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IDVB_EIT2
-title: IDVB_EIT2
+title: IDVB_EIT2 (dvbsiparser.h)
 author: windows-sdk-content
 description: The IDVB_EIT2 interface enables an application to get information from a Digital Video Broadcasting (DVB) event information table (EIT). The IDvbSiParser2::GetEIT2 method returns a pointer to this interface. This interface extends the IDVB_EIT interface.
 old-location: mstv\idvb_eit2.htm

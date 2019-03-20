@@ -1,6 +1,6 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.GetMonitorRedGreenOrBlueGain
-title: GetMonitorRedGreenOrBlueGain function
+title: GetMonitorRedGreenOrBlueGain function (highlevelmonitorconfigurationapi.h)
 author: windows-sdk-content
 description: Retrieves a monitor's red, green, or blue gain value.
 old-location: monitor\getmonitorredgreenorbluegain.htm

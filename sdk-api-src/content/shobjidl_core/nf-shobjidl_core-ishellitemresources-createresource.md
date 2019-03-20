@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItemResources.CreateResource
-title: IShellItemResources::CreateResource
+title: IShellItemResources::CreateResource (shobjidl_core.h)
 author: windows-sdk-content
 description: Creates a specified resource.
 old-location: shell\IShellItemResources_CreateResource.htm

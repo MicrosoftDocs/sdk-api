@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMFLOAT4.XMFLOAT4(float,float,float,float)
-title: XMFLOAT4::XMFLOAT4(float,float,float,float)
+title: XMFLOAT4::XMFLOAT4(float,float,float,float) (directxmath.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMFLOAT4 from four float arguments.
 old-location: dxmath\xmfloat4_ctor_2.htm

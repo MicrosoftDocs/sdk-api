@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMClockSlave
-title: IAMClockSlave
+title: IAMClockSlave (strmif.h)
 author: windows-sdk-content
 description: The IAMClockSlave interface controls the tolerance of an audio renderer when it is matching rates with another clock.If the audio renderer is matching rates with another clock, it allows the audio to drift up to the amount of the specified tolerance.
 old-location: dshow\iamclockslave.htm

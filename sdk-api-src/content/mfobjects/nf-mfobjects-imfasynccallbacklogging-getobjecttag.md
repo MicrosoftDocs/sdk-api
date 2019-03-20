@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAsyncCallbackLogging.GetObjectTag
-title: IMFAsyncCallbackLogging::GetObjectTag
+title: IMFAsyncCallbackLogging::GetObjectTag (mfobjects.h)
 author: windows-sdk-content
 description: Gets the tag of the parent object the async callback is associated object.
 old-location: mf\imfasynccallbacklogging_getobjecttag.htm

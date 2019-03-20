@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.ClearStorageFilter
-title: IDXGIInfoQueue::ClearStorageFilter
+title: IDXGIInfoQueue::ClearStorageFilter (dxgidebug.h)
 author: windows-sdk-content
 description: Removes a storage filter from the top of the storage-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_clearstoragefilter.htm

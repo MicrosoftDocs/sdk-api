@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceUIWindow.SetActiveObject
-title: IOleInPlaceUIWindow::SetActiveObject
+title: IOleInPlaceUIWindow::SetActiveObject (oleidl.h)
 author: windows-sdk-content
 description: Provides a direct channel of communication between the object and each of the frame and document windows.
 old-location: com\ioleinplaceuiwindow_setactiveobject.htm

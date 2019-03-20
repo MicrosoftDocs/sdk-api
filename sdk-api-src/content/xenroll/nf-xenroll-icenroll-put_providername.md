@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll.put_ProviderName
-title: ICEnroll::put_ProviderName
+title: ICEnroll::put_ProviderName (xenroll.h)
 author: windows-sdk-content
 description: The ProviderName property of ICEnroll4 sets or retrieves the name of the cryptographic service provider (CSP) to use.
 old-location: security\icenroll4_providername.htm

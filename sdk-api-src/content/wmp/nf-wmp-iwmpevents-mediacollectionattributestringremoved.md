@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.MediaCollectionAttributeStringRemoved
-title: IWMPEvents::MediaCollectionAttributeStringRemoved
+title: IWMPEvents::MediaCollectionAttributeStringRemoved (wmp.h)
 author: windows-sdk-content
 description: The MediaCollectionAttributeStringRemoved event occurs when an attribute is removed from the library.
 old-location: wmp\iwmpevents_iwmpevents__mediacollectionattributestringremoved.htm

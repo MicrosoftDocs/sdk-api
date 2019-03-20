@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtDevice.get_DevicePort
-title: IAMExtDevice::get_DevicePort
+title: IAMExtDevice::get_DevicePort (strmif.h)
 author: windows-sdk-content
 description: The get_DevicePort method retrieves the communication port to which the external device is connected.
 old-location: dshow\iamextdevice_get_deviceport.htm

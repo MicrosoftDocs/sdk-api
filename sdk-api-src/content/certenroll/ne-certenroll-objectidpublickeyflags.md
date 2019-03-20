@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.ObjectIdPublicKeyFlags
-title: ObjectIdPublicKeyFlags
+title: ObjectIdPublicKeyFlags (certenroll.h)
 author: windows-sdk-content
 description: Specifies whether a public key algorithm is used for signing or for encryption.
 old-location: security\objectidpublickeyflags_enum.htm

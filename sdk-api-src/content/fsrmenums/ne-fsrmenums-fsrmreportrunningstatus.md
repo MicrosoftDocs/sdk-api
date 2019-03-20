@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmReportRunningStatus
-title: FsrmReportRunningStatus
+title: FsrmReportRunningStatus (fsrmenums.h)
 author: windows-sdk-content
 description: Defines the running states a for a report job.
 old-location: fsrm\fsrmreportrunningstatus.htm

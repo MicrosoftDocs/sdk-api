@@ -1,6 +1,6 @@
 ---
 UID: NF:bluetoothapis.BluetoothAuthenticateDevice
-title: BluetoothAuthenticateDevice function
+title: BluetoothAuthenticateDevice function (bluetoothapis.h)
 author: windows-sdk-content
 description: Sends an authentication request to a remote Bluetooth device.
 old-location: bluetooth\bluetoothauthenticatedevice.htm

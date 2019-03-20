@@ -1,6 +1,6 @@
 ---
 UID: NF:wsman.WSManGetSessionOptionAsString
-title: WSManGetSessionOptionAsString function
+title: WSManGetSessionOptionAsString function (wsman.h)
 author: windows-sdk-content
 description: Gets the value of a session option.
 old-location: winrm\wsmangetsessionoptionasstring.htm

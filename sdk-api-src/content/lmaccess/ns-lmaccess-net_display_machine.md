@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._NET_DISPLAY_MACHINE
-title: NET_DISPLAY_MACHINE
+title: NET_DISPLAY_MACHINE (lmaccess.h)
 author: windows-sdk-content
 description: The NET_DISPLAY_MACHINE structure contains information that an account manager can access to determine information about computers and their attributes.
 old-location: netmgmt\net_display_machine_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:inkpresenterdesktop.IInkDesktopHost.QueueWorkItem
-title: IInkDesktopHost::QueueWorkItem
+title: IInkDesktopHost::QueueWorkItem (inkpresenterdesktop.h)
 author: windows-sdk-content
 description: Add an ink operation to a work queue for execution on the IInkDesktopHost thread.
 old-location: input_ink\iinkdesktophost_queueworkitem.htm

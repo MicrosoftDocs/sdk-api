@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssWMFiledesc.GetBackupTypeMask
-title: IVssWMFiledesc::GetBackupTypeMask
+title: IVssWMFiledesc::GetBackupTypeMask (vswriter.h)
 author: windows-sdk-content
 description: The GetBackupTypeMask method returns the file backup specification for the files specified by the current file descriptor as a bit mask (or bitwise OR) of VSS_FILE_SPEC_BACKUP_TYPE values.
 old-location: base\ivsswmfiledesc_getbackuptypemask.htm

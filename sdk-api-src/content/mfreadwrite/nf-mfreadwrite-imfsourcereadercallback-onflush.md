@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReaderCallback.OnFlush
-title: IMFSourceReaderCallback::OnFlush
+title: IMFSourceReaderCallback::OnFlush (mfreadwrite.h)
 author: windows-sdk-content
 description: Called when the IMFSourceReader::Flush method completes.
 old-location: mf\imfsourcereadercallback_onflush.htm

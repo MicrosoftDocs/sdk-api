@@ -1,6 +1,6 @@
 ---
 UID: NS:winhttp.__unnamed_struct_4
-title: WINHTTP_AUTOPROXY_OPTIONS
+title: WINHTTP_AUTOPROXY_OPTIONS (winhttp.h)
 author: windows-sdk-content
 description: The WINHTTP_AUTOPROXY_OPTIONS structure is used to indicate to the WinHttpGetProxyForURL function whether to specify the URL of the Proxy Auto-Configuration (PAC) file or to automatically locate the URL with DHCP or DNS queries to the network.
 old-location: http\winhttp_autoproxy_options.htm

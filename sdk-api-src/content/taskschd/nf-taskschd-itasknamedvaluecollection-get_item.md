@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskNamedValueCollection.get_Item
-title: ITaskNamedValueCollection::get_Item
+title: ITaskNamedValueCollection::get_Item (taskschd.h)
 author: windows-sdk-content
 description: Gets the specified name-value pair from the collection.
 old-location: taskschd\itasknamedvaluecollection_item.htm

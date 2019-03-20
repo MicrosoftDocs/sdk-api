@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SecBuffer
-title: SecBuffer
+title: SecBuffer (sspi.h)
 author: windows-sdk-content
 description: Describes a buffer allocated by a transport application to pass to a security package.
 old-location: security\secbuffer.htm

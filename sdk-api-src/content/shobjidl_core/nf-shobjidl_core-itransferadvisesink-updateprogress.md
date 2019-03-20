@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITransferAdviseSink.UpdateProgress
-title: ITransferAdviseSink::UpdateProgress
+title: ITransferAdviseSink::UpdateProgress (shobjidl_core.h)
 author: windows-sdk-content
 description: Updates the transfer progress status in the UI.
 old-location: shell\ITransferAdviseSink_UpdateProgress.htm

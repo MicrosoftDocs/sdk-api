@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPathname.GetElement
-title: IADsPathname::GetElement
+title: IADsPathname::GetElement (iads.h)
 author: windows-sdk-content
 description: Retrieves an element of a directory path.
 old-location: adsi\iadspathname_getelement.htm

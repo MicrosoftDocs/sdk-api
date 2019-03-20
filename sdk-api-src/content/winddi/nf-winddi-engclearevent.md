@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngClearEvent
-title: EngClearEvent function
+title: EngClearEvent function (winddi.h)
 author: windows-sdk-content
 description: The EngClearEvent function sets a specified event object to the nonsignaled state.
 old-location: display\engclearevent.htm

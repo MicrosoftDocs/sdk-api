@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMVfwCaptureDialogs.ShowDialog
-title: IAMVfwCaptureDialogs::ShowDialog
+title: IAMVfwCaptureDialogs::ShowDialog (strmif.h)
 author: windows-sdk-content
 description: The ShowDialog method displays the specified VFW dialog box.
 old-location: dshow\iamvfwcapturedialogs_showdialog.htm

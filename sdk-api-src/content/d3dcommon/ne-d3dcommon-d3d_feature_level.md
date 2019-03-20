@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dcommon.D3D_FEATURE_LEVEL
-title: D3D_FEATURE_LEVEL
+title: D3D_FEATURE_LEVEL (d3dcommon.h)
 author: windows-sdk-content
 description: Describes the set of features targeted by a Direct3D device.
 old-location: direct3d11\d3d_feature_level.htm

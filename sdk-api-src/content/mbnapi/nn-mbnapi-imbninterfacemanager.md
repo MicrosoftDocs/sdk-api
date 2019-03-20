@@ -1,6 +1,6 @@
 ---
 UID: NN:mbnapi.IMbnInterfaceManager
-title: IMbnInterfaceManager
+title: IMbnInterfaceManager (mbnapi.h)
 author: windows-sdk-content
 description: Provides access to IMbnInterface objects and notifications.
 old-location: mbn\imbninterfacemanager.htm

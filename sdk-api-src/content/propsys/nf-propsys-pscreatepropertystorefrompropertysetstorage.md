@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSCreatePropertyStoreFromPropertySetStorage
-title: PSCreatePropertyStoreFromPropertySetStorage function
+title: PSCreatePropertyStoreFromPropertySetStorage function (propsys.h)
 author: windows-sdk-content
 description: Wraps an IPropertySetStorage interface in an IPropertyStore interface.
 old-location: properties\PSCreatePropertyStoreFromPropertySetStorage.htm

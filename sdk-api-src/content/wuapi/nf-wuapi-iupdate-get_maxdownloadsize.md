@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_MaxDownloadSize
-title: IUpdate::get_MaxDownloadSize
+title: IUpdate::get_MaxDownloadSize (wuapi.h)
 author: windows-sdk-content
 description: Gets the maximum download size of the update.
 old-location: wua\iupdate_maxdownloadsize.htm

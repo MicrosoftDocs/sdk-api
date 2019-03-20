@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.GetSecurityDescriptorLength
-title: GetSecurityDescriptorLength function
+title: GetSecurityDescriptorLength function (securitybaseapi.h)
 author: windows-sdk-content
 description: Returns the length, in bytes, of a structurally valid security descriptor. The length includes the length of all associated structures.
 old-location: security\getsecuritydescriptorlength.htm

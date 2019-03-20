@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._CLUSTER_CREATE_GROUP_INFO
-title: CLUSTER_CREATE_GROUP_INFO
+title: CLUSTER_CREATE_GROUP_INFO (clusapi.h)
 author: windows-sdk-content
 description: Allows the caller to provide additional properties when creating a new group.
 old-location: mscs\cluster_create_group_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITBasicCallControl2
-title: ITBasicCallControl2
+title: ITBasicCallControl2 (tapi3if.h)
 author: windows-sdk-content
 description: The ITBasicCallControl2 interface is an extension of the ITBasicCallControl interface.
 old-location: tapi3\itbasiccallcontrol2.htm

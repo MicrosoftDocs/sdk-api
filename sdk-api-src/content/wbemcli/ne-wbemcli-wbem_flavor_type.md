@@ -1,6 +1,6 @@
 ---
 UID: NE:wbemcli.tag_WBEM_FLAVOR_TYPE
-title: WBEM_FLAVOR_TYPE
+title: WBEM_FLAVOR_TYPE (wbemcli.h)
 author: windows-sdk-content
 description: Lists qualifier flavors.
 old-location: wmi\wbem_flavor_type.htm

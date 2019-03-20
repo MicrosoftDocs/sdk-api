@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_GRAPHICS_PIPELINE_STATE_DESC
-title: D3D12_GRAPHICS_PIPELINE_STATE_DESC
+title: D3D12_GRAPHICS_PIPELINE_STATE_DESC (d3d12.h)
 author: windows-sdk-content
 description: Describes a graphics pipeline state object.
 old-location: direct3d12\d3d12_graphics_pipeline_state_desc.htm

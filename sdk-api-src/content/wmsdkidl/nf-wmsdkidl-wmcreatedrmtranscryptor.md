@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.WMCreateDRMTranscryptor
-title: WMCreateDRMTranscryptor function
+title: WMCreateDRMTranscryptor function (wmsdkidl.h)
 author: windows-sdk-content
 description: Creates a DRM transcryptor object.
 old-location: wmformat\wmcreatedrmtranscryptor.htm

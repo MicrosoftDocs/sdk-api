@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDefaultExtractIconInit.SetShortcutIcon
-title: IDefaultExtractIconInit::SetShortcutIcon
+title: IDefaultExtractIconInit::SetShortcutIcon (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the icon for a shortcut to the object.
 old-location: shell\IDefaultExtractIconInit_SetShortcutIcon.htm

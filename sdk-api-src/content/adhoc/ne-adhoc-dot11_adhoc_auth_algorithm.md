@@ -1,6 +1,6 @@
 ---
 UID: NE:adhoc.tagDOT11_ADHOC_AUTH_ALGORITHM
-title: DOT11_ADHOC_AUTH_ALGORITHM
+title: DOT11_ADHOC_AUTH_ALGORITHM (adhoc.h)
 author: windows-sdk-content
 description: Specifies the authentication algorithm for user or machine authentication on an ad hoc network.
 old-location: nwifi\dot11_adhoc_auth_algorithm.htm

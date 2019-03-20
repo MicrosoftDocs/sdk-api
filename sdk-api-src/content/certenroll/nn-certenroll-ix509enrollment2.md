@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509Enrollment2
-title: IX509Enrollment2
+title: IX509Enrollment2 (certenroll.h)
 author: windows-sdk-content
 description: The IX509Enrollment2 interface enables you to enroll in a certificate hierarchy and install a certificate response.
 old-location: security\ix509enrollment2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.TransferVideoFrame
-title: IMFMediaEngine::TransferVideoFrame
+title: IMFMediaEngine::TransferVideoFrame (mfmediaengine.h)
 author: windows-sdk-content
 description: Copies the current video frame to a DXGI surface or WIC bitmap.
 old-location: mf\imfmediaengine_transfervideoframe.htm

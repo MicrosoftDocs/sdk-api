@@ -1,6 +1,6 @@
 ---
 UID: NF:winfax.FaxSetConfigurationW
-title: FaxSetConfigurationW function
+title: FaxSetConfigurationW function (winfax.h)
 author: windows-sdk-content
 description: A fax client application calls the FaxSetConfiguration function to change the global configuration settings for the fax server to which the client has connected.
 old-location: fax\_mfax_faxsetconfiguration.htm

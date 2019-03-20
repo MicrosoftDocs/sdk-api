@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_2.ID3D11Device2.CreateDeferredContext2
-title: ID3D11Device2::CreateDeferredContext2
+title: ID3D11Device2::CreateDeferredContext2 (d3d11_2.h)
 author: windows-sdk-content
 description: Creates a deferred context, which can record command lists.
 old-location: direct3d11\id3d11device2_createdeferredcontext2.htm

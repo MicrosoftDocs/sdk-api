@@ -1,6 +1,6 @@
 ---
 UID: NF:winevt.EvtFormatMessage
-title: EvtFormatMessage function
+title: EvtFormatMessage function (winevt.h)
 author: windows-sdk-content
 description: Formats a message string.
 old-location: wes\evtformatmessage.htm

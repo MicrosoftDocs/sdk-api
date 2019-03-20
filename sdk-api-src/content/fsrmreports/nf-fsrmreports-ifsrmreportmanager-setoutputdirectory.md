@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportManager.SetOutputDirectory
-title: IFsrmReportManager::SetOutputDirectory
+title: IFsrmReportManager::SetOutputDirectory (fsrmreports.h)
 author: windows-sdk-content
 description: Sets the local directory path where reports are stored.
 old-location: fsrm\ifsrmreportmanager_setoutputdirectory.htm

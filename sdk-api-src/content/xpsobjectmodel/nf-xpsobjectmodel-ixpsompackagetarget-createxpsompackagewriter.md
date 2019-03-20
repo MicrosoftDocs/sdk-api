@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackageTarget.CreateXpsOMPackageWriter
-title: IXpsOMPackageTarget::CreateXpsOMPackageWriter
+title: IXpsOMPackageTarget::CreateXpsOMPackageWriter (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Create an IXpsOMPackageWriter interface for use with a print job that the StartXpsPrintJob1 function created.
 old-location: xps\ixpsompackagetarget_createxpsompackagewriter.htm

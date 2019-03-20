@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionArithmeticCompositeEffect.SetCoefficient2
-title: IDCompositionArithmeticCompositeEffect::SetCoefficient2
+title: IDCompositionArithmeticCompositeEffect::SetCoefficient2 (dcomp.h)
 author: windows-sdk-content
 description: Sets the second coefficient for the equation used to composite the two input images.
 old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient2.htm

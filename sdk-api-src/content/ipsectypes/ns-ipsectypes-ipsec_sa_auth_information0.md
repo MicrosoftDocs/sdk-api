@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_AUTH_INFORMATION0_
-title: IPSEC_SA_AUTH_INFORMATION0
+title: IPSEC_SA_AUTH_INFORMATION0 (ipsectypes.h)
 author: windows-sdk-content
 description: Stores information about the authentication algorithm of an IPsec security association (SA).
 old-location: fwp\ipsec_sa_auth_information0_struct.htm

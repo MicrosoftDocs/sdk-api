@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IAutomaticUpdatesSettings
-title: IAutomaticUpdatesSettings
+title: IAutomaticUpdatesSettings (wuapi.h)
 author: windows-sdk-content
 description: Contains the settings that are available in Automatic Updates.
 old-location: wua\iautomaticupdatessettings.htm

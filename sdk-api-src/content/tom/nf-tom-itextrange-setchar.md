@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.SetChar
-title: ITextRange::SetChar
+title: ITextRange::SetChar (tom.h)
 author: windows-sdk-content
 description: Sets the character at the starting position of the range.
 old-location: controls\ITextRange_SetChar.htm

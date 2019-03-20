@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupSetThreadLogToken
-title: SetupSetThreadLogToken function
+title: SetupSetThreadLogToken function (setupapi.h)
 author: windows-sdk-content
 description: The SetupSetThreadLogToken function sets the log context, as represented by a log token, for the thread from which this function was called.
 old-location: devinst\setupsetthreadlogtoken.htm

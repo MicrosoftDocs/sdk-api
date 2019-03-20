@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_VIDEO_PROCESSOR_FEATURE_CAPS
-title: D3D11_VIDEO_PROCESSOR_FEATURE_CAPS
+title: D3D11_VIDEO_PROCESSOR_FEATURE_CAPS (d3d11.h)
 author: windows-sdk-content
 description: Defines features that a Microsoft Direct3D 11 video processor can support.
 old-location: mf\d3d11_video_processor_feature_caps.htm

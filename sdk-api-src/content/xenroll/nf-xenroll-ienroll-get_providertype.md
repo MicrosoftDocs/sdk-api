@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.get_ProviderType
-title: IEnroll::get_ProviderType
+title: IEnroll::get_ProviderType (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves the type of provider.
 old-location: security\ienroll4_providertype.htm

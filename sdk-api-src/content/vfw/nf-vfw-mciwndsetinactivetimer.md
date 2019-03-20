@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndSetInactiveTimer
-title: MCIWndSetInactiveTimer macro
+title: MCIWndSetInactiveTimer macro (vfw.h)
 author: windows-sdk-content
 description: The MCIWndSetInactiveTimer macro sets the update period used by MCIWnd to update the trackbar in the MCIWnd window, update position information displayed in the window title bar, and send notification messages to the parent window when the MCIWnd window is inactive. You can use this macro or explicitly send the MCIWNDM_SETINACTIVETIMER message.
 old-location: multimedia\mciwndsetinactivetimer.htm

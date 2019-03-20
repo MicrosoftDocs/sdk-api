@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IMenuPopup.OnSelect
-title: IMenuPopup::OnSelect
+title: IMenuPopup::OnSelect (shobjidl_core.h)
 author: windows-sdk-content
 description: Handles selection notifications.
 old-location: shell\IMenuPopup_OnSelect.htm

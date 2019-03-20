@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.IAVIStream.WriteData
-title: IAVIStream::WriteData
+title: IAVIStream::WriteData (vfw.h)
 author: windows-sdk-content
 description: The WriteData method writes headers for a stream. Called when an application uses the AVIStreamWriteData function.
 old-location: multimedia\iavistream_writedata.htm

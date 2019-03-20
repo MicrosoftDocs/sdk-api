@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._SP_REGISTER_CONTROL_STATUSA
-title: SP_REGISTER_CONTROL_STATUSA
+title: SP_REGISTER_CONTROL_STATUSA (setupapi.h)
 author: windows-sdk-content
 description: The SP_REGISTER_CONTROL_STATUS structure contains information about a file being registered or unregistered using the RegisterDlls INF directive to self-register DLLs on Windows 2000.
 old-location: setup\sp_register_control_status.htm

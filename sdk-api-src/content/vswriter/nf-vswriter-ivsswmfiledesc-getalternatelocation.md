@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssWMFiledesc.GetAlternateLocation
-title: IVssWMFiledesc::GetAlternateLocation
+title: IVssWMFiledesc::GetAlternateLocation (vswriter.h)
 author: windows-sdk-content
 description: The GetAlternateLocation method obtains an alternate location for a file set.
 old-location: base\ivsswmfiledesc_getalternatelocation.htm

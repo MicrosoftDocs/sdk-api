@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.IAGetVertexBuffers
-title: ID3D10Device::IAGetVertexBuffers
+title: ID3D10Device::IAGetVertexBuffers (d3d10.h)
 author: windows-sdk-content
 description: Get the vertex buffers bound to the input-assembler stage.
 old-location: direct3d10\id3d10device_iagetvertexbuffers.htm

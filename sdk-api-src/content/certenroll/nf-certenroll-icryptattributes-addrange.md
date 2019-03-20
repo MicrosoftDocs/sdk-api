@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICryptAttributes.AddRange
-title: ICryptAttributes::AddRange
+title: ICryptAttributes::AddRange (certenroll.h)
 author: windows-sdk-content
 description: Adds a range of ICryptAttribute objects to the collection. The attributes are contained in another ICryptAttributes collection.
 old-location: security\icryptattributes_addrange_method.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsapi32._WTS_SESSION_INFOW
-title: WTS_SESSION_INFOW
+title: WTS_SESSION_INFOW (wtsapi32.h)
 author: windows-sdk-content
 description: Contains information about a client session on a Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wts_session_info_str.htm

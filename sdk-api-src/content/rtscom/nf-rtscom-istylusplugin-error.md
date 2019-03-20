@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IStylusPlugin.Error
-title: IStylusPlugin::Error
+title: IStylusPlugin::Error (rtscom.h)
 author: windows-sdk-content
 description: Notifies the implementing object that this plug-in or one of the previous plug-ins in either the IStylusAsyncPlugin or IStylusSyncPlugin collection threw an exception.
 old-location: tablet\istylusplugin_error.htm

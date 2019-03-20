@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.Restore
-title: IDirectDrawSurface7::Restore
+title: IDirectDrawSurface7::Restore (ddraw.h)
 author: windows-sdk-content
 description: Restores a surface that has been lost. This occurs when the surface memory that is associated with the DirectDrawSurface object has been freed.
 old-location: directdraw\idirectdrawsurface7_restore.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Resource.ReadFromSubresource
-title: ID3D12Resource::ReadFromSubresource
+title: ID3D12Resource::ReadFromSubresource (d3d12.h)
 author: windows-sdk-content
 description: Uses the CPU to copy data from a subresource, enabling the CPU to read the contents of most textures with undefined layouts.
 old-location: direct3d12\id3d12resource_readfromsubresource.htm

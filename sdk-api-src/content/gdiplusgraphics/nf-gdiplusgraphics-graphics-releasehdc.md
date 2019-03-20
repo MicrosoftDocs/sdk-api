@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.ReleaseHDC
-title: Graphics::ReleaseHDC
+title: Graphics::ReleaseHDC (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::ReleaseHDC method releases a device context handle obtained by a previous call to the Graphics::GetHDC method of this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_ReleaseHDC_hdc_.htm

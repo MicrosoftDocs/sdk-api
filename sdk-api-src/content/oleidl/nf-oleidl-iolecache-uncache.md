@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleCache.Uncache
-title: IOleCache::Uncache
+title: IOleCache::Uncache (oleidl.h)
 author: windows-sdk-content
 description: Removes a cache connection created previously using IOleCache::Cache.
 old-location: com\iolecache_uncache.htm

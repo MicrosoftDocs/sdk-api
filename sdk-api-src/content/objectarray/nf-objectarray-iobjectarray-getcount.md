@@ -1,6 +1,6 @@
 ---
 UID: NF:objectarray.IObjectArray.GetCount
-title: IObjectArray::GetCount
+title: IObjectArray::GetCount (objectarray.h)
 author: windows-sdk-content
 description: Provides a count of the objects in the collection.
 old-location: shell\IObjectArray_GetCount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteFactory1.GetEudcFontCollection
-title: IDWriteFactory1::GetEudcFontCollection
+title: IDWriteFactory1::GetEudcFontCollection (dwrite_1.h)
 author: windows-sdk-content
 description: Gets a font collection representing the set of EUDC (end-user defined characters) fonts.
 old-location: directwrite\idwritefactory1_geteudcfontcollection.htm

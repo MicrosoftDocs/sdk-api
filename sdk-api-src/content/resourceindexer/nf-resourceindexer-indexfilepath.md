@@ -1,6 +1,6 @@
 ---
 UID: NF:resourceindexer.IndexFilePath
-title: IndexFilePath function
+title: IndexFilePath function (resourceindexer.h)
 author: windows-sdk-content
 description: Indexes a file path for file and folder naming conventions.
 old-location: menurc\indexfilepath.htm

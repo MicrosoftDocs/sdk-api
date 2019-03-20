@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardGetTransmitCount
-title: SCardGetTransmitCount function
+title: SCardGetTransmitCount function (winscard.h)
 author: windows-sdk-content
 description: Retrieves the number of transmit operations that have completed since the specified card reader was inserted.
 old-location: security\scardgettransmitcount.htm

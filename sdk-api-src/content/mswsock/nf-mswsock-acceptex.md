@@ -1,6 +1,6 @@
 ---
 UID: NF:mswsock.AcceptEx
-title: AcceptEx function
+title: AcceptEx function (mswsock.h)
 author: windows-sdk-content
 description: Accepts a new connection, returns the local and remote address, and receives the first block of data sent by the client application. Note  This function is a Microsoft-specific extension to the Windows Sockets specification. .
 old-location: winsock\acceptex_2.htm

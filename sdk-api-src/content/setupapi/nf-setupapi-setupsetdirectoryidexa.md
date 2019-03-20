@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupSetDirectoryIdExA
-title: SetupSetDirectoryIdExA function
+title: SetupSetDirectoryIdExA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupSetDirectoryIdEx function associates a directory identifier in an INF file with a specific directory.
 old-location: setup\setupsetdirectoryidex.htm

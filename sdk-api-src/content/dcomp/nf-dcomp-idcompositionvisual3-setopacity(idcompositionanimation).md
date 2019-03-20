@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionVisual3.SetOpacity(IDCompositionAnimation)
-title: IDCompositionVisual3::SetOpacity(IDCompositionAnimation)
+title: IDCompositionVisual3::SetOpacity(IDCompositionAnimation) (dcomp.h)
 author: windows-sdk-content
 description: Animates the value of the visual's opacity property.
 old-location: directcomp\idcompositionvisual3_setopacity_2.htm

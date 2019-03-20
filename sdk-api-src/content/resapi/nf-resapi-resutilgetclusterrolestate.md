@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilGetClusterRoleState
-title: ResUtilGetClusterRoleState function
+title: ResUtilGetClusterRoleState function (resapi.h)
 author: windows-sdk-content
 description: Determines whether or not a specific role has been assigned to a cluster.
 old-location: mscs\resutilgetclusterrolestate.htm

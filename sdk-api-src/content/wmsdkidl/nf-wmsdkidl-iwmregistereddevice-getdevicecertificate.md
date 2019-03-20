@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.GetDeviceCertificate
-title: IWMRegisteredDevice::GetDeviceCertificate
+title: IWMRegisteredDevice::GetDeviceCertificate (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetDeviceCertificate method retrieves the certificate of the device.
 old-location: wmformat\iwmregistereddevice_getdevicecertificate.htm

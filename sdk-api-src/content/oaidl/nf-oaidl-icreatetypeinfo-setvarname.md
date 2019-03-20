@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetVarName
-title: ICreateTypeInfo::SetVarName
+title: ICreateTypeInfo::SetVarName (oaidl.h)
 author: windows-sdk-content
 description: Sets the name of a variable.
 old-location: automat\icreatetypeinfo_setvarname.htm

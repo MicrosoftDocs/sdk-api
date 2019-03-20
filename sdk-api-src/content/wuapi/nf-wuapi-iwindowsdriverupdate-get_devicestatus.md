@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate.get_DeviceStatus
-title: IWindowsDriverUpdate::get_DeviceStatus
+title: IWindowsDriverUpdate::get_DeviceStatus (wuapi.h)
 author: windows-sdk-content
 description: Gets the status of the matching device for the Windows driver update.
 old-location: wua\iwindowsdriverupdate_devicestatus.htm

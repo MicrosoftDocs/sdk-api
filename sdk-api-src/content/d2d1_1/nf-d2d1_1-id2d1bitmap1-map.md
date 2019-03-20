@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1Bitmap1.Map
-title: ID2D1Bitmap1::Map
+title: ID2D1Bitmap1::Map (d2d1_1.h)
 author: windows-sdk-content
 description: Maps the given bitmap into memory.
 old-location: direct2d\id2d1bitmap1_map.htm

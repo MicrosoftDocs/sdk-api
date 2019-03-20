@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMTunerNotification
-title: IAMTunerNotification
+title: IAMTunerNotification (strmif.h)
 author: windows-sdk-content
 description: Note  This callback interface has been deprecated, because the TV Tuner filter does not implement the callback mechanism. .
 old-location: dshow\iamtunernotification.htm

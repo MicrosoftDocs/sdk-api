@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector3NotEqualInt
-title: XMVector3NotEqualInt function
+title: XMVector3NotEqualInt function (directxmath.h)
 author: windows-sdk-content
 description: Test whether two 3D vectors are not equal, treating each component as an unsigned integer.
 old-location: dxmath\xmvector3notequalint.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IExtendPropertySheet2
-title: IExtendPropertySheet2
+title: IExtendPropertySheet2 (mmc.h)
 author: windows-sdk-content
 description: The IExtendPropertySheet2 interface is introduced in MMC 1.1.
 old-location: mmc\iextendpropertysheet2.htm

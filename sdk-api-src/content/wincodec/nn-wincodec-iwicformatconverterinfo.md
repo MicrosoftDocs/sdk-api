@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICFormatConverterInfo
-title: IWICFormatConverterInfo
+title: IWICFormatConverterInfo (wincodec.h)
 author: windows-sdk-content
 description: Exposes methods that provide information about a pixel format converter.
 old-location: wic\_wic_codec_iwicformatconverterinfo.htm

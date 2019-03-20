@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.SHGetStockIconInfo
-title: SHGetStockIconInfo function
+title: SHGetStockIconInfo function (shellapi.h)
 author: windows-sdk-content
 description: Retrieves information about system-defined Shell icons.
 old-location: shell\SHGetStockIconInfo.htm

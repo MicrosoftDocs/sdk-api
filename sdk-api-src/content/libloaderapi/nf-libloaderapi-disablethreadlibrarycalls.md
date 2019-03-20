@@ -1,6 +1,6 @@
 ---
 UID: NF:libloaderapi.DisableThreadLibraryCalls
-title: DisableThreadLibraryCalls function
+title: DisableThreadLibraryCalls function (libloaderapi.h)
 author: windows-sdk-content
 description: Disables the DLL_THREAD_ATTACH and DLL_THREAD_DETACH notifications for the specified dynamic-link library (DLL).
 old-location: base\disablethreadlibrarycalls.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IOpenSearchSource
-title: IOpenSearchSource
+title: IOpenSearchSource (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes a method to get search results from a custom client-side OpenSearch data source.
 old-location: shell\IOpenSearchSource.htm

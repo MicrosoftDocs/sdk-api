@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.ICoreFragment
-title: ICoreFragment
+title: ICoreFragment (winsync.h)
 author: windows-sdk-content
 description: Represents knowledge of all items in the scope for a specific set of change units.
 old-location: winsync\icorefragment.htm

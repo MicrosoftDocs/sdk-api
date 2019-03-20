@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfLanguageProfiles.Clone
-title: IEnumTfLanguageProfiles::Clone
+title: IEnumTfLanguageProfiles::Clone (msctf.h)
 author: windows-sdk-content
 description: IEnumTfLanguageProfiles::Clone method
 old-location: tsf\ienumtflanguageprofiles_clone.htm

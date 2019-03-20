@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlayer.put_fullScreen
-title: IWMPPlayer::put_fullScreen
+title: IWMPPlayer::put_fullScreen (wmp.h)
 author: windows-sdk-content
 description: The put_fullScreen method specifies a value indicating whether video content is played back in full-screen mode.
 old-location: wmp\iwmpplayer_put_fullscreen.htm

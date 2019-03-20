@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsAbortListener
-title: WsAbortListener function
+title: WsAbortListener function (webservices.h)
 author: windows-sdk-content
 description: Cancels any pending I/O for the specified listener.
 old-location: wsw\wsabortlistener.htm

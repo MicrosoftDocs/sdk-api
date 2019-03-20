@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidPlayback.Step
-title: IMSVidPlayback::Step
+title: IMSVidPlayback::Step (segment.h)
 author: windows-sdk-content
 description: The Step method steps through the video stream by a specified number of frames.
 old-location: mstv\imsvidplayback_step.htm

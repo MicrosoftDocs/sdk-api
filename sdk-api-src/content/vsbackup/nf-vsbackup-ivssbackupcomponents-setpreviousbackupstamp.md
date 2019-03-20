@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SetPreviousBackupStamp
-title: IVssBackupComponents::SetPreviousBackupStamp
+title: IVssBackupComponents::SetPreviousBackupStamp (vsbackup.h)
 author: windows-sdk-content
 description: The SetPreviousBackupStamp method sets the backup stamp of an earlier backup operation, upon which a differential or incremental backup operation will be based.
 old-location: base\ivssbackupcomponents_setpreviousbackupstamp.htm

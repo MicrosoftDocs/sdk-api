@@ -1,6 +1,6 @@
 ---
 UID: NN:vmr9.IVMRSurfaceAllocator9
-title: IVMRSurfaceAllocator9
+title: IVMRSurfaceAllocator9 (vmr9.h)
 author: windows-sdk-content
 description: The IVMRSurfaceAllocator9 interface is implemented by the default allocator-presenter for the Video Mixing Renderer Filter 9 (VMR-9).
 old-location: dshow\ivmrsurfaceallocator9.htm

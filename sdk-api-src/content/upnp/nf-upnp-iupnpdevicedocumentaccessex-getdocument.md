@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDeviceDocumentAccessEx.GetDocument
-title: IUPnPDeviceDocumentAccessEx::GetDocument
+title: IUPnPDeviceDocumentAccessEx::GetDocument (upnp.h)
 author: windows-sdk-content
 description: Retrieves the XML device description document for a UPnP device.
 old-location: upnp\iupnpdevicedocumentex_getdocument.htm

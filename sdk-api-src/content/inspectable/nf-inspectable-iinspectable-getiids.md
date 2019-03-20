@@ -1,6 +1,6 @@
 ---
 UID: NF:inspectable.IInspectable.GetIids
-title: IInspectable::GetIids
+title: IInspectable::GetIids (inspectable.h)
 author: windows-sdk-content
 description: Gets the interfaces that are implemented by the current Windows Runtime class.
 old-location: winrt\iinspectable_getiids.htm

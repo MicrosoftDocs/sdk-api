@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgDocument.CreatePointCollection
-title: ID2D1SvgDocument::CreatePointCollection
+title: ID2D1SvgDocument::CreatePointCollection (d2d1svg.h)
 author: windows-sdk-content
 description: Creates a points object which can be used to set a points attribute on a polygon or polyline element.
 old-location: direct2d\id2d1svgdocument_createpointcollection.htm

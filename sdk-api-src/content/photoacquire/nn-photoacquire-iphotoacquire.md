@@ -1,6 +1,6 @@
 ---
 UID: NN:photoacquire.IPhotoAcquire
-title: IPhotoAcquire
+title: IPhotoAcquire (photoacquire.h)
 author: windows-sdk-content
 description: The IPhotoAcquire interface provides methods for acquiring photos from a device.
 old-location: picacq\iphotoacquire.htm

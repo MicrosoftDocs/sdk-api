@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIBuildFilterA
-title: AVIBuildFilterA function
+title: AVIBuildFilterA function (vfw.h)
 author: windows-sdk-content
 description: The AVIBuildFilter function builds a filter specification that is subsequently used by the GetOpenFileName or GetSaveFileName function.
 old-location: multimedia\avibuildfilter.htm

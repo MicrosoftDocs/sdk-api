@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTaskInfo.get_Label
-title: ITsSbTaskInfo::get_Label
+title: ITsSbTaskInfo::get_Label (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves the label that describes the purpose of the task.
 old-location: termserv\itssbtaskinfo_label.htm

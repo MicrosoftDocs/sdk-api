@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMapping.ResizeMapping
-title: ISimilarityTraitsMapping::ResizeMapping
+title: ISimilarityTraitsMapping::ResizeMapping (msrdc.h)
 author: windows-sdk-content
 description: Resizes the file mapping object for a similarity traits table file.
 old-location: rdc\isimilaritytraitsmapping_resizemapping.htm

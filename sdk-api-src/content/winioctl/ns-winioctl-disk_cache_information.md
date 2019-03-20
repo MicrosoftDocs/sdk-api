@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DISK_CACHE_INFORMATION
-title: DISK_CACHE_INFORMATION
+title: DISK_CACHE_INFORMATION (winioctl.h)
 author: windows-sdk-content
 description: Provides information about the disk cache.
 old-location: fs\disk_cache_information_str.htm

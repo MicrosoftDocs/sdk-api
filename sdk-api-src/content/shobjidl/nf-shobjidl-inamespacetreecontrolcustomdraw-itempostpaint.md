@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlCustomDraw.ItemPostPaint
-title: INameSpaceTreeControlCustomDraw::ItemPostPaint
+title: INameSpaceTreeControlCustomDraw::ItemPostPaint (shobjidl.h)
 author: windows-sdk-content
 description: Called after an item in the namespace tree control is drawn.
 old-location: shell\INameSpaceTreeControlCustomDraw_ItemPostPaint.htm

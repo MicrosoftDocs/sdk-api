@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsdigitalsignature.IXpsSignatureManager
-title: IXpsSignatureManager
+title: IXpsSignatureManager (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Manages the digital signatures and digital signature requests of an XPS document.
 old-location: xps\ixpssignaturemanager.htm

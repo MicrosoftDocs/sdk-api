@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMAddLicense
-title: DRMAddLicense function
+title: DRMAddLicense function (msdrm.h)
 author: windows-sdk-content
 description: Adds an end-user license to the temporary or permanent license store.
 old-location: rm\drmaddlicense.htm

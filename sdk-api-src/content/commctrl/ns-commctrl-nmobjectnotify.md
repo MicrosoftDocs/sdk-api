@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMOBJECTNOTIFY
-title: NMOBJECTNOTIFY
+title: NMOBJECTNOTIFY (commctrl.h)
 author: windows-sdk-content
 description: Contains information used with the TBN_GETOBJECT, TCN_GETOBJECT, and PSN_GETOBJECT notification codes.
 old-location: controls\NMOBJECTNOTIFY.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:ntdsapi._DS_REPL_OP_TYPE
-title: DS_REPL_OP_TYPE
+title: DS_REPL_OP_TYPE (ntdsapi.h)
 author: windows-sdk-content
 description: Used to indicate the type of replication operation that a given entry in the replication queue represents.
 old-location: ad\ds_repl_op_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.Paste
-title: ITextRange::Paste
+title: ITextRange::Paste (tom.h)
 author: windows-sdk-content
 description: Pastes text from a specified data object.
 old-location: controls\ITextRange_Paste.htm

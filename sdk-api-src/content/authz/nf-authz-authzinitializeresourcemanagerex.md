@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzInitializeResourceManagerEx
-title: AuthzInitializeResourceManagerEx function
+title: AuthzInitializeResourceManagerEx function (authz.h)
 author: windows-sdk-content
 description: Allocates and initializes a resource manager structure.
 old-location: security\authzinitializeresourcemanagerex.htm

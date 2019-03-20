@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnVendorSpecificEvents.OnEventNotification
-title: IMbnVendorSpecificEvents::OnEventNotification
+title: IMbnVendorSpecificEvents::OnEventNotification (mbnapi.h)
 author: windows-sdk-content
 description: Notification method signaling a change event from the underlying Mobile Broadband device miniport driver.
 old-location: mbn\imbnvendorspecificevents_oneventnotification.htm

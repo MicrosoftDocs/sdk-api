@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IAnnotationProvider.get_AnnotationTypeId
-title: IAnnotationProvider::get_AnnotationTypeId
+title: IAnnotationProvider::get_AnnotationTypeId (uiautomationcore.h)
 author: windows-sdk-content
 description: The annotation type identifier of this annotation.
 old-location: winauto\uiauto_IAnnotationProvider_AnnotationTypeId.htm

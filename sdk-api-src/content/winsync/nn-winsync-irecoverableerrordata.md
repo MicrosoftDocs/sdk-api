@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.IRecoverableErrorData
-title: IRecoverableErrorData
+title: IRecoverableErrorData (winsync.h)
 author: windows-sdk-content
 description: Represents information about a recoverable error.
 old-location: winsync\irecoverableerrordata.htm

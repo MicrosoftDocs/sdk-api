@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.GetCurrentThread
-title: GetCurrentThread function
+title: GetCurrentThread function (processthreadsapi.h)
 author: windows-sdk-content
 description: Retrieves a pseudo handle for the calling thread.
 old-location: base\getcurrentthread.htm

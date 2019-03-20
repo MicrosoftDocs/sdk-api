@@ -1,6 +1,6 @@
 ---
 UID: NS:accctrl._ACTRL_PROPERTY_ENTRYA
-title: ACTRL_PROPERTY_ENTRYA
+title: ACTRL_PROPERTY_ENTRYA (accctrl.h)
 author: windows-sdk-content
 description: Contains a list of access-control entries for an object or a specified property on an object.
 old-location: com\actrl_property_entry.htm

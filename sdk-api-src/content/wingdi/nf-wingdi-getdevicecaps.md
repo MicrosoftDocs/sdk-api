@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetDeviceCaps
-title: GetDeviceCaps function
+title: GetDeviceCaps function (wingdi.h)
 author: windows-sdk-content
 description: The GetDeviceCaps function retrieves device-specific information for the specified device.
 old-location: gdi\getdevicecaps.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetConnectionProps.get_Characteristics
-title: INetConnectionProps::get_Characteristics
+title: INetConnectionProps::get_Characteristics (netcon.h)
 author: windows-sdk-content
 description: The get_Characteristics method retrieves the media type for the connection.
 old-location: ics\inetconnectionprops_get_characteristics.htm

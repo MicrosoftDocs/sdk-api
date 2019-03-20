@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.get_DataTimeout
-title: ISearchCatalogManager::get_DataTimeout
+title: ISearchCatalogManager::get_DataTimeout (searchapi.h)
 author: windows-sdk-content
 description: Gets the data time-out value, in seconds, for data transactions between the indexer and the search filter host. This value is contained in a TIMEOUT_INFO structure.
 old-location: search\_search_ISearchCatalogManager_get_DataTimeout.htm

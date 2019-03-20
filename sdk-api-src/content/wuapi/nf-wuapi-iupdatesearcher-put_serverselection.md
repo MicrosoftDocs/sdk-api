@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.put_ServerSelection
-title: IUpdateSearcher::put_ServerSelection
+title: IUpdateSearcher::put_ServerSelection (wuapi.h)
 author: windows-sdk-content
 description: Gets and sets a ServerSelection value that indicates the server to search for updates.
 old-location: wua\iupdatesearcherserverselection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IDataObject.EnumFormatEtc
-title: IDataObject::EnumFormatEtc
+title: IDataObject::EnumFormatEtc (objidl.h)
 author: windows-sdk-content
 description: Creates an object to enumerate the formats supported by a data object.
 old-location: com\idataobject_enumformatetc.htm

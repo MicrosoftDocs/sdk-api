@@ -1,6 +1,6 @@
 ---
 UID: NS:dbghelp._tagSTACKFRAME64
-title: STACKFRAME64
+title: STACKFRAME64 (dbghelp.h)
 author: windows-sdk-content
 description: Represents a stack frame.
 old-location: base\stackframe64_str.htm

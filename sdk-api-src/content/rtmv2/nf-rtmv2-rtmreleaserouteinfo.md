@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmReleaseRouteInfo
-title: RtmReleaseRouteInfo function
+title: RtmReleaseRouteInfo function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmReleaseRouteInfo function releases a route structure.
 old-location: rras\rtmreleaserouteinfo.htm

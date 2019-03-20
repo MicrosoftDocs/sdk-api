@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhGetCounterInfoA
-title: PdhGetCounterInfoA function
+title: PdhGetCounterInfoA function (pdh.h)
 author: windows-sdk-content
 description: Retrieves information about a counter, such as data size, counter type, path, and user-supplied data values.
 old-location: perf\pdhgetcounterinfo.htm

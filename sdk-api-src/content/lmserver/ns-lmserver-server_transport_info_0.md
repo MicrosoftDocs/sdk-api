@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_TRANSPORT_INFO_0
-title: SERVER_TRANSPORT_INFO_0
+title: SERVER_TRANSPORT_INFO_0 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_TRANSPORT_INFO_0 structure contains information about the specified transport protocol, including name, address, and location on the network.
 old-location: netmgmt\server_transport_info_0_str.htm

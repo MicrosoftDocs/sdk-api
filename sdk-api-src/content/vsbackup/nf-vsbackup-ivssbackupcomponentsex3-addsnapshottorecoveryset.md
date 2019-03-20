@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx3.AddSnapshotToRecoverySet
-title: IVssBackupComponentsEx3::AddSnapshotToRecoverySet
+title: IVssBackupComponentsEx3::AddSnapshotToRecoverySet (vsbackup.h)
 author: windows-sdk-content
 description: Specifies the volumes to be included in a LUN resynchronization operation.
 old-location: base\ivssbackupcomponentsex3_addsnapshottorecoveryset.htm

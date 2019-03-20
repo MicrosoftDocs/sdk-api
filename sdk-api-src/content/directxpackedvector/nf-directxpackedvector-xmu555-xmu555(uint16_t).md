@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMU555.XMU555(uint16_t)
-title: XMU555::XMU555(uint16_t)
+title: XMU555::XMU555(uint16_t) (directxpackedvector.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMU555 from a uint16_t variable containing component data in a packed format.
 old-location: dxmath\xmu555_ctor_2.htm

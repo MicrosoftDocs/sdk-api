@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.RegisterWindowMessageW
-title: RegisterWindowMessageW function
+title: RegisterWindowMessageW function (winuser.h)
 author: windows-sdk-content
 description: Defines a new window message that is guaranteed to be unique throughout the system. The message value can be used when sending or posting messages.
 old-location: winmsg\registerwindowmessage.htm

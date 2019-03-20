@@ -1,6 +1,6 @@
 ---
 UID: NN:sbtsv.ITsSbClientConnectionPropertySet
-title: ITsSbClientConnectionPropertySet
+title: ITsSbClientConnectionPropertySet (sbtsv.h)
 author: windows-sdk-content
 description: Can be used to define custom properties of a client connection as appropriate.
 old-location: termserv\itssbclientconnectionpropertyset.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shimgdata.IShellImageData.Decode
-title: IShellImageData::Decode
+title: IShellImageData::Decode (shimgdata.h)
 author: windows-sdk-content
 description: Decodes the image file, setting state.
 old-location: shell\IShellImageData_Decode.htm

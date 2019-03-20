@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.get_ParentWindow
-title: IX509CertificateRequest::get_ParentWindow
+title: IX509CertificateRequest::get_ParentWindow (certenroll.h)
 author: windows-sdk-content
 description: Specifies and retrieves the ID of the window used by key-related user interface dialogs.
 old-location: security\ix509certificaterequest_parentwindow_property.htm

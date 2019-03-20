@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusics.IDirectMusicSynthSink.GetDesiredBufferSize
-title: IDirectMusicSynthSink::GetDesiredBufferSize
+title: IDirectMusicSynthSink::GetDesiredBufferSize (dmusics.h)
 author: windows-sdk-content
 description: The GetDesiredBufferSize method retrieves the synthesizer's preferred buffer size, expressed in samples.
 old-location: audio\idirectmusicsynthsink_getdesiredbuffersize.htm

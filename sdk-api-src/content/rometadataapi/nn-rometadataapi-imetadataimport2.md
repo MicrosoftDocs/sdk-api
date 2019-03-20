@@ -1,6 +1,6 @@
 ---
 UID: NN:rometadataapi.IMetaDataImport2
-title: IMetaDataImport2
+title: IMetaDataImport2 (rometadataapi.h)
 author: windows-sdk-content
 description: Extends the IMetaDataImport interface to provide the capability of working with generic types.
 old-location: winrt\imetadataimport2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTVTuner.get_AudioFrequency
-title: IAMTVTuner::get_AudioFrequency
+title: IAMTVTuner::get_AudioFrequency (strmif.h)
 author: windows-sdk-content
 description: The get_AudioFrequency method retrieves the currently tuned audio frequency.
 old-location: dshow\iamtvtuner_get_audiofrequency.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._SP_DETECTDEVICE_PARAMS
-title: SP_DETECTDEVICE_PARAMS
+title: SP_DETECTDEVICE_PARAMS (setupapi.h)
 author: windows-sdk-content
 description: An SP_DETECTDEVICE_PARAMS structure corresponds to a DIF_DETECT installation request.
 old-location: devinst\sp_detectdevice_params.htm

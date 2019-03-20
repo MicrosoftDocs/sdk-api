@@ -1,6 +1,6 @@
 ---
 UID: NS:shobjidl_core.THUMBBUTTON
-title: THUMBBUTTON
+title: THUMBBUTTON (shobjidl_core.h)
 author: windows-sdk-content
 description: Used by methods of the ITaskbarList3 interface to define buttons used in a toolbar embedded in a window's thumbnail representation.
 old-location: shell\THUMBBUTTON.htm

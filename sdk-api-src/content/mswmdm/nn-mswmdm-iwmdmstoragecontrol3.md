@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IWMDMStorageControl3
-title: IWMDMStorageControl3
+title: IWMDMStorageControl3 (mswmdm.h)
 author: windows-sdk-content
 description: The IWMDMStorageControl3 interface extends IWMDMStorageControl2 by providing an Insert method that accepts an IWMDMMetaData interface pointer.
 old-location: wmdm\iwmdmstoragecontrol3.htm

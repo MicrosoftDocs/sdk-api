@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISmimeCapability.get_ObjectId
-title: ISmimeCapability::get_ObjectId
+title: ISmimeCapability::get_ObjectId (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the object identifier (OID) of the symmetric encryption algorithm.
 old-location: security\ismimecapability_objectid_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Static_GetTextLength
-title: Static_GetTextLength macro
+title: Static_GetTextLength macro (windowsx.h)
 author: windows-sdk-content
 description: Gets the number of characters in the text of a static control.
 old-location: controls\Static_GetTextLength.htm

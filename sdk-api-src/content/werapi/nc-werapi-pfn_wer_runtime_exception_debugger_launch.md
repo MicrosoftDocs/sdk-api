@@ -1,6 +1,6 @@
 ---
 UID: NC:werapi.PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH
-title: PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH
+title: PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH (werapi.h)
 author: windows-sdk-content
 description: WER calls this function to let you customize the debugger launch options and launch string.
 old-location: wer\outofprocessexceptioneventdebuggerlaunchcallback.htm

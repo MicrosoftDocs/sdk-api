@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFPresentationDescriptor.SelectStream
-title: IMFPresentationDescriptor::SelectStream
+title: IMFPresentationDescriptor::SelectStream (mfidl.h)
 author: windows-sdk-content
 description: Selects a stream in the presentation.
 old-location: mf\imfpresentationdescriptor_selectstream.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictFolder.GetConflictIDList
-title: ISyncMgrConflictFolder::GetConflictIDList
+title: ISyncMgrConflictFolder::GetConflictIDList (syncmgr.h)
 author: windows-sdk-content
 description: Maps a conflict to its IShellItem.
 old-location: shell\ISyncMgrConflictFolder_GetConflictIDList.htm

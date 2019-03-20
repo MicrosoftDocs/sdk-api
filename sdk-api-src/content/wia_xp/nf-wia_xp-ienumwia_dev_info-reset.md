@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IEnumWIA_DEV_INFO.Reset
-title: IEnumWIA_DEV_INFO::Reset
+title: IEnumWIA_DEV_INFO::Reset (wia_xp.h)
 author: windows-sdk-content
 description: The IEnumWIA_DEV_INFO::Reset method is used by applications to restart the enumeration of device information.
 old-location: wia\_wia_IEnumWIA_DEV_INFO_Reset.htm

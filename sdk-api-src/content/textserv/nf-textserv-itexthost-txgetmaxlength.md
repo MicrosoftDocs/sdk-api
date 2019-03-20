@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxGetMaxLength
-title: ITextHost::TxGetMaxLength
+title: ITextHost::TxGetMaxLength (textserv.h)
 author: windows-sdk-content
 description: Gets the text host's maximum allowed length for the text.
 old-location: controls\ITextHost_TxGetMaxLength.htm

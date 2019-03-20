@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_DiscountRateEnd
-title: IFaxConfiguration::get_DiscountRateEnd
+title: IFaxConfiguration::get_DiscountRateEnd (faxcomex.h)
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates the time at which the discount rate period ends.
 old-location: fax\_mfax_IFaxConfiguration_DiscountRateEnd.htm

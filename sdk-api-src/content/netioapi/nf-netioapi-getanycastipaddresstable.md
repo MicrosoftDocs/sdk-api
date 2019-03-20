@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.GetAnycastIpAddressTable
-title: GetAnycastIpAddressTable function
+title: GetAnycastIpAddressTable function (netioapi.h)
 author: windows-sdk-content
 description: Retrieves the anycast IP address table on the local computer.
 old-location: iphlp\getanycastipaddresstable.htm

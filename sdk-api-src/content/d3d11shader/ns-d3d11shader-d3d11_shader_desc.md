@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11shader._D3D11_SHADER_DESC
-title: D3D11_SHADER_DESC
+title: D3D11_SHADER_DESC (d3d11shader.h)
 author: windows-sdk-content
 description: Describes a shader.
 old-location: direct3d11\d3d11_shader_desc.htm

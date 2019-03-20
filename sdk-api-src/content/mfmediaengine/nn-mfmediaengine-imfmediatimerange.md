@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFMediaTimeRange
-title: IMFMediaTimeRange
+title: IMFMediaTimeRange (mfmediaengine.h)
 author: windows-sdk-content
 description: Represents a list of time ranges, where each range is defined by a start and end time.
 old-location: mf\imfmediatimerange.htm

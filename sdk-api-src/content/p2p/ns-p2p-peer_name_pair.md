@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_name_pair_tag
-title: PEER_NAME_PAIR
+title: PEER_NAME_PAIR (p2p.h)
 author: windows-sdk-content
 description: The PEER_NAME_PAIR structure contains the results of a call to PeerGetNextItem.
 old-location: p2p\peer_name_pair.htm

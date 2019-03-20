@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReferenceEnumerator.MovePrevious
-title: IOpcSignatureRelationshipReferenceEnumerator::MovePrevious
+title: IOpcSignatureRelationshipReferenceEnumerator::MovePrevious (msopc.h)
 author: windows-sdk-content
 description: Moves the current position of the enumerator to the previous IOpcSignatureRelationshipReference interface pointer.
 old-location: opc\iopcsignaturerelationshipreferenceenumerator_moveprevious.htm

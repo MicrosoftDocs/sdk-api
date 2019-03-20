@@ -1,6 +1,6 @@
 ---
 UID: NF:mgm.MgmGetNextMfeStats
-title: MgmGetNextMfeStats function
+title: MgmGetNextMfeStats function (mgm.h)
 author: windows-sdk-content
 description: The MgmGetNextMfeStats function retrieves one or more sets of MFE statistics.
 old-location: rras\mgmgetnextmfestats.htm

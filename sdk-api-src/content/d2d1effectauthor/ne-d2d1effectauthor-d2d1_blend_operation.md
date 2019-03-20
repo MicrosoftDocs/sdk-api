@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effectauthor.D2D1_BLEND_OPERATION
-title: D2D1_BLEND_OPERATION
+title: D2D1_BLEND_OPERATION (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Specifies the blend operation on two color sources.
 old-location: direct2d\d2d1_blend_operation.htm

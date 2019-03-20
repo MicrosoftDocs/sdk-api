@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DCubeTexture9.AddDirtyRect
-title: IDirect3DCubeTexture9::AddDirtyRect
+title: IDirect3DCubeTexture9::AddDirtyRect (d3d9helper.h)
 author: windows-sdk-content
 description: Adds a dirty region to a cube texture resource.
 old-location: direct3d9\idirect3dcubetexture9__adddirtyrect.htm

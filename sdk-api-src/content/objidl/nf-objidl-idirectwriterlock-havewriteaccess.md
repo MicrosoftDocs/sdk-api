@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IDirectWriterLock.HaveWriteAccess
-title: IDirectWriterLock::HaveWriteAccess
+title: IDirectWriterLock::HaveWriteAccess (objidl.h)
 author: windows-sdk-content
 description: The HaveWriteAccess method indicates whether the write lock has been taken.
 old-location: stg\idirectwriterlock_havewriteaccess.htm

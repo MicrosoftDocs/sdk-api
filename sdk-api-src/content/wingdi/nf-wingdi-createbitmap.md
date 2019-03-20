@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.CreateBitmap
-title: CreateBitmap function
+title: CreateBitmap function (wingdi.h)
 author: windows-sdk-content
 description: The CreateBitmap function creates a bitmap with the specified width, height, and color format (color planes and bits-per-pixel).
 old-location: gdi\createbitmap.htm

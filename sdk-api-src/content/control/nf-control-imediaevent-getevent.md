@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IMediaEvent.GetEvent
-title: IMediaEvent::GetEvent
+title: IMediaEvent::GetEvent (control.h)
 author: windows-sdk-content
 description: The GetEvent method retrieves the next event notification from the event queue.
 old-location: dshow\imediaevent_getevent.htm

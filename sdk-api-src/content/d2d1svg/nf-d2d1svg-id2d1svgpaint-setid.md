@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPaint.SetId
-title: ID2D1SvgPaint::SetId
+title: ID2D1SvgPaint::SetId (d2d1svg.h)
 author: windows-sdk-content
 description: Sets the element id which acts as the paint server. This id is used if the paint type is D2D1_SVG_PAINT_TYPE_URI.
 old-location: direct2d\id2d1svgpaint_setid.htm

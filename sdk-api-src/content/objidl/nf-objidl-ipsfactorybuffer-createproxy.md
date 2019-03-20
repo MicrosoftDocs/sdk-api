@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IPSFactoryBuffer.CreateProxy
-title: IPSFactoryBuffer::CreateProxy
+title: IPSFactoryBuffer::CreateProxy (objidl.h)
 author: windows-sdk-content
 description: Creates a proxy for the specified remote interface.
 old-location: com\ipsfactorybuffer_createproxy.htm

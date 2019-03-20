@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessible.accHitTest
-title: IAccessible::accHitTest
+title: IAccessible::accHitTest (oleacc.h)
 author: windows-sdk-content
 description: The IAccessible::accHitTest method retrieves the child element or child object that is displayed at a specific point on the screen.
 old-location: winauto\iaccessible_iaccessible__acchittest.htm

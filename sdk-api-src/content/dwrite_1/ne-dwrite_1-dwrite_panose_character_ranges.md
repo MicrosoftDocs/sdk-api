@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_CHARACTER_RANGES
-title: DWRITE_PANOSE_CHARACTER_RANGES
+title: DWRITE_PANOSE_CHARACTER_RANGES (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_PANOSE_CHARACTER_RANGES enumeration contains values that specify the type of characters available in the font.
 old-location: directwrite\dwrite_panose_character_ranges.htm

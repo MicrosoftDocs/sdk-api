@@ -1,6 +1,6 @@
 ---
 UID: NN:audioclient.IAudioStreamVolume
-title: IAudioStreamVolume
+title: IAudioStreamVolume (audioclient.h)
 author: windows-sdk-content
 description: The IAudioStreamVolume interface enables a client to control and monitor the volume levels for all of the channels in an audio stream.
 old-location: coreaudio\iaudiostreamvolume.htm

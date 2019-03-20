@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsGetMissingMetadataDocumentAddress
-title: WsGetMissingMetadataDocumentAddress function
+title: WsGetMissingMetadataDocumentAddress function (webservices.h)
 author: windows-sdk-content
 description: This function returns the address of a missing document that is referenced by the metadata object.
 old-location: wsw\wsgetmissingmetadatadocumentaddress.htm

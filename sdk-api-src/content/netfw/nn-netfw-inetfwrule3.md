@@ -1,6 +1,6 @@
 ---
 UID: NN:netfw.INetFwRule3
-title: INetFwRule3
+title: INetFwRule3 (netfw.h)
 author: windows-sdk-content
 description: Allows an application or service to access all the properties of INetFwRule2 and to provide access to the requirements of app containers.
 old-location: ics\inetfwrule3.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX
-title: SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX
+title: SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX (sspi.h)
 author: windows-sdk-content
 description: Specifies serialized credentials and a list of security packages that support the credentials.
 old-location: security\sec_winnt_auth_packed_credentials_ex.htm

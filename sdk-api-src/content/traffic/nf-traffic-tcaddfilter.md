@@ -1,6 +1,6 @@
 ---
 UID: NF:traffic.TcAddFilter
-title: TcAddFilter function
+title: TcAddFilter function (traffic.h)
 author: windows-sdk-content
 description: The TcAddFilter function associates a new filter with an existing flow that allows packets matching the filter to be directed to the associated flow.
 old-location: qos\tcaddfilter.htm

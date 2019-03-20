@@ -1,6 +1,6 @@
 ---
 UID: NC:cryptxml.CryptXmlDllFinalizeDigest
-title: CryptXmlDllFinalizeDigest
+title: CryptXmlDllFinalizeDigest (cryptxml.h)
 author: windows-sdk-content
 description: Retrieves the digest value.
 old-location: security\cryptxmldllfinalizedigest.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IKnownFolderManager.FindFolderFromPath
-title: IKnownFolderManager::FindFolderFromPath
+title: IKnownFolderManager::FindFolderFromPath (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets an object that represents a known folder based on a file system path.
 old-location: shell\IKnownFolderManager_FindFolderFromPath.htm

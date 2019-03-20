@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy2.put_UdpPortPolicy
-title: IWdsTransportServicePolicy2::put_UdpPortPolicy
+title: IWdsTransportServicePolicy2::put_UdpPortPolicy (wdstptmgmt.h)
 author: windows-sdk-content
 description: Recieves the WDSTRANSPORT_UDP_PORT_POLICY value that specifies the UDP port allocation policy to be used by WDS transport services. The value enables a WDS client computer to configure the UDP port allocation policy.
 old-location: wds\iwdstransportservicepolicy2_udpportpolicy.htm

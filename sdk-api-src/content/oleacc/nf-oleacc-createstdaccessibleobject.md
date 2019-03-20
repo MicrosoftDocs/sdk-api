@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.CreateStdAccessibleObject
-title: CreateStdAccessibleObject function
+title: CreateStdAccessibleObject function (oleacc.h)
 author: windows-sdk-content
 description: Creates an accessible object with the methods and properties of the specified type of system-provided user interface element.
 old-location: winauto\createstdaccessibleobject.htm

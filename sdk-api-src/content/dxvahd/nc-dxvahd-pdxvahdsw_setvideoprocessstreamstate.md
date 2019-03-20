@@ -1,6 +1,6 @@
 ---
 UID: NC:dxvahd.PDXVAHDSW_SetVideoProcessStreamState
-title: PDXVAHDSW_SetVideoProcessStreamState
+title: PDXVAHDSW_SetVideoProcessStreamState (dxvahd.h)
 author: windows-sdk-content
 description: Sets a state parameter for an input stream on a software Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
 old-location: mf\pdxvahdsw_setvideoprocessstreamstate.htm

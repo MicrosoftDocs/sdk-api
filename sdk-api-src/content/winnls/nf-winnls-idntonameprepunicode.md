@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.IdnToNameprepUnicode
-title: IdnToNameprepUnicode function
+title: IdnToNameprepUnicode function (winnls.h)
 author: windows-sdk-content
 description: Converts an internationalized domain name (IDN) or another internationalized label to the NamePrep form specified by Network Working Group RFC 3491, but does not perform the additional conversion to Punycode.
 old-location: intl\idntonameprepunicode.htm

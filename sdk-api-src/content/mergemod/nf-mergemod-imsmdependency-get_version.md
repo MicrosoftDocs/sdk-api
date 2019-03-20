@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmDependency.get_Version
-title: IMsmDependency::get_Version
+title: IMsmDependency::get_Version (mergemod.h)
 author: windows-sdk-content
 description: The get_Version method retrieves the Version property of the Dependency object. This method returns the version of the required module in the form of a BSTR.
 old-location: setup\imsmdependency_get_version.htm

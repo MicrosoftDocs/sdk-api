@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IPerChannelDbLevel.SetLevelAllChannels
-title: IPerChannelDbLevel::SetLevelAllChannels
+title: IPerChannelDbLevel::SetLevelAllChannels (devicetopology.h)
 author: windows-sdk-content
 description: The SetLevelAllChannels method sets the volume levels, in decibels, of all the channels in the audio stream.
 old-location: coreaudio\iperchanneldblevel_setlevelallchannels.htm

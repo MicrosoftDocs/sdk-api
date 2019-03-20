@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.GetErrorInfo
-title: GetErrorInfo function
+title: GetErrorInfo function (oleauto.h)
 author: windows-sdk-content
 description: Obtains the error information pointer set by the previous call to SetErrorInfo in the current logical thread.
 old-location: automat\geterrorinfo.htm

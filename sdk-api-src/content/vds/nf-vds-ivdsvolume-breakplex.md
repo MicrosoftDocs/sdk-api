@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolume.BreakPlex
-title: IVdsVolume::BreakPlex
+title: IVdsVolume::BreakPlex (vds.h)
 author: windows-sdk-content
 description: Removes a specified plex from the current volume.
 old-location: base\ivdsvolume_breakplex.htm

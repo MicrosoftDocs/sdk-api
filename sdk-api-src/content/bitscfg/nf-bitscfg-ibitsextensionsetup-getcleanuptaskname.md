@@ -1,6 +1,6 @@
 ---
 UID: NF:bitscfg.IBITSExtensionSetup.GetCleanupTaskName
-title: IBITSExtensionSetup::GetCleanupTaskName
+title: IBITSExtensionSetup::GetCleanupTaskName (bitscfg.h)
 author: windows-sdk-content
 description: Use the GetCleanupTaskName method to retrieve the name of the cleanup task associated with the virtual directory.
 old-location: bits\ibitsextensionsetup_getcleanuptaskname.htm

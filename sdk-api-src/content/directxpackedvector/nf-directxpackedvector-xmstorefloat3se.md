@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMStoreFloat3SE
-title: XMStoreFloat3SE function
+title: XMStoreFloat3SE function (directxpackedvector.h)
 author: windows-sdk-content
 description: Stores an XMVECTOR in an XMFLOAT3SE.
 old-location: dxmath\xmstorefloat3se.htm

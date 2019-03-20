@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IRangeValueProvider.get_Minimum
-title: IRangeValueProvider::get_Minimum
+title: IRangeValueProvider::get_Minimum (uiautomationcore.h)
 author: windows-sdk-content
 description: Specifies the minimum range value supported by the control.
 old-location: winauto\uiauto_IRangeValueProvider_Minimum.htm

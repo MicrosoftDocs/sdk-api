@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._settextex
-title: SETTEXTEX
+title: SETTEXTEX (richedit.h)
 author: windows-sdk-content
 description: Specifies which code page (if any) to use in setting text, whether the text replaces all the text in the control or just the selection, and whether the undo state is to be preserved. This structure is used with the EM_SETTEXTEX message.
 old-location: controls\SETTEXTEX.htm

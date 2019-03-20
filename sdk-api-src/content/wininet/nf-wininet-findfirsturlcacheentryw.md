@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.FindFirstUrlCacheEntryW
-title: FindFirstUrlCacheEntryW function
+title: FindFirstUrlCacheEntryW function (wininet.h)
 author: windows-sdk-content
 description: Begins the enumeration of the Internet cache.
 old-location: wininet\findfirsturlcacheentry.htm

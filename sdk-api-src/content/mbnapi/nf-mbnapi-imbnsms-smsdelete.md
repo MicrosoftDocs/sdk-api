@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSms.SmsDelete
-title: IMbnSms::SmsDelete
+title: IMbnSms::SmsDelete (mbnapi.h)
 author: windows-sdk-content
 description: Deletes a set of SMS messages from a device.
 old-location: mbn\imbnsms_smsdelete.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFWrapMediaType
-title: MFWrapMediaType function
+title: MFWrapMediaType function (mfapi.h)
 author: windows-sdk-content
 description: Creates a media type that wraps another media type.
 old-location: mf\mfwrapmediatype.htm

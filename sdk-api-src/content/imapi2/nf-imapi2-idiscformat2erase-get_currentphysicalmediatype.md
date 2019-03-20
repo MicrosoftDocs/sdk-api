@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Erase.get_CurrentPhysicalMediaType
-title: IDiscFormat2Erase::get_CurrentPhysicalMediaType
+title: IDiscFormat2Erase::get_CurrentPhysicalMediaType (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the type of media in the disc device.
 old-location: imapi\idiscformat2erase_get_currentphysicalmediatype.htm

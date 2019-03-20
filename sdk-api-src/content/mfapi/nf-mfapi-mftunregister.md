@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFTUnregister
-title: MFTUnregister function
+title: MFTUnregister function (mfapi.h)
 author: windows-sdk-content
 description: Unregisters a Media Foundation transform (MFT).
 old-location: mf\mftunregister.htm

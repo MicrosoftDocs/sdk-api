@@ -1,6 +1,6 @@
 ---
 UID: NS:ipexport.tcp_reserve_port_range
-title: TCP_RESERVE_PORT_RANGE
+title: TCP_RESERVE_PORT_RANGE (ipexport.h)
 author: windows-sdk-content
 description: The TCP_RESERVE_PORT_RANGE structure specifies a TCP port range to reserve.
 old-location: iphlp\tcp_reserve_port_range.htm

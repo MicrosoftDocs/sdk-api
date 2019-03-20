@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreatePMPMediaSession
-title: MFCreatePMPMediaSession function
+title: MFCreatePMPMediaSession function (mfidl.h)
 author: windows-sdk-content
 description: Creates an instance of the Media Session inside a Protected Media Path (PMP) process.
 old-location: mf\mfcreatepmpmediasession.htm

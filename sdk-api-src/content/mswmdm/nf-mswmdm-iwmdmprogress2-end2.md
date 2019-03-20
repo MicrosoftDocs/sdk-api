@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMProgress2.End2
-title: IWMDMProgress2::End2
+title: IWMDMProgress2::End2 (mswmdm.h)
 author: windows-sdk-content
 description: The End2 method extends IWMDMProgress::End by providing a completion status indicator.
 old-location: wmdm\iwmdmprogress2_end2.htm

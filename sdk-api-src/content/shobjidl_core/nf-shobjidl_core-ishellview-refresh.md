@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellView.Refresh
-title: IShellView::Refresh
+title: IShellView::Refresh (shobjidl_core.h)
 author: windows-sdk-content
 description: Refreshes the view's contents in response to user input.
 old-location: shell\IShellView_Refresh.htm

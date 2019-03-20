@@ -1,6 +1,6 @@
 ---
 UID: NS:bcrypt._CRYPT_PROVIDER_REG
-title: CRYPT_PROVIDER_REG
+title: CRYPT_PROVIDER_REG (bcrypt.h)
 author: windows-sdk-content
 description: Used to contain registration information for a CNG provider.
 old-location: security\crypt_provider_reg.htm

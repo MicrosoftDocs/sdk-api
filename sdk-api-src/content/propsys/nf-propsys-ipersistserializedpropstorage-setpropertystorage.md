@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPersistSerializedPropStorage.SetPropertyStorage
-title: IPersistSerializedPropStorage::SetPropertyStorage
+title: IPersistSerializedPropStorage::SetPropertyStorage (propsys.h)
 author: windows-sdk-content
 description: Initializes the property store instance from the specified serialized property storage data.
 old-location: shell\IPersistSerializedPropStorage_SetPropertyStorage.htm

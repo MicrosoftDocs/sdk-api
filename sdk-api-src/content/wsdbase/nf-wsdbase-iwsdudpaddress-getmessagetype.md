@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDUdpAddress.GetMessageType
-title: IWSDUdpAddress::GetMessageType
+title: IWSDUdpAddress::GetMessageType (wsdbase.h)
 author: windows-sdk-content
 description: Gets the message type for this UDP address configuration.
 old-location: ncd\iwsdudpaddress_getmessagetype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:rectypes.tagRECO_LATTICE
-title: RECO_LATTICE
+title: RECO_LATTICE (rectypes.h)
 author: windows-sdk-content
 description: Serves as the entry point into a lattice.
 old-location: tablet\reco_lattice.htm

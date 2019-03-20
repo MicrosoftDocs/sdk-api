@@ -1,6 +1,6 @@
 ---
 UID: NF:commdlg.IPrintDialogServices.GetCurrentPortName
-title: IPrintDialogServices::GetCurrentPortName
+title: IPrintDialogServices::GetCurrentPortName (commdlg.h)
 author: windows-sdk-content
 description: Retrieves the name of the current port for use with PrintDlgEx.
 old-location: dlgbox\iprintdialogservices_getcurrentportname.htm

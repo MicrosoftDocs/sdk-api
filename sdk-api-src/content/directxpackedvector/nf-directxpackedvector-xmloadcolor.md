@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMLoadColor
-title: XMLoadColor function
+title: XMLoadColor function (directxpackedvector.h)
 author: windows-sdk-content
 description: Loads an XMCOLOR into an XMVECTOR.
 old-location: dxmath\xmloadcolor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.MouseMove
-title: IWMPEvents::MouseMove
+title: IWMPEvents::MouseMove (wmp.h)
 author: windows-sdk-content
 description: The MouseMove event occurs when the mouse pointer is moved.
 old-location: wmp\iwmpevents_iwmpevents__mousemove.htm

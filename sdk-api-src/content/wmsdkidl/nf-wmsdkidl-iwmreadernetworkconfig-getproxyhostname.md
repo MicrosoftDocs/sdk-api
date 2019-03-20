@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetProxyHostName
-title: IWMReaderNetworkConfig::GetProxyHostName
+title: IWMReaderNetworkConfig::GetProxyHostName (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetProxyHostName method retrieves the name of the host to use as the proxy.
 old-location: wmformat\iwmreadernetworkconfig_getproxyhostname.htm

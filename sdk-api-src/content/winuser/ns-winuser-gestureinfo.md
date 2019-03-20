@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagGESTUREINFO
-title: GESTUREINFO
+title: GESTUREINFO (winuser.h)
 author: windows-sdk-content
 description: Stores information about a gesture.
 old-location: wintouch\gestureinfo.htm

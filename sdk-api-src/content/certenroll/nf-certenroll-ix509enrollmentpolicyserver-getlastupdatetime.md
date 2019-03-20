@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetLastUpdateTime
-title: IX509EnrollmentPolicyServer::GetLastUpdateTime
+title: IX509EnrollmentPolicyServer::GetLastUpdateTime (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the date and time at which the policy was last downloaded.
 old-location: security\ix509enrollmentpolicyserver_getlastupdatetime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocInterface.GetFriendlyName
-title: IDot11AdHocInterface::GetFriendlyName
+title: IDot11AdHocInterface::GetFriendlyName (adhoc.h)
 author: windows-sdk-content
 description: Gets the friendly name of the NIC.
 old-location: nwifi\idot11adhocinterface_getfriendlyname.htm

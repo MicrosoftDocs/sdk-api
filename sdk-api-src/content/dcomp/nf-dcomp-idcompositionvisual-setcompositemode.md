@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.SetCompositeMode
-title: IDCompositionVisual::SetCompositeMode
+title: IDCompositionVisual::SetCompositeMode (dcomp.h)
 author: windows-sdk-content
 description: Sets the blending mode for this visual.
 old-location: directcomp\idcompositionvisual_setcompositemode.htm

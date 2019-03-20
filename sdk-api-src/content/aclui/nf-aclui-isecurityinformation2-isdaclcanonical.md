@@ -1,6 +1,6 @@
 ---
 UID: NF:aclui.ISecurityInformation2.IsDaclCanonical
-title: ISecurityInformation2::IsDaclCanonical
+title: ISecurityInformation2::IsDaclCanonical (aclui.h)
 author: windows-sdk-content
 description: The IsDaclCanonical method determines whether the ACEs contained in the specified DACL structure are ordered according to the definition of DACL ordering implemented by the client.
 old-location: security\isecurityinformation2_isdaclcanonical.htm

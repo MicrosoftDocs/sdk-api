@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.get_UserIdentity
-title: IWdsTransportClient::get_UserIdentity
+title: IWdsTransportClient::get_UserIdentity (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives a string representing the user identity associated with this client.
 old-location: wds\iwdstransportclient_useridentity.htm

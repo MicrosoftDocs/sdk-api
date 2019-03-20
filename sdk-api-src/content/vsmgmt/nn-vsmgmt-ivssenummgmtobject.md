@@ -1,6 +1,6 @@
 ---
 UID: NN:vsmgmt.IVssEnumMgmtObject
-title: IVssEnumMgmtObject
+title: IVssEnumMgmtObject (vsmgmt.h)
 author: windows-sdk-content
 description: Contains methods to iterate over and perform other operations on a list of enumerated objects.
 old-location: base\ivssenummgmtobject.htm

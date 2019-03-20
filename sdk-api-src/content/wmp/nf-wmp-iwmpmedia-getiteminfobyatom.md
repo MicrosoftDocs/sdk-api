@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMedia.getItemInfoByAtom
-title: IWMPMedia::getItemInfoByAtom
+title: IWMPMedia::getItemInfoByAtom (wmp.h)
 author: windows-sdk-content
 description: The getItemInfoByAtom method retrieves the value of the attribute with the specified index number.
 old-location: wmp\iwmpmedia_getiteminfobyatom.htm

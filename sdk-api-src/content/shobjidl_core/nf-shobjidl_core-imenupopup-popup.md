@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IMenuPopup.Popup
-title: IMenuPopup::Popup
+title: IMenuPopup::Popup (shobjidl_core.h)
 author: windows-sdk-content
 description: Invokes the shortcut menu at a specified onscreen location.
 old-location: shell\IMenuPopup_Popup.htm

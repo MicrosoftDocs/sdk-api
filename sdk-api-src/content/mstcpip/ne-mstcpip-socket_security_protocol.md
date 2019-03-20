@@ -1,6 +1,6 @@
 ---
 UID: NE:mstcpip._SOCKET_SECURITY_PROTOCOL
-title: SOCKET_SECURITY_PROTOCOL
+title: SOCKET_SECURITY_PROTOCOL (mstcpip.h)
 author: windows-sdk-content
 description: Indicates the type of security protocol to be used on a socket to secure network traffic.
 old-location: winsock\socket_security_protocol.htm

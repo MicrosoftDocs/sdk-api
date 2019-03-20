@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkinfo._NDK_ADAPTER_INFO
-title: NDK_ADAPTER_INFO
+title: NDK_ADAPTER_INFO (ndkinfo.h)
 author: windows-sdk-content
 description: The NDK_ADAPTER_INFO structure specifies information about limits and capabilities of an NDK adapter.
 old-location: netvista\ndk_adapter_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:termmgr.__MIDL___MIDL_itf_termmgr_0000_0000_0001
-title: TMGR_DIRECTION
+title: TMGR_DIRECTION (termmgr.h)
 author: windows-sdk-content
 description: The TMGR_DIRECTION enum is used by the pluggable terminal methods to indicate terminal direction.
 old-location: tapi3\tmgr_direction.htm

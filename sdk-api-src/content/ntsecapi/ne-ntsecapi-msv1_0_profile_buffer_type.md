@@ -1,6 +1,6 @@
 ---
 UID: NE:ntsecapi._MSV1_0_PROFILE_BUFFER_TYPE
-title: MSV1_0_PROFILE_BUFFER_TYPE
+title: MSV1_0_PROFILE_BUFFER_TYPE (ntsecapi.h)
 author: windows-sdk-content
 description: Lists the kind of logon profile returned.
 old-location: security\msv1_0_profile_buffer_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:evntprov.EventDescSetOpcode
-title: EventDescSetOpcode function
+title: EventDescSetOpcode function (evntprov.h)
 author: windows-sdk-content
 description: Sets the Opcode member of the event descriptor.
 old-location: etw\eventdescsetopcode_func.htm

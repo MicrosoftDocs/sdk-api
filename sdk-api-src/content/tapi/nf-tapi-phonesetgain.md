@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.phoneSetGain
-title: phoneSetGain function
+title: phoneSetGain function (tapi.h)
 author: windows-sdk-content
 description: The phoneSetGain function sets the gain of the microphone of the specified hookswitch device to the specified gain level.
 old-location: tapi2\phonesetgain.htm

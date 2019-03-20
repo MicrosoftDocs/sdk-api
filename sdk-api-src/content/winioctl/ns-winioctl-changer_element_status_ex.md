@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._CHANGER_ELEMENT_STATUS_EX
-title: CHANGER_ELEMENT_STATUS_EX
+title: CHANGER_ELEMENT_STATUS_EX (winioctl.h)
 author: windows-sdk-content
 description: Represents the status of the specified element.
 old-location: base\changer_element_status_ex_str.htm

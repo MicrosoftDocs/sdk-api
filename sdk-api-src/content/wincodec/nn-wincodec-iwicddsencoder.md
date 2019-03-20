@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICDdsEncoder
-title: IWICDdsEncoder
+title: IWICDdsEncoder (wincodec.h)
 author: windows-sdk-content
 description: Enables writing DDS format specific information to an encoder.
 old-location: wic\iwicddsencoder.htm

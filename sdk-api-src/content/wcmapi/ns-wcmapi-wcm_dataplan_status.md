@@ -1,6 +1,6 @@
 ---
 UID: NS:wcmapi._WCM_DATAPLAN_STATUS
-title: WCM_DATAPLAN_STATUS
+title: WCM_DATAPLAN_STATUS (wcmapi.h)
 author: windows-sdk-content
 description: Specifies subscription information for a network connection.
 old-location: wcm\wcm_dataplan_status.htm

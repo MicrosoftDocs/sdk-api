@@ -1,6 +1,6 @@
 ---
 UID: NF:effects.IWMPEffects.RenderFullScreen
-title: IWMPEffects::RenderFullScreen
+title: IWMPEffects::RenderFullScreen (effects.h)
 author: windows-sdk-content
 description: The RenderFullScreen method renders the visualization in full-screen mode.
 old-location: wmp\iwmpeffects_renderfullscreen.htm

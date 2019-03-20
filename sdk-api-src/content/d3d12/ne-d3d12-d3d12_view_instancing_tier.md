@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_VIEW_INSTANCING_TIER
-title: D3D12_VIEW_INSTANCING_TIER
+title: D3D12_VIEW_INSTANCING_TIER (d3d12.h)
 author: windows-sdk-content
 description: Indicates the tier level at which view instancing is supported.
 old-location: direct3d12\d3d12_view_instancing_tier.htm

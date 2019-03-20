@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteTextLayout1.GetCharacterSpacing
-title: IDWriteTextLayout1::GetCharacterSpacing
+title: IDWriteTextLayout1::GetCharacterSpacing (dwrite_1.h)
 author: windows-sdk-content
 description: Gets the spacing between characters.
 old-location: directwrite\idwritetextlayout1_getcharacterspacing.htm

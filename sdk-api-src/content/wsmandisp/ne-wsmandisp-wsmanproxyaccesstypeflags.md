@@ -1,6 +1,6 @@
 ---
 UID: NE:wsmandisp._WSManProxyAccessTypeFlags
-title: WSManProxyAccessTypeFlags
+title: WSManProxyAccessTypeFlags (wsmandisp.h)
 author: windows-sdk-content
 description: Defines the proxy access type flags.
 old-location: winrm\wsmanproxyaccesstypeflags.htm

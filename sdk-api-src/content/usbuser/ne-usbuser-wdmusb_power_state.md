@@ -1,6 +1,6 @@
 ---
 UID: NE:usbuser._WDMUSB_POWER_STATE
-title: WDMUSB_POWER_STATE
+title: WDMUSB_POWER_STATE (usbuser.h)
 author: windows-sdk-content
 description: The WDMUSB_POWER_STATE enumeration indicates the power state of a host controller or root hub.
 old-location: buses\wdmusb_power_state.htm

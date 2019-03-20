@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE
-title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE
+title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE (wincrypt.h)
 author: windows-sdk-content
 description: Releases the provider.
 old-location: security\pfn_crypt_object_locator_provider_release.htm

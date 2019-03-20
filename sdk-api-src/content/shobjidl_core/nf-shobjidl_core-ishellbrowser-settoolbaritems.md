@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.SetToolbarItems
-title: IShellBrowser::SetToolbarItems
+title: IShellBrowser::SetToolbarItems (shobjidl_core.h)
 author: windows-sdk-content
 description: Adds toolbar items to Windows Explorer's toolbar.
 old-location: shell\IShellBrowser_SetToolbarItems.htm

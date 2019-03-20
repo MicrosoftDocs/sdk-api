@@ -1,6 +1,6 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.GetNeutralAxis
-title: IDeviceModelPlugIn::GetNeutralAxis
+title: IDeviceModelPlugIn::GetNeutralAxis (wcsplugin.h)
 author: windows-sdk-content
 description: The IDeviceModelPlugIn::GetNeutralAxis return the XYZ colorimetry of sample points along the device's neutral axis.
 old-location: wcs\IDeviceModelPlugIn_GetNeutralAxis.htm

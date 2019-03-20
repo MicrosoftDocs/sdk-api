@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IEnumUnknown.Reset
-title: IEnumUnknown::Reset
+title: IEnumUnknown::Reset (objidl.h)
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienumunknown_reset.htm

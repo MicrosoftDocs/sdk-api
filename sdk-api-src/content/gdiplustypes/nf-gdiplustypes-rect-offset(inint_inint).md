@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.Rect.Offset(IN INT,IN INT)
-title: Rect::Offset(IN INT,IN INT)
+title: Rect::Offset(IN INT,IN INT) (gdiplustypes.h)
 author: windows-sdk-content
 description: The Rect::Offset method moves the rectangle by dx horizontally and by dy vertically.
 old-location: gdiplus\_gdiplus_CLASS_Rect_Offset_dx_dy_.htm

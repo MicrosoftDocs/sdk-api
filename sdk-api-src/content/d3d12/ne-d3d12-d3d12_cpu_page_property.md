@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_CPU_PAGE_PROPERTY
-title: D3D12_CPU_PAGE_PROPERTY
+title: D3D12_CPU_PAGE_PROPERTY (d3d12.h)
 author: windows-sdk-content
 description: Specifies the CPU-page properties for the heap.
 old-location: direct3d12\d3d12_cpu_page_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wmcontainer.IMFASFIndexer
-title: IMFASFIndexer
+title: IMFASFIndexer (wmcontainer.h)
 author: windows-sdk-content
 description: Provides methods to work with indexes in Systems Format (ASF) files.
 old-location: mf\imfasfindexer.htm

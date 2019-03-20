@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.GetSurroundColors
-title: PathGradientBrush::GetSurroundColors
+title: PathGradientBrush::GetSurroundColors (gdipluspath.h)
 author: windows-sdk-content
 description: The PathGradientBrush::GetSurroundColors method gets the surround colors currently specified for this path gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetSurroundColors_colors_count_.htm

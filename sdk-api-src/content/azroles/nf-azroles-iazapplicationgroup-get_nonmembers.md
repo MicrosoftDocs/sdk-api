@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.get_NonMembers
-title: IAzApplicationGroup::get_NonMembers
+title: IAzApplicationGroup::get_NonMembers (azroles.h)
 author: windows-sdk-content
 description: Retrieves the security identifiers (SIDs), in text form, of accounts that are refused membership in the application group.
 old-location: security\iazapplicationgroup_nonmembers.htm

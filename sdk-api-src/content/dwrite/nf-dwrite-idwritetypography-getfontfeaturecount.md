@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTypography.GetFontFeatureCount
-title: IDWriteTypography::GetFontFeatureCount
+title: IDWriteTypography::GetFontFeatureCount (dwrite.h)
 author: windows-sdk-content
 description: Gets the number of OpenType font features for the current font.
 old-location: directwrite\IDWriteTypography_GetFontFeatureCount.htm

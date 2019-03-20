@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Header_SetUnicodeFormat
-title: Header_SetUnicodeFormat macro
+title: Header_SetUnicodeFormat macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the UNICODE character format flag for the control.
 old-location: controls\Header_SetUnicodeFormat.htm

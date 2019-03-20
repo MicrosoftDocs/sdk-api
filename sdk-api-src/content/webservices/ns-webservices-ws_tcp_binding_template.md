@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_TCP_BINDING_TEMPLATE
-title: WS_TCP_BINDING_TEMPLATE
+title: WS_TCP_BINDING_TEMPLATE (webservices.h)
 author: windows-sdk-content
 description: TCP template structure to be filled in by application for TCP binding.
 old-location: wsw\ws_tcp_binding_template.htm

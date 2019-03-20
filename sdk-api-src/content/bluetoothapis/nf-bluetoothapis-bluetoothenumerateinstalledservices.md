@@ -1,6 +1,6 @@
 ---
 UID: NF:bluetoothapis.BluetoothEnumerateInstalledServices
-title: BluetoothEnumerateInstalledServices function
+title: BluetoothEnumerateInstalledServices function (bluetoothapis.h)
 author: windows-sdk-content
 description: The BluetoothEnumerateInstalledServices function enumerates the services GUIDs (Globally Unique Identifiers) enabled on a Bluetooth device.
 old-location: bluetooth\bluetoothenumerateinstalledservices.htm

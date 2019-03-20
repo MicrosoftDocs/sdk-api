@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_STRING
-title: WS_XML_STRING
+title: WS_XML_STRING (webservices.h)
 author: windows-sdk-content
 description: Represents a string that optionally has dictionary information associated with it. The xml APIs use WS_XML_STRINGs to identify prefixes, localNames and namespaces.
 old-location: wsw\ws_xml_string.htm

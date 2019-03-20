@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.EqualSid
-title: EqualSid function
+title: EqualSid function (securitybaseapi.h)
 author: windows-sdk-content
 description: Tests two security identifier (SID) values for equality. Two SIDs must match exactly to be considered equal.
 old-location: security\equalsid.htm

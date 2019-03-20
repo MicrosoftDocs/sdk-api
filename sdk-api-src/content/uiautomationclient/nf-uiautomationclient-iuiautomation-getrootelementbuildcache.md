@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.GetRootElementBuildCache
-title: IUIAutomation::GetRootElementBuildCache
+title: IUIAutomation::GetRootElementBuildCache (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the UI Automation element that represents the desktop, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
 old-location: winauto\uiauto_IUIAutomation_GetRootElementBuildCache.htm

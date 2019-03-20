@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IMediaStreamFilter.WaitUntil
-title: IMediaStreamFilter::WaitUntil
+title: IMediaStreamFilter::WaitUntil (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The WaitUntil method causes the filter to block until a specified stream time. The filter's pins call this method. They can interrupt the wait by flushing the filter.
 old-location: dshow\imediastreamfilter_waituntil.htm

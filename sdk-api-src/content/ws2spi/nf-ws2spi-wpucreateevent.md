@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2spi.WPUCreateEvent
-title: WPUCreateEvent function
+title: WPUCreateEvent function (ws2spi.h)
 author: windows-sdk-content
 description: The WPUCreateEvent function creates a new event object.
 old-location: winsock\wpucreateevent_2.htm

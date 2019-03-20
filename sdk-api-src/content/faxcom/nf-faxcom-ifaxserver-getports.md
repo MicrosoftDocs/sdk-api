@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxServer.GetPorts
-title: IFaxServer::GetPorts
+title: IFaxServer::GetPorts (faxcom.h)
 author: windows-sdk-content
 description: The GetPorts method creates and initializes a FaxPorts object for a specified FaxServer object. The FaxPorts object allows enumeration of fax port configuration information for the connected fax server.
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_getports_cpp.htm

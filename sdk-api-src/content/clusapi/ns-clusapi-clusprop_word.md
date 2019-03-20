@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUSPROP_WORD
-title: CLUSPROP_WORD
+title: CLUSPROP_WORD (clusapi.h)
 author: windows-sdk-content
 description: Describes numeric data.
 old-location: mscs\clusprop_word.htm

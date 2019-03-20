@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscRecorder.GetRecorderProperties
-title: IDiscRecorder::GetRecorderProperties
+title: IDiscRecorder::GetRecorderProperties (imapi.h)
 author: windows-sdk-content
 description: Retrieves a pointer to an IPropertyStorage interface.
 old-location: imapi\idiscrecorder_getrecorderproperties.htm

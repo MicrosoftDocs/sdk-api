@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbComponentGroupDescriptor.GetComponentGroupType
-title: IIsdbComponentGroupDescriptor::GetComponentGroupType
+title: IIsdbComponentGroupDescriptor::GetComponentGroupType (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the value of the component_group_type field from an Integrated Services Digital Broadcasting (ISDB) component group descriptor. This three-bit field indicates the group type to which the components in the descriptor belong.
 old-location: mstv\iisdbcomponentgroupdescriptor_getcomponentgrouptype.htm

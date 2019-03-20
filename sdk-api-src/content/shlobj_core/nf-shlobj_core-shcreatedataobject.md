@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHCreateDataObject
-title: SHCreateDataObject function
+title: SHCreateDataObject function (shlobj_core.h)
 author: windows-sdk-content
 description: Creates a data object in a parent folder.
 old-location: shell\SHCreateDataObject.htm

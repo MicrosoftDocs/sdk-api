@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.ISessionStateChangeTrigger
-title: ISessionStateChangeTrigger
+title: ISessionStateChangeTrigger (taskschd.h)
 author: windows-sdk-content
 description: Triggers tasks for console connect or disconnect, remote connect or disconnect, or workstation lock or unlock notifications.
 old-location: taskschd\isessionstatechangetrigger.htm

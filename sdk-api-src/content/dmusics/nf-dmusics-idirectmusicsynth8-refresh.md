@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth8.Refresh
-title: IDirectMusicSynth8::Refresh
+title: IDirectMusicSynth8::Refresh (dmusics.h)
 author: windows-sdk-content
 description: Refresh is unsupported and may be altered or unavailable in the future.
 old-location: audio\idirectmusicsynth8_refresh.htm

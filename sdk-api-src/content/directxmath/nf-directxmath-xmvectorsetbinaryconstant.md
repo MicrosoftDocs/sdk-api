@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorSetBinaryConstant
-title: XMVectorSetBinaryConstant function
+title: XMVectorSetBinaryConstant function (directxmath.h)
 author: windows-sdk-content
 description: Creates a vector, each of whose components is either 0.0f or 1.0f.
 old-location: dxmath\xmvectorsetbinaryconstant.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IPBDA_Services.GetCountOfRecords
-title: IPBDA_Services::GetCountOfRecords
+title: IPBDA_Services::GetCountOfRecords (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the number of service records from a Program and System Information Protocol (PSIP) table in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_services_getcountofrecords.htm

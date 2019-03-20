@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGroupExportConfig
-title: PeerGroupExportConfig function
+title: PeerGroupExportConfig function (p2p.h)
 author: windows-sdk-content
 description: The PeerGroupExportConfig function exports the group configuration for a peer as an XML string that contains the identity, group name, and the GMC for the identity.
 old-location: p2p\peergroupexportconfig.htm

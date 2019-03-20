@@ -1,6 +1,6 @@
 ---
 UID: NF:lmwksta.NetWkstaGetInfo
-title: NetWkstaGetInfo function
+title: NetWkstaGetInfo function (lmwksta.h)
 author: windows-sdk-content
 description: The NetWkstaGetInfo function returns information about the configuration of a workstation.
 old-location: netmgmt\netwkstagetinfo.htm

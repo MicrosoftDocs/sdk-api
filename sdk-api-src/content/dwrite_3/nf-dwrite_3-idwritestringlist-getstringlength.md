@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteStringList.GetStringLength
-title: IDWriteStringList::GetStringLength
+title: IDWriteStringList::GetStringLength (dwrite_3.h)
 author: windows-sdk-content
 description: Gets the length in characters (not including the null terminator) of the string with the specified index.
 old-location: directwrite\idwritestringlist_getstringlength.htm

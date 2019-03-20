@@ -1,6 +1,6 @@
 ---
 UID: NF:winwlx.WlxScreenSaverNotify
-title: WlxScreenSaverNotify function
+title: WlxScreenSaverNotify function (winwlx.h)
 author: windows-sdk-content
 description: Winlogon calls this function immediately before a screen saver is activated, allowing the GINA to interact with the screen saver program.
 old-location: security\wlxscreensavernotify.htm

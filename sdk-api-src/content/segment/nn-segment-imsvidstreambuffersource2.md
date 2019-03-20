@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidStreamBufferSource2
-title: IMSVidStreamBufferSource2
+title: IMSVidStreamBufferSource2 (segment.h)
 author: windows-sdk-content
 description: The IMSVidStreamBufferSource2 interface represents the Stream Buffer Source filter within the Video Control.
 old-location: mstv\imsvidstreambuffersource2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IFrequencyMap
-title: IFrequencyMap
+title: IFrequencyMap (bdaiface.h)
 author: windows-sdk-content
 description: The IFrequencyMap interface sets the frequency table used by the BDA Network Provider filter.A frequency table is a list of broadcast or cable frequencies for a given country/region.
 old-location: mstv\ifrequencymap.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFMediaKeySessionNotify
-title: IMFMediaKeySessionNotify
+title: IMFMediaKeySessionNotify (mfmediaengine.h)
 author: windows-sdk-content
 description: Provides a mechanism for notifying the app about information regarding the media key session.
 old-location: mf\imfmediakeysessionnotify.htm

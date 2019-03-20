@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServicePoolConfig.put_MinPoolSize
-title: IServicePoolConfig::put_MinPoolSize
+title: IServicePoolConfig::put_MinPoolSize (comsvcs.h)
 author: windows-sdk-content
 description: Sets the minimum number of objects in the pool.
 old-location: cos\iservicepoolconfig_put_minpoolsize.htm

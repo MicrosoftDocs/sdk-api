@@ -1,6 +1,6 @@
 ---
 UID: NF:msaatext.IAccDictionary.GetParentTerm
-title: IAccDictionary::GetParentTerm
+title: IAccDictionary::GetParentTerm (msaatext.h)
 author: windows-sdk-content
 description: Clients call the IAccDictionary::GetParentTerm method to navigate through the object hierarchy tree. This method returns the parent object of a specified property.
 old-location: winauto\iaccdictionary_iaccdictionary__getparentterm.htm

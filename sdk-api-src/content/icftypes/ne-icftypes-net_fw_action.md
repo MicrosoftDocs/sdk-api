@@ -1,6 +1,6 @@
 ---
 UID: NE:icftypes.NET_FW_ACTION_
-title: NET_FW_ACTION
+title: NET_FW_ACTION (icftypes.h)
 author: windows-sdk-content
 description: Specifies the action for a rule or default setting.
 old-location: ics\net_fw_action.htm

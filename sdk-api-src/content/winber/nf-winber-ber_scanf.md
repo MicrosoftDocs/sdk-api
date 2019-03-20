@@ -1,6 +1,6 @@
 ---
 UID: NF:winber.ber_scanf
-title: ber_scanf function
+title: ber_scanf function (winber.h)
 author: windows-sdk-content
 description: The ber_scanf function decodes a BER element in a similar manner as sscanf_s.
 old-location: ldap\ber_scanf.htm

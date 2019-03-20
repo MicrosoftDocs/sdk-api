@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.GetCount
-title: ITfCandidateListUIElement::GetCount
+title: ITfCandidateListUIElement::GetCount (msctf.h)
 author: windows-sdk-content
 description: The ITfCandidateListUIElement::GetCount method returns the count of the candidate strings.
 old-location: tsf\itfcandidatelistuielement_getcount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioClient.IsSpatialAudioStreamAvailable
-title: ISpatialAudioClient::IsSpatialAudioStreamAvailable
+title: ISpatialAudioClient::IsSpatialAudioStreamAvailable (spatialaudioclient.h)
 author: windows-sdk-content
 description: When successful, gets a value indicating whether the currently active spatial rendering engine supports the specified spatial audio render stream.
 old-location: coreaudio\ispatialaudioclient_isspatialaudiostreamavailable.htm

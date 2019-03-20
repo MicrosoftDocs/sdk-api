@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_VERTICAL_GLYPH_ORIENTATION
-title: DWRITE_VERTICAL_GLYPH_ORIENTATION
+title: DWRITE_VERTICAL_GLYPH_ORIENTATION (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_VERTICAL_GLYPH_ORIENTATION enumeration contains values that specify the desired kind of glyph orientation for the text.
 old-location: directwrite\dwrite_vertical_glyph_orientation.htm

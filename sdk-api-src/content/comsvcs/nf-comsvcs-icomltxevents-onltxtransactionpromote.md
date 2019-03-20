@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComLTxEvents.OnLtxTransactionPromote
-title: IComLTxEvents::OnLtxTransactionPromote
+title: IComLTxEvents::OnLtxTransactionPromote (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a transaction is promoted.
 old-location: cos\icomltxevents_onltxtransactionpromote.htm

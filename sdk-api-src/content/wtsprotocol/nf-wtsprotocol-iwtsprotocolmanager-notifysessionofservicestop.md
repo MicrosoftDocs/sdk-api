@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolManager.NotifySessionOfServiceStop
-title: IWTSProtocolManager::NotifySessionOfServiceStop
+title: IWTSProtocolManager::NotifySessionOfServiceStop (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolManager::NotifySessionOfServiceStop is no longer available. Instead, use IWRdsProtocolManager::NotifySessionOfServiceStop.
 old-location: termserv\iwtsprotocolmanager_notifysessionofservicestop.htm

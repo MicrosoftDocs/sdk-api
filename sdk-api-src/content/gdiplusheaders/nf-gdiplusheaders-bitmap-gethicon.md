@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.GetHICON
-title: Bitmap::GetHICON
+title: Bitmap::GetHICON (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Bitmap::GetHICON method creates an icon from this Bitmap object.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_GetHICON_hicon_.htm

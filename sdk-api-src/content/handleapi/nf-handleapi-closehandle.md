@@ -1,6 +1,6 @@
 ---
 UID: NF:handleapi.CloseHandle
-title: CloseHandle function
+title: CloseHandle function (handleapi.h)
 author: windows-sdk-content
 description: Closes an open object handle.
 old-location: base\closehandle.htm

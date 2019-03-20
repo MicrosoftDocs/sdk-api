@@ -1,6 +1,6 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter.ConfigureFilterUsingProfileId
-title: IConfigAsfWriter::ConfigureFilterUsingProfileId
+title: IConfigAsfWriter::ConfigureFilterUsingProfileId (dshowasf.h)
 author: windows-sdk-content
 description: The ConfigureFilterUsingProfileId method sets a Windows Media Format 4.0 profile on the WM ASF Writer filter. This method is deprecated. Applications should use the IConfigAsfWriter::ConfigureFilterUsingProfile method to set the profile.
 old-location: dshow\iconfigasfwriter_configurefilterusingprofileid.htm

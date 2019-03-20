@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSSetUserConfigA
-title: WTSSetUserConfigA function
+title: WTSSetUserConfigA function (wtsapi32.h)
 author: windows-sdk-content
 description: Modifies configuration information for the specified user on the specified domain controller or Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtssetuserconfig.htm

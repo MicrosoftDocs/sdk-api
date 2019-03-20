@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrUserMarshalMarshall
-title: NdrUserMarshalMarshall function
+title: NdrUserMarshalMarshall function (rpcndr.h)
 author: windows-sdk-content
 description: The NdrUserMarshalMarshall function marshals the supplied data buffer.
 old-location: rpc\ndrusermarshalmarshall.htm

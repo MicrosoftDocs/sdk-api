@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptMsgCountersign
-title: CryptMsgCountersign function
+title: CryptMsgCountersign function (wincrypt.h)
 author: windows-sdk-content
 description: Countersigns an existing signature in a message.
 old-location: security\cryptmsgcountersign.htm

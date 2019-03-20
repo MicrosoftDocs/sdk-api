@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.LoadBitmapA
-title: LoadBitmapA function
+title: LoadBitmapA function (winuser.h)
 author: windows-sdk-content
 description: The LoadBitmap function loads the specified bitmap resource from a module's executable file.
 old-location: gdi\loadbitmap.htm

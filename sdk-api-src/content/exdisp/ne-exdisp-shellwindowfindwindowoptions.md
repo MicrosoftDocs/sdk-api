@@ -1,6 +1,6 @@
 ---
 UID: NE:exdisp.ShellWindowFindWindowOptions
-title: ShellWindowFindWindowOptions
+title: ShellWindowFindWindowOptions (exdisp.h)
 author: windows-sdk-content
 description: Specifies options for finding window in the Shell windows collection.
 old-location: shell\ShellWindowFindWindowOptions.htm

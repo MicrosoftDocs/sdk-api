@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.put_ClientId
-title: IX509CertificateRequest::put_ClientId
+title: IX509CertificateRequest::put_ClientId (certenroll.h)
 author: windows-sdk-content
 description: Specifies and retrieves a value that identifies the executable that created the request.
 old-location: security\ix509certificaterequest_clientid_property.htm

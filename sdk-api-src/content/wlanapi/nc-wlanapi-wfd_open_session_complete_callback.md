@@ -1,6 +1,6 @@
 ---
 UID: NC:wlanapi.WFD_OPEN_SESSION_COMPLETE_CALLBACK
-title: WFD_OPEN_SESSION_COMPLETE_CALLBACK
+title: WFD_OPEN_SESSION_COMPLETE_CALLBACK (wlanapi.h)
 author: windows-sdk-content
 description: Defines the callback function that is called by the WFDStartOpenSession function when the WFDStartOpenSession operation completes.
 old-location: nwifi\wfd_open_session_complete_callback.htm

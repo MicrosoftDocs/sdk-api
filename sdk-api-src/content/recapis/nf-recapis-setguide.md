@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.SetGuide
-title: SetGuide function
+title: SetGuide function (recapis.h)
 author: windows-sdk-content
 description: Sets the recognition guide to use for boxed or lined input. You must call this function before you add strokes to the context.
 old-location: tablet\setguide.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:xaudio2.IXAudio2SubmixVoice
-title: IXAudio2SubmixVoice
+title: IXAudio2SubmixVoice (xaudio2.h)
 author: windows-sdk-content
 description: A submix voice is used primarily for performance improvements and effects processing.
 old-location: xaudio2\ixaudio2submixvoice.htm

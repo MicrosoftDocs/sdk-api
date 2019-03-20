@@ -1,6 +1,6 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.SetAspectRatioMode
-title: IMixerPinConfig::SetAspectRatioMode
+title: IMixerPinConfig::SetAspectRatioMode (mpconfig.h)
 author: windows-sdk-content
 description: The SetAspectRatioMode method sets the aspect ratio correction mode for window resizing.
 old-location: dshow\imixerpinconfig_setaspectratiomode.htm

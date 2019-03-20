@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.CreateSettingsContext
-title: ISettingsEngine::CreateSettingsContext
+title: ISettingsEngine::CreateSettingsContext (wcmconfig.h)
 author: windows-sdk-content
 description: Creates a settings context.
 old-location: smi\isettingsengine_createsettingscontext.htm

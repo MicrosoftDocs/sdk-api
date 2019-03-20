@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva9typ._COPP_TVProtectionStandard
-title: COPP_TVProtectionStandard
+title: COPP_TVProtectionStandard (dxva9typ.h)
 author: windows-sdk-content
 description: Defines a list of TV protection standards for Certified Output Protection Protocol (COPP).
 old-location: dshow\copp_tvprotectionstandard.htm

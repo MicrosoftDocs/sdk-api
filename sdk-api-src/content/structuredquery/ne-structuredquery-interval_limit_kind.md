@@ -1,6 +1,6 @@
 ---
 UID: NE:structuredquery.tagINTERVAL_LIMIT_KIND
-title: INTERVAL_LIMIT_KIND
+title: INTERVAL_LIMIT_KIND (structuredquery.h)
 author: windows-sdk-content
 description: These values are returned by IInterval::GetLimits as pairs to specify a range with an upper and lower limit.
 old-location: search\_search_INTERVAL_LIMIT_KIND.htm

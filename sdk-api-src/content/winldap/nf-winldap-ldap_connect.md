@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_connect
-title: ldap_connect function
+title: ldap_connect function (winldap.h)
 author: windows-sdk-content
 description: The ldap_connect function establishes a connection with the server.
 old-location: ldap\ldap_connect.htm

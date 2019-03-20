@@ -1,6 +1,6 @@
 ---
 UID: NF:ddeml.DdeQueryStringA
-title: DdeQueryStringA function
+title: DdeQueryStringA function (ddeml.h)
 author: windows-sdk-content
 description: Copies text associated with a string handle into a buffer.
 old-location: dataxchg\ddequerystring.htm

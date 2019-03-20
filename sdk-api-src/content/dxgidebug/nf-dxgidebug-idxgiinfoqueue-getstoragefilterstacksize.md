@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetStorageFilterStackSize
-title: IDXGIInfoQueue::GetStorageFilterStackSize
+title: IDXGIInfoQueue::GetStorageFilterStackSize (dxgidebug.h)
 author: windows-sdk-content
 description: Gets the size of the storage-filter stack in bytes.
 old-location: direct3ddxgi\idxgiinfoqueue_getstoragefilterstacksize.htm

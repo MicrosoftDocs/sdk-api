@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._VENDORPROPERTIES
-title: VENDORPROPERTIES
+title: VENDORPROPERTIES (sdoias.h)
 author: windows-sdk-content
 description: The values of the VENDORPROPERTIES enumeration type specify properties of objects in the vendors collection.
 old-location: nps\SDO_vendorproperties.htm

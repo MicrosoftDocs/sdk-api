@@ -1,6 +1,6 @@
 ---
 UID: NL:textserv.ITextServices2
-title: ITextServices2
+title: ITextServices2 (textserv.h)
 author: windows-sdk-content
 description: The ITextServices2 interface extends the ITextServices interface.
 old-location: controls\itextservices2.htm

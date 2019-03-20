@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.SetName
-title: IWMProfile::SetName
+title: IWMProfile::SetName (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetName method specifies the name of a profile.
 old-location: wmformat\iwmprofile_setname.htm

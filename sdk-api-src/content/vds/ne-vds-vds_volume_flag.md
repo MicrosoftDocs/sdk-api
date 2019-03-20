@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_VOLUME_FLAG
-title: VDS_VOLUME_FLAG
+title: VDS_VOLUME_FLAG (vds.h)
 author: windows-sdk-content
 description: Defines the set of valid flags for a volume object.
 old-location: base\vds_volume_flag.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.GetGamutBoundaryMeshSize
-title: IDeviceModelPlugIn::GetGamutBoundaryMeshSize
+title: IDeviceModelPlugIn::GetGamutBoundaryMeshSize (wcsplugin.h)
 author: windows-sdk-content
 description: Returns the required data structure sizes for the GetGamutBoundaryMesh function.
 old-location: wcs\IDeviceModelPlugIn_GetGamutBoundaryMeshSize.htm

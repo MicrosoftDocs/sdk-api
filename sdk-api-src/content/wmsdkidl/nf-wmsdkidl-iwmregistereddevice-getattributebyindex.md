@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.GetAttributeByIndex
-title: IWMRegisteredDevice::GetAttributeByIndex
+title: IWMRegisteredDevice::GetAttributeByIndex (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetAttributeByIndex method retrieves an attribute associated with the device. This method uses the attribute index to specify the attribute to retrieve.
 old-location: wmformat\iwmregistereddevice_getattributebyindex.htm

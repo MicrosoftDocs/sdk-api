@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsInheritSecurityIdentityW
-title: DsInheritSecurityIdentityW function
+title: DsInheritSecurityIdentityW function (ntdsapi.h)
 author: windows-sdk-content
 description: Appends the objectSid and sidHistory attributes of SrcPrincipal to the sidHistory of DstPrincipal and then deletes SrcPrincipal, all in a single transaction.
 old-location: ad\dsinheritsecurityidentity.htm

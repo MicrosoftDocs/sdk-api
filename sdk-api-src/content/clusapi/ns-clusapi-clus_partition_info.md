@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUS_PARTITION_INFO
-title: CLUS_PARTITION_INFO
+title: CLUS_PARTITION_INFO (clusapi.h)
 author: windows-sdk-content
 description: Contains data describing a storage class resource volume and file system. It is used as the data member of a CLUSPROP_PARTITION_INFO structure and as the return value of some control code operations.
 old-location: mscs\clus_partition_info.htm

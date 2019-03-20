@@ -1,6 +1,6 @@
 ---
 UID: NF:dmort.MoCopyMediaType
-title: MoCopyMediaType function
+title: MoCopyMediaType function (dmort.h)
 author: windows-sdk-content
 description: The MoCopyMediaType function copies the members of one media type structure into another media type structure.
 old-location: dshow\mocopymediatype.htm

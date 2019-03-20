@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSampleGrabberSinkCallback.OnProcessSample
-title: IMFSampleGrabberSinkCallback::OnProcessSample
+title: IMFSampleGrabberSinkCallback::OnProcessSample (mfidl.h)
 author: windows-sdk-content
 description: Called when the sample-grabber sink receives a new media sample.
 old-location: mf\imfsamplegrabbersinkcallback_onprocesssample.htm

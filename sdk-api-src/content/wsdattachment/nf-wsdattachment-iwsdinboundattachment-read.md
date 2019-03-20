@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdattachment.IWSDInboundAttachment.Read
-title: IWSDInboundAttachment::Read
+title: IWSDInboundAttachment::Read (wsdattachment.h)
 author: windows-sdk-content
 description: Retrieves attachment data from a message sent by a remote host.
 old-location: ncd\iwsdinboundattachment_read_method.htm

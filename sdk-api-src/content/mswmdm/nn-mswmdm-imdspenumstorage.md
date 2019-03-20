@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IMDSPEnumStorage
-title: IMDSPEnumStorage
+title: IMDSPEnumStorage (mswmdm.h)
 author: windows-sdk-content
 description: The IMDSPEnumStorage interface is used to enumerate the storage media on a device.
 old-location: wmdm\imdspenumstorage.htm

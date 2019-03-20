@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_GET_CACHE_INFORMATION
-title: IOCTL_DISK_GET_CACHE_INFORMATION
+title: IOCTL_DISK_GET_CACHE_INFORMATION (winioctl.h)
 author: windows-sdk-content
 description: Retrieves the disk cache configuration data.
 old-location: fs\ioctl_disk_get_cache_information.htm

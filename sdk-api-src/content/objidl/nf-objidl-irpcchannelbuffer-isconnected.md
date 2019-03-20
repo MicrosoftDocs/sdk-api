@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IRpcChannelBuffer.IsConnected
-title: IRpcChannelBuffer::IsConnected
+title: IRpcChannelBuffer::IsConnected (objidl.h)
 author: windows-sdk-content
 description: Determines whether the RPC channel is connected.
 old-location: com\irpcchannelbuffer_isconnected.htm

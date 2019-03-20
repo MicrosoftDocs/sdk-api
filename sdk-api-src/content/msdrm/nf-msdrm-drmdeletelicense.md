@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMDeleteLicense
-title: DRMDeleteLicense function
+title: DRMDeleteLicense function (msdrm.h)
 author: windows-sdk-content
 description: Deletes a license, client licensor certificate, revocation list, or issuance license template.
 old-location: rm\drmdeletelicense.htm

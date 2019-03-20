@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.EnumClipboardFormats
-title: EnumClipboardFormats function
+title: EnumClipboardFormats function (winuser.h)
 author: windows-sdk-content
 description: Enumerates the data formats currently available on the clipboard.
 old-location: dataxchg\enumclipboardformats.htm

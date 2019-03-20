@@ -1,6 +1,6 @@
 ---
 UID: NS:processsnapshot.__unnamed_struct_11
-title: PSS_THREAD_ENTRY
+title: PSS_THREAD_ENTRY (processsnapshot.h)
 author: windows-sdk-content
 description: Holds thread information returned by PssWalkSnapshotPssWalkSnapshot.
 old-location: proc_snap\pss_thread_entry.htm

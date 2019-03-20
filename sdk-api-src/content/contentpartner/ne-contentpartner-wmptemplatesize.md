@@ -1,6 +1,6 @@
 ---
 UID: NE:contentpartner.WMPTemplateSize
-title: WMPTemplateSize
+title: WMPTemplateSize (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The WMPTemplateSize enumeration represents HTML template sizes.
 old-location: wmp\wmptemplatesize.htm

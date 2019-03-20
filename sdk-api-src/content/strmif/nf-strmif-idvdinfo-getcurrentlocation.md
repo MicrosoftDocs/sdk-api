@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo.GetCurrentLocation
-title: IDvdInfo::GetCurrentLocation
+title: IDvdInfo::GetCurrentLocation (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current playback location.
 old-location: dshow\idvdinfo_getcurrentlocation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICPalette.HasAlpha
-title: IWICPalette::HasAlpha
+title: IWICPalette::HasAlpha (wincodec.h)
 author: windows-sdk-content
 description: Indicates whether the palette contains an entry that is non-opaque (that is, an entry with an alpha that is less than 1).
 old-location: wic\_wic_codec_iwicpalette_hasalpha.htm

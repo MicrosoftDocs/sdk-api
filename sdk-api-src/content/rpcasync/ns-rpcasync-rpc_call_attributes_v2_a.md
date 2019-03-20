@@ -1,6 +1,6 @@
 ---
 UID: NS:rpcasync.tagRPC_CALL_ATTRIBUTES_V2_A
-title: RPC_CALL_ATTRIBUTES_V2_A
+title: RPC_CALL_ATTRIBUTES_V2_A (rpcasync.h)
 author: windows-sdk-content
 description: The RPC_CALL_ATTRIBUTES_V2 structure provides parameters to the RpcServerInqCallAttributes function. Version 2 specifies support for local addresses and client process IDs.
 old-location: rpc\rpc_call_attributes_v2.htm

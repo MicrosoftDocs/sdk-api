@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_Sharpness
-title: IVideoProcAmp::getRange_Sharpness
+title: IVideoProcAmp::getRange_Sharpness (vidcap.h)
 author: windows-sdk-content
 description: The getRange_Sharpness method returns the range of sharpness settings supported by the camera.
 old-location: dshow\ivideoprocamp_getrange_sharpness.htm

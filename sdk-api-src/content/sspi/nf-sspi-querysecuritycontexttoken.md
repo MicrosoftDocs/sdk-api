@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.QuerySecurityContextToken
-title: QuerySecurityContextToken function
+title: QuerySecurityContextToken function (sspi.h)
 author: windows-sdk-content
 description: Obtains the access token for a client security context and uses it directly.
 old-location: security\querysecuritycontexttoken.htm

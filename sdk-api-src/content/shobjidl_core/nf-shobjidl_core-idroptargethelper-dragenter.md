@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDropTargetHelper.DragEnter
-title: IDropTargetHelper::DragEnter
+title: IDropTargetHelper::DragEnter (shobjidl_core.h)
 author: windows-sdk-content
 description: Notifies the drag-image manager that the drop target's IDropTarget::DragEnter method has been called.
 old-location: shell\IDropTargetHelper_DragEnter.htm

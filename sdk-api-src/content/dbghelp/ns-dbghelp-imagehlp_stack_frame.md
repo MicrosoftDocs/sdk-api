@@ -1,6 +1,6 @@
 ---
 UID: NS:dbghelp._IMAGEHLP_STACK_FRAME
-title: IMAGEHLP_STACK_FRAME
+title: IMAGEHLP_STACK_FRAME (dbghelp.h)
 author: windows-sdk-content
 description: Contains the stack frame information.
 old-location: base\imagehlp_stack_frame_str.htm

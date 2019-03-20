@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.RegisterPointerDeviceNotifications
-title: RegisterPointerDeviceNotifications function
+title: RegisterPointerDeviceNotifications function (winuser.h)
 author: windows-sdk-content
 description: Registers a window to process the WM_POINTERDEVICECHANGE, WM_POINTERDEVICEINRANGE, and WM_POINTERDEVICEOUTOFRANGE pointer device notifications.
 old-location: input_pointerdevice\registerpointerdevicenotifications.htm

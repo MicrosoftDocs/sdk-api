@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.InkCollectorEventInterest
-title: InkCollectorEventInterest
+title: InkCollectorEventInterest (msinkaut.h)
 author: windows-sdk-content
 description: Defines values that are used to specify whether an event occurred on an ink collector and, if so, which event fired.
 old-location: tablet\inkcollectoreventinterest.htm

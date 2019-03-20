@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsCombineUrl
-title: WsCombineUrl function
+title: WsCombineUrl function (webservices.h)
 author: windows-sdk-content
 description: Produces an absolute URL from a specified URL reference (absolute or relative URL) and a specified absolute base URL.
 old-location: wsw\wscombineurl.htm

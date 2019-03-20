@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnSelectionChanged
-title: INameSpaceTreeControlEvents::OnSelectionChanged
+title: INameSpaceTreeControlEvents::OnSelectionChanged (shobjidl.h)
 author: windows-sdk-content
 description: Called when the selection changes.
 old-location: shell\INameSpaceTreeControlEvents_OnSelectionChanged.htm

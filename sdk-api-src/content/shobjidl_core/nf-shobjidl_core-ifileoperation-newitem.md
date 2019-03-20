@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.NewItem
-title: IFileOperation::NewItem
+title: IFileOperation::NewItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Declares a new item that is to be created in a specified location.
 old-location: shell\IFileOperation_NewItem.htm

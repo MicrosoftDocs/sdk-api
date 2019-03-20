@@ -1,6 +1,6 @@
 ---
 UID: NN:infotech.IITWordWheel
-title: IITWordWheel
+title: IITWordWheel (infotech.h)
 author: windows-sdk-content
 description: Use this interface to perform word wheel keyword lookups. The Lookup method offers several ways of performing a search:\_it returns either an exact match, or the closest approximation based on a given prefix.
 old-location: htmlhelp\iitwordwheel.htm

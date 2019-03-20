@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.EnumModuleDefinitions
-title: IFsrmClassificationManager::EnumModuleDefinitions
+title: IFsrmClassificationManager::EnumModuleDefinitions (fsrmpipeline.h)
 author: windows-sdk-content
 description: Enumerates the module definitions of the specified type.
 old-location: fsrm\ifsrmclassificationmanager_enummoduledefinitions.htm

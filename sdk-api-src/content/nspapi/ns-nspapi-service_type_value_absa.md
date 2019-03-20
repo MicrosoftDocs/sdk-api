@@ -1,6 +1,6 @@
 ---
 UID: NS:nspapi._SERVICE_TYPE_VALUE_ABSA
-title: SERVICE_TYPE_VALUE_ABSA
+title: SERVICE_TYPE_VALUE_ABSA (nspapi.h)
 author: windows-sdk-content
 description: Contains information about a network-service type value. This information may be specific to a namespace.
 old-location: winsock\service_type_value_abs_2.htm

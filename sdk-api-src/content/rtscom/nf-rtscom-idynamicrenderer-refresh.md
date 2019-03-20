@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IDynamicRenderer.Refresh
-title: IDynamicRenderer::Refresh
+title: IDynamicRenderer::Refresh (rtscom.h)
 author: windows-sdk-content
 description: Causes the DynamicRenderer Class object to redraw the ink data that is currently rendering.
 old-location: tablet\idynamicrenderer_refresh.htm

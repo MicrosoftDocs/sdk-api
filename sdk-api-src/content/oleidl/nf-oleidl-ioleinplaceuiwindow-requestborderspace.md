@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceUIWindow.RequestBorderSpace
-title: IOleInPlaceUIWindow::RequestBorderSpace
+title: IOleInPlaceUIWindow::RequestBorderSpace (oleidl.h)
 author: windows-sdk-content
 description: Determines whether there is space available for tools to be installed around the object's window frame while the object is active in place.
 old-location: com\ioleinplaceuiwindow_requestborderspace.htm

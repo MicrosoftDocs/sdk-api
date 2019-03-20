@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.SetRightIndent
-title: ITextPara::SetRightIndent
+title: ITextPara::SetRightIndent (tom.h)
 author: windows-sdk-content
 description: Sets the right margin of paragraph.
 old-location: controls\ITextPara_SetRightIndent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wpcapi.IWPCProviderState.Disable
-title: IWPCProviderState::Disable
+title: IWPCProviderState::Disable (wpcapi.h)
 author: windows-sdk-content
 description: Notifies the third-party application that it is not the current provider.
 old-location: parcon\iwpcproviderstate_disable.htm

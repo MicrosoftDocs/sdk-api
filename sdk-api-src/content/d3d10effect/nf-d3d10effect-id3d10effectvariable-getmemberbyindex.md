@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.GetMemberByIndex
-title: ID3D10EffectVariable::GetMemberByIndex
+title: ID3D10EffectVariable::GetMemberByIndex (d3d10effect.h)
 author: windows-sdk-content
 description: Get a structure member by index.
 old-location: direct3d10\id3d10effectvariable_getmemberbyindex.htm

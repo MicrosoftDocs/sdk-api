@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPrintJobOperations.Pause
-title: IADsPrintJobOperations::Pause
+title: IADsPrintJobOperations::Pause (iads.h)
 author: windows-sdk-content
 description: The IADsPrintJobOperations::Pause method halts the processing of the current print job. Call the IADsPrintJobOperations::Resume method to continue the processing.
 old-location: adsi\iadsprintjoboperations_pause.htm

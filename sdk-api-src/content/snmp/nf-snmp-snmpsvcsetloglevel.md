@@ -1,6 +1,6 @@
 ---
 UID: NF:snmp.SnmpSvcSetLogLevel
-title: SnmpSvcSetLogLevel function
+title: SnmpSvcSetLogLevel function (snmp.h)
 author: windows-sdk-content
 description: The SnmpSvcSetLogLevel function adjusts the level of detail of the debug output from the SNMP service and from SNMP extension agents using the SnmpUtilDbgPrint function. This function is an element of the SNMP Utility API.
 old-location: snmp\snmpsvcsetloglevel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:uiautomationcoreapi.UiaEventArgs
-title: UiaEventArgs
+title: UiaEventArgs (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Note  This structure is deprecated.  Contains information about a Microsoft UI Automation event.
 old-location: winauto\uiauto_UiaEventArgsStruct.htm

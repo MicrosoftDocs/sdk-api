@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgDocument.GetRoot
-title: ID2D1SvgDocument::GetRoot
+title: ID2D1SvgDocument::GetRoot (d2d1svg.h)
 author: windows-sdk-content
 description: Gets the root element of the document.
 old-location: direct2d\id2d1svgdocument_getroot.htm

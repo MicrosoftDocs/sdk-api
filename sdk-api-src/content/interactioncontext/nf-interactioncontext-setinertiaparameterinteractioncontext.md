@@ -1,6 +1,6 @@
 ---
 UID: NF:interactioncontext.SetInertiaParameterInteractionContext
-title: SetInertiaParameterInteractionContext function
+title: SetInertiaParameterInteractionContext function (interactioncontext.h)
 author: windows-sdk-content
 description: Configures the inertia behavior of a manipulation (translation, rotation, scaling) after the contact is lifted.
 old-location: input_intcontext\setinertiaparameterinteractioncontext.htm

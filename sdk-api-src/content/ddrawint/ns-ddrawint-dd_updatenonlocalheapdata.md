@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_UPDATENONLOCALHEAPDATA
-title: DD_UPDATENONLOCALHEAPDATA
+title: DD_UPDATENONLOCALHEAPDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_UPDATENONLOCALHEAPDATA structure contains the required heap information.
 old-location: display\dd_updatenonlocalheapdata.htm

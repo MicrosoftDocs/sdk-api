@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IBurnVerification.get_BurnVerificationLevel
-title: IBurnVerification::get_BurnVerificationLevel
+title: IBurnVerification::get_BurnVerificationLevel (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the current Burn Verification Level.
 old-location: imapi\iburnverification_get_burnverificationlevel.htm

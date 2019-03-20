@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetClassNameW
-title: GetClassNameW function
+title: GetClassNameW function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the name of the class to which the specified window belongs.
 old-location: winmsg\getclassname.htm

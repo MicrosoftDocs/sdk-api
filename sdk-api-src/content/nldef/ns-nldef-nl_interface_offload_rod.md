@@ -1,6 +1,6 @@
 ---
 UID: NS:nldef._NL_INTERFACE_OFFLOAD_ROD
-title: NL_INTERFACE_OFFLOAD_ROD
+title: NL_INTERFACE_OFFLOAD_ROD (nldef.h)
 author: windows-sdk-content
 description: Specifies a set of flags that indicate the offload capabilities for an IP interface.
 old-location: mib\nl_interface_offload_rod.htm

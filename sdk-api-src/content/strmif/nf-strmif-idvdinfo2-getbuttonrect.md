@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetButtonRect
-title: IDvdInfo2::GetButtonRect
+title: IDvdInfo2::GetButtonRect (strmif.h)
 author: windows-sdk-content
 description: The GetButtonRect method retrieves the rectangle coordinates for the specified menu button. Note  This method is currently not implemented. .
 old-location: dshow\idvdinfo2_getbuttonrect.htm

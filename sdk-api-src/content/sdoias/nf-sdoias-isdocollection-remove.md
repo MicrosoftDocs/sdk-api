@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdoCollection.Remove
-title: ISdoCollection::Remove
+title: ISdoCollection::Remove (sdoias.h)
 author: windows-sdk-content
 description: The Remove method removes the specified item from the collection.
 old-location: nps\SDO_isdocollection_remove.htm

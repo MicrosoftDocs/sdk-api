@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportCollection.get_Count
-title: IWdsTransportCollection::get_Count
+title: IWdsTransportCollection::get_Count (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives the number of objects in this collection.
 old-location: wds\iwdstransportcollection_count.htm

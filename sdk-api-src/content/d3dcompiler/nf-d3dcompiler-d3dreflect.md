@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcompiler.D3DReflect
-title: D3DReflect function
+title: D3DReflect function (d3dcompiler.h)
 author: windows-sdk-content
 description: Gets a pointer to a reflection interface.
 old-location: direct3dhlsl\d3dreflect.htm

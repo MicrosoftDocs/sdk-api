@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11sdklayers.D3D11_MESSAGE
-title: D3D11_MESSAGE
+title: D3D11_MESSAGE (d3d11sdklayers.h)
 author: windows-sdk-content
 description: A debug message in the Information Queue.
 old-location: direct3d11\d3d11_message.htm

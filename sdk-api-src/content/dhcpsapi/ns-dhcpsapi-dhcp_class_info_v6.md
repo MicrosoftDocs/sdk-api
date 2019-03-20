@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLASS_INFO_V6
-title: DHCP_CLASS_INFO_V6
+title: DHCP_CLASS_INFO_V6 (dhcpsapi.h)
 author: windows-sdk-content
 description: Contains the information for a particular DHCPv6 user class or vendor class.
 old-location: dhcp\dhcp_class_info_v6.htm

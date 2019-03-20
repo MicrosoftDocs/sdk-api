@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionShadowEffect.SetRed
-title: IDCompositionShadowEffect::SetRed
+title: IDCompositionShadowEffect::SetRed (dcomp.h)
 author: windows-sdk-content
 description: Sets the red value for the color of the shadow.
 old-location: directcomp\idcompositionshadoweffect_setred.htm

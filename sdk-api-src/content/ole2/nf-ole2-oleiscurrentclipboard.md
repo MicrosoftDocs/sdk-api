@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleIsCurrentClipboard
-title: OleIsCurrentClipboard function
+title: OleIsCurrentClipboard function (ole2.h)
 author: windows-sdk-content
 description: Determines whether the data object pointer previously placed on the clipboard by the OleSetClipboard function is still on the clipboard.
 old-location: com\oleiscurrentclipboard.htm

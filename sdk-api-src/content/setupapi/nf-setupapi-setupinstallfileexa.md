@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupInstallFileExA
-title: SetupInstallFileExA function
+title: SetupInstallFileExA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupInstallFileEx function installs a file as specified either by an INFCONTEXT returned by SetupFindXXXLine or explicitly by the filename and path information.
 old-location: setup\setupinstallfileex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IContextMenuProvider.ShowContextMenu
-title: IContextMenuProvider::ShowContextMenu
+title: IContextMenuProvider::ShowContextMenu (mmc.h)
 author: windows-sdk-content
 description: The IContextMenuProvider::ShowContextMenu method displays a context menu.
 old-location: mmc\icontextmenuprovider_showcontextmenu.htm

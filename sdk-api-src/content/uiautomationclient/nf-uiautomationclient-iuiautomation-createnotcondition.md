@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateNotCondition
-title: IUIAutomation::CreateNotCondition
+title: IUIAutomation::CreateNotCondition (uiautomationclient.h)
 author: windows-sdk-content
 description: Creates a condition that is the negative of a specified condition.
 old-location: winauto\uiauto_IUIAutomation_CreateNotCondition.htm

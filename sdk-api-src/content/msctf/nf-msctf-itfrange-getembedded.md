@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.GetEmbedded
-title: ITfRange::GetEmbedded
+title: ITfRange::GetEmbedded (msctf.h)
 author: windows-sdk-content
 description: The ITfRange::GetEmbedded method obtains content that corresponds to a TS_CHAR_EMBEDDED character in the text stream. The start anchor of the range of text is positioned just before the character of interest.
 old-location: tsf\itfrange_getembedded.htm

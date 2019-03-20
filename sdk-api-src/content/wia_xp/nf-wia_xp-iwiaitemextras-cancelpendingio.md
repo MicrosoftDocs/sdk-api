@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaItemExtras.CancelPendingIO
-title: IWiaItemExtras::CancelPendingIO
+title: IWiaItemExtras::CancelPendingIO (wia_xp.h)
 author: windows-sdk-content
 description: The IWiaItemExtras::CancelPendingIO method cancels all pending input/output operations on the driver.
 old-location: wia\_wia_IWiaItemExtras_CancelPendingIO.htm

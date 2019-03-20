@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdutil.WSDAttachLinkedMemory
-title: WSDAttachLinkedMemory function
+title: WSDAttachLinkedMemory function (wsdutil.h)
 author: windows-sdk-content
 description: Attaches a child memory block to a parent memory block.
 old-location: ncd\wsdattachlinkedmemory_func.htm

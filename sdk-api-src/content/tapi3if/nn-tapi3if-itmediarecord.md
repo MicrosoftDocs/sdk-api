@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITMediaRecord
-title: ITMediaRecord
+title: ITMediaRecord (tapi3if.h)
 author: windows-sdk-content
 description: The ITMediaRecord interface provides recording-specific methods that allow an application to set and get the names of files to record.
 old-location: tapi3\itmediarecord.htm

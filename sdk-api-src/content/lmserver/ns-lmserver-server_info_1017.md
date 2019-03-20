@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1017
-title: SERVER_INFO_1017
+title: SERVER_INFO_1017 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1017 structure contains the network announce rate associated with the specified server.
 old-location: netmgmt\server_info_1017_str.htm

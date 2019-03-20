@@ -1,6 +1,6 @@
 ---
 UID: NS:compressapi._COMPRESS_ALLOCATION_ROUTINES
-title: COMPRESS_ALLOCATION_ROUTINES
+title: COMPRESS_ALLOCATION_ROUTINES (compressapi.h)
 author: windows-sdk-content
 description: A structure containing optional memory allocation and deallocation routines.
 old-location: cmpapi\compress_allocation_routines.htm

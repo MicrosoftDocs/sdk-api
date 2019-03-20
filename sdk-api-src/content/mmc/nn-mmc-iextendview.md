@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IExtendView
-title: IExtendView
+title: IExtendView (mmc.h)
 author: windows-sdk-content
 description: The IExtendView interface provides information about the extended view.
 old-location: mmc\iextendview.htm

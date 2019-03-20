@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.GetCachedChildren
-title: IUIAutomationElement::GetCachedChildren
+title: IUIAutomationElement::GetCachedChildren (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached child elements of this UI Automation element.
 old-location: winauto\uiauto_IUIAutomationElement_GetCachedChildren.htm

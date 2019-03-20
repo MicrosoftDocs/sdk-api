@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.put_allowSharingToAllDevices
-title: IWindowsMediaLibrarySharingServices::put_allowSharingToAllDevices
+title: IWindowsMediaLibrarySharingServices::put_allowSharingToAllDevices (wmlss.h)
 author: windows-sdk-content
 description: The put_allowSharingToAllDevices method allows or disallows sharing of the current user's media library with all devices on the home network.
 old-location: wmlss\IWMLSSput_allowSharingToAllDevices.htm

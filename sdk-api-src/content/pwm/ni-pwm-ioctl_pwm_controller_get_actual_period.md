@@ -1,6 +1,6 @@
 ---
 UID: NI:pwm.IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD
-title: IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD
+title: IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD (pwm.h)
 author: windows-sdk-content
 description: Retrieves the effective output signal period of the Pulse Width Modulation (PWM) controller as it would be measured on its output channels.
 old-location: base\ioctl_pwm_controller_get_actual_period.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MF_TOPONODE_FLUSH_MODE
-title: MF_TOPONODE_FLUSH_MODE
+title: MF_TOPONODE_FLUSH_MODE (mfidl.h)
 author: windows-sdk-content
 description: Defines when a transform in a topology is flushed.
 old-location: mf\mf_toponode_flush_mode.htm

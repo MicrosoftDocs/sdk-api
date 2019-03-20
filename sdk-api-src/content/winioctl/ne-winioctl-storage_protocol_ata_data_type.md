@@ -1,6 +1,6 @@
 ---
 UID: NE:winioctl._STORAGE_PROTOCOL_ATA_DATA_TYPE
-title: STORAGE_PROTOCOL_ATA_DATA_TYPE
+title: STORAGE_PROTOCOL_ATA_DATA_TYPE (winioctl.h)
 author: windows-sdk-content
 description: The ATA protocol data type.
 old-location: fs\storage_protocol_ata_data_type.htm

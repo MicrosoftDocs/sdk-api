@@ -1,6 +1,6 @@
 ---
 UID: NF:websocket.WebSocketSend
-title: WebSocketSend function
+title: WebSocketSend function (websocket.h)
 author: windows-sdk-content
 description: Adds a send operation to the protocol component operation queue.
 old-location: websock\websocketsend.htm

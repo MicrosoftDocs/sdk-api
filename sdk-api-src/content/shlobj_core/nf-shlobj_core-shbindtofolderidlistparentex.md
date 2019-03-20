@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHBindToFolderIDListParentEx
-title: SHBindToFolderIDListParentEx function
+title: SHBindToFolderIDListParentEx function (shlobj_core.h)
 author: windows-sdk-content
 description: Extends the SHBindToFolderIDListParent function by allowing the caller to specify a bind context.
 old-location: shell\SHBindToFolderIDListParentEx.htm

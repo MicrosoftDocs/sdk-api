@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.AddClusterResourceDependency
-title: AddClusterResourceDependency function
+title: AddClusterResourceDependency function (clusapi.h)
 author: windows-sdk-content
 description: Creates a dependency relationship between two resources.
 old-location: mscs\addclusterresourcedependency.htm

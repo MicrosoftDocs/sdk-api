@@ -1,6 +1,6 @@
 ---
 UID: NS:winfax._FAX_PORT_INFOW
-title: FAX_PORT_INFOW
+title: FAX_PORT_INFOW (winfax.h)
 author: windows-sdk-content
 description: The FAX_PORT_INFO structure describes one fax port. The data includes, among other items, a device identifier, the port's name and current status, and station identifiers.
 old-location: fax\_mfax_fax_port_info_str.htm

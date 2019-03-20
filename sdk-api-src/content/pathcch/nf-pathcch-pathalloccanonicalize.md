@@ -1,6 +1,6 @@
 ---
 UID: NF:pathcch.PathAllocCanonicalize
-title: PathAllocCanonicalize function
+title: PathAllocCanonicalize function (pathcch.h)
 author: windows-sdk-content
 description: Converts a path string into a canonical form.This function differs from PathCchCanonicalize and PathCchCanonicalizeEx in that it returns the result on the heap.
 old-location: shell\PathAllocCanonicalize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.IEnumTfCandidates.Next
-title: IEnumTfCandidates::Next
+title: IEnumTfCandidates::Next (ctffunc.h)
 author: windows-sdk-content
 description: IEnumTfCandidates::Next method
 old-location: tsf\ienumtfcandidates_next.htm

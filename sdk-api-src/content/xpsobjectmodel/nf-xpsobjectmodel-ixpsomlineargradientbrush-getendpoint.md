@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMLinearGradientBrush.GetEndPoint
-title: IXpsOMLinearGradientBrush::GetEndPoint
+title: IXpsOMLinearGradientBrush::GetEndPoint (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the end point of the gradient.
 old-location: xps\ixpsomlineargradientbrush_getendpoint.htm

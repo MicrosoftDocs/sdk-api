@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.Find
-title: ITextRange2::Find
+title: ITextRange2::Find (tom.h)
 author: windows-sdk-content
 description: Searchs for math inline functions in text as specified by a source range.
 old-location: controls\itextrange2_find.htm

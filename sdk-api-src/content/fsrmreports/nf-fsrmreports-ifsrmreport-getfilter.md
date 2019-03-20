@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReport.GetFilter
-title: IFsrmReport::GetFilter
+title: IFsrmReport::GetFilter (fsrmreports.h)
 author: windows-sdk-content
 description: Retrieves the value of the specified report filter.
 old-location: fsrm\ifsrmreport_getfilter.htm

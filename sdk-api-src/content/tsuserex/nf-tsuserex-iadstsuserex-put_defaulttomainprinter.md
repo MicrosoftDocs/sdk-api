@@ -1,6 +1,6 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.put_DefaultToMainPrinter
-title: IADsTSUserEx::put_DefaultToMainPrinter
+title: IADsTSUserEx::put_DefaultToMainPrinter (tsuserex.h)
 author: windows-sdk-content
 description: A value that specifies whether to print automatically to the client's default printer.
 old-location: termserv\iadstsuserex_defaulttomainprinter.htm

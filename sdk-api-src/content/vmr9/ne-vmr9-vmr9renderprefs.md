@@ -1,6 +1,6 @@
 ---
 UID: NE:vmr9.__MIDL___MIDL_itf_vmr9_0000_0008_0001
-title: VMR9RenderPrefs
+title: VMR9RenderPrefs (vmr9.h)
 author: windows-sdk-content
 description: The VMR9RenderPrefs enumeration type specifies basic rendering preferences for the VMR-9. It is used with the IVMRFilterConfig9::GetRenderingPrefs and IVMRFilterConfig9::SetRenderingPrefs methods.
 old-location: dshow\vmr9renderprefs.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdspxe.PxeProviderFreeInfo
-title: PxeProviderFreeInfo function
+title: PxeProviderFreeInfo function (wdspxe.h)
 author: windows-sdk-content
 description: Frees memory allocated by the PxeProviderEnumNext function.
 old-location: wds\pxeproviderfreeinfo.htm

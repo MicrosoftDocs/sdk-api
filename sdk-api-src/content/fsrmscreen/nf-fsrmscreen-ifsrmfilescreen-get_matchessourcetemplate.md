@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreen.get_MatchesSourceTemplate
-title: IFsrmFileScreen::get_MatchesSourceTemplate
+title: IFsrmFileScreen::get_MatchesSourceTemplate (fsrmscreen.h)
 author: windows-sdk-content
 description: Retrieves a value that determines whether the property values of this file screen object match those values of the template from which the object was derived.
 old-location: fsrm\ifsrmfilescreen_matchessourcetemplate.htm

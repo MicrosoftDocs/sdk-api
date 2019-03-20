@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument.BeginEditCollection
-title: ITextDocument::BeginEditCollection
+title: ITextDocument::BeginEditCollection (tom.h)
 author: windows-sdk-content
 description: Turns on edit collection (also called undo grouping).
 old-location: controls\ITextDocument_BeginEditCollection.htm

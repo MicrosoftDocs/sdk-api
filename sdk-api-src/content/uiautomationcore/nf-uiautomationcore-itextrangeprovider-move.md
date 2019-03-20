@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.Move
-title: ITextRangeProvider::Move
+title: ITextRangeProvider::Move (uiautomationcore.h)
 author: windows-sdk-content
 description: Moves the text range forward or backward by the specified number of text units.
 old-location: winauto\uiauto_ITextRangeProvider_Move.htm

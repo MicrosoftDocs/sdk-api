@@ -1,6 +1,6 @@
 ---
 UID: NS:dxmini._DDTRANSFEROUTINFO
-title: DDTRANSFEROUTINFO
+title: DDTRANSFEROUTINFO (dxmini.h)
 author: windows-sdk-content
 description: The DDTRANSFEROUTINFO structure returns the polarity of the field being captured.
 old-location: display\ddtransferoutinfo.htm

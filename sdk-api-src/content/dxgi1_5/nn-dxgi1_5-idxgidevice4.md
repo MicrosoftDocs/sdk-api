@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi1_5.IDXGIDevice4
-title: IDXGIDevice4
+title: IDXGIDevice4 (dxgi1_5.h)
 author: windows-sdk-content
 description: This interface provides updated methods to offer and reclaim resources.
 old-location: direct3ddxgi\idxgidevice4.htm

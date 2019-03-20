@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComAppEvents.OnAppForceShutdown
-title: IComAppEvents::OnAppForceShutdown
+title: IComAppEvents::OnAppForceShutdown (comsvcs.h)
 author: windows-sdk-content
 description: Generated when an application server is forced to shut down.
 old-location: cos\icomappevents_onappforceshutdown.htm

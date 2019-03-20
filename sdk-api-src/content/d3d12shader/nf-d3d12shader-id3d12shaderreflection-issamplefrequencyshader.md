@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.IsSampleFrequencyShader
-title: ID3D12ShaderReflection::IsSampleFrequencyShader
+title: ID3D12ShaderReflection::IsSampleFrequencyShader (d3d12shader.h)
 author: windows-sdk-content
 description: Indicates whether a shader is a sample frequency shader.
 old-location: direct3d12\id3d12shaderreflection_issamplefrequencyshader.htm

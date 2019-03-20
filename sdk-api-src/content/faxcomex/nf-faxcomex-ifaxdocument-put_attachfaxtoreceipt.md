@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDocument.put_AttachFaxToReceipt
-title: IFaxDocument::put_AttachFaxToReceipt
+title: IFaxDocument::put_AttachFaxToReceipt (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDocument::get_AttachFaxToReceipt property indicates whether to attach a fax to the receipt.
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_attachfaxtoreceipt_cpp.htm

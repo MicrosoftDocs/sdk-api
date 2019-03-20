@@ -1,6 +1,6 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportNamespaceScheduledCastManualStart
-title: IWdsTransportNamespaceScheduledCastManualStart
+title: IWdsTransportNamespaceScheduledCastManualStart (wdstptmgmt.h)
 author: windows-sdk-content
 description: An administrator must start transmission on an object of an IWdsTransportNamespaceScheduledCastManualStart interface. Applications can continue to join sessions of the namespace until the administrator starts transmission.
 old-location: wds\iwdstransportnamespacescheduledcastmanualstart.htm

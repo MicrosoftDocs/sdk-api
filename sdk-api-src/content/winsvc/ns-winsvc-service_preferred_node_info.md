@@ -1,6 +1,6 @@
 ---
 UID: NS:winsvc._SERVICE_PREFERRED_NODE_INFO
-title: SERVICE_PREFERRED_NODE_INFO
+title: SERVICE_PREFERRED_NODE_INFO (winsvc.h)
 author: windows-sdk-content
 description: Represents the preferred node on which to run a service.
 old-location: base\service_preferred_node_info.htm

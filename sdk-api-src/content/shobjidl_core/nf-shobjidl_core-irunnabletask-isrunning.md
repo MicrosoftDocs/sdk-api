@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IRunnableTask.IsRunning
-title: IRunnableTask::IsRunning
+title: IRunnableTask::IsRunning (shobjidl_core.h)
 author: windows-sdk-content
 description: Requests information on the state of a task, such as thumbnail extraction.
 old-location: shell\IRunnableTask_IsRunning.htm

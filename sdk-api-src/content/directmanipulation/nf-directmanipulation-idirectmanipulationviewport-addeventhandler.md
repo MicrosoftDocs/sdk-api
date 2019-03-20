@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.AddEventHandler
-title: IDirectManipulationViewport::AddEventHandler
+title: IDirectManipulationViewport::AddEventHandler (directmanipulation.h)
 author: windows-sdk-content
 description: Adds a new event handler to listen for viewport events.
 old-location: directmanipulation\idirectmanipulationviewport_addeventhandler.htm

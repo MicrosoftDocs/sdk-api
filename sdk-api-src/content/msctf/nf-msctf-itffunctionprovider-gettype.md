@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfFunctionProvider.GetType
-title: ITfFunctionProvider::GetType
+title: ITfFunctionProvider::GetType (msctf.h)
 author: windows-sdk-content
 description: ITfFunctionProvider::GetType method
 old-location: tsf\itffunctionprovider_gettype.htm

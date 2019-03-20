@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITRequestEvent.get_Comment
-title: ITRequestEvent::get_Comment
+title: ITRequestEvent::get_Comment (tapi3if.h)
 author: windows-sdk-content
 description: The get_Comment method gets the comment.
 old-location: tapi3\itrequestevent_get_comment.htm

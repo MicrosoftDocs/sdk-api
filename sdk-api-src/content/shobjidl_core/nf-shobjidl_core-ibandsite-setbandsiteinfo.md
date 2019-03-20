@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IBandSite.SetBandSiteInfo
-title: IBandSite::SetBandSiteInfo
+title: IBandSite::SetBandSiteInfo (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets information about the band site.
 old-location: shell\IBandSite_SetBandSiteInfo.htm

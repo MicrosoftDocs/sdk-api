@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolManager.NotifySettingsChange
-title: IWRdsProtocolManager::NotifySettingsChange
+title: IWRdsProtocolManager::NotifySettingsChange (wtsprotocol.h)
 author: windows-sdk-content
 description: Notifies the protocol provider of changes in the settings within the Remote Desktop Services service.
 old-location: termserv\iwrdsprotocolmanager_notifysettingschange.htm

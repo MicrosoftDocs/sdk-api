@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFMapDX9FormatToDXGIFormat
-title: MFMapDX9FormatToDXGIFormat function
+title: MFMapDX9FormatToDXGIFormat function (mfapi.h)
 author: windows-sdk-content
 description: Converts a Microsoft Direct3D 9 format identifier to a Microsoft DirectX Graphics Infrastructure (DXGI) format identifier.
 old-location: mf\mfmapdx9formattodxgiformat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_CanRequireSource
-title: IUpdate::get_CanRequireSource
+title: IUpdate::get_CanRequireSource (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the source media of the update is required for installation or uninstallation.
 old-location: wua\iupdate_canrequiresource.htm

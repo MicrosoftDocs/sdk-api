@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingExtensions.get__NewEnum
-title: IFaxInboundRoutingExtensions::get__NewEnum
+title: IFaxInboundRoutingExtensions::get__NewEnum (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxInboundRoutingExtensions::get__NewEnum method returns a reference to an enumerator object that you can use to iterate through the IFaxInboundRoutingExtensions collection.
 old-location: fax\_mfax_ifaxinboundroutingextensions_get__newenum.htm

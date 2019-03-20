@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SspiLocalFree
-title: SspiLocalFree function
+title: SspiLocalFree function (sspi.h)
 author: windows-sdk-content
 description: Frees the memory associated with the specified buffer.
 old-location: security\sspilocalfree.htm

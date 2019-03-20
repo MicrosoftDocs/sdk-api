@@ -1,6 +1,6 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectInteriorInputConnector
-title: IMILBitmapEffectInteriorInputConnector
+title: IMILBitmapEffectInteriorInputConnector (mileffects.h)
 author: windows-sdk-content
 description: Exposes methods that define an interior input connector.
 old-location: wibe\_wibe_imilbitmapeffectinteriorinputconnector.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tlhelp32.Process32First
-title: Process32First function
+title: Process32First function (tlhelp32.h)
 author: windows-sdk-content
 description: Retrieves information about the first process encountered in a system snapshot.
 old-location: toolhelp\process32first.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.put_Version
-title: IRegistrationInfo::put_Version
+title: IRegistrationInfo::put_Version (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the version number of the task.
 old-location: taskschd\iregistrationinfo_version.htm

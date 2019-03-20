@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchScopeRule.get_PatternOrURL
-title: ISearchScopeRule::get_PatternOrURL
+title: ISearchScopeRule::get_PatternOrURL (searchapi.h)
 author: windows-sdk-content
 description: Gets the pattern or URL for the rule. The scope rules determine what URLs or paths to include or exclude.
 old-location: search\_search_ISearchScopeRule_get_PatternOrURL.htm

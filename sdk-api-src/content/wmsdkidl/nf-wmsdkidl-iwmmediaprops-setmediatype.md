@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMMediaProps.SetMediaType
-title: IWMMediaProps::SetMediaType
+title: IWMMediaProps::SetMediaType (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetMediaType method specifies the media type.
 old-location: wmformat\iwmmediaprops_setmediatype.htm

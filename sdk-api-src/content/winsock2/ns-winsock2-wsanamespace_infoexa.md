@@ -1,6 +1,6 @@
 ---
 UID: NS:winsock2._WSANAMESPACE_INFOEXA
-title: WSANAMESPACE_INFOEXA
+title: WSANAMESPACE_INFOEXA (winsock2.h)
 author: windows-sdk-content
 description: Contains all registration information for a namespace provider.
 old-location: winsock\wsanamespace_infoex.htm

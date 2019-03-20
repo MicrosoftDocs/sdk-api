@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.graphics.effects.interop.IGraphicsEffectD2D1Interop.GetNamedPropertyMapping
-title: IGraphicsEffectD2D1Interop::effects
+title: IGraphicsEffectD2D1Interop::effects (windows.graphics.effects.interop.h)
 author: windows-sdk-content
 description: Retrieves the mapping for an effect property.
 old-location: w_graph_fx\igraphicseffectd2d1interop_getnamedpropertymapping.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:netcon.INetSharingPortMappingProps
-title: INetSharingPortMappingProps
+title: INetSharingPortMappingProps (netcon.h)
 author: windows-sdk-content
 description: The INetSharingPortMappingProps interface provides methods that retrieve and set the properties of a network connection port mapping.
 old-location: ics\inetsharingportmappingprops.htm

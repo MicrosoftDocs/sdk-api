@@ -1,6 +1,6 @@
 ---
 UID: NE:intshcut.mimeassociationdialog_in_flags
-title: MIMEASSOCIATIONDIALOG_IN_FLAGS
+title: MIMEASSOCIATIONDIALOG_IN_FLAGS (intshcut.h)
 author: windows-sdk-content
 description: Used with the MIMEAssociationDialog function to determine how it executes.
 old-location: shell\MIMEASSOCIATIONDIALOG_IN_FLAGS.htm

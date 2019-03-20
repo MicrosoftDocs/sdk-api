@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem.GetProvider
-title: IVdsSubSystem::GetProvider
+title: IVdsSubSystem::GetProvider (vdshwprv.h)
 author: windows-sdk-content
 description: Returns the provider that manages the subsystem.
 old-location: base\ivdssubsystem_getprovider.htm

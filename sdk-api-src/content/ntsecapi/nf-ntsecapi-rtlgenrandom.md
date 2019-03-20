@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.RtlGenRandom
-title: RtlGenRandom function
+title: RtlGenRandom function (ntsecapi.h)
 author: windows-sdk-content
 description: Generates a pseudo-random number.
 old-location: security\rtlgenrandom.htm

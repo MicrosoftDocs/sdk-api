@@ -1,6 +1,6 @@
 ---
 UID: NN:rend.ITDirectory
-title: ITDirectory
+title: ITDirectory (rend.h)
 author: windows-sdk-content
 description: The ITDirectory interface is exposed by the Directory object, which corresponds to a particular directory.
 old-location: tapi3\itdirectory.htm

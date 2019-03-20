@@ -1,6 +1,6 @@
 ---
 UID: NF:micaut.IMathInputControl.SetCustomPaint
-title: IMathInputControl::SetCustomPaint
+title: IMathInputControl::SetCustomPaint (micaut.h)
 author: windows-sdk-content
 description: Determines whether a button or background has custom painting.
 old-location: tablet\imathinputcontrol_setcustompaint.htm

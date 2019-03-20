@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderHwndOverride.GetOverrideProviderForHwnd
-title: IRawElementProviderHwndOverride::GetOverrideProviderForHwnd
+title: IRawElementProviderHwndOverride::GetOverrideProviderForHwnd (uiautomationcore.h)
 author: windows-sdk-content
 description: Gets a UI Automation provider for the specified element.
 old-location: winauto\uiauto_IRawElementProviderHwndOverride_GetOverrideProviderForHwnd.htm

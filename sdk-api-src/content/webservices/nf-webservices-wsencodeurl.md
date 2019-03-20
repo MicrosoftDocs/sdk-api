@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsEncodeUrl
-title: WsEncodeUrl function
+title: WsEncodeUrl function (webservices.h)
 author: windows-sdk-content
 description: Encodes the specified WS_URL into a URL string given its component parts. Values are escaped as necessary, combined, and stored in the specified WS_HEAP, and the result is returned as a WS_STRING.
 old-location: wsw\wsencodeurl.htm

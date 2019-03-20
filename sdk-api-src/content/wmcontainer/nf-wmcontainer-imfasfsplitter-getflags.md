@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFSplitter.GetFlags
-title: IMFASFSplitter::GetFlags
+title: IMFASFSplitter::GetFlags (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves the option flags that are set on the ASF splitter.
 old-location: mf\imfasfsplitter_getflags.htm

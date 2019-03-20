@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.PARBITRATE_ROUTINE
-title: PARBITRATE_ROUTINE
+title: PARBITRATE_ROUTINE (resapi.h)
 author: windows-sdk-content
 description: Allows a node to attempt to regain ownership of a quorum resource.
 old-location: mscs\arbitrate.htm

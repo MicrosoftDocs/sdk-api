@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMPackage1.GetDocumentType
-title: IXpsOMPackage1::GetDocumentType
+title: IXpsOMPackage1::GetDocumentType (xpsobjectmodel_1.h)
 author: windows-sdk-content
 description: Gets the document type of the data that was used to initialize this package. This method is used to determine whether a document is the XPS or OpenXPS type. For more information, see XPS Documents.
 old-location: xps\ixpsompackage1_getdocumenttype.htm

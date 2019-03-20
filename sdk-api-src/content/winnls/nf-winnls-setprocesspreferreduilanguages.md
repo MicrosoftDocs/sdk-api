@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.SetProcessPreferredUILanguages
-title: SetProcessPreferredUILanguages function
+title: SetProcessPreferredUILanguages function (winnls.h)
 author: windows-sdk-content
 description: Sets the process preferred UI languages for the application process. For more information, see User Interface Language Management.
 old-location: intl\setprocesspreferreduilanguages.htm

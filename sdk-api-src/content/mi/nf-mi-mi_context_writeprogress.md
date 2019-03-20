@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_WriteProgress
-title: MI_Context_WriteProgress function
+title: MI_Context_WriteProgress function (mi.h)
 author: windows-sdk-content
 description: Sends a progress message to the client.
 old-location: wmi_v2\mi_context_writeprogress.htm

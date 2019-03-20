@@ -1,6 +1,6 @@
 ---
 UID: NE:evntcons.__unnamed_enum_1
-title: EVENTSECURITYOPERATION
+title: EVENTSECURITYOPERATION (evntcons.h)
 author: windows-sdk-content
 description: Defines what component of the security descriptor that the EventAccessControl function modifies.
 old-location: etw\eventsecurityoperation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingArchive.get_AgeLimit
-title: IFaxIncomingArchive::get_AgeLimit
+title: IFaxIncomingArchive::get_AgeLimit (faxcomex.h)
 author: windows-sdk-content
 description: The AgeLimit property is a value that indicates the number of days that the fax service retains fax messages in the archive of inbound faxes.
 old-location: fax\_mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_agelimit_cpp.htm

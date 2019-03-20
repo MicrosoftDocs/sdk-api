@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegisteredTask.RunEx
-title: IRegisteredTask::RunEx
+title: IRegisteredTask::RunEx (taskschd.h)
 author: windows-sdk-content
 description: Runs the registered task immediately using specified flags and a session identifier.
 old-location: taskschd\iregisteredtask_runex.htm

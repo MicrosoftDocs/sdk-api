@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.SetGestureStatus
-title: IInkEdit::SetGestureStatus
+title: IInkEdit::SetGestureStatus (inked.h)
 author: windows-sdk-content
 description: Modifies the interest of the InkEdit control in a known application gesture.
 old-location: tablet\inkedit_setgesturestatus.htm

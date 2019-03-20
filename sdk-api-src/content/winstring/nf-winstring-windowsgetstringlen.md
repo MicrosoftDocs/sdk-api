@@ -1,6 +1,6 @@
 ---
 UID: NF:winstring.WindowsGetStringLen
-title: WindowsGetStringLen function
+title: WindowsGetStringLen function (winstring.h)
 author: windows-sdk-content
 description: Gets the length, in Unicode characters, of the specified string.
 old-location: winrt\windowsgetstringlen.htm

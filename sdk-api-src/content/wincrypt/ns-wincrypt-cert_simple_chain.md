@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_SIMPLE_CHAIN
-title: CERT_SIMPLE_CHAIN
+title: CERT_SIMPLE_CHAIN (wincrypt.h)
 author: windows-sdk-content
 description: The CERT_SIMPLE_CHAIN structure contains an array of chain elements and a summary trust status for the chain that the array represents.
 old-location: security\cert_simple_chain.htm

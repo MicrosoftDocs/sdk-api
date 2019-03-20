@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMGPOLinksCollection.get_Count
-title: IGPMGPOLinksCollection::get_Count
+title: IGPMGPOLinksCollection::get_Count (gpmgmt.h)
 author: windows-sdk-content
 description: Returns the number of GPO links in the collection.
 old-location: gpmc\igpmgpolinkscollection_get_count.htm

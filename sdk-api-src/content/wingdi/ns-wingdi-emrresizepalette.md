@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRRESIZEPALETTE
-title: EMRRESIZEPALETTE
+title: EMRRESIZEPALETTE (wingdi.h)
 author: windows-sdk-content
 description: The EMRRESIZEPALETTE structure contains members for the ResizePalette enhanced metafile record.
 old-location: gdi\emrresizepalette.htm

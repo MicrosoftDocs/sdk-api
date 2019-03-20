@@ -1,6 +1,6 @@
 ---
 UID: NF:gb18030.NlsDllCodePageTranslation
-title: NlsDllCodePageTranslation function
+title: NlsDllCodePageTranslation function (gb18030.h)
 author: windows-sdk-content
 description: Used to get code page information or do conversion, depending on flag settings.
 old-location: intl\nlsdllcodepagetranslation.htm

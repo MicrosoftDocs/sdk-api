@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkOverlay.get_Renderer
-title: IInkOverlay::get_Renderer
+title: IInkOverlay::get_Renderer (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the InkRenderer object that is used to draw ink.
 old-location: tablet\inkoverlay_renderer.htm

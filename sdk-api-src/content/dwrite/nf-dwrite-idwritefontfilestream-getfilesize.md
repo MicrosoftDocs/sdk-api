@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFontFileStream.GetFileSize
-title: IDWriteFontFileStream::GetFileSize
+title: IDWriteFontFileStream::GetFileSize (dwrite.h)
 author: windows-sdk-content
 description: Obtains the total size of a file.
 old-location: directwrite\IDWriteFontFileStream_GetFileSize.htm

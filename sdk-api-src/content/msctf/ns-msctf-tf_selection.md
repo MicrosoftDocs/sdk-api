@@ -1,6 +1,6 @@
 ---
 UID: NS:msctf.TF_SELECTION
-title: TF_SELECTION
+title: TF_SELECTION (msctf.h)
 author: windows-sdk-content
 description: The TF_SELECTION structure contains text selection data.
 old-location: tsf\tf_selection.htm

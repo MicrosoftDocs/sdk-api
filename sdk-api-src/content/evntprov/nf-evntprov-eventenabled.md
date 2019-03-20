@@ -1,6 +1,6 @@
 ---
 UID: NF:evntprov.EventEnabled
-title: EventEnabled function
+title: EventEnabled function (evntprov.h)
 author: windows-sdk-content
 description: Determines if the event is enabled for any session.
 old-location: etw\eventenabled_func.htm

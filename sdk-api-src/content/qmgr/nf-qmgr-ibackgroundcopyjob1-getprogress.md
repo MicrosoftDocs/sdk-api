@@ -1,6 +1,6 @@
 ---
 UID: NF:qmgr.IBackgroundCopyJob1.GetProgress
-title: IBackgroundCopyJob1::GetProgress
+title: IBackgroundCopyJob1::GetProgress (qmgr.h)
 author: windows-sdk-content
 description: Use the GetProgress method to retrieve the job's progress.
 old-location: bits\ibackgroundcopyjob1_getprogress.htm

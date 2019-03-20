@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SetBackupState
-title: IVssBackupComponents::SetBackupState
+title: IVssBackupComponents::SetBackupState (vsbackup.h)
 author: windows-sdk-content
 description: The SetBackupState method defines an overall configuration for a backup operation.
 old-location: base\ivssbackupcomponents_setbackupstate.htm

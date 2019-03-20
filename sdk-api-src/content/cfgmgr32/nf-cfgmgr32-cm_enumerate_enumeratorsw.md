@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Enumerate_EnumeratorsW
-title: CM_Enumerate_EnumeratorsW function
+title: CM_Enumerate_EnumeratorsW function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Enumerate_Enumerators function enumerates the local machine's device enumerators by supplying each enumerator's name.
 old-location: devinst\cm_enumerate_enumerators.htm

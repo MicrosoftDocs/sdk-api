@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IDirectWriterLock.WaitForWriteAccess
-title: IDirectWriterLock::WaitForWriteAccess
+title: IDirectWriterLock::WaitForWriteAccess (objidl.h)
 author: windows-sdk-content
 description: The WaitForWriteAccess method obtains exclusive write access to a storage object.
 old-location: stg\idirectwriterlock_waitforwriteaccess.htm

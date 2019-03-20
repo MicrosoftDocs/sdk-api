@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.ScaleTransform
-title: TextureBrush::ScaleTransform
+title: TextureBrush::ScaleTransform (gdiplusbrush.h)
 author: windows-sdk-content
 description: The TextureBrush::ScaleTransform method updates this texture brush's current transformation matrix with the product of itself and a scaling matrix.
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_ScaleTransform_sx_sy_order_.htm

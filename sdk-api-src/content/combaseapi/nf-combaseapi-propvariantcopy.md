@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.PropVariantCopy
-title: PropVariantCopy function
+title: PropVariantCopy function (combaseapi.h)
 author: windows-sdk-content
 description: The PropVariantCopy function copies the contents of one PROPVARIANT structure to another.
 old-location: stg\propvariantcopy.htm

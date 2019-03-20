@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMessageMover.put_CommitBatchSize
-title: IMessageMover::put_CommitBatchSize
+title: IMessageMover::put_CommitBatchSize (comsvcs.h)
 author: windows-sdk-content
 description: Sets the commit batch size. This is the number of messages that should be moved from source to destination queue between commit operations.
 old-location: cos\imessagemover_put_commitbatchsize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:upnp.IUPnPAddressFamilyControl
-title: IUPnPAddressFamilyControl
+title: IUPnPAddressFamilyControl (upnp.h)
 author: windows-sdk-content
 description: The IUPnPAddressFamilyControl interface accesses the address family flag of the Device Finder object.
 old-location: upnp\iupnpaddressfamilycontrol.htm

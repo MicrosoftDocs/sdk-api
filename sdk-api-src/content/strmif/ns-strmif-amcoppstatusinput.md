@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif._AMCOPPStatusInput
-title: AMCOPPStatusInput
+title: AMCOPPStatusInput (strmif.h)
 author: windows-sdk-content
 description: The AMCOPPStatusInput structure contains a Certified Output Protection Protocol (COPP) status request.
 old-location: dshow\amcoppstatusinput.htm

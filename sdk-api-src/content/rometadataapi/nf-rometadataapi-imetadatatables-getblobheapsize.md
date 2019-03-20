@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetBlobHeapSize
-title: IMetaDataTables::GetBlobHeapSize
+title: IMetaDataTables::GetBlobHeapSize (rometadataapi.h)
 author: windows-sdk-content
 description: A pointer to a pointer to the binary data retrieved.
 old-location: winrt\imetadatatables_getblobheapsize.htm

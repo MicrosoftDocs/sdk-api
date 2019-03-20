@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite.IDWritePixelSnapping
-title: IDWritePixelSnapping
+title: IDWritePixelSnapping (dwrite.h)
 author: windows-sdk-content
 description: Defines the pixel snapping properties such as pixels per DIP(device-independent pixel) and the current transform matrix of a text renderer.
 old-location: directwrite\IDWritePixelSnapping.htm

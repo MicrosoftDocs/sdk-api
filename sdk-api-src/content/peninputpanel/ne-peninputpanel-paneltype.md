@@ -1,6 +1,6 @@
 ---
 UID: NE:peninputpanel.PanelType
-title: PanelType
+title: PanelType (peninputpanel.h)
 author: windows-sdk-content
 description: Defines the type of input currently available in the PenInputPanel object.
 old-location: tablet\paneltype.htm

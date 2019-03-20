@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IDvbTeletextDescriptor
-title: IDvbTeletextDescriptor
+title: IDvbTeletextDescriptor (dvbsiparser.h)
 author: windows-sdk-content
 description: Implements methods that get data from a Digital Video Broadcast (DVB) teletext descriptor. The teletext descriptor is the part of the DVB program map table (PMT) that identifies European Broadcasting Union (EBU) teletext streams.
 old-location: mstv\idvbteletextdescriptor.htm

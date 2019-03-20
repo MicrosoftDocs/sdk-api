@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DialogBoxIndirectParamA
-title: DialogBoxIndirectParamA function
+title: DialogBoxIndirectParamA function (winuser.h)
 author: windows-sdk-content
 description: Creates a modal dialog box from a dialog box template in memory.
 old-location: dlgbox\dialogboxindirectparam.htm

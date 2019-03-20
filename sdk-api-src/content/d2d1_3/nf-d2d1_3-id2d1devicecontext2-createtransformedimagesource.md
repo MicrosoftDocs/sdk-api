@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext2.CreateTransformedImageSource
-title: ID2D1DeviceContext2::CreateTransformedImageSource
+title: ID2D1DeviceContext2::CreateTransformedImageSource (d2d1_3.h)
 author: windows-sdk-content
 description: Creates an image source which shares resources with an original.
 old-location: direct2d\id2d1devicecontext2_createtransformedimagesource.htm

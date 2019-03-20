@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector2Normalize
-title: XMVector2Normalize function
+title: XMVector2Normalize function (directxmath.h)
 author: windows-sdk-content
 description: Returns the normalized version of a 2D vector.
 old-location: dxmath\xmvector2normalize.htm

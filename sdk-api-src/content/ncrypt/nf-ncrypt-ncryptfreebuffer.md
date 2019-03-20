@@ -1,6 +1,6 @@
 ---
 UID: NF:ncrypt.NCryptFreeBuffer
-title: NCryptFreeBuffer function
+title: NCryptFreeBuffer function (ncrypt.h)
 author: windows-sdk-content
 description: Releases a block of memory allocated by a CNG key storage provider.
 old-location: security\ncryptfreebuffer_func.htm

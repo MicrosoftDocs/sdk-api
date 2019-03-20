@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.EnumICMProfilesA
-title: EnumICMProfilesA function
+title: EnumICMProfilesA function (wingdi.h)
 author: windows-sdk-content
 description: The EnumICMProfiles function enumerates the different output color profiles that the system supports for a given device context.
 old-location: wcs\enumicmprofiles.htm

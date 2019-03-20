@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_READ_MESSAGE_START_CALLBACK
-title: WS_READ_MESSAGE_START_CALLBACK
+title: WS_READ_MESSAGE_START_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Handles the WsReadMessageStart call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_read_message_start_callback.htm

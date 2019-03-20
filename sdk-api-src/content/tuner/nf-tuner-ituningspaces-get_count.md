@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpaces.get_Count
-title: ITuningSpaces::get_Count
+title: ITuningSpaces::get_Count (tuner.h)
 author: windows-sdk-content
 description: The get_Count method returns the number of tuning spaces in the collection.
 old-location: mstv\ituningspaces_get_count.htm

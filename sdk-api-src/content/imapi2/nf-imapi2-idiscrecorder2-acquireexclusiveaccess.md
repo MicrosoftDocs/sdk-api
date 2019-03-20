@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.AcquireExclusiveAccess
-title: IDiscRecorder2::AcquireExclusiveAccess
+title: IDiscRecorder2::AcquireExclusiveAccess (imapi2.h)
 author: windows-sdk-content
 description: Acquires exclusive access to the device.
 old-location: imapi\idiscrecorder2_acquireexclusiveaccess.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectShaderResourceVariable
-title: ID3D10EffectShaderResourceVariable
+title: ID3D10EffectShaderResourceVariable (d3d10effect.h)
 author: windows-sdk-content
 description: A shader-resource interface accesses a shader resource.
 old-location: direct3d10\id3d10effectshaderresourcevariable.htm

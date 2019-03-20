@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorACosEst
-title: XMVectorACosEst function
+title: XMVectorACosEst function (directxmath.h)
 author: windows-sdk-content
 description: Estimates the arccosine of each component of an XMVECTOR.
 old-location: dxmath\xmvectoracosest.htm

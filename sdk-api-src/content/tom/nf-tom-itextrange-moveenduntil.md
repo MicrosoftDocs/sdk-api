@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.MoveEndUntil
-title: ITextRange::MoveEndUntil
+title: ITextRange::MoveEndUntil (tom.h)
 author: windows-sdk-content
 description: Moves the range's end to the character position of the first character found that is in the set of characters specified by Cset, provided that the character is found within Count characters of the range's end.
 old-location: controls\ITextRange_MoveEndUntil.htm

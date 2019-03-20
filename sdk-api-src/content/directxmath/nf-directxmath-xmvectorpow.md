@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorPow
-title: XMVectorPow function
+title: XMVectorPow function (directxmath.h)
 author: windows-sdk-content
 description: Computes V1 raised to the power of V2.
 old-location: dxmath\xmvectorpow.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.GetEnd
-title: ITextRange::GetEnd
+title: ITextRange::GetEnd (tom.h)
 author: windows-sdk-content
 description: Gets the end character position of the range.
 old-location: controls\ITextRange_GetEnd.htm

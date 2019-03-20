@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvStrokePath
-title: DrvStrokePath function
+title: DrvStrokePath function (winddi.h)
 author: windows-sdk-content
 description: The DrvStrokePath function strokes (outlines) a path.
 old-location: display\drvstrokepath.htm

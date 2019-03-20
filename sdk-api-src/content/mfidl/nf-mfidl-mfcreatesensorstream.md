@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateSensorStream
-title: MFCreateSensorStream function
+title: MFCreateSensorStream function (mfidl.h)
 author: windows-sdk-content
 description: Creates an instance of the IMFSensorStream interface.
 old-location: mf\mfcreatesensorstream.htm

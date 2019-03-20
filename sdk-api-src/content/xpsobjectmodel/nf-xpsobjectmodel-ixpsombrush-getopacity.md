@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMBrush.GetOpacity
-title: IXpsOMBrush::GetOpacity
+title: IXpsOMBrush::GetOpacity (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the opacity of the brush.
 old-location: xps\ixpsombrush_getopacity.htm

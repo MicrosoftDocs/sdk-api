@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_SetColumnOrderArray
-title: ListView_SetColumnOrderArray macro
+title: ListView_SetColumnOrderArray macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the left-to-right order of columns in a list-view control. You can use this macro or send the LVM_SETCOLUMNORDERARRAY message explicitly.
 old-location: controls\ListView_SetColumnOrderArray.htm

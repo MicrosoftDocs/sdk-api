@@ -1,6 +1,6 @@
 ---
 UID: NF:magnification.MagGetFullscreenColorEffect
-title: MagGetFullscreenColorEffect function
+title: MagGetFullscreenColorEffect function (magnification.h)
 author: windows-sdk-content
 description: Retrieves the color transformation matrix associated with the full-screen magnifier.
 old-location: magapi\magapi_maggetfullscreencoloreffect.htm

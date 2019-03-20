@@ -1,6 +1,6 @@
 ---
 UID: NE:wmpservices.WMPPlugin_Caps
-title: WMPPlugin_Caps
+title: WMPPlugin_Caps (wmpservices.h)
 author: windows-sdk-content
 description: The WMPPlugin_Caps enumeration type signals whether the plug-in can convert between input and output formats.
 old-location: wmp\wmpplugin_caps.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IEnumWIA_FORMAT_INFO.Next
-title: IEnumWIA_FORMAT_INFO::Next
+title: IEnumWIA_FORMAT_INFO::Next (wia_xp.h)
 author: windows-sdk-content
 description: The IEnumWIA_FORMAT_INFO::Next method returns an array of WIA_FORMAT_INFO structures.
 old-location: wia\_wia_IEnumWIA_FORMAT_INFO_Next.htm

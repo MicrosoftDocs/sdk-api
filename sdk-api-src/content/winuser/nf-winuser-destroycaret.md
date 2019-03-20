@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DestroyCaret
-title: DestroyCaret function
+title: DestroyCaret function (winuser.h)
 author: windows-sdk-content
 description: Destroys the caret's current shape, frees the caret from the window, and removes the caret from the screen.
 old-location: menurc\destroycaret.htm

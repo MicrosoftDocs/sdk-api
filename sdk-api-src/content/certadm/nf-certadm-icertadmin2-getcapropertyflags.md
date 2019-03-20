@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.ICertAdmin2.GetCAPropertyFlags
-title: ICertAdmin2::GetCAPropertyFlags
+title: ICertAdmin2::GetCAPropertyFlags (certadm.h)
 author: windows-sdk-content
 description: The ICertAdmin2::GetCAPropertyFlags method retrieves the property flags for a certification authority (CA) property.
 old-location: security\icertadmin2_getcapropertyflags.htm

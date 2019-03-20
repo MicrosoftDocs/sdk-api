@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResourceCollection.RemoveAt
-title: IXpsOMImageResourceCollection::RemoveAt
+title: IXpsOMImageResourceCollection::RemoveAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Removes and releases an IXpsOMImageResource interface pointer from a specified location in the collection.
 old-location: xps\ixpsomimageresourcecollection_removeat.htm

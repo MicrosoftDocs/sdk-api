@@ -1,6 +1,6 @@
 ---
 UID: NF:roregistrationapi.RoGetServerActivatableClasses
-title: RoGetServerActivatableClasses function
+title: RoGetServerActivatableClasses function (roregistrationapi.h)
 author: windows-sdk-content
 description: Retrieves the activatable classes that are registered for a given executable (EXE) server, which was registered under the package ID of the calling process.
 old-location: winrt\rogetserveractivatableclasses.htm

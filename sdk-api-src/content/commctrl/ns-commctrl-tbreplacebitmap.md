@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.__unnamed_struct_1
-title: TBREPLACEBITMAP
+title: TBREPLACEBITMAP (commctrl.h)
 author: windows-sdk-content
 description: Used with the TB_REPLACEBITMAP message to replace one toolbar bitmap with another.
 old-location: controls\TBREPLACEBITMAP.htm

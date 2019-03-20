@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionType.ImplementsInterface
-title: ID3D12ShaderReflectionType::ImplementsInterface
+title: ID3D12ShaderReflectionType::ImplementsInterface (d3d12shader.h)
 author: windows-sdk-content
 description: Indicates whether a class type implements an interface.
 old-location: direct3d12\id3d12shaderreflectiontype_implementsinterface.htm

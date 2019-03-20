@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.__unnamed_struct_16
-title: NMPGSCROLL
+title: NMPGSCROLL (commctrl.h)
 author: windows-sdk-content
 description: Contains and receives information that the pager control uses when scrolling the contained window. It is used with the PGN_SCROLL notification.
 old-location: controls\NMPGSCROLL.htm

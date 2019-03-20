@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.CloseEnhMetaFile
-title: CloseEnhMetaFile function
+title: CloseEnhMetaFile function (wingdi.h)
 author: windows-sdk-content
 description: The CloseEnhMetaFile function closes an enhanced-metafile device context and returns a handle that identifies an enhanced-format metafile.
 old-location: gdi\closeenhmetafile.htm

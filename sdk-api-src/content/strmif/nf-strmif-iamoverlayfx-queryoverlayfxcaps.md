@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMOverlayFX.QueryOverlayFXCaps
-title: IAMOverlayFX::QueryOverlayFXCaps
+title: IAMOverlayFX::QueryOverlayFXCaps (strmif.h)
 author: windows-sdk-content
 description: The QueryOverlayFXCaps method retrieves information about which overlay effects are available to the Overlay Mixer filter.
 old-location: dshow\iamoverlayfx_queryoverlayfxcaps.htm

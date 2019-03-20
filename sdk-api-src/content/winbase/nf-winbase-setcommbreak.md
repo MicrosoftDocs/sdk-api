@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SetCommBreak
-title: SetCommBreak function
+title: SetCommBreak function (winbase.h)
 author: windows-sdk-content
 description: Suspends character transmission for a specified communications device and places the transmission line in a break state until the ClearCommBreak function is called.
 old-location: base\setcommbreak.htm

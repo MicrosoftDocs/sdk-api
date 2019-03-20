@@ -1,6 +1,6 @@
 ---
 UID: NC:traffic.TCI_MOD_FLOW_COMPLETE_HANDLER
-title: TCI_MOD_FLOW_COMPLETE_HANDLER
+title: TCI_MOD_FLOW_COMPLETE_HANDLER (traffic.h)
 author: windows-sdk-content
 description: The ClModifyFlowComplete function is used by traffic control to notify the client of the completion of its previous call to the TcModifyFlow function.
 old-location: qos\clmodifyflowcomplete.htm

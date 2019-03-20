@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_6
-title: WS_XML_NODE_TYPE
+title: WS_XML_NODE_TYPE (webservices.h)
 author: windows-sdk-content
 description: The type of WS_XML_NODE structure.
 old-location: wsw\ws_xml_node_type.htm

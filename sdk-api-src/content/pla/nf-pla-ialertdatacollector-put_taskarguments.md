@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IAlertDataCollector.put_TaskArguments
-title: IAlertDataCollector::put_TaskArguments
+title: IAlertDataCollector::put_TaskArguments (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the command-line arguments to pass to the Task Scheduler job specified in the IAlertDataCollector::Task property.
 old-location: pla\ialertdatacollector_taskarguments.htm

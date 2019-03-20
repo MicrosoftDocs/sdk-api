@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgTextCdma.get_LanguageID
-title: IMbnSmsReadMsgTextCdma::get_LanguageID
+title: IMbnSmsReadMsgTextCdma::get_LanguageID (mbnapi.h)
 author: windows-sdk-content
 description: The language used in the message.
 old-location: mbn\imbnsmsreadmsgtextcdma_languageid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mergemod.IMsmConfigurableItem
-title: IMsmConfigurableItem
+title: IMsmConfigurableItem (mergemod.h)
 author: windows-sdk-content
 description: The IMsmConfigurableItem interface manages a single row from the ModuleConfiguration table. This is a single configurable &#0034;attribute&#0034; from the module. The interface consists of read-only properties, one for each column in the ModuleConfiguration table.
 old-location: setup\imsmconfigurableitem_interface.htm

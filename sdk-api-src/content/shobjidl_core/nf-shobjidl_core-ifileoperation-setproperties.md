@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.SetProperties
-title: IFileOperation::SetProperties
+title: IFileOperation::SetProperties (shobjidl_core.h)
 author: windows-sdk-content
 description: Declares a set of properties and values to be set on an item or items.
 old-location: shell\IFileOperation_SetProperties.htm

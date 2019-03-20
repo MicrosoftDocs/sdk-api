@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfFunctionProviders.Next
-title: IEnumTfFunctionProviders::Next
+title: IEnumTfFunctionProviders::Next (msctf.h)
 author: windows-sdk-content
 description: IEnumTfFunctionProviders::Next method
 old-location: tsf\ienumtffunctionproviders_next.htm

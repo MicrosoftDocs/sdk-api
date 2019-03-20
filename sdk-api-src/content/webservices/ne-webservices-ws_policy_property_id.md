@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_106
-title: WS_POLICY_PROPERTY_ID
+title: WS_POLICY_PROPERTY_ID (webservices.h)
 author: windows-sdk-content
 description: Identifies each policy property and its associated value.
 old-location: wsw\ws_policy_property_id.htm

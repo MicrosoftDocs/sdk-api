@@ -1,6 +1,6 @@
 ---
 UID: NE:syncregistration.__MIDL___MIDL_itf_syncregistration_0000_0007_0001
-title: SYNC_REGISTRATION_EVENT
+title: SYNC_REGISTRATION_EVENT (syncregistration.h)
 author: windows-sdk-content
 description: Represents the different types of synchronization registration events.
 old-location: winsync\sync_registration_event.htm

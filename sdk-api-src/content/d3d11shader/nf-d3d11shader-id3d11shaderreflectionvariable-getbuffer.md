@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflectionVariable.GetBuffer
-title: ID3D11ShaderReflectionVariable::GetBuffer
+title: ID3D11ShaderReflectionVariable::GetBuffer (d3d11shader.h)
 author: windows-sdk-content
 description: This method returns the buffer of the current ID3D11ShaderReflectionVariable.
 old-location: direct3d11\id3d11shaderreflectionvariable_getbuffer.htm

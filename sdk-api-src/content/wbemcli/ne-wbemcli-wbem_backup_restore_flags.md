@@ -1,6 +1,6 @@
 ---
 UID: NE:wbemcli.tag_WBEM_BACKUP_RESTORE_FLAGS
-title: WBEM_BACKUP_RESTORE_FLAGS
+title: WBEM_BACKUP_RESTORE_FLAGS (wbemcli.h)
 author: windows-sdk-content
 description: Contains flags used for the IWbemBackupRestore::Restore method and the IWbemBackupRestoreEx::Restore method.
 old-location: wmi\wbem_backup_restore_flags.htm

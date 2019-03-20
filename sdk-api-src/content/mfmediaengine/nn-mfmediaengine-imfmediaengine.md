@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngine
-title: IMFMediaEngine
+title: IMFMediaEngine (mfmediaengine.h)
 author: windows-sdk-content
 description: Enables an application to play audio or video files.
 old-location: mf\imfmediaengine.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:qossp._IN_ADDR_IPV4
-title: IN_ADDR_IPV4
+title: IN_ADDR_IPV4 (qossp.h)
 author: windows-sdk-content
 description: The IN_ADDR_IPV4 union stores an IPv4 address for use with RSVP FILTERSPECs.
 old-location: qos\in_addr_ipv4.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMediaCollection.setDeleted
-title: IWMPMediaCollection::setDeleted
+title: IWMPMediaCollection::setDeleted (wmp.h)
 author: windows-sdk-content
 description: The setDeleted method moves the specified media item to the deleted items folder.
 old-location: wmp\iwmpmediacollection_setdeleted.htm

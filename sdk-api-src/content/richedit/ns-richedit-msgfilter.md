@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._msgfilter
-title: MSGFILTER
+title: MSGFILTER (richedit.h)
 author: windows-sdk-content
 description: Contains information about a keyboard or mouse event. A rich edit control sends this structure to its parent window as part of an EN_MSGFILTER notification code, enabling the parent to change the message or prevent it from being processed.
 old-location: controls\MSGFILTER.htm

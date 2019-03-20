@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmMonitorLogRecords.GetLogRecordVariants
-title: ICrmMonitorLogRecords::GetLogRecordVariants
+title: ICrmMonitorLogRecords::GetLogRecordVariants (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves a structured log record given its numeric index.
 old-location: cos\icrmmonitorlogrecords_getlogrecordvariants.htm

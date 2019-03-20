@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.FlushSourceBuffers
-title: IXAudio2SourceVoice::FlushSourceBuffers
+title: IXAudio2SourceVoice::FlushSourceBuffers (xaudio2.h)
 author: windows-sdk-content
 description: Removes all pending audio buffers from the voice queue.
 old-location: xaudio2\ixaudio2sourcevoice_interface_flushsourcebuffers.htm

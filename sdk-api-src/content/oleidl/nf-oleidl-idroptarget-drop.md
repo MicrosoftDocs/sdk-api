@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IDropTarget.Drop
-title: IDropTarget::Drop
+title: IDropTarget::Drop (oleidl.h)
 author: windows-sdk-content
 description: Incorporates the source data into the target window, removes target feedback, and releases the data object.
 old-location: com\idroptarget_drop.htm

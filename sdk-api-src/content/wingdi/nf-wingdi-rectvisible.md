@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.RectVisible
-title: RectVisible function
+title: RectVisible function (wingdi.h)
 author: windows-sdk-content
 description: The RectVisible function determines whether any part of the specified rectangle lies within the clipping region of a device context.
 old-location: gdi\rectvisible.htm

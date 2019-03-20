@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.ProjectOntoColumnSet
-title: ISyncKnowledge2::ProjectOntoColumnSet
+title: ISyncKnowledge2::ProjectOntoColumnSet (winsync.h)
 author: windows-sdk-content
 description: Returns the knowledge for the specified set of change units for all the items that are contained in this object.
 old-location: winsync\isyncknowledge2_projectontocolumnset.htm

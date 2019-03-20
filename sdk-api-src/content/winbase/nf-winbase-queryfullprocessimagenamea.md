@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.QueryFullProcessImageNameA
-title: QueryFullProcessImageNameA function
+title: QueryFullProcessImageNameA function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the full name of the executable image for the specified process.
 old-location: base\queryfullprocessimagename.htm

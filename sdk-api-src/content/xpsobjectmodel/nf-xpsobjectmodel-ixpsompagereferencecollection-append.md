@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReferenceCollection.Append
-title: IXpsOMPageReferenceCollection::Append
+title: IXpsOMPageReferenceCollection::Append (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Appends an IXpsOMPageReference interface to the end of the collection.
 old-location: xps\ixpsompagereferencecollection_append.htm

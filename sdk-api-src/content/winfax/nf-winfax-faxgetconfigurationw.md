@@ -1,6 +1,6 @@
 ---
 UID: NF:winfax.FaxGetConfigurationW
-title: FaxGetConfigurationW function
+title: FaxGetConfigurationW function (winfax.h)
 author: windows-sdk-content
 description: The FaxGetConfiguration function returns to a fax client application the global configuration settings for the fax server to which the client has connected.
 old-location: fax\_mfax_faxgetconfiguration.htm

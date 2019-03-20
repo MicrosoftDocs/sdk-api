@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItem.GetTooltipString
-title: ITfLangBarItem::GetTooltipString
+title: ITfLangBarItem::GetTooltipString (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarItem::GetTooltipString method
 old-location: tsf\itflangbaritem_gettooltipstring.htm

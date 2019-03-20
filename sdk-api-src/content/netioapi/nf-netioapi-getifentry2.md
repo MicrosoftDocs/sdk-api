@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.GetIfEntry2
-title: GetIfEntry2 function
+title: GetIfEntry2 function (netioapi.h)
 author: windows-sdk-content
 description: Retrieves information for the specified interface on the local computer.
 old-location: iphlp\getifentry2.htm

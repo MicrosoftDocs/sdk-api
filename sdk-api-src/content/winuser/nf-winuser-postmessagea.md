@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.PostMessageA
-title: PostMessageA function
+title: PostMessageA function (winuser.h)
 author: windows-sdk-content
 description: Places (posts) a message in the message queue associated with the thread that created the specified window and returns without waiting for the thread to process the message.
 old-location: winmsg\postmessage.htm

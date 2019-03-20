@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IGetContextProperties.GetProperty
-title: IGetContextProperties::GetProperty
+title: IGetContextProperties::GetProperty (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the value of the specified context property.
 old-location: cos\igetcontextproperties_getproperty.htm

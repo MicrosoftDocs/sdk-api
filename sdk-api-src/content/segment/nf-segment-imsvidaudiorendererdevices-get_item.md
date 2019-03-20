@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAudioRendererDevices.get_Item
-title: IMSVidAudioRendererDevices::get_Item
+title: IMSVidAudioRendererDevices::get_Item (segment.h)
 author: windows-sdk-content
 description: The get_Item method retrieves the specified item from the collection.
 old-location: mstv\imsvidaudiorendererdevices_get_item.htm

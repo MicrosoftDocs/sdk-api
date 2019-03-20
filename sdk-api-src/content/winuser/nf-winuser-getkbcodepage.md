@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetKBCodePage
-title: GetKBCodePage function
+title: GetKBCodePage function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the current code page.
 old-location: inputdev\getkbcodepage.htm

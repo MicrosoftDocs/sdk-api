@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextEditPattern.GetConversionTarget
-title: IUIAutomationTextEditPattern::GetConversionTarget
+title: IUIAutomationTextEditPattern::GetConversionTarget (uiautomationclient.h)
 author: windows-sdk-content
 description: Returns the current conversion target range.
 old-location: winauto\uiauto_IUIAutomationTextEditPattern_GetConversionTarget.htm

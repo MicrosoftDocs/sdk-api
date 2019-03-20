@@ -1,6 +1,6 @@
 ---
 UID: NE:tdh._EVENT_FIELD_TYPE
-title: EVENT_FIELD_TYPE
+title: EVENT_FIELD_TYPE (tdh.h)
 author: windows-sdk-content
 description: Defines the provider information to retrieve.
 old-location: etw\event_field_type_enum.htm

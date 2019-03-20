@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellCheckerFactory.IsSupported
-title: ISpellCheckerFactory::IsSupported
+title: ISpellCheckerFactory::IsSupported (spellcheck.h)
 author: windows-sdk-content
 description: Determines if the specified language is supported by a registered spell checker.
 old-location: intl\ispellcheckerfactory_issupported.htm

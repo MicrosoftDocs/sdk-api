@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarCyMulI4
-title: VarCyMulI4 function
+title: VarCyMulI4 function (oleauto.h)
 author: windows-sdk-content
 description: Multiplies a currency value by a 32-bit integer.
 old-location: automat\varcymuli4.htm

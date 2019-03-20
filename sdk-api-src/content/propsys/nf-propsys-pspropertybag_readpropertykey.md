@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadPropertyKey
-title: PSPropertyBag_ReadPropertyKey function
+title: PSPropertyBag_ReadPropertyKey function (propsys.h)
 author: windows-sdk-content
 description: Reads the property key of a property in a specified property bag.
 old-location: properties\PSPropertyBag_ReadPropertyKey.htm

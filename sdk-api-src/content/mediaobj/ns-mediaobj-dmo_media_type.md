@@ -1,6 +1,6 @@
 ---
 UID: NS:mediaobj._DMOMediaType
-title: DMO_MEDIA_TYPE
+title: DMO_MEDIA_TYPE (mediaobj.h)
 author: windows-sdk-content
 description: The DMO_MEDIA_TYPE structure describes the format of the data used by a stream in a Microsoft DirectX Media Object (DMO).
 old-location: dshow\dmo_media_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:locationapi.ILocationReport.GetTimestamp
-title: ILocationReport::GetTimestamp
+title: ILocationReport::GetTimestamp (locationapi.h)
 author: windows-sdk-content
 description: Retrieves the date and time when the report was generated.
 old-location: winlocation_com_ref\ilocationreport_gettimestamp.htm

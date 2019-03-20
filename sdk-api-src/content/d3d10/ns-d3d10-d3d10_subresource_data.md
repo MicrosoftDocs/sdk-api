@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10.D3D10_SUBRESOURCE_DATA
-title: D3D10_SUBRESOURCE_DATA
+title: D3D10_SUBRESOURCE_DATA (d3d10.h)
 author: windows-sdk-content
 description: Specifies data for initializing a subresource.
 old-location: direct3d10\d3d10_subresource_data.htm

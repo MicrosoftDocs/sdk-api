@@ -1,6 +1,6 @@
 ---
 UID: NF:ktmw32.RecoverResourceManager
-title: RecoverResourceManager function
+title: RecoverResourceManager function (ktmw32.h)
 author: windows-sdk-content
 description: Recovers a resource manager's state from its log file.
 old-location: fs\recoverresourcemanager.htm

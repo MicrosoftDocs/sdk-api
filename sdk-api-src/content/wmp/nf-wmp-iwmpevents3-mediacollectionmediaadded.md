@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents3.MediaCollectionMediaAdded
-title: IWMPEvents3::MediaCollectionMediaAdded
+title: IWMPEvents3::MediaCollectionMediaAdded (wmp.h)
 author: windows-sdk-content
 description: The MediaCollectionMediaAdded event occurs when a media item is added to the local library.
 old-location: wmp\iwmpevents3_iwmpevents3__mediacollectionmediaadded.htm

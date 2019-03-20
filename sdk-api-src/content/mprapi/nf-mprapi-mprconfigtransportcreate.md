@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprConfigTransportCreate
-title: MprConfigTransportCreate function
+title: MprConfigTransportCreate function (mprapi.h)
 author: windows-sdk-content
 description: The MprConfigTransportCreate function adds the specified transport to the list of transport protocols present in the specified router configuration.
 old-location: rras\mprconfigtransportcreate.htm

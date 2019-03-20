@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.lstrlenW
-title: lstrlenW function
+title: lstrlenW function (winbase.h)
 author: windows-sdk-content
 description: Determines the length of the specified string (not including the terminating null character).
 old-location: menurc\lstrlen.htm

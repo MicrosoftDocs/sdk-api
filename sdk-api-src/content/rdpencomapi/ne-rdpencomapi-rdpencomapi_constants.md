@@ -1,6 +1,6 @@
 ---
 UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0028_0001
-title: RDPENCOMAPI_CONSTANTS
+title: RDPENCOMAPI_CONSTANTS (rdpencomapi.h)
 author: windows-sdk-content
 description: Defines values for some of the constants used in this API.
 old-location: rdp\rdpencomapi_constants.htm

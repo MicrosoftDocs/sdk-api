@@ -1,6 +1,6 @@
 ---
 UID: NF:oledlg.IOleUILinkInfoA.GetLastUpdate
-title: IOleUILinkInfoA::GetLastUpdate
+title: IOleUILinkInfoA::GetLastUpdate (oledlg.h)
 author: windows-sdk-content
 description: Determines the last time the object was updated.
 old-location: com\ioleuilinkinfo_getlastupdate.htm

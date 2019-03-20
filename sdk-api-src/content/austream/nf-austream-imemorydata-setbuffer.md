@@ -1,6 +1,6 @@
 ---
 UID: NF:austream.IMemoryData.SetBuffer
-title: IMemoryData::SetBuffer
+title: IMemoryData::SetBuffer (austream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Initializes a memory buffer with a pointer to memory and length.
 old-location: dshow\imemorydata_setbuffer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsapi.ISensorManager.SetEventSink
-title: ISensorManager::SetEventSink
+title: ISensorManager::SetEventSink (sensorsapi.h)
 author: windows-sdk-content
 description: Specifies the interface through which to receive sensor manager event notifications.
 old-location: winsensors_com_ref\isensormanager_seteventsink.htm

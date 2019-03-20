@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoRevertToSelf
-title: CoRevertToSelf function
+title: CoRevertToSelf function (combaseapi.h)
 author: windows-sdk-content
 description: Restores the authentication information on a thread of execution.
 old-location: com\coreverttoself.htm

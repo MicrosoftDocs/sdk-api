@@ -1,6 +1,6 @@
 ---
 UID: NN:mdhcp.IMcastScope
-title: IMcastScope
+title: IMcastScope (mdhcp.h)
 author: windows-sdk-content
 description: The IMcastScope interface is obtained by calling IMcastAddressAllocation::EnumerateScopes or IMcastAddressAllocation::get_Scopes.
 old-location: tapi3\imcastscope.htm

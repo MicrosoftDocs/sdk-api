@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement5.get_CachedLocalizedLandmarkType
-title: IUIAutomationElement5::get_CachedLocalizedLandmarkType
+title: IUIAutomationElement5::get_CachedLocalizedLandmarkType (uiautomationclient.h)
 author: windows-sdk-content
 description: Gets a string containing the cached localized landmark type for the automation element.
 old-location: winauto\uiauto_IUIAutomationElement5_CachedLocalizedLandmarkType.htm

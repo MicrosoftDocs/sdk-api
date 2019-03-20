@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._TOKEN_MANDATORY_LABEL
-title: TOKEN_MANDATORY_LABEL
+title: TOKEN_MANDATORY_LABEL (winnt.h)
 author: windows-sdk-content
 description: Specifies the mandatory integrity level for a token.
 old-location: security\token_mandatory_label.htm

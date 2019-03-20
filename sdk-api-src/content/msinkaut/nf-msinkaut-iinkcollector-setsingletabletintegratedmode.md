@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCollector.SetSingleTabletIntegratedMode
-title: IInkCollector::SetSingleTabletIntegratedMode
+title: IInkCollector::SetSingleTabletIntegratedMode (msinkaut.h)
 author: windows-sdk-content
 description: Allows the ink collector (InkCollector, InkOverlay, or InkPicture) to collect ink from only one tablet. Ink from other tablets is ignored by the ink collector.
 old-location: tablet\inkcollector_setsingletabletintegratedmode.htm

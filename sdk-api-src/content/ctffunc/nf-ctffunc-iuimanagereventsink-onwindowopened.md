@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.IUIManagerEventSink.OnWindowOpened
-title: IUIManagerEventSink::OnWindowOpened
+title: IUIManagerEventSink::OnWindowOpened (ctffunc.h)
 author: windows-sdk-content
 description: Called by the TSF after opening an IME UI.
 old-location: tsf\iuimanagereventsink_onwindowopened.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetFillBrushLocal
-title: IXpsOMGlyphs::GetFillBrushLocal
+title: IXpsOMGlyphs::GetFillBrushLocal (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the local, unshared IXpsOMBrush interface of the fill brush to be used for the text.
 old-location: xps\ixpsomglyphs_getfillbrushlocal.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.SizeTSub
-title: SizeTSub function
+title: SizeTSub function (intsafe.h)
 author: windows-sdk-content
 description: Subtracts one value of type size_t from another.
 old-location: shell\SizeTSub.htm

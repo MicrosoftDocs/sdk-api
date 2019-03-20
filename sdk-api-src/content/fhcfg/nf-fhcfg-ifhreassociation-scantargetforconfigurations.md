@@ -1,6 +1,6 @@
 ---
 UID: NF:fhcfg.IFhReassociation.ScanTargetForConfigurations
-title: IFhReassociation::ScanTargetForConfigurations
+title: IFhReassociation::ScanTargetForConfigurations (fhcfg.h)
 author: windows-sdk-content
 description: Scans the namespace on a specified storage device or network share for File History configurations that can be reassociated with and continued to be used on the current computer.
 old-location: winprog\ifhreassociation_scantargetforconfigurations.htm

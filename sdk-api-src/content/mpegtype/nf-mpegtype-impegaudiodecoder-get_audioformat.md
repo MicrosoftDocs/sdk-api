@@ -1,6 +1,6 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.get_AudioFormat
-title: IMpegAudioDecoder::get_AudioFormat
+title: IMpegAudioDecoder::get_AudioFormat (mpegtype.h)
 author: windows-sdk-content
 description: Returns the audio format of the connected input pin.
 old-location: dshow\impegaudiodecoder_get_audioformat.htm

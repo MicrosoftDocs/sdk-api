@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetClassLongPtrW
-title: SetClassLongPtrW function
+title: SetClassLongPtrW function (winuser.h)
 author: windows-sdk-content
 description: Replaces the specified value at the specified offset in the extra class memory or the WNDCLASSEX structure for the class to which the specified window belongs.
 old-location: winmsg\setclasslongptr.htm

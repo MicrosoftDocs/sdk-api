@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IMaintenanceSettings.put_Period
-title: IMaintenanceSettings::put_Period
+title: IMaintenanceSettings::put_Period (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the amount of time the task needs to be once executed during regular Automatic maintenance.
 old-location: taskschd\imaintenancesettings_period.htm

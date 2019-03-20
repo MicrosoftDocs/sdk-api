@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_QUERYMOCOMPSTATUSDATA
-title: DD_QUERYMOCOMPSTATUSDATA
+title: DD_QUERYMOCOMPSTATUSDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_QUERYMOCOMPSTATUSDATA structure contains information required to query the status of the previous frame.
 old-location: display\dd_querymocompstatusdata.htm

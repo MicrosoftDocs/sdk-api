@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.HttpEndRequestA
-title: HttpEndRequestA function
+title: HttpEndRequestA function (wininet.h)
 author: windows-sdk-content
 description: Ends an HTTP request that was initiated by HttpSendRequestEx.
 old-location: wininet\httpendrequest.htm

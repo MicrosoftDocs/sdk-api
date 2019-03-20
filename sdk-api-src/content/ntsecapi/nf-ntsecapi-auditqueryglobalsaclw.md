@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.AuditQueryGlobalSaclW
-title: AuditQueryGlobalSaclW function
+title: AuditQueryGlobalSaclW function (ntsecapi.h)
 author: windows-sdk-content
 description: Retrieves a global system access control list (SACL) that delegates access to the audit messages.
 old-location: security\auditqueryglobalsacl.htm

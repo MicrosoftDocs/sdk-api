@@ -1,6 +1,6 @@
 ---
 UID: NN:syncmgr.ISyncMgrUIOperation
-title: ISyncMgrUIOperation
+title: ISyncMgrUIOperation (syncmgr.h)
 author: windows-sdk-content
 description: Exposes a method through which a sync handler or sync item can display a UI object when requested to do so by Sync Center.
 old-location: shell\ISyncMgrUIOperation.htm

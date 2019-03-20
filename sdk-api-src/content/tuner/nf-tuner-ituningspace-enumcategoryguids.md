@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpace.EnumCategoryGUIDs
-title: ITuningSpace::EnumCategoryGUIDs
+title: ITuningSpace::EnumCategoryGUIDs (tuner.h)
 author: windows-sdk-content
 description: Currently not implemented.
 old-location: mstv\ituningspace_enumcategoryguids.htm

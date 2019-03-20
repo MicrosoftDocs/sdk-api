@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeyEventSink.OnPreservedKey
-title: ITfKeyEventSink::OnPreservedKey
+title: ITfKeyEventSink::OnPreservedKey (msctf.h)
 author: windows-sdk-content
 description: ITfKeyEventSink::OnPreservedKey method
 old-location: tsf\itfkeyeventsink_onpreservedkey.htm

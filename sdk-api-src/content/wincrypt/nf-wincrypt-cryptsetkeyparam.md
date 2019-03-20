@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptSetKeyParam
-title: CryptSetKeyParam function
+title: CryptSetKeyParam function (wincrypt.h)
 author: windows-sdk-content
 description: Customizes various aspects of a session key's operations.
 old-location: security\cryptsetkeyparam.htm

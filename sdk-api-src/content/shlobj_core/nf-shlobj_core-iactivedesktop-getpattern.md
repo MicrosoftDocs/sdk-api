@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.GetPattern
-title: IActiveDesktop::GetPattern
+title: IActiveDesktop::GetPattern (shlobj_core.h)
 author: windows-sdk-content
 description: Gets the current pattern.
 old-location: lwef\iactivedesktop_getpattern.htm

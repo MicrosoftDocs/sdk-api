@@ -1,6 +1,6 @@
 ---
 UID: NS:aclui._SI_INHERIT_TYPE
-title: SI_INHERIT_TYPE
+title: SI_INHERIT_TYPE (aclui.h)
 author: windows-sdk-content
 description: Contains information about how access control entries (ACEs) can be inherited by child objects.
 old-location: security\si_inherit_type.htm

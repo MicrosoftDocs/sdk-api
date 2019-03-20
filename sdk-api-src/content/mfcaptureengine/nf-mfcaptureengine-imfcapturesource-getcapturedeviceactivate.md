@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.GetCaptureDeviceActivate
-title: IMFCaptureSource::GetCaptureDeviceActivate
+title: IMFCaptureSource::GetCaptureDeviceActivate (mfcaptureengine.h)
 author: windows-sdk-content
 description: Gets the current capture device's IMFActivate object pointer.
 old-location: mf\imfcapturesource_getcapturedeviceactivate.htm

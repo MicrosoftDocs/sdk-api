@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsServiceOperations.Continue
-title: IADsServiceOperations::Continue
+title: IADsServiceOperations::Continue (iads.h)
 author: windows-sdk-content
 description: The IADsServiceOperations::Continue method resumes a service operation paused by the IADsServiceOperations::Pause method.
 old-location: adsi\iadsserviceoperations_continue.htm

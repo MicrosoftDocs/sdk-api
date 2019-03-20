@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.SetConvolutionMonoKernel
-title: IDirect3DDevice9Ex::SetConvolutionMonoKernel
+title: IDirect3DDevice9Ex::SetConvolutionMonoKernel (d3d9.h)
 author: windows-sdk-content
 description: Prepare the texture sampler for monochrome convolution filtering on a single-color texture.
 old-location: direct3d9\idirect3ddevice9ex_setconvolutionmonokernel.htm

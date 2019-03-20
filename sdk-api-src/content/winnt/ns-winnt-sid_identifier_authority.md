@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._SID_IDENTIFIER_AUTHORITY
-title: SID_IDENTIFIER_AUTHORITY
+title: SID_IDENTIFIER_AUTHORITY (winnt.h)
 author: windows-sdk-content
 description: Represents the top-level authority of a security identifier (SID).
 old-location: security\sid_identifier_authority.htm

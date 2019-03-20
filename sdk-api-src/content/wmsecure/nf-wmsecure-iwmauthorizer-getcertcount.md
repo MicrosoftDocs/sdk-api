@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsecure.IWMAuthorizer.GetCertCount
-title: IWMAuthorizer::GetCertCount
+title: IWMAuthorizer::GetCertCount (wmsecure.h)
 author: windows-sdk-content
 description: Get the number of certificates.
 old-location: wmformat\iwmauthorizer_getcertcount.htm

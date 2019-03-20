@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationDragPattern.get_CurrentDropEffect
-title: IUIAutomationDragPattern::get_CurrentDropEffect
+title: IUIAutomationDragPattern::get_CurrentDropEffect (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a localized string that indicates what happens when the user drops this element as part of a drag-drop operation.
 old-location: winauto\uiauto_iuiautomationdragpattern_currentdropeffect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDevice.IconURL
-title: IUPnPDevice::IconURL
+title: IUPnPDevice::IconURL (upnp.h)
 author: windows-sdk-content
 description: The IconURL method returns a URL from which an icon of the specified format can be loaded.
 old-location: upnp\iupnpdevice_iconurl.htm

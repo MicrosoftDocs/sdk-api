@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetBlueSlope
-title: IDCompositionLinearTransferEffect::SetBlueSlope
+title: IDCompositionLinearTransferEffect::SetBlueSlope (dcomp.h)
 author: windows-sdk-content
 description: Sets the slope of the linear function for the blue channel.
 old-location: directcomp\idcompositionlineartransfereffect_setblueslope.htm

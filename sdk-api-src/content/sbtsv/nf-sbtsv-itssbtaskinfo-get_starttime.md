@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTaskInfo.get_StartTime
-title: ITsSbTaskInfo::get_StartTime
+title: ITsSbTaskInfo::get_StartTime (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves the earliest time the task agent can start the task.
 old-location: termserv\itssbtaskinfo_starttime.htm

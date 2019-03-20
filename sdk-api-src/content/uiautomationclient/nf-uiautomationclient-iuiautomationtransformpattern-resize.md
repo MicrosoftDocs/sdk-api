@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern.Resize
-title: IUIAutomationTransformPattern::Resize
+title: IUIAutomationTransformPattern::Resize (uiautomationclient.h)
 author: windows-sdk-content
 description: Resizes the UI Automation element.
 old-location: winauto\uiauto_IUIAutomationTransformPattern_Resize.htm

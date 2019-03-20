@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmGetFiles.get_ModuleFiles
-title: IMsmGetFiles::get_ModuleFiles
+title: IMsmGetFiles::get_ModuleFiles (mergemod.h)
 author: windows-sdk-content
 description: The get_ModuleFiles method retrieves the ModuleFiles property of the GetFiles object.
 old-location: setup\imsmgetfiles_get_modulefiles.htm

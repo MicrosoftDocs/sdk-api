@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._ENGSAFESEMAPHORE
-title: ENGSAFESEMAPHORE
+title: ENGSAFESEMAPHORE (winddi.h)
 author: windows-sdk-content
 description: The ENGSAFESEMAPHORE structure provides the driver with a thread-safe semaphore.
 old-location: display\engsafesemaphore.htm

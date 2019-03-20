@@ -1,6 +1,6 @@
 ---
 UID: NF:provider.Provider.GetLocalInstancePath
-title: Provider::GetLocalInstancePath
+title: Provider::GetLocalInstancePath (provider.h)
 author: windows-sdk-content
 description: The GetLocalInstancePath method attempts to build a full object path to a specified instance. This method is a helper function and should not be overridden.
 old-location: wmi\provider_getlocalinstancepath.htm

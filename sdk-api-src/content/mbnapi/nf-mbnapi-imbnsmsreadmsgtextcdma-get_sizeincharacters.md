@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgTextCdma.get_SizeInCharacters
-title: IMbnSmsReadMsgTextCdma::get_SizeInCharacters
+title: IMbnSmsReadMsgTextCdma::get_SizeInCharacters (mbnapi.h)
 author: windows-sdk-content
 description: The size in characters of the message.
 old-location: mbn\imbnsmsreadmsgtextcdma_sizeincharacters.htm

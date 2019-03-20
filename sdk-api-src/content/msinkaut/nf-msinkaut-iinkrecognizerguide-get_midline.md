@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizerGuide.get_Midline
-title: IInkRecognizerGuide::get_Midline
+title: IInkRecognizerGuide::get_Midline (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the midline height. The midline height is distance from the baseline to the midline, of the drawn box.
 old-location: tablet\inkrecognizerguide_midline.htm

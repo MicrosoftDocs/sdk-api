@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestOptionalBundleInfoEnumerator.GetCurrent
-title: IAppxBundleManifestOptionalBundleInfoEnumerator::GetCurrent
+title: IAppxBundleManifestOptionalBundleInfoEnumerator::GetCurrent (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the optional bundle information at the current position of the enumerator.
 old-location: appxpkg\iappxbundlemanifestoptionalbundleinfoenumerator_getcurrent.htm

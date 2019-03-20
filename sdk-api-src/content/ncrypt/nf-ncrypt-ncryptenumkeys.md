@@ -1,6 +1,6 @@
 ---
 UID: NF:ncrypt.NCryptEnumKeys
-title: NCryptEnumKeys function
+title: NCryptEnumKeys function (ncrypt.h)
 author: windows-sdk-content
 description: Obtains the names of the keys that are stored by the provider.
 old-location: security\ncryptenumkeys_func.htm

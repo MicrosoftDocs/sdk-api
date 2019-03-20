@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESOpenMmiEvent.GetDialogType
-title: IESOpenMmiEvent::GetDialogType
+title: IESOpenMmiEvent::GetDialogType (tuner.h)
 author: windows-sdk-content
 description: The GetDialogType method gets the GUID representing the experience type of the dialog that is being opened.
 old-location: mstv\iesopenmmievent_getdialogtype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PFN_CERT_CREATE_CONTEXT_SORT_FUNC
-title: PFN_CERT_CREATE_CONTEXT_SORT_FUNC
+title: PFN_CERT_CREATE_CONTEXT_SORT_FUNC (wincrypt.h)
 author: windows-sdk-content
 description: Called for each sorted context entry when a context is created.
 old-location: security\pfn_cert_create_context_sort_func.htm

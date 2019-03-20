@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemProviderInitSink.SetStatus
-title: IWbemProviderInitSink::SetStatus
+title: IWbemProviderInitSink::SetStatus (wbemprov.h)
 author: windows-sdk-content
 description: The IWbemProviderInitSink::SetStatus method indicates to Windows Management whether a provider is fully or partially initialized.
 old-location: wmi\iwbemproviderinitsink_setstatus.htm

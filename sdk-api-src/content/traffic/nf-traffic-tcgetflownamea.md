@@ -1,6 +1,6 @@
 ---
 UID: NF:traffic.TcGetFlowNameA
-title: TcGetFlowNameA function
+title: TcGetFlowNameA function (traffic.h)
 author: windows-sdk-content
 description: The TcGetFlowName function provides the name of a flow that has been created by the calling client.
 old-location: qos\tcgetflowname.htm

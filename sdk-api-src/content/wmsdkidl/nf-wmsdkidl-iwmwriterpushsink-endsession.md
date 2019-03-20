@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPushSink.EndSession
-title: IWMWriterPushSink::EndSession
+title: IWMWriterPushSink::EndSession (wmsdkidl.h)
 author: windows-sdk-content
 description: The EndSession method ends the push distribution session. This method sends an end-of-stream message to the server, and then shuts down the data path on the server.
 old-location: wmformat\iwmwriterpushsink_endsession.htm

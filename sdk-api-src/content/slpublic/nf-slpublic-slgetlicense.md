@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLGetLicense
-title: SLGetLicense function
+title: SLGetLicense function (slpublic.h)
 author: windows-sdk-content
 description: Returns the license file BLOB.
 old-location: security\slgetlicense.htm

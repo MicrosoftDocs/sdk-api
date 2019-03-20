@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngineClassFactory.CreateInstance
-title: IMFCaptureEngineClassFactory::CreateInstance
+title: IMFCaptureEngineClassFactory::CreateInstance (mfcaptureengine.h)
 author: windows-sdk-content
 description: Creates an instance of the capture engine.
 old-location: mf\imfcaptureengineclassfactory_createinstance.htm

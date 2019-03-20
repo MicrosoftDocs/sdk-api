@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationCompositor.RemoveContent
-title: IDirectManipulationCompositor::RemoveContent
+title: IDirectManipulationCompositor::RemoveContent (directmanipulation.h)
 author: windows-sdk-content
 description: Removes content from the compositor.
 old-location: directmanipulation\idirectmanipulationcompositor_removecontent.htm

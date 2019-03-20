@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprConfigGetGuidName
-title: MprConfigGetGuidName function
+title: MprConfigGetGuidName function (mprapi.h)
 author: windows-sdk-content
 description: The MprConfigGetGuidName function returns the GUID name for an interface that corresponds to the specified friendly name.
 old-location: rras\mprconfiggetguidname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanSetProfileEapXmlUserData
-title: WlanSetProfileEapXmlUserData function
+title: WlanSetProfileEapXmlUserData function (wlanapi.h)
 author: windows-sdk-content
 description: Sets the Extensible Authentication Protocol (EAP) user credentials as specified by an XML string.
 old-location: nwifi\wlansetprofileeapxmluserdata.htm

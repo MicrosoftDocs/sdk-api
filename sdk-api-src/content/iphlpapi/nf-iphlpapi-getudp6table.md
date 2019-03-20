@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.GetUdp6Table
-title: GetUdp6Table function
+title: GetUdp6Table function (iphlpapi.h)
 author: windows-sdk-content
 description: Retrieves the IPv6 User Datagram Protocol (UDP) listener table.
 old-location: iphlp\getudp6table.htm

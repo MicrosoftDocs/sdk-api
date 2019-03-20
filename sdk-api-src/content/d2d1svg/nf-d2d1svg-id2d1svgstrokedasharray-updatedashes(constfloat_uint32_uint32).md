@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgStrokeDashArray.UpdateDashes(const FLOAT,UINT32,UINT32)
-title: ID2D1SvgStrokeDashArray::UpdateDashes(const FLOAT,UINT32,UINT32)
+title: ID2D1SvgStrokeDashArray::UpdateDashes(const FLOAT,UINT32,UINT32) (d2d1svg.h)
 author: windows-sdk-content
 description: Updates the array. Existing dashes not updated by this method are preserved. The array is resized larger if necessary to accomodate the new dashes.
 old-location: direct2d\id2d1svgstrokedasharray_updatedashes.htm

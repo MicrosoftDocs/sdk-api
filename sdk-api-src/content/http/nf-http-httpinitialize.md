@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpInitialize
-title: HttpInitialize function
+title: HttpInitialize function (http.h)
 author: windows-sdk-content
 description: The HttpInitialize function initializes the HTTP Server API driver, starts it, if it has not already been started, and allocates data structures for the calling application to support response-queue creation and other operations.
 old-location: http\httpinitialize.htm

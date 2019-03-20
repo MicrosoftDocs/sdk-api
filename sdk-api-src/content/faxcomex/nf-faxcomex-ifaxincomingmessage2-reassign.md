@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage2.ReAssign
-title: IFaxIncomingMessage2::ReAssign
+title: IFaxIncomingMessage2::ReAssign (faxcomex.h)
 author: windows-sdk-content
 description: Reassign the fax to one or more recipients. It also commits changes to the IFaxIncomingMessage2::Subject, IFaxIncomingMessage2::SenderName, IFaxIncomingMessage2::SenderFaxNumber, and IFaxIncomingMessage2::HasCoverPage properties.
 old-location: fax\_mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_reassign_cpp.htm

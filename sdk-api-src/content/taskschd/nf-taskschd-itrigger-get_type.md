@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITrigger.get_Type
-title: ITrigger::get_Type
+title: ITrigger::get_Type (taskschd.h)
 author: windows-sdk-content
 description: Gets the type of the trigger.
 old-location: taskschd\itrigger_type.htm

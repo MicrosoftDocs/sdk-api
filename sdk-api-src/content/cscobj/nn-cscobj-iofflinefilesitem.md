@@ -1,6 +1,6 @@
 ---
 UID: NN:cscobj.IOfflineFilesItem
-title: IOfflineFilesItem
+title: IOfflineFilesItem (cscobj.h)
 author: windows-sdk-content
 description: Represents a single item in the Offline Files cache.
 old-location: of\iofflinefilesitem.htm

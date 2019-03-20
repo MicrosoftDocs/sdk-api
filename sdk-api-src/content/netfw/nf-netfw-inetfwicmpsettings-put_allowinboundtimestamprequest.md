@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.put_AllowInboundTimestampRequest
-title: INetFwIcmpSettings::put_AllowInboundTimestampRequest
+title: INetFwIcmpSettings::put_AllowInboundTimestampRequest (netfw.h)
 author: windows-sdk-content
 description: Indicates whether this is allowed.
 old-location: ics\inetfwicmpsettings_allowinboundtimestamprequest.htm

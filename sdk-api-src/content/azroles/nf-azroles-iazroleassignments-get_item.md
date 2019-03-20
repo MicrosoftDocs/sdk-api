@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRoleAssignments.get_Item
-title: IAzRoleAssignments::get_Item
+title: IAzRoleAssignments::get_Item (azroles.h)
 author: windows-sdk-content
 description: Retrieves the IAzRoleAssignment object at the specified index in the IAzRoleAssignments collection.
 old-location: security\iazroleassignments_item.htm

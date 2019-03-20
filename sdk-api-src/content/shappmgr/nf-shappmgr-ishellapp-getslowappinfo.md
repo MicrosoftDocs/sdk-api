@@ -1,6 +1,6 @@
 ---
 UID: NF:shappmgr.IShellApp.GetSlowAppInfo
-title: IShellApp::GetSlowAppInfo
+title: IShellApp::GetSlowAppInfo (shappmgr.h)
 author: windows-sdk-content
 description: Returns information to the application that originates from a slow source. This method is not applicable to published applications.
 old-location: shell\IShellApp_GetSlowAppInfo.htm

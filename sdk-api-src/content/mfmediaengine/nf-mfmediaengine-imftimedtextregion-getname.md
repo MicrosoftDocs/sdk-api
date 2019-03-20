@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetName
-title: IMFTimedTextRegion::GetName
+title: IMFTimedTextRegion::GetName (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the name of the region.
 old-location: mf\imftimedtextregion_getname.htm

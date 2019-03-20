@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetCurrentVideoAttributes
-title: IDvdInfo2::GetCurrentVideoAttributes
+title: IDvdInfo2::GetCurrentVideoAttributes (strmif.h)
 author: windows-sdk-content
 description: The GetCurrentVideoAttributes method retrieves the video attributes of the current title or menu.
 old-location: dshow\idvdinfo2_getcurrentvideoattributes.htm

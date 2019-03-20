@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiNotifySidChangeW
-title: MsiNotifySidChangeW function
+title: MsiNotifySidChangeW function (msi.h)
 author: windows-sdk-content
 description: The MsiNotifySidChange function notifies and updates the Windows Installer internal information with changes to user SIDs.
 old-location: setup\msinotifysidchange.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_MEMORY_LIST
-title: MINIDUMP_MEMORY_LIST
+title: MINIDUMP_MEMORY_LIST (minidumpapiset.h)
 author: windows-sdk-content
 description: Contains a list of memory ranges.
 old-location: base\minidump_memory_list_str.htm

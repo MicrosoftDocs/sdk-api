@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMessageMover.get_DestPath
-title: IMessageMover::get_DestPath
+title: IMessageMover::get_DestPath (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the path of the destination (output) queue.
 old-location: cos\imessagemover_get_destpath.htm

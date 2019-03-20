@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetZIndex
-title: IMFTimedTextRegion::GetZIndex
+title: IMFTimedTextRegion::GetZIndex (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the Z-index (depth) of the region.
 old-location: mf\imftimedtextregion_getzindex.htm

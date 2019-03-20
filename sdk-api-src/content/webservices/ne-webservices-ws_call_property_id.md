@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_98
-title: WS_CALL_PROPERTY_ID
+title: WS_CALL_PROPERTY_ID (webservices.h)
 author: windows-sdk-content
 description: Optional parameters for configuring a call on a client side service operation.
 old-location: wsw\ws_call_property_id.htm

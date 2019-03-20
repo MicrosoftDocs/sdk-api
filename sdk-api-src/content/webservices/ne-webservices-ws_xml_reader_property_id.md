@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_0
-title: WS_XML_READER_PROPERTY_ID
+title: WS_XML_READER_PROPERTY_ID (webservices.h)
 author: windows-sdk-content
 description: Identifies each XML reader property is and its associated value.
 old-location: wsw\ws_xml_reader_property_id.htm

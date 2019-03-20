@@ -1,6 +1,6 @@
 ---
 UID: NE:intshcut.translateurl_in_flags
-title: TRANSLATEURL_IN_FLAGS
+title: TRANSLATEURL_IN_FLAGS (intshcut.h)
 author: windows-sdk-content
 description: The TRANSLATEURL_IN_FLAGS enumerated values are used with the TranslateURL function to determine how it will execute.
 old-location: shell\TRANSLATEURL_IN_FLAGS.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolumeMF.Format
-title: IVdsVolumeMF::Format
+title: IVdsVolumeMF::Format (vds.h)
 author: windows-sdk-content
 description: Formats a file system on the current volume.
 old-location: base\ivdsvolumemf_format.htm

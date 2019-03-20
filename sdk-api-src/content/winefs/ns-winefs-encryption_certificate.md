@@ -1,6 +1,6 @@
 ---
 UID: NS:winefs._ENCRYPTION_CERTIFICATE
-title: ENCRYPTION_CERTIFICATE
+title: ENCRYPTION_CERTIFICATE (winefs.h)
 author: windows-sdk-content
 description: Contains a certificate and the SID of its owner.
 old-location: fs\encryption_certificate_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRendererDevices.Remove
-title: IMSVidVideoRendererDevices::Remove
+title: IMSVidVideoRendererDevices::Remove (segment.h)
 author: windows-sdk-content
 description: The Remove method removes an item from the collection.
 old-location: mstv\imsvidvideorendererdevices_remove.htm

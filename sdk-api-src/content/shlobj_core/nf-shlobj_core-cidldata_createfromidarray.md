@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.CIDLData_CreateFromIDArray
-title: CIDLData_CreateFromIDArray function
+title: CIDLData_CreateFromIDArray function (shlobj_core.h)
 author: windows-sdk-content
 description: CIDLData_CreateFromIDArray may be altered or unavailable.
 old-location: shell\CIDLData_CreateFromIDArray.htm

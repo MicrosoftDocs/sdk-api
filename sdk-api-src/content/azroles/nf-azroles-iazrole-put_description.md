@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRole.put_Description
-title: IAzRole::put_Description
+title: IAzRole::put_Description (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves a comment that describes the role.
 old-location: security\iazrole_description.htm

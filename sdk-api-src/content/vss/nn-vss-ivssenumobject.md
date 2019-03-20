@@ -1,6 +1,6 @@
 ---
 UID: NN:vss.IVssEnumObject
-title: IVssEnumObject
+title: IVssEnumObject (vss.h)
 author: windows-sdk-content
 description: Contains methods to iterate over and perform other operations on a list of enumerated objects.
 old-location: base\ivssenumobject.htm

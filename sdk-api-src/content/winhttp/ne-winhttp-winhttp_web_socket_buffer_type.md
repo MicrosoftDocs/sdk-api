@@ -1,6 +1,6 @@
 ---
 UID: NE:winhttp._WINHTTP_WEB_SOCKET_BUFFER_TYPE
-title: WINHTTP_WEB_SOCKET_BUFFER_TYPE
+title: WINHTTP_WEB_SOCKET_BUFFER_TYPE (winhttp.h)
 author: windows-sdk-content
 description: The WINHTTP_WEB_SOCKET_BUFFER_TYPE enumeration includes types of WebSocket buffers.
 old-location: http\winhttp_web_socket_buffer_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:prsht.PropSheet_IndexToPage
-title: PropSheet_IndexToPage macro
+title: PropSheet_IndexToPage macro (prsht.h)
 author: windows-sdk-content
 description: Takes the index of a property sheet page and returns its HPROPSHEETPAGE handle. You can use this macro or send the PSM_INDEXTOPAGE message explicitly.
 old-location: controls\PropSheet_IndexToPage.htm

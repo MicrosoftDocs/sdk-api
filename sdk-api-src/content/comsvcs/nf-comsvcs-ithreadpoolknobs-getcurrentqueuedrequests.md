@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IThreadPoolKnobs.GetCurrentQueuedRequests
-title: IThreadPoolKnobs::GetCurrentQueuedRequests
+title: IThreadPoolKnobs::GetCurrentQueuedRequests (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the number of asynchronous execution requests that are currently queued.
 old-location: cos\ithreadpoolknobs_getcurrentqueuedrequests.htm

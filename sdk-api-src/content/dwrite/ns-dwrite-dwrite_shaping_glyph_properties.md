@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite.DWRITE_SHAPING_GLYPH_PROPERTIES
-title: DWRITE_SHAPING_GLYPH_PROPERTIES
+title: DWRITE_SHAPING_GLYPH_PROPERTIES (dwrite.h)
 author: windows-sdk-content
 description: Contains shaping output properties for an output glyph.
 old-location: directwrite\dwrite_shaping_glyph_properties.htm

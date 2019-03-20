@@ -1,6 +1,6 @@
 ---
 UID: NS:mmc._SMMCObjectTypes
-title: SMMCObjectTypes
+title: SMMCObjectTypes (mmc.h)
 author: windows-sdk-content
 description: The SMMCDynamicExtensions structure is introduced in MMC 1.1.
 old-location: mmc\smmcdynamicextensions.htm

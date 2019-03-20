@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxFolders.get_OutgoingArchive
-title: IFaxFolders::get_OutgoingArchive
+title: IFaxFolders::get_OutgoingArchive (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxFolders::get_OutgoingArchive property represents the archive of outgoing faxes.
 old-location: fax\_mfax_faxfolders_cpp_mfax_faxfolders_outgoingarchive_cpp.htm

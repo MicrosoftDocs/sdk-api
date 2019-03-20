@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetScrollInfo
-title: SetScrollInfo function
+title: SetScrollInfo function (winuser.h)
 author: windows-sdk-content
 description: The SetScrollInfo function sets the parameters of a scroll bar, including the minimum and maximum scrolling positions, the page size, and the position of the scroll box (thumb). The function also redraws the scroll bar, if requested.
 old-location: controls\SetScrollInfo.htm

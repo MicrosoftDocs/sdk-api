@@ -1,6 +1,6 @@
 ---
 UID: NN:spellcheck.ISpellChecker2
-title: ISpellChecker2
+title: ISpellChecker2 (spellcheck.h)
 author: windows-sdk-content
 description: Represents a particular spell checker for a particular language, with the added ability to remove words from the added words dictionary, or from the ignore list.
 old-location: intl\ispellchecker2.htm

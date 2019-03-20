@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.SHOpenPropSheetW
-title: SHOpenPropSheetW function
+title: SHOpenPropSheetW function (shlobj.h)
 author: windows-sdk-content
 description: SHOpenPropSheet may be altered or unavailable.
 old-location: shell\SHOpenPropSheetW.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:virtdisk._CREATE_VIRTUAL_DISK_FLAG
-title: CREATE_VIRTUAL_DISK_FLAG
+title: CREATE_VIRTUAL_DISK_FLAG (virtdisk.h)
 author: windows-sdk-content
 description: Contains virtual hard disk (VHD) creation flags.
 old-location: vhd\create_virtual_disk_flag.htm

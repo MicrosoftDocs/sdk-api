@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaSeeking.IsFormatSupported
-title: IMediaSeeking::IsFormatSupported
+title: IMediaSeeking::IsFormatSupported (strmif.h)
 author: windows-sdk-content
 description: The IsFormatSupported method determines whether a specified time format is supported for seek operations.
 old-location: dshow\imediaseeking_isformatsupported.htm

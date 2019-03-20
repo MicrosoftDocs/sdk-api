@@ -1,6 +1,6 @@
 ---
 UID: NE:dhcpsapi._DHCP_FORCE_FLAG
-title: DHCP_FORCE_FLAG
+title: DHCP_FORCE_FLAG (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_FORCE_FLAG enumeration defines the set of flags describing the force level of a DHCP subnet element deletion operation.
 old-location: dhcp\dhcp_force_flag.htm

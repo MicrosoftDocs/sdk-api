@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellFolder.SetNameOf
-title: IShellFolder::SetNameOf
+title: IShellFolder::SetNameOf (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the display name of a file object or subfolder, changing the item identifier in the process.
 old-location: shell\IShellFolder_SetNameOf.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:windns.__unnamed_struct_32
-title: DNS_NAPTR_DATAW
+title: DNS_NAPTR_DATAW (windns.h)
 author: windows-sdk-content
 description: The DNS_NAPTR_DATA structure represents a Naming Authority Pointer (NAPTR) DNS Resource Record (RR) as specified in RFC 2915.
 old-location: dns\dns_naptr_data.htm

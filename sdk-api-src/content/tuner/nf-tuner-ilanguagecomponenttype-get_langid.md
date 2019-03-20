@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ILanguageComponentType.get_LangID
-title: ILanguageComponentType::get_LangID
+title: ILanguageComponentType::get_LangID (tuner.h)
 author: windows-sdk-content
 description: The get_LangID method retrieves the LCID that identifies the language.
 old-location: mstv\ilanguagecomponenttype_get_langid.htm

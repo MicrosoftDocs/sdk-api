@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._SSTP_CONFIG_PARAMS
-title: SSTP_CONFIG_PARAMS
+title: SSTP_CONFIG_PARAMS (mprapi.h)
 author: windows-sdk-content
 description: Used to get and set the device configuration for Secure Socket Tunneling Protocool (SSTP) on a RAS Server.
 old-location: rras\sstp_config_params.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderFilterSite.SetFilter
-title: IFolderFilterSite::SetFilter
+title: IFolderFilterSite::SetFilter (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposed by a host to allow clients to pass the host their IUnknown interface pointers.
 old-location: shell\IFolderFilterSite_SetFilter.htm

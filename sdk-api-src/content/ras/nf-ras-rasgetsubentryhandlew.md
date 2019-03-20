@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasGetSubEntryHandleW
-title: RasGetSubEntryHandleW function
+title: RasGetSubEntryHandleW function (ras.h)
 author: windows-sdk-content
 description: The RasGetSubEntryHandle function retrieves a connection handle for a specified subentry of a multilink connection.
 old-location: rras\rasgetsubentryhandle.htm

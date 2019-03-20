@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.LPSAFEARRAY_UserFree64
-title: LPSAFEARRAY_UserFree64 function
+title: LPSAFEARRAY_UserFree64 function (wia_xp.h)
 author: windows-sdk-content
 description: Frees resources on the server side when called by RPC stub files.
 old-location: automat\lpsafearray_userfree64.htm

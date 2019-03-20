@@ -1,6 +1,6 @@
 ---
 UID: NF:processenv.GetEnvironmentStringsW
-title: GetEnvironmentStringsW function
+title: GetEnvironmentStringsW function (processenv.h)
 author: windows-sdk-content
 description: Retrieves the environment variables for the current process.
 old-location: base\getenvironmentstrings.htm

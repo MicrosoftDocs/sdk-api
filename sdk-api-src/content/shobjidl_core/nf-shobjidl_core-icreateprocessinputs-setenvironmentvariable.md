@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ICreateProcessInputs.SetEnvironmentVariable
-title: ICreateProcessInputs::SetEnvironmentVariable
+title: ICreateProcessInputs::SetEnvironmentVariable (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets a variable in the environment of the created process.
 old-location: shell\icreateprocessinputs_setenvironmentvariable.htm

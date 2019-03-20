@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagDVD_SUBPICTURE_CODING
-title: DVD_SUBPICTURE_CODING
+title: DVD_SUBPICTURE_CODING (strmif.h)
 author: windows-sdk-content
 description: Indicates what kind of content the subpicture stream contains.
 old-location: dshow\dvd_subpicture_coding.htm

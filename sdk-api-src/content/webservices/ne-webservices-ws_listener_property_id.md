@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_36
-title: WS_LISTENER_PROPERTY_ID
+title: WS_LISTENER_PROPERTY_ID (webservices.h)
 author: windows-sdk-content
 description: Each listener property is of type WS_LISTENER_PROPERTY, is identified by an ID, and has an associated value. If a property is not specified when the listener is created, then its default value is used.
 old-location: wsw\ws_listener_property_id.htm

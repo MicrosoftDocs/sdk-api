@@ -1,6 +1,6 @@
 ---
 UID: NS:usp10.tag_SCRIPT_DIGITSUBSTITUTE
-title: SCRIPT_DIGITSUBSTITUTE
+title: SCRIPT_DIGITSUBSTITUTE (usp10.h)
 author: windows-sdk-content
 description: Contains native digit and digit substitution settings.
 old-location: intl\script_digitsubstitute.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzOperation.put_Description
-title: IAzOperation::put_Description
+title: IAzOperation::put_Description (azroles.h)
 author: windows-sdk-content
 description: The Description property of IAzOperation sets or retrieves a comment that describes the operation.
 old-location: security\iazoperation_description.htm

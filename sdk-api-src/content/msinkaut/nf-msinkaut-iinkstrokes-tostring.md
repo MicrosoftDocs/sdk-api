@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokes.ToString
-title: IInkStrokes::ToString
+title: IInkStrokes::ToString (msinkaut.h)
 author: windows-sdk-content
 description: ToString is no longer available for use as of Windows Vista.
 old-location: tablet\inkstrokes_tostring.htm

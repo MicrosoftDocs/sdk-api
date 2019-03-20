@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.NEXTRAWINPUTBLOCK
-title: NEXTRAWINPUTBLOCK macro
+title: NEXTRAWINPUTBLOCK macro (winuser.h)
 author: windows-sdk-content
 description: Retrieves the location of the next structure in an array of RAWINPUT structures.
 old-location: inputdev\nextrawinputblock.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi._DOCINFOA
-title: DOCINFOA
+title: DOCINFOA (wingdi.h)
 author: windows-sdk-content
 description: The DOCINFO structure contains the input and output file names and other information used by the StartDoc function.
 old-location: gdi\docinfo.htm

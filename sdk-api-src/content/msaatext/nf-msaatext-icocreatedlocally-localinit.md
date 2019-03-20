@@ -1,6 +1,6 @@
 ---
 UID: NF:msaatext.ICoCreatedLocally.LocalInit
-title: ICoCreatedLocally::LocalInit
+title: ICoCreatedLocally::LocalInit (msaatext.h)
 author: windows-sdk-content
 description: Implemented by clients to return information about the local object.Note  Active Accessibility Text Services is deprecated.
 old-location: winauto\icocreatedlocally_icocreatedlocally__localinit.htm

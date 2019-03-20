@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.CreateFileMappingFromApp
-title: CreateFileMappingFromApp function
+title: CreateFileMappingFromApp function (memoryapi.h)
 author: windows-sdk-content
 description: Creates or opens a named or unnamed file mapping object for a specified file from a Windows Store app.
 old-location: base\createfilemappingfromapp.htm

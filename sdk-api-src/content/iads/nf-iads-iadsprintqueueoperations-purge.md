@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPrintQueueOperations.Purge
-title: IADsPrintQueueOperations::Purge
+title: IADsPrintQueueOperations::Purge (iads.h)
 author: windows-sdk-content
 description: The IADsPrintQueueOperations::Purge method clears the print queue of all print jobs without processing them.
 old-location: adsi\iadsprintqueueoperations_purge.htm

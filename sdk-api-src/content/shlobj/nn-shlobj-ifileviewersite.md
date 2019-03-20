@@ -1,6 +1,6 @@
 ---
 UID: NN:shlobj.IFileViewerSite
-title: IFileViewerSite
+title: IFileViewerSite (shlobj.h)
 author: windows-sdk-content
 description: Exposes methods that designate an interface that allows a file viewer to retrieve the handle to the current pinned window, or to set a new pinned window.
 old-location: shell\IFileViewerSite.htm

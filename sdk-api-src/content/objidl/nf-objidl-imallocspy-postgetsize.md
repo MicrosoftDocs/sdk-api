@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMallocSpy.PostGetSize
-title: IMallocSpy::PostGetSize
+title: IMallocSpy::PostGetSize (objidl.h)
 author: windows-sdk-content
 description: Performs operations required after calling IMalloc::GetSize.
 old-location: com\imallocspy_postgetsize.htm

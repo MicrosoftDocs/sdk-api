@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.DAD_DragLeave
-title: DAD_DragLeave function
+title: DAD_DragLeave function (shlobj_core.h)
 author: windows-sdk-content
 description: Unlocks the window locked by the DAD_DragEnterEx function.
 old-location: shell\DAD_DragLeave.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:networkisolation._NETISO_ERROR_TYPE
-title: NETISO_ERROR_TYPE
+title: NETISO_ERROR_TYPE (networkisolation.h)
 author: windows-sdk-content
 description: Specifies the type of error related to a network isolation operation.
 old-location: ics\netiso_error_type.htm

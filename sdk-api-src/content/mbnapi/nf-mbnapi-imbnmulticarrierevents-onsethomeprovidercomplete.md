@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrierEvents.OnSetHomeProviderComplete
-title: IMbnMultiCarrierEvents::OnSetHomeProviderComplete
+title: IMbnMultiCarrierEvents::OnSetHomeProviderComplete (mbnapi.h)
 author: windows-sdk-content
 description: This notification method is called by the Mobile Broadband service to indicate the completion of a SetHomeProvider operation.
 old-location: mbn\imbnmulticarrierevents_onsethomeprovidercomplete.htm

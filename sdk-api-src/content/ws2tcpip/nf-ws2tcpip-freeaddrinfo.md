@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2tcpip.freeaddrinfo
-title: freeaddrinfo function
+title: freeaddrinfo function (ws2tcpip.h)
 author: windows-sdk-content
 description: Frees address information that the getaddrinfo function dynamically allocates in addrinfo structures.
 old-location: winsock\freeaddrinfo_2.htm

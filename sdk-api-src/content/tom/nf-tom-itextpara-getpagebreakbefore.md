@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.GetPageBreakBefore
-title: ITextPara::GetPageBreakBefore
+title: ITextPara::GetPageBreakBefore (tom.h)
 author: windows-sdk-content
 description: Determines whether each paragraph in the range must begin on a new page.
 old-location: controls\ITextPara_GetPageBreakBefore.htm

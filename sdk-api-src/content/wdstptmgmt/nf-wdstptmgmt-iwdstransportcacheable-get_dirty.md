@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportCacheable.get_Dirty
-title: IWdsTransportCacheable::get_Dirty
+title: IWdsTransportCacheable::get_Dirty (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives a value that indicates whether object data has been modified.
 old-location: wds\iwdstransportcacheable_dirty.htm

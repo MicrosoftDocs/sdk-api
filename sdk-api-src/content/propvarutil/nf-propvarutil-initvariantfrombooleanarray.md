@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.InitVariantFromBooleanArray
-title: InitVariantFromBooleanArray function
+title: InitVariantFromBooleanArray function (propvarutil.h)
 author: windows-sdk-content
 description: Initializes a VARIANT structure from an array of Boolean values.
 old-location: properties\InitVariantFromBooleanArray.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngFreePrivateUserMem
-title: EngFreePrivateUserMem macro
+title: EngFreePrivateUserMem macro (winddi.h)
 author: windows-sdk-content
 description: The EngFreePrivateUserMem function deallocates a block of private user memory.
 old-location: display\engfreeprivateusermem.htm

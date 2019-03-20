@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IESEvent
-title: IESEvent
+title: IESEvent (tuner.h)
 author: windows-sdk-content
 description: Implements a generic event interface that can deliver and encapsulate events that are raised by devices that work with the Protected Broadcast Driver Interface (PBDA).
 old-location: mstv\iesevent.htm

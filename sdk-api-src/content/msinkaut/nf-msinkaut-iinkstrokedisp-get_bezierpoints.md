@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_BezierPoints
-title: IInkStrokeDisp::get_BezierPoints
+title: IInkStrokeDisp::get_BezierPoints (msinkaut.h)
 author: windows-sdk-content
 description: Gets the array of control points that represent the Bezier approximation of the stroke.
 old-location: tablet\iinkstrokedisp_bezierpoints.htm

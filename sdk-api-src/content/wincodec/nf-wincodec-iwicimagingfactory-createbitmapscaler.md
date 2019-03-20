@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateBitmapScaler
-title: IWICImagingFactory::CreateBitmapScaler
+title: IWICImagingFactory::CreateBitmapScaler (wincodec.h)
 author: windows-sdk-content
 description: Creates a new instance of an IWICBitmapScaler.
 old-location: wic\_wic_codec_iwicimagingfactory_createbitmapscaler.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRectangle.GetRectangle
-title: IInkRectangle::GetRectangle
+title: IInkRectangle::GetRectangle (msinkaut.h)
 author: windows-sdk-content
 description: Gets the elements of the InkRectangle object in a single call.
 old-location: tablet\inkrectangle_getrectangle.htm

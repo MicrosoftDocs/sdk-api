@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPStorageGlobals.GetDevice
-title: IMDSPStorageGlobals::GetDevice
+title: IMDSPStorageGlobals::GetDevice (mswmdm.h)
 author: windows-sdk-content
 description: The GetDevice method retrieves a pointer to the device on which the storage medium with which this interface is associated is mounted.
 old-location: wmdm\imdspstorageglobals_getdevice.htm

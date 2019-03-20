@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IChangeConflict.GetSourceProviderConflictingChange
-title: IChangeConflict::GetSourceProviderConflictingChange
+title: IChangeConflict::GetSourceProviderConflictingChange (winsync.h)
 author: windows-sdk-content
 description: Gets the change metadata from the source provider.
 old-location: winsync\ichangeconflict_getsourceproviderconflictingchange.htm

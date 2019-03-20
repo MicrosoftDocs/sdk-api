@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.get_Domain
-title: ITsSbClientConnection::get_Domain
+title: ITsSbClientConnection::get_Domain (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves a value that indicates the domain name of the Remote Desktop Connection (RDC) client.
 old-location: termserv\itssbclientconnection_domain.htm

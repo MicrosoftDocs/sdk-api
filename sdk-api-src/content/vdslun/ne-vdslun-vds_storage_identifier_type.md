@@ -1,6 +1,6 @@
 ---
 UID: NE:vdslun._VDS_STORAGE_IDENTIFIER_TYPE
-title: VDS_STORAGE_IDENTIFIER_TYPE
+title: VDS_STORAGE_IDENTIFIER_TYPE (vdslun.h)
 author: windows-sdk-content
 description: Defines the set of valid types for a storage identifier.
 old-location: base\vds_storage_identifier_type.htm

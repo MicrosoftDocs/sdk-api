@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Layer.GetSize
-title: ID2D1Layer::GetSize
+title: ID2D1Layer::GetSize (d2d1.h)
 author: windows-sdk-content
 description: Gets the size of the layer in device-independent pixels.
 old-location: direct2d\ID2D1Layer_GetSize.htm

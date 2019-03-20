@@ -1,6 +1,6 @@
 ---
 UID: NE:bdaiface.SmartCardStatusType
-title: SmartCardStatusType
+title: SmartCardStatusType (bdaiface.h)
 author: windows-sdk-content
 description: The SmartCardStatusType enumeration type specifies the status of a smart card.
 old-location: mstv\smartcardstatustype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wmsdkidl.tagWMT_OFFSET_FORMAT
-title: WMT_OFFSET_FORMAT
+title: WMT_OFFSET_FORMAT (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMT_OFFSET_FORMAT enumeration type defines the types of offsets used in this SDK.
 old-location: wmformat\wmt_offset_format.htm

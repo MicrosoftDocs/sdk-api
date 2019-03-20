@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure3.GetStartRecConfig
-title: IStreamBufferConfigure3::GetStartRecConfig
+title: IStreamBufferConfigure3::GetStartRecConfig (sbe.h)
 author: windows-sdk-content
 description: The GetStartRecConfig method queries whether the IStreamBufferRecordControl::Start method automatically stops the current recording.
 old-location: mstv\istreambufferconfigure3_getstartrecconfig.htm

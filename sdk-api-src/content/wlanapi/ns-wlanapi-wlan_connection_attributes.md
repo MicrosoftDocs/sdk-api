@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanapi._WLAN_CONNECTION_ATTRIBUTES
-title: WLAN_CONNECTION_ATTRIBUTES
+title: WLAN_CONNECTION_ATTRIBUTES (wlanapi.h)
 author: windows-sdk-content
 description: Defines the attributes of a wireless connection.
 old-location: nwifi\wlan_connection_attributes.htm

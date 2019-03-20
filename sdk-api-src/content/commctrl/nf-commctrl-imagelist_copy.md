@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_Copy
-title: ImageList_Copy function
+title: ImageList_Copy function (commctrl.h)
 author: windows-sdk-content
 description: Copies images within a given image list.
 old-location: controls\ImageList_Copy.htm

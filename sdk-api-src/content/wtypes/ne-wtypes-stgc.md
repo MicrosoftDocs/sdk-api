@@ -1,6 +1,6 @@
 ---
 UID: NE:wtypes.tagSTGC
-title: STGC
+title: STGC (wtypes.h)
 author: windows-sdk-content
 description: Specify the conditions for performing the commit operation in the IStorage::Commit and IStream::Commit methods.
 old-location: stg\stgc.htm

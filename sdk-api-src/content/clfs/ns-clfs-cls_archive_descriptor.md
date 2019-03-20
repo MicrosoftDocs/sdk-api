@@ -1,6 +1,6 @@
 ---
 UID: NS:clfs._CLS_ARCHIVE_DESCRIPTOR
-title: CLS_ARCHIVE_DESCRIPTOR
+title: CLS_ARCHIVE_DESCRIPTOR (clfs.h)
 author: windows-sdk-content
 description: Used by the GetNextLogArchiveExtent function to return information about log archive extents.
 old-location: fs\clfs_archive_descriptor.htm

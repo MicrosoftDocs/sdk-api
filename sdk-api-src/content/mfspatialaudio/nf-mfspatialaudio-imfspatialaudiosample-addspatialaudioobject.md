@@ -1,6 +1,6 @@
 ---
 UID: NF:mfspatialaudio.IMFSpatialAudioSample.AddSpatialAudioObject
-title: IMFSpatialAudioSample::AddSpatialAudioObject
+title: IMFSpatialAudioSample::AddSpatialAudioObject (mfspatialaudio.h)
 author: windows-sdk-content
 description: Adds a new spatial audio object, represented by an IMFSpatialAudioObjectBuffer object, to the sample.
 old-location: mf\imfspatialaudiosample_addspatialaudioobject.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_Description
-title: IAMMediaContent::get_Description
+title: IAMMediaContent::get_Description (qnetwork.h)
 author: windows-sdk-content
 description: The get_Description method retrieves a description of the content.
 old-location: dshow\iammediacontent_get_description.htm

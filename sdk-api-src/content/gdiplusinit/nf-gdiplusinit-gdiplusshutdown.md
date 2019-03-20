@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusinit.GdiplusShutdown
-title: GdiplusShutdown function
+title: GdiplusShutdown function (gdiplusinit.h)
 author: windows-sdk-content
 description: The GdiplusShutdown function cleans up resources used by Windows GDI+. Each call to GdiplusStartup should be paired with a call to GdiplusShutdown.
 old-location: gdiplus\_gdiplus_FUNC_GdiplusShutdown_.htm

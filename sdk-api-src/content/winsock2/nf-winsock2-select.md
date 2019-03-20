@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.select
-title: select function
+title: select function (winsock2.h)
 author: windows-sdk-content
 description: The select function determines the status of one or more sockets, waiting if necessary, to perform synchronous I/O.
 old-location: winsock\select_2.htm

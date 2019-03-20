@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTopology.CloneFrom
-title: IMFTopology::CloneFrom
+title: IMFTopology::CloneFrom (mfidl.h)
 author: windows-sdk-content
 description: Converts this topology into a copy of another topology.
 old-location: mf\imftopology_clonefrom.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemServices.PutClass
-title: IWbemServices::PutClass
+title: IWbemServices::PutClass (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemServices::PutClass method creates a new class or updates an existing one. The class specified by the pObject parameter must have been correctly initialized with all of the required property values.
 old-location: wmi\iwbemservices_putclass.htm

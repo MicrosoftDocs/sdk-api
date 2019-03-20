@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFMediaEventQueue.BeginGetEvent
-title: IMFMediaEventQueue::BeginGetEvent
+title: IMFMediaEventQueue::BeginGetEvent (mfobjects.h)
 author: windows-sdk-content
 description: Begins an asynchronous request for the next event in the queue.Call this method inside your implementation of IMFMediaEventGenerator::BeginGetEvent. Pass the parameters from that method directly to this method.
 old-location: mf\imfmediaeventqueue_begingetevent.htm

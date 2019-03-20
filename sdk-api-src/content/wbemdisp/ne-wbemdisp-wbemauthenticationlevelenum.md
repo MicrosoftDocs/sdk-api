@@ -1,6 +1,6 @@
 ---
 UID: NE:wbemdisp.WbemAuthenticationLevelEnum
-title: WbemAuthenticationLevelEnum
+title: WbemAuthenticationLevelEnum (wbemdisp.h)
 author: windows-sdk-content
 description: Define the security authentication levels.
 old-location: wmi\wbemauthenticationlevelenum.htm

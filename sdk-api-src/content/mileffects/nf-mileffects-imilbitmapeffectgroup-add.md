@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectGroup.Add
-title: IMILBitmapEffectGroup::Add
+title: IMILBitmapEffectGroup::Add (mileffects.h)
 author: windows-sdk-content
 description: Adds an effect to the IMILBitmapEffectGroup.
 old-location: wibe\_wibe_imilbitmapeffectgroup_add.htm

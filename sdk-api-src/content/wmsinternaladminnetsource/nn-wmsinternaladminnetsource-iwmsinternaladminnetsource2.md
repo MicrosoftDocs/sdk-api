@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsinternaladminnetsource.IWMSInternalAdminNetSource2
-title: IWMSInternalAdminNetSource2
+title: IWMSInternalAdminNetSource2 (wmsinternaladminnetsource.h)
 author: windows-sdk-content
 description: The IWMSInternalAdminNetSource2 interface provides improved methods for password caching.
 old-location: wmformat\iwmsinternaladminnetsource2.htm

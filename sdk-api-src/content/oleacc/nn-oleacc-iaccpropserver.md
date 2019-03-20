@@ -1,6 +1,6 @@
 ---
 UID: NN:oleacc.IAccPropServer
-title: IAccPropServer
+title: IAccPropServer (oleacc.h)
 author: windows-sdk-content
 description: Exposes a method that retrieves a property value for an accessible element.
 old-location: winauto\iaccpropserver.htm

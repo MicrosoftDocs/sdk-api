@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsCreateMessage
-title: WsCreateMessage function
+title: WsCreateMessage function (webservices.h)
 author: windows-sdk-content
 description: Creates a message object with the specified properties.
 old-location: wsw\wscreatemessage.htm

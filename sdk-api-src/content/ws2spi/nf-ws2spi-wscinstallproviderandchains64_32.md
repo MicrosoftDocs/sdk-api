@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2spi.WSCInstallProviderAndChains64_32
-title: WSCInstallProviderAndChains64_32 function
+title: WSCInstallProviderAndChains64_32 function (ws2spi.h)
 author: windows-sdk-content
 description: Installs the specified transport provider and its specific protocol chains into both the 32-bit and 64-bit Winsock 2 system configuration databases on a 64-bit computer.
 old-location: winsock\wscinstallproviderandchains64_32.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.DeleteAtom
-title: DeleteAtom function
+title: DeleteAtom function (winbase.h)
 author: windows-sdk-content
 description: Decrements the reference count of a local string atom. If the atom's reference count is reduced to zero, DeleteAtom removes the string associated with the atom from the local atom table.
 old-location: dataxchg\deleteatom.htm

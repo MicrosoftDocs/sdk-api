@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IBurnVerification.put_BurnVerificationLevel
-title: IBurnVerification::put_BurnVerificationLevel
+title: IBurnVerification::put_BurnVerificationLevel (imapi2.h)
 author: windows-sdk-content
 description: Sets the Burn Verification Level.
 old-location: imapi\iburnverification_put_burnverificationlevel.htm

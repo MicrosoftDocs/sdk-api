@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiGetFeatureInfoA
-title: MsiGetFeatureInfoA function
+title: MsiGetFeatureInfoA function (msi.h)
 author: windows-sdk-content
 description: Returns descriptive information for a feature.
 old-location: setup\msigetfeatureinfo.htm

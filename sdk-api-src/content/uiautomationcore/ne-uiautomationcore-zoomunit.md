@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.ZoomUnit
-title: ZoomUnit
+title: ZoomUnit (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains possible values for the IUIAutomationTransformPattern2::ZoomByUnit method, which zooms the viewport of a control by the specified unit.
 old-location: winauto\uiauto_zoomunit.htm

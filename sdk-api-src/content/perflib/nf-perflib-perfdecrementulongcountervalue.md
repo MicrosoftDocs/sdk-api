@@ -1,6 +1,6 @@
 ---
 UID: NF:perflib.PerfDecrementULongCounterValue
-title: PerfDecrementULongCounterValue function
+title: PerfDecrementULongCounterValue function (perflib.h)
 author: windows-sdk-content
 description: Decrements the value of a counter whose value is a 4-byte unsigned integer. Providers use this function.
 old-location: perf\perfdecrementulongcountervalue.htm

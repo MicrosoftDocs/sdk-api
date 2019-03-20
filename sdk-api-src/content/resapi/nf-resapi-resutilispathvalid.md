@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilIsPathValid
-title: ResUtilIsPathValid function
+title: ResUtilIsPathValid function (resapi.h)
 author: windows-sdk-content
 description: Checks whether a path is syntactically valid.
 old-location: mscs\resutilispathvalid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._SECURITY_CAPABILITIES
-title: SECURITY_CAPABILITIES
+title: SECURITY_CAPABILITIES (winnt.h)
 author: windows-sdk-content
 description: Defines the security capabilities of the app container.
 old-location: security\security_capabilities.htm

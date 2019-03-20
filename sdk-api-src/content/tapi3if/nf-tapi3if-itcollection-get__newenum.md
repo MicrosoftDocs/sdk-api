@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCollection.get__NewEnum
-title: ITCollection::get__NewEnum
+title: ITCollection::get__NewEnum (tapi3if.h)
 author: windows-sdk-content
 description: The get__NewEnum method gets an enumerator for the collection.
 old-location: tapi3\itcollection_get__newenum.htm

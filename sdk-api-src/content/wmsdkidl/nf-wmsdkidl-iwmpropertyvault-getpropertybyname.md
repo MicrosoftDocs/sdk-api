@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMPropertyVault.GetPropertyByName
-title: IWMPropertyVault::GetPropertyByName
+title: IWMPropertyVault::GetPropertyByName (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetPropertyByName method retrieves a property from the vault by its name.
 old-location: wmformat\iwmpropertyvault_getpropertybyname.htm

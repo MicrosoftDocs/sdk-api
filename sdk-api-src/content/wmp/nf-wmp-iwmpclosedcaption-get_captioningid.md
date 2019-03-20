@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPClosedCaption.get_captioningId
-title: IWMPClosedCaption::get_captioningId
+title: IWMPClosedCaption::get_captioningId (wmp.h)
 author: windows-sdk-content
 description: The get_captioningId method retrieves the name of the element displaying the captioning.
 old-location: wmp\iwmpclosedcaption_get_captioningid.htm

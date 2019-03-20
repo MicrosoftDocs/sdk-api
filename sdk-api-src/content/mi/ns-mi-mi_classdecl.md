@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_ClassDecl
-title: MI_ClassDecl
+title: MI_ClassDecl (mi.h)
 author: windows-sdk-content
 description: This structure outlines the class declaration. It contains class name and hierarchy, properties, qualifiers, and methods.
 old-location: wmi_v2\mi_classdecl.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:vdshwprv._VDS_CONTROLLER_NOTIFICATION
-title: VDS_CONTROLLER_NOTIFICATION
+title: VDS_CONTROLLER_NOTIFICATION (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the details of controller events.
 old-location: base\vds_controller_notification.htm

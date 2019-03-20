@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingConfiguration.get_InternetFirewallEnabled
-title: INetSharingConfiguration::get_InternetFirewallEnabled
+title: INetSharingConfiguration::get_InternetFirewallEnabled (netcon.h)
 author: windows-sdk-content
 description: The get_InternetFirewallEnabled method determines whether Internet Connection Firewall is enabled on this connection.
 old-location: ics\inetsharingconfiguration_get_internetfirewallenabled.htm

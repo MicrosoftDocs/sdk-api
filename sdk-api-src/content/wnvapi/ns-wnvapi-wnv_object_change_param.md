@@ -1,6 +1,6 @@
 ---
 UID: NS:wnvapi._WNV_OBJECT_CHANGE_PARAM
-title: WNV_OBJECT_CHANGE_PARAM
+title: WNV_OBJECT_CHANGE_PARAM (wnvapi.h)
 author: windows-sdk-content
 description: Specifies the parameters of an event that causes the Windows Network Virtualization (WNV) driver to generate a WnvObjectChangeType type of notification.
 old-location: wnv\wnv_object_change_param.htm

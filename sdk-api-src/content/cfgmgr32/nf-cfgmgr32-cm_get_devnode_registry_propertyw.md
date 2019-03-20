@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_DevNode_Registry_PropertyW
-title: CM_Get_DevNode_Registry_PropertyW function
+title: CM_Get_DevNode_Registry_PropertyW function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Get_DevNode_Registry_Property function retrieves a specified device property from the registry.
 old-location: devinst\cm_get_devnode_registry_property.htm

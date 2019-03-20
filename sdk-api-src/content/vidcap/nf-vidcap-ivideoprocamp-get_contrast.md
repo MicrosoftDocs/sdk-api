@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_Contrast
-title: IVideoProcAmp::get_Contrast
+title: IVideoProcAmp::get_Contrast (vidcap.h)
 author: windows-sdk-content
 description: The get_Contrast method returns the camera's contrast setting.
 old-location: dshow\ivideoprocamp_get_contrast.htm

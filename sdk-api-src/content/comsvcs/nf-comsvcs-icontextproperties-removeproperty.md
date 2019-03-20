@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IContextProperties.RemoveProperty
-title: IContextProperties::RemoveProperty
+title: IContextProperties::RemoveProperty (comsvcs.h)
 author: windows-sdk-content
 description: Removes a context object property.
 old-location: cos\icontextproperties_removeproperty.htm

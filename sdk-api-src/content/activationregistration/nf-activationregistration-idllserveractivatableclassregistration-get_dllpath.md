@@ -1,6 +1,6 @@
 ---
 UID: NF:activationregistration.IDllServerActivatableClassRegistration.get_DllPath
-title: IDllServerActivatableClassRegistration::get_DllPath
+title: IDllServerActivatableClassRegistration::get_DllPath (activationregistration.h)
 author: windows-sdk-content
 description: Gets the fully qualified path to the in-process server.
 old-location: winrt\idllserveractivatableclassregistration_dllpath.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.OnIdentify
-title: CVssWriter::OnIdentify
+title: CVssWriter::OnIdentify (vswriter.h)
 author: windows-sdk-content
 description: The OnIdentify method is called by a writer following receipt of an Identify event.
 old-location: base\cvsswriter_onidentify.htm

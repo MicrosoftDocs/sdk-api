@@ -1,6 +1,6 @@
 ---
 UID: NE:resapi.LOG_LEVEL
-title: LOG_LEVEL
+title: LOG_LEVEL (resapi.h)
 author: windows-sdk-content
 description: Represents the severity of the log event passed to the LogEvent callback function.
 old-location: mscs\log_level.htm

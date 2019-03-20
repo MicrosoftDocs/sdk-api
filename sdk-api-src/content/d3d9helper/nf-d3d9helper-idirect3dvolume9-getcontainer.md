@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DVolume9.GetContainer
-title: IDirect3DVolume9::GetContainer
+title: IDirect3DVolume9::GetContainer (d3d9helper.h)
 author: windows-sdk-content
 description: Provides access to the parent volume texture object, if this surface is a child level of a volume texture.
 old-location: direct3d9\idirect3dvolume9__getcontainer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents2.EndFieldUpdates
-title: ICredentialProviderCredentialEvents2::EndFieldUpdates
+title: ICredentialProviderCredentialEvents2::EndFieldUpdates (credentialprovider.h)
 author: windows-sdk-content
 description: Finishes and commits the batch updates started by BeginFieldUpdates.
 old-location: shell\ICredentialProviderCredentialEvents2_EndFieldUpdates.htm

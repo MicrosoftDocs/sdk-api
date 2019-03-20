@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi.IDXGIDeviceSubObject
-title: IDXGIDeviceSubObject
+title: IDXGIDeviceSubObject (dxgi.h)
 author: windows-sdk-content
 description: Inherited from objects that are tied to the device so that they can retrieve a pointer to it.
 old-location: direct3ddxgi\idxgidevicesubobject.htm

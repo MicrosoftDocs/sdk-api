@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.SetLineSpacing
-title: ITextPara::SetLineSpacing
+title: ITextPara::SetLineSpacing (tom.h)
 author: windows-sdk-content
 description: Sets the paragraph line-spacing rule and the line spacing for a paragraph.
 old-location: controls\ITextPara_SetLineSpacing.htm

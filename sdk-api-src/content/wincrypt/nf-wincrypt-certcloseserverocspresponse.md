@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertCloseServerOcspResponse
-title: CertCloseServerOcspResponse function
+title: CertCloseServerOcspResponse function (wincrypt.h)
 author: windows-sdk-content
 description: Closes an online certificate status protocol (OCSP) server response handle.
 old-location: security\certcloseserverocspresponse.htm

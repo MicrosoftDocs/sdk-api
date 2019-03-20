@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dcommon._D3D_SHADER_VARIABLE_TYPE
-title: D3D_SHADER_VARIABLE_TYPE
+title: D3D_SHADER_VARIABLE_TYPE (d3dcommon.h)
 author: windows-sdk-content
 description: Values that identify various data, texture, and buffer types that can be assigned to a shader variable.
 old-location: direct3d11\d3d_shader_variable_type.htm

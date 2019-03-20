@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_AutoDemodulate.put_AutoDemodulate
-title: IBDA_AutoDemodulate::put_AutoDemodulate
+title: IBDA_AutoDemodulate::put_AutoDemodulate (bdaiface.h)
 author: windows-sdk-content
 description: The put_AutoDemodulate method instructs the BDA device filter to automatically detect signal characteristics.
 old-location: mstv\ibda_autodemodulate_put_autodemodulate.htm

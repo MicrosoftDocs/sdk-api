@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11_1.D3D11_VIDEO_DECODER_BUFFER_DESC1
-title: D3D11_VIDEO_DECODER_BUFFER_DESC1
+title: D3D11_VIDEO_DECODER_BUFFER_DESC1 (d3d11_1.h)
 author: windows-sdk-content
 description: Describes a compressed buffer for decoding.
 old-location: mf\d3d11_video_decoder_buffer_desc1.htm

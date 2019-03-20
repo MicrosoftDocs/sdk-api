@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DSwapChain9.GetFrontBufferData
-title: IDirect3DSwapChain9::GetFrontBufferData
+title: IDirect3DSwapChain9::GetFrontBufferData (d3d9.h)
 author: windows-sdk-content
 description: Generates a copy of the swapchain's front buffer and places that copy in a system memory buffer provided by the application.
 old-location: direct3d9\idirect3dswapchain9__getfrontbufferdata.htm

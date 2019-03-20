@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.put_AllowOutboundSourceQuench
-title: INetFwIcmpSettings::put_AllowOutboundSourceQuench
+title: INetFwIcmpSettings::put_AllowOutboundSourceQuench (netfw.h)
 author: windows-sdk-content
 description: Indicates whether outbound source quench is allowed.
 old-location: ics\inetfwicmpsettings_allowoutboundsourcequench.htm

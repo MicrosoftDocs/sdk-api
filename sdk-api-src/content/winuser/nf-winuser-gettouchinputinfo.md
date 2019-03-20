@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetTouchInputInfo
-title: GetTouchInputInfo function
+title: GetTouchInputInfo function (winuser.h)
 author: windows-sdk-content
 description: Retrieves detailed information about touch inputs associated with a particular touch input handle.
 old-location: wintouch\gettouchinputinfo.htm

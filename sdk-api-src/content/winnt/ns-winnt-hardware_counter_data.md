@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._HARDWARE_COUNTER_DATA
-title: HARDWARE_COUNTER_DATA
+title: HARDWARE_COUNTER_DATA (winnt.h)
 author: windows-sdk-content
 description: Contains the hardware counter value.
 old-location: hcp\hardware_counter_data.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectFactory.CreateContext
-title: IMILBitmapEffectFactory::CreateContext
+title: IMILBitmapEffectFactory::CreateContext (mileffects.h)
 author: windows-sdk-content
 description: Creates an IMILBitmapEffectRenderContext object.
 old-location: wibe\_wibe_imilbitmapeffectfactory_createcontext.htm

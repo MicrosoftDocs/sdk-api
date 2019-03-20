@@ -1,6 +1,6 @@
 ---
 UID: NS:nspapi._PROTOCOL_INFOW
-title: PROTOCOL_INFOW
+title: PROTOCOL_INFOW (nspapi.h)
 author: windows-sdk-content
 description: Contains information about a protocol.
 old-location: winsock\protocol_info_2.htm

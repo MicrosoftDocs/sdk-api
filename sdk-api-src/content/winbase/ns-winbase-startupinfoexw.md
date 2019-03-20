@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._STARTUPINFOEXW
-title: STARTUPINFOEXW
+title: STARTUPINFOEXW (winbase.h)
 author: windows-sdk-content
 description: Specifies the window station, desktop, standard handles, and attributes for a new process. It is used with the CreateProcess and CreateProcessAsUser functions.
 old-location: base\startupinfoex.htm

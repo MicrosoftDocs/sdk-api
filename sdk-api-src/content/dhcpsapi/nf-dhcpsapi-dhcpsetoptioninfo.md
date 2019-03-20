@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpSetOptionInfo
-title: DhcpSetOptionInfo function
+title: DhcpSetOptionInfo function (dhcpsapi.h)
 author: windows-sdk-content
 description: Modifies the option definition of the specified option for the default user class and vendor class at the default option level.
 old-location: dhcp\dhcpsetoptioninfo.htm

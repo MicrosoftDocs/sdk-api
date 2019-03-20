@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IConsoleVerb.SetDefaultVerb
-title: IConsoleVerb::SetDefaultVerb
+title: IConsoleVerb::SetDefaultVerb (mmc.h)
 author: windows-sdk-content
 description: The SetDefaultVerb method sets the default action on an object.
 old-location: mmc\iconsoleverb_setdefaultverb.htm

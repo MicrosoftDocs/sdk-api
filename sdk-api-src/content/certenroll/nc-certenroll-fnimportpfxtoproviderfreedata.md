@@ -1,6 +1,6 @@
 ---
 UID: NC:certenroll.FNIMPORTPFXTOPROVIDERFREEDATA
-title: ImportPFXToProviderFreeData
+title: ImportPFXToProviderFreeData (certenroll.h)
 author: windows-sdk-content
 description: Frees PFX certificate context(s).
 old-location: security\fnimportpfxtoproviderfreedata.htm

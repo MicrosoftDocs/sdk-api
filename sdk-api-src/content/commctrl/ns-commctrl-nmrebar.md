@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMREBAR
-title: NMREBAR
+title: NMREBAR (commctrl.h)
 author: windows-sdk-content
 description: Contains information used in handling various rebar notifications.
 old-location: controls\NMREBAR.htm

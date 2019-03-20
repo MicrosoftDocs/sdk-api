@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_Send
-title: IFaxStatus::get_Send
+title: IFaxStatus::get_Send (faxcom.h)
 author: windows-sdk-content
 description: Retrieves the Send property for the FaxStatus object of a parent FaxPort object. The Send property is a Boolean value that indicates whether a specified fax port is currently sending a fax.
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_send_cpp.htm

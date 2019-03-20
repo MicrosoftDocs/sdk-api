@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IBackgroundCopyFile3.GetTemporaryName
-title: IBackgroundCopyFile3::GetTemporaryName
+title: IBackgroundCopyFile3::GetTemporaryName (bits3_0.h)
 author: windows-sdk-content
 description: Gets the full path of the temporary file that contains the content of the download.
 old-location: bits\ibackgroundcopyfile3_gettemporaryname.htm

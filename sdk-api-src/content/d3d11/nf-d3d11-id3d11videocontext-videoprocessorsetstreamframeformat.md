@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamFrameFormat
-title: ID3D11VideoContext::VideoProcessorSetStreamFrameFormat
+title: ID3D11VideoContext::VideoProcessorSetStreamFrameFormat (d3d11.h)
 author: windows-sdk-content
 description: Specifies whether an input stream on the video processor contains interlaced or progressive frames.
 old-location: mf\id3d11videocontext_videoprocessorsetstreamframeformat.htm

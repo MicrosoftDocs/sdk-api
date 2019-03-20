@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCustomStrokes.Item
-title: IInkCustomStrokes::Item
+title: IInkCustomStrokes::Item (msinkaut.h)
 author: windows-sdk-content
 description: Retrieves the InkStrokes Collection at the location specified within the IInkCustomStrokes Interface.
 old-location: tablet\iinkcustomstrokes_item.htm

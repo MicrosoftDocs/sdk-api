@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.RtwqPutWaitingWorkItem
-title: RtwqPutWaitingWorkItem function
+title: RtwqPutWaitingWorkItem function (rtworkq.h)
 author: windows-sdk-content
 description: Queues a work item that waits for an event to be signaled.
 old-location: base\rtwqputwaitingworkitem.htm

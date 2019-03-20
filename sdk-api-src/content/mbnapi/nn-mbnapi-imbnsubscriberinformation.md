@@ -1,6 +1,6 @@
 ---
 UID: NN:mbnapi.IMbnSubscriberInformation
-title: IMbnSubscriberInformation
+title: IMbnSubscriberInformation (mbnapi.h)
 author: windows-sdk-content
 description: Provides access to subscriber information.
 old-location: mbn\imbnsubscriberinformation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterGroupSetEnum
-title: ClusterGroupSetEnum function
+title: ClusterGroupSetEnum function (clusapi.h)
 author: windows-sdk-content
 description: Returns the next enumerable object.
 old-location: mscs\clustergroupcollectionenum.htm

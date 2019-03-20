@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.midiStreamClose
-title: midiStreamClose function
+title: midiStreamClose function (mmeapi.h)
 author: windows-sdk-content
 description: The midiStreamClose function closes an open MIDI stream.
 old-location: multimedia\midistreamclose.htm

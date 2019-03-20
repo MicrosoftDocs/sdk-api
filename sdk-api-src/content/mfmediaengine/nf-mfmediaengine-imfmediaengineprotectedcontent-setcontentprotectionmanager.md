@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineProtectedContent.SetContentProtectionManager
-title: IMFMediaEngineProtectedContent::SetContentProtectionManager
+title: IMFMediaEngineProtectedContent::SetContentProtectionManager (mfmediaengine.h)
 author: windows-sdk-content
 description: Sets the content protection manager (CPM).
 old-location: mf\imfmediaengineprotectedcontent_setcontentprotectionmanager.htm

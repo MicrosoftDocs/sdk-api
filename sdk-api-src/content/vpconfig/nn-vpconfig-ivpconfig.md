@@ -1,6 +1,6 @@
 ---
 UID: NN:vpconfig.IVPConfig
-title: IVPConfig
+title: IVPConfig (vpconfig.h)
 author: windows-sdk-content
 description: The IVPConfig interface must be implemented by any filter that wraps a hardware decoder with a video port.
 old-location: dshow\ivpconfig.htm

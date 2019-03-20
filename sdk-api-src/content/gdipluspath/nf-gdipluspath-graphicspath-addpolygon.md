@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddPolygon
-title: GraphicsPath::AddPolygon
+title: GraphicsPath::AddPolygon (gdipluspath.h)
 author: windows-sdk-content
 description: This topic lists the AddPolygon methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddPolygon_Methods.htm

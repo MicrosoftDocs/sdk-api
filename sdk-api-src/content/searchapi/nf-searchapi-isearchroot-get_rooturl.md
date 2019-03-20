@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_RootURL
-title: ISearchRoot::get_RootURL
+title: ISearchRoot::get_RootURL (searchapi.h)
 author: windows-sdk-content
 description: Gets the URL of the starting point for this search root.
 old-location: search\_search_ISearchRoot_get_RootURL.htm

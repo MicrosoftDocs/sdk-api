@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.ClearRetrievalFilter
-title: IDXGIInfoQueue::ClearRetrievalFilter
+title: IDXGIInfoQueue::ClearRetrievalFilter (dxgidebug.h)
 author: windows-sdk-content
 description: Removes a retrieval filter from the top of the retrieval-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_clearretrievalfilter.htm

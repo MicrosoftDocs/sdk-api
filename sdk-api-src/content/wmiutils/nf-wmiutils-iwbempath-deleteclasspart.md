@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.DeleteClassPart
-title: IWbemPath::DeleteClassPart
+title: IWbemPath::DeleteClassPart (wmiutils.h)
 author: windows-sdk-content
 description: The IWbemPath::DeleteClassPart method deletes the class portion of the path.
 old-location: wmi\iwbempath_deleteclasspart.htm

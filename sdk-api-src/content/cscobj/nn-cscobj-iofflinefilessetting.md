@@ -1,6 +1,6 @@
 ---
 UID: NN:cscobj.IOfflineFilesSetting
-title: IOfflineFilesSetting
+title: IOfflineFilesSetting (cscobj.h)
 author: windows-sdk-content
 description: Represents a setting that controls the behavior the Offline Files service.
 old-location: of\iofflinefilessetting.htm

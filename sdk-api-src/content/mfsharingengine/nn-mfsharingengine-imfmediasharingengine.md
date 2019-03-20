@@ -1,6 +1,6 @@
 ---
 UID: NN:mfsharingengine.IMFMediaSharingEngine
-title: IMFMediaSharingEngine
+title: IMFMediaSharingEngine (mfsharingengine.h)
 author: windows-sdk-content
 description: Enables media sharing.
 old-location: mf\imfmediasharingengine.htm

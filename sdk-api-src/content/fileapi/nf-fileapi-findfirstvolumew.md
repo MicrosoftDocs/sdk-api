@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.FindFirstVolumeW
-title: FindFirstVolumeW function
+title: FindFirstVolumeW function (fileapi.h)
 author: windows-sdk-content
 description: Retrieves the name of a volume on a computer.
 old-location: fs\findfirstvolume.htm

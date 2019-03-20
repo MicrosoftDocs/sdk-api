@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.CreateTrigger
-title: IScheduledWorkItem::CreateTrigger
+title: IScheduledWorkItem::CreateTrigger (mstask.h)
 author: windows-sdk-content
 description: Creates a trigger for the work item.
 old-location: taskschd\ischeduledworkitem_createtrigger.htm

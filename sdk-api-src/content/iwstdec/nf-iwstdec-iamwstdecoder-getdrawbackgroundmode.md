@@ -1,6 +1,6 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.GetDrawBackgroundMode
-title: IAMWstDecoder::GetDrawBackgroundMode
+title: IAMWstDecoder::GetDrawBackgroundMode (iwstdec.h)
 author: windows-sdk-content
 description: Downstream filters use the GetDrawBackgroundMode method to determine whether the caption text background is opaque or transparent.
 old-location: dshow\iamwstdecoder_getdrawbackgroundmode.htm

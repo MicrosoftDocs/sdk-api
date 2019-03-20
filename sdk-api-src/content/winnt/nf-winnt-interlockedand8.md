@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.InterlockedAnd8
-title: InterlockedAnd8 function
+title: InterlockedAnd8 function (winnt.h)
 author: windows-sdk-content
 description: Performs an atomic AND operation on the specified char values.
 old-location: base\interlockedand8.htm

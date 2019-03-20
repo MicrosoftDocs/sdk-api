@@ -1,6 +1,6 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_DEVICE_SEARCH_PARAMS
-title: BLUETOOTH_DEVICE_SEARCH_PARAMS
+title: BLUETOOTH_DEVICE_SEARCH_PARAMS (bluetoothapis.h)
 author: windows-sdk-content
 description: Specifies search criteria for Bluetooth device searches.
 old-location: bluetooth\bluetooth_device_search_params.htm

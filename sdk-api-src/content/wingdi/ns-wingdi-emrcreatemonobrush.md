@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRCREATEMONOBRUSH
-title: EMRCREATEMONOBRUSH
+title: EMRCREATEMONOBRUSH (wingdi.h)
 author: windows-sdk-content
 description: The EMRCREATEMONOBRUSH structure contains members for the CreatePatternBrush (when passed a monochrome bitmap) or CreateDIBPatternBrush (when passed a monochrome DIB) enhanced metafile records.
 old-location: gdi\emrcreatemonobrush.htm

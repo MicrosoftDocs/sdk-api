@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10_1shader.ID3D10ShaderReflection1.GetMovInstructionCount
-title: ID3D10ShaderReflection1::GetMovInstructionCount
+title: ID3D10ShaderReflection1::GetMovInstructionCount (d3d10_1shader.h)
 author: windows-sdk-content
 description: Gets the number of Mov instructions.
 old-location: direct3d10\id3d10shaderreflection1_getmovinstructioncount.htm

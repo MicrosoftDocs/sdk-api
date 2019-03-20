@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_KEY_VALUE
-title: CRYPT_XML_KEY_VALUE
+title: CRYPT_XML_KEY_VALUE (cryptxml.h)
 author: windows-sdk-content
 description: Contains a single public key that may be useful in validating the signature.
 old-location: security\crypt_xml_key_value.htm

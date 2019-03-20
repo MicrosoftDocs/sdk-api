@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcRevertContainerImpersonation
-title: RpcRevertContainerImpersonation function
+title: RpcRevertContainerImpersonation function (rpcdce.h)
 author: windows-sdk-content
 description: RpcRevertContainerImpersonation may be altered or unavailable.
 old-location: rpc\rpcrevertcontainerimpersonation.htm

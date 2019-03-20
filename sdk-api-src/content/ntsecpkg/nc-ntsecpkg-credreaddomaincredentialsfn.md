@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.CredReadDomainCredentialsFn
-title: CredReadDomainCredentialsFn
+title: CredReadDomainCredentialsFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Reads a domain credential from the Credential Manager.
 old-location: security\credireaddomaincredentials.htm

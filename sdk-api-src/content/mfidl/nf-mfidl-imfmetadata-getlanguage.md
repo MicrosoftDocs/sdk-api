@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMetadata.GetLanguage
-title: IMFMetadata::GetLanguage
+title: IMFMetadata::GetLanguage (mfidl.h)
 author: windows-sdk-content
 description: Gets the current language setting.
 old-location: mf\imfmetadata_getlanguage.htm

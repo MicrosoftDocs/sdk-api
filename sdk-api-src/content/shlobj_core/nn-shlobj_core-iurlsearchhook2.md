@@ -1,6 +1,6 @@
 ---
 UID: NN:shlobj_core.IURLSearchHook2
-title: IURLSearchHook2
+title: IURLSearchHook2 (shlobj_core.h)
 author: windows-sdk-content
 description: Exposes a method that is used by the browser to translate the address of an unknown URL protocol by using a search context object.
 old-location: shell\IURLSearchHook2.htm

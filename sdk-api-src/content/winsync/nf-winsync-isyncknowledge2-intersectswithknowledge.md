@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.IntersectsWithKnowledge
-title: ISyncKnowledge2::IntersectsWithKnowledge
+title: ISyncKnowledge2::IntersectsWithKnowledge (winsync.h)
 author: windows-sdk-content
 description: Indicates whether the specified knowledge intersects with this knowledge.
 old-location: winsync\isyncknowledge2_intersectswithknowledge.htm

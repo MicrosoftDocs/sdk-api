@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantToBuffer
-title: VariantToBuffer function
+title: VariantToBuffer function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts the contents of a buffer stored in a VARIANT structure of type VT_ARRRAY | VT_UI1.
 old-location: properties\VariantToBuffer.htm

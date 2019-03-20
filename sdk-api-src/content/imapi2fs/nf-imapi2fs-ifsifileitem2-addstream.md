@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem2.AddStream
-title: IFsiFileItem2::AddStream
+title: IFsiFileItem2::AddStream (imapi2fs.h)
 author: windows-sdk-content
 description: Associates a named stream with a specific file in the file system image.
 old-location: imapi\ifsifileitem2_addstream.htm

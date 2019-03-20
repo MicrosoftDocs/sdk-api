@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnPin.Disable
-title: IMbnPin::Disable
+title: IMbnPin::Disable (mbnapi.h)
 author: windows-sdk-content
 description: Disables a PIN.
 old-location: mbn\imbnpin_disable.htm

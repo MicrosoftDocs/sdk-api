@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetOutputConstriction
-title: ID3D11VideoContext::VideoProcessorSetOutputConstriction
+title: ID3D11VideoContext::VideoProcessorSetOutputConstriction (d3d11.h)
 author: windows-sdk-content
 description: Sets the amount of downsampling to perform on the output.
 old-location: mf\id3d11videocontext_videoprocessorsetoutputconstriction.htm

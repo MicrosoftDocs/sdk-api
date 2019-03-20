@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CachedIsModal
-title: IUIAutomationWindowPattern::get_CachedIsModal
+title: IUIAutomationWindowPattern::get_CachedIsModal (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached value that indicates whether the window is modal.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CachedIsModal.htm

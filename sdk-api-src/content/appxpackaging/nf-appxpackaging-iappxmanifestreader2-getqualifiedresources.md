@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader2.GetQualifiedResources
-title: IAppxManifestReader2::GetQualifiedResources
+title: IAppxManifestReader2::GetQualifiedResources (appxpackaging.h)
 author: windows-sdk-content
 description: Gets an enumerator that iterates through the qualified resources that are defined in the manifest.
 old-location: appxpkg\iappxmanifestreader2_getqualifiedresources.htm

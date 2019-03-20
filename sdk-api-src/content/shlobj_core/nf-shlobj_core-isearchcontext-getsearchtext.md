@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.ISearchContext.GetSearchText
-title: ISearchContext::GetSearchText
+title: ISearchContext::GetSearchText (shlobj_core.h)
 author: windows-sdk-content
 description: Retrieves the text that is in the browser's Address bar.
 old-location: shell\ISearchContext_GetSearchText.htm

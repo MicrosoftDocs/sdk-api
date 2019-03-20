@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IStringCollection.get_Count
-title: IStringCollection::get_Count
+title: IStringCollection::get_Count (wuapi.h)
 author: windows-sdk-content
 description: Gets the number of elements in the collection.
 old-location: wua\istringcollection_count.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetGamertag
-title: IXblIdpAuthTokenResult::GetGamertag
+title: IXblIdpAuthTokenResult::GetGamertag (xblidpauthmanager.h)
 author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getgamertag.htm

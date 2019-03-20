@@ -1,6 +1,6 @@
 ---
 UID: NF:wmpservices.IWMPPlugin.Init
-title: IWMPPlugin::Init
+title: IWMPPlugin::Init (wmpservices.h)
 author: windows-sdk-content
 description: The IWMPPlugin::Init method is called when Windows Media Player initializes the plug-in.
 old-location: wmp\iwmpplugin_init.htm

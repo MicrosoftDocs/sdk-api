@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_GetCustomOptionAt
-title: MI_Context_GetCustomOptionAt function
+title: MI_Context_GetCustomOptionAt function (mi.h)
 author: windows-sdk-content
 description: Retrieves an option at a particular index that was set by the client.
 old-location: wmi_v2\mi_context_getcustomoptionat.htm

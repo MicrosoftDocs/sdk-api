@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_get_next_page
-title: ldap_get_next_page function
+title: ldap_get_next_page function (winldap.h)
 author: windows-sdk-content
 description: Returns the next page in a sequence of asynchronous paged search results.
 old-location: ldap\ldap_get_next_page.htm

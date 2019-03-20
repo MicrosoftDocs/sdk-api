@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_ACTIVATE_FN
-title: PIBIO_STORAGE_ACTIVATE_FN
+title: PIBIO_STORAGE_ACTIVATE_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Gives the Storage Adapter the chance to perform any work needed to bring the storage component out of an idle state.
 old-location: secbiomet\storageadapteractivate.htm

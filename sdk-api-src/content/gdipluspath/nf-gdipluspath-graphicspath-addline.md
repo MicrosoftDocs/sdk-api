@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddLine
-title: GraphicsPath::AddLine
+title: GraphicsPath::AddLine (gdipluspath.h)
 author: windows-sdk-content
 description: This topic lists the AddLine methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddLine_Methods.htm

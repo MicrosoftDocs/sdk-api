@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhUpdateLogA
-title: PdhUpdateLogA function
+title: PdhUpdateLogA function (pdh.h)
 author: windows-sdk-content
 description: Collects counter data for the current query and writes the data to the log file.
 old-location: perf\pdhupdatelog.htm

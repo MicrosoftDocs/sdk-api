@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.ISBE2MediaTypeProfile.GetStream
-title: ISBE2MediaTypeProfile::GetStream
+title: ISBE2MediaTypeProfile::GetStream (sbe.h)
 author: windows-sdk-content
 description: Gets the media type of a stream that appears at a specific index in a media type profile.
 old-location: mstv\isbe2mediatypeprofile_getstream.htm

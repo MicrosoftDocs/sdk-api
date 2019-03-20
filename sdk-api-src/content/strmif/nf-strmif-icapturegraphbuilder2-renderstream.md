@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder2.RenderStream
-title: ICaptureGraphBuilder2::RenderStream
+title: ICaptureGraphBuilder2::RenderStream (strmif.h)
 author: windows-sdk-content
 description: The RenderStream method connects an output pin on a source filter to a sink filter, optionally through an intermediate filter.
 old-location: dshow\icapturegraphbuilder2_renderstream.htm

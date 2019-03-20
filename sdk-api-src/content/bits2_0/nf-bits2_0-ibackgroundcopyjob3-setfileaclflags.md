@@ -1,6 +1,6 @@
 ---
 UID: NF:bits2_0.IBackgroundCopyJob3.SetFileACLFlags
-title: IBackgroundCopyJob3::SetFileACLFlags
+title: IBackgroundCopyJob3::SetFileACLFlags (bits2_0.h)
 author: windows-sdk-content
 description: Specifies the owner and ACL information to maintain when using SMB to download or upload a file.
 old-location: bits\ibackgroundcopyjob3_setfileaclflags.htm

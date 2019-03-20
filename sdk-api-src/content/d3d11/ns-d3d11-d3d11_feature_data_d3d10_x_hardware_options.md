@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS
-title: D3D11_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS
+title: D3D11_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS (d3d11.h)
 author: windows-sdk-content
 description: Describes compute shader and raw and structured buffer support in the current graphics driver.
 old-location: direct3d11\d3d11_feature_data_d3d10_x_hardware_options.htm

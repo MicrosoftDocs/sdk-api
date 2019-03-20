@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGroupIssueCredentials
-title: PeerGroupIssueCredentials function
+title: PeerGroupIssueCredentials function (p2p.h)
 author: windows-sdk-content
 description: The PeerGroupIssueCredentials function issues credentials, including a GMC, to a specific identity, and optionally returns an invitation XML string the invited peer can use to join a peer group.
 old-location: p2p\peergroupissuecredentials.htm

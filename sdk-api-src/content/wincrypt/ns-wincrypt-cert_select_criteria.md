@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_SELECT_CRITERIA
-title: CERT_SELECT_CRITERIA
+title: CERT_SELECT_CRITERIA (wincrypt.h)
 author: windows-sdk-content
 description: Specifies selection criteria that is passed to the CertSelectCertificateChains function.
 old-location: security\cert_select_criteria.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderFragmentRoot.GetFocus
-title: IRawElementProviderFragmentRoot::GetFocus
+title: IRawElementProviderFragmentRoot::GetFocus (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves the element in this fragment that has the input focus.
 old-location: winauto\uiauto_IRawElementProviderFragmentRoot_GetFocus.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.GetMaximumFrameLatency
-title: IDirect3DDevice9Ex::GetMaximumFrameLatency
+title: IDirect3DDevice9Ex::GetMaximumFrameLatency (d3d9.h)
 author: windows-sdk-content
 description: Retrieves the number of frames of data that the system is allowed to queue.
 old-location: direct3d9\idirect3ddevice9ex_getmaximumframelatency.htm

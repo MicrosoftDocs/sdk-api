@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.CoGetSystemSecurityPermissions
-title: CoGetSystemSecurityPermissions function
+title: CoGetSystemSecurityPermissions function (objbase.h)
 author: windows-sdk-content
 description: Returns the default values of the Security Descriptors of the machine-wide launch and access permissions, as well as launch and access limits.
 old-location: com\cogetsystemsecuritypermissions.htm

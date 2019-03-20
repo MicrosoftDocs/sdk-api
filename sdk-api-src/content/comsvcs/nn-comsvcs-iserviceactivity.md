@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IServiceActivity
-title: IServiceActivity
+title: IServiceActivity (comsvcs.h)
 author: windows-sdk-content
 description: Used to call the batch work that is submitted through the activity created by CoCreateActivity.
 old-location: cos\iserviceactivity.htm

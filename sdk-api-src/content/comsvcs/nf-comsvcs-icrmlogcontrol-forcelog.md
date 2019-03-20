@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmLogControl.ForceLog
-title: ICrmLogControl::ForceLog
+title: ICrmLogControl::ForceLog (comsvcs.h)
 author: windows-sdk-content
 description: Forces all log records to be durable on disk.
 old-location: cos\icrmlogcontrol_forcelog.htm

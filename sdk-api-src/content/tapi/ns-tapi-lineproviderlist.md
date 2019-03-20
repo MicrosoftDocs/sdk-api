@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.lineproviderlist_tag
-title: LINEPROVIDERLIST
+title: LINEPROVIDERLIST (tapi.h)
 author: windows-sdk-content
 description: The LINEPROVIDERLIST structure describes a list of service providers. A structure of this type is returned by the lineGetProviderList function. The LINEPROVIDERLIST structure can contain an array of LINEPROVIDERENTRY structures.
 old-location: tapi2\lineproviderlist_str.htm

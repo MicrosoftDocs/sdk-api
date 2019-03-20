@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStream.Seek
-title: IStream::Seek
+title: IStream::Seek (objidl.h)
 author: windows-sdk-content
 description: Changes the seek pointer to a new location. The new location is relative to either the beginning of the stream, the end of the stream, or the current seek pointer.
 old-location: stg\istream_seek.htm

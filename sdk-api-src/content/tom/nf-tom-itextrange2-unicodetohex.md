@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.UnicodeToHex
-title: ITextRange2::UnicodeToHex
+title: ITextRange2::UnicodeToHex (tom.h)
 author: windows-sdk-content
 description: Converts the Unicode character(s) preceding the start position of this text range to a hexadecimal number, and selects it.
 old-location: controls\itextrange2_unicodetohex.htm

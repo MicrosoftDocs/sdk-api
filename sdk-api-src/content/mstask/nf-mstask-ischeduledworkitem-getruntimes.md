@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetRunTimes
-title: IScheduledWorkItem::GetRunTimes
+title: IScheduledWorkItem::GetRunTimes (mstask.h)
 author: windows-sdk-content
 description: Retrieves the work item run times for a specified time period.
 old-location: taskschd\ischeduledworkitem_getruntimes.htm

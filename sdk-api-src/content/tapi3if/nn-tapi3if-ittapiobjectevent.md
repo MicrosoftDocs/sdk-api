@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITTAPIObjectEvent
-title: ITTAPIObjectEvent
+title: ITTAPIObjectEvent (tapi3if.h)
 author: windows-sdk-content
 description: The ITTAPIObjectEvent interface contains methods that retrieve the description of TAPI object events.
 old-location: tapi3\ittapiobjectevent.htm

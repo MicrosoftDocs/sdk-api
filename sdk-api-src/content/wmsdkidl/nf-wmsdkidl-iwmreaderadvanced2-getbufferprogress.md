@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.GetBufferProgress
-title: IWMReaderAdvanced2::GetBufferProgress
+title: IWMReaderAdvanced2::GetBufferProgress (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetBufferProgress method retrieves the percentage of data that has been buffered, and the time remaining to completion.
 old-location: wmformat\iwmreaderadvanced2_getbufferprogress.htm

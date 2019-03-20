@@ -1,6 +1,6 @@
 ---
 UID: NF:vsadmin.IVssAdmin.AbortAllSnapshotsInProgress
-title: IVssAdmin::AbortAllSnapshotsInProgress
+title: IVssAdmin::AbortAllSnapshotsInProgress (vsadmin.h)
 author: windows-sdk-content
 description: This method is reserved for system use.
 old-location: base\ivssadmin_abortallsnapshotsinprogress.htm

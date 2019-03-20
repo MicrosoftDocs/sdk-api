@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector4Less
-title: XMVector4Less function
+title: XMVector4Less function (directxmath.h)
 author: windows-sdk-content
 description: Tests whether one 4D vector is less than another 4D vector.
 old-location: dxmath\xmvector4less.htm

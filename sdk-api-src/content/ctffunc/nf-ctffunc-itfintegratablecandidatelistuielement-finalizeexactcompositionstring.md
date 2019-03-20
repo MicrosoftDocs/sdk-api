@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfIntegratableCandidateListUIElement.FinalizeExactCompositionString
-title: ITfIntegratableCandidateListUIElement::FinalizeExactCompositionString
+title: ITfIntegratableCandidateListUIElement::FinalizeExactCompositionString (ctffunc.h)
 author: windows-sdk-content
 description: Finalizes the current composition with the value currently shown to the user.
 old-location: tsf\itfintegratablecandidatelistuielement_finalizeexactcompositionstring.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_SetExtendedListViewStyle
-title: ListView_SetExtendedListViewStyle macro
+title: ListView_SetExtendedListViewStyle macro (commctrl.h)
 author: windows-sdk-content
 description: Sets extended styles for list-view controls. You can use this macro or send the LVM_SETEXTENDEDLISTVIEWSTYLE message explicitly.
 old-location: controls\ListView_SetExtendedListViewStyle.htm

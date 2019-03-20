@@ -1,6 +1,6 @@
 ---
 UID: NS:relogger._ETW_BUFFER_CONTEXT
-title: ETW_BUFFER_CONTEXT
+title: ETW_BUFFER_CONTEXT (relogger.h)
 author: windows-sdk-content
 description: Provides context information about the event.
 old-location: etw\etw_buffer_context.htm

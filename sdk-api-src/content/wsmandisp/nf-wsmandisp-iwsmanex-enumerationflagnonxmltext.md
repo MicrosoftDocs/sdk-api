@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEx.EnumerationFlagNonXmlText
-title: IWSManEx::EnumerationFlagNonXmlText
+title: IWSManEx::EnumerationFlagNonXmlText (wsmandisp.h)
 author: windows-sdk-content
 description: Returns the value of the enumeration constant WSManFlagNonXmlText for use in the flags parameter of the IWSManSession::Enumerate method.
 old-location: winrm\iwsmanex_enumerationflagnonxmltext.htm

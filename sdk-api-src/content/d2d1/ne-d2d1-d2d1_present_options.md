@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1.D2D1_PRESENT_OPTIONS
-title: D2D1_PRESENT_OPTIONS
+title: D2D1_PRESENT_OPTIONS (d2d1.h)
 author: windows-sdk-content
 description: Describes how a render target behaves when it presents its content. This enumeration allows a bitwise combination of its member values.
 old-location: direct2d\D2D1_PRESENT_OPTIONS.htm

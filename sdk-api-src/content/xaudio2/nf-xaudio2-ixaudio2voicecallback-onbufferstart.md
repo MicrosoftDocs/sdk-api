@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2VoiceCallback.OnBufferStart
-title: IXAudio2VoiceCallback::OnBufferStart
+title: IXAudio2VoiceCallback::OnBufferStart (xaudio2.h)
 author: windows-sdk-content
 description: Called when the voice is about to start processing a new audio buffer.
 old-location: xaudio2\ixaudio2voicecallback_interface_onbufferstart.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetModuleRefProps
-title: IMetaDataImport::GetModuleRefProps
+title: IMetaDataImport::GetModuleRefProps (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the name of the module referenced by the specified metadata token.
 old-location: winrt\imetadataimport_getmodulerefprops.htm

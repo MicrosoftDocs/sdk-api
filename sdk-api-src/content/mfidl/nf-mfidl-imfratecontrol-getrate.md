@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFRateControl.GetRate
-title: IMFRateControl::GetRate
+title: IMFRateControl::GetRate (mfidl.h)
 author: windows-sdk-content
 description: Gets the current playback rate.
 old-location: mf\imfratecontrol_getrate.htm

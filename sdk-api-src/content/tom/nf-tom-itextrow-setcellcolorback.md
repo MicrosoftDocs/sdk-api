@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.SetCellColorBack
-title: ITextRow::SetCellColorBack
+title: ITextRow::SetCellColorBack (tom.h)
 author: windows-sdk-content
 description: Sets the background color of the active cell.
 old-location: controls\itextrow_setcellcolorback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxy.SubscribeToOperation
-title: IWSDServiceProxy::SubscribeToOperation
+title: IWSDServiceProxy::SubscribeToOperation (wsdclient.h)
 author: windows-sdk-content
 description: Subscribes to a notification or solicit/response event.
 old-location: ncd\iwsdserviceproxy_subscribetooperation_method.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio.PWINBIO_EVENT_CALLBACK
-title: PWINBIO_EVENT_CALLBACK
+title: PWINBIO_EVENT_CALLBACK (winbio.h)
 author: windows-sdk-content
 description: Returns results from the asynchronous WinBioRegisterEventMonitor function.
 old-location: secbiomet\pwinbio_event_callback.htm

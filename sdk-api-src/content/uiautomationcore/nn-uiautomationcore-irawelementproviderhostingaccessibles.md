@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.IRawElementProviderHostingAccessibles
-title: IRawElementProviderHostingAccessibles
+title: IRawElementProviderHostingAccessibles (uiautomationcore.h)
 author: windows-sdk-content
 description: This interface is implemented by a Microsoft UI Automation provider when the provider is the root of an accessibility tree that includes windowless controls that support Microsoft Active Accessibility.
 old-location: winauto\uiauto_IRawElementProviderHostingAccessibles.htm

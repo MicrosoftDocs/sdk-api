@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2spi.WPUCreateSocketHandle
-title: WPUCreateSocketHandle function
+title: WPUCreateSocketHandle function (ws2spi.h)
 author: windows-sdk-content
 description: The WPUCreateSocketHandle function creates a new socket handle.
 old-location: winsock\wpucreatesockethandle_2.htm

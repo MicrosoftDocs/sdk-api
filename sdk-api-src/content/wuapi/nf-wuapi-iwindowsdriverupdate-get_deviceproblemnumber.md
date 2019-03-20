@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate.get_DeviceProblemNumber
-title: IWindowsDriverUpdate::get_DeviceProblemNumber
+title: IWindowsDriverUpdate::get_DeviceProblemNumber (wuapi.h)
 author: windows-sdk-content
 description: Gets the problem number of the matching device for the Windows driver update.
 old-location: wua\iwindowsdriverupdate_deviceproblemnumber.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSTerminateProcess
-title: WTSTerminateProcess function
+title: WTSTerminateProcess function (wtsapi32.h)
 author: windows-sdk-content
 description: Terminates the specified process on the specified Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtsterminateprocess.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IConfigurationDataCollector.put_Files
-title: IConfigurationDataCollector::put_Files
+title: IConfigurationDataCollector::put_Files (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the files to collect.
 old-location: pla\iconfigurationdatacollector_files.htm

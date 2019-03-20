@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateLinearGradientBrush
-title: IXpsOMObjectFactory::CreateLinearGradientBrush
+title: IXpsOMObjectFactory::CreateLinearGradientBrush (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Creates an IXpsOMLinearGradientBrush interface.
 old-location: xps\ixpsomobjectfactory_createlineargradientbrush.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxy.EndGetMetadata
-title: IWSDServiceProxy::EndGetMetadata
+title: IWSDServiceProxy::EndGetMetadata (wsdclient.h)
 author: windows-sdk-content
 description: Completes the asynchronous metadata exchange request and retrieves the service metadata from the response.
 old-location: ncd\iwsdserviceproxy_endgetmetadata.htm

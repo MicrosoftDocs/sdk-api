@@ -1,6 +1,6 @@
 ---
 UID: NF:inputscope.ITfInputScope.GetInputScopes
-title: ITfInputScope::GetInputScopes
+title: ITfInputScope::GetInputScopes (inputscope.h)
 author: windows-sdk-content
 description: ITfInputScope::GetInputScopes method
 old-location: tsf\itfinputscope_getinputscope.htm

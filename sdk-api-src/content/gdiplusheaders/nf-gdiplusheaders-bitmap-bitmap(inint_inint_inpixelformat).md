@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.Bitmap(IN INT,IN INT,IN PixelFormat)
-title: Bitmap::Bitmap(IN INT,IN INT,IN PixelFormat)
+title: Bitmap::Bitmap(IN INT,IN INT,IN PixelFormat) (gdiplusheaders.h)
 author: windows-sdk-content
 description: Creates a Bitmap::Bitmap object of a specified size and pixel format. The pixel data must be provided after the Bitmap::Bitmap object is constructed.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_Bitmap_width_height_format_.htm

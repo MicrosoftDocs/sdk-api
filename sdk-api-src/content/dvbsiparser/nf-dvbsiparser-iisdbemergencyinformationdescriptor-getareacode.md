@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbEmergencyInformationDescriptor.GetAreaCode
-title: IIsdbEmergencyInformationDescriptor::GetAreaCode
+title: IIsdbEmergencyInformationDescriptor::GetAreaCode (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the area codes from an emergency information descriptor.
 old-location: mstv\iisdbemergencyinformationdescriptor_getareacode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_Hue
-title: IVideoProcAmp::get_Hue
+title: IVideoProcAmp::get_Hue (vidcap.h)
 author: windows-sdk-content
 description: The get_Hue method returns the camera's hue setting.
 old-location: dshow\ivideoprocamp_get_hue.htm

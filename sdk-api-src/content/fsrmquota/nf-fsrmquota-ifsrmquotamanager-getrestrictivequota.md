@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaManager.GetRestrictiveQuota
-title: IFsrmQuotaManager::GetRestrictiveQuota
+title: IFsrmQuotaManager::GetRestrictiveQuota (fsrmquota.h)
 author: windows-sdk-content
 description: Retrieves the most restrictive quota for the specified path.
 old-location: fsrm\ifsrmquotamanager_getrestrictivequota.htm

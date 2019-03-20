@@ -1,6 +1,6 @@
 ---
 UID: NN:webapplication.IWebApplicationActivation
-title: IWebApplicationActivation
+title: IWebApplicationActivation (webapplication.h)
 author: windows-sdk-content
 description: Enables debugging applications to manage activations.
 old-location: debug\iwebapplicationactivation.htm

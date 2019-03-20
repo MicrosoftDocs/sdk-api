@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.SetStreamSelection
-title: IMFMediaEngineEx::SetStreamSelection
+title: IMFMediaEngineEx::SetStreamSelection (mfmediaengine.h)
 author: windows-sdk-content
 description: Selects or deselects a stream for playback.
 old-location: mf\imfmediaengineex_setstreamselection.htm

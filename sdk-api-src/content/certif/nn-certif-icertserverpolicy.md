@@ -1,6 +1,6 @@
 ---
 UID: NN:certif.ICertServerPolicy
-title: ICertServerPolicy
+title: ICertServerPolicy (certif.h)
 author: windows-sdk-content
 description: Allows the policy module to communicate with Certificate Services.
 old-location: security\icertserverpolicy.htm

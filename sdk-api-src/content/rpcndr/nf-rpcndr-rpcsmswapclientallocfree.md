@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.RpcSmSwapClientAllocFree
-title: RpcSmSwapClientAllocFree function
+title: RpcSmSwapClientAllocFree function (rpcndr.h)
 author: windows-sdk-content
 description: The RpcSmSwapClientAllocFree function exchanges the client stub's memory-allocation and memory-freeing mechanisms with those supplied by the client.
 old-location: rpc\rpcsmswapclientallocfree.htm

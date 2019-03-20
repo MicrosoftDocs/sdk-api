@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationFocusChangedEventHandler.HandleFocusChangedEvent
-title: IUIAutomationFocusChangedEventHandler::HandleFocusChangedEvent
+title: IUIAutomationFocusChangedEventHandler::HandleFocusChangedEvent (uiautomationclient.h)
 author: windows-sdk-content
 description: Handles the event raised when the keyboard focus moves to a different UI Automation element.
 old-location: winauto\uiauto_IUIAutomationFocusChangedEventHandler_HandleFocusChangedEvent.htm

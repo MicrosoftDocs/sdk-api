@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._KERB_EXTERNAL_NAME
-title: KERB_EXTERNAL_NAME
+title: KERB_EXTERNAL_NAME (ntsecapi.h)
 author: windows-sdk-content
 description: Contains information about an external name.
 old-location: security\kerb_external_name.htm

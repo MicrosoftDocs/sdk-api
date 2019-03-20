@@ -1,6 +1,6 @@
 ---
 UID: NS:dbghelp.__unnamed_struct_1
-title: SYMSRV_INDEX_INFOW
+title: SYMSRV_INDEX_INFOW (dbghelp.h)
 author: windows-sdk-content
 description: Contains symbol server index information.
 old-location: base\symsrv_index_info.htm

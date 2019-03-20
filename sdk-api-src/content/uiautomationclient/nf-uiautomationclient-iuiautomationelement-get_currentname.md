@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentName
-title: IUIAutomationElement::get_CurrentName
+title: IUIAutomationElement::get_CurrentName (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the name of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentName.htm

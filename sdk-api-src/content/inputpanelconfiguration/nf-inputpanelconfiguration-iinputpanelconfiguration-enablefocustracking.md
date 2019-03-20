@@ -1,6 +1,6 @@
 ---
 UID: NF:inputpanelconfiguration.IInputPanelConfiguration.EnableFocusTracking
-title: IInputPanelConfiguration::EnableFocusTracking
+title: IInputPanelConfiguration::EnableFocusTracking (inputpanelconfiguration.h)
 author: windows-sdk-content
 description: Enables a client process to opt-in to the focus tracking mechanism for Windows Store apps that controls the invoking and dismissing semantics of the touch keyboard.
 old-location: shell\iinputpanelconfiguration_enablefocustracking.htm

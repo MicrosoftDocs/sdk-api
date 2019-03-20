@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory3.CreateFontCollectionFromFontSet
-title: IDWriteFactory3::CreateFontCollectionFromFontSet
+title: IDWriteFactory3::CreateFontCollectionFromFontSet (dwrite_3.h)
 author: windows-sdk-content
 description: Create a weight/width/slope tree from a set of fonts.
 old-location: directwrite\idwritefactory3_createfontcollectionfromfontset.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_22
-title: WS_CHANNEL_PROPERTY_ID
+title: WS_CHANNEL_PROPERTY_ID (webservices.h)
 author: windows-sdk-content
 description: Each channel property is identified by an ID and has an associated value. If a property is not specified when the channel is created, then its default value is used.
 old-location: wsw\ws_channel_property_id.htm

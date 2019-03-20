@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IDeviceSpecificProperty.GetType
-title: IDeviceSpecificProperty::GetType
+title: IDeviceSpecificProperty::GetType (devicetopology.h)
 author: windows-sdk-content
 description: The GetType method gets the data type of the device-specific property value.
 old-location: coreaudio\idevicespecificproperty_gettype.htm

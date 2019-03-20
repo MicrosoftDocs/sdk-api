@@ -1,6 +1,6 @@
 ---
 UID: NS:tpcshrd.tagSTROKE_RANGE
-title: STROKE_RANGE
+title: STROKE_RANGE (tpcshrd.h)
 author: windows-sdk-content
 description: Specifies a range of strokes in the InkDisp object.
 old-location: tablet\stroke_range.htm

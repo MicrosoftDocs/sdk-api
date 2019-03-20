@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_presence_info_tag
-title: PEER_PRESENCE_INFO
+title: PEER_PRESENCE_INFO (p2p.h)
 author: windows-sdk-content
 description: The PEER_PRESENCE_INFO structure contains specific peer presence information.
 old-location: p2p\peer_presence_info.htm

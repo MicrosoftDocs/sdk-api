@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngDebugBreak
-title: EngDebugBreak function
+title: EngDebugBreak function (winddi.h)
 author: windows-sdk-content
 description: The EngDebugBreak function causes a breakpoint in the current process to occur.
 old-location: display\engdebugbreak.htm

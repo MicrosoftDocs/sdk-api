@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.AddAttachedSurface
-title: IDirectDrawSurface7::AddAttachedSurface
+title: IDirectDrawSurface7::AddAttachedSurface (ddraw.h)
 author: windows-sdk-content
 description: Attaches the specified z-buffer surface to this surface.
 old-location: directdraw\idirectdrawsurface7_addattachedsurface.htm

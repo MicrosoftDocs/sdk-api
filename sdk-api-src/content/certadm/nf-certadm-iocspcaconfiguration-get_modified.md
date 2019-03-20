@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_Modified
-title: IOCSPCAConfiguration::get_Modified
+title: IOCSPCAConfiguration::get_Modified (certadm.h)
 author: windows-sdk-content
 description: Gets a value that indicates whether an OCSPCAConfiguration object has been modified since it was created.
 old-location: security\iocspcaconfiguration_modified_method.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineUncompleteCall
-title: lineUncompleteCall function
+title: lineUncompleteCall function (tapi.h)
 author: windows-sdk-content
 description: The lineUncompleteCall function cancels the specified call completion request on the specified line.
 old-location: tapi2\lineuncompletecall.htm

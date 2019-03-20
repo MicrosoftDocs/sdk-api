@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleUndoManager.GetLastUndoDescription
-title: IOleUndoManager::GetLastUndoDescription
+title: IOleUndoManager::GetLastUndoDescription (ocidl.h)
 author: windows-sdk-content
 description: Retrieves the description for the top-level undo unit that is on top of the undo stack.
 old-location: com\ioleundomanager_getlastundodescription.htm

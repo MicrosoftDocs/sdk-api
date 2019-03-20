@@ -1,6 +1,6 @@
 ---
 UID: NS:rasshost._SECURITY_MESSAGE
-title: SECURITY_MESSAGE
+title: SECURITY_MESSAGE (rasshost.h)
 author: windows-sdk-content
 description: The SECURITY_MESSAGE structure is used with the RasSecurityDialogComplete function to indicate the results of a RAS security DLL authentication transaction.
 old-location: rras\security_message_str.htm

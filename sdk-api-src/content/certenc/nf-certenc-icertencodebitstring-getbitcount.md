@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeBitString.GetBitCount
-title: ICertEncodeBitString::GetBitCount
+title: ICertEncodeBitString::GetBitCount (certenc.h)
 author: windows-sdk-content
 description: Returns the number of bits in a bit string that belongs to the CertEncodeBitString object and has been initialized by an earlier call to ICertEncodeBitString::Decode.
 old-location: security\icertencodebitstring_getbitcount.htm

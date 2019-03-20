@@ -1,6 +1,6 @@
 ---
 UID: NE:wtsdefs._WRDS_LISTENER_SETTING_LEVEL
-title: WRDS_LISTENER_SETTING_LEVEL
+title: WRDS_LISTENER_SETTING_LEVEL (wtsdefs.h)
 author: windows-sdk-content
 description: Used to specify the type of structure that is contained in the WRdsListenerSetting member of the WRDS_LISTENER_SETTINGS structure.
 old-location: termserv\wrds_listener_setting_level.htm

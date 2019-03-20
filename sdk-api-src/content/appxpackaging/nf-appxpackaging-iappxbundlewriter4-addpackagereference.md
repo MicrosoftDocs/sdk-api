@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleWriter4.AddPackageReference
-title: IAppxBundleWriter4::AddPackageReference
+title: IAppxBundleWriter4::AddPackageReference (appxpackaging.h)
 author: windows-sdk-content
 description: Adds a reference to an optional app package or a payload file within an app bundle.
 old-location: appxpkg\iappxbundlewriter4_addpackagereference.htm

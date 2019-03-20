@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMDocument
-title: IXpsOMDocument
+title: IXpsOMDocument (xpsobjectmodel.h)
 author: windows-sdk-content
 description: An ordered sequence of fixed pages and document-level resources that make up the document.
 old-location: xps\ixpsomdocument.htm

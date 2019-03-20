@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents2.DeviceDisconnect
-title: IWMPEvents2::DeviceDisconnect
+title: IWMPEvents2::DeviceDisconnect (wmp.h)
 author: windows-sdk-content
 description: The DeviceDisconnect event occurs when the user disconnects a device from the computer.
 old-location: wmp\iwmpevents2_iwmpevents2__devicedisconnect.htm

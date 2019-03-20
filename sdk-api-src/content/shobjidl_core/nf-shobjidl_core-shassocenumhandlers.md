@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.SHAssocEnumHandlers
-title: SHAssocEnumHandlers function
+title: SHAssocEnumHandlers function (shobjidl_core.h)
 author: windows-sdk-content
 description: Returns an enumeration object for a specified set of file name extension handlers.
 old-location: shell\SHAssocEnumHandlers.htm

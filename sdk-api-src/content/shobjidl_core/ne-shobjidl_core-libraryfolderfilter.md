@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.LIBRARYFOLDERFILTER
-title: LIBRARYFOLDERFILTER
+title: LIBRARYFOLDERFILTER (shobjidl_core.h)
 author: windows-sdk-content
 description: Defines options for filtering folder items.
 old-location: shell\LIBRARYFOLDERFILTER.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_FILTER_REDUCTION_TYPE
-title: D3D11_FILTER_REDUCTION_TYPE
+title: D3D11_FILTER_REDUCTION_TYPE (d3d11.h)
 author: windows-sdk-content
 description: Specifies the type of sampler filter reduction.
 old-location: direct3d11\d3d11_filter_reduction_type.htm

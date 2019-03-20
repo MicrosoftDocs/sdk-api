@@ -1,6 +1,6 @@
 ---
 UID: NF:opmapi.OPMGetVideoOutputsFromIDirect3DDevice9Object
-title: OPMGetVideoOutputsFromIDirect3DDevice9Object function
+title: OPMGetVideoOutputsFromIDirect3DDevice9Object function (opmapi.h)
 author: windows-sdk-content
 description: Creates an Output Protection Manager (OPM) object for each physical monitor that is associated with a particular Direct3D device.
 old-location: mf\opmgetvideooutputsfromidirect3ddevice9object.htm

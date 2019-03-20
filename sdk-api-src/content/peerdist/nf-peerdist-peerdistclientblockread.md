@@ -1,6 +1,6 @@
 ---
 UID: NF:peerdist.PeerDistClientBlockRead
-title: PeerDistClientBlockRead function
+title: PeerDistClientBlockRead function (peerdist.h)
 author: windows-sdk-content
 description: PeerDistClientBlockRead function reads content data blocks.
 old-location: p2p\peerdistclientblockread.htm

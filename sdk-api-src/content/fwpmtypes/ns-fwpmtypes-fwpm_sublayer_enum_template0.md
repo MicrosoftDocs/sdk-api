@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_SUBLAYER_ENUM_TEMPLATE0_
-title: FWPM_SUBLAYER_ENUM_TEMPLATE0
+title: FWPM_SUBLAYER_ENUM_TEMPLATE0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Is used for enumerating sublayers.
 old-location: fwp\fwpm_sublayer_enum_template0_struct.htm

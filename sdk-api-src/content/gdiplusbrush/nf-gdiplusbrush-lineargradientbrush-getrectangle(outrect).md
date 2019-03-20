@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.GetRectangle(OUT Rect)
-title: LinearGradientBrush::GetRectangle(OUT Rect)
+title: LinearGradientBrush::GetRectangle(OUT Rect) (gdiplusbrush.h)
 author: windows-sdk-content
 description: The LinearGradientBrush::GetRectangle method gets the rectangle that defines the boundaries of the gradient.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_GetRectangle_Rect_rect_.htm

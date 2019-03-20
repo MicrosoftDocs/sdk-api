@@ -1,6 +1,6 @@
 ---
 UID: NS:usp10.__unnamed_struct_0
-title: SCRIPT_PROPERTIES
+title: SCRIPT_PROPERTIES (usp10.h)
 author: windows-sdk-content
 description: Contains information about special processing for each script.
 old-location: intl\script_properties.htm

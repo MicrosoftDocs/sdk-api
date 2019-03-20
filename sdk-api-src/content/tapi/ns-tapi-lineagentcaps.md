@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.lineagentcaps_tag
-title: LINEAGENTCAPS
+title: LINEAGENTCAPS (tapi.h)
 author: windows-sdk-content
 description: The LINEAGENTCAPS structure describes the capabilities of an ACD agent. The lineGetAgentCaps function returns the LINEAGENTCAPS structure.
 old-location: tapi2\lineagentcaps_str.htm

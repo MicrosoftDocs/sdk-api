@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICBitmapTransformOptions
-title: WICBitmapTransformOptions
+title: WICBitmapTransformOptions (wincodec.h)
 author: windows-sdk-content
 description: Specifies the flip and rotation transforms.
 old-location: wic\_wic_codec_wicbitmaptransformoptions.htm

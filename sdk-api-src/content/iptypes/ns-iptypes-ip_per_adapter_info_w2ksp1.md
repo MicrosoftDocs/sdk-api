@@ -1,6 +1,6 @@
 ---
 UID: NS:iptypes._IP_PER_ADAPTER_INFO_W2KSP1
-title: IP_PER_ADAPTER_INFO_W2KSP1
+title: IP_PER_ADAPTER_INFO_W2KSP1 (iptypes.h)
 author: windows-sdk-content
 description: The IP_PER_ADAPTER_INFO structure contains information specific to a particular adapter.
 old-location: iphlp\ip_per_adapter_info.htm

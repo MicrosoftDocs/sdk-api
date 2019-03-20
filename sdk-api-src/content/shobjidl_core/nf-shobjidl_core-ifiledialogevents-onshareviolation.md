@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialogEvents.OnShareViolation
-title: IFileDialogEvents::OnShareViolation
+title: IFileDialogEvents::OnShareViolation (shobjidl_core.h)
 author: windows-sdk-content
 description: Enables an application to respond to sharing violations that arise from Open or Save operations.
 old-location: shell\IFileDialogEvents_OnShareViolation.htm

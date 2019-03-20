@@ -1,6 +1,6 @@
 ---
 UID: NE:msopc.OPC_SIGNATURE_VALIDATION_RESULT
-title: OPC_SIGNATURE_VALIDATION_RESULT
+title: OPC_SIGNATURE_VALIDATION_RESULT (msopc.h)
 author: windows-sdk-content
 description: Indicates the status of the signature.
 old-location: opc\opc_signature_validation_result.htm

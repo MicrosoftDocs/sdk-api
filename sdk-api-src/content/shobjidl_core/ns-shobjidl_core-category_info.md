@@ -1,6 +1,6 @@
 ---
 UID: NS:shobjidl_core.CATEGORY_INFO
-title: CATEGORY_INFO
+title: CATEGORY_INFO (shobjidl_core.h)
 author: windows-sdk-content
 description: Contains category information. A component category is a group of logically-related Component Object Model (COM) classes that share a common category identifier (CATID).
 old-location: shell\CATEGORY_INFO.htm

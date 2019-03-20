@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IACList2.GetOptions
-title: IACList2::GetOptions
+title: IACList2::GetOptions (shlobj_core.h)
 author: windows-sdk-content
 description: Gets the current autocomplete options.
 old-location: shell\IACList2_GetOptions.htm

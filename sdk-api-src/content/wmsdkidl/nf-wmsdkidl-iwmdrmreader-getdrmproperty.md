@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader.GetDRMProperty
-title: IWMDRMReader::GetDRMProperty
+title: IWMDRMReader::GetDRMProperty (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetDRMProperty method retrieves DRM-specific file attributes and run-time properties.
 old-location: wmformat\iwmdrmreader_getdrmproperty.htm

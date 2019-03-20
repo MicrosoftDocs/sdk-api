@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmConnectionCreateEnumHandle0
-title: FwpmConnectionCreateEnumHandle0 function
+title: FwpmConnectionCreateEnumHandle0 function (fwpmu.h)
 author: windows-sdk-content
 description: Creates a handle used to enumerate a set of connection objects.
 old-location: fwp\fwpmconnectioncreateenumhandle0.htm

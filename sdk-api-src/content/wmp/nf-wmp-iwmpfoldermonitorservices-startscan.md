@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.startScan
-title: IWMPFolderMonitorServices::startScan
+title: IWMPFolderMonitorServices::startScan (wmp.h)
 author: windows-sdk-content
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The startScan method starts a scanning operation.
 old-location: wmp\iwmpfoldermonitorservices_startscan.htm

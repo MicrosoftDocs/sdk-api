@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFPresentationClock.GetTime
-title: IMFPresentationClock::GetTime
+title: IMFPresentationClock::GetTime (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the latest clock time.
 old-location: mf\imfpresentationclock_gettime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmpservices.IWMPPlugin.UnAdviseWMPServices
-title: IWMPPlugin::UnAdviseWMPServices
+title: IWMPPlugin::UnAdviseWMPServices (wmpservices.h)
 author: windows-sdk-content
 description: The IWMPPlugin::UnAdviseWMPServices method is used to release the pointer provided by AdviseWMPServices.
 old-location: wmp\iwmpplugin_unadvisewmpservices.htm

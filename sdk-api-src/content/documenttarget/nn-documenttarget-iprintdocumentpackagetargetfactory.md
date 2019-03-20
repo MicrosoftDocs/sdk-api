@@ -1,6 +1,6 @@
 ---
 UID: NN:documenttarget.IPrintDocumentPackageTargetFactory
-title: IPrintDocumentPackageTargetFactory
+title: IPrintDocumentPackageTargetFactory (documenttarget.h)
 author: windows-sdk-content
 description: Used with IPrintDocumentPackageTarget for starting a print job.
 old-location: xps\iprintdocumentpackagetargetfactory.htm

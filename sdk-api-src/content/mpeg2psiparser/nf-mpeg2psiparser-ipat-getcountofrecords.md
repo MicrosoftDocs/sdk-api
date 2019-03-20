@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPAT.GetCountOfRecords
-title: IPAT::GetCountOfRecords
+title: IPAT::GetCountOfRecords (mpeg2psiparser.h)
 author: windows-sdk-content
 description: The GetCountOfRecords method returns the number of records in the PAT. Each record corresponds to one program.
 old-location: mstv\ipat_getcountofrecords.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winbio._WINBIO_ASYNC_RESULT
-title: WINBIO_ASYNC_RESULT
+title: WINBIO_ASYNC_RESULT (winbio.h)
 author: windows-sdk-content
 description: Contains the results of an asynchronous operation.
 old-location: secbiomet\winbio_async_result.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.DeleteDelegatedPolicyUser
-title: IAzAuthorizationStore::DeleteDelegatedPolicyUser
+title: IAzAuthorizationStore::DeleteDelegatedPolicyUser (azroles.h)
 author: windows-sdk-content
 description: Removes the specified security identifier (SID) in text form from the list of principals that act as delegated policy users.
 old-location: security\azauthorizationstore_deletedelegatedpolicyuser.htm

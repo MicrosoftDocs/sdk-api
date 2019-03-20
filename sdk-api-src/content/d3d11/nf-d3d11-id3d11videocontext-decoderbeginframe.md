@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.DecoderBeginFrame
-title: ID3D11VideoContext::DecoderBeginFrame
+title: ID3D11VideoContext::DecoderBeginFrame (d3d11.h)
 author: windows-sdk-content
 description: Starts a decoding operation to decode a video frame.
 old-location: mf\id3d11videocontext_decoderbeginframe.htm

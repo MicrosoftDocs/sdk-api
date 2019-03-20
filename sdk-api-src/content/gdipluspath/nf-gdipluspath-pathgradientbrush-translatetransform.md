@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.TranslateTransform
-title: PathGradientBrush::TranslateTransform
+title: PathGradientBrush::TranslateTransform (gdipluspath.h)
 author: windows-sdk-content
 description: The PathGradientBrush::TranslateTransform method updates this brush's current transformation matrix with the product of itself and a translation matrix.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_TranslateTransform_dx_dy_order_.htm

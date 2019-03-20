@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxActivity.get_IncomingMessages
-title: IFaxActivity::get_IncomingMessages
+title: IFaxActivity::get_IncomingMessages (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxActivity::get_IncomingMessages property is a number that represents the total number of incoming fax jobs that the fax service is currently in the process of receiving.
 old-location: fax\_mfax_faxactivity_cpp_mfax_faxactivity_incomingmessages_cpp.htm

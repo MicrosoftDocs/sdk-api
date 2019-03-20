@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESRequestTunerEvent.GetPriority
-title: IESRequestTunerEvent::GetPriority
+title: IESRequestTunerEvent::GetPriority (tuner.h)
 author: windows-sdk-content
 description: Gets a code that indicates the priority of a device request for exclusive access to a tuner and its Conditional Access Services (CAS).
 old-location: mstv\iesrequesttunerevent_getpriority.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:vswriter.VSS_RESTOREMETHOD_ENUM
-title: VSS_RESTOREMETHOD_ENUM
+title: VSS_RESTOREMETHOD_ENUM (vswriter.h)
 author: windows-sdk-content
 description: Used by a writer at backup time to specify through its Writer Metadata Document the default file restore method.
 old-location: base\vss_restoremethod_enum.htm

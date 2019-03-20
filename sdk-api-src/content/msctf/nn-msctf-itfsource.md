@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfSource
-title: ITfSource
+title: ITfSource (msctf.h)
 author: windows-sdk-content
 description: The ITfSource interface is implemented by the TSF manager. It is used by applications and text services to install and uninstall advise sinks.
 old-location: tsf\itfsource.htm

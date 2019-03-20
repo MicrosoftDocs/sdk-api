@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.SyncConflictRecAdded
-title: IOfflineFilesEvents::SyncConflictRecAdded
+title: IOfflineFilesEvents::SyncConflictRecAdded (cscobj.h)
 author: windows-sdk-content
 description: Reports that a sync conflict has been detected and recorded in the sync conflict log.
 old-location: of\iofflinefilesevents_syncconflictrecadded.htm

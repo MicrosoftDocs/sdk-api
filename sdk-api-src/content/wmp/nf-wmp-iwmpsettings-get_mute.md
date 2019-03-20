@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSettings.get_mute
-title: IWMPSettings::get_mute
+title: IWMPSettings::get_mute (wmp.h)
 author: windows-sdk-content
 description: The get_mute method retrieves a value indicating whether audio is muted.
 old-location: wmp\iwmpsettings_get_mute.htm

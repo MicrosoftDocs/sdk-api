@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._KERB_PURGE_BINDING_CACHE_REQUEST
-title: KERB_PURGE_BINDING_CACHE_REQUEST
+title: KERB_PURGE_BINDING_CACHE_REQUEST (ntsecapi.h)
 author: windows-sdk-content
 description: Deletes the request for the binding cache.
 old-location: security\kerb_purge_binding_cache_request.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:richole.IRichEditOleCallback.GetDragDropEffect
-title: IRichEditOleCallback::GetDragDropEffect
+title: IRichEditOleCallback::GetDragDropEffect (richole.h)
 author: windows-sdk-content
 description: Allows the client to specify the effects of a drop operation.
 old-location: controls\IRichEditOleCallback_GetDragDropEffect.htm

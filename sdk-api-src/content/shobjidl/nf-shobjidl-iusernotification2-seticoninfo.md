@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IUserNotification2.SetIconInfo
-title: IUserNotification2::SetIconInfo
+title: IUserNotification2::SetIconInfo (shobjidl.h)
 author: windows-sdk-content
 description: Sets the notification area icon associated with specific user information.
 old-location: shell\IUserNotification2_SetIconInfo.htm

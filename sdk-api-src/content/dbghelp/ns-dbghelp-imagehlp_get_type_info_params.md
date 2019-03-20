@@ -1,6 +1,6 @@
 ---
 UID: NS:dbghelp._IMAGEHLP_GET_TYPE_INFO_PARAMS
-title: IMAGEHLP_GET_TYPE_INFO_PARAMS
+title: IMAGEHLP_GET_TYPE_INFO_PARAMS (dbghelp.h)
 author: windows-sdk-content
 description: Contains type information for a module.
 old-location: base\imagehlp_get_type_info_params_str.htm

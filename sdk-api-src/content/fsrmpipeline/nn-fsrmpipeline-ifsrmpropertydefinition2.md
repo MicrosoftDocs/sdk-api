@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmpipeline.IFsrmPropertyDefinition2
-title: IFsrmPropertyDefinition2
+title: IFsrmPropertyDefinition2 (fsrmpipeline.h)
 author: windows-sdk-content
 description: Defines a property that you want to use to classify files.
 old-location: fsrm\ifsrmpropertydefinition2.htm

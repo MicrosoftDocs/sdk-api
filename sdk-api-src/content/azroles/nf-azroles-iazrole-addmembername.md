@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRole.AddMemberName
-title: IAzRole::AddMemberName
+title: IAzRole::AddMemberName (azroles.h)
 author: windows-sdk-content
 description: Adds the specified account name to the list of accounts that belong to the role.
 old-location: security\iazrole_addmembername.htm

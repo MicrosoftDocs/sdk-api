@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReference.GetDigestMethod
-title: IOpcSignatureRelationshipReference::GetDigestMethod
+title: IOpcSignatureRelationshipReference::GetDigestMethod (msopc.h)
 author: windows-sdk-content
 description: Gets the digest method to use on relationship markup of the selected relationships.
 old-location: opc\iopcsignaturerelationshipreference_getdigestmethod.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:certview.ICertView2
-title: ICertView2
+title: ICertView2 (certview.h)
 author: windows-sdk-content
 description: Allow properly authorized clients to create a customized or complete view of the Certificate Services database.
 old-location: security\icertview2.htm

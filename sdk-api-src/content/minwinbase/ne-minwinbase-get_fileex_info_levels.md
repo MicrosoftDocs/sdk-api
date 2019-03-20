@@ -1,6 +1,6 @@
 ---
 UID: NE:minwinbase._GET_FILEEX_INFO_LEVELS
-title: GET_FILEEX_INFO_LEVELS
+title: GET_FILEEX_INFO_LEVELS (minwinbase.h)
 author: windows-sdk-content
 description: Defines values that are used with the GetFileAttributesEx and GetFileAttributesTransacted functions to specify the information level of the returned data.
 old-location: fs\get_fileex_info_levels.htm

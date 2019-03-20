@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialinteractionmanagerinterop.ISpatialInteractionManagerInterop.GetForWindow
-title: ISpatialInteractionManagerInterop::GetForWindow
+title: ISpatialInteractionManagerInterop::GetForWindow (spatialinteractionmanagerinterop.h)
 author: windows-sdk-content
 description: Retrieves a SpatialInteractionManager object bound to the active application.
 old-location: mixedreality\ispatialinteractionmanager_getforwindow.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winfax._FAX_CONTEXT_INFOA
-title: FAX_CONTEXT_INFOA
+title: FAX_CONTEXT_INFOA (winfax.h)
 author: windows-sdk-content
 description: The FAX_CONTEXT_INFO structure contains information about a fax printer device context. The SizeOfStruct member is required. Information for the other members is supplied by a call to the FaxStartPrintJob function.
 old-location: fax\_mfax_fax_context_info_str.htm

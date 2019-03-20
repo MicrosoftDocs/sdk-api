@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.FindFirstFileA
-title: FindFirstFileA function
+title: FindFirstFileA function (fileapi.h)
 author: windows-sdk-content
 description: Searches a directory for a file or subdirectory with a name that matches a specific name (or partial name if wildcards are used).
 old-location: fs\findfirstfile.htm

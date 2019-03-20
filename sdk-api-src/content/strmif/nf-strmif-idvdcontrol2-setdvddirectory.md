@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.SetDVDDirectory
-title: IDvdControl2::SetDVDDirectory
+title: IDvdControl2::SetDVDDirectory (strmif.h)
 author: windows-sdk-content
 description: The SetDVDDirectory method sets the DVD drive that the DVD Navigator filter will read from.
 old-location: dshow\idvdcontrol2_setdvddirectory.htm

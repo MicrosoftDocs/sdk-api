@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSaveJob.CancelSave
-title: IMFSaveJob::CancelSave
+title: IMFSaveJob::CancelSave (mfidl.h)
 author: windows-sdk-content
 description: Cancels the operation started by IMFSaveJob::BeginSave.
 old-location: mf\imfsavejob_cancelsave.htm

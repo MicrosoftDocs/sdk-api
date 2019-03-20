@@ -1,6 +1,6 @@
 ---
 UID: NE:peninputpanel.__MIDL___MIDL_itf_peninputpanel_0000_0000_0001
-title: InteractionMode
+title: InteractionMode (peninputpanel.h)
 author: windows-sdk-content
 description: Specifies the interaction modes that can be chosen by the user for the Tablet PC Input Panel.
 old-location: tablet\interactionmode.htm

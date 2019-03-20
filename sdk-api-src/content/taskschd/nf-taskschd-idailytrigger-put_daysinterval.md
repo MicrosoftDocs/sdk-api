@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IDailyTrigger.put_DaysInterval
-title: IDailyTrigger::put_DaysInterval
+title: IDailyTrigger::put_DaysInterval (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the interval between the days in the schedule.
 old-location: taskschd\idailytrigger_daysinterval.htm

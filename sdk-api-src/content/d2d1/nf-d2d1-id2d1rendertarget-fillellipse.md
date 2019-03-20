@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.FillEllipse
-title: ID2D1RenderTarget::FillEllipse
+title: ID2D1RenderTarget::FillEllipse (d2d1.h)
 author: windows-sdk-content
 description: Paints the interior of the specified ellipse.
 old-location: direct2d\id2d1rendertarget_fillellipse.htm

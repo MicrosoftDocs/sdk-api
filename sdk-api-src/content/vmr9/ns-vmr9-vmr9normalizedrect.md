@@ -1,6 +1,6 @@
 ---
 UID: NS:vmr9._VMR9NormalizedRect
-title: VMR9NormalizedRect
+title: VMR9NormalizedRect (vmr9.h)
 author: windows-sdk-content
 description: The VMR9NormalizedRect structure is used with the VMR-9 filter in mixing operations to specify or retrieve the location of a video rectangle in composition space.
 old-location: dshow\vmr9normalizedrect.htm

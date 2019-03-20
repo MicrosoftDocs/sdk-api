@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpCreateSubnetVQ
-title: DhcpCreateSubnetVQ function
+title: DhcpCreateSubnetVQ function (dhcpsapi.h)
 author: windows-sdk-content
 description: The DhcpCreateSubnetVQ function creates a new IPv4 subnet and its associated NAP state information on the DHCP server.
 old-location: dhcp\dhcpcreatesubnetvq.htm

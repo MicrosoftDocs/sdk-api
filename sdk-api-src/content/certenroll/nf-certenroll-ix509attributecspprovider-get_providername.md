@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeCspProvider.get_ProviderName
-title: IX509AttributeCspProvider::get_ProviderName
+title: IX509AttributeCspProvider::get_ProviderName (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the provider name.
 old-location: security\ix509attributecspprovider_providername_property.htm

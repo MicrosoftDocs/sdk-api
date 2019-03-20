@@ -1,6 +1,6 @@
 ---
 UID: NE:wlanapi._WLAN_HOSTED_NETWORK_REASON
-title: WLAN_HOSTED_NETWORK_REASON
+title: WLAN_HOSTED_NETWORK_REASON (wlanapi.h)
 author: windows-sdk-content
 description: Specifies the possible values for the result of a wireless Hosted Network function call.
 old-location: nwifi\wlan_hosted_network_reason.htm

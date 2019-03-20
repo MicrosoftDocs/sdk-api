@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList1.SetSamplePositions
-title: ID3D12GraphicsCommandList1::SetSamplePositions
+title: ID3D12GraphicsCommandList1::SetSamplePositions (d3d12.h)
 author: windows-sdk-content
 description: This method configures the sample positions used by subsequent draw, copy, resolve, and similar operations.
 old-location: direct3d12\id3d12graphicscommandlist1_setsamplepositions.htm

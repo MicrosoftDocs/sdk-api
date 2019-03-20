@@ -1,6 +1,6 @@
 ---
 UID: NF:wintrust.WTHelperCertCheckValidSignature
-title: WTHelperCertCheckValidSignature function
+title: WTHelperCertCheckValidSignature function (wintrust.h)
 author: windows-sdk-content
 description: Checks whether a signature is valid.
 old-location: security\wthelpercertcheckvalidsignature.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:amva._tag_AMVAUncompDataInfo
-title: AMVAUncompDataInfo
+title: AMVAUncompDataInfo (amva.h)
 author: windows-sdk-content
 description: The AMVAUncompDataInfo structure specifies the dimensions and pixel format of the uncompressed surfaces for DirectX Video Acceleration (DXVA) video decoding.
 old-location: dshow\amvauncompdatainfo.htm

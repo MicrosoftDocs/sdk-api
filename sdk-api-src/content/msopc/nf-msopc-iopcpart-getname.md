@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcPart.GetName
-title: IOpcPart::GetName
+title: IOpcPart::GetName (msopc.h)
 author: windows-sdk-content
 description: Gets a part URI object that represents the part name.
 old-location: opc\iopcpart_getname.htm

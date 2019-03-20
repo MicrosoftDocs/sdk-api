@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoder.ReleaseBuffer
-title: IDirectXVideoDecoder::ReleaseBuffer
+title: IDirectXVideoDecoder::ReleaseBuffer (dxva2api.h)
 author: windows-sdk-content
 description: Releases a buffer that was obtained by calling IDirectXVideoDecoder::GetBuffer.
 old-location: mf\idirectxvideodecoder_releasebuffer.htm

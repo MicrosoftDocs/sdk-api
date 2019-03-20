@@ -1,6 +1,6 @@
 ---
 UID: NF:msaatext.IVersionInfo.GetSubcomponentCount
-title: IVersionInfo::GetSubcomponentCount
+title: IVersionInfo::GetSubcomponentCount (msaatext.h)
 author: windows-sdk-content
 description: Clients call IVersionInfo::GetSubcomponentCount to determine the number of subcomponents for which version information is returned.
 old-location: winauto\iversioninfo_iversioninfo__getsubcomponentcount.htm

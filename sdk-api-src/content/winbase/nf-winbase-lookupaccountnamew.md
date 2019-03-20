@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.LookupAccountNameW
-title: LookupAccountNameW function
+title: LookupAccountNameW function (winbase.h)
 author: windows-sdk-content
 description: Accepts the name of a system and an account as input. It retrieves a security identifier (SID) for the account and the name of the domain on which the account was found.
 old-location: security\lookupaccountname.htm

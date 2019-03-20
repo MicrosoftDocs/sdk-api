@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IQueryCodePage
-title: IQueryCodePage
+title: IQueryCodePage (shobjidl.h)
 author: windows-sdk-content
 description: Gets and sets the numeric value (Code Page identifier) of the ANSI code page.
 old-location: shell\IQueryCodePage.htm

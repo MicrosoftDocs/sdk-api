@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IDvdCmd
-title: IDvdCmd
+title: IDvdCmd (strmif.h)
 author: windows-sdk-content
 description: The IDvdCmd interface waits for DVD commands to start or end.The DVD Navigator creates synchronization objects that expose this interface.
 old-location: dshow\idvdcmd.htm

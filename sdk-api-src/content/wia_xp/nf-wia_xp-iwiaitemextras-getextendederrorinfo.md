@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaItemExtras.GetExtendedErrorInfo
-title: IWiaItemExtras::GetExtendedErrorInfo
+title: IWiaItemExtras::GetExtendedErrorInfo (wia_xp.h)
 author: windows-sdk-content
 description: The IWiaItemExtras::GetExtendedErrorInfo method gets a string from the device driver that contains information about the most recent error.
 old-location: wia\_wia_IWiaItemExtras_GetExtendedErrorInfo.htm

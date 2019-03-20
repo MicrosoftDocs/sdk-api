@@ -1,6 +1,6 @@
 ---
 UID: NE:comsvcs.tagCSC_InheritanceConfig
-title: CSC_InheritanceConfig
+title: CSC_InheritanceConfig (comsvcs.h)
 author: windows-sdk-content
 description: Indicates whether to create a new context based on the current context or to create a new context based solely upon the information in CServiceConfig.
 old-location: cos\csc_inheritanceconfig.htm

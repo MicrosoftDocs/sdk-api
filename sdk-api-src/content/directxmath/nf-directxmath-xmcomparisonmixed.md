@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMComparisonMixed
-title: XMComparisonMixed function
+title: XMComparisonMixed function (directxmath.h)
 author: windows-sdk-content
 description: Tests the comparison value to determine if the compared components had mixed results--some true and some false.
 old-location: dxmath\xmcomparisonmixed.htm

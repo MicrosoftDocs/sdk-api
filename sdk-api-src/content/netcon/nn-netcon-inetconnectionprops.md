@@ -1,6 +1,6 @@
 ---
 UID: NN:netcon.INetConnectionProps
-title: INetConnectionProps
+title: INetConnectionProps (netcon.h)
 author: windows-sdk-content
 description: Use the INetConnectionProps interface to retrieve the properties for a connection.
 old-location: ics\inetconnectionprops.htm

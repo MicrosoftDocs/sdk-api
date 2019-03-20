@@ -1,6 +1,6 @@
 ---
 UID: NE:faxcomex.FAX_JOB_OPERATIONS_ENUM
-title: FAX_JOB_OPERATIONS_ENUM
+title: FAX_JOB_OPERATIONS_ENUM (faxcomex.h)
 author: windows-sdk-content
 description: The FAX_JOB_OPERATIONS_ENUM enumeration defines the operations that can be performed on a fax job. The members of this enumeration are bit values and can be used in combination.
 old-location: fax\_mfax_fax_job_operations_enum.htm

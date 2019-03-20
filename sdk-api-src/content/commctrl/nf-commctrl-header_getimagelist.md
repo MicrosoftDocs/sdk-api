@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Header_GetImageList
-title: Header_GetImageList macro
+title: Header_GetImageList macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the handle to the image list that has been set for an existing header control. You can use this macro or send the HDM_GETIMAGELIST message explicitly.
 old-location: controls\Header_GetImageList.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.SetRestoreTarget
-title: IVssComponent::SetRestoreTarget
+title: IVssComponent::SetRestoreTarget (vswriter.h)
 author: windows-sdk-content
 description: The SetRestoreTarget method sets the restore target (in terms of the VSS_RESTORE_TARGET enumeration) for the current component.
 old-location: base\ivsscomponent_setrestoretarget.htm

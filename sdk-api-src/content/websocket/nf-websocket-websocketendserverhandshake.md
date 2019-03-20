@@ -1,6 +1,6 @@
 ---
 UID: NF:websocket.WebSocketEndServerHandshake
-title: WebSocketEndServerHandshake function
+title: WebSocketEndServerHandshake function (websocket.h)
 author: windows-sdk-content
 description: Completes the server-side handshake.
 old-location: websock\websocketendserverhandshake.htm

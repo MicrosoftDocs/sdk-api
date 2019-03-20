@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.GetGDISurface
-title: IDirectDraw7::GetGDISurface
+title: IDirectDraw7::GetGDISurface (ddraw.h)
 author: windows-sdk-content
 description: Retrieves the DirectDrawSurface object that currently represents the surface memory that GDI is treating as the primary surface.
 old-location: directdraw\idirectdraw7_getgdisurface.htm

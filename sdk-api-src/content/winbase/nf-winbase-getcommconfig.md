@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetCommConfig
-title: GetCommConfig function
+title: GetCommConfig function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the current configuration of a communications device.
 old-location: base\getcommconfig.htm

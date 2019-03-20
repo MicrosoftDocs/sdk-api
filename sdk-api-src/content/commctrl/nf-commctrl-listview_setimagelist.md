@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_SetImageList
-title: ListView_SetImageList macro
+title: ListView_SetImageList macro (commctrl.h)
 author: windows-sdk-content
 description: Assigns an image list to a list-view control. You can use this macro or send the LVM_SETIMAGELIST message explicitly.
 old-location: controls\ListView_SetImageList.htm

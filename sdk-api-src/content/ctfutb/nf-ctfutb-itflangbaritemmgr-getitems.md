@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.GetItems
-title: ITfLangBarItemMgr::GetItems
+title: ITfLangBarItemMgr::GetItems (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarItemMgr::GetItems method
 old-location: tsf\itflangbaritemmgr_getitems.htm

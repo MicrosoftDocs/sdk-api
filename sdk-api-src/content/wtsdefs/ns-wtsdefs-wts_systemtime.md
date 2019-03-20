@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsdefs._WTS_SYSTEMTIME
-title: WTS_SYSTEMTIME
+title: WTS_SYSTEMTIME (wtsdefs.h)
 author: windows-sdk-content
 description: Specifies date and time information for transitions between standard time and daylight saving time.
 old-location: termserv\wts_systemtime.htm

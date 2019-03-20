@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExplorerCommand.EnumSubCommands
-title: IExplorerCommand::EnumSubCommands
+title: IExplorerCommand::EnumSubCommands (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves an enemerator for a command's subcommands.
 old-location: shell\IExplorerCommand_EnumSubCommands.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:playtomanagerinterop.IPlayToManagerInterop
-title: IPlayToManagerInterop
+title: IPlayToManagerInterop (playtomanagerinterop.h)
 author: windows-sdk-content
 description: Enables access to PlayToManager methods in a Windows Store app that manages multiple windows.
 old-location: winrt\iplaytomanagerinterop.htm

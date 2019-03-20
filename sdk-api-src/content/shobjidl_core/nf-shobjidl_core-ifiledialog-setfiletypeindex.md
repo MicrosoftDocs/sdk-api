@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.SetFileTypeIndex
-title: IFileDialog::SetFileTypeIndex
+title: IFileDialog::SetFileTypeIndex (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the file type that appears as selected in the dialog.
 old-location: shell\IFileDialog_SetFileTypeIndex.htm

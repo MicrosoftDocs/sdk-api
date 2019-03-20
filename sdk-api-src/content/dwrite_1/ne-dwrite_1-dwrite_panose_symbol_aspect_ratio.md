@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_SYMBOL_ASPECT_RATIO
-title: DWRITE_PANOSE_SYMBOL_ASPECT_RATIO
+title: DWRITE_PANOSE_SYMBOL_ASPECT_RATIO (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_PANOSE_SYMBOL_ASPECT_RATIO enumeration contains values that specify the aspect ratio of symbolic characters.
 old-location: directwrite\dwrite_panose_symbol_aspect_ratio.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IEnterpriseDropTarget.IsEvaluatingEdpPolicy
-title: IEnterpriseDropTarget::IsEvaluatingEdpPolicy
+title: IEnterpriseDropTarget::IsEvaluatingEdpPolicy (oleidl.h)
 author: windows-sdk-content
 description: Indicates whether the drop target is intends to handle the evaluation of the enterprise protection policy.
 old-location: com\isevaluatingedppolicy_isevaluatingedppolicy.htm

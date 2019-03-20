@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMQuaternionMultiply
-title: XMQuaternionMultiply function
+title: XMQuaternionMultiply function (directxmath.h)
 author: windows-sdk-content
 description: Computes the product of two quaternions.
 old-location: dxmath\xmquaternionmultiply.htm

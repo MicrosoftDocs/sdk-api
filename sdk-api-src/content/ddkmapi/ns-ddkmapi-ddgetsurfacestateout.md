@@ -1,6 +1,6 @@
 ---
 UID: NS:ddkmapi._DDGETSURFACESTATEOUT
-title: DDGETSURFACESTATEOUT
+title: DDGETSURFACESTATEOUT (ddkmapi.h)
 author: windows-sdk-content
 description: The DDGETSURFACESTATEOUT structure contains the capabilities and status of the specified surface.
 old-location: display\ddgetsurfacestateout.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfDisplayAttributeInfo
-title: ITfDisplayAttributeInfo
+title: ITfDisplayAttributeInfo (msctf.h)
 author: windows-sdk-content
 description: The ITfDisplayAttributeInfo interface is implemented by a text service to provide display attribute data. This interface is used by any component, most often an application, that must determine how text displays.
 old-location: tsf\itfdisplayattributeinfo.htm

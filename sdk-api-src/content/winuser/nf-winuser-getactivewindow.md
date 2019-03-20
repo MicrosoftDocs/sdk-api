@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetActiveWindow
-title: GetActiveWindow function
+title: GetActiveWindow function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the window handle to the active window attached to the calling thread's message queue.
 old-location: inputdev\getactivewindow.htm

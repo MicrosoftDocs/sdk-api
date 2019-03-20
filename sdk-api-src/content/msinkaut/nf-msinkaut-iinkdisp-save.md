@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDisp.Save
-title: IInkDisp::Save
+title: IInkDisp::Save (msinkaut.h)
 author: windows-sdk-content
 description: Converts the ink to the specified InkPersistenceFormat, saves the ink by using the specified InkPersistenceCompressionMode, and returns the binary data in an array of bytes.
 old-location: tablet\inkdisp_save.htm

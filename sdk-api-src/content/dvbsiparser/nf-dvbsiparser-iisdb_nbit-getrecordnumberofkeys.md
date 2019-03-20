@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_NBIT.GetRecordNumberOfKeys
-title: IISDB_NBIT::GetRecordNumberOfKeys
+title: IISDB_NBIT::GetRecordNumberOfKeys (dvbsiparser.h)
 author: windows-sdk-content
 description: Returns the number_of_keys field value for a section in an for an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
 old-location: mstv\iisdb_nbit_getrecordnumberofkeys.htm

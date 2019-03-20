@@ -1,6 +1,6 @@
 ---
 UID: NN:msp.ITMSPAddress
-title: ITMSPAddress
+title: ITMSPAddress (msp.h)
 author: windows-sdk-content
 description: The ITMSPAddress interface is implemented by the MSP and represents a media service provider to the TAPI DLL. It is not exposed to end-user or server applications. TAPI 3 will call CoCreateInstance on this interface to create the MSP object.
 old-location: tapi3\itmspaddress.htm

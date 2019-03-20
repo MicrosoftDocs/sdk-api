@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesItemFilter.GetFilterFlags
-title: IOfflineFilesItemFilter::GetFilterFlags
+title: IOfflineFilesItemFilter::GetFilterFlags (cscobj.h)
 author: windows-sdk-content
 description: Provides flags to control flag-based filtering of items.
 old-location: of\iofflinefilesitemfilter_getfilterflags.htm

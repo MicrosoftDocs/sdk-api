@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.NotifySessionId
-title: IWTSProtocolConnection::NotifySessionId
+title: IWTSProtocolConnection::NotifySessionId (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolConnection::NotifySessionId is no longer available. Instead, use IWRdsProtocolConnection::NotifySessionId.
 old-location: termserv\iwtsprotocolconnection_notifysessionid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:npapi.NPPropertyDialog
-title: NPPropertyDialog function
+title: NPPropertyDialog function (npapi.h)
 author: windows-sdk-content
 description: Called when the user clicks a button added by using the NPPropertyDialog function. The NPPropertyDialog function is called only for file and directory network properties.
 old-location: security\nppropertydialog.htm

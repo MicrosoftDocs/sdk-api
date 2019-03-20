@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanHostedNetworkSetSecondaryKey
-title: WlanHostedNetworkSetSecondaryKey function
+title: WlanHostedNetworkSetSecondaryKey function (wlanapi.h)
 author: windows-sdk-content
 description: Configures the secondary security key that will be used by the wireless Hosted Network.
 old-location: nwifi\wlanhostednetworksetsecondarykey.htm

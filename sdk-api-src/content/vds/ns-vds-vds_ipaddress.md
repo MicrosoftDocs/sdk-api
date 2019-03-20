@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_IPADDRESS
-title: VDS_IPADDRESS
+title: VDS_IPADDRESS (vds.h)
 author: windows-sdk-content
 description: Defines an IP address and port.
 old-location: base\vds_ipaddress.htm

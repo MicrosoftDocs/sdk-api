@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdsapi.__unnamed_struct_8
-title: DS_REPSYNCALL_UPDATEA
+title: DS_REPSYNCALL_UPDATEA (ntdsapi.h)
 author: windows-sdk-content
 description: The DS_REPSYNCALL_UPDATE structure contains status data about the replication performed by the DsReplicaSyncAll function.
 old-location: ad\ds_repsyncall_update.htm

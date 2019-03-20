@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device1.CreatePipelineLibrary
-title: ID3D12Device1::CreatePipelineLibrary
+title: ID3D12Device1::CreatePipelineLibrary (d3d12.h)
 author: windows-sdk-content
 description: Creates a cached pipeline library.
 old-location: direct3d12\id3d12device1_createpipelinelibrary.htm

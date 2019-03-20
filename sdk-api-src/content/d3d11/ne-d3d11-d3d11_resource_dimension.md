@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_RESOURCE_DIMENSION
-title: D3D11_RESOURCE_DIMENSION
+title: D3D11_RESOURCE_DIMENSION (d3d11.h)
 author: windows-sdk-content
 description: Identifies the type of resource being used.
 old-location: direct3d11\d3d11_resource_dimension.htm

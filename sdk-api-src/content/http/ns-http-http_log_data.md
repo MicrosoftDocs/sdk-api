@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_LOG_DATA
-title: HTTP_LOG_DATA
+title: HTTP_LOG_DATA (http.h)
 author: windows-sdk-content
 description: Contains a value that specifies the type of the log data.
 old-location: http\http_log_data.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_4.IDXGIAdapter3.RegisterHardwareContentProtectionTeardownStatusEvent
-title: IDXGIAdapter3::RegisterHardwareContentProtectionTeardownStatusEvent
+title: IDXGIAdapter3::RegisterHardwareContentProtectionTeardownStatusEvent (dxgi1_4.h)
 author: windows-sdk-content
 description: Registers to receive notification of hardware content protection teardown events.
 old-location: direct3ddxgi\idxgiadapter3_registerhardwarecontentprotectionteardownstatusevent.htm

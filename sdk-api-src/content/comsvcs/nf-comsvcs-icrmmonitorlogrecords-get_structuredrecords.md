@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmMonitorLogRecords.get_StructuredRecords
-title: ICrmMonitorLogRecords::get_StructuredRecords
+title: ICrmMonitorLogRecords::get_StructuredRecords (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves a flag indicating whether the log records written by this CRM clerk were structured.
 old-location: cos\icrmmonitorlogrecords_get_structuredrecords.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_SPACING
-title: DWRITE_PANOSE_SPACING
+title: DWRITE_PANOSE_SPACING (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_PANOSE_SPACING enumeration contains values that specify character spacing (monospace versus proportional).
 old-location: directwrite\dwrite_panose_spacing.htm

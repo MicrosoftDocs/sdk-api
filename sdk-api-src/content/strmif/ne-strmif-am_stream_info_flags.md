@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.AM_STREAM_INFO_FLAGS
-title: AM_STREAM_INFO_FLAGS
+title: AM_STREAM_INFO_FLAGS (strmif.h)
 author: windows-sdk-content
 description: The AM_STREAM_INFO_FLAGS enumeration defines flags that indicate a pin's stream-control status.
 old-location: dshow\am_stream_info_flags.htm

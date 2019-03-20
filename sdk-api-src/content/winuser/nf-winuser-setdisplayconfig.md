@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetDisplayConfig
-title: SetDisplayConfig function
+title: SetDisplayConfig function (winuser.h)
 author: windows-sdk-content
 description: The SetDisplayConfig function modifies the display topology, source, and target modes by exclusively enabling the specified paths in the current session.
 old-location: display\setdisplayconfig.htm

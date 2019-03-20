@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.GetEastAsianFlags
-title: ITextDocument2::GetEastAsianFlags
+title: ITextDocument2::GetEastAsianFlags (tom.h)
 author: windows-sdk-content
 description: Gets the East Asian flags.
 old-location: controls\itextdocument2_geteastasianflags.htm

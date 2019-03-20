@@ -1,6 +1,6 @@
 ---
 UID: NC:cryptuiapi.PFNCFILTERPROC
-title: PFNCFILTERPROC
+title: PFNCFILTERPROC (cryptuiapi.h)
 author: windows-sdk-content
 description: An application-defined callback function that filters the certificates that appear in the digital signature wizard that are displayed by the CryptUIWizDigitalSign function.
 old-location: security\pfncfilterproc.htm

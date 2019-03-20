@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsStoragePool
-title: IVdsStoragePool
+title: IVdsStoragePool (vds.h)
 author: windows-sdk-content
 description: Provides methods to query information and enumerate related objects for a storage pool.
 old-location: base\ivdsstoragepool.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink.Open
-title: IWMWriterFileSink::Open
+title: IWMWriterFileSink::Open (wmsdkidl.h)
 author: windows-sdk-content
 description: The Open method opens a file that acts as the writer sink.
 old-location: wmformat\iwmwriterfilesink_open.htm

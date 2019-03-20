@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkOverlay.get_Ink
-title: IInkOverlay::get_Ink
+title: IInkOverlay::get_Ink (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the InkDisp object that is associated with an InkCollector object or an InkOverlay object.
 old-location: tablet\inkoverlay_ink.htm

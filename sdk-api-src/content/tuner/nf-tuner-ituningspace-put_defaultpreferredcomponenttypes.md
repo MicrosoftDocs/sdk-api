@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpace.put_DefaultPreferredComponentTypes
-title: ITuningSpace::put_DefaultPreferredComponentTypes
+title: ITuningSpace::put_DefaultPreferredComponentTypes (tuner.h)
 author: windows-sdk-content
 description: The put_DefaultPreferredComponentTypes method specifies the default preferred component types for this tuning space.
 old-location: mstv\ituningspace_put_defaultpreferredcomponenttypes.htm

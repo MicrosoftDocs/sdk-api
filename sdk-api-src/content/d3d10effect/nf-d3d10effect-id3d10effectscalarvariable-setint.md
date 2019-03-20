@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectScalarVariable.SetInt
-title: ID3D10EffectScalarVariable::SetInt
+title: ID3D10EffectScalarVariable::SetInt (d3d10effect.h)
 author: windows-sdk-content
 description: Set an integer variable.
 old-location: direct3d10\id3d10effectscalarvariable_setint.htm

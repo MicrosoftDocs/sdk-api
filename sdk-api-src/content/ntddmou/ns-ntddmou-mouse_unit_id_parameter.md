@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmou._MOUSE_UNIT_ID_PARAMETER
-title: MOUSE_UNIT_ID_PARAMETER
+title: MOUSE_UNIT_ID_PARAMETER (ntddmou.h)
 author: windows-sdk-content
 description: MOUSE_UNIT_ID_PARAMETER specifies a unit ID that Mouclass assigns to a mouse.
 old-location: hid\mouse_unit_id_parameter.htm

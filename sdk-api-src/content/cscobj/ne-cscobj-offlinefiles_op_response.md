@@ -1,6 +1,6 @@
 ---
 UID: NE:cscobj.tagOFFLINEFILES_OP_RESPONSE
-title: OFFLINEFILES_OP_RESPONSE
+title: OFFLINEFILES_OP_RESPONSE (cscobj.h)
 author: windows-sdk-content
 description: Specifies whether to continue, retry, or stop processing items.
 old-location: of\offlinefiles_op_response.htm

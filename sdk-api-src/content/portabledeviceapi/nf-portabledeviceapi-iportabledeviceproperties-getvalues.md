@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceProperties.GetValues
-title: IPortableDeviceProperties::GetValues
+title: IPortableDeviceProperties::GetValues (portabledeviceapi.h)
 author: windows-sdk-content
 description: The GetValues method retrieves a list of specified properties from a specified object on a device.
 old-location: wpdsdk\iportabledeviceproperties_getvalues.htm

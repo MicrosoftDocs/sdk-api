@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICPalette.GetColors
-title: IWICPalette::GetColors
+title: IWICPalette::GetColors (wincodec.h)
 author: windows-sdk-content
 description: Fills out the supplied color array with the colors from the internal color table. The color array should be sized according to the return results from GetColorCount.
 old-location: wic\_wic_codec_iwicpalette_getcolors.htm

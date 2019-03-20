@@ -1,6 +1,6 @@
 ---
 UID: NS:wsnwlink._IPX_SPXCONNSTATUS_DATA
-title: IPX_SPXCONNSTATUS_DATA
+title: IPX_SPXCONNSTATUS_DATA (wsnwlink.h)
 author: windows-sdk-content
 description: The IPX_SPXCONNSTATUS_DATA structure provides information about a connected SPX socket.
 old-location: winsock\ipx_spxconnstatus_data_2.htm

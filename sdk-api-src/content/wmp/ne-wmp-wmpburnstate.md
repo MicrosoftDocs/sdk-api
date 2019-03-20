@@ -1,6 +1,6 @@
 ---
 UID: NE:wmp.WMPBurnState
-title: WMPBurnState
+title: WMPBurnState (wmp.h)
 author: windows-sdk-content
 description: The WMPBurnState enumeration type defines the possible operational states of Windows Media Player as it burns a CD.
 old-location: wmp\wmpburnstate.htm

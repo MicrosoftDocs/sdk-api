@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.DeleteAnycastIpAddressEntry
-title: DeleteAnycastIpAddressEntry function
+title: DeleteAnycastIpAddressEntry function (netioapi.h)
 author: windows-sdk-content
 description: Deletes an existing anycast IP address entry on the local computer.
 old-location: iphlp\deleteanycastipaddressentry.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.IsOk
-title: WBEMTimeSpan::IsOk
+title: WBEMTimeSpan::IsOk (wbemtime.h)
 author: windows-sdk-content
 description: The IsOk method indicates whether the WBEMTimeSpan object represents a valid time span.
 old-location: wmi\wbemtimespan_isok.htm

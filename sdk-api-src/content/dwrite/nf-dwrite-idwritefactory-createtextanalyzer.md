@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFactory.CreateTextAnalyzer
-title: IDWriteFactory::CreateTextAnalyzer
+title: IDWriteFactory::CreateTextAnalyzer (dwrite.h)
 author: windows-sdk-content
 description: Returns an interface for performing text analysis.
 old-location: directwrite\IDWriteFactory_CreateTextAnalyzer.htm

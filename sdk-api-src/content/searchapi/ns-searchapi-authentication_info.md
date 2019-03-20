@@ -1,6 +1,6 @@
 ---
 UID: NS:searchapi._AUTHENTICATION_INFO
-title: AUTHENTICATION_INFO
+title: AUTHENTICATION_INFO (searchapi.h)
 author: windows-sdk-content
 description: Describes security authentication information for content access.
 old-location: search\_search_AUTHENTICATION_INFO.htm

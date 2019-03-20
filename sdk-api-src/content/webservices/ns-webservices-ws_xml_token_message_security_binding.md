@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_TOKEN_MESSAGE_SECURITY_BINDING
-title: WS_XML_TOKEN_MESSAGE_SECURITY_BINDING
+title: WS_XML_TOKEN_MESSAGE_SECURITY_BINDING (webservices.h)
 author: windows-sdk-content
 description: The security binding subtype for specifying the use of a security token that is already available to the application in XML form.
 old-location: wsw\ws_xml_token_message_security_binding.htm

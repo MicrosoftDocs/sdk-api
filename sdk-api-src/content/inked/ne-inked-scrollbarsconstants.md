@@ -1,6 +1,6 @@
 ---
 UID: NE:inked.ScrollBarsConstants
-title: ScrollBarsConstants
+title: ScrollBarsConstants (inked.h)
 author: windows-sdk-content
 description: Specifies how the scroll bars of an InkEdit control appear on the screen.
 old-location: tablet\scrollbarsconstants.htm

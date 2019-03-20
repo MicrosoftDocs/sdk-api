@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.AddRadioButtonList
-title: IFileDialogCustomize::AddRadioButtonList
+title: IFileDialogCustomize::AddRadioButtonList (shobjidl_core.h)
 author: windows-sdk-content
 description: Adds an option button (also known as radio button) group to the dialog.
 old-location: shell\IFileDialogCustomize_AddRadioButtonList.htm

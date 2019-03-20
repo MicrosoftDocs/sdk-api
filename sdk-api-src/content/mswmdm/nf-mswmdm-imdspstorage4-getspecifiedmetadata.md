@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPStorage4.GetSpecifiedMetadata
-title: IMDSPStorage4::GetSpecifiedMetadata
+title: IMDSPStorage4::GetSpecifiedMetadata (mswmdm.h)
 author: windows-sdk-content
 description: The GetSpecifiedMetadata method retrieves only the specified metadata object for a storage.
 old-location: wmdm\imdspstorage4_getspecifiedmetadata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_GetUnicodeFormat
-title: TreeView_GetUnicodeFormat macro
+title: TreeView_GetUnicodeFormat macro (commctrl.h)
 author: windows-sdk-content
 description: Retrieves the Unicode character format flag for the control. You can use this macro or send the TVM_GETUNICODEFORMAT message explicitly.
 old-location: controls\TreeView_GetUnicodeFormat.htm

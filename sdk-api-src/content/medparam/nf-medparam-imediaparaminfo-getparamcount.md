@@ -1,6 +1,6 @@
 ---
 UID: NF:medparam.IMediaParamInfo.GetParamCount
-title: IMediaParamInfo::GetParamCount
+title: IMediaParamInfo::GetParamCount (medparam.h)
 author: windows-sdk-content
 description: The GetParamCount method retrieves the number of parameters that the object supports.
 old-location: dshow\imediaparaminfo_getparamcount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMediaCollection.remove
-title: IWMPMediaCollection::remove
+title: IWMPMediaCollection::remove (wmp.h)
 author: windows-sdk-content
 description: The remove method removes a specified item from the media collection.
 old-location: wmp\iwmpmediacollection_remove.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:ndattrib.tagATTRIBUTE_TYPE
-title: ATTRIBUTE_TYPE
+title: ATTRIBUTE_TYPE (ndattrib.h)
 author: windows-sdk-content
 description: The ATTRIBUTE_TYPE enumeration defines possible values for a helper attribute.
 old-location: ndf\attribute_type.htm

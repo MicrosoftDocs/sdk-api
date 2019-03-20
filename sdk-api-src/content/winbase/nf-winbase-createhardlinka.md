@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CreateHardLinkA
-title: CreateHardLinkA function
+title: CreateHardLinkA function (winbase.h)
 author: windows-sdk-content
 description: Establishes a hard link between an existing file and a new file.
 old-location: fs\createhardlink.htm

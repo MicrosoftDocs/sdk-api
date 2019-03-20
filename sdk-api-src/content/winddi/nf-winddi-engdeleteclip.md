@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngDeleteClip
-title: EngDeleteClip function
+title: EngDeleteClip function (winddi.h)
 author: windows-sdk-content
 description: The EngDeleteClip function deletes a CLIPOBJ structure allocated by EngCreateClip.
 old-location: display\engdeleteclip.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:aclui.CreateSecurityPage
-title: CreateSecurityPage function
+title: CreateSecurityPage function (aclui.h)
 author: windows-sdk-content
 description: Creates a basic security property page that enables the user to view and edit the access rights allowed or denied by the access control entries (ACEs) in an object's discretionary access control list (DACL).
 old-location: security\createsecuritypage.htm

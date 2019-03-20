@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.ICertPropertyArchivedKeyHash
-title: ICertPropertyArchivedKeyHash
+title: ICertPropertyArchivedKeyHash (certenroll.h)
 author: windows-sdk-content
 description: Represents a SHA-1 hash of an encrypted private key submitted to a certification authority for archival.
 old-location: security\icertpropertyarchivedkeyhash.htm

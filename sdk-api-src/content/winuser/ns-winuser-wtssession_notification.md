@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagWTSSESSION_NOTIFICATION
-title: WTSSESSION_NOTIFICATION
+title: WTSSESSION_NOTIFICATION (winuser.h)
 author: windows-sdk-content
 description: Provides information about the session change notification. A service receives this structure in its HandlerEx function in response to a session change event.
 old-location: termserv\wtssession_notification_str.htm

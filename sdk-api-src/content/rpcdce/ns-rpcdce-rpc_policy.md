@@ -1,6 +1,6 @@
 ---
 UID: NS:rpcdce._RPC_POLICY
-title: RPC_POLICY
+title: RPC_POLICY (rpcdce.h)
 author: windows-sdk-content
 description: The RPC_POLICY structure contains flags that determine binding on multihomed computers, and port allocations when using the ncacn_ip_tcp and ncadg_ip_udp protocols.
 old-location: rpc\rpc_policy.htm

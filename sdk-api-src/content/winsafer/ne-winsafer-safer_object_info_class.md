@@ -1,6 +1,6 @@
 ---
 UID: NE:winsafer._SAFER_OBJECT_INFO_CLASS
-title: SAFER_OBJECT_INFO_CLASS
+title: SAFER_OBJECT_INFO_CLASS (winsafer.h)
 author: windows-sdk-content
 description: Defines the type of information requested about a Safer object.
 old-location: security\safer_object_info_class.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.UiaHPatternObjectFromVariant
-title: UiaHPatternObjectFromVariant function
+title: UiaHPatternObjectFromVariant function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Gets a control pattern object from a VARIANT type.
 old-location: winauto\uiauto_UiaHPatternObjectFromVariantFunction.htm

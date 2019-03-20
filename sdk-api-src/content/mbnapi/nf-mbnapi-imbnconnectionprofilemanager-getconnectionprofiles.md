@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfileManager.GetConnectionProfiles
-title: IMbnConnectionProfileManager::GetConnectionProfiles
+title: IMbnConnectionProfileManager::GetConnectionProfiles (mbnapi.h)
 author: windows-sdk-content
 description: Gets a list of connection profiles associated with the device.
 old-location: mbn\imbnconnectionprofilemanager_getconnectionprofiles.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:p2p.PFNPEER_VALIDATE_RECORD
-title: PFNPEER_VALIDATE_RECORD
+title: PFNPEER_VALIDATE_RECORD (p2p.h)
 author: windows-sdk-content
 description: The PFNPEER_VALIDATE_RECORD callback specifies the function that the Peer Graphing Infrastructure calls to validate records.
 old-location: p2p\pfnpeer_validate_record.htm

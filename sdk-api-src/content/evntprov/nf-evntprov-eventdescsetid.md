@@ -1,6 +1,6 @@
 ---
 UID: NF:evntprov.EventDescSetId
-title: EventDescSetId function
+title: EventDescSetId function (evntprov.h)
 author: windows-sdk-content
 description: Sets the Id member of the event descriptor.
 old-location: etw\eventdescsetid_func.htm

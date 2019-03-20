@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleControlSite.OnControlInfoChanged
-title: IOleControlSite::OnControlInfoChanged
+title: IOleControlSite::OnControlInfoChanged (ocidl.h)
 author: windows-sdk-content
 description: Informs the container that the control's CONTROLINFO structure has changed and that the container should call the control's IOleControl::GetControlInfo for an update.
 old-location: com\iolecontrolsite_oncontrolinfochanged.htm

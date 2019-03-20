@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._gettextex
-title: GETTEXTEX
+title: GETTEXTEX (richedit.h)
 author: windows-sdk-content
 description: Contains information used in getting text from a rich edit control. This structure used with the EM_GETTEXTEX message.
 old-location: controls\GETTEXTEX.htm

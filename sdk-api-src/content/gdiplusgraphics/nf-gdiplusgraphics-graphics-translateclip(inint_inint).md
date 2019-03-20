@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.TranslateClip(IN INT,IN INT)
-title: Graphics::TranslateClip(IN INT,IN INT)
+title: Graphics::TranslateClip(IN INT,IN INT) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::TranslateClip method translates the clipping region of this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_TranslateClip_INT_dx_INT_dy_.htm

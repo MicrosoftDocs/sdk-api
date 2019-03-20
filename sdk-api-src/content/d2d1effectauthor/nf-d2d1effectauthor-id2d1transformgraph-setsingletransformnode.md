@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1TransformGraph.SetSingleTransformNode
-title: ID2D1TransformGraph::SetSingleTransformNode
+title: ID2D1TransformGraph::SetSingleTransformNode (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Sets a single transform node as being equivalent to the whole graph.
 old-location: direct2d\id2d1transformgraph_setsingletransformnode.htm

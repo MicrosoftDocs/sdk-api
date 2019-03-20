@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IUserNotification.Show
-title: IUserNotification::Show
+title: IUserNotification::Show (shobjidl_core.h)
 author: windows-sdk-content
 description: Displays the notification.
 old-location: shell\IUserNotification_Show.htm

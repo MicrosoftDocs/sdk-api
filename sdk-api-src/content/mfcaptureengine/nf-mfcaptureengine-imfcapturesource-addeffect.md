@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.AddEffect
-title: IMFCaptureSource::AddEffect
+title: IMFCaptureSource::AddEffect (mfcaptureengine.h)
 author: windows-sdk-content
 description: Adds an effect to a capture stream.
 old-location: mf\imfcapturesource_addeffect.htm

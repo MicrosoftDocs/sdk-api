@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._paraformat
-title: PARAFORMAT
+title: PARAFORMAT (richedit.h)
 author: windows-sdk-content
 description: Contains information about paragraph formatting attributes in a rich edit control.
 old-location: controls\PARAFORMAT.htm

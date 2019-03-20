@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemQuery.GetAnalysis
-title: IWbemQuery::GetAnalysis
+title: IWbemQuery::GetAnalysis (wmiutils.h)
 author: windows-sdk-content
 description: Gets the results of a successful query parse.
 old-location: wmi\iwbemquery_getanalysis.htm

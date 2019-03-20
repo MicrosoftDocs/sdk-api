@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.MFCreateASFMediaSink
-title: MFCreateASFMediaSink function
+title: MFCreateASFMediaSink function (wmcontainer.h)
 author: windows-sdk-content
 description: Creates the ASF media sink.
 old-location: mf\mfcreateasfmediasink.htm

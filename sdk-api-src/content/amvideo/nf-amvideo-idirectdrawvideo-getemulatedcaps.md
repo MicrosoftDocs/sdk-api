@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.GetEmulatedCaps
-title: IDirectDrawVideo::GetEmulatedCaps
+title: IDirectDrawVideo::GetEmulatedCaps (amvideo.h)
 author: windows-sdk-content
 description: The GetEmulatedCaps method retrieves a DirectDraw-defined DDCAPS structure containing the emulated capabilities.
 old-location: dshow\idirectdrawvideo_getemulatedcaps.htm

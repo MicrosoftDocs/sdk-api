@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._NTSAMPROPERTIES
-title: NTSAMPROPERTIES
+title: NTSAMPROPERTIES (sdoias.h)
 author: windows-sdk-content
 description: The values of the NTSAMPROPERTIES enumeration type specify properties related to the NT Security Accounts Manager (SAM).
 old-location: nps\SDO_ntsamproperties.htm

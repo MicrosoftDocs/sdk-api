@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.ImageList_CoCreateInstance
-title: ImageList_CoCreateInstance function
+title: ImageList_CoCreateInstance function (commoncontrols.h)
 author: windows-sdk-content
 description: Creates a single instance of an imagelist and returns an interface pointer to it.
 old-location: controls\ImageList_CoCreateInstance.htm

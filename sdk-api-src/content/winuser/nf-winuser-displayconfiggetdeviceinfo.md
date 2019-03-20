@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DisplayConfigGetDeviceInfo
-title: DisplayConfigGetDeviceInfo function
+title: DisplayConfigGetDeviceInfo function (winuser.h)
 author: windows-sdk-content
 description: The DisplayConfigGetDeviceInfo function retrieves display configuration information about the device.
 old-location: display\displayconfiggetdeviceinfo.htm

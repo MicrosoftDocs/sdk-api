@@ -1,6 +1,6 @@
 ---
 UID: NE:propsys.PROPDESC_ENUMFILTER
-title: PROPDESC_ENUMFILTER
+title: PROPDESC_ENUMFILTER (propsys.h)
 author: windows-sdk-content
 description: Describes the filtered list of property descriptions that is returned.
 old-location: properties\PROPDESC_ENUMFILTER.htm

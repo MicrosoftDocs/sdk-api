@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAudioRendererDevices.Remove
-title: IMSVidAudioRendererDevices::Remove
+title: IMSVidAudioRendererDevices::Remove (segment.h)
 author: windows-sdk-content
 description: The Remove method removes an item from the collection.
 old-location: mstv\imsvidaudiorendererdevices_remove.htm

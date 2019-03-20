@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.GetDashOffset
-title: Pen::GetDashOffset
+title: Pen::GetDashOffset (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::GetDashOffset method gets the distance from the start of the line to the start of the first space in a dashed line.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetDashOffset_.htm

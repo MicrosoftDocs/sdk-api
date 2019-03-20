@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi._devicemodeA
-title: DEVMODEA
+title: DEVMODEA (wingdi.h)
 author: windows-sdk-content
 description: The DEVMODE data structure contains information about the initialization and environment of a printer or a display device.
 old-location: gdi\devmode.htm

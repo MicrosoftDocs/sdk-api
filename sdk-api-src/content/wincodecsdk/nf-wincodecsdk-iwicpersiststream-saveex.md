@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICPersistStream.SaveEx
-title: IWICPersistStream::SaveEx
+title: IWICPersistStream::SaveEx (wincodecsdk.h)
 author: windows-sdk-content
 description: Saves the IWICPersistStream to the given input IStream using the given parameters.
 old-location: wic\_wic_codec_iwicpersiststream_saveex.htm

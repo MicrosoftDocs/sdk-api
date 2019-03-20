@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProviderFactory.CreatePropertyStore
-title: IFunctionDiscoveryProviderFactory::CreatePropertyStore
+title: IFunctionDiscoveryProviderFactory::CreatePropertyStore (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: Enables providers to reuse the in-memory property store implementation.
 old-location: ncd\ifunctiondiscoveryproviderfactory_createpropertystore.htm

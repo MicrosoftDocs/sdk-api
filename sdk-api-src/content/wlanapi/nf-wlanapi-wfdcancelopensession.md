@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WFDCancelOpenSession
-title: WFDCancelOpenSession function
+title: WFDCancelOpenSession function (wlanapi.h)
 author: windows-sdk-content
 description: Indicates that the application wants to cancel a pending WFDStartOpenSession function that has not completed.
 old-location: nwifi\wfdcancelopensession.htm

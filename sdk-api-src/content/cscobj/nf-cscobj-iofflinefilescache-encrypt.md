@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.Encrypt
-title: IOfflineFilesCache::Encrypt
+title: IOfflineFilesCache::Encrypt (cscobj.h)
 author: windows-sdk-content
 description: Encrypts or unencrypts the contents of the Offline Files cache cached for the calling user.
 old-location: of\iofflinefilescache_encrypt.htm

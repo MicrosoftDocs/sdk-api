@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.HitTest
-title: INameSpaceTreeControl::HitTest
+title: INameSpaceTreeControl::HitTest (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the item that a given point is in, if any.
 old-location: shell\INameSpaceTreeControl_HitTest.htm

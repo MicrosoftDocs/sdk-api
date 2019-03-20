@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_REGISTER_MODE
-title: MBN_REGISTER_MODE
+title: MBN_REGISTER_MODE (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_REGISTER_MODE enumerated type indicates the network selection mode of a device.
 old-location: mbn\mbn_register_mode.htm

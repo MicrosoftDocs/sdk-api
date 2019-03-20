@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.SetTransformLocal
-title: IXpsOMTileBrush::SetTransformLocal
+title: IXpsOMTileBrush::SetTransformLocal (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the IXpsOMMatrixTransform interface pointer to a local, unshared matrix transform.
 old-location: xps\ixpsomtilebrush_settransformlocal.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:evntrace.TraceEvent
-title: TraceEvent function
+title: TraceEvent function (evntrace.h)
 author: windows-sdk-content
 description: The TraceEvent function sends an event to an event tracing session.
 old-location: etw\traceevent.htm

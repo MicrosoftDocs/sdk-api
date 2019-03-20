@@ -1,6 +1,6 @@
 ---
 UID: NF:wmpservices.IWMPPlugin.AdviseWMPServices
-title: IWMPPlugin::AdviseWMPServices
+title: IWMPPlugin::AdviseWMPServices (wmpservices.h)
 author: windows-sdk-content
 description: The IWMPPlugin::AdviseWMPServices method is implemented by the plug-in.
 old-location: wmp\iwmpplugin_advisewmpservices.htm

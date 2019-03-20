@@ -1,6 +1,6 @@
 ---
 UID: NF:dwmapi.DwmRegisterThumbnail
-title: DwmRegisterThumbnail function
+title: DwmRegisterThumbnail function (dwmapi.h)
 author: windows-sdk-content
 description: Creates a Desktop Window Manager (DWM) thumbnail relationship between the destination and source windows.
 old-location: dwm\dwmregisterthumbnail.htm

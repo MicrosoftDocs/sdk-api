@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.AreGlyphsLocal
-title: IDWriteFontFace3::AreGlyphsLocal
+title: IDWriteFontFace3::AreGlyphsLocal (dwrite_3.h)
 author: windows-sdk-content
 description: Determines whether the specified glyphs are local.
 old-location: directwrite\idwritefontface3_areglyphslocal.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.RpcSsDestroyClientContext
-title: RpcSsDestroyClientContext function
+title: RpcSsDestroyClientContext function (rpcndr.h)
 author: windows-sdk-content
 description: The RpcSsDestroyClientContext function destroys a context handle no longer needed by the client, without contacting the server.
 old-location: rpc\rpcssdestroyclientcontext.htm

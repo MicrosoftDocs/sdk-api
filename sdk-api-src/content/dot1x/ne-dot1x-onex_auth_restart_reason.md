@@ -1,6 +1,6 @@
 ---
 UID: NE:dot1x._ONEX_AUTH_RESTART_REASON
-title: ONEX_AUTH_RESTART_REASON
+title: ONEX_AUTH_RESTART_REASON (dot1x.h)
 author: windows-sdk-content
 description: Specifies the possible reasons that 802.1X authentication was restarted.
 old-location: nwifi\onex_auth_restart_reason.htm

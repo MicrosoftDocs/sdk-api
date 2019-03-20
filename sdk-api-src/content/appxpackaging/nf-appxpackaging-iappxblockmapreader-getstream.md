@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapReader.GetStream
-title: IAppxBlockMapReader::GetStream
+title: IAppxBlockMapReader::GetStream (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves a read-only stream that represents the XML content of the block map.
 old-location: appxpkg\iappxblockmapreader_getstream.htm

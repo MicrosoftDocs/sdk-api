@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IDynamicRenderer.get_Enabled
-title: IDynamicRenderer::get_Enabled
+title: IDynamicRenderer::get_Enabled (rtscom.h)
 author: windows-sdk-content
 description: Gets or sets a value that turns dynamic rendering on and off.
 old-location: tablet\idynamicrenderer_enabled.htm

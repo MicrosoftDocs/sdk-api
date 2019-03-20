@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRSurfaceAllocator.FreeSurface
-title: IVMRSurfaceAllocator::FreeSurface
+title: IVMRSurfaceAllocator::FreeSurface (strmif.h)
 author: windows-sdk-content
 description: The FreeSurface method frees the allocated DirectDraw surface.
 old-location: dshow\ivmrsurfaceallocator_freesurface.htm

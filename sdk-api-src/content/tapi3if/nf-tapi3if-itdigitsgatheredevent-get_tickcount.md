@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITDigitsGatheredEvent.get_TickCount
-title: ITDigitsGatheredEvent::get_TickCount
+title: ITDigitsGatheredEvent::get_TickCount (tapi3if.h)
 author: windows-sdk-content
 description: The get_TickCount method gets the &#0034;tick count&#0034; (the number of milliseconds since Windows started) at which digit-gathering completed.
 old-location: tapi3\itdigitsgatheredevent_get_tickcount.htm

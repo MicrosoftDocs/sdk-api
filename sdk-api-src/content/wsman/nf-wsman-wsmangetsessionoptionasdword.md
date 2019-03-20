@@ -1,6 +1,6 @@
 ---
 UID: NF:wsman.WSManGetSessionOptionAsDword
-title: WSManGetSessionOptionAsDword function
+title: WSManGetSessionOptionAsDword function (wsman.h)
 author: windows-sdk-content
 description: Gets the value of a session option.
 old-location: winrm\wsmangetsessionoptionasdword.htm

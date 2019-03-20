@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSettings.get_balance
-title: IWMPSettings::get_balance
+title: IWMPSettings::get_balance (wmp.h)
 author: windows-sdk-content
 description: The get_balance method retrieves the current stereo balance.
 old-location: wmp\iwmpsettings_get_balance.htm

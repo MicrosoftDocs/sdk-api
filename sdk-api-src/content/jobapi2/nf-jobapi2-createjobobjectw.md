@@ -1,6 +1,6 @@
 ---
 UID: NF:jobapi2.CreateJobObjectW
-title: CreateJobObjectW function
+title: CreateJobObjectW function (jobapi2.h)
 author: windows-sdk-content
 description: Creates or opens a job object.
 old-location: base\createjobobject.htm

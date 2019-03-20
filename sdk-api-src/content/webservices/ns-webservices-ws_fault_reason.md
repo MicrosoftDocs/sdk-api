@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_FAULT_REASON
-title: WS_FAULT_REASON
+title: WS_FAULT_REASON (webservices.h)
 author: windows-sdk-content
 description: Contains an explanation of the fault.
 old-location: wsw\ws_fault_reason.htm

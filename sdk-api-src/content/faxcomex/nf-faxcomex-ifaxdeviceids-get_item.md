@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDeviceIds.get_Item
-title: IFaxDeviceIds::get_Item
+title: IFaxDeviceIds::get_Item (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDeviceIds::get_Item method represents a device ID from the FaxDeviceIds collection.
 old-location: fax\_mfax_faxdeviceids_item_cpp.htm

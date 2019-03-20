@@ -1,6 +1,6 @@
 ---
 UID: NF:fdi.FDIDestroy
-title: FDIDestroy function
+title: FDIDestroy function (fdi.h)
 author: windows-sdk-content
 description: The FDIDestroy function deletes an open FDI context.
 old-location: winprog\fdidestroy.htm

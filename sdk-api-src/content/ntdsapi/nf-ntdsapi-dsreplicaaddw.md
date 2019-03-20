@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsReplicaAddW
-title: DsReplicaAddW function
+title: DsReplicaAddW function (ntdsapi.h)
 author: windows-sdk-content
 description: Adds a replication source reference to a destination naming context.
 old-location: ad\dsreplicaadd.htm

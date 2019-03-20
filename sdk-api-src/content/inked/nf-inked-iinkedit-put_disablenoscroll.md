@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.put_DisableNoScroll
-title: IInkEdit::put_DisableNoScroll
+title: IInkEdit::put_DisableNoScroll (inked.h)
 author: windows-sdk-content
 description: Gets or sets a value that determines whether scroll bars in the InkEdit control are disabled.
 old-location: tablet\inkedit_disablenoscroll.htm

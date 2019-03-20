@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJobManager.get_ActionVariables
-title: IFsrmFileManagementJobManager::get_ActionVariables
+title: IFsrmFileManagementJobManager::get_ActionVariables (fsrmreports.h)
 author: windows-sdk-content
 description: Retrieves a list of macros that you can specify in action property values.
 old-location: fsrm\ifsrmfilemanagementjobmanager_actionvariables.htm

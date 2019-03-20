@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IPBDAAttributesDescriptor
-title: IPBDAAttributesDescriptor
+title: IPBDAAttributesDescriptor (dvbsiparser.h)
 author: windows-sdk-content
 description: Implements methods that get data from anattributes descriptor in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbdaattributesdescriptor.htm

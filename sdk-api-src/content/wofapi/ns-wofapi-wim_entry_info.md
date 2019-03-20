@@ -1,6 +1,6 @@
 ---
 UID: NS:wofapi._WIM_ENTRY_INFO
-title: WIM_ENTRY_INFO
+title: WIM_ENTRY_INFO (wofapi.h)
 author: windows-sdk-content
 description: Defines metadata specific to each WIM data source hosted on a volume.
 old-location: fs\wim_entry_info.htm

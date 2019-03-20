@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderWindowlessSite.GetAdjacentFragment
-title: IRawElementProviderWindowlessSite::GetAdjacentFragment
+title: IRawElementProviderWindowlessSite::GetAdjacentFragment (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves a fragment pointer for a fragment that is adjacent to the windowless Microsoft ActiveX control owned by this control site.
 old-location: winauto\uiauto_IRawElementProviderWindowlessSite_GetAdjacentFragment.htm

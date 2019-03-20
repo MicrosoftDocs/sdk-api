@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.put_MediaTypes
-title: ITPluggableTerminalClassRegistration::put_MediaTypes
+title: ITPluggableTerminalClassRegistration::put_MediaTypes (termmgr.h)
 author: windows-sdk-content
 description: The put_MediaTypes method sets the media types supported by the terminal.
 old-location: tapi3\itpluggableterminalclassregistration_put_mediatypes.htm

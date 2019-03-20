@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector2ReciprocalLengthEst
-title: XMVector2ReciprocalLengthEst function
+title: XMVector2ReciprocalLengthEst function (directxmath.h)
 author: windows-sdk-content
 description: Estimates the reciprocal of the length of a 2D vector.
 old-location: dxmath\xmvector2reciprocallengthest.htm

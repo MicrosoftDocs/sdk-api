@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_UNKNOWN_HEADER
-title: HTTP_UNKNOWN_HEADER
+title: HTTP_UNKNOWN_HEADER (http.h)
 author: windows-sdk-content
 description: Contains the name and value for a header in an HTTP request or response whose name does not appear in the enumeration.
 old-location: http\http_unknown_header.htm

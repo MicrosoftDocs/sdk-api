@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItem.GetParent
-title: IShellItem::GetParent
+title: IShellItem::GetParent (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the parent of an IShellItem object.
 old-location: shell\IShellItem_GetParent.htm

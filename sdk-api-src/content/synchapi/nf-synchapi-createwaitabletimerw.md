@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.CreateWaitableTimerW
-title: CreateWaitableTimerW function
+title: CreateWaitableTimerW function (synchapi.h)
 author: windows-sdk-content
 description: Creates or opens a waitable timer object.
 old-location: base\createwaitabletimer.htm

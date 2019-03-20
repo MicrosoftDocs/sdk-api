@@ -1,6 +1,6 @@
 ---
 UID: NF:lmserver.NetServerTransportAdd
-title: NetServerTransportAdd function
+title: NetServerTransportAdd function (lmserver.h)
 author: windows-sdk-content
 description: The NetServerTransportAdd function binds the server to the transport protocol.
 old-location: netmgmt\netservertransportadd.htm

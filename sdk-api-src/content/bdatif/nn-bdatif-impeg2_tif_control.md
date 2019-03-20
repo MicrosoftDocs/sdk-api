@@ -1,6 +1,6 @@
 ---
 UID: NN:bdatif.IMPEG2_TIF_CONTROL
-title: IMPEG2_TIF_CONTROL
+title: IMPEG2_TIF_CONTROL (bdatif.h)
 author: windows-sdk-content
 description: IMPEG2_TIF_CONTROL is no longer available for use.
 old-location: mstv\impeg2_tif_control.htm

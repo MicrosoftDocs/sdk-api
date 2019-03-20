@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorTransformFactory.GetTransformInformation
-title: IMFSensorTransformFactory::GetTransformInformation
+title: IMFSensorTransformFactory::GetTransformInformation (mfidl.h)
 author: windows-sdk-content
 description: Called by the media pipeline to get information about a transform provided by the sensor transform.
 old-location: mf\imfsensortransformfactory_gettransforminformation.htm

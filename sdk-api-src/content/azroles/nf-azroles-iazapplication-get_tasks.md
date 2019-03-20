@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.get_Tasks
-title: IAzApplication::get_Tasks
+title: IAzApplication::get_Tasks (azroles.h)
 author: windows-sdk-content
 description: The Tasks property of IAzApplication retrieves an IAzTasks object that is used to enumerate IAzTask objects from the policy data.
 old-location: security\iazapplication_tasks.htm

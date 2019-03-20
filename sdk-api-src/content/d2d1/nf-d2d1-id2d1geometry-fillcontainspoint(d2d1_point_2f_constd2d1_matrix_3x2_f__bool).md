@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Geometry.FillContainsPoint(D2D1_POINT_2F,const D2D1_MATRIX_3X2_F &,BOOL)
-title: ID2D1Geometry::FillContainsPoint(D2D1_POINT_2F,const D2D1_MATRIX_3X2_F &,BOOL)
+title: ID2D1Geometry::FillContainsPoint(D2D1_POINT_2F,const D2D1_MATRIX_3X2_F &,BOOL) (d2d1.h)
 author: windows-sdk-content
 description: Indicates whether the area filled by the geometry would contain the specified point.
 old-location: direct2d\ID2D1Geometry_FillContainsPoint_D2D_POINT_2F_ref_D2D_MATRIX_3X2_F_ptr_BOOL.htm

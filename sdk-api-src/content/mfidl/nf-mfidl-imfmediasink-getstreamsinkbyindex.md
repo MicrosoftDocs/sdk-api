@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSink.GetStreamSinkByIndex
-title: IMFMediaSink::GetStreamSinkByIndex
+title: IMFMediaSink::GetStreamSinkByIndex (mfidl.h)
 author: windows-sdk-content
 description: Gets a stream sink, specified by index.
 old-location: mf\imfmediasink_getstreamsinkbyindex.htm

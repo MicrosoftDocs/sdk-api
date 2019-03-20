@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagACCEL
-title: ACCEL
+title: ACCEL (winuser.h)
 author: windows-sdk-content
 description: Defines an accelerator key used in an accelerator table.
 old-location: menurc\accel.htm

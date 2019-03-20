@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHStartNetConnectionDialogW
-title: SHStartNetConnectionDialogW function
+title: SHStartNetConnectionDialogW function (shlobj_core.h)
 author: windows-sdk-content
 description: SHStartNetConnectionDialog may be altered or unavailable.
 old-location: shell\SHStartNetConnectionDialog.htm

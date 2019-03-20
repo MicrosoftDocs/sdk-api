@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiClassNameFromGuidExW
-title: SetupDiClassNameFromGuidExW function
+title: SetupDiClassNameFromGuidExW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiClassNameFromGuidEx function retrieves the class name associated with a class GUID. The class can be installed on a local or remote computer.
 old-location: devinst\setupdiclassnamefromguidex.htm

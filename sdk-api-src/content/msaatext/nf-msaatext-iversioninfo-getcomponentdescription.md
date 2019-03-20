@@ -1,6 +1,6 @@
 ---
 UID: NF:msaatext.IVersionInfo.GetComponentDescription
-title: IVersionInfo::GetComponentDescription
+title: IVersionInfo::GetComponentDescription (msaatext.h)
 author: windows-sdk-content
 description: Clients call this method to retrieve a description of the component.
 old-location: winauto\iversioninfo_iversioninfo__getcomponentdescription.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.PauseTimer
-title: IFileOperationProgressSink::PauseTimer
+title: IFileOperationProgressSink::PauseTimer (shobjidl_core.h)
 author: windows-sdk-content
 description: Not supported.
 old-location: shell\IFileOperationProgressSink_PauseTimer.htm

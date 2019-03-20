@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.RealGetWindowClassW
-title: RealGetWindowClassW function
+title: RealGetWindowClassW function (winuser.h)
 author: windows-sdk-content
 description: Retrieves a string that specifies the window type.
 old-location: winmsg\realgetwindowclass.htm

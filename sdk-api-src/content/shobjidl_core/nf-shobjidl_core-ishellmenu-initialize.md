@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellMenu.Initialize
-title: IShellMenu::Initialize
+title: IShellMenu::Initialize (shobjidl_core.h)
 author: windows-sdk-content
 description: Initializes a menu band.
 old-location: shell\IShellMenu_Initialize.htm

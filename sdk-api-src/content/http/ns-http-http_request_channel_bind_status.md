@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_REQUEST_CHANNEL_BIND_STATUS
-title: HTTP_REQUEST_CHANNEL_BIND_STATUS
+title: HTTP_REQUEST_CHANNEL_BIND_STATUS (http.h)
 author: windows-sdk-content
 description: HTTP_REQUEST_CHANNEL_BIND_STATUS.
 old-location: http\http_request_channel_bind_status.htm

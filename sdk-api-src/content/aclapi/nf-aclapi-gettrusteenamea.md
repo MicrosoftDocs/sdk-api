@@ -1,6 +1,6 @@
 ---
 UID: NF:aclapi.GetTrusteeNameA
-title: GetTrusteeNameA function
+title: GetTrusteeNameA function (aclapi.h)
 author: windows-sdk-content
 description: Retrieves the trustee name from the specified TRUSTEE structure.
 old-location: security\gettrusteename.htm

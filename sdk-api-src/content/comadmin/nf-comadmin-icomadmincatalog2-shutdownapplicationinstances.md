@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.ShutdownApplicationInstances
-title: ICOMAdminCatalog2::ShutdownApplicationInstances
+title: ICOMAdminCatalog2::ShutdownApplicationInstances (comadmin.h)
 author: windows-sdk-content
 description: Initiates shutdown of the specified application server processes.
 old-location: cos\icomadmincatalog2_shutdownapplicationinstances.htm

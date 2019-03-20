@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DSA_Destroy
-title: DSA_Destroy function
+title: DSA_Destroy function (dpa_dsa.h)
 author: windows-sdk-content
 description: Frees a dynamic structure array (DSA).
 old-location: controls\DSA_Destroy.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetMuted
-title: IMFMediaEngine::SetMuted
+title: IMFMediaEngine::SetMuted (mfmediaengine.h)
 author: windows-sdk-content
 description: Mutes or unmutes the audio.
 old-location: mf\imfmediaengine_setmuted.htm

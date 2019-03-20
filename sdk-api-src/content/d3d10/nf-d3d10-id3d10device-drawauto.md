@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.DrawAuto
-title: ID3D10Device::DrawAuto
+title: ID3D10Device::DrawAuto (d3d10.h)
 author: windows-sdk-content
 description: Draw geometry of an unknown size that was created by the geometry shader stage. See remarks.
 old-location: direct3d10\id3d10device_drawauto.htm

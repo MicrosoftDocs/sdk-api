@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServiceTransactionConfigBase.NewTransactionDescription
-title: IServiceTransactionConfigBase::NewTransactionDescription
+title: IServiceTransactionConfigBase::NewTransactionDescription (comsvcs.h)
 author: windows-sdk-content
 description: Sets the name that is used when transaction statistics are displayed.
 old-location: cos\iservicetransactionconfigbase_newtransactiondescription.htm

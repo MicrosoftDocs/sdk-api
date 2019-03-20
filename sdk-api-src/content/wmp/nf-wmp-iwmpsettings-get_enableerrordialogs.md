@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSettings.get_enableErrorDialogs
-title: IWMPSettings::get_enableErrorDialogs
+title: IWMPSettings::get_enableErrorDialogs (wmp.h)
 author: windows-sdk-content
 description: The get_enableErrorDialogs method retrieves a value indicating whether error dialog boxes are displayed automatically.
 old-location: wmp\iwmpsettings_get_enableerrordialogs.htm

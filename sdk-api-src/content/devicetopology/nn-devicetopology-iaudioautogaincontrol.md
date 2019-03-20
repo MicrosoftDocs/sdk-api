@@ -1,6 +1,6 @@
 ---
 UID: NN:devicetopology.IAudioAutoGainControl
-title: IAudioAutoGainControl
+title: IAudioAutoGainControl (devicetopology.h)
 author: windows-sdk-content
 description: The IAudioAutoGainControl interface provides access to a hardware automatic gain control (AGC).
 old-location: coreaudio\iaudioautogaincontrol.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPPlaylistArray
-title: IWMPPlaylistArray
+title: IWMPPlaylistArray (wmp.h)
 author: windows-sdk-content
 description: The IWMPPlaylistArray interface provides methods for accessing a collection of IWMPPlaylist interface pointers by index number.
 old-location: wmp\iwmpplaylistarray.htm

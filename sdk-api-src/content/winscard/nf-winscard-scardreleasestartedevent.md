@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardReleaseStartedEvent
-title: SCardReleaseStartedEvent function
+title: SCardReleaseStartedEvent function (winscard.h)
 author: windows-sdk-content
 description: Decrements the reference count for a handle acquired by a previous call to the SCardAccessStartedEvent function.
 old-location: security\scardreleasestartedevent.htm

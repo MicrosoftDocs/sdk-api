@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.InitializeForRestore
-title: IVssBackupComponents::InitializeForRestore
+title: IVssBackupComponents::InitializeForRestore (vsbackup.h)
 author: windows-sdk-content
 description: The InitializeForRestore method initializes the IVssBackupComponents interface in preparation for a restore operation.
 old-location: base\ivssbackupcomponents_initializeforrestore.htm

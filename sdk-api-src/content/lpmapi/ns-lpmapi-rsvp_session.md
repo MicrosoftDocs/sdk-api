@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_2
-title: RSVP_SESSION
+title: RSVP_SESSION (lpmapi.h)
 author: windows-sdk-content
 description: The RSVP_SESSION structure stores information about an RSVP SESSION message.
 old-location: qos\rsvp_session.htm

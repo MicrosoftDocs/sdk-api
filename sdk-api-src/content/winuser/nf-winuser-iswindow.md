@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.IsWindow
-title: IsWindow function
+title: IsWindow function (winuser.h)
 author: windows-sdk-content
 description: Determines whether the specified window handle identifies an existing window.
 old-location: winmsg\iswindow.htm

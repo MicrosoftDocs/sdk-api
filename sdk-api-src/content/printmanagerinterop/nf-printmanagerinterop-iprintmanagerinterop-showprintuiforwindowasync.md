@@ -1,6 +1,6 @@
 ---
 UID: NF:printmanagerinterop.IPrintManagerInterop.ShowPrintUIForWindowAsync
-title: IPrintManagerInterop::ShowPrintUIForWindowAsync
+title: IPrintManagerInterop::ShowPrintUIForWindowAsync (printmanagerinterop.h)
 author: windows-sdk-content
 description: Displays the UI for printing content for the specified window.
 old-location: winrt\iprintmanagerinterop_showprintuiforwindowasync.htm

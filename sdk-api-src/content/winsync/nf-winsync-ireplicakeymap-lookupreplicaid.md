@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IReplicaKeyMap.LookupReplicaId
-title: IReplicaKeyMap::LookupReplicaId
+title: IReplicaKeyMap::LookupReplicaId (winsync.h)
 author: windows-sdk-content
 description: Gets the replica ID that corresponds to the specified replica key.
 old-location: winsync\ireplicakeymap_lookupreplicaid.htm

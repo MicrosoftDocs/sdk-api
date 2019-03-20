@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.ProcessEvent
-title: IMFDeviceTransform::ProcessEvent
+title: IMFDeviceTransform::ProcessEvent (mftransform.h)
 author: windows-sdk-content
 description: The ProcessEvent method sends an event to an input stream on this Media Foundation transform (MFT).
 old-location: stream\imfdevicetransform_processevent.htm

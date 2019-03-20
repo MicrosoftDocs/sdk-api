@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi.IDXGISurface1
-title: IDXGISurface1
+title: IDXGISurface1 (dxgi.h)
 author: windows-sdk-content
 description: The IDXGISurface1 interface extends the IDXGISurface by adding support for using Windows Graphics Device Interface (GDI) to render to a Microsoft DirectX Graphics Infrastructure (DXGI) surface.
 old-location: direct3ddxgi\idxgisurface1.htm

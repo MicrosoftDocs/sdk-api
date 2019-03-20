@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ISurrogateService.CatalogRefresh
-title: ISurrogateService::CatalogRefresh
+title: ISurrogateService::CatalogRefresh (objidl.h)
 author: windows-sdk-content
 description: Refreshes the catalog.
 old-location: com\isurrogateservice_catalogrefresh.htm

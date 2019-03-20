@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetColumnInfo
-title: IMetaDataTables::GetColumnInfo
+title: IMetaDataTables::GetColumnInfo (rometadataapi.h)
 author: windows-sdk-content
 description: Gets data about the specified column in the specified table.
 old-location: winrt\imetadatatables_getcolumninfo.htm

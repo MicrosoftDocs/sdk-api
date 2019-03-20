@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IEnumVdsObject.Skip
-title: IEnumVdsObject::Skip
+title: IEnumVdsObject::Skip (vds.h)
 author: windows-sdk-content
 description: Skips a specified number of objects in the enumeration.
 old-location: base\ienumvdsobject_skip.htm

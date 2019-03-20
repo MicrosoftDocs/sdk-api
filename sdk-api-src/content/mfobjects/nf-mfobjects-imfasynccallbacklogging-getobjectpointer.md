@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAsyncCallbackLogging.GetObjectPointer
-title: IMFAsyncCallbackLogging::GetObjectPointer
+title: IMFAsyncCallbackLogging::GetObjectPointer (mfobjects.h)
 author: windows-sdk-content
 description: Gets the pointer to the parent object the async callback is associated with.
 old-location: mf\imfasynccallbacklogging_getobjectpointer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IPipeLong.Pull
-title: IPipeLong::Pull
+title: IPipeLong::Pull (objidl.h)
 author: windows-sdk-content
 description: Retrieves data of the long integer type from the pipe source.
 old-location: com\ipipelong_pull.htm

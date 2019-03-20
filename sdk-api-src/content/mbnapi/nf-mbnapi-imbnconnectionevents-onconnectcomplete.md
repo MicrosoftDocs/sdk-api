@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionEvents.OnConnectComplete
-title: IMbnConnectionEvents::OnConnectComplete
+title: IMbnConnectionEvents::OnConnectComplete (mbnapi.h)
 author: windows-sdk-content
 description: Notification method that signals the completion of a connection operation.
 old-location: mbn\imbnconnectionevents_onconnectcomplete.htm

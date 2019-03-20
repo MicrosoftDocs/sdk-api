@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_CALL_PACKAGE
-title: LSA_CALL_PACKAGE
+title: LSA_CALL_PACKAGE (ntsecpkg.h)
 author: windows-sdk-content
 description: The CallPackage function is used to call another security package to access its services.
 old-location: security\callpackage.htm

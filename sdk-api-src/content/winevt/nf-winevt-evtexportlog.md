@@ -1,6 +1,6 @@
 ---
 UID: NF:winevt.EvtExportLog
-title: EvtExportLog function
+title: EvtExportLog function (winevt.h)
 author: windows-sdk-content
 description: Copies events from the specified channel or log file and writes them to the target log file.
 old-location: wes\evtexportlog.htm

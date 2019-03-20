@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMStoreHalf2
-title: XMStoreHalf2 function
+title: XMStoreHalf2 function (directxpackedvector.h)
 author: windows-sdk-content
 description: Stores an XMVECTOR in an XMHALF2.
 old-location: dxmath\xmstorehalf2.htm

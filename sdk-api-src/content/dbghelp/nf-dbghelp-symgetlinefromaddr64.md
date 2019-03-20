@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymGetLineFromAddr64
-title: SymGetLineFromAddr64 function
+title: SymGetLineFromAddr64 function (dbghelp.h)
 author: windows-sdk-content
 description: Locates the source line for the specified address.
 old-location: base\symgetlinefromaddr64.htm

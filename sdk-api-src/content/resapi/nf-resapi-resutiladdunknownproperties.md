@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilAddUnknownProperties
-title: ResUtilAddUnknownProperties function
+title: ResUtilAddUnknownProperties function (resapi.h)
 author: windows-sdk-content
 description: Retrieves a set of unknown properties from the cluster database and appends them to the end of a property list.
 old-location: mscs\resutiladdunknownproperties.htm

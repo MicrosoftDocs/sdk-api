@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmFileStreamingInterfaceType
-title: FsrmFileStreamingInterfaceType
+title: FsrmFileStreamingInterfaceType (fsrmenums.h)
 author: windows-sdk-content
 description: Defines the possible streaming interface types.
 old-location: fsrm\fsrmfilestreaminginterfacetype.htm

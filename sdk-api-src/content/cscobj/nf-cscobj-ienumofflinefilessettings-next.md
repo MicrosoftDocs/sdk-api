@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IEnumOfflineFilesSettings.Next
-title: IEnumOfflineFilesSettings::Next
+title: IEnumOfflineFilesSettings::Next (cscobj.h)
 author: windows-sdk-content
 description: Retrieves the next item in the enumeration and advances the enumerator.
 old-location: of\ienumofflinefilessettings_next.htm

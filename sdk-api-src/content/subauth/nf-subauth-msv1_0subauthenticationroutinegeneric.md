@@ -1,6 +1,6 @@
 ---
 UID: NF:subauth.Msv1_0SubAuthenticationRoutineGeneric
-title: Msv1_0SubAuthenticationRoutineGeneric function
+title: Msv1_0SubAuthenticationRoutineGeneric function (subauth.h)
 author: windows-sdk-content
 description: Performs Remote Access Service authentication when subauthentication is requested by calling the LsaCallAuthenticationPackage function.
 old-location: security\msv1_0subauthenticationroutinegeneric.htm

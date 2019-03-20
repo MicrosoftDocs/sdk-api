@@ -1,6 +1,6 @@
 ---
 UID: NF:roparameterizediid.RoFreeParameterizedTypeExtra
-title: RoFreeParameterizedTypeExtra function
+title: RoFreeParameterizedTypeExtra function (roparameterizediid.h)
 author: windows-sdk-content
 description: Frees the handle allocated by RoGetParameterizedTypeInstanceIID.
 old-location: winrt\rofreeparameterizedtypeextra.htm

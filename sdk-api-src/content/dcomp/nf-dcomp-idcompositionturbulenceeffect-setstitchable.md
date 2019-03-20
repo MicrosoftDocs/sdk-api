@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionTurbulenceEffect.SetStitchable
-title: IDCompositionTurbulenceEffect::SetStitchable
+title: IDCompositionTurbulenceEffect::SetStitchable (dcomp.h)
 author: windows-sdk-content
 description: Specifies whether stitching is on or off.
 old-location: directcomp\idcompositionturbulenceeffect_setstitchable.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CreateSemaphoreA
-title: CreateSemaphoreA function
+title: CreateSemaphoreA function (winbase.h)
 author: windows-sdk-content
 description: Creates or opens a named or unnamed semaphore object.
 old-location: base\createsemaphorea.htm

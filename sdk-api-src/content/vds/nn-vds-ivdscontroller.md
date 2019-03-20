@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsController
-title: IVdsController
+title: IVdsController (vds.h)
 author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on a controller.
 old-location: base\ivdscontroller.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mmc._MMC_SORT_SET_DATA
-title: MMC_SORT_SET_DATA
+title: MMC_SORT_SET_DATA (mmc.h)
 author: windows-sdk-content
 description: Used with setting and retrieving list view column sets whose sort data is stored persistently.
 old-location: mmc\mmc_sort_set_data.htm

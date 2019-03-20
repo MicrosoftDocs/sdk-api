@@ -1,6 +1,6 @@
 ---
 UID: NF:shellscalingapi.GetProcessDpiAwareness
-title: GetProcessDpiAwareness function
+title: GetProcessDpiAwareness function (shellscalingapi.h)
 author: windows-sdk-content
 description: Retrieves the dots per inch (dpi) awareness of the specified process.
 old-location: hidpi\getprocessdpiawareness.htm

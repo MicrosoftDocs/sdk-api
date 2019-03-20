@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.FtpCreateDirectoryW
-title: FtpCreateDirectoryW function
+title: FtpCreateDirectoryW function (wininet.h)
 author: windows-sdk-content
 description: Creates a new directory on the FTP server.
 old-location: wininet\ftpcreatedirectory.htm

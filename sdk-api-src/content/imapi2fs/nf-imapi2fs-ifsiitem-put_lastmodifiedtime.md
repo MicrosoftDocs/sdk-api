@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiItem.put_LastModifiedTime
-title: IFsiItem::put_LastModifiedTime
+title: IFsiItem::put_LastModifiedTime (imapi2fs.h)
 author: windows-sdk-content
 description: Sets the date and time that the item was last modified in the file system image.
 old-location: imapi\ifsiitem_put_lastmodifiedtime.htm

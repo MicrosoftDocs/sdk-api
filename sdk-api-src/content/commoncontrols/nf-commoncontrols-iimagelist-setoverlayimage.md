@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList.SetOverlayImage
-title: IImageList::SetOverlayImage
+title: IImageList::SetOverlayImage (commoncontrols.h)
 author: windows-sdk-content
 description: Adds a specified image to the list of images used as overlay masks.
 old-location: controls\IImageList_SetOverlayImage.htm

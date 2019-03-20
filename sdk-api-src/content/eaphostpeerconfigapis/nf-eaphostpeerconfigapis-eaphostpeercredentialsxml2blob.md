@@ -1,6 +1,6 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerCredentialsXml2Blob
-title: EapHostPeerCredentialsXml2Blob function
+title: EapHostPeerCredentialsXml2Blob function (eaphostpeerconfigapis.h)
 author: windows-sdk-content
 description: Generates the credentials BLOB.
 old-location: eaphost\eaphostpeercredentialsxml2blob.htm

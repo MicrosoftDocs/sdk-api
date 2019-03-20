@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkOverlay.put_hWnd
-title: IInkOverlay::put_hWnd
+title: IInkOverlay::put_hWnd (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the handle value of the window on which ink is drawn.
 old-location: tablet\inkoverlay_hwnd.htm

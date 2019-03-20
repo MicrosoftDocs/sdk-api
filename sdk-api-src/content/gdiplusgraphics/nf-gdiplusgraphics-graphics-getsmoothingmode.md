@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetSmoothingMode
-title: Graphics::GetSmoothingMode
+title: Graphics::GetSmoothingMode (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::GetSmoothingMode method determines whether smoothing (antialiasing) is applied to the Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetSmoothingMode_.htm

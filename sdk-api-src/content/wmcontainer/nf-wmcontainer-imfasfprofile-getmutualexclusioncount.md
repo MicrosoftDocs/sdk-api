@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.GetMutualExclusionCount
-title: IMFASFProfile::GetMutualExclusionCount
+title: IMFASFProfile::GetMutualExclusionCount (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves the number of Advanced Systems Format (ASF) mutual exclusion objects that are associated with the profile.
 old-location: mf\imfasfprofile_getmutualexclusioncount.htm

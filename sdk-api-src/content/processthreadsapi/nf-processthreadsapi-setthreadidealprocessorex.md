@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.SetThreadIdealProcessorEx
-title: SetThreadIdealProcessorEx function
+title: SetThreadIdealProcessorEx function (processthreadsapi.h)
 author: windows-sdk-content
 description: Sets the ideal processor for the specified thread and optionally retrieves the previous ideal processor.
 old-location: base\setthreadidealprocessorex.htm

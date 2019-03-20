@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProviders.get__NewEnum
-title: IFaxDeviceProviders::get__NewEnum
+title: IFaxDeviceProviders::get__NewEnum (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDeviceProviders::get__NewEnum method returns a reference to an enumerator object that you can use to iterate through the FaxDeviceProviders collection.
 old-location: fax\_mfax_ifaxdeviceproviders_get__newenum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:iscsidsc.SetIScsiInitiatorNodeNameW
-title: SetIScsiInitiatorNodeNameW function
+title: SetIScsiInitiatorNodeNameW function (iscsidsc.h)
 author: windows-sdk-content
 description: SetIscsiInitiatorNodeName function establishes an initiator node name for the computer. This name is utilized by any initiator nodes on the computer that are communicating with other nodes.
 old-location: iscsidisc\setiscsiinitiatornodename.htm

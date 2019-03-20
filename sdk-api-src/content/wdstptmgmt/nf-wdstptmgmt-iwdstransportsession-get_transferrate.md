@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSession.get_TransferRate
-title: IWdsTransportSession::get_TransferRate
+title: IWdsTransportSession::get_TransferRate (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives the data transfer rate for this session in bytes per second.
 old-location: wds\iwdstransportsession_transferrate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IFeedClockVectorElement.GetSyncTime
-title: IFeedClockVectorElement::GetSyncTime
+title: IFeedClockVectorElement::GetSyncTime (winsync.h)
 author: windows-sdk-content
 description: Gets a SYNC_TIME value that corresponds to the when value for the item.
 old-location: winsync\ifeedclockvectorelement_getsynctime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:evr9.__MIDL___MIDL_itf_evr9_0000_0002_0002
-title: MFVideoAlphaBitmapFlags
+title: MFVideoAlphaBitmapFlags (evr9.h)
 author: windows-sdk-content
 description: Defines flags for the MFVideoAlphaBitmapParams structure.
 old-location: mf\mfvideoalphabitmapflags.htm

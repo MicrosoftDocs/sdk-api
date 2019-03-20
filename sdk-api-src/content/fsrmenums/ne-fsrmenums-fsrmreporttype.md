@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmReportType
-title: FsrmReportType
+title: FsrmReportType (fsrmenums.h)
 author: windows-sdk-content
 description: Defines the types of reports that you can generate.
 old-location: fsrm\fsrmreporttype.htm

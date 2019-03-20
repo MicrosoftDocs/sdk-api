@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IEmailAction.get_Cc
-title: IEmailAction::get_Cc
+title: IEmailAction::get_Cc (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the email address or addresses that you want to Cc in the email message.
 old-location: taskschd\iemailaction_cc.htm

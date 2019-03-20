@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetGestureConfig
-title: GetGestureConfig function
+title: GetGestureConfig function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the configuration for which Windows Touch gesture messages are sent from a window.
 old-location: wintouch\getgestureconfig.htm

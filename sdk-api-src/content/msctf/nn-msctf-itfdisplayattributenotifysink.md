@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfDisplayAttributeNotifySink
-title: ITfDisplayAttributeNotifySink
+title: ITfDisplayAttributeNotifySink (msctf.h)
 author: windows-sdk-content
 description: The ITfDisplayAttributeNotifySink interface is implemented by an application to receive a notification when display attribute information is updated.
 old-location: tsf\itfdisplayattributenotifysink.htm

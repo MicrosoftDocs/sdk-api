@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmGetExactMatchDestination
-title: RtmGetExactMatchDestination function
+title: RtmGetExactMatchDestination function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmGetExactMatchDestination function searches the routing table for a destination that exactly matches the specified network address and subnet mask. If an exact match is found, the information for that destination is returned.
 old-location: rras\rtmgetexactmatchdestination.htm

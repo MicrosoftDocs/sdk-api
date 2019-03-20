@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.put_DoNotFinalizeMedia
-title: IDiscFormat2TrackAtOnce::put_DoNotFinalizeMedia
+title: IDiscFormat2TrackAtOnce::put_DoNotFinalizeMedia (imapi2.h)
 author: windows-sdk-content
 description: Determines if the media is left open for writing after writing the audio track.
 old-location: imapi\idiscformat2trackatonce_put_donotfinalizemedia.htm

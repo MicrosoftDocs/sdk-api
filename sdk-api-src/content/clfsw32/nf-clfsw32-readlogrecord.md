@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.ReadLogRecord
-title: ReadLogRecord function
+title: ReadLogRecord function (clfsw32.h)
 author: windows-sdk-content
 description: Initiates a sequence of reads from a specified log sequence number (LSN) in one of three modes, and returns the first of the specified log records and a read context.
 old-location: fs\readlogrecord.htm

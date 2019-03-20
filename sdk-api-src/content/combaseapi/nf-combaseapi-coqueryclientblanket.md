@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoQueryClientBlanket
-title: CoQueryClientBlanket function
+title: CoQueryClientBlanket function (combaseapi.h)
 author: windows-sdk-content
 description: Called by the server to find out about the client that invoked the method executing on the current thread.
 old-location: com\coqueryclientblanket.htm

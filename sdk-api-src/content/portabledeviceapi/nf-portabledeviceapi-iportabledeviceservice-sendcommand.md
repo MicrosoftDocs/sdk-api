@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceService.SendCommand
-title: IPortableDeviceService::SendCommand
+title: IPortableDeviceService::SendCommand (portabledeviceapi.h)
 author: windows-sdk-content
 description: Sends a standard WPD command and its parameters to the service.
 old-location: wpdsdk\iportabledeviceservice_sendcommand.htm

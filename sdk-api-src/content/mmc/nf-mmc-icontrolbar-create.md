@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IControlbar.Create
-title: IControlbar::Create
+title: IControlbar::Create (mmc.h)
 author: windows-sdk-content
 description: The IControlbar::Create method creates and returns the control requested by the snap-in.
 old-location: mmc\icontrolbar_create.htm

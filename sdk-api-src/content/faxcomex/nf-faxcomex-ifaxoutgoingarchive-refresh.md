@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingArchive.Refresh
-title: IFaxOutgoingArchive::Refresh
+title: IFaxOutgoingArchive::Refresh (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingArchive::Refresh method refreshes FaxOutgoingArchive object information from the fax server.
 old-location: fax\_mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_refresh_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1530
-title: SERVER_INFO_1530
+title: SERVER_INFO_1530 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1530 structure specifies the minimum number of available receive work items the server requires to begin processing a server message block.
 old-location: netmgmt\server_info_1530_str.htm

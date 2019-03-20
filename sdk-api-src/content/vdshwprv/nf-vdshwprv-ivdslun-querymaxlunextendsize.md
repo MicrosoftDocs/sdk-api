@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsLun.QueryMaxLunExtendSize
-title: IVdsLun::QueryMaxLunExtendSize
+title: IVdsLun::QueryMaxLunExtendSize (vdshwprv.h)
 author: windows-sdk-content
 description: Returns the maximum size by which a LUN can be extended.
 old-location: base\ivdslun_querymaxlunextendsize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IPropertySheetProvider.AddExtensionPages
-title: IPropertySheetProvider::AddExtensionPages
+title: IPropertySheetProvider::AddExtensionPages (mmc.h)
 author: windows-sdk-content
 description: The IPropertySheetProvider::AddExtensionPages method collects the pages from the extension snap-ins.
 old-location: mmc\ipropertysheetprovider_addextensionpages.htm

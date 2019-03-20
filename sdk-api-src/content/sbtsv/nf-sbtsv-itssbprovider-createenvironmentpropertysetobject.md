@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.CreateEnvironmentPropertySetObject
-title: ITsSbProvider::CreateEnvironmentPropertySetObject
+title: ITsSbProvider::CreateEnvironmentPropertySetObject (sbtsv.h)
 author: windows-sdk-content
 description: Creates an ITsSbEnvironmentPropertySet environment property set object.
 old-location: termserv\itssbprovider_createenvironmentpropertysetobject.htm

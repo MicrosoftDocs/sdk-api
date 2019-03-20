@@ -1,6 +1,6 @@
 ---
 UID: NE:wuapi.tagUpdateType
-title: UpdateType
+title: UpdateType (wuapi.h)
 author: windows-sdk-content
 description: Defines the types of update, such as a driver or software update.
 old-location: wua\updatetype.htm

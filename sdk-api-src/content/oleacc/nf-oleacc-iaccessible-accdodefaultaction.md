@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessible.accDoDefaultAction
-title: IAccessible::accDoDefaultAction
+title: IAccessible::accDoDefaultAction (oleacc.h)
 author: windows-sdk-content
 description: The IAccessible::accDoDefaultAction method performs the specified object's default action. Not all objects have a default action.
 old-location: winauto\iaccessible_iaccessible__accdodefaultaction.htm

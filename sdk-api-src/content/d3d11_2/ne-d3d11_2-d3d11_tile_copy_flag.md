@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11_2.D3D11_TILE_COPY_FLAG
-title: D3D11_TILE_COPY_FLAG
+title: D3D11_TILE_COPY_FLAG (d3d11_2.h)
 author: windows-sdk-content
 description: Identifies how to copy a tile.
 old-location: direct3d11\d3d11_tile_copy_flags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcServerInterfaceGroupInqBindings
-title: RpcServerInterfaceGroupInqBindings function
+title: RpcServerInterfaceGroupInqBindings function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcServerInterfaceGroupInqBindings function returns the binding handles over which remote procedure calls can be received for the given interface group.
 old-location: rpc\rpcserverinterfacegroupinqbindings.htm

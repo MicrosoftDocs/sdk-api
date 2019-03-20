@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcom.IFaxServer
-title: IFaxServer
+title: IFaxServer (faxcom.h)
 author: windows-sdk-content
 description: The IFaxServer dual interface is used by a fax client application to manage a connection to the fax service.
 old-location: fax\_mfax_ifaxserver_client.htm

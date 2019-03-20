@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_OPERATION_TRANSFER_PLACEHOLDERS_FLAGS
-title: CF_OPERATION_TRANSFER_PLACEHOLDERS_FLAGS
+title: CF_OPERATION_TRANSFER_PLACEHOLDERS_FLAGS (cfapi.h)
 author: windows-sdk-content
 description: Flags to specify the behavior when transferring a placeholder file or directory.
 old-location: cloudapi\cf_operation_transfer_placeholders_flags.htm

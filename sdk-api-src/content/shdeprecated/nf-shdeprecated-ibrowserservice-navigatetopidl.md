@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService.NavigateToPidl
-title: IBrowserService::NavigateToPidl
+title: IBrowserService::NavigateToPidl (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Navigates the browser to the location indicated by a pointer to an item identifier list (PIDL).
 old-location: shell\IBrowserService_NavigateToPidl.htm

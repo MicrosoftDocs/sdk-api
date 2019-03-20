@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetNumber
-title: MI_SubscriptionDeliveryOptions_GetNumber function
+title: MI_SubscriptionDeliveryOptions_GetNumber function (mi.h)
 author: windows-sdk-content
 description: Gets the value of the named numeric option.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getnumber.htm

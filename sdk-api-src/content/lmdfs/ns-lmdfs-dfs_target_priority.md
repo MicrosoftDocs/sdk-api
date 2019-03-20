@@ -1,6 +1,6 @@
 ---
 UID: NS:lmdfs._DFS_TARGET_PRIORITY
-title: DFS_TARGET_PRIORITY
+title: DFS_TARGET_PRIORITY (lmdfs.h)
 author: windows-sdk-content
 description: Contains the priority class and rank of a specific DFS target.
 old-location: dfs\dfs_target_priority.htm

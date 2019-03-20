@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DVertexDeclaration9.GetDevice
-title: IDirect3DVertexDeclaration9::GetDevice
+title: IDirect3DVertexDeclaration9::GetDevice (d3d9helper.h)
 author: windows-sdk-content
 description: Gets the current device.
 old-location: direct3d9\idirect3dvertexdeclaration9__getdevice.htm

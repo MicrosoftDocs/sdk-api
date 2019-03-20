@@ -1,6 +1,6 @@
 ---
 UID: NE:dvdmedia.__unnamed_enum_3
-title: AM_DVDCOPYSTATE
+title: AM_DVDCOPYSTATE (dvdmedia.h)
 author: windows-sdk-content
 description: Specifies the copy protection state.
 old-location: dshow\am_dvdcopystate.htm

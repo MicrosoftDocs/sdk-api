@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1.D2D1_DEBUG_LEVEL
-title: D2D1_DEBUG_LEVEL
+title: D2D1_DEBUG_LEVEL (d2d1.h)
 author: windows-sdk-content
 description: Indicates the type of information provided by the Direct2D Debug Layer.
 old-location: direct2d\D2D1_DEBUG_LEVEL.htm

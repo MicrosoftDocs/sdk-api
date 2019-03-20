@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IConfigAviMux.SetOutputCompatibilityIndex
-title: IConfigAviMux::SetOutputCompatibilityIndex
+title: IConfigAviMux::SetOutputCompatibilityIndex (strmif.h)
 author: windows-sdk-content
 description: The SetOutputCompatibilityIndex method sets the AVI index format.
 old-location: dshow\iconfigavimux_setoutputcompatibilityindex.htm

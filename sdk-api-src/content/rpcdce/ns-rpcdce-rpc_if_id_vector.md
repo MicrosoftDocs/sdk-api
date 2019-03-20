@@ -1,6 +1,6 @@
 ---
 UID: NS:rpcdce.__unnamed_struct_1
-title: RPC_IF_ID_VECTOR
+title: RPC_IF_ID_VECTOR (rpcdce.h)
 author: windows-sdk-content
 description: The RPC_IF_ID_VECTOR structure contains a list of interfaces offered by a server.
 old-location: rpc\rpc_if_id_vector.htm

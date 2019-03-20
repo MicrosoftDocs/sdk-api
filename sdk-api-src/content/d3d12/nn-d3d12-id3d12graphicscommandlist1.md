@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12.ID3D12GraphicsCommandList1
-title: ID3D12GraphicsCommandList1
+title: ID3D12GraphicsCommandList1 (d3d12.h)
 author: windows-sdk-content
 description: Encapsulates a list of graphics commands for rendering, extending the interface to support programmable sample positions, atomic copies for implementing late-latch techniques, and optional depth-bounds testing.
 old-location: direct3d12\id3d12graphicscommandlist1.htm

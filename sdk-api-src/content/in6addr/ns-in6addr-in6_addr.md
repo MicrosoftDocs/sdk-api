@@ -1,6 +1,6 @@
 ---
 UID: NS:in6addr.in6_addr
-title: IN6_ADDR
+title: IN6_ADDR (in6addr.h)
 author: windows-sdk-content
 description: The IN6_ADDR structure specifies an IPv6 transport address.
 old-location: netvista\in6_addr.htm

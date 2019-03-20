@@ -1,6 +1,6 @@
 ---
 UID: NN:activationregistration.IExeServerRegistration
-title: IExeServerRegistration
+title: IExeServerRegistration (activationregistration.h)
 author: windows-sdk-content
 description: Represents a registered an out-of-process server.
 old-location: winrt\iexeserverregistration.htm

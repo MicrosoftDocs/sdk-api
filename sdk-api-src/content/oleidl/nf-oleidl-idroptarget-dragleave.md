@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IDropTarget.DragLeave
-title: IDropTarget::DragLeave
+title: IDropTarget::DragLeave (oleidl.h)
 author: windows-sdk-content
 description: Removes target feedback and releases the data object.
 old-location: com\idroptarget_dragleave.htm

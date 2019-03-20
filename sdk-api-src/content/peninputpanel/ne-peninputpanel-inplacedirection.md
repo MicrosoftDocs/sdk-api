@@ -1,6 +1,6 @@
 ---
 UID: NE:peninputpanel.__MIDL___MIDL_itf_peninputpanel_0000_0000_0006
-title: InPlaceDirection
+title: InPlaceDirection (peninputpanel.h)
 author: windows-sdk-content
 description: Specifies the preferred direction of the In-Place Input Panel relative to the text entry field.
 old-location: tablet\inplacedirection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:spatialaudiometadata.ISpatialAudioMetadataCopier
-title: ISpatialAudioMetadataCopier
+title: ISpatialAudioMetadataCopier (spatialaudiometadata.h)
 author: windows-sdk-content
 description: Provides methods for copying all or subsets of metadata items from a source SpatialAudioMetadataItems into a destination SpatialAudioMetadataItems.
 old-location: coreaudio\ispatialaudiometadatacopier.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.ICLocate
-title: ICLocate function
+title: ICLocate function (vfw.h)
 author: windows-sdk-content
 description: The ICLocate function finds a compressor or decompressor that can handle images with the specified formats, or finds a driver that can decompress an image with a specified format directly to hardware.
 old-location: multimedia\iclocate.htm

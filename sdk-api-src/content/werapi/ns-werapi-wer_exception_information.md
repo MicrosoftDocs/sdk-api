@@ -1,6 +1,6 @@
 ---
 UID: NS:werapi._WER_EXCEPTION_INFORMATION
-title: WER_EXCEPTION_INFORMATION
+title: WER_EXCEPTION_INFORMATION (werapi.h)
 author: windows-sdk-content
 description: Contains exception information for the WerReportAddDump function.
 old-location: wer\wer_exception_information.htm

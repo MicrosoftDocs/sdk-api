@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICBitmapCodecProgressNotification
-title: IWICBitmapCodecProgressNotification
+title: IWICBitmapCodecProgressNotification (wincodec.h)
 author: windows-sdk-content
 description: Exposes methods used for progress notification for encoders and decoders.
 old-location: wic\_wic_codec_iwicbitmapcodecprogressnotification.htm

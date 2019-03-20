@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReaderEx.SetNativeMediaType
-title: IMFSourceReaderEx::SetNativeMediaType
+title: IMFSourceReaderEx::SetNativeMediaType (mfreadwrite.h)
 author: windows-sdk-content
 description: Sets the native media type for a stream on the media source.
 old-location: mf\imfsourcereaderex_setnativemediatype.htm

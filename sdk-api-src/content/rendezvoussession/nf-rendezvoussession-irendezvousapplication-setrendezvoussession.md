@@ -1,6 +1,6 @@
 ---
 UID: NF:rendezvoussession.IRendezvousApplication.SetRendezvousSession
-title: IRendezvousApplication::SetRendezvousSession
+title: IRendezvousApplication::SetRendezvousSession (rendezvoussession.h)
 author: windows-sdk-content
 description: Passes IRendezvousSession to the Windows Remote Assistance application. This method is used by the instant messaging application.
 old-location: remoteassist\remoteassist_IRendezvousApplication_SetRendezvousSession.htm

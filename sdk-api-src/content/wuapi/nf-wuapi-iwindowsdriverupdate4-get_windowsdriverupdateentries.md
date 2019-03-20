@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate4.get_WindowsDriverUpdateEntries
-title: IWindowsDriverUpdate4::get_WindowsDriverUpdateEntries
+title: IWindowsDriverUpdate4::get_WindowsDriverUpdateEntries (wuapi.h)
 author: windows-sdk-content
 description: Gets the driver update entries that are applicable for the update.
 old-location: wua\iwindowsdriverupdate4_windowsdriverupdateentries.htm

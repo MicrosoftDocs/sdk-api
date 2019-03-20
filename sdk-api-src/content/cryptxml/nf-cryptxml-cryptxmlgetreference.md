@@ -1,6 +1,6 @@
 ---
 UID: NF:cryptxml.CryptXmlGetReference
-title: CryptXmlGetReference function
+title: CryptXmlGetReference function (cryptxml.h)
 author: windows-sdk-content
 description: Returns the Reference element specified by the supplied handle.
 old-location: security\cryptxmlgetreference.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.GetFolderSetData
-title: IBrowserService2::GetFolderSetData
+title: IBrowserService2::GetFolderSetData (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Gets a structure containing folder information.
 old-location: shell\IBrowserService2_GetFolderSetData.htm

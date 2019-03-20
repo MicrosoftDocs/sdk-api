@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage.get_SubmissionId
-title: IFaxOutgoingMessage::get_SubmissionId
+title: IFaxOutgoingMessage::get_SubmissionId (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingMessage::get_SubmissionId property is a null-terminated string that contains the unique identifier assigned to the fax message during the submission process.
 old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_submissionid_cpp.htm

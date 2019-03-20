@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.put_SessionName
-title: ITraceDataCollector::put_SessionName
+title: ITraceDataCollector::put_SessionName (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the name of the session.
 old-location: pla\itracedatacollector_sessionname.htm

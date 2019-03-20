@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITTAPIObjectEvent.get_TAPIObject
-title: ITTAPIObjectEvent::get_TAPIObject
+title: ITTAPIObjectEvent::get_TAPIObject (tapi3if.h)
 author: windows-sdk-content
 description: The get_TAPIObject method gets a pointer to the TAPI object on which the event occurred.
 old-location: tapi3\ittapiobjectevent_get_tapiobject.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IProvideTaskPage.GetPage
-title: IProvideTaskPage::GetPage
+title: IProvideTaskPage::GetPage (mstask.h)
 author: windows-sdk-content
 description: This method retrieves one or more property sheet pages associated with a task object.
 old-location: taskschd\iprovidetaskpage_getpage.htm

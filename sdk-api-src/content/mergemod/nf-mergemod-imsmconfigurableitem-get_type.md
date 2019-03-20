@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmConfigurableItem.get_Type
-title: IMsmConfigurableItem::get_Type
+title: IMsmConfigurableItem::get_Type (mergemod.h)
 author: windows-sdk-content
 description: The get_Type method retrieves the Type property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_type.htm

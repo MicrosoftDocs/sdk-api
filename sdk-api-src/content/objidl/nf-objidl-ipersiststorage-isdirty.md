@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IPersistStorage.IsDirty
-title: IPersistStorage::IsDirty
+title: IPersistStorage::IsDirty (objidl.h)
 author: windows-sdk-content
 description: Determines whether an object has changed since it was last saved to its current storage.
 old-location: com\ipersiststorage_isdirty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strsafe.StringCchCatNExW
-title: StringCchCatNExW function
+title: StringCchCatNExW function (strsafe.h)
 author: windows-sdk-content
 description: Concatenates the specified number of characters from one string to another string.
 old-location: menurc\stringcchcatnex.htm

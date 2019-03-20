@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertEnumCTLContextProperties
-title: CertEnumCTLContextProperties function
+title: CertEnumCTLContextProperties function (wincrypt.h)
 author: windows-sdk-content
 description: The CertEnumCTLContextProperties function retrieves the first or next extended property associated with a certificate trust list (CTL) context. Used in a loop, this function can retrieve in sequence all extended properties associated with a CTL context.
 old-location: security\certenumctlcontextproperties.htm

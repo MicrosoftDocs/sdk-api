@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITFileTrack.put_Format
-title: ITFileTrack::put_Format
+title: ITFileTrack::put_Format (tapi3if.h)
 author: windows-sdk-content
 description: The put_Format method sets the format type of the track.
 old-location: tapi3\itfiletrack_put_format.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_RawDataToBeSigned
-title: IX509CertificateRequestPkcs10::get_RawDataToBeSigned
+title: IX509CertificateRequestPkcs10::get_RawDataToBeSigned (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the unsigned certificate request created by the Encode method.
 old-location: security\ix509certificaterequestpkcs10_rawdatatobesigned_property.htm

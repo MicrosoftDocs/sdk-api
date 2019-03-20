@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPStringCollection.get_count
-title: IWMPStringCollection::get_count
+title: IWMPStringCollection::get_count (wmp.h)
 author: windows-sdk-content
 description: The get_count method retrieves the number of items in the string collection.
 old-location: wmp\iwmpstringcollection_get_count.htm

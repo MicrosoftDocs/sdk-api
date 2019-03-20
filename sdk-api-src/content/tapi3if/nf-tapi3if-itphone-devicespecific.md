@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.DeviceSpecific
-title: ITPhone::DeviceSpecific
+title: ITPhone::DeviceSpecific (tapi3if.h)
 author: windows-sdk-content
 description: The DeviceSpecific method enables service providers to provide access to device specific features not offered by other TAPI functions.
 old-location: tapi3\itphone_devicespecific.htm

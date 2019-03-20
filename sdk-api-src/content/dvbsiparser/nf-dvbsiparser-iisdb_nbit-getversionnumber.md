@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_NBIT.GetVersionNumber
-title: IISDB_NBIT::GetVersionNumber
+title: IISDB_NBIT::GetVersionNumber (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the version number of a subtable within an Integrated Services Digital Broadcasting (ISDB) network broadcaster Information Table (NBIT).
 old-location: mstv\iisdb_nbit_getversionnumber.htm

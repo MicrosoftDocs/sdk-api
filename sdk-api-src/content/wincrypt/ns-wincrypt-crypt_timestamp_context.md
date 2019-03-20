@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_TIMESTAMP_CONTEXT
-title: CRYPT_TIMESTAMP_CONTEXT
+title: CRYPT_TIMESTAMP_CONTEXT (wincrypt.h)
 author: windows-sdk-content
 description: Contains both the encoded and decoded representations of a time stamp token.
 old-location: security\crypt_timestamp_context.htm

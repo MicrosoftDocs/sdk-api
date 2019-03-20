@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFGetService.GetService
-title: IMFGetService::GetService
+title: IMFGetService::GetService (mfidl.h)
 author: windows-sdk-content
 description: Retrieves a service interface.
 old-location: mf\imfgetservice_getservice.htm

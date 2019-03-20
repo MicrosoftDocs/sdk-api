@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComMethodEvents.OnMethodReturn
-title: IComMethodEvents::OnMethodReturn
+title: IComMethodEvents::OnMethodReturn (comsvcs.h)
 author: windows-sdk-content
 description: Generated when an object's method returns.
 old-location: cos\icommethodevents_onmethodreturn.htm

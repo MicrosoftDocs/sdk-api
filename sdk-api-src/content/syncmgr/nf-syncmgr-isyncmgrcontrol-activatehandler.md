@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.ActivateHandler
-title: ISyncMgrControl::ActivateHandler
+title: ISyncMgrControl::ActivateHandler (syncmgr.h)
 author: windows-sdk-content
 description: Activates or deactivates a handler.
 old-location: shell\ISyncMgrControl_ActivateHandler.htm

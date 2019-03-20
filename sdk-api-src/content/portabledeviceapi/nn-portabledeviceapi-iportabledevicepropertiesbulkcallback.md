@@ -1,6 +1,6 @@
 ---
 UID: NN:portabledeviceapi.IPortableDevicePropertiesBulkCallback
-title: IPortableDevicePropertiesBulkCallback
+title: IPortableDevicePropertiesBulkCallback (portabledeviceapi.h)
 author: windows-sdk-content
 description: The IPortableDevicePropertiesBulkCallback interface is implemented by the application to track the progress of an asynchronous operation that was begun by using the IPortableDevicePropertiesBulk interface.After the application calls IPortableDevicePropertiesBulk::Start, Windows Portable Devices calls IPortableDevicePropertiesBulkCallback::OnStart first, and then repeatedly calls IPortableDevicePropertiesBulkCallback::OnProgress with information until the operation is completed or the application calls IPortableDevicePropertiesBulk::Cancel or returns an error value for OnProgress. Finally, regardless of whether the operation completed successfully, Windows Portable Devices calls IPortableDevicePropertiesBulkCallback::OnEnd.
 old-location: wpdsdk\iportabledevicepropertiesbulkcallback.htm

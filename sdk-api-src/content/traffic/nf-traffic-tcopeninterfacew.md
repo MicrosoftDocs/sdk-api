@@ -1,6 +1,6 @@
 ---
 UID: NF:traffic.TcOpenInterfaceW
-title: TcOpenInterfaceW function
+title: TcOpenInterfaceW function (traffic.h)
 author: windows-sdk-content
 description: The TcOpenInterface function opens an interface.
 old-location: qos\tcopeninterface.htm

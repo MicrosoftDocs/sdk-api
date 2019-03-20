@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IObjMgr.Remove
-title: IObjMgr::Remove
+title: IObjMgr::Remove (shlobj_core.h)
 author: windows-sdk-content
 description: Removes an object from the collection of managed objects.
 old-location: shell\IObjMgr_Remove.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.SetDefaultLanguageProfile
-title: ITfInputProcessorProfiles::SetDefaultLanguageProfile
+title: ITfInputProcessorProfiles::SetDefaultLanguageProfile (msctf.h)
 author: windows-sdk-content
 description: ITfInputProcessorProfiles::SetDefaultLanguageProfile method
 old-location: tsf\itfinputprocessorprofiles_setdefaultlanguageprofile.htm

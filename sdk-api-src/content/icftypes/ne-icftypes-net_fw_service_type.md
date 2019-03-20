@@ -1,6 +1,6 @@
 ---
 UID: NE:icftypes.NET_FW_SERVICE_TYPE_
-title: NET_FW_SERVICE_TYPE
+title: NET_FW_SERVICE_TYPE (icftypes.h)
 author: windows-sdk-content
 description: Specifies the type of service.
 old-location: ics\net_fw_service_type.htm

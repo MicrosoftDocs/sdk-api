@@ -1,6 +1,6 @@
 ---
 UID: NS:mstcpip._ASSOCIATE_NAMERES_CONTEXT_INPUT
-title: ASSOCIATE_NAMERES_CONTEXT_INPUT
+title: ASSOCIATE_NAMERES_CONTEXT_INPUT (mstcpip.h)
 author: windows-sdk-content
 description: Contains the transport setting ID and handle to a fully qualified domain name.
 old-location: winsock\associate_nameres_context_input.htm

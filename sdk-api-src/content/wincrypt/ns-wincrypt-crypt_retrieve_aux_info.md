@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_RETRIEVE_AUX_INFO
-title: CRYPT_RETRIEVE_AUX_INFO
+title: CRYPT_RETRIEVE_AUX_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains optional information to pass to the CryptRetrieveObjectByUrl function.
 old-location: security\crypt_retrieve_aux_info.htm

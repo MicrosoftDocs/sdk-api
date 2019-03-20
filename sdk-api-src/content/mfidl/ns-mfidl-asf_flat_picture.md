@@ -1,6 +1,6 @@
 ---
 UID: NS:mfidl._ASFFlatPicture
-title: ASF_FLAT_PICTURE
+title: ASF_FLAT_PICTURE (mfidl.h)
 author: windows-sdk-content
 description: Contains an image that is stored as metadata for a media source. This structure is used as the data item for the WM/Picture metadata attribute.
 old-location: mf\asf_flat_picture.htm

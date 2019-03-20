@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetVersion
-title: ICreateTypeInfo::SetVersion
+title: ICreateTypeInfo::SetVersion (oaidl.h)
 author: windows-sdk-content
 description: Sets the major and minor version number of the type information.
 old-location: automat\icreatetypeinfo_setversion.htm

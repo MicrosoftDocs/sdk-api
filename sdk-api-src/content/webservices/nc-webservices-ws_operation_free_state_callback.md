@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_OPERATION_FREE_STATE_CALLBACK
-title: WS_OPERATION_FREE_STATE_CALLBACK
+title: WS_OPERATION_FREE_STATE_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Allows an application to cleanup state information that was registered with cancellation callback.
 old-location: wsw\ws_operation_free_state_callback.htm

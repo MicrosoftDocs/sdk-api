@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMLoadUInt2
-title: XMLoadUInt2 function
+title: XMLoadUInt2 function (directxmath.h)
 author: windows-sdk-content
 description: Loads unsigned integer data into the x and y components of an XMVECTOR.
 old-location: dxmath\xmloaduint2.htm

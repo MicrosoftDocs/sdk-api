@@ -1,6 +1,6 @@
 ---
 UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0000_0008
-title: RDPSRAPI_APP_FLAGS
+title: RDPSRAPI_APP_FLAGS (rdpencomapi.h)
 author: windows-sdk-content
 description: Defines values for the type of application.
 old-location: rdp\rdpsrapi_app_flags.htm

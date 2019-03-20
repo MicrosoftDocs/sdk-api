@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_EVENT
-title: WSD_EVENT
+title: WSD_EVENT (wsdtypes.h)
 author: windows-sdk-content
 description: Provides an internal representation of a SOAP message.
 old-location: ncd\wsd_event_struct.htm

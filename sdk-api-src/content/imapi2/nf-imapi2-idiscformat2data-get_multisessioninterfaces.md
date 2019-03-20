@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_MultisessionInterfaces
-title: IDiscFormat2Data::get_MultisessionInterfaces
+title: IDiscFormat2Data::get_MultisessionInterfaces (imapi2.h)
 author: windows-sdk-content
 description: Retrieves a list of available multi-session interfaces.
 old-location: imapi\idiscformat2data_get_multisessioninterfaces.htm

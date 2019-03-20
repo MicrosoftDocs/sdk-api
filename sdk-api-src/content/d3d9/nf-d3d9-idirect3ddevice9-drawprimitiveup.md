@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.DrawPrimitiveUP
-title: IDirect3DDevice9::DrawPrimitiveUP
+title: IDirect3DDevice9::DrawPrimitiveUP (d3d9.h)
 author: windows-sdk-content
 description: Renders data specified by a user memory pointer as a sequence of geometric primitives of the specified type.
 old-location: direct3d9\idirect3ddevice9__drawprimitiveup.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.ShutdownBlockReasonQuery
-title: ShutdownBlockReasonQuery function
+title: ShutdownBlockReasonQuery function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the reason string set by the ShutdownBlockReasonCreate function.
 old-location: base\shutdownblockreasonquery.htm

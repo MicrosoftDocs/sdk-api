@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.EndDraw
-title: ID2D1RenderTarget::EndDraw
+title: ID2D1RenderTarget::EndDraw (d2d1.h)
 author: windows-sdk-content
 description: Ends drawing operations on the render target and indicates the current error state and associated tags.
 old-location: direct2d\ID2D1RenderTarget_EndDraw.htm

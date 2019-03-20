@@ -1,6 +1,6 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationDeferContactService
-title: IDirectManipulationDeferContactService
+title: IDirectManipulationDeferContactService (directmanipulation.h)
 author: windows-sdk-content
 description: Represents a service for managing associations between a contact and a viewport.
 old-location: directmanipulation\idirectmanipulationdefercontactservice.htm

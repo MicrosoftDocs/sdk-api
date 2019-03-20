@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemLocator.ConnectServer
-title: IWbemLocator::ConnectServer
+title: IWbemLocator::ConnectServer (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemLocator::ConnectServer method creates a connection through DCOM to a WMI namespace on the computer specified in the strNetworkResource parameter.
 old-location: wmi\iwbemlocator_connectserver.htm

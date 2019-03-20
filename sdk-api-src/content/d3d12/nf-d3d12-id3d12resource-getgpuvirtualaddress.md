@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Resource.GetGPUVirtualAddress
-title: ID3D12Resource::GetGPUVirtualAddress
+title: ID3D12Resource::GetGPUVirtualAddress (d3d12.h)
 author: windows-sdk-content
 description: This method returns the GPU virtual address of a buffer resource.
 old-location: direct3d12\id3d12resource_getgpuvirtualaddress.htm

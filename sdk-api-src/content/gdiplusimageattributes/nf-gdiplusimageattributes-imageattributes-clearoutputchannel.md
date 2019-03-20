@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.ClearOutputChannel
-title: ImageAttributes::ClearOutputChannel
+title: ImageAttributes::ClearOutputChannel (gdiplusimageattributes.h)
 author: windows-sdk-content
 description: The ImageAttributes::ClearOutputChannel method clears the cyan-magenta-yellow-black (CMYK) output channel setting for a specified category.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_ClearOutputChannel_type_.htm

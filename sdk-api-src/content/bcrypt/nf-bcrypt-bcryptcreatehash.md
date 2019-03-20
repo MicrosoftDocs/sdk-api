@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptCreateHash
-title: BCryptCreateHash function
+title: BCryptCreateHash function (bcrypt.h)
 author: windows-sdk-content
 description: Called to create a hash or Message Authentication Code (MAC) object.
 old-location: security\bcryptcreatehash_func.htm

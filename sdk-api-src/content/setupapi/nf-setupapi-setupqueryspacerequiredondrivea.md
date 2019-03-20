@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupQuerySpaceRequiredOnDriveA
-title: SetupQuerySpaceRequiredOnDriveA function
+title: SetupQuerySpaceRequiredOnDriveA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupQuerySpaceRequiredOnDrive function examines a disk space list to determine the space that is required to perform all the file operations listed for a specific drive.
 old-location: setup\setupqueryspacerequiredondrive.htm

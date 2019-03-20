@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._FILE_STORAGE_TIER
-title: FILE_STORAGE_TIER
+title: FILE_STORAGE_TIER (winioctl.h)
 author: windows-sdk-content
 description: Represents an identifier for the storage tier relative to the volume.
 old-location: fs\file_storage_tier.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.LoadModule
-title: LoadModule function
+title: LoadModule function (winbase.h)
 author: windows-sdk-content
 description: Loads and executes an application or creates a new instance of an existing application.
 old-location: base\loadmodule.htm

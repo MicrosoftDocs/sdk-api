@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmReportFilter
-title: FsrmReportFilter
+title: FsrmReportFilter (fsrmenums.h)
 author: windows-sdk-content
 description: Defines the filters that you can use to limit the files that are included in a report.
 old-location: fsrm\fsrmreportfilter.htm

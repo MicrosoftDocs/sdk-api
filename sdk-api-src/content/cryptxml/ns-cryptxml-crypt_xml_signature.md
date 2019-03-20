@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_SIGNATURE
-title: CRYPT_XML_SIGNATURE
+title: CRYPT_XML_SIGNATURE (cryptxml.h)
 author: windows-sdk-content
 description: Contains information used to populate the Signature element.
 old-location: security\crypt_xml_signature.htm

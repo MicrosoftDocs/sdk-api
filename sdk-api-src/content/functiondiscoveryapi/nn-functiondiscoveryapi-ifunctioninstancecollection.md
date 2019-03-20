@@ -1,6 +1,6 @@
 ---
 UID: NN:functiondiscoveryapi.IFunctionInstanceCollection
-title: IFunctionInstanceCollection
+title: IFunctionInstanceCollection (functiondiscoveryapi.h)
 author: windows-sdk-content
 description: Represents a group of IFunctionInstance objects returned as the result of a query or get instance request.
 old-location: ncd\ifunctioninstancecollection.htm

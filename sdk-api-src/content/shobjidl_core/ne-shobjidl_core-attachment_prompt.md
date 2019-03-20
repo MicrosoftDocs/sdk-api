@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.ATTACHMENT_PROMPT
-title: ATTACHMENT_PROMPT
+title: ATTACHMENT_PROMPT (shobjidl_core.h)
 author: windows-sdk-content
 description: Provides a set of flags to be used with IAttachmentExecute::Prompt to indicate the type of prompt UI to display.
 old-location: shell\ATTACHMENT_PROMPT.htm

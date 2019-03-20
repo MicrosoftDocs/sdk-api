@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.GenericSerif
-title: FontFamily::GenericSerif
+title: FontFamily::GenericSerif (gdiplusheaders.h)
 author: windows-sdk-content
 description: The FontFamily::GenericSerif method gets a FontFamily object that represents a generic serif typeface.
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_GenericSerif_.htm

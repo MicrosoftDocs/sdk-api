@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetModified
-title: IXpsOMCoreProperties::GetModified
+title: IXpsOMCoreProperties::GetModified (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the modified property.
 old-location: xps\ixpsomcoreproperties_getmodified.htm

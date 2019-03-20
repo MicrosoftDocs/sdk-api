@@ -1,6 +1,6 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerQueryInteractiveUIInputFields
-title: EapHostPeerQueryInteractiveUIInputFields function
+title: EapHostPeerQueryInteractiveUIInputFields function (eaphostpeerconfigapis.h)
 author: windows-sdk-content
 description: Obtains the input fields for interactive UI components to be raised on the supplicant.
 old-location: eaphost\eaphostpeerqueryinteractiveuiinputfields.htm

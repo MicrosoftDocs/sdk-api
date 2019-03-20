@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.NetworkIsolationRegisterForAppContainerChanges
-title: NetworkIsolationRegisterForAppContainerChanges function
+title: NetworkIsolationRegisterForAppContainerChanges function (netfw.h)
 author: windows-sdk-content
 description: Is used to register for the delivery of notifications regarding changes to an app container.
 old-location: ics\networkisolationregisterforappcontainerchanges.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut.IInkRectangle
-title: IInkRectangle
+title: IInkRectangle (msinkaut.h)
 author: windows-sdk-content
 description: "."
 old-location: tablet\iinkrectangle.htm

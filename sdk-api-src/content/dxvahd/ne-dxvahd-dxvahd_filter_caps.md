@@ -1,6 +1,6 @@
 ---
 UID: NE:dxvahd._DXVAHD_FILTER_CAPS
-title: DXVAHD_FILTER_CAPS
+title: DXVAHD_FILTER_CAPS (dxvahd.h)
 author: windows-sdk-content
 description: Defines capabilities related to image adjustment and filtering for a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\dxvahd_filter_caps.htm

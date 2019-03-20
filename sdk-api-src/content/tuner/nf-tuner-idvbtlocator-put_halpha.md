@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBTLocator.put_HAlpha
-title: IDVBTLocator::put_HAlpha
+title: IDVBTLocator::put_HAlpha (tuner.h)
 author: windows-sdk-content
 description: The put_HAlpha method sets the hierarchy alpha.
 old-location: mstv\idvbtlocator_put_halpha.htm

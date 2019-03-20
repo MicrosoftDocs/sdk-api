@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationElement
-title: IUIAutomationElement
+title: IUIAutomationElement (uiautomationclient.h)
 author: windows-sdk-content
 description: Exposes methods and properties for a UI Automation element, which represents a UI item.
 old-location: winauto\uiauto_IUIAutomationElement.htm

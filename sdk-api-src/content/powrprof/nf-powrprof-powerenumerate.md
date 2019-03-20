@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerEnumerate
-title: PowerEnumerate function
+title: PowerEnumerate function (powrprof.h)
 author: windows-sdk-content
 description: Enumerates the specified elements in a power scheme.
 old-location: base\powerenumerate.htm

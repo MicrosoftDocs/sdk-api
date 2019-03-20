@@ -1,6 +1,6 @@
 ---
 UID: NC:dxmini.PDX_IRQCALLBACK
-title: PDX_IRQCALLBACK
+title: PDX_IRQCALLBACK (dxmini.h)
 author: windows-sdk-content
 description: The IRQCallback function performs operations related to the IRQ that occurred.
 old-location: display\irqcallback.htm

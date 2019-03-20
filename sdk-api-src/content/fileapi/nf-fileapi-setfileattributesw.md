@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.SetFileAttributesW
-title: SetFileAttributesW function
+title: SetFileAttributesW function (fileapi.h)
 author: windows-sdk-content
 description: Sets the attributes for a file or directory.
 old-location: fs\setfileattributes.htm

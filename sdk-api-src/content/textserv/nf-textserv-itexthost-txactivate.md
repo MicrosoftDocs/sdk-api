@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxActivate
-title: ITextHost::TxActivate
+title: ITextHost::TxActivate (textserv.h)
 author: windows-sdk-content
 description: Notifies the text host that the control is active.
 old-location: controls\ITextHost_TxActivate.htm

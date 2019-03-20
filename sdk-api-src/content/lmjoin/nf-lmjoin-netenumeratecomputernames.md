@@ -1,6 +1,6 @@
 ---
 UID: NF:lmjoin.NetEnumerateComputerNames
-title: NetEnumerateComputerNames function
+title: NetEnumerateComputerNames function (lmjoin.h)
 author: windows-sdk-content
 description: Enumerates names for the specified computer.
 old-location: netmgmt\netenumeratecomputernames.htm

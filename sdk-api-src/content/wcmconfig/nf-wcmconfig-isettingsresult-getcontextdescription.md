@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsResult.GetContextDescription
-title: ISettingsResult::GetContextDescription
+title: ISettingsResult::GetContextDescription (wcmconfig.h)
 author: windows-sdk-content
 description: Returns the description of the context that surrounds the error.
 old-location: smi\isettingsresult_getcontextdescription.htm

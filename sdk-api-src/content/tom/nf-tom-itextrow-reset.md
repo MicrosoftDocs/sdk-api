@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.Reset
-title: ITextRow::Reset
+title: ITextRow::Reset (tom.h)
 author: windows-sdk-content
 description: Resets a row.
 old-location: controls\itextrow_reset.htm

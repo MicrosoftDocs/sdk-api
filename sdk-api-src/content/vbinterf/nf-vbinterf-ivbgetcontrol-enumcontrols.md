@@ -1,6 +1,6 @@
 ---
 UID: NF:vbinterf.IVBGetControl.EnumControls
-title: IVBGetControl::EnumControls
+title: IVBGetControl::EnumControls (vbinterf.h)
 author: windows-sdk-content
 description: Enumerates the controls on the form.
 old-location: com\ivbgetcontrol_enumcontrols.htm

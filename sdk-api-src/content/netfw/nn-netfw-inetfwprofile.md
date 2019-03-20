@@ -1,6 +1,6 @@
 ---
 UID: NN:netfw.INetFwProfile
-title: INetFwProfile
+title: INetFwProfile (netfw.h)
 author: windows-sdk-content
 description: The INetFwProfile interface provides access to the firewall settings profile.
 old-location: ics\inetfwprofile.htm

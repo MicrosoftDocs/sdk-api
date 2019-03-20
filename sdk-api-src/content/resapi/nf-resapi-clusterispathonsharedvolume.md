@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ClusterIsPathOnSharedVolume
-title: ClusterIsPathOnSharedVolume function
+title: ClusterIsPathOnSharedVolume function (resapi.h)
 author: windows-sdk-content
 description: Determines whether a path is on a cluster shared volume.
 old-location: mscs\clusterispathonsharedvolume.htm

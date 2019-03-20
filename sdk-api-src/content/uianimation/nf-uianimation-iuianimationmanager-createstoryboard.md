@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.CreateStoryboard
-title: IUIAnimationManager::CreateStoryboard
+title: IUIAnimationManager::CreateStoryboard (uianimation.h)
 author: windows-sdk-content
 description: Creates a new storyboard.
 old-location: uianimation\iuianimationmanager_createstoryboard.htm

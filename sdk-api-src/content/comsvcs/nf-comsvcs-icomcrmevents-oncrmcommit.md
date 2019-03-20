@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMCommit
-title: IComCRMEvents::OnCRMCommit
+title: IComCRMEvents::OnCRMCommit (comsvcs.h)
 author: windows-sdk-content
 description: Generated when CRM clerk receives a commit notification to pass on to the CRM compensator.
 old-location: cos\icomcrmevents_oncrmcommit.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:memorybuffer.IMemoryBufferByteAccess.GetBuffer
-title: IMemoryBufferByteAccess::GetBuffer
+title: IMemoryBufferByteAccess::GetBuffer (memorybuffer.h)
 author: windows-sdk-content
 description: Gets an IMemoryBuffer as an array of bytes.
 old-location: winrt\imemorybufferbyteaccess_getbuffer.htm

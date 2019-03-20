@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll2.SetHStoreROOT
-title: IEnroll2::SetHStoreROOT
+title: IEnroll2::SetHStoreROOT (xenroll.h)
 author: windows-sdk-content
 description: The SetHStoreROOT method specifies the handle to use for the Root store. This method was first defined in the IEnroll2 interface.
 old-location: security\ienroll4_sethstoreroot.htm

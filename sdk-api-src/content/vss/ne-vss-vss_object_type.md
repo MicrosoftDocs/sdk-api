@@ -1,6 +1,6 @@
 ---
 UID: NE:vss._VSS_OBJECT_TYPE
-title: VSS_OBJECT_TYPE
+title: VSS_OBJECT_TYPE (vss.h)
 author: windows-sdk-content
 description: Used by requesters to identify an object as a shadow copy set, shadow copy, or provider.
 old-location: base\vss_object_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbGlobalStore.EnumerateTargets
-title: ITsSbGlobalStore::EnumerateTargets
+title: ITsSbGlobalStore::EnumerateTargets (sbtsv.h)
 author: windows-sdk-content
 description: Returns an array that contains the specified targets present in the global store.
 old-location: termserv\itssbglobalstore_enumeratetargets.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMStatusCallback
-title: IWMStatusCallback
+title: IWMStatusCallback (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMStatusCallback interface is implemented by the application to receive status information from various objects.
 old-location: wmformat\iwmstatuscallback.htm

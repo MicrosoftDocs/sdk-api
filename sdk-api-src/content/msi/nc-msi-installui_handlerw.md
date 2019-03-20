@@ -1,6 +1,6 @@
 ---
 UID: NC:msi.INSTALLUI_HANDLERW
-title: INSTALLUI_HANDLERW
+title: INSTALLUI_HANDLERW (msi.h)
 author: windows-sdk-content
 description: The INSTALLUI_HANDLER function prototype defines a callback function that the installer calls for progress notification and error messages.
 old-location: setup\installui_handler.htm

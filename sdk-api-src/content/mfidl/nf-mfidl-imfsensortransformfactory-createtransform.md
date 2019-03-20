@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorTransformFactory.CreateTransform
-title: IMFSensorTransformFactory::CreateTransform
+title: IMFSensorTransformFactory::CreateTransform (mfidl.h)
 author: windows-sdk-content
 description: Called by the media pipeline to create the transform.
 old-location: mf\imfsensortransformfactory_createtransform.htm

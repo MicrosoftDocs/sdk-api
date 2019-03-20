@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTarget.get_TargetNetbios
-title: ITsSbTarget::get_TargetNetbios
+title: ITsSbTarget::get_TargetNetbios (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves or specifies the NetBIOS name of the target.
 old-location: termserv\itssbtarget_targetnetbios.htm

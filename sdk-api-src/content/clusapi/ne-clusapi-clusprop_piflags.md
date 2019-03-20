@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.CLUSPROP_PIFLAGS
-title: CLUSPROP_PIFLAGS
+title: CLUSPROP_PIFLAGS (clusapi.h)
 author: windows-sdk-content
 description: Represents disk partition information. The enumeration flags identify certain properties of a disk partition, which is a storage class resource.
 old-location: mscs\clusprop_piflags.htm

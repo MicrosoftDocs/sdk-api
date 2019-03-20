@@ -1,6 +1,6 @@
 ---
 UID: NE:structuredquery.tagSTRUCTURED_QUERY_MULTIOPTION
-title: STRUCTURED_QUERY_MULTIOPTION
+title: STRUCTURED_QUERY_MULTIOPTION (structuredquery.h)
 author: windows-sdk-content
 description: A set of flags used by IQueryParser::SetMultiOption to indicate individual options.
 old-location: search\_search_STRUCTURED_QUERY_MULTIOPTION.htm

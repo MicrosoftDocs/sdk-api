@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMAddressAccess2
-title: IWMAddressAccess2
+title: IWMAddressAccess2 (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMAddressAccess2 interface controls IP access lists on the writer network sink object.
 old-location: wmformat\iwmaddressaccess2.htm

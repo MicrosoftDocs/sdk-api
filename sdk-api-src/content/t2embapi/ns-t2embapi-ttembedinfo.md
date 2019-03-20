@@ -1,6 +1,6 @@
 ---
 UID: NS:t2embapi.__unnamed_struct_1
-title: TTEMBEDINFO
+title: TTEMBEDINFO (t2embapi.h)
 author: windows-sdk-content
 description: The TTEMBEDINFO structure contains a list of URLs from which the embedded font object may be legitimately referenced.
 old-location: gdi\ttembedinfo.htm

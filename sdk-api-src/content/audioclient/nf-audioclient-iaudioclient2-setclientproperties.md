@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioClient2.SetClientProperties
-title: IAudioClient2::SetClientProperties
+title: IAudioClient2::SetClientProperties (audioclient.h)
 author: windows-sdk-content
 description: Sets the properties of the audio stream by populating an AudioClientProperties structure.
 old-location: coreaudio\iaudioclient2_setclientproperties.htm

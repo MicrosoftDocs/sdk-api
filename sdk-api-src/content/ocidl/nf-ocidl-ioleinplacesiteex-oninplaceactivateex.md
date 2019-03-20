@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteEx.OnInPlaceActivateEx
-title: IOleInPlaceSiteEx::OnInPlaceActivateEx
+title: IOleInPlaceSiteEx::OnInPlaceActivateEx (ocidl.h)
 author: windows-sdk-content
 description: Called by the embedded object to determine whether it needs to redraw itself upon activation.
 old-location: com\ioleinplacesiteex_oninplaceactivateex.htm

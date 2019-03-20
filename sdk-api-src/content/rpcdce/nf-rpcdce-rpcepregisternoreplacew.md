@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcEpRegisterNoReplaceW
-title: RpcEpRegisterNoReplaceW function
+title: RpcEpRegisterNoReplaceW function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcEpRegisterNoReplace function adds server-address information to the local endpoint-map database.
 old-location: rpc\rpcepregisternoreplace.htm

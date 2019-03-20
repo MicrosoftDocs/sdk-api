@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndPlayFrom
-title: MCIWndPlayFrom macro
+title: MCIWndPlayFrom macro (vfw.h)
 author: windows-sdk-content
 description: The MCIWndPlayFrom macro plays the content of an MCI device from the specified location to the end of the content or until another command stops playback. You can use this macro or explicitly send the MCIWNDM_PLAYFROM message.
 old-location: multimedia\mciwndplayfrom.htm

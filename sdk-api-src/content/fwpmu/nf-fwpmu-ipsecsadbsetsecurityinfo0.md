@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.IPsecSaDbSetSecurityInfo0
-title: IPsecSaDbSetSecurityInfo0 function
+title: IPsecSaDbSetSecurityInfo0 function (fwpmu.h)
 author: windows-sdk-content
 description: Sets specified security information in the security descriptor of the IPsec security association database.
 old-location: fwp\ipsecsadbsetsecurityinfo0.htm

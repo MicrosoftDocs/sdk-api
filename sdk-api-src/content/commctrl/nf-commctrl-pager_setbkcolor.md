@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Pager_SetBkColor
-title: Pager_SetBkColor macro
+title: Pager_SetBkColor macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the current background color for the pager control. You can use this macro or send the PGM_SETBKCOLOR message explicitly.
 old-location: controls\Pager_SetBkColor.htm

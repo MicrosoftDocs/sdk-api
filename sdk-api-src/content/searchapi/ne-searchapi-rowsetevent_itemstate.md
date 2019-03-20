@@ -1,6 +1,6 @@
 ---
 UID: NE:searchapi.__MIDL___MIDL_itf_searchapi_0000_0023_0001
-title: ROWSETEVENT_ITEMSTATE
+title: ROWSETEVENT_ITEMSTATE (searchapi.h)
 author: windows-sdk-content
 description: Describes whether an item that matches the search criteria of a rowset is currently in that rowset.
 old-location: search\_search_ROWSETEVENT_ITEMSTATE.htm

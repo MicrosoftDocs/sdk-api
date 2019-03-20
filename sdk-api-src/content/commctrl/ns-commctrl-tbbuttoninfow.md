@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.__unnamed_struct_3
-title: TBBUTTONINFOW
+title: TBBUTTONINFOW (commctrl.h)
 author: windows-sdk-content
 description: Contains or receives information for a specific button in a toolbar.
 old-location: controls\TBBUTTONINFO.htm

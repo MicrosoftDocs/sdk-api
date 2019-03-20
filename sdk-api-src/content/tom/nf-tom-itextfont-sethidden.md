@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.SetHidden
-title: ITextFont::SetHidden
+title: ITextFont::SetHidden (tom.h)
 author: windows-sdk-content
 description: Sets whether characters are hidden.
 old-location: controls\ITextFont_SetHidden.htm

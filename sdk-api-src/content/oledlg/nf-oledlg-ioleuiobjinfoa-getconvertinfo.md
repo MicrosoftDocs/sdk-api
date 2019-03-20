@@ -1,6 +1,6 @@
 ---
 UID: NF:oledlg.IOleUIObjInfoA.GetConvertInfo
-title: IOleUIObjInfoA::GetConvertInfo
+title: IOleUIObjInfoA::GetConvertInfo (oledlg.h)
 author: windows-sdk-content
 description: Gets the conversion information associated with the specified object.
 old-location: com\ioleuiobjinfo_getconvertinfo.htm

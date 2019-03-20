@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICBitmapEncoder
-title: IWICBitmapEncoder
+title: IWICBitmapEncoder (wincodec.h)
 author: windows-sdk-content
 description: Defines methods for setting an encoder's properties such as thumbnails, frames, and palettes.
 old-location: wic\_wic_codec_iwicbitmapencoder.htm

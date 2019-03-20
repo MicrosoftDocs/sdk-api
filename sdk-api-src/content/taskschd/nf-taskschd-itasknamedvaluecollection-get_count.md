@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskNamedValueCollection.get_Count
-title: ITaskNamedValueCollection::get_Count
+title: ITaskNamedValueCollection::get_Count (taskschd.h)
 author: windows-sdk-content
 description: Gets the number of name-value pairs in the collection.
 old-location: taskschd\itasknamedvaluecollection_count.htm

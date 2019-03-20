@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.SetStreamName
-title: IWMStreamConfig::SetStreamName
+title: IWMStreamConfig::SetStreamName (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetStreamName method assigns a name to the stream represented by the stream configuration object.
 old-location: wmformat\iwmstreamconfig_setstreamname.htm

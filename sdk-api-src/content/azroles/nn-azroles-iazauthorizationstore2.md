@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzAuthorizationStore2
-title: IAzAuthorizationStore2
+title: IAzAuthorizationStore2 (azroles.h)
 author: windows-sdk-content
 description: Inherits from the AzAuthorizationStore object and implements methods to create and open IAzApplication2 objects.
 old-location: security\iazauthorizationstore2.htm

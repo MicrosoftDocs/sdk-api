@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.GetDescription
-title: IWMProfile::GetDescription
+title: IWMProfile::GetDescription (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetDescription method retrieves the profile description. The description is a string that contains an explanation of what the profile should be used for.
 old-location: wmformat\iwmprofile_getdescription.htm

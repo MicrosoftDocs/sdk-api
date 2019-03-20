@@ -1,6 +1,6 @@
 ---
 UID: NF:drt.DrtCreateNullSecurityProvider
-title: DrtCreateNullSecurityProvider function
+title: DrtCreateNullSecurityProvider function (drt.h)
 author: windows-sdk-content
 description: DrtCreateNullSecurityProvider function creates a null security provider. This security provider does not require nodes to authenticate keys.
 old-location: p2p\drtcreatenullsecurityprovider.htm

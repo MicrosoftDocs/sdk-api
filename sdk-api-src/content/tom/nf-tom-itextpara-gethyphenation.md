@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.GetHyphenation
-title: ITextPara::GetHyphenation
+title: ITextPara::GetHyphenation (tom.h)
 author: windows-sdk-content
 description: Determines whether automatic hyphenation is enabled for the range.
 old-location: controls\ITextPara_GetHyphenation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngine.StartPreview
-title: IMFCaptureEngine::StartPreview
+title: IMFCaptureEngine::StartPreview (mfcaptureengine.h)
 author: windows-sdk-content
 description: Starts preview.
 old-location: mf\imfcaptureengine_startpreview.htm

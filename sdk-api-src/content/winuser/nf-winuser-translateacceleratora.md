@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.TranslateAcceleratorA
-title: TranslateAcceleratorA function
+title: TranslateAcceleratorA function (winuser.h)
 author: windows-sdk-content
 description: Processes accelerator keys for menu commands.
 old-location: menurc\translateaccelerator.htm

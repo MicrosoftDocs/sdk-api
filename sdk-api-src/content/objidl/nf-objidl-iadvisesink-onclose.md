@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IAdviseSink.OnClose
-title: IAdviseSink::OnClose
+title: IAdviseSink::OnClose (objidl.h)
 author: windows-sdk-content
 description: Called by the server to notify all registered advisory sinks that the object has changed from the running to the loaded state.
 old-location: com\iadvisesink_onclose.htm

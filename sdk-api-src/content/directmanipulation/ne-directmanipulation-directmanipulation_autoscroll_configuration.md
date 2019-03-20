@@ -1,6 +1,6 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION
-title: DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION
+title: DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION (directmanipulation.h)
 author: windows-sdk-content
 description: Determines the type and direction of automatic scrolling animation to apply.
 old-location: directmanipulation\directmanipulation_autoscroll_configuration.htm

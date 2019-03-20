@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentCollection.Append
-title: IXpsOMDocumentCollection::Append
+title: IXpsOMDocumentCollection::Append (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Appends an IXpsOMDocument interface to the end of the collection.
 old-location: xps\ixpsomdocumentcollection_append.htm

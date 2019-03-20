@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.GetColorKey
-title: IVMRWindowlessControl::GetColorKey
+title: IVMRWindowlessControl::GetColorKey (strmif.h)
 author: windows-sdk-content
 description: The GetColorKey method retrieves the current source color key value used by the VMR.
 old-location: dshow\ivmrwindowlesscontrol_getcolorkey.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_SEEK_MODE
-title: MF_MEDIA_ENGINE_SEEK_MODE
+title: MF_MEDIA_ENGINE_SEEK_MODE (mfmediaengine.h)
 author: windows-sdk-content
 description: Defines values for the media engine seek mode.
 old-location: mf\mf_media_engine_seek_mode.htm

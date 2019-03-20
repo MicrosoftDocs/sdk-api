@@ -1,6 +1,6 @@
 ---
 UID: NF:sysinfoapi.GetPhysicallyInstalledSystemMemory
-title: GetPhysicallyInstalledSystemMemory function
+title: GetPhysicallyInstalledSystemMemory function (sysinfoapi.h)
 author: windows-sdk-content
 description: Retrieves the amount of RAM that is physically installed on the computer.
 old-location: base\getphysicallyinstalledsystemmemory.htm

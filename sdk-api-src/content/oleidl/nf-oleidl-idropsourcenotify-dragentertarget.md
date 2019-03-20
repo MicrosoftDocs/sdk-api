@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IDropSourceNotify.DragEnterTarget
-title: IDropSourceNotify::DragEnterTarget
+title: IDropSourceNotify::DragEnterTarget (oleidl.h)
 author: windows-sdk-content
 description: OLE calls this method when the user drags the mouse cursor into a potential drop target window.
 old-location: com\idropsourcenotify_dragentertarget.htm

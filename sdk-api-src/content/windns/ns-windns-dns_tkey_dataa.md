@@ -1,6 +1,6 @@
 ---
 UID: NS:windns.__unnamed_struct_36
-title: DNS_TKEY_DATAA
+title: DNS_TKEY_DATAA (windns.h)
 author: windows-sdk-content
 description: The DNS_TKEY_DATA structure represents a DNS TKEY resource record, used to establish and delete an algorithm's shared-secret keys between a DNS resolver and server as specified in RFC 2930.
 old-location: dns\dns_tkey_data.htm

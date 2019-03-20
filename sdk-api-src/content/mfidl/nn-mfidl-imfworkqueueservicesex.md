@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFWorkQueueServicesEx
-title: IMFWorkQueueServicesEx
+title: IMFWorkQueueServicesEx (mfidl.h)
 author: windows-sdk-content
 description: Extends the IMFWorkQueueServices interface.
 old-location: mf\imfworkqueueservicesex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel_1.IXpsOMObjectFactory1
-title: IXpsOMObjectFactory1
+title: IXpsOMObjectFactory1 (xpsobjectmodel_1.h)
 author: windows-sdk-content
 description: Inherits from IXpsOMObjectFactory.
 old-location: xps\ixpsomobjectfactory1.htm

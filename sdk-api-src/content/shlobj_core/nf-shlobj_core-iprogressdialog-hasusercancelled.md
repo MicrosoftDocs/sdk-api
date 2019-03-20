@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IProgressDialog.HasUserCancelled
-title: IProgressDialog::HasUserCancelled
+title: IProgressDialog::HasUserCancelled (shlobj_core.h)
 author: windows-sdk-content
 description: Checks whether the user has canceled the operation.
 old-location: shell\IProgressDialog_HasUserCancelled.htm

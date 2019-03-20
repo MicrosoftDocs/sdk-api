@@ -1,6 +1,6 @@
 ---
 UID: NF:msajtransport.AllJoynEventSelect
-title: AllJoynEventSelect function
+title: AllJoynEventSelect function (msajtransport.h)
 author: windows-sdk-content
 description: Provides AllJoyn transport functionality similar to the TCP socket WSAEventSelect functionality.
 old-location: alljoyn\alljoyneventselect.htm

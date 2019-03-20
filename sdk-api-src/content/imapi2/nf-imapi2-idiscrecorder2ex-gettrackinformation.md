@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.GetTrackInformation
-title: IDiscRecorder2Ex::GetTrackInformation
+title: IDiscRecorder2Ex::GetTrackInformation (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the track information from the media.
 old-location: imapi\idiscrecorder2ex_gettrackinformation.htm

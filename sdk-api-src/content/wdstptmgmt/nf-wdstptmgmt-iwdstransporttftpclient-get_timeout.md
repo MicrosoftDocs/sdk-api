@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportTftpClient.get_Timeout
-title: IWdsTransportTftpClient::get_Timeout
+title: IWdsTransportTftpClient::get_Timeout (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives the timeout in seconds used to communicate with the client.
 old-location: wds\iwdstransporttftpclient_timeout.htm

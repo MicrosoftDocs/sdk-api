@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemStatusCodeText.GetErrorCodeText
-title: IWbemStatusCodeText::GetErrorCodeText
+title: IWbemStatusCodeText::GetErrorCodeText (wbemcli.h)
 author: windows-sdk-content
 description: Returns the text string description associated with the error code.
 old-location: wmi\iwbemstatuscodetext_geterrorcodetext.htm

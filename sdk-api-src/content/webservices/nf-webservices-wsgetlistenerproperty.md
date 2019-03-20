@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsGetListenerProperty
-title: WsGetListenerProperty function
+title: WsGetListenerProperty function (webservices.h)
 author: windows-sdk-content
 description: Retrieves a specified Listener object property. The property to retrieve is identified by a WS_LISTENER_PROPERTY_ID input parameter.
 old-location: wsw\wsgetlistenerproperty.htm

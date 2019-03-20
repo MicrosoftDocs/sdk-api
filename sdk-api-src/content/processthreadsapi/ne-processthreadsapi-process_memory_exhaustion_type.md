@@ -1,6 +1,6 @@
 ---
 UID: NE:processthreadsapi._PROCESS_MEMORY_EXHAUSTION_TYPE
-title: PROCESS_MEMORY_EXHAUSTION_TYPE
+title: PROCESS_MEMORY_EXHAUSTION_TYPE (processthreadsapi.h)
 author: windows-sdk-content
 description: Represents the different memory exhaustion types.
 old-location: base\process_memory_exhaustion_type.htm

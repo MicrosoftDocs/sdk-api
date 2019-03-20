@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICDecodeOptions
-title: WICDecodeOptions
+title: WICDecodeOptions (wincodec.h)
 author: windows-sdk-content
 description: Specifies decode options.
 old-location: wic\_wic_codec_wicdecodeoptions.htm

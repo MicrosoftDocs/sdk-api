@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFrameworkInputPane.AdviseWithHWND
-title: IFrameworkInputPane::AdviseWithHWND
+title: IFrameworkInputPane::AdviseWithHWND (shobjidl_core.h)
 author: windows-sdk-content
 description: Registers the app's input pane handler object to receive notifications on behalf of a window when an event triggers the input pane. This method differs from Advise in that it references its window through an HWND.
 old-location: shell\IFrameworkInputPane_AdviseWithHWND.htm

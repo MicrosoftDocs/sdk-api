@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ICustomDestinationList.CommitList
-title: ICustomDestinationList::CommitList
+title: ICustomDestinationList::CommitList (shobjidl_core.h)
 author: windows-sdk-content
 description: Declares that the Jump List initiated by a call to ICustomDestinationList::BeginList is complete and ready for display.
 old-location: shell\ICustomDestinationList_CommitList.htm

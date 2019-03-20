@@ -1,6 +1,6 @@
 ---
 UID: NS:mfapi._MF_FLOAT2
-title: MF_FLOAT2
+title: MF_FLOAT2 (mfapi.h)
 author: windows-sdk-content
 description: A vector with two components.
 old-location: mf\mf_float2.htm

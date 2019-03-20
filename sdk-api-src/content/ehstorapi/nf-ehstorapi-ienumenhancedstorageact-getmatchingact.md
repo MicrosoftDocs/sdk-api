@@ -1,6 +1,6 @@
 ---
 UID: NF:ehstorapi.IEnumEnhancedStorageACT.GetMatchingACT
-title: IEnumEnhancedStorageACT::GetMatchingACT
+title: IEnumEnhancedStorageACT::GetMatchingACT (ehstorapi.h)
 author: windows-sdk-content
 description: Returns the Addressable Command Target (ACT) associated with the volume specified via the string supplied by the client.
 old-location: enstor\ienumenhancedstorageact_getmatchingact.htm

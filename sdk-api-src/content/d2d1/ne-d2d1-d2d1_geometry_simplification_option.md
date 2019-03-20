@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1.D2D1_GEOMETRY_SIMPLIFICATION_OPTION
-title: D2D1_GEOMETRY_SIMPLIFICATION_OPTION
+title: D2D1_GEOMETRY_SIMPLIFICATION_OPTION (d2d1.h)
 author: windows-sdk-content
 description: Specifies how a geometry is simplified to an ID2D1SimplifiedGeometrySink.
 old-location: direct2d\D2D1_GEOMETRY_SIMPLIFICATION_OPTION.htm

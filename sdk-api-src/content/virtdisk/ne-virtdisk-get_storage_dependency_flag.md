@@ -1,6 +1,6 @@
 ---
 UID: NE:virtdisk._GET_STORAGE_DEPENDENCY_FLAG
-title: GET_STORAGE_DEPENDENCY_FLAG
+title: GET_STORAGE_DEPENDENCY_FLAG (virtdisk.h)
 author: windows-sdk-content
 description: Contains virtual hard disk (VHD) storage dependency request flags.
 old-location: vhd\get_storage_dependency_flag.htm

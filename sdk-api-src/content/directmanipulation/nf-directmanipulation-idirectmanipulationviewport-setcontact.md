@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetContact
-title: IDirectManipulationViewport::SetContact
+title: IDirectManipulationViewport::SetContact (directmanipulation.h)
 author: windows-sdk-content
 description: Specifies an association between a contact and the viewport.
 old-location: directmanipulation\idirectmanipulationviewport_setcontact.htm

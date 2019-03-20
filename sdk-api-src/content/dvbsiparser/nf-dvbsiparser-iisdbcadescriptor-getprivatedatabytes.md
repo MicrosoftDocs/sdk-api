@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbCADescriptor.GetPrivateDataBytes
-title: IIsdbCADescriptor::GetPrivateDataBytes
+title: IIsdbCADescriptor::GetPrivateDataBytes (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the private data bytes from a conditional access (CA) descriptor.
 old-location: mstv\iisdbcadescriptor_getprivatedatabytes.htm

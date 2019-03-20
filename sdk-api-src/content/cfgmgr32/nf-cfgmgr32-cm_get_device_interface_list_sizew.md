@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_Interface_List_SizeW
-title: CM_Get_Device_Interface_List_SizeW function
+title: CM_Get_Device_Interface_List_SizeW function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Get_Device_Interface_List_Size function retrieves the buffer size that must be passed to the CM_Get_Device_Interface_List function.
 old-location: devinst\cm_get_device_interface_list_size.htm

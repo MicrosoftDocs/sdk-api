@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.InitializeSecurityDescriptor
-title: InitializeSecurityDescriptor function
+title: InitializeSecurityDescriptor function (securitybaseapi.h)
 author: windows-sdk-content
 description: Initializes a new security descriptor.
 old-location: security\initializesecuritydescriptor.htm

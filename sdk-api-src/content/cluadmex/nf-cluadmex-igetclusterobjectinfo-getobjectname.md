@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IGetClusterObjectInfo.GetObjectName
-title: IGetClusterObjectInfo::GetObjectName
+title: IGetClusterObjectInfo::GetObjectName (cluadmex.h)
 author: windows-sdk-content
 description: Returns the name of a cluster object.
 old-location: mscs\igetclusterobjectinfo_getobjectname.htm

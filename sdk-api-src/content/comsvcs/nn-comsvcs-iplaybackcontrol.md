@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IPlaybackControl
-title: IPlaybackControl
+title: IPlaybackControl (comsvcs.h)
 author: windows-sdk-content
 description: Enables participation in the abnormal handling of server-side playback errors and client-side failures of the Message Queuing delivery mechanism.
 old-location: cos\iplaybackcontrol.htm

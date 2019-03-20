@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IEnumWbemClassObject.Reset
-title: IEnumWbemClassObject::Reset
+title: IEnumWbemClassObject::Reset (wbemcli.h)
 author: windows-sdk-content
 description: The IEnumWbemClassObject::Reset method resets an enumeration sequence back to the beginning. Because CIM objects are dynamic, calling this method does not necessarily return the same list of objects that you obtained previously.
 old-location: wmi\ienumwbemclassobject_reset.htm

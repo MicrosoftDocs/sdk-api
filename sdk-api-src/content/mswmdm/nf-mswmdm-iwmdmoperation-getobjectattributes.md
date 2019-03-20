@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMOperation.GetObjectAttributes
-title: IWMDMOperation::GetObjectAttributes
+title: IWMDMOperation::GetObjectAttributes (mswmdm.h)
 author: windows-sdk-content
 description: The GetObjectAttributes method allows the application to specify attributes for an object being written to a device. Windows Media Device Manager calls this method before a file is written to the device in order to learn the file's attributes.
 old-location: wmdm\iwmdmoperation_getobjectattributes.htm

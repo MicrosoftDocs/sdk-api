@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.IKnowledgeSyncProvider
-title: IKnowledgeSyncProvider
+title: IKnowledgeSyncProvider (winsync.h)
 author: windows-sdk-content
 description: Represents a synchronization provider that uses knowledge to perform synchronization.
 old-location: winsync\iknowledgesyncprovider.htm

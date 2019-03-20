@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.put_Logging
-title: IFsrmFileManagementJob::put_Logging
+title: IFsrmFileManagementJob::put_Logging (fsrmreports.h)
 author: windows-sdk-content
 description: The types of logging to perform.
 old-location: fsrm\ifsrmfilemanagementjob_logging.htm

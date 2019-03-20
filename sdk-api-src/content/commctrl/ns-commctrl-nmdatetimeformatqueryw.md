@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMDATETIMEFORMATQUERYW
-title: NMDATETIMEFORMATQUERYW
+title: NMDATETIMEFORMATQUERYW (commctrl.h)
 author: windows-sdk-content
 description: Contains information about a date and time picker (DTP) control callback field.
 old-location: controls\NMDATETIMEFORMATQUERY.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportContent.get_Namespace
-title: IWdsTransportContent::get_Namespace
+title: IWdsTransportContent::get_Namespace (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives a pointer to an object of an IWdsTransportNamespace interface that represents the namespace associated with this content.
 old-location: wds\iwdstransportcontent_namespace.htm

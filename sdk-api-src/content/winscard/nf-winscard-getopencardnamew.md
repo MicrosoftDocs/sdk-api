@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.GetOpenCardNameW
-title: GetOpenCardNameW function
+title: GetOpenCardNameW function (winscard.h)
 author: windows-sdk-content
 description: The GetOpenCardName function displays the smart card &#0034;select card&#0034; dialog box.
 old-location: security\getopencardname.htm

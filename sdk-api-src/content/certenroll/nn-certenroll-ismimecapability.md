@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.ISmimeCapability
-title: ISmimeCapability
+title: ISmimeCapability (certenroll.h)
 author: windows-sdk-content
 description: Represents an SMIMECapabilities extension that identifies the decryption capabilities of an email recipient.
 old-location: security\ismimecapability.htm

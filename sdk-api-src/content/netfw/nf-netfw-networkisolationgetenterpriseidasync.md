@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.NetworkIsolationGetEnterpriseIdAsync
-title: NetworkIsolationGetEnterpriseIdAsync function
+title: NetworkIsolationGetEnterpriseIdAsync function (netfw.h)
 author: windows-sdk-content
 description: Gets the Enterprise ID based on Network Isolation endpoints in the context of the Windows Information Protection (WIP) or the Windows Defender Application Guard (WDAG) scenarios.
 old-location: ics\networkisolationgetenterpriseidasync.htm

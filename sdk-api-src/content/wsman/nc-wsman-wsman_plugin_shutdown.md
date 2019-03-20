@@ -1,6 +1,6 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_SHUTDOWN
-title: WSMAN_PLUGIN_SHUTDOWN
+title: WSMAN_PLUGIN_SHUTDOWN (wsman.h)
 author: windows-sdk-content
 description: Defines the shutdown callback for the plug-in.
 old-location: winrm\wsman_plugin_shutdown.htm

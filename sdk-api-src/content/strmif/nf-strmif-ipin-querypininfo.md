@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IPin.QueryPinInfo
-title: IPin::QueryPinInfo
+title: IPin::QueryPinInfo (strmif.h)
 author: windows-sdk-content
 description: The QueryPinInfo method retrieves information about the pin.
 old-location: dshow\ipin_querypininfo.htm

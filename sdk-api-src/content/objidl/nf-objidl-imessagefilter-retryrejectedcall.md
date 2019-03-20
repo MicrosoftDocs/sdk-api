@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMessageFilter.RetryRejectedCall
-title: IMessageFilter::RetryRejectedCall
+title: IMessageFilter::RetryRejectedCall (objidl.h)
 author: windows-sdk-content
 description: Provides applications with an opportunity to display a dialog box offering retry, cancel, or task-switching options.
 old-location: com\imessagefilter_retryrejectedcall.htm

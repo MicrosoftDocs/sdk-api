@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetOrigin
-title: IXpsOMGlyphs::GetOrigin
+title: IXpsOMGlyphs::GetOrigin (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the starting position of the text.
 old-location: xps\ixpsomglyphs_getorigin.htm

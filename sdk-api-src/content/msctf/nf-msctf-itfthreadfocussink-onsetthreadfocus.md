@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadFocusSink.OnSetThreadFocus
-title: ITfThreadFocusSink::OnSetThreadFocus
+title: ITfThreadFocusSink::OnSetThreadFocus (msctf.h)
 author: windows-sdk-content
 description: ITfThreadFocusSink::OnSetThreadFocus method
 old-location: tsf\itfthreadfocussink_onsetthreadfocus.htm

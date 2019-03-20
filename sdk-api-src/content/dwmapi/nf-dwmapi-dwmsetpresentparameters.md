@@ -1,6 +1,6 @@
 ---
 UID: NF:dwmapi.DwmSetPresentParameters
-title: DwmSetPresentParameters function
+title: DwmSetPresentParameters function (dwmapi.h)
 author: windows-sdk-content
 description: Sets the present parameters for frame composition. DwmSetPresentParameters is no longer supported. Starting with Windows 8.1, calls to DwmSetPresentParameters always return E_NOTIMPL.
 old-location: dwm\dwmsetpresentparameters.htm

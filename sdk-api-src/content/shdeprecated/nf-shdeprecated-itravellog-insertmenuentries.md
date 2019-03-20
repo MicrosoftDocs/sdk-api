@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.ITravelLog.InsertMenuEntries
-title: ITravelLog::InsertMenuEntries
+title: ITravelLog::InsertMenuEntries (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Inserts entries into the specified menu.
 old-location: shell\ITravelLog_InsertMenuEntries.htm

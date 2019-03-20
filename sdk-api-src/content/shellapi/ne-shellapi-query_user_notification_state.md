@@ -1,6 +1,6 @@
 ---
 UID: NE:shellapi.__unnamed_enum_0
-title: QUERY_USER_NOTIFICATION_STATE
+title: QUERY_USER_NOTIFICATION_STATE (shellapi.h)
 author: windows-sdk-content
 description: Specifies the state of the machine for the current user in relation to the propriety of sending a notification. Used by SHQueryUserNotificationState.
 old-location: shell\QUERY_USER_NOTIFICATION_STATE.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IPBDASiParser.GetServices
-title: IPBDASiParser::GetServices
+title: IPBDASiParser::GetServices (dvbsiparser.h)
 author: windows-sdk-content
 description: Retrieves a list of services from the program and system information protocol (PSIP) tables in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbdasiparser_getservices.htm

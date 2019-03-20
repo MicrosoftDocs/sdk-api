@@ -1,6 +1,6 @@
 ---
 UID: NF:dmemmgr.VidMemFree
-title: VidMemFree function
+title: VidMemFree function (dmemmgr.h)
 author: windows-sdk-content
 description: The VidMemFree function frees off-screen memory allocated for a display driver by HeapVidMemAllocAligned.
 old-location: display\vidmemfree.htm

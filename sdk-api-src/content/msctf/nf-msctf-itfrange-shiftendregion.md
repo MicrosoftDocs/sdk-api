@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.ShiftEndRegion
-title: ITfRange::ShiftEndRegion
+title: ITfRange::ShiftEndRegion (msctf.h)
 author: windows-sdk-content
 description: ITfRange::ShiftEndRegion method
 old-location: tsf\itfrange_shiftendregion.htm

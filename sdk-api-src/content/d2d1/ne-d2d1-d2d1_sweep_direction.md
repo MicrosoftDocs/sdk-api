@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1.D2D1_SWEEP_DIRECTION
-title: D2D1_SWEEP_DIRECTION
+title: D2D1_SWEEP_DIRECTION (d2d1.h)
 author: windows-sdk-content
 description: Defines the direction that an elliptical arc is drawn.
 old-location: direct2d\D2D1_SWEEP_DIRECTION.htm

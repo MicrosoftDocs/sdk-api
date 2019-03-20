@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IToc.GetDescriptor
-title: IToc::GetDescriptor
+title: IToc::GetDescriptor (wmcodecdsp.h)
 author: windows-sdk-content
 description: The GetDescriptor method retrieves the descriptor, previously set by SetDescriptor, of the table of contents.
 old-location: mf\itoc_getdescriptor.htm

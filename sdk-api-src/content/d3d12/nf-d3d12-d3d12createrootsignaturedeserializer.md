@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.D3D12CreateRootSignatureDeserializer
-title: D3D12CreateRootSignatureDeserializer function
+title: D3D12CreateRootSignatureDeserializer function (d3d12.h)
 author: windows-sdk-content
 description: Deserializes a root signature so you can determine the layout definition (D3D12_ROOT_SIGNATURE_DESC).
 old-location: direct3d12\d3d12createrootsignaturedeserializer.htm

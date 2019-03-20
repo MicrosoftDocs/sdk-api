@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IApplicationActivationManager.ActivateForProtocol
-title: IApplicationActivationManager::ActivateForProtocol
+title: IApplicationActivationManager::ActivateForProtocol (shobjidl_core.h)
 author: windows-sdk-content
 description: Activates the specified Windows Store app for the protocol contract (Windows.Protocol).
 old-location: shell\IApplicationActivationManager_ActivateForProtocol.htm

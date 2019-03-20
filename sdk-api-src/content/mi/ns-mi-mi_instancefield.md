@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_InstanceField
-title: MI_InstanceField
+title: MI_InstanceField (mi.h)
 author: windows-sdk-content
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_instancefield.htm

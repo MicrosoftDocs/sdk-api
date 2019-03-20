@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_Date
-title: IUpdateHistoryEntry::get_Date
+title: IUpdateHistoryEntry::get_Date (wuapi.h)
 author: windows-sdk-content
 description: Gets the date and the time an update was applied.
 old-location: wua\iupdatehistoryentry_date.htm

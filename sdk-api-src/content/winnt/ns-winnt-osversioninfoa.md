@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._OSVERSIONINFOA
-title: OSVERSIONINFOA
+title: OSVERSIONINFOA (winnt.h)
 author: windows-sdk-content
 description: Contains operating system version information.
 old-location: base\osversioninfo_str.htm

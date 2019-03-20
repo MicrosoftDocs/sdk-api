@@ -1,6 +1,6 @@
 ---
 UID: NE:searchapi._SEARCH_KIND_OF_CHANGE
-title: SEARCH_KIND_OF_CHANGE
+title: SEARCH_KIND_OF_CHANGE (searchapi.h)
 author: windows-sdk-content
 description: Indicates the kind of change affecting an item when a source sink notifies a client that an item has been changed.
 old-location: search\_search_SEARCH_KIND_OF_CHANGE.htm

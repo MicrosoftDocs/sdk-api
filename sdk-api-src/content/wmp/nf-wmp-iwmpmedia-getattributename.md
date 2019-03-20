@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMedia.getAttributeName
-title: IWMPMedia::getAttributeName
+title: IWMPMedia::getAttributeName (wmp.h)
 author: windows-sdk-content
 description: The getAttributeName method retrieves the name of the attribute corresponding to the specified index.
 old-location: wmp\iwmpmedia_getattributename.htm

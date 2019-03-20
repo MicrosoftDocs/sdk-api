@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorRound
-title: XMVectorRound function
+title: XMVectorRound function (directxmath.h)
 author: windows-sdk-content
 description: Rounds each component of a vector to the nearest even integer (known as &#0034;Bankers Rounding&#0034;).
 old-location: dxmath\xmvectorround.htm

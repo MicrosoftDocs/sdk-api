@@ -1,6 +1,6 @@
 ---
 UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0000_0004
-title: CHANNEL_FLAGS
+title: CHANNEL_FLAGS (rdpencomapi.h)
 author: windows-sdk-content
 description: Defines values for how data is sent on the channel.
 old-location: rdp\channel_flags.htm

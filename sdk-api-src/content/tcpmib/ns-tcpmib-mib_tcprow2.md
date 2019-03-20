@@ -1,6 +1,6 @@
 ---
 UID: NS:tcpmib._MIB_TCPROW2
-title: MIB_TCPROW2
+title: MIB_TCPROW2 (tcpmib.h)
 author: windows-sdk-content
 description: Contains information that describes an IPv4 TCP connection.
 old-location: mib\mib_tcprow2.htm

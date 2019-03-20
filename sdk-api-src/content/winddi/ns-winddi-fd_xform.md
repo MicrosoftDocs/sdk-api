@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._FD_XFORM
-title: FD_XFORM
+title: FD_XFORM (winddi.h)
 author: windows-sdk-content
 description: The FD_XFORM structure describes an arbitrary two-dimensional font transform.
 old-location: display\fd_xform.htm

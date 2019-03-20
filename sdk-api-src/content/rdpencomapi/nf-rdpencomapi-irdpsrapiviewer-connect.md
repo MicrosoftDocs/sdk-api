@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.Connect
-title: IRDPSRAPIViewer::Connect
+title: IRDPSRAPIViewer::Connect (rdpencomapi.h)
 author: windows-sdk-content
 description: Starts the actual connection to the sharer.
 old-location: rdp\irdpsrapiviewer_connect.htm

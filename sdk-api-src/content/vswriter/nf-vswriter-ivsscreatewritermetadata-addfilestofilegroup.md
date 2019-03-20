@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.AddFilesToFileGroup
-title: IVssCreateWriterMetadata::AddFilesToFileGroup
+title: IVssCreateWriterMetadata::AddFilesToFileGroup (vswriter.h)
 author: windows-sdk-content
 description: The AddFilesToFileGroup method adds a file set (a specified file or files) to a specified file group component.
 old-location: base\ivsscreatewritermetadata_addfilestofilegroup.htm

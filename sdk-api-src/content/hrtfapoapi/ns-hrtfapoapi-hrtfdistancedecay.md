@@ -1,6 +1,6 @@
 ---
 UID: NS:hrtfapoapi.HrtfDistanceDecay
-title: HrtfDistanceDecay
+title: HrtfDistanceDecay (hrtfapoapi.h)
 author: windows-sdk-content
 description: Describes a distance-based decay behavior.
 old-location: xaudio2\hrtfdistancedecay.htm

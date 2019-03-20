@@ -1,6 +1,6 @@
 ---
 UID: NF:xapobase.CXAPOParametersBase.OnSetParameters
-title: CXAPOParametersBase::OnSetParameters
+title: CXAPOParametersBase::OnSetParameters (xapobase.h)
 author: windows-sdk-content
 description: Called by IXAPOParameters::SetParameters to allow for user-defined parameter validation.
 old-location: xaudio2\cxapoparametersbase_onsetparameters.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:oleidl.IOleInPlaceObject
-title: IOleInPlaceObject
+title: IOleInPlaceObject (oleidl.h)
 author: windows-sdk-content
 description: Manages the activation and deactivation of in-place objects, and determines how much of the in-place object should be visible.
 old-location: com\ioleinplaceobject.htm

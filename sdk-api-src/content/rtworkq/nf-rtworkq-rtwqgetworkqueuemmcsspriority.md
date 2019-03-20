@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.RtwqGetWorkQueueMMCSSPriority
-title: RtwqGetWorkQueueMMCSSPriority function
+title: RtwqGetWorkQueueMMCSSPriority function (rtworkq.h)
 author: windows-sdk-content
 description: Gets the relative thread priority of a work queue.
 old-location: base\rtwqgetworkqueuemmcsspriority.htm

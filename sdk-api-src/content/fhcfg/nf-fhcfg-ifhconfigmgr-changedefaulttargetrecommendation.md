@@ -1,6 +1,6 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.ChangeDefaultTargetRecommendation
-title: IFhConfigMgr::ChangeDefaultTargetRecommendation
+title: IFhConfigMgr::ChangeDefaultTargetRecommendation (fhcfg.h)
 author: windows-sdk-content
 description: Causes the currently assigned backup target to be recommended or not recommended to other members of the home group that the computer belongs to.
 old-location: winprog\ifhconfigmgr_changedefaulttargetrecommendation.htm

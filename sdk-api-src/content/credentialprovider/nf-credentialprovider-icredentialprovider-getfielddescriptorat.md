@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProvider.GetFieldDescriptorAt
-title: ICredentialProvider::GetFieldDescriptorAt
+title: ICredentialProvider::GetFieldDescriptorAt (credentialprovider.h)
 author: windows-sdk-content
 description: Gets metadata that describes a specified field.
 old-location: shell\ICredentialProvider_GetFieldDescriptorAt.htm

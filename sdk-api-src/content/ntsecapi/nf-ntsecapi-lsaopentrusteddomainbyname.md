@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.LsaOpenTrustedDomainByName
-title: LsaOpenTrustedDomainByName function
+title: LsaOpenTrustedDomainByName function (ntsecapi.h)
 author: windows-sdk-content
 description: The LsaOpenTrustedDomainByName function opens the LSA policy handle of a remote trusted domain. You can pass this handle into LSA function calls in order to set or query the LSA policy of the remote machine.
 old-location: security\lsaopentrusteddomainbyname.htm

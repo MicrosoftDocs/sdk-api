@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.GetDurationFormatEx
-title: GetDurationFormatEx function
+title: GetDurationFormatEx function (winnls.h)
 author: windows-sdk-content
 description: Formats a duration of time as a time string for a locale specified by name.
 old-location: intl\getdurationformatex.htm

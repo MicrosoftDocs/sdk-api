@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.put_Enabled
-title: IFsrmPipelineModuleDefinition::put_Enabled
+title: IFsrmPipelineModuleDefinition::put_Enabled (fsrmpipeline.h)
 author: windows-sdk-content
 description: Determines whether the module is enabled.
 old-location: fsrm\ifsrmpipelinemoduledefinition_enabled.htm

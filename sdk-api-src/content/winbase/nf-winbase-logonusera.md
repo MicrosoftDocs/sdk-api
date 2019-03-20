@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.LogonUserA
-title: LogonUserA function
+title: LogonUserA function (winbase.h)
 author: windows-sdk-content
 description: The Win32 LogonUser function attempts to log a user on to the local computer. LogonUser returns a handle to a user token that you can use to impersonate user.
 old-location: security\logonuser.htm

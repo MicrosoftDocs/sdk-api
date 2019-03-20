@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.ContainsKnowledgeForChangeUnit
-title: ISyncKnowledge2::ContainsKnowledgeForChangeUnit
+title: ISyncKnowledge2::ContainsKnowledgeForChangeUnit (winsync.h)
 author: windows-sdk-content
 description: Indicates whether the specified knowledge of the specified change unit is known by this knowledge.
 old-location: winsync\isyncknowledge2_containsknowledgeforchangeunit.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.GetCurve
-title: IUIAnimationVariable2::GetCurve
+title: IUIAnimationVariable2::GetCurve (uianimation.h)
 author: windows-sdk-content
 description: Gets the animation curve of the animation variable.
 old-location: uianimation\iuianimationvariable2_getcurve.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:libloaderapi.EnumResourceTypesExW
-title: EnumResourceTypesExW function
+title: EnumResourceTypesExW function (libloaderapi.h)
 author: windows-sdk-content
 description: Enumerates resource types associated with a specified binary module.
 old-location: menurc\enumresourcetypesex.htm

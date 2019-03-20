@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector4Refract
-title: XMVector4Refract function
+title: XMVector4Refract function (directxmath.h)
 author: windows-sdk-content
 description: Refracts an incident 4D vector across a 4D normal vector.
 old-location: dxmath\xmvector4refract.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:emptyvc.IEmptyVolumeCache2.InitializeEx
-title: IEmptyVolumeCache2::InitializeEx
+title: IEmptyVolumeCache2::InitializeEx (emptyvc.h)
 author: windows-sdk-content
 description: Initializes the disk cleanup handler. It provides better support for localization than Initialize.
 old-location: lwef\iemptyvolumecache2_initializeex.htm

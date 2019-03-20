@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_LDT.GetOriginalServiceId
-title: IISDB_LDT::GetOriginalServiceId
+title: IISDB_LDT::GetOriginalServiceId (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the original_service_id field from an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT).
 old-location: mstv\iisdb_ldt_getoriginalserviceid.htm

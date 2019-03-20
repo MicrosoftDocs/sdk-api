@@ -1,6 +1,6 @@
 ---
 UID: NF:imagehlp.BindImageEx
-title: BindImageEx function
+title: BindImageEx function (imagehlp.h)
 author: windows-sdk-content
 description: Computes the virtual address of each function that is imported.
 old-location: base\bindimageex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_DISCARD_REGION
-title: D3D12_DISCARD_REGION
+title: D3D12_DISCARD_REGION (d3d12.h)
 author: windows-sdk-content
 description: Describes details for the discard-resource operation.
 old-location: direct3d12\d3d12_discard_region.htm

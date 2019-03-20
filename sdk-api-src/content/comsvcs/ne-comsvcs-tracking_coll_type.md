@@ -1,6 +1,6 @@
 ---
 UID: NE:comsvcs.__MIDL___MIDL_itf_autosvcs_0000_0034_0001
-title: TRACKING_COLL_TYPE
+title: TRACKING_COLL_TYPE (comsvcs.h)
 author: windows-sdk-content
 description: Indicates the type of objects in a tracking information collection.
 old-location: cos\tracking_coll_type.htm

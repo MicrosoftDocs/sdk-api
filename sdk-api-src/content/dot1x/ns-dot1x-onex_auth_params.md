@@ -1,6 +1,6 @@
 ---
 UID: NS:dot1x._ONEX_AUTH_PARAMS
-title: ONEX_AUTH_PARAMS
+title: ONEX_AUTH_PARAMS (dot1x.h)
 author: windows-sdk-content
 description: Contains 802.1X authentication parameters used for 802.1X authentication.
 old-location: nwifi\onex_auth_params.htm

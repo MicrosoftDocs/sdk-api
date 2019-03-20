@@ -1,6 +1,6 @@
 ---
 UID: NS:windns.__unnamed_struct_34
-title: DNS_ATMA_DATA
+title: DNS_ATMA_DATA (windns.h)
 author: windows-sdk-content
 description: The DNS_ATMA_DATA structure represents a DNS ATM address (ATMA) resource record (RR).
 old-location: dns\dns_atma_data.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITTAPIEventNotification.Event
-title: ITTAPIEventNotification::Event
+title: ITTAPIEventNotification::Event (tapi3if.h)
 author: windows-sdk-content
 description: The Event method is called by TAPI to determine the response to an asynchronous event notification.
 old-location: tapi3\ittapieventnotification_event.htm

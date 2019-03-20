@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._USER_INFO_10
-title: USER_INFO_10
+title: USER_INFO_10 (lmaccess.h)
 author: windows-sdk-content
 description: The USER_INFO_10 structure contains information about a user account, including the account name, comments associated with the account, and the user's full name.
 old-location: netmgmt\user_info_10_str.htm

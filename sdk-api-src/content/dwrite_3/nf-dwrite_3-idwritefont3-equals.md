@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFont3.Equals
-title: IDWriteFont3::Equals
+title: IDWriteFont3::Equals (dwrite_3.h)
 author: windows-sdk-content
 description: Compares two instances of font references for equality.
 old-location: directwrite\idwritefont3_equals.htm

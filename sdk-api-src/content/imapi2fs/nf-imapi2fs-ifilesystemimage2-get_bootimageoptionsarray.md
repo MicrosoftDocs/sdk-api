@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage2.get_BootImageOptionsArray
-title: IFileSystemImage2::get_BootImageOptionsArray
+title: IFileSystemImage2::get_BootImageOptionsArray (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the boot option array that will be utilized to generate the file system image.
 old-location: imapi\ifilesystemimage2_get_bootimageoptionsarray.htm

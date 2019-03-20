@@ -1,6 +1,6 @@
 ---
 UID: NN:propidl.IEnumSTATPROPSETSTG
-title: IEnumSTATPROPSETSTG
+title: IEnumSTATPROPSETSTG (propidl.h)
 author: windows-sdk-content
 description: Iterates through an array of STATPROPSETSTG structures. The STATPROPSETSTG structures contain statistical data about the property sets managed by the current IPropertySetStorage instance.
 old-location: stg\ienumstatpropsetstg.htm

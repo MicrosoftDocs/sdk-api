@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaBase.get_Thresholds
-title: IFsrmQuotaBase::get_Thresholds
+title: IFsrmQuotaBase::get_Thresholds (fsrmquota.h)
 author: windows-sdk-content
 description: Retrieves the thresholds for the quota object.
 old-location: fsrm\ifsrmquotabase_thresholds.htm

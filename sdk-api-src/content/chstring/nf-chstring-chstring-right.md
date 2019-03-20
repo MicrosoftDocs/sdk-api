@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.Right
-title: CHString::Right
+title: CHString::Right (chstring.h)
 author: windows-sdk-content
 description: Extracts the last nCount characters from a CHString string and returns a copy of the extracted substring.
 old-location: wmi\chstring_right.htm

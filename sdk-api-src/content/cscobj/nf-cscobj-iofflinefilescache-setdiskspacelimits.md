@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.SetDiskSpaceLimits
-title: IOfflineFilesCache::SetDiskSpaceLimits
+title: IOfflineFilesCache::SetDiskSpaceLimits (cscobj.h)
 author: windows-sdk-content
 description: Sets disk space usage limits on the Offline Files cache.
 old-location: of\iofflinefilescache_setdiskspacelimits.htm

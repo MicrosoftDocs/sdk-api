@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.GetMetadataTracks
-title: IMFTimedText::GetMetadataTracks
+title: IMFTimedText::GetMetadataTracks (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the list of the timed-metadata tracks in the timed-text component.
 old-location: mf\imftimedtext_getmetadatatracks.htm

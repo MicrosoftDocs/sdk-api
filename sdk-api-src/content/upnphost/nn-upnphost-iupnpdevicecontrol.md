@@ -1,6 +1,6 @@
 ---
 UID: NN:upnphost.IUPnPDeviceControl
-title: IUPnPDeviceControl
+title: IUPnPDeviceControl (upnphost.h)
 author: windows-sdk-content
 description: The IUPnPDeviceControl interface is the central point of management for a device and its service objects.
 old-location: upnp\iupnpdevicecontrol.htm

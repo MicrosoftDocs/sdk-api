@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFSplitter.Initialize
-title: IMFASFSplitter::Initialize
+title: IMFASFSplitter::Initialize (wmcontainer.h)
 author: windows-sdk-content
 description: Resets the Advanced Systems Format (ASF) splitter and configures it to parse data from an ASF data section.
 old-location: mf\imfasfsplitter_initialize.htm

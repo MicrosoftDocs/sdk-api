@@ -1,6 +1,6 @@
 ---
 UID: NF:wdspxe.PxeDhcpAppendOption
-title: PxeDhcpAppendOption function
+title: PxeDhcpAppendOption function (wdspxe.h)
 author: windows-sdk-content
 description: Appends a DHCP option to the reply packet.
 old-location: wds\pxedhcpappendoption.htm

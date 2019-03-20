@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.DateTime_CloseMonthCal
-title: DateTime_CloseMonthCal macro
+title: DateTime_CloseMonthCal macro (commctrl.h)
 author: windows-sdk-content
 description: Closes the date and time picker (DTP) control. Use this macro or send the DTM_CLOSEMONTHCAL message explicitly.
 old-location: controls\DateTime_CloseMonthCal.htm

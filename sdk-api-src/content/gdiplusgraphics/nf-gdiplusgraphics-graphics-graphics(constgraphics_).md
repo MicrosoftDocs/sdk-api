@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.Graphics(const Graphics &)
-title: Graphics::Graphics(const Graphics &)
+title: Graphics::Graphics(const Graphics &) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: This topic lists the constructors of the Graphics class. For a complete class listing, see Graphics Class.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_Constructors.htm

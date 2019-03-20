@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ISharingConfigurationManager.GetSharePermissions
-title: ISharingConfigurationManager::GetSharePermissions
+title: ISharingConfigurationManager::GetSharePermissions (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the access permissions currently associated with the User or Public folder for the Everyone access control entry (ACE).
 old-location: shell\ISharingConfigurationManager_GetSharePermissions.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaDevMgr.SelectDeviceDlgID
-title: IWiaDevMgr::SelectDeviceDlgID
+title: IWiaDevMgr::SelectDeviceDlgID (wia_xp.h)
 author: windows-sdk-content
 description: The IWiaDevMgr::SelectDeviceDlgID method displays a dialog box that enables the user to select a hardware device for image acquisition.
 old-location: wia\_wia_IWiaDevMgr_SelectDeviceDlgID.htm

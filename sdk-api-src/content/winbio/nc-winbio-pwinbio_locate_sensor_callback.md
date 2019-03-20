@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio.PWINBIO_LOCATE_SENSOR_CALLBACK
-title: PWINBIO_LOCATE_SENSOR_CALLBACK
+title: PWINBIO_LOCATE_SENSOR_CALLBACK (winbio.h)
 author: windows-sdk-content
 description: Returns results from the asynchronous WinBioLocateSensorWithCallback function.
 old-location: secbiomet\pwinbio_locate_sensor_callback.htm

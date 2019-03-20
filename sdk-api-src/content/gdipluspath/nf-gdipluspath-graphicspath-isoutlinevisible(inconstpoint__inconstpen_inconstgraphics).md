@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.IsOutlineVisible(IN const Point &,IN const Pen,IN const Graphics)
-title: GraphicsPath::IsOutlineVisible(IN const Point &,IN const Pen,IN const Graphics)
+title: GraphicsPath::IsOutlineVisible(IN const Point &,IN const Pen,IN const Graphics) (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPath::IsOutlineVisible method determines whether a specified point touches the outline of this path when the path is drawn by a specified Graphicsobject and a specified pen.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_IsOutlineVisible_Point_point_Pen_pen_Graphics_g_.htm

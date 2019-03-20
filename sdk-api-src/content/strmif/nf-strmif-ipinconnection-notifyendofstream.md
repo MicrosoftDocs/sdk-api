@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IPinConnection.NotifyEndOfStream
-title: IPinConnection::NotifyEndOfStream
+title: IPinConnection::NotifyEndOfStream (strmif.h)
 author: windows-sdk-content
 description: The NotifyEndOfStream method requests notification from the pin when the next end-of-stream condition occurs.
 old-location: dshow\ipinconnection_notifyendofstream.htm

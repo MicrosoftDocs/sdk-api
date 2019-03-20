@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmLockRoute
-title: RtmLockRoute function
+title: RtmLockRoute function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmLockRoute function locks or unlocks a route in the routing table. This protects the route while a client makes the necessary changes to the opaque route pointers owned by the client.
 old-location: rras\rtmlockroute.htm

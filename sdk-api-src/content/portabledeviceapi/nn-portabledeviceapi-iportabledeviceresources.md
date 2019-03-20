@@ -1,6 +1,6 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceResources
-title: IPortableDeviceResources
+title: IPortableDeviceResources (portabledeviceapi.h)
 author: windows-sdk-content
 description: The IPortableDeviceResources interface provides access to an object's raw data. Use this interface to read or write resources in an object. To get this interface, call IPortableDeviceContent::Transfer.
 old-location: wpdsdk\iportabledeviceresources.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfsharingengine.IPlayToControlWithCapabilities.GetCapabilities
-title: IPlayToControlWithCapabilities::GetCapabilities
+title: IPlayToControlWithCapabilities::GetCapabilities (mfsharingengine.h)
 author: windows-sdk-content
 description: Gets the capabilities information for the content.
 old-location: mf\iplaytocontrolwithcapabilities_getcapabilities.htm

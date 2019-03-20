@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMMutualExclusion
-title: IWMMutualExclusion
+title: IWMMutualExclusion (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMMutualExclusion interface represents a group of streams, of which only one at a time can be played.IWMMutualExclusion is the base interface for mutual exclusion objects.
 old-location: wmformat\iwmmutualexclusion.htm

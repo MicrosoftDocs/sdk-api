@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_BuffersWritten
-title: ITraceDataCollector::get_BuffersWritten
+title: ITraceDataCollector::get_BuffersWritten (pla.h)
 author: windows-sdk-content
 description: Retrieves the number of buffers written to the log file.
 old-location: pla\itracedatacollector_bufferswritten.htm

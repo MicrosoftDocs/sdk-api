@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_QUERY_INDEX_VECTOR_SIZE_FN
-title: PIBIO_ENGINE_QUERY_INDEX_VECTOR_SIZE_FN
+title: PIBIO_ENGINE_QUERY_INDEX_VECTOR_SIZE_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Retrieves the size of the index vector used by the engine adapter.
 old-location: secbiomet\engineadapterqueryindexvectorsize.htm

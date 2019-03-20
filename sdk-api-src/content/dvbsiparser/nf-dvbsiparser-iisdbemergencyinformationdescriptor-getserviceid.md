@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbEmergencyInformationDescriptor.GetServiceId
-title: IIsdbEmergencyInformationDescriptor::GetServiceId
+title: IIsdbEmergencyInformationDescriptor::GetServiceId (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the identifier for a broadcasting event from an emergency information descriptor.
 old-location: mstv\iisdbemergencyinformationdescriptor_getserviceid.htm

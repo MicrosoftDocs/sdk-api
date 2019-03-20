@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_GET_LENGTH_INFO
-title: IOCTL_DISK_GET_LENGTH_INFO
+title: IOCTL_DISK_GET_LENGTH_INFO (winioctl.h)
 author: windows-sdk-content
 description: Retrieves the length of the specified disk, volume, or partition.
 old-location: fs\ioctl_disk_get_length_info.htm

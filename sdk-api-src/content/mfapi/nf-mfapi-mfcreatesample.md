@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreateSample
-title: MFCreateSample function
+title: MFCreateSample function (mfapi.h)
 author: windows-sdk-content
 description: Creates an empty media sample.
 old-location: mf\mfcreatesample.htm

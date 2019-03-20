@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRAspectRatioControl9.GetAspectRatioMode
-title: IVMRAspectRatioControl9::GetAspectRatioMode
+title: IVMRAspectRatioControl9::GetAspectRatioMode (vmr9.h)
 author: windows-sdk-content
 description: The GetAspectRatioMode method queries whether the VMR preserves the aspect ratio of the source video.
 old-location: dshow\ivmraspectratiocontrol9_getaspectratiomode.htm

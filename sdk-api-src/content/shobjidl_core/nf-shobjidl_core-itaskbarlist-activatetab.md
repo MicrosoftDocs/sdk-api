@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList.ActivateTab
-title: ITaskbarList::ActivateTab
+title: ITaskbarList::ActivateTab (shobjidl_core.h)
 author: windows-sdk-content
 description: Activates an item on the taskbar. The window is not actually activated; the window's item on the taskbar is merely displayed as active.
 old-location: shell\ITaskbarList_ActivateTab.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportCollection
-title: IWdsTransportCollection
+title: IWdsTransportCollection (wdstptmgmt.h)
 author: windows-sdk-content
 description: Represents a collection of Windows Deployment Services (WDS) transport management objects.
 old-location: wds\iwdstransportcollection.htm

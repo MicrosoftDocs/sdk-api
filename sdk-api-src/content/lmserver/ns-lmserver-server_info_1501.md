@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1501
-title: SERVER_INFO_1501
+title: SERVER_INFO_1501 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1501 structure specifies the number of files that can be open in one session on the specified server.
 old-location: netmgmt\server_info_1501_str.htm

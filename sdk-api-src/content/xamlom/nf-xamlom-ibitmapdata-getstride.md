@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IBitmapData.GetStride
-title: IBitmapData::GetStride
+title: IBitmapData::GetStride (xamlom.h)
 author: windows-sdk-content
 description: Gets the stride of the data. This is the length in bytes of each row of the bitmap.
 old-location: xaml_diagnostics\ibitmapdata_getstride.htm

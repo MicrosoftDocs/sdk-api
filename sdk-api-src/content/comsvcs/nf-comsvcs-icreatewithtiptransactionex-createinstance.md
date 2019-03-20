@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICreateWithTipTransactionEx.CreateInstance
-title: ICreateWithTipTransactionEx::CreateInstance
+title: ICreateWithTipTransactionEx::CreateInstance (comsvcs.h)
 author: windows-sdk-content
 description: Creates a COM+ object that executes within the scope of the manual transaction specified by a TIP transaction URL.
 old-location: cos\icreatewithtiptransactionex_createinstance.htm

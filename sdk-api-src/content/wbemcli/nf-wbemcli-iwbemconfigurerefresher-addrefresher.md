@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemConfigureRefresher.AddRefresher
-title: IWbemConfigureRefresher::AddRefresher
+title: IWbemConfigureRefresher::AddRefresher (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemConfigureRefresher::AddRefresher method adds a refresher to a refresher.
 old-location: wmi\iwbemconfigurerefresher_addrefresher.htm

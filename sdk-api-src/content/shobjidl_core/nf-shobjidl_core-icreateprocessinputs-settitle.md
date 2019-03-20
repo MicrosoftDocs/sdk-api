@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ICreateProcessInputs.SetTitle
-title: ICreateProcessInputs::SetTitle
+title: ICreateProcessInputs::SetTitle (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the title that will be passed CreateProcess.
 old-location: shell\icreateprocessinputs_settitle.htm

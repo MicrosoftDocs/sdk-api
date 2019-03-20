@@ -1,6 +1,6 @@
 ---
 UID: NF:icwcfg.CheckConnectionWizard
-title: CheckConnectionWizard function
+title: CheckConnectionWizard function (icwcfg.h)
 author: windows-sdk-content
 description: The CheckConnectionWizard function checks that the Internet Connection Wizard (ICW) is installed and that it has not been run before.
 old-location: winprog\checkconnectionwizard.htm

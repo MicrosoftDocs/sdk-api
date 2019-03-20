@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1InkStyle.SetNibTransform(const D2D1_MATRIX_3X2_F &)
-title: ID2D1InkStyle::SetNibTransform(const D2D1_MATRIX_3X2_F &)
+title: ID2D1InkStyle::SetNibTransform(const D2D1_MATRIX_3X2_F &) (d2d1_3.h)
 author: windows-sdk-content
 description: Sets the transform to apply to this style's nib shape.
 old-location: direct2d\id2d1inkstyle_setnibtransform_2.htm

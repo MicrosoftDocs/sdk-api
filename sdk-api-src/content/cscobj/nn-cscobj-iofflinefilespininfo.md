@@ -1,6 +1,6 @@
 ---
 UID: NN:cscobj.IOfflineFilesPinInfo
-title: IOfflineFilesPinInfo
+title: IOfflineFilesPinInfo (cscobj.h)
 author: windows-sdk-content
 description: Represents the pinned status of an item in the Offline Files cache.
 old-location: of\iofflinefilespininfo.htm

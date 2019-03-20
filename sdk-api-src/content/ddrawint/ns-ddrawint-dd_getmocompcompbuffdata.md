@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_GETMOCOMPCOMPBUFFDATA
-title: DD_GETMOCOMPCOMPBUFFDATA
+title: DD_GETMOCOMPCOMPBUFFDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_GETMOCOMPCOMPBUFFDATA structure contains the compressed buffer information.
 old-location: display\dd_getmocompcompbuffdata.htm

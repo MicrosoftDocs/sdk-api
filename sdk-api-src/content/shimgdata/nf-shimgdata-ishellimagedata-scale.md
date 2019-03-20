@@ -1,6 +1,6 @@
 ---
 UID: NF:shimgdata.IShellImageData.Scale
-title: IShellImageData::Scale
+title: IShellImageData::Scale (shimgdata.h)
 author: windows-sdk-content
 description: Adjusts the size of an image.
 old-location: shell\IShellImageData_Scale.htm

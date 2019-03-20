@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_OperationOptions_GetResourceUri
-title: MI_OperationOptions_GetResourceUri function
+title: MI_OperationOptions_GetResourceUri function (mi.h)
 author: windows-sdk-content
 description: Gets the resource URI being used for an operation.
 old-location: wmi_v2\mi_operationoptions_getresourceuri.htm

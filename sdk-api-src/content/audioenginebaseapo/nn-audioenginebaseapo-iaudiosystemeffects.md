@@ -1,6 +1,6 @@
 ---
 UID: NN:audioenginebaseapo.IAudioSystemEffects
-title: IAudioSystemEffects
+title: IAudioSystemEffects (audioenginebaseapo.h)
 author: windows-sdk-content
 description: The IAudioSystemEffects interface uses the basic methods that are inherited from IUnknown, and must implement an Initialize method.
 old-location: audio\iaudiosystemeffects.htm

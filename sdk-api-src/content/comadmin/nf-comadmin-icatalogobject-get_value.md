@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICatalogObject.get_Value
-title: ICatalogObject::get_Value
+title: ICatalogObject::get_Value (comadmin.h)
 author: windows-sdk-content
 description: Accesses the value of the specified property exposed by this catalog object.
 old-location: cos\icatalogobject_value.htm

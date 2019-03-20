@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymGetSourceFileW
-title: SymGetSourceFileW function
+title: SymGetSourceFileW function (dbghelp.h)
 author: windows-sdk-content
 description: Retrieves the specified source file from the source server.
 old-location: base\symgetsourcefile.htm

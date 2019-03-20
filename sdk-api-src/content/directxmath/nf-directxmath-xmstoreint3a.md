@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMStoreInt3A
-title: XMStoreInt3A function
+title: XMStoreInt3A function (directxmath.h)
 author: windows-sdk-content
 description: Stores an XMVECTOR in a 16-byte aligned 3 element uint32_t array.
 old-location: dxmath\xmstoreint3a.htm

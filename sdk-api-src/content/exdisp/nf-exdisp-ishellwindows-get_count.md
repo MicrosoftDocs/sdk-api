@@ -1,6 +1,6 @@
 ---
 UID: NF:exdisp.IShellWindows.get_Count
-title: IShellWindows::get_Count
+title: IShellWindows::get_Count (exdisp.h)
 author: windows-sdk-content
 description: Gets the number of windows in the Shell windows collection.
 old-location: shell\IShellWindows_get_Count.htm

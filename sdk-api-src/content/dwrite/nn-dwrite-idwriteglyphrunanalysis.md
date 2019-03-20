@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite.IDWriteGlyphRunAnalysis
-title: IDWriteGlyphRunAnalysis
+title: IDWriteGlyphRunAnalysis (dwrite.h)
 author: windows-sdk-content
 description: Contains low-level information used to render a glyph run.
 old-location: directwrite\IDWriteGlyphRunAnalysis.htm

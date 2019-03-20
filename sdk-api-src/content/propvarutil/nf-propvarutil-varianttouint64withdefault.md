@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantToUInt64WithDefault
-title: VariantToUInt64WithDefault function
+title: VariantToUInt64WithDefault function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts an unsigned Int64 property value of a variant structure. If no value currently exists, then the specified default value is returned.
 old-location: properties\VariantToUInt64WithDefault.htm

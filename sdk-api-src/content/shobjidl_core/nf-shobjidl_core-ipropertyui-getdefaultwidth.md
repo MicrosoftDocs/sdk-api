@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPropertyUI.GetDefaultWidth
-title: IPropertyUI::GetDefaultWidth
+title: IPropertyUI::GetDefaultWidth (shobjidl_core.h)
 author: windows-sdk-content
 description: Developers should use IPropertyDescription instead. Gets the width of the property description.
 old-location: properties\IPropertyUI_GetDefaultWidth.htm

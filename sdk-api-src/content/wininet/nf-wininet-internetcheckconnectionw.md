@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetCheckConnectionW
-title: InternetCheckConnectionW function
+title: InternetCheckConnectionW function (wininet.h)
 author: windows-sdk-content
 description: Allows an application to check if a connection to the Internet can be established.
 old-location: wininet\internetcheckconnection.htm

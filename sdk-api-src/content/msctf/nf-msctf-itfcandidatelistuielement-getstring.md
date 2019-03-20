@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.GetString
-title: ITfCandidateListUIElement::GetString
+title: ITfCandidateListUIElement::GetString (msctf.h)
 author: windows-sdk-content
 description: The ITfCandidateListUIElement::GetString method returns the string of the index.
 old-location: tsf\itfcandidatelistuielement_getstring.htm

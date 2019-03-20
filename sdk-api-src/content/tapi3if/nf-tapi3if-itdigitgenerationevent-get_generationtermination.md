@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITDigitGenerationEvent.get_GenerationTermination
-title: ITDigitGenerationEvent::get_GenerationTermination
+title: ITDigitGenerationEvent::get_GenerationTermination (tapi3if.h)
 author: windows-sdk-content
 description: The get_GenerationTermination method gets the digit or digits that indicate the end of the generated digit series.
 old-location: tapi3\itdigitgenerationevent_get_generationtermination.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpSetServiceConfiguration
-title: HttpSetServiceConfiguration function
+title: HttpSetServiceConfiguration function (http.h)
 author: windows-sdk-content
 description: Creates and sets a configuration record for the HTTP Server API configuration store.
 old-location: http\httpsetserviceconfiguration.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer.get_MajorVersion
-title: IFaxServer::get_MajorVersion
+title: IFaxServer::get_MajorVersion (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxServer::get_MajorVersion property is a value that specifies the major part of the version number for the fax service.
 old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_majorversion_cpp.htm

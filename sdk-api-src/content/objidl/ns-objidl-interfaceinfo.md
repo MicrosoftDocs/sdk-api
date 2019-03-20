@@ -1,6 +1,6 @@
 ---
 UID: NS:objidl.tagINTERFACEINFO
-title: INTERFACEINFO
+title: INTERFACEINFO (objidl.h)
 author: windows-sdk-content
 description: Contains information about incoming calls.
 old-location: com\interfaceinfo.htm

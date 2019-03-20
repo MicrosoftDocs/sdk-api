@@ -1,6 +1,6 @@
 ---
 UID: NE:wmiutils.tag_WBEM_PATH_CREATE_FLAG
-title: tag_WBEM_PATH_CREATE_FLAG
+title: tag_WBEM_PATH_CREATE_FLAG (wmiutils.h)
 author: windows-sdk-content
 description: Contains flags specifying the type of paths accepted.
 old-location: wmi\tag_wbem_path_create_flag.htm

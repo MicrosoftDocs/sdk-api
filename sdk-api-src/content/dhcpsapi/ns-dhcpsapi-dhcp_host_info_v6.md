@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_HOST_INFO_V6
-title: DHCP_HOST_INFO_V6
+title: DHCP_HOST_INFO_V6 (dhcpsapi.h)
 author: windows-sdk-content
 description: Contains network information about a DHCPv6 server (host), such as its IPv6 address and name.
 old-location: dhcp\dhcp_host_info_v6.htm

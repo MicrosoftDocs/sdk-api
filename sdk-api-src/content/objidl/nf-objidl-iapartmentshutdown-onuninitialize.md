@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IApartmentShutdown.OnUninitialize
-title: IApartmentShutdown::OnUninitialize
+title: IApartmentShutdown::OnUninitialize (objidl.h)
 author: windows-sdk-content
 description: Called when a registered apartment is shut down.
 old-location: winrt\iapartmentshutdown_onuninitialize.htm

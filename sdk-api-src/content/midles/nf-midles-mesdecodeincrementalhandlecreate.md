@@ -1,6 +1,6 @@
 ---
 UID: NF:midles.MesDecodeIncrementalHandleCreate
-title: MesDecodeIncrementalHandleCreate function
+title: MesDecodeIncrementalHandleCreate function (midles.h)
 author: windows-sdk-content
 description: The MesDecodeIncrementalHandleCreate function creates a decoding handle for the incremental style of serialization.
 old-location: rpc\mesdecodeincrementalhandlecreate.htm

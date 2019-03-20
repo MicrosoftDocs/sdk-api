@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPClosedCaption.put_SAMIFileName
-title: IWMPClosedCaption::put_SAMIFileName
+title: IWMPClosedCaption::put_SAMIFileName (wmp.h)
 author: windows-sdk-content
 description: The put_SAMIFileName method specifies the name of the file containing the information needed for closed captioning.
 old-location: wmp\iwmpclosedcaption_put_samifilename.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhoneDeviceSpecificEvent.get_Phone
-title: ITPhoneDeviceSpecificEvent::get_Phone
+title: ITPhoneDeviceSpecificEvent::get_Phone (tapi3if.h)
 author: windows-sdk-content
 description: The get_Phone method retrieves the ITPhone interface pointer for a phone device event.
 old-location: tapi3\itphonedevicespecificevent_get_phone.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.GetIfEntry2Ex
-title: GetIfEntry2Ex function
+title: GetIfEntry2Ex function (netioapi.h)
 author: windows-sdk-content
 description: Retrieves the specified level of information for the specified interface on the local computer.
 old-location: iphlp\getifentry2ex.htm

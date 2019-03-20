@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetProcessDPIAware
-title: SetProcessDPIAware function
+title: SetProcessDPIAware function (winuser.h)
 author: windows-sdk-content
 description: SetProcessDPIAware may be altered or unavailable. Instead, use SetProcessDPIAwareness.
 old-location: winmsg\setprocessdpiaware.htm

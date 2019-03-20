@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_SIGN_MESSAGE_PARA
-title: CRYPT_SIGN_MESSAGE_PARA
+title: CRYPT_SIGN_MESSAGE_PARA (wincrypt.h)
 author: windows-sdk-content
 description: The CRYPT_SIGN_MESSAGE_PARA structure contains information for signing messages using a specified signing certificate context.
 old-location: security\crypt_sign_message_para.htm

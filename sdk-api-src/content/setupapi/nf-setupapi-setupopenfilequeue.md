@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupOpenFileQueue
-title: SetupOpenFileQueue function
+title: SetupOpenFileQueue function (setupapi.h)
 author: windows-sdk-content
 description: The SetupOpenFileQueue function creates a setup file queue.
 old-location: setup\setupopenfilequeue.htm

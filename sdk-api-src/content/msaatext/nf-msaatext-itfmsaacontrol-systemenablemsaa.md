@@ -1,6 +1,6 @@
 ---
 UID: NF:msaatext.ITfMSAAControl.SystemEnableMSAA
-title: ITfMSAAControl::SystemEnableMSAA
+title: ITfMSAAControl::SystemEnableMSAA (msaatext.h)
 author: windows-sdk-content
 description: ITfMSAAControl::SystemEnableMSAA method
 old-location: tsf\itfmsaacontrol_systemenablemsaa.htm

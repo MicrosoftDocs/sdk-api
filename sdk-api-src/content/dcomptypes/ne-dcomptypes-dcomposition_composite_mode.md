@@ -1,6 +1,6 @@
 ---
 UID: NE:dcomptypes.DCOMPOSITION_COMPOSITE_MODE
-title: DCOMPOSITION_COMPOSITE_MODE
+title: DCOMPOSITION_COMPOSITE_MODE (dcomptypes.h)
 author: windows-sdk-content
 description: The mode to use to blend the bitmap content of a visual with the render target.
 old-location: directcomp\dcomposition_composite_mode.htm

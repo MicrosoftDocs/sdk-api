@@ -1,6 +1,6 @@
 ---
 UID: NS:audioengineendpoint.AE_CURRENT_POSITION
-title: AE_CURRENT_POSITION
+title: AE_CURRENT_POSITION (audioengineendpoint.h)
 author: windows-sdk-content
 description: Reports the current frame position from the device to the clients.
 old-location: termserv\ae_current_position.htm

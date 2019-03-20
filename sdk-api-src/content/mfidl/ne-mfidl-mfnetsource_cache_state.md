@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MFNETSOURCE_CACHE_STATE
-title: MFNETSOURCE_CACHE_STATE
+title: MFNETSOURCE_CACHE_STATE (mfidl.h)
 author: windows-sdk-content
 description: Defines the status of the cache for a media file or entry.
 old-location: mf\mfnetsource_cache_state.htm

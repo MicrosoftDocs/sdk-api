@@ -1,6 +1,6 @@
 ---
 UID: NN:locationapi.ILatLongReport
-title: ILatLongReport
+title: ILatLongReport (locationapi.h)
 author: windows-sdk-content
 description: ILatLongReport represents a location report that contains information in the form of latitude and longitude.
 old-location: winlocation\ilatlongreport.htm

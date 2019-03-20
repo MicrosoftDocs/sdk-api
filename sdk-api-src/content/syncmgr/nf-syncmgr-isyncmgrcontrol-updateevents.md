@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.UpdateEvents
-title: ISyncMgrControl::UpdateEvents
+title: ISyncMgrControl::UpdateEvents (syncmgr.h)
 author: windows-sdk-content
 description: Informs Sync Center that events have been added for a specific handler or item.
 old-location: shell\ISyncMgrControl_UpdateEvents.htm

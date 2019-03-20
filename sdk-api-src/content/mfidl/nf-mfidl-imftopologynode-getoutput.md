@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.GetOutput
-title: IMFTopologyNode::GetOutput
+title: IMFTopologyNode::GetOutput (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the node that is connected to a specified output stream on this node.
 old-location: mf\imftopologynode_getoutput.htm

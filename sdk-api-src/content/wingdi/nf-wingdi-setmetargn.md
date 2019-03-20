@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.SetMetaRgn
-title: SetMetaRgn function
+title: SetMetaRgn function (wingdi.h)
 author: windows-sdk-content
 description: The SetMetaRgn function intersects the current clipping region for the specified device context with the current metaregion and saves the combined region as the new metaregion for the specified device context.
 old-location: gdi\setmetargn.htm

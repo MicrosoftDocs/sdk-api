@@ -1,6 +1,6 @@
 ---
 UID: NF:winsvc.UnlockServiceDatabase
-title: UnlockServiceDatabase function
+title: UnlockServiceDatabase function (winsvc.h)
 author: windows-sdk-content
 description: Unlocks a service control manager database by releasing the specified lock.
 old-location: base\unlockservicedatabase.htm

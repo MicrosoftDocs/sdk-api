@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsCreateMessageForChannel
-title: WsCreateMessageForChannel function
+title: WsCreateMessageForChannel function (webservices.h)
 author: windows-sdk-content
 description: Creates a message for use with a specified channel.
 old-location: wsw\wscreatemessageforchannel.htm

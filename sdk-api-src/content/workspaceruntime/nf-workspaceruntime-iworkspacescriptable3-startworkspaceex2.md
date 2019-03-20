@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceScriptable3.StartWorkspaceEx2
-title: IWorkspaceScriptable3::StartWorkspaceEx2
+title: IWorkspaceScriptable3::StartWorkspaceEx2 (workspaceruntime.h)
 author: windows-sdk-content
 description: Not implemented.
 old-location: termserv\iworkspacescriptable3_startworkspaceex2.htm

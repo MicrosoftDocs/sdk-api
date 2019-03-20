@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptGetHashParam
-title: CryptGetHashParam function
+title: CryptGetHashParam function (wincrypt.h)
 author: windows-sdk-content
 description: Retrieves data that governs the operations of a hash object.
 old-location: security\cryptgethashparam.htm

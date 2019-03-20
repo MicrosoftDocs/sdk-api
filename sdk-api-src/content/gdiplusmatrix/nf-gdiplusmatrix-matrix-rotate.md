@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Rotate
-title: Matrix::Rotate
+title: Matrix::Rotate (gdiplusmatrix.h)
 author: windows-sdk-content
 description: The Matrix::Rotate method updates this matrix with the product of itself and a rotation matrix.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Rotate_angle_order_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoMarshalInterface
-title: CoMarshalInterface function
+title: CoMarshalInterface function (combaseapi.h)
 author: windows-sdk-content
 description: Writes into a stream the data required to initialize a proxy object in some client process.
 old-location: com\comarshalinterface.htm

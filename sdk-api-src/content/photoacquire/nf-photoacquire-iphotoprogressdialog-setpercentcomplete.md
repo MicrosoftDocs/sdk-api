@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.SetPercentComplete
-title: IPhotoProgressDialog::SetPercentComplete
+title: IPhotoProgressDialog::SetPercentComplete (photoacquire.h)
 author: windows-sdk-content
 description: The SetPercentComplete method sets a value indicating the completed portion of the current operation.
 old-location: picacq\iphotoprogressdialog_setpercentcomplete.htm

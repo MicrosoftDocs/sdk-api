@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUSPROP_SECURITY_DESCRIPTOR
-title: CLUSPROP_SECURITY_DESCRIPTOR
+title: CLUSPROP_SECURITY_DESCRIPTOR (clusapi.h)
 author: windows-sdk-content
 description: Describes a security descriptor.
 old-location: mscs\clusprop_security_descriptor.htm

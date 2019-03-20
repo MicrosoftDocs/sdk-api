@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskFolderCollection.get_Item
-title: ITaskFolderCollection::get_Item
+title: ITaskFolderCollection::get_Item (taskschd.h)
 author: windows-sdk-content
 description: Gets the specified folder from the collection.
 old-location: taskschd\itaskfoldercollection_item.htm

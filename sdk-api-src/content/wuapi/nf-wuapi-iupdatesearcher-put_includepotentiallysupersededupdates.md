@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.put_IncludePotentiallySupersededUpdates
-title: IUpdateSearcher::put_IncludePotentiallySupersededUpdates
+title: IUpdateSearcher::put_IncludePotentiallySupersededUpdates (wuapi.h)
 author: windows-sdk-content
 description: Gets and sets a Boolean value that indicates whether the search results include updates that are superseded by other updates in the search results.
 old-location: wua\iupdatesearcher_includepotentiallysupersededupdates.htm

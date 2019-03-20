@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.DeleteFiber
-title: DeleteFiber function
+title: DeleteFiber function (winbase.h)
 author: windows-sdk-content
 description: Deletes an existing fiber.
 old-location: base\deletefiber.htm

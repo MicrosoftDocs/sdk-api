@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetMessageExtraInfo
-title: GetMessageExtraInfo function
+title: GetMessageExtraInfo function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the extra message information for the current thread. Extra message information is an application- or driver-defined value associated with the current thread's message queue.
 old-location: winmsg\getmessageextrainfo.htm

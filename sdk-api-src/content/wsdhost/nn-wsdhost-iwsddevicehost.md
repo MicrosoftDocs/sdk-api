@@ -1,6 +1,6 @@
 ---
 UID: NN:wsdhost.IWSDDeviceHost
-title: IWSDDeviceHost
+title: IWSDDeviceHost (wsdhost.h)
 author: windows-sdk-content
 description: Represents a DPWS-compliant device.
 old-location: ncd\iwsddevicehost.htm

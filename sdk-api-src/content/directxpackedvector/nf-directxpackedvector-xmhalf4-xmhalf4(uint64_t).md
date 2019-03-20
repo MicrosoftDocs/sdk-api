@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMHALF4.XMHALF4(uint64_t)
-title: XMHALF4::XMHALF4(uint64_t)
+title: XMHALF4::XMHALF4(uint64_t) (directxpackedvector.h)
 author: windows-sdk-content
 description: Default constructor for XMHALF4.
 old-location: dxmath\xmhalf4_ctor_1.htm

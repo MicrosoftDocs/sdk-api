@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.EnumTimeFormatsEx
-title: EnumTimeFormatsEx function
+title: EnumTimeFormatsEx function (winnls.h)
 author: windows-sdk-content
 description: Enumerates the time formats that are available for a locale specified by name.Note  The application should call this function in preference to EnumTimeFormats if designed to run only on Windows Vista and later. Note  This function can enumerate data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see Using Persistent Locale Data.
 old-location: intl\enumtimeformatsex.htm

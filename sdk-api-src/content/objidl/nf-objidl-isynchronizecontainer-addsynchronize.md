@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ISynchronizeContainer.AddSynchronize
-title: ISynchronizeContainer::AddSynchronize
+title: ISynchronizeContainer::AddSynchronize (objidl.h)
 author: windows-sdk-content
 description: Adds a synchronization object to the container.
 old-location: com\isynchronizecontainer_addsynchronize.htm

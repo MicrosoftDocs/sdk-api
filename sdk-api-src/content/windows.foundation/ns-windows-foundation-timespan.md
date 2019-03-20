@@ -1,6 +1,6 @@
 ---
 UID: NS:windows.foundation.TimeSpan
-title: TimeSpan
+title: TimeSpan (windows.foundation.h)
 author: windows-sdk-content
 description: Represents a time interval.
 old-location: winrt\timespan.htm

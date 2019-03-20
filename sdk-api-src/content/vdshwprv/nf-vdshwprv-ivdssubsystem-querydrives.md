@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem.QueryDrives
-title: IVdsSubSystem::QueryDrives
+title: IVdsSubSystem::QueryDrives (vdshwprv.h)
 author: windows-sdk-content
 description: Returns an object that enumerates the drives in the subsystem.
 old-location: base\ivdssubsystem_querydrives.htm

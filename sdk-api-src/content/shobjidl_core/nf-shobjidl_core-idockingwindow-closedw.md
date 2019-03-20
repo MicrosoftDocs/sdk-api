@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDockingWindow.CloseDW
-title: IDockingWindow::CloseDW
+title: IDockingWindow::CloseDW (shobjidl_core.h)
 author: windows-sdk-content
 description: Notifies the docking window object that it is about to be removed from the frame. The docking window object should save any persistent information at this time.
 old-location: shell\IDockingWindow_CloseDW.htm

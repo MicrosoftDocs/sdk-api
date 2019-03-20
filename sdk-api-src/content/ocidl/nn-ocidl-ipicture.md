@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IPicture
-title: IPicture
+title: IPicture (ocidl.h)
 author: windows-sdk-content
 description: Manages a picture object and its properties. Picture objects provide a language-neutral abstraction for bitmaps, icons, and metafiles.
 old-location: com\ipicture.htm

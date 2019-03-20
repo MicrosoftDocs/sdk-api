@@ -1,6 +1,6 @@
 ---
 UID: NE:wtypesbase.tagCLSCTX
-title: CLSCTX
+title: CLSCTX (wtypesbase.h)
 author: windows-sdk-content
 description: Values that are used in activation calls to indicate the execution contexts in which an object is to be run.
 old-location: com\clsctx.htm

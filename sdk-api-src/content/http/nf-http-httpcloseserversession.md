@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpCloseServerSession
-title: HttpCloseServerSession function
+title: HttpCloseServerSession function (http.h)
 author: windows-sdk-content
 description: Deletes the server session identified by the server session ID.
 old-location: http\httpcloseserversession.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IGetContextProperties.Count
-title: IGetContextProperties::Count
+title: IGetContextProperties::Count (comsvcs.h)
 author: windows-sdk-content
 description: Counts the number of context properties.
 old-location: cos\igetcontextproperties_count.htm

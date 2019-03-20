@@ -1,6 +1,6 @@
 ---
 UID: NF:wabapi.IWABObject.Backup
-title: IWABObject::Backup
+title: IWABObject::Backup (wabapi.h)
 author: windows-sdk-content
 description: This method is not implemented.
 old-location: wab\_wab_IWABObject_Backup.htm

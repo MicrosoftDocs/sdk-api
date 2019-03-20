@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbEventGroupDescriptor.GetRecordEvent
-title: IIsdbEventGroupDescriptor::GetRecordEvent
+title: IIsdbEventGroupDescriptor::GetRecordEvent (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets data from an event record in an Integrated Services Digital Broadcasting (ISDB) event group descriptor.
 old-location: mstv\iisdbeventgroupdescriptor_getrecordevent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.PlaylistCollectionPlaylistAdded
-title: IWMPEvents::PlaylistCollectionPlaylistAdded
+title: IWMPEvents::PlaylistCollectionPlaylistAdded (wmp.h)
 author: windows-sdk-content
 description: The PlaylistCollectionPlaylistAdded event occurs when a playlist is added to the playlist collection.
 old-location: wmp\iwmpevents_iwmpevents__playlistcollectionplaylistadded.htm

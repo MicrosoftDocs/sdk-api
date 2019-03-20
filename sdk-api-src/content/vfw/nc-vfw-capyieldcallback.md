@@ -1,6 +1,6 @@
 ---
 UID: NC:vfw.CAPYIELDCALLBACK
-title: CAPYIELDCALLBACK
+title: CAPYIELDCALLBACK (vfw.h)
 author: windows-sdk-content
 description: The capYieldCallback function is the yield callback function used with video capture. The name capYieldCallback is a placeholder for the application-supplied function name.
 old-location: multimedia\capyieldcallback.htm

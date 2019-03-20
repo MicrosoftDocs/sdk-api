@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.GetVectorCurve
-title: IUIAnimationVariable2::GetVectorCurve
+title: IUIAnimationVariable2::GetVectorCurve (uianimation.h)
 author: windows-sdk-content
 description: Gets the animation curve of the animation variable for the specified dimension.
 old-location: uianimation\iuianimationvariable2_getvectorcurve.htm

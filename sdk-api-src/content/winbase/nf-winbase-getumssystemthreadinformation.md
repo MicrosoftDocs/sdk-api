@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetUmsSystemThreadInformation
-title: GetUmsSystemThreadInformation function
+title: GetUmsSystemThreadInformation function (winbase.h)
 author: windows-sdk-content
 description: Queries whether the specified thread is a UMS scheduler thread, a UMS worker thread, or a non-UMS thread.
 old-location: base\getumssystemthreadinformation.htm

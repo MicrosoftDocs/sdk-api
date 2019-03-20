@@ -1,6 +1,6 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.GetMonitorTechnologyType
-title: GetMonitorTechnologyType function
+title: GetMonitorTechnologyType function (highlevelmonitorconfigurationapi.h)
 author: windows-sdk-content
 description: Retrieves the type of technology used by a monitor.
 old-location: monitor\getmonitortechnologytype.htm

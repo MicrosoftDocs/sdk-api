@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationclient.CoalesceEventsOptions
-title: CoalesceEventsOptions
+title: CoalesceEventsOptions (uiautomationclient.h)
 author: windows-sdk-content
 description: Contains possible values for the CoalesceEvents property, which indicates whether an accessible technology client receives all events, or a subset where duplicate events are detected and filtered.
 old-location: winauto\uiauto_coalesceeventsoptions_enum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:naptypes.tagRemoteConfigurationType
-title: RemoteConfigurationType
+title: RemoteConfigurationType (naptypes.h)
 author: windows-sdk-content
 description: Describes the type of remote configuration possible for a component.
 old-location: nap\remoteconfigurationtype.htm

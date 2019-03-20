@@ -1,6 +1,6 @@
 ---
 UID: NN:wmpservices.IWMPPluginEnable
-title: IWMPPluginEnable
+title: IWMPPluginEnable (wmpservices.h)
 author: windows-sdk-content
 description: The IWMPPluginEnable interface is implemented by the plug-in. It sets and retrieves a value that represents whether the plug-in has been enabled by Windows Media Player.
 old-location: wmp\iwmppluginenable.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAnalogTuner.put_Channel
-title: IMSVidAnalogTuner::put_Channel
+title: IMSVidAnalogTuner::put_Channel (segment.h)
 author: windows-sdk-content
 description: The put_Channel method specifies the tuner's channel.
 old-location: mstv\imsvidanalogtuner_put_channel.htm

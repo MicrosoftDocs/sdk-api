@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core._IDA
-title: CIDA
+title: CIDA (shlobj_core.h)
 author: windows-sdk-content
 description: Used with the CFSTR_SHELLIDLIST clipboard format to transfer the pointer to an item identifier list (PIDL) of one or more Shell namespace objects.
 old-location: shell\CIDA.htm

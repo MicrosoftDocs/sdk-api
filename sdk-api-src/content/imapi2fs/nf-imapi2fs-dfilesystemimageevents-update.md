@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.DFileSystemImageEvents.Update
-title: DFileSystemImageEvents::Update
+title: DFileSystemImageEvents::Update (imapi2fs.h)
 author: windows-sdk-content
 description: Implement this method to receive progress notification of the current write operation. The notifications are sent when copying the content of a file or while adding directories or files to the file system image.
 old-location: imapi\dfilesystemimageevents_update.htm

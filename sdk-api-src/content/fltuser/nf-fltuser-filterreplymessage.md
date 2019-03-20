@@ -1,6 +1,6 @@
 ---
 UID: NF:fltuser.FilterReplyMessage
-title: FilterReplyMessage function
+title: FilterReplyMessage function (fltuser.h)
 author: windows-sdk-content
 description: The FilterReplyMessage function replies to a message from a kernel-mode minifilter.
 old-location: ifsk\filterreplymessage.htm

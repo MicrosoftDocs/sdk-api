@@ -1,6 +1,6 @@
 ---
 UID: NC:fwpmu.FWPM_FILTER_CHANGE_CALLBACK0
-title: FWPM_FILTER_CHANGE_CALLBACK0
+title: FWPM_FILTER_CHANGE_CALLBACK0 (fwpmu.h)
 author: windows-sdk-content
 description: Is used to added custom behavior to the filter change notification process.
 old-location: fwp\fwpm_filter_change_callback0_func.htm

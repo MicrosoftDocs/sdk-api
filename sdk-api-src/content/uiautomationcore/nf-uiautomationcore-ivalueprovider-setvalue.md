@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IValueProvider.SetValue
-title: IValueProvider::SetValue
+title: IValueProvider::SetValue (uiautomationcore.h)
 author: windows-sdk-content
 description: Sets the value of control.
 old-location: winauto\uiauto_IValueProvider_SetValue.htm

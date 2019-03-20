@@ -1,6 +1,6 @@
 ---
 UID: NS:evntprov._EVENT_DATA_DESCRIPTOR
-title: EVENT_DATA_DESCRIPTOR
+title: EVENT_DATA_DESCRIPTOR (evntprov.h)
 author: windows-sdk-content
 description: Defines one of the data items of the event data.
 old-location: etw\event_data_descriptor.htm

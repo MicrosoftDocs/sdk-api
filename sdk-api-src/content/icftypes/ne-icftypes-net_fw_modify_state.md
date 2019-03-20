@@ -1,6 +1,6 @@
 ---
 UID: NE:icftypes.NET_FW_MODIFY_STATE_
-title: NET_FW_MODIFY_STATE
+title: NET_FW_MODIFY_STATE (icftypes.h)
 author: windows-sdk-content
 description: Specifies the effect of modifications to the current policy.
 old-location: ics\net_fw_modify_state.htm

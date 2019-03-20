@@ -1,6 +1,6 @@
 ---
 UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0002_0001
-title: UI_ANIMATION_STORYBOARD_STATUS
+title: UI_ANIMATION_STORYBOARD_STATUS (uianimation.h)
 author: windows-sdk-content
 description: Defines the status for a storyboard.
 old-location: uianimation\ui_animation_storyboard_status.htm

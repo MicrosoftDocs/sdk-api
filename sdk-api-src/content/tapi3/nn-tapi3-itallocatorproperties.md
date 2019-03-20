@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3.ITAllocatorProperties
-title: ITAllocatorProperties
+title: ITAllocatorProperties (tapi3.h)
 author: windows-sdk-content
 description: The ITAllocatorProperties interface exposes the buffer allocator properties of the Media Streaming Terminal (MST) to an end-user or server application.
 old-location: tapi3\itallocatorproperties.htm

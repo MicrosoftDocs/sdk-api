@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteColorGlyphRunEnumerator.MoveNext
-title: IDWriteColorGlyphRunEnumerator::MoveNext
+title: IDWriteColorGlyphRunEnumerator::MoveNext (dwrite_2.h)
 author: windows-sdk-content
 description: Move to the next glyph run in the enumerator.
 old-location: directwrite\idwritecolorglyphrunenumerator_movenext.htm

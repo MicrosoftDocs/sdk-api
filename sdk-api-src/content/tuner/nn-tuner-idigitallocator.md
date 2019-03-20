@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IDigitalLocator
-title: IDigitalLocator
+title: IDigitalLocator (tuner.h)
 author: windows-sdk-content
 description: The IDigitalLocator interface serves as the base interface for Locator objects that contain tuning information about the tuning space for a digital network. This interface is used only through derived interfaces such as IATSCLocator.
 old-location: mstv\idigitallocator.htm

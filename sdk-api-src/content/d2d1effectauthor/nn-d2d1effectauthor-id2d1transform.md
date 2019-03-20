@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1Transform
-title: ID2D1Transform
+title: ID2D1Transform (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Represents the base interface for all of the transforms implemented by the transform author.
 old-location: direct2d\id2d1transform.htm

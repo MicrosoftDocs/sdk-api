@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.GetActiveFlags
-title: ITfThreadMgr2::GetActiveFlags
+title: ITfThreadMgr2::GetActiveFlags (msctf.h)
 author: windows-sdk-content
 description: Gets the active flags of the calling thread.
 old-location: tsf\itfthreadmgr2_getactiveflags.htm

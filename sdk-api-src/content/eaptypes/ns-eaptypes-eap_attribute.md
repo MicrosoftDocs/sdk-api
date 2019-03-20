@@ -1,6 +1,6 @@
 ---
 UID: NS:eaptypes._EAP_ATTRIBUTE
-title: EAP_ATTRIBUTE
+title: EAP_ATTRIBUTE (eaptypes.h)
 author: windows-sdk-content
 description: Contains an EAP attribute.
 old-location: eaphost\eap_attribute.htm

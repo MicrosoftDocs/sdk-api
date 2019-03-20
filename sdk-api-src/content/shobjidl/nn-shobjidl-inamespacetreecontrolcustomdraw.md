@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.INameSpaceTreeControlCustomDraw
-title: INameSpaceTreeControlCustomDraw
+title: INameSpaceTreeControlCustomDraw (shobjidl.h)
 author: windows-sdk-content
 description: Exposes methods that enable the user to draw a custom namespace tree control and its items.
 old-location: shell\INameSpaceTreeControlCustomDraw.htm

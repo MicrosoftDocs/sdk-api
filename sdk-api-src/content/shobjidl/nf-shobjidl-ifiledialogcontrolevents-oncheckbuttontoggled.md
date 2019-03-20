@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IFileDialogControlEvents.OnCheckButtonToggled
-title: IFileDialogControlEvents::OnCheckButtonToggled
+title: IFileDialogControlEvents::OnCheckButtonToggled (shobjidl.h)
 author: windows-sdk-content
 description: Called when the user changes the state of a check button (check box).
 old-location: shell\IFileDialogControlEvents_OnCheckButtonToggled.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRemoteDictionaryResourceCollection.Append
-title: IXpsOMRemoteDictionaryResourceCollection::Append
+title: IXpsOMRemoteDictionaryResourceCollection::Append (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Appends an IXpsOMRemoteDictionaryResource interface to the end of the collection.
 old-location: xps\ixpsomremotedictionaryresourcecollection_append.htm

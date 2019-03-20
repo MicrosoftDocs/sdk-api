@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetPointerPenInfoHistory
-title: GetPointerPenInfoHistory function
+title: GetPointerPenInfoHistory function (winuser.h)
 author: windows-sdk-content
 description: Gets the pen-based information associated with the individual inputs, if any, that were coalesced into the current message for the specified pointer (of type PT_PEN).
 old-location: inputmsg\getpointerpeninfohistory.htm

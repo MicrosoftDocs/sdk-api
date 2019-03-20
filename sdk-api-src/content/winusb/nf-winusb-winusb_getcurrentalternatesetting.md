@@ -1,6 +1,6 @@
 ---
 UID: NF:winusb.WinUsb_GetCurrentAlternateSetting
-title: WinUsb_GetCurrentAlternateSetting function
+title: WinUsb_GetCurrentAlternateSetting function (winusb.h)
 author: windows-sdk-content
 description: The WinUsb_GetCurrentAlternateSetting function gets the current alternate interface setting for an interface. This is a synchronous operation.
 old-location: buses\winusb_getcurrentalternatesetting.htm

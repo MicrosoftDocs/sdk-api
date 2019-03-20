@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IGetContextProperties.EnumNames
-title: IGetContextProperties::EnumNames
+title: IGetContextProperties::EnumNames (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves a list of the names of the current context properties.
 old-location: cos\igetcontextproperties_enumnames.htm

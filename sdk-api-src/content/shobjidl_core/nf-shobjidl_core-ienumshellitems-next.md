@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IEnumShellItems.Next
-title: IEnumShellItems::Next
+title: IEnumShellItems::Next (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets an array of one or more IShellItem interfaces from the enumeration.
 old-location: shell\IEnumShellItems_Next.htm

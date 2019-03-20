@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.put_FreeMediaBlocks
-title: IFileSystemImage::put_FreeMediaBlocks
+title: IFileSystemImage::put_FreeMediaBlocks (imapi2fs.h)
 author: windows-sdk-content
 description: Sets the maximum number of blocks available for the image.
 old-location: imapi\ifilesystemimage_put_freemediablocks.htm

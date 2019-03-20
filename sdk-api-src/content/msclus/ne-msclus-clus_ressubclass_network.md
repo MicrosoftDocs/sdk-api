@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.CLUS_RESSUBCLASS_NETWORK
-title: CLUS_RESSUBCLASS_NETWORK
+title: CLUS_RESSUBCLASS_NETWORK (msclus.h)
 author: windows-sdk-content
 description: Identifies a resource subclass that manages an IP address provider.
 old-location: mscs\clus_ressubclass_network.htm

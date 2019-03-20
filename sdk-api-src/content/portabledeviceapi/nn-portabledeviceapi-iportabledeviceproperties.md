@@ -1,6 +1,6 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceProperties
-title: IPortableDeviceProperties
+title: IPortableDeviceProperties (portabledeviceapi.h)
 author: windows-sdk-content
 description: The IPortableDeviceProperties interface retrieves, adds, or deletes properties from an object on a device, or the device itself.
 old-location: wpdsdk\iportabledeviceproperties.htm

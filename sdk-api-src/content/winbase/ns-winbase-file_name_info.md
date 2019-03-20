@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._FILE_NAME_INFO
-title: FILE_NAME_INFO
+title: FILE_NAME_INFO (winbase.h)
 author: windows-sdk-content
 description: Receives the file name.
 old-location: fs\file_name_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFSourceBufferNotify
-title: IMFSourceBufferNotify
+title: IMFSourceBufferNotify (mfmediaengine.h)
 author: windows-sdk-content
 description: Provides functionality for raising events associated with IMFSourceBuffer.
 old-location: mf\imfsourcebuffernotify.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsTimestamp
-title: IADsTimestamp
+title: IADsTimestamp (iads.h)
 author: windows-sdk-content
 description: The IADsTimestamp interface provides methods for an ADSI client to access the Timestamp attribute.
 old-location: adsi\iadstimestamp.htm

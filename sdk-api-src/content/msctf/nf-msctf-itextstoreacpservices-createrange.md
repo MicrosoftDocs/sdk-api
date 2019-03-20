@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITextStoreACPServices.CreateRange
-title: ITextStoreACPServices::CreateRange
+title: ITextStoreACPServices::CreateRange (msctf.h)
 author: windows-sdk-content
 description: ITextStoreACPServices::CreateRange method
 old-location: tsf\itextstoreacpservices_createrange.htm

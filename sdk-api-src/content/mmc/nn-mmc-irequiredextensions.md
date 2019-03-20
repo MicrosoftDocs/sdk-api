@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IRequiredExtensions
-title: IRequiredExtensions
+title: IRequiredExtensions (mmc.h)
 author: windows-sdk-content
 description: The IRequiredExtensions interface is introduced in MMC 1.1.
 old-location: mmc\irequiredextensions.htm

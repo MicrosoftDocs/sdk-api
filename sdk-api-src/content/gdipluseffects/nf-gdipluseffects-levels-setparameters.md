@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.Levels.SetParameters
-title: Levels::SetParameters
+title: Levels::SetParameters (gdipluseffects.h)
 author: windows-sdk-content
 description: The Levels::SetParameters method sets the parameters of this Levels object.
 old-location: gdiplus\_gdiplus_CLASS_Levels_SetParameters_.htm

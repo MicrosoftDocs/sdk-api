@@ -1,6 +1,6 @@
 ---
 UID: NS:bcrypt._BCRYPT_PROVIDER_NAME
-title: BCRYPT_PROVIDER_NAME
+title: BCRYPT_PROVIDER_NAME (bcrypt.h)
 author: windows-sdk-content
 description: Contains the name of a CNG provider.
 old-location: security\bcrypt_provider_name_struct.htm

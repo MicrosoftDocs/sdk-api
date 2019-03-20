@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsRemoveNode
-title: WsRemoveNode function
+title: WsRemoveNode function (webservices.h)
 author: windows-sdk-content
 description: Removes the node at the specified position from the xml buffer. If positioned on an element it will remove the element including all of its children and its corresponding end element, otherwise it will remove a single node.
 old-location: wsw\wsremovenode.htm

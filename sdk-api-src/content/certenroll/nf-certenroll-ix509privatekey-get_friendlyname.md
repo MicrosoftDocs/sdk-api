@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_FriendlyName
-title: IX509PrivateKey::get_FriendlyName
+title: IX509PrivateKey::get_FriendlyName (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a display name for the private key.
 old-location: security\ix509privatekey_friendlyname_property.htm

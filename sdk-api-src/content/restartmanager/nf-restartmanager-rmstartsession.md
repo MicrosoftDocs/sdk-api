@@ -1,6 +1,6 @@
 ---
 UID: NF:restartmanager.RmStartSession
-title: RmStartSession function
+title: RmStartSession function (restartmanager.h)
 author: windows-sdk-content
 description: Starts a new Restart Manager session.
 old-location: rstmgr\rmstartsession.htm

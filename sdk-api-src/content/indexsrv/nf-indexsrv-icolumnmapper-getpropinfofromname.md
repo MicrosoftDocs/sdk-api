@@ -1,6 +1,6 @@
 ---
 UID: NF:indexsrv.IColumnMapper.GetPropInfoFromName
-title: IColumnMapper::GetPropInfoFromName
+title: IColumnMapper::GetPropInfoFromName (indexsrv.h)
 author: windows-sdk-content
 description: Gets property information from a name. This will return a DBID pointer in parameter ppPropId which now has to be freed by the caller and not by the callee (this class).
 old-location: search\icolumnmapper_getpropinfofromname.htm

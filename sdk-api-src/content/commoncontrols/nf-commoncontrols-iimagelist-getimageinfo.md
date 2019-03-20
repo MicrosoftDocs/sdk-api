@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList.GetImageInfo
-title: IImageList::GetImageInfo
+title: IImageList::GetImageInfo (commoncontrols.h)
 author: windows-sdk-content
 description: Gets information about an image.
 old-location: controls\IImageList_GetImageInfo.htm

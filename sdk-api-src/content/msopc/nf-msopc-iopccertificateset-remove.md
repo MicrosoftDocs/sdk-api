@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcCertificateSet.Remove
-title: IOpcCertificateSet::Remove
+title: IOpcCertificateSet::Remove (msopc.h)
 author: windows-sdk-content
 description: Removes a specified certificate from the set.
 old-location: opc\iopccertificateset_remove.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFNetSchemeHandlerConfig.GetSupportedProtocolType
-title: IMFNetSchemeHandlerConfig::GetSupportedProtocolType
+title: IMFNetSchemeHandlerConfig::GetSupportedProtocolType (mfidl.h)
 author: windows-sdk-content
 description: Retrieves a supported protocol by index.
 old-location: mf\imfnetschemehandlerconfig_getsupportedprotocoltype.htm

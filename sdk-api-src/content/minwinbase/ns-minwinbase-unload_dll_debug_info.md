@@ -1,6 +1,6 @@
 ---
 UID: NS:minwinbase._UNLOAD_DLL_DEBUG_INFO
-title: UNLOAD_DLL_DEBUG_INFO
+title: UNLOAD_DLL_DEBUG_INFO (minwinbase.h)
 author: windows-sdk-content
 description: Contains information about a dynamic-link library (DLL) that has just been unloaded.
 old-location: base\unload_dll_debug_info_str.htm

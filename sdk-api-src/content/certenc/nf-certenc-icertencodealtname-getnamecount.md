@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeAltName.GetNameCount
-title: ICertEncodeAltName::GetNameCount
+title: ICertEncodeAltName::GetNameCount (certenc.h)
 author: windows-sdk-content
 description: Returns the number of names in the alternate name array.
 old-location: security\icertencodealtname_getnamecount.htm

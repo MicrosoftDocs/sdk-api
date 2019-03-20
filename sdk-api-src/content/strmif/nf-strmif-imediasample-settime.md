@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaSample.SetTime
-title: IMediaSample::SetTime
+title: IMediaSample::SetTime (strmif.h)
 author: windows-sdk-content
 description: The SetTime method sets the stream times when this sample should begin and finish.
 old-location: dshow\imediasample_settime.htm

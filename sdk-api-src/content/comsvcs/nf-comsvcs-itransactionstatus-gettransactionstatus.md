@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ITransactionStatus.GetTransactionStatus
-title: ITransactionStatus::GetTransactionStatus
+title: ITransactionStatus::GetTransactionStatus (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the transaction status.
 old-location: cos\itransactionstatus_gettransactionstatus.htm

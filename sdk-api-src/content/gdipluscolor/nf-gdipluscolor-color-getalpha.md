@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluscolor.Color.GetAlpha
-title: Color::GetAlpha
+title: Color::GetAlpha (gdipluscolor.h)
 author: windows-sdk-content
 description: The Color::GetAlpha method gets the alpha component of this Color object.
 old-location: gdiplus\_gdiplus_CLASS_Color_GetAlpha_.htm

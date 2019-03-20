@@ -1,6 +1,6 @@
 ---
 UID: NF:tdh.TdhCleanupPayloadEventFilterDescriptor
-title: TdhCleanupPayloadEventFilterDescriptor function
+title: TdhCleanupPayloadEventFilterDescriptor function (tdh.h)
 author: windows-sdk-content
 description: Frees the aggregated structure of payload filters created using the TdhAggregatePayloadFilters function.
 old-location: etw\tdhcleanuppayloadeventfilterdescriptor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0014
-title: ADS_EMAIL
+title: ADS_EMAIL (iads.h)
 author: windows-sdk-content
 description: The ADS_EMAIL structure is an ADSI representation of the EMail Address attribute syntax.
 old-location: adsi\ads_email.htm

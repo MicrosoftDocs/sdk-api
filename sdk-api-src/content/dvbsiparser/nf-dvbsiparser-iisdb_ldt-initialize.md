@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_LDT.Initialize
-title: IISDB_LDT::Initialize
+title: IISDB_LDT::Initialize (dvbsiparser.h)
 author: windows-sdk-content
 description: Initializes the object using captured table section data for an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT).
 old-location: mstv\iisdb_ldt_initialize.htm

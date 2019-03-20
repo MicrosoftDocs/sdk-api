@@ -1,6 +1,6 @@
 ---
 UID: NF:winineti.InternetAutodial
-title: InternetAutodial function
+title: InternetAutodial function (winineti.h)
 author: windows-sdk-content
 description: Causes the modem to automatically dial the default Internet connection.
 old-location: wininet\internetautodial.htm

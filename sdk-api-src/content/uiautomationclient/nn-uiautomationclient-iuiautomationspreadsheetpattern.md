@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationSpreadsheetPattern
-title: IUIAutomationSpreadsheetPattern
+title: IUIAutomationSpreadsheetPattern (uiautomationclient.h)
 author: windows-sdk-content
 description: Enables a client application to access the items (cells) in a spreadsheet.
 old-location: winauto\uiauto_IUIAutomationSpreadsheetPattern.htm

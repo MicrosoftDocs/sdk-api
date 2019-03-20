@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_TRANSPORT_INFO_2
-title: SERVER_TRANSPORT_INFO_2
+title: SERVER_TRANSPORT_INFO_2 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_TRANSPORT_INFO_2 structure contains information about the specified transport protocol, including the transport name and address. This information level is valid only for the NetServerTransportAddEx function.
 old-location: netmgmt\server_transport_info_2_str.htm

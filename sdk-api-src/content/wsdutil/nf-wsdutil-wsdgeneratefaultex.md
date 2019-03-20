@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdutil.WSDGenerateFaultEx
-title: WSDGenerateFaultEx function
+title: WSDGenerateFaultEx function (wsdutil.h)
 author: windows-sdk-content
 description: Generates a SOAP fault.
 old-location: ncd\wsdgeneratefaultex.htm

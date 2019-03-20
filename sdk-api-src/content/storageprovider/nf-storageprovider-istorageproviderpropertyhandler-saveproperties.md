@@ -1,6 +1,6 @@
 ---
 UID: NF:storageprovider.IStorageProviderPropertyHandler.SaveProperties
-title: IStorageProviderPropertyHandler::SaveProperties
+title: IStorageProviderPropertyHandler::SaveProperties (storageprovider.h)
 author: windows-sdk-content
 description: Saves properties associated with a file or folder.
 old-location: shell\istorageproviderpropertyhandler_saveproperties.htm

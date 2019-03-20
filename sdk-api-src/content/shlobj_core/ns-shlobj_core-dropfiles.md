@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core._DROPFILES
-title: DROPFILES
+title: DROPFILES (shlobj_core.h)
 author: windows-sdk-content
 description: Defines the CF_HDROP clipboard format. The data that follows is a double null-terminated list of file names.
 old-location: shell\DROPFILES.htm

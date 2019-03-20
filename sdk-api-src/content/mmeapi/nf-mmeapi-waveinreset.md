@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.waveInReset
-title: waveInReset function
+title: waveInReset function (mmeapi.h)
 author: windows-sdk-content
 description: The waveInReset function stops input on the given waveform-audio input device and resets the current position to zero. All pending buffers are marked as done and returned to the application.
 old-location: multimedia\waveinreset.htm

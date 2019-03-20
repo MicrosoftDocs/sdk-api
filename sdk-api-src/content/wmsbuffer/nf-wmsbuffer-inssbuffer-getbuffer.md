@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsbuffer.INSSBuffer.GetBuffer
-title: INSSBuffer::GetBuffer
+title: INSSBuffer::GetBuffer (wmsbuffer.h)
 author: windows-sdk-content
 description: The GetBuffer method retrieves the location of the buffer controlled by the buffer object.
 old-location: wmformat\inssbuffer_getbuffer.htm

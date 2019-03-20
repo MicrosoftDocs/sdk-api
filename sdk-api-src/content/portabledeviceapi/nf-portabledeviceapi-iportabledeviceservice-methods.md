@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceService.Methods
-title: IPortableDeviceService::Methods
+title: IPortableDeviceService::Methods (portabledeviceapi.h)
 author: windows-sdk-content
 description: Retrieves the IPortableDeviceServiceMethods interface that is used to invoke custom functionality on the service.
 old-location: wpdsdk\iportabledeviceservice_methods.htm

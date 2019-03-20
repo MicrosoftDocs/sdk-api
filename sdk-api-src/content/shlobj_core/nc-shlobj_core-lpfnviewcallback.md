@@ -1,6 +1,6 @@
 ---
 UID: NC:shlobj_core.LPFNVIEWCALLBACK
-title: LPFNVIEWCALLBACK
+title: LPFNVIEWCALLBACK (shlobj_core.h)
 author: windows-sdk-content
 description: Defines the prototype for the callback function used by the system folder view object. This function essentially duplicates the functionality of IShellFolderViewCB.
 old-location: shell\LPFNVIEWCALLBACK.htm

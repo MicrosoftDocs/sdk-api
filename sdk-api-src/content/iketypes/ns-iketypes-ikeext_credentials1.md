@@ -1,6 +1,6 @@
 ---
 UID: NS:iketypes.IKEEXT_CREDENTIALS1_
-title: IKEEXT_CREDENTIALS1
+title: IKEEXT_CREDENTIALS1 (iketypes.h)
 author: windows-sdk-content
 description: Is used to store multiple credential pairs.
 old-location: fwp\ikeext_credentials1.htm

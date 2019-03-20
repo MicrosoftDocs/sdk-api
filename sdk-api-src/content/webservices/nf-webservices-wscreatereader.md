@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsCreateReader
-title: WsCreateReader function
+title: WsCreateReader function (webservices.h)
 author: windows-sdk-content
 description: Creates an XML reader with the specified properties.
 old-location: wsw\wscreatereader.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:perflib.PerfDeleteInstance
-title: PerfDeleteInstance function
+title: PerfDeleteInstance function (perflib.h)
 author: windows-sdk-content
 description: Deletes an instance of the counter set created by the PerfCreateInstance function.
 old-location: perf\perfdeleteinstance.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagDVD_FRAMERATE
-title: DVD_FRAMERATE
+title: DVD_FRAMERATE (strmif.h)
 author: windows-sdk-content
 description: Indicates whether the DVD is authored to play at 25 or 30 frames per second.
 old-location: dshow\dvd_framerate.htm

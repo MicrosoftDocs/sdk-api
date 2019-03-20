@@ -1,6 +1,6 @@
 ---
 UID: NE:icftypes.NET_FW_PROFILE_TYPE2_
-title: NET_FW_PROFILE_TYPE2
+title: NET_FW_PROFILE_TYPE2 (icftypes.h)
 author: windows-sdk-content
 description: Specifies the type of profile.
 old-location: ics\net_fw_profile_type2.htm

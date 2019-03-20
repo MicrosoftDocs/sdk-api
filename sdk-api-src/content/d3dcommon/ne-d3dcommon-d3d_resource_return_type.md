@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dcommon.D3D_RESOURCE_RETURN_TYPE
-title: D3D_RESOURCE_RETURN_TYPE
+title: D3D_RESOURCE_RETURN_TYPE (d3dcommon.h)
 author: windows-sdk-content
 description: Indicates return value type.
 old-location: direct3d11\d3d11_resource_return_type.htm

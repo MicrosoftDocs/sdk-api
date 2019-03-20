@@ -1,6 +1,6 @@
 ---
 UID: NF:handleapi.SetHandleInformation
-title: SetHandleInformation function
+title: SetHandleInformation function (handleapi.h)
 author: windows-sdk-content
 description: Sets certain properties of an object handle.
 old-location: base\sethandleinformation.htm

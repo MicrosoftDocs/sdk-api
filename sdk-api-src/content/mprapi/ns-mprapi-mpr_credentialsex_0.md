@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._MPR_CREDENTIALSEX_0
-title: MPR_CREDENTIALSEX_0
+title: MPR_CREDENTIALSEX_0 (mprapi.h)
 author: windows-sdk-content
 description: The MPR_CREDENTIALSEX_0 structure contains extended credentials information such as the information used by Extensible Authentication Protocols (EAPs).
 old-location: rras\mpr_credentialsex_0.htm

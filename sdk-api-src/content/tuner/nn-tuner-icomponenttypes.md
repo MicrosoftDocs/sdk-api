@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IComponentTypes
-title: IComponentTypes
+title: IComponentTypes (tuner.h)
 author: windows-sdk-content
 description: The IComponentTypes interface is implemented on ComponentTypes objects and contains methods that enable applications to enumerate, add, remove and retrieve individual ComponentType objects. All ComponentTypes objects also support IPersistPropertyBag.
 old-location: mstv\icomponenttypes.htm

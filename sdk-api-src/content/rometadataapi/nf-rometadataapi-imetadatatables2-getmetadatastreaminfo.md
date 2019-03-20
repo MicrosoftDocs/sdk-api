@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables2.GetMetaDataStreamInfo
-title: IMetaDataTables2::GetMetaDataStreamInfo
+title: IMetaDataTables2::GetMetaDataStreamInfo (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the name, size, and contents of the metadata stream at the specified index.
 old-location: winrt\imetadatatables2_getmetadatastreaminfo.htm

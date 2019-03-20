@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICPalette.InitializePredefined
-title: IWICPalette::InitializePredefined
+title: IWICPalette::InitializePredefined (wincodec.h)
 author: windows-sdk-content
 description: Initializes the palette to one of the pre-defined palettes specified by WICBitmapPaletteType and optionally adds a transparent color.
 old-location: wic\_wic_codec_iwicpalette_initializepredefined.htm

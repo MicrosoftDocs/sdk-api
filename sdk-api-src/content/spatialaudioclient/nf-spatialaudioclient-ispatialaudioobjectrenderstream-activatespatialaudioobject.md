@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectRenderStream.ActivateSpatialAudioObject
-title: ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject
+title: ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject (spatialaudioclient.h)
 author: windows-sdk-content
 description: Activates an ISpatialAudioObject for audio rendering.
 old-location: coreaudio\ispatialaudioobjectrenderstream_activatespatialaudioobject.htm

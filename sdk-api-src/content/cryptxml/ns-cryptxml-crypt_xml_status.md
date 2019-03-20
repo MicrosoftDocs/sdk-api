@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_STATUS
-title: CRYPT_XML_STATUS
+title: CRYPT_XML_STATUS (cryptxml.h)
 author: windows-sdk-content
 description: Returns information about the signature validation status, summary status information about a SignedInfo element, or summary status information about an array of Reference elements.
 old-location: security\crypt_xml_status.htm

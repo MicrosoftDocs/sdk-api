@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.SetCenterColor
-title: PathGradientBrush::SetCenterColor
+title: PathGradientBrush::SetCenterColor (gdipluspath.h)
 author: windows-sdk-content
 description: The PathGradientBrush::SetCenterColor method sets the center color of this path gradient brush. The center color is the color that appears at the brush's center point.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetCenterColor_color_.htm

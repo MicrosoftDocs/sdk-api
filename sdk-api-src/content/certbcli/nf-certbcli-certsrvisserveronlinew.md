@@ -1,6 +1,6 @@
 ---
 UID: NF:certbcli.CertSrvIsServerOnlineW
-title: CertSrvIsServerOnlineW function
+title: CertSrvIsServerOnlineW function (certbcli.h)
 author: windows-sdk-content
 description: Determines if a Certificate Services server is online; if the Certificate Services server is not online, backup operations will not be successful.
 old-location: security\certsrvisserveronline.htm

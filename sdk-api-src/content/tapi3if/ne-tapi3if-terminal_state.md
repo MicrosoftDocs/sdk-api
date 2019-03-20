@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.TERMINAL_STATE
-title: TERMINAL_STATE
+title: TERMINAL_STATE (tapi3if.h)
 author: windows-sdk-content
 description: The TERMINAL_STATE enum describes the current state of a terminal device. This enum is returned by the ITTerminal::get_State method.
 old-location: tapi3\terminal_state.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:searchapi.IRowsetEvents
-title: IRowsetEvents
+title: IRowsetEvents (searchapi.h)
 author: windows-sdk-content
 description: Exposes methods for receiving event notifications.
 old-location: search\_search_IRowsetEvents.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:dxva2api.IDirect3DDeviceManager9
-title: IDirect3DDeviceManager9
+title: IDirect3DDeviceManager9 (dxva2api.h)
 author: windows-sdk-content
 description: Enables two threads to share the same Direct3D 9 device, and provides access to the DirectX Video Acceleration (DXVA) features of the device.
 old-location: mf\idirect3ddevicemanager9.htm

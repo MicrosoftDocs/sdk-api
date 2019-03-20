@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertificationAuthorities.get__NewEnum
-title: ICertificationAuthorities::get__NewEnum
+title: ICertificationAuthorities::get__NewEnum (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the enumerator for the collection.
 old-location: security\icertificationauthorities__newenum.htm

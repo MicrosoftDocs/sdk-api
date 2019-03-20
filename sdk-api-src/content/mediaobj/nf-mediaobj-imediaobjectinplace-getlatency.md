@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IMediaObjectInPlace.GetLatency
-title: IMediaObjectInPlace::GetLatency
+title: IMediaObjectInPlace::GetLatency (mediaobj.h)
 author: windows-sdk-content
 description: The GetLatency method retrieves the latency introduced by this DMO.
 old-location: dshow\imediaobjectinplace_getlatency.htm

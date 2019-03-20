@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.PackSize
-title: PackSize function
+title: PackSize function (mfapi.h)
 author: windows-sdk-content
 description: Packs a UINT32 width value and a UINT32 height value into a UINT64 value that represents a size.
 old-location: mf\packsize.htm

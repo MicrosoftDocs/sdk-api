@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DCryptoSession9.GetCertificate
-title: IDirect3DCryptoSession9::GetCertificate
+title: IDirect3DCryptoSession9::GetCertificate (d3d9.h)
 author: windows-sdk-content
 description: Gets the driver's certificate chain.
 old-location: mf\idirect3dcryptosession9_getcertificate.htm

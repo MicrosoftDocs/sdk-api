@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbTeletextDescriptor.GetRecordPageNumber
-title: IDvbTeletextDescriptor::GetRecordPageNumber
+title: IDvbTeletextDescriptor::GetRecordPageNumber (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the page number a Digital Video Broadcast (DVB) teletext descriptor. The page number identifies the page of teletext that is broadcast.
 old-location: mstv\idvbteletextdescriptor_getrecordpagenumber.htm

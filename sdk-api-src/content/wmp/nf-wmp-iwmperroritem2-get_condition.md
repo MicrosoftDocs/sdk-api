@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPErrorItem2.get_condition
-title: IWMPErrorItem2::get_condition
+title: IWMPErrorItem2::get_condition (wmp.h)
 author: windows-sdk-content
 description: The get_condition method retrieves a value indicating the condition for the error.
 old-location: wmp\iwmperroritem2_get_condition.htm

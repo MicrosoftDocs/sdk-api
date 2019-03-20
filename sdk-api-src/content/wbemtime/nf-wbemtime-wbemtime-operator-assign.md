@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTime.operator-assign
-title: WBEMTime::operator-assign
+title: WBEMTime::operator-assign (wbemtime.h)
 author: windows-sdk-content
 description: The WBEMTime class assignment operator overload method takes a CIM date time format parameter.
 old-location: wmi\wbemtime_operator_equal_const_bstr_.htm

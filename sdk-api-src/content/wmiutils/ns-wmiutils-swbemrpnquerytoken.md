@@ -1,6 +1,6 @@
 ---
 UID: NS:wmiutils.tag_SWbemRpnQueryToken
-title: SWbemRpnQueryToken
+title: SWbemRpnQueryToken (wmiutils.h)
 author: windows-sdk-content
 description: The SWbemRpnQueryToken structure represents the query tokens in a WMIQ_ANALYSIS_RPN_SEQUENCE type query. An example of a query token is the following:\_j &gt; 4.
 old-location: wmi\swbemrpnquerytoken.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12.ID3D12StateObject
-title: ID3D12StateObject
+title: ID3D12StateObject (d3d12.h)
 author: windows-sdk-content
 description: Represents a variable amount of configuration state, including shaders, that an application manages as a single unit and which is given to a driver atomically to process, such as compile or optimize.
 old-location: direct3d12\id3d12stateobject.htm

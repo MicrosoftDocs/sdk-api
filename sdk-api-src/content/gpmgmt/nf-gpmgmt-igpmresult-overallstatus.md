@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMResult.OverallStatus
-title: IGPMResult::OverallStatus
+title: IGPMResult::OverallStatus (gpmgmt.h)
 author: windows-sdk-content
 description: Returns the overall status of a GPMC operation, such as a copy, restore, backup, or import. If no error occurred during the operation, the method returns a success code; otherwise the method returns a failure code.
 old-location: gpmc\igpmresult_overallstatus.htm

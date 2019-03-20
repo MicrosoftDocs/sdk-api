@@ -1,6 +1,6 @@
 ---
 UID: NN:rdpencomapi.IRDPViewerRenderingSurface
-title: IRDPViewerRenderingSurface
+title: IRDPViewerRenderingSurface (rdpencomapi.h)
 author: windows-sdk-content
 description: Manages the rendering surface for the viewer.
 old-location: rdp\irdpviewerrenderingsurface.htm

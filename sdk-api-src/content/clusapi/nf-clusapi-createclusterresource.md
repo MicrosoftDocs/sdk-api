@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.CreateClusterResource
-title: CreateClusterResource function
+title: CreateClusterResource function (clusapi.h)
 author: windows-sdk-content
 description: Creates a resource in a cluster.
 old-location: mscs\createclusterresource.htm

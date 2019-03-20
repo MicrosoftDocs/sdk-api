@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFNetCrossOriginSupport
-title: IMFNetCrossOriginSupport
+title: IMFNetCrossOriginSupport (mfidl.h)
 author: windows-sdk-content
 description: Implemented by clients that want to enforce a cross origin policy for HTML5 media downloads.
 old-location: mf\imfnetcrossoriginsupport.htm

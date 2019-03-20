@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSink.AddStreamSink
-title: IMFMediaSink::AddStreamSink
+title: IMFMediaSink::AddStreamSink (mfidl.h)
 author: windows-sdk-content
 description: Adds a new stream sink to the media sink.
 old-location: mf\imfmediasink_addstreamsink.htm

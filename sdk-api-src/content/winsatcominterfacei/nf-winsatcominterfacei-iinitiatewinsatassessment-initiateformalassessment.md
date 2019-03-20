@@ -1,6 +1,6 @@
 ---
 UID: NF:winsatcominterfacei.IInitiateWinSATAssessment.InitiateFormalAssessment
-title: IInitiateWinSATAssessment::InitiateFormalAssessment
+title: IInitiateWinSATAssessment::InitiateFormalAssessment (winsatcominterfacei.h)
 author: windows-sdk-content
 description: Initiates a formal assessment.
 old-location: winsat\iinitiatewinsatassessment_initiateformalassessment.htm

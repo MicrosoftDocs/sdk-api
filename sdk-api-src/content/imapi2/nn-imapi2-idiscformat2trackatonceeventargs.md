@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2.IDiscFormat2TrackAtOnceEventArgs
-title: IDiscFormat2TrackAtOnceEventArgs
+title: IDiscFormat2TrackAtOnceEventArgs (imapi2.h)
 author: windows-sdk-content
 description: Use this interface to retrieve information about the current write operation.
 old-location: imapi\idiscformat2trackatonceeventargs.htm

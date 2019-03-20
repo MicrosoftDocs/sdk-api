@@ -1,6 +1,6 @@
 ---
 UID: NS:hrtfapoapi.HrtfOrientation
-title: HrtfOrientation
+title: HrtfOrientation (hrtfapoapi.h)
 author: windows-sdk-content
 description: Indicates the orientation of an HRTF directivity object.
 old-location: xaudio2\hrtforientation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._IASDATASTORE
-title: IASDATASTORE
+title: IASDATASTORE (sdoias.h)
 author: windows-sdk-content
 description: The values of the IASDATASTORE enumeration indicate the possible storage locations for SDO data.
 old-location: nps\SDO_iasdatastore.htm

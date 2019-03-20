@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectGroupImpl.GetNumberChildren
-title: IMILBitmapEffectGroupImpl::GetNumberChildren
+title: IMILBitmapEffectGroupImpl::GetNumberChildren (mileffects.h)
 author: windows-sdk-content
 description: Retrieves the number of children in an effect group.
 old-location: wibe\_wibe_imilbitmapeffectgroupimpl_getnumberchildren.htm

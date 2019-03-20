@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetStrokeDashOffset
-title: IXpsOMPath::SetStrokeDashOffset
+title: IXpsOMPath::SetStrokeDashOffset (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the offset from the origin of the stroke to the starting point of the dash array pattern.
 old-location: xps\ixpsompath_setstrokedashoffset.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITTAPI.get_EventFilter
-title: ITTAPI::get_EventFilter
+title: ITTAPI::get_EventFilter (tapi3if.h)
 author: windows-sdk-content
 description: The get_EventFilter method gets the current event filter mask. The mask is a series of ORed members of the TAPI_EVENT enumeration.
 old-location: tapi3\ittapi_get_eventfilter.htm

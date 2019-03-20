@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.TerminateAllProcesses
-title: IPackageDebugSettings::TerminateAllProcesses
+title: IPackageDebugSettings::TerminateAllProcesses (shobjidl_core.h)
 author: windows-sdk-content
 description: Terminates all processes for the specified package.
 old-location: shell\IPackageDebugSettings_TerminateAllProcesses.htm

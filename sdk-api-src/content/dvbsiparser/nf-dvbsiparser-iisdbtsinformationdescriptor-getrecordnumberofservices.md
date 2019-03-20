@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbTSInformationDescriptor.GetRecordNumberOfServices
-title: IIsdbTSInformationDescriptor::GetRecordNumberOfServices
+title: IIsdbTSInformationDescriptor::GetRecordNumberOfServices (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the number of service records from an Integrated Services Digital Broadcasting (ISDB) transport stream (TS) information descriptor.
 old-location: mstv\iisdbtsinformationdescriptor_getrecordnumberofservices.htm

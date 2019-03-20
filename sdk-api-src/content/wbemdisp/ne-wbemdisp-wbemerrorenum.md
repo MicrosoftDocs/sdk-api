@@ -1,6 +1,6 @@
 ---
 UID: NE:wbemdisp.WbemErrorEnum
-title: WbemErrorEnum
+title: WbemErrorEnum (wbemdisp.h)
 author: windows-sdk-content
 description: Define the errors that may be returned by Scripting API for WMI calls.
 old-location: wmi\wbemerrorenum.htm

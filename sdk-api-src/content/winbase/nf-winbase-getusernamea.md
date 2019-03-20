@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetUserNameA
-title: GetUserNameA function
+title: GetUserNameA function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the name of the user associated with the current thread.
 old-location: base\getusername.htm

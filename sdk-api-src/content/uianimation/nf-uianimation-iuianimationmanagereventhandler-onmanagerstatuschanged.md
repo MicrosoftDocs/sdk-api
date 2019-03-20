@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManagerEventHandler.OnManagerStatusChanged
-title: IUIAnimationManagerEventHandler::OnManagerStatusChanged
+title: IUIAnimationManagerEventHandler::OnManagerStatusChanged (uianimation.h)
 author: windows-sdk-content
 description: Handles status changes to an animation manager.
 old-location: uianimation\iuianimationmanagereventhandler_onmanagerstatuschanged.htm

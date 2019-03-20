@@ -1,6 +1,6 @@
 ---
 UID: NN:msrdc.IRdcGenerator
-title: IRdcGenerator
+title: IRdcGenerator (msrdc.h)
 author: windows-sdk-content
 description: Used to process the input data and read the parameters used by the generator.
 old-location: rdc\irdcgenerator.htm

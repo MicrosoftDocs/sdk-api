@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IStreamAsync.WriteAsync
-title: IStreamAsync::WriteAsync
+title: IStreamAsync::WriteAsync (shobjidl.h)
 author: windows-sdk-content
 description: Writes information to a stream asynchronously. For example, the Shell implements this method on file items when transferring them asynchronously.
 old-location: shell\IStreamAsync_WriteAsync.htm

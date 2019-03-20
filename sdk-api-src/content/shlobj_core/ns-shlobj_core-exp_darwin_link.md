@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core.__unnamed_struct_2
-title: EXP_DARWIN_LINK
+title: EXP_DARWIN_LINK (shlobj_core.h)
 author: windows-sdk-content
 description: Holds an extra data block used by IShellLinkDataList. It holds the link's Windows Installer ID.
 old-location: shell\EXP_DARWIN_LINK_str.htm

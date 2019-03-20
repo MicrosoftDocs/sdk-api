@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ICategoryProvider.CanCategorizeOnSCID
-title: ICategoryProvider::CanCategorizeOnSCID
+title: ICategoryProvider::CanCategorizeOnSCID (shobjidl_core.h)
 author: windows-sdk-content
 description: Determines whether a column can be used as a category.
 old-location: shell\ICategoryProvider_CanCategorizeOnSCID.htm

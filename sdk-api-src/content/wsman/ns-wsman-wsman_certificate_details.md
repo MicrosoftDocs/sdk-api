@@ -1,6 +1,6 @@
 ---
 UID: NS:wsman._WSMAN_CERTIFICATE_DETAILS
-title: WSMAN_CERTIFICATE_DETAILS
+title: WSMAN_CERTIFICATE_DETAILS (wsman.h)
 author: windows-sdk-content
 description: Stores client information for an inbound request that was sent with a client certificate.
 old-location: winrm\wsman_certificate_details.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_DNS_ENDPOINT_IDENTITY
-title: WS_DNS_ENDPOINT_IDENTITY
+title: WS_DNS_ENDPOINT_IDENTITY (webservices.h)
 author: windows-sdk-content
 description: Type for specifying an endpoint identity represented by a DNS name.
 old-location: wsw\ws_dns_endpoint_identity.htm

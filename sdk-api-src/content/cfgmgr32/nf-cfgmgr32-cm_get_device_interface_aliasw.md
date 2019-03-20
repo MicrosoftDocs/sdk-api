@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_Interface_AliasW
-title: CM_Get_Device_Interface_AliasW function
+title: CM_Get_Device_Interface_AliasW function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Get_Device_Interface_Alias function returns the alias of the specified device interface instance, if the alias exists.
 old-location: devinst\cm_get_device_interface_alias.htm

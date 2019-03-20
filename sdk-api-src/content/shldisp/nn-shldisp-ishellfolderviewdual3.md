@@ -1,6 +1,6 @@
 ---
 UID: NN:shldisp.IShellFolderViewDual3
-title: IShellFolderViewDual3
+title: IShellFolderViewDual3 (shldisp.h)
 author: windows-sdk-content
 description: Exposes methods that modify the current folder view.
 old-location: shell\IShellFolderViewDual3.htm

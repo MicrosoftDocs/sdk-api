@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIApplication.get_Flags
-title: IRDPSRAPIApplication::get_Flags
+title: IRDPSRAPIApplication::get_Flags (rdpencomapi.h)
 author: windows-sdk-content
 description: The sharing flags.
 old-location: rdp\irdpsrapiapplication_flags.htm

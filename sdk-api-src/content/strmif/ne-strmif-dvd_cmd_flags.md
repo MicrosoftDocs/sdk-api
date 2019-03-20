@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.__MIDL___MIDL_itf_strmif_0000_0132_0002
-title: DVD_CMD_FLAGS
+title: DVD_CMD_FLAGS (strmif.h)
 author: windows-sdk-content
 description: Defines flags that control how the DVD Navigator Filter filter handles command synchronization.
 old-location: dshow\dvd_cmd_flags.htm

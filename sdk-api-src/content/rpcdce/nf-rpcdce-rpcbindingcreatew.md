@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcBindingCreateW
-title: RpcBindingCreateW function
+title: RpcBindingCreateW function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcBindingCreate function creates a new fast RPC binding handle based on a supplied template.
 old-location: rpc\rpcbindingcreate.htm

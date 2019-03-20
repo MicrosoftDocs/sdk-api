@@ -1,6 +1,6 @@
 ---
 UID: NN:msrdc.IRdcComparator
-title: IRdcComparator
+title: IRdcComparator (msrdc.h)
 author: windows-sdk-content
 description: Used to compare two signature streams (seed and source) and produce the list of source and seed file data chunks needed to create the target file.
 old-location: rdc\irdccomparator.htm

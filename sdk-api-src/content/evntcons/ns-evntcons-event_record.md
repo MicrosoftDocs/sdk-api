@@ -1,6 +1,6 @@
 ---
 UID: NS:evntcons._EVENT_RECORD
-title: EVENT_RECORD
+title: EVENT_RECORD (evntcons.h)
 author: windows-sdk-content
 description: Defines the layout of an event that ETW delivers.
 old-location: etw\event_record.htm

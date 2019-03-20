@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLGetLicenseFileId
-title: SLGetLicenseFileId function
+title: SLGetLicenseFileId function (slpublic.h)
 author: windows-sdk-content
 description: Checks if the license BLOB has been installed already.
 old-location: security\slgetlicensefileid.htm

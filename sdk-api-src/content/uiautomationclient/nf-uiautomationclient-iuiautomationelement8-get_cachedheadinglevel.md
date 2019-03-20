@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement8.get_CachedHeadingLevel
-title: IUIAutomationElement8::get_CachedHeadingLevel
+title: IUIAutomationElement8::get_CachedHeadingLevel (uiautomationclient.h)
 author: windows-sdk-content
 description: Gets the cached heading level of the automation element.
 old-location: winauto\uiauto_IUIAutomationElement8_CachedHeadingLevel.htm

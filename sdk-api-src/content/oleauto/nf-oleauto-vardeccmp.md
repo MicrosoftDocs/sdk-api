@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarDecCmp
-title: VarDecCmp function
+title: VarDecCmp function (oleauto.h)
 author: windows-sdk-content
 description: Compares two variants of type decimal.
 old-location: automat\vardeccmp.htm

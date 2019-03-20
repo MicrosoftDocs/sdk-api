@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineRemoveProvider
-title: lineRemoveProvider function
+title: lineRemoveProvider function (tapi.h)
 author: windows-sdk-content
 description: The lineRemoveProvider function removes an existing telephony service provider from the telephony system.
 old-location: tapi2\lineremoveprovider.htm

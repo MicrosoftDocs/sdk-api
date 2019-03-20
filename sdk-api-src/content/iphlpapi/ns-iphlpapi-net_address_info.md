@@ -1,6 +1,6 @@
 ---
 UID: NS:iphlpapi.NET_ADDRESS_INFO_
-title: NET_ADDRESS_INFO
+title: NET_ADDRESS_INFO (iphlpapi.h)
 author: windows-sdk-content
 description: Contains IP address information returned by the ParseNetworkString function.
 old-location: iphlp\net_address_info.htm

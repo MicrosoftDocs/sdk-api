@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeServiceCallback2.OnElementStateChanged
-title: IVisualTreeServiceCallback2::OnElementStateChanged
+title: IVisualTreeServiceCallback2::OnElementStateChanged (xamlom.h)
 author: windows-sdk-content
 description: Communicates the state of an element in the visual tree when it changes.
 old-location: xaml_diagnostics\ivisualtreeservicecallback2_onelementstatechanged.htm

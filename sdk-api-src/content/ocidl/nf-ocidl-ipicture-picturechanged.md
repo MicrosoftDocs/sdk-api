@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPicture.PictureChanged
-title: IPicture::PictureChanged
+title: IPicture::PictureChanged (ocidl.h)
 author: windows-sdk-content
 description: Notifies the picture object that its picture resource has changed. This method only calls IPropertyNotifySink::OnChanged with DISPID_PICT_HANDLE for any connected sinks.
 old-location: com\ipicture_picturechanged.htm

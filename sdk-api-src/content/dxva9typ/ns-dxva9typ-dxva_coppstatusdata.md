@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva9typ._DXVA_COPPStatusData
-title: DXVA_COPPStatusData
+title: DXVA_COPPStatusData (dxva9typ.h)
 author: windows-sdk-content
 description: Contains the result from a Certified Output Protection Protocol (COPP) status request.
 old-location: dshow\dxva_coppstatusdata.htm

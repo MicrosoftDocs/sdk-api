@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectOutputConnectorImpl.AddBackLink
-title: IMILBitmapEffectOutputConnectorImpl::AddBackLink
+title: IMILBitmapEffectOutputConnectorImpl::AddBackLink (mileffects.h)
 author: windows-sdk-content
 description: IMILBitmapEffectOutputConnectorImpl::AddBackLink method
 old-location: wibe\_wibe_imilbitmapeffectoutputconnectorimpl_addbacklink.htm

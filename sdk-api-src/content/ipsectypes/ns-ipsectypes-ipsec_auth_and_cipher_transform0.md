@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_AUTH_AND_CIPHER_TRANSFORM0_
-title: IPSEC_AUTH_AND_CIPHER_TRANSFORM0
+title: IPSEC_AUTH_AND_CIPHER_TRANSFORM0 (ipsectypes.h)
 author: windows-sdk-content
 description: Is used to store hash and encryption specific information together for an SA transform in an IPsec quick mode policy.
 old-location: fwp\ipsec_auth_and_cipher_transform0_struct.htm

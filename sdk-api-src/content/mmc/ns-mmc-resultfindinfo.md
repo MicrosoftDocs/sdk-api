@@ -1,6 +1,6 @@
 ---
 UID: NS:mmc._RESULTFINDINFO
-title: RESULTFINDINFO
+title: RESULTFINDINFO (mmc.h)
 author: windows-sdk-content
 description: Used by the IResultOwnerData::FindItem method to support keyboard navigation in virtual lists in the result pane.
 old-location: mmc\resultfindinfo.htm

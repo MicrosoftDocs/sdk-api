@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi1_2.IDXGIOutputDuplication
-title: IDXGIOutputDuplication
+title: IDXGIOutputDuplication (dxgi1_2.h)
 author: windows-sdk-content
 description: The IDXGIOutputDuplication interface accesses and manipulates the duplicated desktop image.
 old-location: direct3ddxgi\idxgioutputduplication.htm

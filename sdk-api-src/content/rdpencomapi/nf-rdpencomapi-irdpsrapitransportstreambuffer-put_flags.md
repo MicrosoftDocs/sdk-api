@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStreamBuffer.put_Flags
-title: IRDPSRAPITransportStreamBuffer::put_Flags
+title: IRDPSRAPITransportStreamBuffer::put_Flags (rdpencomapi.h)
 author: windows-sdk-content
 description: Retrieves or specifies options for the stream buffer.
 old-location: rdp\irdpsrapitransportstreambuffer_flags.htm

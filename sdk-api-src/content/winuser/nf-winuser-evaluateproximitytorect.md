@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.EvaluateProximityToRect
-title: EvaluateProximityToRect function
+title: EvaluateProximityToRect function (winuser.h)
 author: windows-sdk-content
 description: Returns the score of a rectangle as the probable touch target, compared to all other rectangles that intersect the touch contact area, and an adjusted touch point within the rectangle.
 old-location: input_touchhittest\evaluateproximitytorect.htm

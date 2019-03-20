@@ -1,6 +1,6 @@
 ---
 UID: NE:ntsecapi._POLICY_SERVER_ENABLE_STATE
-title: POLICY_SERVER_ENABLE_STATE
+title: POLICY_SERVER_ENABLE_STATE (ntsecapi.h)
 author: windows-sdk-content
 description: The POLICY_SERVER_ENABLE_STATE enumeration represents the state of the LSA server&#8212;that is, whether it is enabled or disabled. Some operations may only be performed on an enabled LSA server.
 old-location: security\policy_server_enable_state.htm

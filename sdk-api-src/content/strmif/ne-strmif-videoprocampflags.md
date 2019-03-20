@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagVideoProcAmpFlags
-title: VideoProcAmpFlags
+title: VideoProcAmpFlags (strmif.h)
 author: windows-sdk-content
 description: The VideoProcAmpFlags enumeration indicates whether a particular video property is controlled manually or automatically.
 old-location: dshow\videoprocampflags.htm

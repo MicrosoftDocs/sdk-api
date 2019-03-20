@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMScalarSinEst
-title: XMScalarSinEst function
+title: XMScalarSinEst function (directxmath.h)
 author: windows-sdk-content
 description: Estimates the sine of a radian angle.
 old-location: dxmath\xmscalarsinest.htm

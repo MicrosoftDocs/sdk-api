@@ -1,6 +1,6 @@
 ---
 UID: NE:iscsidsc.__unnamed_enum_1
-title: ISCSI_AUTH_TYPES
+title: ISCSI_AUTH_TYPES (iscsidsc.h)
 author: windows-sdk-content
 description: ISCSI_AUTH_TYPES enumeration indicates the type of authentication method utilized.
 old-location: iscsidisc\iscsi_auth_types.htm

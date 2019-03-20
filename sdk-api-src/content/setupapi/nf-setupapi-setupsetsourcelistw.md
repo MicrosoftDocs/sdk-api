@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupSetSourceListW
-title: SetupSetSourceListW function
+title: SetupSetSourceListW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupSetSourceList function allows the caller to set the list of installation sources for either the current user or the system (common to all users).
 old-location: setup\setupsetsourcelist.htm

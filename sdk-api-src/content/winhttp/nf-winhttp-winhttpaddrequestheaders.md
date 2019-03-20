@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpAddRequestHeaders
-title: WinHttpAddRequestHeaders function
+title: WinHttpAddRequestHeaders function (winhttp.h)
 author: windows-sdk-content
 description: Adds one or more HTTP request headers to the HTTP request handle.
 old-location: http\winhttpaddrequestheaders.htm

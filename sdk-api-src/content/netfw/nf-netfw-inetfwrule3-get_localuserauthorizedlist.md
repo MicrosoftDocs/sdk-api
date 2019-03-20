@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRule3.get_LocalUserAuthorizedList
-title: INetFwRule3::get_LocalUserAuthorizedList
+title: INetFwRule3::get_LocalUserAuthorizedList (netfw.h)
 author: windows-sdk-content
 description: Specifies a list of authorized local users for an app container.
 old-location: ics\inetfwrule3_localuserauthorizedlist.htm

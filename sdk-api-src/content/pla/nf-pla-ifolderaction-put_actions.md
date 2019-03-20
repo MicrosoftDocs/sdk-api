@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IFolderAction.put_Actions
-title: IFolderAction::put_Actions
+title: IFolderAction::put_Actions (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the actions that the data manager is to take if both conditions (age and size) are met.
 old-location: pla\ifolderaction_actions.htm

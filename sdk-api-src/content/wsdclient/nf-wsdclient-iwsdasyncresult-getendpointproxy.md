@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDAsyncResult.GetEndpointProxy
-title: IWSDAsyncResult::GetEndpointProxy
+title: IWSDAsyncResult::GetEndpointProxy (wsdclient.h)
 author: windows-sdk-content
 description: Retrieves the endpoint proxy for the asynchronous operation.
 old-location: ncd\iwsdasyncresult_getendpointproxy.htm

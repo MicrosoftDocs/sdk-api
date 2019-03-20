@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSms.GetSmsConfiguration
-title: IMbnSms::GetSmsConfiguration
+title: IMbnSms::GetSmsConfiguration (mbnapi.h)
 author: windows-sdk-content
 description: Gets the SMS configuration of a device.
 old-location: mbn\imbnsms_getsmsconfiguration.htm

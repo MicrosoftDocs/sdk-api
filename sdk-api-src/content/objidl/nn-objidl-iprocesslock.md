@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IProcessLock
-title: IProcessLock
+title: IProcessLock (objidl.h)
 author: windows-sdk-content
 description: Used by ISurrogateService to prevent the process from terminating due to a time-out.
 old-location: com\iprocesslock.htm

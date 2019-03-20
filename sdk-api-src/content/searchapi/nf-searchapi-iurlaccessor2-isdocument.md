@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.IUrlAccessor2.IsDocument
-title: IUrlAccessor2::IsDocument
+title: IUrlAccessor2::IsDocument (searchapi.h)
 author: windows-sdk-content
 description: Ascertains whether an item URL is a document or directory.
 old-location: search\_search_IUrlAccessor2_IsDocument.htm

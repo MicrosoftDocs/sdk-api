@@ -1,6 +1,6 @@
 ---
 UID: NF:remotesystemadditionalinfo.HSTRING_UserUnmarshal64
-title: HSTRING_UserUnmarshal64 function
+title: HSTRING_UserUnmarshal64 function (remotesystemadditionalinfo.h)
 author: windows-sdk-content
 description: Unmarshals an HSTRING object from the RPC buffer.
 old-location: winrt\hstring_userunmarshal64.htm

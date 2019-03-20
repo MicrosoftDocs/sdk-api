@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRVideoStreamControl.SetStreamActiveState
-title: IVMRVideoStreamControl::SetStreamActiveState
+title: IVMRVideoStreamControl::SetStreamActiveState (strmif.h)
 author: windows-sdk-content
 description: The SetStreamActiveState method activates or inactivates an input stream.
 old-location: dshow\ivmrvideostreamcontrol_setstreamactivestate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.ITimeTrigger
-title: ITimeTrigger
+title: ITimeTrigger (taskschd.h)
 author: windows-sdk-content
 description: Represents a trigger that starts a task at a specific date and time.
 old-location: taskschd\itimetrigger.htm

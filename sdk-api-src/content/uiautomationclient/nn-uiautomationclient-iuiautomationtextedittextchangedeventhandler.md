@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTextEditTextChangedEventHandler
-title: IUIAutomationTextEditTextChangedEventHandler
+title: IUIAutomationTextEditTextChangedEventHandler (uiautomationclient.h)
 author: windows-sdk-content
 description: Exposes a method to handle events that occur when Microsoft UI Automation reports a text-changed event from text edit controls.
 old-location: winauto\uiauto_IUIAutomationTextEditTextChangedEventHandler.htm

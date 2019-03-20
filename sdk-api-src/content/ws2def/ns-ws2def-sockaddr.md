@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2def.sockaddr
-title: SOCKADDR
+title: SOCKADDR (ws2def.h)
 author: windows-sdk-content
 description: The SOCKADDR structure is a generic structure that specifies a transport address.
 old-location: netvista\sockaddr.htm

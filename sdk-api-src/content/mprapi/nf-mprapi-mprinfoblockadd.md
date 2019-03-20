@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprInfoBlockAdd
-title: MprInfoBlockAdd function
+title: MprInfoBlockAdd function (mprapi.h)
 author: windows-sdk-content
 description: The MprInfoBlockAdd function creates a new header that is identical to an existing header with the addition of a new block.
 old-location: rras\mprinfoblockadd.htm

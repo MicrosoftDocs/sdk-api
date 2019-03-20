@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents3.MediaCollectionMediaRemoved
-title: IWMPEvents3::MediaCollectionMediaRemoved
+title: IWMPEvents3::MediaCollectionMediaRemoved (wmp.h)
 author: windows-sdk-content
 description: The MediaCollectionMediaRemoved event occurs when a media item is removed from the local library.
 old-location: wmp\iwmpevents3_iwmpevents3__mediacollectionmediaremoved.htm

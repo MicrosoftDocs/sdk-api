@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.FlushViewOfFile
-title: FlushViewOfFile function
+title: FlushViewOfFile function (memoryapi.h)
 author: windows-sdk-content
 description: Writes to the disk a byte range within a mapped view of a file.
 old-location: base\flushviewoffile.htm

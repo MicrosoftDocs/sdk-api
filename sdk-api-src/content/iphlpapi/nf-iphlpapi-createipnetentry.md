@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.CreateIpNetEntry
-title: CreateIpNetEntry function
+title: CreateIpNetEntry function (iphlpapi.h)
 author: windows-sdk-content
 description: The CreateIpNetEntry function creates an Address Resolution Protocol (ARP) entry in the ARP table on the local computer.
 old-location: iphlp\createipnetentry.htm

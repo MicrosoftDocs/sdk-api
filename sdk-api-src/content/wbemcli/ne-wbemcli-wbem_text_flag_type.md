@@ -1,6 +1,6 @@
 ---
 UID: NE:wbemcli.tag_WBEM_TEXT_FLAG_TYPE
-title: WBEM_TEXT_FLAG_TYPE
+title: WBEM_TEXT_FLAG_TYPE (wbemcli.h)
 author: windows-sdk-content
 description: Contains flags to control the execution of the IWbemClassObject::GetObjectText method.
 old-location: wmi\wbem_text_flag_type.htm

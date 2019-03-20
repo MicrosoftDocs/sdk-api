@@ -1,6 +1,6 @@
 ---
 UID: NL:vswriter.IVssExpressWriter
-title: IVssExpressWriter
+title: IVssExpressWriter (vswriter.h)
 author: windows-sdk-content
 description: Defines methods to manage metadata for a VSS express writer.
 old-location: base\ivssexpresswriter.htm

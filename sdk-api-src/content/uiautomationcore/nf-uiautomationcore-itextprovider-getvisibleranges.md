@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextProvider.GetVisibleRanges
-title: ITextProvider::GetVisibleRanges
+title: ITextProvider::GetVisibleRanges (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves an array of disjoint text ranges from a text-based control where each text range represents a contiguous span of visible text.
 old-location: winauto\uiauto_ITextProvider_GetVisibleRanges.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorFreeErrorMemory
-title: EapMethodAuthenticatorFreeErrorMemory function
+title: EapMethodAuthenticatorFreeErrorMemory function (eapmethodauthenticatorapis.h)
 author: windows-sdk-content
 description: Releases error-specific memory allocated by the EAP authenticator method.
 old-location: eaphost\eapmethodauthenticatorfreeerrormemory.htm

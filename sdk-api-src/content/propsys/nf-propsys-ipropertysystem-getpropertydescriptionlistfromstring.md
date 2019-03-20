@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertySystem.GetPropertyDescriptionListFromString
-title: IPropertySystem::GetPropertyDescriptionListFromString
+title: IPropertySystem::GetPropertyDescriptionListFromString (propsys.h)
 author: windows-sdk-content
 description: Gets an instance of the subsystem object that implements IPropertyDescriptionList, to obtain an ordered collection of property descriptions, based on the provided string.
 old-location: properties\IPropertySystem_GetPropertyDescriptionListFromString.htm

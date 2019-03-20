@@ -1,6 +1,6 @@
 ---
 UID: NS:clfs._CLS_WRITE_ENTRY
-title: CLS_WRITE_ENTRY
+title: CLS_WRITE_ENTRY (clfs.h)
 author: windows-sdk-content
 description: Contains a user buffer, which is to become part of a log record, and its length.
 old-location: fs\clfs_write_entry.htm

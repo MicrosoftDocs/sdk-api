@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMMetadataEditor2
-title: IWMMetadataEditor2
+title: IWMMetadataEditor2 (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMMetadataEditor2 interface provides an improved method for opening files for metadata operations.This interface is implemented as part of the metadata editor object.
 old-location: wmformat\iwmmetadataeditor2.htm

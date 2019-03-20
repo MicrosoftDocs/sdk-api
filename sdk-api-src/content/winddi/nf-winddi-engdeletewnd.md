@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngDeleteWnd
-title: EngDeleteWnd function
+title: EngDeleteWnd function (winddi.h)
 author: windows-sdk-content
 description: The EngDeleteWnd function deletes a WNDOBJ structure.
 old-location: display\engdeletewnd.htm

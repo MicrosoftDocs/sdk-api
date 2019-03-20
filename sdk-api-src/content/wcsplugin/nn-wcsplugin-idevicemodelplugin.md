@@ -1,6 +1,6 @@
 ---
 UID: NN:wcsplugin.IDeviceModelPlugIn
-title: IDeviceModelPlugIn
+title: IDeviceModelPlugIn (wcsplugin.h)
 author: windows-sdk-content
 description: Describes the methods that are defined for the IDeviceModelPlugIn Component Object Model (COM) interface.
 old-location: wcs\idevicemodelplugin.htm

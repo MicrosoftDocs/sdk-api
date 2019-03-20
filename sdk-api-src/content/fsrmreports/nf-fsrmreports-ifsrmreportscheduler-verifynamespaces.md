@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportScheduler.VerifyNamespaces
-title: IFsrmReportScheduler::VerifyNamespaces
+title: IFsrmReportScheduler::VerifyNamespaces (fsrmreports.h)
 author: windows-sdk-content
 description: Verifies that the specified local directory paths that are used as the source for the reports are valid.
 old-location: fsrm\ifsrmreportscheduler_verifynamespaces.htm

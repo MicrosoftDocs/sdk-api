@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.get_FragmentPath
-title: IWSManResourceLocator::get_FragmentPath
+title: IWSManResourceLocator::get_FragmentPath (wsmandisp.h)
 author: windows-sdk-content
 description: Gets or sets the path for a resource fragment or property when ResourceLocator is used in IWSManSession object methods such as Get, Put, or Enumerate.
 old-location: winrm\iwsmanresourcelocator_fragmentpath.htm

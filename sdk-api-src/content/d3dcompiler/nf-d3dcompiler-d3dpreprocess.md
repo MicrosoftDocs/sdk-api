@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcompiler.D3DPreprocess
-title: D3DPreprocess function
+title: D3DPreprocess function (d3dcompiler.h)
 author: windows-sdk-content
 description: Preprocesses uncompiled HLSL code.
 old-location: direct3dhlsl\d3dpreprocess.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Font.IsAvailable
-title: Font::IsAvailable
+title: Font::IsAvailable (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Font::IsAvailable method determines whether this Font object was created successfully.
 old-location: gdiplus\_gdiplus_CLASS_Font_IsAvailable_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:vdshwprv._VDS_HINTS2
-title: VDS_HINTS2
+title: VDS_HINTS2 (vdshwprv.h)
 author: windows-sdk-content
 description: Contains the automagic hints for a LUN in a storage pool.
 old-location: base\vds_hints2.htm

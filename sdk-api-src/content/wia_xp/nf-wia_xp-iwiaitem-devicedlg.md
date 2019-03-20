@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaItem.DeviceDlg
-title: IWiaItem::DeviceDlg
+title: IWiaItem::DeviceDlg (wia_xp.h)
 author: windows-sdk-content
 description: The IWiaItem::DeviceDlg method is used by applications to display a dialog box to the user to prepare for image acquisition.
 old-location: wia\_wia_IWiaItem_DeviceDlg.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFilterGraph2.AddSourceFilterForMoniker
-title: IFilterGraph2::AddSourceFilterForMoniker
+title: IFilterGraph2::AddSourceFilterForMoniker (strmif.h)
 author: windows-sdk-content
 description: The AddSourceFilterForMoniker method creates a source filter from an IMoniker pointer and adds the filter to the graph.
 old-location: dshow\ifiltergraph2_addsourcefilterformoniker.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1SvgGlyphStyle.SetFill
-title: ID2D1SvgGlyphStyle::SetFill
+title: ID2D1SvgGlyphStyle::SetFill (d2d1_3.h)
 author: windows-sdk-content
 description: Provides values to an SVG glyph for fill.
 old-location: direct2d\id2d1svgglyphstyle_setfill.htm

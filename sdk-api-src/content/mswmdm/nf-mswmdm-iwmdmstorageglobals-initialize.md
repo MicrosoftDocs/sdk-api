@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorageGlobals.Initialize
-title: IWMDMStorageGlobals::Initialize
+title: IWMDMStorageGlobals::Initialize (mswmdm.h)
 author: windows-sdk-content
 description: The Initialize method formats the storage medium.
 old-location: wmdm\iwmdmstorageglobals_initialize.htm

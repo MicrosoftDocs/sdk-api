@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IATSCLocator.get_PhysicalChannel
-title: IATSCLocator::get_PhysicalChannel
+title: IATSCLocator::get_PhysicalChannel (tuner.h)
 author: windows-sdk-content
 description: The get_PhysicalChannel method retrieves the physical channel.
 old-location: mstv\iatsclocator_get_physicalchannel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dsclient.IDsDisplaySpecifier.GetFriendlyClassName
-title: IDsDisplaySpecifier::GetFriendlyClassName
+title: IDsDisplaySpecifier::GetFriendlyClassName (dsclient.h)
 author: windows-sdk-content
 description: The IDsDisplaySpecifier::GetFriendlyClassName method retrieves the localized name for an object class.
 old-location: ad\idsdisplayspecifier_getfriendlyclassname.htm

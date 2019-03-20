@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProviderNotify.SearchFailed
-title: IWSDiscoveryProviderNotify::SearchFailed
+title: IWSDiscoveryProviderNotify::SearchFailed (wsddisco.h)
 author: windows-sdk-content
 description: Is called to indicate a user initiated search has failed.
 old-location: ncd\iwsdiscoveryprovidernotify_searchfailed_method.htm

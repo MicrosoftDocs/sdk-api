@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.put_burnFormat
-title: IWMPCdromBurn::put_burnFormat
+title: IWMPCdromBurn::put_burnFormat (wmp.h)
 author: windows-sdk-content
 description: The put_burnFormat method specifies the type of CD to burn.
 old-location: wmp\iwmpcdromburn_put_burnformat.htm

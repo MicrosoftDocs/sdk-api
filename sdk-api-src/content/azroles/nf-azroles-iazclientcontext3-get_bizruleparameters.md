@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext3.get_BizRuleParameters
-title: IAzClientContext3::get_BizRuleParameters
+title: IAzClientContext3::get_BizRuleParameters (azroles.h)
 author: windows-sdk-content
 description: Gets the collection of parameters that can be passed by the business rule (BizRule) script associated with this client context.
 old-location: security\iazclientcontext3_bizruleparameters_method.htm

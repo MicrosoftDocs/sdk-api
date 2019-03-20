@@ -1,6 +1,6 @@
 ---
 UID: NE:wtypes.VARENUM
-title: VARENUM
+title: VARENUM (wtypes.h)
 author: windows-sdk-content
 description: Specifies the variant types.
 old-location: automat\varenum.htm

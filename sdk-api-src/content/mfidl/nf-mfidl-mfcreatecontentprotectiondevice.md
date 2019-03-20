@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateContentProtectionDevice
-title: MFCreateContentProtectionDevice function
+title: MFCreateContentProtectionDevice function (mfidl.h)
 author: windows-sdk-content
 description: Creates an IMFContentProtectionDevice interface for the specified media protection system.
 old-location: mf\mfcreatecontentprotectiondevice.htm

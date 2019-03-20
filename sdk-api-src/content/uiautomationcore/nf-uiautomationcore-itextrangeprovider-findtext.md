@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.FindText
-title: ITextRangeProvider::FindText
+title: ITextRangeProvider::FindText (uiautomationcore.h)
 author: windows-sdk-content
 description: Returns a text range subset that contains the specified text.
 old-location: winauto\uiauto_ITextRangeProvider_FindText.htm

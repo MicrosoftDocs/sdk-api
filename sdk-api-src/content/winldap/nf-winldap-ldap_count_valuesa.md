@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_count_valuesA
-title: ldap_count_valuesA function
+title: ldap_count_valuesA function (winldap.h)
 author: windows-sdk-content
 description: The ldap_count_values function counts the number of values in a list.
 old-location: ldap\ldap_count_values.htm

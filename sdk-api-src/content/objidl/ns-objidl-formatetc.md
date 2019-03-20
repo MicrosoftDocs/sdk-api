@@ -1,6 +1,6 @@
 ---
 UID: NS:objidl.tagFORMATETC
-title: FORMATETC
+title: FORMATETC (objidl.h)
 author: windows-sdk-content
 description: Represents a generalized clipboard format.
 old-location: com\formatetc.htm

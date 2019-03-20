@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2ipdef.in6_pktinfo
-title: IN6_PKTINFO
+title: IN6_PKTINFO (ws2ipdef.h)
 author: windows-sdk-content
 description: The in6_pktinfo structure is used to store received IPv6 packet address information, and is used by Windows to return information about received packets and also allows specifying the local IPv6 address to use for sending packets.
 old-location: winsock\in6_pktinfo_2.htm

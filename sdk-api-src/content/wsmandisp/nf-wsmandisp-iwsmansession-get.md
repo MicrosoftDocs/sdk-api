@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManSession.Get
-title: IWSManSession::Get
+title: IWSManSession::Get (wsmandisp.h)
 author: windows-sdk-content
 description: Retrieves the resource specified by the URI and returns an XML representation of the current instance of the resource.
 old-location: winrm\iwsmansession_get.htm

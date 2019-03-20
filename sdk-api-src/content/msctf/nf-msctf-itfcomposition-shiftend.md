@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfComposition.ShiftEnd
-title: ITfComposition::ShiftEnd
+title: ITfComposition::ShiftEnd (msctf.h)
 author: windows-sdk-content
 description: ITfComposition::ShiftEnd method
 old-location: tsf\itfcomposition_shiftend.htm

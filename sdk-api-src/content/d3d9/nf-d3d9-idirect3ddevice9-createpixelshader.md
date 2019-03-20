@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.CreatePixelShader
-title: IDirect3DDevice9::CreatePixelShader
+title: IDirect3DDevice9::CreatePixelShader (d3d9.h)
 author: windows-sdk-content
 description: Creates a pixel shader.
 old-location: direct3d9\idirect3ddevice9__createpixelshader.htm

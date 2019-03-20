@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateDownloadContent.get_DownloadUrl
-title: IUpdateDownloadContent::get_DownloadUrl
+title: IUpdateDownloadContent::get_DownloadUrl (wuapi.h)
 author: windows-sdk-content
 description: Gets the location of the download content on the server that hosts the update.
 old-location: wua\iupdatedownloadcontent_downloadurl.htm

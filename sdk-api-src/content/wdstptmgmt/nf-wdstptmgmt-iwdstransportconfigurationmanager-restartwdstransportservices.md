@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportConfigurationManager.RestartWdsTransportServices
-title: IWdsTransportConfigurationManager::RestartWdsTransportServices
+title: IWdsTransportConfigurationManager::RestartWdsTransportServices (wdstptmgmt.h)
 author: windows-sdk-content
 description: Stops and then restarts any WDS transport services that are running. If no services are running, the method returns with S_OK without further action.
 old-location: wds\iwdstransportconfigurationmanager_restartwdstransportservices.htm

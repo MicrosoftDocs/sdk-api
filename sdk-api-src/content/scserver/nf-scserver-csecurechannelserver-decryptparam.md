@@ -1,6 +1,6 @@
 ---
 UID: NF:scserver.CSecureChannelServer.DecryptParam
-title: CSecureChannelServer::DecryptParam
+title: CSecureChannelServer::DecryptParam (scserver.h)
 author: windows-sdk-content
 description: DecryptParam uses the session key of the secure authenticated channel to decrypt the data contained in a parameter.
 old-location: wmdm\csecurechannelserver_decryptparam.htm

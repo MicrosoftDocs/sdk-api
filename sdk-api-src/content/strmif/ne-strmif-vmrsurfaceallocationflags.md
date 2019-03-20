@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.VMRSurfaceAllocationFlags
-title: VMRSurfaceAllocationFlags
+title: VMRSurfaceAllocationFlags (strmif.h)
 author: windows-sdk-content
 description: The VMRSurfaceAllocationFlags enumeration is used with the IVMRSurfaceAllocator::AllocateSurface method to specify surface creation parameters.
 old-location: dshow\vmrsurfaceallocationflags.htm

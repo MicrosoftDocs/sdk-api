@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IExpDispSupportXP.FindCIE4ConnectionPoint
-title: IExpDispSupportXP::FindCIE4ConnectionPoint
+title: IExpDispSupportXP::FindCIE4ConnectionPoint (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Gets a connection point for browser events.
 old-location: shell\IExpDispSupportXP_FindCIE4ConnectionPoint.htm

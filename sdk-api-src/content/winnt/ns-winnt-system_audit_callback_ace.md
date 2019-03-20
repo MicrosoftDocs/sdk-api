@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._SYSTEM_AUDIT_CALLBACK_ACE
-title: SYSTEM_AUDIT_CALLBACK_ACE
+title: SYSTEM_AUDIT_CALLBACK_ACE (winnt.h)
 author: windows-sdk-content
 description: The SYSTEM_AUDIT_CALLBACK_ACE structure defines an access control entry for the system access control list that specifies what types of access cause system-level notifications.
 old-location: security\system_audit_callback_ace.htm

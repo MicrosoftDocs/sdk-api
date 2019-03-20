@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleImplementation.OnLoad
-title: IFsrmPipelineModuleImplementation::OnLoad
+title: IFsrmPipelineModuleImplementation::OnLoad (fsrmpipeline.h)
 author: windows-sdk-content
 description: Initializes the pipeline module.
 old-location: fsrm\ifsrmpipelinemoduleimplementation_onload.htm

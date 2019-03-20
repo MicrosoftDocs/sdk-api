@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellIconOverlayManager.OverlayIndexFromImageIndex
-title: IShellIconOverlayManager::OverlayIndexFromImageIndex
+title: IShellIconOverlayManager::OverlayIndexFromImageIndex (shlobj_core.h)
 author: windows-sdk-content
 description: Finds the index of an overlay image for the specified icon image. It can add an overlay if one is not found for the icon.
 old-location: shell\IShellIconOverlayManager_OverlayIndexFromImageIndex.htm

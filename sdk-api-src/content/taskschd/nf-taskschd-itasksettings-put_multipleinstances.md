@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_MultipleInstances
-title: ITaskSettings::put_MultipleInstances
+title: ITaskSettings::put_MultipleInstances (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the policy that defines how the Task Scheduler deals with multiple instances of the task.
 old-location: taskschd\itasksettings_multipleinstances.htm

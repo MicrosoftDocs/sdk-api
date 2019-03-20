@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIWindow.put_Shared
-title: IRDPSRAPIWindow::put_Shared
+title: IRDPSRAPIWindow::put_Shared (rdpencomapi.h)
 author: windows-sdk-content
 description: Gets or sets the sharing property for a window.
 old-location: rdp\irdpsrapiwindow_shared.htm

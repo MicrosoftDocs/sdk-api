@@ -1,6 +1,6 @@
 ---
 UID: NF:shellscalingapi.RegisterScaleChangeEvent
-title: RegisterScaleChangeEvent function
+title: RegisterScaleChangeEvent function (shellscalingapi.h)
 author: windows-sdk-content
 description: Registers for an event that is triggered when the scale has possibly changed. This function replaces RegisterScaleChangeNotifications.
 old-location: shell\RegisterScaleChangeEvent.htm

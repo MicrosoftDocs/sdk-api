@@ -1,6 +1,6 @@
 ---
 UID: NF:xapo.IXAPO.UnlockForProcess
-title: IXAPO::UnlockForProcess
+title: IXAPO::UnlockForProcess (xapo.h)
 author: windows-sdk-content
 description: Deallocates variables that were allocated with the LockForProcess method.
 old-location: xaudio2\ixapo_interface_unlockforprocess.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:bits.__MIDL_IBackgroundCopyJob_0003
-title: BG_JOB_TYPE
+title: BG_JOB_TYPE (bits.h)
 author: windows-sdk-content
 description: Defines constants that specify the type of transfer job, such as download.
 old-location: bits\bg_job_type.htm

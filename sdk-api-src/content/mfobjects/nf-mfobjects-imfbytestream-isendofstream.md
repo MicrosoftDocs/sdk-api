@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFByteStream.IsEndOfStream
-title: IMFByteStream::IsEndOfStream
+title: IMFByteStream::IsEndOfStream (mfobjects.h)
 author: windows-sdk-content
 description: Queries whether the current position has reached the end of the stream.
 old-location: mf\imfbytestream_isendofstream.htm

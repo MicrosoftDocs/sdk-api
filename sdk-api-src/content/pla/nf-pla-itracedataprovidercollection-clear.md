@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.Clear
-title: ITraceDataProviderCollection::Clear
+title: ITraceDataProviderCollection::Clear (pla.h)
 author: windows-sdk-content
 description: Removes all trace providers from the collection.
 old-location: pla\itracedataprovidercollection_clear.htm

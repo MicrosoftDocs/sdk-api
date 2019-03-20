@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.EnumerateSyncProviders
-title: ISyncProviderRegistration::EnumerateSyncProviders
+title: ISyncProviderRegistration::EnumerateSyncProviders (syncregistration.h)
 author: windows-sdk-content
 description: Returns an IEnumSyncProviderInfos enumeration interface that enumerates all registered ISyncProviderInfo objects for the specified criteria.
 old-location: winsync\isyncproviderregistration_enumeratesyncproviders.htm

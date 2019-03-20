@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusimaging.ImageFlags
-title: ImageFlags
+title: ImageFlags (gdiplusimaging.h)
 author: windows-sdk-content
 description: The ImageFlags enumeration specifies the attributes of the pixel data contained in an Image object. The Image::GetFlags method returns an element of this enumeration.
 old-location: gdiplus\_gdiplus_ENUM_ImageFlags.htm

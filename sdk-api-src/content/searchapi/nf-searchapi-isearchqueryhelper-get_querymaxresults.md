@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_QueryMaxResults
-title: ISearchQueryHelper::get_QueryMaxResults
+title: ISearchQueryHelper::get_QueryMaxResults (searchapi.h)
 author: windows-sdk-content
 description: Gets the maximum number of results to be returned by the query.
 old-location: search\_search_ISearchQueryHelper_get_QueryMaxResults.htm

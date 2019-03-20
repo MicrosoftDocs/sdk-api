@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmPropertyFlags
-title: FsrmPropertyFlags
+title: FsrmPropertyFlags (fsrmenums.h)
 author: windows-sdk-content
 description: Defines flag values that provide additional information about a classification property.
 old-location: fsrm\fsrmpropertyflags.htm

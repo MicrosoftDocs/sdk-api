@@ -1,6 +1,6 @@
 ---
 UID: NE:wmp.WMPOpenState
-title: WMPOpenState
+title: WMPOpenState (wmp.h)
 author: windows-sdk-content
 description: The WMPOpenState enumeration type defines the possible operational states of Windows Media Player as it opens a digital media file.
 old-location: wmp\wmpopenstate.htm

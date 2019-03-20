@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRole.get_AppMembers
-title: IAzRole::get_AppMembers
+title: IAzRole::get_AppMembers (azroles.h)
 author: windows-sdk-content
 description: Retrieves the application groups that belong to the role.
 old-location: security\iazrole_appmembers.htm

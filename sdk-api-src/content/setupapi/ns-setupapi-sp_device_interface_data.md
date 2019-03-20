@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._SP_DEVICE_INTERFACE_DATA
-title: SP_DEVICE_INTERFACE_DATA
+title: SP_DEVICE_INTERFACE_DATA (setupapi.h)
 author: windows-sdk-content
 description: An SP_DEVICE_INTERFACE_DATA structure defines a device interface in a device information set.
 old-location: devinst\sp_device_interface_data.htm

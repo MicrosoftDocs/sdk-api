@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IParseAndCreateItem
-title: IParseAndCreateItem
+title: IParseAndCreateItem (shobjidl_core.h)
 author: windows-sdk-content
 description: IParseAndCreateItem interface
 old-location: shell\IParseAndCreateItem.htm

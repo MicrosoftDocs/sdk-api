@@ -1,6 +1,6 @@
 ---
 UID: NE:evcoll._EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID
-title: EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID
+title: EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID (evcoll.h)
 author: windows-sdk-content
 description: The EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID enumeration specifies the values used to get the status of a subscription or the status of a particular event source with respect to a subscription.
 old-location: wec\ec_subscription_runtime_status_info_id.htm

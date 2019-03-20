@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IAlternativeNames.Add
-title: IAlternativeNames::Add
+title: IAlternativeNames::Add (certenroll.h)
 author: windows-sdk-content
 description: Adds an object to the collection.
 old-location: security\ialternativenames_add_method.htm

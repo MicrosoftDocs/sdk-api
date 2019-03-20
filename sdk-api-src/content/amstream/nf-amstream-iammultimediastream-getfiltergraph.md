@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMultiMediaStream.GetFilterGraph
-title: IAMMultiMediaStream::GetFilterGraph
+title: IAMMultiMediaStream::GetFilterGraph (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The GetFilterGraph method retrieves the Filter Graph Manager that is managed by the multimedia stream object.
 old-location: dshow\iammultimediastream_getfiltergraph.htm

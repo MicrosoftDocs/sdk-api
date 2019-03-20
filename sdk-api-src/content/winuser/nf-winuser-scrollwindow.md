@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.ScrollWindow
-title: ScrollWindow function
+title: ScrollWindow function (winuser.h)
 author: windows-sdk-content
 description: The ScrollWindow function scrolls the contents of the specified window's client area.
 old-location: controls\ScrollWindow.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wmsdkidl._WMClientProperties
-title: WM_CLIENT_PROPERTIES
+title: WM_CLIENT_PROPERTIES (wmsdkidl.h)
 author: windows-sdk-content
 description: The WM_CLIENT_PROPERTIES structure records information about the client.
 old-location: wmformat\wm_client_properties.htm

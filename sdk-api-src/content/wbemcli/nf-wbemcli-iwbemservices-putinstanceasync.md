@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemServices.PutInstanceAsync
-title: IWbemServices::PutInstanceAsync
+title: IWbemServices::PutInstanceAsync (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemServices::PutInstanceAsync method asynchronously creates or updates an instance of an existing class. Update confirmation or error reporting is provided through the IWbemObjectSink interface implemented by the caller.
 old-location: wmi\iwbemservices_putinstanceasync.htm

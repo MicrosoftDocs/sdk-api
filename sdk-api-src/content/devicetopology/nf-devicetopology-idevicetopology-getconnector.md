@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IDeviceTopology.GetConnector
-title: IDeviceTopology::GetConnector
+title: IDeviceTopology::GetConnector (devicetopology.h)
 author: windows-sdk-content
 description: The GetConnector method gets the connector that is specified by a connector number.
 old-location: coreaudio\idevicetopology_getconnector.htm

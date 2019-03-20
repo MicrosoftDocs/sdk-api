@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorage2.SetAttributes2
-title: IWMDMStorage2::SetAttributes2
+title: IWMDMStorage2::SetAttributes2 (mswmdm.h)
 author: windows-sdk-content
 description: The SetAttributes2 method sets extended attributes of the storage.
 old-location: wmdm\iwmdmstorage2_setattributes2.htm

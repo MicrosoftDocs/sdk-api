@@ -1,6 +1,6 @@
 ---
 UID: NF:msajtransport.AllJoynReceiveFromBus
-title: AllJoynReceiveFromBus function
+title: AllJoynReceiveFromBus function (msajtransport.h)
 author: windows-sdk-content
 description: Receives data from the bus via named pipe.
 old-location: alljoyn\alljoynreceivefrombus.htm

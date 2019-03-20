@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgicommon.DXGI_COLOR_SPACE_TYPE
-title: DXGI_COLOR_SPACE_TYPE
+title: DXGI_COLOR_SPACE_TYPE (dxgicommon.h)
 author: windows-sdk-content
 description: Specifies color space types.
 old-location: direct3ddxgi\dxgi_color_space_type.htm

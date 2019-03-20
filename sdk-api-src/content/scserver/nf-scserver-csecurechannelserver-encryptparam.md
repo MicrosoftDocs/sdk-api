@@ -1,6 +1,6 @@
 ---
 UID: NF:scserver.CSecureChannelServer.EncryptParam
-title: CSecureChannelServer::EncryptParam
+title: CSecureChannelServer::EncryptParam (scserver.h)
 author: windows-sdk-content
 description: The EncryptParam method uses the session key of the secure authenticated channel to encrypt the data contained in a parameter.
 old-location: wmdm\csecurechannelserver_encryptparam.htm

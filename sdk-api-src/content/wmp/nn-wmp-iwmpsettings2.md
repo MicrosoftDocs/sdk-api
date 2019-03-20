@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPSettings2
-title: IWMPSettings2
+title: IWMPSettings2 (wmp.h)
 author: windows-sdk-content
 description: The IWMPSettings2 interface provides methods that supplement the IWMPSettings interface.
 old-location: wmp\iwmpsettings2.htm

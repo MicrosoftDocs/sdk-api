@@ -1,6 +1,6 @@
 ---
 UID: NN:spellcheck.ISpellChecker
-title: ISpellChecker
+title: ISpellChecker (spellcheck.h)
 author: windows-sdk-content
 description: Represents a particular spell checker for a particular language.
 old-location: intl\ispellchecker.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:davclnt.DavInvalidateCache
-title: DavInvalidateCache function
+title: DavInvalidateCache function (davclnt.h)
 author: windows-sdk-content
 description: Invalidates the contents of the local cache for a remote file on a WebDAV server.
 old-location: webdav\davinvalidatecache.htm

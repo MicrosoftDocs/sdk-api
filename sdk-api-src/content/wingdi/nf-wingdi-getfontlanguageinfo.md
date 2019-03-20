@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetFontLanguageInfo
-title: GetFontLanguageInfo function
+title: GetFontLanguageInfo function (wingdi.h)
 author: windows-sdk-content
 description: The GetFontLanguageInfo function returns information about the currently selected font for the specified display context. Applications typically use this information and the GetCharacterPlacement function to prepare a character string for display.
 old-location: gdi\getfontlanguageinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetTrigger
-title: IScheduledWorkItem::GetTrigger
+title: IScheduledWorkItem::GetTrigger (mstask.h)
 author: windows-sdk-content
 description: Retrieves a task trigger.
 old-location: taskschd\ischeduledworkitem_gettrigger.htm

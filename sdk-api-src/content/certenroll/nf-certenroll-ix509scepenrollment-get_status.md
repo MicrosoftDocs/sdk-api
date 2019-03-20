@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.get_Status
-title: IX509SCEPEnrollment::get_Status
+title: IX509SCEPEnrollment::get_Status (certenroll.h)
 author: windows-sdk-content
 description: Gets the status of the request.
 old-location: security\ix509scepenrollment_status.htm

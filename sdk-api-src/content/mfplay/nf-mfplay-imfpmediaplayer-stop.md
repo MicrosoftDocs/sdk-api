@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.Stop
-title: IMFPMediaPlayer::Stop
+title: IMFPMediaPlayer::Stop (mfplay.h)
 author: windows-sdk-content
 description: Stops playback.
 old-location: mf\imfpmediaplayer_stop.htm

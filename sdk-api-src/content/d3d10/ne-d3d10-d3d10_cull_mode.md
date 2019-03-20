@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10.D3D10_CULL_MODE
-title: D3D10_CULL_MODE
+title: D3D10_CULL_MODE (d3d10.h)
 author: windows-sdk-content
 description: Indicates triangles facing a particular direction are not drawn.
 old-location: direct3d10\d3d10_cull_mode.htm

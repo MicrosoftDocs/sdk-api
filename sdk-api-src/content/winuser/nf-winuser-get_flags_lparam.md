@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GET_FLAGS_LPARAM
-title: GET_FLAGS_LPARAM macro
+title: GET_FLAGS_LPARAM macro (winuser.h)
 author: windows-sdk-content
 description: Retrieves the state of certain virtual keys from the specified LPARAM value.
 old-location: inputdev\get_flags_lparam.htm

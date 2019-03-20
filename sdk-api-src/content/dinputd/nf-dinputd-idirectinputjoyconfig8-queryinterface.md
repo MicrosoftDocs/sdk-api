@@ -1,6 +1,6 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.QueryInterface
-title: IDirectInputJoyConfig8::QueryInterface
+title: IDirectInputJoyConfig8::QueryInterface (dinputd.h)
 author: windows-sdk-content
 description: The IDirectInputJoyConfig8::QueryInterface method determines whether the DirectInputJoyConfig object supports a particular COM interface.
 old-location: hid\idirectinputjoyconfig8_queryinterface.htm

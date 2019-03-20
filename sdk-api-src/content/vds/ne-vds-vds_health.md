@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_HEALTH
-title: VDS_HEALTH
+title: VDS_HEALTH (vds.h)
 author: windows-sdk-content
 description: Defines the set of health state values for a VDS object.
 old-location: base\vds_health.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsbuffer.INSSBuffer3
-title: INSSBuffer3
+title: INSSBuffer3 (wmsbuffer.h)
 author: windows-sdk-content
 description: The INSSBuffer3 interface enhances the INSSBuffer interface by adding the ability to set and retrieve single properties for a sample.
 old-location: wmformat\inssbuffer3.htm

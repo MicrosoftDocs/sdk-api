@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_MAP_FLAG
-title: D3D11_MAP_FLAG
+title: D3D11_MAP_FLAG (d3d11.h)
 author: windows-sdk-content
 description: Specifies how the CPU should respond when an application calls the ID3D11DeviceContext::Map method on a resource that is being used by the GPU.
 old-location: direct3d11\d3d11_map_flag.htm

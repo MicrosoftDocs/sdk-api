@@ -1,6 +1,6 @@
 ---
 UID: NS:lmdfs._DFS_INFO_107
-title: DFS_INFO_107
+title: DFS_INFO_107 (lmdfs.h)
 author: windows-sdk-content
 description: Contains information about a DFS root or link, including the comment, state, time-out, property flags, and link reparse point security descriptor.
 old-location: dfs\dfs_info_107.htm

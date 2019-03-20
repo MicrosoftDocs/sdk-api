@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrm.IFsrmActionReport
-title: IFsrmActionReport
+title: IFsrmActionReport (fsrm.h)
 author: windows-sdk-content
 description: Used to generate a report in response to a quota or file screen event.
 old-location: fsrm\ifsrmactionreport.htm

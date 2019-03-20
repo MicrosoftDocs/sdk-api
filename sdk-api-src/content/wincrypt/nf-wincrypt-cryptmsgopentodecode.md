@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptMsgOpenToDecode
-title: CryptMsgOpenToDecode function
+title: CryptMsgOpenToDecode function (wincrypt.h)
 author: windows-sdk-content
 description: Opens a cryptographic message for decoding and returns a handle of the opened message.
 old-location: security\cryptmsgopentodecode.htm

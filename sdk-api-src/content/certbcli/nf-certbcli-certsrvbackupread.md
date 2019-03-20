@@ -1,6 +1,6 @@
 ---
 UID: NF:certbcli.CertSrvBackupRead
-title: CertSrvBackupRead function
+title: CertSrvBackupRead function (certbcli.h)
 author: windows-sdk-content
 description: Reads bytes from a Certificate Services file.
 old-location: security\certsrvbackupread.htm

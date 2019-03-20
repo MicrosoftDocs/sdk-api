@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetWindowInfo
-title: GetWindowInfo function
+title: GetWindowInfo function (winuser.h)
 author: windows-sdk-content
 description: Retrieves information about the specified window.
 old-location: winmsg\getwindowinfo.htm

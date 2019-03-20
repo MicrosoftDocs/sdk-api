@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_HELLO
-title: WSD_HELLO
+title: WSD_HELLO (wsdtypes.h)
 author: windows-sdk-content
 description: Represents a Hello message.
 old-location: ncd\wsd_hello_struct.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarOr
-title: VarOr function
+title: VarOr function (oleauto.h)
 author: windows-sdk-content
 description: Performs a logical disjunction on two variants.
 old-location: automat\varor.htm

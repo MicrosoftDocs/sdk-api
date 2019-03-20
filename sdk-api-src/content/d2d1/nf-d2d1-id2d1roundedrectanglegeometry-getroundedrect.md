@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RoundedRectangleGeometry.GetRoundedRect
-title: ID2D1RoundedRectangleGeometry::GetRoundedRect
+title: ID2D1RoundedRectangleGeometry::GetRoundedRect (d2d1.h)
 author: windows-sdk-content
 description: Retrieves a rounded rectangle that describes this rounded rectangle geometry.
 old-location: direct2d\ID2D1RoundedRectangleGeometry_GetRoundedRect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:directxpackedvector.XMXDEC4
-title: XMXDEC4
+title: XMXDEC4 (directxpackedvector.h)
 author: windows-sdk-content
 description: A 4D vector with x-,y-, and z- components represented as 10 bit signed integer values, and the w-component as a 2 bit unsigned integer value.
 old-location: dxmath\xmxdec4.htm

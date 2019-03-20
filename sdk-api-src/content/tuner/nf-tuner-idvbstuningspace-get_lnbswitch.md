@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSTuningSpace.get_LNBSwitch
-title: IDVBSTuningSpace::get_LNBSwitch
+title: IDVBSTuningSpace::get_LNBSwitch (tuner.h)
 author: windows-sdk-content
 description: The get_LNBSwitch method retrieves the LNB switch.
 old-location: mstv\idvbstuningspace_get_lnbswitch.htm

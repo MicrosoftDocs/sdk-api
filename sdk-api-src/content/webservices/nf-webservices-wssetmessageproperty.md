@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsSetMessageProperty
-title: WsSetMessageProperty function
+title: WsSetMessageProperty function (webservices.h)
 author: windows-sdk-content
 description: This operation sets a Messageproperty.
 old-location: wsw\wssetmessageproperty.htm

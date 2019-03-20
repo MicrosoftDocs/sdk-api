@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmSubLayerAdd0
-title: FwpmSubLayerAdd0 function
+title: FwpmSubLayerAdd0 function (fwpmu.h)
 author: windows-sdk-content
 description: Adds a new sublayer to the system.
 old-location: fwp\fwpmsublayeradd0_func.htm

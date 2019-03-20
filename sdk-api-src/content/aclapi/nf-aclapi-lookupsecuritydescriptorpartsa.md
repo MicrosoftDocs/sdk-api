@@ -1,6 +1,6 @@
 ---
 UID: NF:aclapi.LookupSecurityDescriptorPartsA
-title: LookupSecurityDescriptorPartsA function
+title: LookupSecurityDescriptorPartsA function (aclapi.h)
 author: windows-sdk-content
 description: Retrieves security information from a self-relative security descriptor.
 old-location: security\lookupsecuritydescriptorparts.htm

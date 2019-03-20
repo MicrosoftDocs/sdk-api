@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.SetOffsetX(float)
-title: IDCompositionVisual::SetOffsetX(float)
+title: IDCompositionVisual::SetOffsetX(float) (dcomp.h)
 author: windows-sdk-content
 description: Changes the value of the OffsetX property of this visual.
 old-location: directcomp\idcompositionvisual_setoffsetx_float.htm

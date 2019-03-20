@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRSELECTOBJECT
-title: EMRSELECTOBJECT
+title: EMRSELECTOBJECT (wingdi.h)
 author: windows-sdk-content
 description: The EMRSELECTOBJECT and EMRDELETEOBJECT structures contain members for the SelectObject and DeleteObject enhanced metafile records.
 old-location: gdi\emrselectobject__emrdeleteobject.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFSample.ConvertToContiguousBuffer
-title: IMFSample::ConvertToContiguousBuffer
+title: IMFSample::ConvertToContiguousBuffer (mfobjects.h)
 author: windows-sdk-content
 description: Converts a sample with multiple buffers into a sample with a single buffer.
 old-location: mf\imfsample_converttocontiguousbuffer.htm

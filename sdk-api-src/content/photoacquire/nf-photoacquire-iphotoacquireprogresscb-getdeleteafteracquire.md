@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.GetDeleteAfterAcquire
-title: IPhotoAcquireProgressCB::GetDeleteAfterAcquire
+title: IPhotoAcquireProgressCB::GetDeleteAfterAcquire (photoacquire.h)
 author: windows-sdk-content
 description: The GetDeleteAfterAcquire method returns a value indicating whether photos should be deleted after acquisition.
 old-location: picacq\iphotoacquireprogresscb_getdeleteafteracquire.htm

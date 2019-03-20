@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.ISCPSecureAuthenticate2
-title: ISCPSecureAuthenticate2
+title: ISCPSecureAuthenticate2 (mswmdm.h)
 author: windows-sdk-content
 description: The ISCPSecureAuthenticate2 interface extends ISCPSecureAuthenticate by providing a way to get a session object.
 old-location: wmdm\iscpsecureauthenticate2.htm

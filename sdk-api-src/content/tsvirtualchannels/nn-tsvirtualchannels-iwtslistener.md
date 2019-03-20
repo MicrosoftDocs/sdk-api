@@ -1,6 +1,6 @@
 ---
 UID: NN:tsvirtualchannels.IWTSListener
-title: IWTSListener
+title: IWTSListener (tsvirtualchannels.h)
 author: windows-sdk-content
 description: Manages configuration settings for each listener for the dynamic virtual channel (DVC) connection.
 old-location: termserv\iwtslistener.htm

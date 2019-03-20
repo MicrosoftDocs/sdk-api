@@ -1,6 +1,6 @@
 ---
 UID: NF:aclapi.GetTrusteeTypeW
-title: GetTrusteeTypeW function
+title: GetTrusteeTypeW function (aclapi.h)
 author: windows-sdk-content
 description: Retrieves the trustee type from the specified TRUSTEE structure. This value indicates whether the trustee is a user, a group, or the trustee type is unknown.
 old-location: security\gettrusteetype.htm

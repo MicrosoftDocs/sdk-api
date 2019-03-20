@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleRegEnumVerbs
-title: OleRegEnumVerbs function
+title: OleRegEnumVerbs function (ole2.h)
 author: windows-sdk-content
 description: Supplies an enumeration of the registered verbs for the specified class. Developers of custom DLL object applications use this function to emulate the behavior of the default object handler.
 old-location: com\oleregenumverbs.htm

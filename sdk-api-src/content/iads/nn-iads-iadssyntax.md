@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsSyntax
-title: IADsSyntax
+title: IADsSyntax (iads.h)
 author: windows-sdk-content
 description: The IADsSyntax interface specifies methods to identify and modify the available Automation data types used to represent its data.
 old-location: adsi\iadssyntax.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:networkisolation._INET_FIREWALL_AC_CREATION_TYPE
-title: INET_FIREWALL_AC_CREATION_TYPE
+title: INET_FIREWALL_AC_CREATION_TYPE (networkisolation.h)
 author: windows-sdk-content
 description: Specifies the type of app container creation events for which notifications will be delivered.
 old-location: ics\inet_firewall_ac_creation_type.htm

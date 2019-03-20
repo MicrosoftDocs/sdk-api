@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.IAVIStream.Info
-title: IAVIStream::Info
+title: IAVIStream::Info (vfw.h)
 author: windows-sdk-content
 description: The Info method fills and returns an AVISTREAMINFO structure with information about a stream. Called when an application uses the AVIStreamInfo function.
 old-location: multimedia\iavistream_info.htm

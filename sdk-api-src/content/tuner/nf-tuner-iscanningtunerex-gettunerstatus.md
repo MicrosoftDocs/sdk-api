@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IScanningTunerEx.GetTunerStatus
-title: IScanningTunerEx::GetTunerStatus
+title: IScanningTunerEx::GetTunerStatus (tuner.h)
 author: windows-sdk-content
 description: This topic applies to Windows Vista and later.
 old-location: mstv\iscanningtunerex_gettunerstatus.htm

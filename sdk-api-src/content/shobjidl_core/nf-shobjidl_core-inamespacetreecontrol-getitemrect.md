@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.GetItemRect
-title: INameSpaceTreeControl::GetItemRect
+title: INameSpaceTreeControl::GetItemRect (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the RECT structure that describes the size and position of a given item.
 old-location: shell\INameSpaceTreeControl_GetItemRect.htm

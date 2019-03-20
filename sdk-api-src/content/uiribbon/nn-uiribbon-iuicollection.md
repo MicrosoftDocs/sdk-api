@@ -1,6 +1,6 @@
 ---
 UID: NN:uiribbon.IUICollection
-title: IUICollection
+title: IUICollection (uiribbon.h)
 author: windows-sdk-content
 description: The IUICollection interface is implemented by the Ribbon framework.
 old-location: windowsribbon\windowsribbon_iuicollection.htm

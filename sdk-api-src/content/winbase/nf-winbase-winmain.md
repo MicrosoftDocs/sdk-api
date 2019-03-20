@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.WinMain
-title: WinMain function
+title: WinMain function (winbase.h)
 author: windows-sdk-content
 description: The user-provided entry point for a graphical Windows-based application.
 old-location: winmsg\winmain.htm

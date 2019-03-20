@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase.COPYFILE2_EXTENDED_PARAMETERS
-title: COPYFILE2_EXTENDED_PARAMETERS
+title: COPYFILE2_EXTENDED_PARAMETERS (winbase.h)
 author: windows-sdk-content
 description: Contains extended parameters for the CopyFile2 function.
 old-location: fs\copyfile2_extended_parameters.htm

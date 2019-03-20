@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IConnector.ConnectTo
-title: IConnector::ConnectTo
+title: IConnector::ConnectTo (devicetopology.h)
 author: windows-sdk-content
 description: The ConnectTo method connects this connector to a connector in another device-topology object.
 old-location: coreaudio\iconnector_connectto.htm

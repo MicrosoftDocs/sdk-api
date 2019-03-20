@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_SHADER_CACHE_SUPPORT_FLAGS
-title: D3D12_SHADER_CACHE_SUPPORT_FLAGS
+title: D3D12_SHADER_CACHE_SUPPORT_FLAGS (d3d12.h)
 author: windows-sdk-content
 description: Describes the level of support for shader caching in the current graphics driver.
 old-location: direct3d12\d3d12_shader_cache_support_flags.htm

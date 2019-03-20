@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFMediaSourceTopologyProvider
-title: IMFMediaSourceTopologyProvider
+title: IMFMediaSourceTopologyProvider (mfidl.h)
 author: windows-sdk-content
 description: Enables an application to get a topology from the sequencer source.
 old-location: mf\imfmediasourcetopologyprovider.htm

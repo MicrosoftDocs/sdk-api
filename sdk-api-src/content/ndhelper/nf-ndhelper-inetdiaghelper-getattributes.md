@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetAttributes
-title: INetDiagHelper::GetAttributes
+title: INetDiagHelper::GetAttributes (ndhelper.h)
 author: windows-sdk-content
 description: Retrieves additional information about a problem that the helper class extension has diagnosed.
 old-location: ndf\inetdiaghelpe_getattributes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMultiMediaStream.OpenFile
-title: IAMMultiMediaStream::OpenFile
+title: IAMMultiMediaStream::OpenFile (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The OpenFile method opens and automatically creates a filter graph for the specified media file. If DirectShow doesn't support the file format, this method does nothing.
 old-location: dshow\iammultimediastream_openfile.htm

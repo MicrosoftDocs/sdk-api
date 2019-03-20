@@ -1,6 +1,6 @@
 ---
 UID: NS:tdiinfo.TDIObjectID
-title: TDIObjectID
+title: TDIObjectID (tdiinfo.h)
 author: windows-sdk-content
 description: Contains a part of the TCP_REQUEST_QUERY_INFORMATION_EX structure that is used with the IOCTL_TCP_QUERY_INFORMATION_EX control code to specify the kind of information being requested from the TCP driver.
 old-location: winprog\tdiobjectid.htm

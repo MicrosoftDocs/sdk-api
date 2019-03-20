@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemeFont
-title: GetThemeFont function
+title: GetThemeFont function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves the value of a font property.
 old-location: controls\GetThemeFont.htm

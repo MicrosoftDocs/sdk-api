@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_LUN_TYPE
-title: VDS_LUN_TYPE
+title: VDS_LUN_TYPE (vds.h)
 author: windows-sdk-content
 description: Defines the set of valid types for a LUN.
 old-location: base\vds_lun_type.htm

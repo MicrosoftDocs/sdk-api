@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_IKEEXT_QM_FAILURE0_
-title: FWPM_NET_EVENT_IKEEXT_QM_FAILURE0
+title: FWPM_NET_EVENT_IKEEXT_QM_FAILURE0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Contains information that describes an IKE/AuthIP Quick Mode (QM) failure.
 old-location: fwp\fwpm_net_event_ikeext_qm_failure0.htm

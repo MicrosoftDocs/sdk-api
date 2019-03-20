@@ -1,6 +1,6 @@
 ---
 UID: NE:p2p.peer_graph_status_flags_tag
-title: PEER_GRAPH_STATUS_FLAGS
+title: PEER_GRAPH_STATUS_FLAGS (p2p.h)
 author: windows-sdk-content
 description: The PEER_GRAPH_STATUS_FLAGS enumeration is a set of flags that show the current status of a node within the peer graph.
 old-location: p2p\peer_graph_status_flags.htm

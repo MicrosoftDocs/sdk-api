@@ -1,6 +1,6 @@
 ---
 UID: NE:qos2._QOS_SET_FLOW
-title: QOS_SET_FLOW
+title: QOS_SET_FLOW (qos2.h)
 author: windows-sdk-content
 description: The QOS_SET_FLOW enumeration indicates what is being changed about a flow.
 old-location: qos\qos_set_flow.htm

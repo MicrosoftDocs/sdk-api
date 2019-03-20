@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmProviderDeleteByKey0
-title: FwpmProviderDeleteByKey0 function
+title: FwpmProviderDeleteByKey0 function (fwpmu.h)
 author: windows-sdk-content
 description: Removes a provider from the system.
 old-location: fwp\fwpmproviderdeletebykey0_func.htm

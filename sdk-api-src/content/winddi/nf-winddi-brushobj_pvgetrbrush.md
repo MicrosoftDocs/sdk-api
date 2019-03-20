@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.BRUSHOBJ_pvGetRbrush
-title: BRUSHOBJ_pvGetRbrush function
+title: BRUSHOBJ_pvGetRbrush function (winddi.h)
 author: windows-sdk-content
 description: The BRUSHOBJ_pvGetRbrush function retrieves a pointer to the driver's realization of a specified brush.
 old-location: display\brushobj_pvgetrbrush.htm

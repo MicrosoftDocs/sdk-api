@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.ILaunchTargetMonitor
-title: ILaunchTargetMonitor
+title: ILaunchTargetMonitor (shobjidl_core.h)
 author: windows-sdk-content
 description: "."
 old-location: shell\ILaunchTargetMonitor.htm

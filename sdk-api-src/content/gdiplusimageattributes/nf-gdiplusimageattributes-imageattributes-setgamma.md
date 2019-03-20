@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.SetGamma
-title: ImageAttributes::SetGamma
+title: ImageAttributes::SetGamma (gdiplusimageattributes.h)
 author: windows-sdk-content
 description: The ImageAttributes::SetGamma method sets the gamma value for a specified category.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_SetGamma_gamma_type_.htm

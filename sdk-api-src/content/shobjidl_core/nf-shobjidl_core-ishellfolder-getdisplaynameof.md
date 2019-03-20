@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellFolder.GetDisplayNameOf
-title: IShellFolder::GetDisplayNameOf
+title: IShellFolder::GetDisplayNameOf (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the display name for the specified file object or subfolder.
 old-location: shell\IShellFolder_GetDisplayNameOf.htm

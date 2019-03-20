@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Pager_SetChild
-title: Pager_SetChild macro
+title: Pager_SetChild macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the contained window for the pager control.
 old-location: controls\Pager_SetChild.htm

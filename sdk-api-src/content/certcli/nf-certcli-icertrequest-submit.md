@@ -1,6 +1,6 @@
 ---
 UID: NF:certcli.ICertRequest.Submit
-title: ICertRequest::Submit
+title: ICertRequest::Submit (certcli.h)
 author: windows-sdk-content
 description: Submits a request to the Certificate Services server.
 old-location: security\icertrequest2_submit.htm

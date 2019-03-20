@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1svg.D2D1_SVG_PAINT_TYPE
-title: D2D1_SVG_PAINT_TYPE
+title: D2D1_SVG_PAINT_TYPE (d2d1svg.h)
 author: windows-sdk-content
 description: Specifies the paint type for an SVG fill or stroke.
 old-location: direct2d\d2d1_svg_paint_type.htm

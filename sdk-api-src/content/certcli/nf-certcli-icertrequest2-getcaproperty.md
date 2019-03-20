@@ -1,6 +1,6 @@
 ---
 UID: NF:certcli.ICertRequest2.GetCAProperty
-title: ICertRequest2::GetCAProperty
+title: ICertRequest2::GetCAProperty (certcli.h)
 author: windows-sdk-content
 description: Retrieves a property value for the certification authority (CA).
 old-location: security\icertrequest2_getcaproperty.htm

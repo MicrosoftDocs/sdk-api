@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasGetLinkStatistics
-title: RasGetLinkStatistics function
+title: RasGetLinkStatistics function (ras.h)
 author: windows-sdk-content
 description: The RasGetLinkStatistics function retrieves accumulated statistics for the specified link in a RAS multilink connection.
 old-location: rras\rasgetlinkstatistics.htm

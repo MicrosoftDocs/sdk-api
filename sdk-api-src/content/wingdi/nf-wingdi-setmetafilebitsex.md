@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.SetMetaFileBitsEx
-title: SetMetaFileBitsEx function
+title: SetMetaFileBitsEx function (wingdi.h)
 author: windows-sdk-content
 description: The SetMetaFileBitsEx function creates a memory-based Windows-format metafile from the supplied data.
 old-location: gdi\setmetafilebitsex.htm

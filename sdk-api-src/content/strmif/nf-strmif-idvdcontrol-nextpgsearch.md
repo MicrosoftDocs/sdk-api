@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl.NextPGSearch
-title: IDvdControl::NextPGSearch
+title: IDvdControl::NextPGSearch (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Halts playback of the current program and starts playback from the next program within the program chain (PGC).
 old-location: dshow\idvdcontrol_nextpgsearch.htm

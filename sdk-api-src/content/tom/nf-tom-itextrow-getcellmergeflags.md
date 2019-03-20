@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.GetCellMergeFlags
-title: ITextRow::GetCellMergeFlags
+title: ITextRow::GetCellMergeFlags (tom.h)
 author: windows-sdk-content
 description: Gets the merge flags of the active cell.
 old-location: controls\itextrow_getcellmergeflags.htm

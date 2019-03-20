@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIStreamNextKeyFrameTime
-title: AVIStreamNextKeyFrameTime macro
+title: AVIStreamNextKeyFrameTime macro (vfw.h)
 author: windows-sdk-content
 description: The AVIStreamNextKeyFrameTime macro returns the time of the next key frame in the stream, starting at a given time.
 old-location: multimedia\avistreamnextkeyframetime.htm

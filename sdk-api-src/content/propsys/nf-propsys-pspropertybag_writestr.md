@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteStr
-title: PSPropertyBag_WriteStr function
+title: PSPropertyBag_WriteStr function (propsys.h)
 author: windows-sdk-content
 description: Sets the string value of a property in a property bag.
 old-location: properties\PSPropertyBag_WriteStr.htm

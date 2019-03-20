@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3cc.ITTAPICallCenter
-title: ITTAPICallCenter
+title: ITTAPICallCenter (tapi3cc.h)
 author: windows-sdk-content
 description: The ITTAPICallCenter interface provides an entry point into call center controls.
 old-location: tapi3\ittapicallcenter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:tom.ITextRange
-title: ITextRange
+title: ITextRange (tom.h)
 author: windows-sdk-content
 description: The ITextRange objects are powerful editing and data-binding tools that allow a program to select text in a story and then examine or change that text.
 old-location: controls\ITextRange.htm

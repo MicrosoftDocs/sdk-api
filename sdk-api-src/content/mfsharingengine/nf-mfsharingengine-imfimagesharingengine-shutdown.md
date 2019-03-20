@@ -1,6 +1,6 @@
 ---
 UID: NF:mfsharingengine.IMFImageSharingEngine.Shutdown
-title: IMFImageSharingEngine::Shutdown
+title: IMFImageSharingEngine::Shutdown (mfsharingengine.h)
 author: windows-sdk-content
 description: Shuts down the image sharing engine.
 old-location: mf\imfimagesharingengine_shutdown.htm

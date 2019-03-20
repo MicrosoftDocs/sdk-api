@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAContractInformationDescriptor.GetRecordComponentTag
-title: IIsdbCAContractInformationDescriptor::GetRecordComponentTag
+title: IIsdbCAContractInformationDescriptor::GetRecordComponentTag (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the broadcaster-defined tag that identifies a component record from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor.
 old-location: mstv\iisdbcacontractinformationdescriptor_getrecordcomponenttag.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.ChildWindowFromPoint
-title: ChildWindowFromPoint function
+title: ChildWindowFromPoint function (winuser.h)
 author: windows-sdk-content
 description: Determines which, if any, of the child windows belonging to a parent window contains the specified point. The search is restricted to immediate child windows. Grandchildren, and deeper descendant windows are not searched.
 old-location: winmsg\childwindowfrompoint.htm

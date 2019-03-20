@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IEnumTuneRequests.Next
-title: IEnumTuneRequests::Next
+title: IEnumTuneRequests::Next (bdatif.h)
 author: windows-sdk-content
 description: The Next method retrieves the specified number of items in the collection.
 old-location: mstv\ienumtunerequests_next.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_PARTITION_PROP
-title: VDS_PARTITION_PROP
+title: VDS_PARTITION_PROP (vds.h)
 author: windows-sdk-content
 description: Defines the properties of a partition.
 old-location: base\vds_partition_prop.htm

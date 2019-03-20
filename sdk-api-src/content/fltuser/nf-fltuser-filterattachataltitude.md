@@ -1,6 +1,6 @@
 ---
 UID: NF:fltuser.FilterAttachAtAltitude
-title: FilterAttachAtAltitude function
+title: FilterAttachAtAltitude function (fltuser.h)
 author: windows-sdk-content
 description: The FilterAttachAtAltitude function is a debugging support function that attaches a new minifilter instance to a volume at a specified altitude, overriding any settings in the minifilter's setup information (INF) file.
 old-location: ifsk\filterattachataltitude.htm

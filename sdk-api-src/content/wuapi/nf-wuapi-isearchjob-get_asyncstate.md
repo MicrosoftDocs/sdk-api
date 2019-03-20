@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.ISearchJob.get_AsyncState
-title: ISearchJob::get_AsyncState
+title: ISearchJob::get_AsyncState (wuapi.h)
 author: windows-sdk-content
 description: Gets the caller-specific state object that is passed to the IUpdateSearch.BeginSearch method.
 old-location: wua\isearchjob_asyncstate.htm

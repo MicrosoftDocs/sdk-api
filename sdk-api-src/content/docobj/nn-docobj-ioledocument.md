@@ -1,6 +1,6 @@
 ---
 UID: NN:docobj.IOleDocument
-title: IOleDocument
+title: IOleDocument (docobj.h)
 author: windows-sdk-content
 description: Enables a document object to communicate to containers its ability to create views of its data.
 old-location: com\ioledocument.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateExceptionCollection.get_Item
-title: IUpdateExceptionCollection::get_Item
+title: IUpdateExceptionCollection::get_Item (wuapi.h)
 author: windows-sdk-content
 description: Gets an IUpdateException interface in the collection.
 old-location: wua\iupdateexceptioncollection_item.htm

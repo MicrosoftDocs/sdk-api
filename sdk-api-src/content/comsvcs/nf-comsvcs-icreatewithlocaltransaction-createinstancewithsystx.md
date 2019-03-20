@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICreateWithLocalTransaction.CreateInstanceWithSysTx
-title: ICreateWithLocalTransaction::CreateInstanceWithSysTx
+title: ICreateWithLocalTransaction::CreateInstanceWithSysTx (comsvcs.h)
 author: windows-sdk-content
 description: Creates a COM+ object that executes within the scope of the specified local transaction.
 old-location: cos\icreatewithlocaltransaction_createinstancewithsystx.htm

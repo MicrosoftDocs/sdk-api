@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.put_Name
-title: IFsrmPipelineModuleDefinition::put_Name
+title: IFsrmPipelineModuleDefinition::put_Name (fsrmpipeline.h)
 author: windows-sdk-content
 description: The name of the module definition.
 old-location: fsrm\ifsrmpipelinemoduledefinition_name.htm

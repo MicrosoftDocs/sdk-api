@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.RepaintVideo
-title: IMFVideoDisplayControl::RepaintVideo
+title: IMFVideoDisplayControl::RepaintVideo (evr.h)
 author: windows-sdk-content
 description: Repaints the current video frame. Call this method whenever the application receives a WM_PAINT message.
 old-location: mf\imfvideodisplaycontrol_repaintvideo.htm

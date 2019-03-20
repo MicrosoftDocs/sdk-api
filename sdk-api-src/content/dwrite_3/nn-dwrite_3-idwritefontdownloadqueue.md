@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_3.IDWriteFontDownloadQueue
-title: IDWriteFontDownloadQueue
+title: IDWriteFontDownloadQueue (dwrite_3.h)
 author: windows-sdk-content
 description: Interface that enqueues download requests for remote fonts, characters, glyphs, and font fragments.
 old-location: directwrite\idwritefontdownloadqueue.htm

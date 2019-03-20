@@ -1,6 +1,6 @@
 ---
 UID: NN:wsdattachment.IWSDInboundAttachment
-title: IWSDInboundAttachment
+title: IWSDInboundAttachment (wsdattachment.h)
 author: windows-sdk-content
 description: Allows applications to read MIME-encoded attachment data from an incoming message.
 old-location: ncd\iwsdinboundattachment.htm

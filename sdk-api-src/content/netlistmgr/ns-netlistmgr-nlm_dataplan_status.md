@@ -1,6 +1,6 @@
 ---
 UID: NS:netlistmgr.NLM_DATAPLAN_STATUS
-title: NLM_DATAPLAN_STATUS
+title: NLM_DATAPLAN_STATUS (netlistmgr.h)
 author: windows-sdk-content
 description: NLM_DATAPLAN_STATUS structure stores the current data plan status information supplied by the carrier.
 old-location: nla\nlm_dataplan_status.htm

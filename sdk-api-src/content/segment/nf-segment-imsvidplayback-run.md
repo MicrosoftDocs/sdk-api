@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidPlayback.Run
-title: IMSVidPlayback::Run
+title: IMSVidPlayback::Run (segment.h)
 author: windows-sdk-content
 description: The Run method runs the playback device.
 old-location: mstv\imsvidplayback_run.htm

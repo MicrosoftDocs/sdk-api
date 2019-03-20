@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11sdklayers.D3D11_MESSAGE_SEVERITY
-title: D3D11_MESSAGE_SEVERITY
+title: D3D11_MESSAGE_SEVERITY (d3d11sdklayers.h)
 author: windows-sdk-content
 description: Debug message severity levels for an information queue.
 old-location: direct3d11\d3d11_message_severity.htm

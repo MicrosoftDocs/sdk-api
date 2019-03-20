@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITDetectTone.get_AppSpecific
-title: ITDetectTone::get_AppSpecific
+title: ITDetectTone::get_AppSpecific (tapi3if.h)
 author: windows-sdk-content
 description: The get_AppSpecific method retrieves the application-defined tag that identifies the tone to detect.
 old-location: tapi3\itdetecttone_get_appspecific.htm

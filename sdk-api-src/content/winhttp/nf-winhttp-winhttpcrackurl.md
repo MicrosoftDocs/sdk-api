@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpCrackUrl
-title: WinHttpCrackUrl function
+title: WinHttpCrackUrl function (winhttp.h)
 author: windows-sdk-content
 description: The WinHttpCrackUrl function separates a URL into its component parts such as host name and path.
 old-location: http\winhttpcrackurl.htm

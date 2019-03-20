@@ -1,6 +1,6 @@
 ---
 UID: NS:digitalv.__unnamed_struct_3
-title: MCI_DGV_COPY_PARMS
+title: MCI_DGV_COPY_PARMS (digitalv.h)
 author: windows-sdk-content
 description: The MCI_DGV_COPY_PARMS structure contains parameters for the MCI_COPY command for digital-video devices.
 old-location: multimedia\mci_dgv_copy_parms.htm

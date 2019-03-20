@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChange.GetLearnedKnowledge
-title: ISyncChange::GetLearnedKnowledge
+title: ISyncChange::GetLearnedKnowledge (winsync.h)
 author: windows-sdk-content
 description: Gets the knowledge that a replica will learn when this change is applied to its item store.
 old-location: winsync\isyncchange_getlearnedknowledge.htm

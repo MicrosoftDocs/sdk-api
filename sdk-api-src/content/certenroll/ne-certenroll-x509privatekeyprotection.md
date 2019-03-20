@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.X509PrivateKeyProtection
-title: X509PrivateKeyProtection
+title: X509PrivateKeyProtection (certenroll.h)
 author: windows-sdk-content
 description: Specifies the level of private key protection supported by a cryptographic provider.
 old-location: security\x509privatekeyprotection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfCreatePropertyStore
-title: ITfCreatePropertyStore
+title: ITfCreatePropertyStore (msctf.h)
 author: windows-sdk-content
 description: The ITfCreatePropertyStore interface is implemented by a text service to support persistence of property store data.
 old-location: tsf\itfcreatepropertystore.htm

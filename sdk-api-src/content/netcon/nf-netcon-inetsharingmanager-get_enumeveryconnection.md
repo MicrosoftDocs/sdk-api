@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingManager.get_EnumEveryConnection
-title: INetSharingManager::get_EnumEveryConnection
+title: INetSharingManager::get_EnumEveryConnection (netcon.h)
 author: windows-sdk-content
 description: The get_EnumEveryConnection method retrieves an enumeration interface for all the connections in the connection folder.
 old-location: ics\inetsharingmanager_get_enumeveryconnection.htm

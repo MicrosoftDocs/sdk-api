@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._IMAGE_FILE_HEADER
-title: IMAGE_FILE_HEADER
+title: IMAGE_FILE_HEADER (winnt.h)
 author: windows-sdk-content
 description: Represents the COFF header format.
 old-location: base\image_file_header_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mstcpip.__unnamed_enum_0
-title: CONTROL_CHANNEL_TRIGGER_STATUS
+title: CONTROL_CHANNEL_TRIGGER_STATUS (mstcpip.h)
 author: windows-sdk-content
 description: Specifies the status from a query for the REAL_TIME_NOTIFICATION_CAPABILITY transport setting for a TCP socket that is used with ControlChannelTrigger to receive background network notifications in a Windows Store app.
 old-location: winsock\control_channel_trigger_status.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeAltName.GetName
-title: ICertEncodeAltName::GetName
+title: ICertEncodeAltName::GetName (certenc.h)
 author: windows-sdk-content
 description: Returns the specified name from the alternate name array.
 old-location: security\icertencodealtname_getname.htm

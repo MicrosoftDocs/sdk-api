@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost2.TxGetHorzExtent
-title: ITextHost2::TxGetHorzExtent
+title: ITextHost2::TxGetHorzExtent (textserv.h)
 author: windows-sdk-content
 description: Gets the horizontal scroll extent of the text host window.
 old-location: controls\itexthost2_txgethorzextent.htm

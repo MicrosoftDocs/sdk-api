@@ -1,6 +1,6 @@
 ---
 UID: NF:cfapi.CfReleaseTransferKey
-title: CfReleaseTransferKey function
+title: CfReleaseTransferKey function (cfapi.h)
 author: windows-sdk-content
 description: Releases a transfer key obtained by CfGetTransferKey.
 old-location: cloudapi\cfreleasetransferkey.htm

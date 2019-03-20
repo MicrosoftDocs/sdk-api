@@ -1,6 +1,6 @@
 ---
 UID: NF:tspubplugincom.ItsPubPlugin.GetCacheLastUpdateTime
-title: ItsPubPlugin::GetCacheLastUpdateTime
+title: ItsPubPlugin::GetCacheLastUpdateTime (tspubplugincom.h)
 author: windows-sdk-content
 description: Returns the time that the cache was last updated.
 old-location: termserv\itspubplugin_getcachelastupdatetime.htm

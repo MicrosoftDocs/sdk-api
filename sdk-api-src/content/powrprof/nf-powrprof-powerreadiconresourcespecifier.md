@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerReadIconResourceSpecifier
-title: PowerReadIconResourceSpecifier function
+title: PowerReadIconResourceSpecifier function (powrprof.h)
 author: windows-sdk-content
 description: Retrieves the icon resource for the specified power setting, subgroup, or scheme.
 old-location: base\powerreadiconresourcespecifier.htm

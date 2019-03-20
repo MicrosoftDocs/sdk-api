@@ -1,6 +1,6 @@
 ---
 UID: NS:cfgmgr32.IRQ_Range_s
-title: IRQ_RANGE
+title: IRQ_RANGE (cfgmgr32.h)
 author: windows-sdk-content
 description: The IRQ_RANGE structure specifies a resource requirements list that describes IRQ line usage for a device instance. For more information about resource requirements lists, see Hardware Resources.
 old-location: devinst\irq_range.htm

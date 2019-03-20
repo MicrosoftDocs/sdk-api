@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingManager.get_SharingInstalled
-title: INetSharingManager::get_SharingInstalled
+title: INetSharingManager::get_SharingInstalled (netcon.h)
 author: windows-sdk-content
 description: Reports whether the currently-installed version of Windows XP supports connection sharing.
 old-location: ics\inetsharingmanager_get_sharinginstalled.htm

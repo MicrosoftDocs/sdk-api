@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.HitTestTextPosition
-title: IDWriteTextLayout::HitTestTextPosition
+title: IDWriteTextLayout::HitTestTextPosition (dwrite.h)
 author: windows-sdk-content
 description: The application calls this function to get the pixel location relative to the top-left of the layout box given the text position and the logical side of the position.
 old-location: directwrite\IDWriteTextLayout_HitTestTextPosition.htm

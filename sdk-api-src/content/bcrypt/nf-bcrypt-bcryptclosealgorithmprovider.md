@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptCloseAlgorithmProvider
-title: BCryptCloseAlgorithmProvider function
+title: BCryptCloseAlgorithmProvider function (bcrypt.h)
 author: windows-sdk-content
 description: Closes an algorithm provider.
 old-location: security\bcryptclosealgorithmprovider_func.htm

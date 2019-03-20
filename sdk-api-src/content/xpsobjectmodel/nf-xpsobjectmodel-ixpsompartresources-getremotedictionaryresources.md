@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartResources.GetRemoteDictionaryResources
-title: IXpsOMPartResources::GetRemoteDictionaryResources
+title: IXpsOMPartResources::GetRemoteDictionaryResources (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the IXpsOMRemoteDictionaryResourceCollection interface that contains the remote resource dictionaries that are used in the XPS document.
 old-location: xps\ixpsompartresources_getremotedictionaryresources.htm

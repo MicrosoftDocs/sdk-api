@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRenderer.Draw
-title: IInkRenderer::Draw
+title: IInkRenderer::Draw (msinkaut.h)
 author: windows-sdk-content
 description: Draws ink strokes using the known device context.
 old-location: tablet\inkrenderer_draw.htm

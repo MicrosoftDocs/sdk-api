@@ -1,6 +1,6 @@
 ---
 UID: NF:ntquery.CICreateCommand
-title: CICreateCommand function
+title: CICreateCommand function (ntquery.h)
 author: windows-sdk-content
 description: Creates a Command object.
 old-location: indexsrv\cicreatecommand.htm

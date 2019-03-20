@@ -1,6 +1,6 @@
 ---
 UID: NF:winnetwk.WNetGetUserW
-title: WNetGetUserW function
+title: WNetGetUserW function (winnetwk.h)
 author: windows-sdk-content
 description: The WNetGetUser function retrieves the current default user name, or the user name used to establish a network connection.
 old-location: wnet\wnetgetuser.htm

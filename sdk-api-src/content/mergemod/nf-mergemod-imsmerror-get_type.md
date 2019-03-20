@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmError.get_Type
-title: IMsmError::get_Type
+title: IMsmError::get_Type (mergemod.h)
 author: windows-sdk-content
 description: The get_Type method retrieves the Type property of the Error object. This method returns a msmErrorType value indicating the type of error represented by this object.
 old-location: setup\imsmerror_get_type.htm

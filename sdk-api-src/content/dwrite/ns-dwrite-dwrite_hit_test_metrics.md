@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite.DWRITE_HIT_TEST_METRICS
-title: DWRITE_HIT_TEST_METRICS
+title: DWRITE_HIT_TEST_METRICS (dwrite.h)
 author: windows-sdk-content
 description: Describes the region obtained by a hit test.
 old-location: directwrite\dwrite_hit_test_metrics.htm

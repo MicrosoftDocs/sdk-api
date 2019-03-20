@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataBlockReader.GetContainerFormat
-title: IWICMetadataBlockReader::GetContainerFormat
+title: IWICMetadataBlockReader::GetContainerFormat (wincodecsdk.h)
 author: windows-sdk-content
 description: Retrieves the container format of the decoder.
 old-location: wic\_wic_codec_iwicmetadatablockreader_getcontainerformat.htm

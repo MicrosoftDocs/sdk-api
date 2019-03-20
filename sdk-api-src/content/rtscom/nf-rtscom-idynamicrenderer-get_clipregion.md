@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IDynamicRenderer.get_ClipRegion
-title: IDynamicRenderer::get_ClipRegion
+title: IDynamicRenderer::get_ClipRegion (rtscom.h)
 author: windows-sdk-content
 description: Gets or sets the clipping region for the DynamicRenderer Class object.
 old-location: tablet\idynamicrenderer_clipregion.htm

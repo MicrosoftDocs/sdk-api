@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.FontCollection.GetFamilyCount
-title: FontCollection::GetFamilyCount
+title: FontCollection::GetFamilyCount (gdiplusheaders.h)
 author: windows-sdk-content
 description: The FontCollection::GetFamilyCount method gets the number of font families contained in this font collection.
 old-location: gdiplus\_gdiplus_CLASS_FontCollection_GetFamilyCount_.htm

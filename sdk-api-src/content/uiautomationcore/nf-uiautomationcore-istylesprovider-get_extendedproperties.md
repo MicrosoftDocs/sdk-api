@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IStylesProvider.get_ExtendedProperties
-title: IStylesProvider::get_ExtendedProperties
+title: IStylesProvider::get_ExtendedProperties (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains additional properties that are not included in this control pattern, but that provide information about the document content that might be useful to the user.
 old-location: winauto\uiauto_IStylesProvider_ExtendedProperties.htm

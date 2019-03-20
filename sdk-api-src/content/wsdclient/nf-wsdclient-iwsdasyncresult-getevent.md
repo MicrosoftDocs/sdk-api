@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDAsyncResult.GetEvent
-title: IWSDAsyncResult::GetEvent
+title: IWSDAsyncResult::GetEvent (wsdclient.h)
 author: windows-sdk-content
 description: Retrieves a WSD_EVENT structure that contains the result of the event.
 old-location: ncd\iwsdasyncresult_getevent_method.htm

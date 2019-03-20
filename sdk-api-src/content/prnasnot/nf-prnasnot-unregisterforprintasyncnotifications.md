@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasnot.UnRegisterForPrintAsyncNotifications
-title: UnRegisterForPrintAsyncNotifications function
+title: UnRegisterForPrintAsyncNotifications function (prnasnot.h)
 author: windows-sdk-content
 description: Enables an application that has registered to receive notifications from Print Spooler-hosted printing components to unregister.
 old-location: gdi\unregisterforprintasyncnotifications.htm

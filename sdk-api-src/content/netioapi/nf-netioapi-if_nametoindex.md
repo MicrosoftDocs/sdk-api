@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.if_nametoindex
-title: if_nametoindex function
+title: if_nametoindex function (netioapi.h)
 author: windows-sdk-content
 description: Converts the ANSI interface name for a network interface to the local index for the interface.
 old-location: iphlp\if_nametoindex.htm

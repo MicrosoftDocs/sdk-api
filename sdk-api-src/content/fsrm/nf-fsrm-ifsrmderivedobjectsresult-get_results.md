@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmDerivedObjectsResult.get_Results
-title: IFsrmDerivedObjectsResult::get_Results
+title: IFsrmDerivedObjectsResult::get_Results (fsrm.h)
 author: windows-sdk-content
 description: Retrieves the HRESULT values that indicate the success or failure of the update for each derived object.
 old-location: fsrm\ifsrmderivedobjectsresult_results.htm

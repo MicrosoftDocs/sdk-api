@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_MapCrToWin32Err
-title: CM_MapCrToWin32Err function
+title: CM_MapCrToWin32Err function (cfgmgr32.h)
 author: windows-sdk-content
 description: Converts a specified CONFIGRET code to its equivalent system error code.
 old-location: devinst\cm_mapcrtowin32err.htm

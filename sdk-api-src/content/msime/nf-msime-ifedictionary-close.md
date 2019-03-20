@@ -1,6 +1,6 @@
 ---
 UID: NF:msime.IFEDictionary.Close
-title: IFEDictionary::Close
+title: IFEDictionary::Close (msime.h)
 author: windows-sdk-content
 description: Closes a dictionary file.
 old-location: intl\ifedictionary_close.htm

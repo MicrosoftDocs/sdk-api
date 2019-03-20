@@ -1,6 +1,6 @@
 ---
 UID: NN:vdshwprv.IVdsHwProviderPrivateMpio
-title: IVdsHwProviderPrivateMpio
+title: IVdsHwProviderPrivateMpio (vdshwprv.h)
 author: windows-sdk-content
 description: Provides a method that sets the status of paths originating from a particular HBA port to the provider.
 old-location: base\ivdshwproviderprivatempio.htm

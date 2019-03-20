@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMLicenseBackup
-title: IWMLicenseBackup
+title: IWMLicenseBackup (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMLicenseBackup interface manages the backing up of licenses, typically so that they can be restored onto another computer.This interface is obtained by using the WMCreateBackupRestorer function.
 old-location: wmformat\iwmlicensebackup.htm

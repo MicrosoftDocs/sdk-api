@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.AccessCheckByTypeResultList
-title: AccessCheckByTypeResultList function
+title: AccessCheckByTypeResultList function (securitybaseapi.h)
 author: windows-sdk-content
 description: Determines whether a security descriptor grants a specified set of access rights to the client identified by an access token.
 old-location: security\accesscheckbytyperesultlist.htm

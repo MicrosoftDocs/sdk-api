@@ -1,6 +1,6 @@
 ---
 UID: NS:projectedfslib.PRJ_FILE_BASIC_INFO
-title: PRJ_FILE_BASIC_INFO
+title: PRJ_FILE_BASIC_INFO (projectedfslib.h)
 author: windows-sdk-content
 description: Basic information about an item.
 old-location: projfs\prj_file_basic_info.htm

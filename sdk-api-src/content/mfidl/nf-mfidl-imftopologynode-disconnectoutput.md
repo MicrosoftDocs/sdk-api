@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.DisconnectOutput
-title: IMFTopologyNode::DisconnectOutput
+title: IMFTopologyNode::DisconnectOutput (mfidl.h)
 author: windows-sdk-content
 description: Disconnects an output stream on this node.
 old-location: mf\imftopologynode_disconnectoutput.htm

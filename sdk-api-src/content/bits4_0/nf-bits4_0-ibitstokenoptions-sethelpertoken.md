@@ -1,6 +1,6 @@
 ---
 UID: NF:bits4_0.IBitsTokenOptions.SetHelperToken
-title: IBitsTokenOptions::SetHelperToken
+title: IBitsTokenOptions::SetHelperToken (bits4_0.h)
 author: windows-sdk-content
 description: Sets the helper token to impersonate the token of the COM client.
 old-location: bits\ibitstokenoptions_sethelpertoken.htm

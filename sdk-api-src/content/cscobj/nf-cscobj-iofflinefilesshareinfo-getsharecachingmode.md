@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesShareInfo.GetShareCachingMode
-title: IOfflineFilesShareInfo::GetShareCachingMode
+title: IOfflineFilesShareInfo::GetShareCachingMode (cscobj.h)
 author: windows-sdk-content
 description: Retrieves the caching mode configuration of the closest ancestor share to the item.
 old-location: of\iofflinefilesshareinfo_getsharecachingmode.htm

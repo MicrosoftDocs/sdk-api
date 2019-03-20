@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DVertexDeclaration9.GetDeclaration
-title: IDirect3DVertexDeclaration9::GetDeclaration
+title: IDirect3DVertexDeclaration9::GetDeclaration (d3d9helper.h)
 author: windows-sdk-content
 description: Gets the vertex shader declaration.
 old-location: direct3d9\idirect3dvertexdeclaration9__getdeclaration.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetWindowDC
-title: GetWindowDC function
+title: GetWindowDC function (winuser.h)
 author: windows-sdk-content
 description: The GetWindowDC function retrieves the device context (DC) for the entire window, including title bar, menus, and scroll bars.
 old-location: gdi\getwindowdc.htm

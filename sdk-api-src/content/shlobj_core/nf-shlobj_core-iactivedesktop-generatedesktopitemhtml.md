@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.GenerateDesktopItemHtml
-title: IActiveDesktop::GenerateDesktopItemHtml
+title: IActiveDesktop::GenerateDesktopItemHtml (shlobj_core.h)
 author: windows-sdk-content
 description: Generates a generic HTML page containing the given desktop item.
 old-location: lwef\iactivedesktop_generatedesktopitemhtml.htm

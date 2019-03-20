@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.OpenClusterGroup
-title: OpenClusterGroup function
+title: OpenClusterGroup function (clusapi.h)
 author: windows-sdk-content
 description: Opens a failover cluster group and returns a handle to it.
 old-location: mscs\openclustergroup.htm

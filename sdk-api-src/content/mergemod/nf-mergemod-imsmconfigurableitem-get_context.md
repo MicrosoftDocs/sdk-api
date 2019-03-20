@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmConfigurableItem.get_Context
-title: IMsmConfigurableItem::get_Context
+title: IMsmConfigurableItem::get_Context (mergemod.h)
 author: windows-sdk-content
 description: The get_Context method retrieves the Context property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_context.htm

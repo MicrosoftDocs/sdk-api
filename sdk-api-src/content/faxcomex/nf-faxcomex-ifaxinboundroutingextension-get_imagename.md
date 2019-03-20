@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingExtension.get_ImageName
-title: IFaxInboundRoutingExtension::get_ImageName
+title: IFaxInboundRoutingExtension::get_ImageName (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxInboundRoutingExtension::get_ImageName property is a null-terminated string that contains the executable image name (DLL path and file name) of the fax routing extension.
 old-location: fax\_mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_imagename_cpp.htm

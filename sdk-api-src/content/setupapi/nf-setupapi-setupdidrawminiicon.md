@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiDrawMiniIcon
-title: SetupDiDrawMiniIcon function
+title: SetupDiDrawMiniIcon function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiDrawMiniIcon function draws the specified mini-icon at the location requested.
 old-location: devinst\setupdidrawminiicon.htm

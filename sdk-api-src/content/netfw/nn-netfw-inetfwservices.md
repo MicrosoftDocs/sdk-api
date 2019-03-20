@@ -1,6 +1,6 @@
 ---
 UID: NN:netfw.INetFwServices
-title: INetFwServices
+title: INetFwServices (netfw.h)
 author: windows-sdk-content
 description: The INetFwServices interface is a standard Automation interface which provides access to a collection of services that may be authorized to listen through the firewall.
 old-location: ics\inetfwservices.htm

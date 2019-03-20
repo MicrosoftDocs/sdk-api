@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IScheduleCollection.get_Item
-title: IScheduleCollection::get_Item
+title: IScheduleCollection::get_Item (pla.h)
 author: windows-sdk-content
 description: Retrieves the requested schedule from the collection.
 old-location: pla\ischedulecollection_item.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_phoneSelectExtVersion
-title: TSPI_phoneSelectExtVersion function
+title: TSPI_phoneSelectExtVersion function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_phoneSelectExtVersion function selects the indicated extension version for the indicated phone device. Subsequent requests operate according to that extension version.
 old-location: tspi\tspi_phoneselectextversion.htm

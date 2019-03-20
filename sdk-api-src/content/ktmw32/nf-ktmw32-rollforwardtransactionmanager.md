@@ -1,6 +1,6 @@
 ---
 UID: NF:ktmw32.RollforwardTransactionManager
-title: RollforwardTransactionManager function
+title: RollforwardTransactionManager function (ktmw32.h)
 author: windows-sdk-content
 description: Recovers information only to the specified virtual clock value.
 old-location: fs\rollforwardtransactionmanager.htm

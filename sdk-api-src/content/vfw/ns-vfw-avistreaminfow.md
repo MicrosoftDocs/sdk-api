@@ -1,6 +1,6 @@
 ---
 UID: NS:vfw._AVISTREAMINFOW
-title: AVISTREAMINFOW
+title: AVISTREAMINFOW (vfw.h)
 author: windows-sdk-content
 description: The AVISTREAMINFO structure contains information for a single stream.
 old-location: multimedia\avistreaminfo_struct.htm

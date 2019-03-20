@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarR4FromStr
-title: VarR4FromStr function
+title: VarR4FromStr function (oleauto.h)
 author: windows-sdk-content
 description: Converts an OLECHAR string to a float value.
 old-location: automat\varr4fromstr.htm

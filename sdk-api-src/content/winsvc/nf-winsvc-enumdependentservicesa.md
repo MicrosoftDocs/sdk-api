@@ -1,6 +1,6 @@
 ---
 UID: NF:winsvc.EnumDependentServicesA
-title: EnumDependentServicesA function
+title: EnumDependentServicesA function (winsvc.h)
 author: windows-sdk-content
 description: Retrieves the name and status of each service that depends on the specified service.
 old-location: base\enumdependentservices.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._SECPKG_EXTRA_OIDS
-title: SECPKG_EXTRA_OIDS
+title: SECPKG_EXTRA_OIDS (ntsecpkg.h)
 author: windows-sdk-content
 description: Contains the object identifiers (OIDs) for the extended security package.
 old-location: security\secpkg_extra_oids.htm

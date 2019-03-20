@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBuffer.GetAppendWindowStart
-title: IMFSourceBuffer::GetAppendWindowStart
+title: IMFSourceBuffer::GetAppendWindowStart (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the timestamp for the start of the append window.
 old-location: mf\imfsourcebuffer_getappendwindowstart.htm

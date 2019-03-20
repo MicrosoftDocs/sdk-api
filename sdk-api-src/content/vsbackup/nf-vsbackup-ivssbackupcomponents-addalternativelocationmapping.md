@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.AddAlternativeLocationMapping
-title: IVssBackupComponents::AddAlternativeLocationMapping
+title: IVssBackupComponents::AddAlternativeLocationMapping (vsbackup.h)
 author: windows-sdk-content
 description: The AddAlternativeLocationMapping method is used by a requester to indicate that an alternate location mapping was used to restore all the members of a file set in a given component.
 old-location: base\ivssbackupcomponents_addalternativelocationmapping.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._SECPKG_MUTUAL_AUTH_LEVEL
-title: SECPKG_MUTUAL_AUTH_LEVEL
+title: SECPKG_MUTUAL_AUTH_LEVEL (ntsecpkg.h)
 author: windows-sdk-content
 description: The SECPKG_MUTUAL_AUTH_LEVEL structure contains the authentication level used by a security package.
 old-location: security\secpkg_mutual_auth_level.htm

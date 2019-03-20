@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IEnumOLEVERB.Next
-title: IEnumOLEVERB::Next
+title: IEnumOLEVERB::Next (oleidl.h)
 author: windows-sdk-content
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumoleverb_next.htm

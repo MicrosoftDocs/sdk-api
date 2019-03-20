@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHValidateUNC
-title: SHValidateUNC function
+title: SHValidateUNC function (shlobj_core.h)
 author: windows-sdk-content
 description: SHValidateUNC may be altered or unavailable.
 old-location: shell\SHValidateUNC.htm

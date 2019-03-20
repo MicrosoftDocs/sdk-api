@@ -1,6 +1,6 @@
 ---
 UID: NN:wsddisco.IWSDiscoveryProvider
-title: IWSDiscoveryProvider
+title: IWSDiscoveryProvider (wsddisco.h)
 author: windows-sdk-content
 description: Used to discover services on the network advertised by WS-Discovery.
 old-location: ncd\iwsdiscoveryprovider.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptDuplicateKey
-title: BCryptDuplicateKey function
+title: BCryptDuplicateKey function (bcrypt.h)
 author: windows-sdk-content
 description: Creates a duplicate of a symmetric key.
 old-location: security\bcryptduplicatekey_func.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICatalogObject.put_Value
-title: ICatalogObject::put_Value
+title: ICatalogObject::put_Value (comadmin.h)
 author: windows-sdk-content
 description: Accesses the value of the specified property exposed by this catalog object.
 old-location: cos\icatalogobject_value.htm

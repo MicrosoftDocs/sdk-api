@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictStore.BindToConflict
-title: ISyncMgrConflictStore::BindToConflict
+title: ISyncMgrConflictStore::BindToConflict (syncmgr.h)
 author: windows-sdk-content
 description: Binds to a particular conflict specified by IID.
 old-location: shell\ISyncMgrConflictStore_BindToConflict.htm

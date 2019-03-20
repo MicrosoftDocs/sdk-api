@@ -1,6 +1,6 @@
 ---
 UID: NF:werapi.WerUnregisterFile
-title: WerUnregisterFile function
+title: WerUnregisterFile function (werapi.h)
 author: windows-sdk-content
 description: Removes a file from the list of files to be added to reports generated for the current process.
 old-location: wer\werunregisterfile.htm

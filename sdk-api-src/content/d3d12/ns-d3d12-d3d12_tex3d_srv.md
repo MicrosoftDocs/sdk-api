@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_TEX3D_SRV
-title: D3D12_TEX3D_SRV
+title: D3D12_TEX3D_SRV (d3d12.h)
 author: windows-sdk-content
 description: Describes the subresources from a 3D texture to use in a shader-resource view.
 old-location: direct3d12\d3d12_tex3d_srv.htm

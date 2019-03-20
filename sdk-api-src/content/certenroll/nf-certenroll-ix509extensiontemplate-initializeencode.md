@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionTemplate.InitializeEncode
-title: IX509ExtensionTemplate::InitializeEncode
+title: IX509ExtensionTemplate::InitializeEncode (certenroll.h)
 author: windows-sdk-content
 description: Initializes the extension from a template object identifier (OID) and from major and minor version numbers.
 old-location: security\ix509extensiontemplate_initializeencode_method.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IRpcStubBuffer.Invoke
-title: IRpcStubBuffer::Invoke
+title: IRpcStubBuffer::Invoke (objidl.h)
 author: windows-sdk-content
 description: Invokes the interface that a stub represents.
 old-location: com\irpcstubbuffer_invoke.htm

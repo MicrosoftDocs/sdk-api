@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.get_Zoom
-title: ICameraControl::get_Zoom
+title: ICameraControl::get_Zoom (vidcap.h)
 author: windows-sdk-content
 description: The get_Zoom method returns the camera's optical zoom level.
 old-location: dshow\icameracontrol_get_zoom.htm

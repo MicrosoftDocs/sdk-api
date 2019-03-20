@@ -1,6 +1,6 @@
 ---
 UID: NE:winuser.tagFEEDBACK_TYPE
-title: FEEDBACK_TYPE
+title: FEEDBACK_TYPE (winuser.h)
 author: windows-sdk-content
 description: Specifies the visual feedback associated with an event.
 old-location: input_feedback\feedback_type.htm

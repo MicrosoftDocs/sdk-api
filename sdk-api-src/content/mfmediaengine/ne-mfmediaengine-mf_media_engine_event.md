@@ -1,6 +1,6 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_EVENT
-title: MF_MEDIA_ENGINE_EVENT
+title: MF_MEDIA_ENGINE_EVENT (mfmediaengine.h)
 author: windows-sdk-content
 description: Defines event codes for the Media Engine.
 old-location: mf\mf_media_engine_event.htm

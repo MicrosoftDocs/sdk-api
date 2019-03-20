@@ -1,6 +1,6 @@
 ---
 UID: NN:spatialaudioclient.ISpatialAudioObjectBase
-title: ISpatialAudioObjectBase
+title: ISpatialAudioObjectBase (spatialaudioclient.h)
 author: windows-sdk-content
 description: Base interface that represents an object that provides audio data to be rendered from a position in 3D space, relative to the user.
 old-location: coreaudio\ispatialaudioobjectbase.htm

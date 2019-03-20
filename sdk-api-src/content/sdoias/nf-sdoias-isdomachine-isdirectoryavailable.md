@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdoMachine.IsDirectoryAvailable
-title: ISdoMachine::IsDirectoryAvailable
+title: ISdoMachine::IsDirectoryAvailable (sdoias.h)
 author: windows-sdk-content
 description: The IsDirectoryAvailable method tests whether an Active Directory service is available on the SDO computer.
 old-location: nps\SDO_isdomachine_isdirectoryavailable.htm

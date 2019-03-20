@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._CLUSTER_SHARED_VOLUME_STATE_INFO_EX
-title: CLUSTER_SHARED_VOLUME_STATE_INFO_EX
+title: CLUSTER_SHARED_VOLUME_STATE_INFO_EX (clusapi.h)
 author: windows-sdk-content
 description: Represents information about the state of a Cluster Shared Volume (CSV).
 old-location: mscs\cluster_shared_volume_state_info_ex.htm

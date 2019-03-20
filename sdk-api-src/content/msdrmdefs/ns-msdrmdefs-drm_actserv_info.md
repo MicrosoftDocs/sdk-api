@@ -1,6 +1,6 @@
 ---
 UID: NS:msdrmdefs._DRM_ACTSERV_INFO
-title: DRM_ACTSERV_INFO
+title: DRM_ACTSERV_INFO (msdrmdefs.h)
 author: windows-sdk-content
 description: The DRM_ACTSERV_INFO structure stores information about the activation server.
 old-location: rm\drm_actserv_info.htm

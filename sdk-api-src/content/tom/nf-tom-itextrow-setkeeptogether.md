@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.SetKeepTogether
-title: ITextRow::SetKeepTogether
+title: ITextRow::SetKeepTogether (tom.h)
 author: windows-sdk-content
 description: Sets whether this row is allowed to be broken across pages.
 old-location: controls\itextrow_setkeeptogether.htm

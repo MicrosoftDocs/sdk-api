@@ -1,6 +1,6 @@
 ---
 UID: NF:dwmapi.DwmEnableBlurBehindWindow
-title: DwmEnableBlurBehindWindow function
+title: DwmEnableBlurBehindWindow function (dwmapi.h)
 author: windows-sdk-content
 description: Enables the blur effect on a specified window.
 old-location: dwm\dwmenableblurbehindwindow.htm

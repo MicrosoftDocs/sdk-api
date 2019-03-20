@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ObjectContext.EnableCommit
-title: ObjectContext::EnableCommit
+title: ObjectContext::EnableCommit (comsvcs.h)
 author: windows-sdk-content
 description: Declares that the current object's work is not necessarily finished but that its transactional updates are consistent and could be committed in their present form.
 old-location: cos\objectcontext_enablecommit.htm

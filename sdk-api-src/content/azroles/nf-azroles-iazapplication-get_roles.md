@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.get_Roles
-title: IAzApplication::get_Roles
+title: IAzApplication::get_Roles (azroles.h)
 author: windows-sdk-content
 description: The Roles property of IAzApplication retrieves an IAzRoles object that is used to enumerate IAzRole objects from the policy data.
 old-location: security\iazapplication_roles.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_BYE
-title: WSD_BYE
+title: WSD_BYE (wsdtypes.h)
 author: windows-sdk-content
 description: Represents a Bye message.
 old-location: ncd\wsd_bye_struct.htm

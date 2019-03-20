@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_UPC
-title: IUPnPDevice::get_UPC
+title: IUPnPDevice::get_UPC (upnp.h)
 author: windows-sdk-content
 description: The UPC property specifies a human-readable form of the product code.
 old-location: upnp\iupnpdevice_upc.htm

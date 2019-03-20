@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IFolderAction.put_Size
-title: IFolderAction::put_Size
+title: IFolderAction::put_Size (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the minimum folder size that, when exceeded, initiates the actions.
 old-location: pla\ifolderaction_size.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Metafile.Metafile(IN IStream,IN HDC,IN const Rect &,IN MetafileFrameUnit,IN EmfType,IN const WCHAR)
-title: Metafile::Metafile(IN IStream,IN HDC,IN const Rect &,IN MetafileFrameUnit,IN EmfType,IN const WCHAR)
+title: Metafile::Metafile(IN IStream,IN HDC,IN const Rect &,IN MetafileFrameUnit,IN EmfType,IN const WCHAR) (gdiplusheaders.h)
 author: windows-sdk-content
 description: Creates a Metafile::Metafile object for recording to an IStream interface.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_Metafile_IStream_stream_HDC_referenceHdc_Rect_frameRect_MetafileFrameUnit_fr.htm

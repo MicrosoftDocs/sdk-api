@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IProvideClassInfo
-title: IProvideClassInfo
+title: IProvideClassInfo (ocidl.h)
 author: windows-sdk-content
 description: Provides access to the type information for an object's coclass entry in its type library.
 old-location: com\iprovideclassinfo.htm

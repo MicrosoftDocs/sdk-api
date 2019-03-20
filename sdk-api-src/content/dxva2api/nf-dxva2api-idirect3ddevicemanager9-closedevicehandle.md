@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirect3DDeviceManager9.CloseDeviceHandle
-title: IDirect3DDeviceManager9::CloseDeviceHandle
+title: IDirect3DDeviceManager9::CloseDeviceHandle (dxva2api.h)
 author: windows-sdk-content
 description: Closes a Direct3D device handle.
 old-location: mf\idirect3ddevicemanager9_closedevicehandle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0008
-title: ADS_BACKLINK
+title: ADS_BACKLINK (iads.h)
 author: windows-sdk-content
 description: The ADS_BACKLINK structure is an ADSI representation of the Back Link attribute syntax.
 old-location: adsi\ads_backlink.htm

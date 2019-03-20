@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpoint.SetEventHandle
-title: IAudioEndpoint::SetEventHandle
+title: IAudioEndpoint::SetEventHandle (audioengineendpoint.h)
 author: windows-sdk-content
 description: Sets the handle for the event that the endpoint uses to signal that it has completed processing of a buffer.
 old-location: termserv\iaudioendpoint_seteventhandle.htm

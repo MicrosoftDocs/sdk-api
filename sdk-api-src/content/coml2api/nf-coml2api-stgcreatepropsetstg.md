@@ -1,6 +1,6 @@
 ---
 UID: NF:coml2api.StgCreatePropSetStg
-title: StgCreatePropSetStg function
+title: StgCreatePropSetStg function (coml2api.h)
 author: windows-sdk-content
 description: Creates a property set storage object from a specified storage object.
 old-location: stg\stgcreatepropsetstg.htm

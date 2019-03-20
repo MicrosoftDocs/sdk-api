@@ -1,6 +1,6 @@
 ---
 UID: NS:evntprov._EVENT_FILTER_DESCRIPTOR
-title: EVENT_FILTER_DESCRIPTOR
+title: EVENT_FILTER_DESCRIPTOR (evntprov.h)
 author: windows-sdk-content
 description: Defines the filter data that a session passes to the provider's enable callback function.
 old-location: etw\event_filter_descriptor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPServiceAsync.BeginSubscribeToEvents
-title: IUPnPServiceAsync::BeginSubscribeToEvents
+title: IUPnPServiceAsync::BeginSubscribeToEvents (upnp.h)
 author: windows-sdk-content
 description: BeginSubscribeToEvents initiates event subscription in asynchronous mode and registers the application callback with the UPnP framework.
 old-location: upnp\iupnpserviceasync_beginsubscribetoevents.htm

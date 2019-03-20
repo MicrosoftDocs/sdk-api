@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPClosedCaption.put_captioningId
-title: IWMPClosedCaption::put_captioningId
+title: IWMPClosedCaption::put_captioningId (wmp.h)
 author: windows-sdk-content
 description: The put_captioningId method specifies the name of the element displaying the captioning.
 old-location: wmp\iwmpclosedcaption_put_captioningid.htm

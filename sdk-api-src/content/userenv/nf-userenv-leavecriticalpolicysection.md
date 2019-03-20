@@ -1,6 +1,6 @@
 ---
 UID: NF:userenv.LeaveCriticalPolicySection
-title: LeaveCriticalPolicySection function
+title: LeaveCriticalPolicySection function (userenv.h)
 author: windows-sdk-content
 description: The LeaveCriticalPolicySection function resumes the background application of policy. This function closes the handle to the policy section.
 old-location: policy\leavecriticalpolicysection.htm

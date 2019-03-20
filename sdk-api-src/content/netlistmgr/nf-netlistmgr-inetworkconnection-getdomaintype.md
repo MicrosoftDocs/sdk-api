@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkConnection.GetDomainType
-title: INetworkConnection::GetDomainType
+title: INetworkConnection::GetDomainType (netlistmgr.h)
 author: windows-sdk-content
 description: The GetDomainType method returns the domain type of the network connection.
 old-location: nla\inetworkconnection_getdomaintype.htm

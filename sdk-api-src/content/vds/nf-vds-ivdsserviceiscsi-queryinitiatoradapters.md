@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsServiceIscsi.QueryInitiatorAdapters
-title: IVdsServiceIscsi::QueryInitiatorAdapters
+title: IVdsServiceIscsi::QueryInitiatorAdapters (vds.h)
 author: windows-sdk-content
 description: Returns an object that enumerates the iSCSI initiator adapters of the initiator.
 old-location: base\ivdsserviceiscsi_queryinitiatoradapters.htm

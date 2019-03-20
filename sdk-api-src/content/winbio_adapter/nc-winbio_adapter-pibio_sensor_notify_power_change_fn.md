@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_NOTIFY_POWER_CHANGE_FN
-title: PIBIO_SENSOR_NOTIFY_POWER_CHANGE_FN
+title: PIBIO_SENSOR_NOTIFY_POWER_CHANGE_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Receives notification about a change in the computer power state and prepares the sensor adapter accordingly.
 old-location: secbiomet\sensoradapternotifypowerchange.htm

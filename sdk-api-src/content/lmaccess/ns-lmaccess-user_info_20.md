@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._USER_INFO_20
-title: USER_INFO_20
+title: USER_INFO_20 (lmaccess.h)
 author: windows-sdk-content
 description: Contains information about a user account, including the account name, the user's full name, a comment associated with the account, and the user's relative ID (RID).
 old-location: netmgmt\user_info_20_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskHandlerStatus.TaskCompleted
-title: ITaskHandlerStatus::TaskCompleted
+title: ITaskHandlerStatus::TaskCompleted (taskschd.h)
 author: windows-sdk-content
 description: Tells the Task Scheduler that the COM handler is completed.
 old-location: taskschd\itaskhandlerstatus_taskcompleted.htm

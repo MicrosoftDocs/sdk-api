@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.operator-add
-title: WBEMTimeSpan::operator-add
+title: WBEMTimeSpan::operator-add (wbemtime.h)
 author: windows-sdk-content
 description: The WBEMTimeSpan class add operator adds one time span to another, placing the sum in a new WBEMTimeSpan object returned by the method.
 old-location: wmi\wbemtimespan_operator_plus.htm

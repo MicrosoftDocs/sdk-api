@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink.get_ReferenceRecorder
-title: IMSVidStreamBufferSink::get_ReferenceRecorder
+title: IMSVidStreamBufferSink::get_ReferenceRecorder (segment.h)
 author: windows-sdk-content
 description: The get_ReferenceRecorder method creates a new reference recording object.
 old-location: mstv\imsvidstreambuffersink_get_referencerecorder.htm

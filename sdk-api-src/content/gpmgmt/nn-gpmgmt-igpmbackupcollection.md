@@ -1,6 +1,6 @@
 ---
 UID: NN:gpmgmt.IGPMBackupCollection
-title: IGPMBackupCollection
+title: IGPMBackupCollection (gpmgmt.h)
 author: windows-sdk-content
 description: The IGPMBackupCollection interface contains methods that enable applications to access a collection of GPMBackup objects when using the Group Policy Management Console (GPMC) interfaces.
 old-location: gpmc\igpmbackupcollection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Session_QueryInstances
-title: MI_Session_QueryInstances function
+title: MI_Session_QueryInstances function (mi.h)
 author: windows-sdk-content
 description: Queries for a set of instances based on a query expression.
 old-location: wmi_v2\mi_session_queryinstances.htm

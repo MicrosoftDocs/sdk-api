@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiOpenDeviceInterfaceW
-title: SetupDiOpenDeviceInterfaceW function
+title: SetupDiOpenDeviceInterfaceW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiOpenDeviceInterface function retrieves information about a device interface and adds the interface to the specified device information set for a local system or a remote system.
 old-location: devinst\setupdiopendeviceinterface.htm

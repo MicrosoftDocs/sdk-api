@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetOwner
-title: IXpsOMGeometryFigure::GetOwner
+title: IXpsOMGeometryFigure::GetOwner (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMGeometry interface that contains the geometry figure.
 old-location: xps\ixpsomgeometryfigure_getowner.htm

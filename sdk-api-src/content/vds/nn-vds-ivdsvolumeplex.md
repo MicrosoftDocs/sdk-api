@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsVolumePlex
-title: IVdsVolumePlex
+title: IVdsVolumePlex (vds.h)
 author: windows-sdk-content
 description: Provides methods for maintaining volume plexes.
 old-location: base\ivdsvolumeplex.htm

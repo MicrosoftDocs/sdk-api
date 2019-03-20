@@ -1,6 +1,6 @@
 ---
 UID: NF:bluetoothapis.BluetoothSdpGetAttributeValue
-title: BluetoothSdpGetAttributeValue function
+title: BluetoothSdpGetAttributeValue function (bluetoothapis.h)
 author: windows-sdk-content
 description: The BluetoothSdpGetAttributeValue function retrieves the attribute value for an attribute identifier.
 old-location: bluetooth\bluetoothsdpgetattributevalue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetAccessDel
-title: NetAccessDel function
+title: NetAccessDel function (lmaccess.h)
 author: windows-sdk-content
 description: Not supported.
 old-location: netmgmt\netaccessdel.htm

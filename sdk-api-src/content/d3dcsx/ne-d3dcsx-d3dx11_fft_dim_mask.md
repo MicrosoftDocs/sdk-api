@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dcsx.D3DX11_FFT_DIM_MASK
-title: D3DX11_FFT_DIM_MASK
+title: D3DX11_FFT_DIM_MASK (d3dcsx.h)
 author: windows-sdk-content
 description: Number of dimensions for FFT data.
 old-location: direct3d11\d3dx11_fft_dim_mask.htm

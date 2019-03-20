@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.SetIcon
-title: IShellLibrary::SetIcon
+title: IShellLibrary::SetIcon (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the default icon for the library.
 old-location: shell\IShellLibrary_SetIcon.htm

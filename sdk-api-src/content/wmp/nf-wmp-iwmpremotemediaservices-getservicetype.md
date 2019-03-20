@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPRemoteMediaServices.GetServiceType
-title: IWMPRemoteMediaServices::GetServiceType
+title: IWMPRemoteMediaServices::GetServiceType (wmp.h)
 author: windows-sdk-content
 description: The GetServiceType method is called by Windows Media Player to determine whether a host program wants to run its embedded control remotely.
 old-location: wmp\iwmpremotemediaservices_getservicetype.htm

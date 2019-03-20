@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects.D2D1_POINTDIFFUSE_SCALE_MODE
-title: D2D1_POINTDIFFUSE_SCALE_MODE
+title: D2D1_POINTDIFFUSE_SCALE_MODE (d2d1effects.h)
 author: windows-sdk-content
 description: The interpolation mode the Point-diffuse lighting effect uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.
 old-location: direct2d\d2d1_pointdiffuse_scale_mode.htm

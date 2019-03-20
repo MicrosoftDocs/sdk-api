@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.put_BorderColor
-title: IVideoWindow::put_BorderColor
+title: IVideoWindow::put_BorderColor (control.h)
 author: windows-sdk-content
 description: The put_BorderColor method sets the color that appears around the edges of the destination rectangle.
 old-location: dshow\ivideowindow_put_bordercolor.htm

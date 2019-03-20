@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_DSV_DIMENSION
-title: D3D12_DSV_DIMENSION
+title: D3D12_DSV_DIMENSION (d3d12.h)
 author: windows-sdk-content
 description: Specifies how to access a resource used in a depth-stencil view.
 old-location: direct3d12\d3d12_dsv_dimension.htm

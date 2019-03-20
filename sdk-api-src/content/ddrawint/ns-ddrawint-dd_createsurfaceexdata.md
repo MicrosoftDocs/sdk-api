@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_CREATESURFACEEXDATA
-title: DD_CREATESURFACEEXDATA
+title: DD_CREATESURFACEEXDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_CREATESURFACEEXDATA structure contains information required for the driver to create a surface and associate with it a supplied texture handle.
 old-location: display\dd_createsurfaceexdata.htm

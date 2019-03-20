@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdbase._WSD_SECURITY_CERT_VALIDATION_V1
-title: WSD_SECURITY_CERT_VALIDATION_V1
+title: WSD_SECURITY_CERT_VALIDATION_V1 (wsdbase.h)
 author: windows-sdk-content
 description: Represents the criteria for matching client certificates against those of an HTTPS server.
 old-location: ncd\wsd_security_cert_validation.htm

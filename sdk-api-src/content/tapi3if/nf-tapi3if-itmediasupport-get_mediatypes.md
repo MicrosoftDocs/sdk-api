@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITMediaSupport.get_MediaTypes
-title: ITMediaSupport::get_MediaTypes
+title: ITMediaSupport::get_MediaTypes (tapi3if.h)
 author: windows-sdk-content
 description: The get_MediaTypes method gets the media type or types supported on the current address.
 old-location: tapi3\itmediasupport_get_mediatypes.htm

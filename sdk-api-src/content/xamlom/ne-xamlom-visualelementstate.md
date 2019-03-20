@@ -1,6 +1,6 @@
 ---
 UID: NE:xamlom.VisualElementState
-title: VisualElementState
+title: VisualElementState (xamlom.h)
 author: windows-sdk-content
 description: Defines constants that specify the state of an element in the visual tree.
 old-location: xaml_diagnostics\visualelementstate.htm

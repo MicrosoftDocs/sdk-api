@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaUserBatch.FlushToDisk
-title: IDiskQuotaUserBatch::FlushToDisk
+title: IDiskQuotaUserBatch::FlushToDisk (dskquota.h)
 author: windows-sdk-content
 description: Writes user object changes to disk in a single call to the underlying file system.
 old-location: fs\idiskquotauserbatch_flushtodisk.htm

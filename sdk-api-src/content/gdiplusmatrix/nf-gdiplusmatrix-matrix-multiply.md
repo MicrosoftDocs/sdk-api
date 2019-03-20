@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Multiply
-title: Matrix::Multiply
+title: Matrix::Multiply (gdiplusmatrix.h)
 author: windows-sdk-content
 description: The Matrix::Multiply method updates this matrix with the product of itself and another matrix.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Multiply_matrix_order_.htm

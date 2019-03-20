@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContext.CreateRangeBackup
-title: ITfContext::CreateRangeBackup
+title: ITfContext::CreateRangeBackup (msctf.h)
 author: windows-sdk-content
 description: ITfContext::CreateRangeBackup method
 old-location: tsf\itfcontext_createrangebackup.htm

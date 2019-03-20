@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuner.EnumTuningSpaces
-title: ITuner::EnumTuningSpaces
+title: ITuner::EnumTuningSpaces (tuner.h)
 author: windows-sdk-content
 description: The EnumTuningSpaces method creates a collection of tuning spaces preferred by this implementation.
 old-location: mstv\ituner_enumtuningspaces.htm

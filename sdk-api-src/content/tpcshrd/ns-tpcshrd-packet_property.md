@@ -1,6 +1,6 @@
 ---
 UID: NS:tpcshrd._PACKET_PROPERTY
-title: PACKET_PROPERTY
+title: PACKET_PROPERTY (tpcshrd.h)
 author: windows-sdk-content
 description: Describes a packet property that is reported by the tablet driver.
 old-location: tablet\packet_property.htm

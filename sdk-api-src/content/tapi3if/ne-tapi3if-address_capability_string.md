@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.ADDRESS_CAPABILITY_STRING
-title: ADDRESS_CAPABILITY_STRING
+title: ADDRESS_CAPABILITY_STRING (tapi3if.h)
 author: windows-sdk-content
 description: The ADDRESS_CAPABILITY_STRING enum is used to check on address capabilities which are described by strings.
 old-location: tapi3\address_capability_string.htm

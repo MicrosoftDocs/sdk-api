@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTuner.Logon
-title: IAMTuner::Logon
+title: IAMTuner::Logon (strmif.h)
 author: windows-sdk-content
 description: The Logon method logs a user onto the system.
 old-location: dshow\iamtuner_logon.htm

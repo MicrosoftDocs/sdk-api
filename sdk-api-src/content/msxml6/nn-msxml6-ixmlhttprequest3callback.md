@@ -1,6 +1,6 @@
 ---
 UID: NN:msxml6.IXMLHTTPRequest3Callback
-title: IXMLHTTPRequest3Callback
+title: IXMLHTTPRequest3Callback (msxml6.h)
 author: windows-sdk-content
 description: Defines callbacks that notify an application with an outstanding IXMLHTTPRequest3 request of events that affect HTTP request and response processing.
 old-location: ixhr2\ixmlhttprequest3callback.htm

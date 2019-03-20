@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.put_Subject
-title: IX509CertificateRequestPkcs10::put_Subject
+title: IX509CertificateRequestPkcs10::put_Subject (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves the X.500 distinguished name of the entity requesting the certificate.
 old-location: security\ix509certificaterequestpkcs10_subject_property.htm

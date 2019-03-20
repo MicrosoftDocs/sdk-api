@@ -1,6 +1,6 @@
 ---
 UID: NN:upnphost.IUPnPRemoteEndpointInfo
-title: IUPnPRemoteEndpointInfo
+title: IUPnPRemoteEndpointInfo (upnphost.h)
 author: windows-sdk-content
 description: The IUPnPRemoteEndpointInfo interface allows a hosted device to obtain information about a requester (that is, a control point) and the request.
 old-location: upnp\iupnpremoteendpointinfo.htm

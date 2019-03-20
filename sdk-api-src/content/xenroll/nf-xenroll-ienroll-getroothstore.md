@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.getROOTHStore
-title: IEnroll::getROOTHStore
+title: IEnroll::getROOTHStore (xenroll.h)
 author: windows-sdk-content
 description: The getROOTHStore method is not implemented.
 old-location: security\ienroll4_getroothstore.htm

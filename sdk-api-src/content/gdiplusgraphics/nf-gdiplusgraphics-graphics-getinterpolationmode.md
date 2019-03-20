@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetInterpolationMode
-title: Graphics::GetInterpolationMode
+title: Graphics::GetInterpolationMode (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::GetInterpolationMode method gets the interpolation mode currently set for this Graphics object. The interpolation mode determines the algorithm that is used when images are scaled or rotated.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetInterpolationMode_.htm

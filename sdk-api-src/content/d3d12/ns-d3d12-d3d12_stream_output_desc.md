@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_STREAM_OUTPUT_DESC
-title: D3D12_STREAM_OUTPUT_DESC
+title: D3D12_STREAM_OUTPUT_DESC (d3d12.h)
 author: windows-sdk-content
 description: Describes a streaming output buffer.
 old-location: direct3d12\d3d12_stream_output_desc.htm

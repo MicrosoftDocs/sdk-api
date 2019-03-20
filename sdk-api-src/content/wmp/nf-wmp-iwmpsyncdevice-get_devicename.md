@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.get_deviceName
-title: IWMPSyncDevice::get_deviceName
+title: IWMPSyncDevice::get_deviceName (wmp.h)
 author: windows-sdk-content
 description: The get_deviceName method retrieves the name of the device.
 old-location: wmp\iwmpsyncdevice_get_devicename.htm

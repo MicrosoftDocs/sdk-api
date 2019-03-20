@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRule.put_Interfaces
-title: INetFwRule::put_Interfaces
+title: INetFwRule::put_Interfaces (netfw.h)
 author: windows-sdk-content
 description: Specifies the list of interfaces for which the rule applies.
 old-location: ics\inetfwrule_interfaces.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegCopyTreeA
-title: RegCopyTreeA function
+title: RegCopyTreeA function (winreg.h)
 author: windows-sdk-content
 description: Copies the specified registry key, along with its values and subkeys, to the specified destination key.
 old-location: base\regcopytree.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmAccessDeniedRemediationClient.Show
-title: IFsrmAccessDeniedRemediationClient::Show
+title: IFsrmAccessDeniedRemediationClient::Show (fsrm.h)
 author: windows-sdk-content
 description: Displays the Access Denied Remediation (ADR) client dialog.
 old-location: fsrm\ifsrmaccessdeniedremediationclient_show.htm

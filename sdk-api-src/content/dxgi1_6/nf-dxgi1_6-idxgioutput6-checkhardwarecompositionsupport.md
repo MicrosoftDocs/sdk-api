@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_6.IDXGIOutput6.CheckHardwareCompositionSupport
-title: IDXGIOutput6::CheckHardwareCompositionSupport
+title: IDXGIOutput6::CheckHardwareCompositionSupport (dxgi1_6.h)
 author: windows-sdk-content
 description: Notifies applications that hardware stretching is supported.
 old-location: direct3ddxgi\idxgioutput6_checkhardwarecompositionsupport.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.DrawThemeText
-title: DrawThemeText function
+title: DrawThemeText function (uxtheme.h)
 author: windows-sdk-content
 description: Draws text using the color and font defined by the visual style.
 old-location: controls\DrawThemeText.htm

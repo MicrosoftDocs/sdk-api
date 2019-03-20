@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IFileOperation
-title: IFileOperation
+title: IFileOperation (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods to copy, move, rename, create, and delete Shell items as well as methods to provide progress and error dialogs. This interface replaces the SHFileOperation function.
 old-location: shell\IFileOperation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wsdclient.IWSDAsyncCallback
-title: IWSDAsyncCallback
+title: IWSDAsyncCallback (wsdclient.h)
 author: windows-sdk-content
 description: Handles callbacks for the completion of an asynchronous operation.
 old-location: ncd\iwsdasynccallback.htm

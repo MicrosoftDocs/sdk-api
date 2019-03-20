@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.SHGetImageList
-title: SHGetImageList function
+title: SHGetImageList function (shellapi.h)
 author: windows-sdk-content
 description: Retrieves an image list.
 old-location: shell\SHGetImageList.htm

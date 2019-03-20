@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeerCacheRecords.GetCount
-title: IEnumBitsPeerCacheRecords::GetCount
+title: IEnumBitsPeerCacheRecords::GetCount (bits3_0.h)
 author: windows-sdk-content
 description: Retrieves a count of the number of cache records in the enumeration.
 old-location: bits\ienumbitspeercacherecords_getcount.htm

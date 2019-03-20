@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsLun.AssociateControllers
-title: IVdsLun::AssociateControllers
+title: IVdsLun::AssociateControllers (vds.h)
 author: windows-sdk-content
 description: Sets the subsystem controllers to active or inactive with respect to the LUN.
 old-location: base\ivdslun_associatecontrollers.htm

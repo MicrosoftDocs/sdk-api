@@ -1,6 +1,6 @@
 ---
 UID: NF:winfax.FaxCompleteJobParamsA
-title: FaxCompleteJobParamsA function
+title: FaxCompleteJobParamsA function (winfax.h)
 author: windows-sdk-content
 description: The FaxCompleteJobParams function creates both a FAX_COVERPAGE_INFO structure and a FAX_JOB_PARAM structure for a fax client application.
 old-location: fax\_mfax_faxcompletejobparams.htm

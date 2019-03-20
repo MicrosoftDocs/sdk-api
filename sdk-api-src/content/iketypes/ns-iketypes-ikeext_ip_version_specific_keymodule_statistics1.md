@@ -1,6 +1,6 @@
 ---
 UID: NS:iketypes.IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS1_
-title: IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS1
+title: IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS1 (iketypes.h)
 author: windows-sdk-content
 description: Various statistics specific to the keying module (IKE, Authip, and IKEv2) and IP version.
 old-location: fwp\ikeext_ip_version_specific_keymodule_statistics1.htm

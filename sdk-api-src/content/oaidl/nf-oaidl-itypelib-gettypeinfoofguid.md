@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeLib.GetTypeInfoOfGuid
-title: ITypeLib::GetTypeInfoOfGuid
+title: ITypeLib::GetTypeInfoOfGuid (oaidl.h)
 author: windows-sdk-content
 description: Retrieves the type description that corresponds to the specified GUID.
 old-location: automat\itypelib_gettypeinfoofguid.htm

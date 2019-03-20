@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IContext.SetProperty
-title: IContext::SetProperty
+title: IContext::SetProperty (objidlbase.h)
 author: windows-sdk-content
 description: Adds the specified context property to the object context.
 old-location: com\icontext_setproperty.htm

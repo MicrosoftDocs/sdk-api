@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IMDSPStorage2
-title: IMDSPStorage2
+title: IMDSPStorage2 (mswmdm.h)
 author: windows-sdk-content
 description: The IMDSPStorage2 interface extends IMDSPStorage by providing methods for getting and setting extended attributes and making it possible to get a pointer to a storage medium from its name.
 old-location: wmdm\imdspstorage2.htm

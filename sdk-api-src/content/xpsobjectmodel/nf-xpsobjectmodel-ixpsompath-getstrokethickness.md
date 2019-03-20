@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeThickness
-title: IXpsOMPath::GetStrokeThickness
+title: IXpsOMPath::GetStrokeThickness (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the stroke thickness.
 old-location: xps\ixpsompath_getstrokethickness.htm

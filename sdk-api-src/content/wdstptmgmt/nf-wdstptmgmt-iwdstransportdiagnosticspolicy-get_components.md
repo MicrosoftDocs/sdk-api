@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportDiagnosticsPolicy.get_Components
-title: IWdsTransportDiagnosticsPolicy::get_Components
+title: IWdsTransportDiagnosticsPolicy::get_Components (wdstptmgmt.h)
 author: windows-sdk-content
 description: Enables a WDS client to configure which WDS transport components have event logging.
 old-location: wds\iwdstransportdiagnosticspolicy_components.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIDevice.QueryResourceResidency
-title: IDXGIDevice::QueryResourceResidency
+title: IDXGIDevice::QueryResourceResidency (dxgi.h)
 author: windows-sdk-content
 description: Gets the residency status of an array of resources.
 old-location: direct3ddxgi\idxgidevice_queryresourceresidency.htm

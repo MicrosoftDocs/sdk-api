@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMBYTE2.operator-assign
-title: XMBYTE2::operator-assign
+title: XMBYTE2::operator-assign (directxpackedvector.h)
 author: windows-sdk-content
 description: Assigns the vector component data from one instance of XMBYTE2 to the current instance of XMBYTE2.
 old-location: dxmath\xmbyte2_operator_eq.htm

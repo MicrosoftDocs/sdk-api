@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IResultData.ModifyViewStyle
-title: IResultData::ModifyViewStyle
+title: IResultData::ModifyViewStyle (mmc.h)
 author: windows-sdk-content
 description: The IResultData::ModifyViewStyle method enables the snap-in to set the result pane's view style.
 old-location: mmc\iresultdata_modifyviewstyle.htm

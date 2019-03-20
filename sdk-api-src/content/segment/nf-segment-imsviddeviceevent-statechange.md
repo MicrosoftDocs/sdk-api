@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidDeviceEvent.StateChange
-title: IMSVidDeviceEvent::StateChange
+title: IMSVidDeviceEvent::StateChange (segment.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsviddeviceevent_statechange.htm

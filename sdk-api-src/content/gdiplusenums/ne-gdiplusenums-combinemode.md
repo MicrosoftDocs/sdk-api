@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.CombineMode
-title: CombineMode
+title: CombineMode (gdiplusenums.h)
 author: windows-sdk-content
 description: The CombineMode enumeration specifies how a new region is combined with an existing region.
 old-location: gdiplus\_gdiplus_ENUM_CombineMode.htm

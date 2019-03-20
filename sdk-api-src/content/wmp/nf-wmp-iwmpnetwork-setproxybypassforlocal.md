@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPNetwork.setProxyBypassForLocal
-title: IWMPNetwork::setProxyBypassForLocal
+title: IWMPNetwork::setProxyBypassForLocal (wmp.h)
 author: windows-sdk-content
 description: The setProxyBypassForLocal method specifies a value indicating whether the proxy server is bypassed if the origin server is on a local network.
 old-location: wmp\iwmpnetwork_setproxybypassforlocal.htm

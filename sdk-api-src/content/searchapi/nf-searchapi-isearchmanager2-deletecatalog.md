@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchManager2.DeleteCatalog
-title: ISearchManager2::DeleteCatalog
+title: ISearchManager2::DeleteCatalog (searchapi.h)
 author: windows-sdk-content
 description: Deletes an existing catalog and all associated indexed data from the Windows Search indexer.
 old-location: search\isearchmanager2_deletecatalog.htm

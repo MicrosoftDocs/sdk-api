@@ -1,6 +1,6 @@
 ---
 UID: NS:ntenclv.VBS_ENCLAVE_REPORT_MODULE
-title: VBS_ENCLAVE_REPORT_MODULE
+title: VBS_ENCLAVE_REPORT_MODULE (ntenclv.h)
 author: windows-sdk-content
 description: Describes a module loaded for the enclave.
 old-location: base\vbs_enclave_report_module.htm

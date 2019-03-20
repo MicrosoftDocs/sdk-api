@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IInstallationResult
-title: IInstallationResult
+title: IInstallationResult (wuapi.h)
 author: windows-sdk-content
 description: Represents the result of an installation or uninstallation.
 old-location: wua\iinstallationresult.htm

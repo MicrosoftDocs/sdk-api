@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFSensorDevice
-title: IMFSensorDevice
+title: IMFSensorDevice (mfidl.h)
 author: windows-sdk-content
 description: Represents a sensor device that can belong to a sensor group, which is represented by the IMFSensorGroup interface. The term &#0034;device&#0034; in this context could refer to a physical device, a custom media source, or a frame provider.
 old-location: mf\imfsensordevice.htm

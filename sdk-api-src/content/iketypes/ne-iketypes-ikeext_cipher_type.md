@@ -1,6 +1,6 @@
 ---
 UID: NE:iketypes.IKEEXT_CIPHER_TYPE_
-title: IKEEXT_CIPHER_TYPE
+title: IKEEXT_CIPHER_TYPE (iketypes.h)
 author: windows-sdk-content
 description: Specifies the type of encryption algorithm used for encrypting the Internet Key Exchange (IKE) and Authenticated Internet Protocol (AuthIP) messages.
 old-location: fwp\ikeext_cipher_type.htm

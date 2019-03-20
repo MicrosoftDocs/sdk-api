@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIStreamEndTime
-title: AVIStreamEndTime macro
+title: AVIStreamEndTime macro (vfw.h)
 author: windows-sdk-content
 description: The AVIStreamEndTime macro returns the time representing the end of the stream.
 old-location: multimedia\avistreamendtime.htm

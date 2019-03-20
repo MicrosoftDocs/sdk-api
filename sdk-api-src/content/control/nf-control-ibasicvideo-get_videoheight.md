@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.get_VideoHeight
-title: IBasicVideo::get_VideoHeight
+title: IBasicVideo::get_VideoHeight (control.h)
 author: windows-sdk-content
 description: The get_VideoHeight method retrieves the native height of the video.
 old-location: dshow\ibasicvideo_get_videoheight.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagCOPYDATASTRUCT
-title: COPYDATASTRUCT
+title: COPYDATASTRUCT (winuser.h)
 author: windows-sdk-content
 description: Contains data to be passed to another application by the WM_COPYDATA message.
 old-location: dataxchg\copydatastruct.htm

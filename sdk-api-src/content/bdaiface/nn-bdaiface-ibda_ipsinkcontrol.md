@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IBDA_IPSinkControl
-title: IBDA_IPSinkControl
+title: IBDA_IPSinkControl (bdaiface.h)
 author: windows-sdk-content
 description: This interface is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems.
 old-location: mstv\ibda_ipsinkcontrol.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IEnumPortableDeviceObjectIDs.Skip
-title: IEnumPortableDeviceObjectIDs::Skip
+title: IEnumPortableDeviceObjectIDs::Skip (portabledeviceapi.h)
 author: windows-sdk-content
 description: The Skip method skips a specified number of objects in the enumeration sequence.
 old-location: wpdsdk\ienumportabledeviceobjectids_skip.htm

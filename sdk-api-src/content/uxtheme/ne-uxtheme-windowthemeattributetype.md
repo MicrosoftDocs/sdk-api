@@ -1,6 +1,6 @@
 ---
 UID: NE:uxtheme.WINDOWTHEMEATTRIBUTETYPE
-title: WINDOWTHEMEATTRIBUTETYPE
+title: WINDOWTHEMEATTRIBUTETYPE (uxtheme.h)
 author: windows-sdk-content
 description: Specifies the type of visual style attribute to set on a window.
 old-location: controls\WINDOWTHEMEATTRIBUTETYPE.htm

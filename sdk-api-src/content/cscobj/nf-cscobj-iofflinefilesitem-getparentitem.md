@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesItem.GetParentItem
-title: IOfflineFilesItem::GetParentItem
+title: IOfflineFilesItem::GetParentItem (cscobj.h)
 author: windows-sdk-content
 description: Retrieves the IOfflineFilesItem interface for the parent of the item.
 old-location: of\iofflinefilesitem_getparentitem.htm

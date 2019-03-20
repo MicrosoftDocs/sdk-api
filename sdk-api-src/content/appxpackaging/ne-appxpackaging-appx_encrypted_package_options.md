@@ -1,6 +1,6 @@
 ---
 UID: NE:appxpackaging.APPX_ENCRYPTED_PACKAGE_OPTIONS
-title: APPX_ENCRYPTED_PACKAGE_OPTIONS
+title: APPX_ENCRYPTED_PACKAGE_OPTIONS (appxpackaging.h)
 author: windows-sdk-content
 description: Encrypted app package options.
 old-location: appxpkg\appx_encrypted_package_options.htm

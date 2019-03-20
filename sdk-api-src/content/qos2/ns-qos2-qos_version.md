@@ -1,6 +1,6 @@
 ---
 UID: NS:qos2._QOS_VERSION
-title: QOS_VERSION
+title: QOS_VERSION (qos2.h)
 author: windows-sdk-content
 description: The QOS_VERSION structure indicates the version of the QOS protocol.
 old-location: qos\qos_version.htm

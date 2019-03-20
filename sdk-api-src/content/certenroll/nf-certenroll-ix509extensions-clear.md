@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Extensions.Clear
-title: IX509Extensions::Clear
+title: IX509Extensions::Clear (certenroll.h)
 author: windows-sdk-content
 description: Removes all IX509Extension objects from the collection.
 old-location: security\ix509extensions_clear_method.htm

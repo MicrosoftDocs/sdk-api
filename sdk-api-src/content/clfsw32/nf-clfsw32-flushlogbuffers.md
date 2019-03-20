@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.FlushLogBuffers
-title: FlushLogBuffers function
+title: FlushLogBuffers function (clfsw32.h)
 author: windows-sdk-content
 description: Forces all records appended to this marshaling area to be flushed to disk.
 old-location: fs\flushlogbuffers.htm

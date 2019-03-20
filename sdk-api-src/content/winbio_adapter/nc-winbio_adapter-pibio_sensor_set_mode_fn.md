@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_SET_MODE_FN
-title: PIBIO_SENSOR_SET_MODE_FN
+title: PIBIO_SENSOR_SET_MODE_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Sets the sensor adapter mode.
 old-location: secbiomet\sensoradaptersetmode.htm

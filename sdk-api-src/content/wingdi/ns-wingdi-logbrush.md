@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagLOGBRUSH
-title: LOGBRUSH
+title: LOGBRUSH (wingdi.h)
 author: windows-sdk-content
 description: The LOGBRUSH structure defines the style, color, and pattern of a physical brush. It is used by the CreateBrushIndirect and ExtCreatePen functions.
 old-location: gdi\logbrush.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi.IDXGIOutput
-title: IDXGIOutput
+title: IDXGIOutput (dxgi.h)
 author: windows-sdk-content
 description: An IDXGIOutput interface represents an adapter output (such as a monitor).
 old-location: direct3ddxgi\idxgioutput.htm

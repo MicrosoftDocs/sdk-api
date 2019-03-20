@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStop.SetColor
-title: IXpsOMGradientStop::SetColor
+title: IXpsOMGradientStop::SetColor (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the color value and color profile of the gradient stop.
 old-location: xps\ixpsomgradientstop_setcolor.htm

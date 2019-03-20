@@ -1,6 +1,6 @@
 ---
 UID: NN:storageprovider.IStorageProviderPropertyHandler
-title: IStorageProviderPropertyHandler
+title: IStorageProviderPropertyHandler (storageprovider.h)
 author: windows-sdk-content
 description: Provides a collection of properties associated with a file or folder.
 old-location: shell\istorageproviderpropertyhandler.htm

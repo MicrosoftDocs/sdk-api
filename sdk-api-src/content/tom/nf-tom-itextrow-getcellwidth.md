@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.GetCellWidth
-title: ITextRow::GetCellWidth
+title: ITextRow::GetCellWidth (tom.h)
 author: windows-sdk-content
 description: Gets the width of the active cell.
 old-location: controls\itextrow_getcellwidth.htm

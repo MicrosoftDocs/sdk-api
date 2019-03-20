@@ -1,6 +1,6 @@
 ---
 UID: NS:mfapi._MFPinholeCameraIntrinsic_IntrinsicModel
-title: MFPinholeCameraIntrinsic_IntrinsicModel
+title: MFPinholeCameraIntrinsic_IntrinsicModel (mfapi.h)
 author: windows-sdk-content
 description: Represents a pinhole camera intrinsic model for a specified resolution.
 old-location: mf\mfpinholecameraintrinsic_intrinsicmodel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_META_COMMAND_PARAMETER_DESC
-title: D3D12_META_COMMAND_PARAMETER_DESC
+title: D3D12_META_COMMAND_PARAMETER_DESC (d3d12.h)
 author: windows-sdk-content
 description: Describes a parameter to a meta command.
 old-location: direct3d12\d3d12_meta_command_parameter_desc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsReadEndpointAddressExtension
-title: WsReadEndpointAddressExtension function
+title: WsReadEndpointAddressExtension function (webservices.h)
 author: windows-sdk-content
 description: Reads an extension of the WS_ENDPOINT_ADDRESS.
 old-location: wsw\wsreadendpointaddressextension.htm

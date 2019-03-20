@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetVolumePathNameA
-title: GetVolumePathNameA function
+title: GetVolumePathNameA function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the volume mount point where the specified path is mounted.
 old-location: fs\getvolumepathname.htm

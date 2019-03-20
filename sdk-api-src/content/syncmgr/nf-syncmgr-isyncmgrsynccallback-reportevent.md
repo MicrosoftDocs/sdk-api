@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncCallback.ReportEvent
-title: ISyncMgrSyncCallback::ReportEvent
+title: ISyncMgrSyncCallback::ReportEvent (syncmgr.h)
 author: windows-sdk-content
 description: Provides an event to add to the Sync Results folder for an item being synchronized.
 old-location: shell\ISyncMgrSyncCallback_ReportEvent.htm

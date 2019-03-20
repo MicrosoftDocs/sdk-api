@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11shader.ID3D11ShaderReflection
-title: ID3D11ShaderReflection
+title: ID3D11ShaderReflection (d3d11shader.h)
 author: windows-sdk-content
 description: A shader-reflection interface accesses shader information.
 old-location: direct3d11\id3d11shaderreflection.htm

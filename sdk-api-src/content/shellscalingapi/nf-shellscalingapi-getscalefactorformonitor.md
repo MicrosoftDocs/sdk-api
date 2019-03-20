@@ -1,6 +1,6 @@
 ---
 UID: NF:shellscalingapi.GetScaleFactorForMonitor
-title: GetScaleFactorForMonitor function
+title: GetScaleFactorForMonitor function (shellscalingapi.h)
 author: windows-sdk-content
 description: Gets the scale factor of a specific monitor. This function replaces GetScaleFactorForDevice.
 old-location: shell\GetScaleFactorForMonitor.htm

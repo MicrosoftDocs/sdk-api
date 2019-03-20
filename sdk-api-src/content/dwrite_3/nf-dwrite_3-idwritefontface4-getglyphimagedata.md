@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace4.GetGlyphImageData
-title: IDWriteFontFace4::GetGlyphImageData
+title: IDWriteFontFace4::GetGlyphImageData (dwrite_3.h)
 author: windows-sdk-content
 description: Gets a pointer to the glyph data based on the desired image format.
 old-location: directwrite\idwritefontface4_getglyphimagedata.htm

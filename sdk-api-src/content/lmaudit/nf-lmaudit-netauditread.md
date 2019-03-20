@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaudit.NetAuditRead
-title: NetAuditRead function
+title: NetAuditRead function (lmaudit.h)
 author: windows-sdk-content
 description: The NetAuditRead function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use event logging.
 old-location: netmgmt\netauditread.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10_1shader._D3D10_SHADER_DEBUG_VARTYPE
-title: D3D10_SHADER_DEBUG_VARTYPE
+title: D3D10_SHADER_DEBUG_VARTYPE (d3d10_1shader.h)
 author: windows-sdk-content
 description: Distinguishes variables from functions in a scope.
 old-location: direct3d10\d3d10_shader_debug_vartype.htm

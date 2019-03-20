@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxContentGroupMapWriter.AddAutomaticFile
-title: IAppxContentGroupMapWriter::AddAutomaticFile
+title: IAppxContentGroupMapWriter::AddAutomaticFile (appxpackaging.h)
 author: windows-sdk-content
 description: Adds files to an automatic content group in a content group map.
 old-location: appxpkg\iappxcontentgroupmapwriter_addautomaticfile.htm

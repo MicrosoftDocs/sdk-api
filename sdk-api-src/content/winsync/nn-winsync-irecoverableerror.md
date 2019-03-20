@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.IRecoverableError
-title: IRecoverableError
+title: IRecoverableError (winsync.h)
 author: windows-sdk-content
 description: Represents a recoverable error that occurred when an item was loaded or when an item was saved.
 old-location: winsync\irecoverableerror.htm

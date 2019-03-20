@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureCustomObjectEnumerator.Clone
-title: IOpcSignatureCustomObjectEnumerator::Clone
+title: IOpcSignatureCustomObjectEnumerator::Clone (msopc.h)
 author: windows-sdk-content
 description: Creates a copy of the current IOpcSignatureCustomObjectEnumerator interface pointer and all its descendants.
 old-location: opc\iopcsignaturecustomobjectenumerator_clone.htm

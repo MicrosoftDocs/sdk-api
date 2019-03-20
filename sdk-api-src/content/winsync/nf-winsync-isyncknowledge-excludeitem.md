@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ExcludeItem
-title: ISyncKnowledge::ExcludeItem
+title: ISyncKnowledge::ExcludeItem (winsync.h)
 author: windows-sdk-content
 description: Removes knowledge about the specified item from the knowledge.
 old-location: winsync\isyncknowledge_excludeitem.htm

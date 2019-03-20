@@ -1,6 +1,6 @@
 ---
 UID: NN:netfw.INetFwMgr
-title: INetFwMgr
+title: INetFwMgr (netfw.h)
 author: windows-sdk-content
 description: The INetFwMgr interface provides access to the firewall settings for a computer.
 old-location: ics\inetfwmgr.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:rtmv2._RTM_ENTITY_INFO
-title: RTM_ENTITY_INFO
+title: RTM_ENTITY_INFO (rtmv2.h)
 author: windows-sdk-content
 description: The RTM_ENTITY_INFO structure is used to exchange client information with the routing table manager.
 old-location: rras\rtm_entity_info.htm

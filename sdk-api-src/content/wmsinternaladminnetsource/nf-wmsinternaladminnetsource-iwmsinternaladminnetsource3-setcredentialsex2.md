@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource3.SetCredentialsEx2
-title: IWMSInternalAdminNetSource3::SetCredentialsEx2
+title: IWMSInternalAdminNetSource3::SetCredentialsEx2 (wmsinternaladminnetsource.h)
 author: windows-sdk-content
 description: The SetCredentialsEx2 method adds a password to the cache. This improved version of IWMSInternalAdminNetSource2::SetCredentialsEx adds a flag (fClearTextAuthentication) that indicates whether credentials were sent in unencrypted form over the network.
 old-location: wmformat\iwmsinternaladminnetsource3_setcredentialsex2.htm

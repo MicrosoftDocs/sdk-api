@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardReconnect
-title: SCardReconnect function
+title: SCardReconnect function (winscard.h)
 author: windows-sdk-content
 description: Reestablishes an existing connection between the calling application and a smart card.
 old-location: security\scardreconnect.htm

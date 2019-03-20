@@ -1,6 +1,6 @@
 ---
 UID: NS:dvdmedia.tagVIDEOINFOHEADER2
-title: VIDEOINFOHEADER2
+title: VIDEOINFOHEADER2 (dvdmedia.h)
 author: windows-sdk-content
 description: The VIDEOINFOHEADER2 structure describes the bitmap and color information for a video image, including interlace, copy protection, and pixel aspect ratio information.
 old-location: dshow\videoinfoheader2.htm

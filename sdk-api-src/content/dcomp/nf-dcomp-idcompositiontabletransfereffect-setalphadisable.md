@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetAlphaDisable
-title: IDCompositionTableTransferEffect::SetAlphaDisable
+title: IDCompositionTableTransferEffect::SetAlphaDisable (dcomp.h)
 author: windows-sdk-content
 description: Specifies whether to apply the transfer function to the Alpha channel.
 old-location: directcomp\idcompositiontabletransfereffect_setalphadisable.htm

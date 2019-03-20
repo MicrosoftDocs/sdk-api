@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarCyFromR4
-title: VarCyFromR4 function
+title: VarCyFromR4 function (oleauto.h)
 author: windows-sdk-content
 description: Converts a float value to a currency value.
 old-location: automat\varcyfromr4.htm

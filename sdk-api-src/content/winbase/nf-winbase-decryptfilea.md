@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.DecryptFileA
-title: DecryptFileA function
+title: DecryptFileA function (winbase.h)
 author: windows-sdk-content
 description: Decrypts an encrypted file or directory.
 old-location: fs\decryptfile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.Xor
-title: Region::Xor
+title: Region::Xor (gdiplusheaders.h)
 author: windows-sdk-content
 description: This topic lists the Xor methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
 old-location: gdiplus\_gdiplus_CLASS_Region_Xor_Methods.htm

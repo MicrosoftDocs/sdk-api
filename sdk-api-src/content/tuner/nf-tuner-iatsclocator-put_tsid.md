@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IATSCLocator.put_TSID
-title: IATSCLocator::put_TSID
+title: IATSCLocator::put_TSID (tuner.h)
 author: windows-sdk-content
 description: The put_TSID method sets the transport stream ID.
 old-location: mstv\iatsclocator_put_tsid.htm

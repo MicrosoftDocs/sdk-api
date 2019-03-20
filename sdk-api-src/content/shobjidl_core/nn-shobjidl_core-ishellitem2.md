@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IShellItem2
-title: IShellItem2
+title: IShellItem2 (shobjidl_core.h)
 author: windows-sdk-content
 description: Extends IShellItem with methods that retrieve various property values of the item. IShellItem and IShellItem2 are the preferred representations of items in any new code.
 old-location: shell\IShellItem2.htm

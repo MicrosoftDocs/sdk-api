@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SetSessionState
-title: ITsSbResourcePluginStore::SetSessionState
+title: ITsSbResourcePluginStore::SetSessionState (sbtsv.h)
 author: windows-sdk-content
 description: Sets the session state.
 old-location: termserv\itssbresourcepluginstore_setsessionstate.htm

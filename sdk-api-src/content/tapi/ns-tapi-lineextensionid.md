@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.lineextensionid_tag
-title: LINEEXTENSIONID
+title: LINEEXTENSIONID (tapi.h)
 author: windows-sdk-content
 description: The LINEEXTENSIONID structure describes an extension identifier.
 old-location: tapi2\lineextensionid_str.htm

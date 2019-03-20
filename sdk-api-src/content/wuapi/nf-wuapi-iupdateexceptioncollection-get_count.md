@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateExceptionCollection.get_Count
-title: IUpdateExceptionCollection::get_Count
+title: IUpdateExceptionCollection::get_Count (wuapi.h)
 author: windows-sdk-content
 description: Gets the number of elements in the collection.
 old-location: wua\iupdateexceptioncollection_count.htm

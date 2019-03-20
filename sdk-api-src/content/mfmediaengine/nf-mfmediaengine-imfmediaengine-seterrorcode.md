@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetErrorCode
-title: IMFMediaEngine::SetErrorCode
+title: IMFMediaEngine::SetErrorCode (mfmediaengine.h)
 author: windows-sdk-content
 description: Sets the current error code.
 old-location: mf\imfmediaengine_seterrorcode.htm

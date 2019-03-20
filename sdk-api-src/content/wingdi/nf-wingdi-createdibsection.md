@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.CreateDIBSection
-title: CreateDIBSection function
+title: CreateDIBSection function (wingdi.h)
 author: windows-sdk-content
 description: The CreateDIBSection function creates a DIB that applications can write to directly.
 old-location: gdi\createdibsection.htm

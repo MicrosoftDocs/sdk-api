@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentOrientation
-title: IUIAutomationElement::get_CurrentOrientation
+title: IUIAutomationElement::get_CurrentOrientation (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a value that indicates the orientation of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentOrientation.htm

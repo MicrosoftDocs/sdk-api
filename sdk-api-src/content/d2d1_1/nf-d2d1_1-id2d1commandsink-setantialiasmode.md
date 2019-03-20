@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.SetAntialiasMode
-title: ID2D1CommandSink::SetAntialiasMode
+title: ID2D1CommandSink::SetAntialiasMode (d2d1_1.h)
 author: windows-sdk-content
 description: Sets the antialiasing mode that will be used to render any subsequent geometry.
 old-location: direct2d\id2d1commandsink_setantialiasmode.htm

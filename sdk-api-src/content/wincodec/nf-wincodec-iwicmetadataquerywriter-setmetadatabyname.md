@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICMetadataQueryWriter.SetMetadataByName
-title: IWICMetadataQueryWriter::SetMetadataByName
+title: IWICMetadataQueryWriter::SetMetadataByName (wincodec.h)
 author: windows-sdk-content
 description: Sets a metadata item to a specific location.
 old-location: wic\_wic_codec_iwicmetadataquerywriter_setmetadatabyname.htm

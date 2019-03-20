@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.SetPrimitiveBlend
-title: ID2D1DeviceContext::SetPrimitiveBlend
+title: ID2D1DeviceContext::SetPrimitiveBlend (d2d1_1.h)
 author: windows-sdk-content
 description: Changes the primitive blend mode that is used for all rendering operations in the device context.
 old-location: direct2d\id2d1devicecontext_setprimitiveblend.htm

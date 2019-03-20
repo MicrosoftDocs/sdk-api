@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetUmsCompletionListEvent
-title: GetUmsCompletionListEvent function
+title: GetUmsCompletionListEvent function (winbase.h)
 author: windows-sdk-content
 description: Retrieves a handle to the event associated with the specified user-mode scheduling (UMS) completion list.
 old-location: base\getumscompletionlistevent.htm

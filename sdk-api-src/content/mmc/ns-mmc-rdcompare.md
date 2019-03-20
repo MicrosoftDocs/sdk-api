@@ -1,6 +1,6 @@
 ---
 UID: NS:mmc._RDCOMPARE
-title: RDCOMPARE
+title: RDCOMPARE (mmc.h)
 author: windows-sdk-content
 description: The RDCOMPARE structure is introduced in MMC 1.2.
 old-location: mmc\rdcompare.htm

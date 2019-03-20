@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvEnableSurface
-title: DrvEnableSurface function
+title: DrvEnableSurface function (winddi.h)
 author: windows-sdk-content
 description: The DrvEnableSurface function sets up a surface to be drawn on and associates it with a given physical device.
 old-location: display\drvenablesurface.htm

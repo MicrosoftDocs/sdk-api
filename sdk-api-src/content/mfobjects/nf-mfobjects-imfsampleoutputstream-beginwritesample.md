@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFSampleOutputStream.BeginWriteSample
-title: IMFSampleOutputStream::BeginWriteSample
+title: IMFSampleOutputStream::BeginWriteSample (mfobjects.h)
 author: windows-sdk-content
 description: Begins an asynchronous request to write a media sample to the stream.
 old-location: mf\imfsampleoutputstream_beginwritesample.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0006
-title: StreamMode
+title: StreamMode (pla.h)
 author: windows-sdk-content
 description: Defines where the trace events are delivered.
 old-location: pla\streammode.htm

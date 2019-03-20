@@ -1,6 +1,6 @@
 ---
 UID: NF:mspaddr.CMSPAddress.UpdateTerminalList
-title: CMSPAddress::UpdateTerminalList
+title: CMSPAddress::UpdateTerminalList (mspaddr.h)
 author: windows-sdk-content
 description: The UpdateTerminalList method populates the MSP's list of static terminals.
 old-location: tapi3\cmspaddress_updateterminallist.htm

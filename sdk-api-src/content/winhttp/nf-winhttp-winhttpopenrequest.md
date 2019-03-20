@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpOpenRequest
-title: WinHttpOpenRequest function
+title: WinHttpOpenRequest function (winhttp.h)
 author: windows-sdk-content
 description: The WinHttpOpenRequest function creates an HTTP request handle.
 old-location: http\winhttpopenrequest.htm

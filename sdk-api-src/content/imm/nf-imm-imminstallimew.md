@@ -1,6 +1,6 @@
 ---
 UID: NF:imm.ImmInstallIMEW
-title: ImmInstallIMEW function
+title: ImmInstallIMEW function (imm.h)
 author: windows-sdk-content
 description: Installs an IME.
 old-location: intl\imminstallime.htm

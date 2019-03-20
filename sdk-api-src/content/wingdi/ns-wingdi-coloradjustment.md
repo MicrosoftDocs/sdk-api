@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagCOLORADJUSTMENT
-title: COLORADJUSTMENT
+title: COLORADJUSTMENT (wingdi.h)
 author: windows-sdk-content
 description: The COLORADJUSTMENT structure defines the color adjustment values used by the StretchBlt and StretchDIBits functions when the stretch mode is HALFTONE. You can set the color adjustment values by calling the SetColorAdjustment function.
 old-location: gdi\coloradjustment.htm

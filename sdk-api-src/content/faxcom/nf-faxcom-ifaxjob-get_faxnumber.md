@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxJob.get_FaxNumber
-title: IFaxJob::get_FaxNumber
+title: IFaxJob::get_FaxNumber (faxcom.h)
 author: windows-sdk-content
 description: The IFaxJob::get_FaxNumber property is a null-terminated string that contains the fax number to which the fax server will transmit the fax job. The IFaxJob::get_FaxNumber property applies only to outgoing fax transmissions.
 old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_faxnumber_cpp.htm

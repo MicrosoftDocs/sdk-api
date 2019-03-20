@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiNamedStreams.get__NewEnum
-title: IFsiNamedStreams::get__NewEnum
+title: IFsiNamedStreams::get__NewEnum (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves an IEnumVARIANT list of the named streams associated with a file in the file system image.
 old-location: imapi\ifsinamedstreams_get_newenum.htm

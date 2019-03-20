@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMallocSpy.PreHeapMinimize
-title: IMallocSpy::PreHeapMinimize
+title: IMallocSpy::PreHeapMinimize (objidl.h)
 author: windows-sdk-content
 description: Performs operations required before calling IMalloc::HeapMinimize.
 old-location: com\imallocspy_preheapminimize.htm

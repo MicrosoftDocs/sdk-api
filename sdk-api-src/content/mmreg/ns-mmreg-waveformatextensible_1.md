@@ -1,6 +1,6 @@
 ---
 UID: NS:mmreg.__unnamed_struct_1
-title: WAVEFORMATEXTENSIBLE
+title: WAVEFORMATEXTENSIBLE (mmreg.h)
 author: windows-sdk-content
 description: The WAVEFORMATEXTENSIBLE structure defines the format of waveform-audio data for formats having more than two channels or higher sample resolutions than allowed by WAVEFORMATEX.
 old-location: multimedia\waveformatextensible.htm

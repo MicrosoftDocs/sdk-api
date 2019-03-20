@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIOutputDuplication.MapDesktopSurface
-title: IDXGIOutputDuplication::MapDesktopSurface
+title: IDXGIOutputDuplication::MapDesktopSurface (dxgi1_2.h)
 author: windows-sdk-content
 description: Provides the CPU with efficient access to a desktop image if that desktop image is already in system memory.
 old-location: direct3ddxgi\idxgioutputduplication_mapdesktopsurface.htm

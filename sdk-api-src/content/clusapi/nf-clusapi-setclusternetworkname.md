@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.SetClusterNetworkName
-title: SetClusterNetworkName function
+title: SetClusterNetworkName function (clusapi.h)
 author: windows-sdk-content
 description: Sets the name for a network.
 old-location: mscs\setclusternetworkname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxTiff.get_RecipientNumber
-title: IFaxTiff::get_RecipientNumber
+title: IFaxTiff::get_RecipientNumber (faxcom.h)
 author: windows-sdk-content
 description: Retrieves the RecipientNumber property for a FaxTiff object. The RecipientNumber property is a null-terminated string that contains the fax number to which a fax was transmitted.
 old-location: fax\_mfax_ifaxtiff_mfax_ifaxtiff_get_recipientnumber_cpp.htm

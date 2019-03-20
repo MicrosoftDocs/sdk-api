@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFWorkQueueServices
-title: IMFWorkQueueServices
+title: IMFWorkQueueServices (mfidl.h)
 author: windows-sdk-content
 description: Controls the work queues created by the Media Session.
 old-location: mf\imfworkqueueservices.htm

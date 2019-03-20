@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnItemStateChanged
-title: INameSpaceTreeControlEvents::OnItemStateChanged
+title: INameSpaceTreeControlEvents::OnItemStateChanged (shobjidl.h)
 author: windows-sdk-content
 description: Not implemented.
 old-location: shell\INameSpaceTreeControlEvents_OnItemStateChanged.htm

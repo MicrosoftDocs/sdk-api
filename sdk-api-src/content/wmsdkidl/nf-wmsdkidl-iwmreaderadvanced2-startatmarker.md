@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.StartAtMarker
-title: IWMReaderAdvanced2::StartAtMarker
+title: IWMReaderAdvanced2::StartAtMarker (wmsdkidl.h)
 author: windows-sdk-content
 description: The StartAtMarker method starts the reader from a specified marker.
 old-location: wmformat\iwmreaderadvanced2_startatmarker.htm

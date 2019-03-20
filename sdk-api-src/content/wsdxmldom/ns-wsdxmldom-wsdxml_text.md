@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdxmldom._WSDXML_TEXT
-title: WSDXML_TEXT
+title: WSDXML_TEXT (wsdxmldom.h)
 author: windows-sdk-content
 description: Describes the text in an XML node.
 old-location: ncd\wsdxml_text_struct.htm

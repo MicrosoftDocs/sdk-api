@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcnsi.RpcNsProfileEltInqBeginW
-title: RpcNsProfileEltInqBeginW function
+title: RpcNsProfileEltInqBeginW function (rpcnsi.h)
 author: windows-sdk-content
 description: The RpcNsProfileEltInqBegin function creates an inquiry context for viewing the elements in a profile.
 old-location: rpc\rpcnsprofileeltinqbegin.htm

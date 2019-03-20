@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdateEntryCollection.get_Count
-title: IWindowsDriverUpdateEntryCollection::get_Count
+title: IWindowsDriverUpdateEntryCollection::get_Count (wuapi.h)
 author: windows-sdk-content
 description: Gets the number of elements contained in the collection.
 old-location: wua\iwindowsdriverupdateentrycollection_count.htm

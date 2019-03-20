@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncCallback.OnConflict
-title: ISyncCallback::OnConflict
+title: ISyncCallback::OnConflict (winsync.h)
 author: windows-sdk-content
 description: Occurs when a conflict is detected when the concurrency conflict resolution policy is set to CRP_NONE.
 old-location: winsync\isynccallback_onconflict.htm

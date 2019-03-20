@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_IPSEC_DOSP_DROP0_
-title: FWPM_NET_EVENT_IPSEC_DOSP_DROP0
+title: FWPM_NET_EVENT_IPSEC_DOSP_DROP0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Contains information that describes an IPsec DoS Protection drop event.
 old-location: fwp\fwpm_net_event_ipsec_dosp_drop0.htm

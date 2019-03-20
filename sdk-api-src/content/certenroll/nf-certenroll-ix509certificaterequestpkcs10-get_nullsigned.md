@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_NullSigned
-title: IX509CertificateRequestPkcs10::get_NullSigned
+title: IX509CertificateRequestPkcs10::get_NullSigned (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a Boolean value that indicates whether the certificate request is null-signed.
 old-location: security\ix509certificaterequestpkcs10_nullsigned_property.htm

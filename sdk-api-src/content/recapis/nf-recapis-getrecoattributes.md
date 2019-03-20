@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.GetRecoAttributes
-title: GetRecoAttributes function
+title: GetRecoAttributes function (recapis.h)
 author: windows-sdk-content
 description: Retrieves the attributes of the recognizer.
 old-location: tablet\getrecoattributes.htm

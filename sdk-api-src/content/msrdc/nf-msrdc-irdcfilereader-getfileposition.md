@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcFileReader.GetFilePosition
-title: IRdcFileReader::GetFilePosition
+title: IRdcFileReader::GetFilePosition (msrdc.h)
 author: windows-sdk-content
 description: Returns the current file position.
 old-location: rdc\irdcfilereader_getfileposition.htm

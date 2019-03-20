@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.GetVideoDecoderProfileCount
-title: ID3D11VideoDevice::GetVideoDecoderProfileCount
+title: ID3D11VideoDevice::GetVideoDecoderProfileCount (d3d11.h)
 author: windows-sdk-content
 description: Gets the number of profiles that are supported by the driver.
 old-location: mf\id3d11videodevice_getvideodecoderprofilecount.htm

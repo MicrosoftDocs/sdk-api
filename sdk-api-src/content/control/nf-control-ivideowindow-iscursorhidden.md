@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.IsCursorHidden
-title: IVideoWindow::IsCursorHidden
+title: IVideoWindow::IsCursorHidden (control.h)
 author: windows-sdk-content
 description: The IsCursorHidden method queries whether the cursor is hidden.
 old-location: dshow\ivideowindow_iscursorhidden.htm

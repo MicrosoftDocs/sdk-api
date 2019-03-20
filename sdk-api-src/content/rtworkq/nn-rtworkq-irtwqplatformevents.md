@@ -1,6 +1,6 @@
 ---
 UID: NN:rtworkq.IRtwqPlatformEvents
-title: IRtwqPlatformEvents
+title: IRtwqPlatformEvents (rtworkq.h)
 author: windows-sdk-content
 description: Provides events related platform work queue.
 old-location: base\irtwqplatformevents.htm

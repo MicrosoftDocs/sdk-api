@@ -1,6 +1,6 @@
 ---
 UID: NS:vdshwprv._VDS_PACK_NOTIFICATION
-title: VDS_PACK_NOTIFICATION
+title: VDS_PACK_NOTIFICATION (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the details of pack events.
 old-location: base\vds_pack_notification.htm

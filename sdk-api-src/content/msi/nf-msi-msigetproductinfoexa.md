@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiGetProductInfoExA
-title: MsiGetProductInfoExA function
+title: MsiGetProductInfoExA function (msi.h)
 author: windows-sdk-content
 description: Returns product information for advertised and installed products.
 old-location: setup\msigetproductinfoex.htm

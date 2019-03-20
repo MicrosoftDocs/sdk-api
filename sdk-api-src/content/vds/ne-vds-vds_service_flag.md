@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_SERVICE_FLAG
-title: VDS_SERVICE_FLAG
+title: VDS_SERVICE_FLAG (vds.h)
 author: windows-sdk-content
 description: Defines the set of valid flags for the service object.
 old-location: base\vds_service_flag.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.FontCollection.FontCollection(const FontCollection &)
-title: FontCollection::FontCollection(const FontCollection &)
+title: FontCollection::FontCollection(const FontCollection &) (gdiplusheaders.h)
 author: windows-sdk-content
 description: Creates an empty FontCollection::FontCollection object.
 old-location: gdiplus\_gdiplus_CLASS_FontCollection_FontCollection_.htm

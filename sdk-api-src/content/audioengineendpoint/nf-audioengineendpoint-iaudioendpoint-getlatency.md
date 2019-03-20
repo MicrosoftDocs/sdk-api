@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpoint.GetLatency
-title: IAudioEndpoint::GetLatency
+title: IAudioEndpoint::GetLatency (audioengineendpoint.h)
 author: windows-sdk-content
 description: Gets the latency of the audio endpoint.
 old-location: termserv\iaudioendpoint_getlatency.htm

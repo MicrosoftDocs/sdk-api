@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IOperationsProgressDialog.StartProgressDialog
-title: IOperationsProgressDialog::StartProgressDialog
+title: IOperationsProgressDialog::StartProgressDialog (shobjidl_core.h)
 author: windows-sdk-content
 description: Starts the specified progress dialog.
 old-location: shell\IOperationsProgressDialog_StartProgressDialog.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectEvents.PropertyChange
-title: IMILBitmapEffectEvents::PropertyChange
+title: IMILBitmapEffectEvents::PropertyChange (mileffects.h)
 author: windows-sdk-content
 description: Notifies an IMILBitmapEffectPrimitive of a property change.
 old-location: wibe\_wibe_imilbitmapeffectevents_propertychange.htm

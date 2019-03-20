@@ -1,6 +1,6 @@
 ---
 UID: NN:sdoias.ISdoMachine
-title: ISdoMachine
+title: ISdoMachine (sdoias.h)
 author: windows-sdk-content
 description: Use the ISdoMachine interface to attach to an SDO computer, obtain information about the SDO computer, and obtain interfaces to other SDO objects.
 old-location: nps\SDO_isdomachine.htm

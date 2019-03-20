@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.Offline
-title: IBrowserService2::Offline
+title: IBrowserService2::Offline (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Checks for and updates the browser's offline status, synchronzing the state between the base class and any derived classes.
 old-location: shell\IBrowserService2_Offline.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:shobjidl.NSTCCUSTOMDRAW
-title: NSTCCUSTOMDRAW
+title: NSTCCUSTOMDRAW (shobjidl.h)
 author: windows-sdk-content
 description: Custom draw structure used by INameSpaceTreeControlCustomDraw methods.
 old-location: shell\NSTCCUSTOMDRAW.htm

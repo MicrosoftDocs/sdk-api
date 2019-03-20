@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmFileManagementLoggingFlags
-title: FsrmFileManagementLoggingFlags
+title: FsrmFileManagementLoggingFlags (fsrmenums.h)
 author: windows-sdk-content
 description: Defines the options for logging when running a file management job.
 old-location: fsrm\fsrmfilemanagementloggingflags.htm

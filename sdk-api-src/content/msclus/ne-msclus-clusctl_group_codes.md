@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.CLUSCTL_GROUP_CODES
-title: CLUSCTL_GROUP_CODES
+title: CLUSCTL_GROUP_CODES (msclus.h)
 author: windows-sdk-content
 description: Enumerates groupcontrol codes.
 old-location: mscs\clusctl_group_codes.htm

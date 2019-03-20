@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IGraphBuilder
-title: IGraphBuilder
+title: IGraphBuilder (strmif.h)
 author: windows-sdk-content
 description: This interface provides methods that enable an application to build a filter graph.
 old-location: dshow\igraphbuilder.htm

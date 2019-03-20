@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MFNETSOURCE_TRANSPORT_TYPE
-title: MFNETSOURCE_TRANSPORT_TYPE
+title: MFNETSOURCE_TRANSPORT_TYPE (mfidl.h)
 author: windows-sdk-content
 description: Describes the type of transport used in streaming or downloading data (TCP or UDP).
 old-location: mf\mfnetsource_transport_type.htm

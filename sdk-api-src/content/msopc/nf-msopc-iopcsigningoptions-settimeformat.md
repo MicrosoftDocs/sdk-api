@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.SetTimeFormat
-title: IOpcSigningOptions::SetTimeFormat
+title: IOpcSigningOptions::SetTimeFormat (msopc.h)
 author: windows-sdk-content
 description: Sets the format of the string retrieved by the IOpcDigitalSignature::GetSigningTime method.
 old-location: opc\iopcsigningoptions_settimeformat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagINPUT_INJECTION_VALUE
-title: INPUT_INJECTION_VALUE
+title: INPUT_INJECTION_VALUE (winuser.h)
 author: windows-sdk-content
 description: Contains the input injection details.
 old-location: input_pointerdevice\input_injection_value.htm

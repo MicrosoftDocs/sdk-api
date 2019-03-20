@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.D3D12CreateDevice
-title: D3D12CreateDevice function
+title: D3D12CreateDevice function (d3d12.h)
 author: windows-sdk-content
 description: Creates a device that represents the display adapter.
 old-location: direct3d12\d3d12createdevice.htm

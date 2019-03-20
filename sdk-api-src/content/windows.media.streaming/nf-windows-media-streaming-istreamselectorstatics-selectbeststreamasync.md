@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IStreamSelectorStatics.SelectBestStreamAsync
-title: IStreamSelectorStatics::streaming
+title: IStreamSelectorStatics::streaming (windows.media.streaming.h)
 author: windows-sdk-content
 description: When implemented queries asynchronously for the best stream.
 old-location: mediastreaming\istreamselectorstatics_selectbeststreamasync.htm

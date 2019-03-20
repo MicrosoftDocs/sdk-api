@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.BSTR_UserFree64
-title: BSTR_UserFree64 function
+title: BSTR_UserFree64 function (oaidl.h)
 author: windows-sdk-content
 description: Frees resources on the server side when called by RPC stub files.
 old-location: automat\bstr_userfree64.htm

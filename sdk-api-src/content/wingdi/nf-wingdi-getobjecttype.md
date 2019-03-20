@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetObjectType
-title: GetObjectType function
+title: GetObjectType function (wingdi.h)
 author: windows-sdk-content
 description: The GetObjectType retrieves the type of the specified object.
 old-location: gdi\getobjecttype.htm

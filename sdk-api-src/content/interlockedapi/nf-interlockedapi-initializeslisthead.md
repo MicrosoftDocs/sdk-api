@@ -1,6 +1,6 @@
 ---
 UID: NF:interlockedapi.InitializeSListHead
-title: InitializeSListHead function
+title: InitializeSListHead function (interlockedapi.h)
 author: windows-sdk-content
 description: Initializes the head of a singly linked list.
 old-location: base\initializeslisthead.htm

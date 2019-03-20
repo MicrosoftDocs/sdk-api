@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_VIDEO_SIGNAL_INFO
-title: DISPLAYCONFIG_VIDEO_SIGNAL_INFO
+title: DISPLAYCONFIG_VIDEO_SIGNAL_INFO (wingdi.h)
 author: windows-sdk-content
 description: The DISPLAYCONFIG_VIDEO_SIGNAL_INFO structure contains information about the video signal for a display.
 old-location: display\displayconfig_video_signal_info.htm

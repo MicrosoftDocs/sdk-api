@@ -1,6 +1,6 @@
 ---
 UID: NN:netlistmgr.INetworkEvents
-title: INetworkEvents
+title: INetworkEvents (netlistmgr.h)
 author: windows-sdk-content
 description: INetworkEvents is a notification sink interface that a client implements to get network related events. These APIs are all callback functions that are called automatically when the respective events are raised.
 old-location: nla\inetworkevents.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpDeleteClassV6
-title: DhcpDeleteClassV6 function
+title: DhcpDeleteClassV6 function (dhcpsapi.h)
 author: windows-sdk-content
 description: Deletes a DHCP class from the DHCPv6 server.
 old-location: dhcp\dhcpdeleteclassv6.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.GetPalette
-title: Image::GetPalette
+title: Image::GetPalette (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::GetPalette method gets the ColorPalette of this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetPalette_palette_size_.htm

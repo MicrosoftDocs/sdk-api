@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.GetClusterNotify
-title: GetClusterNotify function
+title: GetClusterNotify function (clusapi.h)
 author: windows-sdk-content
 description: Information relating to the next notification event that is stored for a notification port.
 old-location: mscs\getclusternotify.htm

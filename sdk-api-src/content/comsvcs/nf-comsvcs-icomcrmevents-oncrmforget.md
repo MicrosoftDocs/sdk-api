@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMForget
-title: IComCRMEvents::OnCRMForget
+title: IComCRMEvents::OnCRMForget (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a CRM clerk receives a request to forget a log record, either from the CRM worker or from the CRM compensator.
 old-location: cos\icomcrmevents_oncrmforget.htm

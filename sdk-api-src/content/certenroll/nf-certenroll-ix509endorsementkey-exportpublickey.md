@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EndorsementKey.ExportPublicKey
-title: IX509EndorsementKey::ExportPublicKey
+title: IX509EndorsementKey::ExportPublicKey (certenroll.h)
 author: windows-sdk-content
 description: Exports the endorsement public key.
 old-location: security\ix509endorsementkey_exportpublickey.htm

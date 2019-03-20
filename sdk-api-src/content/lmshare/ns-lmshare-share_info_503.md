@@ -1,6 +1,6 @@
 ---
 UID: NS:lmshare._SHARE_INFO_503
-title: SHARE_INFO_503
+title: SHARE_INFO_503 (lmshare.h)
 author: windows-sdk-content
 description: Contains information about the shared resource. It is identical to the SHARE_INFO_502 structure, except that it also contains the server name.
 old-location: fs\share_info_503_str.htm

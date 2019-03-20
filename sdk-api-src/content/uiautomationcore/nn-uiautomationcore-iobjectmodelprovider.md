@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.IObjectModelProvider
-title: IObjectModelProvider
+title: IObjectModelProvider (uiautomationcore.h)
 author: windows-sdk-content
 description: Provides access to the underlying object model implemented by a control or application.
 old-location: winauto\uiauto_IObjectModelProvider.htm

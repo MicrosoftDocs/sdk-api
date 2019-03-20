@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsReadQualifiedName
-title: WsReadQualifiedName function
+title: WsReadQualifiedName function (webservices.h)
 author: windows-sdk-content
 description: Reads a qualified name and separates it into its prefix, localName and namespace based on the current namespace scope of the XML_READER.
 old-location: wsw\wsreadqualifiedname.htm

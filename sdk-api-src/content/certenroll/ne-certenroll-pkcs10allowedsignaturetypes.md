@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.Pkcs10AllowedSignatureTypes
-title: Pkcs10AllowedSignatureTypes
+title: Pkcs10AllowedSignatureTypes (certenroll.h)
 author: windows-sdk-content
 description: Specifies the type of signature permitted when signing a certificate request.
 old-location: security\pkcs10allowedsignaturetypes_enum.htm

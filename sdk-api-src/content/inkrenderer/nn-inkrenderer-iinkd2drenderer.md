@@ -1,6 +1,6 @@
 ---
 UID: NN:inkrenderer.IInkD2DRenderer
-title: IInkD2DRenderer
+title: IInkD2DRenderer (inkrenderer.h)
 author: windows-sdk-content
 description: An IInkD2DRenderer object enables the rendering of ink strokes onto the designated Direct2D device context of a Universal Windows app, instead of the default InkCanvas control.
 old-location: input_ink\iinkd2drenderer.htm

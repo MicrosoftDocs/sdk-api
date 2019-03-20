@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.PCANCEL_ROUTINE
-title: PCANCEL_ROUTINE
+title: PCANCEL_ROUTINE (resapi.h)
 author: windows-sdk-content
 description: Cancels an operation on a resource.
 old-location: mscs\cancel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tspubplugin2com.ItsPubPlugin2.GetResource2
-title: ItsPubPlugin2::GetResource2
+title: ItsPubPlugin2::GetResource2 (tspubplugin2com.h)
 author: windows-sdk-content
 description: This method is reserved and should always return E_NOTIMPL.
 old-location: termserv\itspubplugin2_getresource2.htm

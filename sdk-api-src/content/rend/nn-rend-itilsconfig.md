@@ -1,6 +1,6 @@
 ---
 UID: NN:rend.ITILSConfig
-title: ITILSConfig
+title: ITILSConfig (rend.h)
 author: windows-sdk-content
 description: The ITILSConfig interface allows configuration of the ILS directory.
 old-location: tapi3\itilsconfig.htm

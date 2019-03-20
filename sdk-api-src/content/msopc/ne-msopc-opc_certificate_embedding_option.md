@@ -1,6 +1,6 @@
 ---
 UID: NE:msopc.__MIDL___MIDL_itf_msopc_0001_0076_0004
-title: OPC_CERTIFICATE_EMBEDDING_OPTION
+title: OPC_CERTIFICATE_EMBEDDING_OPTION (msopc.h)
 author: windows-sdk-content
 description: Describes the storage location of a certificate that is used in signing.
 old-location: opc\opc_certificate_embedding_option.htm

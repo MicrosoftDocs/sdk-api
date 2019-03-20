@@ -1,6 +1,6 @@
 ---
 UID: NS:wininet._INTERNET_CACHE_ENTRY_INFOA
-title: INTERNET_CACHE_ENTRY_INFOA
+title: INTERNET_CACHE_ENTRY_INFOA (wininet.h)
 author: windows-sdk-content
 description: Contains information about an entry in the Internet cache.
 old-location: wininet\internet_cache_entry_info.htm

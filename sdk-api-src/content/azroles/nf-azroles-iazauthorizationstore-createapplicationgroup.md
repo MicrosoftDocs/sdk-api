@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.CreateApplicationGroup
-title: IAzAuthorizationStore::CreateApplicationGroup
+title: IAzAuthorizationStore::CreateApplicationGroup (azroles.h)
 author: windows-sdk-content
 description: Creates an IAzApplicationGroup object with the specified name.
 old-location: security\azauthorizationstore_createapplicationgroup.htm

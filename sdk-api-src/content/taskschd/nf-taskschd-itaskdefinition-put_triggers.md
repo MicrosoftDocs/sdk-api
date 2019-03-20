@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskDefinition.put_Triggers
-title: ITaskDefinition::put_Triggers
+title: ITaskDefinition::put_Triggers (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a collection of triggers used to start a task.
 old-location: taskschd\itaskdefinition_triggers.htm

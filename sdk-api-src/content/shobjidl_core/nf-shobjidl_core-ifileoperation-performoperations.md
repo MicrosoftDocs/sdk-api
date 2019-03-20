@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.PerformOperations
-title: IFileOperation::PerformOperations
+title: IFileOperation::PerformOperations (shobjidl_core.h)
 author: windows-sdk-content
 description: Executes all selected operations.
 old-location: shell\IFileOperation_PerformOperations.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._MSV1_0_SUBAUTH_LOGON
-title: MSV1_0_SUBAUTH_LOGON
+title: MSV1_0_SUBAUTH_LOGON (ntsecapi.h)
 author: windows-sdk-content
 description: Used by subauthentication DLLs.
 old-location: security\msv1_0_subauth_logon.htm

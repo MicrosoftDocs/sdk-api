@@ -1,6 +1,6 @@
 ---
 UID: NS:filehc.NAME_CACHE_CONTEXT
-title: NAME_CACHE_CONTEXT
+title: NAME_CACHE_CONTEXT (filehc.h)
 author: windows-sdk-content
 description: Represents a name cache.
 old-location: winprog\name_cache_context.htm

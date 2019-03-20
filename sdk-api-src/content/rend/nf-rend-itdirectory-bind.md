@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectory.Bind
-title: ITDirectory::Bind
+title: ITDirectory::Bind (rend.h)
 author: windows-sdk-content
 description: The Bind method binds to the server.
 old-location: tapi3\itdirectory_bind.htm

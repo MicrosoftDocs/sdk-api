@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymAddSourceStreamW
-title: SymAddSourceStreamW function
+title: SymAddSourceStreamW function (dbghelp.h)
 author: windows-sdk-content
 description: Adds the stream to the specified module for use by the Source Server.
 old-location: base\symaddsourcestream.htm

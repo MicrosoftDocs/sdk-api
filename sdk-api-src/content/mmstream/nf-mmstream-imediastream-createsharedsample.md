@@ -1,6 +1,6 @@
 ---
 UID: NF:mmstream.IMediaStream.CreateSharedSample
-title: IMediaStream::CreateSharedSample
+title: IMediaStream::CreateSharedSample (mmstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Creates a new stream sample that shares the same backing object as the existing sample.
 old-location: dshow\imediastream_createsharedsample.htm

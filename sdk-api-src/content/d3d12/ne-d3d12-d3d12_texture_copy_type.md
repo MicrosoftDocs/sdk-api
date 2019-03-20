@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_TEXTURE_COPY_TYPE
-title: D3D12_TEXTURE_COPY_TYPE
+title: D3D12_TEXTURE_COPY_TYPE (d3d12.h)
 author: windows-sdk-content
 description: Specifies what type of texture copy is to take place.
 old-location: direct3d12\d3d12_texture_copy_type.htm

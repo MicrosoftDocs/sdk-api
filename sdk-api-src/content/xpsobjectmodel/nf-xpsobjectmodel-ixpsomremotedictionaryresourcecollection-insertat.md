@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRemoteDictionaryResourceCollection.InsertAt
-title: IXpsOMRemoteDictionaryResourceCollection::InsertAt
+title: IXpsOMRemoteDictionaryResourceCollection::InsertAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Inserts an IXpsOMRemoteDictionaryResource interface pointer at a specified location in the collection.
 old-location: xps\ixpsomremotedictionaryresourcecollection_insertat.htm

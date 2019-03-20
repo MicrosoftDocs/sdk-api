@@ -1,6 +1,6 @@
 ---
 UID: NS:winsvc._SERVICE_DELAYED_AUTO_START_INFO
-title: SERVICE_DELAYED_AUTO_START_INFO
+title: SERVICE_DELAYED_AUTO_START_INFO (winsvc.h)
 author: windows-sdk-content
 description: Contains the delayed auto-start setting of an auto-start service.
 old-location: base\service_delayed_auto_start_info.htm

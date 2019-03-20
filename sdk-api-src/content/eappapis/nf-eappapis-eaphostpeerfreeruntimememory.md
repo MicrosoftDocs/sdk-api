@@ -1,6 +1,6 @@
 ---
 UID: NF:eappapis.EapHostPeerFreeRuntimeMemory
-title: EapHostPeerFreeRuntimeMemory function
+title: EapHostPeerFreeRuntimeMemory function (eappapis.h)
 author: windows-sdk-content
 description: Releases the memory space used during run-time.
 old-location: eaphost\eaphostpeerfreeruntimememory.htm

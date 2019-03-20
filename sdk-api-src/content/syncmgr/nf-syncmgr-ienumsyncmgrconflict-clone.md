@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrConflict.Clone
-title: IEnumSyncMgrConflict::Clone
+title: IEnumSyncMgrConflict::Clone (syncmgr.h)
 author: windows-sdk-content
 description: Not used. Clones an IEnumSyncMgrConflict object.
 old-location: shell\IEnumSyncMgrConflict_Clone.htm

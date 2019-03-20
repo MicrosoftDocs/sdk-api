@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.get_ApplicationFilter
-title: IRDPSRAPISharingSession::get_ApplicationFilter
+title: IRDPSRAPISharingSession::get_ApplicationFilter (rdpencomapi.h)
 author: windows-sdk-content
 description: Returns an object implementing the IRDPSRAPIApplicationFilter interface.
 old-location: rdp\irdpsrapisharingsession_applicationfilter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdxml.WSDXMLCreateContext
-title: WSDXMLCreateContext function
+title: WSDXMLCreateContext function (wsdxml.h)
 author: windows-sdk-content
 description: Creates a new IWSDXMLContext object.
 old-location: ncd\wsdxmlcreatecontext.htm

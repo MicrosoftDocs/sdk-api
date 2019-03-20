@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamConfig.Clone
-title: IMFASFStreamConfig::Clone
+title: IMFASFStreamConfig::Clone (wmcontainer.h)
 author: windows-sdk-content
 description: Creates a copy of the Advanced Systems Format (ASF) stream configuration object.
 old-location: mf\imfasfstreamconfig_clone.htm

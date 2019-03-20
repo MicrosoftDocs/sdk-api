@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHGetViewStatePropertyBag
-title: SHGetViewStatePropertyBag function
+title: SHGetViewStatePropertyBag function (shlwapi.h)
 author: windows-sdk-content
 description: SHGetViewStatePropertyBag may be altered or unavailable.
 old-location: shell\SHGetViewStatePropertyBag.htm

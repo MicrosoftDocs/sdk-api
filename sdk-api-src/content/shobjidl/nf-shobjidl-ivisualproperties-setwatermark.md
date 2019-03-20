@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IVisualProperties.SetWatermark
-title: IVisualProperties::SetWatermark
+title: IVisualProperties::SetWatermark (shobjidl.h)
 author: windows-sdk-content
 description: Provides a bitmap to use as a watermark.
 old-location: shell\IVisualProperties_SetWatermark.htm

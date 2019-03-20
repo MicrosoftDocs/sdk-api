@@ -1,6 +1,6 @@
 ---
 UID: NF:werapi.WerUnregisterAppLocalDump
-title: WerUnregisterAppLocalDump function
+title: WerUnregisterAppLocalDump function (werapi.h)
 author: windows-sdk-content
 description: Cancels the registration that was made by calling the WerRegisterAppLocalDump function to specify that Windows Error Reporting (WER) should save a copy of the diagnostic memory dump that WER collects when one of the processes for the application stops responding.
 old-location: wer\werunregisterapplocaldump.htm

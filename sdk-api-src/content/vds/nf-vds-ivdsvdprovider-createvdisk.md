@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVdProvider.CreateVDisk
-title: IVdsVdProvider::CreateVDisk
+title: IVdsVdProvider::CreateVDisk (vds.h)
 author: windows-sdk-content
 description: Creates a virtual disk.
 old-location: base\ivdsvdprovider_createdisk.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrm.IFsrmCommittableCollection
-title: IFsrmCommittableCollection
+title: IFsrmCommittableCollection (fsrm.h)
 author: windows-sdk-content
 description: Defines a collection of FSRM objects that can have the same type of objects added to or removed from the collection. All objects in the collection can also be committed in a single batch operation.
 old-location: fsrm\ifsrmcommittablecollection.htm

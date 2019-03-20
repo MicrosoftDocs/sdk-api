@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmProperty.get_PropertyFlags
-title: IFsrmProperty::get_PropertyFlags
+title: IFsrmProperty::get_PropertyFlags (fsrmpipeline.h)
 author: windows-sdk-content
 description: Flag values that provides additional information about a property.
 old-location: fsrm\ifsrmproperty_propertyflags.htm

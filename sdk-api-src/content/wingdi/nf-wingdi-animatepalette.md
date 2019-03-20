@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.AnimatePalette
-title: AnimatePalette function
+title: AnimatePalette function (wingdi.h)
 author: windows-sdk-content
 description: The AnimatePalette function replaces entries in the specified logical palette.
 old-location: gdi\animatepalette.htm

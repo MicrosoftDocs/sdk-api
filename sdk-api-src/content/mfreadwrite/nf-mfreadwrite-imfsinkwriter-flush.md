@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.Flush
-title: IMFSinkWriter::Flush
+title: IMFSinkWriter::Flush (mfreadwrite.h)
 author: windows-sdk-content
 description: Flushes one or more streams.
 old-location: mf\imfsinkwriter_flush.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wsman._WSMAN_AUTHZ_QUOTA
-title: WSMAN_AUTHZ_QUOTA
+title: WSMAN_AUTHZ_QUOTA (wsman.h)
 author: windows-sdk-content
 description: Reports quota information on a per-user basis for authorization plug-ins.
 old-location: winrm\wsman_authz_quota.htm

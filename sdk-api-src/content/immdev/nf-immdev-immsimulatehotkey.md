@@ -1,6 +1,6 @@
 ---
 UID: NF:immdev.ImmSimulateHotKey
-title: ImmSimulateHotKey function
+title: ImmSimulateHotKey function (immdev.h)
 author: windows-sdk-content
 description: Simulates the specified IME hot key, causing the same response as if the user presses the hot key in the specified window.
 old-location: intl\immsimulatehotkey.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaSample.SetDiscontinuity
-title: IMediaSample::SetDiscontinuity
+title: IMediaSample::SetDiscontinuity (strmif.h)
 author: windows-sdk-content
 description: The SetDiscontinuity method specifies whether this sample represents a break in the data stream.
 old-location: dshow\imediasample_setdiscontinuity.htm

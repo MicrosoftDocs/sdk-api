@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Object.GetPrivateData
-title: ID3D12Object::GetPrivateData
+title: ID3D12Object::GetPrivateData (d3d12.h)
 author: windows-sdk-content
 description: Gets application-defined data from a device object.
 old-location: direct3d12\id3d12object_getprivatedata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:lmshare.NetSessionEnum
-title: NetSessionEnum function
+title: NetSessionEnum function (lmshare.h)
 author: windows-sdk-content
 description: Provides information about sessions established on a server.
 old-location: fs\netsessionenum.htm

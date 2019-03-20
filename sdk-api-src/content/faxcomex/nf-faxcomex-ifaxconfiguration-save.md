@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.Save
-title: IFaxConfiguration::Save
+title: IFaxConfiguration::Save (faxcomex.h)
 author: windows-sdk-content
 description: Saves the object.
 old-location: fax\_mfax_IFaxConfiguration_Save.htm

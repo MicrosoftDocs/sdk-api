@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtTransport.GetChase
-title: IAMExtTransport::GetChase
+title: IAMExtTransport::GetChase (strmif.h)
 author: windows-sdk-content
 description: The GetChase method retrieves the status of chase mode.
 old-location: dshow\iamexttransport_getchase.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.CreateStatusWindowW
-title: CreateStatusWindowW function
+title: CreateStatusWindowW function (commctrl.h)
 author: windows-sdk-content
 description: Creates a status window, which is typically used to display the status of an application.
 old-location: controls\CreateStatusWindow.htm

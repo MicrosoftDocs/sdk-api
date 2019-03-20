@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.HasVideo
-title: IMFMediaEngine::HasVideo
+title: IMFMediaEngine::HasVideo (mfmediaengine.h)
 author: windows-sdk-content
 description: Queries whether the current media resource contains a video stream.
 old-location: mf\imfmediaengine_hasvideo.htm

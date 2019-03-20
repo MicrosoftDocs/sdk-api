@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.put_ExpandPostInsertionCorrection
-title: ITextInputPanel::put_ExpandPostInsertionCorrection
+title: ITextInputPanel::put_ExpandPostInsertionCorrection (peninputpanel.h)
 author: windows-sdk-content
 description: Gets or sets a value that indicates whether the correction comb on the Tablet PC Input Panel is automatically expanded.
 old-location: tablet\itextinputpanel_expandpostinsertioncorrection.htm

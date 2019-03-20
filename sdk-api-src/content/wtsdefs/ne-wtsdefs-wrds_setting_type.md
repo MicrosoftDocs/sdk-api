@@ -1,6 +1,6 @@
 ---
 UID: NE:wtsdefs._WRDS_SETTING_TYPE
-title: WRDS_SETTING_TYPE
+title: WRDS_SETTING_TYPE (wtsdefs.h)
 author: windows-sdk-content
 description: Specifies the category of settings being stored in a WRDS_SETTINGS structure.
 old-location: termserv\wrds_setting_type.htm

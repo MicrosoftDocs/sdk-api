@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509NameValuePair.get_Name
-title: IX509NameValuePair::get_Name
+title: IX509NameValuePair::get_Name (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the name portion of the name-value pair.
 old-location: security\ix509namevaluepair_name_property.htm

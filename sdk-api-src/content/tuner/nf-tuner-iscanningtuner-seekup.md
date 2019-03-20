@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IScanningTuner.SeekUp
-title: IScanningTuner::SeekUp
+title: IScanningTuner::SeekUp (tuner.h)
 author: windows-sdk-content
 description: The SeekUp method changes the channel to the next higher channel with valid programming.
 old-location: mstv\iscanningtuner_seekup.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbEmergencyInformationDescriptor.GetCountOfRecords
-title: IIsdbEmergencyInformationDescriptor::GetCountOfRecords
+title: IIsdbEmergencyInformationDescriptor::GetCountOfRecords (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the number of records in an emergency information descriptor.
 old-location: mstv\iisdbemergencyinformationdescriptor_getcountofrecords.htm

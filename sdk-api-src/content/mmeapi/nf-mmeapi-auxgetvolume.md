@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.auxGetVolume
-title: auxGetVolume function
+title: auxGetVolume function (mmeapi.h)
 author: windows-sdk-content
 description: The auxGetVolume function retrieves the current volume setting of the specified auxiliary output device.
 old-location: multimedia\auxgetvolume.htm

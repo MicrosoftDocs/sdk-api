@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CommConfigDialogA
-title: CommConfigDialogA function
+title: CommConfigDialogA function (winbase.h)
 author: windows-sdk-content
 description: Displays a driver-supplied configuration dialog box.
 old-location: base\commconfigdialog.htm

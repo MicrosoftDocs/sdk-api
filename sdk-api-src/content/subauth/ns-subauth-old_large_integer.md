@@ -1,6 +1,6 @@
 ---
 UID: NS:subauth._OLD_LARGE_INTEGER
-title: OLD_LARGE_INTEGER
+title: OLD_LARGE_INTEGER (subauth.h)
 author: windows-sdk-content
 description: Is used to represent a 64-bit signed integer value as two 32-bit integers.
 old-location: security\old_large_integer.htm

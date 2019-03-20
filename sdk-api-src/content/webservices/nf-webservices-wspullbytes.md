@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsPullBytes
-title: WsPullBytes function
+title: WsPullBytes function (webservices.h)
 author: windows-sdk-content
 description: Sets up a callback to be invoked to obtain the bytes to be written within an element. In some encodings this can be more efficient by eliminating a copy of the data.
 old-location: wsw\wspullbytes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rendezvoussession.IRendezvousSession.get_State
-title: IRendezvousSession::get_State
+title: IRendezvousSession::get_State (rendezvoussession.h)
 author: windows-sdk-content
 description: Retrieves a value that indicates the session state.
 old-location: remoteassist\remoteassist_IRendezvousSession_State.htm

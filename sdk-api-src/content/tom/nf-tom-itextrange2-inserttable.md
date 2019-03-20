@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.InsertTable
-title: ITextRange2::InsertTable
+title: ITextRange2::InsertTable (tom.h)
 author: windows-sdk-content
 description: Inserts a table in a range.
 old-location: controls\itextrange2_inserttable.htm

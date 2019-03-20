@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPathname.AddLeafElement
-title: IADsPathname::AddLeafElement
+title: IADsPathname::AddLeafElement (iads.h)
 author: windows-sdk-content
 description: Adds an element to the end of the directory path already set on the Pathname object.
 old-location: adsi\iadspathname_addleafelement.htm

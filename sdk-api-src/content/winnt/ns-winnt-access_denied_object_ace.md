@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._ACCESS_DENIED_OBJECT_ACE
-title: ACCESS_DENIED_OBJECT_ACE
+title: ACCESS_DENIED_OBJECT_ACE (winnt.h)
 author: windows-sdk-content
 description: Defines an access control entry (ACE) that controls denied access to an object, a property set, or property.
 old-location: security\access_denied_object_ace.htm

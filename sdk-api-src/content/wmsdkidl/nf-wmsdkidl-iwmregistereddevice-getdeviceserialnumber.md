@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.GetDeviceSerialNumber
-title: IWMRegisteredDevice::GetDeviceSerialNumber
+title: IWMRegisteredDevice::GetDeviceSerialNumber (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetDeviceID method retrieves the 128-bit value that identifies the device.
 old-location: wmformat\iwmregistereddevice_getdeviceserialnumber.htm

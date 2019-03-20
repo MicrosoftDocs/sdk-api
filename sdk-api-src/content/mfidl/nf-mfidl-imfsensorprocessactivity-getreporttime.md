@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorProcessActivity.GetReportTime
-title: IMFSensorProcessActivity::GetReportTime
+title: IMFSensorProcessActivity::GetReportTime (mfidl.h)
 author: windows-sdk-content
 description: Gets the time associated with the sensor activity report.
 old-location: mf\imfsensorprocessactivity_getreporttime.htm

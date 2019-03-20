@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaKeys.GetSuspendNotify
-title: IMFMediaKeys::GetSuspendNotify
+title: IMFMediaKeys::GetSuspendNotify (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the suspend notify interface of the Content Decryption Module (CDM).
 old-location: mf\imfmediakeys_getsuspendnotify.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:cmdtree.tagDBCONTENT
-title: DBCONTENT
+title: DBCONTENT (cmdtree.h)
 author: windows-sdk-content
 description: The DBCONTENT structure represents specific information required by the DBOP_content operator.
 old-location: indexsrv\dbcontent.htm

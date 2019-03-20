@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_PropertyDecl
-title: MI_PropertyDecl
+title: MI_PropertyDecl (mi.h)
 author: windows-sdk-content
 description: Represents a class property (element) in a class's declaration.
 old-location: wmi_v2\mi_propertydecl.htm

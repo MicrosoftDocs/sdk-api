@@ -1,6 +1,6 @@
 ---
 UID: NF:propidl.IPropertySetStorage.Open
-title: IPropertySetStorage::Open
+title: IPropertySetStorage::Open (propidl.h)
 author: windows-sdk-content
 description: Opens a property set contained in the property set storage object.
 old-location: stg\ipropertysetstorage_open.htm

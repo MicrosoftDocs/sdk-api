@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmCollection.Cancel
-title: IFsrmCollection::Cancel
+title: IFsrmCollection::Cancel (fsrm.h)
 author: windows-sdk-content
 description: Cancels the collection of objects when the objects are collected asynchronously.
 old-location: fsrm\ifsrmcollection_cancel.htm

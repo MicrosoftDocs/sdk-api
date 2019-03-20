@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.FinishSessionKeyRefresh
-title: ID3D11VideoContext::FinishSessionKeyRefresh
+title: ID3D11VideoContext::FinishSessionKeyRefresh (d3d11.h)
 author: windows-sdk-content
 description: Switches to a new session key.
 old-location: mf\id3d11videocontext_finishsessionkeyrefresh.htm

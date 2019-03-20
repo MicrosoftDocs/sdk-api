@@ -1,6 +1,6 @@
 ---
 UID: NF:cfapi.CfUnregisterSyncRoot
-title: CfUnregisterSyncRoot function
+title: CfUnregisterSyncRoot function (cfapi.h)
 author: windows-sdk-content
 description: Unregisters a previously registered sync root.
 old-location: cloudapi\cfunregistersyncroot.htm

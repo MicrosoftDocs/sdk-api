@@ -1,6 +1,6 @@
 ---
 UID: NN:windows.media.streaming.IDevicePair
-title: IDevicePair
+title: IDevicePair (windows.media.streaming.h)
 author: windows-sdk-content
 description: Represents a pair of ActiveBasicDevice objects which is comprised of a renderer and a server.
 old-location: mediastreaming\idevicepair.htm

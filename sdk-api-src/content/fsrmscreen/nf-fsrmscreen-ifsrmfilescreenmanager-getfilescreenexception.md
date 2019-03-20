@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenManager.GetFileScreenException
-title: IFsrmFileScreenManager::GetFileScreenException
+title: IFsrmFileScreenManager::GetFileScreenException (fsrmscreen.h)
 author: windows-sdk-content
 description: Retrieves the specified file screen exception.
 old-location: fsrm\ifsrmfilescreenmanager_getfilescreenexception.htm

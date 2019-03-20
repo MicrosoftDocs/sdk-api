@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.ClearClientData
-title: IFileDialog::ClearClientData
+title: IFileDialog::ClearClientData (shobjidl_core.h)
 author: windows-sdk-content
 description: Instructs the dialog to clear all persisted state information.
 old-location: shell\IFileDialog_ClearClientData.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.capEditCopy
-title: capEditCopy macro
+title: capEditCopy macro (vfw.h)
 author: windows-sdk-content
 description: The capEditCopy macro copies the contents of the video frame buffer and associated palette to the clipboard. You can use this macro or explicitly send the WM_CAP_EDIT_COPY message.
 old-location: multimedia\capeditcopy.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mfidl._MFNetCredentialManagerGetParam
-title: MFNetCredentialManagerGetParam
+title: MFNetCredentialManagerGetParam (mfidl.h)
 author: windows-sdk-content
 description: Contains the authentication information for the credential manager.
 old-location: mf\mfnetcredentialmanagergetparam.htm

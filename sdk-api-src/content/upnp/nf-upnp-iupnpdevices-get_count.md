@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDevices.get_Count
-title: IUPnPDevices::get_Count
+title: IUPnPDevices::get_Count (upnp.h)
 author: windows-sdk-content
 description: The Count property specifies the number of devices in the collection.
 old-location: upnp\iupnpdevices_count.htm

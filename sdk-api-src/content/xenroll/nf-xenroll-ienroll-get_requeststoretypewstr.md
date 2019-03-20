@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.get_RequestStoreTypeWStr
-title: IEnroll::get_RequestStoreTypeWStr
+title: IEnroll::get_RequestStoreTypeWStr (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves the type of store to use for the store specified by the RequestStoreNameWStr property. This store type is passed directly to the CertOpenStore function.
 old-location: security\ienroll4_requeststoretypewstr.htm

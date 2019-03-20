@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Add_Empty_Log_Conf
-title: CM_Add_Empty_Log_Conf function
+title: CM_Add_Empty_Log_Conf function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Add_Empty_Log_Conf function creates an empty logical configuration, for a specified configuration type and a specified device instance, on the local machine.
 old-location: devinst\cm_add_empty_log_conf.htm

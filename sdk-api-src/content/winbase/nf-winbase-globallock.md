@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GlobalLock
-title: GlobalLock function
+title: GlobalLock function (winbase.h)
 author: windows-sdk-content
 description: Locks a global memory object and returns a pointer to the first byte of the object's memory block.
 old-location: base\globallock.htm

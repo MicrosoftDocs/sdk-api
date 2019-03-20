@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndSetVolume
-title: MCIWndSetVolume macro
+title: MCIWndSetVolume macro (vfw.h)
 author: windows-sdk-content
 description: The MCIWndSetVolume macro sets the volume level of an MCI device. You can use this macro or explicitly send the MCIWNDM_SETVOLUME message.
 old-location: multimedia\mciwndsetvolume.htm

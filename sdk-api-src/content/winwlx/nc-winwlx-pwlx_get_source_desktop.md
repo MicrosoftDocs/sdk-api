@@ -1,6 +1,6 @@
 ---
 UID: NC:winwlx.PWLX_GET_SOURCE_DESKTOP
-title: PWLX_GET_SOURCE_DESKTOP
+title: PWLX_GET_SOURCE_DESKTOP (winwlx.h)
 author: windows-sdk-content
 description: Called by GINA to determine the name and handle of the desktop that was current before Winlogon switched to the Winlogon desktop.
 old-location: security\wlxgetsourcedesktop.htm

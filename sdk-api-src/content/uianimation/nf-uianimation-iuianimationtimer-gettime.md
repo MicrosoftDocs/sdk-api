@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTimer.GetTime
-title: IUIAnimationTimer::GetTime
+title: IUIAnimationTimer::GetTime (uianimation.h)
 author: windows-sdk-content
 description: Gets the current time.
 old-location: uianimation\iuianimationtimer_gettime.htm

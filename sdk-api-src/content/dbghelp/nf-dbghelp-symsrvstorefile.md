@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymSrvStoreFile
-title: SymSrvStoreFile function
+title: SymSrvStoreFile function (dbghelp.h)
 author: windows-sdk-content
 description: Stores a file in the specified symbol store.
 old-location: base\symsrvstorefile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:reconcil.IReconcilableObject.GetProgressFeedbackMaxEstimate
-title: IReconcilableObject::GetProgressFeedbackMaxEstimate
+title: IReconcilableObject::GetProgressFeedbackMaxEstimate (reconcil.h)
 author: windows-sdk-content
 description: Retrieves an estimated measurement of the amount of work required to complete a reconciliation.
 old-location: lwef\ireconcilableobject_getprogressfeedbackmaxestimate.htm

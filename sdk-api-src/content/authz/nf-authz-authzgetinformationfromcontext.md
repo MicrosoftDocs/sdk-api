@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzGetInformationFromContext
-title: AuthzGetInformationFromContext function
+title: AuthzGetInformationFromContext function (authz.h)
 author: windows-sdk-content
 description: Returns information about an Authz context.
 old-location: security\authzgetinformationfromcontext.htm

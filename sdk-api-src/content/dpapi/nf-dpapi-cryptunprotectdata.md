@@ -1,6 +1,6 @@
 ---
 UID: NF:dpapi.CryptUnprotectData
-title: CryptUnprotectData function
+title: CryptUnprotectData function (dpapi.h)
 author: windows-sdk-content
 description: Decrypts and does an integrity check of the data in a DATA_BLOB structure.
 old-location: security\cryptunprotectdata.htm

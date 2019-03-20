@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_InputActive
-title: IMSVidCtl::get_InputActive
+title: IMSVidCtl::get_InputActive (msvidctl.h)
 author: windows-sdk-content
 description: The get_InputActive method retrieves the input device that is currently active.
 old-location: mstv\imsvidctl_get_inputactive.htm

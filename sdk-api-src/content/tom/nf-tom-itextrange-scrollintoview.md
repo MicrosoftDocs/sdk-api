@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.ScrollIntoView
-title: ITextRange::ScrollIntoView
+title: ITextRange::ScrollIntoView (tom.h)
 author: windows-sdk-content
 description: Scrolls the specified range into view.
 old-location: controls\ITextRange_ScrollIntoView.htm

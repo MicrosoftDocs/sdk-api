@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetString
-title: IMetaDataTables::GetString
+title: IMetaDataTables::GetString (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the string at the specified index from the table column in the current reference scope.
 old-location: winrt\imetadatatables_getstring.htm

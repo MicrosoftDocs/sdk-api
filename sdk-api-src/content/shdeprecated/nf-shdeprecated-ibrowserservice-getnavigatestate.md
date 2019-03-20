@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService.GetNavigateState
-title: IBrowserService::GetNavigateState
+title: IBrowserService::GetNavigateState (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Retrieves the browser's current navigation state.
 old-location: shell\IBrowserService_GetNavigateState.htm

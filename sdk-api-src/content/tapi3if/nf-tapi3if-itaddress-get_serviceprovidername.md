@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddress.get_ServiceProviderName
-title: ITAddress::get_ServiceProviderName
+title: ITAddress::get_ServiceProviderName (tapi3if.h)
 author: windows-sdk-content
 description: The get_ServiceProviderName method gets the name of the Telephony Service Provider (TSP) that supports this address:\_for example, Unimdm.tsp for the Unimodem service provider or H323.tsp for the H323 service provider.
 old-location: tapi3\itaddress_get_serviceprovidername.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:usp10.tag_SCRIPT_CONTROL
-title: SCRIPT_CONTROL
+title: SCRIPT_CONTROL (usp10.h)
 author: windows-sdk-content
 description: Contains script control flags for several Uniscribe functions, for example, ScriptItemize.
 old-location: intl\script_control.htm

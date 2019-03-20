@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.CreateVideoDecoderOutputView
-title: ID3D11VideoDevice::CreateVideoDecoderOutputView
+title: ID3D11VideoDevice::CreateVideoDecoderOutputView (d3d11.h)
 author: windows-sdk-content
 description: Creates a resource view for a video decoder, describing the output sample for the decoding operation.
 old-location: mf\id3d11videodevice_createvideodecoderoutputview.htm

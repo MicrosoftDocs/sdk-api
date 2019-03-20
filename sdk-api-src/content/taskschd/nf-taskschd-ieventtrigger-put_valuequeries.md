@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IEventTrigger.put_ValueQueries
-title: IEventTrigger::put_ValueQueries
+title: IEventTrigger::put_ValueQueries (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a collection of named XPath queries. Each query in the collection is applied to the last matching event XML returned from the subscription query specified in the Subscription property.
 old-location: taskschd\ieventtrigger_valuequeries.htm

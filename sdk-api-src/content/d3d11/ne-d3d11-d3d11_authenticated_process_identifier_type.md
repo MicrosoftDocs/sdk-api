@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE
-title: D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE
+title: D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE (d3d11.h)
 author: windows-sdk-content
 description: Specifies the type of process that is identified in the D3D11_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_OUTPUT structure.
 old-location: mf\d3d11_authenticated_process_identifier_type.htm

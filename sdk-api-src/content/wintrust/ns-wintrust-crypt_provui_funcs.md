@@ -1,6 +1,6 @@
 ---
 UID: NS:wintrust._CRYPT_PROVUI_FUNCS
-title: CRYPT_PROVUI_FUNCS
+title: CRYPT_PROVUI_FUNCS (wintrust.h)
 author: windows-sdk-content
 description: Provides information about the user interface (UI) functions of a provider. This structure is used by the CRYPT_PROVIDER_FUNCTIONS structure.
 old-location: security\crypt_provui_funcs.htm

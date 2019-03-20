@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.RtlInitializeSListHead
-title: RtlInitializeSListHead function
+title: RtlInitializeSListHead function (winnt.h)
 author: windows-sdk-content
 description: Initializes the head of a singly linked list.
 old-location: base\rtlinitializeslisthead.htm

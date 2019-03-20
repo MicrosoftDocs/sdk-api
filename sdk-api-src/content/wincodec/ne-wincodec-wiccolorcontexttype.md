@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICColorContextType
-title: WICColorContextType
+title: WICColorContextType (wincodec.h)
 author: windows-sdk-content
 description: Specifies the color context types.
 old-location: wic\_wic_codec_wiccolorcontexttype.htm

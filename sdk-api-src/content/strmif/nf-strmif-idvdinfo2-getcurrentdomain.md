@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetCurrentDomain
-title: IDvdInfo2::GetCurrentDomain
+title: IDvdInfo2::GetCurrentDomain (strmif.h)
 author: windows-sdk-content
 description: The GetCurrentDomain method retrieves the domain in which the DVD Navigator is currently located.
 old-location: dshow\idvdinfo2_getcurrentdomain.htm

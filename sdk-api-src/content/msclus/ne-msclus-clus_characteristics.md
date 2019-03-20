@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.CLUS_CHARACTERISTICS
-title: CLUS_CHARACTERISTICS
+title: CLUS_CHARACTERISTICS (msclus.h)
 author: windows-sdk-content
 description: Enumerates characteristics of resource types and resources.
 old-location: mscs\clus_characteristics.htm

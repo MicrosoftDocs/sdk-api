@@ -1,6 +1,6 @@
 ---
 UID: NS:commdlg.tagFINDREPLACEA
-title: FINDREPLACEA
+title: FINDREPLACEA (commdlg.h)
 author: windows-sdk-content
 description: Contains information that the FindText and ReplaceText functions use to initialize the Find and Replace dialog boxes.
 old-location: dlgbox\findreplace_str.htm

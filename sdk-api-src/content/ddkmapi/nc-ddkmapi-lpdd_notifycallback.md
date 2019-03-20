@@ -1,6 +1,6 @@
 ---
 UID: NC:ddkmapi.LPDD_NOTIFYCALLBACK
-title: LPDD_NOTIFYCALLBACK
+title: LPDD_NOTIFYCALLBACK (ddkmapi.h)
 author: windows-sdk-content
 description: The NotifyCallback callback function performs operations related to an event that occurred.
 old-location: display\notifycallback.htm

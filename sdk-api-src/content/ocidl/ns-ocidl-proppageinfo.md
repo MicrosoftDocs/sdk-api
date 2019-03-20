@@ -1,6 +1,6 @@
 ---
 UID: NS:ocidl.tagPROPPAGEINFO
-title: PROPPAGEINFO
+title: PROPPAGEINFO (ocidl.h)
 author: windows-sdk-content
 description: Contains parameters used to describe a property page to a property frame. A property page fills a caller-provided structure in the IPropertyPage::GetPageInfo method.
 old-location: com\proppageinfo.htm

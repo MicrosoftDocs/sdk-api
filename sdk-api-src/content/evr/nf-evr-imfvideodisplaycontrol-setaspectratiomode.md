@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.SetAspectRatioMode
-title: IMFVideoDisplayControl::SetAspectRatioMode
+title: IMFVideoDisplayControl::SetAspectRatioMode (evr.h)
 author: windows-sdk-content
 description: Specifies how the enhanced video renderer (EVR) handles the aspect ratio of the source video.
 old-location: mf\imfvideodisplaycontrol_setaspectratiomode.htm

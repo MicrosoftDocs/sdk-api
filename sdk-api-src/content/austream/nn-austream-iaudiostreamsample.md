@@ -1,6 +1,6 @@
 ---
 UID: NN:austream.IAudioStreamSample
-title: IAudioStreamSample
+title: IAudioStreamSample (austream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated.
 old-location: dshow\iaudiostreamsample.htm

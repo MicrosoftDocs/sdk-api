@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Edit_SetRect
-title: Edit_SetRect macro
+title: Edit_SetRect macro (windowsx.h)
 author: windows-sdk-content
 description: Sets the formatting rectangle of an edit control. You can use this macro or send the EM_SETRECT message explicitly.
 old-location: controls\Edit_SetRect.htm

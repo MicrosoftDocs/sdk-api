@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleRegEnumFormatEtc
-title: OleRegEnumFormatEtc function
+title: OleRegEnumFormatEtc function (ole2.h)
 author: windows-sdk-content
 description: Creates an enumeration object that can be used to enumerate data formats that an OLE object server has registered in the system registry.
 old-location: com\oleregenumformatetc.htm

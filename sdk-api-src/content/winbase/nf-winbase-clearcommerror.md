@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.ClearCommError
-title: ClearCommError function
+title: ClearCommError function (winbase.h)
 author: windows-sdk-content
 description: Retrieves information about a communications error and reports the current status of a communications device.
 old-location: base\clearcommerror.htm

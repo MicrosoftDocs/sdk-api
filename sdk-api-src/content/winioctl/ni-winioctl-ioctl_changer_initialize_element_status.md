@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS
-title: IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS
+title: IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS (winioctl.h)
 author: windows-sdk-content
 description: Initializes the status of all elements or the specified elements of a particular type.
 old-location: base\ioctl_changer_initialize_element_status.htm

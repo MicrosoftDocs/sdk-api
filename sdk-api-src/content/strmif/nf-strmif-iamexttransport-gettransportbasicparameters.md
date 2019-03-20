@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtTransport.GetTransportBasicParameters
-title: IAMExtTransport::GetTransportBasicParameters
+title: IAMExtTransport::GetTransportBasicParameters (strmif.h)
 author: windows-sdk-content
 description: The GetTransportBasicParameters method retrieves general properties of the external transport.
 old-location: dshow\iamexttransport_gettransportbasicparameters.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidEVR.get_SuppressEffects
-title: IMSVidEVR::get_SuppressEffects
+title: IMSVidEVR::get_SuppressEffects (segment.h)
 author: windows-sdk-content
 description: The get_SuppressEffects method queries whether the Video Control configures the system for optimal video playback
 old-location: mstv\imsvidevr_get_suppresseffects.htm

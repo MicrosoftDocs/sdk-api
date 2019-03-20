@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDefaultFolderMenuInitialize.GetMenuRestrictions
-title: IDefaultFolderMenuInitialize::GetMenuRestrictions
+title: IDefaultFolderMenuInitialize::GetMenuRestrictions (shobjidl_core.h)
 author: windows-sdk-content
 description: "."
 old-location: shell\IDefaultFolderMenuInitialize_GetMenuRestrictions.htm

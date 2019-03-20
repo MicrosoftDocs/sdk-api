@@ -1,6 +1,6 @@
 ---
 UID: NF:sensevts.ISensLogon2.SessionReconnect
-title: ISensLogon2::SessionReconnect
+title: ISensLogon2::SessionReconnect (sensevts.h)
 author: windows-sdk-content
 description: The session was reconnected. The SessionReconnect method is used when you reconnect to a Fast User Switching session or a Remote Desktop Connection. This is different from logging on to a new session.
 old-location: sens\isenslogon2_sessionreconnect.htm

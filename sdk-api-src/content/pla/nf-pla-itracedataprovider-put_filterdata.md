@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProvider.put_FilterData
-title: ITraceDataProvider::put_FilterData
+title: ITraceDataProvider::put_FilterData (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets arbitrary data that is sent to the trace data provider for filtering purposes.
 old-location: pla\itracedataprovider_filterdata.htm

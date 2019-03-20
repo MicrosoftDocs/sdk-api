@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory5.AnalyzeContainerType
-title: IDWriteFactory5::AnalyzeContainerType
+title: IDWriteFactory5::AnalyzeContainerType (dwrite_3.h)
 author: windows-sdk-content
 description: The AnalyzeContainerType method analyzes the specified file data to determine whether it is a known font container format (e.g., WOFF or WOFF2).
 old-location: directwrite\idwritefactory5_analyzecontainertype.htm

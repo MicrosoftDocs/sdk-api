@@ -1,6 +1,6 @@
 ---
 UID: NF:iscsidsc.ReportIScsiTargetPortalsA
-title: ReportIScsiTargetPortalsA function
+title: ReportIScsiTargetPortalsA function (iscsidsc.h)
 author: windows-sdk-content
 description: ReportIscsiTargetPortals function retrieves target portal information discovered by the iSCSI initiator service.
 old-location: iscsidisc\reportiscsitargetportals.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:bits.__MIDL_IBackgroundCopyJob_0004
-title: BG_JOB_PROXY_USAGE
+title: BG_JOB_PROXY_USAGE (bits.h)
 author: windows-sdk-content
 description: Defines constants that specify which proxy to use for file transfers. You can define different proxy settings for each job.
 old-location: bits\bg_job_proxy_usage.htm

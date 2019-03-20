@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.GetAlignment
-title: ITextRow::GetAlignment
+title: ITextRow::GetAlignment (tom.h)
 author: windows-sdk-content
 description: Gets the horizontal alignment of a row.
 old-location: controls\itextrow_getalignment.htm

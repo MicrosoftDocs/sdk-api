@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2tcpip.WSASetSocketSecurity
-title: WSASetSocketSecurity function
+title: WSASetSocketSecurity function (ws2tcpip.h)
 author: windows-sdk-content
 description: Enables and applies security for a socket.
 old-location: winsock\wsasetsocketsecurity.htm

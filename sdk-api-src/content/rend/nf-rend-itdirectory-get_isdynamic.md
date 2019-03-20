@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectory.get_IsDynamic
-title: ITDirectory::get_IsDynamic
+title: ITDirectory::get_IsDynamic (rend.h)
 author: windows-sdk-content
 description: The get_IsDynamic method gets an indicator of whether the object on the server needs to be refreshed.
 old-location: tapi3\itdirectory_get_isdynamic.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IValueMapItem.get_Description
-title: IValueMapItem::get_Description
+title: IValueMapItem::get_Description (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets a description of the item.
 old-location: pla\ivaluemapitem_description.htm

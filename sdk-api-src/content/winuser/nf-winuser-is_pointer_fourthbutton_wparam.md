@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.IS_POINTER_FOURTHBUTTON_WPARAM
-title: IS_POINTER_FOURTHBUTTON_WPARAM macro
+title: IS_POINTER_FOURTHBUTTON_WPARAM macro (winuser.h)
 author: windows-sdk-content
 description: Checks whether the specified pointer took fourth action.
 old-location: inputmsg\is_pointer_fourthbutton_wparam.htm

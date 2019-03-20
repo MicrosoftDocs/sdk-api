@@ -1,6 +1,6 @@
 ---
 UID: NF:ddstream.IDirectDrawMediaStream.GetDirectDraw
-title: IDirectDrawMediaStream::GetDirectDraw
+title: IDirectDrawMediaStream::GetDirectDraw (ddstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Retrieves a pointer to the DirectDraw object used by the current media stream.
 old-location: dshow\idirectdrawmediastream_getdirectdraw.htm

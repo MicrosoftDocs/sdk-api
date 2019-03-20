@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IAudioAutoGainControl.GetEnabled
-title: IAudioAutoGainControl::GetEnabled
+title: IAudioAutoGainControl::GetEnabled (devicetopology.h)
 author: windows-sdk-content
 description: The GetEnabled method gets the current state (enabled or disabled) of the AGC.
 old-location: coreaudio\iaudioautogaincontrol_getenabled.htm

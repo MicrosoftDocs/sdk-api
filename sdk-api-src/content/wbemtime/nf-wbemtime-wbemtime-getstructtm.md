@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTime.GetStructtm
-title: WBEMTime::GetStructtm
+title: WBEMTime::GetStructtm (wbemtime.h)
 author: windows-sdk-content
 description: The GetStructtm method gets the time as an ANSI C run-time struct tm structure.
 old-location: wmi\wbemtime_getstructtm.htm

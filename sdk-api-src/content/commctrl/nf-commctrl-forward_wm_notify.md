@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.FORWARD_WM_NOTIFY
-title: FORWARD_WM_NOTIFY macro
+title: FORWARD_WM_NOTIFY macro (commctrl.h)
 author: windows-sdk-content
 description: Sends or posts the WM_NOTIFY message.
 old-location: controls\FORWARD_WM_NOTIFY.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.ResumeGroup
-title: IBackgroundCopyGroup::ResumeGroup
+title: IBackgroundCopyGroup::ResumeGroup (qmgr.h)
 author: windows-sdk-content
 description: Use the ResumeGroup method to start a group that has been suspended in the download queue.
 old-location: bits\ibackgroundcopygroup_resumegroup.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DSA_SetItem
-title: DSA_SetItem function
+title: DSA_SetItem function (dpa_dsa.h)
 author: windows-sdk-content
 description: Sets the contents of an element in a dynamic structure array (DSA).
 old-location: controls\DSA_SetItem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpGetSubnetInfoV6
-title: DhcpGetSubnetInfoV6 function
+title: DhcpGetSubnetInfoV6 function (dhcpsapi.h)
 author: windows-sdk-content
 description: The DhcpGetSubnetInfoV6 function returns information on a specific subnet.
 old-location: dhcp\dhcpgetsubnetinfov6.htm

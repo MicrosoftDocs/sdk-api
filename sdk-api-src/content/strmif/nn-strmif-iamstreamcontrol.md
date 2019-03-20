@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMStreamControl
-title: IAMStreamControl
+title: IAMStreamControl (strmif.h)
 author: windows-sdk-content
 description: The IAMStreamControl interface controls individual streams on a filter.
 old-location: dshow\iamstreamcontrol.htm

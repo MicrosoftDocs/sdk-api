@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolumeMF.GetFileSystemProperties
-title: IVdsVolumeMF::GetFileSystemProperties
+title: IVdsVolumeMF::GetFileSystemProperties (vds.h)
 author: windows-sdk-content
 description: Returns property details about the file system on the current volume.
 old-location: base\ivdsvolumemf_getfilesystemproperties.htm

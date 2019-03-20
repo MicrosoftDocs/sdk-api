@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IBackgroundCopyFile3.GetValidationState
-title: IBackgroundCopyFile3::GetValidationState
+title: IBackgroundCopyFile3::GetValidationState (bits3_0.h)
 author: windows-sdk-content
 description: Gets the current validation state of this file.
 old-location: bits\ibackgroundcopyfile3_getvalidationstate.htm

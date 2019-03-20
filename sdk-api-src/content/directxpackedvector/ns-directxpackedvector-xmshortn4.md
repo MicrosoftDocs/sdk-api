@@ -1,6 +1,6 @@
 ---
 UID: NS:directxpackedvector.XMSHORTN4
-title: XMSHORTN4
+title: XMSHORTN4 (directxpackedvector.h)
 author: windows-sdk-content
 description: A 4D vector for storing signed, normalized values as signed 16-bit integers, (type int16_t).
 old-location: dxmath\xmshortn4.htm

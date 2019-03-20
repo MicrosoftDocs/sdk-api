@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPNetwork.getProxyExceptionList
-title: IWMPNetwork::getProxyExceptionList
+title: IWMPNetwork::getProxyExceptionList (wmp.h)
 author: windows-sdk-content
 description: The getProxyExceptionList method retrieves the proxy exception list.
 old-location: wmp\iwmpnetwork_getproxyexceptionlist.htm

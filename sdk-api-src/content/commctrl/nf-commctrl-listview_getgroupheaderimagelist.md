@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetGroupHeaderImageList
-title: ListView_GetGroupHeaderImageList macro
+title: ListView_GetGroupHeaderImageList macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the group header image list that has been set for an existing list-view control.
 old-location: controls\ListView_GetGroupHeaderImageList.htm

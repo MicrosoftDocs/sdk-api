@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBuilder.AddChangeUnitMetadata
-title: ISyncChangeBuilder::AddChangeUnitMetadata
+title: ISyncChangeBuilder::AddChangeUnitMetadata (winsync.h)
 author: windows-sdk-content
 description: Adds change unit metadata to an item change.
 old-location: winsync\isyncchangebuilder_addchangeunitmetadata.htm

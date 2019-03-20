@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.SysStringLen
-title: SysStringLen function
+title: SysStringLen function (oleauto.h)
 author: windows-sdk-content
 description: Returns the length of a BSTR.
 old-location: automat\sysstringlen.htm

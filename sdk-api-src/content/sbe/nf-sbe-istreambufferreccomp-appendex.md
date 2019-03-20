@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferRecComp.AppendEx
-title: IStreamBufferRecComp::AppendEx
+title: IStreamBufferRecComp::AppendEx (sbe.h)
 author: windows-sdk-content
 description: The AppendEx method appends part of a recording to the target file.
 old-location: mstv\istreambufferreccomp_appendex.htm

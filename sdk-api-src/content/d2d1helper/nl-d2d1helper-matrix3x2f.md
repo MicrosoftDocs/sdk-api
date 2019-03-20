@@ -1,6 +1,6 @@
 ---
 UID: NL:d2d1helper.Matrix3x2F
-title: Matrix3x2F
+title: Matrix3x2F (d2d1helper.h)
 author: windows-sdk-content
 description: The Matrix3x2F class represents a 3-by-2 matrix and provides convenience methods for creating matrices.
 old-location: direct2d\matrix3x2f.htm

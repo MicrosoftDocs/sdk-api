@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_FDC.RemoveTid
-title: IBDA_FDC::RemoveTid
+title: IBDA_FDC::RemoveTid (bdaiface.h)
 author: windows-sdk-content
 description: Removes one or more table identifiers (TIDs) from the MPEG flow.
 old-location: mstv\ibda_fdc_removetid.htm

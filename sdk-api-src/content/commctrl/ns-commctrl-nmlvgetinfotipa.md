@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMLVGETINFOTIPA
-title: NMLVGETINFOTIPA
+title: NMLVGETINFOTIPA (commctrl.h)
 author: windows-sdk-content
 description: Contains and receives list-view item information needed to display a tooltip for an item. This structure is used with the LVN_GETINFOTIP notification code.
 old-location: controls\NMLVGETINFOTIP.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_DragEnter
-title: ImageList_DragEnter function
+title: ImageList_DragEnter function (commctrl.h)
 author: windows-sdk-content
 description: Displays the drag image at the specified position within the window.
 old-location: controls\ImageList_DragEnter.htm

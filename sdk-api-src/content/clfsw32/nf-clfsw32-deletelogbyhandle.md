@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.DeleteLogByHandle
-title: DeleteLogByHandle function
+title: DeleteLogByHandle function (clfsw32.h)
 author: windows-sdk-content
 description: Marks the specified log for deletion. The log is actually deleted when all handles, marshaling areas, and read contexts to the log are closed. If the log is a physical log, its underlying containers are deleted.
 old-location: fs\deletelogbyhandle.htm

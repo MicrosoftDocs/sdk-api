@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreateRoundedRectangleGeometry
-title: ID2D1Factory::CreateRoundedRectangleGeometry
+title: ID2D1Factory::CreateRoundedRectangleGeometry (d2d1.h)
 author: windows-sdk-content
 description: Creates an ID2D1RoundedRectangleGeometry.
 old-location: direct2d\id2d1factory_createroundedrectanglegeometry.htm

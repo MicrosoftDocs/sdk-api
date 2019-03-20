@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingManager.get_EnumPublicConnections
-title: INetSharingManager::get_EnumPublicConnections
+title: INetSharingManager::get_EnumPublicConnections (netcon.h)
 author: windows-sdk-content
 description: The EnumPublicConnections method retrieves an enumeration interface for publicly-shared connections.
 old-location: ics\inetsharingmanager_get_enumpublicconnections.htm

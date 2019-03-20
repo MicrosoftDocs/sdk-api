@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpServerSetDnsRegCredentialsV5
-title: DhcpServerSetDnsRegCredentialsV5 function
+title: DhcpServerSetDnsRegCredentialsV5 function (dhcpsapi.h)
 author: windows-sdk-content
 description: Sets the credentials used by the DHCP server to create Domain Name System (DNS) registrations for the DHCP client lease record.
 old-location: dhcp\dhcpserversetdnsregcredentialsv5.htm

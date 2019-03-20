@@ -1,6 +1,6 @@
 ---
 UID: NN:windows.media.streaming.IMediaRendererActionInformation
-title: IMediaRendererActionInformation
+title: IMediaRendererActionInformation (windows.media.streaming.h)
 author: windows-sdk-content
 description: Encapsulates the methods needed to provide information about what methods can currently be invoked on the DMR.
 old-location: mediastreaming\imediarendereractioninformation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate5.get_AutoDownload
-title: IWindowsDriverUpdate5::get_AutoDownload
+title: IWindowsDriverUpdate5::get_AutoDownload (wuapi.h)
 author: windows-sdk-content
 description: Gets an AutoDownloadMode value that indicates the automatic download mode of update.
 old-location: wua\iwindowsdriverupdate5_autodownload.htm

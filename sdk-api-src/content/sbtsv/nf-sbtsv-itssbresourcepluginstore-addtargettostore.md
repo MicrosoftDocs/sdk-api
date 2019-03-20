@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.AddTargetToStore
-title: ITsSbResourcePluginStore::AddTargetToStore
+title: ITsSbResourcePluginStore::AddTargetToStore (sbtsv.h)
 author: windows-sdk-content
 description: Adds a target to the resource plug-in store.
 old-location: termserv\itssbresourcepluginstore_addtargettostore.htm

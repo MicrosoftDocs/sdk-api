@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerReadValueMin
-title: PowerReadValueMin function
+title: PowerReadValueMin function (powrprof.h)
 author: windows-sdk-content
 description: Retrieves the minimum value for the specified power setting.
 old-location: base\powerreadvaluemin.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wsddisco.IWSDiscoveryPublisher
-title: IWSDiscoveryPublisher
+title: IWSDiscoveryPublisher (wsddisco.h)
 author: windows-sdk-content
 description: Provides methods for announcing hosts and managing incoming queries to hosts.
 old-location: ncd\iwsdiscoverypublisher.htm

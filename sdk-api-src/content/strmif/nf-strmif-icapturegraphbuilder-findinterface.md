@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder.FindInterface
-title: ICaptureGraphBuilder::FindInterface
+title: ICaptureGraphBuilder::FindInterface (strmif.h)
 author: windows-sdk-content
 description: Note  The ICaptureGraphBuilder interface is deprecated. Use ICaptureGraphBuilder2 instead. Looks for the specified interface on the filter, upstream and downstream from the filter, and, optionally, only on the output pin of the given category.
 old-location: dshow\icapturegraphbuilder_findinterface.htm

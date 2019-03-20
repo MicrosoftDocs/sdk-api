@@ -1,6 +1,6 @@
 ---
 UID: NC:batclass.BCLASS_SET_STATUS_NOTIFY_CALLBACK
-title: BCLASS_SET_STATUS_NOTIFY_CALLBACK
+title: BCLASS_SET_STATUS_NOTIFY_CALLBACK (batclass.h)
 author: windows-sdk-content
 description: BatteryMiniSetStatusNotify sets the battery capacity and power state levels at which the class driver requires notification.
 old-location: battery\batteryminisetstatusnotify.htm

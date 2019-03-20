@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetDialW
-title: InternetDialW function
+title: InternetDialW function (wininet.h)
 author: windows-sdk-content
 description: Initiates a connection to the Internet using a modem.
 old-location: wininet\internetdial.htm

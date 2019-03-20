@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptEnumContextFunctions
-title: BCryptEnumContextFunctions function
+title: BCryptEnumContextFunctions function (bcrypt.h)
 author: windows-sdk-content
 description: Obtains the cryptographic functions for a context in the specified configuration table.
 old-location: security\bcryptenumcontextfunctions.htm

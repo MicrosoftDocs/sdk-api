@@ -1,6 +1,6 @@
 ---
 UID: NE:http._HTTP_AUTH_STATUS
-title: HTTP_AUTH_STATUS
+title: HTTP_AUTH_STATUS (http.h)
 author: windows-sdk-content
 description: Defines the authentication state of a request.
 old-location: http\http_auth_status.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_CONNECT
-title: WSMAN_PLUGIN_CONNECT
+title: WSMAN_PLUGIN_CONNECT (wsman.h)
 author: windows-sdk-content
 description: Defines the connect callback for a plug-in.
 old-location: winrm\wsman_plugin_connect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._USER_INFO_1011
-title: USER_INFO_1011
+title: USER_INFO_1011 (lmaccess.h)
 author: windows-sdk-content
 description: The USER_INFO_1011 structure contains the full name of a network user. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1011_str.htm

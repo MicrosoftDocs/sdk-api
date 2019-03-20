@@ -1,6 +1,6 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter.GetIndexMode
-title: IConfigAsfWriter::GetIndexMode
+title: IConfigAsfWriter::GetIndexMode (dshowasf.h)
 author: windows-sdk-content
 description: The GetIndexMode method retrieves the current index mode.
 old-location: dshow\iconfigasfwriter_getindexmode.htm

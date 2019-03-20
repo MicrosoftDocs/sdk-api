@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_4.IDXGIAdapter3.SetVideoMemoryReservation
-title: IDXGIAdapter3::SetVideoMemoryReservation
+title: IDXGIAdapter3::SetVideoMemoryReservation (dxgi1_4.h)
 author: windows-sdk-content
 description: This method sends the minimum required physical memory for an application, to the OS.
 old-location: direct3ddxgi\idxgiadapter3_setvideomemoryreservation.htm

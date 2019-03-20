@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITQueue.get_TotalCallsAbandoned
-title: ITQueue::get_TotalCallsAbandoned
+title: ITQueue::get_TotalCallsAbandoned (tapi3.h)
 author: windows-sdk-content
 description: The get_TotalCallsAbandoned method gets the number of abandoned calls during the current measurement period.
 old-location: tapi3\itqueue_get_totalcallsabandoned.htm

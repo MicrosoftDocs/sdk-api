@@ -1,6 +1,6 @@
 ---
 UID: NF:perflib.PerfSetCounterSetInfo
-title: PerfSetCounterSetInfo function
+title: PerfSetCounterSetInfo function (perflib.h)
 author: windows-sdk-content
 description: Specifies the layout of a particular counter set.
 old-location: perf\perfsetcountersetinfo.htm

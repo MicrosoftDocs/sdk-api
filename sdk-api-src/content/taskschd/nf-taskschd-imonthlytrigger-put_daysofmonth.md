@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IMonthlyTrigger.put_DaysOfMonth
-title: IMonthlyTrigger::put_DaysOfMonth
+title: IMonthlyTrigger::put_DaysOfMonth (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the days of the month during which the task runs.
 old-location: taskschd\imonthlytrigger_daysofmonth.htm

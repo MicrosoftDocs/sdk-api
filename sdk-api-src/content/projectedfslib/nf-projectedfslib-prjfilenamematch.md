@@ -1,6 +1,6 @@
 ---
 UID: NF:projectedfslib.PrjFileNameMatch
-title: PrjFileNameMatch function
+title: PrjFileNameMatch function (projectedfslib.h)
 author: windows-sdk-content
 description: Determines whether a file name matches a search pattern.
 old-location: projfs\prjfilenamematch.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ncryptprotect.NCryptStreamUpdate
-title: NCryptStreamUpdate function
+title: NCryptStreamUpdate function (ncryptprotect.h)
 author: windows-sdk-content
 description: Encrypts and decrypts blocks of data.
 old-location: security\ncryptstreamupdate.htm

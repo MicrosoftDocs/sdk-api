@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetUserString
-title: IMetaDataTables::GetUserString
+title: IMetaDataTables::GetUserString (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the hard-coded string at the specified index in the string column in the current scope.
 old-location: winrt\imetadatatables_getuserstring.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wcsplugin._JChColorF
-title: JChColorF
+title: JChColorF (wcsplugin.h)
 author: windows-sdk-content
 description: TBD.
 old-location: wcs\jchcolorf.htm

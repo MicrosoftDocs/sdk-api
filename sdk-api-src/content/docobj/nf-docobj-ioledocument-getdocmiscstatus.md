@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IOleDocument.GetDocMiscStatus
-title: IOleDocument::GetDocMiscStatus
+title: IOleDocument::GetDocMiscStatus (docobj.h)
 author: windows-sdk-content
 description: Retrieves status information about the document object.
 old-location: com\ioledocument_getdocmiscstatus.htm

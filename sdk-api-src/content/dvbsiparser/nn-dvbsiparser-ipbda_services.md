@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IPBDA_Services
-title: IPBDA_Services
+title: IPBDA_Services (dvbsiparser.h)
 author: windows-sdk-content
 description: Implements methods that initialize or retrieve Protected Broadcast Driver Architecture (PBDA) service records from a Program and System Information Protocol (PSIP) table in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_services.htm

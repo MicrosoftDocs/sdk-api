@@ -1,6 +1,6 @@
 ---
 UID: NS:dcomptypes.__unnamed_struct_0
-title: DCOMPOSITION_FRAME_STATISTICS
+title: DCOMPOSITION_FRAME_STATISTICS (dcomptypes.h)
 author: windows-sdk-content
 description: Describes timing and composition statistics for a frame.
 old-location: directcomp\dcomposition_frame_statistics.htm

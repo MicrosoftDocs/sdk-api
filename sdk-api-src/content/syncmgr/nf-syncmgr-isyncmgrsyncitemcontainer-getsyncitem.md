@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItemContainer.GetSyncItem
-title: ISyncMgrSyncItemContainer::GetSyncItem
+title: ISyncMgrSyncItemContainer::GetSyncItem (syncmgr.h)
 author: windows-sdk-content
 description: Gets a specified sync item.
 old-location: shell\ISyncMgrSyncItemContainer_GetSyncItem.htm

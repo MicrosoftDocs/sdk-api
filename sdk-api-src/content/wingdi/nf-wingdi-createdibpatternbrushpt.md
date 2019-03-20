@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.CreateDIBPatternBrushPt
-title: CreateDIBPatternBrushPt function
+title: CreateDIBPatternBrushPt function (wingdi.h)
 author: windows-sdk-content
 description: The CreateDIBPatternBrushPt function creates a logical brush that has the pattern specified by the device-independent bitmap (DIB).
 old-location: gdi\createdibpatternbrushpt.htm

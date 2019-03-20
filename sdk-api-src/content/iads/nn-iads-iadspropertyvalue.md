@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsPropertyValue
-title: IADsPropertyValue
+title: IADsPropertyValue (iads.h)
 author: windows-sdk-content
 description: Used to represent the value of an IADsPropertyEntry object in a predefined data type.
 old-location: adsi\iadspropertyvalue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMMatrixRotationZ
-title: XMMatrixRotationZ function
+title: XMMatrixRotationZ function (directxmath.h)
 author: windows-sdk-content
 description: Builds a matrix that rotates around the z-axis.
 old-location: dxmath\xmmatrixrotationz.htm

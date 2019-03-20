@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.IsValidSecurityDescriptor
-title: IsValidSecurityDescriptor function
+title: IsValidSecurityDescriptor function (securitybaseapi.h)
 author: windows-sdk-content
 description: Determines whether the components of a security descriptor are valid.
 old-location: security\isvalidsecuritydescriptor.htm

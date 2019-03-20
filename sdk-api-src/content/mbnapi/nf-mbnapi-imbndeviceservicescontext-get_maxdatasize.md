@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesContext.get_MaxDataSize
-title: IMbnDeviceServicesContext::get_MaxDataSize
+title: IMbnDeviceServicesContext::get_MaxDataSize (mbnapi.h)
 author: windows-sdk-content
 description: The maximum length, in bytes, of data that can be written to or read from a device service session.
 old-location: mbn\imbndeviceservicescontext_maxdatasize.htm

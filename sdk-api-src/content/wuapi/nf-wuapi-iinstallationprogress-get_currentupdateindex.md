@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationProgress.get_CurrentUpdateIndex
-title: IInstallationProgress::get_CurrentUpdateIndex
+title: IInstallationProgress::get_CurrentUpdateIndex (wuapi.h)
 author: windows-sdk-content
 description: Gets a zero-based index value. This value specifies the update that is currently being installed or uninstalled when multiple updates have been selected.
 old-location: wua\iinstallationprogress_currentupdateindex.htm

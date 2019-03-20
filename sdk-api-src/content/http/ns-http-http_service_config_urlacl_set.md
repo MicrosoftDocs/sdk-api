@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_SERVICE_CONFIG_URLACL_SET
-title: HTTP_SERVICE_CONFIG_URLACL_SET
+title: HTTP_SERVICE_CONFIG_URLACL_SET (http.h)
 author: windows-sdk-content
 description: Used to add a new record to the URL reservation store or retrieve an existing record from it.
 old-location: http\http_service_config_urlacl_set.htm

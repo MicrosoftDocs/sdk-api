@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.EnumerateSessions
-title: ITsSbResourcePluginStore::EnumerateSessions
+title: ITsSbResourcePluginStore::EnumerateSessions (sbtsv.h)
 author: windows-sdk-content
 description: Enumerates a specified set of sessions.
 old-location: termserv\itssbresourcepluginstore_enumeratesessions.htm

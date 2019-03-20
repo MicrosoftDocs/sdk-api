@@ -1,6 +1,6 @@
 ---
 UID: NN:windows.foundation.IAsyncAction
-title: IAsyncAction
+title: IAsyncAction (windows.foundation.h)
 author: windows-sdk-content
 description: Represents an asynchronous action.
 old-location: winrt\iasyncaction.htm

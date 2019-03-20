@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._IO_COUNTERS
-title: IO_COUNTERS
+title: IO_COUNTERS (winnt.h)
 author: windows-sdk-content
 description: Contains I/O accounting information for a process or a job object.
 old-location: base\io_counters_str.htm

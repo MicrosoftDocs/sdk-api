@@ -1,6 +1,6 @@
 ---
 UID: NF:winternl.RtlLocalTimeToSystemTime
-title: RtlLocalTimeToSystemTime function
+title: RtlLocalTimeToSystemTime function (winternl.h)
 author: windows-sdk-content
 description: Converts the specified local time to system time.
 old-location: base\rtllocaltimetosystemtime.htm

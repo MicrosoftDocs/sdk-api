@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpace.get__NetworkType
-title: ITuningSpace::get__NetworkType
+title: ITuningSpace::get__NetworkType (tuner.h)
 author: windows-sdk-content
 description: The get_NetworkType method retrieves the network type for this tuning space.
 old-location: mstv\ituningspace_get__networktype.htm

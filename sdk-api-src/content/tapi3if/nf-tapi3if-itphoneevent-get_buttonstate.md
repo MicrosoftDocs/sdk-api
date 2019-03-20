@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhoneEvent.get_ButtonState
-title: ITPhoneEvent::get_ButtonState
+title: ITPhoneEvent::get_ButtonState (tapi3if.h)
 author: windows-sdk-content
 description: The get_ButtonState method returns a PHONE_BUTTON_STATE value specifying the state to which the button has transitioned. This information is available only when the ITPhoneEvent::get_Event method returns PE_BUTTON.
 old-location: tapi3\itphoneevent_get_buttonstate.htm

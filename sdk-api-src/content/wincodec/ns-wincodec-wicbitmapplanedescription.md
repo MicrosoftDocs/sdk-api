@@ -1,6 +1,6 @@
 ---
 UID: NS:wincodec.WICBitmapPlaneDescription
-title: WICBitmapPlaneDescription
+title: WICBitmapPlaneDescription (wincodec.h)
 author: windows-sdk-content
 description: Specifies the pixel format and size of a component plane.
 old-location: wic\wicbitmapplanedescription.htm

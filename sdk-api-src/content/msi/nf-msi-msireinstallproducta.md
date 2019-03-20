@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiReinstallProductA
-title: MsiReinstallProductA function
+title: MsiReinstallProductA function (msi.h)
 author: windows-sdk-content
 description: Reinstalls products.
 old-location: setup\msireinstallproduct.htm

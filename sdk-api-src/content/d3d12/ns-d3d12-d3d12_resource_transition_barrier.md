@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_RESOURCE_TRANSITION_BARRIER
-title: D3D12_RESOURCE_TRANSITION_BARRIER
+title: D3D12_RESOURCE_TRANSITION_BARRIER (d3d12.h)
 author: windows-sdk-content
 description: Describes the transition of subresources between different usages.
 old-location: direct3d12\d3d12_resource_transition_barrier.htm

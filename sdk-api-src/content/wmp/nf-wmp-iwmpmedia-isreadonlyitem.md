@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMedia.isReadOnlyItem
-title: IWMPMedia::isReadOnlyItem
+title: IWMPMedia::isReadOnlyItem (wmp.h)
 author: windows-sdk-content
 description: The isReadOnlyItem method retrieves a value indicating whether the attributes of the specified media item can be edited.
 old-location: wmp\iwmpmedia_isreadonlyitem.htm

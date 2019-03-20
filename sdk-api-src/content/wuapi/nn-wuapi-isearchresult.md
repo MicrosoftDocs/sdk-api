@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.ISearchResult
-title: ISearchResult
+title: ISearchResult (wuapi.h)
 author: windows-sdk-content
 description: Represents the result of a search.
 old-location: wua\isearchresult.htm

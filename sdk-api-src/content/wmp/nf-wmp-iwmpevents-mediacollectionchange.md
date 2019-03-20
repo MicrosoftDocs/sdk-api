@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.MediaCollectionChange
-title: IWMPEvents::MediaCollectionChange
+title: IWMPEvents::MediaCollectionChange (wmp.h)
 author: windows-sdk-content
 description: The MediaCollectionChange event occurs when the media collection changes.
 old-location: wmp\iwmpevents_iwmpevents__mediacollectionchange.htm

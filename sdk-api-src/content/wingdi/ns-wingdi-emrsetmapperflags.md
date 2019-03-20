@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRSETMAPPERFLAGS
-title: EMRSETMAPPERFLAGS
+title: EMRSETMAPPERFLAGS (wingdi.h)
 author: windows-sdk-content
 description: The EMRSETMAPPERFLAGS structure contains members for the SetMapperFlags enhanced metafile record.
 old-location: gdi\emrsetmapperflags.htm

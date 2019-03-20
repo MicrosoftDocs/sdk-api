@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionSmimeCapabilities.get_SmimeCapabilities
-title: IX509ExtensionSmimeCapabilities::get_SmimeCapabilities
+title: IX509ExtensionSmimeCapabilities::get_SmimeCapabilities (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a collection of ISmimeCapability objects.
 old-location: security\ix509extensionsmimecapabilities_smimecapabilities.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesPinInfo.IsPinnedForFolderRedirection
-title: IOfflineFilesPinInfo::IsPinnedForFolderRedirection
+title: IOfflineFilesPinInfo::IsPinnedForFolderRedirection (cscobj.h)
 author: windows-sdk-content
 description: Determines whether the item was pinned by Folder Redirection.
 old-location: of\iofflinefilespininfo_ispinnedforfolderredirection.htm

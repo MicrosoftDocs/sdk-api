@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarCyFromBool
-title: VarCyFromBool function
+title: VarCyFromBool function (oleauto.h)
 author: windows-sdk-content
 description: Converts a Boolean value to a currency value.
 old-location: automat\varcyfrombool.htm

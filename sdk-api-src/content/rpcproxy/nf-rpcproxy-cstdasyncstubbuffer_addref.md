@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcproxy.CStdAsyncStubBuffer_AddRef
-title: CStdAsyncStubBuffer_AddRef function
+title: CStdAsyncStubBuffer_AddRef function (rpcproxy.h)
 author: windows-sdk-content
 description: Implements the IRpcStubBuffer::AddRef method.
 old-location: rpc\cstdasyncstubbuffer_addref.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite.IDWriteTextAnalysisSource
-title: IDWriteTextAnalysisSource
+title: IDWriteTextAnalysisSource (dwrite.h)
 author: windows-sdk-content
 description: Implemented by the text analyzer's client to provide text to the analyzer.
 old-location: directwrite\idwritetextanalysissource.htm

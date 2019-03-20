@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDUdpAddress.SetExclusive
-title: IWSDUdpAddress::SetExclusive
+title: IWSDUdpAddress::SetExclusive (wsdbase.h)
 author: windows-sdk-content
 description: Controls whether the socket is in exclusive mode.
 old-location: ncd\iwsdudpaddress_setexclusive.htm

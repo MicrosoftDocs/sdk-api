@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetString
-title: MI_DestinationOptions_GetString function
+title: MI_DestinationOptions_GetString function (mi.h)
 author: windows-sdk-content
 description: Gets a previously added custom string option.
 old-location: wmi_v2\mi_destinationoptions_getstring.htm

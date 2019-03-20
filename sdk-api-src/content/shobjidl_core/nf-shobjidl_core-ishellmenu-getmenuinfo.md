@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellMenu.GetMenuInfo
-title: IShellMenu::GetMenuInfo
+title: IShellMenu::GetMenuInfo (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets information from the IShellMenu::Initialize method.
 old-location: shell\IShellMenu_GetMenuInfo.htm

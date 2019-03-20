@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10.ID3D10Asynchronous
-title: ID3D10Asynchronous
+title: ID3D10Asynchronous (d3d10.h)
 author: windows-sdk-content
 description: This interface encapsulates methods for retrieving data from the GPU asynchronously.
 old-location: direct3d10\id3d10asynchronous.htm

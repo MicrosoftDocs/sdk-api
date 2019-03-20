@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterOpenEnumEx
-title: ClusterOpenEnumEx function
+title: ClusterOpenEnumEx function (clusapi.h)
 author: windows-sdk-content
 description: Opens a handle to a cluster in order to iterate through its objects.
 old-location: mscs\clusteropenenumex.htm

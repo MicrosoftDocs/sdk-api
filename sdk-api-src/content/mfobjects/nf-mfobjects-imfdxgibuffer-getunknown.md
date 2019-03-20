@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFDXGIBuffer.GetUnknown
-title: IMFDXGIBuffer::GetUnknown
+title: IMFDXGIBuffer::GetUnknown (mfobjects.h)
 author: windows-sdk-content
 description: Gets an IUnknown pointer that was previously stored in the media buffer object.
 old-location: mf\imfdxgibuffer_getunknown.htm

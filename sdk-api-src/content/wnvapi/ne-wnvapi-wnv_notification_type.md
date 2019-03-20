@@ -1,6 +1,6 @@
 ---
 UID: NE:wnvapi._WNV_NOTIFICATION_TYPE
-title: WNV_NOTIFICATION_TYPE
+title: WNV_NOTIFICATION_TYPE (wnvapi.h)
 author: windows-sdk-content
 description: Specifies the type of a given Windows Network Virtualization (WNV) notification.
 old-location: wnv\wnv_notification_type.htm

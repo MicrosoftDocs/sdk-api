@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamConfig.RemoveAllPayloadExtensions
-title: IMFASFStreamConfig::RemoveAllPayloadExtensions
+title: IMFASFStreamConfig::RemoveAllPayloadExtensions (wmcontainer.h)
 author: windows-sdk-content
 description: Removes all payload extensions that are configured for the stream.
 old-location: mf\imfasfstreamconfig_removeallpayloadextensions.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wmsdkidl.WMT_IMAGE_TYPE
-title: WMT_IMAGE_TYPE
+title: WMT_IMAGE_TYPE (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMT_IMAGE_TYPE enumeration type defines the types of images that can be used for banner ads. This type is used as the value of the BannerImageType attribute.
 old-location: wmformat\wmt_image_type.htm

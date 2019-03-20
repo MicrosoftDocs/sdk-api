@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_MCN_CONTROL
-title: IOCTL_STORAGE_MCN_CONTROL
+title: IOCTL_STORAGE_MCN_CONTROL (winioctl.h)
 author: windows-sdk-content
 description: Enables or disables media change notification. Disabling media change notification prevents the GUID_IO_MEDIA_ARRIVAL and GUID_IO_MEDIA_REMOVAL events.
 old-location: base\ioctl_storage_mcn_control.htm

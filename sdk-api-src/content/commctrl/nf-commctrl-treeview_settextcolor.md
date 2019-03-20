@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_SetTextColor
-title: TreeView_SetTextColor macro
+title: TreeView_SetTextColor macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the text color of the control. You can use this macro or send the TVM_SETTEXTCOLOR message explicitly.
 old-location: controls\TreeView_SetTextColor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mfobjects.__MIDL___MIDL_itf_mfobjects_0000_0017_0003
-title: MF_FILE_FLAGS
+title: MF_FILE_FLAGS (mfobjects.h)
 author: windows-sdk-content
 description: Specifies the behavior when opening a file.
 old-location: mf\mf_file_flags.htm

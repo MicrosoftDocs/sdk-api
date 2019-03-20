@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualBrush.GetVisual
-title: IXpsOMVisualBrush::GetVisual
+title: IXpsOMVisualBrush::GetVisual (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the interface of the resolved visual to be used as the source for the brush.
 old-location: xps\ixpsomvisualbrush_getvisual.htm

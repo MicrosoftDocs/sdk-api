@@ -1,6 +1,6 @@
 ---
 UID: NE:msopc.__MIDL___MIDL_itf_msopc_0000_0002_0002
-title: OPC_COMPRESSION_OPTIONS
+title: OPC_COMPRESSION_OPTIONS (msopc.h)
 author: windows-sdk-content
 description: Describes ways to compress part content.
 old-location: opc\opc_compression_options.htm

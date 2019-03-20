@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.GetSortColumnCount
-title: IFolderView2::GetSortColumnCount
+title: IFolderView2::GetSortColumnCount (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the count of sort columns currently applied to the view.
 old-location: shell\IFolderView2_GetSortColumnCount.htm

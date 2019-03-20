@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiSourceListAddMediaDiskW
-title: MsiSourceListAddMediaDiskW function
+title: MsiSourceListAddMediaDiskW function (msi.h)
 author: windows-sdk-content
 description: The MsiSourceListAddMediaDisk function adds or updates a disk of the media source of a registered product or patch.
 old-location: setup\msisourcelistaddmediadisk.htm

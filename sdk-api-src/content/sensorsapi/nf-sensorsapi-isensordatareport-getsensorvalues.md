@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsapi.ISensorDataReport.GetSensorValues
-title: ISensorDataReport::GetSensorValues
+title: ISensorDataReport::GetSensorValues (sensorsapi.h)
 author: windows-sdk-content
 description: Retrieves a collection of data field values.
 old-location: winsensors_com_ref\isensordatareport_getsensorvalues.htm

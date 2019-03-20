@@ -1,6 +1,6 @@
 ---
 UID: NF:ncrypt.NCryptEncrypt
-title: NCryptEncrypt function
+title: NCryptEncrypt function (ncrypt.h)
 author: windows-sdk-content
 description: Encrypts a block of data.
 old-location: security\ncryptencrypt_func.htm

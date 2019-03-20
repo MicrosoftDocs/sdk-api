@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedLabeledBy
-title: IUIAutomationElement::get_CachedLabeledBy
+title: IUIAutomationElement::get_CachedLabeledBy (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached element that contains the text label for this element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedLabeledBy.htm

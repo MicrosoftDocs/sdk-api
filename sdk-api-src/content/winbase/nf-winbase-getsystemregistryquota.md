@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetSystemRegistryQuota
-title: GetSystemRegistryQuota function
+title: GetSystemRegistryQuota function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the current size of the registry and the maximum size that the registry is allowed to attain on the system.
 old-location: base\getsystemregistryquota.htm

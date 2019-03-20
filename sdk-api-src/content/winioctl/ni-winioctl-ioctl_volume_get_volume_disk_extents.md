@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
-title: IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
+title: IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS (winioctl.h)
 author: windows-sdk-content
 description: Retrieves the physical location of a specified volume on one or more disks.
 old-location: fs\ioctl_volume_get_volume_disk_extents.htm

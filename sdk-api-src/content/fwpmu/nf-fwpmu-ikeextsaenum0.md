@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.IkeextSaEnum0
-title: IkeextSaEnum0 function
+title: IkeextSaEnum0 function (fwpmu.h)
 author: windows-sdk-content
 description: Returns the next page of results from the IKE/AuthIP security association (SA) enumerator.
 old-location: fwp\ikeextsaenum0.htm

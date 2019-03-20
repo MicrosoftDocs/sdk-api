@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.GetVerticalBlankStatus
-title: IDirectDraw7::GetVerticalBlankStatus
+title: IDirectDraw7::GetVerticalBlankStatus (ddraw.h)
 author: windows-sdk-content
 description: Retrieves the status of the vertical blank.
 old-location: directdraw\idirectdraw7_getverticalblankstatus.htm

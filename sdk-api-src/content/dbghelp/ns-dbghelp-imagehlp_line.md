@@ -1,6 +1,6 @@
 ---
 UID: NS:dbghelp._IMAGEHLP_LINE
-title: IMAGEHLP_LINE
+title: IMAGEHLP_LINE (dbghelp.h)
 author: windows-sdk-content
 description: Represents a source file line.
 old-location: base\imagehlp_line64_str.htm

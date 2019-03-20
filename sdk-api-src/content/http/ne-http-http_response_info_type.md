@@ -1,6 +1,6 @@
 ---
 UID: NE:http._HTTP_RESPONSE_INFO_TYPE
-title: HTTP_RESPONSE_INFO_TYPE
+title: HTTP_RESPONSE_INFO_TYPE (http.h)
 author: windows-sdk-content
 description: The HTTP_RESPONSE_INFO_TYPE enumeration defines the type of information contained in the HTTP_RESPONSE_INFO structure.This enumeration is used in the HTTP_RESPONSE_INFO structure.
 old-location: http\http_response_info_type.htm

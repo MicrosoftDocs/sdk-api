@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusinit.GdiplusStartup
-title: GdiplusStartup function
+title: GdiplusStartup function (gdiplusinit.h)
 author: windows-sdk-content
 description: The GdiplusStartup function initializes Windows GDI+. Call GdiplusStartup before making any other GDI+ calls, and call GdiplusShutdown when you have finished using GDI+.
 old-location: gdiplus\_gdiplus_FUNC_GdiplusStartup_token_input_output_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dsgetdc.DsGetForestTrustInformationW
-title: DsGetForestTrustInformationW function
+title: DsGetForestTrustInformationW function (dsgetdc.h)
 author: windows-sdk-content
 description: Obtains forest trust data for a specified domain.
 old-location: ad\dsgetforesttrustinformationw.htm

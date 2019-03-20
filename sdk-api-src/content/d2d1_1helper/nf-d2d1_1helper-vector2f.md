@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1helper.Vector2F
-title: Vector2F function
+title: Vector2F function (d2d1_1helper.h)
 author: windows-sdk-content
 description: Returns a filled D2D1_VECTOR_2F structure.
 old-location: direct2d\vector2f.htm

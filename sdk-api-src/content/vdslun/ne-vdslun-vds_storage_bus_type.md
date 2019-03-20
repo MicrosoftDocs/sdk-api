@@ -1,6 +1,6 @@
 ---
 UID: NE:vdslun._VDS_STORAGE_BUS_TYPE
-title: VDS_STORAGE_BUS_TYPE
+title: VDS_STORAGE_BUS_TYPE (vdslun.h)
 author: windows-sdk-content
 description: Defines the set of valid bus types of a storage device.
 old-location: base\vds_storage_bus_type.htm

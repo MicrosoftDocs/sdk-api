@@ -1,6 +1,6 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_RECEIVE
-title: WSMAN_PLUGIN_RECEIVE
+title: WSMAN_PLUGIN_RECEIVE (wsman.h)
 author: windows-sdk-content
 description: Defines the receive callback for a plug-in.
 old-location: winrm\wsman_plugin_receive.htm

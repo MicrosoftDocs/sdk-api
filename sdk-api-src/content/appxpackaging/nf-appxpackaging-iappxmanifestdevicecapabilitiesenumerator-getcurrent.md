@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestDeviceCapabilitiesEnumerator.GetCurrent
-title: IAppxManifestDeviceCapabilitiesEnumerator::GetCurrent
+title: IAppxManifestDeviceCapabilitiesEnumerator::GetCurrent (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the device capability at the current position of the enumerator.
 old-location: appxpkg\iappxmanifestdevicecapabilitiesenumerator_getcurrent.htm

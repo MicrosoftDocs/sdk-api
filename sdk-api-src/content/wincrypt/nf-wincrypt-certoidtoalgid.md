@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertOIDToAlgId
-title: CertOIDToAlgId function
+title: CertOIDToAlgId function (wincrypt.h)
 author: windows-sdk-content
 description: Use the CryptFindOIDInfo function instead of this function because ALG_ID identifiers are no longer supported in CNG.
 old-location: security\certoidtoalgid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilGetLongProperty
-title: ResUtilGetLongProperty function
+title: ResUtilGetLongProperty function (resapi.h)
 author: windows-sdk-content
 description: TBD. The PRESUTIL_GET_LONG_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilgetlongproperty.htm

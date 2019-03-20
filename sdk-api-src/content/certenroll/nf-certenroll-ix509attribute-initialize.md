@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Attribute.Initialize
-title: IX509Attribute::Initialize
+title: IX509Attribute::Initialize (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from an object identifier (OID) and a value.
 old-location: security\ix509attribute_initialize_method.htm

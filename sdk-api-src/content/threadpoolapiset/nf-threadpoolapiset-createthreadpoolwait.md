@@ -1,6 +1,6 @@
 ---
 UID: NF:threadpoolapiset.CreateThreadpoolWait
-title: CreateThreadpoolWait function
+title: CreateThreadpoolWait function (threadpoolapiset.h)
 author: windows-sdk-content
 description: Creates a new wait object.
 old-location: base\createthreadpoolwait.htm

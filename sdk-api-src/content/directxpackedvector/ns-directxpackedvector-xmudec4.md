@@ -1,6 +1,6 @@
 ---
 UID: NS:directxpackedvector.XMUDEC4
-title: XMUDEC4
+title: XMUDEC4 (directxpackedvector.h)
 author: windows-sdk-content
 description: A 4D vector with x-,y-, and z- components represented as 10 bit unsigned integer values, and the w-component as a 2 bit unsigned integer value.
 old-location: dxmath\xmudec4.htm

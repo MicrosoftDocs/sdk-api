@@ -1,6 +1,6 @@
 ---
 UID: NF:virtdisk.RawSCSIVirtualDisk
-title: RawSCSIVirtualDisk function
+title: RawSCSIVirtualDisk function (virtdisk.h)
 author: windows-sdk-content
 description: Issues an embedded SCSI request directly to a virtual hard disk.
 old-location: vhd\rawscsivirtualdisk.htm

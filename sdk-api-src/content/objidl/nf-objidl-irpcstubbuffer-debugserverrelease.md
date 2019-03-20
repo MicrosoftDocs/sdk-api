@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IRpcStubBuffer.DebugServerRelease
-title: IRpcStubBuffer::DebugServerRelease
+title: IRpcStubBuffer::DebugServerRelease (objidl.h)
 author: windows-sdk-content
 description: Releases an interface pointer that was previously returned by DebugServerQueryInterface.
 old-location: com\irpcstubbuffer_debugserverrelease.htm

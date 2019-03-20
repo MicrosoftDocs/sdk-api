@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncH264VProfile
-title: eAVEncH264VProfile
+title: eAVEncH264VProfile (codecapi.h)
 author: windows-sdk-content
 description: Specifies an H.264 video profile.
 old-location: mf\eavench264vprofile.htm

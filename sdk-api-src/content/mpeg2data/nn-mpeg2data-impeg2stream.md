@@ -1,6 +1,6 @@
 ---
 UID: NN:mpeg2data.IMpeg2Stream
-title: IMpeg2Stream
+title: IMpeg2Stream (mpeg2data.h)
 author: windows-sdk-content
 description: The IMpeg2Stream interface represents a stream of MPEG-2 data. The IMpeg2Data::GetStreamOfSections method returns a pointer to this interface.
 old-location: mstv\impeg2stream.htm

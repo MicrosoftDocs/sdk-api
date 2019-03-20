@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.UiaRaiseChangesEvent
-title: UiaRaiseChangesEvent function
+title: UiaRaiseChangesEvent function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Called by providers to notify the Microsoft UI Automation core that a change has occurred.
 old-location: winauto\uiauto_UiaRaiseChangesEventFunction.htm

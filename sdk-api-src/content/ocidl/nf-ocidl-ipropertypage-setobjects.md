@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPropertyPage.SetObjects
-title: IPropertyPage::SetObjects
+title: IPropertyPage::SetObjects (ocidl.h)
 author: windows-sdk-content
 description: Provides the property page with an array of pointers to objects associated with this property page.
 old-location: com\ipropertypage_setobjects.htm

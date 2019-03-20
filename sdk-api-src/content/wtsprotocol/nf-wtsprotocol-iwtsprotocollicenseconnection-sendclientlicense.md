@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolLicenseConnection.SendClientLicense
-title: IWTSProtocolLicenseConnection::SendClientLicense
+title: IWTSProtocolLicenseConnection::SendClientLicense (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolLicenseConnection::SendClientLicense is no longer available. Instead, use IWRdsProtocolLicenseConnection::SendClientLicense.
 old-location: termserv\iwtsprotocollicenseconnection_sendclientlicense.htm

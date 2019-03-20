@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.IStylesProvider
-title: IStylesProvider
+title: IStylesProvider (uiautomationcore.h)
 author: windows-sdk-content
 description: Provides access to the visual styles associated with the content of a document.
 old-location: winauto\uiauto_IStylesProvider.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProvider.GetCredentialCount
-title: ICredentialProvider::GetCredentialCount
+title: ICredentialProvider::GetCredentialCount (credentialprovider.h)
 author: windows-sdk-content
 description: Gets the number of available credentials under this credential provider.
 old-location: shell\ICredentialProvider_GetCredentialCount.htm

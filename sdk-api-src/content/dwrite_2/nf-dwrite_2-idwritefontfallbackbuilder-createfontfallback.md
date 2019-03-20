@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteFontFallbackBuilder.CreateFontFallback
-title: IDWriteFontFallbackBuilder::CreateFontFallback
+title: IDWriteFontFallbackBuilder::CreateFontFallback (dwrite_2.h)
 author: windows-sdk-content
 description: Creates the finalized fallback object from the mappings added.
 old-location: directwrite\idwritefontfallbackbuilder_createfontfallback.htm

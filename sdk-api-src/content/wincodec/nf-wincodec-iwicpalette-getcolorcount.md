@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICPalette.GetColorCount
-title: IWICPalette::GetColorCount
+title: IWICPalette::GetColorCount (wincodec.h)
 author: windows-sdk-content
 description: Retrieves the number of colors in the color table.
 old-location: wic\_wic_codec_iwicpalette_getcolorcount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.InterlockedAnd16
-title: InterlockedAnd16 function
+title: InterlockedAnd16 function (winnt.h)
 author: windows-sdk-content
 description: Performs an atomic AND operation on the specified SHORT values.
 old-location: base\interlockedand16.htm

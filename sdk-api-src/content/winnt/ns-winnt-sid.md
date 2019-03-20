@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._SID
-title: SID
+title: SID (winnt.h)
 author: windows-sdk-content
 description: Used to uniquely identify users or groups.
 old-location: security\sid.htm

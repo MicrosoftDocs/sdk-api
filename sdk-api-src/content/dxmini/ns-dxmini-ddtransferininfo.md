@@ -1,6 +1,6 @@
 ---
 UID: NS:dxmini._DDTRANSFERININFO
-title: DDTRANSFERININFO
+title: DDTRANSFERININFO (dxmini.h)
 author: windows-sdk-content
 description: The DDTRANSFERININFO structure contains the transfer information for the surface
 old-location: display\ddtransferininfo.htm

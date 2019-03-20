@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_GET_CLIENT_INFO
-title: LSA_GET_CLIENT_INFO
+title: LSA_GET_CLIENT_INFO (ntsecpkg.h)
 author: windows-sdk-content
 description: The GetClientInfo function gets information about the client process, such as thread and process ID, and flags indicating the client's state and privileges.
 old-location: security\getclientinfo.htm

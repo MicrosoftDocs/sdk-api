@@ -1,6 +1,6 @@
 ---
 UID: NF:errhandlingapi.SetLastError
-title: SetLastError function
+title: SetLastError function (errhandlingapi.h)
 author: windows-sdk-content
 description: Sets the last-error code for the calling thread.
 old-location: base\setlasterror.htm

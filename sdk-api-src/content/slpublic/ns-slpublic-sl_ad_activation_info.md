@@ -1,6 +1,6 @@
 ---
 UID: NS:slpublic._tagSL_AD_ACTIVATION_INFO
-title: SL_AD_ACTIVATION_INFO
+title: SL_AD_ACTIVATION_INFO (slpublic.h)
 author: windows-sdk-content
 description: Specifies information used for the retail or Active Directory phone activation of a license.
 old-location: security\sl_ad_activation_info.htm

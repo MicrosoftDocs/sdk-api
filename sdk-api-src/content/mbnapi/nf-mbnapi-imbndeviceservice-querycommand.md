@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.QueryCommand
-title: IMbnDeviceService::QueryCommand
+title: IMbnDeviceService::QueryCommand (mbnapi.h)
 author: windows-sdk-content
 description: Sends a QUERY control command to the device service of a Mobile Broadband device.
 old-location: mbn\imbndeviceservice_querycommand.htm

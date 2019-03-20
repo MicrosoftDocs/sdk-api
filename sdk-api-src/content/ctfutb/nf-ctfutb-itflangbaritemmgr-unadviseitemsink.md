@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.UnadviseItemSink
-title: ITfLangBarItemMgr::UnadviseItemSink
+title: ITfLangBarItemMgr::UnadviseItemSink (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarItemMgr::UnadviseItemSink method
 old-location: tsf\itflangbaritemmgr_unadviseitemsink.htm

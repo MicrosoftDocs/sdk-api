@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFont.GetFontFamily
-title: IDWriteFont::GetFontFamily
+title: IDWriteFont::GetFontFamily (dwrite.h)
 author: windows-sdk-content
 description: Gets the font family to which the specified font belongs.
 old-location: directwrite\IDWriteFont_GetFontFamily.htm

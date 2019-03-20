@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IRecoverableErrorData.GetItemDisplayName
-title: IRecoverableErrorData::GetItemDisplayName
+title: IRecoverableErrorData::GetItemDisplayName (winsync.h)
 author: windows-sdk-content
 description: Gets the display name of the item that caused the error.
 old-location: winsync\irecoverableerrordata_getitemdisplayname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSource.put_UnratedDelay
-title: IMSVidStreamBufferSource::put_UnratedDelay
+title: IMSVidStreamBufferSource::put_UnratedDelay (segment.h)
 author: windows-sdk-content
 description: The put_UnratedDelay method specifies how long the Video Control will play unrated content before blocking it. The value is ignored until the put_BlockUnrated method is called with the value VARIANT_TRUE.
 old-location: mstv\imsvidstreambuffersource_put_unrateddelay.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_FrequencyFilter.get_Frequency
-title: IBDA_FrequencyFilter::get_Frequency
+title: IBDA_FrequencyFilter::get_Frequency (bdaiface.h)
 author: windows-sdk-content
 description: The get_Frequency method retrieves the frequency.
 old-location: mstv\ibda_frequencyfilter_get_frequency.htm

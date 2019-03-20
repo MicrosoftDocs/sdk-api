@@ -1,6 +1,6 @@
 ---
 UID: NN:sdoias.ISdoServiceControl
-title: ISdoServiceControl
+title: ISdoServiceControl (sdoias.h)
 author: windows-sdk-content
 description: Use the ISdoServiceControl interface to control the service being administered on the SDO computer.
 old-location: nps\SDO_isdoservicecontrol.htm

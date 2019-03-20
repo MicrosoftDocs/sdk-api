@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IMcastScope.get_ScopeID
-title: IMcastScope::get_ScopeID
+title: IMcastScope::get_ScopeID (mdhcp.h)
 author: windows-sdk-content
 description: The get_ScopeID method obtains an identifier for the scope of multicast addresses.
 old-location: tapi3\imcastscope_get_scopeid.htm

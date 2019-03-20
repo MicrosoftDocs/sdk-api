@@ -1,6 +1,6 @@
 ---
 UID: NN:wcmconfig.ISettingsResult
-title: ISettingsResult
+title: ISettingsResult (wcmconfig.h)
 author: windows-sdk-content
 description: Retrieves the code and description for errors and warnings returned by various operations.
 old-location: smi\isettingsresult.htm

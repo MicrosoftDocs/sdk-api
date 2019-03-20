@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSink.GetPresentationClock
-title: IMFMediaSink::GetPresentationClock
+title: IMFMediaSink::GetPresentationClock (mfidl.h)
 author: windows-sdk-content
 description: Gets the presentation clock that was set on the media sink.
 old-location: mf\imfmediasink_getpresentationclock.htm

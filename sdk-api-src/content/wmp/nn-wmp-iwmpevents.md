@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPEvents
-title: IWMPEvents
+title: IWMPEvents (wmp.h)
 author: windows-sdk-content
 description: The IWMPEvents interface provides events that originate from the Windows Media Player control. An embedding program can respond to these events. The events exposed by IWMPEvents are also exposed by the _WMPOCXEvents interface.
 old-location: wmp\iwmpevents_interface.htm

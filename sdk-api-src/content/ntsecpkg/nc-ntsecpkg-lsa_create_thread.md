@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_CREATE_THREAD
-title: LSA_CREATE_THREAD
+title: LSA_CREATE_THREAD (ntsecpkg.h)
 author: windows-sdk-content
 description: A wrapper for the Windows CreateThread function that should be used by the Local Security Authority (LSA).
 old-location: security\createthread.htm

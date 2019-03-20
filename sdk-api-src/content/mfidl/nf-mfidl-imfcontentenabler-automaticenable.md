@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFContentEnabler.AutomaticEnable
-title: IMFContentEnabler::AutomaticEnable
+title: IMFContentEnabler::AutomaticEnable (mfidl.h)
 author: windows-sdk-content
 description: Performs a content enabling action without any user interaction.
 old-location: mf\imfcontentenabler_automaticenable.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMCUSTOMSPLITRECTINFO
-title: NMCUSTOMSPLITRECTINFO
+title: NMCUSTOMSPLITRECTINFO (commctrl.h)
 author: windows-sdk-content
 description: Contains information about the two rectangles of a split button. Sent with the NM_GETCUSTOMSPLITRECT notification.
 old-location: controls\NMCUSTOMSPLITRECTINFO.htm

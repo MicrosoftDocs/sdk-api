@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.IAnchor.SetChangeHistoryMask
-title: IAnchor::SetChangeHistoryMask
+title: IAnchor::SetChangeHistoryMask (textstor.h)
 author: windows-sdk-content
 description: This method has not been implemented.
 old-location: tsf\ianchor_setchangehistorymask.htm

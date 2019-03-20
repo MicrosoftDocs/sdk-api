@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Button_GetCheck
-title: Button_GetCheck macro
+title: Button_GetCheck macro (windowsx.h)
 author: windows-sdk-content
 description: Gets the check state of a radio button or check box. You can use this macro or send the BM_GETCHECK message explicitly.
 old-location: controls\Button_GetCheck.htm

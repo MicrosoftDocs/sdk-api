@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateFastMetadataEncoderFromFrameDecode
-title: IWICImagingFactory::CreateFastMetadataEncoderFromFrameDecode
+title: IWICImagingFactory::CreateFastMetadataEncoderFromFrameDecode (wincodec.h)
 author: windows-sdk-content
 description: Creates a new instance of the fast metadata encoder based on the given image frame.
 old-location: wic\_wic_codec_iwicimagingfactory_createfastmetadataencoderfromframedecode.htm

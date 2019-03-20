@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._LSA_LAST_INTER_LOGON_INFO
-title: LSA_LAST_INTER_LOGON_INFO
+title: LSA_LAST_INTER_LOGON_INFO (ntsecapi.h)
 author: windows-sdk-content
 description: Contains information about a logon session.
 old-location: security\lsa_last_inter_logon_info.htm

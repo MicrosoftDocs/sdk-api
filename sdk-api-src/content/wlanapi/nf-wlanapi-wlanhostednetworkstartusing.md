@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanHostedNetworkStartUsing
-title: WlanHostedNetworkStartUsing function
+title: WlanHostedNetworkStartUsing function (wlanapi.h)
 author: windows-sdk-content
 description: Starts the wireless Hosted Network.
 old-location: nwifi\wlanhostednetworkstartusing.htm

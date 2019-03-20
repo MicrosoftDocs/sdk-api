@@ -1,6 +1,6 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerFreeErrorMemory
-title: EapHostPeerFreeErrorMemory function
+title: EapHostPeerFreeErrorMemory function (eaphostpeerconfigapis.h)
 author: windows-sdk-content
 description: Frees memory allocated to an EAP_ERROR structure.
 old-location: eaphost\eaphostpeerfreeerrormemory.htm

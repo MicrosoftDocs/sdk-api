@@ -1,6 +1,6 @@
 ---
 UID: NN:syncmgr.ISyncMgrSyncItemContainer
-title: ISyncMgrSyncItemContainer
+title: ISyncMgrSyncItemContainer (syncmgr.h)
 author: windows-sdk-content
 description: Exposes methods that provide information to handlers about the items they contain.
 old-location: shell\ISyncMgrSyncItemContainer.htm

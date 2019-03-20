@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_ADDR_PATTERN
-title: DHCP_ADDR_PATTERN
+title: DHCP_ADDR_PATTERN (dhcpsapi.h)
 author: windows-sdk-content
 description: Contains the information regarding the link-layer address/pattern.
 old-location: dhcp\dhcp_addr_pattern.htm

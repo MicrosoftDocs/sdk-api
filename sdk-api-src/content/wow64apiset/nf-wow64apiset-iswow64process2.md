@@ -1,6 +1,6 @@
 ---
 UID: NF:wow64apiset.IsWow64Process2
-title: IsWow64Process2 function
+title: IsWow64Process2 function (wow64apiset.h)
 author: windows-sdk-content
 description: Determines whether the specified process is running under WOW64; also returns additional machine process and architecture information.
 old-location: base\iswow64process2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmError.get_DatabaseTable
-title: IMsmError::get_DatabaseTable
+title: IMsmError::get_DatabaseTable (mergemod.h)
 author: windows-sdk-content
 description: The get_DatabaseTable method retrieves the DatabaseTable property of the Error object. The method returns the name of the table in the database that caused the error.
 old-location: setup\imsmerror_get_databasetable.htm

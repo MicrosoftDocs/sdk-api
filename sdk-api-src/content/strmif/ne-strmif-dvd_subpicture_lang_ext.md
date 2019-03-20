@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagDVD_SUBPICTURE_LANG_EXT
-title: DVD_SUBPICTURE_LANG_EXT
+title: DVD_SUBPICTURE_LANG_EXT (strmif.h)
 author: windows-sdk-content
 description: Defines the possible language extensions in a specified subpicture stream.
 old-location: dshow\dvd_subpicture_lang_ext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_105
-title: WS_POLICY_STATE
+title: WS_POLICY_STATE (webservices.h)
 author: windows-sdk-content
 description: The state of the policy object.
 old-location: wsw\ws_policy_state.htm

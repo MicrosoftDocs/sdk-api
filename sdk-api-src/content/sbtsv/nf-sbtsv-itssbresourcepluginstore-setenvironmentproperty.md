@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SetEnvironmentProperty
-title: ITsSbResourcePluginStore::SetEnvironmentProperty
+title: ITsSbResourcePluginStore::SetEnvironmentProperty (sbtsv.h)
 author: windows-sdk-content
 description: Sets a property of an environment.
 old-location: termserv\itssbresourcepluginstore_setenvironmentproperty.htm

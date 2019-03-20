@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_Disconnect
-title: IWMSecureChannel::WMSC_Disconnect
+title: IWMSecureChannel::WMSC_Disconnect (wmsecure.h)
 author: windows-sdk-content
 description: The WMSC_Disconnect method destroys the secure connection.
 old-location: wmformat\iwmsecurechannel_wmsc_disconnect.htm

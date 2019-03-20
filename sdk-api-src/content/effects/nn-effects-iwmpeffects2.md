@@ -1,6 +1,6 @@
 ---
 UID: NN:effects.IWMPEffects2
-title: IWMPEffects2
+title: IWMPEffects2 (effects.h)
 author: windows-sdk-content
 description: IWMPEffects2 interface
 old-location: wmp\iwmpeffects2.htm

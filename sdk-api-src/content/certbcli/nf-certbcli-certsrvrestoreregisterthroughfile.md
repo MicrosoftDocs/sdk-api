@@ -1,6 +1,6 @@
 ---
 UID: NF:certbcli.CertSrvRestoreRegisterThroughFile
-title: CertSrvRestoreRegisterThroughFile function
+title: CertSrvRestoreRegisterThroughFile function (certbcli.h)
 author: windows-sdk-content
 description: Registers a Certificate Services restore.
 old-location: security\certsrvrestoreregisterthroughfile.htm

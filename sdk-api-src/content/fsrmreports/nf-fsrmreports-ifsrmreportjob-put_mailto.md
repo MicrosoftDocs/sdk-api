@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.put_MailTo
-title: IFsrmReportJob::put_MailTo
+title: IFsrmReportJob::put_MailTo (fsrmreports.h)
 author: windows-sdk-content
 description: Retrieves or sets the email addresses of those that will receive the reports via email.
 old-location: fsrm\ifsrmreportjob_mailto.htm

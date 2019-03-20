@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemContext.EndEnumeration
-title: IWbemContext::EndEnumeration
+title: IWbemContext::EndEnumeration (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemContext::EndEnumeration method ends an enumeration sequence that begins with IWbemContext::BeginEnumeration. This call is not required, but it releases as early as possible any system resources associated with the enumeration.
 old-location: wmi\iwbemcontext_endenumeration.htm

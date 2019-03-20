@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.UrlFixupW
-title: UrlFixupW function
+title: UrlFixupW function (shlwapi.h)
 author: windows-sdk-content
 description: UrlFixupW may be altered or unavailable.
 old-location: shell\UrlFixupW.htm

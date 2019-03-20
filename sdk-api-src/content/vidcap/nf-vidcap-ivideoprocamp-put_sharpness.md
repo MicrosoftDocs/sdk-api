@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_Sharpness
-title: IVideoProcAmp::put_Sharpness
+title: IVideoProcAmp::put_Sharpness (vidcap.h)
 author: windows-sdk-content
 description: The put_Sharpness method sets the camera's sharpness setting.
 old-location: dshow\ivideoprocamp_put_sharpness.htm

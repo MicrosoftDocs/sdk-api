@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.IsThreadFocus
-title: ITfThreadMgr2::IsThreadFocus
+title: ITfThreadMgr2::IsThreadFocus (msctf.h)
 author: windows-sdk-content
 description: Determines if the calling thread has the TSF input focus.
 old-location: tsf\itfthreadmgr2_isthreadfocus.htm

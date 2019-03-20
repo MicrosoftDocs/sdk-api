@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICodecAPI.GetParameterRange
-title: ICodecAPI::GetParameterRange
+title: ICodecAPI::GetParameterRange (strmif.h)
 author: windows-sdk-content
 description: The GetParameterRange method gets the range of values for a codec property.
 old-location: dshow\icodecapi_getparameterrange.htm

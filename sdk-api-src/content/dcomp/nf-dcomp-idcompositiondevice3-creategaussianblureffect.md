@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateGaussianBlurEffect
-title: IDCompositionDevice3::CreateGaussianBlurEffect
+title: IDCompositionDevice3::CreateGaussianBlurEffect (dcomp.h)
 author: windows-sdk-content
 description: Creates an instance of IDCompositionGaussianBlurEffect.
 old-location: directcomp\idcompositiondevice3_creategaussianblureffect.htm

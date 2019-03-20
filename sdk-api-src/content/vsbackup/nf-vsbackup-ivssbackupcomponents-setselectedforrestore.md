@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SetSelectedForRestore
-title: IVssBackupComponents::SetSelectedForRestore
+title: IVssBackupComponents::SetSelectedForRestore (vsbackup.h)
 author: windows-sdk-content
 description: The SetSelectedForRestore method indicates whether the specified selectable component is selected for restoration.
 old-location: base\ivssbackupcomponents_setselectedforrestore.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.AM_SEEKING_SeekingCapabilities
-title: AM_SEEKING_SEEKING_CAPABILITIES
+title: AM_SEEKING_SEEKING_CAPABILITIES (strmif.h)
 author: windows-sdk-content
 description: Specifies the seeking capabilities of a media stream.
 old-location: dshow\am_seeking_seeking_capabilities.htm

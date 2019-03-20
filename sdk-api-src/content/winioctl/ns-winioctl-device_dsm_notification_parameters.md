@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DEVICE_DSM_NOTIFICATION_PARAMETERS
-title: DEVICE_DSM_NOTIFICATION_PARAMETERS
+title: DEVICE_DSM_NOTIFICATION_PARAMETERS (winioctl.h)
 author: windows-sdk-content
 description: Contains parameters for the DeviceDsmAction_Notification action for the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
 old-location: base\device_dsm_notification_parameters.htm

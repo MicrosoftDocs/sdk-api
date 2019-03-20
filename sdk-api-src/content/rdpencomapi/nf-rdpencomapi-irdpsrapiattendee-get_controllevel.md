@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendee.get_ControlLevel
-title: IRDPSRAPIAttendee::get_ControlLevel
+title: IRDPSRAPIAttendee::get_ControlLevel (rdpencomapi.h)
 author: windows-sdk-content
 description: The level of control the attendee has over the session.
 old-location: rdp\irdpsrapiattendee_controllevel.htm

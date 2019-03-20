@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfQueryEmbedded
-title: ITfQueryEmbedded
+title: ITfQueryEmbedded (msctf.h)
 author: windows-sdk-content
 description: The ITfQueryEmbedded interface is implemented by the TSF manager and used by a text service to determine if a context can accept an embedded object.
 old-location: tsf\itfqueryembedded.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:syncmgr.SYNCMGR_PRESENTER_NEXT_STEP
-title: SYNCMGR_PRESENTER_NEXT_STEP
+title: SYNCMGR_PRESENTER_NEXT_STEP (syncmgr.h)
 author: windows-sdk-content
 description: Describes the next step that is to occur in sync manager conflict resolution. Used by ISyncMgrConflictPresenter.
 old-location: shell\SYNCMGR_PRESENTER_NEXT_STEP.htm

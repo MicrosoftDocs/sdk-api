@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderUserArray.GetCount
-title: ICredentialProviderUserArray::GetCount
+title: ICredentialProviderUserArray::GetCount (credentialprovider.h)
 author: windows-sdk-content
 description: Retrieves the number of ICredentialProviderUser objects in the user array.
 old-location: shell\ICredentialProviderUserArray_GetCount.htm

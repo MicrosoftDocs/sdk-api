@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.SetUseAliasedEdgeMode
-title: IXpsOMCanvas::SetUseAliasedEdgeMode
+title: IXpsOMCanvas::SetUseAliasedEdgeMode (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the value that determines whether the edges of objects in this canvas will be rendered using the aliased edge mode.
 old-location: xps\ixpsomcanvas_setusealiasededgemode.htm

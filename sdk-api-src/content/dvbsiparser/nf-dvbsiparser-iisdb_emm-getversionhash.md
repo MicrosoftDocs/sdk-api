@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_EMM.GetVersionHash
-title: IISDB_EMM::GetVersionHash
+title: IISDB_EMM::GetVersionHash (dvbsiparser.h)
 author: windows-sdk-content
 description: Returns a hash value for this instance of an Integrated Services Digital Broadcasting (ISDB) entitlement management message (EMM) table.
 old-location: mstv\iisdb_emm_getversionhash.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_SetCertCNCheck
-title: MI_DestinationOptions_SetCertCNCheck function
+title: MI_DestinationOptions_SetCertCNCheck function (mi.h)
 author: windows-sdk-content
 description: Enables or disables the certificate CN check when an SSL transport is used.
 old-location: wmi_v2\mi_destinationoptions_setcertcncheck.htm

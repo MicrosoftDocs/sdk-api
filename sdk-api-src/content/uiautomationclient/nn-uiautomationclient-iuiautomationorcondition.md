@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationOrCondition
-title: IUIAutomationOrCondition
+title: IUIAutomationOrCondition (uiautomationclient.h)
 author: windows-sdk-content
 description: Represents a condition made up of multiple conditions, at least one of which must be true.
 old-location: winauto\uiauto_IUIAutomationOrCondition.htm

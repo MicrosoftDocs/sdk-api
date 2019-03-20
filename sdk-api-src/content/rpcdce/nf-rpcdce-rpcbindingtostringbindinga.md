@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcBindingToStringBindingA
-title: RpcBindingToStringBindingA function
+title: RpcBindingToStringBindingA function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcBindingToStringBinding function returns a string representation of a binding handle.
 old-location: rpc\rpcbindingtostringbinding.htm

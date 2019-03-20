@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.SetAnimationMode
-title: IUIAnimationManager2::SetAnimationMode
+title: IUIAnimationManager2::SetAnimationMode (uianimation.h)
 author: windows-sdk-content
 description: Sets the animation mode.
 old-location: uianimation\iuianimationmanager2_setanimationmode.htm

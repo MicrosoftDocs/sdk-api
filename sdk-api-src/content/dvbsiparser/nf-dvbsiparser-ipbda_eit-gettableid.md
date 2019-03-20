@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IPBDA_EIT.GetTableId
-title: IPBDA_EIT::GetTableId
+title: IPBDA_EIT::GetTableId (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the table identifier from an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_eit_gettableid.htm

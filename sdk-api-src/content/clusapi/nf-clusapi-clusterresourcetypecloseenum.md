@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterResourceTypeCloseEnum
-title: ClusterResourceTypeCloseEnum function
+title: ClusterResourceTypeCloseEnum function (clusapi.h)
 author: windows-sdk-content
 description: Closes a resource type enumeration handle.
 old-location: mscs\clusterresourcetypecloseenum.htm

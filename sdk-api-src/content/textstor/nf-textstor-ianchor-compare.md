@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.IAnchor.Compare
-title: IAnchor::Compare
+title: IAnchor::Compare (textstor.h)
 author: windows-sdk-content
 description: The IAnchor::Compare method compares the relative position of two anchors within a text stream.
 old-location: tsf\ianchor_compare.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollItemPattern.ScrollIntoView
-title: IUIAutomationScrollItemPattern::ScrollIntoView
+title: IUIAutomationScrollItemPattern::ScrollIntoView (uiautomationclient.h)
 author: windows-sdk-content
 description: Scrolls the content area of a container object to display the UI Automation element within the visible region (viewport) of the container.
 old-location: winauto\uiauto_IUIAutomationScrollItemPattern_ScrollIntoView.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsbapp.IWsbApplicationRestoreSupport.PostRestore
-title: IWsbApplicationRestoreSupport::PostRestore
+title: IWsbApplicationRestoreSupport::PostRestore (wsbapp.h)
 author: windows-sdk-content
 description: Performs application-specific PostRestore operations.
 old-location: wsb\iwsbapplicationrestoresupport_postrestore.htm

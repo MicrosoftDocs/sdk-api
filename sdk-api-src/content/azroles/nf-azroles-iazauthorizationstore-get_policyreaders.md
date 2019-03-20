@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_PolicyReaders
-title: IAzAuthorizationStore::get_PolicyReaders
+title: IAzAuthorizationStore::get_PolicyReaders (azroles.h)
 author: windows-sdk-content
 description: Retrieves the security identifiers (SIDs) of principals that act as policy readers in text form.
 old-location: security\azauthorizationstore_policyreaders.htm

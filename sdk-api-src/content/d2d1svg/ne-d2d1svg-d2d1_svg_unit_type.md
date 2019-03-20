@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1svg.D2D1_SVG_UNIT_TYPE
-title: D2D1_SVG_UNIT_TYPE
+title: D2D1_SVG_UNIT_TYPE (d2d1svg.h)
 author: windows-sdk-content
 description: Defines the coordinate system used for SVG gradient or clipPath elements.
 old-location: direct2d\d2d1_svg_unit_type.htm

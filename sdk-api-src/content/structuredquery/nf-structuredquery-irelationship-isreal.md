@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IRelationship.IsReal
-title: IRelationship::IsReal
+title: IRelationship::IsReal (structuredquery.h)
 author: windows-sdk-content
 description: Reports whether a relationship is real.
 old-location: search\_search_IRelationship_IsReal.htm

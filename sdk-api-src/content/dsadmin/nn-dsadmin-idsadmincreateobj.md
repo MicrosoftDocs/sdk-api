@@ -1,6 +1,6 @@
 ---
 UID: NN:dsadmin.IDsAdminCreateObj
-title: IDsAdminCreateObj
+title: IDsAdminCreateObj (dsadmin.h)
 author: windows-sdk-content
 description: Used by an application or component to programmatically start a creation wizard for a specified object class.
 old-location: ad\idsadmincreateobj.htm

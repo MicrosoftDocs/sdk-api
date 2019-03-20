@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.BeginBufferedPaint
-title: BeginBufferedPaint function
+title: BeginBufferedPaint function (uxtheme.h)
 author: windows-sdk-content
 description: Begins a buffered paint operation.
 old-location: controls\BeginBufferedPaint.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.getsockname
-title: getsockname function
+title: getsockname function (winsock2.h)
 author: windows-sdk-content
 description: The getsockname function retrieves the local name for a socket.
 old-location: winsock\getsockname_2.htm

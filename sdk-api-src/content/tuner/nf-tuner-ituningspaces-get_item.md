@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpaces.get_Item
-title: ITuningSpaces::get_Item
+title: ITuningSpaces::get_Item (tuner.h)
 author: windows-sdk-content
 description: The get_Item method returns the specified item in the collection.
 old-location: mstv\ituningspaces_get_item.htm

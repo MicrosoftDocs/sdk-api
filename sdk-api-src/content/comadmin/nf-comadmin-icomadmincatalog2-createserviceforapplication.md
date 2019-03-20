@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.CreateServiceForApplication
-title: ICOMAdminCatalog2::CreateServiceForApplication
+title: ICOMAdminCatalog2::CreateServiceForApplication (comadmin.h)
 author: windows-sdk-content
 description: Configures a COM+ application to run as a Windows service.
 old-location: cos\icomadmincatalog2_createserviceforapplication.htm

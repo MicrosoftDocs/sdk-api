@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBuffer.GetUpdating
-title: IMFSourceBuffer::GetUpdating
+title: IMFSourceBuffer::GetUpdating (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets a value that indicates if Append, AppendByteStream, or Remove is in process.
 old-location: mf\imfsourcebuffer_getupdating.htm

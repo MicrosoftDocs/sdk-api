@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10_1shader._D3D10_SHADER_DEBUG_FILE_INFO
-title: D3D10_SHADER_DEBUG_FILE_INFO
+title: D3D10_SHADER_DEBUG_FILE_INFO (d3d10_1shader.h)
 author: windows-sdk-content
 description: Describes files included by a shader.
 old-location: direct3d10\d3d10_shader_debug_file_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.GetInputFormat
-title: IWMWriter::GetInputFormat
+title: IWMWriter::GetInputFormat (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetInputFormat method retrieves possible media formats for the specified input.
 old-location: wmformat\iwmwriter_getinputformat.htm

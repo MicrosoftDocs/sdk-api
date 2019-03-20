@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_GuideDataDeliveryService.GetGuideData
-title: IBDA_GuideDataDeliveryService::GetGuideData
+title: IBDA_GuideDataDeliveryService::GetGuideData (bdaiface.h)
 author: windows-sdk-content
 description: Gets the next set of guide data that is available.
 old-location: mstv\ibda_guidedatadeliveryservice_getguidedata.htm

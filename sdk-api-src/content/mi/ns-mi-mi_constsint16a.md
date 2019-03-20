@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_ConstSint16A
-title: MI_ConstSint16A
+title: MI_ConstSint16A (mi.h)
 author: windows-sdk-content
 description: Represents an array of MI_Sint16 types.
 old-location: wmi_v2\mi_constsint16a.htm

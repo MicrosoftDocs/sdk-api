@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.LsaSetInformationPolicy
-title: LsaSetInformationPolicy function
+title: LsaSetInformationPolicy function (ntsecapi.h)
 author: windows-sdk-content
 description: Modifies information in a Policy object.
 old-location: security\lsasetinformationpolicy.htm

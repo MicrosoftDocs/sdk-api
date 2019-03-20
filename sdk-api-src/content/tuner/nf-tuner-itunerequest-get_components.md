@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuneRequest.get_Components
-title: ITuneRequest::get_Components
+title: ITuneRequest::get_Components (tuner.h)
 author: windows-sdk-content
 description: The get_Components method retrieves the components contained in this tune request.
 old-location: mstv\itunerequest_get_components.htm

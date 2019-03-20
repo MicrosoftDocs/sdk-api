@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteBSTR
-title: PSPropertyBag_WriteBSTR function
+title: PSPropertyBag_WriteBSTR function (propsys.h)
 author: windows-sdk-content
 description: Sets the BSTR value of a property in a property bag.
 old-location: properties\PSPropertyBag_WriteBSTR.htm

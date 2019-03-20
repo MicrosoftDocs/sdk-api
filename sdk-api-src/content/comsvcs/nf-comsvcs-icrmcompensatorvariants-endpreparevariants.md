@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmCompensatorVariants.EndPrepareVariants
-title: ICrmCompensatorVariants::EndPrepareVariants
+title: ICrmCompensatorVariants::EndPrepareVariants (comsvcs.h)
 author: windows-sdk-content
 description: Notifies the CRM Compensator that it has had all the log records available during the prepare phase.
 old-location: cos\icrmcompensatorvariants_endpreparevariants.htm

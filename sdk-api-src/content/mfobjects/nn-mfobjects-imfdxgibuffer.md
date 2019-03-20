@@ -1,6 +1,6 @@
 ---
 UID: NN:mfobjects.IMFDXGIBuffer
-title: IMFDXGIBuffer
+title: IMFDXGIBuffer (mfobjects.h)
 author: windows-sdk-content
 description: Represents a buffer that contains a Microsoft DirectX Graphics Infrastructure (DXGI)surface.
 old-location: mf\imfdxgibuffer.htm

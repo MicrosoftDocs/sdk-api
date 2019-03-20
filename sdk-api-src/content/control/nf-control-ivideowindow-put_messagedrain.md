@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.put_MessageDrain
-title: IVideoWindow::put_MessageDrain
+title: IVideoWindow::put_MessageDrain (control.h)
 author: windows-sdk-content
 description: The put_MessageDrain method specifies a window to receive mouse and keyboard messages from the video window.
 old-location: dshow\ivideowindow_put_messagedrain.htm

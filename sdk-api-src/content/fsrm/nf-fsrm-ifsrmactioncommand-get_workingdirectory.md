@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmActionCommand.get_WorkingDirectory
-title: IFsrmActionCommand::get_WorkingDirectory
+title: IFsrmActionCommand::get_WorkingDirectory (fsrm.h)
 author: windows-sdk-content
 description: Retrieves or sets the working directory in which the executable program will run.
 old-location: fsrm\ifsrmactioncommand_workingdirectory.htm

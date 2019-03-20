@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardForgetReaderGroupW
-title: SCardForgetReaderGroupW function
+title: SCardForgetReaderGroupW function (winscard.h)
 author: windows-sdk-content
 description: Removes a previously introduced smart card reader group from the smart card subsystem. Although this function automatically clears all readers from the group, it does not affect the existence of the individual readers in the database.
 old-location: security\scardforgetreadergroup.htm

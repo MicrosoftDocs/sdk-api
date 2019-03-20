@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll2.GetKeyLen
-title: IEnroll2::GetKeyLen
+title: IEnroll2::GetKeyLen (xenroll.h)
 author: windows-sdk-content
 description: The IEnroll4::GetKeyLen method retrieves the minimum and maximum key lengths for the signature and exchange keys.
 old-location: security\ienroll4_getkeylen.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ncrypt.NCryptCreatePersistedKey
-title: NCryptCreatePersistedKey function
+title: NCryptCreatePersistedKey function (ncrypt.h)
 author: windows-sdk-content
 description: Creates a new key and stores it in the specified key storage provider.
 old-location: security\ncryptcreatepersistedkey_func.htm

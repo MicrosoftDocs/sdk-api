@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_SETEXCLUSIVEMODEDATA
-title: DD_SETEXCLUSIVEMODEDATA
+title: DD_SETEXCLUSIVEMODEDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_SETEXCLUSIVEMODEDATA structure contains the exclusive mode notification information.
 old-location: display\dd_setexclusivemodedata.htm

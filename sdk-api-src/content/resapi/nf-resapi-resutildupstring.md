@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilDupString
-title: ResUtilDupString function
+title: ResUtilDupString function (resapi.h)
 author: windows-sdk-content
 description: Duplicates a null-terminated Unicode string.
 old-location: mscs\resutildupstring.htm

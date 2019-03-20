@@ -1,6 +1,6 @@
 ---
 UID: NS:wmiutils.tag_SWbemRpnEncodedQuery
-title: SWbemRpnEncodedQuery
+title: SWbemRpnEncodedQuery (wmiutils.h)
 author: windows-sdk-content
 description: The SWbemRpnEncodedQuery structure contains information from the IWbemQuery::GetAnalysis method when you use the WMIQ_ANALYSIS_RPN_SEQUENCE analysis type. Not all the fields in the structure are used actively, because some are reserved for future use.
 old-location: wmi\swbemrpnencodedquery.htm

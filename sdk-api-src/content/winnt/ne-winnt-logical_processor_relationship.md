@@ -1,6 +1,6 @@
 ---
 UID: NE:winnt._LOGICAL_PROCESSOR_RELATIONSHIP
-title: LOGICAL_PROCESSOR_RELATIONSHIP
+title: LOGICAL_PROCESSOR_RELATIONSHIP (winnt.h)
 author: windows-sdk-content
 description: Represents the relationship between the processor set identified in the corresponding SYSTEM_LOGICAL_PROCESSOR_INFORMATION or SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX structure.
 old-location: base\logical_processor_relationship.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMOperation3.TransferObjectDataOnClearChannel
-title: IWMDMOperation3::TransferObjectDataOnClearChannel
+title: IWMDMOperation3::TransferObjectDataOnClearChannel (mswmdm.h)
 author: windows-sdk-content
 description: The TransferObjectDataOnClearChannel method is a more efficient implementation of IWMDMOperation::TransferObjectData.
 old-location: wmdm\iwmdmoperation3__transferobjectdataonclearchannel.htm

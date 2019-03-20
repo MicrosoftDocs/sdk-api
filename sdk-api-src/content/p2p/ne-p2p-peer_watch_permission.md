@@ -1,6 +1,6 @@
 ---
 UID: NE:p2p.peer_watch_permission_tag
-title: PEER_WATCH_PERMISSION
+title: PEER_WATCH_PERMISSION (p2p.h)
 author: windows-sdk-content
 description: Defines whether a peer contact can receive presence updates from a contact.
 old-location: p2p\peer_watch_permission.htm

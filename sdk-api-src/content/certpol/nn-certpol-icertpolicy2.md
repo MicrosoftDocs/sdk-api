@@ -1,6 +1,6 @@
 ---
 UID: NN:certpol.ICertPolicy2
-title: ICertPolicy2
+title: ICertPolicy2 (certpol.h)
 author: windows-sdk-content
 description: Provide communications between the Certificate Services server engine and the policy module.
 old-location: security\icertpolicy2.htm

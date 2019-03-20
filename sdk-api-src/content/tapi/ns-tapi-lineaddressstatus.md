@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.lineaddressstatus_tag
-title: LINEADDRESSSTATUS
+title: LINEADDRESSSTATUS (tapi.h)
 author: windows-sdk-content
 description: The LINEADDRESSSTATUS structure describes the current status of an address. The lineGetAddressStatus function and the TSPI_lineGetAddressStatus function return the LINEADDRESSSTATUS structure.
 old-location: tapi2\lineaddressstatus_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.ObjectOpenAuditAlarmA
-title: ObjectOpenAuditAlarmA function
+title: ObjectOpenAuditAlarmA function (winbase.h)
 author: windows-sdk-content
 description: Generates audit messages when a client application attempts to gain access to an object or to create a new one.
 old-location: security\objectopenauditalarm.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsdefs._WTS_SESSION_ID
-title: WTS_SESSION_ID
+title: WTS_SESSION_ID (wtsdefs.h)
 author: windows-sdk-content
 description: Contains a GUID that uniquely identifies a session.
 old-location: termserv\wts_session_id.htm

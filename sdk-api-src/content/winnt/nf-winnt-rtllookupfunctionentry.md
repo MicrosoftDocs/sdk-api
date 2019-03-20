@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.RtlLookupFunctionEntry
-title: RtlLookupFunctionEntry function
+title: RtlLookupFunctionEntry function (winnt.h)
 author: windows-sdk-content
 description: Searches the active function tables for an entry that corresponds to the specified PC value.
 old-location: base\rtllookupfunctionentry.htm

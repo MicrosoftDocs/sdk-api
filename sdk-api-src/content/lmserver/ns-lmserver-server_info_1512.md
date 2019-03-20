@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1512
-title: SERVER_INFO_1512
+title: SERVER_INFO_1512 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1512 structure contains the maximum size of nonpaged memory that the specified server can allocate at a particular time.
 old-location: netmgmt\server_info_1512_str.htm

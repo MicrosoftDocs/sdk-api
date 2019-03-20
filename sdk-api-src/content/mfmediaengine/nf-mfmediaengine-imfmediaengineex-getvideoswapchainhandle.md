@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetVideoSwapchainHandle
-title: IMFMediaEngineEx::GetVideoSwapchainHandle
+title: IMFMediaEngineEx::GetVideoSwapchainHandle (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets a handle to the windowless swap chain.
 old-location: mf\imfmediaengineex_getvideoswapchainhandle.htm

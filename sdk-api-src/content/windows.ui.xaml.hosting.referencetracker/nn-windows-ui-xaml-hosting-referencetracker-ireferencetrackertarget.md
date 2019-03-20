@@ -1,6 +1,6 @@
 ---
 UID: NN:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerTarget
-title: IReferenceTrackerTarget
+title: IReferenceTrackerTarget (windows.ui.xaml.hosting.referencetracker.h)
 author: windows-sdk-content
 description: Defines an interface implemented by a garbage collector object referenced from XAML.
 old-location: winrt\ireferencetrackertarget.htm

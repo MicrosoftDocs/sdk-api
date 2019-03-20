@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager2.ClassifyFiles
-title: IFsrmClassificationManager2::ClassifyFiles
+title: IFsrmClassificationManager2::ClassifyFiles (fsrmpipeline.h)
 author: windows-sdk-content
 description: This method is used to perform bulk enumeration, setting, and clearing of file properties.
 old-location: fsrm\ifsrmclassificationmanager2_classifyfiles.htm

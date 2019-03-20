@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetDlgItem
-title: GetDlgItem function
+title: GetDlgItem function (winuser.h)
 author: windows-sdk-content
 description: Retrieves a handle to a control in the specified dialog box.
 old-location: dlgbox\getdlgitem.htm

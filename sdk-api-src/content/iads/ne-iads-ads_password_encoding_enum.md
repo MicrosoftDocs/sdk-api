@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0000_0000_0026
-title: ADS_PASSWORD_ENCODING_ENUM
+title: ADS_PASSWORD_ENCODING_ENUM (iads.h)
 author: windows-sdk-content
 description: Identifies the type of password encoding used with the ADS_OPTION_PASSWORD_METHOD option in the IADsObjectOptions::GetOption and IADsObjectOptions::SetOption methods.
 old-location: adsi\ads_password_encoding_enum.htm

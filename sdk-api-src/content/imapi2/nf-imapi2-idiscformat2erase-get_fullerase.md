@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Erase.get_FullErase
-title: IDiscFormat2Erase::get_FullErase
+title: IDiscFormat2Erase::get_FullErase (imapi2.h)
 author: windows-sdk-content
 description: Determines the quality of the disc erasure.
 old-location: imapi\idiscformat2erase_get_fullerase.htm

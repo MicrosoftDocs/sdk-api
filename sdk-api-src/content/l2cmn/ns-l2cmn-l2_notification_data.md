@@ -1,6 +1,6 @@
 ---
 UID: NS:l2cmn._L2_NOTIFICATION_DATA
-title: L2_NOTIFICATION_DATA
+title: L2_NOTIFICATION_DATA (l2cmn.h)
 author: windows-sdk-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\l2_notification_data.htm

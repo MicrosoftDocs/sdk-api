@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.RegisterTouchHitTestingWindow
-title: RegisterTouchHitTestingWindow function
+title: RegisterTouchHitTestingWindow function (winuser.h)
 author: windows-sdk-content
 description: Registers a window to process the WM_TOUCHHITTESTING notification.
 old-location: input_touchhittest\registertouchhittestingwindow.htm

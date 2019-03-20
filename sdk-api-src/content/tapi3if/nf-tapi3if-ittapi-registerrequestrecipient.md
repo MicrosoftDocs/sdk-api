@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITTAPI.RegisterRequestRecipient
-title: ITTAPI::RegisterRequestRecipient
+title: ITTAPI::RegisterRequestRecipient (tapi3if.h)
 author: windows-sdk-content
 description: The RegisterRequestRecipient method registers an application instance as being the proper one to handle assisted telephony requests.
 old-location: tapi3\ittapi_registerrequestrecipient.htm

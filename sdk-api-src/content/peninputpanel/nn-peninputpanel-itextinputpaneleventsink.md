@@ -1,6 +1,6 @@
 ---
 UID: NN:peninputpanel.ITextInputPanelEventSink
-title: ITextInputPanelEventSink
+title: ITextInputPanelEventSink (peninputpanel.h)
 author: windows-sdk-content
 description: Defines methods that handle the ITextInputPanel Interface events.
 old-location: tablet\itextinputpaneleventsink.htm

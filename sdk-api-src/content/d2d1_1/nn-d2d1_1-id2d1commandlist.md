@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_1.ID2D1CommandList
-title: ID2D1CommandList
+title: ID2D1CommandList (d2d1_1.h)
 author: windows-sdk-content
 description: Represents a sequence of commands that can be recorded and played back.
 old-location: direct2d\id2d1commandlist.htm

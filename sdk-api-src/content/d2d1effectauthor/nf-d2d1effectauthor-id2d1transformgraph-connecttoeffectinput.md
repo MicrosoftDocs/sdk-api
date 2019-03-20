@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1TransformGraph.ConnectToEffectInput
-title: ID2D1TransformGraph::ConnectToEffectInput
+title: ID2D1TransformGraph::ConnectToEffectInput (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Connects a transform node inside the graph to the corresponding effect input of the encapsulating effect.
 old-location: direct2d\id2d1transformgraph_connecttoeffectinput.htm

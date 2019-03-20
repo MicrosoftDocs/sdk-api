@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhOpenLogW
-title: PdhOpenLogW function
+title: PdhOpenLogW function (pdh.h)
 author: windows-sdk-content
 description: Opens the specified log file for reading or writing.
 old-location: perf\pdhopenlog.htm
@@ -306,6 +306,13 @@ To use this function to write performance data to a log file, you must open a qu
 
 Newer operating systems can read log files that were generated on older operating systems; however, log files that were created on Windows Vista and later operating systems cannot be read on earlier operating systems.
 
+The following rules apply to log files
+
+- READ_ACCESS requires OPEN_EXISTING.
+
+- UPDATE_ACCESS cannot be used with file-based logs. It can only be used with database logs.
+
+- WRITE_ACCESS requires one of CREATE_NEW, CREATE_ALWAYS, OPEN_EXISTING, OPEN_ALWAYS.
 
 #### Examples
 

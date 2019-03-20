@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyStoreCache.GetState
-title: IPropertyStoreCache::GetState
+title: IPropertyStoreCache::GetState (propsys.h)
 author: windows-sdk-content
 description: Gets the state of a specified property key.
 old-location: properties\IPropertyStoreCache_GetState.htm

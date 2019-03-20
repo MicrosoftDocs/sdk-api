@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsapi32._WTS_SESSION_INFO_1A
-title: WTS_SESSION_INFO_1A
+title: WTS_SESSION_INFO_1A (wtsapi32.h)
 author: windows-sdk-content
 description: Contains extended information about a client session on a Remote Desktop Session Host (RD Session Host) server or Remote Desktop Virtualization Host (RD Virtualization Host) server.
 old-location: termserv\wts_session_info_1.htm

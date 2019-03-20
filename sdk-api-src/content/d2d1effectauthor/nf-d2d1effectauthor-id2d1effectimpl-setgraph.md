@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectImpl.SetGraph
-title: ID2D1EffectImpl::SetGraph
+title: ID2D1EffectImpl::SetGraph (d2d1effectauthor.h)
 author: windows-sdk-content
 description: The renderer calls this method to provide the effect implementation with a way to specify its transform graph and transform graph changes.
 old-location: direct2d\id2d1effectimpl_setgraph.htm

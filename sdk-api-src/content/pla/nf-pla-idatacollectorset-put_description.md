@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_Description
-title: IDataCollectorSet::put_Description
+title: IDataCollectorSet::put_Description (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the description of the data collector set. The description will be added to all output files as metadata and inserted into Performance Data Helper logs as a comment.
 old-location: pla\idatacollectorset_get_description.htm

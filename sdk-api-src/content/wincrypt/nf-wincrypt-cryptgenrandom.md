@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptGenRandom
-title: CryptGenRandom function
+title: CryptGenRandom function (wincrypt.h)
 author: windows-sdk-content
 description: Fills a buffer with cryptographically random bytes.
 old-location: security\cryptgenrandom.htm

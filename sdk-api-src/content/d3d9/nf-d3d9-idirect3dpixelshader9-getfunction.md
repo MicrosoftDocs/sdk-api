@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DPixelShader9.GetFunction
-title: IDirect3DPixelShader9::GetFunction
+title: IDirect3DPixelShader9::GetFunction (d3d9.h)
 author: windows-sdk-content
 description: Gets a pointer to the shader data.
 old-location: direct3d9\idirect3dpixelshader9__getfunction.htm

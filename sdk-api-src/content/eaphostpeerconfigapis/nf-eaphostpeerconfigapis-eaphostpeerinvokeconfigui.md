@@ -1,6 +1,6 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerInvokeConfigUI
-title: EapHostPeerInvokeConfigUI function
+title: EapHostPeerInvokeConfigUI function (eaphostpeerconfigapis.h)
 author: windows-sdk-content
 description: Starts the configuration user interface of the specified EAP method.
 old-location: eaphost\eaphostpeerinvokeconfigui.htm

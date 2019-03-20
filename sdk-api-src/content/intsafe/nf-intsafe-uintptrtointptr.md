@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.UIntPtrToIntPtr
-title: UIntPtrToIntPtr function
+title: UIntPtrToIntPtr function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type UINT_PTR to a value of type INT_PTR.
 old-location: shell\UIntPtrToIntPtr.htm

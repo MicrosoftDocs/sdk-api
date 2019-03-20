@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IProvideClassInfo.GetClassInfo
-title: IProvideClassInfo::GetClassInfo
+title: IProvideClassInfo::GetClassInfo (ocidl.h)
 author: windows-sdk-content
 description: Retrieves a pointer to the ITypeInfo interface for the object's type information. The type information for an object corresponds to the object's coclass entry in a type library.
 old-location: com\iprovideclassinfo_getclassinfo.htm

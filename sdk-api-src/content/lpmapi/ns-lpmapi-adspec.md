@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_33
-title: ADSPEC
+title: ADSPEC (lpmapi.h)
 author: windows-sdk-content
 description: The ADSPEC structure contains Adspec message information for RSVP.
 old-location: qos\adspec.htm

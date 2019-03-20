@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VariantCopy
-title: VariantCopy function
+title: VariantCopy function (oleauto.h)
 author: windows-sdk-content
 description: Frees the destination variant and makes a copy of the source variant.
 old-location: automat\variantcopy.htm

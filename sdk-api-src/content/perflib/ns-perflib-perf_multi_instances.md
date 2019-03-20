@@ -1,6 +1,6 @@
 ---
 UID: NS:perflib._PERF_MULTI_INSTANCES
-title: PERF_MULTI_INSTANCES
+title: PERF_MULTI_INSTANCES (perflib.h)
 author: windows-sdk-content
 description: Provides information about the PERF_MULTI_INSTANCES block that contains the structure.
 old-location: perf\perf_multi_instances.htm

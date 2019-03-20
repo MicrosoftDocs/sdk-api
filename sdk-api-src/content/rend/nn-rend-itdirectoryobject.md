@@ -1,6 +1,6 @@
 ---
 UID: NN:rend.ITDirectoryObject
-title: ITDirectoryObject
+title: ITDirectoryObject (rend.h)
 author: windows-sdk-content
 description: The ITDirectoryObject interface is the common interface supported by all objects that can be added and deleted by using the ITDirectory interface.
 old-location: tapi3\itdirectoryobject.htm

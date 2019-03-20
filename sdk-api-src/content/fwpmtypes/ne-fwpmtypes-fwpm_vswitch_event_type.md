@@ -1,6 +1,6 @@
 ---
 UID: NE:fwpmtypes.FWPM_VSWITCH_EVENT_TYPE_
-title: FWPM_VSWITCH_EVENT_TYPE
+title: FWPM_VSWITCH_EVENT_TYPE (fwpmtypes.h)
 author: windows-sdk-content
 description: Specifies the type of a vSwitch event.
 old-location: fwp\fwpm_vswitch_event_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:richole.IRichEditOleCallback.GetInPlaceContext
-title: IRichEditOleCallback::GetInPlaceContext
+title: IRichEditOleCallback::GetInPlaceContext (richole.h)
 author: windows-sdk-content
 description: Provides the application and document-level interfaces and information required to support in-place activation.
 old-location: controls\IRichEditOleCallback_GetInPlaceContext.htm

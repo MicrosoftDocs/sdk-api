@@ -1,6 +1,6 @@
 ---
 UID: NS:searchapi._SEARCH_ITEM_INDEXING_STATUS
-title: SEARCH_ITEM_INDEXING_STATUS
+title: SEARCH_ITEM_INDEXING_STATUS (searchapi.h)
 author: windows-sdk-content
 description: Describes the status of a document to be indexed.
 old-location: search\_search_SEARCH_ITEM_INDEXING_STATUS.htm

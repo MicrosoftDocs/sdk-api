@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFDXGIDeviceManager.UnlockDevice
-title: IMFDXGIDeviceManager::UnlockDevice
+title: IMFDXGIDeviceManager::UnlockDevice (mfobjects.h)
 author: windows-sdk-content
 description: Unlocks the Microsoft Direct3D device.
 old-location: mf\imfdxgidevicemanager_unlockdevice.htm

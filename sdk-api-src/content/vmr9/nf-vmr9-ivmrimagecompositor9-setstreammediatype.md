@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRImageCompositor9.SetStreamMediaType
-title: IVMRImageCompositor9::SetStreamMediaType
+title: IVMRImageCompositor9::SetStreamMediaType (vmr9.h)
 author: windows-sdk-content
 description: The SetStreamMediaType method sets the media type for the input stream.
 old-location: dshow\ivmrimagecompositor9_setstreammediatype.htm

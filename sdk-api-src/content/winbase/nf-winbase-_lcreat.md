@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase._lcreat
-title: "_lcreat function"
+title: "_lcreat function" (winbase.h)
 author: windows-sdk-content
 description: Creates or opens the specified file.
 old-location: winprog\_lcreat.htm

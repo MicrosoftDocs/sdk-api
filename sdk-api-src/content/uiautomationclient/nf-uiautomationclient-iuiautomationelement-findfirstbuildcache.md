@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.FindFirstBuildCache
-title: IUIAutomationElement::FindFirstBuildCache
+title: IUIAutomationElement::FindFirstBuildCache (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the first child or descendant element that matches the specified condition, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
 old-location: winauto\uiauto_IUIAutomationElement_FindFirstBuildCache.htm

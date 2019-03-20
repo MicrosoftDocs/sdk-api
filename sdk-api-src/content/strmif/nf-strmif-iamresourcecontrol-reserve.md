@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMResourceControl.Reserve
-title: IAMResourceControl::Reserve
+title: IAMResourceControl::Reserve (strmif.h)
 author: windows-sdk-content
 description: The Reserve method reserves or unreserves a device resource.
 old-location: dshow\iamresourcecontrol_reserve.htm

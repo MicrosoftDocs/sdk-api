@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.InvalidateRect
-title: IOleInPlaceSiteWindowless::InvalidateRect
+title: IOleInPlaceSiteWindowless::InvalidateRect (ocidl.h)
 author: windows-sdk-content
 description: Enables an object to invalidate a specified rectangle of its in-place image on the screen.
 old-location: com\ioleinplacesitewindowless_invalidaterect.htm

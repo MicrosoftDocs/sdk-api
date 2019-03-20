@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_51
-title: WS_SECURITY_HEADER_VERSION
+title: WS_SECURITY_HEADER_VERSION (webservices.h)
 author: windows-sdk-content
 description: The WS-Security specification version to be used with message security and mixed-mode security.
 old-location: wsw\ws_security_header_version.htm

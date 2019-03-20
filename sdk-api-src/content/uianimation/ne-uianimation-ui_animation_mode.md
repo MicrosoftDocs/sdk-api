@@ -1,6 +1,6 @@
 ---
 UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0000_0003
-title: UI_ANIMATION_MODE
+title: UI_ANIMATION_MODE (uianimation.h)
 author: windows-sdk-content
 description: Defines animation modes.
 old-location: uianimation\ui_animation_mode.htm

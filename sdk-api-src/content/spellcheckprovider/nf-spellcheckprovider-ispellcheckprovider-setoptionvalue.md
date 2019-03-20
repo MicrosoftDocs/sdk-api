@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProvider.SetOptionValue
-title: ISpellCheckProvider::SetOptionValue
+title: ISpellCheckProvider::SetOptionValue (spellcheckprovider.h)
 author: windows-sdk-content
 description: Sets the value associated with the given option.
 old-location: intl\ispellcheckprovider_setoptionvalue.htm

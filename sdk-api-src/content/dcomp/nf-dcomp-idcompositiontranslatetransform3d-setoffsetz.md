@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionTranslateTransform3D.SetOffsetZ
-title: IDCompositionTranslateTransform3D::SetOffsetZ
+title: IDCompositionTranslateTransform3D::SetOffsetZ (dcomp.h)
 author: windows-sdk-content
 description: Changes the value of the OffsetZ property of a 3D translation transform effect. The OffsetZ property specifies the distance to translate along the z-axis.
 old-location: directcomp\idcompositiontranslatetransform3d_setoffsetz_float.htm

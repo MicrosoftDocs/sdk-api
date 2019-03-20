@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.GetLeftIndent
-title: ITextPara::GetLeftIndent
+title: ITextPara::GetLeftIndent (tom.h)
 author: windows-sdk-content
 description: Retrieves the distance used to indent all lines except the first line of a paragraph. The distance is relative to the left margin.
 old-location: controls\ITextPara_GetLeftIndent.htm

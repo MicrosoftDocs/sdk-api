@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.Query
-title: IVssBackupComponents::Query
+title: IVssBackupComponents::Query (vsbackup.h)
 author: windows-sdk-content
 description: The Query method queries providers on the system and/or the completed shadow copies in the system that reside in the current context. The method can be called only during backup operations.
 old-location: base\ivssbackupcomponents_query.htm

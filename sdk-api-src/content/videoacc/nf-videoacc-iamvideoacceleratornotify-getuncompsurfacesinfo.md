@@ -1,6 +1,6 @@
 ---
 UID: NF:videoacc.IAMVideoAcceleratorNotify.GetUncompSurfacesInfo
-title: IAMVideoAcceleratorNotify::GetUncompSurfacesInfo
+title: IAMVideoAcceleratorNotify::GetUncompSurfacesInfo (videoacc.h)
 author: windows-sdk-content
 description: The GetUncompSurfacesInfo method queries the decoder for the number of uncompressed surfaces to allocate and the pixel format.
 old-location: dshow\iamvideoacceleratornotify_getuncompsurfacesinfo.htm

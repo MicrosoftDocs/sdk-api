@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_30
-title: Gads_parms_t
+title: Gads_parms_t (lpmapi.h)
 author: windows-sdk-content
 description: The Gads_parms_t structure stores guaranteed service Adspec parameters.
 old-location: qos\gads_parms_t.htm

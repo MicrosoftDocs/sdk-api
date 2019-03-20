@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.GetWallpaper
-title: IActiveDesktop::GetWallpaper
+title: IActiveDesktop::GetWallpaper (shlobj_core.h)
 author: windows-sdk-content
 description: Gets the current wallpaper.
 old-location: lwef\iactivedesktop_getwallpaper.htm

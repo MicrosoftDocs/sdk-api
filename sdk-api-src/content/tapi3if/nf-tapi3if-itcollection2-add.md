@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCollection2.Add
-title: ITCollection2::Add
+title: ITCollection2::Add (tapi3if.h)
 author: windows-sdk-content
 description: The Add method inserts a new item into the collection at the specified index.
 old-location: tapi3\itcollection2_add.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmpipeline.IFsrmProperty
-title: IFsrmProperty
+title: IFsrmProperty (fsrmpipeline.h)
 author: windows-sdk-content
 description: Defines an instance of a property.
 old-location: fsrm\ifsrmproperty.htm

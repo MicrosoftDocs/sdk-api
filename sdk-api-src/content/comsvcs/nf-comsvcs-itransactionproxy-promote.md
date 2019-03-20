@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ITransactionProxy.Promote
-title: ITransactionProxy::Promote
+title: ITransactionProxy::Promote (comsvcs.h)
 author: windows-sdk-content
 description: Promotes a non-DTC transaction to a DTC transaction.
 old-location: cos\itransactionproxy_promote.htm

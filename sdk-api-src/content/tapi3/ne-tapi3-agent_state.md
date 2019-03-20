@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3.AGENT_STATE
-title: AGENT_STATE
+title: AGENT_STATE (tapi3.h)
 author: windows-sdk-content
 description: The AGENT_STATE enum is used by the ITAgent::put_State and ITAgent::get_State methods to describe the agent state.
 old-location: tapi3\agent_state.htm

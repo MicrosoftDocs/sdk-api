@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.GetHBITMAP
-title: Bitmap::GetHBITMAP
+title: Bitmap::GetHBITMAP (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Bitmap::GetHBITMAP method creates a Windows Graphics Device Interface (GDI) bitmap from this Bitmap object.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_GetHBITMAP_colorBackground_hbmReturn_.htm

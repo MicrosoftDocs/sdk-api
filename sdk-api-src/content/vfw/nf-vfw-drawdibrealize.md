@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.DrawDibRealize
-title: DrawDibRealize function
+title: DrawDibRealize function (vfw.h)
 author: windows-sdk-content
 description: The DrawDibRealize function realizes the palette of the DrawDib DC for use with the specified DC.
 old-location: multimedia\drawdibrealize.htm

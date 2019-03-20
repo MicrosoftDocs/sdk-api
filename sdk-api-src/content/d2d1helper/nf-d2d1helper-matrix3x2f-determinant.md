@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1helper.Matrix3x2F.Determinant
-title: Matrix3x2F::Determinant
+title: Matrix3x2F::Determinant (d2d1helper.h)
 author: windows-sdk-content
 description: Calculates the determinant of the matrix.
 old-location: direct2d\matrix3x2f_determinant.htm

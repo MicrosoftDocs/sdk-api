@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiSetFeatureStateW
-title: MsiSetFeatureStateW function
+title: MsiSetFeatureStateW function (msiquery.h)
 author: windows-sdk-content
 description: The MsiSetFeatureState function sets a feature to a specified state.
 old-location: setup\msisetfeaturestate.htm

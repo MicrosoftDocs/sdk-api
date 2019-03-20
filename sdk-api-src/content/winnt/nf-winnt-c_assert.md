@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.C_ASSERT
-title: C_ASSERT macro
+title: C_ASSERT macro (winnt.h)
 author: windows-sdk-content
 description: Checks assertions at compile time.
 old-location: base\c_assert.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:restrictederrorinfo.ILanguageExceptionStackBackTrace
-title: ILanguageExceptionStackBackTrace
+title: ILanguageExceptionStackBackTrace (restrictederrorinfo.h)
 author: windows-sdk-content
 description: Allows projections to provide custom stack trace for that exception.
 old-location: winrt\ilanguageexceptionstackbacktrace.htm

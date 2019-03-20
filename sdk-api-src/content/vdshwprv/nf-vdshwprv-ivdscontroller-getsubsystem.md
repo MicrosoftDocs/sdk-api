@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsController.GetSubSystem
-title: IVdsController::GetSubSystem
+title: IVdsController::GetSubSystem (vdshwprv.h)
 author: windows-sdk-content
 description: Returns the subsystem to which the controller belongs.
 old-location: base\ivdscontroller_getsubsystem.htm

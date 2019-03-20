@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IUIAutomationRegistrar.RegisterProperty
-title: IUIAutomationRegistrar::RegisterProperty
+title: IUIAutomationRegistrar::RegisterProperty (uiautomationcore.h)
 author: windows-sdk-content
 description: Registers a third-party property.
 old-location: winauto\uiauto_IUIAutomationRegistrar_RegisterProperty.htm

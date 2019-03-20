@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_TemplateObjectId
-title: IX509CertificateRequestCmc::get_TemplateObjectId
+title: IX509CertificateRequestCmc::get_TemplateObjectId (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the object identifier (OID) of the template used to create the certificate request.
 old-location: security\ix509certificaterequestcmc_templateobjectid_property.htm

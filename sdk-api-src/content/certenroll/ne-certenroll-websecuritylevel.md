@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.WebSecurityLevel
-title: WebSecurityLevel
+title: WebSecurityLevel (certenroll.h)
 author: windows-sdk-content
 description: Specifies whether a web-enabled method or property is safe for scripting.
 old-location: security\websecuritylevel_enum.htm

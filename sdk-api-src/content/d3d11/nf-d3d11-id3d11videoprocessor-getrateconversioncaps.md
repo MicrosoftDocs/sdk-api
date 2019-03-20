@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoProcessor.GetRateConversionCaps
-title: ID3D11VideoProcessor::GetRateConversionCaps
+title: ID3D11VideoProcessor::GetRateConversionCaps (d3d11.h)
 author: windows-sdk-content
 description: Gets the rate conversion capabilities of the video processor.
 old-location: mf\id3d11videoprocessor_getrateconversioncaps.htm

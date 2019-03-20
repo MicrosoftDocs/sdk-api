@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_SUBRESOURCE_DATA
-title: D3D11_SUBRESOURCE_DATA
+title: D3D11_SUBRESOURCE_DATA (d3d11.h)
 author: windows-sdk-content
 description: Specifies data for initializing a subresource.
 old-location: direct3d11\d3d11_subresource_data.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMFLOAT4X4.XMFLOAT4X4(XMFLOAT4X4 &&)
-title: XMFLOAT4X4::XMFLOAT4X4(XMFLOAT4X4 &&)
+title: XMFLOAT4X4::XMFLOAT4X4(XMFLOAT4X4 &&) (directxmath.h)
 author: windows-sdk-content
 description: Default constructor for XMFLOAT4X4.
 old-location: dxmath\xmfloat4x4_ctor_1.htm

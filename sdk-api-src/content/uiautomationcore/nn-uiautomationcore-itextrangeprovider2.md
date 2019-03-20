@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.ITextRangeProvider2
-title: ITextRangeProvider2
+title: ITextRangeProvider2 (uiautomationcore.h)
 author: windows-sdk-content
 description: Extends the ITextRangeProvider interface to enable Microsoft UI Automation providers to invoke context menus.
 old-location: winauto\uiauto_ITextRangeProvider2.htm

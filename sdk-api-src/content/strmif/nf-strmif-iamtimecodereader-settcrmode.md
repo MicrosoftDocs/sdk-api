@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTimecodeReader.SetTCRMode
-title: IAMTimecodeReader::SetTCRMode
+title: IAMTimecodeReader::SetTCRMode (strmif.h)
 author: windows-sdk-content
 description: The SetTCRMode method sets the timecode reader properties.
 old-location: dshow\iamtimecodereader_settcrmode.htm

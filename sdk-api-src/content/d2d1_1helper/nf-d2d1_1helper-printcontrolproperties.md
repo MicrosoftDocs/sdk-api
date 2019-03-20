@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1helper.PrintControlProperties
-title: PrintControlProperties function
+title: PrintControlProperties function (d2d1_1helper.h)
 author: windows-sdk-content
 description: Returns a filled D2D1_PRINT_CONTROL_PROPERTIES structure.
 old-location: direct2d\printcontrolproperties.htm

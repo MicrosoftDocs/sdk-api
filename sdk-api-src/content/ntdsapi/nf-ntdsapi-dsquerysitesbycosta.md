@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsQuerySitesByCostA
-title: DsQuerySitesByCostA function
+title: DsQuerySitesByCostA function (ntdsapi.h)
 author: windows-sdk-content
 description: Gets the communication cost between one site and one or more other sites.
 old-location: ad\dsquerysitesbycost.htm

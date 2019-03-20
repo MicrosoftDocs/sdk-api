@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscMasterProgressEvents.NotifyBurnComplete
-title: IDiscMasterProgressEvents::NotifyBurnComplete
+title: IDiscMasterProgressEvents::NotifyBurnComplete (imapi.h)
 author: windows-sdk-content
 description: Notifies an application that a call to IDiscMaster::RecordDisc has finished.
 old-location: imapi\idiscmasterprogressevents_notifyburncomplete.htm

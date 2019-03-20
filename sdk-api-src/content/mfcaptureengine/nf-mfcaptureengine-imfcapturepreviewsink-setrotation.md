@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.SetRotation
-title: IMFCapturePreviewSink::SetRotation
+title: IMFCapturePreviewSink::SetRotation (mfcaptureengine.h)
 author: windows-sdk-content
 description: Rotates the video preview stream.
 old-location: mf\imfcapturepreviewsink_setrotation.htm

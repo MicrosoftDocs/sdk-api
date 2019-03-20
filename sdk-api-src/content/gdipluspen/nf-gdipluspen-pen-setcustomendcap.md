@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.SetCustomEndCap
-title: Pen::SetCustomEndCap
+title: Pen::SetCustomEndCap (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::SetCustomEndCap method sets the custom end cap for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetCustomEndCap_customCap_.htm

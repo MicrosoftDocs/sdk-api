@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationCustomNavigationPattern.Navigate
-title: IUIAutomationCustomNavigationPattern::Navigate
+title: IUIAutomationCustomNavigationPattern::Navigate (uiautomationclient.h)
 author: windows-sdk-content
 description: Gets the next element in the specified direction within the logical UI tree.
 old-location: winauto\uiauto_IUIAutomationCustomNavigationPattern_Navigate.htm

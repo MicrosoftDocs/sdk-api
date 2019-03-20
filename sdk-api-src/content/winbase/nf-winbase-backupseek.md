@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.BackupSeek
-title: BackupSeek function
+title: BackupSeek function (winbase.h)
 author: windows-sdk-content
 description: Seeks forward in a data stream initially accessed by using the BackupRead or BackupWrite function.
 old-location: backup\backupseek.htm

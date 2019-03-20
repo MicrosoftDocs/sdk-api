@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFMediaType.FreeRepresentation
-title: IMFMediaType::FreeRepresentation
+title: IMFMediaType::FreeRepresentation (mfobjects.h)
 author: windows-sdk-content
 description: Frees memory that was allocated by the IMFMediaType::GetRepresentation method.
 old-location: mf\imfmediatype_freerepresentation.htm

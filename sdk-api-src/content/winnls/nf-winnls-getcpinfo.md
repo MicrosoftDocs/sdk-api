@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.GetCPInfo
-title: GetCPInfo function
+title: GetCPInfo function (winnls.h)
 author: windows-sdk-content
 description: Retrieves information about any valid installed or available code page.
 old-location: intl\getcpinfo.htm

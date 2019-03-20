@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMDuplicateEnvironmentHandle
-title: DRMDuplicateEnvironmentHandle function
+title: DRMDuplicateEnvironmentHandle function (msdrm.h)
 author: windows-sdk-content
 description: Creates a copy of an environment handle.
 old-location: rm\drmduplicateenvironmenthandle.htm

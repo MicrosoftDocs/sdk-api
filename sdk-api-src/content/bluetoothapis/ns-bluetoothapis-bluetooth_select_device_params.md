@@ -1,6 +1,6 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_SELECT_DEVICE_PARAMS
-title: BLUETOOTH_SELECT_DEVICE_PARAMS
+title: BLUETOOTH_SELECT_DEVICE_PARAMS (bluetoothapis.h)
 author: windows-sdk-content
 description: Facilitates and manages the visibility, authentication, and selection of Bluetooth devices and services.
 old-location: bluetooth\bluetooth_select_device_params.htm

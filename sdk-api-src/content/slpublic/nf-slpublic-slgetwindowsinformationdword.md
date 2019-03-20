@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLGetWindowsInformationDWORD
-title: SLGetWindowsInformationDWORD function
+title: SLGetWindowsInformationDWORD function (slpublic.h)
 author: windows-sdk-content
 description: Retrieves the DWORD value portion of a name-value pair from the licensing policy of a software component.
 old-location: security\slgetwindowsinformationdword.htm

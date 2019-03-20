@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.LsaDeleteTrustedDomain
-title: LsaDeleteTrustedDomain function
+title: LsaDeleteTrustedDomain function (ntsecapi.h)
 author: windows-sdk-content
 description: The LsaDeleteTrustedDomain function removes a trusted domain from the list of trusted domains for a system and deletes the associated TrustedDomain object.
 old-location: security\lsadeletetrusteddomain.htm

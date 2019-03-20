@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_PSOURCE_ALGORITHM
-title: CRYPT_PSOURCE_ALGORITHM
+title: CRYPT_PSOURCE_ALGORITHM (wincrypt.h)
 author: windows-sdk-content
 description: Identifies the algorithm and (optionally) the value of the label for an RSAES-OAEP key encryption.
 old-location: security\crypt_psource_algorithm.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegisteredTask.get_State
-title: IRegisteredTask::get_State
+title: IRegisteredTask::get_State (taskschd.h)
 author: windows-sdk-content
 description: Gets the operational state of the registered task.
 old-location: taskschd\iregisteredtask_state.htm

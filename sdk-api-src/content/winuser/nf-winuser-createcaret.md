@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CreateCaret
-title: CreateCaret function
+title: CreateCaret function (winuser.h)
 author: windows-sdk-content
 description: Creates a new shape for the system caret and assigns ownership of the caret to the specified window. The caret shape can be a line, a block, or a bitmap.
 old-location: menurc\createcaret.htm

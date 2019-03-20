@@ -1,6 +1,6 @@
 ---
 UID: NF:heapapi.HeapQueryInformation
-title: HeapQueryInformation function
+title: HeapQueryInformation function (heapapi.h)
 author: windows-sdk-content
 description: Retrieves information about the specified heap.
 old-location: base\heapqueryinformation.htm

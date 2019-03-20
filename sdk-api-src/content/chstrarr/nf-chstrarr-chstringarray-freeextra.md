@@ -1,6 +1,6 @@
 ---
 UID: NF:chstrarr.CHStringArray.FreeExtra
-title: CHStringArray::FreeExtra
+title: CHStringArray::FreeExtra (chstrarr.h)
 author: windows-sdk-content
 description: The FreeExtra method frees any extra memory allocated while the array increased. This method has no effect on the size or upper bound of the array.
 old-location: wmi\chstringarray_freeextra.htm

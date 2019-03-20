@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzBizRuleInterfaces.Remove
-title: IAzBizRuleInterfaces::Remove
+title: IAzBizRuleInterfaces::Remove (azroles.h)
 author: windows-sdk-content
 description: Removes the specified interface from the list of interfaces The number of interfaces in the list of interfaces that can be called by BizRule scripts.
 old-location: security\iazbizruleinterfaces_remove_method.htm

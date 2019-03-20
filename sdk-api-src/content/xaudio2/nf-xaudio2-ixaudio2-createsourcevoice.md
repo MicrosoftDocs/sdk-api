@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2.CreateSourceVoice
-title: IXAudio2::CreateSourceVoice
+title: IXAudio2::CreateSourceVoice (xaudio2.h)
 author: windows-sdk-content
 description: Creates and configures a source voice.
 old-location: xaudio2\ixaudio2_interface_createsourcevoice.htm

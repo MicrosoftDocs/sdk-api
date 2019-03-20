@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrInterfacePointerFree
-title: NdrInterfacePointerFree function
+title: NdrInterfacePointerFree function (rpcndr.h)
 author: windows-sdk-content
 description: The NdrInterfacePointerFree function releases the interface pointer.
 old-location: rpc\ndrinterfacepointerfree.htm

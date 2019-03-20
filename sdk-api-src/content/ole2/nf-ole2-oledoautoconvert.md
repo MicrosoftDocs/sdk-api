@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleDoAutoConvert
-title: OleDoAutoConvert function
+title: OleDoAutoConvert function (ole2.h)
 author: windows-sdk-content
 description: Automatically converts an object to a new class if automatic conversion for that object class is set in the registry.
 old-location: com\oledoautoconvert.htm

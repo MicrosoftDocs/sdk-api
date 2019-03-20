@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServiceSxsConfig.SxsConfig
-title: IServiceSxsConfig::SxsConfig
+title: IServiceSxsConfig::SxsConfig (comsvcs.h)
 author: windows-sdk-content
 description: Configures the side-by-side assembly for the enclosed work.
 old-location: cos\iservicesxsconfig_sxsconfig.htm

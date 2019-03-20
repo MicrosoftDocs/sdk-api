@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetNameFromToken
-title: IMetaDataImport::GetNameFromToken
+title: IMetaDataImport::GetNameFromToken (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the UTF-8 name of the object referenced by the specified metadata token. This method is obsolete.
 old-location: winrt\imetadataimport_getnamefromtoken.htm

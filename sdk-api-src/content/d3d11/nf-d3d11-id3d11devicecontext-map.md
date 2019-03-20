@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.Map
-title: ID3D11DeviceContext::Map
+title: ID3D11DeviceContext::Map (d3d11.h)
 author: windows-sdk-content
 description: Gets a pointer to the data contained in a subresource, and denies the GPU access to that subresource.
 old-location: direct3d11\id3d11devicecontext_map.htm

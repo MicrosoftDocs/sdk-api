@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._TAPE_SET_MEDIA_PARAMETERS
-title: TAPE_SET_MEDIA_PARAMETERS
+title: TAPE_SET_MEDIA_PARAMETERS (winnt.h)
 author: windows-sdk-content
 description: Describes the tape in the tape drive. It is used by the SetTapeParametersfunction.
 old-location: backup\tape_set_media_parameters_str.htm

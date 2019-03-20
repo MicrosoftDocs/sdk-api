@@ -1,6 +1,6 @@
 ---
 UID: NE:wmiutils.__MIDL___MIDL_itf_wmiutils_0000_0001_0002
-title: WMIQ_RPN_TOKEN_FLAGS
+title: WMIQ_RPN_TOKEN_FLAGS (wmiutils.h)
 author: windows-sdk-content
 description: Contains flags that describe query tokens used in the GetAnalysis method.
 old-location: wmi\wmiq_rpn_token_flags.htm

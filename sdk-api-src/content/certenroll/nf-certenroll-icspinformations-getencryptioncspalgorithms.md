@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformations.GetEncryptionCspAlgorithms
-title: ICspInformations::GetEncryptionCspAlgorithms
+title: ICspInformations::GetEncryptionCspAlgorithms (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the collection of encryption algorithms supported by a provider.
 old-location: security\icspinformations_getencryptioncspalgorithms_method.htm

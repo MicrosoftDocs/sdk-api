@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._CLUS_CSV_VOLUME_INFO
-title: CLUS_CSV_VOLUME_INFO
+title: CLUS_CSV_VOLUME_INFO (clusapi.h)
 author: windows-sdk-content
 description: Represents information about a cluster shared volume (CSV).
 old-location: mscs\clus_csv_volume_info.htm

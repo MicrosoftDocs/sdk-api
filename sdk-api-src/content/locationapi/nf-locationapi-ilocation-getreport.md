@@ -1,6 +1,6 @@
 ---
 UID: NF:locationapi.ILocation.GetReport
-title: ILocation::GetReport
+title: ILocation::GetReport (locationapi.h)
 author: windows-sdk-content
 description: Retrieves a location report.
 old-location: winlocation_com_ref\ilocation_getreport.htm

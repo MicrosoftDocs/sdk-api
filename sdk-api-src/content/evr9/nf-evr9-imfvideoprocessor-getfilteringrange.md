@@ -1,6 +1,6 @@
 ---
 UID: NF:evr9.IMFVideoProcessor.GetFilteringRange
-title: IMFVideoProcessor::GetFilteringRange
+title: IMFVideoProcessor::GetFilteringRange (evr9.h)
 author: windows-sdk-content
 description: Retrieves the range of values for a specified image filter setting.
 old-location: mf\imfvideoprocessor_getfilteringrange.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:vdshwprv._VDS_PATH_POLICY
-title: VDS_PATH_POLICY
+title: VDS_PATH_POLICY (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the load balance policy as it applies to a particular path.
 old-location: base\vds_path_policy.htm

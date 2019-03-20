@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.GetAcceptLanguagesW
-title: GetAcceptLanguagesW function
+title: GetAcceptLanguagesW function (shlwapi.h)
 author: windows-sdk-content
 description: Retrieves a string used with websites when specifying language preferences.
 old-location: shell\GetAcceptLanguages.htm

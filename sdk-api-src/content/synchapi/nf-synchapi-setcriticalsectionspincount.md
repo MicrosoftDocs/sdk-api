@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.SetCriticalSectionSpinCount
-title: SetCriticalSectionSpinCount function
+title: SetCriticalSectionSpinCount function (synchapi.h)
 author: windows-sdk-content
 description: Sets the spin count for the specified critical section.
 old-location: base\setcriticalsectionspincount.htm

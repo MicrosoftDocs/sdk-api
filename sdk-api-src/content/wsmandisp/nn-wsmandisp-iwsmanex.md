@@ -1,6 +1,6 @@
 ---
 UID: NN:wsmandisp.IWSManEx
-title: IWSManEx
+title: IWSManEx (wsmandisp.h)
 author: windows-sdk-content
 description: Extends the methods and properties of the IWSMan interface to include creating IWSManResourceLocator objects, methods that return enumeration and session flag values, and a method to get extended error information.
 old-location: winrm\iwsmanex.htm

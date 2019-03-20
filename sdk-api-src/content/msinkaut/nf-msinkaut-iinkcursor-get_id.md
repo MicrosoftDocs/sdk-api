@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCursor.get_Id
-title: IInkCursor::get_Id
+title: IInkCursor::get_Id (msinkaut.h)
 author: windows-sdk-content
 description: Gets the identifier of an object.
 old-location: tablet\iinkcursor_id.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGISwapChain.GetLastPresentCount
-title: IDXGISwapChain::GetLastPresentCount
+title: IDXGISwapChain::GetLastPresentCount (dxgi.h)
 author: windows-sdk-content
 description: Gets the number of times that IDXGISwapChain::Present or IDXGISwapChain1::Present1 has been called.
 old-location: direct3ddxgi\idxgiswapchain_getlastpresentcount.htm

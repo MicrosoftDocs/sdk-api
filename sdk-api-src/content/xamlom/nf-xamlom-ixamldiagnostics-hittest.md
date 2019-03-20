@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IXamlDiagnostics.HitTest
-title: IXamlDiagnostics::HitTest
+title: IXamlDiagnostics::HitTest (xamlom.h)
 author: windows-sdk-content
 description: Gets all elements in the visual tree that fall within the specified rectangle.
 old-location: xaml_diagnostics\ixamldiagnostics_hittest.htm

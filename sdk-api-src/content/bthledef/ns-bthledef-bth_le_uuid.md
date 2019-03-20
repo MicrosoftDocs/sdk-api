@@ -1,6 +1,6 @@
 ---
 UID: NS:bthledef._BTH_LE_UUID
-title: BTH_LE_UUID
+title: BTH_LE_UUID (bthledef.h)
 author: windows-sdk-content
 description: The BTH_LE_UUID structure contains information about a Bluetooth Low Energy (LE) Universally Unique Identifier (UUID).
 old-location: bltooth\bth_le_uuid.htm

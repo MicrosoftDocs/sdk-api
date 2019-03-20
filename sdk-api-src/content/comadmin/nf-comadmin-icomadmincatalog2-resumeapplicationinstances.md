@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.ResumeApplicationInstances
-title: ICOMAdminCatalog2::ResumeApplicationInstances
+title: ICOMAdminCatalog2::ResumeApplicationInstances (comadmin.h)
 author: windows-sdk-content
 description: Resumes the specified application server processes.
 old-location: cos\icomadmincatalog2_resumeapplicationinstances.htm

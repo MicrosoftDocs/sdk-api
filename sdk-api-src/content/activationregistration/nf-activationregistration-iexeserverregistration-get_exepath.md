@@ -1,6 +1,6 @@
 ---
 UID: NF:activationregistration.IExeServerRegistration.get_ExePath
-title: IExeServerRegistration::get_ExePath
+title: IExeServerRegistration::get_ExePath (activationregistration.h)
 author: windows-sdk-content
 description: Gets the file path to the out-of-process server.
 old-location: winrt\iexeserverregistration_exepath.htm

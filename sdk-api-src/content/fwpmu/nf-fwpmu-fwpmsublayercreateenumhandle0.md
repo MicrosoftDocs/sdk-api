@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmSubLayerCreateEnumHandle0
-title: FwpmSubLayerCreateEnumHandle0 function
+title: FwpmSubLayerCreateEnumHandle0 function (fwpmu.h)
 author: windows-sdk-content
 description: Creates a handle used to enumerate a set of sublayers.
 old-location: fwp\fwpmsublayercreateenumhandle0_func.htm

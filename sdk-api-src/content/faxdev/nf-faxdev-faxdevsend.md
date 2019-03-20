@@ -1,6 +1,6 @@
 ---
 UID: NF:faxdev.FaxDevSend
-title: FaxDevSend function
+title: FaxDevSend function (faxdev.h)
 author: windows-sdk-content
 description: The fax service calls the FaxDevSend function to signal a fax service provider (FSP) that it must initiate an outgoing fax transmission. Each FSP must export the FaxDevSend function.
 old-location: fax\_mfax_faxdevsend.htm

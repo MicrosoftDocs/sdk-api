@@ -1,6 +1,6 @@
 ---
 UID: NF:sysinfoapi.GetSystemDirectoryW
-title: GetSystemDirectoryW function
+title: GetSystemDirectoryW function (sysinfoapi.h)
 author: windows-sdk-content
 description: Retrieves the path of the system directory.
 old-location: base\getsystemdirectory.htm

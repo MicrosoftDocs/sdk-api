@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_14
-title: ISCSI_CONNECTION_INFOW
+title: ISCSI_CONNECTION_INFOW (iscsidsc.h)
 author: windows-sdk-content
 description: ISCSI_CONNECTION_INFO structure contains information about a connection.
 old-location: iscsidisc\iscsi_connection_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxAccountIncomingArchive.get_SizeLow
-title: IFaxAccountIncomingArchive::get_SizeLow
+title: IFaxAccountIncomingArchive::get_SizeLow (faxcomex.h)
 author: windows-sdk-content
 description: Specifies the low 32-bit value (in bytes) for the size of the archive of inbound fax messages for a particular fax account.
 old-location: fax\_mfax_faxaccountincomingarchive_cpp_mfax_faxaccountincomingarchive_sizelow_cpp.htm

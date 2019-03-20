@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.IsUsingDefaultDestination
-title: IBasicVideo::IsUsingDefaultDestination
+title: IBasicVideo::IsUsingDefaultDestination (control.h)
 author: windows-sdk-content
 description: The IsUsingDefaultDestination method queries whether the renderer is using the default destination rectangle.
 old-location: dshow\ibasicvideo_isusingdefaultdestination.htm

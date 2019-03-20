@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_42
-title: WS_HEADER_TYPE
+title: WS_HEADER_TYPE (webservices.h)
 author: windows-sdk-content
 description: Identifies a type of header.
 old-location: wsw\ws_header_type.htm

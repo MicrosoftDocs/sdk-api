@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantToFileTimeVector
-title: PropVariantToFileTimeVector function
+title: PropVariantToFileTimeVector function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts data from a PROPVARIANT structure into a FILETIME vector.
 old-location: properties\PropVariantToFileTimeVector.htm

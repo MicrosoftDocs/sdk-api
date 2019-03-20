@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication3.ScopeExists
-title: IAzApplication3::ScopeExists
+title: IAzApplication3::ScopeExists (azroles.h)
 author: windows-sdk-content
 description: Indicates whether the specified scope exists in this IAzApplication3 object.
 old-location: security\iazapplication3_scopeexists.htm

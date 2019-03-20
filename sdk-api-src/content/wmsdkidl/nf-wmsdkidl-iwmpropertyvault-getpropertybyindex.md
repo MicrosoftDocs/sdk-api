@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMPropertyVault.GetPropertyByIndex
-title: IWMPropertyVault::GetPropertyByIndex
+title: IWMPropertyVault::GetPropertyByIndex (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetPropertyByIndex method retrieves a property from the vault by its index value.
 old-location: wmformat\iwmpropertyvault_getpropertybyindex.htm

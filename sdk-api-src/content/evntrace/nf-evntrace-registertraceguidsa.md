@@ -1,6 +1,6 @@
 ---
 UID: NF:evntrace.RegisterTraceGuidsA
-title: RegisterTraceGuidsA function
+title: RegisterTraceGuidsA function (evntrace.h)
 author: windows-sdk-content
 description: The RegisterTraceGuids function registers an event trace provider and the event trace classes that it uses to generate events. This function also specifies the function the provider uses to enable and disable tracing.
 old-location: etw\registertraceguids.htm

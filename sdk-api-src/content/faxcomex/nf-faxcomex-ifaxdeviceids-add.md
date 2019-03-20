@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDeviceIds.Add
-title: IFaxDeviceIds::Add
+title: IFaxDeviceIds::Add (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDeviceIds::Add method adds a fax device to the FaxDeviceIds collection, using the device's ID.
 old-location: fax\_mfax_faxdeviceids_cpp_mfax_faxdeviceids_add_cpp.htm

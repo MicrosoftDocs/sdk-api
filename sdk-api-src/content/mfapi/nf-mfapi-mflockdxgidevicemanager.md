@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFLockDXGIDeviceManager
-title: MFLockDXGIDeviceManager function
+title: MFLockDXGIDeviceManager function (mfapi.h)
 author: windows-sdk-content
 description: Locks the shared Microsoft DirectX Graphics Infrastructure (DXGI) Device Manager.
 old-location: mf\mflockdxgidevicemanager.htm

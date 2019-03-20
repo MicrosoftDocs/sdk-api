@@ -1,6 +1,6 @@
 ---
 UID: NN:photoacquire.IPhotoAcquireDeviceSelectionDialog
-title: IPhotoAcquireDeviceSelectionDialog
+title: IPhotoAcquireDeviceSelectionDialog (photoacquire.h)
 author: windows-sdk-content
 description: Provides a dialog box for selecting the device to acquire images from.
 old-location: picacq\iphotoacquiredeviceselectiondialog.htm

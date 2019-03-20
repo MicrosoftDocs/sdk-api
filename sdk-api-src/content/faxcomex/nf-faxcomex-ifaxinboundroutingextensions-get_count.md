@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingExtensions.get_Count
-title: IFaxInboundRoutingExtensions::get_Count
+title: IFaxInboundRoutingExtensions::get_Count (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxInboundRoutingExtensions::get_Count property represents the number of objects in the IFaxInboundRoutingExtensions collection. This is the total number of inbound routing extensions associated with the fax server.
 old-location: fax\_mfax_faxinboundroutingextensions_cpp_mfax_faxinboundroutingextensions_count_cpp.htm

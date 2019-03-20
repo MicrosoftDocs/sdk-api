@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ICategoryProvider.GetDefaultCategory
-title: ICategoryProvider::GetDefaultCategory
+title: ICategoryProvider::GetDefaultCategory (shobjidl_core.h)
 author: windows-sdk-content
 description: Enables the folder to override the default grouping.
 old-location: shell\ICategoryProvider_GetDefaultCategory.htm

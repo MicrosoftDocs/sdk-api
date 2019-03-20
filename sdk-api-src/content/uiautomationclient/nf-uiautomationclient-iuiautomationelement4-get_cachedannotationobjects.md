@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement4.get_CachedAnnotationObjects
-title: IUIAutomationElement4::get_CachedAnnotationObjects
+title: IUIAutomationElement4::get_CachedAnnotationObjects (uiautomationclient.h)
 author: windows-sdk-content
 description: Returns the cached list of annotation objects associated with this element, such as comment, header, footer, and so on.
 old-location: winauto\uiauto_IUIAutomationElement4_CachedAnnotationObjects.htm

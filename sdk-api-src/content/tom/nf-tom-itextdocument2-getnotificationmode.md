@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.GetNotificationMode
-title: ITextDocument2::GetNotificationMode
+title: ITextDocument2::GetNotificationMode (tom.h)
 author: windows-sdk-content
 description: Gets the notification mode.
 old-location: controls\itextdocument2_getnotificationmode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.capCaptureSequenceNoFile
-title: capCaptureSequenceNoFile macro
+title: capCaptureSequenceNoFile macro (vfw.h)
 author: windows-sdk-content
 description: The capCaptureSequenceNoFile macro initiates streaming video capture without writing data to a file. You can use this macro or explicitly send the WM_CAP_SEQUENCE_NOFILE message.
 old-location: multimedia\capcapturesequencenofile.htm

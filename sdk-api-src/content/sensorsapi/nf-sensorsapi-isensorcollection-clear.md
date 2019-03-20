@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsapi.ISensorCollection.Clear
-title: ISensorCollection::Clear
+title: ISensorCollection::Clear (sensorsapi.h)
 author: windows-sdk-content
 description: Empties the sensor collection.
 old-location: winsensors_com_ref\isensorcollection_clear.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:objidlbase.IEnumString
-title: IEnumString
+title: IEnumString (objidlbase.h)
 author: windows-sdk-content
 description: Enumerate strings. LPWSTR is the type that indicates a pointer to a zero-terminated string of wide, or Unicode, characters.
 old-location: com\ienumstring.htm

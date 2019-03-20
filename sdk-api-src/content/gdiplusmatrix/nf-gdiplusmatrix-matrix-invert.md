@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Invert
-title: Matrix::Invert
+title: Matrix::Invert (gdiplusmatrix.h)
 author: windows-sdk-content
 description: If this matrix is invertible, the Matrix::Invert method replaces the elements of this matrix with the elements of its inverse.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Invert_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary.CreateConstantTransition
-title: IUIAnimationTransitionLibrary::CreateConstantTransition
+title: IUIAnimationTransitionLibrary::CreateConstantTransition (uianimation.h)
 author: windows-sdk-content
 description: Creates a constant transition.
 old-location: uianimation\iuianimationtransitionlibrary_createconstanttransition.htm

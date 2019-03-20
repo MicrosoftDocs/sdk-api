@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextServices.OnTxPropertyBitsChange
-title: ITextServices::OnTxPropertyBitsChange
+title: ITextServices::OnTxPropertyBitsChange (textserv.h)
 author: windows-sdk-content
 description: Sets properties (represented by bits) for the control.
 old-location: controls\ITextServices_OnTxPropertyBitsChange.htm

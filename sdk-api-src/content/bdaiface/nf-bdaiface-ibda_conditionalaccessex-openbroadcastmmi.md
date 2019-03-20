@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccessEx.OpenBroadcastMmi
-title: IBDA_ConditionalAccessEx::OpenBroadcastMmi
+title: IBDA_ConditionalAccessEx::OpenBroadcastMmi (bdaiface.h)
 author: windows-sdk-content
 description: Responds to a BroadcastMMI event.
 old-location: mstv\ibda_conditionalaccessex_openbroadcastmmi.htm

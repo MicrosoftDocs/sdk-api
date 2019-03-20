@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItem.Compare
-title: IShellItem::Compare
+title: IShellItem::Compare (shobjidl_core.h)
 author: windows-sdk-content
 description: Compares two IShellItem objects.
 old-location: shell\IShellItem_Compare.htm

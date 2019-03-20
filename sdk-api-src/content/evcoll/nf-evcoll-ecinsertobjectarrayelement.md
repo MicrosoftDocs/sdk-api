@@ -1,6 +1,6 @@
 ---
 UID: NF:evcoll.EcInsertObjectArrayElement
-title: EcInsertObjectArrayElement function
+title: EcInsertObjectArrayElement function (evcoll.h)
 author: windows-sdk-content
 description: Inserts an empty object into an array of property values for the event sources of a subscription.
 old-location: wec\ecinsertobjectarrayelement.htm

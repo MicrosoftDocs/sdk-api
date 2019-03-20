@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.GenericSansSerif
-title: FontFamily::GenericSansSerif
+title: FontFamily::GenericSansSerif (gdiplusheaders.h)
 author: windows-sdk-content
 description: The FontFamily::GenericSansSerif method gets a FontFamily object that specifies a generic sans serif typeface.
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_GenericSansSerif_.htm

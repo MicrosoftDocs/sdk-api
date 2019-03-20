@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemServices.PutInstance
-title: IWbemServices::PutInstance
+title: IWbemServices::PutInstance (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemServices::PutInstance method creates or updates an instance of an existing class. The instance is written to the WMI repository.
 old-location: wmi\iwbemservices_putinstance.htm

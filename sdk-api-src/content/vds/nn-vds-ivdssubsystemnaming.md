@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsSubSystemNaming
-title: IVdsSubSystemNaming
+title: IVdsSubSystemNaming (vds.h)
 author: windows-sdk-content
 description: Provides a method to name subsystems for a class implementing the IVdsSubSystem interface.
 old-location: base\ivdssubsystemnaming.htm

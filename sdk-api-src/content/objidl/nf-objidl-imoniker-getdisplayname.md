@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMoniker.GetDisplayName
-title: IMoniker::GetDisplayName
+title: IMoniker::GetDisplayName (objidl.h)
 author: windows-sdk-content
 description: Retrieves the display name for the moniker.
 old-location: com\imoniker_getdisplayname.htm

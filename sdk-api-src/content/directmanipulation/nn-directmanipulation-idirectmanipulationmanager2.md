@@ -1,6 +1,6 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationManager2
-title: IDirectManipulationManager2
+title: IDirectManipulationManager2 (directmanipulation.h)
 author: windows-sdk-content
 description: Extends the IDirectManipulationManager interface that provides access to all the Direct Manipulation features and APIs available to the client application.
 old-location: directmanipulation\idirectmanipulationmanager2.htm

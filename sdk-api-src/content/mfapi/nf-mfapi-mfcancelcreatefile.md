@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCancelCreateFile
-title: MFCancelCreateFile function
+title: MFCancelCreateFile function (mfapi.h)
 author: windows-sdk-content
 description: Cancels an asynchronous request to create a byte stream from a file.
 old-location: mf\mfcancelcreatefile.htm

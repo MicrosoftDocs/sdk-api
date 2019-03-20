@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CallWindowProcW
-title: CallWindowProcW function
+title: CallWindowProcW function (winuser.h)
 author: windows-sdk-content
 description: Passes message information to the specified window procedure.
 old-location: winmsg\callwindowproc.htm

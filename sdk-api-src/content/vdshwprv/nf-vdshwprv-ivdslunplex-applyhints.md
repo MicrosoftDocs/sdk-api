@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsLunPlex.ApplyHints
-title: IVdsLunPlex::ApplyHints
+title: IVdsLunPlex::ApplyHints (vdshwprv.h)
 author: windows-sdk-content
 description: Applies a new set of hints to the LUN plex. Hints applied to a plex affect neither the LUN nor its other plexes.
 old-location: base\ivdslunplex_applyhints.htm

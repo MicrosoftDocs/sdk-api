@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoCancelCall
-title: CoCancelCall function
+title: CoCancelCall function (combaseapi.h)
 author: windows-sdk-content
 description: Requests cancellation of an outbound DCOM method call pending on a specified thread.
 old-location: com\cocancelcall.htm

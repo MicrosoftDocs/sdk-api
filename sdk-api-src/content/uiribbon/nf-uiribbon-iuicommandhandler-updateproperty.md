@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUICommandHandler.UpdateProperty
-title: IUICommandHandler::UpdateProperty
+title: IUICommandHandler::UpdateProperty (uiribbon.h)
 author: windows-sdk-content
 description: Responds to property update requests from the Windows Ribbon framework.
 old-location: windowsribbon\windowsribbon_iuicommandhandler_updateproperty.htm

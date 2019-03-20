@@ -1,6 +1,6 @@
 ---
 UID: NF:snmp.SnmpUtilPrintAsnAny
-title: SnmpUtilPrintAsnAny function
+title: SnmpUtilPrintAsnAny function (snmp.h)
 author: windows-sdk-content
 description: The SnmpUtilPrintAsnAny function prints the value of the Any parameter to the standard output. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputilprintasnany.htm

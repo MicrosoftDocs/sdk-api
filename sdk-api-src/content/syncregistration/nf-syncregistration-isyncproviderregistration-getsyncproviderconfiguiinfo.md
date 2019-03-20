@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.GetSyncProviderConfigUIInfo
-title: ISyncProviderRegistration::GetSyncProviderConfigUIInfo
+title: ISyncProviderRegistration::GetSyncProviderConfigUIInfo (syncregistration.h)
 author: windows-sdk-content
 description: Returns an ISyncProviderConfigUIInfo object for the given unique instance ID.
 old-location: winsync\isyncproviderregistration_getsyncproviderconfiguiinfo.htm

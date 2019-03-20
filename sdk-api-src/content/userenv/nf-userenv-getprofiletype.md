@@ -1,6 +1,6 @@
 ---
 UID: NF:userenv.GetProfileType
-title: GetProfileType function
+title: GetProfileType function (userenv.h)
 author: windows-sdk-content
 description: Retrieves the type of profile loaded for the current user.
 old-location: shell\GetProfileType.htm

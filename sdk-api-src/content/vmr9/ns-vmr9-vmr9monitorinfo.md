@@ -1,6 +1,6 @@
 ---
 UID: NS:vmr9._VMR9MonitorInfo
-title: VMR9MonitorInfo
+title: VMR9MonitorInfo (vmr9.h)
 author: windows-sdk-content
 description: The VMR9MonitorInfo structure is used with the VMR-9 in the IVMRMonitorConfig9::GetAvailableMonitors method to set and retrieve information about monitors on the system.
 old-location: dshow\vmr9monitorinfo.htm

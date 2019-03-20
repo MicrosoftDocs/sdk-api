@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.GetNumStoredMessagesAllowedByRetrievalFilter
-title: ID3D10InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter
+title: ID3D10InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter (d3d10sdklayers.h)
 author: windows-sdk-content
 description: Get the number of messages that are able to pass through a retrieval filter.
 old-location: direct3d10\id3d10infoqueue_getnumstoredmessagesallowedbyretrievalfilter.htm

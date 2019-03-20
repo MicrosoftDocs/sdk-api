@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPClosedCaption.get_SAMIFileName
-title: IWMPClosedCaption::get_SAMIFileName
+title: IWMPClosedCaption::get_SAMIFileName (wmp.h)
 author: windows-sdk-content
 description: The get_SAMIFileName method retrieves the name of the file containing the information needed for closed captioning.
 old-location: wmp\iwmpclosedcaption_get_samifilename.htm

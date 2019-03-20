@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemeIntList
-title: GetThemeIntList function
+title: GetThemeIntList function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves a list of int data from a visual style.
 old-location: controls\GetThemeIntList.htm

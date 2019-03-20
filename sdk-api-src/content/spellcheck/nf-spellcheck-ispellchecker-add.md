@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellChecker.Add
-title: ISpellChecker::Add
+title: ISpellChecker::Add (spellcheck.h)
 author: windows-sdk-content
 description: Treats the provided word as though it were part of the original dictionary.
 old-location: intl\ispellchecker_add.htm

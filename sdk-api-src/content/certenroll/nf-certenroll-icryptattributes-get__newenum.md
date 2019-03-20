@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICryptAttributes.get__NewEnum
-title: ICryptAttributes::get__NewEnum
+title: ICryptAttributes::get__NewEnum (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the enumerator for the collection.
 old-location: security\icryptattributes__newenum_property.htm

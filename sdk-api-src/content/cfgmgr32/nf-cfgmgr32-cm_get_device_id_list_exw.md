@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_ID_List_ExW
-title: CM_Get_Device_ID_List_ExW function
+title: CM_Get_Device_ID_List_ExW function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Get_Device_ID_List_Ex function retrieves a list of device instance IDs for the device instances on a local or a remote machine.
 old-location: devinst\cm_get_device_id_list_ex.htm

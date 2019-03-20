@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.GetInformationalStrings
-title: IDWriteFontFace3::GetInformationalStrings
+title: IDWriteFontFace3::GetInformationalStrings (dwrite_3.h)
 author: windows-sdk-content
 description: Gets a localized strings collection that contains the specified informational strings, indexed by locale name.
 old-location: directwrite\idwritefontface3_getinformationalstrings.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzTasks.get_Item
-title: IAzTasks::get_Item
+title: IAzTasks::get_Item (azroles.h)
 author: windows-sdk-content
 description: Retrieves the IAzTask object at the specified index into the IAzTasks collection.
 old-location: security\iaztasks_item.htm

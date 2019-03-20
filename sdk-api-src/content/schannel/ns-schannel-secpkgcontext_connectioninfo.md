@@ -1,6 +1,6 @@
 ---
 UID: NS:schannel._SecPkgContext_ConnectionInfo
-title: SecPkgContext_ConnectionInfo
+title: SecPkgContext_ConnectionInfo (schannel.h)
 author: windows-sdk-content
 description: The SecPkgContext_ConnectionInfo structure contains protocol and cipher information. This structure is used by the InitializeSecurityContext (Schannel) function.This attribute is supported only by the Schannel security support provider (SSP).
 old-location: security\secpkgcontext_connectioninfo.htm

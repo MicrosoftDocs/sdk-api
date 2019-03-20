@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator2.put_Pilot
-title: IBDA_DigitalDemodulator2::put_Pilot
+title: IBDA_DigitalDemodulator2::put_Pilot (bdaiface.h)
 author: windows-sdk-content
 description: Sets the current pilot mode for Digital Video Broadcasting-S2 (DVB-S2).
 old-location: mstv\ibda_digitaldemodulator2_put_pilot.htm

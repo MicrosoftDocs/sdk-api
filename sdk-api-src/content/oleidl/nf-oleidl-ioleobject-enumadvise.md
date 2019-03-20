@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleObject.EnumAdvise
-title: IOleObject::EnumAdvise
+title: IOleObject::EnumAdvise (oleidl.h)
 author: windows-sdk-content
 description: Retrieves a pointer to an enumerator that can be used to enumerate the advisory connections registered for an object, so a container can know what to release prior to closing down.
 old-location: com\ioleobject_enumadvise.htm

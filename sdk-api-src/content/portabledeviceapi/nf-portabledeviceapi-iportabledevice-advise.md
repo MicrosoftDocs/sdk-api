@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevice.Advise
-title: IPortableDevice::Advise
+title: IPortableDevice::Advise (portabledeviceapi.h)
 author: windows-sdk-content
 description: The Advise method registers an application-defined callback that receives device events.
 old-location: wpdsdk\iportabledevice_advise.htm

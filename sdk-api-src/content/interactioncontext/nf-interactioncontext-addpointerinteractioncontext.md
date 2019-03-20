@@ -1,6 +1,6 @@
 ---
 UID: NF:interactioncontext.AddPointerInteractionContext
-title: AddPointerInteractionContext function
+title: AddPointerInteractionContext function (interactioncontext.h)
 author: windows-sdk-content
 description: Include the specified pointer in the set of pointers processed by the Interaction Context object.
 old-location: input_intcontext\addpointerinteractioncontext.htm

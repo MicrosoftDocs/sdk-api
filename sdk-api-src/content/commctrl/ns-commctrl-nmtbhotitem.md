@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMTBHOTITEM
-title: NMTBHOTITEM
+title: NMTBHOTITEM (commctrl.h)
 author: windows-sdk-content
 description: Contains information used with the TBN_HOTITEMCHANGE notification code.
 old-location: controls\NMTBHOTITEM.htm

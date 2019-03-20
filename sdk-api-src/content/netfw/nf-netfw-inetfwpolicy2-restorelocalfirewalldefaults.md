@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwPolicy2.RestoreLocalFirewallDefaults
-title: INetFwPolicy2::RestoreLocalFirewallDefaults
+title: INetFwPolicy2::RestoreLocalFirewallDefaults (netfw.h)
 author: windows-sdk-content
 description: Restores the local firewall configuration to its default state.
 old-location: ics\inetfwpolicy2_restorelocalfirewalldefaults.htm

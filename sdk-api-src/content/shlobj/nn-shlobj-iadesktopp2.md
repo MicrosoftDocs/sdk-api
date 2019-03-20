@@ -1,6 +1,6 @@
 ---
 UID: NN:shlobj.IADesktopP2
-title: IADesktopP2
+title: IADesktopP2 (shlobj.h)
 author: windows-sdk-content
 description: Provides methods to manage the Windows Desktop.
 old-location: lwef\iadesktopp2.htm

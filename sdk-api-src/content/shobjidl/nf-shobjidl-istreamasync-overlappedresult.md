@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IStreamAsync.OverlappedResult
-title: IStreamAsync::OverlappedResult
+title: IStreamAsync::OverlappedResult (shobjidl.h)
 author: windows-sdk-content
 description: Retrieves the results of an overlapped operation.
 old-location: shell\IStreamAsync_OverlappedResult.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.GenericTypographic
-title: StringFormat::GenericTypographic
+title: StringFormat::GenericTypographic (gdiplusstringformat.h)
 author: windows-sdk-content
 description: The StringFormat::GenericTypographic method creates a generic, typographic StringFormat object.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GenericTypographic_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:tsvirtualchannels.IWTSBitmapRenderService
-title: IWTSBitmapRenderService
+title: IWTSBitmapRenderService (tsvirtualchannels.h)
 author: windows-sdk-content
 description: This service is used to create a visual mapping on the client corresponding to a mapped window on the server.
 old-location: termserv\iwtsbitmaprenderservice.htm

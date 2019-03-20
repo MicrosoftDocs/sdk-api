@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_GETVPORTCONNECTDATA
-title: DD_GETVPORTCONNECTDATA
+title: DD_GETVPORTCONNECTDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_GETVPORTCONNECTDATA structure contains the connection combinations supported by the specified video port extensions (VPE) object.
 old-location: display\dd_getvportconnectdata.htm

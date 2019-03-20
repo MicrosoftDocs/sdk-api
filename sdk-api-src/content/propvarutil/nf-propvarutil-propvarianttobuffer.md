@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantToBuffer
-title: PropVariantToBuffer function
+title: PropVariantToBuffer function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts the buffer value from a PROPVARIANT structure of type VT_VECTOR | VT_UI1 or VT_ARRRAY | VT_UI1.
 old-location: properties\PropVariantToBuffer.htm

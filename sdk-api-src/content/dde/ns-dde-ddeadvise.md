@@ -1,6 +1,6 @@
 ---
 UID: NS:dde.__unnamed_struct_1
-title: DDEADVISE
+title: DDEADVISE (dde.h)
 author: windows-sdk-content
 description: Contains flags that specify how a DDE server application should send data to a client application during an advise loop. A client passes a handle to a DDEADVISE structure to a server as part of a WM_DDE_ADVISE message.
 old-location: dataxchg\ddeadvise.htm

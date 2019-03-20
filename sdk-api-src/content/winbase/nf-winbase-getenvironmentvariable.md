@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetEnvironmentVariable
-title: GetEnvironmentVariable function
+title: GetEnvironmentVariable function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the contents of the specified variable from the environment block of the calling process.
 old-location: base\getenvironmentvariable.htm

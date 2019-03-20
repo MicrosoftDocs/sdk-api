@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.AllocateAndGetUdpExTableFromStack
-title: AllocateAndGetUdpExTableFromStack function
+title: AllocateAndGetUdpExTableFromStack function (iphlpapi.h)
 author: windows-sdk-content
 description: Retrieves the UDP connection table and allocates memory from the local heap to store the table.
 old-location: iphlp\allocateandgetudpextablefromstack.htm

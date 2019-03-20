@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMetadata.SetLanguage
-title: IMFMetadata::SetLanguage
+title: IMFMetadata::SetLanguage (mfidl.h)
 author: windows-sdk-content
 description: Sets the language for setting and retrieving metadata.
 old-location: mf\imfmetadata_setlanguage.htm

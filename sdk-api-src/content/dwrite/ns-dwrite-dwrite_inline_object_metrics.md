@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite.DWRITE_INLINE_OBJECT_METRICS
-title: DWRITE_INLINE_OBJECT_METRICS
+title: DWRITE_INLINE_OBJECT_METRICS (dwrite.h)
 author: windows-sdk-content
 description: Contains properties describing the geometric measurement of an application-defined inline object.
 old-location: directwrite\dwrite_inline_object_metrics.htm

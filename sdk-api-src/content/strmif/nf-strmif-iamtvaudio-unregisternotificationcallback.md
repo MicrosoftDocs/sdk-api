@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTVAudio.UnRegisterNotificationCallBack
-title: IAMTVAudio::UnRegisterNotificationCallBack
+title: IAMTVAudio::UnRegisterNotificationCallBack (strmif.h)
 author: windows-sdk-content
 description: The UnRegisterNotificationCallBack method unregisters an object for event notifications.
 old-location: dshow\iamtvaudio_unregisternotificationcallback.htm

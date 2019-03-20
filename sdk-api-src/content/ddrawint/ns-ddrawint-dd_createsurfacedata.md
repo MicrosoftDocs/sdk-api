@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_CREATESURFACEDATA
-title: DD_CREATESURFACEDATA
+title: DD_CREATESURFACEDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_CREATESURFACEDATA structure contains information necessary to create a surface--in the case of CreateD3DBuffer, a command or vertex buffer.
 old-location: display\dd_createsurfacedata.htm

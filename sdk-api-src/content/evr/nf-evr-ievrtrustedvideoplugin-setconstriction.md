@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IEVRTrustedVideoPlugin.SetConstriction
-title: IEVRTrustedVideoPlugin::SetConstriction
+title: IEVRTrustedVideoPlugin::SetConstriction (evr.h)
 author: windows-sdk-content
 description: Limits the effective video resolution.
 old-location: mf\ievrtrustedvideoplugin_setconstriction.htm

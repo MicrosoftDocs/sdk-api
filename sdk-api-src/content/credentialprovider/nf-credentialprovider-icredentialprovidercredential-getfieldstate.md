@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.GetFieldState
-title: ICredentialProviderCredential::GetFieldState
+title: ICredentialProviderCredential::GetFieldState (credentialprovider.h)
 author: windows-sdk-content
 description: Retrieves the field state. The Logon UI and Credential UI use this to gain information about a field of a credential to display this information in the user tile.
 old-location: shell\ICredentialProviderCredential_GetFieldState.htm

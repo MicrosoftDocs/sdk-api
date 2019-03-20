@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGraphShutdown
-title: PeerGraphShutdown function
+title: PeerGraphShutdown function (p2p.h)
 author: windows-sdk-content
 description: The PeerGraphShutdown function cleans up any resources allocated by the call to PeerGraphStartup. There must be a call to PeerGraphShutdown for each call to PeerGraphStartup.
 old-location: p2p\peergraphshutdown.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.RequestAttrsAtPosition
-title: ITextStoreAnchor::RequestAttrsAtPosition
+title: ITextStoreAnchor::RequestAttrsAtPosition (textstor.h)
 author: windows-sdk-content
 description: ITextStoreAnchor::RequestAttrsAtPosition method
 old-location: tsf\itextstoreanchor_requestattrsatposition.htm

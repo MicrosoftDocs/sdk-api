@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.LsnContainer
-title: LsnContainer function
+title: LsnContainer function (clfsw32.h)
 author: windows-sdk-content
 description: Retrieves the logical container ID that is contained in a specified LSN.
 old-location: fs\lsncontainer.htm

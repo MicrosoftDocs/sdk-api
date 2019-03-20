@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsService.QueryUnallocatedDisks
-title: IVdsService::QueryUnallocatedDisks
+title: IVdsService::QueryUnallocatedDisks (vds.h)
 author: windows-sdk-content
 description: Returns an enumeration object containing a list of the unallocated disks managed by VDS.
 old-location: base\ivdsservice_queryunallocateddisks.htm

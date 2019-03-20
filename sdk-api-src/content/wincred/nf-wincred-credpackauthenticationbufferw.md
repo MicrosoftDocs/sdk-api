@@ -1,6 +1,6 @@
 ---
 UID: NF:wincred.CredPackAuthenticationBufferW
-title: CredPackAuthenticationBufferW function
+title: CredPackAuthenticationBufferW function (wincred.h)
 author: windows-sdk-content
 description: Converts a string user name and password into an authentication buffer.
 old-location: security\credpackauthenticationbuffer.htm

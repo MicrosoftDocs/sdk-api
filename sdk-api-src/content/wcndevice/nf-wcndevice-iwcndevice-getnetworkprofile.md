@@ -1,6 +1,6 @@
 ---
 UID: NF:wcndevice.IWCNDevice.GetNetworkProfile
-title: IWCNDevice::GetNetworkProfile
+title: IWCNDevice::GetNetworkProfile (wcndevice.h)
 author: windows-sdk-content
 description: The IWCNDevice::GetNetworkProfile method gets a network profile from the device.
 old-location: wcn\iwcndevice_getnetworkprofile.htm

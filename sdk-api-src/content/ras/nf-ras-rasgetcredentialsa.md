@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasGetCredentialsA
-title: RasGetCredentialsA function
+title: RasGetCredentialsA function (ras.h)
 author: windows-sdk-content
 description: The RasGetCredentials function retrieves the user credentials associated with a specified RAS phone-book entry.
 old-location: rras\rasgetcredentials.htm

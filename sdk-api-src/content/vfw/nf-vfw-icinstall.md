@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.ICInstall
-title: ICInstall function
+title: ICInstall function (vfw.h)
 author: windows-sdk-content
 description: The ICInstall function installs a new compressor or decompressor.
 old-location: multimedia\icinstall.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmNetEventsSetSecurityInfo0
-title: FwpmNetEventsSetSecurityInfo0 function
+title: FwpmNetEventsSetSecurityInfo0 function (fwpmu.h)
 author: windows-sdk-content
 description: Sets specified security information in the security descriptor of a network event object.
 old-location: fwp\fwpmneteventssetsecurityinfo0.htm

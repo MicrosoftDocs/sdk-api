@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shadertracing.ID3D11ShaderTrace.GetTraceStats
-title: ID3D11ShaderTrace::GetTraceStats
+title: ID3D11ShaderTrace::GetTraceStats (d3d11shadertracing.h)
 author: windows-sdk-content
 description: Returns statistics about the trace.
 old-location: direct3d11\id3d11shadertrace_gettracestats.htm

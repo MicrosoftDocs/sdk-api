@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ListBox_GetSelItems
-title: ListBox_GetSelItems macro
+title: ListBox_GetSelItems macro (windowsx.h)
 author: windows-sdk-content
 description: Gets the indexes of selected items in a multiple-selection list box. You can use this macro or send the LB_GETSELITEMS message explicitly.
 old-location: controls\ListBox_GetSelItems.htm

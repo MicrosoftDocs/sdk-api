@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.INewShortcutHookA.GetFolder
-title: INewShortcutHookA::GetFolder
+title: INewShortcutHookA::GetFolder (shlobj.h)
 author: windows-sdk-content
 description: Gets the folder name for the shortcut object.
 old-location: shell\INewShortcutHook_GetFolder.htm

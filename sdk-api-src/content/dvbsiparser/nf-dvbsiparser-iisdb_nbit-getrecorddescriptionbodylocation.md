@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_NBIT.GetRecordDescriptionBodyLocation
-title: IISDB_NBIT::GetRecordDescriptionBodyLocation
+title: IISDB_NBIT::GetRecordDescriptionBodyLocation (dvbsiparser.h)
 author: windows-sdk-content
 description: Receives the value of the description_body_location field from a record in an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
 old-location: mstv\iisdb_nbit_getrecorddescriptionbodylocation.htm

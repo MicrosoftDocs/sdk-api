@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_ECC_SIGNATURE
-title: CERT_ECC_SIGNATURE
+title: CERT_ECC_SIGNATURE (wincrypt.h)
 author: windows-sdk-content
 description: Contains the r and s values for an Elliptic Curve Digital Signature Algorithm (ECDSA) signature.
 old-location: security\cert_ecc_signature.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mgm.MgmRegisterMProtocol
-title: MgmRegisterMProtocol function
+title: MgmRegisterMProtocol function (mgm.h)
 author: windows-sdk-content
 description: The MgmRegisterMProtocol function is used by clients to register with the multicast group manager.
 old-location: rras\mgmregistermprotocol.htm

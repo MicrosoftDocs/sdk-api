@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Edit_NoSetFocus
-title: Edit_NoSetFocus macro
+title: Edit_NoSetFocus macro (commctrl.h)
 author: windows-sdk-content
 description: Prevents a single-line edit control from receiving keyboard focus. You can use this macro or send the EM_NOSETFOCUS message explicitly.
 old-location: controls\Edit_NoSetFocus.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.SetRange
-title: ITextRange::SetRange
+title: ITextRange::SetRange (tom.h)
 author: windows-sdk-content
 description: Adjusts the range endpoints to the specified values.
 old-location: controls\ITextRange_SetRange.htm

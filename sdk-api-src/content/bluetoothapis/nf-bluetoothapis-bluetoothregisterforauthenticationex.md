@@ -1,6 +1,6 @@
 ---
 UID: NF:bluetoothapis.BluetoothRegisterForAuthenticationEx
-title: BluetoothRegisterForAuthenticationEx function
+title: BluetoothRegisterForAuthenticationEx function (bluetoothapis.h)
 author: windows-sdk-content
 description: The BluetoothRegisterForAuthenticationEx function registers an application for a pin request, numeric comparison and callback function.
 old-location: bluetooth\bluetoothregisterforauthenticationex.htm

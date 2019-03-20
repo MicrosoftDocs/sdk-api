@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.CheckCryptoKeyExchange
-title: ID3D11VideoDevice::CheckCryptoKeyExchange
+title: ID3D11VideoDevice::CheckCryptoKeyExchange (d3d11.h)
 author: windows-sdk-content
 description: Gets a cryptographic key-exchange mechanism that is supported by the driver.
 old-location: mf\id3d11videodevice_checkcryptokeyexchange.htm

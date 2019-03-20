@@ -1,6 +1,6 @@
 ---
 UID: NF:tdh.TdhAggregatePayloadFilters
-title: TdhAggregatePayloadFilters function
+title: TdhAggregatePayloadFilters function (tdh.h)
 author: windows-sdk-content
 description: Aggregates multiple payload filters for a single provider into a single data structure for use with the EnableTraceEx2 function.
 old-location: etw\tdhaggregatepayloadfilters.htm

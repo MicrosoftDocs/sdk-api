@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IConnector.IsConnected
-title: IConnector::IsConnected
+title: IConnector::IsConnected (devicetopology.h)
 author: windows-sdk-content
 description: The IsConnected method indicates whether this connector is connected to another connector.
 old-location: coreaudio\iconnector_isconnected.htm

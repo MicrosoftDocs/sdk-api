@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut.IInkRecognizerGuide
-title: IInkRecognizerGuide
+title: IInkRecognizerGuide (msinkaut.h)
 author: windows-sdk-content
 description: "."
 old-location: tablet\iinkrecognizerguide.htm

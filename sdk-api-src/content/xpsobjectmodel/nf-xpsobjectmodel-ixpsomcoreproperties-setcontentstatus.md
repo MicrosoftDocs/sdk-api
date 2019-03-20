@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetContentStatus
-title: IXpsOMCoreProperties::SetContentStatus
+title: IXpsOMCoreProperties::SetContentStatus (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the contentStatus property.
 old-location: xps\ixpsomcoreproperties_setcontentstatus.htm

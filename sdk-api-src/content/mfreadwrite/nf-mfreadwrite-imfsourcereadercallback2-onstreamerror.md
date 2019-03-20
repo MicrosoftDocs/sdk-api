@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReaderCallback2.OnStreamError
-title: IMFSourceReaderCallback2::OnStreamError
+title: IMFSourceReaderCallback2::OnStreamError (mfreadwrite.h)
 author: windows-sdk-content
 description: Called when an asynchronous error occurs with the IMFSourceReader.
 old-location: mf\imfsourcereadercallback2_onstreamerror.htm

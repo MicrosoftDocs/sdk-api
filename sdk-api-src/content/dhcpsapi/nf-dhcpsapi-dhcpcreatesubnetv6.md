@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpCreateSubnetV6
-title: DhcpCreateSubnetV6 function
+title: DhcpCreateSubnetV6 function (dhcpsapi.h)
 author: windows-sdk-content
 description: The DhcpCreateSubnetV6 function creates a new subnet on the DHCP server.
 old-location: dhcp\dhcpcreatesubnetv6.htm

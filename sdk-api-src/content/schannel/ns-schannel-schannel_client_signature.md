@@ -1,6 +1,6 @@
 ---
 UID: NS:schannel._SCHANNEL_CLIENT_SIGNATURE
-title: SCHANNEL_CLIENT_SIGNATURE
+title: SCHANNEL_CLIENT_SIGNATURE (schannel.h)
 author: windows-sdk-content
 description: Specifies a client signature when a call to the InitializeSecurityContext (Schannel) function cannot access the private key for a client certificate (in this case, the function returns SEC_I_SIGNATURE_NEEDED).
 old-location: security\schannel_client_signature.htm

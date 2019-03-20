@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.EnrollmentSelectionStatus
-title: EnrollmentSelectionStatus
+title: EnrollmentSelectionStatus (certenroll.h)
 author: windows-sdk-content
 description: Specifies whether the enrollment status of an object will be monitored during the enrollment process.
 old-location: security\enrollmentselectionstatus_enum.htm

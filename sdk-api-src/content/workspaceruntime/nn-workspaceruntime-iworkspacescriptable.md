@@ -1,6 +1,6 @@
 ---
 UID: NN:workspaceruntime.IWorkspaceScriptable
-title: IWorkspaceScriptable
+title: IWorkspaceScriptable (workspaceruntime.h)
 author: windows-sdk-content
 description: Exposes methods that manage RemoteApp and Desktop Connection credentials and connections.
 old-location: termserv\iworkspacescriptable.htm

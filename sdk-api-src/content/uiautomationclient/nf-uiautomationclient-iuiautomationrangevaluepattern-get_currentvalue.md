@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationRangeValuePattern.get_CurrentValue
-title: IUIAutomationRangeValuePattern::get_CurrentValue
+title: IUIAutomationRangeValuePattern::get_CurrentValue (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the value of the control.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CurrentValue.htm

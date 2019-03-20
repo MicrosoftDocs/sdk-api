@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.SetFontRenderingEmSize
-title: IXpsOMGlyphs::SetFontRenderingEmSize
+title: IXpsOMGlyphs::SetFontRenderingEmSize (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the font size of the text.
 old-location: xps\ixpsomglyphs_setfontrenderingemsize.htm

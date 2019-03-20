@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminConnectionHangupNotification
-title: MprAdminConnectionHangupNotification function
+title: MprAdminConnectionHangupNotification function (mprapi.h)
 author: windows-sdk-content
 description: Remote Access Service calls the MprAdminConnectionHangupNotification function after the last link for the specified connection has been dismantled.
 old-location: rras\mpradminconnectionhangupnotification.htm

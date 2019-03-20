@@ -1,6 +1,6 @@
 ---
 UID: NF:winsxs.IAssemblyName.GetDisplayName
-title: IAssemblyName::GetDisplayName
+title: IAssemblyName::GetDisplayName (winsxs.h)
 author: windows-sdk-content
 description: The GetDisplayName method gets a string representation of the side-by-side assembly name.
 old-location: setup\iassemblyname_getdisplayname.htm

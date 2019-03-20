@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignature.Verify
-title: IXpsSignature::Verify
+title: IXpsSignature::Verify (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Verifies the signature against a specified X.509 certificate.
 old-location: xps\ixpssignature_verify.htm

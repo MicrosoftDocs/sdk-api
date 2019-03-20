@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1effectauthor.D2D1_VERTEX_RANGE
-title: D2D1_VERTEX_RANGE
+title: D2D1_VERTEX_RANGE (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Defines a range of vertices that are used when rendering less than the full contents of a vertex buffer.
 old-location: direct2d\d2d1_vertex_range.htm

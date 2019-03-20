@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IMemAllocator
-title: IMemAllocator
+title: IMemAllocator (strmif.h)
 author: windows-sdk-content
 description: The IMemAllocator interface allocates media samples, for moving data between pins.This interface is used by pins that share allocators, when the input pin exposes the IMemInputPin interface.
 old-location: dshow\imemallocator.htm

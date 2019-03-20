@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetBlobSize
-title: IMFAttributes::GetBlobSize
+title: IMFAttributes::GetBlobSize (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves the length of a byte array associated with a key.
 old-location: mf\imfattributes_getblobsize.htm

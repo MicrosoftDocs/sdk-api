@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ALIGN_CLUSPROP
-title: ALIGN_CLUSPROP macro
+title: ALIGN_CLUSPROP macro (clusapi.h)
 author: windows-sdk-content
 description: Aligns structures properly within value lists.
 old-location: mscs\align_clusprop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:magnification.MagGetWindowSource
-title: MagGetWindowSource function
+title: MagGetWindowSource function (magnification.h)
 author: windows-sdk-content
 description: Gets the rectangle of the area that is being magnified.
 old-location: magapi\magapi_MagGetWindowSource.htm

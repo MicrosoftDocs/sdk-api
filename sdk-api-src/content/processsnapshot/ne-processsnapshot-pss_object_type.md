@@ -1,6 +1,6 @@
 ---
 UID: NE:processsnapshot.__unnamed_enum_1
-title: PSS_OBJECT_TYPE
+title: PSS_OBJECT_TYPE (processsnapshot.h)
 author: windows-sdk-content
 description: Specifies the object type in a PSS_HANDLE_ENTRY structure.
 old-location: proc_snap\pss_object_type.htm

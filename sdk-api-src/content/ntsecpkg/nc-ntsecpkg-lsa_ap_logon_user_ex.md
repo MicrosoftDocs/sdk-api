@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_AP_LOGON_USER_EX
-title: LSA_AP_LOGON_USER_EX
+title: LSA_AP_LOGON_USER_EX (ntsecpkg.h)
 author: windows-sdk-content
 description: Authenticates a user's logon credentials.
 old-location: security\lsaaplogonuserex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsLunPlex.QueryHints
-title: IVdsLunPlex::QueryHints
+title: IVdsLunPlex::QueryHints (vds.h)
 author: windows-sdk-content
 description: Returns the hints that are currently applied to the LUN plex.
 old-location: base\ivdslunplex_queryhints.htm

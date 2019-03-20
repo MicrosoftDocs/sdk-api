@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagCIEXYZ
-title: CIEXYZ
+title: CIEXYZ (wingdi.h)
 author: windows-sdk-content
 description: The CIEXYZ structure contains the x,y, and z coordinates of a specific color in a specified color space.
 old-location: wcs\ciexyz.htm

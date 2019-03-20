@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_ATTRIBUTE
-title: CRYPT_ATTRIBUTE
+title: CRYPT_ATTRIBUTE (wincrypt.h)
 author: windows-sdk-content
 description: The CRYPT_ATTRIBUTE structure specifies an attribute that has one or more values.
 old-location: security\crypt_attribute.htm

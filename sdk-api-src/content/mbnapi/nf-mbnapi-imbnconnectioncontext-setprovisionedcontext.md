@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionContext.SetProvisionedContext
-title: IMbnConnectionContext::SetProvisionedContext
+title: IMbnConnectionContext::SetProvisionedContext (mbnapi.h)
 author: windows-sdk-content
 description: Adds or updates a provisioned context.
 old-location: mbn\imbnconnectioncontext_setprovisionedcontext.htm

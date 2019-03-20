@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_SetAutoScrollInfo
-title: TreeView_SetAutoScrollInfo macro
+title: TreeView_SetAutoScrollInfo macro (commctrl.h)
 author: windows-sdk-content
 description: Sets information used to determine auto-scroll characteristics. Use this macro or send the TVM_SETAUTOSCROLLINFO message explicitly.
 old-location: controls\TreeView_SetAutoScrollInfo.htm

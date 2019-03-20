@@ -1,6 +1,6 @@
 ---
 UID: NF:cryptuiapi.CryptUIDlgSelectCertificateFromStore
-title: CryptUIDlgSelectCertificateFromStore function
+title: CryptUIDlgSelectCertificateFromStore function (cryptuiapi.h)
 author: windows-sdk-content
 description: Displays a dialog box that allows the selection of a certificate from a specified store.
 old-location: security\cryptuidlgselectcertificatefromstore.htm

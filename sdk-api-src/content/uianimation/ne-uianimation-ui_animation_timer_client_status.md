@@ -1,6 +1,6 @@
 ---
 UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0014_0001
-title: UI_ANIMATION_TIMER_CLIENT_STATUS
+title: UI_ANIMATION_TIMER_CLIENT_STATUS (uianimation.h)
 author: windows-sdk-content
 description: Defines activity status for a timer's client.
 old-location: uianimation\ui_animation_timer_client_status.htm

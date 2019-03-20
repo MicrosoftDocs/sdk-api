@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.get_ClientApplicationID
-title: IUpdateSearcher::get_ClientApplicationID
+title: IUpdateSearcher::get_ClientApplicationID (wuapi.h)
 author: windows-sdk-content
 description: Identifies the current client application.
 old-location: wua\iupdatesearcherclientapplicationid.htm

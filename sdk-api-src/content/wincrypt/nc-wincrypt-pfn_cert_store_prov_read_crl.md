@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PFN_CERT_STORE_PROV_READ_CRL
-title: PFN_CERT_STORE_PROV_READ_CRL
+title: PFN_CERT_STORE_PROV_READ_CRL (wincrypt.h)
 author: windows-sdk-content
 description: An application-defined callback function that reads the provider's copy of the CRL context.
 old-location: security\certstoreprovreadcrlcallback.htm

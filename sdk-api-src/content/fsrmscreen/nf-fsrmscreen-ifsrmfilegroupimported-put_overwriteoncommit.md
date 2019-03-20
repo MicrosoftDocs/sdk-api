@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroupImported.put_OverwriteOnCommit
-title: IFsrmFileGroupImported::put_OverwriteOnCommit
+title: IFsrmFileGroupImported::put_OverwriteOnCommit (fsrmscreen.h)
 author: windows-sdk-content
 description: Retrieves or sets a value that determines whether a file group is overwritten if it exists.
 old-location: fsrm\ifsrmfilegroupimported_overwriteoncommit.htm

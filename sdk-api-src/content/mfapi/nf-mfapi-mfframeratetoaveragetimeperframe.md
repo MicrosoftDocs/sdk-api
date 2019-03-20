@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFFrameRateToAverageTimePerFrame
-title: MFFrameRateToAverageTimePerFrame function
+title: MFFrameRateToAverageTimePerFrame function (mfapi.h)
 author: windows-sdk-content
 description: Converts a video frame rate into a frame duration.
 old-location: mf\mfframeratetoaveragetimeperframe.htm

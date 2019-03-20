@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.StgGetIFillLockBytesOnFile
-title: StgGetIFillLockBytesOnFile function
+title: StgGetIFillLockBytesOnFile function (objbase.h)
 author: windows-sdk-content
 description: Opens a wrapper object on a temporary file.
 old-location: stg\stggetifilllockbytesonfile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strsafe.StringCbCatExW
-title: StringCbCatExW function
+title: StringCbCatExW function (strsafe.h)
 author: windows-sdk-content
 description: Concatenates one string to another string.
 old-location: menurc\stringcbcatex.htm

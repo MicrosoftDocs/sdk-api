@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.EnumDisplayDevicesW
-title: EnumDisplayDevicesW function
+title: EnumDisplayDevicesW function (winuser.h)
 author: windows-sdk-content
 description: The EnumDisplayDevices function lets you obtain information about the display devices in the current session.
 old-location: gdi\enumdisplaydevices.htm

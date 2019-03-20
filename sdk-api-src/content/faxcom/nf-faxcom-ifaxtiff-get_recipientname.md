@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxTiff.get_RecipientName
-title: IFaxTiff::get_RecipientName
+title: IFaxTiff::get_RecipientName (faxcom.h)
 author: windows-sdk-content
 description: Retrieves the RecipientName property for a FaxTiff object. The RecipientName property is a null-terminated string that contains the name of the recipient for the specified fax file.
 old-location: fax\_mfax_ifaxtiff_mfax_ifaxtiff_get_recipientname_cpp.htm

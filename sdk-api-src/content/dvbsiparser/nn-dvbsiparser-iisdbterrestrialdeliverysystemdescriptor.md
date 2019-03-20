@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IIsdbTerrestrialDeliverySystemDescriptor
-title: IIsdbTerrestrialDeliverySystemDescriptor
+title: IIsdbTerrestrialDeliverySystemDescriptor (dvbsiparser.h)
 author: windows-sdk-content
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor.
 old-location: mstv\iisdbterrestrialdeliverysystemdescriptor.htm

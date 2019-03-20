@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IDvbNetworkNameDescriptor
-title: IDvbNetworkNameDescriptor
+title: IDvbNetworkNameDescriptor (dvbsiparser.h)
 author: windows-sdk-content
 description: Implements methods that get data from a Digital Video Broadcast (DVB) network name descriptor. The network name descriptor gets text format information about the network that originated the broadcast.
 old-location: mstv\idvbnetworknamedescriptor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionRotateTransform.SetCenterX(IDCompositionAnimation)
-title: IDCompositionRotateTransform::SetCenterX(IDCompositionAnimation)
+title: IDCompositionRotateTransform::SetCenterX(IDCompositionAnimation) (dcomp.h)
 author: windows-sdk-content
 description: Animates the value of the CenterX property of a 2D rotation transform.
 old-location: directcomp\idcompositionrotatetransform_setcenterx_idcompositionanimation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetEnableTCP
-title: IWMReaderNetworkConfig::GetEnableTCP
+title: IWMReaderNetworkConfig::GetEnableTCP (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetEnableTCP method queries whether TCP is enabled for protocol rollover.
 old-location: wmformat\iwmreadernetworkconfig_getenabletcp.htm

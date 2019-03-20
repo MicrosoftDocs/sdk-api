@@ -1,6 +1,6 @@
 ---
 UID: NF:tdh.TdhDeletePayloadFilter
-title: TdhDeletePayloadFilter function
+title: TdhDeletePayloadFilter function (tdh.h)
 author: windows-sdk-content
 description: Frees the memory allocated for a single payload filter by the TdhCreatePayloadFilter function.
 old-location: etw\tdhdeletepayloadfilter.htm

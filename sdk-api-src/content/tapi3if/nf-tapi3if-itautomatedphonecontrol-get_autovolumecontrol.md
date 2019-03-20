@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.get_AutoVolumeControl
-title: ITAutomatedPhoneControl::get_AutoVolumeControl
+title: ITAutomatedPhoneControl::get_AutoVolumeControl (tapi3if.h)
 author: windows-sdk-content
 description: The get_AutoVolumeControl method retrieves the current value of the AutoVolumeControl property.
 old-location: tapi3\itautomatedphonecontrol_get_autovolumecontrol.htm

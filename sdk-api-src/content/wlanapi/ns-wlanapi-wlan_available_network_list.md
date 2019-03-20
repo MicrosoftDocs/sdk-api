@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanapi._WLAN_AVAILABLE_NETWORK_LIST
-title: WLAN_AVAILABLE_NETWORK_LIST
+title: WLAN_AVAILABLE_NETWORK_LIST (wlanapi.h)
 author: windows-sdk-content
 description: Contains an array of information about available networks.
 old-location: nwifi\wlan_available_network_list.htm

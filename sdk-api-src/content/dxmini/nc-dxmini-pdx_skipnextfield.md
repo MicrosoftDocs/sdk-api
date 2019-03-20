@@ -1,6 +1,6 @@
 ---
 UID: NC:dxmini.PDX_SKIPNEXTFIELD
-title: PDX_SKIPNEXTFIELD
+title: PDX_SKIPNEXTFIELD (dxmini.h)
 author: windows-sdk-content
 description: The DxSkipNextField callback function is called when the next field needs to be skipped or reenabled.
 old-location: display\dxskipnextfield.htm

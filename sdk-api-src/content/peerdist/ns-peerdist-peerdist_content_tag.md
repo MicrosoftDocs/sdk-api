@@ -1,6 +1,6 @@
 ---
 UID: NS:peerdist.peerdist_content_tag_tag
-title: PEERDIST_CONTENT_TAG
+title: PEERDIST_CONTENT_TAG (peerdist.h)
 author: windows-sdk-content
 description: PEERDIST_CONTENT_TAG structure contains a client supplied content tag as an input to the PeerDistClientOpenContent API.
 old-location: p2p\peerdist_content_tag.htm

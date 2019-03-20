@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPathIterator.NextPathType
-title: GraphicsPathIterator::NextPathType
+title: GraphicsPathIterator::NextPathType (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPathIterator::NextPathType method gets the starting index and the ending index of the next group of data points that all have the same type.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_NextPathType_pathType_startIndex_endIndex_.htm

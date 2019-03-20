@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarDecAbs
-title: VarDecAbs function
+title: VarDecAbs function (oleauto.h)
 author: windows-sdk-content
 description: Retrieves the absolute value of a variant of type decimal.
 old-location: automat\vardecabs.htm

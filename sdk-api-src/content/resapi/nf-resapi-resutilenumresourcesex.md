@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilEnumResourcesEx
-title: ResUtilEnumResourcesEx function
+title: ResUtilEnumResourcesEx function (resapi.h)
 author: windows-sdk-content
 description: Enumerates all of the resources in a specified cluster and initiates a user-defined operation for each resource. The PRESUTIL_ENUM_RESOURCES_EX type defines a pointer to this function.
 old-location: mscs\resutilenumresourcesex.htm

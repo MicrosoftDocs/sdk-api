@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcasync.RpcFreeAuthorizationContext
-title: RpcFreeAuthorizationContext function
+title: RpcFreeAuthorizationContext function (rpcasync.h)
 author: windows-sdk-content
 description: The RpcFreeAuthorizationContext function frees an Authz context obtained by a previous call to the RpcGetAuthorizationContextForClient function.
 old-location: rpc\rpcfreeauthorizationcontext.htm

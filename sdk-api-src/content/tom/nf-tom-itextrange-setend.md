@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.SetEnd
-title: ITextRange::SetEnd
+title: ITextRange::SetEnd (tom.h)
 author: windows-sdk-content
 description: Sets the end position of the range.
 old-location: controls\ITextRange_SetEnd.htm

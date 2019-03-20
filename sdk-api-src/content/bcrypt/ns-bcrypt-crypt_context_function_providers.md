@@ -1,6 +1,6 @@
 ---
 UID: NS:bcrypt._CRYPT_CONTEXT_FUNCTION_PROVIDERS
-title: CRYPT_CONTEXT_FUNCTION_PROVIDERS
+title: CRYPT_CONTEXT_FUNCTION_PROVIDERS (bcrypt.h)
 author: windows-sdk-content
 description: Contains a set of cryptographic function providers for a CNG configuration context.
 old-location: security\crypt_context_function_providers.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings3.get_FeaturedUpdatesEnabled
-title: IAutomaticUpdatesSettings3::get_FeaturedUpdatesEnabled
+title: IAutomaticUpdatesSettings3::get_FeaturedUpdatesEnabled (wuapi.h)
 author: windows-sdk-content
 description: Not supported.
 old-location: wua\iautomaticupdatessettings3_featuredupdatesenabled.htm

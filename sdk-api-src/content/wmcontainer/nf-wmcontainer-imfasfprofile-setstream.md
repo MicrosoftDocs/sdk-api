@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.SetStream
-title: IMFASFProfile::SetStream
+title: IMFASFProfile::SetStream (wmcontainer.h)
 author: windows-sdk-content
 description: Adds a stream to the profile or reconfigures an existing stream.
 old-location: mf\imfasfprofile_setstream.htm

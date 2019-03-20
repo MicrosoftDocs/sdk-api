@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView.GetSelectionMarkedItem
-title: IFolderView::GetSelectionMarkedItem
+title: IFolderView::GetSelectionMarkedItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the index of an item in the folder's view which has been marked by using the SVSI_SELECTIONMARK in IFolderView::SelectItem.
 old-location: shell\IFolderView_GetSelectionMarkedItem.htm

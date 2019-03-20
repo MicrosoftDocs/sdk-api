@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_CLEAR_VALUE
-title: D3D12_CLEAR_VALUE
+title: D3D12_CLEAR_VALUE (d3d12.h)
 author: windows-sdk-content
 description: Describes a value used to optimize clear operations for a particular resource.
 old-location: direct3d12\d3d12_clear_value.htm

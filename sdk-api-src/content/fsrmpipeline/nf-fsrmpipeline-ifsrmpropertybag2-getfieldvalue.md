@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag2.GetFieldValue
-title: IFsrmPropertyBag2::GetFieldValue
+title: IFsrmPropertyBag2::GetFieldValue (fsrmpipeline.h)
 author: windows-sdk-content
 description: Gets the value of the specified field from the property bag.
 old-location: fsrm\ifsrmpropertybag2_getfieldvalue.htm

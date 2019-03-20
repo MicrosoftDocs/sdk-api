@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointControl.Start
-title: IAudioEndpointControl::Start
+title: IAudioEndpointControl::Start (audioengineendpoint.h)
 author: windows-sdk-content
 description: Starts the endpoint stream.
 old-location: termserv\iaudioendpointcontrol_start.htm

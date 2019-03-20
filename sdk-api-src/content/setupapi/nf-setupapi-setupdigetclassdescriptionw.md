@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetClassDescriptionW
-title: SetupDiGetClassDescriptionW function
+title: SetupDiGetClassDescriptionW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetClassDescription function retrieves the class description associated with the specified setup class GUID.
 old-location: devinst\setupdigetclassdescription.htm

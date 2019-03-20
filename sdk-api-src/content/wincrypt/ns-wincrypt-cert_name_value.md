@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_NAME_VALUE
-title: CERT_NAME_VALUE
+title: CERT_NAME_VALUE (wincrypt.h)
 author: windows-sdk-content
 description: Contains a relative distinguished name (RDN) attribute value.
 old-location: security\cert_name_value.htm

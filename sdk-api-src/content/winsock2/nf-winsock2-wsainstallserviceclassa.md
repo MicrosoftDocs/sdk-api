@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSAInstallServiceClassA
-title: WSAInstallServiceClassA function
+title: WSAInstallServiceClassA function (winsock2.h)
 author: windows-sdk-content
 description: The WSAInstallServiceClass function registers a service class schema within a namespace.
 old-location: winsock\wsainstallserviceclass_2.htm

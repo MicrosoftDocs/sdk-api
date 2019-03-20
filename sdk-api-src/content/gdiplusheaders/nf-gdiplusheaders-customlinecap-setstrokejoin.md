@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.SetStrokeJoin
-title: CustomLineCap::SetStrokeJoin
+title: CustomLineCap::SetStrokeJoin (gdiplusheaders.h)
 author: windows-sdk-content
 description: The CustomLineCap::SetStrokeJoin method sets the style of line join for the stroke. The line join specifies how two lines that intersect within the GraphicsPath object that makes up the custom line cap are joined.
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_SetStrokeJoin_lineJoin_.htm

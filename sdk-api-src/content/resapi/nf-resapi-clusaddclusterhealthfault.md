@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ClusAddClusterHealthFault
-title: ClusAddClusterHealthFault function
+title: ClusAddClusterHealthFault function (resapi.h)
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\clusaddclusterhealthfault.htm

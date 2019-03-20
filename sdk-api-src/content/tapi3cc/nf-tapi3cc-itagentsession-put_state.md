@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITAgentSession.put_State
-title: ITAgentSession::put_State
+title: ITAgentSession::put_State (tapi3cc.h)
 author: windows-sdk-content
 description: The put_State method sets the state of the agent session.
 old-location: tapi3\itagentsession_put_state.htm

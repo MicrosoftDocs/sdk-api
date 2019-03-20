@@ -1,6 +1,6 @@
 ---
 UID: NE:wpcevent.tagWPC_ARGS_URLVISITEVENT
-title: WPC_ARGS_URLVISITEVENT
+title: WPC_ARGS_URLVISITEVENT (wpcevent.h)
 author: windows-sdk-content
 description: Indicates information about the address URL of a website viewed.
 old-location: parcon\wpc_args_urlvisitevent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.DeviceSpecificVariant
-title: ITPhone::DeviceSpecificVariant
+title: ITPhone::DeviceSpecificVariant (tapi3if.h)
 author: windows-sdk-content
 description: The DeviceSpecificVariant method enables service providers to provide access to features not offered by other TAPI functions.
 old-location: tapi3\itphone_devicespecificvariant.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:vdshwprv.IVdsControllerPort
-title: IVdsControllerPort
+title: IVdsControllerPort (vdshwprv.h)
 author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on a controller port.
 old-location: base\ivdscontrollerport.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHGetKnownFolderItem
-title: SHGetKnownFolderItem function
+title: SHGetKnownFolderItem function (shlobj_core.h)
 author: windows-sdk-content
 description: Retrieves an IShellItem object that represents a known folder.
 old-location: shell\SHGetKnownFolderItem.htm

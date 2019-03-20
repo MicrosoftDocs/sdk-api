@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._SECPKG_BYTE_VECTOR
-title: SECPKG_BYTE_VECTOR
+title: SECPKG_BYTE_VECTOR (ntsecpkg.h)
 author: windows-sdk-content
 description: Specifies the byte vector information.
 old-location: security\secpkg_byte_vector.htm

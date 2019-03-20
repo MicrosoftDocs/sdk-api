@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PolicyServerUrl.RemoveFromRegistry
-title: IX509PolicyServerUrl::RemoveFromRegistry
+title: IX509PolicyServerUrl::RemoveFromRegistry (certenroll.h)
 author: windows-sdk-content
 description: Unregisters a certificate enrollment policy (CEP) server.
 old-location: security\ix509policyserverurl_removefromregistry.htm

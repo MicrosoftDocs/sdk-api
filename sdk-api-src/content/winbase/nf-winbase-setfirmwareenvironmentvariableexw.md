@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SetFirmwareEnvironmentVariableExW
-title: SetFirmwareEnvironmentVariableExW function
+title: SetFirmwareEnvironmentVariableExW function (winbase.h)
 author: windows-sdk-content
 description: Sets the value of the specified firmware environment variable as the attributes that indicate how this variable is stored and maintained.
 old-location: base\setfirmwareenvironmentvariableex.htm

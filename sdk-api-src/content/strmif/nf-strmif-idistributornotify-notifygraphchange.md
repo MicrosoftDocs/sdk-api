@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDistributorNotify.NotifyGraphChange
-title: IDistributorNotify::NotifyGraphChange
+title: IDistributorNotify::NotifyGraphChange (strmif.h)
 author: windows-sdk-content
 description: The NotifyGraphChange method is called when the set of filters in the filter graph changes or any pin connections change.
 old-location: dshow\idistributornotify_notifygraphchange.htm

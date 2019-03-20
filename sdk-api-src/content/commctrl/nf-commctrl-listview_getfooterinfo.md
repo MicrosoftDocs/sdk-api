@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetFooterInfo
-title: ListView_GetFooterInfo macro
+title: ListView_GetFooterInfo macro (commctrl.h)
 author: windows-sdk-content
 description: Gets information on the footer of a specified list-view control. Use this macro or send the LVM_GETFOOTERINFO message explicitly.
 old-location: controls\ListView_GetFooterInfo.htm

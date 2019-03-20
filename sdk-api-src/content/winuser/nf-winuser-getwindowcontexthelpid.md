@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetWindowContextHelpId
-title: GetWindowContextHelpId function
+title: GetWindowContextHelpId function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the Help context identifier, if any, associated with the specified window.
 old-location: shell\GetWindowContextHelpId.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItemResources.SupportsResource
-title: IShellItemResources::SupportsResource
+title: IShellItemResources::SupportsResource (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves whether an item supports a specified resource.
 old-location: shell\IShellItemResources_SupportsResource.htm

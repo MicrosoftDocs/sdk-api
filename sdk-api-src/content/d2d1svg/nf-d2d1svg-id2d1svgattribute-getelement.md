@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgAttribute.GetElement
-title: ID2D1SvgAttribute::GetElement
+title: ID2D1SvgAttribute::GetElement (d2d1svg.h)
 author: windows-sdk-content
 description: Returns the element on which this attribute is set. Returns null if the attribute is not set on any element.
 old-location: direct2d\id2d1svgattribute_getelement.htm

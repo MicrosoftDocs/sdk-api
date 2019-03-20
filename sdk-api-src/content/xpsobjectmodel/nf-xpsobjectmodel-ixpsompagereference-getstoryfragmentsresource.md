@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.GetStoryFragmentsResource
-title: IXpsOMPageReference::GetStoryFragmentsResource
+title: IXpsOMPageReference::GetStoryFragmentsResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMStoryFragmentsResource interface of the StoryFragments part resource that is associated with the page.
 old-location: xps\ixpsompagereference_getstoryfragmentsresource.htm

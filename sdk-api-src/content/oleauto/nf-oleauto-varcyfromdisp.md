@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarCyFromDisp
-title: VarCyFromDisp function
+title: VarCyFromDisp function (oleauto.h)
 author: windows-sdk-content
 description: Converts the default property of an IDispatch instance to a currency value.
 old-location: automat\varcyfromdisp.htm

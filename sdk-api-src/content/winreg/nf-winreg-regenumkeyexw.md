@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegEnumKeyExW
-title: RegEnumKeyExW function
+title: RegEnumKeyExW function (winreg.h)
 author: windows-sdk-content
 description: Enumerates the subkeys of the specified open registry key. The function retrieves information about one subkey each time it is called.
 old-location: base\regenumkeyex.htm

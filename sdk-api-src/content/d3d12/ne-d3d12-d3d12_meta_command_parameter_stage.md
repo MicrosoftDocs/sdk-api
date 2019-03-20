@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_META_COMMAND_PARAMETER_STAGE
-title: D3D12_META_COMMAND_PARAMETER_STAGE
+title: D3D12_META_COMMAND_PARAMETER_STAGE (d3d12.h)
 author: windows-sdk-content
 description: Defines constants that specify the stage of a parameter to a meta command.
 old-location: direct3d12\d3d12_meta_command_parameter_stage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFSourceResolver
-title: IMFSourceResolver
+title: IMFSourceResolver (mfidl.h)
 author: windows-sdk-content
 description: Creates a media source from a URL or a byte stream.
 old-location: mf\imfsourceresolver.htm

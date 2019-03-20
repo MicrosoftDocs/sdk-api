@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.RectF.GetBottom
-title: RectF::GetBottom
+title: RectF::GetBottom (gdiplustypes.h)
 author: windows-sdk-content
 description: The RectF::GetBottom method gets the y-coordinate of the bottom edge of the rectangle.
 old-location: gdiplus\_gdiplus_CLASS_RectF_GetBottom_.htm

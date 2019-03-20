@@ -1,6 +1,6 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolumeCallback.OnNotify
-title: IAudioEndpointVolumeCallback::OnNotify
+title: IAudioEndpointVolumeCallback::OnNotify (endpointvolume.h)
 author: windows-sdk-content
 description: The OnNotify method notifies the client that the volume level or muting state of the audio endpoint device has changed.
 old-location: coreaudio\iaudioendpointvolumecallback_onnotify.htm

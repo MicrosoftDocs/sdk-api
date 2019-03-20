@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawBeziers(IN const Pen,IN const Point,IN INT)
-title: Graphics::DrawBeziers(IN const Pen,IN const Point,IN INT)
+title: Graphics::DrawBeziers(IN const Pen,IN const Point,IN INT) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::DrawBeziers method draws a sequence of connected B&#233;zier splines.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawBeziers_Pen_pen_Point_points_INT_count_.htm

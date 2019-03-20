@@ -1,6 +1,6 @@
 ---
 UID: NS:cfapi.CF_CALLBACK_INFO
-title: CF_CALLBACK_INFO
+title: CF_CALLBACK_INFO (cfapi.h)
 author: windows-sdk-content
 description: Contains common callback information.
 old-location: cloudapi\cf_callback_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:virtdisk._EXPAND_VIRTUAL_DISK_FLAG
-title: EXPAND_VIRTUAL_DISK_FLAG
+title: EXPAND_VIRTUAL_DISK_FLAG (virtdisk.h)
 author: windows-sdk-content
 description: Contains virtual hard disk (VHD) expand request flags.
 old-location: vhd\expand_virtual_disk_flag.htm

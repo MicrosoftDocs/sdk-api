@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMRadialGradientBrush
-title: IXpsOMRadialGradientBrush
+title: IXpsOMRadialGradientBrush (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Specifies a radial gradient.
 old-location: xps\ixpsomradialgradientbrush.htm

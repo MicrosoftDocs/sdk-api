@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IBDA_Encoder
-title: IBDA_Encoder
+title: IBDA_Encoder (bdaiface.h)
 author: windows-sdk-content
 description: Provides access to a device's Encoder Service.
 old-location: mstv\ibda_encoder.htm

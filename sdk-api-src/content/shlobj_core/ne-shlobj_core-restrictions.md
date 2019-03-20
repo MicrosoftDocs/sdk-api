@@ -1,6 +1,6 @@
 ---
 UID: NE:shlobj_core.RESTRICTIONS
-title: RESTRICTIONS
+title: RESTRICTIONS (shlobj_core.h)
 author: windows-sdk-content
 description: These flags are used with the SHRestricted function.
 old-location: shell\RESTRICTIONS.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:searchapi.ISearchQueryHelper
-title: ISearchQueryHelper
+title: ISearchQueryHelper (searchapi.h)
 author: windows-sdk-content
 description: Provides methods for building a query from user input, converting a query to Windows Search SQL, and obtaining a connection string to initialize a connection to the Window Search index.
 old-location: search\_search_ISearchQueryHelper.htm

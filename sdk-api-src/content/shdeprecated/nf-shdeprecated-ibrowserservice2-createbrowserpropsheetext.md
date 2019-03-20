@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.CreateBrowserPropSheetExt
-title: IBrowserService2::CreateBrowserPropSheetExt
+title: IBrowserService2::CreateBrowserPropSheetExt (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Allows the derived class to add Folder Options property sheets to the base class.
 old-location: shell\IBrowserService2_CreateBrowserPropSheetExt.htm

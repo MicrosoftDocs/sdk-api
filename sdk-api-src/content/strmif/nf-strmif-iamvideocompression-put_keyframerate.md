@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMVideoCompression.put_KeyFrameRate
-title: IAMVideoCompression::put_KeyFrameRate
+title: IAMVideoCompression::put_KeyFrameRate (strmif.h)
 author: windows-sdk-content
 description: The put_KeyFrameRate method sets the key-frame rate.
 old-location: dshow\iamvideocompression_put_keyframerate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10.D3D10_TEX2D_ARRAY_RTV
-title: D3D10_TEX2D_ARRAY_RTV
+title: D3D10_TEX2D_ARRAY_RTV (d3d10.h)
 author: windows-sdk-content
 description: Specifies the subresource(s) from an array of 2D textures to use in a render-target view.
 old-location: direct3d10\d3d10_tex2d_array_rtv.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.SetTransformDeviceModelInfo
-title: IDeviceModelPlugIn::SetTransformDeviceModelInfo
+title: IDeviceModelPlugIn::SetTransformDeviceModelInfo (wcsplugin.h)
 author: windows-sdk-content
 description: Provides the plug-in with parameters to determine where in the transform sequence the specific plug-in occurs.
 old-location: wcs\IDeviceModelPlugIn_SetTransformDeviceModelInfo.htm

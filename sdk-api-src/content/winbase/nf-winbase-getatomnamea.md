@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetAtomNameA
-title: GetAtomNameA function
+title: GetAtomNameA function (winbase.h)
 author: windows-sdk-content
 description: Retrieves a copy of the character string associated with the specified local atom.
 old-location: dataxchg\getatomname.htm

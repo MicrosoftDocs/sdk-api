@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IStylusPlugin.StylusDown
-title: IStylusPlugin::StylusDown
+title: IStylusPlugin::StylusDown (rtscom.h)
 author: windows-sdk-content
 description: Notifies the implementing plug-in that the tablet pen has touched the digitizer surface.
 old-location: tablet\istylusplugin_stylusdown.htm

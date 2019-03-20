@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.GetOwner
-title: IXpsOMPageReference::GetOwner
+title: IXpsOMPageReference::GetOwner (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMDocument interface that contains the page reference.
 old-location: xps\ixpsompagereference_getowner.htm

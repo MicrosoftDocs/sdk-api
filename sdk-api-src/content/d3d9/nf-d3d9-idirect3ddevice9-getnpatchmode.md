@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetNPatchMode
-title: IDirect3DDevice9::GetNPatchMode
+title: IDirect3DDevice9::GetNPatchMode (d3d9.h)
 author: windows-sdk-content
 description: Gets the N-patch mode segments.
 old-location: direct3d9\idirect3ddevice9__getnpatchmode.htm

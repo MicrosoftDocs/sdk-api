@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwProfile.put_ExceptionsNotAllowed
-title: INetFwProfile::put_ExceptionsNotAllowed
+title: INetFwProfile::put_ExceptionsNotAllowed (netfw.h)
 author: windows-sdk-content
 description: Indicates whether the firewall should not allow exceptions.
 old-location: ics\inetfwprofile_exceptionsnotallowed.htm

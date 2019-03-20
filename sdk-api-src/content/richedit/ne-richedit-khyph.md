@@ -1,6 +1,6 @@
 ---
 UID: NE:richedit.tagKHYPH
-title: KHYPH
+title: KHYPH (richedit.h)
 author: windows-sdk-content
 description: Contains values used to specify how to do hyphenation in a rich edit control. The HyphenateProc callback function uses this enumeration type.
 old-location: controls\KHYPH.htm

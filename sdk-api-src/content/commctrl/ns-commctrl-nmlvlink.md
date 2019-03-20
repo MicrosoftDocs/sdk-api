@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMLVLINK
-title: NMLVLINK
+title: NMLVLINK (commctrl.h)
 author: windows-sdk-content
 description: Contains information about an LVN_LINKCLICK notification code.
 old-location: controls\NMLVLINK.htm

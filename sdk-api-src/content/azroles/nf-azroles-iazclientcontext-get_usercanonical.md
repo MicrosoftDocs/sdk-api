@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext.get_UserCanonical
-title: IAzClientContext::get_UserCanonical
+title: IAzClientContext::get_UserCanonical (azroles.h)
 author: windows-sdk-content
 description: Retrieves the name of the current client in canonical format.
 old-location: security\iazclientcontext_usercanonical.htm

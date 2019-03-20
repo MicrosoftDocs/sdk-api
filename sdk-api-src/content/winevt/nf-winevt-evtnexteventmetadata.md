@@ -1,6 +1,6 @@
 ---
 UID: NF:winevt.EvtNextEventMetadata
-title: EvtNextEventMetadata function
+title: EvtNextEventMetadata function (winevt.h)
 author: windows-sdk-content
 description: Gets an event definition from the enumerator.
 old-location: wes\evtnexteventmetadata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.Xor(IN const Region)
-title: Region::Xor(IN const Region)
+title: Region::Xor(IN const Region) (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Region::Xor method updates this region to the nonintersecting portions of itself and another region.
 old-location: gdiplus\_gdiplus_CLASS_Region_Xor_region_.htm

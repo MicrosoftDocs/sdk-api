@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IWriteEngine2.get_BytesPerSector
-title: IWriteEngine2::get_BytesPerSector
+title: IWriteEngine2::get_BytesPerSector (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the number of bytes to use for each sector during writing. The returned value indicates what the value previously set with IWriteEngine2::put_BytesPerSector, and does not return a current bytes per sector value for media.
 old-location: imapi\iwriteengine2_get_bytespersector.htm

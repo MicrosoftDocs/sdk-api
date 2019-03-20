@@ -1,6 +1,6 @@
 ---
 UID: NS:mfplay.MFP_PAUSE_EVENT
-title: MFP_PAUSE_EVENT
+title: MFP_PAUSE_EVENT (mfplay.h)
 author: windows-sdk-content
 description: Event structure for the MFP_EVENT_TYPE_PAUSE event.
 old-location: mf\mfp_pause_event.htm

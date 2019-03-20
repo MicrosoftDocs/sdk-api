@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IUserNotificationCallback.OnBalloonUserClick
-title: IUserNotificationCallback::OnBalloonUserClick
+title: IUserNotificationCallback::OnBalloonUserClick (shobjidl.h)
 author: windows-sdk-content
 description: Called when the user clicks the balloon. The application may respond with an action that is suitable for the balloon being clicked.
 old-location: shell\IUserNotificationCallback_OnBalloonUserClick.htm

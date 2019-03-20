@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMMapEntryCollection.get_Count
-title: IGPMMapEntryCollection::get_Count
+title: IGPMMapEntryCollection::get_Count (gpmgmt.h)
 author: windows-sdk-content
 description: Returns the number of map entries in the collection.
 old-location: gpmc\igpmmapentrycollection_get_count.htm

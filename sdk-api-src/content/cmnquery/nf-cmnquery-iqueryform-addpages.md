@@ -1,6 +1,6 @@
 ---
 UID: NF:cmnquery.IQueryForm.AddPages
-title: IQueryForm::AddPages
+title: IQueryForm::AddPages (cmnquery.h)
 author: windows-sdk-content
 description: Called to allow a query form object to add pages to an existing form.
 old-location: ad\iqueryform_addpages.htm

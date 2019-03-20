@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_1.ID2D1GradientStopCollection1
-title: ID2D1GradientStopCollection1
+title: ID2D1GradientStopCollection1 (d2d1_1.h)
 author: windows-sdk-content
 description: Represents a collection of D2D1_GRADIENT_STOP objects for linear and radial gradient brushes. It provides get methods for all the new parameters added to the gradient stop collection.
 old-location: direct2d\id2d1gradientstopcollection1.htm

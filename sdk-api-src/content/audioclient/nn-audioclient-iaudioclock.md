@@ -1,6 +1,6 @@
 ---
 UID: NN:audioclient.IAudioClock
-title: IAudioClock
+title: IAudioClock (audioclient.h)
 author: windows-sdk-content
 description: The IAudioClock interface enables a client to monitor a stream's data rate and the current position in the stream.
 old-location: coreaudio\iaudioclock.htm

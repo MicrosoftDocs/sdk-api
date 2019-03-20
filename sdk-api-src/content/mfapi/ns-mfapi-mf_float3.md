@@ -1,6 +1,6 @@
 ---
 UID: NS:mfapi._MF_FLOAT3
-title: MF_FLOAT3
+title: MF_FLOAT3 (mfapi.h)
 author: windows-sdk-content
 description: A vector with three components.
 old-location: mf\mf_float3.htm

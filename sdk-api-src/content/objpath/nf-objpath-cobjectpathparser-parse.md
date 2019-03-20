@@ -1,6 +1,6 @@
 ---
 UID: NF:objpath.CObjectPathParser.Parse
-title: CObjectPathParser::Parse
+title: CObjectPathParser::Parse (objpath.h)
 author: windows-sdk-content
 description: Parses a string that contains a WMI path into a structure the contains the path parts, such as the server, namespace, class, key that identifies an instance, and others. Use of this object is not recommended. Instead, use the IWbemPath COM interface.
 old-location: wmi\cobjectpathparser_parse.htm

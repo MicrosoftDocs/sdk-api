@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12SharingContract.Present
-title: ID3D12SharingContract::Present
+title: ID3D12SharingContract::Present (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Shares a resource (or subresource) between the D3D layers and diagnostics tools.
 old-location: direct3d12\id3d12sharingcontract_present.htm

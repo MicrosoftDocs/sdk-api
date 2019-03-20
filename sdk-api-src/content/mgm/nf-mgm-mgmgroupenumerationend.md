@@ -1,6 +1,6 @@
 ---
 UID: NF:mgm.MgmGroupEnumerationEnd
-title: MgmGroupEnumerationEnd function
+title: MgmGroupEnumerationEnd function (mgm.h)
 author: windows-sdk-content
 description: The MgmGroupEnumerationEnd function releases the specified enumeration handle that was obtained from a previous call to MgmGroupEnumerationStart.
 old-location: rras\mgmgroupenumerationend.htm

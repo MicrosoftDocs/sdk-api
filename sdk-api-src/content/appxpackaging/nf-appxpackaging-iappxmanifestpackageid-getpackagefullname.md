@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageId.GetPackageFullName
-title: IAppxManifestPackageId::GetPackageFullName
+title: IAppxManifestPackageId::GetPackageFullName (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the package full name.
 old-location: appxpkg\iappxmanifestpackageid_getpackagefullname.htm

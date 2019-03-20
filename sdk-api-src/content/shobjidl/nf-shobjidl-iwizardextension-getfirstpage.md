@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IWizardExtension.GetFirstPage
-title: IWizardExtension::GetFirstPage
+title: IWizardExtension::GetFirstPage (shobjidl.h)
 author: windows-sdk-content
 description: Gets a handle to the first page of the wizard extension.
 old-location: shell\IWizardExtension_GetFirstPage.htm

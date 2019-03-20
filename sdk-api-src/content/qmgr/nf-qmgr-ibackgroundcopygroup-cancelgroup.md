@@ -1,6 +1,6 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.CancelGroup
-title: IBackgroundCopyGroup::CancelGroup
+title: IBackgroundCopyGroup::CancelGroup (qmgr.h)
 author: windows-sdk-content
 description: Use the CancelGroup method to remove the group from the queue. Files completely downloaded before calling this method are available to the client. You can cancel a group at anytime; however, the group cannot be recovered once it is canceled.
 old-location: bits\ibackgroundcopygroup_cancelgroup.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreateRectangleGeometry(const D2D1_RECT_F,ID2D1RectangleGeometry)
-title: ID2D1Factory::CreateRectangleGeometry(const D2D1_RECT_F,ID2D1RectangleGeometry)
+title: ID2D1Factory::CreateRectangleGeometry(const D2D1_RECT_F,ID2D1RectangleGeometry) (d2d1.h)
 author: windows-sdk-content
 description: Creates an ID2D1RectangleGeometry.
 old-location: direct2d\ID2D1Factory_CreateRectangleGeometry_ptr_D2D_RECT_F_ptr_ptr_ID2D1RectangleGeometry.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl.__unnamed_struct_13
-title: FIND_BY_SID_OUTPUT
+title: FIND_BY_SID_OUTPUT (winioctl.h)
 author: windows-sdk-content
 description: Represents a file name.
 old-location: fs\find_by_sid_output.htm

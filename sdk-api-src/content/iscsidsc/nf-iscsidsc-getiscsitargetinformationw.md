@@ -1,6 +1,6 @@
 ---
 UID: NF:iscsidsc.GetIScsiTargetInformationW
-title: GetIScsiTargetInformationW function
+title: GetIScsiTargetInformationW function (iscsidsc.h)
 author: windows-sdk-content
 description: GetIscsiTargetInformation function retrieves information about the specified target.
 old-location: iscsidisc\getiscsitargetinformation.htm

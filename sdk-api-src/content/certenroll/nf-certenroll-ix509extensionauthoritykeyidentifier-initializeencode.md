@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionAuthorityKeyIdentifier.InitializeEncode
-title: IX509ExtensionAuthorityKeyIdentifier::InitializeEncode
+title: IX509ExtensionAuthorityKeyIdentifier::InitializeEncode (certenroll.h)
 author: windows-sdk-content
 description: Initializes the extension from a byte array.
 old-location: security\ix509extensionauthoritykeyidentifier_initializeencode_method.htm

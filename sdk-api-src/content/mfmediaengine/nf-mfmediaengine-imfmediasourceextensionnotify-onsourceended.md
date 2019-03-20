@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaSourceExtensionNotify.OnSourceEnded
-title: IMFMediaSourceExtensionNotify::OnSourceEnded
+title: IMFMediaSourceExtensionNotify::OnSourceEnded (mfmediaengine.h)
 author: windows-sdk-content
 description: Used to indicate that the media source has ended.
 old-location: mf\imfmediasourceextensionnotify_onsourceended.htm

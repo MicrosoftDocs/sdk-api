@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.GetDuplicate2
-title: ITextFont2::GetDuplicate2
+title: ITextFont2::GetDuplicate2 (tom.h)
 author: windows-sdk-content
 description: Gets a duplicate of this character format object.
 old-location: controls\itextfont2_getduplicate2.htm

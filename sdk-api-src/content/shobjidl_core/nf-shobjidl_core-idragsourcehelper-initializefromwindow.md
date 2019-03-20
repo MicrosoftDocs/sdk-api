@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDragSourceHelper.InitializeFromWindow
-title: IDragSourceHelper::InitializeFromWindow
+title: IDragSourceHelper::InitializeFromWindow (shobjidl_core.h)
 author: windows-sdk-content
 description: Initializes the drag-image manager for a control with a window.
 old-location: shell\IDragSourceHelper_InitializeFromWindow.htm

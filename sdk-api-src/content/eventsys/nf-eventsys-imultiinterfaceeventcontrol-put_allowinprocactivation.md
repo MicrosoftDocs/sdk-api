@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IMultiInterfaceEventControl.put_AllowInprocActivation
-title: IMultiInterfaceEventControl::put_AllowInprocActivation
+title: IMultiInterfaceEventControl::put_AllowInprocActivation (eventsys.h)
 author: windows-sdk-content
 description: Indicates whether subscribers can be activated in the publisher's process.
 old-location: cos\imultiinterfaceeventcontrol_allowinprocactivation.htm

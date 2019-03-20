@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITQueue.put_MeasurementPeriod
-title: ITQueue::put_MeasurementPeriod
+title: ITQueue::put_MeasurementPeriod (tapi3cc.h)
 author: windows-sdk-content
 description: The put_MeasurementPeriod method sets the period (in seconds) for which the switch and/or implementation stores and calculates information.
 old-location: tapi3\itqueue_put_measurementperiod.htm

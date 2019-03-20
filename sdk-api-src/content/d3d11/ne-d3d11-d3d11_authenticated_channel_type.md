@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_AUTHENTICATED_CHANNEL_TYPE
-title: D3D11_AUTHENTICATED_CHANNEL_TYPE
+title: D3D11_AUTHENTICATED_CHANNEL_TYPE (d3d11.h)
 author: windows-sdk-content
 description: Specifies the type of Microsoft Direct3D authenticated channel.
 old-location: mf\d3d11_authenticated_channel_type.htm

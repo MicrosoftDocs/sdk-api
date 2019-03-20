@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryEntry.put_CanCheckBaseClass
-title: IUIAutomationProxyFactoryEntry::put_CanCheckBaseClass
+title: IUIAutomationProxyFactoryEntry::put_CanCheckBaseClass (uiautomationclient.h)
 author: windows-sdk-content
 description: Sets or retrieves a value that specifies whether the base class can be checked when searching for a proxy factory.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_CanCheckBaseClass.htm

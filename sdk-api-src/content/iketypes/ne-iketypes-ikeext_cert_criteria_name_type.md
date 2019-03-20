@@ -1,6 +1,6 @@
 ---
 UID: NE:iketypes.IKEEXT_CERT_CRITERIA_NAME_TYPE_
-title: IKEEXT_CERT_CRITERIA_NAME_TYPE
+title: IKEEXT_CERT_CRITERIA_NAME_TYPE (iketypes.h)
 author: windows-sdk-content
 description: Specifies the type of NAME fields possible for a certificate selection &#0034;subject&#0034; criteria.
 old-location: fwp\ikeext_cert_criteria_name_type.htm

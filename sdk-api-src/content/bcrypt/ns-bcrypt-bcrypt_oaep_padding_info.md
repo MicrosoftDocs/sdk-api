@@ -1,6 +1,6 @@
 ---
 UID: NS:bcrypt._BCRYPT_OAEP_PADDING_INFO
-title: BCRYPT_OAEP_PADDING_INFO
+title: BCRYPT_OAEP_PADDING_INFO (bcrypt.h)
 author: windows-sdk-content
 description: Used to provide options for the Optimal Asymmetric Encryption Padding (OAEP) scheme.
 old-location: security\bcrypt_oaep_padding_info.htm

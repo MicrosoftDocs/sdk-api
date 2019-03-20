@@ -1,6 +1,6 @@
 ---
 UID: NE:ocidl.tagExtentMode
-title: DVEXTENTMODE
+title: DVEXTENTMODE (ocidl.h)
 author: windows-sdk-content
 description: Indicates whether the sizing mode is content or integral sizing.
 old-location: com\dvextentmode.htm

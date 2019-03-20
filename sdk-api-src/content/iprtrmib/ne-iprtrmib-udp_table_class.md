@@ -1,6 +1,6 @@
 ---
 UID: NE:iprtrmib._UDP_TABLE_CLASS
-title: UDP_TABLE_CLASS
+title: UDP_TABLE_CLASS (iprtrmib.h)
 author: windows-sdk-content
 description: Defines the set of values used to indicate the type of table returned by calls to GetExtendedUdpTable.
 old-location: iphlp\udp_table_class.htm

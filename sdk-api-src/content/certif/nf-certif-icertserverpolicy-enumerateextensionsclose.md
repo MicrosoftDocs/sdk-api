@@ -1,6 +1,6 @@
 ---
 UID: NF:certif.ICertServerPolicy.EnumerateExtensionsClose
-title: ICertServerPolicy::EnumerateExtensionsClose
+title: ICertServerPolicy::EnumerateExtensionsClose (certif.h)
 author: windows-sdk-content
 description: Frees the resources connected with extension enumeration.
 old-location: security\icertserverpolicy_enumerateextensionsclose.htm

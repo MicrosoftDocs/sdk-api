@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.IAnchor.ShiftRegion
-title: IAnchor::ShiftRegion
+title: IAnchor::ShiftRegion (textstor.h)
 author: windows-sdk-content
 description: IAnchor::ShiftRegion method
 old-location: tsf\ianchor_shiftregion.htm

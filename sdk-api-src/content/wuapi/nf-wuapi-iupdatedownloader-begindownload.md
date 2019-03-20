@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateDownloader.BeginDownload
-title: IUpdateDownloader::BeginDownload
+title: IUpdateDownloader::BeginDownload (wuapi.h)
 author: windows-sdk-content
 description: Starts an asynchronous download of the content files that are associated with the updates.
 old-location: wua\iupdatedownloader_begindownload.htm

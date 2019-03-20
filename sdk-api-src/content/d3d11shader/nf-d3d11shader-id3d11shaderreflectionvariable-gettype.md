@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflectionVariable.GetType
-title: ID3D11ShaderReflectionVariable::GetType
+title: ID3D11ShaderReflectionVariable::GetType (d3d11shader.h)
 author: windows-sdk-content
 description: Get a shader-variable type.
 old-location: direct3d11\id3d11shaderreflectionvariable_gettype.htm

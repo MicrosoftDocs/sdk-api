@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspAlgorithm.get_MaxLength
-title: ICspAlgorithm::get_MaxLength
+title: ICspAlgorithm::get_MaxLength (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the maximum permitted length for a key.
 old-location: security\icspalgorithm_maxlength_property.htm

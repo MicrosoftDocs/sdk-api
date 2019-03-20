@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMLicenseRevocationAgent.GetLRBChallenge
-title: IWMLicenseRevocationAgent::GetLRBChallenge
+title: IWMLicenseRevocationAgent::GetLRBChallenge (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetLRBChallenge method generates a response to a license revocation challenge message. Your application must send the response to the license server.
 old-location: wmformat\iwmlicenserevocationagent_getlrbchallenge.htm

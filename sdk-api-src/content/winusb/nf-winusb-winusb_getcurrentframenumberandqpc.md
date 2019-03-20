@@ -1,6 +1,6 @@
 ---
 UID: NF:winusb.WinUsb_GetCurrentFrameNumberAndQpc
-title: WinUsb_GetCurrentFrameNumberAndQpc function
+title: WinUsb_GetCurrentFrameNumberAndQpc function (winusb.h)
 author: windows-sdk-content
 description: The WinUsb_GetCurrentFrameNumberAndQpc function retrieves the system query performance counter (QPC) value synchronized with the frame and microframe.
 old-location: buses\winusb_getcurrentframenumberandqpc.htm

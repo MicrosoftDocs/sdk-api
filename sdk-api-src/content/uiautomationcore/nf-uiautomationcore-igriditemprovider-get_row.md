@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IGridItemProvider.get_Row
-title: IGridItemProvider::get_Row
+title: IGridItemProvider::get_Row (uiautomationcore.h)
 author: windows-sdk-content
 description: Specifies the ordinal number of the row that contains this cell or item.
 old-location: winauto\uiauto_IGridItemProvider_Row.htm

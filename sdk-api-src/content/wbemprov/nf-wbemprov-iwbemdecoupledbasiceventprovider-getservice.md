@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemDecoupledBasicEventProvider.GetService
-title: IWbemDecoupledBasicEventProvider::GetService
+title: IWbemDecoupledBasicEventProvider::GetService (wbemprov.h)
 author: windows-sdk-content
 description: The IWbemDecoupledBasicEventProvider::GetService method retrieves an IWbemService object to be used to call back into WMI. This method provides for fully concurrent access.
 old-location: wmi\iwbemdecoupledbasiceventprovider_getservice.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IInitializeSpy
-title: IInitializeSpy
+title: IInitializeSpy (objidl.h)
 author: windows-sdk-content
 description: Performs initialization or cleanup when entering or exiting a COM apartment.
 old-location: com\iinitializespy.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_EXTENSION_TYPE
-title: MF_MEDIA_ENGINE_EXTENSION_TYPE
+title: MF_MEDIA_ENGINE_EXTENSION_TYPE (mfmediaengine.h)
 author: windows-sdk-content
 description: Specifies media engine extension types.
 old-location: mf\mf_media_engine_extension_type.htm

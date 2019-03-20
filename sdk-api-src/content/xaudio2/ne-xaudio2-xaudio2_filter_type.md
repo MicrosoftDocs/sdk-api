@@ -1,6 +1,6 @@
 ---
 UID: NE:xaudio2.XAUDIO2_FILTER_TYPE
-title: XAUDIO2_FILTER_TYPE
+title: XAUDIO2_FILTER_TYPE (xaudio2.h)
 author: windows-sdk-content
 description: Indicates the filter type.
 old-location: xaudio2\xaudio2_filter_type.htm

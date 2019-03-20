@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetUserObjectInformationA
-title: GetUserObjectInformationA function
+title: GetUserObjectInformationA function (winuser.h)
 author: windows-sdk-content
 description: Retrieves information about the specified window station or desktop object.
 old-location: winstation\getuserobjectinformation.htm

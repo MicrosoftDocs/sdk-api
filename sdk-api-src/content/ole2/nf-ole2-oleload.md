@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleLoad
-title: OleLoad function
+title: OleLoad function (ole2.h)
 author: windows-sdk-content
 description: Loads into memory an object nested within a specified storage object.
 old-location: com\oleload.htm

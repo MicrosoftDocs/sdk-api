@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetOpacity
-title: IXpsOMVisual::SetOpacity
+title: IXpsOMVisual::SetOpacity (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the opacity value of the visual.
 old-location: xps\ixpsomvisual_setopacity.htm

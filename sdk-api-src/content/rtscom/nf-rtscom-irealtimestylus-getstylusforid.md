@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.GetStylusForId
-title: IRealTimeStylus::GetStylusForId
+title: IRealTimeStylus::GetStylusForId (rtscom.h)
 author: windows-sdk-content
 description: Retrieves a stylus for the specified stylus identifier.
 old-location: tablet\irealtimestylus_getstylusforid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:perflib.PerfEnumerateCounterSetInstances
-title: PerfEnumerateCounterSetInstances function
+title: PerfEnumerateCounterSetInstances function (perflib.h)
 author: windows-sdk-content
 description: Gets the names and identifiers of the active instances of a counter set on the specified system.
 old-location: perf\perfenumeratecountersetinstances.htm

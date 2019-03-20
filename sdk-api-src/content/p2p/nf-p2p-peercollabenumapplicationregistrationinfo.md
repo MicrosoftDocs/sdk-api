@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabEnumApplicationRegistrationInfo
-title: PeerCollabEnumApplicationRegistrationInfo function
+title: PeerCollabEnumApplicationRegistrationInfo function (p2p.h)
 author: windows-sdk-content
 description: Obtains the enumeration handle used to retrieve peer application information.
 old-location: p2p\peercollabenumapplicationregistrationinfo.htm

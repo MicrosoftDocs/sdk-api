@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagKEYBDINPUT
-title: KEYBDINPUT
+title: KEYBDINPUT (winuser.h)
 author: windows-sdk-content
 description: Contains information about a simulated keyboard event.
 old-location: inputdev\keybdinput.htm

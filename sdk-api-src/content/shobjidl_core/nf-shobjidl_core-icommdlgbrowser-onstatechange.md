@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ICommDlgBrowser.OnStateChange
-title: ICommDlgBrowser::OnStateChange
+title: ICommDlgBrowser::OnStateChange (shobjidl_core.h)
 author: windows-sdk-content
 description: Called after a state, identified by the uChange parameter, has changed in the IShellView interface.
 old-location: shell\ICommDlgBrowser_OnStateChange.htm

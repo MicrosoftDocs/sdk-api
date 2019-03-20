@@ -1,6 +1,6 @@
 ---
 UID: NL:vswriter.IVssWriterComponents
-title: IVssWriterComponents
+title: IVssWriterComponents (vswriter.h)
 author: windows-sdk-content
 description: Contains methods used to obtain and modify component information.
 old-location: base\ivsswritercomponents.htm

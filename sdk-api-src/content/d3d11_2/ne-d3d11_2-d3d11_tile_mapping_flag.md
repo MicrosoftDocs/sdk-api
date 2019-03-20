@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11_2.D3D11_TILE_MAPPING_FLAG
-title: D3D11_TILE_MAPPING_FLAG
+title: D3D11_TILE_MAPPING_FLAG (d3d11_2.h)
 author: windows-sdk-content
 description: Identifies how to perform a tile-mapping operation.
 old-location: direct3d11\d3d11_tile_mapping_flags.htm

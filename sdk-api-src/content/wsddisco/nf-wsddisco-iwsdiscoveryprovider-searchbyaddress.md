@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProvider.SearchByAddress
-title: IWSDiscoveryProvider::SearchByAddress
+title: IWSDiscoveryProvider::SearchByAddress (wsddisco.h)
 author: windows-sdk-content
 description: Initializes a search for WS-Discovery hosts by device address.
 old-location: ncd\iwsdiscoveryprovider_searchbyaddress.htm

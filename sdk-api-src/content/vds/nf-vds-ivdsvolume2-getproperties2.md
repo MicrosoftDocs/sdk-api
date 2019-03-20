@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolume2.GetProperties2
-title: IVdsVolume2::GetProperties2
+title: IVdsVolume2::GetProperties2 (vds.h)
 author: windows-sdk-content
 description: Returns property information for the current volume. This method is identical to the IVdsVolume::GetProperties method, except that it returns a VDS_VOLUME_PROP2 structure instead of a VDS_VOLUME_PROP structure.
 old-location: base\ivdsvolume2_getproperties2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfQueryEmbedded.QueryInsertEmbedded
-title: ITfQueryEmbedded::QueryInsertEmbedded
+title: ITfQueryEmbedded::QueryInsertEmbedded (msctf.h)
 author: windows-sdk-content
 description: ITfQueryEmbedded::QueryInsertEmbedded method
 old-location: tsf\itfqueryembedded_queryinsertembedded.htm

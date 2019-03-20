@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabUnregisterApplication
-title: PeerCollabUnregisterApplication function
+title: PeerCollabUnregisterApplication function (p2p.h)
 author: windows-sdk-content
 description: Unregisters the specific applications of a peer from the local computer.
 old-location: p2p\peercollabunregisterapplication.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcComparator.Process
-title: IRdcComparator::Process
+title: IRdcComparator::Process (msrdc.h)
 author: windows-sdk-content
 description: Compares two signature streams (seed and source) and produces a needs list, which describes the chunks of file data needed to create the target file.
 old-location: rdc\irdccomparator_process.htm

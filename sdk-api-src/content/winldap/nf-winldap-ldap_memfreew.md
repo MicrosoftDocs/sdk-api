@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_memfreeW
-title: ldap_memfreeW function
+title: ldap_memfreeW function (winldap.h)
 author: windows-sdk-content
 description: Frees memory allocated from the LDAP heap.
 old-location: ldap\ldap_memfree.htm

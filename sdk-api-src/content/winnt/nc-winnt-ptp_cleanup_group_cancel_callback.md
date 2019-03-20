@@ -1,6 +1,6 @@
 ---
 UID: NC:winnt.PTP_CLEANUP_GROUP_CANCEL_CALLBACK
-title: PTP_CLEANUP_GROUP_CANCEL_CALLBACK
+title: PTP_CLEANUP_GROUP_CANCEL_CALLBACK (winnt.h)
 author: windows-sdk-content
 description: Applications implement this callback if they call the SetThreadpoolCallbackCleanupGroup function to specify the callback to use when CloseThreadpoolCleanupGroup is called.
 old-location: base\cleanupgroupcancelcallback.htm

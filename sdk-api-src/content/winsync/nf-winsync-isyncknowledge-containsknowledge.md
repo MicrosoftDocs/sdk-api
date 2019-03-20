@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ContainsKnowledge
-title: ISyncKnowledge::ContainsKnowledge
+title: ISyncKnowledge::ContainsKnowledge (winsync.h)
 author: windows-sdk-content
 description: Indicates whether the specified knowledge is known by this knowledge.
 old-location: winsync\isyncknowledge_containsknowledge.htm

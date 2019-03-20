@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineNeedKeyNotify
-title: IMFMediaEngineNeedKeyNotify
+title: IMFMediaEngineNeedKeyNotify (mfmediaengine.h)
 author: windows-sdk-content
 description: Represents a callback to the media engine to notify key request data.
 old-location: mf\imfmediaengineneedkeynotify.htm

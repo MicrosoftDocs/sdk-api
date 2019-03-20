@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteSHORT
-title: PSPropertyBag_WriteSHORT function
+title: PSPropertyBag_WriteSHORT function (propsys.h)
 author: windows-sdk-content
 description: Sets the SHORT value of a property in a property bag.
 old-location: properties\PSPropertyBag_WriteSHORT.htm

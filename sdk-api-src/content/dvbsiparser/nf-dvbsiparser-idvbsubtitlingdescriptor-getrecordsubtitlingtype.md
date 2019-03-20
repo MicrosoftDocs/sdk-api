@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbSubtitlingDescriptor.GetRecordSubtitlingType
-title: IDvbSubtitlingDescriptor::GetRecordSubtitlingType
+title: IDvbSubtitlingDescriptor::GetRecordSubtitlingType (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the subtitling component type from a DVB subtitling descriptor.
 old-location: mstv\idvbsubtitlingdescriptor_getrecordsubtitlingtype.htm

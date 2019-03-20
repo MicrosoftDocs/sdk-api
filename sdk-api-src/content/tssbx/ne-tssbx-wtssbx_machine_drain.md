@@ -1,6 +1,6 @@
 ---
 UID: NE:tssbx.__MIDL_IWTSSBPlugin_0001
-title: WTSSBX_MACHINE_DRAIN
+title: WTSSBX_MACHINE_DRAIN (tssbx.h)
 author: windows-sdk-content
 description: Contains values that indicate the drain state of a Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtssbx_machine_drain.htm

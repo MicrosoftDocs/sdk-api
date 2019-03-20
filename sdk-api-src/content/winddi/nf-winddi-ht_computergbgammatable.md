@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.HT_ComputeRGBGammaTable
-title: HT_ComputeRGBGammaTable function
+title: HT_ComputeRGBGammaTable function (winddi.h)
 author: windows-sdk-content
 description: The HT_ComputeRGBGammaTable function causes GDI to compute device red, green, and blue intensities based on gamma numbers.
 old-location: display\ht_computergbgammatable.htm

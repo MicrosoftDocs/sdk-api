@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi1_3.IDXGISwapChain2
-title: IDXGISwapChain2
+title: IDXGISwapChain2 (dxgi1_3.h)
 author: windows-sdk-content
 description: Extends IDXGISwapChain1 with methods to support swap back buffer scaling and lower-latency swap chains.
 old-location: direct3ddxgi\idxgiswapchain2.htm

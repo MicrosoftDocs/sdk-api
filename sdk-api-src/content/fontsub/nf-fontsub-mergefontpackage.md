@@ -1,6 +1,6 @@
 ---
 UID: NF:fontsub.MergeFontPackage
-title: MergeFontPackage function
+title: MergeFontPackage function (fontsub.h)
 author: windows-sdk-content
 description: The MergeFontPackage function manipulates fonts created by CreateFontPackage.
 old-location: gdi\mergefontpackage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_TaskArguments
-title: IDataCollectorSet::get_TaskArguments
+title: IDataCollectorSet::get_TaskArguments (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the command-line arguments to pass to the Task Scheduler job specified in the IDataCollectorSet::Task property.
 old-location: pla\idatacollectorset_get_taskarguments.htm

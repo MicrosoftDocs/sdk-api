@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IConsole3
-title: IConsole3
+title: IConsole3 (mmc.h)
 author: windows-sdk-content
 description: The IConsole3 interface supersedes the IConsole2 interface. The IConsole3 interface contains the IConsole3::RenameScopeItem method, which allows a scope node to programmatically be placed in rename mode.
 old-location: mmc\iconsole3.htm

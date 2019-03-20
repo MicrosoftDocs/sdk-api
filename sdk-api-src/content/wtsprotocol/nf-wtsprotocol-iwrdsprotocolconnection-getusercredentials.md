@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetUserCredentials
-title: IWRdsProtocolConnection::GetUserCredentials
+title: IWRdsProtocolConnection::GetUserCredentials (wtsprotocol.h)
 author: windows-sdk-content
 description: Returns user credentials.
 old-location: termserv\iwrdsprotocolconnection_getusercredentials.htm

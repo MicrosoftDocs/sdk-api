@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_OperationOptions_DisableChannel
-title: MI_OperationOptions_DisableChannel function
+title: MI_OperationOptions_DisableChannel function (mi.h)
 author: windows-sdk-content
 description: Uses MI_Context_WriteMessage to disable logging to the specified channel.
 old-location: wmi_v2\mi_operationoptions_disablechannel.htm

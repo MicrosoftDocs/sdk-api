@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1.ID2D1Resource
-title: ID2D1Resource
+title: ID2D1Resource (d2d1.h)
 author: windows-sdk-content
 description: Represents a Direct2D drawing resource.
 old-location: direct2d\ID2D1Resource.htm

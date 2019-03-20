@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.SetPerTcpConnectionEStats
-title: SetPerTcpConnectionEStats function
+title: SetPerTcpConnectionEStats function (iphlpapi.h)
 author: windows-sdk-content
 description: Sets a value in the read/write information for an IPv4 TCP connection. This function is used to enable or disable extended statistics for an IPv4 TCP connection.
 old-location: iphlp\setpertcpconnectionestats.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscMasterProgressEvents.NotifyBlockProgress
-title: IDiscMasterProgressEvents::NotifyBlockProgress
+title: IDiscMasterProgressEvents::NotifyBlockProgress (imapi.h)
 author: windows-sdk-content
 description: Notifies an application of its progress in burning a disc on the active recorder. Notifications are sent for the first and last blocks, and at points in between.
 old-location: imapi\idiscmasterprogressevents_notifyblockprogress.htm

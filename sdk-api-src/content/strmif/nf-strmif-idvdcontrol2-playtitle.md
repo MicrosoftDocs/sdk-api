@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.PlayTitle
-title: IDvdControl2::PlayTitle
+title: IDvdControl2::PlayTitle (strmif.h)
 author: windows-sdk-content
 description: The PlayTitle method starts playback from the beginning of the specified title.
 old-location: dshow\idvdcontrol2_playtitle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:interactioncontext.INTERACTION_CONTEXT_OUTPUT_CALLBACK
-title: INTERACTION_CONTEXT_OUTPUT_CALLBACK
+title: INTERACTION_CONTEXT_OUTPUT_CALLBACK (interactioncontext.h)
 author: windows-sdk-content
 description: Callback that receives events from an Interaction Context object.
 old-location: input_intcontext\interaction_context_output_callback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.SetProtectedPolicy
-title: SetProtectedPolicy function
+title: SetProtectedPolicy function (processthreadsapi.h)
 author: windows-sdk-content
 description: Sets a protected policy.
 old-location: base\setprotectedpolicy.htm

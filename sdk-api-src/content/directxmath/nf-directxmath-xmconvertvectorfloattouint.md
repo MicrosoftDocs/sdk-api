@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMConvertVectorFloatToUInt
-title: XMConvertVectorFloatToUInt function
+title: XMConvertVectorFloatToUInt function (directxmath.h)
 author: windows-sdk-content
 description: Converts an XMVECTOR with float components to an XMVECTOR with uint32_t components and applies a uniform bias.
 old-location: dxmath\xmconvertvectorfloattouint.htm

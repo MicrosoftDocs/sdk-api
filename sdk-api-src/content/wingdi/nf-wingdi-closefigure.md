@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.CloseFigure
-title: CloseFigure function
+title: CloseFigure function (wingdi.h)
 author: windows-sdk-content
 description: The CloseFigure function closes an open figure in a path.
 old-location: gdi\closefigure.htm

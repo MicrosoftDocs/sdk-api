@@ -1,6 +1,6 @@
 ---
 UID: NS:wmsdkidl._WMT_BUFFER_SEGMENT
-title: WMT_BUFFER_SEGMENT
+title: WMT_BUFFER_SEGMENT (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMT_BUFFER_SEGMENT structure contains the information needed to specify a segment in a buffer. It is used as a member of the WMT_FILESINK_DATA_UNIT and WMT_PAYLOAD_FRAGMENT structures to specify segments of a packet.
 old-location: wmformat\wmt_buffer_segment.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DeviceControl.CommitChanges
-title: IBDA_DeviceControl::CommitChanges
+title: IBDA_DeviceControl::CommitChanges (bdaiface.h)
 author: windows-sdk-content
 description: The CommitChanges method instructs the device to perform the changes specified in the previous call to StartChanges.
 old-location: mstv\ibda_devicecontrol_commitchanges.htm

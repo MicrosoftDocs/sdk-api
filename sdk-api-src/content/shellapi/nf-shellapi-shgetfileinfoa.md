@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.SHGetFileInfoA
-title: SHGetFileInfoA function
+title: SHGetFileInfoA function (shellapi.h)
 author: windows-sdk-content
 description: Retrieves information about an object in the file system, such as a file, folder, directory, or drive root.
 old-location: shell\SHGetFileInfo.htm

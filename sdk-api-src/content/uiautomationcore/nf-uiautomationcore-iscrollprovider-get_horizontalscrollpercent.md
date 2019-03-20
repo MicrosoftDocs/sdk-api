@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IScrollProvider.get_HorizontalScrollPercent
-title: IScrollProvider::get_HorizontalScrollPercent
+title: IScrollProvider::get_HorizontalScrollPercent (uiautomationcore.h)
 author: windows-sdk-content
 description: Specifies the horizontal scroll position.
 old-location: winauto\uiauto_IScrollProvider_HorizontalScrollPercent.htm

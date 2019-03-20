@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITAgentHandler.get_UsableAddresses
-title: ITAgentHandler::get_UsableAddresses
+title: ITAgentHandler::get_UsableAddresses (tapi3cc.h)
 author: windows-sdk-content
 description: The get_UsableAddresses method creates a collection of addresses available for receiving ACD calls on this agent handler.
 old-location: tapi3\itagenthandler_get_usableaddresses.htm

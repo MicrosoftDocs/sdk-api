@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsDisk.GetIdentificationData
-title: IVdsDisk::GetIdentificationData
+title: IVdsDisk::GetIdentificationData (vds.h)
 author: windows-sdk-content
 description: Retrieves information that uniquely identifies a disk.
 old-location: base\ivdsdisk_getidentificationdata.htm

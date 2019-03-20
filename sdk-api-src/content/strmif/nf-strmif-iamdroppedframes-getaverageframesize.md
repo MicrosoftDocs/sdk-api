@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMDroppedFrames.GetAverageFrameSize
-title: IAMDroppedFrames::GetAverageFrameSize
+title: IAMDroppedFrames::GetAverageFrameSize (strmif.h)
 author: windows-sdk-content
 description: The GetAverageFrameSize method retrieves the average size of the frames that the filter has captured.
 old-location: dshow\iamdroppedframes_getaverageframesize.htm

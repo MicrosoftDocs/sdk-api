@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendee.get_Flags
-title: IRDPSRAPIAttendee::get_Flags
+title: IRDPSRAPIAttendee::get_Flags (rdpencomapi.h)
 author: windows-sdk-content
 description: Retrieves the attendee specific flags that are defined in the RDPENCOMAPI_ATTENDEE_FLAGS enumeration type.
 old-location: rdp\irdpsrapiattendee_flags.htm

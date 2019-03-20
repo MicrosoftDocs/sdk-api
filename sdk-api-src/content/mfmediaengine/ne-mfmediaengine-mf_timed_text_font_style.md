@@ -1,6 +1,6 @@
 ---
 UID: NE:mfmediaengine.MF_TIMED_TEXT_FONT_STYLE
-title: MF_TIMED_TEXT_FONT_STYLE
+title: MF_TIMED_TEXT_FONT_STYLE (mfmediaengine.h)
 author: windows-sdk-content
 description: Specifies the font style of the timed text.
 old-location: mf\mf_timed_text_font_style.htm

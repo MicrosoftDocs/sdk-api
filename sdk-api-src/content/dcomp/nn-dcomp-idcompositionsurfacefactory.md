@@ -1,6 +1,6 @@
 ---
 UID: NN:dcomp.IDCompositionSurfaceFactory
-title: IDCompositionSurfaceFactory
+title: IDCompositionSurfaceFactory (dcomp.h)
 author: windows-sdk-content
 description: Creates surface and virtual surface objects associated with an application-provided rendering device.
 old-location: directcomp\idcompositionsurfacefactory.htm

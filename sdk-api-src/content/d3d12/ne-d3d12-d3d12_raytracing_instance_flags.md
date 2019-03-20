@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_RAYTRACING_INSTANCE_FLAGS
-title: D3D12_RAYTRACING_INSTANCE_FLAGS
+title: D3D12_RAYTRACING_INSTANCE_FLAGS (d3d12.h)
 author: windows-sdk-content
 description: Flags for a raytracing acceleration structure instance. These flags can be used to override D3D12_RAYTRACING_GEOMETRY_FLAGS for individual instances.
 old-location: direct3d12\d3d12_raytracing_instance_flags.htm

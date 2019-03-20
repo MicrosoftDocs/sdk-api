@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_StopOnCompletion
-title: IDataCollectorSet::put_StopOnCompletion
+title: IDataCollectorSet::put_StopOnCompletion (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets a value that determines whether the data collector set stops when all the data collectors in the set are in a completed state.
 old-location: pla\idatacollectorset_stoponcompletion.htm

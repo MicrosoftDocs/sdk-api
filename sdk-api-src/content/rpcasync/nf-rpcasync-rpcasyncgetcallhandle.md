@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcasync.RpcAsyncGetCallHandle
-title: RpcAsyncGetCallHandle macro
+title: RpcAsyncGetCallHandle macro (rpcasync.h)
 author: windows-sdk-content
 description: The RpcAsyncGetCallHandle macro returns the binding handle on an asynchronous remote procedure call.
 old-location: rpc\rpcasyncgetcallhandle.htm

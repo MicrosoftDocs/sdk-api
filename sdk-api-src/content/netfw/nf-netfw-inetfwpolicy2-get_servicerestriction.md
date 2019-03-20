@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwPolicy2.get_ServiceRestriction
-title: INetFwPolicy2::get_ServiceRestriction
+title: INetFwPolicy2::get_ServiceRestriction (netfw.h)
 author: windows-sdk-content
 description: Retrieves the interface used to access the Windows Service Hardening store.
 old-location: ics\inetfwpolicy2_servicerestriction.htm

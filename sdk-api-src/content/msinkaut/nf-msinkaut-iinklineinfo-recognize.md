@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkLineInfo.Recognize
-title: IInkLineInfo::Recognize
+title: IInkLineInfo::Recognize (msinkaut.h)
 author: windows-sdk-content
 description: Reserved.
 old-location: tablet\iinklineinfo_recognize.htm

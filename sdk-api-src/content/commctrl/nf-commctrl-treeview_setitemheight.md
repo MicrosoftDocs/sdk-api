@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_SetItemHeight
-title: TreeView_SetItemHeight macro
+title: TreeView_SetItemHeight macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the height of the tree-view items. You can use this macro or send the TVM_SETITEMHEIGHT message explicitly.
 old-location: controls\TreeView_SetItemHeight.htm

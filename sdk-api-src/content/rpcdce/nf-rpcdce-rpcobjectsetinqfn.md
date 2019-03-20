@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcObjectSetInqFn
-title: RpcObjectSetInqFn function
+title: RpcObjectSetInqFn function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcObjectSetInqFn function registers an object-inquiry function. A null value turns off a previously registered object-inquiry function.
 old-location: rpc\rpcobjectsetinqfn.htm

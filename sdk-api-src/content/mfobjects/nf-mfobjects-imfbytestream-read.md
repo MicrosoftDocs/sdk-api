@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFByteStream.Read
-title: IMFByteStream::Read
+title: IMFByteStream::Read (mfobjects.h)
 author: windows-sdk-content
 description: Reads data from the stream.
 old-location: mf\imfbytestream_read.htm

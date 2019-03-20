@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnIncomingJobAdded
-title: "_IFaxServerNotify2::OnIncomingJobAdded"
+title: "_IFaxServerNotify2::OnIncomingJobAdded" (faxcomex.h)
 author: windows-sdk-content
 description: The fax service calls the IFaxServerNotify2::OnIncomingJobAdded method when an incoming fax job is added to the job queue.
 old-location: fax\_mfax_ifaxservernotify2_onincomingjobadded.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winfax._FAX_JOB_ENTRYW
-title: FAX_JOB_ENTRYW
+title: FAX_JOB_ENTRYW (winfax.h)
 author: windows-sdk-content
 description: The FAX_JOB_ENTRY structure describes one fax job.
 old-location: fax\_mfax_fax_job_entry_str.htm

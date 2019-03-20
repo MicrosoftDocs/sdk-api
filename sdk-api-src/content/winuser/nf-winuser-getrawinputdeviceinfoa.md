@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetRawInputDeviceInfoA
-title: GetRawInputDeviceInfoA function
+title: GetRawInputDeviceInfoA function (winuser.h)
 author: windows-sdk-content
 description: Retrieves information about the raw input device.
 old-location: inputdev\getrawinputdeviceinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects_2.D2D1_EXPOSURE_PROP
-title: D2D1_EXPOSURE_PROP
+title: D2D1_EXPOSURE_PROP (d2d1effects_2.h)
 author: windows-sdk-content
 description: Identifiers for properties of the Exposure effect.
 old-location: direct2d\d2d1_exposure_prop.htm

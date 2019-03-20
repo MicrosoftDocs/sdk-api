@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallIndirect.GetMethodInfo
-title: ICallIndirect::GetMethodInfo
+title: ICallIndirect::GetMethodInfo (callobj.h)
 author: windows-sdk-content
 description: Retrieves information about the interface method from the call frame.
 old-location: com\icallindirect_getmethodinfo.htm

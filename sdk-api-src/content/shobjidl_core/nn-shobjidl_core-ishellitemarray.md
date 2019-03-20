@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IShellItemArray
-title: IShellItemArray
+title: IShellItemArray (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that create and manipulate Shell item arrays.
 old-location: shell\IShellItemArray.htm

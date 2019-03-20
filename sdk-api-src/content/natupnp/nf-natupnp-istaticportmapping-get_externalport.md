@@ -1,6 +1,6 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.get_ExternalPort
-title: IStaticPortMapping::get_ExternalPort
+title: IStaticPortMapping::get_ExternalPort (natupnp.h)
 author: windows-sdk-content
 description: The get_ExternalPort method retrieves the external port on the NAT computer for this port mapping.
 old-location: ics\istaticportmapping_get_externalport.htm

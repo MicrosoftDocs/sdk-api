@@ -1,6 +1,6 @@
 ---
 UID: NF:msacm.acmFilterTagDetailsA
-title: acmFilterTagDetailsA function
+title: acmFilterTagDetailsA function (msacm.h)
 author: windows-sdk-content
 description: The acmFilterTagDetails function queries the ACM for details about a specific waveform-audio filter tag.
 old-location: multimedia\acmfiltertagdetails.htm

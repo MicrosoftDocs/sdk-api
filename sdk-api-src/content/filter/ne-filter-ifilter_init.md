@@ -1,6 +1,6 @@
 ---
 UID: NE:filter.tagIFILTER_INIT
-title: IFILTER_INIT
+title: IFILTER_INIT (filter.h)
 author: windows-sdk-content
 description: Flags that control the filtering process.
 old-location: indexsrv\ifilter_init_enum.htm

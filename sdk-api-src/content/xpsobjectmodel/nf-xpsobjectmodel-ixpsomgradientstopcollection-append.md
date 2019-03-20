@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStopCollection.Append
-title: IXpsOMGradientStopCollection::Append
+title: IXpsOMGradientStopCollection::Append (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Appends an IXpsOMGradientStop interface to the end of the collection.
 old-location: xps\ixpsomgradientstopcollection_append.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:wininet.INTERNET_STATUS_CALLBACK
-title: INTERNET_STATUS_CALLBACK
+title: INTERNET_STATUS_CALLBACK (wininet.h)
 author: windows-sdk-content
 description: Defines a pointer to this callback function.
 old-location: wininet\internetstatuscallback.htm

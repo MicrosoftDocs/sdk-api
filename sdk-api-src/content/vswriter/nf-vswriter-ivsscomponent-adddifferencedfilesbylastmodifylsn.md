@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.AddDifferencedFilesByLastModifyLSN
-title: IVssComponent::AddDifferencedFilesByLastModifyLSN
+title: IVssComponent::AddDifferencedFilesByLastModifyLSN (vswriter.h)
 author: windows-sdk-content
 description: Not supported.
 old-location: base\ivsscomponent_adddifferencedfilesbylastmodifylsn.htm

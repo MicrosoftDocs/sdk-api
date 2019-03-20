@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.DurationUnitChange
-title: IWMPEvents::DurationUnitChange
+title: IWMPEvents::DurationUnitChange (wmp.h)
 author: windows-sdk-content
 description: The DurationUnitChange event is reserved for future use.
 old-location: wmp\iwmpevents_iwmpevents__durationunitchange.htm

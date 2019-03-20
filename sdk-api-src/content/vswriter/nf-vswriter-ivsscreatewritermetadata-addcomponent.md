@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.AddComponent
-title: IVssCreateWriterMetadata::AddComponent
+title: IVssCreateWriterMetadata::AddComponent (vswriter.h)
 author: windows-sdk-content
 description: The AddComponent method adds a database or file group as a component to be backed up.
 old-location: base\ivsscreatewritermetadata_addcomponent.htm

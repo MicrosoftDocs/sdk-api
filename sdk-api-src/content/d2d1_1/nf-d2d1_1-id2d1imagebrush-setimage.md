@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1ImageBrush.SetImage
-title: ID2D1ImageBrush::SetImage
+title: ID2D1ImageBrush::SetImage (d2d1_1.h)
 author: windows-sdk-content
 description: Sets the image associated with the provided image brush.
 old-location: direct2d\id2d1imagebrush_setimage.htm

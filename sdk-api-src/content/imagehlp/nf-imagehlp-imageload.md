@@ -1,6 +1,6 @@
 ---
 UID: NF:imagehlp.ImageLoad
-title: ImageLoad function
+title: ImageLoad function (imagehlp.h)
 author: windows-sdk-content
 description: Maintains a list of loaded DLLs.
 old-location: base\imageload.htm

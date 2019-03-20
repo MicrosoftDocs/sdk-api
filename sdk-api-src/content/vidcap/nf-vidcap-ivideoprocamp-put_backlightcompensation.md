@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_BacklightCompensation
-title: IVideoProcAmp::put_BacklightCompensation
+title: IVideoProcAmp::put_BacklightCompensation (vidcap.h)
 author: windows-sdk-content
 description: The put_BacklightCompensation method sets the camera's backlight compensation.
 old-location: dshow\ivideoprocamp_put_backlightcompensation.htm

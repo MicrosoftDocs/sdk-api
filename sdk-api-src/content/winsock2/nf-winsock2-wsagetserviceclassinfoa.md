@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSAGetServiceClassInfoA
-title: WSAGetServiceClassInfoA function
+title: WSAGetServiceClassInfoA function (winsock2.h)
 author: windows-sdk-content
 description: The WSAGetServiceClassInfo function retrieves the class information (schema) pertaining to a specified service class from a specified namespace provider.
 old-location: winsock\wsagetserviceclassinfo_2.htm

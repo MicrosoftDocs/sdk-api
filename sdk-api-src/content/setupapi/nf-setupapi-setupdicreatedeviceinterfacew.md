@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiCreateDeviceInterfaceW
-title: SetupDiCreateDeviceInterfaceW function
+title: SetupDiCreateDeviceInterfaceW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiCreateDeviceInterface function registers a device interface on a local system or a remote system.
 old-location: devinst\setupdicreatedeviceinterface.htm

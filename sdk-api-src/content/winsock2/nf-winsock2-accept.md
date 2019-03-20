@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.accept
-title: accept function
+title: accept function (winsock2.h)
 author: windows-sdk-content
 description: The accept function permits an incoming connection attempt on a socket.
 old-location: winsock\accept_2.htm

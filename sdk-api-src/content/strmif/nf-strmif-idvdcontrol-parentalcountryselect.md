@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl.ParentalCountrySelect
-title: IDvdControl::ParentalCountrySelect
+title: IDvdControl::ParentalCountrySelect (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Sets the current country/region for controlling parental access levels.
 old-location: dshow\idvdcontrol_parentalcountryselect.htm

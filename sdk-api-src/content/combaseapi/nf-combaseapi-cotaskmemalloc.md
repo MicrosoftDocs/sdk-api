@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoTaskMemAlloc
-title: CoTaskMemAlloc function
+title: CoTaskMemAlloc function (combaseapi.h)
 author: windows-sdk-content
 description: Allocates a block of task memory in the same way that IMalloc::Alloc does.
 old-location: com\cotaskmemalloc.htm

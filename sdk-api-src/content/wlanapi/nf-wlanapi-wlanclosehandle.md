@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanCloseHandle
-title: WlanCloseHandle function
+title: WlanCloseHandle function (wlanapi.h)
 author: windows-sdk-content
 description: Closes a connection to the server.
 old-location: nwifi\wlanclosehandle.htm

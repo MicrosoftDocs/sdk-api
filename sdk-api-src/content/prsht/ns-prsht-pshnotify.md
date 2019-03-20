@@ -1,6 +1,6 @@
 ---
 UID: NS:prsht._PSHNOTIFY
-title: PSHNOTIFY
+title: PSHNOTIFY (prsht.h)
 author: windows-sdk-content
 description: Contains information for the property sheet notification messages.
 old-location: controls\PSHNOTIFY.htm

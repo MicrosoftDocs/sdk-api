@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy.get_EndIpAddress
-title: IWdsTransportServicePolicy::get_EndIpAddress
+title: IWdsTransportServicePolicy::get_EndIpAddress (wdstptmgmt.h)
 author: windows-sdk-content
 description: Enables a WDS client computer to configure the end of a multicast IP address range for a specified type of IP address.
 old-location: wds\iwdstransportservicepolicy_endipaddress.htm

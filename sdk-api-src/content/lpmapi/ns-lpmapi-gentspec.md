@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_19
-title: GenTspec
+title: GenTspec (lpmapi.h)
 author: windows-sdk-content
 description: The GenTspec structure stores generic Tspec information.
 old-location: qos\gentspec.htm

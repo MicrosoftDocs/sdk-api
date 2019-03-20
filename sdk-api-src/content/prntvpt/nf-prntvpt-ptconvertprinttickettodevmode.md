@@ -1,6 +1,6 @@
 ---
 UID: NF:prntvpt.PTConvertPrintTicketToDevMode
-title: PTConvertPrintTicketToDevMode function
+title: PTConvertPrintTicketToDevMode function (prntvpt.h)
 author: windows-sdk-content
 description: Converts a print ticket into a DEVMODE structure.
 old-location: gdi\ptconvertprinttickettodevmode.htm

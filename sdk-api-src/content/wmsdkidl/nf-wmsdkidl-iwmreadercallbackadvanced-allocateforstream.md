@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderCallbackAdvanced.AllocateForStream
-title: IWMReaderCallbackAdvanced::AllocateForStream
+title: IWMReaderCallbackAdvanced::AllocateForStream (wmsdkidl.h)
 author: windows-sdk-content
 description: The AllocateForStream method allocates user-created buffers for stream samples delivered to IWMReaderCallbackAdvanced::OnStreamSample. For more information about allocating your own buffers, see User Allocated Sample Support.
 old-location: wmformat\iwmreadercallbackadvanced_allocateforstream.htm

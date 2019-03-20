@@ -1,6 +1,6 @@
 ---
 UID: NS:xaudio2fx.XAUDIO2FX_VOLUMEMETER_LEVELS
-title: XAUDIO2FX_VOLUMEMETER_LEVELS
+title: XAUDIO2FX_VOLUMEMETER_LEVELS (xaudio2fx.h)
 author: windows-sdk-content
 description: Describes parameters for use with the volume meter APO.
 old-location: xaudio2\xaudio2fx_volumemeter_levels.htm

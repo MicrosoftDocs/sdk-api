@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.ShutdownBlockReasonDestroy
-title: ShutdownBlockReasonDestroy function
+title: ShutdownBlockReasonDestroy function (winuser.h)
 author: windows-sdk-content
 description: Indicates that the system can be shut down and frees the reason string.
 old-location: base\shutdownblockreasondestroy.htm

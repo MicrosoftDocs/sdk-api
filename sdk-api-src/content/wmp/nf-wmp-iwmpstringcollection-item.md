@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPStringCollection.item
-title: IWMPStringCollection::item
+title: IWMPStringCollection::item (wmp.h)
 author: windows-sdk-content
 description: The item method retrieves the string at the given index.
 old-location: wmp\iwmpstringcollection_item.htm

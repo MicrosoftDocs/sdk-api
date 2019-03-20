@@ -1,6 +1,6 @@
 ---
 UID: NE:objidlbase.tagGLOBALOPT_PROPERTIES
-title: GLOBALOPT_PROPERTIES
+title: GLOBALOPT_PROPERTIES (objidlbase.h)
 author: windows-sdk-content
 description: Identifies process-global options that you can set or query by using the IGlobalOptions interface.
 old-location: com\globalopt_properties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystemIscsi.QueryPortals
-title: IVdsSubSystemIscsi::QueryPortals
+title: IVdsSubSystemIscsi::QueryPortals (vdshwprv.h)
 author: windows-sdk-content
 description: Returns an object that enumerates the iSCSI portals of the subsystem.
 old-location: base\ivdssubsystemiscsi_queryportals.htm

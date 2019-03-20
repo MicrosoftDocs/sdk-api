@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantGetElem
-title: PropVariantGetElem function
+title: PropVariantGetElem function (propvarutil.h)
 author: windows-sdk-content
 description: Initializes a PROPVARIANT structure based on a specified element in another PROPVARIANT structure.
 old-location: properties\PropVariantGetElem.htm

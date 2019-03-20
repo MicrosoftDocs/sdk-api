@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmapi.WcmGetProfileList
-title: WcmGetProfileList function
+title: WcmGetProfileList function (wcmapi.h)
 author: windows-sdk-content
 description: Retrieves a list of profiles in preferred order.
 old-location: wcm\wcmgetprofilelist.htm

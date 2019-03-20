@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetINFClassA
-title: SetupDiGetINFClassA function
+title: SetupDiGetINFClassA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetINFClass function returns the class of a specified device INF file.
 old-location: devinst\setupdigetinfclass.htm

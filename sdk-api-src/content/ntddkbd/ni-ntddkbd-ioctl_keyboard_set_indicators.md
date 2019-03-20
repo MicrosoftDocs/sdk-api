@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddkbd.IOCTL_KEYBOARD_SET_INDICATORS
-title: IOCTL_KEYBOARD_SET_INDICATORS
+title: IOCTL_KEYBOARD_SET_INDICATORS (ntddkbd.h)
 author: windows-sdk-content
 description: The IOCTL_KEYBOARD_SET_INDICATORS request sets the keyboard indicators.
 old-location: hid\ioctl_keyboard_set_indicators2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shldisp.IAutoComplete2.SetOptions
-title: IAutoComplete2::SetOptions
+title: IAutoComplete2::SetOptions (shldisp.h)
 author: windows-sdk-content
 description: Sets the current autocomplete options.
 old-location: shell\IAutoComplete2_SetOptions.htm

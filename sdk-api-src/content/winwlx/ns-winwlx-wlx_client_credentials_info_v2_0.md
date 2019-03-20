@@ -1,6 +1,6 @@
 ---
 UID: NS:winwlx._WLX_CLIENT_CREDENTIALS_INFO_2_0
-title: WLX_CLIENT_CREDENTIALS_INFO_V2_0
+title: WLX_CLIENT_CREDENTIALS_INFO_V2_0 (winwlx.h)
 author: windows-sdk-content
 description: Contains the client credentials returned by a call to WlxQueryTsLogonCredentials.
 old-location: security\wlx_client_credentials_info_v2_0.htm

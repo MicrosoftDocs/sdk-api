@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IOperationsProgressDialog.ResetTimer
-title: IOperationsProgressDialog::ResetTimer
+title: IOperationsProgressDialog::ResetTimer (shobjidl_core.h)
 author: windows-sdk-content
 description: Resets progress dialog timer to 0.
 old-location: shell\IOperationsProgressDialog_ResetTimer.htm

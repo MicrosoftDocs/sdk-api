@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextStory.GetText
-title: ITextStory::GetText
+title: ITextStory::GetText (tom.h)
 author: windows-sdk-content
 description: Gets the text in a story according to the specified conversion flags.
 old-location: controls\itextstory_gettext.htm

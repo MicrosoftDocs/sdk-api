@@ -1,6 +1,6 @@
 ---
 UID: NE:cscobj.tagOFFLINEFILES_ITEM_TIME
-title: OFFLINEFILES_ITEM_TIME
+title: OFFLINEFILES_ITEM_TIME (cscobj.h)
 author: windows-sdk-content
 description: Specifies which time value associated with the cache item is to be used.
 old-location: of\offlinefiles_item_time.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SaslSetContextOption
-title: SaslSetContextOption function
+title: SaslSetContextOption function (sspi.h)
 author: windows-sdk-content
 description: Sets the value of the specified property for the specified SASL context.
 old-location: security\saslsetcontextoption.htm

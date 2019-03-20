@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineRedirect
-title: TSPI_lineRedirect function
+title: TSPI_lineRedirect function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineRedirect function redirects the specified offering call to the specified destination address.
 old-location: tspi\tspi_lineredirect.htm

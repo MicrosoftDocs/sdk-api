@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.Click
-title: IWMPEvents::Click
+title: IWMPEvents::Click (wmp.h)
 author: windows-sdk-content
 description: The Click event occurs when the user clicks a mouse button.
 old-location: wmp\iwmpevents_iwmpevents__click.htm

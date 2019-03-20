@@ -1,6 +1,6 @@
 ---
 UID: NF:interactioncontext.SetCrossSlideParametersInteractionContext
-title: SetCrossSlideParametersInteractionContext function
+title: SetCrossSlideParametersInteractionContext function (interactioncontext.h)
 author: windows-sdk-content
 description: Configures the cross-slide interaction.
 old-location: input_intcontext\setcrossslideparametersinteractioncontext.htm

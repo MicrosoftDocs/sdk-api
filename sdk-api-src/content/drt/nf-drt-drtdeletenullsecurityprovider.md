@@ -1,6 +1,6 @@
 ---
 UID: NF:drt.DrtDeleteNullSecurityProvider
-title: DrtDeleteNullSecurityProvider function
+title: DrtDeleteNullSecurityProvider function (drt.h)
 author: windows-sdk-content
 description: DrtDeleteNullSecurityProvider function deletes a null security provider for a Distributed Routing Table.
 old-location: p2p\drtdeletenullsecurityprovider.htm

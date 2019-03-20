@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_PIPELINE_STATE_FLAGS
-title: D3D12_PIPELINE_STATE_FLAGS
+title: D3D12_PIPELINE_STATE_FLAGS (d3d12.h)
 author: windows-sdk-content
 description: Flags to control pipeline state.
 old-location: direct3d12\d3d12_pipeline_state_flags.htm

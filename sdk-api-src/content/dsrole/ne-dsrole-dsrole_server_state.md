@@ -1,6 +1,6 @@
 ---
 UID: NE:dsrole._DSROLE_SERVER_STATE
-title: DSROLE_SERVER_STATE
+title: DSROLE_SERVER_STATE (dsrole.h)
 author: windows-sdk-content
 description: Used with the DSROLE_UPGRADE_STATUS_INFO structure to indicate the role of a server.
 old-location: ad\dsrole_server_state.htm

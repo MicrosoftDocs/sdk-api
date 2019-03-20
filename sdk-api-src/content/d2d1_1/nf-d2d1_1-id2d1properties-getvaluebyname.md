@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1Properties.GetValueByName
-title: ID2D1Properties::GetValueByName
+title: ID2D1Properties::GetValueByName (d2d1_1.h)
 author: windows-sdk-content
 description: Gets the property value by name.
 old-location: direct2d\id2d1properties_getvaluebyname.htm

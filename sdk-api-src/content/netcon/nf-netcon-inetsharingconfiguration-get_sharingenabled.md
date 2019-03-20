@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingConfiguration.get_SharingEnabled
-title: INetSharingConfiguration::get_SharingEnabled
+title: INetSharingConfiguration::get_SharingEnabled (netcon.h)
 author: windows-sdk-content
 description: The get_SharingEnabled method determines whether sharing is enabled on this connection.
 old-location: ics\inetsharingconfiguration_get_sharingenabled.htm

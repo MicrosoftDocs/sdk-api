@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICProgressiveLevelControl
-title: IWICProgressiveLevelControl
+title: IWICProgressiveLevelControl (wincodec.h)
 author: windows-sdk-content
 description: Exposes methods for obtaining information about and controlling progressive decoding.
 old-location: wic\_wic_codec_iwicprogressivelevelcontrol.htm

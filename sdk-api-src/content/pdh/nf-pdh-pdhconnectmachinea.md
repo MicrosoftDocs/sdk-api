@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhConnectMachineA
-title: PdhConnectMachineA function
+title: PdhConnectMachineA function (pdh.h)
 author: windows-sdk-content
 description: Connects to the specified computer.
 old-location: perf\pdhconnectmachine.htm

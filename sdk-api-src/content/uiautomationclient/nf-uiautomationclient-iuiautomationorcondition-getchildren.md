@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationOrCondition.GetChildren
-title: IUIAutomationOrCondition::GetChildren
+title: IUIAutomationOrCondition::GetChildren (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the conditions that make up this &#0034;or&#0034; condition.
 old-location: winauto\uiauto_IUIAutomationOrCondition_GetChildren.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.SwitchToForeground
-title: IBackgroundCopyGroup::SwitchToForeground
+title: IBackgroundCopyGroup::SwitchToForeground (qmgr.h)
 author: windows-sdk-content
 description: Use the SwitchToForeground method to download the group in the foreground instead of the background.
 old-location: bits\ibackgroundcopygroup_switchtoforeground.htm

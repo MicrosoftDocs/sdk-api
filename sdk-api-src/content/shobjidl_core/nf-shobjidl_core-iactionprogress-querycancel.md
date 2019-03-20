@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IActionProgress.QueryCancel
-title: IActionProgress::QueryCancel
+title: IActionProgress::QueryCancel (shobjidl_core.h)
 author: windows-sdk-content
 description: Provides information about whether the action is being canceled.
 old-location: shell\IActionProgress_QueryCancel.htm

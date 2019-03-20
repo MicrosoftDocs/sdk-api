@@ -1,6 +1,6 @@
 ---
 UID: NF:physicalmonitorenumerationapi.DestroyPhysicalMonitors
-title: DestroyPhysicalMonitors function
+title: DestroyPhysicalMonitors function (physicalmonitorenumerationapi.h)
 author: windows-sdk-content
 description: Closes an array of physical monitor handles.
 old-location: monitor\destroyphysicalmonitors.htm

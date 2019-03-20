@@ -1,6 +1,6 @@
 ---
 UID: NC:cchannel.CHANNEL_INIT_EVENT_FN
-title: CHANNEL_INIT_EVENT_FN
+title: CHANNEL_INIT_EVENT_FN (cchannel.h)
 author: windows-sdk-content
 description: An application-defined callback function that Remote Desktop Services calls to notify the client DLL of virtual channel events.
 old-location: termserv\virtualchannelinitevent.htm

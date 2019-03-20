@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_CHAIN_FIND_BY_ISSUER_PARA
-title: CERT_CHAIN_FIND_BY_ISSUER_PARA
+title: CERT_CHAIN_FIND_BY_ISSUER_PARA (wincrypt.h)
 author: windows-sdk-content
 description: Contains information used in the CertFindChainInStore function to build certificate chains.
 old-location: security\cert_chain_find_by_issuer_para.htm

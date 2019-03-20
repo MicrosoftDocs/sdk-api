@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetMenuItemBitmaps
-title: SetMenuItemBitmaps function
+title: SetMenuItemBitmaps function (winuser.h)
 author: windows-sdk-content
 description: Associates the specified bitmap with a menu item. Whether the menu item is selected or clear, the system displays the appropriate bitmap next to the menu item.
 old-location: menurc\setmenuitembitmaps.htm

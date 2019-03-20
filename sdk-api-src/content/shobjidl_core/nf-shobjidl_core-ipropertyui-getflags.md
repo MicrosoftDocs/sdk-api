@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPropertyUI.GetFlags
-title: IPropertyUI::GetFlags
+title: IPropertyUI::GetFlags (shobjidl_core.h)
 author: windows-sdk-content
 description: Developers should use IPropertyDescription instead. Gets property feature flags for a specified property.
 old-location: properties\IPropertyUI_GetFlags.htm

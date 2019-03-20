@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUIFramework.SetModes
-title: IUIFramework::SetModes
+title: IUIFramework::SetModes (uiribbon.h)
 author: windows-sdk-content
 description: Specifies the application modes to enable.
 old-location: windowsribbon\windowsribbon_iuiframework_setmodes.htm

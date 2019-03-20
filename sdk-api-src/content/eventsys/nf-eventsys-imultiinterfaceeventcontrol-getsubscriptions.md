@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IMultiInterfaceEventControl.GetSubscriptions
-title: IMultiInterfaceEventControl::GetSubscriptions
+title: IMultiInterfaceEventControl::GetSubscriptions (eventsys.h)
 author: windows-sdk-content
 description: Retrieves the collection of subscription objects associated with an event method.
 old-location: cos\imultiinterfaceeventcontrol_getsubscriptions.htm

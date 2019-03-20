@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ICoreFragment.GetRangeCount
-title: ICoreFragment::GetRangeCount
+title: ICoreFragment::GetRangeCount (winsync.h)
 author: windows-sdk-content
 description: Gets the number of ranges that are contained in this knowledge fragment.
 old-location: winsync\icorefragment_getrangecount.htm

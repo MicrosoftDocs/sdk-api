@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetTableIndex
-title: IMetaDataTables::GetTableIndex
+title: IMetaDataTables::GetTableIndex (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the index for the table referenced by the specified token.
 old-location: winrt\imetadatatables_gettableindex.htm

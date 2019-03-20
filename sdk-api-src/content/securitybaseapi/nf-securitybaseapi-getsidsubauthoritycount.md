@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.GetSidSubAuthorityCount
-title: GetSidSubAuthorityCount function
+title: GetSidSubAuthorityCount function (securitybaseapi.h)
 author: windows-sdk-content
 description: Returns a pointer to the member in a security identifier (SID) structure that contains the subauthority count.
 old-location: security\getsidsubauthoritycount.htm

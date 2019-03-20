@@ -1,6 +1,6 @@
 ---
 UID: NS:mfplay.MFP_STOP_EVENT
-title: MFP_STOP_EVENT
+title: MFP_STOP_EVENT (mfplay.h)
 author: windows-sdk-content
 description: Event structure for the MFP_EVENT_TYPE_STOP event.
 old-location: mf\mfp_stop_event.htm

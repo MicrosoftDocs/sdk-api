@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetTimeFromSystemTimeW
-title: InternetTimeFromSystemTimeW function
+title: InternetTimeFromSystemTimeW function (wininet.h)
 author: windows-sdk-content
 description: Formats a date and time according to the HTTP version 1.0 specification.
 old-location: wininet\internettimefromsystemtime.htm

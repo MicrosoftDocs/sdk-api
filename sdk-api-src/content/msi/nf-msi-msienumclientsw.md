@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiEnumClientsW
-title: MsiEnumClientsW function
+title: MsiEnumClientsW function (msi.h)
 author: windows-sdk-content
 description: The MsiEnumClients function enumerates the clients for a given installed component. The function retrieves one product code each time it is called.
 old-location: setup\msienumclients.htm

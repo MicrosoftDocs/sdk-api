@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxFactory.CreatePackageWriter
-title: IAppxFactory::CreatePackageWriter
+title: IAppxFactory::CreatePackageWriter (appxpackaging.h)
 author: windows-sdk-content
 description: Creates a write-only package object to which files can be added.
 old-location: appxpkg\iappxfactory_createpackagewriter.htm

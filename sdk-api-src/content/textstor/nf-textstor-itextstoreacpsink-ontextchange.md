@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACPSink.OnTextChange
-title: ITextStoreACPSink::OnTextChange
+title: ITextStoreACPSink::OnTextChange (textstor.h)
 author: windows-sdk-content
 description: ITextStoreACPSink::OnTextChange method
 old-location: tsf\itextstoreacpsink_ontextchange.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IGetAppTrackerData.GetApplicationsInProcess
-title: IGetAppTrackerData::GetApplicationsInProcess
+title: IGetAppTrackerData::GetApplicationsInProcess (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves summary information for all COM+ applications hosted in a single process, or for a specified subset of these applications.
 old-location: cos\igetapptrackerdata_getapplicationsinprocess.htm

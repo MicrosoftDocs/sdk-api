@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IMediaEventEx.GetNotifyFlags
-title: IMediaEventEx::GetNotifyFlags
+title: IMediaEventEx::GetNotifyFlags (control.h)
 author: windows-sdk-content
 description: The GetNotifyFlags method determines whether event notifications are enabled.
 old-location: dshow\imediaeventex_getnotifyflags.htm

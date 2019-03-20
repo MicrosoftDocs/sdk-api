@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._KERB_ADD_CREDENTIALS_REQUEST
-title: KERB_ADD_CREDENTIALS_REQUEST
+title: KERB_ADD_CREDENTIALS_REQUEST (ntsecapi.h)
 author: windows-sdk-content
 description: Specifies a message to add, remove, or replace an extra server credential for a logon session.
 old-location: security\kerb_add_credentials_request.htm

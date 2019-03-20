@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.IsKeepPixelAspectRatio
-title: IFullScreenVideoEx::IsKeepPixelAspectRatio
+title: IFullScreenVideoEx::IsKeepPixelAspectRatio (amvideo.h)
 author: windows-sdk-content
 description: The IsKeepPixelAspectRatio method queries whether the pixel aspect ratio is maintained. The Full Screen Renderer filter does not support this method; it always maintains the pixel aspect ratio.
 old-location: dshow\ifullscreenvideoex_iskeeppixelaspectratio.htm

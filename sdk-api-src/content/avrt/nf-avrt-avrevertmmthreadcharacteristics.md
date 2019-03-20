@@ -1,6 +1,6 @@
 ---
 UID: NF:avrt.AvRevertMmThreadCharacteristics
-title: AvRevertMmThreadCharacteristics function
+title: AvRevertMmThreadCharacteristics function (avrt.h)
 author: windows-sdk-content
 description: Indicates that a thread is no longer performing work associated with the specified task.
 old-location: base\avrevertmmthreadcharacteristics.htm

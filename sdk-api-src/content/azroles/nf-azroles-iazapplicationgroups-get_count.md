@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroups.get_Count
-title: IAzApplicationGroups::get_Count
+title: IAzApplicationGroups::get_Count (azroles.h)
 author: windows-sdk-content
 description: Retrieves the number of IAzApplicationGroup objects in the collection.
 old-location: security\iazapplicationgroups_count.htm

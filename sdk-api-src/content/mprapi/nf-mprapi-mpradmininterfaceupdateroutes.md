@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceUpdateRoutes
-title: MprAdminInterfaceUpdateRoutes function
+title: MprAdminInterfaceUpdateRoutes function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminInterfaceUpdateRoutes function requests a specified router manager to update its routing information for a specified interface.
 old-location: rras\mpradmininterfaceupdateroutes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:rpcasync.tagRPC_CALL_ATTRIBUTES_V1_W
-title: RPC_CALL_ATTRIBUTES_V1_W
+title: RPC_CALL_ATTRIBUTES_V1_W (rpcasync.h)
 author: windows-sdk-content
 description: The RPC_CALL_ATTRIBUTES_V1 structure provides parameters to the RpcServerInqCallAttributes function. Implemented in ANSI and UNICODE versions for Windows XP and Windows Server 2003 operating systems.
 old-location: rpc\rpc_call_attributes_v1.htm

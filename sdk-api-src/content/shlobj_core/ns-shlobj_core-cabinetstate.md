@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core.__unnamed_struct_10
-title: CABINETSTATE
+title: CABINETSTATE (shlobj_core.h)
 author: windows-sdk-content
 description: CABINETSTATE may be altered or unavailable.
 old-location: shell\CABINETSTATE.htm

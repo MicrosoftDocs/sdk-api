@@ -1,6 +1,6 @@
 ---
 UID: NF:identityprovider.IIdentityProvider.UnAdvise
-title: IIdentityProvider::UnAdvise
+title: IIdentityProvider::UnAdvise (identityprovider.h)
 author: windows-sdk-content
 description: Deletes a connection created by calling the Advise method.
 old-location: security\iidentityprovider_unadvise.htm

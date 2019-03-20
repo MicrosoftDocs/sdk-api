@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetInputMode
-title: IDirectManipulationViewport::SetInputMode
+title: IDirectManipulationViewport::SetInputMode (directmanipulation.h)
 author: windows-sdk-content
 description: Specifies if input is visible to the UI thread.
 old-location: directmanipulation\idirectmanipulationviewport_setinputmode.htm

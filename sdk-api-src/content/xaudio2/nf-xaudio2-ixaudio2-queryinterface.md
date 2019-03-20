@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2.QueryInterface
-title: IXAudio2::QueryInterface
+title: IXAudio2::QueryInterface (xaudio2.h)
 author: windows-sdk-content
 description: Queries for a given COM interface on the XAudio2 object.
 old-location: xaudio2\ixaudio2_interface_queryinterface.htm

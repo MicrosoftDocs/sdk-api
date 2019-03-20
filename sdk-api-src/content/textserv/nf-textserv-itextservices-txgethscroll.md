@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextServices.TxGetHScroll
-title: ITextServices::TxGetHScroll
+title: ITextServices::TxGetHScroll (textserv.h)
 author: windows-sdk-content
 description: Returns horizontal scroll bar information.
 old-location: controls\ITextServices_TxGetHScroll.htm

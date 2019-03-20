@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvDrawEscape
-title: DrvDrawEscape function
+title: DrvDrawEscape function (winddi.h)
 author: windows-sdk-content
 description: The DrvDrawEscape function is the entry point that serves more than one function call; the particular function depends on the value of the iEsc parameter.
 old-location: display\drvdrawescape.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwPolicy2.put_BlockAllInboundTraffic
-title: INetFwPolicy2::put_BlockAllInboundTraffic
+title: INetFwPolicy2::put_BlockAllInboundTraffic (netfw.h)
 author: windows-sdk-content
 description: Indicates whether the firewall should not allow inbound traffic.
 old-location: ics\inetfwpolicy2_exceptionsnotallowed.htm

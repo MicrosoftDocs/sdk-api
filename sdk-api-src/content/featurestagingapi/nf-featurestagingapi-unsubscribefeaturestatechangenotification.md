@@ -1,6 +1,6 @@
 ---
 UID: NF:featurestagingapi.UnsubscribeFeatureStateChangeNotification
-title: UnsubscribeFeatureStateChangeNotification function
+title: UnsubscribeFeatureStateChangeNotification function (featurestagingapi.h)
 author: windows-sdk-content
 description: This function is intended for infrastructure use only.
 old-location: winprog\unsubscribefeaturestatechangenotification.htm

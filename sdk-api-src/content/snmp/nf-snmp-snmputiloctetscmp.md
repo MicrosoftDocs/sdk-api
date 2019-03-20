@@ -1,6 +1,6 @@
 ---
 UID: NF:snmp.SnmpUtilOctetsCmp
-title: SnmpUtilOctetsCmp function
+title: SnmpUtilOctetsCmp function (snmp.h)
 author: windows-sdk-content
 description: The SnmpUtilOctetsCmp function compares two octet strings. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputiloctetscmp.htm

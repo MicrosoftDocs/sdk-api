@@ -1,6 +1,6 @@
 ---
 UID: NF:inputscope.SetInputScopes2
-title: SetInputScopes2 function
+title: SetInputScopes2 function (inputscope.h)
 author: windows-sdk-content
 description: The application must call SetInputScope with IS_DEFAULT before a window is destroyed to clear the reference of the interface.
 old-location: tsf\SetInputScopes2.htm

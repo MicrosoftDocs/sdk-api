@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfReadOnlyProperty.EnumRanges
-title: ITfReadOnlyProperty::EnumRanges
+title: ITfReadOnlyProperty::EnumRanges (msctf.h)
 author: windows-sdk-content
 description: ITfReadOnlyProperty::EnumRanges method
 old-location: tsf\itfreadonlyproperty_enumranges.htm

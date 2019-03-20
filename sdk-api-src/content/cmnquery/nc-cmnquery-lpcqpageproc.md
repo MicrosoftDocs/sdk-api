@@ -1,6 +1,6 @@
 ---
 UID: NC:cmnquery.LPCQPAGEPROC
-title: LPCQPAGEPROC
+title: LPCQPAGEPROC (cmnquery.h)
 author: windows-sdk-content
 description: Called by the query dialog box to notify the query form extension of events that occur in a query page.
 old-location: ad\cqpageproc.htm

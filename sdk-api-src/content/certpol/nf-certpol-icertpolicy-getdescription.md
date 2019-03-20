@@ -1,6 +1,6 @@
 ---
 UID: NF:certpol.ICertPolicy.GetDescription
-title: ICertPolicy::GetDescription
+title: ICertPolicy::GetDescription (certpol.h)
 author: windows-sdk-content
 description: Returns a human-readable description of the policy module and its function.
 old-location: security\icertpolicy2_getdescription.htm

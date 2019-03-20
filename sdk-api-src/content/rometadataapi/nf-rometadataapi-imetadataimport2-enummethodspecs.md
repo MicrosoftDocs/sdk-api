@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport2.EnumMethodSpecs
-title: IMetaDataImport2::EnumMethodSpecs
+title: IMetaDataImport2::EnumMethodSpecs (rometadataapi.h)
 author: windows-sdk-content
 description: Gets an enumerator for an array of MethodSpec tokens associated with the specified MethodDef or MemberRef token.
 old-location: winrt\imetadataimport2_enummethodspecs.htm

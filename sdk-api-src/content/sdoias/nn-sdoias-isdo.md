@@ -1,6 +1,6 @@
 ---
 UID: NN:sdoias.ISdo
-title: ISdo
+title: ISdo (sdoias.h)
 author: windows-sdk-content
 description: Use the ISdo interface to store, retrieve, and update Server Data Objects (SDO) information.
 old-location: nps\SDO_isdo.htm

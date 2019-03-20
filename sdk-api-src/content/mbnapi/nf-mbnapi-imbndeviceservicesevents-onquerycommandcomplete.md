@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnQueryCommandComplete
-title: IMbnDeviceServicesEvents::OnQueryCommandComplete
+title: IMbnDeviceServicesEvents::OnQueryCommandComplete (mbnapi.h)
 author: windows-sdk-content
 description: Notification method indicating that a device service QUERY request has completed.
 old-location: mbn\imbndeviceservicesevents_onquerycommandcomplete.htm

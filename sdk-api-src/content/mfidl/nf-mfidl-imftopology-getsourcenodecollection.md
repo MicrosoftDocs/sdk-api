@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTopology.GetSourceNodeCollection
-title: IMFTopology::GetSourceNodeCollection
+title: IMFTopology::GetSourceNodeCollection (mfidl.h)
 author: windows-sdk-content
 description: Gets the source nodes in the topology.
 old-location: mf\imftopology_getsourcenodecollection.htm

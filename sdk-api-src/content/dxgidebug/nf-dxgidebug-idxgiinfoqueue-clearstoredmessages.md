@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.ClearStoredMessages
-title: IDXGIInfoQueue::ClearStoredMessages
+title: IDXGIInfoQueue::ClearStoredMessages (dxgidebug.h)
 author: windows-sdk-content
 description: Clears all messages from the message queue.
 old-location: direct3ddxgi\idxgiinfoqueue_clearstoredmessages.htm

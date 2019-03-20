@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSequencerSource.AppendTopology
-title: IMFSequencerSource::AppendTopology
+title: IMFSequencerSource::AppendTopology (mfidl.h)
 author: windows-sdk-content
 description: Adds a topology to the end of the queue.
 old-location: mf\imfsequencersource_appendtopology.htm

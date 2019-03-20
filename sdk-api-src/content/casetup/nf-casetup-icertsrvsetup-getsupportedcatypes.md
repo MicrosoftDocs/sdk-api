@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertSrvSetup.GetSupportedCATypes
-title: ICertSrvSetup::GetSupportedCATypes
+title: ICertSrvSetup::GetSupportedCATypes (casetup.h)
 author: windows-sdk-content
 description: Gets the types of certification authorities (CAs) that can be installed on a computer under the caller context.
 old-location: security\icertsrvsetup_getsupportedcatypes.htm

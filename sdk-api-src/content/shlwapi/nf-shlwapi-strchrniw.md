@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.StrChrNIW
-title: StrChrNIW function
+title: StrChrNIW function (shlwapi.h)
 author: windows-sdk-content
 description: Searches a string for the first occurrence of a specified character. The comparison is not case-sensitive.
 old-location: shell\StrChrNIW.htm

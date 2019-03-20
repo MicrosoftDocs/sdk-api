@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.SetTextContext
-title: SetTextContext function
+title: SetTextContext function (recapis.h)
 author: windows-sdk-content
 description: Provides the text strings that come before and after the text contained in the recognizer context.You call this function before processing the ink for the first time. Therefore, call the SetTextContext function before calling the Process function.
 old-location: tablet\settextcontext.htm

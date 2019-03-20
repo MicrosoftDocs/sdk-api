@@ -1,6 +1,6 @@
 ---
 UID: NF:asyncinfo.IAsyncInfo.Close
-title: IAsyncInfo::Close
+title: IAsyncInfo::Close (asyncinfo.h)
 author: windows-sdk-content
 description: Closes the asynchronous work object.
 old-location: winrt\iasyncinfo_close.htm

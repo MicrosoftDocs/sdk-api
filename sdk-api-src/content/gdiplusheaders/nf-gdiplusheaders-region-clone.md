@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.Clone
-title: Region::Clone
+title: Region::Clone (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Region::Clone method makes a copy of this Regionobject and returns the address of the new Regionobject.
 old-location: gdiplus\_gdiplus_CLASS_Region_Clone_.htm

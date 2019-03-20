@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcMgmtStopServerListening
-title: RpcMgmtStopServerListening function
+title: RpcMgmtStopServerListening function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcMgmtStopServerListening function tells a server to stop listening for remote procedure calls. This function will not affect auto-listen interfaces. See RpcServerRegisterIfEx for more details.
 old-location: rpc\rpcmgmtstopserverlistening.htm

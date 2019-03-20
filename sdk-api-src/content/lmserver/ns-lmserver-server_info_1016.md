@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1016
-title: SERVER_INFO_1016
+title: SERVER_INFO_1016 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1016 structure contains information about whether the server is visible to other computers in the same network domain.
 old-location: netmgmt\server_info_1016_str.htm

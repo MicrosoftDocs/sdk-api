@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionType.GetSubType
-title: ID3D12ShaderReflectionType::GetSubType
+title: ID3D12ShaderReflectionType::GetSubType (d3d12shader.h)
 author: windows-sdk-content
 description: Gets the base class of a class.
 old-location: direct3d12\id3d12shaderreflectiontype_getsubtype.htm

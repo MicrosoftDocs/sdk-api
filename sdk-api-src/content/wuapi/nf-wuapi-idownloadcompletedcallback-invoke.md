@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IDownloadCompletedCallback.Invoke
-title: IDownloadCompletedCallback::Invoke
+title: IDownloadCompletedCallback::Invoke (wuapi.h)
 author: windows-sdk-content
 description: Notifies the caller that the download is complete.
 old-location: wua\idownloadcompletedcallback_invoke.htm

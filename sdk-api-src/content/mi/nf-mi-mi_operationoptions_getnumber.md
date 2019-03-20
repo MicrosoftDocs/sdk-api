@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_OperationOptions_GetNumber
-title: MI_OperationOptions_GetNumber function
+title: MI_OperationOptions_GetNumber function (mi.h)
 author: windows-sdk-content
 description: Gets a previously added custom number option.
 old-location: wmi_v2\mi_operationoptions_getnumber.htm

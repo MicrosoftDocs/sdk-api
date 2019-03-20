@@ -1,6 +1,6 @@
 ---
 UID: NN:rend.IEnumDirectoryObject
-title: IEnumDirectoryObject
+title: IEnumDirectoryObject (rend.h)
 author: windows-sdk-content
 description: The IEnumDirectoryObject interface provides COM-standard enumeration methods for the ITDirectoryObject interface. The ITDirectory::EnumerateDirectoryObjects method returns a pointer to IEnumDirectoryObject.
 old-location: tapi3\ienumdirectoryobject.htm

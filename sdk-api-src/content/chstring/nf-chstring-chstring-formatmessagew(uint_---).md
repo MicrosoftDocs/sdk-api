@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.FormatMessageW(UINT,...)
-title: CHString::FormatMessageW(UINT,
+title: CHString::FormatMessageW(UINT, (chstring.h)
 author: windows-sdk-content
 description: The overloaded FormatMessageW method formats a message string.
 old-location: wmi\chstring_formatmessagew.htm

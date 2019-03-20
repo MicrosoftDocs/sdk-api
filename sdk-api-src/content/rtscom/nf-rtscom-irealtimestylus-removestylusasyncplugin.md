@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.RemoveStylusAsyncPlugin
-title: IRealTimeStylus::RemoveStylusAsyncPlugin
+title: IRealTimeStylus::RemoveStylusAsyncPlugin (rtscom.h)
 author: windows-sdk-content
 description: Removes and optionally returns an IStylusAsyncPlugin with the specified index in the asynchronous plug-in collection.
 old-location: tablet\irealtimestylus_removestylusasyncplugin.htm

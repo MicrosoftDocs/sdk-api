@@ -1,6 +1,6 @@
 ---
 UID: NF:propidl.FreePropVariantArray
-title: FreePropVariantArray function
+title: FreePropVariantArray function (propidl.h)
 author: windows-sdk-content
 description: Frees the memory and references used by an array of PROPVARIANT structures.
 old-location: properties\FreePropVariantArray.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerW.GetNextLink
-title: IOleUILinkContainerW::GetNextLink
+title: IOleUILinkContainerW::GetNextLink (oledlg.h)
 author: windows-sdk-content
 description: Enumerates the links in a container.
 old-location: com\ioleuilinkcontainer_getnextlink.htm

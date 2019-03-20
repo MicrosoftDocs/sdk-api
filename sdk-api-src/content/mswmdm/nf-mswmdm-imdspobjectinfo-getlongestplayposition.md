@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPObjectInfo.GetLongestPlayPosition
-title: IMDSPObjectInfo::GetLongestPlayPosition
+title: IMDSPObjectInfo::GetLongestPlayPosition (mswmdm.h)
 author: windows-sdk-content
 description: The GetLongestPlayPosition method retrieves the longest play position of the object. The object must be a music file on the media device.
 old-location: wmdm\imdspobjectinfo_getlongestplayposition.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:uiribbon.UI_CONTEXTAVAILABILITY
-title: UI_CONTEXTAVAILABILITY
+title: UI_CONTEXTAVAILABILITY (uiribbon.h)
 author: windows-sdk-content
 description: Specifies values that identify the availability of a contextual tab.
 old-location: windowsribbon\windowsribbon_ui_contextavailability.htm

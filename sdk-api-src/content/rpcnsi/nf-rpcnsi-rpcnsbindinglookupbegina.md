@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingLookupBeginA
-title: RpcNsBindingLookupBeginA function
+title: RpcNsBindingLookupBeginA function (rpcnsi.h)
 author: windows-sdk-content
 description: The RpcNsBindingLookupBegin function creates a lookup context for an interface and an object.
 old-location: rpc\rpcnsbindinglookupbegin.htm

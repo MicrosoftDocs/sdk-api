@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcMgmtSetComTimeout
-title: RpcMgmtSetComTimeout function
+title: RpcMgmtSetComTimeout function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcMgmtSetComTimeout function sets the binding-communications time-out value in a binding handle.
 old-location: rpc\rpcmgmtsetcomtimeout.htm

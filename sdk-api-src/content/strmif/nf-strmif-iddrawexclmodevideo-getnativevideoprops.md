@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDDrawExclModeVideo.GetNativeVideoProps
-title: IDDrawExclModeVideo::GetNativeVideoProps
+title: IDDrawExclModeVideo::GetNativeVideoProps (strmif.h)
 author: windows-sdk-content
 description: The GetNativeVideoProps method retrieves the current video size and picture aspect ratio of the Overlay Mixer's primary stream.
 old-location: dshow\iddrawexclmodevideo_getnativevideoprops.htm

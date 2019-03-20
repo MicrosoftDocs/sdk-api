@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.CALLINFOCHANGE_CAUSE
-title: CALLINFOCHANGE_CAUSE
+title: CALLINFOCHANGE_CAUSE (tapi3if.h)
 author: windows-sdk-content
 description: The CALLINFOCHANGE_CAUSE enum is used by the ITCallInfoChangeEvent::get_Cause method to return a description of the type of call information that has changed.
 old-location: tapi3\callinfochange_cause.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mmeapi.waveoutcaps_tag
-title: WAVEOUTCAPS
+title: WAVEOUTCAPS (mmeapi.h)
 author: windows-sdk-content
 description: The WAVEOUTCAPS structure describes the capabilities of a waveform-audio output device.
 old-location: multimedia\waveoutcaps.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetBackgroundColor
-title: IMFTimedTextRegion::GetBackgroundColor
+title: IMFTimedTextRegion::GetBackgroundColor (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the background color of the region.
 old-location: mf\imftimedtextregion_getbackgroundcolor.htm

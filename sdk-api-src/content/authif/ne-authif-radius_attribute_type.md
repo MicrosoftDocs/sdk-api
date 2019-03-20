@@ -1,6 +1,6 @@
 ---
 UID: NE:authif._RADIUS_ATTRIBUTE_TYPE
-title: RADIUS_ATTRIBUTE_TYPE
+title: RADIUS_ATTRIBUTE_TYPE (authif.h)
 author: windows-sdk-content
 description: The RADIUS_ATTRIBUTE_TYPE type enumerates the possible types for a RADIUS attribute.
 old-location: nps\IAS_radius_attribute_type.htm

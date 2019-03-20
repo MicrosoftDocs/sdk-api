@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmFormatLogRecords.GetColumnHeaders
-title: ICrmFormatLogRecords::GetColumnHeaders
+title: ICrmFormatLogRecords::GetColumnHeaders (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the names of the fields (columns) so that they can be used as column headings when the information is presented.
 old-location: cos\icrmformatlogrecords_getcolumnheaders.htm

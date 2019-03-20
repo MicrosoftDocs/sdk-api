@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFNetProxyLocator.GetCurrentProxy
-title: IMFNetProxyLocator::GetCurrentProxy
+title: IMFNetProxyLocator::GetCurrentProxy (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the current proxy information including hostname and port.
 old-location: mf\imfnetproxylocator_getcurrentproxy.htm

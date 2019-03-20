@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.SetColorContexts
-title: IWICBitmapEncoder::SetColorContexts
+title: IWICBitmapEncoder::SetColorContexts (wincodec.h)
 author: windows-sdk-content
 description: Sets the IWICColorContext objects for the encoder.
 old-location: wic\_wic_codec_iwicbitmapencoder_setcolorcontexts.htm

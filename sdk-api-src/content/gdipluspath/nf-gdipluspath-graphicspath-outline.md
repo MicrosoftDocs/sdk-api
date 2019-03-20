@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.Outline
-title: GraphicsPath::Outline
+title: GraphicsPath::Outline (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPath::Outline method transforms and flattens this path, and then converts this path's data points so that they represent only the outline of the path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Outline_matrix_flatness_.htm

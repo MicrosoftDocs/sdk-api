@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICColorTransform
-title: IWICColorTransform
+title: IWICColorTransform (wincodec.h)
 author: windows-sdk-content
 description: Exposes methods that transforms an IWICBitmapSource from one color context to another.
 old-location: wic\_wic_codec_iwiccolortransform.htm

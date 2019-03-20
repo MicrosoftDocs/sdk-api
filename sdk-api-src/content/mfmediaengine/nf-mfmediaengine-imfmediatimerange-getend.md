@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaTimeRange.GetEnd
-title: IMFMediaTimeRange::GetEnd
+title: IMFMediaTimeRange::GetEnd (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the end time for a specified time range.
 old-location: mf\imfmediatimerange_getend.htm

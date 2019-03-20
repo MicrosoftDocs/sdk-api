@@ -1,6 +1,6 @@
 ---
 UID: NN:netfw.INetFwPolicy2
-title: INetFwPolicy2
+title: INetFwPolicy2 (netfw.h)
 author: windows-sdk-content
 description: To access the firewall policy.
 old-location: ics\inetfwpolicy2.htm

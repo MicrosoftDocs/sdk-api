@@ -1,6 +1,6 @@
 ---
 UID: NF:editionupgradehelper.IEditionUpgradeHelper.CanUpgrade
-title: IEditionUpgradeHelper::CanUpgrade
+title: IEditionUpgradeHelper::CanUpgrade (editionupgradehelper.h)
 author: windows-sdk-content
 description: Checks if the user has sufficient permissions to upgrade the operating system, and prompts the user to run as an administrator if needed.
 old-location: winprog\ieditionupgradehelper_canupgrade.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes.__unnamed_struct_3
-title: REQUESTBODY_Renew
+title: REQUESTBODY_Renew (wsdtypes.h)
 author: windows-sdk-content
 description: Represents a WS-Eventing Renew request message.
 old-location: ncd\requestbody_renew_struct.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr.IsThreadFocus
-title: ITfThreadMgr::IsThreadFocus
+title: ITfThreadMgr::IsThreadFocus (msctf.h)
 author: windows-sdk-content
 description: ITfThreadMgr::IsThreadFocus method
 old-location: tsf\itfthreadmgr_isthreadfocus.htm

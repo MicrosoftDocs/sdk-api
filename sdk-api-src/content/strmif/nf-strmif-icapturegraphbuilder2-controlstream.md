@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder2.ControlStream
-title: ICaptureGraphBuilder2::ControlStream
+title: ICaptureGraphBuilder2::ControlStream (strmif.h)
 author: windows-sdk-content
 description: The ControlStream method sets the start and stop times for one or more streams of captured data.
 old-location: dshow\icapturegraphbuilder2_controlstream.htm

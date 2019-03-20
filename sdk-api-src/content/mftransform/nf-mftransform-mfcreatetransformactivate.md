@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.MFCreateTransformActivate
-title: MFCreateTransformActivate function
+title: MFCreateTransformActivate function (mftransform.h)
 author: windows-sdk-content
 description: Creates a generic activation object for Media Foundation transforms (MFTs).
 old-location: mf\mfcreatetransformactivate.htm

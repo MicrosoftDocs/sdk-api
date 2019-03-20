@@ -1,6 +1,6 @@
 ---
 UID: NF:cmdtree.ICommandTree.FindErrorNodes
-title: ICommandTree::FindErrorNodes
+title: ICommandTree::FindErrorNodes (cmdtree.h)
 author: windows-sdk-content
 description: The ICommandTree::FindErrorNodes method traverses a command tree and returns an array of nodes with errors in them.
 old-location: indexsrv\icommandtree_finderrornodes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.IRowsetPrioritization.GetScopePriority
-title: IRowsetPrioritization::GetScopePriority
+title: IRowsetPrioritization::GetScopePriority (searchapi.h)
 author: windows-sdk-content
 description: Retrieves the current indexer prioritization level for the scope specified by this query.
 old-location: search\_search_IRowsetPrioritization_GetScopePriority.htm

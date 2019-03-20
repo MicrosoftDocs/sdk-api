@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.DeactivateAndUndo
-title: IOleInPlaceSite::DeactivateAndUndo
+title: IOleInPlaceSite::DeactivateAndUndo (oleidl.h)
 author: windows-sdk-content
 description: Deactivates the object, ends the in-place session, and reverts to the container's saved undo state.
 old-location: com\ioleinplacesite_deactivateandundo.htm

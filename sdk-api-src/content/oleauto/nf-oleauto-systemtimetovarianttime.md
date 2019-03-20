@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.SystemTimeToVariantTime
-title: SystemTimeToVariantTime function
+title: SystemTimeToVariantTime function (oleauto.h)
 author: windows-sdk-content
 description: Converts a system time to a variant representation.
 old-location: automat\systemtimetovarianttime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:immdev.tagIMECHARPOSITION
-title: IMECHARPOSITION
+title: IMECHARPOSITION (immdev.h)
 author: windows-sdk-content
 description: Contains information about the character position in the composition window.
 old-location: intl\imecharposition.htm

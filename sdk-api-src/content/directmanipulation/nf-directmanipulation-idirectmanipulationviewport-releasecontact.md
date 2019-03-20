@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.ReleaseContact
-title: IDirectManipulationViewport::ReleaseContact
+title: IDirectManipulationViewport::ReleaseContact (directmanipulation.h)
 author: windows-sdk-content
 description: Removes a contact that is associated with a viewport.
 old-location: directmanipulation\idirectmanipulationviewport_releasecontact.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:virtdisk._COMPACT_VIRTUAL_DISK_PARAMETERS
-title: COMPACT_VIRTUAL_DISK_PARAMETERS
+title: COMPACT_VIRTUAL_DISK_PARAMETERS (virtdisk.h)
 author: windows-sdk-content
 description: Contains virtual hard disk (VHD) compacting parameters.
 old-location: vhd\compact_virtual_disk_parameters.htm

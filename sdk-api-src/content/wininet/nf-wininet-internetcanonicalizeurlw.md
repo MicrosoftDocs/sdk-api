@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetCanonicalizeUrlW
-title: InternetCanonicalizeUrlW function
+title: InternetCanonicalizeUrlW function (wininet.h)
 author: windows-sdk-content
 description: Canonicalizes a URL, which includes converting unsafe characters and spaces into escape sequences.
 old-location: wininet\internetcanonicalizeurl.htm

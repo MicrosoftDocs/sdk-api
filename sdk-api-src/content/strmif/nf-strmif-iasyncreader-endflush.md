@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAsyncReader.EndFlush
-title: IAsyncReader::EndFlush
+title: IAsyncReader::EndFlush (strmif.h)
 author: windows-sdk-content
 description: The EndFlush method ends a flush operation.
 old-location: dshow\iasyncreader_endflush.htm

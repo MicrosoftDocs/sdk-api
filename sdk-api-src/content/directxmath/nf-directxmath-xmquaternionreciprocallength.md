@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMQuaternionReciprocalLength
-title: XMQuaternionReciprocalLength function
+title: XMQuaternionReciprocalLength function (directxmath.h)
 author: windows-sdk-content
 description: Computes the reciprocal of the magnitude of a quaternion.
 old-location: dxmath\xmquaternionreciprocallength.htm

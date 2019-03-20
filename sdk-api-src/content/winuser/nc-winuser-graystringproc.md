@@ -1,6 +1,6 @@
 ---
 UID: NC:winuser.GRAYSTRINGPROC
-title: GRAYSTRINGPROC
+title: GRAYSTRINGPROC (winuser.h)
 author: windows-sdk-content
 description: The OutputProc function is an application-defined callback function used with the GrayString function.
 old-location: gdi\outputproc.htm

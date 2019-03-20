@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupGetInfInformationA
-title: SetupGetInfInformationA function
+title: SetupGetInfInformationA function (setupapi.h)
 author: windows-sdk-content
 description: The SetUpGetInfInformation function returns the SP_INF_INFORMATION structure for the specified INF file to a buffer.
 old-location: setup\setupgetinfinformation.htm

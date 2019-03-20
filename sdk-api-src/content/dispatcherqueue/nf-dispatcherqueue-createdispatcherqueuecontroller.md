@@ -1,6 +1,6 @@
 ---
 UID: NF:dispatcherqueue.CreateDispatcherQueueController
-title: CreateDispatcherQueueController function
+title: CreateDispatcherQueueController function (dispatcherqueue.h)
 author: windows-sdk-content
 description: Creates a DispatcherQueueController on the caller's thread. Use the created DispatcherQueueController to create and manage the lifetime of a DispatcherQueue to run queued tasks in priority order on the Dispatcher queue's thread.
 old-location: base\createdispatcherqueuecontroller.htm

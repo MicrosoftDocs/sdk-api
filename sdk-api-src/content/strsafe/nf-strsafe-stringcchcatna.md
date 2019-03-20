@@ -1,6 +1,6 @@
 ---
 UID: NF:strsafe.StringCchCatNA
-title: StringCchCatNA function
+title: StringCchCatNA function (strsafe.h)
 author: windows-sdk-content
 description: Concatenates the specified number of characters from one string to another string.
 old-location: menurc\stringcchcatn.htm

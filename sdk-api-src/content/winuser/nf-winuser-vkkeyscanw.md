@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.VkKeyScanW
-title: VkKeyScanW function
+title: VkKeyScanW function (winuser.h)
 author: windows-sdk-content
 description: Translates a character to the corresponding virtual-key code and shift state for the current keyboard.
 old-location: inputdev\vkkeyscan.htm

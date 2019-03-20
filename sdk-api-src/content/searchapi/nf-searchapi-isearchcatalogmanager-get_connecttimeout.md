@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.get_ConnectTimeout
-title: ISearchCatalogManager::get_ConnectTimeout
+title: ISearchCatalogManager::get_ConnectTimeout (searchapi.h)
 author: windows-sdk-content
 description: Gets the connection time-out value for connecting to a store for indexing.
 old-location: search\_search_ISearchCatalogManager_get_ConnectTimeout.htm

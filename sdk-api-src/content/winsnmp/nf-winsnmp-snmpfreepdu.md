@@ -1,6 +1,6 @@
 ---
 UID: NF:winsnmp.SnmpFreePdu
-title: SnmpFreePdu function
+title: SnmpFreePdu function (winsnmp.h)
 author: windows-sdk-content
 description: The WinSNMP SnmpFreePdu function releases resources associated with an SNMP protocol data unit (PDU) created by the SnmpCreatePdu or the SnmpDuplicatePdu function.
 old-location: snmp\snmpfreepdu.htm

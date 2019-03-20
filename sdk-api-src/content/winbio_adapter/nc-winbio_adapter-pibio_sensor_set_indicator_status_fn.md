@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_SET_INDICATOR_STATUS_FN
-title: PIBIO_SENSOR_SET_INDICATOR_STATUS_FN
+title: PIBIO_SENSOR_SET_INDICATOR_STATUS_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Toggles the sensor indicator on or off.
 old-location: secbiomet\sensoradaptersetindicatorstatus.htm

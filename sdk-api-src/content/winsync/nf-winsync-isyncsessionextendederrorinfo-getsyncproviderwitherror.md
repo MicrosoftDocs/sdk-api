@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncSessionExtendedErrorInfo.GetSyncProviderWithError
-title: ISyncSessionExtendedErrorInfo::GetSyncProviderWithError
+title: ISyncSessionExtendedErrorInfo::GetSyncProviderWithError (winsync.h)
 author: windows-sdk-content
 description: Gets the ISyncProvider interface of the provider that caused synchronization to fail.
 old-location: winsync\isyncsessionextendederrorinfo_getsyncproviderwitherror.htm

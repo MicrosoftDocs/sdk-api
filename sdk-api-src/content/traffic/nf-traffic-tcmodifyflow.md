@@ -1,6 +1,6 @@
 ---
 UID: NF:traffic.TcModifyFlow
-title: TcModifyFlow function
+title: TcModifyFlow function (traffic.h)
 author: windows-sdk-content
 description: The TcModifyFlow function modifies an existing flow. When calling TcModifyFlow, new Flowspec parameters and any traffic control objects should be filled.
 old-location: qos\tcmodifyflow.htm

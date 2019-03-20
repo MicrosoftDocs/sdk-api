@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.FLOATOBJ_GetLong
-title: FLOATOBJ_GetLong function
+title: FLOATOBJ_GetLong function (winddi.h)
 author: windows-sdk-content
 description: The FLOATOBJ_GetLong function calculates and returns the LONG-equivalent value of the specified FLOATOBJ.
 old-location: display\floatobj_getlong.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerReadPossibleValue
-title: PowerReadPossibleValue function
+title: PowerReadPossibleValue function (powrprof.h)
 author: windows-sdk-content
 description: Retrieves the value for a possible value of a power setting.
 old-location: base\powerreadpossiblevalue.htm

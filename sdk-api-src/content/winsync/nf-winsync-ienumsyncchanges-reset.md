@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IEnumSyncChanges.Reset
-title: IEnumSyncChanges::Reset
+title: IEnumSyncChanges::Reset (winsync.h)
 author: windows-sdk-content
 description: Resets the enumerator to the beginning of the list.
 old-location: winsync\ienumsyncchanges_reset.htm

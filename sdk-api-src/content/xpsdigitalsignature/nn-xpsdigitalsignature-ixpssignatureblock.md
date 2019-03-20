@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsdigitalsignature.IXpsSignatureBlock
-title: IXpsSignatureBlock
+title: IXpsSignatureBlock (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Represents a block of signature requests that are stored in a SignatureDefinitions part.
 old-location: xps\ixpssignatureblock.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:msime.IFECommon
-title: IFECommon
+title: IFECommon (msime.h)
 author: windows-sdk-content
 description: The IFECommon interface provides IME-related services that are common for different languages.
 old-location: intl\ifecommon.htm

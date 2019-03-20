@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._SECPKG_USER_FUNCTION_TABLE
-title: SECPKG_USER_FUNCTION_TABLE
+title: SECPKG_USER_FUNCTION_TABLE (ntsecpkg.h)
 author: windows-sdk-content
 description: The SECPKG_USER_FUNCTION_TABLE structure contains pointers to the functions that a security package implements to support executing in process with client/server applications. This structure is provided by the SpUserModeInitialize function.
 old-location: security\secpkg_user_function_table.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireDeviceSelectionDialog.DoModal
-title: IPhotoAcquireDeviceSelectionDialog::DoModal
+title: IPhotoAcquireDeviceSelectionDialog::DoModal (photoacquire.h)
 author: windows-sdk-content
 description: The DoModal method displays a device selection dialog box. The function returns when the user selects a device using the modal dialog box.
 old-location: picacq\iphotoacquiredeviceselectiondialog_domodal.htm

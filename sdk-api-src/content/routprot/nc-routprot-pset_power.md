@@ -1,6 +1,6 @@
 ---
 UID: NC:routprot.PSET_POWER
-title: PSET_POWER
+title: PSET_POWER (routprot.h)
 author: windows-sdk-content
 description: The SetPower function is reserved for future use.
 old-location: rras\setpower.htm

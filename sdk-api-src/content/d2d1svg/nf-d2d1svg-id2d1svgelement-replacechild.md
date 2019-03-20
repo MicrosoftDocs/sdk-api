@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.ReplaceChild
-title: ID2D1SvgElement::ReplaceChild
+title: ID2D1SvgElement::ReplaceChild (d2d1svg.h)
 author: windows-sdk-content
 description: Replaces the oldChild element with the newChild.
 old-location: direct2d\id2d1svgelement_replacechild.htm

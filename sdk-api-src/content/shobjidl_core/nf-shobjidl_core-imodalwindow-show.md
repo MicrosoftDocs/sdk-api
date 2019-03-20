@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IModalWindow.Show
-title: IModalWindow::Show
+title: IModalWindow::Show (shobjidl_core.h)
 author: windows-sdk-content
 description: Launches the modal window.
 old-location: shell\IModalWindow_Show.htm

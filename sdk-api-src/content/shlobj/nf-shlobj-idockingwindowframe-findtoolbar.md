@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.IDockingWindowFrame.FindToolbar
-title: IDockingWindowFrame::FindToolbar
+title: IDockingWindowFrame::FindToolbar (shlobj.h)
 author: windows-sdk-content
 description: Finds the specified IDockingWindow object in the toolbar frame and returns an interface pointer to it.
 old-location: shell\IDockingWindowFrame_FindToolbar.htm

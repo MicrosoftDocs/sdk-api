@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.WICMapShortNameToGuid
-title: WICMapShortNameToGuid function
+title: WICMapShortNameToGuid function (wincodec.h)
 author: windows-sdk-content
 description: Obtains the GUID associated with the given short name.
 old-location: wic\_wic_codec_wicmapshortnametoguid.htm

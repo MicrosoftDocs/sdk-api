@@ -1,6 +1,6 @@
 ---
 UID: NF:stringapiset.GetStringTypeW
-title: GetStringTypeW function
+title: GetStringTypeW function (stringapiset.h)
 author: windows-sdk-content
 description: Retrieves character type information for the characters in the specified Unicode source string.
 old-location: intl\getstringtypew.htm

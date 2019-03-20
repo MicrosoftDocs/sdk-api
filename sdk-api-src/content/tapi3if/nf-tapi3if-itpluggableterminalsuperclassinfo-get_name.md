@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPluggableTerminalSuperclassInfo.get_Name
-title: ITPluggableTerminalSuperclassInfo::get_Name
+title: ITPluggableTerminalSuperclassInfo::get_Name (tapi3if.h)
 author: windows-sdk-content
 description: The get_Name method gets the terminal's friendly name.
 old-location: tapi3\itpluggableterminalsuperclassinfo_get_name.htm

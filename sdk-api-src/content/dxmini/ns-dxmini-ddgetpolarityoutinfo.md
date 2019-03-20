@@ -1,6 +1,6 @@
 ---
 UID: NS:dxmini._DDGETPOLARITYOUTINFO
-title: DDGETPOLARITYOUTINFO
+title: DDGETPOLARITYOUTINFO (dxmini.h)
 author: windows-sdk-content
 description: The DDGETPOLARITYOUTINFO structure contains the polarity information of the video port extensions (VPE) object.
 old-location: display\ddgetpolarityoutinfo.htm

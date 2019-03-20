@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IAnalogRadioTuningSpace.get_Step
-title: IAnalogRadioTuningSpace::get_Step
+title: IAnalogRadioTuningSpace::get_Step (tuner.h)
 author: windows-sdk-content
 description: The get_Step method retrieves the step value to the next frequency.
 old-location: mstv\ianalogradiotuningspace_get_step.htm

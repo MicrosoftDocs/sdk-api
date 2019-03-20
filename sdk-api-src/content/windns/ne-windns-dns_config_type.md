@@ -1,6 +1,6 @@
 ---
 UID: NE:windns.__unnamed_enum_0
-title: DNS_CONFIG_TYPE
+title: DNS_CONFIG_TYPE (windns.h)
 author: windows-sdk-content
 description: The DNS_CONFIG_TYPE enumeration provides DNS configuration type information.
 old-location: dns\dns_config_type.htm

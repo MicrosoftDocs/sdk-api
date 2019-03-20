@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleCreateMenuDescriptor
-title: OleCreateMenuDescriptor function
+title: OleCreateMenuDescriptor function (ole2.h)
 author: windows-sdk-content
 description: Creates and returns an OLE menu descriptor (that is, an OLE-provided data structure that describes the menus) for OLE to use when dispatching menu messages and commands.
 old-location: com\olecreatemenudescriptor.htm

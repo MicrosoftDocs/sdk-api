@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkConnectionEvents.NetworkConnectionPropertyChanged
-title: INetworkConnectionEvents::NetworkConnectionPropertyChanged
+title: INetworkConnectionEvents::NetworkConnectionPropertyChanged (netlistmgr.h)
 author: windows-sdk-content
 description: The NetworkConnectionPropertyChanged method notifies a client when property change events related to a specific network connection occur.
 old-location: nla\inetworkconnectionevents_networkconnectionpropertychange.htm

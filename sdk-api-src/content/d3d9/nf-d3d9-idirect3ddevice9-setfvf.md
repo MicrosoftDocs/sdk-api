@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetFVF
-title: IDirect3DDevice9::SetFVF
+title: IDirect3DDevice9::SetFVF (d3d9.h)
 author: windows-sdk-content
 description: Sets the current vertex stream declaration.
 old-location: direct3d9\idirect3ddevice9__setfvf.htm

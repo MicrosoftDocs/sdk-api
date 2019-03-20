@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DStateBlock9.Capture
-title: IDirect3DStateBlock9::Capture
+title: IDirect3DStateBlock9::Capture (d3d9.h)
 author: windows-sdk-content
 description: Capture the current value of states that are included in a stateblock.
 old-location: direct3d9\idirect3dstateblock9__capture.htm

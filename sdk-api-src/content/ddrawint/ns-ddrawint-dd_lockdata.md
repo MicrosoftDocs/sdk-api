@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_LOCKDATA
-title: DD_LOCKDATA
+title: DD_LOCKDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_LOCKDATA structure contains information necessary to do a lock as defined by the Microsoft DirectDraw parameter structures.
 old-location: display\dd_lockdata.htm

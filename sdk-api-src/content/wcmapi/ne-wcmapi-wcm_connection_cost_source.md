@@ -1,6 +1,6 @@
 ---
 UID: NE:wcmapi._WCM_CONNECTION_COST_SOURCE
-title: WCM_CONNECTION_COST_SOURCE
+title: WCM_CONNECTION_COST_SOURCE (wcmapi.h)
 author: windows-sdk-content
 description: Specifies the source that provides connection cost information.
 old-location: wcm\wcm_connection_cost_source.htm

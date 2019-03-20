@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup2.RoleAssignments
-title: IAzApplicationGroup2::RoleAssignments
+title: IAzApplicationGroup2::RoleAssignments (azroles.h)
 author: windows-sdk-content
 description: Gets a collection of IAzRoleAssignment objects associated with this application group.
 old-location: security\iazapplicationgroup2_roleassignments_method.htm

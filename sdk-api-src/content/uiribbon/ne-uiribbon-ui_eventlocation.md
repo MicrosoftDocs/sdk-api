@@ -1,6 +1,6 @@
 ---
 UID: NE:uiribbon.UI_EVENTLOCATION
-title: UI_EVENTLOCATION
+title: UI_EVENTLOCATION (uiribbon.h)
 author: windows-sdk-content
 description: Identifies the locations where events associated with a Ribbon control can originate.
 old-location: windowsribbon\ui_eventlocation.htm

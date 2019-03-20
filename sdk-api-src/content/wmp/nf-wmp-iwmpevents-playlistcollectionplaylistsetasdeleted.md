@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.PlaylistCollectionPlaylistSetAsDeleted
-title: IWMPEvents::PlaylistCollectionPlaylistSetAsDeleted
+title: IWMPEvents::PlaylistCollectionPlaylistSetAsDeleted (wmp.h)
 author: windows-sdk-content
 description: The PlaylistCollectionPlaylistSetAsDeleted event is reserved for future use.
 old-location: wmp\iwmpevents_iwmpevents__playlistcollectionplaylistsetasdeleted.htm

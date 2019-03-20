@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._COMPATIBILITY_CONTEXT_ELEMENT
-title: COMPATIBILITY_CONTEXT_ELEMENT
+title: COMPATIBILITY_CONTEXT_ELEMENT (winnt.h)
 author: windows-sdk-content
 description: The COMPATIBILITY_CONTEXT_ELEMENT structure is used by the QueryActCtxW function as part of the ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION structure.
 old-location: setup\compatibility_context_element.htm

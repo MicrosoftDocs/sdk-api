@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTarget.get_TargetLoad
-title: ITsSbTarget::get_TargetLoad
+title: ITsSbTarget::get_TargetLoad (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves the relative load on a target.
 old-location: termserv\itssbtarget_targetload.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.SafeArrayUnlock
-title: SafeArrayUnlock function
+title: SafeArrayUnlock function (oleauto.h)
 author: windows-sdk-content
 description: Decrements the lock count of an array so it can be freed or resized.
 old-location: automat\safearrayunlock.htm

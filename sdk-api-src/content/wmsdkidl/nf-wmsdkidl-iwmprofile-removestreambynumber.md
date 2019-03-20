@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.RemoveStreamByNumber
-title: IWMProfile::RemoveStreamByNumber
+title: IWMProfile::RemoveStreamByNumber (wmsdkidl.h)
 author: windows-sdk-content
 description: The RemoveStreamByNumber method removes a stream from the profile.
 old-location: wmformat\iwmprofile_removestreambynumber.htm

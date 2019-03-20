@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced2.GetInputSetting
-title: IWMWriterAdvanced2::GetInputSetting
+title: IWMWriterAdvanced2::GetInputSetting (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetInputSetting method retrieves a setting for a particular input by name.
 old-location: wmformat\iwmwriteradvanced2_getinputsetting.htm

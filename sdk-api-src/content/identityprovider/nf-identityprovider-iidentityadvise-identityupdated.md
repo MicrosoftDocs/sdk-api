@@ -1,6 +1,6 @@
 ---
 UID: NF:identityprovider.IIdentityAdvise.IdentityUpdated
-title: IIdentityAdvise::IdentityUpdated
+title: IIdentityAdvise::IdentityUpdated (identityprovider.h)
 author: windows-sdk-content
 description: Is called by an identity provider to notify a calling application that an identity event occurred.
 old-location: security\iidentityadvise_identityupdated.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextFormattedText.GetSubformattingCount
-title: IMFTimedTextFormattedText::GetSubformattingCount
+title: IMFTimedTextFormattedText::GetSubformattingCount (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the number of subformats in the formatted timed-text object.
 old-location: mf\imftimedtextformattedtext_getsubformattingcount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodecsdk.IWICMetadataWriterInfo
-title: IWICMetadataWriterInfo
+title: IWICMetadataWriterInfo (wincodecsdk.h)
 author: windows-sdk-content
 description: Exposes methods that provide basic information about the registered metadata writer.
 old-location: wic\_wic_codec_iwicmetadatawriterinfo.htm

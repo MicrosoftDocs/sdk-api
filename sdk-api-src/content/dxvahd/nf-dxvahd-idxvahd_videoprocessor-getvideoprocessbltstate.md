@@ -1,6 +1,6 @@
 ---
 UID: NF:dxvahd.IDXVAHD_VideoProcessor.GetVideoProcessBltState
-title: IDXVAHD_VideoProcessor::GetVideoProcessBltState
+title: IDXVAHD_VideoProcessor::GetVideoProcessBltState (dxvahd.h)
 author: windows-sdk-content
 description: Gets the value of a state parameter for blit operations performed by a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\idxvahd_videoprocessor_getvideoprocessbltstate.htm

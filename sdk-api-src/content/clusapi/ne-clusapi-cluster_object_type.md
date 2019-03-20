@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.CLUSTER_OBJECT_TYPE
-title: CLUSTER_OBJECT_TYPE
+title: CLUSTER_OBJECT_TYPE (clusapi.h)
 author: windows-sdk-content
 description: Defines the type of object for which a notification is requested or generated.
 old-location: mscs\cluster_object_type.htm

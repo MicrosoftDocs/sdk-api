@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport2.AddBehavior
-title: IDirectManipulationViewport2::AddBehavior
+title: IDirectManipulationViewport2::AddBehavior (directmanipulation.h)
 author: windows-sdk-content
 description: Adds a behavior to the viewport and returns a cookie to the caller.
 old-location: directmanipulation\idirectmanipulationviewport2_addbehavior.htm

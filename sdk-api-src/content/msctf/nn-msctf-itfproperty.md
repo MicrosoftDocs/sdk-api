@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfProperty
-title: ITfProperty
+title: ITfProperty (msctf.h)
 author: windows-sdk-content
 description: The ITfProperty interface is implemented by the TSF manager and used by a client (application or text service) to modify a property value.
 old-location: tsf\itfproperty.htm

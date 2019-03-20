@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFilterMapper2.RegisterFilter
-title: IFilterMapper2::RegisterFilter
+title: IFilterMapper2::RegisterFilter (strmif.h)
 author: windows-sdk-content
 description: The RegisterFilter method adds filter information to the registry.
 old-location: dshow\ifiltermapper2_registerfilter.htm

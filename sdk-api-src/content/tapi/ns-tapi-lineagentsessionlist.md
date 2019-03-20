@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.lineagentsessionlist_tag
-title: LINEAGENTSESSIONLIST
+title: LINEAGENTSESSIONLIST (tapi.h)
 author: windows-sdk-content
 description: The LINEAGENTSESSIONLIST structure describes a list of ACD agent sessions. This structure can contain an array of LINEAGENTSESSIONENTRY structures. The lineGetAgentSessionList function returns the LINEAGENTSESSIONLIST structure.
 old-location: tapi2\lineagentsessionlist_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.LIBRARYSAVEFLAGS
-title: LIBRARYSAVEFLAGS
+title: LIBRARYSAVEFLAGS (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies the options for handling a name collision when saving a library.
 old-location: shell\LIBRARYSAVEFLAGS.htm

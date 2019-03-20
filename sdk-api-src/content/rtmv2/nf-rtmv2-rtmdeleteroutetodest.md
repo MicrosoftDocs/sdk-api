@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmDeleteRouteToDest
-title: RtmDeleteRouteToDest function
+title: RtmDeleteRouteToDest function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmDeleteRouteToDest function deletes a route from the routing table and updates the best-route information for the corresponding destination, if the best route changed. If the best route changes, a change notification is generated.
 old-location: rras\rtmdeleteroutetodest.htm

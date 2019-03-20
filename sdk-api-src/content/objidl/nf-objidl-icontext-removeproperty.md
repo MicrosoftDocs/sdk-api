@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IContext.RemoveProperty
-title: IContext::RemoveProperty
+title: IContext::RemoveProperty (objidl.h)
 author: windows-sdk-content
 description: Removes the specified context property from the context.
 old-location: com\icontext_removeproperty.htm

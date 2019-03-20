@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImageResult.get_BlockSize
-title: IFileSystemImageResult::get_BlockSize
+title: IFileSystemImageResult::get_BlockSize (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the size, in bytes, of a block of data.
 old-location: imapi\ifilesystemimageresult_get_blocksize.htm

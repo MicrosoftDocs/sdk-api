@@ -1,6 +1,6 @@
 ---
 UID: NF:winevt.EvtGetExtendedStatus
-title: EvtGetExtendedStatus function
+title: EvtGetExtendedStatus function (winevt.h)
 author: windows-sdk-content
 description: Gets a text message that contains the extended error information for the current error.
 old-location: wes\evtgetextendedstatus.htm

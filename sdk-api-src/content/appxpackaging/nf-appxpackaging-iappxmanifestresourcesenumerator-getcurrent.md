@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestResourcesEnumerator.GetCurrent
-title: IAppxManifestResourcesEnumerator::GetCurrent
+title: IAppxManifestResourcesEnumerator::GetCurrent (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the resource at the current position of the enumerator.
 old-location: appxpkg\iappxmanifestresourcesenumerator_getcurrent.htm

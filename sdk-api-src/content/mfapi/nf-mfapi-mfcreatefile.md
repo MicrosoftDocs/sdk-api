@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreateFile
-title: MFCreateFile function
+title: MFCreateFile function (mfapi.h)
 author: windows-sdk-content
 description: Creates a byte stream from a file.
 old-location: mf\mfcreatefile.htm

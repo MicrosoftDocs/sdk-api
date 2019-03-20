@@ -1,6 +1,6 @@
 ---
 UID: NF:qmgr.IEnumBackgroundCopyGroups.Clone
-title: IEnumBackgroundCopyGroups::Clone
+title: IEnumBackgroundCopyGroups::Clone (qmgr.h)
 author: windows-sdk-content
 description: Use the Clone method to create another IEnumBackgroundCopyGroups enumerator that contains the same enumeration state as the current one.
 old-location: bits\ienumbackgroundcopygroups_clone.htm

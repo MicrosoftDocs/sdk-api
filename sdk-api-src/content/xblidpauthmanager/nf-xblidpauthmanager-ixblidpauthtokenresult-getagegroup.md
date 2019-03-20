@@ -1,6 +1,6 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetAgeGroup
-title: IXblIdpAuthTokenResult::GetAgeGroup
+title: IXblIdpAuthTokenResult::GetAgeGroup (xblidpauthmanager.h)
 author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getagegroup.htm

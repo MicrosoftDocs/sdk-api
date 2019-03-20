@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1svg.D2D1_SVG_PRESERVE_ASPECT_RATIO
-title: D2D1_SVG_PRESERVE_ASPECT_RATIO
+title: D2D1_SVG_PRESERVE_ASPECT_RATIO (d2d1svg.h)
 author: windows-sdk-content
 description: Represents all SVG preserveAspectRatio settings.
 old-location: direct2d\d2d1_svg_preserve_aspect_ratio.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IFindSimilarResults.GetSize
-title: IFindSimilarResults::GetSize
+title: IFindSimilarResults::GetSize (msrdc.h)
 author: windows-sdk-content
 description: Retrieves the number of entries in the file list that was returned by the ISimilarity::FindSimilarFileId method.
 old-location: rdc\ifindsimilarresults_getsize.htm

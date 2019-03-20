@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.GetActualDataLength
-title: IAMMediaTypeSample::GetActualDataLength
+title: IAMMediaTypeSample::GetActualDataLength (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The GetActualDataLength method retrieves the data length of the sample, in bytes.
 old-location: dshow\iammediatypesample_getactualdatalength.htm

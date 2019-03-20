@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsReplicaVerifyObjectsA
-title: DsReplicaVerifyObjectsA function
+title: DsReplicaVerifyObjectsA function (ntdsapi.h)
 author: windows-sdk-content
 description: Verifies all objects for a naming context with a source.
 old-location: ad\dsreplicaverifyobjects.htm

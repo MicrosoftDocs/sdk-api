@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupWriteTextLogInfLine
-title: SetupWriteTextLogInfLine function
+title: SetupWriteTextLogInfLine function (setupapi.h)
 author: windows-sdk-content
 description: The SetupWriteTextLogInfLine function writes a log entry in a SetupAPI text log that contains the text of a specified INF file line.
 old-location: devinst\setupwritetextloginfline.htm

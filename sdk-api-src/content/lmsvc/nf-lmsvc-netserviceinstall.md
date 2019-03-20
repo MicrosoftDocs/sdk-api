@@ -1,6 +1,6 @@
 ---
 UID: NF:lmsvc.NetServiceInstall
-title: NetServiceInstall function
+title: NetServiceInstall function (lmsvc.h)
 author: windows-sdk-content
 description: The NetServiceInstall function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the service functions.
 old-location: netmgmt\netserviceinstall.htm

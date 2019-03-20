@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO
-title: CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO
+title: CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains the length, in bits, of the public key and the names of the signing and hashing algorithms used for strong signing.
 old-location: security\crypt_verify_cert_sign_strong_properties_info.htm

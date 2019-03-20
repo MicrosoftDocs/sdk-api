@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.Connect
-title: IDot11AdHocNetwork::Connect
+title: IDot11AdHocNetwork::Connect (adhoc.h)
 author: windows-sdk-content
 description: Connects to a previously created wireless ad hoc network.
 old-location: nwifi\idot11adhocnetwork_connect.htm

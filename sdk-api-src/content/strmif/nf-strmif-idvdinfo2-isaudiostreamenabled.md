@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.IsAudioStreamEnabled
-title: IDvdInfo2::IsAudioStreamEnabled
+title: IDvdInfo2::IsAudioStreamEnabled (strmif.h)
 author: windows-sdk-content
 description: The IsAudioStreamEnabled method determines if the specified audio stream is enabled in the current title.
 old-location: dshow\idvdinfo2_isaudiostreamenabled.htm

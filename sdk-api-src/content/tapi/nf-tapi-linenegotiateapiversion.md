@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineNegotiateAPIVersion
-title: lineNegotiateAPIVersion function
+title: lineNegotiateAPIVersion function (tapi.h)
 author: windows-sdk-content
 description: The lineNegotiateAPIVersion function allows an application to negotiate an API version to use.
 old-location: tapi2\linenegotiateapiversion.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.GetCoreWindow
-title: IDXGISwapChain1::GetCoreWindow
+title: IDXGISwapChain1::GetCoreWindow (dxgi1_2.h)
 author: windows-sdk-content
 description: Retrieves the underlying CoreWindow object for this swap-chain object.
 old-location: direct3ddxgi\idxgiswapchain1_getimmersivewindow.htm

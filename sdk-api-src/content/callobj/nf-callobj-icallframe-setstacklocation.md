@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallFrame.SetStackLocation
-title: ICallFrame::SetStackLocation
+title: ICallFrame::SetStackLocation (callobj.h)
 author: windows-sdk-content
 description: Sets the stack location onto which this call frame is bound.
 old-location: com\icallframe_setstacklocation.htm

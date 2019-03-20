@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_OperationOptions_Clone
-title: MI_OperationOptions_Clone function
+title: MI_OperationOptions_Clone function (mi.h)
 author: windows-sdk-content
 description: Creates a copy of a MI_OperationOptions structure.
 old-location: wmi_v2\mi_operationoptions_clone.htm

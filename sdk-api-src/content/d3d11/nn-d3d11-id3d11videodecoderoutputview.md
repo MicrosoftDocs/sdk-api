@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11VideoDecoderOutputView
-title: ID3D11VideoDecoderOutputView
+title: ID3D11VideoDecoderOutputView (d3d11.h)
 author: windows-sdk-content
 description: Identifies the output surfaces that can be accessed during video decoding.
 old-location: mf\id3d11videodecoderoutputview.htm

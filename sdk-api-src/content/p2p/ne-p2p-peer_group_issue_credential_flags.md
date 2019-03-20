@@ -1,6 +1,6 @@
 ---
 UID: NE:p2p.peer_issue_credential_flags_tag
-title: PEER_GROUP_ISSUE_CREDENTIAL_FLAGS
+title: PEER_GROUP_ISSUE_CREDENTIAL_FLAGS (p2p.h)
 author: windows-sdk-content
 description: "."
 old-location: p2p\peer_group_issue_credential_flags.htm

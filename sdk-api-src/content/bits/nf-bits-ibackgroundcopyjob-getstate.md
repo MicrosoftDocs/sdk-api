@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetState
-title: IBackgroundCopyJob::GetState
+title: IBackgroundCopyJob::GetState (bits.h)
 author: windows-sdk-content
 description: Retrieves the state of the job.
 old-location: bits\ibackgroundcopyjob_getstate.htm

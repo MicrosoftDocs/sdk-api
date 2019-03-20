@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateErrorInfo.SetDescription
-title: ICreateErrorInfo::SetDescription
+title: ICreateErrorInfo::SetDescription (oaidl.h)
 author: windows-sdk-content
 description: Sets the textual description of the error.
 old-location: automat\icreateerrorinfo_setdescription.htm

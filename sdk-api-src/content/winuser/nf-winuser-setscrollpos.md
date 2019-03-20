@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetScrollPos
-title: SetScrollPos function
+title: SetScrollPos function (winuser.h)
 author: windows-sdk-content
 description: The SetScrollPos function sets the position of the scroll box (thumb) in the specified scroll bar and, if requested, redraws the scroll bar to reflect the new position of the scroll box.
 old-location: controls\SetScrollPos.htm

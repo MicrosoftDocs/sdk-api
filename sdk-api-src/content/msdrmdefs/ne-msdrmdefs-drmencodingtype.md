@@ -1,6 +1,6 @@
 ---
 UID: NE:msdrmdefs._DRMENCODINGTYPE
-title: DRMENCODINGTYPE
+title: DRMENCODINGTYPE (msdrmdefs.h)
 author: windows-sdk-content
 description: The DRMENCODINGTYPE enumeration identifies possible encoding types used in licenses.
 old-location: rm\drmencodingtype.htm

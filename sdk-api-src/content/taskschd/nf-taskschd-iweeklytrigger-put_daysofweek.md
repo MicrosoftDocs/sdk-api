@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IWeeklyTrigger.put_DaysOfWeek
-title: IWeeklyTrigger::put_DaysOfWeek
+title: IWeeklyTrigger::put_DaysOfWeek (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the days of the week in which the task runs.
 old-location: taskschd\iweeklytrigger_daysofweek.htm

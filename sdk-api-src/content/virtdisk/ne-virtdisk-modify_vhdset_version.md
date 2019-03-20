@@ -1,6 +1,6 @@
 ---
 UID: NE:virtdisk._MODIFY_VHDSET_VERSION
-title: MODIFY_VHDSET_VERSION
+title: MODIFY_VHDSET_VERSION (virtdisk.h)
 author: windows-sdk-content
 description: Contains the version of the MODIFY_VHDSET_PARAMETERS structure to use in calls to virtual disk functions.
 old-location: vhd\modify_vhdset_version.htm

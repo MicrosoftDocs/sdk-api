@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DResource9.PreLoad
-title: IDirect3DResource9::PreLoad
+title: IDirect3DResource9::PreLoad (d3d9.h)
 author: windows-sdk-content
 description: Preloads a managed resource.
 old-location: direct3d9\idirect3dresource9__preload.htm

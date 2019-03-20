@@ -1,6 +1,6 @@
 ---
 UID: NS:rtmv2._RTM_REGN_PROFILE
-title: RTM_REGN_PROFILE
+title: RTM_REGN_PROFILE (rtmv2.h)
 author: windows-sdk-content
 description: The RTM_REGN_PROFILE structure contains information returned during the registration process. The information is used for later function calls (such as the maximum number of routes that can be returned by a call to RtmGetEnumRoutes).
 old-location: rras\rtm_regn_profile.htm

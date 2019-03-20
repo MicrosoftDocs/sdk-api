@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_AUTHORITY_KEY_ID_INFO
-title: CERT_AUTHORITY_KEY_ID_INFO
+title: CERT_AUTHORITY_KEY_ID_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Identifies the key used to sign a certificate or certificate revocation list (CRL).
 old-location: security\cert_authority_key_id_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_SetLineColor
-title: TreeView_SetLineColor macro
+title: TreeView_SetLineColor macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the current line color. You can also use the TVM_SETLINECOLOR message directly.
 old-location: controls\TreeView_SetLineColor.htm

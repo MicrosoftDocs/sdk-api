@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateTexture3D
-title: ID3D10Device::CreateTexture3D
+title: ID3D10Device::CreateTexture3D (d3d10.h)
 author: windows-sdk-content
 description: Create a single 3D texture (see Texture3D).
 old-location: direct3d10\id3d10device_createtexture3d.htm

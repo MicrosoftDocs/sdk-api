@@ -1,6 +1,6 @@
 ---
 UID: NN:mfcaptureengine.IMFCapturePhotoSink
-title: IMFCapturePhotoSink
+title: IMFCapturePhotoSink (mfcaptureengine.h)
 author: windows-sdk-content
 description: Controls the photo sink.
 old-location: mf\imfcapturephotosink.htm

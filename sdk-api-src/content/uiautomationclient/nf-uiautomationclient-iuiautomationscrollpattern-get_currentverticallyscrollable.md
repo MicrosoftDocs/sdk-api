@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollPattern.get_CurrentVerticallyScrollable
-title: IUIAutomationScrollPattern::get_CurrentVerticallyScrollable
+title: IUIAutomationScrollPattern::get_CurrentVerticallyScrollable (uiautomationclient.h)
 author: windows-sdk-content
 description: Indicates whether the element can scroll vertically.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_CurrentVerticallyScrollable.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioClient.GetNativeStaticObjectTypeMask
-title: ISpatialAudioClient::GetNativeStaticObjectTypeMask
+title: ISpatialAudioClient::GetNativeStaticObjectTypeMask (spatialaudioclient.h)
 author: windows-sdk-content
 description: Gets a channel mask which represents the subset of static speaker bed channels native to current rendering engine.
 old-location: coreaudio\ispatialaudioclient_getnativestaticobjecttypemask.htm

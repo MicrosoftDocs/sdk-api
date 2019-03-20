@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsDisk
-title: IVdsDisk
+title: IVdsDisk (vds.h)
 author: windows-sdk-content
 description: Provides methods to query and configure basic and dynamic disks.
 old-location: base\ivdsdisk.htm

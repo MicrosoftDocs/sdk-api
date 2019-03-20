@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICJpegFrameEncode.GetQuantizationTable
-title: IWICJpegFrameEncode::GetQuantizationTable
+title: IWICJpegFrameEncode::GetQuantizationTable (wincodec.h)
 author: windows-sdk-content
 description: Retrieves a copy of the quantization table.
 old-location: wic\iwicjpegframeencode_getquantizationtable.htm

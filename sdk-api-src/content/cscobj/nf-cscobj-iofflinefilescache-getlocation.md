@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.GetLocation
-title: IOfflineFilesCache::GetLocation
+title: IOfflineFilesCache::GetLocation (cscobj.h)
 author: windows-sdk-content
 description: Retrieves the current fully qualified directory path of the Offline Files cache.
 old-location: of\iofflinefilescache_getlocation.htm

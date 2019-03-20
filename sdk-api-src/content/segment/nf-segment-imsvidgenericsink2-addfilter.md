@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidGenericSink2.AddFilter
-title: IMSVidGenericSink2::AddFilter
+title: IMSVidGenericSink2::AddFilter (segment.h)
 author: windows-sdk-content
 description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later. .
 old-location: mstv\imsvidgenericsink2_addfilter.htm

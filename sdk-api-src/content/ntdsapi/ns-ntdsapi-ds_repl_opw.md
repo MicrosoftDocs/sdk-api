@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdsapi._DS_REPL_OPW
-title: DS_REPL_OPW
+title: DS_REPL_OPW (ntdsapi.h)
 author: windows-sdk-content
 description: The DS_REPL_OP structure describes a replication task currently executing or pending execution, as returned by the DsReplicaGetInfo or DsReplicaGetInfo2 function.
 old-location: ad\ds_repl_op.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineGetExtensionID
-title: TSPI_lineGetExtensionID function
+title: TSPI_lineGetExtensionID function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineGetExtensionID function returns the extension identifier that the service provider supports for the indicated line device.
 old-location: tspi\tspi_linegetextensionid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSink.GetService
-title: IMFCaptureSink::GetService
+title: IMFCaptureSink::GetService (mfcaptureengine.h)
 author: windows-sdk-content
 description: Queries the underlying Sink Writer object for an interface.
 old-location: mf\imfcapturesink_getservice.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.SetOutputFormat
-title: IAMLine21Decoder::SetOutputFormat
+title: IAMLine21Decoder::SetOutputFormat (il21dec.h)
 author: windows-sdk-content
 description: The SetOutputFormat method sets the Line 21 Decoder filter's output format.
 old-location: dshow\iamline21decoder_setoutputformat.htm

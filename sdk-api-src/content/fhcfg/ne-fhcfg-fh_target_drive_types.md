@@ -1,6 +1,6 @@
 ---
 UID: NE:fhcfg._FH_TARGET_DRIVE_TYPES
-title: FH_TARGET_DRIVE_TYPES
+title: FH_TARGET_DRIVE_TYPES (fhcfg.h)
 author: windows-sdk-content
 description: Specifies the type of a File History backup target.
 old-location: winprog\fh_target_drive_types.htm

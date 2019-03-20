@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Sibling
-title: CM_Get_Sibling function
+title: CM_Get_Sibling function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Get_Sibling function obtains a device instance handle to the next sibling node of a specified device node (devnode) in the local machine's device tree.
 old-location: devinst\cm_get_sibling.htm

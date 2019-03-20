@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IChannelIDTuneRequest.get_ChannelID
-title: IChannelIDTuneRequest::get_ChannelID
+title: IChannelIDTuneRequest::get_ChannelID (tuner.h)
 author: windows-sdk-content
 description: Provider-defined channel identifier in string format.
 old-location: mstv\ichannelidtunerequest_channelid.htm

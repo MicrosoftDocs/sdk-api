@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamConfig.GetMediaType
-title: IMFASFStreamConfig::GetMediaType
+title: IMFASFStreamConfig::GetMediaType (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves the media type of the stream.
 old-location: mf\imfasfstreamconfig_getmediatype.htm

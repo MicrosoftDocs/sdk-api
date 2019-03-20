@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IImageInformation.get_Width
-title: IImageInformation::get_Width
+title: IImageInformation::get_Width (wuapi.h)
 author: windows-sdk-content
 description: Gets the width of the image, in pixels.
 old-location: wua\iimageinformation_width.htm

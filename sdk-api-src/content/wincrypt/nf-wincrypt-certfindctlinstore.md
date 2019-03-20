@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertFindCTLInStore
-title: CertFindCTLInStore function
+title: CertFindCTLInStore function (wincrypt.h)
 author: windows-sdk-content
 description: Finds the first or next certificate trust list (CTL) context that matches search criteria established by the dwFindType and its associated pvFindPara.
 old-location: security\certfindctlinstore.htm

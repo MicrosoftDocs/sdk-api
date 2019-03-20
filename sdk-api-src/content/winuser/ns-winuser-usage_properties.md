@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagUSAGE_PROPERTIES
-title: USAGE_PROPERTIES
+title: USAGE_PROPERTIES (winuser.h)
 author: windows-sdk-content
 description: Contains device properties (Human Interface Device (HID) global items that correspond to HID usages) for any type of HID input device.
 old-location: input_pointerdevice\usage_properties.htm

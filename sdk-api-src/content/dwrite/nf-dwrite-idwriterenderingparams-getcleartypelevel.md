@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteRenderingParams.GetClearTypeLevel
-title: IDWriteRenderingParams::GetClearTypeLevel
+title: IDWriteRenderingParams::GetClearTypeLevel (dwrite.h)
 author: windows-sdk-content
 description: Gets the ClearType level of the rendering parameters object.
 old-location: directwrite\IDWriteRenderingParams_GetClearTypeLevel.htm

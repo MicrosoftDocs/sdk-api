@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12CommandQueue.ExecuteCommandLists
-title: ID3D12CommandQueue::ExecuteCommandLists
+title: ID3D12CommandQueue::ExecuteCommandLists (d3d12.h)
 author: windows-sdk-content
 description: Submits an array of command lists for execution.
 old-location: direct3d12\id3d12commandqueue_executecommandlists.htm

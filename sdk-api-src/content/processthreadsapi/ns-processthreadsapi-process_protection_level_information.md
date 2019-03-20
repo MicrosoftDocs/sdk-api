@@ -1,6 +1,6 @@
 ---
 UID: NS:processthreadsapi.PROCESS_PROTECTION_LEVEL_INFORMATION
-title: PROCESS_PROTECTION_LEVEL_INFORMATION
+title: PROCESS_PROTECTION_LEVEL_INFORMATION (processthreadsapi.h)
 author: windows-sdk-content
 description: Specifies whether Protected Process Light (PPL) is enabled.
 old-location: base\process_protection_level_information.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetPermissionSetProps
-title: IMetaDataImport::GetPermissionSetProps
+title: IMetaDataImport::GetPermissionSetProps (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the metadata associated with the System.Security.PermissionSet represented by the specified Permission token.
 old-location: winrt\imetadataimport_getpermissionsetprops.htm

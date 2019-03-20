@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.StringFormat(const StringFormat &)
-title: StringFormat::StringFormat(const StringFormat &)
+title: StringFormat::StringFormat(const StringFormat &) (gdiplusstringformat.h)
 author: windows-sdk-content
 description: Creates a StringFormat object from another StringFormat object.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_StringFormat_format_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.GetTransform
-title: Pen::GetTransform
+title: Pen::GetTransform (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::GetTransform method gets the world transformation matrix currently set for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetTransform_matrix_.htm

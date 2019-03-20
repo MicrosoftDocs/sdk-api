@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagPANOSE
-title: PANOSE
+title: PANOSE (wingdi.h)
 author: windows-sdk-content
 description: The PANOSE structure describes the PANOSE font-classification values for a TrueType font. These characteristics are then used to associate the font with other fonts of similar appearance but different names.
 old-location: gdi\panose.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFEndCreateFile
-title: MFEndCreateFile function
+title: MFEndCreateFile function (mfapi.h)
 author: windows-sdk-content
 description: Completes an asynchronous request to create a byte stream from a file.
 old-location: mf\mfendcreatefile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:fhcfg._FH_LOCAL_POLICY_TYPE
-title: FH_LOCAL_POLICY_TYPE
+title: FH_LOCAL_POLICY_TYPE (fhcfg.h)
 author: windows-sdk-content
 description: Specifies the type of a local policy for the File History feature. Each local policy has a numeric parameter associated with it.
 old-location: winprog\fh_local_policy_type.htm

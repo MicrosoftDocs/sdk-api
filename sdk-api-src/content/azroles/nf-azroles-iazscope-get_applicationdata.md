@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.get_ApplicationData
-title: IAzScope::get_ApplicationData
+title: IAzScope::get_ApplicationData (azroles.h)
 author: windows-sdk-content
 description: The ApplicationData property of IAzScope sets or retrieves an opaque field that can be used by the application to store information.
 old-location: security\iazscope_applicationdata.htm

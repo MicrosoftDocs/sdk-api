@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrSimpleStructBufferSize
-title: NdrSimpleStructBufferSize function
+title: NdrSimpleStructBufferSize function (rpcndr.h)
 author: windows-sdk-content
 description: The NdrSimpleStructBufferSize function calculates the required buffer size, in bytes, to marshal the simple structure.
 old-location: winprog\ndrsimplestructbuffersize.htm

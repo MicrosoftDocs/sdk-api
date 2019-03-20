@@ -1,6 +1,6 @@
 ---
 UID: NE:wnvapi._WNV_OBJECT_TYPE
-title: WNV_OBJECT_TYPE
+title: WNV_OBJECT_TYPE (wnvapi.h)
 author: windows-sdk-content
 description: Specifies the object type of a given Windows Network Virtualization (WNV) notification when the WNV notification type is WnvObjectChangeType.
 old-location: wnv\wnv_object_type.htm

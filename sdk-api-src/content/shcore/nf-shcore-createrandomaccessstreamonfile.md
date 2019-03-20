@@ -1,6 +1,6 @@
 ---
 UID: NF:shcore.CreateRandomAccessStreamOnFile
-title: CreateRandomAccessStreamOnFile function
+title: CreateRandomAccessStreamOnFile function (shcore.h)
 author: windows-sdk-content
 description: Creates a Windows Runtime random access stream for a file.
 old-location: winrt\createrandomaccessstreamonfile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvSynchronize
-title: DrvSynchronize function
+title: DrvSynchronize function (winddi.h)
 author: windows-sdk-content
 description: The DrvSynchronize function informs the driver that GDI needs to access a device-managed surface. This function allows asynchronous drawing operations performed by a device's coprocessor to be coordinated with GDI accesses.
 old-location: display\drvsynchronize.htm

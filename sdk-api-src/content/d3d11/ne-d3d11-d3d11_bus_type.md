@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_BUS_TYPE
-title: D3D11_BUS_TYPE
+title: D3D11_BUS_TYPE (d3d11.h)
 author: windows-sdk-content
 description: Specifies the type of I/O bus that is used by the graphics adapter.
 old-location: mf\d3d11_bus_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:mapi.MAPIRESOLVENAME
-title: MAPIRESOLVENAME
+title: MAPIRESOLVENAME (mapi.h)
 author: windows-sdk-content
 description: The MAPIResolveName function transforms a message recipient's name as entered by a user to an unambiguous address list entry.
 old-location: mapi\mapiresolvename.htm

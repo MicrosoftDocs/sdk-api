@@ -1,6 +1,6 @@
 ---
 UID: NF:heapapi.HeapSetInformation
-title: HeapSetInformation function
+title: HeapSetInformation function (heapapi.h)
 author: windows-sdk-content
 description: Enables features for a specified heap.
 old-location: base\heapsetinformation.htm

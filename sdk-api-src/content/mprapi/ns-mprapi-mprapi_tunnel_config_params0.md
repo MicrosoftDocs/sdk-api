@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._MPRAPI_TUNNEL_CONFIG_PARAMS0
-title: MPRAPI_TUNNEL_CONFIG_PARAMS0
+title: MPRAPI_TUNNEL_CONFIG_PARAMS0 (mprapi.h)
 author: windows-sdk-content
 description: Used to get or set configuration of tunnel parameters on a RAS Server.
 old-location: rras\mprapi_tunnel_config_params.htm

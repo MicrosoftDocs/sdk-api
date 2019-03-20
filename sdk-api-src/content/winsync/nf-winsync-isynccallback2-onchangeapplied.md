@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncCallback2.OnChangeApplied
-title: ISyncCallback2::OnChangeApplied
+title: ISyncCallback2::OnChangeApplied (winsync.h)
 author: windows-sdk-content
 description: Occurs after a change is successfully applied.
 old-location: winsync\isynccallback2_onchangeapplied.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_CREATE_KEY_FN
-title: PIBIO_ENGINE_CREATE_KEY_FN
+title: PIBIO_ENGINE_CREATE_KEY_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Called by the Windows Biometric Framework to push an HMAC key to the sensor. The returned key identifier will be passed back to the biometric unit when the framework calls EngineAdapterIdentifyFeatureSetSecure.
 old-location: secbiomet\engineadaptercreatekey.htm

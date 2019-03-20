@@ -1,6 +1,6 @@
 ---
 UID: NE:uiribbon.UI_COLLECTIONCHANGE
-title: UI_COLLECTIONCHANGE
+title: UI_COLLECTIONCHANGE (uiribbon.h)
 author: windows-sdk-content
 description: Specifies values that identify the types of changes that can be made to a collection.
 old-location: windowsribbon\windowsribbon_ui_collectionchange.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_IPSinkControl.GetAdapterIPAddress
-title: IBDA_IPSinkControl::GetAdapterIPAddress
+title: IBDA_IPSinkControl::GetAdapterIPAddress (bdaiface.h)
 author: windows-sdk-content
 description: This interface is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems. It may be altered or unavailable in subsequent versions.
 old-location: mstv\ibda_ipsinkcontrol_getadapteripaddress.htm

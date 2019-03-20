@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpstypes.FWPS_FILTER2_
-title: FWPS_FILTER2
+title: FWPS_FILTER2 (fwpstypes.h)
 author: windows-sdk-content
 description: The FWPS_FILTER2 structure defines a run-time filter in the filter engine.Note  FWPS_FILTER2 is the specific version of FWPS_FILTER used in Windows 8 and later.
 old-location: netvista\fwps_filter2.htm

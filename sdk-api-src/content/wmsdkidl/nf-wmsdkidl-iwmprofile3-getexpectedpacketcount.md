@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.GetExpectedPacketCount
-title: IWMProfile3::GetExpectedPacketCount
+title: IWMProfile3::GetExpectedPacketCount (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetExpectedPacketCount method calculates the expected packet count for the specified duration. The packet count returned is only an estimate, and it is based upon the settings of the profile at the time this call is made.
 old-location: wmformat\iwmprofile3_getexpectedpacketcount.htm

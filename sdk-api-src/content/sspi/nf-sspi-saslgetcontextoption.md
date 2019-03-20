@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SaslGetContextOption
-title: SaslGetContextOption function
+title: SaslGetContextOption function (sspi.h)
 author: windows-sdk-content
 description: Retrieves the specified property of the specified SASL context.
 old-location: security\saslgetcontextoption.htm

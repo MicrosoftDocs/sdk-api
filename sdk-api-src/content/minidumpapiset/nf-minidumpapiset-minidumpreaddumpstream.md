@@ -1,6 +1,6 @@
 ---
 UID: NF:minidumpapiset.MiniDumpReadDumpStream
-title: MiniDumpReadDumpStream function
+title: MiniDumpReadDumpStream function (minidumpapiset.h)
 author: windows-sdk-content
 description: Reads a stream from a user-mode minidump file.
 old-location: base\minidumpreaddumpstream.htm

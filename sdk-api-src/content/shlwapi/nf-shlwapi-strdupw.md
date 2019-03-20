@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.StrDupW
-title: StrDupW function
+title: StrDupW function (shlwapi.h)
 author: windows-sdk-content
 description: Duplicates a string.
 old-location: shell\StrDup.htm

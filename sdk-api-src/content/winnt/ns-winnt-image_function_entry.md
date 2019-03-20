@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._IMAGE_FUNCTION_ENTRY
-title: IMAGE_FUNCTION_ENTRY
+title: IMAGE_FUNCTION_ENTRY (winnt.h)
 author: windows-sdk-content
 description: Represents an entry in the function table.
 old-location: base\image_function_entry_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:upnphost.IUPnPEventSink
-title: IUPnPEventSink
+title: IUPnPEventSink (upnphost.h)
 author: windows-sdk-content
 description: The IUPnPEventSink interface allows a hosted service to send event notifications to the device host.
 old-location: upnp\iupnpeventsink.htm

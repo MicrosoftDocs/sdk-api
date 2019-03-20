@@ -1,6 +1,6 @@
 ---
 UID: NF:newdev.DiInstallDriverA
-title: DiInstallDriverA function
+title: DiInstallDriverA function (newdev.h)
 author: windows-sdk-content
 description: The DiInstallDriver function preinstalls a driver in the driver store and then installs the driver on devices present in the system that the driver supports.
 old-location: devinst\diinstalldriver.htm

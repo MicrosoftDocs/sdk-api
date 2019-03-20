@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SetThreadAffinityMask
-title: SetThreadAffinityMask function
+title: SetThreadAffinityMask function (winbase.h)
 author: windows-sdk-content
 description: Sets a processor affinity mask for the specified thread.
 old-location: base\setthreadaffinitymask.htm

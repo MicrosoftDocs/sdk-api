@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagCOLORCORRECTPALETTE
-title: EMRCOLORCORRECTPALETTE
+title: EMRCOLORCORRECTPALETTE (wingdi.h)
 author: windows-sdk-content
 description: The EMRCOLORCORRECTPALETTE structure contains members for the ColorCorrectPalette enhanced metafile record.
 old-location: gdi\emrcolorcorrectpalette.htm

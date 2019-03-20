@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPOCollection.get__NewEnum
-title: IGPMStarterGPOCollection::get__NewEnum
+title: IGPMStarterGPOCollection::get__NewEnum (gpmgmt.h)
 author: windows-sdk-content
 description: Retrieves an enumerator for the collection.
 old-location: gpmc\igpmstartergpocollection_get__newenum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsvc.OpenServiceA
-title: OpenServiceA function
+title: OpenServiceA function (winsvc.h)
 author: windows-sdk-content
 description: Opens an existing service.
 old-location: base\openservice.htm

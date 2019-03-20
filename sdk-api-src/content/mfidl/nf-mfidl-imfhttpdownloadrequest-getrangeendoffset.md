@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.GetRangeEndOffset
-title: IMFHttpDownloadRequest::GetRangeEndOffset
+title: IMFHttpDownloadRequest::GetRangeEndOffset (mfidl.h)
 author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to retrieve the offset of the last byte in the current response, counted from the start of the resource. This is useful when a request uses the HTTP “Range” header to download only a portion of a resource.
 old-location: mf\imfhttpdownloadrequest_getrangeendoffset.htm

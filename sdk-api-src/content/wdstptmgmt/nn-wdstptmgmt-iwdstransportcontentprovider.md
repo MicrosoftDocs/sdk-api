@@ -1,6 +1,6 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportContentProvider
-title: IWdsTransportContentProvider
+title: IWdsTransportContentProvider (wdstptmgmt.h)
 author: windows-sdk-content
 description: Used to describe a content provider.
 old-location: wds\iwdstransportcontentprovider.htm

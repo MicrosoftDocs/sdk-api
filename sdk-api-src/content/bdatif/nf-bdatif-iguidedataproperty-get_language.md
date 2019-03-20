@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IGuideDataProperty.get_Language
-title: IGuideDataProperty::get_Language
+title: IGuideDataProperty::get_Language (bdatif.h)
 author: windows-sdk-content
 description: The get_Language method retrieves the language associated with the property.
 old-location: mstv\iguidedataproperty_get_language.htm

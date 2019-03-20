@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.Children
-title: ISettingsItem::Children
+title: ISettingsItem::Children (wcmconfig.h)
 author: windows-sdk-content
 description: Gets the dictionary of the child items that correspond to this item.
 old-location: smi\isettingsitem_children.htm

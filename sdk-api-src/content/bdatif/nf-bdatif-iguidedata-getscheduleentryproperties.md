@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IGuideData.GetScheduleEntryProperties
-title: IGuideData::GetScheduleEntryProperties
+title: IGuideData::GetScheduleEntryProperties (bdatif.h)
 author: windows-sdk-content
 description: The GetScheduleEntryProperties method retrieves the properties for a specified schedule entry.
 old-location: mstv\iguidedata_getscheduleentryproperties.htm

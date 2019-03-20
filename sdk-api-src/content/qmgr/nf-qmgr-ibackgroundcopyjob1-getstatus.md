@@ -1,6 +1,6 @@
 ---
 UID: NF:qmgr.IBackgroundCopyJob1.GetStatus
-title: IBackgroundCopyJob1::GetStatus
+title: IBackgroundCopyJob1::GetStatus (qmgr.h)
 author: windows-sdk-content
 description: Use the GetStatus method to retrieve the state of the job.
 old-location: bits\ibackgroundcopyjob1_getstatus.htm

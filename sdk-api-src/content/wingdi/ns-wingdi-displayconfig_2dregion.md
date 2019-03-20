@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_2DREGION
-title: DISPLAYCONFIG_2DREGION
+title: DISPLAYCONFIG_2DREGION (wingdi.h)
 author: windows-sdk-content
 description: The DISPLAYCONFIG_2DREGION structure represents a point or an offset in a two-dimensional space.
 old-location: display\displayconfig_2dregion.htm

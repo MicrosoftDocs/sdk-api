@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IMediaStreamFilter.EnumMediaStreams
-title: IMediaStreamFilter::EnumMediaStreams
+title: IMediaStreamFilter::EnumMediaStreams (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The EnumMediaStreams method retrieves a media stream, specified by index.
 old-location: dshow\imediastreamfilter_enummediastreams.htm

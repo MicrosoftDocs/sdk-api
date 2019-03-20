@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.PopStorageFilter
-title: ID3D11InfoQueue::PopStorageFilter
+title: ID3D11InfoQueue::PopStorageFilter (d3d11sdklayers.h)
 author: windows-sdk-content
 description: Pop a storage filter from the top of the storage-filter stack.
 old-location: direct3d11\id3d11infoqueue_popstoragefilter.htm

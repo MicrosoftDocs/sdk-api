@@ -1,6 +1,6 @@
 ---
 UID: NS:perflib._STRING_COUNTER_HEADER
-title: PERF_STRING_COUNTER_HEADER
+title: PERF_STRING_COUNTER_HEADER (perflib.h)
 author: windows-sdk-content
 description: Indicates where in the PERF_STRING_BUFFER_HEADER block that the string that contains the name or help string for the indicated performance counter starts.
 old-location: perf\perf_string_counter_header.htm

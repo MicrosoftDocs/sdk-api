@@ -1,6 +1,6 @@
 ---
 UID: NN:sbtsv.ITsSbBaseNotifySink
-title: ITsSbBaseNotifySink
+title: ITsSbBaseNotifySink (sbtsv.h)
 author: windows-sdk-content
 description: Exposes methods that report status and error messages to Remote Desktop Connection Broker (RD Connection Broker).
 old-location: termserv\itssbbasenotifysink.htm

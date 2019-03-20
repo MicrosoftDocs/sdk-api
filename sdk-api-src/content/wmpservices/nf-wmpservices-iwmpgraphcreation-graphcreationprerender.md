@@ -1,6 +1,6 @@
 ---
 UID: NF:wmpservices.IWMPGraphCreation.GraphCreationPreRender
-title: IWMPGraphCreation::GraphCreationPreRender
+title: IWMPGraphCreation::GraphCreationPreRender (wmpservices.h)
 author: windows-sdk-content
 description: The GraphCreationPreRender method is called by Windows Media Player before a file is rendered.
 old-location: wmp\iwmpgraphcreation_graphcreationprerender.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.OnCreate
-title: IBrowserService2::OnCreate
+title: IBrowserService2::OnCreate (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Calls the derived class from the base class on receipt of a WM_CREATE message. The derived class handles the message.
 old-location: shell\IBrowserService2_OnCreate.htm

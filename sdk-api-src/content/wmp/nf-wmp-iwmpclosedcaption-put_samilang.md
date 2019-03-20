@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPClosedCaption.put_SAMILang
-title: IWMPClosedCaption::put_SAMILang
+title: IWMPClosedCaption::put_SAMILang (wmp.h)
 author: windows-sdk-content
 description: The put_SAMILang method specifies the language displayed for closed captioning.
 old-location: wmp\iwmpclosedcaption_put_samilang.htm

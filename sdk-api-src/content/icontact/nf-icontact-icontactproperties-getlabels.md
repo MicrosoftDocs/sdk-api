@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactProperties.GetLabels
-title: IContactProperties::GetLabels
+title: IContactProperties::GetLabels (icontact.h)
 author: windows-sdk-content
 description: Retrieves the labels for a specified array element name.
 old-location: wincontacts\_wincontacts_IContactProperties_GetLabels.htm

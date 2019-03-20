@@ -1,6 +1,6 @@
 ---
 UID: NF:winsxs.IAssemblyName.IsEqual
-title: IAssemblyName::IsEqual
+title: IAssemblyName::IsEqual (winsxs.h)
 author: windows-sdk-content
 description: The IsEqual method compares the current assembly name to another assembly name.
 old-location: setup\iassemblyname_isequal.htm

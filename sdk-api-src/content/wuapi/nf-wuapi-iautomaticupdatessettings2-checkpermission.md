@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings2.CheckPermission
-title: IAutomaticUpdatesSettings2::CheckPermission
+title: IAutomaticUpdatesSettings2::CheckPermission (wuapi.h)
 author: windows-sdk-content
 description: Determines whether a specific user or type of user has permission to perform a selected action.
 old-location: wua\iautomaticupdatessettings2_checkpermission.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsContainer
-title: IADsContainer
+title: IADsContainer (iads.h)
 author: windows-sdk-content
 description: The IADsContainer interface enables an ADSI container object to create, delete, and manage contained ADSI objects. Container objects represent hierarchical directory trees, such as in a file system, and to organize the directory hierarchy.
 old-location: adsi\iadscontainer.htm

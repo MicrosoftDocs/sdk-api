@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.GetParentScopeVersionId
-title: ISearchCrawlScopeManager::GetParentScopeVersionId
+title: ISearchCrawlScopeManager::GetParentScopeVersionId (searchapi.h)
 author: windows-sdk-content
 description: Gets the version ID of the parent inclusion URL.
 old-location: search\_search_ISearchCrawlScopeManager_GetParentScopeVersionId.htm

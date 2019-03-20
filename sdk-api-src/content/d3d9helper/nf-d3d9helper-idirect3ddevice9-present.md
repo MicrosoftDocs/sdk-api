@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.Present
-title: IDirect3DDevice9::Present
+title: IDirect3DDevice9::Present (d3d9helper.h)
 author: windows-sdk-content
 description: Presents the contents of the next buffer in the sequence of back buffers owned by the device.
 old-location: direct3d9\idirect3ddevice9__present.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnLMProcessor.QueryRange
-title: ITfFnLMProcessor::QueryRange
+title: ITfFnLMProcessor::QueryRange (ctffunc.h)
 author: windows-sdk-content
 description: ITfFnLMProcessor::QueryRange method
 old-location: tsf\itffnlmprocessor_queryrange.htm

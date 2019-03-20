@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.get_ApplicationFilter
-title: IRDPSRAPIViewer::get_ApplicationFilter
+title: IRDPSRAPIViewer::get_ApplicationFilter (rdpencomapi.h)
 author: windows-sdk-content
 description: Returns an object implementing the IRDPSRAPIApplicationFilter interface.
 old-location: rdp\irdpsrapiviewer_applicationfilter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheRecord.GetFileModificationTime
-title: IBitsPeerCacheRecord::GetFileModificationTime
+title: IBitsPeerCacheRecord::GetFileModificationTime (bits3_0.h)
 author: windows-sdk-content
 description: Gets the date and time that the file was last modified on the server.
 old-location: bits\ibitspeercacherecord_getfilemodificationtime.htm

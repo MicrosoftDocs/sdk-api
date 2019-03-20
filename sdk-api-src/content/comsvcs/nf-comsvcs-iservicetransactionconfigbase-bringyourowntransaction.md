@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServiceTransactionConfigBase.BringYourOwnTransaction
-title: IServiceTransactionConfigBase::BringYourOwnTransaction
+title: IServiceTransactionConfigBase::BringYourOwnTransaction (comsvcs.h)
 author: windows-sdk-content
 description: Enables you to run the enclosed code in an existing transaction that you provide.
 old-location: cos\iservicetransactionconfigbase_bringyourowntransaction.htm

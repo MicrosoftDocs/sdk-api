@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.SetDefaultFolder
-title: IFileDialog::SetDefaultFolder
+title: IFileDialog::SetDefaultFolder (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the folder used as a default if there is not a recently used folder value available.
 old-location: shell\IFileDialog_SetDefaultFolder.htm

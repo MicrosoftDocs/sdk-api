@@ -1,6 +1,6 @@
 ---
 UID: NF:sensevts.ISensLogon.StartScreenSaver
-title: ISensLogon::StartScreenSaver
+title: ISensLogon::StartScreenSaver (sensevts.h)
 author: windows-sdk-content
 description: The StartScreenSaver method notifies an application that a screen saver is started.
 old-location: sens\isenslogon_startscreensaver.htm

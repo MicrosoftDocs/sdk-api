@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplications.get_Item
-title: IAzApplications::get_Item
+title: IAzApplications::get_Item (azroles.h)
 author: windows-sdk-content
 description: Retrieves the IAzApplication object at the specified index into the IAzApplications collection.
 old-location: security\iazapplications_item.htm

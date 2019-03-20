@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataCopier.Open
-title: ISpatialAudioMetadataCopier::Open
+title: ISpatialAudioMetadataCopier::Open (spatialaudiometadata.h)
 author: windows-sdk-content
 description: Opens an ISpatialAudioMetadataItems object for copying.
 old-location: coreaudio\ispatialaudiometadatacopier_open.htm

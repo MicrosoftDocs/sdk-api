@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ITransactionProxy.IsReusable
-title: ITransactionProxy::IsReusable
+title: ITransactionProxy::IsReusable (comsvcs.h)
 author: windows-sdk-content
 description: Indicates whether the non-DTC transaction context can be reused for multiple transactions.
 old-location: cos\itransactionproxy_isreusable.htm

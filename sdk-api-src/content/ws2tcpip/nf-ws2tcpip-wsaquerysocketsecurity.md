@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2tcpip.WSAQuerySocketSecurity
-title: WSAQuerySocketSecurity function
+title: WSAQuerySocketSecurity function (ws2tcpip.h)
 author: windows-sdk-content
 description: Queries information about the security applied to a connection on a socket.
 old-location: winsock\wsaquerysocketsecurity.htm

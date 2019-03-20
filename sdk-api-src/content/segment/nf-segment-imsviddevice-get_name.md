@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidDevice.get_Name
-title: IMSVidDevice::get_Name
+title: IMSVidDevice::get_Name (segment.h)
 author: windows-sdk-content
 description: The get_Name method retrieves the friendly name of the device.
 old-location: mstv\imsviddevice_get_name.htm

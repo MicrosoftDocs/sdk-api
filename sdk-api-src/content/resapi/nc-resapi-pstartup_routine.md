@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.PSTARTUP_ROUTINE
-title: PSTARTUP_ROUTINE
+title: PSTARTUP_ROUTINE (resapi.h)
 author: windows-sdk-content
 description: Loads a resource DLL, returning a structure containing a function table and a version number.
 old-location: mscs\startup.htm

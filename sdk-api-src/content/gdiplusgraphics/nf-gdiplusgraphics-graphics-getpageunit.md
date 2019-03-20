@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetPageUnit
-title: Graphics::GetPageUnit
+title: Graphics::GetPageUnit (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::GetPageUnit method gets the unit of measure currently set for this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetPageUnit_.htm

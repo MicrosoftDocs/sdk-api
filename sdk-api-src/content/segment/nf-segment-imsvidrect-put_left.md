@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidRect.put_Left
-title: IMSVidRect::put_Left
+title: IMSVidRect::put_Left (segment.h)
 author: windows-sdk-content
 description: The put_Left method specifies the left x-coordinate of the rectangle. This coordinate is relative to the rectangle's associated window.
 old-location: mstv\imsvidrect_put_left.htm

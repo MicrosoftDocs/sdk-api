@@ -1,6 +1,6 @@
 ---
 UID: NF:joystickapi.joySetCapture
-title: joySetCapture function
+title: joySetCapture function (joystickapi.h)
 author: windows-sdk-content
 description: The joySetCapture function captures a joystick by causing its messages to be sent to the specified window.
 old-location: multimedia\joysetcapture.htm

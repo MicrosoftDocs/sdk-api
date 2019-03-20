@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchScopeRule.get_IsDefault
-title: ISearchScopeRule::get_IsDefault
+title: ISearchScopeRule::get_IsDefault (searchapi.h)
 author: windows-sdk-content
 description: Gets a value that identifies whether this is a default rule.
 old-location: search\_search_ISearchScopeRule_get_IsDefault.htm

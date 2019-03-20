@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMBackupCollection.get_Item
-title: IGPMBackupCollection::get_Item
+title: IGPMBackupCollection::get_Item (gpmgmt.h)
 author: windows-sdk-content
 description: Given an index, returns a GPMBackup object from the collection.
 old-location: gpmc\igpmbackupcollection_get_item.htm

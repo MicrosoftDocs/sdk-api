@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.AddFontResourceA
-title: AddFontResourceA function
+title: AddFontResourceA function (wingdi.h)
 author: windows-sdk-content
 description: The AddFontResource function adds the font resource from the specified file to the system font table. The font can subsequently be used for text output by any application.
 old-location: gdi\addfontresource.htm

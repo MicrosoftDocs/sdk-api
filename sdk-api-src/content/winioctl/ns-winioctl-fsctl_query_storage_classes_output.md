@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._FSCTL_QUERY_STORAGE_CLASSES_OUTPUT
-title: FSCTL_QUERY_STORAGE_CLASSES_OUTPUT
+title: FSCTL_QUERY_STORAGE_CLASSES_OUTPUT (winioctl.h)
 author: windows-sdk-content
 description: Contains information for all tiers of a specific volume.
 old-location: fs\fsctl_query_storage_classes_output.htm

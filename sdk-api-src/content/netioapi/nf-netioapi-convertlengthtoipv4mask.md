@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.ConvertLengthToIpv4Mask
-title: ConvertLengthToIpv4Mask function
+title: ConvertLengthToIpv4Mask function (netioapi.h)
 author: windows-sdk-content
 description: Converts an IPv4 prefix length to an IPv4 subnet mask.
 old-location: iphlp\convertlengthtoipv4mask.htm

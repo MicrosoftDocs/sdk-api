@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IShellBrowser
-title: IShellBrowser
+title: IShellBrowser (shobjidl_core.h)
 author: windows-sdk-content
 description: Implemented by hosts of Shell views (objects that implement IShellView). Exposes methods that provide services for the view it is hosting and other objects that run in the context of the Explorer window.
 old-location: shell\IShellBrowser.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_52
-title: WS_TRUST_VERSION
+title: WS_TRUST_VERSION (webservices.h)
 author: windows-sdk-content
 description: Defines the WS-Trust specification version to be used with message security and mixed-mode security.
 old-location: wsw\ws_trust_version.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.FrameworkLoginDLL(LPCWSTR,PLONG)
-title: CWbemProviderGlue::FrameworkLoginDLL(LPCWSTR,PLONG)
+title: CWbemProviderGlue::FrameworkLoginDLL(LPCWSTR,PLONG) (wbemglue.h)
 author: windows-sdk-content
 description: The FrameworkLoginDLL method is called when the DLL_PROCESS_ATTACH value is sent to DllMain to determine whether the provider server can be loaded.
 old-location: wmi\cwbemproviderglue_frameworklogindll.htm

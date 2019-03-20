@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_DELETE_SHARED_MEMORY
-title: LSA_DELETE_SHARED_MEMORY
+title: LSA_DELETE_SHARED_MEMORY (ntsecpkg.h)
 author: windows-sdk-content
 description: The DeleteSharedMemory function releases a section of memory that is shared by clients and a security package.
 old-location: security\deletesharedmemory.htm

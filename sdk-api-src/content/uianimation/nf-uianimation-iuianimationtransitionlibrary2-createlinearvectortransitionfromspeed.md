@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateLinearVectorTransitionFromSpeed
-title: IUIAnimationTransitionLibrary2::CreateLinearVectorTransitionFromSpeed
+title: IUIAnimationTransitionLibrary2::CreateLinearVectorTransitionFromSpeed (uianimation.h)
 author: windows-sdk-content
 description: Creates a linear-speed vector transition in the specified dimension.
 old-location: uianimation\iuianimationtransitionlibrary2_createlinearvectortransitionfromspeed.htm

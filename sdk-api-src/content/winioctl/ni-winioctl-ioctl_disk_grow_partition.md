@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_GROW_PARTITION
-title: IOCTL_DISK_GROW_PARTITION
+title: IOCTL_DISK_GROW_PARTITION (winioctl.h)
 author: windows-sdk-content
 description: Enlarges the specified partition.
 old-location: fs\ioctl_disk_grow_partition.htm

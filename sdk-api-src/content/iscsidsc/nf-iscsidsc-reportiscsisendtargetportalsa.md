@@ -1,6 +1,6 @@
 ---
 UID: NF:iscsidsc.ReportIScsiSendTargetPortalsA
-title: ReportIScsiSendTargetPortalsA function
+title: ReportIScsiSendTargetPortalsA function (iscsidsc.h)
 author: windows-sdk-content
 description: ReportIscsiSendTargetPortals function retrieves a list of target portals that the iSCSI initiator service uses to perform automatic discovery with SendTarget requests.
 old-location: iscsidisc\reportiscsisendtargetportals.htm

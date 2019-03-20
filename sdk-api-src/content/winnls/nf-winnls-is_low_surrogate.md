@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.IS_LOW_SURROGATE
-title: IS_LOW_SURROGATE macro
+title: IS_LOW_SURROGATE macro (winnls.h)
 author: windows-sdk-content
 description: Determines if a character is a UTF-16 low surrogate code point, ranging from 0xdc00 to 0xdfff, inclusive.
 old-location: intl\is_low_surrogate.htm

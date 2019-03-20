@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFRegisterLocalSchemeHandler
-title: MFRegisterLocalSchemeHandler function
+title: MFRegisterLocalSchemeHandler function (mfapi.h)
 author: windows-sdk-content
 description: Registers a scheme handler in the caller's process.
 old-location: mf\mfregisterlocalschemehandler.htm

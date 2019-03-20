@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ISchedule.put_StartTime
-title: ISchedule::put_StartTime
+title: ISchedule::put_StartTime (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the time of day when the data collector set runs.
 old-location: pla\ischedule_starttime.htm

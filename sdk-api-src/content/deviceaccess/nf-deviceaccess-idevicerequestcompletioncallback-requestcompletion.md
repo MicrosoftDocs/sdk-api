@@ -1,6 +1,6 @@
 ---
 UID: NF:deviceaccess.IDeviceRequestCompletionCallback.RequestCompletion
-title: IDeviceRequestCompletionCallback::RequestCompletion
+title: IDeviceRequestCompletionCallback::RequestCompletion (deviceaccess.h)
 author: windows-sdk-content
 description: Implement the RequestCompletion method to handle the completion of calls to the DeviceIoControlAsyncmethod.
 old-location: deviceaccess\idevicerequestcompletioncallback_requestcompletion.htm

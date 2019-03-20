@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SecPkgContext_AccessToken
-title: SecPkgContext_AccessToken
+title: SecPkgContext_AccessToken (sspi.h)
 author: windows-sdk-content
 description: Returns a handle to the access token for the current security context.
 old-location: security\secpkgcontext_accesstoken.htm

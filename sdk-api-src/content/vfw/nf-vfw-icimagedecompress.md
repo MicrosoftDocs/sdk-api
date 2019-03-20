@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.ICImageDecompress
-title: ICImageDecompress function
+title: ICImageDecompress function (vfw.h)
 author: windows-sdk-content
 description: The ICImageDecompress function decompresses an image without using initialization functions.
 old-location: multimedia\icimagedecompress.htm

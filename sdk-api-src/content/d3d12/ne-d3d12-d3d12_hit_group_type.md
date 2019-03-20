@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_HIT_GROUP_TYPE
-title: D3D12_HIT_GROUP_TYPE
+title: D3D12_HIT_GROUP_TYPE (d3d12.h)
 author: windows-sdk-content
 description: Specifies the type of a raytracing hit group state subobject. Use a value from this enumeration with the D3D12_HIT_GROUP_DESC structure.
 old-location: direct3d12\d3d12_hit_group_type.htm

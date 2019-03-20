@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.IEnumVARIANT.Clone
-title: IEnumVARIANT::Clone
+title: IEnumVARIANT::Clone (oaidl.h)
 author: windows-sdk-content
 description: Creates a copy of the current state of enumeration.
 old-location: automat\ienumvariant_clone.htm

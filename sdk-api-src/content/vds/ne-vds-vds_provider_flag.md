@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_PROVIDER_FLAG
-title: VDS_PROVIDER_FLAG
+title: VDS_PROVIDER_FLAG (vds.h)
 author: windows-sdk-content
 description: Defines the set of valid flags for a provider object.
 old-location: base\vds_provider_flag.htm

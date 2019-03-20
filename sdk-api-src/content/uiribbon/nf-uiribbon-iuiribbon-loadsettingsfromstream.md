@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUIRibbon.LoadSettingsFromStream
-title: IUIRibbon::LoadSettingsFromStream
+title: IUIRibbon::LoadSettingsFromStream (uiribbon.h)
 author: windows-sdk-content
 description: Reads ribbon settings from a binary stream.
 old-location: windowsribbon\windowsribbon_iuiribbon_loadsettingsfromstream.htm

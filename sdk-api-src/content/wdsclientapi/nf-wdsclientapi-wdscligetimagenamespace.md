@@ -1,6 +1,6 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageNamespace
-title: WdsCliGetImageNamespace function
+title: WdsCliGetImageNamespace function (wdsclientapi.h)
 author: windows-sdk-content
 description: Returns the namespace of the current image.
 old-location: wds\wdscligetimagenamespace.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:propkeydef.DEFINE_PROPERTYKEY
-title: DEFINE_PROPERTYKEY macro
+title: DEFINE_PROPERTYKEY macro (propkeydef.h)
 author: windows-sdk-content
 description: Used to pack a format identifier (FMTID) and property identifier (PID) into a PROPERTYKEY structure that represents a property key.
 old-location: shell\DEFINE_PROPERTYKEY.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingGroups.get_Item
-title: IFaxOutboundRoutingGroups::get_Item
+title: IFaxOutboundRoutingGroups::get_Item (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutboundRoutingGroups::get_Item method returns a IFaxOutboundRoutingGroup interface from the collection.
 old-location: fax\_mfax_faxoutboundroutinggroups_item_cpp.htm

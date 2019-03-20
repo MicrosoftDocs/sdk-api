@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.PolyBezierTo
-title: PolyBezierTo function
+title: PolyBezierTo function (wingdi.h)
 author: windows-sdk-content
 description: The PolyBezierTo function draws one or more B&#233;zier curves.
 old-location: gdi\polybezierto.htm

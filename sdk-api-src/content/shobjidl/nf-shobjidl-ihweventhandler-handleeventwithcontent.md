@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IHWEventHandler.HandleEventWithContent
-title: IHWEventHandler::HandleEventWithContent
+title: IHWEventHandler::HandleEventWithContent (shobjidl.h)
 author: windows-sdk-content
 description: Not implemented.
 old-location: shell\IHWEventHandler_HandleEventWithContent.htm

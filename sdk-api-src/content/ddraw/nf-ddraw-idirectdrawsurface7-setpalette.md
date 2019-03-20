@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.SetPalette
-title: IDirectDrawSurface7::SetPalette
+title: IDirectDrawSurface7::SetPalette (ddraw.h)
 author: windows-sdk-content
 description: Attaches a palette object to (or detaches one from) a surface. The surface uses this palette for all subsequent operations. The palette change takes place immediately, without regard to refresh timing.
 old-location: directdraw\idirectdrawsurface7_setpalette.htm

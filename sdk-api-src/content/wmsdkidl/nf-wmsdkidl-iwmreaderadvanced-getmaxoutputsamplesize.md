@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.GetMaxOutputSampleSize
-title: IWMReaderAdvanced::GetMaxOutputSampleSize
+title: IWMReaderAdvanced::GetMaxOutputSampleSize (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetMaxOutputSampleSize method retrieves the maximum buffer size to be allocated for output samples for a specified media stream.
 old-location: wmformat\iwmreaderadvanced_getmaxoutputsamplesize.htm

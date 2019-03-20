@@ -1,6 +1,6 @@
 ---
 UID: NF:winsvc.LockServiceDatabase
-title: LockServiceDatabase function
+title: LockServiceDatabase function (winsvc.h)
 author: windows-sdk-content
 description: Requests ownership of the service control manager (SCM) database lock. Only one process can own the lock at any specified time.
 old-location: base\lockservicedatabase.htm

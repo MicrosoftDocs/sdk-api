@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSource.GetCharacteristics
-title: IMFMediaSource::GetCharacteristics
+title: IMFMediaSource::GetCharacteristics (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the characteristics of the media source.
 old-location: mf\imfmediasource_getcharacteristics.htm

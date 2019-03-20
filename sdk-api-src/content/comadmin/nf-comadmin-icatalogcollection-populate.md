@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICatalogCollection.Populate
-title: ICatalogCollection::Populate
+title: ICatalogCollection::Populate (comadmin.h)
 author: windows-sdk-content
 description: Populates the collection with data for all items contained in the collection.
 old-location: cos\icatalogcollection_populate.htm

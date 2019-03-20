@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLGetPolicyInformation
-title: SLGetPolicyInformation function
+title: SLGetPolicyInformation function (slpublic.h)
 author: windows-sdk-content
 description: Gets the policy information after right has been consumed successfully.
 old-location: security\slgetpolicyinformation.htm

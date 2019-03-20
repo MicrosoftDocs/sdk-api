@@ -1,6 +1,6 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0029
-title: MPEG_WINSOCK
+title: MPEG_WINSOCK (mpeg2structs.h)
 author: windows-sdk-content
 description: The MPEG_WINSOCK structure is not supported.
 old-location: mstv\mpeg_winsock.htm

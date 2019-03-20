@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects.D2D1_ARITHMETICCOMPOSITE_PROP
-title: D2D1_ARITHMETICCOMPOSITE_PROP
+title: D2D1_ARITHMETICCOMPOSITE_PROP (d2d1effects.h)
 author: windows-sdk-content
 description: Identifiers for the properties of the Arithmetic composite effect.
 old-location: direct2d\d2d1_arithmeticcomposite_prop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.CountEnum
-title: IMetaDataImport::CountEnum
+title: IMetaDataImport::CountEnum (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the number of elements in the enumeration that was retrieved by the specified enumerator.
 old-location: winrt\imetadataimport_countenum.htm

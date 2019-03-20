@@ -1,6 +1,6 @@
 ---
 UID: NS:msctf.TF_PERSISTENT_PROPERTY_HEADER_ACP
-title: TF_PERSISTENT_PROPERTY_HEADER_ACP
+title: TF_PERSISTENT_PROPERTY_HEADER_ACP (msctf.h)
 author: windows-sdk-content
 description: The TF_PERSISTENT_PROPERTY_HEADER_ACP structure is used to provide property header data.
 old-location: tsf\tf_persistent_property_header_acp.htm

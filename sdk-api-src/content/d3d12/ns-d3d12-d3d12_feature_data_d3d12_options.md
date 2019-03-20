@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_D3D12_OPTIONS
-title: D3D12_FEATURE_DATA_D3D12_OPTIONS
+title: D3D12_FEATURE_DATA_D3D12_OPTIONS (d3d12.h)
 author: windows-sdk-content
 description: Describes Direct3D 12 feature options in the current graphics driver.
 old-location: direct3d12\d3d12_feature_data_d3d12_options.htm

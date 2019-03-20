@@ -1,6 +1,6 @@
 ---
 UID: NS:dmemmgr._VMEMHEAP
-title: VMEMHEAP
+title: VMEMHEAP (dmemmgr.h)
 author: windows-sdk-content
 description: The VMEMHEAP structure contains information about the heap.
 old-location: display\vmemheap.htm

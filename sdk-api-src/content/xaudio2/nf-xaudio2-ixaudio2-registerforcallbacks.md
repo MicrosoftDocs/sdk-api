@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2.RegisterForCallbacks
-title: IXAudio2::RegisterForCallbacks
+title: IXAudio2::RegisterForCallbacks (xaudio2.h)
 author: windows-sdk-content
 description: Adds an IXAudio2EngineCallback pointer to the XAudio2 engine callback list.
 old-location: xaudio2\ixaudio2_interface_registerforcallbacks.htm

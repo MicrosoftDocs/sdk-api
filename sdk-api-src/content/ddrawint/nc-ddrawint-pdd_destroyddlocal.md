@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_DESTROYDDLOCAL
-title: PDD_DESTROYDDLOCAL
+title: PDD_DESTROYDDLOCAL (ddrawint.h)
 author: windows-sdk-content
 description: The D3dDestroyDDLocal function destroys all the Microsoft Direct3D surfaces previously created by the D3dCreateSurfaceEx function that belong to the same given local Microsoft DirectDraw object.
 old-location: display\d3ddestroyddlocal.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:devicetopology.IPartsList
-title: IPartsList
+title: IPartsList (devicetopology.h)
 author: windows-sdk-content
 description: The IPartsList interface represents a list of parts, each of which is an object with an IPart interface that represents a connector or subunit.
 old-location: coreaudio\ipartslist.htm

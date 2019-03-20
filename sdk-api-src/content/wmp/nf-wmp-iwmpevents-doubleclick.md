@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.DoubleClick
-title: IWMPEvents::DoubleClick
+title: IWMPEvents::DoubleClick (wmp.h)
 author: windows-sdk-content
 description: The DoubleClick event occurs when the user double-clicks a mouse button.
 old-location: wmp\iwmpevents_iwmpevents__doubleclick.htm

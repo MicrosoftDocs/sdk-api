@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMediaTypeStream.CreateSample
-title: IAMMediaTypeStream::CreateSample
+title: IAMMediaTypeStream::CreateSample (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The CreateSample method creates a stream sample and optionally specifies the sample buffer.
 old-location: dshow\iammediatypestream_createsample.htm

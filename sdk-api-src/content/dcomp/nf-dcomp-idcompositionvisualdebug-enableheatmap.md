@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionVisualDebug.EnableHeatMap
-title: IDCompositionVisualDebug::EnableHeatMap
+title: IDCompositionVisualDebug::EnableHeatMap (dcomp.h)
 author: windows-sdk-content
 description: Enables a visual heatmap that represents overdraw regions.
 old-location: directcomp\idcompositionvisualdebug_enableheatmap.htm

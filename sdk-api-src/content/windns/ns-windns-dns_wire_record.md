@@ -1,6 +1,6 @@
 ---
 UID: NS:windns._DNS_WIRE_RECORD
-title: DNS_WIRE_RECORD
+title: DNS_WIRE_RECORD (windns.h)
 author: windows-sdk-content
 description: The DNS_WIRE_RECORD structure contains information about a DNS wire record transmitted across the network as specified in section 4.1.3 of RFC 1035.
 old-location: dns\dns_wire_record.htm

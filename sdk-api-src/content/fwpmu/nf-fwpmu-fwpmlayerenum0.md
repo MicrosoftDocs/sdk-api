@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmLayerEnum0
-title: FwpmLayerEnum0 function
+title: FwpmLayerEnum0 function (fwpmu.h)
 author: windows-sdk-content
 description: Returns the next page of results from the layer enumerator.
 old-location: fwp\fwpmlayerenum0_func.htm

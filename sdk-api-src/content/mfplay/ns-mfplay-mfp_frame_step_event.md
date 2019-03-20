@@ -1,6 +1,6 @@
 ---
 UID: NS:mfplay.MFP_FRAME_STEP_EVENT
-title: MFP_FRAME_STEP_EVENT
+title: MFP_FRAME_STEP_EVENT (mfplay.h)
 author: windows-sdk-content
 description: Event structure for the MFP_EVENT_TYPE_FRAME_STEP event.
 old-location: mf\mfp_frame_step_event.htm

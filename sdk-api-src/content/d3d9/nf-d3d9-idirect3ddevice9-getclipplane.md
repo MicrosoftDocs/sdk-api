@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetClipPlane
-title: IDirect3DDevice9::GetClipPlane
+title: IDirect3DDevice9::GetClipPlane (d3d9.h)
 author: windows-sdk-content
 description: Retrieves the coefficients of a user-defined clipping plane for the device.
 old-location: direct3d9\idirect3ddevice9__getclipplane.htm

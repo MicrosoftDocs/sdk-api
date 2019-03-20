@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcomex.IFaxAccountNotify
-title: IFaxAccountNotify
+title: IFaxAccountNotify (faxcomex.h)
 author: windows-sdk-content
 description: Called by the fax service to send event notifications about particular fax accounts. This property sends event notifications. Events include changes to incoming and outgoing job queues, and changes to incoming and outgoing archives.
 old-location: fax\_mfax_ifaxaccountnotify.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwmapi.DwmAttachMilContent
-title: DwmAttachMilContent function
+title: DwmAttachMilContent function (dwmapi.h)
 author: windows-sdk-content
 description: This function is not implemented.
 old-location: dwm\dwmattachmilcontent.htm

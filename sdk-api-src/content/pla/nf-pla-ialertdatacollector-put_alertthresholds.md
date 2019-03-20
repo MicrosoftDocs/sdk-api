@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IAlertDataCollector.put_AlertThresholds
-title: IAlertDataCollector::put_AlertThresholds
+title: IAlertDataCollector::put_AlertThresholds (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets a list of performance counters and thresholds to monitor.
 old-location: pla\ialertdatacollector_alertthresholds.htm

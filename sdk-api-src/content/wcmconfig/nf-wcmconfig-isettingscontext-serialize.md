@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsContext.Serialize
-title: ISettingsContext::Serialize
+title: ISettingsContext::Serialize (wcmconfig.h)
 author: windows-sdk-content
 description: Serializes the data in this context into the provided stream.
 old-location: smi\isettingscontext_serialize.htm

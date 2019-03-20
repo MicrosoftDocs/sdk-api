@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope2.CreateRoleAssignment
-title: IAzScope2::CreateRoleAssignment
+title: IAzScope2::CreateRoleAssignment (azroles.h)
 author: windows-sdk-content
 description: Creates a new IAzRoleAssignment object with the specified name in this scope.
 old-location: security\iazscope2_createroleassignment.htm

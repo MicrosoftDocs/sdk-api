@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmMerge.Connect
-title: IMsmMerge::Connect
+title: IMsmMerge::Connect (mergemod.h)
 author: windows-sdk-content
 description: The Connect method connects a module that has been, or will be, merged into the database to an additional feature. For more information, see the Connect method of the Merge object.
 old-location: setup\imsmmerge_connect.htm

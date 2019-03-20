@@ -1,6 +1,6 @@
 ---
 UID: NS:imm.tagRECONVERTSTRING
-title: RECONVERTSTRING
+title: RECONVERTSTRING (imm.h)
 author: windows-sdk-content
 description: Defines the strings for IME reconversion. It is the first item in a memory block that contains the strings for reconversion.
 old-location: intl\reconvertstring.htm

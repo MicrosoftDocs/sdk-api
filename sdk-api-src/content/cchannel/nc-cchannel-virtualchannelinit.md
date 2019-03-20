@@ -1,6 +1,6 @@
 ---
 UID: NC:cchannel.VIRTUALCHANNELINIT
-title: VIRTUALCHANNELINIT
+title: VIRTUALCHANNELINIT (cchannel.h)
 author: windows-sdk-content
 description: Initializes a client DLL's access to Remote Desktop Services virtual channels.
 old-location: termserv\virtualchannelinit.htm

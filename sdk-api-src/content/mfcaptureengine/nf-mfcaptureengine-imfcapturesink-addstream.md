@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSink.AddStream
-title: IMFCaptureSink::AddStream
+title: IMFCaptureSink::AddStream (mfcaptureengine.h)
 author: windows-sdk-content
 description: Connects a stream from the capture source to this capture sink.
 old-location: mf\imfcapturesink_addstream.htm

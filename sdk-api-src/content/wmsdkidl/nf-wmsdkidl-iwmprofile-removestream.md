@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.RemoveStream
-title: IWMProfile::RemoveStream
+title: IWMProfile::RemoveStream (wmsdkidl.h)
 author: windows-sdk-content
 description: The RemoveStream method removes a stream from the profile.
 old-location: wmformat\iwmprofile_removestream.htm

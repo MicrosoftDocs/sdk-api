@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_phoneSetData
-title: TSPI_phoneSetData function
+title: TSPI_phoneSetData function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_phoneSetData function downloads the information in the specified buffer to the opened phone device at the selected data identifier.
 old-location: tspi\tspi_phonesetdata.htm

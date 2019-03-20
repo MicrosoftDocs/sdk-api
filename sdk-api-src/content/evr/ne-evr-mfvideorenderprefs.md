@@ -1,6 +1,6 @@
 ---
 UID: NE:evr.MFVideoRenderPrefs
-title: MFVideoRenderPrefs
+title: MFVideoRenderPrefs (evr.h)
 author: windows-sdk-content
 description: Contains flags that define how the enhanced video renderer (EVR) displays the video.
 old-location: mf\mfvideorenderprefs.htm

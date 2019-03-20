@@ -1,6 +1,6 @@
 ---
 UID: NF:txlogpub.ILog.ReadRecord
-title: ILog::ReadRecord
+title: ILog::ReadRecord (txlogpub.h)
 author: windows-sdk-content
 description: Read a record from the log.
 old-location: com\ilog_readrecord.htm

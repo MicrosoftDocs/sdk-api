@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdhost.IWSDServiceMessaging.FaultRequest
-title: IWSDServiceMessaging::FaultRequest
+title: IWSDServiceMessaging::FaultRequest (wsdhost.h)
 author: windows-sdk-content
 description: Sends a fault matching a given request context.
 old-location: ncd\iwsdservicemessaging_faultrequest.htm

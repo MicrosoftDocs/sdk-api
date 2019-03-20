@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.SecurityProperty.GetOriginalCreatorName
-title: SecurityProperty::GetOriginalCreatorName
+title: SecurityProperty::GetOriginalCreatorName (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the user name associated with the original base process that initiated the activity in which the current object is executing.
 old-location: cos\securityproperty_getoriginalcreatorname.htm

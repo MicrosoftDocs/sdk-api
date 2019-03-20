@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMFontResource
-title: IXpsOMFontResource
+title: IXpsOMFontResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Provides an IStream interface to a font resource.
 old-location: xps\ixpsomfontresource.htm

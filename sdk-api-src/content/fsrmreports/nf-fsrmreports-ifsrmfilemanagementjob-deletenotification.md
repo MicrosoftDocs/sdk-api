@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.DeleteNotification
-title: IFsrmFileManagementJob::DeleteNotification
+title: IFsrmFileManagementJob::DeleteNotification (fsrmreports.h)
 author: windows-sdk-content
 description: Deletes a notification value from the file management job's list of notifications.
 old-location: fsrm\ifsrmfilemanagementjob_deletenotification.htm

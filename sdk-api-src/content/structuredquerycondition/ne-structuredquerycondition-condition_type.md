@@ -1,6 +1,6 @@
 ---
 UID: NE:structuredquerycondition.tagCONDITION_TYPE
-title: CONDITION_TYPE
+title: CONDITION_TYPE (structuredquerycondition.h)
 author: windows-sdk-content
 description: Provides a set of flags to be used with the following methods to indicate the type of condition tree node:\_ICondition::GetConditionType, IConditionFactory::MakeAndOr, IConditionFactory2::CreateCompoundFromArray, and IConditionFactory2::CreateCompoundFromObjectArray.
 old-location: search\_search_CONDITION_TYPE.htm

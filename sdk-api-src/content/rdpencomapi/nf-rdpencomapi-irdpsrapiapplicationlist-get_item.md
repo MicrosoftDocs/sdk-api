@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIApplicationList.get_Item
-title: IRDPSRAPIApplicationList::get_Item
+title: IRDPSRAPIApplicationList::get_Item (rdpencomapi.h)
 author: windows-sdk-content
 description: An item in the application collection.
 old-location: rdp\irdpsrapiapplicationlist_item.htm

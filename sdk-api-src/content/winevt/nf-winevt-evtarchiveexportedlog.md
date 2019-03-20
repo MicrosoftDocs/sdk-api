@@ -1,6 +1,6 @@
 ---
 UID: NF:winevt.EvtArchiveExportedLog
-title: EvtArchiveExportedLog function
+title: EvtArchiveExportedLog function (winevt.h)
 author: windows-sdk-content
 description: Adds localized strings to the events in the specified log file.
 old-location: wes\evtarchiveexportedlog.htm

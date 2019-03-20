@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcnsi.RpcNsMgmtEntryCreateW
-title: RpcNsMgmtEntryCreateW function
+title: RpcNsMgmtEntryCreateW function (rpcnsi.h)
 author: windows-sdk-content
 description: The RpcNsMgmtEntryCreate function creates a name service&#8211;database entry.
 old-location: rpc\rpcnsmgmtentrycreate.htm

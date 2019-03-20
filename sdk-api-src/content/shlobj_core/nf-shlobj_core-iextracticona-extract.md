@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IExtractIconA.Extract
-title: IExtractIconA::Extract
+title: IExtractIconA::Extract (shlobj_core.h)
 author: windows-sdk-content
 description: Extracts an icon image from the specified location.
 old-location: shell\IExtractIcon_Extract.htm

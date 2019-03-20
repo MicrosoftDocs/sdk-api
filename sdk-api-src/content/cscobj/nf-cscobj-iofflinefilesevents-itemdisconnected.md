@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.ItemDisconnected
-title: IOfflineFilesEvents::ItemDisconnected
+title: IOfflineFilesEvents::ItemDisconnected (cscobj.h)
 author: windows-sdk-content
 description: Reports that an item in the Offline Files cache has transitioned from online to offline.
 old-location: of\iofflinefilesevents_itemdisconnected.htm

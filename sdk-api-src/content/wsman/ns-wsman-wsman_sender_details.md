@@ -1,6 +1,6 @@
 ---
 UID: NS:wsman._WSMAN_SENDER_DETAILS
-title: WSMAN_SENDER_DETAILS
+title: WSMAN_SENDER_DETAILS (wsman.h)
 author: windows-sdk-content
 description: Specifies the client details for every inbound request.
 old-location: winrm\wsman_sender_details.htm

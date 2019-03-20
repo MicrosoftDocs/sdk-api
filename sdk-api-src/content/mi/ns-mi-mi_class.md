@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_Class
-title: MI_Class
+title: MI_Class (mi.h)
 author: windows-sdk-content
 description: Represents the schema of an instance.
 old-location: wmi_v2\mi_class.htm

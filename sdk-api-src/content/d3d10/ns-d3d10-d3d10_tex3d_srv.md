@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10.D3D10_TEX3D_SRV
-title: D3D10_TEX3D_SRV
+title: D3D10_TEX3D_SRV (d3d10.h)
 author: windows-sdk-content
 description: Specifies the subresource(s) from a 3D texture to use in a shader-resource view.
 old-location: direct3d10\d3d10_tex3d_srv.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetDpiForSystem
-title: GetDpiForSystem function
+title: GetDpiForSystem function (winuser.h)
 author: windows-sdk-content
 description: Returns the system DPI.
 old-location: hidpi\getdpiforsystem.htm

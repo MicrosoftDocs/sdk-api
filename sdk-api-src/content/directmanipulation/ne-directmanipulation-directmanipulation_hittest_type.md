@@ -1,6 +1,6 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_HITTEST_TYPE
-title: DIRECTMANIPULATION_HITTEST_TYPE
+title: DIRECTMANIPULATION_HITTEST_TYPE (directmanipulation.h)
 author: windows-sdk-content
 description: Defines how hit testing is handled by Direct Manipulation when using a dedicated hit-test thread registered through RegisterHitTestTarget.
 old-location: directmanipulation\directmanipulation_hittest_type.htm

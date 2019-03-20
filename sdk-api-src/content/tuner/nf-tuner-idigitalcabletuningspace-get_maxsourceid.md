@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDigitalCableTuningSpace.get_MaxSourceID
-title: IDigitalCableTuningSpace::get_MaxSourceID
+title: IDigitalCableTuningSpace::get_MaxSourceID (tuner.h)
 author: windows-sdk-content
 description: The get_MaxSourceID method retrieves the highest source identifier for this tuning space.
 old-location: mstv\idigitalcabletuningspace_get_maxsourceid.htm

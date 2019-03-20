@@ -1,6 +1,6 @@
 ---
 UID: NF:icmpapi.Icmp6ParseReplies
-title: Icmp6ParseReplies function
+title: Icmp6ParseReplies function (icmpapi.h)
 author: windows-sdk-content
 description: The Icmp6ParseReplies function parses the reply buffer provided and returns an IPv6 ICMPv6 echo response reply if found.
 old-location: iphlp\icmp6parsereplies.htm

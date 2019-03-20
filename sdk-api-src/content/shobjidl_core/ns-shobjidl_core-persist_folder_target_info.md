@@ -1,6 +1,6 @@
 ---
 UID: NS:shobjidl_core._PERSIST_FOLDER_TARGET_INFO
-title: PERSIST_FOLDER_TARGET_INFO
+title: PERSIST_FOLDER_TARGET_INFO (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies a folder shortcut's target folder and its attributes. This structure is used by IPersistFolder3::GetFolderTargetInfo and IPersistFolder3::InitializeEx.
 old-location: shell\PERSIST_FOLDER_TARGET_INFO_str.htm

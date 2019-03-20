@@ -1,6 +1,6 @@
 ---
 UID: NF:websocket.WebSocketDeleteHandle
-title: WebSocketDeleteHandle function
+title: WebSocketDeleteHandle function (websocket.h)
 author: windows-sdk-content
 description: Deletes a WebSocket session handle created by WebSocketCreateClientHandle or WebSocketCreateServerHandle.
 old-location: websock\websocketdeletehandle.htm

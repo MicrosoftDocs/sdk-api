@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.AddTrack
-title: IRawCDImageCreator::AddTrack
+title: IRawCDImageCreator::AddTrack (imapi2.h)
 author: windows-sdk-content
 description: Accepts the provided IStream object and saves the interface pointer as the next track in the image.
 old-location: imapi\irawcdimagecreator_addtrack.htm

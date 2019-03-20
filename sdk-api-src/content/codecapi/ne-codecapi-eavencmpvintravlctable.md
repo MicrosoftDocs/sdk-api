@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncMPVIntraVLCTable
-title: eAVEncMPVIntraVLCTable
+title: eAVEncMPVIntraVLCTable (codecapi.h)
 author: windows-sdk-content
 description: Specifies which variable-length coding (VLC) table to use for entropy coding. This enumeration is used with the AVEncMPVIntraVLCTable property.
 old-location: dshow\eavencmpvintravlctable.htm

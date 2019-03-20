@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IFolderView2
-title: IFolderView2
+title: IFolderView2 (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that retrieve information about a folder's display options, select specified items in that folder, and set the folder's view mode.
 old-location: shell\IFolderView2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IUserNotificationCallback.OnLeftClick
-title: IUserNotificationCallback::OnLeftClick
+title: IUserNotificationCallback::OnLeftClick (shobjidl.h)
 author: windows-sdk-content
 description: Called when the user clicks the icon in the notification area. The applications may launch some customary UI in response.
 old-location: shell\IUserNotificationCallback_OnLeftClick.htm

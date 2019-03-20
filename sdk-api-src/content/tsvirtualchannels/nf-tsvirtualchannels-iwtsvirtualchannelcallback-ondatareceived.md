@@ -1,6 +1,6 @@
 ---
 UID: NF:tsvirtualchannels.IWTSVirtualChannelCallback.OnDataReceived
-title: IWTSVirtualChannelCallback::OnDataReceived
+title: IWTSVirtualChannelCallback::OnDataReceived (tsvirtualchannels.h)
 author: windows-sdk-content
 description: Notifies the user about data that is being received.
 old-location: termserv\iwtsvirtualchannelcallback_ondatareceived.htm

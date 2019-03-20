@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.Pen(IN const Brush,IN REAL)
-title: Pen::Pen(IN const Brush,IN REAL)
+title: Pen::Pen(IN const Brush,IN REAL) (gdipluspen.h)
 author: windows-sdk-content
 description: Creates a Pen object that uses the attributes of a brush and a real number to set the width of this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_Pen_brush_width_.htm

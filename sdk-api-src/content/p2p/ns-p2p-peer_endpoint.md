@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_endpoint_tag
-title: PEER_ENDPOINT
+title: PEER_ENDPOINT (p2p.h)
 author: windows-sdk-content
 description: The PEER_ENDPOINT structure contains the address and friendly name of a peer endpoint.
 old-location: p2p\peer_endpoint.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:oledlg.IOleUIObjInfoW
-title: IOleUIObjInfoW
+title: IOleUIObjInfoW (oledlg.h)
 author: windows-sdk-content
 description: Implemented by containers and used by the container's Object Properties dialog box and by the Convert dialog box.
 old-location: com\ioleuiobjinfo.htm

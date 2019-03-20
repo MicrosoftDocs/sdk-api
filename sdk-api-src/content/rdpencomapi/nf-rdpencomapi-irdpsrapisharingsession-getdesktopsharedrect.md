@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.GetDesktopSharedRect
-title: IRDPSRAPISharingSession::GetDesktopSharedRect
+title: IRDPSRAPISharingSession::GetDesktopSharedRect (rdpencomapi.h)
 author: windows-sdk-content
 description: Retrieves the current desktop region being shared.
 old-location: rdp\irdpsrapisharingsession_getdesktopsharedrect.htm

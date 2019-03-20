@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMColorLessOrEqual
-title: XMColorLessOrEqual function
+title: XMColorLessOrEqual function (directxmath.h)
 author: windows-sdk-content
 description: Tests whether all the components of the first color are less than or equal to the corresponding components of the second color.
 old-location: dxmath\xmcolorlessorequal.htm

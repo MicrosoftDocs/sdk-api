@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.IsModeAvailable
-title: IFullScreenVideoEx::IsModeAvailable
+title: IFullScreenVideoEx::IsModeAvailable (amvideo.h)
 author: windows-sdk-content
 description: The IsModeAvailable method queries whether a specified display mode is available.
 old-location: dshow\ifullscreenvideoex_ismodeavailable.htm

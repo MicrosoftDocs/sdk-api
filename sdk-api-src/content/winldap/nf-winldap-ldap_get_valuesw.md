@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_get_valuesW
-title: ldap_get_valuesW function
+title: ldap_get_valuesW function (winldap.h)
 author: windows-sdk-content
 description: The ldap_get_values function retrieves the list of values of a given attribute.
 old-location: ldap\ldap_get_values.htm

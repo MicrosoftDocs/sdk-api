@@ -1,6 +1,6 @@
 ---
 UID: NC:perflib.PERFLIBREQUEST
-title: PERFLIBREQUEST
+title: PERFLIBREQUEST (perflib.h)
 author: windows-sdk-content
 description: Providers can implement this function to receive notification when consumers perform certain actions, such as adding or removing counters from a query.
 old-location: perf\controlcallback_perflibv2.htm

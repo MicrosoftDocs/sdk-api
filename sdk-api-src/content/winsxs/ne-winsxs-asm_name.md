@@ -1,6 +1,6 @@
 ---
 UID: NE:winsxs.__MIDL_IAssemblyName_0001
-title: ASM_NAME
+title: ASM_NAME (winsxs.h)
 author: windows-sdk-content
 description: The values of the ASM_NAME enumeration are the property IDs for the name-value pairs included in a side-by-side assembly name.
 old-location: setup\asm_name_.htm

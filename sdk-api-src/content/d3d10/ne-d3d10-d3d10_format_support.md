@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10.D3D10_FORMAT_SUPPORT
-title: D3D10_FORMAT_SUPPORT
+title: D3D10_FORMAT_SUPPORT (d3d10.h)
 author: windows-sdk-content
 description: Which resources are supported for a given format and given device (see ID3D10Device::CheckFormatSupport).
 old-location: direct3d10\d3d10_format_support.htm

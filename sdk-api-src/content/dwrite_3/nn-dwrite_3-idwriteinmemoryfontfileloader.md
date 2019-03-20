@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_3.IDWriteInMemoryFontFileLoader
-title: IDWriteInMemoryFontFileLoader
+title: IDWriteInMemoryFontFileLoader (dwrite_3.h)
 author: windows-sdk-content
 description: Represents a font file loader that can access in-memory fonts.
 old-location: directwrite\idwriteinmemoryfontfileloader.htm

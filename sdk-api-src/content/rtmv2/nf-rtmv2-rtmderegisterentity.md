@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmDeregisterEntity
-title: RtmDeregisterEntity function
+title: RtmDeregisterEntity function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmDeregisterEntity function unregisters a client from a routing table manager instance and address family.
 old-location: rras\rtmderegisterentity.htm

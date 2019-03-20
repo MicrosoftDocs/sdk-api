@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IPart.GetGlobalId
-title: IPart::GetGlobalId
+title: IPart::GetGlobalId (devicetopology.h)
 author: windows-sdk-content
 description: The GetGlobalId method gets the global ID of this part.
 old-location: coreaudio\ipart_getglobalid.htm

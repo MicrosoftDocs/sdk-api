@@ -1,6 +1,6 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0004
-title: ADS_PROV_SPECIFIC
+title: ADS_PROV_SPECIFIC (iads.h)
 author: windows-sdk-content
 description: The ADS_PROV_SPECIFIC structure contains provider-specific data represented as a binary large object (BLOB).
 old-location: adsi\ads_prov_specific.htm

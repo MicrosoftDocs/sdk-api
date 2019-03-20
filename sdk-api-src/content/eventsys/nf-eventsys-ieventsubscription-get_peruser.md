@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.get_PerUser
-title: IEventSubscription::get_PerUser
+title: IEventSubscription::get_PerUser (eventsys.h)
 author: windows-sdk-content
 description: Indicates whether the subscription receives the event only if the owner of the subscription is logged on to the same computer as the publisher.
 old-location: cos\ieventsubscription_peruser.htm

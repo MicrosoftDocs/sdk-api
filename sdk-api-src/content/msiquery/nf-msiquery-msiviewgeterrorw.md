@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiViewGetErrorW
-title: MsiViewGetErrorW function
+title: MsiViewGetErrorW function (msiquery.h)
 author: windows-sdk-content
 description: The MsiViewGetError function returns the error that occurred in the MsiViewModify function.
 old-location: setup\msiviewgeterror.htm

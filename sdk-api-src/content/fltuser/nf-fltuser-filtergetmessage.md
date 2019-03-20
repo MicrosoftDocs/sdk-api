@@ -1,6 +1,6 @@
 ---
 UID: NF:fltuser.FilterGetMessage
-title: FilterGetMessage function
+title: FilterGetMessage function (fltuser.h)
 author: windows-sdk-content
 description: The FilterGetMessage function gets a message from a kernel-mode minifilter.
 old-location: ifsk\filtergetmessage.htm

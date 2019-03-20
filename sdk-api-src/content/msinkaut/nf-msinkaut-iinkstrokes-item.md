@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokes.Item
-title: IInkStrokes::Item
+title: IInkStrokes::Item (msinkaut.h)
 author: windows-sdk-content
 description: Retrieves the IInkStrokeDisp object at the specified index within the InkStrokes collection.
 old-location: tablet\inkstrokes_item.htm

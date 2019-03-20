@@ -1,6 +1,6 @@
 ---
 UID: NF:relogger.ITraceRelogger.SetCompressionMode
-title: ITraceRelogger::SetCompressionMode
+title: ITraceRelogger::SetCompressionMode (relogger.h)
 author: windows-sdk-content
 description: Enables or disables compression on the relogged trace.
 old-location: etw\itracerelogger_setcompressionmode.htm

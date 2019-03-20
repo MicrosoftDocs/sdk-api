@@ -1,6 +1,6 @@
 ---
 UID: NC:winfax.PFAXACCESSCHECK
-title: PFAXACCESSCHECK
+title: PFAXACCESSCHECK (winfax.h)
 author: windows-sdk-content
 description: A fax client application calls the FaxAccessCheck function to query the fax access privileges of a user.
 old-location: fax\_mfax_faxaccesscheck.htm

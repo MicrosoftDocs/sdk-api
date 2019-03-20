@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextStrings.SuffixTop
-title: ITextStrings::SuffixTop
+title: ITextStrings::SuffixTop (tom.h)
 author: windows-sdk-content
 description: Suffixes a string to the top string in the collection.
 old-location: controls\itextstrings_suffixtop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP2.UnadviseSink
-title: ITextStoreACP2::UnadviseSink
+title: ITextStoreACP2::UnadviseSink (textstor.h)
 author: windows-sdk-content
 description: Called by an application to indicate that it no longer requires notifications from the TSF manager. The TSF manager will release the sink interface and stop notifications.
 old-location: tsf\itextstoreacp2_unadvisesink.htm

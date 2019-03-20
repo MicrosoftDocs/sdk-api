@@ -1,6 +1,6 @@
 ---
 UID: NS:xaudio2.XAUDIO2_BUFFER_WMA
-title: XAUDIO2_BUFFER_WMA
+title: XAUDIO2_BUFFER_WMA (xaudio2.h)
 author: windows-sdk-content
 description: Used with IXAudio2SourceVoice::SubmitSourceBuffer when submitting xWMA data.
 old-location: xaudio2\xaudio2_buffer_wma.htm

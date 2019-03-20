@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetWindowDisplayAffinity
-title: GetWindowDisplayAffinity function
+title: GetWindowDisplayAffinity function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the current display affinity setting, from any process, for a given window.
 old-location: winmsg\getwindowdisplayaffinity.htm

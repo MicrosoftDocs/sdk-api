@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingPortMapping.Disable
-title: INetSharingPortMapping::Disable
+title: INetSharingPortMapping::Disable (netcon.h)
 author: windows-sdk-content
 description: The Disable method disables a port mapping for a particular connection.
 old-location: ics\inetsharingportmapping_disable.htm

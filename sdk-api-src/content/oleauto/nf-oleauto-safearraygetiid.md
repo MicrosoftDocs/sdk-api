@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.SafeArrayGetIID
-title: SafeArrayGetIID function
+title: SafeArrayGetIID function (oleauto.h)
 author: windows-sdk-content
 description: Gets the GUID of the interface contained within the specified safe array.
 old-location: automat\safearraygetiid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wcsplugin._JabColorF
-title: JabColorF
+title: JabColorF (wcsplugin.h)
 author: windows-sdk-content
 description: TBD.
 old-location: wcs\jabcolorf.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wpcevent.tagWPC_ARGS_CONVERSATIONINITEVENT
-title: WPC_ARGS_CONVERSATIONINITEVENT
+title: WPC_ARGS_CONVERSATIONINITEVENT (wpcevent.h)
 author: windows-sdk-content
 description: Indicates information about initiating a conversation.
 old-location: parcon\wpc_args_conversationinitevent.htm

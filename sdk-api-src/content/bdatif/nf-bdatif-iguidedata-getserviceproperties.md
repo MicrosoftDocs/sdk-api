@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IGuideData.GetServiceProperties
-title: IGuideData::GetServiceProperties
+title: IGuideData::GetServiceProperties (bdatif.h)
 author: windows-sdk-content
 description: The GetServiceProperties method retrieves the properties for a specified service.
 old-location: mstv\iguidedata_getserviceproperties.htm

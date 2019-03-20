@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.SHCreateLibrary
-title: SHCreateLibrary function
+title: SHCreateLibrary function (shobjidl_core.h)
 author: windows-sdk-content
 description: Creates an IShellLibrary object.
 old-location: shell\SHCreateLibrary.htm

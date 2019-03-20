@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.ISCPSecureExchange.TransferContainerData
-title: ISCPSecureExchange::TransferContainerData
+title: ISCPSecureExchange::TransferContainerData (mswmdm.h)
 author: windows-sdk-content
 description: The TransferContainerData method transfers container file data to the secure content provider. The secure content provider breaks down the container internally and reports which parts of the content are available as they are extracted from the container.
 old-location: wmdm\iscpsecureexchange_transfercontainerdata.htm

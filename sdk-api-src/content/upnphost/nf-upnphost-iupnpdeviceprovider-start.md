@@ -1,6 +1,6 @@
 ---
 UID: NF:upnphost.IUPnPDeviceProvider.Start
-title: IUPnPDeviceProvider::Start
+title: IUPnPDeviceProvider::Start (upnphost.h)
 author: windows-sdk-content
 description: The Start method starts the device provider. The device host invokes this method after it loads the device provider This method performs any initialization required by the device provider.
 old-location: upnp\iupnpdeviceprovider_start.htm

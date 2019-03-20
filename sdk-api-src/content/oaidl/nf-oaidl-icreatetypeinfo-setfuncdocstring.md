@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetFuncDocString
-title: ICreateTypeInfo::SetFuncDocString
+title: ICreateTypeInfo::SetFuncDocString (oaidl.h)
 author: windows-sdk-content
 description: Sets the documentation string for the function with the specified index.
 old-location: automat\icreatetypeinfo_setfuncdocstring.htm

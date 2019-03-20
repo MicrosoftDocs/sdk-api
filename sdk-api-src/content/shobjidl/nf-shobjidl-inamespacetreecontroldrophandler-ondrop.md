@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlDropHandler.OnDrop
-title: INameSpaceTreeControlDropHandler::OnDrop
+title: INameSpaceTreeControlDropHandler::OnDrop (shobjidl.h)
 author: windows-sdk-content
 description: Called on drop to set drop effect, as specified.
 old-location: shell\INameSpaceTreeControlDropHandler_OnDrop.htm

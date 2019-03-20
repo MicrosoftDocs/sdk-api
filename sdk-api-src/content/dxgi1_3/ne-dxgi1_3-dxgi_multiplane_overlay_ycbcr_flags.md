@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgi1_3.DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
-title: DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
+title: DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS (dxgi1_3.h)
 author: windows-sdk-content
 description: Options for swap-chain color space.
 old-location: direct3ddxgi\dxgi_multiplane_overlay_ycbcr_flags.htm

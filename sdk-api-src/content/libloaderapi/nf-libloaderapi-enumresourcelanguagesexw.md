@@ -1,6 +1,6 @@
 ---
 UID: NF:libloaderapi.EnumResourceLanguagesExW
-title: EnumResourceLanguagesExW function
+title: EnumResourceLanguagesExW function (libloaderapi.h)
 author: windows-sdk-content
 description: Enumerates language-specific resources, of the specified type and name, associated with a specified binary module. Extends EnumResourceLanguages by allowing more control over the enumeration.
 old-location: menurc\enumresourcelanguagesex.htm

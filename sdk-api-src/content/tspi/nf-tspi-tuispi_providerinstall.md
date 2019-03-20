@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TUISPI_providerInstall
-title: TUISPI_providerInstall function
+title: TUISPI_providerInstall function (tspi.h)
 author: windows-sdk-content
 description: Implementation of the TUISPI_providerInstall function is the service provider's opportunity to install any additional &#0034;pieces&#0034; of the provider into the right directories and set up registry entries the provider needs.
 old-location: tspi\tuispi_providerinstall.htm

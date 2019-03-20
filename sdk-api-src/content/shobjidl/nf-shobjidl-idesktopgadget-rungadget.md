@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IDesktopGadget.RunGadget
-title: IDesktopGadget::RunGadget
+title: IDesktopGadget::RunGadget (shobjidl.h)
 author: windows-sdk-content
 description: Adds an installed gadget to the desktop.
 old-location: shell\IDesktopGadget_RunGadget.htm

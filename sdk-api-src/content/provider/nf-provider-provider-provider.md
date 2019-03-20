@@ -1,6 +1,6 @@
 ---
 UID: NF:provider.Provider.Provider
-title: Provider::Provider
+title: Provider::Provider (provider.h)
 author: windows-sdk-content
 description: The Provider method creates an instance of a provider. This method is part of the WMI Provider Framework.
 old-location: wmi\provider_provider.htm

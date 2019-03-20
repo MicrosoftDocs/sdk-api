@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2data.IMpeg2TableFilter.RemoveExtension
-title: IMpeg2TableFilter::RemoveExtension
+title: IMpeg2TableFilter::RemoveExtension (mpeg2data.h)
 author: windows-sdk-content
 description: The RemoveExtension method removes a table extension from the list of MPEG-2 table sections that the filter sends.
 old-location: mstv\impeg2tablefilter_removeextension.htm

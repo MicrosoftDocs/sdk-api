@@ -1,6 +1,6 @@
 ---
 UID: NN:inputpanelconfiguration.IInputPanelInvocationConfiguration
-title: IInputPanelInvocationConfiguration
+title: IInputPanelInvocationConfiguration (inputpanelconfiguration.h)
 author: windows-sdk-content
 description: Enables Windows Store apps to opt out of the automatic invocation behavior.
 old-location: shell\iinputpanelinvocationconfiguration.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.ILCloneFull
-title: ILCloneFull function
+title: ILCloneFull function (shlobj_core.h)
 author: windows-sdk-content
 description: Clones a full, or absolute, ITEMIDLIST structure.
 old-location: shell\ILCloneFull.htm

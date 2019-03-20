@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.FindNextVolumeA
-title: FindNextVolumeA function
+title: FindNextVolumeA function (winbase.h)
 author: windows-sdk-content
 description: Continues a volume search started by a call to the FindFirstVolume function.
 old-location: fs\findnextvolume.htm

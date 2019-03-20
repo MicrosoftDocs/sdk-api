@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList4.ExecuteMetaCommand
-title: ID3D12GraphicsCommandList4::ExecuteMetaCommand
+title: ID3D12GraphicsCommandList4::ExecuteMetaCommand (d3d12.h)
 author: windows-sdk-content
 description: Records the execution (or invocation) of the specified meta command into a graphics command list.
 old-location: direct3d12\id3d12graphicscommandlist4_executemetacommand.htm

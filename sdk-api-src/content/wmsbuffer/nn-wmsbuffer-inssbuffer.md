@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsbuffer.INSSBuffer
-title: INSSBuffer
+title: INSSBuffer (wmsbuffer.h)
 author: windows-sdk-content
 description: The INSSBuffer interface is the basic interface of a buffer object.
 old-location: wmformat\inssbuffer.htm

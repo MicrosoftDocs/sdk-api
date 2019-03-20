@@ -1,6 +1,6 @@
 ---
 UID: NF:pathcch.PathCchCanonicalizeEx
-title: PathCchCanonicalizeEx function
+title: PathCchCanonicalizeEx function (pathcch.h)
 author: windows-sdk-content
 description: Simplifies a path by removing navigation elements such as &#0034;.&#0034; and &#0034;..&#0034; to produce a direct, well-formed path.This function differs from PathCchCanonicalize in that it allows for a longer final path to be constructed.This function differs from PathAllocCanonicalize in that the caller must declare the size of the returned string, which is stored on the stack.This function differs from PathCanonicalize in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
 old-location: shell\PathCchCanonicalizeEx.htm

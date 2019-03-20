@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ISharingConfigurationManager.SharePrinters
-title: ISharingConfigurationManager::SharePrinters
+title: ISharingConfigurationManager::SharePrinters (shobjidl_core.h)
 author: windows-sdk-content
 description: Shares all local printers connected to a computer, enabling them to be discovered by other computers on the network.
 old-location: shell\ISharingConfigurationManager_SharePrinters.htm

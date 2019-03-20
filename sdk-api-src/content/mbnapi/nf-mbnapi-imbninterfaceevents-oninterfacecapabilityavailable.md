@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceEvents.OnInterfaceCapabilityAvailable
-title: IMbnInterfaceEvents::OnInterfaceCapabilityAvailable
+title: IMbnInterfaceEvents::OnInterfaceCapabilityAvailable (mbnapi.h)
 author: windows-sdk-content
 description: This notification method is called by the Mobile Broadband service to indicate that interface capability information is available.
 old-location: mbn\imbninterfaceevents_oninterfacecapabilityavailable.htm

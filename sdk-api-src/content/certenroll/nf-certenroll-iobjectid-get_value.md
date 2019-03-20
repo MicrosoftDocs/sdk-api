@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IObjectId.get_Value
-title: IObjectId::get_Value
+title: IObjectId::get_Value (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a string that contains the dotted decimal object identifier (OID).
 old-location: security\iobjectid_value_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyBackedUp.get_BackedUpValue
-title: ICertPropertyBackedUp::get_BackedUpValue
+title: ICertPropertyBackedUp::get_BackedUpValue (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a Boolean value that identifies whether the certificate was backed up.
 old-location: security\icertpropertybackedup_backedupvalue_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._IMAGE_COFF_SYMBOLS_HEADER
-title: IMAGE_COFF_SYMBOLS_HEADER
+title: IMAGE_COFF_SYMBOLS_HEADER (winnt.h)
 author: windows-sdk-content
 description: Represents the COFF symbols header.
 old-location: base\image_coff_symbols_header_str.htm

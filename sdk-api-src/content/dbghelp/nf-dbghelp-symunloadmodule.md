@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymUnloadModule
-title: SymUnloadModule function
+title: SymUnloadModule function (dbghelp.h)
 author: windows-sdk-content
 description: Unloads the symbol table.
 old-location: base\symunloadmodule64.htm

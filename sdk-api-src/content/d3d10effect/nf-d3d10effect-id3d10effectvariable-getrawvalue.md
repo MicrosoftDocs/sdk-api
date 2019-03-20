@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.GetRawValue
-title: ID3D10EffectVariable::GetRawValue
+title: ID3D10EffectVariable::GetRawValue (d3d10effect.h)
 author: windows-sdk-content
 description: Get data.
 old-location: direct3d10\id3d10effectvariable_getrawvalue.htm

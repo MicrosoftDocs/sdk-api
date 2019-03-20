@@ -1,6 +1,6 @@
 ---
 UID: NE:winnt._HARDWARE_COUNTER_TYPE
-title: HARDWARE_COUNTER_TYPE
+title: HARDWARE_COUNTER_TYPE (winnt.h)
 author: windows-sdk-content
 description: Defines the types of hardware counters being profiled.
 old-location: hcp\hardware_counter_type.htm

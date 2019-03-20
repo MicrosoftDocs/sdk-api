@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext2.CreateInk(const D2D1_INK_POINT &,ID2D1Ink)
-title: ID2D1DeviceContext2::CreateInk(const D2D1_INK_POINT &,ID2D1Ink)
+title: ID2D1DeviceContext2::CreateInk(const D2D1_INK_POINT &,ID2D1Ink) (d2d1_3.h)
 author: windows-sdk-content
 description: Creates a new ID2D1Ink object that starts at the given point.
 old-location: direct2d\id2d1devicecontext2_createink.htm

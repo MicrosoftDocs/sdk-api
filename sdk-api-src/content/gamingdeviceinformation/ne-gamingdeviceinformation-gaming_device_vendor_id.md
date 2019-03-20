@@ -1,6 +1,6 @@
 ---
 UID: NE:gamingdeviceinformation.GAMING_DEVICE_VENDOR_ID
-title: GAMING_DEVICE_VENDOR_ID
+title: GAMING_DEVICE_VENDOR_ID (gamingdeviceinformation.h)
 author: windows-sdk-content
 description: Indicates the vendor of the console that the game is running on.
 old-location: gamingdvcinfo\gaming_device_vendor_id.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateTopoLoader
-title: MFCreateTopoLoader function
+title: MFCreateTopoLoader function (mfidl.h)
 author: windows-sdk-content
 description: Creates a new instance of the topology loader.
 old-location: mf\mfcreatetopoloader.htm

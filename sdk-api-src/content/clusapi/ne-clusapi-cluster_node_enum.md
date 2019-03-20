@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.CLUSTER_NODE_ENUM
-title: CLUSTER_NODE_ENUM
+title: CLUSTER_NODE_ENUM (clusapi.h)
 author: windows-sdk-content
 description: Describes the types of cluster objects that are enumerated by the ClusterNodeEnum and ClusterNodeOpenEnum functions.
 old-location: mscs\cluster_node_enum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetCursor
-title: GetCursor function
+title: GetCursor function (winuser.h)
 author: windows-sdk-content
 description: Retrieves a handle to the current cursor.
 old-location: menurc\getcursor.htm

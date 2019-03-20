@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDeviceManager.GetRevision
-title: IWMDeviceManager::GetRevision
+title: IWMDeviceManager::GetRevision (mswmdm.h)
 author: windows-sdk-content
 description: The GetRevision method retrieves the version number of Windows Media Device Manager currently in use.
 old-location: wmdm\iwmdevicemanager_getrevision.htm

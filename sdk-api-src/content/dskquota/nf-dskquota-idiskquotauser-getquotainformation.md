@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.GetQuotaInformation
-title: IDiskQuotaUser::GetQuotaInformation
+title: IDiskQuotaUser::GetQuotaInformation (dskquota.h)
 author: windows-sdk-content
 description: Retrieves the values for the user's warning threshold, hard quota limit, and quota used.
 old-location: fs\idiskquotauser_getquotainformation.htm

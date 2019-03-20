@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11Device.CheckCounter
-title: ID3D11Device::CheckCounter
+title: ID3D11Device::CheckCounter (d3d11.h)
 author: windows-sdk-content
 description: Get the type, name, units of measure, and a description of an existing counter.
 old-location: direct3d11\id3d11device_checkcounter.htm

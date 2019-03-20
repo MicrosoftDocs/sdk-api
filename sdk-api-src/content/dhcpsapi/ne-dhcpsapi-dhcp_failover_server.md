@@ -1,6 +1,6 @@
 ---
 UID: NE:dhcpsapi._DHCP_FAILOVER_SERVER
-title: DHCP_FAILOVER_SERVER
+title: DHCP_FAILOVER_SERVER (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_FAILOVER_SERVER enumeration defines whether the DHCP server is the primary or secondary server in a DHCPv4 failover relationship.
 old-location: dhcp\dhcp_failover_server.htm

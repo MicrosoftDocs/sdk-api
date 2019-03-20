@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnLMProcessor.InvokeKey
-title: ITfFnLMProcessor::InvokeKey
+title: ITfFnLMProcessor::InvokeKey (ctffunc.h)
 author: windows-sdk-content
 description: ITfFnLMProcessor::InvokeKey method
 old-location: tsf\itffnlmprocessor_invokekey.htm

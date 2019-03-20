@@ -1,6 +1,6 @@
 ---
 UID: NC:winnls.LOCALE_ENUMPROCEX
-title: LOCALE_ENUMPROCEX
+title: LOCALE_ENUMPROCEX (winnls.h)
 author: windows-sdk-content
 description: An application-defined callback function that processes enumerated locale information provided by the EnumSystemLocalesEx function.
 old-location: intl\enumlocalesprocex.htm

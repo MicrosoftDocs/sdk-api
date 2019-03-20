@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.ColorBalance.SetParameters
-title: ColorBalance::SetParameters
+title: ColorBalance::SetParameters (gdipluseffects.h)
 author: windows-sdk-content
 description: The ColorBalance::SetParameters method sets the parameters of this ColorBalance object.
 old-location: gdiplus\_gdiplus_CLASS_ColorBalance_SetParameters_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2.AddRef
-title: IXAudio2::AddRef
+title: IXAudio2::AddRef (xaudio2.h)
 author: windows-sdk-content
 description: Adds a reference to the XAudio2 object.
 old-location: xaudio2\ixaudio2_interface_addref.htm

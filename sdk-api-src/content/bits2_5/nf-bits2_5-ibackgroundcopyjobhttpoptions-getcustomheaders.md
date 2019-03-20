@@ -1,6 +1,6 @@
 ---
 UID: NF:bits2_5.IBackgroundCopyJobHttpOptions.GetCustomHeaders
-title: IBackgroundCopyJobHttpOptions::GetCustomHeaders
+title: IBackgroundCopyJobHttpOptions::GetCustomHeaders (bits2_5.h)
 author: windows-sdk-content
 description: Retrieves the custom headers set by an earlier call to IBackgroundCopyJobHttpOptions::SetCustomHeaders (that is, headers which BITS will be sending to the remote, not headers which BITS receives from the remote).
 old-location: bits\ibackgroundcopyjobhttpoptions_getcustomheaders.htm

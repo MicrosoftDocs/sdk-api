@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMWrite
-title: IComCRMEvents::OnCRMWrite
+title: IComCRMEvents::OnCRMWrite (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a CRM clerk receives a request to write a log record, either from the CRM worker or CRM compensator.
 old-location: cos\icomcrmevents_oncrmwrite.htm

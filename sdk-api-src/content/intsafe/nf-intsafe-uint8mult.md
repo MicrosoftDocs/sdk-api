@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.UInt8Mult
-title: UInt8Mult function
+title: UInt8Mult function (intsafe.h)
 author: windows-sdk-content
 description: Multiplies two values of type UINT8.
 old-location: shell\UInt8Mult.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidPlayback.put_CurrentPosition
-title: IMSVidPlayback::put_CurrentPosition
+title: IMSVidPlayback::put_CurrentPosition (segment.h)
 author: windows-sdk-content
 description: The put_CurrentPosition method seeks to a specified position in the source.
 old-location: mstv\imsvidplayback_put_currentposition.htm

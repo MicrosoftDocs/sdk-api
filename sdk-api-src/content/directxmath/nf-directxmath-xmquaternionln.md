@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMQuaternionLn
-title: XMQuaternionLn function
+title: XMQuaternionLn function (directxmath.h)
 author: windows-sdk-content
 description: Computes the natural logarithm of a given unit quaternion.
 old-location: dxmath\xmquaternionln.htm

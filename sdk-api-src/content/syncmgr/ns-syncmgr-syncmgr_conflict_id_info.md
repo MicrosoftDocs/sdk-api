@@ -1,6 +1,6 @@
 ---
 UID: NS:syncmgr.SYNCMGR_CONFLICT_ID_INFO
-title: SYNCMGR_CONFLICT_ID_INFO
+title: SYNCMGR_CONFLICT_ID_INFO (syncmgr.h)
 author: windows-sdk-content
 description: Describes conflict ID information structure.
 old-location: shell\SYNCMGR_CONFLICT_ID_INFO.htm

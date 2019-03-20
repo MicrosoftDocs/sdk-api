@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterface.SetPreferredProviders
-title: IMbnInterface::SetPreferredProviders
+title: IMbnInterface::SetPreferredProviders (mbnapi.h)
 author: windows-sdk-content
 description: Updates the preferred providers list for the device.
 old-location: mbn\imbninterface_setpreferredproviders.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFNetCredential.GetUser
-title: IMFNetCredential::GetUser
+title: IMFNetCredential::GetUser (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the user name.
 old-location: mf\imfnetcredential_getuser.htm

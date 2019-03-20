@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagRID_DEVICE_INFO_KEYBOARD
-title: RID_DEVICE_INFO_KEYBOARD
+title: RID_DEVICE_INFO_KEYBOARD (winuser.h)
 author: windows-sdk-content
 description: Defines the raw input data coming from the specified keyboard.
 old-location: inputdev\rid_device_info_keyboard.htm

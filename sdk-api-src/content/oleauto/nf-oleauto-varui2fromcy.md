@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarUI2FromCy
-title: VarUI2FromCy function
+title: VarUI2FromCy function (oleauto.h)
 author: windows-sdk-content
 description: Converts a currency value to an unsigned short value.
 old-location: automat\varui2fromcy.htm

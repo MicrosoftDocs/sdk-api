@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSAConnect
-title: WSAConnect function
+title: WSAConnect function (winsock2.h)
 author: windows-sdk-content
 description: The WSAConnect function establishes a connection to another socket application, exchanges connect data, and specifies required quality of service based on the specified FLOWSPEC structure.
 old-location: winsock\wsaconnect_2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.MFSerializeAttributesToStream
-title: MFSerializeAttributesToStream function
+title: MFSerializeAttributesToStream function (mfobjects.h)
 author: windows-sdk-content
 description: Writes the contents of an attribute store to a stream.
 old-location: mf\mfserializeattributestostream.htm

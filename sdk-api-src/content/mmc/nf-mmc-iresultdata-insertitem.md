@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IResultData.InsertItem
-title: IResultData::InsertItem
+title: IResultData::InsertItem (mmc.h)
 author: windows-sdk-content
 description: The IResultData::InsertItem method enables the snap-in to add a single new item to the result pane view.
 old-location: mmc\iresultdata_insertitem.htm

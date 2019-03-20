@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.AddCertTypeToRequestWStr
-title: IEnroll::AddCertTypeToRequestWStr
+title: IEnroll::AddCertTypeToRequestWStr (xenroll.h)
 author: windows-sdk-content
 description: Adds a certificate template to a request (used to support the enterprise certification authority (CA)).
 old-location: security\ienroll4_addcerttypetorequestwstr.htm

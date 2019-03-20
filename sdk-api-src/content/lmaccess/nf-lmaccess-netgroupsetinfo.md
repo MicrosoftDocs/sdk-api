@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetGroupSetInfo
-title: NetGroupSetInfo function
+title: NetGroupSetInfo function (lmaccess.h)
 author: windows-sdk-content
 description: The NetGroupSetInfo function sets the parameters of a global group in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\netgroupsetinfo.htm

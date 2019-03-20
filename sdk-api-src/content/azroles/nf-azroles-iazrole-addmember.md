@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRole.AddMember
-title: IAzRole::AddMember
+title: IAzRole::AddMember (azroles.h)
 author: windows-sdk-content
 description: Adds the specified security identifier (SID) in text form to the list of Windows accounts that belong to the role.
 old-location: security\iazrole_addmember.htm

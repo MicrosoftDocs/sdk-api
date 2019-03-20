@@ -1,6 +1,6 @@
 ---
 UID: NF:winsafer.SaferGetLevelInformation
-title: SaferGetLevelInformation function
+title: SaferGetLevelInformation function (winsafer.h)
 author: windows-sdk-content
 description: Retrieves information about a policy level.
 old-location: security\safergetlevelinformation.htm

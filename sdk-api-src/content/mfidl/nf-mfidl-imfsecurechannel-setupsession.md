@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSecureChannel.SetupSession
-title: IMFSecureChannel::SetupSession
+title: IMFSecureChannel::SetupSession (mfidl.h)
 author: windows-sdk-content
 description: Passes the encrypted session key to the client.
 old-location: mf\imfsecurechannel_setupsession.htm

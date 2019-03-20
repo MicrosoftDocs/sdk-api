@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertificatePolicies.Clear
-title: ICertificatePolicies::Clear
+title: ICertificatePolicies::Clear (certenroll.h)
 author: windows-sdk-content
 description: Removes all objects from the collection.
 old-location: security\icertificatepolicies_clear_method.htm

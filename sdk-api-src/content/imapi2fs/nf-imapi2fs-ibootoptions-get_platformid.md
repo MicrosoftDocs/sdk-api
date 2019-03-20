@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IBootOptions.get_PlatformId
-title: IBootOptions::get_PlatformId
+title: IBootOptions::get_PlatformId (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the platform identifier that identifies the operating system architecture that the boot image supports.
 old-location: imapi\ibootoptions_get_platformid.htm

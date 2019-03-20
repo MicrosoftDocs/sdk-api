@@ -1,6 +1,6 @@
 ---
 UID: NE:vdshwprv._VDS_NOTIFICATION_TARGET_TYPE
-title: VDS_NOTIFICATION_TARGET_TYPE
+title: VDS_NOTIFICATION_TARGET_TYPE (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the set of the valid target types (subjects) of a VDS notification.
 old-location: base\vds_notification_target_type.htm

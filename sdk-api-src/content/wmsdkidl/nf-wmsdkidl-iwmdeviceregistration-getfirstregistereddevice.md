@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDeviceRegistration.GetFirstRegisteredDevice
-title: IWMDeviceRegistration::GetFirstRegisteredDevice
+title: IWMDeviceRegistration::GetFirstRegisteredDevice (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetFirstRegisteredDevice method retrieves information about the first device of a specified type that is in the device registration database.
 old-location: wmformat\iwmdeviceregistration_getfirstregistereddevice.htm

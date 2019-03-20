@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IUIAutomationRegistrar.RegisterEvent
-title: IUIAutomationRegistrar::RegisterEvent
+title: IUIAutomationRegistrar::RegisterEvent (uiautomationcore.h)
 author: windows-sdk-content
 description: Registers a third-party Microsoft UI Automation event.
 old-location: winauto\uiauto_IUIAutomationRegistrar_RegisterEvent.htm

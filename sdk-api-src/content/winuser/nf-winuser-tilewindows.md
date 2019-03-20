@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.TileWindows
-title: TileWindows function
+title: TileWindows function (winuser.h)
 author: windows-sdk-content
 description: Tiles the specified child windows of the specified parent window.
 old-location: winmsg\tilewindows.htm

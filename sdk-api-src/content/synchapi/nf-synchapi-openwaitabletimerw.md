@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.OpenWaitableTimerW
-title: OpenWaitableTimerW function
+title: OpenWaitableTimerW function (synchapi.h)
 author: windows-sdk-content
 description: Opens an existing named waitable timer object.
 old-location: base\openwaitabletimer.htm

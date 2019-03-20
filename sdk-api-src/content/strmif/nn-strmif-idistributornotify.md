@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IDistributorNotify
-title: IDistributorNotify
+title: IDistributorNotify (strmif.h)
 author: windows-sdk-content
 description: The IDistributorNotify interface enables a plug-in distributor to be notified when the filter graph changes.Applications never use this interface.
 old-location: dshow\idistributornotify.htm

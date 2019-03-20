@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertificationAuthorities.Add
-title: ICertificationAuthorities::Add
+title: ICertificationAuthorities::Add (certenroll.h)
 author: windows-sdk-content
 description: Adds an ICertificationAuthority object to the collection.
 old-location: security\icertificationauthorities_add.htm

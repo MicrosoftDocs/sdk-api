@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSimpleAudioVolume.SetMasterVolume
-title: IMFSimpleAudioVolume::SetMasterVolume
+title: IMFSimpleAudioVolume::SetMasterVolume (mfidl.h)
 author: windows-sdk-content
 description: Sets the master volume level.
 old-location: mf\imfsimpleaudiovolume_setmastervolume.htm

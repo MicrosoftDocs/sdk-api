@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnPinManager.GetPin
-title: IMbnPinManager::GetPin
+title: IMbnPinManager::GetPin (mbnapi.h)
 author: windows-sdk-content
 description: Gets a specific type of PIN.
 old-location: mbn\imbnpinmanager_getpin.htm

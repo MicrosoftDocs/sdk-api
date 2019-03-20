@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_FrequencyFilter.get_Bandwidth
-title: IBDA_FrequencyFilter::get_Bandwidth
+title: IBDA_FrequencyFilter::get_Bandwidth (bdaiface.h)
 author: windows-sdk-content
 description: The get_Bandwidth method retrieves the bandwidth.
 old-location: mstv\ibda_frequencyfilter_get_bandwidth.htm

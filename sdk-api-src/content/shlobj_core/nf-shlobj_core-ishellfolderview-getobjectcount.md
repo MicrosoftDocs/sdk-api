@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.GetObjectCount
-title: IShellFolderView::GetObjectCount
+title: IShellFolderView::GetObjectCount (shlobj_core.h)
 author: windows-sdk-content
 description: Gets the number of items in the folder view.
 old-location: shell\IShellFolderView_GetObjectCount.htm

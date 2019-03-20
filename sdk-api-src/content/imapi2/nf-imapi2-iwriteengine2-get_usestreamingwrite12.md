@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IWriteEngine2.get_UseStreamingWrite12
-title: IWriteEngine2::get_UseStreamingWrite12
+title: IWriteEngine2::get_UseStreamingWrite12 (imapi2.h)
 author: windows-sdk-content
 description: Retrieves a value that indicates if the write operations use the WRITE12 or WRITE10 command.
 old-location: imapi\iwriteengine2_get_usestreamingwrite12.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IResultData.Sort
-title: IResultData::Sort
+title: IResultData::Sort (mmc.h)
 author: windows-sdk-content
 description: Sorts all items in the result pane.
 old-location: mmc\iresultdata_sort.htm

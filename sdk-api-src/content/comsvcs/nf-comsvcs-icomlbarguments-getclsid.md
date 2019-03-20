@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICOMLBArguments.GetCLSID
-title: ICOMLBArguments::GetCLSID
+title: ICOMLBArguments::GetCLSID (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the object's CLSID.
 old-location: cos\icomlbarguments_getclsid.htm

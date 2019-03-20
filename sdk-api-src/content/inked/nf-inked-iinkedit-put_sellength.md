@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.put_SelLength
-title: IInkEdit::put_SelLength
+title: IInkEdit::put_SelLength (inked.h)
 author: windows-sdk-content
 description: Gets or sets the number of characters that are selected in the InkEdit control (run time only).
 old-location: tablet\inkedit_sellength.htm

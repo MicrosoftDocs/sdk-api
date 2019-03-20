@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.InterlockedAdd
-title: InterlockedAdd function
+title: InterlockedAdd function (winnt.h)
 author: windows-sdk-content
 description: Performs an atomic addition operation on the specified LONG values.
 old-location: base\interlockedadd.htm

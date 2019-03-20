@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_11
-title: Error_Spec_IPv4
+title: Error_Spec_IPv4 (lpmapi.h)
 author: windows-sdk-content
 description: The Error_Spec_IPv4 structure stores error code information for RSVP transmissions.
 old-location: qos\error_spec_ipv4.htm

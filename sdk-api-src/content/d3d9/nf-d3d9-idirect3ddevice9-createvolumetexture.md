@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.CreateVolumeTexture
-title: IDirect3DDevice9::CreateVolumeTexture
+title: IDirect3DDevice9::CreateVolumeTexture (d3d9.h)
 author: windows-sdk-content
 description: Creates a volume texture resource.
 old-location: direct3d9\idirect3ddevice9__createvolumetexture.htm

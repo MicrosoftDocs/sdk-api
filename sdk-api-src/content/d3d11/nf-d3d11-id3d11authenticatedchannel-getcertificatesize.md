@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11AuthenticatedChannel.GetCertificateSize
-title: ID3D11AuthenticatedChannel::GetCertificateSize
+title: ID3D11AuthenticatedChannel::GetCertificateSize (d3d11.h)
 author: windows-sdk-content
 description: Gets the size of the driver's certificate chain.
 old-location: mf\id3d11authenticatedchannel_getcertificatesize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.Intersect(IN const Region)
-title: Region::Intersect(IN const Region)
+title: Region::Intersect(IN const Region) (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Region::Intersect method updates this region to the portion of itself that intersects another region.
 old-location: gdiplus\_gdiplus_CLASS_Region_Intersect_region_.htm

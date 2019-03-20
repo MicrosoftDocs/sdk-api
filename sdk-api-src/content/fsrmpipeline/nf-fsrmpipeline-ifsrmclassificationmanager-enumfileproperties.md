@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.EnumFileProperties
-title: IFsrmClassificationManager::EnumFileProperties
+title: IFsrmClassificationManager::EnumFileProperties (fsrmpipeline.h)
 author: windows-sdk-content
 description: Enumerates the properties of the specified file.
 old-location: fsrm\ifsrmclassificationmanager_enumfileproperties.htm

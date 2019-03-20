@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.PCHANGE_RESOURCE_PROCESS_FOR_DUMPS
-title: PCHANGE_RESOURCE_PROCESS_FOR_DUMPS
+title: PCHANGE_RESOURCE_PROCESS_FOR_DUMPS (resapi.h)
 author: windows-sdk-content
 description: The PCHANGE_RESOURCE_PROCESS_FOR_DUMPS type defines a pointer to this function.
 old-location: mscs\changeresourceprocessfordumps.htm

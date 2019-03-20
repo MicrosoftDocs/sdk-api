@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItem.GetItemInfo
-title: ISyncMgrSyncItem::GetItemInfo
+title: ISyncMgrSyncItem::GetItemInfo (syncmgr.h)
 author: windows-sdk-content
 description: Gets the properties of a sync item.
 old-location: shell\ISyncMgrSyncItem_GetItemInfo.htm

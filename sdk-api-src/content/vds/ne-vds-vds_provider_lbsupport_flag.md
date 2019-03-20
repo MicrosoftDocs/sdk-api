@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_PROVIDER_LBSUPPORT_FLAG
-title: VDS_PROVIDER_LBSUPPORT_FLAG
+title: VDS_PROVIDER_LBSUPPORT_FLAG (vds.h)
 author: windows-sdk-content
 description: Specifies the set of valid flags for indicating which load balance policies a hardware provider supports.
 old-location: base\vds_provider_lbsupport_flag.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:netlistmgr.NLM_SIMULATED_PROFILE_INFO
-title: NLM_SIMULATED_PROFILE_INFO
+title: NLM_SIMULATED_PROFILE_INFO (netlistmgr.h)
 author: windows-sdk-content
 description: Used to specify values that are used by SetSimulatedProfileInfo to override current internet connection profile values in an RDP Child Session to support the simulation of specific metered internet connection conditions.
 old-location: nla\nlm_simulated_profile_info.htm

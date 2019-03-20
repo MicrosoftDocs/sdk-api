@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardAccessStartedEvent
-title: SCardAccessStartedEvent function
+title: SCardAccessStartedEvent function (winscard.h)
 author: windows-sdk-content
 description: Returns an event handle when an event signals that the smart card resource manager is started.
 old-location: security\scardaccessstartedevent.htm

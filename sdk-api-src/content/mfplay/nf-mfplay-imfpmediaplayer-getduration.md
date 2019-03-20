@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetDuration
-title: IMFPMediaPlayer::GetDuration
+title: IMFPMediaPlayer::GetDuration (mfplay.h)
 author: windows-sdk-content
 description: Gets the playback duration of the current media item.
 old-location: mf\imfpmediaplayer_getduration.htm

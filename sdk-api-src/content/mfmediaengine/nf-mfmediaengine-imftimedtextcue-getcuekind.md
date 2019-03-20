@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextCue.GetCueKind
-title: IMFTimedTextCue::GetCueKind
+title: IMFTimedTextCue::GetCueKind (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the kind of timed-text cue.
 old-location: mf\imftimedtextcue_getcuekind.htm

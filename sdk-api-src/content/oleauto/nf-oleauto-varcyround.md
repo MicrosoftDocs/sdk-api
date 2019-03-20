@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarCyRound
-title: VarCyRound function
+title: VarCyRound function (oleauto.h)
 author: windows-sdk-content
 description: Rounds a variant of type currency to the specified number of decimal places.
 old-location: automat\varcyround.htm

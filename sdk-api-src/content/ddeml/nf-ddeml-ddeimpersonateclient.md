@@ -1,6 +1,6 @@
 ---
 UID: NF:ddeml.DdeImpersonateClient
-title: DdeImpersonateClient function
+title: DdeImpersonateClient function (ddeml.h)
 author: windows-sdk-content
 description: Impersonates a Dynamic Data Exchange (DDE) client application in a DDE client conversation.
 old-location: dataxchg\ddeimpersonateclient.htm

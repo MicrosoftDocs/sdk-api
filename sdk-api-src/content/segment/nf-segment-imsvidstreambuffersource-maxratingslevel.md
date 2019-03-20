@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSource.MaxRatingsLevel
-title: IMSVidStreamBufferSource::MaxRatingsLevel
+title: IMSVidStreamBufferSource::MaxRatingsLevel (segment.h)
 author: windows-sdk-content
 description: The MaxRatingsLevel method specifies the maximum ratings level the object is permitted to play.
 old-location: mstv\imsvidstreambuffersource_maxratingslevel.htm

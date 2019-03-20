@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.InkRecognitionAlternatesSelection
-title: InkRecognitionAlternatesSelection
+title: InkRecognitionAlternatesSelection (msinkaut.h)
 author: windows-sdk-content
 description: Not implemented.
 old-location: tablet\inkrecognitionalternatesselection.htm

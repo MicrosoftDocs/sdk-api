@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxSetTimer
-title: ITextHost::TxSetTimer
+title: ITextHost::TxSetTimer (textserv.h)
 author: windows-sdk-content
 description: Requests the text host to create a timer with a specified time-out.
 old-location: controls\ITextHost_TxSetTimer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl.FOLDERVIEWOPTIONS
-title: FOLDERVIEWOPTIONS
+title: FOLDERVIEWOPTIONS (shobjidl.h)
 author: windows-sdk-content
 description: Used by methods of the IFolderViewOptions interface to activate Windows Vista options not supported by default in Windows 7 and later systems as well as deactivating new Windows 7 options.
 old-location: shell\FOLDERVIEWOPTIONS.htm

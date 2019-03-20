@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_KeyUsage
-title: IX509PrivateKey::put_KeyUsage
+title: IX509PrivateKey::put_KeyUsage (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a value that identifies the specific purpose for which a private key can be used.
 old-location: security\ix509privatekey_keyusage.htm

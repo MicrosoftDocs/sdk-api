@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegQueryReflectionKey
-title: RegQueryReflectionKey function
+title: RegQueryReflectionKey function (winreg.h)
 author: windows-sdk-content
 description: Determines whether reflection has been disabled or enabled for the specified key.
 old-location: base\regqueryreflectionkey.htm

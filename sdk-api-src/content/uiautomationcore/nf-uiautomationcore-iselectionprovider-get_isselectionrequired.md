@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ISelectionProvider.get_IsSelectionRequired
-title: ISelectionProvider::get_IsSelectionRequired
+title: ISelectionProvider::get_IsSelectionRequired (uiautomationcore.h)
 author: windows-sdk-content
 description: Indicates whether the Microsoft UI Automation provider requires at least one child element to be selected.
 old-location: winauto\uiauto_ISelectionProvider_IsSelectionRequired.htm

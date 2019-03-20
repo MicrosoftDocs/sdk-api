@@ -1,6 +1,6 @@
 ---
 UID: NF:icontentprefetchertasktrigger.IContentPrefetcherTaskTrigger.IsRegisteredForContentPrefetch
-title: IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch
+title: IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch (icontentprefetchertasktrigger.h)
 author: windows-sdk-content
 description: Indicates if an app package has registered for the content prefetch background task.
 old-location: wsw\icontentprefetchertasktrigger_isregisteredforcontentprefetch.htm

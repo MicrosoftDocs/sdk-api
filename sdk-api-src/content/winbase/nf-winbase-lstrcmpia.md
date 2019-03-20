@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.lstrcmpiA
-title: lstrcmpiA function
+title: lstrcmpiA function (winbase.h)
 author: windows-sdk-content
 description: Compares two character strings. The comparison is not case-sensitive.
 old-location: menurc\lstrcmpi.htm

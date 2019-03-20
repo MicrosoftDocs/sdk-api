@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.SetMathZone
-title: ITextFont2::SetMathZone
+title: ITextFont2::SetMathZone (tom.h)
 author: windows-sdk-content
 description: Sets whether a math zone is active.
 old-location: controls\itextfont2_setmathzone.htm

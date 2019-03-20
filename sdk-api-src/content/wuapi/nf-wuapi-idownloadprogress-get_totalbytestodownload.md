@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IDownloadProgress.get_TotalBytesToDownload
-title: IDownloadProgress::get_TotalBytesToDownload
+title: IDownloadProgress::get_TotalBytesToDownload (wuapi.h)
 author: windows-sdk-content
 description: Gets a string that represents the estimate of the total amount of data that will be downloaded, in bytes.
 old-location: wua\idownloadprogress_totalbytestodownload.htm

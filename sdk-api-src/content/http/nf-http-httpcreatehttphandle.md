@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpCreateHttpHandle
-title: HttpCreateHttpHandle function
+title: HttpCreateHttpHandle function (http.h)
 author: windows-sdk-content
 description: Creates an HTTP request queue for the calling application and returns a handle to it.
 old-location: http\httpcreatehttphandle.htm

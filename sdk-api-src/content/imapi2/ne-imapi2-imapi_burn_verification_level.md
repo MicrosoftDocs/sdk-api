@@ -1,6 +1,6 @@
 ---
 UID: NE:imapi2._IMAPI_BURN_VERIFICATION_LEVEL
-title: IMAPI_BURN_VERIFICATION_LEVEL
+title: IMAPI_BURN_VERIFICATION_LEVEL (imapi2.h)
 author: windows-sdk-content
 description: Defines values for the burn verification implemented by the IBurnVerification interface.
 old-location: imapi\imapi_burn_verification_level.htm

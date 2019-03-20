@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagMENUITEMINFOA
-title: MENUITEMINFOA
+title: MENUITEMINFOA (winuser.h)
 author: windows-sdk-content
 description: Contains information about a menu item.
 old-location: menurc\menuiteminfo.htm

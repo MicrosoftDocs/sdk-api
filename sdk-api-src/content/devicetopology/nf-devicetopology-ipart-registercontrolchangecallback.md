@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IPart.RegisterControlChangeCallback
-title: IPart::RegisterControlChangeCallback
+title: IPart::RegisterControlChangeCallback (devicetopology.h)
 author: windows-sdk-content
 description: The RegisterControlChangeCallback method registers the IControlChangeNotify interface, which the client implements to receive notifications of status changes in this part.
 old-location: coreaudio\ipart_registercontrolchangecallback.htm

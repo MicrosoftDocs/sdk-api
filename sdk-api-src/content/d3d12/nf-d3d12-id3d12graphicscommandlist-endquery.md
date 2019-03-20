@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.EndQuery
-title: ID3D12GraphicsCommandList::EndQuery
+title: ID3D12GraphicsCommandList::EndQuery (d3d12.h)
 author: windows-sdk-content
 description: Ends a running query.
 old-location: direct3d12\id3d12graphicscommandlist_endquery.htm

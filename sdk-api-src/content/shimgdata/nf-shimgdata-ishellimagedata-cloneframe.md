@@ -1,6 +1,6 @@
 ---
 UID: NF:shimgdata.IShellImageData.CloneFrame
-title: IShellImageData::CloneFrame
+title: IShellImageData::CloneFrame (shimgdata.h)
 author: windows-sdk-content
 description: Retrieves a clone of the current image or frame.
 old-location: shell\IShellImageData_CloneFrame.htm

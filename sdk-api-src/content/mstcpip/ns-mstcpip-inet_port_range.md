@@ -1,6 +1,6 @@
 ---
 UID: NS:mstcpip._INET_PORT_RANGE
-title: INET_PORT_RANGE
+title: INET_PORT_RANGE (mstcpip.h)
 author: windows-sdk-content
 description: Provides input data used by the SIO_ACQUIRE_PORT_RESERVATION IOCTL to acquire a runtime reservation for a block of TCP or UDP ports.
 old-location: winsock\inet_port_range.htm

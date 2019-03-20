@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTopologyNodeAttributeEditor.UpdateNodeAttributes
-title: IMFTopologyNodeAttributeEditor::UpdateNodeAttributes
+title: IMFTopologyNodeAttributeEditor::UpdateNodeAttributes (mfidl.h)
 author: windows-sdk-content
 description: Updates the attributes of one or more nodes in the current topology.
 old-location: mf\imftopologynodeattributeeditor_updatenodeattributes.htm

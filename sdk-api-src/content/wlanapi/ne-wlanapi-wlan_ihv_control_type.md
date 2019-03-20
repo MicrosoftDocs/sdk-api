@@ -1,6 +1,6 @@
 ---
 UID: NE:wlanapi._WLAN_IHV_CONTROL_TYPE
-title: WLAN_IHV_CONTROL_TYPE
+title: WLAN_IHV_CONTROL_TYPE (wlanapi.h)
 author: windows-sdk-content
 description: Specifies the type of software bypassed by a vendor-specific method.
 old-location: nwifi\wlan_ihv_control_type.htm

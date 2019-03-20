@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmDeleteRouteList
-title: RtmDeleteRouteList function
+title: RtmDeleteRouteList function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmDeleteRouteList function removes all routes from a client-specific route list, then frees any resources allocated to the list.
 old-location: rras\rtmdeleteroutelist.htm

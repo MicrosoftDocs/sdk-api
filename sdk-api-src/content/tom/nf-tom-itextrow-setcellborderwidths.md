@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.SetCellBorderWidths
-title: ITextRow::SetCellBorderWidths
+title: ITextRow::SetCellBorderWidths (tom.h)
 author: windows-sdk-content
 description: Sets the border widths of the active cell.
 old-location: controls\itextrow_setcellborderwidths.htm

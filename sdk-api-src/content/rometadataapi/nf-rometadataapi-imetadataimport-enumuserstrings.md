@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumUserStrings
-title: IMetaDataImport::EnumUserStrings
+title: IMetaDataImport::EnumUserStrings (rometadataapi.h)
 author: windows-sdk-content
 description: Enumerates String tokens representing hard-coded strings in the current metadata scope.
 old-location: winrt\imetadataimport_enumuserstrings.htm

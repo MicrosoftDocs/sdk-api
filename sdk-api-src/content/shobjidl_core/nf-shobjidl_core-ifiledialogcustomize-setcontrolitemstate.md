@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.SetControlItemState
-title: IFileDialogCustomize::SetControlItemState
+title: IFileDialogCustomize::SetControlItemState (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the current state of an item in a container control found in the dialog.
 old-location: shell\IFileDialogCustomize_SetControlItemState.htm

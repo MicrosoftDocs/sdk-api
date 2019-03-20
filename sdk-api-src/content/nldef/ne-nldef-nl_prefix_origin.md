@@ -1,6 +1,6 @@
 ---
 UID: NE:nldef.__unnamed_enum_0
-title: NL_PREFIX_ORIGIN
+title: NL_PREFIX_ORIGIN (nldef.h)
 author: windows-sdk-content
 description: The IP_PREFIX_ORIGIN enumeration specifies the origin of an IPv4 or IPv6 address prefix, and is used with the IP_ADAPTER_UNICAST_ADDRESS structure.
 old-location: iphlp\ip_prefix_origin.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_Encoder.EnumVideoCapability
-title: IBDA_Encoder::EnumVideoCapability
+title: IBDA_Encoder::EnumVideoCapability (bdaiface.h)
 author: windows-sdk-content
 description: Gets one of the video formats supported by the device.
 old-location: mstv\ibda_encoder_enumvideocapability.htm

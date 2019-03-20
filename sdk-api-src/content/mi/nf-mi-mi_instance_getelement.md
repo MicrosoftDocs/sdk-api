@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Instance_GetElement
-title: MI_Instance_GetElement function
+title: MI_Instance_GetElement function (mi.h)
 author: windows-sdk-content
 description: Gets the value of the named element (CIM property).
 old-location: wmi_v2\mi_instance_getelement.htm

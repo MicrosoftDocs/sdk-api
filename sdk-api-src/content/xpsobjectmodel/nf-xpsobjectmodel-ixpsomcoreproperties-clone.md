@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.Clone
-title: IXpsOMCoreProperties::Clone
+title: IXpsOMCoreProperties::Clone (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Makes a deep copy of the interface.
 old-location: xps\ixpsomcoreproperties_clone.htm

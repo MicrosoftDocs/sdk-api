@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DefDlgProcW
-title: DefDlgProcW function
+title: DefDlgProcW function (winuser.h)
 author: windows-sdk-content
 description: Calls the default dialog box window procedure to provide default processing for any window messages that a dialog box with a private window class does not process.
 old-location: dlgbox\defdlgproc.htm

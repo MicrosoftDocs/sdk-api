@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Edit_GetCaretIndex
-title: Edit_GetCaretIndex macro
+title: Edit_GetCaretIndex macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the character index of the caret location for a given edit control. You can use this macro or send the EM_GETCARETINDEX message explicitly.
 old-location: controls\edit_getcaretindex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsapi.ISensorManager.GetSensorsByType
-title: ISensorManager::GetSensorsByType
+title: ISensorManager::GetSensorsByType (sensorsapi.h)
 author: windows-sdk-content
 description: Retrieves a collection containing all sensors associated with the specified type.
 old-location: winsensors_com_ref\isensormanager_getsensorsbytype.htm

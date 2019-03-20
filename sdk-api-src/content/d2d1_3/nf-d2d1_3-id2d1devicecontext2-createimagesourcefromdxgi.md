@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext2.CreateImageSourceFromDxgi
-title: ID2D1DeviceContext2::CreateImageSourceFromDxgi
+title: ID2D1DeviceContext2::CreateImageSourceFromDxgi (d2d1_3.h)
 author: windows-sdk-content
 description: Creates an image source from a set of DXGI surface(s). The YCbCr surface(s) are converted to RGBA automatically during subsequent drawing.
 old-location: direct2d\id2d1devicecontext2_createimagesourcefromdxgi.htm

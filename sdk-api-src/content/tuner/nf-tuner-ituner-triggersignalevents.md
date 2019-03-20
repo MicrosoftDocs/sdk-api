@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuner.TriggerSignalEvents
-title: ITuner::TriggerSignalEvents
+title: ITuner::TriggerSignalEvents (tuner.h)
 author: windows-sdk-content
 description: The TriggerSignalEvents method enables the tuner to raise an event when the status of the signal changes.
 old-location: mstv\ituner_triggersignalevents.htm

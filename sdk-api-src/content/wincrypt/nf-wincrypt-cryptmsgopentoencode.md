@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptMsgOpenToEncode
-title: CryptMsgOpenToEncode function
+title: CryptMsgOpenToEncode function (wincrypt.h)
 author: windows-sdk-content
 description: Opens a cryptographic message for encoding and returns a handle of the opened message.
 old-location: security\cryptmsgopentoencode.htm

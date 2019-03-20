@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcasync.RpcAsyncCompleteCall
-title: RpcAsyncCompleteCall function
+title: RpcAsyncCompleteCall function (rpcasync.h)
 author: windows-sdk-content
 description: The client and the server call the RpcAsyncCompleteCall function to complete an asynchronous remote procedure call.
 old-location: rpc\rpcasynccompletecall.htm

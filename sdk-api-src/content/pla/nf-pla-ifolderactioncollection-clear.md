@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IFolderActionCollection.Clear
-title: IFolderActionCollection::Clear
+title: IFolderActionCollection::Clear (pla.h)
 author: windows-sdk-content
 description: Removes all folder actions from the collection.
 old-location: pla\ifolderactioncollection_clear.htm

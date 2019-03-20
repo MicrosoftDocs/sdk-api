@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IContinueCallback.FContinue
-title: IContinueCallback::FContinue
+title: IContinueCallback::FContinue (docobj.h)
 author: windows-sdk-content
 description: Indicates whether a generic operation should continue.
 old-location: com\icontinuecallback_fcontinue.htm

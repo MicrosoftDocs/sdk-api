@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetAddServiceAccount
-title: NetAddServiceAccount function
+title: NetAddServiceAccount function (lmaccess.h)
 author: windows-sdk-content
 description: Creates a standalone managed service account (sMSA) or retrieves the credentials for a group managed service account (gMSA) and stores the account information on the local computer.
 old-location: security\netaddserviceaccount.htm

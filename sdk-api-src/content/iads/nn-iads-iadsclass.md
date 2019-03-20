@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsClass
-title: IADsClass
+title: IADsClass (iads.h)
 author: windows-sdk-content
 description: The IADsClass interface is designed for managing schema class objects that provide class definitions for any ADSI object. Other schema management interfaces include IADsProperty for attribute definitions and IADsSyntax for attribute syntax.
 old-location: adsi\iadsclass.htm

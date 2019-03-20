@@ -1,6 +1,6 @@
 ---
 UID: NE:mfapi._MFVideoDRMFlags
-title: MFVideoDRMFlags
+title: MFVideoDRMFlags (mfapi.h)
 author: windows-sdk-content
 description: Specifies the type of copy protection required for a video stream.
 old-location: mf\mfvideodrmflags.htm

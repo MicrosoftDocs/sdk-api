@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRunningTask.get_Path
-title: IRunningTask::get_Path
+title: IRunningTask::get_Path (taskschd.h)
 author: windows-sdk-content
 description: Gets the path to where the task is stored.
 old-location: taskschd\irunningtask_path.htm

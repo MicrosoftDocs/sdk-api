@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Enrollment.get_Response
-title: IX509Enrollment::get_Response
+title: IX509Enrollment::get_Response (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the certificate response returned from a certification authority.
 old-location: security\ix509enrollment_response_property.htm

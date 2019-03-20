@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_UninstallationSteps
-title: IUpdateHistoryEntry::get_UninstallationSteps
+title: IUpdateHistoryEntry::get_UninstallationSteps (wuapi.h)
 author: windows-sdk-content
 description: Gets the IStringCollection interface that contains the uninstallation steps for an update.
 old-location: wua\iupdatehistoryentry_uninstallationsteps.htm

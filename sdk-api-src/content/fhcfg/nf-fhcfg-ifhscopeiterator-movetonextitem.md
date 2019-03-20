@@ -1,6 +1,6 @@
 ---
 UID: NF:fhcfg.IFhScopeIterator.MoveToNextItem
-title: IFhScopeIterator::MoveToNextItem
+title: IFhScopeIterator::MoveToNextItem (fhcfg.h)
 author: windows-sdk-content
 description: Moves to the next item in the inclusion or exclusion list.
 old-location: winprog\ifhscopeiterator_movetonextitem.htm

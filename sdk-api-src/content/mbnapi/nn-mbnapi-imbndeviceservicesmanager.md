@@ -1,6 +1,6 @@
 ---
 UID: NN:mbnapi.IMbnDeviceServicesManager
-title: IMbnDeviceServicesManager
+title: IMbnDeviceServicesManager (mbnapi.h)
 author: windows-sdk-content
 description: Provides access to IMbnDeviceServicesContext objects and Mobile Broadband device service notifications.
 old-location: mbn\imbndeviceservicesmanager.htm

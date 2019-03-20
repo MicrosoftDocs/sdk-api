@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ClusterEncrypt
-title: ClusterEncrypt function
+title: ClusterEncrypt function (resapi.h)
 author: windows-sdk-content
 description: Encrypts Checkpointing data for a Cryptographic Service Provider (CSP).
 old-location: mscs\clusterencrypt.htm

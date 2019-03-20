@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.GetTransform
-title: ID2D1RenderTarget::GetTransform
+title: ID2D1RenderTarget::GetTransform (d2d1.h)
 author: windows-sdk-content
 description: Gets the current transform of the render target.
 old-location: direct2d\ID2D1RenderTarget_GetTransform.htm

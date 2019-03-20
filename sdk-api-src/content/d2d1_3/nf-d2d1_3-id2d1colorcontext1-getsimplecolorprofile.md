@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1ColorContext1.GetSimpleColorProfile
-title: ID2D1ColorContext1::GetSimpleColorProfile
+title: ID2D1ColorContext1::GetSimpleColorProfile (d2d1_3.h)
 author: windows-sdk-content
 description: Retrieves a set simple color profile.
 old-location: direct2d\id2d1colorcontext1_getsimplecolorprofile.htm

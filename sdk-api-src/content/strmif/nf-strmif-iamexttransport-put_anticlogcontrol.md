@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtTransport.put_AntiClogControl
-title: IAMExtTransport::put_AntiClogControl
+title: IAMExtTransport::put_AntiClogControl (strmif.h)
 author: windows-sdk-content
 description: The put_AntiClogControl method enables or disables anti-headclog control on the transport.
 old-location: dshow\iamexttransport_put_anticlogcontrol.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetWindowRgn
-title: SetWindowRgn function
+title: SetWindowRgn function (winuser.h)
 author: windows-sdk-content
 description: The SetWindowRgn function sets the window region of a window.
 old-location: gdi\setwindowrgn.htm

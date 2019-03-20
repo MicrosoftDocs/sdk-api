@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.SetThreadToken
-title: SetThreadToken function
+title: SetThreadToken function (processthreadsapi.h)
 author: windows-sdk-content
 description: Assigns an impersonation token to a thread. The function can also cause a thread to stop using an impersonation token.
 old-location: security\setthreadtoken.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.KspDeleteContextFn
-title: KspDeleteContextFn
+title: KspDeleteContextFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Deletes a security context.
 old-location: security\spdeletecontext.htm

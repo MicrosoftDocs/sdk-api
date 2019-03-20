@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_DRIVE_LETTER_PROP
-title: VDS_DRIVE_LETTER_PROP
+title: VDS_DRIVE_LETTER_PROP (vds.h)
 author: windows-sdk-content
 description: Defines the properties of a drive letter.
 old-location: base\vds_drive_letter_prop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellMenu.SetMenu
-title: IShellMenu::SetMenu
+title: IShellMenu::SetMenu (shobjidl_core.h)
 author: windows-sdk-content
 description: Appends a static menu to the menu band.
 old-location: shell\IShellMenu_SetMenu.htm

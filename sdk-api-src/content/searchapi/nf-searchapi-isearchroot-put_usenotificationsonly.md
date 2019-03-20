@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchRoot.put_UseNotificationsOnly
-title: ISearchRoot::put_UseNotificationsOnly
+title: ISearchRoot::put_UseNotificationsOnly (searchapi.h)
 author: windows-sdk-content
 description: Sets a value that indicates whether this search root should be indexed only by notification and not crawled.
 old-location: search\_search_ISearchRoot_put_UseNotificationsOnly.htm

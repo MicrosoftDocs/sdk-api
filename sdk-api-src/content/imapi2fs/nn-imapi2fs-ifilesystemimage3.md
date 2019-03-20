@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2fs.IFileSystemImage3
-title: IFileSystemImage3
+title: IFileSystemImage3 (imapi2fs.h)
 author: windows-sdk-content
 description: Use this interface to set or check the metadata and metadata mirror files in a UDF file system (rev 2.50 and later) to determine redundancy.
 old-location: imapi\ifilesystemimage3.htm

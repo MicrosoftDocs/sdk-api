@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IAction.put_Id
-title: IAction::put_Id
+title: IAction::put_Id (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the identifier of the action.
 old-location: taskschd\iaction_id.htm

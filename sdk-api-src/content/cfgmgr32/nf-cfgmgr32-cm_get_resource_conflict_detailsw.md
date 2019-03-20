@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Resource_Conflict_DetailsW
-title: CM_Get_Resource_Conflict_DetailsW function
+title: CM_Get_Resource_Conflict_DetailsW function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Get_Resource_Conflict_Details function obtains the details about one of the resource conflicts in a conflict list.
 old-location: devinst\cm_get_resource_conflict_details.htm

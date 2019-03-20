@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_LOGIC_OP
-title: D3D12_LOGIC_OP
+title: D3D12_LOGIC_OP (d3d12.h)
 author: windows-sdk-content
 description: Specifies logical operations to configure for a render target.
 old-location: direct3d12\d3d12_logic_op.htm

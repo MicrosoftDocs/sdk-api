@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.TabletPropertyMetricUnit
-title: TabletPropertyMetricUnit
+title: TabletPropertyMetricUnit (msinkaut.h)
 author: windows-sdk-content
 description: Indicates the unit of measurement of a property.
 old-location: tablet\tabletpropertymetricunit.htm

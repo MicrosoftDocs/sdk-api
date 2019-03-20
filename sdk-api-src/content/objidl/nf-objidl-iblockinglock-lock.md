@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IBlockingLock.Lock
-title: IBlockingLock::Lock
+title: IBlockingLock::Lock (objidl.h)
 author: windows-sdk-content
 description: Requests a lock on a shared resource.
 old-location: com\iblockinglock_lock.htm

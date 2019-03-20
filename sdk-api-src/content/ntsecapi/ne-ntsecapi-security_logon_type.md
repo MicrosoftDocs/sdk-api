@@ -1,6 +1,6 @@
 ---
 UID: NE:ntsecapi._SECURITY_LOGON_TYPE
-title: SECURITY_LOGON_TYPE
+title: SECURITY_LOGON_TYPE (ntsecapi.h)
 author: windows-sdk-content
 description: Indicates the type of logon requested by a logon process.
 old-location: security\security_logon_type.htm

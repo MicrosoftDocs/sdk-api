@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidPlayback.get_CanStep
-title: IMSVidPlayback::get_CanStep
+title: IMSVidPlayback::get_CanStep (segment.h)
 author: windows-sdk-content
 description: The get_CanStep method queries whether the input source can step frame by frame.
 old-location: mstv\imsvidplayback_get_canstep.htm

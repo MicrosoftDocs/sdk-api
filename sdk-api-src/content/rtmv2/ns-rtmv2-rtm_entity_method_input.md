@@ -1,6 +1,6 @@
 ---
 UID: NS:rtmv2._RTM_ENTITY_METHOD_INPUT
-title: RTM_ENTITY_METHOD_INPUT
+title: RTM_ENTITY_METHOD_INPUT (rtmv2.h)
 author: windows-sdk-content
 description: The RTM_ENTITY_METHOD_INPUT structure is used to pass information to a client when invoking its method.
 old-location: rras\rtm_entity_method_input.htm

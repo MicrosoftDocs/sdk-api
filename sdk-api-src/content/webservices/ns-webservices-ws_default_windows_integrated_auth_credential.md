@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
-title: WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
+title: WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL (webservices.h)
 author: windows-sdk-content
 description: Type for supplying a Windows Integrated Authentication credential based on the current Windows identity.
 old-location: wsw\ws_default_windows_integrated_auth_credential.htm

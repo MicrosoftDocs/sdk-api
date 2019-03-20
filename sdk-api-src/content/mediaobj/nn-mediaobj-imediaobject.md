@@ -1,6 +1,6 @@
 ---
 UID: NN:mediaobj.IMediaObject
-title: IMediaObject
+title: IMediaObject (mediaobj.h)
 author: windows-sdk-content
 description: The IMediaObject interface provides methods for manipulating a Microsoft DirectX Media Object (DMO).
 old-location: dshow\imediaobject.htm

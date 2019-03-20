@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetESMultiLingualFlag
-title: IIsdbAudioComponentDescriptor::GetESMultiLingualFlag
+title: IIsdbAudioComponentDescriptor::GetESMultiLingualFlag (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets a flag from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor that indicates whether the stream uses ES multilingual mode.
 old-location: mstv\iisdbaudiocomponentdescriptor_getesmultilingualflag.htm

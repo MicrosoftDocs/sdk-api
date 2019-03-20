@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IDevicePair.get_Renderer
-title: IDevicePair::streaming
+title: IDevicePair::streaming (windows.media.streaming.h)
 author: windows-sdk-content
 description: Gets the renderer for the active basic device pair.
 old-location: mediastreaming\idevicepair_renderer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFMediaSourceEx
-title: IMFMediaSourceEx
+title: IMFMediaSourceEx (mfidl.h)
 author: windows-sdk-content
 description: Extends the IMFMediaSource interface to provide additional capabilities for a media source.
 old-location: mf\imfmediasourceex.htm

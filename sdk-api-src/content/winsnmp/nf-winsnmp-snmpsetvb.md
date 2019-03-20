@@ -1,6 +1,6 @@
 ---
 UID: NF:winsnmp.SnmpSetVb
-title: SnmpSetVb function
+title: SnmpSetVb function (winsnmp.h)
 author: windows-sdk-content
 description: The WinSNMP SnmpSetVb function changes variable binding entries in a variable bindings list. This function also appends new variable binding entries to an existing variable bindings list.
 old-location: snmp\snmpsetvb.htm

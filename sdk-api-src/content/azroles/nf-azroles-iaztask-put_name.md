@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzTask.put_Name
-title: IAzTask::put_Name
+title: IAzTask::put_Name (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves the name of the task.
 old-location: security\iaztask_name.htm

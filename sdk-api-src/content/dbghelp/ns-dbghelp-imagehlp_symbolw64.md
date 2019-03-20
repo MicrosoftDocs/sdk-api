@@ -1,6 +1,6 @@
 ---
 UID: NS:dbghelp._IMAGEHLP_SYMBOLW64
-title: IMAGEHLP_SYMBOLW64
+title: IMAGEHLP_SYMBOLW64 (dbghelp.h)
 author: windows-sdk-content
 description: Contains symbol information.
 old-location: base\imagehlp_symbol64_str.htm

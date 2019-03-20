@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IEnumTuningSpaces.Clone
-title: IEnumTuningSpaces::Clone
+title: IEnumTuningSpaces::Clone (tuner.h)
 author: windows-sdk-content
 description: The Clone method creates a new copy of the collection and all its sub-objects.
 old-location: mstv\ienumtuningspaces_clone.htm

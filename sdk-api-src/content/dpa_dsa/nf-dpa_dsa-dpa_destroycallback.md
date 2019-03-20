@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DPA_DestroyCallback
-title: DPA_DestroyCallback function
+title: DPA_DestroyCallback function (dpa_dsa.h)
 author: windows-sdk-content
 description: Calls pfnCB on each element of the dynamic pointer array (DPA), then frees the DPA.
 old-location: controls\DPA_DestroyCallback.htm

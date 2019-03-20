@@ -1,6 +1,6 @@
 ---
 UID: NF:objectarray.IObjectCollection.AddObject
-title: IObjectCollection::AddObject
+title: IObjectCollection::AddObject (objectarray.h)
 author: windows-sdk-content
 description: Adds a single object to the collection.
 old-location: shell\IObjectCollection_AddObject.htm

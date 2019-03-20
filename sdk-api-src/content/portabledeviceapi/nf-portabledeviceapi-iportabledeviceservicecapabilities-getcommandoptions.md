@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetCommandOptions
-title: IPortableDeviceServiceCapabilities::GetCommandOptions
+title: IPortableDeviceServiceCapabilities::GetCommandOptions (portabledeviceapi.h)
 author: windows-sdk-content
 description: Retrieves the options of a WPD command.
 old-location: wpdsdk\iportabledeviceservicecapabilities_getcommandoptions.htm

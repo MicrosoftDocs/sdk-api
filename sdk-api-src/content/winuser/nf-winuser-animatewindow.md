@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.AnimateWindow
-title: AnimateWindow function
+title: AnimateWindow function (winuser.h)
 author: windows-sdk-content
 description: Enables you to produce special effects when showing or hiding windows. There are four types of animation:\_roll, slide, collapse or expand, and alpha-blended fade.
 old-location: winmsg\animatewindow.htm

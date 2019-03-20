@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._USER_INFO_4
-title: USER_INFO_4
+title: USER_INFO_4 (lmaccess.h)
 author: windows-sdk-content
 description: The USER_INFO_4 structure contains information about a user account, including the account name, password data, privilege level, the path to the user's home directory, security identifier (SID), and other user-related network statistics.
 old-location: netmgmt\user_info_4_str.htm

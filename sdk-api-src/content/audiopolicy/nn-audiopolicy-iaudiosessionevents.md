@@ -1,6 +1,6 @@
 ---
 UID: NN:audiopolicy.IAudioSessionEvents
-title: IAudioSessionEvents
+title: IAudioSessionEvents (audiopolicy.h)
 author: windows-sdk-content
 description: The IAudioSessionEvents interface provides notifications of session-related events such as changes in the volume level, display name, and session state.
 old-location: coreaudio\iaudiosessionevents.htm

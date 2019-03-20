@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern.get_CurrentCanSelectMultiple
-title: IUIAutomationSelectionPattern::get_CurrentCanSelectMultiple
+title: IUIAutomationSelectionPattern::get_CurrentCanSelectMultiple (uiautomationclient.h)
 author: windows-sdk-content
 description: Indicates whether more than one item in the container can be selected at one time.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern_CurrentCanSelectMultiple.htm

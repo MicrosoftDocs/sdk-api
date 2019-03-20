@@ -1,6 +1,6 @@
 ---
 UID: NF:identityprovider.IIdentityProvider.Advise
-title: IIdentityProvider::Advise
+title: IIdentityProvider::Advise (identityprovider.h)
 author: windows-sdk-content
 description: Allows a calling application to specify the list of identity events for which the application is to be notified.
 old-location: security\iidentityprovider_advise.htm

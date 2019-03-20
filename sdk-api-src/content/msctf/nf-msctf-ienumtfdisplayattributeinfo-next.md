@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfDisplayAttributeInfo.Next
-title: IEnumTfDisplayAttributeInfo::Next
+title: IEnumTfDisplayAttributeInfo::Next (msctf.h)
 author: windows-sdk-content
 description: IEnumTfDisplayAttributeInfo::Next method
 old-location: tsf\ienumtfdisplayattributeinfo_next.htm

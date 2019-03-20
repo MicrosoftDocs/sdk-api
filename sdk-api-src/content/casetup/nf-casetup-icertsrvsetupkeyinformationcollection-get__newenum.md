@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformationCollection.get__NewEnum
-title: ICertSrvSetupKeyInformationCollection::get__NewEnum
+title: ICertSrvSetupKeyInformationCollection::get__NewEnum (casetup.h)
 author: windows-sdk-content
 description: Gets an enumerator for the information set.
 old-location: security\icertsrvsetupkeyinformationcollection__newenum.htm

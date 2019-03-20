@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpGetContextTokenFn
-title: SpGetContextTokenFn
+title: SpGetContextTokenFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Obtains the token to impersonate.
 old-location: security\spgetcontexttoken.htm

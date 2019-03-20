@@ -1,6 +1,6 @@
 ---
 UID: NE:mstcpip._TCPSTATE
-title: TCPSTATE
+title: TCPSTATE (mstcpip.h)
 author: windows-sdk-content
 description: Indicates the possible states of a Transmission Control Protocol (TCP) connection.
 old-location: winsock\tcpstate.htm

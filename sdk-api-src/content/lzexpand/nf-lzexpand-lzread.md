@@ -1,6 +1,6 @@
 ---
 UID: NF:lzexpand.LZRead
-title: LZRead function
+title: LZRead function (lzexpand.h)
 author: windows-sdk-content
 description: Reads (at most) the specified number of bytes from a file and copies them into a buffer.
 old-location: fs\lzread.htm

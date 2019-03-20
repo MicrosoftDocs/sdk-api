@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_EXISTING_COLLECTION_DESC
-title: D3D12_EXISTING_COLLECTION_DESC
+title: D3D12_EXISTING_COLLECTION_DESC (d3d12.h)
 author: windows-sdk-content
 description: A state subobject describing an existing collection that can be included in a state object.
 old-location: direct3d12\d3d12_existing_collection_desc.htm

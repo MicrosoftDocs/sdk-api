@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.OpenThemeData
-title: OpenThemeData function
+title: OpenThemeData function (uxtheme.h)
 author: windows-sdk-content
 description: Opens the theme data for a window and its associated class.
 old-location: controls\OpenThemeData.htm

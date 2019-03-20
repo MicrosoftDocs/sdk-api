@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDockingWindow.ShowDW
-title: IDockingWindow::ShowDW
+title: IDockingWindow::ShowDW (shobjidl_core.h)
 author: windows-sdk-content
 description: Instructs the docking window object to show or hide itself.
 old-location: shell\IDockingWindow_ShowDW.htm

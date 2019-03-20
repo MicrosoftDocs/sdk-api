@@ -1,6 +1,6 @@
 ---
 UID: NF:fltuser.FilterInstanceCreate
-title: FilterInstanceCreate function
+title: FilterInstanceCreate function (fltuser.h)
 author: windows-sdk-content
 description: The FilterInstanceCreate function creates a handle that can be used to communicate with the given minifilter instance.
 old-location: ifsk\filterinstancecreate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetLogicalDriveStringsA
-title: GetLogicalDriveStringsA function
+title: GetLogicalDriveStringsA function (winbase.h)
 author: windows-sdk-content
 description: Fills a buffer with strings that specify valid drives in the system.
 old-location: fs\getlogicaldrivestrings.htm

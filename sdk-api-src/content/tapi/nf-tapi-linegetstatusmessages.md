@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineGetStatusMessages
-title: lineGetStatusMessages function
+title: lineGetStatusMessages function (tapi.h)
 author: windows-sdk-content
 description: The lineGetStatusMessages function enables an application to query which notification messages the application is set up to receive for events related to status changes for the specified line or any of its addresses.
 old-location: tapi2\linegetstatusmessages.htm

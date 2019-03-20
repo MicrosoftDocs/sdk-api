@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IComActivityEvents
-title: IComActivityEvents
+title: IComActivityEvents (comsvcs.h)
 author: windows-sdk-content
 description: Notifies the subscriber if an activity is created, destroyed, or timed out.
 old-location: cos\icomactivityevents.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dbt._DEV_BROADCAST_OEM
-title: DEV_BROADCAST_OEM
+title: DEV_BROADCAST_OEM (dbt.h)
 author: windows-sdk-content
 description: Contains information about a OEM-defined device type.
 old-location: base\dev_broadcast_oem_str.htm

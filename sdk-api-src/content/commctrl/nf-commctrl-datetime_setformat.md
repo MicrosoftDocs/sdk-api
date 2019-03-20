@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.DateTime_SetFormat
-title: DateTime_SetFormat macro
+title: DateTime_SetFormat macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the display of a date and time picker (DTP) control based on a given format string. You can use this macro or send the DTM_SETFORMAT message explicitly.
 old-location: controls\DateTime_SetFormat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IPBDAAttributesDescriptor.GetTag
-title: IPBDAAttributesDescriptor::GetTag
+title: IPBDAAttributesDescriptor::GetTag (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the tag that uniquely identifies an attributes descriptor in a Protected Broadcast Driver Architecture (PBDA) transport stream.
 old-location: mstv\ipbdaattributesdescriptor_gettag.htm

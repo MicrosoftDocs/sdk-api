@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetStringWidth
-title: ListView_GetStringWidth macro
+title: ListView_GetStringWidth macro (commctrl.h)
 author: windows-sdk-content
 description: Determines the width of a specified string using the specified list-view control's current font. You can use this macro or send the LVM_GETSTRINGWIDTH message explicitly.
 old-location: controls\ListView_GetStringWidth.htm

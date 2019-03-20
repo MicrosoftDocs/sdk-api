@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.MonthCal_SetCALID
-title: MonthCal_SetCALID macro
+title: MonthCal_SetCALID macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the calendar ID for the given calendar control. You can use this macro or send the MCM_SETCALID message explicitly.
 old-location: controls\MonthCal_SetCALID.htm

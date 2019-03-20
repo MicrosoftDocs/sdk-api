@@ -1,6 +1,6 @@
 ---
 UID: NE:winuser.DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS
-title: DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS
+title: DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS (winuser.h)
 author: windows-sdk-content
 description: Describes per-monitor DPI scaling behavior overrides for child windows within dialogs. The values in this enumeration are bitfields and can be combined.
 old-location: hidpi\dialog_scaling_behavior.htm

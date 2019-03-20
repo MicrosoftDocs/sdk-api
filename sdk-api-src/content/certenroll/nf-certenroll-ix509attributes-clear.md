@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Attributes.Clear
-title: IX509Attributes::Clear
+title: IX509Attributes::Clear (certenroll.h)
 author: windows-sdk-content
 description: Removes all IX509Attribute objects from the collection.
 old-location: security\ix509attributes_clear_method.htm

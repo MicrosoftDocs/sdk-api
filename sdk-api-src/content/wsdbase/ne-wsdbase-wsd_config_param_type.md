@@ -1,6 +1,6 @@
 ---
 UID: NE:wsdbase.__MIDL___MIDL_itf_wsdbase_0000_0000_0001
-title: WSD_CONFIG_PARAM_TYPE
+title: WSD_CONFIG_PARAM_TYPE (wsdbase.h)
 author: windows-sdk-content
 description: Specifies the kind of data stored in a WSD_CONFIG_PARAM structure.
 old-location: ncd\wsd_config_param_type.htm

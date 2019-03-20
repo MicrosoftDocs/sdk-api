@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbSubtitlingDescriptor.GetCountOfRecords
-title: IDvbSubtitlingDescriptor::GetCountOfRecords
+title: IDvbSubtitlingDescriptor::GetCountOfRecords (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the number of subtitling records in a Digital Video Broadcast (DVB) subtitling descriptor.
 old-location: mstv\idvbsubtitlingdescriptor_getcountofrecords.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11ClassLinkage
-title: ID3D11ClassLinkage
+title: ID3D11ClassLinkage (d3d11.h)
 author: windows-sdk-content
 description: This interface encapsulates an HLSL dynamic linkage.
 old-location: direct3d11\id3d11classlinkage.htm

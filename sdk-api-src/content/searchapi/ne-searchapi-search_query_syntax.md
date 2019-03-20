@@ -1,6 +1,6 @@
 ---
 UID: NE:searchapi._SEARCH_QUERY_SYNTAX
-title: SEARCH_QUERY_SYNTAX
+title: SEARCH_QUERY_SYNTAX (searchapi.h)
 author: windows-sdk-content
 description: Specifies the type of query syntax.
 old-location: search\_search_SEARCH_QUERY_SYNTAX.htm

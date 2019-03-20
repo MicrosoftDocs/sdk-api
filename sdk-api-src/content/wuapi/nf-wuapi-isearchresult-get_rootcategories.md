@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.ISearchResult.get_RootCategories
-title: ISearchResult::get_RootCategories
+title: ISearchResult::get_RootCategories (wuapi.h)
 author: windows-sdk-content
 description: Gets an interface collection of the root categories that are currently available on the computer.
 old-location: wua\isearchresult_rootcategories.htm

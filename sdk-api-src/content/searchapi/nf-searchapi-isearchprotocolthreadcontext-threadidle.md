@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchProtocolThreadContext.ThreadIdle
-title: ISearchProtocolThreadContext::ThreadIdle
+title: ISearchProtocolThreadContext::ThreadIdle (searchapi.h)
 author: windows-sdk-content
 description: Notifies the protocol handler that the filtering thread is idle, so that the protocol handler can clean up any cache it might have built up.
 old-location: search\_search_ISearchProtocolThreadContext_ThreadIdle.htm

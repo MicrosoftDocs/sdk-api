@@ -1,6 +1,6 @@
 ---
 UID: NE:ntsecapi._POLICY_AUDIT_EVENT_TYPE
-title: POLICY_AUDIT_EVENT_TYPE
+title: POLICY_AUDIT_EVENT_TYPE (ntsecapi.h)
 author: windows-sdk-content
 description: The POLICY_AUDIT_EVENT_TYPE enumeration defines values that indicate the types of events the system can audit.
 old-location: security\policy_audit_event_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wmcodecdsp._MFVideoDSPMode
-title: MFVideoDSPMode
+title: MFVideoDSPMode (wmcodecdsp.h)
 author: windows-sdk-content
 description: Specifies the processing mode of the Video Stabilization MFT.
 old-location: mf\mfvideodspmode.htm

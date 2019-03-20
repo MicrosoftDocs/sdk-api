@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_FILL
-title: DWRITE_PANOSE_FILL
+title: DWRITE_PANOSE_FILL (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_PANOSE_FILL enumeration contains values that specify the type of fill and line treatment.
 old-location: directwrite\dwrite_panose_fill.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.PBEGIN_RESCALL_AS_USER_ROUTINE
-title: PBEGIN_RESCALL_AS_USER_ROUTINE
+title: PBEGIN_RESCALL_AS_USER_ROUTINE (resapi.h)
 author: windows-sdk-content
 description: The PBEGIN_RESCALL_AS_USER_ROUTINE type defines a pointer to this callback function.
 old-location: mscs\beginresourcecontrolasuser.htm

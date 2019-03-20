@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoder.GetFrameCount
-title: IWICBitmapDecoder::GetFrameCount
+title: IWICBitmapDecoder::GetFrameCount (wincodec.h)
 author: windows-sdk-content
 description: Retrieves the total number of frames in the image.
 old-location: wic\_wic_codec_iwicbitmapdecoder_getframecount.htm

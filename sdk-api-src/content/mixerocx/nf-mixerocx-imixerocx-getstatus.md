@@ -1,6 +1,6 @@
 ---
 UID: NF:mixerocx.IMixerOCX.GetStatus
-title: IMixerOCX::GetStatus
+title: IMixerOCX::GetStatus (mixerocx.h)
 author: windows-sdk-content
 description: The GetStatus method returns the current status of the Overlay Mixer. (Not implemented.).
 old-location: dshow\imixerocx_getstatus.htm

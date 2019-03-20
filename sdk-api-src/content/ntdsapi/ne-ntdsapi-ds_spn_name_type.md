@@ -1,6 +1,6 @@
 ---
 UID: NE:ntdsapi.__unnamed_enum_3
-title: DS_SPN_NAME_TYPE
+title: DS_SPN_NAME_TYPE (ntdsapi.h)
 author: windows-sdk-content
 description: The DS_SPN_NAME_TYPE enumeration is used by the DsGetSPN function to identify the format for composing SPNs.
 old-location: ad\ds_spn_name_type.htm

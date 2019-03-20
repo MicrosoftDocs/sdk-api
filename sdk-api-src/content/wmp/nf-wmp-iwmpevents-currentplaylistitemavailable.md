@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.CurrentPlaylistItemAvailable
-title: IWMPEvents::CurrentPlaylistItemAvailable
+title: IWMPEvents::CurrentPlaylistItemAvailable (wmp.h)
 author: windows-sdk-content
 description: The CurrentPlaylistItemAvailable event occurs when the current playlist item becomes available.
 old-location: wmp\iwmpevents_iwmpevents__currentplaylistitemavailable.htm

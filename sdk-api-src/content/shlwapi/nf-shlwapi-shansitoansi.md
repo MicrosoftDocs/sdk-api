@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHAnsiToAnsi
-title: SHAnsiToAnsi function
+title: SHAnsiToAnsi function (shlwapi.h)
 author: windows-sdk-content
 description: Copies an ANSI string.
 old-location: shell\SHAnsiToAnsi.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10Effect.GetVariableByIndex
-title: ID3D10Effect::GetVariableByIndex
+title: ID3D10Effect::GetVariableByIndex (d3d10effect.h)
 author: windows-sdk-content
 description: Get a variable by index.
 old-location: direct3d10\id3d10effect_getvariablebyindex.htm

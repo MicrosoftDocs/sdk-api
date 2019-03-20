@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Application_InitializeV1
-title: MI_Application_InitializeV1 function
+title: MI_Application_InitializeV1 function (mi.h)
 author: windows-sdk-content
 description: Initializes an application so that it can make Management Infrastructure (MI) client API calls.
 old-location: wmi_v2\mi_application_initialize.htm

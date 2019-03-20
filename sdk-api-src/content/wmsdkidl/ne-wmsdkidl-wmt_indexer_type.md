@@ -1,6 +1,6 @@
 ---
 UID: NE:wmsdkidl.tagWMT_INDEXER_TYPE
-title: WMT_INDEXER_TYPE
+title: WMT_INDEXER_TYPE (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMT_INDEXER_TYPE enumeration type defines the types of indexing supported by the indexer.
 old-location: wmformat\wmt_indexer_type.htm

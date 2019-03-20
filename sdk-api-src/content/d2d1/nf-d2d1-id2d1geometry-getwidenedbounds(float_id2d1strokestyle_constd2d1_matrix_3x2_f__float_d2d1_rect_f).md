@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Geometry.GetWidenedBounds(FLOAT,ID2D1StrokeStyle,const D2D1_MATRIX_3X2_F &,FLOAT,D2D1_RECT_F)
-title: ID2D1Geometry::GetWidenedBounds(FLOAT,ID2D1StrokeStyle,const D2D1_MATRIX_3X2_F &,FLOAT,D2D1_RECT_F)
+title: ID2D1Geometry::GetWidenedBounds(FLOAT,ID2D1StrokeStyle,const D2D1_MATRIX_3X2_F &,FLOAT,D2D1_RECT_F) (d2d1.h)
 author: windows-sdk-content
 description: Gets the bounds of the geometry after it has been widened by the specified stroke width and style and transformed by the specified matrix.
 old-location: direct2d\ID2D1Geometry_GetWidenedBounds_FLOAT_ptr_ID2D1StrokeStyle_ref_D2D_MATRIX_3X2_F_FLOAT_ptr_D2D_RECT_F.htm

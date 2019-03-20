@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1svg.ID2D1SvgStrokeDashArray
-title: ID2D1SvgStrokeDashArray
+title: ID2D1SvgStrokeDashArray (d2d1svg.h)
 author: windows-sdk-content
 description: Interface describing an SVG stroke-dasharray value.
 old-location: direct2d\id2d1svgstrokedasharray.htm

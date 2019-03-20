@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetCustomReferenceEnumerator
-title: IOpcDigitalSignature::GetCustomReferenceEnumerator
+title: IOpcDigitalSignature::GetCustomReferenceEnumerator (msopc.h)
 author: windows-sdk-content
 description: Gets an enumerator of the IOpcSignatureReference interface pointers that represent references to application-specific XML elements that have been signed.
 old-location: opc\iopcdigitalsignature_getcustomreferenceenumerator.htm

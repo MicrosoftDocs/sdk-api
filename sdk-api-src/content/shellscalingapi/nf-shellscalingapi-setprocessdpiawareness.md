@@ -1,6 +1,6 @@
 ---
 UID: NF:shellscalingapi.SetProcessDpiAwareness
-title: SetProcessDpiAwareness function
+title: SetProcessDpiAwareness function (shellscalingapi.h)
 author: windows-sdk-content
 description: Sets the process-default DPI awareness level. This is equivalent to calling SetProcessDpiAwarenessContext with the corresponding DPI_AWARENESS_CONTEXT value.
 old-location: hidpi\setprocessdpiawareness.htm

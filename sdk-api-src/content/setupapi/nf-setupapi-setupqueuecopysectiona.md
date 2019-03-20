@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupQueueCopySectionA
-title: SetupQueueCopySectionA function
+title: SetupQueueCopySectionA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupQueueCopySection function places all the files in a section of an INF file in a setup queue for copying.
 old-location: setup\setupqueuecopysection.htm

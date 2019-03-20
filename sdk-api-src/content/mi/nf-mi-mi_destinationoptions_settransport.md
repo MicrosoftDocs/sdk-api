@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_SetTransport
-title: MI_DestinationOptions_SetTransport function
+title: MI_DestinationOptions_SetTransport function (mi.h)
 author: windows-sdk-content
 description: Sets the transport to be used to communicate with the destination machine.
 old-location: wmi_v2\mi_destinationoptions_settransport.htm

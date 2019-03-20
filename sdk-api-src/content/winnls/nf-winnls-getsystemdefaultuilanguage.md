@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.GetSystemDefaultUILanguage
-title: GetSystemDefaultUILanguage function
+title: GetSystemDefaultUILanguage function (winnls.h)
 author: windows-sdk-content
 description: Retrieves the language identifier for the system default UI language of the operating system, also known as the &#0034;install language&#0034; on Windows Vista and later. For more information, see User Interface Language Management.
 old-location: intl\getsystemdefaultuilanguage.htm

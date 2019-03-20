@@ -1,6 +1,6 @@
 ---
 UID: NS:psapi._MODULEINFO
-title: MODULEINFO
+title: MODULEINFO (psapi.h)
 author: windows-sdk-content
 description: Contains the module load address, size, and entry point.
 old-location: psapi\moduleinfo_str.htm

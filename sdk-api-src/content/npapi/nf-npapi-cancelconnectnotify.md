@@ -1,6 +1,6 @@
 ---
 UID: NF:npapi.CancelConnectNotify
-title: CancelConnectNotify function
+title: CancelConnectNotify function (npapi.h)
 author: windows-sdk-content
 description: Calls CancelConnectNotify before and after each cancel connection operation (WNetCancelConnection and WNetCancelConnection2).
 old-location: security\cancelconnectnotify.htm

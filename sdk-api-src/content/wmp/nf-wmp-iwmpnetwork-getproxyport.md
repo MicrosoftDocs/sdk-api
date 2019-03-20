@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPNetwork.getProxyPort
-title: IWMPNetwork::getProxyPort
+title: IWMPNetwork::getProxyPort (wmp.h)
 author: windows-sdk-content
 description: The getProxyPort method retrieves the proxy port being used.
 old-location: wmp\iwmpnetwork_getproxyport.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._SECURITY_USER_DATA
-title: SECURITY_USER_DATA
+title: SECURITY_USER_DATA (ntsecpkg.h)
 author: windows-sdk-content
 description: The SecurityUserData structure contains information about the user of a security support provider/authentication package. This structure is used by the SpGetUserInfo function.
 old-location: security\securityuserdata.htm

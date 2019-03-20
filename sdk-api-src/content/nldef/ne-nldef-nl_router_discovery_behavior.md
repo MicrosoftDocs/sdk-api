@@ -1,6 +1,6 @@
 ---
 UID: NE:nldef._NL_ROUTER_DISCOVERY_BEHAVIOR
-title: NL_ROUTER_DISCOVERY_BEHAVIOR
+title: NL_ROUTER_DISCOVERY_BEHAVIOR (nldef.h)
 author: windows-sdk-content
 description: The NL_ROUTER_DISCOVERY_BEHAVIOR enumeration type defines the router discovery behavior, as described in RFC 2461.
 old-location: netvista\nl_router_discovery_behavior.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_X942_OTHER_INFO
-title: CRYPT_X942_OTHER_INFO
+title: CRYPT_X942_OTHER_INFO (wincrypt.h)
 author: windows-sdk-content
 description: The CRYPT_X942_OTHER_INFO structure contains additional key generation information.
 old-location: security\crypt_x942_other_info.htm

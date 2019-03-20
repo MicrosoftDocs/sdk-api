@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextOwner.GetStatus
-title: ITfContextOwner::GetStatus
+title: ITfContextOwner::GetStatus (msctf.h)
 author: windows-sdk-content
 description: The ITfContextOwner::GetStatus method obtains the status of a document. The document status is returned through the TS_STATUS structure.
 old-location: tsf\itfcontextowner_getstatus.htm

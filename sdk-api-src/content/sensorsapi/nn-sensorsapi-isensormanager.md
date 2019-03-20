@@ -1,6 +1,6 @@
 ---
 UID: NN:sensorsapi.ISensorManager
-title: ISensorManager
+title: ISensorManager (sensorsapi.h)
 author: windows-sdk-content
 description: Provides methods for discovering and retrieving available sensors and a method to request sensor manager events.
 old-location: winsensors\isensormanager.htm

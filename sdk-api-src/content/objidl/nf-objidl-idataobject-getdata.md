@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IDataObject.GetData
-title: IDataObject::GetData
+title: IDataObject::GetData (objidl.h)
 author: windows-sdk-content
 description: Called by a data consumer to obtain data from a source data object.
 old-location: com\idataobject_getdata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:minidumpapiset._MINIDUMP_TYPE
-title: MINIDUMP_TYPE
+title: MINIDUMP_TYPE (minidumpapiset.h)
 author: windows-sdk-content
 description: Identifies the type of information that will be written to the minidump file by the MiniDumpWriteDump function.
 old-location: base\minidump_type.htm

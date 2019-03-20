@@ -1,6 +1,6 @@
 ---
 UID: NF:bits1_5.IBackgroundCopyJob2.SetNotifyCmdLine
-title: IBackgroundCopyJob2::SetNotifyCmdLine
+title: IBackgroundCopyJob2::SetNotifyCmdLine (bits1_5.h)
 author: windows-sdk-content
 description: Specifies a program to execute if the job enters the BG_JOB_STATE_ERROR or BG_JOB_STATE_TRANSFERRED state. BITS executes the program in the context of the user who called this method.
 old-location: bits\ibackgroundcopyjob2_setnotifycmdline.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MF_QUALITY_ADVISE_FLAGS
-title: MF_QUALITY_ADVISE_FLAGS
+title: MF_QUALITY_ADVISE_FLAGS (mfidl.h)
 author: windows-sdk-content
 description: Contains flags for the IMFQualityAdvise2::NotifyQualityEvent method.
 old-location: mf\mf_quality_advise_flags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IIdleSettings.put_IdleDuration
-title: IIdleSettings::put_IdleDuration
+title: IIdleSettings::put_IdleDuration (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a value that indicates the amount of time that the computer must be in an idle state before the task is run.
 old-location: taskschd\iidlesettings_idleduration.htm

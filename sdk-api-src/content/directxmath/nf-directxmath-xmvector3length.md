@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector3Length
-title: XMVector3Length function
+title: XMVector3Length function (directxmath.h)
 author: windows-sdk-content
 description: Computes the length of a 3D vector.
 old-location: dxmath\xmvector3length.htm

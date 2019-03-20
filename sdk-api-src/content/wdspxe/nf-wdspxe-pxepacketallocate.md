@@ -1,6 +1,6 @@
 ---
 UID: NF:wdspxe.PxePacketAllocate
-title: PxePacketAllocate function
+title: PxePacketAllocate function (wdspxe.h)
 author: windows-sdk-content
 description: Allocates a packet to be sent with the PxeSendReply function.
 old-location: wds\pxepacketallocate.htm

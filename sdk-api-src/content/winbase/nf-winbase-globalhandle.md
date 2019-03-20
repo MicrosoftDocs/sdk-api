@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GlobalHandle
-title: GlobalHandle function
+title: GlobalHandle function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the handle associated with the specified pointer to a global memory block.
 old-location: base\globalhandle.htm

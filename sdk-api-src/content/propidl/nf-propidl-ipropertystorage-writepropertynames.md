@@ -1,6 +1,6 @@
 ---
 UID: NF:propidl.IPropertyStorage.WritePropertyNames
-title: IPropertyStorage::WritePropertyNames
+title: IPropertyStorage::WritePropertyNames (propidl.h)
 author: windows-sdk-content
 description: Assigns string IPropertyStoragenames to a specified array of property IDs in the current property set.
 old-location: stg\ipropertystorage_writepropertynames.htm

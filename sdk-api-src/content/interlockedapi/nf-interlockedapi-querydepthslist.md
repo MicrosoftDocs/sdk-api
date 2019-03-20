@@ -1,6 +1,6 @@
 ---
 UID: NF:interlockedapi.QueryDepthSList
-title: QueryDepthSList function
+title: QueryDepthSList function (interlockedapi.h)
 author: windows-sdk-content
 description: Retrieves the number of entries in the specified singly linked list.
 old-location: base\querydepthslist.htm

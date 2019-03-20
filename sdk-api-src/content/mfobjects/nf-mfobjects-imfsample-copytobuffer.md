@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFSample.CopyToBuffer
-title: IMFSample::CopyToBuffer
+title: IMFSample::CopyToBuffer (mfobjects.h)
 author: windows-sdk-content
 description: Copies the sample data to a buffer. This method concatenates the valid data from all of the buffers of the sample, in order.
 old-location: mf\imfsample_copytobuffer.htm

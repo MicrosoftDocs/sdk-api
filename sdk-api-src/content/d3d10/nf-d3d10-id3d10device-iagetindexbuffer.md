@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.IAGetIndexBuffer
-title: ID3D10Device::IAGetIndexBuffer
+title: ID3D10Device::IAGetIndexBuffer (d3d10.h)
 author: windows-sdk-content
 description: Get a pointer to the index buffer that is bound to the input-assembler stage.
 old-location: direct3d10\id3d10device_iagetindexbuffer.htm

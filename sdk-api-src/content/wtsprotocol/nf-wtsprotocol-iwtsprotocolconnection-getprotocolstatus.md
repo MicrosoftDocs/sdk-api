@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.GetProtocolStatus
-title: IWTSProtocolConnection::GetProtocolStatus
+title: IWTSProtocolConnection::GetProtocolStatus (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolConnection::GetProtocolStatus is no longer available. Instead, use IWRdsProtocolConnection::GetProtocolStatus.
 old-location: termserv\iwtsprotocolconnection_getprotocolstatus.htm

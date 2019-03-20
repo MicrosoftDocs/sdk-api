@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetRasterizerCaps
-title: GetRasterizerCaps function
+title: GetRasterizerCaps function (wingdi.h)
 author: windows-sdk-content
 description: The GetRasterizerCaps function returns flags indicating whether TrueType fonts are installed in the system.
 old-location: gdi\getrasterizercaps.htm

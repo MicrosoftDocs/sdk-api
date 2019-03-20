@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetKeyboardState
-title: SetKeyboardState function
+title: SetKeyboardState function (winuser.h)
 author: windows-sdk-content
 description: Copies an array of keyboard key states into the calling thread's keyboard input-state table. This is the same table accessed by the GetKeyboardState and GetKeyState functions. Changes made to this table do not affect keyboard input to any other thread.
 old-location: inputdev\setkeyboardstate.htm

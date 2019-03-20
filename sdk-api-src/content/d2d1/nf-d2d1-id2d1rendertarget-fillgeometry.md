@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.FillGeometry
-title: ID2D1RenderTarget::FillGeometry
+title: ID2D1RenderTarget::FillGeometry (d2d1.h)
 author: windows-sdk-content
 description: Paints the interior of the specified geometry.
 old-location: direct2d\ID2D1RenderTarget_FillGeometry.htm

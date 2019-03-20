@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.GetSubItemAt
-title: IPhotoAcquireItem::GetSubItemAt
+title: IPhotoAcquireItem::GetSubItemAt (photoacquire.h)
 author: windows-sdk-content
 description: The GetSubItemAt method retrieves a subitem of an item, given the index of the subitem.
 old-location: picacq\iphotoacquireitem_getsubitemat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CloseGestureInfoHandle
-title: CloseGestureInfoHandle function
+title: CloseGestureInfoHandle function (winuser.h)
 author: windows-sdk-content
 description: Closes resources associated with a gesture information handle.
 old-location: wintouch\closegestureinfohandle.htm

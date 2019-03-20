@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IMPEG2PIDMap
-title: IMPEG2PIDMap
+title: IMPEG2PIDMap (bdaiface.h)
 author: windows-sdk-content
 description: This interface is implemented on each output pin of the MPEG-2 Demultiplexer filter (Demux) and is used in transport stream mode only.
 old-location: dshow\impeg2pidmap.htm

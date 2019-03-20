@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGISwapChainMedia.SetPresentDuration
-title: IDXGISwapChainMedia::SetPresentDuration
+title: IDXGISwapChainMedia::SetPresentDuration (dxgi1_3.h)
 author: windows-sdk-content
 description: Requests a custom presentation duration (custom refresh rate).
 old-location: direct3ddxgi\idxgiswapchainmedia_setpresentduration.htm

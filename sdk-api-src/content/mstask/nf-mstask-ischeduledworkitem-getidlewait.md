@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetIdleWait
-title: IScheduledWorkItem::GetIdleWait
+title: IScheduledWorkItem::GetIdleWait (mstask.h)
 author: windows-sdk-content
 description: Retrieves the idle wait time for the work item.
 old-location: taskschd\ischeduledworkitem_getidlewait.htm

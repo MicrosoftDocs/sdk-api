@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager.RemoveService
-title: IUpdateServiceManager::RemoveService
+title: IUpdateServiceManager::RemoveService (wuapi.h)
 author: windows-sdk-content
 description: Removes a service registration from Windows Update Agent (WUA).
 old-location: wua\iupdateservicemanager_removeservice.htm

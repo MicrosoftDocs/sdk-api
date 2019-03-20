@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.GetClusterResourceState
-title: GetClusterResourceState function
+title: GetClusterResourceState function (clusapi.h)
 author: windows-sdk-content
 description: Returns the current state of a resource.
 old-location: mscs\getclusterresourcestate.htm

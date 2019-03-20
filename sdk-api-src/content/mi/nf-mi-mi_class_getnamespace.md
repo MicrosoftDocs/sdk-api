@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Class_GetNameSpace
-title: MI_Class_GetNameSpace function
+title: MI_Class_GetNameSpace function (mi.h)
 author: windows-sdk-content
 description: Gets the namespace name of the specified class.
 old-location: wmi_v2\mi_class_getnamespace.htm

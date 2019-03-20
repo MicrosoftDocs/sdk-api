@@ -1,6 +1,6 @@
 ---
 UID: NF:ntquery.CIMakeICommand
-title: CIMakeICommand function
+title: CIMakeICommand function (ntquery.h)
 author: windows-sdk-content
 description: Creates a Command object, specifying computers, catalogs, and scopes.
 old-location: indexsrv\cimakeicommand.htm

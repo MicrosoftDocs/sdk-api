@@ -1,6 +1,6 @@
 ---
 UID: NS:wsbonline._WSB_OB_REGISTRATION_INFO
-title: WSB_OB_REGISTRATION_INFO
+title: WSB_OB_REGISTRATION_INFO (wsbonline.h)
 author: windows-sdk-content
 description: Contains information to register a cloud backup provider with Windows Server Backup.
 old-location: wsb\wsb_ob_registration_info.htm

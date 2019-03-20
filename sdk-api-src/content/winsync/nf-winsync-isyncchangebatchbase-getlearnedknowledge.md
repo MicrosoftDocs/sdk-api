@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.GetLearnedKnowledge
-title: ISyncChangeBatchBase::GetLearnedKnowledge
+title: ISyncChangeBatchBase::GetLearnedKnowledge (winsync.h)
 author: windows-sdk-content
 description: Gets the knowledge that the destination replica learns when the destination provider applies all the changes in this change batch.
 old-location: winsync\isyncchangebatchbase_getlearnedknowledge.htm

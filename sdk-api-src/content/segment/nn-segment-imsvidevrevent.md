@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidEVREvent
-title: IMSVidEVREvent
+title: IMSVidEVREvent (segment.h)
 author: windows-sdk-content
 description: This topic applies to Windows Vista or later.
 old-location: mstv\imsvidevrevent.htm

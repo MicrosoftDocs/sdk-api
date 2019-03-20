@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.PowerClearRequest
-title: PowerClearRequest function
+title: PowerClearRequest function (winbase.h)
 author: windows-sdk-content
 description: Decrements the count of power requests of the specified type for a power request object.
 old-location: base\powerclearrequest.htm

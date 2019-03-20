@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IDeferredCommand.Confidence
-title: IDeferredCommand::Confidence
+title: IDeferredCommand::Confidence (control.h)
 author: windows-sdk-content
 description: The Confidence method retrieves a confidence value that indicates how likely it is for the command to be invoked at the requested time.
 old-location: dshow\ideferredcommand_confidence.htm

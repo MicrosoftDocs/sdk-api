@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMDevMemoryAllocator.Free
-title: IAMDevMemoryAllocator::Free
+title: IAMDevMemoryAllocator::Free (strmif.h)
 author: windows-sdk-content
 description: Note  The IAMDevMemoryAllocator interface is deprecated. Frees the previously allocated memory.
 old-location: dshow\iamdevmemoryallocator_free.htm

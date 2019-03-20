@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.WICGetMetadataContentSize
-title: WICGetMetadataContentSize function
+title: WICGetMetadataContentSize function (wincodecsdk.h)
 author: windows-sdk-content
 description: Returns the size of the metadata content contained by the specified IWICMetadataWriter. The returned size accounts for the header and the length of the metadata.
 old-location: wic\_wic_codec_wicgetmetadatacontentsize.htm

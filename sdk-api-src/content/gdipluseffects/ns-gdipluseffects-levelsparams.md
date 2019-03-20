@@ -1,6 +1,6 @@
 ---
 UID: NS:gdipluseffects.LevelsParams
-title: LevelsParams
+title: LevelsParams (gdipluseffects.h)
 author: windows-sdk-content
 description: The LevelsParams structure contains members that specify adjustments to the light, midtone, or dark areas of a bitmap.
 old-location: gdiplus\_gdiplus_STRUC_LevelsParams.htm

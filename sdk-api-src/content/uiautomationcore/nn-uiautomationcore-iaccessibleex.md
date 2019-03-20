@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.IAccessibleEx
-title: IAccessibleEx
+title: IAccessibleEx (uiautomationcore.h)
 author: windows-sdk-content
 description: Exposes methods that are called by Microsoft UI Automation to retrieve extra information about a control that supports Microsoft Active Accessibility.
 old-location: winauto\uiauto_IAccessibleEx.htm

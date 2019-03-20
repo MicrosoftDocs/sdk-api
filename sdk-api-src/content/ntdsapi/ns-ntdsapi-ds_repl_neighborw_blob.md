@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdsapi._DS_REPL_NEIGHBORW_BLOB
-title: DS_REPL_NEIGHBORW_BLOB
+title: DS_REPL_NEIGHBORW_BLOB (ntdsapi.h)
 author: windows-sdk-content
 description: Contains inbound replication state data for a particular naming context and source server pair.
 old-location: ad\ds_repl_neighborw_blob.htm

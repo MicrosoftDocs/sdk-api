@@ -1,6 +1,6 @@
 ---
 UID: NF:cfapi.CfGetPlaceholderStateFromFileInfo
-title: CfGetPlaceholderStateFromFileInfo function
+title: CfGetPlaceholderStateFromFileInfo function (cfapi.h)
 author: windows-sdk-content
 description: Gets a set of placeholder states based on the various information of the file.
 old-location: cloudapi\cfgetplaceholderstatefromfileinfo.htm

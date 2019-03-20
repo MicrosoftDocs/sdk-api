@@ -1,6 +1,6 @@
 ---
 UID: NF:bluetoothapis.BluetoothSetServiceState
-title: BluetoothSetServiceState function
+title: BluetoothSetServiceState function (bluetoothapis.h)
 author: windows-sdk-content
 description: Enables or disables services for a Bluetooth device.
 old-location: bluetooth\bluetoothsetservicestate.htm

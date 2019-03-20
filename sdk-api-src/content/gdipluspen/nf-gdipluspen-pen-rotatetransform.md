@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.RotateTransform
-title: Pen::RotateTransform
+title: Pen::RotateTransform (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::RotateTransform method updates the world transformation matrix of this Pen object with the product of itself and a rotation matrix.
 old-location: gdiplus\_gdiplus_CLASS_Pen_RotateTransform_angle_order_.htm

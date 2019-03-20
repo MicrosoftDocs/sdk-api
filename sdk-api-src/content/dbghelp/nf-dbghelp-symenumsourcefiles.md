@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymEnumSourceFiles
-title: SymEnumSourceFiles function
+title: SymEnumSourceFiles function (dbghelp.h)
 author: windows-sdk-content
 description: Enumerates all source files in a process.
 old-location: base\symenumsourcefiles.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathUnmakeSystemFolderW
-title: PathUnmakeSystemFolderW function
+title: PathUnmakeSystemFolderW function (shlwapi.h)
 author: windows-sdk-content
 description: Removes the attributes from a folder that make it a system folder. This folder must actually exist in the file system.
 old-location: shell\PathUnmakeSystemFolder.htm

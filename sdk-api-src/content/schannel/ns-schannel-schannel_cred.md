@@ -1,6 +1,6 @@
 ---
 UID: NS:schannel._SCHANNEL_CRED
-title: SCHANNEL_CRED
+title: SCHANNEL_CRED (schannel.h)
 author: windows-sdk-content
 description: Contains the data for an Schannel credential.
 old-location: security\schannel_cred.htm

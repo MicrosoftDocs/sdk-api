@@ -1,6 +1,6 @@
 ---
 UID: NE:winnt._SYSTEM_POWER_STATE
-title: SYSTEM_POWER_STATE
+title: SYSTEM_POWER_STATE (winnt.h)
 author: windows-sdk-content
 description: Defines values that are used to specify system power states.
 old-location: base\system_power_state.htm

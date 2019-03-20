@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannelDescriptor.GetLength
-title: IDvbLogicalChannelDescriptor::GetLength
+title: IDvbLogicalChannelDescriptor::GetLength (dvbsiparser.h)
 author: windows-sdk-content
 description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. .
 old-location: mstv\idvblogicalchanneldescriptor_getlength.htm

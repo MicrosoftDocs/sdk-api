@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngWritePrinter
-title: EngWritePrinter function
+title: EngWritePrinter function (winddi.h)
 author: windows-sdk-content
 description: The EngWritePrinter function allows printer graphics DLLs to send a data stream to printer hardware.
 old-location: display\engwriteprinter.htm

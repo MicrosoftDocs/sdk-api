@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymEnumSourceFileTokens
-title: SymEnumSourceFileTokens function
+title: SymEnumSourceFileTokens function (dbghelp.h)
 author: windows-sdk-content
 description: Enumerates all individual entries in a module's source server data, if available.
 old-location: base\symenumsourcefiletokens.htm

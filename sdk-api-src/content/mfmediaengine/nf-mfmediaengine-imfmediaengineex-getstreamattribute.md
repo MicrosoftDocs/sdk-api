@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetStreamAttribute
-title: IMFMediaEngineEx::GetStreamAttribute
+title: IMFMediaEngineEx::GetStreamAttribute (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets a stream-level attribute from the media resource.
 old-location: mf\imfmediaengineex_getstreamattribute.htm

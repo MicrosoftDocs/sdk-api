@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2.DWriteEngine2Events
-title: DWriteEngine2Events
+title: DWriteEngine2Events (imapi2.h)
 author: windows-sdk-content
 description: Implement this interface to receive notifications of the current write operation.
 old-location: imapi\dwriteengine2events.htm

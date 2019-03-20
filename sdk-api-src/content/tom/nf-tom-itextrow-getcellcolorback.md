@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.GetCellColorBack
-title: ITextRow::GetCellColorBack
+title: ITextRow::GetCellColorBack (tom.h)
 author: windows-sdk-content
 description: Gets the background color of the active cell.
 old-location: controls\itextrow_getcellcolorback.htm

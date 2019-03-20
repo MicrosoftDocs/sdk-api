@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.data.pdf.interop.PdfCreateRenderer
-title: PdfCreateRenderer function
+title: PdfCreateRenderer function (windows.data.pdf.interop.h)
 author: windows-sdk-content
 description: Gets an instance of the IPdfRendererNative interface for displaying a single page of a Portable Document Format (PDF) file.
 old-location: winrt\pdfcreaterenderer.htm

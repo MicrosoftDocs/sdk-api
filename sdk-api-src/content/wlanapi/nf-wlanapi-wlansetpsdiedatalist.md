@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanSetPsdIEDataList
-title: WlanSetPsdIEDataList function
+title: WlanSetPsdIEDataList function (wlanapi.h)
 author: windows-sdk-content
 description: Sets the proximity service discovery (PSD) information element (IE) data list.
 old-location: nwifi\wlansetpsdiedatalist.htm

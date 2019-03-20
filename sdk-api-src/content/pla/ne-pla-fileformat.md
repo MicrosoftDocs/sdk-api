@@ -1,6 +1,6 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0002
-title: FileFormat
+title: FileFormat (pla.h)
 author: windows-sdk-content
 description: Defines the format of the data in the log file.
 old-location: pla\fileformat.htm

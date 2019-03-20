@@ -1,6 +1,6 @@
 ---
 UID: NS:wincodec.WICJpegFrameHeader
-title: WICJpegFrameHeader
+title: WICJpegFrameHeader (wincodec.h)
 author: windows-sdk-content
 description: Represents a JPEG frame header.
 old-location: wic\wicjpegframeheader.htm

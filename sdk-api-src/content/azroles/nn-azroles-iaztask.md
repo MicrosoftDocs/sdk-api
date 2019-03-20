@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzTask
-title: IAzTask
+title: IAzTask (azroles.h)
 author: windows-sdk-content
 description: Describes a set of operations.
 old-location: security\iaztask.htm

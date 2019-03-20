@@ -1,6 +1,6 @@
 ---
 UID: NF:filter.IFilter.Init
-title: IFilter::Init
+title: IFilter::Init (filter.h)
 author: windows-sdk-content
 description: Initializes a filtering session.
 old-location: indexsrv\ifilter_init.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmMerge.Merge
-title: IMsmMerge::Merge
+title: IMsmMerge::Merge (mergemod.h)
 author: windows-sdk-content
 description: The Merge method executes a merge of the current database and current module.
 old-location: setup\imsmmerge_merge.htm

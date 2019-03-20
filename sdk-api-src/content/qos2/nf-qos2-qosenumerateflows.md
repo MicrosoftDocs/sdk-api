@@ -1,6 +1,6 @@
 ---
 UID: NF:qos2.QOSEnumerateFlows
-title: QOSEnumerateFlows function
+title: QOSEnumerateFlows function (qos2.h)
 author: windows-sdk-content
 description: Enumerates all existing flows.
 old-location: qos\qosenumerateflows.htm

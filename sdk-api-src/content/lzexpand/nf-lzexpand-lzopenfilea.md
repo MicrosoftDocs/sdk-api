@@ -1,6 +1,6 @@
 ---
 UID: NF:lzexpand.LZOpenFileA
-title: LZOpenFileA function
+title: LZOpenFileA function (lzexpand.h)
 author: windows-sdk-content
 description: Creates, opens, reopens, or deletes the specified file.
 old-location: fs\lzopenfile.htm

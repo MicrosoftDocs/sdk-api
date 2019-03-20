@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertSrvSetup.IsPropertyEditable
-title: ICertSrvSetup::IsPropertyEditable
+title: ICertSrvSetup::IsPropertyEditable (casetup.h)
 author: windows-sdk-content
 description: Indicates to the caller whether a specified property can be edited.
 old-location: security\icertsrvsetup_ispropertyeditable.htm

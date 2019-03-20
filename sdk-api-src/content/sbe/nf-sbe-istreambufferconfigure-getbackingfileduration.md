@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure.GetBackingFileDuration
-title: IStreamBufferConfigure::GetBackingFileDuration
+title: IStreamBufferConfigure::GetBackingFileDuration (sbe.h)
 author: windows-sdk-content
 description: The GetBackingFileDuration method retrieves the duration of each backing file.
 old-location: mstv\istreambufferconfigure_getbackingfileduration.htm

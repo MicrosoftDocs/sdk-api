@@ -1,6 +1,6 @@
 ---
 UID: NS:winsvc._SERVICE_STATUS
-title: SERVICE_STATUS
+title: SERVICE_STATUS (winsvc.h)
 author: windows-sdk-content
 description: Contains status information for a service.
 old-location: base\service_status_str.htm

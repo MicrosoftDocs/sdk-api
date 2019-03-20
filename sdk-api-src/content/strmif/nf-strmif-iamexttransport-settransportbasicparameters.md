@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtTransport.SetTransportBasicParameters
-title: IAMExtTransport::SetTransportBasicParameters
+title: IAMExtTransport::SetTransportBasicParameters (strmif.h)
 author: windows-sdk-content
 description: The SetTransportBasicParameters method sets general properties of the transport.
 old-location: dshow\iamexttransport_settransportbasicparameters.htm

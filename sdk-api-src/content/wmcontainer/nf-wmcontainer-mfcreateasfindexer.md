@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.MFCreateASFIndexer
-title: MFCreateASFIndexer function
+title: MFCreateASFIndexer function (wmcontainer.h)
 author: windows-sdk-content
 description: Creates the ASF Indexer object.
 old-location: mf\mfcreateasfindexer.htm

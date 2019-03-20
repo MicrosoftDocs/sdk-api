@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGIOutput3.CheckOverlaySupport
-title: IDXGIOutput3::CheckOverlaySupport
+title: IDXGIOutput3::CheckOverlaySupport (dxgi1_3.h)
 author: windows-sdk-content
 description: Checks for overlay support.
 old-location: direct3ddxgi\idxgioutput3_checkoverlaysupport.htm

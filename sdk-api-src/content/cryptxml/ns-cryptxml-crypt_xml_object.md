@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_OBJECT
-title: CRYPT_XML_OBJECT
+title: CRYPT_XML_OBJECT (cryptxml.h)
 author: windows-sdk-content
 description: Describes an Object element in the signature.
 old-location: security\crypt_xml_object.htm

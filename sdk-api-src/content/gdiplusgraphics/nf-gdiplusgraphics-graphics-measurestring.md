@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.MeasureString
-title: Graphics::MeasureString
+title: Graphics::MeasureString (gdiplusgraphics.h)
 author: windows-sdk-content
 description: This topic lists the MeasureString methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_MeasureString_Methods.htm

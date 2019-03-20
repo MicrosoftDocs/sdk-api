@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IDShowPlugin.get_URL
-title: IDShowPlugin::get_URL
+title: IDShowPlugin::get_URL (qnetwork.h)
 author: windows-sdk-content
 description: The get_URL method retrieves the URL of the current web page.
 old-location: dshow\idshowplugin_get_url.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponentTypes.get_Item
-title: IComponentTypes::get_Item
+title: IComponentTypes::get_Item (tuner.h)
 author: windows-sdk-content
 description: The get_Item method retrieves the IComponentType interface pointer at the specified index number.
 old-location: mstv\icomponenttypes_get_item.htm

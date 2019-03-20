@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.ShellMessageBoxW
-title: ShellMessageBoxW function
+title: ShellMessageBoxW function (shellapi.h)
 author: windows-sdk-content
 description: ShellMessageBox may be altered or unavailable.
 old-location: shell\ShellMessageBox.htm

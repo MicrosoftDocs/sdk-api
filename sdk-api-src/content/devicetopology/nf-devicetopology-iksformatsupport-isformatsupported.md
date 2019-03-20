@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IKsFormatSupport.IsFormatSupported
-title: IKsFormatSupport::IsFormatSupported
+title: IKsFormatSupport::IsFormatSupported (devicetopology.h)
 author: windows-sdk-content
 description: The IsFormatSupported method indicates whether the audio endpoint device supports the specified audio stream format.
 old-location: coreaudio\iksformatsupport_isformatsupported.htm

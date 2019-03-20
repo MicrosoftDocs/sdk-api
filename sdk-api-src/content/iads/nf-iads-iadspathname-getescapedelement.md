@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPathname.GetEscapedElement
-title: IADsPathname::GetEscapedElement
+title: IADsPathname::GetEscapedElement (iads.h)
 author: windows-sdk-content
 description: Used to escape special characters in the input path.
 old-location: adsi\iadspathname_getescapedelement.htm

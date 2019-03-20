@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi1_6.IDXGIOutput6
-title: IDXGIOutput6
+title: IDXGIOutput6 (dxgi1_6.h)
 author: windows-sdk-content
 description: Represents an adapter output (such as a monitor). The IDXGIOutput6 interface exposes methods to provide specific monitor capabilities.
 old-location: direct3ddxgi\idxgioutput6.htm

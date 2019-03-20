@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._ROUTER_CUSTOM_IKEv2_POLICY0
-title: ROUTER_CUSTOM_IKEv2_POLICY0
+title: ROUTER_CUSTOM_IKEv2_POLICY0 (mprapi.h)
 author: windows-sdk-content
 description: Contains the IKEv2 main mode and quick mode policy configuration.
 old-location: rras\router_custom_ikev2_policy0.htm

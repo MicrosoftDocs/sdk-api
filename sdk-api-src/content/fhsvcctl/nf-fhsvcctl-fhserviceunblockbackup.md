@@ -1,6 +1,6 @@
 ---
 UID: NF:fhsvcctl.FhServiceUnblockBackup
-title: FhServiceUnblockBackup function
+title: FhServiceUnblockBackup function (fhsvcctl.h)
 author: windows-sdk-content
 description: This function unblocks backups blocked via FhServiceBlockBackup.
 old-location: winprog\fhserviceunblockbackup.htm

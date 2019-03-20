@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetShadowConnection
-title: IWRdsProtocolConnection::GetShadowConnection
+title: IWRdsProtocolConnection::GetShadowConnection (wtsprotocol.h)
 author: windows-sdk-content
 description: Retrieves a reference to the shadow connection object from the protocol.
 old-location: termserv\iwrdsprotocolconnection_getshadowconnection.htm

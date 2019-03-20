@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_IsConnected
-title: IWMSecureChannel::WMSC_IsConnected
+title: IWMSecureChannel::WMSC_IsConnected (wmsecure.h)
 author: windows-sdk-content
 description: The WMSC_IsConnected method checks to see if the secure connection is valid.
 old-location: wmformat\iwmsecurechannel_wmsc_isconnected.htm

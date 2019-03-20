@@ -1,6 +1,6 @@
 ---
 UID: NN:dxva2api.IDirectXVideoMemoryConfiguration
-title: IDirectXVideoMemoryConfiguration
+title: IDirectXVideoMemoryConfiguration (dxva2api.h)
 author: windows-sdk-content
 description: Sets the type of video memory for uncompressed video surfaces.
 old-location: mf\idirectxvideomemoryconfiguration.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dcommon._D3D_CBUFFER_TYPE
-title: D3D_CBUFFER_TYPE
+title: D3D_CBUFFER_TYPE (d3dcommon.h)
 author: windows-sdk-content
 description: Values that identify the intended use of constant-buffer data.
 old-location: direct3d11\d3d_cbuffer_type.htm

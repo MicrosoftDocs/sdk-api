@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_DatetimeA
-title: MI_DatetimeA
+title: MI_DatetimeA (mi.h)
 author: windows-sdk-content
 description: Represents an array of MI_Datetime types.
 old-location: wmi_v2\mi_datetimea.htm

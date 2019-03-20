@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_20
-title: WS_TRANSFER_MODE
+title: WS_TRANSFER_MODE (webservices.h)
 author: windows-sdk-content
 description: Whether messages that are sent or received are streamed or buffered.
 old-location: wsw\ws_transfer_mode.htm

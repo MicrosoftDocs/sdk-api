@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi.IDXGIObject
-title: IDXGIObject
+title: IDXGIObject (dxgi.h)
 author: windows-sdk-content
 description: An IDXGIObject interface is a base interface for all DXGI objects; IDXGIObject supports associating caller-defined (private data) with an object and retrieval of an interface to the parent object.
 old-location: direct3ddxgi\idxgiobject.htm

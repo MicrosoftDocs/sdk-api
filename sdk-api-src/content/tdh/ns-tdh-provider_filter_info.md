@@ -1,6 +1,6 @@
 ---
 UID: NS:tdh._PROVIDER_FILTER_INFO
-title: PROVIDER_FILTER_INFO
+title: PROVIDER_FILTER_INFO (tdh.h)
 author: windows-sdk-content
 description: Defines a filter and its data.
 old-location: etw\provider_filter_info.htm

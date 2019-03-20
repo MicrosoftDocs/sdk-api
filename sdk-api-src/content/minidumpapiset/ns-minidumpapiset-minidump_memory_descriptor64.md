@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_MEMORY_DESCRIPTOR64
-title: MINIDUMP_MEMORY_DESCRIPTOR64
+title: MINIDUMP_MEMORY_DESCRIPTOR64 (minidumpapiset.h)
 author: windows-sdk-content
 description: Describes a range of memory.
 old-location: base\minidump_memory_descriptor_str.htm

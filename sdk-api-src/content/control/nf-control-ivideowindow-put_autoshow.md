@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.put_AutoShow
-title: IVideoWindow::put_AutoShow
+title: IVideoWindow::put_AutoShow (control.h)
 author: windows-sdk-content
 description: The put_AutoShow method specifies whether the video renderer automatically shows the video window when it receives video data.
 old-location: dshow\ivideowindow_put_autoshow.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SaveEnvironment
-title: ITsSbResourcePluginStore::SaveEnvironment
+title: ITsSbResourcePluginStore::SaveEnvironment (sbtsv.h)
 author: windows-sdk-content
 description: Saves an environment.
 old-location: termserv\itssbresourcepluginstore_saveenvironment.htm

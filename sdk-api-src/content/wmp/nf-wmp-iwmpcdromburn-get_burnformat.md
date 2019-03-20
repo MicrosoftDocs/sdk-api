@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.get_burnFormat
-title: IWMPCdromBurn::get_burnFormat
+title: IWMPCdromBurn::get_burnFormat (wmp.h)
 author: windows-sdk-content
 description: The get_burnFormat method retrieves a value that indicates the type of CD to burn.
 old-location: wmp\iwmpcdromburn_get_burnformat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorSwizzle
-title: XMVectorSwizzle function
+title: XMVectorSwizzle function (directxmath.h)
 author: windows-sdk-content
 description: Swizzles a vector.
 old-location: dxmath\xmvectorswizzle.htm

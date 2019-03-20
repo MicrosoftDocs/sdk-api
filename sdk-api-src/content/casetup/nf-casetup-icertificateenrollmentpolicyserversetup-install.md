@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentPolicyServerSetup.Install
-title: ICertificateEnrollmentPolicyServerSetup::Install
+title: ICertificateEnrollmentPolicyServerSetup::Install (casetup.h)
 author: windows-sdk-content
 description: Installs the Certificate Enrollment Policy (CEP) Web Service configured by the ICertificateEnrollmentPolicyServerSetup object.
 old-location: security\icertificateenrollmentpolicyserversetup_install.htm

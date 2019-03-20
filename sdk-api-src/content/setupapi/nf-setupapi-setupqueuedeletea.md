@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupQueueDeleteA
-title: SetupQueueDeleteA function
+title: SetupQueueDeleteA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupQueueDelete function places an individual file delete operation on a setup file queue.
 old-location: setup\setupqueuedelete.htm

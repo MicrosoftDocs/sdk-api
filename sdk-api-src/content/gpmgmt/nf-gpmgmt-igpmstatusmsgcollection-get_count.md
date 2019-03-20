@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMStatusMsgCollection.get_Count
-title: IGPMStatusMsgCollection::get_Count
+title: IGPMStatusMsgCollection::get_Count (gpmgmt.h)
 author: windows-sdk-content
 description: Returns the number of messages in the collection.
 old-location: gpmc\igpmstatusmsgcollection_get_count.htm

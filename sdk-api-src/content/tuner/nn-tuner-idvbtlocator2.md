@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IDVBTLocator2
-title: IDVBTLocator2
+title: IDVBTLocator2 (tuner.h)
 author: windows-sdk-content
 description: Gets or sets tuning information for a Digital Video Broadcast - Second Generation Terrestrial (DVB-T2) network.
 old-location: mstv\idvbtlocator2.htm

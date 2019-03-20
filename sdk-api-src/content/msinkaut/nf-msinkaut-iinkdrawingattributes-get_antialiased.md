@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDrawingAttributes.get_AntiAliased
-title: IInkDrawingAttributes::get_AntiAliased
+title: IInkDrawingAttributes::get_AntiAliased (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the value that indicates whether a stroke is antialiased.
 old-location: tablet\inkdrawingattributes_antialiased.htm

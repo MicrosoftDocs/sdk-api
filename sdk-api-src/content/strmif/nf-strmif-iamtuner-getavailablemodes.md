@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTuner.GetAvailableModes
-title: IAMTuner::GetAvailableModes
+title: IAMTuner::GetAvailableModes (strmif.h)
 author: windows-sdk-content
 description: The GetAvailableModes method retrieves the tuner's supported modes.
 old-location: dshow\iamtuner_getavailablemodes.htm

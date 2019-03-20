@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll.put_ProviderType
-title: ICEnroll::put_ProviderType
+title: ICEnroll::put_ProviderType (xenroll.h)
 author: windows-sdk-content
 description: The ProviderType property of ICEnroll4 sets or retrieves the type of provider.
 old-location: security\icenroll4_providertype.htm

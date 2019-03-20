@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsWriteMessageEnd
-title: WsWriteMessageEnd function
+title: WsWriteMessageEnd function (webservices.h)
 author: windows-sdk-content
 description: Write the closing elements of the message to the channel.
 old-location: wsw\wswritemessageend.htm

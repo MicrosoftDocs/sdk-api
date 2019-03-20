@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector2Orthogonal
-title: XMVector2Orthogonal function
+title: XMVector2Orthogonal function (directxmath.h)
 author: windows-sdk-content
 description: Computes a vector perpendicular to a 2D vector.
 old-location: dxmath\xmvector2orthogonal.htm

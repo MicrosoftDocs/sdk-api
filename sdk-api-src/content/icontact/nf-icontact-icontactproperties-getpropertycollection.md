@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactProperties.GetPropertyCollection
-title: IContactProperties::GetPropertyCollection
+title: IContactProperties::GetPropertyCollection (icontact.h)
 author: windows-sdk-content
 description: Returns an IContactPropertyCollection for the current contact. Optionally, filters the IContactPropertyCollection to enumerate only some values.
 old-location: wincontacts\_wincontacts_IContactProperties_GetPropertyCollection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:udpmib._MIB_UDPTABLE_OWNER_PID
-title: MIB_UDPTABLE_OWNER_PID
+title: MIB_UDPTABLE_OWNER_PID (udpmib.h)
 author: windows-sdk-content
 description: Contains the User Datagram Protocol (UDP) listener table for IPv4 on the local computer. The table also includes the process ID (PID) that issued the call to the bind function for each UDP endpoint.
 old-location: mib\mib_udptable_owner_pid.htm

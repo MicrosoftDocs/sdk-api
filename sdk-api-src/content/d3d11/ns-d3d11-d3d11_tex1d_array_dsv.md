@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_TEX1D_ARRAY_DSV
-title: D3D11_TEX1D_ARRAY_DSV
+title: D3D11_TEX1D_ARRAY_DSV (d3d11.h)
 author: windows-sdk-content
 description: Specifies the subresources from an array of 1D textures to use in a depth-stencil view.
 old-location: direct3d11\d3d11_tex1d_array_dsv.htm

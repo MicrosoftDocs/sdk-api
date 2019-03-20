@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSetupManager2.get_TftpCapabilities
-title: IWdsTransportSetupManager2::get_TftpCapabilities
+title: IWdsTransportSetupManager2::get_TftpCapabilities (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives a mask of WDSTRANSPORT_TFTP_CAPABILITY values that indicates which WDS TFTP features are supported by the WDS TFTP server.
 old-location: wds\iwdstransportsetupmanager2_tftpcapabilities.htm

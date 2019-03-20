@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IPin.Connect
-title: IPin::Connect
+title: IPin::Connect (strmif.h)
 author: windows-sdk-content
 description: The Connect method connects the pin to another pin.
 old-location: dshow\ipin_connect.htm

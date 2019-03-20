@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxSecurity.put_Descriptor
-title: IFaxSecurity::put_Descriptor
+title: IFaxSecurity::put_Descriptor (faxcomex.h)
 author: windows-sdk-content
 description: The Descriptor property represents the security descriptor for a IFaxServer object.
 old-location: fax\_mfax_faxsecurity_descriptor_cpp.htm

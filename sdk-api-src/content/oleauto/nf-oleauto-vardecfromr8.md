@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarDecFromR8
-title: VarDecFromR8 function
+title: VarDecFromR8 function (oleauto.h)
 author: windows-sdk-content
 description: Converts a double value to a decimal value.
 old-location: automat\vardecfromr8.htm

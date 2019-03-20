@@ -1,6 +1,6 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0003
-title: ADS_NT_SECURITY_DESCRIPTOR
+title: ADS_NT_SECURITY_DESCRIPTOR (iads.h)
 author: windows-sdk-content
 description: The ADS_NT_SECURITY_DESCRIPTOR structure defines the data type of the security descriptor for Windows.
 old-location: adsi\ads_nt_security_descriptor.htm

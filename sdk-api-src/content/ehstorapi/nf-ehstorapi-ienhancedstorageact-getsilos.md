@@ -1,6 +1,6 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageACT.GetSilos
-title: IEnhancedStorageACT::GetSilos
+title: IEnhancedStorageACT::GetSilos (ehstorapi.h)
 author: windows-sdk-content
 description: Returns an enumeration of all silos associated with the Addressable Command Target (ACT).
 old-location: enstor\ienhancedstorageact_getsilos.htm

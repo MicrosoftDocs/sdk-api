@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_REFERENCE_PROPERTIES
-title: WSD_REFERENCE_PROPERTIES
+title: WSD_REFERENCE_PROPERTIES (wsdtypes.h)
 author: windows-sdk-content
 description: Specifies additional data used to uniquely identify an endpoint.
 old-location: ncd\wsd_reference_properties_struct.htm

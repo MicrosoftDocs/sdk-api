@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterRegCloseReadBatch
-title: ClusterRegCloseReadBatch function
+title: ClusterRegCloseReadBatch function (clusapi.h)
 author: windows-sdk-content
 description: Executes a read batch and returns results from the read batch executions.
 old-location: mscs\clusterregclosereadbatch.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngStrokePath
-title: EngStrokePath function
+title: EngStrokePath function (winddi.h)
 author: windows-sdk-content
 description: The EngStrokePath function requests that GDI stroke a specified path.
 old-location: display\engstrokepath.htm

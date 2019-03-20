@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpDeleteCredentialsFn
-title: SpDeleteCredentialsFn
+title: SpDeleteCredentialsFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Deletes credentials from a security package's list of primary or supplemental credentials.
 old-location: security\spdeletecredentials.htm

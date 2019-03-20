@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.Clear
-title: WBEMTimeSpan::Clear
+title: WBEMTimeSpan::Clear (wbemtime.h)
 author: windows-sdk-content
 description: The Clear method sets the time span to INVALID_TIME.
 old-location: wmi\wbemtimespan_clear.htm

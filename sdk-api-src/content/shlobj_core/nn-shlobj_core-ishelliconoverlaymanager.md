@@ -1,6 +1,6 @@
 ---
 UID: NN:shlobj_core.IShellIconOverlayManager
-title: IShellIconOverlayManager
+title: IShellIconOverlayManager (shlobj_core.h)
 author: windows-sdk-content
 description: IShellIconOverlayManager may be altered or unavailable.
 old-location: shell\IShellIconOverlayManager.htm

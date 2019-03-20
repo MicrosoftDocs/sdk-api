@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10.D3D10_RTV_DIMENSION
-title: D3D10_RTV_DIMENSION
+title: D3D10_RTV_DIMENSION (d3d10.h)
 author: windows-sdk-content
 description: Specifies how to access a resource used in a render-target view.
 old-location: direct3d10\d3d10_rtv_dimension.htm

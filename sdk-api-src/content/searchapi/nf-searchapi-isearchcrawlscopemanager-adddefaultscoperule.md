@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.AddDefaultScopeRule
-title: ISearchCrawlScopeManager::AddDefaultScopeRule
+title: ISearchCrawlScopeManager::AddDefaultScopeRule (searchapi.h)
 author: windows-sdk-content
 description: Adds a URL as the default scope for this rule.
 old-location: search\_search_ISearchCrawlScopeManager_AddDefaultScopeRule.htm

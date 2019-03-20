@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.put_MixerBitmap
-title: IMSVidVideoRenderer::put_MixerBitmap
+title: IMSVidVideoRenderer::put_MixerBitmap (segment.h)
 author: windows-sdk-content
 description: The put_MixerBitmap method specifies the static bitmap image, as an IPictureDisp type.
 old-location: mstv\imsvidvideorenderer_put_mixerbitmap.htm

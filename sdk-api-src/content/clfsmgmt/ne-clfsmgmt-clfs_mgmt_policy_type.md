@@ -1,6 +1,6 @@
 ---
 UID: NE:clfsmgmt._CLFS_MGMT_POLICY_TYPE
-title: CLFS_MGMT_POLICY_TYPE
+title: CLFS_MGMT_POLICY_TYPE (clfsmgmt.h)
 author: windows-sdk-content
 description: The CLFS_MGMT_POLICY_TYPE enumeration lists the valid policy types.
 old-location: fs\clfs_mgmt_policy_type.htm

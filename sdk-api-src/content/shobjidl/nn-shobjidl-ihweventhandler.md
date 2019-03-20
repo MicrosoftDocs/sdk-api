@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IHWEventHandler
-title: IHWEventHandler
+title: IHWEventHandler (shobjidl.h)
 author: windows-sdk-content
 description: Called by AutoPlay to implement the handling of registered media types.
 old-location: shell\IHWEventHandler.htm

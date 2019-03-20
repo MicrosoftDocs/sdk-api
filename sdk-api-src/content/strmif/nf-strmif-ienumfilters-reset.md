@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEnumFilters.Reset
-title: IEnumFilters::Reset
+title: IEnumFilters::Reset (strmif.h)
 author: windows-sdk-content
 description: The Reset method resets the enumeration sequence to the beginning.
 old-location: dshow\ienumfilters_reset.htm

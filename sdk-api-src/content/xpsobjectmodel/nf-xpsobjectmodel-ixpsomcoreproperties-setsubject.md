@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetSubject
-title: IXpsOMCoreProperties::SetSubject
+title: IXpsOMCoreProperties::SetSubject (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the subject property.
 old-location: xps\ixpsomcoreproperties_setsubject.htm

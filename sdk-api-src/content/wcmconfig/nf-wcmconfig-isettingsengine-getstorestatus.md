@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.GetStoreStatus
-title: ISettingsEngine::GetStoreStatus
+title: ISettingsEngine::GetStoreStatus (wcmconfig.h)
 author: windows-sdk-content
 description: Gets the status of the schema store.
 old-location: smi\isettingsengine_getstorestatus.htm

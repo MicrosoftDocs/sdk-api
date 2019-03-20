@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_Xml
-title: IDataCollectorSet::get_Xml
+title: IDataCollectorSet::get_Xml (pla.h)
 author: windows-sdk-content
 description: Retrieves an XML string that describes the values of the data collector set properties, including those of the data collectors contained in the set.
 old-location: pla\idatacollectorset_get_xml.htm

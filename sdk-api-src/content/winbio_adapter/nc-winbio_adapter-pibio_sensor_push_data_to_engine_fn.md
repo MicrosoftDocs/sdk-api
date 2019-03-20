@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN
-title: PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN
+title: PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Makes the current contents of the sample buffer available to the engine adapter.
 old-location: secbiomet\sensoradapterpushdatatoengine.htm

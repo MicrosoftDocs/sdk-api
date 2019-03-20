@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DStateBlock9.Apply
-title: IDirect3DStateBlock9::Apply
+title: IDirect3DStateBlock9::Apply (d3d9.h)
 author: windows-sdk-content
 description: Apply the state block to the current device state.
 old-location: direct3d9\idirect3dstateblock9__apply.htm

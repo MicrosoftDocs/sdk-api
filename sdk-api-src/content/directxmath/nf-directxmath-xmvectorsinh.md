@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorSinH
-title: XMVectorSinH function
+title: XMVectorSinH function (directxmath.h)
 author: windows-sdk-content
 description: Computes the hyperbolic sine of each component of an XMVECTOR.
 old-location: dxmath\xmvectorsinh.htm

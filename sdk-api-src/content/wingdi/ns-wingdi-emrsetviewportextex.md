@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRSETVIEWPORTEXTEX
-title: EMRSETVIEWPORTEXTEX
+title: EMRSETVIEWPORTEXTEX (wingdi.h)
 author: windows-sdk-content
 description: The EMRSETVIEWPORTEXTEX and EMRSETWINDOWEXTEX structures contains members for the SetViewportExtEx and SetWindowExtEx enhanced metafile records.
 old-location: gdi\emrsetviewportextex__emrsetwindowextex.htm

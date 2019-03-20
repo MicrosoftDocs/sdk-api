@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore3.GetSchemaVersion
-title: IAzAuthorizationStore3::GetSchemaVersion
+title: IAzAuthorizationStore3::GetSchemaVersion (azroles.h)
 author: windows-sdk-content
 description: Gets the version number of this authorization store.
 old-location: security\iazauthorizationstore3_getschemaversion_method.htm

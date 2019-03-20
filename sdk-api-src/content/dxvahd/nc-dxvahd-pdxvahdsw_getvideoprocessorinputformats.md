@@ -1,6 +1,6 @@
 ---
 UID: NC:dxvahd.PDXVAHDSW_GetVideoProcessorInputFormats
-title: PDXVAHDSW_GetVideoProcessorInputFormats
+title: PDXVAHDSW_GetVideoProcessorInputFormats (dxvahd.h)
 author: windows-sdk-content
 description: Gets the input formats that are supported by a software plug-in Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\pdxvahdsw_getvideoprocessorinputformats.htm

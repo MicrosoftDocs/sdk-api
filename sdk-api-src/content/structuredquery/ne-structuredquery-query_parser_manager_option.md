@@ -1,6 +1,6 @@
 ---
 UID: NE:structuredquery.tagQUERY_PARSER_MANAGER_OPTION
-title: QUERY_PARSER_MANAGER_OPTION
+title: QUERY_PARSER_MANAGER_OPTION (structuredquery.h)
 author: windows-sdk-content
 description: Used by IQueryParserManager::SetOption to set parsing options. This can be used to specify schemas and localization options.
 old-location: search\_search_QUERY_PARSER_MANAGER_OPTION.htm

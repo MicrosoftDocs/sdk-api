@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings3.put_MaintenanceSettings
-title: ITaskSettings3::put_MaintenanceSettings
+title: ITaskSettings3::put_MaintenanceSettings (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a pointer to pointer to an IMaintenanceSettingsobject that Task scheduler uses to perform a task during Automatic maintenance.
 old-location: taskschd\itasksettings3_maintenancesettings.htm

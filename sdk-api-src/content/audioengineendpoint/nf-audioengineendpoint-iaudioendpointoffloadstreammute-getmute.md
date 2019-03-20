@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointOffloadStreamMute.GetMute
-title: IAudioEndpointOffloadStreamMute::GetMute
+title: IAudioEndpointOffloadStreamMute::GetMute (audioengineendpoint.h)
 author: windows-sdk-content
 description: The GetMute method retrieves the mute status of the offloaded audio stream.
 old-location: coreaudio\iaudioendpointoffloadstreammute_getmute.htm

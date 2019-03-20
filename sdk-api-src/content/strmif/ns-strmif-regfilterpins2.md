@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif.REGFILTERPINS2
-title: REGFILTERPINS2
+title: REGFILTERPINS2 (strmif.h)
 author: windows-sdk-content
 description: The REGFILTERPINS2 structure contains information for registering a filter through the IFilterMapper2 interface.
 old-location: dshow\regfilterpins2.htm

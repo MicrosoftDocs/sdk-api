@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTableItemPattern
-title: IUIAutomationTableItemPattern
+title: IUIAutomationTableItemPattern (uiautomationclient.h)
 author: windows-sdk-content
 description: Provides access to a child element in a container that supports IUIAutomationTablePattern.
 old-location: winauto\uiauto_IUIAutomationTableItemPattern.htm

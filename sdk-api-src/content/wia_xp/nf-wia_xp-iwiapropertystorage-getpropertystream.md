@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaPropertyStorage.GetPropertyStream
-title: IWiaPropertyStorage::GetPropertyStream
+title: IWiaPropertyStorage::GetPropertyStream (wia_xp.h)
 author: windows-sdk-content
 description: The IWiaPropertyStorage::GetPropertyStream method retrieves the property stream of an item.
 old-location: wia\_wia_IWiaPropertyStorage_GetPropertyStream.htm

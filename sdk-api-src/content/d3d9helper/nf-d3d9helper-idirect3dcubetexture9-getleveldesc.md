@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DCubeTexture9.GetLevelDesc
-title: IDirect3DCubeTexture9::GetLevelDesc
+title: IDirect3DCubeTexture9::GetLevelDesc (d3d9helper.h)
 author: windows-sdk-content
 description: Retrieves a description of one face of the specified cube texture level.
 old-location: direct3d9\idirect3dcubetexture9__getleveldesc.htm

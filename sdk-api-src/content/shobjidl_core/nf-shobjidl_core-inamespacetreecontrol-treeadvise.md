@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.TreeAdvise
-title: INameSpaceTreeControl::TreeAdvise
+title: INameSpaceTreeControl::TreeAdvise (shobjidl_core.h)
 author: windows-sdk-content
 description: Enables a client to register with the control.
 old-location: shell\INameSpaceTreeControl_TreeAdvise.htm

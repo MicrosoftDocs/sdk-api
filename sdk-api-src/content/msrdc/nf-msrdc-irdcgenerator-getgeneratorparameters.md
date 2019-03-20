@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcGenerator.GetGeneratorParameters
-title: IRdcGenerator::GetGeneratorParameters
+title: IRdcGenerator::GetGeneratorParameters (msrdc.h)
 author: windows-sdk-content
 description: Returns a copy of the parameters used to create the generator.
 old-location: rdc\irdcgenerator_getgeneratorparameters.htm

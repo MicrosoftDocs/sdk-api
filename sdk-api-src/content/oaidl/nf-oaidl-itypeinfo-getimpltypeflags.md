@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetImplTypeFlags
-title: ITypeInfo::GetImplTypeFlags
+title: ITypeInfo::GetImplTypeFlags (oaidl.h)
 author: windows-sdk-content
 description: Retrieves the IMPLTYPEFLAGS enumeration for one implemented interface or base interface in a type description.
 old-location: automat\itypeinfo_getimpltypeflags.htm

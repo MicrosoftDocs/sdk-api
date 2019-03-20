@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.IPsecKeyManagersGet0
-title: IPsecKeyManagersGet0 function
+title: IPsecKeyManagersGet0 function (fwpmu.h)
 author: windows-sdk-content
 description: Returns a list of current Trusted Intermediary Agents (TIAs).
 old-location: fwp\ipseckeymanagersget0.htm

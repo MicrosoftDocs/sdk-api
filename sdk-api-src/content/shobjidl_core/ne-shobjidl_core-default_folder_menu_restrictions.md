@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.DEFAULT_FOLDER_MENU_RESTRICTIONS
-title: DEFAULT_FOLDER_MENU_RESTRICTIONS
+title: DEFAULT_FOLDER_MENU_RESTRICTIONS (shobjidl_core.h)
 author: windows-sdk-content
 description: "."
 old-location: shell\DEFAULT_FOLDER_MENU_RESTRICTIONS.htm

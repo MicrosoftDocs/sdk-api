@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_phoneDevSpecific
-title: TSPI_phoneDevSpecific function
+title: TSPI_phoneDevSpecific function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_phoneDevSpecific function is used as a general extension mechanism to enable a Telephony API implementation to provide features not described in the other operations. The meanings of these extensions are device specific.
 old-location: tspi\tspi_phonedevspecific.htm

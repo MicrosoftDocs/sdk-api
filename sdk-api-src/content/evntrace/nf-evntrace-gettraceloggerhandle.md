@@ -1,6 +1,6 @@
 ---
 UID: NF:evntrace.GetTraceLoggerHandle
-title: GetTraceLoggerHandle function
+title: GetTraceLoggerHandle function (evntrace.h)
 author: windows-sdk-content
 description: The GetTraceLoggerHandle function retrieves the handle of the event tracing session. Providers can only call this function from their ControlCallback function.
 old-location: etw\gettraceloggerhandle.htm

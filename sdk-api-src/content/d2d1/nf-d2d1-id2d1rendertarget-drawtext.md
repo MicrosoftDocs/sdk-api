@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.DrawText
-title: ID2D1RenderTarget::DrawText
+title: ID2D1RenderTarget::DrawText (d2d1.h)
 author: windows-sdk-content
 description: Draws the specified text using the format information provided by an IDWriteTextFormat object.
 old-location: direct2d\ID2D1RenderTarget_DrawText_ptr_WCHAR_ptr_IDWriteTextFormat_ptr_D2D_RECT_F_ptr_ID2D1Brush_D2D1_DRAW_TEXT_OPTIONS_DWRITE_TEXT_MEASURING_METHOD.htm

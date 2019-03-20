@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.ICertPropertySHA1Hash
-title: ICertPropertySHA1Hash
+title: ICertPropertySHA1Hash (certenroll.h)
 author: windows-sdk-content
 description: Represents a certificate property that contains a SHA-1 hash of the certificate.
 old-location: security\icertpropertysha1hash.htm

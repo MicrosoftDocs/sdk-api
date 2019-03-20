@@ -1,6 +1,6 @@
 ---
 UID: NS:wcsplugin._PrimaryJabColors
-title: PrimaryJabColors
+title: PrimaryJabColors (wcsplugin.h)
 author: windows-sdk-content
 description: This structure contains eight primary colors in Jab coordinates.
 old-location: wcs\primaryjabcolors.htm

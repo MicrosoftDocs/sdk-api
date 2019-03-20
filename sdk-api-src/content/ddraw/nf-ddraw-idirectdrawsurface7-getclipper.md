@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetClipper
-title: IDirectDrawSurface7::GetClipper
+title: IDirectDrawSurface7::GetClipper (ddraw.h)
 author: windows-sdk-content
 description: Retrieves the DirectDrawClipper object that is associated with this surface, and increments the reference count of the returned clipper.
 old-location: directdraw\idirectdrawsurface7_getclipper.htm

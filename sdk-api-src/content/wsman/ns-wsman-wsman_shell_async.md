@@ -1,6 +1,6 @@
 ---
 UID: NS:wsman._WSMAN_SHELL_ASYNC
-title: WSMAN_SHELL_ASYNC
+title: WSMAN_SHELL_ASYNC (wsman.h)
 author: windows-sdk-content
 description: Defines an asynchronous structure to be passed to all shell operations.
 old-location: winrm\wsman_shell_async.htm

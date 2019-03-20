@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_CUSTOM_CHANNEL_CALLBACKS
-title: WS_CUSTOM_CHANNEL_CALLBACKS
+title: WS_CUSTOM_CHANNEL_CALLBACKS (webservices.h)
 author: windows-sdk-content
 description: A structure that is used to specify a set of callbacks that form the implementation of a custom channel.
 old-location: wsw\ws_custom_channel_callbacks.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_ParameterSet_GetMethodReturnType
-title: MI_ParameterSet_GetMethodReturnType function
+title: MI_ParameterSet_GetMethodReturnType function (mi.h)
 author: windows-sdk-content
 description: Gets the method return type and qualifier set for a specified parameter set.
 old-location: wmi_v2\mi_parameterset_getmethodreturntype.htm

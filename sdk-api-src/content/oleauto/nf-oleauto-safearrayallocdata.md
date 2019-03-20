@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.SafeArrayAllocData
-title: SafeArrayAllocData function
+title: SafeArrayAllocData function (oleauto.h)
 author: windows-sdk-content
 description: Allocates memory for a safe array, based on a descriptor created with SafeArrayAllocDescriptor.
 old-location: automat\safearrayallocdata.htm

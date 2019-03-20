@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetMenuInfo
-title: SetMenuInfo function
+title: SetMenuInfo function (winuser.h)
 author: windows-sdk-content
 description: Sets information for a specified menu.
 old-location: menurc\setmenuinfo.htm

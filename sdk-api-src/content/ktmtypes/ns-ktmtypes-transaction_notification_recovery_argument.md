@@ -1,6 +1,6 @@
 ---
 UID: NS:ktmtypes._TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
-title: TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
+title: TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT (ktmtypes.h)
 author: windows-sdk-content
 description: Indicates the transaction to be recovered. This structure is sent with a recovery notification.
 old-location: fs\transaction_notification_recovery_argument.htm

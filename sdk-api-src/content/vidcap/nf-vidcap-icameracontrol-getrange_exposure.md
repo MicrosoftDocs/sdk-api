@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.getRange_Exposure
-title: ICameraControl::getRange_Exposure
+title: ICameraControl::getRange_Exposure (vidcap.h)
 author: windows-sdk-content
 description: The getRange_Exposure method returns the range of exposure times supported by the camera.
 old-location: dshow\icameracontrol_getrange_exposure.htm

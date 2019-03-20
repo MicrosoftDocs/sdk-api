@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP.SetText
-title: ITextStoreACP::SetText
+title: ITextStoreACP::SetText (textstor.h)
 author: windows-sdk-content
 description: The ITextStoreACP::SetText method sets the text selection to the supplied character positions.
 old-location: tsf\itextstoreacp_settext.htm

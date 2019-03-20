@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._NETLOGON_INFO_1
-title: NETLOGON_INFO_1
+title: NETLOGON_INFO_1 (lmaccess.h)
 author: windows-sdk-content
 description: Defines a level-1 control query response from a domain controller.
 old-location: winprog\netlogon_info_1.htm

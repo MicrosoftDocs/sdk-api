@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.SetListAlignment
-title: ITextPara::SetListAlignment
+title: ITextPara::SetListAlignment (tom.h)
 author: windows-sdk-content
 description: Sets the alignment of bulleted or numbered text used for paragraphs.
 old-location: controls\ITextPara_SetListAlignment.htm

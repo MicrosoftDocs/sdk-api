@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.IsBufferPrecisionSupported
-title: ID2D1EffectContext::IsBufferPrecisionSupported
+title: ID2D1EffectContext::IsBufferPrecisionSupported (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Indicates whether the buffer precision is supported by the underlying Direct2D device.
 old-location: direct2d\id2d1effectcontext_isbufferprecisionsupported.htm

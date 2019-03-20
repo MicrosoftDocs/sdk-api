@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SspiPrepareForCredRead
-title: SspiPrepareForCredRead function
+title: SspiPrepareForCredRead function (sspi.h)
 author: windows-sdk-content
 description: Generates a target name and credential type from the specified identity structure.
 old-location: security\sspiprepareforcredread.htm

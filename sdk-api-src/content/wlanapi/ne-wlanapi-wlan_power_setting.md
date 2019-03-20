@@ -1,6 +1,6 @@
 ---
 UID: NE:wlanapi._WLAN_POWER_SETTING
-title: WLAN_POWER_SETTING
+title: WLAN_POWER_SETTING (wlanapi.h)
 author: windows-sdk-content
 description: Specifies the power setting of an interface.
 old-location: nwifi\wlan_power_setting.htm

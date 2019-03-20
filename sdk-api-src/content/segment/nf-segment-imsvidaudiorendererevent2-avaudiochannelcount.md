@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAudioRendererEvent2.AVAudioChannelCount
-title: IMSVidAudioRendererEvent2::AVAudioChannelCount
+title: IMSVidAudioRendererEvent2::AVAudioChannelCount (segment.h)
 author: windows-sdk-content
 description: Indicates a change in the AVAudioChannelCount codec property.
 old-location: mstv\imsvidaudiorendererevent2_avaudiochannelcount.htm

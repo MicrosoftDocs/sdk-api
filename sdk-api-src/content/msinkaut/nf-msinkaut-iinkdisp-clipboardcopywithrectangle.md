@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDisp.ClipboardCopyWithRectangle
-title: IInkDisp::ClipboardCopyWithRectangle
+title: IInkDisp::ClipboardCopyWithRectangle (msinkaut.h)
 author: windows-sdk-content
 description: Copies the IInkStrokeDisp objects that are contained within the known rectangle to the Clipboard.
 old-location: tablet\inkdisp_clipboardcopywithrectangle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:lpmapi.CBADMITRESULT
-title: CBADMITRESULT
+title: CBADMITRESULT (lpmapi.h)
 author: windows-sdk-content
 description: The cbAdmitResult function is used by LPMs to return results for the LPM_AdmitRsvpMsg request.
 old-location: qos\cbadmitresult.htm

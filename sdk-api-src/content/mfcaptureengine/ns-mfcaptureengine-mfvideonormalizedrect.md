@@ -1,6 +1,6 @@
 ---
 UID: NS:mfcaptureengine.MFVideoNormalizedRect
-title: MFVideoNormalizedRect
+title: MFVideoNormalizedRect (mfcaptureengine.h)
 author: windows-sdk-content
 description: Defines a normalized rectangle, which is used to specify sub-rectangles in a video rectangle.
 old-location: mf\mfvideonormalizedrect.htm

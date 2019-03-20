@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.PreFetchCacheLine
-title: PreFetchCacheLine macro
+title: PreFetchCacheLine macro (winnt.h)
 author: windows-sdk-content
 description: Indicates to the processor that a cache line will be needed in the near future.
 old-location: base\prefetchcacheline.htm

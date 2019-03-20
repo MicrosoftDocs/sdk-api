@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPLibrarySharingServices.showLibrarySharing
-title: IWMPLibrarySharingServices::showLibrarySharing
+title: IWMPLibrarySharingServices::showLibrarySharing (wmp.h)
 author: windows-sdk-content
 description: The showLibrarySharing method displays the Windows Media Player Library Sharing dialog box.
 old-location: wmp\iwmplibrarysharingservices_showlibrarysharing.htm

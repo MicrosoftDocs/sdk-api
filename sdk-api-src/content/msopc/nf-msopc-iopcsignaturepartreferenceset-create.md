@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignaturePartReferenceSet.Create
-title: IOpcSignaturePartReferenceSet::Create
+title: IOpcSignaturePartReferenceSet::Create (msopc.h)
 author: windows-sdk-content
 description: Creates an IOpcSignaturePartReference interface pointer that represents a reference to a part to be signed, and adds the new interface to the set.
 old-location: opc\iopcsignaturepartreferenceset_create.htm

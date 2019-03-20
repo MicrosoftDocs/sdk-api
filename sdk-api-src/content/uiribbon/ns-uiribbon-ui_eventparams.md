@@ -1,6 +1,6 @@
 ---
 UID: NS:uiribbon._UI_EVENTPARAMS
-title: UI_EVENTPARAMS
+title: UI_EVENTPARAMS (uiribbon.h)
 author: windows-sdk-content
 description: Contains information about a Ribbon event.
 old-location: windowsribbon\ui_eventparams.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_FILL_MODE
-title: D3D12_FILL_MODE
+title: D3D12_FILL_MODE (d3d12.h)
 author: windows-sdk-content
 description: Specifies the fill mode to use when rendering triangles.
 old-location: direct3d12\d3d12_fill_mode.htm

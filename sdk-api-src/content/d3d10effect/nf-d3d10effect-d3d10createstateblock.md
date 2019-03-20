@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.D3D10CreateStateBlock
-title: D3D10CreateStateBlock function
+title: D3D10CreateStateBlock function (d3d10effect.h)
 author: windows-sdk-content
 description: Create a state block.
 old-location: direct3d10\d3d10createstateblock.htm

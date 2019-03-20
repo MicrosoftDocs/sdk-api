@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRenderer.PixelToInkSpace
-title: IInkRenderer::PixelToInkSpace
+title: IInkRenderer::PixelToInkSpace (msinkaut.h)
 author: windows-sdk-content
 description: Converts a location in pixel space coordinates to be a location in ink space coordinates.
 old-location: tablet\inkrenderer_pixeltoinkspace.htm

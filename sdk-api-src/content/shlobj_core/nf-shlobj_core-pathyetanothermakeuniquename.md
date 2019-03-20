@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.PathYetAnotherMakeUniqueName
-title: PathYetAnotherMakeUniqueName function
+title: PathYetAnotherMakeUniqueName function (shlobj_core.h)
 author: windows-sdk-content
 description: Creates a unique filename based on an existing filename.
 old-location: shell\PathYetAnotherMakeUniqueName.htm

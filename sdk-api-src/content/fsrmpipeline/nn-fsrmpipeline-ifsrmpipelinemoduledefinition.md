@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmpipeline.IFsrmPipelineModuleDefinition
-title: IFsrmPipelineModuleDefinition
+title: IFsrmPipelineModuleDefinition (fsrmpipeline.h)
 author: windows-sdk-content
 description: Defines a module that is used to classify files or store and retrieve properties from files.
 old-location: fsrm\ifsrmpipelinemoduledefinition.htm

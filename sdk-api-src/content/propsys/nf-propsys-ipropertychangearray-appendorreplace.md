@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyChangeArray.AppendOrReplace
-title: IPropertyChangeArray::AppendOrReplace
+title: IPropertyChangeArray::AppendOrReplace (propsys.h)
 author: windows-sdk-content
 description: Replaces the first occurrence of a change that affects the same property key as the provided change. If the property key is not already in the array, this method appends the change to the end of the array.
 old-location: properties\IPropertyChangeArray_AppendOrReplace.htm

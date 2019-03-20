@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComExceptionEvents.OnExceptionUser
-title: IComExceptionEvents::OnExceptionUser
+title: IComExceptionEvents::OnExceptionUser (comsvcs.h)
 author: windows-sdk-content
 description: Generated for transactional components when an unhandled exception occurs in the user's code.
 old-location: cos\icomexceptionevents_onexceptionuser.htm

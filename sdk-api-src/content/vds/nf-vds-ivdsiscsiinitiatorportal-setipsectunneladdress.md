@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsIscsiInitiatorPortal.SetIpsecTunnelAddress
-title: IVdsIscsiInitiatorPortal::SetIpsecTunnelAddress
+title: IVdsIscsiInitiatorPortal::SetIpsecTunnelAddress (vds.h)
 author: windows-sdk-content
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdsiscsiinitiatorportal_setipsectunneladdress.htm

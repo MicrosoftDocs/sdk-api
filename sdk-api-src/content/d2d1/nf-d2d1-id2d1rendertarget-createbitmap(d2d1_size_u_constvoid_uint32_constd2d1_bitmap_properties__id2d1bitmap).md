@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.CreateBitmap(D2D1_SIZE_U,const void,UINT32,const D2D1_BITMAP_PROPERTIES &,ID2D1Bitmap)
-title: ID2D1RenderTarget::CreateBitmap(D2D1_SIZE_U,const void,UINT32,const D2D1_BITMAP_PROPERTIES &,ID2D1Bitmap)
+title: ID2D1RenderTarget::CreateBitmap(D2D1_SIZE_U,const void,UINT32,const D2D1_BITMAP_PROPERTIES &,ID2D1Bitmap) (d2d1.h)
 author: windows-sdk-content
 description: Creates a Direct2D bitmap from a pointer to in-memory source data.
 old-location: direct2d\ID2D1RenderTarget_CreateBitmap_D2D_SIZE_U_ptr_void_UINT32_ref_D2D1_BITMAP_PROPERTIES_ptr_ptr_ID2D1Bitmap.htm

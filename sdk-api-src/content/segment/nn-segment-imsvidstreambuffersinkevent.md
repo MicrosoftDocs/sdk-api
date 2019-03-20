@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidStreamBufferSinkEvent
-title: IMSVidStreamBufferSinkEvent
+title: IMSVidStreamBufferSinkEvent (segment.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\imsvidstreambuffersinkevent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.UrlEscapeSpaces
-title: UrlEscapeSpaces macro
+title: UrlEscapeSpaces macro (shlwapi.h)
 author: windows-sdk-content
 description: A macro that converts space characters into their corresponding escape sequence.
 old-location: shell\UrlEscapeSpaces.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IAMStats.GetIndex
-title: IAMStats::GetIndex
+title: IAMStats::GetIndex (control.h)
 author: windows-sdk-content
 description: The GetIndex method retrieves the index for a named statistic, or creates a new statistic.
 old-location: dshow\iamstats_getindex.htm

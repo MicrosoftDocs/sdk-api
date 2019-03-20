@@ -1,6 +1,6 @@
 ---
 UID: NE:wdstptmgmt.__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0003
-title: WDSTRANSPORT_NAMESPACE_TYPE
+title: WDSTRANSPORT_NAMESPACE_TYPE (wdstptmgmt.h)
 author: windows-sdk-content
 description: Determines the type of multicast sessions used for transmitting objects covered by this namespace.
 old-location: wds\wdstransport_namespace_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessible.accSelect
-title: IAccessible::accSelect
+title: IAccessible::accSelect (oleacc.h)
 author: windows-sdk-content
 description: The IAccessible::accSelect method modifies the selection or moves the keyboard focus of the specified object. All objects that support selection or receive the keyboard focus must support this method.
 old-location: winauto\iaccessible_iaccessible__accselect.htm

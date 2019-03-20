@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataWriter.RemoveValue
-title: IWICMetadataWriter::RemoveValue
+title: IWICMetadataWriter::RemoveValue (wincodecsdk.h)
 author: windows-sdk-content
 description: Removes the metadata item that matches the given parameters.
 old-location: wic\_wic_codec_iwicmetadatawriter_removevalue.htm

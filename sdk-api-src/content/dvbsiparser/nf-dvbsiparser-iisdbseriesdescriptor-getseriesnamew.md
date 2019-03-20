@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbSeriesDescriptor.GetSeriesNameW
-title: IIsdbSeriesDescriptor::GetSeriesNameW
+title: IIsdbSeriesDescriptor::GetSeriesNameW (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the series name from an Integrated Services Digital Broadcasting (ISDB) series descriptor.
 old-location: mstv\iisdbseriesdescriptor_getseriesnamew.htm

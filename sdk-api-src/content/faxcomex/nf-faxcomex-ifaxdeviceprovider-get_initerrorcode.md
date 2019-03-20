@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProvider.get_InitErrorCode
-title: IFaxDeviceProvider::get_InitErrorCode
+title: IFaxDeviceProvider::get_InitErrorCode (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDeviceProvider::get_InitErrorCode property is a value that specifies the last error code that the fax service provider (FSP) returned while the fax service was loading and initializing the FSPÂ DLL.
 old-location: fax\_mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_initerrorcode_cpp.htm

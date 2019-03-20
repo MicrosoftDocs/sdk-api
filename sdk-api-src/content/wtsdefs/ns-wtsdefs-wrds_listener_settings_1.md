@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsdefs._WRDS_LISTENER_SETTINGS_1
-title: WRDS_LISTENER_SETTINGS_1
+title: WRDS_LISTENER_SETTINGS_1 (wtsdefs.h)
 author: windows-sdk-content
 description: Contains listener settings for a remote session.
 old-location: termserv\wrds_listener_settings_1.htm

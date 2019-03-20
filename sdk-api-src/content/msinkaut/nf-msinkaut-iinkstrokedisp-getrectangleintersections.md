@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.GetRectangleIntersections
-title: IInkStrokeDisp::GetRectangleIntersections
+title: IInkStrokeDisp::GetRectangleIntersections (msinkaut.h)
 author: windows-sdk-content
 description: Finds the points where a IInkStrokeDisp object intersects a given rectangle.
 old-location: tablet\iinkstrokedisp_getrectangleintersections.htm

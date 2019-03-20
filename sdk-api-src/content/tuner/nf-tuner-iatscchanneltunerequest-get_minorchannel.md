@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IATSCChannelTuneRequest.get_MinorChannel
-title: IATSCChannelTuneRequest::get_MinorChannel
+title: IATSCChannelTuneRequest::get_MinorChannel (tuner.h)
 author: windows-sdk-content
 description: The get_MinorChannel method gets the current minor channel.
 old-location: mstv\iatscchanneltunerequest_get_minorchannel.htm

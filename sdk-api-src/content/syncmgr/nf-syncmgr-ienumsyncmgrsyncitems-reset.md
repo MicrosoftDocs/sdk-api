@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrSyncItems.Reset
-title: IEnumSyncMgrSyncItems::Reset
+title: IEnumSyncMgrSyncItems::Reset (syncmgr.h)
 author: windows-sdk-content
 description: Resets the current position in the enumeration to 0.
 old-location: shell\IEnumSyncMgrSyncItems_Reset.htm

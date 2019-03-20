@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcMgmtInqComTimeout
-title: RpcMgmtInqComTimeout function
+title: RpcMgmtInqComTimeout function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcMgmtInqComTimeout function returns the binding-communications time-out value in a binding handle.
 old-location: rpc\rpcmgmtinqcomtimeout.htm

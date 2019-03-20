@@ -1,6 +1,6 @@
 ---
 UID: NF:micaut.IMathInputControl.EnableExtendedButtons
-title: IMathInputControl::EnableExtendedButtons
+title: IMathInputControl::EnableExtendedButtons (micaut.h)
 author: windows-sdk-content
 description: Determines whether the extended set of control buttons is shown.
 old-location: tablet\imathinputcontrol_enableextendedbuttons.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.PrepareRecord
-title: ICrmCompensator::PrepareRecord
+title: ICrmCompensator::PrepareRecord (comsvcs.h)
 author: windows-sdk-content
 description: Delivers a log record in forward order during the prepare phase.
 old-location: cos\icrmcompensator_preparerecord.htm

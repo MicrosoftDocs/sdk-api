@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION
-title: CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION
+title: CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION (msclus.h)
 author: windows-sdk-content
 description: Specifies the various actions that can be performed when a resource has an embedded failure.
 old-location: mscs\cluster_resource_embedded_failure_action.htm

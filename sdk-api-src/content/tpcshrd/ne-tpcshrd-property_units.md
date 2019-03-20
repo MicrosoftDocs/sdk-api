@@ -1,6 +1,6 @@
 ---
 UID: NE:tpcshrd._PROPERTY_UNITS
-title: PROPERTY_UNITS
+title: PROPERTY_UNITS (tpcshrd.h)
 author: windows-sdk-content
 description: Defines constant values for the unit of measurement of a property.
 old-location: tablet\property_units.htm

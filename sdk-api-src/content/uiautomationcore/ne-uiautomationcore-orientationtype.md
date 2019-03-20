@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.OrientationType
-title: OrientationType
+title: OrientationType (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains values that specify the orientation of a control.
 old-location: winauto\uiauto_orientationtype.htm

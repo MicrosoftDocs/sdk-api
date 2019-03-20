@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetOwner
-title: IBackgroundCopyJob::GetOwner
+title: IBackgroundCopyJob::GetOwner (bits.h)
 author: windows-sdk-content
 description: Retrieves the identity of the job's owner.
 old-location: bits\ibackgroundcopyjob_getowner.htm

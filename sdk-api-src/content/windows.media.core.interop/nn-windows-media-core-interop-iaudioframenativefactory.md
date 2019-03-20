@@ -1,6 +1,6 @@
 ---
 UID: NN:windows.media.core.interop.IAudioFrameNativeFactory
-title: IAudioFrameNativeFactory
+title: IAudioFrameNativeFactory (windows.media.core.interop.h)
 author: windows-sdk-content
 description: Creates instances of IAudioFrameNative.
 old-location: winrt\iaudioframenativefactory.htm

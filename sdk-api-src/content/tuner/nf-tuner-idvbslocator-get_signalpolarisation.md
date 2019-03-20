@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSLocator.get_SignalPolarisation
-title: IDVBSLocator::get_SignalPolarisation
+title: IDVBSLocator::get_SignalPolarisation (tuner.h)
 author: windows-sdk-content
 description: The get_SignalPolarisation method retrieves the signal polarisation.
 old-location: mstv\idvbslocator_get_signalpolarisation.htm

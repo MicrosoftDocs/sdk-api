@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.CLUSPROP_BINARY_DECLARE
-title: CLUSPROP_BINARY_DECLARE macro
+title: CLUSPROP_BINARY_DECLARE macro (clusapi.h)
 author: windows-sdk-content
 description: Creates a CLUSPROP_BINARY structure with the rgb member set to a size determined by the caller.
 old-location: mscs\clusprop_binary_declare.htm

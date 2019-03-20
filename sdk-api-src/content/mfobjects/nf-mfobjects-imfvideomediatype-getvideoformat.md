@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFVideoMediaType.GetVideoFormat
-title: IMFVideoMediaType::GetVideoFormat
+title: IMFVideoMediaType::GetVideoFormat (mfobjects.h)
 author: windows-sdk-content
 description: GetVideoFormat is no longer available for use as of Windows 7.
 old-location: mf\imfvideomediatype_getvideoformat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssFileShareSnapshotProvider.Query
-title: IVssFileShareSnapshotProvider::Query
+title: IVssFileShareSnapshotProvider::Query (vsprov.h)
 author: windows-sdk-content
 description: Gets an enumeration of VSS_SNAPSHOT_PROP structures for all file share snapshots that are available to the application server.
 old-location: base\ivssfilesharesnapshotprovider_query.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.GetZOrder
-title: IMixerPinConfig::GetZOrder
+title: IMixerPinConfig::GetZOrder (mpconfig.h)
 author: windows-sdk-content
 description: The GetZOrder method retrieves the z-order of a particular video stream.
 old-location: dshow\imixerpinconfig_getzorder.htm

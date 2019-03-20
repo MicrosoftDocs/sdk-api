@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SecPkgCredentials_SSIProviderA
-title: SecPkgCredentials_SSIProviderA
+title: SecPkgCredentials_SSIProviderA (sspi.h)
 author: windows-sdk-content
 description: The SecPkgCredentials_SSIProvider structure holds the SSI provider information associated with a context. The QueryCredentialsAttributes function uses this structure.
 old-location: security\secpkgcredentials_ssiprovider.htm

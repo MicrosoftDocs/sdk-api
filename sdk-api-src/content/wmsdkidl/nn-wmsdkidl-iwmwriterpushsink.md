@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMWriterPushSink
-title: IWMWriterPushSink
+title: IWMWriterPushSink (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMWriterPushSink interface enables the application to send ASF files to a publishing point on a Windows Media server.
 old-location: wmformat\iwmwriterpushsink.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.get_SuffixText
-title: IInkRecognizerContext::get_SuffixText
+title: IInkRecognizerContext::get_SuffixText (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the characters that come after the InkStrokes collection in the InkRecognizerContext object.
 old-location: tablet\inkrecognizercontext_suffixtext.htm

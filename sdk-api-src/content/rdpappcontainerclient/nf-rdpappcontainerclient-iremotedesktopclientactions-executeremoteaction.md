@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientActions.ExecuteRemoteAction
-title: IRemoteDesktopClientActions::ExecuteRemoteAction
+title: IRemoteDesktopClientActions::ExecuteRemoteAction (rdpappcontainerclient.h)
 author: windows-sdk-content
 description: Causes an action to be performed in the remote session.
 old-location: termserv\iremotedesktopclientactions_executeremoteaction.htm

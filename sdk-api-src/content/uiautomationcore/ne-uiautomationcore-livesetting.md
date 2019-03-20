@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.LiveSetting
-title: LiveSetting
+title: LiveSetting (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains possible values for the LiveSetting property. This property is implemented by provider elements that are part of a live region.
 old-location: winauto\uiauto_LiveSetting.htm

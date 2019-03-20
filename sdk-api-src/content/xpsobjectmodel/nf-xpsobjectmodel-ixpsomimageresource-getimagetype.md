@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResource.GetImageType
-title: IXpsOMImageResource::GetImageType
+title: IXpsOMImageResource::GetImageType (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the type of image resource.
 old-location: xps\ixpsomimageresource_getimagetype.htm

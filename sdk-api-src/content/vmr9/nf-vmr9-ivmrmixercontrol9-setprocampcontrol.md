@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRMixerControl9.SetProcAmpControl
-title: IVMRMixerControl9::SetProcAmpControl
+title: IVMRMixerControl9::SetProcAmpControl (vmr9.h)
 author: windows-sdk-content
 description: The SetProcAmpControl method sets the image adjustment for the VMR-9.
 old-location: dshow\ivmrmixercontrol9_setprocampcontrol.htm

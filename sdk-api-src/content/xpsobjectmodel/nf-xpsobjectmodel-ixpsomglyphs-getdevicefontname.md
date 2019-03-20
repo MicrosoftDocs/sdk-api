@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetDeviceFontName
-title: IXpsOMGlyphs::GetDeviceFontName
+title: IXpsOMGlyphs::GetDeviceFontName (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the name of the device font.
 old-location: xps\ixpsomglyphs_getdevicefontname.htm

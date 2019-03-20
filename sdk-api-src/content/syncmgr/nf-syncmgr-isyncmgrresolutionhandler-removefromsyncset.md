@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrResolutionHandler.RemoveFromSyncSet
-title: ISyncMgrResolutionHandler::RemoveFromSyncSet
+title: ISyncMgrResolutionHandler::RemoveFromSyncSet (syncmgr.h)
 author: windows-sdk-content
 description: Deletes the conflict and removes the IShellItem from synchronization.
 old-location: shell\ISyncMgrResolutionHandler_RemoveFromSyncSet.htm

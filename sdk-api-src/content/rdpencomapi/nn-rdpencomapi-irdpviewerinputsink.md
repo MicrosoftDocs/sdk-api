@@ -1,6 +1,6 @@
 ---
 UID: NN:rdpencomapi.IRDPViewerInputSink
-title: IRDPViewerInputSink
+title: IRDPViewerInputSink (rdpencomapi.h)
 author: windows-sdk-content
 description: Sends mouse and keyboard events, and supports touch input.
 old-location: rdp\irdpviewerinputsink.htm

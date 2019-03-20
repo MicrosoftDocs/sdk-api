@@ -1,6 +1,6 @@
 ---
 UID: NE:uiribbon.UI_VIEWTYPE
-title: UI_VIEWTYPE
+title: UI_VIEWTYPE (uiribbon.h)
 author: windows-sdk-content
 description: Specifies values that identify the Ribbon framework View.
 old-location: windowsribbon\windowsribbon_ui_viewtype.htm

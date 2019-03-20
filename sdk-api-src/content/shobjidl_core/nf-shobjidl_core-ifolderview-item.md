@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView.Item
-title: IFolderView::Item
+title: IFolderView::Item (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the identifier of a specific item in the folder view, by index.
 old-location: shell\IFolderView_Item.htm

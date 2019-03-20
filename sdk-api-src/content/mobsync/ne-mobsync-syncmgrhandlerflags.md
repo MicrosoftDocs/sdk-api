@@ -1,6 +1,6 @@
 ---
 UID: NE:mobsync._tagSYNCMGRHANDLERFLAGS
-title: SYNCMGRHANDLERFLAGS
+title: SYNCMGRHANDLERFLAGS (mobsync.h)
 author: windows-sdk-content
 description: Used in the SYNCMGRHANDLERINFO structure as flags that apply to the current handler.
 old-location: shell\syncmgr_syncmgrhandlerflags.htm

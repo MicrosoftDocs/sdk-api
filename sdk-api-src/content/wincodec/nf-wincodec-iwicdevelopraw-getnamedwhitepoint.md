@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetNamedWhitePoint
-title: IWICDevelopRaw::GetNamedWhitePoint
+title: IWICDevelopRaw::GetNamedWhitePoint (wincodec.h)
 author: windows-sdk-content
 description: Gets the named white point of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_getnamedwhitepoint.htm

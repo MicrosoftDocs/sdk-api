@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetDictionaryLocal
-title: IXpsOMPage::GetDictionaryLocal
+title: IXpsOMPage::GetDictionaryLocal (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMDictionary interface of the local, unshared dictionary that is associated with this page.
 old-location: xps\ixpsompage_getdictionarylocal.htm

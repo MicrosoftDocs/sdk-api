@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.GetIndexStatus
-title: IMFASFIndexer::GetIndexStatus
+title: IMFASFIndexer::GetIndexStatus (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves the index settings for a specified stream and index type.
 old-location: mf\imfasfindexer_getindexstatus.htm

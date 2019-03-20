@@ -1,6 +1,6 @@
 ---
 UID: NE:http._HTTP_HEADER_ID
-title: HTTP_HEADER_ID
+title: HTTP_HEADER_ID (http.h)
 author: windows-sdk-content
 description: The HTTP_HEADER_ID enumeration type lists known headers for HTTP requests and responses, and associates an array index with each such header.
 old-location: http\http_header_id.htm

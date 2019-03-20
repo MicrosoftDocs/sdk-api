@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRImageCompositor9.TermCompositionDevice
-title: IVMRImageCompositor9::TermCompositionDevice
+title: IVMRImageCompositor9::TermCompositionDevice (vmr9.h)
 author: windows-sdk-content
 description: The TermCompositionDevice method informs the compositor that the current composition target is being replaced. Compositors should perform any necessary cleanup of the composition target in this method.
 old-location: dshow\ivmrimagecompositor9_termcompositiondevice.htm

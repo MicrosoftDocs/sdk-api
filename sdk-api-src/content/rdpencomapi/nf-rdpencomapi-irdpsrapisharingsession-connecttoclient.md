@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.ConnectToClient
-title: IRDPSRAPISharingSession::ConnectToClient
+title: IRDPSRAPISharingSession::ConnectToClient (rdpencomapi.h)
 author: windows-sdk-content
 description: Used for reverse connect mode, where the sharer connects to the viewer.
 old-location: rdp\irdpsrapisharingsession_connecttoclient.htm

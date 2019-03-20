@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ListBox_SelectItemData
-title: ListBox_SelectItemData macro
+title: ListBox_SelectItemData macro (windowsx.h)
 author: windows-sdk-content
 description: Searches a list box for an item that has the specified item data. If a matching item is found, the item is selected. You can use this macro or send the LB_SELECTSTRING message explicitly.
 old-location: controls\ListBox_SelectItemData.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IActionCollection.get_Count
-title: IActionCollection::get_Count
+title: IActionCollection::get_Count (taskschd.h)
 author: windows-sdk-content
 description: Gets the number of actions in the collection.
 old-location: taskschd\iactioncollection_count.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509NameValuePairs.Remove
-title: IX509NameValuePairs::Remove
+title: IX509NameValuePairs::Remove (certenroll.h)
 author: windows-sdk-content
 description: Removes an IX509NameValuePair object from the collection by index number.
 old-location: security\ix509namevaluepairs_remove_method.htm

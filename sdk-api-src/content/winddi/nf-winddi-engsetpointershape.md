@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngSetPointerShape
-title: EngSetPointerShape function
+title: EngSetPointerShape function (winddi.h)
 author: windows-sdk-content
 description: The EngSetPointerShape function sets the pointer shape for the calling driver.
 old-location: display\engsetpointershape.htm

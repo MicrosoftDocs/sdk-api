@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMPluginControl.GetPreferredClsid
-title: IAMPluginControl::GetPreferredClsid
+title: IAMPluginControl::GetPreferredClsid (strmif.h)
 author: windows-sdk-content
 description: Searches the preferred list for a class identifier (CLSID) that matches a specified subtype.
 old-location: dshow\iamplugincontrol_getpreferredclsid.htm

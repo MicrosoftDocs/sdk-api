@@ -1,6 +1,6 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerQueryUserBlobFromCredentialInputFields
-title: EapHostPeerQueryUserBlobFromCredentialInputFields function
+title: EapHostPeerQueryUserBlobFromCredentialInputFields function (eaphostpeerconfigapis.h)
 author: windows-sdk-content
 description: Obtains a credential BLOB that can be used to start authentication from user input received from the Single-Sign-On (SSO) UI.
 old-location: eaphost\eaphostpeerqueryuserblobfromcredentialinputfields.htm

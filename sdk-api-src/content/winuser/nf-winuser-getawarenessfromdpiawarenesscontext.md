@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetAwarenessFromDpiAwarenessContext
-title: GetAwarenessFromDpiAwarenessContext function
+title: GetAwarenessFromDpiAwarenessContext function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the DPI_AWARENESS value from a DPI_AWARENESS_CONTEXT.
 old-location: hidpi\getawarenessfromdpiawarenesscontext.htm

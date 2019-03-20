@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetProhibitedCaretStopCount
-title: IXpsOMGlyphs::GetProhibitedCaretStopCount
+title: IXpsOMGlyphs::GetProhibitedCaretStopCount (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the number of prohibited caret stops.
 old-location: xps\ixpsomglyphs_getprohibitedcaretstopcount.htm

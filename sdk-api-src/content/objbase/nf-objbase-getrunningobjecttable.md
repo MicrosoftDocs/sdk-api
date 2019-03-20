@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.GetRunningObjectTable
-title: GetRunningObjectTable function
+title: GetRunningObjectTable function (objbase.h)
 author: windows-sdk-content
 description: Returns a pointer to the IRunningObjectTable interface on the local running object table (ROT).
 old-location: com\getrunningobjecttable.htm

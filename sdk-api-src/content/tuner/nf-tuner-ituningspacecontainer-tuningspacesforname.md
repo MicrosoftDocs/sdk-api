@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.TuningSpacesForName
-title: ITuningSpaceContainer::TuningSpacesForName
+title: ITuningSpaceContainer::TuningSpacesForName (tuner.h)
 author: windows-sdk-content
 description: The TuningSpacesForName method retrieves a collection of tuning spaces that match the specified name.
 old-location: mstv\ituningspacecontainer_tuningspacesforname.htm

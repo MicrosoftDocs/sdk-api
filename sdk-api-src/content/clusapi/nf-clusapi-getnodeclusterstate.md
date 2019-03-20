@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.GetNodeClusterState
-title: GetNodeClusterState function
+title: GetNodeClusterState function (clusapi.h)
 author: windows-sdk-content
 description: Determines whether the Cluster service is installed and running on a node.
 old-location: mscs\getnodeclusterstate.htm
