@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CachedDescription
-title: IUIAutomationLegacyIAccessiblePattern::get_CachedDescription
+title: IUIAutomationLegacyIAccessiblePattern::get_CachedDescription (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached Microsoft Active Accessibility description of the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDescription.htm

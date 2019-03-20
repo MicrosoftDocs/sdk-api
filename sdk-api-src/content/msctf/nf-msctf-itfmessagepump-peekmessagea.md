@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfMessagePump.PeekMessageA
-title: ITfMessagePump::PeekMessageA
+title: ITfMessagePump::PeekMessageA (msctf.h)
 author: windows-sdk-content
 description: ITfMessagePump::PeekMessageA method
 old-location: tsf\itfmessagepump_peekmessagea.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc2.CheckCertificateSignature
-title: IX509CertificateRequestCmc2::CheckCertificateSignature
+title: IX509CertificateRequestCmc2::CheckCertificateSignature (certenroll.h)
 author: windows-sdk-content
 description: Verifies the signature for a specified signer.
 old-location: security\ix509certificaterequestcmc2_checkcertificatesignature.htm

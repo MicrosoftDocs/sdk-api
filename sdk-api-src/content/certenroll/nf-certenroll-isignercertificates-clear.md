@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISignerCertificates.Clear
-title: ISignerCertificates::Clear
+title: ISignerCertificates::Clear (certenroll.h)
 author: windows-sdk-content
 description: Removes all ISignerCertificate objects from the collection.
 old-location: security\isignercertificates_clear_method.htm

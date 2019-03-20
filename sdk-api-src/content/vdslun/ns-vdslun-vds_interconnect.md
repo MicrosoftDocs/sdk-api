@@ -1,6 +1,6 @@
 ---
 UID: NS:vdslun._VDS_INTERCONNECT
-title: VDS_INTERCONNECT
+title: VDS_INTERCONNECT (vdslun.h)
 author: windows-sdk-content
 description: Defines the address data of a physical interconnect.
 old-location: base\vds_interconnect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSLogoffSession
-title: WTSLogoffSession function
+title: WTSLogoffSession function (wtsapi32.h)
 author: windows-sdk-content
 description: Logs off a specified Remote Desktop Services session.
 old-location: termserv\wtslogoffsession.htm

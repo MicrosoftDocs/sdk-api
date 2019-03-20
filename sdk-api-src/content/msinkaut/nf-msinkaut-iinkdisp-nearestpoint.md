@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDisp.NearestPoint
-title: IInkDisp::NearestPoint
+title: IInkDisp::NearestPoint (msinkaut.h)
 author: windows-sdk-content
 description: Retrieves the IInkStrokeDisp within the InkDisp object that is nearest to a known point, optionally providing the index of the nearest point and the distance to the stroke from the specified point.
 old-location: tablet\inkdisp_nearestpoint.htm

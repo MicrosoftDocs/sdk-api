@@ -1,6 +1,6 @@
 ---
 UID: NF:winsvc.QueryServiceStatusEx
-title: QueryServiceStatusEx function
+title: QueryServiceStatusEx function (winsvc.h)
 author: windows-sdk-content
 description: Retrieves the current status of the specified service based on the specified information level.
 old-location: base\queryservicestatusex.htm

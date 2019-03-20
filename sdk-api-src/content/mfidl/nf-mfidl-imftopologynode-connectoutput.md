@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.ConnectOutput
-title: IMFTopologyNode::ConnectOutput
+title: IMFTopologyNode::ConnectOutput (mfidl.h)
 author: windows-sdk-content
 description: Connects an output stream from this node to the input stream of another node.
 old-location: mf\imftopologynode_connectoutput.htm

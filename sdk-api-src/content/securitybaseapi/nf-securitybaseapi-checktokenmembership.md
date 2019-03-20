@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.CheckTokenMembership
-title: CheckTokenMembership function
+title: CheckTokenMembership function (securitybaseapi.h)
 author: windows-sdk-content
 description: Determines whether a specified security identifier (SID) is enabled in an access token.
 old-location: security\checktokenmembership.htm

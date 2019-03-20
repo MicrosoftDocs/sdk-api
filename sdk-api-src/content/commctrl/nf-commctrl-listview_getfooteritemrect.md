@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetFooterItemRect
-title: ListView_GetFooterItemRect macro
+title: ListView_GetFooterItemRect macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the coordinates of a footer for a specified item in a list-view control. Use this macro or send the LVM_GETFOOTERITEMRECT message explicitly.
 old-location: controls\ListView_GetFooterItemRect.htm

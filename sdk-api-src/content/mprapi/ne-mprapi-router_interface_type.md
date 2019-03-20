@@ -1,6 +1,6 @@
 ---
 UID: NE:mprapi._ROUTER_INTERFACE_TYPE
-title: ROUTER_INTERFACE_TYPE
+title: ROUTER_INTERFACE_TYPE (mprapi.h)
 author: windows-sdk-content
 description: The ROUTER_INTERFACE_TYPE type enumerates the different kinds of interfaces on a router.
 old-location: rras\router_interface_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFVideoProcessorControl2.EnableHardwareEffects
-title: IMFVideoProcessorControl2::EnableHardwareEffects
+title: IMFVideoProcessorControl2::EnableHardwareEffects (mfidl.h)
 author: windows-sdk-content
 description: Enables effects that were implemented with IDirectXVideoProcessor::VideoProcessorBlt.
 old-location: mf\imfvideoprocessorcontrol2_enablehardwareeffects.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._FONTOBJ
-title: FONTOBJ
+title: FONTOBJ (winddi.h)
 author: windows-sdk-content
 description: The FONTOBJ structure is used to give a driver access to information about a particular instance of a font.
 old-location: display\fontobj.htm

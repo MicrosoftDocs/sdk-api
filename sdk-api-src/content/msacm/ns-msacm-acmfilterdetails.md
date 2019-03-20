@@ -1,6 +1,6 @@
 ---
 UID: NS:msacm.tACMFILTERDETAILS
-title: ACMFILTERDETAILS
+title: ACMFILTERDETAILS (msacm.h)
 author: windows-sdk-content
 description: The ACMFILTERDETAILS structure details a waveform-audio filter for a specific filter tag for an ACM driver.
 old-location: multimedia\acmfilterdetails_struct.htm

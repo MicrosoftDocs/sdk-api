@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtTransport.SetTransportAudioParameters
-title: IAMExtTransport::SetTransportAudioParameters
+title: IAMExtTransport::SetTransportAudioParameters (strmif.h)
 author: windows-sdk-content
 description: The SetTransportAudioParameters assigns audio parameter settings for external transport.
 old-location: dshow\iamexttransport_settransportaudioparameters.htm

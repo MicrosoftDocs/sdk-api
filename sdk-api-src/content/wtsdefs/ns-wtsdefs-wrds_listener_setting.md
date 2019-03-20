@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsdefs._WRDS_LISTENER_SETTING
-title: WRDS_LISTENER_SETTING
+title: WRDS_LISTENER_SETTING (wtsdefs.h)
 author: windows-sdk-content
 description: Contains different levels of listener settings for a remote desktop connection.
 old-location: termserv\wrds_listener_setting.htm

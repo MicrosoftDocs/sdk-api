@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequestCollection.RemoveAt
-title: IXpsSignatureRequestCollection::RemoveAt
+title: IXpsSignatureRequestCollection::RemoveAt (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Removes and releases an IXpsSignatureRequest interface pointer from a specified location in the collection.
 old-location: xps\ixpssignaturerequestcollection_removeat.htm

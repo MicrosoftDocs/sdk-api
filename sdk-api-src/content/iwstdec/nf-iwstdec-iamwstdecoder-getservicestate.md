@@ -1,6 +1,6 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.GetServiceState
-title: IAMWstDecoder::GetServiceState
+title: IAMWstDecoder::GetServiceState (iwstdec.h)
 author: windows-sdk-content
 description: Applications use the GetServiceState method to retrieve the current service state.
 old-location: dshow\iamwstdecoder_getservicestate.htm

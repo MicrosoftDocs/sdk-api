@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndNew
-title: MCIWndNew macro
+title: MCIWndNew macro (vfw.h)
 author: windows-sdk-content
 description: The MCIWndNew macro creates a new file for the current MCI device. You can use this macro or explicitly send the MCIWNDM_NEW message.
 old-location: multimedia\mciwndnew.htm

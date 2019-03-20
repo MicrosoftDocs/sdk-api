@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Header_GetOrderArray
-title: Header_GetOrderArray macro
+title: Header_GetOrderArray macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the current left-to-right order of items in a header control. You can use this macro or send the HDM_GETORDERARRAY message explicitly.
 old-location: controls\Header_GetOrderArray.htm

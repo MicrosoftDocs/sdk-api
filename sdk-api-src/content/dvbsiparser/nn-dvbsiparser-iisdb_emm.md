@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IISDB_EMM
-title: IISDB_EMM
+title: IISDB_EMM (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets data from an Integrated Services Digital Broadcasting (ISDB) entitlement management message (EMM) table.
 old-location: mstv\iisdb_emm.htm

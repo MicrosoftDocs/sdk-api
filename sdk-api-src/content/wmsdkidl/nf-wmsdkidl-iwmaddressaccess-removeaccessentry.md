@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMAddressAccess.RemoveAccessEntry
-title: IWMAddressAccess::RemoveAccessEntry
+title: IWMAddressAccess::RemoveAccessEntry (wmsdkidl.h)
 author: windows-sdk-content
 description: The RemoveAccessEntry method removes an access entry.
 old-location: wmformat\iwmaddressaccess_removeaccessentry.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IDShowPlugin.get_UserAgent
-title: IDShowPlugin::get_UserAgent
+title: IDShowPlugin::get_UserAgent (qnetwork.h)
 author: windows-sdk-content
 description: The get_UserAgent method retrieves the User-Agent field from the HTTP header.
 old-location: dshow\idshowplugin_get_useragent.htm

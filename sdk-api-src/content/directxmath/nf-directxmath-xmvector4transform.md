@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector4Transform
-title: XMVector4Transform function
+title: XMVector4Transform function (directxmath.h)
 author: windows-sdk-content
 description: Transforms a 4D vector by a matrix.
 old-location: dxmath\xmvector4transform.htm

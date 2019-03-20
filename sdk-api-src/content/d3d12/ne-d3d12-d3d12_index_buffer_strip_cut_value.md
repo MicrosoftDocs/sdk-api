@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_INDEX_BUFFER_STRIP_CUT_VALUE
-title: D3D12_INDEX_BUFFER_STRIP_CUT_VALUE
+title: D3D12_INDEX_BUFFER_STRIP_CUT_VALUE (d3d12.h)
 author: windows-sdk-content
 description: When using triangle strip primitive topology, vertex positions are interpreted as vertices of a continuous triangle “strip”.
 old-location: direct3d12\d3d12_index_buffer_strip_cut_value.htm

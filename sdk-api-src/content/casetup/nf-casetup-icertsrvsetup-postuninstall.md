@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertSrvSetup.PostUnInstall
-title: ICertSrvSetup::PostUnInstall
+title: ICertSrvSetup::PostUnInstall (casetup.h)
 author: windows-sdk-content
 description: Is not implemented and is reserved for future use.
 old-location: security\icertsrvsetup_postuninstall.htm

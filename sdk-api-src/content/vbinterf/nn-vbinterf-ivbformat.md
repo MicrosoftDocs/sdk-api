@@ -1,6 +1,6 @@
 ---
 UID: NN:vbinterf.IVBFormat
-title: IVBFormat
+title: IVBFormat (vbinterf.h)
 author: windows-sdk-content
 description: Provides formatting support for controls on a Visual Basic container.
 old-location: com\ivbformat.htm

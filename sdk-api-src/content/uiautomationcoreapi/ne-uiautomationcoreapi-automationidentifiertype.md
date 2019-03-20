@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcoreapi.AutomationIdentifierType
-title: AutomationIdentifierType
+title: AutomationIdentifierType (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Contains values used in the UiaLookupId function.
 old-location: winauto\uiauto_AutomationIdTypeEnum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:pathcch.PathCchFindExtension
-title: PathCchFindExtension function
+title: PathCchFindExtension function (pathcch.h)
 author: windows-sdk-content
 description: Searches a path to find its file name extension, such as &#0034;.exe&#0034; or &#0034;.ini&#0034;.
 old-location: shell\PathCchFindExtension.htm

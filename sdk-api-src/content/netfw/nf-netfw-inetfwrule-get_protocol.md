@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRule.get_Protocol
-title: INetFwRule::get_Protocol
+title: INetFwRule::get_Protocol (netfw.h)
 author: windows-sdk-content
 description: Specifies the IP protocol of this rule.
 old-location: ics\inetfwrule_protocol.htm

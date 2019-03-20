@@ -1,6 +1,6 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter2.GetParam
-title: IConfigAsfWriter2::GetParam
+title: IConfigAsfWriter2::GetParam (dshowasf.h)
 author: windows-sdk-content
 description: The GetParam method retrieves the current value of the specified filter configuration parameter.
 old-location: dshow\iconfigasfwriter2_getparam.htm

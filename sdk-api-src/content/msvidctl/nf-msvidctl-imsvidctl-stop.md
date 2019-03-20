@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.Stop
-title: IMSVidCtl::Stop
+title: IMSVidCtl::Stop (msvidctl.h)
 author: windows-sdk-content
 description: The Stop method stops the filter graph.
 old-location: mstv\imsvidctl_stop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtTransport.get_LocalControl
-title: IAMExtTransport::get_LocalControl
+title: IAMExtTransport::get_LocalControl (strmif.h)
 author: windows-sdk-content
 description: The get_LocalControl method determines whether the transport is under local control or remote control.
 old-location: dshow\iamexttransport_get_localcontrol.htm

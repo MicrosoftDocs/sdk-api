@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._USER_INFO_1025
-title: USER_INFO_1025
+title: USER_INFO_1025 (lmaccess.h)
 author: windows-sdk-content
 description: The USER_INFO_1025 structure contains the code page for a network user's language of choice. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1025_str.htm

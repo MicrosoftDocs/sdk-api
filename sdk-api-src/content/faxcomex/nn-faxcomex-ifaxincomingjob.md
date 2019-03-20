@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcomex.IFaxIncomingJob
-title: IFaxIncomingJob
+title: IFaxIncomingJob (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxIncomingJob interface is used by a fax client application to retrieve information about an incoming fax job in a fax server's queue.
 old-location: fax\_mfax_faxincomingjob_cpp.htm

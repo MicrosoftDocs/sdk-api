@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.DeviceCapabilitiesA
-title: DeviceCapabilitiesA function
+title: DeviceCapabilitiesA function (wingdi.h)
 author: windows-sdk-content
 description: The DeviceCapabilities function retrieves the capabilities of a printer driver.
 old-location: gdi\devicecapabilities.htm

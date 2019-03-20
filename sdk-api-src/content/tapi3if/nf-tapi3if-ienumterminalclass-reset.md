@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.IEnumTerminalClass.Reset
-title: IEnumTerminalClass::Reset
+title: IEnumTerminalClass::Reset (tapi3if.h)
 author: windows-sdk-content
 description: The Reset method resets to the beginning of the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumterminalclass_reset.htm

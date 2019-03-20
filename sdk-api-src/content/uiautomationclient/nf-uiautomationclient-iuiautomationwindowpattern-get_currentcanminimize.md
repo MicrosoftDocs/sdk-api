@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CurrentCanMinimize
-title: IUIAutomationWindowPattern::get_CurrentCanMinimize
+title: IUIAutomationWindowPattern::get_CurrentCanMinimize (uiautomationclient.h)
 author: windows-sdk-content
 description: Indicates whether the window can be minimized.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CurrentCanMinimize.htm

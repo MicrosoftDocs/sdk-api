@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.put_HookSwitchState
-title: ITPhone::put_HookSwitchState
+title: ITPhone::put_HookSwitchState (tapi3if.h)
 author: windows-sdk-content
 description: The put_HookSwitchState method sets the current hookswitch state for a particular hookswitch device on the phone.
 old-location: tapi3\itphone_put_hookswitchstate.htm

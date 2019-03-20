@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.PlayChapter
-title: IDvdControl2::PlayChapter
+title: IDvdControl2::PlayChapter (strmif.h)
 author: windows-sdk-content
 description: The PlayChapter method starts playback from the specified chapter in the current title.
 old-location: dshow\idvdcontrol2_playchapter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemButton.GetIcon
-title: ITfLangBarItemButton::GetIcon
+title: ITfLangBarItemButton::GetIcon (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarItemButton::GetIcon method
 old-location: tsf\itflangbaritembutton_geticon.htm

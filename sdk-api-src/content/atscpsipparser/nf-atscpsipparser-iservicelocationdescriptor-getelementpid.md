@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IServiceLocationDescriptor.GetElementPID
-title: IServiceLocationDescriptor::GetElementPID
+title: IServiceLocationDescriptor::GetElementPID (atscpsipparser.h)
 author: windows-sdk-content
 description: Gets the program ID (PID) that identifies an elementary stream from an Advanced Television Systems Committee (ATSC) Service Location Descriptor.
 old-location: mstv\iservicelocationdescriptor_getelementpid.htm

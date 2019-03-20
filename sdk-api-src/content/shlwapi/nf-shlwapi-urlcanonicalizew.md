@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.UrlCanonicalizeW
-title: UrlCanonicalizeW function
+title: UrlCanonicalizeW function (shlwapi.h)
 author: windows-sdk-content
 description: Converts a URL string into canonical form.
 old-location: shell\UrlCanonicalize.htm

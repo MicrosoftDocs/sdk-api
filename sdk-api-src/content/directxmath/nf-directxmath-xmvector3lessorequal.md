@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector3LessOrEqual
-title: XMVector3LessOrEqual function
+title: XMVector3LessOrEqual function (directxmath.h)
 author: windows-sdk-content
 description: Tests whether one 3D vector is less-than-or-equal-to another 3D vector.
 old-location: dxmath\xmvector3lessorequal.htm

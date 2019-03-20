@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.__unnamed_struct_2
-title: BSMINFO
+title: BSMINFO (winuser.h)
 author: windows-sdk-content
 description: Contains information about a window that denied a request from BroadcastSystemMessageEx.
 old-location: winmsg\bsminfo.htm

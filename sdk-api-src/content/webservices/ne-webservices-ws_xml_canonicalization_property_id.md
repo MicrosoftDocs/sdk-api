@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_2
-title: WS_XML_CANONICALIZATION_PROPERTY_ID
+title: WS_XML_CANONICALIZATION_PROPERTY_ID (webservices.h)
 author: windows-sdk-content
 description: Identifies each XML canonicalization property and its associated value. This enumeration is used within the WS_XML_CANONICALIZATION_PROPERTY structure, which is used as a parameter to WsStartReaderCanonicalization and WsStartWriterCanonicalization.
 old-location: wsw\ws_xml_canonicalization_property_id.htm

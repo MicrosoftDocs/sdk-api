@@ -1,6 +1,6 @@
 ---
 UID: NS:mmeapi.tagMIXERLINECONTROLSW
-title: MIXERLINECONTROLSW
+title: MIXERLINECONTROLSW (mmeapi.h)
 author: windows-sdk-content
 description: The MIXERLINECONTROLS structure contains information about the controls of an audio line.
 old-location: multimedia\mixerlinecontrols.htm

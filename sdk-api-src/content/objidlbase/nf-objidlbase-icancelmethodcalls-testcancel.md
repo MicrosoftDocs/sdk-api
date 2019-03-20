@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.ICancelMethodCalls.TestCancel
-title: ICancelMethodCalls::TestCancel
+title: ICancelMethodCalls::TestCancel (objidlbase.h)
 author: windows-sdk-content
 description: Determines whether a call has been canceled.
 old-location: com\icancelmethodcalls_testcancel.htm

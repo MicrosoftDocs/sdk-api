@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.AddStream
-title: IMFSinkWriter::AddStream
+title: IMFSinkWriter::AddStream (mfreadwrite.h)
 author: windows-sdk-content
 description: Adds a stream to the sink writer.
 old-location: mf\imfsinkwriter_addstream.htm

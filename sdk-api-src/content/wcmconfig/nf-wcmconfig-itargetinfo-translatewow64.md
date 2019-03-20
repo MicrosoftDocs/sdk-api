@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.TranslateWow64
-title: ITargetInfo::TranslateWow64
+title: ITargetInfo::TranslateWow64 (wcmconfig.h)
 author: windows-sdk-content
 description: Translates paths for wow64 redirection.
 old-location: smi\itargetinfo_translatewow64.htm

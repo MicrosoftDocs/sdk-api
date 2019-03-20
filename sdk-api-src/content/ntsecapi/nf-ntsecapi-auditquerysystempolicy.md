@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.AuditQuerySystemPolicy
-title: AuditQuerySystemPolicy function
+title: AuditQuerySystemPolicy function (ntsecapi.h)
 author: windows-sdk-content
 description: Retrieves system audit policy for one or more audit-policy subcategories.
 old-location: security\auditquerysystempolicy_func.htm

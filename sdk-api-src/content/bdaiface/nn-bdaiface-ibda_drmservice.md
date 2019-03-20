@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IBDA_DRMService
-title: IBDA_DRMService
+title: IBDA_DRMService (bdaiface.h)
 author: windows-sdk-content
 description: Provides access to a device's Digital Rights Management (DRM) Service.
 old-location: mstv\ibda_drmservice.htm

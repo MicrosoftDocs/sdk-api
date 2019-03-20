@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo.GetCurrentVideoAttributes
-title: IDvdInfo::GetCurrentVideoAttributes
+title: IDvdInfo::GetCurrentVideoAttributes (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current video attributes for the current title or menu.
 old-location: dshow\idvdinfo_getcurrentvideoattributes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.SetSourcePosition
-title: IBasicVideo::SetSourcePosition
+title: IBasicVideo::SetSourcePosition (control.h)
 author: windows-sdk-content
 description: The SetSourcePosition method sets the source rectangle.
 old-location: dshow\ibasicvideo_setsourceposition.htm

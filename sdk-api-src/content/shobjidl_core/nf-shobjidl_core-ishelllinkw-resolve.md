@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLinkW.Resolve
-title: IShellLinkW::Resolve
+title: IShellLinkW::Resolve (shobjidl_core.h)
 author: windows-sdk-content
 description: Attempts to find the target of a Shell link, even if it has been moved or renamed.
 old-location: shell\IShellLink_Resolve.htm

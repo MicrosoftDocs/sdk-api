@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj.tagAAMENUFILENAME
-title: AASHELLMENUFILENAME
+title: AASHELLMENUFILENAME (shlobj.h)
 author: windows-sdk-content
 description: A variable-size structure that contains information about a menu file name.
 old-location: shell\AASHELLMENUFILENAME_str.htm

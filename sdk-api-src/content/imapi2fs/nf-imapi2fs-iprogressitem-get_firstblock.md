@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IProgressItem.get_FirstBlock
-title: IProgressItem::get_FirstBlock
+title: IProgressItem::get_FirstBlock (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the first block number in this segment of the result image.
 old-location: imapi\iprogressitem_get_firstblock.htm

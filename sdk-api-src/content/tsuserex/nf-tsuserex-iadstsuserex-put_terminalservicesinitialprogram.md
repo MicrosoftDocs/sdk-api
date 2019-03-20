@@ -1,6 +1,6 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.put_TerminalServicesInitialProgram
-title: IADsTSUserEx::put_TerminalServicesInitialProgram
+title: IADsTSUserEx::put_TerminalServicesInitialProgram (tsuserex.h)
 author: windows-sdk-content
 description: The path and file name of the application that the user wants to start automatically when the user logs on to the Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\iadstsuserex_terminalservicesinitialprogram.htm

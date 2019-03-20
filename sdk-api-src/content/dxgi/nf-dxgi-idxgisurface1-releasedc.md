@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGISurface1.ReleaseDC
-title: IDXGISurface1::ReleaseDC
+title: IDXGISurface1::ReleaseDC (dxgi.h)
 author: windows-sdk-content
 description: Releases the GDI device context (DC) that is associated with the current surface and allows you to use Direct3D to render.
 old-location: direct3ddxgi\idxgisurface1_releasedc.htm

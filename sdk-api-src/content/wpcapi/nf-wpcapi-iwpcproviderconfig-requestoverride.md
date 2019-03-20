@@ -1,6 +1,6 @@
 ---
 UID: NF:wpcapi.IWPCProviderConfig.RequestOverride
-title: IWPCProviderConfig::RequestOverride
+title: IWPCProviderConfig::RequestOverride (wpcapi.h)
 author: windows-sdk-content
 description: Called for the current provider to enable configuration override.
 old-location: parcon\iwpcproviderconfig_requestoverride.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IMPEG2_TIF_CONTROL.GetPIDs
-title: IMPEG2_TIF_CONTROL::GetPIDs
+title: IMPEG2_TIF_CONTROL::GetPIDs (bdatif.h)
 author: windows-sdk-content
 description: The GetPIDs method retrieves the list of MPEG-2 Packet IDs being filtered into the TIF's input data.
 old-location: mstv\impeg2_tif_control_getpids.htm

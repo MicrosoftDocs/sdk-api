@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupBackupErrorW
-title: SetupBackupErrorW function
+title: SetupBackupErrorW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupBackupError function generates a dialog box that informs the user of a backup error.
 old-location: setup\setupbackuperror.htm

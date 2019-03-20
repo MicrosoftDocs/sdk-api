@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcUri.CombinePartUri
-title: IOpcUri::CombinePartUri
+title: IOpcUri::CombinePartUri (msopc.h)
 author: windows-sdk-content
 description: Forms the part name of the part that is referenced by the specified relative URI.
 old-location: opc\iopcuri_combineparturi.htm

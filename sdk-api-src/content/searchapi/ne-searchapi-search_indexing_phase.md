@@ -1,6 +1,6 @@
 ---
 UID: NE:searchapi._SEARCH_INDEXING_PHASE
-title: SEARCH_INDEXING_PHASE
+title: SEARCH_INDEXING_PHASE (searchapi.h)
 author: windows-sdk-content
 description: Specifies the status of the current search indexing phase.
 old-location: search\_search_SEARCH_INDEXING_PHASE.htm

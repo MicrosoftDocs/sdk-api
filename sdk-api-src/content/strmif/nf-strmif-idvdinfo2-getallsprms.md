@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetAllSPRMs
-title: IDvdInfo2::GetAllSPRMs
+title: IDvdInfo2::GetAllSPRMs (strmif.h)
 author: windows-sdk-content
 description: The GetAllSPRMs method retrieves the current contents of all system parameter registers (SPRMs).
 old-location: dshow\idvdinfo2_getallsprms.htm

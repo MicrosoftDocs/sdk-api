@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteRemoteFontFileLoader.CreateRemoteStreamFromKey
-title: IDWriteRemoteFontFileLoader::CreateRemoteStreamFromKey
+title: IDWriteRemoteFontFileLoader::CreateRemoteStreamFromKey (dwrite_3.h)
 author: windows-sdk-content
 description: Creates a remote font file stream object that encapsulates an open file resource and can be used to download remote file data.
 old-location: directwrite\idwriteremotefontfileloader_createremotestreamfromkey.htm

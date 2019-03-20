@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecPrivateData.SetPartialOutputType
-title: IWMCodecPrivateData::SetPartialOutputType
+title: IWMCodecPrivateData::SetPartialOutputType (wmcodecdsp.h)
 author: windows-sdk-content
 description: Gives the codec the output media type without the codec data. This enables the codec to generate the private data.
 old-location: mf\iwmcodecprivatedatasetpartialoutputtype.htm

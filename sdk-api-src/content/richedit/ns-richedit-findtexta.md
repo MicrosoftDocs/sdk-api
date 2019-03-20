@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._findtext
-title: FINDTEXTA
+title: FINDTEXTA (richedit.h)
 author: windows-sdk-content
 description: Contains information about a search operation in a rich edit control. This structure is used with the EM_FINDTEXT message.
 old-location: controls\FINDTEXT.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:appmodel.PackageOrigin
-title: PackageOrigin
+title: PackageOrigin (appmodel.h)
 author: windows-sdk-content
 description: Specifies the origin of a package.
 old-location: appxpkg\packageorigin.htm

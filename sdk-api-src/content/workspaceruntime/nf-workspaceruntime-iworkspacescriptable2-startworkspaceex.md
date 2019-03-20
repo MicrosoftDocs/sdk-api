@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceScriptable2.StartWorkspaceEx
-title: IWorkspaceScriptable2::StartWorkspaceEx
+title: IWorkspaceScriptable2::StartWorkspaceEx (workspaceruntime.h)
 author: windows-sdk-content
 description: Associates user credentials and certificates with a connection ID; also contains additional security and UI elements.
 old-location: termserv\iworkspacescriptable2_startworkspaceex.htm

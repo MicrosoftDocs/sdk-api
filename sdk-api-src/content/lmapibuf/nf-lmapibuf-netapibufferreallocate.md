@@ -1,6 +1,6 @@
 ---
 UID: NF:lmapibuf.NetApiBufferReallocate
-title: NetApiBufferReallocate function
+title: NetApiBufferReallocate function (lmapibuf.h)
 author: windows-sdk-content
 description: The NetApiBufferReallocate function changes the size of a buffer allocated by a previous call to the NetApiBufferAllocate function.
 old-location: netmgmt\netapibufferreallocate.htm

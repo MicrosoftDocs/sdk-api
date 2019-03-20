@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.DrawBitmap
-title: ID2D1DeviceContext::DrawBitmap
+title: ID2D1DeviceContext::DrawBitmap (d2d1_1.h)
 author: windows-sdk-content
 description: Draws a bitmap to the render target.
 old-location: direct2d\id2d1devicecontext_drawbitmap.htm

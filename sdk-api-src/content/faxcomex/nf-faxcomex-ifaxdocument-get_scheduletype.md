@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDocument.get_ScheduleType
-title: IFaxDocument::get_ScheduleType
+title: IFaxDocument::get_ScheduleType (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDocument::get_ScheduleType property indicates when to schedule the fax job; for example, you can specify that the fax service send the fax immediately, at a specified time, or during a predefined discount period.
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_scheduletype_cpp.htm

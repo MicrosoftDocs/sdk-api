@@ -1,6 +1,6 @@
 ---
 UID: NF:activationregistration.IExeServerRegistration.get_Instancing
-title: IExeServerRegistration::get_Instancing
+title: IExeServerRegistration::get_Instancing (activationregistration.h)
 author: windows-sdk-content
 description: Gets the instancing behavior for the out-of-process server.
 old-location: winrt\iexeserverregistration_instancing.htm

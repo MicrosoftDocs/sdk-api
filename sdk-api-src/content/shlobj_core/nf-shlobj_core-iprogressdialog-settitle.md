@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IProgressDialog.SetTitle
-title: IProgressDialog::SetTitle
+title: IProgressDialog::SetTitle (shlobj_core.h)
 author: windows-sdk-content
 description: Sets the title of the progress dialog box.
 old-location: shell\IProgressDialog_SetTitle.htm

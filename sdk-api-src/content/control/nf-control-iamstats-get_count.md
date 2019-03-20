@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IAMStats.get_Count
-title: IAMStats::get_Count
+title: IAMStats::get_Count (control.h)
 author: windows-sdk-content
 description: The get_Count method retrieves the number of statistics.
 old-location: dshow\iamstats_get_count.htm

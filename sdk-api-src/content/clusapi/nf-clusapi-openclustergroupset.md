@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.OpenClusterGroupSet
-title: OpenClusterGroupSet function
+title: OpenClusterGroupSet function (clusapi.h)
 author: windows-sdk-content
 description: Opens a handle to the specified groupset.
 old-location: mscs\openclustergroupcollection.htm

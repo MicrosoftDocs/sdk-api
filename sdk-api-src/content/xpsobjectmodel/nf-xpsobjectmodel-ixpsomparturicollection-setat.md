@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartUriCollection.SetAt
-title: IXpsOMPartUriCollection::SetAt
+title: IXpsOMPartUriCollection::SetAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Replaces an IOpcPartUri interface pointer at a specified location in the collection.
 old-location: xps\ixpsomparturicollection_setat.htm

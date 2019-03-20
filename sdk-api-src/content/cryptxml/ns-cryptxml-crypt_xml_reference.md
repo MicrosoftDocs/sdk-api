@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_REFERENCE
-title: CRYPT_XML_REFERENCE
+title: CRYPT_XML_REFERENCE (cryptxml.h)
 author: windows-sdk-content
 description: Contains information used to populate the Reference element.
 old-location: security\crypt_xml_reference.htm

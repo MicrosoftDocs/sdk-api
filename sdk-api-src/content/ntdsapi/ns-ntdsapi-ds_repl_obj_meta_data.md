@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdsapi._DS_REPL_OBJ_META_DATA
-title: DS_REPL_OBJ_META_DATA
+title: DS_REPL_OBJ_META_DATA (ntdsapi.h)
 author: windows-sdk-content
 description: The DS_REPL_OBJ_META_DATA structure contains an array of DS_REPL_ATTR_META_DATA structures. These structures contain replication state data for past and present attributes for a given object.
 old-location: ad\ds_repl_obj_meta_data.htm

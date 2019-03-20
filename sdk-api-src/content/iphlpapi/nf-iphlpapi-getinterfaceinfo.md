@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.GetInterfaceInfo
-title: GetInterfaceInfo function
+title: GetInterfaceInfo function (iphlpapi.h)
 author: windows-sdk-content
 description: The GetInterfaceInfo function obtains the list of the network interface adapters with IPv4 enabled on the local system.
 old-location: iphlp\getinterfaceinfo.htm

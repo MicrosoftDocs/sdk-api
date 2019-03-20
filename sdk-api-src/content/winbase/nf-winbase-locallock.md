@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.LocalLock
-title: LocalLock function
+title: LocalLock function (winbase.h)
 author: windows-sdk-content
 description: Locks a local memory object and returns a pointer to the first byte of the object's memory block.
 old-location: base\locallock.htm

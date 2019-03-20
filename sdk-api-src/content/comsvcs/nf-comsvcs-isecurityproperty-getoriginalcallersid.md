@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISecurityProperty.GetOriginalCallerSID
-title: ISecurityProperty::GetOriginalCallerSID
+title: ISecurityProperty::GetOriginalCallerSID (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the security identifier of the base process that initiated the call sequence from which the current method was called.
 old-location: cos\isecurityproperty_getoriginalcallersid.htm

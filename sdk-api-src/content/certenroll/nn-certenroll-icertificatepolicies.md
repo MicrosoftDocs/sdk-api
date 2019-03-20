@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.ICertificatePolicies
-title: ICertificatePolicies
+title: ICertificatePolicies (certenroll.h)
 author: windows-sdk-content
 description: Contains methods and properties that enable you to manage a collection of ICertificatePolicy objects.
 old-location: security\icertificatepolicies.htm

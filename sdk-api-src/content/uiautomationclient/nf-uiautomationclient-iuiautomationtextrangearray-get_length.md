@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRangeArray.get_Length
-title: IUIAutomationTextRangeArray::get_Length
+title: IUIAutomationTextRangeArray::get_Length (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the number of text ranges in the collection.
 old-location: winauto\uiauto_IUIAutomationTextRangeArray_Length.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineSetLineDevStatus
-title: lineSetLineDevStatus function
+title: lineSetLineDevStatus function (tapi.h)
 author: windows-sdk-content
 description: The lineSetLineDevStatus function sets the line device status.
 old-location: tapi2\linesetlinedevstatus.htm

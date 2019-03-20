@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreateCollection
-title: MFCreateCollection function
+title: MFCreateCollection function (mfapi.h)
 author: windows-sdk-content
 description: Creates an empty collection object.
 old-location: mf\mfcreatecollection.htm

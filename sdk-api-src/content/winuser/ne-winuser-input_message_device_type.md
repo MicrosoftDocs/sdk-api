@@ -1,6 +1,6 @@
 ---
 UID: NE:winuser.tagINPUT_MESSAGE_DEVICE_TYPE
-title: INPUT_MESSAGE_DEVICE_TYPE
+title: INPUT_MESSAGE_DEVICE_TYPE (winuser.h)
 author: windows-sdk-content
 description: The type of device that sent the input message.
 old-location: input_sourceid\input_message_device_type.htm

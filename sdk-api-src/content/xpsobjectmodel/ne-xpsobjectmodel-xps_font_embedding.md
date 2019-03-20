@@ -1,6 +1,6 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0013
-title: XPS_FONT_EMBEDDING
+title: XPS_FONT_EMBEDDING (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Describes the option for embedding a font.
 old-location: xps\xps_font_embedding.htm

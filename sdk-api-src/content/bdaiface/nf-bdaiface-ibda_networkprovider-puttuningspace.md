@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_NetworkProvider.PutTuningSpace
-title: IBDA_NetworkProvider::PutTuningSpace
+title: IBDA_NetworkProvider::PutTuningSpace (bdaiface.h)
 author: windows-sdk-content
 description: The PutTuningSpace method specifies the tuning space.
 old-location: mstv\ibda_networkprovider_puttuningspace.htm

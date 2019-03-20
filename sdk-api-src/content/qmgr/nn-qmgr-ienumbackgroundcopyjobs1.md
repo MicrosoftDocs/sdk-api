@@ -1,6 +1,6 @@
 ---
 UID: NN:qmgr.IEnumBackgroundCopyJobs1
-title: IEnumBackgroundCopyJobs1
+title: IEnumBackgroundCopyJobs1 (qmgr.h)
 author: windows-sdk-content
 description: Use the IEnumBackgroundCopyJobs1 interface to enumerate the list of jobs in a group. To get an IEnumBackgroundCopyJobs1 interface pointer, call the IBackgroundCopyGroup::EnumJobs method.
 old-location: bits\ienumbackgroundcopyjobs1.htm

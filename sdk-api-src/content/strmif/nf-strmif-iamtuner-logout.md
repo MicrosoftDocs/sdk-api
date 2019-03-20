@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTuner.Logout
-title: IAMTuner::Logout
+title: IAMTuner::Logout (strmif.h)
 author: windows-sdk-content
 description: The Logout method logs out the current user.
 old-location: dshow\iamtuner_logout.htm

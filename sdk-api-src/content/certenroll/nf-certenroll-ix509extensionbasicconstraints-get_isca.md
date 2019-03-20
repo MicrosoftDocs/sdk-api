@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionBasicConstraints.get_IsCA
-title: IX509ExtensionBasicConstraints::get_IsCA
+title: IX509ExtensionBasicConstraints::get_IsCA (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a Boolean value that identifies whether the subject of the certificate is a certification authority (CA).
 old-location: security\ix509extensionbasicconstraints_isca_property.htm

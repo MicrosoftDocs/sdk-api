@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11shader._D3D11_PARAMETER_DESC
-title: D3D11_PARAMETER_DESC
+title: D3D11_PARAMETER_DESC (d3d11shader.h)
 author: windows-sdk-content
 description: Describes a function parameter.
 old-location: direct3d11\d3d11_parameter_desc.htm

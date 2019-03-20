@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsmgmtw32.DeregisterManageableLogClient
-title: DeregisterManageableLogClient function
+title: DeregisterManageableLogClient function (clfsmgmtw32.h)
 author: windows-sdk-content
 description: Deregisters a client with the log manager.
 old-location: fs\deregistermanageablelogclient.htm

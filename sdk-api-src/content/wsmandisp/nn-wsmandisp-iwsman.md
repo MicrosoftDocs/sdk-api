@@ -1,6 +1,6 @@
 ---
 UID: NN:wsmandisp.IWSMan
-title: IWSMan
+title: IWSMan (wsmandisp.h)
 author: windows-sdk-content
 description: Provides methods and properties used to create a session, represented by a Session object.
 old-location: winrm\iwsman.htm

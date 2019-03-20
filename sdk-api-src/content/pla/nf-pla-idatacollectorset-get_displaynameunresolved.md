@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_DisplayNameUnresolved
-title: IDataCollectorSet::get_DisplayNameUnresolved
+title: IDataCollectorSet::get_DisplayNameUnresolved (pla.h)
 author: windows-sdk-content
 description: Retrieves the display name of the data collector set in its original form.
 old-location: pla\idatacollectorset_displaynameunresolved.htm

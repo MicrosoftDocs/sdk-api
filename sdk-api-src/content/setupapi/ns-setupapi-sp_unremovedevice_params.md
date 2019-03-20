@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._SP_UNREMOVEDEVICE_PARAMS
-title: SP_UNREMOVEDEVICE_PARAMS
+title: SP_UNREMOVEDEVICE_PARAMS (setupapi.h)
 author: windows-sdk-content
 description: An SP_UNREMOVEDEVICE_PARAMS structure corresponds to a DIF_UNREMOVE installation request.
 old-location: devinst\sp_unremovedevice_params.htm

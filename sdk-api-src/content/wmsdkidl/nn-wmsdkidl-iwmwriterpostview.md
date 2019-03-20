@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMWriterPostView
-title: IWMWriterPostView
+title: IWMWriterPostView (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMWriterPostView interface manages advanced writing functionality related to the postviewing of samples.
 old-location: wmformat\iwmwriterpostview.htm

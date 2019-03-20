@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._TXFS_MODIFY_RM
-title: TXFS_MODIFY_RM
+title: TXFS_MODIFY_RM (winioctl.h)
 author: windows-sdk-content
 description: Contains the information required when modifying log parameters and logging mode for a secondary resource manager.
 old-location: fs\txfs_modify_rm.htm

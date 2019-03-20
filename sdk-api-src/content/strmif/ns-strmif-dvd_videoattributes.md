@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif.tagDVD_VideoAttributes
-title: DVD_VideoAttributes
+title: DVD_VideoAttributes (strmif.h)
 author: windows-sdk-content
 description: The DVD_VideoAttributes structure describes the attributes of the video stream for the current title or menu.
 old-location: dshow\dvd_videoattributes.htm

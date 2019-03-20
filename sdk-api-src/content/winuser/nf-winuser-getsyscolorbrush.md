@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetSysColorBrush
-title: GetSysColorBrush function
+title: GetSysColorBrush function (winuser.h)
 author: windows-sdk-content
 description: The GetSysColorBrush function retrieves a handle identifying a logical brush that corresponds to the specified color index.
 old-location: gdi\getsyscolorbrush.htm

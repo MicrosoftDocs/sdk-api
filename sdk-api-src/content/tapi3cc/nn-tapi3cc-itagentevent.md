@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3cc.ITAgentEvent
-title: ITAgentEvent
+title: ITAgentEvent (tapi3cc.h)
 author: windows-sdk-content
 description: The ITAgentEvent interface contains methods that retrieve the description of agent events.
 old-location: tapi3\itagentevent.htm

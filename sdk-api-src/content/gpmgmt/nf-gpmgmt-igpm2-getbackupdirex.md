@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPM2.GetBackupDirEx
-title: IGPM2::GetBackupDirEx
+title: IGPM2::GetBackupDirEx (gpmgmt.h)
 author: windows-sdk-content
 description: For a Group Policy object (GPO), the GetBackupDirEx method creates and returns a GPMBackupDirEx object, which you can use to access a GPMBackup or GPMBackupCollection object.
 old-location: gpmc\igpm2_getbackupdirex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:syncmgr.SYNCMGR_ITEM_CAPABILITIES
-title: SYNCMGR_ITEM_CAPABILITIES
+title: SYNCMGR_ITEM_CAPABILITIES (syncmgr.h)
 author: windows-sdk-content
 description: Specifies the actions that can be performed against an item.
 old-location: shell\SYNCMGR_ITEM_CAPABILITIES.htm

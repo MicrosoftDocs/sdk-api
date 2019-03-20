@@ -1,6 +1,6 @@
 ---
 UID: NS:objidl.tagMULTI_QI
-title: MULTI_QI
+title: MULTI_QI (objidl.h)
 author: windows-sdk-content
 description: Represents an interface in a query for multiple interfaces.
 old-location: com\multi_qi.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.IAVIStream.ReadFormat
-title: IAVIStream::ReadFormat
+title: IAVIStream::ReadFormat (vfw.h)
 author: windows-sdk-content
 description: The ReadFormat method obtains format information from a stream.
 old-location: multimedia\iavistream_readformat.htm

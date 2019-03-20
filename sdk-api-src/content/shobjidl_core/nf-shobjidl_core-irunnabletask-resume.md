@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IRunnableTask.Resume
-title: IRunnableTask::Resume
+title: IRunnableTask::Resume (shobjidl_core.h)
 author: windows-sdk-content
 description: Requests that a task resume.
 old-location: shell\IRunnableTask_Resume.htm

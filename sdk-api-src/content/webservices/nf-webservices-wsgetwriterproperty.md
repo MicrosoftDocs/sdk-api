@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsGetWriterProperty
-title: WsGetWriterProperty function
+title: WsGetWriterProperty function (webservices.h)
 author: windows-sdk-content
 description: Retrieves a specified XML Writer property. The property to retrieve is identified by a WS_XML WRITER_PROPERTY_ID input parameter.
 old-location: wsw\wsgetwriterproperty.htm

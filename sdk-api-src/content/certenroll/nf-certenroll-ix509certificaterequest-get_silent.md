@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.get_Silent
-title: IX509CertificateRequest::get_Silent
+title: IX509CertificateRequest::get_Silent (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a Boolean value that indicates whether any of the key-related modal dialogs are displayed during the certificate enrollment process.
 old-location: security\ix509certificaterequest_silent_property.htm

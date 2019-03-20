@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.SHFreeNameMappings
-title: SHFreeNameMappings function
+title: SHFreeNameMappings function (shellapi.h)
 author: windows-sdk-content
 description: Frees a file name mapping object that was retrieved by the SHFileOperation function.
 old-location: shell\SHFreeNameMappings.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.ISCPSecureExchange3.TransferContainerDataOnClearChannel
-title: ISCPSecureExchange3::TransferContainerDataOnClearChannel
+title: ISCPSecureExchange3::TransferContainerDataOnClearChannel (mswmdm.h)
 author: windows-sdk-content
 description: The TransferContainerDataOnClearChannel method transfers container file data to the content provider through the clear channel.
 old-location: wmdm\iscpsecureexchange3__transfercontainerdataonclearchannel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IDownloadJob.get_AsyncState
-title: IDownloadJob::get_AsyncState
+title: IDownloadJob::get_AsyncState (wuapi.h)
 author: windows-sdk-content
 description: Gets the caller-specific state object that is passed to the IUpdateDownloader.BeginDownload method.
 old-location: wua\idownloadjob_asyncstate.htm

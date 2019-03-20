@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupQueueRenameW
-title: SetupQueueRenameW function
+title: SetupQueueRenameW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupQueueRename function places an individual file rename operation on a setup file queue.
 old-location: setup\setupqueuerename.htm

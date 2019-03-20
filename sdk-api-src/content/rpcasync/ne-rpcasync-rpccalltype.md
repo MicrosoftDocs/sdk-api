@@ -1,6 +1,6 @@
 ---
 UID: NE:rpcasync.tagRpcCallType
-title: RpcCallType
+title: RpcCallType (rpcasync.h)
 author: windows-sdk-content
 description: Specifies the set of RPC call types.
 old-location: rpc\rpccalltype.htm

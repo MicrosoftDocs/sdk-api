@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsEvents.OnSmsDeleteComplete
-title: IMbnSmsEvents::OnSmsDeleteComplete
+title: IMbnSmsEvents::OnSmsDeleteComplete (mbnapi.h)
 author: windows-sdk-content
 description: Notification method that signals the completion of an SMS deletion operation.
 old-location: mbn\imbnsmsevents_onsmsdeletecomplete.htm

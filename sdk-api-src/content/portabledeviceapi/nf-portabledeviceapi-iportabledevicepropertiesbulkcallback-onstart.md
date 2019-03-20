@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevicePropertiesBulkCallback.OnStart
-title: IPortableDevicePropertiesBulkCallback::OnStart
+title: IPortableDevicePropertiesBulkCallback::OnStart (portabledeviceapi.h)
 author: windows-sdk-content
 description: The OnStart method is called by the SDK when a bulk operation started by IPortableDevicePropertiesBulk::Start is about to begin.
 old-location: wpdsdk\iportabledevicepropertiesbulkcallback_onstart.htm

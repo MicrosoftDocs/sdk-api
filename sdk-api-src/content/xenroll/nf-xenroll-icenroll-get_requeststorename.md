@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll.get_RequestStoreName
-title: ICEnroll::get_RequestStoreName
+title: ICEnroll::get_RequestStoreName (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrievesICEnroll the name of the store that contains the dummy certificate.
 old-location: security\icenroll4_requeststorename.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmCompensatorVariants.BeginAbortVariants
-title: ICrmCompensatorVariants::BeginAbortVariants
+title: ICrmCompensatorVariants::BeginAbortVariants (comsvcs.h)
 author: windows-sdk-content
 description: Notifies the CRM Compensator of the abort phase of the transaction completion and that records are about to be delivered.
 old-location: cos\icrmcompensatorvariants_beginabortvariants.htm

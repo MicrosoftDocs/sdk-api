@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.X509RequestType
-title: X509RequestType
+title: X509RequestType (certenroll.h)
 author: windows-sdk-content
 description: Specifies the certificate request type.
 old-location: security\x509requesttype_enum.htm

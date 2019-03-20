@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizerGuide.put_WritingBox
-title: IInkRecognizerGuide::put_WritingBox
+title: IInkRecognizerGuide::put_WritingBox (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the invisible writing area of the recognition guide in which writing can actually take place.
 old-location: tablet\inkrecognizerguide_writingbox.htm

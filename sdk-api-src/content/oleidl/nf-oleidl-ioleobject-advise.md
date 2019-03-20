@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleObject.Advise
-title: IOleObject::Advise
+title: IOleObject::Advise (oleidl.h)
 author: windows-sdk-content
 description: Establishes an advisory connection between a compound document object and the calling object's advise sink, through which the calling object receives notification when the compound document object is renamed, saved, or closed.
 old-location: com\ioleobject_advise.htm

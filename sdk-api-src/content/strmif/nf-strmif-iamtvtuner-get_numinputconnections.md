@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTVTuner.get_NumInputConnections
-title: IAMTVTuner::get_NumInputConnections
+title: IAMTVTuner::get_NumInputConnections (strmif.h)
 author: windows-sdk-content
 description: The get_NumInputConnections method retrieves the number of TV sources plugged into the tuner filter.
 old-location: dshow\iamtvtuner_get_numinputconnections.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:olectl.OleCreatePropertyFrame
-title: OleCreatePropertyFrame function
+title: OleCreatePropertyFrame function (olectl.h)
 author: windows-sdk-content
 description: Invokes a new property frame, that is, a property sheet dialog box, whose parent is hwndOwner, where the dialog is positioned at the point (x,y) in the parent window and has the caption lpszCaption.
 old-location: com\olecreatepropertyframe.htm

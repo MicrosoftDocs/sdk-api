@@ -1,6 +1,6 @@
 ---
 UID: NS:mapi.__unnamed_struct_4
-title: MapiRecipDescW
+title: MapiRecipDescW (mapi.h)
 author: windows-sdk-content
 description: A MapiRecipDescW structure contains information about a message sender or recipient.
 old-location: mapi\mapirecipdescw.htm

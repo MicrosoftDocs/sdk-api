@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITTTSTerminalEvent.get_Error
-title: ITTTSTerminalEvent::get_Error
+title: ITTTSTerminalEvent::get_Error (tapi3if.h)
 author: windows-sdk-content
 description: The get_Error method gets an HRESULT cast of the error code involved in the terminal event.
 old-location: tapi3\itttsterminalevent_get_error.htm

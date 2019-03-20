@@ -1,6 +1,6 @@
 ---
 UID: NN:photoacquire.IPhotoProgressDialog
-title: IPhotoProgressDialog
+title: IPhotoProgressDialog (photoacquire.h)
 author: windows-sdk-content
 description: Provides the progress dialog box that may be displayed when enumerating or importing images. The dialog box is modal and runs in its own thread.
 old-location: picacq\iphotoprogressdialog.htm

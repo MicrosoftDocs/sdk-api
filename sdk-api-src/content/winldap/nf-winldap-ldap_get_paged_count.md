@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_get_paged_count
-title: ldap_get_paged_count function
+title: ldap_get_paged_count function (winldap.h)
 author: windows-sdk-content
 description: Records the number of paged results that the server has returned for a search.
 old-location: ldap\ldap_get_paged_count.htm

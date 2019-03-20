@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2spi._WSPUPCALLTABLE
-title: WSPUPCALLTABLE
+title: WSPUPCALLTABLE (ws2spi.h)
 author: windows-sdk-content
 description: Contains a table of pointers to service provider upcall functions.
 old-location: winsock\wspupcalltable.htm

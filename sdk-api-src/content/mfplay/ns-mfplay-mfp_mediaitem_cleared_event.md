@@ -1,6 +1,6 @@
 ---
 UID: NS:mfplay.MFP_MEDIAITEM_CLEARED_EVENT
-title: MFP_MEDIAITEM_CLEARED_EVENT
+title: MFP_MEDIAITEM_CLEARED_EVENT (mfplay.h)
 author: windows-sdk-content
 description: Event structure for the MFP_EVENT_TYPE_MEDIAITEM_CLEARED event.
 old-location: mf\mfp_mediaitem_cleared_event.htm

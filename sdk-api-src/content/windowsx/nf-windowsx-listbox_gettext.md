@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ListBox_GetText
-title: ListBox_GetText macro
+title: ListBox_GetText macro (windowsx.h)
 author: windows-sdk-content
 description: Gets a string from a list box. You can use this macro or send the LB_GETTEXT message explicitly.
 old-location: controls\ListBox_GetText.htm

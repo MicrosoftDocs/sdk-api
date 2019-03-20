@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.GetNtmsUIOptionsA
-title: GetNtmsUIOptionsA function
+title: GetNtmsUIOptionsA function (ntmsapi.h)
 author: windows-sdk-content
 description: The GetNtmsUIOptions function obtains the list of computer names to which the specified type of user interface is being directed for the given object.
 old-location: fs\getntmsuioptions.htm

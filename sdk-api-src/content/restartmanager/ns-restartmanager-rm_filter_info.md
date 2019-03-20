@@ -1,6 +1,6 @@
 ---
 UID: NS:restartmanager._RM_FILTER_INFO
-title: RM_FILTER_INFO
+title: RM_FILTER_INFO (restartmanager.h)
 author: windows-sdk-content
 description: Contains information about modifications to restart or shutdown actions.
 old-location: rstmgr\rm_filter_info.htm

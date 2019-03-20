@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRenderer.MeasureStroke
-title: IInkRenderer::MeasureStroke
+title: IInkRenderer::MeasureStroke (msinkaut.h)
 author: windows-sdk-content
 description: Calculates the rectangle on the device context that would contain a stroke if it were drawn with the InkRenderer object using the DrawStroke method.
 old-location: tablet\inkrenderer_measurestroke.htm

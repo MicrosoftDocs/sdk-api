@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionArithmeticCompositeEffect.SetCoefficient1(float)
-title: IDCompositionArithmeticCompositeEffect::SetCoefficient1(float)
+title: IDCompositionArithmeticCompositeEffect::SetCoefficient1(float) (dcomp.h)
 author: windows-sdk-content
 description: Sets the first coefficient for the equation used to composite the two input images.
 old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient1.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcsx.ID3DX11FFT.GetForwardScale
-title: ID3DX11FFT::GetForwardScale
+title: ID3DX11FFT::GetForwardScale (d3dcsx.h)
 author: windows-sdk-content
 description: Gets the scale for forward transforms.
 old-location: direct3d11\id3dx11fft_getforwardscale.htm

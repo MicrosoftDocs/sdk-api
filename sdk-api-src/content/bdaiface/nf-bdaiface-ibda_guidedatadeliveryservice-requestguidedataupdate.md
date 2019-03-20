@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_GuideDataDeliveryService.RequestGuideDataUpdate
-title: IBDA_GuideDataDeliveryService::RequestGuideDataUpdate
+title: IBDA_GuideDataDeliveryService::RequestGuideDataUpdate (bdaiface.h)
 author: windows-sdk-content
 description: Requests updated guide data from the media transform device (MTD).
 old-location: mstv\ibda_guidedatadeliveryservice_requestguidedataupdate.htm

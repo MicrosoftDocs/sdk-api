@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ILocator.put_OuterFECRate
-title: ILocator::put_OuterFECRate
+title: ILocator::put_OuterFECRate (tuner.h)
 author: windows-sdk-content
 description: The put_OuterFECRate method sets the outer FEC rate.
 old-location: mstv\ilocator_put_outerfecrate.htm

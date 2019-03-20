@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextChildPattern.get_TextContainer
-title: IUIAutomationTextChildPattern::get_TextContainer
+title: IUIAutomationTextChildPattern::get_TextContainer (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves this element's nearest ancestor element that supports the Text control pattern.
 old-location: winauto\uiauto_IUIAutomationTextChildPattern_TextContainer.htm

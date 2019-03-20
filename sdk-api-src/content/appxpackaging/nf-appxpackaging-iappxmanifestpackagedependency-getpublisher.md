@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageDependency.GetPublisher
-title: IAppxManifestPackageDependency::GetPublisher
+title: IAppxManifestPackageDependency::GetPublisher (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the name of the publisher that produced the package on which the current package depends.
 old-location: appxpkg\iappxmanifestpackagedependency_getpublisher.htm

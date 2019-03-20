@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12PipelineLibrary.LoadComputePipeline
-title: ID3D12PipelineLibrary::LoadComputePipeline
+title: ID3D12PipelineLibrary::LoadComputePipeline (d3d12.h)
 author: windows-sdk-content
 description: Retrieves the requested PSO from the library. The input desc is matched against the data in the current library database, and remembered in order to prevent duplication of PSO contents.
 old-location: direct3d12\id3d12pipelinelibrary_loadcomputepipeline.htm

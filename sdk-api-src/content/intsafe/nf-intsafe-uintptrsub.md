@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.UIntPtrSub
-title: UIntPtrSub function
+title: UIntPtrSub function (intsafe.h)
 author: windows-sdk-content
 description: Subtracts one value of type UINT_PTR from another.
 old-location: shell\UIntPtrSub.htm

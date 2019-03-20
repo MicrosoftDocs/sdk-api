@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings2.SetNativeDisplayOrientation
-title: IApplicationDesignModeSettings2::SetNativeDisplayOrientation
+title: IApplicationDesignModeSettings2::SetNativeDisplayOrientation (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the orientation of the emulated display for the design mode window.
 old-location: shell\IApplicationDesignModeSettings2_SetNativeDisplayOrientation.htm

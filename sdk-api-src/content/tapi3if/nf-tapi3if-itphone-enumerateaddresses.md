@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.EnumerateAddresses
-title: ITPhone::EnumerateAddresses
+title: ITPhone::EnumerateAddresses (tapi3if.h)
 author: windows-sdk-content
 description: The EnumerateAddresses method enumerates the addresses that the phone can be used on. The application does not have to call ITPhone::Open before executing this method.
 old-location: tapi3\itphone_enumerateaddresses.htm

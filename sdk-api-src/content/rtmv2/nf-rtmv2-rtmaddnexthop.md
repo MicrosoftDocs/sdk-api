@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmAddNextHop
-title: RtmAddNextHop function
+title: RtmAddNextHop function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmAddNextHop function adds a new next-hop entry or updates an existing next-hop entry to a client's next-hop list.
 old-location: rras\rtmaddnexthop.htm

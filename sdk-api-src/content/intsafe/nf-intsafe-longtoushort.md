@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.LongToUShort
-title: LongToUShort function
+title: LongToUShort function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type LONG to a value of type USHORT.
 old-location: shell\LongToUShort.htm

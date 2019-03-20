@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPLibrarySharingServices.isLibraryShared
-title: IWMPLibrarySharingServices::isLibraryShared
+title: IWMPLibrarySharingServices::isLibraryShared (wmp.h)
 author: windows-sdk-content
 description: The isLibraryShared method retrieves a value indicating whether the user's library is shared.
 old-location: wmp\iwmplibrarysharingservices_islibraryshared.htm

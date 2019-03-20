@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IInstallationAgent
-title: IInstallationAgent
+title: IInstallationAgent (wuapi.h)
 author: windows-sdk-content
 description: Records the result for an update.
 old-location: wua\iinstallationagent.htm

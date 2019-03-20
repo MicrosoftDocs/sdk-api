@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectPass.GetVertexShaderDesc
-title: ID3D10EffectPass::GetVertexShaderDesc
+title: ID3D10EffectPass::GetVertexShaderDesc (d3d10effect.h)
 author: windows-sdk-content
 description: Get a vertex-shader description.
 old-location: direct3d10\id3d10effectpass_getvertexshaderdesc.htm

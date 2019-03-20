@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.CloseCommandSession
-title: IMbnDeviceService::CloseCommandSession
+title: IMbnDeviceService::CloseCommandSession (mbnapi.h)
 author: windows-sdk-content
 description: Closes a command session to a device service on a Mobile Broadband device.
 old-location: mbn\imbndeviceservice_closecommandsession.htm

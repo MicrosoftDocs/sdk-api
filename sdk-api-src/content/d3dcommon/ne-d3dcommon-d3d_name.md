@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dcommon.D3D_NAME
-title: D3D_NAME
+title: D3D_NAME (d3dcommon.h)
 author: windows-sdk-content
 description: Values that identify shader parameters that use system-value semantics.
 old-location: direct3d11\d3d_name.htm

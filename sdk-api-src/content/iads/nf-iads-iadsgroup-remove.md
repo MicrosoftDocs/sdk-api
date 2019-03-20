@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsGroup.Remove
-title: IADsGroup::Remove
+title: IADsGroup::Remove (iads.h)
 author: windows-sdk-content
 description: The IADsGroup::Remove method removes the specified user object from this group. The operation does not remove the group object itself even when there is no member remaining in the group.
 old-location: adsi\iadsgroup_remove.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmGetChangeStatus
-title: RtmGetChangeStatus function
+title: RtmGetChangeStatus function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmGetChangeStatus function checks whether there are pending changes that have not been retrieved with RtmGetChangedDests.
 old-location: rras\rtmgetchangestatus.htm

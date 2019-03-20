@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_HASH_MESSAGE_PARA
-title: CRYPT_HASH_MESSAGE_PARA
+title: CRYPT_HASH_MESSAGE_PARA (wincrypt.h)
 author: windows-sdk-content
 description: Contains data for hashing messages.
 old-location: security\crypt_hash_message_para.htm

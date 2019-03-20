@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntime.IWorkspace3.SetClaimsToken
-title: IWorkspace3::SetClaimsToken
+title: IWorkspace3::SetClaimsToken (workspaceruntime.h)
 author: windows-sdk-content
 description: Sets the claims token.
 old-location: termserv\iworkspace3_setclaimstoken.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_CLOSE_DATABASE_FN
-title: PIBIO_STORAGE_CLOSE_DATABASE_FN
+title: PIBIO_STORAGE_CLOSE_DATABASE_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Closes the database associated with the pipeline and frees all related resources.
 old-location: secbiomet\storageadapterclosedatabase.htm

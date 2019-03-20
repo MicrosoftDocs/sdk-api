@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1BlendTransform
-title: ID2D1BlendTransform
+title: ID2D1BlendTransform (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Provides methods to allow a blend operation to be inserted into a transform graph.
 old-location: direct2d\id2d1blendtransform.htm

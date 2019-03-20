@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinitionValue.get_UniqueID
-title: IFsrmPropertyDefinitionValue::get_UniqueID
+title: IFsrmPropertyDefinitionValue::get_UniqueID (fsrmpipeline.h)
 author: windows-sdk-content
 description: Unique ID of the classification property definition value.
 old-location: fsrm\ifsrmpropertydefinitionvalue_uniqueid.htm

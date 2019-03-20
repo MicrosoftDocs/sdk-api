@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.BackgroundRecognizeWithAlternates
-title: IInkRecognizerContext::BackgroundRecognizeWithAlternates
+title: IInkRecognizerContext::BackgroundRecognizeWithAlternates (msinkaut.h)
 author: windows-sdk-content
 description: Causes the IInkRecognizer object to recognize the associated strokes collection and fire a RecognitionWithAlternates event when recognition is complete.
 old-location: tablet\inkrecognizercontext_backgroundrecognizewithalternates.htm

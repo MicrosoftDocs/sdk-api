@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFilterChain.StartChain
-title: IFilterChain::StartChain
+title: IFilterChain::StartChain (strmif.h)
 author: windows-sdk-content
 description: The StartChain method switches all the filters in a filter chain into a running state.
 old-location: dshow\ifilterchain_startchain.htm

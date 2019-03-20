@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_18
-title: WS_CHANNEL_BINDING
+title: WS_CHANNEL_BINDING (webservices.h)
 author: windows-sdk-content
 description: Indicates the protocol stack to use for the channel.
 old-location: wsw\ws_channel_binding.htm

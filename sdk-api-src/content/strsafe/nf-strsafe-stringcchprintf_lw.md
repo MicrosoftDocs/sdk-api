@@ -1,6 +1,6 @@
 ---
 UID: NF:strsafe.StringCchPrintf_lW
-title: StringCchPrintf_lW function
+title: StringCchPrintf_lW function (strsafe.h)
 author: windows-sdk-content
 description: Writes formatted data to the specified string. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 old-location: menurc\stringcchprintf_l.htm

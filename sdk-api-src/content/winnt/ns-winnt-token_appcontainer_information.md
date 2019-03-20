@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._TOKEN_APPCONTAINER_INFORMATION
-title: TOKEN_APPCONTAINER_INFORMATION
+title: TOKEN_APPCONTAINER_INFORMATION (winnt.h)
 author: windows-sdk-content
 description: Specifies all the information in a token that is necessary for an app container.
 old-location: security\token_appcontainer_information.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Translate
-title: Matrix::Translate
+title: Matrix::Translate (gdiplusmatrix.h)
 author: windows-sdk-content
 description: The Matrix::Translate method updates this matrix with the product of itself and a translation matrix.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Translate_offsetX_offsetY_order_.htm

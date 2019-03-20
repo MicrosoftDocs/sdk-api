@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoProcessorOutputView.GetDesc
-title: ID3D11VideoProcessorOutputView::GetDesc
+title: ID3D11VideoProcessorOutputView::GetDesc (d3d11.h)
 author: windows-sdk-content
 description: Gets the properties of the video processor output view.
 old-location: mf\id3d11videoprocessoroutputview_getdesc.htm

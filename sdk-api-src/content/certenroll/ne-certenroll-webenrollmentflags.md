@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.WebEnrollmentFlags
-title: WebEnrollmentFlags
+title: WebEnrollmentFlags (certenroll.h)
 author: windows-sdk-content
 description: Specifies web enrollment behavior.
 old-location: security\webenrollmentflags.htm

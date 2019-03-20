@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.IsProcessCritical
-title: IsProcessCritical function
+title: IsProcessCritical function (processthreadsapi.h)
 author: windows-sdk-content
 description: Determines whether the specified process is considered critical.
 old-location: base\isprocesscritical.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IConstructReplicaKeyMap.FindOrAddReplica
-title: IConstructReplicaKeyMap::FindOrAddReplica
+title: IConstructReplicaKeyMap::FindOrAddReplica (winsync.h)
 author: windows-sdk-content
 description: Adds entries to or finds entries in an IReplicaKeyMap object.
 old-location: winsync\iconstructreplicakeymap_findoraddreplica.htm

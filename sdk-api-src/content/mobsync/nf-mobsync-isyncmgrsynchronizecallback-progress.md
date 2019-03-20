@@ -1,6 +1,6 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeCallback.Progress
-title: ISyncMgrSynchronizeCallback::Progress
+title: ISyncMgrSynchronizeCallback::Progress (mobsync.h)
 author: windows-sdk-content
 description: Called by a registered application to update the progress information and determine whether an operation should continue.
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_progress.htm

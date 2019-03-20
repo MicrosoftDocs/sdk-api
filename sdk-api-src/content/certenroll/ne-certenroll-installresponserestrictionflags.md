@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.InstallResponseRestrictionFlags
-title: InstallResponseRestrictionFlags
+title: InstallResponseRestrictionFlags (certenroll.h)
 author: windows-sdk-content
 description: Contains flags that identify the restrictions placed on the local installation of a certificate chain.
 old-location: security\installresponserestrictionflags_enum.htm

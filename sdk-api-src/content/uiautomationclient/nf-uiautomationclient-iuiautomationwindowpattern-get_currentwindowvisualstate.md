@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CurrentWindowVisualState
-title: IUIAutomationWindowPattern::get_CurrentWindowVisualState
+title: IUIAutomationWindowPattern::get_CurrentWindowVisualState (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the visual state of the window; that is, whether it is in the normal, maximized, or minimized state.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CurrentWindowVisualState.htm

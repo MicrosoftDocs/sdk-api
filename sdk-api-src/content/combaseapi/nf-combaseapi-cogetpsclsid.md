@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoGetPSClsid
-title: CoGetPSClsid function
+title: CoGetPSClsid function (combaseapi.h)
 author: windows-sdk-content
 description: Returns the CLSID of the DLL that implements the proxy and stub for the specified interface.
 old-location: com\cogetpsclsid.htm

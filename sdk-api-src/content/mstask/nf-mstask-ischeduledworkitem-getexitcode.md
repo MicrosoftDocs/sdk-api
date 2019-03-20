@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetExitCode
-title: IScheduledWorkItem::GetExitCode
+title: IScheduledWorkItem::GetExitCode (mstask.h)
 author: windows-sdk-content
 description: Retrieves the last exit code returned by the executable associated with the work item on its last run. The method also returns the exit code returned to Task Scheduler when it last attempted to run the work item.
 old-location: taskschd\ischeduledworkitem_getexitcode.htm

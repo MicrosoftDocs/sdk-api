@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsdefs._WTS_PROTOCOL_COUNTERS
-title: WTS_PROTOCOL_COUNTERS
+title: WTS_PROTOCOL_COUNTERS (wtsdefs.h)
 author: windows-sdk-content
 description: Contains protocol performance counters.
 old-location: termserv\wts_protocol_counters.htm

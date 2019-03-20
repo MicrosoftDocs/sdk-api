@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.DrawDibTime
-title: DrawDibTime function
+title: DrawDibTime function (vfw.h)
 author: windows-sdk-content
 description: The DrawDibTime function retrieves timing information about the drawing operation and is used during debug operations.
 old-location: multimedia\drawdibtime.htm

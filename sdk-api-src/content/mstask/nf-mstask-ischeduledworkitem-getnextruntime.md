@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetNextRunTime
-title: IScheduledWorkItem::GetNextRunTime
+title: IScheduledWorkItem::GetNextRunTime (mstask.h)
 author: windows-sdk-content
 description: Retrieves the next time the work item will run.
 old-location: taskschd\ischeduledworkitem_getnextruntime.htm

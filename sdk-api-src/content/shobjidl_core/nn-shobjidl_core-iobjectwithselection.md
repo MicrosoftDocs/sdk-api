@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IObjectWithSelection
-title: IObjectWithSelection
+title: IObjectWithSelection (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that get or set selected items represented by a Shell item array.
 old-location: shell\IObjectWithSelection.htm

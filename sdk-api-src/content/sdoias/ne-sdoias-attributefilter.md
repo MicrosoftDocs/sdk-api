@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._ATTRIBUTEFILTER
-title: ATTRIBUTEFILTER
+title: ATTRIBUTEFILTER (sdoias.h)
 author: windows-sdk-content
 description: The usage cases for the NPS dictionary attributes.
 old-location: nps\SDO_attributefilter.htm

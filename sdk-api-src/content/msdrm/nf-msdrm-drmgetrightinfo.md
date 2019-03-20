@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMGetRightInfo
-title: DRMGetRightInfo function
+title: DRMGetRightInfo function (msdrm.h)
 author: windows-sdk-content
 description: Obtains information about a previously created right.
 old-location: rm\drmgetrightinfo.htm

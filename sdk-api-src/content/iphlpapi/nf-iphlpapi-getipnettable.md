@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.GetIpNetTable
-title: GetIpNetTable function
+title: GetIpNetTable function (iphlpapi.h)
 author: windows-sdk-content
 description: The GetIpNetTable function retrieves the IPv4 to physical address mapping table.
 old-location: iphlp\getipnettable.htm

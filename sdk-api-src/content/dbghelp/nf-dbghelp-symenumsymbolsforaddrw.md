@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymEnumSymbolsForAddrW
-title: SymEnumSymbolsForAddrW function
+title: SymEnumSymbolsForAddrW function (dbghelp.h)
 author: windows-sdk-content
 description: Enumerates the symbols for the specified address.
 old-location: base\symenumsymbolsforaddr.htm

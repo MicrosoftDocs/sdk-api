@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdState.GetDiscID
-title: IDvdState::GetDiscID
+title: IDvdState::GetDiscID (strmif.h)
 author: windows-sdk-content
 description: The GetDiscID method retrieves the unique ID of the disc from which the bookmark was made.
 old-location: dshow\idvdstate_getdiscid.htm

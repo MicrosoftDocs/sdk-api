@@ -1,6 +1,6 @@
 ---
 UID: NF:traceloggingprovider.TRACELOGGING_DEFINE_PROVIDER
-title: TRACELOGGING_DEFINE_PROVIDER macro
+title: TRACELOGGING_DEFINE_PROVIDER macro (traceloggingprovider.h)
 author: windows-sdk-content
 description: Allocates storage for a TraceLogging provider and creates a handle to the provider.
 old-location: tracelogging\TRACELOGGING_DEFINE_PROVIDER.htm

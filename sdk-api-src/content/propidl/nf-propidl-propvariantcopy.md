@@ -1,6 +1,6 @@
 ---
 UID: NF:propidl.PropVariantCopy
-title: PropVariantCopy function
+title: PropVariantCopy function (propidl.h)
 author: windows-sdk-content
 description: Creates a copy of a PROPVARIANT structure.
 old-location: properties\PropVariantCopy.htm

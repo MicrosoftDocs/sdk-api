@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertSrvSetup.GetProviderNameList
-title: ICertSrvSetup::GetProviderNameList
+title: ICertSrvSetup::GetProviderNameList (casetup.h)
 author: windows-sdk-content
 description: Gets the list of cryptographic service providers (CSPs) that provide asymmetric key signature algorithms on the computer.
 old-location: security\icertsrvsetup_getprovidernamelist.htm

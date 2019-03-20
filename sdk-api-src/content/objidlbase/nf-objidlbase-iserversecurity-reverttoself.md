@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IServerSecurity.RevertToSelf
-title: IServerSecurity::RevertToSelf
+title: IServerSecurity::RevertToSelf (objidlbase.h)
 author: windows-sdk-content
 description: Restores the authentication information of a thread to what it was before impersonation began.
 old-location: com\iserversecurity_reverttoself.htm

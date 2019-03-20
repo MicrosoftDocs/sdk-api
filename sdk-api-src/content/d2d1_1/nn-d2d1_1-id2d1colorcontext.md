@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_1.ID2D1ColorContext
-title: ID2D1ColorContext
+title: ID2D1ColorContext (d2d1_1.h)
 author: windows-sdk-content
 description: Represents a color context that can be used with an ID2D1Bitmap1 object.
 old-location: direct2d\id2d1colorcontext.htm

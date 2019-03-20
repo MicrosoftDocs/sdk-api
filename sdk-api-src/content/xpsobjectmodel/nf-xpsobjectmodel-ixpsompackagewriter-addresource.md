@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackageWriter.AddResource
-title: IXpsOMPackageWriter::AddResource
+title: IXpsOMPackageWriter::AddResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Creates a new part resource in the package.
 old-location: xps\ixpsompackagewriter_addresource.htm

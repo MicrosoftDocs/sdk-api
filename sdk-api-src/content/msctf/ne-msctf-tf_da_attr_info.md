@@ -1,6 +1,6 @@
 ---
 UID: NE:msctf.__MIDL___MIDL_itf_msctf_0000_0070_0004
-title: TF_DA_ATTR_INFO
+title: TF_DA_ATTR_INFO (msctf.h)
 author: windows-sdk-content
 description: Elements of the TF_DA_ATTR_INFO enumeration are used to specify text conversion data in the TF_DISPLAYATTRIBUTE structure.
 old-location: tsf\tf_da_attr_info.htm

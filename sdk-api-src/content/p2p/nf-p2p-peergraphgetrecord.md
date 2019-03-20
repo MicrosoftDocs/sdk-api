@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGraphGetRecord
-title: PeerGraphGetRecord function
+title: PeerGraphGetRecord function (p2p.h)
 author: windows-sdk-content
 description: The PeerGraphGetRecord function retrieves a specific record based on the specified record ID. The returned record should be freed by calling PeerGraphFreeData.
 old-location: p2p\peergraphgetrecord.htm

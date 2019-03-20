@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MFNETSOURCE_STATISTICS_IDS
-title: MFNETSOURCE_STATISTICS_IDS
+title: MFNETSOURCE_STATISTICS_IDS (mfidl.h)
 author: windows-sdk-content
 description: Defines statistics collected by the network source.
 old-location: mf\mfnetsource_statistics_ids.htm

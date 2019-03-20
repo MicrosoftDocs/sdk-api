@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_CREATE_DEVICE_FLAG
-title: D3D11_CREATE_DEVICE_FLAG
+title: D3D11_CREATE_DEVICE_FLAG (d3d11.h)
 author: windows-sdk-content
 description: Describes parameters that are used to create a device.
 old-location: direct3d11\d3d11_create_device_flag.htm

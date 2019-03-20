@@ -1,6 +1,6 @@
 ---
 UID: NE:ipsectypes.IPSEC_SA_CONTEXT_EVENT_TYPE0_
-title: IPSEC_SA_CONTEXT_EVENT_TYPE0
+title: IPSEC_SA_CONTEXT_EVENT_TYPE0 (ipsectypes.h)
 author: windows-sdk-content
 description: Specifies the type of IPsec security association (SA) context change event.
 old-location: fwp\ipsec_sa_context_event_type0.htm

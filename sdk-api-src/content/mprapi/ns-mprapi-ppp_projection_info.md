@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._PPP_PROJECTION_INFO
-title: PPP_PROJECTION_INFO
+title: PPP_PROJECTION_INFO (mprapi.h)
 author: windows-sdk-content
 description: Contains information obtained during Point-to-Point (PPP) negotiation for Secure Socket Tunneling Protocol (SSTP), Point-to-Point Tunneling Protocol (PPTP), and Layer 2 Tunneling Protocol (L2TP).
 old-location: rras\ppp_projection_info.htm

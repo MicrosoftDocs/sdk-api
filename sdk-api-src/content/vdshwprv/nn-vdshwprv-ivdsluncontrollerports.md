@@ -1,6 +1,6 @@
 ---
 UID: NN:vdshwprv.IVdsLunControllerPorts
-title: IVdsLunControllerPorts
+title: IVdsLunControllerPorts (vdshwprv.h)
 author: windows-sdk-content
 description: Provides methods for performing controller port configuration operations on a LUN.
 old-location: base\ivdsluncontrollerports.htm

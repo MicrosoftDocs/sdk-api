@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineBlindTransfer
-title: lineBlindTransfer function
+title: lineBlindTransfer function (tapi.h)
 author: windows-sdk-content
 description: The lineBlindTransfer function performs a blind or single-step transfer of the specified call to the specified destination address.
 old-location: tapi2\lineblindtransfer.htm

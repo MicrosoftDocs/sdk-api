@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetComment
-title: IScheduledWorkItem::GetComment
+title: IScheduledWorkItem::GetComment (mstask.h)
 author: windows-sdk-content
 description: Retrieves the comment for the work item.
 old-location: taskschd\ischeduledworkitem_getcomment.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1_1.D2D1_BUFFER_PRECISION
-title: D2D1_BUFFER_PRECISION
+title: D2D1_BUFFER_PRECISION (d2d1_1.h)
 author: windows-sdk-content
 description: Represents the bit depth of the imaging pipeline in Direct2D.
 old-location: direct2d\__d2d1_buffer_precision.htm

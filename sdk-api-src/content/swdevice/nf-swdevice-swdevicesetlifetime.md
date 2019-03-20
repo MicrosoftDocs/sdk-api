@@ -1,6 +1,6 @@
 ---
 UID: NF:swdevice.SwDeviceSetLifetime
-title: SwDeviceSetLifetime function
+title: SwDeviceSetLifetime function (swdevice.h)
 author: windows-sdk-content
 description: Manages the lifetime of a software device.
 old-location: swdevice\swdevicesetlifetime.htm

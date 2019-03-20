@@ -1,6 +1,6 @@
 ---
 UID: NE:textstor.__MIDL_IAnchor_0001
-title: TsGravity
+title: TsGravity (textstor.h)
 author: windows-sdk-content
 description: Elements of the TsGravity enumeration specify the gravity type associated with an IAnchor object.
 old-location: tsf\tsgravity.htm

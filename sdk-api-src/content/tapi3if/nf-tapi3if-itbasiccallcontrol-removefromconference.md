@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.RemoveFromConference
-title: ITBasicCallControl::RemoveFromConference
+title: ITBasicCallControl::RemoveFromConference (tapi3if.h)
 author: windows-sdk-content
 description: The RemoveFromConference method removes the call from a conference if it is involved in one.
 old-location: tapi3\itbasiccallcontrol_removefromconference.htm

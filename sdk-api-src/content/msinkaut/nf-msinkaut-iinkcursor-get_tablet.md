@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCursor.get_Tablet
-title: IInkCursor::get_Tablet
+title: IInkCursor::get_Tablet (msinkaut.h)
 author: windows-sdk-content
 description: Gets either the IInkTablet object to which a cursor belongs or the IInkTablet object that an object or control is currently using to collect input.
 old-location: tablet\inkcursor_tablet.htm

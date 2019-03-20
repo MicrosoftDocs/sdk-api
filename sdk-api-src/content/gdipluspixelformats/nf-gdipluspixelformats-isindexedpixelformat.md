@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspixelformats.IsIndexedPixelFormat
-title: IsIndexedPixelFormat function
+title: IsIndexedPixelFormat function (gdipluspixelformats.h)
 author: windows-sdk-content
 description: The IsIndexedPixelFormat method determines whether a specified pixel format is an indexed format.
 old-location: gdiplus\_gdiplus_FUNC_IsIndexedPixelFormat_.htm

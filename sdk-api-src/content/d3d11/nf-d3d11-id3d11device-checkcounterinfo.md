@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11Device.CheckCounterInfo
-title: ID3D11Device::CheckCounterInfo
+title: ID3D11Device::CheckCounterInfo (d3d11.h)
 author: windows-sdk-content
 description: Get a counter's information.
 old-location: direct3d11\id3d11device_checkcounterinfo.htm

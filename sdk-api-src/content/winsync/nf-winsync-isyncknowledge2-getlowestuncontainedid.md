@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.GetLowestUncontainedId
-title: ISyncKnowledge2::GetLowestUncontainedId
+title: ISyncKnowledge2::GetLowestUncontainedId (winsync.h)
 author: windows-sdk-content
 description: Returns the lowest item ID that is not contained in this knowledge and that is contained in the specified knowledge.
 old-location: winsync\isyncknowledge2_getlowestuncontainedid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddress.Forward
-title: ITAddress::Forward
+title: ITAddress::Forward (tapi3if.h)
 author: windows-sdk-content
 description: The Forward method forwards calls destined for the address according to the forwarding instructions contained in ITForwardInformation. If pForwardInfo is set to NULL, forwarding is canceled.
 old-location: tapi3\itaddress_forward.htm

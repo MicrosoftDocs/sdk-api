@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IPart.EnumPartsOutgoing
-title: IPart::EnumPartsOutgoing
+title: IPart::EnumPartsOutgoing (devicetopology.h)
 author: windows-sdk-content
 description: The EnumPartsOutgoing method retrieves a list of all the outgoing parts&#8212;that is, the parts that reside on data paths that are downstream from this part.
 old-location: coreaudio\ipart_enumpartsoutgoing.htm

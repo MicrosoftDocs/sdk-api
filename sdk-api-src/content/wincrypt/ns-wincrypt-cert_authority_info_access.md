@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_AUTHORITY_INFO_ACCESS
-title: CERT_AUTHORITY_INFO_ACCESS
+title: CERT_AUTHORITY_INFO_ACCESS (wincrypt.h)
 author: windows-sdk-content
 description: Represents authority information access and subject information access certificate extensions and specifies how to access additional information and services for the subject or the issuer of a certificate.
 old-location: security\cert_authority_info_access.htm

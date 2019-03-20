@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_STATE_OBJECT_TYPE
-title: D3D12_STATE_OBJECT_TYPE
+title: D3D12_STATE_OBJECT_TYPE (d3d12.h)
 author: windows-sdk-content
 description: Specifies the type of a state object. Use with D3D12_STATE_OBJECT_DESC.
 old-location: direct3d12\d3d12_state_object_type.htm

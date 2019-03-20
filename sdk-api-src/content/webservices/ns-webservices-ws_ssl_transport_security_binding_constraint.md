@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT
-title: WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT
+title: WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT (webservices.h)
 author: windows-sdk-content
 description: A security binding constraint that corresponds to the WS_SSL_TRANSPORT_SECURITY_BINDING.
 old-location: wsw\ws_ssl_transport_security_binding_constraint.htm

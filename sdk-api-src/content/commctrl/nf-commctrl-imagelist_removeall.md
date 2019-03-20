@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_RemoveAll
-title: ImageList_RemoveAll macro
+title: ImageList_RemoveAll macro (commctrl.h)
 author: windows-sdk-content
 description: Calls the ImageList_Remove function to remove all of the images from an image list.
 old-location: controls\ImageList_RemoveAll.htm

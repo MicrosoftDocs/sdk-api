@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.ResetTransform
-title: PathGradientBrush::ResetTransform
+title: PathGradientBrush::ResetTransform (gdipluspath.h)
 author: windows-sdk-content
 description: The PathGradientBrush::ResetTransform method resets the transformation matrix of this path gradient brush to the identity matrix. This means that no transformation will take place.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_ResetTransform_.htm

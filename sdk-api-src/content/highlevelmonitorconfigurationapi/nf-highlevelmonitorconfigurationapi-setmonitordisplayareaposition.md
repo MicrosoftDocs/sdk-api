@@ -1,6 +1,6 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.SetMonitorDisplayAreaPosition
-title: SetMonitorDisplayAreaPosition function
+title: SetMonitorDisplayAreaPosition function (highlevelmonitorconfigurationapi.h)
 author: windows-sdk-content
 description: Sets the horizontal or vertical position of a monitor's display area.
 old-location: monitor\setmonitordisplayareaposition.htm

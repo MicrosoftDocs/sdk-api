@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IReferenceClockTimerControl
-title: IReferenceClockTimerControl
+title: IReferenceClockTimerControl (strmif.h)
 author: windows-sdk-content
 description: The IReferenceClockTimerControl interface changes the timer period used by a reference clock. This interface is exposed by the DirectShow System Reference Clock.
 old-location: dshow\ireferenceclocktimercontrol.htm

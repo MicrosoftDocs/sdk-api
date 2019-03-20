@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CTL_CONTEXT
-title: CTL_CONTEXT
+title: CTL_CONTEXT (wincrypt.h)
 author: windows-sdk-content
 description: The CTL_CONTEXT structure contains both the encoded and decoded representations of a CTL.
 old-location: security\ctl_context.htm

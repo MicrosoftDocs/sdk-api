@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPAdmin.SetConfiguration
-title: IOCSPAdmin::SetConfiguration
+title: IOCSPAdmin::SetConfiguration (certadm.h)
 author: windows-sdk-content
 description: Updates a responder service with configuration changes.
 old-location: security\iocspadmin_setconfiguration_method.htm

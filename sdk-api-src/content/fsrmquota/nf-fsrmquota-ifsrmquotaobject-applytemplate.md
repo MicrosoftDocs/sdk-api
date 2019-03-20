@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaObject.ApplyTemplate
-title: IFsrmQuotaObject::ApplyTemplate
+title: IFsrmQuotaObject::ApplyTemplate (fsrmquota.h)
 author: windows-sdk-content
 description: Applies the property values of the specified quota template to this quota object.
 old-location: fsrm\ifsrmquotaobject_applytemplate.htm

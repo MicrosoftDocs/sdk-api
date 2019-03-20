@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.OpenWindowStationA
-title: OpenWindowStationA function
+title: OpenWindowStationA function (winuser.h)
 author: windows-sdk-content
 description: Opens the specified window station.
 old-location: winstation\openwindowstation.htm

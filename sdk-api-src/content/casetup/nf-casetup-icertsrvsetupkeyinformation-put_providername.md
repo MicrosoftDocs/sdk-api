@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformation.put_ProviderName
-title: ICertSrvSetupKeyInformation::put_ProviderName
+title: ICertSrvSetupKeyInformation::put_ProviderName (casetup.h)
 author: windows-sdk-content
 description: Gets or sets the name of the cryptographic service provider (CSP) or key storage provider (KSP) that is used to generate or store the private key.
 old-location: security\icertsrvsetupkeyinformation_providername.htm

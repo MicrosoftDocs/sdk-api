@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateColorMatrixEffect
-title: IDCompositionDevice3::CreateColorMatrixEffect
+title: IDCompositionDevice3::CreateColorMatrixEffect (dcomp.h)
 author: windows-sdk-content
 description: Creates an instance of IDCompositionColorMatrixEffect.
 old-location: directcomp\idcompositiondevice3_createcolormatrixeffect.htm

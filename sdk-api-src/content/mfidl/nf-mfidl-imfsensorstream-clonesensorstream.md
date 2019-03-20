@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorStream.CloneSensorStream
-title: IMFSensorStream::CloneSensorStream
+title: IMFSensorStream::CloneSensorStream (mfidl.h)
 author: windows-sdk-content
 description: Clones the IMFSensorStream.
 old-location: mf\imfsensorstream_clonesensorstream.htm

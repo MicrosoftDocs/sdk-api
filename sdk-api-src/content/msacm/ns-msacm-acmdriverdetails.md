@@ -1,6 +1,6 @@
 ---
 UID: NS:msacm.tACMDRIVERDETAILS
-title: ACMDRIVERDETAILS
+title: ACMDRIVERDETAILS (msacm.h)
 author: windows-sdk-content
 description: The ACMDRIVERDETAILS structure describes the features of an ACM driver.
 old-location: multimedia\acmdriverdetails_struct.htm

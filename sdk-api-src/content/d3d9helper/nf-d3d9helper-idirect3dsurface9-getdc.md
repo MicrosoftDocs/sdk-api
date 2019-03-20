@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DSurface9.GetDC
-title: IDirect3DSurface9::GetDC
+title: IDirect3DSurface9::GetDC (d3d9helper.h)
 author: windows-sdk-content
 description: Retrieves a device context.
 old-location: direct3d9\idirect3dsurface9__getdc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsCopyError
-title: WsCopyError function
+title: WsCopyError function (webservices.h)
 author: windows-sdk-content
 description: Copies an error object from a specified source to a specifed destination.
 old-location: wsw\wscopyerror.htm

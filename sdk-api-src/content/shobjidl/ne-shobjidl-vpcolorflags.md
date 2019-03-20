@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl.VPCOLORFLAGS
-title: VPCOLORFLAGS
+title: VPCOLORFLAGS (shobjidl.h)
 author: windows-sdk-content
 description: Specifies the use of a color. Used by IVisualProperties methods.
 old-location: shell\VPCOLORFLAGS.htm

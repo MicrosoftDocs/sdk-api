@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrackList.GetLength
-title: IMFTimedTextTrackList::GetLength
+title: IMFTimedTextTrackList::GetLength (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the length, in tracks, of the timed-text-track list.
 old-location: mf\imftimedtexttracklist_getlength.htm

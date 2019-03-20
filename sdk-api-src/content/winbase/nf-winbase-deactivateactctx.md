@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.DeactivateActCtx
-title: DeactivateActCtx function
+title: DeactivateActCtx function (winbase.h)
 author: windows-sdk-content
 description: The DeactivateActCtx function deactivates the activation context corresponding to the specified cookie.
 old-location: setup\deactivateactctx.htm

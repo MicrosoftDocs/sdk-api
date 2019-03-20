@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetNextDlgTabItem
-title: GetNextDlgTabItem function
+title: GetNextDlgTabItem function (winuser.h)
 author: windows-sdk-content
 description: Retrieves a handle to the first control that has the WS_TABSTOP style that precedes (or follows) the specified control.
 old-location: dlgbox\getnextdlgtabitem.htm

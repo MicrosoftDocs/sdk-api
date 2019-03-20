@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITTAPIObjectEvent.get_Event
-title: ITTAPIObjectEvent::get_Event
+title: ITTAPIObjectEvent::get_Event (tapi3if.h)
 author: windows-sdk-content
 description: The get_Event method gets information concerning an asynchronous event notification. The application uses TAPIOBJECT_EVENT to determine what type of event is being signaled.
 old-location: tapi3\ittapiobjectevent_get_event.htm

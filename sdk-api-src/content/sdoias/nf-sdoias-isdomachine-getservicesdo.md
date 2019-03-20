@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdoMachine.GetServiceSDO
-title: ISdoMachine::GetServiceSDO
+title: ISdoMachine::GetServiceSDO (sdoias.h)
 author: windows-sdk-content
 description: The GetServiceSDO method retrieves a Server Data Object (SDO) for the specified service.
 old-location: nps\SDO_isdomachine_getservicesdo.htm

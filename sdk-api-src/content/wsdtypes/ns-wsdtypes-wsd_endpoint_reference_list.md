@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_ENDPOINT_REFERENCE_LIST
-title: WSD_ENDPOINT_REFERENCE_LIST
+title: WSD_ENDPOINT_REFERENCE_LIST (wsdtypes.h)
 author: windows-sdk-content
 description: Represents a node in a single-linked list of WSD_ENDPOINT_REFERENCE structures.
 old-location: ncd\wsd_endpoint_reference_list.htm

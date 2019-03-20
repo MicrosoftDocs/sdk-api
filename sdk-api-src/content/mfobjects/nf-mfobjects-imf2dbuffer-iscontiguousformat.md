@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMF2DBuffer.IsContiguousFormat
-title: IMF2DBuffer::IsContiguousFormat
+title: IMF2DBuffer::IsContiguousFormat (mfobjects.h)
 author: windows-sdk-content
 description: Queries whether the buffer is contiguous in its native format.
 old-location: mf\imf2dbuffer_iscontiguousformat.htm

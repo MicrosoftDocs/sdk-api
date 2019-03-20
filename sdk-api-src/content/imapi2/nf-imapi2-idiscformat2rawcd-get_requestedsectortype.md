@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_RequestedSectorType
-title: IDiscFormat2RawCD::get_RequestedSectorType
+title: IDiscFormat2RawCD::get_RequestedSectorType (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the requested data sector to use during write of the stream.
 old-location: imapi\idiscformat2rawcd__get_requestedsectortype_.htm

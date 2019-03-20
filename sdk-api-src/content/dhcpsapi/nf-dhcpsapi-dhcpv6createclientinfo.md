@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpV6CreateClientInfo
-title: DhcpV6CreateClientInfo function
+title: DhcpV6CreateClientInfo function (dhcpsapi.h)
 author: windows-sdk-content
 description: Creates a DHCPv6 client lease record in the DHCP server database.
 old-location: dhcp\dhcpv6createclientinfo.htm

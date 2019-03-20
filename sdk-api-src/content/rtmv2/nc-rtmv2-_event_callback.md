@@ -1,6 +1,6 @@
 ---
 UID: NC:rtmv2._EVENT_CALLBACK
-title: "_EVENT_CALLBACK"
+title: "_EVENT_CALLBACK" (rtmv2.h)
 author: windows-sdk-content
 description: The RTM_EVENT_CALLBACK callback is used by the routing table manager to inform a client that the specified event occurred.
 old-location: rras\rtm_event_callback.htm

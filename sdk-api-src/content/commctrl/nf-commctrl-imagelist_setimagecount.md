@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_SetImageCount
-title: ImageList_SetImageCount function
+title: ImageList_SetImageCount function (commctrl.h)
 author: windows-sdk-content
 description: Resizes an existing image list.
 old-location: controls\ImageList_SetImageCount.htm

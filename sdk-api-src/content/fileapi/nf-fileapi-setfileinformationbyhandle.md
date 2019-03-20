@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.SetFileInformationByHandle
-title: SetFileInformationByHandle function
+title: SetFileInformationByHandle function (fileapi.h)
 author: windows-sdk-content
 description: Sets the file information for the specified file.
 old-location: fs\setfileinformationbyhandle.htm

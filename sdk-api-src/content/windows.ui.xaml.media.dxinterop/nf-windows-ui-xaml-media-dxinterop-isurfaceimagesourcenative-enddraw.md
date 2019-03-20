@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.ISurfaceImageSourceNative.EndDraw
-title: ISurfaceImageSourceNative::xaml
+title: ISurfaceImageSourceNative::xaml (windows.ui.xaml.media.dxinterop.h)
 author: windows-sdk-content
 description: Closes the surface draw operation.
 old-location: winrt\isurfaceimagesourcenative_enddraw.htm

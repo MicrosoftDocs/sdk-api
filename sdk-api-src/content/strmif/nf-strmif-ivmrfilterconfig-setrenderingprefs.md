@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRFilterConfig.SetRenderingPrefs
-title: IVMRFilterConfig::SetRenderingPrefs
+title: IVMRFilterConfig::SetRenderingPrefs (strmif.h)
 author: windows-sdk-content
 description: The SetRenderingPrefs method sets various application preferences related to video rendering.
 old-location: dshow\ivmrfilterconfig_setrenderingprefs.htm

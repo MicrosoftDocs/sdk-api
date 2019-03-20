@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl._TASKDIALOGCONFIG
-title: TASKDIALOGCONFIG
+title: TASKDIALOGCONFIG (commctrl.h)
 author: windows-sdk-content
 description: The TASKDIALOGCONFIG structure contains information used to display a task dialog. The TaskDialogIndirect function uses this structure.
 old-location: controls\TASKDIALOGCONFIG.htm

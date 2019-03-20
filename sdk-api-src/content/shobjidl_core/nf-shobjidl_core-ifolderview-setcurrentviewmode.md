@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView.SetCurrentViewMode
-title: IFolderView::SetCurrentViewMode
+title: IFolderView::SetCurrentViewMode (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the selected folder's view mode.
 old-location: shell\IFolderView_SetCurrentViewMode.htm

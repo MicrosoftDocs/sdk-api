@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.MoveClusterGroup
-title: MoveClusterGroup function
+title: MoveClusterGroup function (clusapi.h)
 author: windows-sdk-content
 description: Moves a group and all of its resources from one node to another.
 old-location: mscs\moveclustergroup.htm

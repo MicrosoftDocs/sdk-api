@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.VisualEffects
-title: VisualEffects
+title: VisualEffects (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains values for the VisualEffects attribute.
 old-location: winauto\uiauto_VisualEffectsEnum.htm

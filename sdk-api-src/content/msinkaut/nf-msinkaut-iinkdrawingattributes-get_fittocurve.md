@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDrawingAttributes.get_FitToCurve
-title: IInkDrawingAttributes::get_FitToCurve
+title: IInkDrawingAttributes::get_FitToCurve (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the value that specifies whether Bezier smoothing is used to render ink.
 old-location: tablet\inkdrawingattributes_fittocurve.htm

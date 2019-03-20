@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMREBARSPLITTER
-title: NMREBARSPLITTER
+title: NMREBARSPLITTER (commctrl.h)
 author: windows-sdk-content
 description: Contains information used to handle an RBN_SPLITTERDRAG notification code.
 old-location: controls\NMREBARSPLITTER.htm

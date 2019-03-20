@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ISequentialStream.Write
-title: ISequentialStream::Write
+title: ISequentialStream::Write (objidl.h)
 author: windows-sdk-content
 description: Writes a specified number of bytes into the stream object starting at the current seek pointer.
 old-location: stg\isequentialstream_write.htm

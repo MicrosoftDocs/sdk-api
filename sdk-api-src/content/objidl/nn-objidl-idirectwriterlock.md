@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IDirectWriterLock
-title: IDirectWriterLock
+title: IDirectWriterLock (objidl.h)
 author: windows-sdk-content
 description: The IDirectWriterLock interface enables a single writer to obtain exclusive write access to a root storage object opened in direct mode while allowing concurrent access by multiple readers.
 old-location: stg\idirectwriterlock.htm

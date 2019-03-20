@@ -1,6 +1,6 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetSignature
-title: IXblIdpAuthTokenResult::GetSignature
+title: IXblIdpAuthTokenResult::GetSignature (xblidpauthmanager.h)
 author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getsignature.htm

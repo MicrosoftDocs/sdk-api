@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.MoveWhile
-title: ITextRange::MoveWhile
+title: ITextRange::MoveWhile (tom.h)
 author: windows-sdk-content
 description: Starts at a specified end of a range and searches while the characters belong to the set specified by Cset and while the number of characters is less than or equal to Count.
 old-location: controls\ITextRange_MoveWhile.htm

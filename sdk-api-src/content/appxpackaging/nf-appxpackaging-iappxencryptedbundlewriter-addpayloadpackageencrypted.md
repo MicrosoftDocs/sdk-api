@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptedBundleWriter.AddPayloadPackageEncrypted
-title: IAppxEncryptedBundleWriter::AddPayloadPackageEncrypted
+title: IAppxEncryptedBundleWriter::AddPayloadPackageEncrypted (appxpackaging.h)
 author: windows-sdk-content
 description: Encrypts a new payload package to the bundle.
 old-location: appxpkg\iappxencryptedbundlewriter_addpayloadpackageencrypted.htm

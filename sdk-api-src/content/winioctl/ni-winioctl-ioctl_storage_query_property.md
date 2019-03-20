@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_QUERY_PROPERTY
-title: IOCTL_STORAGE_QUERY_PROPERTY
+title: IOCTL_STORAGE_QUERY_PROPERTY (winioctl.h)
 author: windows-sdk-content
 description: Windows applications can use this control code to return the properties of a storage device or adapter.
 old-location: fs\ioctl_storage_query_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:dsclient.IDsDisplaySpecifier
-title: IDsDisplaySpecifier
+title: IDsDisplaySpecifier (dsclient.h)
 author: windows-sdk-content
 description: Provides access to Active Directory Domain Service objects of the displaySpecifier class.
 old-location: ad\idsdisplayspecifier.htm

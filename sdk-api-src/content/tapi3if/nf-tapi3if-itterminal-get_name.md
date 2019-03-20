@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITTerminal.get_Name
-title: ITTerminal::get_Name
+title: ITTerminal::get_Name (tapi3if.h)
 author: windows-sdk-content
 description: The get_Name method gets a descriptive name of the terminal. The name must be usable to the user.
 old-location: tapi3\itterminal_get_name.htm

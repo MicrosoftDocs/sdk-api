@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_Root
-title: IFileSystemImage::get_Root
+title: IFileSystemImage::get_Root (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the root directory item.
 old-location: imapi\ifilesystemimage_get_root.htm

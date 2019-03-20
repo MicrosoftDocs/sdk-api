@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IResultData2.RenameResultItem
-title: IResultData2::RenameResultItem
+title: IResultData2::RenameResultItem (mmc.h)
 author: windows-sdk-content
 description: The RenameResultItem method programmatically places the specified result item into rename mode, after which, the user can manually enter the new name.
 old-location: mmc\iresultdata2_renameresultitem.htm

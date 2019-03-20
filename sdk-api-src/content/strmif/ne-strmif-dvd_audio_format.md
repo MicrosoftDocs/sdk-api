@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagDVD_AUDIO_FORMAT
-title: DVD_AUDIO_FORMAT
+title: DVD_AUDIO_FORMAT (strmif.h)
 author: windows-sdk-content
 description: Indicates the audio format of a DVD.
 old-location: dshow\dvd_audio_format.htm

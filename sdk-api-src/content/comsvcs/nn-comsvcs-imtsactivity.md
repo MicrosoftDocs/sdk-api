@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IMTSActivity
-title: IMTSActivity
+title: IMTSActivity (comsvcs.h)
 author: windows-sdk-content
 description: Submits batch work through the activity created by the MTSCreateActivity function.
 old-location: cos\imtsactivity.htm

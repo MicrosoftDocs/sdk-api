@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.put_ColorKey
-title: IMSVidCtl::put_ColorKey
+title: IMSVidCtl::put_ColorKey (msvidctl.h)
 author: windows-sdk-content
 description: The put_ColorKey method specifies the color key.
 old-location: mstv\imsvidctl_put_colorkey.htm

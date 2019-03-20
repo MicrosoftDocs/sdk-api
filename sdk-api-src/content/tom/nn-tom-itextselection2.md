@@ -1,6 +1,6 @@
 ---
 UID: NN:tom.ITextSelection2
-title: ITextSelection2
+title: ITextSelection2 (tom.h)
 author: windows-sdk-content
 description: Currently, this interface contains no methods other than those inherited from ITextRange2.
 old-location: controls\itextselection2.htm

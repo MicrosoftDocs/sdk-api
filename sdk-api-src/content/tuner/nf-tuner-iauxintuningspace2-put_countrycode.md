@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IAuxInTuningSpace2.put_CountryCode
-title: IAuxInTuningSpace2::put_CountryCode
+title: IAuxInTuningSpace2::put_CountryCode (tuner.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP Media Center Edition 2004 and later.
 old-location: mstv\iauxintuningspace2_put_countrycode.htm

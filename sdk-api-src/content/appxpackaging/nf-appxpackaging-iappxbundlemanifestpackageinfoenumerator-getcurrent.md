@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfoEnumerator.GetCurrent
-title: IAppxBundleManifestPackageInfoEnumerator::GetCurrent
+title: IAppxBundleManifestPackageInfoEnumerator::GetCurrent (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the &lt;Package&gt; element at the current position of the enumerator.
 old-location: appxpkg\iappxbundlemanifestpackageinfoenumerator_getcurrent.htm

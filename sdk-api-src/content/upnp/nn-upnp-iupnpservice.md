@@ -1,6 +1,6 @@
 ---
 UID: NN:upnp.IUPnPService
-title: IUPnPService
+title: IUPnPService (upnp.h)
 author: windows-sdk-content
 description: The IUPnPService interface enables an application to query state variables and invoke actions on an instance of a service.
 old-location: upnp\iupnpservice.htm

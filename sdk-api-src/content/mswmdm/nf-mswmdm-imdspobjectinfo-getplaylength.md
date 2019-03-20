@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPObjectInfo.GetPlayLength
-title: IMDSPObjectInfo::GetPlayLength
+title: IMDSPObjectInfo::GetPlayLength (mswmdm.h)
 author: windows-sdk-content
 description: The GetPlayLength method retrieves the play length of the object in units pertinent to the object. This is the remaining length that the object can play, not its total length.
 old-location: wmdm\imdspobjectinfo_getplaylength.htm

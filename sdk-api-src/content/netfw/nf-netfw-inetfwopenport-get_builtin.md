@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwOpenPort.get_BuiltIn
-title: INetFwOpenPort::get_BuiltIn
+title: INetFwOpenPort::get_BuiltIn (netfw.h)
 author: windows-sdk-content
 description: Indicates whether the port is defined by the system.
 old-location: ics\inetfwopenport_builtin.htm

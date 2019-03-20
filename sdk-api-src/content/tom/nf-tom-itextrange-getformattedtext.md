@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.GetFormattedText
-title: ITextRange::GetFormattedText
+title: ITextRange::GetFormattedText (tom.h)
 author: windows-sdk-content
 description: Gets an ITextRange object with the specified range's formatted text.
 old-location: controls\ITextRange_GetFormattedText.htm

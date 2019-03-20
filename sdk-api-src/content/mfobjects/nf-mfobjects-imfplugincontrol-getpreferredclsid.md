@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFPluginControl.GetPreferredClsid
-title: IMFPluginControl::GetPreferredClsid
+title: IMFPluginControl::GetPreferredClsid (mfobjects.h)
 author: windows-sdk-content
 description: Searches the preferred list for a class identifier (CLSID) that matches a specified key name.
 old-location: mf\imfplugincontrol_imfplugincontrol__getpreferredclsid.htm

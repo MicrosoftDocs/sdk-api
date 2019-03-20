@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateTemplate.get_Property
-title: IX509CertificateTemplate::get_Property
+title: IX509CertificateTemplate::get_Property (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a template property value.
 old-location: security\ix509certificatetemplate_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.DCompositionAttachMouseDragToHwnd
-title: DCompositionAttachMouseDragToHwnd function
+title: DCompositionAttachMouseDragToHwnd function (dcomp.h)
 author: windows-sdk-content
 description: Creates an Interaction/InputSink to route mouse button down and any subsequent move and up events to the given HWND.
 old-location: directcomp\dcompositionattachmousedragtohwnd.htm

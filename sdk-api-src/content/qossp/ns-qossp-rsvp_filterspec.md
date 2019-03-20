@@ -1,6 +1,6 @@
 ---
 UID: NS:qossp._RSVP_FILTERSPEC
-title: RSVP_FILTERSPEC
+title: RSVP_FILTERSPEC (qossp.h)
 author: windows-sdk-content
 description: The RSVP_FILTERSPEC structure provides RSVP FILTERSPEC information.
 old-location: qos\rsvp_filterspec.htm

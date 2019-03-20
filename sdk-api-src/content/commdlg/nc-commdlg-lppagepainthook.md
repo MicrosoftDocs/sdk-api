@@ -1,6 +1,6 @@
 ---
 UID: NC:commdlg.LPPAGEPAINTHOOK
-title: LPPAGEPAINTHOOK
+title: LPPAGEPAINTHOOK (commdlg.h)
 author: windows-sdk-content
 description: Receives messages that allow you to customize drawing of the sample page in the Page Setup dialog box. The PagePaintHook hook procedure is an application-defined or library-defined callback function used with the PageSetupDlg function.
 old-location: dlgbox\pagepainthook.htm

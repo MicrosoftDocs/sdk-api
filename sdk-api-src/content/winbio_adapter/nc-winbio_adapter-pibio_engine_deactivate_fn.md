@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_DEACTIVATE_FN
-title: PIBIO_ENGINE_DEACTIVATE_FN
+title: PIBIO_ENGINE_DEACTIVATE_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Gives the Engine Adapter the chance to perform any work needed to put the sensor component into an idle state.
 old-location: secbiomet\engineadapterdeactivate.htm

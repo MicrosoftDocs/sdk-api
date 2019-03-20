@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IKsTopologyInfo.get_NodeName
-title: IKsTopologyInfo::get_NodeName
+title: IKsTopologyInfo::get_NodeName (vidcap.h)
 author: windows-sdk-content
 description: The get_NodeName method returns the name of the node.
 old-location: dshow\ikstopologyinfo_get_nodename.htm

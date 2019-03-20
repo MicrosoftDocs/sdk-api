@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagXFORM
-title: XFORM
+title: XFORM (wingdi.h)
 author: windows-sdk-content
 description: The XFORM structure specifies a world-space to page-space transformation.
 old-location: gdi\xform.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commdlg.IPrintDialogServices.GetCurrentDevMode
-title: IPrintDialogServices::GetCurrentDevMode
+title: IPrintDialogServices::GetCurrentDevMode (commdlg.h)
 author: windows-sdk-content
 description: Fills a DEVMODE structure with information about the currently selected printer for use with PrintDlgEx.
 old-location: dlgbox\iprintdialogservices_getcurrentdevmode.htm

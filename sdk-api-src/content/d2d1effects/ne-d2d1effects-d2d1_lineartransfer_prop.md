@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects.D2D1_LINEARTRANSFER_PROP
-title: D2D1_LINEARTRANSFER_PROP
+title: D2D1_LINEARTRANSFER_PROP (d2d1effects.h)
 author: windows-sdk-content
 description: Identifiers for properties of the Linear transfer effect.
 old-location: direct2d\d2d1_lineartransfer_prop.htm

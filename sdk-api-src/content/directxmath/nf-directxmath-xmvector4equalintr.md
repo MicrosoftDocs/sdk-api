@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector4EqualIntR
-title: XMVector4EqualIntR function
+title: XMVector4EqualIntR function (directxmath.h)
 author: windows-sdk-content
 description: Tests whether two 4D vectors are equal, treating each component as an unsigned integer. In addition, this function returns a comparison value that can be examined using functions such as XMComparisonAllTrue.
 old-location: dxmath\xmvector4equalintr.htm

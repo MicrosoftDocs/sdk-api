@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetVersion
-title: IXpsOMCoreProperties::GetVersion
+title: IXpsOMCoreProperties::GetVersion (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the version property.
 old-location: xps\ixpsomcoreproperties_getversion.htm

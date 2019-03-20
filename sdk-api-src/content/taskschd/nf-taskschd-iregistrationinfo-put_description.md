@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.put_Description
-title: IRegistrationInfo::put_Description
+title: IRegistrationInfo::put_Description (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the description of the task.
 old-location: taskschd\iregistrationinfo_description.htm

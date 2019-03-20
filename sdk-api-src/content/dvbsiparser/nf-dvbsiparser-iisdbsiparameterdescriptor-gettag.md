@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbSIParameterDescriptor.GetTag
-title: IIsdbSIParameterDescriptor::GetTag
+title: IIsdbSIParameterDescriptor::GetTag (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the tag that identifies a service information (SI) parameter descriptor.
 old-location: mstv\iisdbsiparameterdescriptor_gettag.htm

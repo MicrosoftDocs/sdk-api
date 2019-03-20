@@ -1,6 +1,6 @@
 ---
 UID: NE:propsys.PSC_STATE
-title: PSC_STATE
+title: PSC_STATE (propsys.h)
 author: windows-sdk-content
 description: Specifies the state of a property. They are set manually by the code that is hosting the in-memory property store cache.
 old-location: properties\PSC_STATE.htm

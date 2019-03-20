@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsHbaPort
-title: IVdsHbaPort
+title: IVdsHbaPort (vds.h)
 author: windows-sdk-content
 description: Provides methods to query and interact with HBA ports on the local system.
 old-location: base\ivdshbaport.htm

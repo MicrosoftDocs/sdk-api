@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.InterlockedAnd64
-title: InterlockedAnd64 function
+title: InterlockedAnd64 function (winnt.h)
 author: windows-sdk-content
 description: Performs an atomic AND operation on the specified LONGLONG values.
 old-location: base\interlockedand64.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IScanningTuner.SeekDown
-title: IScanningTuner::SeekDown
+title: IScanningTuner::SeekDown (tuner.h)
 author: windows-sdk-content
 description: The SeekDown method changes the channel to the next lower channel with valid programming.
 old-location: mstv\iscanningtuner_seekdown.htm

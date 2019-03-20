@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.SetSignaturePartName
-title: IXpsSigningOptions::SetSignaturePartName
+title: IXpsSigningOptions::SetSignaturePartName (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Sets the part name of the document's signature part.
 old-location: xps\ixpssigningoptions_setsignaturepartname.htm

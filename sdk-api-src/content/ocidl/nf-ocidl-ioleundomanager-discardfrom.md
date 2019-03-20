@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleUndoManager.DiscardFrom
-title: IOleUndoManager::DiscardFrom
+title: IOleUndoManager::DiscardFrom (ocidl.h)
 author: windows-sdk-content
 description: Instructs the undo manager to discard the specified undo unit and all undo units below it on the undo or redo stack.
 old-location: com\ioleundomanager_discardfrom.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_InitialExpansionVelocity
-title: IInertiaProcessor::get_InitialExpansionVelocity
+title: IInertiaProcessor::get_InitialExpansionVelocity (manipulations.h)
 author: windows-sdk-content
 description: The InitialExpansionVelocity property specifies the rate of radius expansion for a target when the target was affected by inertia.
 old-location: wintouch\iinertiaprocessor_initialexpansionvelocity.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d9.IDirect3DStateBlock9
-title: IDirect3DStateBlock9
+title: IDirect3DStateBlock9 (d3d9.h)
 author: windows-sdk-content
 description: Applications use the methods of the IDirect3DStateBlock9 interface to encapsulate render states.
 old-location: direct3d9\idirect3dstateblock9.htm

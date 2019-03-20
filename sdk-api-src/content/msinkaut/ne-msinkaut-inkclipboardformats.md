@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.InkClipboardFormats
-title: InkClipboardFormats
+title: InkClipboardFormats (msinkaut.h)
 author: windows-sdk-content
 description: Specifies the format of ink that is stored on the Clipboard.
 old-location: tablet\inkclipboardformats.htm

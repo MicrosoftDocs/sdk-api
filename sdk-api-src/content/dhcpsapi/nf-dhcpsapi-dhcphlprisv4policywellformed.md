@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpHlprIsV4PolicyWellFormed
-title: DhcpHlprIsV4PolicyWellFormed function
+title: DhcpHlprIsV4PolicyWellFormed function (dhcpsapi.h)
 author: windows-sdk-content
 description: Verifies that a DHCP server policy structure is well formed.
 old-location: dhcp\dhcphlprisv4policywellformed.htm

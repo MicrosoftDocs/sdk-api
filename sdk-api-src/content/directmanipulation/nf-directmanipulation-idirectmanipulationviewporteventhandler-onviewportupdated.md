@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewportEventHandler.OnViewportUpdated
-title: IDirectManipulationViewportEventHandler::OnViewportUpdated
+title: IDirectManipulationViewportEventHandler::OnViewportUpdated (directmanipulation.h)
 author: windows-sdk-content
 description: Called after all content in the viewport has been updated.
 old-location: directmanipulation\idirectmanipulationviewporteventhandler_onviewportupdated.htm

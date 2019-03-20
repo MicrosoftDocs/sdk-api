@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptEncodeObjectEx
-title: CryptEncodeObjectEx function
+title: CryptEncodeObjectEx function (wincrypt.h)
 author: windows-sdk-content
 description: Encodes a structure of the type indicated by the value of the lpszStructType parameter.
 old-location: security\cryptencodeobjectex.htm

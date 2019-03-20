@@ -1,6 +1,6 @@
 ---
 UID: NN:ndhelper.INetDiagHelperEx
-title: INetDiagHelperEx
+title: INetDiagHelperEx (ndhelper.h)
 author: windows-sdk-content
 description: Provides methods that extend on the INetDiagHelper interface to capture and provide information associated with diagnoses and resolution of network-related issues.
 old-location: ndf\inetdiaghelperex.htm

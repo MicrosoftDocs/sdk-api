@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsService.IsServiceReady
-title: IVdsService::IsServiceReady
+title: IVdsService::IsServiceReady (vds.h)
 author: windows-sdk-content
 description: Returns the initialization status of VDS.
 old-location: base\ivdsservice_isserviceready.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva9typ._COPP_StatusHDCPFlags
-title: COPP_StatusHDCPFlags
+title: COPP_StatusHDCPFlags (dxva9typ.h)
 author: windows-sdk-content
 description: Contains HDCP status flags. This enumeration is used in the DXVA_COPPStatusHDCPKeyData structure.
 old-location: dshow\copp_statushdcpflags.htm

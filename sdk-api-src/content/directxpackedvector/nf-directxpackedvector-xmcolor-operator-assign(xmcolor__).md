@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMCOLOR.operator-assign(XMCOLOR &&)
-title: XMCOLOR::operator-assign(XMCOLOR &&)
+title: XMCOLOR::operator-assign(XMCOLOR &&) (directxpackedvector.h)
 author: windows-sdk-content
 description: This operator assigns the vector component data from one instance of XMCOLOR to the current instance of XMCOLOR.
 old-location: dxmath\xmcolor_operator_eq_1.htm

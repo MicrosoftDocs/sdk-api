@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetFillBrushLookup
-title: IXpsOMPath::SetFillBrushLookup
+title: IXpsOMPath::SetFillBrushLookup (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the lookup key name of a shared brush in a resource dictionary, to be used as the fill brush.
 old-location: xps\ixpsompath_setfillbrushlookup.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:manipulations.MANIPULATION_PROCESSOR_MANIPULATIONS
-title: MANIPULATION_PROCESSOR_MANIPULATIONS
+title: MANIPULATION_PROCESSOR_MANIPULATIONS (manipulations.h)
 author: windows-sdk-content
 description: The MANIPULATION_PROCESSOR_MANIPULATIONS enumeration different kinds of manipulation which can be applied on a target object.
 old-location: wintouch\manipulation_processor_manipulations.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList.Replace
-title: IImageList::Replace
+title: IImageList::Replace (commoncontrols.h)
 author: windows-sdk-content
 description: Replaces an image in an image list with a new image.
 old-location: controls\IImageList_Replace.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_UserAccount
-title: IDataCollectorSet::get_UserAccount
+title: IDataCollectorSet::get_UserAccount (pla.h)
 author: windows-sdk-content
 description: Retrieves the user account under which the data collector set will run.
 old-location: pla\idatacollectorset_get_useraccount.htm

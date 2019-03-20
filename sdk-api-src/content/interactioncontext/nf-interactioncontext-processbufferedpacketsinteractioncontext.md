@@ -1,6 +1,6 @@
 ---
 UID: NF:interactioncontext.ProcessBufferedPacketsInteractionContext
-title: ProcessBufferedPacketsInteractionContext function
+title: ProcessBufferedPacketsInteractionContext function (interactioncontext.h)
 author: windows-sdk-content
 description: Process buffered packets at the end of a pointer input frame.
 old-location: input_intcontext\processbufferedpacketsinteractioncontext.htm

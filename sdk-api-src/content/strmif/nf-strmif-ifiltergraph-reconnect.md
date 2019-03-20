@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFilterGraph.Reconnect
-title: IFilterGraph::Reconnect
+title: IFilterGraph::Reconnect (strmif.h)
 author: windows-sdk-content
 description: The Reconnect method disconnects a pin and then reconnects it to the same pin.
 old-location: dshow\ifiltergraph_reconnect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:aclapi.GetTrusteeFormW
-title: GetTrusteeFormW function
+title: GetTrusteeFormW function (aclapi.h)
 author: windows-sdk-content
 description: Retrieves the trustee name from the specified TRUSTEE structure. This value indicates whether the structure uses a name string or a security identifier (SID) to identify the trustee.
 old-location: security\gettrusteeform.htm

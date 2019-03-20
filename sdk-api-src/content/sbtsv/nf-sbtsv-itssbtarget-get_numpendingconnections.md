@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTarget.get_NumPendingConnections
-title: ITsSbTarget::get_NumPendingConnections
+title: ITsSbTarget::get_NumPendingConnections (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves the number of pending user connections for the target.
 old-location: termserv\itssbtarget_numpendingconnections.htm

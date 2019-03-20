@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioClient3.InitializeSharedAudioStream
-title: IAudioClient3::InitializeSharedAudioStream
+title: IAudioClient3::InitializeSharedAudioStream (audioclient.h)
 author: windows-sdk-content
 description: Initializes a shared stream with the specified periodicity.
 old-location: coreaudio\iaudioclient3_initializesharedaudiostream.htm

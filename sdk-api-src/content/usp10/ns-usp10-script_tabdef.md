@@ -1,6 +1,6 @@
 ---
 UID: NS:usp10.tag_SCRIPT_TABDEF
-title: SCRIPT_TABDEF
+title: SCRIPT_TABDEF (usp10.h)
 author: windows-sdk-content
 description: Contains definitions of the tab positions for ScriptStringAnalyse.
 old-location: intl\script_tabdef.htm

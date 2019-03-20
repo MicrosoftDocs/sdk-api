@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.KeyDown
-title: IWMPEvents::KeyDown
+title: IWMPEvents::KeyDown (wmp.h)
 author: windows-sdk-content
 description: The KeyDown event occurs when a key is pressed.
 old-location: wmp\iwmpevents_iwmpevents__keydown.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:digitalv.__unnamed_struct_5
-title: MCI_DGV_CUT_PARMS
+title: MCI_DGV_CUT_PARMS (digitalv.h)
 author: windows-sdk-content
 description: The MCI_DGV_CUT_PARMS structure contains parameters for the MCI_CUT command for digital-video devices.
 old-location: multimedia\mci_dgv_cut_parms.htm

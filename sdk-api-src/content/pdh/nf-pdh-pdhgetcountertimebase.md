@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhGetCounterTimeBase
-title: PdhGetCounterTimeBase function
+title: PdhGetCounterTimeBase function (pdh.h)
 author: windows-sdk-content
 description: Returns the time base of the specified counter.
 old-location: perf\pdhgetcountertimebase.htm

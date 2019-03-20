@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsLun.RemovePlex
-title: IVdsLun::RemovePlex
+title: IVdsLun::RemovePlex (vdshwprv.h)
 author: windows-sdk-content
 description: Removes a plex from a LUN.
 old-location: base\ivdslun_removeplex.htm

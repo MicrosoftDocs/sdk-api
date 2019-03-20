@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.put_Originator
-title: ITDirectoryObjectConference::put_Originator
+title: ITDirectoryObjectConference::put_Originator (rend.h)
 author: windows-sdk-content
 description: The put_Originator method sets the originator's user name.
 old-location: tapi3\itdirectoryobjectconference_put_originator.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICPngSrgbProperties
-title: WICPngSrgbProperties
+title: WICPngSrgbProperties (wincodec.h)
 author: windows-sdk-content
 description: Specifies the Portable Network Graphics (PNG) sRGB chunk metadata properties.
 old-location: wic\_wic_codec_wicpngsrgbproperties.htm

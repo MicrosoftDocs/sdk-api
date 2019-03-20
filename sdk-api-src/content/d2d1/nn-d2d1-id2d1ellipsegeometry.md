@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1.ID2D1EllipseGeometry
-title: ID2D1EllipseGeometry
+title: ID2D1EllipseGeometry (d2d1.h)
 author: windows-sdk-content
 description: Represents an ellipse.
 old-location: direct2d\ID2D1EllipseGeometry.htm

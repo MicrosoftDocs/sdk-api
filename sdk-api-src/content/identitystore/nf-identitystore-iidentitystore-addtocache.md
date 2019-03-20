@@ -1,6 +1,6 @@
 ---
 UID: NF:identitystore.IIdentityStore.AddToCache
-title: IIdentityStore::AddToCache
+title: IIdentityStore::AddToCache (identitystore.h)
 author: windows-sdk-content
 description: Caches the specified identity in the registry.
 old-location: security\iidentitystore_addtocache.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITSubStream.UnselectTerminal
-title: ITSubStream::UnselectTerminal
+title: ITSubStream::UnselectTerminal (tapi3if.h)
 author: windows-sdk-content
 description: The UnselectTerminal method unselects the terminal from the substream.
 old-location: tapi3\itsubstream_unselectterminal.htm

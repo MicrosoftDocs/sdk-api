@@ -1,6 +1,6 @@
 ---
 UID: NE:mftransform._MFT_PROCESS_OUTPUT_STATUS
-title: "_MFT_PROCESS_OUTPUT_STATUS"
+title: "_MFT_PROCESS_OUTPUT_STATUS" (mftransform.h)
 author: windows-sdk-content
 description: Indicates the status of a call to IMFTransform::ProcessOutput.
 old-location: mf\_mft_process_output_status.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IStreamConcatenate.Append
-title: IStreamConcatenate::Append
+title: IStreamConcatenate::Append (imapi2.h)
 author: windows-sdk-content
 description: Appends a stream to this stream.
 old-location: imapi\istreamconcatenate_append.htm

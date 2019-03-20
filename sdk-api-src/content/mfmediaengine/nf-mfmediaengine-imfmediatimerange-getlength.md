@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaTimeRange.GetLength
-title: IMFMediaTimeRange::GetLength
+title: IMFMediaTimeRange::GetLength (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the number of time ranges contained in the object.
 old-location: mf\imfmediatimerange_getlength.htm

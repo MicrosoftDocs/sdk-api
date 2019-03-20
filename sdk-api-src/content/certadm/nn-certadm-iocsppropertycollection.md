@@ -1,6 +1,6 @@
 ---
 UID: NN:certadm.IOCSPPropertyCollection
-title: IOCSPPropertyCollection
+title: IOCSPPropertyCollection (certadm.h)
 author: windows-sdk-content
 description: Represents a set of configurable attribute properties (name-value pairs) for an Online Certificate Status Protocol (OCSP) service.
 old-location: security\iocsppropertycollection.htm

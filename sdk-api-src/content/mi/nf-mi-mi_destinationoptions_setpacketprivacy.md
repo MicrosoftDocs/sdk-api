@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_SetPacketPrivacy
-title: MI_DestinationOptions_SetPacketPrivacy function
+title: MI_DestinationOptions_SetPacketPrivacy function (mi.h)
 author: windows-sdk-content
 description: Enables or disables packet privacy (encryption).
 old-location: wmi_v2\mi_destinationoptions_setpacketprivacy.htm

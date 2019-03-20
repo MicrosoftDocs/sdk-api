@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1helper.Matrix4x4F.operator-mult
-title: Matrix4x4F::operator-mult
+title: Matrix4x4F::operator-mult (d2d1_1helper.h)
 author: windows-sdk-content
 description: Multiplies this matrix with the specified matrix and returns the result.
 old-location: direct2d\matrix4x4f_operator_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessibleWindowlessSite.AcquireObjectIdRange
-title: IAccessibleWindowlessSite::AcquireObjectIdRange
+title: IAccessibleWindowlessSite::AcquireObjectIdRange (oleacc.h)
 author: windows-sdk-content
 description: Acquires a range of object IDs from the control host and marks them as reserved by a specific windowless control.
 old-location: winauto\uiauto_IAccessibleWindowlessSite_AcquireObjectIdRange.htm

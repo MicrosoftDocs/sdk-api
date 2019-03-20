@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.SetAbort
-title: Image::SetAbort
+title: Image::SetAbort (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::SetAbort method sets the object whose Abort method is called periodically during time-consuming rendering operation.
 old-location: gdiplus\_gdiplus_CLASS_Image_SetAbort_.htm

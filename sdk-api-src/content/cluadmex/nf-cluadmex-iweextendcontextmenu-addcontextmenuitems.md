@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IWEExtendContextMenu.AddContextMenuItems
-title: IWEExtendContextMenu::AddContextMenuItems
+title: IWEExtendContextMenu::AddContextMenuItems (cluadmex.h)
 author: windows-sdk-content
 description: Allows you to create context menu items for a cluster object and add the items to a Failover Cluster Administrator context menu.
 old-location: mscs\iweextendcontextmenu_addcontextmenuitems.htm

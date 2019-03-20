@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwService.get_Customized
-title: INetFwService::get_Customized
+title: INetFwService::get_Customized (netfw.h)
 author: windows-sdk-content
 description: Indicates whether at least one of the ports associated with the service has been customized.
 old-location: ics\inetfwservice_customized.htm

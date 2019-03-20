@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDisp.DeleteStrokes
-title: IInkDisp::DeleteStrokes
+title: IInkDisp::DeleteStrokes (msinkaut.h)
 author: windows-sdk-content
 description: Deletes an InkStrokes collection from the Strokes collection of the InkDisp object.
 old-location: tablet\inkdisp_deletestrokes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:raseapif._PPP_EAP_OUTPUT
-title: PPP_EAP_OUTPUT
+title: PPP_EAP_OUTPUT (raseapif.h)
 author: windows-sdk-content
 description: The authentication protocol uses the PPP_EAP_OUTPUT structure to communicate requests and status information to the Connection Manager on return from calls to RasEapMakeMessage.
 old-location: eap\ppp_eap_output.htm

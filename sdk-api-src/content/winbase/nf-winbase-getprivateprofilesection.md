@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetPrivateProfileSection
-title: GetPrivateProfileSection function
+title: GetPrivateProfileSection function (winbase.h)
 author: windows-sdk-content
 description: Retrieves all the keys and values for the specified section of an initialization file.
 old-location: base\getprivateprofilesection.htm

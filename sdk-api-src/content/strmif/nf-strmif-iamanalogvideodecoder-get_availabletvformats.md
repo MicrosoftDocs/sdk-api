@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMAnalogVideoDecoder.get_AvailableTVFormats
-title: IAMAnalogVideoDecoder::get_AvailableTVFormats
+title: IAMAnalogVideoDecoder::get_AvailableTVFormats (strmif.h)
 author: windows-sdk-content
 description: The get_AvailableTVFormats method retrieves the analog video formats that the decoder supports.
 old-location: dshow\iamanalogvideodecoder_get_availabletvformats.htm

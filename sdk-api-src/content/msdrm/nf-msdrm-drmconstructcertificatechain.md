@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMConstructCertificateChain
-title: DRMConstructCertificateChain function
+title: DRMConstructCertificateChain function (msdrm.h)
 author: windows-sdk-content
 description: Builds a certificate chain from an arbitrary number of certificates.
 old-location: rm\drmconstructcertificatechain.htm

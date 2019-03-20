@@ -1,6 +1,6 @@
 ---
 UID: NE:vss._VSS_APPLICATION_LEVEL
-title: VSS_APPLICATION_LEVEL
+title: VSS_APPLICATION_LEVEL (vss.h)
 author: windows-sdk-content
 description: Indicates the application level, the point in the course of the creation of a shadow copy that a writer is notified of a freeze.
 old-location: base\vss_application_level.htm

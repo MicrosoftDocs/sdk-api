@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.GetAltMonthNames
-title: GetAltMonthNames function
+title: GetAltMonthNames function (oleauto.h)
 author: windows-sdk-content
 description: Retrieves the secondary (alternate) month names.
 old-location: automat\getaltmonthnames.htm

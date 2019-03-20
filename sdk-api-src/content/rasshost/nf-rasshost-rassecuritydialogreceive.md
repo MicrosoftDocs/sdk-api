@@ -1,6 +1,6 @@
 ---
 UID: NF:rasshost.RasSecurityDialogReceive
-title: RasSecurityDialogReceive function
+title: RasSecurityDialogReceive function (rasshost.h)
 author: windows-sdk-content
 description: The RasSecurityDialogReceive function starts an asynchronous operation that receives a remote user's response to a security challenge.
 old-location: rras\rassecuritydialogreceive.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0000_0000_0019
-title: ADS_STATUSENUM
+title: ADS_STATUSENUM (iads.h)
 author: windows-sdk-content
 description: Specifies the status of a search preference set with the IDirectorySearch::SetSearchPreference method.
 old-location: adsi\ads_statusenum.htm

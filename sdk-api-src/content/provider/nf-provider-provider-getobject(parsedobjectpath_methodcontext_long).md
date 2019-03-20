@@ -1,6 +1,6 @@
 ---
 UID: NF:provider.Provider.GetObject(ParsedObjectPath,MethodContext,long)
-title: Provider::GetObject(ParsedObjectPath,MethodContext,long)
+title: Provider::GetObject(ParsedObjectPath,MethodContext,long) (provider.h)
 author: windows-sdk-content
 description: The GetObject method is called by WMI to retrieve an instance of a class.
 old-location: wmi\provider_getobject.htm

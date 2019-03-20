@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxSecurity2.put_InformationType
-title: IFaxSecurity2::put_InformationType
+title: IFaxSecurity2::put_InformationType (faxcomex.h)
 author: windows-sdk-content
 description: Retrieves the security information type.
 old-location: fax\_mfax_faxsecurity2_cpp_mfax_faxsecurity2_informationtype_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxPackageReader
-title: IAppxPackageReader
+title: IAppxPackageReader (appxpackaging.h)
 author: windows-sdk-content
 description: Provides a read-only object model for app packages.
 old-location: appxpkg\iappxpackagereader.htm

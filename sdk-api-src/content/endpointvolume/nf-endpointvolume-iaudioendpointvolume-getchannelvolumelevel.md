@@ -1,6 +1,6 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.GetChannelVolumeLevel
-title: IAudioEndpointVolume::GetChannelVolumeLevel
+title: IAudioEndpointVolume::GetChannelVolumeLevel (endpointvolume.h)
 author: windows-sdk-content
 description: The GetChannelVolumeLevel method gets the volume level, in decibels, of the specified channel in the audio stream that enters or leaves the audio endpoint device.
 old-location: coreaudio\iaudioendpointvolume_getchannelvolumelevel.htm

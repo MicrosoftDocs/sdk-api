@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionColorMatrixEffect.SetMatrix
-title: IDCompositionColorMatrixEffect::SetMatrix
+title: IDCompositionColorMatrixEffect::SetMatrix (dcomp.h)
 author: windows-sdk-content
 description: Sets the matrix used by the effect to multiply the RGBA values of the image.
 old-location: directcomp\idcompositioncolormatrixeffect_setmatrix.htm

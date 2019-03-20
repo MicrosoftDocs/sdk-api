@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_1.ID3DUserDefinedAnnotation.EndEvent
-title: ID3DUserDefinedAnnotation::EndEvent
+title: ID3DUserDefinedAnnotation::EndEvent (d3d11_1.h)
 author: windows-sdk-content
 description: Marks the end of a section of event code.
 old-location: direct3d11\id3duserdefinedannotation_endevent.htm

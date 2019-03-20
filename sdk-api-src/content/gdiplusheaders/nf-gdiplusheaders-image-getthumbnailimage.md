@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.GetThumbnailImage
-title: Image::GetThumbnailImage
+title: Image::GetThumbnailImage (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::GetThumbnailImage method gets a thumbnail image from this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetThumbnailImage_thumbWidth_thumbHeight_callback_callbackData_.htm

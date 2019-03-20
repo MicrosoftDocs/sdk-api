@@ -1,6 +1,6 @@
 ---
 UID: NF:prsht.PropSheet_SetWizButtons
-title: PropSheet_SetWizButtons macro
+title: PropSheet_SetWizButtons macro (prsht.h)
 author: windows-sdk-content
 description: Enables or disables the Back, Next, and Finish buttons in a wizard by posting a PSM_SETWIZBUTTONS message. You can use this macro or send the PSM_SETWIZBUTTONS message explicitly.
 old-location: controls\PropSheet_SetWizButtons.htm

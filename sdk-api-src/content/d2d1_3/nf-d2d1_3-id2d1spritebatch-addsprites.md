@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1SpriteBatch.AddSprites
-title: ID2D1SpriteBatch::AddSprites
+title: ID2D1SpriteBatch::AddSprites (d2d1_3.h)
 author: windows-sdk-content
 description: Adds the given sprites to the end of this sprite batch.
 old-location: direct2d\id2d1spritebatch_addsprites.htm

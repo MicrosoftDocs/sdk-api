@@ -1,6 +1,6 @@
 ---
 UID: NS:xaudio2.XAUDIO2_VOICE_STATE
-title: XAUDIO2_VOICE_STATE
+title: XAUDIO2_VOICE_STATE (xaudio2.h)
 author: windows-sdk-content
 description: Returns the voice's current state and cursor position data.
 old-location: xaudio2\xaudio2_voice_state.htm

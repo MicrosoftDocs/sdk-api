@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IEnumDMO.Next
-title: IEnumDMO::Next
+title: IEnumDMO::Next (mediaobj.h)
 author: windows-sdk-content
 description: The Next method retrieves a specified number of items in the enumeration sequence.
 old-location: dshow\ienumdmo_next.htm

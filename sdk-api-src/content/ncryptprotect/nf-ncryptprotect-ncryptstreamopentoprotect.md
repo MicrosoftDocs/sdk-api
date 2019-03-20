@@ -1,6 +1,6 @@
 ---
 UID: NF:ncryptprotect.NCryptStreamOpenToProtect
-title: NCryptStreamOpenToProtect function
+title: NCryptStreamOpenToProtect function (ncryptprotect.h)
 author: windows-sdk-content
 description: Opens a stream object that can be used to encrypt large amounts of data to a given protection descriptor.
 old-location: security\ncryptstreamopentoprotect.htm

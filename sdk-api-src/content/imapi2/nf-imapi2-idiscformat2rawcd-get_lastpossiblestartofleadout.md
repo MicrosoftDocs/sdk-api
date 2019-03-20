@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_LastPossibleStartOfLeadout
-title: IDiscFormat2RawCD::get_LastPossibleStartOfLeadout
+title: IDiscFormat2RawCD::get_LastPossibleStartOfLeadout (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the last possible starting position for the leadout area.
 old-location: imapi\idiscformat2rawcd_get_lastpossiblestartofleadout.htm

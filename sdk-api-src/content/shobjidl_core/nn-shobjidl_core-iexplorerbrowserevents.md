@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IExplorerBrowserEvents
-title: IExplorerBrowserEvents
+title: IExplorerBrowserEvents (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods for notification of Explorer browser navigation and view creation events.
 old-location: shell\IExplorerBrowserEvents.htm

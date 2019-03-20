@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsBackLink
-title: IADsBackLink
+title: IADsBackLink (iads.h)
 author: windows-sdk-content
 description: The IADsBackLink interface provides methods for an ADSI client to access the Back Link attribute. You can call the property methods of this interface to obtain and modify the attribute.
 old-location: adsi\iadsbacklink.htm

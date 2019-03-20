@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFNetProxyLocator.FindFirstProxy
-title: IMFNetProxyLocator::FindFirstProxy
+title: IMFNetProxyLocator::FindFirstProxy (mfidl.h)
 author: windows-sdk-content
 description: Initializes the proxy locator object.
 old-location: mf\imfnetproxylocator_findfirstproxy.htm

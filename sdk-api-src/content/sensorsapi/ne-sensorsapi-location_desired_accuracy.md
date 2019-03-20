@@ -1,6 +1,6 @@
 ---
 UID: NE:sensorsapi.LOCATION_DESIRED_ACCURACY
-title: LOCATION_DESIRED_ACCURACY
+title: LOCATION_DESIRED_ACCURACY (sensorsapi.h)
 author: windows-sdk-content
 description: The LOCATION_DESIRED_ACCURACY enumeration type defines values for the SENSOR_PROPERTY_LOCATION_DESIRED_ACCURACY property.
 old-location: sensors\location_desired_accuracy.htm

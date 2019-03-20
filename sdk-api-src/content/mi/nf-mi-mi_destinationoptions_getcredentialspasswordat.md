@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetCredentialsPasswordAt
-title: MI_DestinationOptions_GetCredentialsPasswordAt function
+title: MI_DestinationOptions_GetCredentialsPasswordAt function (mi.h)
 author: windows-sdk-content
 description: Gets a credentials password based on a specified index.
 old-location: wmi_v2\mi_destinationoptions_getcredentialspasswordat.htm

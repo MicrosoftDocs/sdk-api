@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceChild.SetPrivateDataInterface
-title: ID3D11DeviceChild::SetPrivateDataInterface
+title: ID3D11DeviceChild::SetPrivateDataInterface (d3d11.h)
 author: windows-sdk-content
 description: Associate an IUnknown-derived interface with this device child and associate that interface with an application-defined guid.
 old-location: direct3d11\id3d11devicechild_setprivatedatainterface.htm

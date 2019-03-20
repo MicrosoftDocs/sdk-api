@@ -1,6 +1,6 @@
 ---
 UID: NF:sysinfoapi.GetSystemTimeAdjustmentPrecise
-title: GetSystemTimeAdjustmentPrecise function
+title: GetSystemTimeAdjustmentPrecise function (sysinfoapi.h)
 author: windows-sdk-content
 description: Determines whether the system is applying periodic, programmed time adjustments to its time-of-day clock, and obtains the value and period of any such adjustments.
 old-location: base\getsystemtimeadjustmentprecise.htm

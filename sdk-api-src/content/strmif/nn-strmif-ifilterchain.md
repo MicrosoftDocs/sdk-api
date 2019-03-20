@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IFilterChain
-title: IFilterChain
+title: IFilterChain (strmif.h)
 author: windows-sdk-content
 description: The IFilterChain interface provides methods for starting, stopping, or removing chains of filters in a filter graph.
 old-location: dshow\ifilterchain.htm

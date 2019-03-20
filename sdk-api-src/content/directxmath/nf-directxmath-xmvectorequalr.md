@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorEqualR
-title: XMVectorEqualR function
+title: XMVectorEqualR function (directxmath.h)
 author: windows-sdk-content
 description: Performs a per-component test for equality of two vectors and sets a comparison value that can be examined using functions such as XMComparisonAllTrue.
 old-location: dxmath\xmvectorequalr.htm

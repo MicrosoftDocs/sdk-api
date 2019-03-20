@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmActionEventLog.get_EventType
-title: IFsrmActionEventLog::get_EventType
+title: IFsrmActionEventLog::get_EventType (fsrm.h)
 author: windows-sdk-content
 description: Retrieves or sets the type of event that the action logs when it runs.
 old-location: fsrm\ifsrmactioneventlog_eventtype.htm

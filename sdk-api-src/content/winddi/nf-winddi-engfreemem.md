@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngFreeMem
-title: EngFreeMem macro
+title: EngFreeMem macro (winddi.h)
 author: windows-sdk-content
 description: The EngFreeMem function deallocates a block of system memory.
 old-location: display\engfreemem.htm

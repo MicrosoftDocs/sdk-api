@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl2.SelectTerminalOnCall
-title: ITBasicCallControl2::SelectTerminalOnCall
+title: ITBasicCallControl2::SelectTerminalOnCall (tapi3if.h)
 author: windows-sdk-content
 description: The SelectTerminalOnCall method selects the terminal onto the call.
 old-location: tapi3\itbasiccallcontrol2_selectterminaloncall.htm

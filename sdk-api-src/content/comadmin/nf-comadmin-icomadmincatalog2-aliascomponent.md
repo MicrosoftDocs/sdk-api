@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.AliasComponent
-title: ICOMAdminCatalog2::AliasComponent
+title: ICOMAdminCatalog2::AliasComponent (comadmin.h)
 author: windows-sdk-content
 description: Creates an alias for an existing COM+ component.
 old-location: cos\icomadmincatalog2_aliascomponent.htm

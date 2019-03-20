@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SecPkgContext_Bindings
-title: SecPkgContext_Bindings
+title: SecPkgContext_Bindings (sspi.h)
 author: windows-sdk-content
 description: Specifies a structure that contains channel binding information for a security context.
 old-location: security\secpkgcontext_bindings.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptAcquireContextW
-title: CryptAcquireContextW function
+title: CryptAcquireContextW function (wincrypt.h)
 author: windows-sdk-content
 description: Used to acquire a handle to a particular key container within a particular cryptographic service provider (CSP). This returned handle is used in calls to CryptoAPI functions that use the selected CSP.
 old-location: security\cryptacquirecontext.htm

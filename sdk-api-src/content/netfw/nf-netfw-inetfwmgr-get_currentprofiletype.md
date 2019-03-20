@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwMgr.get_CurrentProfileType
-title: INetFwMgr::get_CurrentProfileType
+title: INetFwMgr::get_CurrentProfileType (netfw.h)
 author: windows-sdk-content
 description: Retrieves the type of firewall profile currently in effect.
 old-location: ics\inetfwmgr_currentprofiletype.htm

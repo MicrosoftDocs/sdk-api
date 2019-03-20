@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dcommon.D3D_SRV_DIMENSION
-title: D3D_SRV_DIMENSION
+title: D3D_SRV_DIMENSION (d3dcommon.h)
 author: windows-sdk-content
 description: Values that identify the type of resource to be viewed as a shader resource.
 old-location: direct3d11\d3d_srv_dimension.htm

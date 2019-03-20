@@ -1,6 +1,6 @@
 ---
 UID: NF:richole.IRichEditOleCallback.DeleteObject
-title: IRichEditOleCallback::DeleteObject
+title: IRichEditOleCallback::DeleteObject (richole.h)
 author: windows-sdk-content
 description: Sends notification that an object is about to be deleted from a rich edit control. The object is not necessarily being released when this member is called.
 old-location: controls\IRichEditOleCallback_DeleteObject.htm

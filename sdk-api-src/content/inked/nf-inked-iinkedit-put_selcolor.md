@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.put_SelColor
-title: IInkEdit::put_SelColor
+title: IInkEdit::put_SelColor (inked.h)
 author: windows-sdk-content
 description: Gets or sets the text color of the current text selection or insertion point (run time only).
 old-location: tablet\inkedit_selcolor.htm

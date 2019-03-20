@@ -1,6 +1,6 @@
 ---
 UID: NF:dpapi.CryptUpdateProtectedState
-title: CryptUpdateProtectedState function
+title: CryptUpdateProtectedState function (dpapi.h)
 author: windows-sdk-content
 description: Migrates the current user's master keys after the user's security identifier (SID) has changed.
 old-location: security\cryptupdateprotectedstate.htm

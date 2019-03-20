@@ -1,6 +1,6 @@
 ---
 UID: NE:icftypes.NET_FW_AUTHENTICATE_TYPE_
-title: NET_FW_AUTHENTICATE_TYPE
+title: NET_FW_AUTHENTICATE_TYPE (icftypes.h)
 author: windows-sdk-content
 description: Specifies the type of authentication which must occur in order for traffic to be allowed.
 old-location: ics\net_fw_authenticate_type.htm

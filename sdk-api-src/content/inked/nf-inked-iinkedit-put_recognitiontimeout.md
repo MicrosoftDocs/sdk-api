@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.put_RecognitionTimeout
-title: IInkEdit::put_RecognitionTimeout
+title: IInkEdit::put_RecognitionTimeout (inked.h)
 author: windows-sdk-content
 description: Gets or sets the length of time, in milliseconds, between the last IInkStrokeDisp object collected and the beginning of text recognition.
 old-location: tablet\inkedit_recotimeout.htm

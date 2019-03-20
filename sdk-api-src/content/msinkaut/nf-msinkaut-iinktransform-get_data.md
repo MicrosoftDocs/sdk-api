@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkTransform.get_Data
-title: IInkTransform::get_Data
+title: IInkTransform::get_Data (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets access to the XFORM structure.
 old-location: tablet\inktransform_data.htm

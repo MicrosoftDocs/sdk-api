@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_6
-title: Filter_Spec_IPv4
+title: Filter_Spec_IPv4 (lpmapi.h)
 author: windows-sdk-content
 description: The Filter_Spec_IPv4 structure contains information about an IPv4 FILTERSPEC.
 old-location: qos\filter_spec_ipv4.htm

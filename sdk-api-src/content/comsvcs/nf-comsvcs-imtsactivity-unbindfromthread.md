@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMTSActivity.UnbindFromThread
-title: IMTSActivity::UnbindFromThread
+title: IMTSActivity::UnbindFromThread (comsvcs.h)
 author: windows-sdk-content
 description: Unbinds the batch work that is submitted using IMTSActivity::AsyncCall or IMTSActivity::SynchronousCall from the thread on which it is running.
 old-location: cos\imtsactivity_unbindfromthread.htm

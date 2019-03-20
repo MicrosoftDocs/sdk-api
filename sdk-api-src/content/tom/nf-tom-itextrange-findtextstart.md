@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.FindTextStart
-title: ITextRange::FindTextStart
+title: ITextRange::FindTextStart (tom.h)
 author: windows-sdk-content
 description: Searches up to Count characters for the string, bstr, starting at the range's Start cp (cpFirst).
 old-location: controls\ITextRange_FindTextStart.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvMovePointer
-title: DrvMovePointer function
+title: DrvMovePointer function (winddi.h)
 author: windows-sdk-content
 description: The DrvMovePointer function moves the pointer to a new position and ensures that GDI does not interfere with the display of the pointer.
 old-location: display\drvmovepointer.htm

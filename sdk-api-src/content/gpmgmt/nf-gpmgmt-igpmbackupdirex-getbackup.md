@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMBackupDirEx.GetBackup
-title: IGPMBackupDirEx::GetBackup
+title: IGPMBackupDirEx::GetBackup (gpmgmt.h)
 author: windows-sdk-content
 description: Retrieves the GPMBackup or GPMStarterGPOBackup object with the specified backup ID. The backup ID is a GUID. The backup ID is the ID of the backed-up Group Policy object (GPO), not the ID of the GPO.
 old-location: gpmc\igpmbackupdirex_getbackup.htm

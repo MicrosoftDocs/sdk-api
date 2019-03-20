@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMFLOAT3.XMFLOAT3(float,float,float)
-title: XMFLOAT3::XMFLOAT3(float,float,float)
+title: XMFLOAT3::XMFLOAT3(float,float,float) (directxmath.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMFLOAT3 from three float arguments.
 old-location: dxmath\xmfloat3_ctor_2.htm

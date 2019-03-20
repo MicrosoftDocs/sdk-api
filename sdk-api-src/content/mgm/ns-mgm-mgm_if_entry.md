@@ -1,6 +1,6 @@
 ---
 UID: NS:mgm._MGM_IF_ENTRY
-title: MGM_IF_ENTRY
+title: MGM_IF_ENTRY (mgm.h)
 author: windows-sdk-content
 description: The MGM_IF_ENTRY structure describes a router interface.
 old-location: rras\mgm_if_entry_str.htm

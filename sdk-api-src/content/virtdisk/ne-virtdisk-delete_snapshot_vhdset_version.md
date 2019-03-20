@@ -1,6 +1,6 @@
 ---
 UID: NE:virtdisk._DELETE_SNAPSHOT_VHDSET_VERSION
-title: DELETE_SNAPSHOT_VHDSET_VERSION
+title: DELETE_SNAPSHOT_VHDSET_VERSION (virtdisk.h)
 author: windows-sdk-content
 description: Contains the version of the DELETE_SNAPHSOT_VHDSET_PARAMETERS structure to use in calls to virtual disk functions.
 old-location: vhd\delete_snapshot_vhdset_version.htm

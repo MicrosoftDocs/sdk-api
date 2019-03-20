@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMFLOAT3SE.XMFLOAT3SE(uint32_t)
-title: XMFLOAT3SE::XMFLOAT3SE(uint32_t)
+title: XMFLOAT3SE::XMFLOAT3SE(uint32_t) (directxpackedvector.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMFLOAT3SE from a uint32_tvariable containing component data in a packed format.
 old-location: dxmath\xmfloat3se_ctor_3.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:shldisp.ShellSpecialFolderConstants
-title: ShellSpecialFolderConstants
+title: ShellSpecialFolderConstants (shldisp.h)
 author: windows-sdk-content
 description: Specifies unique, system-independent values that identify special folders.
 old-location: shell\ShellSpecialFolderConstants.htm

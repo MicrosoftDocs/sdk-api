@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.put_InPlaceVisibleOnFocus
-title: ITextInputPanel::put_InPlaceVisibleOnFocus
+title: ITextInputPanel::put_InPlaceVisibleOnFocus (peninputpanel.h)
 author: windows-sdk-content
 description: Gets or sets a value that indicates whether the Tablet PC Input Panel is displayed automatically when the window to which it is attached gets focus.
 old-location: tablet\itextinputpanel_inplacevisibleonfocus.htm

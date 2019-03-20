@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITaskScheduler.GetTargetComputer
-title: ITaskScheduler::GetTargetComputer
+title: ITaskScheduler::GetTargetComputer (mstask.h)
 author: windows-sdk-content
 description: The GetTargetComputer method returns the name of the computer on which ITaskScheduler is currently targeted.
 old-location: taskschd\itaskscheduler_gettargetcomputer.htm

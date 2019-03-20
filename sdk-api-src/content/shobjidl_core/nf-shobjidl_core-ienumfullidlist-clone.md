@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IEnumFullIDList.Clone
-title: IEnumFullIDList::Clone
+title: IEnumFullIDList::Clone (shobjidl_core.h)
 author: windows-sdk-content
 description: Creates a new item enumeration object with the same contents and state as the current one.
 old-location: shell\IEnumFullIDList_Clone.htm

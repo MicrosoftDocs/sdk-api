@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsDeleteOps
-title: IADsDeleteOps
+title: IADsDeleteOps (iads.h)
 author: windows-sdk-content
 description: The IADsDeleteOps interface specifies a method an object can use to delete itself from the underlying directory. For a container object, the method deletes its children and the entire subtree.
 old-location: adsi\iadsdeleteops.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertGetCTLContextProperty
-title: CertGetCTLContextProperty function
+title: CertGetCTLContextProperty function (wincrypt.h)
 author: windows-sdk-content
 description: Retrieves an extended property of a certificate trust list (CTL) context.
 old-location: security\certgetctlcontextproperty.htm

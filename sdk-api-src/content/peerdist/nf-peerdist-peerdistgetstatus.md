@@ -1,6 +1,6 @@
 ---
 UID: NF:peerdist.PeerDistGetStatus
-title: PeerDistGetStatus function
+title: PeerDistGetStatus function (peerdist.h)
 author: windows-sdk-content
 description: PeerDistGetStatus function returns the current status of the Peer Distribution service.
 old-location: p2p\peerdistgetstatus.htm

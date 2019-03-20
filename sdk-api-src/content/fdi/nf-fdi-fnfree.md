@@ -1,6 +1,6 @@
 ---
 UID: NF:fdi.FNFREE
-title: FNFREE macro
+title: FNFREE macro (fdi.h)
 author: windows-sdk-content
 description: The FNFREE macro provides the declaration for the application-defined callback function to free previously allocated memory in an FDI context.
 old-location: winprog\fnfree.htm

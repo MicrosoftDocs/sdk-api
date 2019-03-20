@@ -1,6 +1,6 @@
 ---
 UID: NF:appmodel.GetPackagePathByFullName
-title: GetPackagePathByFullName function
+title: GetPackagePathByFullName function (appmodel.h)
 author: windows-sdk-content
 description: Gets the path of the specified package.
 old-location: appxpkg\getpackagepathbyfullname.htm

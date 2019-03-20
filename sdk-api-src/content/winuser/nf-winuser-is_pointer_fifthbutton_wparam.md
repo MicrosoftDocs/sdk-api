@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.IS_POINTER_FIFTHBUTTON_WPARAM
-title: IS_POINTER_FIFTHBUTTON_WPARAM macro
+title: IS_POINTER_FIFTHBUTTON_WPARAM macro (winuser.h)
 author: windows-sdk-content
 description: Checks whether the specified pointer took fifth action.
 old-location: inputmsg\is_pointer_fifthbutton_wparam.htm

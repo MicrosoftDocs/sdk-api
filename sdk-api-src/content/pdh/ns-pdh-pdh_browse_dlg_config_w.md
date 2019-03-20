@@ -1,6 +1,6 @@
 ---
 UID: NS:pdh._BrowseDlgConfig_W
-title: PDH_BROWSE_DLG_CONFIG_W
+title: PDH_BROWSE_DLG_CONFIG_W (pdh.h)
 author: windows-sdk-content
 description: The PDH_BROWSE_DLG_CONFIG structure is used by the PdhBrowseCounters function to configure the Browse Performance Counters dialog box.
 old-location: perf\pdh_browse_dlg_config_str.htm

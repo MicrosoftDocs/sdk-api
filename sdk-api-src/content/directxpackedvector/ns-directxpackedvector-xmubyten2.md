@@ -1,6 +1,6 @@
 ---
 UID: NS:directxpackedvector.XMUBYTEN2
-title: XMUBYTEN2
+title: XMUBYTEN2 (directxpackedvector.h)
 author: windows-sdk-content
 description: A 2D vector for storing unsigned, normalized values as signed 8-bits (1 byte) integers.
 old-location: dxmath\xmubyten2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcoreapi.EventArgsType
-title: EventArgsType
+title: EventArgsType (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Contains values that specify the event type described by a UiaEventArgs structure.
 old-location: winauto\uiauto_EventArgsTypeEnum.htm

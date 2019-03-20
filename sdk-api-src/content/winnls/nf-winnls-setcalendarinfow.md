@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.SetCalendarInfoW
-title: SetCalendarInfoW function
+title: SetCalendarInfoW function (winnls.h)
 author: windows-sdk-content
 description: Sets an item of locale information for a calendar. For more information, see Date and Calendar.
 old-location: intl\setcalendarinfo.htm

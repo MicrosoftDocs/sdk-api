@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.LoadPolicy
-title: IX509EnrollmentPolicyServer::LoadPolicy
+title: IX509EnrollmentPolicyServer::LoadPolicy (certenroll.h)
 author: windows-sdk-content
 description: Retrieves policy information from the certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_loadpolicy.htm

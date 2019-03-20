@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointOffloadStreamMeter.GetMeteringData
-title: IAudioEndpointOffloadStreamMeter::GetMeteringData
+title: IAudioEndpointOffloadStreamMeter::GetMeteringData (audioengineendpoint.h)
 author: windows-sdk-content
 description: The GetMeteringData method retrieves general information about the available audio channels in the offloaded stream.
 old-location: coreaudio\iaudioendpointoffloadstreammeter_getmeteringdata.htm

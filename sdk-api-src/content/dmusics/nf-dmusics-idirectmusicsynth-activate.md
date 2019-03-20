@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.Activate
-title: IDirectMusicSynth::Activate
+title: IDirectMusicSynth::Activate (dmusics.h)
 author: windows-sdk-content
 description: The Activate method enables or disables the audio device under program control.
 old-location: audio\idirectmusicsynth_activate.htm

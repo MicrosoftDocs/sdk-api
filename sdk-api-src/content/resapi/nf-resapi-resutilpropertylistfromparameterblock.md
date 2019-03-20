@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilPropertyListFromParameterBlock
-title: ResUtilPropertyListFromParameterBlock function
+title: ResUtilPropertyListFromParameterBlock function (resapi.h)
 author: windows-sdk-content
 description: Constructs a property list from a property table and a parameter block.
 old-location: mscs\resutilpropertylistfromparameterblock.htm

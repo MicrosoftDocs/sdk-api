@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IContextMenuSite.DoContextMenuPopup
-title: IContextMenuSite::DoContextMenuPopup
+title: IContextMenuSite::DoContextMenuPopup (shobjidl_core.h)
 author: windows-sdk-content
 description: DoContextMenuPopup is no longer available for use as of Windows Server 2003.
 old-location: shell\IContextMenuSite_DoContextMenuPopup.htm

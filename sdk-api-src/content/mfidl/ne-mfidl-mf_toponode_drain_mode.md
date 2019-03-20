@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MF_TOPONODE_DRAIN_MODE
-title: MF_TOPONODE_DRAIN_MODE
+title: MF_TOPONODE_DRAIN_MODE (mfidl.h)
 author: windows-sdk-content
 description: Defines at what times a transform in a topology is drained.
 old-location: mf\mf_toponode_drain_mode.htm

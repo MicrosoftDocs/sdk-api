@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpScanDatabase
-title: DhcpScanDatabase function
+title: DhcpScanDatabase function (dhcpsapi.h)
 author: windows-sdk-content
 description: Enumerates the leased DHCPv4 client IPv4 addresses that are not synchronized between the in-memory cache and the server database.
 old-location: dhcp\dhcpscandatabase.htm

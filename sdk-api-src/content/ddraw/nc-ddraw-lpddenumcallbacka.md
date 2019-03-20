@@ -1,6 +1,6 @@
 ---
 UID: NC:ddraw.LPDDENUMCALLBACKA
-title: LPDDENUMCALLBACKA
+title: LPDDENUMCALLBACKA (ddraw.h)
 author: windows-sdk-content
 description: The DDEnumCallback function is an application-defined callback function for the DirectDrawEnumerate function.
 old-location: directdraw\ddenumcallback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IWebWizardExtension
-title: IWebWizardExtension
+title: IWebWizardExtension (shobjidl.h)
 author: windows-sdk-content
 description: Extends the IWizardExtension interface by exposing methods to set the wizard extension's initial URL, and a specific URL in case of an error.
 old-location: shell\IWebWizardExtension.htm

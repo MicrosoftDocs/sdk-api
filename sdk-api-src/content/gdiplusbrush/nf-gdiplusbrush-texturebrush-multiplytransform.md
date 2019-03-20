@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.MultiplyTransform
-title: TextureBrush::MultiplyTransform
+title: TextureBrush::MultiplyTransform (gdiplusbrush.h)
 author: windows-sdk-content
 description: The TextureBrush::MultiplyTransform method updates this brush's transformation matrix with the product of itself and another matrix.
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_MultiplyTransform_matrix_order_.htm

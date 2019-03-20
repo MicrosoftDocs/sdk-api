@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetRecordModuleInfo
-title: IIsdbDownloadContentDescriptor::GetRecordModuleInfo
+title: IIsdbDownloadContentDescriptor::GetRecordModuleInfo (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the value of a module_info_byte field from a module record in an Integrated Services Digital Broadcasting (ISDB) download content descriptor.
 old-location: mstv\iisdbdownloadcontentdescriptor_getrecordmoduleinfo.htm

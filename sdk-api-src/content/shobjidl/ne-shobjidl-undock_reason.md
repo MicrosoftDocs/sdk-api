@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl.UNDOCK_REASON
-title: UNDOCK_REASON
+title: UNDOCK_REASON (shobjidl.h)
 author: windows-sdk-content
 description: Values that indicate the reason that a docked accessibility app window has been undocked. Used by IAccessibilityDockingServiceCallback::Undocked.
 old-location: shell\UNDOCK_REASON.htm

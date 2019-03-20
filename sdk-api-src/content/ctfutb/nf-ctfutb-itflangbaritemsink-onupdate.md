@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemSink.OnUpdate
-title: ITfLangBarItemSink::OnUpdate
+title: ITfLangBarItemSink::OnUpdate (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarItemSink::OnUpdate method
 old-location: tsf\itflangbaritemsink_onupdate.htm

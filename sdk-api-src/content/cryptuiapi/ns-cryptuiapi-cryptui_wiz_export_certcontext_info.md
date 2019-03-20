@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptuiapi._CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO
-title: CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO
+title: CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO (cryptuiapi.h)
 author: windows-sdk-content
 description: Contains information that controls the operation of the CryptUIWizExport function when a certificate is the object being exported.
 old-location: security\cryptui_wiz_export_certcontext_info.htm

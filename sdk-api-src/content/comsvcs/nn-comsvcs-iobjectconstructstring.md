@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IObjectConstructString
-title: IObjectConstructString
+title: IObjectConstructString (comsvcs.h)
 author: windows-sdk-content
 description: Provides access to a constructor string. Use it when you want to specify the parameters during the construction of your object.
 old-location: cos\iobjectconstructstring.htm

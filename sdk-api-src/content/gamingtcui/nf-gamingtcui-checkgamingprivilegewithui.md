@@ -1,6 +1,6 @@
 ---
 UID: NF:gamingtcui.CheckGamingPrivilegeWithUI
-title: CheckGamingPrivilegeWithUI function
+title: CheckGamingPrivilegeWithUI function (gamingtcui.h)
 author: windows-sdk-content
 description: Do not use. This API is only supported for Xbox developers.
 old-location: tcui\CheckGamingPrivilegeWithUI.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector2AngleBetweenVectors
-title: XMVector2AngleBetweenVectors function
+title: XMVector2AngleBetweenVectors function (directxmath.h)
 author: windows-sdk-content
 description: Computes the radian angle between two 2D vectors.
 old-location: dxmath\xmvector2anglebetweenvectors.htm

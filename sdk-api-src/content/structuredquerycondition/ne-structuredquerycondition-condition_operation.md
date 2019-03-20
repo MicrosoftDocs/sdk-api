@@ -1,6 +1,6 @@
 ---
 UID: NE:structuredquerycondition.tagCONDITION_OPERATION
-title: CONDITION_OPERATION
+title: CONDITION_OPERATION (structuredquerycondition.h)
 author: windows-sdk-content
 description: Provides a set of flags to be used with following methods to indicate the operation in ICondition::GetComparisonInfo, ICondition2::GetLeafConditionInfo, IConditionFactory::MakeLeaf, IConditionFactory2::CreateBooleanLeaf, IConditionFactory2::CreateIntegerLeaf, IConditionFactory2::MakeLeaf, IConditionFactory2::CreateStringLeaf, and IConditionGenerator::GenerateForLeaf.
 old-location: search\_search_CONDITION_OPERATION.htm

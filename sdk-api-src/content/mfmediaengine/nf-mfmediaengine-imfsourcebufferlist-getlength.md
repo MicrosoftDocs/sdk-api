@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBufferList.GetLength
-title: IMFSourceBufferList::GetLength
+title: IMFSourceBufferList::GetLength (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the number of IMFSourceBuffer objects in the list.
 old-location: mf\imfsourcebufferlist_getlength.htm

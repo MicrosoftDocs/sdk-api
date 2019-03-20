@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleQueryLinkFromData
-title: OleQueryLinkFromData function
+title: OleQueryLinkFromData function (ole2.h)
 author: windows-sdk-content
 description: Determines whether an OLE linked object (rather than an OLE embedded object) can be created from a clipboard data object.
 old-location: com\olequerylinkfromdata.htm

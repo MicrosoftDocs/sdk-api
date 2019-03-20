@@ -1,6 +1,6 @@
 ---
 UID: NN:ddpbackup.IDedupBackupSupport
-title: IDedupBackupSupport
+title: IDedupBackupSupport (ddpbackup.h)
 author: windows-sdk-content
 description: Provides a method for restoring a file from a backup store containing copies of Data Deduplication reparse points, metadata, and container files.
 old-location: dedup\idedupbackupsupport.htm

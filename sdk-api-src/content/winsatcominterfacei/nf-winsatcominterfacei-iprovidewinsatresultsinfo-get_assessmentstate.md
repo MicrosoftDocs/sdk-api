@@ -1,6 +1,6 @@
 ---
 UID: NF:winsatcominterfacei.IProvideWinSATResultsInfo.get_AssessmentState
-title: IProvideWinSATResultsInfo::get_AssessmentState
+title: IProvideWinSATResultsInfo::get_AssessmentState (winsatcominterfacei.h)
 author: windows-sdk-content
 description: Retrieves the state of the assessment.
 old-location: winsat\iprovidewinsatresultsinfo_assessmentstate.htm

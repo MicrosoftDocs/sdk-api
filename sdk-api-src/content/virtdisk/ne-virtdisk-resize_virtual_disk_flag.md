@@ -1,6 +1,6 @@
 ---
 UID: NE:virtdisk._RESIZE_VIRTUAL_DISK_FLAG
-title: RESIZE_VIRTUAL_DISK_FLAG
+title: RESIZE_VIRTUAL_DISK_FLAG (virtdisk.h)
 author: windows-sdk-content
 description: Enumerates the available flags for the ResizeVirtualDisk function.
 old-location: vstor\resize_virtual_disk_flag.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.ResolveNeighbor
-title: ResolveNeighbor function
+title: ResolveNeighbor function (iphlpapi.h)
 author: windows-sdk-content
 description: Resolves the physical address for a neighbor IP address entry on the local computer.
 old-location: iphlp\resolveneighbor.htm

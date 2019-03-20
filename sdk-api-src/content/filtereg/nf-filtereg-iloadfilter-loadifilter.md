@@ -1,6 +1,6 @@
 ---
 UID: NF:filtereg.ILoadFilter.LoadIFilter
-title: ILoadFilter::LoadIFilter
+title: ILoadFilter::LoadIFilter (filtereg.h)
 author: windows-sdk-content
 description: Retrieves and loads the most appropriate filter that is mapped to a Shell data source.
 old-location: search\iloadfilter_loadifilter.htm

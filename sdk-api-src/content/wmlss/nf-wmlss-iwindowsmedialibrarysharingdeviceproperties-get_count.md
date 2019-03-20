@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingDeviceProperties.get_Count
-title: IWindowsMediaLibrarySharingDeviceProperties::get_Count
+title: IWindowsMediaLibrarySharingDeviceProperties::get_Count (wmlss.h)
 author: windows-sdk-content
 description: The get_Count method retrieves the number of properties associated with an individual media device.
 old-location: wmlss\IWMLSDevicePropertiesget_Count.htm

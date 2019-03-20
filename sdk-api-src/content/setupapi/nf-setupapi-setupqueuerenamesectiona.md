@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupQueueRenameSectionA
-title: SetupQueueRenameSectionA function
+title: SetupQueueRenameSectionA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupQueueRenameSection function queues a section in an INF file for renaming. The section must be in the correct rename list section format and the INF file must contain a DestinationDirs section.
 old-location: setup\setupqueuerenamesection.htm

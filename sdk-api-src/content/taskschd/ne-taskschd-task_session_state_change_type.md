@@ -1,6 +1,6 @@
 ---
 UID: NE:taskschd._TASK_SESSION_STATE_CHANGE_TYPE
-title: TASK_SESSION_STATE_CHANGE_TYPE
+title: TASK_SESSION_STATE_CHANGE_TYPE (taskschd.h)
 author: windows-sdk-content
 description: Defines what kind of Terminal Server session state change you can use to trigger a task to start.
 old-location: taskschd\task_session_state_change_type.htm

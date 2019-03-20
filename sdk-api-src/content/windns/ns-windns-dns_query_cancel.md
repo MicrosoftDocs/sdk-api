@@ -1,6 +1,6 @@
 ---
 UID: NS:windns._DNS_QUERY_CANCEL
-title: DNS_QUERY_CANCEL
+title: DNS_QUERY_CANCEL (windns.h)
 author: windows-sdk-content
 description: A DNS_QUERY_CANCEL structure can be used to cancel an asynchronous DNS query.
 old-location: dns\dns_query_cancel.htm

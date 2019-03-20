@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.SetAllTabletsMode
-title: IRealTimeStylus::SetAllTabletsMode
+title: IRealTimeStylus::SetAllTabletsMode (rtscom.h)
 author: windows-sdk-content
 description: Sets the mode for the RealTimeStylus Class object to collect data from all digitizers.
 old-location: tablet\irealtimestylus_setalltabletsmode.htm

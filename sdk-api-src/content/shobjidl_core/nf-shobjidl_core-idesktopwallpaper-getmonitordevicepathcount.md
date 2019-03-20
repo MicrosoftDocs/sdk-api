@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.GetMonitorDevicePathCount
-title: IDesktopWallpaper::GetMonitorDevicePathCount
+title: IDesktopWallpaper::GetMonitorDevicePathCount (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the number of monitors that are associated with the system.
 old-location: shell\IDesktopWallpaper_GetMonitorDevicePathCount.htm

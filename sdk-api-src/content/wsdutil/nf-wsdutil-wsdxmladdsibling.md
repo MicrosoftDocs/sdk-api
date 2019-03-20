@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdutil.WSDXMLAddSibling
-title: WSDXMLAddSibling function
+title: WSDXMLAddSibling function (wsdutil.h)
 author: windows-sdk-content
 description: Adds a sibling element.
 old-location: ncd\wsdxmladdsibling.htm

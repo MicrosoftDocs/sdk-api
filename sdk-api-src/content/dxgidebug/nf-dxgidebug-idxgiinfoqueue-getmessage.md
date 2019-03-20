@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetMessage
-title: IDXGIInfoQueue::GetMessage
+title: IDXGIInfoQueue::GetMessage (dxgidebug.h)
 author: windows-sdk-content
 description: Gets a message from the message queue.
 old-location: direct3ddxgi\idxgiinfoqueue_getmessage.htm

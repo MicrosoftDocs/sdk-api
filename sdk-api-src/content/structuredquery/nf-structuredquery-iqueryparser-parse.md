@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IQueryParser.Parse
-title: IQueryParser::Parse
+title: IQueryParser::Parse (structuredquery.h)
 author: windows-sdk-content
 description: Parses an input string that contains Structured Query keywords and/or contents to produce an IQuerySolution object.
 old-location: search\_search_IQueryParser_Parse.htm

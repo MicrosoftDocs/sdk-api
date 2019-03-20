@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetRawNatureOfActivationText
-title: ISCTE_EAS::GetRawNatureOfActivationText
+title: ISCTE_EAS::GetRawNatureOfActivationText (atscpsipparser.h)
 author: windows-sdk-content
 description: Gets the raw nature_of_activation_text field from the EAS table.
 old-location: mstv\iscte_eas_getrawnatureofactivationtext.htm

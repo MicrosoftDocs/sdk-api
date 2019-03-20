@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_Description
-title: IUpdateHistoryEntry::get_Description
+title: IUpdateHistoryEntry::get_Description (wuapi.h)
 author: windows-sdk-content
 description: Gets the description of an update.
 old-location: wua\iupdatehistoryentry_description.htm

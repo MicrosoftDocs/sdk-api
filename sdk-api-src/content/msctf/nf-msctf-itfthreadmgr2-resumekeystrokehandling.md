@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.ResumeKeystrokeHandling
-title: ITfThreadMgr2::ResumeKeystrokeHandling
+title: ITfThreadMgr2::ResumeKeystrokeHandling (msctf.h)
 author: windows-sdk-content
 description: Resumes suspended keystroke handling.
 old-location: tsf\itfthreadmgr2_resumekeystrokehandling.htm

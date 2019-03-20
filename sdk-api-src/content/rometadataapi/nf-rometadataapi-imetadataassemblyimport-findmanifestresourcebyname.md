@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.FindManifestResourceByName
-title: IMetaDataAssemblyImport::FindManifestResourceByName
+title: IMetaDataAssemblyImport::FindManifestResourceByName (rometadataapi.h)
 author: windows-sdk-content
 description: Gets a pointer to the manifest resource with the specified name.
 old-location: winrt\imetadataassemblyimport_findmanifestresourcebyname.htm

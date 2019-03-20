@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TabCtrl_GetCurFocus
-title: TabCtrl_GetCurFocus macro
+title: TabCtrl_GetCurFocus macro (commctrl.h)
 author: windows-sdk-content
 description: Returns the index of the item that has the focus in a tab control. You can use this macro or send the TCM_GETCURFOCUS message explicitly.
 old-location: controls\TabCtrl_GetCurFocus.htm

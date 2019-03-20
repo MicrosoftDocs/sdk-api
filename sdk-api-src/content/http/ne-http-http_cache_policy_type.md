@@ -1,6 +1,6 @@
 ---
 UID: NE:http._HTTP_CACHE_POLICY_TYPE
-title: HTTP_CACHE_POLICY_TYPE
+title: HTTP_CACHE_POLICY_TYPE (http.h)
 author: windows-sdk-content
 description: The HTTP_CACHE_POLICY_TYPE enumeration type defines available cache policies.
 old-location: http\http_cache_policy_type.htm

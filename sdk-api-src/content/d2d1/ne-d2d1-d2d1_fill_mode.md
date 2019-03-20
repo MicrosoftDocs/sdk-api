@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1.D2D1_FILL_MODE
-title: D2D1_FILL_MODE
+title: D2D1_FILL_MODE (d2d1.h)
 author: windows-sdk-content
 description: Specifies how the intersecting areas of geometries or figures are combined to form the area of the composite geometry.
 old-location: direct2d\D2D1_FILL_MODE.htm

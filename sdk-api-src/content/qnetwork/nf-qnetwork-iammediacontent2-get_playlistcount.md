@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMMediaContent2.get_PlaylistCount
-title: IAMMediaContent2::get_PlaylistCount
+title: IAMMediaContent2::get_PlaylistCount (qnetwork.h)
 author: windows-sdk-content
 description: The get_PlaylistCount method retrieves the number of entries in an ASX file.
 old-location: dshow\iammediacontent2_get_playlistcount.htm

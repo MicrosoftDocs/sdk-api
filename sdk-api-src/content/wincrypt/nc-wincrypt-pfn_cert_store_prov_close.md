@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PFN_CERT_STORE_PROV_CLOSE
-title: PFN_CERT_STORE_PROV_CLOSE
+title: PFN_CERT_STORE_PROV_CLOSE (wincrypt.h)
 author: windows-sdk-content
 description: An application-defined callback function that is called by CertCloseStore when the store's reference count is decremented to zero.
 old-location: security\certstoreprovclosecallback.htm

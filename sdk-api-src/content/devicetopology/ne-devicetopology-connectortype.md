@@ -1,6 +1,6 @@
 ---
 UID: NE:devicetopology.__MIDL___MIDL_itf_devicetopology_0000_0000_0013
-title: ConnectorType
+title: ConnectorType (devicetopology.h)
 author: windows-sdk-content
 description: The ConnectorType enumeration indicates the type of connection that a connector is part of.
 old-location: coreaudio\connectortype.htm

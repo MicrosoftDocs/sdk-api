@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.AllocateAndGetTcpExTableFromStack
-title: AllocateAndGetTcpExTableFromStack function
+title: AllocateAndGetTcpExTableFromStack function (iphlpapi.h)
 author: windows-sdk-content
 description: Retrieves the TCP connection table and allocates memory from the local heap to store the table.
 old-location: iphlp\allocateandgettcpextablefromstack.htm

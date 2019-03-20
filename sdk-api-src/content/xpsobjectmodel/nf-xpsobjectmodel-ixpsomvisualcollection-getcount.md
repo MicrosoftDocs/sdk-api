@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualCollection.GetCount
-title: IXpsOMVisualCollection::GetCount
+title: IXpsOMVisualCollection::GetCount (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the number of IXpsOMVisual interface pointers in the collection.
 old-location: xps\ixpsomvisualcollection_getcount.htm

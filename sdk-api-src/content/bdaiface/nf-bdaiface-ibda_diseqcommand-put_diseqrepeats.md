@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DiseqCommand.put_DiseqRepeats
-title: IBDA_DiseqCommand::put_DiseqRepeats
+title: IBDA_DiseqCommand::put_DiseqRepeats (bdaiface.h)
 author: windows-sdk-content
 description: Enables or disables repeated Digital Satellite Equipment Control (DiSEqC) commands.
 old-location: mstv\ibda_diseqcommand_put_diseqrepeats.htm

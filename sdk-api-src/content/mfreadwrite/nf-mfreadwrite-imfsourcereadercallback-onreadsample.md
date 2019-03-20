@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReaderCallback.OnReadSample
-title: IMFSourceReaderCallback::OnReadSample
+title: IMFSourceReaderCallback::OnReadSample (mfreadwrite.h)
 author: windows-sdk-content
 description: Called when the IMFSourceReader::ReadSample method completes.
 old-location: mf\imfsourcereadercallback_onreadsample.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionSmimeCapabilities.InitializeDecode
-title: IX509ExtensionSmimeCapabilities::InitializeDecode
+title: IX509ExtensionSmimeCapabilities::InitializeDecode (certenroll.h)
 author: windows-sdk-content
 description: Initializes the extension from a Distinguished Encoding Rules (DER) encoded byte array that contains the extension value.
 old-location: security\ix509extensionsmimecapabilities_initializedecode_method.htm

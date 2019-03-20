@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IAtscPsipParser.GetEAS
-title: IAtscPsipParser::GetEAS
+title: IAtscPsipParser::GetEAS (atscpsipparser.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatscpsipparser_geteas.htm

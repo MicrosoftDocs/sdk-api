@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPObject.Read
-title: IMDSPObject::Read
+title: IMDSPObject::Read (mswmdm.h)
 author: windows-sdk-content
 description: The Read method reads data from the object at the current position. This operation is valid only if the storage object represents a file.
 old-location: wmdm\imdspobject_read.htm

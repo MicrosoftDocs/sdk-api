@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.phoneSetLamp
-title: phoneSetLamp function
+title: phoneSetLamp function (tapi.h)
 author: windows-sdk-content
 description: The phoneSetLamp function causes the specified lamp to be lit on the specified open phone device in the specified lamp mode.
 old-location: tapi2\phonesetlamp.htm

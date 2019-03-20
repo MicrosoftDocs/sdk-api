@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISmimeCapabilities.AddFromCsp
-title: ISmimeCapabilities::AddFromCsp
+title: ISmimeCapabilities::AddFromCsp (certenroll.h)
 author: windows-sdk-content
 description: Adds objects to the collection by identifying the encryption algorithms supported by a specific cryptographic provider.
 old-location: security\ismimecapabilities_addfromcsp_method.htm

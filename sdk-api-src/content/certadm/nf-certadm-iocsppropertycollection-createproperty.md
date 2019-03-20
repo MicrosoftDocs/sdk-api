@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPPropertyCollection.CreateProperty
-title: IOCSPPropertyCollection::CreateProperty
+title: IOCSPPropertyCollection::CreateProperty (certadm.h)
 author: windows-sdk-content
 description: Creates a new property and adds it to a property set.
 old-location: security\iocsppropertycollection_createproperty_method.htm

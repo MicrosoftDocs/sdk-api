@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.get_Description
-title: ILegacyIAccessibleProvider::get_Description
+title: ILegacyIAccessibleProvider::get_Description (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains the description of this element.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_Description.htm

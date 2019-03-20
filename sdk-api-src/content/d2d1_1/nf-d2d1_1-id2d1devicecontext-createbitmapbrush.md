@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.CreateBitmapBrush
-title: ID2D1DeviceContext::CreateBitmapBrush
+title: ID2D1DeviceContext::CreateBitmapBrush (d2d1_1.h)
 author: windows-sdk-content
 description: Creates a bitmap brush, the input image is a Direct2D bitmap object.
 old-location: direct2d\id2d1devicecontext_createbitmapbrush.htm

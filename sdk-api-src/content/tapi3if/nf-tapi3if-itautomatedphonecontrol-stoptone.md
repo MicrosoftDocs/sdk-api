@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.StopTone
-title: ITAutomatedPhoneControl::StopTone
+title: ITAutomatedPhoneControl::StopTone (tapi3if.h)
 author: windows-sdk-content
 description: The StopTone method ceases any tone that is currently being played. If no tone is being played, the method performs no action and returns success.
 old-location: tapi3\itautomatedphonecontrol_stoptone.htm

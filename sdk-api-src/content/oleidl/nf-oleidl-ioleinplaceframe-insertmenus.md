@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceFrame.InsertMenus
-title: IOleInPlaceFrame::InsertMenus
+title: IOleInPlaceFrame::InsertMenus (oleidl.h)
 author: windows-sdk-content
 description: Enables the container to insert menu groups into the composite menu to be used during the in-place session.
 old-location: com\ioleinplaceframe_insertmenus.htm

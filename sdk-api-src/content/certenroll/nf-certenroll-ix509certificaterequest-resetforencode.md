@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.ResetForEncode
-title: IX509CertificateRequest::ResetForEncode
+title: IX509CertificateRequest::ResetForEncode (certenroll.h)
 author: windows-sdk-content
 description: Restores the state of the request object to that which existed before the Encode method was called.
 old-location: security\ix509certificaterequest_resetforencode_method.htm

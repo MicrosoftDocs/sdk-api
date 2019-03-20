@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IWMDeviceManager
-title: IWMDeviceManager
+title: IWMDeviceManager (mswmdm.h)
 author: windows-sdk-content
 description: The IWMDeviceManager interface is the top level Windows Media Device Manager interface for applications.
 old-location: wmdm\iwmdevicemanager.htm

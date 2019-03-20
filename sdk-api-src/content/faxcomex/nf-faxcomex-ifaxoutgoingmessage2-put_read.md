@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage2.put_Read
-title: IFaxOutgoingMessage2::put_Read
+title: IFaxOutgoingMessage2::put_Read (faxcomex.h)
 author: windows-sdk-content
 description: Indicates if the fax has been read.
 old-location: fax\_mfax_faxoutgoingmessage2_cpp_mfax_faxoutgoingmessage_read_cpp.htm

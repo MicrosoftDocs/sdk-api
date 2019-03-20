@@ -1,6 +1,6 @@
 ---
 UID: NS:wintrust.WINTRUST_CERT_INFO_
-title: WINTRUST_CERT_INFO
+title: WINTRUST_CERT_INFO (wintrust.h)
 author: windows-sdk-content
 description: Used when calling WinVerifyTrust to verify a CERT_CONTEXT.
 old-location: security\wintrust_cert_info.htm

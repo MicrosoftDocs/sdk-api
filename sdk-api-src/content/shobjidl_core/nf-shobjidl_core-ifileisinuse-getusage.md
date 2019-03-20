@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileIsInUse.GetUsage
-title: IFileIsInUse::GetUsage
+title: IFileIsInUse::GetUsage (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets a value that indicates how the file in use is being used.
 old-location: shell\IFileIsInUse_GetUsage.htm

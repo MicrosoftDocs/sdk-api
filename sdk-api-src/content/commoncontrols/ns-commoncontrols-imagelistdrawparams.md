@@ -1,6 +1,6 @@
 ---
 UID: NS:commoncontrols._IMAGELISTDRAWPARAMS
-title: IMAGELISTDRAWPARAMS
+title: IMAGELISTDRAWPARAMS (commoncontrols.h)
 author: windows-sdk-content
 description: Contains information about an image list draw operation and is used with the IImageList::Draw function.
 old-location: controls\IMAGELISTDRAWPARAMS.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IServiceTransactionConfig
-title: IServiceTransactionConfig
+title: IServiceTransactionConfig (comsvcs.h)
 author: windows-sdk-content
 description: Configures the transaction services for the work that is done when calling either CoCreateActivity or CoEnterServiceDomain.
 old-location: cos\iservicetransactionconfig.htm

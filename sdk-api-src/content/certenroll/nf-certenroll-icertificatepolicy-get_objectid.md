@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertificatePolicy.get_ObjectId
-title: ICertificatePolicy::get_ObjectId
+title: ICertificatePolicy::get_ObjectId (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an object identifier (OID) for the policy object.
 old-location: security\icertificatepolicy_objectid_property.htm

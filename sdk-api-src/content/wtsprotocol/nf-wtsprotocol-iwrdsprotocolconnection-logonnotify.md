@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.LogonNotify
-title: IWRdsProtocolConnection::LogonNotify
+title: IWRdsProtocolConnection::LogonNotify (wtsprotocol.h)
 author: windows-sdk-content
 description: Called when the user has logged on to the session.
 old-location: termserv\iwrdsprotocolconnection_logonnotify.htm

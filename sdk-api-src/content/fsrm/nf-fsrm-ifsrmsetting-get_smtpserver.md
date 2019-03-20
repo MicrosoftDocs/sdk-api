@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmSetting.get_SmtpServer
-title: IFsrmSetting::get_SmtpServer
+title: IFsrmSetting::get_SmtpServer (fsrm.h)
 author: windows-sdk-content
 description: Retrieves or sets the SMTP server that FSRM uses to send email.
 old-location: fsrm\ifsrmsetting_smtpserver.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:drt.drt_match_type_tag
-title: DRT_MATCH_TYPE
+title: DRT_MATCH_TYPE (drt.h)
 author: windows-sdk-content
 description: The DRT_MATCH_TYPE enumeration defines the exactness of a search result returned by DrtGetSearchResult after initiating a search with the DrtStartSearch API.
 old-location: p2p\drt_match_type.htm

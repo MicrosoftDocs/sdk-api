@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdoServiceControl.GetServiceStatus
-title: ISdoServiceControl::GetServiceStatus
+title: ISdoServiceControl::GetServiceStatus (sdoias.h)
 author: windows-sdk-content
 description: The GetServiceStatus method retrieves the status of the service being administered through SDO.
 old-location: nps\SDO_isdoservicecontrol_getservicestatus.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMFLOAT2.XMFLOAT2(float,float)
-title: XMFLOAT2::XMFLOAT2(float,float)
+title: XMFLOAT2::XMFLOAT2(float,float) (directxmath.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMFLOAT2 from two float arguments.
 old-location: dxmath\xmfloat2_ctor_2.htm

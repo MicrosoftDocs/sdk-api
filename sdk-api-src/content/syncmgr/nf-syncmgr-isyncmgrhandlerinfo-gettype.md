@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandlerInfo.GetType
-title: ISyncMgrHandlerInfo::GetType
+title: ISyncMgrHandlerInfo::GetType (syncmgr.h)
 author: windows-sdk-content
 description: Gets the handler type for Sync Center.
 old-location: shell\ISyncMgrHandlerInfo_GetType.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.SetVideoClippingWindow
-title: IVMRWindowlessControl::SetVideoClippingWindow
+title: IVMRWindowlessControl::SetVideoClippingWindow (strmif.h)
 author: windows-sdk-content
 description: The SetVideoClippingWindow method specifies the container window that video should be clipped to.
 old-location: dshow\ivmrwindowlesscontrol_setvideoclippingwindow.htm

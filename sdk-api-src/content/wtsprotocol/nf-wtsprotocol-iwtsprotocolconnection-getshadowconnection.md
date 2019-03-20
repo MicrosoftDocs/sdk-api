@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.GetShadowConnection
-title: IWTSProtocolConnection::GetShadowConnection
+title: IWTSProtocolConnection::GetShadowConnection (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolConnection::GetShadowConnection is no longer available. Instead, use IWRdsProtocolConnection::GetShadowConnection.
 old-location: termserv\iwtsprotocolconnection_getshadowconnection.htm

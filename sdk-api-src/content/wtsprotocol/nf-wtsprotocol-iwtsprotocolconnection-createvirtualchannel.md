@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.CreateVirtualChannel
-title: IWTSProtocolConnection::CreateVirtualChannel
+title: IWTSProtocolConnection::CreateVirtualChannel (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolConnection::CreateVirtualChannel is no longer available. Instead, use IWRdsProtocolConnection::CreateVirtualChannel.
 old-location: termserv\iwtsprotocolconnection_createvirtualchannel.htm

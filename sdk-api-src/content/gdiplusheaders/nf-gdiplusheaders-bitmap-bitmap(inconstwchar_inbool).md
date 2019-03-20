@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.Bitmap(IN const WCHAR,IN BOOL)
-title: Bitmap::Bitmap(IN const WCHAR,IN BOOL)
+title: Bitmap::Bitmap(IN const WCHAR,IN BOOL) (gdiplusheaders.h)
 author: windows-sdk-content
 description: Creates a Bitmap::Bitmap object based on an image file.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_Bitmap_filename_useIcm_.htm

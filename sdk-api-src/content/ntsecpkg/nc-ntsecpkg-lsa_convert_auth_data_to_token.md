@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_CONVERT_AUTH_DATA_TO_TOKEN
-title: LSA_CONVERT_AUTH_DATA_TO_TOKEN
+title: LSA_CONVERT_AUTH_DATA_TO_TOKEN (ntsecpkg.h)
 author: windows-sdk-content
 description: The ConvertAuthDataToToken function creates an access token from the authorization data returned from the GetAuthDataForUser or GetUserAuthData functions.
 old-location: security\convertauthdatatotoken.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winsvc._SERVICE_FAILURE_ACTIONSW
-title: SERVICE_FAILURE_ACTIONSW
+title: SERVICE_FAILURE_ACTIONSW (winsvc.h)
 author: windows-sdk-content
 description: Represents the action the service controller should take on each failure of a service. A service is considered failed when it terminates without reporting a status of SERVICE_STOPPED to the service controller.
 old-location: base\service_failure_actions_str.htm

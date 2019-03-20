@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteTextLayout2.GetMetrics
-title: IDWriteTextLayout2::GetMetrics
+title: IDWriteTextLayout2::GetMetrics (dwrite_2.h)
 author: windows-sdk-content
 description: Retrieves overall metrics for the formatted string.
 old-location: directwrite\idwritetextlayout2_getmetrics.htm

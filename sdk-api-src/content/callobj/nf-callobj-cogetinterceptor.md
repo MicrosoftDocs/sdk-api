@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.CoGetInterceptor
-title: CoGetInterceptor function
+title: CoGetInterceptor function (callobj.h)
 author: windows-sdk-content
 description: Instantiates the appropriate interceptor for the specified interface to be intercepted and returns the newly created interceptor.
 old-location: com\cogetinterceptor.htm

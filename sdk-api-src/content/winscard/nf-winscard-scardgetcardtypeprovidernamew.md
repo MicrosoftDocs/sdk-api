@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardGetCardTypeProviderNameW
-title: SCardGetCardTypeProviderNameW function
+title: SCardGetCardTypeProviderNameW function (winscard.h)
 author: windows-sdk-content
 description: Returns the name of the module (dynamic link library) that contains the provider for a given card name and provider type.
 old-location: security\scardgetcardtypeprovidername.htm

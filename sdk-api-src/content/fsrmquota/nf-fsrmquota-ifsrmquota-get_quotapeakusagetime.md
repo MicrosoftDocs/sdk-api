@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuota.get_QuotaPeakUsageTime
-title: IFsrmQuota::get_QuotaPeakUsageTime
+title: IFsrmQuota::get_QuotaPeakUsageTime (fsrmquota.h)
 author: windows-sdk-content
 description: Retrieves the date and time that the IFsrmQuota::QuotaPeakUsage property was set.
 old-location: fsrm\ifsrmquota_quotapeakusagetime.htm

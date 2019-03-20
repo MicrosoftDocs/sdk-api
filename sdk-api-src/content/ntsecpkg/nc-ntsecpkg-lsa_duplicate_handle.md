@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_DUPLICATE_HANDLE
-title: LSA_DUPLICATE_HANDLE
+title: LSA_DUPLICATE_HANDLE (ntsecpkg.h)
 author: windows-sdk-content
 description: The DuplicateHandle function creates a duplicate handle. The returned duplicate is in the caller's process space.
 old-location: security\duplicatehandle.htm

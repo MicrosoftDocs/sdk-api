@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_Interval
-title: MI_Interval
+title: MI_Interval (mi.h)
 author: windows-sdk-content
 description: MI_Interval represents an interval of time.
 old-location: wmi_v2\mi_interval.htm

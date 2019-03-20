@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFTimedTextRegion
-title: IMFTimedTextRegion
+title: IMFTimedTextRegion (mfmediaengine.h)
 author: windows-sdk-content
 description: Represents the display region of a timed-text object.
 old-location: mf\imftimedtextregion.htm

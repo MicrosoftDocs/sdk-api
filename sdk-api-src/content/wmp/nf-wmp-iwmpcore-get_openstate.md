@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCore.get_openState
-title: IWMPCore::get_openState
+title: IWMPCore::get_openState (wmp.h)
 author: windows-sdk-content
 description: The get_openState method retrieves an enumeration value indicating the state of the content source.
 old-location: wmp\iwmpcore_get_openstate.htm

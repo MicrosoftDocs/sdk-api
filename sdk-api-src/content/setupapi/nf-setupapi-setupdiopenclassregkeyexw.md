@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiOpenClassRegKeyExW
-title: SetupDiOpenClassRegKeyExW function
+title: SetupDiOpenClassRegKeyExW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiOpenClassRegKeyEx function opens the device setup class registry key, the device interface class registry key, or a specific class's subkey. This function opens the specified key on the local computer or on a remote computer.
 old-location: devinst\setupdiopenclassregkeyex.htm

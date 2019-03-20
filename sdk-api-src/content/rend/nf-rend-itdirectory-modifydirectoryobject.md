@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectory.ModifyDirectoryObject
-title: ITDirectory::ModifyDirectoryObject
+title: ITDirectory::ModifyDirectoryObject (rend.h)
 author: windows-sdk-content
 description: The ModifyDirectoryObject method commits directory modifications to the server.
 old-location: tapi3\itdirectory_modifydirectoryobject.htm

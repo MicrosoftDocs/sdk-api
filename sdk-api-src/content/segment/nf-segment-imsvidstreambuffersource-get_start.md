@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSource.get_Start
-title: IMSVidStreamBufferSource::get_Start
+title: IMSVidStreamBufferSource::get_Start (segment.h)
 author: windows-sdk-content
 description: The get_Start method retrieves the start time.
 old-location: mstv\imsvidstreambuffersource_get_start.htm

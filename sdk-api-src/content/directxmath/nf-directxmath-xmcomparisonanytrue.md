@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMComparisonAnyTrue
-title: XMComparisonAnyTrue function
+title: XMComparisonAnyTrue function (directxmath.h)
 author: windows-sdk-content
 description: Tests the comparison value to determine if any of the compared components are true.
 old-location: dxmath\xmcomparisonanytrue.htm

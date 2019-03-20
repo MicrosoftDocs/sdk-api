@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ILogonTrigger.put_UserId
-title: ILogonTrigger::put_UserId
+title: ILogonTrigger::put_UserId (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the identifier of the user.
 old-location: taskschd\ilogontrigger_userid.htm

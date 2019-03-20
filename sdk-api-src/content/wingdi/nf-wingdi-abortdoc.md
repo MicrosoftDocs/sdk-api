@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.AbortDoc
-title: AbortDoc function
+title: AbortDoc function (wingdi.h)
 author: windows-sdk-content
 description: The AbortDoc function stops the current print job and erases everything drawn since the last call to the StartDoc function.
 old-location: gdi\abortdoc.htm

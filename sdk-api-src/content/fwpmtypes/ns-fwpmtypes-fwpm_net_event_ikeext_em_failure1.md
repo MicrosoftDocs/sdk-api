@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_IKEEXT_EM_FAILURE1_
-title: FWPM_NET_EVENT_IKEEXT_EM_FAILURE1
+title: FWPM_NET_EVENT_IKEEXT_EM_FAILURE1 (fwpmtypes.h)
 author: windows-sdk-content
 description: The FWPM_NET_EVENT_IKEEXT_EM_FAILURE1 structure contains information that describes an IKE Extended mode (EM) failure.Note  FWPM_NET_EVENT_IKEEXT_EM_FAILURE1 is the specific implementation of FWPM_NET_EVENT_IKEEXT_EM_FAILURE used in Windows 7 and later.
 old-location: fwp\fwpm_net_event_ikeext_em_failure1.htm

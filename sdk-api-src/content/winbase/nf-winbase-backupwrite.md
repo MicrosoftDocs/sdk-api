@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.BackupWrite
-title: BackupWrite function
+title: BackupWrite function (winbase.h)
 author: windows-sdk-content
 description: Restore a file or directory that was backed up using BackupRead.
 old-location: backup\backupwrite.htm

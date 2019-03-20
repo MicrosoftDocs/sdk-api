@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertySystem.FormatForDisplayAlloc
-title: IPropertySystem::FormatForDisplayAlloc
+title: IPropertySystem::FormatForDisplayAlloc (propsys.h)
 author: windows-sdk-content
 description: Gets a string representation of a property value to an allocated memory buffer.
 old-location: properties\IPropertySystem_FormatForDisplayAlloc.htm

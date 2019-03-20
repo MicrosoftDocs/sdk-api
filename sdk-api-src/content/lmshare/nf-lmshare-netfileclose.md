@@ -1,6 +1,6 @@
 ---
 UID: NF:lmshare.NetFileClose
-title: NetFileClose function
+title: NetFileClose function (lmshare.h)
 author: windows-sdk-content
 description: Forces a resource to close. This function can be used when an error prevents closure by any other means. You should use NetFileClose with caution because it does not write data cached on the client system to the file before closing the file.
 old-location: fs\netfileclose.htm

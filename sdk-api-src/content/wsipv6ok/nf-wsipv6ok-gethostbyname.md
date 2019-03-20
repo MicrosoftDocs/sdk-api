@@ -1,6 +1,6 @@
 ---
 UID: NF:wsipv6ok.gethostbyname
-title: gethostbyname macro
+title: gethostbyname macro (wsipv6ok.h)
 author: windows-sdk-content
 description: The gethostbyname function retrieves host information corresponding to a host name from a host database.
 old-location: winsock\gethostbyname_2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.ShiftStartRegion
-title: ITfRange::ShiftStartRegion
+title: ITfRange::ShiftStartRegion (msctf.h)
 author: windows-sdk-content
 description: ITfRange::ShiftStartRegion method
 old-location: tsf\itfrange_shiftstartregion.htm
