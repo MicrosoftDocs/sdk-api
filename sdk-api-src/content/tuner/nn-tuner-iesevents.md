@@ -2,7 +2,7 @@
 UID: NN:tuner.IESEvents
 title: IESEvents (tuner.h)
 author: windows-sdk-content
-description: Implements event handling for devices that have registered to receive specific events derived from the IESEvent interface.
+description: Implements event handling for devices that have registered to receive specific events derived from the IESEvent interface. In a Protected Broadcast Driver Architecture graph, Media Sink Devices implement this interface to register for events.
 old-location: mstv\iesevents.htm
 tech.root: mstv
 ms.assetid: 1921f632-bb3b-4833-aa25-9caa3d65363f
@@ -50,8 +50,6 @@ req.redist:
 
 Implements event handling for devices that have registered to receive specific events derived from the <a href="https://msdn.microsoft.com/3c375480-c6df-4bb0-b417-5765b0bed9bf">IESEvent</a> interface. In a Protected Broadcast Driver Architecture graph, Media Sink Devices implement this interface to register for events.
       
-
-For more information about PBDA, download the specification from <a href="http://go.microsoft.com/fwlink/p/?linkid=132926">http://go.microsoft.com/fwlink/p/?linkid=132926</a>.
 
 
 ## -inheritance
