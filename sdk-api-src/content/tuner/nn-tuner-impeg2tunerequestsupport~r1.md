@@ -1,52 +1,42 @@
 ---
-UID: NN:tuner.IMPEG2TuneRequestSupport
-title: IMPEG2TuneRequestSupport (tuner.h)
+UID: NN:tuner.IMPEG2TuneRequestSupport~r1
+title: IMPEG2TuneRequestSupport
 author: windows-sdk-content
-description: Indicates that the default network provider for a tuning space allows tuning through the IMPEG2TuneRequest interface as well as tuning through the native tuning request type implemented by that tuning space's CreateTuneRequest method.
-old-location: mstv\impeg2tunerequestsupport.htm
-tech.root: mstv
-ms.assetid: 22ba436f-8ccf-4f78-b33c-2328bd495df6
+description: TBD
+tech.root:
+ms.assetid: b7381962-b76e-4041-a080-66408d0f3cb7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
-ms.keywords: IMPEG2TuneRequestSupport, IMPEG2TuneRequestSupport interface [Microsoft TV Technologies], IMPEG2TuneRequestSupport interface [Microsoft TV Technologies],described, mstv.impeg2tunerequestsupport, tuner/IMPEG2TuneRequestSupport
+ms.date: 
 ms.topic: interface
 req.header: tuner.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
-req.target-min-winversvr: None supported
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: Tuner.idl
-req.max-support: 
-req.namespace: 
-req.assembly: 
+req.include-header:
+req.redist:
+req.target-type:
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
-topic_type:
- - APIRef
- - kbSyntax
-api_type:
+topic_type: 
+ - apiref
+api_type: 
  - COM
-api_location:
+api_location: 
  - tuner.h
-api_name:
+api_name: 
  - IMPEG2TuneRequestSupport
 product: Windows
 targetos: Windows
-req.typenames: 
-req.redist: 
 ---
 
 # IMPEG2TuneRequestSupport interface
 
-
 ## -description
-
 
 Indicates that the default network provider for a tuning space allows tuning through the <a href="https://msdn.microsoft.com/a9e37b8b-9272-43c6-b36e-1e82b0d1b0db">IMPEG2TuneRequest</a> interface as well as tuning through the native tuning request type implemented by that tuning space's <a href="https://msdn.microsoft.com/513d4d3e-47df-4a12-80ce-9fc1400af176">CreateTuneRequest</a> method.
 
@@ -62,11 +52,18 @@ The following tuning space objects support the <b>IMPEG2TuneRequestSupport</b> i
 <a href="https://msdn.microsoft.com/8535a8c3-35df-4c6c-872a-437f5c7a2e56">ATSCTuningSpace</a> object</li>
 </ul>
 
-## -remarks
 
+## -inheritance
+IMPEG2TuneRequestSupport interits from . 
+## -members
+
+	The IMPEG2TuneRequestSupport has no additional methods.
+
+## -remarks
 
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IMPEG2TuneRequestSupport)</code>.
 
 
 
+## -see-also

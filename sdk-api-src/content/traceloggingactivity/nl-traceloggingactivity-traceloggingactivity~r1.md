@@ -1,52 +1,42 @@
 ---
-UID: NL:traceloggingactivity.TraceLoggingActivity
-title: TraceLoggingActivity (traceloggingactivity.h)
+UID: NL:traceloggingactivity.TraceLoggingActivity~r1
+title: TraceLoggingActivity
 author: windows-sdk-content
-description: Provides support for logging ETW events during an activity. All events must be manually tagged or nested.
-old-location: tracelogging\traceloggingactivity.htm
-tech.root: tracelogging
-ms.assetid: 75930876-4DF2-4559-BA06-133FC676B1AD
+description: TBD
+tech.root:
+ms.assetid: b5fb71bf-1906-4b9d-a845-b8bd92e8042d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
-ms.keywords: TraceLoggingActivity, TraceLoggingActivity class, TraceLoggingActivity class,described, tracelogging.traceloggingactivity, traceloggingactivity/TraceLoggingActivity
+ms.date: 
 ms.topic: class
 req.header: traceloggingactivity.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ Vista
-req.target-min-winversvr: Windows ServerÂ 2012Â R2
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
+req.include-header:
+req.redist:
+req.target-type:
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
-topic_type:
- - APIRef
- - kbSyntax
-api_type:
+topic_type: 
+ - apiref
+api_type: 
  - COM
-api_location:
+api_location: 
  - traceloggingactivity.h
-api_name:
+api_name: 
  - TraceLoggingActivity
 product: Windows
 targetos: Windows
-req.typenames: 
-req.redist: 
 ---
 
 # TraceLoggingActivity class
 
-
 ## -description
-
 
 Provides support for logging ETW events during an activity. All events must be manually tagged or nested.
 
@@ -88,7 +78,7 @@ Writes a default stop event if the activity has been started, but has not been s
 
 </td>
 </tr>
-</table>Â 
+</table> 
 <h3><a id="methods"></a>Methods</h3>The <b>TraceLoggingActivity</b> class has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -100,7 +90,7 @@ Writes a default stop event if the activity has been started, but has not been s
 <a href="https://msdn.microsoft.com/E9EA0054-DE9B-490A-AD27-BA792B9238EE">TraceLoggingActivity::Id</a>
 </td>
 <td align="left" width="63%">
-Returns a pointer to the activityâ€™s unique identifier (GUID). 
+Returns a pointer to the activity’s unique identifier (GUID). 
 
 </td>
 </tr>
@@ -140,7 +130,7 @@ Sets the related activity using the unique identifier.
 
 </td>
 </tr>
-</table>Â 
+</table> 
 <h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">TraceLoggingActivity</b> class has these properties.
 <table class="members" id="memberListProperties">
 <tr>
@@ -155,7 +145,7 @@ Sets the related activity using the unique identifier.
 
 </td>
 <td align="left" width="63%">
-The value of the keyword that will be used in the activityâ€™s start and stop events.
+The value of the keyword that will be used in the activity’s start and stop events.
 
 </td>
 </tr>
@@ -167,13 +157,15 @@ The value of the keyword that will be used in the activityâ€™s start and stop ev
 
 </td>
 <td align="left" width="63%">
-Contains the value of the level that will be used in the activityâ€™s start and stop events.
+Contains the value of the level that will be used in the activity’s start and stop events.
 
 </td>
 </tr>
-</table>Â 
+</table> 
 
 
+## -inheritance
+TraceLoggingActivity interits from _TlgActivityBase. 
 ## -members
 
 The <b>TraceLoggingActivity</b> class has these methods.
@@ -187,7 +179,7 @@ The <b>TraceLoggingActivity</b> class has these methods.
 <a href="https://msdn.microsoft.com/E9EA0054-DE9B-490A-AD27-BA792B9238EE">TraceLoggingActivity::Id</a>
 </td>
 <td align="left" width="63%">
-Returns a pointer to the activityâ€™s unique identifier (GUID). 
+Returns a pointer to the activity’s unique identifier (GUID). 
 
 </td>
 </tr>
@@ -227,7 +219,7 @@ Sets the related activity using the unique identifier.
 
 </td>
 </tr>
-</table>Returns a pointer to the activityâ€™s unique identifier (GUID). 
+</table>Returns a pointer to the activity’s unique identifier (GUID). 
 
 Returns true if the activity has been started.
 
@@ -237,7 +229,7 @@ Sets the related activity.
 
 Sets the related activity using the unique identifier.
 
-Â 
+ 
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">TraceLoggingActivity</b> class has these properties.
 <table class="members" id="memberListProperties">
@@ -253,7 +245,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">TraceLoggingActivity</b> clas
 
 </td>
 <td align="left" width="63%">
-The value of the keyword that will be used in the activityâ€™s start and stop events.
+The value of the keyword that will be used in the activity’s start and stop events.
 
 </td>
 </tr>
@@ -265,7 +257,7 @@ The value of the keyword that will be used in the activityâ€™s start and stop ev
 
 </td>
 <td align="left" width="63%">
-Contains the value of the level that will be used in the activityâ€™s start and stop events.
+Contains the value of the level that will be used in the activity’s start and stop events.
 
 </td>
 </tr>
@@ -273,20 +265,17 @@ Contains the value of the level that will be used in the activityâ€™s start and 
 <a href="https://msdn.microsoft.com/DFD096D7-187D-4DC2-A502-C45362FE2A7A">Keyword constant</a>
 
 
-The value of the keyword that will be used in the activityâ€™s start and stop events.
+The value of the keyword that will be used in the activity’s start and stop events.
 
 
 <a href="https://msdn.microsoft.com/DBBBE6C8-B952-493F-AE98-89D54536F1E5">Level constant</a>
 
 
-Contains the value of the level that will be used in the activityâ€™s start and stop events.
+Contains the value of the level that will be used in the activity’s start and stop events.
 
-Â 
 
 
 ## -remarks
-
-
 
 In order to use TraceLogging activities, you need to define an instance of either <b>TraceLoggingActivity</b> or <a href="https://msdn.microsoft.com/en-us/library/Dn904612(v=VS.85).aspx">TraceLoggingThreadActivity</a>. After you have created an instance of one of these classes, you manipulate activity logging using <a href="https://msdn.microsoft.com/70382367-E0A0-4E5B-A14F-863BEC0615C5">TraceLoggingFunction</a>, <a href="https://msdn.microsoft.com/E5B9347E-50A7-49BE-BDD5-DCED39371234">TraceLoggingWriteStart</a>, <a href="https://msdn.microsoft.com/638F08E3-5970-40B3-8025-E3D81ECA1D2A">TraceLoggingWriteStop</a>, and <a href="https://msdn.microsoft.com/BBDFC2B1-33C6-4D5F-AA7B-91BB2A757B1E">TraceLoggingWriteTagged</a>. This class automatically creates a unique identifier when it is started and tracing is turned on.
          
@@ -296,14 +285,8 @@ You can nest activities manually by providing unique identifiers to the <a href=
 
 
 
-
 ## -see-also
 
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Dn904612(v=VS.85).aspx">TraceLoggingThreadActivity Class</a>
-Â 
-
-Â 
-
+ 
