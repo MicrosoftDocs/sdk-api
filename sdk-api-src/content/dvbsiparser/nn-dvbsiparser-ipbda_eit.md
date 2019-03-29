@@ -70,8 +70,6 @@ An EIT provides information about events in each service, such as the event name
 </tr>
 </table> 
 
-For more information about PBDA, download the specification from <a href="http://go.microsoft.com/fwlink/p/?linkid=132926">http://go.microsoft.com/fwlink/p/?linkid=132926</a>.
-
 
 ## -inheritance
 

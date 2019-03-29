@@ -1,0 +1,150 @@
+---
+UID: NF:fibersapi.FlsSetValue
+title: FlsSetValue function
+author: windows-sdk-content
+description: Stores a value in the calling fiber's fiber local storage (FLS) slot for the specified FLS index. Each fiber has its own slot for each FLS index.
+old-location: base\flssetvalue.htm
+tech.root: ProcThread
+ms.assetid: f2abea00-8c1b-47e8-a4e9-9e3e7242d0ad
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: FlsSetValue, FlsSetValue function, _win32_flssetvalue, base.flssetvalue, fibersapi/FlsSetValue, winbase/FlsSetValue
+ms.topic: function
+req.header: fibersapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-fibers-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-fibers-l1-1-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - FlsSetValue
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# FlsSetValue function
+
+
+## -description
+
+
+Stores a value in the calling fiber's fiber local storage (FLS) slot for the specified FLS index. Each fiber has its own slot for each FLS index.
+
+
+## -parameters
+
+
+
+
+### -param dwFlsIndex [in]
+
+The FLS index that was allocated by the 
+<a href="https://msdn.microsoft.com/dc348ef3-37e5-40f2-bd5c-5f8aebc7cc59">FlsAlloc</a> function.
+
+
+### -param lpFlsData [in, optional]
+
+The value to be stored in the FLS slot for the calling fiber.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is nonzero.
+
+If the function fails, the return value is zero. To get extended error information, call 
+<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. The following errors can be returned.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The index is not in range.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NO_MEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+The FLS array has not been allocated.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+FLS indexes are typically allocated by the 
+<a href="https://msdn.microsoft.com/dc348ef3-37e5-40f2-bd5c-5f8aebc7cc59">FlsAlloc</a> function during process or DLL initialization. After an FLS index is allocated, each fiber of the process can use it to access its own FLS slot for that index. A thread specifies an FLS index in a call to 
+<b>FlsSetValue</b> to store a value in its slot. The thread specifies the same index in a subsequent call to 
+<a href="https://msdn.microsoft.com/5d5a1fe6-10ed-42c5-87db-b24eef6f174c">FlsGetValue</a> to retrieve the stored value.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/6283f56b-23ae-4840-abd0-2478a50c670c">Fibers</a>
+
+
+
+<a href="https://msdn.microsoft.com/dc348ef3-37e5-40f2-bd5c-5f8aebc7cc59">FlsAlloc</a>
+
+
+
+<a href="https://msdn.microsoft.com/5d5a1fe6-10ed-42c5-87db-b24eef6f174c">FlsGetValue</a>
+
+
+
+<a href="https://msdn.microsoft.com/8c8e8af0-bf50-4a4b-945c-83bae1eff7dd">Process and Thread Functions</a>
+ 
+
+ 
+

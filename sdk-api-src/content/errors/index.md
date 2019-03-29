@@ -8,7 +8,6 @@ ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: dshow
-archived: true
 ---
 
 # Errors.h header

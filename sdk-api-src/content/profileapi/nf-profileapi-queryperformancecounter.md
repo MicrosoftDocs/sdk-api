@@ -1,0 +1,125 @@
+---
+UID: NF:profileapi.QueryPerformanceCounter
+title: QueryPerformanceCounter function
+author: windows-sdk-content
+description: Retrieves the current value of the performance counter, which is a high resolution (&lt;1us) time stamp that can be used for time-interval measurements.
+old-location: base\queryperformancecounter.htm
+tech.root: SysInfo
+ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\timers\timerreference\timerfunctions\queryperformancecounter.htm
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: QueryPerformanceCounter, QueryPerformanceCounter function [Windows and Messages], _win32_QueryPerformanceCounter, _win32_queryperformancecounter_cpp, base.queryperformancecounter, profileapi/QueryPerformanceCounter, winmsg.queryperformancecounter, winui._win32_queryperformancecounter
+ms.topic: function
+req.header: profileapi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-profile-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - QueryPerformanceCounter
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# QueryPerformanceCounter function
+
+
+## -description
+
+
+Retrieves the current value of the performance counter, which is a high resolution (&lt;1us) time stamp that can be used for time-interval measurements.
+
+
+## -parameters
+
+
+
+
+### -param lpPerformanceCount [out]
+
+A pointer to a variable that receives the current performance-counter value, in counts. 
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is nonzero.
+
+If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. On systems that run Windows XP or later, the function will always succeed and will thus never return zero.
+
+
+
+
+## -remarks
+
+
+
+For more info about this function and its usage, see <a href="https://msdn.microsoft.com/D66E0FC2-3AF2-489B-B4B5-78648905B77B">Acquiring high-resolution time stamps</a>. 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/D66E0FC2-3AF2-489B-B4B5-78648905B77B">Acquiring high-resolution time stamps</a>
+
+
+
+<b>Conceptual</b>
+
+
+
+<a href="https://msdn.microsoft.com/8949C2D4-AE5A-4E18-9B06-F2F13EFA8A5E">GetSystemTimePreciseAsFileTime</a>
+
+
+
+<a href="https://msdn.microsoft.com/ee1dbd20-5502-4448-b39a-4629ddc73d01">KeQueryPerformanceCounter</a>
+
+
+
+<a href="https://msdn.microsoft.com/f69367a4-0516-4033-81e3-90d4c5270a1e">QueryPerformanceFrequency</a>
+
+
+
+<b>Reference</b>
+
+
+
+<a href="https://msdn.microsoft.com/ffa71fb2-e343-455b-a853-324cc66a40c6">Time</a>
+
+
+
+<a href="https://msdn.microsoft.com/be335927-a78d-4023-bedb-94aaf3a561ae">Timers</a>
+ 
+
+ 
+
