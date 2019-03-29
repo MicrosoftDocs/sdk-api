@@ -58,7 +58,7 @@ Gets service information from an XML tune request.
 
 ### -param bstrTuneXml [in]
 
-The XML tune request. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd693373(v=VS.85).aspx">IBDA_GuideDataDeliveryService::GetTuneXmlFromServiceIdx</a> or the section on tuning schemas in Part 1 of the Protected Broadcast Driver Architecture (PBDA) specification, which can be downloaded from <a href="http://go.microsoft.com/fwlink/p/?linkid=132926">http://go.microsoft.com/fwlink/p/?linkid=132926</a>.
+The XML tune request. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd693373(v=VS.85).aspx">IBDA_GuideDataDeliveryService::GetTuneXmlFromServiceIdx</a>.
 
 
 ### -param pbstrServiceDescription [out]

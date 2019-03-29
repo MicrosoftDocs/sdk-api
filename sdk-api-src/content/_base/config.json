@@ -86,7 +86,8 @@
     "namespaceapi.h",
     "processtopologyapi.h",
     "systemtopologyapi.h",
-    "profileapi.h"
+    "profileapi.h",
+    "fibersapi.h"
   ],
   "displayName": "System Services"
 }

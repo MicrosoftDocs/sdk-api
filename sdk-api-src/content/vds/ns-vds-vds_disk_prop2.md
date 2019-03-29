@@ -231,7 +231,7 @@ The following table lists the parts of the location path string used in the <b>p
 </tr>
 <tr>
 <td><i>AdapterPnpLocationPath</i></td>
-<td>The adapter's PnP location path. This is retrieved by calling the <a href="http://go.microsoft.com/fwlink/p/?linkid=135005">SetupDiGetDeviceProperty</a> function, passing &amp;DEVPKEY_Device_LocationPaths for the <i>PropertyKey</i> parameter.</td>
+<td>The adapter's PnP location path. This is retrieved by calling the <a href="https://msdn.microsoft.com/eac31612-e80b-44ad-b4d4-a4aa014e833f">SetupDiGetDeviceProperty</a> function, passing &amp;DEVPKEY_Device_LocationPaths for the <i>PropertyKey</i> parameter.</td>
 </tr>
 <tr>
 <td><i>BusType</i></td>
@@ -241,15 +241,15 @@ The following table lists the parts of the location path string used in the <b>p
 </tr>
 <tr>
 <td><i>PathId</i></td>
-<td>The number of the bus. This is the value of the <b>PathId</b> member of the <a href="http://go.microsoft.com/fwlink/p/?linkid=135007">SCSI_ADDRESS</a> structure that is returned by the <a href="http://go.microsoft.com/fwlink/p/?linkid=135006">IOCTL_SCSI_GET_ADDRESS</a> control code.</td>
+<td>The number of the bus. This is the value of the <b>PathId</b> member of the <a href="https://msdn.microsoft.com/2b3acd3d-b5da-4dd3-89f1-0b8a7d68e54c">SCSI_ADDRESS</a> structure that is returned by the <a href="https://msdn.microsoft.com/56e2a62c-ecf1-45c8-ba65-fb53b1897ddb">IOCTL_SCSI_GET_ADDRESS</a> control code.</td>
 </tr>
 <tr>
 <td><i>TargetId</i></td>
-<td>The number of the target device. This is the value of the <b>TargetId</b> member of the <a href="http://go.microsoft.com/fwlink/p/?linkid=135007">SCSI_ADDRESS</a> structure that is returned by the <a href="http://go.microsoft.com/fwlink/p/?linkid=135006">IOCTL_SCSI_GET_ADDRESS</a> control code.</td>
+<td>The number of the target device. This is the value of the <b>TargetId</b> member of the <a href="https://msdn.microsoft.com/2b3acd3d-b5da-4dd3-89f1-0b8a7d68e54c">SCSI_ADDRESS</a> structure that is returned by the <a href="https://msdn.microsoft.com/56e2a62c-ecf1-45c8-ba65-fb53b1897ddb">IOCTL_SCSI_GET_ADDRESS</a> control code.</td>
 </tr>
 <tr>
 <td><i>LunId</i></td>
-<td>The number of the LUN. This is the value of the <b>Lun</b> member of the <a href="http://go.microsoft.com/fwlink/p/?linkid=135007">SCSI_ADDRESS</a> structure that is returned by the <a href="http://go.microsoft.com/fwlink/p/?linkid=135006">IOCTL_SCSI_GET_ADDRESS</a> control code.</td>
+<td>The number of the LUN. This is the value of the <b>Lun</b> member of the <a href="https://msdn.microsoft.com/2b3acd3d-b5da-4dd3-89f1-0b8a7d68e54c">SCSI_ADDRESS</a> structure that is returned by the <a href="https://msdn.microsoft.com/56e2a62c-ecf1-45c8-ba65-fb53b1897ddb">IOCTL_SCSI_GET_ADDRESS</a> control code.</td>
 </tr>
 </table>
  

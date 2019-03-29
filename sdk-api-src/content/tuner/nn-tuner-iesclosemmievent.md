@@ -51,8 +51,6 @@ req.redist:
 Receives <b>CloseMMI</b> events from a Media Sink Device (MSD) device under the Protected Broadcast Driver Architecture (PBDA).  The MSD is the device that receives protected content from a Media Transform Device (MTD). This event tells the MTD that the MSD trying to close a man-machine interface (MMI) display, such as a dialog box.
       
 
-For more information about PBDA, download the specification from <a href="http://go.microsoft.com/fwlink/p/?linkid=132926">http://go.microsoft.com/fwlink/p/?linkid=132926</a>.
-
 
 ## -inheritance
 

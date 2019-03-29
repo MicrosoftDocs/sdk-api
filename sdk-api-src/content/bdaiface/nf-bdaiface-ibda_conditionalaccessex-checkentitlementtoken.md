@@ -85,9 +85,7 @@ Pointer to a byte array that contains the entitlement token.
 
 ### -param pulDescrambleStatus [out]
 
-Receives a status code indicating the descrambling status. For more information, see <i>Protected Broadcast Driver Architecture, Part 1: Core Services</i>, section 5.5. You can download this specification from <a href="http://go.microsoft.com/fwlink/p/?linkid=132926">http://go.microsoft.com/fwlink/p/?linkid=132926</a>. (This resource may not be available in some languages 
-
-and countries.)
+Receives a status code indicating the descrambling status. For more information, see <i>Protected Broadcast Driver Architecture, Part 1: Core Services</i>, section 5.5. 
 
 
 ## -returns

@@ -58,10 +58,7 @@ Gets a code  from a  <a href="https://msdn.microsoft.com/6f9cbec4-7934-41fc-b387
 
 ### -param pDescrambledStatus [out, retval]
 
-Receives a status code that indicates the descrambling status. For more information, see <i>Protected Broadcast Driver Architecture, Part 1: Core Services</i>, section 5.5. This document is part of the PBDA specification, which you can download from <a href="http://go.microsoft.com/fwlink/p/?linkid=132926">http://go.microsoft.com/fwlink/p/?linkid=132926</a>.
-          (This resource may not be available in some languages 
-
-and countries.)
+Receives a status code that indicates the descrambling status. 
 
 <table>
 <tr>

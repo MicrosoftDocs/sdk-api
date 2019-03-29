@@ -78,9 +78,7 @@ The reason for closing the dialog,  specified as a member of the <a href="https:
 
 ### -param pulSessionResult [out]
 
-Receives the result code for the MMI session. For more information, see <i>Protected Broadcast Driver Architecture, Part 1: Core Services - CAS</i>, section 2.6.6. You can download this specification from <a href="http://go.microsoft.com/fwlink/p/?linkid=132926">http://go.microsoft.com/fwlink/p/?linkid=132926</a>. (This resource may not be available in some languages 
-
-and countries.)
+Receives the result code for the MMI session. For more information, see <i>Protected Broadcast Driver Architecture, Part 1: Core Services - CAS</i>, section 2.6.6. 
 
 
 ## -returns

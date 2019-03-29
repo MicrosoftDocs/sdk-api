@@ -50,8 +50,6 @@ req.redist:
 
 The <b>IBDA_DRIDRMService</b> interface implements a Digital Rights Management (DRM) service for Media Transform Devices (MTDs) under the Protected Broadcast Driver Architecture (PBDA). This service allows conditional-access (CA) content to move between an MTD and a Media Sink Device (MSD) under DRM protection in a PBDA graph.
 
-For more information about PBDA, download the specification from <a href="http://go.microsoft.com/fwlink/p/?linkid=132926">http://go.microsoft.com/fwlink/p/?linkid=132926</a>
-
 
 ## -inheritance
 
