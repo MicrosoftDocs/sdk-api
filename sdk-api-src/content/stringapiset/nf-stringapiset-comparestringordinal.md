@@ -82,7 +82,7 @@ Length of the string indicated by <i>lpString2</i>. The application supplies -1 
 
 ### -param bIgnoreCase [in]
 
-<b>TRUE</b> if the function is to perform a case-insensitive comparison, using the operating system uppercase table information. The application sets this parameter to <b>FALSE</b> if the function is to compare the strings exactly as they are passed in.
+<b>TRUE</b> if the function is to perform a case-insensitive comparison, using the operating system uppercase table information. The application sets this parameter to <b>FALSE</b> if the function is to compare the strings exactly as they are passed in. Note that 1 is the only numeric value that can be used to specify a true value for this boolean parameter that does not result an invalid parameter error. Boolean values for this parameter work as expected. 
 
 
 ## -returns
