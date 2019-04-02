@@ -1,0 +1,84 @@
+---
+UID: NS:winnls._nlsversioninfo~r1
+title: NLSVERSIONINFO
+ms.date: 01/30/19
+ms.keywords: _nlsversioninfo, NLSVERSIONINFO
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.construct-type: structure
+req.ddi-compliance: 
+req.dll: 
+req.header: winnls.h
+req.include-header: 
+req.kmdf-ver: 
+req.lib: 
+req.max-support: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
+req.typenames: NLSVERSIONINFO, *LPNLSVERSIONINFO
+req.umdf-ver: 
+req.unicode-ansi: 
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - winnls.h
+api_name:
+ - _nlsversioninfo
+ - NLSVERSIONINFO
+---
+
+# NLSVERSIONINFO structure
+
+
+## -description
+
+Deprecated. Contains version information about an NLS capability.
+
+
+
+Starting with Windows 8, your app should use <a href="https://msdn.microsoft.com/97f637df-3e0e-4349-a617-96b7c640b19d">NLSVERSIONINFOEX</a> instead of <b>NLSVERSIONINFO</b>.
+
+
+## -struct-fields
+
+### -field dwNLSVersionInfoSize
+
+Size, in bytes, of the structure.
+
+
+### -field dwNLSVersion
+
+NLS version. This value is used to track changes and additions to the set of code points that have the indicated capability for a particular locale. The value is locale-specific, and increments when the capability changes. For example, using the COMPARE_STRING capability defined by the <a href="https://msdn.microsoft.com/c34eb904-e264-4f7d-ac7f-4ec8cfc588b6">SYSNLS_FUNCTION</a> enumeration, the version changes if sorting weights are assigned to code points that previously had no weights defined for the locale.
+
+
+### -field dwDefinedVersion
+
+Defined version. This value is used to track changes in the repertoire of Unicode code points. The value increments when the Unicode repertoire is extended, for example, if more characters are defined.
+
+
+## -remarks
+
+Starting with Windows 8, <b>NLSVERSIONINFO</b> is deprecated. In fact, it is identical to <a href="https://msdn.microsoft.com/97f637df-3e0e-4349-a617-96b7c640b19d">NLSVERSIONINFOEX</a>, which your app should use instead.
+
+See Remarks for <a href="https://msdn.microsoft.com/97f637df-3e0e-4349-a617-96b7c640b19d">NLSVERSIONINFOEX</a>.
+
+
+## -see-also
+
+<a href="https://msdn.microsoft.com/09bc53e1-69f4-4a71-82b3-1b1b84a1b84f">GetNLSVersion</a>
+
+<a href="https://msdn.microsoft.com/255e6774-eb70-41db-a372-8796166ee8d6">GetNLSVersionEx</a>
+
+<a href="https://msdn.microsoft.com/c8fc32bd-02bd-4a40-a836-d9ad9f69c209">Handling Sorting in Your Applications</a>
+
+<a href="https://msdn.microsoft.com/0beb0470-ecdc-4a24-b28c-0738e1df9d49">IsNLSDefinedString</a>
+
+<a href="https://msdn.microsoft.com/97f637df-3e0e-4349-a617-96b7c640b19d">NLSVERSIONINFOEX</a>
+
+<a href="https://msdn.microsoft.com/75382149-7d4e-4b3e-929e-ee39bf666110">National Language Support Structures</a>
+

@@ -1,0 +1,61 @@
+---
+UID: NE:wlanapi._DOT11_RADIO_STATE~r1
+title: DOT11_RADIO_STATE
+ms.date: 01/30/19
+ms.keywords: _DOT11_RADIO_STATE, DOT11_RADIO_STATE
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.construct-type: enumeration
+req.ddi-compliance: 
+req.header: wlanapi.h
+req.include-header: 
+req.kmdf-ver: 
+req.max-support: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
+req.typenames: 
+req.umdf-ver: 
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - wlanapi.h
+api_name:
+ - _DOT11_RADIO_STATE
+ - DOT11_RADIO_STATE
+---
+
+# DOT11_RADIO_STATE enumeration
+
+
+## -description
+
+The <b>DOT11_RADIO_STATE</b> enumeration specifies an 802.11 radio state.
+
+
+## -enum-fields
+
+### -field dot11_radio_state_unknown
+
+The radio state is unknown.
+
+
+### -field dot11_radio_state_on
+
+The radio is on.
+
+
+### -field dot11_radio_state_off
+
+The radio is off.
+
+
+## -remarks
+
+## -see-also
+
+<a href="https://msdn.microsoft.com/20da1494-4264-4d0d-b789-25e2be6a8dd4">WLAN_PHY_RADIO_STATE</a>
+
