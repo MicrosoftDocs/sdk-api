@@ -83,7 +83,7 @@ The register space. Can typically be 0, but allows multiple descriptor  arrays o
 
 ### -field OffsetInDescriptorsFromTableStart
 
-The offset in descriptors from the start of the root signature. This value can be <b>D3D12_DESCRIPTOR_RANGE_OFFSET_APPEND</b>, which indicates this range should immediately follow the preceding range.
+The offset in descriptors, from the start of the descriptor table which was set as the root argument value for this parameter slot. This value can be <b>D3D12_DESCRIPTOR_RANGE_OFFSET_APPEND</b>, which indicates this range should immediately follow the preceding range.
 
 
 ## -remarks
