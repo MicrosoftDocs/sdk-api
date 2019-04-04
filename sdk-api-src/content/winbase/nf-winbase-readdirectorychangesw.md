@@ -260,13 +260,7 @@ A call to <b>ReadDirectoryChangesW</b> can be
     parameter. Then specify an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure when you 
     call <b>ReadDirectoryChangesW</b>.
 
-When you first call <b>ReadDirectoryChangesW</b>, the 
-    system allocates a buffer to store change information. This buffer is associated with the directory handle until 
-    it is closed and its size does not change during its lifetime. Directory changes that occur between calls to this 
-    function are added to the buffer and then returned with the next call. If the buffer overflows, the entire 
-    contents of the buffer are discarded, the <i>lpBytesReturned</i> parameter contains zero, and 
-    the <b>ReadDirectoryChangesW</b> function fails with the 
-    error code <b>ERROR_NOTIFY_ENUM_DIR</b>.
+When you first call **ReadDirectoryChangesW**, the system allocates a buffer to store change information. This buffer is associated with the directory handle until it is closed and its size does not change during its lifetime. Directory changes that occur between calls to this function are added to the buffer and then returned with the next call. If the buffer overflows, **ReadDirectoryChangesW** will still return **true**, but the entire contents of the buffer are discarded and the *lpBytesReturned* parameter will be zero, which indicates that your buffer was too small to hold all of the changes that occurred.
 
 Upon successful synchronous completion, the <i>lpBuffer</i> parameter is a formatted buffer 
     and the number of bytes written to the buffer is available in <i>lpBytesReturned</i>. If the 
