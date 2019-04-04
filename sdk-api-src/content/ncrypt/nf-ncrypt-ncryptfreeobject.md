@@ -4,7 +4,7 @@ title: NCryptFreeObject function (ncrypt.h)
 author: windows-sdk-content
 description: Frees a CNG key storage object.
 old-location: security\ncryptfreeobject_func.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: a5535cf9-ba8c-4212-badd-f1dc88903624
 ms.author: windowssdkdev
 ms.date: 12/5/2018

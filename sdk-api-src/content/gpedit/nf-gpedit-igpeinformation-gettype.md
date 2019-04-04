@@ -4,7 +4,7 @@ title: IGPEInformation::GetType (gpedit.h)
 author: windows-sdk-content
 description: The GetType method retrieves type information for the GPO being edited.
 old-location: policy\igpeinformation_gettype.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: 47769405-d32c-4f4f-86fc-970d89bba848
 ms.author: windowssdkdev
 ms.date: 12/5/2018

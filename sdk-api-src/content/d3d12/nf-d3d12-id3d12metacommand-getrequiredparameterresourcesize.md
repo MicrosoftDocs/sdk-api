@@ -58,9 +58,9 @@ Retrieves the amount of memory required for the  specified  runtime parameter re
 
 ### -param Stage [in]
 
-Type: <b><a href="https://msdn.microsoft.com/1A3278EE-5D46-4E18-9F10-47001506C3DC">D3D12_META_COMMAND_PARAMETER_STAGE</a></b>
+Type: <b>D3D12_META_COMMAND_PARAMETER_STAGE</b>
 
-A <a href="https://msdn.microsoft.com/1A3278EE-5D46-4E18-9F10-47001506C3DC">D3D12_META_COMMAND_PARAMETER_STAGE</a> specifying the stage to which the parameter belongs.
+A <b>D3D12_META_COMMAND_PARAMETER_STAGE</b> specifying the stage to which the parameter belongs.
 
 
 ### -param ParameterIndex [in]

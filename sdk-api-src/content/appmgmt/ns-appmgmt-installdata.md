@@ -4,7 +4,7 @@ title: INSTALLDATA (appmgmt.h)
 author: windows-sdk-content
 description: The INSTALLDATA structure specifies a group-policy application to be installed by InstallApplication.
 old-location: policy\installdata_str.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: 0c0570c6-f8f5-41e1-a1d2-d4e8c450f73c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

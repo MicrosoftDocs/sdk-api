@@ -4,7 +4,7 @@ title: NCryptCloseProtectionDescriptor function (ncryptprotect.h)
 author: windows-sdk-content
 description: Zeros and frees a protection descriptor object and releases its handle.
 old-location: security\ncryptcloseprotectiondescriptor.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 523FD83E-85A3-4A0E-BA8D-2F27F82C1072
 ms.author: windowssdkdev
 ms.date: 12/5/2018

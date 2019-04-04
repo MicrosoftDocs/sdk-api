@@ -268,7 +268,7 @@ To create the <b>MsftDiscRecorder2</b> object in a script, use IMAPI2.MsftDiscRe
 
 To write data to media, you need to attach a recorder to a format writer, for example, to attach the recorder to a data writer, call the <a href="https://msdn.microsoft.com/d8d1f6ec-09cb-4144-b44c-970555451aee">IDiscFormat2Data::put_Recorder</a> method.
 
-Several properties of this interface return packet data defined by Multimedia Command (MMC). For information on the format of the packet data, see the latest revision of the MMC specification at <a href="Http://go.microsoft.com/fwlink/p/?linkid=83843">ftp://ftp.t10.org/t10/drafts/mmc5</a>.  
+Several properties of this interface return packet data defined by Multimedia Command (MMC). For information on the format of the packet data, see the latest revision of the MMC specification at ftp://ftp.t10.org/t10/drafts/mmc5.  
 
 
 

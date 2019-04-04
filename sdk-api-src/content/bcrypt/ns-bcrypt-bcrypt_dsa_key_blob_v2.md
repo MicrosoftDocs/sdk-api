@@ -4,7 +4,7 @@ title: BCRYPT_DSA_KEY_BLOB_V2 (bcrypt.h)
 author: windows-sdk-content
 description: Used as a header for a Digital Signature Algorithm (DSA) public key or private key BLOB in memory.
 old-location: security\bcrypt_dsa_key_blob_v2.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: E8240DE1-B65F-4DAC-92C9-45725435A0F7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

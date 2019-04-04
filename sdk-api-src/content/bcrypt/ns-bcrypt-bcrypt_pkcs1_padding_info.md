@@ -4,7 +4,7 @@ title: BCRYPT_PKCS1_PADDING_INFO (bcrypt.h)
 author: windows-sdk-content
 description: Used to provide options for the PKCS #1 padding scheme.
 old-location: security\bcrypt_pkcs1_padding_info.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 920fa461-5b7e-4429-972d-e7c83fb62c64
 ms.author: windowssdkdev
 ms.date: 12/5/2018

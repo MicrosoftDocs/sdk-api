@@ -4,7 +4,7 @@ title: BCryptQueryContextFunctionConfiguration function (bcrypt.h)
 author: windows-sdk-content
 description: Obtains the cryptographic function configuration information for an existing CNG context.
 old-location: security\bcryptquerycontextfunctionconfiguration.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 4eea9efe-bf45-4926-86fc-9b12b6d292cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

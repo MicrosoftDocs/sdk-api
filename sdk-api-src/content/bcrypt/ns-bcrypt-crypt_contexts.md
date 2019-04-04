@@ -4,7 +4,7 @@ title: CRYPT_CONTEXTS (bcrypt.h)
 author: windows-sdk-content
 description: Contains a set of CNG configuration context identifiers.
 old-location: security\crypt_contexts.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: a1b60660-a4c5-4880-8cd4-48d8717c77c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: BCryptEnumContextFunctionProviders function (bcrypt.h)
 author: windows-sdk-content
 description: Obtains the providers for the cryptographic functions for a context in the specified configuration table.
 old-location: security\bcryptenumcontextfunctionproviders.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 82776e61-03bb-463b-8767-fa4f70fe1341
 ms.author: windowssdkdev
 ms.date: 12/5/2018

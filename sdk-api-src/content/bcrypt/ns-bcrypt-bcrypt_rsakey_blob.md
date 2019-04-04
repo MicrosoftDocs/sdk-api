@@ -4,7 +4,7 @@ title: BCRYPT_RSAKEY_BLOB (bcrypt.h)
 author: windows-sdk-content
 description: Used as a header for an RSA public key or private key BLOB in memory.
 old-location: security\bcrypt_rsakey_blob.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: bbf3f4b9-5c69-4212-bb23-34bb2c84185c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

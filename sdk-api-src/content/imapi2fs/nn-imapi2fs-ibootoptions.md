@@ -156,7 +156,7 @@ Sets the platform identifier that identifies the operating system architecture t
 
 
 
-This interface supports the "El Torito" Bootable CD-ROM format specification. For details, see the specification at  <a href="Http://go.microsoft.com/fwlink/p/?linkid=84155">http://www.phoenix.com/NR/rdonlyres/98D3219C-9CC9-4DF5-B496-A286D893E36A/0/specscdrom.pdf</a>.
+This interface supports the "El Torito" Bootable CD-ROM format specification. 
 
 To add the boot image to a file system image, call the <a href="https://msdn.microsoft.com/0556b72d-eabd-4649-b16b-fd66052504f4">IFileSystemImage::put_BootImageOptions</a> method. 
 

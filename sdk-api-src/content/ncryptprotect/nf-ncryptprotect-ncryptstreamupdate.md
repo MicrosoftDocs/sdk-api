@@ -4,7 +4,7 @@ title: NCryptStreamUpdate function (ncryptprotect.h)
 author: windows-sdk-content
 description: Encrypts and decrypts blocks of data.
 old-location: security\ncryptstreamupdate.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 417F9267-6055-489C-AF26-BEF5E17CB8B4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

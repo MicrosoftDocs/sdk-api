@@ -4,7 +4,7 @@ title: LOCALMANAGEDAPPLICATION (appmgmt.h)
 author: windows-sdk-content
 description: The LOCALMANAGEDAPPLICATION structure describes a managed application installed for a user or a computer. Returned by the GetLocalManagedApplications function.
 old-location: policy\localmanagedapplication_str.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: b2b7d209-76ee-4ba4-ac61-034d2c8e0689
 ms.author: windowssdkdev
 ms.date: 12/5/2018

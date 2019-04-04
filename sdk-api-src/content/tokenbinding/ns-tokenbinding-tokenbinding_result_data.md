@@ -4,7 +4,7 @@ title: TOKENBINDING_RESULT_DATA (tokenbinding.h)
 author: windows-sdk-content
 description: Contains data about the result of generating a token binding or verifying one of the token bindings in a token binding message.
 old-location: security\tokenbinding_result_data.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 6C34E174-CCC4-451D-82C3-C410C8C92C8C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: BCRYPT_ALGORITHM_IDENTIFIER (bcrypt.h)
 author: windows-sdk-content
 description: Is used with the BCryptEnumAlgorithms function to contain a cryptographic algorithm identifier.
 old-location: security\bcrypt_algorithm_identifier_struct.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: a49a21c9-5668-4709-b52a-f6cacd944845
 ms.author: windowssdkdev
 ms.date: 12/5/2018

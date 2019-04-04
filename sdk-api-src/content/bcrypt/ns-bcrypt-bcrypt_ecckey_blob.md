@@ -4,7 +4,7 @@ title: BCRYPT_ECCKEY_BLOB (bcrypt.h)
 author: windows-sdk-content
 description: Used as a header for an elliptic curve public key or private key BLOB in memory.
 old-location: security\bcrypt_ecckey_blob.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: e60f6630-e4b0-4f35-a3cf-95dbcb007124
 ms.author: windowssdkdev
 ms.date: 12/5/2018

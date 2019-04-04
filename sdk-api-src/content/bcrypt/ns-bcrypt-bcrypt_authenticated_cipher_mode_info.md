@@ -4,7 +4,7 @@ title: BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO (bcrypt.h)
 author: windows-sdk-content
 description: Used with the BCryptEncrypt and BCryptDecrypt functions to contain additional information related to authenticated cipher modes.
 old-location: security\bcrypt_authenticated_cipher_mode_info.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 6c00f458-7198-44fe-bdb6-2c2eb9995bd9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

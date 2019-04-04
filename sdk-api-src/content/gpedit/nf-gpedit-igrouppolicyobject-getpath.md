@@ -4,7 +4,7 @@ title: IGroupPolicyObject::GetPath (gpedit.h)
 author: windows-sdk-content
 description: The GetPath method retrieves the path to the GPO.
 old-location: policy\igrouppolicyobject_getpath.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: ecfecaa4-eb6e-4de6-a5fe-ecd0e9df886c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

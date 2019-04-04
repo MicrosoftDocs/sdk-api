@@ -4,7 +4,7 @@ title: NCryptCreatePersistedKey function (ncrypt.h)
 author: windows-sdk-content
 description: Creates a new key and stores it in the specified key storage provider.
 old-location: security\ncryptcreatepersistedkey_func.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: eeb1842f-fd9e-4edf-9db8-7b4e91760e9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

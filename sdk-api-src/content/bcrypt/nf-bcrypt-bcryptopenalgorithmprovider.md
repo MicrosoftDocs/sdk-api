@@ -4,7 +4,7 @@ title: BCryptOpenAlgorithmProvider function (bcrypt.h)
 author: windows-sdk-content
 description: Loads and initializes a CNG provider.
 old-location: security\bcryptopenalgorithmprovider_func.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: aceba9c0-19e6-4f3c-972a-752feed4a9f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -227,7 +227,7 @@ Because of the number and type of operations that are required to find, load, an
 
 <b>BCryptOpenAlgorithmProvider</b> can be called either from user mode or kernel mode. Kernel mode callers must be executing at <b>PASSIVE_LEVEL</b> <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">IRQL</a>.
 
-To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=84080">WDK and Developer Tools</a>.<b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
+To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
 
 
 

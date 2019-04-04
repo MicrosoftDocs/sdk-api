@@ -79,7 +79,5 @@ If the function fails, the return value is zero. To get extended error informati
 
 You must call the <a href="https://msdn.microsoft.com/2e46e323-669c-4fcd-b3e0-d1e4ec700c64">AuxUlibInitialize</a> function before calling this function.
 
-The object library that implements this API can be downloaded from <a href="Http://go.microsoft.com/fwlink/p/?linkid=85311">here</a>.
-
 
 

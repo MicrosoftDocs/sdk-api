@@ -4,7 +4,7 @@ title: BCryptResolveProviders function (bcrypt.h)
 author: windows-sdk-content
 description: Obtains a collection of all of the providers that meet the specified criteria.
 old-location: security\bcryptresolveproviders.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: cf30f635-4918-4911-9db0-df90d26a2f1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

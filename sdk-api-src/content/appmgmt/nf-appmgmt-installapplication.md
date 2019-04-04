@@ -4,7 +4,7 @@ title: InstallApplication function (appmgmt.h)
 author: windows-sdk-content
 description: The InstallApplication function can install applications that have been deployed to target users that belong to a domain.
 old-location: policy\installapplication.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: 5b2e1d82-a421-42af-9e1b-391ae9d4813e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -91,7 +91,7 @@ If the application is deployed using .zap files, the user installing the applica
 
 Remove applications using software installation settings (.zap files) by calling the uninstall function or a command  specific for the installation application.
 
-For information about using installation applications other than  the <a href="https://msdn.microsoft.com/en-us/library/Cc185688(v=VS.85).aspx">Windows Installer</a> see article 231747, "<a href="Http://go.microsoft.com/fwlink/p/?linkid=83984">How to Publish non-MSI Programs with .zap Files</a>," in the Microsoft Knowledge Base.
+For information about using installation applications other than  the <a href="https://msdn.microsoft.com/en-us/library/Cc185688(v=VS.85).aspx">Windows Installer</a> see article 231747, "How to Publish non-MSI Programs with .zap Files," in the Microsoft Knowledge Base.
 
 
 

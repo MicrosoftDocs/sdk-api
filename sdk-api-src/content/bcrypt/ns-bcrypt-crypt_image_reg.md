@@ -4,7 +4,7 @@ title: CRYPT_IMAGE_REG (bcrypt.h)
 author: windows-sdk-content
 description: Contains image registration information about a CNG provider.
 old-location: security\crypt_image_reg.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: d7dc3bd8-3957-4a4c-9959-dc22505e129a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

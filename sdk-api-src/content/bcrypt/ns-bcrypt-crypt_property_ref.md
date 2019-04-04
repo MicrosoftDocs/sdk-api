@@ -4,7 +4,7 @@ title: CRYPT_PROPERTY_REF (bcrypt.h)
 author: windows-sdk-content
 description: Contains information about a CNG context property.
 old-location: security\crypt_property_ref.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 450225b8-87f2-4ce2-853d-e78cf64bd13d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

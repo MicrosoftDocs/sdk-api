@@ -4,7 +4,7 @@ title: BCryptCloseAlgorithmProvider function (bcrypt.h)
 author: windows-sdk-content
 description: Closes an algorithm provider.
 old-location: security\bcryptclosealgorithmprovider_func.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: def90d52-87e0-40e6-9c50-fd77177991d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: NCryptIsKeyHandle function (ncrypt.h)
 author: windows-sdk-content
 description: Determines if the specified handle is a CNG key handle.
 old-location: security\ncryptiskeyhandle.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: ad841c2e-8097-4b07-914e-8e7240d55585
 ms.author: windowssdkdev
 ms.date: 12/5/2018

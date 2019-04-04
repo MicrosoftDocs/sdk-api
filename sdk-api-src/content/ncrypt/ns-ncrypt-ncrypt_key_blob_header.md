@@ -4,7 +4,7 @@ title: NCRYPT_KEY_BLOB_HEADER (ncrypt.h)
 author: windows-sdk-content
 description: Contains a key BLOB.
 old-location: security\ncrypt_key_blob_header.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 387F05A3-C6E2-48EE-8FD0-C0A45E752300
 ms.author: windowssdkdev
 ms.date: 12/5/2018

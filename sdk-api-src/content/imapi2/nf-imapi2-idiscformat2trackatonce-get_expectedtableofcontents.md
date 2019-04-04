@@ -58,7 +58,7 @@ Retrieves the table of content for the audio tracks that were laid on the media 
 
 ### -param value [out]
 
-Table of contents for the audio tracks that were laid on the media within the track-writing session. Each element of the list is a <b>VARIANT</b> of type <b>VT_BYREF|VT_UI1</b>. The <b>pbVal</b> member of the variant contains a binary blob. For details of the blob, see the READ TOC command at <a href="Http://go.microsoft.com/fwlink/p/?linkid=83844">ftp://ftp.t10.org/t10/drafts/mmc5/mmc5r03.pdf</a>.
+Table of contents for the audio tracks that were laid on the media within the track-writing session. Each element of the list is a <b>VARIANT</b> of type <b>VT_BYREF|VT_UI1</b>. The <b>pbVal</b> member of the variant contains a binary blob. For details of the blob, see the READ TOC command at ftp://ftp.t10.org/t10/drafts/mmc5/mmc5r03.pdf.
 
 
 ## -returns

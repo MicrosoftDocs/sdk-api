@@ -4,7 +4,7 @@ title: BCRYPT_OID_LIST (bcrypt.h)
 author: windows-sdk-content
 description: Used to contain a collection of BCRYPT_OID structures. Use this structure with the BCRYPT_HASH_OID_LIST property to retrieve the list of hashing object identifiers (OIDs) that have been encoded by using Distinguished Encoding Rules (DER) encoding.
 old-location: security\bcrypt_oid_list.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 5e07d4a9-88eb-4644-a9be-e39c52b97ea7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

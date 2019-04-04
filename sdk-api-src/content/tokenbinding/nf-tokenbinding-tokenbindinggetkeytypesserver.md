@@ -4,7 +4,7 @@ title: TokenBindingGetKeyTypesServer function (tokenbinding.h)
 author: windows-sdk-content
 description: Retrieves a list of the key types that the server supports.
 old-location: security\tokenbindinggetkeytypesserver.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 8ABAC0AF-AF68-4742-9C36-3FB17D303409
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: DeleteAllGPOLinks function (gpedit.h)
 author: windows-sdk-content
 description: The DeleteAllGPOLinks function deletes all GPO links for the specified site, domain, or organizational unit.
 old-location: policy\deleteallgpolinks.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: 164b1d10-9ec0-43c8-80fe-be1ad8ec991f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

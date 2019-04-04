@@ -4,7 +4,7 @@ title: GetAppliedGPOListA function (userenv.h)
 author: windows-sdk-content
 description: The GetAppliedGPOList function retrieves the list of GPOs applied for the specified user or computer.
 old-location: policy\getappliedgpolist.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: 11e80a4e-acc4-4229-aa34-8f7d083c1041
 ms.author: windowssdkdev
 ms.date: 12/5/2018

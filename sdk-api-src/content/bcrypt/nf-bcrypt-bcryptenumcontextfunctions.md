@@ -4,7 +4,7 @@ title: BCryptEnumContextFunctions function (bcrypt.h)
 author: windows-sdk-content
 description: Obtains the cryptographic functions for a context in the specified configuration table.
 old-location: security\bcryptenumcontextfunctions.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 81bdfd47-7001-4e63-a8b3-33dae99f2c66
 ms.author: windowssdkdev
 ms.date: 12/5/2018

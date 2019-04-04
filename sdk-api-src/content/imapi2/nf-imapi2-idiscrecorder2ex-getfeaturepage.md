@@ -68,7 +68,7 @@ Set to True to retrieve the feature page only when it is the current feature pag
 
 ### -param featureData [out]
 
-Data buffer that contains the feature page. For details of the contents of the data buffer, see the GET CONFIGURATION command in the latest revision of the MMC specification at <a href="Http://go.microsoft.com/fwlink/p/?linkid=83843">ftp://ftp.t10.org/t10/drafts/mmc5</a>.
+Data buffer that contains the feature page. For details of the contents of the data buffer, see the GET CONFIGURATION command in the latest revision of the MMC specification at ftp://ftp.t10.org/t10/drafts/mmc5.
 
 This method removes header information and other non-feature data before filling and sending this buffer.
 

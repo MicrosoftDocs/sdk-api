@@ -70,15 +70,6 @@ If the function fails, the return value is <b>FALSE</b>. To retrieve extended in
 
 
 
-## -remarks
-
-
-
-The object library that implements this API can be downloaded from <a href="Http://go.microsoft.com/fwlink/p/?linkid=85311">here</a>.
-
-
-
-
 ## -see-also
 
 

@@ -65,7 +65,7 @@ A reference to the globally unique identifier (GUID) of the meta command whose p
 
 ### -param Stage [in]
 
-Type: <b><a href="https://msdn.microsoft.com/1A3278EE-5D46-4E18-9F10-47001506C3DC">D3D12_META_COMMAND_PARAMETER_STAGE</a></b>
+Type: <b>D3D12_META_COMMAND_PARAMETER_STAGE</b>
 
 A <a href="https://msdn.microsoft.com/1A3278EE-5D46-4E18-9F10-47001506C3DC">D3D12_META_COMMAND_PARAMETER_STAGE</a> specifying the stage of the parameters that you wish to be included in the query.
 
@@ -86,7 +86,7 @@ A pointer to a <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2
 
 ### -param pParameterDescs [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/F4314919-B7E1-4628-867D-462F8F9A48FA">D3D12_META_COMMAND_PARAMETER_DESC</a>*</b>
+Type: <b>D3D12_META_COMMAND_PARAMETER_DESC*</b>
 
 An optional pointer to an array of  <a href="https://msdn.microsoft.com/F4314919-B7E1-4628-867D-462F8F9A48FA">D3D12_META_COMMAND_PARAMETER_DESC</a> containing the descriptions of the parameters. Pass <b>nullptr</b> to have the parameter count returned in <i>pParameterCount</i>.
 

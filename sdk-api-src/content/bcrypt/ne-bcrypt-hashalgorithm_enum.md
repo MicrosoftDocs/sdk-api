@@ -4,7 +4,7 @@ title: HASHALGORITHM_ENUM (bcrypt.h)
 author: windows-sdk-content
 description: Specifies signing and hashing algorithms.
 old-location: security\hashalgorithm_enum.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 482DA4B6-EC1C-4E88-95C0-62ED1356DC3B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IRSOPInformation::GetEventLogEntryText (gpedit.h)
 author: windows-sdk-content
 description: The GetEventLogEntryText method returns the text for a specific entry in the event log.
 old-location: policy\irsopinformation_geteventlogentrytext.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: ee408c0a-437e-4caa-90b7-9717d43e1452
 ms.author: windowssdkdev
 ms.date: 12/5/2018

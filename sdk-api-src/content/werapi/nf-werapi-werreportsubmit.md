@@ -443,7 +443,7 @@ The computer identifier is sent with the report when
 <li>The consent used to send the report does not come from the application. For example, the report was submitted with consent status set to WerConsentNotAsked.</li>
 <li>The report was submitted with the WER_SUBMIT_REPORT_MACHINE_ID flag set.</li>
 </ul>
-To view the reports submitted by your application, go to <a href="Http://go.microsoft.com/fwlink/p/?linkid=84169">Windows Quality Online Services</a>.
+To view the reports submitted by your application, go to Windows Quality Online Services.
 
 
 

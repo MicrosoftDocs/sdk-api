@@ -4,7 +4,7 @@ title: RefreshPolicyEx function (userenv.h)
 author: windows-sdk-content
 description: The RefreshPolicyEx function causes policy to be applied immediately on the computer. The extended function allows you to specify the type of policy refresh to apply.
 old-location: policy\refreshpolicyex.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: 905ab96b-a7f2-4bb4-a539-385f78284644
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -58,7 +58,7 @@ Specifies whether or not protected resources can be accessed by subsequent comma
 
 ### -param pProtectedResourceSession [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/9D4833DB-DF9E-46A8-9EF7-667A95F3EFDD">ID3D12ProtectedResourceSession</a>.
+A pointer to a <b>ID3D12ProtectedResourceSession</b>.
 
 
 ## -returns

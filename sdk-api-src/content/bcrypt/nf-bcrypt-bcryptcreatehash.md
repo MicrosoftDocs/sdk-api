@@ -4,7 +4,7 @@ title: BCryptCreateHash function (bcrypt.h)
 author: windows-sdk-content
 description: Called to create a hash or Message Authentication Code (MAC) object.
 old-location: security\bcryptcreatehash_func.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: deb02f67-f3d3-4542-8245-fd4982c3190b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

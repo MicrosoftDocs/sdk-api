@@ -4,7 +4,7 @@ title: NCryptEnumKeys function (ncrypt.h)
 author: windows-sdk-content
 description: Obtains the names of the keys that are stored by the provider.
 old-location: security\ncryptenumkeys_func.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: ca8c5b70-ea5e-4fb9-82d3-1de839f0d244
 ms.author: windowssdkdev
 ms.date: 12/5/2018

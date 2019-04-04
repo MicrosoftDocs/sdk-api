@@ -4,7 +4,7 @@ title: NCryptSignHash function (ncrypt.h)
 author: windows-sdk-content
 description: Creates a signature of a hash value.
 old-location: security\ncryptsignhash_func.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 7404e37a-d7c6-49ed-b951-6081dd2b921a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

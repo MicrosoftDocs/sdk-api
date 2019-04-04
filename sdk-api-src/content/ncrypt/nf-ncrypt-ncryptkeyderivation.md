@@ -4,7 +4,7 @@ title: NCryptKeyDerivation function (ncrypt.h)
 author: windows-sdk-content
 description: Creates a key from another key by using the specified key derivation function.
 old-location: security\ncryptkeyderivation.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 5D2D61B1-022E-412F-A19E-11057930A615
 ms.author: windowssdkdev
 ms.date: 12/5/2018

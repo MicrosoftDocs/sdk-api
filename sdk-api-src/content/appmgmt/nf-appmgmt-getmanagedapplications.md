@@ -4,7 +4,7 @@ title: GetManagedApplications function (appmgmt.h)
 author: windows-sdk-content
 description: The GetManagedApplications function gets a list of applications that are displayed in the Add pane of Add/Remove Programs (ARP) for a specified user context.
 old-location: policy\getmanagedapplications.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: 62e32f36-cbb2-4557-9773-8bd454870d55
 ms.author: windowssdkdev
 ms.date: 12/5/2018

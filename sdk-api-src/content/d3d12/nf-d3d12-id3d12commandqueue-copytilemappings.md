@@ -112,9 +112,6 @@ Use <b>CopyTileMappings</b> to copy the tile mappings from one reserved resource
 
 The destination and the source regions must each entirely fit in their resource or behavior is undefined and the debug layer will emit an error.
 
-For more info on tiled resources, refer to the  "DirectX tiled resources" section within <a href="http://msdn.microsoft.com/en-us/library/windows/apps/bg182880.aspx">DirectX programming</a>.
-      
-
 
 
 

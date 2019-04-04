@@ -4,7 +4,7 @@ title: BCRYPT_DSA_PARAMETER_HEADER (bcrypt.h)
 author: windows-sdk-content
 description: Used to contain parameter header information for a Digital Signature Algorithm (DSA) key.
 old-location: security\bcrypt_dsa_parameter_header.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 96c20afb-e429-45b3-b817-88134914a26b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

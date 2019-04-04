@@ -4,7 +4,7 @@ title: NCryptExportKey function (ncrypt.h)
 author: windows-sdk-content
 description: Exports a CNG key to a memory BLOB.
 old-location: security\ncryptexportkey_func.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 1588eb29-4026-4d1c-8bee-a035df38444a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

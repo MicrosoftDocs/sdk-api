@@ -4,7 +4,7 @@ title: TokenBindingGenerateID function (tokenbinding.h)
 author: windows-sdk-content
 description: Constructs the token binding identifier by extracting the signature algorithm from the key type and copying the exported public key.
 old-location: security\tokenbindinggenerateid.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: F3E30DF8-2A1D-445E-914B-62999428BB6F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

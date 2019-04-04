@@ -107,7 +107,7 @@ Pointer to a table of callback pointers. The table is filled with pointers to fu
 
 ### -param pD3dTextureFormats
 
-Pointer to an array of <a href="http://msdn.microsoft.com/en-us/library/ms794144.aspx">DDSURFACEDESC</a> structures that define the set of permissible texture formats.
+Pointer to an array of <b>DDSURFACEDESC</b> structures that define the set of permissible texture formats.
 
 
 ### -param pdwFourCC

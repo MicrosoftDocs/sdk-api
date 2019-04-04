@@ -4,7 +4,7 @@ title: NCryptGetProperty function (ncrypt.h)
 author: windows-sdk-content
 description: Retrieves the value of a named property for a key storage object.
 old-location: security\ncryptgetproperty_func.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 7b857ce0-8525-489b-9987-ef40081a5577
 ms.author: windowssdkdev
 ms.date: 12/5/2018

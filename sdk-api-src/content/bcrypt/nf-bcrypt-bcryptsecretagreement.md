@@ -4,7 +4,7 @@ title: BCryptSecretAgreement function (bcrypt.h)
 author: windows-sdk-content
 description: Creates a secret agreement value from a private and a public key.
 old-location: security\bcryptsecretagreement.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 96863d81-3643-4962-8abf-db1cc2acde07
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -149,7 +149,7 @@ The key handle in the <i>hPrivKey</i> parameter is not a Diffie-Hellman key.
 
 Depending on what processor modes a provider supports, <b>BCryptSecretAgreement</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handles provided in the <i>hPrivKey</i> and <i>hPubKey</i>  parameters must be derived from an algorithm handle returned by a provider that was opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag, and any pointers passed to the <b>BCryptSecretAgreement</b> function must refer to nonpaged (or locked) memory.
 
-To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=84080">WDK and Developer Tools</a>.<b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
+To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
 
 
 

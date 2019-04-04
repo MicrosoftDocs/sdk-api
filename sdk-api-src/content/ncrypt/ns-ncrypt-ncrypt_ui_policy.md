@@ -4,7 +4,7 @@ title: NCRYPT_UI_POLICY (ncrypt.h)
 author: windows-sdk-content
 description: Used with the NCRYPT_UI_POLICY_PROPERTY property to contain strong key user interface information for a key.
 old-location: security\ncrypt_ui_policy.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 49443042-40bd-4876-8547-e5eb4de503f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

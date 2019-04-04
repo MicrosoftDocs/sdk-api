@@ -4,7 +4,7 @@ title: NCryptProtectSecret function (ncryptprotect.h)
 author: windows-sdk-content
 description: Encrypts data to a specified protection descriptor.
 old-location: security\ncryptprotectsecret.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 8726F92B-34D5-4696-8803-3D7F50F1006D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

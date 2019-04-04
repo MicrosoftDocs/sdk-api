@@ -4,7 +4,7 @@ title: NCryptEnumAlgorithms function (ncrypt.h)
 author: windows-sdk-content
 description: Obtains the names of the algorithms that are supported by the specified key storage provider.
 old-location: security\ncryptenumalgorithms_func.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: ea4f270b-c556-4f52-892a-199c9cfced26
 ms.author: windowssdkdev
 ms.date: 12/5/2018

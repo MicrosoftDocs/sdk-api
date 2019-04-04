@@ -4,7 +4,7 @@ title: PFNPROCESSGROUPPOLICYEX (userenv.h)
 author: windows-sdk-content
 description: The ProcessGroupPolicyEx function is an application-defined callback function used when applying policy.
 old-location: policy\processgrouppolicyex.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: df77fece-6e81-4a85-847a-fef3ba775e93
 ms.author: windowssdkdev
 ms.date: 12/5/2018
