@@ -4,7 +4,7 @@ title: BCRYPT_KEY_BLOB (bcrypt.h)
 author: windows-sdk-content
 description: Is the base structure for all CNG key BLOBs.
 old-location: security\bcrypt_key_blob.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: ae7e8db3-858d-4573-afe1-c9bc14d76480
 ms.author: windowssdkdev
 ms.date: 12/5/2018

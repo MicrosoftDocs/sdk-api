@@ -4,7 +4,7 @@ title: NCryptAlgorithmName (ncrypt.h)
 author: windows-sdk-content
 description: Used to contain information about a CNG algorithm.
 old-location: security\ncryptalgorithmname_struct.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 79b0193e-3be8-46ce-a422-40ed9698363f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

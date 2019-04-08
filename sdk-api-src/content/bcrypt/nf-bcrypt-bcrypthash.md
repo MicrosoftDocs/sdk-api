@@ -4,7 +4,7 @@ title: BCryptHash function (bcrypt.h)
 author: windows-sdk-content
 description: Performs a single hash computation. This is a convenience function that wraps calls to BCryptCreateHash, BCryptHashData, BCryptFinishHash, and BCryptDestroyHash.
 old-location: security\bcrypthash.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: F0FF9B6D-1345-480A-BE13-BE90547407BF
 ms.author: windowssdkdev
 ms.date: 12/5/2018

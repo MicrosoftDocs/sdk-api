@@ -68,7 +68,7 @@ Type of mode page data to retrieve, for example, the current settings or the set
 
 ### -param modePageData [out]
 
-Data buffer that contains the mode page. For details of the contents of the data buffer, see the MODE SENSE (10) command in the latest revision of the MMC specification at <a href="Http://go.microsoft.com/fwlink/p/?linkid=83843">ftp://ftp.t10.org/t10/drafts/mmc5</a>.
+Data buffer that contains the mode page. For details of the contents of the data buffer, see the MODE SENSE (10) command in the latest revision of the MMC specification at ftp://ftp.t10.org/t10/drafts/mmc5.
 
 This method removes header information and other non-page data before returning the buffer.
 

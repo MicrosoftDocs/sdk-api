@@ -4,7 +4,7 @@ title: NCryptDecrypt function (ncrypt.h)
 author: windows-sdk-content
 description: Decrypts a block of encrypted data.
 old-location: security\ncryptdecrypt_func.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 02c309bc-8c94-4c0f-901f-e024c83c824a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

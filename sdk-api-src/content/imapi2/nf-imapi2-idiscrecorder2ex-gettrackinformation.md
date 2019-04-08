@@ -68,7 +68,7 @@ Type of address specified in the <i>address</i> parameter, for example, if this 
 
 ### -param trackInformation [out]
 
-Data buffer that contains the track information. For details of the contents of the data buffer, see the READ TRACK INFORMATION command in the latest revision of the MMC specification at <a href="Http://go.microsoft.com/fwlink/p/?linkid=83843">ftp://ftp.t10.org/t10/drafts/mmc5</a>.
+Data buffer that contains the track information. For details of the contents of the data buffer, see the READ TRACK INFORMATION command in the latest revision of the MMC specification at ftp://ftp.t10.org/t10/drafts/mmc5.
 
 When done, call the <b>CoTaskMemFree</b> function to free the memory.
 

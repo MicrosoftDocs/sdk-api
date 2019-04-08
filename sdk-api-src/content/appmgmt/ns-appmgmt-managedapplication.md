@@ -4,7 +4,7 @@ title: MANAGEDAPPLICATION (appmgmt.h)
 author: windows-sdk-content
 description: The MANAGEDAPPLICATION structure contains information about an application. The function GetManagedApplications returns an array of MANAGEDAPPLICATION structures.
 old-location: policy\managedapplication_str.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: 8ac78f92-e665-4dd0-b226-6bf41dcd050a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

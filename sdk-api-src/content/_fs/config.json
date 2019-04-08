@@ -9,6 +9,7 @@
     "clfs.h",
     "clfsmgmtw32.h",
     "clfsmgmt.h",
+    "processenv.h",
     "minwinbase.h",
     "winioctl.h",
     "ioapiset.h",

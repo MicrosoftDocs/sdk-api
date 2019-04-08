@@ -92,10 +92,6 @@ Returns S_OK if successful; otherwise, returns one of the following values:
 
 
 
-<a href="direct3d12.id3d122device">ID3D122Device</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Mt847457(v=VS.85).aspx">ID3D12Device5</a>
  
 

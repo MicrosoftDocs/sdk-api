@@ -92,8 +92,6 @@ You must call the <a href="https://msdn.microsoft.com/2e46e323-669c-4fcd-b3e0-d1
 
 The caller must have enabled the SE_INCREASE_QUOTA_NAME privilege in the active token.
 
-The object library that implements this API can be downloaded from <a href="Http://go.microsoft.com/fwlink/p/?linkid=85311">here</a>.
-
 
 
 

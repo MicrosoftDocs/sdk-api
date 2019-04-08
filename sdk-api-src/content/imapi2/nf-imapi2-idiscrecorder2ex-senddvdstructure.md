@@ -391,7 +391,7 @@ Value: 0xC0AA0210
 
 
 
-For details on specifying the fields of  the structure, see the SEND DISC STRUCTURE command in the latest revision of the MMC specification at <a href="Http://go.microsoft.com/fwlink/p/?linkid=83843">ftp://ftp.t10.org/t10/drafts/mmc5</a>.
+For details on specifying the fields of  the structure, see the SEND DISC STRUCTURE command in the latest revision of the MMC specification at ftp://ftp.t10.org/t10/drafts/mmc5.
 
 
 

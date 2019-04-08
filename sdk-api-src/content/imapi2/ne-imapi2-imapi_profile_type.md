@@ -221,7 +221,7 @@ Nonstandard drive.
 
 
 
-Note that the range of feature type values is 0x0000 to 0xFFFF. This enumeration contains those features defined in the Multmedia Commands - 5 (MMC) specification. For a complete definition of each profile, see Profile Definitions in the latest release of the MMC specification at <a href="Http://go.microsoft.com/fwlink/p/?linkid=83843">ftp://ftp.t10.org/t10/drafts/mmc5</a>.
+Note that the range of feature type values is 0x0000 to 0xFFFF. This enumeration contains those features defined in the Multmedia Commands - 5 (MMC) specification. For a complete definition of each profile, see Profile Definitions in the latest release of the MMC specification at ftp://ftp.t10.org/t10/drafts/mmc5.
 
 Other values not defined here may exist. Consumers of this enumeration should not presume this list to be the only set of valid values.
 

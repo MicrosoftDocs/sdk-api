@@ -4,7 +4,7 @@ title: NCryptDeleteKey function (ncrypt.h)
 author: windows-sdk-content
 description: Deletes a CNG key.
 old-location: security\ncryptdeletekey_func.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 2e1958a7-51e0-4731-b4cf-a90d6c1f9ae0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

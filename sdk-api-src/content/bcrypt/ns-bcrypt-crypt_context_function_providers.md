@@ -4,7 +4,7 @@ title: CRYPT_CONTEXT_FUNCTION_PROVIDERS (bcrypt.h)
 author: windows-sdk-content
 description: Contains a set of cryptographic function providers for a CNG configuration context.
 old-location: security\crypt_context_function_providers.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 5e175ac2-38eb-44c4-a01a-fb436e833546
 ms.author: windowssdkdev
 ms.date: 12/5/2018

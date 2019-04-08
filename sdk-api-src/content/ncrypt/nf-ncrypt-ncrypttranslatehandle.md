@@ -4,7 +4,7 @@ title: NCryptTranslateHandle function (ncrypt.h)
 author: windows-sdk-content
 description: Translates a CryptoAPI handle into a CNG key handle.
 old-location: security\ncrypttranslatehandle.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 0c339864-b598-430c-a597-09d3571fdbb2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

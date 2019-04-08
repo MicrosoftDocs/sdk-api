@@ -4,7 +4,7 @@ title: BCryptQueryContextFunctionProperty function (bcrypt.h)
 author: windows-sdk-content
 description: Obtains the value of a named property for a cryptographic function in an existing CNG context.
 old-location: security\bcryptquerycontextfunctionproperty.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: c8814a13-ac28-4583-927f-c787e0a25faf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

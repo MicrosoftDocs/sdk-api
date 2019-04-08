@@ -4,7 +4,7 @@ title: TokenBindingGenerateMessage function (tokenbinding.h)
 author: windows-sdk-content
 description: Assembles the list of token bindings and generates the final message for the client device to the server.
 old-location: security\tokenbindinggeneratemessage.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 7A268C6D-952B-482A-835D-89D6452D986D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

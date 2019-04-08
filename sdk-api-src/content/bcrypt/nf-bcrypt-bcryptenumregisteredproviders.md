@@ -4,7 +4,7 @@ title: BCryptEnumRegisteredProviders function (bcrypt.h)
 author: windows-sdk-content
 description: Retrieves information about the registered providers.
 old-location: security\bcryptenumregisteredproviders.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: a01adfec-dbe0-4817-af97-63163760fafc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

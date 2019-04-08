@@ -65,7 +65,7 @@ Type of mode page data to send. For possible values, see the <a href="https://ms
 
 Data buffer that contains the mode page data to send to the media. Do not include a header; this method generates and prepends a header to the mode page data.
 
-For details on specifying the fields of  the mode page data, see the MODE SELECT (10) command in the latest revision of the MMC specification at <a href="Http://go.microsoft.com/fwlink/p/?linkid=83843">ftp://ftp.t10.org/t10/drafts/mmc5</a>.
+For details on specifying the fields of  the mode page data, see the MODE SELECT (10) command in the latest revision of the MMC specification at ftp://ftp.t10.org/t10/drafts/mmc5.
 
 
 ### -param byteSize [in]

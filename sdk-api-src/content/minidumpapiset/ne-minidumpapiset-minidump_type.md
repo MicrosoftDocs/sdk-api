@@ -53,7 +53,7 @@ Identifies the type of information that will be written to the minidump file by 
      constants listed on this page were added later and are not available in all versions of DbgHelp.dll. 
      Those that did not exist in the original code are labeled accordingly along with the version of DbgHelp.dll that 
      they first were implemented in. The listed version numbers corresponds to the 
-     <a href="Http://go.microsoft.com/fwlink/p/?linkid=84137">Debugging Tools For Windows</a> releases and do not 
+     Debugging Tools For Windows releases and do not 
      apply to copies of DbgHelp.dll that are integrated into Windows. See 
      <a href="https://msdn.microsoft.com/8ef1740d-c791-4fbd-8297-7207a987c09d">DbgHelp Versions</a> for more details.
 

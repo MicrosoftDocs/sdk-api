@@ -4,7 +4,7 @@ title: IGroupPolicyObject::Save (gpedit.h)
 author: windows-sdk-content
 description: The Save method saves the specified registry policy settings to disk and updates the revision number of the GPO.
 old-location: policy\igrouppolicyobject_save.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: e3713e5f-c710-48f7-8081-f2669c77449d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

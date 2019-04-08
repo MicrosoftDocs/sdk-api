@@ -4,7 +4,7 @@ title: CRYPT_PROVIDER_REFS (bcrypt.h)
 author: windows-sdk-content
 description: Contains a collection of provider references.
 old-location: security\crypt_provider_refs.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: e2aaaa02-96e3-4447-b19b-b9db07b49135
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: NCryptCreateProtectionDescriptor function (ncryptprotect.h)
 author: windows-sdk-content
 description: Retrieves a handle to a protection descriptor object.
 old-location: security\ncryptcreateprotectiondescriptor.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: BA6B15AC-2CD8-4D9A-817F-65CF9C09D22C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

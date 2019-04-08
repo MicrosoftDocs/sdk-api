@@ -425,7 +425,7 @@ Value: 0xC0AA020E
 
 
 
-This method removes the complexity of working with the READ DISC STRUCTURE command. For details on the values to specify for the <i>format</i>, <i>address</i>, <i>layer</i>, and <i>agid</i> parameters, see their field descriptions for the READ DISC STRUCTURE command in the latest revision of the MMC specification at <a href="Http://go.microsoft.com/fwlink/p/?linkid=83843">ftp://ftp.t10.org/t10/drafts/mmc5</a>.
+This method removes the complexity of working with the READ DISC STRUCTURE command. For details on the values to specify for the <i>format</i>, <i>address</i>, <i>layer</i>, and <i>agid</i> parameters, see their field descriptions for the READ DISC STRUCTURE command in the latest revision of the MMC specification at ftp://ftp.t10.org/t10/drafts/mmc5.
 
 
 

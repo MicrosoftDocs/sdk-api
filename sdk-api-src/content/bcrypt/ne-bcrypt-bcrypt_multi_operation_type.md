@@ -4,7 +4,7 @@ title: BCRYPT_MULTI_OPERATION_TYPE (bcrypt.h)
 author: windows-sdk-content
 description: The BCRYPT_MULTI_OPERATION_TYPE enumeration specifies type of multi-operation that is passed to the BCryptProcessMultiOperations function.
 old-location: security\bcrypt_multi_operation_type.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: C87714F6-CB25-4215-B1BA-C09AAA875D00
 ms.author: windowssdkdev
 ms.date: 12/5/2018

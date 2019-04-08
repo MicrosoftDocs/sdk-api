@@ -4,7 +4,7 @@ title: BCryptSetContextFunctionProperty function (bcrypt.h)
 author: windows-sdk-content
 description: Sets the value of a named property for a cryptographic function in an existing CNG context.
 old-location: security\bcryptsetcontextfunctionproperty.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 1e02720b-5210-4127-ab9e-24532a764795
 ms.author: windowssdkdev
 ms.date: 12/5/2018

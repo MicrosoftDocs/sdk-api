@@ -4,7 +4,7 @@ title: TOKENBINDING_TYPE (tokenbinding.h)
 author: windows-sdk-content
 description: Specifies the possible types for a token binding.
 old-location: security\tokenbinding_type.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 7F126B3E-1033-4C0A-AD5F-0FAD951C85C6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

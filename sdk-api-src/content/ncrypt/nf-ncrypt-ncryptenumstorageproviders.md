@@ -4,7 +4,7 @@ title: NCryptEnumStorageProviders function (ncrypt.h)
 author: windows-sdk-content
 description: Obtains the names of the registered key storage providers.
 old-location: security\ncryptenumstorageproviders_func.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 24a8ee01-b716-4f36-9df5-b6476b1df4f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

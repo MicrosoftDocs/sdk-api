@@ -4,7 +4,7 @@ title: IGroupPolicyObject::OpenLocalMachineGPO (gpedit.h)
 author: windows-sdk-content
 description: The OpenLocalMachineGPO method opens the default GPO for the computer and optionally loads the registry information.
 old-location: policy\igrouppolicyobject_openlocalmachinegpo.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: c986152b-59cd-4733-bcdd-ee7f0b6907ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018

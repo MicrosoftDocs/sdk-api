@@ -4,7 +4,7 @@ title: RefreshPolicy function (userenv.h)
 author: windows-sdk-content
 description: The RefreshPolicy function causes policy to be applied immediately on the client computer.
 old-location: policy\refreshpolicy.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: e08cb006-d174-4506-87f0-580660bd4023
 ms.author: windowssdkdev
 ms.date: 12/5/2018

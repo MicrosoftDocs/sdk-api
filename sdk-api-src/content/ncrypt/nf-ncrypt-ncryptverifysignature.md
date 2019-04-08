@@ -4,7 +4,7 @@ title: NCryptVerifySignature function (ncrypt.h)
 author: windows-sdk-content
 description: Verifies that the specified signature matches the specified hash.
 old-location: security\ncryptverifysignature_func.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 9a839d99-4e9a-4114-982c-51dee38d2949
 ms.author: windowssdkdev
 ms.date: 12/5/2018

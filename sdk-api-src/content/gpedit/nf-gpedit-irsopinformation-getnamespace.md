@@ -4,7 +4,7 @@ title: IRSOPInformation::GetNamespace (gpedit.h)
 author: windows-sdk-content
 description: The GetNameSpace method retrieves the namespace from which the RSoP data is being displayed.
 old-location: policy\irsopinformation_getnamespace.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: 3575072c-88d7-482c-bc8b-dca9f6d68577
 ms.author: windowssdkdev
 ms.date: 12/5/2018

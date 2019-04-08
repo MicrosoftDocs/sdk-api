@@ -4,7 +4,7 @@ title: IGroupPolicyObject::GetOptions (gpedit.h)
 author: windows-sdk-content
 description: The GetOptions method retrieves the options for the GPO.
 old-location: policy\igrouppolicyobject_getoptions.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: a4b86196-04c8-4ec1-bf26-2a33e44020d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

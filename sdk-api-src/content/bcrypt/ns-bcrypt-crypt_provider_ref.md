@@ -4,7 +4,7 @@ title: CRYPT_PROVIDER_REF (bcrypt.h)
 author: windows-sdk-content
 description: Contains information about a cryptographic interface that a provider supports.
 old-location: security\crypt_provider_ref.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 3bd4a07c-8b80-4bbc-9922-88ea007f6ccd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

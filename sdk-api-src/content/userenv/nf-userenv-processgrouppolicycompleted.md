@@ -4,7 +4,7 @@ title: ProcessGroupPolicyCompleted function (userenv.h)
 author: windows-sdk-content
 description: The ProcessGroupPolicyCompleted function notifies the system that the specified extension has finished applying policy.
 old-location: policy\processgrouppolicycompleted.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: f88c8072-af4c-44e0-a816-ecb841dd1a78
 ms.author: windowssdkdev
 ms.date: 12/5/2018

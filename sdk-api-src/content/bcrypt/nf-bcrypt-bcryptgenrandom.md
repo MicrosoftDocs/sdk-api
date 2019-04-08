@@ -4,7 +4,7 @@ title: BCryptGenRandom function (bcrypt.h)
 author: windows-sdk-content
 description: Generates a random number.
 old-location: security\bcryptgenrandom_func.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 7c6cee3a-f2c5-46f3-8cfe-984316f323d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -180,7 +180,7 @@ Depending on what processor modes a provider supports, <b>BCryptGenRandom</b> ca
 
 
 
-To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=84080">WDK and Developer Tools</a>.<b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
+To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
 
 
 

@@ -175,7 +175,7 @@ To submit the information, call the <a href="https://msdn.microsoft.com/1433862e
 
 Applications can also indicate that they would like the opportunity to recover data or restart on failure. For more information, see <a href="https://msdn.microsoft.com/9357786c-1992-4e28-ac75-c2dfda1df7f1">Application Recovery and Restart</a>.
 
-To view the reports submitted by your application, go to <a href="Http://go.microsoft.com/fwlink/p/?linkid=84169">Windows Quality Online Services</a>.
+To view the reports submitted by your application, go to Windows Quality Online Services.
 
 
 

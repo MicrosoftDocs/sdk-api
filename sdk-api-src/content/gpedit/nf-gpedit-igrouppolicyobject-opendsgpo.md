@@ -4,7 +4,7 @@ title: IGroupPolicyObject::OpenDSGPO (gpedit.h)
 author: windows-sdk-content
 description: The OpenDSGPO method opens the specified GPO and optionally loads the registry information.
 old-location: policy\igrouppolicyobject_opendsgpo.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: 362b6229-d73f-424f-b906-05ed43e5e034
 ms.author: windowssdkdev
 ms.date: 12/5/2018

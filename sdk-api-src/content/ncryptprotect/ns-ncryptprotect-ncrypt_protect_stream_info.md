@@ -4,7 +4,7 @@ title: NCRYPT_PROTECT_STREAM_INFO (ncryptprotect.h)
 author: windows-sdk-content
 description: Is used by the NCryptStreamOpenToProtect and NCryptStreamOpenToUnprotect functions to pass blocks of processed data to your application.
 old-location: security\ncrypt_protect_stream_info.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 77FADFC1-6C66-4801-B0BD-263963555C3C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

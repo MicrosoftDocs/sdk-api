@@ -273,10 +273,6 @@ See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Ex
 
 
 
-<a href="https://www.youtube.com/watch?v=nmB2XMasz2o">DirectX advanced learning video tutorials : Resource Barriers and State Tracking</a>
-
-
-
 <a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>
 
 

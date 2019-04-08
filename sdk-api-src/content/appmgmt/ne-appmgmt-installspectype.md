@@ -4,7 +4,7 @@ title: INSTALLSPECTYPE (appmgmt.h)
 author: windows-sdk-content
 description: The INSTALLSPECTYPE enumeration values define the ways a group policy application can be specified to the InstallApplication function. The values are used in the Type member of INSTALLDATA.
 old-location: policy\installspectype_enum.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: 9e62a22d-cae7-4b3e-9000-71eddb1f3cad
 ms.author: windowssdkdev
 ms.date: 12/5/2018

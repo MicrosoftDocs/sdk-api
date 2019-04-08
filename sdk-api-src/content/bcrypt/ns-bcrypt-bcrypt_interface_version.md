@@ -4,7 +4,7 @@ title: BCRYPT_INTERFACE_VERSION (bcrypt.h)
 author: windows-sdk-content
 description: Contains version information for a programmatic interface for a CNG provider.
 old-location: security\bcrypt_interface_version.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: d89e819e-7cbc-4f19-85c5-08c1ecab3bdd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

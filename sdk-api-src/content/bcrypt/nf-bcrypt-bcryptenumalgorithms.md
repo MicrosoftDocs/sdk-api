@@ -4,7 +4,7 @@ title: BCryptEnumAlgorithms function (bcrypt.h)
 author: windows-sdk-content
 description: Gets a list of the registered algorithm identifiers.
 old-location: security\bcryptenumalgorithms_func.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 7fa227c0-2b80-49ab-8a19-72f8444d5507
 ms.author: windowssdkdev
 ms.date: 12/5/2018

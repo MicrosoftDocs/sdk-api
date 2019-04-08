@@ -4,7 +4,7 @@ title: IGroupPolicyObject::GetFileSysPath (gpedit.h)
 author: windows-sdk-content
 description: The GetFileSysPath method retrieves the file system path to the root of the specified GPO section. The path is in UNC format.
 old-location: policy\igrouppolicyobject_getfilesyspath.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: 9f0837ff-31bb-4eaa-82e4-ef127f8e605a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: BCryptEnumProviders function (bcrypt.h)
 author: windows-sdk-content
 description: Obtains all of the CNG providers that support a specified algorithm.
 old-location: security\bcryptenumproviders_func.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 0496f241-9530-47fb-89e2-15d7ab6da87a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

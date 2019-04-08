@@ -4,7 +4,7 @@ title: IGroupPolicyObject::New (gpedit.h)
 author: windows-sdk-content
 description: The New method creates a new GPO in the Active Directory with the specified display name. The method opens the GPO using the OpenDSGPO method.
 old-location: policy\igrouppolicyobject_new.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: e251cac2-8fc8-4ed0-b940-4a9f47eca26b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: BCRYPT_MULTI_HASH_OPERATION (bcrypt.h)
 author: windows-sdk-content
 description: A BCRYPT_MULTI_HASH_OPERATION structure defines a single operation in a multi-hash operation.
 old-location: security\bcrypt_multi_hash_operation.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: B0418A07-D2EE-4346-9971-676C8FB08FAA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
