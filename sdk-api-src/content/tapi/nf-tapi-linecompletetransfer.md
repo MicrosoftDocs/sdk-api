@@ -7,7 +7,7 @@ old-location: tapi2\linecompletetransfer.htm
 tech.root: Tapi
 ms.assetid: ebedf664-4c45-49c3-9d86-c3d782077a00
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_tapi2_linecompletetransfer, lineCompleteTransfer, lineCompleteTransfer function [TAPI 2.2], tapi/lineCompleteTransfer, tapi2.linecompletetransfer"
 ms.topic: function
 req.header: tapi.h

@@ -7,7 +7,7 @@ old-location: mstv\isbe2mediatypeprofile_deletestream.htm
 tech.root: mstv
 ms.assetid: 83e8b802-d28f-4130-addf-772682ac327f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DeleteStream, DeleteStream method [Microsoft TV Technologies], DeleteStream method [Microsoft TV Technologies],ISBE2MediaTypeProfile interface, ISBE2MediaTypeProfile interface [Microsoft TV Technologies],DeleteStream method, ISBE2MediaTypeProfile.DeleteStream, ISBE2MediaTypeProfile::DeleteStream, mstv.isbe2mediatypeprofile_deletestream, sbe/ISBE2MediaTypeProfile::DeleteStream
 ms.topic: method
 req.header: sbe.h

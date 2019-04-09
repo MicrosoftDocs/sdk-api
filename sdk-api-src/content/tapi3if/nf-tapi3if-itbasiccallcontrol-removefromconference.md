@@ -7,7 +7,7 @@ old-location: tapi3\itbasiccallcontrol_removefromconference.htm
 tech.root: Tapi
 ms.assetid: c3a357a1-9bfa-4d23-b7d7-e1d9b636e861
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],RemoveFromConference method, ITBasicCallControl.RemoveFromConference, ITBasicCallControl::RemoveFromConference, RemoveFromConference, RemoveFromConference method [TAPI 2.2], RemoveFromConference method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_removefromconference, tapi3.itbasiccallcontrol_removefromconference, tapi3if/ITBasicCallControl::RemoveFromConference
 ms.topic: method
 req.header: tapi3if.h

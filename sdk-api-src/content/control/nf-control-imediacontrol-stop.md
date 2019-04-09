@@ -7,7 +7,7 @@ old-location: dshow\imediacontrol_stop.htm
 tech.root: DirectShow
 ms.assetid: 89e48d43-a31f-4912-98ff-36ba2069812d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMediaControl interface [DirectShow],Stop method, IMediaControl.Stop, IMediaControl::Stop, IMediaControlStop, Stop, Stop method [DirectShow], Stop method [DirectShow],IMediaControl interface, control/IMediaControl::Stop, dshow.imediacontrol_stop
 ms.topic: method
 req.header: control.h

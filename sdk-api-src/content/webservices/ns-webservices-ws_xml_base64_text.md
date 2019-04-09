@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_base64_text.htm
 tech.root: wsw
 ms.assetid: 6b4d555b-4e1f-4cc1-8204-6584a5d1dc77
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_XML_BASE64_TEXT, WS_XML_BASE64_TEXT structure [Web Services for Windows], webservices/WS_XML_BASE64_TEXT, wsw.ws_xml_base64_text
 ms.topic: struct
 req.header: webservices.h

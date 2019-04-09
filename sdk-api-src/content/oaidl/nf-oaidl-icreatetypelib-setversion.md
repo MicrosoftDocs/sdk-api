@@ -7,7 +7,7 @@ old-location: automat\icreatetypelib_setversion.htm
 tech.root: automat
 ms.assetid: 1c71bf8f-998a-4a9a-a4a8-981f51334cbe
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetVersion method, ICreateTypeLib.SetVersion, ICreateTypeLib::SetVersion, SetVersion, SetVersion method [Automation], SetVersion method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetVersion, automat.icreatetypelib_setversion, oaidl/ICreateTypeLib::SetVersion
 ms.topic: method
 req.header: oaidl.h

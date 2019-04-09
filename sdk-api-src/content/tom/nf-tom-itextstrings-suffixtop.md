@@ -7,7 +7,7 @@ old-location: controls\itextstrings_suffixtop.htm
 tech.root: Controls
 ms.assetid: 66f4e5c6-e97b-48a5-9c71-3efb1eba12d6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITextStrings interface [Windows Controls],SuffixTop method, ITextStrings.SuffixTop, ITextStrings::SuffixTop, SuffixTop, SuffixTop method [Windows Controls], SuffixTop method [Windows Controls],ITextStrings interface, controls.itextstrings_suffixtop, tom/ITextStrings::SuffixTop
 ms.topic: method
 req.header: tom.h

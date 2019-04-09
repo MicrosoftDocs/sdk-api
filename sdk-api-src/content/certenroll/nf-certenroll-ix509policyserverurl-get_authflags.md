@@ -7,7 +7,7 @@ old-location: security\ix509policyserverurl_authflags.htm
 tech.root: seccertenroll
 ms.assetid: c59387e3-2160-480a-beef-8e9dae064a1a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AuthFlags property [Security], AuthFlags property [Security],IX509PolicyServerUrl interface, IX509PolicyServerUrl interface [Security],AuthFlags property, IX509PolicyServerUrl.AuthFlags, IX509PolicyServerUrl.get_AuthFlags, IX509PolicyServerUrl::AuthFlags, IX509PolicyServerUrl::get_AuthFlags, IX509PolicyServerUrl::put_AuthFlags, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/IX509PolicyServerUrl::AuthFlags, certenroll/IX509PolicyServerUrl::get_AuthFlags, certenroll/IX509PolicyServerUrl::put_AuthFlags, get_AuthFlags, security.ix509policyserverurl_authflags
 ms.topic: method
 req.header: certenroll.h

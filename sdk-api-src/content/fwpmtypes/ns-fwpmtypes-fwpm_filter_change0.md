@@ -7,7 +7,7 @@ old-location: fwp\fwpm_filter_change0_struct.htm
 tech.root: fwp
 ms.assetid: 01c58002-5506-4e2a-ae85-30b16aad2dd6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FWPM_FILTER_CHANGE0, FWPM_FILTER_CHANGE0 structure [Filtering], fwp.fwpm_filter_change0_struct, fwpmtypes/FWPM_FILTER_CHANGE0
 ms.topic: struct
 req.header: fwpmtypes.h

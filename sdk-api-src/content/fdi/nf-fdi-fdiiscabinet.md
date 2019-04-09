@@ -7,7 +7,7 @@ old-location: winprog\fdiiscabinet.htm
 tech.root: DevNotes
 ms.assetid: 01d223ca-56c6-49fa-b9e6-e5eeda88936a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FDIIsCabinet, FDIIsCabinet function [Windows API], fdi/FDIIsCabinet, winprog.fdiiscabinet
 ms.topic: function
 req.header: fdi.h

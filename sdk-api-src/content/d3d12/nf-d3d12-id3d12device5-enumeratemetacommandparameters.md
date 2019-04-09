@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device5_enumeratemetacommandparameters.htm
 tech.root: direct3d12
 ms.assetid: EA4DD3FE-E11A-4F1C-A765-4B1FCA71FB4B
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EnumerateMetaCommandParameters, EnumerateMetaCommandParameters method, EnumerateMetaCommandParameters method,ID3D12Device5 interface, ID3D12Device5 interface,EnumerateMetaCommandParameters method, ID3D12Device5.EnumerateMetaCommandParameters, ID3D12Device5::EnumerateMetaCommandParameters, d3d12/ID3D12Device5::EnumerateMetaCommandParameters, direct3d12.id3d12device5_enumeratemetacommandparameters
 ms.topic: method
 req.header: d3d12.h

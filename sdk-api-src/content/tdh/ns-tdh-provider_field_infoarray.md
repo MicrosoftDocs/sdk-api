@@ -7,7 +7,7 @@ old-location: etw\provider_field_infoarray_struct.htm
 tech.root: ETW
 ms.assetid: c3755ca2-7b17-4f86-9ae8-34621f8b8c1b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PPROVIDER_FIELD_INFOARRAY, PROVIDER_FIELD_INFOARRAY, PROVIDER_FIELD_INFOARRAY structure [ETW], etw.provider_field_infoarray_struct, tdh.provider_field_infoarray_struct, tdh/PROVIDER_FIELD_INFOARRAY"
 ms.topic: struct
 req.header: tdh.h

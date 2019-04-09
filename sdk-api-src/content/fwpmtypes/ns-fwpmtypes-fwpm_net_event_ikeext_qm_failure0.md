@@ -7,7 +7,7 @@ old-location: fwp\fwpm_net_event_ikeext_qm_failure0.htm
 tech.root: fwp
 ms.assetid: a9cffcee-67a2-4a04-9ff1-85e2e02fa9a9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FWPM_NET_EVENT_IKEEXT_QM_FAILURE0, FWPM_NET_EVENT_IKEEXT_QM_FAILURE0 structure [Filtering], fwp.fwpm_net_event_ikeext_qm_failure0, fwpmtypes/FWPM_NET_EVENT_IKEEXT_QM_FAILURE0
 ms.topic: struct
 req.header: fwpmtypes.h

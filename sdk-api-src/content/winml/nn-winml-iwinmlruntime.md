@@ -7,7 +7,7 @@ old-location: machinelearning\iwinmlruntime.htm
 tech.root: MachineLearning
 ms.assetid: C2FD74A1-EE38-46B1-98A8-43557485F92E
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWinMLRuntime, IWinMLRuntime interface, IWinMLRuntime interface,described, MachineLearning.iwinmlruntime, winml/IWinMLRuntime
 ms.topic: interface
 req.header: winml.h

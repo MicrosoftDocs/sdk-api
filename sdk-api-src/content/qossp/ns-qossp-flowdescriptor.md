@@ -7,7 +7,7 @@ old-location: qos\flowdescriptor.htm
 tech.root: QOS
 ms.assetid: c81a9c68-7124-4a66-9c68-d147d41c0c4d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPFLOWDESCRIPTOR, *LPFLOWDESCRIPTOR structure [QOS], FLOWDESCRIPTOR, FLOWDESCRIPTOR structure [QOS], qos.flowdescriptor, qossp/*LPFLOWDESCRIPTOR, qossp/FLOWDESCRIPTOR"
 ms.topic: struct
 req.header: qossp.h

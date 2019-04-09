@@ -7,7 +7,7 @@ old-location: base\getprocessiocounters.htm
 tech.root: ProcThread
 ms.assetid: e6973c1b-86bc-4fd1-aff6-26e87f8013c4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetProcessIoCounters, GetProcessIoCounters function, _win32_getprocessiocounters, base.getprocessiocounters, winbase/GetProcessIoCounters
 ms.topic: function
 req.header: winbase.h

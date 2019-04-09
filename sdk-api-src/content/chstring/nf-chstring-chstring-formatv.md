@@ -7,7 +7,7 @@ old-location: wmi\chstring_formatv.htm
 tech.root: WmiSdk
 ms.assetid: 55488cf0-0098-4d5b-b451-a5d56f30ed65
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "?FormatV@CHString@@QAEXPBGPAD@Z, ?FormatV@CHString@@QEAAXPEBGPEAD@Z, CHString interface [Windows Management Instrumentation],FormatV method, CHString.FormatV, CHString::FormatV, FormatV, FormatV method [Windows Management Instrumentation], FormatV method [Windows Management Instrumentation],CHString interface, _hmm_chstring_formatv, chstring/CHString::FormatV, wmi.chstring_formatv"
 ms.topic: method
 req.header: chstring.h

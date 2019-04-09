@@ -7,7 +7,7 @@ old-location: ndf\life_time.htm
 tech.root: NDF
 ms.assetid: 31f038fb-08c1-4057-af61-f3912cfcd4f0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PLIFE_TIME, LIFE_TIME, LIFE_TIME structure [NDF], LIFE_TIME,*PLIFE_TIME, LIFE_TIME,*PLIFE_TIME structure [NDF], ndattrib/LIFE_TIME, ndf.life_time"
 ms.topic: struct
 req.header: ndattrib.h

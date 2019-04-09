@@ -7,7 +7,7 @@ old-location: base\suspendthread.htm
 tech.root: ProcThread
 ms.assetid: 1332abcb-3356-4890-a03c-843358c1a3ce
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SuspendThread, SuspendThread function, _win32_suspendthread, base.suspendthread, processthreadsapi/SuspendThread, winbase/SuspendThread
 ms.topic: function
 req.header: processthreadsapi.h

@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontface1_getgdicompatibleglyphadvances.htm
 tech.root: DirectWrite
 ms.assetid: 187DF4C8-203E-4658-9DBF-D02988F92BBB
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetGdiCompatibleGlyphAdvances, GetGdiCompatibleGlyphAdvances method [Direct Write], GetGdiCompatibleGlyphAdvances method [Direct Write],IDWriteFontFace1 interface, IDWriteFontFace1 interface [Direct Write],GetGdiCompatibleGlyphAdvances method, IDWriteFontFace1.GetGdiCompatibleGlyphAdvances, IDWriteFontFace1::GetGdiCompatibleGlyphAdvances, directwrite.idwritefontface1_getgdicompatibleglyphadvances, dwrite_1/IDWriteFontFace1::GetGdiCompatibleGlyphAdvances
 ms.topic: method
 req.header: dwrite_1.h

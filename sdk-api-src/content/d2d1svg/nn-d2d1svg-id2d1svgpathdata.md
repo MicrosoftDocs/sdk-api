@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgpathdata.htm
 tech.root: Direct2D
 ms.assetid: 14879B17-0CAA-42E7-8643-7D385EABFD37
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ID2D1SvgPathData, ID2D1SvgPathData interface [Direct2D], ID2D1SvgPathData interface [Direct2D],described, d2d1svg/ID2D1SvgPathData, direct2d.id2d1svgpathdata
 ms.topic: interface
 req.header: d2d1svg.h

@@ -7,7 +7,7 @@ old-location: fwp\ipsec_aggregate_drop_packet_statistics1_struct.htm
 tech.root: fwp
 ms.assetid: 8ee7150e-ac6e-4f8e-99af-1b92b4e54615
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1, IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1 structure [Filtering], fwp.ipsec_aggregate_drop_packet_statistics1_struct, ipsectypes/IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0
 ms.topic: struct
 req.header: ipsectypes.h

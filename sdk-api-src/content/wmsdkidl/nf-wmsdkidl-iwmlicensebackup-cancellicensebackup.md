@@ -7,7 +7,7 @@ old-location: wmformat\iwmlicensebackup_cancellicensebackup.htm
 tech.root: wmformat
 ms.assetid: aa226875-d59f-4fac-b38b-f94727fa2f4a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CancelLicenseBackup, CancelLicenseBackup method [windows Media Format], CancelLicenseBackup method [windows Media Format],IWMLicenseBackup interface, IWMLicenseBackup interface [windows Media Format],CancelLicenseBackup method, IWMLicenseBackup.CancelLicenseBackup, IWMLicenseBackup::CancelLicenseBackup, IWMLicenseBackupCancelLicenseBackup, wmformat.iwmlicensebackup_cancellicensebackup, wmsdkidl/IWMLicenseBackup::CancelLicenseBackup
 ms.topic: method
 req.header: wmsdkidl.h

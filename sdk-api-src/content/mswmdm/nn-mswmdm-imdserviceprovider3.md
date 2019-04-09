@@ -7,7 +7,7 @@ old-location: wmdm\imdserviceprovider3.htm
 tech.root: WMDM
 ms.assetid: 94d4c323-07a9-406b-84e1-89703d2a8d10
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMDServiceProvider3, IMDServiceProvider3 interface [windows Media Device Manager], IMDServiceProvider3 interface [windows Media Device Manager],described, IMDServiceProvider3Interface, mswmdm/IMDServiceProvider3, wmdm.imdserviceprovider3
 ms.topic: interface
 req.header: mswmdm.h

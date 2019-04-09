@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus2_put_flicksenabled.htm
 tech.root: tablet
 ms.assetid: 50bc70aa-da25-4420-87c3-ffeb9950dd34
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 50bc70aa-da25-4420-87c3-ffeb9950dd34, IRealTimeStylus2 interface [Tablet PC],put_FlicksEnabled method, IRealTimeStylus2.put_FlicksEnabled, IRealTimeStylus2::put_FlicksEnabled, put_FlicksEnabled, put_FlicksEnabled method [Tablet PC], put_FlicksEnabled method [Tablet PC],IRealTimeStylus2 interface, rtscom/IRealTimeStylus2::put_FlicksEnabled, tablet.irealtimestylus2_put_flicksenabled
 ms.topic: method
 req.header: rtscom.h

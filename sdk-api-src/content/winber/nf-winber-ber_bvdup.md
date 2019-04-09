@@ -7,7 +7,7 @@ old-location: ldap\ber_bvdup.htm
 tech.root: ldap
 ms.assetid: 512addea-2738-4063-970a-10c5c365fc7d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_ldap_ber_bvdup, ber_bvdup, ber_bvdup function [LDAP], ldap.ber__bvdup, ldap.ber_bvdup, winber/ber_bvdup"
 ms.topic: function
 req.header: winber.h

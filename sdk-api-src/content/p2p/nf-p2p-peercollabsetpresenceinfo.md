@@ -7,7 +7,7 @@ old-location: p2p\peercollabsetpresenceinfo.htm
 tech.root: P2PSdk
 ms.assetid: fd90e7d2-5126-4bcf-b633-466855abd60a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PeerCollabSetPresenceInfo, PeerCollabSetPresenceInfo function [Peer Networking], p2p.peercollabsetpresenceinfo, p2p/PeerCollabSetPresenceInfo
 ms.topic: function
 req.header: p2p.h

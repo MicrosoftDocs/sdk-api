@@ -7,7 +7,7 @@ old-location: winsock\wsahtonl_2.htm
 tech.root: WinSock
 ms.assetid: 33512f49-d576-4439-ad8d-5c87387d6214
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WSAHtonl, WSAHtonl function [Winsock], _win32_wsahtonl_2, winsock.wsahtonl_2, winsock2/WSAHtonl
 ms.topic: function
 req.header: winsock2.h

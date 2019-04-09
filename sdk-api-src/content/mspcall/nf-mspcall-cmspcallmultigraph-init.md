@@ -7,7 +7,7 @@ old-location: tapi3\cmspcallmultigraph_init.htm
 tech.root: Tapi
 ms.assetid: ffb250b1-b66c-470b-ac73-91511623da00
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CMSPCallMultiGraph interface [TAPI 2.2],Init method, CMSPCallMultiGraph.Init, CMSPCallMultiGraph::Init, Init, Init method [TAPI 2.2], Init method [TAPI 2.2],CMSPCallMultiGraph interface, _tapi3_cmspcallmultigraph_init, mspcall/CMSPCallMultiGraph::Init, tapi3.cmspcallmultigraph_init
 ms.topic: method
 req.header: mspcall.h

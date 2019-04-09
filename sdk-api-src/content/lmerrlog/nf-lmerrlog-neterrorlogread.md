@@ -7,7 +7,7 @@ old-location: netmgmt\neterrorlogread.htm
 tech.root: NetMgmt
 ms.assetid: 90f86d91-e19e-4386-b263-5479680bc6f7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NetErrorLogRead, NetErrorLogRead function [Network Management], _win32_neterrorlogread, lmerrlog/NetErrorLogRead, netmgmt.neterrorlogread
 ms.topic: function
 req.header: lmerrlog.h

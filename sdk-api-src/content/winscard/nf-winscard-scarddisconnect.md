@@ -7,7 +7,7 @@ old-location: security\scarddisconnect.htm
 tech.root: SecAuthN
 ms.assetid: d087a006-bd2d-4ad7-965b-36ea8d712ec8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SCARD_EJECT_CARD, SCARD_LEAVE_CARD, SCARD_RESET_CARD, SCARD_UNPOWER_CARD, SCardDisconnect, SCardDisconnect function [Security], _smart_scarddisconnect, security.scarddisconnect, winscard/SCardDisconnect
 ms.topic: function
 req.header: winscard.h

@@ -7,7 +7,7 @@ old-location: security\ix509certificatetemplates_itembyname.htm
 tech.root: seccertenroll
 ms.assetid: ceaf2274-01e6-422b-8762-a0527e9b9d57
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IX509CertificateTemplates interface [Security],ItemByName property, IX509CertificateTemplates.ItemByName, IX509CertificateTemplates.get_ItemByName, IX509CertificateTemplates::ItemByName, IX509CertificateTemplates::get_ItemByName, ItemByName property [Security], ItemByName property [Security],IX509CertificateTemplates interface, certenroll/IX509CertificateTemplates::ItemByName, certenroll/IX509CertificateTemplates::get_ItemByName, get_ItemByName, security.ix509certificatetemplates_itembyname
 ms.topic: method
 req.header: certenroll.h

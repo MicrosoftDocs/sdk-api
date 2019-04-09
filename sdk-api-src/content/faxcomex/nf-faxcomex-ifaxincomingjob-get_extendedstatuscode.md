@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingjob_extendedstatuscode_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_40v9_cpp.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFaxIncomingJob interface [Fax Service],get_ExtendedStatusCode method, IFaxIncomingJob.get_ExtendedStatusCode, IFaxIncomingJob::get_ExtendedStatusCode, _mfax_faxincomingjob.extendedstatuscode_cpp, fax._mfax_faxincomingjob_extendedstatuscode_cpp, faxcomex/IFaxIncomingJob::get_ExtendedStatusCode, get_ExtendedStatusCode, get_ExtendedStatusCode method [Fax Service], get_ExtendedStatusCode method [Fax Service],IFaxIncomingJob interface
 ms.topic: method
 req.header: faxcomex.h

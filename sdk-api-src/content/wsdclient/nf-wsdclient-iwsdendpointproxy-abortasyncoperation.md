@@ -7,7 +7,7 @@ old-location: ncd\iwsdendpointproxy_abortasyncoperation.htm
 tech.root: WsdApi
 ms.assetid: 559c7fcd-9652-4dfa-b22a-45929b6aee14
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AbortAsyncOperation, AbortAsyncOperation method, AbortAsyncOperation method,IWSDEndpointProxy interface, IWSDEndpointProxy interface,AbortAsyncOperation method, IWSDEndpointProxy.AbortAsyncOperation, IWSDEndpointProxy::AbortAsyncOperation, ncd.iwsdendpointproxy_abortasyncoperation, wsdclient/IWSDEndpointProxy::AbortAsyncOperation
 ms.topic: method
 req.header: wsdclient.h

@@ -7,7 +7,7 @@ old-location: tapi2\linesetappspecific.htm
 tech.root: Tapi
 ms.assetid: b7d51f62-3b19-4961-8d4c-a44dc8498f14
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_tapi2_linesetappspecific, lineSetAppSpecific, lineSetAppSpecific function [TAPI 2.2], tapi/lineSetAppSpecific, tapi2.linesetappspecific"
 ms.topic: function
 req.header: tapi.h

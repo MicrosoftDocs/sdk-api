@@ -7,7 +7,7 @@ old-location: base\powercanrestoreindividualdefaultpowerscheme.htm
 tech.root: power
 ms.assetid: 8f29c993-b237-4302-a48b-05368ead9a44
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PowerCanRestoreIndividualDefaultPowerScheme, PowerCanRestoreIndividualDefaultPowerScheme function, base.powercanrestoreindividualdefaultpowerscheme, powrprof/PowerCanRestoreIndividualDefaultPowerScheme
 ms.topic: function
 req.header: powrprof.h

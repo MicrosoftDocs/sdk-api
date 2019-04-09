@@ -7,7 +7,7 @@ old-location: rpc\proxyfileinfo.htm
 tech.root: Rpc
 ms.assetid: dbe797da-3ec3-4fe0-83bf-30669127a401
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ExtendedProxyFileInfo, ProxyFileInfo, ProxyFileInfo structure [RPC], rpc.proxyfileinfo, rpcproxy/ProxyFileInfo
 ms.topic: struct
 req.header: rpcproxy.h

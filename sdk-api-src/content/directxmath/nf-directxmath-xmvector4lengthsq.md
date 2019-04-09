@@ -7,7 +7,7 @@ old-location: dxmath\xmvector4lengthsq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4LengthSq(XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4LengthSq, XMVector4LengthSq, XMVector4LengthSq method [DirectX Math Support APIs], dxmath.xmvector4lengthsq
 ms.topic: function
 req.header: directxmath.h

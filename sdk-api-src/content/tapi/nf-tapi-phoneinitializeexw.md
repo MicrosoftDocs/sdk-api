@@ -7,7 +7,7 @@ old-location: tapi2\phoneinitializeex.htm
 tech.root: Tapi
 ms.assetid: 362e37df-4b14-4651-8d23-b70613e354c8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_tapi2_phoneinitializeex, phoneInitializeEx, phoneInitializeEx function [TAPI 2.2], phoneInitializeExA, phoneInitializeExW, tapi/phoneInitializeEx, tapi/phoneInitializeExA, tapi/phoneInitializeExW, tapi2.phoneinitializeex"
 ms.topic: function
 req.header: tapi.h

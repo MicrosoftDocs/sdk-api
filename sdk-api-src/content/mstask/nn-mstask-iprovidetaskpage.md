@@ -7,7 +7,7 @@ old-location: taskschd\iprovidetaskpage.htm
 tech.root: taskschd
 ms.assetid: 58be7ea9-022f-46a0-9f27-9b226000a8cc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IProvideTaskPage, IProvideTaskPage interface [Task Scheduler], IProvideTaskPage interface [Task Scheduler],described, _msb_iprovidetaskpage, mstask/IProvideTaskPage, taskschd.iprovidetaskpage
 ms.topic: interface
 req.header: mstask.h

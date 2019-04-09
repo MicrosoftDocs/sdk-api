@@ -7,7 +7,7 @@ old-location: security\lsafreereturnbuffer.htm
 tech.root: SecAuthN
 ms.assetid: e814ed68-07e7-4936-ba96-5411086f43f6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: LsaFreeReturnBuffer, LsaFreeReturnBuffer function [Security], _lsa_lsafreereturnbuffer, ntsecapi/LsaFreeReturnBuffer, security.lsafreereturnbuffer
 ms.topic: function
 req.header: ntsecapi.h

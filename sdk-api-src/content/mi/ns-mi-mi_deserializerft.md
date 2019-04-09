@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_deserializerft.htm
 tech.root: wmi_v2
 ms.assetid: dcd2b458-7c25-47a8-a324-43fc1456fcec
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_DeserializerFT, MI_DeserializerFT structure [Windows Management Infrastructure (MI)], mi/MI_DeserializerFT, wmi_v2.mi_deserializerft
 ms.topic: struct
 req.header: mi.h

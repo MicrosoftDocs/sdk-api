@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_clone.htm
 tech.root: wmi_v2
 ms.assetid: f331561b-97ad-42f1-91b3-d180db92da07
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_Clone, MI_DestinationOptions_Clone function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_Clone, wmi_v2.mi_destinationoptions_clone
 ms.topic: function
 req.header: mi.h

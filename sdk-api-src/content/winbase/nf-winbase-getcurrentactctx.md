@@ -7,7 +7,7 @@ old-location: setup\getcurrentactctx.htm
 tech.root: SbsCs
 ms.assetid: d7603098-8d2d-4ace-9876-277b22f70ca8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetCurrentActCtx, GetCurrentActCtx function [Side-by-side Assemblies], _win32_getcurrentactctx, setup.getcurrentactctx, winbase/GetCurrentActCtx
 ms.topic: function
 req.header: winbase.h

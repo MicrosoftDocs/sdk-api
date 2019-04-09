@@ -7,7 +7,7 @@ old-location: ics\networkisolationsetupappcontainerbinaries.htm
 tech.root: ics
 ms.assetid: 67a183ec-b318-4f43-9241-cc34b9b251f1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NetworkIsolationSetupAppContainerBinaries, NetworkIsolationSetupAppContainerBinaries function [ICS/ICF], ics.networkisolationsetupappcontainerbinaries, networkisolation/NetworkIsolationSetupAppContainerBinaries
 ms.topic: function
 req.header: netfw.h

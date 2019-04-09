@@ -7,7 +7,7 @@ old-location: xps\xps_color_type_context.htm
 tech.root: printdocs
 ms.assetid: 76dcabb0-2407-4877-9f52-100883746695
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: XPS_COLOR, XPS_COLOR structure [XPS Documents and Packaging], XPS_COLOR_TYPE_CONTEXT, XPS_COLOR_TYPE_CONTEXT structure [XPS Documents and Packaging], xps.xps_color_type_context, xpsobjectmodel/XPS_COLOR_TYPE_CONTEXT
 ms.topic: struct
 req.header: xpsobjectmodel.h

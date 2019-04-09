@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_application_newhostedprovider.htm
 tech.root: wmi_v2
 ms.assetid: 4f39ffca-4ae3-4ce5-9460-c7ac27c06a50
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_Application_NewHostedProvider, MI_Application_NewHostedProvider function [Windows Management Infrastructure (MI)], mi/MI_Application_NewHostedProvider, wmi_v2.mi_application_newhostedprovider
 ms.topic: function
 req.header: mi.h

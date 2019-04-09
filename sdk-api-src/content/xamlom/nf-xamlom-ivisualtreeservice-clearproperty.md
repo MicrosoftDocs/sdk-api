@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ivisualtreeservice_clearproperty.htm
 tech.root: xaml_diagnostics
 ms.assetid: BB875AD0-271D-4913-9811-5A5102B3E331
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ClearProperty, ClearProperty method, ClearProperty method,IVisualTreeService interface, IVisualTreeService interface,ClearProperty method, IVisualTreeService.ClearProperty, IVisualTreeService::ClearProperty, xaml_diagnostics.ivisualtreeservice_clearproperty, xamlom/IVisualTreeService::ClearProperty
 ms.topic: method
 req.header: xamlom.h

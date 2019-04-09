@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapdecoder_getthumbnail.htm
 tech.root: wic
 ms.assetid: dbfe61d9-50ca-4d44-a8a3-2acae3413985
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetThumbnail, GetThumbnail method [Windows Imaging Component], GetThumbnail method [Windows Imaging Component],IWICBitmapDecoder interface, IWICBitmapDecoder interface [Windows Imaging Component],GetThumbnail method, IWICBitmapDecoder.GetThumbnail, IWICBitmapDecoder::GetThumbnail, _wic_codec_iwicbitmapdecoder_getthumbnail, wic._wic_codec_iwicbitmapdecoder_getthumbnail, wincodec/IWICBitmapDecoder::GetThumbnail
 ms.topic: method
 req.header: wincodec.h

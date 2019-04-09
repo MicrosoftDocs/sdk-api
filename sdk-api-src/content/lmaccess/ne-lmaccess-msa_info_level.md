@@ -7,7 +7,7 @@ old-location: security\msa_info_level.htm
 tech.root: SecMgmt
 ms.assetid: 06BD0881-30B3-4966-9F6E-29601D86B30F
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PMSA_INFO_LEVEL, MSA_INFO_LEVEL, MSA_INFO_LEVEL enumeration [Security], MsaInfoLevel0, MsaInfoLevelMax, lmaccess/MSA_INFO_LEVEL, lmaccess/MsaInfoLevel0, lmaccess/MsaInfoLevelMax, security.msa_info_level"
 ms.topic: enum
 req.header: lmaccess.h

@@ -7,7 +7,7 @@ old-location: iphlp\if_nametoindex.htm
 tech.root: IpHlp
 ms.assetid: 599e5a34-1e17-4c5f-b58e-727871e409be
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: if_nametoindex, if_nametoindex function [IP Helper], iphlp.if_nametoindex, netioapi/if_nametoindex
 ms.topic: function
 req.header: netioapi.h

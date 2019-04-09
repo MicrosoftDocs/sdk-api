@@ -7,7 +7,7 @@ old-location: tablet\getallrecognizers.htm
 tech.root: tablet
 ms.assetid: F2039094-E3B0-4FF4-9B69-ED29D681B388
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetAllRecognizers, GetAllRecognizers function [Tablet PC], recapis/GetAllRecognizers, tablet.getallrecognizers
 ms.topic: function
 req.header: recapis.h

@@ -7,7 +7,7 @@ old-location: direct3d11\cd3d11_viewport_cd3d11_viewport_d3d11_viewport_values_.
 tech.root: direct3d11
 ms.assetid: EDC5768A-0BF4-40B4-ABDC-67701A75FB8A
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CD3D11_VIEWPORT, CD3D11_VIEWPORT constructor [Direct3D 11], CD3D11_VIEWPORT constructor [Direct3D 11],CD3D11_VIEWPORT interface, CD3D11_VIEWPORT interface [Direct3D 11],CD3D11_VIEWPORT constructor, CD3D11_VIEWPORT.CD3D11_VIEWPORT, CD3D11_VIEWPORT.CD3D11_VIEWPORT(FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT), CD3D11_VIEWPORT::CD3D11_VIEWPORT, CD3D11_VIEWPORT::CD3D11_VIEWPORT(FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT), d3d11/CD3D11_VIEWPORT::CD3D11_VIEWPORT, direct3d11.cd3d11_viewport_cd3d11_viewport_d3d11_viewport_values_
 ms.topic: method
 req.header: d3d11.h

@@ -7,7 +7,7 @@ old-location: dxmath\xmuint2_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUINT2.#ctor(uint32_t,uint32_t)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: XMUINT2, XMUINT2 constructor [DirectX Math Support APIs], XMUINT2 constructor [DirectX Math Support APIs],XMUINT2 structure, XMUINT2 structure [DirectX Math Support APIs],XMUINT2 constructor, XMUINT2.XMUINT2, XMUINT2.XMUINT2(uint32_t,uint32_t), XMUINT2::XMUINT2, XMUINT2::XMUINT2(uint32_t,uint32_t), dxmath.xmuint2_ctor_2
 ms.topic: method
 req.header: directxmath.h

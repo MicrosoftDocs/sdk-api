@@ -7,7 +7,7 @@ old-location: taskschd\itriggercollection.htm
 tech.root: taskschd
 ms.assetid: 5985ff67-3aa2-4ade-9d53-da4d640f5f6e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITriggerCollection, ITriggerCollection interface [Task Scheduler], ITriggerCollection interface [Task Scheduler],described, taskschd.itriggercollection, taskschd/ITriggerCollection, triggers [Task Scheduler],trigger collection interface
 ms.topic: interface
 req.header: taskschd.h

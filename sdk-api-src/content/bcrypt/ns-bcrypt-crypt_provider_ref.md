@@ -7,7 +7,7 @@ old-location: security\crypt_provider_ref.htm
 tech.root: SecCNG
 ms.assetid: 3bd4a07c-8b80-4bbc-9922-88ea007f6ccd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_PROVIDER_REF, CRYPT_PROVIDER_REF, CRYPT_PROVIDER_REF structure [Security], PCRYPT_PROVIDER_REF, PCRYPT_PROVIDER_REF structure pointer [Security], bcrypt/CRYPT_PROVIDER_REF, bcrypt/PCRYPT_PROVIDER_REF, security.crypt_provider_ref"
 ms.topic: struct
 req.header: bcrypt.h

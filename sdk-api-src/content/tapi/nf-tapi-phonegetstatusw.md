@@ -7,7 +7,7 @@ old-location: tapi2\phonegetstatus.htm
 tech.root: Tapi
 ms.assetid: d2e9e209-54f5-4895-b57a-a5f4c24e063e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_tapi2_phonegetstatus, phoneGetStatus, phoneGetStatus function [TAPI 2.2], phoneGetStatusA, phoneGetStatusW, tapi/phoneGetStatus, tapi/phoneGetStatusA, tapi/phoneGetStatusW, tapi2.phonegetstatus"
 ms.topic: function
 req.header: tapi.h

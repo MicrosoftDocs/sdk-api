@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_disableaudio.htm
 tech.root: mstv
 ms.assetid: 0166cdc3-de1c-4505-855e-f69144cc71aa
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DisableAudio, DisableAudio method [Microsoft TV Technologies], DisableAudio method [Microsoft TV Technologies],IMSVidCtl interface, IMSVidCtl interface [Microsoft TV Technologies],DisableAudio method, IMSVidCtl.DisableAudio, IMSVidCtl::DisableAudio, IMSVidCtlDisableAudio, mstv.imsvidctl_disableaudio, msvidctl/IMSVidCtl::DisableAudio
 ms.topic: method
 req.header: msvidctl.h

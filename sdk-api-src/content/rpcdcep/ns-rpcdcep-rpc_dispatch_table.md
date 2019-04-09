@@ -7,7 +7,7 @@ old-location: rpc\rpc_dispatch_table.htm
 tech.root: Rpc
 ms.assetid: 6e34c7a6-3d74-4d1d-9b56-8120fbca1d67
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PRPC_DISPATCH_TABLE, RPC_DISPATCH_TABLE, RPC_DISPATCH_TABLE structure [RPC], _rpc_rpc_dispatch_table, rpc.rpc_dispatch_table, rpcdcep/RPC_DISPATCH_TABLE"
 ms.topic: struct
 req.header: rpcdcep.h

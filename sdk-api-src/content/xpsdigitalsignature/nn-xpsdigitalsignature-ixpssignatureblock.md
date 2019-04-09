@@ -7,7 +7,7 @@ old-location: xps\ixpssignatureblock.htm
 tech.root: printdocs
 ms.assetid: cb2b7fe2-f3d9-4542-958f-5412d2498a9f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IXpsSignatureBlock, IXpsSignatureBlock interface [XPS Documents and Packaging], IXpsSignatureBlock interface [XPS Documents and Packaging],described, xps.ixpssignatureblock, xpsdigitalsignature/IXpsSignatureBlock
 ms.topic: interface
 req.header: xpsdigitalsignature.h

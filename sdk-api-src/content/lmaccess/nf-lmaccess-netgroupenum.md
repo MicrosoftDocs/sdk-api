@@ -7,7 +7,7 @@ old-location: netmgmt\netgroupenum.htm
 tech.root: NetMgmt
 ms.assetid: 3f8fabce-94cb-41f5-9af1-04585ac3f16e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, 3, NetGroupEnum, NetGroupEnum function [Network Management], _win32_netgroupenum, lmaccess/NetGroupEnum, netmgmt.netgroupenum
 ms.topic: function
 req.header: lmaccess.h

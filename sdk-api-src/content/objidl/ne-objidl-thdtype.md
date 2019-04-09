@@ -7,7 +7,7 @@ old-location: com\thdtype.htm
 tech.root: com
 ms.assetid: c1f9ab7b-8915-4433-ae9f-57b1aedcad4d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: THDTYPE, THDTYPE enumeration [COM], THDTYPE_BLOCKMESSAGES, THDTYPE_PROCESSMESSAGES, _com_THDTYPE, com.thdtype, objidlbase/THDTYPE, objidlbase/THDTYPE_BLOCKMESSAGES, objidlbase/THDTYPE_PROCESSMESSAGES
 ms.topic: enum
 req.header: objidl.h

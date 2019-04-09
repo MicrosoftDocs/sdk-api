@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10infoqueue_setbreakoncategory.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_setbreakoncategory.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 5e1bf739-ba7b-46d2-556f-7491e82f1678, ID3D10InfoQueue interface [Direct3D 10],SetBreakOnCategory method, ID3D10InfoQueue.SetBreakOnCategory, ID3D10InfoQueue::SetBreakOnCategory, SetBreakOnCategory, SetBreakOnCategory method [Direct3D 10], SetBreakOnCategory method [Direct3D 10],ID3D10InfoQueue interface, d3d10sdklayers/ID3D10InfoQueue::SetBreakOnCategory, direct3d10.id3d10infoqueue_setbreakoncategory
 ms.topic: method
 req.header: d3d10sdklayers.h

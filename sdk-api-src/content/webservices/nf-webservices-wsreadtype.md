@@ -7,7 +7,7 @@ old-location: wsw\wsreadtype.htm
 tech.root: wsw
 ms.assetid: 6d026b2e-f2c2-4990-9178-152585a7749a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WsReadType, WsReadType function [Web Services for Windows], webservices/WsReadType, wsw.wsreadtype
 ms.topic: function
 req.header: webservices.h

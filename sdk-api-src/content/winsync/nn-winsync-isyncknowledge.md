@@ -7,7 +7,7 @@ old-location: winsync\isyncknowledge.htm
 tech.root: winsync
 ms.assetid: cfb08476-7b5d-4953-b723-5160330e57be
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ISyncKnowledge, ISyncKnowledge interface [Windows Sync], ISyncKnowledge interface [Windows Sync],described, winsync.isyncknowledge, winsync/ISyncKnowledge
 ms.topic: interface
 req.header: winsync.h

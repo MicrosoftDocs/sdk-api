@@ -7,7 +7,7 @@ old-location: base\regopenkey.htm
 tech.root: SysInfo
 ms.assetid: bad0a0f8-1889-4eff-98be-084c95d69f3b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RegOpenKey, RegOpenKey function, RegOpenKeyA, RegOpenKeyW, _win32_regopenkey, base.regopenkey, winreg/RegOpenKey, winreg/RegOpenKeyA, winreg/RegOpenKeyW
 ms.topic: function
 req.header: winreg.h

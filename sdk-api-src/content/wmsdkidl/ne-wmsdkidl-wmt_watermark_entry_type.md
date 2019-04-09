@@ -7,7 +7,7 @@ old-location: wmformat\wmt_watermark_entry_type.htm
 tech.root: wmformat
 ms.assetid: 213fcf75-bc15-43a0-aafd-f9cd3c51de93
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WMT_WATERMARK_ENTRY_TYPE, WMT_WATERMARK_ENTRY_TYPE enumeration [windows Media Format], WMT_WMETYPE_AUDIO, WMT_WMETYPE_VIDEO, wmformat.wmt_watermark_entry_type, wmsdkidl/WMT_WATERMARK_ENTRY_TYPE, wmsdkidl/WMT_WMETYPE_AUDIO, wmsdkidl/WMT_WMETYPE_VIDEO
 ms.topic: enum
 req.header: wmsdkidl.h

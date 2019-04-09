@@ -7,7 +7,7 @@ old-location: intl\immgetcandidatewindow.htm
 tech.root: Intl
 ms.assetid: 39800693-0eb5-4807-94b2-d11e6f98ba2c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ImmGetCandidateWindow, ImmGetCandidateWindow function [Internationalization for Windows Applications], _win32_ImmGetCandidateWindow, imm/ImmGetCandidateWindow, intl.immgetcandidatewindow
 ms.topic: function
 req.header: imm.h

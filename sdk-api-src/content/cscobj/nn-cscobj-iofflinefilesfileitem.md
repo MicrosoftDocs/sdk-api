@@ -7,7 +7,7 @@ old-location: of\iofflinefilesfileitem.htm
 tech.root: offlinefiles
 ms.assetid: 53b9af4b-7526-4b54-bae2-61c97aa67ebf
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IOfflineFilesFileItem, IOfflineFilesFileItem interface [Offline Files], IOfflineFilesFileItem interface [Offline Files],described, cscobj/IOfflineFilesFileItem, of.iofflinefilesfileitem
 ms.topic: interface
 req.header: cscobj.h

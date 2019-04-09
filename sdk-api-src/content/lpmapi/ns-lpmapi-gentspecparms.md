@@ -7,7 +7,7 @@ old-location: qos\gentspecparms.htm
 tech.root: QOS
 ms.assetid: 8a702e7c-0dfd-48f5-8612-d64d19f2a55c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GenTspecParms, GenTspecParms structure [QOS], lpmapi/GenTspecParms, qos.gentspecparms
 ms.topic: struct
 req.header: lpmapi.h

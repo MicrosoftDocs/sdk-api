@@ -7,7 +7,7 @@ old-location: security\iazobjectpicker_name_method.htm
 tech.root: SecAuthZ
 ms.assetid: b42ebb74-deb0-4182-8447-2c7886963a7e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IAzObjectPicker interface [Security],Name property, IAzObjectPicker.Name, IAzObjectPicker.get_Name, IAzObjectPicker::Name, IAzObjectPicker::get_Name, Name property [Security], Name property [Security],IAzObjectPicker interface, azroles/IAzObjectPicker::Name, azroles/IAzObjectPicker::get_Name, get_Name, security.iazobjectpicker_name_method
 ms.topic: method
 req.header: azroles.h

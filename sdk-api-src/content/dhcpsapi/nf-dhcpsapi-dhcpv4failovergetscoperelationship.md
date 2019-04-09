@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4failovergetscoperelationship.htm
 tech.root: DHCP
 ms.assetid: 795eb9ff-cc44-4567-b496-1bff559290b2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DhcpV4FailoverGetScopeRelationship, DhcpV4FailoverGetScopeRelationship function [DHCP], dhcp.dhcpv4failovergetscoperelationship, dhcpsapi/DhcpV4FailoverGetScopeRelationship
 ms.topic: function
 req.header: dhcpsapi.h

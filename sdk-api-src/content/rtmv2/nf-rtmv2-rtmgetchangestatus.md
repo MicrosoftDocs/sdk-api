@@ -7,7 +7,7 @@ old-location: rras\rtmgetchangestatus.htm
 tech.root: RRAS
 ms.assetid: fafe465a-6c89-45b0-83a9-f08d1d9546c6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RtmGetChangeStatus, RtmGetChangeStatus function [RAS], _rtmv2ref_rtmgetchangestatus, rras.rtmgetchangestatus, rtmv2/RtmGetChangeStatus
 ms.topic: function
 req.header: rtmv2.h

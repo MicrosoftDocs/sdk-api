@@ -7,7 +7,7 @@ old-location: base\ivsshardwaresnapshotprovider_arelunssupported.htm
 tech.root: VSS
 ms.assetid: f3615770-63a1-49eb-a3b9-b4d349fc33df
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AreLunsSupported, AreLunsSupported method [VSS], AreLunsSupported method [VSS],IVssHardwareSnapshotProvider interface, IVssHardwareSnapshotProvider interface [VSS],AreLunsSupported method, IVssHardwareSnapshotProvider.AreLunsSupported, IVssHardwareSnapshotProvider::AreLunsSupported, base.ivsshardwaresnapshotprovider_arelunssupported, vsprov/IVssHardwareSnapshotProvider::AreLunsSupported
 ms.topic: method
 req.header: vsprov.h

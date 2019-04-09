@@ -7,7 +7,7 @@ old-location: fs\lockfile.htm
 tech.root: FileIO
 ms.assetid: c88e7b6c-c339-443b-adf9-0325807203dc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: LockFile, LockFile function [Files], _win32_lockfile, base.lockfile, fileapi/LockFile, fs.lockfile, winbase/LockFile
 ms.topic: function
 req.header: fileapi.h

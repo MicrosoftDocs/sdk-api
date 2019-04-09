@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_tex3d_rtv.htm
 tech.root: direct3d12
 ms.assetid: D640C247-FDE9-49DD-88AB-BCCC3B8880D1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: D3D12_TEX3D_RTV, D3D12_TEX3D_RTV structure, d3d12/D3D12_TEX3D_RTV, direct3d12.d3d12_tex3d_rtv
 ms.topic: struct
 req.header: d3d12.h

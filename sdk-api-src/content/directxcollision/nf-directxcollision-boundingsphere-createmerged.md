@@ -7,7 +7,7 @@ old-location: dxmath\boundingsphere_createmerged.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingSphere.CreateMerged(BoundingSphere@,BoundingSphere,BoundingSphere)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BoundingSphere interface [DirectX Math Support APIs],CreateMerged method, BoundingSphere.CreateMerged, BoundingSphere::CreateMerged, CreateMerged, CreateMerged method [DirectX Math Support APIs], CreateMerged method [DirectX Math Support APIs],BoundingSphere interface, Use DirectX..BoundingSphere.CreateMerged, Use DirectX::::BoundingSphere::CreateMerged, dxmath.boundingsphere_createmerged
 ms.topic: method
 req.header: directxcollision.h

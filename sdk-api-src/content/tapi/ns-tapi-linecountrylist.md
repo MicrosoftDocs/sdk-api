@@ -7,7 +7,7 @@ old-location: tapi2\linecountrylist_str.htm
 tech.root: Tapi
 ms.assetid: f6634d40-0c17-4eb1-a0ca-9590e9e649e2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPLINECOUNTRYLIST, LINECOUNTRYLIST, LINECOUNTRYLIST structure [TAPI 2.2], LPLINECOUNTRYLIST, LPLINECOUNTRYLIST structure pointer [TAPI 2.2], _tapi2_linecountrylist_str, tapi/LINECOUNTRYLIST, tapi/LPLINECOUNTRYLIST, tapi2.linecountrylist_str"
 ms.topic: struct
 req.header: tapi.h

@@ -7,7 +7,7 @@ old-location: rm\drmgetissuancelicensetemplate.htm
 tech.root: AdRms_Sdk
 ms.assetid: 6667bab3-5022-4279-846a-61a0a37e9d33
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DRMGetIssuanceLicenseTemplate, DRMGetIssuanceLicenseTemplate function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetIssuanceLicenseTemplate, rm.drmgetissuancelicensetemplate
 ms.topic: function
 req.header: msdrm.h

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_class_getnamespace.htm
 tech.root: wmi_v2
 ms.assetid: 64ee42d6-d6ad-4a41-83f4-48de191a853c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_Class_GetNameSpace, MI_Class_GetNameSpace function [Windows Management Infrastructure (MI)], mi/MI_Class_GetNameSpace, wmi_v2.mi_class_getnamespace
 ms.topic: function
 req.header: mi.h

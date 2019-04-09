@@ -7,7 +7,7 @@ old-location: base\ivssexaminewritermetadata.htm
 tech.root: VSS
 ms.assetid: b3aa04d9-7299-4e3a-b092-d07f2de6eefe
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVssExamineWriterMetadata, IVssExamineWriterMetadata interface [VSS], IVssExamineWriterMetadata interface [VSS],described, _win32_ivssexaminewritermetadata, base.ivssexaminewritermetadata, vsbackup/IVssExamineWriterMetadata
 ms.topic: class
 req.header: vsbackup.h

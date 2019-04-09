@@ -7,7 +7,7 @@ old-location: mstv\idvbcontentdescriptor.htm
 tech.root: mstv
 ms.assetid: 7bc74428-f8e3-4d3b-b35a-33e917b18a93
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDvbContentDescriptor, IDvbContentDescriptor interface [Microsoft TV Technologies], IDvbContentDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbContentDescriptor, mstv.idvbcontentdescriptor
 ms.topic: interface
 req.header: dvbsiparser.h

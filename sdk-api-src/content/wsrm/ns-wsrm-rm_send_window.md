@@ -7,7 +7,7 @@ old-location: winsock\rm_send_window.htm
 tech.root: WinSock
 ms.assetid: 7ce84d2e-a52f-4652-b24a-55c94b7c120b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RM_SEND_WINDOW, RM_SEND_WINDOW structure [Winsock], winsock.rm_send_window, wsrm/RM_SEND_WINDOW
 ms.topic: struct
 req.header: wsrm.h

@@ -7,7 +7,7 @@ old-location: automat\vardiv.htm
 tech.root: automat
 ms.assetid: 63cd466d-da23-4c61-ba7c-899f56f02245
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VarDiv, VarDiv function [Automation], _oa96_VarDiv, automat.vardiv, oleauto/VarDiv
 ms.topic: function
 req.header: oleauto.h

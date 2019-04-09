@@ -7,7 +7,7 @@ old-location: winrt\point.htm
 tech.root: WinRT
 ms.assetid: 0cdd5b17-2f7e-4e17-896c-7d7784c8643d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Point, Point structure [Windows Runtime], windows/Point, winrt.point
 ms.topic: struct
 req.header: windows.foundation.h

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1offsettransform_setoffset.htm
 tech.root: Direct2D
 ms.assetid: 4694BB45-4D26-4CB8-B0D3-560493D60D88
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ID2D1OffsetTransform interface [Direct2D],SetOffset method, ID2D1OffsetTransform.SetOffset, ID2D1OffsetTransform::SetOffset, SetOffset, SetOffset method [Direct2D], SetOffset method [Direct2D],ID2D1OffsetTransform interface, d2d1effectauthor/ID2D1OffsetTransform::SetOffset, direct2d.id2d1offsettransform_setoffset
 ms.topic: method
 req.header: d2d1effectauthor.h

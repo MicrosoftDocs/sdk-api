@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__openplaylistswitch.htm
 tech.root: WMP
 ms.assetid: 08fef94e-82ef-4606-a7d5-6258fddd8717
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],OpenPlaylistSwitch method, IWMPEvents.OpenPlaylistSwitch, IWMPEvents::OpenPlaylistSwitch, IWMPEventsOpenPlaylistSwitch, OpenPlaylistSwitch, OpenPlaylistSwitch method [Windows Media Player], OpenPlaylistSwitch method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__openplaylistswitch, wmp/IWMPEvents::OpenPlaylistSwitch
 ms.topic: method
 req.header: wmp.h

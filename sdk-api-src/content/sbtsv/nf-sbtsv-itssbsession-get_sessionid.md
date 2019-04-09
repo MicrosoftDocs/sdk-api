@@ -7,7 +7,7 @@ old-location: termserv\itssbsession_sessionid.htm
 tech.root: TermServ
 ms.assetid: aede96ba-2fad-4cff-a710-dd1f668a2a34
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITsSbSession interface [Remote Desktop Services],SessionId property, ITsSbSession.SessionId, ITsSbSession.get_SessionId, ITsSbSession::SessionId, ITsSbSession::get_SessionId, SessionId property [Remote Desktop Services], SessionId property [Remote Desktop Services],ITsSbSession interface, get_SessionId, sbtsv/ITsSbSession::SessionId, sbtsv/ITsSbSession::get_SessionId, termserv.itssbsession_sessionid
 ms.topic: method
 req.header: sbtsv.h

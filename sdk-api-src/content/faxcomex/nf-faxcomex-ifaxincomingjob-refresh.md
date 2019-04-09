@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingjob_cpp_mfax_faxincomingjob_refresh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9fzc.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFaxIncomingJob interface [Fax Service],Refresh method, IFaxIncomingJob.Refresh, IFaxIncomingJob::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxIncomingJob interface, _mfax_faxincomingjob.refresh, fax._mfax_faxincomingjob_cpp_mfax_faxincomingjob_refresh_cpp, fax._mfax_faxincomingjob_refresh, faxcomex/IFaxIncomingJob::Refresh
 ms.topic: method
 req.header: faxcomex.h

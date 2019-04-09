@@ -7,7 +7,7 @@ old-location: security\itpmvirtualsmartcardmanager_createvirtualsmartcard.htm
 tech.root: SecAuthN
 ms.assetid: C80C4DE2-0C43-40A5-81E6-7036A0B8DEB7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateVirtualSmartCard, CreateVirtualSmartCard method [Security], CreateVirtualSmartCard method [Security],ITpmVirtualSmartCardManager interface, ITpmVirtualSmartCardManager interface [Security],CreateVirtualSmartCard method, ITpmVirtualSmartCardManager.CreateVirtualSmartCard, ITpmVirtualSmartCardManager::CreateVirtualSmartCard, security.itpmvirtualsmartcardmanager_createvirtualsmartcard, tpmvscmgr/ITpmVirtualSmartCardManager::CreateVirtualSmartCard
 ms.topic: method
 req.header: tpmvscmgr.h

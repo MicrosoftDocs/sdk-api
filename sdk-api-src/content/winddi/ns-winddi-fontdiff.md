@@ -7,7 +7,7 @@ old-location: display\fontdiff.htm
 tech.root: display
 ms.assetid: c590359b-4652-4673-9e43-bf76a0a45d58
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FONTDIFF, FONTDIFF structure [Display Devices], display.fontdiff, grstrcts_f0aab188-5a92-48b3-be9d-464e22f4b260.xml, winddi/FONTDIFF
 ms.topic: struct
 req.header: winddi.h

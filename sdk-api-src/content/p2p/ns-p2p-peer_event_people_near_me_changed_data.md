@@ -7,7 +7,7 @@ old-location: p2p\peer_event_people_near_me_changed_data.htm
 tech.root: P2PSdk
 ms.assetid: d983a399-17b1-43ea-a8fb-05b5d75e179a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PPEER_EVENT_PEOPLE_NEAR_ME_CHANGED_DATA, PEER_EVENT_PEOPLE_NEAR_ME_CHANGED_DATA, PEER_EVENT_PEOPLE_NEAR_ME_CHANGED_DATA structure [Peer Networking], PPEER_EVENT_PEOPLE_NEAR_ME_CHANGED_DATA, PPEER_EVENT_PEOPLE_NEAR_ME_CHANGED_DATA structure pointer [Peer Networking], p2p.peer_event_people_near_me_changed_data, p2p/PEER_EVENT_PEOPLE_NEAR_ME_CHANGED_DATA, p2p/PPEER_EVENT_PEOPLE_NEAR_ME_CHANGED_DATA"
 ms.topic: struct
 req.header: p2p.h

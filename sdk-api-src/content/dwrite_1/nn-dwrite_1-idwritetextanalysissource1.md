@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextanalysissource1.htm
 tech.root: DirectWrite
 ms.assetid: CFB9DB16-1F0B-409F-97BC-BB4B693AB3D6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDWriteTextAnalysisSource1, IDWriteTextAnalysisSource1 interface [Direct Write], IDWriteTextAnalysisSource1 interface [Direct Write],described, directwrite.idwritetextanalysissource1, dwrite_1/IDWriteTextAnalysisSource1
 ms.topic: interface
 req.header: dwrite_1.h

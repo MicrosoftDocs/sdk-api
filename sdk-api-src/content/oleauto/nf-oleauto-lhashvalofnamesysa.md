@@ -7,7 +7,7 @@ old-location: automat\lhashvalofnamesysa.htm
 tech.root: automat
 ms.assetid: 8a879533-c842-4ff7-b739-3f862281acaf
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: LHashValOfNameSysA, LHashValOfNameSysA function [Automation], _oa96_LHashValOfNameSysA, automat.lhashvalofnamesysa, oleauto/LHashValOfNameSysA
 ms.topic: function
 req.header: oleauto.h

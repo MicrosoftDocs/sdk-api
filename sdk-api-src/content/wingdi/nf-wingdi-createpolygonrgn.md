@@ -7,7 +7,7 @@ old-location: gdi\createpolygonrgn.htm
 tech.root: gdi
 ms.assetid: dd7ad6de-c5f2-46e4-8d28-24caaa48ba3a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ALTERNATE, CreatePolygonRgn, CreatePolygonRgn function [Windows GDI], WINDING, _win32_CreatePolygonRgn, gdi.createpolygonrgn, wingdi/CreatePolygonRgn
 ms.topic: function
 req.header: wingdi.h

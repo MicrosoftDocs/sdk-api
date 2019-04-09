@@ -7,7 +7,7 @@ old-location: base\virtualunlock.htm
 tech.root: Memory
 ms.assetid: cb868c8a-ac0d-42ad-bf72-2ae617bc0427
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VirtualUnlock, VirtualUnlock function, _win32_virtualunlock, base.virtualunlock, winbase/VirtualUnlock
 ms.topic: function
 req.header: memoryapi.h

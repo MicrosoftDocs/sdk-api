@@ -7,7 +7,7 @@ old-location: opc\iopcrelationshipset_getrelationship.htm
 tech.root: OPC
 ms.assetid: f44eeae6-592e-479e-98b7-f73075906a7a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetRelationship, GetRelationship method [Open Packaging Conventions], GetRelationship method [Open Packaging Conventions],IOpcRelationshipSet interface, IOpcRelationshipSet interface [Open Packaging Conventions],GetRelationship method, IOpcRelationshipSet.GetRelationship, IOpcRelationshipSet::GetRelationship, msopc/IOpcRelationshipSet::GetRelationship, opc.iopcrelationshipset_getrelationship
 ms.topic: method
 req.header: msopc.h

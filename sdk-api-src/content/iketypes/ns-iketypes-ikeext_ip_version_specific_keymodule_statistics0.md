@@ -7,7 +7,7 @@ old-location: fwp\ikeext_ip_version_specific_keymodule_statistics0.htm
 tech.root: fwp
 ms.assetid: 5b5bb140-ca44-4a46-bb96-aba0b499e94f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0, IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0 structure [Filtering], fwp.ikeext_ip_version_specific_keymodule_statistics0, iketypes/IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0
 ms.topic: struct
 req.header: iketypes.h

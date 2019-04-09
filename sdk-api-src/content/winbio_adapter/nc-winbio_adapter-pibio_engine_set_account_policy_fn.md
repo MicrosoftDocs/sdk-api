@@ -7,7 +7,7 @@ old-location: secbiomet\engineadaptersetaccountpolicy.htm
 tech.root: SecBioMet
 ms.assetid: 9D2C6CF9-A069-40AD-9BB7-81797F7B2FE6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EngineAdapterSetAccountPolicy, EngineAdapterSetAccountPolicy callback function [Windows Biometric Framework API], PIBIO_ENGINE_SET_ACCOUNT_POLICY_FN, PIBIO_ENGINE_SET_ACCOUNT_POLICY_FN callback, secbiomet.engineadaptersetaccountpolicy, winbio_adapter/EngineAdapterSetAccountPolicy
 ms.topic: callback
 req.header: winbio_adapter.h

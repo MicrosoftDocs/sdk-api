@@ -7,7 +7,7 @@ old-location: security\bcryptdestroykey_func.htm
 tech.root: SecCNG
 ms.assetid: 98c02e55-6489-4901-8a7a-021baac41965
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BCryptDestroyKey, BCryptDestroyKey function [Security], bcrypt/BCryptDestroyKey, security.bcryptdestroykey_func
 ms.topic: function
 req.header: bcrypt.h

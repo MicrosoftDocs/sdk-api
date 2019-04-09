@@ -7,7 +7,7 @@ old-location: base\setlasterror.htm
 tech.root: Debug
 ms.assetid: d9da833f-36ca-4046-8d2f-cd4449dd3c63
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SetLastError, SetLastError function, _win32_setlasterror, base.setlasterror, errhandlingapi/SetLastError
 ms.topic: function
 req.header: errhandlingapi.h

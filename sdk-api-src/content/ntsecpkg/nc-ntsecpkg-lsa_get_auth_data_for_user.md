@@ -7,7 +7,7 @@ old-location: security\getauthdataforuser.htm
 tech.root: SecAuthN
 ms.assetid: 1cc02c6b-2628-441d-97ae-ed83a4f6bfd0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetAuthDataForUser, GetAuthDataForUser callback function [Security], LSA_GET_AUTH_DATA_FOR_USER, LSA_GET_AUTH_DATA_FOR_USER callback, SecNameAlternateId, SecNameDN, SecNameFlat, SecNameSamCompatible, _ssp_getauthdataforuser, ntsecpkg/GetAuthDataForUser, security.getauthdataforuser
 ms.topic: callback
 req.header: ntsecpkg.h

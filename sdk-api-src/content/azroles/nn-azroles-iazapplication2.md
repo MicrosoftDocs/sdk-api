@@ -7,7 +7,7 @@ old-location: security\iazapplication2.htm
 tech.root: SecAuthZ
 ms.assetid: 58f0627e-fa92-4b3b-a0cd-7e437d451606
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IAzApplication2, IAzApplication2 interface [Security], IAzApplication2 interface [Security],described, azroles/IAzApplication2, security.iazapplication2
 ms.topic: interface
 req.header: azroles.h

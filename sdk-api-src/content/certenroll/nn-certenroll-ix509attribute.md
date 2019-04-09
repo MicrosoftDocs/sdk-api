@@ -7,7 +7,7 @@ old-location: security\ix509attribute.htm
 tech.root: seccertenroll
 ms.assetid: 20965768-2c6b-488a-ab7c-5e0f6f28ac9b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IX509Attribute, IX509Attribute interface [Security], IX509Attribute interface [Security],described, certenroll/IX509Attribute, security.ix509attribute
 ms.topic: interface
 req.header: certenroll.h

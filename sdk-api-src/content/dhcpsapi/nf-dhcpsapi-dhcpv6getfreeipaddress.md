@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv6getfreeipaddress.htm
 tech.root: DHCP
 ms.assetid: 4448bbfb-5942-42f9-8daf-3bf86e124052
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DhcpV6GetFreeIPAddress, DhcpV6GetFreeIPAddress function [DHCP], dhcp.dhcpv6getfreeipaddress, dhcpsapi/DhcpV6GetFreeIPAddress
 ms.topic: function
 req.header: dhcpsapi.h

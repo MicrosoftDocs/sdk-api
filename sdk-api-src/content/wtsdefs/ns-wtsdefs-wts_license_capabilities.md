@@ -7,7 +7,7 @@ old-location: termserv\wts_license_capabilities.htm
 tech.root: TermServ
 ms.assetid: 975a534e-03f1-4c8f-9de1-42144e31c8cb
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PWTS_LICENSE_CAPABILITIES, PWRDS_LICENSE_CAPABILITIES, PWRDS_LICENSE_CAPABILITIES structure pointer [Remote Desktop Services], PWTS_LICENSE_CAPABILITIES, PWTS_LICENSE_CAPABILITIES structure pointer [Remote Desktop Services], WRDS_LICENSE_CAPABILITIES, WRDS_LICENSE_CAPABILITIES structure [Remote Desktop Services], WTS_KEY_EXCHANGE_ALG_DH, WTS_KEY_EXCHANGE_ALG_RSA, WTS_LICENSE_CAPABILITIES, WTS_LICENSE_CAPABILITIES structure [Remote Desktop Services], termserv.wts_license_capabilities, wtsdefs/PWRDS_LICENSE_CAPABILITIES, wtsdefs/PWTS_LICENSE_CAPABILITIES, wtsdefs/WRDS_LICENSE_CAPABILITIES, wtsdefs/WTS_LICENSE_CAPABILITIES"
 ms.topic: struct
 req.header: wtsdefs.h

@@ -7,7 +7,7 @@ old-location: proc_snap\pss_auxiliary_page_entry.htm
 tech.root: proc_snap
 ms.assetid: A3D948E6-6FFE-4732-A8C7-A292FDA07D7C
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PSS_AUXILIARY_PAGE_ENTRY, PSS_AUXILIARY_PAGE_ENTRY structure, proc_snap.pss_auxiliary_page_entry, processsnapshot/PSS_AUXILIARY_PAGE_ENTRY
 ms.topic: struct
 req.header: processsnapshot.h

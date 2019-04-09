@@ -7,7 +7,7 @@ old-location: fs\getenlistmentid.htm
 tech.root: ktm
 ms.assetid: ffd37a2e-6bac-4566-bb15-eafce8a11c3b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetEnlistmentId, GetEnlistmentId function [Files], fs.getenlistmentid, ktmw32/GetEnlistmentId
 ms.topic: function
 req.header: ktmw32.h

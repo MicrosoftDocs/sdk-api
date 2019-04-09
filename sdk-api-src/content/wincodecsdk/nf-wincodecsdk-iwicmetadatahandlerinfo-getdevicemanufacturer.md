@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadatahandlerinfo_getdevicemanufacturer.htm
 tech.root: wic
 ms.assetid: ab3cd583-055d-4414-a615-600e4c67dcc4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetDeviceManufacturer, GetDeviceManufacturer method [Windows Imaging Component], GetDeviceManufacturer method [Windows Imaging Component],IWICMetadataHandlerInfo interface, IWICMetadataHandlerInfo interface [Windows Imaging Component],GetDeviceManufacturer method, IWICMetadataHandlerInfo.GetDeviceManufacturer, IWICMetadataHandlerInfo::GetDeviceManufacturer, _wic_codec_iwicmetadatahandlerinfo_getdevicemanufacturer, wic._wic_codec_iwicmetadatahandlerinfo_getdevicemanufacturer, wincodecsdk/IWICMetadataHandlerInfo::GetDeviceManufacturer
 ms.topic: method
 req.header: wincodecsdk.h

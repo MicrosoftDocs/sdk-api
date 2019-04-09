@@ -7,7 +7,7 @@ old-location: dxmath\xmxdecn4.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMXDECN4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: XMXDECN4, XMXDECN4 structure [DirectX Math Support APIs], directxpackedvector/XMXDECN4, dxmath.xmxdecn4
 ms.topic: struct
 req.header: directxpackedvector.h

@@ -7,7 +7,7 @@ old-location: termserv\wrds_listener_setting.htm
 tech.root: TermServ
 ms.assetid: F7EF3E44-70B7-437C-9810-982802F86C77
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PWRDS_LISTENERN_SETTING, PWRDS_LISTENER_SETTING, PWRDS_LISTENER_SETTING union pointer [Remote Desktop Services], WRDS_LISTENER_SETTING, WRDS_LISTENER_SETTING union [Remote Desktop Services], termserv.wrds_listener_setting, wtsdefs/PWRDS_LISTENER_SETTING, wtsdefs/WRDS_LISTENER_SETTING"
 ms.topic: struct
 req.header: wtsdefs.h

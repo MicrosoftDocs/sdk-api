@@ -7,7 +7,7 @@ old-location: wmi\chstring_find.htm
 tech.root: WmiSdk
 ms.assetid: 98a7c5ad-5bc7-4918-b978-45d2b439f250
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CHString.Find, CHString::Find, CHString::Find methods [Windows Management Instrumentation], Find, chstring/CHString::Find, wmi.chstring_find
 ms.topic: method
 req.header: chstring.h

@@ -7,7 +7,7 @@ old-location: upnp\iupnpasyncresult.htm
 tech.root: upnp
 ms.assetid: 53854510-BB0C-41E6-8651-F34991B24D5E
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IUPnPAsyncResult, IUPnPAsyncResult interface [UPnP APIs], IUPnPAsyncResult interface [UPnP APIs],described, upnp.iupnpasyncresult, upnp/IUPnPAsyncResult
 ms.topic: interface
 req.header: upnp.h

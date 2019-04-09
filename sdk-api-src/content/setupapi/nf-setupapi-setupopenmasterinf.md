@@ -7,7 +7,7 @@ old-location: setup\setupopenmasterinf.htm
 tech.root: SetupApi
 ms.assetid: dbf3fb81-7416-4eb7-95b9-adfc17b2a364
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SetupOpenMasterInf, SetupOpenMasterInf function [Setup API], _setupapi_setupopenmasterinf, setup.setupopenmasterinf, setupapi/SetupOpenMasterInf
 ms.topic: function
 req.header: setupapi.h

@@ -7,7 +7,7 @@ old-location: shell\IFileOperationProgressSink_PostNewItem.htm
 tech.root: shell
 ms.assetid: 250ca9b8-951d-4ce8-bfb7-d512f4a59a39
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PostNewItem method, IFileOperationProgressSink.PostNewItem, IFileOperationProgressSink::PostNewItem, PostNewItem, PostNewItem method [Windows Shell], PostNewItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PostNewItem, shell.IFileOperationProgressSink_PostNewItem, shobjidl_core/IFileOperationProgressSink::PostNewItem
 ms.topic: method
 req.header: shobjidl_core.h

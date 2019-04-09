@@ -7,7 +7,7 @@ old-location: dxmath\xmhalf2_operator_eq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMHALF2.operator = (const XMHALF2)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMHALF2.operator =, DirectX::PackedVector::XMHALF2::operator =, XMHALF2 structure [DirectX Math Support APIs],operator = method, XMHALF2.operator =, XMHALF2.operator-assign, XMHALF2.operator=, XMHALF2::operator-assign, XMHALF2::operator=, dxmath.xmhalf2_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMHALF2 structure, operator=
 ms.topic: method
 req.header: directxpackedvector.h

@@ -7,7 +7,7 @@ old-location: tapi3\itterminal_get_direction.htm
 tech.root: Tapi
 ms.assetid: e0a69c3d-1780-4088-8249-961788dbf184
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITTerminal interface [TAPI 2.2],get_Direction method, ITTerminal.get_Direction, ITTerminal::get_Direction, _tapi3_itterminal_get_direction, get_Direction, get_Direction method [TAPI 2.2], get_Direction method [TAPI 2.2],ITTerminal interface, tapi3.itterminal_get_direction, tapi3if/ITTerminal::get_Direction
 ms.topic: method
 req.header: tapi3if.h

@@ -7,7 +7,7 @@ old-location: smi\isettingsengine_gettargetinfo.htm
 tech.root: SMI
 ms.assetid: 2e14644b-84bc-48eb-8d8c-d6290db72dea
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetTargetInfo, GetTargetInfo method [SMI], GetTargetInfo method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],GetTargetInfo method, ISettingsEngine.GetTargetInfo, ISettingsEngine::GetTargetInfo, smi.isettingsengine_gettargetinfo, wcmconfig/ISettingsEngine::GetTargetInfo
 ms.topic: method
 req.header: wcmconfig.h

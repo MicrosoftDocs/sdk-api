@@ -7,7 +7,7 @@ old-location: direct2d\id2d1contextinternal_createtransformnodefromeffect.htm
 tech.root: Direct2D
 ms.assetid: 75F1366A-4E82-4CAD-A843-6E53035CB520
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateTransformNodeFromEffect, CreateTransformNodeFromEffect method [Direct2D], CreateTransformNodeFromEffect method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],CreateTransformNodeFromEffect method, ID2D1EffectContext.CreateTransformNodeFromEffect, ID2D1EffectContext::CreateTransformNodeFromEffect, d2d1effectauthor/ID2D1EffectContext::CreateTransformNodeFromEffect, direct2d.id2d1contextinternal_createtransformnodefromeffect
 ms.topic: method
 req.header: d2d1effectauthor.h

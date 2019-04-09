@@ -7,7 +7,7 @@ old-location: search\_search_ISearchRoot_put_User.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_user.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ISearchRoot interface [search],put_User method, ISearchRoot.put_User, ISearchRoot::put_User, _search_ISearchRoot_put_User, put_User, put_User method [search], put_User method [search],ISearchRoot interface, search._search_ISearchRoot_put_User, searchapi/ISearchRoot::put_User
 ms.topic: method
 req.header: searchapi.h

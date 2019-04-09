@@ -7,7 +7,7 @@ old-location: adsi\adsencodebinarydata.htm
 tech.root: adsi
 ms.assetid: b7bdf16c-7533-4db6-9bc4-06bc57d864ec
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ADsEncodeBinaryData, ADsEncodeBinaryData function [ADSI], _ds_adsencodebinarydata, adshlp/ADsEncodeBinaryData, adsi.adsencodebinarydata
 ms.topic: function
 req.header: adshlp.h

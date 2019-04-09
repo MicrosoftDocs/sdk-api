@@ -7,7 +7,7 @@ old-location: com\oleclose.htm
 tech.root: com
 ms.assetid: 386f24a4-11d7-4471-960e-1a3ff67ba3c5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: OLECLOSE, OLECLOSE enumeration [COM], OLECLOSE_NOSAVE, OLECLOSE_PROMPTSAVE, OLECLOSE_SAVEIFDIRTY, _ole_OLECLOSE, com.oleclose, oleidl/OLECLOSE, oleidl/OLECLOSE_NOSAVE, oleidl/OLECLOSE_PROMPTSAVE, oleidl/OLECLOSE_SAVEIFDIRTY
 ms.topic: enum
 req.header: oleidl.h

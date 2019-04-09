@@ -7,7 +7,7 @@ old-location: base\ivdsiscsiinitiatoradapter_logoutfromtarget.htm
 tech.root: VDS
 ms.assetid: b2f7598c-c532-4b68-b581-40b3f5eed1bf
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVdsIscsiInitiatorAdapter interface [VDS],LogoutFromTarget method, IVdsIscsiInitiatorAdapter.LogoutFromTarget, IVdsIscsiInitiatorAdapter::LogoutFromTarget, LogoutFromTarget, LogoutFromTarget method [VDS], LogoutFromTarget method [VDS],IVdsIscsiInitiatorAdapter interface, base.ivdsiscsiinitiatoradapter_logoutfromtarget, vds/IVdsIscsiInitiatorAdapter::LogoutFromTarget
 ms.topic: method
 req.header: vds.h

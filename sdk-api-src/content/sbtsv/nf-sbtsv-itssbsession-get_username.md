@@ -7,7 +7,7 @@ old-location: termserv\itssbsession_username.htm
 tech.root: TermServ
 ms.assetid: 0034e8cc-b67b-4e30-a059-47a269bab0fd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITsSbSession interface [Remote Desktop Services],Username property, ITsSbSession.Username, ITsSbSession.get_Username, ITsSbSession::Username, ITsSbSession::get_Username, Username property [Remote Desktop Services], Username property [Remote Desktop Services],ITsSbSession interface, get_Username, sbtsv/ITsSbSession::Username, sbtsv/ITsSbSession::get_Username, termserv.itssbsession_username
 ms.topic: method
 req.header: sbtsv.h

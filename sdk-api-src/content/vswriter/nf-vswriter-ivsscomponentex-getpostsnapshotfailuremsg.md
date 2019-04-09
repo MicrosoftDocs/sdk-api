@@ -7,7 +7,7 @@ old-location: base\ivsscomponentex_getpostsnapshotfailuremsg.htm
 tech.root: VSS
 ms.assetid: 51f96d3e-c783-42f4-9e04-94bf3a6b7c09
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetPostSnapshotFailureMsg, GetPostSnapshotFailureMsg method, GetPostSnapshotFailureMsg method,IVssComponentEx interface, IVssComponentEx interface,GetPostSnapshotFailureMsg method, IVssComponentEx.GetPostSnapshotFailureMsg, IVssComponentEx::GetPostSnapshotFailureMsg, base.ivsscomponentex_getpostsnapshotfailuremsg, vswriter/IVssComponentEx::GetPostSnapshotFailureMsg
 ms.topic: method
 req.header: vswriter.h

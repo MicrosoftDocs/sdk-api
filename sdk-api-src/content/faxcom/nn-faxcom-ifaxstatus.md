@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxstatus.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0ckz.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFaxStatus, IFaxStatus interface [Fax Service], IFaxStatus interface [Fax Service],described, _mfax_ifaxstatus, fax._mfax_ifaxstatus, faxcom/IFaxStatus
 ms.topic: interface
 req.header: faxcom.h

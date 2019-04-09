@@ -7,7 +7,7 @@ old-location: rras\mgmgetmfe.htm
 tech.root: RRAS
 ms.assetid: 15b1b096-9044-4983-9039-e7a13c2cca25
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MgmGetMfe, MgmGetMfe function [RAS], _mpr_mgmgetmfe, mgm/MgmGetMfe, rras.mgmgetmfe
 ms.topic: function
 req.header: mgm.h

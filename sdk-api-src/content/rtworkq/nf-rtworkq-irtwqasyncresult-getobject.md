@@ -7,7 +7,7 @@ old-location: base\irtwqasyncresult_getobject.htm
 tech.root: ProcThread
 ms.assetid: EF872EDD-4263-4835-81E4-0A61F18E9202
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method, GetObject method,IRtwqAsyncResult interface, IRtwqAsyncResult interface,GetObject method, IRtwqAsyncResult.GetObject, IRtwqAsyncResult::GetObject, base.irtwqasyncresult_getobject, rtworkq/IRtwqAsyncResult::GetObject
 ms.topic: method
 req.header: rtworkq.h

@@ -7,7 +7,7 @@ old-location: cos\icrmcompensator_beginprepare.htm
 tech.root: cossdk
 ms.assetid: 316a9b00-5843-40b3-9c72-a71da21a81d0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BeginPrepare, BeginPrepare method [COM+], BeginPrepare method [COM+],ICrmCompensator interface, ICrmCompensator interface [COM+],BeginPrepare method, ICrmCompensator.BeginPrepare, ICrmCompensator::BeginPrepare, _dtc_ICrmCompensator_BeginPrepare, comsvcs/ICrmCompensator::BeginPrepare, cos.icrmcompensator_beginprepare
 ms.topic: method
 req.header: comsvcs.h

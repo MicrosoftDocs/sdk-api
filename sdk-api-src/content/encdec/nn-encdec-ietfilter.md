@@ -7,7 +7,7 @@ old-location: mstv\ietfilter.htm
 tech.root: mstv
 ms.assetid: 9fce6b33-394c-47d2-9d02-7b0dadaa1736
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IETFilter, IETFilter interface [Microsoft TV Technologies], IETFilter interface [Microsoft TV Technologies],described, IETFilterInterface, encdec/IETFilter, mstv.ietfilter
 ms.topic: interface
 req.header: encdec.h

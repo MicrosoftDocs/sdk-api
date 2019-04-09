@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_getimmcontext.htm
 tech.root: Controls
 ms.assetid: 42ee6d71-b51d-459a-b1af-638a19d8be2c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetImmContext, GetImmContext method [Windows Controls], GetImmContext method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetImmContext method, ITextDocument2.GetImmContext, ITextDocument2::GetImmContext, controls.itextdocument2_getimmcontext, tom/ITextDocument2::GetImmContext
 ms.topic: method
 req.header: tom.h

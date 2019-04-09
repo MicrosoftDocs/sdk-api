@@ -7,7 +7,7 @@ old-location: base\filetime_str.htm
 tech.root: SysInfo
 ms.assetid: 9baf8a0e-59e3-4fbd-9616-2ec9161520d1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPFILETIME, *PFILETIME, FILETIME, FILETIME structure, PFILETIME, PFILETIME structure pointer, _FILETIME, _win32_filetime_str, base.filetime_str, minwinbase/FILETIME, minwinbase/PFILETIME"
 ms.topic: struct
 req.header: minwinbase.h

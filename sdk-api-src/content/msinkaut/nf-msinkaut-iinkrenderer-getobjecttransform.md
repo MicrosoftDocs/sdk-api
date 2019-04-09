@@ -7,7 +7,7 @@ old-location: tablet\inkrenderer_getobjecttransform.htm
 tech.root: tablet
 ms.assetid: 11195fa1-ca59-4da6-8454-6209c75ccc67
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 11195fa1-ca59-4da6-8454-6209c75ccc67, GetObjectTransform, GetObjectTransform method [Tablet PC], GetObjectTransform method [Tablet PC],IInkRenderer interface, IInkRenderer interface [Tablet PC],GetObjectTransform method, IInkRenderer.GetObjectTransform, IInkRenderer::GetObjectTransform, msinkaut/IInkRenderer::GetObjectTransform, tablet.inkrenderer_getobjecttransform
 ms.topic: method
 req.header: msinkaut.h

@@ -7,7 +7,7 @@ old-location: tablet\iinkpicture.htm
 tech.root: tablet
 ms.assetid: EA6AC3DD-5F13-442A-B93D-FF0A5333609A
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IInkPicture, IInkPicture interface [Tablet PC], IInkPicture interface [Tablet PC],described, msinkaut/IInkPicture, tablet.iinkpicture
 ms.topic: interface
 req.header: msinkaut.h

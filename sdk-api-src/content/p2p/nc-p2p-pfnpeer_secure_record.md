@@ -7,7 +7,7 @@ old-location: p2p\pfnpeer_secure_record.htm
 tech.root: P2PSdk
 ms.assetid: 454b40f6-a7de-4b59-ae35-a809c4510133
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PFNPEER_SECURE_RECORD, PFNPEER_SECURE_RECORD callback, PFNPEER_SECURE_RECORD callback function [Peer Networking], p2p.pfnpeer_secure_record, p2p/PFNPEER_SECURE_RECORD
 ms.topic: callback
 req.header: p2p.h

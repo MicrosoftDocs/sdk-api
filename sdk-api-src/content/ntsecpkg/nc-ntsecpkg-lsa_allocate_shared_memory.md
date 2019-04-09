@@ -7,7 +7,7 @@ old-location: security\allocatesharedmemory.htm
 tech.root: SecAuthN
 ms.assetid: 77fdedaf-8931-4412-ab35-bd3de8e78b9a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AllocateSharedMemory, AllocateSharedMemory callback function [Security], LSA_ALLOCATE_SHARED_MEMORY, LSA_ALLOCATE_SHARED_MEMORY callback, _ssp_allocatesharedmemory, ntsecpkg/AllocateSharedMemory, security.allocatesharedmemory
 ms.topic: callback
 req.header: ntsecpkg.h

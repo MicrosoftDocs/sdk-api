@@ -7,7 +7,7 @@ old-location: gdi\ixpsprintjobstream.htm
 tech.root: printdocs
 ms.assetid: a7855015-32db-48ff-8f8d-3d84d2843fde
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IXpsPrintJobStream, IXpsPrintJobStream interface [Windows GDI], IXpsPrintJobStream interface [Windows GDI],described, gdi.ixpsprintjobstream, xpsprint/IXpsPrintJobStream
 ms.topic: interface
 req.header: xpsprint.h

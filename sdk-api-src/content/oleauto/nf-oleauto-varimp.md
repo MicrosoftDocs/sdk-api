@@ -7,7 +7,7 @@ old-location: automat\varimp.htm
 tech.root: automat
 ms.assetid: c8d846dd-97c3-4e7d-af4f-632f04be75cf
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VarImp, VarImp function [Automation], _oa96_VarImp, automat.varimp, oleauto/VarImp
 ms.topic: function
 req.header: oleauto.h

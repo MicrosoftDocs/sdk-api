@@ -7,7 +7,7 @@ old-location: imapi\iblockrangelist.htm
 tech.root: imapi
 ms.assetid: f2a3bd54-4f40-4bf0-9cbf-b507819d669f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IBlockRangeList, IBlockRangeList interface [IMAPI], IBlockRangeList interface [IMAPI],described, imapi.iblockrangelist, imapi2/IBlockRangeList
 ms.topic: interface
 req.header: imapi2.h

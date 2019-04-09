@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsender_cpp_mfax_faxsender_officelocation_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_020e.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFaxSender interface [Fax Service],OfficeLocation property, IFaxSender.OfficeLocation, IFaxSender.get_OfficeLocation, IFaxSender.put_OfficeLocation, IFaxSender::OfficeLocation, IFaxSender::get_OfficeLocation, IFaxSender::put_OfficeLocation, OfficeLocation property [Fax Service], OfficeLocation property [Fax Service],IFaxSender interface, _mfax_faxsender.officelocation, fax._mfax_faxsender_cpp_mfax_faxsender_officelocation_cpp, fax._mfax_faxsender_officelocation, faxcomex/IFaxSender::OfficeLocation, faxcomex/IFaxSender::get_OfficeLocation, faxcomex/IFaxSender::put_OfficeLocation, put_OfficeLocation
 ms.topic: method
 req.header: faxcomex.h

@@ -7,7 +7,7 @@ old-location: etw\tdhopendecodinghandle.htm
 tech.root: ETW
 ms.assetid: ea437d31-a688-4602-8453-f891e83af9ea
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TdhOpenDecodingHandle, TdhOpenDecodingHandle function [ETW], etw.tdhopendecodinghandle, tdh/TdhOpenDecodingHandle
 ms.topic: function
 req.header: tdh.h

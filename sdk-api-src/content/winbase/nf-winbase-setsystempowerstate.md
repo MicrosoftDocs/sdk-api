@@ -7,7 +7,7 @@ old-location: base\setsystempowerstate.htm
 tech.root: power
 ms.assetid: 58cf4e29-2a2e-499a-85ce-0034f4323cfe
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SetSystemPowerState, SetSystemPowerState function, _win32_setsystempowerstate, base.setsystempowerstate, winbase/SetSystemPowerState
 ms.topic: function
 req.header: winbase.h

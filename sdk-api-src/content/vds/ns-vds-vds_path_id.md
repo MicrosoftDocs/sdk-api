@@ -7,7 +7,7 @@ old-location: base\vds_path_id.htm
 tech.root: VDS
 ms.assetid: bfb786fc-eb03-4449-b631-fb85813c08c8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VDS_PATH_ID, VDS_PATH_ID structure [VDS], base.vds_path_id, vds/VDS_PATH_ID, vdshwprv/VDS_PATH_ID
 ms.topic: struct
 req.header: vds.h

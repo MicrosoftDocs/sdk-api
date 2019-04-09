@@ -7,7 +7,7 @@ old-location: base\imageunload.htm
 tech.root: Debug
 ms.assetid: 9cebd32f-11fe-4dfe-9579-b219d62c3e74
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ImageUnload, ImageUnload function, _win32_imageunload, base.imageunload, imagehlp/ImageUnload
 ms.topic: function
 req.header: imagehlp.h

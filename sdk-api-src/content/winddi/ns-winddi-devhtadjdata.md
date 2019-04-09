@@ -7,7 +7,7 @@ old-location: display\devhtadjdata.htm
 tech.root: display
 ms.assetid: a90f2283-7bc3-48e4-bb1c-172d9776a284
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PDEVHTADJDATA, DEVHTADJDATA, DEVHTADJDATA structure [Display Devices], PDEVHTADJDATA, PDEVHTADJDATA structure pointer [Display Devices], display.devhtadjdata, grstrcts_bd1a058d-3d43-48f3-a87e-7f6f5276ba51.xml, winddi/DEVHTADJDATA, winddi/PDEVHTADJDATA"
 ms.topic: struct
 req.header: winddi.h

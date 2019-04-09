@@ -7,7 +7,7 @@ old-location: mstv\idvbslocator2_signalpilot.htm
 tech.root: mstv
 ms.assetid: a8e99945-0c71-4a1f-b476-b97f0c017e36
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDVBSLocator2 interface [Microsoft TV Technologies],SignalPilot property, IDVBSLocator2.SignalPilot, IDVBSLocator2.get_SignalPilot, IDVBSLocator2::SignalPilot, IDVBSLocator2::get_SignalPilot, IDVBSLocator2::put_SignalPilot, SignalPilot property [Microsoft TV Technologies], SignalPilot property [Microsoft TV Technologies],IDVBSLocator2 interface, get_SignalPilot, mstv.idvbslocator2_signalpilot, tuner/IDVBSLocator2::SignalPilot, tuner/IDVBSLocator2::get_SignalPilot, tuner/IDVBSLocator2::put_SignalPilot
 ms.topic: method
 req.header: tuner.h

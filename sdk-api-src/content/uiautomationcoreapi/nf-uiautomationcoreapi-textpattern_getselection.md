@@ -7,7 +7,7 @@ old-location: winauto\uiauto_TextPattern_GetSelectionConPat.htm
 tech.root: WinAuto
 ms.assetid: 277768af-ac6e-441c-8bf1-27a2c95a109c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TextPattern_GetSelection, TextPattern_GetSelection function [Windows Accessibility], uiauto.uiauto_TextPattern_GetSelectionConPat, uiauto_TextPattern_GetSelectionConPat, uiautomationcoreapi/TextPattern_GetSelection, winauto.uiauto_TextPattern_GetSelectionConPat
 ms.topic: function
 req.header: uiautomationcoreapi.h

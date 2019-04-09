@@ -7,7 +7,7 @@ old-location: ncd\ifunctioninstancecollection_deleteall.htm
 tech.root: FunDisc
 ms.assetid: 4d56a16a-d44a-4c7c-931d-b5f6708cb7d6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DeleteAll, DeleteAll method, DeleteAll method,IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,DeleteAll method, IFunctionInstanceCollection.DeleteAll, IFunctionInstanceCollection::DeleteAll, functiondiscoveryapi/IFunctionInstanceCollection::DeleteAll, ncd.ifunctioninstancecollection_deleteall
 ms.topic: method
 req.header: functiondiscoveryapi.h

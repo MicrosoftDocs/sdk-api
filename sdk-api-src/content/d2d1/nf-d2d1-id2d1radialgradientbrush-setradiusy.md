@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RadialGradientBrush_SetRadiusY.htm
 tech.root: Direct2D
 ms.assetid: 49fc1355-5754-4ad3-aa18-460e26d79818
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ID2D1RadialGradientBrush interface [Direct2D],SetRadiusY method, ID2D1RadialGradientBrush.SetRadiusY, ID2D1RadialGradientBrush::SetRadiusY, SetRadiusY, SetRadiusY method [Direct2D], SetRadiusY method [Direct2D],ID2D1RadialGradientBrush interface, d2d1/ID2D1RadialGradientBrush::SetRadiusY, direct2d.ID2D1RadialGradientBrush_SetRadiusY
 ms.topic: method
 req.header: d2d1.h

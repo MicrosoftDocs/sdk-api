@@ -7,7 +7,7 @@ old-location: perf\perfaddcounters.htm
 tech.root: perfctrs
 ms.assetid: FC66E794-EF13-47BB-A704-735924363310
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PerfAddCounters, PerfAddCounters function [Perf], perf.perfaddcounters, perflib/PerfAddCounters
 ms.topic: function
 req.header: perflib.h

@@ -7,7 +7,7 @@ old-location: cos\icomqcevents_onqcplayback.htm
 tech.root: cossdk
 ms.assetid: 7cd9daf8-cc4d-4d48-b547-95b370f5a927
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IComQCEvents interface [COM+],OnQCPlayback method, IComQCEvents.OnQCPlayback, IComQCEvents::OnQCPlayback, OnQCPlayback, OnQCPlayback method [COM+], OnQCPlayback method [COM+],IComQCEvents interface, _dtc_IComQCEvents_OnQCPlayback, comsvcs/IComQCEvents::OnQCPlayback, cos.icomqcevents_onqcplayback
 ms.topic: method
 req.header: comsvcs.h

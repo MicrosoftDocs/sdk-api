@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextProvider_RangeFromChild.htm
 tech.root: WinAuto
 ms.assetid: b55ae687-44e1-499f-8341-0bbf960529fd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITextProvider interface [Windows Accessibility],RangeFromChild method, ITextProvider.RangeFromChild, ITextProvider::RangeFromChild, RangeFromChild, RangeFromChild method [Windows Accessibility], RangeFromChild method [Windows Accessibility],ITextProvider interface, uiauto.uiauto_ITextProvider_RangeFromChild, uiauto_ITextProvider_RangeFromChild, uiautomationcore/ITextProvider::RangeFromChild, winauto.uiauto_ITextProvider_RangeFromChild
 ms.topic: method
 req.header: uiautomationcore.h

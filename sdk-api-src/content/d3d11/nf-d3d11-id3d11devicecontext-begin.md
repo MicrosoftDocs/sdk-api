@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_begin.htm
 tech.root: direct3d11
 ms.assetid: 5a9cdc60-2226-4d18-bfbd-5db10de35e53
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Begin, Begin method [Direct3D 11], Begin method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],Begin method, ID3D11DeviceContext.Begin, ID3D11DeviceContext::Begin, d3d11/ID3D11DeviceContext::Begin, direct3d11.id3d11devicecontext_begin, e0186f02-1f56-8ba4-2429-48dc47ff8dc9
 ms.topic: method
 req.header: d3d11.h

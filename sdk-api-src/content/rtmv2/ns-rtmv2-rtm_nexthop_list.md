@@ -7,7 +7,7 @@ old-location: rras\rtm_nexthop_list.htm
 tech.root: RRAS
 ms.assetid: f27269e5-ad7e-4426-ac07-cb3a05532579
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PRTM_NEXTHOP_LIST, PRTM_NEXTHOP_LIST, PRTM_NEXTHOP_LIST structure pointer [RAS], RTM_NEXTHOP_LIST, RTM_NEXTHOP_LIST structure [RAS], _rtmv2ref_rtm_nexthop_list, rras.rtm_nexthop_list, rtmv2/PRTM_NEXTHOP_LIST, rtmv2/RTM_NEXTHOP_LIST"
 ms.topic: struct
 req.header: rtmv2.h

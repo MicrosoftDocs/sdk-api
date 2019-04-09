@@ -7,7 +7,7 @@ old-location: gdi\widenpath.htm
 tech.root: gdi
 ms.assetid: c994bd1b-c5e8-46e6-a6a6-59e2d9106d75
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WidenPath, WidenPath function [Windows GDI], _win32_WidenPath, gdi.widenpath, wingdi/WidenPath
 ms.topic: function
 req.header: wingdi.h

@@ -7,7 +7,7 @@ old-location: shell\ILGetSize.htm
 tech.root: shell
 ms.assetid: 099d4139-b0ea-42b7-991b-ee04e40994c6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ILGetSize, ILGetSize function [Windows Shell], _win32_ILGetSize, shell.ILGetSize, shlobj_core/ILGetSize
 ms.topic: function
 req.header: shlobj_core.h

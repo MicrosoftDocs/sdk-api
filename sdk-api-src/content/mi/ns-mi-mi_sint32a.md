@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_sint32a.htm
 tech.root: wmi_v2
 ms.assetid: a50d9d8d-8114-498e-ace3-f975fe413903
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_Sint32A, MI_Sint32A structure [Windows Management Infrastructure (MI)], mi/MI_Sint32A, wmi._mi_sint32a, wmi_v2.mi_sint32a
 ms.topic: struct
 req.header: mi.h

@@ -7,7 +7,7 @@ old-location: perf\pdhenumlogsetnames.htm
 tech.root: perfctrs
 ms.assetid: c74cc8a6-915b-40ed-a88b-bc2147215d52
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PdhEnumLogSetNames, PdhEnumLogSetNames function [Perf], PdhEnumLogSetNamesA, PdhEnumLogSetNamesW, _win32_pdhenumlogsetnames, base.pdhenumlogsetnames, pdh/PdhEnumLogSetNames, pdh/PdhEnumLogSetNamesA, pdh/PdhEnumLogSetNamesW, perf.pdhenumlogsetnames
 ms.topic: function
 req.header: pdh.h

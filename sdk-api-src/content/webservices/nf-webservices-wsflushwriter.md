@@ -7,7 +7,7 @@ old-location: wsw\wsflushwriter.htm
 tech.root: wsw
 ms.assetid: ba631942-d5a0-4d93-9899-c3f0ebd4aae5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WsFlushWriter, WsFlushWriter function [Web Services for Windows], webservices/WsFlushWriter, wsw.wsflushwriter
 ms.topic: function
 req.header: webservices.h

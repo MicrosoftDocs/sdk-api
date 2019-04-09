@@ -7,7 +7,7 @@ old-location: qos\rsvp_hop.htm
 tech.root: QOS
 ms.assetid: 4b23bc0e-ccea-4161-93fa-b136099e88bd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RSVP_HOP, RSVP_HOP structure [QOS], lpmapi/RSVP_HOP, qos.rsvp_hop
 ms.topic: struct
 req.header: lpmapi.h

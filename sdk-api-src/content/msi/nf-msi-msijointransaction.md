@@ -7,7 +7,7 @@ old-location: setup\msijointransaction.htm
 tech.root: Msi
 ms.assetid: 222c37fd-1a77-4017-8e55-cbd844f375df
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MsiJoinTransaction, MsiJoinTransaction function [Setup API], msi/MsiJoinTransaction, setup.msijointransaction
 ms.topic: function
 req.header: msi.h

@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport_removeconfiguration
 tech.root: directmanipulation
 ms.assetid: 2aac9468-a060-4f06-9e8e-139355be75f7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],RemoveConfiguration method, IDirectManipulationViewport.RemoveConfiguration, IDirectManipulationViewport::RemoveConfiguration, RemoveConfiguration, RemoveConfiguration method [Direct Manipulation], RemoveConfiguration method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_removeconfiguration, directmanipulation/IDirectManipulationViewport::RemoveConfiguration
 ms.topic: method
 req.header: directmanipulation.h

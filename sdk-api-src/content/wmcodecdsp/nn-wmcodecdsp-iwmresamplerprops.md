@@ -7,7 +7,7 @@ old-location: mf\iwmresamplerpropsinterface.htm
 tech.root: medfound
 ms.assetid: af3cec68-59a2-4b9d-a279-e5af46e9c38e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMResamplerProps, IWMResamplerProps interface [Media Foundation], IWMResamplerProps interface [Media Foundation],described, codecapi.iwmresamplerpropsinterface, mf.iwmresamplerprops, mf.iwmresamplerpropsinterface, wmcodecdsp/IWMResamplerProps
 ms.topic: interface
 req.header: wmcodecdsp.h

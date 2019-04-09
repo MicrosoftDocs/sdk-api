@@ -7,7 +7,7 @@ old-location: wua\iinstallationjob.htm
 tech.root: Wua_Sdk
 ms.assetid: 1a83a44e-cd3b-43b0-8741-a73fe9954063
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IInstallationJob, IInstallationJob interface [Windows Update Agent], IInstallationJob interface [Windows Update Agent],described, wua.iinstallationjob, wuapi/IInstallationJob
 ms.topic: interface
 req.header: wuapi.h

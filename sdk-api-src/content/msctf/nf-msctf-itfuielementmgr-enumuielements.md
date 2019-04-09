@@ -7,7 +7,7 @@ old-location: tsf\itfuielementmgr_enumuielements.htm
 tech.root: TSF
 ms.assetid: cdede376-be18-4deb-ae79-594aebb085a6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EnumUIElements, EnumUIElements method [Text Services Framework], EnumUIElements method [Text Services Framework],ITfUIElementMgr interface, ITfUIElementMgr interface [Text Services Framework],EnumUIElements method, ITfUIElementMgr.EnumUIElements, ITfUIElementMgr::EnumUIElements, msctf/ITfUIElementMgr::EnumUIElements, tsf.itfuielementmgr_enumuielements
 ms.topic: method
 req.header: msctf.h

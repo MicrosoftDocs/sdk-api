@@ -7,7 +7,7 @@ old-location: intl\is_surrogate_pair.htm
 tech.root: Intl
 ms.assetid: cf7bf905-2cf7-416f-985f-cda4e03b86f9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IS_SURROGATE_PAIR, IS_SURROGATE_PAIR macro [Internationalization for Windows Applications], _win32_IS_SURROGATE_PAIR, intl.is_surrogate_pair, winnls/IS_SURROGATE_PAIR
 ms.topic: macro
 req.header: winnls.h

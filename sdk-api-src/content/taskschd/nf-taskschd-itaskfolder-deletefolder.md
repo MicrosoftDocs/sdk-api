@@ -7,7 +7,7 @@ old-location: taskschd\itaskfolder_deletefolder.htm
 tech.root: taskschd
 ms.assetid: 7758afc5-73d8-456c-98a9-89e4b7ad42b9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DeleteFolder, DeleteFolder method [Task Scheduler], DeleteFolder method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],DeleteFolder method, ITaskFolder.DeleteFolder, ITaskFolder::DeleteFolder, taskschd.itaskfolder_deletefolder, taskschd/ITaskFolder::DeleteFolder
 ms.topic: method
 req.header: taskschd.h

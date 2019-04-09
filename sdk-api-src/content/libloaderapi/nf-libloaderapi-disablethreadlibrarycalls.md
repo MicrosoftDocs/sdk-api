@@ -7,7 +7,7 @@ old-location: base\disablethreadlibrarycalls.htm
 tech.root: Dlls
 ms.assetid: 25e0e533-35e3-48c6-80a5-f063d38d87ca
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DisableThreadLibraryCalls, DisableThreadLibraryCalls function, _win32_disablethreadlibrarycalls, base.disablethreadlibrarycalls, libloaderapi/DisableThreadLibraryCalls, winbase/DisableThreadLibraryCalls
 ms.topic: function
 req.header: libloaderapi.h

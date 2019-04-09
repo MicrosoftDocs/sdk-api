@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeermethodresult.htm
 tech.root: eaphost
 ms.assetid: 376e5399-61c9-4927-ac68-8a1bb4bdc7db
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EapHostPeerMethodResult, EapHostPeerMethodResult structure [EAPHost], eaphost.eaphostpeermethodresult, eaphostpeertypes/EapHostPeerMethodResult
 ms.topic: struct
 req.header: eaphostpeertypes.h

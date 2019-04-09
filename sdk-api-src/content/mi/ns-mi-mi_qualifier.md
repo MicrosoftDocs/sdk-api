@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_qualifier.htm
 tech.root: wmi_v2
 ms.assetid: 4BEBE8AB-90D3-4BBA-A544-7722309160A1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_Qualifier, MI_Qualifier structure [Windows Management Infrastructure (MI)], mi/MI_Qualifier, wmi_v2.mi_qualifier
 ms.topic: struct
 req.header: mi.h

@@ -7,7 +7,7 @@ old-location: ics\inetfwrule_name.htm
 tech.root: ics
 ms.assetid: 669ea684-5b00-4b60-8259-fad02cca572b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: INetFwRule interface [ICS/ICF],Name property, INetFwRule.Name, INetFwRule.get_Name, INetFwRule::Name, INetFwRule::get_Name, INetFwRule::put_Name, Name property [ICS/ICF], Name property [ICS/ICF],INetFwRule interface, get_Name, ics.inetfwrule_name, netfw/INetFwRule::Name, netfw/INetFwRule::get_Name, netfw/INetFwRule::put_Name
 ms.topic: method
 req.header: netfw.h

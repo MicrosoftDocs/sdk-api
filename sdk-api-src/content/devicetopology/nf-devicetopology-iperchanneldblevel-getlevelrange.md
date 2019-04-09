@@ -7,7 +7,7 @@ old-location: coreaudio\iperchanneldblevel_getlevelrange.htm
 tech.root: CoreAudio
 ms.assetid: 492eddb0-f8f2-4639-b5fe-1d02bf8c983a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetLevelRange, GetLevelRange method [Core Audio], GetLevelRange method [Core Audio],IPerChannelDbLevel interface, IPerChannelDbLevel interface [Core Audio],GetLevelRange method, IPerChannelDbLevel.GetLevelRange, IPerChannelDbLevel::GetLevelRange, IPerChannelDbLevelGetLevelRange, coreaudio.iperchanneldblevel_getlevelrange, devicetopology/IPerChannelDbLevel::GetLevelRange
 ms.topic: method
 req.header: devicetopology.h

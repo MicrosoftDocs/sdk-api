@@ -7,7 +7,7 @@ old-location: display\engtransparentblt.htm
 tech.root: display
 ms.assetid: db98b15f-6b4b-4efc-aa24-20c728b09358
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EngTransparentBlt, EngTransparentBlt function [Display Devices], display.engtransparentblt, gdifncs_1f33c0a3-6062-494c-aef0-2fa368d278ac.xml, winddi/EngTransparentBlt
 ms.topic: function
 req.header: winddi.h

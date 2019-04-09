@@ -7,7 +7,7 @@ old-location: mstv\imsvidclosedcaptioning2.htm
 tech.root: mstv
 ms.assetid: 37fe213a-7778-4448-937d-30ad1015d56c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMSVidClosedCaptioning2, IMSVidClosedCaptioning2 interface [Microsoft TV Technologies], IMSVidClosedCaptioning2 interface [Microsoft TV Technologies],described, IMSVidClosedCaptioning2Interface, mstv.imsvidclosedcaptioning2, segment/IMSVidClosedCaptioning2
 ms.topic: interface
 req.header: segment.h

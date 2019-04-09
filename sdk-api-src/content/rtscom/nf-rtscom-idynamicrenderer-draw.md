@@ -7,7 +7,7 @@ old-location: tablet\idynamicrenderer_draw.htm
 tech.root: tablet
 ms.assetid: d0f05fc7-2b54-40fc-823a-dad0a86174d6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Draw, Draw method [Tablet PC], Draw method [Tablet PC],IDynamicRenderer interface, IDynamicRenderer interface [Tablet PC],Draw method, IDynamicRenderer.Draw, IDynamicRenderer::Draw, d0f05fc7-2b54-40fc-823a-dad0a86174d6, rtscom/IDynamicRenderer::Draw, tablet.idynamicrenderer_draw
 ms.topic: method
 req.header: rtscom.h

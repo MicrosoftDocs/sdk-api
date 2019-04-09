@@ -7,7 +7,7 @@ old-location: tapi2\linesetterminal.htm
 tech.root: Tapi
 ms.assetid: 362114d9-c5b6-4b78-bb31-811eb89fe82d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_tapi2_linesetterminal, lineSetTerminal, lineSetTerminal function [TAPI 2.2], tapi/lineSetTerminal, tapi2.linesetterminal"
 ms.topic: function
 req.header: tapi.h

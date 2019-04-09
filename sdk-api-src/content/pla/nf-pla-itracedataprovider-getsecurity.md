@@ -7,7 +7,7 @@ old-location: pla\itracedataprovider_getsecurity.htm
 tech.root: PLA
 ms.assetid: 2f1618db-aa43-4cac-a652-db172781e988
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetSecurity, GetSecurity method [PLA], GetSecurity method [PLA],ITraceDataProvider interface, ITraceDataProvider interface [PLA],GetSecurity method, ITraceDataProvider.GetSecurity, ITraceDataProvider::GetSecurity, pla.itracedataprovider_getsecurity, pla/ITraceDataProvider::GetSecurity
 ms.topic: method
 req.header: pla.h

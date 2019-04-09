@@ -7,7 +7,7 @@ old-location: netmgmt\wksta_user_info_0_str.htm
 tech.root: NetMgmt
 ms.assetid: 8bd8d8c7-4558-46cb-ab46-a2197d53e9f7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPWKSTA_USER_INFO_0, *PWKSTA_USER_INFO_0, LPWKSTA_USER_INFO_0, LPWKSTA_USER_INFO_0 structure pointer [Network Management], PWKSTA_USER_INFO_0, PWKSTA_USER_INFO_0 structure pointer [Network Management], WKSTA_USER_INFO_0, WKSTA_USER_INFO_0 structure [Network Management], _win32_wksta_user_info_0_str, lmwksta/LPWKSTA_USER_INFO_0, lmwksta/PWKSTA_USER_INFO_0, lmwksta/WKSTA_USER_INFO_0, netmgmt.wksta_user_info_0_str"
 ms.topic: struct
 req.header: lmwksta.h

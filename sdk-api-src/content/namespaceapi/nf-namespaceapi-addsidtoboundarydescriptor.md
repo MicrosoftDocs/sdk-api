@@ -7,7 +7,7 @@ old-location: base\addsidtoboundarydescriptor.htm
 tech.root: Sync
 ms.assetid: c0dd01a0-1a08-43dc-8cef-dff290e73ca1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AddSIDToBoundaryDescriptor, AddSIDToBoundaryDescriptor function, base.addsidtoboundarydescriptor, namespaceapi/AddSIDToBoundaryDescriptor, winbase/AddSIDToBoundaryDescriptor
 ms.topic: function
 req.header: namespaceapi.h

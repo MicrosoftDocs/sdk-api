@@ -7,7 +7,7 @@ old-location: rpc\cstdasyncstubbuffer_connect.htm
 tech.root: Rpc
 ms.assetid: A181B325-7947-4E44-AA00-DE14DB569DB0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CStdAsyncStubBuffer_Connect, CStdAsyncStubBuffer_Connect function [RPC], rpc.cstdasyncstubbuffer_connect, rpcproxy/CStdAsyncStubBuffer_Connect
 ms.topic: function
 req.header: rpcproxy.h

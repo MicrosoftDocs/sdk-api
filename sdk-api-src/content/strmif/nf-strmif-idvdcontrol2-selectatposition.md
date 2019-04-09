@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_selectatposition.htm
 tech.root: DirectShow
 ms.assetid: f6cb9cb4-0792-43f5-b53b-02a38ccf0398
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectAtPosition method, IDvdControl2.SelectAtPosition, IDvdControl2::SelectAtPosition, IDvdControl2SelectAtPosition, SelectAtPosition, SelectAtPosition method [DirectShow], SelectAtPosition method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectatposition, strmif/IDvdControl2::SelectAtPosition
 ms.topic: method
 req.header: strmif.h

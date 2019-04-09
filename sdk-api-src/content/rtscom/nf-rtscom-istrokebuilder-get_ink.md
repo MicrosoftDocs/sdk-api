@@ -7,7 +7,7 @@ old-location: tablet\istrokebuilder_ink.htm
 tech.root: tablet
 ms.assetid: ceb8eaea-5059-4386-ad48-63d563ef9731
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IStrokeBuilder interface [Tablet PC],Ink property, IStrokeBuilder.Ink, IStrokeBuilder.get_Ink, IStrokeBuilder.put_Ink, IStrokeBuilder::Ink, IStrokeBuilder::get_Ink, IStrokeBuilder::put_Ink, Ink property [Tablet PC], Ink property [Tablet PC],IStrokeBuilder interface, ceb8eaea-5059-4386-ad48-63d563ef9731, get_Ink, rtscom/IStrokeBuilder::Ink, rtscom/IStrokeBuilder::get_Ink, rtscom/IStrokeBuilder::put_Ink, tablet.istrokebuilder_ink
 ms.topic: method
 req.header: rtscom.h

@@ -7,7 +7,7 @@ old-location: security\cryptmemrealloc.htm
 tech.root: SecCrypto
 ms.assetid: 74bdd2dd-9f05-4d36-8323-79d547820068
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CryptMemRealloc, CryptMemRealloc function [Security], _crypto2_cryptmemrealloc, security.cryptmemrealloc, wincrypt/CryptMemRealloc
 ms.topic: function
 req.header: wincrypt.h

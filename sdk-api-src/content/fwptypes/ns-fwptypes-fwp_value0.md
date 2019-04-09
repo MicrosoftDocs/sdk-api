@@ -7,7 +7,7 @@ old-location: fwp\fwp_value0_struct.htm
 tech.root: fwp
 ms.assetid: d3ffe19b-2c9b-4c7b-82c1-f9b846546212
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FWP_VALUE0, FWP_VALUE0 structure [Filtering], fwp.fwp_value0_struct, fwptypes/FWP_VALUE0
 ms.topic: struct
 req.header: fwptypes.h

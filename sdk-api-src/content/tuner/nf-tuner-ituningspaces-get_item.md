@@ -7,7 +7,7 @@ old-location: mstv\ituningspaces_get_item.htm
 tech.root: mstv
 ms.assetid: 9f7686d5-f454-46ea-ae50-5c140fda3099
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITuningSpaces interface [Microsoft TV Technologies],get_Item method, ITuningSpaces.get_Item, ITuningSpaces::get_Item, ITuningSpacesget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],ITuningSpaces interface, mstv.ituningspaces_get_item, tuner/ITuningSpaces::get_Item
 ms.topic: method
 req.header: tuner.h

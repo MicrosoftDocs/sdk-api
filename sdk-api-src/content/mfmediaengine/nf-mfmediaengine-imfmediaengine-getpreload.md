@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_getpreload.htm
 tech.root: medfound
 ms.assetid: AA1942B2-C5BB-46F7-B163-1BCB3372D453
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetPreload, GetPreload method [Media Foundation], GetPreload method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetPreload method, IMFMediaEngine.GetPreload, IMFMediaEngine::GetPreload, mf.imfmediaengine_getpreload, mfmediaengine/IMFMediaEngine::GetPreload
 ms.topic: method
 req.header: mfmediaengine.h

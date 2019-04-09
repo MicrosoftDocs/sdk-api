@@ -7,7 +7,7 @@ old-location: fsrm\fsrmcommitoptions.htm
 tech.root: fsrm
 ms.assetid: eb362bd8-c11f-404e-be54-0e16007494a7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FsrmCommitOptions, FsrmCommitOptions enumeration [File Server Resource Manager], FsrmCommitOptions_Asynchronous, FsrmCommitOptions_None, fs.fsrmcommitoptions, fsrm.fsrmcommitoptions, fsrmenums/FsrmCommitOptions, fsrmenums/FsrmCommitOptions_Asynchronous, fsrmenums/FsrmCommitOptions_None
 ms.topic: enum
 req.header: fsrmenums.h

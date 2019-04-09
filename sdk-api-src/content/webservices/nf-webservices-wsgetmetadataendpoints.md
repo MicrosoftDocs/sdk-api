@@ -7,7 +7,7 @@ old-location: wsw\wsgetmetadataendpoints.htm
 tech.root: wsw
 ms.assetid: 1cf9f2ba-c303-4668-a959-8fad69746438
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WsGetMetadataEndpoints, WsGetMetadataEndpoints function [Web Services for Windows], webservices/WsGetMetadataEndpoints, wsw.wsgetmetadataendpoints
 ms.topic: function
 req.header: webservices.h

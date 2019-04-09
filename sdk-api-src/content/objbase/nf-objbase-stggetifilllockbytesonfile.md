@@ -7,7 +7,7 @@ old-location: stg\stggetifilllockbytesonfile.htm
 tech.root: Stg
 ms.assetid: 948724ff-d1eb-43ca-b498-6296909cfb28
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: StgGetIFillLockBytesOnFile, StgGetIFillLockBytesOnFile function [Structured Storage], _stg_stggetifilllockbytesonfile, objbase/StgGetIFillLockBytesOnFile, stg.stggetifilllockbytesonfile
 ms.topic: function
 req.header: objbase.h

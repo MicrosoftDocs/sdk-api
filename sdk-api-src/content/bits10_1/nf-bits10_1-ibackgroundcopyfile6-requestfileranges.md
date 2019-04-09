@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyfile6_requestfileranges.htm
 tech.root: Bits
 ms.assetid: C36BDE94-03AC-4F06-B17B-B8729226F8AC
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyFile6 interface [BITS],RequestFileRanges method, IBackgroundCopyFile6.RequestFileRanges, IBackgroundCopyFile6::RequestFileRanges, RequestFileRanges, RequestFileRanges method [BITS], RequestFileRanges method [BITS],IBackgroundCopyFile6 interface, bits.ibackgroundcopyfile6_requestfileranges, bits10_1/IBackgroundCopyFile6::RequestFileRanges
 ms.topic: method
 req.header: bits10_1.h

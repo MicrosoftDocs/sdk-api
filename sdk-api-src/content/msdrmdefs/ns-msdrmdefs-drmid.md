@@ -7,7 +7,7 @@ old-location: rm\drmid.htm
 tech.root: AdRms_Sdk
 ms.assetid: 8b7f22e0-586e-4950-94fe-868b3fc91ffa
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DRMID, DRMID structure [Active Directory Rights Management Services SDK 1.0], msdrmdefs/DRMID, rm.drmid
 ms.topic: struct
 req.header: msdrmdefs.h

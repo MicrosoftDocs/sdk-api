@@ -7,7 +7,7 @@ old-location: cos\idispenserdriver.htm
 tech.root: cossdk
 ms.assetid: dba9c616-031d-48a7-b3e3-eb28b95a573a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDispenserDriver, IDispenserDriver interface [COM+], IDispenserDriver interface [COM+],described, _dtc_IDispenserDriver_Interface, comsvcs/IDispenserDriver, cos.idispenserdriver
 ms.topic: interface
 req.header: comsvcs.h

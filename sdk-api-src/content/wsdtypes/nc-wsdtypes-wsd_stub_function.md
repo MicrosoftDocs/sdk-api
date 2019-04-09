@@ -7,7 +7,7 @@ old-location: ncd\wsd_stub_function_func.htm
 tech.root: WsdApi
 ms.assetid: 39d16b22-2af0-43e4-a0d2-ca5e1d3a9434
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WSD_STUB_FUNCTION, WSD_STUB_FUNCTION callback, WSD_STUB_FUNCTION callback function, ncd.wsd_stub_function_func, wsdtypes/WSD_STUB_FUNCTION
 ms.topic: callback
 req.header: wsdtypes.h

@@ -7,7 +7,7 @@ old-location: bits\ienumbitspeers.htm
 tech.root: Bits
 ms.assetid: 2715a58c-ba76-4223-ad9e-453d029e0eda
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEnumBitsPeers, IEnumBitsPeers interface [BITS], IEnumBitsPeers interface [BITS],described, bits.ienumbitspeers, bits3_0/IEnumBitsPeers
 ms.topic: interface
 req.header: bits3_0.h

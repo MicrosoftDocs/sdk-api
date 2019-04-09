@@ -7,7 +7,7 @@ old-location: wsw\ws_raw_symmetric_security_key_handle.htm
 tech.root: wsw
 ms.assetid: 8c2c664b-2ee4-4647-a219-119eb5c5a0f6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE, WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE structure [Web Services for Windows], webservices/WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE, wsw.ws_raw_symmetric_security_key_handle
 ms.topic: struct
 req.header: webservices.h

@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ivisualtreeservice_unadvisevisualtreechange.htm
 tech.root: xaml_diagnostics
 ms.assetid: E77CBED8-F214-48AC-903E-F01B6EECA2ED
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVisualTreeService interface,UnadviseVisualTreeChange method, IVisualTreeService.UnadviseVisualTreeChange, IVisualTreeService::UnadviseVisualTreeChange, UnadviseVisualTreeChange, UnadviseVisualTreeChange method, UnadviseVisualTreeChange method,IVisualTreeService interface, xaml_diagnostics.ivisualtreeservice_unadvisevisualtreechange, xamlom/IVisualTreeService::UnadviseVisualTreeChange
 ms.topic: method
 req.header: xamlom.h

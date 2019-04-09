@@ -7,7 +7,7 @@ old-location: nwifi\wlan_connection_notification_data.htm
 tech.root: NativeWiFi
 ms.assetid: 005af5ef-994d-425a-be4b-54567a733fb3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PWLAN_CONNECTION_NOTIFICATION_DATA, PWLAN_CONNECTION_NOTIFICATION_DATA, PWLAN_CONNECTION_NOTIFICATION_DATA structure pointer [NativeWIFI], WLAN_CONNECTION_NOTIFICATION_ADHOC_NETWORK_FORMED, WLAN_CONNECTION_NOTIFICATION_CONSOLE_USER_PROFILE, WLAN_CONNECTION_NOTIFICATION_DATA, WLAN_CONNECTION_NOTIFICATION_DATA structure [NativeWIFI], nwifi.wlan_connection_notification_data, wlanapi/PWLAN_CONNECTION_NOTIFICATION_DATA, wlanapi/WLAN_CONNECTION_NOTIFICATION_DATA"
 ms.topic: struct
 req.header: wlanapi.h

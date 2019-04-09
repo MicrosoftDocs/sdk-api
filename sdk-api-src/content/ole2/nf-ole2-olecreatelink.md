@@ -7,7 +7,7 @@ old-location: com\olecreatelink.htm
 tech.root: com
 ms.assetid: ef52dc37-aa63-47f3-a04f-f9d22178690f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: OleCreateLink, OleCreateLink function [COM], _ole_OleCreateLink, com.olecreatelink, ole2/OleCreateLink
 ms.topic: function
 req.header: ole2.h

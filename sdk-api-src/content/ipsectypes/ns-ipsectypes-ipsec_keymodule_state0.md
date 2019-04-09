@@ -7,7 +7,7 @@ old-location: fwp\ipsec_keymodule_state0_struct.htm
 tech.root: fwp
 ms.assetid: 5df02d3b-c61a-4c4b-a9ef-182c97a35f41
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IPSEC_KEYMODULE_STATE0, IPSEC_KEYMODULE_STATE0 structure [Filtering], fwp.ipsec_keymodule_state0_struct, ipsectypes/IPSEC_KEYMODULE_STATE0
 ms.topic: struct
 req.header: ipsectypes.h

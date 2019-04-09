@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromInt64Array.htm
 tech.root: properties
 ms.assetid: 18e9c804-b5e4-4abe-adcd-eaa402c6c94a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: InitVariantFromInt64Array, InitVariantFromInt64Array function [Windows Properties], _shell_InitVariantFromInt64Array, properties.InitVariantFromInt64Array, propvarutil/InitVariantFromInt64Array, shell.InitVariantFromInt64Array
 ms.topic: function
 req.header: propvarutil.h

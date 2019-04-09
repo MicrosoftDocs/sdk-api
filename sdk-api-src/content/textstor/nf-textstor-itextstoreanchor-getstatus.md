@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchor_getstatus.htm
 tech.root: TSF
 ms.assetid: 61192268-5a5f-4caa-bdb8-799ee4aea24e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetStatus method, ITextStoreAnchor.GetStatus, ITextStoreAnchor::GetStatus, textstor/ITextStoreAnchor::GetStatus, tsf.itextstoreanchor_getstatus
 ms.topic: method
 req.header: textstor.h

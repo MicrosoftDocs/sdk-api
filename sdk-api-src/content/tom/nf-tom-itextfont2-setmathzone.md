@@ -7,7 +7,7 @@ old-location: controls\itextfont2_setmathzone.htm
 tech.root: Controls
 ms.assetid: 4e43d51a-3001-4611-8aa1-fcf8cc2655fc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetMathZone method, ITextFont2.SetMathZone, ITextFont2::SetMathZone, SetMathZone, SetMathZone method [Windows Controls], SetMathZone method [Windows Controls],ITextFont2 interface, controls.itextfont2_setmathzone, tom/ITextFont2::SetMathZone
 ms.topic: method
 req.header: tom.h

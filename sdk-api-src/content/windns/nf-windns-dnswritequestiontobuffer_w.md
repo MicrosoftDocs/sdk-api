@@ -7,7 +7,7 @@ old-location: dns\dnswritequestiontobuffer.htm
 tech.root: DNS
 ms.assetid: 9aa853aa-d9b5-41e3-a82a-c25de199924d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DnsWriteQuestionToBuffer, DnsWriteQuestionToBuffer_UTF8, DnsWriteQuestionToBuffer_W, DnsWriteQuestionToBuffer_W function [DNS], _dns_dnswritequestiontobuffer, dns.dnswritequestiontobuffer, windns/DnsWriteQuestionToBuffer_UTF8, windns/DnsWriteQuestionToBuffer_W
 ms.topic: function
 req.header: windns.h

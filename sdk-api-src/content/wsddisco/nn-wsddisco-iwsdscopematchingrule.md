@@ -7,7 +7,7 @@ old-location: ncd\iwsdscopematchingrule.htm
 tech.root: WsdApi
 ms.assetid: c608215d-6c72-4567-bf81-15af665e8c52
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWSDScopeMatchingRule, IWSDScopeMatchingRule interface, IWSDScopeMatchingRule interface,described, ncd.iwsdscopematchingrule, wsddisco/IWSDScopeMatchingRule
 ms.topic: interface
 req.header: wsddisco.h

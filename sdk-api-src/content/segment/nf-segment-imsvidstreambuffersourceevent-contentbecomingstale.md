@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersourceevent_contentbecomingstale.htm
 tech.root: mstv
 ms.assetid: ff28174c-a5a7-4cd3-b967-3e52d53864f3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ContentBecomingStale, ContentBecomingStale method [Microsoft TV Technologies], ContentBecomingStale method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],ContentBecomingStale method, IMSVidStreamBufferSourceEvent.ContentBecomingStale, IMSVidStreamBufferSourceEvent::ContentBecomingStale, IMSVidStreamBufferSourceEventContentBecomingStale, mstv.imsvidstreambuffersourceevent_contentbecomingstale, segment/IMSVidStreamBufferSourceEvent::ContentBecomingStale
 ms.topic: method
 req.header: segment.h

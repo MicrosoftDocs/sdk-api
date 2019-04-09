@@ -7,7 +7,7 @@ old-location: netmgmt\group_info_1002_str.htm
 tech.root: NetMgmt
 ms.assetid: 9c322ef5-4f98-44ad-8b57-40f8533eb9c1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPGROUP_INFO_1002, *PGROUP_INFO_1002, GROUP_INFO_1002, GROUP_INFO_1002 structure [Network Management], LPGROUP_INFO_1002, LPGROUP_INFO_1002 structure pointer [Network Management], PGROUP_INFO_1002, PGROUP_INFO_1002 structure pointer [Network Management], _win32_group_info_1002_str, lmaccess/GROUP_INFO_1002, lmaccess/LPGROUP_INFO_1002, lmaccess/PGROUP_INFO_1002, netmgmt.group_info_1002_str"
 ms.topic: struct
 req.header: lmaccess.h

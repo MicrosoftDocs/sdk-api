@@ -7,7 +7,7 @@ old-location: mstv\idvbtlocator2.htm
 tech.root: mstv
 ms.assetid: 3a0add24-74bb-4645-8ea2-ec14ecfa8fb5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDVBTLocator2, IDVBTLocator2 interface [Microsoft TV Technologies], IDVBTLocator2 interface [Microsoft TV Technologies],described, mstv.idvbtlocator2, tuner/IDVBTLocator2
 ms.topic: interface
 req.header: tuner.h

@@ -7,7 +7,7 @@ old-location: security\x509requesttype_enum.htm
 tech.root: seccertenroll
 ms.assetid: e7941e88-b825-409a-87b9-a560aa6d5868
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TypeAny, TypeCertificate, TypeCmc, TypePkcs10, TypePkcs7, X509RequestType, X509RequestType enumeration [Security], certenroll/TypeAny, certenroll/TypeCertificate, certenroll/TypeCmc, certenroll/TypePkcs10, certenroll/TypePkcs7, certenroll/X509RequestType, security.x509requesttype_enum
 ms.topic: enum
 req.header: certenroll.h

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_GetPixelFormat_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getpixelformat.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetPixelFormat, GetPixelFormat method [GDI+], GetPixelFormat method [GDI+],Image class, Image class [GDI+],GetPixelFormat method, Image.GetPixelFormat, Image::GetPixelFormat, _gdiplus_CLASS_Image_GetPixelFormat_, gdiplus._gdiplus_CLASS_Image_GetPixelFormat_
 ms.topic: method
 req.header: gdiplusheaders.h

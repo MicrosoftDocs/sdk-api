@@ -7,7 +7,7 @@ old-location: etw\eventdescsetid_func.htm
 tech.root: ETW
 ms.assetid: 1c110ea3-651c-4e2c-9675-64f6975e5fc5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EventDescSetId, EventDescSetId function [ETW], base.eventdescsetid_func, etw.eventdescsetid_func, evntprov/EventDescSetId
 ms.topic: function
 req.header: evntprov.h

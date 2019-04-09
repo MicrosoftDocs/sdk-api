@@ -7,7 +7,7 @@ old-location: fwp\fwpm_sublayer_enum_template0_struct.htm
 tech.root: fwp
 ms.assetid: 4f05730c-7bf6-4bf4-b3ec-d8fe138b2228
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FWPM_SUBLAYER_ENUM_TEMPLATE0, FWPM_SUBLAYER_ENUM_TEMPLATE0 structure [Filtering], fwp.fwpm_sublayer_enum_template0_struct, fwpmtypes/FWPM_SUBLAYER_ENUM_TEMPLATE0
 ms.topic: struct
 req.header: fwpmtypes.h

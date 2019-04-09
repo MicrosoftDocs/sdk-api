@@ -7,7 +7,7 @@ old-location: winsock\blob_2.htm
 tech.root: WinSock
 ms.assetid: eb1ff7d1-79db-478f-9f3e-48507d333c76
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPBLOB, BLOB, BLOB structure [Winsock], _win32_blob_2, tagBLOB, winsock.blob_2, wtypesbase/BLOB"
 ms.topic: struct
 req.header: winsock2.h

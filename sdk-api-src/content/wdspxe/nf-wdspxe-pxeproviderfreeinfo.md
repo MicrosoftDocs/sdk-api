@@ -7,7 +7,7 @@ old-location: wds\pxeproviderfreeinfo.htm
 tech.root: wds
 ms.assetid: dd0f2b02-afc9-4ff6-b5b8-772ef15e4aa7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PxeProviderFreeInfo, PxeProviderFreeInfo function [Windows Deployment Services], wds.pxeproviderfreeinfo, wdspxe/PxeProviderFreeInfo
 ms.topic: function
 req.header: wdspxe.h

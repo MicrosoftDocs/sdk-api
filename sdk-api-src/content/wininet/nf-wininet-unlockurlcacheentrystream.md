@@ -7,7 +7,7 @@ old-location: wininet\unlockurlcacheentrystream.htm
 tech.root: wininet
 ms.assetid: 9fcc257e-732c-4545-a81b-7db20a98e497
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: UnlockUrlCacheEntryStream, UnlockUrlCacheEntryStream function [WinINet], _inet_unlockurlcacheentrystream_function, wininet.unlockurlcacheentrystream, wininet/UnlockUrlCacheEntryStream
 ms.topic: function
 req.header: wininet.h

@@ -7,7 +7,7 @@ old-location: winsock\getacceptexsockaddrs_2.htm
 tech.root: WinSock
 ms.assetid: 381ba8ab-3c99-45c8-8895-4c87949f5238
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetAcceptExSockaddrs, GetAcceptExSockaddrs function [Winsock], _win32_getacceptexsockaddrs_2, winsock.getacceptexsockaddrs_2, winsock/GetAcceptExSockaddrs
 ms.topic: function
 req.header: winsock.h

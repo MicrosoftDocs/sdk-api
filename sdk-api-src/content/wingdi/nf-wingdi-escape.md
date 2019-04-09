@@ -7,7 +7,7 @@ old-location: gdi\escape.htm
 tech.root: printdocs
 ms.assetid: ba21b680-78a8-45a2-94e1-01b377b74787
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Escape, Escape function [Windows GDI], _win32_Escape_v3, gdi.escape, wingdi/Escape
 ms.topic: function
 req.header: wingdi.h

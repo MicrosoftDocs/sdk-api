@@ -7,7 +7,7 @@ old-location: gdi\emrsetworldtransform.htm
 tech.root: gdi
 ms.assetid: 08e5e272-22b5-4097-a293-f5a1fd865edf
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PEMRSETWORLDTRANSFORM, EMRSETWORLDTRANSFORM, EMRSETWORLDTRANSFORM structure [Windows GDI], PEMRSETWORLDTRANSFORM, PEMRSETWORLDTRANSFORM structure pointer [Windows GDI], _win32_EMRSETWORLDTRANSFORM_str, gdi.emrsetworldtransform, wingdi/EMRSETWORLDTRANSFORM, wingdi/PEMRSETWORLDTRANSFORM"
 ms.topic: struct
 req.header: wingdi.h

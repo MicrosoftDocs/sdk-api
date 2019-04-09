@@ -7,7 +7,7 @@ old-location: tapi3\itacdgroup_get_name.htm
 tech.root: Tapi
 ms.assetid: 93e61a42-3e60-4d52-bb19-68842f6947da
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITACDGroup interface [TAPI 2.2],get_Name method, ITACDGroup.get_Name, ITACDGroup::get_Name, _tapi3_itacdgroup_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITACDGroup interface, tapi3.itacdgroup_get_name, tapi3cc/ITACDGroup::get_Name
 ms.topic: method
 req.header: tapi3.h

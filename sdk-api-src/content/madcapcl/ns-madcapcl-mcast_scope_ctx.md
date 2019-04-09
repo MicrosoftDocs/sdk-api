@@ -7,7 +7,7 @@ old-location: madcap\mcast_scope_ctx.htm
 tech.root: Madcap
 ms.assetid: 164d8f73-f5f5-4cc6-85ca-8e249192c202
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PMCAST_SCOPE_CTX, MCAST_SCOPE_CTX, MCAST_SCOPE_CTX structure [MADCAP], PMCAST_SCOPE_CTX, PMCAST_SCOPE_CTX structure pointer [MADCAP], _mdhcp_mcast_scope_ctx, madcap.mcast_scope_ctx, madcapcl/MCAST_SCOPE_CTX, madcapcl/PMCAST_SCOPE_CTX"
 ms.topic: struct
 req.header: madcapcl.h

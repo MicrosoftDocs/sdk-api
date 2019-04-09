@@ -7,7 +7,7 @@ old-location: bits\ibitspeercacherecord_getlastaccesstime.htm
 tech.root: Bits
 ms.assetid: f4443db2-3d4f-497f-b2e3-d969d8271d6f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetLastAccessTime, GetLastAccessTime method [BITS], GetLastAccessTime method [BITS],IBitsPeerCacheRecord interface, IBitsPeerCacheRecord interface [BITS],GetLastAccessTime method, IBitsPeerCacheRecord.GetLastAccessTime, IBitsPeerCacheRecord::GetLastAccessTime, bits.ibitspeercacherecord_getlastaccesstime, bits3_0/IBitsPeerCacheRecord::GetLastAccessTime
 ms.topic: method
 req.header: bits3_0.h

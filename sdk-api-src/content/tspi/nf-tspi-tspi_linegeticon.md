@@ -7,7 +7,7 @@ old-location: tspi\tspi_linegeticon.htm
 tech.root: Tapi
 ms.assetid: 0fa8a030-1b56-4d14-affd-ba1574696a3c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TSPI_lineGetIcon, TSPI_lineGetIcon function [TAPI 2.2], _tspi_tspi_linegeticon, tspi.tspi_linegeticon, tspi/TSPI_lineGetIcon
 ms.topic: function
 req.header: tspi.h

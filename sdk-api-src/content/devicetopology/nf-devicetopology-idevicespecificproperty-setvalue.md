@@ -7,7 +7,7 @@ old-location: coreaudio\idevicespecificproperty_setvalue.htm
 tech.root: CoreAudio
 ms.assetid: 48e7a638-f602-455f-96d1-9d1eb049a6c0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDeviceSpecificProperty interface [Core Audio],SetValue method, IDeviceSpecificProperty.SetValue, IDeviceSpecificProperty::SetValue, IDeviceSpecificPropertySetValue, SetValue, SetValue method [Core Audio], SetValue method [Core Audio],IDeviceSpecificProperty interface, coreaudio.idevicespecificproperty_setvalue, devicetopology/IDeviceSpecificProperty::SetValue
 ms.topic: method
 req.header: devicetopology.h

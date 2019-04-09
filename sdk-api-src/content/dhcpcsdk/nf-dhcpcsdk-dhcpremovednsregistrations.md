@@ -7,7 +7,7 @@ old-location: dhcp\dhcpremovednsregistrations.htm
 tech.root: DHCP
 ms.assetid: c53a8295-c289-4f08-8059-268582e0d96c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DhcpRemoveDNSRegistrations, DhcpRemoveDNSRegistrations function [DHCP], dhcp.dhcpremovednsregistrations, dhcpcsdk/DhcpRemoveDNSRegistrations
 ms.topic: function
 req.header: dhcpcsdk.h

@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlemanifestpackageinfo2_getisnonqualifiedresourcep
 tech.root: appxpkg
 ms.assetid: C6AA5EE3-DE41-41DD-8804-70CDCA817C7A
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetIsNonQualifiedResourcePackage, GetIsNonQualifiedResourcePackage method [App packaging and management], GetIsNonQualifiedResourcePackage method [App packaging and management],IAppxBundleManifestPackageInfo2 interface, IAppxBundleManifestPackageInfo2 interface [App packaging and management],GetIsNonQualifiedResourcePackage method, IAppxBundleManifestPackageInfo2.GetIsNonQualifiedResourcePackage, IAppxBundleManifestPackageInfo2::GetIsNonQualifiedResourcePackage, appxpackaging/IAppxBundleManifestPackageInfo2::GetIsNonQualifiedResourcePackage, appxpkg.iappxbundlemanifestpackageinfo2_getisnonqualifiedresourcepackage
 ms.topic: method
 req.header: appxpackaging.h

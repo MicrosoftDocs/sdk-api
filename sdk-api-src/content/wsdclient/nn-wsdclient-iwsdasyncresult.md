@@ -7,7 +7,7 @@ old-location: ncd\iwsdasyncresult.htm
 tech.root: WsdApi
 ms.assetid: 49c5ad02-f24b-4ef9-b943-483728c0bbcd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWSDAsyncResult, IWSDAsyncResult interface, IWSDAsyncResult interface,described, ncd.iwsdasyncresult, wsdclient/IWSDAsyncResult
 ms.topic: interface
 req.header: wsdclient.h

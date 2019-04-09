@@ -7,7 +7,7 @@ old-location: rras\mpradminacceptreauthenticationex.htm
 tech.root: RRAS
 ms.assetid: 32ea0cb5-f67d-4dcc-b5d0-705b6847b163
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MprAdminAcceptReauthenticationEx, MprAdminAcceptReauthenticationEx callback, MprAdminAcceptReauthenticationEx callback function [RAS], mprapi/MprAdminAcceptReauthenticationEx, rras.mpradminacceptreauthenticationex
 ms.topic: function
 req.header: mprapi.h

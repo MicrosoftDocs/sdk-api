@@ -7,7 +7,7 @@ old-location: com\cofiletimenow.htm
 tech.root: com
 ms.assetid: 00083429-1d61-4a0b-bb73-82158869466d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CoFileTimeNow, CoFileTimeNow function [COM], _com_CoFileTimeNow, com.cofiletimenow, combaseapi/CoFileTimeNow
 ms.topic: function
 req.header: combaseapi.h

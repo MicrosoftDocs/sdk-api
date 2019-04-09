@@ -7,7 +7,7 @@ old-location: mf\imfmediaerror.htm
 tech.root: medfound
 ms.assetid: 08F161FE-C0E5-44EE-923E-646ADA534C42
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMFMediaError, IMFMediaError interface [Media Foundation], IMFMediaError interface [Media Foundation],described, mf.imfmediaerror, mfmediaengine/IMFMediaError
 ms.topic: interface
 req.header: mfmediaengine.h

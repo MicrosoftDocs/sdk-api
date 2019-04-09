@@ -7,7 +7,7 @@ old-location: direct2d\d2d_matrix_4x4_f.htm
 tech.root: Direct2D
 ms.assetid: 7355F5EB-BC23-42AE-A1F2-3E5582A3156E
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: D2D_MATRIX_4X4_F, D2D_MATRIX_4X4_F structure [Direct2D], dcommon/D2D_MATRIX_4X4_F, direct2d.d2d_matrix_4x4_f
 ms.topic: struct
 req.header: dcommon.h

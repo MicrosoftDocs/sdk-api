@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1DrawingStateBlock_SetDescription_ref_D2D1_DRAWING_ST
 tech.root: Direct2D
 ms.assetid: 96ef4161-7af1-4a02-bdbe-5fcb752055d9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ID2D1DrawingStateBlock interface [Direct2D],SetDescription method, ID2D1DrawingStateBlock.SetDescription, ID2D1DrawingStateBlock.SetDescription(const D2D1_DRAWING_STATE_DESCRIPTION &), ID2D1DrawingStateBlock::SetDescription, ID2D1DrawingStateBlock::SetDescription(const D2D1_DRAWING_STATE_DESCRIPTION &), SetDescription, SetDescription method [Direct2D], SetDescription method [Direct2D],ID2D1DrawingStateBlock interface, d2d1/ID2D1DrawingStateBlock::SetDescription, direct2d.ID2D1DrawingStateBlock_SetDescription_ref_D2D1_DRAWING_STATE_DESCRIPTION
 ms.topic: method
 req.header: d2d1.h

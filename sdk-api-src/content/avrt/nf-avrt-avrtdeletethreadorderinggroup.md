@@ -7,7 +7,7 @@ old-location: base\avrtdeletethreadorderinggroup.htm
 tech.root: ProcThread
 ms.assetid: fa881a0f-3087-4605-9c42-880f6694c018
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AvRtDeleteThreadOrderingGroup, AvRtDeleteThreadOrderingGroup function, avrt/AvRtDeleteThreadOrderingGroup, base.avrtdeletethreadorderinggroup
 ms.topic: function
 req.header: avrt.h

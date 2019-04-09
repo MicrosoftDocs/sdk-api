@@ -7,7 +7,7 @@ old-location: base\sleepconditionvariablesrw.htm
 tech.root: Sync
 ms.assetid: 133f710f-5304-4b92-bec4-d9e8863bfa6d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SleepConditionVariableSRW, SleepConditionVariableSRW function, base.sleepconditionvariablesrw, synchapi/SleepConditionVariableSRW, winbase/SleepConditionVariableSRW
 ms.topic: function
 req.header: synchapi.h

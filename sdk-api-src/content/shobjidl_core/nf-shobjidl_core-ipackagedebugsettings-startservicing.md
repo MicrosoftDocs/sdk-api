@@ -7,7 +7,7 @@ old-location: shell\IPackageDebugSettings_StartServicing.htm
 tech.root: shell
 ms.assetid: 40f5331d-194f-4beb-9c59-f6899186b393
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],StartServicing method, IPackageDebugSettings.StartServicing, IPackageDebugSettings::StartServicing, StartServicing, StartServicing method [Windows Shell], StartServicing method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_StartServicing, shobjidl_core/IPackageDebugSettings::StartServicing
 ms.topic: method
 req.header: shobjidl_core.h

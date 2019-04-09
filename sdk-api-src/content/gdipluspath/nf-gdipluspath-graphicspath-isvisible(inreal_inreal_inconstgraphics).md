@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_IsVisible_REAL_x_REAL_y_Graphi
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathisvisiblemethods\isvisible_68realx_realy_graphicsg.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GraphicsPath class [GDI+],IsVisible method, GraphicsPath.IsVisible, GraphicsPath.IsVisible(IN REAL,IN REAL,IN const Graphics), GraphicsPath.IsVisible(REAL,REAL,const Graphics*), GraphicsPath::IsVisible, GraphicsPath::IsVisible(IN REAL,IN REAL,IN const Graphics), IsVisible, IsVisible method [GDI+], IsVisible method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_IsVisible_REAL_x_REAL_y_Graphics_g_, gdiplus._gdiplus_CLASS_GraphicsPath_IsVisible_REAL_x_REAL_y_Graphics_g_
 ms.topic: method
 req.header: gdipluspath.h

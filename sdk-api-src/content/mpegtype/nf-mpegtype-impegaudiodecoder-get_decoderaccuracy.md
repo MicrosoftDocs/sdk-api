@@ -7,7 +7,7 @@ old-location: dshow\impegaudiodecoder_get_decoderaccuracy.htm
 tech.root: DirectShow
 ms.assetid: 5b0776f2-4340-4ebc-9d28-a2a2c2a4571e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],get_DecoderAccuracy method, IMpegAudioDecoder.get_DecoderAccuracy, IMpegAudioDecoder::get_DecoderAccuracy, IMpegAudioDecodergetDecoderAccuracy, dshow.impegaudiodecoder_get_decoderaccuracy, get_DecoderAccuracy, get_DecoderAccuracy method [DirectShow], get_DecoderAccuracy method [DirectShow],IMpegAudioDecoder interface, mpegtype/IMpegAudioDecoder::get_DecoderAccuracy
 ms.topic: method
 req.header: mpegtype.h

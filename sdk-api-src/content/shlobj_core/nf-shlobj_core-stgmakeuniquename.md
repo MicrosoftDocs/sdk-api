@@ -7,7 +7,7 @@ old-location: shell\StgMakeUniqueName.htm
 tech.root: shell
 ms.assetid: d45ec25c-359b-46f8-b0f6-5888525c7349
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: StgMakeUniqueName, StgMakeUniqueName function [Windows Shell], _shell_StgMakeUniqueName, shell.StgMakeUniqueName, shlobj_core/StgMakeUniqueName
 ms.topic: function
 req.header: shlobj_core.h

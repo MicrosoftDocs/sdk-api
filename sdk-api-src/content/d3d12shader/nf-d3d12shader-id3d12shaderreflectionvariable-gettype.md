@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflectionvariable_gettype.htm
 tech.root: direct3d12
 ms.assetid: DE2BBC9F-3519-4896-96E1-40C2E726D8A1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetType, GetType method, GetType method,ID3D12ShaderReflectionVariable interface, ID3D12ShaderReflectionVariable interface,GetType method, ID3D12ShaderReflectionVariable.GetType, ID3D12ShaderReflectionVariable::GetType, d3d12shader/ID3D12ShaderReflectionVariable::GetType, direct3d12.id3d12shaderreflectionvariable_gettype
 ms.topic: method
 req.header: d3d12shader.h

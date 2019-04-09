@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_context_writeprogress.htm
 tech.root: wmi_v2
 ms.assetid: 260d46f3-b048-4278-acde-724323166ba2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_Context_WriteProgress, MI_Context_WriteProgress function [Windows Management Infrastructure (MI)], mi/MI_Context_WriteProgress, wmi.mi_writeprogress, wmi_v2.mi_context_writeprogress
 ms.topic: function
 req.header: mi.h

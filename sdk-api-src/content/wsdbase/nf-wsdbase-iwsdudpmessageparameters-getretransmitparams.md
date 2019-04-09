@@ -7,7 +7,7 @@ old-location: ncd\iwsdudpmessageparameters_getretransmitparams.htm
 tech.root: WsdApi
 ms.assetid: c34d6320-c70b-410e-ae21-fba849dac62f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetRetransmitParams, GetRetransmitParams method, GetRetransmitParams method,IWSDUdpMessageParameters interface, IWSDUdpMessageParameters interface,GetRetransmitParams method, IWSDUdpMessageParameters.GetRetransmitParams, IWSDUdpMessageParameters::GetRetransmitParams, ncd.iwsdudpmessageparameters_getretransmitparams, wsdbase/IWSDUdpMessageParameters::GetRetransmitParams
 ms.topic: method
 req.header: wsdbase.h

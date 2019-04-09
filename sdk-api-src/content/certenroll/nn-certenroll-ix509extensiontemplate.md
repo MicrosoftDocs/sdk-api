@@ -7,7 +7,7 @@ old-location: security\ix509extensiontemplate.htm
 tech.root: seccertenroll
 ms.assetid: 2ac24ee9-f31f-4501-a4f0-321580ec2fa9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IX509ExtensionTemplate, IX509ExtensionTemplate interface [Security], IX509ExtensionTemplate interface [Security],described, certenroll/IX509ExtensionTemplate, security.ix509extensiontemplate
 ms.topic: interface
 req.header: certenroll.h

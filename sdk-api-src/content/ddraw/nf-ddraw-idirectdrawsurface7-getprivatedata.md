@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_getprivatedata.htm
 tech.root: directdraw
 ms.assetid: f8c0c882-329f-4cce-8cd0-ff71c18b1716
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetPrivateData, GetPrivateData method [DirectDraw], GetPrivateData method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetPrivateData method, IDirectDrawSurface7.GetPrivateData, IDirectDrawSurface7::GetPrivateData, ddraw/IDirectDrawSurface7::GetPrivateData, directdraw.idirectdrawsurface7_getprivatedata
 ms.topic: method
 req.header: ddraw.h

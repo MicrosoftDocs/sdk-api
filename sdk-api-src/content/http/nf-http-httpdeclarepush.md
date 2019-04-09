@@ -7,7 +7,7 @@ old-location: http\httpdeclarepush.htm
 tech.root: http
 ms.assetid: 02844D45-01B2-497B-83D6-8FEB904CF2FE
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: HttpDeclarePush, HttpDeclarePush function [HTTP], http.httpdeclarepush, http/HttpDeclarePush
 ms.topic: function
 req.header: http.h

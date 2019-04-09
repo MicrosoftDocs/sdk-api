@@ -7,7 +7,7 @@ old-location: termserv\iwtslistenercallback.htm
 tech.root: TermServ
 ms.assetid: b5f1d74d-31e6-4447-82ab-6dd3ad9957fd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWTSListenerCallback, IWTSListenerCallback interface [Remote Desktop Services], IWTSListenerCallback interface [Remote Desktop Services],described, termserv.iwtslistenercallback, tsvirtualchannels/IWTSListenerCallback
 ms.topic: interface
 req.header: tsvirtualchannels.h

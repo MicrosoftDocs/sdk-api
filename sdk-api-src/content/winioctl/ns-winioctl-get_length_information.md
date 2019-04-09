@@ -7,7 +7,7 @@ old-location: fs\get_length_information_str.htm
 tech.root: FileIO
 ms.assetid: a0d2a5bc-32e0-47d6-a4f0-84bd7f6bb746
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PGET_LENGTH_INFORMATION, GET_LENGTH_INFORMATION, GET_LENGTH_INFORMATION structure [Files], _win32_get_length_information_str, base.get_length_information_str, fs.get_length_information_str, winioctl/GET_LENGTH_INFORMATION"
 ms.topic: struct
 req.header: winioctl.h

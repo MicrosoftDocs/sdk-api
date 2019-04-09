@@ -7,7 +7,7 @@ old-location: rpc\rpcserverregisterifex.htm
 tech.root: Rpc
 ms.assetid: 1666bc0a-72bf-40da-b054-c10b477c4367
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RpcServerRegisterIfEx, RpcServerRegisterIfEx function [RPC], _rpc_rpcserverregisterifex, rpc.rpcserverregisterifex, rpcdce/RpcServerRegisterIfEx
 ms.topic: function
 req.header: rpcdce.h

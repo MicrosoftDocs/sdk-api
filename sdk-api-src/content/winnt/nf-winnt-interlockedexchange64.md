@@ -7,7 +7,7 @@ old-location: base\interlockedexchange64.htm
 tech.root: Sync
 ms.assetid: 80d34f5d-3491-4653-959b-6b9efebf764b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: InterlockedExchange64, InterlockedExchange64 function, base.interlockedexchange64, winnt/InterlockedExchange64
 ms.topic: function
 req.header: winnt.h

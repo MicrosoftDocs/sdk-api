@@ -7,7 +7,7 @@ old-location: rpc\rpcobjectsetinqfn.htm
 tech.root: Rpc
 ms.assetid: 358d3ab3-df16-486b-aeac-56a0ffc78272
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RpcObjectSetInqFn, RpcObjectSetInqFn function [RPC], _rpc_rpcobjectsetinqfn, rpc.rpcobjectsetinqfn, rpcdce/RpcObjectSetInqFn
 ms.topic: function
 req.header: rpcdce.h

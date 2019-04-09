@@ -7,7 +7,7 @@ old-location: secbiomet\sensoradapterpipelineinit.htm
 tech.root: SecBioMet
 ms.assetid: 91667505-78D6-405E-9028-DF4F3037B455
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PIBIO_SENSOR_PIPELINE_INIT_FN, PIBIO_SENSOR_PIPELINE_INIT_FN callback, SensorAdapterPipelineInit, SensorAdapterPipelineInit callback function [Windows Biometric Framework API], secbiomet.sensoradapterpipelineinit, winbio_adapter/SensorAdapterPipelineInit
 ms.topic: callback
 req.header: winbio_adapter.h

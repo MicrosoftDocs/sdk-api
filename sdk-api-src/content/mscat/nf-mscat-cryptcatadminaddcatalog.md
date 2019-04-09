@@ -7,7 +7,7 @@ old-location: security\cryptcatadminaddcatalog.htm
 tech.root: SecCrypto
 ms.assetid: a227597c-a0af-4b86-bd29-03f478aef244
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CryptCATAdminAddCatalog, CryptCATAdminAddCatalog function [Security], mscat/CryptCATAdminAddCatalog, security.cryptcatadminaddcatalog
 ms.topic: function
 req.header: mscat.h

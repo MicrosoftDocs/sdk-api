@@ -7,7 +7,7 @@ old-location: mstv\idvb_nit_registerfornexttable.htm
 tech.root: mstv
 ms.assetid: f299cdcb-d0da-4e79-9f2d-c792bbb43313
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDVB_NIT interface [Microsoft TV Technologies],RegisterForNextTable method, IDVB_NIT.RegisterForNextTable, IDVB_NIT::RegisterForNextTable, IDVB_NITRegisterForNextTable, RegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies],IDVB_NIT interface, dvbsiparser/IDVB_NIT::RegisterForNextTable, mstv.idvb_nit_registerfornexttable
 ms.topic: method
 req.header: dvbsiparser.h

@@ -7,7 +7,7 @@ old-location: com\ioleadviseholder_sendonsave.htm
 tech.root: com
 ms.assetid: b64ceaf7-45ba-4a66-a5cf-aec352472d3d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IOleAdviseHolder interface [COM],SendOnSave method, IOleAdviseHolder.SendOnSave, IOleAdviseHolder::SendOnSave, SendOnSave, SendOnSave method [COM], SendOnSave method [COM],IOleAdviseHolder interface, _ole_ioleadviseholder_sendonsave, com.ioleadviseholder_sendonsave, oleidl/IOleAdviseHolder::SendOnSave
 ms.topic: method
 req.header: oleidl.h

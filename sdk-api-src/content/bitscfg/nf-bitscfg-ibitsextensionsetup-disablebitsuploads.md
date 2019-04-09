@@ -7,7 +7,7 @@ old-location: bits\ibitsextensionsetup_disablebitsuploads.htm
 tech.root: Bits
 ms.assetid: 3d439054-a751-4f63-9e82-223d1ce9c551
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DisableBITSUploads, DisableBITSUploads method [BITS], DisableBITSUploads method [BITS],IBITSExtensionSetup interface, IBITSExtensionSetup interface [BITS],DisableBITSUploads method, IBITSExtensionSetup.DisableBITSUploads, IBITSExtensionSetup::DisableBITSUploads, _drz_ibitsextensionsetup_disablebitsuploads, bits.ibitsextensionsetup_disablebitsuploads, bitscfg/IBITSExtensionSetup::DisableBITSUploads
 ms.topic: method
 req.header: bitscfg.h

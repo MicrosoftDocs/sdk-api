@@ -7,7 +7,7 @@ old-location: display\dd_destroyvportdata.htm
 tech.root: display
 ms.assetid: b9e29c23-bb1a-47e8-a605-2863c4cda2af
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PDD_DESTROYVPORTDATA, DD_DESTROYVPORTDATA, DD_DESTROYVPORTDATA structure [Display Devices], ddrawint/DD_DESTROYVPORTDATA, ddstrcts_bb54464c-6b2f-4c90-99a9-439938562898.xml, display.dd_destroyvportdata"
 ms.topic: struct
 req.header: ddrawint.h

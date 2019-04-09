@@ -7,7 +7,7 @@ old-location: winsync\sync_time.htm
 tech.root: winsync
 ms.assetid: f5e0df02-d016-4eae-9b9b-bfd754ade126
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SYNC_TIME, SYNC_TIME structure [Windows Sync], winsync.sync_time, winsync/SYNC_TIME
 ms.topic: struct
 req.header: winsync.h

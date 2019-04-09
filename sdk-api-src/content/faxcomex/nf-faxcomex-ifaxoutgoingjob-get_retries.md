@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_retries_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7c1f.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],Retries property, IFaxOutgoingJob.Retries, IFaxOutgoingJob.get_Retries, IFaxOutgoingJob::Retries, IFaxOutgoingJob::get_Retries, Retries property [Fax Service], Retries property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.retries, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_retries_cpp, fax._mfax_faxoutgoingjob_retries, faxcomex/IFaxOutgoingJob::Retries, faxcomex/IFaxOutgoingJob::get_Retries, get_Retries
 ms.topic: method
 req.header: faxcomex.h

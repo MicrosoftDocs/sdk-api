@@ -7,7 +7,7 @@ old-location: wmformat\iwmwritersink_ondataunit.htm
 tech.root: wmformat
 ms.assetid: 32e52cdb-e7cb-4caf-a202-0d2ff746017c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMWriterSink interface [windows Media Format],OnDataUnit method, IWMWriterSink.OnDataUnit, IWMWriterSink::OnDataUnit, IWMWriterSinkOnDataUnit, OnDataUnit, OnDataUnit method [windows Media Format], OnDataUnit method [windows Media Format],IWMWriterSink interface, wmformat.iwmwritersink_ondataunit, wmsdkidl/IWMWriterSink::OnDataUnit
 ms.topic: method
 req.header: wmsdkidl.h

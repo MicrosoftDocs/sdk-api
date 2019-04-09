@@ -7,7 +7,7 @@ old-location: security\spunsealmessage.htm
 tech.root: SecAuthN
 ms.assetid: 3ece6f30-bb8b-4fad-a8c4-9088c134cf25
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SpUnsealMessage, SpUnsealMessage callback function [Security], SpUnsealMessageFn, SpUnsealMessageFn callback, _ssp_spunsealmessage, ntsecpkg/SpUnsealMessage, security.spunsealmessage
 ms.topic: callback
 req.header: ntsecpkg.h

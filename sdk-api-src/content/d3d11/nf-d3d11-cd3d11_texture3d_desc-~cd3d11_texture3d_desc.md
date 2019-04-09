@@ -7,7 +7,7 @@ old-location: direct3d11\cd3d11_texture3d_desc__cd3d11_texture3d_desc__.htm
 tech.root: direct3d11
 ms.assetid: 1315D3A5-2E87-40C0-8D45-ACAEF1FA03FC
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CD3D11_TEXTURE3D_DESC interface [Direct3D 11],~CD3D11_TEXTURE3D_DESC destructor, CD3D11_TEXTURE3D_DESC.~CD3D11_TEXTURE3D_DESC, CD3D11_TEXTURE3D_DESC::~CD3D11_TEXTURE3D_DESC, CD3D11_TEXTURE3D_DESC::~CD3D11_TEXTURE3D_DESC(), d3d11/CD3D11_TEXTURE3D_DESC::~CD3D11_TEXTURE3D_DESC, direct3d11.cd3d11_texture3d_desc__cd3d11_texture3d_desc__, ~CD3D11_TEXTURE3D_DESC, ~CD3D11_TEXTURE3D_DESC destructor [Direct3D 11], ~CD3D11_TEXTURE3D_DESC destructor [Direct3D 11],CD3D11_TEXTURE3D_DESC interface
 ms.topic: method
 req.header: d3d11.h

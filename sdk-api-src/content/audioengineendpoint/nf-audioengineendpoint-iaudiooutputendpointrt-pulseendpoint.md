@@ -7,7 +7,7 @@ old-location: termserv\iaudiooutputendpointrt_pulseendpoint.htm
 tech.root: TermServ
 ms.assetid: 8ab117d6-5b13-4420-9cf2-865ff2011806
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IAudioOutputEndpointRT interface [Remote Desktop Services],PulseEndpoint method, IAudioOutputEndpointRT.PulseEndpoint, IAudioOutputEndpointRT::PulseEndpoint, PulseEndpoint, PulseEndpoint method [Remote Desktop Services], PulseEndpoint method [Remote Desktop Services],IAudioOutputEndpointRT interface, audioengineendpoint/IAudioOutputEndpointRT::PulseEndpoint, termserv.iaudiooutputendpointrt_pulseendpoint
 ms.topic: method
 req.header: audioengineendpoint.h

@@ -7,7 +7,7 @@ old-location: mstv\mpeg_context_type.htm
 tech.root: mstv
 ms.assetid: cb76873e-78d0-4fd2-9caa-bff4ae250073
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MPEG_CONTEXT_BCS_DEMUX, MPEG_CONTEXT_TYPE, MPEG_CONTEXT_TYPE enumeration [Microsoft TV Technologies], MPEG_CONTEXT_WINSOCK, mpeg2structs/MPEG_CONTEXT_BCS_DEMUX, mpeg2structs/MPEG_CONTEXT_TYPE, mpeg2structs/MPEG_CONTEXT_WINSOCK, mstv.mpeg_context_type
 ms.topic: enum
 req.header: mpeg2structs.h

@@ -7,7 +7,7 @@ old-location: tapi3\ienumacdgroup_reset.htm
 tech.root: Tapi
 ms.assetid: 66c51bdd-c820-4670-a80d-27cfa080f08f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEnumACDGroup interface [TAPI 2.2],Reset method, IEnumACDGroup.Reset, IEnumACDGroup::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumACDGroup interface, _tapi3_ienumacdgroup_reset, tapi3.ienumacdgroup_reset, tapi3cc/IEnumACDGroup::Reset
 ms.topic: method
 req.header: tapi3.h

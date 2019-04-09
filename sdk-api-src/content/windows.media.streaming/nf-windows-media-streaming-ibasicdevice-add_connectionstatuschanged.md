@@ -7,7 +7,7 @@ old-location: mediastreaming\ibasicdevice_add_connectionstatuschanged.htm
 tech.root: mediastreaming
 ms.assetid: 1A4CCEFE-B6B6-4AFD-9296-EE923B9EF399
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IBasicDevice interface [Media Streaming API],add_ConnectionStatusChanged method, IBasicDevice.add_ConnectionStatusChanged, IBasicDevice.streaming, IBasicDevice::add_ConnectionStatusChanged, IBasicDevice::streaming, add_ConnectionStatusChanged, add_ConnectionStatusChanged method [Media Streaming API], add_ConnectionStatusChanged method [Media Streaming API],IBasicDevice interface, mediastreaming.ibasicdevice_add_connectionstatuschanged, windows/IBasicDevice::add_ConnectionStatusChanged
 ms.topic: method
 req.header: windows.media.streaming.h

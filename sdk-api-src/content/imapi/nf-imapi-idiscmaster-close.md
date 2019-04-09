@@ -7,7 +7,7 @@ old-location: imapi\idiscmaster_close.htm
 tech.root: imapi
 ms.assetid: c5ebeca1-baaa-49ac-87ac-134d4b37e8c9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Close, Close method [IMAPI], Close method [IMAPI],IDiscMaster interface, IDiscMaster interface [IMAPI],Close method, IDiscMaster.Close, IDiscMaster::Close, _win32_idiscmaster_close, base.idiscmaster_close, imapi.idiscmaster_close, imapi/IDiscMaster::Close
 ms.topic: method
 req.header: imapi.h

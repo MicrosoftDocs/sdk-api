@@ -7,7 +7,7 @@ old-location: mf\imfmediabuffer_unlock.htm
 tech.root: medfound
 ms.assetid: 3ca53321-5533-45f0-b415-6a16f780ec54
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 3ca53321-5533-45f0-b415-6a16f780ec54, IMFMediaBuffer interface [Media Foundation],Unlock method, IMFMediaBuffer.Unlock, IMFMediaBuffer::Unlock, Unlock, Unlock method [Media Foundation], Unlock method [Media Foundation],IMFMediaBuffer interface, mf.imfmediabuffer_unlock, mfobjects/IMFMediaBuffer::Unlock
 ms.topic: method
 req.header: mfobjects.h

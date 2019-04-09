@@ -7,7 +7,7 @@ old-location: secbiomet\pwinbio_event_callback.htm
 tech.root: SecBioMet
 ms.assetid: E5D3E20E-A174-46E2-9426-7B021496DB3B
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PWINBIO_EVENT_CALLBACK, PWINBIO_EVENT_CALLBACK callback, PWINBIO_EVENT_CALLBACK callback function [Windows Biometric Framework API], secbiomet.pwinbio_event_callback, winbio/PWINBIO_EVENT_CALLBACK
 ms.topic: callback
 req.header: winbio.h

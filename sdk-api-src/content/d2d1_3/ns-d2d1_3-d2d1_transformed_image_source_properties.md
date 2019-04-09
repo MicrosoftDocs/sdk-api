@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_transformed_image_source_properties.htm
 tech.root: Direct2D
 ms.assetid: E8A39769-07F2-42CA-A7CA-F83FF97E2076
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: D2D1_TRANSFORMED_IMAGE_SOURCE_PROPERTIES, D2D1_TRANSFORMED_IMAGE_SOURCE_PROPERTIES structure [Direct2D], d2d1_3/D2D1_TRANSFORMED_IMAGE_SOURCE_PROPERTIES, direct2d.d2d1_transformed_image_source_properties
 ms.topic: struct
 req.header: d2d1_3.h

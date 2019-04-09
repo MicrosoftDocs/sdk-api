@@ -7,7 +7,7 @@ old-location: secbiomet\engineadapterdiscardenrollment.htm
 tech.root: SecBioMet
 ms.assetid: 305540bc-e0c6-460a-a00b-c295b3d6db93
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EngineAdapterDiscardEnrollment, EngineAdapterDiscardEnrollment callback function [Windows Biometric Framework API], PIBIO_ENGINE_DISCARD_ENROLLMENT_FN, PIBIO_ENGINE_DISCARD_ENROLLMENT_FN callback, secbiomet.engineadapterdiscardenrollment, winbio_adapter/EngineAdapterDiscardEnrollment
 ms.topic: callback
 req.header: winbio_adapter.h

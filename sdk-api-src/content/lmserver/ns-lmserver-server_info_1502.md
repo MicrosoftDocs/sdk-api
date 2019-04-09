@@ -7,7 +7,7 @@ old-location: netmgmt\server_info_1502_str.htm
 tech.root: NetMgmt
 ms.assetid: d33cfe93-b284-4299-82fd-8055b39f7b87
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPSERVER_INFO_1502, *PSERVER_INFO_1502, LPSERVER_INFO_1502, LPSERVER_INFO_1502 structure pointer [Network Management], PSERVER_INFO_1502, PSERVER_INFO_1502 structure pointer [Network Management], SERVER_INFO_1502, SERVER_INFO_1502 structure [Network Management], _win32_server_info_1502_str, lmserver/LPSERVER_INFO_1502, lmserver/PSERVER_INFO_1502, lmserver/SERVER_INFO_1502, netmgmt.server_info_1502_str"
 ms.topic: struct
 req.header: lmserver.h

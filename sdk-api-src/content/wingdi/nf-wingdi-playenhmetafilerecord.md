@@ -7,7 +7,7 @@ old-location: gdi\playenhmetafilerecord.htm
 tech.root: gdi
 ms.assetid: 3eec8c8d-b99f-4500-9d18-b819c097f341
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PlayEnhMetaFileRecord, PlayEnhMetaFileRecord function [Windows GDI], _win32_PlayEnhMetaFileRecord, gdi.playenhmetafilerecord, wingdi/PlayEnhMetaFileRecord
 ms.topic: function
 req.header: wingdi.h

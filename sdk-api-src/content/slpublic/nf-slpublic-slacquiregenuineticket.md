@@ -7,7 +7,7 @@ old-location: security\slacquiregenuineticket.htm
 tech.root: SecSLApi
 ms.assetid: 028099c8-9116-4212-bc29-1065b22be593
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SLAcquireGenuineTicket, SLAcquireGenuineTicket function [Security], security.slacquiregenuineticket, slpublic/SLAcquireGenuineTicket
 ms.topic: function
 req.header: slpublic.h

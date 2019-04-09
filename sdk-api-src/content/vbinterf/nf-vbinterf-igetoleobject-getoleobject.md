@@ -7,7 +7,7 @@ old-location: com\igetoleobject_getoleobject.htm
 tech.root: com
 ms.assetid: eafb9dbc-ab46-4b83-8be9-6c8cd1de8ab3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetOleObject, GetOleObject method [COM], GetOleObject method [COM],IGetOleObject interface, IGetOleObject interface [COM],GetOleObject method, IGetOleObject.GetOleObject, IGetOleObject::GetOleObject, _com_IGetOleObject_GetOleObject, com.igetoleobject_getoleobject, vbinterf/IGetOleObject::GetOleObject
 ms.topic: method
 req.header: vbinterf.h

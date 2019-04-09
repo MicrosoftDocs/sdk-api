@@ -7,7 +7,7 @@ old-location: fs\findfirstfilenametransactedw.htm
 tech.root: FileIO
 ms.assetid: 79c7d32d-3cb7-4e27-9db1-f24282bf606a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FindFirstFileNameTransactedW, FindFirstFileNameTransactedW function [Files], fs.findfirstfilenametransactedw, winbase/FindFirstFileNameTransactedW
 ms.topic: function
 req.header: winbase.h

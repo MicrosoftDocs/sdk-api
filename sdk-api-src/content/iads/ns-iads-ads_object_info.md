@@ -7,7 +7,7 @@ old-location: adsi\ads_object_info.htm
 tech.root: adsi
 ms.assetid: f072b2f8-8c03-4f90-8edf-cf5fed97a222
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PADS_OBJECT_INFO, ADS_OBJECT_INFO, ADS_OBJECT_INFO structure [ADSI], PADS_OBJECT_INFO, PADS_OBJECT_INFO structure pointer [ADSI], _ds_ads_object_info, adsi.ads__object__info, adsi.ads_object_info, iads/ADS_OBJECT_INFO, iads/PADS_OBJECT_INFO"
 ms.topic: struct
 req.header: iads.h

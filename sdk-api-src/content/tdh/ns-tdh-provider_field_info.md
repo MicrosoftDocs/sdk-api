@@ -7,7 +7,7 @@ old-location: etw\provider_field_info_struct.htm
 tech.root: ETW
 ms.assetid: a7c88c25-3acc-42aa-bf2b-bc7651e84f8c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PPROVIDER_FIELD_INFO, PROVIDER_FIELD_INFO, PROVIDER_FIELD_INFO structure [ETW], etw.provider_field_info_struct, tdh.provider_field_info_struct, tdh/PROVIDER_FIELD_INFO"
 ms.topic: struct
 req.header: tdh.h

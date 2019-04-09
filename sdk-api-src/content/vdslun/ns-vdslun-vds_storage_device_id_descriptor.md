@@ -7,7 +7,7 @@ old-location: base\vds_storage_device_id_descriptor.htm
 tech.root: VDS
 ms.assetid: 88fe83cb-6d3c-40bd-a5ce-71771d2e7511
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VDS_STORAGE_DEVICE_ID_DESCRIPTOR, VDS_STORAGE_DEVICE_ID_DESCRIPTOR structure [VDS], base.vds_storage_device_id_descriptor, vdslun/_VDS_STORAGE_DEVICE_ID_DESCRIPTOR
 ms.topic: struct
 req.header: vdslun.h

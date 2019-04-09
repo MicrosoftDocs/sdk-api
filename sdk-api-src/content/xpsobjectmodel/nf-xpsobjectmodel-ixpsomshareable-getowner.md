@@ -7,7 +7,7 @@ old-location: xps\ixpsomshareable_getowner.htm
 tech.root: printdocs
 ms.assetid: da871b31-2787-44cc-8678-43d529472f61
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMShareable interface, IXpsOMShareable interface [XPS Documents and Packaging],GetOwner method, IXpsOMShareable.GetOwner, IXpsOMShareable::GetOwner, xps.ixpsomshareable_getowner, xpsobjectmodel/IXpsOMShareable::GetOwner
 ms.topic: method
 req.header: xpsobjectmodel.h

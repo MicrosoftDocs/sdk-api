@@ -7,7 +7,7 @@ old-location: tsf\itfcontextcomposition.htm
 tech.root: TSF
 ms.assetid: cf02c50c-dca8-47ad-b8ff-0fa3884db674
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITfContextComposition, ITfContextComposition interface [Text Services Framework], ITfContextComposition interface [Text Services Framework],described, _tsf_itfcontextcomposition_ref, msctf/ITfContextComposition, tsf.itfcontextcomposition
 ms.topic: interface
 req.header: msctf.h

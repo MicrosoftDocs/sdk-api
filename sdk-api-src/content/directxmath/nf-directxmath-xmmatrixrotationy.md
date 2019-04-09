@@ -7,7 +7,7 @@ old-location: dxmath\xmmatrixrotationy.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixRotationY(float)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixRotationY, XMMatrixRotationY, XMMatrixRotationY method [DirectX Math Support APIs], dxmath.xmmatrixrotationy
 ms.topic: function
 req.header: directxmath.h

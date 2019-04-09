@@ -7,7 +7,7 @@ old-location: ad\iqueryform_addpages.htm
 tech.root: ad
 ms.assetid: 797496fd-67db-4ec2-beec-224664d5d330
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AddPages, AddPages method [Active Directory], AddPages method [Active Directory],IQueryForm interface, IQueryForm interface [Active Directory],AddPages method, IQueryForm.AddPages, IQueryForm::AddPages, _glines_iqueryform_addpages, ad.iqueryform__addpages, ad.iqueryform_addpages, cmnquery/IQueryForm::AddPages
 ms.topic: method
 req.header: cmnquery.h

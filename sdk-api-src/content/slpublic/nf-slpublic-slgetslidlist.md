@@ -7,7 +7,7 @@ old-location: security\slgetslidlist.htm
 tech.root: SecSLApi
 ms.assetid: e2733f2e-e78b-4a77-a81d-d5913baa4bc4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SLGetSLIDList, SLGetSLIDList function [Security], security.slgetslidlist, slpublic/SLGetSLIDList
 ms.topic: function
 req.header: slpublic.h

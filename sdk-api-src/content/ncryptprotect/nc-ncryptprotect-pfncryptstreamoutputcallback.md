@@ -7,7 +7,7 @@ old-location: security\pfncryptstreamoutputcallback.htm
 tech.root: SecCNG
 ms.assetid: D07B2B63-306B-4C41-AA14-320EFEFFB939
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PFNCryptStreamOutputCallback, PFNCryptStreamOutputCallback callback, PFNCryptStreamOutputCallback callback function [Security], ncryptprotect/PFNCryptStreamOutputCallback, security.pfncryptstreamoutputcallback
 ms.topic: callback
 req.header: ncryptprotect.h

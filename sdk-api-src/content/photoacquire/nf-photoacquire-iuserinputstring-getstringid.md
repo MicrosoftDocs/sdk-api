@@ -7,7 +7,7 @@ old-location: picacq\iuserinputstring_getstringid.htm
 tech.root: acquisition
 ms.assetid: 29c4b592-fa6a-4f9b-a390-e8bc0928a26d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetStringId, GetStringId method [Picture Acquisition], GetStringId method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetStringId method, IUserInputString.GetStringId, IUserInputString::GetStringId, IUserInputStringGetStringId, photoacquire/IUserInputString::GetStringId, picacq.iuserinputstring_getstringid
 ms.topic: method
 req.header: photoacquire.h

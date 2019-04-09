@@ -7,7 +7,7 @@ old-location: security\saferiisexecutablefiletype.htm
 tech.root: SecMgmt
 ms.assetid: f122ceaa-65bb-4cfe-a760-adf4f910c487
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SaferiIsExecutableFileType, SaferiIsExecutableFileType function [Security], security.saferiisexecutablefiletype, winsafer/SaferiIsExecutableFileType
 ms.topic: function
 req.header: winsafer.h

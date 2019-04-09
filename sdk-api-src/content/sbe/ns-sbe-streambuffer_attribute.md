@@ -7,7 +7,7 @@ old-location: mstv\streambuffer_attribute.htm
 tech.root: mstv
 ms.assetid: 2b17626a-9268-4192-8acf-ed46bf632163
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: STREAMBUFFER_ATTRIBUTE, STREAMBUFFER_ATTRIBUTE structure [Microsoft TV Technologies], STREAMBUFFER_ATTRIBUTEStructure, mstv.streambuffer_attribute, sbe/STREAMBUFFER_ATTRIBUTE
 ms.topic: struct
 req.header: sbe.h

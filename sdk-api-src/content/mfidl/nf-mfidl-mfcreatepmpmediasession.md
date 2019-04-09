@@ -7,7 +7,7 @@ old-location: mf\mfcreatepmpmediasession.htm
 tech.root: medfound
 ms.assetid: cb492e68-3d8a-49b2-8c0b-bee8065b53a8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MFCreatePMPMediaSession, MFCreatePMPMediaSession function [Media Foundation], cb492e68-3d8a-49b2-8c0b-bee8065b53a8, mf.mfcreatepmpmediasession, mfidl/MFCreatePMPMediaSession
 ms.topic: function
 req.header: mfidl.h

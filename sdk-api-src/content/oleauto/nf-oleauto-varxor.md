@@ -7,7 +7,7 @@ old-location: automat\varxor.htm
 tech.root: automat
 ms.assetid: 5a9ebe42-07a0-4bb8-afb7-24d18ce32768
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VarXor, VarXor function [Automation], _oa96_VarXor, automat.varxor, oleauto/VarXor
 ms.topic: function
 req.header: oleauto.h

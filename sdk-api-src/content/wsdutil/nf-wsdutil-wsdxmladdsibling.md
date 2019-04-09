@@ -7,7 +7,7 @@ old-location: ncd\wsdxmladdsibling.htm
 tech.root: WsdApi
 ms.assetid: dbe5de39-eb8e-4352-b0c4-32d10e324185
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WSDXMLAddSibling, WSDXMLAddSibling function, ncd.wsdxmladdsibling, wsdutil/WSDXMLAddSibling
 ms.topic: function
 req.header: wsdutil.h

@@ -7,7 +7,7 @@ old-location: gdi\emrsetmapperflags.htm
 tech.root: gdi
 ms.assetid: d8a01e0a-6da9-43e2-9910-87503b5c851e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PEMRSETMAPPERFLAGS, EMRSETMAPPERFLAGS, EMRSETMAPPERFLAGS structure [Windows GDI], PEMRSETMAPPERFLAGS, PEMRSETMAPPERFLAGS structure pointer [Windows GDI], _win32_EMRSETMAPPERFLAGS_str, gdi.emrsetmapperflags, wingdi/EMRSETMAPPERFLAGS, wingdi/PEMRSETMAPPERFLAGS"
 ms.topic: struct
 req.header: wingdi.h

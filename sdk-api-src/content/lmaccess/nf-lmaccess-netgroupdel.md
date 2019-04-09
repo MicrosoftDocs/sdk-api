@@ -7,7 +7,7 @@ old-location: netmgmt\netgroupdel.htm
 tech.root: NetMgmt
 ms.assetid: e637d1af-c900-4c91-a771-1428f9cfac8b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NetGroupDel, NetGroupDel function [Network Management], _win32_netgroupdel, lmaccess/NetGroupDel, netmgmt.netgroupdel
 ms.topic: function
 req.header: lmaccess.h

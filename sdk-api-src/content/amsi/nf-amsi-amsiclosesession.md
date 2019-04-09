@@ -7,7 +7,7 @@ old-location: amsi\amsiclosesession.htm
 tech.root: AMSI
 ms.assetid: 1DF760A2-22AE-427E-8395-1EE34BD7BCAB
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AmsiCloseSession, AmsiCloseSession function [Antimalware Scan Interface], amsi.amsiclosesession, amsi/AmsiCloseSession
 ms.topic: function
 req.header: amsi.h

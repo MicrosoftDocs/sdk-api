@@ -7,7 +7,7 @@ old-location: tapi3\ienumterminalclass_reset.htm
 tech.root: Tapi
 ms.assetid: dd61649e-d684-4774-bd23-91990e20729a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEnumTerminalClass interface [TAPI 2.2],Reset method, IEnumTerminalClass.Reset, IEnumTerminalClass::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumTerminalClass interface, _tapi3_ienumterminalclass_reset, tapi3.ienumterminalclass_reset, tapi3if/IEnumTerminalClass::Reset
 ms.topic: method
 req.header: tapi3if.h

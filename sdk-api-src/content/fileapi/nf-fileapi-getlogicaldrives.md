@@ -7,7 +7,7 @@ old-location: fs\getlogicaldrives.htm
 tech.root: FileIO
 ms.assetid: 21a66050-3bab-4c70-9003-3b52e8c72b00
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetLogicalDrives, GetLogicalDrives function [Files], _win32_getlogicaldrives, base.getlogicaldrives, fileapi/GetLogicalDrives, fs.getlogicaldrives, winbase/GetLogicalDrives
 ms.topic: function
 req.header: fileapi.h

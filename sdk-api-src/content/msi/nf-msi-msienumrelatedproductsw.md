@@ -7,7 +7,7 @@ old-location: setup\msienumrelatedproducts.htm
 tech.root: Msi
 ms.assetid: cb0fbdce-0b20-4fb3-8b01-d5e81d7bf3a3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MsiEnumRelatedProducts, MsiEnumRelatedProducts function, MsiEnumRelatedProductsA, MsiEnumRelatedProductsW, _msi_msienumrelatedproducts, msi/MsiEnumRelatedProducts, msi/MsiEnumRelatedProductsA, msi/MsiEnumRelatedProductsW, setup.msienumrelatedproducts
 ms.topic: function
 req.header: msi.h

@@ -7,7 +7,7 @@ old-location: security\catalog_info.htm
 tech.root: SecCrypto
 ms.assetid: f6e66412-3ed2-48d9-a377-5df11500db59
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CATALOG_INFO, CATALOG_INFO structure [Security], mscat/CATALOG_INFO, security.catalog_info
 ms.topic: struct
 req.header: mscat.h

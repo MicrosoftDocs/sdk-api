@@ -7,7 +7,7 @@ old-location: uianimation\ui_animation_keyframe.htm
 tech.root: UIAnimation
 ms.assetid: 4ac3d524-35a6-4cb9-a468-b7f88500a49c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*UI_ANIMATION_KEYFRAME, UI_ANIMATION_KEYFRAME, UI_ANIMATION_KEYFRAME structure [Windows Animation], __MIDL___MIDL_itf_UIAnimation_0000_0002_0003, uianimation.ui_animation_keyframe, uianimation/UI_ANIMATION_KEYFRAME"
 ms.topic: struct
 req.header: uianimation.h

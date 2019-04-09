@@ -7,7 +7,7 @@ old-location: snmp\snmpmgrtraplisten.htm
 tech.root: SNMP
 ms.assetid: 9ba799a7-0088-4939-9665-ce96074c6448
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SnmpMgrTrapListen, SnmpMgrTrapListen function [SNMP], _snmp_snmpmgrtraplisten, mgmtapi/SnmpMgrTrapListen, snmp.snmpmgrtraplisten
 ms.topic: function
 req.header: mgmtapi.h

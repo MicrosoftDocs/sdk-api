@@ -7,7 +7,7 @@ old-location: p2p\peerdistserverunpublish.htm
 tech.root: P2PSdk
 ms.assetid: 880927c4-f7d7-4c75-b371-2fe401a50b20
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PeerDistServerUnpublish, PeerDistServerUnpublish function [Peer Networking], p2p.peerdistserverunpublish, peerdist/PeerDistServerUnpublish
 ms.topic: function
 req.header: peerdist.h

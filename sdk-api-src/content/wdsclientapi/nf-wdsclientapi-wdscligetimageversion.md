@@ -7,7 +7,7 @@ old-location: wds\wdscligetimageversion.htm
 tech.root: wds
 ms.assetid: 50cd6ca0-dffd-452c-9e68-904037f71ccc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WdsCliGetImageVersion, WdsCliGetImageVersion function [Windows Deployment Services], wds.wdscligetimageversion, wdsclientapi/WdsCliGetImageVersion
 ms.topic: function
 req.header: wdsclientapi.h

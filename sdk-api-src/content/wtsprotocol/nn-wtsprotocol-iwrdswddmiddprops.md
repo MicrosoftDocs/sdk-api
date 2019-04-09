@@ -7,7 +7,7 @@ old-location: termserv\iwrdswddmiddprops.htm
 tech.root: TermServ
 ms.assetid: 9473E754-D158-40E7-9E76-D8EA5A4BE86E
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWRdsWddmIddProps, IWRdsWddmIddProps interface [Remote Desktop Services], IWRdsWddmIddProps interface [Remote Desktop Services],described, termserv.iwrdswddmiddprops, wtsprotocol/IWRdsWddmIddProps
 ms.topic: interface
 req.header: wtsprotocol.h

@@ -7,7 +7,7 @@ old-location: xblidp\ixblidpauthtokenresult_getgamertag.htm
 tech.root: xblidp
 ms.assetid: 6357735A-C5B3-49CA-9E9C-A443A7D40929
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetGamertag, GetGamertag method, GetGamertag method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetGamertag method, IXblIdpAuthTokenResult.GetGamertag, IXblIdpAuthTokenResult::GetGamertag, xblidp.ixblidpauthtokenresult_getgamertag, xblidpauthmanager/IXblIdpAuthTokenResult::GetGamertag
 ms.topic: method
 req.header: xblidpauthmanager.h

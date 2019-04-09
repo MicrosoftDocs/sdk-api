@@ -7,7 +7,7 @@ old-location: security\opentokenbylogonid.htm
 tech.root: SecAuthN
 ms.assetid: 3cd3e4fe-7548-44f9-ab04-01b30bdf3bd9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: LSA_OPEN_TOKEN_BY_LOGON_ID, LSA_OPEN_TOKEN_BY_LOGON_ID callback, OpenTokenByLogonId, OpenTokenByLogonId callback function [Security], ntsecpkg/OpenTokenByLogonId, security.opentokenbylogonid
 ms.topic: callback
 req.header: ntsecpkg.h

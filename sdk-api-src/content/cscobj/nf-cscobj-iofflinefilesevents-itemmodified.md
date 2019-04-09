@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents_itemmodified.htm
 tech.root: offlinefiles
 ms.assetid: e689b111-d6d1-436e-b468-570e575a5170
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemModified method, IOfflineFilesEvents.ItemModified, IOfflineFilesEvents::ItemModified, ItemModified, ItemModified method [Offline Files], ItemModified method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemModified, of.iofflinefilesevents_itemmodified
 ms.topic: method
 req.header: cscobj.h

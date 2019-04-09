@@ -7,7 +7,7 @@ old-location: devinst\setupdisetselecteddevice.htm
 tech.root: devinst
 ms.assetid: d3ce8a05-d26b-452f-8418-e104ae486a1a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SetupDiSetSelectedDevice, SetupDiSetSelectedDevice function [Device and Driver Installation], devinst.setupdisetselecteddevice, di-rtns_db49eaf1-c6cb-48ef-ae17-f5c578672eca.xml, setupapi/SetupDiSetSelectedDevice
 ms.topic: function
 req.header: setupapi.h

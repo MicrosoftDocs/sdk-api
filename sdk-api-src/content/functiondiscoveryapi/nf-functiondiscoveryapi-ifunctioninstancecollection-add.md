@@ -7,7 +7,7 @@ old-location: ncd\ifunctioninstancecollection_add.htm
 tech.root: FunDisc
 ms.assetid: c77729f2-2524-4502-82d6-3a3be8344d94
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Add, Add method, Add method,IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,Add method, IFunctionInstanceCollection.Add, IFunctionInstanceCollection::Add, functiondiscoveryapi/IFunctionInstanceCollection::Add, ncd.ifunctioninstancecollection_add
 ms.topic: method
 req.header: functiondiscoveryapi.h

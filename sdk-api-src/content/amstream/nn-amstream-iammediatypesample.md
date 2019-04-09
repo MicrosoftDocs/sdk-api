@@ -7,7 +7,7 @@ old-location: dshow\iammediatypesample.htm
 tech.root: DirectShow
 ms.assetid: e0a62251-68ee-4318-b09a-0aac6b73bf54
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IAMMediaTypeSample, IAMMediaTypeSample interface [DirectShow], IAMMediaTypeSample interface [DirectShow],described, IAMMediaTypeSampleInterface, amstream/IAMMediaTypeSample, dshow.iammediatypesample
 ms.topic: interface
 req.header: amstream.h

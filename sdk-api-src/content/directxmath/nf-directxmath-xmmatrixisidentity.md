@@ -7,7 +7,7 @@ old-location: dxmath\xmmatrixisidentity.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixIsIdentity(XMMATRIX)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixIsIdentity, XMMatrixIsIdentity, XMMatrixIsIdentity method [DirectX Math Support APIs], dxmath.xmmatrixisidentity
 ms.topic: function
 req.header: directxmath.h

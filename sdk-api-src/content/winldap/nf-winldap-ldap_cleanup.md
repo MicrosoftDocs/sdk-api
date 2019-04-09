@@ -7,7 +7,7 @@ old-location: ldap\ldap_cleanup.htm
 tech.root: ldap
 ms.assetid: AAB2A6D4-7AF1-4E9D-9D76-28B991F732CE
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ldap.ldap_cleanup, ldap_cleanup, ldap_cleanup function [LDAP], winldap/ldap_cleanup
 ms.topic: function
 req.header: winldap.h

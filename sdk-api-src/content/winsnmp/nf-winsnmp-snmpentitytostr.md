@@ -7,7 +7,7 @@ old-location: snmp\snmpentitytostr.htm
 tech.root: SNMP
 ms.assetid: 3a5bca7e-a0a2-4bf5-86cc-f8d9f3ac8660
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SnmpEntityToStr, SnmpEntityToStr function [SNMP], _snmp_snmpentitytostr, snmp.snmpentitytostr, winsnmp/SnmpEntityToStr
 ms.topic: function
 req.header: winsnmp.h

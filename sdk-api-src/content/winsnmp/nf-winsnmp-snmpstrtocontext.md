@@ -7,7 +7,7 @@ old-location: snmp\snmpstrtocontext.htm
 tech.root: SNMP
 ms.assetid: d552f453-cc19-4166-aca3-bbaa3669b1c8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SNMPAPI_TRANSLATED, SNMPAPI_UNTRANSLATED_V1, SNMPAPI_UNTRANSLATED_V2, SnmpStrToContext, SnmpStrToContext function [SNMP], _snmp_snmpstrtocontext, snmp.snmpstrtocontext, winsnmp/SnmpStrToContext
 ms.topic: function
 req.header: winsnmp.h

@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamconfig_getpayloadextension.htm
 tech.root: medfound
 ms.assetid: 5b3b831c-2218-4a76-8359-7f39cab53a57
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 5b3b831c-2218-4a76-8359-7f39cab53a57, GetPayloadExtension, GetPayloadExtension method [Media Foundation], GetPayloadExtension method [Media Foundation],IMFASFStreamConfig interface, IMFASFStreamConfig interface [Media Foundation],GetPayloadExtension method, IMFASFStreamConfig.GetPayloadExtension, IMFASFStreamConfig::GetPayloadExtension, mf.imfasfstreamconfig_getpayloadextension, wmcontainer/IMFASFStreamConfig::GetPayloadExtension
 ms.topic: method
 req.header: wmcontainer.h

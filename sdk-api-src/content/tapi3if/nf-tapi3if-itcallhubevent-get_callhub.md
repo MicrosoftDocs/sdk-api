@@ -7,7 +7,7 @@ old-location: tapi3\itcallhubevent_get_callhub.htm
 tech.root: Tapi
 ms.assetid: 4016f253-2a2d-4406-a1fc-7595d25c1c06
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITCallHubEvent interface [TAPI 2.2],get_CallHub method, ITCallHubEvent.get_CallHub, ITCallHubEvent::get_CallHub, _tapi3_itcallhubevent_get_callhub, get_CallHub, get_CallHub method [TAPI 2.2], get_CallHub method [TAPI 2.2],ITCallHubEvent interface, tapi3.itcallhubevent_get_callhub, tapi3if/ITCallHubEvent::get_CallHub
 ms.topic: method
 req.header: tapi3if.h

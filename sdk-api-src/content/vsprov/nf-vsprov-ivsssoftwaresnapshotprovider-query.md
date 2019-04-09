@@ -7,7 +7,7 @@ old-location: base\ivsssoftwaresnapshotprovider_query.htm
 tech.root: VSS
 ms.assetid: bb238acc-7af0-43cf-bc2e-70e255978fb1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVssSoftwareSnapshotProvider interface,Query method, IVssSoftwareSnapshotProvider.Query, IVssSoftwareSnapshotProvider::Query, Query, Query method, Query method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_query, vsprov/IVssSoftwareSnapshotProvider::Query
 ms.topic: method
 req.header: vsprov.h

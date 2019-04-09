@@ -7,7 +7,7 @@ old-location: wcn\wcn_value_type_boolean.htm
 tech.root: wcn
 ms.assetid: d11a7aef-1a18-44bf-90fa-7e0980739740
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WCN_VALUE_FALSE, WCN_VALUE_TRUE, WCN_VALUE_TYPE_BOOLEAN, WCN_VALUE_TYPE_BOOLEAN enumeration [Windows Connect Now], wcn.wcn_value_type_boolean, wcntypes/WCN_VALUE_FALSE, wcntypes/WCN_VALUE_TRUE, wcntypes/WCN_VALUE_TYPE_BOOLEAN
 ms.topic: enum
 req.header: wcntypes.h

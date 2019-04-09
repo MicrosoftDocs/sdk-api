@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevicecontrol_resume.htm
 tech.root: WMDM
 ms.assetid: 24ee343c-09ed-4a5f-b7be-eba15dcc4b36
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMDMDeviceControl interface [windows Media Device Manager],Resume method, IWMDMDeviceControl.Resume, IWMDMDeviceControl::Resume, IWMDMDeviceControlResume, Resume, Resume method [windows Media Device Manager], Resume method [windows Media Device Manager],IWMDMDeviceControl interface, mswmdm/IWMDMDeviceControl::Resume, wmdm.iwmdmdevicecontrol_resume
 ms.topic: method
 req.header: mswmdm.h

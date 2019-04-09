@@ -7,7 +7,7 @@ old-location: base\setcommtimeouts.htm
 tech.root: devio
 ms.assetid: 71aa6ab3-d56c-43bc-9932-5b4e61fc4b30
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SetCommTimeouts, SetCommTimeouts function, _win32_setcommtimeouts, base.setcommtimeouts, winbase/SetCommTimeouts
 ms.topic: function
 req.header: winbase.h

@@ -7,7 +7,7 @@ old-location: rras\ras_hardware_condition.htm
 tech.root: RRAS
 ms.assetid: 54a92552-9ad2-4a4a-b177-041157b445cd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RAS_HARDWARE_CONDITION, RAS_HARDWARE_CONDITION enumeration [RAS], RAS_HARDWARE_FAILURE, RAS_HARDWARE_OPERATIONAL, _mpr_ras_hardware_condition, mprapi/RAS_HARDWARE_CONDITION, mprapi/RAS_HARDWARE_FAILURE, mprapi/RAS_HARDWARE_OPERATIONAL, rras.ras_hardware_condition
 ms.topic: enum
 req.header: mprapi.h

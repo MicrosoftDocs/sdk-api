@@ -7,7 +7,7 @@ old-location: netmgmt\netusersetgroups.htm
 tech.root: NetMgmt
 ms.assetid: 7042c43a-09d1-4179-8074-eb055dc279a6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 0, 1, NetUserSetGroups, NetUserSetGroups function [Network Management], _win32_netusersetgroups, lmaccess/NetUserSetGroups, netmgmt.netusersetgroups
 ms.topic: function
 req.header: lmaccess.h

@@ -7,7 +7,7 @@ old-location: mstv\istreambuffermediaseeking.htm
 tech.root: mstv
 ms.assetid: baac4c50-7aba-4bdc-93ad-57f22c55ea4b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IStreamBufferMediaSeeking, IStreamBufferMediaSeeking interface [Microsoft TV Technologies], IStreamBufferMediaSeeking interface [Microsoft TV Technologies],described, IStreamBufferMediaSeekingInterface, mstv.istreambuffermediaseeking, sbe/IStreamBufferMediaSeeking
 ms.topic: interface
 req.header: sbe.h

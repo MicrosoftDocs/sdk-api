@@ -7,7 +7,7 @@ old-location: dhcp\dhcpscandatabase.htm
 tech.root: DHCP
 ms.assetid: 6324c197-7237-449f-ae23-4f04b1b7498e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DhcpScanDatabase, DhcpScanDatabase function [DHCP], dhcp.dhcpscandatabase, dhcpsapi/DhcpScanDatabase
 ms.topic: function
 req.header: dhcpsapi.h

@@ -7,7 +7,7 @@ old-location: shell\IShellFolderView_ArrangeGrid.htm
 tech.root: shell
 ms.assetid: 3cb77a02-82da-42d3-97a3-ff47a9ce1831
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ArrangeGrid, ArrangeGrid method [Windows Shell], ArrangeGrid method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],ArrangeGrid method, IShellFolderView.ArrangeGrid, IShellFolderView::ArrangeGrid, _shell_IShellFolderView_ArrangeGrid, shell.IShellFolderView_ArrangeGrid, shlobj_core/IShellFolderView::ArrangeGrid
 ms.topic: method
 req.header: shlobj_core.h

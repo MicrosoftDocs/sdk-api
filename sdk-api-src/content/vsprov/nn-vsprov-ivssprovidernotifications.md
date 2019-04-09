@@ -7,7 +7,7 @@ old-location: base\ivssprovidernotifications.htm
 tech.root: VSS
 ms.assetid: 09324f54-8902-43d1-a4f9-967adccbf8be
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVssProviderNotifications, IVssProviderNotifications interface [VSS], IVssProviderNotifications interface [VSS],described, base.ivssprovidernotifications, vsprov/IVssProviderNotifications
 ms.topic: interface
 req.header: vsprov.h

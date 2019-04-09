@@ -7,7 +7,7 @@ old-location: smi\isettingsengine_registernamespace.htm
 tech.root: SMI
 ms.assetid: 9b9ffba8-b2b7-469e-96d2-78b086987fae
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ISettingsEngine interface [SMI],RegisterNamespace method, ISettingsEngine.RegisterNamespace, ISettingsEngine::RegisterNamespace, RegisterNamespace, RegisterNamespace method [SMI], RegisterNamespace method [SMI],ISettingsEngine interface, smi.isettingsengine_registernamespace, wcmconfig/ISettingsEngine::RegisterNamespace
 ms.topic: method
 req.header: wcmconfig.h

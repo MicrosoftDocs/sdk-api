@@ -7,7 +7,7 @@ old-location: nla\ienumnetworks_next.htm
 tech.root: nla
 ms.assetid: 5ee2501c-502e-448e-8635-c8bf9d169ebb
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEnumNetworks interface [Network Awareness],Next method, IEnumNetworks.Next, IEnumNetworks::Next, Next, Next method [Network Awareness], Next method [Network Awareness],IEnumNetworks interface, netlistmgr/IEnumNetworks::Next, nla.ienumnetworks_next
 ms.topic: method
 req.header: netlistmgr.h

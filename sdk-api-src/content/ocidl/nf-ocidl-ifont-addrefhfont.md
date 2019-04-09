@@ -7,7 +7,7 @@ old-location: com\ifont_addrefhfont.htm
 tech.root: com
 ms.assetid: f86d52b8-e763-4948-b853-039721ae9b38
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AddRefHfont, AddRefHfont method [COM], AddRefHfont method [COM],IFont interface, IFont interface [COM],AddRefHfont method, IFont.AddRefHfont, IFont::AddRefHfont, _ctrl_ifont_addrefhfont, com.ifont_addrefhfont, ocidl/IFont::AddRefHfont
 ms.topic: method
 req.header: ocidl.h

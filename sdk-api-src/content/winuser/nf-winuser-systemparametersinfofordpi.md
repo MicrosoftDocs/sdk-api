@@ -7,7 +7,7 @@ old-location: hidpi\systemparametersinfofordpi.htm
 tech.root: hidpi
 ms.assetid: BA460A5B-5356-43A5-B232-03E6E72D15A2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SystemParametersInfoForDpi, SystemParametersInfoForDpi function [High DPI], hidpi.systemparametersinfofordpi, winuser/SystemParametersInfoForDpi
 ms.topic: function
 req.header: winuser.h

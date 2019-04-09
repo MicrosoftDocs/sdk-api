@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundroutinggroup_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_45o0_cpp.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFaxOutboundRoutingGroup, IFaxOutboundRoutingGroup interface [Fax Service], IFaxOutboundRoutingGroup interface [Fax Service],described, _mfax_faxoutboundroutinggroup_cpp, fax._mfax_faxoutboundroutinggroup_cpp, faxcomex/IFaxOutboundRoutingGroup
 ms.topic: interface
 req.header: faxcomex.h

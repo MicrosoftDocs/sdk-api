@@ -7,7 +7,7 @@ old-location: winprog\_lread.htm
 tech.root: DevNotes
 ms.assetid: A5374B2B-12EC-4130-8D21-1801D1D72524
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_lread, _lread function [Windows API], winbase/_lread, winprog._lread"
 ms.topic: function
 req.header: winbase.h

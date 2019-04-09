@@ -7,7 +7,7 @@ old-location: fs\findfirstvolumemountpoint.htm
 tech.root: FileIO
 ms.assetid: 2ac3c22d-b8dd-43d8-a7af-877b54e42d9d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FindFirstVolumeMountPoint, FindFirstVolumeMountPoint function [Files], FindFirstVolumeMountPointA, FindFirstVolumeMountPointW, _win32_findfirstvolumemountpoint, base.findfirstvolumemountpoint, fs.findfirstvolumemountpoint, winbase/FindFirstVolumeMountPoint, winbase/FindFirstVolumeMountPointA, winbase/FindFirstVolumeMountPointW
 ms.topic: function
 req.header: winbase.h

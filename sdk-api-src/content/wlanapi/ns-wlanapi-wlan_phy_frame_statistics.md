@@ -7,7 +7,7 @@ old-location: nwifi\wlan_phy_frame_statistics.htm
 tech.root: NativeWiFi
 ms.assetid: c675a3cd-bbe5-473e-b734-12e74fd19a50
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PWLAN_PHY_FRAME_STATISTICS, PWLAN_PHY_FRAME_STATISTICS, PWLAN_PHY_FRAME_STATISTICS structure pointer [NativeWIFI], WLAN_PHY_FRAME_STATISTICS, WLAN_PHY_FRAME_STATISTICS structure [NativeWIFI], nwifi.wlan_phy_frame_statistics, wlanapi/PWLAN_PHY_FRAME_STATISTICS, wlanapi/WLAN_PHY_FRAME_STATISTICS"
 ms.topic: struct
 req.header: wlanapi.h

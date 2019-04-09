@@ -7,7 +7,7 @@ old-location: nla\inetworkconnectioncost_getdataplanstatus.htm
 tech.root: nla
 ms.assetid: 861ED7D2-569A-4B62-BAB6-CA649CA9B524
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetDataPlanStatus, GetDataPlanStatus method [Network Awareness], GetDataPlanStatus method [Network Awareness],INetworkConnectionCost interface, INetworkConnectionCost interface [Network Awareness],GetDataPlanStatus method, INetworkConnectionCost.GetDataPlanStatus, INetworkConnectionCost::GetDataPlanStatus, netlistmgr/INetworkConnectionCost::GetDataPlanStatus, nla.inetworkconnectioncost_getdataplanstatus
 ms.topic: method
 req.header: netlistmgr.h

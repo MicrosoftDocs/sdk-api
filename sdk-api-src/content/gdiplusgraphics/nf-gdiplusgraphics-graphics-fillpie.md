@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_FillPie_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillpiemethods.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FillPie, FillPie methods [GDI+], Graphics.FillPie, Graphics::FillPie, _gdiplus_CLASS_Graphics_FillPie_Methods, gdiplus._gdiplus_CLASS_Graphics_FillPie_Methods, gdiplusgraphics/FillPie
 ms.topic: method
 req.header: gdiplusgraphics.h

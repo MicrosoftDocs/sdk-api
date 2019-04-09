@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvalue_getstring.htm
 tech.root: WinRT
 ms.assetid: 56376A64-78F7-4C28-B3A7-9CE6594342E4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetString, GetString method [Windows Runtime], GetString method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetString method, IPropertyValue.GetString, IPropertyValue.IPropertyValue, IPropertyValue::GetString, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetString, winrt.ipropertyvalue_getstring
 ms.topic: method
 req.header: windows.foundation.h

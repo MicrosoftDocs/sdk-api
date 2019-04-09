@@ -7,7 +7,7 @@ old-location: com\olereggetmiscstatus.htm
 tech.root: com
 ms.assetid: 3166955f-4f7a-4904-a7fb-ebdfb8e56baf
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: OleRegGetMiscStatus, OleRegGetMiscStatus function [COM], _com_OleRegGetMiscStatus, com.olereggetmiscstatus, ole2/OleRegGetMiscStatus
 ms.topic: function
 req.header: ole2.h

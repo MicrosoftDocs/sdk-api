@@ -7,7 +7,7 @@ old-location: rdp\irdpviewerrenderingsurface.htm
 tech.root: rdp
 ms.assetid: 24d818ec-f58d-4bf1-adf8-c15560595147
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IRDPViewerRenderingSurface, IRDPViewerRenderingSurface interface [RDP], IRDPViewerRenderingSurface interface [RDP],described, rdp.irdpviewerrenderingsurface, rdpencomapi/IRDPViewerRenderingSurface
 ms.topic: interface
 req.header: rdpencomapi.h

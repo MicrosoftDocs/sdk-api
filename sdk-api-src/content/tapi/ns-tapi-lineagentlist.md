@@ -7,7 +7,7 @@ old-location: tapi2\lineagentlist.htm
 tech.root: Tapi
 ms.assetid: 176beb90-a9aa-4d40-9f84-e6ea9f84b5a2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPLINEAGENTLIST, LINEAGENTLIST, LINEAGENTLIST structure [TAPI 2.2], LPLINEAGENTLIST, LPLINEAGENTLIST structure pointer [TAPI 2.2], _tapi2_lineagentlist, tapi/LINEAGENTLIST, tapi/LPLINEAGENTLIST, tapi2.lineagentlist"
 ms.topic: struct
 req.header: tapi.h

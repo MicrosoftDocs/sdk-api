@@ -7,7 +7,7 @@ old-location: pla\idatacollectorsetcollection_count.htm
 tech.root: PLA
 ms.assetid: b43f7cc5-9780-4ae7-b542-7ca887f09087
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Count property [PLA], Count property [PLA],IDataCollectorSetCollection interface, IDataCollectorSetCollection interface [PLA],Count property, IDataCollectorSetCollection.Count, IDataCollectorSetCollection.get_Count, IDataCollectorSetCollection::Count, IDataCollectorSetCollection::get_Count, base.idatacollectorsetcollection_count, get_Count, pla.idatacollectorsetcollection_count, pla/IDataCollectorSetCollection::Count, pla/IDataCollectorSetCollection::get_Count
 ms.topic: method
 req.header: pla.h

@@ -7,7 +7,7 @@ old-location: rdc\irdcsignaturereader_readheader.htm
 tech.root: rdc
 ms.assetid: c0f4d31d-338f-49fc-9f1a-e8e31ffa1bc7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IRdcSignatureReader interface [Remote Differential Compression],ReadHeader method, IRdcSignatureReader.ReadHeader, IRdcSignatureReader::ReadHeader, ReadHeader, ReadHeader method [Remote Differential Compression], ReadHeader method [Remote Differential Compression],IRdcSignatureReader interface, fs.irdcsignaturereader_readheader, msrdc/IRdcSignatureReader::ReadHeader, rdc.irdcsignaturereader_readheader
 ms.topic: method
 req.header: msrdc.h

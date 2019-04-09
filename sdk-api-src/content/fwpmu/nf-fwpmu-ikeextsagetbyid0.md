@@ -7,7 +7,7 @@ old-location: fwp\ikeextsagetbyid0.htm
 tech.root: fwp
 ms.assetid: c500f7d1-ce8f-4a4e-9f09-c37116ef9ab3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IkeextSaGetById0, IkeextSaGetById0 function [Filtering], fwp.ikeextsagetbyid0, fwpmu/IkeextSaGetById0
 ms.topic: function
 req.header: fwpmu.h

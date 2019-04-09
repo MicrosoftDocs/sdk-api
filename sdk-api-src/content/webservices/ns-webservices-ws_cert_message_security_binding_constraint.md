@@ -7,7 +7,7 @@ old-location: wsw\ws_cert_message_security_binding_constraint.htm
 tech.root: wsw
 ms.assetid: 81f42654-8f94-4231-a798-67fbbe46e812
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT, WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows], webservices/WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT, wsw.ws_cert_message_security_binding_constraint
 ms.topic: struct
 req.header: webservices.h

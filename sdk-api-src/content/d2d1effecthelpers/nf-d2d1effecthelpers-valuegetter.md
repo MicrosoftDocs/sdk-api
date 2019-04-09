@@ -7,7 +7,7 @@ old-location: direct2d\valuegetter.htm
 tech.root: Direct2D
 ms.assetid: F811E606-461A-4D18-B49B-3DD11BF991BC
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ValueGetter, ValueGetter function [Direct2D], d2d1effecthelpers/ValueGetter, direct2d.valuegetter
 ms.topic: function
 req.header: d2d1effecthelpers.h

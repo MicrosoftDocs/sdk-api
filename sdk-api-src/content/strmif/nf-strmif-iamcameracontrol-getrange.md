@@ -7,7 +7,7 @@ old-location: dshow\iamcameracontrol_getrange.htm
 tech.root: DirectShow
 ms.assetid: f09090ea-d916-47cd-8621-e8c2bb46aeca
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetRange, GetRange method [DirectShow], GetRange method [DirectShow],IAMCameraControl interface, IAMCameraControl interface [DirectShow],GetRange method, IAMCameraControl.GetRange, IAMCameraControl::GetRange, IAMCameraControlGetRange, dshow.iamcameracontrol_getrange, strmif/IAMCameraControl::GetRange
 ms.topic: method
 req.header: strmif.h

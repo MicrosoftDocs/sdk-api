@@ -7,7 +7,7 @@ old-location: shell\ILIsParent.htm
 tech.root: shell
 ms.assetid: 638df20b-aa7e-4557-abda-d36b58853aa1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ILIsParent, ILIsParent function [Windows Shell], _win32_ILIsParent, shell.ILIsParent, shlobj_core/ILIsParent
 ms.topic: function
 req.header: shlobj_core.h

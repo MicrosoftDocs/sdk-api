@@ -7,7 +7,7 @@ old-location: security\spinstanceinit.htm
 tech.root: SecAuthN
 ms.assetid: 12f5903d-af13-40fd-8a23-2a28ffd9fc44
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SpInstanceInit, SpInstanceInit callback function [Security], SpInstanceInitFn, SpInstanceInitFn callback, _ssp_spinstanceinit, ntsecpkg/SpInstanceInit, security.spinstanceinit
 ms.topic: callback
 req.header: ntsecpkg.h

@@ -7,7 +7,7 @@ old-location: base\updatedebuginfofile.htm
 tech.root: Debug
 ms.assetid: b29026e2-3063-447c-9449-7105deb3d744
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: UpdateDebugInfoFile, UpdateDebugInfoFile function, _win32_updatedebuginfofile, base.updatedebuginfofile, imagehlp/UpdateDebugInfoFile
 ms.topic: function
 req.header: imagehlp.h

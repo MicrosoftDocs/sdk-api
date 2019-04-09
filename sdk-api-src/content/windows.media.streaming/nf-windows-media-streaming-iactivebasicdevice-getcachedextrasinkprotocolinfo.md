@@ -7,7 +7,7 @@ old-location: mediastreaming\iactivebasicdevice_getcachedextrasinkprotocolinfo.h
 tech.root: mediastreaming
 ms.assetid: AEBB181A-CF30-4BAE-8316-76B2E8FF3A81
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetCachedExtraSinkProtocolInfo, GetCachedExtraSinkProtocolInfo method [Media Streaming API], GetCachedExtraSinkProtocolInfo method [Media Streaming API],IActiveBasicDevice interface, IActiveBasicDevice interface [Media Streaming API],GetCachedExtraSinkProtocolInfo method, IActiveBasicDevice.GetCachedExtraSinkProtocolInfo, IActiveBasicDevice.streaming, IActiveBasicDevice::GetCachedExtraSinkProtocolInfo, IActiveBasicDevice::streaming, mediastreaming.iactivebasicdevice_getcachedextrasinkprotocolinfo, windows/IActiveBasicDevice::GetCachedExtraSinkProtocolInfo
 ms.topic: method
 req.header: windows.media.streaming.h

@@ -7,7 +7,7 @@ old-location: base\isprocesscritical.htm
 tech.root: ProcThread
 ms.assetid: A5ED8672-B4C3-4A31-8B3F-A181628219A4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IsProcessCritical, IsProcessCritical function, base.isprocesscritical, processthreadsapi/IsProcessCritical
 ms.topic: function
 req.header: processthreadsapi.h

@@ -7,7 +7,7 @@ old-location: cos\ieventclass_firinginterfaceid.htm
 tech.root: cossdk
 ms.assetid: 69d24a08-2eca-4204-95ae-1409fe306464
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FiringInterfaceID property [COM+], FiringInterfaceID property [COM+],IEventClass interface, IEventClass interface [COM+],FiringInterfaceID property, IEventClass.FiringInterfaceID, IEventClass.put_FiringInterfaceID, IEventClass::FiringInterfaceID, IEventClass::get_FiringInterfaceID, IEventClass::put_FiringInterfaceID, cos.ieventclass_firinginterfaceid, eventsys/IEventClass::FiringInterfaceID, eventsys/IEventClass::get_FiringInterfaceID, eventsys/IEventClass::put_FiringInterfaceID, put_FiringInterfaceID
 ms.topic: method
 req.header: eventsys.h

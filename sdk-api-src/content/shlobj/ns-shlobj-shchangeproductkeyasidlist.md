@@ -7,7 +7,7 @@ old-location: shell\SHChangeProductKeyAsIDList.htm
 tech.root: shell
 ms.assetid: 98aba08d-518c-4ff9-af3d-c9a92b6fe5ab
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPSHChangeProductKeyAsIDList, SHChangeProductKeyAsIDList, SHChangeProductKeyAsIDList structure [Windows Shell], _shell_shchangeproductkeyasidlist, shell.SHChangeProductKeyAsIDList, shlobj/SHChangeProductKeyAsIDList"
 ms.topic: struct
 req.header: shlobj.h

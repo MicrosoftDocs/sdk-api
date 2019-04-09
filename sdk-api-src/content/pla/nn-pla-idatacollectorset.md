@@ -7,7 +7,7 @@ old-location: pla\idatacollectorset.htm
 tech.root: PLA
 ms.assetid: a4ae0874-4ee6-46a1-9811-8cd4be26859c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet, IDataCollectorSet interface [PLA], IDataCollectorSet interface [PLA],described, base.idatacollectorset, pla.idatacollectorset, pla/IDataCollectorSet
 ms.topic: interface
 req.header: pla.h

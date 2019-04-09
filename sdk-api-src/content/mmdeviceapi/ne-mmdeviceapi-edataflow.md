@@ -7,7 +7,7 @@ old-location: coreaudio\edataflow.htm
 tech.root: CoreAudio
 ms.assetid: d79315aa-d753-4674-84c2-9ba601f36f57
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EDataFlow, EDataFlow , EDataFlow enumeration [Core Audio], EDataFlow_enum_count, coreaudio.edataflow, eAll, eCapture, eRender, mmdeviceapi/EDataFlow, mmdeviceapi/EDataFlow_enum_count, mmdeviceapi/eAll, mmdeviceapi/eCapture, mmdeviceapi/eRender
 ms.topic: enum
 req.header: mmdeviceapi.h

@@ -7,7 +7,7 @@ old-location: mstv\iatsc_eit_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: edf16862-5bc4-4022-9727-11c1a291417d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IATSC_EIT interface, IATSC_EIT interface [Microsoft TV Technologies],GetCountOfRecords method, IATSC_EIT.GetCountOfRecords, IATSC_EIT::GetCountOfRecords, IATSC_EITGetCountOfRecords, atscpsipparser/IATSC_EIT::GetCountOfRecords, mstv.iatsc_eit_getcountofrecords
 ms.topic: method
 req.header: atscpsipparser.h

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12rootsignature.htm
 tech.root: direct3d12
 ms.assetid: BEE01381-12C2-4DD9-9121-22BB5840ECD5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ID3D12RootSignature, ID3D12RootSignature interface, ID3D12RootSignature interface,described, d3d12/ID3D12RootSignature, direct3d12.id3d12rootsignature
 ms.topic: interface
 req.header: d3d12.h

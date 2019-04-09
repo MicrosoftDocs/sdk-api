@@ -7,7 +7,7 @@ old-location: security\mapgenericmask.htm
 tech.root: SecAuthZ
 ms.assetid: 54b5cd73-4011-4dcf-a951-7350dbd6eeab
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MapGenericMask, MapGenericMask function [Security], _win32_mapgenericmask, security.mapgenericmask, securitybaseapi/MapGenericMask
 ms.topic: function
 req.header: securitybaseapi.h

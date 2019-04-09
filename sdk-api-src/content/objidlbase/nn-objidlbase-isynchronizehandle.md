@@ -7,7 +7,7 @@ old-location: com\isynchronizehandle.htm
 tech.root: com
 ms.assetid: 93b2e682-78da-4a61-a045-8d71b3834e1d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ISynchronizeHandle, ISynchronizeHandle interface [COM], ISynchronizeHandle interface [COM],described, _com_isynchronizehandle, com.isynchronizehandle, objidlbase/ISynchronizeHandle
 ms.topic: interface
 req.header: objidlbase.h

@@ -7,7 +7,7 @@ old-location: tapi2\phonesetdata.htm
 tech.root: Tapi
 ms.assetid: 4563467b-6577-4210-9440-8445e307ac38
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_tapi2_phonesetdata, phoneSetData, phoneSetData function [TAPI 2.2], tapi/phoneSetData, tapi2.phonesetdata"
 ms.topic: function
 req.header: tapi.h

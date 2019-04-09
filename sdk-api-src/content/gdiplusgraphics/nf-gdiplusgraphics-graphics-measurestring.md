@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_MeasureString_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsmeasurestringmethods.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Graphics.MeasureString, Graphics::MeasureString, MeasureString, MeasureString methods [GDI+], _gdiplus_CLASS_Graphics_MeasureString_Methods, gdiplus._gdiplus_CLASS_Graphics_MeasureString_Methods, gdiplusgraphics/MeasureString
 ms.topic: method
 req.header: gdiplusgraphics.h

@@ -7,7 +7,7 @@ old-location: gpmc\igpm_createtrustee.htm
 tech.root: gpmc
 ms.assetid: 98230e5f-b866-4f68-9977-eec4bdd14d9e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateTrustee, CreateTrustee method [GPMC], CreateTrustee method [GPMC],GPM object, CreateTrustee method [GPMC],IGPM interface, GPM object [GPMC],CreateTrustee method, IGPM interface [GPMC],CreateTrustee method, IGPM.CreateTrustee, IGPM::CreateTrustee, _win32_igpm_createtrustee, gpmc.igpm_createtrustee, gpmgmt/IGPM::CreateTrustee
 ms.topic: method
 req.header: gpmgmt.h

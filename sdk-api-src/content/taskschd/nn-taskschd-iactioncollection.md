@@ -7,7 +7,7 @@ old-location: taskschd\iactioncollection.htm
 tech.root: taskschd
 ms.assetid: aa7781b6-2600-4af5-95b8-2ac7928946fa
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IActionCollection, IActionCollection interface [Task Scheduler], IActionCollection interface [Task Scheduler],described, actions [Task Scheduler],collection interface, taskschd.iactioncollection, taskschd/IActionCollection
 ms.topic: interface
 req.header: taskschd.h

@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob_setdescription.htm
 tech.root: Bits
 ms.assetid: 9148ec9b-7a03-4bb3-9644-e52f6cd13073
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetDescription method, IBackgroundCopyJob.SetDescription, IBackgroundCopyJob::SetDescription, SetDescription, SetDescription method [BITS], SetDescription method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setdescription, bits.ibackgroundcopyjob_setdescription, bits/IBackgroundCopyJob::SetDescription
 ms.topic: method
 req.header: bits.h

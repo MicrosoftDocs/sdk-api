@@ -7,7 +7,7 @@ old-location: nwifi\wlandeleteprofile.htm
 tech.root: NativeWiFi
 ms.assetid: 2d1152ad-8106-4b8f-9856-9e6e36daa063
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WlanDeleteProfile, WlanDeleteProfile function [NativeWIFI], nwifi.wlandeleteprofile, wlanapi/WlanDeleteProfile
 ms.topic: function
 req.header: wlanapi.h

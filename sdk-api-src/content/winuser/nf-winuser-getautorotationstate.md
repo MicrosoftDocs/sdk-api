@@ -7,7 +7,7 @@ old-location: base\getautorotationstate.htm
 tech.root: ProcThread
 ms.assetid: E041717B-920E-44F8-AC7F-B30CB82F1476
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetAutoRotationState, GetAutoRotationState function, base.getautorotationstate, winuser/GetAutoRotationState
 ms.topic: function
 req.header: winuser.h

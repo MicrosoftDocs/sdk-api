@@ -7,7 +7,7 @@ old-location: netmgmt\netaccessenum.htm
 tech.root: NetMgmt
 ms.assetid: 34ffea84-ff41-43c3-864c-957178e9d22a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 0, 1, NetAccessEnum, NetAccessEnum function [Network Management], _win32_netaccessenum, lmaccess/NetAccessEnum, netmgmt.netaccessenum
 ms.topic: function
 req.header: lmaccess.h

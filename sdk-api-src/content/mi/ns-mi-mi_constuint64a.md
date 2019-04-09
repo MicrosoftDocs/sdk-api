@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_constuint64a.htm
 tech.root: wmi_v2
 ms.assetid: 6363509d-2389-496b-ae8e-7ef6cd4af6ab
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_ConstUint64A, MI_ConstUint64A structure [Windows Management Infrastructure (MI)], mi/MI_ConstUint64A, wmi._mi_constuint64a, wmi_v2.mi_constuint64a
 ms.topic: struct
 req.header: mi.h

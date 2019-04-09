@@ -7,7 +7,7 @@ old-location: ics\inetconnection_connect.htm
 tech.root: ics
 ms.assetid: ff627133-1f48-4a4d-96d5-9a2ef95b6e61
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [ICS/ICF], Connect method [ICS/ICF],INetConnection interface, INetConnection interface [ICS/ICF],Connect method, INetConnection.Connect, INetConnection::Connect, _ics_inetconnection_connect, ics.inetconnection_connect, netcon/INetConnection::Connect
 ms.topic: method
 req.header: netcon.h

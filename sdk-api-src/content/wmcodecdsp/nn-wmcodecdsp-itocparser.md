@@ -7,7 +7,7 @@ old-location: mf\itocparser.htm
 tech.root: medfound
 ms.assetid: d1f14a6e-d75c-4266-beff-0e9af911edfe
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITocParser, ITocParser interface [Media Foundation], ITocParser interface [Media Foundation],described, codecapi.itocparser, mf.itocparser, wmcodecdsp/ITocParser
 ms.topic: interface
 req.header: wmcodecdsp.h

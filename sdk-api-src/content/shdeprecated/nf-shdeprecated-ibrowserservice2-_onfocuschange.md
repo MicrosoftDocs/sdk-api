@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2__OnFocusChange.htm
 tech.root: shell
 ms.assetid: 724b6f35-c419-4b67-bffd-c509e54715d0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_OnFocusChange method, IBrowserService2._OnFocusChange, IBrowserService2::_OnFocusChange, _OnFocusChange, _OnFocusChange method [Windows Shell], _OnFocusChange method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_OnFocusChange, shell.IBrowserService2__OnFocusChange, zone_IBrowserService2__OnFocusChange
 ms.topic: method
 req.header: shdeprecated.h

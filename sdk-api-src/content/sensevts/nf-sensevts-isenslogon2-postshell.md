@@ -7,7 +7,7 @@ old-location: sens\isenslogon2_sessionpostshell.htm
 tech.root: Sens
 ms.assetid: fa187b3c-fc78-410f-9339-9b4c94c43f95
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ISensLogon2 interface [SENS],PostShell method, ISensLogon2.PostShell, ISensLogon2::PostShell, PostShell, PostShell method [SENS], PostShell method [SENS],ISensLogon2 interface, _zaw_isenslogon2_sessionpostshell, sens.isenslogon2_sessionpostshell, sensevts/ISensLogon2::PostShell, syncmgr.isenslogon2_sessionpostshell
 ms.topic: method
 req.header: sensevts.h

@@ -7,7 +7,7 @@ old-location: adsi\adsgetlasterror.htm
 tech.root: adsi
 ms.assetid: 5e9899e9-e51e-4785-812a-f86eac6e2006
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ADsGetLastError, ADsGetLastError function [ADSI], _ds_adsgetlasterror, adshlp/ADsGetLastError, adsi.adsgetlasterror
 ms.topic: function
 req.header: adshlp.h

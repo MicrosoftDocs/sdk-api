@@ -7,7 +7,7 @@ old-location: security\icertificatepolicies.htm
 tech.root: seccertenroll
 ms.assetid: 2503adcb-0b73-42ef-98cf-a2b906e34ef7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ICertificatePolicies, ICertificatePolicies interface [Security], ICertificatePolicies interface [Security],described, certenroll/ICertificatePolicies, security.icertificatepolicies
 ms.topic: interface
 req.header: certenroll.h

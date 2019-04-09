@@ -7,7 +7,7 @@ old-location: nps\IAS_radiusextensionprocessex.htm
 tech.root: Nps
 ms.assetid: 7525b719-5741-4256-8759-421a407b9e44
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PRADIUS_EXTENSION_PROCESS_EX, PRADIUS_EXTENSION_PROCESS_EX callback, PRADIUS_EXTENSION_PROCESS_EX callback function [Network Policy Server], RadiusExtensionProcessEx, _ias_radiusextensionprocessex, authif/PRADIUS_EXTENSION_PROCESS_EX, ias.radiusextensionprocessex, nps.IAS_radiusextensionprocessex
 ms.topic: callback
 req.header: authif.h

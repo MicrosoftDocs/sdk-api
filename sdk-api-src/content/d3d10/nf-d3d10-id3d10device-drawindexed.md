@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_drawindexed.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_drawindexed.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 9c08e40b-b454-48b6-c9b7-35fc68d81999, DrawIndexed, DrawIndexed method [Direct3D 10], DrawIndexed method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],DrawIndexed method, ID3D10Device.DrawIndexed, ID3D10Device::DrawIndexed, d3d10/ID3D10Device::DrawIndexed, direct3d10.id3d10device_drawindexed
 ms.topic: method
 req.header: d3d10.h

@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocollicenseconnection_protocolcomplete.htm
 tech.root: TermServ
 ms.assetid: 3a615e25-51d0-49eb-ae0f-185fd3a0ea23
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWTSProtocolLicenseConnection interface [Remote Desktop Services],ProtocolComplete method, IWTSProtocolLicenseConnection.ProtocolComplete, IWTSProtocolLicenseConnection::ProtocolComplete, ProtocolComplete, ProtocolComplete method [Remote Desktop Services], ProtocolComplete method [Remote Desktop Services],IWTSProtocolLicenseConnection interface, termserv.iwtsprotocollicenseconnection_protocolcomplete, wtsprotocol/IWTSProtocolLicenseConnection::ProtocolComplete
 ms.topic: method
 req.header: wtsprotocol.h

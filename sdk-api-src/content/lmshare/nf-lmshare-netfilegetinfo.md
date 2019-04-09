@@ -7,7 +7,7 @@ old-location: fs\netfilegetinfo.htm
 tech.root: NetShare
 ms.assetid: d50c05e7-7ddd-4a7d-96f6-51878e52373c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 2, 3, NetFileGetInfo, NetFileGetInfo function [Files], _win32_netfilegetinfo, fs.netfilegetinfo, lmshare/NetFileGetInfo, netmgmt.netfilegetinfo
 ms.topic: function
 req.header: lmshare.h

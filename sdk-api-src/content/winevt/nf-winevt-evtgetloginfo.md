@@ -7,7 +7,7 @@ old-location: wes\evtgetloginfo.htm
 tech.root: wes
 ms.assetid: 5261f367-3010-4b6d-9a53-77c908c867d4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EvtGetLogInfo, EvtGetLogInfo function [EventLog], wes.evtgetloginfo, winevt/EvtGetLogInfo
 ms.topic: function
 req.header: winevt.h

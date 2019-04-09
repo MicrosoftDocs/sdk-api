@@ -7,7 +7,7 @@ old-location: winrt\ilanguageexceptionerrorinfo.htm
 tech.root: WinRT
 ms.assetid: 625C0DAF-8AF6-43EB-BC81-2B3189CF8963
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ILanguageExceptionErrorInfo, ILanguageExceptionErrorInfo interface [Windows Runtime], ILanguageExceptionErrorInfo interface [Windows Runtime],described, restrictederrorinfo/ILanguageExceptionErrorInfo, winrt.ilanguageexceptionerrorinfo
 ms.topic: interface
 req.header: restrictederrorinfo.h

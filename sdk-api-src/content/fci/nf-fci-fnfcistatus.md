@@ -7,7 +7,7 @@ old-location: winprog\fnfcistatus.htm
 tech.root: DevNotes
 ms.assetid: 529fd3c8-9783-4dbe-9268-a9137935cf9b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FNFCISTATUS, FNFCISTATUS macro [Windows API], fci/FNFCISTATUS, winprog.fnfcistatus
 ms.topic: macro
 req.header: fci.h

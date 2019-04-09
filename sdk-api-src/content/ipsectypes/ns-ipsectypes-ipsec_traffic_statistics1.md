@@ -7,7 +7,7 @@ old-location: fwp\ipsec_traffic_statistics1_struct.htm
 tech.root: fwp
 ms.assetid: 3b25d98a-9216-4e74-91fc-cc8658e12d9b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IPSEC_TRAFFIC_STATISTICS1, IPSEC_TRAFFIC_STATISTICS1 structure [Filtering], fwp.ipsec_traffic_statistics1_struct, ipsectypes/IPSEC_TRAFFIC_STATISTICS1
 ms.topic: struct
 req.header: ipsectypes.h

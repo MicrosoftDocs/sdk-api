@@ -7,7 +7,7 @@ old-location: security\ix509namevaluepairs.htm
 tech.root: seccertenroll
 ms.assetid: c881dc9f-4187-4ba1-9f3a-e1564e4f37c7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IX509NameValuePairs, IX509NameValuePairs interface [Security], IX509NameValuePairs interface [Security],described, certenroll/IX509NameValuePairs, security.ix509namevaluepairs
 ms.topic: interface
 req.header: certenroll.h

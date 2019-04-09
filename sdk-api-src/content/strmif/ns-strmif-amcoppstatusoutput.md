@@ -7,7 +7,7 @@ old-location: dshow\amcoppstatusoutput.htm
 tech.root: DirectShow
 ms.assetid: 136ce182-24c3-489d-a9c2-0121593e4b1e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPAMCOPPStatusOutput, AMCOPPStatusOutput, AMCOPPStatusOutput structure [DirectShow], AMCOPPStatusOutputStructure, LPAMCOPPStatusOutput, LPAMCOPPStatusOutput structure pointer [DirectShow], dshow.amcoppstatusoutput, strmif/AMCOPPStatusOutput, strmif/LPAMCOPPStatusOutput"
 ms.topic: struct
 req.header: strmif.h

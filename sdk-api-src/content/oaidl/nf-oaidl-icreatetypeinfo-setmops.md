@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo_setmops.htm
 tech.root: automat
 ms.assetid: e775c2f9-2886-4aa0-a30c-445f317d0e02
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetMops method, ICreateTypeInfo.SetMops, ICreateTypeInfo::SetMops, SetMops, SetMops method [Automation], SetMops method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetMops, automat.icreatetypeinfo_setmops, oaidl/ICreateTypeInfo::SetMops
 ms.topic: method
 req.header: oaidl.h

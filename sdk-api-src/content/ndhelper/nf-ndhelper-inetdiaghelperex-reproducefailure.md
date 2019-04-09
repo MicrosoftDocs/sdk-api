@@ -7,7 +7,7 @@ old-location: ndf\inetdiaghelperex_reproducefailure.htm
 tech.root: NDF
 ms.assetid: a85e375b-78f3-494b-846e-8ea5dd4b5b37
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: INetDiagHelperEx interface [NDF],ReproduceFailure method, INetDiagHelperEx.ReproduceFailure, INetDiagHelperEx::ReproduceFailure, ReproduceFailure, ReproduceFailure method [NDF], ReproduceFailure method [NDF],INetDiagHelperEx interface, ndf.inetdiaghelperex_reproducefailure, ndhelper/INetDiagHelperEx::ReproduceFailure
 ms.topic: method
 req.header: ndhelper.h

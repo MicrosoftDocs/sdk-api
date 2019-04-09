@@ -7,7 +7,7 @@ old-location: base\vds_path_policy.htm
 tech.root: VDS
 ms.assetid: 7dec1d91-6781-42fa-9476-bb64e2554017
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VDS_PATH_POLICY, VDS_PATH_POLICY structure [VDS], base.vds_path_policy, vds/VDS_PATH_POLICY, vdshwprv/VDS_PATH_POLICY
 ms.topic: struct
 req.header: vds.h

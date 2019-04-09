@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext_getimagebounds.htm
 tech.root: Direct2D
 ms.assetid: 6a0f4e36-4490-4df5-a520-e10e524c8337
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetImageLocalBounds, GetImageLocalBounds method [Direct2D], GetImageLocalBounds method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],GetImageLocalBounds method, ID2D1DeviceContext.GetImageLocalBounds, ID2D1DeviceContext::GetImageLocalBounds, d2d1_1/ID2D1DeviceContext::GetImageLocalBounds, direct2d.id2d1devicecontext_getimagebounds
 ms.topic: method
 req.header: d2d1_1.h

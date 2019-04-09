@@ -7,7 +7,7 @@ old-location: winprog\processtasks.htm
 tech.root: DevNotes
 ms.assetid: 0ef6b3b0-1b65-4919-8857-33651b9c154f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TASKENUMPROCEX, TASKENUMPROCEX callback, TASKENUMPROCEX callback function [Windows API], vdmdbg/TASKENUMPROCEX, winprog.processtasks
 ms.topic: callback
 req.header: vdmdbg.h

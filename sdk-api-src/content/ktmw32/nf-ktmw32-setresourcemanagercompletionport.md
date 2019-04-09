@@ -7,7 +7,7 @@ old-location: fs\setresourcemanagercompletionport.htm
 tech.root: ktm
 ms.assetid: 219fc899-84ee-474f-9f86-6ebf9c721810
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SetResourceManagerCompletionPort, SetResourceManagerCompletionPort function [Files], fs.setresourcemanagercompletionport, ktmw32/SetResourceManagerCompletionPort
 ms.topic: function
 req.header: ktmw32.h

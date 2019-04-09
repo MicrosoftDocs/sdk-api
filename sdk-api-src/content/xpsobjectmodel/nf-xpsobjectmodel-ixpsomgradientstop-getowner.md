@@ -7,7 +7,7 @@ old-location: xps\ixpsomgradientstop_getowner.htm
 tech.root: printdocs
 ms.assetid: a590e461-bf86-4379-b29a-ecdba57bd3f8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMGradientStop interface, IXpsOMGradientStop interface [XPS Documents and Packaging],GetOwner method, IXpsOMGradientStop.GetOwner, IXpsOMGradientStop::GetOwner, xps.ixpsomgradientstop_getowner, xpsobjectmodel/IXpsOMGradientStop::GetOwner
 ms.topic: method
 req.header: xpsobjectmodel.h

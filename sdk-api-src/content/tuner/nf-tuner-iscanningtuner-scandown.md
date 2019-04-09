@@ -7,7 +7,7 @@ old-location: mstv\iscanningtuner_scandown.htm
 tech.root: mstv
 ms.assetid: 0e9120be-9f8c-442e-8253-812b2917f902
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IScanningTuner interface [Microsoft TV Technologies],ScanDown method, IScanningTuner.ScanDown, IScanningTuner::ScanDown, IScanningTunerScanDown, ScanDown, ScanDown method [Microsoft TV Technologies], ScanDown method [Microsoft TV Technologies],IScanningTuner interface, mstv.iscanningtuner_scandown, tuner/IScanningTuner::ScanDown
 ms.topic: method
 req.header: tuner.h

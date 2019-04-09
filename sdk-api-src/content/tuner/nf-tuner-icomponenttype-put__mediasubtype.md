@@ -7,7 +7,7 @@ old-location: mstv\icomponenttype_put__mediasubtype.htm
 tech.root: mstv
 ms.assetid: 80b5e1d5-72e2-4523-86dd-88aff71a54db
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],put__MediaSubType method, IComponentType.put__MediaSubType, IComponentType::put__MediaSubType, IComponentTypeput__MediaSubType, mstv.icomponenttype_put__mediasubtype, put__MediaSubType, put__MediaSubType method [Microsoft TV Technologies], put__MediaSubType method [Microsoft TV Technologies],IComponentType interface, tuner/IComponentType::put__MediaSubType
 ms.topic: method
 req.header: tuner.h

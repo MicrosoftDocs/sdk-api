@@ -7,7 +7,7 @@ old-location: dns\dnsfree.htm
 tech.root: DNS
 ms.assetid: 32baa672-2106-4c4a-972a-f7f79996b613
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DnsFree, DnsFree function [DNS], dns.dnsfree, windns/DnsFree
 ms.topic: function
 req.header: windns.h

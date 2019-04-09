@@ -7,7 +7,7 @@ old-location: setup\setupgetfieldcount.htm
 tech.root: SetupApi
 ms.assetid: 7353d52c-7553-4f50-beab-7fcc4db1fe40
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SetupGetFieldCount, SetupGetFieldCount function [Setup API], _setupapi_setupgetfieldcount, setup.setupgetfieldcount, setupapi/SetupGetFieldCount
 ms.topic: function
 req.header: setupapi.h

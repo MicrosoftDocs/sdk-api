@@ -7,7 +7,7 @@ old-location: winprog\ntopenfile.htm
 tech.root: DevNotes
 ms.assetid: b77a85d1-7d2d-4834-b5d9-9baf68804369
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NtOpenFile, NtOpenFile function [Windows API], winprog.ntopenfile, winternl/NtOpenFile
 ms.topic: function
 req.header: winternl.h

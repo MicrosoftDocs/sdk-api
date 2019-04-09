@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionshadoweffect_setgreen_2.htm
 tech.root: directcomp
 ms.assetid: 0CD8562E-D729-4628-914C-767AD90B80C6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetGreen method, IDCompositionShadowEffect.SetGreen, IDCompositionShadowEffect.SetGreen(IDCompositionAnimation), IDCompositionShadowEffect::SetGreen, IDCompositionShadowEffect::SetGreen(IDCompositionAnimation), SetGreen, SetGreen method [DirectComposition], SetGreen method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetGreen, directcomp.idcompositionshadoweffect_setgreen_2
 ms.topic: method
 req.header: dcomp.h

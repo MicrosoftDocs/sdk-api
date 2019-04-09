@@ -7,7 +7,7 @@ old-location: ifsk\filtergetinformation.htm
 tech.root: ifsk
 ms.assetid: d5124ac2-dd1e-46b2-b25c-e965768eaf9e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FilterGetInformation, FilterGetInformation function [Installable File System Drivers], FltWin32ApiRef_244d89a8-3a31-44bd-bc08-b3ea8bb4dbba.xml, fltuser/FilterGetInformation, ifsk.filtergetinformation
 ms.topic: function
 req.header: fltuser.h

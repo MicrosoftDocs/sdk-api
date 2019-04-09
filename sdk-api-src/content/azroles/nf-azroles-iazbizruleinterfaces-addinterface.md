@@ -7,7 +7,7 @@ old-location: security\iazbizruleinterfaces_addinterface.htm
 tech.root: SecAuthZ
 ms.assetid: 063492b9-9970-4605-84f5-d8b80afc719b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AddInterface, AddInterface method [Security], AddInterface method [Security],IAzBizRuleInterfaces interface, IAzBizRuleInterfaces interface [Security],AddInterface method, IAzBizRuleInterfaces.AddInterface, IAzBizRuleInterfaces::AddInterface, azroles/IAzBizRuleInterfaces::AddInterface, security.iazbizruleinterfaces_addinterface
 ms.topic: method
 req.header: azroles.h

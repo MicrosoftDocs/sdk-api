@@ -7,7 +7,7 @@ old-location: dxmath\xmfloat4x3.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMFLOAT4X3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: XMFLOAT4X3, XMFLOAT4X3 structure [DirectX Math Support APIs], directxmath/XMFLOAT4X3, dxmath.xmfloat4x3
 ms.topic: struct
 req.header: directxmath.h

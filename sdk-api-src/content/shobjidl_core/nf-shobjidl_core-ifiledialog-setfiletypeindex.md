@@ -7,7 +7,7 @@ old-location: shell\IFileDialog_SetFileTypeIndex.htm
 tech.root: shell
 ms.assetid: 733ade05-e255-4b1c-a961-e1feb749f73d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetFileTypeIndex method, IFileDialog.SetFileTypeIndex, IFileDialog::SetFileTypeIndex, SetFileTypeIndex, SetFileTypeIndex method [Windows Shell], SetFileTypeIndex method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetFileTypeIndex, shell_IFileDialog_SetFileTypeIndex, shobjidl_core/IFileDialog::SetFileTypeIndex
 ms.topic: method
 req.header: shobjidl_core.h

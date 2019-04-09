@@ -7,7 +7,7 @@ old-location: termserv\itssbprovisioningpluginnotifysink_lockvirtualmachine.htm
 tech.root: TermServ
 ms.assetid: 48eeaf06-3c6e-4c45-b5cd-9301dce7caee
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services],LockVirtualMachine method, ITsSbProvisioningPluginNotifySink.LockVirtualMachine, ITsSbProvisioningPluginNotifySink::LockVirtualMachine, LockVirtualMachine, LockVirtualMachine method [Remote Desktop Services], LockVirtualMachine method [Remote Desktop Services],ITsSbProvisioningPluginNotifySink interface, sbtsv/ITsSbProvisioningPluginNotifySink::LockVirtualMachine, termserv.itssbprovisioningpluginnotifysink_lockvirtualmachine
 ms.topic: method
 req.header: sbtsv.h

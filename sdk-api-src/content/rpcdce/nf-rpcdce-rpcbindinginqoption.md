@@ -7,7 +7,7 @@ old-location: rpc\rpcbindinginqoption.htm
 tech.root: Rpc
 ms.assetid: f148c827-d18a-41f2-834a-f6b77b331bcc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RpcBindingInqOption, RpcBindingInqOption function [RPC], _rpc_rpcbindinginqoption, rpc.rpcbindinginqoption, rpcdce/RpcBindingInqOption
 ms.topic: function
 req.header: rpcdce.h

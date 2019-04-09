@@ -7,7 +7,7 @@ old-location: automat\varui1fromcy.htm
 tech.root: automat
 ms.assetid: cbfa7892-2e46-4768-a7b6-f51e0cee0f81
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VarUI1FromCy, VarUI1FromCy function [Automation], _oa96_VarUI1FromCy, automat.varui1fromcy, oleauto/VarUI1FromCy
 ms.topic: function
 req.header: oleauto.h

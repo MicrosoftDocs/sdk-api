@@ -7,7 +7,7 @@ old-location: com\ioleinplacesitewindowless.htm
 tech.root: com
 ms.assetid: 4ad83599-99d2-4b35-95de-cff845a8d5e4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSiteWindowless, IOleInPlaceSiteWindowless interface [COM], IOleInPlaceSiteWindowless interface [COM],described, _ole_ioleinplacesitewindowless, com.ioleinplacesitewindowless, ocidl/IOleInPlaceSiteWindowless
 ms.topic: interface
 req.header: ocidl.h

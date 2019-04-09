@@ -7,7 +7,7 @@ old-location: security\bcryptdestroyhash_func.htm
 tech.root: SecCNG
 ms.assetid: 067dac61-98b9-478c-ac4d-e141961865e9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BCryptDestroyHash, BCryptDestroyHash function [Security], bcrypt/BCryptDestroyHash, security.bcryptdestroyhash_func
 ms.topic: function
 req.header: bcrypt.h

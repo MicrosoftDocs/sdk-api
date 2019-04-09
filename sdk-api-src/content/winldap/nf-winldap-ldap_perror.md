@@ -7,7 +7,7 @@ old-location: ldap\ldap_perror.htm
 tech.root: ldap
 ms.assetid: 9f4f1e45-7d0a-49d6-aae8-5ca550e14564
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_perror, ldap.ldap__perror, ldap.ldap_perror, ldap_perror, ldap_perror function [LDAP], winldap/ldap_perror"
 ms.topic: function
 req.header: winldap.h

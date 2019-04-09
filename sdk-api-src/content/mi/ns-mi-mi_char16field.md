@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_char16field.htm
 tech.root: wmi_v2
 ms.assetid: 80440854-7d78-486e-80a0-2e5c59b779d5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_Char16Field, MI_Char16Field structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_Char16Field, wmi._mi_char16field, wmi_v2.mi_char16field
 ms.topic: struct
 req.header: mi.h

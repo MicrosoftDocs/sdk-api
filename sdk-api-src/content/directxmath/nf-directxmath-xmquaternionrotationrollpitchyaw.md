@@ -7,7 +7,7 @@ old-location: dxmath\xmquaternionrotationrollpitchyaw.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionRotationRollPitchYaw(float,float,float)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionRotationRollPitchYaw, XMQuaternionRotationRollPitchYaw, XMQuaternionRotationRollPitchYaw method [DirectX Math Support APIs], dxmath.xmquaternionrotationrollpitchyaw
 ms.topic: function
 req.header: directxmath.h

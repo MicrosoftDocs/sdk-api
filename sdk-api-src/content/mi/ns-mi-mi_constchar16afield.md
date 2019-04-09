@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_constchar16afield.htm
 tech.root: wmi_v2
 ms.assetid: fb9bd986-b5c8-4e74-9131-2e9bd78ac784
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_ConstChar16AField, MI_ConstChar16AField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_ConstChar16AField, wmi._mi_constchar16afield, wmi_v2.mi_constchar16afield
 ms.topic: struct
 req.header: mi.h

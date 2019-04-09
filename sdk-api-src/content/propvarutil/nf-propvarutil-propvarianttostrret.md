@@ -7,7 +7,7 @@ old-location: properties\PropVariantToStrRet.htm
 tech.root: properties
 ms.assetid: a1a33606-172d-4ee7-98c9-ffec8eed98bf
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PropVariantToStrRet, PropVariantToStrRet function [Windows Properties], _shell_PropVariantToStrRet, properties.PropVariantToStrRet, propvarutil/PropVariantToStrRet, shell.PropVariantToStrRet
 ms.topic: function
 req.header: propvarutil.h

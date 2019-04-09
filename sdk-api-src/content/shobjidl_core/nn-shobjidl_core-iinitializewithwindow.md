@@ -7,7 +7,7 @@ old-location: shell\IInitializeWithWindow.htm
 tech.root: shell
 ms.assetid: 8421BFA0-0655-447c-99BB-3D4F049C572D
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IInitializeWithWindow, IInitializeWithWindow interface [Windows Shell], IInitializeWithWindow interface [Windows Shell],described, shell.IInitializeWithWindow, shobjidl_core/IInitializeWithWindow
 ms.topic: interface
 req.header: shobjidl_core.h

@@ -7,7 +7,7 @@ old-location: fs\disk_cache_information_str.htm
 tech.root: FileIO
 ms.assetid: ea175bea-5f2b-4f3e-9fe0-239b1d2e3d96
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PDISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION structure [Files], EqualPriority, KeepPrefetchedData, KeepReadData, PDISK_CACHE_INFORMATION, PDISK_CACHE_INFORMATION structure pointer [Files], base.disk_cache_information_str, fs.disk_cache_information_str, winioctl/DISK_CACHE_INFORMATION, winioctl/PDISK_CACHE_INFORMATION"
 ms.topic: struct
 req.header: winioctl.h

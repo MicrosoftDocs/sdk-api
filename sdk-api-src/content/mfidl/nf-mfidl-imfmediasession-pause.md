@@ -7,7 +7,7 @@ old-location: mf\imfmediasession_pause.htm
 tech.root: medfound
 ms.assetid: fcc576ba-f8be-4106-a270-756b2abf52d4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMFMediaSession interface [Media Foundation],Pause method, IMFMediaSession.Pause, IMFMediaSession::Pause, Pause, Pause method [Media Foundation], Pause method [Media Foundation],IMFMediaSession interface, fcc576ba-f8be-4106-a270-756b2abf52d4, mf.imfmediasession_pause, mfidl/IMFMediaSession::Pause
 ms.topic: method
 req.header: mfidl.h

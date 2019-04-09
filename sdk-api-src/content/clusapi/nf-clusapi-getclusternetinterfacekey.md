@@ -7,7 +7,7 @@ old-location: mscs\getclusternetinterfacekey.htm
 tech.root: MsCS
 ms.assetid: c6ba405a-e485-49fc-81f4-dd6c7b7bef04
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetClusterNetInterfaceKey, GetClusterNetInterfaceKey function [Failover Cluster], _wolf_getclusternetinterfacekey, clusapi/GetClusterNetInterfaceKey, mscs.getclusternetinterfacekey
 ms.topic: function
 req.header: clusapi.h

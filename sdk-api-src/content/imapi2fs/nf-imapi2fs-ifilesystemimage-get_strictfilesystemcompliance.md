@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_get_strictfilesystemcompliance.htm
 tech.root: imapi
 ms.assetid: 07139ef3-ffd5-4035-afa9-6212808a6fbc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_StrictFileSystemCompliance method, IFileSystemImage.get_StrictFileSystemCompliance, IFileSystemImage::get_StrictFileSystemCompliance, get_StrictFileSystemCompliance, get_StrictFileSystemCompliance method [IMAPI], get_StrictFileSystemCompliance method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_strictfilesystemcompliance, imapi2fs/IFileSystemImage::get_StrictFileSystemCompliance
 ms.topic: method
 req.header: imapi2fs.h

@@ -7,7 +7,7 @@ old-location: fsrm\adrclienterrortype.htm
 tech.root: fsrm
 ms.assetid: 83e2c39b-ab3b-46c9-bb11-3f03f8193a7c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AdrClientErrorType, AdrClientErrorType enumeration [File Server Resource Manager], AdrClientErrorType_AccessDenied, AdrClientErrorType_Unknown, fs.adrclienterrortype, fsrm.adrclienterrortype, fsrmenums/AdrClientErrorType, fsrmenums/AdrClientErrorType_AccessDenied, fsrmenums/AdrClientErrorType_Unknown
 ms.topic: enum
 req.header: fsrmenums.h

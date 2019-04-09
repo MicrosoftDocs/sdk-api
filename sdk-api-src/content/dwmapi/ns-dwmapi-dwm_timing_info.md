@@ -7,7 +7,7 @@ old-location: dwm\dwm_timing_info.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\structures\dwm_timing_info.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DWM_TIMING_INFO, DWM_TIMING_INFO structure [Desktop Window Manager], _udwm_dwm_timing_info, _udwm_dwm_timing_info_cpp, dwm.dwm_timing_info, dwmapi/DWM_TIMING_INFO, winui._udwm_dwm_timing_info
 ms.topic: struct
 req.header: dwmapi.h

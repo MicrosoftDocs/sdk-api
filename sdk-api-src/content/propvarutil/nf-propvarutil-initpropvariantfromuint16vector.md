@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromUInt16Vector.htm
 tech.root: properties
 ms.assetid: 2e0eebd9-c246-42a7-90a8-d27fff6a2eab
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromUInt16Vector, InitPropVariantFromUInt16Vector function [Windows Properties], properties.InitPropVariantFromUInt16Vector, propvarutil/InitPropVariantFromUInt16Vector, shell.InitPropVariantFromUInt16Vector, shell_InitPropVariantFromUInt16Vector
 ms.topic: function
 req.header: propvarutil.h

@@ -7,7 +7,7 @@ old-location: gdi\maskblt.htm
 tech.root: gdi
 ms.assetid: 9fd6f0ce-a802-428d-9be5-a66afe39e9b7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MaskBlt, MaskBlt function [Windows GDI], _win32_MaskBlt, gdi.maskblt, wingdi/MaskBlt
 ms.topic: function
 req.header: wingdi.h

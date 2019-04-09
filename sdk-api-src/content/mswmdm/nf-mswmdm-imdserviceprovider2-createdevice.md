@@ -7,7 +7,7 @@ old-location: wmdm\imdserviceprovider2_createdevice.htm
 tech.root: WMDM
 ms.assetid: f724ef14-c572-41ca-a56b-fde85d7620e0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateDevice, CreateDevice method [windows Media Device Manager], CreateDevice method [windows Media Device Manager],IMDServiceProvider2 interface, IMDServiceProvider2 interface [windows Media Device Manager],CreateDevice method, IMDServiceProvider2.CreateDevice, IMDServiceProvider2::CreateDevice, IMDServiceProvider2GetDevicesFromDevicePath, mswmdm/IMDServiceProvider2::CreateDevice, wmdm.imdserviceprovider2_createdevice
 ms.topic: method
 req.header: mswmdm.h

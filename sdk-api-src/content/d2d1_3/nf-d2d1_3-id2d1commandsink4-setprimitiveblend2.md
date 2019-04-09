@@ -7,7 +7,7 @@ old-location: direct2d\id2d1commandsink4_setprimitiveblend2.htm
 tech.root: Direct2D
 ms.assetid: 20934CEA-2B89-45F5-8E61-CD47C4A9B78F
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ID2D1CommandSink4 interface [Direct2D],SetPrimitiveBlend2 method, ID2D1CommandSink4.SetPrimitiveBlend2, ID2D1CommandSink4::SetPrimitiveBlend2, SetPrimitiveBlend2, SetPrimitiveBlend2 method [Direct2D], SetPrimitiveBlend2 method [Direct2D],ID2D1CommandSink4 interface, d2d1_3/ID2D1CommandSink4::SetPrimitiveBlend2, direct2d.id2d1commandsink4_setprimitiveblend2
 ms.topic: method
 req.header: d2d1_3.h

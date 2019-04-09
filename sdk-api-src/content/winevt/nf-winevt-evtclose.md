@@ -7,7 +7,7 @@ old-location: wes\evtclose.htm
 tech.root: wes
 ms.assetid: c4b82d7b-508d-45bf-b990-04e90e846525
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EvtClose, EvtClose function [EventLog], wes.evtclose, winevt/EvtClose
 ms.topic: function
 req.header: winevt.h

@@ -7,7 +7,7 @@ old-location: winsync\isyncproviderregistration_getsyncproviderinfo.htm
 tech.root: winsync
 ms.assetid: 894d2314-2210-4a16-a7e6-1ee74638c035
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetSyncProviderInfo, GetSyncProviderInfo method [Windows Sync], GetSyncProviderInfo method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],GetSyncProviderInfo method, ISyncProviderRegistration.GetSyncProviderInfo, ISyncProviderRegistration::GetSyncProviderInfo, syncregistration/ISyncProviderRegistration::GetSyncProviderInfo, winsync.isyncproviderregistration_getsyncproviderinfo
 ms.topic: method
 req.header: syncregistration.h

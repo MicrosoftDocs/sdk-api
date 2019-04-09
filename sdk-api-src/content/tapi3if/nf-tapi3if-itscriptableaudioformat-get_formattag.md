@@ -7,7 +7,7 @@ old-location: tapi3\itscriptableaudioformat_get_formattag.htm
 tech.root: Tapi
 ms.assetid: 073e4800-d84a-4f12-81ce-eba4a4e139fc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],get_FormatTag method, ITScriptableAudioFormat.get_FormatTag, ITScriptableAudioFormat::get_FormatTag, _tapi3_itscriptableaudioformat_get_formattag, get_FormatTag, get_FormatTag method [TAPI 2.2], get_FormatTag method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_get_formattag, tapi3if/ITScriptableAudioFormat::get_FormatTag
 ms.topic: method
 req.header: tapi3if.h

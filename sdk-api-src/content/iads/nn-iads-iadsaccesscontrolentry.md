@@ -7,7 +7,7 @@ old-location: adsi\iadsaccesscontrolentry.htm
 tech.root: adsi
 ms.assetid: 6d2cd45b-0dc6-4bb3-9c41-014bec71f258
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AccessControlEntry, IADsAccessControlEntry, IADsAccessControlEntry interface [ADSI], IADsAccessControlEntry interface [ADSI],described, _ds_iadsaccesscontrolentry, adsi.iadsaccesscontrolentry, iads/IADsAccessControlEntry
 ms.topic: interface
 req.header: iads.h

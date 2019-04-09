@@ -7,7 +7,7 @@ old-location: snmp\snmpcleanupex.htm
 tech.root: SNMP
 ms.assetid: e6521c35-a58e-4b8e-b415-b49954187736
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SnmpCleanupEx, SnmpCleanupEx function [SNMP], _snmp_snmpcleanupex, snmp.snmpcleanupex, winsnmp/SnmpCleanupEx
 ms.topic: function
 req.header: winsnmp.h

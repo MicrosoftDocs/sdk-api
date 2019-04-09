@@ -7,7 +7,7 @@ old-location: controls\itextfont2_getpropertyinfo.htm
 tech.root: Controls
 ms.assetid: bea8f6da-f781-430f-b1cd-c28e11cc61bb
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetPropertyInfo, GetPropertyInfo method [Windows Controls], GetPropertyInfo method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetPropertyInfo method, ITextFont2.GetPropertyInfo, ITextFont2::GetPropertyInfo, controls.itextfont2_getpropertyinfo, tom/ITextFont2::GetPropertyInfo
 ms.topic: method
 req.header: tom.h

@@ -7,7 +7,7 @@ old-location: menurc\freeresource.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\freeresource.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FreeResource, FreeResource function [Menus and Other Resources], _win32_FreeResource, _win32_freeresource_cpp, libloaderapi/FreeResource, menurc.freeresource, winui._win32_freeresource
 ms.topic: function
 req.header: libloaderapi.h

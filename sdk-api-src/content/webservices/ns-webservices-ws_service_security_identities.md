@@ -7,7 +7,7 @@ old-location: wsw\ws_service_security_identities.htm
 tech.root: wsw
 ms.assetid: d38f0efd-2570-4db1-b4f7-113a45fe4449
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_SERVICE_SECURITY_IDENTITIES, WS_SERVICE_SECURITY_IDENTITIES structure [Web Services for Windows], webservices/WS_SERVICE_SECURITY_IDENTITIES, wsw.ws_service_security_identities
 ms.topic: struct
 req.header: webservices.h

@@ -7,7 +7,7 @@ old-location: dshow\iamplugincontrol_getpreferredclsidbyindex.htm
 tech.root: DirectShow
 ms.assetid: 50da3961-3913-4e7d-bbbc-b89450f99931
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetPreferredClsidByIndex, GetPreferredClsidByIndex method [DirectShow], GetPreferredClsidByIndex method [DirectShow],IAMPluginControl interface, IAMPluginControl interface [DirectShow],GetPreferredClsidByIndex method, IAMPluginControl.GetPreferredClsidByIndex, IAMPluginControl::GetPreferredClsidByIndex, dshow.iamplugincontrol_getpreferredclsidbyindex, strmif/IAMPluginControl::GetPreferredClsidByIndex
 ms.topic: method
 req.header: strmif.h

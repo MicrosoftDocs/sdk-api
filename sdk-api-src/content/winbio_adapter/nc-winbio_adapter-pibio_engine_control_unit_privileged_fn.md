@@ -7,7 +7,7 @@ old-location: secbiomet\engineadaptercontrolunitprivileged.htm
 tech.root: SecBioMet
 ms.assetid: 1d1fda45-3822-40c0-ac84-0fcdef1a6498
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EngineAdapterControlUnitPrivileged, EngineAdapterControlUnitPrivileged callback function [Windows Biometric Framework API], PIBIO_ENGINE_CONTROL_UNIT_PRIVILEGED_FN, PIBIO_ENGINE_CONTROL_UNIT_PRIVILEGED_FN callback, secbiomet.engineadaptercontrolunitprivileged, winbio_adapter/EngineAdapterControlUnitPrivileged
 ms.topic: callback
 req.header: winbio_adapter.h

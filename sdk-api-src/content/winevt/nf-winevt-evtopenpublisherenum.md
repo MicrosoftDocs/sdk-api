@@ -7,7 +7,7 @@ old-location: wes\evtopenpublisherenum.htm
 tech.root: wes
 ms.assetid: 156c434c-6d0f-4af0-bf10-20aa6bae0945
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EvtOpenPublisherEnum, EvtOpenPublisherEnum function [EventLog], wes.evtopenpublisherenum, winevt/EvtOpenPublisherEnum
 ms.topic: function
 req.header: winevt.h

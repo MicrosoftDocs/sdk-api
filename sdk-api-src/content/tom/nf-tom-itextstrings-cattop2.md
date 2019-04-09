@@ -7,7 +7,7 @@ old-location: controls\itextstrings_cattop2.htm
 tech.root: Controls
 ms.assetid: 50cc7bbb-51c2-40fd-9ef9-3b06ee9aca1d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CatTop2, CatTop2 method [Windows Controls], CatTop2 method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],CatTop2 method, ITextStrings.CatTop2, ITextStrings::CatTop2, controls.itextstrings_cattop2, tom/ITextStrings::CatTop2
 ms.topic: method
 req.header: tom.h

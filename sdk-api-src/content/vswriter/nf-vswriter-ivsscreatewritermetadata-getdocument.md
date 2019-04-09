@@ -7,7 +7,7 @@ old-location: base\ivsscreatewritermetadata_getdocument.htm
 tech.root: VSS
 ms.assetid: defc7c83-9c40-4661-b8d3-1abdd1be0df4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetDocument, GetDocument method [VSS], GetDocument method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],GetDocument method, IVssCreateWriterMetadata.GetDocument, IVssCreateWriterMetadata::GetDocument, _win32_ivsscreatewritermetadata_getdocument, base.ivsscreatewritermetadata_getdocument, vswriter/IVssCreateWriterMetadata::GetDocument
 ms.topic: method
 req.header: vswriter.h

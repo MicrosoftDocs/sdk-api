@@ -7,7 +7,7 @@ old-location: mediastreaming\iactivebasicdevicestatics_getdevicesonmatchingnetwo
 tech.root: mediastreaming
 ms.assetid: 9BE3BBD1-F3D3-4EAF-9125-B82AE0DE48AA
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetDevicesOnMatchingNetworkAsync, GetDevicesOnMatchingNetworkAsync method [Media Streaming API], GetDevicesOnMatchingNetworkAsync method [Media Streaming API],IActiveBasicDeviceStatics interface, IActiveBasicDeviceStatics interface [Media Streaming API],GetDevicesOnMatchingNetworkAsync method, IActiveBasicDeviceStatics.GetDevicesOnMatchingNetworkAsync, IActiveBasicDeviceStatics.streaming, IActiveBasicDeviceStatics::GetDevicesOnMatchingNetworkAsync, IActiveBasicDeviceStatics::streaming, mediastreaming.iactivebasicdevicestatics_getdevicesonmatchingnetworkasync, windows/IActiveBasicDeviceStatics::GetDevicesOnMatchingNetworkAsync
 ms.topic: method
 req.header: windows.media.streaming.h

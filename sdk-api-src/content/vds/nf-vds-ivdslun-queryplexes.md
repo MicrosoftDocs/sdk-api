@@ -7,7 +7,7 @@ old-location: base\ivdslun_queryplexes.htm
 tech.root: VDS
 ms.assetid: 128708cb-2ad1-45be-8e38-b5fd943d0945
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVdsLun interface [VDS],QueryPlexes method, IVdsLun.QueryPlexes, IVdsLun::QueryPlexes, QueryPlexes, QueryPlexes method [VDS], QueryPlexes method [VDS],IVdsLun interface, base.ivdslun_queryplexes, vds/IVdsLun::QueryPlexes, vdshwprv/IVdsLun::QueryPlexes
 ms.topic: method
 req.header: vds.h

@@ -7,7 +7,7 @@ old-location: tapi3\itsubstream_get_terminals.htm
 tech.root: Tapi
 ms.assetid: 100854aa-78de-4395-9081-3b1f845c254c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITSubStream interface [TAPI 2.2],get_Terminals method, ITSubStream.get_Terminals, ITSubStream::get_Terminals, _tapi3_itsubstream_get_terminals, get_Terminals, get_Terminals method [TAPI 2.2], get_Terminals method [TAPI 2.2],ITSubStream interface, tapi3.itsubstream_get_terminals, tapi3if/ITSubStream::get_Terminals
 ms.topic: method
 req.header: tapi3if.h

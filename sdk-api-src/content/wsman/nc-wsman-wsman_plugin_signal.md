@@ -7,7 +7,7 @@ old-location: winrm\wsman_plugin_signal.htm
 tech.root: winrm
 ms.assetid: 380f9d24-d315-4289-add9-ebc2a6b8ca32
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WSMAN_PLUGIN_SIGNAL, WSMAN_PLUGIN_SIGNAL callback, WSMAN_PLUGIN_SIGNAL callback function [Windows Remote Management], WSMAN_SIGNAL_SHELL_CODE_CTRL_BREAK, WSMAN_SIGNAL_SHELL_CODE_CTRL_C, WSMAN_SIGNAL_SHELL_CODE_TERMINATE, WSManPluginSignal, winrm.wsman_plugin_signal, wsman/WSMAN_PLUGIN_SIGNAL
 ms.topic: callback
 req.header: wsman.h

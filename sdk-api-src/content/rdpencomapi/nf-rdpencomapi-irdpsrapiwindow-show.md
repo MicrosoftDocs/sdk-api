@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiwindow_show.htm
 tech.root: rdp
 ms.assetid: 6b7aa5e7-7981-41c4-bb47-30b3d0d54bc1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIWindow interface [RDP],Show method, IRDPSRAPIWindow.Show, IRDPSRAPIWindow::Show, Show, Show method [RDP], Show method [RDP],IRDPSRAPIWindow interface, rdp.irdpsrapiwindow_show, rdpencomapi/IRDPSRAPIWindow::Show
 ms.topic: method
 req.header: rdpencomapi.h

@@ -7,7 +7,7 @@ old-location: controls\itextfont2_setspaceextension.htm
 tech.root: Controls
 ms.assetid: 7388f414-f361-40e4-8a64-fc0643777f33
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetSpaceExtension method, ITextFont2.SetSpaceExtension, ITextFont2::SetSpaceExtension, SetSpaceExtension, SetSpaceExtension method [Windows Controls], SetSpaceExtension method [Windows Controls],ITextFont2 interface, controls.itextfont2_setspaceextension, tom/ITextFont2::SetSpaceExtension
 ms.topic: method
 req.header: tom.h

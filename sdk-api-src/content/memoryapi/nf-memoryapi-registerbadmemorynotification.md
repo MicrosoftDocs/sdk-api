@@ -7,7 +7,7 @@ old-location: base\registerbadmemorynotification.htm
 tech.root: Memory
 ms.assetid: 4a3a621a-49ed-4538-9e36-b8eab5d57eb7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RegisterBadMemoryNotification, RegisterBadMemoryNotification function, base.registerbadmemorynotification, winbase/RegisterBadMemoryNotification
 ms.topic: function
 req.header: memoryapi.h

@@ -7,7 +7,7 @@ old-location: xps\xps_dash.htm
 tech.root: printdocs
 ms.assetid: c8f43f91-eefb-4025-8042-c2601e89d315
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: XPS_DASH, XPS_DASH structure [XPS Documents and Packaging], xps.xps_dash, xpsobjectmodel/XPS_DASH
 ms.topic: struct
 req.header: xpsobjectmodel.h

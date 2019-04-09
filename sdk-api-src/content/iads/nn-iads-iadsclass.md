@@ -7,7 +7,7 @@ old-location: adsi\iadsclass.htm
 tech.root: adsi
 ms.assetid: 690b0c96-6319-42d8-8b0e-c43f46f91031
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IADsClass, IADsClass interface [ADSI], IADsClass interface [ADSI],described, _ds_iadsclass, adsi.iadsclass, iads/IADsClass
 ms.topic: interface
 req.header: iads.h

@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1TessellationSink.htm
 tech.root: Direct2D
 ms.assetid: 967c702f-d16f-4a8e-ac77-a8bb35afe0a1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ID2D1TessellationSink, ID2D1TessellationSink interface [Direct2D], ID2D1TessellationSink interface [Direct2D],described, d2d1/ID2D1TessellationSink, direct2d.ID2D1TessellationSink
 ms.topic: interface
 req.header: d2d1.h

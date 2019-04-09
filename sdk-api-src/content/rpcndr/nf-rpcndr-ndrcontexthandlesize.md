@@ -7,7 +7,7 @@ old-location: rpc\ndrcontexthandlesize.htm
 tech.root: Rpc
 ms.assetid: f5f90887-67b2-4796-96b2-2607b9284387
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NdrContextHandleSize, NdrContextHandleSize function [RPC], rpc.ndrcontexthandlesize, rpcndr/NdrContextHandleSize
 ms.topic: function
 req.header: rpcndr.h

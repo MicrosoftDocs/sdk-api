@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_usernamepasswordcreds.htm
 tech.root: wmi_v2
 ms.assetid: 1cbbe6b0-d6db-4ca4-9529-701ec4993cb1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_UsernamePasswordCreds, MI_UsernamePasswordCreds structure [Windows Management Infrastructure (MI)], mi/MI_UsernamePasswordCreds, wmi._mi_usernamepasswordcreds, wmi_v2.mi_usernamepasswordcreds
 ms.topic: struct
 req.header: mi.h

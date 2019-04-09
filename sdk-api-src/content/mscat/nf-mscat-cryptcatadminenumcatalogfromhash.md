@@ -7,7 +7,7 @@ old-location: security\cryptcatadminenumcatalogfromhash.htm
 tech.root: SecCrypto
 ms.assetid: 33ab2d01-94ab-4d23-a054-9da0731485d6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CryptCATAdminEnumCatalogFromHash, CryptCATAdminEnumCatalogFromHash function [Security], mscat/CryptCATAdminEnumCatalogFromHash, security.cryptcatadminenumcatalogfromhash
 ms.topic: function
 req.header: mscat.h

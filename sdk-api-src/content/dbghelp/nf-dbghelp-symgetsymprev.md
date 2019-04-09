@@ -7,7 +7,7 @@ old-location: base\symgetsymprev64.htm
 tech.root: Debug
 ms.assetid: dbb1353b-5cc1-4986-a2b5-f67be7189ea8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SymGetSymPrev, SymGetSymPrev function, SymGetSymPrev64, SymGetSymPrev64 function, _win32_symgetsymprev64, base.symgetsymprev64, dbghelp/SymGetSymPrev, dbghelp/SymGetSymPrev64
 ms.topic: function
 req.header: dbghelp.h

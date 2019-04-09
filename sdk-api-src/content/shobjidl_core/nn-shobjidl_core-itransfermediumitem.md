@@ -7,7 +7,7 @@ old-location: shell\ITransferMediumItem.htm
 tech.root: shell
 ms.assetid: 28b4397c-dcb1-4c81-b6a3-d6abd7f7ad24
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITransferMediumItem, ITransferMediumItem interface [Windows Shell], ITransferMediumItem interface [Windows Shell],described, _shell_ITransferMediumItem, shell.ITransferMediumItem, shobjidl_core/ITransferMediumItem
 ms.topic: interface
 req.header: shobjidl_core.h

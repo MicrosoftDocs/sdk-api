@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmexportimport.htm
 tech.root: fsrm
 ms.assetid: 5a3b682e-d2c3-43b3-9d10-4bba9d9c81d4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFsrmExportImport, IFsrmExportImport interface [File Server Resource Manager], IFsrmExportImport interface [File Server Resource Manager],described, fs.ifsrmexportimport, fsrm.ifsrmexportimport, fsrm/IFsrmExportImport
 ms.topic: interface
 req.header: fsrm.h

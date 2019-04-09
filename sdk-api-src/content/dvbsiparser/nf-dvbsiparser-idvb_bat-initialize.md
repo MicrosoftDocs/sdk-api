@@ -7,7 +7,7 @@ old-location: mstv\idvb_bat_initialize.htm
 tech.root: mstv
 ms.assetid: 76c0eabe-b2af-44ed-9afb-9b97e7e8c5df
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDVB_BAT interface [Microsoft TV Technologies],Initialize method, IDVB_BAT.Initialize, IDVB_BAT::Initialize, IDVB_BATInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IDVB_BAT interface, dvbsiparser/IDVB_BAT::Initialize, mstv.idvb_bat_initialize
 ms.topic: method
 req.header: dvbsiparser.h

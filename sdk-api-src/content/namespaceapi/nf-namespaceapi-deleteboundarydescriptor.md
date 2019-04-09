@@ -7,7 +7,7 @@ old-location: base\deleteboundarydescriptor.htm
 tech.root: Sync
 ms.assetid: 759d9cd9-9ef2-4bbe-9e99-8aec87f5ba4a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DeleteBoundaryDescriptor, DeleteBoundaryDescriptor function, base.deleteboundarydescriptor, namespaceapi/DeleteBoundaryDescriptor, winbase/DeleteBoundaryDescriptor
 ms.topic: function
 req.header: namespaceapi.h

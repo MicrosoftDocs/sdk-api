@@ -7,7 +7,7 @@ old-location: taskschd\weekly.htm
 tech.root: taskschd
 ms.assetid: e2c14738-846c-485e-a564-d8e738ca61a2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TASK_FRIDAY, TASK_MONDAY, TASK_SATURDAY, TASK_SUNDAY, TASK_THURSDAY, TASK_TUESDAY, TASK_WEDNESDAY, WEEKLY, WEEKLY structure [Task Scheduler], _msb_weekly, mstask/WEEKLY, taskschd.weekly, triggers [Task Scheduler],structures,WEEKLY
 ms.topic: struct
 req.header: mstask.h

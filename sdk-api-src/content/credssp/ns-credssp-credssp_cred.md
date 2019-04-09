@@ -7,7 +7,7 @@ old-location: security\credssp_cred.htm
 tech.root: SecAuthN
 ms.assetid: b22bd22c-e6e1-4817-b5cf-ab49f574e75f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PCREDSSP_CRED, CREDSSP_CRED, CREDSSP_CRED structure [Security], PCREDSSP_CRED, PCREDSSP_CRED structure pointer [Security], credssp/CREDSSP_CRED, credssp/PCREDSSP_CRED, security.credssp_cred"
 ms.topic: struct
 req.header: credssp.h

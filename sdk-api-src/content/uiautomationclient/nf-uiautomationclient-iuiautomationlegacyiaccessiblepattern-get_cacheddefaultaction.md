@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDefault
 tech.root: WinAuto
 ms.assetid: acd43075-4f53-48d3-a039-0882a4833d9e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CachedDefaultAction property [Windows Accessibility], CachedDefaultAction property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CachedDefaultAction property, IUIAutomationLegacyIAccessiblePattern.CachedDefaultAction, IUIAutomationLegacyIAccessiblePattern.get_CachedDefaultAction, IUIAutomationLegacyIAccessiblePattern::CachedDefaultAction, IUIAutomationLegacyIAccessiblePattern::get_CachedDefaultAction, get_CachedDefaultAction, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDefaultAction, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDefaultAction, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedDefaultAction, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedDefaultAction, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDefaultAction
 ms.topic: method
 req.header: uiautomationclient.h

@@ -7,7 +7,7 @@ old-location: intl\setprocesspreferreduilanguages.htm
 tech.root: Intl
 ms.assetid: 81f65561-886d-4c29-aca6-ea69bc865ea0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, SetProcessPreferredUILanguages, SetProcessPreferredUILanguages function [Internationalization for Windows Applications], intl.setprocesspreferreduilanguages, winnls/SetProcessPreferredUILanguages
 ms.topic: function
 req.header: winnls.h

@@ -7,7 +7,7 @@ old-location: mf\imfspatialaudiosample_getobjectcount.htm
 tech.root: medfound
 ms.assetid: D386E482-4C5A-4F8A-801F-EA1AD4C9157C
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetObjectCount, GetObjectCount method [Media Foundation], GetObjectCount method [Media Foundation],IMFSpatialAudioSample interface, IMFSpatialAudioSample interface [Media Foundation],GetObjectCount method, IMFSpatialAudioSample.GetObjectCount, IMFSpatialAudioSample::GetObjectCount, mf.imfspatialaudiosample_getobjectcount, mfspatialaudio/IMFSpatialAudioSample::GetObjectCount
 ms.topic: method
 req.header: mfspatialaudio.h

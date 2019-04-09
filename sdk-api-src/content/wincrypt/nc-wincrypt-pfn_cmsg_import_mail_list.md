@@ -7,7 +7,7 @@ old-location: security\pfn_cmsg_import_mail_list.htm
 tech.root: SecCrypto
 ms.assetid: 5d473c20-31b8-48e3-9e38-4b4c06a44402
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PFN_CMSG_IMPORT_MAIL_LIST, PFN_CMSG_IMPORT_MAIL_LIST callback, PFN_CMSG_IMPORT_MAIL_LIST callback function [Security], security.pfn_cmsg_import_mail_list, wincrypt/PFN_CMSG_IMPORT_MAIL_LIST
 ms.topic: callback
 req.header: wincrypt.h

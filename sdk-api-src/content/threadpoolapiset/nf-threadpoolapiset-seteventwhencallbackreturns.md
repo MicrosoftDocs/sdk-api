@@ -7,7 +7,7 @@ old-location: base\seteventwhencallbackreturns.htm
 tech.root: ProcThread
 ms.assetid: 50e127bc-d518-4f84-88ea-b262572d5248
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SetEventWhenCallbackReturns, SetEventWhenCallbackReturns function, base.seteventwhencallbackreturns, threadpoolapiset/SetEventWhenCallbackReturns, winbase/SetEventWhenCallbackReturns
 ms.topic: function
 req.header: threadpoolapiset.h

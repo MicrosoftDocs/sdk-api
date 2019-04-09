@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ivisualtreeservice_getenums.htm
 tech.root: xaml_diagnostics
 ms.assetid: 95D6F754-C1D0-4B8E-8E31-999CAE0EDF02
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetEnums, GetEnums method, GetEnums method,IVisualTreeService interface, IVisualTreeService interface,GetEnums method, IVisualTreeService.GetEnums, IVisualTreeService::GetEnums, xaml_diagnostics.ivisualtreeservice_getenums, xamlom/IVisualTreeService::GetEnums
 ms.topic: method
 req.header: xamlom.h

@@ -7,7 +7,7 @@ old-location: mf\imfsinkwriter_flush.htm
 tech.root: medfound
 ms.assetid: 997235cb-6ca5-434c-81a6-7a294e0cccca
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Flush, Flush method [Media Foundation], Flush method [Media Foundation],IMFSinkWriter interface, IMFSinkWriter interface [Media Foundation],Flush method, IMFSinkWriter.Flush, IMFSinkWriter::Flush, mf.imfsinkwriter_flush, mfreadwrite/IMFSinkWriter::Flush
 ms.topic: method
 req.header: mfreadwrite.h

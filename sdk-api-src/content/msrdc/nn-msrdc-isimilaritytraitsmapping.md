@@ -7,7 +7,7 @@ old-location: rdc\isimilaritytraitsmapping.htm
 tech.root: rdc
 ms.assetid: 1ddc599b-5a9b-4807-9005-00793f9a6ed4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ISimilarityTraitsMapping, ISimilarityTraitsMapping interface [Remote Differential Compression], ISimilarityTraitsMapping interface [Remote Differential Compression],described, fs.isimilaritytraitsmapping, msrdc/ISimilarityTraitsMapping, rdc.isimilaritytraitsmapping
 ms.topic: interface
 req.header: msrdc.h

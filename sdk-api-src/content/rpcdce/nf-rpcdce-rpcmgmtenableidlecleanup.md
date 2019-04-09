@@ -7,7 +7,7 @@ old-location: rpc\rpcmgmtenableidlecleanup.htm
 tech.root: Rpc
 ms.assetid: f24bf105-2cdb-4efa-b095-8479545fecb5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RpcMgmtEnableIdleCleanup, RpcMgmtEnableIdleCleanup function [RPC], _rpc_rpcmgmtenableidlecleanup, rpc.rpcmgmtenableidlecleanup, rpcdce/RpcMgmtEnableIdleCleanup
 ms.topic: function
 req.header: rpcdce.h

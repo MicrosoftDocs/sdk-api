@@ -7,7 +7,7 @@ old-location: fs\getlogcontainername.htm
 tech.root: Clfs
 ms.assetid: 4ff12544-797d-48b9-9c42-4bec059e6551
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetLogContainerName, GetLogContainerName function [Files], clfsw32/GetLogContainerName, fs.getlogcontainername
 ms.topic: function
 req.header: clfsw32.h

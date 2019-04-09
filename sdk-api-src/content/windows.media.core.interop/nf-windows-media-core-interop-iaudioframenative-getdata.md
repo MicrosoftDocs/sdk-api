@@ -7,7 +7,7 @@ old-location: winrt\iaudioframenative_getdata.htm
 tech.root: WinRT
 ms.assetid: 4FA7CC9D-D379-4C08-8D4F-5301ECCDF372
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetData, GetData method [Windows Runtime], GetData method [Windows Runtime],IAudioFrameNative interface, IAudioFrameNative interface [Windows Runtime],GetData method, IAudioFrameNative.GetData, IAudioFrameNative.core, IAudioFrameNative::GetData, IAudioFrameNative::core, windows/IAudioFrameNative::GetData, winrt.iaudioframenative_getdata
 ms.topic: method
 req.header: windows.media.core.interop.h

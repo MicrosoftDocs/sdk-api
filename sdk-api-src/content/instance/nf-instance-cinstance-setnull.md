@@ -7,7 +7,7 @@ old-location: wmi\cinstance_setnull.htm
 tech.root: WmiSdk
 ms.assetid: 4157275a-cf71-4aca-ae86-0ae0b0e7fda7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "?SetNull@CInstance@@QAE_NPBG@Z, CInstance interface [Windows Management Instrumentation],SetNull method, CInstance.SetNull, CInstance::SetNull, SetNull, SetNull method [Windows Management Instrumentation], SetNull method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setnull, instance/CInstance::SetNull, wmi.cinstance_setnull"
 ms.topic: method
 req.header: instance.h

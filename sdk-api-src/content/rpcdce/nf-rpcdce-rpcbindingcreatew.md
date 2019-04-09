@@ -7,7 +7,7 @@ old-location: rpc\rpcbindingcreate.htm
 tech.root: Rpc
 ms.assetid: 0188512e-bff6-414b-a6eb-19bfe8e0b3a9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RpcBindingCreate, RpcBindingCreate function [RPC], RpcBindingCreateA, RpcBindingCreateW, rpc.rpcbindingcreate, rpcdce/RpcBindingCreate, rpcdce/RpcBindingCreateA, rpcdce/RpcBindingCreateW
 ms.topic: function
 req.header: rpcdce.h

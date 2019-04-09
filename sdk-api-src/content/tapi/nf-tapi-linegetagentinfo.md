@@ -7,7 +7,7 @@ old-location: tapi2\linegetagentinfo.htm
 tech.root: Tapi
 ms.assetid: 166b0595-2df0-431f-924c-6899b47408ac
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_tapi2_linegetagentinfo, lineGetAgentInfo, lineGetAgentInfo function [TAPI 2.2], tapi/lineGetAgentInfo, tapi2.linegetagentinfo"
 ms.topic: function
 req.header: tapi.h

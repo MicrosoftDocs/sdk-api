@@ -7,7 +7,7 @@ old-location: taskschd\itaskfoldercollection.htm
 tech.root: taskschd
 ms.assetid: 1889a7e3-8fa2-4b96-9d55-656850f605da
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITaskFolderCollection, ITaskFolderCollection interface [Task Scheduler], ITaskFolderCollection interface [Task Scheduler],described, taskschd.itaskfoldercollection, taskschd/ITaskFolderCollection
 ms.topic: interface
 req.header: taskschd.h

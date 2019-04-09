@@ -7,7 +7,7 @@ old-location: security\auditcomputeeffectivepolicybytoken_func.htm
 tech.root: SecAuthZ
 ms.assetid: e5fc9b8d-a61e-48c2-9093-f27167232cc8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AuditComputeEffectivePolicyByToken, AuditComputeEffectivePolicyByToken function [Security], ntsecapi/AuditComputeEffectivePolicyByToken, security.auditcomputeeffectivepolicybytoken_func
 ms.topic: function
 req.header: ntsecapi.h

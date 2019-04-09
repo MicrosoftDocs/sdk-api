@@ -7,7 +7,7 @@ old-location: wnet\wnetdisconnectdialog1.htm
 tech.root: WNet
 ms.assetid: ec3abf0c-2a18-4d7d-aac4-e086d00fa6fe
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WNetDisconnectDialog1, WNetDisconnectDialog1 function [Windows Networking (WNet)], WNetDisconnectDialog1A, WNetDisconnectDialog1W, _win32_wnetdisconnectdialog1, winnetwk/WNetDisconnectDialog1, winnetwk/WNetDisconnectDialog1A, winnetwk/WNetDisconnectDialog1W, wnet.wnetdisconnectdialog1
 ms.topic: function
 req.header: winnetwk.h

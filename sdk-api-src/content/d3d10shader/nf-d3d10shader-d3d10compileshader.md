@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10compileshader.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10compileshader.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 8461622f-7f35-e519-3be6-83d985b2cece, D3D10CompileShader, D3D10CompileShader function [Direct3D 10], d3d10shader/D3D10CompileShader, direct3d10.d3d10compileshader
 ms.topic: function
 req.header: d3d10shader.h

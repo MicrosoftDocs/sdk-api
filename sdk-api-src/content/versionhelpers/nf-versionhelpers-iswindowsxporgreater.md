@@ -7,7 +7,7 @@ old-location: base\iswindowsxporgreater.htm
 tech.root: SysInfo
 ms.assetid: 48B7FAD6-569F-4CF5-A413-857679363736
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IsWindowsXPOrGreater, IsWindowsXPOrGreater function, base.iswindowsxporgreater, versionhelpers/IsWindowsXPOrGreater
 ms.topic: function
 req.header: versionhelpers.h

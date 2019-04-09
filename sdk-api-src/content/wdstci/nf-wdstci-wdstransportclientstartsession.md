@@ -7,7 +7,7 @@ old-location: wds\wdstransportclientstartsession.htm
 tech.root: wds
 ms.assetid: aa89899f-8f50-4617-84a1-4013412f0292
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WdsTransportClientStartSession, WdsTransportClientStartSession function [Windows Deployment Services], wds.wdstransportclientstartsession, wdstci/WdsTransportClientStartSession
 ms.topic: function
 req.header: wdstci.h

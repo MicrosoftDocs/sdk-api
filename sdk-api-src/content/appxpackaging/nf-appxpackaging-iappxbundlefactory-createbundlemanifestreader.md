@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlefactory_createbundlemanifestreader.htm
 tech.root: appxpkg
 ms.assetid: 8D537830-A8AA-4652-B6F2-F7A545B8877E
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateBundleManifestReader, CreateBundleManifestReader method [App packaging and management], CreateBundleManifestReader method [App packaging and management],IAppxBundleFactory interface, IAppxBundleFactory interface [App packaging and management],CreateBundleManifestReader method, IAppxBundleFactory.CreateBundleManifestReader, IAppxBundleFactory::CreateBundleManifestReader, appxpackaging/IAppxBundleFactory::CreateBundleManifestReader, appxpkg.iappxbundlefactory_createbundlemanifestreader
 ms.topic: method
 req.header: appxpackaging.h

@@ -7,7 +7,7 @@ old-location: dxmath\xmscalarnearequal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.scalar.XMScalarNearEqual(float,float,float)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMScalarNearEqual, XMScalarNearEqual, XMScalarNearEqual method [DirectX Math Support APIs], dxmath.xmscalarnearequal
 ms.topic: function
 req.header: directxmath.h

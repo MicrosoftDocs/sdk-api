@@ -7,7 +7,7 @@ old-location: fs\cancelio.htm
 tech.root: FileIO
 ms.assetid: b28162dc-0da8-41c6-9901-29381d2d72c4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CancelIo, CancelIo function [Files], _win32_cancelio, base.cancelio, fs.cancelio, ioapiset/CancelIo, winbase/CancelIo
 ms.topic: function
 req.header: ioapiset.h

@@ -7,7 +7,7 @@ old-location: base\unmapandload.htm
 tech.root: Debug
 ms.assetid: 63a39d2b-a3a1-4c91-be93-f9a681756293
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: UnMapAndLoad, UnMapAndLoad function, _win32_unmapandload, base.unmapandload, imagehlp/UnMapAndLoad
 ms.topic: function
 req.header: imagehlp.h

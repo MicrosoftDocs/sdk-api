@@ -7,7 +7,7 @@ old-location: shell\IUnknown_Set.htm
 tech.root: shell
 ms.assetid: b3c4bee2-12cb-483e-9a46-f09d63ae9a2e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IUnknown_Set, IUnknown_Set function [Windows Shell], _win32_IUnknown_Set, shell.IUnknown_Set, shlwapi/IUnknown_Set
 ms.topic: function
 req.header: shlwapi.h

@@ -7,7 +7,7 @@ old-location: wab\_wab_SPropProblemArray.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\spropproblemarray.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPSPropProblemArray, SPropProblemArray, SPropProblemArray structure [Windows Address Book], _wab_SPropProblemArray, wab._wab_SPropProblemArray, wabdefs/SPropProblemArray"
 ms.topic: struct
 req.header: wabdefs.h

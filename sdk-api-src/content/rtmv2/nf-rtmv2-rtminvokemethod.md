@@ -7,7 +7,7 @@ old-location: rras\rtminvokemethod.htm
 tech.root: RRAS
 ms.assetid: 97506565-2fa7-4ff7-b397-7ab712759a5d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RtmInvokeMethod, RtmInvokeMethod function [RAS], _rtmv2ref_rtminvokemethod, rras.rtminvokemethod, rtmv2/RtmInvokeMethod
 ms.topic: function
 req.header: rtmv2.h

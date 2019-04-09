@@ -7,7 +7,7 @@ old-location: multimedia\mixergetdevcaps.htm
 tech.root: Multimedia
 ms.assetid: e3403be8-f3a8-4aab-8498-0556585bc4dd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_win32_mixerGetDevCaps, mixerGetDevCaps, mixerGetDevCaps function [Windows Multimedia], mixerGetDevCapsA, mixerGetDevCapsW, mmeapi/mixerGetDevCaps, mmeapi/mixerGetDevCapsA, mmeapi/mixerGetDevCapsW, multimedia.mixergetdevcaps"
 ms.topic: function
 req.header: mmeapi.h

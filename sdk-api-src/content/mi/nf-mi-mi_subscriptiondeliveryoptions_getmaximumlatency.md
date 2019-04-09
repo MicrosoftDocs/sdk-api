@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_subscriptiondeliveryoptions_getmaximumlatency.htm
 tech.root: wmi_v2
 ms.assetid: 899fa8d5-0d39-44ea-994b-b13d4dc9b117
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetMaximumLatency, MI_SubscriptionDeliveryOptions_GetMaximumLatency function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetMaximumLatency, wmi_v2.mi_subscriptiondeliveryoptions_getmaximumlatency
 ms.topic: function
 req.header: mi.h

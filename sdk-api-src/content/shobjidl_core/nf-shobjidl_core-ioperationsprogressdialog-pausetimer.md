@@ -7,7 +7,7 @@ old-location: shell\IOperationsProgressDialog_PauseTimer.htm
 tech.root: shell
 ms.assetid: 9fdfd3b1-23fb-4172-a3e4-2142a29c21e3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],PauseTimer method, IOperationsProgressDialog.PauseTimer, IOperationsProgressDialog::PauseTimer, PauseTimer, PauseTimer method [Windows Shell], PauseTimer method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_PauseTimer, shell.IOperationsProgressDialog_PauseTimer, shobjidl_core/IOperationsProgressDialog::PauseTimer
 ms.topic: method
 req.header: shobjidl_core.h

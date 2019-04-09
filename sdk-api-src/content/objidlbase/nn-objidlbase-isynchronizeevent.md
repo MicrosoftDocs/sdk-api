@@ -7,7 +7,7 @@ old-location: com\isynchronizeevent.htm
 tech.root: com
 ms.assetid: b4721498-0455-415a-bf2f-c8c8fdf3b75c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ISynchronizeEvent, ISynchronizeEvent interface [COM], ISynchronizeEvent interface [COM],described, _com_isynchronizeevent, com.isynchronizeevent, objidlbase/ISynchronizeEvent
 ms.topic: interface
 req.header: objidlbase.h

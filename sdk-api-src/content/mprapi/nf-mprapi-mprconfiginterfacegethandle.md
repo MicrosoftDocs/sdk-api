@@ -7,7 +7,7 @@ old-location: rras\mprconfiginterfacegethandle.htm
 tech.root: RRAS
 ms.assetid: 1088e587-4446-4463-b411-a11e34adaf6a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MprConfigInterfaceGetHandle, MprConfigInterfaceGetHandle function [RAS], _mpr_mprconfiginterfacegethandle, mprapi/MprConfigInterfaceGetHandle, rras.mprconfiginterfacegethandle
 ms.topic: function
 req.header: mprapi.h

@@ -7,7 +7,7 @@ old-location: rdc\rdcbufferpointer.htm
 tech.root: rdc
 ms.assetid: 1792e40b-c363-4732-9613-301c3e6e4da7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RdcBufferPointer, RdcBufferPointer structure [Remote Differential Compression], fs.rdcbufferpointer, msrdc/RdcBufferPointer, rdc.rdcbufferpointer
 ms.topic: struct
 req.header: msrdc.h

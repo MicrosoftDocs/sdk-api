@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoveredservice_getlocalinterfaceguid.htm
 tech.root: WsdApi
 ms.assetid: 9c66bda4-d21c-443f-a9b0-e05485306bde
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetLocalInterfaceGUID, GetLocalInterfaceGUID method, GetLocalInterfaceGUID method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetLocalInterfaceGUID method, IWSDiscoveredService.GetLocalInterfaceGUID, IWSDiscoveredService::GetLocalInterfaceGUID, ncd.iwsdiscoveredservice_getlocalinterfaceguid, wsddisco/IWSDiscoveredService::GetLocalInterfaceGUID
 ms.topic: method
 req.header: wsddisco.h

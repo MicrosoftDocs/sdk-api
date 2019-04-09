@@ -7,7 +7,7 @@ old-location: gdi\enumenhmetafile.htm
 tech.root: gdi
 ms.assetid: bef5f43e-219a-4f8a-986d-290e29e17c4e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EnumEnhMetaFile, EnumEnhMetaFile function [Windows GDI], _win32_EnumEnhMetaFile, gdi.enumenhmetafile, wingdi/EnumEnhMetaFile
 ms.topic: function
 req.header: wingdi.h

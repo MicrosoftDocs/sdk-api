@@ -7,7 +7,7 @@ old-location: shell\SHCreateItemInKnownFolder.htm
 tech.root: shell
 ms.assetid: dc75ee60-7319-4a11-949e-dd0c3deabd8f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SHCreateItemInKnownFolder, SHCreateItemInKnownFolder function [Windows Shell], _shell_SHCreateItemInKnownFolder, shell.SHCreateItemInKnownFolder, shobjidl_core/SHCreateItemInKnownFolder
 ms.topic: function
 req.header: shobjidl_core.h

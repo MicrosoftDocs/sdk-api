@@ -7,7 +7,7 @@ old-location: mstv\iisdbseriesdescriptor_getlastepisodenumber.htm
 tech.root: mstv
 ms.assetid: 23cae82f-a40f-47c6-b9ee-0d91a87d9b70
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetLastEpisodeNumber, GetLastEpisodeNumber method [Microsoft TV Technologies], GetLastEpisodeNumber method [Microsoft TV Technologies],IIsdbSeriesDescriptor interface, IIsdbSeriesDescriptor interface [Microsoft TV Technologies],GetLastEpisodeNumber method, IIsdbSeriesDescriptor.GetLastEpisodeNumber, IIsdbSeriesDescriptor::GetLastEpisodeNumber, dvbsiparser/IIsdbSeriesDescriptor::GetLastEpisodeNumber, mstv.iisdbseriesdescriptor_getlastepisodenumber
 ms.topic: method
 req.header: dvbsiparser.h

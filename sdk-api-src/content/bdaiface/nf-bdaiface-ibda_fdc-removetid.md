@@ -7,7 +7,7 @@ old-location: mstv\ibda_fdc_removetid.htm
 tech.root: mstv
 ms.assetid: fac8f486-e24e-4996-a90f-f8947d43d209
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IBDA_FDC interface [Microsoft TV Technologies],RemoveTid method, IBDA_FDC.RemoveTid, IBDA_FDC::RemoveTid, RemoveTid, RemoveTid method [Microsoft TV Technologies], RemoveTid method [Microsoft TV Technologies],IBDA_FDC interface, bdaiface/IBDA_FDC::RemoveTid, mstv.ibda_fdc_removetid
 ms.topic: method
 req.header: bdaiface.h

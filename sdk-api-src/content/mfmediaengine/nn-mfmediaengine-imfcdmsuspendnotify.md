@@ -7,7 +7,7 @@ old-location: mf\imfcdmsuspendnotify.htm
 tech.root: medfound
 ms.assetid: b2671b66-fa9e-46a4-887e-d3ba9dd9025b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMFCdmSuspendNotify, IMFCdmSuspendNotify interface [Media Foundation], IMFCdmSuspendNotify interface [Media Foundation],described, mf.imfcdmsuspendnotify, mfmediaengine/IMFCdmSuspendNotify
 ms.topic: interface
 req.header: mfmediaengine.h

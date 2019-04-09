@@ -7,7 +7,7 @@ old-location: bits\bg_file_range.htm
 tech.root: Bits
 ms.assetid: 4ed20321-fb89-410b-906e-9f2c4366645a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BG_FILE_RANGE, BG_FILE_RANGE structure [BITS], bits.bg_file_range, bits2_0/BG_FILE_RANGE
 ms.topic: struct
 req.header: bits2_0.h

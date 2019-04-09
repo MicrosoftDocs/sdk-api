@@ -7,7 +7,7 @@ old-location: stg\propvariantcopy.htm
 tech.root: Stg
 ms.assetid: ee97d3b2-4dec-43c3-b38d-29edc775b82a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PropVariantCopy, PropVariantCopy function [Structured Storage], _stg_propvariantcopy, combaseapi/PropVariantCopy, stg.propvariantcopy
 ms.topic: function
 req.header: combaseapi.h

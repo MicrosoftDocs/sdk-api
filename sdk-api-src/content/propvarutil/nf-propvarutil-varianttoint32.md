@@ -7,7 +7,7 @@ old-location: properties\VariantToInt32.htm
 tech.root: properties
 ms.assetid: 6d2a4b8f-2ec5-4ffd-80b0-6615fdfb2379
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VariantToInt32, VariantToInt32 function [Windows Properties], _shell_VariantToInt32, properties.VariantToInt32, propvarutil/VariantToInt32, shell.VariantToInt32
 ms.topic: function
 req.header: propvarutil.h

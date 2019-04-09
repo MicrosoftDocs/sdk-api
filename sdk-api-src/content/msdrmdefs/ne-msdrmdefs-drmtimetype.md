@@ -7,7 +7,7 @@ old-location: rm\drmtimetype.htm
 tech.root: AdRms_Sdk
 ms.assetid: 0adb6824-0b6e-414a-b9d2-a3266c80df23
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DRMTIMETYPE, DRMTIMETYPE enumeration [Active Directory Rights Management Services SDK 1.0], DRMTIMETYPE_SYSTEMLOCAL, DRMTIMETYPE_SYSTEMUTC, msdrmdefs/DRMTIMETYPE, msdrmdefs/DRMTIMETYPE_SYSTEMLOCAL, msdrmdefs/DRMTIMETYPE_SYSTEMUTC, rm.drmtimetype
 ms.topic: enum
 req.header: msdrmdefs.h

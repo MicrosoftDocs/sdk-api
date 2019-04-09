@@ -7,7 +7,7 @@ old-location: mbn\imbndeviceservice_opencommandsession.htm
 tech.root: mbn
 ms.assetid: EC4FF42D-EFE9-432C-997F-426B2187BBBE
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],OpenCommandSession method, IMbnDeviceService.OpenCommandSession, IMbnDeviceService::OpenCommandSession, OpenCommandSession, OpenCommandSession method [Microsoft Broadband Networks], OpenCommandSession method [Microsoft Broadband Networks],IMbnDeviceService interface, mbn.imbndeviceservice_opencommandsession, mbnapi/IMbnDeviceService::OpenCommandSession
 ms.topic: method
 req.header: mbnapi.h

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtimer_settimereventhandler.htm
 tech.root: UIAnimation
 ms.assetid: ff1bae45-2199-4340-a27b-19865d2877f9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IUIAnimationTimer interface [Windows Animation],SetTimerEventHandler method, IUIAnimationTimer.SetTimerEventHandler, IUIAnimationTimer::SetTimerEventHandler, SetTimerEventHandler, SetTimerEventHandler method [Windows Animation], SetTimerEventHandler method [Windows Animation],IUIAnimationTimer interface, uianimation.iuianimationtimer_settimereventhandler, uianimation/IUIAnimationTimer::SetTimerEventHandler
 ms.topic: method
 req.header: uianimation.h

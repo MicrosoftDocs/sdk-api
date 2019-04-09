@@ -7,7 +7,7 @@ old-location: ldap\ldap_sasl_bind_s.htm
 tech.root: ldap
 ms.assetid: 8347e2f5-bc14-480f-ba96-044ef3280418
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_sasl_bind_s, ldap.ldap__sasl__bind__s, ldap.ldap_sasl_bind_s, ldap_sasl_bind_s, ldap_sasl_bind_s function [LDAP], ldap_sasl_bind_sA, ldap_sasl_bind_sW, winldap/ldap_sasl_bind_s, winldap/ldap_sasl_bind_sA, winldap/ldap_sasl_bind_sW"
 ms.topic: function
 req.header: winldap.h

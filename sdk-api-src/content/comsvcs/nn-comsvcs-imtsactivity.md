@@ -7,7 +7,7 @@ old-location: cos\imtsactivity.htm
 tech.root: cossdk
 ms.assetid: a45b29f0-d3f1-4593-9df5-4f6d617b93fa
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMTSActivity, IMTSActivity interface [COM+], IMTSActivity interface [COM+],described, _cos_IMTSActivity, comsvcs/IMTSActivity, cos.imtsactivity
 ms.topic: interface
 req.header: comsvcs.h

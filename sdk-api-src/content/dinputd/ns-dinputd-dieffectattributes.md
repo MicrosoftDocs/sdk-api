@@ -7,7 +7,7 @@ old-location: hid\dieffectattributes.htm
 tech.root: hid
 ms.assetid: accec45c-de3c-43db-adc9-f878c40c47b0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPDIEFFECTATTRIBUTES, DIEFFECTATTRIBUTES, DIEFFECTATTRIBUTES structure [Human Input Devices], di_ref_49296796-41c7-4b8f-8bc5-59bdeb4df29e.xml, dinputd/DIEFFECTATTRIBUTES, hid.dieffectattributes"
 ms.topic: struct
 req.header: dinputd.h

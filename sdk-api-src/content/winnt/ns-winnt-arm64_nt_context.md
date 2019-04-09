@@ -7,7 +7,7 @@ old-location: base\context_str.htm
 tech.root: Debug
 ms.assetid: a6c201b3-4402-4de4-89c7-e6e2fbcd27f7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PARM64_NT_CONTEXT, *PCONTEXT, ARM64_NT_CONTEXT, CONTEXT, CONTEXT structure, LPCONTEXT, LPCONTEXT structure pointer, _win32_context_str, base.context_str, winnt/CONTEXT, winnt/LPCONTEXT"
 ms.topic: struct
 req.header: winnt.h

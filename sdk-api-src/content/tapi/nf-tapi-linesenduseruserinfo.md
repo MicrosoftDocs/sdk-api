@@ -7,7 +7,7 @@ old-location: tapi2\linesenduseruserinfo.htm
 tech.root: Tapi
 ms.assetid: 833827a0-bbb2-4df9-87a0-3b2eb1904611
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_tapi2_linesenduseruserinfo, lineSendUserUserInfo, lineSendUserUserInfo function [TAPI 2.2], tapi/lineSendUserUserInfo, tapi2.linesenduseruserinfo"
 ms.topic: function
 req.header: tapi.h

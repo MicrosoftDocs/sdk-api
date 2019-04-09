@@ -7,7 +7,7 @@ old-location: rpc\rpcerrorstartenumeration.htm
 tech.root: Rpc
 ms.assetid: 56c61902-4b34-4d92-b352-cd1837754aa3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RpcErrorStartEnumeration, RpcErrorStartEnumeration function [RPC], _rpc_rpcerrorstartenumeration, rpc.rpcerrorstartenumeration, rpcasync/RpcErrorStartEnumeration
 ms.topic: function
 req.header: rpcasync.h

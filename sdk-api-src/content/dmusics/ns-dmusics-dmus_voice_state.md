@@ -7,7 +7,7 @@ old-location: audio\dmus_voice_state.htm
 tech.root: audio
 ms.assetid: B3140ADC-863E-4332-A8D1-CEF512B33F14
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DMUS_VOICE_STATE, DMUS_VOICE_STATE structure [Audio Devices], audio.dmus_voice_state, dmusics/DMUS_VOICE_STATE
 ms.topic: struct
 req.header: dmusics.h

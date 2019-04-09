@@ -7,7 +7,7 @@ old-location: rpc\rpcssgetthreadhandle.htm
 tech.root: Rpc
 ms.assetid: f3b10f9c-7383-4665-96e3-1518f554f23e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RpcSsGetThreadHandle, RpcSsGetThreadHandle function [RPC], _rpc_rpcssgetthreadhandle, rpc.rpcssgetthreadhandle, rpcndr/RpcSsGetThreadHandle
 ms.topic: function
 req.header: rpcndr.h

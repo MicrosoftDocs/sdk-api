@@ -7,7 +7,7 @@ old-location: input_intcontext\setpropertyinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: da24831e-9f9f-4a9f-92bf-60e1c5338554
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SetPropertyInteractionContext, SetPropertyInteractionContext function, input_intcontext.setpropertyinteractioncontext, interactioncontext.setpropertyinteractioncontext, interactioncontext/SetPropertyInteractionContext
 ms.topic: function
 req.header: interactioncontext.h

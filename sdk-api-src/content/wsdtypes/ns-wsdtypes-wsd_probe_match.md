@@ -7,7 +7,7 @@ old-location: ncd\wsd_probe_match_struct.htm
 tech.root: WsdApi
 ms.assetid: a30b11c8-df26-495d-87c3-aa67e400ec28
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WSD_PROBE_MATCH, WSD_PROBE_MATCH structure, ncd.wsd_probe_match_struct, wsdtypes/WSD_PROBE_MATCH
 ms.topic: struct
 req.header: wsdtypes.h

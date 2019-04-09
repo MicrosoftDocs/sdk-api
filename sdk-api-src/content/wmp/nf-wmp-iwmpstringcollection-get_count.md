@@ -7,7 +7,7 @@ old-location: wmp\iwmpstringcollection_get_count.htm
 tech.root: WMP
 ms.assetid: 97865752-e4bf-4f91-b481-22d9c8b3e090
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMPStringCollection interface [Windows Media Player],get_count method, IWMPStringCollection.get_count, IWMPStringCollection::get_count, IWMPStringCollectionget_count, get_count, get_count method [Windows Media Player], get_count method [Windows Media Player],IWMPStringCollection interface, wmp.iwmpstringcollection_get_count, wmp/IWMPStringCollection::get_count
 ms.topic: method
 req.header: wmp.h

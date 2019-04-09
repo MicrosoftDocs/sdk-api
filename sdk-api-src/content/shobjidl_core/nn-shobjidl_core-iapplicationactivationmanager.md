@@ -7,7 +7,7 @@ old-location: shell\IApplicationActivationManager.htm
 tech.root: shell
 ms.assetid: 66C8EDC8-AF05-46d6-B29D-B6EE09DF6709
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IApplicationActivationManager, IApplicationActivationManager interface [Windows Shell], IApplicationActivationManager interface [Windows Shell],described, shell.IApplicationActivationManager, shobjidl_core/IApplicationActivationManager
 ms.topic: interface
 req.header: shobjidl_core.h

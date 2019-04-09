@@ -7,7 +7,7 @@ old-location: etw\cveeventwrite.htm
 tech.root: ETW
 ms.assetid: 81CDC4A8-67B3-40AE-B492-89EF47BC5C4D
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CveEventWrite, CveEventWrite function [ETW], etw.cveeventwrite, securitybaseapi/CveEventWrite
 ms.topic: function
 req.header: securitybaseapi.h

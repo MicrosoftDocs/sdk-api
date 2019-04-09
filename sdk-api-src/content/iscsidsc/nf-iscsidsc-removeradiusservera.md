@@ -7,7 +7,7 @@ old-location: iscsidisc\removeradiusserver.htm
 tech.root: iSCSIDisc
 ms.assetid: e096a91b-84de-4b7d-a0d6-1364746ec488
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RemoveRadiusServer, RemoveRadiusServer function [iSCSI Discovery Library API], RemoveRadiusServerA, RemoveRadiusServerW, iscsidisc.removeradiusserver, iscsidsc/RemoveRadiusServer, iscsidsc/RemoveRadiusServerA, iscsidsc/RemoveRadiusServerW
 ms.topic: function
 req.header: iscsidsc.h

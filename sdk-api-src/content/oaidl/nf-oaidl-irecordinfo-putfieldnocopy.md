@@ -7,7 +7,7 @@ old-location: automat\irecordinfo_putfieldnocopy.htm
 tech.root: automat
 ms.assetid: 9e3c4189-46fa-4c21-abbd-35fdd5df058d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IRecordInfo interface [Automation],PutFieldNoCopy method, IRecordInfo.PutFieldNoCopy, IRecordInfo::PutFieldNoCopy, PutFieldNoCopy, PutFieldNoCopy method [Automation], PutFieldNoCopy method [Automation],IRecordInfo interface, _oa96_IRecordInfo_PutFieldNoCopy, automat.irecordinfo_putfieldnocopy, oaidl/IRecordInfo::PutFieldNoCopy
 ms.topic: method
 req.header: oaidl.h

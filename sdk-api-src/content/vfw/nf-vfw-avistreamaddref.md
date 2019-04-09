@@ -7,7 +7,7 @@ old-location: multimedia\avistreamaddref.htm
 tech.root: Multimedia
 ms.assetid: 4d5e6b0f-6753-4ac0-b074-51016634cc10
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AVIStreamAddRef, AVIStreamAddRef function [Windows Multimedia], _win32_AVIStreamAddRef, multimedia.avistreamaddref, vfw/AVIStreamAddRef
 ms.topic: function
 req.header: vfw.h

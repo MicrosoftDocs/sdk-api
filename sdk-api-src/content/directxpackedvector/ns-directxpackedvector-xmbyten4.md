@@ -7,7 +7,7 @@ old-location: dxmath\xmbyten4.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMBYTEN4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: XMBYTEN4, XMBYTEN4 structure [DirectX Math Support APIs], directxpackedvector/XMBYTEN4, dxmath.xmbyten4
 ms.topic: struct
 req.header: directxpackedvector.h

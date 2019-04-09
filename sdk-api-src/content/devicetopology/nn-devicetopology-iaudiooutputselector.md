@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiooutputselector.htm
 tech.root: CoreAudio
 ms.assetid: 571a44b6-972f-4d75-a31f-0e02cf728764
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IAudioOutputSelector, IAudioOutputSelector interface [Core Audio], IAudioOutputSelector interface [Core Audio],described, coreaudio.iaudiooutputselector, devicetopology/IAudioOutputSelector
 ms.topic: interface
 req.header: devicetopology.h

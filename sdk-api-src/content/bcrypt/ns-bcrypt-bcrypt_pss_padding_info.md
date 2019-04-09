@@ -7,7 +7,7 @@ old-location: security\bcrypt_pss_padding_info.htm
 tech.root: SecCNG
 ms.assetid: 28605b34-b1e1-4460-a8f0-b0fe9f9b94d4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BCRYPT_PSS_PADDING_INFO, BCRYPT_PSS_PADDING_INFO structure [Security], bcrypt/BCRYPT_PSS_PADDING_INFO, security.bcrypt_pss_padding_info
 ms.topic: struct
 req.header: bcrypt.h

@@ -7,7 +7,7 @@ old-location: rras\mpradminmibentrygetnext.htm
 tech.root: RRAS
 ms.assetid: 31e73dcb-db73-4415-8275-88f9ae010ab7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MprAdminMIBEntryGetNext, MprAdminMIBEntryGetNext function [RAS], _mpr_mpradminmibentrygetnext, mprapi/MprAdminMIBEntryGetNext, rras.mpradminmibentrygetnext
 ms.topic: function
 req.header: mprapi.h

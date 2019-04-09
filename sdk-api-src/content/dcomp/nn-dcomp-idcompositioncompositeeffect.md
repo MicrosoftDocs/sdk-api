@@ -7,7 +7,7 @@ old-location: directcomp\idcompositioncompositeeffect.htm
 tech.root: directcomp
 ms.assetid: 72647FCE-F1B0-4A50-927B-23EE38EEEC8B
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDCompositionCompositeEffect, IDCompositionCompositeEffect interface [DirectComposition], IDCompositionCompositeEffect interface [DirectComposition],described, dcomp/IDCompositionCompositeEffect, directcomp.idcompositioncompositeeffect
 ms.topic: interface
 req.header: dcomp.h

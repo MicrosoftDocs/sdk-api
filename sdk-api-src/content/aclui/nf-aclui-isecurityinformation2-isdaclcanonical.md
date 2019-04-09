@@ -7,7 +7,7 @@ old-location: security\isecurityinformation2_isdaclcanonical.htm
 tech.root: SecAuthZ
 ms.assetid: 54b83592-0cfb-45db-9788-05459c9ec35c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ISecurityInformation2 interface [Security],IsDaclCanonical method, ISecurityInformation2.IsDaclCanonical, ISecurityInformation2::IsDaclCanonical, IsDaclCanonical, IsDaclCanonical method [Security], IsDaclCanonical method [Security],ISecurityInformation2 interface, _win32_isecurityinformation2_isdaclcanonical, aclui/ISecurityInformation2::IsDaclCanonical, security.isecurityinformation2_isdaclcanonical
 ms.topic: method
 req.header: aclui.h

@@ -7,7 +7,7 @@ old-location: winrt\rogetapartmentidentifier.htm
 tech.root: WinRT
 ms.assetid: C10AE81B-21AB-4B0A-9463-A36C7A1893C7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RoGetApartmentIdentifier, RoGetApartmentIdentifier function [Windows Runtime], roapi/RoGetApartmentIdentifier, winrt.rogetapartmentidentifier
 ms.topic: function
 req.header: roapi.h

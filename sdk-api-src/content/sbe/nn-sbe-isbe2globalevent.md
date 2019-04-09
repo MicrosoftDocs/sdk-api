@@ -7,7 +7,7 @@ old-location: mstv\isbe2globalevent.htm
 tech.root: mstv
 ms.assetid: 18bb9f8a-df97-468c-acb2-be7fa61a4789
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ISBE2GlobalEvent, ISBE2GlobalEvent interface [Microsoft TV Technologies], ISBE2GlobalEvent interface [Microsoft TV Technologies],described, mstv.isbe2globalevent, sbe/ISBE2GlobalEvent
 ms.topic: interface
 req.header: sbe.h

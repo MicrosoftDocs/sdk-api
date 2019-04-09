@@ -7,7 +7,7 @@ old-location: winprog\iwscproductlist_count.htm
 tech.root: DevNotes
 ms.assetid: A28A6D3B-DC11-418B-987F-04711358B6EE
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWSCProductList interface [Windows API],get_Count method, IWSCProductList.get_Count, IWSCProductList::get_Count, get_Count, get_Count method [Windows API], get_Count method [Windows API],IWSCProductList interface, iwscapi/IWSCProductList::get_Count, winprog.iwscproductlist_count
 ms.topic: method
 req.header: iwscapi.h

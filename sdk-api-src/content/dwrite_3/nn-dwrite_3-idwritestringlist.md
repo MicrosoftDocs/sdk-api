@@ -7,7 +7,7 @@ old-location: directwrite\idwritestringlist.htm
 tech.root: DirectWrite
 ms.assetid: 07A61B37-C63D-4F7D-888C-96B56F30F477
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDWriteStringList, IDWriteStringList interface [Direct Write], IDWriteStringList interface [Direct Write],described, directwrite.idwritestringlist, dwrite_3/IDWriteStringList
 ms.topic: interface
 req.header: dwrite_3.h

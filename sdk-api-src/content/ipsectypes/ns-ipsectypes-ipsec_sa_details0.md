@@ -7,7 +7,7 @@ old-location: fwp\ipsec_sa_details0_struct.htm
 tech.root: fwp
 ms.assetid: 261cea6e-4a56-404f-9e5d-70ce95122f9f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IPSEC_SA_DETAILS0, IPSEC_SA_DETAILS0 structure [Filtering], fwp.ipsec_sa_details0_struct, ipsectypes/IPSEC_SA_DETAILS0
 ms.topic: struct
 req.header: ipsectypes.h

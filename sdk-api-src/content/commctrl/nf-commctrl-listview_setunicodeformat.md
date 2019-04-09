@@ -7,7 +7,7 @@ old-location: controls\ListView_SetUnicodeFormat.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setunicodeformat.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ListView_SetUnicodeFormat, ListView_SetUnicodeFormat macro [Windows Controls], _win32_ListView_SetUnicodeFormat, _win32_ListView_SetUnicodeFormat_cpp, commctrl/ListView_SetUnicodeFormat, controls.ListView_SetUnicodeFormat, controls._win32_ListView_SetUnicodeFormat
 ms.topic: macro
 req.header: commctrl.h

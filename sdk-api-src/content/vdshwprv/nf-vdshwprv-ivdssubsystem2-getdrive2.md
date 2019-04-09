@@ -7,7 +7,7 @@ old-location: base\ivdssubsystem2_getdrive2.htm
 tech.root: VDS
 ms.assetid: 5646da50-5ebd-44d8-b2e1-b3e96b9a6d3c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetDrive2, GetDrive2 method, GetDrive2 method,IVdsSubSystem2 interface, IVdsSubSystem2 interface,GetDrive2 method, IVdsSubSystem2.GetDrive2, IVdsSubSystem2::GetDrive2, base.ivdssubsystem2_getdrive2, vds/IVdsSubSystem2::GetDrive2, vdshwprv/IVdsSubSystem2::GetDrive2
 ms.topic: method
 req.header: vdshwprv.h

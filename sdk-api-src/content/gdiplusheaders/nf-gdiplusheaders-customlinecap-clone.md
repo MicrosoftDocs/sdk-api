@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_Clone_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\clone_49.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],CustomLineCap class, CustomLineCap class [GDI+],Clone method, CustomLineCap.Clone, CustomLineCap::Clone, _gdiplus_CLASS_CustomLineCap_Clone_, gdiplus._gdiplus_CLASS_CustomLineCap_Clone_
 ms.topic: method
 req.header: gdiplusheaders.h

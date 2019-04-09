@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_featuredecl.htm
 tech.root: wmi_v2
 ms.assetid: 7C669B89-C6D7-45E5-AAD8-A884F4E87659
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_FeatureDecl, MI_FeatureDecl structure [Windows Management Infrastructure (MI)], mi/MI_FeatureDecl, wmi_v2.mi_featuredecl
 ms.topic: struct
 req.header: mi.h

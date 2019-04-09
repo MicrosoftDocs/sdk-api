@@ -7,7 +7,7 @@ old-location: dxmath\xmubyte2_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUBYTE2.#ctor
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: XMUBYTE2, XMUBYTE2 constructor [DirectX Math Support APIs], XMUBYTE2 constructor [DirectX Math Support APIs],XMUBYTE2 structure, XMUBYTE2 structure [DirectX Math Support APIs],XMUBYTE2 constructor, XMUBYTE2.XMUBYTE2, XMUBYTE2.XMUBYTE2(), XMUBYTE2.XMUBYTE2(XMUBYTE2 &&), XMUBYTE2::XMUBYTE2, XMUBYTE2::XMUBYTE2(XMUBYTE2 &&), dxmath.xmubyte2_ctor_1
 ms.topic: method
 req.header: directxpackedvector.h

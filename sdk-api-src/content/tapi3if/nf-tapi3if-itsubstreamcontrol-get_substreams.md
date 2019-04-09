@@ -7,7 +7,7 @@ old-location: tapi3\itsubstreamcontrol_get_substreams.htm
 tech.root: Tapi
 ms.assetid: 1ea7dca0-9a0b-4966-83ba-0d1f6c5e5ccb
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITSubStreamControl interface [TAPI 2.2],get_SubStreams method, ITSubStreamControl.get_SubStreams, ITSubStreamControl::get_SubStreams, _tapi3_itsubstreamcontrol_get_substreams, get_SubStreams, get_SubStreams method [TAPI 2.2], get_SubStreams method [TAPI 2.2],ITSubStreamControl interface, tapi3.itsubstreamcontrol_get_substreams, tapi3if/ITSubStreamControl::get_SubStreams
 ms.topic: method
 req.header: tapi3if.h

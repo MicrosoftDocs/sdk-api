@@ -7,7 +7,7 @@ old-location: secbiomet\engineadapterqueryindexvectorsize.htm
 tech.root: SecBioMet
 ms.assetid: 07e9f956-1bae-4011-92a0-6c5ed0d105a0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EngineAdapterQueryIndexVectorSize, EngineAdapterQueryIndexVectorSize callback function [Windows Biometric Framework API], PIBIO_ENGINE_QUERY_INDEX_VECTOR_SIZE_FN, PIBIO_ENGINE_QUERY_INDEX_VECTOR_SIZE_FN callback, secbiomet.engineadapterqueryindexvectorsize, winbio_adapter/EngineAdapterQueryIndexVectorSize
 ms.topic: callback
 req.header: winbio_adapter.h

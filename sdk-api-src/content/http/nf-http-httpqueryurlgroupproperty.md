@@ -7,7 +7,7 @@ old-location: http\httpqueryurlgroupproperty.htm
 tech.root: http
 ms.assetid: f3e8fde0-5a78-46aa-8c6c-cea957d12356
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: HttpQueryUrlGroupProperty, HttpQueryUrlGroupProperty function [HTTP], HttpServerAuthenticationProperty, HttpServerChannelBindProperty, HttpServerQosProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, http.httpqueryurlgroupproperty, http/HttpQueryUrlGroupProperty
 ms.topic: function
 req.header: http.h

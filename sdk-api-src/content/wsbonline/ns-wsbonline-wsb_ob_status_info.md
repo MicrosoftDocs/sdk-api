@@ -7,7 +7,7 @@ old-location: wsb\wsb_ob_status_info.htm
 tech.root: wsb
 ms.assetid: 5836B3FC-5590-4678-A6BE-AD7C59E0FAFD
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WSB_OB_STATUS_INFO, WSB_OB_STATUS_INFO structure [Windows Server Backup], wsb.wsb_ob_status_info, wsbonline/WSB_OB_STATUS_INFO
 ms.topic: struct
 req.header: wsbonline.h

@@ -7,7 +7,7 @@ old-location: shell\IPersistFolder3_GetFolderTargetInfo.htm
 tech.root: shell
 ms.assetid: 97a343af-0998-4718-8293-1eb4d2ac0c8a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetFolderTargetInfo, GetFolderTargetInfo method [Windows Shell], GetFolderTargetInfo method [Windows Shell],IPersistFolder3 interface, IPersistFolder3 interface [Windows Shell],GetFolderTargetInfo method, IPersistFolder3.GetFolderTargetInfo, IPersistFolder3::GetFolderTargetInfo, _win32_IPersistFolder3_GetFolderTargetInfo, shell.IPersistFolder3_GetFolderTargetInfo, shobjidl_core/IPersistFolder3::GetFolderTargetInfo
 ms.topic: method
 req.header: shobjidl_core.h

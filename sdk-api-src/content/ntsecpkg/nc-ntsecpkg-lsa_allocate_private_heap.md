@@ -7,7 +7,7 @@ old-location: security\allocateprivateheap.htm
 tech.root: SecAuthN
 ms.assetid: 956e7aaf-e8b3-4db5-945a-b579f946b769
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AllocatePrivateHeap, AllocatePrivateHeap callback function [Security], LSA_ALLOCATE_PRIVATE_HEAP, LSA_ALLOCATE_PRIVATE_HEAP callback, ntsecpkg/AllocatePrivateHeap, security.allocateprivateheap
 ms.topic: callback
 req.header: ntsecpkg.h

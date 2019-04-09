@@ -7,7 +7,7 @@ old-location: security\freesharedmemory.htm
 tech.root: SecAuthN
 ms.assetid: def16ef0-4ae7-43c5-99c8-493bdf0c6a97
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FreeSharedMemory, FreeSharedMemory callback function [Security], LSA_FREE_SHARED_MEMORY, LSA_FREE_SHARED_MEMORY callback, _ssp_freesharedmemory, ntsecpkg/FreeSharedMemory, security.freesharedmemory
 ms.topic: callback
 req.header: ntsecpkg.h

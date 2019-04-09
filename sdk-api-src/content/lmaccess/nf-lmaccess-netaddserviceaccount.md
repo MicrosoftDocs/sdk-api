@@ -7,7 +7,7 @@ old-location: security\netaddserviceaccount.htm
 tech.root: SecMgmt
 ms.assetid: 004bd392-8837-4d98-905a-cd19ed02817d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NetAddServiceAccount, NetAddServiceAccount function [Security], SERVICE_ACCOUNT_FLAG_LINK_TO_HOST_ONLY, lmaccess/NetAddServiceAccount, security.netaddserviceaccount
 ms.topic: function
 req.header: lmaccess.h

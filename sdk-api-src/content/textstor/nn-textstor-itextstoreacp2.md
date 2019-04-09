@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp2.htm
 tech.root: TSF
 ms.assetid: c256f1c2-6b67-4417-8707-3490a2c5cb55
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITextStoreACP2, ITextStoreACP2 interface [Text Services Framework], ITextStoreACP2 interface [Text Services Framework],described, textstor/ITextStoreACP2, tsf.itextstoreacp2
 ms.topic: interface
 req.header: textstor.h

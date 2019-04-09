@@ -7,7 +7,7 @@ old-location: websock\web_socket_buffer.htm
 tech.root: WebSock
 ms.assetid: 05EC3940-4A17-4FBB-9446-15B511E18FF2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PWEB_SOCKET_BUFFER, WEB_SOCKET_BUFFER, WEB_SOCKET_BUFFER union [Websocket Protocol Component API], websock.web_socket_buffer, websocket/WEB_SOCKET_BUFFER"
 ms.topic: struct
 req.header: websocket.h

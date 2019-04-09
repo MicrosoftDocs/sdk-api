@@ -7,7 +7,7 @@ old-location: of\iofflinefilescache_renameitem.htm
 tech.root: offlinefiles
 ms.assetid: 883f29cb-d551-4358-8e74-f901956d8829
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IOfflineFilesCache interface [Offline Files],RenameItem method, IOfflineFilesCache.RenameItem, IOfflineFilesCache::RenameItem, RenameItem, RenameItem method [Offline Files], RenameItem method [Offline Files],IOfflineFilesCache interface, cscobj/IOfflineFilesCache::RenameItem, of.iofflinefilescache_renameitem
 ms.topic: method
 req.header: cscobj.h

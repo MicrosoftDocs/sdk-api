@@ -7,7 +7,7 @@ old-location: wsw\ws_host_names.htm
 tech.root: wsw
 ms.assetid: 9815eb1e-0ce6-4b56-9f9a-e3938d502b72
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_HOST_NAMES, WS_HOST_NAMES structure [Web Services for Windows], webservices/WS_HOST_NAMES, wsw.ws_host_names
 ms.topic: struct
 req.header: webservices.h

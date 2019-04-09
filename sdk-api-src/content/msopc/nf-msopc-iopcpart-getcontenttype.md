@@ -7,7 +7,7 @@ old-location: opc\iopcpart_getcontenttype.htm
 tech.root: OPC
 ms.assetid: fe0d6ba3-8c62-4269-86ff-669609529933
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetContentType, GetContentType method [Open Packaging Conventions], GetContentType method [Open Packaging Conventions],IOpcPart interface, IOpcPart interface [Open Packaging Conventions],GetContentType method, IOpcPart.GetContentType, IOpcPart::GetContentType, msopc/IOpcPart::GetContentType, opc.iopcpart_getcontenttype
 ms.topic: method
 req.header: msopc.h

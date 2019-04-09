@@ -7,7 +7,7 @@ old-location: security\icertpropertyrenewal_initializefromcertificatehash_method
 tech.root: seccertenroll
 ms.assetid: 87e0eabf-7a4a-4ff2-a9ce-6482f119cafd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ICertPropertyRenewal interface [Security],InitializeFromCertificateHash method, ICertPropertyRenewal.InitializeFromCertificateHash, ICertPropertyRenewal::InitializeFromCertificateHash, InitializeFromCertificateHash, InitializeFromCertificateHash method [Security], InitializeFromCertificateHash method [Security],ICertPropertyRenewal interface, certenroll/ICertPropertyRenewal::InitializeFromCertificateHash, security.icertpropertyrenewal_initializefromcertificatehash_method
 ms.topic: method
 req.header: certenroll.h

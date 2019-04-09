@@ -7,7 +7,7 @@ old-location: mf\dxvahd_rational.htm
 tech.root: medfound
 ms.assetid: 8064820e-533e-4b40-8eeb-e3ad6a6b1ff7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DXVAHD_RATIONAL, DXVAHD_RATIONAL structure [Media Foundation], dxvahd/DXVAHD_RATIONAL, mf.dxvahd_rational
 ms.topic: struct
 req.header: dxvahd.h

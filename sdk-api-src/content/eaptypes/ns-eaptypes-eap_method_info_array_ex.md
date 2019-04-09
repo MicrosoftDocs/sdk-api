@@ -7,7 +7,7 @@ old-location: eaphost\eap_method_info_array_ex.htm
 tech.root: eaphost
 ms.assetid: 3deb04da-3071-4ddd-a7cb-82a1c47c3677
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EAP_METHOD_INFO_ARRAY_EX, EAP_METHOD_INFO_ARRAY_EX structure [EAPHost], PEAP_METHOD_INFO_ARRAY_EX, PEAP_METHOD_INFO_ARRAY_EX structure pointer [EAPHost], eaphost.eap_method_info_array_ex, eaptypes/EAP_METHOD_INFO_ARRAY_EX, eaptypes/PEAP_METHOD_INFO_ARRAY_EX
 ms.topic: struct
 req.header: eaptypes.h

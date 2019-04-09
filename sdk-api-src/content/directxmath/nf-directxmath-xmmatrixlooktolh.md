@@ -7,7 +7,7 @@ old-location: dxmath\xmmatrixlooktolh.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixLookToLH(XMVECTOR,XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixLookToLH, XMMatrixLookToLH, XMMatrixLookToLH method [DirectX Math Support APIs], dxmath.xmmatrixlooktolh
 ms.topic: function
 req.header: directxmath.h

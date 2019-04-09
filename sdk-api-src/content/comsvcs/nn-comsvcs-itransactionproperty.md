@@ -7,7 +7,7 @@ old-location: cos\itransactionproperty.htm
 tech.root: cossdk
 ms.assetid: 602842ce-abb1-4830-99b3-d361d18ac074
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITransactionProperty, ITransactionProperty interface [COM+], ITransactionProperty interface [COM+],described, _cos_ITransactionProperty, comsvcs/ITransactionProperty, cos.itransactionproperty
 ms.topic: interface
 req.header: comsvcs.h

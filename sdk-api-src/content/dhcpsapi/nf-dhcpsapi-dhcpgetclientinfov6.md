@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetclientinfov6.htm
 tech.root: DHCP
 ms.assetid: 6ed68064-9f12-472e-8647-87cc50345199
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DhcpGetClientInfoV6, DhcpGetClientInfoV6 function [DHCP], dhcp.dhcpgetclientinfov6, dhcpsapi/DhcpGetClientInfoV6
 ms.topic: function
 req.header: dhcpsapi.h

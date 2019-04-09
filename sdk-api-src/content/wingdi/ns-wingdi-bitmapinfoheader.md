@@ -7,7 +7,7 @@ old-location: dshow\bitmapinfoheader.htm
 tech.root: DirectShow
 ms.assetid: 153c08a8-d32c-4e9d-9da9-b915eb172327
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPBITMAPINFOHEADER, *PBITMAPINFOHEADER, BITMAPINFOHEADER, BITMAPINFOHEADER structure [DirectShow], BITMAPINFOHEADERStructure, BI_BITFIELDS, BI_RGB, dshow.bitmapinfoheader, tagBITMAPINFOHEADER, wingdi/BITMAPINFOHEADER"
 ms.topic: struct
 req.header: wingdi.h

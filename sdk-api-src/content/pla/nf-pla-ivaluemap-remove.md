@@ -7,7 +7,7 @@ old-location: pla\ivaluemap_remove.htm
 tech.root: PLA
 ms.assetid: dc674243-ec0f-496f-bffb-faf4262a42c7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IValueMap interface [PLA],Remove method, IValueMap.Remove, IValueMap::Remove, Remove, Remove method [PLA], Remove method [PLA],IValueMap interface, base.ivaluemap_remove, pla.ivaluemap_remove, pla/IValueMap::Remove
 ms.topic: method
 req.header: pla.h

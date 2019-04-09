@@ -7,7 +7,7 @@ old-location: security\freelsaheap.htm
 tech.root: SecAuthN
 ms.assetid: bd461a23-2501-48c5-8f2f-c6c98383157f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FreeLsaHeap, FreeLsaHeap callback function [Security], LSA_FREE_LSA_HEAP, LSA_FREE_LSA_HEAP callback, _lsa_freelsaheap, ntlsa/FreeLsaHeap, security.freelsaheap
 ms.topic: callback
 req.header: ntlsa.h

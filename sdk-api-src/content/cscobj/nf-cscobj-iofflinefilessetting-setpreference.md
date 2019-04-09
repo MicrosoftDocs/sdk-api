@@ -7,7 +7,7 @@ old-location: of\iofflinefilessetting_setpreference.htm
 tech.root: offlinefiles
 ms.assetid: a5dc0522-4a1b-450f-bddb-17e67007f809
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IOfflineFilesSetting interface [Offline Files],SetPreference method, IOfflineFilesSetting.SetPreference, IOfflineFilesSetting::SetPreference, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, SetPreference, SetPreference method [Offline Files], SetPreference method [Offline Files],IOfflineFilesSetting interface, cscobj/IOfflineFilesSetting::SetPreference, of.iofflinefilessetting_setpreference
 ms.topic: method
 req.header: cscobj.h

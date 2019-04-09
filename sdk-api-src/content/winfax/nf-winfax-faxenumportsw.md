@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxenumports.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0ir7.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FaxEnumPorts, FaxEnumPorts function [Fax Service], FaxEnumPortsA, FaxEnumPortsW, _mfax_faxenumports, fax._mfax_faxenumports, winfax/FaxEnumPorts, winfax/FaxEnumPortsA, winfax/FaxEnumPortsW
 ms.topic: function
 req.header: winfax.h

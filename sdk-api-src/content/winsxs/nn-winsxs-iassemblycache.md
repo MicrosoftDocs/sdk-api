@@ -7,7 +7,7 @@ old-location: setup\iassemblycache.htm
 tech.root: SbsCs
 ms.assetid: 6c411ae7-5a8f-47ca-a9c1-e23000f64620
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IAssemblyCache, IAssemblyCache interface [Side-by-side Assemblies], IAssemblyCache interface [Side-by-side Assemblies],described, setup.iassemblycache, winsxs/IAssemblyCache
 ms.topic: interface
 req.header: winsxs.h

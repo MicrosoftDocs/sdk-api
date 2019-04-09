@@ -7,7 +7,7 @@ old-location: base\vss_provider_prop.htm
 tech.root: VSS
 ms.assetid: 000da95d-a3f5-447e-a96d-c8fb34e9d0d3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PVSS_PROVIDER_PROP, PVSS_PROVIDER_PROP, PVSS_PROVIDER_PROP structure pointer [VSS], VSS_PROVIDER_PROP, VSS_PROVIDER_PROP structure [VSS], _win32_vss_provider_prop, base.vss_provider_prop, vss/PVSS_PROVIDER_PROP, vss/VSS_PROVIDER_PROP"
 ms.topic: struct
 req.header: vss.h

@@ -7,7 +7,7 @@ old-location: shell\IUpdateIDList.htm
 tech.root: shell
 ms.assetid: e6d94975-de33-497e-95a9-b89e8f8f0134
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IUpdateIDList, IUpdateIDList interface [Windows Shell], IUpdateIDList interface [Windows Shell],described, _shell_IUpdateIDList, shell.IUpdateIDList, shobjidl_core/IUpdateIDList
 ms.topic: interface
 req.header: shobjidl_core.h

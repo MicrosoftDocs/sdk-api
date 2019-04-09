@@ -7,7 +7,7 @@ old-location: tsf\itfcontextview.htm
 tech.root: TSF
 ms.assetid: 302d185d-dab7-4a77-a5cf-da2529d8b24a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITfContextView, ITfContextView interface [Text Services Framework], ITfContextView interface [Text Services Framework],described, _tsf_itfcontextview_ref, msctf/ITfContextView, tsf.itfcontextview
 ms.topic: interface
 req.header: msctf.h

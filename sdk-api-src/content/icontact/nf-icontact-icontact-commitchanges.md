@@ -7,7 +7,7 @@ old-location: wincontacts\_wincontacts_IContact_CommitChanges.htm
 tech.root: wincontacts
 ms.assetid: b06f7d25-03ae-4630-9aa9-09cfbcecc416
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CommitChanges, CommitChanges method [Windows Contacts], CommitChanges method [Windows Contacts],IContact interface, IContact interface [Windows Contacts],CommitChanges method, IContact.CommitChanges, IContact::CommitChanges, _wincontacts_IContact_CommitChanges, icontact/IContact::CommitChanges, wincontacts._wincontacts_IContact_CommitChanges
 ms.topic: method
 req.header: icontact.h

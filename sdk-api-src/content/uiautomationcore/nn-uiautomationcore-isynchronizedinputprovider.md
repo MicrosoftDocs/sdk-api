@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ISynchronizedInputProvider.htm
 tech.root: WinAuto
 ms.assetid: 70495eba-172a-432e-951d-1092fd676d5e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ISynchronizedInputProvider, ISynchronizedInputProvider interface [Windows Accessibility], ISynchronizedInputProvider interface [Windows Accessibility],described, uiauto.uiauto_ISynchronizedInputProvider, uiauto_ISynchronizedInputProvider, uiautomationcore/ISynchronizedInputProvider, winauto.uiauto_ISynchronizedInputProvider
 ms.topic: interface
 req.header: uiautomationcore.h

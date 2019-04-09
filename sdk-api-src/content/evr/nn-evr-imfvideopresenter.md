@@ -7,7 +7,7 @@ old-location: mf\imfvideopresenter.htm
 tech.root: medfound
 ms.assetid: 8f6e3132-03e9-4a2e-9160-e39d29cf2408
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 8f6e3132-03e9-4a2e-9160-e39d29cf2408, IMFVideoPresenter, IMFVideoPresenter interface [Media Foundation], IMFVideoPresenter interface [Media Foundation],described, evr/IMFVideoPresenter, mf.imfvideopresenter
 ms.topic: interface
 req.header: evr.h

@@ -7,7 +7,7 @@ old-location: cos\isecurityproperty_getoriginalcreatorsid.htm
 tech.root: cossdk
 ms.assetid: 599b0773-feee-4e3d-a23b-cc2c294f49f9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetOriginalCreatorSID, GetOriginalCreatorSID method [COM+], GetOriginalCreatorSID method [COM+],ISecurityProperty interface, ISecurityProperty interface [COM+],GetOriginalCreatorSID method, ISecurityProperty.GetOriginalCreatorSID, ISecurityProperty::GetOriginalCreatorSID, _cos_ISecurityProperty_GetOriginalCreatorSID, comsvcs/ISecurityProperty::GetOriginalCreatorSID, cos.isecurityproperty_getoriginalcreatorsid
 ms.topic: method
 req.header: comsvcs.h

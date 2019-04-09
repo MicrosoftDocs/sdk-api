@@ -7,7 +7,7 @@ old-location: gdi\monitorinfoex.htm
 tech.root: gdi
 ms.assetid: f296ce29-3fc8-41c9-a201-56e222aa2219
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPMONITORINFOEXA, LPMONITORINFOEX, LPMONITORINFOEX structure pointer [Windows GDI], MONITORINFOEX, MONITORINFOEX structure [Windows GDI], MONITORINFOEXA, _win32_MONITORINFOEX_str, gdi.monitorinfoex, tagMONITORINFOEXA, tagMONITORINFOEXW, winuser/LPMONITORINFOEX, winuser/MONITORINFOEX"
 ms.topic: struct
 req.header: winuser.h

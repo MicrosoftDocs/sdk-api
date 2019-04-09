@@ -7,7 +7,7 @@ old-location: gdi\ptgetprintcapabilities.htm
 tech.root: printdocs
 ms.assetid: 925e314c-85ff-4c1b-b3c9-f36aa4b55e01
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PTGetPrintCapabilities, PTGetPrintCapabilities function [Windows GDI], _win32_PTGetPrintCapabilities, gdi.ptgetprintcapabilities, prntvpt/PTGetPrintCapabilities
 ms.topic: function
 req.header: prntvpt.h

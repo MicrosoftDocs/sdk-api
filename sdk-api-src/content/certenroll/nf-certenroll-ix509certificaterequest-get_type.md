@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequest_type_property.htm
 tech.root: seccertenroll
 ms.assetid: 04e7e4eb-8f65-45d3-bf1d-abcb83fcf1a0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequest interface [Security],Type property, IX509CertificateRequest.Type, IX509CertificateRequest.get_Type, IX509CertificateRequest::Type, IX509CertificateRequest::get_Type, Type property [Security], Type property [Security],IX509CertificateRequest interface, TypeCertificate, TypeCmc, TypePkcs10, TypePkcs7, certenroll/IX509CertificateRequest::Type, certenroll/IX509CertificateRequest::get_Type, get_Type, security.ix509certificaterequest_type_property
 ms.topic: method
 req.header: certenroll.h

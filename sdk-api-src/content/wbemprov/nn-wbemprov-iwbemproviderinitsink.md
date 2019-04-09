@@ -7,7 +7,7 @@ old-location: wmi\iwbemproviderinitsink.htm
 tech.root: WmiSdk
 ms.assetid: abcee170-6a28-44d2-97d6-cb62c393b534
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWbemProviderInitSink, IWbemProviderInitSink interface [Windows Management Instrumentation], IWbemProviderInitSink interface [Windows Management Instrumentation],described, _hmm_iwbemproviderinitsink, wbemprov/IWbemProviderInitSink, wmi.iwbemproviderinitsink
 ms.topic: interface
 req.header: wbemprov.h

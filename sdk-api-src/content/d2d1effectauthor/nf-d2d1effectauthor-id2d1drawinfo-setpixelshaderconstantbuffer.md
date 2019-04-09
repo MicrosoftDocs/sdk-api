@@ -7,7 +7,7 @@ old-location: direct2d\id2d1drawinfo_setpixelshaderconstantbuffer.htm
 tech.root: Direct2D
 ms.assetid: 3A32E831-3754-4EF5-B559-ED02EF747897
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ID2D1DrawInfo interface [Direct2D],SetPixelShaderConstantBuffer method, ID2D1DrawInfo.SetPixelShaderConstantBuffer, ID2D1DrawInfo::SetPixelShaderConstantBuffer, SetPixelShaderConstantBuffer, SetPixelShaderConstantBuffer method [Direct2D], SetPixelShaderConstantBuffer method [Direct2D],ID2D1DrawInfo interface, d2d1effectauthor/ID2D1DrawInfo::SetPixelShaderConstantBuffer, direct2d.id2d1drawinfo_setpixelshaderconstantbuffer
 ms.topic: method
 req.header: d2d1effectauthor.h

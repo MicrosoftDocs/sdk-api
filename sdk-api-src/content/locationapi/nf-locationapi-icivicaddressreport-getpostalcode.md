@@ -7,7 +7,7 @@ old-location: winlocation_com_ref\icivicaddressreport_getpostalcode.htm
 tech.root: locationapi
 ms.assetid: 1580a1b9-1503-43d8-af1c-3b2ba8e9f81a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetPostalCode, GetPostalCode method [WinLocation], GetPostalCode method [WinLocation],ICivicAddressReport interface, ICivicAddressReport interface [WinLocation],GetPostalCode method, ICivicAddressReport.GetPostalCode, ICivicAddressReport::GetPostalCode, WinLocation_COM_Ref.icivicaddressreport_getpostalcode, locationapi/ICivicAddressReport::GetPostalCode
 ms.topic: method
 req.header: locationapi.h

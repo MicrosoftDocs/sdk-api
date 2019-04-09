@@ -7,7 +7,7 @@ old-location: toolhelp\processentry32_str.htm
 tech.root: ToolHelp
 ms.assetid: 9e2f7345-52bf-4bfc-9761-90b0b374c727
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPPROCESSENTRY32W, *PPROCESSENTRY32W, PPROCESSENTRY32, PPROCESSENTRY32 structure pointer [ToolHelp], PROCESSENTRY32, PROCESSENTRY32 structure [ToolHelp], PROCESSENTRY32W, _win32_processentry32_str, base.processentry32_str, tlhelp32/PPROCESSENTRY32, tlhelp32/PROCESSENTRY32, tlhelp32/PROCESSENTRY32W, toolhelp.processentry32_str"
 ms.topic: struct
 req.header: tlhelp32.h

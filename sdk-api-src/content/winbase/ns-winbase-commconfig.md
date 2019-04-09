@@ -7,7 +7,7 @@ old-location: base\commconfig_str.htm
 tech.root: devio
 ms.assetid: 9fd66f39-06a2-4159-9d1e-4ba84570c510
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPCOMMCONFIG, COMMCONFIG, COMMCONFIG structure, LPCOMMCONFIG, LPCOMMCONFIG structure pointer, _COMMCONFIG, _win32_commconfig_str, base.commconfig_str, winbase/COMMCONFIG, winbase/LPCOMMCONFIG"
 ms.topic: struct
 req.header: winbase.h

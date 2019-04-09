@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiinvitationmanager_count.htm
 tech.root: rdp
 ms.assetid: 5b421537-ce9f-42d3-83b8-f051631c78de
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Count property [RDP], Count property [RDP],IRDPSRAPIInvitationManager interface, Count property [RDP],RDPSRAPIInvitationManager object, IRDPSRAPIInvitationManager interface [RDP],Count property, IRDPSRAPIInvitationManager.Count, IRDPSRAPIInvitationManager.get_Count, IRDPSRAPIInvitationManager::Count, IRDPSRAPIInvitationManager::get_Count, RDPSRAPIInvitationManager object [RDP],Count property, get_Count, rdp.irdpsrapiinvitationmanager_count, rdpencomapi/IRDPSRAPIInvitationManager::Count, rdpencomapi/IRDPSRAPIInvitationManager::get_Count
 ms.topic: method
 req.header: rdpencomapi.h

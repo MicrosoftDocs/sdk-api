@@ -7,7 +7,7 @@ old-location: setup\setupgetlinetext.htm
 tech.root: SetupApi
 ms.assetid: ab689e03-5f4f-4f06-bd44-a927e1ab702d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SetupGetLineText, SetupGetLineText function [Setup API], SetupGetLineTextA, SetupGetLineTextW, _setupapi_setupgetlinetext, setup.setupgetlinetext, setupapi/SetupGetLineText, setupapi/SetupGetLineTextA, setupapi/SetupGetLineTextW
 ms.topic: function
 req.header: setupapi.h

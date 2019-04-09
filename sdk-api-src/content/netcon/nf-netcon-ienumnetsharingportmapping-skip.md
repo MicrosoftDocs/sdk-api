@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingportmapping_skip.htm
 tech.root: ics
 ms.assetid: b041a1fd-fe33-4519-8ac2-106903c5892f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEnumNetSharingPortMapping interface [ICS/ICF],Skip method, IEnumNetSharingPortMapping.Skip, IEnumNetSharingPortMapping::Skip, Skip, Skip method [ICS/ICF], Skip method [ICS/ICF],IEnumNetSharingPortMapping interface, _ics_ienumnetsharingportmapping_skip, ics.ienumnetsharingportmapping_skip, netcon/IEnumNetSharingPortMapping::Skip
 ms.topic: method
 req.header: netcon.h

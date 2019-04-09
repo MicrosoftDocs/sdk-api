@@ -7,7 +7,7 @@ old-location: rras\mpradmininitializedllex.htm
 tech.root: RRAS
 ms.assetid: c608c1b3-39de-4c0f-b834-27b9211dffb5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MprAdminInitializeDllEx, MprAdminInitializeDllEx callback, MprAdminInitializeDllEx callback function [RAS], mprapi/MprAdminInitializeDllEx, rras.mpradmininitializedllex
 ms.topic: function
 req.header: mprapi.h

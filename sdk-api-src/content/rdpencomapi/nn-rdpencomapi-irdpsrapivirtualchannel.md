@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapivirtualchannel.htm
 tech.root: rdp
 ms.assetid: c3cceb22-424d-4ed9-8d4d-0ca523ba5e9c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIVirtualChannel, IRDPSRAPIVirtualChannel interface [RDP], IRDPSRAPIVirtualChannel interface [RDP],described, rdp.irdpsrapivirtualchannel, rdpencomapi/IRDPSRAPIVirtualChannel
 ms.topic: interface
 req.header: rdpencomapi.h

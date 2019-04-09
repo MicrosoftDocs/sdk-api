@@ -7,7 +7,7 @@ old-location: security\crypt_xml_blob.htm
 tech.root: SecCrypto
 ms.assetid: b70aae53-919b-4d4a-b284-ea6bc223842f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_XML_BLOB, CRYPT_XML_BLOB, CRYPT_XML_BLOB structure [Security], PCRYPT_XML_BLOB, PCRYPT_XML_BLOB structure pointer [Security], cryptxml/CRYPT_XML_BLOB, cryptxml/PCRYPT_XML_BLOB, security.crypt_xml_blob"
 ms.topic: struct
 req.header: cryptxml.h

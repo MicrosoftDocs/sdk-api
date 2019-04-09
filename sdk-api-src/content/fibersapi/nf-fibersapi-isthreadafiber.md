@@ -7,7 +7,7 @@ old-location: base\isthreadafiber.htm
 tech.root: ProcThread
 ms.assetid: 0d591343-84eb-410d-815b-b42850d3f2e1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IsThreadAFiber, IsThreadAFiber function, base.isthreadafiber, fibersapi/IsThreadAFiber, winbase/IsThreadAFiber
 ms.topic: function
 req.header: fibersapi.h

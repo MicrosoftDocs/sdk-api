@@ -7,7 +7,7 @@ old-location: direct2d\D2D1_LAYER_PARAMETERS.htm
 tech.root: Direct2D
 ms.assetid: ce575df6-9464-4672-9a0e-ff7e016d9354
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: D2D1_LAYER_PARAMETERS, D2D1_LAYER_PARAMETERS structure [Direct2D], d2d1/D2D1_LAYER_PARAMETERS, direct2d.D2D1_LAYER_PARAMETERS
 ms.topic: struct
 req.header: d2d1.h

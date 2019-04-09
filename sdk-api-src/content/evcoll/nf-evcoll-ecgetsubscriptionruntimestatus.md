@@ -7,7 +7,7 @@ old-location: wec\ecgetsubscriptionruntimestatus.htm
 tech.root: WEC
 ms.assetid: 17d9d264-5ae3-4e31-869c-ada0c6c5c53b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EcGetSubscriptionRunTimeStatus, EcGetSubscriptionRunTimeStatus function, evcoll/EcGetSubscriptionRunTimeStatus, wec.ecgetsubscriptionruntimestatus, wes.ecgetsubscriptionruntimestatus
 ms.topic: function
 req.header: evcoll.h

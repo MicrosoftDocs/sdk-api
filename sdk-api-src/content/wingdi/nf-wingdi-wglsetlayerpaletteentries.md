@@ -7,7 +7,7 @@ old-location: opengl\wglsetlayerpaletteentries.htm
 tech.root: OpenGL
 ms.assetid: bc44353d-15db-4e52-970d-a290b66bc046
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_ogl_wglSetLayerPaletteEntries, opengl.wglsetlayerpaletteentries, wglSetLayerPaletteEntries, wglSetLayerPaletteEntries function [OpenGL], wingdi/wglSetLayerPaletteEntries"
 ms.topic: function
 req.header: wingdi.h

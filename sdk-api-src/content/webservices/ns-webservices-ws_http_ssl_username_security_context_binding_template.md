@@ -7,7 +7,7 @@ old-location: wsw\ws_http_ssl_username_security_context_binding_template.htm
 tech.root: wsw
 ms.assetid: 6c40831d-f3f4-4f41-90e0-a5955d53d90a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE, WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE structure [Web Services for Windows], webservices/WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE, wsw.ws_http_ssl_username_security_context_binding_template
 ms.topic: struct
 req.header: webservices.h

@@ -7,7 +7,7 @@ old-location: upnp\iupnpreregistrar_reregisterdevice.htm
 tech.root: upnp
 ms.assetid: 9f8a0a49-49e4-47b9-93bf-ca32cc80e243
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IUPnPReregistrar interface [UPnP APIs],ReregisterDevice method, IUPnPReregistrar.ReregisterDevice, IUPnPReregistrar::ReregisterDevice, ReregisterDevice, ReregisterDevice method [UPnP APIs], ReregisterDevice method [UPnP APIs],IUPnPReregistrar interface, _upnp_iupnpreregistrar_reregisterdevice, upnp.iupnpreregistrar_reregisterdevice, upnphost/IUPnPReregistrar::ReregisterDevice
 ms.topic: method
 req.header: upnphost.h

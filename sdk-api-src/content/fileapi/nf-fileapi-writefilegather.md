@@ -7,7 +7,7 @@ old-location: fs\writefilegather.htm
 tech.root: FileIO
 ms.assetid: 9590eabb-6e85-406e-8101-e67f87e6850b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WriteFileGather, WriteFileGather function [Files], _win32_writefilegather, base.writefilegather, fileapi/WriteFileGather, fs.writefilegather, winbase/WriteFileGather
 ms.topic: function
 req.header: fileapi.h

@@ -7,7 +7,7 @@ old-location: wds\pxe_address.htm
 tech.root: wds
 ms.assetid: ee961e38-331c-4da0-80d1-68d5503f07ea
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PPXE_ADDRESS, PPXE_ADDRESS, PPXE_ADDRESS structure pointer [Windows Deployment Services], PXE_ADDRESS, PXE_ADDRESS structure [Windows Deployment Services], PXE_ADDR_BROADCAST, PXE_ADDR_USE_ADDR, PXE_ADDR_USE_DHCP_RULES, PXE_ADDR_USE_PORT, wds.pxe_address, wdspxe/PPXE_ADDRESS, wdspxe/PXE_ADDRESS"
 ms.topic: struct
 req.header: wdspxe.h

@@ -7,7 +7,7 @@ old-location: of\iofflinefilescache2.htm
 tech.root: offlinefiles
 ms.assetid: B4E2C2B0-AA6B-4657-8711-E5057720AF15
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IOfflineFilesCache2, IOfflineFilesCache2 interface [Offline Files], IOfflineFilesCache2 interface [Offline Files],described, cscobj/IOfflineFilesCache2, of.iofflinefilescache2
 ms.topic: interface
 req.header: cscobj.h

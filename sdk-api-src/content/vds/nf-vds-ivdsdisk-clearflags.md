@@ -7,7 +7,7 @@ old-location: base\ivdsdisk_clearflags.htm
 tech.root: VDS
 ms.assetid: 3ee43acd-6dcc-40de-9bb6-de7cfb605f15
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ClearFlags, ClearFlags method [VDS], ClearFlags method [VDS],IVdsDisk interface, IVdsDisk interface [VDS],ClearFlags method, IVdsDisk.ClearFlags, IVdsDisk::ClearFlags, base.ivdsdisk_clearflags, vds/IVdsDisk::ClearFlags
 ms.topic: method
 req.header: vds.h

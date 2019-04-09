@@ -7,7 +7,7 @@ old-location: dns\dns_charset.htm
 tech.root: DNS
 ms.assetid: 2674a4e5-c3e2-4a25-bd6f-1fc6b4db3012
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DNS_CHARSET, DNS_CHARSET enumeration [DNS], DnsCharSetAnsi, DnsCharSetUnicode, DnsCharSetUnknown, DnsCharSetUtf8, dns.dns_charset, windns/DNS_CHARSET, windns/DnsCharSetAnsi, windns/DnsCharSetUnicode, windns/DnsCharSetUnknown, windns/DnsCharSetUtf8
 ms.topic: enum
 req.header: windns.h

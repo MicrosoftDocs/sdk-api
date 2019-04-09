@@ -7,7 +7,7 @@ old-location: coreaudio\iperchanneldblevel_setleveluniform.htm
 tech.root: CoreAudio
 ms.assetid: b78bebcb-d32b-4eda-a805-35d4459b6b4f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IPerChannelDbLevel interface [Core Audio],SetLevelUniform method, IPerChannelDbLevel.SetLevelUniform, IPerChannelDbLevel::SetLevelUniform, IPerChannelDbLevelSetLevelUniform, SetLevelUniform, SetLevelUniform method [Core Audio], SetLevelUniform method [Core Audio],IPerChannelDbLevel interface, coreaudio.iperchanneldblevel_setleveluniform, devicetopology/IPerChannelDbLevel::SetLevelUniform
 ms.topic: method
 req.header: devicetopology.h

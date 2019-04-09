@@ -7,7 +7,7 @@ old-location: dxmath\xmvectortanest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorTanEst(XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorTanEst, XMVectorTanEst, XMVectorTanEst method [DirectX Math Support APIs], dxmath.xmvectortanest
 ms.topic: function
 req.header: directxmath.h

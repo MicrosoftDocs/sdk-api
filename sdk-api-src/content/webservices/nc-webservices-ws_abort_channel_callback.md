@@ -7,7 +7,7 @@ old-location: wsw\ws_abort_channel_callback.htm
 tech.root: wsw
 ms.assetid: b2841065-5724-4fbb-92f0-b3b7ad1a6e26
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_ABORT_CHANNEL_CALLBACK, WS_ABORT_CHANNEL_CALLBACK callback, WS_ABORT_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_ABORT_CHANNEL_CALLBACK, wsw.ws_abort_channel_callback
 ms.topic: callback
 req.header: webservices.h

@@ -7,7 +7,7 @@ old-location: automat\varcyround.htm
 tech.root: automat
 ms.assetid: d1292247-cf8a-46cc-94c9-858ec5d8cad7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VarCyRound, VarCyRound function [Automation], _oa96_VarCyRound, automat.varcyround, oleauto/VarCyRound
 ms.topic: function
 req.header: oleauto.h

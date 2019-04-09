@@ -7,7 +7,7 @@ old-location: audio\idirectmusicsynth_render.htm
 tech.root: audio
 ms.assetid: c0aea93c-df92-46e6-9cd7-38235f513924
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynth interface [Audio Devices],Render method, IDirectMusicSynth.Render, IDirectMusicSynth::Render, Render, Render method [Audio Devices], Render method [Audio Devices],IDirectMusicSynth interface, audio.idirectmusicsynth_render, audmp-routines_fd2bebe8-7170-4222-b465-b1a9799abf8e.xml, dmusics/IDirectMusicSynth::Render
 ms.topic: method
 req.header: dmusics.h

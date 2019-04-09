@@ -7,7 +7,7 @@ old-location: powermeter\emi_metadata.htm
 tech.root: powermeter
 ms.assetid: 8992AA5D-7D71-4D00-9B18-FE070D29C26E
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EMI_METADATA, EMI_METADATA structure [Power Metering and Budgeting Devices], EMI_METADATA_V1, PEMI_METADATA, PEMI_METADATA structure pointer [Power Metering and Budgeting Devices], emi/EMI_METADATA, emi/PEMI_METADATA, powermeter.emi_metadata
 ms.topic: struct
 req.header: emi.h

@@ -7,7 +7,7 @@ old-location: security\indespolicy.htm
 tech.root: SecCrypto
 ms.assetid: 9ed31493-832a-4f66-bb95-02ef1ad7ca15
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: INDESPolicy, INDESPolicy interface [Security], INDESPolicy interface [Security],described, certpol/INDESPolicy, security.indespolicy
 ms.topic: interface
 req.header: certpol.h

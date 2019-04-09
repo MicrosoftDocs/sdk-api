@@ -7,7 +7,7 @@ old-location: tapi3\itdigitgenerationevent_get_generationtermination.htm
 tech.root: Tapi
 ms.assetid: 70e8c932-a157-455e-b340-d7e4eb19823c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITDigitGenerationEvent interface [TAPI 2.2],get_GenerationTermination method, ITDigitGenerationEvent.get_GenerationTermination, ITDigitGenerationEvent::get_GenerationTermination, _tapi3_itdigitgenerationevent_get_generationtermination, get_GenerationTermination, get_GenerationTermination method [TAPI 2.2], get_GenerationTermination method [TAPI 2.2],ITDigitGenerationEvent interface, tapi3.itdigitgenerationevent_get_generationtermination, tapi3if/ITDigitGenerationEvent::get_GenerationTermination
 ms.topic: method
 req.header: tapi3if.h

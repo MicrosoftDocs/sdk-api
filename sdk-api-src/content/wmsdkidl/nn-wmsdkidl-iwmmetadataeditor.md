@@ -7,7 +7,7 @@ old-location: wmformat\iwmmetadataeditor.htm
 tech.root: wmformat
 ms.assetid: ad19cd3e-d1ef-4d6c-ac23-29a56e5c1d66
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMMetadataEditor, IWMMetadataEditor interface [windows Media Format], IWMMetadataEditor interface [windows Media Format],described, IWMMetadataEditorInterface, wmformat.iwmmetadataeditor, wmsdkidl/IWMMetadataEditor
 ms.topic: interface
 req.header: wmsdkidl.h

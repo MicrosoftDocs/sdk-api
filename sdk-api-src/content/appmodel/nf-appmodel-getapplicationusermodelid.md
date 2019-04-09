@@ -7,7 +7,7 @@ old-location: appxpkg\getapplicationusermodelid.htm
 tech.root: appxpkg
 ms.assetid: FE4E0818-F548-494B-B3BD-FB51DC748451
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetApplicationUserModelId, GetApplicationUserModelId function [App packaging and management], appmodel/GetApplicationUserModelId, appxpkg.getapplicationusermodelid
 ms.topic: function
 req.header: appmodel.h

@@ -7,7 +7,7 @@ old-location: com\ioledocumentview_show.htm
 tech.root: com
 ms.assetid: eecc0230-0713-40e9-913c-c51b8a905575
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IOleDocumentView interface [COM],Show method, IOleDocumentView.Show, IOleDocumentView::Show, Show, Show method [COM], Show method [COM],IOleDocumentView interface, _ole_ioledocumentview_show, com.ioledocumentview_show, docobj/IOleDocumentView::Show
 ms.topic: method
 req.header: docobj.h

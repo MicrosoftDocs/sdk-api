@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4failovergetsystemtime.htm
 tech.root: DHCP
 ms.assetid: 3189e3d4-82cb-47a6-ad10-26a67c69e67d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DhcpV4FailoverGetSystemTime, DhcpV4FailoverGetSystemTime function [DHCP], dhcp.dhcpv4failovergetsystemtime, dhcpsapi/DhcpV4FailoverGetSystemTime
 ms.topic: function
 req.header: dhcpsapi.h

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext2_drawgradientmesh.htm
 tech.root: Direct2D
 ms.assetid: e3ea0930-2e7c-8e28-eda0-7dcb0b1cccc8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DrawGradientMesh, DrawGradientMesh method [Direct2D], DrawGradientMesh method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],DrawGradientMesh method, ID2D1DeviceContext2.DrawGradientMesh, ID2D1DeviceContext2::DrawGradientMesh, d2d1_3/ID2D1DeviceContext2::DrawGradientMesh, direct2d.id2d1devicecontext2_drawgradientmesh
 ms.topic: method
 req.header: d2d1_3.h

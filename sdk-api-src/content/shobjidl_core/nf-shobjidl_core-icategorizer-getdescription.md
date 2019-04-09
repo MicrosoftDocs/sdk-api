@@ -7,7 +7,7 @@ old-location: shell\ICategorizer_GetDescription.htm
 tech.root: shell
 ms.assetid: fc457b03-ccc2-4455-9f53-77d47537c0b6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [Windows Shell], GetDescription method [Windows Shell],ICategorizer interface, ICategorizer interface [Windows Shell],GetDescription method, ICategorizer.GetDescription, ICategorizer::GetDescription, inet_ICategorizer_GetDescription, shell.ICategorizer_GetDescription, shobjidl_core/ICategorizer::GetDescription
 ms.topic: method
 req.header: shobjidl_core.h

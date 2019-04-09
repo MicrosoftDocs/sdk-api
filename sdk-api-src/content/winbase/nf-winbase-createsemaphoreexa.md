@@ -7,7 +7,7 @@ old-location: base\createsemaphoreexa.htm
 tech.root: Sync
 ms.assetid: C66C9236-229F-4EBB-83F1-4BCB1957FF76
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateSemaphoreExA, CreateSemaphoreExA function, CreateSemaphoreExW, base.createsemaphoreexa, winbase/CreateSemaphoreExA, winbase/CreateSemaphoreExW
 ms.topic: function
 req.header: winbase.h

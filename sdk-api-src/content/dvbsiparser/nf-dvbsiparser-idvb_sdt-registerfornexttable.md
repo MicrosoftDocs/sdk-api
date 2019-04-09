@@ -7,7 +7,7 @@ old-location: mstv\idvb_sdt_registerfornexttable.htm
 tech.root: mstv
 ms.assetid: f8040b5a-004a-4428-9906-22aedcd780f6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDVB_SDT interface [Microsoft TV Technologies],RegisterForNextTable method, IDVB_SDT.RegisterForNextTable, IDVB_SDT::RegisterForNextTable, IDVB_SDTRegisterForNextTable, RegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies],IDVB_SDT interface, dvbsiparser/IDVB_SDT::RegisterForNextTable, mstv.idvb_sdt_registerfornexttable
 ms.topic: method
 req.header: dvbsiparser.h

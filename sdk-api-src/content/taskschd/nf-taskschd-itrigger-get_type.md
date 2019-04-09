@@ -7,7 +7,7 @@ old-location: taskschd\itrigger_type.htm
 tech.root: taskschd
 ms.assetid: 71e3915e-28d6-46fa-8f7a-8b4a6afa31c6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITrigger interface [Task Scheduler],Type property, ITrigger.Type, ITrigger.get_Type, ITrigger::Type, ITrigger::get_Type, TASK_TRIGGER_BOOT, TASK_TRIGGER_DAILY, TASK_TRIGGER_EVENT, TASK_TRIGGER_IDLE, TASK_TRIGGER_LOGON, TASK_TRIGGER_MONTHLY, TASK_TRIGGER_MONTHLYDOW, TASK_TRIGGER_REGISTRATION, TASK_TRIGGER_SESSION_STATE_CHANGE, TASK_TRIGGER_TIME, TASK_TRIGGER_WEEKLY, Type property [Task Scheduler], Type property [Task Scheduler],ITrigger interface, get_Type, taskschd.itrigger_type, taskschd/ITrigger::Type, taskschd/ITrigger::get_Type
 ms.topic: method
 req.header: taskschd.h

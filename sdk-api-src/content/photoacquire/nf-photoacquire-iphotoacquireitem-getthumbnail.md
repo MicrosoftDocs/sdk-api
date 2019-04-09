@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquireitem_getthumbnail.htm
 tech.root: acquisition
 ms.assetid: a347dc8b-7e95-4830-b848-ac3e7d495b3b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetThumbnail, GetThumbnail method [Picture Acquisition], GetThumbnail method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],GetThumbnail method, IPhotoAcquireItem.GetThumbnail, IPhotoAcquireItem::GetThumbnail, IPhotoAcquireItemGetThumbnail, photoacquire/IPhotoAcquireItem::GetThumbnail, picacq.iphotoacquireitem_getthumbnail
 ms.topic: method
 req.header: photoacquire.h

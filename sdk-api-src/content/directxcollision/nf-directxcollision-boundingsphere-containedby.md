@@ -7,7 +7,7 @@ old-location: dxmath\boundingsphere_containedby.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingSphere.ContainedBy(XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BoundingSphere interface [DirectX Math Support APIs],ContainedBy method, BoundingSphere.ContainedBy, BoundingSphere::ContainedBy, ContainedBy, ContainedBy method [DirectX Math Support APIs], ContainedBy method [DirectX Math Support APIs],BoundingSphere interface, dxmath.boundingsphere_containedby
 ms.topic: method
 req.header: directxcollision.h

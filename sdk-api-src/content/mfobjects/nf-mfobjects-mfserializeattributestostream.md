@@ -7,7 +7,7 @@ old-location: mf\mfserializeattributestostream.htm
 tech.root: medfound
 ms.assetid: b8bc88e5-19ae-46b3-aa78-a00afee1f481
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MFSerializeAttributesToStream, MFSerializeAttributesToStream function [Media Foundation], b8bc88e5-19ae-46b3-aa78-a00afee1f481, mf.mfserializeattributestostream, mfobjects/MFSerializeAttributesToStream
 ms.topic: function
 req.header: mfobjects.h

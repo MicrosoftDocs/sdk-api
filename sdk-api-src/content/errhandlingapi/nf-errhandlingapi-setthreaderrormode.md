@@ -7,7 +7,7 @@ old-location: base\setthreaderrormode.htm
 tech.root: Debug
 ms.assetid: f5acb4ba-d328-47c2-8c41-17df197f12ea
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SEM_FAILCRITICALERRORS, SEM_NOGPFAULTERRORBOX, SEM_NOOPENFILEERRORBOX, SetThreadErrorMode, SetThreadErrorMode function, base.setthreaderrormode, errhandlingapi/SetThreadErrorMode
 ms.topic: function
 req.header: errhandlingapi.h

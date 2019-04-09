@@ -7,7 +7,7 @@ old-location: setup\imsmmerge_opendatabase.htm
 tech.root: Msi
 ms.assetid: cafe02a0-2e86-43f6-9cde-e3dd23bdfc4c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMsmMerge interface,OpenDatabase method, IMsmMerge.OpenDatabase, IMsmMerge::OpenDatabase, OpenDatabase, OpenDatabase method, OpenDatabase method,IMsmMerge interface, _msi_opendatabase_function, mergemod/IMsmMerge::OpenDatabase, setup.imsmmerge_opendatabase
 ms.topic: method
 req.header: mergemod.h

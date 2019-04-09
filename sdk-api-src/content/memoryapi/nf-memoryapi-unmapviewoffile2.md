@@ -7,7 +7,7 @@ old-location: base\unmapviewoffile2.htm
 tech.root: Memory
 ms.assetid: 300BA329-1E56-4C0F-81FC-FED42FCE9EB7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MEM_PRESERVE_PLACEHOLDER, MEM_UNMAP_WITH_TRANSIENT_BOOST, UnmapViewOfFile2, UnmapViewOfFile2 function, base.unmapviewoffile2, winbase/UnmapViewOfFile2
 ms.topic: function
 req.header: memoryapi.h

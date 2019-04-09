@@ -7,7 +7,7 @@ old-location: upnp\iupnpdescriptiondocument.htm
 tech.root: upnp
 ms.assetid: 25bd3abd-b270-4609-93bb-a786ccaa95dd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IUPnPDescriptionDocument, IUPnPDescriptionDocument interface [UPnP APIs], IUPnPDescriptionDocument interface [UPnP APIs],described, _upnp_iupnpdescriptiondocument, upnp.iupnpdescriptiondocument, upnp/IUPnPDescriptionDocument
 ms.topic: interface
 req.header: upnp.h

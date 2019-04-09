@@ -7,7 +7,7 @@ old-location: mmc\icomponentdata2.htm
 tech.root: mmc
 ms.assetid: 75510d73-3d5e-4d4c-a38c-c560a41a0baa
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IComponentData2, IComponentData2 interface [MMC], IComponentData2 interface [MMC],described, _slate_icomponentdata2, mmc.icomponentdata2, mmc/IComponentData2
 ms.topic: interface
 req.header: mmc.h

@@ -7,7 +7,7 @@ old-location: base\leavecriticalsection.htm
 tech.root: Sync
 ms.assetid: cf740e1d-351f-478c-bdbb-4a776b84acc5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: LeaveCriticalSection, LeaveCriticalSection function, _win32_leavecriticalsection, base.leavecriticalsection, synchapi/LeaveCriticalSection, winbase/LeaveCriticalSection
 ms.topic: function
 req.header: synchapi.h

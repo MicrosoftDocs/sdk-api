@@ -7,7 +7,7 @@ old-location: smi\isettingscontext_getuserdata.htm
 tech.root: SMI
 ms.assetid: 9054edee-9751-4aaa-a9bb-65badfb34fc6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetUserData, GetUserData method [SMI], GetUserData method [SMI],ISettingsContext interface, ISettingsContext interface [SMI],GetUserData method, ISettingsContext.GetUserData, ISettingsContext::GetUserData, smi.isettingscontext_getuserdata, wcmconfig/ISettingsContext::GetUserData
 ms.topic: method
 req.header: wcmconfig.h

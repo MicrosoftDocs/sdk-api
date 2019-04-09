@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDescri
 tech.root: WinAuto
 ms.assetid: bdadeb0f-4739-4d0c-bd41-17ac9addf933
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CurrentDescription property [Windows Accessibility], CurrentDescription property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CurrentDescription property, IUIAutomationLegacyIAccessiblePattern.CurrentDescription, IUIAutomationLegacyIAccessiblePattern.get_CurrentDescription, IUIAutomationLegacyIAccessiblePattern::CurrentDescription, IUIAutomationLegacyIAccessiblePattern::get_CurrentDescription, get_CurrentDescription, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDescription, uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDescription, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentDescription, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentDescription, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDescription
 ms.topic: method
 req.header: uiautomationclient.h

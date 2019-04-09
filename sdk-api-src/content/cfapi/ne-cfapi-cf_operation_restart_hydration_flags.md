@@ -7,7 +7,7 @@ old-location: cloudapi\cf_operation_restart_hydration_flags.htm
 tech.root: cfApi
 ms.assetid: 4112937A-3ED6-48F8-BFD1-52D01ABA3D72
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CF_OPERATION_RESTART_HYDRATION_FLAGS, CF_OPERATION_RESTART_HYDRATION_FLAGS enumeration, CF_OPERATION_RESTART_HYDRATION_FLAG_MARK_IN_SYNC, CF_OPERATION_RESTART_HYDRATION_FLAG_NONE, cfapi/CF_OPERATION_RESTART_HYDRATION_FLAGS, cfapi/CF_OPERATION_RESTART_HYDRATION_FLAG_MARK_IN_SYNC, cfapi/CF_OPERATION_RESTART_HYDRATION_FLAG_NONE, cloudApi.cf_operation_restart_hydration_flags
 ms.topic: enum
 req.header: cfapi.h

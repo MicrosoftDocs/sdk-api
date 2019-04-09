@@ -7,7 +7,7 @@ old-location: dxmath\xmdecn4_ctor_3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMDECN4.#ctor(float,float,float,float)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: XMDECN4, XMDECN4 constructor [DirectX Math Support APIs], XMDECN4 constructor [DirectX Math Support APIs],XMDECN4 structure, XMDECN4 structure [DirectX Math Support APIs],XMDECN4 constructor, XMDECN4.XMDECN4, XMDECN4.XMDECN4(float,float,float,float), XMDECN4::XMDECN4, XMDECN4::XMDECN4(float,float,float,float), dxmath.xmdecn4_ctor_3
 ms.topic: method
 req.header: directxpackedvector.h

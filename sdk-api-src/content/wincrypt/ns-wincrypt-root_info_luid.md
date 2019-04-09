@@ -7,7 +7,7 @@ old-location: security\root_info_luid.htm
 tech.root: SecCrypto
 ms.assetid: 5b61bbdd-a00a-4985-8066-574f9bff0079
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PROOT_INFO_LUID, PROOT_INFO_LUID, PROOT_INFO_LUID structure pointer [Security], ROOT_INFO_LUID, ROOT_INFO_LUID structure [Security], security.root_info_luid, wincrypt/PROOT_INFO_LUID, wincrypt/ROOT_INFO_LUID"
 ms.topic: struct
 req.header: wincrypt.h

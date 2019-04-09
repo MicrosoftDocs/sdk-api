@@ -7,7 +7,7 @@ old-location: p2p\peer_group_issue_credential_flags.htm
 tech.root: P2PSdk
 ms.assetid: b5397627-ffd7-453c-b829-e3e04fa9894a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PEER_GROUP_ISSUE_CREDENTIAL_FLAGS, PEER_GROUP_ISSUE_CREDENTIAL_FLAGS enumeration [Peer Networking], PEER_GROUP_STORE_CREDENTIALS, p2p.peer_group_issue_credential_flags, p2p/PEER_GROUP_ISSUE_CREDENTIAL_FLAGS, p2p/PEER_GROUP_STORE_CREDENTIALS
 ms.topic: enum
 req.header: p2p.h

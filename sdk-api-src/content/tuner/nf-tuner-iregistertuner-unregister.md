@@ -7,7 +7,7 @@ old-location: mstv\iregistertuner_unregister.htm
 tech.root: mstv
 ms.assetid: 4aa616a6-ffaf-4f7e-8eba-eb11f5b55601
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IRegisterTuner interface [Microsoft TV Technologies],Unregister method, IRegisterTuner.Unregister, IRegisterTuner::Unregister, IRegisterTunerUnregister, Unregister, Unregister method [Microsoft TV Technologies], Unregister method [Microsoft TV Technologies],IRegisterTuner interface, mstv.iregistertuner_unregister, tuner/IRegisterTuner::Unregister
 ms.topic: method
 req.header: tuner.h

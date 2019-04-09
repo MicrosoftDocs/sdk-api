@@ -7,7 +7,7 @@ old-location: mstv\ienumstreambufferrecordingattrib_skip.htm
 tech.root: mstv
 ms.assetid: 83beb8e9-f268-4ae1-a90b-548f0e3f6c99
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEnumStreamBufferRecordingAttrib interface [Microsoft TV Technologies],Skip method, IEnumStreamBufferRecordingAttrib.Skip, IEnumStreamBufferRecordingAttrib::Skip, IEnumStreamBufferRecordingAttribSkip, Skip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies],IEnumStreamBufferRecordingAttrib interface, mstv.ienumstreambufferrecordingattrib_skip, sbe/IEnumStreamBufferRecordingAttrib::Skip
 ms.topic: method
 req.header: sbe.h

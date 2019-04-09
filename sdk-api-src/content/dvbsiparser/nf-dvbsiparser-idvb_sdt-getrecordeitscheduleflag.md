@@ -7,7 +7,7 @@ old-location: mstv\idvb_sdt_getrecordeitscheduleflag.htm
 tech.root: mstv
 ms.assetid: 6f78ebf4-d882-4fdd-90a0-52ad3cd9ca1e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetRecordEITScheduleFlag, GetRecordEITScheduleFlag method [Microsoft TV Technologies], GetRecordEITScheduleFlag method [Microsoft TV Technologies],IDVB_SDT interface, IDVB_SDT interface [Microsoft TV Technologies],GetRecordEITScheduleFlag method, IDVB_SDT.GetRecordEITScheduleFlag, IDVB_SDT::GetRecordEITScheduleFlag, IDVB_SDTGetRecordEITScheduleFlag, dvbsiparser/IDVB_SDT::GetRecordEITScheduleFlag, mstv.idvb_sdt_getrecordeitscheduleflag
 ms.topic: method
 req.header: dvbsiparser.h

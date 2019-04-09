@@ -7,7 +7,7 @@ old-location: netvista\setcurrentthreadcompartmentid.htm
 tech.root: NetVista
 ms.assetid: 15c634b5-c621-430d-99d7-c55ad8b6864e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SetCurrentThreadCompartmentId, SetCurrentThreadCompartmentId function [Network Drivers Starting with Windows Vista], iphelper_955bc56f-f531-4937-8175-288ec03ef9af.xml, netioapi/SetCurrentThreadCompartmentId, netvista.setcurrentthreadcompartmentid
 ms.topic: function
 req.header: netioapi.h

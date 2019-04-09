@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1DCRenderTarget_BindDC.htm
 tech.root: Direct2D
 ms.assetid: a5e98470-9a9f-4a85-b00f-afb2ead3fb31
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BindDC, BindDC method [Direct2D], BindDC method [Direct2D],ID2D1DCRenderTarget interface, ID2D1DCRenderTarget interface [Direct2D],BindDC method, ID2D1DCRenderTarget.BindDC, ID2D1DCRenderTarget::BindDC, d2d1/ID2D1DCRenderTarget::BindDC, direct2d.ID2D1DCRenderTarget_BindDC
 ms.topic: method
 req.header: d2d1.h

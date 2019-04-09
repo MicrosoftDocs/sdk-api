@@ -7,7 +7,7 @@ old-location: devinst\sp_drvinfo_data.htm
 tech.root: devinst
 ms.assetid: 13cdebad-6247-4651-a1d0-709e14af22f6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PSP_DRVINFO_DATA_V2_W, PSP_DRVINFO_DATA, PSP_DRVINFO_DATA structure pointer [Device and Driver Installation], SP_DRVINFO_DATA, SP_DRVINFO_DATA structure [Device and Driver Installation], SP_DRVINFO_DATA_V2, SP_DRVINFO_DATA_V2_W, SP_DRVINFO_DATA_W, devinst.sp_drvinfo_data, di-struct_738a1fa5-729a-4464-af75-05591d68eef7.xml, setupapi/PSP_DRVINFO_DATA, setupapi/SP_DRVINFO_DATA"
 ms.topic: struct
 req.header: setupapi.h

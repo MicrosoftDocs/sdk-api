@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocollistener.htm
 tech.root: TermServ
 ms.assetid: 19d3176a-3f47-46c1-8bee-8e0f1d9b466e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolListener, IWRdsProtocolListener interface [Remote Desktop Services], IWRdsProtocolListener interface [Remote Desktop Services],described, termserv.iwrdsprotocollistener, wtsprotocol/IWRdsProtocolListener
 ms.topic: interface
 req.header: wtsprotocol.h

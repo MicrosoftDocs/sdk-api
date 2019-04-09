@@ -7,7 +7,7 @@ old-location: rras\rtmreleasedests.htm
 tech.root: RRAS
 ms.assetid: eb338b7f-8461-4980-b92f-09d976661ff2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RtmReleaseDests, RtmReleaseDests function [RAS], _rtmv2ref_rtmreleasedests, rras.rtmreleasedests, rtmv2/RtmReleaseDests
 ms.topic: function
 req.header: rtmv2.h

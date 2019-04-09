@@ -7,7 +7,7 @@ old-location: direct2d\colorf.htm
 tech.root: Direct2D
 ms.assetid: 36f5cf3e-00a4-45d2-816c-85c18eb948f4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ColorF, ColorF class [Direct2D], ColorF class [Direct2D],described, D2D1.ColorF, d2d1/ColorF, direct2d.colorf
 ms.topic: class
 req.header: d2d1helper.h

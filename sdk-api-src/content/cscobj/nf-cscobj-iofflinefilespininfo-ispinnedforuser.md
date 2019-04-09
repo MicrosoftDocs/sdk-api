@@ -7,7 +7,7 @@ old-location: of\iofflinefilespininfo_ispinnedforuser.htm
 tech.root: offlinefiles
 ms.assetid: d0064423-b173-40e5-96c6-dd6dcf05598d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IOfflineFilesPinInfo interface [Offline Files],IsPinnedForUser method, IOfflineFilesPinInfo.IsPinnedForUser, IOfflineFilesPinInfo::IsPinnedForUser, IsPinnedForUser, IsPinnedForUser method [Offline Files], IsPinnedForUser method [Offline Files],IOfflineFilesPinInfo interface, cscobj/IOfflineFilesPinInfo::IsPinnedForUser, of.iofflinefilespininfo_ispinnedforuser
 ms.topic: method
 req.header: cscobj.h

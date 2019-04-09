@@ -7,7 +7,7 @@ old-location: base\getcurrentprocess.htm
 tech.root: ProcThread
 ms.assetid: 0471790c-3bb9-4180-8676-941e655b1812
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetCurrentProcess, GetCurrentProcess function, _win32_getcurrentprocess, base.getcurrentprocess, processthreadsapi/GetCurrentProcess, winbase/GetCurrentProcess
 ms.topic: function
 req.header: processthreadsapi.h

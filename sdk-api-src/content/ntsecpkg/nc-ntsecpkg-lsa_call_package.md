@@ -7,7 +7,7 @@ old-location: security\callpackage.htm
 tech.root: SecAuthN
 ms.assetid: 770c41ab-df79-4371-9f1d-7bbce8193b5d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CallPackage, CallPackage callback function [Security], LSA_CALL_PACKAGE, LSA_CALL_PACKAGE callback, _ssp_callpackage, ntsecpkg/CallPackage, security.callpackage
 ms.topic: callback
 req.header: ntsecpkg.h

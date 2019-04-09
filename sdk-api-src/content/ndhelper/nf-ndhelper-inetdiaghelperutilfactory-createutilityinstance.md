@@ -7,7 +7,7 @@ old-location: ndf\inetdiaghelperutilfactory_createutilityinstance.htm
 tech.root: NDF
 ms.assetid: 6a56b5bf-1f1a-49c3-8535-34fe87c0c786
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateUtilityInstance, CreateUtilityInstance method [NDF], CreateUtilityInstance method [NDF],INetDiagHelperUtilFactory interface, INetDiagHelperUtilFactory interface [NDF],CreateUtilityInstance method, INetDiagHelperUtilFactory.CreateUtilityInstance, INetDiagHelperUtilFactory::CreateUtilityInstance, ndf.inetdiaghelperutilfactory_createutilityinstance, ndhelper/INetDiagHelperUtilFactory::CreateUtilityInstance
 ms.topic: method
 req.header: ndhelper.h

@@ -7,7 +7,7 @@ old-location: display\rectl.htm
 tech.root: display
 ms.assetid: 709f8262-829e-4cda-bb0b-564307edfd24
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPRECTL, *PRECTL, LPRECTL, LPRECTL structure pointer [Display Devices], PRECTL, PRECTL structure pointer [Display Devices], RECTL, RECTL structure [Display Devices], display.rectl, grstrcts_9ae84b3b-7f9e-4296-a6da-4565cd170470.xml, windef/LPRECTL, windef/PRECTL, windef/RECTL"
 ms.topic: struct
 req.header: windef.h

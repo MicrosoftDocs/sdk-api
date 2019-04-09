@@ -7,7 +7,7 @@ old-location: base\removevectoredcontinuehandler.htm
 tech.root: Debug
 ms.assetid: aed0bb01-a0f3-49c8-9d4a-ab8ddc09fc17
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RemoveVectoredContinueHandler, RemoveVectoredContinueHandler function, base.removevectoredcontinuehandler, errhandlingapi/RemoveVectoredContinueHandler
 ms.topic: function
 req.header: errhandlingapi.h

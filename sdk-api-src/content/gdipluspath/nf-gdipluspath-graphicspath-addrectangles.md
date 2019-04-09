@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddRectangles_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddrectanglesmethods.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AddRectangles, AddRectangles methods [GDI+], GraphicsPath.AddRectangles, GraphicsPath::AddRectangles, _gdiplus_CLASS_GraphicsPath_AddRectangles_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddRectangles_Methods, gdipluspath/AddRectangles
 ms.topic: method
 req.header: gdipluspath.h

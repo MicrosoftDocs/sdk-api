@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9ex_createrendertargetex.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_createrendertargetex.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 78a5ebad-c705-e895-65b2-37612b0e204e, CreateRenderTargetEx, CreateRenderTargetEx method [Direct3D 9], CreateRenderTargetEx method [Direct3D 9],IDirect3DDevice9Ex interface, IDirect3DDevice9Ex interface [Direct3D 9],CreateRenderTargetEx method, IDirect3DDevice9Ex.CreateRenderTargetEx, IDirect3DDevice9Ex::CreateRenderTargetEx, d3d9/IDirect3DDevice9Ex::CreateRenderTargetEx, direct3d9.idirect3ddevice9ex_createrendertargetex
 ms.topic: method
 req.header: d3d9.h

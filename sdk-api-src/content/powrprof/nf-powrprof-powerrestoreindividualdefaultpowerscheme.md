@@ -7,7 +7,7 @@ old-location: base\powerrestoreindividualdefaultpowerscheme.htm
 tech.root: power
 ms.assetid: f1a9cfb1-1b56-4873-994b-7fe929fdc86c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PowerRestoreIndividualDefaultPowerScheme, PowerRestoreIndividualDefaultPowerScheme function, base.powerrestoreindividualdefaultpowerscheme, powrprof/PowerRestoreIndividualDefaultPowerScheme
 ms.topic: function
 req.header: powrprof.h

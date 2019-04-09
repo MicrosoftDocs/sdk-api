@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_meta_command_desc.htm
 tech.root: direct3d12
 ms.assetid: 0783068A-21D0-4316-9F50-8566535747C8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: D3D12_META_COMMAND_DESC, D3D12_META_COMMAND_DESC structure, d3d12/D3D12_META_COMMAND_DESC, direct3d12.d3d12_meta_command_desc
 ms.topic: struct
 req.header: d3d12.h

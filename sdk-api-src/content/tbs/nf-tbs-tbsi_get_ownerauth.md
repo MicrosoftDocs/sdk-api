@@ -7,7 +7,7 @@ old-location: tbs\tbsi_get_ownerauth.htm
 tech.root: TBS
 ms.assetid: 9D265AD2-F992-4756-9A2D-03DADB69C7DC
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TBS_OWNERAUTH_TYPE_ADMIN, TBS_OWNERAUTH_TYPE_ENDORSEMENT, TBS_OWNERAUTH_TYPE_ENDORSEMENT_20, TBS_OWNERAUTH_TYPE_FULL, TBS_OWNERAUTH_TYPE_STORAGE_20, TBS_OWNERAUTH_TYPE_USER, Tbsi_Get_OwnerAuth, Tbsi_Get_OwnerAuth function [TBS], tbs.tbsi_get_ownerauth, tbs/Tbsi_Get_OwnerAuth
 ms.topic: function
 req.header: tbs.h

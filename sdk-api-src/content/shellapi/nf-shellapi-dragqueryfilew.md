@@ -7,7 +7,7 @@ old-location: shell\DragQueryFile.htm
 tech.root: shell
 ms.assetid: 93fab381-9035-46c4-ba9d-efb2d0801d84
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DragQueryFile, DragQueryFile function [Windows Shell], DragQueryFileA, DragQueryFileW, _win32_DragQueryFile, shell.DragQueryFile, shellapi/DragQueryFile, shellapi/DragQueryFileA, shellapi/DragQueryFileW
 ms.topic: function
 req.header: shellapi.h

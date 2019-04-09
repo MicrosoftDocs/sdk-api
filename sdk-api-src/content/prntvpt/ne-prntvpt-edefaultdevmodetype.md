@@ -7,7 +7,7 @@ old-location: gdi\edefaultdevmodetype.htm
 tech.root: printdocs
 ms.assetid: f3144ff6-1228-4e17-b118-fe70136edeea
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EDefaultDevmodeType, EDefaultDevmodeType enumeration [Windows GDI], _win32_EDefaultDevmodeType, gdi.edefaultdevmodetype, kPrinterDefaultDevmode, kUserDefaultDevmode, prntvpt/EDefaultDevmodeType, prntvpt/kPrinterDefaultDevmode, prntvpt/kUserDefaultDevmode
 ms.topic: enum
 req.header: prntvpt.h

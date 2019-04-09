@@ -7,7 +7,7 @@ old-location: gdi\realizepalette.htm
 tech.root: gdi
 ms.assetid: 1c744ad2-09bc-455f-bc3c-9a2583b57a30
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RealizePalette, RealizePalette function [Windows GDI], _win32_RealizePalette, gdi.realizepalette, wingdi/RealizePalette
 ms.topic: function
 req.header: wingdi.h

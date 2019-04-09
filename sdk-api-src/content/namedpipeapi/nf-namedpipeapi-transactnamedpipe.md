@@ -7,7 +7,7 @@ old-location: base\transactnamedpipe.htm
 tech.root: ipc
 ms.assetid: 79afcb18-babb-453e-8618-81b43ecb24c4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TransactNamedPipe, TransactNamedPipe function, _win32_transactnamedpipe, base.transactnamedpipe, namedpipeapi/TransactNamedPipe
 ms.topic: function
 req.header: namedpipeapi.h

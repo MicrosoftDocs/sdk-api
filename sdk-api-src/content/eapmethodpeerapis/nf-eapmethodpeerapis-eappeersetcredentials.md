@@ -7,7 +7,7 @@ old-location: eaphost\eappeersetcredentials.htm
 tech.root: eaphost
 ms.assetid: d50a72bd-0b3f-4b68-be96-5debb3fd99f8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EapPeerSetCredentials, EapPeerSetCredentials function [EAPHost], eaphost.eappeersetcredentials, eapmethodpeerapis/EapPeerSetCredentials
 ms.topic: function
 req.header: eapmethodpeerapis.h

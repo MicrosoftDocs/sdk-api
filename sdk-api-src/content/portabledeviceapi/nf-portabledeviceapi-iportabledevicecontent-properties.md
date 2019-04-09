@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicecontent_properties.htm
 tech.root: wpd_sdk
 ms.assetid: bc3ba717-1be3-4f29-ac27-6bdcbc5ed94f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IPortableDeviceContent interface [Windows Portable Devices SDK],Properties method, IPortableDeviceContent.Properties, IPortableDeviceContent::Properties, IPortableDeviceContentProperties, Properties, Properties method [Windows Portable Devices SDK], Properties method [Windows Portable Devices SDK],IPortableDeviceContent interface, portabledeviceapi/IPortableDeviceContent::Properties, wpdsdk.iportabledevicecontent_properties
 ms.topic: method
 req.header: portabledeviceapi.h

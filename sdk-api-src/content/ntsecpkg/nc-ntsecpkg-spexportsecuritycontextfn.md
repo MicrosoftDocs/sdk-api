@@ -7,7 +7,7 @@ old-location: security\spexportsecuritycontext.htm
 tech.root: SecAuthN
 ms.assetid: 0c8cafb3-aaf5-4937-91dc-e534bb6e4caf
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SECPKG_CONTEXT_EXPORT_DELETE_OLD, SECPKG_CONTEXT_EXPORT_RESET_NEW, SpExportSecurityContext, SpExportSecurityContext callback function [Security], SpExportSecurityContextFn, SpExportSecurityContextFn callback, _ssp_spexportsecuritycontext, ntsecpkg/SpExportSecurityContext, security.spexportsecuritycontext
 ms.topic: callback
 req.header: ntsecpkg.h

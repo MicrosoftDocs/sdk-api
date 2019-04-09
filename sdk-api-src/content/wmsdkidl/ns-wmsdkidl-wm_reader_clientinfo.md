@@ -7,7 +7,7 @@ old-location: wmformat\wm_reader_clientinfo.htm
 tech.root: wmformat
 ms.assetid: 9c8d1534-976d-4a9e-9c89-368e1a11bd26
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WM_READER_CLIENTINFO, WM_READER_CLIENTINFO structure [windows Media Format], wmformat.wm_reader_clientinfo, wmsdkidl/WM_READER_CLIENTINFO
 ms.topic: struct
 req.header: wmsdkidl.h

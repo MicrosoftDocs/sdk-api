@@ -7,7 +7,7 @@ old-location: base\ivsssoftwaresnapshotprovider_getsnapshotproperties.htm
 tech.root: VSS
 ms.assetid: 59886344-d594-4eb8-9718-ab11a6627e8e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetSnapshotProperties, GetSnapshotProperties method, GetSnapshotProperties method,IVssSoftwareSnapshotProvider interface, IVssSoftwareSnapshotProvider interface,GetSnapshotProperties method, IVssSoftwareSnapshotProvider.GetSnapshotProperties, IVssSoftwareSnapshotProvider::GetSnapshotProperties, base.ivsssoftwaresnapshotprovider_getsnapshotproperties, vsprov/IVssSoftwareSnapshotProvider::GetSnapshotProperties
 ms.topic: method
 req.header: vsprov.h

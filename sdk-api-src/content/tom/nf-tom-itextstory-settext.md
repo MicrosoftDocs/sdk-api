@@ -7,7 +7,7 @@ old-location: controls\itextstory_settext.htm
 tech.root: Controls
 ms.assetid: 9efd45ed-00f7-47e1-90e7-82a420e79bdf
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITextStory interface [Windows Controls],SetText method, ITextStory.SetText, ITextStory::SetText, SetText, SetText method [Windows Controls], SetText method [Windows Controls],ITextStory interface, controls.itextstory_settext, tom/ITextStory::SetText, tomCheckTextLimit, tomMathCFCheck, tomUnhide, tomUnicodeBiDi, tomUnlink
 ms.topic: method
 req.header: tom.h

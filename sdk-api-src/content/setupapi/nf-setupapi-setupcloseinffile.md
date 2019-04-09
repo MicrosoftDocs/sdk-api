@@ -7,7 +7,7 @@ old-location: setup\setupcloseinffile.htm
 tech.root: SetupApi
 ms.assetid: 78b6a69d-e588-45f1-bf5c-a6feaf8b3364
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SetupCloseInfFile, SetupCloseInfFile function [Setup API], _setupapi_setupcloseinffile, setup.setupcloseinffile, setupapi/SetupCloseInfFile
 ms.topic: function
 req.header: setupapi.h

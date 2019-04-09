@@ -7,7 +7,7 @@ old-location: termserv\itssbfilterpluginstore.htm
 tech.root: TermServ
 ms.assetid: 59541fc2-0063-41ca-bcfe-536bb1742c6e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITsSbFilterPluginStore, ITsSbFilterPluginStore interface [Remote Desktop Services], ITsSbFilterPluginStore interface [Remote Desktop Services],described, sbtsv/ITsSbFilterPluginStore, termserv.itssbfilterpluginstore
 ms.topic: interface
 req.header: sbtsv.h

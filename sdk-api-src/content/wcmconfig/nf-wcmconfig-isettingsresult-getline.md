@@ -7,7 +7,7 @@ old-location: smi\isettingsresult_getline.htm
 tech.root: SMI
 ms.assetid: c74beea9-5e81-4cd2-ade2-c812b6a035a1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetLine, GetLine method [SMI], GetLine method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetLine method, ISettingsResult.GetLine, ISettingsResult::GetLine, smi.isettingsresult_getline, wcmconfig/ISettingsResult::GetLine
 ms.topic: method
 req.header: wcmconfig.h

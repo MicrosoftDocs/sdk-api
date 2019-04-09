@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpipelinemoduledefinition_enabled.htm
 tech.root: fsrm
 ms.assetid: 808abe6d-384b-4d75-a792-0896297cfe4c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Enabled property [File Server Resource Manager], Enabled property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, IFsrmPipelineModuleDefinition interface [File Server Resource Manager],Enabled property, IFsrmPipelineModuleDefinition.Enabled, IFsrmPipelineModuleDefinition.put_Enabled, IFsrmPipelineModuleDefinition::Enabled, IFsrmPipelineModuleDefinition::get_Enabled, IFsrmPipelineModuleDefinition::put_Enabled, fs.ifsrmpipelinemoduledefinition_enabled, fsrm.ifsrmpipelinemoduledefinition_enabled, fsrmpipeline/IFsrmPipelineModuleDefinition::Enabled, fsrmpipeline/IFsrmPipelineModuleDefinition::get_Enabled, fsrmpipeline/IFsrmPipelineModuleDefinition::put_Enabled, put_Enabled
 ms.topic: method
 req.header: fsrmpipeline.h

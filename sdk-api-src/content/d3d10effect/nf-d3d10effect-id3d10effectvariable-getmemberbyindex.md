@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectvariable_getmemberbyindex.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_getmemberbyindex.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetMemberByIndex, GetMemberByIndex method [Direct3D 10], GetMemberByIndex method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],GetMemberByIndex method, ID3D10EffectVariable.GetMemberByIndex, ID3D10EffectVariable::GetMemberByIndex, d3d10effect/ID3D10EffectVariable::GetMemberByIndex, direct3d10.id3d10effectvariable_getmemberbyindex, fa133b0d-50ce-9480-c0e6-b65721679e9d
 ms.topic: method
 req.header: d3d10effect.h

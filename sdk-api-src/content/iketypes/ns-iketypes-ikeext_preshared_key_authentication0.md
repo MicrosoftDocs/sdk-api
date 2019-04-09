@@ -7,7 +7,7 @@ old-location: fwp\ikeext_preshared_key_authentication0.htm
 tech.root: fwp
 ms.assetid: 44cd2a76-cd8a-4c52-af41-927b13862c1e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IKEEXT_PRESHARED_KEY_AUTHENTICATION0, IKEEXT_PRESHARED_KEY_AUTHENTICATION0 structure [Filtering], fwp.ikeext_preshared_key_authentication0, iketypes/IKEEXT_PRESHARED_KEY_AUTHENTICATION0
 ms.topic: struct
 req.header: iketypes.h

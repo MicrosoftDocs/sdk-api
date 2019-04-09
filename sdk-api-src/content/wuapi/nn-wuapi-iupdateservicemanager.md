@@ -7,7 +7,7 @@ old-location: wua\iupdateservicemanager.htm
 tech.root: Wua_Sdk
 ms.assetid: 99b451b8-9831-475c-a4b0-7809f78d91b8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IUpdateServiceManager, IUpdateServiceManager interface [Windows Update Agent], IUpdateServiceManager interface [Windows Update Agent],described, wua.iupdateservicemanager, wuapi/IUpdateServiceManager
 ms.topic: interface
 req.header: wuapi.h

@@ -7,7 +7,7 @@ old-location: http\http_greater_equal_version.htm
 tech.root: http
 ms.assetid: 2e3a7b3a-fc3b-4980-b1f7-72a18276388b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: HTTP_GREATER_EQUAL_VERSION, HTTP_GREATER_EQUAL_VERSION macro [HTTP], _http_http_greater_equal_version, http.http_greater_equal_version, http/HTTP_GREATER_EQUAL_VERSION
 ms.topic: macro
 req.header: http.h

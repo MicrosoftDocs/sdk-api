@@ -7,7 +7,7 @@ old-location: wsw\wspullbytes.htm
 tech.root: wsw
 ms.assetid: 39e25db6-e51f-45cb-9739-260e7c246fcc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WsPullBytes, WsPullBytes function [Web Services for Windows], webservices/WsPullBytes, wsw.wspullbytes
 ms.topic: function
 req.header: webservices.h

@@ -7,7 +7,7 @@ old-location: dxmath\xmshort2_ctor_4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMSHORT2.#ctor(float,float)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: XMSHORT2, XMSHORT2 constructor [DirectX Math Support APIs], XMSHORT2 constructor [DirectX Math Support APIs],XMSHORT2 structure, XMSHORT2 structure [DirectX Math Support APIs],XMSHORT2 constructor, XMSHORT2.XMSHORT2, XMSHORT2.XMSHORT2(float,float), XMSHORT2::XMSHORT2, XMSHORT2::XMSHORT2(float,float), dxmath.xmshort2_ctor_4
 ms.topic: method
 req.header: directxpackedvector.h

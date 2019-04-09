@@ -7,7 +7,7 @@ old-location: mstv\itunercap_get_supportednetworktypes.htm
 tech.root: mstv
 ms.assetid: 9763a977-c19a-4e6e-bcd6-93dabd357fbe
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITunerCap interface [Microsoft TV Technologies],get_SupportedNetworkTypes method, ITunerCap.get_SupportedNetworkTypes, ITunerCap::get_SupportedNetworkTypes, ITunerCapget_SupportedNetworkTypes, get_SupportedNetworkTypes, get_SupportedNetworkTypes method [Microsoft TV Technologies], get_SupportedNetworkTypes method [Microsoft TV Technologies],ITunerCap interface, mstv.itunercap_get_supportednetworktypes, tuner/ITunerCap::get_SupportedNetworkTypes
 ms.topic: method
 req.header: tuner.h

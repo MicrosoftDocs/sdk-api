@@ -7,7 +7,7 @@ old-location: base\ivdsdiskpartitionmf2.htm
 tech.root: VDS
 ms.assetid: 94a8ef66-3daf-46d4-be5f-dd56739c773a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVdsDiskPartitionMF2, IVdsDiskPartitionMF2 interface, IVdsDiskPartitionMF2 interface,described, base.ivdsdiskpartitionmf2, vds/IVdsDiskPartitionMF2
 ms.topic: interface
 req.header: vds.h

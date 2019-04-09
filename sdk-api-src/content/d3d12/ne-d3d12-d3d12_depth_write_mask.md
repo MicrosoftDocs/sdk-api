@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_depth_write_mask.htm
 tech.root: direct3d12
 ms.assetid: 28037BEA-3525-4EBC-973B-421C77629ECB
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: D3D12_DEPTH_WRITE_MASK, D3D12_DEPTH_WRITE_MASK enumeration, D3D12_DEPTH_WRITE_MASK_ALL, D3D12_DEPTH_WRITE_MASK_ZERO, d3d12/D3D12_DEPTH_WRITE_MASK, d3d12/D3D12_DEPTH_WRITE_MASK_ALL, d3d12/D3D12_DEPTH_WRITE_MASK_ZERO, direct3d12.d3d12_depth_write_mask
 ms.topic: enum
 req.header: d3d12.h

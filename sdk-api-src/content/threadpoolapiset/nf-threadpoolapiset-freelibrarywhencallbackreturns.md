@@ -7,7 +7,7 @@ old-location: base\freelibrarywhencallbackreturns.htm
 tech.root: ProcThread
 ms.assetid: a29ba988-5d66-4914-9e37-a229bce75af2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FreeLibraryWhenCallbackReturns, FreeLibraryWhenCallbackReturns function, base.freelibrarywhencallbackreturns, threadpoolapiset/FreeLibraryWhenCallbackReturns, winbase/FreeLibraryWhenCallbackReturns
 ms.topic: function
 req.header: threadpoolapiset.h

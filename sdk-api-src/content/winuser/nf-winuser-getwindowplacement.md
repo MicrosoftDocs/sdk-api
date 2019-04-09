@@ -7,7 +7,7 @@ old-location: winmsg\getwindowplacement.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getwindowplacement.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetWindowPlacement, GetWindowPlacement function [Windows and Messages], _win32_GetWindowPlacement, _win32_getwindowplacement_cpp, winmsg.getwindowplacement, winui._win32_getwindowplacement, winuser/GetWindowPlacement
 ms.topic: function
 req.header: winuser.h

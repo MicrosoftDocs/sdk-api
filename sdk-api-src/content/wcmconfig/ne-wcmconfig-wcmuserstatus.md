@@ -7,7 +7,7 @@ old-location: smi\wcmuserstatus.htm
 tech.root: SMI
 ms.assetid: 1a21d53f-cc0d-48ac-8d38-c53d5ac09878
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: UnknownStatus, UserLoaded, UserRegistered, UserUnloaded, UserUnregistered, WcmUserStatus, WcmUserStatus enumeration [SMI], smi.wcmuserstatus, wcmconfig/UnknownStatus, wcmconfig/UserLoaded, wcmconfig/UserRegistered, wcmconfig/UserUnloaded, wcmconfig/UserUnregistered, wcmconfig/WcmUserStatus
 ms.topic: enum
 req.header: wcmconfig.h

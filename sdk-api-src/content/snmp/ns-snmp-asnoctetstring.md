@@ -7,7 +7,7 @@ old-location: snmp\asnoctetstring_str.htm
 tech.root: SNMP
 ms.assetid: d58c54e2-0479-408f-977d-63409e5f500e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AsnBits, AsnDisplayString, AsnIPAddress, AsnImplicitSequence, AsnNetworkAddress, AsnOctetString, AsnOctetString structure [SNMP], AsnOpaque, AsnSequence, _snmp_asnoctetstring_str, snmp.asnoctetstring_str, snmp/AsnOctetString
 ms.topic: struct
 req.header: snmp.h

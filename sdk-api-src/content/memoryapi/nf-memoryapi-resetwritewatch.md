@@ -7,7 +7,7 @@ old-location: base\resetwritewatch.htm
 tech.root: Memory
 ms.assetid: afbc5a58-01e2-4f32-bc47-351fe846e4a5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ResetWriteWatch, ResetWriteWatch function, _win32_resetwritewatch, base.resetwritewatch, winbase/ResetWriteWatch
 ms.topic: function
 req.header: memoryapi.h

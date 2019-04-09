@@ -7,7 +7,7 @@ old-location: fs\write_through.htm
 tech.root: FileIO
 ms.assetid: 8bb26be1-ad02-4cf0-8505-021f922f34bf
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WRITE_THROUGH, WRITE_THROUGH enumeration [Files], WriteThroughNotSupported, WriteThroughSupported, WriteThroughUnknown, fs.write_through, winioctl/WRITE_THROUGH, winioctl/WriteThroughNotSupported, winioctl/WriteThroughSupported, winioctl/WriteThroughUnknown
 ms.topic: enum
 req.header: winioctl.h

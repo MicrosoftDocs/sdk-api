@@ -7,7 +7,7 @@ old-location: hid\joyreghwvalues.htm
 tech.root: hid
 ms.assetid: cd59611f-7bf2-4bba-80dc-f54c815af3e6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPJOYREGHWVALUES, FAR *LPJOYREGHWVALUES, FAR *LPJOYREGHWVALUES structure [Human Input Devices], JOYREGHWVALUES, JOYREGHWVALUES structure [Human Input Devices], di_ref_bd51a1ee-82e2-417f-81a1-9732931706a3.xml, hid.joyreghwvalues, mmddk/FAR *LPJOYREGHWVALUES, mmddk/JOYREGHWVALUES"
 ms.topic: struct
 req.header: mmddk.h

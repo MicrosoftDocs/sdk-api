@@ -7,7 +7,7 @@ old-location: tapi2\linegeneratedigits.htm
 tech.root: Tapi
 ms.assetid: aa407269-06be-43e2-906e-20137e4bdb89
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_tapi2_linegeneratedigits, lineGenerateDigits, lineGenerateDigits function [TAPI 2.2], lineGenerateDigitsA, lineGenerateDigitsW, tapi/lineGenerateDigits, tapi/lineGenerateDigitsA, tapi/lineGenerateDigitsW, tapi2.linegeneratedigits"
 ms.topic: function
 req.header: tapi.h

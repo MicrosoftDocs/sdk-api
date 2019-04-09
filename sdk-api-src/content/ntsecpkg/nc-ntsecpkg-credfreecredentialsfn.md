@@ -7,7 +7,7 @@ old-location: security\credifreecredentials.htm
 tech.root: SecAuthN
 ms.assetid: 9da22201-884d-4822-a769-c2ce0d36ec73
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CredFreeCredentialsFn, CredFreeCredentialsFn callback, CrediFreeCredentials, CrediFreeCredentials callback function [Security], ntsecpkg/CrediFreeCredentials, security.credifreecredentials
 ms.topic: callback
 req.header: ntsecpkg.h

@@ -7,7 +7,7 @@ old-location: controls\itexthost2_txgetpalette.htm
 tech.root: Controls
 ms.assetid: A9881BE7-0434-40EF-9BD8-AB8EF4E31582
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxGetPalette method, ITextHost2.TxGetPalette, ITextHost2::TxGetPalette, TxGetPalette, TxGetPalette method [Windows Controls], TxGetPalette method [Windows Controls],ITextHost2 interface, controls.itexthost2_txgetpalette, textserv/ITextHost2::TxGetPalette
 ms.topic: method
 req.header: textserv.h

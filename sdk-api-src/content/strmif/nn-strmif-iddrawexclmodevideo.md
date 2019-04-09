@@ -7,7 +7,7 @@ old-location: dshow\iddrawexclmodevideo.htm
 tech.root: DirectShow
 ms.assetid: 6a846a07-f513-49e7-85e8-192a5c211515
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDDrawExclModeVideo, IDDrawExclModeVideo interface [DirectShow], IDDrawExclModeVideo interface [DirectShow],described, IDDrawExclModeVideoInterface, dshow.iddrawexclmodevideo, strmif/IDDrawExclModeVideo
 ms.topic: interface
 req.header: strmif.h

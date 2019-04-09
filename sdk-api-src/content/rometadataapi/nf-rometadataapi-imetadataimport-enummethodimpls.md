@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_enummethodimpls.htm
 tech.root: WinRT
 ms.assetid: 48df8d5a-8fd2-4b36-9fb1-6f45551c1d37
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EnumMethodImpls, EnumMethodImpls method [Windows Runtime], EnumMethodImpls method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumMethodImpls method, IMetaDataImport.EnumMethodImpls, IMetaDataImport::EnumMethodImpls, rometadataapi/IMetaDataImport::EnumMethodImpls, winrt.imetadataimport_enummethodimpls
 ms.topic: method
 req.header: rometadataapi.h

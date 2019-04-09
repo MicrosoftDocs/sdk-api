@@ -7,7 +7,7 @@ old-location: security\crediunmarshalanddecodestring.htm
 tech.root: SecAuthN
 ms.assetid: 15423c8d-ea3b-4981-b059-5828555a9e89
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CrediUnmarshalandDecodeString, CrediUnmarshalandDecodeString callback function [Security], CrediUnmarshalandDecodeStringFn, CrediUnmarshalandDecodeStringFn callback, ntsecpkg/CrediUnmarshalandDecodeString, security.crediunmarshalanddecodestring
 ms.topic: callback
 req.header: ntsecpkg.h

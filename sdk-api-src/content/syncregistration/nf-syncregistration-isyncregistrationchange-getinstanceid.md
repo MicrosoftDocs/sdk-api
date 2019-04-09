@@ -7,7 +7,7 @@ old-location: winsync\isyncregistrationchange_getinstanceid.htm
 tech.root: winsync
 ms.assetid: 2b2655f4-2a67-405d-93dc-dd8242992ce5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetInstanceId, GetInstanceId method [Windows Sync], GetInstanceId method [Windows Sync],ISyncRegistrationChange interface, ISyncRegistrationChange interface [Windows Sync],GetInstanceId method, ISyncRegistrationChange.GetInstanceId, ISyncRegistrationChange::GetInstanceId, syncregistration/ISyncRegistrationChange::GetInstanceId, winsync.isyncregistrationchange_getinstanceid
 ms.topic: method
 req.header: syncregistration.h

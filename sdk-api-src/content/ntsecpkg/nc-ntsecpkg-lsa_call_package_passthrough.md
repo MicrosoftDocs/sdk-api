@@ -7,7 +7,7 @@ old-location: security\callpackagepassthrough.htm
 tech.root: SecAuthN
 ms.assetid: 622856ca-f49e-4995-bead-7b02501a84e5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CallPackagePassthrough, CallPackagePassthrough callback function [Security], LSA_CALL_PACKAGE_PASSTHROUGH, LSA_CALL_PACKAGE_PASSTHROUGH callback, _ssp_callpackagepassthrough, ntsecpkg/CallPackagePassthrough, security.callpackagepassthrough
 ms.topic: callback
 req.header: ntsecpkg.h

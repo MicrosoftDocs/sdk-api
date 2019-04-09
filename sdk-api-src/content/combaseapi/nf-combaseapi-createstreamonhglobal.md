@@ -7,7 +7,7 @@ old-location: stg\createstreamonhglobal.htm
 tech.root: Stg
 ms.assetid: 413c107b-a943-4c02-9c00-aea708e876d7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateStreamOnHGlobal, CreateStreamOnHGlobal function [Structured Storage], _stg_createstreamonhglobal, combaseapi/CreateStreamOnHGlobal, stg.createstreamonhglobal
 ms.topic: function
 req.header: combaseapi.h

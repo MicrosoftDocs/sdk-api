@@ -7,7 +7,7 @@ old-location: tspi\tspi_linereceivemspdata.htm
 tech.root: Tapi
 ms.assetid: 90d334e7-e91d-482e-bd79-4b610fe5144d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TSPI_lineReceiveMSPData, TSPI_lineReceiveMSPData function [TAPI 2.2], _tspi_tspi_linereceivemspdata, tspi.tspi_linereceivemspdata, tspi/TSPI_lineReceiveMSPData
 ms.topic: function
 req.header: tspi.h

@@ -7,7 +7,7 @@ old-location: webdav\davunregisterauthcallback.htm
 tech.root: WebDAV
 ms.assetid: 5277d9ce-22e6-49d5-9a9c-c02993605bdf
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DavUnregisterAuthCallback, DavUnregisterAuthCallback function [WebDAV], davclnt/DavUnregisterAuthCallback, webdav.davunregisterauthcallback
 ms.topic: function
 req.header: davclnt.h

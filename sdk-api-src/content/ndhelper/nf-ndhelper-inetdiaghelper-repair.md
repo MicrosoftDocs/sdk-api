@@ -7,7 +7,7 @@ old-location: ndf\inetdiaghelpe_repair.htm
 tech.root: NDF
 ms.assetid: 1892cbc8-01fd-4536-b29e-de733b0f6732
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: INetDiagHelper interface [NDF],Repair method, INetDiagHelper.Repair, INetDiagHelper::Repair, Repair, Repair method [NDF], Repair method [NDF],INetDiagHelper interface, ndf.inetdiaghelpe_repair, ndhelper/INetDiagHelper::Repair
 ms.topic: method
 req.header: ndhelper.h

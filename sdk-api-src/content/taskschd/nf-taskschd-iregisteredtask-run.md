@@ -7,7 +7,7 @@ old-location: taskschd\iregisteredtask_run.htm
 tech.root: taskschd
 ms.assetid: 6b237ddd-e4e8-47f7-97e7-360e79841acc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],Run method, IRegisteredTask.Run, IRegisteredTask::Run, Run, Run method [Task Scheduler], Run method [Task Scheduler],IRegisteredTask interface, taskschd.iregisteredtask_run, taskschd/IRegisteredTask::Run
 ms.topic: method
 req.header: taskschd.h

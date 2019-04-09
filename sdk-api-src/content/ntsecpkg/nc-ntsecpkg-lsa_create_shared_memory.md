@@ -7,7 +7,7 @@ old-location: security\createsharedmemory.htm
 tech.root: SecAuthN
 ms.assetid: 22abafd7-1648-4bea-a0a8-0cb58333fbea
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateSharedMemory, CreateSharedMemory callback function [Security], LSA_CREATE_SHARED_MEMORY, LSA_CREATE_SHARED_MEMORY callback, _ssp_createsharedmemory, ntsecpkg/CreateSharedMemory, security.createsharedmemory
 ms.topic: callback
 req.header: ntsecpkg.h

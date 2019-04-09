@@ -7,7 +7,7 @@ old-location: ics\inetfwrule3_remotemachineauthorizedlist.htm
 tech.root: ics
 ms.assetid: 43acf254-594a-4d19-a9e4-bce0a188a9de
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: INetFwRule3 interface [ICS/ICF],RemoteMachineAuthorizedList property, INetFwRule3.RemoteMachineAuthorizedList, INetFwRule3.put_RemoteMachineAuthorizedList, INetFwRule3::RemoteMachineAuthorizedList, INetFwRule3::get_RemoteMachineAuthorizedList, INetFwRule3::put_RemoteMachineAuthorizedList, RemoteMachineAuthorizedList property [ICS/ICF], RemoteMachineAuthorizedList property [ICS/ICF],INetFwRule3 interface, ics.inetfwrule3_remotemachineauthorizedlist, netfw/INetFwRule3::RemoteMachineAuthorizedList, netfw/INetFwRule3::get_RemoteMachineAuthorizedList, netfw/INetFwRule3::put_RemoteMachineAuthorizedList, put_RemoteMachineAuthorizedList
 ms.topic: method
 req.header: netfw.h

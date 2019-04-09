@@ -7,7 +7,7 @@ old-location: mstv\istreambuffersource_setstreamsink.htm
 tech.root: mstv
 ms.assetid: 9cc53fb6-a652-43fa-a962-9bd3c67b5664
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IStreamBufferSource interface [Microsoft TV Technologies],SetStreamSink method, IStreamBufferSource.SetStreamSink, IStreamBufferSource::SetStreamSink, IStreamBufferSourceSetStreamSink, SetStreamSink, SetStreamSink method [Microsoft TV Technologies], SetStreamSink method [Microsoft TV Technologies],IStreamBufferSource interface, mstv.istreambuffersource_setstreamsink, sbe/IStreamBufferSource::SetStreamSink
 ms.topic: method
 req.header: sbe.h

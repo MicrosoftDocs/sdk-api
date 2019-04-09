@@ -7,7 +7,7 @@ old-location: mmc\snodeid.htm
 tech.root: mmc
 ms.assetid: aeaee0d8-7abf-4549-b184-326ab130fcb7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SNodeID, SNodeID structure [MMC], _slate_snodeid, mmc.snodeid, mmc/SNodeID
 ms.topic: struct
 req.header: mmc.h

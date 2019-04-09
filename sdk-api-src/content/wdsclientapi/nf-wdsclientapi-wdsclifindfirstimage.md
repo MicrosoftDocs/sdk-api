@@ -7,7 +7,7 @@ old-location: wds\wdsclifindfirstimage.htm
 tech.root: wds
 ms.assetid: 1c631022-4c2b-410d-ab24-d0b8f7df10a3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WdsCliFindFirstImage, WdsCliFindFirstImage function [Windows Deployment Services], wds.wdsclifindfirstimage, wdsclientapi/WdsCliFindFirstImage
 ms.topic: function
 req.header: wdsclientapi.h

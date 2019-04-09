@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_billingcode_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_95yd.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BillingCode property [Fax Service], BillingCode property [Fax Service],IFaxDoc interface, IFaxDoc interface [Fax Service],BillingCode property, IFaxDoc.BillingCode, IFaxDoc.get_BillingCode, IFaxDoc::BillingCode, IFaxDoc::get_BillingCode, IFaxDoc::put_BillingCode, _mfax_ifaxdoc_get_billingcode, fax._mfax_ifaxdoc_get_billingcode, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_billingcode_cpp, faxcom/IFaxDoc::BillingCode, faxcom/IFaxDoc::get_BillingCode, faxcom/IFaxDoc::put_BillingCode, get_BillingCode
 ms.topic: method
 req.header: faxcom.h

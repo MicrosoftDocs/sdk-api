@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_getuilocale.htm
 tech.root: wmi_v2
 ms.assetid: c05104c8-ecf7-447c-9cea-25a26b82bc69
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_GetUILocale, MI_DestinationOptions_GetUILocale function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetUILocale, wmi_v2.mi_destinationoptions_getuilocale
 ms.topic: function
 req.header: mi.h

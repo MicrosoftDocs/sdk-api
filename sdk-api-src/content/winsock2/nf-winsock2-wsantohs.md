@@ -7,7 +7,7 @@ old-location: winsock\wsantohs_2.htm
 tech.root: WinSock
 ms.assetid: 0a4bc3a9-9919-4dcb-8a37-af37e0243c8f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WSANtohs, WSANtohs function [Winsock], _win32_wsantohs_2, winsock.wsantohs_2, winsock2/WSANtohs
 ms.topic: function
 req.header: winsock2.h

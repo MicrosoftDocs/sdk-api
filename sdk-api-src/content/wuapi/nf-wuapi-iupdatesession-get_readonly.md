@@ -7,7 +7,7 @@ old-location: wua\iupdatesession_readonly.htm
 tech.root: Wua_Sdk
 ms.assetid: ba1e5092-33b1-4a03-b4f5-08b435706f49
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IUpdateSession interface [Windows Update Agent],ReadOnly property, IUpdateSession.ReadOnly, IUpdateSession.get_ReadOnly, IUpdateSession::ReadOnly, IUpdateSession::get_ReadOnly, ReadOnly property [Windows Update Agent], ReadOnly property [Windows Update Agent],IUpdateSession interface, get_ReadOnly, wua.iupdatesession_readonly, wuapi/IUpdateSession::ReadOnly, wuapi/IUpdateSession::get_ReadOnly
 ms.topic: method
 req.header: wuapi.h

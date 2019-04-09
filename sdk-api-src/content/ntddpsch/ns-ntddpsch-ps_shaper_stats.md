@@ -7,7 +7,7 @@ old-location: qos\ps_shaper_stats.htm
 tech.root: QOS
 ms.assetid: fd2ef45d-154a-47b0-ba40-a823f9dd6dce
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PPS_SHAPER_STATS, PPS_SHAPER_STATS, PPS_SHAPER_STATS structure pointer [QOS], PS_SHAPER_STATS, PS_SHAPER_STATS structure [QOS], _gqos_ps_shaper_stats, ntddpsch/PPS_SHAPER_STATS, ntddpsch/PS_SHAPER_STATS, qos.ps_shaper_stats"
 ms.topic: struct
 req.header: ntddpsch.h

@@ -7,7 +7,7 @@ old-location: wmformat\inssbuffer4_getpropertybyindex.htm
 tech.root: wmformat
 ms.assetid: 8812b7c9-610b-4c17-a274-55e043cfb091
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetPropertyByIndex, GetPropertyByIndex method [windows Media Format], GetPropertyByIndex method [windows Media Format],INSSBuffer4 interface, INSSBuffer4 interface [windows Media Format],GetPropertyByIndex method, INSSBuffer4.GetPropertyByIndex, INSSBuffer4::GetPropertyByIndex, INSSBuffer4GetPropertyByIndex, wmformat.inssbuffer4_getpropertybyindex, wmsbuffer/INSSBuffer4::GetPropertyByIndex
 ms.topic: method
 req.header: wmsbuffer.h

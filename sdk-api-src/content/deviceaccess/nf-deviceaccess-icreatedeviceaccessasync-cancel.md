@@ -7,7 +7,7 @@ old-location: deviceaccess\icreatedeviceaccessasync_cancel.htm
 tech.root: deviceaccess
 ms.assetid: 06e5af2d-8bd8-44b1-9ead-caa362284530
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [Device Access Broker API], Cancel method [Device Access Broker API],ICreateDeviceAccessAsync interface, ICreateDeviceAccessAsync interface [Device Access Broker API],Cancel method, ICreateDeviceAccessAsync.Cancel, ICreateDeviceAccessAsync::Cancel, deviceaccess.icreatedeviceaccessasync_cancel, deviceaccess/ICreateDeviceAccessAsync::Cancel
 ms.topic: method
 req.header: deviceaccess.h

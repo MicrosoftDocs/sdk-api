@@ -7,7 +7,7 @@ old-location: devinst\cm_enumerate_enumerators.htm
 tech.root: devinst
 ms.assetid: 85fbca44-bd3b-4654-bba2-099135c42d23
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CM_Enumerate_Enumerators, CM_Enumerate_Enumerators function [Device and Driver Installation], CM_Enumerate_EnumeratorsW, cfgmgr32/CM_Enumerate_Enumerators, cfgmgr32/CM_Enumerate_EnumeratorsW, cfgmgrfn_16448772-e0d6-4182-9cfd-52bc354ce487.xml, devinst.cm_enumerate_enumerators
 ms.topic: function
 req.header: cfgmgr32.h

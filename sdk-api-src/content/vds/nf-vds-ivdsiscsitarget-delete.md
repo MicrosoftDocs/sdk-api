@@ -7,7 +7,7 @@ old-location: base\ivdsiscsitarget_delete.htm
 tech.root: VDS
 ms.assetid: a66077bf-7a08-49f6-9a32-da99aa1d218c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsIscsiTarget interface, IVdsIscsiTarget interface [VDS],Delete method, IVdsIscsiTarget.Delete, IVdsIscsiTarget::Delete, base.ivdsiscsitarget_delete, vds/IVdsIscsiTarget::Delete, vdshwprv/IVdsIscsiTarget::Delete
 ms.topic: method
 req.header: vds.h

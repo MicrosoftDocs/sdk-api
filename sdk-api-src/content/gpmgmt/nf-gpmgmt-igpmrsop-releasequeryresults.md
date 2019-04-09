@@ -7,7 +7,7 @@ old-location: gpmc\igpmrsop_releasequeryresults.htm
 tech.root: gpmc
 ms.assetid: c2bf9050-4db0-4bf0-a063-0076ba191ff6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GPMRSOP class [GPMC],ReleaseQueryResults method, IGPMRSOP interface [GPMC],ReleaseQueryResults method, IGPMRSOP.ReleaseQueryResults, IGPMRSOP::ReleaseQueryResults, ReleaseQueryResults, ReleaseQueryResults method [GPMC], ReleaseQueryResults method [GPMC],GPMRSOP class, ReleaseQueryResults method [GPMC],IGPMRSOP interface, _win32_igpmrsop_releasequeryresults, gpmc.igpmrsop_releasequeryresults, gpmgmt/IGPMRSOP::ReleaseQueryResults
 ms.topic: method
 req.header: gpmgmt.h

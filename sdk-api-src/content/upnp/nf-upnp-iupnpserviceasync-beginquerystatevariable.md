@@ -7,7 +7,7 @@ old-location: upnp\iupnpserviceasync_beginquerystatevariable.htm
 tech.root: upnp
 ms.assetid: 1E97589C-A06B-4012-A2A2-C88BBE9B2530
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BeginQueryStateVariable, BeginQueryStateVariable method [UPnP APIs], BeginQueryStateVariable method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],BeginQueryStateVariable method, IUPnPServiceAsync.BeginQueryStateVariable, IUPnPServiceAsync::BeginQueryStateVariable, upnp.iupnpserviceasync_beginquerystatevariable, upnp/IUPnPServiceAsync::BeginQueryStateVariable
 ms.topic: method
 req.header: upnp.h

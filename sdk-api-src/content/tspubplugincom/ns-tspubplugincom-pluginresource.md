@@ -7,7 +7,7 @@ old-location: termserv\pluginresource.htm
 tech.root: TermServ
 ms.assetid: 209dee74-c52e-4e31-9d1b-1e7c6c0d0121
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: pluginResource, pluginResource structure [Remote Desktop Services], termserv.pluginresource, tspubplugincom/pluginResource
 ms.topic: struct
 req.header: tspubplugincom.h

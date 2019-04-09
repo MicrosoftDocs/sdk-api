@@ -7,7 +7,7 @@ old-location: mf\imftrustedinput.htm
 tech.root: medfound
 ms.assetid: 59a9def7-69a6-4f80-bb5e-1cb372ff6eab
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 59a9def7-69a6-4f80-bb5e-1cb372ff6eab, IMFTrustedInput, IMFTrustedInput interface [Media Foundation], IMFTrustedInput interface [Media Foundation],described, mf.imftrustedinput, mfidl/IMFTrustedInput
 ms.topic: interface
 req.header: mfidl.h

@@ -7,7 +7,7 @@ old-location: fwp\fwp_byte_array6.htm
 tech.root: fwp
 ms.assetid: 395b5c1c-988b-4d85-9b31-c1f84e02a90c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FWP_BYTE_ARRAY6, FWP_BYTE_ARRAY6 structure [Filtering], fwp.fwp_byte_array6, fwptypes/FWP_BYTE_ARRAY6
 ms.topic: struct
 req.header: fwptypes.h

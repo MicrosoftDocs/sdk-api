@@ -7,7 +7,7 @@ old-location: com\olecreateembeddinghelper.htm
 tech.root: com
 ms.assetid: 5c67b513-0692-4e0a-beab-8b514089699c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: OleCreateEmbeddingHelper, OleCreateEmbeddingHelper function [COM], _ole_OleCreateEmbeddingHelper, com.olecreateembeddinghelper, ole2/OleCreateEmbeddingHelper
 ms.topic: function
 req.header: ole2.h

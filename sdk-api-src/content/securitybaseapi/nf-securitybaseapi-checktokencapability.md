@@ -7,7 +7,7 @@ old-location: security\checktokencapability.htm
 tech.root: SecAuthZ
 ms.assetid: 436A5110-B79E-4E64-92E8-1C9E713D0948
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CheckTokenCapability, CheckTokenCapability function [Security], security.checktokencapability, securitybaseapi/CheckTokenCapability
 ms.topic: function
 req.header: securitybaseapi.h

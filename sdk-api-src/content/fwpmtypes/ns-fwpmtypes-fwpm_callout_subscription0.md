@@ -7,7 +7,7 @@ old-location: fwp\fwpm_callout_subscription0_struct.htm
 tech.root: fwp
 ms.assetid: 35afdc09-0745-4d59-9be1-d360b02fbd2f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FWPM_CALLOUT_SUBSCRIPTION0, FWPM_CALLOUT_SUBSCRIPTION0 structure [Filtering], FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_ADD, FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_DELETE, fwp.fwpm_callout_subscription0_struct, fwpmtypes/FWPM_CALLOUT_SUBSCRIPTION0
 ms.topic: struct
 req.header: fwpmtypes.h

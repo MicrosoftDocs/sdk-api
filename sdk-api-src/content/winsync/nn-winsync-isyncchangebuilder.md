@@ -7,7 +7,7 @@ old-location: winsync\isyncchangebuilder.htm
 tech.root: winsync
 ms.assetid: 6b9a628d-d0cb-49d1-a667-337b5f7f31ff
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ISyncChangeBuilder, ISyncChangeBuilder interface [Windows Sync], ISyncChangeBuilder interface [Windows Sync],described, winsync.isyncchangebuilder, winsync/ISyncChangeBuilder
 ms.topic: interface
 req.header: winsync.h

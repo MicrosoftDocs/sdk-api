@@ -7,7 +7,7 @@ old-location: security\spapplycontroltoken.htm
 tech.root: SecAuthN
 ms.assetid: 60c5e310-dd80-4bf7-9480-ac614c98d75f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SpApplyControlToken, SpApplyControlToken callback function [Security], SpApplyControlTokenFn, SpApplyControlTokenFn callback, _ssp_spapplycontroltoken, ntsecpkg/SpApplyControlToken, security.spapplycontroltoken
 ms.topic: callback
 req.header: ntsecpkg.h

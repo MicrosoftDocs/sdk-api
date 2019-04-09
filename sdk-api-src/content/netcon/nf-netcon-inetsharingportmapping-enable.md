@@ -7,7 +7,7 @@ old-location: ics\inetsharingportmapping_enable.htm
 tech.root: ics
 ms.assetid: 55a639f3-9180-4d02-9d10-659a398fa32f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Enable, Enable method [ICS/ICF], Enable method [ICS/ICF],INetSharingPortMapping interface, INetSharingPortMapping interface [ICS/ICF],Enable method, INetSharingPortMapping.Enable, INetSharingPortMapping::Enable, _ics_inetsharingportmapping_enable, ics.inetsharingportmapping_enable, netcon/INetSharingPortMapping::Enable
 ms.topic: method
 req.header: netcon.h

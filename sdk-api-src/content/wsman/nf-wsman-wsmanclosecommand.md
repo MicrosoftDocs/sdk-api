@@ -7,7 +7,7 @@ old-location: winrm\wsmanclosecommand.htm
 tech.root: winrm
 ms.assetid: 41ef2a6d-af1a-4a51-b01d-262380f01187
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WSManCloseCommand, WSManCloseCommand function [Windows Remote Management], winrm.wsmanclosecommand, wsman/WSManCloseCommand
 ms.topic: function
 req.header: wsman.h

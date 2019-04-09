@@ -7,7 +7,7 @@ old-location: tapi3\ienumstream_reset.htm
 tech.root: Tapi
 ms.assetid: 264b155c-4881-4170-bdc2-035b71d00f21
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEnumStream interface [TAPI 2.2],Reset method, IEnumStream.Reset, IEnumStream::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumStream interface, _tapi3_ienumstream_reset, tapi3.ienumstream_reset, tapi3if/IEnumStream::Reset
 ms.topic: method
 req.header: tapi3if.h

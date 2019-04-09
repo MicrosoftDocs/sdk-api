@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2trackatonce_get_usedsectorsonmedia.htm
 tech.root: imapi
 ms.assetid: 85bbb2a8-6ff9-4af4-aefd-fca85f727f37
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_UsedSectorsOnMedia method, IDiscFormat2TrackAtOnce.get_UsedSectorsOnMedia, IDiscFormat2TrackAtOnce::get_UsedSectorsOnMedia, get_UsedSectorsOnMedia, get_UsedSectorsOnMedia method [IMAPI], get_UsedSectorsOnMedia method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_usedsectorsonmedia, imapi2/IDiscFormat2TrackAtOnce::get_UsedSectorsOnMedia
 ms.topic: method
 req.header: imapi2.h

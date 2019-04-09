@@ -7,7 +7,7 @@ old-location: rras\pmgm_local_join_callback.htm
 tech.root: RRAS
 ms.assetid: e8245b09-0fbc-49c3-a7bb-534115c74c88
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PMGM_LOCAL_JOIN_CALLBACK, PMGM_LOCAL_JOIN_CALLBACK callback, PMGM_LOCAL_JOIN_CALLBACK callback function [RAS], _mpr_pmgm_local_join_callback, mgm/PMGM_LOCAL_JOIN_CALLBACK, rras.pmgm_local_join_callback
 ms.topic: callback
 req.header: mgm.h

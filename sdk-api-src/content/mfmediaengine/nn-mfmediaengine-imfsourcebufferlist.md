@@ -7,7 +7,7 @@ old-location: mf\imfsourcebufferlist.htm
 tech.root: medfound
 ms.assetid: 26f66c2d-5f84-485f-bc86-c8399666c9f1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMFSourceBufferList, IMFSourceBufferList interface [Media Foundation], IMFSourceBufferList interface [Media Foundation],described, mf.imfsourcebufferlist, mfmediaengine/IMFSourceBufferList
 ms.topic: interface
 req.header: mfmediaengine.h

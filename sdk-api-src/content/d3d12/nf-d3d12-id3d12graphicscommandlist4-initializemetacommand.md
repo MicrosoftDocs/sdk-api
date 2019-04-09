@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist4_initializemetacommand.htm
 tech.root: direct3d12
 ms.assetid: EC50FE25-27C7-4A5D-B4D1-57D402730AF0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList4 interface,InitializeMetaCommand method, ID3D12GraphicsCommandList4.InitializeMetaCommand, ID3D12GraphicsCommandList4::InitializeMetaCommand, InitializeMetaCommand, InitializeMetaCommand method, InitializeMetaCommand method,ID3D12GraphicsCommandList4 interface, d3d12/ID3D12GraphicsCommandList4::InitializeMetaCommand, direct3d12.id3d12graphicscommandlist4_initializemetacommand
 ms.topic: method
 req.header: d3d12.h

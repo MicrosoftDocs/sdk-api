@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_string_dictionary_value.htm
 tech.root: wsw
 ms.assetid: 1e2045c0-11c5-4369-9b82-dc759eb1412e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_XML_STRING_DICTIONARY_VALUE, WS_XML_STRING_DICTIONARY_VALUE function [Web Services for Windows], webservices/WS_XML_STRING_DICTIONARY_VALUE, wsw.ws_xml_string_dictionary_value
 ms.topic: macro
 req.header: webservices.h

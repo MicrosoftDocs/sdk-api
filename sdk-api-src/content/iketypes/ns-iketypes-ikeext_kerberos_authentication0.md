@@ -7,7 +7,7 @@ old-location: fwp\ikeext_kerberos_authentication0.htm
 tech.root: fwp
 ms.assetid: 2dd626c2-4b70-450a-ad6a-a978f1d93bbf
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IKEEXT_KERBEROS_AUTHENTICATION0, IKEEXT_KERBEROS_AUTHENTICATION0 structure [Filtering], IKEEXT_KERB_AUTH_DISABLE_INITIATOR_TOKEN_GENERATION, IKEEXT_KERB_AUTH_DONT_ACCEPT_EXPLICIT_CREDENTIALS, fwp.ikeext_kerberos_authentication0, iketypes/IKEEXT_KERBEROS_AUTHENTICATION0
 ms.topic: struct
 req.header: iketypes.h

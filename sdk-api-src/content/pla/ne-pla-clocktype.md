@@ -7,7 +7,7 @@ old-location: pla\clocktype.htm
 tech.root: PLA
 ms.assetid: e255d486-2f1f-4a3d-a8a5-1c997d61a073
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ClockType, ClockType enumeration [PLA], base.clocktype, pla.clocktype, pla/ClockType, pla/plaCycle, pla/plaPerformance, pla/plaSystem, pla/plaTimeStamp, plaCycle, plaPerformance, plaSystem, plaTimeStamp
 ms.topic: enum
 req.header: pla.h

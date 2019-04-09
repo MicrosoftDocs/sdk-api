@@ -7,7 +7,7 @@ old-location: shell\IBrowserService_SetTitle.htm
 tech.root: shell
 ms.assetid: 236f05a3-d31b-46fe-9e10-1f5df6823fa3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IBrowserService interface [Windows Shell],SetTitle method, IBrowserService.SetTitle, IBrowserService::SetTitle, SetTitle, SetTitle method [Windows Shell], SetTitle method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::SetTitle, shell.IBrowserService_SetTitle, zone_IBrowserService_SetTitle
 ms.topic: method
 req.header: shdeprecated.h

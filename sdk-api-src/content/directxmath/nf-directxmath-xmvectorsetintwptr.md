@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorsetintwptr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorSetIntWPtr(XMVECTOR,const uint32_t)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSetIntWPtr, XMVectorSetIntWPtr, XMVectorSetIntWPtr method [DirectX Math Support APIs], dxmath.xmvectorsetintwptr
 ms.topic: function
 req.header: directxmath.h

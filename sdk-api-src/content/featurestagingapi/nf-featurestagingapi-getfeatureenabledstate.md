@@ -7,7 +7,7 @@ old-location: winprog\getfeatureenabledstate.htm
 tech.root: DevNotes
 ms.assetid: F07DFA37-6155-473F-A426-7D15F3ED46B1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetFeatureEnabledState, GetFeatureEnabledState function [Windows API], featurestagingapi/GetFeatureEnabledState, winprog.getfeatureenabledstate
 ms.topic: function
 req.header: featurestagingapi.h

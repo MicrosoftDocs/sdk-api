@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2sourcevoice_interface_getstate.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.GetState(XAUDIO2_VOICE_STATE,UINT32)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetState, GetState method [XAudio2 Audio Mixing APIs], GetState method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],GetState method, IXAudio2SourceVoice.GetState, IXAudio2SourceVoice::GetState, xaudio2.ixaudio2sourcevoice_interface_getstate, xaudio2/IXAudio2SourceVoice::GetState
 ms.topic: method
 req.header: xaudio2.h

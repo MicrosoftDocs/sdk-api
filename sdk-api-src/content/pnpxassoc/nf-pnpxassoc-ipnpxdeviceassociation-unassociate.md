@@ -7,7 +7,7 @@ old-location: ncd\ipnpxdeviceassociation_unassociate.htm
 tech.root: FunDisc
 ms.assetid: fb420967-c79c-4edd-a432-b982219c0746
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IPNPXDeviceAssociation interface,Unassociate method, IPNPXDeviceAssociation.Unassociate, IPNPXDeviceAssociation::Unassociate, Unassociate, Unassociate method, Unassociate method,IPNPXDeviceAssociation interface, ncd.ipnpxdeviceassociation_unassociate, pnpxassoc/IPNPXDeviceAssociation::Unassociate
 ms.topic: method
 req.header: pnpxassoc.h

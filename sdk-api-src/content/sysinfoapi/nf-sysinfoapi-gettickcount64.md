@@ -7,7 +7,7 @@ old-location: base\gettickcount64.htm
 tech.root: SysInfo
 ms.assetid: 3ebf05b9-cc53-43ae-bbcb-7841793a9d84
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetTickCount64, GetTickCount64 function, base.gettickcount64, sysinfoapi/GetTickCount64
 ms.topic: function
 req.header: sysinfoapi.h

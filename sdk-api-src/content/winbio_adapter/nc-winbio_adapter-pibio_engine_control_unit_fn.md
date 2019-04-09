@@ -7,7 +7,7 @@ old-location: secbiomet\engineadaptercontrolunit.htm
 tech.root: SecBioMet
 ms.assetid: e0b61709-948f-4adf-8391-b904cf8a1648
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EngineAdapterControlUnit, EngineAdapterControlUnit callback function [Windows Biometric Framework API], PIBIO_ENGINE_CONTROL_UNIT_FN, PIBIO_ENGINE_CONTROL_UNIT_FN callback, secbiomet.engineadaptercontrolunit, winbio_adapter/EngineAdapterControlUnit
 ms.topic: callback
 req.header: winbio_adapter.h

@@ -7,7 +7,7 @@ old-location: security\iazscope_writable.htm
 tech.root: SecAuthZ
 ms.assetid: 8e382af1-192f-4530-82a0-434f66eac060
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AzScope object [Security],Writable property, IAzScope interface [Security],Writable property, IAzScope.Writable, IAzScope.get_Writable, IAzScope::Writable, IAzScope::get_Writable, Writable property [Security], Writable property [Security],AzScope object, Writable property [Security],IAzScope interface, azroles/IAzScope::Writable, azroles/IAzScope::get_Writable, get_Writable, security.iazscope_writable
 ms.topic: method
 req.header: azroles.h

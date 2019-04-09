@@ -7,7 +7,7 @@ old-location: shell\IShellFolderViewDual_get_Application.htm
 tech.root: shell
 ms.assetid: 5d1a82fd-815d-4550-aaf4-662a6eeea287
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],get_Application method, IShellFolderViewDual.get_Application, IShellFolderViewDual::get_Application, _shell_IShellFolderViewDual_get_Application, get_Application, get_Application method [Windows Shell], get_Application method [Windows Shell],IShellFolderViewDual interface, shell.IShellFolderViewDual_get_Application, shldisp/IShellFolderViewDual::get_Application
 ms.topic: method
 req.header: shldisp.h

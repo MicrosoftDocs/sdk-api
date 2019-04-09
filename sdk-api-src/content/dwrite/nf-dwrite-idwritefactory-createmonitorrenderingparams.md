@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFactory_CreateMonitorRenderingParams.htm
 tech.root: DirectWrite
 ms.assetid: ddb6839a-9033-423a-a3f0-9352ec03e440
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateMonitorRenderingParams, CreateMonitorRenderingParams method [Direct Write], CreateMonitorRenderingParams method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateMonitorRenderingParams method, IDWriteFactory.CreateMonitorRenderingParams, IDWriteFactory::CreateMonitorRenderingParams, directwrite.IDWriteFactory_CreateMonitorRenderingParams, dwrite/IDWriteFactory::CreateMonitorRenderingParams
 ms.topic: method
 req.header: dwrite.h

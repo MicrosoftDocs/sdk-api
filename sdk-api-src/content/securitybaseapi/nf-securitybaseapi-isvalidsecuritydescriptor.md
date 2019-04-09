@@ -7,7 +7,7 @@ old-location: security\isvalidsecuritydescriptor.htm
 tech.root: SecAuthZ
 ms.assetid: 24a98229-11e4-45ef-988b-c2cf831275e7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IsValidSecurityDescriptor, IsValidSecurityDescriptor function [Security], _win32_isvalidsecuritydescriptor, security.isvalidsecuritydescriptor, securitybaseapi/IsValidSecurityDescriptor
 ms.topic: function
 req.header: securitybaseapi.h

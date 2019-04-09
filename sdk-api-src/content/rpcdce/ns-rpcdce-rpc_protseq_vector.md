@@ -7,7 +7,7 @@ old-location: rpc\rpc_protseq_vector.htm
 tech.root: Rpc
 ms.assetid: 535ffce0-54e2-483c-8b74-006b6f5e05f0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RPC_PROTSEQ_VECTOR, RPC_PROTSEQ_VECTOR structure [RPC], _rpc_rpc_protseq_vector, rpc.rpc_protseq_vector, rpcdce/RPC_PROTSEQ_VECTOR
 ms.topic: struct
 req.header: rpcdce.h

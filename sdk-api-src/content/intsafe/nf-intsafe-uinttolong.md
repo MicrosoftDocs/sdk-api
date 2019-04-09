@@ -7,7 +7,7 @@ old-location: shell\UIntToLong.htm
 tech.root: shell
 ms.assetid: c632b617-3b77-4a6e-80e7-90115ae0ac3a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: UIntToLong, UIntToLong function [Windows Shell], _shell_UIntToLong, intsafe/UIntToLong, shell.UIntToLong
 ms.topic: function
 req.header: intsafe.h

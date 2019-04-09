@@ -7,7 +7,7 @@ old-location: security\spsealmessage.htm
 tech.root: SecAuthN
 ms.assetid: 400bc3e7-e9a1-4267-b4de-44d79dceb9e5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SpSealMessage, SpSealMessageFn, SpSealMessageFn callback, SpSealMessageFn callback function [Security], TBD, _ssp_spsealmessage, ntsecpkg/SpSealMessageFn, security.spsealmessage
 ms.topic: callback
 req.header: ntsecpkg.h

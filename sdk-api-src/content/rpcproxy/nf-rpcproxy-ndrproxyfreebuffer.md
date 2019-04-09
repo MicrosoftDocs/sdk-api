@@ -7,7 +7,7 @@ old-location: rpc\ndrproxyfreebuffer.htm
 tech.root: Rpc
 ms.assetid: 6abc3f93-6eef-4363-aa1a-1ecfffb9d934
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NdrProxyFreeBuffer, NdrProxyFreeBuffer function [RPC], rpc.ndrproxyfreebuffer, rpcproxy/NdrProxyFreeBuffer
 ms.topic: function
 req.header: rpcproxy.h

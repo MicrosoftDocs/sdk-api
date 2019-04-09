@@ -7,7 +7,7 @@ old-location: cmpapi\decompress.htm
 tech.root: cmpapi
 ms.assetid: 654b88c7-14f2-43d4-8850-675ea303b439
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Decompress, Decompress function [Compression API], cmpapi.decompress, compressapi/Decompress
 ms.topic: function
 req.header: compressapi.h

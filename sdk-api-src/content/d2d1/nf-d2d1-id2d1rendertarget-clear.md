@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RenderTarget_Clear_ptr_COLOR_F.htm
 tech.root: Direct2D
 ms.assetid: c39b83e0-4cde-4e94-94e9-37b5c36f7877
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Direct2D], Clear method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],Clear method, ID2D1RenderTarget.Clear, ID2D1RenderTarget::Clear, ID2D1RenderTarget::Clear(const D2D1_COLOR_F), d2d1/ID2D1RenderTarget::Clear, direct2d.ID2D1RenderTarget_Clear_ptr_COLOR_F
 ms.topic: method
 req.header: d2d1.h

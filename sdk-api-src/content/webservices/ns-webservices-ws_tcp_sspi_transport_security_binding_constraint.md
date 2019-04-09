@@ -7,7 +7,7 @@ old-location: wsw\ws_tcp_sspi_transport_security_binding_constraint.htm
 tech.root: wsw
 ms.assetid: c2e793dd-99a7-4028-9e08-4376d494e2b5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_CONSTRAINT, WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows], webservices/WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_CONSTRAINT, wsw.ws_tcp_sspi_transport_security_binding_constraint
 ms.topic: struct
 req.header: webservices.h

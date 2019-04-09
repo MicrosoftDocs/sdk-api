@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_negostatus.htm
 tech.root: SecAuthN
 ms.assetid: 09201338-4743-44a2-b84f-35b26116976d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PSecPkgContext_NegoStatus, PSecPkgContext_NegoStatus, PSecPkgContext_NegoStatus structure pointer [Security], SecPkgContext_NegoStatus, SecPkgContext_NegoStatus structure [Security], security.secpkgcontext_negostatus, sspi/PSecPkgContext_NegoStatus, sspi/SecPkgContext_NegoStatus"
 ms.topic: struct
 req.header: sspi.h

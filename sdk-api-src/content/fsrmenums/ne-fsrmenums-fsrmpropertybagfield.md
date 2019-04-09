@@ -7,7 +7,7 @@ old-location: fsrm\fsrmpropertybagfield.htm
 tech.root: fsrm
 ms.assetid: 7a8cd6a6-7933-4190-b4fc-1b1cd653bd14
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FsrmPropertyBagField, FsrmPropertyBagField enumeration [File Server Resource Manager], FsrmPropertyBagField_AccessVolume, FsrmPropertyBagField_VolumeGuidName, fs.fsrmpropertybagfield, fsrm.fsrmpropertybagfield, fsrmenums/FsrmPropertyBagField, fsrmenums/FsrmPropertyBagField_AccessVolume, fsrmenums/FsrmPropertyBagField_VolumeGuidName
 ms.topic: enum
 req.header: fsrmenums.h

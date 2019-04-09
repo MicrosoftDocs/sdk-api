@@ -7,7 +7,7 @@ old-location: tapi3\itpluggableterminaleventsink.htm
 tech.root: Tapi
 ms.assetid: bcf64c78-aad2-4b53-b938-cc1fd373c8b4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalEventSink, ITPluggableTerminalEventSink interface [TAPI 2.2], ITPluggableTerminalEventSink interface [TAPI 2.2],described, _tapi3_itpluggableterminaleventsink, msp/ITPluggableTerminalEventSink, tapi3.itpluggableterminaleventsink
 ms.topic: interface
 req.header: msp.h

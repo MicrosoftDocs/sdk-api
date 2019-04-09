@@ -7,7 +7,7 @@ old-location: wds\pxe_provider.htm
 tech.root: wds
 ms.assetid: a07afefd-7a97-42bb-8d70-2bc7c51ddef3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PPXE_PROVIDER, PPXE_PROVIDER, PPXE_PROVIDER structure pointer [Windows Deployment Services], PXE_PROVIDER, PXE_PROVIDER structure [Windows Deployment Services], wds.pxe_provider, wdspxe/PPXE_PROVIDER, wdspxe/PXE_PROVIDER"
 ms.topic: struct
 req.header: wdspxe.h

@@ -7,7 +7,7 @@ old-location: shell\IItemNameLimits_GetValidCharacters.htm
 tech.root: shell
 ms.assetid: a6328be9-accd-4f11-82ee-49d3b18f9fd6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetValidCharacters, GetValidCharacters method [Windows Shell], GetValidCharacters method [Windows Shell],IItemNameLimits interface, IItemNameLimits interface [Windows Shell],GetValidCharacters method, IItemNameLimits.GetValidCharacters, IItemNameLimits::GetValidCharacters, _shell_IItemNameLimits_GetValidCharacters, shell.IItemNameLimits_GetValidCharacters, shobjidl_core/IItemNameLimits::GetValidCharacters
 ms.topic: method
 req.header: shobjidl_core.h

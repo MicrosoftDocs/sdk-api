@@ -7,7 +7,7 @@ old-location: wsw\ws_decimal_description.htm
 tech.root: wsw
 ms.assetid: c2e8fc81-1a09-456c-b8bb-9160bc286ec2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_DECIMAL_DESCRIPTION, WS_DECIMAL_DESCRIPTION structure [Web Services for Windows], webservices/WS_DECIMAL_DESCRIPTION, wsw.ws_decimal_description
 ms.topic: struct
 req.header: webservices.h

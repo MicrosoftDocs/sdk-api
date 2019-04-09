@@ -7,7 +7,7 @@ old-location: taskschd\itriggercollection_item.htm
 tech.root: taskschd
 ms.assetid: 007e5792-bb91-435f-abe9-27366e6ec58a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITriggerCollection interface [Task Scheduler],Item property, ITriggerCollection.Item, ITriggerCollection.get_Item, ITriggerCollection::Item, ITriggerCollection::get_Item, Item property [Task Scheduler], Item property [Task Scheduler],ITriggerCollection interface, get_Item, taskschd.itriggercollection_item, taskschd/ITriggerCollection::Item, taskschd/ITriggerCollection::get_Item
 ms.topic: method
 req.header: taskschd.h

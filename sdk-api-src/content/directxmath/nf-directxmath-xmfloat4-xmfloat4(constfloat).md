@@ -7,7 +7,7 @@ old-location: dxmath\xmfloat4_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT4.#ctor
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: XMFLOAT4, XMFLOAT4 constructor [DirectX Math Support APIs], XMFLOAT4 constructor [DirectX Math Support APIs],XMFLOAT4 structure, XMFLOAT4 structure [DirectX Math Support APIs],XMFLOAT4 constructor, XMFLOAT4.XMFLOAT4, XMFLOAT4.XMFLOAT4(), XMFLOAT4.XMFLOAT4(const float), XMFLOAT4::XMFLOAT4, XMFLOAT4::XMFLOAT4(const float), dxmath.xmfloat4_ctor_1
 ms.topic: method
 req.header: directxmath.h

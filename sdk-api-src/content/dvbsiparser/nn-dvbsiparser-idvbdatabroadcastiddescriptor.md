@@ -7,7 +7,7 @@ old-location: mstv\idvbdatabroadcastiddescriptor.htm
 tech.root: mstv
 ms.assetid: 8d46cffc-cb49-4749-a1b7-e05d5d90941f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDvbDataBroadcastIDDescriptor, IDvbDataBroadcastIDDescriptor interface [Microsoft TV Technologies], IDvbDataBroadcastIDDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbDataBroadcastIDDescriptor, mstv.idvbdatabroadcastiddescriptor
 ms.topic: interface
 req.header: dvbsiparser.h

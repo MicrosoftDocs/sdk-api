@@ -7,7 +7,7 @@ old-location: tapi3\itagentsession_get_sessionduration.htm
 tech.root: Tapi
 ms.assetid: e5cb6bd2-3b3e-442a-b766-bdd9254475dc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_SessionDuration method, ITAgentSession.get_SessionDuration, ITAgentSession::get_SessionDuration, _tapi3_itagentsession_get_sessionduration, get_SessionDuration, get_SessionDuration method [TAPI 2.2], get_SessionDuration method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_sessionduration, tapi3cc/ITAgentSession::get_SessionDuration
 ms.topic: method
 req.header: tapi3cc.h

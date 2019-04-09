@@ -7,7 +7,7 @@ old-location: ics\istaticportmapping_get_internalport.htm
 tech.root: ics
 ms.assetid: 21b07be3-a838-4e7c-b521-100e2422f8b1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IStaticPortMapping interface [ICS/ICF],get_InternalPort method, IStaticPortMapping.get_InternalPort, IStaticPortMapping::get_InternalPort, _ics_istaticportmapping_get_internalport, get_InternalPort, get_InternalPort method [ICS/ICF], get_InternalPort method [ICS/ICF],IStaticPortMapping interface, ics.istaticportmapping_get_internalport, natupnp/IStaticPortMapping::get_InternalPort
 ms.topic: method
 req.header: natupnp.h

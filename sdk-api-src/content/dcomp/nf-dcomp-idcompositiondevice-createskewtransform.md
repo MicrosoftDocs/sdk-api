@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiondevice_createskewtransform.htm
 tech.root: directcomp
 ms.assetid: c67d1c75-8704-44b3-8794-58cf08ea2572
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateSkewTransform, CreateSkewTransform method [DirectComposition], CreateSkewTransform method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateSkewTransform method, IDCompositionDevice.CreateSkewTransform, IDCompositionDevice::CreateSkewTransform, dcomp/IDCompositionDevice::CreateSkewTransform, directcomp.idcompositiondevice_createskewtransform
 ms.topic: method
 req.header: dcomp.h

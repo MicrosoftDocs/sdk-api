@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiattendee.htm
 tech.root: rdp
 ms.assetid: e9edd9f2-ccbf-45b2-b71c-e30368435a60
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIAttendee, IRDPSRAPIAttendee interface [RDP], IRDPSRAPIAttendee interface [RDP],described, rdp.irdpsrapiattendee, rdpencomapi/IRDPSRAPIAttendee
 ms.topic: interface
 req.header: rdpencomapi.h

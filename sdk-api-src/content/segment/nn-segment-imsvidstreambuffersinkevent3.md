@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersinkevent3.htm
 tech.root: mstv
 ms.assetid: 3d76be50-0e67-4e23-8ce0-8ac9f4ad0c1c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSinkEvent3, IMSVidStreamBufferSinkEvent3 interface [Microsoft TV Technologies], IMSVidStreamBufferSinkEvent3 interface [Microsoft TV Technologies],described, IMSVidStreamBufferSinkEvent3Interface, mstv.imsvidstreambuffersinkevent3, segment/IMSVidStreamBufferSinkEvent3
 ms.topic: interface
 req.header: segment.h

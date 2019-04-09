@@ -7,7 +7,7 @@ old-location: base\createvssexpresswriter.htm
 tech.root: VSS
 ms.assetid: c24a1046-50b0-4fec-88f9-3bbd6970982a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateVssExpressWriter, CreateVssExpressWriter function, CreateVssExpressWriterInternal, base.createvssexpresswriter, vswriter/CreateVssExpressWriter, vswriter/CreateVssExpressWriterInternal
 ms.topic: function
 req.header: vswriter.h

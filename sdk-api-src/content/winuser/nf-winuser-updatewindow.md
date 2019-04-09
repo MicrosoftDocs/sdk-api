@@ -7,7 +7,7 @@ old-location: gdi\updatewindow.htm
 tech.root: gdi
 ms.assetid: 51a50f1f-7b4d-4acd-83a0-1877f5181766
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: UpdateWindow, UpdateWindow function [Windows GDI], _win32_UpdateWindow, gdi.updatewindow, winuser/UpdateWindow
 ms.topic: function
 req.header: winuser.h

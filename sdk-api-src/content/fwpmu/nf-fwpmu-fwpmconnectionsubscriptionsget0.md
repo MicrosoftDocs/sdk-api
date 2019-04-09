@@ -7,7 +7,7 @@ old-location: fwp\fwpmconnectionsubscriptionsget0.htm
 tech.root: fwp
 ms.assetid: fc6c94be-9c2f-4b32-9cf5-4af33b8f1c97
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FwpmConnectionSubscriptionsGet0, FwpmConnectionSubscriptionsGet0 function [Filtering], fwp.fwpmconnectionsubscriptionsget0, fwpmu/FwpmConnectionSubscriptionsGet0
 ms.topic: function
 req.header: fwpmu.h

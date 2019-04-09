@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevicecontrol_record.htm
 tech.root: WMDM
 ms.assetid: a9372ce9-e339-4664-9e12-4feae29529dc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMDMDeviceControl interface [windows Media Device Manager],Record method, IWMDMDeviceControl.Record, IWMDMDeviceControl::Record, IWMDMDeviceControlRecord, Record, Record method [windows Media Device Manager], Record method [windows Media Device Manager],IWMDMDeviceControl interface, mswmdm/IWMDMDeviceControl::Record, wmdm.iwmdmdevicecontrol_record
 ms.topic: method
 req.header: mswmdm.h

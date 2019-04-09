@@ -7,7 +7,7 @@ old-location: xps\ixpsomimageresource.htm
 tech.root: printdocs
 ms.assetid: 89a1530e-fa87-45bf-a1da-c8656ec09ba3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IXpsOMImageResource, IXpsOMImageResource interface [XPS Documents and Packaging], IXpsOMImageResource interface [XPS Documents and Packaging],described, xps.ixpsomimageresource, xpsobjectmodel/IXpsOMImageResource
 ms.topic: interface
 req.header: xpsobjectmodel.h

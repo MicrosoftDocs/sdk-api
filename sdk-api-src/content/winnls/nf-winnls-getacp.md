@@ -7,7 +7,7 @@ old-location: intl\getacp.htm
 tech.root: Intl
 ms.assetid: a28c3f08-ee76-4e3f-b14d-fabc0af98fef
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetACP, GetACP function [Internationalization for Windows Applications], _win32_GetACP, intl.getacp, winnls/GetACP
 ms.topic: function
 req.header: winnls.h

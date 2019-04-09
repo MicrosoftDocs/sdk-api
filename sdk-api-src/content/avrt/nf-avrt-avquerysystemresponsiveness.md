@@ -7,7 +7,7 @@ old-location: base\avquerysystemresponsiveness.htm
 tech.root: ProcThread
 ms.assetid: 87184232-9f58-4a59-87e9-fdd081a7dc5c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AvQuerySystemResponsiveness, AvQuerySystemResponsiveness function, avrt/AvQuerySystemResponsiveness, base.avquerysystemresponsiveness
 ms.topic: function
 req.header: avrt.h

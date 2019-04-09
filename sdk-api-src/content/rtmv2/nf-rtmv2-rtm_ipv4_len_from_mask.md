@@ -7,7 +7,7 @@ old-location: rras\rtm_ipv4_len_from_mask.htm
 tech.root: RRAS
 ms.assetid: fdbc2030-3917-4920-848e-76b5d1dfcfef
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RTM_IPV4_LEN_FROM_MASK, RTM_IPV4_LEN_FROM_MASK macro [RAS], _rtmv2ref_rtm_ipv4_len_from_mask, rras.rtm_ipv4_len_from_mask, rtmv2/RTM_IPV4_LEN_FROM_MASK
 ms.topic: macro
 req.header: rtmv2.h

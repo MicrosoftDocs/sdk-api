@@ -7,7 +7,7 @@ old-location: mmc\iresultdata_setitem.htm
 tech.root: mmc
 ms.assetid: d24ab645-aae2-4c0f-8fc5-05d028a724d4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IResultData interface [MMC],SetItem method, IResultData.SetItem, IResultData2 interface [MMC],SetItem method, IResultData2::SetItem, IResultData::SetItem, SetItem, SetItem method [MMC], SetItem method [MMC],IResultData interface, SetItem method [MMC],IResultData2 interface, _slate_iresultdata_setitem, mmc.iresultdata_setitem, mmc/IResultData2::SetItem, mmc/IResultData::SetItem
 ms.topic: method
 req.header: mmc.h

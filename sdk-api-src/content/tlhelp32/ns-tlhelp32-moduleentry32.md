@@ -7,7 +7,7 @@ old-location: toolhelp\moduleentry32_str.htm
 tech.root: ToolHelp
 ms.assetid: 305fab35-625c-42e3-a434-e2513e4c8870
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPMODULEENTRY32, *PMODULEENTRY32, MODULEENTRY32, MODULEENTRY32 structure [ToolHelp], MODULEENTRY32W, PMODULEENTRY32, PMODULEENTRY32 structure pointer [ToolHelp], _win32_moduleentry32_str, base.moduleentry32_str, tlhelp32/MODULEENTRY32, tlhelp32/MODULEENTRY32W, tlhelp32/PMODULEENTRY32, toolhelp.moduleentry32_str"
 ms.topic: struct
 req.header: tlhelp32.h

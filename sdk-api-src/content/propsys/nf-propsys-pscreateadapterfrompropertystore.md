@@ -7,7 +7,7 @@ old-location: properties\PSCreateAdapterFromPropertyStore.htm
 tech.root: properties
 ms.assetid: a3489f95-e790-481a-af6e-f30527dc476c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PSCreateAdapterFromPropertyStore, PSCreateAdapterFromPropertyStore function [Windows Properties], _shell_PSCreateAdapterFromPropertyStore, properties.PSCreateAdapterFromPropertyStore, propsys/PSCreateAdapterFromPropertyStore, shell.PSCreateAdapterFromPropertyStore
 ms.topic: function
 req.header: propsys.h

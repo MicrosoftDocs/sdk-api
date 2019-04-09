@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_createsurface.htm
 tech.root: directdraw
 ms.assetid: 4f27e36f-d04f-43ce-9a3d-64c352c8f8d8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateSurface, CreateSurface method [DirectDraw], CreateSurface method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],CreateSurface method, IDirectDraw7.CreateSurface, IDirectDraw7::CreateSurface, ddraw/IDirectDraw7::CreateSurface, directdraw.idirectdraw7_createsurface
 ms.topic: method
 req.header: ddraw.h

@@ -7,7 +7,7 @@ old-location: com\iserversecurity_isimpersonating.htm
 tech.root: com
 ms.assetid: f847348a-1785-4b4a-b43e-a5eea21847c4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IServerSecurity interface [COM],IsImpersonating method, IServerSecurity.IsImpersonating, IServerSecurity::IsImpersonating, IsImpersonating, IsImpersonating method [COM], IsImpersonating method [COM],IServerSecurity interface, _com_iserversecurity_isimpersonating, com.iserversecurity_isimpersonating, objidlbase/IServerSecurity::IsImpersonating
 ms.topic: method
 req.header: objidlbase.h

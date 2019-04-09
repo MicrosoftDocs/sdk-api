@@ -7,7 +7,7 @@ old-location: properties\PropVariantToStringWithDefault.htm
 tech.root: properties
 ms.assetid: a5f50a32-033f-4bda-87db-c0a8515b6451
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PropVariantToStringWithDefault, PropVariantToStringWithDefault function [Windows Properties], _shell_PropVariantToStringWithDefault, properties.PropVariantToStringWithDefault, propvarutil/PropVariantToStringWithDefault, shell.PropVariantToStringWithDefault
 ms.topic: function
 req.header: propvarutil.h

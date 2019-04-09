@@ -7,7 +7,7 @@ old-location: p2p\peer_application_registration_info.htm
 tech.root: P2PSdk
 ms.assetid: 64c9eb02-3235-4824-8de1-352b0a1ffbb4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PPEER_APPLICATION_REGISTRATION_INFO, PCPEER_APPLICATION_REGISTRATION_INFO, PCPEER_APPLICATION_REGISTRATION_INFO structure pointer [Peer Networking], PEER_APPLICATION_REGISTRATION_INFO, PEER_APPLICATION_REGISTRATION_INFO structure [Peer Networking], PPEER_APPLICATION_REGISTRATION_INFO, PPEER_APPLICATION_REGISTRATION_INFO structure pointer [Peer Networking], p2p.peer_application_registration_info, p2p/PCPEER_APPLICATION_REGISTRATION_INFO, p2p/PEER_APPLICATION_REGISTRATION_INFO, p2p/PPEER_APPLICATION_REGISTRATION_INFO"
 ms.topic: struct
 req.header: p2p.h

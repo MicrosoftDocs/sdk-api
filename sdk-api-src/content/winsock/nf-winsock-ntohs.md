@@ -7,7 +7,7 @@ old-location: winsock\ntohs_2.htm
 tech.root: WinSock
 ms.assetid: 9946df13-3b40-4bcb-91ca-10684b3fc9a5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_win32_ntohs_2, ntohs, ntohs function [Winsock], winsock.ntohs_2, winsock/ntohs"
 ms.topic: function
 req.header: winsock.h

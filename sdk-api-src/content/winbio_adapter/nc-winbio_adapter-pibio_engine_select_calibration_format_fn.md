@@ -7,7 +7,7 @@ old-location: secbiomet\engineadapterselectcalibrationformat.htm
 tech.root: SecBioMet
 ms.assetid: 1B4920D9-3C8E-4206-A71B-619A14ADD10A
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EngineAdapterSelectCalibrationFormat, EngineAdapterSelectCalibrationFormat callback function [Windows Biometric Framework API], PIBIO_ENGINE_SELECT_CALIBRATION_FORMAT_FN, PIBIO_ENGINE_SELECT_CALIBRATION_FORMAT_FN callback, secbiomet.engineadapterselectcalibrationformat, winbio_adapter/EngineAdapterSelectCalibrationFormat
 ms.topic: callback
 req.header: winbio_adapter.h

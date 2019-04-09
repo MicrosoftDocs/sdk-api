@@ -7,7 +7,7 @@ old-location: automat\custdata.htm
 tech.root: automat
 ms.assetid: 992199f2-1bac-428e-9699-0740654e1922
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPCUSTDATA, CUSTDATA, CUSTDATA structure [Automation], LPCUSTDATA, LPCUSTDATA structure pointer [Automation], _oa96_CUSTDATA, automat.custdata, oaidl/CUSTDATA, oaidl/LPCUSTDATA"
 ms.topic: struct
 req.header: oaidl.h

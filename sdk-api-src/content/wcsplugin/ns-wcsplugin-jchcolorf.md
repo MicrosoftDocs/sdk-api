@@ -7,7 +7,7 @@ old-location: wcs\jchcolorf.htm
 tech.root: WCS
 ms.assetid: a7bf9e3c-b718-437b-a4d9-3edaef29f3ff
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: JChColorF, JChColorF structure [Windows Color System], wcs.jchcolorf, wcsplugin/JChColorF
 ms.topic: struct
 req.header: wcsplugin.h

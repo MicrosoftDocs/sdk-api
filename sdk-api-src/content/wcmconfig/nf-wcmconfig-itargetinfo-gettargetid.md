@@ -7,7 +7,7 @@ old-location: smi\itargetinfo_gettargetid.htm
 tech.root: SMI
 ms.assetid: b80e3363-8efa-44b7-a61e-66177d1c53ce
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetTargetID, GetTargetID method [SMI], GetTargetID method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetTargetID method, ITargetInfo.GetTargetID, ITargetInfo::GetTargetID, smi.itargetinfo_gettargetid, wcmconfig/ITargetInfo::GetTargetID
 ms.topic: method
 req.header: wcmconfig.h

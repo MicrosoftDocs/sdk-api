@@ -7,7 +7,7 @@ old-location: appxpkg\getpackageid.htm
 tech.root: appxpkg
 ms.assetid: BA5D87F5-72FD-48BE-A104-EC7D1459FD58
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetPackageId, GetPackageId function [App packaging and management], appmodel/GetPackageId, appxpkg.getpackageid
 ms.topic: function
 req.header: appmodel.h

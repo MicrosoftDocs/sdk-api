@@ -7,7 +7,7 @@ old-location: bluetooth\bluetooth_cod_pairs.htm
 tech.root: bluetooth
 ms.assetid: e80ab664-77eb-4352-ac35-64325238d4ac
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BLUETOOTH_COD_PAIRS, BLUETOOTH_COD_PAIRS structure [Bluetooth], _bth_bluetooth_cod_pairs, bluetooth.bluetooth_cod_pairs, bluetoothapis/BLUETOOTH_COD_PAIRS
 ms.topic: struct
 req.header: bluetoothapis.h

@@ -7,7 +7,7 @@ old-location: rdc\rdcneedtype.htm
 tech.root: rdc
 ms.assetid: 93173b2e-a0df-445e-98a8-f7df02fbc7a8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RDCNEED_SEED, RDCNEED_SEED_MAX, RDCNEED_SOURCE, RDCNEED_TARGET, RdcNeedType, RdcNeedType enumeration [Remote Differential Compression], fs.rdcneedtype, msrdc/RDCNEED_SEED, msrdc/RDCNEED_SEED_MAX, msrdc/RDCNEED_SOURCE, msrdc/RDCNEED_TARGET, msrdc/RdcNeedType, rdc.rdcneedtype
 ms.topic: enum
 req.header: msrdc.h

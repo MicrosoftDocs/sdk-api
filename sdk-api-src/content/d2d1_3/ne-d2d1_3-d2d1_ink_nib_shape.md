@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_ink_nib_shape.htm
 tech.root: Direct2D
 ms.assetid: E9EA4F3E-D539-4938-897F-467D0432174F
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: D2D1_INK_NIB_SHAPE, D2D1_INK_NIB_SHAPE enumeration [Direct2D], D2D1_INK_NIB_SHAPE_ROUND, D2D1_INK_NIB_SHAPE_SQUARE, d2d1_3/D2D1_INK_NIB_SHAPE, d2d1_3/D2D1_INK_NIB_SHAPE_ROUND, d2d1_3/D2D1_INK_NIB_SHAPE_SQUARE, direct2d.d2d1_ink_nib_shape
 ms.topic: enum
 req.header: d2d1_3.h

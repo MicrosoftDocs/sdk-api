@@ -7,7 +7,7 @@ old-location: base\change_partition_type_parameters.htm
 tech.root: VDS
 ms.assetid: bd51c2a6-ab26-4a2f-89f4-431d05f3dd81
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CHANGE_PARTITION_TYPE_PARAMETERS, CHANGE_PARTITION_TYPE_PARAMETERS structure, PCHANGE_PARTITION_TYPE_PARAMETERS, PCHANGE_PARTITION_TYPE_PARAMETERS structure pointer, base.change_partition_type_parameters, vds/CHANGE_PARTITION_TYPE_PARAMETERS, vds/PCHANGE_PARTITION_TYPE_PARAMETERS
 ms.topic: struct
 req.header: vds.h

@@ -7,7 +7,7 @@ old-location: wmdm\csecurechannelclient_authenticate.htm
 tech.root: WMDM
 ms.assetid: ce96b39f-13f8-47c8-affd-2094cf25f057
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Authenticate, Authenticate method [windows Media Device Manager], Authenticate method [windows Media Device Manager],CSecureChannelClient class, CSecureChannelClient class [windows Media Device Manager],Authenticate method, CSecureChannelClient.Authenticate, CSecureChannelClient::Authenticate, CSecureChannelClientAuthenticate, scclient/CSecureChannelClient::Authenticate, wmdm.csecurechannelclient_authenticate
 ms.topic: method
 req.header: scclient.h

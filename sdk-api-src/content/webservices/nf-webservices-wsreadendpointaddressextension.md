@@ -7,7 +7,7 @@ old-location: wsw\wsreadendpointaddressextension.htm
 tech.root: wsw
 ms.assetid: 6133be54-8d47-4869-bf84-892324175942
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WsReadEndpointAddressExtension, WsReadEndpointAddressExtension function [Web Services for Windows], webservices/WsReadEndpointAddressExtension, wsw.wsreadendpointaddressextension
 ms.topic: function
 req.header: webservices.h

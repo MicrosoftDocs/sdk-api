@@ -7,7 +7,7 @@ old-location: fs\satisfyntmsoperatorrequest.htm
 tech.root: Rsm
 ms.assetid: 37f9c9c4-7fb2-4559-94a4-e508b277e69e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SatisfyNtmsOperatorRequest, SatisfyNtmsOperatorRequest function [Files], _zaw_satisfyntmsoperatorrequest, base.satisfyntmsoperatorrequest, fs.satisfyntmsoperatorrequest, ntmsapi/SatisfyNtmsOperatorRequest
 ms.topic: function
 req.header: ntmsapi.h

@@ -7,7 +7,7 @@ old-location: tapi3\itlegacycallmediacontrol.htm
 tech.root: Tapi
 ms.assetid: 73288c46-6c6d-4938-9bb7-4d94acfc67f6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITLegacyCallMediaControl, ITLegacyCallMediaControl interface [TAPI 2.2], ITLegacyCallMediaControl interface [TAPI 2.2],described, _tapi3_itlegacycallmediacontrol, tapi3.itlegacycallmediacontrol, tapi3if/ITLegacyCallMediaControl
 ms.topic: interface
 req.header: tapi3if.h

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationoptions_enablechannel.htm
 tech.root: wmi_v2
 ms.assetid: 1ccd296d-c15e-476b-80a2-bdec2b38c7c2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_EnableChannel, MI_OperationOptions_EnableChannel function [Windows Management Infrastructure (MI)], MI_WRITEMESSAGE_CHANNEL_DEBUG, MI_WRITEMESSAGE_CHANNEL_VERBOSE, MI_WRITEMESSAGE_CHANNEL_WARNING, mi/MI_OperationOptions_EnableChannel, wmi_v2.mi_operationoptions_enablechannel
 ms.topic: function
 req.header: mi.h

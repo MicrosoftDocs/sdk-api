@@ -7,7 +7,7 @@ old-location: winprog\tcompfromlzxwindow.htm
 tech.root: DevNotes
 ms.assetid: 39b5a1e0-a711-444b-8326-4aba9a98f203
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TCOMPfromLZXWindow, TCOMPfromLZXWindow macro [Windows API], fdi_fci_types/TCOMPfromLZXWindow, winprog.tcompfromlzxwindow
 ms.topic: macro
 req.header: fdi_fci_types.h

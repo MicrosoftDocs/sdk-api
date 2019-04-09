@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11moduleinstance_bindsampler.htm
 tech.root: direct3d11
 ms.assetid: FB7A63DE-C8EC-456D-84D6-D0AF682A46E8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BindSampler, BindSampler method [Direct3D 11], BindSampler method [Direct3D 11],ID3D11ModuleInstance interface, ID3D11ModuleInstance interface [Direct3D 11],BindSampler method, ID3D11ModuleInstance.BindSampler, ID3D11ModuleInstance::BindSampler, d3d11shader/ID3D11ModuleInstance::BindSampler, direct3d11.id3d11moduleinstance_bindsampler
 ms.topic: method
 req.header: d3d11shader.h

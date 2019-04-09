@@ -7,7 +7,7 @@ old-location: security\security_integer.htm
 tech.root: SecAuthN
 ms.assetid: 51805230-afcb-490c-8c3d-1a533f3a58f0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PSECURITY_INTEGER, *PTimeStamp, SECURITY_INTEGER, SECURITY_INTEGER structure [Security], TimeStamp, _ssp_security_integer, security.security_integer, sspi/SECURITY_INTEGER"
 ms.topic: struct
 req.header: sspi.h

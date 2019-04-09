@@ -7,7 +7,7 @@ old-location: wua\deploymentaction.htm
 tech.root: Wua_Sdk
 ms.assetid: c192db44-05ad-4fb2-aa51-9153389d95dc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DeploymentAction, DeploymentAction enumeration [Windows Update Agent], daDetection, daInstallation, daNone, daUninstallation, wua.deploymentaction, wuapi/DeploymentAction, wuapi/daDetection, wuapi/daInstallation, wuapi/daNone, wuapi/daUninstallation
 ms.topic: enum
 req.header: wuapi.h

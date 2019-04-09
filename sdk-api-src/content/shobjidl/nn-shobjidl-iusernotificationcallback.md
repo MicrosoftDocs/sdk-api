@@ -7,7 +7,7 @@ old-location: shell\IUserNotificationCallback.htm
 tech.root: shell
 ms.assetid: f746a4d4-8649-43a1-ac9b-773402dfb6c7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IUserNotificationCallback, IUserNotificationCallback interface [Windows Shell], IUserNotificationCallback interface [Windows Shell],described, _shell_IUserNotificationCallback, shell.IUserNotificationCallback, shobjidl/IUserNotificationCallback
 ms.topic: interface
 req.header: shobjidl.h

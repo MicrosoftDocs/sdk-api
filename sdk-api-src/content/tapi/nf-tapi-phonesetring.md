@@ -7,7 +7,7 @@ old-location: tapi2\phonesetring.htm
 tech.root: Tapi
 ms.assetid: 14aca99e-e190-4c48-95f2-0b2a3ba3de3f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_tapi2_phonesetring, phoneSetRing, phoneSetRing function [TAPI 2.2], tapi/phoneSetRing, tapi2.phonesetring"
 ms.topic: function
 req.header: tapi.h

@@ -7,7 +7,7 @@ old-location: p2p\peerdistclientgetinformationbyhandle.htm
 tech.root: P2PSdk
 ms.assetid: d3bb080c-cde7-4623-95fd-3cffb3bd93aa
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PeerDistClientGetInformationByHandle, PeerDistClientGetInformationByHandle function [Peer Networking], p2p.peerdistclientgetinformationbyhandle, peerdist/PeerDistClientGetInformationByHandle
 ms.topic: function
 req.header: peerdist.h

@@ -7,7 +7,7 @@ old-location: winsock\inet_port_range.htm
 tech.root: WinSock
 ms.assetid: FE6946CF-61B6-422C-B9B8-5045EFAB705F
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PINET_PORT_RANGE, *PINET_PORT_RESERVATION, INET_PORT_RANGE, INET_PORT_RANGE structure [Winsock], INET_PORT_RESERVATION, PINET_PORT_RANGE, PINET_PORT_RANGE structure pointer [Winsock], mstcpip/INET_PORT_RANGE, mstcpip/PINET_PORT_RANGE, winsock.inet_port_range"
 ms.topic: struct
 req.header: mstcpip.h

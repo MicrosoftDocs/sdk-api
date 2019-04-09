@@ -7,7 +7,7 @@ old-location: com\imultiqi_querymultipleinterfaces.htm
 tech.root: com
 ms.assetid: 412f1d03-f40c-4451-9c99-1134c69c9989
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMultiQI interface [COM],QueryMultipleInterfaces method, IMultiQI.QueryMultipleInterfaces, IMultiQI::QueryMultipleInterfaces, QueryMultipleInterfaces, QueryMultipleInterfaces method [COM], QueryMultipleInterfaces method [COM],IMultiQI interface, _com_imultiqi_querymultipleinterfaces, com.imultiqi_querymultipleinterfaces, objidlbase/IMultiQI::QueryMultipleInterfaces
 ms.topic: method
 req.header: objidlbase.h

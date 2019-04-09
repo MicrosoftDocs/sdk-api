@@ -7,7 +7,7 @@ old-location: base\query_service_lock_status_str.htm
 tech.root: Services
 ms.assetid: de9797b7-02b0-43cb-bed3-50b7e8676f36
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPQUERY_SERVICE_LOCK_STATUSA, LPQUERY_SERVICE_LOCK_STATUS, LPQUERY_SERVICE_LOCK_STATUS structure pointer, QUERY_SERVICE_LOCK_STATUS, QUERY_SERVICE_LOCK_STATUS structure, QUERY_SERVICE_LOCK_STATUSA, QUERY_SERVICE_LOCK_STATUSW, _win32_query_service_lock_status_str, base.query_service_lock_status_str, winsvc/LPQUERY_SERVICE_LOCK_STATUS, winsvc/QUERY_SERVICE_LOCK_STATUS, winsvc/QUERY_SERVICE_LOCK_STATUSA, winsvc/QUERY_SERVICE_LOCK_STATUSW"
 ms.topic: struct
 req.header: winsvc.h

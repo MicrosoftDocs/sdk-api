@@ -7,7 +7,7 @@ old-location: rm\drmgetrevocationpoint.htm
 tech.root: AdRms_Sdk
 ms.assetid: 11197e77-0b7f-4972-83a1-a82aa5cef0dd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DRMGetRevocationPoint, DRMGetRevocationPoint function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetRevocationPoint, rm.drmgetrevocationpoint
 ms.topic: function
 req.header: msdrm.h

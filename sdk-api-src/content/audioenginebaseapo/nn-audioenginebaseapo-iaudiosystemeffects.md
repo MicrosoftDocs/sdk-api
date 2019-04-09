@@ -7,7 +7,7 @@ old-location: audio\iaudiosystemeffects.htm
 tech.root: audio
 ms.assetid: 86429c51-6831-4266-9774-1547dc04bcb0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IAudioSystemEffects, IAudioSystemEffects interface [Audio Devices], IAudioSystemEffects interface [Audio Devices],described, audio.iaudiosystemeffects, audio_syseffects_r_bdd8290f-b7ec-4c4d-b52f-2e05e9e5c074.xml, audioenginebaseapo/IAudioSystemEffects
 ms.topic: interface
 req.header: audioenginebaseapo.h

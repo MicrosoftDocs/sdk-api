@@ -7,7 +7,7 @@ old-location: automat\safearrayaccessdata.htm
 tech.root: automat
 ms.assetid: ded2112e-f6cd-4982-bacb-b95370e80187
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SafeArrayAccessData, SafeArrayAccessData function [Automation], _oa96_SafeArrayAccessData, automat.safearrayaccessdata, oleauto/SafeArrayAccessData
 ms.topic: function
 req.header: oleauto.h

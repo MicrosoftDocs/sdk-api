@@ -7,7 +7,7 @@ old-location: fwp\ipsec_token0.htm
 tech.root: fwp
 ms.assetid: 12adf88e-05c7-4e08-bbf7-6da529387af1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IPSEC_TOKEN0, IPSEC_TOKEN0 structure [Filtering], fwp.ipsec_token0, ipsectypes/IPSEC_TOKEN0
 ms.topic: struct
 req.header: ipsectypes.h

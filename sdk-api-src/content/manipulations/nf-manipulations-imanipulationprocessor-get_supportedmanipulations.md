@@ -7,7 +7,7 @@ old-location: wintouch\imanipulationprocessor_supportedmanipulations.htm
 tech.root: wintouch
 ms.assetid: 1909394f-83ec-4e13-81af-3e6c70210865
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],SupportedManipulations property, IManipulationProcessor.SupportedManipulations, IManipulationProcessor.get_SupportedManipulations, IManipulationProcessor::SupportedManipulations, IManipulationProcessor::get_SupportedManipulations, IManipulationProcessor::put_SupportedManipulations, SupportedManipulations property [Windows Touch], SupportedManipulations property [Windows Touch],IManipulationProcessor interface, get_SupportedManipulations, manipulations/IManipulationProcessor::SupportedManipulations, manipulations/IManipulationProcessor::get_SupportedManipulations, manipulations/IManipulationProcessor::put_SupportedManipulations, wintouch.imanipulationprocessor_supportedmanipulations
 ms.topic: method
 req.header: manipulations.h

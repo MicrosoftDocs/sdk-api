@@ -7,7 +7,7 @@ old-location: base\ivdsvolumemf_addaccesspath.htm
 tech.root: VDS
 ms.assetid: cf29639e-33fd-42f6-b616-7145521da347
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AddAccessPath, AddAccessPath method [VDS], AddAccessPath method [VDS],IVdsVolumeMF interface, IVdsVolumeMF interface [VDS],AddAccessPath method, IVdsVolumeMF.AddAccessPath, IVdsVolumeMF::AddAccessPath, base.ivdsvolumemf_addaccesspath, vds/IVdsVolumeMF::AddAccessPath
 ms.topic: method
 req.header: vds.h

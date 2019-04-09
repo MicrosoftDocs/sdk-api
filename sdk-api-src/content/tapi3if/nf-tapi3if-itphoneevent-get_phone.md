@@ -7,7 +7,7 @@ old-location: tapi3\itphoneevent_get_phone.htm
 tech.root: Tapi
 ms.assetid: 81b61c98-839a-488b-a0da-085f8891197c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITPhoneEvent interface [TAPI 2.2],get_Phone method, ITPhoneEvent.get_Phone, ITPhoneEvent::get_Phone, _tapi3_itphoneevent_get_phone, get_Phone, get_Phone method [TAPI 2.2], get_Phone method [TAPI 2.2],ITPhoneEvent interface, tapi3.itphoneevent_get_phone, tapi3if/ITPhoneEvent::get_Phone
 ms.topic: method
 req.header: tapi3if.h

@@ -7,7 +7,7 @@ old-location: com\cosetcancelobject.htm
 tech.root: com
 ms.assetid: 0978e252-2206-4597-abf2-fe0dac32efc4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CoSetCancelObject, CoSetCancelObject function [COM], _com_CoSetCancelObject, com.cosetcancelobject, combaseapi/CoSetCancelObject
 ms.topic: function
 req.header: combaseapi.h

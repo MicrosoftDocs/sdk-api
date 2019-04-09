@@ -7,7 +7,7 @@ old-location: fwp\fwpm_provider_context_enum_template0_struct.htm
 tech.root: fwp
 ms.assetid: 0d43931a-93ae-43dd-9c5b-3989799e7b60
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0, FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0 structure [Filtering], fwp.fwpm_provider_context_enum_template0_struct, fwpmtypes/FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0
 ms.topic: struct
 req.header: fwpmtypes.h

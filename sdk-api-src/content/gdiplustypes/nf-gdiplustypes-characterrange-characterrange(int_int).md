@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_CharacterRange_CharacterRange_first_length_
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\characterrangeclass\characterrangeconstructors\characterrange_68first_length.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CharacterRange, CharacterRange class [GDI+],CharacterRange constructor, CharacterRange constructor [GDI+], CharacterRange constructor [GDI+],CharacterRange class, CharacterRange.CharacterRange, CharacterRange.CharacterRange(INT,INT), CharacterRange::CharacterRange, CharacterRange::CharacterRange(INT,INT), _gdiplus_CLASS_CharacterRange_CharacterRange_first_length_, gdiplus._gdiplus_CLASS_CharacterRange_CharacterRange_first_length_
 ms.topic: method
 req.header: gdiplustypes.h

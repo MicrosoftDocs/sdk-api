@@ -7,7 +7,7 @@ old-location: setup\msiprocessadvertisescript.htm
 tech.root: Msi
 ms.assetid: 2c418552-2c06-4797-9fa3-d36e69ef0d53
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MsiProcessAdvertiseScript, MsiProcessAdvertiseScript function, MsiProcessAdvertiseScriptA, MsiProcessAdvertiseScriptW, _msi_msiprocessadvertisescript, msi/MsiProcessAdvertiseScript, msi/MsiProcessAdvertiseScriptA, msi/MsiProcessAdvertiseScriptW, setup.msiprocessadvertisescript
 ms.topic: function
 req.header: msi.h

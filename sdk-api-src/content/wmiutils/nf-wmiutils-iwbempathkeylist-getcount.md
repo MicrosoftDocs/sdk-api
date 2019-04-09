@@ -7,7 +7,7 @@ old-location: wmi\iwbempathkeylist_getcount.htm
 tech.root: WmiSdk
 ms.assetid: 92e78bd2-24f6-4e48-ae21-575cd1887c06
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Windows Management Instrumentation], GetCount method [Windows Management Instrumentation],IWbemPathKeyList interface, IWbemPathKeyList interface [Windows Management Instrumentation],GetCount method, IWbemPathKeyList.GetCount, IWbemPathKeyList::GetCount, _hmm_iwbempathkeylist_getcount, wmi.iwbempathkeylist_getcount, wmiutils/IWbemPathKeyList::GetCount
 ms.topic: method
 req.header: wmiutils.h

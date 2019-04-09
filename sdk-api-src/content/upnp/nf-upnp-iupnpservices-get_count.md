@@ -7,7 +7,7 @@ old-location: upnp\iupnpservices_count.htm
 tech.root: upnp
 ms.assetid: 33d90664-825a-4562-82ae-249b329743ac
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IUPnPServices interface [UPnP APIs],get_Count method, IUPnPServices.get_Count, IUPnPServices::get_Count, _upnp_iupnpservices_count, get_Count, get_Count method [UPnP APIs], get_Count method [UPnP APIs],IUPnPServices interface, upnp.iupnpservices_count, upnp/IUPnPServices::get_Count
 ms.topic: method
 req.header: upnp.h

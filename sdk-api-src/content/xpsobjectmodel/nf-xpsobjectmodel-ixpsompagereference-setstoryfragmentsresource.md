@@ -7,7 +7,7 @@ old-location: xps\ixpsompagereference_setstoryfragmentsresource.htm
 tech.root: printdocs
 ms.assetid: 0e096e8f-d2f1-4dcb-9a86-c56ff53393d1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IXpsOMPageReference interface [XPS Documents and Packaging],SetStoryFragmentsResource method, IXpsOMPageReference.SetStoryFragmentsResource, IXpsOMPageReference::SetStoryFragmentsResource, SetStoryFragmentsResource, SetStoryFragmentsResource method [XPS Documents and Packaging], SetStoryFragmentsResource method [XPS Documents and Packaging],IXpsOMPageReference interface, xps.ixpsompagereference_setstoryfragmentsresource, xpsobjectmodel/IXpsOMPageReference::SetStoryFragmentsResource
 ms.topic: method
 req.header: xpsobjectmodel.h

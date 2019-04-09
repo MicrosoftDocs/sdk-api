@@ -7,7 +7,7 @@ old-location: mstv\ituningspacecontainer_get_count.htm
 tech.root: mstv
 ms.assetid: 9dfa7700-fef5-4e97-855b-0670cc380af0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],get_Count method, ITuningSpaceContainer.get_Count, ITuningSpaceContainer::get_Count, ITuningSpaceContainerget_Count, get_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_get_count, tuner/ITuningSpaceContainer::get_Count
 ms.topic: method
 req.header: tuner.h

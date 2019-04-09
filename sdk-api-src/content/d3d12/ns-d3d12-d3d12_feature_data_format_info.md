@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_feature_data_format_info.htm
 tech.root: direct3d12
 ms.assetid: 8695994A-CC83-451C-AD1B-65359656F3CC
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: D3D12_FEATURE_DATA_FORMAT_INFO, D3D12_FEATURE_DATA_FORMAT_INFO structure, d3d12/D3D12_FEATURE_DATA_FORMAT_INFO, direct3d12.d3d12_feature_data_format_info
 ms.topic: struct
 req.header: d3d12.h

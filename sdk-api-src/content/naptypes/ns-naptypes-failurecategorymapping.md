@@ -7,7 +7,7 @@ old-location: nap\failurecategorymapping_struct.htm
 tech.root: NAP
 ms.assetid: dbf2978f-062a-417b-a6df-a82879e10ec8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FailureCategoryMapping, FailureCategoryMapping structure [NAP], nap.failurecategorymapping_struct, naptypes/FailureCategoryMapping
 ms.topic: struct
 req.header: naptypes.h

@@ -7,7 +7,7 @@ old-location: devinst\setupgetinfdriverstorelocation.htm
 tech.root: devinst
 ms.assetid: 34131e9e-2e0e-4098-a988-3dadbf1789af
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SetupGetInfDriverStoreLocation, SetupGetInfDriverStoreLocation function [Device and Driver Installation], SetupGetInfDriverStoreLocationA, SetupGetInfDriverStoreLocationW, devinst.setupgetinfdriverstorelocation, setup-ref_349dd5f9-d925-4bdf-b99d-b8abef1eb12b.xml, setupapi/SetupGetInfDriverStoreLocation
 ms.topic: function
 req.header: setupapi.h

@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFontFile_GetLoader.htm
 tech.root: DirectWrite
 ms.assetid: 60f13a03-2063-4f74-8bfe-217b6c1682ff
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetLoader, GetLoader method [Direct Write], GetLoader method [Direct Write],IDWriteFontFile interface, IDWriteFontFile interface [Direct Write],GetLoader method, IDWriteFontFile.GetLoader, IDWriteFontFile::GetLoader, directwrite.IDWriteFontFile_GetLoader, dwrite/IDWriteFontFile::GetLoader
 ms.topic: method
 req.header: dwrite.h

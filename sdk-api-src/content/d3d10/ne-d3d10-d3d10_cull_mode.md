@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_cull_mode.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_cull_mode.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 2117693b-8d7e-4cd9-dfee-29b015d206b8, D3D10_CULL_BACK, D3D10_CULL_FRONT, D3D10_CULL_MODE, D3D10_CULL_MODE enumeration [Direct3D 10], D3D10_CULL_NONE, d3d10/D3D10_CULL_BACK, d3d10/D3D10_CULL_FRONT, d3d10/D3D10_CULL_MODE, d3d10/D3D10_CULL_NONE, direct3d10.d3d10_cull_mode
 ms.topic: enum
 req.header: d3d10.h

@@ -7,7 +7,7 @@ old-location: dxmath\xmvectormultiply.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorMultiply(XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorMultiply, XMVectorMultiply, XMVectorMultiply method [DirectX Math Support APIs], dxmath.xmvectormultiply
 ms.topic: function
 req.header: directxmath.h

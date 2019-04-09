@@ -7,7 +7,7 @@ old-location: controls\itextrange2_getpara2.htm
 tech.root: Controls
 ms.assetid: b20ebe85-f2a6-4a19-8b25-f1f16ebf5627
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetPara2, GetPara2 method [Windows Controls], GetPara2 method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetPara2 method, ITextRange2.GetPara2, ITextRange2::GetPara2, controls.itextrange2_getpara2, tom/ITextRange2::GetPara2
 ms.topic: method
 req.header: tom.h

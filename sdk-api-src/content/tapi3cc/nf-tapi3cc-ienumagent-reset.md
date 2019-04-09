@@ -7,7 +7,7 @@ old-location: tapi3\ienumagent_reset.htm
 tech.root: Tapi
 ms.assetid: e909135a-04ed-4602-991e-915744667df7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEnumAgent interface [TAPI 2.2],Reset method, IEnumAgent.Reset, IEnumAgent::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumAgent interface, _tapi3_ienumagent_reset, tapi3.ienumagent_reset, tapi3cc/IEnumAgent::Reset
 ms.topic: method
 req.header: tapi3cc.h

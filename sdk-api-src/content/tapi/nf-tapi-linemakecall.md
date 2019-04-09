@@ -7,7 +7,7 @@ old-location: tapi2\linemakecall.htm
 tech.root: Tapi
 ms.assetid: a7dc9cdc-3cc3-4b6a-98c8-e141402c781e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_tapi2_linemakecall, lineMakeCall, lineMakeCall function [TAPI 2.2], lineMakeCallA, lineMakeCallW, tapi/lineMakeCall, tapi/lineMakeCallA, tapi/lineMakeCallW, tapi2.linemakecall"
 ms.topic: function
 req.header: tapi.h

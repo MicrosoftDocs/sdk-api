@@ -7,7 +7,7 @@ old-location: fs\netshareadd.htm
 tech.root: NetShare
 ms.assetid: 8b51c155-24e8-4d39-b818-eb2d1bb0ee8b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 2, 502, 503, NetShareAdd, NetShareAdd function [Files], _win32_netshareadd, fs.netshareadd, lmshare/NetShareAdd, netmgmt.netshareadd
 ms.topic: function
 req.header: lmshare.h

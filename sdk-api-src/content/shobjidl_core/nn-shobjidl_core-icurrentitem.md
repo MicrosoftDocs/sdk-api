@@ -7,7 +7,7 @@ old-location: shell\ICurrentItem.htm
 tech.root: shell
 ms.assetid: a5ff7199-134d-4c1a-91e0-a81ff474f5a6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ICurrentItem, ICurrentItem interface [Windows Shell], ICurrentItem interface [Windows Shell],described, _shell_ICurrentItem, shell.ICurrentItem, shobjidl_core/ICurrentItem
 ms.topic: interface
 req.header: shobjidl_core.h

@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmquotamanagerex.htm
 tech.root: fsrm
 ms.assetid: aa665a9d-d053-49e4-82a7-d6ba27406a7c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFsrmQuotaManagerEx, IFsrmQuotaManagerEx interface [File Server Resource Manager], IFsrmQuotaManagerEx interface [File Server Resource Manager],described, fs.ifsrmquotamanagerex, fsrm.ifsrmquotamanagerex, fsrm/IFsrmQuotaManagerEx
 ms.topic: interface
 req.header: fsrmquota.h

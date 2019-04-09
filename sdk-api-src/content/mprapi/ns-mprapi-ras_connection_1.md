@@ -7,7 +7,7 @@ old-location: rras\ras_connection_1.htm
 tech.root: RRAS
 ms.assetid: 5f6c6895-4baf-46d7-865a-b95342b70abb
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PRAS_CONNECTION_1, PRAS_CONNECTION_1, PRAS_CONNECTION_1 structure pointer [RAS], RAS_CONNECTION_1, RAS_CONNECTION_1 structure [RAS], _mpr_ras_connection_1, mprapi/PRAS_CONNECTION_1, mprapi/RAS_CONNECTION_1, rras.ras_connection_1"
 ms.topic: struct
 req.header: mprapi.h

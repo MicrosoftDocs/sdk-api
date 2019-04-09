@@ -7,7 +7,7 @@ old-location: rras\rtmdeleteroutetodest.htm
 tech.root: RRAS
 ms.assetid: d82e68b4-aff4-4872-b719-d9354f35024c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RtmDeleteRouteToDest, RtmDeleteRouteToDest function [RAS], _rtmv2ref_rtmdeleteroutetodest, rras.rtmdeleteroutetodest, rtmv2/RtmDeleteRouteToDest
 ms.topic: function
 req.header: rtmv2.h

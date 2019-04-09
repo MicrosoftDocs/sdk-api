@@ -7,7 +7,7 @@ old-location: dshow\am_dvd_renderstatus.htm
 tech.root: DirectShow
 ms.assetid: 6d11332e-86db-4649-af77-2906c6cbba7a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AM_DVD_RENDERSTATUS, AM_DVD_RENDERSTATUS structure [DirectShow], AM_DVD_RENDERSTATUSStructure, dshow.am_dvd_renderstatus, strmif/AM_DVD_RENDERSTATUS
 ms.topic: struct
 req.header: strmif.h

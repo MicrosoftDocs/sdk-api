@@ -7,7 +7,7 @@ old-location: secbiomet\storageadaptergetrecordcount.htm
 tech.root: SecBioMet
 ms.assetid: dc7891c3-33f7-498c-acb1-4687909debb7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PIBIO_STORAGE_GET_RECORD_COUNT_FN, PIBIO_STORAGE_GET_RECORD_COUNT_FN callback, StorageAdapterGetRecordCount, StorageAdapterGetRecordCount callback function [Windows Biometric Framework API], secbiomet.storageadaptergetrecordcount, winbio_adapter/StorageAdapterGetRecordCount
 ms.topic: callback
 req.header: winbio_adapter.h

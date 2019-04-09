@@ -7,7 +7,7 @@ old-location: controls\itexthost2_txgetwindow.htm
 tech.root: Controls
 ms.assetid: 42594B92-298B-4659-87EC-D10C6996CECF
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxGetWindow method, ITextHost2.TxGetWindow, ITextHost2::TxGetWindow, TxGetWindow, TxGetWindow method [Windows Controls], TxGetWindow method [Windows Controls],ITextHost2 interface, controls.itexthost2_txgetwindow, textserv/ITextHost2::TxGetWindow
 ms.topic: method
 req.header: textserv.h

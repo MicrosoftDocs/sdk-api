@@ -7,7 +7,7 @@ old-location: security\algorithmflags_enum.htm
 tech.root: seccertenroll
 ms.assetid: 0f067687-ae92-4500-af19-80f537620bb9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AlgorithmFlags, AlgorithmFlags enumeration [Security], AlgorithmFlagsNone, AlgorithmFlagsWrap, certenroll/AlgorithmFlags, certenroll/AlgorithmFlagsNone, certenroll/AlgorithmFlagsWrap, security.algorithmflags_enum
 ms.topic: enum
 req.header: certenroll.h

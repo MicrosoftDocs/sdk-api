@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescriptionAliasInfo.htm
 tech.root: properties
 ms.assetid: fc9bc0d2-3c9b-4fbc-b098-462d7d253286
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IPropertyDescriptionAliasInfo, IPropertyDescriptionAliasInfo interface [Windows Properties], IPropertyDescriptionAliasInfo interface [Windows Properties],described, _shell_IPropertyDescriptionAliasInfo, properties.IPropertyDescriptionAliasInfo, propsys/IPropertyDescriptionAliasInfo, shell.IPropertyDescriptionAliasInfo
 ms.topic: interface
 req.header: propsys.h

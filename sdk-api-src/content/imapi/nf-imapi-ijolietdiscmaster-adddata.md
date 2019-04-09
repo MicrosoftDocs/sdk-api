@@ -7,7 +7,7 @@ old-location: imapi\ijolietdiscmaster_adddata.htm
 tech.root: imapi
 ms.assetid: 91517103-71c5-450c-9d93-584f94cd2c45
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AddData, AddData method [IMAPI], AddData method [IMAPI],IJolietDiscMaster interface, IJolietDiscMaster interface [IMAPI],AddData method, IJolietDiscMaster.AddData, IJolietDiscMaster::AddData, _win32_ijolietdiscmaster_adddata, base.ijolietdiscmaster_adddata, imapi.ijolietdiscmaster_adddata, imapi/IJolietDiscMaster::AddData
 ms.topic: method
 req.header: imapi.h

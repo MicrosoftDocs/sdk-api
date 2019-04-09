@@ -7,7 +7,7 @@ old-location: dxmath\xmvector4greater.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector4Greater(XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4Greater, XMVector4Greater, XMVector4Greater method [DirectX Math Support APIs], dxmath.xmvector4greater
 ms.topic: function
 req.header: directxmath.h

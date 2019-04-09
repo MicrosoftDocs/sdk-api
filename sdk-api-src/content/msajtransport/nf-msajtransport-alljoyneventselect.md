@@ -7,7 +7,7 @@ old-location: alljoyn\alljoyneventselect.htm
 tech.root: AllJoyn
 ms.assetid: 8E3A3631-50D5-4947-9C0E-672C08D7292A
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AllJoynEventSelect, AllJoynEventSelect function [AllJoyn API], alljoyn.alljoyneventselect, msajtransport/AllJoynEventSelect
 ms.topic: function
 req.header: msajtransport.h

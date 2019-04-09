@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopymanager_createjob.htm
 tech.root: Bits
 ms.assetid: 6d23e3c0-673b-4f37-b6a0-e364b2d73886
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateJob, CreateJob method [BITS], CreateJob method [BITS],IBackgroundCopyManager interface, IBackgroundCopyManager interface [BITS],CreateJob method, IBackgroundCopyManager.CreateJob, IBackgroundCopyManager::CreateJob, _drz_ibackgroundcopymanager_createjob, bits.ibackgroundcopymanager_createjob, bits/IBackgroundCopyManager::CreateJob
 ms.topic: method
 req.header: bits.h

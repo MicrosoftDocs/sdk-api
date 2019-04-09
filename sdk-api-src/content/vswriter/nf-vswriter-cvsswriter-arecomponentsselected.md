@@ -7,7 +7,7 @@ old-location: base\cvsswriter_arecomponentsselected.htm
 tech.root: VSS
 ms.assetid: da84f1ab-8712-436f-8ae7-ba3d52a761c0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AreComponentsSelected, AreComponentsSelected method [VSS], AreComponentsSelected method [VSS],CVssWriter class, CVssWriter class [VSS],AreComponentsSelected method, CVssWriter.AreComponentsSelected, CVssWriter::AreComponentsSelected, _win32_cvsswriter_arecomponentsselected, base.cvsswriter_arecomponentsselected, vswriter/CVssWriter::AreComponentsSelected
 ms.topic: method
 req.header: vswriter.h

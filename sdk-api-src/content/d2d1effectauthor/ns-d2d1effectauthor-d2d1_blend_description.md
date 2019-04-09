@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_blend_description.htm
 tech.root: Direct2D
 ms.assetid: 5f4c7248-9303-4451-92f1-4b230efd627a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: D2D1_BLEND_DESCRIPTION, D2D1_BLEND_DESCRIPTION structure [Direct2D], d2d1effectauthor/D2D1_BLEND_DESCRIPTION, direct2d.d2d1_blend_description
 ms.topic: struct
 req.header: d2d1effectauthor.h

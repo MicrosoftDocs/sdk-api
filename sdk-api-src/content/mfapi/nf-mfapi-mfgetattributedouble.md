@@ -7,7 +7,7 @@ old-location: mf\mfgetattributedouble.htm
 tech.root: medfound
 ms.assetid: 61a9e327-da29-45fd-8a99-e341561826af
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 61a9e327-da29-45fd-8a99-e341561826af, MFGetAttributeDouble, MFGetAttributeDouble function [Media Foundation], mf.mfgetattributedouble, mfapi/MFGetAttributeDouble
 ms.topic: function
 req.header: mfapi.h

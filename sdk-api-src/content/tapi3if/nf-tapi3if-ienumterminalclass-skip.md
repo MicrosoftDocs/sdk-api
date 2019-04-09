@@ -7,7 +7,7 @@ old-location: tapi3\ienumterminalclass_skip.htm
 tech.root: Tapi
 ms.assetid: 5aebbc0d-212e-4789-bb8e-d180589235ec
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEnumTerminalClass interface [TAPI 2.2],Skip method, IEnumTerminalClass.Skip, IEnumTerminalClass::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumTerminalClass interface, _tapi3_ienumterminalclass_skip, tapi3.ienumterminalclass_skip, tapi3if/IEnumTerminalClass::Skip
 ms.topic: method
 req.header: tapi3if.h

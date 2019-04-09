@@ -7,7 +7,7 @@ old-location: fwp\ipsec_traffic0_struct.htm
 tech.root: fwp
 ms.assetid: 5be2da29-73d6-4381-8bde-3a3945ea7b5a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IPSEC_TRAFFIC0, IPSEC_TRAFFIC0 structure [Filtering], fwp.ipsec_traffic0_struct, ipsectypes/IPSEC_TRAFFIC0
 ms.topic: struct
 req.header: ipsectypes.h

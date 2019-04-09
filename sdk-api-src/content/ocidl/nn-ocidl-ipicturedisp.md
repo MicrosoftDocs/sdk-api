@@ -7,7 +7,7 @@ old-location: com\ipicturedisp.htm
 tech.root: com
 ms.assetid: 42efa5a3-66af-4432-a2fd-616261b1f407
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IPictureDisp, IPictureDisp interface [COM], IPictureDisp interface [COM],described, _ctrl_ipicturedisp, com.ipicturedisp, ocidl/IPictureDisp
 ms.topic: interface
 req.header: ocidl.h

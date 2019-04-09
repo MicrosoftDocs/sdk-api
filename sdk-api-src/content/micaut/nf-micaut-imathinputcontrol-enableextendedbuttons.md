@@ -7,7 +7,7 @@ old-location: tablet\imathinputcontrol_enableextendedbuttons.htm
 tech.root: tablet
 ms.assetid: e8cdae54-ff0b-4361-bd38-1b99137736ab
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EnableExtendedButtons, EnableExtendedButtons method [Tablet PC], EnableExtendedButtons method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],EnableExtendedButtons method, IMathInputControl.EnableExtendedButtons, IMathInputControl::EnableExtendedButtons, micaut/IMathInputControl::EnableExtendedButtons, tablet.imathinputcontrol_enableextendedbuttons
 ms.topic: method
 req.header: micaut.h

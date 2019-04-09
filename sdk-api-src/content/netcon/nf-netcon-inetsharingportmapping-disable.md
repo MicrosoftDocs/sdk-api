@@ -7,7 +7,7 @@ old-location: ics\inetsharingportmapping_disable.htm
 tech.root: ics
 ms.assetid: 110d9c9b-189c-4529-b960-2722d9037c7c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Disable, Disable method [ICS/ICF], Disable method [ICS/ICF],INetSharingPortMapping interface, INetSharingPortMapping interface [ICS/ICF],Disable method, INetSharingPortMapping.Disable, INetSharingPortMapping::Disable, _ics_inetsharingportmapping_disable, ics.inetsharingportmapping_disable, netcon/INetSharingPortMapping::Disable
 ms.topic: method
 req.header: netcon.h

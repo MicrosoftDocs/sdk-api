@@ -7,7 +7,7 @@ old-location: multimedia\midioutgetid.htm
 tech.root: Multimedia
 ms.assetid: ce90f680-52e1-4883-9367-88e5baca7ef5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_win32_midiOutGetID, midiOutGetID, midiOutGetID function [Windows Multimedia], mmeapi/midiOutGetID, multimedia.midioutgetid"
 ms.topic: function
 req.header: mmeapi.h

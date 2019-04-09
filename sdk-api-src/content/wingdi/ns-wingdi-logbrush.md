@@ -7,7 +7,7 @@ old-location: gdi\logbrush.htm
 tech.root: gdi
 ms.assetid: ded2c7a4-2248-4d01-95c6-ab4050719094
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPLOGBRUSH, *LPPATTERN, *NPLOGBRUSH, *NPPATTERN, *PLOGBRUSH, *PPATTERN, LOGBRUSH, LOGBRUSH structure [Windows GDI], PATTERN, PLOGBRUSH, PLOGBRUSH structure pointer [Windows GDI], _win32_LOGBRUSH_str, gdi.logbrush, wingdi/LOGBRUSH, wingdi/PLOGBRUSH"
 ms.topic: struct
 req.header: wingdi.h

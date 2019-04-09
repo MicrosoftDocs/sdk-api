@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariableintegerchangehandler.htm
 tech.root: UIAnimation
 ms.assetid: acd9ff0f-e2e4-4711-9d9c-54624f170ec6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariableIntegerChangeHandler, IUIAnimationVariableIntegerChangeHandler interface [Windows Animation], IUIAnimationVariableIntegerChangeHandler interface [Windows Animation],described, uianimation.iuianimationvariableintegerchangehandler, uianimation/IUIAnimationVariableIntegerChangeHandler
 ms.topic: interface
 req.header: uianimation.h

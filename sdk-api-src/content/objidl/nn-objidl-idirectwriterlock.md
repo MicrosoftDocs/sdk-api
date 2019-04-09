@@ -7,7 +7,7 @@ old-location: stg\idirectwriterlock.htm
 tech.root: Stg
 ms.assetid: cff56e4f-b8c5-4d87-9289-f8f2212d7c42
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDirectWriterLock, IDirectWriterLock interface [Structured Storage], IDirectWriterLock interface [Structured Storage],described, _stg_idirectwriterlock, objidl/IDirectWriterLock, stg.idirectwriterlock
 ms.topic: interface
 req.header: objidl.h

@@ -7,7 +7,7 @@ old-location: security\iazscope2_createroledefinition.htm
 tech.root: SecAuthZ
 ms.assetid: bcd78233-a484-4c99-9dbb-9f559f7542a4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateRoleDefinition, CreateRoleDefinition method [Security], CreateRoleDefinition method [Security],IAzScope2 interface, IAzScope2 interface [Security],CreateRoleDefinition method, IAzScope2.CreateRoleDefinition, IAzScope2::CreateRoleDefinition, azroles/IAzScope2::CreateRoleDefinition, security.iazscope2_createroledefinition
 ms.topic: method
 req.header: azroles.h

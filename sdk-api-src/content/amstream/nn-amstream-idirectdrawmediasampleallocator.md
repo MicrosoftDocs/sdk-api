@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawmediasampleallocator.htm
 tech.root: DirectShow
 ms.assetid: 35fd81ce-058a-4caf-b1de-f669be586f33
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDirectDrawMediaSampleAllocator, IDirectDrawMediaSampleAllocator interface [DirectShow], IDirectDrawMediaSampleAllocator interface [DirectShow],described, IDirectDrawMediaSampleAllocatorInterface, amstream/IDirectDrawMediaSampleAllocator, dshow.idirectdrawmediasampleallocator
 ms.topic: interface
 req.header: amstream.h

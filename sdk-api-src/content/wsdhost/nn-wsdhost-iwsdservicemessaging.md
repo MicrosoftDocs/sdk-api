@@ -7,7 +7,7 @@ old-location: ncd\iwsdservicemessaging.htm
 tech.root: WsdApi
 ms.assetid: 06584474-1c55-43db-9c7a-fefea8d16eed
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWSDServiceMessaging, IWSDServiceMessaging interface, IWSDServiceMessaging interface,described, ncd.iwsdservicemessaging, wsdhost/IWSDServiceMessaging
 ms.topic: interface
 req.header: wsdhost.h

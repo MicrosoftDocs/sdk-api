@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_tex2d_array_rtv.htm
 tech.root: direct3d11
 ms.assetid: 5caecf26-707b-45f4-8296-784ed4184459
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 46c5645a-0f21-8bfe-b2e9-ab115657b0c0, D3D11_TEX2D_ARRAY_RTV, D3D11_TEX2D_ARRAY_RTV structure [Direct3D 11], d3d11/D3D11_TEX2D_ARRAY_RTV, direct3d11.d3d11_tex2d_array_rtv
 ms.topic: struct
 req.header: d3d11.h

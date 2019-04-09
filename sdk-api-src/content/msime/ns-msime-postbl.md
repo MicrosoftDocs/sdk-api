@@ -7,7 +7,7 @@ old-location: intl\postbl.htm
 tech.root: Intl
 ms.assetid: CA6A4E71-651A-44CA-B47D-79888A36BB12
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: POSTBL, POSTBL structure [Internationalization for Windows Applications], PPOSTBL, PPOSTBL structure pointer [Internationalization for Windows Applications], intl.postbl, msime/POSTBL, msime/PPOSTBL
 ms.topic: struct
 req.header: msime.h

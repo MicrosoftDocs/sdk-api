@@ -7,7 +7,7 @@ old-location: shell\INewShortcutHook_GetFolder.htm
 tech.root: shell
 ms.assetid: 2b743242-3ebe-46cb-a084-575228cb314b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetFolder, GetFolder method [Windows Shell], GetFolder method [Windows Shell],INewShortcutHook interface, INewShortcutHook interface [Windows Shell],GetFolder method, INewShortcutHook::GetFolder, INewShortcutHookA, INewShortcutHookA.GetFolder, INewShortcutHookA::GetFolder, INewShortcutHookW, INewShortcutHookW::GetFolder, _win32_INewShortcutHook_GetFolder, shell.INewShortcutHook_GetFolder, shlobj/INewShortcutHook::GetFolder
 ms.topic: method
 req.header: shlobj.h

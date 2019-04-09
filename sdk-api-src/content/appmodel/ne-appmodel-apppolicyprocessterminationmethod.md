@@ -7,7 +7,7 @@ old-location: appxpkg\apppolicyprocessterminationmethod_enumeration.htm
 tech.root: appxpkg
 ms.assetid: 874B576A-1AB5-4712-BF04-0406E5FE4923
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AppPolicyProcessTerminationMethod, AppPolicyProcessTerminationMethod enumeration [App packaging and management], AppPolicyProcessTerminationMethod_ExitProcess, AppPolicyProcessTerminationMethod_TerminateProcess, appmodel/AppPolicyProcessTerminationMethod, appmodel/AppPolicyProcessTerminationMethod_ExitProcess, appmodel/AppPolicyProcessTerminationMethod_TerminateProcess, appxpkg.apppolicyprocessterminationmethod_enumeration
 ms.topic: enum
 req.header: appmodel.h

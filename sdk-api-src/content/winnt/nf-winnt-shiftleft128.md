@@ -7,7 +7,7 @@ old-location: winprog\shiftleft128.htm
 tech.root: WinProg
 ms.assetid: CD890E9A-37E2-4367-A598-E3C6B85E996F
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ShiftLeft128, ShiftLeft128 function [Windows API], winnt/ShiftLeft128, winprog.shiftleft128
 ms.topic: function
 req.header: winnt.h

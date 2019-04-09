@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgpaint_setid.htm
 tech.root: Direct2D
 ms.assetid: E9888C0D-6C71-4C41-ACD5-41BA8D6C04EE
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ID2D1SvgPaint interface [Direct2D],SetId method, ID2D1SvgPaint.SetId, ID2D1SvgPaint::SetId, SetId, SetId method [Direct2D], SetId method [Direct2D],ID2D1SvgPaint interface, d2d1svg/ID2D1SvgPaint::SetId, direct2d.id2d1svgpaint_setid
 ms.topic: method
 req.header: d2d1svg.h

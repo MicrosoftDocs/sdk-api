@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorexp2.htm
 tech.root: dxmath
 ms.assetid: 1B04528B-532B-4555-B027-D5EC33DD9843
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorExp2, XMVectorExp2, XMVectorExp2 method [DirectX Math Support APIs], dxmath.xmvectorexp2
 ms.topic: function
 req.header: directxmath.h

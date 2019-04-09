@@ -7,7 +7,7 @@ old-location: security\openthreadtoken.htm
 tech.root: SecAuthZ
 ms.assetid: 5003f0c4-41e9-4a14-b6a9-4f259c4af08b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: OpenThreadToken, OpenThreadToken function [Security], _win32_openthreadtoken, processthreadsapi/OpenThreadToken, security.openthreadtoken
 ms.topic: function
 req.header: processthreadsapi.h

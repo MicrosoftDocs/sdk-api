@@ -7,7 +7,7 @@ old-location: com\cogetinterfaceandreleasestream.htm
 tech.root: com
 ms.assetid: b529f65f-3208-4594-a772-d1cad3727dc1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CoGetInterfaceAndReleaseStream, CoGetInterfaceAndReleaseStream function [COM], _com_CoGetInterfaceAndReleaseStream, com.cogetinterfaceandreleasestream, combaseapi/CoGetInterfaceAndReleaseStream
 ms.topic: function
 req.header: combaseapi.h

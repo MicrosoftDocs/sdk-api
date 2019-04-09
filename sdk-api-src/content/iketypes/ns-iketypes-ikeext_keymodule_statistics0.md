@@ -7,7 +7,7 @@ old-location: fwp\ikeext_keymodule_statistics0.htm
 tech.root: fwp
 ms.assetid: 87dca500-bf57-463a-a6de-db270430ae29
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IKEEXT_KEYMODULE_STATISTICS0, IKEEXT_KEYMODULE_STATISTICS0 structure [Filtering], fwp.ikeext_keymodule_statistics0, iketypes/IKEEXT_KEYMODULE_STATISTICS0
 ms.topic: struct
 req.header: iketypes.h

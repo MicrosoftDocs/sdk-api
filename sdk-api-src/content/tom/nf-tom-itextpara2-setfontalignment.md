@@ -7,7 +7,7 @@ old-location: controls\itextpara2_setfontalignment.htm
 tech.root: Controls
 ms.assetid: 2ed1f7f2-9523-4dda-bac0-c1eb3d217102
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITextPara2 interface [Windows Controls],SetFontAlignment method, ITextPara2.SetFontAlignment, ITextPara2::SetFontAlignment, SetFontAlignment, SetFontAlignment method [Windows Controls], SetFontAlignment method [Windows Controls],ITextPara2 interface, controls.itextpara2_setfontalignment, tom/ITextPara2::SetFontAlignment
 ms.topic: method
 req.header: tom.h

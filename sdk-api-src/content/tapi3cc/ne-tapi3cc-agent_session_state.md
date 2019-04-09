@@ -7,7 +7,7 @@ old-location: tapi3\agent_session_state.htm
 tech.root: Tapi
 ms.assetid: 0c902924-e142-4ab9-9b20-661d7c2e3629
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AGENT_SESSION_STATE, AGENT_SESSION_STATE enumeration [TAPI 2.2], ASST_BUSY_ON_CALL, ASST_BUSY_WRAPUP, ASST_NOT_READY, ASST_READY, ASST_SESSION_ENDED, _tapi3_agent_session_state, tapi3.agent_session_state, tapi3cc/AGENT_SESSION_STATE, tapi3cc/ASST_BUSY_ON_CALL, tapi3cc/ASST_BUSY_WRAPUP, tapi3cc/ASST_NOT_READY, tapi3cc/ASST_READY, tapi3cc/ASST_SESSION_ENDED
 ms.topic: enum
 req.header: tapi3cc.h

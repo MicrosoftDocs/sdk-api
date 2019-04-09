@@ -7,7 +7,7 @@ old-location: tsf\itfreverseconversionlist_getstring.htm
 tech.root: TSF
 ms.assetid: 5a8cc79f-d348-4fe8-b005-aeabd6db43c5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetString, GetString method [Text Services Framework], GetString method [Text Services Framework],ITfReverseConversionList interface, ITfReverseConversionList interface [Text Services Framework],GetString method, ITfReverseConversionList.GetString, ITfReverseConversionList::GetString, msctf/ITfReverseConversionList::GetString, tsf.itfreverseconversionlist_getstring
 ms.topic: method
 req.header: msctf.h

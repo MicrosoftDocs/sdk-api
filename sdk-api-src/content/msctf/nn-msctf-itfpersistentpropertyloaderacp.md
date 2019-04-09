@@ -7,7 +7,7 @@ old-location: tsf\itfpersistentpropertyloaderacp.htm
 tech.root: TSF
 ms.assetid: 7d7af737-6241-43a9-946e-6a03a423b20f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITfPersistentPropertyLoaderACP, ITfPersistentPropertyLoaderACP interface [Text Services Framework], ITfPersistentPropertyLoaderACP interface [Text Services Framework],described, _tsf_itfpersistentpropertyloaderacp_ref, msctf/ITfPersistentPropertyLoaderACP, tsf.itfpersistentpropertyloaderacp
 ms.topic: interface
 req.header: msctf.h

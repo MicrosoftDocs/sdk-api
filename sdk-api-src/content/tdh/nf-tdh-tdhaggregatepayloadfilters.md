@@ -7,7 +7,7 @@ old-location: etw\tdhaggregatepayloadfilters.htm
 tech.root: ETW
 ms.assetid: B9093E64-1796-4AF2-AB45-84F278813B66
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TdhAggregatePayloadFilters, TdhAggregatePayloadFilters function [ETW], etw.tdhaggregatepayloadfilters, tdh/TdhAggregatePayloadFilters
 ms.topic: function
 req.header: tdh.h

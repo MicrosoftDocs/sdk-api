@@ -7,7 +7,7 @@ old-location: rdc\irdcsignaturereader.htm
 tech.root: rdc
 ms.assetid: dec6eb10-1243-4888-9ccc-ab1f4cfb11e7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IRdcSignatureReader, IRdcSignatureReader interface [Remote Differential Compression], IRdcSignatureReader interface [Remote Differential Compression],described, fs.irdcsignaturereader, msrdc/IRdcSignatureReader, rdc.irdcsignaturereader
 ms.topic: interface
 req.header: msrdc.h

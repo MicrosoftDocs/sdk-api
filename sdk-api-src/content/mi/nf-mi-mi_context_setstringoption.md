@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_context_setstringoption.htm
 tech.root: wmi_v2
 ms.assetid: a7affdbe-1fc7-4662-8f21-077138365adf
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_Context_SetStringOption, MI_Context_SetStringOption function [Windows Management Infrastructure (MI)], mi/MI_Context_SetStringOption, wmi.mi_setstringoption, wmi_v2.mi_context_setstringoption
 ms.topic: function
 req.header: mi.h

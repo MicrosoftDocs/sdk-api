@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_session.htm
 tech.root: wmi_v2
 ms.assetid: 68a69321-0aa9-423e-a72f-aa2f4dee2d51
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_Session, MI_Session structure [Windows Management Infrastructure (MI)], mi/MI_Session, wmi._mi_session, wmi_v2.mi_session
 ms.topic: struct
 req.header: mi.h

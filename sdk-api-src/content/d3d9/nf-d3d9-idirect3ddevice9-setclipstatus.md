@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__setclipstatus.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setclipstatus.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 7c296c17-f98d-8458-efa7-95bbfde39651, IDirect3DDevice9 interface [Direct3D 9],SetClipStatus method, IDirect3DDevice9.SetClipStatus, IDirect3DDevice9::SetClipStatus, SetClipStatus, SetClipStatus method [Direct3D 9], SetClipStatus method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetClipStatus, direct3d9.idirect3ddevice9__setclipstatus
 ms.topic: method
 req.header: d3d9.h

@@ -7,7 +7,7 @@ old-location: security\lsalookupnames.htm
 tech.root: SecMgmt
 ms.assetid: 867604aa-7a39-4da7-b189-a9183461e9a0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: LsaLookupNames, LsaLookupNames function [Security], _lsa_lsalookupnames, ntsecapi/LsaLookupNames, security.lsalookupnames
 ms.topic: function
 req.header: ntsecapi.h

@@ -7,7 +7,7 @@ old-location: base\beep.htm
 tech.root: Debug
 ms.assetid: ea74fe2a-759e-4466-bef4-6061643ddd26
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Beep, Beep function, _win32_beep, base.beep, utilapiset/Beep
 ms.topic: function
 req.header: utilapiset.h

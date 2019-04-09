@@ -7,7 +7,7 @@ old-location: mf\imfmetadata.htm
 tech.root: medfound
 ms.assetid: 411658ca-dc5e-445b-8d61-0c0429fcfbb1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 411658ca-dc5e-445b-8d61-0c0429fcfbb1, IMFMetadata, IMFMetadata interface [Media Foundation], IMFMetadata interface [Media Foundation],described, mf.imfmetadata, mfidl/IMFMetadata
 ms.topic: interface
 req.header: mfidl.h

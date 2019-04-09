@@ -7,7 +7,7 @@ old-location: security\icertencodecrldistinfo.htm
 tech.root: SecCrypto
 ms.assetid: e9c0053f-263f-4d7b-9356-bc33af989dbe
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ICertEncodeCRLDistInfo, ICertEncodeCRLDistInfo interface [Security], ICertEncodeCRLDistInfo interface [Security],described, _certsrv_icertencodecrldistinfo, certenc/ICertEncodeCRLDistInfo, security.icertencodecrldistinfo
 ms.topic: interface
 req.header: certenc.h

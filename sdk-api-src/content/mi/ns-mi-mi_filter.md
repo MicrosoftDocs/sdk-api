@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_filter.htm
 tech.root: wmi_v2
 ms.assetid: 0849cb55-ba2f-4855-ac33-fa96d8ecd94f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_Filter, MI_Filter structure [Windows Management Infrastructure (MI)], mi/MI_Filter, wmi._mi_filter, wmi_v2.mi_filter
 ms.topic: struct
 req.header: mi.h

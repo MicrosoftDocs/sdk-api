@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_class_clone.htm
 tech.root: wmi_v2
 ms.assetid: a95b867c-7567-4ea4-a02c-049002de2109
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_Class_Clone, MI_Class_Clone function [Windows Management Infrastructure (MI)], mi/MI_Class_Clone, wmi_v2.mi_class_clone
 ms.topic: function
 req.header: mi.h

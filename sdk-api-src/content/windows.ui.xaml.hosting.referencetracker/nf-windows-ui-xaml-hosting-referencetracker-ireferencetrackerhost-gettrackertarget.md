@@ -7,7 +7,7 @@ old-location: winrt\ireferencetrackerhost_gettrackertarget.htm
 tech.root: WinRT
 ms.assetid: 5dabc7ce-a6aa-4acd-b331-3f74b0f2d179
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetTrackerTarget, GetTrackerTarget method [Windows Runtime], GetTrackerTarget method [Windows Runtime],IReferenceTrackerHost interface, IReferenceTrackerHost interface [Windows Runtime],GetTrackerTarget method, IReferenceTrackerHost.GetTrackerTarget, IReferenceTrackerHost.xaml, IReferenceTrackerHost::GetTrackerTarget, IReferenceTrackerHost::xaml, windows/IReferenceTrackerHost::GetTrackerTarget, winrt.ireferencetrackerhost_gettrackertarget
 ms.topic: method
 req.header: windows.ui.xaml.hosting.referencetracker.h

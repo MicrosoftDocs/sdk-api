@@ -7,7 +7,7 @@ old-location: com\olesetautoconvert.htm
 tech.root: com
 ms.assetid: 39abf385-962a-4b20-b319-501c8130e050
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: OleSetAutoConvert, OleSetAutoConvert function [COM], _com_OleSetAutoConvert, com.olesetautoconvert, ole2/OleSetAutoConvert
 ms.topic: function
 req.header: ole2.h

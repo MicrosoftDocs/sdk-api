@@ -7,7 +7,7 @@ old-location: adsi\iads_setinfo.htm
 tech.root: adsi
 ms.assetid: e7ff6acd-b7c4-463d-a34f-fd793067c63a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IADs interface [ADSI],SetInfo method, IADs.SetInfo, IADs::SetInfo, SetInfo, SetInfo method [ADSI], SetInfo method [ADSI],IADs interface, _ds_iads_setinfo, adsi.iads__setinfo, adsi.iads_setinfo, iads/IADs::SetInfo
 ms.topic: method
 req.header: iads.h

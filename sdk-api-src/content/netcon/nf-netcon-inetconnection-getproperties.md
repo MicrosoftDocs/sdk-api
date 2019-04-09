@@ -7,7 +7,7 @@ old-location: ics\inetconnection_getproperties.htm
 tech.root: ics
 ms.assetid: ab27a7fd-061f-4ea2-8ce8-23d59957a46f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [ICS/ICF], GetProperties method [ICS/ICF],INetConnection interface, INetConnection interface [ICS/ICF],GetProperties method, INetConnection.GetProperties, INetConnection::GetProperties, _ics_inetconnection_getproperties, ics.inetconnection_getproperties, netcon/INetConnection::GetProperties
 ms.topic: method
 req.header: netcon.h

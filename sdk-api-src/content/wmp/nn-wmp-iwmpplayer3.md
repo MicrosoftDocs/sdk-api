@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayer3.htm
 tech.root: WMP
 ms.assetid: 0d8a9414-5c5c-40e0-a34c-430ead01ef26
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMPPlayer3, IWMPPlayer3 interface [Windows Media Player], IWMPPlayer3 interface [Windows Media Player],described, IWMPPlayer3Interface, wmp.iwmpplayer3, wmp/IWMPPlayer3
 ms.topic: interface
 req.header: wmp.h

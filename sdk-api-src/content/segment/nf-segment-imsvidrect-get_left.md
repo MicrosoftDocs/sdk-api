@@ -7,7 +7,7 @@ old-location: mstv\imsvidrect_get_left.htm
 tech.root: mstv
 ms.assetid: 9e64e560-033b-475a-a281-57af5f893e65
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],get_Left method, IMSVidRect.get_Left, IMSVidRect::get_Left, IMSVidRectget_Left, get_Left, get_Left method [Microsoft TV Technologies], get_Left method [Microsoft TV Technologies],IMSVidRect interface, mstv.imsvidrect_get_left, segment/IMSVidRect::get_Left
 ms.topic: method
 req.header: segment.h

@@ -7,7 +7,7 @@ old-location: shell\IntPtrToULong.htm
 tech.root: shell
 ms.assetid: 58d55c1e-46ab-40b1-9caf-d4f3a81c8aa6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IntPtrToDWord, IntPtrToULong, IntPtrToULong function [Windows Shell], PtrdiffTToDWord, PtrdiffTToLong, PtrdiffTToULong, _shell_IntPtrToULong, intsafe/IntPtrToULong, shell.IntPtrToULong
 ms.topic: function
 req.header: intsafe.h

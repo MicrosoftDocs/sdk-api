@@ -7,7 +7,7 @@ old-location: of\iofflinefilessetting_getvalue.htm
 tech.root: offlinefiles
 ms.assetid: 39560ca6-62d7-467b-bc52-1dd769e7e860
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [Offline Files], GetValue method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetValue method, IOfflineFilesSetting.GetValue, IOfflineFilesSetting::GetValue, cscobj/IOfflineFilesSetting::GetValue, of.iofflinefilessetting_getvalue
 ms.topic: method
 req.header: cscobj.h

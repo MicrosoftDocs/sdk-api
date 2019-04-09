@@ -7,7 +7,7 @@ old-location: base\flashwinfo_str.htm
 tech.root: Debug
 ms.assetid: b16636bc-fa77-4eb9-9801-dc2cdf0556e5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PFLASHWINFO, FLASHWINFO, FLASHWINFO structure, FLASHW_ALL, FLASHW_CAPTION, FLASHW_STOP, FLASHW_TIMER, FLASHW_TIMERNOFG, FLASHW_TRAY, PFLASHWINFO, PFLASHWINFO structure pointer, _win32_flashwinfo_str, base.flashwinfo_str, winuser/FLASHWINFO, winuser/PFLASHWINFO"
 ms.topic: struct
 req.header: winuser.h

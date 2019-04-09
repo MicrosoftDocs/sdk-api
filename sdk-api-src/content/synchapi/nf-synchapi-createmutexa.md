@@ -7,7 +7,7 @@ old-location: base\createmutex.htm
 tech.root: Sync
 ms.assetid: c8315d1c-98c9-4f0a-ae0d-800d7d8100cd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateMutex, CreateMutex function, CreateMutexA, CreateMutexW, _win32_createmutex, base.createmutex, synchapi/CreateMutex, synchapi/CreateMutexA, synchapi/CreateMutexW, winbase/CreateMutex, winbase/CreateMutexA, winbase/CreateMutexW
 ms.topic: function
 req.header: synchapi.h

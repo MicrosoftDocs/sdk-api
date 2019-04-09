@@ -7,7 +7,7 @@ old-location: direct3d11\id3dinclude_open.htm
 tech.root: direct3d11
 ms.assetid: 4d10c986-1cba-427c-ae90-f81b83be1b8b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ID3DInclude interface [Direct3D 11],Open method, ID3DInclude.Open, ID3DInclude::Open, Open, Open method [Direct3D 11], Open method [Direct3D 11],ID3DInclude interface, d3dcommon/ID3DInclude::Open, direct3d11.id3dinclude_open
 ms.topic: method
 req.header: d3dcommon.h

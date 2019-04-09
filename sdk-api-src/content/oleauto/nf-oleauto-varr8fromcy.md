@@ -7,7 +7,7 @@ old-location: automat\varr8fromcy.htm
 tech.root: automat
 ms.assetid: 568d0798-8e91-4bb2-a650-9c51ec4568c9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VarR8FromCy, VarR8FromCy function [Automation], _oa96_VarR8FromCy, automat.varr8fromcy, oleauto/VarR8FromCy
 ms.topic: function
 req.header: oleauto.h

@@ -7,7 +7,7 @@ old-location: xps\ixpssignaturerequestcollection.htm
 tech.root: printdocs
 ms.assetid: bb8279e1-a98b-4156-8b90-d9b69411bfa3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IXpsSignatureRequestCollection, IXpsSignatureRequestCollection interface [XPS Documents and Packaging], IXpsSignatureRequestCollection interface [XPS Documents and Packaging],described, xps.ixpssignaturerequestcollection, xpsdigitalsignature/IXpsSignatureRequestCollection
 ms.topic: interface
 req.header: xpsdigitalsignature.h

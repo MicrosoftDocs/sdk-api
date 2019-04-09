@@ -7,7 +7,7 @@ old-location: shell\ITravelLog_CountEntries.htm
 tech.root: shell
 ms.assetid: 490f7350-6c67-4c79-a100-af266b269472
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CountEntries, CountEntries method [Windows Shell], CountEntries method [Windows Shell],ITravelLog interface, ITravelLog interface [Windows Shell],CountEntries method, ITravelLog.CountEntries, ITravelLog::CountEntries, shdeprecated/ITravelLog::CountEntries, shell.ITravelLog_CountEntries, zone_ITravelLog_CountEntries
 ms.topic: method
 req.header: shdeprecated.h

@@ -7,7 +7,7 @@ old-location: rdp\rdpencomapi_attendee_flags.htm
 tech.root: rdp
 ms.assetid: a2e5520f-f19a-4800-bc41-bb12bd244d35
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ATTENDEE_FLAGS_LOCAL, RDPENCOMAPI_ATTENDEE_FLAGS, RDPENCOMAPI_ATTENDEE_FLAGS enumeration [RDP], rdp.rdpencomapi_attendee_flags, rdpencomapi/ATTENDEE_FLAGS_LOCAL, rdpencomapi/RDPENCOMAPI_ATTENDEE_FLAGS
 ms.topic: enum
 req.header: rdpencomapi.h

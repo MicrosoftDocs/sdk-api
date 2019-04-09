@@ -7,7 +7,7 @@ old-location: gdi\iprintasyncnotifydataobject_iprintasyncnotifydataobject__acqui
 tech.root: printdocs
 ms.assetid: c6272583-6907-4c9f-b0c8-4d788e0b2173
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AcquireData, AcquireData method [Windows GDI], AcquireData method [Windows GDI],IPrintAsyncNotifyDataObject interface, IPrintAsyncNotifyDataObject interface [Windows GDI],AcquireData method, IPrintAsyncNotifyDataObject.AcquireData, IPrintAsyncNotifyDataObject::AcquireData, _win32_IPrintAsyncNotifyDataObject_AcquireData, gdi.iprintasyncnotifydataobject_iprintasyncnotifydataobject__acquiredata, prnasnot/IPrintAsyncNotifyDataObject::AcquireData
 ms.topic: method
 req.header: prnasnot.h

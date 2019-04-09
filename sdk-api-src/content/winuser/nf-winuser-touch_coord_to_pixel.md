@@ -7,7 +7,7 @@ old-location: wintouch\touch_coord_to_pixel.htm
 tech.root: wintouch
 ms.assetid: 719b6800-aeda-424a-86ea-d8c307bd6ad2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TOUCH_COORD_TO_PIXEL, TOUCH_COORD_TO_PIXEL macro [Windows Touch], wintouch.touch_coord_to_pixel, winuser/TOUCH_COORD_TO_PIXEL
 ms.topic: macro
 req.header: winuser.h

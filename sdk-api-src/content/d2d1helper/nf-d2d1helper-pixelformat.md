@@ -7,7 +7,7 @@ old-location: direct2d\pixelformat.htm
 tech.root: Direct2D
 ms.assetid: 97128e07-68c2-40ab-bad1-7b6f599291b9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PixelFormat, PixelFormat function [Direct2D], d2d1helper/PixelFormat, direct2d.pixelformat
 ms.topic: function
 req.header: d2d1helper.h

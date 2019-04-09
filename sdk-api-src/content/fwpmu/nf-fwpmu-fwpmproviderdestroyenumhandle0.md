@@ -7,7 +7,7 @@ old-location: fwp\fwpmproviderdestroyenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: a3402150-ea99-4456-b2c4-ab7643058861
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FwpmProviderDestroyEnumHandle0, FwpmProviderDestroyEnumHandle0 function [Filtering], fwp.fwpmproviderdestroyenumhandle0_func, fwpmu/FwpmProviderDestroyEnumHandle0
 ms.topic: function
 req.header: fwpmu.h

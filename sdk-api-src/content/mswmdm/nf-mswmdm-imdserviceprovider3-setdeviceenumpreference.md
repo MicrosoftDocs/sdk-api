@@ -7,7 +7,7 @@ old-location: wmdm\imdserviceprovider3_setdeviceenumpreference.htm
 tech.root: WMDM
 ms.assetid: f3807e80-82ea-437e-ab30-bd00bc0fc6ad
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMDServiceProvider3 interface [windows Media Device Manager],SetDeviceEnumPreference method, IMDServiceProvider3.SetDeviceEnumPreference, IMDServiceProvider3::SetDeviceEnumPreference, IMDServiceProvider3SetDeviceEnumPreference, SetDeviceEnumPreference, SetDeviceEnumPreference method [windows Media Device Manager], SetDeviceEnumPreference method [windows Media Device Manager],IMDServiceProvider3 interface, mswmdm/IMDServiceProvider3::SetDeviceEnumPreference, wmdm.imdserviceprovider3_setdeviceenumpreference
 ms.topic: method
 req.header: mswmdm.h

@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_WriteDWORD.htm
 tech.root: properties
 ms.assetid: 59142C21-032F-462c-B4A7-337483917ABC
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_WriteDWORD, PSPropertyBag_WriteDWORD function [Windows Properties], properties.PSPropertyBag_WriteDWORD, propsys/PSPropertyBag_WriteDWORD, shell.PSPropertyBag_WriteDWORD, shell_PSPropertyBag_WriteDWORD
 ms.topic: function
 req.header: propsys.h

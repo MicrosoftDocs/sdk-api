@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debug2.htm
 tech.root: direct3d12
 ms.assetid: 7FC7A17B-9DD3-4B6C-998E-F958AA1C56FC
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ID3D12Debug2, ID3D12Debug2 interface, ID3D12Debug2 interface,described, d3d12sdklayers/ID3D12Debug2, direct3d12.id3d12debug2
 ms.topic: interface
 req.header: d3d12sdklayers.h

@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorsplatinfinity.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorSplatInfinity
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSplatInfinity, XMVectorSplatInfinity, XMVectorSplatInfinity method [DirectX Math Support APIs], dxmath.xmvectorsplatinfinity
 ms.topic: function
 req.header: directxmath.h

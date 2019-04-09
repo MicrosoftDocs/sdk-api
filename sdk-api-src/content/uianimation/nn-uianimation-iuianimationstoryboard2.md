@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard2.htm
 tech.root: UIAnimation
 ms.assetid: 507B6C2B-92C6-4AEB-82D5-3F14A332D41F
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IUIAnimationStoryboard2, IUIAnimationStoryboard2 interface [Windows Animation], IUIAnimationStoryboard2 interface [Windows Animation],described, uianimation.iuianimationstoryboard2, uianimation/IUIAnimationStoryboard2
 ms.topic: interface
 req.header: uianimation.h

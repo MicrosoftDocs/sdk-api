@@ -7,7 +7,7 @@ old-location: nap\fixupinfo_struct.htm
 tech.root: NAP
 ms.assetid: 8f91534e-3281-4d5a-9af7-5f08eb0243f0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FixupInfo, FixupInfo structure [NAP], nap.fixupinfo_struct, naptypes/FixupInfo
 ms.topic: struct
 req.header: naptypes.h

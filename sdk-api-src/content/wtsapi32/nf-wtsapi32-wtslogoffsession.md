@@ -7,7 +7,7 @@ old-location: termserv\wtslogoffsession.htm
 tech.root: TermServ
 ms.assetid: dba7b6fb-f906-40d1-baae-6ee7b8cfe86d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WTSLogoffSession, WTSLogoffSession function [Remote Desktop Services], _win32_wtslogoffsession, termserv.wtslogoffsession, wtsapi32/WTSLogoffSession
 ms.topic: function
 req.header: wtsapi32.h

@@ -7,7 +7,7 @@ old-location: mstv\iguidedataproperty_get_name.htm
 tech.root: mstv
 ms.assetid: 63606e76-fd4a-4954-93bd-1085d32dd2da
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IGuideDataProperty interface [Microsoft TV Technologies],get_Name method, IGuideDataProperty.get_Name, IGuideDataProperty::get_Name, IGuideDataPropertyget_Name, bdatif/IGuideDataProperty::get_Name, get_Name, get_Name method [Microsoft TV Technologies], get_Name method [Microsoft TV Technologies],IGuideDataProperty interface, mstv.iguidedataproperty_get_name
 ms.topic: method
 req.header: bdatif.h

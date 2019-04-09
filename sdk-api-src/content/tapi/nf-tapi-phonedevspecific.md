@@ -7,7 +7,7 @@ old-location: tapi2\phonedevspecific.htm
 tech.root: Tapi
 ms.assetid: 7199b489-bf66-4380-8d1c-73de5aeb7489
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_tapi2_phonedevspecific, phoneDevSpecific, phoneDevSpecific function [TAPI 2.2], tapi/phoneDevSpecific, tapi2.phonedevspecific"
 ms.topic: function
 req.header: tapi.h

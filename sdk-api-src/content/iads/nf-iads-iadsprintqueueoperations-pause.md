@@ -7,7 +7,7 @@ old-location: adsi\iadsprintqueueoperations_pause.htm
 tech.root: adsi
 ms.assetid: 6d64b176-3329-451f-b593-f30abc1be588
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IADsPrintQueueOperations interface [ADSI],Pause method, IADsPrintQueueOperations.Pause, IADsPrintQueueOperations::Pause, Pause, Pause method [ADSI], Pause method [ADSI],IADsPrintQueueOperations interface, _ds_iadsprintqueueoperations_pause, adsi.iadsprintqueueoperations__pause, adsi.iadsprintqueueoperations_pause, iads/IADsPrintQueueOperations::Pause
 ms.topic: method
 req.header: iads.h

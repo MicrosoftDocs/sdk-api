@@ -7,7 +7,7 @@ old-location: base\deletetimerqueuetimer.htm
 tech.root: Sync
 ms.assetid: d830fa1f-504a-4921-865c-34dbf0256720
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DeleteTimerQueueTimer, DeleteTimerQueueTimer function, _win32_deletetimerqueuetimer, base.deletetimerqueuetimer, threadpoollegacyapiset/DeleteTimerQueueTimer, winbase/DeleteTimerQueueTimer
 ms.topic: function
 req.header: threadpoollegacyapiset.h

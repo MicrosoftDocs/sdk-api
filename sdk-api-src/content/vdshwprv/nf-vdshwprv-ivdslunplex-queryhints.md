@@ -7,7 +7,7 @@ old-location: base\ivdslunplex_queryhints.htm
 tech.root: VDS
 ms.assetid: 4ecb0840-8eaf-47c9-b8a9-98c738ed7daf
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVdsLunPlex interface [VDS],QueryHints method, IVdsLunPlex.QueryHints, IVdsLunPlex::QueryHints, QueryHints, QueryHints method [VDS], QueryHints method [VDS],IVdsLunPlex interface, base.ivdslunplex_queryhints, vds/IVdsLunPlex::QueryHints, vdshwprv/IVdsLunPlex::QueryHints
 ms.topic: method
 req.header: vdshwprv.h

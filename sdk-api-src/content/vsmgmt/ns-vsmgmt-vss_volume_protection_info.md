@@ -7,7 +7,7 @@ old-location: base\vss_volume_protection_info.htm
 tech.root: VSS
 ms.assetid: 46cdc46e-fc44-452a-8aae-e47c12deedb4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PVSS_VOLUME_PROTECTION_INFO, VSS_VOLUME_PROTECTION_INFO, VSS_VOLUME_PROTECTION_INFO structure, base.vss_volume_protection_info, vsmgmt/VSS_VOLUME_PROTECTION_INFO"
 ms.topic: struct
 req.header: vsmgmt.h

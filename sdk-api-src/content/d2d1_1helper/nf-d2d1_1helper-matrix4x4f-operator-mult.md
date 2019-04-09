@@ -7,7 +7,7 @@ old-location: direct2d\matrix4x4f_operator_.htm
 tech.root: Direct2D
 ms.assetid: 2ED3EF0A-84B9-4BE9-825B-EA55DE2BAF47
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Matrix4x4F interface [Direct2D],operator* method, Matrix4x4F.operator*, Matrix4x4F.operator-mult, Matrix4x4F::operator*, Matrix4x4F::operator-mult, d2d1_1helper/Matrix4x4F::operator*, direct2d.matrix4x4f_operator_, operator*, operator* method [Direct2D], operator* method [Direct2D],Matrix4x4F interface
 ms.topic: method
 req.header: d2d1_1helper.h

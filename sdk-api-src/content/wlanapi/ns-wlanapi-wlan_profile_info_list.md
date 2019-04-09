@@ -7,7 +7,7 @@ old-location: nwifi\wlan_profile_info_list.htm
 tech.root: NativeWiFi
 ms.assetid: d5a3d475-0ae0-4860-a433-dd916c586f50
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PWLAN_PROFILE_INFO_LIST, PWLAN_PROFILE_INFO_LIST, PWLAN_PROFILE_INFO_LIST structure pointer [NativeWIFI], WLAN_PROFILE_INFO_LIST, WLAN_PROFILE_INFO_LIST structure [NativeWIFI], nwifi.wlan_profile_info_list, wlanapi/PWLAN_PROFILE_INFO_LIST, wlanapi/WLAN_PROFILE_INFO_LIST"
 ms.topic: struct
 req.header: wlanapi.h

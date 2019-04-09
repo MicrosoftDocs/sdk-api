@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicepropertiesbulk_start.htm
 tech.root: wpd_sdk
 ms.assetid: a69afdc9-622d-45fc-b71e-6058d9d528b0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IPortableDevicePropertiesBulk interface [Windows Portable Devices SDK],Start method, IPortableDevicePropertiesBulk.Start, IPortableDevicePropertiesBulk::Start, IPortableDevicePropertiesBulkStart, Start, Start method [Windows Portable Devices SDK], Start method [Windows Portable Devices SDK],IPortableDevicePropertiesBulk interface, portabledeviceapi/IPortableDevicePropertiesBulk::Start, wpdsdk.iportabledevicepropertiesbulk_start
 ms.topic: method
 req.header: portabledeviceapi.h

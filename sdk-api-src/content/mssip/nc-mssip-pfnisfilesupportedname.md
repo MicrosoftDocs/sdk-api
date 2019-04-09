@@ -7,7 +7,7 @@ old-location: security\pfnisfilesupportedname.htm
 tech.root: SecCrypto
 ms.assetid: cc2304ef-c319-45eb-b2ec-7410510af213
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: mssip/pfnIsFileSupportedName, pfnIsFileSupportedName, pfnIsFileSupportedName callback, pfnIsFileSupportedName callback function [Security], security.pfnisfilesupportedname
 ms.topic: callback
 req.header: mssip.h

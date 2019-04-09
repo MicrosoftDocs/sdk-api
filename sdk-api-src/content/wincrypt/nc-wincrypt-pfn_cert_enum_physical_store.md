@@ -7,7 +7,7 @@ old-location: security\certenumphysicalstorecallback.htm
 tech.root: SecCrypto
 ms.assetid: 0651730a-39f2-4598-a81c-d05e6d282e6c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CertEnumPhysicalStoreCallback, PFN_CERT_ENUM_PHYSICAL_STORE, PFN_CERT_ENUM_PHYSICAL_STORE callback, PFN_CERT_ENUM_PHYSICAL_STORE callback function [Security], security.certenumphysicalstorecallback, wincrypt/PFN_CERT_ENUM_PHYSICAL_STORE
 ms.topic: callback
 req.header: wincrypt.h

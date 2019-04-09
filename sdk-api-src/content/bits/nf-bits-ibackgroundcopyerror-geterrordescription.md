@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyerror_geterrordescription.htm
 tech.root: Bits
 ms.assetid: 57323f38-c2e6-4e40-b357-7df758899f97
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetErrorDescription, GetErrorDescription method [BITS], GetErrorDescription method [BITS],IBackgroundCopyError interface, IBackgroundCopyError interface [BITS],GetErrorDescription method, IBackgroundCopyError.GetErrorDescription, IBackgroundCopyError::GetErrorDescription, _drz_ibackgroundcopyerror_geterrordescription, bits.ibackgroundcopyerror_geterrordescription, bits/IBackgroundCopyError::GetErrorDescription
 ms.topic: method
 req.header: bits.h

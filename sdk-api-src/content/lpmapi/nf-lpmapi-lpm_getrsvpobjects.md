@@ -7,7 +7,7 @@ old-location: qos\lpm_getrsvpobjects.htm
 tech.root: QOS
 ms.assetid: 1ae417e9-3180-4fd4-90f6-6e91c12d523b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FlowDescCount, FlowDescList, LPM_GetRsvpObjects, LPM_GetRsvpObjects callback, LPM_GetRsvpObjects callback function [QOS], RsvpHop, RsvpMsgType, RsvpScope, RsvpSession, RsvpStyle, _gqos_lpm_getrsvpobjects, lpmapi/LPM_GetRsvpObjects, qos.lpm_getrsvpobjects
 ms.topic: function
 req.header: lpmapi.h

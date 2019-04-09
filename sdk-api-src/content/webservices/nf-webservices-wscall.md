@@ -7,7 +7,7 @@ old-location: wsw\wscall.htm
 tech.root: wsw
 ms.assetid: 300d25b7-6742-4bed-9786-6c599981ec22
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WsCall, WsCall function [Web Services for Windows], webservices/WsCall, wsw.wscall
 ms.topic: function
 req.header: webservices.h

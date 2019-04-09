@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_meta_command_parameter_flags.htm
 tech.root: direct3d12
 ms.assetid: E81F4F8E-BD9B-4965-B55C-358797A40651
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: D3D12_META_COMMAND_PARAMETER_FLAGS, D3D12_META_COMMAND_PARAMETER_FLAGS enumeration, D3D12_META_COMMAND_PARAMETER_FLAG_INPUT, D3D12_META_COMMAND_PARAMETER_FLAG_OUTPUT, d3d12/D3D12_META_COMMAND_PARAMETER_FLAGS, d3d12/D3D12_META_COMMAND_PARAMETER_FLAG_INPUT, d3d12/D3D12_META_COMMAND_PARAMETER_FLAG_OUTPUT, direct3d12.d3d12_meta_command_parameter_flags
 ms.topic: enum
 req.header: d3d12.h

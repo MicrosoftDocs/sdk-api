@@ -7,7 +7,7 @@ old-location: rpc\rpcmgmtinqserverprincname.htm
 tech.root: Rpc
 ms.assetid: 2666adb4-8a89-480e-8855-9179a7128e35
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RpcMgmtInqServerPrincName, RpcMgmtInqServerPrincName function [RPC], RpcMgmtInqServerPrincNameA, RpcMgmtInqServerPrincNameW, _rpc_rpcmgmtinqserverprincname, rpc.rpcmgmtinqserverprincname, rpcdce/RpcMgmtInqServerPrincName, rpcdce/RpcMgmtInqServerPrincNameA, rpcdce/RpcMgmtInqServerPrincNameW
 ms.topic: function
 req.header: rpcdce.h

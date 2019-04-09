@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_module.htm
 tech.root: wmi_v2
 ms.assetid: 76a034eb-f5e0-4da2-9c9d-99e196c17da5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_MODULE_FLAG_BOOLEANS, MI_MODULE_FLAG_DESCRIPTIONS, MI_MODULE_FLAG_FILTER_SUPPORT, MI_MODULE_FLAG_LOCALIZED, MI_MODULE_FLAG_MAPPING_STRINGS, MI_MODULE_FLAG_STANDARD_QUALIFIERS, MI_MODULE_FLAG_VALUES, MI_Module, MI_Module structure [Windows Management Infrastructure (MI)], mi/MI_Module, wmi._mi_module, wmi_v2.mi_module
 ms.topic: struct
 req.header: mi.h

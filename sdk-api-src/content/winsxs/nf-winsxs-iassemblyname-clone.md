@@ -7,7 +7,7 @@ old-location: setup\iassemblyname_clone.htm
 tech.root: SbsCs
 ms.assetid: 5096b7de-e53d-49fa-bb43-16d768787b4e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Side-by-side Assemblies], Clone method [Side-by-side Assemblies],IAssemblyName interface, IAssemblyName interface [Side-by-side Assemblies],Clone method, IAssemblyName.Clone, IAssemblyName::Clone, setup.iassemblyname_clone, winsxs/IAssemblyName::Clone
 ms.topic: method
 req.header: winsxs.h

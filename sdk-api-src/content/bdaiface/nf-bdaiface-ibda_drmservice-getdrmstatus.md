@@ -7,7 +7,7 @@ old-location: mstv\ibda_drmservice_getdrmstatus.htm
 tech.root: mstv
 ms.assetid: 474ea991-6fb4-4eb4-9146-c76914765dc1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetDRMStatus, GetDRMStatus method [Microsoft TV Technologies], GetDRMStatus method [Microsoft TV Technologies],IBDA_DRMService interface, IBDA_DRMService interface [Microsoft TV Technologies],GetDRMStatus method, IBDA_DRMService.GetDRMStatus, IBDA_DRMService::GetDRMStatus, bdaiface/IBDA_DRMService::GetDRMStatus, mstv.ibda_drmservice_getdrmstatus
 ms.topic: method
 req.header: bdaiface.h

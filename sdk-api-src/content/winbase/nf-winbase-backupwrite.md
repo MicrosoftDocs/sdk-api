@@ -7,7 +7,7 @@ old-location: backup\backupwrite.htm
 tech.root: Backup
 ms.assetid: 92befb48-68eb-4af3-b58a-c5e17bf14098
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BackupWrite, BackupWrite function [Backup], _win32_backupwrite, backup.backupwrite, base.backupwrite, winbase/BackupWrite
 ms.topic: function
 req.header: winbase.h

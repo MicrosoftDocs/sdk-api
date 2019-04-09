@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv6capiinitialize.htm
 tech.root: DHCP
 ms.assetid: 4bf74a3d-5674-4bc7-b94c-cf6232bdc8d9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Dhcpv6CApiInitialize, Dhcpv6CApiInitialize function [DHCP], dhcp.dhcpv6capiinitialize, dhcpv6csdk/Dhcpv6CApiInitialize
 ms.topic: function
 req.header: dhcpv6csdk.h

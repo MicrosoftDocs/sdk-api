@@ -7,7 +7,7 @@ old-location: snmp\snmpduplicatepdu.htm
 tech.root: SNMP
 ms.assetid: 4507cc9b-36a5-45bf-916d-9dc82ac381a5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SnmpDuplicatePdu, SnmpDuplicatePdu function [SNMP], _snmp_snmpduplicatepdu, snmp.snmpduplicatepdu, winsnmp/SnmpDuplicatePdu
 ms.topic: function
 req.header: winsnmp.h

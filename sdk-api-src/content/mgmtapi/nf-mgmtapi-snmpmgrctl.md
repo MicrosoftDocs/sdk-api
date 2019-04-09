@@ -7,7 +7,7 @@ old-location: snmp\snmpmgrctl.htm
 tech.root: SNMP
 ms.assetid: d777c944-a19f-4465-ae56-b60beaa1191c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SnmpMgrCtl, SnmpMgrCtl function [SNMP], _snmp_snmpmgrctl, mgmtapi/SnmpMgrCtl, snmp.snmpmgrctl
 ms.topic: function
 req.header: mgmtapi.h

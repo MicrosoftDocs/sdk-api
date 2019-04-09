@@ -7,7 +7,7 @@ old-location: shell\IEnumExtraSearch_Next.htm
 tech.root: shell
 ms.assetid: 915f1cd5-5429-4080-8357-753dd1744d93
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEnumExtraSearch interface [Windows Shell],Next method, IEnumExtraSearch.Next, IEnumExtraSearch::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumExtraSearch interface, _win32_IEnumExtraSearch_Next, shell.IEnumExtraSearch_Next, shobjidl_core/IEnumExtraSearch::Next
 ms.topic: method
 req.header: shobjidl_core.h

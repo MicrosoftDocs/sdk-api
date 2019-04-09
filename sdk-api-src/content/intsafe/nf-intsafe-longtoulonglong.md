@@ -7,7 +7,7 @@ old-location: shell\LongToULongLong.htm
 tech.root: shell
 ms.assetid: 6ad0e928-b09b-41d7-be5a-fea9219edf4b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: LongToULongLong, LongToULongLong function [Windows Shell], _shell_LongToULongLong, intsafe/LongToULongLong, shell.LongToULongLong
 ms.topic: function
 req.header: intsafe.h

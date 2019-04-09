@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxtiff.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3zhi.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFaxTiff, IFaxTiff interface [Fax Service], IFaxTiff interface [Fax Service],described, _mfax_ifaxtiff, fax._mfax_ifaxtiff, faxcom/IFaxTiff
 ms.topic: interface
 req.header: faxcom.h

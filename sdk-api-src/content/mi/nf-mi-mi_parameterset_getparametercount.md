@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_parameterset_getparametercount.htm
 tech.root: wmi_v2
 ms.assetid: 4b1ca06f-426c-483f-a571-b49eb06991e1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_ParameterSet_GetParameterCount, MI_ParameterSet_GetParameterCount function [Windows Management Infrastructure (MI)], mi/MI_ParameterSet_GetParameterCount, wmi_v2.mi_parameterset_getparametercount
 ms.topic: function
 req.header: mi.h

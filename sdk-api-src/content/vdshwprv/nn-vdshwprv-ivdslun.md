@@ -7,7 +7,7 @@ old-location: base\ivdslun.htm
 tech.root: VDS
 ms.assetid: e2fbebc0-593e-437c-a401-80e35a43da94
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVdsLun, IVdsLun interface [VDS], IVdsLun interface [VDS],described, base.ivdslun, vds/IVdsLun, vdshwprv/IVdsLun
 ms.topic: interface
 req.header: vdshwprv.h

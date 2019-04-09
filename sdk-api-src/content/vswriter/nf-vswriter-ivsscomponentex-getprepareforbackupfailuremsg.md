@@ -7,7 +7,7 @@ old-location: base\ivsscomponentex_getprepareforbackupfailuremsg.htm
 tech.root: VSS
 ms.assetid: b086ff8d-ff51-4550-887d-e7741e2469f2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetPrepareForBackupFailureMsg, GetPrepareForBackupFailureMsg method, GetPrepareForBackupFailureMsg method,IVssComponentEx interface, IVssComponentEx interface,GetPrepareForBackupFailureMsg method, IVssComponentEx.GetPrepareForBackupFailureMsg, IVssComponentEx::GetPrepareForBackupFailureMsg, base.ivsscomponentex_getprepareforbackupfailuremsg, vswriter/IVssComponentEx::GetPrepareForBackupFailureMsg
 ms.topic: method
 req.header: vswriter.h

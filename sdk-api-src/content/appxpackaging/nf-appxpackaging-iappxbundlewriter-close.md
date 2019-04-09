@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlewriter_close.htm
 tech.root: appxpkg
 ms.assetid: 9826873D-87AF-4D6B-977B-1C24197C47F8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Close, Close method [App packaging and management], Close method [App packaging and management],IAppxBundleWriter interface, IAppxBundleWriter interface [App packaging and management],Close method, IAppxBundleWriter.Close, IAppxBundleWriter::Close, appxpackaging/IAppxBundleWriter::Close, appxpkg.iappxbundlewriter_close
 ms.topic: method
 req.header: appxpackaging.h

@@ -7,7 +7,7 @@ old-location: shell\AssocQueryKey.htm
 tech.root: shell
 ms.assetid: 9eaeb885-0428-48c3-82a7-5dc21d5015ce
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AssocQueryKey, AssocQueryKey function [Windows Shell], AssocQueryKeyA, AssocQueryKeyW, CLSID, Executable name, File name extension, ProgID, _win32_AssocQueryKey, shell.AssocQueryKey, shlwapi/AssocQueryKey, shlwapi/AssocQueryKeyA, shlwapi/AssocQueryKeyW
 ms.topic: function
 req.header: shlwapi.h

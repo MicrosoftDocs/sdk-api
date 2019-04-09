@@ -7,7 +7,7 @@ old-location: pla\itracedatacollector_buffersize.htm
 tech.root: PLA
 ms.assetid: 2a735f9e-964a-4949-8660-fe3b40ce711e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BufferSize property [PLA], BufferSize property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],BufferSize property, ITraceDataCollector.BufferSize, ITraceDataCollector.get_BufferSize, ITraceDataCollector::BufferSize, ITraceDataCollector::get_BufferSize, ITraceDataCollector::put_BufferSize, base.itracedatacollector_buffersize, get_BufferSize, pla.itracedatacollector_buffersize, pla/ITraceDataCollector::BufferSize, pla/ITraceDataCollector::get_BufferSize, pla/ITraceDataCollector::put_BufferSize
 ms.topic: method
 req.header: pla.h

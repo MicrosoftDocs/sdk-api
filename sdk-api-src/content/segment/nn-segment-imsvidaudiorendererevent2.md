@@ -7,7 +7,7 @@ old-location: mstv\imsvidaudiorendererevent2.htm
 tech.root: mstv
 ms.assetid: f37d3abb-e8ad-4aae-884a-1c6c4fa445e2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMSVidAudioRendererEvent2, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies], IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],described, mstv.imsvidaudiorendererevent2, segment/IMSVidAudioRendererEvent2
 ms.topic: interface
 req.header: segment.h

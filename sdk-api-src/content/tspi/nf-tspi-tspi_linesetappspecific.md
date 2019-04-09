@@ -7,7 +7,7 @@ old-location: tspi\tspi_linesetappspecific.htm
 tech.root: Tapi
 ms.assetid: aa09b03d-5e72-4db5-b21a-87841fbce70b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetAppSpecific, TSPI_lineSetAppSpecific function [TAPI 2.2], _tspi_tspi_linesetappspecific, tspi.tspi_linesetappspecific, tspi/TSPI_lineSetAppSpecific
 ms.topic: function
 req.header: tspi.h

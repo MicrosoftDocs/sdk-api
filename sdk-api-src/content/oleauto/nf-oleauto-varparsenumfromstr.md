@@ -7,7 +7,7 @@ old-location: automat\varparsenumfromstr.htm
 tech.root: automat
 ms.assetid: b77ce0df-5635-4760-8b42-f3afec49482b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VarParseNumFromStr, VarParseNumFromStr function [Automation], _oa96_VarParseNumFromStr, automat.varparsenumfromstr, oleauto/VarParseNumFromStr
 ms.topic: function
 req.header: oleauto.h

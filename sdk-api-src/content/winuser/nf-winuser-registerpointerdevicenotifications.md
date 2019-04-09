@@ -7,7 +7,7 @@ old-location: input_pointerdevice\registerpointerdevicenotifications.htm
 tech.root: Input_PointerDevice
 ms.assetid: a7322d97-f96c-449d-94a6-2081962ec7ed
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RegisterPointerDeviceNotifications, RegisterPointerDeviceNotifications function, input_pointerdevice.registerpointerdevicenotifications, unifiedinputstack.registerpointerdevicenotifications, winuser/RegisterPointerDeviceNotifications
 ms.topic: function
 req.header: winuser.h

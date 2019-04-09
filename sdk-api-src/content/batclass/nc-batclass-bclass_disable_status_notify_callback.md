@@ -7,7 +7,7 @@ old-location: battery\batteryminidisablestatusnotify.htm
 tech.root: battery
 ms.assetid: 5120205f-0d55-4391-a560-3089fbe11d82
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BCLASS_DISABLE_STATUS_NOTIFY_CALLBACK, BCLASS_DISABLE_STATUS_NOTIFY_CALLBACK callback, BatteryMiniDisableStatusNotify, BatteryMiniDisableStatusNotify callback function [Battery Devices], bat-mini_2e5f13bc-0046-486c-a1f9-be94bf309559.xml, batclass/BatteryMiniDisableStatusNotify, battery.batteryminidisablestatusnotify
 ms.topic: callback
 req.header: batclass.h

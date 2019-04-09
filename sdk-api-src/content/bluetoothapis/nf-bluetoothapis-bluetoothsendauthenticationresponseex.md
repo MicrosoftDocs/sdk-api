@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothsendauthenticationresponseex.htm
 tech.root: bluetooth
 ms.assetid: f23f90e3-c86f-44e4-a164-620105b19f08
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BluetoothSendAuthenticationResponseEx, BluetoothSendAuthenticationResponseEx function [Bluetooth], bluetooth.bluetoothsendauthenticationresponseex, bluetoothapis/BluetoothSendAuthenticationResponseEx
 ms.topic: function
 req.header: bluetoothapis.h

@@ -7,7 +7,7 @@ old-location: coreaudio\iksjacksinkinformation_getjacksinkinformation.htm
 tech.root: CoreAudio
 ms.assetid: ca4165ce-433a-4a8f-9853-bbe812de90ca
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetJackSinkInformation, GetJackSinkInformation method [Core Audio], GetJackSinkInformation method [Core Audio],IKsJackSinkInformation interface, IKsJackSinkInformation interface [Core Audio],GetJackSinkInformation method, IKsJackSinkInformation.GetJackSinkInformation, IKsJackSinkInformation::GetJackSinkInformation, coreaudio.iksjacksinkinformation_getjacksinkinformation, devicetopology/IKsJackSinkInformation::GetJackSinkInformation
 ms.topic: method
 req.header: devicetopology.h

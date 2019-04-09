@@ -7,7 +7,7 @@ old-location: setup\infcontext_str.htm
 tech.root: SetupApi
 ms.assetid: 5b3d32a8-e651-4017-aaa7-b532ec47da53
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PINFCONTEXT, INFCONTEXT, INFCONTEXT structure [Setup API], PINFCONTEXT, PINFCONTEXT structure pointer [Setup API], _setupapi_infcontext_str, setup.infcontext_str, setupapi/INFCONTEXT, setupapi/PINFCONTEXT"
 ms.topic: struct
 req.header: setupapi.h

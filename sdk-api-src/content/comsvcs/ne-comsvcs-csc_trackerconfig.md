@@ -7,7 +7,7 @@ old-location: cos\csc_trackerconfig.htm
 tech.root: cossdk
 ms.assetid: 48f01634-9802-4824-b251-ccb6e71aa099
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CSC_DontUseTracker, CSC_TrackerConfig, CSC_TrackerConfig enumeration [COM+], CSC_UseTracker, _cos_CSC_TrackerConfig, comsvcs/CSC_DontUseTracker, comsvcs/CSC_TrackerConfig, comsvcs/CSC_UseTracker, cos.csc_trackerconfig
 ms.topic: enum
 req.header: comsvcs.h

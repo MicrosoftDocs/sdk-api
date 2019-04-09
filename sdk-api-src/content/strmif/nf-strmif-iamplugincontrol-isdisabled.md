@@ -7,7 +7,7 @@ old-location: dshow\iamplugincontrol_isdisabled.htm
 tech.root: DirectShow
 ms.assetid: 2d6bae28-7c26-47c4-8633-9ecc60293dc6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IAMPluginControl interface [DirectShow],IsDisabled method, IAMPluginControl.IsDisabled, IAMPluginControl::IsDisabled, IsDisabled, IsDisabled method [DirectShow], IsDisabled method [DirectShow],IAMPluginControl interface, dshow.iamplugincontrol_isdisabled, strmif/IAMPluginControl::IsDisabled
 ms.topic: method
 req.header: strmif.h

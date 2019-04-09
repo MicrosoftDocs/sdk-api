@@ -7,7 +7,7 @@ old-location: winprog\_associatecontextwithname.htm
 tech.root: DevNotes
 ms.assetid: 4f4bbfda-3be0-41d3-9087-d46edd2e21a3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AssociateContextWithName, AssociateContextWithName function [Windows API], filehc/AssociateContextWithName, winprog._associatecontextwithname
 ms.topic: function
 req.header: filehc.h

@@ -7,7 +7,7 @@ old-location: mf\iwmcodecprivatedatainterface.htm
 tech.root: medfound
 ms.assetid: c1216fd7-7cbd-45cf-b694-a5fd9a972fcd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMCodecPrivateData, IWMCodecPrivateData interface [Media Foundation], IWMCodecPrivateData interface [Media Foundation],described, codecapi.iwmcodecprivatedata, codecapi.iwmcodecprivatedatainterface, mf.iwmcodecprivatedatainterface, wmcodecdsp/IWMCodecPrivateData
 ms.topic: interface
 req.header: wmcodecdsp.h

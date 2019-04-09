@@ -7,7 +7,7 @@ old-location: base\interlockedpopentryslist.htm
 tech.root: Sync
 ms.assetid: 10760fd4-5973-4ab0-991c-7a5951c798a4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: InterlockedPopEntrySList, InterlockedPopEntrySList function, _win32_interlockedpopentryslist, base.interlockedpopentryslist, interlockedapi/InterlockedPopEntrySList, winbase/InterlockedPopEntrySList
 ms.topic: function
 req.header: interlockedapi.h

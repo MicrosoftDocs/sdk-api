@@ -7,7 +7,7 @@ old-location: security\webenrollmentflags.htm
 tech.root: seccertenroll
 ms.assetid: 3b5940c4-f262-498e-82ab-c56af13afd06
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EnrollPrompt, WebEnrollmentFlags, WebEnrollmentFlags enumeration [Security], certenroll/EnrollPrompt, certenroll/WebEnrollmentFlags, security.webenrollmentflags
 ms.topic: enum
 req.header: certenroll.h

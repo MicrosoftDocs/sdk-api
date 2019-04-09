@@ -7,7 +7,7 @@ old-location: rpc\ndrsimpletypeunmarshall.htm
 tech.root: Rpc
 ms.assetid: f1ed9bdc-3ff6-4947-b77f-cb95fe8c3e85
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NdrSimpleTypeUnmarshall, NdrSimpleTypeUnmarshall function [RPC], rpc.ndrsimpletypeunmarshall, rpcndr/NdrSimpleTypeUnmarshall
 ms.topic: function
 req.header: rpcndr.h

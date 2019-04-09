@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmcollection.htm
 tech.root: fsrm
 ms.assetid: 6a0c5d8b-5fed-4c55-971c-43430e3c6a8d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFsrmCollection, IFsrmCollection interface [File Server Resource Manager], IFsrmCollection interface [File Server Resource Manager],described, fs.ifsrmcollection, fsrm.ifsrmcollection, fsrm/IFsrmCollection
 ms.topic: interface
 req.header: fsrm.h

@@ -7,7 +7,7 @@ old-location: intl\mappingdatarange.htm
 tech.root: Intl
 ms.assetid: adff7901-1903-45dd-888f-1b8c5bb05de1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PMAPPING_DATA_RANGE, MAPPING_DATA_RANGE, MAPPING_DATA_RANGE structure [Internationalization for Windows Applications], PMAPPING_DATA_RANGE, PMAPPING_DATA_RANGE structure pointer [Internationalization for Windows Applications], elscore/MAPPING_DATA_RANGE, elscore/PMAPPING_DATA_RANGE, intl.mappingdatarange"
 ms.topic: struct
 req.header: elscore.h

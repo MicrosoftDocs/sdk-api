@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoveredservice_getremotetransportaddress.htm
 tech.root: WsdApi
 ms.assetid: 15376e12-fd7c-4cf5-a950-bf492392afa3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetRemoteTransportAddress, GetRemoteTransportAddress method, GetRemoteTransportAddress method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetRemoteTransportAddress method, IWSDiscoveredService.GetRemoteTransportAddress, IWSDiscoveredService::GetRemoteTransportAddress, ncd.iwsdiscoveredservice_getremotetransportaddress, wsddisco/IWSDiscoveredService::GetRemoteTransportAddress
 ms.topic: method
 req.header: wsddisco.h

@@ -7,7 +7,7 @@ old-location: deviceaccess\createdeviceaccessinstance.htm
 tech.root: deviceaccess
 ms.assetid: 082d6297-20ac-4557-8205-0451482a5758
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateDeviceAccessInstance, CreateDeviceAccessInstance function [Device Access Broker API], deviceaccess.createdeviceaccessinstance, deviceaccess/CreateDeviceAccessInstance
 ms.topic: function
 req.header: deviceaccess.h

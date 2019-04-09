@@ -7,7 +7,7 @@ old-location: security\ienumcertviewattribute_clone.htm
 tech.root: SecCrypto
 ms.assetid: 6144514a-cd64-42ce-a856-ff942b129e5a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Security], Clone method [Security],IEnumCERTVIEWATTRIBUTE interface, IEnumCERTVIEWATTRIBUTE interface [Security],Clone method, IEnumCERTVIEWATTRIBUTE.Clone, IEnumCERTVIEWATTRIBUTE::Clone, _certsrv_ienumcertviewattribute_clone, certview/IEnumCERTVIEWATTRIBUTE::Clone, security.ienumcertviewattribute_clone
 ms.topic: method
 req.header: certview.h

@@ -7,7 +7,7 @@ old-location: p2p\peerpnrpendresolve.htm
 tech.root: P2PSdk
 ms.assetid: b700a195-57c4-481a-93d2-82d543f5c6c6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PeerPnrpEndResolve, PeerPnrpEndResolve function [Peer Networking], p2p.peerpnrpendresolve, p2p/PeerPnrpEndResolve
 ms.topic: function
 req.header: p2p.h

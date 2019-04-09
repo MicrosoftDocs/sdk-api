@@ -7,7 +7,7 @@ old-location: hidpi\getthreaddpihostingbehavior.htm
 tech.root: hidpi
 ms.assetid: B9500745-9B53-47FF-9F45-0BFF3A66FD46
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetThreadDpiHostingBehavior, GetThreadDpiHostingBehavior function [High DPI], hidpi.getthreaddpihostingbehavior, winuser/GetThreadDpiHostingBehavior
 ms.topic: function
 req.header: winuser.h

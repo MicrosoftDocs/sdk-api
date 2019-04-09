@@ -7,7 +7,7 @@ old-location: shell\IDockingWindowSite_SetBorderSpaceDW.htm
 tech.root: shell
 ms.assetid: 8c79c983-8a5d-4b52-848d-c85c4e4f86ec
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDockingWindowSite interface [Windows Shell],SetBorderSpaceDW method, IDockingWindowSite.SetBorderSpaceDW, IDockingWindowSite::SetBorderSpaceDW, SetBorderSpaceDW, SetBorderSpaceDW method [Windows Shell], SetBorderSpaceDW method [Windows Shell],IDockingWindowSite interface, _win32_IDockingWindowSite_SetBorderSpaceDW, shell.IDockingWindowSite_SetBorderSpaceDW, shlobj_core/IDockingWindowSite::SetBorderSpaceDW
 ms.topic: method
 req.header: shlobj_core.h

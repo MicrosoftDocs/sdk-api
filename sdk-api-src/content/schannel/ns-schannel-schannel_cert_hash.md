@@ -7,7 +7,7 @@ old-location: security\schannel_cert_hash.htm
 tech.root: SecAuthN
 ms.assetid: BC068062-6644-4296-990F-7C533DC80C02
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PSCHANNEL_CERT_HASH, PSCHANNEL_CERT_HASH, PSCHANNEL_CERT_HASH structure pointer [Security], SCHANNEL_CERT_HASH, SCHANNEL_CERT_HASH structure [Security], SCH_MACHINE_CERT_HASH, schannel/PSCHANNEL_CERT_HASH, schannel/SCHANNEL_CERT_HASH, security.schannel_cert_hash"
 ms.topic: struct
 req.header: schannel.h

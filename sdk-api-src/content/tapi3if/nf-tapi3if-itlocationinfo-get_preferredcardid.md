@@ -7,7 +7,7 @@ old-location: tapi3\itlocationinfo_get_preferredcardid.htm
 tech.root: Tapi
 ms.assetid: 7881a005-1bab-47a1-a657-31584d3f2713
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_PreferredCardID method, ITLocationInfo.get_PreferredCardID, ITLocationInfo::get_PreferredCardID, _tapi3_itlocationinfo_get_preferredcardid, get_PreferredCardID, get_PreferredCardID method [TAPI 2.2], get_PreferredCardID method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_preferredcardid, tapi3if/ITLocationInfo::get_PreferredCardID
 ms.topic: method
 req.header: tapi3if.h

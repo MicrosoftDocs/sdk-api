@@ -7,7 +7,7 @@ old-location: security\sspiispromptingneeded.htm
 tech.root: SecAuthN
 ms.assetid: aaafcf49-df28-45e9-8c06-e57863a2e300
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SspiIsPromptingNeeded, SspiIsPromptingNeeded function [Security], security.sspiispromptingneeded, sspi/SspiIsPromptingNeeded
 ms.topic: function
 req.header: sspi.h

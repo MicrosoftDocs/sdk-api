@@ -7,7 +7,7 @@ old-location: base\ivdslun_addplex.htm
 tech.root: VDS
 ms.assetid: a5d6d746-e740-40b0-b9e1-0c5537d00338
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AddPlex, AddPlex method [VDS], AddPlex method [VDS],IVdsLun interface, IVdsLun interface [VDS],AddPlex method, IVdsLun.AddPlex, IVdsLun::AddPlex, base.ivdslun_addplex, vds/IVdsLun::AddPlex, vdshwprv/IVdsLun::AddPlex
 ms.topic: method
 req.header: vds.h

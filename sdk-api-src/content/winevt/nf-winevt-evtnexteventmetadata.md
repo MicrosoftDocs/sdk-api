@@ -7,7 +7,7 @@ old-location: wes\evtnexteventmetadata.htm
 tech.root: wes
 ms.assetid: 1077dc7c-3e73-4135-9020-20d086e30e71
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EvtNextEventMetadata, EvtNextEventMetadata function [EventLog], wes.evtnexteventmetadata, winevt/EvtNextEventMetadata
 ms.topic: function
 req.header: winevt.h

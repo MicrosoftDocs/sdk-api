@@ -7,7 +7,7 @@ old-location: security\ix509enrollmentpolicyserver_getnextupdatetime.htm
 tech.root: seccertenroll
 ms.assetid: 23ddd933-2392-410b-a4e6-7f5c00f867b3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetNextUpdateTime, GetNextUpdateTime method [Security], GetNextUpdateTime method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetNextUpdateTime method, IX509EnrollmentPolicyServer.GetNextUpdateTime, IX509EnrollmentPolicyServer::GetNextUpdateTime, certenroll/IX509EnrollmentPolicyServer::GetNextUpdateTime, security.ix509enrollmentpolicyserver_getnextupdatetime
 ms.topic: method
 req.header: certenroll.h

@@ -7,7 +7,7 @@ old-location: menurc\enumrestypeproc.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumrestypeproc.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EnumResTypeProc, EnumResTypeProc callback, EnumResTypeProc callback function [Menus and Other Resources], EnumResTypeProcA, EnumResTypeProcW, _win32_EnumResTypeProc, _win32_enumrestypeproc_cpp, libloaderapi/EnumResTypeProc, libloaderapi/EnumResTypeProcA, libloaderapi/EnumResTypeProcW, menurc.enumrestypeproc, winui._win32_enumrestypeproc
 ms.topic: callback
 req.header: libloaderapi.h

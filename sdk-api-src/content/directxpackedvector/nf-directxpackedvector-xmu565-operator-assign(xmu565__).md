@@ -7,7 +7,7 @@ old-location: dxmath\xmu565_operator_eq_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMU565.operator = (const XMU565)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: XMU565 structure [DirectX Math Support APIs],operator = method, XMU565.operator =(const XMU565&), XMU565.operator-assign(XMU565 &&), XMU565.operator=, XMU565::operator-assign(XMU565 &&), XMU565::operator=, dxmath.xmu565_operator_eq_1, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMU565 structure, operator=
 ms.topic: method
 req.header: directxpackedvector.h

@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmtranscryptor_close.htm
 tech.root: wmformat
 ms.assetid: c277e3fa-069d-4eaf-947c-220730c5d61e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Close, Close method [windows Media Format], Close method [windows Media Format],IWMDRMTranscryptor interface, IWMDRMTranscryptor interface [windows Media Format],Close method, IWMDRMTranscryptor.Close, IWMDRMTranscryptor::Close, IWMDRMTranscryptorClose, wmformat.iwmdrmtranscryptor_close, wmsdkidl/IWMDRMTranscryptor::Close
 ms.topic: method
 req.header: wmsdkidl.h

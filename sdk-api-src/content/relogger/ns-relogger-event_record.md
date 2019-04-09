@@ -7,7 +7,7 @@ old-location: etw\event_record.htm
 tech.root: ETW
 ms.assetid: e352c1a7-39a2-43e3-a723-5fc6a3921ee8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PEVENT_RECORD, EVENT_RECORD, EVENT_RECORD structure [ETW], PCEVENT_RECORD, PEVENT_RECORD, PEVENT_RECORD structure pointer [ETW], _EVENT_RECORD, base.event_record, etw.event_record, relogger/EVENT_RECORD, relogger/PEVENT_RECORD"
 ms.topic: struct
 req.header: relogger.h

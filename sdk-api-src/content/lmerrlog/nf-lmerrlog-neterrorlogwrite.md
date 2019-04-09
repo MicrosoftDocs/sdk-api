@@ -7,7 +7,7 @@ old-location: netmgmt\neterrorlogwrite.htm
 tech.root: NetMgmt
 ms.assetid: b97d97ab-aecd-4da5-b8c2-46582cbd3ea4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NetErrorLogWrite, NetErrorLogWrite function [Network Management], _win32_neterrorlogwrite, lmerrlog/NetErrorLogWrite, netmgmt.neterrorlogwrite
 ms.topic: function
 req.header: lmerrlog.h

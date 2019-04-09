@@ -7,7 +7,7 @@ old-location: multimedia\capsetmcidevicename.htm
 tech.root: Multimedia
 ms.assetid: 2dabc360-7f69-4dbb-9826-0657eec265ff
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_win32_capSetMCIDeviceName, capSetMCIDeviceName, capSetMCIDeviceName macro [Windows Multimedia], multimedia.capsetmcidevicename, vfw/capSetMCIDeviceName"
 ms.topic: macro
 req.header: vfw.h

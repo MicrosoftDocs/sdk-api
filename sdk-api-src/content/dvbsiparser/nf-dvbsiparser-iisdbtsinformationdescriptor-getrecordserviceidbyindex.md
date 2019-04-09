@@ -7,7 +7,7 @@ old-location: mstv\iisdbtsinformationdescriptor_getrecordserviceidbyindex.htm
 tech.root: mstv
 ms.assetid: 40738938-226d-4220-8092-a029bd6c038d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetRecordServiceIdByIndex, GetRecordServiceIdByIndex method [Microsoft TV Technologies], GetRecordServiceIdByIndex method [Microsoft TV Technologies],IIsdbTSInformationDescriptor interface, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies],GetRecordServiceIdByIndex method, IIsdbTSInformationDescriptor.GetRecordServiceIdByIndex, IIsdbTSInformationDescriptor::GetRecordServiceIdByIndex, dvbsiparser/IIsdbTSInformationDescriptor::GetRecordServiceIdByIndex, mstv.iisdbtsinformationdescriptor_getrecordserviceidbyindex
 ms.topic: method
 req.header: dvbsiparser.h

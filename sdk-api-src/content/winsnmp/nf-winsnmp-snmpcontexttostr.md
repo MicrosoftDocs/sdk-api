@@ -7,7 +7,7 @@ old-location: snmp\snmpcontexttostr.htm
 tech.root: SNMP
 ms.assetid: d82c352d-8685-4276-b58c-ce89557f074a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SnmpContextToStr, SnmpContextToStr function [SNMP], _snmp_snmpcontexttostr, snmp.snmpcontexttostr, winsnmp/SnmpContextToStr
 ms.topic: function
 req.header: winsnmp.h

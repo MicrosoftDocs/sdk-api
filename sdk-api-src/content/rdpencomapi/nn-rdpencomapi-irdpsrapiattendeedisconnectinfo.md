@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiattendeedisconnectinfo.htm
 tech.root: rdp
 ms.assetid: 849c4fbe-b9c4-4601-b93f-13efd1014a50
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIAttendeeDisconnectInfo, IRDPSRAPIAttendeeDisconnectInfo interface [RDP], IRDPSRAPIAttendeeDisconnectInfo interface [RDP],described, rdp.irdpsrapiattendeedisconnectinfo, rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo
 ms.topic: interface
 req.header: rdpencomapi.h

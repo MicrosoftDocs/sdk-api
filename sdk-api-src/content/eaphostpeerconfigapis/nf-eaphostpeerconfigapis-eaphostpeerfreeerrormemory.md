@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeerfreeerrormemory.htm
 tech.root: eaphost
 ms.assetid: c80ac625-8202-49a7-813a-62a9e0d15058
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EapHostPeerFreeErrorMemory, EapHostPeerFreeErrorMemory function [EAPHost], eaphost.eaphostpeerfreeerrormemory, eaphostpeerconfigapis/EapHostPeerFreeErrorMemory
 ms.topic: function
 req.header: eaphostpeerconfigapis.h

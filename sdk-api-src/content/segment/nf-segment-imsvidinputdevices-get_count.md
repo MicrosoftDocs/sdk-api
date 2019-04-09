@@ -7,7 +7,7 @@ old-location: mstv\imsvidinputdevices_get_count.htm
 tech.root: mstv
 ms.assetid: 52c2d9a1-f688-4f5e-a120-082d70f8dff1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMSVidInputDevices interface [Microsoft TV Technologies],get_Count method, IMSVidInputDevices.get_Count, IMSVidInputDevices::get_Count, IMSVidInputDevicesget_Count, get_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies],IMSVidInputDevices interface, mstv.imsvidinputdevices_get_count, segment/IMSVidInputDevices::get_Count
 ms.topic: method
 req.header: segment.h

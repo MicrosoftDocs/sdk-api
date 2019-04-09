@@ -7,7 +7,7 @@ old-location: security\opensamuser.htm
 tech.root: SecAuthN
 ms.assetid: 1d9bfbe5-8dd2-4b0f-a19a-361eef8901a4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FALSE, LSA_OPEN_SAM_USER, LSA_OPEN_SAM_USER callback, OpenSamUser, OpenSamUser callback function [Security], SecNameAlternateId, SecNameDN, SecNameFlat, SecNameSamCompatible, TRUE, _ssp_opensamuser, ntsecpkg/OpenSamUser, security.opensamuser
 ms.topic: callback
 req.header: ntsecpkg.h

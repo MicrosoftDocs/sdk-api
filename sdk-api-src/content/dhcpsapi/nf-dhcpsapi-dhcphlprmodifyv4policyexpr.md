@@ -7,7 +7,7 @@ old-location: dhcp\dhcphlprmodifyv4policyexpr.htm
 tech.root: DHCP
 ms.assetid: 5d6818f9-4e44-4f24-a489-84defd1117c0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DhcpHlprModifyV4PolicyExpr, DhcpHlprModifyV4PolicyExpr function [DHCP], dhcp.dhcphlprmodifyv4policyexpr, dhcpsapi/DhcpHlprModifyV4PolicyExpr
 ms.topic: function
 req.header: dhcpsapi.h

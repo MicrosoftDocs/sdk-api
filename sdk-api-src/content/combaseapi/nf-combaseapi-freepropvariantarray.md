@@ -7,7 +7,7 @@ old-location: stg\freepropvariantarray.htm
 tech.root: Stg
 ms.assetid: 2eefb57e-9311-46e1-9eed-e25aa3b5afaa
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FreePropVariantArray, FreePropVariantArray function [Structured Storage], _stg_freepropvariantarray, combaseapi/FreePropVariantArray, stg.freepropvariantarray
 ms.topic: function
 req.header: combaseapi.h

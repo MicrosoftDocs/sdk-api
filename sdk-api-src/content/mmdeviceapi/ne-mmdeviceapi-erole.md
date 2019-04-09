@@ -7,7 +7,7 @@ old-location: coreaudio\erole.htm
 tech.root: CoreAudio
 ms.assetid: 0d0d3174-8489-4951-858c-024d58477ae0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ERole, ERole enumeration [Core Audio], ERole_enum_count, coreaudio.erole, eCommunications, eConsole, eMultimedia, mmdeviceapi/ERole, mmdeviceapi/ERole_enum_count, mmdeviceapi/eCommunications, mmdeviceapi/eConsole, mmdeviceapi/eMultimedia
 ms.topic: enum
 req.header: mmdeviceapi.h

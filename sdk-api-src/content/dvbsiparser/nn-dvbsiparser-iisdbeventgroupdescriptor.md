@@ -7,7 +7,7 @@ old-location: mstv\iisdbeventgroupdescriptor.htm
 tech.root: mstv
 ms.assetid: 1e71f277-0296-4589-8099-dfae2a9dcfb0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IIsdbEventGroupDescriptor, IIsdbEventGroupDescriptor interface [Microsoft TV Technologies], IIsdbEventGroupDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbEventGroupDescriptor, mstv.iisdbeventgroupdescriptor
 ms.topic: interface
 req.header: dvbsiparser.h

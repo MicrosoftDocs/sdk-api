@@ -7,7 +7,7 @@ old-location: tablet\inkrenderer_pixeltoinkspace.htm
 tech.root: tablet
 ms.assetid: fb881fe0-0be3-4e23-ac50-e421e2dc7845
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IInkRenderer interface [Tablet PC],PixelToInkSpace method, IInkRenderer.PixelToInkSpace, IInkRenderer::PixelToInkSpace, PixelToInkSpace, PixelToInkSpace method [Tablet PC], PixelToInkSpace method [Tablet PC],IInkRenderer interface, fb881fe0-0be3-4e23-ac50-e421e2dc7845, msinkaut/IInkRenderer::PixelToInkSpace, tablet.inkrenderer_pixeltoinkspace
 ms.topic: method
 req.header: msinkaut.h

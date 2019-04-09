@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxroutinginstallationcallback.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9aqz.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FaxRoutingInstallationCallback, PFAX_ROUTING_INSTALLATION_CALLBACKW, PFAX_ROUTING_INSTALLATION_CALLBACKW callback, PFAX_ROUTING_INSTALLATION_CALLBACKW callback function [Fax Service], _mfax_faxroutinginstallationcallback, fax._mfax_faxroutinginstallationcallback, winfax/PFAX_ROUTING_INSTALLATION_CALLBACKW
 ms.topic: callback
 req.header: winfax.h

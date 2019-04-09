@@ -7,7 +7,7 @@ old-location: mscs\clusworkercreate.htm
 tech.root: MsCS
 ms.assetid: a7e8f8ad-c9de-4c6b-8926-b9a46d85924d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ClusWorkerCreate, ClusWorkerCreate function [Failover Cluster], PCLUSAPI_CLUS_WORKER_CREATE, PCLUSAPI_CLUS_WORKER_CREATE function [Failover Cluster], _wolf_clusworkercreate, mscs.clusworkercreate, resapi/ClusWorkerCreate, resapi/PCLUSAPI_CLUS_WORKER_CREATE
 ms.topic: function
 req.header: resapi.h

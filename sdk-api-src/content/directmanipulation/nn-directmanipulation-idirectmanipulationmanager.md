@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationmanager.htm
 tech.root: directmanipulation
 ms.assetid: d730a446-984e-4be0-aa7f-6d3dc93b2e34
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDirectManipulationManager, IDirectManipulationManager interface [Direct Manipulation], IDirectManipulationManager interface [Direct Manipulation],described, directmanipulation.idirectmanipulationmanager, directmanipulation/IDirectManipulationManager
 ms.topic: interface
 req.header: directmanipulation.h

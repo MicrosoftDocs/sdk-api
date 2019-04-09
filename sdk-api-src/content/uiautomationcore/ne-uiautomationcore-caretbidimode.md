@@ -7,7 +7,7 @@ old-location: winauto\uiauto_CaretBidiMode.htm
 tech.root: WinAuto
 ms.assetid: F11B7A18-E9C2-43FA-ABEB-00C61C1C7A83
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CaretBidiMode, CaretBidiMode enumeration [Windows Accessibility], CaretBidiMode_LTR, CaretBidiMode_RTL, uiautomationcore/CaretBidiMode, uiautomationcore/CaretBidiMode_LTR, uiautomationcore/CaretBidiMode_RTL, winauto.uiauto_CaretBidiMode
 ms.topic: enum
 req.header: uiautomationcore.h

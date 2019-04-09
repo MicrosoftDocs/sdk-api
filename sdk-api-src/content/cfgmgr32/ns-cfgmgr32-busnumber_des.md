@@ -7,7 +7,7 @@ old-location: devinst\busnumber_des.htm
 tech.root: devinst
 ms.assetid: 3007e271-fe78-404c-ba97-ceb0be334592
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PBUSNUMBER_DES, BUSNUMBER_DES, BUSNUMBER_DES structure [Device and Driver Installation], PBUSNUMBER_DES, PBUSNUMBER_DES structure pointer [Device and Driver Installation], cfgmgr32/BUSNUMBER_DES, cfgmgr32/PBUSNUMBER_DES, cfgmgrst_791be216-3ef2-407b-b250-4e09f40356a3.xml, devinst.busnumber_des"
 ms.topic: struct
 req.header: cfgmgr32.h

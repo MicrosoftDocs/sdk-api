@@ -7,7 +7,7 @@ old-location: wintouch\registertouchwindow.htm
 tech.root: wintouch
 ms.assetid: a70a7418-f79d-40c8-9219-3ce38a74da9f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RegisterTouchWindow, RegisterTouchWindow function [Windows Touch], TWF_FINETOUCH, TWF_WANTPALM, wintouch.registertouchwindow, winuser/RegisterTouchWindow
 ms.topic: function
 req.header: winuser.h

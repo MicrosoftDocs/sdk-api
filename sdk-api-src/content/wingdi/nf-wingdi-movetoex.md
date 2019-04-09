@@ -7,7 +7,7 @@ old-location: gdi\movetoex.htm
 tech.root: gdi
 ms.assetid: af11eeb7-4036-4a90-8685-9b5719f79e01
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MoveToEx, MoveToEx function [Windows GDI], _win32_MoveToEx, gdi.movetoex, wingdi/MoveToEx
 ms.topic: function
 req.header: wingdi.h

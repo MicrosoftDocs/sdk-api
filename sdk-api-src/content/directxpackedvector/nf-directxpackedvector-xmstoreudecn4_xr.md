@@ -7,7 +7,7 @@ old-location: dxmath\_xmstoreudecn4_xr.htm
 tech.root: dxmath
 ms.assetid: 4DCE74D6-48CF-43D8-BF69-368A95F823F1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMStoreUDecN4_XR, XMStoreUDecN4_XR, XMStoreUDecN4_XR method [DirectX Math Support APIs], dxmath._xmstoreudecn4_xr
 ms.topic: function
 req.header: directxpackedvector.h

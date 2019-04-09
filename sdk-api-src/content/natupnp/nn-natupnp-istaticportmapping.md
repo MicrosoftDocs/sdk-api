@@ -7,7 +7,7 @@ old-location: ics\istaticportmapping.htm
 tech.root: ics
 ms.assetid: 5013fea2-e767-4600-a10c-6859b7be42e4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IStaticPortMapping, IStaticPortMapping interface [ICS/ICF], IStaticPortMapping interface [ICS/ICF],described, _ics_istaticportmapping, ics.istaticportmapping, natupnp/IStaticPortMapping
 ms.topic: interface
 req.header: natupnp.h

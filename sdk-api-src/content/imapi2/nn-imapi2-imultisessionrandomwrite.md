@@ -7,7 +7,7 @@ old-location: imapi\imultisessionrandomwrite.htm
 tech.root: imapi
 ms.assetid: 1843254d-7947-4197-9c1b-6dc01abe9354
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMultisessionRandomWrite, IMultisessionRandomWrite interface [IMAPI], IMultisessionRandomWrite interface [IMAPI],described, imapi.imultisessionrandomwrite, imapi2/IMultisessionRandomWrite
 ms.topic: interface
 req.header: imapi2.h

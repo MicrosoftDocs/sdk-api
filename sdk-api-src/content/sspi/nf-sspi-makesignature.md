@@ -7,7 +7,7 @@ old-location: security\makesignature.htm
 tech.root: SecAuthN
 ms.assetid: d17824b0-6121-48a3-b19b-d4fae3e1348e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, 3, 4, MakeSignature, MakeSignature function [Security], _ssp_makesignature, security.makesignature, sspi/MakeSignature
 ms.topic: function
 req.header: sspi.h

@@ -7,7 +7,7 @@ old-location: recovery\unregisterapplicationrecoverycallback.htm
 tech.root: Recovery
 ms.assetid: 473e24d6-fddb-4935-b454-8cddfb53a02a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: UnregisterApplicationRecoveryCallback, UnregisterApplicationRecoveryCallback function [Recovery], recovery.unregisterapplicationrecoverycallback, winbase/UnregisterApplicationRecoveryCallback
 ms.topic: function
 req.header: winbase.h

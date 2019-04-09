@@ -7,7 +7,7 @@ old-location: dns\dns_nxt_data.htm
 tech.root: DNS
 ms.assetid: 0e5370c2-30d3-4bb7-85a0-f4412f5572fd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PDNS_NXT_DATA, *PDNS_NXT_DATAW, DNS_NXT_DATA, DNS_NXT_DATA structure [DNS], DNS_NXT_DATAW, PDNS_NXT_DATA, PDNS_NXT_DATA structure pointer [DNS], _dns_dns_nxt_data, dns.dns_nxt_data, windns/DNS_NXT_DATA, windns/PDNS_NXT_DATA"
 ms.topic: struct
 req.header: windns.h

@@ -7,7 +7,7 @@ old-location: vhd\merge_virtual_disk_parameters.htm
 tech.root: VStor
 ms.assetid: 5bb84e11-677d-42f5-b5b6-59f23b9a8ab7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PMERGE_VIRTUAL_DISK_PARAMETERS, MERGE_VIRTUAL_DISK_PARAMETERS, MERGE_VIRTUAL_DISK_PARAMETERS structure [VHD], PMERGE_VIRTUAL_DISK_PARAMETERS, PMERGE_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _MERGE_VIRTUAL_DISK_PARAMETERS, vdssys/MERGE_VIRTUAL_DISK_PARAMETERS, vdssys/PMERGE_VIRTUAL_DISK_PARAMETERS, vhd.merge_virtual_disk_parameters, virtdisk/MERGE_VIRTUAL_DISK_PARAMETERS, virtdisk/PMERGE_VIRTUAL_DISK_PARAMETERS"
 ms.topic: struct
 req.header: virtdisk.h

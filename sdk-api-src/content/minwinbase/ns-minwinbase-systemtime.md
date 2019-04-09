@@ -7,7 +7,7 @@ old-location: base\systemtime_str.htm
 tech.root: SysInfo
 ms.assetid: f77cdf86-0f97-4a89-b565-95b46fa7d65b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPSYSTEMTIME, *PSYSTEMTIME, PSYSTEMTIME, PSYSTEMTIME structure pointer, SYSTEMTIME, SYSTEMTIME structure, _SYSTEMTIME, _win32_systemtime_str, base.systemtime_str, minwinbase/PSYSTEMTIME, minwinbase/SYSTEMTIME"
 ms.topic: struct
 req.header: minwinbase.h

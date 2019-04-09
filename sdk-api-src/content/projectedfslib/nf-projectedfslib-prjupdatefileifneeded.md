@@ -7,7 +7,7 @@ old-location: projfs\prjupdatefileifneeded.htm
 tech.root: ProjFS
 ms.assetid: 182C9C5E-ABBC-4A7C-99E4-D019B7E237CE
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PrjUpdateFileIfNeeded, PrjUpdateFileIfNeeded function, ProjFS.prjupdatefileifneeded, projectedfslib/PrjUpdateFileIfNeeded
 ms.topic: function
 req.header: projectedfslib.h

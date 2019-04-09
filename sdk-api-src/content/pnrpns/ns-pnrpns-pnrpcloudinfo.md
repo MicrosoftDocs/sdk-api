@@ -7,7 +7,7 @@ old-location: p2p\pnrpcloudinfo.htm
 tech.root: P2PSdk
 ms.assetid: 82af5a4f-1b29-405a-a200-1d723ea7693b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PPNRPCLOUDINFO, PNRPCLOUDINFO, PNRPCLOUDINFO structure [Peer Networking], PPNRPCLOUDINFO, PPNRPCLOUDINFO structure pointer [Peer Networking], p2p.pnrpcloudinfo, pnrpns/PNRPCLOUDINFO, pnrpns/PPNRPCLOUDINFO"
 ms.topic: struct
 req.header: pnrpns.h

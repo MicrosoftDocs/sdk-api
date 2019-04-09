@@ -7,7 +7,7 @@ old-location: wmi\chstring_format.htm
 tech.root: WmiSdk
 ms.assetid: 95d24b0e-3580-4a5d-8dad-50d44ef1ca39
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CHString.Format, CHString::Format, CHString::Format methods [Windows Management Instrumentation], Format, chstring/CHString::Format, wmi.chstring_format
 ms.topic: method
 req.header: chstring.h

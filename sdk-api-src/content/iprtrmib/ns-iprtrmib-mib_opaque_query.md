@@ -7,7 +7,7 @@ old-location: mib\mib_opaque_query.htm
 tech.root: MIB
 ms.assetid: cd87cbe4-3da4-4205-9a88-becf4f341ab5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PMIB_OPAQUE_QUERY, MIB_OPAQUE_QUERY, MIB_OPAQUE_QUERY structure [MIB], PMIB_OPAQUE_QUERY, PMIB_OPAQUE_QUERY structure pointer [MIB], _mpr_mib_opaque_query, iprtrmib/MIB_OPAQUE_QUERY, iprtrmib/PMIB_OPAQUE_QUERY, mib.mib_opaque_query, rras.mib_opaque_query"
 ms.topic: struct
 req.header: iprtrmib.h

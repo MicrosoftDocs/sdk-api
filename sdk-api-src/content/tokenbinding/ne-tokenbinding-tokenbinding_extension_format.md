@@ -7,7 +7,7 @@ old-location: security\tokenbinding_extension_format.htm
 tech.root: SecCNG
 ms.assetid: EBF14890-3F7D-4814-93E1-570E81E05DF2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TOKENBINDING_EXTENSION_FORMAT, TOKENBINDING_EXTENSION_FORMAT enumeration [Security], TOKENBINDING_EXTENSION_FORMAT_UNDEFINED, security.tokenbinding_extension_format, tokenbinding/TOKENBINDING_EXTENSION_FORMAT, tokenbinding/TOKENBINDING_EXTENSION_FORMAT_UNDEFINED
 ms.topic: enum
 req.header: tokenbinding.h

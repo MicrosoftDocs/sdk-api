@@ -7,7 +7,7 @@ old-location: security\splsamodeinitialize.htm
 tech.root: SecAuthN
 ms.assetid: 1ef3770b-197f-4d5b-9933-b7f6f63e5627
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SpLsaModeInitialize, SpLsaModeInitialize callback function [Security], SpLsaModeInitializeFn, SpLsaModeInitializeFn callback, _ssp_splsamodeinitialize, ntsecpkg/SpLsaModeInitialize, security.splsamodeinitialize
 ms.topic: callback
 req.header: ntsecpkg.h

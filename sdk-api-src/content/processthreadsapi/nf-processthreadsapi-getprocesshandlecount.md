@@ -7,7 +7,7 @@ old-location: base\getprocesshandlecount.htm
 tech.root: ProcThread
 ms.assetid: bb8cf86b-00b8-4a64-90f8-66ac6dbf9dee
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetProcessHandleCount, GetProcessHandleCount function, base.getprocesshandlecount, processthreadsapi/GetProcessHandleCount, winbase/GetProcessHandleCount
 ms.topic: function
 req.header: processthreadsapi.h

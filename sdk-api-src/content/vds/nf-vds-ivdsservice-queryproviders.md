@@ -7,7 +7,7 @@ old-location: base\ivdsservice_queryproviders.htm
 tech.root: VDS
 ms.assetid: 55171eb1-6fec-4651-914c-88d23e8d7849
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVdsService interface [VDS],QueryProviders method, IVdsService.QueryProviders, IVdsService::QueryProviders, QueryProviders, QueryProviders method [VDS], QueryProviders method [VDS],IVdsService interface, base.ivdsservice_queryproviders, vds/IVdsService::QueryProviders
 ms.topic: method
 req.header: vds.h

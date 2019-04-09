@@ -7,7 +7,7 @@ old-location: base\discardvirtualmemory.htm
 tech.root: Memory
 ms.assetid: 942e80cb-5a68-24fa-5d5d-fe3741bee2dc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DiscardVirtualMemory, DiscardVirtualMemory function, base.discardvirtualmemory, winbase/DiscardVirtualMemory
 ms.topic: function
 req.header: memoryapi.h

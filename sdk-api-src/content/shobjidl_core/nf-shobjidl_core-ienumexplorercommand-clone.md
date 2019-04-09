@@ -7,7 +7,7 @@ old-location: shell\IEnumExplorerCommand_Clone.htm
 tech.root: shell
 ms.assetid: 2ef3311a-6c88-463c-8c25-9ccb22f3e4e6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumExplorerCommand interface, IEnumExplorerCommand interface [Windows Shell],Clone method, IEnumExplorerCommand.Clone, IEnumExplorerCommand::Clone, _shell_IEnumExplorerCommand_Clone, shell.IEnumExplorerCommand_Clone, shobjidl_core/IEnumExplorerCommand::Clone
 ms.topic: method
 req.header: shobjidl_core.h

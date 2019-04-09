@@ -7,7 +7,7 @@ old-location: fwp\fwpm_net_event_classify_drop0.htm
 tech.root: fwp
 ms.assetid: 9688ff75-292f-44f2-b3ed-41a9dd1ef918
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FWPM_NET_EVENT_CLASSIFY_DROP0, FWPM_NET_EVENT_CLASSIFY_DROP0 structure [Filtering], fwp.fwpm_net_event_classify_drop0, fwpmtypes/FWPM_NET_EVENT_CLASSIFY_DROP0
 ms.topic: struct
 req.header: fwpmtypes.h

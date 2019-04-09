@@ -7,7 +7,7 @@ old-location: rdc\rdcneedpointer.htm
 tech.root: rdc
 ms.assetid: 92a1fae7-5ada-4f7d-a736-c93bc404a418
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RdcNeedPointer, RdcNeedPointer structure [Remote Differential Compression], fs.rdcneedpointer, msrdc/RdcNeedPointer, rdc.rdcneedpointer
 ms.topic: struct
 req.header: msrdc.h

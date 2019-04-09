@@ -7,7 +7,7 @@ old-location: security\ix509extensionsmimecapabilities.htm
 tech.root: seccertenroll
 ms.assetid: 06dca62d-282b-4bdd-bc8d-4d2e6eb226b5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IX509ExtensionSmimeCapabilities, IX509ExtensionSmimeCapabilities interface [Security], IX509ExtensionSmimeCapabilities interface [Security],described, certenroll/IX509ExtensionSmimeCapabilities, security.ix509extensionsmimecapabilities
 ms.topic: interface
 req.header: certenroll.h

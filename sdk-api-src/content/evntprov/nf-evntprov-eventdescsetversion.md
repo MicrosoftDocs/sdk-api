@@ -7,7 +7,7 @@ old-location: etw\eventdescsetversion_func.htm
 tech.root: ETW
 ms.assetid: f1d9fcb2-5a27-483b-b133-e8309b51165c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EventDescSetVersion, EventDescSetVersion function [ETW], base.eventdescsetversion_func, etw.eventdescsetversion_func, evntprov/EventDescSetVersion
 ms.topic: function
 req.header: evntprov.h

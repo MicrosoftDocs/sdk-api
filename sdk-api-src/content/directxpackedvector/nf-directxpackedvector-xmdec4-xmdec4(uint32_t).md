@@ -7,7 +7,7 @@ old-location: dxmath\xmdec4_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMDEC4.#ctor(uint32_t)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: XMDEC4, XMDEC4 constructor [DirectX Math Support APIs], XMDEC4 constructor [DirectX Math Support APIs],XMDEC4 structure, XMDEC4 structure [DirectX Math Support APIs],XMDEC4 constructor, XMDEC4.XMDEC4, XMDEC4.XMDEC4(uint32_t), XMDEC4::XMDEC4, XMDEC4::XMDEC4(uint32_t), dxmath.xmdec4_ctor_2
 ms.topic: method
 req.header: directxpackedvector.h

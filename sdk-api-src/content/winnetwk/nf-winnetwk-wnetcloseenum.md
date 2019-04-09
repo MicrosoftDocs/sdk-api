@@ -7,7 +7,7 @@ old-location: wnet\wnetcloseenum.htm
 tech.root: WNet
 ms.assetid: c68fd9de-9f24-41f0-8b59-2d083fec8abf
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WNetCloseEnum, WNetCloseEnum function [Windows Networking (WNet)], _win32_wnetcloseenum, winnetwk/WNetCloseEnum, wnet.wnetcloseenum
 ms.topic: function
 req.header: winnetwk.h

@@ -7,7 +7,7 @@ old-location: fs\findvolumeclose.htm
 tech.root: FileIO
 ms.assetid: 091a2f0c-df38-4fef-a926-3507545bb58d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FindVolumeClose, FindVolumeClose function [Files], _win32_findvolumeclose, base.findvolumeclose, fileapi/FindVolumeClose, fs.findvolumeclose, winbase/FindVolumeClose
 ms.topic: function
 req.header: fileapi.h

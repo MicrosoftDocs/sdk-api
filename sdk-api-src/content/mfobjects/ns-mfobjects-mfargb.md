@@ -7,7 +7,7 @@ old-location: mf\mfargb.htm
 tech.root: medfound
 ms.assetid: ce7ac174-9f00-42a4-9b48-ed86b406d83e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MFARGB, MFARGB structure [Media Foundation], ce7ac174-9f00-42a4-9b48-ed86b406d83e, mf.mfargb, mfobjects/MFARGB
 ms.topic: struct
 req.header: mfobjects.h

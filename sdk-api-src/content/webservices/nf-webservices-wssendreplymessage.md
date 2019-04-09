@@ -7,7 +7,7 @@ old-location: wsw\wssendreplymessage.htm
 tech.root: wsw
 ms.assetid: cabfd07b-294c-4e3a-9d50-84d9b4d98f62
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WsSendReplyMessage, WsSendReplyMessage function [Web Services for Windows], webservices/WsSendReplyMessage, wsw.wssendreplymessage
 ms.topic: function
 req.header: webservices.h

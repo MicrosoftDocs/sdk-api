@@ -7,7 +7,7 @@ old-location: wininet\internetconnect.htm
 tech.root: wininet
 ms.assetid: 42b5d733-dccd-4c9d-8820-e358e033077c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: InternetConnect, InternetConnect function [WinINet], InternetConnectA, InternetConnectW, _win32_internetconnect, wininet.internetconnect, wininet/InternetConnect, wininet/InternetConnectA, wininet/InternetConnectW
 ms.topic: function
 req.header: wininet.h

@@ -7,7 +7,7 @@ old-location: security\auditfree_func.htm
 tech.root: SecAuthZ
 ms.assetid: 697baf9b-91c4-4a88-a190-e9f6812e08af
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AuditFree, AuditFree function [Security], ntsecapi/AuditFree, security.auditfree_func
 ms.topic: function
 req.header: ntsecapi.h

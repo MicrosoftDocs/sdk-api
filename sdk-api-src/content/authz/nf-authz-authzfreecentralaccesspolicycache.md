@@ -7,7 +7,7 @@ old-location: security\authzfreecentralaccesspolicycache.htm
 tech.root: SecAuthZ
 ms.assetid: 0F972A95-3CD7-4C86-99DE-5B3D50CE9A34
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AuthzFreeCentralAccessPolicyCache, AuthzFreeCentralAccessPolicyCache function [Security], authz/AuthzFreeCentralAccessPolicyCache, security.authzfreecentralaccesspolicycache
 ms.topic: function
 req.header: authz.h

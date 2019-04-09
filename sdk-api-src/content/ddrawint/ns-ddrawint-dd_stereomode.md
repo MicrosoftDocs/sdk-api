@@ -7,7 +7,7 @@ old-location: display\dd_stereomode.htm
 tech.root: display
 ms.assetid: 0b160c57-5e79-4777-a514-fa04e02c1508
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PDD_STEREOMODE, DD_STEREOMODE, DD_STEREOMODE structure [Display Devices], ddrawint/DD_STEREOMODE, ddstrcts_aca080e5-a3ae-409b-9546-f4d270fb9f10.xml, display.dd_stereomode"
 ms.topic: struct
 req.header: ddrawint.h

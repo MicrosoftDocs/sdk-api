@@ -7,7 +7,7 @@ old-location: security\ix509scepenrollment.htm
 tech.root: seccertenroll
 ms.assetid: fcbac911-9e37-4994-bbb6-544b19a92749
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IX509SCEPEnrollment, IX509SCEPEnrollment interface [Security], IX509SCEPEnrollment interface [Security],described, certenroll/IX509SCEPEnrollment, security.ix509scepenrollment
 ms.topic: interface
 req.header: certenroll.h

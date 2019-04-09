@@ -7,7 +7,7 @@ old-location: com\statdata.htm
 tech.root: com
 ms.assetid: f31469b2-4a4a-4da5-9229-38ddd0bcc88e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPSTATDATA, LPSTATDATA, LPSTATDATA structure pointer [COM], STATDATA, STATDATA structure [COM], _ole_STATDATA, com.statdata, objidl/LPSTATDATA, objidl/STATDATA"
 ms.topic: struct
 req.header: objidl.h

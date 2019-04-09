@@ -7,7 +7,7 @@ old-location: base\ivsswritercomponents_getcomponentcount.htm
 tech.root: VSS
 ms.assetid: ec89438f-4811-42f7-bda0-6df6d1b98f18
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetComponentCount, GetComponentCount method [VSS], GetComponentCount method [VSS],IVssWriterComponents interface, IVssWriterComponents interface [VSS],GetComponentCount method, IVssWriterComponents.GetComponentCount, IVssWriterComponents::GetComponentCount, _win32_ivsswritercomponents_getcomponentcount, base.ivsswritercomponents_getcomponentcount, vswriter/IVssWriterComponents::GetComponentCount
 ms.topic: method
 req.header: vswriter.h

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_connectionrecoverybehavioroptions.htm
 tech.root: WinAuto
 ms.assetid: B731C970-49AF-4BD7-9D30-DFBB76120499
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ConnectionRecoveryBehaviorOptions, ConnectionRecoveryBehaviorOptions enumeration [Windows Accessibility], ConnectionRecoveryBehaviorOptions_Disabled, ConnectionRecoveryBehaviorOptions_Enabled, uiautomationclient/ConnectionRecoveryBehaviorOptions, uiautomationclient/ConnectionRecoveryBehaviorOptions_Disabled, uiautomationclient/ConnectionRecoveryBehaviorOptions_Enabled, winauto.uiauto_connectionrecoverybehavioroptions
 ms.topic: enum
 req.header: uiautomationclient.h

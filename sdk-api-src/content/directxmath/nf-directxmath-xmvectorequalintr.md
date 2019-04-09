@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorequalintr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVectorEqualIntR(uint32_t@,XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorEqualIntR, XMVectorEqualIntR, XMVectorEqualIntR method [DirectX Math Support APIs], dxmath.xmvectorequalintr
 ms.topic: function
 req.header: directxmath.h

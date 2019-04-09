@@ -7,7 +7,7 @@ old-location: dshow\am_colcon.htm
 tech.root: DirectShow
 ms.assetid: 9358d860-6187-48d9-81b6-d5d65d73786d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PAM_COLCON, AM_COLCON, AM_COLCON structure [DirectShow], PAM_COLCON, PAM_COLCON structure pointer [DirectShow], dshow.am_colcon, dvdmedia/AM_COLCON, dvdmedia/PAM_COLCON"
 ms.topic: struct
 req.header: dvdmedia.h

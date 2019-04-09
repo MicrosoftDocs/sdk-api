@@ -7,7 +7,7 @@ old-location: qos\qos_tcp_traffic.htm
 tech.root: QOS
 ms.assetid: e71b0414-d449-42af-9d28-d2ae9fa1b6ea
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPQOS_TCP_TRAFFIC, *LPQOS_TCP_TRAFFIC structure [QOS], QOS_TCP_TRAFFIC, QOS_TCP_TRAFFIC structure [QOS], qos.qos_tcp_traffic, qosobjs/*LPQOS_TCP_TRAFFIC, qosobjs/QOS_TCP_TRAFFIC"
 ms.topic: struct
 req.header: qosobjs.h

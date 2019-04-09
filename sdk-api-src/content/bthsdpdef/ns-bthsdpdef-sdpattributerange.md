@@ -7,7 +7,7 @@ old-location: bluetooth\sdpattributerange.htm
 tech.root: bluetooth
 ms.assetid: 2b8bf753-a3c4-4a41-89c7-0caac76cfd33
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SdpAttributeRange, SdpAttributeRange structure [Bluetooth], bluetooth.sdpattributerange, bthsdpdef/SdpAttributeRange
 ms.topic: struct
 req.header: bthsdpdef.h

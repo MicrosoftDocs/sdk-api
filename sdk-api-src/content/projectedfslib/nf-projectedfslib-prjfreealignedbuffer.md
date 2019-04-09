@@ -7,7 +7,7 @@ old-location: projfs\prjfreealignedbuffer.htm
 tech.root: ProjFS
 ms.assetid: EE5AC099-CB39-48B1-BB7B-8C9B436AA4A3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PrjFreeAlignedBuffer, PrjFreeAlignedBuffer function, ProjFS.prjfreealignedbuffer, projectedfslib/PrjFreeAlignedBuffer
 ms.topic: function
 req.header: projectedfslib.h

@@ -7,7 +7,7 @@ old-location: policy\unregistergpnotification.htm
 tech.root: Policy
 ms.assetid: 39ac1361-0160-44e3-8b99-ff50978cc425
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: UnregisterGPNotification, UnregisterGPNotification function [Group Policy], _win32_unregistergpnotification, policy.unregistergpnotification, userenv/UnregisterGPNotification
 ms.topic: function
 req.header: userenv.h

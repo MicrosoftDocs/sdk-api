@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_getvideosourcerect.htm
 tech.root: medfound
 ms.assetid: 3b72ece3-f573-42e1-948c-443c793e5ba4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetVideoSourceRect, GetVideoSourceRect method [Media Foundation], GetVideoSourceRect method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetVideoSourceRect method, IMFPMediaPlayer.GetVideoSourceRect, IMFPMediaPlayer::GetVideoSourceRect, mf.imfpmediaplayer_getvideosourcerect, mfplay/IMFPMediaPlayer::GetVideoSourceRect
 ms.topic: method
 req.header: mfplay.h

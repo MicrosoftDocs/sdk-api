@@ -7,7 +7,7 @@ old-location: smi\iitemenumerator_current.htm
 tech.root: SMI
 ms.assetid: 0f117274-672f-40da-a4c6-88dd6aa01cf7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Current, Current method [SMI], Current method [SMI],IItemEnumerator interface, IItemEnumerator interface [SMI],Current method, IItemEnumerator.Current, IItemEnumerator::Current, smi.iitemenumerator_current, wcmconfig/IItemEnumerator::Current
 ms.topic: method
 req.header: wcmconfig.h

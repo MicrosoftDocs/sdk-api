@@ -7,7 +7,7 @@ old-location: security\spvalidatetargetinfofn.htm
 tech.root: SecAuthN
 ms.assetid: 01d1b74a-14d9-40cd-bcca-a031f5fc9cbb
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SpValidateTargetInfoFn, SpValidateTargetInfoFn callback, SpValidateTargetInfoFn callback function [Security], ntsecpkg/SpValidateTargetInfoFn, security.spvalidatetargetinfofn
 ms.topic: callback
 req.header: ntsecpkg.h

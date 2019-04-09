@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createparturicollection.htm
 tech.root: printdocs
 ms.assetid: 1127a314-43c8-43a2-a06e-88858a43c519
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreatePartUriCollection, CreatePartUriCollection method [XPS Documents and Packaging], CreatePartUriCollection method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePartUriCollection method, IXpsOMObjectFactory.CreatePartUriCollection, IXpsOMObjectFactory::CreatePartUriCollection, xps.ixpsomobjectfactory_createparturicollection, xpsobjectmodel/IXpsOMObjectFactory::CreatePartUriCollection
 ms.topic: method
 req.header: xpsobjectmodel.h

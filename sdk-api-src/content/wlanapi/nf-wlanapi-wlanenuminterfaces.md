@@ -7,7 +7,7 @@ old-location: nwifi\wlanenuminterfaces.htm
 tech.root: NativeWiFi
 ms.assetid: 7f817edf-1b1d-495c-afd9-d97e3ae0caab
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WlanEnumInterfaces, WlanEnumInterfaces function [NativeWIFI], nwifi.wlanenuminterfaces, wlanapi/WlanEnumInterfaces
 ms.topic: function
 req.header: wlanapi.h

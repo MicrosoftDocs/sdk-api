@@ -7,7 +7,7 @@ old-location: winrt\iactivatableclassregistration_activationtype.htm
 tech.root: WinRT
 ms.assetid: 145DF7F2-839A-4B94-B4DC-BA2103A04D2F
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IActivatableClassRegistration interface [Windows Runtime],get_ActivationType method, IActivatableClassRegistration.get_ActivationType, IActivatableClassRegistration::get_ActivationType, activationregistration/IActivatableClassRegistration::get_ActivationType, get_ActivationType, get_ActivationType method [Windows Runtime], get_ActivationType method [Windows Runtime],IActivatableClassRegistration interface, winrt.iactivatableclassregistration_activationtype
 ms.topic: method
 req.header: activationregistration.h

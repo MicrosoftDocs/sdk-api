@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents_itemnotpinned.htm
 tech.root: offlinefiles
 ms.assetid: cefd7408-9e98-48a4-ad43-0bdef9da1c95
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemNotPinned method, IOfflineFilesEvents.ItemNotPinned, IOfflineFilesEvents::ItemNotPinned, ItemNotPinned, ItemNotPinned method [Offline Files], ItemNotPinned method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemNotPinned, of.iofflinefilesevents_itemnotpinned
 ms.topic: method
 req.header: cscobj.h

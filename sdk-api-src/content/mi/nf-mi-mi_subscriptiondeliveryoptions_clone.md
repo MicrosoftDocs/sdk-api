@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_subscriptiondeliveryoptions_clone.htm
 tech.root: wmi_v2
 ms.assetid: 34374907-bbb6-4d22-81ac-2d662efaf119
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_Clone, MI_SubscriptionDeliveryOptions_Clone function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_Clone, wmi_v2.mi_subscriptiondeliveryoptions_clone
 ms.topic: function
 req.header: mi.h

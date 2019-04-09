@@ -7,7 +7,7 @@ old-location: perf\pdhgetrawcounterarray.htm
 tech.root: perfctrs
 ms.assetid: 03b30d08-6901-45cd-bd6d-d2672eb0f914
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PdhGetRawCounterArray, PdhGetRawCounterArray function [Perf], PdhGetRawCounterArrayA, PdhGetRawCounterArrayW, _win32_pdhgetrawcounterarray, base.pdhgetrawcounterarray, pdh/PdhGetRawCounterArray, pdh/PdhGetRawCounterArrayA, pdh/PdhGetRawCounterArrayW, perf.pdhgetrawcounterarray
 ms.topic: function
 req.header: pdh.h

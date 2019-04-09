@@ -7,7 +7,7 @@ old-location: tapi3\itlegacycallmediacontrol2_gatherdigits.htm
 tech.root: Tapi
 ms.assetid: ff464b1e-bd4c-4807-b019-cdae6896f897
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GatherDigits, GatherDigits method [TAPI 2.2], GatherDigits method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],GatherDigits method, ITLegacyCallMediaControl2.GatherDigits, ITLegacyCallMediaControl2::GatherDigits, _tapi3_itlegacycallmediacontrol2_gatherdigits, tapi3.itlegacycallmediacontrol2_gatherdigits, tapi3if/ITLegacyCallMediaControl2::GatherDigits
 ms.topic: method
 req.header: tapi3if.h

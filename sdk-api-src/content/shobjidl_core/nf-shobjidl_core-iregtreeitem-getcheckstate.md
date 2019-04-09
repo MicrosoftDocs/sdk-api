@@ -7,7 +7,7 @@ old-location: shell\IRegTreeItem_GetCheckState.htm
 tech.root: shell
 ms.assetid: bfeff83e-8872-4df2-a519-1335be6e443c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FALSE, GetCheckState, GetCheckState method [Windows Shell], GetCheckState method [Windows Shell],IRegTreeItem interface, IRegTreeItem interface [Windows Shell],GetCheckState method, IRegTreeItem.GetCheckState, IRegTreeItem::GetCheckState, TRUE, _win32_IRegTreeItem_GetCheckState, shell.IRegTreeItem_GetCheckState, shobjidl_core/IRegTreeItem::GetCheckState
 ms.topic: method
 req.header: shobjidl_core.h

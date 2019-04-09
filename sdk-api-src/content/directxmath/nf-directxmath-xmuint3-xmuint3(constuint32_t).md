@@ -7,7 +7,7 @@ old-location: dxmath\xmuint3_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUINT3.#ctor
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: XMUINT3, XMUINT3 constructor [DirectX Math Support APIs], XMUINT3 constructor [DirectX Math Support APIs],XMUINT3 structure, XMUINT3 structure [DirectX Math Support APIs],XMUINT3 constructor, XMUINT3.XMUINT3, XMUINT3.XMUINT3(), XMUINT3.XMUINT3(const uint32_t), XMUINT3::XMUINT3, XMUINT3::XMUINT3(const uint32_t), dxmath.xmuint3_ctor_1
 ms.topic: method
 req.header: directxmath.h

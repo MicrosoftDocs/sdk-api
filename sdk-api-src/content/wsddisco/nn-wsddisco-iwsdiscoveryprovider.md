@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoveryprovider.htm
 tech.root: WsdApi
 ms.assetid: e3d3acc2-914b-40bd-9e1e-a3a612821ab7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryProvider, IWSDiscoveryProvider interface, IWSDiscoveryProvider interface,described, ncd.iwsdiscoveryprovider, wsddisco/IWSDiscoveryProvider
 ms.topic: interface
 req.header: wsddisco.h

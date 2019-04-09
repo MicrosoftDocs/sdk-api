@@ -7,7 +7,7 @@ old-location: security\crypthashdata.htm
 tech.root: SecCrypto
 ms.assetid: ec1482a2-c2cb-4c5f-af9c-d493134413d6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CRYPT_OWF_REPL_LM_HASH, CRYPT_USERDATA, CryptHashData, CryptHashData function [Security], _crypto2_crypthashdata, security.crypthashdata, wincrypt/CryptHashData
 ms.topic: function
 req.header: wincrypt.h

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1commandsink3.htm
 tech.root: Direct2D
 ms.assetid: DC4C947E-2EC9-44CC-872A-74DAB6E9C2C8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ID2D1CommandSink3, ID2D1CommandSink3 interface [Direct2D], ID2D1CommandSink3 interface [Direct2D],described, d2d1_3/ID2D1CommandSink3, direct2d.id2d1commandsink3
 ms.topic: interface
 req.header: d2d1_3.h

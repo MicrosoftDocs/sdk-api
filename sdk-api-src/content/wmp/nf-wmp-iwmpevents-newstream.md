@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__newstream.htm
 tech.root: WMP
 ms.assetid: 829cb422-eb24-4280-b565-de42c5a77b5f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],NewStream method, IWMPEvents.NewStream, IWMPEvents::NewStream, IWMPEventsNewStream, NewStream, NewStream method [Windows Media Player], NewStream method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__newstream, wmp/IWMPEvents::NewStream
 ms.topic: method
 req.header: wmp.h

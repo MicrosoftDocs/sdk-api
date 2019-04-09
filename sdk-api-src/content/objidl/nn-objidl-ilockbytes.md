@@ -7,7 +7,7 @@ old-location: stg\ilockbytes.htm
 tech.root: Stg
 ms.assetid: bb2c5d0d-8dc8-4844-9a20-ef8e4def5731
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ILockBytes, ILockBytes interface [Structured Storage], ILockBytes interface [Structured Storage],described, _stg_ilockbytes, objidl/ILockBytes, stg.ilockbytes
 ms.topic: interface
 req.header: objidl.h

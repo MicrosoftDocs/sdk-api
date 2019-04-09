@@ -7,7 +7,7 @@ old-location: wua\icategorycollection.htm
 tech.root: Wua_Sdk
 ms.assetid: 2d43ee74-f3c7-4c94-8e83-e497d3aa81ee
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ICategoryCollection, ICategoryCollection interface [Windows Update Agent], ICategoryCollection interface [Windows Update Agent],described, wua.icategorycollection, wuapi/ICategoryCollection
 ms.topic: interface
 req.header: wuapi.h

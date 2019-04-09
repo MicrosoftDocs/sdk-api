@@ -7,7 +7,7 @@ old-location: display\clipobj_cenumstart.htm
 tech.root: display
 ms.assetid: e719f856-04a9-480d-b79a-df2307a48162
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CLIPOBJ_cEnumStart, CLIPOBJ_cEnumStart function [Display Devices], display.clipobj_cenumstart, gdifncs_53ccc337-0aa7-442c-a612-facb369b66c6.xml, winddi/CLIPOBJ_cEnumStart
 ms.topic: function
 req.header: winddi.h

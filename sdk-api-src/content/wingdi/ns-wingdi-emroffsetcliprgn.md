@@ -7,7 +7,7 @@ old-location: gdi\emroffsetcliprgn.htm
 tech.root: gdi
 ms.assetid: 814a1105-0edc-4d1e-9f94-1c13152c0925
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PEMROFFSETCLIPRGN, EMROFFSETCLIPRGN, EMROFFSETCLIPRGN structure [Windows GDI], PEMROFFSETCLIPRGN, PEMROFFSETCLIPRGN structure pointer [Windows GDI], _win32_EMROFFSETCLIPRGN_str, gdi.emroffsetcliprgn, wingdi/EMROFFSETCLIPRGN, wingdi/PEMROFFSETCLIPRGN"
 ms.topic: struct
 req.header: wingdi.h

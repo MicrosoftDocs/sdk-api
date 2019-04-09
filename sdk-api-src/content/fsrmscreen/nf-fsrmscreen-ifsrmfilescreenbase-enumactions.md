@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilescreenbase_enumactions.htm
 tech.root: fsrm
 ms.assetid: fbc22338-8271-407a-97c6-4a2329445979
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EnumActions, EnumActions method [File Server Resource Manager], EnumActions method [File Server Resource Manager],IFsrmFileScreenBase interface, IFsrmFileScreenBase interface [File Server Resource Manager],EnumActions method, IFsrmFileScreenBase.EnumActions, IFsrmFileScreenBase::EnumActions, fs.ifsrmfilescreenbase_enumactions, fsrm.ifsrmfilescreenbase_enumactions, fsrmscreen/IFsrmFileScreenBase::EnumActions
 ms.topic: method
 req.header: fsrmscreen.h

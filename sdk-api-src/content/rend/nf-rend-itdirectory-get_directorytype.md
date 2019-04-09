@@ -7,7 +7,7 @@ old-location: tapi3\itdirectory_get_directorytype.htm
 tech.root: Tapi
 ms.assetid: 3f0ca4c2-4ba9-4a6e-877b-36486086368f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITDirectory interface [TAPI 2.2],get_DirectoryType method, ITDirectory.get_DirectoryType, ITDirectory::get_DirectoryType, _tapi3_itdirectory_get_directorytype, get_DirectoryType, get_DirectoryType method [TAPI 2.2], get_DirectoryType method [TAPI 2.2],ITDirectory interface, rend/ITDirectory::get_DirectoryType, tapi3.itdirectory_get_directorytype
 ms.topic: method
 req.header: rend.h

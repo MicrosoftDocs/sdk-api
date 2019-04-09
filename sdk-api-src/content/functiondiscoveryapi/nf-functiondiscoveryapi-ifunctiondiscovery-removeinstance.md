@@ -7,7 +7,7 @@ old-location: ncd\ifunctiondiscovery_removeinstance_method.htm
 tech.root: FunDisc
 ms.assetid: 743ec310-ea35-4c4b-92f0-bbfe0a2f6f30
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFunctionDiscovery interface,RemoveInstance method, IFunctionDiscovery.RemoveInstance, IFunctionDiscovery::RemoveInstance, RemoveInstance, RemoveInstance method, RemoveInstance method,IFunctionDiscovery interface, functiondiscoveryapi/IFunctionDiscovery::RemoveInstance, ncd.ifunctiondiscovery_removeinstance_method
 ms.topic: method
 req.header: functiondiscoveryapi.h

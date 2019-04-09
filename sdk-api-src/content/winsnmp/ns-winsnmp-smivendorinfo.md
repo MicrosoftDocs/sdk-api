@@ -7,7 +7,7 @@ old-location: snmp\smivendorinfo_str.htm
 tech.root: SNMP
 ms.assetid: 78b7b736-f68a-456a-9178-9a5b40e3bc8d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*smiLPVENDORINFO, _snmp_smivendorinfo_str, smiLPVENDORINFO, smiLPVENDORINFO structure pointer [SNMP], smiVENDORINFO, smiVENDORINFO structure [SNMP], snmp.smivendorinfo_str, winsnmp/smiLPVENDORINFO, winsnmp/smiVENDORINFO"
 ms.topic: struct
 req.header: winsnmp.h

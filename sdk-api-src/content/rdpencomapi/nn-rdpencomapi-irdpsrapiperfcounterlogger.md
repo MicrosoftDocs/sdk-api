@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiperfcounterlogger.htm
 tech.root: rdp
 ms.assetid: EAAA22B1-5D8A-4ED8-813B-58671B0EF7AA
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIPerfCounterLogger, IRDPSRAPIPerfCounterLogger class [RDP], IRDPSRAPIPerfCounterLogger class [RDP],described, rdp.irdpsrapiperfcounterlogger, rdpencomapi/IRDPSRAPIPerfCounterLogger
 ms.topic: interface
 req.header: rdpencomapi.h

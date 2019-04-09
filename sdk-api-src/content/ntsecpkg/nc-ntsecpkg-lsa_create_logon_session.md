@@ -7,7 +7,7 @@ old-location: security\createlogonsession.htm
 tech.root: SecAuthN
 ms.assetid: 383c935c-a1f2-4d1b-bb02-e7e37f154771
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateLogonSession, CreateLogonSession callback function [Security], LSA_CREATE_LOGON_SESSION, LSA_CREATE_LOGON_SESSION callback, _lsa_createlogonsession, ntsecpkg/CreateLogonSession, security.createlogonsession
 ms.topic: callback
 req.header: ntsecpkg.h

@@ -7,7 +7,7 @@ old-location: base\setthreadinformation.htm
 tech.root: ProcThread
 ms.assetid: c0159bea-870a-46b7-a350-91fe52efae49
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SetThreadInformation, SetThreadInformation function, base.setthreadinformation, processthreadsapi/SetThreadInformation
 ms.topic: function
 req.header: processthreadsapi.h

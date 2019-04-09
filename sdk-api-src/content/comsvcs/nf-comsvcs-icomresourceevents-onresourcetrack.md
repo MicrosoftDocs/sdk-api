@@ -7,7 +7,7 @@ old-location: cos\icomresourceevents_onresourcetrack.htm
 tech.root: cossdk
 ms.assetid: 8845cf07-f796-45bd-9d3d-261cf0903050
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IComResourceEvents interface [COM+],OnResourceTrack method, IComResourceEvents.OnResourceTrack, IComResourceEvents::OnResourceTrack, OnResourceTrack, OnResourceTrack method [COM+], OnResourceTrack method [COM+],IComResourceEvents interface, _dtc_IComResourceEvents_OnResourceTrack, comsvcs/IComResourceEvents::OnResourceTrack, cos.icomresourceevents_onresourcetrack
 ms.topic: method
 req.header: comsvcs.h

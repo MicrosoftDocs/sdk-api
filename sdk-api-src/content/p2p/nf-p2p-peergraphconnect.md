@@ -7,7 +7,7 @@ old-location: p2p\peergraphconnect.htm
 tech.root: P2PSdk
 ms.assetid: 76a2c54d-4424-4aa3-9b62-3ebe88b63c9f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PeerGraphConnect, PeerGraphConnect function [Peer Networking], p2p.peergraphconnect, p2p/PeerGraphConnect
 ms.topic: function
 req.header: p2p.h

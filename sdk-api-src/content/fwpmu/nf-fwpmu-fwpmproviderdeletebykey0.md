@@ -7,7 +7,7 @@ old-location: fwp\fwpmproviderdeletebykey0_func.htm
 tech.root: fwp
 ms.assetid: fe4e8d34-b0fc-4c93-bbde-83cd38625930
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FwpmProviderDeleteByKey0, FwpmProviderDeleteByKey0 function [Filtering], fwp.fwpmproviderdeletebykey0_func, fwpmu/FwpmProviderDeleteByKey0
 ms.topic: function
 req.header: fwpmu.h

@@ -7,7 +7,7 @@ old-location: nwifi\idot11adhocnetwork_getsignature.htm
 tech.root: NativeWiFi
 ms.assetid: 0a59a8bd-d2eb-48c6-8480-dc4dea335d22
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetSignature, GetSignature method [NativeWIFI], GetSignature method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetSignature method, IDot11AdHocNetwork.GetSignature, IDot11AdHocNetwork::GetSignature, adhoc/IDot11AdHocNetwork::GetSignature, nwifi.idot11adhocnetwork_getsignature
 ms.topic: method
 req.header: adhoc.h

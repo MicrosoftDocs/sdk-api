@@ -7,7 +7,7 @@ old-location: security\iazapplication3_deletescope2.htm
 tech.root: SecAuthZ
 ms.assetid: f42f9288-896b-4034-a16c-3d555acea453
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DeleteScope2, DeleteScope2 method [Security], DeleteScope2 method [Security],IAzApplication3 interface, IAzApplication3 interface [Security],DeleteScope2 method, IAzApplication3.DeleteScope2, IAzApplication3::DeleteScope2, azroles/IAzApplication3::DeleteScope2, security.iazapplication3_deletescope2
 ms.topic: method
 req.header: azroles.h

@@ -7,7 +7,7 @@ old-location: wsw\wswritebody.htm
 tech.root: wsw
 ms.assetid: 70ff43f5-6f1a-4bbb-aa39-6fb9476e6a37
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WsWriteBody, WsWriteBody function [Web Services for Windows], webservices/WsWriteBody, wsw.wswritebody
 ms.topic: function
 req.header: webservices.h

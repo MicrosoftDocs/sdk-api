@@ -7,7 +7,7 @@ old-location: security\iazapplicationgroup_addappmember.htm
 tech.root: SecAuthZ
 ms.assetid: 35b6c928-0c11-420d-8ba7-f28b0c67f55d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AddAppMember, AddAppMember method [Security], AddAppMember method [Security],AzApplicationGroup object, AddAppMember method [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AddAppMember method, IAzApplicationGroup interface [Security],AddAppMember method, IAzApplicationGroup.AddAppMember, IAzApplicationGroup::AddAppMember, azroles/IAzApplicationGroup::AddAppMember, security.iazapplicationgroup_addappmember
 ms.topic: method
 req.header: azroles.h

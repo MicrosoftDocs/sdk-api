@@ -7,7 +7,7 @@ old-location: mstv\imsviddevice_get_category.htm
 tech.root: mstv
 ms.assetid: 369080c6-b707-494e-a663-e78e7d8d3eaf
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get_Category method, IMSVidDevice.get_Category, IMSVidDevice::get_Category, IMSVidDeviceget_Category, get_Category, get_Category method [Microsoft TV Technologies], get_Category method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get_category, segment/IMSVidDevice::get_Category
 ms.topic: method
 req.header: segment.h

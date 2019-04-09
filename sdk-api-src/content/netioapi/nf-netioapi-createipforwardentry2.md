@@ -7,7 +7,7 @@ old-location: iphlp\createipforwardentry2.htm
 tech.root: IpHlp
 ms.assetid: d2d065d3-daad-4167-8b87-4229199ee76a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateIpForwardEntry2, CreateIpForwardEntry2 function [IP Helper], iphlp.createipforwardentry2, netioapi/CreateIpForwardEntry2
 ms.topic: function
 req.header: netioapi.h

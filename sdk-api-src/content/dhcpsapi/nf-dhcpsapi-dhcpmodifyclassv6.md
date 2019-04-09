@@ -7,7 +7,7 @@ old-location: dhcp\dhcpmodifyclassv6.htm
 tech.root: DHCP
 ms.assetid: d98ea14e-d61a-4d1b-bd7f-9d8fdf81d092
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DhcpModifyClassV6, DhcpModifyClassV6 function [DHCP], dhcp.dhcpmodifyclassv6, dhcpsapi/DhcpModifyClassV6
 ms.topic: function
 req.header: dhcpsapi.h

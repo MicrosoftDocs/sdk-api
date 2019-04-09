@@ -7,7 +7,7 @@ old-location: base\iswindowsvistasp1orgreater.htm
 tech.root: SysInfo
 ms.assetid: 7E74A761-E336-4618-B92F-166C3DF1FF66
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IsWindowsVistaSP1OrGreater, IsWindowsVistaSP1OrGreater function, base.iswindowsvistasp1orgreater, versionhelpers/IsWindowsVistaSP1OrGreater
 ms.topic: function
 req.header: versionhelpers.h

@@ -7,7 +7,7 @@ old-location: wmformat\iwmdeviceregistration_unregisterdevice.htm
 tech.root: wmformat
 ms.assetid: 5cb1282a-5744-4264-8f73-ecad2854a125
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMDeviceRegistration interface [windows Media Format],UnregisterDevice method, IWMDeviceRegistration.UnregisterDevice, IWMDeviceRegistration::UnregisterDevice, IWMDeviceRegistrationUnregisterDevice, UnregisterDevice, UnregisterDevice method [windows Media Format], UnregisterDevice method [windows Media Format],IWMDeviceRegistration interface, wmformat.iwmdeviceregistration_unregisterdevice, wmsdkidl/IWMDeviceRegistration::UnregisterDevice
 ms.topic: method
 req.header: wmsdkidl.h

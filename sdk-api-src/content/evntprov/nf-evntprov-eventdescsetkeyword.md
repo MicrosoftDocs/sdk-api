@@ -7,7 +7,7 @@ old-location: etw\eventdescsetkeyword_func.htm
 tech.root: ETW
 ms.assetid: b1870a89-2e15-42b6-8441-82e6f9165540
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EventDescSetKeyword, EventDescSetKeyword function [ETW], base.eventdescsetkeyword_func, etw.eventdescsetkeyword_func, evntprov/EventDescSetKeyword
 ms.topic: function
 req.header: evntprov.h

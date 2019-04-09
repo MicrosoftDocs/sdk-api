@@ -7,7 +7,7 @@ old-location: base\ivsssoftwaresnapshotprovider_queryrevertstatus.htm
 tech.root: VSS
 ms.assetid: 05c70761-d839-4333-a5d6-6bd8b95851bb
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVssSoftwareSnapshotProvider interface,QueryRevertStatus method, IVssSoftwareSnapshotProvider.QueryRevertStatus, IVssSoftwareSnapshotProvider::QueryRevertStatus, QueryRevertStatus, QueryRevertStatus method, QueryRevertStatus method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_queryrevertstatus, vsprov/IVssSoftwareSnapshotProvider::QueryRevertStatus
 ms.topic: method
 req.header: vsprov.h

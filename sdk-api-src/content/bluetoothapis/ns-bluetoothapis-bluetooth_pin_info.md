@@ -7,7 +7,7 @@ old-location: bluetooth\bluetooth_pin_info.htm
 tech.root: bluetooth
 ms.assetid: 9fae3b95-eeed-4f06-af27-762b8de615ed
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PBLUETOOTH_PIN_INFO, BLUETOOTH_PIN_INFO, BLUETOOTH_PIN_INFO structure [Bluetooth], PBLUETOOTH_PIN_INFO, PBLUETOOTH_PIN_INFO structure pointer [Bluetooth], bluetooth.bluetooth_pin_info, bluetoothapis/BLUETOOTH_PIN_INFO, bluetoothapis/PBLUETOOTH_PIN_INFO"
 ms.topic: struct
 req.header: bluetoothapis.h

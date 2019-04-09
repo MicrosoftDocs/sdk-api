@@ -7,7 +7,7 @@ old-location: dxmath\xmvectoratan.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorATan(XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorATan, XMVectorATan, XMVectorATan method [DirectX Math Support APIs], dxmath.xmvectoratan
 ms.topic: function
 req.header: directxmath.h

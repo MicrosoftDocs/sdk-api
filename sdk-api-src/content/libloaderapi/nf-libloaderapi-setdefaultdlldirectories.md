@@ -7,7 +7,7 @@ old-location: base\setdefaultdlldirectories.htm
 tech.root: Dlls
 ms.assetid: 66884797-b1c8-4e50-aef1-e88944766d50
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: LOAD_LIBRARY_SEARCH_APPLICATION_DIR, LOAD_LIBRARY_SEARCH_DEFAULT_DIRS, LOAD_LIBRARY_SEARCH_SYSTEM32, LOAD_LIBRARY_SEARCH_USER_DIRS, SetDefaultDllDirectories, SetDefaultDllDirectories function, base.setdefaultdlldirectories, libloaderapi/SetDefaultDllDirectories
 ms.topic: function
 req.header: libloaderapi.h

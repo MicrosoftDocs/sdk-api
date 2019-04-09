@@ -7,7 +7,7 @@ old-location: dxmath\xmbyten4_operator_eq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMBYTEN4.operator = (const XMBYTEN4)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMBYTEN4.operator =, DirectX::PackedVector::XMBYTEN4::operator =, XMBYTEN4 structure [DirectX Math Support APIs],operator = method, XMBYTEN4.operator =, XMBYTEN4.operator-assign, XMBYTEN4.operator=, XMBYTEN4::operator-assign, XMBYTEN4::operator=, dxmath.xmbyten4_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMBYTEN4 structure, operator=
 ms.topic: method
 req.header: directxpackedvector.h

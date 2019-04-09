@@ -7,7 +7,7 @@ old-location: multimedia\midistrmbuffver.htm
 tech.root: Multimedia
 ms.assetid: 15ab90b0-2ef2-45c8-b1a8-aa52a549c772
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MIDISTRMBUFFVER, MIDISTRMBUFFVER structure [Windows Multimedia], _win32_MIDISTRMBUFFVER_str, midistrmbuffver_tag, mmeapi/MIDISTRMBUFFVER, multimedia.midistrmbuffver
 ms.topic: struct
 req.header: mmeapi.h

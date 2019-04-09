@@ -7,7 +7,7 @@ old-location: controls\edit_setextendedstyle.htm
 tech.root: Controls
 ms.assetid: 4ECAA174-A9C5-4A01-9341-CF6C8777E0F5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Edit_SetExtendedStyle, Edit_SetExtendedStyle macro [Windows Controls], commctrl/Edit_SetExtendedStyle, controls.edit_setextendedstyle
 ms.topic: macro
 req.header: commctrl.h

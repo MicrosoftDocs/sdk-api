@@ -7,7 +7,7 @@ old-location: adsi\iadsservice.htm
 tech.root: adsi
 ms.assetid: b59a6594-1109-4913-8a83-4888e56e71d0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IADsService, IADsService interface [ADSI], IADsService interface [ADSI],described, _ds_iadsservice, adsi.iadsservice, iads/IADsService
 ms.topic: interface
 req.header: iads.h

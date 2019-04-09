@@ -7,7 +7,7 @@ old-location: setup\msiqueryproductstate.htm
 tech.root: Msi
 ms.assetid: f26f3229-d1ce-4802-99b1-857c6501c828
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MsiQueryProductState, MsiQueryProductState function, MsiQueryProductStateA, MsiQueryProductStateW, _msi_msiqueryproductstate, msi/MsiQueryProductState, msi/MsiQueryProductStateA, msi/MsiQueryProductStateW, setup.msiqueryproductstate
 ms.topic: function
 req.header: msi.h

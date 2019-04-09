@@ -7,7 +7,7 @@ old-location: mstv\ienumtuningspaces_skip.htm
 tech.root: mstv
 ms.assetid: 5449fca0-4b8d-402e-b444-e7bc314e47b3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEnumTuningSpaces interface [Microsoft TV Technologies],Skip method, IEnumTuningSpaces.Skip, IEnumTuningSpaces::Skip, IEnumTuningSpacesSkip, Skip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies],IEnumTuningSpaces interface, mstv.ienumtuningspaces_skip, tuner/IEnumTuningSpaces::Skip
 ms.topic: method
 req.header: tuner.h

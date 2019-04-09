@@ -7,7 +7,7 @@ old-location: controls\itextrow_setcellcolorfore.htm
 tech.root: Controls
 ms.assetid: 2eff9f39-b79d-4fcb-b8ee-ef067cff2c78
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellColorFore method, ITextRow.SetCellColorFore, ITextRow::SetCellColorFore, SetCellColorFore, SetCellColorFore method [Windows Controls], SetCellColorFore method [Windows Controls],ITextRow interface, controls.itextrow_setcellcolorfore, tom/ITextRow::SetCellColorFore
 ms.topic: method
 req.header: tom.h

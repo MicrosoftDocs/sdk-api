@@ -7,7 +7,7 @@ old-location: netmgmt\user_info_1020_str.htm
 tech.root: NetMgmt
 ms.assetid: 959ed1f4-d5ee-4d77-abd7-bb681778f0b1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPUSER_INFO_1020, *PUSER_INFO_1020, LPUSER_INFO_1020, LPUSER_INFO_1020 structure pointer [Network Management], PUSER_INFO_1020, PUSER_INFO_1020 structure pointer [Network Management], USER_INFO_1020, USER_INFO_1020 structure [Network Management], _win32_user_info_1020_str, lmaccess/LPUSER_INFO_1020, lmaccess/PUSER_INFO_1020, lmaccess/USER_INFO_1020, netmgmt.user_info_1020_str"
 ms.topic: struct
 req.header: lmaccess.h

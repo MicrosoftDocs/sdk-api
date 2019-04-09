@@ -7,7 +7,7 @@ old-location: base\raiseexception.htm
 tech.root: Debug
 ms.assetid: 47c3c85e-15ca-4645-89c1-bbfd3bbd58e5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RaiseException, RaiseException function, _win32_raiseexception, base.raiseexception, errhandlingapi/RaiseException
 ms.topic: function
 req.header: errhandlingapi.h

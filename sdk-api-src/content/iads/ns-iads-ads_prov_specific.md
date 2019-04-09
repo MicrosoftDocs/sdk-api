@@ -7,7 +7,7 @@ old-location: adsi\ads_prov_specific.htm
 tech.root: adsi
 ms.assetid: 45927280-7fb5-49a6-8ecd-f0a6931bed6a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PADS_PROV_SPECIFIC, ADS_PROV_SPECIFIC, ADS_PROV_SPECIFIC structure [ADSI], PADS_PROV_SPECIFIC, PADS_PROV_SPECIFIC structure pointer [ADSI], _ds_ads_prov_specific, adsi.ads__prov__specific, adsi.ads_prov_specific, iads/ADS_PROV_SPECIFIC, iads/PADS_PROV_SPECIFIC"
 ms.topic: struct
 req.header: iads.h

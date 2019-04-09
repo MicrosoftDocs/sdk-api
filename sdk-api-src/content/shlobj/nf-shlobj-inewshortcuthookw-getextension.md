@@ -7,7 +7,7 @@ old-location: shell\INewShortcutHook_GetExtension.htm
 tech.root: shell
 ms.assetid: ccb54291-7c87-4783-af25-549704371878
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetExtension, GetExtension method [Windows Shell], GetExtension method [Windows Shell],INewShortcutHook interface, INewShortcutHook interface [Windows Shell],GetExtension method, INewShortcutHook::GetExtension, INewShortcutHookA, INewShortcutHookA::GetExtension, INewShortcutHookW, INewShortcutHookW.GetExtension, INewShortcutHookW::GetExtension, _win32_INewShortcutHook_GetExtension, shell.INewShortcutHook_GetExtension, shlobj/INewShortcutHook::GetExtension
 ms.topic: method
 req.header: shlobj.h

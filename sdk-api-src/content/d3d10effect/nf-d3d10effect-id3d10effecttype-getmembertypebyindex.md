@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effecttype_getmembertypebyindex.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effecttype_getmembertypebyindex.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 7362d2fb-1fd6-ee03-e201-58defbf1d468, GetMemberTypeByIndex, GetMemberTypeByIndex method [Direct3D 10], GetMemberTypeByIndex method [Direct3D 10],ID3D10EffectType interface, ID3D10EffectType interface [Direct3D 10],GetMemberTypeByIndex method, ID3D10EffectType.GetMemberTypeByIndex, ID3D10EffectType::GetMemberTypeByIndex, d3d10effect/ID3D10EffectType::GetMemberTypeByIndex, direct3d10.id3d10effecttype_getmembertypebyindex
 ms.topic: method
 req.header: d3d10effect.h

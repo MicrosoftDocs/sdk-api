@@ -7,7 +7,7 @@ old-location: mf\imfpmediaitem.htm
 tech.root: medfound
 ms.assetid: 2839d256-bdaf-40cf-9f9d-46f9e2ce59e8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMFPMediaItem, IMFPMediaItem interface [Media Foundation], IMFPMediaItem interface [Media Foundation],described, mf.imfpmediaitem, mfplay/IMFPMediaItem
 ms.topic: interface
 req.header: mfplay.h

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxactivitylogging_cpp_mfax_faxactivitylogging_logoutgoi
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5xt3.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFaxActivityLogging interface [Fax Service],LogOutgoing property, IFaxActivityLogging.LogOutgoing, IFaxActivityLogging.get_LogOutgoing, IFaxActivityLogging.put_LogOutgoing, IFaxActivityLogging::LogOutgoing, IFaxActivityLogging::get_LogOutgoing, IFaxActivityLogging::put_LogOutgoing, LogOutgoing property [Fax Service], LogOutgoing property [Fax Service],IFaxActivityLogging interface, _mfax_faxactivitylogging.logoutgoing, fax._mfax_faxactivitylogging_cpp_mfax_faxactivitylogging_logoutgoing_cpp, fax._mfax_faxactivitylogging_logoutgoing, faxcomex/IFaxActivityLogging::LogOutgoing, faxcomex/IFaxActivityLogging::get_LogOutgoing, faxcomex/IFaxActivityLogging::put_LogOutgoing, put_LogOutgoing
 ms.topic: method
 req.header: faxcomex.h

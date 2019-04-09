@@ -7,7 +7,7 @@ old-location: dshow\igraphconfig_addfiltertocache.htm
 tech.root: DirectShow
 ms.assetid: 8d5c6d55-1628-462b-828a-50541b6da3e7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AddFilterToCache, AddFilterToCache method [DirectShow], AddFilterToCache method [DirectShow],IGraphConfig interface, IGraphConfig interface [DirectShow],AddFilterToCache method, IGraphConfig.AddFilterToCache, IGraphConfig::AddFilterToCache, IGraphConfigAddFilterToCache, dshow.igraphconfig_addfiltertocache, strmif/IGraphConfig::AddFilterToCache
 ms.topic: method
 req.header: strmif.h

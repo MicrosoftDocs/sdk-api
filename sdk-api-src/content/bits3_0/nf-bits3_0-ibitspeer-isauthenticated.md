@@ -7,7 +7,7 @@ old-location: bits\ibitspeer_isauthenticated.htm
 tech.root: Bits
 ms.assetid: 64718331-32a9-40ba-90f2-9dd9d8fea3e4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IBitsPeer interface [BITS],IsAuthenticated method, IBitsPeer.IsAuthenticated, IBitsPeer::IsAuthenticated, IsAuthenticated, IsAuthenticated method [BITS], IsAuthenticated method [BITS],IBitsPeer interface, bits.ibitspeer_isauthenticated, bits3_0/IBitsPeer::IsAuthenticated
 ms.topic: method
 req.header: bits3_0.h

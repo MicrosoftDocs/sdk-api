@@ -7,7 +7,7 @@ old-location: security\bcryptgeneratesymmetrickey_func.htm
 tech.root: SecCNG
 ms.assetid: c55d714f-f47e-4ddf-97b9-985c0441bb2d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BCryptGenerateSymmetricKey, BCryptGenerateSymmetricKey function [Security], bcrypt/BCryptGenerateSymmetricKey, security.bcryptgeneratesymmetrickey_func
 ms.topic: function
 req.header: bcrypt.h

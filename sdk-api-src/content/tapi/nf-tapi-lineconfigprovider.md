@@ -7,7 +7,7 @@ old-location: tapi2\lineconfigprovider.htm
 tech.root: Tapi
 ms.assetid: 3149b353-6380-4fa9-a6ef-cf4566aaff58
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_tapi2_lineconfigprovider, lineConfigProvider, lineConfigProvider function [TAPI 2.2], tapi/lineConfigProvider, tapi2.lineconfigprovider"
 ms.topic: function
 req.header: tapi.h

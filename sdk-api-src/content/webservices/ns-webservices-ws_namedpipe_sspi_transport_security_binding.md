@@ -7,7 +7,7 @@ old-location: wsw\ws_namedpipe_sspi_transport_security_binding.htm
 tech.root: wsw
 ms.assetid: 02FCD206-23BC-4ED0-9E4A-76AB0926FD7C
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING, WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING structure [Web Services for Windows], webservices/WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING, wsw.ws_namedpipe_sspi_transport_security_binding
 ms.topic: struct
 req.header: webservices.h

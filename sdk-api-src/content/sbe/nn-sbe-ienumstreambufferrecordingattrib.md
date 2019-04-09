@@ -7,7 +7,7 @@ old-location: mstv\ienumstreambufferrecordingattrib.htm
 tech.root: mstv
 ms.assetid: 668d2e04-74fa-41d7-b238-ec737a4441ca
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEnumStreamBufferRecordingAttrib, IEnumStreamBufferRecordingAttrib interface [Microsoft TV Technologies], IEnumStreamBufferRecordingAttrib interface [Microsoft TV Technologies],described, IEnumStreamBufferRecordingAttribInterface, mstv.ienumstreambufferrecordingattrib, sbe/IEnumStreamBufferRecordingAttrib
 ms.topic: interface
 req.header: sbe.h

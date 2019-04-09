@@ -7,7 +7,7 @@ old-location: wmformat\iwmsecurechannel_wmsc_encrypt.htm
 tech.root: wmformat
 ms.assetid: fdb90fbc-9504-4b72-83ab-b410c3bd2e1e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_Encrypt method, IWMSecureChannel.WMSC_Encrypt, IWMSecureChannel::WMSC_Encrypt, WMSC_Encrypt, WMSC_Encrypt method [windows Media Format], WMSC_Encrypt method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_encrypt, wmsecure/IWMSecureChannel::WMSC_Encrypt
 ms.topic: method
 req.header: wmsecure.h

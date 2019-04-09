@@ -7,7 +7,7 @@ old-location: wmi\iwbemobjectsinkex_writemessage.htm
 tech.root: WmiSdk
 ms.assetid: 7b9df753-9148-4578-8265-2cb85526bdc9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWbemObjectSinkEx interface [Windows Management Instrumentation],WriteMessage method, IWbemObjectSinkEx.WriteMessage, IWbemObjectSinkEx::WriteMessage, WriteMessage, WriteMessage method [Windows Management Instrumentation], WriteMessage method [Windows Management Instrumentation],IWbemObjectSinkEx interface, wbemcli/IWbemObjectSinkEx::WriteMessage, wmi.iwbemobjectsinkex_writemessage
 ms.topic: method
 req.header: wbemcli.h

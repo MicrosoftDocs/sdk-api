@@ -7,7 +7,7 @@ old-location: security\iazscope2_deleteroledefinition.htm
 tech.root: SecAuthZ
 ms.assetid: 12eddceb-15e2-4c9a-8372-749b0eccdd79
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DeleteRoleDefinition, DeleteRoleDefinition method [Security], DeleteRoleDefinition method [Security],IAzScope2 interface, IAzScope2 interface [Security],DeleteRoleDefinition method, IAzScope2.DeleteRoleDefinition, IAzScope2::DeleteRoleDefinition, azroles/IAzScope2::DeleteRoleDefinition, security.iazscope2_deleteroledefinition
 ms.topic: method
 req.header: azroles.h

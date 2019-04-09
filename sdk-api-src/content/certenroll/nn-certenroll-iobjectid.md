@@ -7,7 +7,7 @@ old-location: security\iobjectid.htm
 tech.root: seccertenroll
 ms.assetid: bc6608e3-cae7-4992-b599-06bc04cc8ad7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IObjectId, IObjectId interface [Security], IObjectId interface [Security],described, certenroll/IObjectId, security.iobjectid
 ms.topic: interface
 req.header: certenroll.h

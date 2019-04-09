@@ -7,7 +7,7 @@ old-location: direct2d\id2d1imagesourcefromwic_trimcache.htm
 tech.root: Direct2D
 ms.assetid: 8C6A42BB-D7CA-4766-BE59-B9F8150C0AC1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ID2D1ImageSourceFromWic interface [Direct2D],TrimCache method, ID2D1ImageSourceFromWic.TrimCache, ID2D1ImageSourceFromWic::TrimCache, ID2D1ImageSourceFromWic::TrimCache(const D2D1_RECT_U), TrimCache, TrimCache method [Direct2D], TrimCache method [Direct2D],ID2D1ImageSourceFromWic interface, d2d1_3/ID2D1ImageSourceFromWic::TrimCache, direct2d.id2d1imagesourcefromwic_trimcache
 ms.topic: method
 req.header: d2d1_3.h

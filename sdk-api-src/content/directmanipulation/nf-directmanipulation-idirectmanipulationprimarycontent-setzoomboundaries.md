@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationprimarycontent_setzoombounda
 tech.root: directmanipulation
 ms.assetid: 77e4054b-637f-4cff-bfab-0e2a0e992c59
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],SetZoomBoundaries method, IDirectManipulationPrimaryContent.SetZoomBoundaries, IDirectManipulationPrimaryContent::SetZoomBoundaries, SetZoomBoundaries, SetZoomBoundaries method [Direct Manipulation], SetZoomBoundaries method [Direct Manipulation],IDirectManipulationPrimaryContent interface, directmanipulation.idirectmanipulationprimarycontent_setzoomboundaries, directmanipulation/IDirectManipulationPrimaryContent::SetZoomBoundaries
 ms.topic: method
 req.header: directmanipulation.h

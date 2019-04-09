@@ -7,7 +7,7 @@ old-location: direct2d\id2d1ink_getsegments.htm
 tech.root: Direct2D
 ms.assetid: 3B6E2823-6F66-4C2F-B8EA-94B03F19DFCD
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetSegments, GetSegments method [Direct2D], GetSegments method [Direct2D],ID2D1Ink interface, ID2D1Ink interface [Direct2D],GetSegments method, ID2D1Ink.GetSegments, ID2D1Ink::GetSegments, d2d1_3/ID2D1Ink::GetSegments, direct2d.id2d1ink_getsegments
 ms.topic: method
 req.header: d2d1_3.h

@@ -7,7 +7,7 @@ old-location: wininet\internetgetcookieex.htm
 tech.root: wininet
 ms.assetid: 5006f009-e217-4fdc-9e4e-800ff5fcbf03
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: INTERNET_COOKIE_HTTPONLY, INTERNET_COOKIE_THIRD_PARTY, INTERNET_FLAG_RESTRICTED_ZONE, InternetGetCookieEx, InternetGetCookieEx function [WinINet], InternetGetCookieExA, InternetGetCookieExW, wininet.internetgetcookieex, wininet/InternetGetCookieEx, wininet/InternetGetCookieExA, wininet/InternetGetCookieExW
 ms.topic: function
 req.header: wininet.h

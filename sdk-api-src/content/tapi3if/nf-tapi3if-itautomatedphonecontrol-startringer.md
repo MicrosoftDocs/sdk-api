@@ -7,7 +7,7 @@ old-location: tapi3\itautomatedphonecontrol_startringer.htm
 tech.root: Tapi
 ms.assetid: bf94aab7-6b12-43f8-b49f-a7cf6617dd57
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],StartRinger method, ITAutomatedPhoneControl.StartRinger, ITAutomatedPhoneControl::StartRinger, StartRinger, StartRinger method [TAPI 2.2], StartRinger method [TAPI 2.2],ITAutomatedPhoneControl interface, _tapi3_itautomatedphonecontrol_startringer, tapi3.itautomatedphonecontrol_startringer, tapi3if/ITAutomatedPhoneControl::StartRinger
 ms.topic: method
 req.header: tapi3if.h

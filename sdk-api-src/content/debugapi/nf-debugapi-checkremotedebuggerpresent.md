@@ -7,7 +7,7 @@ old-location: base\checkremotedebuggerpresent.htm
 tech.root: Debug
 ms.assetid: e7eb2d48-4ef3-4708-8895-2bc33d2c3e91
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CheckRemoteDebuggerPresent, CheckRemoteDebuggerPresent function, base.checkremotedebuggerpresent, debugapi/CheckRemoteDebuggerPresent
 ms.topic: function
 req.header: debugapi.h

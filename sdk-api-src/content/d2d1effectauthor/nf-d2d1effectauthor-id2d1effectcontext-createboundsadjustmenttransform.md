@@ -7,7 +7,7 @@ old-location: direct2d\id2d1effectcontext_createboundsadjustment.htm
 tech.root: Direct2D
 ms.assetid: 6B6820E5-792F-447C-81C9-493FA572F61A
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateBoundsAdjustmentTransform, CreateBoundsAdjustmentTransform method [Direct2D], CreateBoundsAdjustmentTransform method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],CreateBoundsAdjustmentTransform method, ID2D1EffectContext.CreateBoundsAdjustmentTransform, ID2D1EffectContext::CreateBoundsAdjustmentTransform, d2d1effectauthor/ID2D1EffectContext::CreateBoundsAdjustmentTransform, direct2d.id2d1effectcontext_createboundsadjustment
 ms.topic: method
 req.header: d2d1effectauthor.h

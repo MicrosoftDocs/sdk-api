@@ -7,7 +7,7 @@ old-location: dxmath\xmshort2.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMSHORT2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: XMSHORT2, XMSHORT2 structure [DirectX Math Support APIs], directxpackedvector/XMSHORT2, dxmath.xmshort2
 ms.topic: struct
 req.header: directxpackedvector.h

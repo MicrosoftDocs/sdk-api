@@ -7,7 +7,7 @@ old-location: mstv\ienumcomponents.htm
 tech.root: mstv
 ms.assetid: 8811021c-8c14-4be6-8802-76b942bb34d8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEnumComponents, IEnumComponents interface [Microsoft TV Technologies], IEnumComponents interface [Microsoft TV Technologies],described, IEnumComponentsInterface, mstv.ienumcomponents, tuner/IEnumComponents
 ms.topic: interface
 req.header: tuner.h

@@ -7,7 +7,7 @@ old-location: shell\IApplicationDestinations_SetAppID.htm
 tech.root: shell
 ms.assetid: d1cb0646-f028-48e4-b40d-f90a08152513
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IApplicationDestinations interface [Windows Shell],SetAppID method, IApplicationDestinations.SetAppID, IApplicationDestinations::SetAppID, SetAppID, SetAppID method [Windows Shell], SetAppID method [Windows Shell],IApplicationDestinations interface, _shell_IApplicationDestinations_SetAppID, shell.IApplicationDestinations_SetAppID, shobjidl_core/IApplicationDestinations::SetAppID
 ms.topic: method
 req.header: shobjidl_core.h

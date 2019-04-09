@@ -7,7 +7,7 @@ old-location: wmi\iwbemclassobject_beginmethodenumeration.htm
 tech.root: WmiSdk
 ms.assetid: 3d8656d7-37e5-4921-906e-c82f8878cd90
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BeginMethodEnumeration, BeginMethodEnumeration method [Windows Management Instrumentation], BeginMethodEnumeration method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],BeginMethodEnumeration method, IWbemClassObject.BeginMethodEnumeration, IWbemClassObject::BeginMethodEnumeration, WBEM_FLAG_LOCAL_ONLY, WBEM_FLAG_PROPAGATED_ONLY, _hmm_iwbemclassobject_beginmethodenumeration, wbemcli/IWbemClassObject::BeginMethodEnumeration, wmi.iwbemclassobject_beginmethodenumeration
 ms.topic: method
 req.header: wbemcli.h

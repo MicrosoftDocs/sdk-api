@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxjobstatus_cpp_mfax_faxjobstatus_jobtype_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_8nol.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFaxJobStatus interface [Fax Service],JobType property, IFaxJobStatus.JobType, IFaxJobStatus.get_JobType, IFaxJobStatus::JobType, IFaxJobStatus::get_JobType, JobType property [Fax Service], JobType property [Fax Service],IFaxJobStatus interface, _mfax_faxjobstatus.jobtype, fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_jobtype_cpp, fax._mfax_faxjobstatus_jobtype, faxcomex/IFaxJobStatus::JobType, faxcomex/IFaxJobStatus::get_JobType, get_JobType
 ms.topic: method
 req.header: faxcomex.h

@@ -7,7 +7,7 @@ old-location: shell\IEnumerableView.htm
 tech.root: shell
 ms.assetid: 6e096f7b-b40b-45ea-a348-ddfedf5913f8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEnumerableView, IEnumerableView interface [Windows Shell], IEnumerableView interface [Windows Shell],described, _shell_IEnumerableView, shell.IEnumerableView, shobjidl/IEnumerableView
 ms.topic: interface
 req.header: shobjidl.h

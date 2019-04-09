@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Rect_Rect_location_size_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectconstructors\rect_65location_size.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Rect, Rect class [GDI+],Rect constructor, Rect constructor [GDI+], Rect constructor [GDI+],Rect class, Rect.Rect, Rect.Rect(IN const Point &,IN const Size &), Rect.Rect(const Point&,const Size&), Rect::Rect, Rect::Rect(IN const Point &,IN const Size &), _gdiplus_CLASS_Rect_Rect_location_size_, gdiplus._gdiplus_CLASS_Rect_Rect_location_size_
 ms.topic: method
 req.header: gdiplustypes.h

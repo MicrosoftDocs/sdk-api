@@ -7,7 +7,7 @@ old-location: directwrite\idwriteremotefontfileloader_getlocalityfromkey.htm
 tech.root: DirectWrite
 ms.assetid: 997D8F04-8667-4D90-B097-CD48F979BE02
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetLocalityFromKey, GetLocalityFromKey method [Direct Write], GetLocalityFromKey method [Direct Write],IDWriteRemoteFontFileLoader interface, IDWriteRemoteFontFileLoader interface [Direct Write],GetLocalityFromKey method, IDWriteRemoteFontFileLoader.GetLocalityFromKey, IDWriteRemoteFontFileLoader::GetLocalityFromKey, directwrite.idwriteremotefontfileloader_getlocalityfromkey, dwrite_3/IDWriteRemoteFontFileLoader::GetLocalityFromKey
 ms.topic: method
 req.header: dwrite_3.h

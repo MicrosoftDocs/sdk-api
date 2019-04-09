@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_classft.htm
 tech.root: wmi_v2
 ms.assetid: 464dd009-5d99-483c-9e94-82ab07290189
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_ClassFT, MI_ClassFT structure [Windows Management Infrastructure (MI)], mi/MI_ClassFT, wmi_v2.mi_classft
 ms.topic: struct
 req.header: mi.h

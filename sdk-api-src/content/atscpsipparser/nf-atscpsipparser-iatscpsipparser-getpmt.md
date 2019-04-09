@@ -7,7 +7,7 @@ old-location: mstv\iatscpsipparser_getpmt.htm
 tech.root: mstv
 ms.assetid: cd9a3fb0-4bdc-499b-9db9-85dce50dd24b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetPMT, GetPMT method [Microsoft TV Technologies], GetPMT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetPMT method, IAtscPsipParser.GetPMT, IAtscPsipParser::GetPMT, IAtscPsipParserGetPMT, atscpsipparser/IAtscPsipParser::GetPMT, mstv.iatscpsipparser_getpmt
 ms.topic: method
 req.header: atscpsipparser.h

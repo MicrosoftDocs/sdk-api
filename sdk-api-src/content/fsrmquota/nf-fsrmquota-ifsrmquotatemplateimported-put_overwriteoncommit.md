@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmquotatemplateimported_overwriteoncommit.htm
 tech.root: fsrm
 ms.assetid: fbfa55b5-b179-4ede-b39d-a04c1e6d8c83
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFsrmQuotaTemplateImported interface [File Server Resource Manager],OverwriteOnCommit property, IFsrmQuotaTemplateImported.OverwriteOnCommit, IFsrmQuotaTemplateImported.put_OverwriteOnCommit, IFsrmQuotaTemplateImported::OverwriteOnCommit, IFsrmQuotaTemplateImported::get_OverwriteOnCommit, IFsrmQuotaTemplateImported::put_OverwriteOnCommit, OverwriteOnCommit property [File Server Resource Manager], OverwriteOnCommit property [File Server Resource Manager],IFsrmQuotaTemplateImported interface, fs.ifsrmquotatemplateimported_overwriteoncommit, fsrm.ifsrmquotatemplateimported_overwriteoncommit, fsrmquota/IFsrmQuotaTemplateImported::OverwriteOnCommit, fsrmquota/IFsrmQuotaTemplateImported::get_OverwriteOnCommit, fsrmquota/IFsrmQuotaTemplateImported::put_OverwriteOnCommit, put_OverwriteOnCommit
 ms.topic: method
 req.header: fsrmquota.h

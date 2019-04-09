@@ -7,7 +7,7 @@ old-location: security\slinstalllicense.htm
 tech.root: SecSLApi
 ms.assetid: 39b14ce1-116b-4469-9e95-8cc4db70171a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SLInstallLicense, SLInstallLicense function [Security], security.slinstalllicense, slpublic/SLInstallLicense
 ms.topic: function
 req.header: slpublic.h

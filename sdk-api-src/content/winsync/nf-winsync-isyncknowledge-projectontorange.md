@@ -7,7 +7,7 @@ old-location: winsync\isyncknowledge_projectontorange.htm
 tech.root: winsync
 ms.assetid: fd82e694-088b-4695-9c5d-c9ed2a25c208
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ISyncKnowledge interface [Windows Sync],ProjectOntoRange method, ISyncKnowledge.ProjectOntoRange, ISyncKnowledge::ProjectOntoRange, ProjectOntoRange, ProjectOntoRange method [Windows Sync], ProjectOntoRange method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_projectontorange, winsync/ISyncKnowledge::ProjectOntoRange
 ms.topic: method
 req.header: winsync.h

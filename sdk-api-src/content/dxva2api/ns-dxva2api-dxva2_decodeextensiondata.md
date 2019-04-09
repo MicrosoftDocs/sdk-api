@@ -7,7 +7,7 @@ old-location: mf\dxva2_decodeextensiondata.htm
 tech.root: medfound
 ms.assetid: 2a1b7139-fcbb-40b0-9ed3-f9b1fe482358
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 2a1b7139-fcbb-40b0-9ed3-f9b1fe482358, DXVA2_DecodeExtensionData, DXVA2_DecodeExtensionData structure [Media Foundation], dxva2api/DXVA2_DecodeExtensionData, mf.dxva2_decodeextensiondata
 ms.topic: struct
 req.header: dxva2api.h

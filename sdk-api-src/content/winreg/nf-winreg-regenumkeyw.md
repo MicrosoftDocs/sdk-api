@@ -7,7 +7,7 @@ old-location: base\regenumkey.htm
 tech.root: SysInfo
 ms.assetid: 18a05c60-6c6d-438f-9003-f07d688d86a3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RegEnumKey, RegEnumKey function, RegEnumKeyA, RegEnumKeyW, _win32_regenumkey, base.regenumkey, winreg/RegEnumKey, winreg/RegEnumKeyA, winreg/RegEnumKeyW
 ms.topic: function
 req.header: winreg.h

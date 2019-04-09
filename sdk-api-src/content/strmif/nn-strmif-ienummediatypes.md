@@ -7,7 +7,7 @@ old-location: dshow\ienummediatypes.htm
 tech.root: DirectShow
 ms.assetid: e0021e27-0e08-4d07-9610-08a9b945ae34
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEnumMediaTypes, IEnumMediaTypes interface [DirectShow], IEnumMediaTypes interface [DirectShow],described, IEnumMediaTypesInterface, dshow.ienummediatypes, strmif/IEnumMediaTypes
 ms.topic: interface
 req.header: strmif.h

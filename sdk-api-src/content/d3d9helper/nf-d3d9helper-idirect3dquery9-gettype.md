@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dquery9__gettype.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dquery9__gettype.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 581f12d8-a07f-3bef-8285-25360f8d6b4c, GetType, GetType method [Direct3D 9], GetType method [Direct3D 9],IDirect3DQuery9 interface, IDirect3DQuery9 interface [Direct3D 9],GetType method, IDirect3DQuery9.GetType, IDirect3DQuery9::GetType, d3d9helper/IDirect3DQuery9::GetType, direct3d9.idirect3dquery9__gettype
 ms.topic: method
 req.header: d3d9helper.h

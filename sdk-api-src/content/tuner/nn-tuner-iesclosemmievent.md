@@ -7,7 +7,7 @@ old-location: mstv\iesclosemmievent.htm
 tech.root: mstv
 ms.assetid: c470fefb-61bb-4315-ad56-ef5bc90a4ac7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IESCloseMmiEvent, IESCloseMmiEvent interface [Microsoft TV Technologies], IESCloseMmiEvent interface [Microsoft TV Technologies],described, mstv.iesclosemmievent, tuner/IESCloseMmiEvent
 ms.topic: interface
 req.header: tuner.h

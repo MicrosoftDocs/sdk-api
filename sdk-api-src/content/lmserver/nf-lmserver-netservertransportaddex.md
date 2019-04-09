@@ -7,7 +7,7 @@ old-location: netmgmt\netservertransportaddex.htm
 tech.root: NetMgmt
 ms.assetid: d1edc75d-8313-422c-a6fb-8b51a309a252
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, 3, NetServerTransportAddEx, NetServerTransportAddEx function [Network Management], _win32_netservertransportaddex, lmserver/NetServerTransportAddEx, netmgmt.netservertransportaddex
 ms.topic: function
 req.header: lmserver.h

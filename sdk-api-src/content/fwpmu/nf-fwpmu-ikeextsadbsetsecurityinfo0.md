@@ -7,7 +7,7 @@ old-location: fwp\ikeextsadbsetsecurityinfo0.htm
 tech.root: fwp
 ms.assetid: a1707cc4-7b61-4626-b98b-e9fb853d1ccf
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IkeextSaDbSetSecurityInfo0, IkeextSaDbSetSecurityInfo0 function [Filtering], fwp.ikeextsadbsetsecurityinfo0, fwpmu/IkeextSaDbSetSecurityInfo0
 ms.topic: function
 req.header: fwpmu.h

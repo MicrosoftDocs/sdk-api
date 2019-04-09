@@ -7,7 +7,7 @@ old-location: http\httpcreaterequestqueue.htm
 tech.root: http
 ms.assetid: a0f4112e-db81-4eda-afeb-d00117f7240c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: HTTP_CREATE_REQUEST_QUEUE_FLAG_CONTROLLER, HTTP_CREATE_REQUEST_QUEUE_FLAG_OPEN_EXISTING, HttpCreateRequestQueue, HttpCreateRequestQueue function [HTTP], http.httpcreaterequestqueue, http/HttpCreateRequestQueue
 ms.topic: function
 req.header: http.h

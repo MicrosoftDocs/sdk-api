@@ -7,7 +7,7 @@ old-location: gdi\ellipse.htm
 tech.root: gdi
 ms.assetid: 9bec59dd-6bcb-498e-9ed2-ac641ecd7fa5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Ellipse, Ellipse function [Windows GDI], _win32_Ellipse, gdi.ellipse, wingdi/Ellipse
 ms.topic: function
 req.header: wingdi.h

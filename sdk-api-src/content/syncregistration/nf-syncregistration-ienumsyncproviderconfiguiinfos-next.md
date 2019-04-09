@@ -7,7 +7,7 @@ old-location: winsync\ienumsyncproviderconfiguiinfos_next.htm
 tech.root: winsync
 ms.assetid: 46564ed2-233d-409c-a996-dd3d9cfde907
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEnumSyncProviderConfigUIInfos interface [Windows Sync],Next method, IEnumSyncProviderConfigUIInfos.Next, IEnumSyncProviderConfigUIInfos::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumSyncProviderConfigUIInfos interface, syncregistration/IEnumSyncProviderConfigUIInfos::Next, winsync.ienumsyncproviderconfiguiinfos_next
 ms.topic: method
 req.header: syncregistration.h

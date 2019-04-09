@@ -7,7 +7,7 @@ old-location: fs\exportcallback.htm
 tech.root: FileIO
 ms.assetid: 156948c9-d7b4-4491-bdb1-e1864a32caab
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ExportCallback, ExportCallback callback, ExportCallback callback function [Files], PFE_EXPORT_FUNC, PFE_EXPORT_FUNC callback function [Files], base.exportcallback, fs.exportcallback, winbase/ExportCallback, winbase/PFE_EXPORT_FUNC
 ms.topic: callback
 req.header: winbase.h

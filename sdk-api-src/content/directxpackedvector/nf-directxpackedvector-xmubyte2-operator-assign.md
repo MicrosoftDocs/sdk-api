@@ -7,7 +7,7 @@ old-location: dxmath\xmubyte2_operator_eq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUBYTE2.operator = (const XMUBYTE2)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMUBYTE2.operator =, DirectX::PackedVector::XMUBYTE2::operator =, XMUBYTE2 structure [DirectX Math Support APIs],operator = method, XMUBYTE2.operator =, XMUBYTE2.operator-assign, XMUBYTE2.operator=, XMUBYTE2::operator-assign, XMUBYTE2::operator=, dxmath.xmubyte2_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMUBYTE2 structure, operator=
 ms.topic: method
 req.header: directxpackedvector.h

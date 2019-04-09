@@ -7,7 +7,7 @@ old-location: shell\ULongToLong.htm
 tech.root: shell
 ms.assetid: 0cf73a49-84a9-4062-9dd3-6e0ad1a00b1c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DWordToLong, ULongToLong, ULongToLong function [Windows Shell], _shell_ULongToLong, intsafe/ULongToLong, shell.ULongToLong
 ms.topic: function
 req.header: intsafe.h

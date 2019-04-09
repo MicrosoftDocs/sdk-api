@@ -7,7 +7,7 @@ old-location: shell\SHCreatePropSheetExtArray.htm
 tech.root: shell
 ms.assetid: 88a72529-325d-431e-bc26-bddca787e62b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SHCreatePropSheetExtArray, SHCreatePropSheetExtArray function [Windows Shell], _win32_SHCreatePropSheetExtArray, shell.SHCreatePropSheetExtArray, shlobj/SHCreatePropSheetExtArray
 ms.topic: function
 req.header: shlobj.h

@@ -7,7 +7,7 @@ old-location: mstv\idvbservicedescriptor_getservicename.htm
 tech.root: mstv
 ms.assetid: d3c59ebc-fc32-49ba-86b3-5737c3af2225
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetServiceName, GetServiceName method [Microsoft TV Technologies], GetServiceName method [Microsoft TV Technologies],IDvbServiceDescriptor interface, IDvbServiceDescriptor interface [Microsoft TV Technologies],GetServiceName method, IDvbServiceDescriptor.GetServiceName, IDvbServiceDescriptor::GetServiceName, dvbsiparser/IDvbServiceDescriptor::GetServiceName, mstv.idvbservicedescriptor_getservicename
 ms.topic: method
 req.header: dvbsiparser.h

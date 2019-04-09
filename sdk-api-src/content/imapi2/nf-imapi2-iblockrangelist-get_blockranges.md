@@ -7,7 +7,7 @@ old-location: imapi\iblockrangelist_get_blockranges.htm
 tech.root: imapi
 ms.assetid: b9c7e4ee-0fb2-4a15-8277-8db82a4f3afe
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IBlockRangeList interface [IMAPI],get_BlockRanges method, IBlockRangeList.get_BlockRanges, IBlockRangeList::get_BlockRanges, get_BlockRanges, get_BlockRanges method [IMAPI], get_BlockRanges method [IMAPI],IBlockRangeList interface, imapi.iblockrangelist_get_blockranges, imapi2/IBlockRangeList::get_BlockRanges
 ms.topic: method
 req.header: imapi2.h

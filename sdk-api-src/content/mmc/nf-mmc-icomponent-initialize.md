@@ -7,7 +7,7 @@ old-location: mmc\icomponent_initialize.htm
 tech.root: mmc
 ms.assetid: 2a8b8f79-05c0-49e8-8210-7c1002ee5978
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IComponent interface [MMC],Initialize method, IComponent.Initialize, IComponent::Initialize, Initialize, Initialize method [MMC], Initialize method [MMC],IComponent interface, _slate_icomponent_initialize, mmc.icomponent_initialize, mmc/IComponent::Initialize
 ms.topic: method
 req.header: mmc.h

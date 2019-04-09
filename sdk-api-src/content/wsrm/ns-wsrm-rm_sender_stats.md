@@ -7,7 +7,7 @@ old-location: winsock\rm_sender_stats.htm
 tech.root: WinSock
 ms.assetid: 9ab6019c-459a-443d-b8e4-f7ee362e3385
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RM_SENDER_STATS, RM_SENDER_STATS structure [Winsock], winsock.rm_sender_stats, wsrm/RM_SENDER_STATS
 ms.topic: struct
 req.header: wsrm.h

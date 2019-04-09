@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpropertybag_filepropertynames.htm
 tech.root: fsrm
 ms.assetid: 5dfbf1a8-99a4-4348-8fc4-9d582330be57
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FilePropertyNames property [File Server Resource Manager], FilePropertyNames property [File Server Resource Manager],IFsrmPropertyBag interface, IFsrmPropertyBag interface [File Server Resource Manager],FilePropertyNames property, IFsrmPropertyBag.FilePropertyNames, IFsrmPropertyBag.get_FilePropertyNames, IFsrmPropertyBag::FilePropertyNames, IFsrmPropertyBag::get_FilePropertyNames, fs.ifsrmpropertybag_filepropertynames, fsrm.ifsrmpropertybag_filepropertynames, fsrmpipeline/IFsrmPropertyBag::FilePropertyNames, fsrmpipeline/IFsrmPropertyBag::get_FilePropertyNames, get_FilePropertyNames
 ms.topic: method
 req.header: fsrmpipeline.h

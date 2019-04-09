@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_getwritermetadatacount.htm
 tech.root: VSS
 ms.assetid: cf8c4782-2850-4847-a7a1-95bd2bd547a1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetWriterMetadataCount, GetWriterMetadataCount method [VSS], GetWriterMetadataCount method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterMetadataCount method, IVssBackupComponents.GetWriterMetadataCount, IVssBackupComponents::GetWriterMetadataCount, _win32_ivssbackupcomponents_getwritermetadatacount, base.ivssbackupcomponents_getwritermetadatacount, vsbackup/IVssBackupComponents::GetWriterMetadataCount
 ms.topic: method
 req.header: vsbackup.h

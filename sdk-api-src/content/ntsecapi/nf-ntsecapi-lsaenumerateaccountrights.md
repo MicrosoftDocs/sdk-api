@@ -7,7 +7,7 @@ old-location: security\lsaenumerateaccountrights.htm
 tech.root: SecMgmt
 ms.assetid: 3f4a4a9a-66ca-410a-8bdc-c390e8b966e3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: LsaEnumerateAccountRights, LsaEnumerateAccountRights function [Security], _lsa_lsaenumerateaccountrights, ntsecapi/LsaEnumerateAccountRights, security.lsaenumerateaccountrights
 ms.topic: function
 req.header: ntsecapi.h

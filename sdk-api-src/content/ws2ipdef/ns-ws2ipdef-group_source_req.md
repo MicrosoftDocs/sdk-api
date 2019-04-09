@@ -7,7 +7,7 @@ old-location: winsock\group_source_req.htm
 tech.root: WinSock
 ms.assetid: c8f442e0-e7c3-4421-a664-3f4e31a68eb9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PGROUP_SOURCE_REQ, GROUP_SOURCE_REQ, GROUP_SOURCE_REQ structure [Winsock], PGROUP_SOURCE_REQ, PGROUP_SOURCE_REQ structure pointer [Winsock], winsock.group_source_req, ws2ipdef/GROUP_SOURCE_REQ, ws2ipdef/PGROUP_SOURCE_REQ"
 ms.topic: struct
 req.header: ws2ipdef.h

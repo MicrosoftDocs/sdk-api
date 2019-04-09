@@ -7,7 +7,7 @@ old-location: fs\file_query_sparing_buffer.htm
 tech.root: FileIO
 ms.assetid: 4b9b44ec-9e8e-4ebd-b192-952bbb71005d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PFILE_QUERY_SPARING_BUFFER, FILE_QUERY_SPARING_BUFFER, FILE_QUERY_SPARING_BUFFER structure [Files], PFILE_QUERY_SPARING_BUFFER, PFILE_QUERY_SPARING_BUFFER structure pointer [Files], fs.file_query_sparing_buffer, winioctl/FILE_QUERY_SPARING_BUFFER, winioctl/PFILE_QUERY_SPARING_BUFFER"
 ms.topic: struct
 req.header: winioctl.h

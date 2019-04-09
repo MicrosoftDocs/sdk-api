@@ -7,7 +7,7 @@ old-location: winsensors_com_ref\isensor_getproperty.htm
 tech.root: SensorsAPI
 ms.assetid: 205f372e-a8ca-4494-a431-84d985ec4f9f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method, GetProperty method,ISensor interface, ISensor interface,GetProperty method, ISensor.GetProperty, ISensor::GetProperty, sensorsapi/ISensor::GetProperty, winsensors_com_ref.isensor_getproperty
 ms.topic: method
 req.header: sensorsapi.h

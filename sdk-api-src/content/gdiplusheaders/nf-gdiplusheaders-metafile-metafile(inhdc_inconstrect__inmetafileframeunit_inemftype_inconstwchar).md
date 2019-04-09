@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Metafile_Metafile_HDC_referenceHdc_Rect_fra
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors\metafile_93hdcreferencehdc_rectampframerect_metaf.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Metafile, Metafile class [GDI+],Metafile constructor, Metafile constructor [GDI+], Metafile constructor [GDI+],Metafile class, Metafile.Metafile, Metafile.Metafile(HDC,const Rect&,MetafileFrameUnit,EmfType,const WCHAR*), Metafile.Metafile(IN HDC,IN const Rect &,IN MetafileFrameUnit,IN EmfType,IN const WCHAR), Metafile::Metafile, Metafile::Metafile(IN HDC,IN const Rect &,IN MetafileFrameUnit,IN EmfType,IN const WCHAR), _gdiplus_CLASS_Metafile_Metafile_HDC_referenceHdc_Rect_frameRect_MetafileFrameUnit_frameUnit_EmfType, gdiplus._gdiplus_CLASS_Metafile_Metafile_HDC_referenceHdc_Rect_frameRect_MetafileFrameUnit_frameUnit_EmfType
 ms.topic: method
 req.header: gdiplusheaders.h

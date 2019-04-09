@@ -7,7 +7,7 @@ old-location: security\cryptxmlclose.htm
 tech.root: SecCrypto
 ms.assetid: ee3f8ea3-4898-462b-87cd-47dd3134636c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CryptXmlClose, CryptXmlClose function [Security], cryptxml/CryptXmlClose, security.cryptxmlclose
 ms.topic: function
 req.header: cryptxml.h

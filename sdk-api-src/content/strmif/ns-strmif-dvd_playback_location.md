@@ -7,7 +7,7 @@ old-location: dshow\dvd_playback_location.htm
 tech.root: DirectShow
 ms.assetid: 1085bd1b-ec61-49ca-9c9e-fb090d2a3533
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DVD_PLAYBACK_LOCATION, DVD_PLAYBACK_LOCATION structure [DirectShow], DVD_PLAYBACK_LOCATIONStructure, dshow.dvd_playback_location, strmif/DVD_PLAYBACK_LOCATION
 ms.topic: struct
 req.header: strmif.h

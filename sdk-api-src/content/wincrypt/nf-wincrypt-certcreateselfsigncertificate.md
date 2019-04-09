@@ -7,7 +7,7 @@ old-location: security\certcreateselfsigncertificate.htm
 tech.root: SecCrypto
 ms.assetid: 89028c4e-f896-4c50-9fa2-bcb4e1784244
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CERT_CREATE_SELFSIGN_NO_KEY_INFO, CERT_CREATE_SELFSIGN_NO_SIGN, CertCreateSelfSignCertificate, CertCreateSelfSignCertificate function [Security], _crypto2_certcreateselfsigncertificate, security.certcreateselfsigncertificate, wincrypt/CertCreateSelfSignCertificate
 ms.topic: function
 req.header: wincrypt.h

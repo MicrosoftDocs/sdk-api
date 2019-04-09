@@ -7,7 +7,7 @@ old-location: adsi\iadshold.htm
 tech.root: adsi
 ms.assetid: ccc22915-0f67-4089-9ddc-491b6f7ef554
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Hold, IADsHold, IADsHold interface [ADSI], IADsHold interface [ADSI],described, _ds_iadshold, adsi.iadshold, iads/IADsHold
 ms.topic: interface
 req.header: iads.h

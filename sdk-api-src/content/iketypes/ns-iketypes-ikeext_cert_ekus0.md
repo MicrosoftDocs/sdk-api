@@ -7,7 +7,7 @@ old-location: fwp\ikeext_cert_ekus0.htm
 tech.root: fwp
 ms.assetid: e9669340-a1f2-455f-a490-a94694c83531
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IKEEXT_CERT_EKUS0, IKEEXT_CERT_EKUS0 structure [Filtering], fwp.ikeext_cert_ekus0, iketypes/IKEEXT_CERT_EKUS0
 ms.topic: struct
 req.header: iketypes.h

@@ -7,7 +7,7 @@ old-location: wsw\ws_saml_message_security_binding.htm
 tech.root: wsw
 ms.assetid: 713afe9a-49b8-419a-b78b-d3b5a4a8d073
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_SAML_MESSAGE_SECURITY_BINDING, WS_SAML_MESSAGE_SECURITY_BINDING structure [Web Services for Windows], webservices/WS_SAML_MESSAGE_SECURITY_BINDING, wsw.ws_saml_message_security_binding
 ms.topic: struct
 req.header: webservices.h

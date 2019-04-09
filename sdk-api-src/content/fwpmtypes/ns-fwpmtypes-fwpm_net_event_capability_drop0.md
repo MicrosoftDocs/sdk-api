@@ -7,7 +7,7 @@ old-location: fwp\fwpm_net_event_capability_drop0.htm
 tech.root: fwp
 ms.assetid: 40848332-0961-417c-8adc-dd1a380594ba
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FWPM_NET_EVENT_CAPABILITY_DROP0, FWPM_NET_EVENT_CAPABILITY_DROP0 structure [Filtering], fwp.fwpm_net_event_capability_drop0, fwpmtypes/FWPM_NET_EVENT_CAPABILITY_DROP0
 ms.topic: struct
 req.header: fwpmtypes.h

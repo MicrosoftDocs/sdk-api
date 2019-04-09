@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12resource_getgpuvirtualaddress.htm
 tech.root: direct3d12
 ms.assetid: 1B1A345D-D6BD-4DF1-8F10-A209135283AD
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetGPUVirtualAddress, GetGPUVirtualAddress method, GetGPUVirtualAddress method,ID3D12Resource interface, ID3D12Resource interface,GetGPUVirtualAddress method, ID3D12Resource.GetGPUVirtualAddress, ID3D12Resource::GetGPUVirtualAddress, d3d12/ID3D12Resource::GetGPUVirtualAddress, direct3d12.id3d12resource_getgpuvirtualaddress
 ms.topic: method
 req.header: d3d12.h

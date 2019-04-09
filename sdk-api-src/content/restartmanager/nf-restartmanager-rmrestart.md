@@ -7,7 +7,7 @@ old-location: rstmgr\rmrestart.htm
 tech.root: rstmgr
 ms.assetid: e0939b31-0233-40d2-96cf-bbabe9488a12
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RmRestart, RmRestart function [Restart Mgr], restartmanager/RmRestart, rstmgr.rmrestart
 ms.topic: function
 req.header: restartmanager.h

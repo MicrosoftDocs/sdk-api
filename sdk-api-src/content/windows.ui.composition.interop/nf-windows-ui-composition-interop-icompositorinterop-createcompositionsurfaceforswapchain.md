@@ -7,7 +7,7 @@ old-location: w_ui_comp\icompositorinterop_createcompositionsurfaceforswapchain.
 tech.root: w_ui_comp
 ms.assetid: FDF81740-C6BA-4F3D-8145-749C738718E5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateCompositionSurfaceForSwapChain, CreateCompositionSurfaceForSwapChain method, CreateCompositionSurfaceForSwapChain method,ICompositorInterop interface, ICompositorInterop interface,CreateCompositionSurfaceForSwapChain method, ICompositorInterop.CreateCompositionSurfaceForSwapChain, ICompositorInterop.composition, ICompositorInterop::CreateCompositionSurfaceForSwapChain, ICompositorInterop::composition, w_ui_comp.icompositorinterop_createcompositionsurfaceforswapchain, windows/ICompositorInterop::CreateCompositionSurfaceForSwapChain
 ms.topic: method
 req.header: windows.ui.composition.interop.h

@@ -7,7 +7,7 @@ old-location: tapi3\itrequestevent_get_registrationinstance.htm
 tech.root: Tapi
 ms.assetid: 2fa157f8-fb4d-4163-b496-15bc28cca46b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITRequestEvent interface [TAPI 2.2],get_RegistrationInstance method, ITRequestEvent.get_RegistrationInstance, ITRequestEvent::get_RegistrationInstance, _tapi3_itrequestevent_get_registrationinstance, get_RegistrationInstance, get_RegistrationInstance method [TAPI 2.2], get_RegistrationInstance method [TAPI 2.2],ITRequestEvent interface, tapi3.itrequestevent_get_registrationinstance, tapi3if/ITRequestEvent::get_RegistrationInstance
 ms.topic: method
 req.header: tapi3if.h

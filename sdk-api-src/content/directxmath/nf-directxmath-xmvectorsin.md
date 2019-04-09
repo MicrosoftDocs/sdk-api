@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorsin.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorSin(XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSin, XMVectorSin, XMVectorSin method [DirectX Math Support APIs], dxmath.xmvectorsin
 ms.topic: function
 req.header: directxmath.h

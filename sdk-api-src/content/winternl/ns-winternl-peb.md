@@ -7,7 +7,7 @@ old-location: base\peb.htm
 tech.root: ProcThread
 ms.assetid: 836a6b82-d3e8-4de6-808d-5476dfb51356
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PPEB, PEB, PEB structure, PPEB, PPEB structure pointer, base.peb, winternl/PEB, winternl/PPEB"
 ms.topic: struct
 req.header: winternl.h

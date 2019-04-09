@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_serializerft.htm
 tech.root: wmi_v2
 ms.assetid: bf97fff0-0a3d-4326-90a4-c329a06d5741
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_SerializerFT, MI_SerializerFT structure [Windows Management Infrastructure (MI)], mi/MI_SerializerFT, wmi_v2.mi_serializerft
 ms.topic: struct
 req.header: mi.h

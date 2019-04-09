@@ -7,7 +7,7 @@ old-location: netbios\name_buffer.htm
 tech.root: NetBIOS
 ms.assetid: f1059074-68c1-4a08-98bd-ccfb314e39ec
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PNAME_BUFFER, DEREGISTERED, DUPLICATE, DUPLICATE_DEREG, GROUP_NAME, NAME_BUFFER, NAME_BUFFER structure [NetBIOS], PNAME_BUFFER, PNAME_BUFFER structure pointer [NetBIOS], REGISTERED, REGISTERING, UNIQUE_NAME, nb30/NAME_BUFFER, nb30/PNAME_BUFFER, netbios.name_buffer"
 ms.topic: struct
 req.header: nb30.h

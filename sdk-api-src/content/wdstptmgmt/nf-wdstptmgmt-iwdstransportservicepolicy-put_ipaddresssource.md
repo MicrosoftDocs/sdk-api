@@ -7,7 +7,7 @@ old-location: wds\iwdstransportservicepolicy_ipaddresssource.htm
 tech.root: wds
 ms.assetid: 867095bf-3a1d-479f-81d0-31f320e60c95
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWdsTransportServicePolicy interface [Windows Deployment Services],IpAddressSource property, IWdsTransportServicePolicy.IpAddressSource, IWdsTransportServicePolicy.put_IpAddressSource, IWdsTransportServicePolicy::IpAddressSource, IWdsTransportServicePolicy::get_IpAddressSource, IWdsTransportServicePolicy::put_IpAddressSource, IpAddressSource property [Windows Deployment Services], IpAddressSource property [Windows Deployment Services],IWdsTransportServicePolicy interface, put_IpAddressSource, wds.iwdstransportservicepolicy_ipaddresssource, wdstptmgmt/IWdsTransportServicePolicy::IpAddressSource, wdstptmgmt/IWdsTransportServicePolicy::get_IpAddressSource, wdstptmgmt/IWdsTransportServicePolicy::put_IpAddressSource
 ms.topic: method
 req.header: wdstptmgmt.h

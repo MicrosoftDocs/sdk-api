@@ -7,7 +7,7 @@ old-location: cloudapi\cf_operation_ack_data_flags.htm
 tech.root: cfApi
 ms.assetid: 9465B686-7C8A-44AD-BC65-41F22FFEC741
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CF_OPERATION_ACK_DATA_FLAGS, CF_OPERATION_ACK_DATA_FLAGS enumeration, CF_OPERATION_ACK_DATA_FLAG_NONE, cfapi/CF_OPERATION_ACK_DATA_FLAGS, cfapi/CF_OPERATION_ACK_DATA_FLAG_NONE, cloudApi.cf_operation_ack_data_flags
 ms.topic: enum
 req.header: cfapi.h

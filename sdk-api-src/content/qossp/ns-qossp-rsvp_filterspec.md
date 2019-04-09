@@ -7,7 +7,7 @@ old-location: qos\rsvp_filterspec.htm
 tech.root: QOS
 ms.assetid: ce4af25d-6c31-43a2-a30a-1d28b18e8f8b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPRSVP_FILTERSPEC, *LPRSVP_FILTERSPEC structure [QOS], RSVP_FILTERSPEC, RSVP_FILTERSPEC structure [QOS], qos.rsvp_filterspec, qossp/*LPRSVP_FILTERSPEC, qossp/RSVP_FILTERSPEC"
 ms.topic: struct
 req.header: qossp.h

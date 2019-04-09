@@ -7,7 +7,7 @@ old-location: security\crypt_trust_reg_entry.htm
 tech.root: SecCrypto
 ms.assetid: 1a531219-f254-4057-934b-af95bfe0bb83
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_TRUST_REG_ENTRY, CRYPT_TRUST_REG_ENTRY, CRYPT_TRUST_REG_ENTRY structure [Security], PCRYPT_TRUST_REG_ENTRY, PCRYPT_TRUST_REG_ENTRY structure pointer [Security], security.crypt_trust_reg_entry, wintrust/CRYPT_TRUST_REG_ENTRY, wintrust/PCRYPT_TRUST_REG_ENTRY"
 ms.topic: struct
 req.header: wintrust.h

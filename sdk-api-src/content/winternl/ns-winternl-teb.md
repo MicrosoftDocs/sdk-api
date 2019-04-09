@@ -7,7 +7,7 @@ old-location: base\teb.htm
 tech.root: ProcThread
 ms.assetid: fc77fc09-6319-4daa-ac96-1ded661ef800
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PTEB, PTEB, PTEB structure pointer, TEB, TEB structure, base.teb, winternl/PTEB, winternl/TEB"
 ms.topic: struct
 req.header: winternl.h

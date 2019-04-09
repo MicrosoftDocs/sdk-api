@@ -7,7 +7,7 @@ old-location: wsb\iwsbapplicationbackupsupport_checkconsistency.htm
 tech.root: wsb
 ms.assetid: 27ec1ee5-d612-48eb-8a5b-41e01c7f28d3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CheckConsistency, CheckConsistency method [Windows Server Backup], CheckConsistency method [Windows Server Backup],IWsbApplicationBackupSupport interface, IWsbApplicationBackupSupport interface [Windows Server Backup],CheckConsistency method, IWsbApplicationBackupSupport.CheckConsistency, IWsbApplicationBackupSupport::CheckConsistency, wsb.iwsbapplicationbackupsupport_checkconsistency, wsbapp/IWsbApplicationBackupSupport::CheckConsistency
 ms.topic: method
 req.header: wsbapp.h

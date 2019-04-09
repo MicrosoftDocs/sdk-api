@@ -7,7 +7,7 @@ old-location: display\dd_getbltstatusdata.htm
 tech.root: display
 ms.assetid: 16b0cac9-af8c-4106-b74e-6c9ada543851
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PDD_GETBLTSTATUSDATA, DD_GETBLTSTATUSDATA, DD_GETBLTSTATUSDATA structure [Display Devices], ddrawint/DD_GETBLTSTATUSDATA, ddstrcts_fec10d7e-ffc0-4368-8cd8-e1028ac7874d.xml, display.dd_getbltstatusdata"
 ms.topic: struct
 req.header: ddrawint.h

@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_ReadStrAlloc.htm
 tech.root: properties
 ms.assetid: 2F58A6DB-3563-42fa-9B6F-327D0A87AE81
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_ReadStrAlloc, PSPropertyBag_ReadStrAlloc function [Windows Properties], properties.PSPropertyBag_ReadStrAlloc, propsys/PSPropertyBag_ReadStrAlloc, shell.PSPropertyBag_ReadStrAlloc, shell_PSPropertyBag_ReadStrAlloc
 ms.topic: function
 req.header: propsys.h

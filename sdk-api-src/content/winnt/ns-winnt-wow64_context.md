@@ -7,7 +7,7 @@ old-location: base\wow64_context.htm
 tech.root: Debug
 ms.assetid: b27205a2-2c33-4f45-8948-9919bcd2355a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PWOW64_CONTEXT, PWOW64_CONTEXT, PWOW64_CONTEXT structure pointer, WOW64_CONTEXT, WOW64_CONTEXT structure, _WOW64_CONTEXT, base.wow64_context, winnt/PWOW64_CONTEXT, winnt/WOW64_CONTEXT"
 ms.topic: struct
 req.header: winnt.h

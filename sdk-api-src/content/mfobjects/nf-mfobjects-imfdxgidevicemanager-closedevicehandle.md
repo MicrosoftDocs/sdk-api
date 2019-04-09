@@ -7,7 +7,7 @@ old-location: mf\imfdxgidevicemanager_closedevicehandle.htm
 tech.root: medfound
 ms.assetid: D5C74D6C-F066-4905-9D02-886FA503F58E
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CloseDeviceHandle, CloseDeviceHandle method [Media Foundation], CloseDeviceHandle method [Media Foundation],IMFDXGIDeviceManager interface, IMFDXGIDeviceManager interface [Media Foundation],CloseDeviceHandle method, IMFDXGIDeviceManager.CloseDeviceHandle, IMFDXGIDeviceManager::CloseDeviceHandle, mf.imfdxgidevicemanager_closedevicehandle, mfobjects/IMFDXGIDeviceManager::CloseDeviceHandle
 ms.topic: method
 req.header: mfobjects.h

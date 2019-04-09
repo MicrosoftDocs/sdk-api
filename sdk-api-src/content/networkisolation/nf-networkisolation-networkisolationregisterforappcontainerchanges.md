@@ -7,7 +7,7 @@ old-location: ics\networkisolationregisterforappcontainerchanges.htm
 tech.root: ics
 ms.assetid: 2affb2a8-224c-4d2d-86e2-f194d3990dbe
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: INET_FIREWALL_AC_BINARY, INET_FIREWALL_AC_MAX, INET_FIREWALL_AC_NONE, INET_FIREWALL_AC_PACKAGE_ID_ONLY, NetworkIsolationRegisterForAppContainerChanges, NetworkIsolationRegisterForAppContainerChanges function [ICS/ICF], ics.networkisolationregisterforappcontainerchanges, networkisolation/NetworkIsolationRegisterForAppContainerChanges
 ms.topic: function
 req.header: networkisolation.h

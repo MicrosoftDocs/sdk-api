@@ -7,7 +7,7 @@ old-location: nwifi\onex_notification_type.htm
 tech.root: NativeWiFi
 ms.assetid: c5892938-9798-4c09-a766-4924cda4d090
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ONEX_NOTIFICATION_TYPE, ONEX_NOTIFICATION_TYPE enumeration [NativeWIFI], OneXNotificationTypeAuthRestarted, OneXNotificationTypeEventInvalid, OneXNotificationTypeResultUpdate, OneXNumNotifications, OneXPublicNotificationBase, PONEX_NOTIFICATION_TYPE, PONEX_NOTIFICATION_TYPE enumeration pointer [NativeWIFI], dot1x/ONEX_NOTIFICATION_TYPE, dot1x/OneXNotificationTypeAuthRestarted, dot1x/OneXNotificationTypeEventInvalid, dot1x/OneXNotificationTypeResultUpdate, dot1x/OneXNumNotifications, dot1x/OneXPublicNotificationBase, dot1x/PONEX_NOTIFICATION_TYPE, nwifi.onex_notification_type
 ms.topic: enum
 req.header: dot1x.h

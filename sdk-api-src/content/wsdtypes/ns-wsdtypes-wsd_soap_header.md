@@ -7,7 +7,7 @@ old-location: ncd\wsd_soap_header_struct.htm
 tech.root: WsdApi
 ms.assetid: 6a0f0fd3-486e-45b3-bac6-e241bce8e2dc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WSD_SOAP_HEADER, WSD_SOAP_HEADER structure, ncd.wsd_soap_header_struct, wsdtypes/WSD_SOAP_HEADER
 ms.topic: struct
 req.header: wsdtypes.h

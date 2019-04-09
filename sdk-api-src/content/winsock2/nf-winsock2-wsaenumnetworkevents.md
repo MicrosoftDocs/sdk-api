@@ -7,7 +7,7 @@ old-location: winsock\wsaenumnetworkevents_2.htm
 tech.root: WinSock
 ms.assetid: 2e6abccd-c82c-4a6b-8720-259986ac9984
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WSAEnumNetworkEvents, WSAEnumNetworkEvents function [Winsock], _win32_wsaenumnetworkevents_2, winsock.wsaenumnetworkevents_2, winsock2/WSAEnumNetworkEvents
 ms.topic: function
 req.header: winsock2.h

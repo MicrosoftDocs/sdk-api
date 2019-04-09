@@ -7,7 +7,7 @@ old-location: security\ienumcertviewextension_getflags.htm
 tech.root: SecCrypto
 ms.assetid: c175eba9-ea7c-4018-876a-2db732cb57c4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [Security], GetFlags method [Security],IEnumCERTVIEWEXTENSION interface, IEnumCERTVIEWEXTENSION interface [Security],GetFlags method, IEnumCERTVIEWEXTENSION.GetFlags, IEnumCERTVIEWEXTENSION::GetFlags, _certsrv_ienumcertviewextension_getflags, certview/IEnumCERTVIEWEXTENSION::GetFlags, security.ienumcertviewextension_getflags
 ms.topic: method
 req.header: certview.h

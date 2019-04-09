@@ -7,7 +7,7 @@ old-location: winprog\registerserverforpmp.htm
 tech.root: DevNotes
 ms.assetid: F18A5596-F21E-427B-8281-544DD7CA9E0B
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RegisterServerForPMP, RegisterServerForPMP function [Windows API], comppkgsup/RegisterServerForPMP, winprog.registerserverforpmp
 ms.topic: function
 req.header: comppkgsup.h

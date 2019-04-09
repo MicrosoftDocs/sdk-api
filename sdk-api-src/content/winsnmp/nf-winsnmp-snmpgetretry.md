@@ -7,7 +7,7 @@ old-location: snmp\snmpgetretry.htm
 tech.root: SNMP
 ms.assetid: 0c01994b-adce-4525-a41c-71cbe2fde2a8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SnmpGetRetry, SnmpGetRetry function [SNMP], _snmp_snmpgetretry, snmp.snmpgetretry, winsnmp/SnmpGetRetry
 ms.topic: function
 req.header: winsnmp.h

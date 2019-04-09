@@ -7,7 +7,7 @@ old-location: tapi2\linesetmediacontrol.htm
 tech.root: Tapi
 ms.assetid: 5a4fc83a-6bc9-4081-b374-ddb912fb2242
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_tapi2_linesetmediacontrol, lineSetMediaControl, lineSetMediaControl function [TAPI 2.2], tapi/lineSetMediaControl, tapi2.linesetmediacontrol"
 ms.topic: function
 req.header: tapi.h

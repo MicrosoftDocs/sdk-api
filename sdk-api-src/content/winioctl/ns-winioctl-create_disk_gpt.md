@@ -7,7 +7,7 @@ old-location: fs\create_disk_gpt_str.htm
 tech.root: FileIO
 ms.assetid: 526a265b-e15e-4cd2-adaf-c955a8cb92e5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PCREATE_DISK_GPT, CREATE_DISK_GPT, CREATE_DISK_GPT structure [Files], PCREATE_DISK_GPT, PCREATE_DISK_GPT structure pointer [Files], _win32_create_disk_gpt_str, base.create_disk_gpt_str, fs.create_disk_gpt_str, winioctl/CREATE_DISK_GPT, winioctl/PCREATE_DISK_GPT"
 ms.topic: struct
 req.header: winioctl.h

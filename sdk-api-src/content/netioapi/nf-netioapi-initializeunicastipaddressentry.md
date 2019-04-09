@@ -7,7 +7,7 @@ old-location: iphlp\initializeunicastipaddressentry.htm
 tech.root: IpHlp
 ms.assetid: 8cbdd972-060a-4e18-9490-450df21936ea
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: InitializeUnicastIpAddressEntry, InitializeUnicastIpAddressEntry function [IP Helper], iphlp.initializeunicastipaddressentry, netioapi/InitializeUnicastIpAddressEntry
 ms.topic: function
 req.header: netioapi.h

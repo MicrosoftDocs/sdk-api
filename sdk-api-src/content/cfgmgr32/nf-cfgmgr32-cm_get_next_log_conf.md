@@ -7,7 +7,7 @@ old-location: devinst\cm_get_next_log_conf.htm
 tech.root: devinst
 ms.assetid: fa256bda-a7ee-4583-a91b-e7c2ef39b3f2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CM_Get_Next_Log_Conf, CM_Get_Next_Log_Conf function [Device and Driver Installation], cfgmgr32/CM_Get_Next_Log_Conf, cfgmgrfn_e8834764-27d4-4e23-bff0-99364b13967f.xml, devinst.cm_get_next_log_conf
 ms.topic: function
 req.header: cfgmgr32.h

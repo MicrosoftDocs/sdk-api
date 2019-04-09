@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11computeshader.htm
 tech.root: direct3d11
 ms.assetid: 33a43253-ada2-4085-9401-e84562b37d59
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ID3D11ComputeShader, ID3D11ComputeShader interface [Direct3D 11], ID3D11ComputeShader interface [Direct3D 11],described, d3d11/ID3D11ComputeShader, dde07f60-78d4-2f2f-10da-d2a2973a909c, direct3d11.id3d11computeshader
 ms.topic: interface
 req.header: d3d11.h

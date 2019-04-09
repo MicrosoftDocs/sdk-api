@@ -7,7 +7,7 @@ old-location: gdi\setsystempaletteuse.htm
 tech.root: gdi
 ms.assetid: 6ff245d3-1bcc-4778-a595-c1eb16531ad3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SYSPAL_NOSTATIC, SYSPAL_NOSTATIC256, SYSPAL_STATIC, SetSystemPaletteUse, SetSystemPaletteUse function [Windows GDI], _win32_SetSystemPaletteUse, gdi.setsystempaletteuse, wingdi/SetSystemPaletteUse
 ms.topic: function
 req.header: wingdi.h

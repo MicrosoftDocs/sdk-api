@@ -7,7 +7,7 @@ old-location: automat\varui4fromdate.htm
 tech.root: automat
 ms.assetid: 838b2e35-f00d-4962-8863-5619589073fb
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VarUI4FromDate, VarUI4FromDate function [Automation], _oa96_VarUI4FromDate, automat.varui4fromdate, oleauto/VarUI4FromDate
 ms.topic: function
 req.header: oleauto.h

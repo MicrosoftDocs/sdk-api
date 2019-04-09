@@ -7,7 +7,7 @@ old-location: rdc\isimilaritytraitsmapping_getfilesize.htm
 tech.root: rdc
 ms.assetid: 920b9c77-ca45-42ff-801f-cbe1ab3eab2c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetFileSize, GetFileSize method [Remote Differential Compression], GetFileSize method [Remote Differential Compression],ISimilarityTraitsMapping interface, ISimilarityTraitsMapping interface [Remote Differential Compression],GetFileSize method, ISimilarityTraitsMapping.GetFileSize, ISimilarityTraitsMapping::GetFileSize, fs.isimilaritytraitsmapping_getfilesize, msrdc/ISimilarityTraitsMapping::GetFileSize, rdc.isimilaritytraitsmapping_getfilesize
 ms.topic: method
 req.header: msrdc.h

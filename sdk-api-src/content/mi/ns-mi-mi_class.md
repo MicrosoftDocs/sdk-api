@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_class.htm
 tech.root: wmi_v2
 ms.assetid: 7f02e0fa-9e58-455d-9cf4-1d1244c44422
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_Class, MI_Class structure [Windows Management Infrastructure (MI)], mi/MI_Class, wmi._mi_class, wmi_v2.mi_class
 ms.topic: struct
 req.header: mi.h

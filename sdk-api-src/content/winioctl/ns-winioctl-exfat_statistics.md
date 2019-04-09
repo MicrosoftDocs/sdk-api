@@ -7,7 +7,7 @@ old-location: fs\exfat_statistics.htm
 tech.root: FileIO
 ms.assetid: fc33e967-fbc0-4f98-9b6c-2d6ac103a256
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PEXFAT_STATISTICS, EXFAT_STATISTICS, EXFAT_STATISTICS structure [Files], PEXFAT_STATISTICS, PEXFAT_STATISTICS structure pointer [Files], fs.exfat_statistics, winioctl/EXFAT_STATISTICS, winioctl/PEXFAT_STATISTICS"
 ms.topic: struct
 req.header: winioctl.h

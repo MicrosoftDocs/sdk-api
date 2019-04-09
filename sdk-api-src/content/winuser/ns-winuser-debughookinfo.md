@@ -7,7 +7,7 @@ old-location: winmsg\debughookinfo.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookstructures\debughookinfo.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPDEBUGHOOKINFO, *NPDEBUGHOOKINFO, *PDEBUGHOOKINFO, DEBUGHOOKINFO, DEBUGHOOKINFO structure [Windows and Messages], LPDEBUGHOOKINFO, LPDEBUGHOOKINFO structure pointer [Windows and Messages], PDEBUGHOOKINFO, PDEBUGHOOKINFO structure pointer [Windows and Messages], _win32_DEBUGHOOKINFO_str, _win32_debughookinfo_str_cpp, winmsg.debughookinfo, winui._win32_debughookinfo_str, winuser/DEBUGHOOKINFO, winuser/LPDEBUGHOOKINFO, winuser/PDEBUGHOOKINFO"
 ms.topic: struct
 req.header: winuser.h

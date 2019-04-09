@@ -7,7 +7,7 @@ old-location: tbs\tbsi_revoke_attestation.htm
 tech.root: TBS
 ms.assetid: 64B6BC8F-5031-4A31-86FD-DECA6203D6E4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Tbsi_Revoke_Attestation, Tbsi_Revoke_Attestation function [TBS], tbs.tbsi_revoke_attestation, tbs/Tbsi_Revoke_Attestation
 ms.topic: function
 req.header: tbs.h

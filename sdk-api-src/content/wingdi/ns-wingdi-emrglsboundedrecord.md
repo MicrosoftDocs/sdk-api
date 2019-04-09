@@ -7,7 +7,7 @@ old-location: gdi\emrglsboundedrecord.htm
 tech.root: gdi
 ms.assetid: 0e397451-543c-4278-9cdd-fbd276b646dd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PEMRGLSBOUNDEDRECORD, EMRGLSBOUNDEDRECORD, EMRGLSBOUNDEDRECORD structure [Windows GDI], PEMRGLSBOUNDEDRECORD, PEMRGLSBOUNDEDRECORD structure pointer [Windows GDI], _win32_EMRGLSBOUNDEDRECORD_str, gdi.emrglsboundedrecord, wingdi/EMRGLSBOUNDEDRECORD, wingdi/PEMRGLSBOUNDEDRECORD"
 ms.topic: struct
 req.header: wingdi.h

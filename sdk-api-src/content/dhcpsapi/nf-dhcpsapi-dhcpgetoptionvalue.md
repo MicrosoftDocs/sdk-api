@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetoptionvalue.htm
 tech.root: DHCP
 ms.assetid: 7dca800f-2427-44b1-bc92-f9db54de08a5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DhcpGetOptionValue, DhcpGetOptionValue function [DHCP], dhcp.dhcpgetoptionvalue, dhcpsapi/DhcpGetOptionValue
 ms.topic: function
 req.header: dhcpsapi.h

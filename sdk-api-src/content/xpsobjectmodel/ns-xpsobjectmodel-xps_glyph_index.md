@@ -7,7 +7,7 @@ old-location: xps\xps_glyph_index.htm
 tech.root: printdocs
 ms.assetid: 0ea30e0f-f32b-4a38-9591-27cb1fe7f234
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: XPS_GLYPH_INDEX, XPS_GLYPH_INDEX structure [XPS Documents and Packaging], xps.xps_glyph_index, xpsobjectmodel/XPS_GLYPH_INDEX
 ms.topic: struct
 req.header: xpsobjectmodel.h

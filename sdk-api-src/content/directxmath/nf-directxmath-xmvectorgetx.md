@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorgetx.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorGetX(XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorGetX, XMVectorGetX, XMVectorGetX method [DirectX Math Support APIs], dxmath.xmvectorgetx
 ms.topic: function
 req.header: directxmath.h

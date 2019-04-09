@@ -7,7 +7,7 @@ old-location: security\ienroll4_addattributetorequestwstr.htm
 tech.root: SecCrypto
 ms.assetid: 71421bca-ef72-47d3-8f4a-95cb9768644f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],addAttributeToRequestWStr method, IEnroll4.addAttributeToRequestWStr, IEnroll4::addAttributeToRequestWStr, addAttributeToRequestWStr, addAttributeToRequestWStr method [Security], addAttributeToRequestWStr method [Security],IEnroll4 interface, security.ienroll4_addattributetorequestwstr, xenroll/IEnroll4::addAttributeToRequestWStr
 ms.topic: method
 req.header: xenroll.h

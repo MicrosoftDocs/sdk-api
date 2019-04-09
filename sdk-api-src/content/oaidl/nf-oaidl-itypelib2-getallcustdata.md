@@ -7,7 +7,7 @@ old-location: automat\itypelib2_getallcustdata.htm
 tech.root: automat
 ms.assetid: f557bfe6-5254-43c6-a42b-bc2d13126705
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetAllCustData, GetAllCustData method [Automation], GetAllCustData method [Automation],ITypeLib2 interface, ITypeLib2 interface [Automation],GetAllCustData method, ITypeLib2.GetAllCustData, ITypeLib2::GetAllCustData, _oa96_ITypeLib2_GetAllCustData, automat.itypelib2_getallcustdata, oaidl/ITypeLib2::GetAllCustData
 ms.topic: method
 req.header: oaidl.h

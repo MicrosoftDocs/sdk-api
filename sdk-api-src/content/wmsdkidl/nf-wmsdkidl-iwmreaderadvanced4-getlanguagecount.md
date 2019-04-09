@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced4_getlanguagecount.htm
 tech.root: wmformat
 ms.assetid: c63084cb-f4cf-413b-a3f1-eb6b1400ac93
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetLanguageCount, GetLanguageCount method [windows Media Format], GetLanguageCount method [windows Media Format],IWMReaderAdvanced4 interface, IWMReaderAdvanced4 interface [windows Media Format],GetLanguageCount method, IWMReaderAdvanced4.GetLanguageCount, IWMReaderAdvanced4::GetLanguageCount, IWMReaderAdvanced4GetLanguageCount, wmformat.iwmreaderadvanced4_getlanguagecount, wmsdkidl/IWMReaderAdvanced4::GetLanguageCount
 ms.topic: method
 req.header: wmsdkidl.h

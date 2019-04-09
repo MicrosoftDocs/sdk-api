@@ -7,7 +7,7 @@ old-location: direct2d\matrix3x2f.htm
 tech.root: Direct2D
 ms.assetid: 54b9e75c-6316-44d3-b725-2039f39eeda5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Matrix3x2F, Matrix3x2F class [Direct2D], Matrix3x2F class [Direct2D],described, d2d1/Matrix3x2F, direct2d.matrix3x2f
 ms.topic: class
 req.header: d2d1helper.h

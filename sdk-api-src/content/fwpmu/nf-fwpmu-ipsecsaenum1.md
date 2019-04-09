@@ -7,7 +7,7 @@ old-location: fwp\ipsecsaenum1_func.htm
 tech.root: fwp
 ms.assetid: 93db625d-9b7f-4038-8c36-dec2762927be
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IPsecSaEnum1, IPsecSaEnum1 function [Filtering], fwp.ipsecsaenum1_func, fwpmu/IPsecSaEnum1
 ms.topic: function
 req.header: fwpmu.h

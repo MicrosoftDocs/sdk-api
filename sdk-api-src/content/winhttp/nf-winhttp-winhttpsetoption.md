@@ -7,7 +7,7 @@ old-location: http\winhttpsetoption.htm
 tech.root: WinHttp
 ms.assetid: bcf1da09-5787-4d2a-82ae-6965e27fa477
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WinHttpSetOption, WinHttpSetOption function [WinHTTP], http.winhttpsetoption, winhttp.winhttpsetoption_function, winhttp/WinHttpSetOption
 ms.topic: function
 req.header: winhttp.h

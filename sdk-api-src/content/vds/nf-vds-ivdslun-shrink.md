@@ -7,7 +7,7 @@ old-location: base\ivdslun_shrink.htm
 tech.root: VDS
 ms.assetid: a02f7741-c17a-48f3-a823-292613aa287b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVdsLun interface [VDS],Shrink method, IVdsLun.Shrink, IVdsLun::Shrink, Shrink, Shrink method [VDS], Shrink method [VDS],IVdsLun interface, base.ivdslun_shrink, vds/IVdsLun::Shrink, vdshwprv/IVdsLun::Shrink
 ms.topic: method
 req.header: vds.h

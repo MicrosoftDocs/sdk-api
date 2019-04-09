@@ -7,7 +7,7 @@ old-location: shell\ICustomDestinationList.htm
 tech.root: shell
 ms.assetid: 65a3dab8-3136-416d-bd8a-ca813bfe0533
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ICustomDestinationList, ICustomDestinationList interface [Windows Shell], ICustomDestinationList interface [Windows Shell],described, _shell_ICustomDestinationList, shell.ICustomDestinationList, shobjidl_core/ICustomDestinationList
 ms.topic: interface
 req.header: shobjidl_core.h

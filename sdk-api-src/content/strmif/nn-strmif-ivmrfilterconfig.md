@@ -7,7 +7,7 @@ old-location: dshow\ivmrfilterconfig.htm
 tech.root: DirectShow
 ms.assetid: 3ea7bb41-1f5f-496f-bdf4-776ec9f28876
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVMRFilterConfig, IVMRFilterConfig interface [DirectShow], IVMRFilterConfig interface [DirectShow],described, IVMRFilterConfigInterface, dshow.ivmrfilterconfig, strmif/IVMRFilterConfig
 ms.topic: interface
 req.header: strmif.h

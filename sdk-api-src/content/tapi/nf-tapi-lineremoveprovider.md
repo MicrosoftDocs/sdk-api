@@ -7,7 +7,7 @@ old-location: tapi2\lineremoveprovider.htm
 tech.root: Tapi
 ms.assetid: 8398a869-bc64-490a-bdb2-496582a88d84
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_tapi2_lineremoveprovider, lineRemoveProvider, lineRemoveProvider function [TAPI 2.2], tapi/lineRemoveProvider, tapi2.lineremoveprovider"
 ms.topic: function
 req.header: tapi.h

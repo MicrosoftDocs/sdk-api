@@ -7,7 +7,7 @@ old-location: fwp\ikeext_em_policy0.htm
 tech.root: fwp
 ms.assetid: 954a2bb8-eb54-4f41-8a0c-3f2af1190f57
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IKEEXT_EM_POLICY0, IKEEXT_EM_POLICY0 structure [Filtering], fwp.ikeext_em_policy0, iketypes/IKEEXT_EM_POLICY0
 ms.topic: struct
 req.header: iketypes.h

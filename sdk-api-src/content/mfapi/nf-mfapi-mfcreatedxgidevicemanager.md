@@ -7,7 +7,7 @@ old-location: mf\mfcreatedxgidevicemanager.htm
 tech.root: medfound
 ms.assetid: 5398B6D7-1E7D-4987-A163-3360C805EE9C
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MFCreateDXGIDeviceManager, MFCreateDXGIDeviceManager function [Media Foundation], mf.mfcreatedxgidevicemanager, mfapi/MFCreateDXGIDeviceManager
 ms.topic: function
 req.header: mfapi.h

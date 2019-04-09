@@ -7,7 +7,7 @@ old-location: wes\evtcreatebookmark.htm
 tech.root: wes
 ms.assetid: 1020d923-090b-48fc-96c2-394db5cd241e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EvtCreateBookmark, EvtCreateBookmark function [EventLog], wes.evtcreatebookmark, winevt/EvtCreateBookmark
 ms.topic: function
 req.header: winevt.h

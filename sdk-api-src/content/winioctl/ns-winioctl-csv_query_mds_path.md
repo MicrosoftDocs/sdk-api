@@ -7,7 +7,7 @@ old-location: fs\csv_query_mds_path.htm
 tech.root: FileIO
 ms.assetid: 478AE3FD-1668-46CE-876D-51E4BB679C87
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PCSV_QUERY_MDS_PATH, CSV_QUERY_MDS_PATH, CSV_QUERY_MDS_PATH structure [Files], PCSV_QUERY_MDS_PATH, PCSV_QUERY_MDS_PATH structure pointer [Files], fs.csv_query_mds_path, winioctl/CSV_QUERY_MDS_PATH, winioctl/PCSV_QUERY_MDS_PATH"
 ms.topic: struct
 req.header: winioctl.h

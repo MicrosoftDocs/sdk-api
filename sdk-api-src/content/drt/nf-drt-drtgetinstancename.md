@@ -7,7 +7,7 @@ old-location: p2p\drtgetinstancename.htm
 tech.root: P2PSdk
 ms.assetid: f69b745c-d990-42cf-8994-9640bcb7d1bf
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DrtGetInstanceName, DrtGetInstanceName function [Distributed Routing Tables], drt/DrtGetInstanceName, p2p.drtgetinstancename
 ms.topic: function
 req.header: drt.h

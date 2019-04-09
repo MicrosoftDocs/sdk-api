@@ -7,7 +7,7 @@ old-location: direct3d11\cd3d11_texture1d_desc_d3d11_texture1d_desc__.htm
 tech.root: direct3d11
 ms.assetid: 34FC6F09-4891-46B1-A667-73945A65836A
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CD3D11_TEXTURE1D_DESC interface [Direct3D 11],operator const D3D11_TEXTURE1D_DESC& method, CD3D11_TEXTURE1D_DESC.operator const D3D11_TEXTURE1D_DESC&, CD3D11_TEXTURE1D_DESC::operator const D3D11_TEXTURE1D_DESC&, CD3D11_TEXTURE1D_DESC::operator const D3D11_TEXTURE1D_DESC&(), d3d11/CD3D11_TEXTURE1D_DESC::operator const D3D11_TEXTURE1D_DESC&, direct3d11.cd3d11_texture1d_desc_d3d11_texture1d_desc__, operator const D3D11_TEXTURE1D_DESC&, operator const D3D11_TEXTURE1D_DESC& method [Direct3D 11], operator const D3D11_TEXTURE1D_DESC& method [Direct3D 11],CD3D11_TEXTURE1D_DESC interface
 ms.topic: method
 req.header: d3d11.h

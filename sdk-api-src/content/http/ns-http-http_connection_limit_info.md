@@ -7,7 +7,7 @@ old-location: http\http_connection_limit_info.htm
 tech.root: http
 ms.assetid: 6d2c1eeb-d248-4ca5-80b3-5c9f69ce8b9b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PHTTP_CONNECTION_LIMIT_INFO, *PHTTP_CONNECTION_LIMIT_INFO structure [HTTP], HTTP_CONNECTION_LIMIT_INFO, HTTP_CONNECTION_LIMIT_INFO structure [HTTP], http.http_connection_limit_info, http/*PHTTP_CONNECTION_LIMIT_INFO, http/HTTP_CONNECTION_LIMIT_INFO"
 ms.topic: struct
 req.header: http.h

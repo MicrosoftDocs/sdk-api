@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_FillRectangles_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillrectanglesmethods.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FillRectangles, FillRectangles methods [GDI+], Graphics.FillRectangles, Graphics::FillRectangles, _gdiplus_CLASS_Graphics_FillRectangles_Methods, gdiplus._gdiplus_CLASS_Graphics_FillRectangles_Methods, gdiplusgraphics/FillRectangles
 ms.topic: method
 req.header: gdiplusgraphics.h

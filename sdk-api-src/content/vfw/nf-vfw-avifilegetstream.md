@@ -7,7 +7,7 @@ old-location: multimedia\avifilegetstream.htm
 tech.root: Multimedia
 ms.assetid: b51a823c-6904-4942-883f-bda347541757
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AVIFileGetStream, AVIFileGetStream function [Windows Multimedia], _win32_AVIFileGetStream, multimedia.avifilegetstream, vfw/AVIFileGetStream
 ms.topic: function
 req.header: vfw.h

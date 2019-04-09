@@ -7,7 +7,7 @@ old-location: wsw\ws_int32_description.htm
 tech.root: wsw
 ms.assetid: 98761df2-b195-4f22-90ba-3dac8920f3ef
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_INT32_DESCRIPTION, WS_INT32_DESCRIPTION structure [Web Services for Windows], webservices/WS_INT32_DESCRIPTION, wsw.ws_int32_description
 ms.topic: struct
 req.header: webservices.h

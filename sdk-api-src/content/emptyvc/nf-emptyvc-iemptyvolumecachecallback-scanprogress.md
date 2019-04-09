@@ -7,7 +7,7 @@ old-location: lwef\iemptyvolumecachecallback_scanprogress.htm
 tech.root: lwef
 ms.assetid: 41ebc9db-d402-47d7-b303-f87357ae820d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EVCCBF_LASTNOTIFICATION, IEmptyVolumeCacheCallBack interface [Legacy Windows Environment Features],ScanProgress method, IEmptyVolumeCacheCallBack.ScanProgress, IEmptyVolumeCacheCallBack::ScanProgress, ScanProgress, ScanProgress method [Legacy Windows Environment Features], ScanProgress method [Legacy Windows Environment Features],IEmptyVolumeCacheCallBack interface, _win32_IEmptyVolumeCacheCallBack_ScanProgress, emptyvc/IEmptyVolumeCacheCallBack::ScanProgress, lwef.iemptyvolumecachecallback_scanprogress, shell.iemptyvolumecachecallback_scanprogress
 ms.topic: method
 req.header: emptyvc.h

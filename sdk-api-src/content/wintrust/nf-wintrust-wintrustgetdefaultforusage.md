@@ -7,7 +7,7 @@ old-location: security\wintrustgetdefaultforusage.htm
 tech.root: SecCrypto
 ms.assetid: B2ED5489-792F-4B00-A21E-EE1B1462D1C8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DWACTION_ALLOCANDFILL, DWACTION_FREE, WintrustGetDefaultForUsage, WintrustGetDefaultForUsage function [Security], security.wintrustgetdefaultforusage, wintrust/WintrustGetDefaultForUsage
 ms.topic: function
 req.header: wintrust.h

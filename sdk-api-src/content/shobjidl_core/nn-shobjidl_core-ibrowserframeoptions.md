@@ -7,7 +7,7 @@ old-location: shell\IBrowserFrameOptions.htm
 tech.root: shell
 ms.assetid: ef5773fb-8b89-4034-9059-06b107dbd76d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IBrowserFrameOptions, IBrowserFrameOptions interface [Windows Shell], IBrowserFrameOptions interface [Windows Shell],described, _shell_IBrowserFrameOptions, shell.IBrowserFrameOptions, shobjidl_core/IBrowserFrameOptions
 ms.topic: interface
 req.header: shobjidl_core.h

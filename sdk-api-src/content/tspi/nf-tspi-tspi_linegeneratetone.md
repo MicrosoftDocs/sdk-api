@@ -7,7 +7,7 @@ old-location: tspi\tspi_linegeneratetone.htm
 tech.root: Tapi
 ms.assetid: 195d0974-ff0f-4274-9278-5276512fcba4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TSPI_lineGenerateTone, TSPI_lineGenerateTone function [TAPI 2.2], _tspi_tspi_linegeneratetone, tspi.tspi_linegeneratetone, tspi/TSPI_lineGenerateTone
 ms.topic: function
 req.header: tspi.h

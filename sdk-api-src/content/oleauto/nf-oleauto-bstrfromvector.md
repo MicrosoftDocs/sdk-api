@@ -7,7 +7,7 @@ old-location: automat\bstrfromvector.htm
 tech.root: automat
 ms.assetid: 26955616-698b-4f63-b652-af7dfaa23e43
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BstrFromVector, BstrFromVector function [Automation], _oa96_BstrFromVector, automat.bstrfromvector, oleauto/BstrFromVector
 ms.topic: function
 req.header: oleauto.h

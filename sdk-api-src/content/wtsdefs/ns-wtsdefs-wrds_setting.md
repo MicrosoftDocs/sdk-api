@@ -7,7 +7,7 @@ old-location: termserv\wrds_setting.htm
 tech.root: TermServ
 ms.assetid: F87368C8-FE18-424D-8D53-0E45E6AC5D6C
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PWRDS_SETTING, PWRDS_SETTING, PWRDS_SETTING union pointer [Remote Desktop Services], WRDS_SETTING, WRDS_SETTING union [Remote Desktop Services], termserv.wrds_setting, wtsdefs/PWRDS_SETTING, wtsdefs/WRDS_SETTING"
 ms.topic: struct
 req.header: wtsdefs.h

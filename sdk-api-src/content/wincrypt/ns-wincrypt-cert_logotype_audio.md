@@ -7,7 +7,7 @@ old-location: security\cert_logotype_audio.htm
 tech.root: SecCrypto
 ms.assetid: 97357faa-2720-4240-a3c3-77abdce8d86d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PCERT_LOGOTYPE_AUDIO, CERT_LOGOTYPE_AUDIO, CERT_LOGOTYPE_AUDIO structure [Security], PCERT_LOGOTYPE_AUDIO, PCERT_LOGOTYPE_AUDIO structure pointer [Security], security.cert_logotype_audio, wincrypt/CERT_LOGOTYPE_AUDIO, wincrypt/PCERT_LOGOTYPE_AUDIO"
 ms.topic: struct
 req.header: wincrypt.h

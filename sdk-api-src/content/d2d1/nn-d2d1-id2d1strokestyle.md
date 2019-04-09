@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1StrokeStyle.htm
 tech.root: Direct2D
 ms.assetid: 2cdf66dc-f34f-4132-8c06-7464648d3cef
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ID2D1StrokeStyle, ID2D1StrokeStyle interface [Direct2D], ID2D1StrokeStyle interface [Direct2D],described, d2d1/ID2D1StrokeStyle, direct2d.ID2D1StrokeStyle
 ms.topic: interface
 req.header: d2d1.h

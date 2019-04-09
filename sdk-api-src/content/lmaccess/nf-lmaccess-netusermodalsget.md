@@ -7,7 +7,7 @@ old-location: netmgmt\netusermodalsget.htm
 tech.root: NetMgmt
 ms.assetid: 5bb18144-82a6-4e9b-8321-c06a667bdd03
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, 3, NetUserModalsGet, NetUserModalsGet function [Network Management], _win32_netusermodalsget, lmaccess/NetUserModalsGet, netmgmt.netusermodalsget
 ms.topic: function
 req.header: lmaccess.h

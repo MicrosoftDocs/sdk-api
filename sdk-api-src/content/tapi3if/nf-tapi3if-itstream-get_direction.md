@@ -7,7 +7,7 @@ old-location: tapi3\itstream_get_direction.htm
 tech.root: Tapi
 ms.assetid: 196abe2a-d88d-4b2d-8867-4e6cc15dee33
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITStream interface [TAPI 2.2],get_Direction method, ITStream.get_Direction, ITStream::get_Direction, _tapi3_itstream_get_direction, get_Direction, get_Direction method [TAPI 2.2], get_Direction method [TAPI 2.2],ITStream interface, tapi3.itstream_get_direction, tapi3if/ITStream::get_Direction
 ms.topic: method
 req.header: tapi3if.h

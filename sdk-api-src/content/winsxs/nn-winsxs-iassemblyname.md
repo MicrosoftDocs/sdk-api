@@ -7,7 +7,7 @@ old-location: setup\iassemblyname.htm
 tech.root: SbsCs
 ms.assetid: 304b8fb3-5d17-4af0-b070-450a40dc5cc9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IAssemblyName, IAssemblyName interface [Side-by-side Assemblies], IAssemblyName interface [Side-by-side Assemblies],described, setup.iassemblyname, winsxs/IAssemblyName
 ms.topic: interface
 req.header: winsxs.h

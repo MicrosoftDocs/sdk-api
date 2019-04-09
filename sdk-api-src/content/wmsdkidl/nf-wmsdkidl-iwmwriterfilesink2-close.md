@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterfilesink2_close.htm
 tech.root: wmformat
 ms.assetid: 8d1bce07-a165-45cf-95cb-03b57f0cae03
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Close, Close method [windows Media Format], Close method [windows Media Format],IWMWriterFileSink2 interface, IWMWriterFileSink2 interface [windows Media Format],Close method, IWMWriterFileSink2.Close, IWMWriterFileSink2::Close, IWMWriterFileSink2Close, wmformat.iwmwriterfilesink2_close, wmsdkidl/IWMWriterFileSink2::Close
 ms.topic: method
 req.header: wmsdkidl.h

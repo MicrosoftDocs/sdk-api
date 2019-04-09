@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocolconnection_getprotocolstatus.htm
 tech.root: TermServ
 ms.assetid: A89C2E3F-AC75-4CFB-9DA7-00DCEDCA1C1A
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetProtocolStatus, GetProtocolStatus method [Remote Desktop Services], GetProtocolStatus method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetProtocolStatus method, IWRdsProtocolConnection.GetProtocolStatus, IWRdsProtocolConnection::GetProtocolStatus, termserv.iwrdsprotocolconnection_getprotocolstatus, wtsprotocol/IWRdsProtocolConnection::GetProtocolStatus
 ms.topic: method
 req.header: wtsprotocol.h

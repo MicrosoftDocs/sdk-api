@@ -7,7 +7,7 @@ old-location: shell\UIntPtrAdd.htm
 tech.root: shell
 ms.assetid: 85658194-cb13-443f-8e6b-84034f7cd46b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: UIntPtrAdd, UIntPtrAdd function [Windows Shell], _shell_UIntPtrAdd, intsafe/UIntPtrAdd, shell.UIntPtrAdd
 ms.topic: function
 req.header: intsafe.h

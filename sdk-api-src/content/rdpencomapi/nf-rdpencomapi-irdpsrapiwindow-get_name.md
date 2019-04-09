@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiwindow_name.htm
 tech.root: rdp
 ms.assetid: 14086504-2f67-4ca2-a56c-b5866426e7a4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIWindow interface [RDP],Name property, IRDPSRAPIWindow.Name, IRDPSRAPIWindow.get_Name, IRDPSRAPIWindow::Name, IRDPSRAPIWindow::get_Name, Name property [RDP], Name property [RDP],IRDPSRAPIWindow interface, Name property [RDP],RDPSRAPIWindow object, RDPSRAPIWindow object [RDP],Name property, get_Name, rdp.irdpsrapiwindow_name, rdpencomapi/IRDPSRAPIWindow::Name, rdpencomapi/IRDPSRAPIWindow::get_Name
 ms.topic: method
 req.header: rdpencomapi.h

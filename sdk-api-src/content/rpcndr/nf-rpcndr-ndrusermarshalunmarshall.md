@@ -7,7 +7,7 @@ old-location: winprog\ndrusermarshalunmarshall.htm
 tech.root: DevNotes
 ms.assetid: 8012973b-a41f-4729-a04a-8a1afb29cebe
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NdrUserMarshalUnmarshall, NdrUserMarshalUnmarshall function [Windows API], rpcndr/NdrUserMarshalUnmarshall, winprog.ndrusermarshalunmarshall
 ms.topic: function
 req.header: rpcndr.h

@@ -7,7 +7,7 @@ old-location: com\scode_facility_macro.htm
 tech.root: com
 ms.assetid: 646e2d98-69c4-43ac-b939-c67a61d7cbce
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SCODE_FACILITY, SCODE_FACILITY macro [COM], _com_SCODE_FACILITY, com.scode_facility, com.scode_facility_macro, winerror/SCODE_FACILITY
 ms.topic: macro
 req.header: winerror.h

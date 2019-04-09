@@ -7,8 +7,8 @@ old-location: wmi\chstringarray_insertat_int__chstringarray__.htm
 tech.root: WmiSdk
 ms.assetid: 4aab5eb2-0b6d-4ffc-b627-a35c0696c7cc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
-ms.keywords: CHStringArray interface [Windows Management Instrumentation],InsertAt(int,CHStringArray*) method, CHStringArray.InsertAt, CHStringArray.InsertAt(int,CHStringArray), CHStringArray::InsertAt, CHStringArray::InsertAt(int,CHStringArray), CHStringArray::InsertAt(int,CHStringArray*), InsertAt, InsertAt(int,CHStringArray*) method [Windows Management Instrumentation], InsertAt(int,CHStringArray*) method [Windows Management Instrumentation],CHStringArray interface, chstrarr/CHStringArray::InsertAt(int,CHStringArray*), wmi.chstringarray_insertat_int__chstringarray__
+ms.date: 12/05/2018
+ms.keywords: CHStringArray.InsertAt, CHStringArray.InsertAt(int,CHStringArray), CHStringArray::InsertAt, CHStringArray::InsertAt methods [Windows Management Instrumentation], CHStringArray::InsertAt(int,CHStringArray), InsertAt, chstrarr/CHStringArray::InsertAt, wmi.insertat_method_in_class_chstringarray
 ms.topic: method
 req.header: chstrarr.h
 req.include-header: FwCommon.h

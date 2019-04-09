@@ -7,7 +7,7 @@ old-location: automat\varidiv.htm
 tech.root: automat
 ms.assetid: dd76b96f-b616-420f-9f26-d88004574411
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VarIdiv, VarIdiv function [Automation], _oa96_VarIdiv, automat.varidiv, oleauto/VarIdiv
 ms.topic: function
 req.header: oleauto.h

@@ -7,7 +7,7 @@ old-location: wmformat\wmcreatewriterfilesink.htm
 tech.root: wmformat
 ms.assetid: aeeaf67c-119f-482b-b064-87739499abda
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WMCreateWriterFileSink, WMCreateWriterFileSink function [windows Media Format], wmformat.wmcreatewriterfilesink, wmsdkidl/WMCreateWriterFileSink
 ms.topic: function
 req.header: wmsdkidl.h

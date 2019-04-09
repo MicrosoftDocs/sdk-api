@@ -7,7 +7,7 @@ old-location: mstv\icomponent_put_desclangid.htm
 tech.root: mstv
 ms.assetid: 0f914835-e097-4a02-80fe-371154c9d95a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IComponent interface [Microsoft TV Technologies],put_DescLangID method, IComponent.put_DescLangID, IComponent::put_DescLangID, IComponentput_DescLangID, mstv.icomponent_put_desclangid, put_DescLangID, put_DescLangID method [Microsoft TV Technologies], put_DescLangID method [Microsoft TV Technologies],IComponent interface, tuner/IComponent::put_DescLangID
 ms.topic: method
 req.header: tuner.h

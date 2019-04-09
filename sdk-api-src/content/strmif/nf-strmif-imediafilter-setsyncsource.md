@@ -7,7 +7,7 @@ old-location: dshow\imediafilter_setsyncsource.htm
 tech.root: DirectShow
 ms.assetid: a374c963-cc28-41f6-814d-7ffc6efc67a6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMediaFilter interface [DirectShow],SetSyncSource method, IMediaFilter.SetSyncSource, IMediaFilter::SetSyncSource, IMediaFilterSetSyncSource, SetSyncSource, SetSyncSource method [DirectShow], SetSyncSource method [DirectShow],IMediaFilter interface, dshow.imediafilter_setsyncsource, strmif/IMediaFilter::SetSyncSource
 ms.topic: method
 req.header: strmif.h

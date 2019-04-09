@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaClientsAreListeningFunction.htm
 tech.root: WinAuto
 ms.assetid: 66b5d6b9-b51a-4848-b6e4-bd4c73b07f18
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: UiaClientsAreListening, UiaClientsAreListening function [Windows Accessibility], uiauto.uiauto_UiaClientsAreListeningFunction, uiauto_UiaClientsAreListeningFunction, uiautomationcoreapi/UiaClientsAreListening, winauto.uiauto_UiaClientsAreListeningFunction
 ms.topic: function
 req.header: uiautomationcoreapi.h

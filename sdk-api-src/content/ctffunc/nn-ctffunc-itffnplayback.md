@@ -7,7 +7,7 @@ old-location: tsf\itffnplayback.htm
 tech.root: TSF
 ms.assetid: e9a0d1a3-70c9-4816-8cd4-f2574392953e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITfFnPlayBack, ITfFnPlayBack interface [Text Services Framework], ITfFnPlayBack interface [Text Services Framework],described, _tsf_itffnplayback_ref, ctffunc/ITfFnPlayBack, tsf.itffnplayback
 ms.topic: interface
 req.header: ctffunc.h

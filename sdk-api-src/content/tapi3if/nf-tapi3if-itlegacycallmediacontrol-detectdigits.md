@@ -7,7 +7,7 @@ old-location: tapi3\itlegacycallmediacontrol_detectdigits.htm
 tech.root: Tapi
 ms.assetid: 09adb3fb-cf77-4c8b-beab-85d173cbb242
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DetectDigits, DetectDigits method [TAPI 2.2], DetectDigits method [TAPI 2.2],ITLegacyCallMediaControl interface, ITLegacyCallMediaControl interface [TAPI 2.2],DetectDigits method, ITLegacyCallMediaControl.DetectDigits, ITLegacyCallMediaControl::DetectDigits, _tapi3_itlegacycallmediacontrol_detectdigits, tapi3.itlegacycallmediacontrol_detectdigits, tapi3if/ITLegacyCallMediaControl::DetectDigits
 ms.topic: method
 req.header: tapi3if.h

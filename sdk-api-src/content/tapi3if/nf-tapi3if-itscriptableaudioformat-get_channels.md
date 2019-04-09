@@ -7,7 +7,7 @@ old-location: tapi3\itscriptableaudioformat_get_channels.htm
 tech.root: Tapi
 ms.assetid: 3d92b08f-d108-4ea5-beac-cff2fad258cc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],get_Channels method, ITScriptableAudioFormat.get_Channels, ITScriptableAudioFormat::get_Channels, _tapi3_itscriptableaudioformat_get_channels, get_Channels, get_Channels method [TAPI 2.2], get_Channels method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_get_channels, tapi3if/ITScriptableAudioFormat::get_Channels
 ms.topic: method
 req.header: tapi3if.h

@@ -7,7 +7,7 @@ old-location: gdi\iprintasyncnotifycallback_iprintasyncnotifycallback__channelcl
 tech.root: printdocs
 ms.assetid: 245f4d86-a6b9-421a-add5-fb7afbbacb45
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ChannelClosed, ChannelClosed method [Windows GDI], ChannelClosed method [Windows GDI],IPrintAsyncNotifyCallback interface, IPrintAsyncNotifyCallback interface [Windows GDI],ChannelClosed method, IPrintAsyncNotifyCallback.ChannelClosed, IPrintAsyncNotifyCallback::ChannelClosed, _win32_IPrintAsyncNotifyCallback_ChannelClosed, gdi.iprintasyncnotifycallback_iprintasyncnotifycallback__channelclosed, prnasnot/IPrintAsyncNotifyCallback::ChannelClosed
 ms.topic: method
 req.header: prnasnot.h

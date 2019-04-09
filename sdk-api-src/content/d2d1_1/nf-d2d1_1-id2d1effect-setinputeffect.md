@@ -7,7 +7,7 @@ old-location: direct2d\id2d1effect_setinputeffect.htm
 tech.root: Direct2D
 ms.assetid: 361B0644-7437-47DA-A34C-0234EE4E92C3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ID2D1Effect interface [Direct2D],SetInputEffect method, ID2D1Effect.SetInputEffect, ID2D1Effect::SetInputEffect, SetInputEffect, SetInputEffect method [Direct2D], SetInputEffect method [Direct2D],ID2D1Effect interface, d2d1_1/ID2D1Effect::SetInputEffect, direct2d.id2d1effect_setinputeffect
 ms.topic: method
 req.header: d2d1_1.h

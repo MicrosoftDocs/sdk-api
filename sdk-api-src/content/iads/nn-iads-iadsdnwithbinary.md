@@ -7,7 +7,7 @@ old-location: adsi\iadsdnwithbinary.htm
 tech.root: adsi
 ms.assetid: dd64f0bd-1211-4e6f-93b5-87c079999208
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DNWithBinary, IADsDNWithBinary, IADsDNWithBinary interface [ADSI], IADsDNWithBinary interface [ADSI],described, _ds_iadsdnwithbinary, adsi.iadsdnwithbinary, iads/IADsDNWithBinary
 ms.topic: interface
 req.header: iads.h

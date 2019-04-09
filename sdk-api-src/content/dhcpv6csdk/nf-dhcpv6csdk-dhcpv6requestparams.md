@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv6requestparams.htm
 tech.root: DHCP
 ms.assetid: dfe94735-ee9d-4781-9d54-90a10d0e243a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Dhcpv6RequestParams, Dhcpv6RequestParams function [DHCP], dhcp.dhcpv6requestparams, dhcpv6csdk/Dhcpv6RequestParams
 ms.topic: function
 req.header: dhcpv6csdk.h

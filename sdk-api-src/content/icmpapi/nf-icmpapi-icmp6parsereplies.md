@@ -7,7 +7,7 @@ old-location: iphlp\icmp6parsereplies.htm
 tech.root: IpHlp
 ms.assetid: b4d63ffd-37ad-4901-b017-205fb15381e7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Icmp6ParseReplies, Icmp6ParseReplies function [IP Helper], icmpapi/Icmp6ParseReplies, iphlp.icmp6parsereplies
 ms.topic: function
 req.header: icmpapi.h

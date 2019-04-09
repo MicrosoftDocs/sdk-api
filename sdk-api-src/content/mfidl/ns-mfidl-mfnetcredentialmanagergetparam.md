@@ -7,7 +7,7 @@ old-location: mf\mfnetcredentialmanagergetparam.htm
 tech.root: medfound
 ms.assetid: 951d74df-11f8-4623-a81b-63e632f80d0e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 951d74df-11f8-4623-a81b-63e632f80d0e, MFNetCredentialManagerGetParam, MFNetCredentialManagerGetParam structure [Media Foundation], mf.mfnetcredentialmanagergetparam, mfidl/MFNetCredentialManagerGetParam
 ms.topic: struct
 req.header: mfidl.h

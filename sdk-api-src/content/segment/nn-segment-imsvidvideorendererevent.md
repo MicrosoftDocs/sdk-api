@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorendererevent.htm
 tech.root: mstv
 ms.assetid: ff451fa3-a755-4969-bccc-3a014865e7a9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRendererEvent, IMSVidVideoRendererEvent interface [Microsoft TV Technologies], IMSVidVideoRendererEvent interface [Microsoft TV Technologies],described, IMSVidVideoRendererEventInterface, mstv.imsvidvideorendererevent, segment/IMSVidVideoRendererEvent
 ms.topic: interface
 req.header: segment.h

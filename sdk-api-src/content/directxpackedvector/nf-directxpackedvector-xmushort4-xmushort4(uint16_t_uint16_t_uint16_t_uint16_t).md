@@ -7,7 +7,7 @@ old-location: dxmath\xmushort4_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUSHORT4.#ctor(uint16_t,uint16_t,uint16_t,uint16_t)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: XMUSHORT4, XMUSHORT4 constructor [DirectX Math Support APIs], XMUSHORT4 constructor [DirectX Math Support APIs],XMUSHORT4 structure, XMUSHORT4 structure [DirectX Math Support APIs],XMUSHORT4 constructor, XMUSHORT4.XMUSHORT4, XMUSHORT4.XMUSHORT4(uint16_t,uint16_t,uint16_t,uint16_t), XMUSHORT4::XMUSHORT4, XMUSHORT4::XMUSHORT4(uint16_t,uint16_t,uint16_t,uint16_t), dxmath.xmushort4_ctor_2
 ms.topic: method
 req.header: directxpackedvector.h

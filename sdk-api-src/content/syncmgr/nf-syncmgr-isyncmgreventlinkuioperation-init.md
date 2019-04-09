@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrEventLinkUIOperation_Init.htm
 tech.root: shell
 ms.assetid: 6f9c9fd9-54f9-423d-af91-6f569a7c8616
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ISyncMgrEventLinkUIOperation interface [Windows Shell],Init method, ISyncMgrEventLinkUIOperation.Init, ISyncMgrEventLinkUIOperation::Init, Init, Init method [Windows Shell], Init method [Windows Shell],ISyncMgrEventLinkUIOperation interface, _shell_ISyncMgrEventLinkUIOperation_Init, shell.ISyncMgrEventLinkUIOperation_Init, syncmgr/ISyncMgrEventLinkUIOperation::Init
 ms.topic: method
 req.header: syncmgr.h

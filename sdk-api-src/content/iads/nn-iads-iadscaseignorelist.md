@@ -7,7 +7,7 @@ old-location: adsi\iadscaseignorelist.htm
 tech.root: adsi
 ms.assetid: e587d603-d235-4449-986c-89f0fdb86ab6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IADsCaseIgnoreList, IADsCaseIgnoreList interface [ADSI], IADsCaseIgnoreList interface [ADSI],described, _ds_iadscaseignorelist, adsi.iadscaseignorelist, iads/IADsCaseIgnoreList
 ms.topic: interface
 req.header: iads.h

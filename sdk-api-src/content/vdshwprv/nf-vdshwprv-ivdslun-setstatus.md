@@ -7,7 +7,7 @@ old-location: base\ivdslun_setstatus.htm
 tech.root: VDS
 ms.assetid: a293f129-5238-405a-ba56-bf53ac4ab1d8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVdsLun interface [VDS],SetStatus method, IVdsLun.SetStatus, IVdsLun::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsLun interface, base.ivdslun_setstatus, vds/IVdsLun::SetStatus, vdshwprv/IVdsLun::SetStatus
 ms.topic: method
 req.header: vdshwprv.h

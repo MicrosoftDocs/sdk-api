@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_get_destinationtop.htm
 tech.root: DirectShow
 ms.assetid: 79690655-ac84-4119-9d87-799990424f00
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_DestinationTop method, IBasicVideo.get_DestinationTop, IBasicVideo::get_DestinationTop, IBasicVideoget_DestinationTop, control/IBasicVideo::get_DestinationTop, dshow.ibasicvideo_get_destinationtop, get_DestinationTop, get_DestinationTop method [DirectShow], get_DestinationTop method [DirectShow],IBasicVideo interface
 ms.topic: method
 req.header: control.h

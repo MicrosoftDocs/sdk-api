@@ -7,7 +7,7 @@ old-location: controls\getcontextmenuex.htm
 tech.root: Controls
 ms.assetid: 6354921F-3C9F-4CBD-AC48-1EB67D1FDEB7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GCMF_GRIPPER, GCMF_MOUSEMENU, GCMF_SPELLING, GCMF_TOUCHMENU, GETCONTEXTMENUEX, GETCONTEXTMENUEX structure [Windows Controls], controls.getcontextmenuex, richedit/GETCONTEXTMENUEX
 ms.topic: struct
 req.header: richedit.h

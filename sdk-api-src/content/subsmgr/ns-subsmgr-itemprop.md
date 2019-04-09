@@ -7,7 +7,7 @@ old-location: search\itemprop.htm
 tech.root: search
 ms.assetid: 480C84CB-60CE-42F4-ADE6-4FCF1EAF15AF
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPITEMPROP, ITEMPROP, ITEMPROP structure [search], PITEMPROP, PITEMPROP structure pointer [search], search.itemprop, subsmgr/ITEMPROP, subsmgr/PITEMPROP"
 ms.topic: struct
 req.header: subsmgr.h

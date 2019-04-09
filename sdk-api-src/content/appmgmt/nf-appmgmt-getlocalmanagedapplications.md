@@ -7,7 +7,7 @@ old-location: policy\getlocalmanagedapplications.htm
 tech.root: Policy
 ms.assetid: 4606ff09-7e23-4953-aeef-cac822995d35
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetLocalManagedApplications, GetLocalManagedApplications function [Group Policy], appmgmt/GetLocalManagedApplications, policy.getlocalmanagedapplications
 ms.topic: function
 req.header: appmgmt.h

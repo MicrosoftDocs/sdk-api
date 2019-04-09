@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpropertybag_propertybagflags.htm
 tech.root: fsrm
 ms.assetid: b7e5885e-c716-4fa8-afc0-bfe258e5f421
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],PropertyBagFlags property, IFsrmPropertyBag.PropertyBagFlags, IFsrmPropertyBag.get_PropertyBagFlags, IFsrmPropertyBag::PropertyBagFlags, IFsrmPropertyBag::get_PropertyBagFlags, PropertyBagFlags property [File Server Resource Manager], PropertyBagFlags property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_propertybagflags, fsrm.ifsrmpropertybag_propertybagflags, fsrmpipeline/IFsrmPropertyBag::PropertyBagFlags, fsrmpipeline/IFsrmPropertyBag::get_PropertyBagFlags, get_PropertyBagFlags
 ms.topic: method
 req.header: fsrmpipeline.h

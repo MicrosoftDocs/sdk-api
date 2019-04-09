@@ -7,7 +7,7 @@ old-location: shell\IContextMenu2_HandleMenuMsg.htm
 tech.root: shell
 ms.assetid: 06ea4563-a299-4587-906f-4f312c21498a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: HandleMenuMsg, HandleMenuMsg method [Windows Shell], HandleMenuMsg method [Windows Shell],IContextMenu2 interface, IContextMenu2 interface [Windows Shell],HandleMenuMsg method, IContextMenu2.HandleMenuMsg, IContextMenu2::HandleMenuMsg, _win32_IContextMenu2_HandleMenuMsg, shell.IContextMenu2_HandleMenuMsg, shobjidl_core/IContextMenu2::HandleMenuMsg
 ms.topic: method
 req.header: shobjidl_core.h

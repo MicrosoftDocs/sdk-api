@@ -7,7 +7,7 @@ old-location: wnet\wnetgetuser.htm
 tech.root: WNet
 ms.assetid: 8e73d2a9-c776-4661-81ab-84b7cf037cbd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WNetGetUser, WNetGetUser function [Windows Networking (WNet)], WNetGetUserA, WNetGetUserW, _win32_wnetgetuser, winnetwk/WNetGetUser, winnetwk/WNetGetUserA, winnetwk/WNetGetUserW, wnet.wnetgetuser
 ms.topic: function
 req.header: winnetwk.h

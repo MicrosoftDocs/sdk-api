@@ -7,7 +7,7 @@ old-location: multimedia\icdraw_struct.htm
 tech.root: Multimedia
 ms.assetid: 9b3e2788-176c-41be-8ae3-244ed93ff4f8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ICDRAW, ICDRAW structure [Windows Multimedia], ICDRAW_HURRYUP, ICDRAW_NOTKEYFRAME, ICDRAW_NULLFRAME, ICDRAW_PREROLL, ICDRAW_UPDATE, multimedia.icdraw_COLLISION9, multimedia.icdraw_struct, vfw/ICDRAW
 ms.topic: struct
 req.header: vfw.h

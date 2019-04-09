@@ -7,7 +7,7 @@ old-location: tapi3\itmediacontrol_get_mediastate.htm
 tech.root: Tapi
 ms.assetid: d28063cc-12fe-45b1-8f6a-8c2436926e12
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITMediaControl interface [TAPI 2.2],get_MediaState method, ITMediaControl.get_MediaState, ITMediaControl::get_MediaState, _tapi3_itmediacontrol_get_mediastate, get_MediaState, get_MediaState method [TAPI 2.2], get_MediaState method [TAPI 2.2],ITMediaControl interface, tapi3.itmediacontrol_get_mediastate, tapi3if/ITMediaControl::get_MediaState
 ms.topic: method
 req.header: tapi3if.h

@@ -7,7 +7,7 @@ old-location: security\getuserauthdata.htm
 tech.root: SecAuthN
 ms.assetid: 2436eaee-1f32-4e32-9a98-74968ad9b58e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetUserAuthData, GetUserAuthData callback function [Security], LSA_GET_USER_AUTH_DATA, LSA_GET_USER_AUTH_DATA callback, _ssp_getuserauthdata, ntsecpkg/GetUserAuthData, security.getuserauthdata
 ms.topic: callback
 req.header: ntsecpkg.h

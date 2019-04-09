@@ -7,7 +7,7 @@ old-location: controls\DSA_GetSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_getsize.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DSA_GetSize, DSA_GetSize function [Windows Controls], _shell_DSA_GetSize, _shell_DSA_GetSize_cpp, controls.DSA_GetSize, controls._shell_DSA_GetSize, dpa_dsa/DSA_GetSize
 ms.topic: function
 req.header: dpa_dsa.h

@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmactioneventlog.htm
 tech.root: fsrm
 ms.assetid: 418cd7aa-c363-4ab7-9c7e-2d0388483a8f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFsrmActionEventLog, IFsrmActionEventLog interface [File Server Resource Manager], IFsrmActionEventLog interface [File Server Resource Manager],described, fs.ifsrmactioneventlog, fsrm.ifsrmactioneventlog, fsrm/IFsrmActionEventLog
 ms.topic: interface
 req.header: fsrm.h

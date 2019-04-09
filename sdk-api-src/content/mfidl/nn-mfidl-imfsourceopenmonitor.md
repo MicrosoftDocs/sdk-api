@@ -7,7 +7,7 @@ old-location: mf\imfsourceopenmonitor.htm
 tech.root: medfound
 ms.assetid: 9145910b-81f1-4fd1-8f6f-d6273e0edde6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 9145910b-81f1-4fd1-8f6f-d6273e0edde6, IMFSourceOpenMonitor, IMFSourceOpenMonitor interface [Media Foundation], IMFSourceOpenMonitor interface [Media Foundation],described, mf.imfsourceopenmonitor, mfidl/IMFSourceOpenMonitor
 ms.topic: interface
 req.header: mfidl.h

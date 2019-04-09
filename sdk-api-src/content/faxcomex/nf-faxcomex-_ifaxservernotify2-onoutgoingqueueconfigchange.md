@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxservernotify2_onoutgoingqueueconfigchange.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onoutgoingqueueconfigchange.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnOutgoingQueueConfigChange method, IFaxServerNotify2.OnOutgoingQueueConfigChange, IFaxServerNotify2::OnOutgoingQueueConfigChange, OnOutgoingQueueConfigChange, OnOutgoingQueueConfigChange method [Fax Service], OnOutgoingQueueConfigChange method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnOutgoingQueueConfigChange, _IFaxServerNotify2::OnOutgoingQueueConfigChange, _mfax_ifaxservernotify2_onoutgoingqueueconfigchange, fax._mfax_ifaxservernotify2_onoutgoingqueueconfigchange, faxcomex/IFaxServerNotify2::OnOutgoingQueueConfigChange
 ms.topic: method
 req.header: faxcomex.h

@@ -7,7 +7,7 @@ old-location: base\shutdownblockreasonquery.htm
 tech.root: Shutdown
 ms.assetid: 8c92ebbb-1692-4c14-b32a-17f59b8ab7a3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ShutdownBlockReasonQuery, ShutdownBlockReasonQuery function, base.shutdownblockreasonquery, winuser/ShutdownBlockReasonQuery
 ms.topic: function
 req.header: winuser.h

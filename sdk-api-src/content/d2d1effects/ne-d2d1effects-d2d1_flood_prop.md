@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_flood_prop.htm
 tech.root: Direct2D
 ms.assetid: C8132218-70A8-4242-9D10-A2FD08099DD3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: D2D1_FLOOD_PROP, D2D1_FLOOD_PROP enumeration [Direct2D], D2D1_FLOOD_PROP_COLOR, d2d1effects/D2D1_FLOOD_PROP, d2d1effects/D2D1_FLOOD_PROP_COLOR, direct2d.d2d1_flood_prop
 ms.topic: enum
 req.header: d2d1effects.h

@@ -7,7 +7,7 @@ old-location: windowssetupandmigration\oobecomplete.htm
 tech.root: WNF
 ms.assetid: D543CD82-9985-49E2-A902-34CB5880B875
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: OOBEComplete, isOOBEComplete, isOOBEComplete function, oobenotification/isOOBEComplete, windowssetupandmigration.oobecomplete
 ms.topic: function
 req.header: oobenotification.h

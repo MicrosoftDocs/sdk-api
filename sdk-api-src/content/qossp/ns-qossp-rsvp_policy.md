@@ -7,7 +7,7 @@ old-location: qos\rsvp_policy.htm
 tech.root: QOS
 ms.assetid: e23cd113-6fa1-479b-85c2-7690055e57e7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPRSVP_POLICY, *LPRSVP_POLICY structure [QOS], RSVP_POLICY, RSVP_POLICY structure [QOS], qos.rsvp_policy, qossp/*LPRSVP_POLICY, qossp/RSVP_POLICY"
 ms.topic: struct
 req.header: qossp.h

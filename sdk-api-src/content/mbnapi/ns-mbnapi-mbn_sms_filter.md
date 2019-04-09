@@ -7,7 +7,7 @@ old-location: mbn\mbn_sms_filter.htm
 tech.root: mbn
 ms.assetid: f8dffd7b-3c12-43da-b61c-3c9aa8f1136f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MBN_SMS_FILTER, MBN_SMS_FILTER structure [Microsoft Broadband Networks], mbn.mbn_sms_filter, mbnapi/MBN_SMS_FILTER
 ms.topic: struct
 req.header: mbnapi.h

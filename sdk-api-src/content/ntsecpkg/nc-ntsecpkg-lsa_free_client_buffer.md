@@ -7,7 +7,7 @@ old-location: security\freeclientbuffer.htm
 tech.root: SecAuthN
 ms.assetid: c3a92039-7fb1-49e9-8e7a-0c902770543e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FreeClientBuffer, FreeClientBuffer callback function [Security], LSA_FREE_CLIENT_BUFFER, LSA_FREE_CLIENT_BUFFER callback, _lsa_freeclientbuffer, ntsecpkg/FreeClientBuffer, security.freeclientbuffer
 ms.topic: callback
 req.header: ntsecpkg.h

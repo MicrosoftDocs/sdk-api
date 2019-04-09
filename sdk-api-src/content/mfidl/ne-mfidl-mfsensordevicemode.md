@@ -7,7 +7,7 @@ old-location: mf\mfsensordevicemode.htm
 tech.root: medfound
 ms.assetid: D405AB48-13EC-4859-91B6-0DB797F85DBE
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MFSensorDeviceMode, MFSensorDeviceMode enumeration [Media Foundation], MFSensorDeviceMode_Controller, MFSensorDeviceMode_Shared, mf.mfsensordevicemode, mfidl/MFSensorDeviceMode, mfidl/MFSensorDeviceMode_Controller, mfidl/MFSensorDeviceMode_Shared
 ms.topic: enum
 req.header: mfidl.h

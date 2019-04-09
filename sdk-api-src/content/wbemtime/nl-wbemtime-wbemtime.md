@@ -7,7 +7,7 @@ old-location: wmi\wbemtime.htm
 tech.root: WmiSdk
 ms.assetid: b633bc8c-9d02-4bcf-8528-10773fb5ae7a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WBEMTime, WBEMTime class [Windows Management Instrumentation], WBEMTime class [Windows Management Instrumentation],described, _hmm_wbemtime, wbemtime/WBEMTime, wmi.wbemtime
 ms.topic: class
 req.header: wbemtime.h

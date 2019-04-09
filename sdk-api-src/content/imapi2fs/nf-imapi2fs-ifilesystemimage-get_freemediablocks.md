@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_get_freemediablocks.htm
 tech.root: imapi
 ms.assetid: 4942d86d-0cc7-4f4e-b257-dc59d3896b38
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_FreeMediaBlocks method, IFileSystemImage.get_FreeMediaBlocks, IFileSystemImage::get_FreeMediaBlocks, get_FreeMediaBlocks, get_FreeMediaBlocks method [IMAPI], get_FreeMediaBlocks method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_freemediablocks, imapi2fs/IFileSystemImage::get_FreeMediaBlocks
 ms.topic: method
 req.header: imapi2fs.h

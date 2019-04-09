@@ -7,7 +7,7 @@ old-location: wmi\cthreadbase_cthreadbase.htm
 tech.root: WmiSdk
 ms.assetid: 43909501-0a65-4728-9a26-30b8391a33c5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "??0CThreadBase@@QAE@W4THREAD_SAFETY_MECHANISM@0@@Z, CThreadBase, CThreadBase interface [Windows Management Instrumentation],CThreadBase method, CThreadBase method [Windows Management Instrumentation], CThreadBase method [Windows Management Instrumentation],CThreadBase interface, CThreadBase.CThreadBase, CThreadBase::CThreadBase, thrdbase/CThreadBase::CThreadBase, wmi.cthreadbase_cthreadbase"
 ms.topic: method
 req.header: thrdbase.h

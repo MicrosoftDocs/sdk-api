@@ -7,7 +7,7 @@ old-location: wsw\ws_string_description.htm
 tech.root: wsw
 ms.assetid: 10abb773-ec10-4e72-bce8-13fe3c41cb52
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_STRING_DESCRIPTION, WS_STRING_DESCRIPTION structure [Web Services for Windows], webservices/WS_STRING_DESCRIPTION, wsw.ws_string_description
 ms.topic: struct
 req.header: webservices.h

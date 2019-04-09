@@ -7,7 +7,7 @@ old-location: fs\lsncontainer.htm
 tech.root: Clfs
 ms.assetid: 1bbbb37b-8197-44bd-b19b-c43ece1c46d2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: LsnContainer, LsnContainer function [Files], clfsw32/LsnContainer, fs.lsncontainer
 ms.topic: function
 req.header: clfsw32.h

@@ -7,7 +7,7 @@ old-location: dxmath\xmscalarsincos.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.scalar.XMScalarSinCos(float@,float@,float)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMScalarSinCos, XMScalarSinCos, XMScalarSinCos method [DirectX Math Support APIs], dxmath.xmscalarsincos
 ms.topic: function
 req.header: directxmath.h

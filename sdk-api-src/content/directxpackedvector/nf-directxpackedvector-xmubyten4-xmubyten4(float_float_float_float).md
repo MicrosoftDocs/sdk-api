@@ -7,7 +7,7 @@ old-location: dxmath\xmubyten4_ctor_4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUBYTEN4.#ctor(float,float,float,float)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: XMUBYTEN4, XMUBYTEN4 constructor [DirectX Math Support APIs], XMUBYTEN4 constructor [DirectX Math Support APIs],XMUBYTEN4 structure, XMUBYTEN4 structure [DirectX Math Support APIs],XMUBYTEN4 constructor, XMUBYTEN4.XMUBYTEN4, XMUBYTEN4.XMUBYTEN4(float,float,float,float), XMUBYTEN4::XMUBYTEN4, XMUBYTEN4::XMUBYTEN4(float,float,float,float), dxmath.xmubyten4_ctor_4
 ms.topic: method
 req.header: directxpackedvector.h

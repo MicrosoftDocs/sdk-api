@@ -7,7 +7,7 @@ old-location: secbiomet\sensoradaptercancel.htm
 tech.root: SecBioMet
 ms.assetid: 11a0728e-1833-43b3-8ae2-0393743bb19b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PIBIO_SENSOR_CANCEL_FN, PIBIO_SENSOR_CANCEL_FN callback, SensorAdapterCancel, SensorAdapterCancel callback function [Windows Biometric Framework API], secbiomet.sensoradaptercancel, winbio_adapter/SensorAdapterCancel
 ms.topic: callback
 req.header: winbio_adapter.h

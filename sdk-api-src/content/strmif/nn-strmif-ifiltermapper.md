@@ -7,7 +7,7 @@ old-location: dshow\ifiltermapper.htm
 tech.root: DirectShow
 ms.assetid: e2f32235-e331-4c3c-925a-7cfa531e9ab3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFilterMapper, IFilterMapper interface [DirectShow], IFilterMapper interface [DirectShow],described, IFilterMapperInterface, dshow.ifiltermapper, strmif/IFilterMapper
 ms.topic: interface
 req.header: strmif.h

@@ -7,7 +7,7 @@ old-location: ncd\iwsdserviceproxyeventing.htm
 tech.root: WsdApi
 ms.assetid: c9454636-6d6a-4344-a954-1bd35195aff9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWSDServiceProxyEventing, IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,described, ncd.iwsdserviceproxyeventing, wsdclient/IWSDServiceProxyEventing
 ms.topic: interface
 req.header: wsdclient.h

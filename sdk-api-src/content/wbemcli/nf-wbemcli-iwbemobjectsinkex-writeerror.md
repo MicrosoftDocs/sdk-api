@@ -7,7 +7,7 @@ old-location: wmi\iwbemobjectsinkex_writeerror.htm
 tech.root: WmiSdk
 ms.assetid: 908b46de-a64e-4db0-957f-6aeb4870ad46
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWbemObjectSinkEx interface [Windows Management Instrumentation],WriteError method, IWbemObjectSinkEx.WriteError, IWbemObjectSinkEx::WriteError, WriteError, WriteError method [Windows Management Instrumentation], WriteError method [Windows Management Instrumentation],IWbemObjectSinkEx interface, wbemcli/IWbemObjectSinkEx::WriteError, wmi.iwbemobjectsinkex_writeerror
 ms.topic: method
 req.header: wbemcli.h

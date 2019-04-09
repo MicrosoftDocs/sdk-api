@@ -7,7 +7,7 @@ old-location: wua\iupdateservice_ismanaged.htm
 tech.root: Wua_Sdk
 ms.assetid: 1a473cb3-7209-4056-91bc-bfa416981ae5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],IsManaged property, IUpdateService.IsManaged, IUpdateService.get_IsManaged, IUpdateService::IsManaged, IUpdateService::get_IsManaged, IsManaged property [Windows Update Agent], IsManaged property [Windows Update Agent],IUpdateService interface, get_IsManaged, wua.iupdateservice_ismanaged, wuapi/IUpdateService::IsManaged, wuapi/IUpdateService::get_IsManaged
 ms.topic: method
 req.header: wuapi.h

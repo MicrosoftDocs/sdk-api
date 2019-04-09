@@ -7,7 +7,7 @@ old-location: security\iazrole_submit.htm
 tech.root: SecAuthZ
 ms.assetid: 97f2018a-92f0-4ebb-85f1-78c140003d8f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AzRole object [Security],Submit method, IAzRole interface [Security],Submit method, IAzRole.Submit, IAzRole::Submit, Submit, Submit method [Security], Submit method [Security],AzRole object, Submit method [Security],IAzRole interface, azroles/IAzRole::Submit, security.iazrole_submit
 ms.topic: method
 req.header: azroles.h

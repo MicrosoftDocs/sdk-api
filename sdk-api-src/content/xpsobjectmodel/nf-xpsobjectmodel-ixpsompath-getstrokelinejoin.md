@@ -7,7 +7,7 @@ old-location: xps\ixpsompath_getstrokelinejoin.htm
 tech.root: printdocs
 ms.assetid: 3e460f22-7997-419a-86b7-a0beace1bc27
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetStrokeLineJoin, GetStrokeLineJoin method [XPS Documents and Packaging], GetStrokeLineJoin method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeLineJoin method, IXpsOMPath.GetStrokeLineJoin, IXpsOMPath::GetStrokeLineJoin, xps.ixpsompath_getstrokelinejoin, xpsobjectmodel/IXpsOMPath::GetStrokeLineJoin
 ms.topic: method
 req.header: xpsobjectmodel.h

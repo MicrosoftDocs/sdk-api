@@ -7,7 +7,7 @@ old-location: p2p\peercollabparsecontact.htm
 tech.root: P2PSdk
 ms.assetid: c50954b2-0e63-412e-85ca-5149ed73791f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PeerCollabParseContact, PeerCollabParseContact function [Peer Networking], p2p.peercollabparsecontact, p2p/PeerCollabParseContact
 ms.topic: function
 req.header: p2p.h

@@ -7,7 +7,7 @@ old-location: alljoyn\alljoynenumevents.htm
 tech.root: AllJoyn
 ms.assetid: 0B53EAE5-9043-46F2-9C7B-A5836AF241A3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AllJoynEnumEvents, AllJoynEnumEvents function [AllJoyn API], alljoyn.alljoynenumevents, msajtransport/AllJoynEnumEvents
 ms.topic: function
 req.header: msajtransport.h

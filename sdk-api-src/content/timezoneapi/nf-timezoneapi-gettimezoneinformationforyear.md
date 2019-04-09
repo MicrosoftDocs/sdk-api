@@ -7,7 +7,7 @@ old-location: base\gettimezoneinformationforyear.htm
 tech.root: SysInfo
 ms.assetid: 5bd29a25-98f0-439e-be88-8011bbf98926
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetTimeZoneInformationForYear, GetTimeZoneInformationForYear function, base.gettimezoneinformationforyear, timezoneapi/GetTimeZoneInformationForYear
 ms.topic: function
 req.header: timezoneapi.h
