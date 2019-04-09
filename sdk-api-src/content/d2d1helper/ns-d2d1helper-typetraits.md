@@ -66,11 +66,3 @@ The template type.
 
 
 
-#### - Point
-
-
-#### - Rect
-
-
-#### - Size
-
