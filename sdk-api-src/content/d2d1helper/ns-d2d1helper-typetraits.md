@@ -54,16 +54,14 @@ Contains implementations of <b>Point</b>, <b>Size</b>, and <b>Rect</b> that stor
 ## -struct-fields
 
 
-
-
 ### -field field
 
- 
+Contains the typedef for <b>Point</b>, <b>Size</b>, or <b>Rect</b> with the type specified in the template type.
 
 
 ### -field .Type
 
- 
+The template type.
 
 
 
