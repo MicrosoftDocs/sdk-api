@@ -4,7 +4,7 @@ title: NCRYPT_SUPPORTED_LENGTHS (ncrypt.h)
 author: windows-sdk-content
 description: Used with the NCRYPT_LENGTHS_PROPERTY property to contain length information for a key.
 old-location: security\ncrypt_supported_lengths.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 11bb3669-d536-4c8f-a30b-1826ccdbe275
 ms.author: windowssdkdev
 ms.date: 12/5/2018

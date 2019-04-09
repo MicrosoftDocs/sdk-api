@@ -4,7 +4,7 @@ title: BCRYPT_KEY_DATA_BLOB_HEADER (bcrypt.h)
 author: windows-sdk-content
 description: Used to contain information about a key data BLOB.
 old-location: security\bcrypt_key_data_blob_header.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 054bba02-c73a-496d-b619-749c3f4e8ad9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: UninstallApplication function (appmgmt.h)
 author: windows-sdk-content
 description: The UninstallApplication function uninstalls a group policy application that handles setup and installation using Windows Installer .msi files.
 old-location: policy\uninstallapplication.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: d45494e2-d86e-4d94-a158-4024eacf46a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -83,7 +83,7 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>. Otherwise, t
 
 Remove a group policy application that uses .msi files by calling  the <a href="https://msdn.microsoft.com/en-us/library/Cc185688(v=VS.85).aspx">Windows Installer</a> function <a href="https://msdn.microsoft.com/06f341ac-badd-47a0-af86-4fb76bf528d6">MsiConfigureProduct</a> to uninstall the application. Then call <b>UninstallApplication</b>  to  inform the system that the application is no longer managed on the client by Group Policy.  <b>UninstallApplication</b> should be called even if the uninstall fails because this enables the system to keep the <a href="https://msdn.microsoft.com/c3367738-21c9-4159-bc33-2529a60f0e39">Resultant Set of Policy (RSoP)</a> accurate.
 
-Remove applications installed using software installation settings (.zap files) by calling  the uninstall function or command  specific for the installation application. For information about using installation applications other than  the <a href="https://msdn.microsoft.com/en-us/library/Cc185688(v=VS.85).aspx">Windows Installer</a> see article 231747, "<a href="Http://go.microsoft.com/fwlink/p/?linkid=83984">How to Publish non-MSI Programs with .zap Files</a>," in the Microsoft Knowledge Base.
+Remove applications installed using software installation settings (.zap files) by calling  the uninstall function or command  specific for the installation application. For information about using installation applications other than  the <a href="https://msdn.microsoft.com/en-us/library/Cc185688(v=VS.85).aspx">Windows Installer</a> see article 231747, "How to Publish non-MSI Programs with .zap Files," in the Microsoft Knowledge Base.
 
 
 

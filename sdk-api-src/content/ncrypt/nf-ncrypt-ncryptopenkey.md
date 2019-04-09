@@ -4,7 +4,7 @@ title: NCryptOpenKey function (ncrypt.h)
 author: windows-sdk-content
 description: Opens a key that exists in the specified CNG key storage provider.
 old-location: security\ncryptopenkey_func.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 581c5d89-730d-4d8c-b3bb-a28edec25910
 ms.author: windowssdkdev
 ms.date: 12/5/2018

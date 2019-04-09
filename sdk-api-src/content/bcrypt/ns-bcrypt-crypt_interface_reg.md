@@ -4,7 +4,7 @@ title: CRYPT_INTERFACE_REG (bcrypt.h)
 author: windows-sdk-content
 description: Used to contain information about the type of interface supported by a CNG provider.
 old-location: security\crypt_interface_reg.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 80204d2a-ebc8-40f6-bccb-7cd112d7769b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

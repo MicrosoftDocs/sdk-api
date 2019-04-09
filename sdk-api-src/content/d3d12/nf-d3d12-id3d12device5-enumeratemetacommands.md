@@ -65,7 +65,7 @@ A pointer to a <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2
 
 ### -param pDescs [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/0783068A-21D0-4316-9F50-8566535747C8">D3D12_META_COMMAND_DESC</a>*</b>
+Type: <b>D3D12_META_COMMAND_DESC*</b>
 
 An optional pointer to an array of  <a href="https://msdn.microsoft.com/0783068A-21D0-4316-9F50-8566535747C8">D3D12_META_COMMAND_DESC</a> containing the descriptions of the available meta commands. Pass <b>nullptr</b> to have the number of available meta commands returned in <i>pNumMetaCommands</i>.
 

@@ -4,7 +4,7 @@ title: GPOBROWSEINFO (gpedit.h)
 author: windows-sdk-content
 description: The GPOBROWSEINFO structure contains information that the BrowseForGPO function uses to initialize a GPO browser dialog box. After the user closes the dialog box, the system returns information about the user's actions in this structure.
 old-location: policy\gpobrowseinfo_str.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: a0d038f2-66f1-4a79-b9e7-189cb57b80a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

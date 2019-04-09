@@ -4,7 +4,7 @@ title: BCryptRemoveContextFunction function (bcrypt.h)
 author: windows-sdk-content
 description: Removes a cryptographic function from the list of functions that are supported by an existing CNG context.
 old-location: security\bcryptremovecontextfunction.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: b8b1df66-f66f-4efc-9c8e-fca32e0278c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

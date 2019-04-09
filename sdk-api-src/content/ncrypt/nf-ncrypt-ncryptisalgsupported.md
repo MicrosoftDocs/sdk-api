@@ -4,7 +4,7 @@ title: NCryptIsAlgSupported function (ncrypt.h)
 author: windows-sdk-content
 description: Determines if a CNG key storage provider supports a specific cryptographic algorithm.
 old-location: security\ncryptisalgsupported_func.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 99563293-662f-4478-b8da-8526b832012d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -75,7 +75,7 @@ The data contains raw P-W sub-channel data that is returned in the order receive
 
 
 
-For details on the format of the sub-channel data, see Sub-Channel Field Formats in the latest release of the MMC specification at <a href="Http://go.microsoft.com/fwlink/p/?linkid=83843">ftp://ftp.t10.org/t10/drafts/mmc5</a>.
+For details on the format of the sub-channel data, see Sub-Channel Field Formats in the latest release of the MMC specification at ftp://ftp.t10.org/t10/drafts/mmc5.
 
 
 

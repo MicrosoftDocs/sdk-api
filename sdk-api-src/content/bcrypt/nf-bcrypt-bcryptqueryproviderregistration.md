@@ -4,7 +4,7 @@ title: BCryptQueryProviderRegistration function (bcrypt.h)
 author: windows-sdk-content
 description: Retrieves information about a CNG provider.
 old-location: security\bcryptqueryproviderregistration.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 28b8bca9-442f-4d58-86aa-8aa274777ede
 ms.author: windowssdkdev
 ms.date: 12/5/2018

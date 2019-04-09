@@ -4,7 +4,7 @@ title: BCryptFinishHash function (bcrypt.h)
 author: windows-sdk-content
 description: Retrieves the hash or Message Authentication Code (MAC) value for the data accumulated from prior calls to BCryptHashData.
 old-location: security\bcryptfinishhash_func.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 82a7c3d9-c01b-46d0-8b54-694dc0d8ffdd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -140,7 +140,7 @@ One or more parameters are not valid. This includes the case where <i>cbOutput</
 
 Depending on what processor modes a provider supports, <b>BCryptFinishHash</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hHash</i> parameter must be derived from an algorithm handle returned by a provider that was opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag, and any pointers passed to the <b>BCryptFinishHash</b> function must refer to nonpaged (or locked) memory.
 
-To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=84080">WDK and Developer Tools</a>.<b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
+To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
 
 
 

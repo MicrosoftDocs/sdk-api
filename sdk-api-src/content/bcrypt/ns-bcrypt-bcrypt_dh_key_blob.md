@@ -4,7 +4,7 @@ title: BCRYPT_DH_KEY_BLOB (bcrypt.h)
 author: windows-sdk-content
 description: Used as a header for a Diffie-Hellman public key or private key BLOB in memory.
 old-location: security\bcrypt_dh_key_blob.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 6004b2e5-7e06-4108-a0da-472b9b6d5fea
 ms.author: windowssdkdev
 ms.date: 12/5/2018

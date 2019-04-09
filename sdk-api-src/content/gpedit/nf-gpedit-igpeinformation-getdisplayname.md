@@ -4,7 +4,7 @@ title: IGPEInformation::GetDisplayName (gpedit.h)
 author: windows-sdk-content
 description: The GetDisplayName method retrieves the display name for the GPO.
 old-location: policy\igpeinformation_getdisplayname.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: 3c1a43a5-5d16-4abc-85e0-1eeace2ee086
 ms.author: windowssdkdev
 ms.date: 12/5/2018

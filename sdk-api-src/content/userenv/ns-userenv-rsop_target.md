@@ -4,7 +4,7 @@ title: RSOP_TARGET (userenv.h)
 author: windows-sdk-content
 description: The RSOP_TARGET structure contains computer and user information required by the GenerateGroupPolicy function.
 old-location: policy\rsop_target_str.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: 65b0eb27-fc4a-44d6-843e-965a90dc51e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

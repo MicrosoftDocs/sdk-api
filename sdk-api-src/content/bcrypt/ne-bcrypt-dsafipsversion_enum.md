@@ -4,7 +4,7 @@ title: DSAFIPSVERSION_ENUM (bcrypt.h)
 author: windows-sdk-content
 description: Contains FIPS version information.
 old-location: security\dsafipsversion_enum.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 6797D7C0-3451-464E-9261-61217ADAB9C1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

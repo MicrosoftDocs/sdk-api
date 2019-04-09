@@ -4,7 +4,7 @@ title: NCryptDeriveKey function (ncrypt.h)
 author: windows-sdk-content
 description: Derives a key from a secret agreement value.
 old-location: security\ncryptderivekey.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 0ff08c6a-5f30-43ca-9db8-cda3e0704b0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

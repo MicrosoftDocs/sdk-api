@@ -4,7 +4,7 @@ title: BCryptFreeBuffer function (bcrypt.h)
 author: windows-sdk-content
 description: Used to free memory that was allocated by one of the CNG functions.
 old-location: security\bcryptfreebuffer_func.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 0ee83ca1-2fe6-4ff2-823e-888b3e66f310
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -77,7 +77,7 @@ This function does not return a value.
 
 <b>BCryptFreeBuffer</b> must be called in the same processor mode as the BCrypt API function that allocated the buffer. In addition, if the buffer was allocated at <b>PASSIVE_LEVEL</b> <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">IRQL</a>, it must be freed at that <i>IRQL</i>. If the buffer was allocated at <b>DISPATCH_LEVEL</b> <i>IRQL</i>, it can be freed at either <b>DISPATCH_LEVEL</b> <i>IRQL</i> or <b>PASSIVE_LEVEL</b> <i>IRQL</i>.
 
-To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=84080">WDK and Developer Tools</a>.<b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
+To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
 
 
 

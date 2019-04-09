@@ -4,7 +4,7 @@ title: IGroupPolicyObject::GetName (gpedit.h)
 author: windows-sdk-content
 description: The GetName method retrieves the unique GPO name.
 old-location: policy\igrouppolicyobject_getname.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: 1374c01c-aba3-48f5-8a42-7139873d8f7c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

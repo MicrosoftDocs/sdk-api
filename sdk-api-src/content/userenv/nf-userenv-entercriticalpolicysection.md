@@ -4,7 +4,7 @@ title: EnterCriticalPolicySection function (userenv.h)
 author: windows-sdk-content
 description: The EnterCriticalPolicySection function pauses the application of policy to allow applications to safely read policy settings.
 old-location: policy\entercriticalpolicysection.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: d17578b3-3a71-456b-97ca-961b81572528
 ms.author: windowssdkdev
 ms.date: 12/5/2018

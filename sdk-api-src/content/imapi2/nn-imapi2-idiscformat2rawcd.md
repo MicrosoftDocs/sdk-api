@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Use this interface to write raw images to a disc device using Disc At Once (DAO) mode (also known as uninterrupted recording). For information on DAO mode, see the latest revision of the MMC specification at <a href="Http://go.microsoft.com/fwlink/p/?linkid=83843">ftp://ftp.t10.org/t10/drafts/mmc5</a>.  
+Use this interface to write raw images to a disc device using Disc At Once (DAO) mode (also known as uninterrupted recording). For information on DAO mode, see the latest revision of the MMC specification at ftp://ftp.t10.org/t10/drafts/mmc5.  
 
 To create an instance of this interface, call the <b>CoCreateInstance</b> function. Use__uuidof(MsftDiscFormat2RawCD) for the class identifier and __uuidof(IDiscFormat2RawCD) for the interface identifier.
 

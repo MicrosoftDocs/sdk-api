@@ -208,7 +208,7 @@ You cannot change the enable flags and level when the provider is not registered
 </dl>
 </td>
 <td width="60%">
-The provider is not registered.  Occurs when <a href="Http://go.microsoft.com/fwlink/p/?linkid=83987">KB307331</a> or Windows 2000 Service Pack 4 is installed and the 
+The provider is not registered.  Occurs when KB307331 or Windows 2000 Service Pack 4 is installed and the 
 provider is not registered. To avoid this error, the provider must first be registered. 
 
 </td>

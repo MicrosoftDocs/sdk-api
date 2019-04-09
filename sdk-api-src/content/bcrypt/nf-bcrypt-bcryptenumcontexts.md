@@ -4,7 +4,7 @@ title: BCryptEnumContexts function (bcrypt.h)
 author: windows-sdk-content
 description: Obtains the identifiers of the contexts in the specified configuration table.
 old-location: security\bcryptenumcontexts.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 02646a80-6e93-4169-83da-0488ff3da56f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

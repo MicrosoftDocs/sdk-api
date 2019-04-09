@@ -62,7 +62,7 @@ With a PIX capture taken with the use of meta commands, you can play that back o
 
 ### -param pMetaCommand [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/976A7F78-1801-47DD-9350-21F530B4D145">ID3D12MetaCommand</a> representing the meta command to initialize.
+A pointer to an <b>ID3D12MetaCommand</b> representing the meta command to initialize.
 
 
 ### -param pExecutionParametersData [in, optional]

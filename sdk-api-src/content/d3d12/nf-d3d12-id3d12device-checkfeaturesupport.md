@@ -116,10 +116,10 @@ To view tables of DXGI formats and hardware features, refer to:
 <a href="https://msdn.microsoft.com/library/Ff471324(v=VS.85).aspx">Hardware Support for Direct3D 10Level9 Formats</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/011ad888-1c1d-4cbd-ab70-12fb8adc000f">Hardware Support for Direct3D 10.1 Formats</a>
+<a href="https://msdn.microsoft.com/2C7E16D7-EEF0-4EA7-A819-5274C9105F68">Format Support for Direct3D Feature Level 10.1 Hardware</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/529ced9a-d4fa-4b41-932b-343638cd5c7c">Hardware Support for Direct3D 10 Formats</a>
+<a href="https://msdn.microsoft.com/3C1CCA7D-9F2F-4B1B-8424-BA9C6DED4974">Format Support for Direct3D Feature Level 10.0 Hardware</a>
 </li>
 </ul>
 

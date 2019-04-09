@@ -4,7 +4,7 @@ title: IGroupPolicyObject::SetOptions (gpedit.h)
 author: windows-sdk-content
 description: The SetOptions method sets the options for the GPO.
 old-location: policy\igrouppolicyobject_setoptions.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: 4caed430-2861-49cb-9418-b12bf1c46707
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: NCryptKeyName (ncrypt.h)
 author: windows-sdk-content
 description: Used to contain information about a CNG key.
 old-location: security\ncryptkeyname_struct.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 9d9ebbb7-c491-49b0-9686-e37085929271
 ms.author: windowssdkdev
 ms.date: 12/5/2018

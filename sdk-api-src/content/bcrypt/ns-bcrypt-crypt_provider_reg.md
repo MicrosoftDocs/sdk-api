@@ -4,7 +4,7 @@ title: CRYPT_PROVIDER_REG (bcrypt.h)
 author: windows-sdk-content
 description: Used to contain registration information for a CNG provider.
 old-location: security\crypt_provider_reg.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: ca0ac386-9435-49f0-95fe-503aa7183517
 ms.author: windowssdkdev
 ms.date: 12/5/2018

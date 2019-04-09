@@ -4,7 +4,7 @@ title: BCryptSetProperty function (bcrypt.h)
 author: windows-sdk-content
 description: Sets the value of a named property for a CNG object.
 old-location: security\bcryptsetproperty_func.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 687f3410-d28b-4ce2-a2a1-c564f757c668
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -154,7 +154,7 @@ The named property specified by the <i>pszProperty</i> parameter is not supporte
 
 Depending on what processor modes a provider supports, <b>BCryptSetProperty</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, any pointers passed to <b>BCryptSetProperty</b> must refer to nonpaged (or locked) memory. If the object specified in the <i>hObject</i> parameter is a handle, it must have been opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag.
 
-To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=84080">WDK and Developer Tools</a>.<b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
+To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
 
 
 

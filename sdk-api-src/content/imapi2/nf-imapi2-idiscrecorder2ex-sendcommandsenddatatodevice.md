@@ -429,7 +429,7 @@ Value: 0xC0AA0210
 
 
 
-For details of the contents of the command packet, sense data, and input data buffer, see the latest revision of the MMC specification at <a href="Http://go.microsoft.com/fwlink/p/?linkid=83843">ftp://ftp.t10.org/t10/drafts/mmc5</a>.
+For details of the contents of the command packet, sense data, and input data buffer, see the latest revision of the MMC specification at ftp://ftp.t10.org/t10/drafts/mmc5.
 
 Client-defined commands (CDBs) used with this method must be between 6 and 16 bytes in length. In addition, the size of each command must match the size defined by the operation code as defined in the following table.
 

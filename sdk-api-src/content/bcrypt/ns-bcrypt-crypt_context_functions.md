@@ -4,7 +4,7 @@ title: CRYPT_CONTEXT_FUNCTIONS (bcrypt.h)
 author: windows-sdk-content
 description: Contains a set of cryptographic functions for a CNG configuration context.
 old-location: security\crypt_context_functions.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: c576f39c-a03a-47aa-90b7-500736070c6f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

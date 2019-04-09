@@ -4,7 +4,7 @@ title: TOKENBINDING_IDENTIFIER (tokenbinding.h)
 author: windows-sdk-content
 description: Contains the information for representing a token binding identifier that results from a token binding message exchange.
 old-location: security\tokenbinding_identifier.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 301E099E-B621-41E1-BF9B-3AF8C53F9227
 ms.author: windowssdkdev
 ms.date: 12/5/2018

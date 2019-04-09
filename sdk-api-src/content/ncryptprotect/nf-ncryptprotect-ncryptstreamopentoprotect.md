@@ -4,7 +4,7 @@ title: NCryptStreamOpenToProtect function (ncryptprotect.h)
 author: windows-sdk-content
 description: Opens a stream object that can be used to encrypt large amounts of data to a given protection descriptor.
 old-location: security\ncryptstreamopentoprotect.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 7DE74BB1-1B84-4721-BE4A-4D2661E93E00
 ms.author: windowssdkdev
 ms.date: 12/5/2018

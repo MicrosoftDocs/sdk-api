@@ -4,7 +4,7 @@ title: LeaveCriticalPolicySection function (userenv.h)
 author: windows-sdk-content
 description: The LeaveCriticalPolicySection function resumes the background application of policy. This function closes the handle to the policy section.
 old-location: policy\leavecriticalpolicysection.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: 9e6a938f-c9cb-4baf-b7d0-4316e45f874c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

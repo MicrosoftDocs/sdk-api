@@ -4,7 +4,7 @@ title: CRYPT_IMAGE_REF (bcrypt.h)
 author: windows-sdk-content
 description: Contains information about a CNG provider module.
 old-location: security\crypt_image_ref.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: fb853879-3ee9-45e7-bab6-31f8f8211680
 ms.author: windowssdkdev
 ms.date: 12/5/2018

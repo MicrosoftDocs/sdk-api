@@ -217,7 +217,7 @@ Authenticating a user using S4U client requests. For <a href="https://msdn.micro
 <ul>
 <li>The caller must be a domain account (this includes LOCAL_SYSTEM if the computer is a domain member).</li>
 <li>If using a service account, the account must have <b>SeTcbPrivilege</b> set on the local computer to get an impersonation token. Otherwise, the identity token is used.</li>
-<li>The caller must be a member of the <b>Pre-Windows 2000 Compatible Access</b> or have read access to the group memberships of the client. Membership in the Windows Authorization Access group guarantees read access to group membership of the client. For information about how to configure the Windows Authorization Access group, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=83978">Microsoft Knowledge Base</a>.</li>
+<li>The caller must be a member of the <b>Pre-Windows 2000 Compatible Access</b> or have read access to the group memberships of the client. Membership in the Windows Authorization Access group guarantees read access to group membership of the client. For information about how to configure the Windows Authorization Access group, see the Microsoft Knowledge Base.</li>
 </ul>
 The <b>ClientUpn</b> and <b>ClientRealm</b> members of the <a href="https://msdn.microsoft.com/ab94c36b-7aba-452d-abc0-220c91ffacca">KERB_S4U_LOGON</a> structure must point to buffers in memory that are contiguous to the structure itself. The value of the <i>AuthenticationInformationLength</i> parameter must take into account the length of these buffers.
 

@@ -4,7 +4,7 @@ title: NCryptUnprotectSecret function (ncryptprotect.h)
 author: windows-sdk-content
 description: Decrypts data to a specified protection descriptor.
 old-location: security\ncryptunprotectsecret.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: F532F0ED-36F4-47E3-B478-089CC083E5D1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

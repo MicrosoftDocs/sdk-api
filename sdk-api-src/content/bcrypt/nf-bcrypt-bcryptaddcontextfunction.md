@@ -4,7 +4,7 @@ title: BCryptAddContextFunction function (bcrypt.h)
 author: windows-sdk-content
 description: Adds a cryptographic function to the list of functions that are supported by an existing CNG context.
 old-location: security\bcryptaddcontextfunction.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 4f5b6db0-775d-42de-b9d9-a99fb11c89f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

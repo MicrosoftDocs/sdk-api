@@ -5,7 +5,8 @@
     "d3d12sdklayers.h",
     "d3d12shader.h",
     "d3d11on12.h",
-    "d3dx12.h"
+    "d3dx12.h",
+    "directml.h"
   ],
   "displayName": "Direct3D 12 Graphics"
 }

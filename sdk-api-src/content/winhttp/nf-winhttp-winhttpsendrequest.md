@@ -358,8 +358,7 @@ The name and value of request headers added with this function are validated.  H
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns 
 <a href="https://msdn.microsoft.com/en-us/library/Aa383770(v=VS.85).aspx">ERROR_INVALID_PARAMETER</a>.  The invalid header is not added.
 
-<b>Windows 2000:  </b>When sending requests from multiple threads, there may be a significant decrease in network and CPU performance.  For more information, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84525">Q282865 - Winsock Shutdown Can Increase CPU Usage to 100 Percent</a>.
+<b>Windows 2000:  </b>When sending requests from multiple threads, there may be a significant decrease in network and CPU performance.  
 
 <b>Windows XP and Windows 2000:  </b>See <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Run-Time Requirements</a>.
 

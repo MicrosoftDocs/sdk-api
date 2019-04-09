@@ -4,7 +4,7 @@ title: BCRYPT_PROVIDER_NAME (bcrypt.h)
 author: windows-sdk-content
 description: Contains the name of a CNG provider.
 old-location: security\bcrypt_provider_name_struct.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 0c57aa3f-1d9a-4bb2-b142-bce9c054e658
 ms.author: windowssdkdev
 ms.date: 12/5/2018

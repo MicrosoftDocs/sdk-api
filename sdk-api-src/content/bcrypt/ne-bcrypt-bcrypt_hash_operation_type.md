@@ -4,7 +4,7 @@ title: BCRYPT_HASH_OPERATION_TYPE (bcrypt.h)
 author: windows-sdk-content
 description: The BCRYPT_HASH_OPERATION_TYPE enumeration specifies the hash operation type.
 old-location: security\bcrypt_hash_operation_type.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: DC570FB0-15DF-442C-951A-52A3120DB782
 ms.author: windowssdkdev
 ms.date: 12/5/2018

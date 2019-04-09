@@ -4,7 +4,7 @@ title: NCryptFinalizeKey function (ncrypt.h)
 author: windows-sdk-content
 description: Completes a CNG key storage key.
 old-location: security\ncryptfinalizekey_func.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 4386030d-4ce6-4b2e-adc5-a15ddc869349
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: BCryptKeyDerivation function (bcrypt.h)
 author: windows-sdk-content
 description: Derives a key without requiring a secret agreement.
 old-location: security\bcryptkeyderivation.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: D0B91FFE-2E72-4AE3-A84F-DC598C02CF53
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -228,7 +228,7 @@ You can use the following algorithm identifiers in the <a href="https://msdn.mic
 <li><b>BCRYPT_SP80056A_CONCAT_ALGORITHM</b></li>
 <li><b>BCRYPT_PBKDF2_ALGORITHM</b></li>
 </ul>
-To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=84080">WDK and Developer Tools</a>.<b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
+To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
 
 
 

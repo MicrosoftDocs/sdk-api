@@ -4,7 +4,7 @@ title: POLICYSETTINGSTATUSINFO (userenv.h)
 author: windows-sdk-content
 description: The POLICYSETTINGSTATUSINFO structure provides information about a policy-setting event.
 old-location: policy\policysettingstatusinfo_str.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: f86dbd35-9180-43f1-ad66-7dba31e1fc89
 ms.author: windowssdkdev
 ms.date: 12/5/2018

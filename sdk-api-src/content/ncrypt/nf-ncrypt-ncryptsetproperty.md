@@ -4,7 +4,7 @@ title: NCryptSetProperty function (ncrypt.h)
 author: windows-sdk-content
 description: Sets the value for a named property for a CNG key storage object.
 old-location: security\ncryptsetproperty_func.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: ad1148aa-5f64-4867-9e17-6b41cc0c20b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

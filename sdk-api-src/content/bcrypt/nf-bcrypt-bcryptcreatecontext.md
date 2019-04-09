@@ -4,7 +4,7 @@ title: BCryptCreateContext function (bcrypt.h)
 author: windows-sdk-content
 description: Creates a new CNG configuration context.
 old-location: security\bcryptcreatecontext.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: 68f71010-0089-4433-bc89-f61f190e0bff
 ms.author: windowssdkdev
 ms.date: 12/5/2018

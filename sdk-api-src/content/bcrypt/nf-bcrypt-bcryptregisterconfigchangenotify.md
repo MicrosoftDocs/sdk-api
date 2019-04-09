@@ -4,7 +4,7 @@ title: BCryptRegisterConfigChangeNotify function (bcrypt.h)
 author: windows-sdk-content
 description: Creates a user mode CNG configuration change event handler.
 old-location: security\bcryptregisterconfigchangenotify_handle.htm
-tech.root: seccng
+tech.root: SecCNG
 ms.assetid: e0d60ea1-3b0b-4afe-bbfc-52f0d48b7399
 ms.author: windowssdkdev
 ms.date: 12/5/2018

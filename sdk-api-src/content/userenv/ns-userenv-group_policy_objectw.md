@@ -4,7 +4,7 @@ title: GROUP_POLICY_OBJECTW (userenv.h)
 author: windows-sdk-content
 description: The GROUP_POLICY_OBJECT structure provides information about a GPO in a GPO list.
 old-location: policy\group_policy_object_str.htm
-tech.root: policy
+tech.root: Policy
 ms.assetid: 7275a3cd-6b19-4eb9-9481-b73bd5af5753
 ms.author: windowssdkdev
 ms.date: 12/5/2018
