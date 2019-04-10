@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_FUNC_IsAlphaPixelFormat_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\isalphapixelformat.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IsAlphaPixelFormat, IsAlphaPixelFormat function [GDI+], _gdiplus_FUNC_IsAlphaPixelFormat_, gdiplus._gdiplus_FUNC_IsAlphaPixelFormat_, gdipluspixelformats/IsAlphaPixelFormat
 ms.topic: function
 req.header: gdipluspixelformats.h

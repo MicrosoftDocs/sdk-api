@@ -7,7 +7,7 @@ old-location: tsf\itffngetsapiobject_get.htm
 tech.root: TSF
 ms.assetid: 4dfa2bd2-e25c-4481-ab07-2f764434504d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Get, Get method [Text Services Framework], Get method [Text Services Framework],ITfFnGetSAPIObject interface, ITfFnGetSAPIObject interface [Text Services Framework],Get method, ITfFnGetSAPIObject.Get, ITfFnGetSAPIObject::Get, _tsf_itffngetsapiobject_get_ref, ctffunc/ITfFnGetSAPIObject::Get, tsf.itffngetsapiobject_get
 ms.topic: method
 req.header: ctffunc.h

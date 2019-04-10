@@ -7,7 +7,7 @@ old-location: security\icertpropertydescription.htm
 tech.root: seccertenroll
 ms.assetid: 229e8ce9-fe18-45f4-8f91-cd741052a134
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ICertPropertyDescription, ICertPropertyDescription interface [Security], ICertPropertyDescription interface [Security],described, certenroll/ICertPropertyDescription, security.icertpropertydescription
 ms.topic: interface
 req.header: certenroll.h

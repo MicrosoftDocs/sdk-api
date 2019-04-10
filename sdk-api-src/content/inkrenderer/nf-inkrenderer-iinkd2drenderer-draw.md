@@ -7,7 +7,7 @@ old-location: input_ink\iinkd2drenderer_draw.htm
 tech.root: input_ink
 ms.assetid: 013f3b95-d5da-44e3-b2da-64a49cc8908e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Draw, Draw method, Draw method,IInkD2DRenderer interface, IInkD2DRenderer interface,Draw method, IInkD2DRenderer.Draw, IInkD2DRenderer::Draw, inkrenderer/IInkD2DRenderer::Draw, input_ink.iinkd2drenderer_draw
 ms.topic: method
 req.header: inkrenderer.h

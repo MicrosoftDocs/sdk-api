@@ -7,7 +7,7 @@ old-location: controls\DPA_DeleteAllPtrs.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_deleteallptrs.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DPA_DeleteAllPtrs, DPA_DeleteAllPtrs function [Windows Controls], _win32_DPA_DeleteAllPtrs, _win32_DPA_DeleteAllPtrs_cpp, controls.DPA_DeleteAllPtrs, controls._win32_DPA_DeleteAllPtrs, dpa_dsa/DPA_DeleteAllPtrs
 ms.topic: function
 req.header: dpa_dsa.h

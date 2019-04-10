@@ -7,7 +7,7 @@ old-location: rpc\rpc_binding_vector.htm
 tech.root: Rpc
 ms.assetid: 16a0a595-ed4f-4871-a1a3-268c6bed0305
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RPC_BINDING_VECTOR, RPC_BINDING_VECTOR structure [RPC], _rpc_rpc_binding_vector, rpc.rpc_binding_vector, rpcdce/RPC_BINDING_VECTOR
 ms.topic: struct
 req.header: rpcdce.h

@@ -7,7 +7,7 @@ old-location: wmformat\wmt_indexer_type.htm
 tech.root: wmformat
 ms.assetid: 1b80511c-175f-4d05-8ce6-d048a9e77223
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WMT_INDEXER_TYPE, WMT_INDEXER_TYPE enumeration [windows Media Format], WMT_IT_FRAME_NUMBERS, WMT_IT_PRESENTATION_TIME, WMT_IT_TIMECODE, wmformat.wmt_indexer_type, wmsdkidl/WMT_INDEXER_TYPE, wmsdkidl/WMT_IT_FRAME_NUMBERS, wmsdkidl/WMT_IT_PRESENTATION_TIME, wmsdkidl/WMT_IT_TIMECODE
 ms.topic: enum
 req.header: wmsdkidl.h

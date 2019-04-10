@@ -7,7 +7,7 @@ old-location: base\createtimerqueuetimer.htm
 tech.root: Sync
 ms.assetid: dfcbea5c-e2b7-40e4-b1a2-3cc7446d8844
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateTimerQueueTimer, CreateTimerQueueTimer function, WT_EXECUTEDEFAULT, WT_EXECUTEINIOTHREAD, WT_EXECUTEINPERSISTENTTHREAD, WT_EXECUTEINTIMERTHREAD, WT_EXECUTELONGFUNCTION, WT_EXECUTEONLYONCE, WT_TRANSFER_IMPERSONATION, _win32_createtimerqueuetimer, base.createtimerqueuetimer, threadpoollegacyapiset/CreateTimerQueueTimer, winbase/CreateTimerQueueTimer
 ms.topic: function
 req.header: threadpoollegacyapiset.h

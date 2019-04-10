@@ -7,7 +7,7 @@ old-location: iscsidisc\sendscsiinquiry.htm
 tech.root: iSCSIDisc
 ms.assetid: a1339ff0-aa1e-4609-8983-d5f09481bd13
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SendScsiInquiry, SendScsiInquiry function [iSCSI Discovery Library API], iscsidisc.sendscsiinquiry, iscsidsc/SendScsiInquiry
 ms.topic: function
 req.header: iscsidsc.h

@@ -7,7 +7,7 @@ old-location: wmi\chstring_spanincluding.htm
 tech.root: WmiSdk
 ms.assetid: d99ce931-c6ec-4f1c-b4ab-144dc930f990
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],SpanIncluding method, CHString.SpanIncluding, CHString::SpanIncluding, SpanIncluding, SpanIncluding method [Windows Management Instrumentation], SpanIncluding method [Windows Management Instrumentation],CHString interface, _hmm_chstring_spanincluding, chstring/CHString::SpanIncluding, wmi.chstring_spanincluding
 ms.topic: method
 req.header: chstring.h

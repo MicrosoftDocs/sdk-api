@@ -7,7 +7,7 @@ old-location: base\eventlogrecord_str.htm
 tech.root: EventLog
 ms.assetid: 669b182a-bc81-4386-9815-6ffa09e2e743
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PEVENTLOGRECORD, EVENTLOGRECORD, EVENTLOGRECORD structure, EVENTLOG_AUDIT_FAILURE, EVENTLOG_AUDIT_SUCCESS, EVENTLOG_ERROR_TYPE, EVENTLOG_INFORMATION_TYPE, EVENTLOG_WARNING_TYPE, PEVENTLOGRECORD, PEVENTLOGRECORD structure pointer, _EVENTLOGRECORD, _win32_eventlogrecord_str, base.eventlogrecord_str, winnt/EVENTLOGRECORD, winnt/PEVENTLOGRECORD"
 ms.topic: struct
 req.header: winnt.h

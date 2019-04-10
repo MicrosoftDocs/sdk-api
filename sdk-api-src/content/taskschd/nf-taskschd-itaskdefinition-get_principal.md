@@ -7,7 +7,7 @@ old-location: taskschd\itaskdefinition_principal.htm
 tech.root: taskschd
 ms.assetid: d1c8389b-149c-4fcb-972a-b25fa0d8d763
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITaskDefinition interface [Task Scheduler],Principal property, ITaskDefinition.Principal, ITaskDefinition.get_Principal, ITaskDefinition::Principal, ITaskDefinition::get_Principal, ITaskDefinition::put_Principal, Principal property [Task Scheduler], Principal property [Task Scheduler],ITaskDefinition interface, get_Principal, taskschd.itaskdefinition_principal, taskschd/ITaskDefinition::Principal, taskschd/ITaskDefinition::get_Principal, taskschd/ITaskDefinition::put_Principal
 ms.topic: method
 req.header: taskschd.h

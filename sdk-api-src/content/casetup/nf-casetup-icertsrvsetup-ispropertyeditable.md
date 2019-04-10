@@ -7,7 +7,7 @@ old-location: security\icertsrvsetup_ispropertyeditable.htm
 tech.root: SecCrypto
 ms.assetid: 2facae59-aa96-4ac7-97e1-ff094022681a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ICertSrvSetup interface [Security],IsPropertyEditable method, ICertSrvSetup.IsPropertyEditable, ICertSrvSetup::IsPropertyEditable, IsPropertyEditable, IsPropertyEditable method [Security], IsPropertyEditable method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::IsPropertyEditable, security.icertsrvsetup_ispropertyeditable
 ms.topic: method
 req.header: casetup.h

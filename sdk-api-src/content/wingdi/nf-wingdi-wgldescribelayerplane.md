@@ -7,7 +7,7 @@ old-location: opengl\wgldescribelayerplane.htm
 tech.root: OpenGL
 ms.assetid: a80d257e-7053-4328-8298-80ed72513837
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_ogl_wglDescribeLayerPlane, opengl.wgldescribelayerplane, wglDescribeLayerPlane, wglDescribeLayerPlane function [OpenGL], wingdi/wglDescribeLayerPlane"
 ms.topic: function
 req.header: wingdi.h

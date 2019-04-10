@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaRemoveEventClientEvent.htm
 tech.root: WinAuto
 ms.assetid: c98b3e0f-c3d3-45a5-b1a1-80da1b5673f3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: UiaRemoveEvent, UiaRemoveEvent function [Windows Accessibility], uiauto.uiauto_UiaRemoveEventClientEvent, uiauto_UiaRemoveEventClientEvent, uiautomationcoreapi/UiaRemoveEvent, winauto.uiauto_UiaRemoveEventClientEvent
 ms.topic: function
 req.header: uiautomationcoreapi.h

@@ -7,7 +7,7 @@ old-location: base\interlockedincrement16.htm
 tech.root: Sync
 ms.assetid: 93460ed0-2c2c-4686-a8ed-02669c4df214
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: InterlockedIncrement16, InterlockedIncrement16 function, base.interlockedincrement16, winnt/InterlockedIncrement16
 ms.topic: function
 req.header: winnt.h

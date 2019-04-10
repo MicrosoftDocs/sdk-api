@@ -7,7 +7,7 @@ old-location: intl\mappingfreeservices.htm
 tech.root: Intl
 ms.assetid: 3b90c1c5-3007-4c5d-a51b-e77b1f9c2dd0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MappingFreeServices, MappingFreeServices function [Internationalization for Windows Applications], elscore/MappingFreeServices, intl.mappingfreeservices
 ms.topic: function
 req.header: elscore.h

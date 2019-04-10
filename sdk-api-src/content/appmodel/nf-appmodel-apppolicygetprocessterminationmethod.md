@@ -7,7 +7,7 @@ old-location: appxpkg\apppolicygetprocessterminationmethod_function.htm
 tech.root: appxpkg
 ms.assetid: 7278DF60-A656-4FEE-A5D1-8C159A0B076D
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AppPolicyGetProcessTerminationMethod, AppPolicyGetProcessTerminationMethod function [App packaging and management], appmodel/AppPolicyGetProcessTerminationMethod, appxpkg.apppolicygetprocessterminationmethod_function
 ms.topic: function
 req.header: appmodel.h

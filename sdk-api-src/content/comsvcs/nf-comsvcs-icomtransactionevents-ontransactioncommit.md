@@ -7,7 +7,7 @@ old-location: cos\icomtransactionevents_ontransactioncommit.htm
 tech.root: cossdk
 ms.assetid: c86b8b07-3dd0-48b8-9119-cb438238fc50
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IComTransactionEvents interface [COM+],OnTransactionCommit method, IComTransactionEvents.OnTransactionCommit, IComTransactionEvents::OnTransactionCommit, OnTransactionCommit, OnTransactionCommit method [COM+], OnTransactionCommit method [COM+],IComTransactionEvents interface, _dtc_IComTransactionEvents_OnTransactionCommit, comsvcs/IComTransactionEvents::OnTransactionCommit, cos.icomtransactionevents_ontransactioncommit
 ms.topic: method
 req.header: comsvcs.h

@@ -7,7 +7,7 @@ old-location: dxmath\xmvector3project.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector3Project(XMVECTOR,float,float,float,float,float,float,XMMATRIX,XMMATRIX,XMMATRIX)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector3Project, XMVector3Project, XMVector3Project method [DirectX Math Support APIs], dxmath.xmvector3project
 ms.topic: function
 req.header: directxmath.h

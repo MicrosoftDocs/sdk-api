@@ -7,7 +7,7 @@ old-location: dns\dns_ptr_data.htm
 tech.root: DNS
 ms.assetid: 8b7f8898-ac91-46da-876c-889c427068a3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PDNS_PTR_DATA, *PDNS_PTR_DATAW, DNS_PTR_DATA, DNS_PTR_DATA structure [DNS], DNS_PTR_DATAW, PDNS_PTR_DATA, PDNS_PTR_DATA structure pointer [DNS], _dns_dns_ptr_data, dns.dns_ptr_data, windns/DNS_PTR_DATA, windns/PDNS_PTR_DATA"
 ms.topic: struct
 req.header: windns.h

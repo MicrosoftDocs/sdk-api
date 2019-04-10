@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorsetxptr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorSetXPtr(XMVECTOR,const float)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSetXPtr, XMVectorSetXPtr, XMVectorSetXPtr method [DirectX Math Support APIs], dxmath.xmvectorsetxptr
 ms.topic: function
 req.header: directxmath.h

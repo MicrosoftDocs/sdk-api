@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_rendering_priority.htm
 tech.root: Direct2D
 ms.assetid: 25DC645B-7693-468C-AE11-05F6D1B11741
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: D2D1_RENDERING_PRIORITY, D2D1_RENDERING_PRIORITY enumeration [Direct2D], D2D1_RENDERING_PRIORITY_LOW, D2D1_RENDERING_PRIORITY_NORMAL, d2d1_2/D2D1_RENDERING_PRIORITY, d2d1_2/D2D1_RENDERING_PRIORITY_LOW, d2d1_2/D2D1_RENDERING_PRIORITY_NORMAL, direct2d.d2d1_rendering_priority
 ms.topic: enum
 req.header: d2d1_2.h

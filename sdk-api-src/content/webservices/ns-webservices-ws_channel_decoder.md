@@ -7,7 +7,7 @@ old-location: wsw\ws_channel_decoder.htm
 tech.root: wsw
 ms.assetid: d634f203-cf98-4f4e-85ce-5df23653a3ad
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_CHANNEL_DECODER, WS_CHANNEL_DECODER structure [Web Services for Windows], webservices/WS_CHANNEL_DECODER, wsw.ws_channel_decoder
 ms.topic: struct
 req.header: webservices.h

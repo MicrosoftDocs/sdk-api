@@ -7,7 +7,7 @@ old-location: indexsrv\fullpropspec.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_599f.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FULLPROPSPEC, FULLPROPSPEC structure [Indexing Service], _idxs_FULLPROPSPEC, filter/FULLPROPSPEC, indexsrv.fullpropspec, tagFULLPROPSPEC
 ms.topic: struct
 req.header: filter.h

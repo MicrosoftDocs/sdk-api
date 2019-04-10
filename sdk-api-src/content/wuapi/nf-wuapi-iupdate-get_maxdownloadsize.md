@@ -7,7 +7,7 @@ old-location: wua\iupdate_maxdownloadsize.htm
 tech.root: Wua_Sdk
 ms.assetid: 22f19d4f-e144-4b06-a428-d2133198288a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],MaxDownloadSize property, IUpdate.MaxDownloadSize, IUpdate.get_MaxDownloadSize, IUpdate::MaxDownloadSize, IUpdate::get_MaxDownloadSize, MaxDownloadSize property [Windows Update Agent], MaxDownloadSize property [Windows Update Agent],IUpdate interface, get_MaxDownloadSize, wua.iupdate_maxdownloadsize, wuapi/IUpdate::MaxDownloadSize, wuapi/IUpdate::get_MaxDownloadSize
 ms.topic: method
 req.header: wuapi.h

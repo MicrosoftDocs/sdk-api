@@ -7,7 +7,7 @@ old-location: security\impersonateself.htm
 tech.root: SecAuthZ
 ms.assetid: f909e3a7-6c7f-4c05-aa2e-e637113804c9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ImpersonateSelf, ImpersonateSelf function [Security], _win32_impersonateself, security.impersonateself, securitybaseapi/ImpersonateSelf
 ms.topic: function
 req.header: securitybaseapi.h

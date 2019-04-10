@@ -7,7 +7,7 @@ old-location: rras\ip_adapter_binding_info.htm
 tech.root: RRAS
 ms.assetid: 3eb864e7-2de6-44c2-af3e-fee547de6081
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PIP_ADAPTER_BINDING_INFO, IP_ADAPTER_BINDING_INFO, IP_ADAPTER_BINDING_INFO structure [RAS], PIP_ADAPTER_BINDING_INFO, PIP_ADAPTER_BINDING_INFO structure pointer [RAS], _mpr_ip_adapter_binding_info, routprot/IP_ADAPTER_BINDING_INFO, routprot/PIP_ADAPTER_BINDING_INFO, rras.ip_adapter_binding_info"
 ms.topic: struct
 req.header: routprot.h

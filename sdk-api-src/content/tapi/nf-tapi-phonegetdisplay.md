@@ -7,7 +7,7 @@ old-location: tapi2\phonegetdisplay.htm
 tech.root: Tapi
 ms.assetid: f9176550-f48a-451d-be98-ad4bd593276b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_tapi2_phonegetdisplay, phoneGetDisplay, phoneGetDisplay function [TAPI 2.2], tapi/phoneGetDisplay, tapi2.phonegetdisplay"
 ms.topic: function
 req.header: tapi.h

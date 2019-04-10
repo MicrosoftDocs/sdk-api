@@ -7,7 +7,7 @@ old-location: wsw\wswriteendelement.htm
 tech.root: wsw
 ms.assetid: cfb23857-bc51-4467-9aeb-6ce8810ae1b0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WsWriteEndElement, WsWriteEndElement function [Web Services for Windows], webservices/WsWriteEndElement, wsw.wswriteendelement
 ms.topic: function
 req.header: webservices.h

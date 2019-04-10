@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoverypublishernotify_resolvehandler_method.htm
 tech.root: WsdApi
 ms.assetid: b0dd2b82-5d08-4dd3-8e6a-892ebaf71045
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisherNotify interface,ResolveHandler method, IWSDiscoveryPublisherNotify.ResolveHandler, IWSDiscoveryPublisherNotify::ResolveHandler, ResolveHandler, ResolveHandler method, ResolveHandler method,IWSDiscoveryPublisherNotify interface, ncd.iwsdiscoverypublishernotify_resolvehandler_method, wsddisco/IWSDiscoveryPublisherNotify::ResolveHandler
 ms.topic: method
 req.header: wsddisco.h

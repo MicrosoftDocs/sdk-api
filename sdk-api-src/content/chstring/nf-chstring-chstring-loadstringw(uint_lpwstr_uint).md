@@ -7,7 +7,7 @@ old-location: wmi\chstring_loadstringw.htm
 tech.root: WmiSdk
 ms.assetid: b5dca7ce-41b2-4290-bb15-23e0a8d64bd1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],LoadStringW method, CHString.LoadStringW, CHString.LoadStringW(UINT,LPWSTR,UINT), CHString::LoadStringW, CHString::LoadStringW(UINT,LPWSTR,UINT), LoadStringW, LoadStringW method [Windows Management Instrumentation], LoadStringW method [Windows Management Instrumentation],CHString interface, _hmm_chstring_loadstringw, chstring/CHString::LoadStringW, wmi.chstring_loadstringw
 ms.topic: method
 req.header: chstring.h

@@ -7,7 +7,7 @@ old-location: input_touchinjection\injecttouchinput.htm
 tech.root: Input_TouchInjection
 ms.assetid: c3c1425e-2af6-4ecb-a0b2-a456654f7a53
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: InjectTouchInput, InjectTouchInput function [Windows Touch], input_touchinjection.injecttouchinput, touch_injection.injecttouchinput, winuser/InjectTouchInput
 ms.topic: function
 req.header: winuser.h

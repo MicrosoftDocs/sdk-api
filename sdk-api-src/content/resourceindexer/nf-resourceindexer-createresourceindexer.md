@@ -7,7 +7,7 @@ old-location: menurc\createresourceindexer.htm
 tech.root: menurc
 ms.assetid: 240C94B6-DF61-4C84-9047-9CD81A6FF4B4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateResourceIndexer, CreateResourceIndexer function [Menus and Other Resources], menurc.createresourceindexer, resourceindexer/CreateResourceIndexer
 ms.topic: function
 req.header: resourceindexer.h

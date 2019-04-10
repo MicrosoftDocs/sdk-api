@@ -7,7 +7,7 @@ old-location: netshell\ns_context_dump_fn.htm
 tech.root: netshell
 ms.assetid: 4833c65d-1de3-4a02-9489-6e82a6145e28
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NS_CONTEXT_DUMP_FN, NS_CONTEXT_DUMP_FN callback, NS_CONTEXT_DUMP_FN callback function [NetShell], _netsh_ns_context_dump_fn, netsh/NS_CONTEXT_DUMP_FN, netshell.ns_context_dump_fn
 ms.topic: callback
 req.header: netsh.h

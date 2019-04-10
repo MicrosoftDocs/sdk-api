@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiontabletransfereffect_setgreentablevalue.htm
 tech.root: directcomp
 ms.assetid: 1D2286EB-F053-440A-AF9A-9A00DBD9FA91
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetGreenTableValue method, IDCompositionTableTransferEffect.SetGreenTableValue, IDCompositionTableTransferEffect::SetGreenTableValue, IDCompositionTableTransferEffect::SetGreenTableValue(UINT,float), SetGreenTableValue, SetGreenTableValue method [DirectComposition], SetGreenTableValue method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetGreenTableValue, directcomp.idcompositiontabletransfereffect_setgreentablevalue
 ms.topic: method
 req.header: dcomp.h

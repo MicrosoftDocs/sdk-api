@@ -7,7 +7,7 @@ old-location: base\memorybarrier.htm
 tech.root: Sync
 ms.assetid: f2c06679-fa2f-4357-ae11-6cec1e50fd8f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MemoryBarrier, MemoryBarrier function, base.memorybarrier, winnt/MemoryBarrier
 ms.topic: function
 req.header: winnt.h

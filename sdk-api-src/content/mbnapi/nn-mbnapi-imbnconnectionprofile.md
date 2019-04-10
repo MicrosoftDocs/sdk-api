@@ -7,7 +7,7 @@ old-location: mbn\imbnconnectionprofile.htm
 tech.root: mbn
 ms.assetid: f7730efe-e367-4642-8482-2a23052bab0c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMbnConnectionProfile, IMbnConnectionProfile interface [Microsoft Broadband Networks], IMbnConnectionProfile interface [Microsoft Broadband Networks],described, mbn.imbnconnectionprofile, mbnapi/IMbnConnectionProfile
 ms.topic: interface
 req.header: mbnapi.h

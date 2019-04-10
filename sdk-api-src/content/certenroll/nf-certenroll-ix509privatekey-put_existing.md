@@ -7,7 +7,7 @@ old-location: security\ix509privatekey_existing_property.htm
 tech.root: seccertenroll
 ms.assetid: 0ef32207-1fb0-49a2-95cf-353f907f3fc6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Existing property [Security], Existing property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],Existing property, IX509PrivateKey.Existing, IX509PrivateKey.put_Existing, IX509PrivateKey::Existing, IX509PrivateKey::get_Existing, IX509PrivateKey::put_Existing, certenroll/IX509PrivateKey::Existing, certenroll/IX509PrivateKey::get_Existing, certenroll/IX509PrivateKey::put_Existing, put_Existing, security.ix509privatekey_existing_property
 ms.topic: method
 req.header: certenroll.h

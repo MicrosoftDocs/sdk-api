@@ -7,7 +7,7 @@ old-location: setup\setupsetdirectoryidex.htm
 tech.root: SetupApi
 ms.assetid: 0f8f3fa0-cb98-42da-82dd-9114e6753e61
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SetupSetDirectoryIdEx, SetupSetDirectoryIdEx function [Setup API], SetupSetDirectoryIdExA, SetupSetDirectoryIdExW, setup.setupsetdirectoryidex, setupapi/SetupSetDirectoryIdEx, setupapi/SetupSetDirectoryIdExA, setupapi/SetupSetDirectoryIdExW
 ms.topic: function
 req.header: setupapi.h

@@ -7,7 +7,7 @@ old-location: mstv\icomponenttype_put_category.htm
 tech.root: mstv
 ms.assetid: 3ae90ec5-ebae-4a67-b786-33a1d94309b8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],put_Category method, IComponentType.put_Category, IComponentType::put_Category, IComponentTypeput_Category, mstv.icomponenttype_put_category, put_Category, put_Category method [Microsoft TV Technologies], put_Category method [Microsoft TV Technologies],IComponentType interface, tuner/IComponentType::put_Category
 ms.topic: method
 req.header: tuner.h

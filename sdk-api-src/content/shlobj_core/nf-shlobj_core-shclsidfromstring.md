@@ -7,7 +7,7 @@ old-location: shell\SHCLSIDFromString.htm
 tech.root: shell
 ms.assetid: b09950fb-0a72-4829-aedd-cf01a3f98074
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SHCLSIDFromString, SHCLSIDFromString function [Windows Shell], _win32_SHCLSIDFromString, shell.SHCLSIDFromString, shlobj_core/SHCLSIDFromString
 ms.topic: function
 req.header: shlobj_core.h

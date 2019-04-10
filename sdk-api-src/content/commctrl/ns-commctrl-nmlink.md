@@ -7,7 +7,7 @@ old-location: controls\NMLINK.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\syslink\structures\nmlink.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PNMLINK, NMLINK, NMLINK structure [Windows Controls], PNMLINK, PNMLINK structure pointer [Windows Controls], commctrl/NMLINK, commctrl/PNMLINK, controls.NMLINK, controls.inet_NMLINK_str, inet_NMLINK_str, inet_NMLINK_str_cpp"
 ms.topic: struct
 req.header: commctrl.h

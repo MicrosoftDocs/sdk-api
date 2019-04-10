@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_conststringa.htm
 tech.root: wmi_v2
 ms.assetid: 38790be7-1a7d-4ec0-9e7d-b1248fb8952b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_ConstStringA, MI_ConstStringA structure [Windows Management Infrastructure (MI)], mi/MI_ConstStringA, wmi._mi_conststringa, wmi_v2.mi_conststringa
 ms.topic: struct
 req.header: mi.h

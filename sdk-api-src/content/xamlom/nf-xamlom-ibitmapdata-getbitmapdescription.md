@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ibitmapdata_getbitmapdescription.htm
 tech.root: xaml_diagnostics
 ms.assetid: B10BF4E3-C9C2-41E6-99FC-671F6BE47278
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetBitmapDescription, GetBitmapDescription method, GetBitmapDescription method,IBitmapData interface, IBitmapData interface,GetBitmapDescription method, IBitmapData.GetBitmapDescription, IBitmapData::GetBitmapDescription, xaml_diagnostics.ibitmapdata_getbitmapdescription, xamlom/IBitmapData::GetBitmapDescription
 ms.topic: method
 req.header: xamlom.h

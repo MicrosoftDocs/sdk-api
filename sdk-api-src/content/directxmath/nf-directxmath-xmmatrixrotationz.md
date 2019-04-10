@@ -7,7 +7,7 @@ old-location: dxmath\xmmatrixrotationz.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixRotationZ(float)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixRotationZ, XMMatrixRotationZ, XMMatrixRotationZ method [DirectX Math Support APIs], dxmath.xmmatrixrotationz
 ms.topic: function
 req.header: directxmath.h

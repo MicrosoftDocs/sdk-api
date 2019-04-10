@@ -7,7 +7,7 @@ old-location: setup\imsmmerge_closelog.htm
 tech.root: Msi
 ms.assetid: f683e405-da98-455f-85d5-d61dc1d73440
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CloseLog, CloseLog method, CloseLog method,IMsmMerge interface, IMsmMerge interface,CloseLog method, IMsmMerge.CloseLog, IMsmMerge::CloseLog, _msi_closelog_function, mergemod/IMsmMerge::CloseLog, setup.imsmmerge_closelog
 ms.topic: method
 req.header: mergemod.h

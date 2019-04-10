@@ -7,7 +7,7 @@ old-location: gdi\handletable.htm
 tech.root: gdi
 ms.assetid: c0c03c7d-baac-4b59-ba2f-8f6330651b49
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPHANDLETABLE, *PHANDLETABLE, HANDLETABLE, HANDLETABLE structure [Windows GDI], PHANDLETABLE, PHANDLETABLE structure pointer [Windows GDI], _win32_HANDLETABLE_str, gdi.handletable, wingdi/HANDLETABLE, wingdi/PHANDLETABLE"
 ms.topic: struct
 req.header: wingdi.h

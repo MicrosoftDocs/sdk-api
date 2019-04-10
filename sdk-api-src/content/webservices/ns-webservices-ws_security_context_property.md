@@ -7,7 +7,7 @@ old-location: wsw\ws_security_context_property.htm
 tech.root: wsw
 ms.assetid: 426b9847-8217-41ce-8962-138176e0555b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_CONTEXT_PROPERTY, WS_SECURITY_CONTEXT_PROPERTY structure [Web Services for Windows], webservices/WS_SECURITY_CONTEXT_PROPERTY, wsw.ws_security_context_property
 ms.topic: struct
 req.header: webservices.h

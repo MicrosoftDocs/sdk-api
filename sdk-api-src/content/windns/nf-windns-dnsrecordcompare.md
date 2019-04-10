@@ -7,7 +7,7 @@ old-location: dns\dnsrecordcompare.htm
 tech.root: DNS
 ms.assetid: c4449a23-d6d3-4f27-a963-a84144983e5e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DnsRecordCompare, DnsRecordCompare function [DNS], _dns_dnsrecordcompare, dns.dnsrecordcompare, windns/DnsRecordCompare
 ms.topic: function
 req.header: windns.h

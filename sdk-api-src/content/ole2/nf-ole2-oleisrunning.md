@@ -7,7 +7,7 @@ old-location: com\oleisrunning.htm
 tech.root: com
 ms.assetid: 9392666f-c269-4667-aeac-67c68bcc5f06
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: OleIsRunning, OleIsRunning function [COM], _ole_OleIsRunning, com.oleisrunning, ole2/OleIsRunning
 ms.topic: function
 req.header: ole2.h

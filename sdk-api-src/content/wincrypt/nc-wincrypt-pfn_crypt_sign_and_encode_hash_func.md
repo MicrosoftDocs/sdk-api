@@ -7,7 +7,7 @@ old-location: security\pfn_crypt_sign_and_encode_hash_func.htm
 tech.root: SecCrypto
 ms.assetid: d393a092-64a2-47b7-90a4-5144b99cd6b5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PFN_CRYPT_SIGN_AND_ENCODE_HASH_FUNC, PFN_CRYPT_SIGN_AND_ENCODE_HASH_FUNC callback, PFN_CRYPT_SIGN_AND_ENCODE_HASH_FUNC callback function [Security], security.pfn_crypt_sign_and_encode_hash_func, wincrypt/PFN_CRYPT_SIGN_AND_ENCODE_HASH_FUNC
 ms.topic: callback
 req.header: wincrypt.h

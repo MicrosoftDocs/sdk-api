@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_tex3d_srv.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex3d_srv.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 6c240905-b0f0-7728-4889-f56dacbd91a5, D3D10_TEX3D_SRV, D3D10_TEX3D_SRV structure [Direct3D 10], d3d10/D3D10_TEX3D_SRV, direct3d10.d3d10_tex3d_srv
 ms.topic: struct
 req.header: d3d10.h

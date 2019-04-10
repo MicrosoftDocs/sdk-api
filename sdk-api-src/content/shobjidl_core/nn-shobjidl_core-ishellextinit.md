@@ -7,7 +7,7 @@ old-location: shell\IShellExtInit.htm
 tech.root: shell
 ms.assetid: 5f7e7f71-4cd6-4ce4-946c-9a1f7ec72fbe
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IShellExtInit, IShellExtInit interface [Windows Shell], IShellExtInit interface [Windows Shell],described, _win32_IShellExtInit, _win32_ishellextinit_cpp, shell.IShellExtInit, shobjidl_core/IShellExtInit
 ms.topic: interface
 req.header: shobjidl_core.h

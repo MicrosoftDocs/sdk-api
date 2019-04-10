@@ -7,7 +7,7 @@ old-location: automat\vardatefromui2.htm
 tech.root: automat
 ms.assetid: 3a58a100-e41e-45fb-bf76-5ff8853cd42a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VarDateFromUI2, VarDateFromUI2 function [Automation], _oa96_VarDateFromUI2, automat.vardatefromui2, oleauto/VarDateFromUI2
 ms.topic: function
 req.header: oleauto.h

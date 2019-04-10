@@ -7,7 +7,7 @@ old-location: smi\isettingsitem_createsettingbypath.htm
 tech.root: SMI
 ms.assetid: 8b51329e-dc81-46dc-b174-0191e2eea44a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateSettingByPath, CreateSettingByPath method [SMI], CreateSettingByPath method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],CreateSettingByPath method, ISettingsItem.CreateSettingByPath, ISettingsItem::CreateSettingByPath, smi.isettingsitem_createsettingbypath, wcmconfig/ISettingsItem::CreateSettingByPath
 ms.topic: method
 req.header: wcmconfig.h

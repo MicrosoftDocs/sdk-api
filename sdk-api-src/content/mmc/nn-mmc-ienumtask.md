@@ -7,7 +7,7 @@ old-location: mmc\ienumtask.htm
 tech.root: mmc
 ms.assetid: 7cf1ff4f-bd45-4ead-a005-e0f38aed9039
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEnumTASK, IEnumTASK interface [MMC], IEnumTASK interface [MMC],described, _slate_ienumtask, mmc.ienumtask, mmc/IEnumTASK
 ms.topic: interface
 req.header: mmc.h

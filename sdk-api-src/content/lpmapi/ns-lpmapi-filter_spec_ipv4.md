@@ -7,7 +7,7 @@ old-location: qos\filter_spec_ipv4.htm
 tech.root: QOS
 ms.assetid: b17a45b2-e50b-4ec2-9f1c-e1ab80ce572e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Filter_Spec_IPv4, Filter_Spec_IPv4 structure [QOS], lpmapi/Filter_Spec_IPv4, qos.filter_spec_ipv4
 ms.topic: struct
 req.header: lpmapi.h

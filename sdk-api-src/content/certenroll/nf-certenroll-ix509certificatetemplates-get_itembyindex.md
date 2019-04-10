@@ -7,7 +7,7 @@ old-location: security\ix509certificatetemplates_itembyindex.htm
 tech.root: seccertenroll
 ms.assetid: 1d7ddfd8-89f4-485a-ba90-83f2331168d2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IX509CertificateTemplates interface [Security],ItemByIndex property, IX509CertificateTemplates.ItemByIndex, IX509CertificateTemplates.get_ItemByIndex, IX509CertificateTemplates::ItemByIndex, IX509CertificateTemplates::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],IX509CertificateTemplates interface, certenroll/IX509CertificateTemplates::ItemByIndex, certenroll/IX509CertificateTemplates::get_ItemByIndex, get_ItemByIndex, security.ix509certificatetemplates_itembyindex
 ms.topic: method
 req.header: certenroll.h

@@ -7,7 +7,7 @@ old-location: tapi3\cmspcallbase.htm
 tech.root: Tapi
 ms.assetid: 77b53b66-38fa-4823-9051-e857da8a7dd7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CMSPCallBase, CMSPCallBase class [TAPI 2.2], CMSPCallBase class [TAPI 2.2],described, _tapi3_cmspcallbase, mspcall/CMSPCallBase, tapi3.cmspcallbase
 ms.topic: class
 req.header: mspcall.h

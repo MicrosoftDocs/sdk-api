@@ -7,7 +7,7 @@ old-location: http\winhttpgetproxyresult.htm
 tech.root: WinHttp
 ms.assetid: f594e588-b3da-4afb-a5f9-552759bca148
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WinHttpGetProxyResult, WinHttpGetProxyResult function [WinHTTP], http.winhttpgetproxyresult, winhttp/WinHttpGetProxyResult
 ms.topic: function
 req.header: winhttp.h

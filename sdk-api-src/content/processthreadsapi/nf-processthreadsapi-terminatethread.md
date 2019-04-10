@@ -7,7 +7,7 @@ old-location: base\terminatethread.htm
 tech.root: ProcThread
 ms.assetid: ae1ad0f3-67df-4573-af22-7086f0470361
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TerminateThread, TerminateThread function, _win32_terminatethread, base.terminatethread, processthreadsapi/TerminateThread, winbase/TerminateThread
 ms.topic: function
 req.header: processthreadsapi.h

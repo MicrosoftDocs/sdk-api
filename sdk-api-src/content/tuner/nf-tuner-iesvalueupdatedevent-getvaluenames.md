@@ -7,7 +7,7 @@ old-location: mstv\iesvalueupdatedevent_getvaluenames.htm
 tech.root: mstv
 ms.assetid: bc008b4a-fa6f-4b62-90da-417813081344
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetValueNames, GetValueNames method [Microsoft TV Technologies], GetValueNames method [Microsoft TV Technologies],IESValueUpdatedEvent interface, IESValueUpdatedEvent interface [Microsoft TV Technologies],GetValueNames method, IESValueUpdatedEvent.GetValueNames, IESValueUpdatedEvent::GetValueNames, mstv.iesvalueupdatedevent_getvaluenames, tuner/IESValueUpdatedEvent::GetValueNames
 ms.topic: method
 req.header: tuner.h

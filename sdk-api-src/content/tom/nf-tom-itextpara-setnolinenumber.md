@@ -7,7 +7,7 @@ old-location: controls\ITextPara_SetNoLineNumber.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setnolinenumber.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetNoLineNumber method, ITextPara.SetNoLineNumber, ITextPara::SetNoLineNumber, SetNoLineNumber, SetNoLineNumber method [Windows Controls], SetNoLineNumber method [Windows Controls],ITextPara interface, _win32_ITextPara_SetNoLineNumber, _win32_ITextPara_SetNoLineNumber_cpp, controls.ITextPara_SetNoLineNumber, controls._win32_ITextPara_SetNoLineNumber, tom/ITextPara::SetNoLineNumber
 ms.topic: method
 req.header: tom.h

@@ -7,7 +7,7 @@ old-location: gdi\playmetafile.htm
 tech.root: gdi
 ms.assetid: 044894df-dc8a-41b2-8810-e0a1b8bc19d8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PlayMetaFile, PlayMetaFile function [Windows GDI], _win32_PlayMetaFile, gdi.playmetafile, wingdi/PlayMetaFile
 ms.topic: function
 req.header: wingdi.h

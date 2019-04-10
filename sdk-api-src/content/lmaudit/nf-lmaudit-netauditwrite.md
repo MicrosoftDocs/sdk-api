@@ -7,7 +7,7 @@ old-location: netmgmt\netauditwrite.htm
 tech.root: NetMgmt
 ms.assetid: 3bdbccab-bc75-446b-9c11-4a3c078589e5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NetAuditWrite, NetAuditWrite function [Network Management], _win32_netauditwrite, lmaudit/NetAuditWrite, netmgmt.netauditwrite
 ms.topic: function
 req.header: lmaudit.h

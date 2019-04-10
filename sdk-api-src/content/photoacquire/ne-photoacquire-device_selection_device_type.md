@@ -7,7 +7,7 @@ old-location: picacq\device_selection_device_type.htm
 tech.root: acquisition
 ms.assetid: 95f528d1-ff83-4d42-9050-b137476935b0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DEVICE_SELECTION_DEVICE_TYPE, DEVICE_SELECTION_DEVICE_TYPE enumeration [Picture Acquisition], DSF_TWAIN_DEVICE, DST_FS_DEVICE, DST_STI_DEVICE, DST_UNKNOWN_DEVICE, DST_WIA_DEVICE, DST_WPD_DEVICE, enumeration [Picture Acquisition], photoacquire/DEVICE_SELECTION_DEVICE_TYPE, photoacquire/DSF_TWAIN_DEVICE, photoacquire/DST_FS_DEVICE, photoacquire/DST_STI_DEVICE, photoacquire/DST_UNKNOWN_DEVICE, photoacquire/DST_WIA_DEVICE, photoacquire/DST_WPD_DEVICE, picacq.device_selection_device_type
 ms.topic: enum
 req.header: photoacquire.h

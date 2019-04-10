@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_policy_array.htm
 tech.root: DHCP
 ms.assetid: 220CD2F8-AFB4-4B87-9B10-904AD04E4C1F
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_POLICY_ARRAY, *PDHCP_POLICY_ARRAY, DHCP_POLICY_ARRAY, DHCP_POLICY_ARRAY structure [DHCP], LPDHCP_POLICY_ARRAY, LPDHCP_POLICY_ARRAY structure pointer [DHCP], PDHCP_POLICY_ARRAY, PDHCP_POLICY_ARRAY structure pointer [DHCP], dhcp.dhcp_policy_array, dhcpsapi/DHCP_POLICY_ARRAY, dhcpsapi/LPDHCP_POLICY_ARRAY, dhcpsapi/PDHCP_POLICY_ARRAY"
 ms.topic: struct
 req.header: dhcpsapi.h

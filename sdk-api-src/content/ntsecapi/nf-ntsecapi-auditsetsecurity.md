@@ -7,7 +7,7 @@ old-location: security\auditsetsecurity.htm
 tech.root: SecAuthZ
 ms.assetid: 2f4d6198-775a-40e4-9158-a69e71bfe050
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AuditSetSecurity, AuditSetSecurity function [Security], ntsecapi/AuditSetSecurity, security.auditsetsecurity
 ms.topic: function
 req.header: ntsecapi.h

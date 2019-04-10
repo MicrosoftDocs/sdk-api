@@ -7,7 +7,7 @@ old-location: setup\setupremovefromsourcelist.htm
 tech.root: SetupApi
 ms.assetid: 9e87f481-7d6a-4d8e-8f71-d104de3533f8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SetupRemoveFromSourceList, SetupRemoveFromSourceList function [Setup API], SetupRemoveFromSourceListA, SetupRemoveFromSourceListW, _setupapi_setupremovefromsourcelist, setup.setupremovefromsourcelist, setupapi/SetupRemoveFromSourceList, setupapi/SetupRemoveFromSourceListA, setupapi/SetupRemoveFromSourceListW
 ms.topic: function
 req.header: setupapi.h

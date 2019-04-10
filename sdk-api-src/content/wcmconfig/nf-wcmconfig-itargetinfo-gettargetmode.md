@@ -7,7 +7,7 @@ old-location: smi\itargetinfo_gettargetmode.htm
 tech.root: SMI
 ms.assetid: b21137a0-537f-43a4-857b-158a1642ea1c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetTargetMode, GetTargetMode method [SMI], GetTargetMode method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetTargetMode method, ITargetInfo.GetTargetMode, ITargetInfo::GetTargetMode, smi.itargetinfo_gettargetmode, wcmconfig/ITargetInfo::GetTargetMode
 ms.topic: method
 req.header: wcmconfig.h

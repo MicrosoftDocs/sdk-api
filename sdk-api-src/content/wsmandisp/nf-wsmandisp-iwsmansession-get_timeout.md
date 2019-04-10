@@ -7,7 +7,7 @@ old-location: winrm\iwsmansession_timeout.htm
 tech.root: winrm
 ms.assetid: 23cec29b-20aa-440e-9c4d-c65cf81da719
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWSManSession interface [Windows Remote Management],Timeout property, IWSManSession.Timeout, IWSManSession.get_Timeout, IWSManSession::Timeout, IWSManSession::get_Timeout, IWSManSession::put_Timeout, Timeout property [Windows Remote Management], Timeout property [Windows Remote Management],IWSManSession interface, get_Timeout, winrm.iwsmansession_timeout, wsmandisp/IWSManSession::Timeout, wsmandisp/IWSManSession::get_Timeout, wsmandisp/IWSManSession::put_Timeout
 ms.topic: method
 req.header: wsmandisp.h

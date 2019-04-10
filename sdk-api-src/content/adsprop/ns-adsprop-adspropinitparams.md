@@ -7,7 +7,7 @@ old-location: ad\adspropinitparams.htm
 tech.root: ad
 ms.assetid: cbee3515-5037-4d65-8817-4c63fe13ef5d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PADSPROPINITPARAMS, ADSPROPINITPARAMS, ADSPROPINITPARAMS structure [Active Directory], PADSPROPINITPARAMS, PADSPROPINITPARAMS structure pointer [Active Directory], _glines_adspropinitparams, ad.adspropinitparams, adsprop/ADSPROPINITPARAMS, adsprop/PADSPROPINITPARAMS"
 ms.topic: struct
 req.header: adsprop.h

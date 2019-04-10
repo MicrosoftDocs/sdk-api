@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents3.htm
 tech.root: offlinefiles
 ms.assetid: f68c2c0c-e4f7-4048-99c9-761f98928157
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents3, IOfflineFilesEvents3 interface [Offline Files], IOfflineFilesEvents3 interface [Offline Files],described, cscobj/IOfflineFilesEvents3, of.iofflinefilesevents3
 ms.topic: interface
 req.header: cscobj.h

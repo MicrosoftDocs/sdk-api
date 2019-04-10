@@ -7,7 +7,7 @@ old-location: adsi\iadsnametranslate_setex.htm
 tech.root: adsi
 ms.assetid: e8a5014e-d848-46b7-a336-7801ff1f6b08
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IADsNameTranslate interface [ADSI],SetEx method, IADsNameTranslate.SetEx, IADsNameTranslate::SetEx, SetEx, SetEx method [ADSI], SetEx method [ADSI],IADsNameTranslate interface, _ds_iadsnametranslate_setex, adsi.iadsnametranslate__setex, adsi.iadsnametranslate_setex, iads/IADsNameTranslate::SetEx
 ms.topic: method
 req.header: iads.h

@@ -7,7 +7,7 @@ old-location: tapi3\itcallinfo.htm
 tech.root: Tapi
 ms.assetid: 5209d4a1-e05b-453e-8896-2dc71f0b9af0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITCallInfo, ITCallInfo interface [TAPI 2.2], ITCallInfo interface [TAPI 2.2],described, _tapi3_itcallinfo, tapi3.itcallinfo, tapi3if/ITCallInfo
 ms.topic: interface
 req.header: tapi3if.h

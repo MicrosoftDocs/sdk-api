@@ -7,7 +7,7 @@ old-location: shell\IApplicationAssociationRegistrationUI.htm
 tech.root: shell
 ms.assetid: 3a4d6f1d-72c2-4bd0-ad44-1c42a5bf9cb6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IApplicationAssociationRegistrationUI, IApplicationAssociationRegistrationUI interface [Windows Shell], IApplicationAssociationRegistrationUI interface [Windows Shell],described, _shell_IApplicationAssociationRegistrationUI, shell.IApplicationAssociationRegistrationUI, shobjidl/IApplicationAssociationRegistrationUI
 ms.topic: interface
 req.header: shobjidl.h

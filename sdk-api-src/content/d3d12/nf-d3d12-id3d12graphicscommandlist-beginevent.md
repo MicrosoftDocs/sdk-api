@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_beginevent.htm
 tech.root: direct3d12
 ms.assetid: 2A5292C0-ED9B-4E3C-87E4-88EA2FF09B28
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BeginEvent, BeginEvent method, BeginEvent method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,BeginEvent method, ID3D12GraphicsCommandList.BeginEvent, ID3D12GraphicsCommandList::BeginEvent, d3d12/ID3D12GraphicsCommandList::BeginEvent, direct3d12.id3d12graphicscommandlist_beginevent
 ms.topic: method
 req.header: d3d12.h

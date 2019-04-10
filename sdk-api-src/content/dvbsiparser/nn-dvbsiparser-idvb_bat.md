@@ -7,7 +7,7 @@ old-location: mstv\idvb_bat.htm
 tech.root: mstv
 ms.assetid: c312a152-21ee-4708-90a8-ab9bde9a2011
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDVB_BAT, IDVB_BAT interface [Microsoft TV Technologies], IDVB_BAT interface [Microsoft TV Technologies],described, IDVB_BATInterface, dvbsiparser/IDVB_BAT, mstv.idvb_bat
 ms.topic: interface
 req.header: dvbsiparser.h

@@ -7,7 +7,7 @@ old-location: dshow\iasyncreader_request.htm
 tech.root: DirectShow
 ms.assetid: d0eab370-bb17-48fa-9926-6a6eeaba5603
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IAsyncReader interface [DirectShow],Request method, IAsyncReader.Request, IAsyncReader::Request, IAsyncReaderRequest, Request, Request method [DirectShow], Request method [DirectShow],IAsyncReader interface, dshow.iasyncreader_request, strmif/IAsyncReader::Request
 ms.topic: method
 req.header: strmif.h

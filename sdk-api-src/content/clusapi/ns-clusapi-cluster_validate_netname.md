@@ -7,7 +7,7 @@ old-location: mscs\cluster_validate_netname.htm
 tech.root: MsCS
 ms.assetid: c524d6cf-85f7-451b-b7d4-9497a2c2f0b0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PCLUSTER_VALIDATE_NETNAME, CLUSTER_VALIDATE_NETNAME, CLUSTER_VALIDATE_NETNAME structure [Failover Cluster], PCLUSTER_VALIDATE_NETNAME, PCLUSTER_VALIDATE_NETNAME structure pointer [Failover Cluster], clusapi/CLUSTER_VALIDATE_NETNAME, clusapi/PCLUSTER_VALIDATE_NETNAME, mscs.cluster_validate_netname"
 ms.topic: struct
 req.header: clusapi.h

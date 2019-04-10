@@ -7,7 +7,7 @@ old-location: ad\dsrole_operation_state.htm
 tech.root: ad
 ms.assetid: de294893-e78a-4b51-9a48-0c71f91b6fde
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DSROLE_OPERATION_STATE, DSROLE_OPERATION_STATE enumeration [Active Directory], DsRoleOperationActive, DsRoleOperationIdle, DsRoleOperationNeedReboot, ad.dsrole_operation_state, dsrole/DSROLE_OPERATION_STATE, dsrole/DsRoleOperationActive, dsrole/DsRoleOperationIdle, dsrole/DsRoleOperationNeedReboot
 ms.topic: enum
 req.header: dsrole.h

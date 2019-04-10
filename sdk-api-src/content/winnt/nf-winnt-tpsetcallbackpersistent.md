@@ -7,7 +7,7 @@ old-location: base\tpsetcallbackpersistent.htm
 tech.root: ProcThread
 ms.assetid: FE2CB959-25BC-4420-A921-2A65016B25CF
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TpSetCallbackPersistent, TpSetCallbackPersistent function, base.tpsetcallbackpersistent, winnt/TpSetCallbackPersistent
 ms.topic: function
 req.header: winnt.h

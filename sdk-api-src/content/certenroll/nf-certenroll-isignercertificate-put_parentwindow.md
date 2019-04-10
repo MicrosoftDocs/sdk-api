@@ -7,7 +7,7 @@ old-location: security\isignercertificate_parentwindow_property.htm
 tech.root: seccertenroll
 ms.assetid: a1749c92-11e4-4726-a355-ccdd245b4df8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ISignerCertificate interface [Security],ParentWindow property, ISignerCertificate.ParentWindow, ISignerCertificate.put_ParentWindow, ISignerCertificate::ParentWindow, ISignerCertificate::get_ParentWindow, ISignerCertificate::put_ParentWindow, ParentWindow property [Security], ParentWindow property [Security],ISignerCertificate interface, certenroll/ISignerCertificate::ParentWindow, certenroll/ISignerCertificate::get_ParentWindow, certenroll/ISignerCertificate::put_ParentWindow, put_ParentWindow, security.isignercertificate_parentwindow_property
 ms.topic: method
 req.header: certenroll.h

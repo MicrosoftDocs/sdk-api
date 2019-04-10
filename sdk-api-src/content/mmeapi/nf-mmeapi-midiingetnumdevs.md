@@ -7,7 +7,7 @@ old-location: multimedia\midiingetnumdevs.htm
 tech.root: Multimedia
 ms.assetid: 23303bb2-e053-4a19-a63a-4e017b861af6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_win32_midiInGetNumDevs, midiInGetNumDevs, midiInGetNumDevs function [Windows Multimedia], mmeapi/midiInGetNumDevs, multimedia.midiingetnumdevs"
 ms.topic: function
 req.header: mmeapi.h

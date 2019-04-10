@@ -7,7 +7,7 @@ old-location: rras\mpradminconnectiongetinfoex.htm
 tech.root: RRAS
 ms.assetid: 7b6a27da-306c-48e5-830b-215ce6f80ea1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MprAdminConnectionGetInfoEx, MprAdminConnectionGetInfoEx function [RAS], mprapi/MprAdminConnectionGetInfoEx, rras.mpradminconnectiongetinfoex
 ms.topic: function
 req.header: mprapi.h

@@ -7,7 +7,7 @@ old-location: winrt\windowspreallocatestringbuffer.htm
 tech.root: WinRT
 ms.assetid: 83ebde70-458c-4617-a7fd-a281915f6206
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WindowsPreallocateStringBuffer, WindowsPreallocateStringBuffer function [Windows Runtime], winrt.windowspreallocatestringbuffer, winstring/WindowsPreallocateStringBuffer
 ms.topic: function
 req.header: winstring.h

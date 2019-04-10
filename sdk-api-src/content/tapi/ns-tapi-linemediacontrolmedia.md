@@ -7,7 +7,7 @@ old-location: tapi2\linemediacontrolmedia_str.htm
 tech.root: Tapi
 ms.assetid: 5515d510-3827-4da6-975c-ff191bb0ab4e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPLINEMEDIACONTROLMEDIA, LINEMEDIACONTROLMEDIA, LINEMEDIACONTROLMEDIA structure [TAPI 2.2], LPLINEMEDIACONTROLMEDIA, LPLINEMEDIACONTROLMEDIA structure pointer [TAPI 2.2], _tapi2_linemediacontrolmedia_str, tapi/LINEMEDIACONTROLMEDIA, tapi/LPLINEMEDIACONTROLMEDIA, tapi2.linemediacontrolmedia_str"
 ms.topic: struct
 req.header: tapi.h

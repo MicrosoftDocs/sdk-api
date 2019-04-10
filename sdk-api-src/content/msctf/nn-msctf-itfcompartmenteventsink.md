@@ -7,7 +7,7 @@ old-location: tsf\itfcompartmenteventsink.htm
 tech.root: TSF
 ms.assetid: 1bd464e7-9e34-4725-83f9-42e09ddf4778
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITfCompartmentEventSink, ITfCompartmentEventSink interface [Text Services Framework], ITfCompartmentEventSink interface [Text Services Framework],described, _tsf_itfcompartmenteventsink_ref, msctf/ITfCompartmentEventSink, tsf.itfcompartmenteventsink
 ms.topic: interface
 req.header: msctf.h

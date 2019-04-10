@@ -7,7 +7,7 @@ old-location: dshow\icodecapi.htm
 tech.root: DirectShow
 ms.assetid: cc3f1bd9-1d36-45e6-94e2-07f2800fd073
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ICodecAPI, ICodecAPI interface [DirectShow], ICodecAPI interface [DirectShow],described, ICodecAPIInterface, dshow.icodecapi, strmif/ICodecAPI
 ms.topic: interface
 req.header: strmif.h

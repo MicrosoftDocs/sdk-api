@@ -7,7 +7,7 @@ old-location: rdp\irdpviewerrenderingsurface_setrenderingsurface.htm
 tech.root: rdp
 ms.assetid: e70541ab-fc23-4960-be38-8eb6849ab14f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IRDPViewerRenderingSurface interface [RDP],SetRenderingSurface method, IRDPViewerRenderingSurface.SetRenderingSurface, IRDPViewerRenderingSurface::SetRenderingSurface, SetRenderingSurface, SetRenderingSurface method [RDP], SetRenderingSurface method [RDP],IRDPViewerRenderingSurface interface, rdp.irdpviewerrenderingsurface_setrenderingsurface, rdpencomapi/IRDPViewerRenderingSurface::SetRenderingSurface
 ms.topic: method
 req.header: rdpencomapi.h

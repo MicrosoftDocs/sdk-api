@@ -7,7 +7,7 @@ old-location: mf\imfmediaevent.htm
 tech.root: medfound
 ms.assetid: b4f686be-9472-433c-b983-6c48dfd3ac76
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMFMediaEvent, IMFMediaEvent interface [Media Foundation], IMFMediaEvent interface [Media Foundation],described, b4f686be-9472-433c-b983-6c48dfd3ac76, mf.imfmediaevent, mfobjects/IMFMediaEvent
 ms.topic: interface
 req.header: mfobjects.h

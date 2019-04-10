@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddCurve_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddcurvemethods.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AddCurve, AddCurve methods [GDI+], GraphicsPath.AddCurve, GraphicsPath::AddCurve, _gdiplus_CLASS_GraphicsPath_AddCurve_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddCurve_Methods, gdipluspath/AddCurve
 ms.topic: method
 req.header: gdipluspath.h

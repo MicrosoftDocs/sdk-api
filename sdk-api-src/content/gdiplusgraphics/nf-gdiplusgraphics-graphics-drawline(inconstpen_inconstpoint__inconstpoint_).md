@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawLine_Pen_pen_Point_pt1_Point_p
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawlinemethods\drawline.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DrawLine, DrawLine method [GDI+], DrawLine method [GDI+],Graphics class, Graphics class [GDI+],DrawLine method, Graphics.DrawLine, Graphics.DrawLine(IN const Pen,IN const Point &,IN const Point &), Graphics.DrawLine(const Pen*,const Point&,const Point&), Graphics::DrawLine, Graphics::DrawLine(IN const Pen,IN const Point &,IN const Point &), _gdiplus_CLASS_Graphics_DrawLine_Pen_pen_Point_pt1_Point_pt2_, gdiplus._gdiplus_CLASS_Graphics_DrawLine_Pen_pen_Point_pt1_Point_pt2_
 ms.topic: method
 req.header: gdiplusgraphics.h

@@ -7,7 +7,7 @@ old-location: snmp\snmpoidcopy.htm
 tech.root: SNMP
 ms.assetid: ab121160-1c4f-41c0-a738-2e7605780ed2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SnmpOidCopy, SnmpOidCopy function [SNMP], _snmp_snmpoidcopy, snmp.snmpoidcopy, winsnmp/SnmpOidCopy
 ms.topic: function
 req.header: winsnmp.h

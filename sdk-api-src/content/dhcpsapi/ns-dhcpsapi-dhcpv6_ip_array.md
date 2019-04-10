@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv6_ip_array.htm
 tech.root: DHCP
 ms.assetid: B87CF991-FFC8-4CB4-8EE9-66716EC9B58D
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPDHCPV6_IP_ARRAY, DHCPV6_IP_ARRAY, DHCPV6_IP_ARRAY structure [DHCP], PDHCPV6_IP_ARRAY, PDHCPV6_IP_ARRAY structure pointer [DHCP], dhcp.dhcpv6_ip_array, dhcpsapi/DHCPV6_IP_ARRAY, dhcpsapi/PDHCPV6_IP_ARRAY"
 ms.topic: struct
 req.header: dhcpsapi.h

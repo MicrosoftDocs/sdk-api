@@ -7,7 +7,7 @@ old-location: controls\LVINSERTMARK.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvinsertmark.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPLVINSERTMARK, LVIM_AFTER, LVINSERTMARK, LVINSERTMARK structure [Windows Controls], PLVINSERTMARK, PLVINSERTMARK structure pointer [Windows Controls], commctrl/LVINSERTMARK, commctrl/PLVINSERTMARK, controls.LVINSERTMARK, controls.inet_LVINSERTMARK, inet_LVINSERTMARK, inet_LVINSERTMARK_cpp"
 ms.topic: struct
 req.header: commctrl.h

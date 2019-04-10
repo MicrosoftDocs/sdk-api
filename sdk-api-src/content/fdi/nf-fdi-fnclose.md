@@ -7,7 +7,7 @@ old-location: winprog\fnclose.htm
 tech.root: DevNotes
 ms.assetid: 89db9c2a-42ab-410d-a427-60d282385c2b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FNCLOSE, FNCLOSE macro [Windows API], fdi/FNCLOSE, winprog.fnclose
 ms.topic: macro
 req.header: fdi.h

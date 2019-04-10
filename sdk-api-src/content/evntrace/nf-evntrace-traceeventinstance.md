@@ -7,7 +7,7 @@ old-location: etw\traceeventinstance.htm
 tech.root: ETW
 ms.assetid: e8361bdc-21dd-47a0-bdbf-56f4d6195689
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TraceEventInstance, TraceEventInstance function [ETW], _evt_traceeventinstance, base.traceeventinstance, etw.traceeventinstance, evntrace/TraceEventInstance
 ms.topic: function
 req.header: evntrace.h

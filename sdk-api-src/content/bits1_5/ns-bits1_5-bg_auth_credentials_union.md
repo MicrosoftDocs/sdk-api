@@ -7,7 +7,7 @@ old-location: bits\bg_auth_credentials_union.htm
 tech.root: Bits
 ms.assetid: c16c616c-f4cb-483d-8a15-6ff9d45762ae
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BG_AUTH_CREDENTIALS_UNION, BG_AUTH_CREDENTIALS_UNION union [BITS], _drz_bg_auth_credentials_union, bits.bg_auth_credentials_union, bits1_5/BG_AUTH_CREDENTIALS_UNION
 ms.topic: struct
 req.header: bits1_5.h

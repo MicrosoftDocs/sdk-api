@@ -7,7 +7,7 @@ old-location: tapi2\linesetcurrentlocation.htm
 tech.root: Tapi
 ms.assetid: ad31bc8b-399d-4c2e-b79c-fc935d5adf1a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_tapi2_linesetcurrentlocation, lineSetCurrentLocation, lineSetCurrentLocation function [TAPI 2.2], tapi/lineSetCurrentLocation, tapi2.linesetcurrentlocation"
 ms.topic: function
 req.header: tapi.h

@@ -7,7 +7,7 @@ old-location: base\openprocess.htm
 tech.root: ProcThread
 ms.assetid: 8f695c38-19c4-49e4-97de-8b64ea536cb1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: OpenProcess, OpenProcess function, _win32_openprocess, base.openprocess, processthreadsapi/OpenProcess, winbase/OpenProcess
 ms.topic: function
 req.header: processthreadsapi.h

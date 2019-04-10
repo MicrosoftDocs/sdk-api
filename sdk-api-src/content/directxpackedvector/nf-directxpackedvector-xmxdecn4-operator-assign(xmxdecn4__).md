@@ -7,7 +7,7 @@ old-location: dxmath\xmxdecn4_operator_eq_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMXDECN4.operator = (const XMXDECN4)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: XMXDECN4 structure [DirectX Math Support APIs],operator = method, XMXDECN4.operator =(const XMXDECN4&), XMXDECN4.operator-assign(XMXDECN4 &&), XMXDECN4.operator=, XMXDECN4::operator-assign(XMXDECN4 &&), XMXDECN4::operator=, dxmath.xmxdecn4_operator_eq_1, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMXDECN4 structure, operator=
 ms.topic: method
 req.header: directxpackedvector.h

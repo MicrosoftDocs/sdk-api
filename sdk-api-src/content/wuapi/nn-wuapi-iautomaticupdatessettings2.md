@@ -7,7 +7,7 @@ old-location: wua\iautomaticupdatessettings2.htm
 tech.root: Wua_Sdk
 ms.assetid: 5ad1a3ee-3293-4825-a85e-ca1e3a38e775
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdatesSettings2, IAutomaticUpdatesSettings2 interface [Windows Update Agent], IAutomaticUpdatesSettings2 interface [Windows Update Agent],described, wua.iautomaticupdatessettings2, wuapi/IAutomaticUpdatesSettings2
 ms.topic: interface
 req.header: wuapi.h

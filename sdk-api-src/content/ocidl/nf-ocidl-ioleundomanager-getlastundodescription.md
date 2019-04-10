@@ -7,7 +7,7 @@ old-location: com\ioleundomanager_getlastundodescription.htm
 tech.root: com
 ms.assetid: 65679f9e-2ea8-4462-bdd3-fa12c1904c51
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetLastUndoDescription, GetLastUndoDescription method [COM], GetLastUndoDescription method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],GetLastUndoDescription method, IOleUndoManager.GetLastUndoDescription, IOleUndoManager::GetLastUndoDescription, _ole_ioleundomanager_getlastundodescription, com.ioleundomanager_getlastundodescription, ocidl/IOleUndoManager::GetLastUndoDescription
 ms.topic: method
 req.header: ocidl.h

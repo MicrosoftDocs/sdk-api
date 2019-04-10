@@ -7,7 +7,7 @@ old-location: dshow\iampushsource_setpushsourceflags.htm
 tech.root: DirectShow
 ms.assetid: c07bbf7e-8d81-4eba-a5a1-fde02e8e8c35
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IAMPushSource interface [DirectShow],SetPushSourceFlags method, IAMPushSource.SetPushSourceFlags, IAMPushSource::SetPushSourceFlags, IAMPushSourceSetPushSourceFlags, SetPushSourceFlags, SetPushSourceFlags method [DirectShow], SetPushSourceFlags method [DirectShow],IAMPushSource interface, dshow.iampushsource_setpushsourceflags, strmif/IAMPushSource::SetPushSourceFlags
 ms.topic: method
 req.header: strmif.h

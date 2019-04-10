@@ -7,7 +7,7 @@ old-location: dxmath\xmstoreshortn4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreShortN4(XMSHORTN4@,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMStoreShortN4, XMStoreShortN4, XMStoreShortN4 method [DirectX Math Support APIs], dxmath.xmstoreshortn4
 ms.topic: function
 req.header: directxpackedvector.h

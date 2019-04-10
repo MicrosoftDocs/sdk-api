@@ -7,7 +7,7 @@ old-location: gdi\getsystempaletteuse.htm
 tech.root: gdi
 ms.assetid: 0a9e7906-2f81-4fda-b03d-86feb0755327
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetSystemPaletteUse, GetSystemPaletteUse function [Windows GDI], _win32_GetSystemPaletteUse, gdi.getsystempaletteuse, wingdi/GetSystemPaletteUse
 ms.topic: function
 req.header: wingdi.h

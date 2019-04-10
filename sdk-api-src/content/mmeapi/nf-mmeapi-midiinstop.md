@@ -7,7 +7,7 @@ old-location: multimedia\midiinstop.htm
 tech.root: Multimedia
 ms.assetid: 2541cfc9-ca65-4156-ae33-c04083556006
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_win32_midiInStop, midiInStop, midiInStop function [Windows Multimedia], mmeapi/midiInStop, multimedia.midiinstop"
 ms.topic: function
 req.header: mmeapi.h

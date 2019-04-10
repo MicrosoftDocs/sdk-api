@@ -7,7 +7,7 @@ old-location: taskschd\ischeduledworkitem_gettriggerstring.htm
 tech.root: taskschd
 ms.assetid: 5e342807-4796-449b-b490-815ce57f4d8f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetTriggerString, GetTriggerString method [Task Scheduler], GetTriggerString method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetTriggerString method, IScheduledWorkItem.GetTriggerString, IScheduledWorkItem::GetTriggerString, _msb_ischeduledworkitem_gettriggerstring, mstask/IScheduledWorkItem::GetTriggerString, taskschd.ischeduledworkitem_gettriggerstring
 ms.topic: method
 req.header: mstask.h

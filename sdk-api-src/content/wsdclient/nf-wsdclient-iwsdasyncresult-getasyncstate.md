@@ -7,7 +7,7 @@ old-location: ncd\iwsdasyncresult_getasyncstate_method.htm
 tech.root: WsdApi
 ms.assetid: 4f4115bd-748e-41cd-928f-3dd3a354d336
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetAsyncState, GetAsyncState method, GetAsyncState method,IWSDAsyncResult interface, IWSDAsyncResult interface,GetAsyncState method, IWSDAsyncResult.GetAsyncState, IWSDAsyncResult::GetAsyncState, ncd.iwsdasyncresult_getasyncstate_method, wsdclient/IWSDAsyncResult::GetAsyncState
 ms.topic: method
 req.header: wsdclient.h

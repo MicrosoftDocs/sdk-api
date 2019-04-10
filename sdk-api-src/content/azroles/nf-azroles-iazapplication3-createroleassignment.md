@@ -7,7 +7,7 @@ old-location: security\iazapplication3_createroleassignment.htm
 tech.root: SecAuthZ
 ms.assetid: 0646601d-97e6-437a-abfe-99fdb5bb1354
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateRoleAssignment, CreateRoleAssignment method [Security], CreateRoleAssignment method [Security],IAzApplication3 interface, IAzApplication3 interface [Security],CreateRoleAssignment method, IAzApplication3.CreateRoleAssignment, IAzApplication3::CreateRoleAssignment, azroles/IAzApplication3::CreateRoleAssignment, security.iazapplication3_createroleassignment
 ms.topic: method
 req.header: azroles.h

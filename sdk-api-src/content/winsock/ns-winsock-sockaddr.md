@@ -7,7 +7,7 @@ old-location: winsock\sockaddr_2.htm
 tech.root: WinSock
 ms.assetid: d1392e1c-2b20-425a-8adf-38e665fb6275
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPSOCKADDR, *PSOCKADDR, SOCKADDR, SOCKADDR_IN, SOCKADDR_IN6, _win32_sockaddr_2, sockaddr, sockaddr structure [Winsock], sockaddr_in, sockaddr_in6, sockaddr_in6_old, winsock.sockaddr_2, winsock/sockaddr"
 ms.topic: struct
 req.header: winsock.h

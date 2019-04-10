@@ -7,7 +7,7 @@ old-location: security\getsecuritydescriptorlength.htm
 tech.root: SecAuthZ
 ms.assetid: eb331839-ff3e-4f4b-b93b-18da2ea72697
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetSecurityDescriptorLength, GetSecurityDescriptorLength function [Security], _win32_getsecuritydescriptorlength, security.getsecuritydescriptorlength, securitybaseapi/GetSecurityDescriptorLength
 ms.topic: function
 req.header: securitybaseapi.h

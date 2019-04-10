@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_settransportvideoparameters.htm
 tech.root: DirectShow
 ms.assetid: 8a63f921-0abb-417b-89c0-9dfb30ebbe57
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],SetTransportVideoParameters method, IAMExtTransport.SetTransportVideoParameters, IAMExtTransport::SetTransportVideoParameters, IAMExtTransportSetTransportVideoParameters, SetTransportVideoParameters, SetTransportVideoParameters method [DirectShow], SetTransportVideoParameters method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_settransportvideoparameters, strmif/IAMExtTransport::SetTransportVideoParameters
 ms.topic: method
 req.header: strmif.h

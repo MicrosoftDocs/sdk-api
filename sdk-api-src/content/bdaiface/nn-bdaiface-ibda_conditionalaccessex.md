@@ -7,7 +7,7 @@ old-location: mstv\ibda_conditionalaccessex.htm
 tech.root: mstv
 ms.assetid: 9db9b6b1-fc4f-48f0-940e-d79a321ef094
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IBDA_ConditionalAccessEx, IBDA_ConditionalAccessEx interface [Microsoft TV Technologies], IBDA_ConditionalAccessEx interface [Microsoft TV Technologies],described, bdaiface/IBDA_ConditionalAccessEx, mstv.ibda_conditionalaccessex
 ms.topic: interface
 req.header: bdaiface.h

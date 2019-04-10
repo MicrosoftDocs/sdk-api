@@ -7,7 +7,7 @@ old-location: mediastreaming\itransportparameters.htm
 tech.root: mediastreaming
 ms.assetid: 4D104C4E-18EE-418F-8D99-3E766A5478F6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITransportParameters, ITransportParameters interface [Media Streaming API], ITransportParameters interface [Media Streaming API],described, mediastreaming.itransportparameters, windows/ITransportParameters
 ms.topic: interface
 req.header: windows.media.streaming.h

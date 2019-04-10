@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_get_volumename.htm
 tech.root: imapi
 ms.assetid: 95d5738b-a720-4f47-b3a0-97f7474b051a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_VolumeName method, IFileSystemImage.get_VolumeName, IFileSystemImage::get_VolumeName, get_VolumeName, get_VolumeName method [IMAPI], get_VolumeName method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_volumename, imapi2fs/IFileSystemImage::get_VolumeName
 ms.topic: method
 req.header: imapi2fs.h

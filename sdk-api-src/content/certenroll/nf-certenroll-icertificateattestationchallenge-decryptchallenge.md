@@ -7,7 +7,7 @@ old-location: security\icertificateattestationchallenge_decryptchallenge.htm
 tech.root: seccertenroll
 ms.assetid: ae0fb86f-c567-4b85-abfe-7a035491e4fc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DecryptChallenge, DecryptChallenge method [Security], DecryptChallenge method [Security],ICertificateAttestationChallenge interface, ICertificateAttestationChallenge interface [Security],DecryptChallenge method, ICertificateAttestationChallenge.DecryptChallenge, ICertificateAttestationChallenge::DecryptChallenge, certenroll/ICertificateAttestationChallenge::DecryptChallenge, security.icertificateattestationchallenge_decryptchallenge
 ms.topic: method
 req.header: certenroll.h

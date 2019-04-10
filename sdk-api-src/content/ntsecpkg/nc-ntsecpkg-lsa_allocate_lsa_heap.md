@@ -7,7 +7,7 @@ old-location: security\allocatelsaheap.htm
 tech.root: SecAuthN
 ms.assetid: cb87f1b1-3e1e-4add-8e74-ca7b4f8599ba
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AllocateLsaHeap, AllocateLsaHeap callback function [Security], LSA_ALLOCATE_LSA_HEAP, LSA_ALLOCATE_LSA_HEAP callback, _lsa_allocatelsaheap, ntsecpkg/AllocateLsaHeap, security.allocatelsaheap
 ms.topic: callback
 req.header: ntsecpkg.h

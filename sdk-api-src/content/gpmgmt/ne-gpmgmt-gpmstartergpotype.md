@@ -7,7 +7,7 @@ old-location: gpmc\gpmstartergpotype.htm
 tech.root: gpmc
 ms.assetid: 19b84c06-d8dc-4a25-85f6-cfbe9937f30e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GPMStarterGPOType, GPMStarterGPOType enumeration [GPMC], gpmc.gpmstartergpotype, gpmgmt/GPMStarterGPOType, gpmgmt/typeCustom, gpmgmt/typeSystem, typeCustom, typeSystem
 ms.topic: enum
 req.header: gpmgmt.h

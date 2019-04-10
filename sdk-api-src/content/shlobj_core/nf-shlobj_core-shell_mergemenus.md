@@ -7,7 +7,7 @@ old-location: shell\Shell_MergeMenus.htm
 tech.root: shell
 ms.assetid: f9e005fd-b1f2-4a5f-ad36-9c44998dc4eb
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MM_ADDSEPARATOR, MM_DONTREMOVESEPS, MM_SUBMENUSHAVEIDS, Shell_MergeMenus, Shell_MergeMenus function [Windows Shell], _win32_Shell_MergeMenus, shell.Shell_MergeMenus, shlobj_core/Shell_MergeMenus
 ms.topic: function
 req.header: shlobj_core.h

@@ -7,7 +7,7 @@ old-location: direct2d\effectinputdescription.htm
 tech.root: Direct2D
 ms.assetid: 3246476C-4110-43EC-88A3-55682A141383
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EffectInputDescription, EffectInputDescription function [Direct2D], d2d1_1helper/EffectInputDescription, direct2d.effectinputdescription
 ms.topic: function
 req.header: d2d1_1helper.h

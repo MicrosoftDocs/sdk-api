@@ -7,7 +7,7 @@ old-location: mf\imftimedtextnotify.htm
 tech.root: medfound
 ms.assetid: FE782D90-8CD4-4F8B-A20E-CE3F792A2DB4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMFTimedTextNotify, IMFTimedTextNotify interface [Media Foundation], IMFTimedTextNotify interface [Media Foundation],described, mf.imftimedtextnotify, mfmediaengine/IMFTimedTextNotify
 ms.topic: interface
 req.header: mfmediaengine.h

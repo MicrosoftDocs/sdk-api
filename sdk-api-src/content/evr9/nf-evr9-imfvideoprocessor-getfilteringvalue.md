@@ -7,7 +7,7 @@ old-location: mf\imfvideoprocessor_getfilteringvalue.htm
 tech.root: medfound
 ms.assetid: 1c8d6836-ca62-4d26-be4e-572dc6ff994d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 1c8d6836-ca62-4d26-be4e-572dc6ff994d, GetFilteringValue, GetFilteringValue method [Media Foundation], GetFilteringValue method [Media Foundation],IMFVideoProcessor interface, IMFVideoProcessor interface [Media Foundation],GetFilteringValue method, IMFVideoProcessor.GetFilteringValue, IMFVideoProcessor::GetFilteringValue, evr9/IMFVideoProcessor::GetFilteringValue, mf.imfvideoprocessor_getfilteringvalue
 ms.topic: method
 req.header: evr9.h

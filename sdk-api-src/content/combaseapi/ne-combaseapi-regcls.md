@@ -7,7 +7,7 @@ old-location: com\regcls.htm
 tech.root: com
 ms.assetid: 16bca8e0-9999-4d51-b7f0-87deb7619d89
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: REGCLS, REGCLS enumeration [COM], REGCLS_AGILE, REGCLS_MULTIPLEUSE, REGCLS_MULTI_SEPARATE, REGCLS_SINGLEUSE, REGCLS_SURROGATE, REGCLS_SUSPENDED, _com_REGCLS, com.regcls, combaseapi/REGCLS, combaseapi/REGCLS_AGILE, combaseapi/REGCLS_MULTIPLEUSE, combaseapi/REGCLS_MULTI_SEPARATE, combaseapi/REGCLS_SINGLEUSE, combaseapi/REGCLS_SURROGATE, combaseapi/REGCLS_SUSPENDED
 ms.topic: enum
 req.header: combaseapi.h

@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_callout_table.htm
 tech.root: DHCP
 ms.assetid: fa57e5c5-2335-44ba-8642-61dcb8b33ffe
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_CALLOUT_TABLE, DHCP_CALLOUT_TABLE, DHCP_CALLOUT_TABLE structure [DHCP], LPDHCP_CALLOUT_TABLE, LPDHCP_CALLOUT_TABLE structure pointer [DHCP], _dhcp_dhcp_callout_table, dhcp.dhcp_callout_table, dhcpssdk/DHCP_CALLOUT_TABLE, dhcpssdk/LPDHCP_CALLOUT_TABLE"
 ms.topic: struct
 req.header: dhcpssdk.h

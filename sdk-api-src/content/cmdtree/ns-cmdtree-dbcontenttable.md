@@ -7,7 +7,7 @@ old-location: indexsrv\dbcontenttable.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_1zs5.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DBCONTENTTABLE, DBCONTENTTABLE structure [Indexing Service], _idxs_DBCONTENTTABLE, cmdtree/DBCONTENTTABLE, indexsrv.dbcontenttable, tagDBCONTENTTABLE
 ms.topic: struct
 req.header: cmdtree.h

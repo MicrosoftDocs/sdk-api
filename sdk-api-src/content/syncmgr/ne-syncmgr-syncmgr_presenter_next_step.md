@@ -7,7 +7,7 @@ old-location: shell\SYNCMGR_PRESENTER_NEXT_STEP.htm
 tech.root: shell
 ms.assetid: e24b09e0-38a1-421b-8cf1-74f553cf93e7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SYNCMGR_PNS_CANCEL, SYNCMGR_PNS_CONTINUE, SYNCMGR_PNS_DEFAULT, SYNCMGR_PRESENTER_NEXT_STEP, SYNCMGR_PRESENTER_NEXT_STEP enumeration [Windows Shell], _shell_SYNCMGR_PRESENTER_NEXT_STEP, shell.SYNCMGR_PRESENTER_NEXT_STEP, syncmgr/SYNCMGR_PNS_CANCEL, syncmgr/SYNCMGR_PNS_CONTINUE, syncmgr/SYNCMGR_PNS_DEFAULT, syncmgr/SYNCMGR_PRESENTER_NEXT_STEP
 ms.topic: enum
 req.header: syncmgr.h

@@ -7,7 +7,7 @@ old-location: dfs\netdfsremoveroottarget.htm
 tech.root: Dfs
 ms.assetid: 9a8c78f4-3170-4568-940c-1c51aebad3ae
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DFS_FORCE_REMOVE, NetDfsRemoveRootTarget, NetDfsRemoveRootTarget function [Distributed File System], dfs.netdfsremoveroottarget, fs.netdfsremoveroottarget, lmdfs/NetDfsRemoveRootTarget
 ms.topic: function
 req.header: lmdfs.h

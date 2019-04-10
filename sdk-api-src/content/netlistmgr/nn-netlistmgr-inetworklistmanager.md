@@ -7,7 +7,7 @@ old-location: nla\inetworklistmanager.htm
 tech.root: nla
 ms.assetid: a9f76b6a-ea15-47b7-a4ef-14ea60b7810d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: INetworkListManager, INetworkListManager interface [Network Awareness], INetworkListManager interface [Network Awareness],described, netlistmgr/INetworkListManager, nla.inetworklistmanager
 ms.topic: interface
 req.header: netlistmgr.h

@@ -7,7 +7,7 @@ old-location: mib\mib_tcp6table.htm
 tech.root: MIB
 ms.assetid: 62bb8544-0a0a-40b5-92cf-9631c9a9987c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PMIB_TCP6TABLE, MIB_TCP6TABLE, MIB_TCP6TABLE structure [MIB], PMIB_TCP6TABLE, PMIB_TCP6TABLE structure pointer [MIB], mib.mib_tcp6table, tcpmib/MIB_TCP6TABLE, tcpmib/PMIB_TCP6TABLE"
 ms.topic: struct
 req.header: tcpmib.h

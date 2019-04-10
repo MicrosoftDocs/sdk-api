@@ -7,7 +7,7 @@ old-location: secbiomet\winbioenumenrollments.htm
 tech.root: SecBioMet
 ms.assetid: bd5fd36a-ed90-4dd0-8a84-0412544493dd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WinBioEnumEnrollments, WinBioEnumEnrollments function [Windows Biometric Framework API], secbiomet.winbioenumenrollments, winbio/WinBioEnumEnrollments
 ms.topic: function
 req.header: winbio.h

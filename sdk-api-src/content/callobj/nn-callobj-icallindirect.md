@@ -7,7 +7,7 @@ old-location: com\icallindirect.htm
 tech.root: com
 ms.assetid: b85585fd-5f44-4c07-91a4-145eb44a6bdd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ICallIndirect, ICallIndirect interface [COM], ICallIndirect interface [COM],described, _com_icallindirect_interface, callobj/ICallIndirect, com.icallindirect
 ms.topic: interface
 req.header: callobj.h

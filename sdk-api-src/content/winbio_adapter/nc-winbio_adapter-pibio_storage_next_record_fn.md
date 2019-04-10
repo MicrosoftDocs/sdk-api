@@ -7,7 +7,7 @@ old-location: secbiomet\storageadapternextrecord.htm
 tech.root: SecBioMet
 ms.assetid: e0025167-0778-474e-baca-ffc767822893
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PIBIO_STORAGE_NEXT_RECORD_FN, PIBIO_STORAGE_NEXT_RECORD_FN callback, StorageAdapterNextRecord, StorageAdapterNextRecord callback function [Windows Biometric Framework API], secbiomet.storageadapternextrecord, winbio_adapter/StorageAdapterNextRecord
 ms.topic: callback
 req.header: winbio_adapter.h

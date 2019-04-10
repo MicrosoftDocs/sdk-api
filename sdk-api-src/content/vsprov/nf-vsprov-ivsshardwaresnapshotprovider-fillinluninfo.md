@@ -7,7 +7,7 @@ old-location: base\ivsshardwaresnapshotprovider_fillinluninfo.htm
 tech.root: VSS
 ms.assetid: 4e4e5942-5bc8-4b5e-a651-5bb354514994
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FillInLunInfo, FillInLunInfo method [VSS], FillInLunInfo method [VSS],IVssHardwareSnapshotProvider interface, IVssHardwareSnapshotProvider interface [VSS],FillInLunInfo method, IVssHardwareSnapshotProvider.FillInLunInfo, IVssHardwareSnapshotProvider::FillInLunInfo, base.ivsshardwaresnapshotprovider_fillinluninfo, vsprov/IVssHardwareSnapshotProvider::FillInLunInfo
 ms.topic: method
 req.header: vsprov.h

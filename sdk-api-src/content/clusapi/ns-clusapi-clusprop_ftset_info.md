@@ -7,7 +7,7 @@ old-location: mscs\clusprop_ftset_info.htm
 tech.root: MsCS
 ms.assetid: 0BD016A6-B635-4514-886A-8CD136D3F715
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PCLUSPROP_FTSET_INFO, CLUSPROP_FTSET_INFO, CLUSPROP_FTSET_INFO structure [Failover Cluster], PCLUSPROP_FTSET_INFO, PCLUSPROP_FTSET_INFO structure pointer [Failover Cluster], clusapi/CLUSPROP_FTSET_INFO, clusapi/PCLUSPROP_FTSET_INFO, mscs.clusprop_ftset_info"
 ms.topic: struct
 req.header: clusapi.h

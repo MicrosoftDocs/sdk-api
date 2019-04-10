@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_creation_properties.htm
 tech.root: Direct2D
 ms.assetid: 657439fe-dc17-42af-9e2c-2f3cb769a5a3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: D2D1_CREATION_PROPERTIES, D2D1_CREATION_PROPERTIES structure [Direct2D], PD2D1_CREATION_PROPERTIES, PD2D1_CREATION_PROPERTIES structure pointer [Direct2D], d2d1_1/D2D1_CREATION_PROPERTIES, d2d1_1/PD2D1_CREATION_PROPERTIES, direct2d.d2d1_creation_properties
 ms.topic: struct
 req.header: d2d1_1.h

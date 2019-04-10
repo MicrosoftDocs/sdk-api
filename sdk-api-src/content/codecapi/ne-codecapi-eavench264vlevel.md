@@ -7,7 +7,7 @@ old-location: mf\eavench264vlevel.htm
 tech.root: medfound
 ms.assetid: 30570088-1d98-4477-8e9c-9c30593a8553
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncH264VLevel, codecapi/eAVEncH264VLevel1, codecapi/eAVEncH264VLevel1_1, codecapi/eAVEncH264VLevel1_2, codecapi/eAVEncH264VLevel1_3, codecapi/eAVEncH264VLevel1_b, codecapi/eAVEncH264VLevel2, codecapi/eAVEncH264VLevel2_1, codecapi/eAVEncH264VLevel2_2, codecapi/eAVEncH264VLevel3, codecapi/eAVEncH264VLevel3_1, codecapi/eAVEncH264VLevel3_2, codecapi/eAVEncH264VLevel4, codecapi/eAVEncH264VLevel4_1, codecapi/eAVEncH264VLevel4_2, codecapi/eAVEncH264VLevel5, codecapi/eAVEncH264VLevel5_1, codecapi/eAVEncH264VLevel5_2, eAVEncH264VLevel, eAVEncH264VLevel enumeration [Media Foundation], eAVEncH264VLevel1, eAVEncH264VLevel1_1, eAVEncH264VLevel1_2, eAVEncH264VLevel1_3, eAVEncH264VLevel1_b, eAVEncH264VLevel2, eAVEncH264VLevel2_1, eAVEncH264VLevel2_2, eAVEncH264VLevel3, eAVEncH264VLevel3_1, eAVEncH264VLevel3_2, eAVEncH264VLevel4, eAVEncH264VLevel4_1, eAVEncH264VLevel4_2, eAVEncH264VLevel5, eAVEncH264VLevel5_1, eAVEncH264VLevel5_2, mf.eavench264vlevel
 ms.topic: enum
 req.header: codecapi.h

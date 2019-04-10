@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothisconnectable.htm
 tech.root: bluetooth
 ms.assetid: e20ad938-cab4-4017-95bf-8d6843f048eb
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BluetoothIsConnectable, BluetoothIsConnectable function [Bluetooth], bluetooth.bluetoothisconnectable, bluetoothapis/BluetoothIsConnectable
 ms.topic: function
 req.header: bluetoothapis.h

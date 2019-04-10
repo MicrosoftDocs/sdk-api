@@ -7,7 +7,7 @@ old-location: ncd\iproviderpropertyconstraintcollection.htm
 tech.root: FunDisc
 ms.assetid: d2e3bc10-e45f-43de-abc5-c5e35d366d87
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IProviderPropertyConstraintCollection, IProviderPropertyConstraintCollection interface, IProviderPropertyConstraintCollection interface,described, functiondiscoveryprovider/IProviderPropertyConstraintCollection, ncd.iproviderpropertyconstraintcollection
 ms.topic: interface
 req.header: functiondiscoveryprovider.h

@@ -7,7 +7,7 @@ old-location: wmformat\wm_user_web_url.htm
 tech.root: wmformat
 ms.assetid: 004708cf-9bcd-469a-b770-54fa5ef1aeef
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WM_USER_WEB_URL, WM_USER_WEB_URL structure [windows Media Format], wmformat.wm_user_web_url, wmsdkidl/WM_USER_WEB_URL
 ms.topic: struct
 req.header: wmsdkidl.h

@@ -7,7 +7,7 @@ old-location: mscs\clusterregcreatebatch.htm
 tech.root: MsCS
 ms.assetid: 83e7c216-f08f-4dc2-9b53-faa2760985d4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ClusterRegCreateBatch, ClusterRegCreateBatch function [Failover Cluster], PCLUSTER_REG_CREATE_BATCH, clusapi/ClusterRegCreateBatch, mscs.clusterregcreatebatch
 ms.topic: function
 req.header: clusapi.h

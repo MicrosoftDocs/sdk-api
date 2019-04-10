@@ -7,7 +7,7 @@ old-location: p2p\peergraphunregisterevent.htm
 tech.root: P2PSdk
 ms.assetid: de37bb9a-e1b2-4448-9610-566f77acf542
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PeerGraphUnregisterEvent, PeerGraphUnregisterEvent function [Peer Networking], p2p.peergraphunregisterevent, p2p/PeerGraphUnregisterEvent
 ms.topic: function
 req.header: p2p.h

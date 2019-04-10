@@ -7,7 +7,7 @@ old-location: com\iclassfactory_lockserver.htm
 tech.root: com
 ms.assetid: 4c817b89-013d-477f-a713-5e320896dfa0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IClassFactory interface [COM],LockServer method, IClassFactory.LockServer, IClassFactory::LockServer, LockServer, LockServer method [COM], LockServer method [COM],IClassFactory interface, _com_iclassfactory_lockserver, com.iclassfactory_lockserver, unknwnbase/IClassFactory::LockServer
 ms.topic: method
 req.header: unknwnbase.h

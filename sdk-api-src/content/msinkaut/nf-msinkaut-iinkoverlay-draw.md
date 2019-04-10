@@ -7,7 +7,7 @@ old-location: tablet\inkoverlay_draw.htm
 tech.root: tablet
 ms.assetid: 80c2de5c-c6ce-4f51-9bd5-5fcf16fd4bcb
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 80c2de5c-c6ce-4f51-9bd5-5fcf16fd4bcb, Draw, Draw method [Tablet PC], Draw method [Tablet PC],IInkOverlay interface, IInkOverlay, IInkOverlay interface [Tablet PC],Draw method, IInkOverlay.Draw, IInkOverlay::Draw, msinkaut/IInkOverlay::Draw, tablet.inkoverlay_draw
 ms.topic: method
 req.header: msinkaut.h

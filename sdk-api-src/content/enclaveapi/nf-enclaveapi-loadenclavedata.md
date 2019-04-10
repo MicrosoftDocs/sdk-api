@@ -7,7 +7,7 @@ old-location: base\loadenclavedata.htm
 tech.root: Memory
 ms.assetid: CC696026-FB74-4D91-BB40-17610DF41F8F
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: LoadEnclaveData, LoadEnclaveData function, base.loadenclavedata, enclaveapi/LoadEnclaveData
 ms.topic: function
 req.header: enclaveapi.h

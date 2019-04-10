@@ -7,7 +7,7 @@ old-location: shell\IShellFolderView_GetItemSpacing.htm
 tech.root: shell
 ms.assetid: 92450bc7-26e5-4061-90f7-eea0f0a4db09
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetItemSpacing, GetItemSpacing method [Windows Shell], GetItemSpacing method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetItemSpacing method, IShellFolderView.GetItemSpacing, IShellFolderView::GetItemSpacing, _shell_IShellFolderView_GetItemSpacing, shell.IShellFolderView_GetItemSpacing, shlobj_core/IShellFolderView::GetItemSpacing
 ms.topic: method
 req.header: shlobj_core.h

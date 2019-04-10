@@ -7,7 +7,7 @@ old-location: security\iazapplication_openrole.htm
 tech.root: SecAuthZ
 ms.assetid: 483c5b08-2f40-4ba6-afa0-ede596df8495
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],OpenRole method, IAzApplication interface [Security],OpenRole method, IAzApplication.OpenRole, IAzApplication::OpenRole, OpenRole, OpenRole method [Security], OpenRole method [Security],AzApplication object, OpenRole method [Security],IAzApplication interface, azroles/IAzApplication::OpenRole, security.iazapplication_openrole
 ms.topic: method
 req.header: azroles.h

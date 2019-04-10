@@ -7,7 +7,7 @@ old-location: p2p\drt_bootstrap_provider.htm
 tech.root: P2PSdk
 ms.assetid: f64edf7f-379f-41e2-9a86-ba9aeee0f2d7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PDRT_BOOTSTRAP_PROVIDER, DRT_BOOTSTRAP_PROVIDER, DRT_BOOTSTRAP_PROVIDER structure [Peer Networking], PDRT_BOOTSTRAP_PROVIDER, PDRT_BOOTSTRAP_PROVIDER structure pointer [Peer Networking], drt/DRT_BOOTSTRAP_PROVIDER, drt/PDRT_BOOTSTRAP_PROVIDER, p2p.drt_bootstrap_provider"
 ms.topic: struct
 req.header: drt.h

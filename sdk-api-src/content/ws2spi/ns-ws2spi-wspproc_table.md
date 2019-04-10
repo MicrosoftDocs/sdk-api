@@ -7,7 +7,7 @@ old-location: winsock\wspproc_table.htm
 tech.root: WinSock
 ms.assetid: f6fbf6da-58c5-4cef-8897-789a1e02aabb
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPWSPPROC_TABLE, FAR * LPWSPPROC_TABLE, FAR * LPWSPPROC_TABLE structure [Winsock], WSPPROC_TABLE, WSPPROC_TABLE structure [Winsock], winsock.wspproc_table, ws2spi/FAR * LPWSPPROC_TABLE, ws2spi/WSPPROC_TABLE"
 ms.topic: struct
 req.header: ws2spi.h

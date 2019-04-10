@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary2_createinstantaneousvect
 tech.root: UIAnimation
 ms.assetid: C4E97F25-85BD-4548-950D-06BD5E6C4831
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateInstantaneousVectorTransition, CreateInstantaneousVectorTransition method [Windows Animation], CreateInstantaneousVectorTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateInstantaneousVectorTransition method, IUIAnimationTransitionLibrary2.CreateInstantaneousVectorTransition, IUIAnimationTransitionLibrary2::CreateInstantaneousVectorTransition, uianimation.iuianimationtransitionlibrary2_createinstantaneousvectortransition, uianimation/IUIAnimationTransitionLibrary2::CreateInstantaneousVectorTransition
 ms.topic: method
 req.header: uianimation.h

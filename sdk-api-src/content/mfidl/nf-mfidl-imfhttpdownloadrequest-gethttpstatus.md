@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_gethttpstatus.htm
 tech.root: medfound
 ms.assetid: E084CF25-BEFA-4061-AA77-2CFC57CF6DCE
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetHttpStatus, GetHttpStatus method [Media Foundation], GetHttpStatus method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetHttpStatus method, IMFHttpDownloadRequest.GetHttpStatus, IMFHttpDownloadRequest::GetHttpStatus, mf.imfhttpdownloadrequest_gethttpstatus, mfidl/IMFHttpDownloadRequest::GetHttpStatus
 ms.topic: method
 req.header: mfidl.h

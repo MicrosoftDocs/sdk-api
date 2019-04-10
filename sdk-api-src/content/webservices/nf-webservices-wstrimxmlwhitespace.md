@@ -7,7 +7,7 @@ old-location: wsw\wstrimxmlwhitespace.htm
 tech.root: wsw
 ms.assetid: afefbf03-27fc-4e0e-bba2-ce42cf9ab01d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WsTrimXmlWhitespace, WsTrimXmlWhitespace function [Web Services for Windows], webservices/WsTrimXmlWhitespace, wsw.wstrimxmlwhitespace
 ms.topic: function
 req.header: webservices.h

@@ -7,7 +7,7 @@ old-location: of\iofflinefileseventsfilter.htm
 tech.root: offlinefiles
 ms.assetid: 8c2c793e-c91c-4ca7-a03c-e349de00de6c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEventsFilter, IOfflineFilesEventsFilter interface [Offline Files], IOfflineFilesEventsFilter interface [Offline Files],described, cscobj/IOfflineFilesEventsFilter, of.iofflinefileseventsfilter
 ms.topic: interface
 req.header: cscobj.h

@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_drawingattributes.htm
 tech.root: tablet
 ms.assetid: f41de939-0c20-4128-bee4-22a0c434159f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DrawingAttributes property [Tablet PC], DrawingAttributes property [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],DrawingAttributes property, IInkStrokeDisp.DrawingAttributes, IInkStrokeDisp.get_DrawingAttributes, IInkStrokeDisp.put_DrawingAttributes, IInkStrokeDisp::DrawingAttributes, IInkStrokeDisp::get_DrawingAttributes, IInkStrokeDisp::put_DrawingAttributes, get_DrawingAttributes, msinkaut/IInkStrokeDisp::DrawingAttributes, msinkaut/IInkStrokeDisp::get_DrawingAttributes, msinkaut/IInkStrokeDisp::put_DrawingAttributes, tablet.iinkstrokedisp_drawingattributes
 ms.topic: method
 req.header: msinkaut.h

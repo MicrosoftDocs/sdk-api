@@ -7,7 +7,7 @@ old-location: inputdev\getrawinputdata.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputfunctions\getrawinputdata.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetRawInputData, GetRawInputData function [Keyboard and Mouse Input], RID_HEADER, RID_INPUT, _win32_GetRawInputData, _win32_getrawinputdata_cpp, inputdev.getrawinputdata, winui._win32_getrawinputdata, winuser/GetRawInputData
 ms.topic: function
 req.header: winuser.h

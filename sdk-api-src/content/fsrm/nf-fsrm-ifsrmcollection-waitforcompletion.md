@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmcollection_waitforcompletion.htm
 tech.root: fsrm
 ms.assetid: 83b9feb5-5f10-4c27-be3e-b267a0356aa2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFsrmCollection interface [File Server Resource Manager],WaitForCompletion method, IFsrmCollection.WaitForCompletion, IFsrmCollection::WaitForCompletion, WaitForCompletion, WaitForCompletion method [File Server Resource Manager], WaitForCompletion method [File Server Resource Manager],IFsrmCollection interface, fs.ifsrmcollection_waitforcompletion, fsrm.ifsrmcollection_waitforcompletion, fsrm/IFsrmCollection::WaitForCompletion
 ms.topic: method
 req.header: fsrm.h

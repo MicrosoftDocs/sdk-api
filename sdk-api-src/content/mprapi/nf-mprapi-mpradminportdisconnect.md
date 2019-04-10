@@ -7,7 +7,7 @@ old-location: rras\mpradminportdisconnect.htm
 tech.root: RRAS
 ms.assetid: 97ba7bdf-fac2-44a5-94a8-0b3075a19013
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MprAdminPortDisconnect, MprAdminPortDisconnect function [RAS], _mpr_mpradminportdisconnect, mprapi/MprAdminPortDisconnect, rras.mpradminportdisconnect
 ms.topic: function
 req.header: mprapi.h

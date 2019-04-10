@@ -7,7 +7,7 @@ old-location: security\freereturnbuffer.htm
 tech.root: SecAuthN
 ms.assetid: 44b7e6f2-eb7e-47ec-8252-689eb1e5aa77
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FreeReturnBuffer, FreeReturnBuffer callback function [Security], LSA_FREE_LSA_HEAP, LSA_FREE_LSA_HEAP callback, _ssp_freereturnbuffer, ntsecpkg/FreeReturnBuffer, security.freereturnbuffer
 ms.topic: callback
 req.header: ntsecpkg.h

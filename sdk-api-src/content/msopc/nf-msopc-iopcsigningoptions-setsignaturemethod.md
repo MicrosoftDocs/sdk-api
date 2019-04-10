@@ -7,7 +7,7 @@ old-location: opc\iopcsigningoptions_setsignaturemethod.htm
 tech.root: OPC
 ms.assetid: b567b09a-e688-4c02-8c01-983a307fd0e2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IOpcSigningOptions interface [Open Packaging Conventions],SetSignatureMethod method, IOpcSigningOptions.SetSignatureMethod, IOpcSigningOptions::SetSignatureMethod, SetSignatureMethod, SetSignatureMethod method [Open Packaging Conventions], SetSignatureMethod method [Open Packaging Conventions],IOpcSigningOptions interface, msopc/IOpcSigningOptions::SetSignatureMethod, opc.iopcsigningoptions_setsignaturemethod
 ms.topic: method
 req.header: msopc.h

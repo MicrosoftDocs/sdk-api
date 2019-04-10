@@ -7,7 +7,7 @@ old-location: security\authzenumeratesecurityeventsources.htm
 tech.root: SecAuthZ
 ms.assetid: 2a20ccc9-f2ac-41e4-9d86-745004775e67
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AuthzEnumerateSecurityEventSources, AuthzEnumerateSecurityEventSources function [Security], authz/AuthzEnumerateSecurityEventSources, security.authzenumeratesecurityeventsources
 ms.topic: function
 req.header: authz.h

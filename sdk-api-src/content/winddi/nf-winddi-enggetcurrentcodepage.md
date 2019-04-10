@@ -7,7 +7,7 @@ old-location: display\enggetcurrentcodepage.htm
 tech.root: display
 ms.assetid: d53a1b6b-40b1-42a5-acfe-4b17f24d00c1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EngGetCurrentCodePage, EngGetCurrentCodePage function [Display Devices], display.enggetcurrentcodepage, gdifncs_39440cc8-e1f5-4f88-b92a-d8a7eb3d1d39.xml, winddi/EngGetCurrentCodePage
 ms.topic: function
 req.header: winddi.h

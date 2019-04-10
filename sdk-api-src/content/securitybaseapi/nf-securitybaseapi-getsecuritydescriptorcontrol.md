@@ -7,7 +7,7 @@ old-location: security\getsecuritydescriptorcontrol.htm
 tech.root: SecAuthZ
 ms.assetid: d66682f2-8017-4245-9d93-5f8332a5b483
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetSecurityDescriptorControl, GetSecurityDescriptorControl function [Security], _win32_getsecuritydescriptorcontrol, security.getsecuritydescriptorcontrol, securitybaseapi/GetSecurityDescriptorControl
 ms.topic: function
 req.header: securitybaseapi.h

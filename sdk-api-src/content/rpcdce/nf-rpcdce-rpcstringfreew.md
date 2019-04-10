@@ -7,7 +7,7 @@ old-location: rpc\rpcstringfree.htm
 tech.root: Rpc
 ms.assetid: 07226282-1091-4479-adc8-b2f604c645e7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RpcStringFree, RpcStringFree function [RPC], RpcStringFreeA, RpcStringFreeW, _rpc_rpcstringfree, rpc.rpcstringfree, rpcdce/RpcStringFree, rpcdce/RpcStringFreeA, rpcdce/RpcStringFreeW
 ms.topic: function
 req.header: rpcdce.h

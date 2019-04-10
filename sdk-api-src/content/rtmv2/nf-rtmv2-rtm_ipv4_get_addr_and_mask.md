@@ -7,7 +7,7 @@ old-location: rras\rtm_ipv4_get_addr_and_mask.htm
 tech.root: RRAS
 ms.assetid: 2dd2c01b-41f1-48e3-942b-954f7b2efac5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RTM_IPV4_GET_ADDR_AND_MASK, RTM_IPV4_GET_ADDR_AND_MASK macro [RAS], _rtmv2ref_rtm_ipv4_get_addr_and_mask, rras.rtm_ipv4_get_addr_and_mask, rtmv2/RTM_IPV4_GET_ADDR_AND_MASK
 ms.topic: macro
 req.header: rtmv2.h

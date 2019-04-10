@@ -7,7 +7,7 @@ old-location: inputmsg\getpointerframepeninfo.htm
 tech.root: InputMsg
 ms.assetid: 52db9b96-7f9e-41d7-88f7-b9c7691a6511
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetPointerFramePenInfo, GetPointerFramePenInfo function [Input Messages and Notifications], inputmsg.getpointerframepeninfo, winuser/GetPointerFramePenInfo
 ms.topic: function
 req.header: winuser.h

@@ -7,7 +7,7 @@ old-location: shell\IWizardSite_GetNextPage.htm
 tech.root: shell
 ms.assetid: 61f9b288-40d0-4e36-84e7-6b7bd5d3f5f1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetNextPage, GetNextPage method [Windows Shell], GetNextPage method [Windows Shell],IWizardSite interface, IWizardSite interface [Windows Shell],GetNextPage method, IWizardSite.GetNextPage, IWizardSite::GetNextPage, _shell_IWizardSite_GetNextPage, shell.IWizardSite_GetNextPage, shobjidl/IWizardSite::GetNextPage
 ms.topic: method
 req.header: shobjidl.h

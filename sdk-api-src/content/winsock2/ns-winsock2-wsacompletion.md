@@ -7,7 +7,7 @@ old-location: winsock\wsacompletion.htm
 tech.root: WinSock
 ms.assetid: 5af4b4d1-6dcb-4fc8-a730-53a8cb92fee4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPWSACOMPLETION, *PWSACOMPLETION, WSACOMPLETION, WSACOMPLETION structure [Winsock], winsock.wsacompletion, winsock2/WSACOMPLETION"
 ms.topic: struct
 req.header: winsock2.h

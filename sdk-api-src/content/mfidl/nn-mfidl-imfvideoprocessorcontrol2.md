@@ -7,7 +7,7 @@ old-location: mf\imfvideoprocessorcontrol2.htm
 tech.root: medfound
 ms.assetid: FE314254-AAE4-482E-A7AE-28B2591E0060
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMFVideoProcessorControl2, IMFVideoProcessorControl2 interface [Media Foundation], IMFVideoProcessorControl2 interface [Media Foundation],described, mf.imfvideoprocessorcontrol2, mfidl/IMFVideoProcessorControl2
 ms.topic: interface
 req.header: mfidl.h

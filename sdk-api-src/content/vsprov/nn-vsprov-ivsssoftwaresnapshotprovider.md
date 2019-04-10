@@ -7,7 +7,7 @@ old-location: base\ivsssoftwaresnapshotprovider.htm
 tech.root: VSS
 ms.assetid: 5c95f2fb-c132-489c-af48-2ffafad0b41f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVssSoftwareSnapshotProvider, IVssSoftwareSnapshotProvider interface, IVssSoftwareSnapshotProvider interface,described, base.ivsssoftwaresnapshotprovider, vsprov/IVssSoftwareSnapshotProvider
 ms.topic: interface
 req.header: vsprov.h

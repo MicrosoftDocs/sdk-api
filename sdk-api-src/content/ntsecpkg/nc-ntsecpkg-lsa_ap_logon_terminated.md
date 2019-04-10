@@ -7,7 +7,7 @@ old-location: security\lsaaplogonterminated.htm
 tech.root: SecAuthN
 ms.assetid: 17e8426a-5a25-48ca-8cef-91bbeda8490c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: LSA_AP_LOGON_TERMINATED, LSA_AP_LOGON_TERMINATED callback, LsaApLogonTerminated, LsaApLogonTerminated callback function [Security], _lsa_lsaaplogonterminated, ntsecpkg/LsaApLogonTerminated, security.lsaaplogonterminated
 ms.topic: callback
 req.header: ntsecpkg.h

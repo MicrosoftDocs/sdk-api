@@ -7,7 +7,7 @@ old-location: fs\lsnnull.htm
 tech.root: Clfs
 ms.assetid: effa7924-fcde-4aaf-964b-a6916cb6d1f5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ClfsLsnNull, LsnNull, LsnNull function [Files], clfs/LsnNull, fs.lsnnull
 ms.topic: function
 req.header: clfs.h

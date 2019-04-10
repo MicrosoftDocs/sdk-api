@@ -7,7 +7,7 @@ old-location: security\crediwrite.htm
 tech.root: SecAuthN
 ms.assetid: 19c7fe4d-9c7b-4547-baab-443483deb013
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CREDP_FLAGS_CLEAR_PASSWORD, CREDP_FLAGS_DONT_CACHE_TI, CREDP_FLAGS_IN_PROCESS, CREDP_FLAGS_TRUSTED_CALLER, CREDP_FLAGS_USER_ENCRYPTED_PASSWORD, CREDP_FLAGS_USE_MIDL_HEAP, CredWriteFn, CredWriteFn callback, CrediWrite, CrediWrite callback function [Security], ntsecpkg/CrediWrite, security.crediwrite
 ms.topic: callback
 req.header: ntsecpkg.h

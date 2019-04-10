@@ -7,7 +7,7 @@ old-location: policy\getmanagedapplicationcategories.htm
 tech.root: Policy
 ms.assetid: 10824852-7810-483a-91b3-2d9cc3d21934
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetManagedApplicationCategories, GetManagedApplicationCategories function [Group Policy], appmgmt/GetManagedApplicationCategories, policy.getmanagedapplicationcategories
 ms.topic: function
 req.header: appmgmt.h

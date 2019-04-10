@@ -7,7 +7,7 @@ old-location: winmsg\audiodescription.htm
 tech.root: winmsg
 ms.assetid: 20eb48da-cd2b-4af8-b3a7-5ee3f39b1387
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPAUDIODESCRIPTION, AUDIODESCRIPTION, AUDIODESCRIPTION structure [Windows and Messages], LPAUDIODESCRIPTION, LPAUDIODESCRIPTION structure pointer [Windows and Messages], audiodescription_cpp, base.audiodescription, tagAUDIODESCRIPTION, winmsg.audiodescription, winui.audiodescription, winuser/AUDIODESCRIPTION, winuser/LPAUDIODESCRIPTION"
 ms.topic: struct
 req.header: winuser.h

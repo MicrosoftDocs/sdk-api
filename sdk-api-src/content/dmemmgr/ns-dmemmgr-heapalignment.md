@@ -7,7 +7,7 @@ old-location: display\heapalignment.htm
 tech.root: display
 ms.assetid: 546029c7-c92e-4940-841f-235c7dc50e8e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPHEAPALIGNMENT, HEAPALIGNMENT, HEAPALIGNMENT structure [Display Devices], ddstrcts_ec77ce92-8153-4be6-8720-f8070efce79a.xml, display.heapalignment, dmemmgr/HEAPALIGNMENT"
 ms.topic: struct
 req.header: dmemmgr.h

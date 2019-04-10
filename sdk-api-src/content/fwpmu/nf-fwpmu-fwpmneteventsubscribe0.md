@@ -7,7 +7,7 @@ old-location: fwp\fwpmneteventsubscribe0.htm
 tech.root: fwp
 ms.assetid: a2671600-c231-46c8-966d-f444fbdfa944
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FwpmNetEventSubscribe0, FwpmNetEventSubscribe0 function [Filtering], fwp.fwpmneteventsubscribe0, fwpmu/FwpmNetEventSubscribe0
 ms.topic: function
 req.header: fwpmu.h

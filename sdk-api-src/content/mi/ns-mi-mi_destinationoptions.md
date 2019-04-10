@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions.htm
 tech.root: wmi_v2
 ms.assetid: 7f835ff4-3917-497c-bfe9-ca335cc35938
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions, MI_DestinationOptions structure [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions, wmi_v2.mi_destinationoptions
 ms.topic: struct
 req.header: mi.h

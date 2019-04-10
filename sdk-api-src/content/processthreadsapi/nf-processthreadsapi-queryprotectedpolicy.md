@@ -7,7 +7,7 @@ old-location: base\queryprotectedpolicy.htm
 tech.root: ProcThread
 ms.assetid: A9B37117-DE6A-426C-B554-2178247FD4C8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: QueryProtectedPolicy, QueryProtectedPolicy function, base.getprotectedpolicy, base.queryprotectedpolicy, processthreadsapi/QueryProtectedPolicy
 ms.topic: function
 req.header: processthreadsapi.h

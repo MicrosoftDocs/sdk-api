@@ -7,7 +7,7 @@ old-location: wds\pxedhcpgetoptionvalue.htm
 tech.root: wds
 ms.assetid: 831a830c-337c-4151-932b-db4783fc924e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PxeDhcpGetOptionValue, PxeDhcpGetOptionValue function [Windows Deployment Services], wds.pxedhcpgetoptionvalue, wdspxe/PxeDhcpGetOptionValue
 ms.topic: function
 req.header: wdspxe.h

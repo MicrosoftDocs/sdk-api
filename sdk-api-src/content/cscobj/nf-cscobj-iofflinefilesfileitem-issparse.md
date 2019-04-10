@@ -7,7 +7,7 @@ old-location: of\iofflinefilesfileitem_issparse.htm
 tech.root: offlinefiles
 ms.assetid: 6f731b25-f4f0-4635-af00-dbd1ba4e5f11
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IOfflineFilesFileItem interface [Offline Files],IsSparse method, IOfflineFilesFileItem.IsSparse, IOfflineFilesFileItem::IsSparse, IsSparse, IsSparse method [Offline Files], IsSparse method [Offline Files],IOfflineFilesFileItem interface, cscobj/IOfflineFilesFileItem::IsSparse, of.iofflinefilesfileitem_issparse
 ms.topic: method
 req.header: cscobj.h

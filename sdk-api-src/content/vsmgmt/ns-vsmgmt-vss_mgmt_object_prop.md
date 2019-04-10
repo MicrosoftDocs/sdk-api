@@ -7,7 +7,7 @@ old-location: base\vss_mgmt_object_prop.htm
 tech.root: VSS
 ms.assetid: 86681207-969e-4b33-aff8-79454ab04829
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PVSS_MGMT_OBJECT_PROP, PVSS_MGMT_OBJECT_PROP, PVSS_MGMT_OBJECT_PROP structure pointer [VSS], VSS_MGMT_OBJECT_PROP, VSS_MGMT_OBJECT_PROP structure [VSS], base.vss_mgmt_object_prop, vsmgmt/PVSS_MGMT_OBJECT_PROP, vsmgmt/VSS_MGMT_OBJECT_PROP"
 ms.topic: struct
 req.header: vsmgmt.h

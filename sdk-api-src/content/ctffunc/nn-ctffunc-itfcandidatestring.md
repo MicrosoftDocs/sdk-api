@@ -7,7 +7,7 @@ old-location: tsf\itfcandidatestring.htm
 tech.root: TSF
 ms.assetid: 82c77b59-a50c-42ae-ba1d-25a1c196662d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITfCandidateString, ITfCandidateString interface [Text Services Framework], ITfCandidateString interface [Text Services Framework],described, _tsf_itfcandidatestring_ref, ctffunc/ITfCandidateString, tsf.itfcandidatestring
 ms.topic: interface
 req.header: ctffunc.h

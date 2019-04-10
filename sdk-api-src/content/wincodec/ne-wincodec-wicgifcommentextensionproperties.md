@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicgifcommentextensionproperties.htm
 tech.root: wic
 ms.assetid: 900f1c1e-e8d2-4cee-acba-c9c2a45e9bcb
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WICGifCommentExtensionProperties, WICGifCommentExtensionProperties enumeration [Windows Imaging Component], WICGifCommentExtensionText, _wic_codec_wicgifcommentextensionproperties, wic._wic_codec_wicgifcommentextensionproperties, wincodec/WICGifCommentExtensionProperties, wincodec/WICGifCommentExtensionText
 ms.topic: enum
 req.header: wincodec.h

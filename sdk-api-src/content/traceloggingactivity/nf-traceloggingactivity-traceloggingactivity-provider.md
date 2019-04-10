@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingactivity_provider.htm
 tech.root: tracelogging
 ms.assetid: 14A2A516-47CB-4AE0-AD9C-046426AE60E7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Provider, Provider method, Provider method,TraceLoggingActivity interface, TraceLoggingActivity interface,Provider method, TraceLoggingActivity.Provider, TraceLoggingActivity::Provider, tracelogging.traceloggingactivity_provider, traceloggingactivity/TraceLoggingActivity::Provider
 ms.topic: method
 req.header: traceloggingactivity.h

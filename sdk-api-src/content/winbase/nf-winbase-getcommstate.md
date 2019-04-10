@@ -7,7 +7,7 @@ old-location: base\getcommstate.htm
 tech.root: devio
 ms.assetid: 974c2ddc-9f7f-445e-ac47-8cd86817ce9b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetCommState, GetCommState function, _win32_getcommstate, base.getcommstate, winbase/GetCommState
 ms.topic: function
 req.header: winbase.h

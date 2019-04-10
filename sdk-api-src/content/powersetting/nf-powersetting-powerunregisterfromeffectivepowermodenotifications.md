@@ -7,7 +7,7 @@ old-location: base\powerunregisterfromeffectivepowermodenotifications.htm
 tech.root: power
 ms.assetid: 6E9AB09B-B082-406C-8F2D-43BEA04C19E0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PowerUnregisterFromEffectivePowerModeNotifications, PowerUnregisterFromEffectivePowerModeNotifications function, base.powerunregisterfromeffectivepowermodenotifications, powersetting/PowerUnregisterFromEffectivePowerModeNotifications
 ms.topic: function
 req.header: powersetting.h

@@ -7,7 +7,7 @@ old-location: netmgmt\netuserchangepassword.htm
 tech.root: NetMgmt
 ms.assetid: e3791756-3bd4-490b-983a-9687373d846b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NetUserChangePassword, NetUserChangePassword function [Network Management], _win32_netuserchangepassword, lmaccess/NetUserChangePassword, netmgmt.netuserchangepassword
 ms.topic: function
 req.header: lmaccess.h

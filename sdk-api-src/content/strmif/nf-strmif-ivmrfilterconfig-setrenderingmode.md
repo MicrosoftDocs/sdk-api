@@ -7,7 +7,7 @@ old-location: dshow\ivmrfilterconfig_setrenderingmode.htm
 tech.root: DirectShow
 ms.assetid: 11fbc818-b0c3-4ce1-b9fe-7e4ba1f81467
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVMRFilterConfig interface [DirectShow],SetRenderingMode method, IVMRFilterConfig.SetRenderingMode, IVMRFilterConfig::SetRenderingMode, IVMRFilterConfigSetRenderingMode, SetRenderingMode, SetRenderingMode method [DirectShow], SetRenderingMode method [DirectShow],IVMRFilterConfig interface, dshow.ivmrfilterconfig_setrenderingmode, strmif/IVMRFilterConfig::SetRenderingMode
 ms.topic: method
 req.header: strmif.h

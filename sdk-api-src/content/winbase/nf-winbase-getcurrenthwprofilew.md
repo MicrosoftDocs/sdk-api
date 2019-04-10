@@ -7,7 +7,7 @@ old-location: base\getcurrenthwprofile.htm
 tech.root: SysInfo
 ms.assetid: 152067bb-3896-43ef-a882-12a159f92cc7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetCurrentHwProfile, GetCurrentHwProfile function, GetCurrentHwProfileA, GetCurrentHwProfileW, _win32_getcurrenthwprofile, base.getcurrenthwprofile, winbase/GetCurrentHwProfile, winbase/GetCurrentHwProfileA, winbase/GetCurrentHwProfileW
 ms.topic: function
 req.header: winbase.h

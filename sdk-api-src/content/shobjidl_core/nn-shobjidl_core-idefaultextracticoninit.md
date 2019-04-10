@@ -7,7 +7,7 @@ old-location: shell\IDefaultExtractIconInit.htm
 tech.root: shell
 ms.assetid: 27b952e3-f17a-4844-8c39-2ae240179d02
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDefaultExtractIconInit, IDefaultExtractIconInit interface [Windows Shell], IDefaultExtractIconInit interface [Windows Shell],described, _shell_IDefaultExtractIconInit, shell.IDefaultExtractIconInit, shobjidl_core/IDefaultExtractIconInit
 ms.topic: interface
 req.header: shobjidl_core.h

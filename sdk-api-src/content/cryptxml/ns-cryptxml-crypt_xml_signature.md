@@ -7,7 +7,7 @@ old-location: security\crypt_xml_signature.htm
 tech.root: SecCrypto
 ms.assetid: d9930946-aec0-42a4-949f-af8b2e9c6e6c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_XML_SIGNATURE, CRYPT_XML_SIGNATURE, CRYPT_XML_SIGNATURE structure [Security], PCRYPT_XML_SIGNATURE, PCRYPT_XML_SIGNATURE structure pointer [Security], cryptxml/CRYPT_XML_SIGNATURE, cryptxml/PCRYPT_XML_SIGNATURE, security.crypt_xml_signature"
 ms.topic: struct
 req.header: cryptxml.h

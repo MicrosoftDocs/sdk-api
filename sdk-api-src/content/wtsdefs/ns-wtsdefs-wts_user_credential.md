@@ -7,7 +7,7 @@ old-location: termserv\wts_user_credential.htm
 tech.root: TermServ
 ms.assetid: 79474bc1-3626-4c0e-ae63-6180404369ea
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PWTS_USER_CREDENTIAL, PWRDS_USER_CREDENTIAL, PWRDS_USER_CREDENTIAL structure pointer [Remote Desktop Services], PWTS_USER_CREDENTIAL, PWTS_USER_CREDENTIAL structure pointer [Remote Desktop Services], WRDS_USER_CREDENTIAL, WRDS_USER_CREDENTIAL structure [Remote Desktop Services], WTS_USER_CREDENTIAL, WTS_USER_CREDENTIAL structure [Remote Desktop Services], termserv.wts_user_credential, wtsdefs/PWRDS_USER_CREDENTIAL, wtsdefs/PWTS_USER_CREDENTIAL, wtsdefs/WRDS_USER_CREDENTIAL, wtsdefs/WTS_USER_CREDENTIAL"
 ms.topic: struct
 req.header: wtsdefs.h

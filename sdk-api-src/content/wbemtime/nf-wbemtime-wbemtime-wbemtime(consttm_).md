@@ -7,7 +7,7 @@ old-location: wmi\wbemtime_wbemtime_const_struct_tm__.htm
 tech.root: WmiSdk
 ms.assetid: fe128577-0059-4728-9848-d947697bb386
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "??0WBEMTime@@QAE@ABUtm@@@Z, WBEMTime, WBEMTime constructor [Windows Management Instrumentation], WBEMTime constructor [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],WBEMTime constructor, WBEMTime.WBEMTime, WBEMTime.WBEMTime(const tm &), WBEMTime::WBEMTime, WBEMTime::WBEMTime(const struct tm&), WBEMTime::WBEMTime(const tm &), wbemtime/WBEMTime::WBEMTime, wmi.wbemtime_wbemtime_const_struct_tm__"
 ms.topic: method
 req.header: wbemtime.h

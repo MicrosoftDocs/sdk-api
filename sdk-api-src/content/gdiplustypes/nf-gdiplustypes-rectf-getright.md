@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_GetRight_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\getright_25.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetRight, GetRight method [GDI+], GetRight method [GDI+],RectF class, RectF class [GDI+],GetRight method, RectF.GetRight, RectF::GetRight, _gdiplus_CLASS_RectF_GetRight_, gdiplus._gdiplus_CLASS_RectF_GetRight_
 ms.topic: method
 req.header: gdiplustypes.h

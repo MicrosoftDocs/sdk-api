@@ -7,7 +7,7 @@ old-location: security\authzunregistercapchangenotification.htm
 tech.root: SecAuthZ
 ms.assetid: 79374C66-CD50-4351-A16B-AF79A579AF74
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AuthzUnregisterCapChangeNotification, AuthzUnregisterCapChangeNotification function [Security], authz/AuthzUnregisterCapChangeNotification, security.authzunregistercapchangenotification
 ms.topic: function
 req.header: authz.h

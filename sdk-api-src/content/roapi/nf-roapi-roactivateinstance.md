@@ -7,7 +7,7 @@ old-location: winrt\roactivateinstance.htm
 tech.root: WinRT
 ms.assetid: 20E469FE-100B-489F-956A-347716FA8A12
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RoActivateInstance, RoActivateInstance function [Windows Runtime], WinRTActivateInstance, roapi/RoActivateInstance, roapi/WinRTActivateInstance, winrt.roactivateinstance, winrt.winrtactivateinstance
 ms.topic: function
 req.header: roapi.h

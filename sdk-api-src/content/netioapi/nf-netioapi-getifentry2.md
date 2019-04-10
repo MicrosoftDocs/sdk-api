@@ -7,7 +7,7 @@ old-location: iphlp\getifentry2.htm
 tech.root: IpHlp
 ms.assetid: da787dae-5e89-4bf2-a9b6-90e727995414
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetIfEntry2, GetIfEntry2 function [IP Helper], iphlp.getifentry2, netioapi/GetIfEntry2
 ms.topic: function
 req.header: netioapi.h

@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_createmediaitemfromurl.htm
 tech.root: medfound
 ms.assetid: 7dc2a7f3-81b4-46c6-b45e-44c6a20afc6b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateMediaItemFromURL, CreateMediaItemFromURL method [Media Foundation], CreateMediaItemFromURL method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],CreateMediaItemFromURL method, IMFPMediaPlayer.CreateMediaItemFromURL, IMFPMediaPlayer::CreateMediaItemFromURL, mf.imfpmediaplayer_createmediaitemfromurl, mfplay/IMFPMediaPlayer::CreateMediaItemFromURL
 ms.topic: method
 req.header: mfplay.h

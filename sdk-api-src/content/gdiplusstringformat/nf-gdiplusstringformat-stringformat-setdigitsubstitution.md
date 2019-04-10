@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_StringFormat_SetDigitSubstitution_language_
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\setdigitsubstitution.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SetDigitSubstitution, SetDigitSubstitution method [GDI+], SetDigitSubstitution method [GDI+],StringFormat class, StringFormat class [GDI+],SetDigitSubstitution method, StringFormat.SetDigitSubstitution, StringFormat::SetDigitSubstitution, _gdiplus_CLASS_StringFormat_SetDigitSubstitution_language_substitute_, gdiplus._gdiplus_CLASS_StringFormat_SetDigitSubstitution_language_substitute_
 ms.topic: method
 req.header: gdiplusstringformat.h

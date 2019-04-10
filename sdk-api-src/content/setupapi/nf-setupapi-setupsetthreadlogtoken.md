@@ -7,7 +7,7 @@ old-location: devinst\setupsetthreadlogtoken.htm
 tech.root: devinst
 ms.assetid: c5295bb8-73c8-4516-91fe-ba11aa8a0657
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SetupSetThreadLogToken, SetupSetThreadLogToken function [Device and Driver Installation], devinst.setupsetthreadlogtoken, setupapi/SetupSetThreadLogToken, setupapilog-ref_0247f1a0-3c40-45dc-8162-a3b5e09d76e4.xml
 ms.topic: function
 req.header: setupapi.h

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1rendertarget_pushaxisalignedclip.htm
 tech.root: Direct2D
 ms.assetid: 8b777425-07b1-4494-889a-0c947fb61315
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ID2D1RenderTarget.PushAxisAlignedClip, ID2D1RenderTarget::PushAxisAlignedClip, PushAxisAlignedClip, PushAxisAlignedClip methods [Direct2D], d2d1_1/PushAxisAlignedClip, direct2d.id2d1rendertarget_pushaxisalignedclip
 ms.topic: method
 req.header: d2d1.h

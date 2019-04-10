@@ -7,7 +7,7 @@ old-location: setup\msidatabasemerge.htm
 tech.root: Msi
 ms.assetid: 2a8c5e13-f7af-47ea-b781-a739d848fe09
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MsiDatabaseMerge, MsiDatabaseMerge function, MsiDatabaseMergeA, MsiDatabaseMergeW, _msi_msidatabasemerge, msiquery/MsiDatabaseMerge, msiquery/MsiDatabaseMergeA, msiquery/MsiDatabaseMergeW, setup.msidatabasemerge
 ms.topic: function
 req.header: msiquery.h

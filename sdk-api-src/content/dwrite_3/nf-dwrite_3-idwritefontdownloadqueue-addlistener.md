@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontdownloadqueue_addlistener.htm
 tech.root: DirectWrite
 ms.assetid: c539be2d-bc77-cc8a-c78c-226a67b8dd26
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AddListener, AddListener method [Direct Write], AddListener method [Direct Write],IDWriteFontDownloadQueue interface, IDWriteFontDownloadQueue interface [Direct Write],AddListener method, IDWriteFontDownloadQueue.AddListener, IDWriteFontDownloadQueue::AddListener, directwrite.idwritefontdownloadqueue_addlistener, dwrite_3/IDWriteFontDownloadQueue::AddListener
 ms.topic: method
 req.header: dwrite_3.h

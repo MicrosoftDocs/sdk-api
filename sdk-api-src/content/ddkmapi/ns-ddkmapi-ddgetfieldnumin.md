@@ -7,7 +7,7 @@ old-location: display\ddgetfieldnumin.htm
 tech.root: display
 ms.assetid: d0f8d7d0-6af6-44d1-8f18-d77ce6502b3f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPDDGETFIELDNUMIN, DDGETFIELDNUMIN, DDGETFIELDNUMIN structure [Display Devices], LPDDGETFIELDNUMIN, LPDDGETFIELDNUMIN structure pointer [Display Devices], ddkmapi/DDGETFIELDNUMIN, ddkmapi/LPDDGETFIELDNUMIN, ddstrcts_d975a952-2893-44cf-a7cb-57b3dd3b633c.xml, display.ddgetfieldnumin"
 ms.topic: struct
 req.header: ddkmapi.h

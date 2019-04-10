@@ -7,7 +7,7 @@ old-location: security\certenumsystemstorelocation.htm
 tech.root: SecCrypto
 ms.assetid: 86408e6f-0732-4cb4-85cd-840b9d98b973
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CertEnumSystemStoreLocation, CertEnumSystemStoreLocation function [Security], _crypto2_certenumsystemstorelocation, security.certenumsystemstorelocation, wincrypt/CertEnumSystemStoreLocation
 ms.topic: function
 req.header: wincrypt.h

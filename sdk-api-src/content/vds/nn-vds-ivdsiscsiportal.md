@@ -7,7 +7,7 @@ old-location: base\ivdsiscsiportal.htm
 tech.root: VDS
 ms.assetid: 1f3131a6-01ab-41e5-9e2f-6ffcdcd0e3a6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVdsIscsiPortal, IVdsIscsiPortal interface [VDS], IVdsIscsiPortal interface [VDS],described, base.ivdsiscsiportal, vds/IVdsIscsiPortal, vdshwprv/IVdsIscsiPortal
 ms.topic: interface
 req.header: vds.h

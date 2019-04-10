@@ -7,7 +7,7 @@ old-location: base\getcommconfig.htm
 tech.root: devio
 ms.assetid: 8c5b74f7-54e3-42c1-a111-a8ddfb677d4e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetCommConfig, GetCommConfig function, _win32_getcommconfig, base.getcommconfig, winbase/GetCommConfig
 ms.topic: function
 req.header: winbase.h

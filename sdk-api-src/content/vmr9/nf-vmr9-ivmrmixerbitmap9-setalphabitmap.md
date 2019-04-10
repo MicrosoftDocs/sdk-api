@@ -7,7 +7,7 @@ old-location: dshow\ivmrmixerbitmap9_setalphabitmap.htm
 tech.root: DirectShow
 ms.assetid: 22aadb5b-8dc8-48ec-bff1-1bac498f3984
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVMRMixerBitmap9 interface [DirectShow],SetAlphaBitmap method, IVMRMixerBitmap9.SetAlphaBitmap, IVMRMixerBitmap9::SetAlphaBitmap, IVMRMixerBitmap9SetAlphaBitmap, SetAlphaBitmap, SetAlphaBitmap method [DirectShow], SetAlphaBitmap method [DirectShow],IVMRMixerBitmap9 interface, dshow.ivmrmixerbitmap9_setalphabitmap, vmr9/IVMRMixerBitmap9::SetAlphaBitmap
 ms.topic: method
 req.header: vmr9.h

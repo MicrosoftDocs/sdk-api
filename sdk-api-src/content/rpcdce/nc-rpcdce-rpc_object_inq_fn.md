@@ -7,7 +7,7 @@ old-location: rpc\rpc_object_inq_fn.htm
 tech.root: Rpc
 ms.assetid: 163a5160-1b47-4b65-8f6c-8b009f548ed9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RPC_OBJECT_INQ_FN, RPC_OBJECT_INQ_FN callback, RPC_OBJECT_INQ_FN callback function [RPC], RpcObjectInqFn, _rpc_rpc_object_inq_fn, rpc.rpc_object_inq_fn, rpcdce/RPC_OBJECT_INQ_FN
 ms.topic: callback
 req.header: rpcdce.h

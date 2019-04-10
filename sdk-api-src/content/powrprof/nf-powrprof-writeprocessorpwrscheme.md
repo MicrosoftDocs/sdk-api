@@ -7,7 +7,7 @@ old-location: base\writeprocessorpwrscheme.htm
 tech.root: power
 ms.assetid: 70e18f50-4774-4a7c-8fe0-7fd6a54aaa90
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WriteProcessorPwrScheme, WriteProcessorPwrScheme function, _win32_writeprocessorpwrscheme, base.writeprocessorpwrscheme, powrprof/WriteProcessorPwrScheme
 ms.topic: function
 req.header: powrprof.h

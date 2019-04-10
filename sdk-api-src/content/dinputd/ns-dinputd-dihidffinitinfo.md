@@ -7,7 +7,7 @@ old-location: hid\dihidffinitinfo.htm
 tech.root: hid
 ms.assetid: 7eaf2d1e-f216-4678-9c8f-e6c38f6e4e66
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPDIHIDFFINITINFO, DIHIDFFINITINFO, DIHIDFFINITINFO structure [Human Input Devices], di_ref_2ed2499d-7d1f-4247-be74-ea356144df44.xml, dinputd/DIHIDFFINITINFO, hid.dihidffinitinfo"
 ms.topic: struct
 req.header: dinputd.h

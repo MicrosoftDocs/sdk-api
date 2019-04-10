@@ -7,7 +7,7 @@ old-location: security\icryptattribute.htm
 tech.root: seccertenroll
 ms.assetid: 2aefde1b-0f77-4a88-8851-5bacd363900b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ICryptAttribute, ICryptAttribute interface [Security], ICryptAttribute interface [Security],described, certenroll/ICryptAttribute, security.icryptattribute
 ms.topic: interface
 req.header: certenroll.h

@@ -7,7 +7,7 @@ old-location: fwp\ikeext_sa_details0.htm
 tech.root: fwp
 ms.assetid: 63d33420-9ae5-4b82-a5f9-469cc5652d59
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IKEEXT_SA_DETAILS0, IKEEXT_SA_DETAILS0 structure [Filtering], fwp.ikeext_sa_details0, iketypes/IKEEXT_SA_DETAILS0
 ms.topic: struct
 req.header: iketypes.h

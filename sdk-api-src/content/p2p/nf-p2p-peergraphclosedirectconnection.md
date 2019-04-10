@@ -7,7 +7,7 @@ old-location: p2p\peergraphclosedirectconnection.htm
 tech.root: P2PSdk
 ms.assetid: e5547292-7f6f-456c-b47a-5d5948f51a7f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PeerGraphCloseDirectConnection, PeerGraphCloseDirectConnection function [Peer Networking], p2p.peergraphclosedirectconnection, p2p/PeerGraphCloseDirectConnection
 ms.topic: function
 req.header: p2p.h

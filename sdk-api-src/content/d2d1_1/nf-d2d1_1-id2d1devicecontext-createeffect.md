@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext_createeffect.htm
 tech.root: Direct2D
 ms.assetid: dfe587f9-e92f-4367-a503-edd446a91cb8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateEffect, CreateEffect method [Direct2D], CreateEffect method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateEffect method, ID2D1DeviceContext.CreateEffect, ID2D1DeviceContext::CreateEffect, d2d1_1/ID2D1DeviceContext::CreateEffect, direct2d.id2d1devicecontext_createeffect
 ms.topic: method
 req.header: d2d1_1.h

@@ -7,7 +7,7 @@ old-location: base\enclave_init_info_sgx.htm
 tech.root: Memory
 ms.assetid: A314FF96-A212-4F47-B836-224DE2C3AC0F
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PENCLAVE_INIT_INFO_SGX, ENCLAVE_INIT_INFO_SGX, ENCLAVE_INIT_INFO_SGX structure, PENCLAVE_INIT_INFO_SGX, PENCLAVE_INIT_INFO_SGX structure pointer, base.enclave_init_info_sgx, winnt/ENCLAVE_INIT_INFO_SGX, winnt/PENCLAVE_INIT_INFO_SGX"
 ms.topic: struct
 req.header: winnt.h

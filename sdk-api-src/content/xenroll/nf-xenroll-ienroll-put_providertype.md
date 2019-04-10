@@ -7,7 +7,7 @@ old-location: security\ienroll4_providertype.htm
 tech.root: SecCrypto
 ms.assetid: d4ab2b0e-127f-4ec0-9e4a-4314561912e3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],ProviderType property, IEnroll.ProviderType, IEnroll.put_ProviderType, IEnroll::ProviderType, IEnroll::get_ProviderType, IEnroll::put_ProviderType, ProviderType property [Security], ProviderType property [Security],IEnroll interface, put_ProviderType, security.ienroll4_providertype, xenroll/IEnroll::ProviderType, xenroll/IEnroll::get_ProviderType, xenroll/IEnroll::put_ProviderType
 ms.topic: method
 req.header: xenroll.h

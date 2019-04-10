@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob_getdescription.htm
 tech.root: Bits
 ms.assetid: 1a791390-2bd8-4732-98a2-74f740cfd822
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [BITS], GetDescription method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetDescription method, IBackgroundCopyJob.GetDescription, IBackgroundCopyJob::GetDescription, _drz_ibackgroundcopyjob_getdescription, bits.ibackgroundcopyjob_getdescription, bits/IBackgroundCopyJob::GetDescription
 ms.topic: method
 req.header: bits.h

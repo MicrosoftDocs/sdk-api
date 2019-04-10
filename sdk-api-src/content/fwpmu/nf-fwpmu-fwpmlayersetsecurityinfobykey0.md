@@ -7,7 +7,7 @@ old-location: fwp\fwpmlayersetsecurityinfobykey0_func.htm
 tech.root: fwp
 ms.assetid: a6f1e50b-bce1-42db-bb6f-dc0c93859015
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FwpmLayerSetSecurityInfoByKey0, FwpmLayerSetSecurityInfoByKey0 function [Filtering], fwp.fwpmlayersetsecurityinfobykey0_func, fwpmu/FwpmLayerSetSecurityInfoByKey0
 ms.topic: function
 req.header: fwpmu.h

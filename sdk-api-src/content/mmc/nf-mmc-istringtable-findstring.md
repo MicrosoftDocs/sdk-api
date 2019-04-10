@@ -7,7 +7,7 @@ old-location: mmc\istringtable_findstring.htm
 tech.root: mmc
 ms.assetid: c239618d-ed27-4d73-9e88-7323960a0e68
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FindString, FindString method [MMC], FindString method [MMC],IStringTable interface, IStringTable interface [MMC],FindString method, IStringTable.FindString, IStringTable::FindString, _slate_istringtable_findstring, mmc.istringtable_findstring, mmc/IStringTable::FindString
 ms.topic: method
 req.header: mmc.h

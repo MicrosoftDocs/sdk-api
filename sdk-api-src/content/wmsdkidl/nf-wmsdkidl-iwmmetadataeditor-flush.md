@@ -7,7 +7,7 @@ old-location: wmformat\iwmmetadataeditor_flush.htm
 tech.root: wmformat
 ms.assetid: b17992f7-ed93-4f62-bf50-8fb2fd41caee
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Flush, Flush method [windows Media Format], Flush method [windows Media Format],IWMMetadataEditor interface, IWMMetadataEditor interface [windows Media Format],Flush method, IWMMetadataEditor.Flush, IWMMetadataEditor::Flush, IWMMetadataEditorFlush, wmformat.iwmmetadataeditor_flush, wmsdkidl/IWMMetadataEditor::Flush
 ms.topic: method
 req.header: wmsdkidl.h

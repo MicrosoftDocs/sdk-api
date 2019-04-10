@@ -7,7 +7,7 @@ old-location: wmp\iwmpstringcollection2_getiteminfobytype.htm
 tech.root: WMP
 ms.assetid: ff395caf-9b5a-41e0-94c6-4a5eb96281ca
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMPStringCollection2 interface [Windows Media Player],getItemInfoByType method, IWMPStringCollection2.getItemInfoByType, IWMPStringCollection2::getItemInfoByType, IWMPStringCollection2getItemInfoByType, getItemInfoByType, getItemInfoByType method [Windows Media Player], getItemInfoByType method [Windows Media Player],IWMPStringCollection2 interface, wmp.iwmpstringcollection2_getiteminfobytype, wmp/IWMPStringCollection2::getItemInfoByType
 ms.topic: method
 req.header: wmp.h

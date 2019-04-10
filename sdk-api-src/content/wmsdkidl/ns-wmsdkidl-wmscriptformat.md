@@ -7,7 +7,7 @@ old-location: wmformat\wmscriptformat.htm
 tech.root: wmformat
 ms.assetid: b7c513ac-9c28-4556-a0c8-f3e0d6efc735
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WMSCRIPTFORMAT, WMSCRIPTFORMAT structure [windows Media Format], wmformat.wmscriptformat, wmsdkidl/WMSCRIPTFORMAT
 ms.topic: struct
 req.header: wmsdkidl.h

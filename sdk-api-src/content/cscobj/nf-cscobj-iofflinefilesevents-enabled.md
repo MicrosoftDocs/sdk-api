@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents_enabled.htm
 tech.root: offlinefiles
 ms.assetid: 47db9318-2418-4e6c-aac0-75b0b498c7e6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Enabled, Enabled method [Offline Files], Enabled method [Offline Files],IOfflineFilesEvents interface, IOfflineFilesEvents interface [Offline Files],Enabled method, IOfflineFilesEvents.Enabled, IOfflineFilesEvents::Enabled, cscobj/IOfflineFilesEvents::Enabled, of.iofflinefilesevents_enabled
 ms.topic: method
 req.header: cscobj.h

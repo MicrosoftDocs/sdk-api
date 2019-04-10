@@ -7,7 +7,7 @@ old-location: ldap\ldap_value_free.htm
 tech.root: ldap
 ms.assetid: 67c9f04c-4b8e-4e97-902d-fceccf27f522
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_value_free, ldap.ldap__value__free, ldap.ldap_value_free, ldap_value_free, ldap_value_free function [LDAP], ldap_value_freeA, ldap_value_freeW, winldap/ldap_value_free, winldap/ldap_value_freeA, winldap/ldap_value_freeW"
 ms.topic: function
 req.header: winldap.h

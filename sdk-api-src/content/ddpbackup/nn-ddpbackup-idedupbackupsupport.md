@@ -7,7 +7,7 @@ old-location: dedup\idedupbackupsupport.htm
 tech.root: dedup
 ms.assetid: 45AACC37-3C83-4DBA-8C18-26D76ED831BB
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDedupBackupSupport, IDedupBackupSupport interface [Data Deduplication API], IDedupBackupSupport interface [Data Deduplication API],described, ddpbackup/IDedupBackupSupport, dedup.idedupbackupsupport
 ms.topic: interface
 req.header: ddpbackup.h

@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoveredservice.htm
 tech.root: WsdApi
 ms.assetid: 6516098a-e440-4dec-b275-165ea3072d49
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWSDiscoveredService, IWSDiscoveredService interface, IWSDiscoveredService interface,described, ncd.iwsdiscoveredservice, wsddisco/IWSDiscoveredService
 ms.topic: interface
 req.header: wsddisco.h

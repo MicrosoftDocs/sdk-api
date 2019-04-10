@@ -7,7 +7,7 @@ old-location: winrm\wsmancreateshell.htm
 tech.root: winrm
 ms.assetid: 901c0a2d-d25f-451c-8d6c-83662f1f1061
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WSManCreateShell, WSManCreateShell function [Windows Remote Management], winrm.wsmancreateshell, wsman/WSManCreateShell
 ms.topic: function
 req.header: wsman.h

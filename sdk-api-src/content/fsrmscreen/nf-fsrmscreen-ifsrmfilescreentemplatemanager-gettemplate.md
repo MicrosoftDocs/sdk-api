@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilescreentemplatemanager_gettemplate.htm
 tech.root: fsrm
 ms.assetid: e97149f6-8cf5-433c-a487-799322253e44
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FsrmFileScreenTemplateManager class [File Server Resource Manager],GetTemplate method, GetTemplate, GetTemplate method [File Server Resource Manager], GetTemplate method [File Server Resource Manager],FsrmFileScreenTemplateManager class, GetTemplate method [File Server Resource Manager],IFsrmFileScreenTemplateManager interface, IFsrmFileScreenTemplateManager interface [File Server Resource Manager],GetTemplate method, IFsrmFileScreenTemplateManager.GetTemplate, IFsrmFileScreenTemplateManager::GetTemplate, fs.ifsrmfilescreentemplatemanager_gettemplate, fsrm.ifsrmfilescreentemplatemanager_gettemplate, fsrmscreen/IFsrmFileScreenTemplateManager::GetTemplate
 ms.topic: method
 req.header: fsrmscreen.h

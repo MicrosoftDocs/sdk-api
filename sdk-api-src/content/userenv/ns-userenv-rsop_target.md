@@ -7,7 +7,7 @@ old-location: policy\rsop_target_str.htm
 tech.root: Policy
 ms.assetid: 65b0eb27-fc4a-44d6-843e-965a90dc51e8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PRSOP_TARGET, PRSOP_TARGET, PRSOP_TARGET structure pointer [Group Policy], RSOP_TARGET, RSOP_TARGET structure [Group Policy], _win32_rsop_target_str, policy.rsop_target_str, userenv/PRSOP_TARGET, userenv/RSOP_TARGET"
 ms.topic: struct
 req.header: userenv.h

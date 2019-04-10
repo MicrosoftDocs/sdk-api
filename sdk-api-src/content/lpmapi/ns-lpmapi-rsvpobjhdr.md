@@ -7,7 +7,7 @@ old-location: qos\rsvpobjhdr.htm
 tech.root: QOS
 ms.assetid: 90a237c0-0e62-4f27-927a-e3f3c1ac629e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RsvpObjHdr, RsvpObjHdr structure [QOS], lpmapi/RsvpObjHdr, qos.rsvpobjhdr
 ms.topic: struct
 req.header: lpmapi.h

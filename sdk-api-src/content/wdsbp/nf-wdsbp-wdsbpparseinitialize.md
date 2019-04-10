@@ -7,7 +7,7 @@ old-location: wds\wdsbpparseinitialize.htm
 tech.root: wds
 ms.assetid: dc6007ad-0dd5-477d-a49f-45820aa1b5f6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WDSBP_PK_TYPE_BCD, WDSBP_PK_TYPE_DHCP, WDSBP_PK_TYPE_WDSNBP, WdsBpParseInitialize, WdsBpParseInitialize function [Windows Deployment Services], wds.wdsbpparseinitialize, wdsbp/WdsBpParseInitialize
 ms.topic: function
 req.header: wdsbp.h

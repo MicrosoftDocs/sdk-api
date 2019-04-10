@@ -7,7 +7,7 @@ old-location: nla\ienumnetworkconnections_reset.htm
 tech.root: nla
 ms.assetid: 5596f7bb-97c8-4751-92fc-1b1ce584ca49
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEnumNetworkConnections interface [Network Awareness],Reset method, IEnumNetworkConnections.Reset, IEnumNetworkConnections::Reset, Reset, Reset method [Network Awareness], Reset method [Network Awareness],IEnumNetworkConnections interface, netlistmgr/IEnumNetworkConnections::Reset, nla.ienumnetworkconnections_reset
 ms.topic: method
 req.header: netlistmgr.h

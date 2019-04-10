@@ -7,7 +7,7 @@ old-location: wds\pfn_wdsclitracefunction.htm
 tech.root: wds
 ms.assetid: 5c10c767-45d2-4b42-b7c3-a2cd8188975e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PFN_WdsCliTraceFunction, PFN_WdsCliTraceFunction callback, PFN_WdsCliTraceFunction callback function [Windows Deployment Services], wds.pfn_wdsclitracefunction, wdsclientapi/PFN_WdsCliTraceFunction
 ms.topic: callback
 req.header: wdsclientapi.h

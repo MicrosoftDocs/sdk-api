@@ -7,7 +7,7 @@ old-location: mstv\ibda_signalstatistics_get_signallocked.htm
 tech.root: mstv
 ms.assetid: 2a67ff4b-1abc-43c4-b171-f9af90c5aaf7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IBDA_SignalStatistics interface [Microsoft TV Technologies],get_SignalLocked method, IBDA_SignalStatistics.get_SignalLocked, IBDA_SignalStatistics::get_SignalLocked, IBDA_SignalStatisticsget_SignalLocked, bdaiface/IBDA_SignalStatistics::get_SignalLocked, get_SignalLocked, get_SignalLocked method [Microsoft TV Technologies], get_SignalLocked method [Microsoft TV Technologies],IBDA_SignalStatistics interface, mstv.ibda_signalstatistics_get_signallocked
 ms.topic: method
 req.header: bdaiface.h

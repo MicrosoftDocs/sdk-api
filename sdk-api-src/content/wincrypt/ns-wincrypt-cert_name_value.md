@@ -7,7 +7,7 @@ old-location: security\cert_name_value.htm
 tech.root: SecCrypto
 ms.assetid: 9f4ba546-7881-4827-b8f5-c3dd8c54ea8b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PCERT_NAME_VALUE, CERT_NAME_VALUE, CERT_NAME_VALUE structure [Security], PCERT_NAME_VALUE, PCERT_NAME_VALUE structure pointer [Security], _crypto2_cert_name_value, security.cert_name_value, wincrypt/CERT_NAME_VALUE, wincrypt/PCERT_NAME_VALUE"
 ms.topic: struct
 req.header: wincrypt.h

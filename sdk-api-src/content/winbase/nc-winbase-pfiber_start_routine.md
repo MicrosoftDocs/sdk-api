@@ -7,7 +7,7 @@ old-location: base\fiberproc.htm
 tech.root: ProcThread
 ms.assetid: 368d98f3-1ecd-47a0-98cc-0636f055ae41
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: LPFIBER_START_ROUTINE, PFIBER_START_ROUTINE, PFIBER_START_ROUTINE callback, PFIBER_START_ROUTINE callback function, _win32_fiberproc, base.fiberproc, winbase/PFIBER_START_ROUTINE
 ms.topic: callback
 req.header: winbase.h

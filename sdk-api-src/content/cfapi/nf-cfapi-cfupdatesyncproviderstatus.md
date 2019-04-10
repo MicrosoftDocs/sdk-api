@@ -7,7 +7,7 @@ old-location: cloudapi\cfupdatesyncproviderstatus.htm
 tech.root: cfApi
 ms.assetid: E0CB6CA2-439A-4919-95EF-B519ABBBB085
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CfUpdateSyncProviderStatus, CfUpdateSyncProviderStatus function, cfapi/CfUpdateSyncProviderStatus, cloudApi.cfupdatesyncproviderstatus
 ms.topic: function
 req.header: cfapi.h

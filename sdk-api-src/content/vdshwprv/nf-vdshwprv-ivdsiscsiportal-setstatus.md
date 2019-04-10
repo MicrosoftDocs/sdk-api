@@ -7,7 +7,7 @@ old-location: base\ivdsiscsiportal_setstatus.htm
 tech.root: VDS
 ms.assetid: 6c63fa36-bccb-4731-999a-c6f8b565b38f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVdsIscsiPortal interface [VDS],SetStatus method, IVdsIscsiPortal.SetStatus, IVdsIscsiPortal::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsIscsiPortal interface, base.ivdsiscsiportal_setstatus, vds/IVdsIscsiPortal::SetStatus, vdshwprv/IVdsIscsiPortal::SetStatus
 ms.topic: method
 req.header: vdshwprv.h

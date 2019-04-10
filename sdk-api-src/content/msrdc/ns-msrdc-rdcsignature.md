@@ -7,7 +7,7 @@ old-location: rdc\rdcsignature.htm
 tech.root: rdc
 ms.assetid: eca15d66-1d8c-422b-a2ab-7dbe00cb4087
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RdcSignature, RdcSignature structure [Remote Differential Compression], fs.rdcsignature, msrdc/RdcSignature, rdc.rdcsignature
 ms.topic: struct
 req.header: msrdc.h

@@ -7,7 +7,7 @@ old-location: shell\IFileOperation_RenameItem.htm
 tech.root: shell
 ms.assetid: 2f72b729-3535-4ab7-9579-21b1ba97c67f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFileOperation interface [Windows Shell],RenameItem method, IFileOperation.RenameItem, IFileOperation::RenameItem, RenameItem, RenameItem method [Windows Shell], RenameItem method [Windows Shell],IFileOperation interface, _shell_IFileOperation_RenameItem, shell.IFileOperation_RenameItem, shobjidl_core/IFileOperation::RenameItem
 ms.topic: method
 req.header: shobjidl_core.h

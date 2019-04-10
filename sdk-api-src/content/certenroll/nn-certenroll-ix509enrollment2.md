@@ -7,7 +7,7 @@ old-location: security\ix509enrollment2.htm
 tech.root: seccertenroll
 ms.assetid: 8e262b4b-de6a-417e-9ade-0b451bd4c09a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IX509Enrollment2, IX509Enrollment2 interface [Security], IX509Enrollment2 interface [Security],described, certenroll/IX509Enrollment2, security.ix509enrollment2
 ms.topic: interface
 req.header: certenroll.h

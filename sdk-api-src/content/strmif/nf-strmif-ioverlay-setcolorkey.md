@@ -7,7 +7,7 @@ old-location: dshow\ioverlay_setcolorkey.htm
 tech.root: DirectShow
 ms.assetid: dacbaf03-348f-403d-9c2c-aed8ec344879
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IOverlay interface [DirectShow],SetColorKey method, IOverlay.SetColorKey, IOverlay::SetColorKey, IOverlaySetColorKey, SetColorKey, SetColorKey method [DirectShow], SetColorKey method [DirectShow],IOverlay interface, dshow.ioverlay_setcolorkey, strmif/IOverlay::SetColorKey
 ms.topic: method
 req.header: strmif.h

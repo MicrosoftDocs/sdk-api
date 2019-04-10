@@ -7,7 +7,7 @@ old-location: winsock\wpugetproviderpath_2.htm
 tech.root: WinSock
 ms.assetid: fb59e69a-bee4-4807-9ef2-cbcc8c0d367f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WPUGetProviderPath, WPUGetProviderPath function [Winsock], _win32_wpugetproviderpath_2, winsock.wpugetproviderpath_2, ws2spi/WPUGetProviderPath
 ms.topic: function
 req.header: ws2spi.h

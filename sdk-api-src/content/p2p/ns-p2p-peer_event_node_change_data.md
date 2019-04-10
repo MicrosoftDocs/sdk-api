@@ -7,7 +7,7 @@ old-location: p2p\peer_event_node_change_data.htm
 tech.root: P2PSdk
 ms.assetid: 656c9155-643d-4c94-9141-3499f7e0adac
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PPEER_EVENT_NODE_CHANGE_DATA, PEER_EVENT_NODE_CHANGE_DATA, PEER_EVENT_NODE_CHANGE_DATA structure [Peer Networking], PEER_NODE_CHANGE_CONNECTED, PEER_NODE_CHANGE_DISCONNECTED, PEER_NODE_CHANGE_UPDATED, PPEER_EVENT_NODE_CHANGE_DATA, PPEER_EVENT_NODE_CHANGE_DATA structure pointer [Peer Networking], p2p.peer_event_node_change_data, p2p/PPEER_EVENT_NODE_CHANGE_DATA, p2p/peer_event_node_change_data_tag"
 ms.topic: struct
 req.header: p2p.h

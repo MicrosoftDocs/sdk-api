@@ -7,7 +7,7 @@ old-location: rm\drmspectype.htm
 tech.root: AdRms_Sdk
 ms.assetid: 40997883-2636-4dd1-adf4-deff997abcc8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DRMSPECTYPE, DRMSPECTYPE enumeration [Active Directory Rights Management Services SDK 1.0], DRMSPECTYPE_FILENAME, DRMSPECTYPE_UNKNOWN, msdrmdefs/DRMSPECTYPE, msdrmdefs/DRMSPECTYPE_FILENAME, msdrmdefs/DRMSPECTYPE_UNKNOWN, rm.drmspectype
 ms.topic: enum
 req.header: msdrmdefs.h

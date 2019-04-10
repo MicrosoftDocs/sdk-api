@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_propertyset_clear.htm
 tech.root: wmi_v2
 ms.assetid: c5cd80b7-51bc-48dd-a49d-c3ce6d92fd55
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_PropertySet_Clear, MI_PropertySet_Clear function [Windows Management Infrastructure (MI)], mi/MI_PropertySet_Clear, wmi_v2.mi_propertyset_clear
 ms.topic: function
 req.header: mi.h

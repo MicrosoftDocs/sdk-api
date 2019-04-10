@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetfilterv4.htm
 tech.root: DHCP
 ms.assetid: 2acee985-48b1-4a76-9ca1-2fc27d990032
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DhcpGetFilterV4, DhcpGetFilterV4 function [DHCP], dhcp.dhcpgetfilterv4, dhcpsapi/DhcpGetFilterV4
 ms.topic: function
 req.header: dhcpsapi.h

@@ -7,7 +7,7 @@ old-location: w_ui_comp\icompositorinterop.htm
 tech.root: w_ui_comp
 ms.assetid: 0BE505EA-1C31-411E-AAF7-06D52D9F4682
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ICompositorInterop, ICompositorInterop interface, ICompositorInterop interface,described, w_ui_comp.icompositorinterop, windows/ICompositorInterop
 ms.topic: interface
 req.header: windows.ui.composition.interop.h

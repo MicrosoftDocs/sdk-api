@@ -7,7 +7,7 @@ old-location: rras\mpradminacceptnewconnection3.htm
 tech.root: RRAS
 ms.assetid: c457b972-e326-4c6d-b146-f6ce4e18e3ea
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MprAdminAcceptNewConnection3, MprAdminAcceptNewConnection3 callback, MprAdminAcceptNewConnection3 callback function [RAS], mprapi/MprAdminAcceptNewConnection3, rras.mpradminacceptnewconnection3
 ms.topic: function
 req.header: mprapi.h

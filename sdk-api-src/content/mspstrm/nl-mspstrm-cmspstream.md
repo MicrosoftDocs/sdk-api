@@ -7,7 +7,7 @@ old-location: tapi3\cmspstream.htm
 tech.root: Tapi
 ms.assetid: 776ca663-faa2-4534-8873-4e20ed79530c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CMSPStream, CMSPStream class [TAPI 2.2], CMSPStream class [TAPI 2.2],described, _tapi3_cmspstream, mspstrm/CMSPStream, tapi3.cmspstream
 ms.topic: class
 req.header: mspstrm.h

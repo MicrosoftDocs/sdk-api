@@ -7,7 +7,7 @@ old-location: rpc\rpcnsbindingimportdone.htm
 tech.root: Rpc
 ms.assetid: 093c988a-5d88-45b5-b69a-f26962118fdb
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RpcNsBindingImportDone, RpcNsBindingImportDone function [RPC], _rpc_rpcnsbindingimportdone, rpc.rpcnsbindingimportdone, rpcnsi/RpcNsBindingImportDone
 ms.topic: function
 req.header: rpcnsi.h

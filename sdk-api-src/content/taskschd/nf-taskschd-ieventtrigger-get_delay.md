@@ -7,7 +7,7 @@ old-location: taskschd\ieventtrigger_delay.htm
 tech.root: taskschd
 ms.assetid: 2731ad62-6384-4c66-b66f-b159a5b15cb1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Delay property [Task Scheduler], Delay property [Task Scheduler],IEventTrigger interface, IEventTrigger interface [Task Scheduler],Delay property, IEventTrigger.Delay, IEventTrigger.get_Delay, IEventTrigger::Delay, IEventTrigger::get_Delay, IEventTrigger::put_Delay, get_Delay, taskschd.ieventtrigger_delay, taskschd/IEventTrigger::Delay, taskschd/IEventTrigger::get_Delay, taskschd/IEventTrigger::put_Delay
 ms.topic: method
 req.header: taskschd.h

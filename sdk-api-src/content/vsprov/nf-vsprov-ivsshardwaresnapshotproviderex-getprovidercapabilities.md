@@ -7,7 +7,7 @@ old-location: base\ivsshardwaresnapshotproviderex_getprovidercapabilities.htm
 tech.root: VSS
 ms.assetid: cf95ba6c-b4da-4e9e-969e-58c492cf7901
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetProviderCapabilities, GetProviderCapabilities method, GetProviderCapabilities method,IVssHardwareSnapshotProviderEx interface, IVssHardwareSnapshotProviderEx interface,GetProviderCapabilities method, IVssHardwareSnapshotProviderEx.GetProviderCapabilities, IVssHardwareSnapshotProviderEx::GetProviderCapabilities, base.ivsshardwaresnapshotproviderex_getprovidercapabilities, vsprov/IVssHardwareSnapshotProviderEx::GetProviderCapabilities
 ms.topic: method
 req.header: vsprov.h

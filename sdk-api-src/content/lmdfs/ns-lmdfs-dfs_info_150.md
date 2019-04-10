@@ -7,7 +7,7 @@ old-location: dfs\dfs_info_150.htm
 tech.root: Dfs
 ms.assetid: b0fa6fca-8e60-447d-9334-c4df04f13439
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPDFS_INFO_150, *PDFS_INFO_150, DFS_INFO_150, DFS_INFO_150 structure [Distributed File System], PDFS_INFO_150, PDFS_INFO_150 structure pointer [Distributed File System], dfs.dfs_info_150, fs.dfs_info_150, lmdfs/DFS_INFO_150, lmdfs/PDFS_INFO_150"
 ms.topic: struct
 req.header: lmdfs.h

@@ -7,7 +7,7 @@ old-location: wua\idownloadprogresschangedcallback.htm
 tech.root: Wua_Sdk
 ms.assetid: 8fc414da-835c-438f-b607-8a273e7f9064
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDownloadProgressChangedCallback, IDownloadProgressChangedCallback interface [Windows Update Agent], IDownloadProgressChangedCallback interface [Windows Update Agent],described, wua.idownloadprogresschangedcallback, wuapi/IDownloadProgressChangedCallback
 ms.topic: interface
 req.header: wuapi.h

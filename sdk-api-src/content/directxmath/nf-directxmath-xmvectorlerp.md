@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorlerp.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVectorLerp(XMVECTOR,XMVECTOR,float)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorLerp, XMVectorLerp, XMVectorLerp method [DirectX Math Support APIs], dxmath.xmvectorlerp
 ms.topic: function
 req.header: directxmath.h

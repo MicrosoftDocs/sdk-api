@@ -7,7 +7,7 @@ old-location: gdi\emrgdicomment.htm
 tech.root: gdi
 ms.assetid: aac18154-bd50-45a4-a1ba-390b59525fa9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PEMRGDICOMMENT, EMRGDICOMMENT, EMRGDICOMMENT structure [Windows GDI], PEMRGDICOMMENT, PEMRGDICOMMENT structure pointer [Windows GDI], _win32_EMRGDICOMMENT_str, gdi.emrgdicomment, wingdi/EMRGDICOMMENT, wingdi/PEMRGDICOMMENT"
 ms.topic: struct
 req.header: wingdi.h

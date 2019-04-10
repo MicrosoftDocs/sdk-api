@@ -7,7 +7,7 @@ old-location: appxpkg\iappxpackageeditor_createdeltapackage.htm
 tech.root: appxpkg
 ms.assetid: 40B41D47-674A-4842-8C6D-FBB661D12589
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateDeltaPackage, CreateDeltaPackage method [App packaging and management], CreateDeltaPackage method [App packaging and management],IAppxPackageEditor interface, IAppxPackageEditor interface [App packaging and management],CreateDeltaPackage method, IAppxPackageEditor.CreateDeltaPackage, IAppxPackageEditor::CreateDeltaPackage, appxpackaging/IAppxPackageEditor::CreateDeltaPackage, appxpkg.iappxpackageeditor_createdeltapackage
 ms.topic: method
 req.header: appxpackaging.h

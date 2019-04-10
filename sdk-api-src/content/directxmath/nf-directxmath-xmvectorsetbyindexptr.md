@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorsetbyindexptr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorSetByIndexPtr(XMVECTOR,float,size_t)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSetByIndexPtr, XMVectorSetByIndexPtr, XMVectorSetByIndexPtr method [DirectX Math Support APIs], dxmath.xmvectorsetbyindexptr
 ms.topic: function
 req.header: directxmath.h

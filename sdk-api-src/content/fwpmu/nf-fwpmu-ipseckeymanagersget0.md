@@ -7,7 +7,7 @@ old-location: fwp\ipseckeymanagersget0.htm
 tech.root: fwp
 ms.assetid: 5456C126-DF5F-472D-A3A2-37C2C0C1E2FE
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IPsecKeyManagersGet0, IPsecKeyManagersGet0 function [Filtering], fwp.ipseckeymanagersget0, fwpmu/IPsecKeyManagersGet0
 ms.topic: function
 req.header: fwpmu.h

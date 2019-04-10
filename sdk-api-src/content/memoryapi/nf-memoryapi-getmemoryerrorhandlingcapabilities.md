@@ -7,7 +7,7 @@ old-location: base\getmemoryerrorhandlingcapabilities.htm
 tech.root: Memory
 ms.assetid: 03a22996-7275-4c9b-838e-424ad92c6606
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetMemoryErrorHandlingCapabilities, GetMemoryErrorHandlingCapabilities function, MEHC_PATROL_SCRUBBER_PRESENT, base.getmemoryerrorhandlingcapabilities, winbase/GetMemoryErrorHandlingCapabilities
 ms.topic: function
 req.header: memoryapi.h

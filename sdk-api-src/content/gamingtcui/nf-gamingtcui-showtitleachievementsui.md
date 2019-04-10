@@ -7,7 +7,7 @@ old-location: tcui\showtitleachievementsui.htm
 tech.root: tcui
 ms.assetid: 9A637543-1EDF-4065-844B-05E9E2C6300D
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ShowTitleAchievementsUI, ShowTitleAchievementsUI function, gamingtcui/ShowTitleAchievementsUI, tcui.showtitleachievementsui
 ms.topic: function
 req.header: gamingtcui.h

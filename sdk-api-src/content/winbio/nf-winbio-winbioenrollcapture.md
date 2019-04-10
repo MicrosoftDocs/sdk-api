@@ -7,7 +7,7 @@ old-location: secbiomet\winbioenrollcapture.htm
 tech.root: SecBioMet
 ms.assetid: a50f0c9f-7b9c-4d80-b8fc-8b83bc333578
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WinBioEnrollCapture, WinBioEnrollCapture function [Windows Biometric Framework API], secbiomet.winbioenrollcapture, winbio/WinBioEnrollCapture
 ms.topic: function
 req.header: winbio.h

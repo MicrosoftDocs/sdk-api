@@ -7,7 +7,7 @@ old-location: snmp\snmputiloidtoa.htm
 tech.root: SNMP
 ms.assetid: c21124ac-f2f8-4096-9100-639ded42d198
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SnmpUtilOidToA, SnmpUtilOidToA function [SNMP], _snmp_snmputiloidtoa, snmp.snmputiloidtoa, snmp/SnmpUtilOidToA
 ms.topic: function
 req.header: snmp.h

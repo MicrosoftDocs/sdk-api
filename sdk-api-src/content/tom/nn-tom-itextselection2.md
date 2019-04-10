@@ -7,7 +7,7 @@ old-location: controls\itextselection2.htm
 tech.root: Controls
 ms.assetid: 75a4e233-6672-4407-bd68-ba8a7072b7b1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITextSelection2, ITextSelection2 interface [Windows Controls], ITextSelection2 interface [Windows Controls],described, controls.itextselection2, tom/ITextSelection2
 ms.topic: interface
 req.header: tom.h

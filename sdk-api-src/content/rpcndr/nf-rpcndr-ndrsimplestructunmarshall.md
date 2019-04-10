@@ -7,7 +7,7 @@ old-location: winprog\ndrsimplestructunmarshall.htm
 tech.root: DevNotes
 ms.assetid: 6b4a28a3-3d0f-43c5-b59a-58c14435e28f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NdrSimpleStructUnmarshall, NdrSimpleStructUnmarshall function [Windows API], rpcndr/NdrSimpleStructUnmarshall, winprog.ndrsimplestructunmarshall
 ms.topic: function
 req.header: rpcndr.h

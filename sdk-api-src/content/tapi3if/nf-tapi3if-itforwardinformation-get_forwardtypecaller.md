@@ -7,7 +7,7 @@ old-location: tapi3\itforwardinformation_get_forwardtypecaller.htm
 tech.root: Tapi
 ms.assetid: 3fca5b5c-dd1e-4c8d-878a-99a7e3ec45f9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITForwardInformation interface [TAPI 2.2],get_ForwardTypeCaller method, ITForwardInformation.get_ForwardTypeCaller, ITForwardInformation::get_ForwardTypeCaller, _tapi3_itforwardinformation_get_forwardtypecaller, get_ForwardTypeCaller, get_ForwardTypeCaller method [TAPI 2.2], get_ForwardTypeCaller method [TAPI 2.2],ITForwardInformation interface, tapi3.itforwardinformation_get_forwardtypecaller, tapi3if/ITForwardInformation::get_ForwardTypeCaller
 ms.topic: method
 req.header: tapi3if.h

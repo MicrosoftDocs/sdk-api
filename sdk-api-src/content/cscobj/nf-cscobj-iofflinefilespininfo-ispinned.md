@@ -7,7 +7,7 @@ old-location: of\iofflinefilespininfo_ispinned.htm
 tech.root: offlinefiles
 ms.assetid: 143cf346-dbe0-42cf-871e-a0cb54722403
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IOfflineFilesPinInfo interface [Offline Files],IsPinned method, IOfflineFilesPinInfo.IsPinned, IOfflineFilesPinInfo::IsPinned, IsPinned, IsPinned method [Offline Files], IsPinned method [Offline Files],IOfflineFilesPinInfo interface, cscobj/IOfflineFilesPinInfo::IsPinned, of.iofflinefilespininfo_ispinned
 ms.topic: method
 req.header: cscobj.h

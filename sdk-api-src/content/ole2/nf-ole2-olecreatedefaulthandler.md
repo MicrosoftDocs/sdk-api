@@ -7,7 +7,7 @@ old-location: com\olecreatedefaulthandler.htm
 tech.root: com
 ms.assetid: ffe87012-b000-4ed7-b0b2-78ffdc794d3b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: OleCreateDefaultHandler, OleCreateDefaultHandler function [COM], _ole_OleCreateDefaultHandler, com.olecreatedefaulthandler, ole2/OleCreateDefaultHandler
 ms.topic: function
 req.header: ole2.h

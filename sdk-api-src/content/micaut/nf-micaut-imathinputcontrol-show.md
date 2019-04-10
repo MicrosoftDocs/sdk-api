@@ -7,7 +7,7 @@ old-location: tablet\imathinputcontrol_show.htm
 tech.root: tablet
 ms.assetid: d45d1e73-eace-4611-a4a4-28706a19766c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMathInputControl interface [Tablet PC],Show method, IMathInputControl.Show, IMathInputControl::Show, Show, Show method [Tablet PC], Show method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::Show, tablet.imathinputcontrol_show
 ms.topic: method
 req.header: micaut.h

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_hit_group_type.htm
 tech.root: direct3d12
 ms.assetid: F7C77720-CAAE-49E4-929B-E1A0BF9FFC1A
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: D3D12_HIT_GROUP_TYPE, D3D12_HIT_GROUP_TYPE enumeration, D3D12_HIT_GROUP_TYPE_PROCEDURAL_PRIMITIVE, D3D12_HIT_GROUP_TYPE_TRIANGLES, d3d12/D3D12_HIT_GROUP_TYPE, d3d12/D3D12_HIT_GROUP_TYPE_PROCEDURAL_PRIMITIVE, d3d12/D3D12_HIT_GROUP_TYPE_TRIANGLES, direct3d12.d3d12_hit_group_type
 ms.topic: enum
 req.header: d3d12.h

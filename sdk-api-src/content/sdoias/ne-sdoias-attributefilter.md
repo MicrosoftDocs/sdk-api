@@ -7,7 +7,7 @@ old-location: nps\SDO_attributefilter.htm
 tech.root: Nps
 ms.assetid: 7c90abe6-7a01-477d-b44d-6ae3ff1ef588
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ATTRIBUTEFILTER, ATTRIBUTEFILTER enumeration [Network Policy Server], ATTRIBUTE_FILTER_IEEE_802_1x, ATTRIBUTE_FILTER_NONE, ATTRIBUTE_FILTER_VPN_DIALUP, nps.SDO_attributefilter, sdo.attributefilter, sdoias/ATTRIBUTEFILTER, sdoias/ATTRIBUTE_FILTER_IEEE_802_1x, sdoias/ATTRIBUTE_FILTER_NONE, sdoias/ATTRIBUTE_FILTER_VPN_DIALUP
 ms.topic: enum
 req.header: sdoias.h

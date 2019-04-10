@@ -7,7 +7,7 @@ old-location: direct3d11\id3duserdefinedannotation_beginevent.htm
 tech.root: direct3d11
 ms.assetid: 38FC7BFA-A01E-4537-88F1-836AE03C9A07
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BeginEvent, BeginEvent method [Direct3D 11], BeginEvent method [Direct3D 11],ID3DUserDefinedAnnotation interface, ID3DUserDefinedAnnotation interface [Direct3D 11],BeginEvent method, ID3DUserDefinedAnnotation.BeginEvent, ID3DUserDefinedAnnotation::BeginEvent, d3d11_1/ID3DUserDefinedAnnotation::BeginEvent, direct3d11.id3duserdefinedannotation_beginevent
 ms.topic: method
 req.header: d3d11_1.h

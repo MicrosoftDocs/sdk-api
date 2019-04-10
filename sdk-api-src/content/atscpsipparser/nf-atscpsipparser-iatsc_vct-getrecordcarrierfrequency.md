@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_getrecordcarrierfrequency.htm
 tech.root: mstv
 ms.assetid: ff875184-1d91-489d-9941-5d1cd3e9e872
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetRecordCarrierFrequency, GetRecordCarrierFrequency method [Microsoft TV Technologies], GetRecordCarrierFrequency method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordCarrierFrequency method, IATSC_VCT.GetRecordCarrierFrequency, IATSC_VCT::GetRecordCarrierFrequency, IATSC_VCTGetRecordCarrierFrequency, atscpsipparser/IATSC_VCT::GetRecordCarrierFrequency, mstv.iatsc_vct_getrecordcarrierfrequency
 ms.topic: method
 req.header: atscpsipparser.h

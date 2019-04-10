@@ -7,7 +7,7 @@ old-location: shell\IExtractIcon.htm
 tech.root: shell
 ms.assetid: f8e0ab98-c225-4cc1-93f8-b7ab6b2f706f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IExtractIcon, IExtractIcon interface [Windows Shell], IExtractIcon interface [Windows Shell],described, IExtractIconA, IExtractIconW, _win32_IExtractIcon, shell.IExtractIcon, shlobj_core/IExtractIcon
 ms.topic: interface
 req.header: shlobj_core.h

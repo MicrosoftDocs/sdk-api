@@ -7,7 +7,7 @@ old-location: fs\ioctl_storage_protocol_command.htm
 tech.root: FileIO
 ms.assetid: 77027740-CDFD-422A-B458-C36B2E346EFD
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_PROTOCOL_COMMAND, IOCTL_STORAGE_PROTOCOL_COMMAND control, IOCTL_STORAGE_PROTOCOL_COMMAND control code [Files], fs.ioctl_storage_protocol_command, winioctl/IOCTL_STORAGE_PROTOCOL_COMMAND
 ms.topic: ioctl
 req.header: winioctl.h

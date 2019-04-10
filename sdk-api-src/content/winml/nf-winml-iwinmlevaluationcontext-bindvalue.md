@@ -7,7 +7,7 @@ old-location: machinelearning\iwinmlevaluationcontext_bindvalue_.htm
 tech.root: MachineLearning
 ms.assetid: 3D417952-92DD-4111-9060-C7F8CCA456AB
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BindValue, BindValue method, BindValue method,IWinMLEvaluationContext interface, IWinMLEvaluationContext interface,BindValue method, IWinMLEvaluationContext.BindValue, IWinMLEvaluationContext::BindValue, MachineLearning.iwinmlevaluationcontext_bindvalue_, winml/IWinMLEvaluationContext::BindValue
 ms.topic: method
 req.header: winml.h

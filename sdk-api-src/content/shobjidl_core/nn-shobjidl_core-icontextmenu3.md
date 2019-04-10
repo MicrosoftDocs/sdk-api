@@ -7,7 +7,7 @@ old-location: shell\IContextMenu3.htm
 tech.root: shell
 ms.assetid: c08e1b98-2b8b-41f6-93c5-3a5937bd3b2c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IContextMenu3, IContextMenu3 interface [Windows Shell], IContextMenu3 interface [Windows Shell],described, _win32_IContextMenu3, shell.IContextMenu3, shobjidl_core/IContextMenu3
 ms.topic: interface
 req.header: shobjidl_core.h

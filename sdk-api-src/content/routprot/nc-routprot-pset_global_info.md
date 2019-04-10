@@ -7,7 +7,7 @@ old-location: rras\setglobalinfo.htm
 tech.root: RRAS
 ms.assetid: fd977a71-bfa7-40e4-9afc-4824989f857f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PSET_GLOBAL_INFO, PSET_GLOBAL_INFO callback, PSET_GLOBAL_INFO callback function [RAS], SetGlobalInfo, _mpr_setglobalinfo, routprot/PSET_GLOBAL_INFO, rras.setglobalinfo
 ms.topic: callback
 req.header: routprot.h

@@ -7,7 +7,7 @@ old-location: shell\UIntPtrMult.htm
 tech.root: shell
 ms.assetid: c34708d1-50e8-47dd-ac79-cfef24ce6060
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: UIntPtrMult, UIntPtrMult function [Windows Shell], _shell_UIntPtrMult, intsafe/UIntPtrMult, shell.UIntPtrMult
 ms.topic: function
 req.header: intsafe.h

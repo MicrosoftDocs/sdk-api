@@ -7,7 +7,7 @@ old-location: security\cmsg_cms_signer_info.htm
 tech.root: SecCrypto
 ms.assetid: 177323ef-4e26-4681-a474-1a99fb6900af
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PCMSG_CMS_SIGNER_INFO, CMSG_CMS_SIGNER_INFO, CMSG_CMS_SIGNER_INFO structure [Security], PCMSG_CMS_SIGNER_INFO, PCMSG_CMS_SIGNER_INFO structure pointer [Security], _crypto2_cmsg_cms_signer_info, security.cmsg_cms_signer_info, wincrypt/CMSG_CMS_SIGNER_INFO, wincrypt/PCMSG_CMS_SIGNER_INFO"
 ms.topic: struct
 req.header: wincrypt.h

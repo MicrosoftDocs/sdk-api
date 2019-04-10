@@ -7,7 +7,7 @@ old-location: fsrm\fsrmruletype.htm
 tech.root: fsrm
 ms.assetid: 9fd9daf2-5e3e-4d9c-8f19-92e31756a1c7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FsrmRuleType, FsrmRuleType enumeration [File Server Resource Manager], FsrmRuleType_Classification, FsrmRuleType_Generic, FsrmRuleType_Unknown, fs.fsrmruletype, fsrm.fsrmruletype, fsrmenums/FsrmRuleType, fsrmenums/FsrmRuleType_Classification, fsrmenums/FsrmRuleType_Generic, fsrmenums/FsrmRuleType_Unknown
 ms.topic: enum
 req.header: fsrmenums.h

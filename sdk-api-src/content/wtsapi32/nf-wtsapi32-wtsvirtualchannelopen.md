@@ -7,7 +7,7 @@ old-location: termserv\wtsvirtualchannelopen.htm
 tech.root: TermServ
 ms.assetid: 0daaf06f-ba05-469c-b888-3df5d9495364
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WTSVirtualChannelOpen, WTSVirtualChannelOpen function [Remote Desktop Services], _win32_wtsvirtualchannelopen, termserv.wtsvirtualchannelopen, wtsapi32/WTSVirtualChannelOpen
 ms.topic: function
 req.header: wtsapi32.h

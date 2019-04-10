@@ -7,7 +7,7 @@ old-location: gdi\emr.htm
 tech.root: gdi
 ms.assetid: 06582047-b64b-44ec-ae27-1f8ed7c56b97
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PEMR, EMR, EMR structure [Windows GDI], PEMR, PEMR structure pointer [Windows GDI], _win32_EMR_str, gdi.emr, wingdi/EMR, wingdi/PEMR"
 ms.topic: struct
 req.header: wingdi.h

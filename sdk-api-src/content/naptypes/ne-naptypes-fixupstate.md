@@ -7,7 +7,7 @@ old-location: nap\fixupstate_enum.htm
 tech.root: NAP
 ms.assetid: cde1f9df-f4d9-4601-a513-e00639ee9b6e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FixupState, FixupState enumeration [NAP], fixupStateCouldNotUpdate, fixupStateInProgress, fixupStateSuccess, nap.fixupstate_enum, naptypes/FixupState, naptypes/fixupStateCouldNotUpdate, naptypes/fixupStateInProgress, naptypes/fixupStateSuccess
 ms.topic: enum
 req.header: naptypes.h

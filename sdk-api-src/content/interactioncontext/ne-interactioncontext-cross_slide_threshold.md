@@ -7,7 +7,7 @@ old-location: input_intcontext\cross_slide_threshold.htm
 tech.root: Input_IntContext
 ms.assetid: c498e2ae-a761-4f93-9ec2-4030b03e64b9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CROSS_SLIDE_THRESHOLD, CROSS_SLIDE_THRESHOLD enumeration, CROSS_SLIDE_THRESHOLD_COUNT, CROSS_SLIDE_THRESHOLD_MAX, CROSS_SLIDE_THRESHOLD_REARRANGE_START, CROSS_SLIDE_THRESHOLD_SELECT_START, CROSS_SLIDE_THRESHOLD_SPEED_BUMP_END, CROSS_SLIDE_THRESHOLD_SPEED_BUMP_START, input_intcontext.cross_slide_threshold, interactioncontext.cross_slide_threshold, interactioncontext/CROSS_SLIDE_THRESHOLD, interactioncontext/CROSS_SLIDE_THRESHOLD_COUNT, interactioncontext/CROSS_SLIDE_THRESHOLD_MAX, interactioncontext/CROSS_SLIDE_THRESHOLD_REARRANGE_START, interactioncontext/CROSS_SLIDE_THRESHOLD_SELECT_START, interactioncontext/CROSS_SLIDE_THRESHOLD_SPEED_BUMP_END, interactioncontext/CROSS_SLIDE_THRESHOLD_SPEED_BUMP_START
 ms.topic: enum
 req.header: interactioncontext.h

@@ -7,7 +7,7 @@ old-location: shell\IProgressDialog_SetProgress.htm
 tech.root: shell
 ms.assetid: 50df7b32-e345-4379-809f-6870b53417b8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IProgressDialog interface [Windows Shell],SetProgress method, IProgressDialog.SetProgress, IProgressDialog::SetProgress, SetProgress, SetProgress method [Windows Shell], SetProgress method [Windows Shell],IProgressDialog interface, _win32_IProgressDialog_SetProgress, shell.IProgressDialog_SetProgress, shlobj_core/IProgressDialog::SetProgress
 ms.topic: method
 req.header: shlobj_core.h

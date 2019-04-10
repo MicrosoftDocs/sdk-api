@@ -7,7 +7,7 @@ old-location: tapi2\linemediacontroltone_str.htm
 tech.root: Tapi
 ms.assetid: 0513d580-aaf1-412c-adbf-9342b74025ee
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPLINEMEDIACONTROLTONE, LINEMEDIACONTROLTONE, LINEMEDIACONTROLTONE structure [TAPI 2.2], LPLINEMEDIACONTROLTONE, LPLINEMEDIACONTROLTONE structure pointer [TAPI 2.2], _tapi2_linemediacontroltone_str, tapi/LINEMEDIACONTROLTONE, tapi/LPLINEMEDIACONTROLTONE, tapi2.linemediacontroltone_str"
 ms.topic: struct
 req.header: tapi.h

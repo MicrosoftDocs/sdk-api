@@ -7,7 +7,7 @@ old-location: setup\msiapplymultiplepatches.htm
 tech.root: Msi
 ms.assetid: dc0a93e3-9f3c-40b2-86ee-98306038742a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MsiApplyMultiplePatches, MsiApplyMultiplePatches function, MsiApplyMultiplePatchesA, MsiApplyMultiplePatchesW, msi/MsiApplyMultiplePatches, msi/MsiApplyMultiplePatchesA, msi/MsiApplyMultiplePatchesW, setup.msiapplymultiplepatches
 ms.topic: function
 req.header: msi.h

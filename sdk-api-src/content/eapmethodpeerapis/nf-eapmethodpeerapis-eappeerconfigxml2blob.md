@@ -7,7 +7,7 @@ old-location: eaphost\eappeerconfigxml2blob.htm
 tech.root: eaphost
 ms.assetid: d568da63-1d12-4c02-8d84-f06fa3f8d39f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EapPeerConfigXml2Blob, EapPeerConfigXml2Blob function [EAPHost], eaphost.eappeerconfigxml2blob, eapmethodpeerapis/EapPeerConfigXml2Blob
 ms.topic: function
 req.header: eapmethodpeerapis.h

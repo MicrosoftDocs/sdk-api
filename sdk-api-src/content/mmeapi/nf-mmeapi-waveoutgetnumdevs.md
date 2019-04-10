@@ -7,7 +7,7 @@ old-location: multimedia\waveoutgetnumdevs.htm
 tech.root: Multimedia
 ms.assetid: d9669c1c-36e2-4575-bf88-41c344d9c593
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_win32_waveOutGetNumDevs, mmeapi/waveOutGetNumDevs, multimedia.waveoutgetnumdevs, waveOutGetNumDevs, waveOutGetNumDevs function [Windows Multimedia]"
 ms.topic: function
 req.header: mmeapi.h

@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontface3_getinformationalstrings.htm
 tech.root: DirectWrite
 ms.assetid: F3CF5E9E-C0EA-4A29-8D42-11873DF5A9F2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetInformationalStrings, GetInformationalStrings method [Direct Write], GetInformationalStrings method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],GetInformationalStrings method, IDWriteFontFace3.GetInformationalStrings, IDWriteFontFace3::GetInformationalStrings, directwrite.idwritefontface3_getinformationalstrings, dwrite_3/IDWriteFontFace3::GetInformationalStrings
 ms.topic: method
 req.header: dwrite_3.h

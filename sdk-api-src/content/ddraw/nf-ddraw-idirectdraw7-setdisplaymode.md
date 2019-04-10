@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_setdisplaymode.htm
 tech.root: directdraw
 ms.assetid: 385918cd-64f1-449c-822a-0034a8184fb9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDirectDraw7 interface [DirectDraw],SetDisplayMode method, IDirectDraw7.SetDisplayMode, IDirectDraw7::SetDisplayMode, SetDisplayMode, SetDisplayMode method [DirectDraw], SetDisplayMode method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::SetDisplayMode, directdraw.idirectdraw7_setdisplaymode
 ms.topic: method
 req.header: ddraw.h

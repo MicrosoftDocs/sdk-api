@@ -7,7 +7,7 @@ old-location: fwp\fwpmlayerenum0_func.htm
 tech.root: fwp
 ms.assetid: 0bcf0b85-713f-4f82-9cb5-cb1725c8167b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FwpmLayerEnum0, FwpmLayerEnum0 function [Filtering], fwp.fwpmlayerenum0_func, fwpmu/FwpmLayerEnum0
 ms.topic: function
 req.header: fwpmu.h

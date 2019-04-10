@@ -7,7 +7,7 @@ old-location: tablet\inkrecognizercontext_backgroundrecognize.htm
 tech.root: tablet
 ms.assetid: d3fc8117-4acd-474a-aec0-cb421230ef94
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BackgroundRecognize, BackgroundRecognize method [Tablet PC], BackgroundRecognize method [Tablet PC],IInkRecognizerContext interface, IInkRecognizerContext interface [Tablet PC],BackgroundRecognize method, IInkRecognizerContext.BackgroundRecognize, IInkRecognizerContext::BackgroundRecognize, d3fc8117-4acd-474a-aec0-cb421230ef94, msinkaut/IInkRecognizerContext::BackgroundRecognize, tablet.inkrecognizercontext_backgroundrecognize
 ms.topic: method
 req.header: msinkaut.h

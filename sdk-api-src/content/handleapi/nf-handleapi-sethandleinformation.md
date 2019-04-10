@@ -7,7 +7,7 @@ old-location: base\sethandleinformation.htm
 tech.root: SysInfo
 ms.assetid: a3fa8b92-cba2-414e-9fb8-d0fcb98ede36
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: HANDLE_FLAG_INHERIT, HANDLE_FLAG_PROTECT_FROM_CLOSE, SetHandleInformation, SetHandleInformation function, _win32_sethandleinformation, base.sethandleinformation, handleapi/SetHandleInformation
 ms.topic: function
 req.header: handleapi.h

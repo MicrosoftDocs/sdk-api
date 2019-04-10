@@ -7,7 +7,7 @@ old-location: qos\lpm_commitresv.htm
 tech.root: QOS
 ms.assetid: 3a04e96d-d91e-47de-9958-75fbd32cba6b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: LPM_CommitResv, LPM_CommitResv callback, LPM_CommitResv callback function [QOS], RESOURCES_ALLOCATED, RESOURCES_MODIFIED, _gqos_lpm_commitresv, lpmapi/LPM_CommitResv, qos.lpm_commitresv
 ms.topic: function
 req.header: lpmapi.h

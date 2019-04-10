@@ -7,7 +7,7 @@ old-location: mf\id3d11videoprocessorenumerator_checkvideoprocessorformat.htm
 tech.root: medfound
 ms.assetid: 75DE439B-6849-4413-BF7D-0EBADA96F097
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CheckVideoProcessorFormat, CheckVideoProcessorFormat method [Media Foundation], CheckVideoProcessorFormat method [Media Foundation],ID3D11VideoProcessorEnumerator interface, ID3D11VideoProcessorEnumerator interface [Media Foundation],CheckVideoProcessorFormat method, ID3D11VideoProcessorEnumerator.CheckVideoProcessorFormat, ID3D11VideoProcessorEnumerator::CheckVideoProcessorFormat, d3d11/ID3D11VideoProcessorEnumerator::CheckVideoProcessorFormat, mf.id3d11videoprocessorenumerator_checkvideoprocessorformat
 ms.topic: method
 req.header: d3d11.h

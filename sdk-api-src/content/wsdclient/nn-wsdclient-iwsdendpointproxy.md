@@ -7,7 +7,7 @@ old-location: ncd\iwsdendpointproxy.htm
 tech.root: WsdApi
 ms.assetid: 58ca085f-8939-413c-8fd3-4d867b1cf490
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWSDEndpointProxy, IWSDEndpointProxy interface, IWSDEndpointProxy interface,described, ncd.iwsdendpointproxy, wsdclient/IWSDEndpointProxy
 ms.topic: interface
 req.header: wsdclient.h

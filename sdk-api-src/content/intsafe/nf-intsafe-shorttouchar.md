@@ -7,7 +7,7 @@ old-location: shell\ShortToUChar.htm
 tech.root: shell
 ms.assetid: dd3eab34-7cf1-4a60-8fd8-bcc9db1855d7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ShortToUChar, ShortToUChar function [Windows Shell], _shell_ShortToUChar, intsafe/ShortToUChar, shell.ShortToUChar
 ms.topic: function
 req.header: intsafe.h

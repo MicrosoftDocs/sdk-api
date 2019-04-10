@@ -7,7 +7,7 @@ old-location: rpc\ndrsimpletypemarshall.htm
 tech.root: Rpc
 ms.assetid: af2bea36-d576-4144-8e21-3f89772465ed
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NdrSimpleTypeMarshall, NdrSimpleTypeMarshall function [RPC], rpc.ndrsimpletypemarshall, rpcndr/NdrSimpleTypeMarshall
 ms.topic: function
 req.header: rpcndr.h

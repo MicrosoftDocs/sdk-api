@@ -7,7 +7,7 @@ old-location: qos\qossetoutgoingrate.htm
 tech.root: QOS
 ms.assetid: b30e8887-4445-480d-aba8-79ec36384648
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: QOSSetFlow, QOSSetFlow function [QOS], QOSSetOutgoingDSCPValue, QOSSetOutgoingRate, QOSSetTrafficType, qos.qossetoutgoingrate, qos2/QOSSetFlow
 ms.topic: function
 req.header: qos2.h

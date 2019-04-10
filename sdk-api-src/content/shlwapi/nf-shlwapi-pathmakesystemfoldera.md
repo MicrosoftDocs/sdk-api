@@ -7,7 +7,7 @@ old-location: shell\PathMakeSystemFolder.htm
 tech.root: shell
 ms.assetid: 5b0faeb8-f8ae-481b-b5b2-cae9efe638e5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PathMakeSystemFolder, PathMakeSystemFolder function [Windows Shell], PathMakeSystemFolderA, PathMakeSystemFolderW, _win32_PathMakeSystemFolder, shell.PathMakeSystemFolder, shlwapi/PathMakeSystemFolder, shlwapi/PathMakeSystemFolderA, shlwapi/PathMakeSystemFolderW
 ms.topic: function
 req.header: shlwapi.h

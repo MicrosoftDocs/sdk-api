@@ -7,7 +7,7 @@ old-location: tapi3\itscriptableaudioformat_put_formattag.htm
 tech.root: Tapi
 ms.assetid: a57eb237-189f-4c42-a1cd-9e70f53c3c4a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],put_FormatTag method, ITScriptableAudioFormat.put_FormatTag, ITScriptableAudioFormat::put_FormatTag, _tapi3_itscriptableaudioformat_put_formattag, put_FormatTag, put_FormatTag method [TAPI 2.2], put_FormatTag method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_put_formattag, tapi3if/ITScriptableAudioFormat::put_FormatTag
 ms.topic: method
 req.header: tapi3if.h

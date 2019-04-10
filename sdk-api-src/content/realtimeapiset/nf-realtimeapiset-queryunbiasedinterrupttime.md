@@ -7,7 +7,7 @@ old-location: base\queryunbiasedinterrupttime.htm
 tech.root: SysInfo
 ms.assetid: f9cf5440-9be9-4ff9-b85c-2779b847954c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: QueryUnbiasedInterruptTime, QueryUnbiasedInterruptTime function, base.queryunbiasedinterrupttime, realtimeapiset/QueryUnbiasedInterruptTime
 ms.topic: function
 req.header: realtimeapiset.h

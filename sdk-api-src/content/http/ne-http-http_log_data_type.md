@@ -7,7 +7,7 @@ old-location: http\http_log_data_type.htm
 tech.root: http
 ms.assetid: 8c53a3e6-5001-4e72-bff4-a6eab007aa9c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PHTTP_LOG_DATA_TYPE, *PHTTP_LOG_DATA_TYPE enumeration [HTTP], HTTP_LOG_DATA_TYPE, HTTP_LOG_DATA_TYPE enumeration [HTTP], HttpLogDataTypeFields, http.http_log_data_type, http/*PHTTP_LOG_DATA_TYPE, http/HTTP_LOG_DATA_TYPE, http/HttpLogDataTypeFields"
 ms.topic: enum
 req.header: http.h

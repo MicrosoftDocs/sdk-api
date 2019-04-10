@@ -7,7 +7,7 @@ old-location: p2p\peerdistserverclosecontentinformation.htm
 tech.root: P2PSdk
 ms.assetid: 066f1856-0617-40c7-a444-9765c01b4563
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PeerDistServerCloseContentInformation, PeerDistServerCloseContentInformation function [Peer Networking], p2p.peerdistserverclosecontentinformation, peerdist/PeerDistServerCloseContentInformation
 ms.topic: function
 req.header: peerdist.h

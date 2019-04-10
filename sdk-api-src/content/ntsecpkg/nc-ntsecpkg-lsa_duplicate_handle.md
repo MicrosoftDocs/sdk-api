@@ -7,7 +7,7 @@ old-location: security\duplicatehandle.htm
 tech.root: SecAuthN
 ms.assetid: 1930a33c-2921-4ac1-994a-ee4686d6a66b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DuplicateHandle, DuplicateHandle callback function [Security], LSA_DUPLICATE_HANDLE, LSA_DUPLICATE_HANDLE callback, _ssp_duplicatehandle, ntsecpkg/DuplicateHandle, security.duplicatehandle
 ms.topic: callback
 req.header: ntsecpkg.h

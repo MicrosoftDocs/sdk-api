@@ -7,7 +7,7 @@ old-location: direct3d11\cd3d11_counter_desc__cd3d11_counter_desc__.htm
 tech.root: direct3d11
 ms.assetid: 055213AA-0D49-489A-9D1B-8E426375AF99
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CD3D11_COUNTER_DESC interface [Direct3D 11],~CD3D11_COUNTER_DESC destructor, CD3D11_COUNTER_DESC.~CD3D11_COUNTER_DESC, CD3D11_COUNTER_DESC::~CD3D11_COUNTER_DESC, CD3D11_COUNTER_DESC::~CD3D11_COUNTER_DESC(), d3d11/CD3D11_COUNTER_DESC::~CD3D11_COUNTER_DESC, direct3d11.cd3d11_counter_desc__cd3d11_counter_desc__, ~CD3D11_COUNTER_DESC, ~CD3D11_COUNTER_DESC destructor [Direct3D 11], ~CD3D11_COUNTER_DESC destructor [Direct3D 11],CD3D11_COUNTER_DESC interface
 ms.topic: method
 req.header: d3d11.h

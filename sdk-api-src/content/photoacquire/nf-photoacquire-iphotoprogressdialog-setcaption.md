@@ -7,7 +7,7 @@ old-location: picacq\iphotoprogressdialog_setcaption.htm
 tech.root: acquisition
 ms.assetid: 01689aa9-e3ae-48b4-b105-25880097a112
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetCaption method, IPhotoProgressDialog.SetCaption, IPhotoProgressDialog::SetCaption, IPhotoProgressDialogSetCaption, SetCaption, SetCaption method [Picture Acquisition], SetCaption method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::SetCaption, picacq.iphotoprogressdialog_setcaption
 ms.topic: method
 req.header: photoacquire.h

@@ -7,7 +7,7 @@ old-location: tablet\inkdisp_clone.htm
 tech.root: tablet
 ms.assetid: f3ec6b42-2b5d-459e-ba09-88c27b125c40
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Tablet PC], Clone method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],Clone method, IInkDisp.Clone, IInkDisp::Clone, f3ec6b42-2b5d-459e-ba09-88c27b125c40, msinkaut/IInkDisp::Clone, tablet.inkdisp_clone
 ms.topic: method
 req.header: msinkaut.h

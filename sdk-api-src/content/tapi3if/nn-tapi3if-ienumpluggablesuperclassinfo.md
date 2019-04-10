@@ -7,7 +7,7 @@ old-location: tapi3\ienumpluggablesuperclassinfo.htm
 tech.root: Tapi
 ms.assetid: 80b84976-4256-47d2-a965-3ebe89a3821a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEnumPluggableSuperclassInfo, IEnumPluggableSuperclassInfo interface [TAPI 2.2], IEnumPluggableSuperclassInfo interface [TAPI 2.2],described, _tapi3_ienumpluggablesuperclassinfo, tapi3.ienumpluggablesuperclassinfo, tapi3if/IEnumPluggableSuperclassInfo
 ms.topic: interface
 req.header: tapi3if.h

@@ -7,7 +7,7 @@ old-location: dxmath\xmmatrixscaling.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixScaling(float,float,float)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixScaling, XMMatrixScaling, XMMatrixScaling method [DirectX Math Support APIs], dxmath.xmmatrixscaling
 ms.topic: function
 req.header: directxmath.h

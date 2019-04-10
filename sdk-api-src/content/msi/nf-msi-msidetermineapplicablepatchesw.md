@@ -7,7 +7,7 @@ old-location: setup\msidetermineapplicablepatches.htm
 tech.root: Msi
 ms.assetid: 2362d1dd-695e-48a3-b8ef-4516952ed253
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MsiDetermineApplicablePatches, MsiDetermineApplicablePatches function, MsiDetermineApplicablePatchesA, MsiDetermineApplicablePatchesW, msi/MsiDetermineApplicablePatches, msi/MsiDetermineApplicablePatchesA, msi/MsiDetermineApplicablePatchesW, setup.msidetermineapplicablepatches
 ms.topic: function
 req.header: msi.h

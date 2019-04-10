@@ -7,7 +7,7 @@ old-location: madcap\mcastenumeratescopes.htm
 tech.root: Madcap
 ms.assetid: df33d766-d420-4069-8b94-86f5e4e91c1d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: McastEnumerateScopes, McastEnumerateScopes function [MADCAP], _mdhcp_mcastenumeratescopes, madcap.mcastenumeratescopes, madcapcl/McastEnumerateScopes
 ms.topic: function
 req.header: madcapcl.h

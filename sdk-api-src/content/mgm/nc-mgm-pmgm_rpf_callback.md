@@ -7,7 +7,7 @@ old-location: rras\pmgm_rpf_callback.htm
 tech.root: RRAS
 ms.assetid: 114a44c2-e352-45b9-9842-cfb369072c84
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MgmRpfCallback, PMGM_RPF_CALLBACK, PMGM_RPF_CALLBACK callback, PMGM_RPF_CALLBACK callback function [RAS], _mpr_pmgm_rpf_callback, mgm/PMGM_RPF_CALLBACK, rras.pmgm_rpf_callback
 ms.topic: callback
 req.header: mgm.h

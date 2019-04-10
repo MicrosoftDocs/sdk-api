@@ -7,7 +7,7 @@ old-location: base\powerreadvaluemin.htm
 tech.root: power
 ms.assetid: 4a28cc2e-359b-45b3-8d2f-2f88baebb9c1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerReadValueMin, PowerReadValueMin function, base.powerreadvaluemin, powrprof/PowerReadValueMin
 ms.topic: function
 req.header: powrprof.h

@@ -7,7 +7,7 @@ old-location: base\rtlrestorecontext.htm
 tech.root: Debug
 ms.assetid: f5304d17-bc67-4e0f-a535-efca4e65c74c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RtlRestoreContext, RtlRestoreContext function, base.rtlrestorecontext, winnt/RtlRestoreContext
 ms.topic: function
 req.header: winnt.h

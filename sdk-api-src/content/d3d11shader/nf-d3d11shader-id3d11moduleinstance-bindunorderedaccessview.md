@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11moduleinstance_bindunorderedaccessview.htm
 tech.root: direct3d11
 ms.assetid: 2948964B-73B1-4656-8547-F5238C3DC928
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BindUnorderedAccessView, BindUnorderedAccessView method [Direct3D 11], BindUnorderedAccessView method [Direct3D 11],ID3D11ModuleInstance interface, ID3D11ModuleInstance interface [Direct3D 11],BindUnorderedAccessView method, ID3D11ModuleInstance.BindUnorderedAccessView, ID3D11ModuleInstance::BindUnorderedAccessView, d3d11shader/ID3D11ModuleInstance::BindUnorderedAccessView, direct3d11.id3d11moduleinstance_bindunorderedaccessview
 ms.topic: method
 req.header: d3d11shader.h

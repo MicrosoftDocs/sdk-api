@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationSpreadsheetItemPattern_GetCachedAnnota
 tech.root: WinAuto
 ms.assetid: C2F11DD7-60D0-4848-98DD-FC33FD51BBD4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetCachedAnnotationObjects, GetCachedAnnotationObjects method [Windows Accessibility], GetCachedAnnotationObjects method [Windows Accessibility],IUIAutomationSpreadsheetItemPattern interface, IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility],GetCachedAnnotationObjects method, IUIAutomationSpreadsheetItemPattern.GetCachedAnnotationObjects, IUIAutomationSpreadsheetItemPattern::GetCachedAnnotationObjects, uiautomationclient/IUIAutomationSpreadsheetItemPattern::GetCachedAnnotationObjects, winauto.uiauto_IUIAutomationSpreadsheetItemPattern_GetCachedAnnotationObjects
 ms.topic: method
 req.header: uiautomationclient.h

@@ -7,7 +7,7 @@ old-location: appxpkg\getpackagefamilyname.htm
 tech.root: appxpkg
 ms.assetid: AC239898-9924-4193-9072-7A7EEC2D03E9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetPackageFamilyName, GetPackageFamilyName function [App packaging and management], appmodel/GetPackageFamilyName, appxpkg.getpackagefamilyname
 ms.topic: function
 req.header: appmodel.h

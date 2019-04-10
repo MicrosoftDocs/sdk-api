@@ -7,7 +7,7 @@ old-location: winrm\wsman_plugin_startup.htm
 tech.root: winrm
 ms.assetid: b3123f52-880b-4d14-a5a2-77c5924de99d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WSMAN_PLUGIN_STARTUP, WSMAN_PLUGIN_STARTUP callback, WSMAN_PLUGIN_STARTUP callback function [Windows Remote Management], WSManPluginStartup, winrm.wsman_plugin_startup, wsman/WSMAN_PLUGIN_STARTUP
 ms.topic: callback
 req.header: wsman.h

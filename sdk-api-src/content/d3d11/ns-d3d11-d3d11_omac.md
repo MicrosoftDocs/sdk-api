@@ -7,7 +7,7 @@ old-location: mf\d3d11_omac.htm
 tech.root: medfound
 ms.assetid: 68AEC018-1DFE-4811-A511-176E82C2E9E2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: D3D11_OMAC, D3D11_OMAC structure [Media Foundation], d3d11/D3D11_OMAC, mf.d3d11_omac
 ms.topic: struct
 req.header: d3d11.h

@@ -7,7 +7,7 @@ old-location: winprog\fnalloc.htm
 tech.root: DevNotes
 ms.assetid: 3104267d-3efd-40da-a8b6-af2acf379ff8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FNALLOC, FNALLOC macro [Windows API], fdi/FNALLOC, winprog.fnalloc
 ms.topic: macro
 req.header: fdi.h

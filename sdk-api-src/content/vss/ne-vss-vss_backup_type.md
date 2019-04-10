@@ -7,7 +7,7 @@ old-location: base\vss_backup_type.htm
 tech.root: VSS
 ms.assetid: 82934737-0d80-4b5d-a1fa-1ba38e446504
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PVSS_BACKUP_TYPE, PVSS_BACKUP_TYPE, PVSS_BACKUP_TYPE enumeration pointer [VSS], VSS_BACKUP_TYPE, VSS_BACKUP_TYPE enumeration [VSS], VSS_BT_COPY, VSS_BT_DIFFERENTIAL, VSS_BT_FULL, VSS_BT_INCREMENTAL, VSS_BT_LOG, VSS_BT_OTHER, VSS_BT_UNDEFINED, _win32_vss_backup_type, base.vss_backup_type, vss/PVSS_BACKUP_TYPE, vss/VSS_BACKUP_TYPE, vss/VSS_BT_COPY, vss/VSS_BT_DIFFERENTIAL, vss/VSS_BT_FULL, vss/VSS_BT_INCREMENTAL, vss/VSS_BT_LOG, vss/VSS_BT_OTHER, vss/VSS_BT_UNDEFINED"
 ms.topic: enum
 req.header: vss.h

@@ -7,7 +7,7 @@ old-location: base\createtimerqueue.htm
 tech.root: Sync
 ms.assetid: 7d88dc0d-4650-4197-a719-01e2f5ff96df
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateTimerQueue, CreateTimerQueue function, _win32_createtimerqueue, base.createtimerqueue, threadpoollegacyapiset/CreateTimerQueue, winbase/CreateTimerQueue
 ms.topic: function
 req.header: threadpoollegacyapiset.h

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextProvider.htm
 tech.root: WinAuto
 ms.assetid: 8bd53f1e-731f-420b-a529-ca3f6c3fd97c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITextProvider, ITextProvider interface [Windows Accessibility], ITextProvider interface [Windows Accessibility],described, uiauto.uiauto_ITextProvider, uiauto_ITextProvider, uiautomationcore/ITextProvider, winauto.uiauto_ITextProvider
 ms.topic: interface
 req.header: uiautomationcore.h

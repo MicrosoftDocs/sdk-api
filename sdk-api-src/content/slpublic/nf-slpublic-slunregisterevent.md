@@ -7,7 +7,7 @@ old-location: security\slunregisterevent.htm
 tech.root: SecSLApi
 ms.assetid: 0fd02eb4-16d9-4892-b50c-3f9b0ead8478
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SLUnregisterEvent, SLUnregisterEvent function [Security], security.slunregisterevent, slpublic/SLUnregisterEvent
 ms.topic: function
 req.header: slpublic.h

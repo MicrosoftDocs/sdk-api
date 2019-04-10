@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_Contains_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfcontainsmethods.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Contains, Contains methods [GDI+], RectF.Contains, RectF::Contains, _gdiplus_CLASS_RectF_Contains_Methods, gdiplus._gdiplus_CLASS_RectF_Contains_Methods, gdiplustypes/Contains
 ms.topic: method
 req.header: gdiplustypes.h

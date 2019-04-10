@@ -7,7 +7,7 @@ old-location: eap\raseapinvokeinteractiveui.htm
 tech.root: EAP
 ms.assetid: 71dd40c9-acbd-4fb6-800d-d3f83a61b7b8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RasEapInvokeInteractiveUI, RasEapInvokeInteractiveUI callback, RasEapInvokeInteractiveUI callback function [EAP], _eap_raseapinvokeinteractiveui, eap.raseapinvokeinteractiveui, raseapif/RasEapInvokeInteractiveUI
 ms.topic: function
 req.header: raseapif.h

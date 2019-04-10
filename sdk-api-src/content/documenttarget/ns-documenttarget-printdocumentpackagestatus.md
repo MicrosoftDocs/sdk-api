@@ -7,7 +7,7 @@ old-location: xps\printdocumentpackagestatus.htm
 tech.root: printdocs
 ms.assetid: A499CB8D-B2E3-4343-A9AF-079C75EF1441
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PPrintDocumentPackageStatus, PPrintDocumentPackageStatus structure pointer [XPS Documents and Packaging], PrintDocumentPackageStatus, PrintDocumentPackageStatus structure [XPS Documents and Packaging], documenttarget/PPrintDocumentPackageStatus, documenttarget/PrintDocumentPackageStatus, xps.printdocumentpackagestatus
 ms.topic: struct
 req.header: documenttarget.h

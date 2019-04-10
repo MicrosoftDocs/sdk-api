@@ -7,7 +7,7 @@ old-location: automat\varformatnumber.htm
 tech.root: automat
 ms.assetid: a95323d0-0a8d-48c5-a2dc-d461733e2f0e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VarFormatNumber, VarFormatNumber function [Automation], _oa96_VarFormatNumber, automat.varformatnumber, oleauto/VarFormatNumber
 ms.topic: function
 req.header: oleauto.h

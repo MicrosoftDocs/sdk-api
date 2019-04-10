@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__playlistcollectionchange.htm
 tech.root: WMP
 ms.assetid: dcef72f0-3b56-466b-9431-17a7b8130292
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],PlaylistCollectionChange method, IWMPEvents.PlaylistCollectionChange, IWMPEvents::PlaylistCollectionChange, IWMPEventsPlaylistCollectionChange, PlaylistCollectionChange, PlaylistCollectionChange method [Windows Media Player], PlaylistCollectionChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__playlistcollectionchange, wmp/IWMPEvents::PlaylistCollectionChange
 ms.topic: method
 req.header: wmp.h

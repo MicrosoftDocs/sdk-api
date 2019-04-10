@@ -7,7 +7,7 @@ old-location: ncd\ifunctiondiscoverynotification_onerror.htm
 tech.root: FunDisc
 ms.assetid: c4dcc4e9-7acf-44d3-b337-1ac01afa19b0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryNotification interface,OnError method, IFunctionDiscoveryNotification.OnError, IFunctionDiscoveryNotification::OnError, OnError, OnError method, OnError method,IFunctionDiscoveryNotification interface, functiondiscoveryapi/IFunctionDiscoveryNotification::OnError, ncd.ifunctiondiscoverynotification_onerror
 ms.topic: method
 req.header: functiondiscoveryapi.h

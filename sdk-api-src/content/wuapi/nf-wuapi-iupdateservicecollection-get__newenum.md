@@ -7,7 +7,7 @@ old-location: wua\iupdateservicecollection__newenum.htm
 tech.root: Wua_Sdk
 ms.assetid: 13829d36-f0e2-4871-aad5-159b22cb5ccf
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IUpdateServiceCollection interface [Windows Update Agent],_NewEnum property, IUpdateServiceCollection._NewEnum, IUpdateServiceCollection.get__NewEnum, IUpdateServiceCollection::_NewEnum, IUpdateServiceCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent],IUpdateServiceCollection interface, get__NewEnum, wua.iupdateservicecollection__newenum, wuapi/IUpdateServiceCollection::_NewEnum, wuapi/IUpdateServiceCollection::get__NewEnum
 ms.topic: method
 req.header: wuapi.h

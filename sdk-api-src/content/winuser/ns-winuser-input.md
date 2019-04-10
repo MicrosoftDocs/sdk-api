@@ -7,7 +7,7 @@ old-location: inputdev\input.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputstructures\input.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPINPUT, *PINPUT, INPUT, INPUT structure [Keyboard and Mouse Input], INPUT_HARDWARE, INPUT_KEYBOARD, INPUT_MOUSE, PINPUT, PINPUT structure pointer [Keyboard and Mouse Input], _win32_INPUT_str, _win32_input_str_cpp, inputdev.input, winui._win32_input_str, winuser/INPUT, winuser/PINPUT"
 ms.topic: struct
 req.header: winuser.h

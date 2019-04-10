@@ -7,7 +7,7 @@ old-location: wua\idownloadprogress_percentcomplete.htm
 tech.root: Wua_Sdk
 ms.assetid: af6a4424-eaf4-438b-b879-a9f3da3044ca
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDownloadProgress interface [Windows Update Agent],PercentComplete property, IDownloadProgress.PercentComplete, IDownloadProgress.get_PercentComplete, IDownloadProgress::PercentComplete, IDownloadProgress::get_PercentComplete, PercentComplete property [Windows Update Agent], PercentComplete property [Windows Update Agent],IDownloadProgress interface, get_PercentComplete, wua.idownloadprogress_percentcomplete, wuapi/IDownloadProgress::PercentComplete, wuapi/IDownloadProgress::get_PercentComplete
 ms.topic: method
 req.header: wuapi.h

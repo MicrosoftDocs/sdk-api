@@ -7,7 +7,7 @@ old-location: mmc\smmcdataobjects.htm
 tech.root: mmc
 ms.assetid: 4bbfc32e-b70b-4c47-a7b5-6ec2692d1df4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SMMCDataObjects, SMMCDataObjects structure [MMC], _slate_smmcdataobjects, mmc.smmcdataobjects, mmc/SMMCDataObjects
 ms.topic: struct
 req.header: mmc.h

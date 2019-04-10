@@ -7,7 +7,7 @@ old-location: shell\IQueryInfo_GetInfoFlags.htm
 tech.root: shell
 ms.assetid: 1baa47dd-b8e5-4535-b0eb-fd597241ed95
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetInfoFlags, GetInfoFlags method [Windows Shell], GetInfoFlags method [Windows Shell],IQueryInfo interface, IQueryInfo interface [Windows Shell],GetInfoFlags method, IQueryInfo.GetInfoFlags, IQueryInfo::GetInfoFlags, _win32_IQueryInfo_GetInfoFlags, shell.IQueryInfo_GetInfoFlags, shlobj_core/IQueryInfo::GetInfoFlags
 ms.topic: method
 req.header: shlobj_core.h

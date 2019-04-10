@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturerelationshipreferenceset_create.htm
 tech.root: OPC
 ms.assetid: c348ac25-f2b3-491d-b378-f0daf282b1ca
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Create, Create method [Open Packaging Conventions], Create method [Open Packaging Conventions],IOpcSignatureRelationshipReferenceSet interface, IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions],Create method, IOpcSignatureRelationshipReferenceSet.Create, IOpcSignatureRelationshipReferenceSet::Create, msopc/IOpcSignatureRelationshipReferenceSet::Create, opc.iopcsignaturerelationshipreferenceset_create
 ms.topic: method
 req.header: msopc.h

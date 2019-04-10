@@ -7,7 +7,7 @@ old-location: rdc\similaritymappedviewinfo.htm
 tech.root: rdc
 ms.assetid: f7bd0ebd-6abd-4d2c-af7d-21a90a633276
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SimilarityMappedViewInfo, SimilarityMappedViewInfo structure [Remote Differential Compression], fs.similaritymappedviewinfo, msrdc/SimilarityMappedViewInfo, rdc.similaritymappedviewinfo
 ms.topic: struct
 req.header: msrdc.h

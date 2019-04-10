@@ -7,7 +7,7 @@ old-location: base\vds_service_prop.htm
 tech.root: VDS
 ms.assetid: 9029ebbd-f05d-4317-913d-58c8a0a62886
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VDS_SERVICE_PROP, VDS_SERVICE_PROP structure [VDS], base.vds_service_prop, vds/_VDS_SERVICE_PROP
 ms.topic: struct
 req.header: vds.h

@@ -7,7 +7,7 @@ old-location: mf\imfimagesharingengine_shutdown.htm
 tech.root: medfound
 ms.assetid: F394A740-8F86-4113-B6B8-57CC4127E9D0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMFImageSharingEngine interface [Media Foundation],Shutdown method, IMFImageSharingEngine.Shutdown, IMFImageSharingEngine::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFImageSharingEngine interface, mf.imfimagesharingengine_shutdown, mfsharingengine/IMFImageSharingEngine::Shutdown
 ms.topic: method
 req.header: mfsharingengine.h

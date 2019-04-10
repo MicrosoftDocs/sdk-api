@@ -7,7 +7,7 @@ old-location: termserv\itssbclientconnectionpropertyset.htm
 tech.root: TermServ
 ms.assetid: 87300891-197a-40b2-9d96-066bda9dc68b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITsSbClientConnectionPropertySet, ITsSbClientConnectionPropertySet interface [Remote Desktop Services], ITsSbClientConnectionPropertySet interface [Remote Desktop Services],described, sbtsv/ITsSbClientConnectionPropertySet, termserv.itssbclientconnectionpropertyset
 ms.topic: interface
 req.header: sbtsv.h

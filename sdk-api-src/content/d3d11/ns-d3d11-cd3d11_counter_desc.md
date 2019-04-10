@@ -7,7 +7,7 @@ old-location: direct3d11\cd3d11_counter_desc.htm
 tech.root: direct3d11
 ms.assetid: 7625F9B4-B181-44B3-BA1F-46936EF151DE
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CD3D11_COUNTER_DESC, CD3D11_COUNTER_DESC structure [Direct3D 11], d3d11/CD3D11_COUNTER_DESC, direct3d11.cd3d11_counter_desc
 ms.topic: struct
 req.header: d3d11.h

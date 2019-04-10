@@ -7,7 +7,7 @@ old-location: inputmsg\getpointertouchinfo.htm
 tech.root: InputMsg
 ms.assetid: 97d93754-fc7e-4400-a6ee-6bab53e421cf
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetPointerTouchInfo, GetPointerTouchInfo function [Input Messages and Notifications], inputmsg.getpointertouchinfo, winuser/GetPointerTouchInfo
 ms.topic: function
 req.header: winuser.h

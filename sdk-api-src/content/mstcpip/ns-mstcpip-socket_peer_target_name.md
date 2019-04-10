@@ -7,7 +7,7 @@ old-location: winsock\socket_peer_target_name.htm
 tech.root: WinSock
 ms.assetid: 6e807cc3-f9de-4d15-b337-4a6b4be910c2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SOCKET_PEER_TARGET_NAME, SOCKET_PEER_TARGET_NAME structure [Winsock], mstcpip/SOCKET_PEER_TARGET_NAME, winsock.socket_peer_target_name
 ms.topic: struct
 req.header: mstcpip.h

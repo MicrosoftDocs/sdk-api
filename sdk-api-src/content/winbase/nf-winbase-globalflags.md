@@ -7,7 +7,7 @@ old-location: base\globalflags.htm
 tech.root: Memory
 ms.assetid: 647fc9a2-0522-42ab-ab8b-43c648f27d90
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GlobalFlags, GlobalFlags function, _win32_globalflags, base.globalflags, winbase/GlobalFlags
 ms.topic: function
 req.header: winbase.h

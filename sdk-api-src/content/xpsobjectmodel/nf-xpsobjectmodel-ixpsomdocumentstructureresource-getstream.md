@@ -7,7 +7,7 @@ old-location: xps\ixpsomdocumentstructureresource_getstream.htm
 tech.root: printdocs
 ms.assetid: 77c08ced-bc0d-4ebf-a257-d4298c7a352d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [XPS Documents and Packaging], GetStream method [XPS Documents and Packaging],IXpsOMDocumentStructureResource interface, IXpsOMDocumentStructureResource interface [XPS Documents and Packaging],GetStream method, IXpsOMDocumentStructureResource.GetStream, IXpsOMDocumentStructureResource::GetStream, xps.ixpsomdocumentstructureresource_getstream, xpsobjectmodel/IXpsOMDocumentStructureResource::GetStream
 ms.topic: method
 req.header: xpsobjectmodel.h

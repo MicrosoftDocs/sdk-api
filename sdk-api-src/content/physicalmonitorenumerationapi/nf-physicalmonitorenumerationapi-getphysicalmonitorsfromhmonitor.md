@@ -7,7 +7,7 @@ old-location: monitor\getphysicalmonitorsfromhmonitor.htm
 tech.root: Monitor
 ms.assetid: f2ac8a6a-3be9-4155-ad13-c256b96da792
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetPhysicalMonitorsFromHMONITOR, GetPhysicalMonitorsFromHMONITOR function [Monitor Configuration], monitor.getphysicalmonitorsfromhmonitor, physicalmonitorenumerationapi/GetPhysicalMonitorsFromHMONITOR
 ms.topic: function
 req.header: physicalmonitorenumerationapi.h

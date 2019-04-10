@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_utilities_cimerrorfromerrorcode.htm
 tech.root: wmi_v2
 ms.assetid: dab6226b-5769-4e2f-abd2-b89cc2d9911e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_RESULT_TYPE_HRESULT, MI_RESULT_TYPE_MI, MI_RESULT_TYPE_WIN32, MI_Utilities_CimErrorFromErrorCode, MI_Utilities_CimErrorFromErrorCode function [Windows Management Infrastructure (MI)], mi/MI_Utilities_CimErrorFromErrorCode, wmi_v2.mi_utilities_cimerrorfromerrorcode
 ms.topic: function
 req.header: mi.h

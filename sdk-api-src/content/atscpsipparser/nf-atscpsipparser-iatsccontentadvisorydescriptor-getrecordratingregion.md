@@ -7,7 +7,7 @@ old-location: mstv\iatsccontentadvisorydescriptor_getrecordratingregion.htm
 tech.root: mstv
 ms.assetid: fb828399-d4aa-4e35-bb77-16795a598b35
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetRecordRatingRegion, GetRecordRatingRegion method [Microsoft TV Technologies], GetRecordRatingRegion method [Microsoft TV Technologies],IAtscContentAdvisoryDescriptor interface, IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies],GetRecordRatingRegion method, IAtscContentAdvisoryDescriptor.GetRecordRatingRegion, IAtscContentAdvisoryDescriptor::GetRecordRatingRegion, IAtscContentAdvisoryDescriptorGetRecordRatingRegion, atscpsipparser/IAtscContentAdvisoryDescriptor::GetRecordRatingRegion, mstv.iatsccontentadvisorydescriptor_getrecordratingregion
 ms.topic: method
 req.header: atscpsipparser.h

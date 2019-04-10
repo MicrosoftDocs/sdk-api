@@ -7,7 +7,7 @@ old-location: base\getnamedpipeinfo.htm
 tech.root: ipc
 ms.assetid: 91081373-60cd-4a90-a304-1e67fff9a483
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetNamedPipeInfo, GetNamedPipeInfo function, PIPE_CLIENT_END, PIPE_SERVER_END, PIPE_TYPE_BYTE, PIPE_TYPE_MESSAGE, _win32_getnamedpipeinfo, base.getnamedpipeinfo, namedpipeapi/GetNamedPipeInfo
 ms.topic: function
 req.header: namedpipeapi.h

@@ -7,7 +7,7 @@ old-location: shell\IObjMgr_Append.htm
 tech.root: shell
 ms.assetid: a616f6d1-c1dc-4c1f-acf7-915cb0f722d6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Append, Append method [Windows Shell], Append method [Windows Shell],IObjMgr interface, IObjMgr interface [Windows Shell],Append method, IObjMgr.Append, IObjMgr::Append, _win32_IObjMgr_Append, shell.IObjMgr_Append, shlobj_core/IObjMgr::Append
 ms.topic: method
 req.header: shlobj_core.h

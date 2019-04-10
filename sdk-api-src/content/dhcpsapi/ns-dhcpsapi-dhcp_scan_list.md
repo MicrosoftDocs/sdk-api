@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_scan_list.htm
 tech.root: DHCP
 ms.assetid: 9dc20612-1c08-4493-aab3-b524d8d88251
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_SCAN_LIST, DHCP_SCAN_LIST, DHCP_SCAN_LIST structure [DHCP], LPDHCP_SCAN_LIST, LPDHCP_SCAN_LIST structure pointer [DHCP], dhcp.dhcp_scan_list, dhcpsapi/LPDHCP_SCAN_LIST, dhcpsapi/_DHCP_SCAN_LIST"
 ms.topic: struct
 req.header: dhcpsapi.h

@@ -7,7 +7,7 @@ old-location: com\ienumstring_clone.htm
 tech.root: com
 ms.assetid: d61ecfb3-9f3b-45ee-9872-9a92240f1234
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumString interface, IEnumString interface [COM],Clone method, IEnumString.Clone, IEnumString::Clone, _com_ienumstring_clone, com.ienumstring_clone, objidlbase/IEnumString::Clone
 ms.topic: method
 req.header: objidlbase.h

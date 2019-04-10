@@ -7,7 +7,7 @@ old-location: ncd\wsdallocatelinkedmemory_func.htm
 tech.root: WsdApi
 ms.assetid: 2608985f-56aa-4223-b76d-85ebe3b080fb
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WSDAllocateLinkedMemory, WSDAllocateLinkedMemory function, ncd.wsdallocatelinkedmemory_func, wsdutil/WSDAllocateLinkedMemory
 ms.topic: function
 req.header: wsdutil.h

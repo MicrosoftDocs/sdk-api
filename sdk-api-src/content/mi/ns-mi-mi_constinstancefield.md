@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_constinstancefield.htm
 tech.root: wmi_v2
 ms.assetid: cfbb9ec6-7ebd-4418-9e05-83d4e232be89
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_ConstInstanceField, MI_ConstInstanceField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_ConstInstanceField, wmi._mi_constinstancefield, wmi_v2.mi_constinstancefield
 ms.topic: struct
 req.header: mi.h

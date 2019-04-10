@@ -7,7 +7,7 @@ old-location: winprog\ipsnmpinfo.htm
 tech.root: DevNotes
 ms.assetid: eb25fae9-1a89-4474-bcb6-28c09bc3e0c9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IPSNMPInfo, IPSNMPInfo structure [Windows API], tcpioctl/IPSNMPInfo, winprog.ipsnmpinfo
 ms.topic: struct
 req.header: tcpioctl.h

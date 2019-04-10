@@ -7,7 +7,7 @@ old-location: mf\imfvideopositionmapper.htm
 tech.root: medfound
 ms.assetid: 282fa124-909f-49dc-9a86-3d962193e903
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 282fa124-909f-49dc-9a86-3d962193e903, IMFVideoPositionMapper, IMFVideoPositionMapper interface [Media Foundation], IMFVideoPositionMapper interface [Media Foundation],described, evr/IMFVideoPositionMapper, mf.imfvideopositionmapper
 ms.topic: interface
 req.header: evr.h

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1effectcontext_isbufferprecisionsupported.htm
 tech.root: Direct2D
 ms.assetid: 731A7CF3-03E7-4D38-A8DD-8D207AE90B16
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ID2D1EffectContext interface [Direct2D],IsBufferPrecisionSupported method, ID2D1EffectContext.IsBufferPrecisionSupported, ID2D1EffectContext::IsBufferPrecisionSupported, IsBufferPrecisionSupported, IsBufferPrecisionSupported method [Direct2D], IsBufferPrecisionSupported method [Direct2D],ID2D1EffectContext interface, d2d1effectauthor/ID2D1EffectContext::IsBufferPrecisionSupported, direct2d.id2d1effectcontext_isbufferprecisionsupported
 ms.topic: method
 req.header: d2d1effectauthor.h

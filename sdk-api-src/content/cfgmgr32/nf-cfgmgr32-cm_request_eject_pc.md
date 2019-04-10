@@ -7,7 +7,7 @@ old-location: devinst\cm_request_eject_pc.htm
 tech.root: devinst
 ms.assetid: 45d8151a-67d0-4cb1-8593-4cfb271a3411
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CM_Request_Eject_PC, CM_Request_Eject_PC function [Device and Driver Installation], cfgmgr32/CM_Request_Eject_PC, cfgmgrfn_b5855f88-c1d1-432e-bac2-ffe6a728418e.xml, devinst.cm_request_eject_pc
 ms.topic: function
 req.header: cfgmgr32.h

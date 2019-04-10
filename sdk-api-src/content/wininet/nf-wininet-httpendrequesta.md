@@ -7,7 +7,7 @@ old-location: wininet\httpendrequest.htm
 tech.root: wininet
 ms.assetid: 6ea91da6-0bc2-49b6-a56b-c4224ad73b81
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: HttpEndRequest, HttpEndRequest function [WinINet], HttpEndRequestA, HttpEndRequestW, _win32_httpendrequest, wininet.httpendrequest, wininet/HttpEndRequest, wininet/HttpEndRequestA, wininet/HttpEndRequestW
 ms.topic: function
 req.header: wininet.h

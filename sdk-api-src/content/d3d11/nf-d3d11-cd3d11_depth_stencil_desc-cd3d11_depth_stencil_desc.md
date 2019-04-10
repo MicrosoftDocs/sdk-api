@@ -7,7 +7,7 @@ old-location: direct3d11\cd3d11_depth_stencil_desc_cd3d11_depth_stencil_desc.htm
 tech.root: direct3d11
 ms.assetid: 9AB17F96-B5BB-4A6B-94E2-F68ADC27B3C2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CD3D11_DEPTH_STENCIL_DESC, CD3D11_DEPTH_STENCIL_DESC constructor [Direct3D 11], CD3D11_DEPTH_STENCIL_DESC constructor [Direct3D 11],CD3D11_DEPTH_STENCIL_DESC interface, CD3D11_DEPTH_STENCIL_DESC interface [Direct3D 11],CD3D11_DEPTH_STENCIL_DESC constructor, CD3D11_DEPTH_STENCIL_DESC.CD3D11_DEPTH_STENCIL_DESC, CD3D11_DEPTH_STENCIL_DESC::CD3D11_DEPTH_STENCIL_DESC, CD3D11_DEPTH_STENCIL_DESC::CD3D11_DEPTH_STENCIL_DESC(), d3d11/CD3D11_DEPTH_STENCIL_DESC::CD3D11_DEPTH_STENCIL_DESC, direct3d11.cd3d11_depth_stencil_desc_cd3d11_depth_stencil_desc
 ms.topic: method
 req.header: d3d11.h

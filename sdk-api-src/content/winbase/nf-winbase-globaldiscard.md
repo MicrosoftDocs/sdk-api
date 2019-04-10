@@ -7,7 +7,7 @@ old-location: base\globaldiscard.htm
 tech.root: Memory
 ms.assetid: af6160ce-ab7a-4198-bca3-dd5d51cacfa5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GlobalDiscard, GlobalDiscard macro, _win32_globaldiscard, base.globaldiscard, winbase/GlobalDiscard
 ms.topic: macro
 req.header: winbase.h

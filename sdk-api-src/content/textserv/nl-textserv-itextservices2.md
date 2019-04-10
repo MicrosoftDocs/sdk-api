@@ -7,7 +7,7 @@ old-location: controls\itextservices2.htm
 tech.root: Controls
 ms.assetid: B5DC90BA-F9A5-45DC-8C8A-784380C38769
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITextServices2, ITextServices2 interface [Windows Controls], ITextServices2 interface [Windows Controls],described, controls.itextservices2, textserv/ITextServices2
 ms.topic: class
 req.header: textserv.h

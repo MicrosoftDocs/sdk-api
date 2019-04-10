@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced2_getprotocolname.htm
 tech.root: wmformat
 ms.assetid: 056d5f3f-79bf-4e21-9f2c-cda05eaca13d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetProtocolName, GetProtocolName method [windows Media Format], GetProtocolName method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced2 interface [windows Media Format],GetProtocolName method, IWMReaderAdvanced2.GetProtocolName, IWMReaderAdvanced2::GetProtocolName, IWMReaderAdvanced2GetProtocolName, wmformat.iwmreaderadvanced2_getprotocolname, wmsdkidl/IWMReaderAdvanced2::GetProtocolName
 ms.topic: method
 req.header: wmsdkidl.h

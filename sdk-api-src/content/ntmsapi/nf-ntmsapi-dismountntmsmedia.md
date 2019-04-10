@@ -7,7 +7,7 @@ old-location: fs\dismountntmsmedia.htm
 tech.root: Rsm
 ms.assetid: 95336487-ca50-4003-a155-eb70173f8604
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DismountNtmsMedia, DismountNtmsMedia function [Files], NTMS_DISMOUNT_DEFERRED, NTMS_DISMOUNT_IMMEDIATE, _zaw_dismountntmsmedia, base.dismountntmsmedia, fs.dismountntmsmedia, ntmsapi/DismountNtmsMedia
 ms.topic: function
 req.header: ntmsapi.h

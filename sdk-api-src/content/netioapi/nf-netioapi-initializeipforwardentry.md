@@ -7,7 +7,7 @@ old-location: iphlp\initializeipforwardentry.htm
 tech.root: IpHlp
 ms.assetid: 1968c4e5-4b28-4387-a918-3326bc80bb3e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: InitializeIpForwardEntry, InitializeIpForwardEntry function [IP Helper], iphlp.initializeipforwardentry, netioapi/InitializeIpForwardEntry
 ms.topic: function
 req.header: netioapi.h

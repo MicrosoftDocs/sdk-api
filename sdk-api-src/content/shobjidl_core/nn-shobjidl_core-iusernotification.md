@@ -7,7 +7,7 @@ old-location: shell\IUserNotification.htm
 tech.root: shell
 ms.assetid: 24ff171c-e9e2-4d62-8a8c-d62e5d7a92ad
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IUserNotification, IUserNotification interface [Windows Shell], IUserNotification interface [Windows Shell],described, inet_IUserNotification, shell.IUserNotification, shobjidl_core/IUserNotification
 ms.topic: interface
 req.header: shobjidl_core.h

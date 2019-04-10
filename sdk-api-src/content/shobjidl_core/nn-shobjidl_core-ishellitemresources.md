@@ -7,7 +7,7 @@ old-location: shell\IShellItemResources.htm
 tech.root: shell
 ms.assetid: 4ca4a01e-e3c2-46aa-a700-b4b2a1e0112e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IShellItemResources, IShellItemResources interface [Windows Shell], IShellItemResources interface [Windows Shell],described, _shell_IShellItemResources, shell.IShellItemResources, shobjidl_core/IShellItemResources
 ms.topic: interface
 req.header: shobjidl_core.h

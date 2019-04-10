@@ -7,7 +7,7 @@ old-location: http\http_data_chunk.htm
 tech.root: http
 ms.assetid: ae67c066-c8bd-483f-829f-30192f49593d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PHTTP_DATA_CHUNK, HTTP_DATA_CHUNK, HTTP_DATA_CHUNK structure [HTTP], PHTTP_DATA_CHUNK, PHTTP_DATA_CHUNK structure pointer [HTTP], _http_http_data_chunk, http.http_data_chunk, http/HTTP_DATA_CHUNK, http/PHTTP_DATA_CHUNK"
 ms.topic: struct
 req.header: http.h

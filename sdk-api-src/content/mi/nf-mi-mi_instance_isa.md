@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_instance_isa.htm
 tech.root: wmi_v2
 ms.assetid: 53fe80b3-cd34-4dee-a474-ced784d61682
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_Instance_IsA, MI_Instance_IsA function [Windows Management Infrastructure (MI)], mi/MI_Instance_IsA, wmi_v2.mi_instance_isa
 ms.topic: function
 req.header: mi.h

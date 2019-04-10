@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_mapped_subresource.htm
 tech.root: direct3d11
 ms.assetid: cbbb8689-0a7d-43b9-bde3-29d93cc7f0fe
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 6581ca11-abcb-9ae4-0972-0f8f36933283, D3D11_MAPPED_SUBRESOURCE, D3D11_MAPPED_SUBRESOURCE structure [Direct3D 11], d3d11/D3D11_MAPPED_SUBRESOURCE, direct3d11.d3d11_mapped_subresource
 ms.topic: struct
 req.header: d3d11.h

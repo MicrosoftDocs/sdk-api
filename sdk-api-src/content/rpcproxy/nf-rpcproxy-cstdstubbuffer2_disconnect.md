@@ -7,7 +7,7 @@ old-location: rpc\cstdstubbuffer2_disconnect.htm
 tech.root: Rpc
 ms.assetid: 5593A1C5-37B1-4A83-BEA3-F99AB82CF8FD
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CStdStubBuffer2_Disconnect, CStdStubBuffer2_Disconnect function [RPC], rpc.cstdstubbuffer2_disconnect, rpcproxy/CStdStubBuffer2_Disconnect
 ms.topic: function
 req.header: rpcproxy.h

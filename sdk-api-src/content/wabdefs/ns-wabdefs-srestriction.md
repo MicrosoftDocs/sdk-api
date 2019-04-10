@@ -7,7 +7,7 @@ old-location: wab\_wab_SRestriction.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\srestriction.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPSRestriction, RES_AND, RES_BITMASK, RES_COMMENT, RES_COMPAREPROPS, RES_CONTENT, RES_EXIST, RES_NOT, RES_OR, RES_PROPERTY, RES_SIZE, RES_SUBRESTRICTION, SRestriction, SRestriction structure [Windows Address Book], _wab_SRestriction, wab._wab_SRestriction, wabdefs/SRestriction"
 ms.topic: struct
 req.header: wabdefs.h

@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquiresource_getitemat.htm
 tech.root: acquisition
 ms.assetid: c066464b-1d88-4d43-8bfd-0f60f21db5fd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetItemAt, GetItemAt method [Picture Acquisition], GetItemAt method [Picture Acquisition],IPhotoAcquireSource interface, IPhotoAcquireSource interface [Picture Acquisition],GetItemAt method, IPhotoAcquireSource.GetItemAt, IPhotoAcquireSource::GetItemAt, IPhotoAcquireSourceGetItemAt, photoacquire/IPhotoAcquireSource::GetItemAt, picacq.iphotoacquiresource_getitemat
 ms.topic: method
 req.header: photoacquire.h

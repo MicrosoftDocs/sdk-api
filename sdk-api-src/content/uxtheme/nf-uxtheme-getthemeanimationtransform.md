@@ -7,7 +7,7 @@ old-location: controls\getthemeanimationtransform.htm
 tech.root: Controls
 ms.assetid: 3B7691C0-4237-4CE4-9B7C-937089AC5606
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetThemeAnimationTransform, GetThemeAnimationTransform function [Windows Controls], controls.getthemeanimationtransform, uxtheme/GetThemeAnimationTransform
 ms.topic: function
 req.header: uxtheme.h

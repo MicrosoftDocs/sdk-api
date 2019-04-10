@@ -7,7 +7,7 @@ old-location: mf\mfaudioconstriction.htm
 tech.root: medfound
 ms.assetid: EAFE3AA5-EF63-471A-9A67-A2EB298B0C0F
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MFAudioConstriction, MFAudioConstriction enumeration [Media Foundation], MFaudioConstriction14_14, MFaudioConstriction44_16, MFaudioConstriction48_16, MFaudioConstrictionMute, MFaudioConstrictionOff, mf.mfaudioconstriction, mfidl/MFAudioConstriction, mfidl/MFaudioConstriction14_14, mfidl/MFaudioConstriction44_16, mfidl/MFaudioConstriction48_16, mfidl/MFaudioConstrictionMute, mfidl/MFaudioConstrictionOff
 ms.topic: enum
 req.header: mfidl.h

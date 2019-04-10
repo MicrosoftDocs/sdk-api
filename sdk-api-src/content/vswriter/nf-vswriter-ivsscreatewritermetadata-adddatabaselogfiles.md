@@ -7,7 +7,7 @@ old-location: base\ivsscreatewritermetadata_adddatabaselogfiles.htm
 tech.root: VSS
 ms.assetid: 09bdbdf3-d757-4d3c-8b8b-f792b6cd4ef1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AddDatabaseLogFiles, AddDatabaseLogFiles method [VSS], AddDatabaseLogFiles method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddDatabaseLogFiles method, IVssCreateWriterMetadata.AddDatabaseLogFiles, IVssCreateWriterMetadata::AddDatabaseLogFiles, _win32_ivsscreatewritermetadata_adddatabaselogfiles, base.ivsscreatewritermetadata_adddatabaselogfiles, vswriter/IVssCreateWriterMetadata::AddDatabaseLogFiles
 ms.topic: method
 req.header: vswriter.h

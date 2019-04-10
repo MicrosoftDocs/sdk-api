@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_trimming.htm
 tech.root: DirectWrite
 ms.assetid: c252b936-8a09-45b4-8138-84cf54058f72
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DWRITE_TRIMMING, DWRITE_TRIMMING structure [Direct Write], directwrite.dwrite_trimming, dwrite/DWRITE_TRIMMING
 ms.topic: struct
 req.header: dwrite.h

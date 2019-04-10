@@ -7,7 +7,7 @@ old-location: fs\netstatisticsget.htm
 tech.root: NetShare
 ms.assetid: d0e51d8a-2f54-42ca-9759-0da82c1f0f55
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 0, NetStatisticsGet, NetStatisticsGet function [Files], _win32_netstatisticsget, fs.netstatisticsget, lmstats/NetStatisticsGet, netmgmt.netstatisticsget
 ms.topic: function
 req.header: lmstats.h

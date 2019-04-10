@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_CachedBitmap_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\cachedbitmap.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CachedBitmap, CachedBitmap class [GDI+], CachedBitmap class [GDI+],described, _gdiplus_CLASS_CachedBitmap_Class, gdiplus._gdiplus_CLASS_CachedBitmap_Class, gdiplusheaders/CachedBitmap
 ms.topic: class
 req.header: gdiplusheaders.h

@@ -7,7 +7,7 @@ old-location: xps\ixpsomgradientstopcollection.htm
 tech.root: printdocs
 ms.assetid: 1f51f818-e9bb-4d88-9795-4e6890d24b8c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IXpsOMGradientStopCollection, IXpsOMGradientStopCollection interface [XPS Documents and Packaging], IXpsOMGradientStopCollection interface [XPS Documents and Packaging],described, xps.ixpsomgradientstopcollection, xpsobjectmodel/IXpsOMGradientStopCollection
 ms.topic: interface
 req.header: xpsobjectmodel.h

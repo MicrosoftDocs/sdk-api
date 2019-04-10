@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_invokecommand.htm
 tech.root: WMP
 ms.assetid: ee46a7c2-2d5b-4c7f-954e-cad6011afc78
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],InvokeCommand method, IWMPContentPartner.InvokeCommand, IWMPContentPartner::InvokeCommand, IWMPContentPartnerInvokeCommand, InvokeCommand, InvokeCommand method [Windows Media Player], InvokeCommand method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::InvokeCommand, wmp.iwmpcontentpartner_invokecommand
 ms.topic: method
 req.header: contentpartner.h

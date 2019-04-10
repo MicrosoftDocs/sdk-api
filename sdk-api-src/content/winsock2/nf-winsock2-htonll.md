@@ -7,7 +7,7 @@ old-location: winsock\htonll.htm
 tech.root: WinSock
 ms.assetid: 3155C55D-681E-4D6D-9DFF-219465F04E4A
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: htonll, htonll function [Winsock], winsock.htonll, winsock2/htonll
 ms.topic: function
 req.header: winsock2.h

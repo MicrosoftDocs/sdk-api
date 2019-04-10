@@ -7,7 +7,7 @@ old-location: base\symsrvisstore.htm
 tech.root: Debug
 ms.assetid: 7fbec886-c1b7-4d17-9813-af7812b4abb9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SymSrvIsStore, SymSrvIsStore function, SymSrvIsStoreW, base.symsrvisstore, dbghelp/SymSrvIsStore, dbghelp/SymSrvIsStoreW
 ms.topic: function
 req.header: dbghelp.h

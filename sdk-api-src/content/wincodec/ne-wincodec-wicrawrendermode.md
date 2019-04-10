@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicrawrendermode.htm
 tech.root: wic
 ms.assetid: dc020c78-a018-42ee-a500-65a743b96107
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WICRawRenderMode, WICRawRenderMode enumeration [Windows Imaging Component], WICRawRenderModeBestQuality, WICRawRenderModeDraft, WICRawRenderModeNormal, _wic_codec_wicrawrendermode, wic._wic_codec_wicrawrendermode, wincodec/WICRawRenderMode, wincodec/WICRawRenderModeBestQuality, wincodec/WICRawRenderModeDraft, wincodec/WICRawRenderModeNormal
 ms.topic: enum
 req.header: wincodec.h

@@ -7,7 +7,7 @@ old-location: wds\iwdstransportdiagnosticspolicy_enabled.htm
 tech.root: wds
 ms.assetid: 82932331-7e4c-4729-a6df-0d1abdb1861d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Enabled property [Windows Deployment Services], Enabled property [Windows Deployment Services],IWdsTransportDiagnosticsPolicy interface, IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services],Enabled property, IWdsTransportDiagnosticsPolicy.Enabled, IWdsTransportDiagnosticsPolicy.get_Enabled, IWdsTransportDiagnosticsPolicy::Enabled, IWdsTransportDiagnosticsPolicy::get_Enabled, IWdsTransportDiagnosticsPolicy::put_Enabled, get_Enabled, wds.iwdstransportdiagnosticspolicy_enabled, wdstptmgmt/IWdsTransportDiagnosticsPolicy::Enabled, wdstptmgmt/IWdsTransportDiagnosticsPolicy::get_Enabled, wdstptmgmt/IWdsTransportDiagnosticsPolicy::put_Enabled
 ms.topic: method
 req.header: wdstptmgmt.h

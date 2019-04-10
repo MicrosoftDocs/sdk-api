@@ -7,7 +7,7 @@ old-location: pla\idatamanager_checkbeforerunning.htm
 tech.root: PLA
 ms.assetid: 23c7aced-d159-4d5e-a9ff-f0ca5b3e4470
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CheckBeforeRunning property [PLA], CheckBeforeRunning property [PLA],IDataManager interface, IDataManager interface [PLA],CheckBeforeRunning property, IDataManager.CheckBeforeRunning, IDataManager.get_CheckBeforeRunning, IDataManager::CheckBeforeRunning, IDataManager::get_CheckBeforeRunning, IDataManager::put_CheckBeforeRunning, base.idatamanager_checkbeforerunning, get_CheckBeforeRunning, pla.idatamanager_checkbeforerunning, pla/IDataManager::CheckBeforeRunning, pla/IDataManager::get_CheckBeforeRunning, pla/IDataManager::put_CheckBeforeRunning
 ms.topic: method
 req.header: pla.h

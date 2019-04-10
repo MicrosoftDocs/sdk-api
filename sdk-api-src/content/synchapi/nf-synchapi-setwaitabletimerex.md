@@ -7,7 +7,7 @@ old-location: base\setwaitabletimerex.htm
 tech.root: Sync
 ms.assetid: 2facde72-6e04-4a2f-9ee6-059f36932539
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SetWaitableTimerEx, SetWaitableTimerEx function, base.setwaitabletimerex, synchapi/SetWaitableTimerEx, winbase/SetWaitableTimerEx
 ms.topic: function
 req.header: synchapi.h

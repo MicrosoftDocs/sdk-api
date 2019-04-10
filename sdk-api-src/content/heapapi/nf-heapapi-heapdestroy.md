@@ -7,7 +7,7 @@ old-location: base\heapdestroy.htm
 tech.root: Memory
 ms.assetid: 2ad8d15f-de5e-424d-9349-3baccb000a36
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: HeapDestroy, HeapDestroy function, _win32_heapdestroy, base.heapdestroy, heapapi/HeapDestroy, winbase/HeapDestroy
 ms.topic: function
 req.header: heapapi.h

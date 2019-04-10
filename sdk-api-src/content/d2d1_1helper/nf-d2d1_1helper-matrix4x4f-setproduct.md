@@ -7,7 +7,7 @@ old-location: direct2d\matrix4x4f_setproduct.htm
 tech.root: Direct2D
 ms.assetid: CC12D975-B08A-4671-9F61-CBAC343AC126
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Matrix4x4F interface [Direct2D],SetProduct method, Matrix4x4F.SetProduct, Matrix4x4F::SetProduct, SetProduct, SetProduct method [Direct2D], SetProduct method [Direct2D],Matrix4x4F interface, d2d1_1helper/Matrix4x4F::SetProduct, direct2d.matrix4x4f_setproduct
 ms.topic: method
 req.header: d2d1_1helper.h

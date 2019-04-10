@@ -7,7 +7,7 @@ old-location: mstv\ibda_devicecontrol.htm
 tech.root: mstv
 ms.assetid: 41e167b0-100e-41d2-8759-0411a10931ae
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IBDA_DeviceControl, IBDA_DeviceControl interface [Microsoft TV Technologies], IBDA_DeviceControl interface [Microsoft TV Technologies],described, IBDA_DeviceControlInterface, bdaiface/IBDA_DeviceControl, mstv.ibda_devicecontrol
 ms.topic: interface
 req.header: bdaiface.h

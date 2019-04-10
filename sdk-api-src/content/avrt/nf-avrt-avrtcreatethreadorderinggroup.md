@@ -7,7 +7,7 @@ old-location: base\avrtcreatethreadorderinggroup.htm
 tech.root: ProcThread
 ms.assetid: c334a861-7dd6-4fc9-90ce-5923d053d325
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AvRtCreateThreadOrderingGroup, AvRtCreateThreadOrderingGroup function, avrt/AvRtCreateThreadOrderingGroup, base.avrtcreatethreadorderinggroup
 ms.topic: function
 req.header: avrt.h

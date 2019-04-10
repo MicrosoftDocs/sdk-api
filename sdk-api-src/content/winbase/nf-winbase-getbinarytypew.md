@@ -7,7 +7,7 @@ old-location: fs\getbinarytype.htm
 tech.root: FileIO
 ms.assetid: ec937372-ee99-4505-a5dd-7c111405cbc6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetBinaryType, GetBinaryType function [Files], GetBinaryTypeA, GetBinaryTypeW, SCS_32BIT_BINARY, SCS_64BIT_BINARY, SCS_DOS_BINARY, SCS_OS216_BINARY, SCS_PIF_BINARY, SCS_POSIX_BINARY, SCS_WOW_BINARY, _win32_getbinarytype, base.getbinarytype, fs.getbinarytype, winbase/GetBinaryType, winbase/GetBinaryTypeA, winbase/GetBinaryTypeW
 ms.topic: function
 req.header: winbase.h

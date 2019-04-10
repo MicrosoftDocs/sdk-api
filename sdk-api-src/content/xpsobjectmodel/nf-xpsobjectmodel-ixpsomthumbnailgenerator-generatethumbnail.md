@@ -7,7 +7,7 @@ old-location: xps\ixpsomthumbnailgenerator_generatethumbnail.htm
 tech.root: printdocs
 ms.assetid: 8a2431f0-50e5-43a9-8940-62d9babad297
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GenerateThumbnail, GenerateThumbnail method [XPS Documents and Packaging], GenerateThumbnail method [XPS Documents and Packaging],IXpsOMThumbnailGenerator interface, IXpsOMThumbnailGenerator interface [XPS Documents and Packaging],GenerateThumbnail method, IXpsOMThumbnailGenerator.GenerateThumbnail, IXpsOMThumbnailGenerator::GenerateThumbnail, xps.ixpsomthumbnailgenerator_generatethumbnail, xpsobjectmodel/IXpsOMThumbnailGenerator::GenerateThumbnail
 ms.topic: method
 req.header: xpsobjectmodel.h

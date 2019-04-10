@@ -7,7 +7,7 @@ old-location: mmc\istringtable_getstringlength.htm
 tech.root: mmc
 ms.assetid: 1924c4fa-ecbb-4f03-8c93-e2bb3dc8f4e3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetStringLength, GetStringLength method [MMC], GetStringLength method [MMC],IStringTable interface, IStringTable interface [MMC],GetStringLength method, IStringTable.GetStringLength, IStringTable::GetStringLength, _slate_istringtable_getstringlength, mmc.istringtable_getstringlength, mmc/IStringTable::GetStringLength
 ms.topic: method
 req.header: mmc.h

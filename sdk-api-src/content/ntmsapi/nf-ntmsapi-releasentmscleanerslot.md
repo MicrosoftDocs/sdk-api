@@ -7,7 +7,7 @@ old-location: fs\releasentmscleanerslot.htm
 tech.root: Rsm
 ms.assetid: c3530534-c502-4168-8039-b5ce4f0a5816
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ReleaseNtmsCleanerSlot, ReleaseNtmsCleanerSlot function [Files], _zaw_releasentmscleanerslot, base.releasentmscleanerslot, fs.releasentmscleanerslot, ntmsapi/ReleaseNtmsCleanerSlot
 ms.topic: function
 req.header: ntmsapi.h

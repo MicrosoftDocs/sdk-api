@@ -7,7 +7,7 @@ old-location: iphlp\net_address_format.htm
 tech.root: IpHlp
 ms.assetid: a99df758-d46e-452d-acf8-d2cb5a6fa22e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NET_ADDRESS_DNS_NAME, NET_ADDRESS_FORMAT, NET_ADDRESS_FORMAT enumeration [IP Helper], NET_ADDRESS_FORMAT_UNSPECIFIED, NET_ADDRESS_IPV4, NET_ADDRESS_IPV6, iphlp.net_address_format, iphlpapi/NET_ADDRESS_DNS_NAME, iphlpapi/NET_ADDRESS_FORMAT, iphlpapi/NET_ADDRESS_FORMAT_UNSPECIFIED, iphlpapi/NET_ADDRESS_IPV4, iphlpapi/NET_ADDRESS_IPV6
 ms.topic: enum
 req.header: iphlpapi.h

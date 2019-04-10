@@ -7,7 +7,7 @@ old-location: appxpkg\iappxfile_getsize.htm
 tech.root: appxpkg
 ms.assetid: 73353CE0-98F8-4A8C-A259-A07C125B9EE9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [App packaging and management], GetSize method [App packaging and management],IAppxFile interface, IAppxFile interface [App packaging and management],GetSize method, IAppxFile.GetSize, IAppxFile::GetSize, appxpackaging/IAppxFile::GetSize, appxpkg.iappxfile_getsize
 ms.topic: method
 req.header: appxpackaging.h

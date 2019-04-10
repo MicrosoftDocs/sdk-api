@@ -7,7 +7,7 @@ old-location: enstor\act_authorization_state.htm
 tech.root: enstor
 ms.assetid: 385b2f9d-659e-451d-97da-15be70180e1f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ACT_AUTHORIZATION_STATE, ACT_AUTHORIZATION_STATE structure [Enhanced Storage], PACT_AUTHORIZATION_STATE, PACT_AUTHORIZATION_STATE structure pointer [Enhanced Storage], ehstorapi/ACT_AUTHORIZATION_STATE, ehstorapi/PACT_AUTHORIZATION_STATE, enstor.act_authorization_state
 ms.topic: struct
 req.header: ehstorapi.h

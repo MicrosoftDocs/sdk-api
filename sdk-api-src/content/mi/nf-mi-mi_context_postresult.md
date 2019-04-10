@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_context_postresult.htm
 tech.root: wmi_v2
 ms.assetid: e890ebab-f243-40eb-8a56-a771475929bb
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_Context_PostResult, MI_Context_PostResult function [Windows Management Infrastructure (MI)], mi/MI_Context_PostResult, wmi.mi_postresult, wmi_v2.mi_context_postresult
 ms.topic: function
 req.header: mi.h

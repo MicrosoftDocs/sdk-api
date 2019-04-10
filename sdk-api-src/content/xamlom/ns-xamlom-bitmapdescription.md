@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\bitmapdescription.htm
 tech.root: xaml_diagnostics
 ms.assetid: C5E1BA37-738C-4251-8648-681C58B740E1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BitmapDescription, BitmapDescription structure, PBitmapDescription, PBitmapDescription structure pointer, xaml_diagnostics.bitmapdescription, xamlom/BitmapDescription, xamlom/PBitmapDescription
 ms.topic: struct
 req.header: xamlom.h

@@ -7,7 +7,7 @@ old-location: display\dd_halinfo.htm
 tech.root: display
 ms.assetid: 99ecd219-1e85-4904-867d-3efcb378bb11
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PDD_HALINFO, DD_HALINFO, DD_HALINFO structure [Display Devices], PDD_HALINFO, PDD_HALINFO structure pointer [Display Devices], ddrawint/DD_HALINFO, ddrawint/PDD_HALINFO, ddstrcts_3b4465cc-0f18-431c-b0a5-bf5bfb854f05.xml, display.dd_halinfo"
 ms.topic: struct
 req.header: ddrawint.h

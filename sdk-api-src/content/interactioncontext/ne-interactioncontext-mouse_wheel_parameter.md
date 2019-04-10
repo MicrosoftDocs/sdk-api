@@ -7,7 +7,7 @@ old-location: input_intcontext\mouse_wheel_parameter.htm
 tech.root: Input_IntContext
 ms.assetid: eafc5d3a-f547-45a2-9634-caf309e583f3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MOUSE_WHEEL_PARAMETER, MOUSE_WHEEL_PARAMETER enumeration, MOUSE_WHEEL_PARAMETER_CHAR_TRANSLATION_X, MOUSE_WHEEL_PARAMETER_CHAR_TRANSLATION_Y, MOUSE_WHEEL_PARAMETER_DELTA_ROTATION, MOUSE_WHEEL_PARAMETER_DELTA_SCALE, MOUSE_WHEEL_PARAMETER_MAX, MOUSE_WHEEL_PARAMETER_PAGE_TRANSLATION_X, MOUSE_WHEEL_PARAMETER_PAGE_TRANSLATION_Y, input_intcontext.mouse_wheel_parameter, interactioncontext.mouse_wheel_parameter, interactioncontext/MOUSE_WHEEL_PARAMETER, interactioncontext/MOUSE_WHEEL_PARAMETER_CHAR_TRANSLATION_X, interactioncontext/MOUSE_WHEEL_PARAMETER_CHAR_TRANSLATION_Y, interactioncontext/MOUSE_WHEEL_PARAMETER_DELTA_ROTATION, interactioncontext/MOUSE_WHEEL_PARAMETER_DELTA_SCALE, interactioncontext/MOUSE_WHEEL_PARAMETER_MAX, interactioncontext/MOUSE_WHEEL_PARAMETER_PAGE_TRANSLATION_X, interactioncontext/MOUSE_WHEEL_PARAMETER_PAGE_TRANSLATION_Y
 ms.topic: enum
 req.header: interactioncontext.h

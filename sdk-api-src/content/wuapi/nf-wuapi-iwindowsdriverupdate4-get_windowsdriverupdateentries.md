@@ -7,7 +7,7 @@ old-location: wua\iwindowsdriverupdate4_windowsdriverupdateentries.htm
 tech.root: Wua_Sdk
 ms.assetid: ef488639-07d7-4816-a5fa-8b34c2455149
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWindowsDriverUpdate4 interface [Windows Update Agent],WindowsDriverUpdateEntries property, IWindowsDriverUpdate4.WindowsDriverUpdateEntries, IWindowsDriverUpdate4.get_WindowsDriverUpdateEntries, IWindowsDriverUpdate4::WindowsDriverUpdateEntries, IWindowsDriverUpdate4::get_WindowsDriverUpdateEntries, WindowsDriverUpdateEntries property [Windows Update Agent], WindowsDriverUpdateEntries property [Windows Update Agent],IWindowsDriverUpdate4 interface, get_WindowsDriverUpdateEntries, wua.iwindowsdriverupdate4_windowsdriverupdateentries, wuapi/IWindowsDriverUpdate4::WindowsDriverUpdateEntries, wuapi/IWindowsDriverUpdate4::get_WindowsDriverUpdateEntries
 ms.topic: method
 req.header: wuapi.h

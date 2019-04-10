@@ -7,7 +7,7 @@ old-location: xps\ixpsompage_generateunusedlookupkey.htm
 tech.root: printdocs
 ms.assetid: 79599ede-fd81-4d1a-b71b-ac5742e384ca
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GenerateUnusedLookupKey, GenerateUnusedLookupKey method [XPS Documents and Packaging], GenerateUnusedLookupKey method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GenerateUnusedLookupKey method, IXpsOMPage.GenerateUnusedLookupKey, IXpsOMPage::GenerateUnusedLookupKey, xps.ixpsompage_generateunusedlookupkey, xpsobjectmodel/IXpsOMPage::GenerateUnusedLookupKey
 ms.topic: method
 req.header: xpsobjectmodel.h

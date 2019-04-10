@@ -7,7 +7,7 @@ old-location: winsock\wsasenddisconnect_2.htm
 tech.root: WinSock
 ms.assetid: c05fc719-e35a-4194-ac01-a294b19ccce9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WSASendDisconnect, WSASendDisconnect function [Winsock], _win32_wsasenddisconnect_2, winsock.wsasenddisconnect_2, winsock2/WSASendDisconnect
 ms.topic: function
 req.header: winsock2.h

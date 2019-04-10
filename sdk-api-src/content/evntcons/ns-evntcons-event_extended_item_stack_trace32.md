@@ -7,7 +7,7 @@ old-location: etw\event_extended_item_stack_trace32.htm
 tech.root: ETW
 ms.assetid: 6898951a-5719-47aa-a219-97f82095686f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PEVENT_EXTENDED_ITEM_STACK_TRACE32, EVENT_EXTENDED_ITEM_STACK_TRACE32, EVENT_EXTENDED_ITEM_STACK_TRACE32 structure [ETW], PEVENT_EXTENDED_ITEM_STACK_TRACE32, PEVENT_EXTENDED_ITEM_STACK_TRACE32 structure pointer [ETW], etw.event_extended_item_stack_trace32, evntcons/EVENT_EXTENDED_ITEM_STACK_TRACE32, evntcons/PEVENT_EXTENDED_ITEM_STACK_TRACE32"
 ms.topic: struct
 req.header: evntcons.h

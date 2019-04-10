@@ -7,7 +7,7 @@ old-location: setup\imsmgetfiles_interface.htm
 tech.root: Msi
 ms.assetid: d6912c92-b3e0-4b3d-a618-17e252cd14ae
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMsmGetFiles, IMsmGetFiles interface, IMsmGetFiles interface,described, mergemod/IMsmGetFiles, setup.imsmgetfiles_interface
 ms.topic: interface
 req.header: mergemod.h

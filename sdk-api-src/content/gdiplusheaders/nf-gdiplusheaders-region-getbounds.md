@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_GetBounds_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regiongetboundsmethods.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetBounds, GetBounds methods [GDI+], Region.GetBounds, Region::GetBounds, _gdiplus_CLASS_Region_GetBounds_Methods, gdiplus._gdiplus_CLASS_Region_GetBounds_Methods, gdiplusheaders/GetBounds
 ms.topic: method
 req.header: gdiplusheaders.h

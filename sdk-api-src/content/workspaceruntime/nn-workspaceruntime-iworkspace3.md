@@ -7,7 +7,7 @@ old-location: termserv\iworkspace3.htm
 tech.root: TermServ
 ms.assetid: a63240fb-8724-4cd2-b845-f48075f4cb57
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWorkspace3, IWorkspace3 interface [Remote Desktop Services], IWorkspace3 interface [Remote Desktop Services],described, termserv.iworkspace3, workspaceruntime/IWorkspace3
 ms.topic: interface
 req.header: workspaceruntime.h

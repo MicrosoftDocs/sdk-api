@@ -7,7 +7,7 @@ old-location: security\slpersistrtspayloadoverride.htm
 tech.root: SecSLApi
 ms.assetid: d053c9dc-c719-4e0c-b1e9-58303b51cb26
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SLPersistRTSPayloadOverride, SLPersistRTSPayloadOverride function [Security], security.slpersistrtspayloadoverride, slpublic/SLPersistRTSPayloadOverride
 ms.topic: function
 req.header: slpublic.h

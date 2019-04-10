@@ -7,7 +7,7 @@ old-location: dns\dns_wire_question.htm
 tech.root: DNS
 ms.assetid: 50498f20-0896-4471-8355-edd997aa4bcd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PDNS_WIRE_QUESTION, *PDNS_WIRE_QUESTION structure [DNS], DNS_WIRE_QUESTION, DNS_WIRE_QUESTION structure [DNS], dns.dns_wire_question, windns/*PDNS_WIRE_QUESTION, windns/DNS_WIRE_QUESTION"
 ms.topic: struct
 req.header: windns.h

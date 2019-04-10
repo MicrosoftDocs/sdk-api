@@ -7,7 +7,7 @@ old-location: indexsrv\cimakeicommand.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_9u90.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CIMakeICommand, CIMakeICommand function [Indexing Service], _idxs_CIMakeICommand, indexsrv.cimakeicommand, ntquery/CIMakeICommand
 ms.topic: function
 req.header: ntquery.h

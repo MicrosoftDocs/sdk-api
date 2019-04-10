@@ -7,7 +7,7 @@ old-location: wua\isearchjob.htm
 tech.root: Wua_Sdk
 ms.assetid: aec4a812-cf5d-4986-a776-29c366bb1771
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ISearchJob, ISearchJob interface [Windows Update Agent], ISearchJob interface [Windows Update Agent],described, wua.isearchjob, wuapi/ISearchJob
 ms.topic: interface
 req.header: wuapi.h

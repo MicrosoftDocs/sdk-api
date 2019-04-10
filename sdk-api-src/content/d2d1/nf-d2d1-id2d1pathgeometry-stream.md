@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1PathGeometry_Stream.htm
 tech.root: Direct2D
 ms.assetid: e128b4e7-8fde-44f1-a7a3-928aace0fe7f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ID2D1PathGeometry interface [Direct2D],Stream method, ID2D1PathGeometry.Stream, ID2D1PathGeometry::Stream, Stream, Stream method [Direct2D], Stream method [Direct2D],ID2D1PathGeometry interface, d2d1/ID2D1PathGeometry::Stream, direct2d.ID2D1PathGeometry_Stream
 ms.topic: method
 req.header: d2d1.h

@@ -7,7 +7,7 @@ old-location: wsw\wsabortlistener.htm
 tech.root: wsw
 ms.assetid: 894a325b-53ac-4f45-ac24-87ed3a40b03d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WsAbortListener, WsAbortListener function [Web Services for Windows], webservices/WsAbortListener, wsw.wsabortlistener
 ms.topic: function
 req.header: webservices.h

@@ -7,7 +7,7 @@ old-location: adsi\iadscollection_add.htm
 tech.root: adsi
 ms.assetid: c4f0dc3e-238c-4fd3-adb7-9d467efc8c3d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Add, Add method [ADSI], Add method [ADSI],IADsCollection interface, IADsCollection interface [ADSI],Add method, IADsCollection.Add, IADsCollection::Add, _ds_iadscollection_add, adsi.iadscollection__add, adsi.iadscollection_add, iads/IADsCollection::Add
 ms.topic: method
 req.header: iads.h

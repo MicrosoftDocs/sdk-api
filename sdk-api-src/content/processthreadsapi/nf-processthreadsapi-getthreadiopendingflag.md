@@ -7,7 +7,7 @@ old-location: base\getthreadiopendingflag.htm
 tech.root: ProcThread
 ms.assetid: 5502f735-38f5-44a4-908d-1b421ee66aec
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetThreadIOPendingFlag, GetThreadIOPendingFlag function, base.getthreadiopendingflag, processthreadsapi/GetThreadIOPendingFlag
 ms.topic: function
 req.header: processthreadsapi.h

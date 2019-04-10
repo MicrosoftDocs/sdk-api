@@ -7,7 +7,7 @@ old-location: base\queueuserworkitem.htm
 tech.root: ProcThread
 ms.assetid: 96f34b51-3784-4bb7-ae40-067f8113ff39
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: QueueUserWorkItem, QueueUserWorkItem function, WT_EXECUTEDEFAULT, WT_EXECUTEINIOTHREAD, WT_EXECUTEINPERSISTENTTHREAD, WT_EXECUTELONGFUNCTION, WT_TRANSFER_IMPERSONATION, _win32_queueuserworkitem, base.queueuserworkitem, threadpoollegacyapiset/QueueUserWorkItem, winbase/QueueUserWorkItem
 ms.topic: function
 req.header: threadpoollegacyapiset.h

@@ -7,7 +7,7 @@ old-location: hcp\hardware_counter_type.htm
 tech.root: hcp
 ms.assetid: 250dd9f1-b409-4b17-bb84-bf7eba14d36e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PHARDWARE_COUNTER_TYPE, HARDWARE_COUNTER_TYPE, HARDWARE_COUNTER_TYPE enumeration [Hardware Counter Profiling], MaxHardwareCounterType, PMCCounter, hcp.hardware_counter_type, winnt/HARDWARE_COUNTER_TYPE, winnt/MaxHardwareCounterType, winnt/PMCCounter"
 ms.topic: enum
 req.header: winnt.h

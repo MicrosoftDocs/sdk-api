@@ -7,7 +7,7 @@ old-location: shell\IntPtrToInt.htm
 tech.root: shell
 ms.assetid: a2ea1196-b503-4845-904a-26bc334b5275
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IntPtrToInt, IntPtrToInt function [Windows Shell], PtrdiffTToInt, _shell_IntPtrToInt, intsafe/IntPtrToInt, shell.IntPtrToInt
 ms.topic: function
 req.header: intsafe.h

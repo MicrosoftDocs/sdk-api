@@ -7,7 +7,7 @@ old-location: controls\itextfont2_getlinktype.htm
 tech.root: Controls
 ms.assetid: 5405b2ce-52c9-4630-a091-3221820a4e0b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetLinkType, GetLinkType method [Windows Controls], GetLinkType method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetLinkType method, ITextFont2.GetLinkType, ITextFont2::GetLinkType, controls.itextfont2_getlinktype, tom/ITextFont2::GetLinkType, tomAutoLinkEmail, tomAutoLinkPath, tomAutoLinkPhone, tomAutoLinkURL, tomClientLink, tomFriendlyLinkAddress, tomFriendlyLinkName, tomNoLink
 ms.topic: method
 req.header: tom.h

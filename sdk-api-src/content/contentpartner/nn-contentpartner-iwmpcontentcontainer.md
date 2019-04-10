@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentcontainer.htm
 tech.root: WMP
 ms.assetid: 32a68af3-9270-4ac1-b133-a2770220dfcb
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMPContentContainer, IWMPContentContainer interface [Windows Media Player], IWMPContentContainer interface [Windows Media Player],described, IWMPContentContainerInterface, contentpartner/IWMPContentContainer, wmp.iwmpcontentcontainer
 ms.topic: interface
 req.header: contentpartner.h

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1contextinternal_isresourceloaded.htm
 tech.root: Direct2D
 ms.assetid: 9B923E7A-FF71-4575-880F-FA6AB6C9F366
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ID2D1EffectContext interface [Direct2D],IsShaderLoaded method, ID2D1EffectContext.IsShaderLoaded, ID2D1EffectContext::IsShaderLoaded, IsShaderLoaded, IsShaderLoaded method [Direct2D], IsShaderLoaded method [Direct2D],ID2D1EffectContext interface, d2d1effectauthor/ID2D1EffectContext::IsShaderLoaded, direct2d.id2d1contextinternal_isresourceloaded
 ms.topic: method
 req.header: d2d1effectauthor.h

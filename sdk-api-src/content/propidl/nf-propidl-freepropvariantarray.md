@@ -7,7 +7,7 @@ old-location: properties\FreePropVariantArray.htm
 tech.root: properties
 ms.assetid: 5033557c-d43c-42b1-ae4e-0fb0569d697a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FreePropVariantArray, FreePropVariantArray function [Windows Properties], _shell_FreePropVariantArray, properties.FreePropVariantArray, propidl/FreePropVariantArray, shell.FreePropVariantArray
 ms.topic: function
 req.header: propidl.h

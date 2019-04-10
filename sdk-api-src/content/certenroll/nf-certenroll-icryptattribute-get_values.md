@@ -7,7 +7,7 @@ old-location: security\icryptattribute_values_property.htm
 tech.root: seccertenroll
 ms.assetid: ae439c12-65f4-4e2b-b141-6e6bf6738a68
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ICryptAttribute interface [Security],Values property, ICryptAttribute.Values, ICryptAttribute.get_Values, ICryptAttribute::Values, ICryptAttribute::get_Values, Values property [Security], Values property [Security],ICryptAttribute interface, certenroll/ICryptAttribute::Values, certenroll/ICryptAttribute::get_Values, get_Values, security.icryptattribute_values_property
 ms.topic: method
 req.header: certenroll.h

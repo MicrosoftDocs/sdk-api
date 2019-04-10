@@ -7,7 +7,7 @@ old-location: multimedia\acmfilterenum.htm
 tech.root: Multimedia
 ms.assetid: ee8154d6-3aa1-49ce-96c5-7b8526f02a8a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_win32_acmFilterEnum, acmFilterEnum, acmFilterEnum function [Windows Multimedia], acmFilterEnumA, acmFilterEnumW, msacm/acmFilterEnum, msacm/acmFilterEnumA, msacm/acmFilterEnumW, multimedia.acmfilterenum"
 ms.topic: function
 req.header: msacm.h

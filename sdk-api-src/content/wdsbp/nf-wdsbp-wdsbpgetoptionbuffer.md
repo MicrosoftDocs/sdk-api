@@ -7,7 +7,7 @@ old-location: wds\wdsbpgetoptionbuffer.htm
 tech.root: wds
 ms.assetid: 2bd4105d-0066-4c6b-a1c0-fe9b633a6ad6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WdsBpGetOptionBuffer, WdsBpGetOptionBuffer function [Windows Deployment Services], wds.wdsbpgetoptionbuffer, wdsbp/WdsBpGetOptionBuffer
 ms.topic: function
 req.header: wdsbp.h

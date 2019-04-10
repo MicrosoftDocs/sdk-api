@@ -7,7 +7,7 @@ old-location: etw\provider_event_info.htm
 tech.root: ETW
 ms.assetid: CC392841-7436-4543-A846-FB5A27D9A014
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PPROVIDER_EVENT_INFO, PPROVIDER_EVENT_INFO, PPROVIDER_EVENT_INFO structure pointer [ETW], PROVIDER_EVENT_INFO, PROVIDER_EVENT_INFO structure [ETW], etw.provider_event_info, tdh/PPROVIDER_EVENT_INFO, tdh/PROVIDER_EVENT_INFO"
 ms.topic: struct
 req.header: tdh.h

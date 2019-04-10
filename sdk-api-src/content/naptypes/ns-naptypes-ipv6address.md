@@ -7,7 +7,7 @@ old-location: nap\ipv6address_struct.htm
 tech.root: NAP
 ms.assetid: 7d8a87fc-2817-4f24-8d06-1656b79da6d2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Ipv6Address, Ipv6Address structure [NAP], nap.ipv6address_struct, naptypes/Ipv6Address
 ms.topic: struct
 req.header: naptypes.h

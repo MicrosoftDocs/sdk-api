@@ -7,7 +7,7 @@ old-location: gdi\monitorinfo.htm
 tech.root: gdi
 ms.assetid: ca8ec86f-69ba-4cf8-a867-67182a3d630d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPMONITORINFO, LPMONITORINFO, LPMONITORINFO structure pointer [Windows GDI], MONITORINFO, MONITORINFO structure [Windows GDI], _win32_MONITORINFO_str, gdi.monitorinfo, tagMONITORINFO, winuser/LPMONITORINFO, winuser/MONITORINFO"
 ms.topic: struct
 req.header: winuser.h

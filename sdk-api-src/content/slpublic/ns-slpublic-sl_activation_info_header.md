@@ -7,7 +7,7 @@ old-location: security\sl_activation_info_header.htm
 tech.root: SecSLApi
 ms.assetid: 8209652d-c40e-419b-9929-647f03fed79c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SL_ACTIVATION_INFO_HEADER, SL_ACTIVATION_INFO_HEADER structure [Security], security.sl_activation_info_header, slpublic/SL_ACTIVATION_INFO_HEADER
 ms.topic: struct
 req.header: slpublic.h

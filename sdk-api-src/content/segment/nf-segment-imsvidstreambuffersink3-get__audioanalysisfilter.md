@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersink3_get__audioanalysisfilter.htm
 tech.root: mstv
 ms.assetid: a66ec9d3-f27b-45b5-b8f4-6779a5069cde
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],get__AudioAnalysisFilter method, IMSVidStreamBufferSink3.get__AudioAnalysisFilter, IMSVidStreamBufferSink3::get__AudioAnalysisFilter, IMSVidStreamBufferSink3get__AudioAnalysisFilter, get__AudioAnalysisFilter, get__AudioAnalysisFilter method [Microsoft TV Technologies], get__AudioAnalysisFilter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, mstv.imsvidstreambuffersink3_get__audioanalysisfilter, segment/IMSVidStreamBufferSink3::get__AudioAnalysisFilter
 ms.topic: method
 req.header: segment.h

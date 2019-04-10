@@ -7,7 +7,7 @@ old-location: base\ivdsiscsitarget.htm
 tech.root: VDS
 ms.assetid: 0db442c4-6cc1-43b2-8ac8-8b17cadb1101
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVdsIscsiTarget, IVdsIscsiTarget interface [VDS], IVdsIscsiTarget interface [VDS],described, base.ivdsiscsitarget, vds/IVdsIscsiTarget, vdshwprv/IVdsIscsiTarget
 ms.topic: interface
 req.header: vdshwprv.h

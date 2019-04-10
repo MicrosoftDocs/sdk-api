@@ -7,7 +7,7 @@ old-location: base\load_dll_debug_info_str.htm
 tech.root: Debug
 ms.assetid: 80edb12f-1d1f-4480-9032-5f7a17f47910
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPLOAD_DLL_DEBUG_INFO, LOAD_DLL_DEBUG_INFO, LOAD_DLL_DEBUG_INFO structure, LPLOAD_DLL_DEBUG_INFO, LPLOAD_DLL_DEBUG_INFO structure pointer, _LOAD_DLL_DEBUG_INFO, _win32_load_dll_debug_info_str, base.load_dll_debug_info_str, minwinbase/LOAD_DLL_DEBUG_INFO, minwinbase/LPLOAD_DLL_DEBUG_INFO"
 ms.topic: struct
 req.header: minwinbase.h

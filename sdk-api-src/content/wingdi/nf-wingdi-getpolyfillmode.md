@@ -7,7 +7,7 @@ old-location: gdi\getpolyfillmode.htm
 tech.root: gdi
 ms.assetid: febf96fb-bf2e-4eb2-ab5f-89741a1decad
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetPolyFillMode, GetPolyFillMode function [Windows GDI], _win32_GetPolyFillMode, gdi.getpolyfillmode, wingdi/GetPolyFillMode
 ms.topic: function
 req.header: wingdi.h

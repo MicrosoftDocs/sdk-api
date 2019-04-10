@@ -7,7 +7,7 @@ old-location: shell\IThumbnailCachePrimer.htm
 tech.root: shell
 ms.assetid: 2EBDF7CF-8EDF-4d2f-9632-905C60A7BC45
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IThumbnailCachePrimer, IThumbnailCachePrimer interface [Windows Shell], IThumbnailCachePrimer interface [Windows Shell],described, shell.IThumbnailCachePrimer, thumbcache/IThumbnailCachePrimer
 ms.topic: interface
 req.header: thumbcache.h

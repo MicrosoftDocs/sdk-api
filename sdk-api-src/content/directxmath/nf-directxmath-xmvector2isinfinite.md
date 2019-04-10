@@ -7,7 +7,7 @@ old-location: dxmath\xmvector2isinfinite.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector2IsInfinite(XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2IsInfinite, XMVector2IsInfinite, XMVector2IsInfinite method [DirectX Math Support APIs], dxmath.xmvector2isinfinite
 ms.topic: function
 req.header: directxmath.h

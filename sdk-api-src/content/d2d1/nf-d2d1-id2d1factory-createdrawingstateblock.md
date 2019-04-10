@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1Factory_CreateDrawingStateBlock_ptr_D2D1_DRAWING_STA
 tech.root: Direct2D
 ms.assetid: d337b0a5-ccd0-42f2-b8c3-0300aa3f2121
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateDrawingStateBlock, CreateDrawingStateBlock method [Direct2D], CreateDrawingStateBlock method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateDrawingStateBlock method, ID2D1Factory.CreateDrawingStateBlock, ID2D1Factory::CreateDrawingStateBlock, ID2D1Factory::CreateDrawingStateBlock(const D2D1_DRAWING_STATE_DESCRIPTION,IDWriteRenderingParams,ID2D1DrawingStateBlock), d2d1/ID2D1Factory::CreateDrawingStateBlock, direct2d.ID2D1Factory_CreateDrawingStateBlock_ptr_D2D1_DRAWING_STATE_DESCRIPTION_ptr_IDWriteRenderingParams_ptr_ptr_ID2D1DrawingStateBlock
 ms.topic: method
 req.header: d2d1.h

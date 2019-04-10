@@ -7,7 +7,7 @@ old-location: fwp\ipsec_auth_and_cipher_transform0_struct.htm
 tech.root: fwp
 ms.assetid: 9f8086c3-1862-432a-af0e-6a434833c651
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IPSEC_AUTH_AND_CIPHER_TRANSFORM0, IPSEC_AUTH_AND_CIPHER_TRANSFORM0 structure [Filtering], fwp.ipsec_auth_and_cipher_transform0_struct, ipsectypes/IPSEC_AUTH_AND_CIPHER_TRANSFORM0
 ms.topic: struct
 req.header: ipsectypes.h

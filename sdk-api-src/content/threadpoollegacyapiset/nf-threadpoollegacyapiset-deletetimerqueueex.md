@@ -7,7 +7,7 @@ old-location: base\deletetimerqueueex.htm
 tech.root: Sync
 ms.assetid: 782f85df-b176-4bff-a048-d7fcdd8196b0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DeleteTimerQueueEx, DeleteTimerQueueEx function, _win32_deletetimerqueueex, base.deletetimerqueueex, threadpoollegacyapiset/DeleteTimerQueueEx, winbase/DeleteTimerQueueEx
 ms.topic: function
 req.header: threadpoollegacyapiset.h

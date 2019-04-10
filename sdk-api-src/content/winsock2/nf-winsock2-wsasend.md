@@ -7,7 +7,7 @@ old-location: winsock\wsasend_2.htm
 tech.root: WinSock
 ms.assetid: 764339e6-a1ac-455d-8ebd-ad0fa50dc3b0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WSASend, WSASend function [Winsock], _win32_wsasend_2, winsock.wsasend_2, winsock2/WSASend
 ms.topic: function
 req.header: winsock2.h

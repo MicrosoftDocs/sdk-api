@@ -7,7 +7,7 @@ old-location: wua\idownloadprogress_getupdateresult.htm
 tech.root: Wua_Sdk
 ms.assetid: e7474a0a-98dc-4dd6-b5b8-8f88f0539f9a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetUpdateResult, GetUpdateResult method [Windows Update Agent], GetUpdateResult method [Windows Update Agent],IDownloadProgress interface, IDownloadProgress interface [Windows Update Agent],GetUpdateResult method, IDownloadProgress.GetUpdateResult, IDownloadProgress::GetUpdateResult, wua.idownloadprogress_getupdateresult, wuapi/IDownloadProgress::GetUpdateResult
 ms.topic: method
 req.header: wuapi.h

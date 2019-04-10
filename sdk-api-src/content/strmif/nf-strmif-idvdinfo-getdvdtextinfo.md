@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo_getdvdtextinfo.htm
 tech.root: DirectShow
 ms.assetid: e58fcd07-682a-4c41-9501-d55ba092a150
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetDVDTextInfo, GetDVDTextInfo method [DirectShow], GetDVDTextInfo method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetDVDTextInfo method, IDvdInfo.GetDVDTextInfo, IDvdInfo::GetDVDTextInfo, IDvdInfoGetDVDTextInfo, dshow.idvdinfo_getdvdtextinfo, strmif/IDvdInfo::GetDVDTextInfo
 ms.topic: method
 req.header: strmif.h

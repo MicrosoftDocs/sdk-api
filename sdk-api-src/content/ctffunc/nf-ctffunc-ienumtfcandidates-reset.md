@@ -7,7 +7,7 @@ old-location: tsf\ienumtfcandidates_reset.htm
 tech.root: TSF
 ms.assetid: 2c5527ff-5f26-4e94-93ea-15273ec5a315
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEnumTfCandidates interface [Text Services Framework],Reset method, IEnumTfCandidates.Reset, IEnumTfCandidates::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfCandidates interface, _tsf_ienumtfcandidates_reset_ref, ctffunc/IEnumTfCandidates::Reset, tsf.ienumtfcandidates_reset
 ms.topic: method
 req.header: ctffunc.h

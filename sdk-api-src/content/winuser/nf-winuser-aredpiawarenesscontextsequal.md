@@ -7,7 +7,7 @@ old-location: hidpi\aredpiawarenesscontextsequal.htm
 tech.root: hidpi
 ms.assetid: 77660CAB-97ED-4DAC-A95E-A149F1A479FD
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AreDpiAwarenessContextsEqual, AreDpiAwarenessContextsEqual function [High DPI], hidpi.aredpiawarenesscontextsequal, winuser/AreDpiAwarenessContextsEqual
 ms.topic: function
 req.header: winuser.h

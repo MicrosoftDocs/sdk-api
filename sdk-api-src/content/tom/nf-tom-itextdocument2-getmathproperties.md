@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_getmathproperties.htm
 tech.root: Controls
 ms.assetid: 7686d0d6-5f49-4ab6-8a9e-1e53447ffe27
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetMathProperties, GetMathProperties method [Windows Controls], GetMathProperties method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetMathProperties method, ITextDocument2.GetMathProperties, ITextDocument2::GetMathProperties, controls.itextdocument2_getmathproperties, tom/ITextDocument2::GetMathProperties, tomMathBrkBinAfter, tomMathBrkBinBefore, tomMathBrkBinDup, tomMathBrkBinMask, tomMathBrkBinSubMM, tomMathBrkBinSubMP, tomMathBrkBinSubMask, tomMathBrkBinSubPM, tomMathDispAlignCenter, tomMathDispAlignLeft, tomMathDispAlignMask, tomMathDispAlignRight, tomMathDispDef, tomMathDispFracTeX, tomMathDispIntUnderOver, tomMathDispNaryGrow, tomMathDispNarySubSup, tomMathDocDiffItalic, tomMathDocDiffMask, tomMathDocDiffOpenItalic, tomMathDocDiffUpright, tomMathDocEmptyArgAlways, tomMathDocEmptyArgAuto, tomMathDocEmptyArgMask, tomMathDocEmptyArgNever, tomMathDocSbSpOpUnchanged, tomMathEnableRtl
 ms.topic: method
 req.header: tom.h

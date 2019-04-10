@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext4_signal.htm
 tech.root: direct3d11
 ms.assetid: 5B308187-27B1-40B8-B9B7-CD8A8223A0EE
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ID3D11DeviceContext4 interface [Direct3D 11],Signal method, ID3D11DeviceContext4.Signal, ID3D11DeviceContext4::Signal, Signal, Signal method [Direct3D 11], Signal method [Direct3D 11],ID3D11DeviceContext4 interface, d3d11_3/ID3D11DeviceContext4::Signal, direct3d11.id3d11devicecontext4_signal
 ms.topic: method
 req.header: d3d11_3.h

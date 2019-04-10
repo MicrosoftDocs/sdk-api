@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_propertyset_addelement.htm
 tech.root: wmi_v2
 ms.assetid: b7676ebd-bc65-4aad-b3c7-263ceb976b20
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_PropertySet_AddElement, MI_PropertySet_AddElement function [Windows Management Infrastructure (MI)], mi/MI_PropertySet_AddElement, wmi_v2.mi_propertyset_addelement
 ms.topic: function
 req.header: mi.h

@@ -7,7 +7,7 @@ old-location: mstv\istreambuffersource.htm
 tech.root: mstv
 ms.assetid: 1e407f85-820a-4d17-926d-0c00e1e453e2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IStreamBufferSource, IStreamBufferSource interface [Microsoft TV Technologies], IStreamBufferSource interface [Microsoft TV Technologies],described, IStreamBufferSourceInterface, mstv.istreambuffersource, sbe/IStreamBufferSource
 ms.topic: interface
 req.header: sbe.h

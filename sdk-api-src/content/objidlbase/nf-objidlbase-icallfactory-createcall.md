@@ -7,7 +7,7 @@ old-location: com\icallfactory_createcall.htm
 tech.root: com
 ms.assetid: 8df51aeb-4852-4dab-b1e9-e149ee115ea8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateCall, CreateCall method [COM], CreateCall method [COM],ICallFactory interface, ICallFactory interface [COM],CreateCall method, ICallFactory.CreateCall, ICallFactory::CreateCall, _com_icallfactory_createcall, com.icallfactory_createcall, objidlbase/ICallFactory::CreateCall
 ms.topic: method
 req.header: objidlbase.h

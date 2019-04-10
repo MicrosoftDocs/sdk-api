@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shadertrace_getinitialregistercontents.htm
 tech.root: direct3d11
 ms.assetid: 35BC4F23-64E0-4E45-A621-925A5CA20AFE
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetInitialRegisterContents, GetInitialRegisterContents method [Direct3D 11], GetInitialRegisterContents method [Direct3D 11],ID3D11ShaderTrace interface, ID3D11ShaderTrace interface [Direct3D 11],GetInitialRegisterContents method, ID3D11ShaderTrace.GetInitialRegisterContents, ID3D11ShaderTrace::GetInitialRegisterContents, d3d11shadertracing/ID3D11ShaderTrace::GetInitialRegisterContents, direct3d11.id3d11shadertrace_getinitialregistercontents
 ms.topic: method
 req.header: d3d11shadertracing.h

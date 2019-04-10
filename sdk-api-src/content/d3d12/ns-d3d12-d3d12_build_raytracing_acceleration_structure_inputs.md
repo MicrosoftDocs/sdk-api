@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_build_raytracing_acceleration_structure_inputs.ht
 tech.root: direct3d12
 ms.assetid: C6781F5B-A3B6-4630-A94F-C438AEA62EB7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS, D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS structure, PD3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS, PD3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS structure pointer, d3d12/D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS, d3d12/PD3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS, direct3d12.d3d12_build_raytracing_acceleration_structure_inputs
 ms.topic: struct
 req.header: d3d12.h

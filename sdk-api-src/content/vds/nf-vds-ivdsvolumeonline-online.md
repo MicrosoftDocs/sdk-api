@@ -7,7 +7,7 @@ old-location: base\ivdsvolumeonline_online.htm
 tech.root: VDS
 ms.assetid: 8a207e61-5a13-41ad-bad9-11ddf2844a9b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVdsVolumeOnline interface,Online method, IVdsVolumeOnline.Online, IVdsVolumeOnline::Online, Online, Online method, Online method,IVdsVolumeOnline interface, base.ivdsvolumeonline_online, vds/IVdsVolumeOnline::Online
 ms.topic: method
 req.header: vds.h

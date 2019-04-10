@@ -7,7 +7,7 @@ old-location: vhd\raw_scsi_virtual_disk_flag.htm
 tech.root: VStor
 ms.assetid: 7E90EA65-F0A1-44C5-9254-ABE89E1F35A5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PRAW_SCSI_VIRTUAL_DISK_FLAG, PRAW_SCSI_VIRTUAL_DISK_FLAG, PRAW_SCSI_VIRTUAL_DISK_FLAG enumeration pointer [VHD], RAW_SCSI_VIRTUAL_DISK_FLAG, RAW_SCSI_VIRTUAL_DISK_FLAG enumeration [VHD], RAW_SCSI_VIRTUAL_DISK_FLAG_NONE, vdssys/PRAW_SCSI_VIRTUAL_DISK_FLAG, vdssys/RAW_SCSI_VIRTUAL_DISK_FLAG, vdssys/RAW_SCSI_VIRTUAL_DISK_FLAG_NONE, vhd.raw_scsi_virtual_disk_flag, virtdisk/PRAW_SCSI_VIRTUAL_DISK_FLAG, virtdisk/RAW_SCSI_VIRTUAL_DISK_FLAG, virtdisk/RAW_SCSI_VIRTUAL_DISK_FLAG_NONE"
 ms.topic: enum
 req.header: virtdisk.h

@@ -7,7 +7,7 @@ old-location: pla\idatamanager_ruletargetfilename.htm
 tech.root: PLA
 ms.assetid: fc1484ea-c1d5-4267-bdf5-366c080bfc61
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDataManager interface [PLA],RuleTargetFileName property, IDataManager.RuleTargetFileName, IDataManager.put_RuleTargetFileName, IDataManager::RuleTargetFileName, IDataManager::get_RuleTargetFileName, IDataManager::put_RuleTargetFileName, RuleTargetFileName property [PLA], RuleTargetFileName property [PLA],IDataManager interface, pla.idatamanager_ruletargetfilename, pla/IDataManager::RuleTargetFileName, pla/IDataManager::get_RuleTargetFileName, pla/IDataManager::put_RuleTargetFileName, put_RuleTargetFileName
 ms.topic: method
 req.header: pla.h

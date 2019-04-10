@@ -7,7 +7,7 @@ old-location: termserv\tspub_plugin_pd_resolution_type.htm
 tech.root: TermServ
 ms.assetid: 8cba4e6a-3508-4f9f-a206-4a0b41a933c1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TSPUB_PLUGIN_PD_QUERY_EXISTING, TSPUB_PLUGIN_PD_QUERY_OR_CREATE, TSPUB_PLUGIN_PD_RESOLUTION_TYPE, TSPUB_PLUGIN_PD_RESOLUTION_TYPE enumeration [Remote Desktop Services], termserv.tspub_plugin_pd_resolution_type, tspubplugin2com/TSPUB_PLUGIN_PD_QUERY_EXISTING, tspubplugin2com/TSPUB_PLUGIN_PD_QUERY_OR_CREATE, tspubplugin2com/TSPUB_PLUGIN_PD_RESOLUTION_TYPE
 ms.topic: enum
 req.header: tspubplugin2com.h

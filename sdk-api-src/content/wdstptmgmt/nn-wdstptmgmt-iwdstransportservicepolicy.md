@@ -7,7 +7,7 @@ old-location: wds\iwdstransportservicepolicy.htm
 tech.root: wds
 ms.assetid: 0a522633-87da-426c-9778-30949257e931
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWdsTransportServicePolicy, IWdsTransportServicePolicy interface [Windows Deployment Services], IWdsTransportServicePolicy interface [Windows Deployment Services],described, wds.iwdstransportservicepolicy, wdstptmgmt/IWdsTransportServicePolicy
 ms.topic: interface
 req.header: wdstptmgmt.h

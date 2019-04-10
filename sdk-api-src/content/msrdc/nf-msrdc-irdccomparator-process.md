@@ -7,7 +7,7 @@ old-location: rdc\irdccomparator_process.htm
 tech.root: rdc
 ms.assetid: cc98a90c-ba82-4b92-a56c-07496a843089
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IRdcComparator interface [Remote Differential Compression],Process method, IRdcComparator.Process, IRdcComparator::Process, Process, Process method [Remote Differential Compression], Process method [Remote Differential Compression],IRdcComparator interface, fs.irdccomparator_process, msrdc/IRdcComparator::Process, rdc.irdccomparator_process
 ms.topic: method
 req.header: msrdc.h

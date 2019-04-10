@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_reader_input_type.htm
 tech.root: wsw
 ms.assetid: a61b1850-cc93-4c63-9d6f-380a57bbae78
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_XML_READER_INPUT_TYPE, WS_XML_READER_INPUT_TYPE enumeration [Web Services for Windows], WS_XML_READER_INPUT_TYPE_BUFFER, WS_XML_READER_INPUT_TYPE_STREAM, webservices/WS_XML_READER_INPUT_TYPE, webservices/WS_XML_READER_INPUT_TYPE_BUFFER, webservices/WS_XML_READER_INPUT_TYPE_STREAM, wsw.ws_xml_reader_input_type
 ms.topic: enum
 req.header: webservices.h

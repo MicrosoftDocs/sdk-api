@@ -7,7 +7,7 @@ old-location: appxpkg\iappxencryptionfactory.htm
 tech.root: appxpkg
 ms.assetid: F07138FE-340F-4493-A3A9-AED075B2CEEA
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IAppxEncryptionFactory, IAppxEncryptionFactory interface [App packaging and management], IAppxEncryptionFactory interface [App packaging and management],described, appxpackaging/IAppxEncryptionFactory, appxpkg.iappxencryptionfactory
 ms.topic: interface
 req.header: appxpackaging.h

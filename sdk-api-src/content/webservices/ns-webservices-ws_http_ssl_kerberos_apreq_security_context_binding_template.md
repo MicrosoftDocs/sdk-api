@@ -7,7 +7,7 @@ old-location: wsw\ws_http_ssl_kerberos_apreq_security_context_binding_template.h
 tech.root: wsw
 ms.assetid: ac896c5c-9784-4f89-bdd8-8b6d2136c416
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_HTTP_SSL_KERBEROS_APREQ_SECURITY_CONTEXT_BINDING_TEMPLATE, WS_HTTP_SSL_KERBEROS_APREQ_SECURITY_CONTEXT_BINDING_TEMPLATE structure [Web Services for Windows], webservices/WS_HTTP_SSL_KERBEROS_APREQ_SECURITY_CONTEXT_BINDING_TEMPLATE, wsw.ws_http_ssl_kerberos_apreq_security_context_binding_template
 ms.topic: struct
 req.header: webservices.h

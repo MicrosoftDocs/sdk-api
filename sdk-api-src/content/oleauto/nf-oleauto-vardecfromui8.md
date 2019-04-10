@@ -7,7 +7,7 @@ old-location: automat\vardecfromui8.htm
 tech.root: automat
 ms.assetid: 67f408d2-6510-4b3d-83a4-e18ae6492aea
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VarDecFromUI8, VarDecFromUI8 function [Automation], _oa96_VarDecFromUI8, automat.vardecfromui8, oleauto/VarDecFromUI8
 ms.topic: function
 req.header: oleauto.h

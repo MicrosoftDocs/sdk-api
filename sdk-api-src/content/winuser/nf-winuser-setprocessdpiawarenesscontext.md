@@ -7,7 +7,7 @@ old-location: hidpi\setprocessdpiawarenesscontext.htm
 tech.root: hidpi
 ms.assetid: EACD1784-BEFF-46C1-8665-CBC86A65833C
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SetProcessDpiAwarenessContext, SetProcessDpiAwarenessContext function [High DPI], hidpi.setprocessdpiawarenesscontext, winuser/SetProcessDpiAwarenessContext
 ms.topic: function
 req.header: winuser.h

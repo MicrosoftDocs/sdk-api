@@ -7,7 +7,7 @@ old-location: shell\SHCreateShellFolderViewEx.htm
 tech.root: shell
 ms.assetid: 7edd6786-7d74-4065-8cf1-cbb489007a46
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SHCreateShellFolderViewEx, SHCreateShellFolderViewEx function [Windows Shell], _win32_SHCreateShellFolderViewEx, shell.SHCreateShellFolderViewEx, shlobj_core/SHCreateShellFolderViewEx
 ms.topic: function
 req.header: shlobj_core.h

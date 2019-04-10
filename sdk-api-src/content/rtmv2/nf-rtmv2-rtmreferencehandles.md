@@ -7,7 +7,7 @@ old-location: rras\rtmreferencehandles.htm
 tech.root: RRAS
 ms.assetid: 99031574-a941-451f-ad2e-b99044c9c716
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RtmReferenceHandles, RtmReferenceHandles function [RAS], _rtmv2ref_rtmreferencehandles, rras.rtmreferencehandles, rtmv2/RtmReferenceHandles
 ms.topic: function
 req.header: rtmv2.h

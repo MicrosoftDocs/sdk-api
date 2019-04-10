@@ -7,7 +7,7 @@ old-location: controls\edit_getfilelinelength.htm
 tech.root: Controls
 ms.assetid: 04315431-FC5C-41FB-9806-7904F71C19FD
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Edit_GetFileLineLength, Edit_GetFileLineLength macro [Windows Controls], commctrl/Edit_GetFileLineLength, controls.edit_getfilelinelength
 ms.topic: macro
 req.header: commctrl.h

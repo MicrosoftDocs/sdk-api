@@ -7,7 +7,7 @@ old-location: controls\iricheditwindowlessaccessibility_createprovider.htm
 tech.root: Controls
 ms.assetid: 660E8B3E-1372-458D-A6E0-B88B1E5A01B5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateProvider, CreateProvider method [Windows Controls], CreateProvider method [Windows Controls],IRicheditWindowlessAccessibility interface, IRicheditWindowlessAccessibility interface [Windows Controls],CreateProvider method, IRicheditWindowlessAccessibility.CreateProvider, IRicheditWindowlessAccessibility::CreateProvider, controls.iricheditwindowlessaccessibility_createprovider, textserv/IRicheditWindowlessAccessibility::CreateProvider
 ms.topic: method
 req.header: textserv.h

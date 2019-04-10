@@ -7,7 +7,7 @@ old-location: of\iofflinefilescache_enumsettingobjects.htm
 tech.root: offlinefiles
 ms.assetid: 1f2bb562-810a-4cc1-a072-eb870149954a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EnumSettingObjects, EnumSettingObjects method [Offline Files], EnumSettingObjects method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],EnumSettingObjects method, IOfflineFilesCache.EnumSettingObjects, IOfflineFilesCache::EnumSettingObjects, cscobj/IOfflineFilesCache::EnumSettingObjects, of.iofflinefilescache_enumsettingobjects
 ms.topic: method
 req.header: cscobj.h

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapsource.htm
 tech.root: wic
 ms.assetid: abcc84af-6067-4856-8618-fb66aff4255a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWICBitmapSource, IWICBitmapSource interface [Windows Imaging Component], IWICBitmapSource interface [Windows Imaging Component],described, _wic_codec_iwicbitmapsource, wic._wic_codec_iwicbitmapsource, wincodec/IWICBitmapSource
 ms.topic: interface
 req.header: wincodec.h

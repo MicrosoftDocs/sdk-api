@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapitransportstreamevents.htm
 tech.root: rdp
 ms.assetid: d38ee3fb-3867-40c9-8e6a-35c94762fdf4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITransportStreamEvents, IRDPSRAPITransportStreamEvents interface [RDP], IRDPSRAPITransportStreamEvents interface [RDP],described, rdp.irdpsrapitransportstreamevents, rdpencomapi/IRDPSRAPITransportStreamEvents
 ms.topic: interface
 req.header: rdpencomapi.h

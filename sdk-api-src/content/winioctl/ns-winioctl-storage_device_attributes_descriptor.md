@@ -7,7 +7,7 @@ old-location: fs\storage_device_attributes_descriptor.htm
 tech.root: FileIO
 ms.assetid: E911C72C-E4AF-438D-B718-798AF2E07227
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure pointer [Files], STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure [Files], fs.storage_device_attributes_descriptor, winioctl/PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, winioctl/STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR"
 ms.topic: struct
 req.header: winioctl.h

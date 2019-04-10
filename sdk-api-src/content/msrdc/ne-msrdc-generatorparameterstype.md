@@ -7,7 +7,7 @@ old-location: rdc\generatorparameterstype.htm
 tech.root: rdc
 ms.assetid: 55abafd5-4c55-498c-a567-a64d9bb76856
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GeneratorParametersType, GeneratorParametersType enumeration [Remote Differential Compression], RDCGENTYPE_FilterMax, RDCGENTYPE_Unused, fs.generatorparameterstype, msrdc/GeneratorParametersType, msrdc/RDCGENTYPE_FilterMax, msrdc/RDCGENTYPE_Unused, rdc.generatorparameterstype
 ms.topic: enum
 req.header: msrdc.h

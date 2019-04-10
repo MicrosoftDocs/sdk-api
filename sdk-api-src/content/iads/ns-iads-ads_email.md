@@ -7,7 +7,7 @@ old-location: adsi\ads_email.htm
 tech.root: adsi
 ms.assetid: 72d9ed78-1ae8-456c-9f06-4284446a3234
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PADS_EMAIL, ADS_EMAIL, ADS_EMAIL structure [ADSI], PADS_EMAIL, PADS_EMAIL structure pointer [ADSI], _ds_ads_email, adsi.ads__email, adsi.ads_email, iads/ADS_EMAIL, iads/PADS_EMAIL"
 ms.topic: struct
 req.header: iads.h

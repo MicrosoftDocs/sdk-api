@@ -7,7 +7,7 @@ old-location: secbiomet\pwinbio_enroll_capture_callback.htm
 tech.root: SecBioMet
 ms.assetid: B43C8A68-4D39-4275-891C-2DFE97DC4D64
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PWINBIO_ENROLL_CAPTURE_CALLBACK, PWINBIO_ENROLL_CAPTURE_CALLBACK function, PWINBIO_ENROLL_CAPTURE_CALLBACK function pointer [Windows Biometric Framework API], secbiomet.pwinbio_enroll_capture_callback, winbio/PWINBIO_ENROLL_CAPTURE_CALLBACK
 ms.topic: callback
 req.header: winbio.h

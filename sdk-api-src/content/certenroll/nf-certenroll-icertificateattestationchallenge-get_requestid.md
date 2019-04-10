@@ -7,7 +7,7 @@ old-location: security\icertificateattestationchallenge_requestid.htm
 tech.root: seccertenroll
 ms.assetid: c3ca69cf-12e0-4341-b3a6-f668155ea3ff
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ICertificateAttestationChallenge interface [Security],RequestID property, ICertificateAttestationChallenge.RequestID, ICertificateAttestationChallenge.get_RequestID, ICertificateAttestationChallenge::RequestID, ICertificateAttestationChallenge::get_RequestID, RequestID property [Security], RequestID property [Security],ICertificateAttestationChallenge interface, certenroll/ICertificateAttestationChallenge::RequestID, certenroll/ICertificateAttestationChallenge::get_RequestID, get_RequestID, security.icertificateattestationchallenge_requestid
 ms.topic: method
 req.header: certenroll.h

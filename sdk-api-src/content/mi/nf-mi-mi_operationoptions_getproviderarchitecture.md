@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationoptions_getproviderarchitecture.htm
 tech.root: wmi_v2
 ms.assetid: a9994178-0f42-4f4c-9236-42e993d9d86c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_GetProviderArchitecture, MI_OperationOptions_GetProviderArchitecture function [Windows Management Infrastructure (MI)], MI_PROVIDER_ARCHITECTURE_32BIT, MI_PROVIDER_ARCHITECTURE_64BIT, mi/MI_OperationOptions_GetProviderArchitecture, wmi_v2.mi_operationoptions_getproviderarchitecture
 ms.topic: function
 req.header: mi.h

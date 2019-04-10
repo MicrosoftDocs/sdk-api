@@ -7,7 +7,7 @@ old-location: base\closeprivatenamespace.htm
 tech.root: Sync
 ms.assetid: b9b74cf2-bf13-4ceb-9242-bc6a884ac6f1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ClosePrivateNamespace, ClosePrivateNamespace function, base.closeprivatenamespace, namespaceapi/ClosePrivateNamespace, winbase/ClosePrivateNamespace
 ms.topic: function
 req.header: namespaceapi.h

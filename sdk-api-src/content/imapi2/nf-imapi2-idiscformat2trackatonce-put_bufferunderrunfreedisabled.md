@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2trackatonce_put_bufferunderrunfreedisabled.htm
 tech.root: imapi
 ms.assetid: 93a19bd7-9302-49f5-a5e5-573bf72725a3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],put_BufferUnderrunFreeDisabled method, IDiscFormat2TrackAtOnce.put_BufferUnderrunFreeDisabled, IDiscFormat2TrackAtOnce::put_BufferUnderrunFreeDisabled, imapi.idiscformat2trackatonce_put_bufferunderrunfreedisabled, imapi2/IDiscFormat2TrackAtOnce::put_BufferUnderrunFreeDisabled, put_BufferUnderrunFreeDisabled, put_BufferUnderrunFreeDisabled method [IMAPI], put_BufferUnderrunFreeDisabled method [IMAPI],IDiscFormat2TrackAtOnce interface
 ms.topic: method
 req.header: imapi2.h

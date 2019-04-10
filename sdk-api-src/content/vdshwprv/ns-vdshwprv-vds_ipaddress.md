@@ -7,7 +7,7 @@ old-location: base\vds_ipaddress.htm
 tech.root: VDS
 ms.assetid: 42e8b161-5e47-4aae-aa23-94b5cacb5698
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VDS_IPADDRESS, VDS_IPADDRESS structure [VDS], _VDS_IPADDRESS, base.vds_ipaddress, vds/VDS_IPADDRESS, vdshwprv/VDS_IPADDRESS
 ms.topic: struct
 req.header: vdshwprv.h

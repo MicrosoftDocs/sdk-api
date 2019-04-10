@@ -7,7 +7,7 @@ old-location: tapi3\itterminalcontrol_disconnectterminal.htm
 tech.root: Tapi
 ms.assetid: 5af5d0bf-27e1-4d42-a003-79388d2498cd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DisconnectTerminal, DisconnectTerminal method [TAPI 2.2], DisconnectTerminal method [TAPI 2.2],ITTerminalControl interface, ITTerminalControl interface [TAPI 2.2],DisconnectTerminal method, ITTerminalControl.DisconnectTerminal, ITTerminalControl::DisconnectTerminal, _tapi3_itterminalcontrol_disconnectterminal, tapi3.itterminalcontrol_disconnectterminal, termmgr/ITTerminalControl::DisconnectTerminal
 ms.topic: method
 req.header: termmgr.h

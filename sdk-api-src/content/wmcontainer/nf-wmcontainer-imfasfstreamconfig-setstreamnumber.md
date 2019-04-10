@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamconfig_setstreamnumber.htm
 tech.root: medfound
 ms.assetid: 5b22d857-fced-4094-a0ad-891f3ccf8b18
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 5b22d857-fced-4094-a0ad-891f3ccf8b18, IMFASFStreamConfig interface [Media Foundation],SetStreamNumber method, IMFASFStreamConfig.SetStreamNumber, IMFASFStreamConfig::SetStreamNumber, SetStreamNumber, SetStreamNumber method [Media Foundation], SetStreamNumber method [Media Foundation],IMFASFStreamConfig interface, mf.imfasfstreamconfig_setstreamnumber, wmcontainer/IMFASFStreamConfig::SetStreamNumber
 ms.topic: method
 req.header: wmcontainer.h

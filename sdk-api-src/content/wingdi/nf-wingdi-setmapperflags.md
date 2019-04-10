@@ -7,7 +7,7 @@ old-location: gdi\setmapperflags.htm
 tech.root: gdi
 ms.assetid: 74cfe0d3-0d20-4382-8e76-55a6e2323308
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SetMapperFlags, SetMapperFlags function [Windows GDI], _win32_SetMapperFlags, gdi.setmapperflags, wingdi/SetMapperFlags
 ms.topic: function
 req.header: wingdi.h

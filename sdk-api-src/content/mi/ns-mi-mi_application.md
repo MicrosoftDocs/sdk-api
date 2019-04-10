@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_application.htm
 tech.root: wmi_v2
 ms.assetid: da486ade-88ef-40c4-8151-356e718da7db
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_Application, MI_Application structure [Windows Management Infrastructure (MI)], mi/MI_Application, wmi_v2.mi_application
 ms.topic: struct
 req.header: mi.h

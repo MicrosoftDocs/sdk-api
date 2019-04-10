@@ -7,7 +7,7 @@ old-location: adsi\ads_display_enum.htm
 tech.root: adsi
 ms.assetid: bc57aa4d-99f6-483f-b027-9b66b0c3bad1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ADS_DISPLAY_ENUM, ADS_DISPLAY_ENUM enumeration [ADSI], ADS_DISPLAY_FULL, ADS_DISPLAY_VALUE_ONLY, _ds_ads_display_enum, adsi.ads__display__enum, adsi.ads_display_enum, iads/ADS_DISPLAY_ENUM, iads/ADS_DISPLAY_FULL, iads/ADS_DISPLAY_VALUE_ONLY
 ms.topic: enum
 req.header: iads.h

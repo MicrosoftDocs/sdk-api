@@ -7,7 +7,7 @@ old-location: wnv\wnv_object_header.htm
 tech.root: wnv
 ms.assetid: 3D139C56-0224-4120-B308-A33F257DD9DC
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PWNV_OBJECT_HEADER, PWNV_OBJECT_HEADER, PWNV_OBJECT_HEADER structure pointer [Windows Network Virtualization], WNV_OBJECT_HEADER, WNV_OBJECT_HEADER structure [Windows Network Virtualization], wnv.wnv_object_header, wnvapi/PWNV_OBJECT_HEADER, wnvapi/WNV_OBJECT_HEADER"
 ms.topic: struct
 req.header: wnvapi.h

@@ -7,7 +7,7 @@ old-location: wmformat\iwmcredentialcallback.htm
 tech.root: wmformat
 ms.assetid: 846d4e21-5255-491a-a8aa-5bb19b62a050
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMCredentialCallback, IWMCredentialCallback interface [windows Media Format], IWMCredentialCallback interface [windows Media Format],described, IWMCredentialCallbackInterface, wmformat.iwmcredentialcallback, wmsdkidl/IWMCredentialCallback
 ms.topic: interface
 req.header: wmsdkidl.h

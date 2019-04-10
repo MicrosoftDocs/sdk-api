@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionvisual3_setopacity.htm
 tech.root: directcomp
 ms.assetid: 7641B989-6D0F-4648-8C29-FF3B331CDF97
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual3 interface [DirectComposition],SetOpacity method, IDCompositionVisual3.SetOpacity, IDCompositionVisual3::SetOpacity, IDCompositionVisual3::SetOpacity(float), SetOpacity, SetOpacity method [DirectComposition], SetOpacity method [DirectComposition],IDCompositionVisual3 interface, dcomp/IDCompositionVisual3::SetOpacity, directcomp.idcompositionvisual3_setopacity
 ms.topic: method
 req.header: dcomp.h

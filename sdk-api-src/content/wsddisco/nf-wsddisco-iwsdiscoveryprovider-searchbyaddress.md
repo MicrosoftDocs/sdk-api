@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoveryprovider_searchbyaddress.htm
 tech.root: WsdApi
 ms.assetid: 64493841-0715-4bae-a416-aca9945b2420
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryProvider interface,SearchByAddress method, IWSDiscoveryProvider.SearchByAddress, IWSDiscoveryProvider::SearchByAddress, SearchByAddress, SearchByAddress method, SearchByAddress method,IWSDiscoveryProvider interface, ncd.iwsdiscoveryprovider_searchbyaddress, wsddisco/IWSDiscoveryProvider::SearchByAddress
 ms.topic: method
 req.header: wsddisco.h

@@ -7,7 +7,7 @@ old-location: etw\tdhclosedecodinghandle.htm
 tech.root: ETW
 ms.assetid: f3cf6b1e-c970-4b91-aa54-370d46a6e86a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TdhCloseDecodingHandle, TdhCloseDecodingHandle function [ETW], etw.tdhclosedecodinghandle, tdh/TdhCloseDecodingHandle
 ms.topic: function
 req.header: tdh.h

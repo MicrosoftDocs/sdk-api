@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_clientspecifiedtarget.htm
 tech.root: SecAuthN
 ms.assetid: 67536f69-a1fc-4f26-84dc-872635bafa3b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PSecPkgContext_ClientSpecifiedTarget, PSecPkgContext_ClientSpecifiedTarget, PSecPkgContext_ClientSpecifiedTarget structure pointer [Security], SecPkgContext_ClientSpecifiedTarget, SecPkgContext_ClientSpecifiedTarget structure [Security], security.secpkgcontext_clientspecifiedtarget, sspi/PSecPkgContext_ClientSpecifiedTarget, sspi/SecPkgContext_ClientSpecifiedTarget"
 ms.topic: struct
 req.header: sspi.h

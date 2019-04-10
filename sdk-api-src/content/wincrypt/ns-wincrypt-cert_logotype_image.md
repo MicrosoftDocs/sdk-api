@@ -7,7 +7,7 @@ old-location: security\cert_logotype_image.htm
 tech.root: SecCrypto
 ms.assetid: d1dff71c-41e1-4f02-93b4-019d688ed012
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PCERT_LOGOTYPE_IMAGE, CERT_LOGOTYPE_IMAGE, CERT_LOGOTYPE_IMAGE structure [Security], PCERT_LOGOTYPE_IMAGE, PCERT_LOGOTYPE_IMAGE structure pointer [Security], security.cert_logotype_image, wincrypt/CERT_LOGOTYPE_IMAGE, wincrypt/PCERT_LOGOTYPE_IMAGE"
 ms.topic: struct
 req.header: wincrypt.h

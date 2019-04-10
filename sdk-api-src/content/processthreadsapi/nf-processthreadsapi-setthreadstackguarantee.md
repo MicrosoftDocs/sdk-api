@@ -7,7 +7,7 @@ old-location: base\setthreadstackguarantee.htm
 tech.root: ProcThread
 ms.assetid: 42595cba-413b-4b71-8d32-f873ed78c39c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SetThreadStackGuarantee, SetThreadStackGuarantee function, base.setthreadstackguarantee, processthreadsapi/SetThreadStackGuarantee, winbase/SetThreadStackGuarantee
 ms.topic: function
 req.header: processthreadsapi.h

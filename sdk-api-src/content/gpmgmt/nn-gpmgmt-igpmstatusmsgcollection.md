@@ -7,7 +7,7 @@ old-location: gpmc\igpmstatusmsgcollection.htm
 tech.root: gpmc
 ms.assetid: 774dd1b0-e5ea-4fef-b3bc-743870793db5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GPMStatusMsgCollection, IGPMStatusMsgCollection, IGPMStatusMsgCollection interface [GPMC], IGPMStatusMsgCollection interface [GPMC],described, _win32_igpmstatusmsgcollection, gpmc.igpmstatusmsgcollection, gpmgmt/IGPMStatusMsgCollection
 ms.topic: interface
 req.header: gpmgmt.h

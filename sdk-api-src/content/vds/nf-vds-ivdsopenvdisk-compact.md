@@ -7,7 +7,7 @@ old-location: base\ivdsopenvdisk_compact.htm
 tech.root: VDS
 ms.assetid: 011adaae-3a17-4643-ae8d-400753019c83
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Compact, Compact method, Compact method,IVdsOpenVDisk interface, IVdsOpenVDisk interface,Compact method, IVdsOpenVDisk.Compact, IVdsOpenVDisk::Compact, base.ivdsopenvdisk_compact, vds/IVdsOpenVDisk::Compact
 ms.topic: method
 req.header: vds.h

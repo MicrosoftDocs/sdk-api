@@ -7,7 +7,7 @@ old-location: winrm\wsman_environment_variable.htm
 tech.root: winrm
 ms.assetid: 0bf58de5-0c0b-4dc2-ba8b-c75e8201adc8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WSMAN_ENVIRONMENT_VARIABLE, WSMAN_ENVIRONMENT_VARIABLE structure [Windows Remote Management], winrm.wsman_environment_variable, wsman/WSMAN_ENVIRONMENT_VARIABLE
 ms.topic: struct
 req.header: wsman.h

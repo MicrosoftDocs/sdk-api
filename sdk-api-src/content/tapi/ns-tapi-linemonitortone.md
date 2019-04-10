@@ -7,7 +7,7 @@ old-location: tapi2\linemonitortone_str.htm
 tech.root: Tapi
 ms.assetid: f2d37591-2f1e-458f-b4d4-ab63eb31d33a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPLINEMONITORTONE, LINEMONITORTONE, LINEMONITORTONE structure [TAPI 2.2], LPLINEMONITORTONE, LPLINEMONITORTONE structure pointer [TAPI 2.2], _tapi2_linemonitortone_str, tapi/LINEMONITORTONE, tapi/LPLINEMONITORTONE, tapi2.linemonitortone_str"
 ms.topic: struct
 req.header: tapi.h

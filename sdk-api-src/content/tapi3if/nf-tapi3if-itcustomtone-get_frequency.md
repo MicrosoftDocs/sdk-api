@@ -7,7 +7,7 @@ old-location: tapi3\itcustomtone_get_frequency.htm
 tech.root: Tapi
 ms.assetid: 2521d754-234a-4ef0-a3b2-23cea999ad45
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITCustomTone interface [TAPI 2.2],get_Frequency method, ITCustomTone.get_Frequency, ITCustomTone::get_Frequency, _tapi3_itcustomtone_get_frequency, get_Frequency, get_Frequency method [TAPI 2.2], get_Frequency method [TAPI 2.2],ITCustomTone interface, tapi3.itcustomtone_get_frequency, tapi3if/ITCustomTone::get_Frequency
 ms.topic: method
 req.header: tapi3if.h

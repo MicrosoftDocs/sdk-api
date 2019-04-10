@@ -7,7 +7,7 @@ old-location: upnp\iupnpservices_item.htm
 tech.root: upnp
 ms.assetid: e59e9b9c-986d-46de-9ce7-19eaad824953
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IUPnPServices interface [UPnP APIs],get_Item method, IUPnPServices.get_Item, IUPnPServices::get_Item, _upnp_iupnpservices_item, get_Item, get_Item method [UPnP APIs], get_Item method [UPnP APIs],IUPnPServices interface, upnp.iupnpservices_item, upnp/IUPnPServices::get_Item
 ms.topic: method
 req.header: upnp.h

@@ -7,7 +7,7 @@ old-location: nap\napnotifytype.htm
 tech.root: NAP
 ms.assetid: dc573bff-9f28-4aa1-8787-e2a2dccf9859
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NapNotifyType, NapNotifyType enumeration [NAP], nap.napnotifytype, napNotifyTypeQuarState, napNotifyTypeServiceState, napNotifyTypeUnknown, naptypes/NapNotifyType, naptypes/napNotifyTypeQuarState, naptypes/napNotifyTypeServiceState, naptypes/napNotifyTypeUnknown
 ms.topic: enum
 req.header: naptypes.h

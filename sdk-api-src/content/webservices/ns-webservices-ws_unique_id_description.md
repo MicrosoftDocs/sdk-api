@@ -7,7 +7,7 @@ old-location: wsw\ws_unique_id_description.htm
 tech.root: wsw
 ms.assetid: d00695e6-2c3d-4eff-b5cd-f4f81954fb0f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_UNIQUE_ID_DESCRIPTION, WS_UNIQUE_ID_DESCRIPTION structure [Web Services for Windows], webservices/WS_UNIQUE_ID_DESCRIPTION, wsw.ws_unique_id_description
 ms.topic: struct
 req.header: webservices.h

@@ -7,7 +7,7 @@ old-location: mf\mfp_acquire_user_credential_event.htm
 tech.root: medfound
 ms.assetid: 61767b81-8641-43d5-b272-148d52517727
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MFP_ACQUIRE_USER_CREDENTIAL_EVENT, MFP_ACQUIRE_USER_CREDENTIAL_EVENT structure [Media Foundation], mf.mfp_acquire_user_credential_event, mfplay/MFP_ACQUIRE_USER_CREDENTIAL_EVENT
 ms.topic: struct
 req.header: mfplay.h

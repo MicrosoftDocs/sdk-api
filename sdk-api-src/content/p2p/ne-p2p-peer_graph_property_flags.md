@@ -7,7 +7,7 @@ old-location: p2p\peer_graph_property_flags.htm
 tech.root: P2PSdk
 ms.assetid: 0e4f273f-7b6f-4aac-8fee-c0295479ee78
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PEER_GRAPH_PROPERTY_DEFER_EXPIRATION, PEER_GRAPH_PROPERTY_FLAGS, PEER_GRAPH_PROPERTY_FLAGS enumeration [Peer Networking], PEER_GRAPH_PROPERTY_HEARTBEATS, p2p.peer_graph_property_flags, p2p/PEER_GRAPH_PROPERTY_DEFER_EXPIRATION, p2p/PEER_GRAPH_PROPERTY_FLAGS, p2p/PEER_GRAPH_PROPERTY_HEARTBEATS
 ms.topic: enum
 req.header: p2p.h

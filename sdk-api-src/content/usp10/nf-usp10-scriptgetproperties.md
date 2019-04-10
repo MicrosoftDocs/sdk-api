@@ -7,7 +7,7 @@ old-location: intl\scriptgetproperties.htm
 tech.root: Intl
 ms.assetid: 4799829d-8122-4bb4-839c-92f177cfd2da
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ScriptGetProperties, ScriptGetProperties function [Internationalization for Windows Applications], _win32_ScriptGetProperties, intl.scriptgetproperties, usp10/ScriptGetProperties
 ms.topic: function
 req.header: usp10.h

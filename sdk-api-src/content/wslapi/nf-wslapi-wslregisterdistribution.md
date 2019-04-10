@@ -7,7 +7,7 @@ old-location: wsl\wslregisterdistribution.htm
 tech.root: wsl
 ms.assetid: 34D5D38D-A155-42DE-9E9B-2BD7E414E4EC
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WslRegisterDistribution, WslRegisterDistribution function, wsl.wslregisterdistribution, wslapi/WslRegisterDistribution
 ms.topic: function
 req.header: wslapi.h

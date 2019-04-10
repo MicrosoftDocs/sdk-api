@@ -7,7 +7,7 @@ old-location: mf\imfasfcontentinfo_getheadersize.htm
 tech.root: medfound
 ms.assetid: c13ee7e6-df59-448f-80c4-04ac7c8c98ed
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetHeaderSize, GetHeaderSize method [Media Foundation], GetHeaderSize method [Media Foundation],IMFASFContentInfo interface, IMFASFContentInfo interface [Media Foundation],GetHeaderSize method, IMFASFContentInfo.GetHeaderSize, IMFASFContentInfo::GetHeaderSize, c13ee7e6-df59-448f-80c4-04ac7c8c98ed, mf.imfasfcontentinfo_getheadersize, wmcontainer/IMFASFContentInfo::GetHeaderSize
 ms.topic: method
 req.header: wmcontainer.h

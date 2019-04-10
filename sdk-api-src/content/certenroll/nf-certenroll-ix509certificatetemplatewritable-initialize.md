@@ -7,7 +7,7 @@ old-location: security\ix509certificatetemplatewritable_initialize.htm
 tech.root: seccertenroll
 ms.assetid: d70cfb65-403f-4a58-8882-393029111552
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IX509CertificateTemplateWritable interface [Security],Initialize method, IX509CertificateTemplateWritable.Initialize, IX509CertificateTemplateWritable::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509CertificateTemplateWritable interface, certenroll/IX509CertificateTemplateWritable::Initialize, security.ix509certificatetemplatewritable_initialize
 ms.topic: method
 req.header: certenroll.h

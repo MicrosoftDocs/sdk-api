@@ -7,7 +7,7 @@ old-location: security\cryptcatattribute.htm
 tech.root: SecCrypto
 ms.assetid: 41b91303-f3eb-4288-9ad2-98f170680988
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CRYPTCATATTRIBUTE, CRYPTCATATTRIBUTE structure [Security], CRYPTCAT_ATTR_AUTHENTICATED, CRYPTCAT_ATTR_DATAASCII, CRYPTCAT_ATTR_DATABASE64, CRYPTCAT_ATTR_DATAREPLACE, CRYPTCAT_ATTR_NAMEASCII, CRYPTCAT_ATTR_NAMEOBJID, CRYPTCAT_ATTR_UNAUTHENTICATED, mscat/CRYPTCATATTRIBUTE, security.cryptcatattribute
 ms.topic: struct
 req.header: mscat.h

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1bordertransform_getextendmodex.htm
 tech.root: Direct2D
 ms.assetid: FAF8DE8A-3A05-496F-A03B-971DFDCF669E
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetExtendModeX, GetExtendModeX method [Direct2D], GetExtendModeX method [Direct2D],ID2D1BorderTransform interface, ID2D1BorderTransform interface [Direct2D],GetExtendModeX method, ID2D1BorderTransform.GetExtendModeX, ID2D1BorderTransform::GetExtendModeX, d2d1effectauthor/ID2D1BorderTransform::GetExtendModeX, direct2d.id2d1bordertransform_getextendmodex
 ms.topic: method
 req.header: d2d1effectauthor.h

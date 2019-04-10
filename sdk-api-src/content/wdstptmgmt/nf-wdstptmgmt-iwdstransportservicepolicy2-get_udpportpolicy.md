@@ -7,7 +7,7 @@ old-location: wds\iwdstransportservicepolicy2_udpportpolicy.htm
 tech.root: wds
 ms.assetid: 420400D4-98A4-497A-BEB3-54BD4057B0BE
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWdsTransportServicePolicy2 interface [Windows Deployment Services],UdpPortPolicy property, IWdsTransportServicePolicy2.UdpPortPolicy, IWdsTransportServicePolicy2.get_UdpPortPolicy, IWdsTransportServicePolicy2::UdpPortPolicy, IWdsTransportServicePolicy2::get_UdpPortPolicy, IWdsTransportServicePolicy2::put_UdpPortPolicy, UdpPortPolicy property [Windows Deployment Services], UdpPortPolicy property [Windows Deployment Services],IWdsTransportServicePolicy2 interface, get_UdpPortPolicy, wds.iwdstransportservicepolicy2_udpportpolicy, wdstptmgmt/IWdsTransportServicePolicy2::UdpPortPolicy, wdstptmgmt/IWdsTransportServicePolicy2::get_UdpPortPolicy, wdstptmgmt/IWdsTransportServicePolicy2::put_UdpPortPolicy
 ms.topic: method
 req.header: wdstptmgmt.h

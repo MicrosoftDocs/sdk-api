@@ -7,7 +7,7 @@ old-location: base\rtwqregisterplatformevents.htm
 tech.root: ProcThread
 ms.assetid: 7BD7E83B-29E1-4FF5-B527-71C2F80D6521
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RtwqRegisterPlatformEvents, RtwqRegisterPlatformEvents function, base.rtwqregisterplatformevents, rtworkq/RtwqRegisterPlatformEvents
 ms.topic: function
 req.header: rtworkq.h

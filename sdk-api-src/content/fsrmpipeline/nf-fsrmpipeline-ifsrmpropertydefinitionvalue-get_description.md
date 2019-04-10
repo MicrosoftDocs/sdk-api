@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpropertydefinitionvalue_description.htm
 tech.root: fsrm
 ms.assetid: dfbd62c6-4795-418f-bb04-18da2d0f3acb
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Description property [File Server Resource Manager], Description property [File Server Resource Manager],IFsrmPropertyDefinitionValue interface, IFsrmPropertyDefinitionValue interface [File Server Resource Manager],Description property, IFsrmPropertyDefinitionValue.Description, IFsrmPropertyDefinitionValue.get_Description, IFsrmPropertyDefinitionValue::Description, IFsrmPropertyDefinitionValue::get_Description, fs.ifsrmpropertydefinitionvalue_description, fsrm.ifsrmpropertydefinitionvalue_description, fsrmpipeline/IFsrmPropertyDefinitionValue::Description, fsrmpipeline/IFsrmPropertyDefinitionValue::get_Description, get_Description
 ms.topic: method
 req.header: fsrmpipeline.h

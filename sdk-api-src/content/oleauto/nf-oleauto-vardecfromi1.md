@@ -7,7 +7,7 @@ old-location: automat\vardecfromi1.htm
 tech.root: automat
 ms.assetid: 00f42c0d-56c3-478e-ab54-4c7c8741a9ab
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VarDecFromI1, VarDecFromI1 function [Automation], _oa96_VarDecFromI1, automat.vardecfromi1, oleauto/VarDecFromI1
 ms.topic: function
 req.header: oleauto.h

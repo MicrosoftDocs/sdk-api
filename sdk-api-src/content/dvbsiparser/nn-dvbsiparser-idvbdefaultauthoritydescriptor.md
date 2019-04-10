@@ -7,7 +7,7 @@ old-location: mstv\idvbdefaultauthoritydescriptor.htm
 tech.root: mstv
 ms.assetid: 42d10cb5-dea9-4fdb-a588-7bc647e0b95b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDvbDefaultAuthorityDescriptor, IDvbDefaultAuthorityDescriptor interface [Microsoft TV Technologies], IDvbDefaultAuthorityDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbDefaultAuthorityDescriptor, mstv.idvbdefaultauthoritydescriptor
 ms.topic: interface
 req.header: dvbsiparser.h

@@ -7,7 +7,7 @@ old-location: automat\varui1fromui8.htm
 tech.root: automat
 ms.assetid: ed490db5-558e-48a9-b804-ca6f1aedbcf1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VarUI1FromUI8, VarUI1FromUI8 function [Automation], _oa96_VarUI1FromUI8, automat.varui1fromui8, oleauto/VarUI1FromUI8
 ms.topic: function
 req.header: oleauto.h

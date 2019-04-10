@@ -7,7 +7,7 @@ old-location: security\createtoken.htm
 tech.root: SecAuthN
 ms.assetid: 2355cf1d-9f95-40be-aed4-8c2796137960
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateToken, CreateToken callback function [Security], LSA_CREATE_TOKEN, LSA_CREATE_TOKEN callback, LsaTokenInformationNull, LsaTokenInformationV1, _ssp_createtoken, ntsecpkg/CreateToken, security.createtoken
 ms.topic: callback
 req.header: ntsecpkg.h

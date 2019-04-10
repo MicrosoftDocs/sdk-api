@@ -7,7 +7,7 @@ old-location: ncd\wsd_reference_parameters_struct.htm
 tech.root: WsdApi
 ms.assetid: add8bda6-b5b1-4026-9900-829ece926670
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WSD_REFERENCE_PARAMETERS, WSD_REFERENCE_PARAMETERS structure, ncd.wsd_reference_parameters_struct, wsdtypes/WSD_REFERENCE_PARAMETERS
 ms.topic: struct
 req.header: wsdtypes.h

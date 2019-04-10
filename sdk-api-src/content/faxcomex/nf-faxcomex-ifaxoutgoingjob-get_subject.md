@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_subject_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0fqs.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],Subject property, IFaxOutgoingJob.Subject, IFaxOutgoingJob.get_Subject, IFaxOutgoingJob::Subject, IFaxOutgoingJob::get_Subject, Subject property [Fax Service], Subject property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.subject, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_subject_cpp, fax._mfax_faxoutgoingjob_subject, faxcomex/IFaxOutgoingJob::Subject, faxcomex/IFaxOutgoingJob::get_Subject, get_Subject
 ms.topic: method
 req.header: faxcomex.h

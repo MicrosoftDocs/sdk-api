@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontrols_put_currentitem.htm
 tech.root: WMP
 ms.assetid: 190cec53-5cd9-4bd0-b8d9-23c5389fe231
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],put_currentItem method, IWMPControls.put_currentItem, IWMPControls::put_currentItem, IWMPControlsput_currentItem, put_currentItem, put_currentItem method [Windows Media Player], put_currentItem method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_put_currentitem, wmp/IWMPControls::put_currentItem
 ms.topic: method
 req.header: wmp.h

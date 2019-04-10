@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_timestamp.htm
 tech.root: wmi_v2
 ms.assetid: f06f1b0e-d21c-4b60-8099-222a1582fde1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_Timestamp, MI_Timestamp structure [Windows Management Infrastructure (MI)], mi/MI_Timestamp, wmi._mi_timestamp, wmi_v2.mi_timestamp
 ms.topic: struct
 req.header: mi.h

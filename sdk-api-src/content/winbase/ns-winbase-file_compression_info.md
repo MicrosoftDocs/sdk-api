@@ -7,7 +7,7 @@ old-location: fs\file_compression_info.htm
 tech.root: FileIO
 ms.assetid: 2f64e7cc-e23c-4e3d-8e17-0e8e38f1ea24
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PFILE_COMPRESSION_INFO, FILE_COMPRESSION_INFO, FILE_COMPRESSION_INFO structure [Files], PFILE_COMPRESSION_INFO, PFILE_COMPRESSION_INFO structure pointer [Files], fileextd/FILE_COMPRESSION_INFO, fileextd/PFILE_COMPRESSION_INFO, fs.file_compression_info, winbase/FILE_COMPRESSION_INFO, winbase/PFILE_COMPRESSION_INFO"
 ms.topic: struct
 req.header: winbase.h

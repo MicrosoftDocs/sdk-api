@@ -7,7 +7,7 @@ old-location: dataxchg\globaladdatomex.htm
 tech.root: dataxchg
 ms.assetid: C5D982F5-94A9-4B08-AE07-8F40E4128123
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GlobalAddAtomEx, GlobalAddAtomEx function [Data Exchange], GlobalAddAtomExA, GlobalAddAtomExW, dataxchg.globaladdatomex, winbase/GlobalAddAtomEx, winbase/GlobalAddAtomExA, winbase/GlobalAddAtomExW
 ms.topic: function
 req.header: winbase.h

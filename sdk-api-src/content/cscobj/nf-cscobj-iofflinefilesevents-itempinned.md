@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents_itempinned.htm
 tech.root: offlinefiles
 ms.assetid: cf298e4e-97c8-4f6f-b6f5-0bd0d9435599
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemPinned method, IOfflineFilesEvents.ItemPinned, IOfflineFilesEvents::ItemPinned, ItemPinned, ItemPinned method [Offline Files], ItemPinned method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemPinned, of.iofflinefilesevents_itempinned
 ms.topic: method
 req.header: cscobj.h

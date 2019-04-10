@@ -7,7 +7,7 @@ old-location: cos\iasyncerrornotify.htm
 tech.root: cossdk
 ms.assetid: 870ab43a-c675-499b-a1e3-1f48176768c0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IAsyncErrorNotify, IAsyncErrorNotify interface [COM+], IAsyncErrorNotify interface [COM+],described, _cos_IAsyncErrorNotify, comsvcs/IAsyncErrorNotify, cos.iasyncerrornotify
 ms.topic: interface
 req.header: comsvcs.h

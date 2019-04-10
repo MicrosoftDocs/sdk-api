@@ -7,7 +7,7 @@ old-location: fs\wofwimremoveentry.htm
 tech.root: FileIO
 ms.assetid: B376EDF7-8C46-4C8B-900E-0DC79699EC1E
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WofWimRemoveEntry, WofWimRemoveEntry function [Files], fs.wofwimremoveentry, wofapi/WofWimRemoveEntry
 ms.topic: function
 req.header: wofapi.h

@@ -7,7 +7,7 @@ old-location: com\ienumformatetc.htm
 tech.root: com
 ms.assetid: 4d180fdd-2d58-4d26-9242-6552dda0d3e6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEnumFORMATETC, IEnumFORMATETC interface [COM], IEnumFORMATETC interface [COM],described, _ole_ienumformatetc, com.ienumformatetc, objidl/IEnumFORMATETC
 ms.topic: interface
 req.header: objidl.h

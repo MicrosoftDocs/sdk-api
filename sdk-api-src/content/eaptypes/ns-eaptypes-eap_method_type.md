@@ -7,7 +7,7 @@ old-location: eaphost\eap_method_type.htm
 tech.root: eaphost
 ms.assetid: 47702dd9-d9c2-4dd5-a12d-23a55b031d27
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EAP_METHOD_TYPE, EAP_METHOD_TYPE structure [EAPHost], eaphost.eap_method_type, eaptypes/EAP_METHOD_TYPE
 ms.topic: struct
 req.header: eaptypes.h

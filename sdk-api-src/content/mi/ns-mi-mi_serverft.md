@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_serverft.htm
 tech.root: wmi_v2
 ms.assetid: a8b3b230-8378-448b-9c89-82b601373f0e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_ServerFT, MI_ServerFT structure [Windows Management Infrastructure (MI)], mi/MI_ServerFT, wmi_v2.mi_serverft
 ms.topic: struct
 req.header: mi.h

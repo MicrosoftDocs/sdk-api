@@ -7,7 +7,7 @@ old-location: wmi\wbemtime_operator_plus.htm
 tech.root: WmiSdk
 ms.assetid: d805f837-4063-4c16-aebc-88940a662d5e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "??HWBEMTime@@QBE?AV0@ABVWBEMTimeSpan@@@Z, WBEMTime interface [Windows Management Instrumentation],operator+ method, WBEMTime.operator+, WBEMTime.operator-add, WBEMTime::operator+, WBEMTime::operator-add, _hmm_wbemtime_operator_plus, operator+, operator+ method [Windows Management Instrumentation], operator+ method [Windows Management Instrumentation],WBEMTime interface, wbemtime/WBEMTime::operator+, wmi.wbemtime_operator_plus"
 ms.topic: method
 req.header: wbemtime.h

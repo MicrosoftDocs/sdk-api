@@ -7,7 +7,7 @@ old-location: perf\perf_multi_counters.htm
 tech.root: perfctrs
 ms.assetid: 4F490C3C-F587-4E7B-B316-162EDA76EC30
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PPERF_MULTI_COUNTERS, PERF_MULTI_COUNTERS, PERF_MULTI_COUNTERS structure [Perf], PPERF_MULTI_COUNTERS, PPERF_MULTI_COUNTERS structure pointer [Perf], perf.perf_multi_counters, perflib/PERF_MULTI_COUNTERS, perflib/PPERF_MULTI_COUNTERS"
 ms.topic: struct
 req.header: perflib.h

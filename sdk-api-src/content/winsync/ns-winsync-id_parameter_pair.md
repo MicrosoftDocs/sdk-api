@@ -7,7 +7,7 @@ old-location: winsync\id_parameter_pair.htm
 tech.root: winsync
 ms.assetid: f2b47196-8112-4f04-9944-a4a686d3c25c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ID_PARAMETER_PAIR, ID_PARAMETER_PAIR structure [Windows Sync], winsync.id_parameter_pair, winsync/ID_PARAMETER_PAIR
 ms.topic: struct
 req.header: winsync.h

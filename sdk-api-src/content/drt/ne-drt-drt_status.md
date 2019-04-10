@@ -7,7 +7,7 @@ old-location: p2p\drt_status.htm
 tech.root: P2PSdk
 ms.assetid: 4bd81191-862c-4537-9c90-4b9fec270a16
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DRT_ACTIVE, DRT_ALONE, DRT_FAULTED, DRT_NO_NETWORK, DRT_STATUS, DRT_STATUS enumeration [Peer Networking], drt/DRT_ACTIVE, drt/DRT_ALONE, drt/DRT_FAULTED, drt/DRT_NO_NETWORK, drt/DRT_STATUS, p2p.drt_status
 ms.topic: enum
 req.header: drt.h

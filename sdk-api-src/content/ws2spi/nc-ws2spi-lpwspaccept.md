@@ -7,7 +7,7 @@ old-location: winsock\wspaccept_2.htm
 tech.root: WinSock
 ms.assetid: d73aa3a8-cef5-485d-b2ba-b2fe42ab6200
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: LPWSPACCEPT, WSPAccept, WSPAccept function [Winsock], _win32_wspaccept_2, winsock.wspaccept_2, ws2spi/WSPAccept
 ms.topic: callback
 req.header: ws2spi.h

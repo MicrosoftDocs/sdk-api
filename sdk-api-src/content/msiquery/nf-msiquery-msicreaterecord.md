@@ -7,7 +7,7 @@ old-location: setup\msicreaterecord.htm
 tech.root: Msi
 ms.assetid: fc1d5a09-3097-4a1c-a615-1b93f7eacb04
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MsiCreateRecord, MsiCreateRecord function, _msi_msicreaterecord, msiquery/MsiCreateRecord, setup.msicreaterecord
 ms.topic: function
 req.header: msiquery.h

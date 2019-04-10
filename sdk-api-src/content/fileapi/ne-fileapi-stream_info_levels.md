@@ -7,7 +7,7 @@ old-location: fs\stream_info_levels.htm
 tech.root: FileIO
 ms.assetid: 411efcdc-e13a-4f27-a3da-31dff714e415
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FindStreamInfoMaxInfoLevel, FindStreamInfoStandard, STREAM_INFO_LEVELS, STREAM_INFO_LEVELS enumeration [Files], _win32_stream_info_levels, base.stream_info_levels, fileapi/FindStreamInfoMaxInfoLevel, fileapi/FindStreamInfoStandard, fileapi/STREAM_INFO_LEVELS, fs.stream_info_levels
 ms.topic: enum
 req.header: fileapi.h

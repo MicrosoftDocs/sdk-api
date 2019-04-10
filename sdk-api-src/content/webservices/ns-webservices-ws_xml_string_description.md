@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_string_description.htm
 tech.root: wsw
 ms.assetid: 5b3c28ed-ed2c-4d65-a641-a653eddd021e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_XML_STRING_DESCRIPTION, WS_XML_STRING_DESCRIPTION structure [Web Services for Windows], webservices/WS_XML_STRING_DESCRIPTION, wsw.ws_xml_string_description
 ms.topic: struct
 req.header: webservices.h

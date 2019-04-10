@@ -7,7 +7,7 @@ old-location: rras\pmgm_prune_alert_callback.htm
 tech.root: RRAS
 ms.assetid: 1c23df04-2a31-475e-a8da-783796a60e00
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MgmPruneAlertCallback, PMGM_PRUNE_ALERT_CALLBACK, PMGM_PRUNE_ALERT_CALLBACK callback, PMGM_PRUNE_ALERT_CALLBACK callback function [RAS], _mpr_pmgm_prune_alert_callback, mgm/PMGM_PRUNE_ALERT_CALLBACK, rras.pmgm_prune_alert_callback
 ms.topic: callback
 req.header: mgm.h

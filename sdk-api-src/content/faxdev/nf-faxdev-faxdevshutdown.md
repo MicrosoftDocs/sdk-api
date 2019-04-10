@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevshutdown.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_35m6.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FaxDevShutdown, FaxDevShutdown function [Fax Service], _mfax_faxdevshutdown, fax._mfax_faxdevshutdown, faxdev/FaxDevShutdown
 ms.topic: function
 req.header: faxdev.h

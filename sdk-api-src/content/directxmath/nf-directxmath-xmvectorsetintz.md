@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorsetintz.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorSetIntZ(XMVECTOR,uint32_t)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSetIntZ, XMVectorSetIntZ, XMVectorSetIntZ method [DirectX Math Support APIs], dxmath.xmvectorsetintz
 ms.topic: function
 req.header: directxmath.h

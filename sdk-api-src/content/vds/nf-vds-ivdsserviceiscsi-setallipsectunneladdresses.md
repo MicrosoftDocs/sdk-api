@@ -7,7 +7,7 @@ old-location: base\ivdsserviceiscsi_setallipsectunneladdresses.htm
 tech.root: VDS
 ms.assetid: 05cf0347-a9f2-4f6f-b646-d7f71a6a6e70
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVdsServiceIscsi interface [VDS],SetAllIpsecTunnelAddresses method, IVdsServiceIscsi.SetAllIpsecTunnelAddresses, IVdsServiceIscsi::SetAllIpsecTunnelAddresses, SetAllIpsecTunnelAddresses, SetAllIpsecTunnelAddresses method [VDS], SetAllIpsecTunnelAddresses method [VDS],IVdsServiceIscsi interface, base.ivdsserviceiscsi_setallipsectunneladdresses, vds/IVdsServiceIscsi::SetAllIpsecTunnelAddresses
 ms.topic: method
 req.header: vds.h

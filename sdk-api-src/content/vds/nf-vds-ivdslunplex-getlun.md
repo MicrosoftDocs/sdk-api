@@ -7,7 +7,7 @@ old-location: base\ivdslunplex_getlun.htm
 tech.root: VDS
 ms.assetid: 74f9fed5-f33d-4e88-b3d2-7eb8ef33711e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetLun, GetLun method [VDS], GetLun method [VDS],IVdsLunPlex interface, IVdsLunPlex interface [VDS],GetLun method, IVdsLunPlex.GetLun, IVdsLunPlex::GetLun, base.ivdslunplex_getlun, vds/IVdsLunPlex::GetLun, vdshwprv/IVdsLunPlex::GetLun
 ms.topic: method
 req.header: vds.h

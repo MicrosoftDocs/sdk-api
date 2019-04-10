@@ -7,7 +7,7 @@ old-location: security\ix509privatekey_keyspec_property.htm
 tech.root: seccertenroll
 ms.assetid: 163e0fb5-e5b1-48db-a90f-66984530f92f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey interface [Security],KeySpec property, IX509PrivateKey.KeySpec, IX509PrivateKey.get_KeySpec, IX509PrivateKey::KeySpec, IX509PrivateKey::get_KeySpec, IX509PrivateKey::put_KeySpec, KeySpec property [Security], KeySpec property [Security],IX509PrivateKey interface, XCN_AT_KEYEXCHANGE, XCN_AT_NONE, XCN_AT_SIGNATURE, certenroll/IX509PrivateKey::KeySpec, certenroll/IX509PrivateKey::get_KeySpec, certenroll/IX509PrivateKey::put_KeySpec, get_KeySpec, security.ix509privatekey_keyspec_property
 ms.topic: method
 req.header: certenroll.h

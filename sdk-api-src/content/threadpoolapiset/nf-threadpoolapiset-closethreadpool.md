@@ -7,7 +7,7 @@ old-location: base\closethreadpool.htm
 tech.root: ProcThread
 ms.assetid: 84f673b5-d9b1-4f3d-9ae6-b1ad173268cd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CloseThreadpool, CloseThreadpool function, base.closethreadpool, threadpoolapiset/CloseThreadpool, winbase/CloseThreadpool
 ms.topic: function
 req.header: threadpoolapiset.h

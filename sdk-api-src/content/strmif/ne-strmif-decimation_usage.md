@@ -7,7 +7,7 @@ old-location: dshow\decimation_usage.htm
 tech.root: DirectShow
 ms.assetid: 4c39f7f9-2d9c-4db5-9a2b-cf221ddedf80
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DECIMATION_DEFAULT, DECIMATION_LEGACY, DECIMATION_USAGE, DECIMATION_USAGE , DECIMATION_USAGE enumeration [DirectShow], DECIMATION_USAGEEnumeration, DECIMATION_USE_DECODER_ONLY, DECIMATION_USE_OVERLAY_ONLY, DECIMATION_USE_VIDEOPORT_ONLY, dshow.decimation_usage, strmif/DECIMATION_DEFAULT, strmif/DECIMATION_LEGACY, strmif/DECIMATION_USAGE, strmif/DECIMATION_USE_DECODER_ONLY, strmif/DECIMATION_USE_OVERLAY_ONLY, strmif/DECIMATION_USE_VIDEOPORT_ONLY
 ms.topic: enum
 req.header: strmif.h

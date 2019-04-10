@@ -7,7 +7,7 @@ old-location: security\token_elevation_type_.htm
 tech.root: SecAuthZ
 ms.assetid: bfdfa7b3-a8a9-4e54-896c-4be97521a079
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PTOKEN_ELEVATION_TYPE, PTOKEN_ELEVATION_TYPE, PTOKEN_ELEVATION_TYPE enumeration pointer [Security], TOKEN_ELEVATION_TYPE, TOKEN_ELEVATION_TYPE enumeration [Security], TokenElevationTypeDefault, TokenElevationTypeFull, TokenElevationTypeLimited, security.token_elevation_type_, winnt/PTOKEN_ELEVATION_TYPE, winnt/TOKEN_ELEVATION_TYPE, winnt/TokenElevationTypeDefault, winnt/TokenElevationTypeFull, winnt/TokenElevationTypeLimited"
 ms.topic: enum
 req.header: winnt.h

@@ -7,7 +7,7 @@ old-location: display\xlateobj_cgetpalette.htm
 tech.root: display
 ms.assetid: eec6a5ec-398a-484f-b70f-e6baaedc6abd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: XLATEOBJ_cGetPalette, XLATEOBJ_cGetPalette function [Display Devices], display.xlateobj_cgetpalette, gdifncs_739e9529-598b-4489-85ff-0057e244617e.xml, winddi/XLATEOBJ_cGetPalette
 ms.topic: function
 req.header: winddi.h

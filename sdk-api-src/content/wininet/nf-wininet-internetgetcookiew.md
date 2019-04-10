@@ -7,7 +7,7 @@ old-location: wininet\internetgetcookie.htm
 tech.root: wininet
 ms.assetid: 12c1ebab-3954-4995-9e1f-bf29699af396
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: InternetGetCookie, InternetGetCookie function [WinINet], InternetGetCookieA, InternetGetCookieW, _win32_internetgetcookie, wininet.internetgetcookie, wininet/InternetGetCookie, wininet/InternetGetCookieA, wininet/InternetGetCookieW
 ms.topic: function
 req.header: wininet.h

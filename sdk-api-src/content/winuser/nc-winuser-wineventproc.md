@@ -7,7 +7,7 @@ old-location: winauto\wineventproc_callback_function.htm
 tech.root: WinAuto
 ms.assetid: 5fe3cacc-4563-43da-960d-729d3fe4ff70
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WinEventProc, WinEventProc callback, WinEventProc callback function [Windows Accessibility], msaa.wineventproc_callback_function, winauto.wineventproc_callback_function, winuser/WinEventProc
 ms.topic: callback
 req.header: winuser.h

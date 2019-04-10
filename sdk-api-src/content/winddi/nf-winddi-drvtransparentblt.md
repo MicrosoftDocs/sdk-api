@@ -7,7 +7,7 @@ old-location: display\drvtransparentblt.htm
 tech.root: display
 ms.assetid: 67e61a43-b962-4905-8876-9a0380848ed0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DrvTransparentBlt, DrvTransparentBlt function [Display Devices], ddifncs_962c398c-767b-44de-a1ee-d2b8bf257ec6.xml, display.drvtransparentblt, winddi/DrvTransparentBlt
 ms.topic: function
 req.header: winddi.h

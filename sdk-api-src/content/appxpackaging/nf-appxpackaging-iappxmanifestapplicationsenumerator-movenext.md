@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestapplicationsenumerator_movenext.htm
 tech.root: appxpkg
 ms.assetid: 4F6EB510-4227-460B-9E2D-C304F33A931E
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IAppxManifestApplicationsEnumerator interface [App packaging and management],MoveNext method, IAppxManifestApplicationsEnumerator.MoveNext, IAppxManifestApplicationsEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxManifestApplicationsEnumerator interface, appxpackaging/IAppxManifestApplicationsEnumerator::MoveNext, appxpkg.iappxmanifestapplicationsenumerator_movenext
 ms.topic: method
 req.header: appxpackaging.h

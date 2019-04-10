@@ -7,7 +7,7 @@ old-location: nwifi\wlansetsecuritysettings.htm
 tech.root: NativeWiFi
 ms.assetid: 6038e4bc-7f07-4148-ac34-e290c8c40e99
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WlanSetSecuritySettings, WlanSetSecuritySettings function [NativeWIFI], nwifi.wlansetsecuritysettings, wlanapi/WlanSetSecuritySettings
 ms.topic: function
 req.header: wlanapi.h

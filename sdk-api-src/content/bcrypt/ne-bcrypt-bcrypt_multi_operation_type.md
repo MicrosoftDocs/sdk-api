@@ -7,7 +7,7 @@ old-location: security\bcrypt_multi_operation_type.htm
 tech.root: SecCNG
 ms.assetid: C87714F6-CB25-4215-B1BA-C09AAA875D00
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BCRYPT_MULTI_OPERATION_TYPE, BCRYPT_MULTI_OPERATION_TYPE enumeration [Security], BCRYPT_OPERATION_TYPE_HASH, bcrypt/BCRYPT_MULTI_OPERATION_TYPE, bcrypt/BCRYPT_OPERATION_TYPE_HASH, security.bcrypt_multi_operation_type
 ms.topic: enum
 req.header: bcrypt.h

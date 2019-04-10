@@ -7,7 +7,7 @@ old-location: display\ddvideoportcancreate.htm
 tech.root: display
 ms.assetid: 742c7af2-0611-4cca-b18c-e14b18068d7e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DdVideoPortCanCreate, DdVideoPortCanCreate callback function [Display Devices], PDD_VPORTCB_CANCREATEVIDEOPORT, PDD_VPORTCB_CANCREATEVIDEOPORT callback, ddfncs_dfe3285f-627c-4f0d-b7e7-ffd87d88fe46.xml, ddrawint/DdVideoPortCanCreate, display.ddvideoportcancreate
 ms.topic: callback
 req.header: ddrawint.h

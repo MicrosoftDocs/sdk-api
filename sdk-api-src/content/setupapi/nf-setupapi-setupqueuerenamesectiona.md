@@ -7,7 +7,7 @@ old-location: setup\setupqueuerenamesection.htm
 tech.root: SetupApi
 ms.assetid: 8ac93cfa-cfe4-4747-813d-512963d0d87c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SetupQueueRenameSection, SetupQueueRenameSection function [Setup API], SetupQueueRenameSectionA, SetupQueueRenameSectionW, _setupapi_setupqueuerenamesection, setup.setupqueuerenamesection, setupapi/SetupQueueRenameSection, setupapi/SetupQueueRenameSectionA, setupapi/SetupQueueRenameSectionW
 ms.topic: function
 req.header: setupapi.h

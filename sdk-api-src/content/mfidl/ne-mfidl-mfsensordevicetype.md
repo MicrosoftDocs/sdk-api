@@ -7,7 +7,7 @@ old-location: mf\mfsensordevicetype.htm
 tech.root: medfound
 ms.assetid: 13CC03E6-F0E2-4E69-B94F-4CF1BC7D0C23
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MFSensorDeviceType, MFSensorDeviceType enumeration [Media Foundation], MFSensorDeviceType_Device, MFSensorDeviceType_FrameProvider, MFSensorDeviceType_MediaSource, MFSensorDeviceType_Unknown, mf.mfsensordevicetype, mfidl/MFSensorDeviceType, mfidl/MFSensorDeviceType_Device, mfidl/MFSensorDeviceType_FrameProvider, mfidl/MFSensorDeviceType_MediaSource, mfidl/MFSensorDeviceType_Unknown
 ms.topic: enum
 req.header: mfidl.h

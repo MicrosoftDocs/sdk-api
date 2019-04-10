@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dbasetexture9__setlod.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dbasetexture9__setlod.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDirect3DBaseTexture9 interface [Direct3D 9],SetLOD method, IDirect3DBaseTexture9.SetLOD, IDirect3DBaseTexture9::SetLOD, SetLOD, SetLOD method [Direct3D 9], SetLOD method [Direct3D 9],IDirect3DBaseTexture9 interface, d3d9helper/IDirect3DBaseTexture9::SetLOD, direct3d9.idirect3dbasetexture9__setlod, e09d34c8-aef0-62f8-8160-11d659b8bb51
 ms.topic: method
 req.header: d3d9.h

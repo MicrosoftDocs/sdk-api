@@ -7,7 +7,7 @@ old-location: wsw\ws_tcp_binding_template.htm
 tech.root: wsw
 ms.assetid: 5003f405-38f9-439f-87d0-411a3b02218d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_TCP_BINDING_TEMPLATE, WS_TCP_BINDING_TEMPLATE structure [Web Services for Windows], webservices/WS_TCP_BINDING_TEMPLATE, wsw.ws_tcp_binding_template
 ms.topic: struct
 req.header: webservices.h

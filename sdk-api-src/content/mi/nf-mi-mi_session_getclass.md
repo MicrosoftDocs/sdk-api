@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_session_getclass.htm
 tech.root: wmi_v2
 ms.assetid: 7023a205-c7d0-4455-9a35-77e62bc42e9c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_Session_GetClass, MI_Session_GetClass function [Windows Management Infrastructure (MI)], mi/MI_Session_GetClass, wmi_v2.mi_session_getclass
 ms.topic: function
 req.header: mi.h

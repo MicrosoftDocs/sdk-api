@@ -7,7 +7,7 @@ old-location: secbiomet\storageadapterdetach.htm
 tech.root: SecBioMet
 ms.assetid: cebf03d3-e393-437a-81f7-579fea95aa9c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PIBIO_STORAGE_DETACH_FN, PIBIO_STORAGE_DETACH_FN callback, StorageAdapterDetach, StorageAdapterDetach callback function [Windows Biometric Framework API], secbiomet.storageadapterdetach, winbio_adapter/StorageAdapterDetach
 ms.topic: callback
 req.header: winbio_adapter.h

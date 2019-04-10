@@ -7,7 +7,7 @@ old-location: ad\ds_repl_cursors.htm
 tech.root: ad
 ms.assetid: 0fe5ad72-d3f3-42a8-a36f-ca1fc9c55c50
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DS_REPL_CURSORS, DS_REPL_CURSORS structure [Active Directory], _glines_ds_repl_cursors, ad.ds__repl__cursors, ad.ds_repl_cursors, ntdsapi/DS_REPL_CURSORS
 ms.topic: struct
 req.header: ntdsapi.h

@@ -7,7 +7,7 @@ old-location: ncd\iwsdtransportaddress_getport.htm
 tech.root: WsdApi
 ms.assetid: cc2e623f-e6b6-42ad-b0de-7960de0142d0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetPort, GetPort method, GetPort method,IWSDTransportAddress interface, IWSDTransportAddress interface,GetPort method, IWSDTransportAddress.GetPort, IWSDTransportAddress::GetPort, ncd.iwsdtransportaddress_getport, wsdbase/IWSDTransportAddress::GetPort
 ms.topic: method
 req.header: wsdbase.h

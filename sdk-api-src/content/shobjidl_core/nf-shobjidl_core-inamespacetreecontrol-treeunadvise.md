@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControl_TreeUnadvise.htm
 tech.root: shell
 ms.assetid: 9a0ba832-503a-48d6-80a7-7f6c51d60215
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControl interface [Windows Shell],TreeUnadvise method, INameSpaceTreeControl.TreeUnadvise, INameSpaceTreeControl::TreeUnadvise, TreeUnadvise, TreeUnadvise method [Windows Shell], TreeUnadvise method [Windows Shell],INameSpaceTreeControl interface, _shell_INameSpaceTreeControl_TreeUnadvise, shell.INameSpaceTreeControl_TreeUnadvise, shobjidl_core/INameSpaceTreeControl::TreeUnadvise
 ms.topic: method
 req.header: shobjidl_core.h

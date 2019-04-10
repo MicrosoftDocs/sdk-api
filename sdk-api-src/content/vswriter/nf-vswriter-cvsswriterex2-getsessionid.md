@@ -7,7 +7,7 @@ old-location: base\cvsswriterex2_getsessionid.htm
 tech.root: VSS
 ms.assetid: bea5ba9c-538b-453f-ae6d-12b94b8edeb6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CVssWriterEx2 interface,GetSessionId method, CVssWriterEx2.GetSessionId, CVssWriterEx2::GetSessionId, GetSessionId, GetSessionId method, GetSessionId method,CVssWriterEx2 interface, base.cvsswriterex2_getsessionid, vswriter/CVssWriterEx2::GetSessionId
 ms.topic: method
 req.header: vswriter.h

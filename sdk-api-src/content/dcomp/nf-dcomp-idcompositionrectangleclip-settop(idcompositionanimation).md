@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrectangleclip_settop_idcompositionanimatio
 tech.root: directcomp
 ms.assetid: EDA9C74C-A3B1-4D49-9A76-B95175EA2E91
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetTop method, IDCompositionRectangleClip.SetTop, IDCompositionRectangleClip.SetTop(IDCompositionAnimation), IDCompositionRectangleClip::SetTop, IDCompositionRectangleClip::SetTop(IDCompositionAnimation), IDCompositionRectangleClip::SetTop(IDCompositionAnimation*), SetTop, SetTop method [DirectComposition], SetTop method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetTop, directcomp.idcompositionrectangleclip_settop_idcompositionanimation
 ms.topic: method
 req.header: dcomp.h

@@ -7,7 +7,7 @@ old-location: tapi3\itbasiccallcontrol_hold.htm
 tech.root: Tapi
 ms.assetid: 44f1d3fd-6c48-41f4-a30e-83bf2ce19fde
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Hold, Hold method [TAPI 2.2], Hold method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],Hold method, ITBasicCallControl.Hold, ITBasicCallControl::Hold, _tapi3_itbasiccallcontrol_hold, tapi3.itbasiccallcontrol_hold, tapi3if/ITBasicCallControl::Hold
 ms.topic: method
 req.header: tapi3if.h

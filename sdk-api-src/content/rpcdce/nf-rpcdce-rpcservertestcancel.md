@@ -7,7 +7,7 @@ old-location: rpc\rpcservertestcancel.htm
 tech.root: Rpc
 ms.assetid: de4b45a8-0516-4185-a342-364e0f5a633e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RpcServerTestCancel, RpcServerTestCancel function [RPC], _rpc_rpcservertestcancel, rpc.rpcservertestcancel, rpcdce/RpcServerTestCancel
 ms.topic: function
 req.header: rpcdce.h

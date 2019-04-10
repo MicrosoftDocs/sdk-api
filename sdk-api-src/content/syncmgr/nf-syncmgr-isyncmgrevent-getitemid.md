@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrEvent_GetItemID.htm
 tech.root: shell
 ms.assetid: 243f84eb-ad0b-44ac-bf61-53bb8b6e5af5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetItemID, GetItemID method [Windows Shell], GetItemID method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetItemID method, ISyncMgrEvent.GetItemID, ISyncMgrEvent::GetItemID, _shell_ISyncMgrEvent_GetItemID, shell.ISyncMgrEvent_GetItemID, syncmgr/ISyncMgrEvent::GetItemID
 ms.topic: method
 req.header: syncmgr.h

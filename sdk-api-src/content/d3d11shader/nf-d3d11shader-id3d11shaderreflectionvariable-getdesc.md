@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflectionvariable_getdesc.htm
 tech.root: direct3d11
 ms.assetid: a384e172-763f-4f4c-b6fb-f657fa31e5ee
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 6ae72773-659b-8911-13a0-cbaa49ed3c83, GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11ShaderReflectionVariable interface, ID3D11ShaderReflectionVariable interface [Direct3D 11],GetDesc method, ID3D11ShaderReflectionVariable.GetDesc, ID3D11ShaderReflectionVariable::GetDesc, d3d11shader/ID3D11ShaderReflectionVariable::GetDesc, direct3d11.id3d11shaderreflectionvariable_getdesc
 ms.topic: method
 req.header: d3d11shader.h

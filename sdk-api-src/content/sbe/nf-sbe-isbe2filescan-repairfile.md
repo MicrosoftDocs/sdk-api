@@ -7,7 +7,7 @@ old-location: mstv\isbe2filescan_repairfile.htm
 tech.root: mstv
 ms.assetid: 318eb0e5-2492-4ed4-8a14-764c12024f97
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ISBE2FileScan interface [Microsoft TV Technologies],RepairFile method, ISBE2FileScan.RepairFile, ISBE2FileScan::RepairFile, RepairFile, RepairFile method [Microsoft TV Technologies], RepairFile method [Microsoft TV Technologies],ISBE2FileScan interface, mstv.isbe2filescan_repairfile, sbe/ISBE2FileScan::RepairFile
 ms.topic: method
 req.header: sbe.h

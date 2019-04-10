@@ -7,7 +7,7 @@ old-location: dxmath\xmudec4_operator_eq_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUDEC4.operator = (const XMUDEC4)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: XMUDEC4, XMUDEC4 structure [DirectX Math Support APIs],operator = method, XMUDEC4.XMUDEC4, XMUDEC4.XMUDEC4(XMUDEC4 &&), XMUDEC4.operator =(const XMUDEC4&), XMUDEC4::XMUDEC4, XMUDEC4::XMUDEC4(XMUDEC4 &&), dxmath.xmudec4_operator_eq_1, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMUDEC4 structure
 ms.topic: method
 req.header: directxpackedvector.h

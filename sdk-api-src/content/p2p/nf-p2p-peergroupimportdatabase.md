@@ -7,7 +7,7 @@ old-location: p2p\peergroupimportdatabase.htm
 tech.root: P2PSdk
 ms.assetid: 507b2b51-07d1-4e8d-8ec6-6b7398eadcc0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PeerGroupImportDatabase, PeerGroupImportDatabase function [Peer Networking], p2p.peergroupimportdatabase, p2p/PeerGroupImportDatabase
 ms.topic: function
 req.header: p2p.h

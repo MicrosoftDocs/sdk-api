@@ -7,7 +7,7 @@ old-location: rras\mpradminestablishdomainrasserver.htm
 tech.root: RRAS
 ms.assetid: 756e267b-73bf-46d3-a1af-d2442ceb7b52
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MprAdminEstablishDomainRasServer, MprAdminEstablishDomainRasServer function [RAS], mprapi/MprAdminEstablishDomainRasServer, rras.mpradminestablishdomainrasserver
 ms.topic: function
 req.header: mprapi.h

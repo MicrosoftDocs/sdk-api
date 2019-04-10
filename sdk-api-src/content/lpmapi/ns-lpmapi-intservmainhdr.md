@@ -7,7 +7,7 @@ old-location: qos\intservmainhdr.htm
 tech.root: QOS
 ms.assetid: b67fdf53-322b-4a70-ae83-63d4365e9b57
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IntServMainHdr, IntServMainHdr structure [QOS], lpmapi/IntServMainHdr, qos.intservmainhdr
 ms.topic: struct
 req.header: lpmapi.h

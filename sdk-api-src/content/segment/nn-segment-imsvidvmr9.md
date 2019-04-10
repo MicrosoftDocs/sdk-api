@@ -7,7 +7,7 @@ old-location: mstv\imsvidvmr9.htm
 tech.root: mstv
 ms.assetid: c96f91d4-fc6c-4422-8fc9-ea5fed10bd80
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMSVidVMR9, IMSVidVMR9 interface [Microsoft TV Technologies], IMSVidVMR9 interface [Microsoft TV Technologies],described, IMSVidVMR9Interface, mstv.imsvidvmr9, segment/IMSVidVMR9
 ms.topic: interface
 req.header: segment.h

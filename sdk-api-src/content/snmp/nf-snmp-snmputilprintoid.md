@@ -7,7 +7,7 @@ old-location: snmp\snmputilprintoid.htm
 tech.root: SNMP
 ms.assetid: 8d5e9b79-83a5-49ed-8621-f12cbf9c59d0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SnmpUtilPrintOid, SnmpUtilPrintOid function [SNMP], _snmp_snmputilprintoid, snmp.snmputilprintoid, snmp/SnmpUtilPrintOid
 ms.topic: function
 req.header: snmp.h

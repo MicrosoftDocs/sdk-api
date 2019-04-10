@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteNumberSubstitution.htm
 tech.root: DirectWrite
 ms.assetid: bf8caeea-6ede-4cd3-84f7-2e8314af50db
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDWriteNumberSubstitution, IDWriteNumberSubstitution interface [Direct Write], IDWriteNumberSubstitution interface [Direct Write],described, directwrite.IDWriteNumberSubstitution, dwrite/IDWriteNumberSubstitution
 ms.topic: interface
 req.header: dwrite.h

@@ -7,7 +7,7 @@ old-location: base\getcurrentpowerpolicies.htm
 tech.root: power
 ms.assetid: 9a834fb6-35ae-4d36-885c-0d81cd39e9a6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetCurrentPowerPolicies, GetCurrentPowerPolicies function, _win32_getcurrentpowerpolicies, base.getcurrentpowerpolicies, powrprof/GetCurrentPowerPolicies
 ms.topic: function
 req.header: powrprof.h

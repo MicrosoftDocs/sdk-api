@@ -7,7 +7,7 @@ old-location: winsock\wsarecv_2.htm
 tech.root: WinSock
 ms.assetid: bfe66e11-e9a7-4321-ad55-3141113e9a03
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WSARecv, WSARecv function [Winsock], _win32_wsarecv_2, winsock.wsarecv_2, winsock2/WSARecv
 ms.topic: function
 req.header: winsock2.h

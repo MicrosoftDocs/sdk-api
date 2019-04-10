@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents_itemdeletedfromcache.htm
 tech.root: offlinefiles
 ms.assetid: 358b358a-65cc-4f37-8beb-be492b83c222
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemDeletedFromCache method, IOfflineFilesEvents.ItemDeletedFromCache, IOfflineFilesEvents::ItemDeletedFromCache, ItemDeletedFromCache, ItemDeletedFromCache method [Offline Files], ItemDeletedFromCache method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemDeletedFromCache, of.iofflinefilesevents_itemdeletedfromcache
 ms.topic: method
 req.header: cscobj.h

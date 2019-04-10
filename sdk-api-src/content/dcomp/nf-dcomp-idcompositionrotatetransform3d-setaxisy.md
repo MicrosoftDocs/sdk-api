@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrotatetransform3d_setaxisy_float.htm
 tech.root: directcomp
 ms.assetid: EEDED20E-B1AC-4464-ABB5-C413E10B3E7E
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetAxisY method, IDCompositionRotateTransform3D.SetAxisY, IDCompositionRotateTransform3D::SetAxisY, IDCompositionRotateTransform3D::SetAxisY(float), SetAxisY, SetAxisY method [DirectComposition], SetAxisY method [DirectComposition],IDCompositionRotateTransform3D interface, dcomp/IDCompositionRotateTransform3D::SetAxisY, directcomp.idcompositionrotatetransform3d_setaxisy_float
 ms.topic: method
 req.header: dcomp.h

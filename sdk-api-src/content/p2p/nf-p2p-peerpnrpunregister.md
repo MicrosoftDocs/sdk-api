@@ -7,7 +7,7 @@ old-location: p2p\peerpnrpunregister.htm
 tech.root: P2PSdk
 ms.assetid: ac032cfb-b1d4-4fe0-8d27-7d378aaa6aff
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PeerPnrpUnregister, PeerPnrpUnregister function [Peer Networking], p2p.peerpnrpunregister, p2p/PeerPnrpUnregister
 ms.topic: function
 req.header: p2p.h

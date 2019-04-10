@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_getstarttime.htm
 tech.root: mstv
 ms.assetid: 70847a50-67a1-49f1-a24f-ca5bb0309481
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetStartTime, GetStartTime method [Microsoft TV Technologies], GetStartTime method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetStartTime method, ISCTE_EAS.GetStartTime, ISCTE_EAS::GetStartTime, ISCTE_EASGetStartTime, atscpsipparser/ISCTE_EAS::GetStartTime, mstv.iscte_eas_getstarttime
 ms.topic: method
 req.header: atscpsipparser.h

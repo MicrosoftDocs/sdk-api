@@ -7,7 +7,7 @@ old-location: shell\IEnumAssocHandlers.htm
 tech.root: shell
 ms.assetid: c8b11157-4d00-4ab1-aea5-ce8ae35c43ce
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEnumAssocHandlers, IEnumAssocHandlers interface [Windows Shell], IEnumAssocHandlers interface [Windows Shell],described, _shell_IEnumAssocHandlers, shell.IEnumAssocHandlers, shobjidl_core/IEnumAssocHandlers
 ms.topic: interface
 req.header: shobjidl_core.h

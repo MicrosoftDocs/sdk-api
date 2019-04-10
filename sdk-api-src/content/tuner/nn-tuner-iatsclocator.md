@@ -7,7 +7,7 @@ old-location: mstv\iatsclocator.htm
 tech.root: mstv
 ms.assetid: 8ca7d50f-e7cc-4938-a2ed-fce5278b73fd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IATSCLocator, IATSCLocator interface [Microsoft TV Technologies], IATSCLocator interface [Microsoft TV Technologies],described, IATSCLocatorInterface, mstv.iatsclocator, tuner/IATSCLocator
 ms.topic: interface
 req.header: tuner.h

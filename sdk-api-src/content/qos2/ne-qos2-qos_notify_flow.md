@@ -7,7 +7,7 @@ old-location: qos\qos_notify_flow.htm
 tech.root: QOS
 ms.assetid: 96072c6e-8282-4373-bb0b-14fbeb5573c3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PQOS_NOTIFY_FLOW, PQOS_NOTIFY_FLOW, PQOS_NOTIFY_FLOW enumeration pointer [QOS], QOSNotifyAvailable, QOSNotifyCongested, QOSNotifyUncongested, QOS_NOTIFY_FLOW, QOS_NOTIFY_FLOW enumeration [QOS], qos.qos_notify_flow, qos2/PQOS_NOTIFY_FLOW, qos2/QOSNotifyAvailable, qos2/QOSNotifyCongested, qos2/QOSNotifyUncongested, qos2/QOS_NOTIFY_FLOW"
 ms.topic: enum
 req.header: qos2.h

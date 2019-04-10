@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_booleana.htm
 tech.root: wmi_v2
 ms.assetid: d6e9c3b2-b9ef-4e59-bf9c-d36bf9a8d619
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_BooleanA, MI_BooleanA structure [Windows Management Infrastructure (MI)], mi/MI_BooleanA, wmi._mi_booleana, wmi_v2.mi_booleana
 ms.topic: struct
 req.header: mi.h

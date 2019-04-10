@@ -7,7 +7,7 @@ old-location: com\pagerange.htm
 tech.root: com
 ms.assetid: b37d57e6-1634-4676-9f31-e3db2835983f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PAGERANGE, PAGERANGE structure [COM], _ctrl_PAGERANGE, com.pagerange, docobj/PAGERANGE
 ms.topic: struct
 req.header: docobj.h

@@ -7,7 +7,7 @@ old-location: edp\srpenablepermissivemodefileencryption_.htm
 tech.root: EDP
 ms.assetid: 4CC6D174-55FC-40D7-BE7B-5F56B27DA225
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EDP.srpenablepermissivemodefileencryption_, SrpEnablePermissiveModeFileEncryption, SrpEnablePermissiveModeFileEncryption , SrpEnablePermissiveModeFileEncryption function, srpapi/SrpEnablePermissiveModeFileEncryption
 ms.topic: function
 req.header: srpapi.h

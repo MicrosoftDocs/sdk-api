@@ -7,7 +7,7 @@ old-location: base\unregisterdevicenotification.htm
 tech.root: devio
 ms.assetid: bcc0cf87-f996-47b5-937c-14a6332d00d9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: UnregisterDeviceNotification, UnregisterDeviceNotification function, _win32_unregisterdevicenotification, base.unregisterdevicenotification, winuser/UnregisterDeviceNotification
 ms.topic: function
 req.header: winuser.h

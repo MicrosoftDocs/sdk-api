@@ -7,7 +7,7 @@ old-location: rras\mibset.htm
 tech.root: RRAS
 ms.assetid: f1df3476-f6c5-4f7e-bc86-83e5f8d0cd57
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MibSet, PMIB_SET, PMIB_SET callback, PMIB_SET callback function [RAS], TBD, _mpr_mibset, routprot/PMIB_SET, rras.mibset
 ms.topic: callback
 req.header: routprot.h

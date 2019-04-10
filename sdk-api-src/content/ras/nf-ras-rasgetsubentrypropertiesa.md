@@ -7,7 +7,7 @@ old-location: rras\rasgetsubentryproperties.htm
 tech.root: RRAS
 ms.assetid: 6efe7824-54a1-491c-a568-21e23e98ed46
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RasGetSubEntryProperties, RasGetSubEntryProperties function [RAS], RasGetSubEntryPropertiesA, RasGetSubEntryPropertiesW, _ras_rasgetsubentryproperties, ras/RasGetSubEntryProperties, ras/RasGetSubEntryPropertiesA, ras/RasGetSubEntryPropertiesW, rras.rasgetsubentryproperties
 ms.topic: function
 req.header: ras.h

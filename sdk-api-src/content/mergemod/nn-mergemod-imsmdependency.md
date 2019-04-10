@@ -7,7 +7,7 @@ old-location: setup\imsmdependency_interface.htm
 tech.root: Msi
 ms.assetid: 517cf174-418a-4717-a25f-1736225016a1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMsmDependency, IMsmDependency interface, IMsmDependency interface,described, mergemod/IMsmDependency, setup.imsmdependency_interface
 ms.topic: interface
 req.header: mergemod.h

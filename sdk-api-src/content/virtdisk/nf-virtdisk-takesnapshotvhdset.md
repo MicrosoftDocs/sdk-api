@@ -7,7 +7,7 @@ old-location: vhd\takesnapshotvhdset.htm
 tech.root: VStor
 ms.assetid: 370C6DB2-EA0F-4B6F-BA14-CE14377E2314
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TakeSnapshotVhdSet, TakeSnapshotVhdSet function [VHD], vdssys/TakeSnapshotVhdSet, vhd.takesnapshotvhdset, virtdisk/TakeSnapshotVhdSet
 ms.topic: function
 req.header: virtdisk.h

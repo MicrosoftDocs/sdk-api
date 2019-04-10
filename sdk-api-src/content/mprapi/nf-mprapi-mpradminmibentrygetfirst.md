@@ -7,7 +7,7 @@ old-location: rras\mpradminmibentrygetfirst.htm
 tech.root: RRAS
 ms.assetid: e3c3ac47-d47c-4fd4-a064-b737bc40f190
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MprAdminMIBEntryGetFirst, MprAdminMIBEntryGetFirst function [RAS], _mpr_mpradminmibentrygetfirst, mprapi/MprAdminMIBEntryGetFirst, rras.mpradminmibentrygetfirst
 ms.topic: function
 req.header: mprapi.h

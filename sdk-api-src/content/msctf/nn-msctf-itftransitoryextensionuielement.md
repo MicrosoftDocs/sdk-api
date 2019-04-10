@@ -7,7 +7,7 @@ old-location: tsf\itftransitoryextensionuielement.htm
 tech.root: TSF
 ms.assetid: 37fd507b-6c06-4873-b8b4-11113edb1433
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITfTransitoryExtensionUIElement, ITfTransitoryExtensionUIElement interface [Text Services Framework], ITfTransitoryExtensionUIElement interface [Text Services Framework],described, _tsf_itftransitoryextensionuielement_ref, msctf/ITfTransitoryExtensionUIElement, tsf.itftransitoryextensionuielement
 ms.topic: interface
 req.header: msctf.h

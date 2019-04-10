@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrectangleclip_setbottom_idcompositionanima
 tech.root: directcomp
 ms.assetid: C8236E96-125E-4F8C-B85D-AF3ADDF0A825
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetBottom method, IDCompositionRectangleClip.SetBottom, IDCompositionRectangleClip.SetBottom(IDCompositionAnimation), IDCompositionRectangleClip::SetBottom, IDCompositionRectangleClip::SetBottom(IDCompositionAnimation), IDCompositionRectangleClip::SetBottom(IDCompositionAnimation*), SetBottom, SetBottom method [DirectComposition], SetBottom method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetBottom, directcomp.idcompositionrectangleclip_setbottom_idcompositionanimation
 ms.topic: method
 req.header: dcomp.h

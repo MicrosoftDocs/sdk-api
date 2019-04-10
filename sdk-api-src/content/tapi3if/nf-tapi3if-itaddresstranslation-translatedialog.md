@@ -7,7 +7,7 @@ old-location: tapi3\itaddresstranslation_translatedialog.htm
 tech.root: Tapi
 ms.assetid: fe744658-b5a7-4d22-bf8b-9c669be3da1e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITAddressTranslation interface [TAPI 2.2],TranslateDialog method, ITAddressTranslation.TranslateDialog, ITAddressTranslation::TranslateDialog, TranslateDialog, TranslateDialog method [TAPI 2.2], TranslateDialog method [TAPI 2.2],ITAddressTranslation interface, _tapi3_itaddresstranslation_translatedialog, tapi3.itaddresstranslation_translatedialog, tapi3if/ITAddressTranslation::TranslateDialog
 ms.topic: method
 req.header: tapi3if.h

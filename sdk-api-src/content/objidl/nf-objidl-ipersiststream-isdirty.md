@@ -7,7 +7,7 @@ old-location: com\ipersiststream_isdirty.htm
 tech.root: com
 ms.assetid: fabafc37-18f2-4def-b6bf-f7daa2bb8f37
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IPersistStream interface [COM],IsDirty method, IPersistStream.IsDirty, IPersistStream::IsDirty, IsDirty, IsDirty method [COM], IsDirty method [COM],IPersistStream interface, _com_ipersiststream_isdirty, com.ipersiststream_isdirty, objidl/IPersistStream::IsDirty
 ms.topic: method
 req.header: objidl.h

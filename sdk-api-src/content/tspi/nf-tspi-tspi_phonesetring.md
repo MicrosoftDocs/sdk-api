@@ -7,7 +7,7 @@ old-location: tspi\tspi_phonesetring.htm
 tech.root: Tapi
 ms.assetid: 8540f39e-4891-48d9-a5b0-b928eeb4be0d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TSPI_phoneSetRing, TSPI_phoneSetRing function [TAPI 2.2], _tspi_tspi_phonesetring, tspi.tspi_phonesetring, tspi/TSPI_phoneSetRing
 ms.topic: function
 req.header: tspi.h

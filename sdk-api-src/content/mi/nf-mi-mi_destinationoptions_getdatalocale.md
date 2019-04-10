@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_getdatalocale.htm
 tech.root: wmi_v2
 ms.assetid: 301cf7d1-0df3-43e6-940d-4c0f29c8cd76
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_GetDataLocale, MI_DestinationOptions_GetDataLocale function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetDataLocale, wmi_v2.mi_destinationoptions_getdatalocale
 ms.topic: function
 req.header: mi.h

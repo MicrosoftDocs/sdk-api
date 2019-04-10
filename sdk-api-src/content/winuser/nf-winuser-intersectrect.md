@@ -7,7 +7,7 @@ old-location: gdi\intersectrect.htm
 tech.root: gdi
 ms.assetid: da686f78-e557-4ff2-9f24-b229f0c01563
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IntersectRect, IntersectRect function [Windows GDI], _win32_IntersectRect, gdi.intersectrect, winuser/IntersectRect
 ms.topic: function
 req.header: winuser.h

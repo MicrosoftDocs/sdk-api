@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaDataTransfer_idtQueryGetData.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatatransfer\idtquerygetdata.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWiaDataTransfer interface [WIA],idtQueryGetData method, IWiaDataTransfer.idtQueryGetData, IWiaDataTransfer::idtQueryGetData, _wia_IWiaDataTransfer_idtQueryGetData, idtQueryGetData, idtQueryGetData method [WIA], idtQueryGetData method [WIA],IWiaDataTransfer interface, wia._wia_IWiaDataTransfer_idtQueryGetData, wia_xp/IWiaDataTransfer::idtQueryGetData
 ms.topic: method
 req.header: wia_xp.h

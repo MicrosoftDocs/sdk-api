@@ -7,7 +7,7 @@ old-location: base\ivdsdisk_getproperties.htm
 tech.root: VDS
 ms.assetid: d2046a26-852d-46b2-b060-98b4a2a92387
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsDisk interface, IVdsDisk interface [VDS],GetProperties method, IVdsDisk.GetProperties, IVdsDisk::GetProperties, base.ivdsdisk_getproperties, vds/IVdsDisk::GetProperties
 ms.topic: method
 req.header: vds.h

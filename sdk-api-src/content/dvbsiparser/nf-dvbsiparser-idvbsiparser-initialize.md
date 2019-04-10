@@ -7,7 +7,7 @@ old-location: mstv\idvbsiparser_initialize.htm
 tech.root: mstv
 ms.assetid: 2724f8b4-99bc-477d-bf9e-cc18f56a465b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDvbSiParser interface [Microsoft TV Technologies],Initialize method, IDvbSiParser.Initialize, IDvbSiParser::Initialize, IDvbSiParserInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IDvbSiParser interface, dvbsiparser/IDvbSiParser::Initialize, mstv.idvbsiparser_initialize
 ms.topic: method
 req.header: dvbsiparser.h

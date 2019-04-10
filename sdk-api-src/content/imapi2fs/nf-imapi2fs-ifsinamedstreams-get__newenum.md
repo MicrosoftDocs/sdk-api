@@ -7,7 +7,7 @@ old-location: imapi\ifsinamedstreams_get_newenum.htm
 tech.root: imapi
 ms.assetid: ea1a14fe-91f0-4710-9d15-66a4c415f541
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFsiNamedStreams interface [IMAPI],get__NewEnum method, IFsiNamedStreams.get__NewEnum, IFsiNamedStreams::get__NewEnum, get__NewEnum, get__NewEnum method [IMAPI], get__NewEnum method [IMAPI],IFsiNamedStreams interface, imapi.ifsinamedstreams_get_newenum, imapi2fs/IFsiNamedStreams::get__NewEnum
 ms.topic: method
 req.header: imapi2fs.h

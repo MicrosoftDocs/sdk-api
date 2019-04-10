@@ -7,7 +7,7 @@ old-location: rpc\rpcserveruseallprotseqs.htm
 tech.root: Rpc
 ms.assetid: e7379656-d6b7-4e5f-9251-7b112a40c6d5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RpcServerUseAllProtseqs, RpcServerUseAllProtseqs function [RPC], _rpc_rpcserveruseallprotseqs, rpc.rpcserveruseallprotseqs, rpcdce/RpcServerUseAllProtseqs
 ms.topic: function
 req.header: rpcdce.h

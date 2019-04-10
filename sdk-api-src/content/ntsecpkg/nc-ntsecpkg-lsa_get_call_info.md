@@ -7,7 +7,7 @@ old-location: security\getcallinfo.htm
 tech.root: SecAuthN
 ms.assetid: 3e59ee6a-f7ba-4886-98f7-74ffbfaadea7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetCallInfo, GetCallInfo callback function [Security], LSA_GET_CALL_INFO, LSA_GET_CALL_INFO callback, _ssp_getcallinfo, ntsecpkg/GetCallInfo, security.getcallinfo
 ms.topic: callback
 req.header: ntsecpkg.h

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationNotificationEventHandler.htm
 tech.root: WinAuto
 ms.assetid: 7E12B8C2-D6A7-4637-9049-312B78EC01DE
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IUIAutomationNotificationEventHandler, IUIAutomationNotificationEventHandler interface [Windows Accessibility], IUIAutomationNotificationEventHandler interface [Windows Accessibility],described, uiautomationclient/IUIAutomationNotificationEventHandler, winauto.uiauto_IUIAutomationNotificationEventHandler
 ms.topic: interface
 req.header: uiautomationclient.h

@@ -7,7 +7,7 @@ old-location: base\ivdsiscsiportal_getipsecsecurity.htm
 tech.root: VDS
 ms.assetid: c815856f-94a2-4748-b9ac-54a2ef69c97e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetIpsecSecurity, GetIpsecSecurity method, GetIpsecSecurity method,IVdsIscsiPortal interface, IVdsIscsiPortal interface,GetIpsecSecurity method, IVdsIscsiPortal.GetIpsecSecurity, IVdsIscsiPortal::GetIpsecSecurity, base.ivdsiscsiportal_getipsecsecurity, vds/IVdsIscsiPortal::GetIpsecSecurity, vdshwprv/IVdsIscsiPortal::GetIpsecSecurity
 ms.topic: method
 req.header: vdshwprv.h

@@ -7,7 +7,7 @@ old-location: vhd\expand_virtual_disk_version.htm
 tech.root: VStor
 ms.assetid: 28651993-81ad-4dfc-9c8b-3768fab5d3ae
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EXPAND_VIRTUAL_DISK_VERSION, EXPAND_VIRTUAL_DISK_VERSION enumeration [VHD], EXPAND_VIRTUAL_DISK_VERSION_1, EXPAND_VIRTUAL_DISK_VERSION_UNSPECIFIED, vdssys/EXPAND_VIRTUAL_DISK_VERSION, vdssys/EXPAND_VIRTUAL_DISK_VERSION_1, vdssys/EXPAND_VIRTUAL_DISK_VERSION_UNSPECIFIED, vhd.expand_virtual_disk_version, virtdisk/EXPAND_VIRTUAL_DISK_VERSION, virtdisk/EXPAND_VIRTUAL_DISK_VERSION_1, virtdisk/EXPAND_VIRTUAL_DISK_VERSION_UNSPECIFIED
 ms.topic: enum
 req.header: virtdisk.h

@@ -7,7 +7,7 @@ old-location: base\getnumahighestnodenumber.htm
 tech.root: ProcThread
 ms.assetid: ce944fa7-b42a-4b99-ac8d-30bd026fba21
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetNumaHighestNodeNumber, GetNumaHighestNodeNumber function, _win32_getnumahighestnodenumber, base.getnumahighestnodenumber, systemtopologyapi/GetNumaHighestNodeNumber, winbase/GetNumaHighestNodeNumber
 ms.topic: function
 req.header: systemtopologyapi.h

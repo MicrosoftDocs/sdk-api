@@ -7,7 +7,7 @@ old-location: taskschd\itaskhandlerstatus_updatestatus.htm
 tech.root: taskschd
 ms.assetid: 3cab2b3b-7293-4d06-843f-9151d62d4950
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITaskHandlerStatus interface [Task Scheduler],UpdateStatus method, ITaskHandlerStatus.UpdateStatus, ITaskHandlerStatus::UpdateStatus, UpdateStatus, UpdateStatus method [Task Scheduler], UpdateStatus method [Task Scheduler],ITaskHandlerStatus interface, taskschd.itaskhandlerstatus_updatestatus, taskschd/ITaskHandlerStatus::UpdateStatus
 ms.topic: method
 req.header: taskschd.h

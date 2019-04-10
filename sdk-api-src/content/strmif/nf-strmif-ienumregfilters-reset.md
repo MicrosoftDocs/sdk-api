@@ -7,7 +7,7 @@ old-location: dshow\ienumregfilters_reset.htm
 tech.root: DirectShow
 ms.assetid: 095d0102-c845-48ba-a1f5-e0262a924b50
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEnumRegFilters interface [DirectShow],Reset method, IEnumRegFilters.Reset, IEnumRegFilters::Reset, IEnumRegFiltersReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumRegFilters interface, dshow.ienumregfilters_reset, strmif/IEnumRegFilters::Reset
 ms.topic: method
 req.header: strmif.h

@@ -7,7 +7,7 @@ old-location: tapi3\itacdgroup.htm
 tech.root: Tapi
 ms.assetid: 73e23023-5574-4c5a-bdff-cbc7da765a65
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITACDGroup, ITACDGroup interface [TAPI 2.2], ITACDGroup interface [TAPI 2.2],described, _tapi3_itacdgroup, tapi3.itacdgroup, tapi3cc/ITACDGroup
 ms.topic: interface
 req.header: tapi3.h

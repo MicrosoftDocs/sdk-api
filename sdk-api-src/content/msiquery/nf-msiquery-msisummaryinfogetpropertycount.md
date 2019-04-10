@@ -7,7 +7,7 @@ old-location: setup\msisummaryinfogetpropertycount.htm
 tech.root: Msi
 ms.assetid: 8a9fe9cc-8289-479a-acda-ce2a2b76705f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MsiSummaryInfoGetPropertyCount, MsiSummaryInfoGetPropertyCount function, _msi_msisummaryinfogetpropertycount, msiquery/MsiSummaryInfoGetPropertyCount, setup.msisummaryinfogetpropertycount
 ms.topic: function
 req.header: msiquery.h

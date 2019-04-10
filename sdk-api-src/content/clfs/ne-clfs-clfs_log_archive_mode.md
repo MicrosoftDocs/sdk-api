@@ -7,7 +7,7 @@ old-location: fs\clfs_log_archive_mode.htm
 tech.root: Clfs
 ms.assetid: 448d79cd-d959-4585-877e-0f70b44f3172
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PCLFS_LOG_ARCHIVE_MODE, CLFS_LOG_ARCHIVE_MODE, CLFS_LOG_ARCHIVE_MODE enumeration [Files], ClfsLogArchiveDisabled, ClfsLogArchiveEnabled, PCLFS_LOG_ARCHIVE_MODE, PCLFS_LOG_ARCHIVE_MODE enumeration pointer [Files], clfs/CLFS_LOG_ARCHIVE_MODE, clfs/ClfsLogArchiveDisabled, clfs/ClfsLogArchiveEnabled, clfs/PCLFS_LOG_ARCHIVE_MODE, fs.clfs_log_archive_mode"
 ms.topic: enum
 req.header: clfs.h

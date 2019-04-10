@@ -7,7 +7,7 @@ old-location: wsw\ws_service_contract.htm
 tech.root: wsw
 ms.assetid: 77bd8c1e-0596-44d7-be99-356d052ee6c1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_SERVICE_CONTRACT, WS_SERVICE_CONTRACT structure [Web Services for Windows], webservices/WS_SERVICE_CONTRACT, wsw.ws_service_contract
 ms.topic: struct
 req.header: webservices.h

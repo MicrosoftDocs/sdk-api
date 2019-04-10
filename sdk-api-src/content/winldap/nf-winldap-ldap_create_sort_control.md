@@ -7,7 +7,7 @@ old-location: ldap\ldap_create_sort_control.htm
 tech.root: ldap
 ms.assetid: bbf8f860-ead8-4b22-8efa-0697076267ad
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_create_sort_control, ldap.ldap__create__sort__control, ldap.ldap_create_sort_control, ldap_create_sort_control, ldap_create_sort_control function [LDAP], ldap_create_sort_controlA, ldap_create_sort_controlW, winldap/ldap_create_sort_control, winldap/ldap_create_sort_controlA, winldap/ldap_create_sort_controlW"
 ms.topic: function
 req.header: winldap.h

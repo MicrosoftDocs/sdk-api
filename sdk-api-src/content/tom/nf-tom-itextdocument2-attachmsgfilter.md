@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_attachmsgfilter.htm
 tech.root: Controls
 ms.assetid: 055b9d59-59cc-4922-b6b9-920885969dbc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AttachMsgFilter, AttachMsgFilter method [Windows Controls], AttachMsgFilter method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],AttachMsgFilter method, ITextDocument2.AttachMsgFilter, ITextDocument2::AttachMsgFilter, controls.itextdocument2_attachmsgfilter, tom/ITextDocument2::AttachMsgFilter
 ms.topic: method
 req.header: tom.h

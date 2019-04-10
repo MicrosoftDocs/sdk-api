@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxaccount_cpp_mfax_faxaccount_registeredevents_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccount\registeredevents.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFaxAccount interface [Fax Service],RegisteredEvents property, IFaxAccount.RegisteredEvents, IFaxAccount.get_RegisteredEvents, IFaxAccount::RegisteredEvents, IFaxAccount::get_RegisteredEvents, RegisteredEvents property [Fax Service], RegisteredEvents property [Fax Service],IFaxAccount interface, _mfax_faxaccount.registeredevents, fax._mfax_faxaccount_cpp_mfax_faxaccount_registeredevents_cpp, fax._mfax_faxaccount_registeredevents, faxcomex/IFaxAccount::RegisteredEvents, faxcomex/IFaxAccount::get_RegisteredEvents, get_RegisteredEvents
 ms.topic: method
 req.header: faxcomex.h

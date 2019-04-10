@@ -7,7 +7,7 @@ old-location: base\leavecriticalsectionwhencallbackreturns.htm
 tech.root: ProcThread
 ms.assetid: 43ce27ee-207c-4317-9771-d82f1f4edda2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: LeaveCriticalSectionWhenCallbackReturns, LeaveCriticalSectionWhenCallbackReturns function, base.leavecriticalsectionwhencallbackreturns, threadpoolapiset/LeaveCriticalSectionWhenCallbackReturns, winbase/LeaveCriticalSectionWhenCallbackReturns
 ms.topic: function
 req.header: threadpoolapiset.h

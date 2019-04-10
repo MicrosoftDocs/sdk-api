@@ -7,7 +7,7 @@ old-location: dxmath\xmshort2_operator_eq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMSHORT2.operator = (const XMSHORT2)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMSHORT2.operator =, DirectX::PackedVector::XMSHORT2::operator =, XMSHORT2 structure [DirectX Math Support APIs],operator = method, XMSHORT2.operator =, XMSHORT2.operator-assign, XMSHORT2.operator=, XMSHORT2::operator-assign, XMSHORT2::operator=, dxmath.xmshort2_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMSHORT2 structure, operator=
 ms.topic: method
 req.header: directxpackedvector.h

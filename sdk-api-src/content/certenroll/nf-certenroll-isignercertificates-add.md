@@ -7,7 +7,7 @@ old-location: security\isignercertificates_add_method.htm
 tech.root: seccertenroll
 ms.assetid: 985bda2c-caad-4910-9e9c-d673975953aa
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ISignerCertificates interface, ISignerCertificates interface [Security],Add method, ISignerCertificates.Add, ISignerCertificates::Add, certenroll/ISignerCertificates::Add, security.isignercertificates_add_method
 ms.topic: method
 req.header: certenroll.h

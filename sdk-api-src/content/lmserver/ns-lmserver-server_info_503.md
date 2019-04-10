@@ -7,7 +7,7 @@ old-location: netmgmt\server_info_503_str.htm
 tech.root: NetMgmt
 ms.assetid: c6ad20ed-9f2b-4cbe-ac2e-a57acf1b32ea
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPSERVER_INFO_503, *PSERVER_INFO_503, LPSERVER_INFO_503, LPSERVER_INFO_503 structure pointer [Network Management], PSERVER_INFO_503, PSERVER_INFO_503 structure pointer [Network Management], SERVER_INFO_503, SERVER_INFO_503 structure [Network Management], _win32_server_info_503_str, lmserver/LPSERVER_INFO_503, lmserver/PSERVER_INFO_503, lmserver/SERVER_INFO_503, netmgmt.server_info_503_str"
 ms.topic: struct
 req.header: lmserver.h

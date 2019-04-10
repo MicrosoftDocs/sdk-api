@@ -7,7 +7,7 @@ old-location: nwifi\ienumdot11adhocsecuritysettings.htm
 tech.root: NativeWiFi
 ms.assetid: 137abd1b-997d-4003-9fef-8db56b273149
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEnumDot11AdHocSecuritySettings, IEnumDot11AdHocSecuritySettings interface [NativeWIFI], IEnumDot11AdHocSecuritySettings interface [NativeWIFI],described, adhoc/IEnumDot11AdHocSecuritySettings, nwifi.ienumdot11adhocsecuritysettings
 ms.topic: interface
 req.header: adhoc.h

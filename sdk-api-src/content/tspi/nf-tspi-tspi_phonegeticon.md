@@ -7,7 +7,7 @@ old-location: tspi\tspi_phonegeticon.htm
 tech.root: Tapi
 ms.assetid: 765a0f52-9360-4190-abc8-597028f781ac
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TSPI_phoneGetIcon, TSPI_phoneGetIcon function [TAPI 2.2], _tspi_tspi_phonegeticon, tspi.tspi_phonegeticon, tspi/TSPI_phoneGetIcon
 ms.topic: function
 req.header: tspi.h

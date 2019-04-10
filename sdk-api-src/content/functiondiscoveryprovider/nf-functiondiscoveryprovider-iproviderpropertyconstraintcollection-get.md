@@ -7,7 +7,7 @@ old-location: ncd\iproviderpropertyconstraintcollection_get.htm
 tech.root: FunDisc
 ms.assetid: 0388d895-07bb-490c-9fce-0821a51d765a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Get, Get method, Get method,IProviderPropertyConstraintCollection interface, IProviderPropertyConstraintCollection interface,Get method, IProviderPropertyConstraintCollection.Get, IProviderPropertyConstraintCollection::Get, functiondiscoveryprovider/IProviderPropertyConstraintCollection::Get, ncd.iproviderpropertyconstraintcollection_get
 ms.topic: method
 req.header: functiondiscoveryprovider.h

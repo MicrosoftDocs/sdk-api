@@ -7,7 +7,7 @@ old-location: wmformat\iwmclientconnections.htm
 tech.root: wmformat
 ms.assetid: fea7cd85-22ab-4f3b-8a0a-301496f0c788
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMClientConnections, IWMClientConnections interface [windows Media Format], IWMClientConnections interface [windows Media Format],described, IWMClientConnectionsInterface, wmformat.iwmclientconnections, wmsdkidl/IWMClientConnections
 ms.topic: interface
 req.header: wmsdkidl.h

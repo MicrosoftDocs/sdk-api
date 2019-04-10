@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingjob_cpp_mfax_faxincomingjob_routinginformatio
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_85gu.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFaxIncomingJob interface [Fax Service],RoutingInformation property, IFaxIncomingJob.RoutingInformation, IFaxIncomingJob.get_RoutingInformation, IFaxIncomingJob::RoutingInformation, IFaxIncomingJob::get_RoutingInformation, RoutingInformation property [Fax Service], RoutingInformation property [Fax Service],IFaxIncomingJob interface, _mfax_faxincomingjob.routinginformation, fax._mfax_faxincomingjob_cpp_mfax_faxincomingjob_routinginformation_cpp, fax._mfax_faxincomingjob_routinginformation, faxcomex/IFaxIncomingJob::RoutingInformation, faxcomex/IFaxIncomingJob::get_RoutingInformation, get_RoutingInformation
 ms.topic: method
 req.header: faxcomex.h

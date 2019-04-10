@@ -7,7 +7,7 @@ old-location: shell\IDisplayItem.htm
 tech.root: shell
 ms.assetid: 78e06db0-9440-4578-bc17-96444946432a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDisplayItem, IDisplayItem interface [Windows Shell], IDisplayItem interface [Windows Shell],described, _shell_IDisplayItem, shell.IDisplayItem, shobjidl_core/IDisplayItem
 ms.topic: interface
 req.header: shobjidl_core.h

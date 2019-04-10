@@ -7,7 +7,7 @@ old-location: winsock\ntohl_2.htm
 tech.root: WinSock
 ms.assetid: 04673bef-22c6-424f-a5ae-689fb648b54e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_win32_ntohl_2, ntohl, ntohl function [Winsock], winsock.ntohl_2, winsock/ntohl"
 ms.topic: function
 req.header: winsock2.h

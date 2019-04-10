@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaGetReservedNotSupportedValueAutoMeth.htm
 tech.root: WinAuto
 ms.assetid: ba789ed0-fa34-492c-90b4-acee0adb634c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: UiaGetReservedNotSupportedValue, UiaGetReservedNotSupportedValue function [Windows Accessibility], uiauto.uiauto_UiaGetReservedNotSupportedValueAutoMeth, uiauto_UiaGetReservedNotSupportedValueAutoMeth, uiautomationcoreapi/UiaGetReservedNotSupportedValue, winauto.uiauto_UiaGetReservedNotSupportedValueAutoMeth
 ms.topic: function
 req.header: uiautomationcoreapi.h

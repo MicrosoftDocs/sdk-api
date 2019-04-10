@@ -7,7 +7,7 @@ old-location: mf\imfsensorprofilecollection.htm
 tech.root: medfound
 ms.assetid: 406EDC3F-39AD-41E0-A8AA-E4476C93F353
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMFSensorProfileCollection, IMFSensorProfileCollection interface [Media Foundation], IMFSensorProfileCollection interface [Media Foundation],described, mf.imfsensorprofilecollection, mfidl/IMFSensorProfileCollection
 ms.topic: interface
 req.header: mfidl.h

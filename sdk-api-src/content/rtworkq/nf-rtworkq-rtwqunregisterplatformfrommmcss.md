@@ -7,7 +7,7 @@ old-location: base\rtwqunregisterplatformfrommmcss.htm
 tech.root: ProcThread
 ms.assetid: 12fca5ba-640d-4c6f-878b-7744331bbcff
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RtwqUnregisterPlatformFromMMCSS, RtwqUnregisterPlatformFromMMCSS function, base.rtwqunregisterplatformfrommmcss, rtworkq/RtwqUnregisterPlatformFromMMCSS
 ms.topic: function
 req.header: rtworkq.h

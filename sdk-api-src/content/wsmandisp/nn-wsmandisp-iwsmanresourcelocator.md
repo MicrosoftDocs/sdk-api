@@ -7,7 +7,7 @@ old-location: winrm\iwsmanresourcelocator.htm
 tech.root: winrm
 ms.assetid: 7b3dcb53-d02c-4ba6-973d-1493ba442387
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWSManResourceLocator, IWSManResourceLocator interface [Windows Remote Management], IWSManResourceLocator interface [Windows Remote Management],described, winrm.iwsmanresourcelocator, wsmandisp/IWSManResourceLocator
 ms.topic: interface
 req.header: wsmandisp.h

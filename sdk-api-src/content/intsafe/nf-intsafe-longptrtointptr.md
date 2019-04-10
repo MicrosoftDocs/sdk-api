@@ -7,7 +7,7 @@ old-location: shell\LongPtrToIntPtr.htm
 tech.root: shell
 ms.assetid: 727fc291-b2cc-447e-b640-51c451a14a51
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: LongPtrToIntPtr, LongPtrToIntPtr function [Windows Shell], SSIZETToIntPtr, _shell_LongPtrToIntPtr, intsafe/LongPtrToIntPtr, shell.LongPtrToIntPtr
 ms.topic: function
 req.header: intsafe.h

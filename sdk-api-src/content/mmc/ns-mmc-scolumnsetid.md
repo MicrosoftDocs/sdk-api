@@ -7,7 +7,7 @@ old-location: mmc\scolumnsetid.htm
 tech.root: mmc
 ms.assetid: eb08f699-74bc-445d-96b7-678abbd366b3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SColumnSetID, SColumnSetID structure [MMC], _slate_scolumnsetid, mmc.scolumnsetid, mmc/SColumnSetID
 ms.topic: struct
 req.header: mmc.h

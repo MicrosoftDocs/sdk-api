@@ -7,7 +7,7 @@ old-location: dhcp\dhcpremoveoptionvaluev5.htm
 tech.root: DHCP
 ms.assetid: 3fe45007-0de2-4905-96d7-fe351c81ae30
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpRemoveOptionValueV5, DhcpRemoveOptionValueV5 function [DHCP], dhcp.dhcpremoveoptionvaluev5, dhcpsapi/DhcpRemoveOptionValueV5
 ms.topic: function
 req.header: dhcpsapi.h

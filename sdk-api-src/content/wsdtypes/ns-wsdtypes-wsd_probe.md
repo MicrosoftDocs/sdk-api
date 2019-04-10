@@ -7,7 +7,7 @@ old-location: ncd\wsd_probe_struct.htm
 tech.root: WsdApi
 ms.assetid: f84f7e77-ffe2-41af-a10f-a626466e9847
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WSD_PROBE, WSD_PROBE structure, ncd.wsd_probe_struct, wsdtypes/WSD_PROBE
 ms.topic: struct
 req.header: wsdtypes.h

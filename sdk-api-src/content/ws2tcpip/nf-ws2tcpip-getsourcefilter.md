@@ -7,7 +7,7 @@ old-location: winsock\getsourcefilter.htm
 tech.root: WinSock
 ms.assetid: 2CA84000-F114-439D-BEDE-9990044C7785
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: getsourcefilter, getsourcefilter function [Winsock], winsock.getsourcefilter, ws2tcpip/getsourcefilter
 ms.topic: function
 req.header: ws2tcpip.h

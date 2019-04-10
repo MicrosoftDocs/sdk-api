@@ -7,7 +7,7 @@ old-location: security\isecurityinformation.htm
 tech.root: SecAuthZ
 ms.assetid: 38d94f36-f149-4b62-a710-8f7359bfd8cd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ISecurityInformation, ISecurityInformation interface [Security], ISecurityInformation interface [Security],described, _win32_isecurityinformation, aclui/ISecurityInformation, security.isecurityinformation
 ms.topic: interface
 req.header: aclui.h

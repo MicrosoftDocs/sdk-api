@@ -7,7 +7,7 @@ old-location: mstv\ibda_tif_registration.htm
 tech.root: mstv
 ms.assetid: 96c76a81-57c9-4c4b-a5f6-7b9862757847
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IBDA_TIF_REGISTRATION, IBDA_TIF_REGISTRATION interface [Microsoft TV Technologies], IBDA_TIF_REGISTRATION interface [Microsoft TV Technologies],described, IBDA_TIF_REGISTRATIONInterface, bdatif/IBDA_TIF_REGISTRATION, mstv.ibda_tif_registration
 ms.topic: interface
 req.header: bdatif.h

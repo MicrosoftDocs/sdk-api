@@ -7,7 +7,7 @@ old-location: base\powerreportthermalevent.htm
 tech.root: power
 ms.assetid: DD3DE1B2-17C1-4FF8-9DF8-BEF35933D913
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PowerReportThermalEvent, PowerReportThermalEvent function, base.powerreportthermalevent, powrprof/PowerReportThermalEvent
 ms.topic: function
 req.header: powrprof.h

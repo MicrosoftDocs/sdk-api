@@ -7,7 +7,7 @@ old-location: taskschd\iprincipal_id.htm
 tech.root: taskschd
 ms.assetid: 70c31ea8-508a-4971-b62a-b94e87a8857d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IPrincipal interface [Task Scheduler],Id property, IPrincipal.Id, IPrincipal.put_Id, IPrincipal::Id, IPrincipal::get_Id, IPrincipal::put_Id, Id property [Task Scheduler], Id property [Task Scheduler],IPrincipal interface, put_Id, taskschd.iprincipal_id, taskschd/IPrincipal::Id, taskschd/IPrincipal::get_Id, taskschd/IPrincipal::put_Id
 ms.topic: method
 req.header: taskschd.h

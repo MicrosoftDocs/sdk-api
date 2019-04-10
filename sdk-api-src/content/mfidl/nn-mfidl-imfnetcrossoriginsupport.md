@@ -7,7 +7,7 @@ old-location: mf\imfnetcrossoriginsupport.htm
 tech.root: medfound
 ms.assetid: 239E5731-4425-46D4-AFEC-F3E59258B1DF
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMFNetCrossOriginSupport, IMFNetCrossOriginSupport interface [Media Foundation], IMFNetCrossOriginSupport interface [Media Foundation],described, mf.imfnetcrossoriginsupport, mfidl/IMFNetCrossOriginSupport
 ms.topic: interface
 req.header: mfidl.h

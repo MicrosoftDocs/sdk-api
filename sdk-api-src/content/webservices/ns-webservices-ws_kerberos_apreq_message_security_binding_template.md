@@ -7,7 +7,7 @@ old-location: wsw\ws_kerberos_apreq_message_security_binding_template.htm
 tech.root: wsw
 ms.assetid: 7dabbc5e-2953-43dc-8ee9-e4ac3114c85a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TEMPLATE, WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TEMPLATE structure [Web Services for Windows], webservices/WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TEMPLATE, wsw.ws_kerberos_apreq_message_security_binding_template
 ms.topic: struct
 req.header: webservices.h

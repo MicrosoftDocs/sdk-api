@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromGUIDAsString.htm
 tech.root: properties
 ms.assetid: 2a78257a-a8ce-45e8-aea2-dfa9f380528a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: InitVariantFromGUIDAsString, InitVariantFromGUIDAsString function [Windows Shell], _shell_InitVariantFromGUIDAsString, properties.InitVariantFromGUIDAsString, propvarutil/InitVariantFromGUIDAsString
 ms.topic: function
 req.header: propvarutil.h

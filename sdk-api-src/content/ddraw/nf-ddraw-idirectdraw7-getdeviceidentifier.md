@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_getdeviceidentifier.htm
 tech.root: directdraw
 ms.assetid: 1524dae8-e383-47f4-8e18-c8ef235b3176
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DDGDI_GETHOSTIDENTIFIER, GetDeviceIdentifier, GetDeviceIdentifier method [DirectDraw], GetDeviceIdentifier method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetDeviceIdentifier method, IDirectDraw7.GetDeviceIdentifier, IDirectDraw7::GetDeviceIdentifier, ddraw/IDirectDraw7::GetDeviceIdentifier, directdraw.idirectdraw7_getdeviceidentifier
 ms.topic: method
 req.header: ddraw.h

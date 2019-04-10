@@ -7,7 +7,7 @@ old-location: tapi3\itqosevent_get_call.htm
 tech.root: Tapi
 ms.assetid: e91772da-948a-4d0a-999e-cdd51951fca2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITQOSEvent interface [TAPI 2.2],get_Call method, ITQOSEvent.get_Call, ITQOSEvent::get_Call, _tapi3_itqosevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITQOSEvent interface, tapi3.itqosevent_get_call, tapi3if/ITQOSEvent::get_Call
 ms.topic: method
 req.header: tapi3if.h

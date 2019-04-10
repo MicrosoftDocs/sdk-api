@@ -7,7 +7,7 @@ old-location: base\timeprovclose.htm
 tech.root: SysInfo
 ms.assetid: ca8f5c8b-8c46-46eb-8d15-4c0c8a8437dd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TimeProvClose, TimeProvClose callback, TimeProvClose callback function, _win32_timeprovclose, base.timeprovclose, timeprov/TimeProvClose
 ms.topic: function
 req.header: timeprov.h

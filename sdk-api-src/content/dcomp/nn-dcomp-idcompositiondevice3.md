@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiondevice3.htm
 tech.root: directcomp
 ms.assetid: 5da076dc-360d-0b28-f131-8669d1a91dd6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDCompositionDevice3, IDCompositionDevice3 interface [DirectComposition], IDCompositionDevice3 interface [DirectComposition],described, dcomp/IDCompositionDevice3, directcomp.idcompositiondevice3
 ms.topic: interface
 req.header: dcomp.h

@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_reader_mtom_encoding.htm
 tech.root: wsw
 ms.assetid: dec4d9ad-71d3-48f9-b6c3-49cf6bcb85fb
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_XML_READER_MTOM_ENCODING, WS_XML_READER_MTOM_ENCODING structure [Web Services for Windows], webservices/WS_XML_READER_MTOM_ENCODING, wsw.ws_xml_reader_mtom_encoding
 ms.topic: struct
 req.header: webservices.h

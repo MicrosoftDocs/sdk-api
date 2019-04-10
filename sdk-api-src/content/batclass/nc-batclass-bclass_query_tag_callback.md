@@ -7,7 +7,7 @@ old-location: battery\batteryminiquerytag.htm
 tech.root: battery
 ms.assetid: 030b7f5f-8ace-4dfc-8330-97aace86a1eb
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BCLASS_QUERY_TAG_CALLBACK, BCLASS_QUERY_TAG_CALLBACK callback, BatteryMiniQueryTag, BatteryMiniQueryTag callback function [Battery Devices], bat-mini_67f7c8df-433f-43fa-bca1-206f9e0932bb.xml, batclass/BatteryMiniQueryTag, battery.batteryminiquerytag
 ms.topic: callback
 req.header: batclass.h

@@ -7,7 +7,7 @@ old-location: shell\IOpenControlPanel_Open.htm
 tech.root: shell
 ms.assetid: 9485540b-0c3a-46f7-8c79-55991f943809
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IOpenControlPanel interface [Windows Shell],Open method, IOpenControlPanel.Open, IOpenControlPanel::Open, Open, Open method [Windows Shell], Open method [Windows Shell],IOpenControlPanel interface, _shell_IOpenControlPanel_Open, shell.IOpenControlPanel_Open, shobjidl_core/IOpenControlPanel::Open
 ms.topic: method
 req.header: shobjidl_core.h

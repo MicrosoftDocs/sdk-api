@@ -7,7 +7,7 @@ old-location: shell\CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION.htm
 tech.root: shell
 ms.assetid: 55ff9be3-490d-4f82-92a0-3551ccbcaade
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION, CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION structure [Windows Shell], _shell_CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION, credentialprovider/CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION, shell.CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION
 ms.topic: struct
 req.header: credentialprovider.h

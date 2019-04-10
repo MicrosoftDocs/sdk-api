@@ -7,7 +7,7 @@ old-location: tapi3\itagentsession_get_totaltalktime.htm
 tech.root: Tapi
 ms.assetid: 57871df2-cd9b-440b-ab33-51a8eb7398c1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_TotalTalkTime method, ITAgentSession.get_TotalTalkTime, ITAgentSession::get_TotalTalkTime, _tapi3_itagentsession_get_totaltalktime, get_TotalTalkTime, get_TotalTalkTime method [TAPI 2.2], get_TotalTalkTime method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_totaltalktime, tapi3cc/ITAgentSession::get_TotalTalkTime
 ms.topic: method
 req.header: tapi3cc.h

@@ -7,7 +7,7 @@ old-location: tapi3\itqueue_get_measurementperiod.htm
 tech.root: Tapi
 ms.assetid: 931fb7dd-8c9b-4b1e-9296-6335e5a7e164
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITQueue interface [TAPI 2.2],get_MeasurementPeriod method, ITQueue.get_MeasurementPeriod, ITQueue::get_MeasurementPeriod, _tapi3_itqueue_get_measurementperiod, get_MeasurementPeriod, get_MeasurementPeriod method [TAPI 2.2], get_MeasurementPeriod method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_measurementperiod, tapi3cc/ITQueue::get_MeasurementPeriod
 ms.topic: method
 req.header: tapi3.h

@@ -7,7 +7,7 @@ old-location: automat\safearrayallocdata.htm
 tech.root: automat
 ms.assetid: a1f984cd-9638-415d-8582-25b1bdfbd694
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SafeArrayAllocData, SafeArrayAllocData function [Automation], _oa96_SafeArrayAllocData, automat.safearrayallocdata, oleauto/SafeArrayAllocData
 ms.topic: function
 req.header: oleauto.h

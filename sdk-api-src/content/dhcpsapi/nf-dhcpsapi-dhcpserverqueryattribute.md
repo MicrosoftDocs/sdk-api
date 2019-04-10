@@ -7,7 +7,7 @@ old-location: dhcp\dhcpserverqueryattribute.htm
 tech.root: DHCP
 ms.assetid: 8a522a8d-0b65-4dce-a785-d2b0c70e2794
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DhcpServerQueryAttribute, DhcpServerQueryAttribute function [DHCP], dhcp.dhcpserverqueryattribute, dhcpsapi/DhcpServerQueryAttribute
 ms.topic: function
 req.header: dhcpsapi.h

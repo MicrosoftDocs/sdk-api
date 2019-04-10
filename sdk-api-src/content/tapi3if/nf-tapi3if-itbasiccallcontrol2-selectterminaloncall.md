@@ -7,7 +7,7 @@ old-location: tapi3\itbasiccallcontrol2_selectterminaloncall.htm
 tech.root: Tapi
 ms.assetid: 87117ec1-0d61-4edb-8ed6-0d029a77e1a5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITBasicCallControl2 interface [TAPI 2.2],SelectTerminalOnCall method, ITBasicCallControl2.SelectTerminalOnCall, ITBasicCallControl2::SelectTerminalOnCall, SelectTerminalOnCall, SelectTerminalOnCall method [TAPI 2.2], SelectTerminalOnCall method [TAPI 2.2],ITBasicCallControl2 interface, _tapi3_itbasiccallcontrol2_selectterminaloncall, tapi3.itbasiccallcontrol2_selectterminaloncall, tapi3if/ITBasicCallControl2::SelectTerminalOnCall
 ms.topic: method
 req.header: tapi3if.h

@@ -7,7 +7,7 @@ old-location: automat\varui2fromui1.htm
 tech.root: automat
 ms.assetid: 16fc3ed5-2f55-446c-a77e-ebd0f77d745d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VarUI2FromUI1, VarUI2FromUI1 function [Automation], _oa96_VarUI2FromUI1, automat.varui2fromui1, oleauto/VarUI2FromUI1
 ms.topic: function
 req.header: oleauto.h

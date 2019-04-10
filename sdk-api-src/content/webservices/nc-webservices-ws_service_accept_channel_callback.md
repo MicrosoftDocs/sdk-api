@@ -7,7 +7,7 @@ old-location: wsw\ws_service_accept_channel_callback.htm
 tech.root: wsw
 ms.assetid: 473af4be-d193-42a5-82ff-359b50a7bc58
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_SERVICE_ACCEPT_CHANNEL_CALLBACK, WS_SERVICE_ACCEPT_CHANNEL_CALLBACK callback, WS_SERVICE_ACCEPT_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_SERVICE_ACCEPT_CHANNEL_CALLBACK, wsw.ws_service_accept_channel_callback
 ms.topic: callback
 req.header: webservices.h

@@ -7,7 +7,7 @@ old-location: multimedia\auxoutmessage.htm
 tech.root: Multimedia
 ms.assetid: fd4e4cc8-f6b6-4896-abaa-0f0be85f34c0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_win32_auxOutMessage, auxOutMessage, auxOutMessage function [Windows Multimedia], mmeapi/auxOutMessage, multimedia.auxoutmessage"
 ms.topic: function
 req.header: mmeapi.h

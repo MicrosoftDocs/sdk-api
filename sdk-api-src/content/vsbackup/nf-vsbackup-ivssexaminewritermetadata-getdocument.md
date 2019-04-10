@@ -7,7 +7,7 @@ old-location: base\ivssexaminewritermetadata_getdocument.htm
 tech.root: VSS
 ms.assetid: 3ade4232-147b-4e56-b45c-e692d08cfcdc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetDocument, GetDocument method [VSS], GetDocument method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetDocument method, IVssExamineWriterMetadata.GetDocument, IVssExamineWriterMetadata::GetDocument, _win32_ivssexaminewritermetadata_getdocument, base.ivssexaminewritermetadata_getdocument, vsbackup/IVssExamineWriterMetadata::GetDocument
 ms.topic: method
 req.header: vsbackup.h

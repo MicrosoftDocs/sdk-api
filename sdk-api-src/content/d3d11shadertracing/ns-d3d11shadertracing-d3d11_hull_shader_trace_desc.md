@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_hull_shader_trace_desc.htm
 tech.root: direct3d11
 ms.assetid: E91FE826-C1BC-4583-83B0-FF2869AF86F2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: D3D11_HULL_SHADER_TRACE_DESC, D3D11_HULL_SHADER_TRACE_DESC structure [Direct3D 11], d3d11shadertracing/D3D11_HULL_SHADER_TRACE_DESC, direct3d11.d3d11_hull_shader_trace_desc
 ms.topic: struct
 req.header: d3d11shadertracing.h

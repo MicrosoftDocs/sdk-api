@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapframeencode_setsize.htm
 tech.root: wic
 ms.assetid: e21e1a66-b1fa-4700-a14e-dc382b5404f7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],SetSize method, IWICBitmapFrameEncode.SetSize, IWICBitmapFrameEncode::SetSize, SetSize, SetSize method [Windows Imaging Component], SetSize method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_setsize, wic._wic_codec_iwicbitmapframeencode_setsize, wincodec/IWICBitmapFrameEncode::SetSize
 ms.topic: method
 req.header: wincodec.h

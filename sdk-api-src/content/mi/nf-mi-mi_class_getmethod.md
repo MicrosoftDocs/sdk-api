@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_class_getmethod.htm
 tech.root: wmi_v2
 ms.assetid: 9e6f6ef0-ca19-4416-baf7-bb2ab1d6d33d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_Class_GetMethod, MI_Class_GetMethod function [Windows Management Infrastructure (MI)], mi/MI_Class_GetMethod, wmi_v2.mi_class_getmethod
 ms.topic: function
 req.header: mi.h

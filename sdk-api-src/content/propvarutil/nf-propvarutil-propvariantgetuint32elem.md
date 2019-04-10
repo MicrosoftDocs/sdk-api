@@ -7,7 +7,7 @@ old-location: properties\PropVariantGetUInt32Elem.htm
 tech.root: properties
 ms.assetid: b31975b6-d717-4e8d-bf5a-2ade96034031
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PropVariantGetUInt32Elem, PropVariantGetUInt32Elem function [Windows Properties], _shell_PropVariantGetUInt32Elem, properties.PropVariantGetUInt32Elem, propvarutil/PropVariantGetUInt32Elem, shell.PropVariantGetUInt32Elem
 ms.topic: function
 req.header: propvarutil.h

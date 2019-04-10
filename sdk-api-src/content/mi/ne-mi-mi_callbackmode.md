@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_callbackmode.htm
 tech.root: wmi_v2
 ms.assetid: 742610a4-3276-4bab-877d-8e74c6dc80cd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_CALLBACKMODE_INQUIRE, MI_CALLBACKMODE_REPORT, MI_CallbackMode, MI_CallbackMode enumeration [Windows Management Infrastructure (MI)], mi/MI_CALLBACKMODE_INQUIRE, mi/MI_CALLBACKMODE_REPORT, mi/MI_CallbackMode, wmi._mi_callbackmode, wmi_v2.mi_callbackmode
 ms.topic: enum
 req.header: mi.h

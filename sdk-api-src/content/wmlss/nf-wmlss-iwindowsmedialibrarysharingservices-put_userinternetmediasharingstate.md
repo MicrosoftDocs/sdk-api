@@ -7,7 +7,7 @@ old-location: wmlss\IWMLSSput_userInternetMediaSharingState.htm
 tech.root: WMLSS
 ms.assetid: 3d5ff0eb-02e3-4e03-b606-dcc3a1ec6aaf
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],put_userInternetMediaSharingState method, IWindowsMediaLibrarySharingServices.put_userInternetMediaSharingState, IWindowsMediaLibrarySharingServices::put_userInternetMediaSharingState, put_userInternetMediaSharingState, put_userInternetMediaSharingState method [Windows Media Library Sharing Services], put_userInternetMediaSharingState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSput_userInternetMediaSharingState, wmlss/IWindowsMediaLibrarySharingServices::put_userInternetMediaSharingState
 ms.topic: method
 req.header: wmlss.h

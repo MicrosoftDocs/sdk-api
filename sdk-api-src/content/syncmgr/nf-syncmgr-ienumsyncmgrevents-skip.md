@@ -7,7 +7,7 @@ old-location: shell\IEnumSyncMgrEvents_Skip.htm
 tech.root: shell
 ms.assetid: 6e8257e8-fab3-407c-a6d0-26a7a9ca0961
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEnumSyncMgrEvents interface [Windows Shell],Skip method, IEnumSyncMgrEvents.Skip, IEnumSyncMgrEvents::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumSyncMgrEvents interface, _shell_IEnumSyncMgrEvents_Skip, shell.IEnumSyncMgrEvents_Skip, syncmgr/IEnumSyncMgrEvents::Skip
 ms.topic: method
 req.header: syncmgr.h

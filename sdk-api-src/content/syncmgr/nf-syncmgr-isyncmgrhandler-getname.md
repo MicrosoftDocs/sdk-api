@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrHandler_GetName.htm
 tech.root: shell
 ms.assetid: 2d981cf9-6c0a-4bca-b088-06eb1c820fb3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Windows Shell], GetName method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],GetName method, ISyncMgrHandler.GetName, ISyncMgrHandler::GetName, _shell_ISyncMgrHandler_GetName, shell.ISyncMgrHandler_GetName, syncmgr/ISyncMgrHandler::GetName
 ms.topic: method
 req.header: syncmgr.h

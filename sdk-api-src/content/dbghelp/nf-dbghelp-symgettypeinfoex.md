@@ -7,7 +7,7 @@ old-location: base\symgettypeinfoex.htm
 tech.root: Debug
 ms.assetid: 77e0a8ad-8c75-4bb2-869a-670429475ccc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SymGetTypeInfoEx, SymGetTypeInfoEx function, base.symgettypeinfoex, dbghelp/SymGetTypeInfoEx
 ms.topic: function
 req.header: dbghelp.h

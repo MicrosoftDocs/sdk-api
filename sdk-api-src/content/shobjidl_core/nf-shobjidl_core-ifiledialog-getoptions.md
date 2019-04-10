@@ -7,7 +7,7 @@ old-location: shell\IFileDialog_GetOptions.htm
 tech.root: shell
 ms.assetid: 8a01b64d-b58e-4470-a5ed-8cf821b26c6b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetOptions, GetOptions method [Windows Shell], GetOptions method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],GetOptions method, IFileDialog.GetOptions, IFileDialog::GetOptions, shell.IFileDialog_GetOptions, shell_IFileDialog_GetOptions, shobjidl_core/IFileDialog::GetOptions
 ms.topic: method
 req.header: shobjidl_core.h

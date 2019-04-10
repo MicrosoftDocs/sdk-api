@@ -7,7 +7,7 @@ old-location: tapi3\itasrterminalevent_get_error.htm
 tech.root: Tapi
 ms.assetid: 7bccf537-a54b-4c40-866b-0f7a42149841
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITASRTerminalEvent interface [TAPI 2.2],get_Error method, ITASRTerminalEvent.get_Error, ITASRTerminalEvent::get_Error, _tapi3_itasrterminalevent_get_error, get_Error, get_Error method [TAPI 2.2], get_Error method [TAPI 2.2],ITASRTerminalEvent interface, tapi3.itasrterminalevent_get_error, tapi3if/ITASRTerminalEvent::get_Error
 ms.topic: method
 req.header: tapi3if.h

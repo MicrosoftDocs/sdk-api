@@ -7,7 +7,7 @@ old-location: shell\IShellView_SelectItem.htm
 tech.root: shell
 ms.assetid: 5c34c05e-175c-43cb-9fbb-2eb3e2b39f6f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IShellView interface [Windows Shell],SelectItem method, IShellView.SelectItem, IShellView::SelectItem, SelectItem, SelectItem method [Windows Shell], SelectItem method [Windows Shell],IShellView interface, _win32_IShellView_SelectItem, shell.IShellView_SelectItem, shobjidl_core/IShellView::SelectItem
 ms.topic: method
 req.header: shobjidl_core.h

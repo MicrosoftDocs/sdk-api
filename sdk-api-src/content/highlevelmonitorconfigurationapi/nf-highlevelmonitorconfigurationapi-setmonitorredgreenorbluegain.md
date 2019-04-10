@@ -7,7 +7,7 @@ old-location: monitor\setmonitorredgreenorbluegain.htm
 tech.root: Monitor
 ms.assetid: e8814478-1129-421e-999c-f59321db69b9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SetMonitorRedGreenOrBlueGain, SetMonitorRedGreenOrBlueGain function [Monitor Configuration], highlevelmonitorconfigurationapi/SetMonitorRedGreenOrBlueGain, monitor.setmonitorredgreenorbluegain
 ms.topic: function
 req.header: highlevelmonitorconfigurationapi.h

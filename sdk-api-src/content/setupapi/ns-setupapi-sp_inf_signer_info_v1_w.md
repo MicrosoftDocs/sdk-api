@@ -7,7 +7,7 @@ old-location: setup\sp_inf_signer_info.htm
 tech.root: SetupApi
 ms.assetid: 50ceee47-3a89-4bd7-8508-5a4d75514861
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PSP_INF_SIGNER_INFO_V1_W, PSP_INF_SIGNER_INFO, PSP_INF_SIGNER_INFO structure pointer [Setup API], SP_INF_SIGNER_INFO, SP_INF_SIGNER_INFO structure [Setup API], SP_INF_SIGNER_INFO_V1, SP_INF_SIGNER_INFO_V1_W, SP_INF_SIGNER_INFO_W, _setupapi_filepaths_signerinfo, setup.sp_inf_signer_info, setupapi/PSP_INF_SIGNER_INFO, setupapi/SP_INF_SIGNER_INFO"
 ms.topic: struct
 req.header: setupapi.h

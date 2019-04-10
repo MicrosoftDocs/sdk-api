@@ -7,7 +7,7 @@ old-location: base\ivdsdisk3.htm
 tech.root: VDS
 ms.assetid: e3004195-b180-4053-bf91-8f1a0e72f5a6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVdsDisk3, IVdsDisk3 interface, IVdsDisk3 interface,described, base.ivdsdisk3, vds/IVdsDisk3
 ms.topic: interface
 req.header: vds.h

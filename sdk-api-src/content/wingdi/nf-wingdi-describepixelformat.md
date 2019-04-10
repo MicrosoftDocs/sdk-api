@@ -7,7 +7,7 @@ old-location: opengl\describepixelformat.htm
 tech.root: OpenGL
 ms.assetid: 9692a30d-c7d4-40c7-a265-72c4ebabd5f2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DescribePixelFormat, DescribePixelFormat function [OpenGL], _ogl_DescribePixelFormat, opengl.describepixelformat, wingdi/DescribePixelFormat
 ms.topic: function
 req.header: wingdi.h

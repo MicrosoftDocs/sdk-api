@@ -7,7 +7,7 @@ old-location: multimedia\defdriverproc.htm
 tech.root: Multimedia
 ms.assetid: 8401925b-d286-41bd-b57e-838b2f5b250d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DefDriverProc, DefDriverProc function [Windows Multimedia], DrvDefDriverProc, _win32_DefDriverProc, mmsystem/DefDriverProc, multimedia.defdriverproc
 ms.topic: function
 req.header: mmiscapi.h

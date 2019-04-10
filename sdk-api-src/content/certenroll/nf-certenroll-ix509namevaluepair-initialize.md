@@ -7,7 +7,7 @@ old-location: security\ix509namevaluepair_initialize_method.htm
 tech.root: seccertenroll
 ms.assetid: 3e935718-a59a-443e-bff2-a010a41e7756
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IX509NameValuePair interface [Security],Initialize method, IX509NameValuePair.Initialize, IX509NameValuePair::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509NameValuePair interface, certenroll/IX509NameValuePair::Initialize, security.ix509namevaluepair_initialize_method
 ms.topic: method
 req.header: certenroll.h

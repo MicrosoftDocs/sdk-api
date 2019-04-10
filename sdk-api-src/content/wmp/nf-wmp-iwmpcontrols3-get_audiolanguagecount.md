@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontrols3_get_audiolanguagecount.htm
 tech.root: WMP
 ms.assetid: 7c714f97-4f6b-4a8b-904c-3ce0f8057533
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMPControls3 interface [Windows Media Player],get_audioLanguageCount method, IWMPControls3.get_audioLanguageCount, IWMPControls3::get_audioLanguageCount, IWMPControls3get_audioLanguageCount, get_audioLanguageCount, get_audioLanguageCount method [Windows Media Player], get_audioLanguageCount method [Windows Media Player],IWMPControls3 interface, wmp.iwmpcontrols3_get_audiolanguagecount, wmp/IWMPControls3::get_audioLanguageCount
 ms.topic: method
 req.header: wmp.h

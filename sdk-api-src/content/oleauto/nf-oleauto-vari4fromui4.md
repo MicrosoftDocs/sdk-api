@@ -7,7 +7,7 @@ old-location: automat\vari4fromui4.htm
 tech.root: automat
 ms.assetid: d68cd14a-776b-4f5c-acab-ff214aa572e5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VarI4FromUI4, VarI4FromUI4 function [Automation], _oa96_VarI4FromUI4, automat.vari4fromui4, oleauto/VarI4FromUI4
 ms.topic: function
 req.header: oleauto.h

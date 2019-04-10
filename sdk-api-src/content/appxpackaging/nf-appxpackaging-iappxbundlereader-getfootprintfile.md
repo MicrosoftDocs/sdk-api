@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlereader_getfootprintfile.htm
 tech.root: appxpkg
 ms.assetid: BD60CD3E-2C08-4B97-B311-00C0EEBEF752
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetFootprintFile, GetFootprintFile method [App packaging and management], GetFootprintFile method [App packaging and management],IAppxBundleReader interface, IAppxBundleReader interface [App packaging and management],GetFootprintFile method, IAppxBundleReader.GetFootprintFile, IAppxBundleReader::GetFootprintFile, appxpackaging/IAppxBundleReader::GetFootprintFile, appxpkg.iappxbundlereader_getfootprintfile
 ms.topic: method
 req.header: appxpackaging.h

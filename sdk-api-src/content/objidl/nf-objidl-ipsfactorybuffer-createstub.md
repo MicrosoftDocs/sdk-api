@@ -7,7 +7,7 @@ old-location: com\ipsfactorybuffer_createstub.htm
 tech.root: com
 ms.assetid: 45e2a4c3-6a78-4018-9f32-ce5523682c0f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateStub, CreateStub method [COM], CreateStub method [COM],IPSFactoryBuffer interface, IPSFactoryBuffer interface [COM],CreateStub method, IPSFactoryBuffer.CreateStub, IPSFactoryBuffer::CreateStub, _com_ipsfactorybuffer_createstub, com.ipsfactorybuffer_createstub, objidlbase/IPSFactoryBuffer::CreateStub
 ms.topic: method
 req.header: objidl.h

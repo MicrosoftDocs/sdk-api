@@ -7,7 +7,7 @@ old-location: ldap\ldap_simple_bind.htm
 tech.root: ldap
 ms.assetid: 13fc47c5-094b-4a91-8e5f-bfff8c72b431
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_simple_bind, ldap.ldap__simple__bind, ldap.ldap_simple_bind, ldap_simple_bind, ldap_simple_bind function [LDAP], ldap_simple_bindA, ldap_simple_bindW, winldap/ldap_simple_bind, winldap/ldap_simple_bindA, winldap/ldap_simple_bindW"
 ms.topic: function
 req.header: winldap.h

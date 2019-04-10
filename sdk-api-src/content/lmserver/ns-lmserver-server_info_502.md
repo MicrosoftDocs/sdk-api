@@ -7,7 +7,7 @@ old-location: netmgmt\server_info_502_str.htm
 tech.root: NetMgmt
 ms.assetid: 97657dff-7bd1-4108-934b-8203f41b3742
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPSERVER_INFO_502, *PSERVER_INFO_502, LPSERVER_INFO_502, LPSERVER_INFO_502 structure pointer [Network Management], PSERVER_INFO_502, PSERVER_INFO_502 structure pointer [Network Management], SERVER_INFO_502, SERVER_INFO_502 structure [Network Management], _win32_server_info_502_str, lmserver/LPSERVER_INFO_502, lmserver/PSERVER_INFO_502, lmserver/SERVER_INFO_502, netmgmt.server_info_502_str"
 ms.topic: struct
 req.header: lmserver.h

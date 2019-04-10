@@ -7,7 +7,7 @@ old-location: intl\ifedictionary_close.htm
 tech.root: Intl
 ms.assetid: 424FE6C8-2903-429C-AAC9-F9808E94047A
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Close, Close method [Internationalization for Windows Applications], Close method [Internationalization for Windows Applications],IFEDictionary interface, IFEDictionary interface [Internationalization for Windows Applications],Close method, IFEDictionary.Close, IFEDictionary::Close, intl.ifedictionary_close, msime/IFEDictionary::Close
 ms.topic: method
 req.header: msime.h

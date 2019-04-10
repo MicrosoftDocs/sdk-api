@@ -7,7 +7,7 @@ old-location: ndf\uiinfo.htm
 tech.root: NDF
 ms.assetid: 62d3c908-8fc4-4bd9-94ac-94dfcf8db395
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PUiInfo, UiInfo, UiInfo structure [NDF], UiInfo,*PUiInfo, UiInfo,*PUiInfo structure [NDF], ndattrib/UiInfo, ndf.uiinfo"
 ms.topic: struct
 req.header: ndattrib.h

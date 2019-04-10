@@ -7,7 +7,7 @@ old-location: gdi\emrroundrect.htm
 tech.root: gdi
 ms.assetid: 74caff9e-6882-4585-ad51-e83e4afb8454
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PEMRROUNDRECT, EMRROUNDRECT, EMRROUNDRECT structure [Windows GDI], PEMRROUNDRECT, PEMRROUNDRECT structure pointer [Windows GDI], _win32_EMRROUNDRECT_str, gdi.emrroundrect, wingdi/EMRROUNDRECT, wingdi/PEMRROUNDRECT"
 ms.topic: struct
 req.header: wingdi.h

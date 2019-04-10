@@ -7,7 +7,7 @@ old-location: mf\mfcontentprotectiondevice_realtimeclient_data.htm
 tech.root: medfound
 ms.assetid: E0A98B31-13D4-4281-AFFB-A3DA664CE876
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA, MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA structure [Media Foundation], mf.mfcontentprotectiondevice_realtimeclient_data, mfidl/MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA
 ms.topic: struct
 req.header: mfidl.h

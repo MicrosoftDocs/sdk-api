@@ -7,7 +7,7 @@ old-location: com\coreverttoself.htm
 tech.root: com
 ms.assetid: 8061ddbe-ed21-47f7-9ac4-b3ec910ff89d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CoRevertToSelf, CoRevertToSelf function [COM], _com_CoRevertToSelf, com.coreverttoself, combaseapi/CoRevertToSelf
 ms.topic: function
 req.header: combaseapi.h

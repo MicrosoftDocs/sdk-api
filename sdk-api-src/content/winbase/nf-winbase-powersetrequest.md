@@ -7,7 +7,7 @@ old-location: base\powersetrequest.htm
 tech.root: power
 ms.assetid: 85249de8-5832-4f25-bbd9-3576cfd1caa0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PowerRequestAwayModeRequired, PowerRequestDisplayRequired, PowerRequestExecutionRequired, PowerRequestSystemRequired, PowerSetRequest, PowerSetRequest function, base.powersetrequest, winbase/PowerSetRequest
 ms.topic: function
 req.header: winbase.h

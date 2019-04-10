@@ -7,7 +7,7 @@ old-location: automat\vari8fromdate.htm
 tech.root: automat
 ms.assetid: 64c0b322-da7b-4da7-a927-2c5d2587f37c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VarI8FromDate, VarI8FromDate function [Automation], _oa96_VarI8FromDate, automat.vari8fromdate, oleauto/VarI8FromDate
 ms.topic: function
 req.header: oleauto.h

@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmlogger.htm
 tech.root: WMDM
 ms.assetid: bededb91-f343-455b-a3ef-548e6f961933
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMDMLogger, IWMDMLogger interface [windows Media Device Manager], IWMDMLogger interface [windows Media Device Manager],described, IWMDMLoggerInterface, wmdm.iwmdmlogger, wmdmlog/IWMDMLogger
 ms.topic: interface
 req.header: wmdmlog.h

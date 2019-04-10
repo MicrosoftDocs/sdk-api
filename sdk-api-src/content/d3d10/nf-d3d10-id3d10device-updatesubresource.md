@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_updatesubresource.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_updatesubresource.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 05dfa0e1-63e3-e98a-c07e-e9473eb93d43, ID3D10Device interface [Direct3D 10],UpdateSubresource method, ID3D10Device.UpdateSubresource, ID3D10Device::UpdateSubresource, UpdateSubresource, UpdateSubresource method [Direct3D 10], UpdateSubresource method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::UpdateSubresource, direct3d10.id3d10device_updatesubresource
 ms.topic: method
 req.header: d3d10.h

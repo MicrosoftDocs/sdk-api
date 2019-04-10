@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_trace_stats.htm
 tech.root: direct3d11
 ms.assetid: E4E44F7F-3760-490D-9BA3-677F63B93AA6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: D3D11_TRACE_STATS, D3D11_TRACE_STATS structure [Direct3D 11], d3d11shadertracing/D3D11_TRACE_STATS, direct3d11.d3d11_trace_stats
 ms.topic: struct
 req.header: d3d11shadertracing.h

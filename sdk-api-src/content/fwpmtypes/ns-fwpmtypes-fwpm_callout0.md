@@ -7,7 +7,7 @@ old-location: fwp\fwpm_callout0_struct.htm
 tech.root: fwp
 ms.assetid: 4f565de5-5bc9-4508-9e4b-28d14a82a9a5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FWPM_CALLOUT0, FWPM_CALLOUT0 structure [Filtering], FWPM_CALLOUT_FLAG_PERSISTENT, FWPM_CALLOUT_FLAG_REGISTERED, FWPM_CALLOUT_FLAG_USES_PROVIDER_CONTEXT, fwp.fwpm_callout0_struct, fwpmtypes/FWPM_CALLOUT0
 ms.topic: struct
 req.header: fwpmtypes.h

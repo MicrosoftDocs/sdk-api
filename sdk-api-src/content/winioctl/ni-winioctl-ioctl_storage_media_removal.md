@@ -7,7 +7,7 @@ old-location: base\ioctl_storage_media_removal.htm
 tech.root: devio
 ms.assetid: 5971daa1-3bb7-4050-b252-2f5cabb1bf67
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_MEDIA_REMOVAL, IOCTL_STORAGE_MEDIA_REMOVAL control, IOCTL_STORAGE_MEDIA_REMOVAL control code, _win32_ioctl_storage_media_removal, base.ioctl_storage_media_removal, winioctl/IOCTL_STORAGE_MEDIA_REMOVAL
 ms.topic: ioctl
 req.header: winioctl.h

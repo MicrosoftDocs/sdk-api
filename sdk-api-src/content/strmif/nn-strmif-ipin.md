@@ -7,7 +7,7 @@ old-location: dshow\ipin.htm
 tech.root: DirectShow
 ms.assetid: ad0ead4e-9f8e-4935-b220-306d665e50f4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IPin, IPin interface [DirectShow], IPin interface [DirectShow],described, IPinInterface, dshow.ipin, strmif/IPin
 ms.topic: interface
 req.header: strmif.h

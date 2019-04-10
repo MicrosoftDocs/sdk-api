@@ -7,7 +7,7 @@ old-location: wec\ecdeletesubscription.htm
 tech.root: WEC
 ms.assetid: 301b982e-a7ab-47ef-99a7-bd63dded792b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EcDeleteSubscription, EcDeleteSubscription function, evcoll/EcDeleteSubscription, wec.ecdeletesubscription, wes.ecdeletesubscription
 ms.topic: function
 req.header: evcoll.h

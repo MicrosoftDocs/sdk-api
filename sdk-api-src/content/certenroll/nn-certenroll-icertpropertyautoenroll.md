@@ -7,7 +7,7 @@ old-location: security\icertpropertyautoenroll.htm
 tech.root: seccertenroll
 ms.assetid: 25eab0e9-4980-49ad-9d3b-35ad47c20bcb
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ICertPropertyAutoEnroll, ICertPropertyAutoEnroll interface [Security], ICertPropertyAutoEnroll interface [Security],described, certenroll/ICertPropertyAutoEnroll, security.icertpropertyautoenroll
 ms.topic: interface
 req.header: certenroll.h

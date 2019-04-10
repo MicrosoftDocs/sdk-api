@@ -7,7 +7,7 @@ old-location: dxmath\xmcolor_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMCOLOR.#ctor(uint32_t)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: XMCOLOR, XMCOLOR constructor [DirectX Math Support APIs], XMCOLOR constructor [DirectX Math Support APIs],XMCOLOR structure, XMCOLOR structure [DirectX Math Support APIs],XMCOLOR constructor, XMCOLOR.XMCOLOR, XMCOLOR.XMCOLOR(uint32_t), XMCOLOR::XMCOLOR, XMCOLOR::XMCOLOR(uint32_t), dxmath.xmcolor_ctor_2
 ms.topic: method
 req.header: directxpackedvector.h

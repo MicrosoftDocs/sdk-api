@@ -7,7 +7,7 @@ old-location: dxmath\xmcoloryuvtorgb_hd.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorYUVToRGB_HD(XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMColorYUVToRGB_HD, XMColorYUVToRGB_HD, XMColorYUVToRGB_HD method [DirectX Math Support APIs], dxmath.xmcoloryuvtorgb_hd
 ms.topic: function
 req.header: directxmath.h

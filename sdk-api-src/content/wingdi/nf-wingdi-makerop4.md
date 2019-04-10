@@ -7,7 +7,7 @@ old-location: gdi\makerop4.htm
 tech.root: gdi
 ms.assetid: 9056df62-a636-49c7-9c86-aecc731e8c4f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MAKEROP4, MAKEROP4 macro [Windows GDI], _win32_MAKEROP4, gdi.makerop4, wingdi/MAKEROP4
 ms.topic: macro
 req.header: wingdi.h

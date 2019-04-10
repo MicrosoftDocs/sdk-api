@@ -7,7 +7,7 @@ old-location: shell\SHRegGetUSValue.htm
 tech.root: shell
 ms.assetid: 4d3b3bbe-dc2e-40c9-8ff1-0f9d2e323743
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SHRegGetUSValue, SHRegGetUSValue function [Windows Shell], SHRegGetUSValueA, SHRegGetUSValueW, _win32_SHRegGetUSValue, shell.SHRegGetUSValue, shlwapi/SHRegGetUSValue, shlwapi/SHRegGetUSValueA, shlwapi/SHRegGetUSValueW
 ms.topic: function
 req.header: shlwapi.h

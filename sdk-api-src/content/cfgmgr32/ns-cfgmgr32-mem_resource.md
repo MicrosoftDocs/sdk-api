@@ -7,7 +7,7 @@ old-location: devinst\mem_resource.htm
 tech.root: devinst
 ms.assetid: 42ecd736-abd3-4ac8-82bb-6bb69af1d96d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PMEM_RESOURCE, MEM_RESOURCE, MEM_RESOURCE structure [Device and Driver Installation], PMEM_RESOURCE, PMEM_RESOURCE structure pointer [Device and Driver Installation], cfgmgr32/MEM_RESOURCE, cfgmgr32/PMEM_RESOURCE, cfgmgrst_ab2f2f67-e38b-45b4-9b63-617d730f8cc8.xml, devinst.mem_resource"
 ms.topic: struct
 req.header: cfgmgr32.h

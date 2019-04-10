@@ -7,7 +7,7 @@ old-location: perf\pdhsetcounterscalefactor.htm
 tech.root: perfctrs
 ms.assetid: 6db99e03-0b03-4c1c-b82a-2982b52746db
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PdhSetCounterScaleFactor, PdhSetCounterScaleFactor function [Perf], _win32_pdhsetcounterscalefactor, base.pdhsetcounterscalefactor, pdh/PdhSetCounterScaleFactor, perf.pdhsetcounterscalefactor
 ms.topic: function
 req.header: pdh.h

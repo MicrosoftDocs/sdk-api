@@ -7,7 +7,7 @@ old-location: shell\SHLoadLibraryFromParsingName.htm
 tech.root: shell
 ms.assetid: 49433938-d31e-49f8-9dc7-3df5fb3bfcad
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SHLoadLibraryFromParsingName, SHLoadLibraryFromParsingName function [Windows Shell], _shell_SHLoadLibraryFromParsingName, shell.SHLoadLibraryFromParsingName, shobjidl_core/SHLoadLibraryFromParsingName
 ms.topic: function
 req.header: shobjidl_core.h

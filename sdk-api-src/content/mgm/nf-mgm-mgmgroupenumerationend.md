@@ -7,7 +7,7 @@ old-location: rras\mgmgroupenumerationend.htm
 tech.root: RRAS
 ms.assetid: 87a0bd96-c877-443e-a539-a31ab0971869
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MgmGroupEnumerationEnd, MgmGroupEnumerationEnd function [RAS], _mpr_mgmgroupenumerationend, mgm/MgmGroupEnumerationEnd, rras.mgmgroupenumerationend
 ms.topic: function
 req.header: mgm.h

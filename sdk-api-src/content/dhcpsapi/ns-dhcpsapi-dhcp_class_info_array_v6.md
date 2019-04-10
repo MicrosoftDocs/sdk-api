@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_class_info_array_v6.htm
 tech.root: DHCP
 ms.assetid: b724ae08-4e18-4cad-9376-174acbd5b4f7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_CLASS_INFO_ARRAY_V6, DHCP_CLASS_INFO_ARRAY_V6, DHCP_CLASS_INFO_ARRAY_V6 structure [DHCP], PDHCP_CLASS_INFO_ARRAY_V6, PDHCP_CLASS_INFO_ARRAY_V6 structure pointer [DHCP], dhcp.dhcp_class_info_array_v6, dhcpsapi/DHCP_CLASS_INFO_ARRAY_V6, dhcpsapi/PDHCP_CLASS_INFO_ARRAY_V6"
 ms.topic: struct
 req.header: dhcpsapi.h

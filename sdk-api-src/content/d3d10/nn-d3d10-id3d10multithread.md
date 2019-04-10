@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10multithread.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10multithread.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 03af3cb4-f8ff-e677-80ea-33ee09667866, ID3D10Multithread, ID3D10Multithread interface [Direct3D 10], ID3D10Multithread interface [Direct3D 10],described, d3d10/ID3D10Multithread, direct3d10.id3d10multithread
 ms.topic: interface
 req.header: d3d10.h

@@ -7,7 +7,7 @@ old-location: rpc\uuidcreate.htm
 tech.root: Rpc
 ms.assetid: 4008fb54-7770-4f1a-8e1c-4b20bef884f9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: UuidCreate, UuidCreate function [RPC], _rpc_uuidcreate, rpc.uuidcreate, rpcdce/UuidCreate
 ms.topic: function
 req.header: rpcdce.h

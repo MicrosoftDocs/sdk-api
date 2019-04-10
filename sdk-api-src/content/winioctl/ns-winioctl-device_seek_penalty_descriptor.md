@@ -7,7 +7,7 @@ old-location: fs\device_seek_penalty_descriptor.htm
 tech.root: FileIO
 ms.assetid: b3fbf27a-dac8-4fd2-8c0d-f621f0123c98
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PDEVICE_SEEK_PENALTY_DESCRIPTOR, DEVICE_SEEK_PENALTY_DESCRIPTOR, DEVICE_SEEK_PENALTY_DESCRIPTOR structure [Files], PDEVICE_SEEK_PENALTY_DESCRIPTOR, PDEVICE_SEEK_PENALTY_DESCRIPTOR structure pointer [Files], fs.device_seek_penalty_descriptor, winioctl/DEVICE_SEEK_PENALTY_DESCRIPTOR, winioctl/PDEVICE_SEEK_PENALTY_DESCRIPTOR"
 ms.topic: struct
 req.header: winioctl.h

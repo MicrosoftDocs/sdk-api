@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist4_executemetacommand.htm
 tech.root: direct3d12
 ms.assetid: 208D3152-C0CA-40C4-A990-8815C69E73FB
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ExecuteMetaCommand, ExecuteMetaCommand method, ExecuteMetaCommand method,ID3D12GraphicsCommandList4 interface, ID3D12GraphicsCommandList4 interface,ExecuteMetaCommand method, ID3D12GraphicsCommandList4.ExecuteMetaCommand, ID3D12GraphicsCommandList4::ExecuteMetaCommand, d3d12/ID3D12GraphicsCommandList4::ExecuteMetaCommand, direct3d12.id3d12graphicscommandlist4_executemetacommand
 ms.topic: method
 req.header: d3d12.h

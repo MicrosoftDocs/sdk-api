@@ -7,7 +7,7 @@ old-location: wintouch\iinertiaprocessor_leftboundary.htm
 tech.root: wintouch
 ms.assetid: 476445bb-bf17-4091-a296-73594bd7ed7f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BoundaryLeft property [Windows Touch], BoundaryLeft property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],BoundaryLeft property, IInertiaProcessor.BoundaryLeft, IInertiaProcessor.put_BoundaryLeft, IInertiaProcessor::BoundaryLeft, IInertiaProcessor::get_BoundaryLeft, IInertiaProcessor::put_BoundaryLeft, manipulations/IInertiaProcessor::BoundaryLeft, manipulations/IInertiaProcessor::get_BoundaryLeft, manipulations/IInertiaProcessor::put_BoundaryLeft, put_BoundaryLeft, wintouch.iinertiaprocessor_leftboundary
 ms.topic: method
 req.header: manipulations.h

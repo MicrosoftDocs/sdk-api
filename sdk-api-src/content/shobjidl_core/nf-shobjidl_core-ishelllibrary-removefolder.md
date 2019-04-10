@@ -7,7 +7,7 @@ old-location: shell\IShellLibrary_RemoveFolder.htm
 tech.root: shell
 ms.assetid: 2ba2c504-e96c-4b56-b2f2-196c0b74c9eb
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IShellLibrary interface [Windows Shell],RemoveFolder method, IShellLibrary.RemoveFolder, IShellLibrary::RemoveFolder, RemoveFolder, RemoveFolder method [Windows Shell], RemoveFolder method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_RemoveFolder, shell.IShellLibrary_RemoveFolder, shobjidl_core/IShellLibrary::RemoveFolder
 ms.topic: method
 req.header: shobjidl_core.h

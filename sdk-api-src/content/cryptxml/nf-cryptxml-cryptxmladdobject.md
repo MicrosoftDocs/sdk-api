@@ -7,7 +7,7 @@ old-location: security\cryptxmladdobject.htm
 tech.root: SecCrypto
 ms.assetid: 906c17a2-d8f3-4f90-a697-432cae7c789a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_ADD_OBJECT_CREATE_REFERENCE, CryptXmlAddObject, CryptXmlAddObject function [Security], cryptxml/CryptXmlAddObject, security.cryptxmladdobject
 ms.topic: function
 req.header: cryptxml.h

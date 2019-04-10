@@ -7,7 +7,7 @@ old-location: automat\oaenableperusertlibregistration.htm
 tech.root: automat
 ms.assetid: 356af9a9-77f9-4699-abc3-ab3ff1db2915
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: OaEnablePerUserTLibRegistration, OaEnablePerUserTLibRegistration function [Automation], _oa96_OaEnablePerUserTlibRegistration, automat.oaenableperusertlibregistration, oleauto/OaEnablePerUserTLibRegistration
 ms.topic: function
 req.header: oleauto.h

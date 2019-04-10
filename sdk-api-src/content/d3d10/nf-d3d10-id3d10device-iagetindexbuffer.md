@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_iagetindexbuffer.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_iagetindexbuffer.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IAGetIndexBuffer, IAGetIndexBuffer method [Direct3D 10], IAGetIndexBuffer method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],IAGetIndexBuffer method, ID3D10Device.IAGetIndexBuffer, ID3D10Device::IAGetIndexBuffer, d3d10/ID3D10Device::IAGetIndexBuffer, direct3d10.id3d10device_iagetindexbuffer, ed98b873-1411-e17d-aa80-9545533db76a
 ms.topic: method
 req.header: d3d10.h

@@ -7,7 +7,7 @@ old-location: multimedia\auxgetnumdevs.htm
 tech.root: Multimedia
 ms.assetid: 6e36d549-83ba-4a67-b9d7-047e7d3a5613
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_win32_auxGetNumDevs, auxGetNumDevs, auxGetNumDevs function [Windows Multimedia], mmeapi/auxGetNumDevs, multimedia.auxgetnumdevs"
 ms.topic: function
 req.header: mmeapi.h

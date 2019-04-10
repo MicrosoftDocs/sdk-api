@@ -7,7 +7,7 @@ old-location: tapi3\itaddress_get_messagewaiting.htm
 tech.root: Tapi
 ms.assetid: 4ddb49d9-dde7-498b-a243-f8c5b1294a87
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_MessageWaiting method, ITAddress.get_MessageWaiting, ITAddress::get_MessageWaiting, _tapi3_itaddress_get_messagewaiting, get_MessageWaiting, get_MessageWaiting method [TAPI 2.2], get_MessageWaiting method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_messagewaiting, tapi3if/ITAddress::get_MessageWaiting
 ms.topic: method
 req.header: tapi3if.h

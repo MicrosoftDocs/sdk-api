@@ -7,7 +7,7 @@ old-location: security\ncrypt_key_blob_header.htm
 tech.root: SecCNG
 ms.assetid: 387F05A3-C6E2-48EE-8FD0-C0A45E752300
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PNCRYPT_KEY_BLOB_HEADER, NCRYPT_KEY_BLOB_HEADER, NCRYPT_KEY_BLOB_HEADER structure [Security], PNCRYPT_KEY_BLOB_HEADER, PNCRYPT_KEY_BLOB_HEADER structure pointer [Security], ncrypt/NCRYPT_KEY_BLOB_HEADER, ncrypt/PNCRYPT_KEY_BLOB_HEADER, security.ncrypt_key_blob_header"
 ms.topic: struct
 req.header: ncrypt.h

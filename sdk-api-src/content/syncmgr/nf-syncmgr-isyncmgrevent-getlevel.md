@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrEvent_GetLevel.htm
 tech.root: shell
 ms.assetid: 2937dc05-9576-43b4-9fbe-6c151dffcace
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetLevel, GetLevel method [Windows Shell], GetLevel method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetLevel method, ISyncMgrEvent.GetLevel, ISyncMgrEvent::GetLevel, _shell_ISyncMgrEvent_GetLevel, shell.ISyncMgrEvent_GetLevel, syncmgr/ISyncMgrEvent::GetLevel
 ms.topic: method
 req.header: syncmgr.h

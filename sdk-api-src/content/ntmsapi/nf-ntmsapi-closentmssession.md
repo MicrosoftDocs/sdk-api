@@ -7,7 +7,7 @@ old-location: fs\closentmssession.htm
 tech.root: Rsm
 ms.assetid: 54bc354a-fdef-4642-8e53-cf20ed374000
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CloseNtmsSession, CloseNtmsSession function [Files], _zaw_closentmssession, base.closentmssession, fs.closentmssession, ntmsapi/CloseNtmsSession
 ms.topic: function
 req.header: ntmsapi.h

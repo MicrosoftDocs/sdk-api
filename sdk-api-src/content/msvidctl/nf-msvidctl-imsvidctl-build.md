@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_build.htm
 tech.root: mstv
 ms.assetid: 49f78dd8-f26e-456d-b67e-155ae0ed5419
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Build, Build method [Microsoft TV Technologies], Build method [Microsoft TV Technologies],IMSVidCtl interface, IMSVidCtl interface [Microsoft TV Technologies],Build method, IMSVidCtl.Build, IMSVidCtl::Build, IMSVidCtlBuild, mstv.imsvidctl_build, msvidctl/IMSVidCtl::Build
 ms.topic: method
 req.header: msvidctl.h

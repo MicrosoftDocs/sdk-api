@@ -7,7 +7,7 @@ old-location: wmi\iwbemcallresult_getresultstring.htm
 tech.root: WmiSdk
 ms.assetid: 7a022519-c112-42d4-b777-c3828439f7dd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetResultString, GetResultString method [Windows Management Instrumentation], GetResultString method [Windows Management Instrumentation],IWbemCallResult interface, IWbemCallResult interface [Windows Management Instrumentation],GetResultString method, IWbemCallResult.GetResultString, IWbemCallResult::GetResultString, _hmm_iwbemcallresult_getresultstring, wbemcli/IWbemCallResult::GetResultString, wmi.iwbemcallresult_getresultstring
 ms.topic: method
 req.header: wbemcli.h

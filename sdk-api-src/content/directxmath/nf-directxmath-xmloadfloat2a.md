@@ -7,7 +7,7 @@ old-location: dxmath\xmloadfloat2a.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadFloat2A(const XMFLOAT2A)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMLoadFloat2A, XMLoadFloat2A, XMLoadFloat2A method [DirectX Math Support APIs], dxmath.xmloadfloat2a
 ms.topic: function
 req.header: directxmath.h

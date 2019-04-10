@@ -7,7 +7,7 @@ old-location: mstv\ibda_autodemodulateex_get_auxinputcount.htm
 tech.root: mstv
 ms.assetid: a23a1d54-377e-48cb-a4ff-dfd5a6972677
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IBDA_AutoDemodulateEx interface [Microsoft TV Technologies],get_AuxInputCount method, IBDA_AutoDemodulateEx.get_AuxInputCount, IBDA_AutoDemodulateEx::get_AuxInputCount, IBDA_AutoDemodulateExget_AuxInputCount, bdaiface/IBDA_AutoDemodulateEx::get_AuxInputCount, get_AuxInputCount, get_AuxInputCount method [Microsoft TV Technologies], get_AuxInputCount method [Microsoft TV Technologies],IBDA_AutoDemodulateEx interface, mstv.ibda_autodemodulateex_get_auxinputcount
 ms.topic: method
 req.header: bdaiface.h

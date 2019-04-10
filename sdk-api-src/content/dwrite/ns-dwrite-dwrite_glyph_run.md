@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_glyph_run.htm
 tech.root: DirectWrite
 ms.assetid: 2997d63f-8d33-44c3-9617-cfffe5f61f7d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DWRITE_GLYPH_RUN, DWRITE_GLYPH_RUN structure [Direct Write], directwrite.dwrite_glyph_run, dwrite/DWRITE_GLYPH_RUN
 ms.topic: struct
 req.header: dwrite.h

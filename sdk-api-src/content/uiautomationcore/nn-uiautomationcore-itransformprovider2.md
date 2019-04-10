@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITransformProvider2.htm
 tech.root: WinAuto
 ms.assetid: 763F30BC-782A-43ED-9DE4-97A237D7B9F8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITransformProvider2, ITransformProvider2 interface [Windows Accessibility], ITransformProvider2 interface [Windows Accessibility],described, uiautomationcore/ITransformProvider2, winauto.uiauto_ITransformProvider2
 ms.topic: interface
 req.header: uiautomationcore.h

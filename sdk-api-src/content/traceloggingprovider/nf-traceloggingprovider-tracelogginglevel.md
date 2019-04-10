@@ -7,7 +7,7 @@ old-location: tracelogging\tracelogginglevel.htm
 tech.root: tracelogging
 ms.assetid: 280EEFC4-EC84-4FAA-B14B-CBC5F0E0EA5D
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TraceLoggingLevel, TraceLoggingLevel macro, tracelogging.tracelogginglevel, traceloggingprovider/TraceLoggingLevel
 ms.topic: macro
 req.header: traceloggingprovider.h

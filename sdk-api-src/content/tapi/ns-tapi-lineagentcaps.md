@@ -7,7 +7,7 @@ old-location: tapi2\lineagentcaps_str.htm
 tech.root: Tapi
 ms.assetid: e4c5ece8-7b29-4154-9b38-f2b17049446f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPLINEAGENTCAPS, LINEAGENTCAPS, LINEAGENTCAPS structure [TAPI 2.2], LPLINEAGENTCAPS, LPLINEAGENTCAPS structure pointer [TAPI 2.2], _tapi2_lineagentcaps_str, tapi/LINEAGENTCAPS, tapi/LPLINEAGENTCAPS, tapi2.lineagentcaps_str"
 ms.topic: struct
 req.header: tapi.h

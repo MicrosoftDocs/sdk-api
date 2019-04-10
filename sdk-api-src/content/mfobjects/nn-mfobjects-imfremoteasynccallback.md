@@ -7,7 +7,7 @@ old-location: mf\imfremoteasynccallback.htm
 tech.root: medfound
 ms.assetid: 57be21cf-b381-436a-bc7e-3fdc01cc2515
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 57be21cf-b381-436a-bc7e-3fdc01cc2515, IMFRemoteAsyncCallback, IMFRemoteAsyncCallback interface [Media Foundation], IMFRemoteAsyncCallback interface [Media Foundation],described, mf.imfremoteasynccallback, mfobjects/IMFRemoteAsyncCallback
 ms.topic: interface
 req.header: mfobjects.h

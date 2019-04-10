@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartnercallback.htm
 tech.root: WMP
 ms.assetid: 3c66052b-2b82-44aa-868d-5d5a4501c457
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMPContentPartnerCallback, IWMPContentPartnerCallback interface [Windows Media Player], IWMPContentPartnerCallback interface [Windows Media Player],described, IWMPContentPartnerCallbackInterface, contentpartner/IWMPContentPartnerCallback, wmp.iwmpcontentpartnercallback
 ms.topic: interface
 req.header: contentpartner.h

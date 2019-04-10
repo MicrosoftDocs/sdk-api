@@ -7,7 +7,7 @@ old-location: mstv\mpeg_winsock.htm
 tech.root: mstv
 ms.assetid: b8128811-dd8c-40e0-9010-8c473e253270
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MPEG_WINSOCK, MPEG_WINSOCK structure [Microsoft TV Technologies], mpeg2structs/MPEG_WINSOCK, mstv.mpeg_winsock
 ms.topic: struct
 req.header: mpeg2structs.h

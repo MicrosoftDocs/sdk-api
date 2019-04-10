@@ -7,7 +7,7 @@ old-location: termserv\wtsuserconfig.htm
 tech.root: TermServ
 ms.assetid: 73788ea3-1ba7-4749-983d-4ca6e4f76acb
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PWTSUSERCONFIGA, PWTSUSERCONFIG, PWTSUSERCONFIG structure pointer [Remote Desktop Services], WTSUSERCONFIG, WTSUSERCONFIG structure [Remote Desktop Services], WTSUSERCONFIGA, WTSUSERCONFIGW, termserv.wtsuserconfig, wtsapi32/PWTSUSERCONFIG, wtsapi32/WTSUSERCONFIG, wtsapi32/WTSUSERCONFIGA, wtsapi32/WTSUSERCONFIGW"
 ms.topic: struct
 req.header: wtsapi32.h

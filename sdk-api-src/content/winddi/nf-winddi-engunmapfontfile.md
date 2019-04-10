@@ -7,7 +7,7 @@ old-location: display\engunmapfontfile.htm
 tech.root: display
 ms.assetid: 0fc34dfe-fbe8-4bee-8766-4b1db9b5ccfa
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EngUnmapFontFile, EngUnmapFontFile function [Display Devices], display.engunmapfontfile, gdifncs_8e66998b-e7dd-4ccb-b388-9b5faf4a64f4.xml, winddi/EngUnmapFontFile
 ms.topic: function
 req.header: winddi.h

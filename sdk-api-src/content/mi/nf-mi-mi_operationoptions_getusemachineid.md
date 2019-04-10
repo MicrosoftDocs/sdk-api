@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationoptions_getusemachineid.htm
 tech.root: wmi_v2
 ms.assetid: a3064be4-b975-47cb-b0f9-445a09791ebd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_GetUseMachineID, MI_OperationOptions_GetUseMachineID function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetUseMachineID, wmi_v2.mi_operationoptions_getusemachineid
 ms.topic: function
 req.header: mi.h

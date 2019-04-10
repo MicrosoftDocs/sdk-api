@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionvisual3_setdepthmode.htm
 tech.root: directcomp
 ms.assetid: 670C4203-50CE-47AA-A896-04A9F75302E3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual3 interface [DirectComposition],SetDepthMode method, IDCompositionVisual3.SetDepthMode, IDCompositionVisual3::SetDepthMode, SetDepthMode, SetDepthMode method [DirectComposition], SetDepthMode method [DirectComposition],IDCompositionVisual3 interface, dcomp/IDCompositionVisual3::SetDepthMode, directcomp.idcompositionvisual3_setdepthmode
 ms.topic: method
 req.header: dcomp.h

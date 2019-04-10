@@ -7,7 +7,7 @@ old-location: mmc\isnapinproperties_querypropertynames.htm
 tech.root: mmc
 ms.assetid: 41f949aa-4be5-4e60-aa1d-0605f489fec6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ISnapinProperties interface [MMC],QueryPropertyNames method, ISnapinProperties.QueryPropertyNames, ISnapinProperties::QueryPropertyNames, QueryPropertyNames, QueryPropertyNames method [MMC], QueryPropertyNames method [MMC],ISnapinProperties interface, _slate_isnapinproperties_querypropertynames, mmc.isnapinproperties_querypropertynames, mmcobj/ISnapinProperties::QueryPropertyNames
 ms.topic: method
 req.header: mmcobj.h

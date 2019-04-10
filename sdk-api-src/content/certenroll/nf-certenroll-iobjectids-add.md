@@ -7,7 +7,7 @@ old-location: security\iobjectids_add_method.htm
 tech.root: seccertenroll
 ms.assetid: 93f27993-2dba-4aec-9b63-cfd4dd56bbda
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IObjectIds interface, IObjectIds interface [Security],Add method, IObjectIds.Add, IObjectIds::Add, certenroll/IObjectIds::Add, security.iobjectids_add_method
 ms.topic: method
 req.header: certenroll.h

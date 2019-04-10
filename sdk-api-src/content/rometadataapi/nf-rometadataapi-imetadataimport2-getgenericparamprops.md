@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport2_getgenericparamprops.htm
 tech.root: WinRT
 ms.assetid: 3967e82c-64e3-4d05-b10a-e4e86f9f60ab
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetGenericParamProps, GetGenericParamProps method [Windows Runtime], GetGenericParamProps method [Windows Runtime],IMetaDataImport2 interface, IMetaDataImport2 interface [Windows Runtime],GetGenericParamProps method, IMetaDataImport2.GetGenericParamProps, IMetaDataImport2::GetGenericParamProps, rometadataapi/IMetaDataImport2::GetGenericParamProps, winrt.imetadataimport2_getgenericparamprops
 ms.topic: method
 req.header: rometadataapi.h

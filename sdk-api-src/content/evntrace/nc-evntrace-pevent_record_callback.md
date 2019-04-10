@@ -7,7 +7,7 @@ old-location: etw\eventrecordcallback.htm
 tech.root: ETW
 ms.assetid: 80a30faf-af1f-4440-8a17-9df44bdb2291
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EventRecordCallback, EventRecordCallback callback function [ETW], PEVENT_RECORD_CALLBACK, PEVENT_RECORD_CALLBACK callback, etw.eventrecordcallback, evntrace/EventRecordCallback
 ms.topic: callback
 req.header: evntrace.h

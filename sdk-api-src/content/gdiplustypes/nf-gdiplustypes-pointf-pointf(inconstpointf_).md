@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PointF_PointF_point_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointfclass\pointfconstructors\pointf_92point.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PointF, PointF class [GDI+],PointF constructor, PointF constructor [GDI+], PointF constructor [GDI+],PointF class, PointF.PointF, PointF.PointF(IN const PointF &), PointF.PointF(const PointF&), PointF::PointF, PointF::PointF(IN const PointF &), _gdiplus_CLASS_PointF_PointF_point_, gdiplus._gdiplus_CLASS_PointF_PointF_point_
 ms.topic: method
 req.header: gdiplustypes.h

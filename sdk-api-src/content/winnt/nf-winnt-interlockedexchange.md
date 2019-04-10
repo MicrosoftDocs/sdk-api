@@ -7,7 +7,7 @@ old-location: base\interlockedexchange.htm
 tech.root: Sync
 ms.assetid: 22142195-b592-4a7b-9b23-e31984cc1d41
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: InterlockedExchange, InterlockedExchange function, _win32_interlockedexchange, base.interlockedexchange, winnt/InterlockedExchange
 ms.topic: function
 req.header: winnt.h

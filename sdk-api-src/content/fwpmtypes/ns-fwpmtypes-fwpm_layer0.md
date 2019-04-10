@@ -7,7 +7,7 @@ old-location: fwp\fwpm_layer0_struct.htm
 tech.root: fwp
 ms.assetid: 77d567a7-9495-4f16-9b02-e44a1ef67022
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FWPM_LAYER0, FWPM_LAYER0 structure [Filtering], FWPM_LAYER_FLAG_BUFFERED, FWPM_LAYER_FLAG_BUILTIN, FWPM_LAYER_FLAG_CLASSIFY_MOSTLY, FWPM_LAYER_FLAG_KERNEL, fwp.fwpm_layer0_struct, fwpmtypes/FWPM_LAYER0
 ms.topic: struct
 req.header: fwpmtypes.h

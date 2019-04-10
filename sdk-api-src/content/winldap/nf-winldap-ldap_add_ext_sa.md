@@ -7,7 +7,7 @@ old-location: ldap\ldap_add_ext_s.htm
 tech.root: ldap
 ms.assetid: b124ad29-2f9a-48c4-b51e-2fc9143a630c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_add_ext_s, ldap.ldap__add__ext__s, ldap.ldap_add_ext_s, ldap_add_ext_s, ldap_add_ext_s function [LDAP], ldap_add_ext_sA, ldap_add_ext_sW, winldap/ldap_add_ext_s, winldap/ldap_add_ext_sA, winldap/ldap_add_ext_sW"
 ms.topic: function
 req.header: winldap.h

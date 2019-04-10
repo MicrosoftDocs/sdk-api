@@ -7,7 +7,7 @@ old-location: p2p\drt_registration.htm
 tech.root: P2PSdk
 ms.assetid: 1b5fea2c-c1df-4639-8f62-e62d8a09b1f5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PDRT_REGISTRATION, DRT_REGISTRATION, DRT_REGISTRATION structure [Peer Networking], PDRT_REGISTRATION, PDRT_REGISTRATION structure pointer [Peer Networking], drt/DRT_REGISTRATION, drt/PDRT_REGISTRATION, p2p.drt_registration"
 ms.topic: struct
 req.header: drt.h

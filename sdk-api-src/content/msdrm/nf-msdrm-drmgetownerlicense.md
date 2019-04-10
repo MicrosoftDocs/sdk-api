@@ -7,7 +7,7 @@ old-location: rm\drmgetownerlicense.htm
 tech.root: AdRms_Sdk
 ms.assetid: e657ac08-9635-40ac-8d9f-cc8ab9ed3a6c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DRMGetOwnerLicense, DRMGetOwnerLicense function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetOwnerLicense, rm.drmgetownerlicense
 ms.topic: function
 req.header: msdrm.h

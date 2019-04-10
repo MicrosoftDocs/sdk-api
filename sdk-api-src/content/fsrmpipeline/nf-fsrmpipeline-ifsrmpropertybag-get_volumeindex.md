@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpropertybag_volumeindex.htm
 tech.root: fsrm
 ms.assetid: 08d4e052-710b-4f41-86b1-473760a6e9c6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],VolumeIndex property, IFsrmPropertyBag.VolumeIndex, IFsrmPropertyBag.get_VolumeIndex, IFsrmPropertyBag::VolumeIndex, IFsrmPropertyBag::get_VolumeIndex, VolumeIndex property [File Server Resource Manager], VolumeIndex property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_volumeindex, fsrm.ifsrmpropertybag_volumeindex, fsrmpipeline/IFsrmPropertyBag::VolumeIndex, fsrmpipeline/IFsrmPropertyBag::get_VolumeIndex, get_VolumeIndex
 ms.topic: method
 req.header: fsrmpipeline.h

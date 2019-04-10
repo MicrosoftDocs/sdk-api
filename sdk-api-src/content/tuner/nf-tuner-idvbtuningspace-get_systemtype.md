@@ -7,7 +7,7 @@ old-location: mstv\idvbtuningspace_get_systemtype.htm
 tech.root: mstv
 ms.assetid: 4e08d142-6ae3-4da7-ba3c-59fdf07a2f10
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDVBTuningSpace interface [Microsoft TV Technologies],get_SystemType method, IDVBTuningSpace.get_SystemType, IDVBTuningSpace::get_SystemType, IDVBTuningSpaceget_SystemType, get_SystemType, get_SystemType method [Microsoft TV Technologies], get_SystemType method [Microsoft TV Technologies],IDVBTuningSpace interface, mstv.idvbtuningspace_get_systemtype, tuner/IDVBTuningSpace::get_SystemType
 ms.topic: method
 req.header: tuner.h

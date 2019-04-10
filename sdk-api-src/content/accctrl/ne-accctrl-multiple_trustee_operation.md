@@ -7,7 +7,7 @@ old-location: security\multiple_trustee_operation.htm
 tech.root: SecAuthZ
 ms.assetid: 00b00678-5c87-4aa9-8232-5f0f1cb48e24
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MULTIPLE_TRUSTEE_OPERATION, MULTIPLE_TRUSTEE_OPERATION enumeration [Security], NO_MULTIPLE_TRUSTEE, TRUSTEE_IS_IMPERSONATE, _win32_multiple_trustee_operation_str, accctrl/MULTIPLE_TRUSTEE_OPERATION, accctrl/NO_MULTIPLE_TRUSTEE, accctrl/TRUSTEE_IS_IMPERSONATE, security.multiple_trustee_operation
 ms.topic: enum
 req.header: accctrl.h

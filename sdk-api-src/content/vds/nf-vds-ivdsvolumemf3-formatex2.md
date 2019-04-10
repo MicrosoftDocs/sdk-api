@@ -7,7 +7,7 @@ old-location: base\ivdsvolumemf3_formatex2.htm
 tech.root: VDS
 ms.assetid: b9ef47e2-552c-4630-9f63-84f00bd93fa6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FormatEx2, FormatEx2 method, FormatEx2 method,IVdsVolumeMF3 interface, IVdsVolumeMF3 interface,FormatEx2 method, IVdsVolumeMF3.FormatEx2, IVdsVolumeMF3::FormatEx2, base.ivdsvolumemf3_formatex2, vds/IVdsVolumeMF3::FormatEx2
 ms.topic: method
 req.header: vds.h

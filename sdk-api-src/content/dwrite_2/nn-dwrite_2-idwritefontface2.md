@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontface2.htm
 tech.root: DirectWrite
 ms.assetid: D74F6472-CEEC-4DF5-83C8-0D65923C8028
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDWriteFontFace1, IDWriteFontFace1 interface [Direct Write], IDWriteFontFace1 interface [Direct Write],described, IDWriteFontFace2, directwrite.idwritefontface2, dwrite_2/IDWriteFontFace2
 ms.topic: interface
 req.header: dwrite_2.h

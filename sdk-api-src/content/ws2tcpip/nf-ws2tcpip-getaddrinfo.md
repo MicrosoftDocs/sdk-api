@@ -7,7 +7,7 @@ old-location: winsock\getaddrinfo_2.htm
 tech.root: WinSock
 ms.assetid: 7034b866-346e-4a3b-b81b-72816d95b1d6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetAddrInfoA, _win32_getaddrinfo_2, getaddrinfo, getaddrinfo function [Winsock], winsock.getaddrinfo_2, ws2tcpip/getaddrinfo
 ms.topic: function
 req.header: ws2tcpip.h

@@ -7,7 +7,7 @@ old-location: secbiomet\winbioenumbiometricunits.htm
 tech.root: SecBioMet
 ms.assetid: e1ca5712-978e-4e31-a941-eb462c670eac
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WinBioEnumBiometricUnits, WinBioEnumBiometricUnits function [Windows Biometric Framework API], secbiomet.winbioenumbiometricunits, winbio/WinBioEnumBiometricUnits
 ms.topic: function
 req.header: winbio.h

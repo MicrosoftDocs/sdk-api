@@ -7,7 +7,7 @@ old-location: security\authzfreehandle.htm
 tech.root: SecAuthZ
 ms.assetid: 8d2e2ae9-b515-4a02-b366-5b107b4f7ffa
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AuthzFreeHandle, AuthzFreeHandle function [Security], _win32_authzfreehandle, authz/AuthzFreeHandle, security.authzfreehandle
 ms.topic: function
 req.header: authz.h

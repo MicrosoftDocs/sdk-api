@@ -7,7 +7,7 @@ old-location: snmp\snmpgetlasterror.htm
 tech.root: SNMP
 ms.assetid: 0cfb2bc3-cfa5-4806-9dcf-119541463e7b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SnmpGetLastError, SnmpGetLastError function [SNMP], _snmp_snmpgetlasterror, snmp.snmpgetlasterror, winsnmp/SnmpGetLastError
 ms.topic: function
 req.header: winsnmp.h

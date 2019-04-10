@@ -7,7 +7,7 @@ old-location: base\callbackmayrunlong.htm
 tech.root: ProcThread
 ms.assetid: 59364b91-d78b-46e2-b298-42f77e712577
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CallbackMayRunLong, CallbackMayRunLong function, base.callbackmayrunlong, threadpoolapiset/CallbackMayRunLong, winbase/CallbackMayRunLong
 ms.topic: function
 req.header: threadpoolapiset.h

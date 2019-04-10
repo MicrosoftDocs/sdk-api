@@ -7,7 +7,7 @@ old-location: input_touchhittest\evaluateproximitytopolygon.htm
 tech.root: Input_TouchHitTest
 ms.assetid: 443d12f2-9f26-4e1e-9bf3-cd97b4026399
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EvaluateProximityToPolygon, EvaluateProximityToPolygon function, input_touchhittest.evaluateproximitytopolygon, touch_hittest.evaluateproximitytopolygon, winuser/EvaluateProximityToPolygon
 ms.topic: function
 req.header: winuser.h

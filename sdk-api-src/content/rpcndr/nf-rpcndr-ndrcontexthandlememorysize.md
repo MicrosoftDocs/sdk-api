@@ -7,7 +7,7 @@ old-location: rpc\ndrcontexthandlememorysize.htm
 tech.root: Rpc
 ms.assetid: f1dd8d13-8d10-4c5c-bb31-b51d38834e88
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NdrContextHandleMemorySize, NdrContextHandleMemorySize function [RPC], rpc.ndrcontexthandlememorysize, rpcndr/NdrContextHandleMemorySize
 ms.topic: function
 req.header: rpcndr.h

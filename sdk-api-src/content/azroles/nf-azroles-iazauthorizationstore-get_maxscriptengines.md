@@ -7,7 +7,7 @@ old-location: security\azauthorizationstore_maxscriptengines.htm
 tech.root: SecAuthZ
 ms.assetid: d18fe030-5177-4516-b4bf-6fea78abea52
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],MaxScriptEngines property, IAzAuthorizationStore interface [Security],MaxScriptEngines property, IAzAuthorizationStore.MaxScriptEngines, IAzAuthorizationStore.get_MaxScriptEngines, IAzAuthorizationStore::MaxScriptEngines, IAzAuthorizationStore::get_MaxScriptEngines, IAzAuthorizationStore::put_MaxScriptEngines, MaxScriptEngines property [Security], MaxScriptEngines property [Security],AzAuthorizationStore object, MaxScriptEngines property [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::MaxScriptEngines, azroles/IAzAuthorizationStore::get_MaxScriptEngines, azroles/IAzAuthorizationStore::put_MaxScriptEngines, get_MaxScriptEngines, security.azauthorizationstore_maxscriptengines
 ms.topic: method
 req.header: azroles.h

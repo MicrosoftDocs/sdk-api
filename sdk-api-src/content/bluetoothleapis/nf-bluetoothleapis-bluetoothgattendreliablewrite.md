@@ -7,7 +7,7 @@ old-location: bltooth\bluetoothgattendreliablewrite.htm
 tech.root: bltooth
 ms.assetid: 4A3CB135-55D7-41BA-8067-D4B865D05733
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BluetoothGATTEndReliableWrite, BluetoothGATTEndReliableWrite function [Bluetooth Devices], bltooth.bluetoothgattendreliablewrite, bluetoothleapis/BluetoothGATTEndReliableWrite
 ms.topic: function
 req.header: bluetoothleapis.h

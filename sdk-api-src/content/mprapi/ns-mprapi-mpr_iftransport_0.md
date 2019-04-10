@@ -7,7 +7,7 @@ old-location: rras\mpr_iftransport_0.htm
 tech.root: RRAS
 ms.assetid: 4ee360be-fe5f-477e-901f-92d083f68451
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PMPR_IFTRANSPORT_0, MPR_IFTRANSPORT_0, MPR_IFTRANSPORT_0 structure [RAS], PMPR_IFTRANSPORT_0, PMPR_IFTRANSPORT_0 structure pointer [RAS], _mpr_mpr_iftransport_0, mprapi/MPR_IFTRANSPORT_0, mprapi/PMPR_IFTRANSPORT_0, rras.mpr_iftransport_0"
 ms.topic: struct
 req.header: mprapi.h

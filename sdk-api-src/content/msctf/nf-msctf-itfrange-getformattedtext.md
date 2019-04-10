@@ -7,7 +7,7 @@ old-location: tsf\itfrange_getformattedtext.htm
 tech.root: TSF
 ms.assetid: 8da4cb21-7097-4ba9-a63b-3699ef267776
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetFormattedText, GetFormattedText method [Text Services Framework], GetFormattedText method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],GetFormattedText method, ITfRange.GetFormattedText, ITfRange::GetFormattedText, _tsf_itfrange_getformattedtext_ref, msctf/ITfRange::GetFormattedText, tsf.itfrange_getformattedtext
 ms.topic: method
 req.header: msctf.h

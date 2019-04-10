@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioclient_getmaxdynamicobjectcount.htm
 tech.root: CoreAudio
 ms.assetid: 0185D09E-0009-41BF-A0BB-3C3CE0A69BA8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetMaxDynamicObjectCount, GetMaxDynamicObjectCount method [Core Audio], GetMaxDynamicObjectCount method [Core Audio],ISpatialAudioClient interface, ISpatialAudioClient interface [Core Audio],GetMaxDynamicObjectCount method, ISpatialAudioClient.GetMaxDynamicObjectCount, ISpatialAudioClient::GetMaxDynamicObjectCount, coreaudio.ispatialaudioclient_getmaxdynamicobjectcount, spatialaudioclient/ISpatialAudioClient::GetMaxDynamicObjectCount
 ms.topic: method
 req.header: spatialaudioclient.h

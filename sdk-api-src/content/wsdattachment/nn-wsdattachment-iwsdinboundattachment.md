@@ -7,7 +7,7 @@ old-location: ncd\iwsdinboundattachment.htm
 tech.root: WsdApi
 ms.assetid: 1bacbf20-2eb2-4aa1-ba37-e14dc0d955b0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWSDInboundAttachment, IWSDInboundAttachment interface, IWSDInboundAttachment interface,described, ncd.iwsdinboundattachment, wsdattachment/IWSDInboundAttachment
 ms.topic: interface
 req.header: wsdattachment.h

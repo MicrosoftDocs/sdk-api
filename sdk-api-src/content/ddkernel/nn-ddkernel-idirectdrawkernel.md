@@ -7,7 +7,7 @@ old-location: display\idirectdrawkernel.htm
 tech.root: display
 ms.assetid: 3604426e-2f7c-469a-984e-6de002039b25
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDirectDrawKernel, IDirectDrawKernel interface [Display Devices], IDirectDrawKernel interface [Display Devices],described, ddfncs_99da651f-0f06-4443-949c-a5530f681fa0.xml, ddkernel/IDirectDrawKernel, display.idirectdrawkernel
 ms.topic: interface
 req.header: ddkernel.h

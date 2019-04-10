@@ -7,7 +7,7 @@ old-location: etw\unregistertraceguids.htm
 tech.root: ETW
 ms.assetid: 1fa10f66-a78b-4f40-9518-72d48365246e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: UnregisterTraceGuids, UnregisterTraceGuids function [ETW], _evt_unregistertraceguids, base.unregistertraceguids, etw.unregistertraceguids, evntrace/UnregisterTraceGuids
 ms.topic: function
 req.header: evntrace.h

@@ -7,7 +7,7 @@ old-location: security\secpkg_gss_info.htm
 tech.root: SecAuthN
 ms.assetid: a2df73ee-6c95-40d9-b1cb-9eaddb4100d6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PSECPKG_GSS_INFO, PSECPKG_GSS_INFO, PSECPKG_GSS_INFO structure pointer [Security], SECPKG_GSS_INFO, SECPKG_GSS_INFO structure [Security], _ssp_secpkg_gss_info, ntsecpkg/PSECPKG_GSS_INFO, ntsecpkg/SECPKG_GSS_INFO, security.secpkg_gss_info"
 ms.topic: struct
 req.header: ntsecpkg.h

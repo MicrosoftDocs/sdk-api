@@ -7,7 +7,7 @@ old-location: security\icryptattributes__newenum_property.htm
 tech.root: seccertenroll
 ms.assetid: 872ef6ff-d093-48e7-9062-4b81a771666d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ICryptAttributes interface [Security],_NewEnum property, ICryptAttributes._NewEnum, ICryptAttributes.get__NewEnum, ICryptAttributes::_NewEnum, ICryptAttributes::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICryptAttributes interface, certenroll/ICryptAttributes::_NewEnum, certenroll/ICryptAttributes::get__NewEnum, get__NewEnum, security.icryptattributes__newenum_property
 ms.topic: method
 req.header: certenroll.h

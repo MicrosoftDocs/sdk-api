@@ -7,7 +7,7 @@ old-location: dxmath\xmplaneintersectplane.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneIntersectPlane(XMVECTOR@,XMVECTOR@,XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneIntersectPlane, XMPlaneIntersectPlane, XMPlaneIntersectPlane method [DirectX Math Support APIs], dxmath.xmplaneintersectplane
 ms.topic: function
 req.header: directxmath.h

@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceconnector_cancel.htm
 tech.root: wpd_sdk
 ms.assetid: 4cc3ecd1-f2b0-4e8e-8654-6445782153f3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [Windows Portable Devices SDK], Cancel method [Windows Portable Devices SDK],IPortableDeviceConnector interface, IPortableDeviceConnector interface [Windows Portable Devices SDK],Cancel method, IPortableDeviceConnector.Cancel, IPortableDeviceConnector::Cancel, devpkey/IPortableDeviceConnector::Cancel, portabledeviceconnectapi/IPortableDeviceConnector::Cancel, wpdsdk.iportabledeviceconnector_cancel
 ms.topic: method
 req.header: portabledeviceconnectapi.h

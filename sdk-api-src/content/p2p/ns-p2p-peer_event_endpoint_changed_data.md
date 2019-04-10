@@ -7,7 +7,7 @@ old-location: p2p\peer_event_endpoint_changed_data.htm
 tech.root: P2PSdk
 ms.assetid: e2ce28c6-6dc0-4ceb-aa3f-7b86a2581425
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PPEER_EVENT_ENDPOINT_CHANGED_DATA, PEER_EVENT_ENDPOINT_CHANGED_DATA, PEER_EVENT_ENDPOINT_CHANGED_DATA structure [Peer Networking], PPEER_EVENT_ENDPOINT_CHANGED_DATA, PPEER_EVENT_ENDPOINT_CHANGED_DATA structure pointer [Peer Networking], p2p.peer_event_endpoint_changed_data, p2p/PEER_EVENT_ENDPOINT_CHANGED_DATA, p2p/PPEER_EVENT_ENDPOINT_CHANGED_DATA"
 ms.topic: struct
 req.header: p2p.h

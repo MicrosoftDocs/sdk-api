@@ -7,7 +7,7 @@ old-location: dshow\mocopymediatype.htm
 tech.root: DirectShow
 ms.assetid: 7b6325bf-a996-467e-896d-a6dc41f63fd4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MoCopyMediaType, MoCopyMediaType function [DirectShow], dmort/MoCopyMediaType, dshow.mocopymediatype
 ms.topic: function
 req.header: dmort.h

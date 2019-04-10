@@ -7,7 +7,7 @@ old-location: proc_snap\psswalkmarkergetposition.htm
 tech.root: proc_snap
 ms.assetid: A2058E81-2B01-4436-ACC6-2A3E58BC4E27
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PssWalkMarkerGetPosition, PssWalkMarkerGetPosition function, proc_snap.psswalkmarkergetposition, processsnapshot/PssWalkMarkerGetPosition
 ms.topic: function
 req.header: processsnapshot.h

@@ -7,7 +7,7 @@ old-location: rras\mpradminlinkhangupnotification.htm
 tech.root: RRAS
 ms.assetid: 7f2b30e8-ba1d-4db3-843f-f9eafca47add
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MprAdminLinkHangupNotification, MprAdminLinkHangupNotification callback, MprAdminLinkHangupNotification callback function [RAS], _mpr_mpradminlinkhangupnotification, mprapi/MprAdminLinkHangupNotification, rras.mpradminlinkhangupnotification
 ms.topic: function
 req.header: mprapi.h

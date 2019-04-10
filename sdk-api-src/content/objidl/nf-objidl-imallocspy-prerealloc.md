@@ -7,7 +7,7 @@ old-location: com\imallocspy_prerealloc.htm
 tech.root: com
 ms.assetid: dd4db69c-3369-4aca-bc05-4c3c6850cc09
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMallocSpy interface [COM],PreRealloc method, IMallocSpy.PreRealloc, IMallocSpy::PreRealloc, PreRealloc, PreRealloc method [COM], PreRealloc method [COM],IMallocSpy interface, _com_imallocspy_prerealloc, com.imallocspy_prerealloc, objidl/IMallocSpy::PreRealloc
 ms.topic: method
 req.header: objidl.h

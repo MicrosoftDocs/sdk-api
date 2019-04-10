@@ -7,7 +7,7 @@ old-location: tapi3\ienumphone.htm
 tech.root: Tapi
 ms.assetid: fa12508d-6224-4e11-a4a3-5ce5fff7b735
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEnumPhone, IEnumPhone interface [TAPI 2.2], IEnumPhone interface [TAPI 2.2],described, _tapi3_ienumphone, tapi3.ienumphone, tapi3if/IEnumPhone
 ms.topic: interface
 req.header: tapi3if.h

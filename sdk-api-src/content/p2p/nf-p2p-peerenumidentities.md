@@ -7,7 +7,7 @@ old-location: p2p\peerenumidentities.htm
 tech.root: P2PSdk
 ms.assetid: 91f18185-0292-41a3-8aff-8b345cab5e82
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PeerEnumIdentities, PeerEnumIdentities function [Peer Networking], p2p.peerenumidentities, p2p/PeerEnumIdentities
 ms.topic: function
 req.header: p2p.h

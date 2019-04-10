@@ -7,7 +7,7 @@ old-location: base\setsystemtimeadjustmentprecise.htm
 tech.root: SysInfo
 ms.assetid: 8B429BFC-9781-4434-9A2F-9E50E2BF299A
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SetSystemTimeAdjustmentPrecise, SetSystemTimeAdjustmentPrecise function, base.setsystemtimeadjustmentprecise, sysinfoapi/SetSystemTimeAdjustmentPrecise
 ms.topic: function
 req.header: sysinfoapi.h

@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiongaussianblureffect.htm
 tech.root: directcomp
 ms.assetid: CFE79B69-75EC-4E22-BC3E-C82601AE1213
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDCompositionGaussianBlurEffect, IDCompositionGaussianBlurEffect interface [DirectComposition], IDCompositionGaussianBlurEffect interface [DirectComposition],described, dcomp/IDCompositionGaussianBlurEffect, directcomp.idcompositiongaussianblureffect
 ms.topic: interface
 req.header: dcomp.h

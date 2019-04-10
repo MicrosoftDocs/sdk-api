@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceproperties_delete.htm
 tech.root: wpd_sdk
 ms.assetid: 2547c9aa-edc7-4331-b5f2-bfb4a96f7175
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [Windows Portable Devices SDK], Delete method [Windows Portable Devices SDK],IPortableDeviceProperties interface, IPortableDeviceProperties interface [Windows Portable Devices SDK],Delete method, IPortableDeviceProperties.Delete, IPortableDeviceProperties::Delete, IPortableDevicePropertiesDelete, portabledeviceapi/IPortableDeviceProperties::Delete, wpdsdk.iportabledeviceproperties_delete
 ms.topic: method
 req.header: portabledeviceapi.h

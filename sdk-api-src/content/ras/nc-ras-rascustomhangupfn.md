@@ -7,7 +7,7 @@ old-location: rras\rascustomhangup.htm
 tech.root: RRAS
 ms.assetid: 56410af3-7b23-4536-998d-88d78d45585d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RasCustomHangUp, RasCustomHangUp callback function [RAS], RasCustomHangUpFn, RasCustomHangUpFn callback, _ras_rascustomhangup, ras/RasCustomHangUp, rras.rascustomhangup
 ms.topic: callback
 req.header: ras.h

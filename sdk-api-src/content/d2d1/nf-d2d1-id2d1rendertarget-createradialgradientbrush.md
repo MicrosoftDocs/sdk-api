@@ -7,7 +7,7 @@ old-location: direct2d\id2d1rendertarget_createradialgradientbrush.htm
 tech.root: Direct2D
 ms.assetid: 985a4c1b-d29b-46ed-bc55-6dcd313718a8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateRadialGradientBrush, CreateRadialGradientBrush methods [Direct2D], ID2D1RenderTarget.CreateRadialGradientBrush, ID2D1RenderTarget::CreateRadialGradientBrush, d2d1/CreateRadialGradientBrush, direct2d.id2d1rendertarget_createradialgradientbrush
 ms.topic: method
 req.header: d2d1.h

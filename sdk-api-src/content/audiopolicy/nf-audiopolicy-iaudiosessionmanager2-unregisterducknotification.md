@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionmanager2_unregisterducknotification.htm
 tech.root: CoreAudio
 ms.assetid: 0ab0f5d0-8831-41a2-bfee-3e88a3d92156
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IAudioSessionManager2 interface [Core Audio],UnregisterDuckNotification method, IAudioSessionManager2.UnregisterDuckNotification, IAudioSessionManager2::UnregisterDuckNotification, UnregisterDuckNotification, UnregisterDuckNotification method [Core Audio], UnregisterDuckNotification method [Core Audio],IAudioSessionManager2 interface, audiopolicy/IAudioSessionManager2::UnregisterDuckNotification, coreaudio.iaudiosessionmanager2_unregisterducknotification
 ms.topic: method
 req.header: audiopolicy.h

@@ -7,7 +7,7 @@ old-location: rpc\ndrusermarshalmarshall.htm
 tech.root: Rpc
 ms.assetid: 9c89f342-2356-4a58-81bf-f9e53535468e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NdrUserMarshalMarshall, NdrUserMarshalMarshall function [RPC], rpc.ndrusermarshalmarshall, rpcndr/NdrUserMarshalMarshall
 ms.topic: function
 req.header: rpcndr.h

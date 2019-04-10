@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_instance_clearelementat.htm
 tech.root: wmi_v2
 ms.assetid: ef97bfa4-2e06-44b1-aa50-ce8c6a550c69
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_Instance_ClearElementAt, MI_Instance_ClearElementAt function [Windows Management Infrastructure (MI)], mi/MI_Instance_ClearElementAt, wmi_v2.mi_instance_clearelementat
 ms.topic: function
 req.header: mi.h

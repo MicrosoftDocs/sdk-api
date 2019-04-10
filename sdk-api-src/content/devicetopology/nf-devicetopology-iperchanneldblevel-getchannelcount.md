@@ -7,7 +7,7 @@ old-location: coreaudio\iperchanneldblevel_getchannelcount.htm
 tech.root: CoreAudio
 ms.assetid: f8c6c0fd-fe29-467a-936e-f83c6d951bdd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetChannelCount, GetChannelCount method [Core Audio], GetChannelCount method [Core Audio],IPerChannelDbLevel interface, IPerChannelDbLevel interface [Core Audio],GetChannelCount method, IPerChannelDbLevel.GetChannelCount, IPerChannelDbLevel::GetChannelCount, IPerChannelDbLevelGetChannelCount, coreaudio.iperchanneldblevel_getchannelcount, devicetopology/IPerChannelDbLevel::GetChannelCount
 ms.topic: method
 req.header: devicetopology.h

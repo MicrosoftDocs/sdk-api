@@ -7,7 +7,7 @@ old-location: security\cryptsignandencryptmessage.htm
 tech.root: SecCrypto
 ms.assetid: 0ab234f2-a681-463f-8ba8-b23b05cf2626
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CryptSignAndEncryptMessage, CryptSignAndEncryptMessage function [Security], _crypto2_cryptsignandencryptmessage, security.cryptsignandencryptmessage, wincrypt/CryptSignAndEncryptMessage
 ms.topic: function
 req.header: wincrypt.h

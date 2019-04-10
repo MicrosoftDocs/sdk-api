@@ -7,7 +7,7 @@ old-location: base\ivdsvolumemf_queryaccesspaths.htm
 tech.root: VDS
 ms.assetid: 7d541245-c189-4abe-ac72-2928c7aeed95
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVdsVolumeMF interface [VDS],QueryAccessPaths method, IVdsVolumeMF.QueryAccessPaths, IVdsVolumeMF::QueryAccessPaths, QueryAccessPaths, QueryAccessPaths method [VDS], QueryAccessPaths method [VDS],IVdsVolumeMF interface, base.ivdsvolumemf_queryaccesspaths, vds/IVdsVolumeMF::QueryAccessPaths
 ms.topic: method
 req.header: vds.h

@@ -7,7 +7,7 @@ old-location: wds\wdstransportproviderreadcontent.htm
 tech.root: wds
 ms.assetid: 2b208871-a623-469b-a5dc-40d0c8009c02
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderReadContent, WdsTransportProviderReadContent callback, WdsTransportProviderReadContent callback function [Windows Deployment Services], wds.wdstransportproviderreadcontent, wdstpdi/WdsTransportProviderReadContent
 ms.topic: function
 req.header: wdstpdi.h

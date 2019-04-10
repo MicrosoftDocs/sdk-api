@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxregisterroutingextension.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_4q3y.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FaxRegisterRoutingExtension, FaxRegisterRoutingExtension function [Fax Service], FaxRegisterRoutingExtensionW, _mfax_faxregisterroutingextension, fax._mfax_faxregisterroutingextension, winfax/FaxRegisterRoutingExtension
 ms.topic: function
 req.header: winfax.h

@@ -7,7 +7,7 @@ old-location: qos\qos_ds_class.htm
 tech.root: QOS
 ms.assetid: 56eca8ef-2b6e-4380-869c-bf1a4c8fdb1f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPQOS_DS_CLASS, LPQOS_DS_CLASS, LPQOS_DS_CLASS structure pointer [QOS], QOS_DS_CLASS, QOS_DS_CLASS structure [QOS], _gqos_qos_ds_class, qos.qos_ds_class, qosobjs/LPQOS_DS_CLASS, qosobjs/QOS_DS_CLASS"
 ms.topic: struct
 req.header: qosobjs.h

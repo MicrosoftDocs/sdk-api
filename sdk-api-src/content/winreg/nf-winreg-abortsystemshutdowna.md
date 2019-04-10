@@ -7,7 +7,7 @@ old-location: base\abortsystemshutdown.htm
 tech.root: Shutdown
 ms.assetid: 41212640-6a06-4d2f-9b0e-5b2d77d561b0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AbortSystemShutdown, AbortSystemShutdown function, AbortSystemShutdownA, AbortSystemShutdownW, _win32_abortsystemshutdown, base.abortsystemshutdown, winreg/AbortSystemShutdown, winreg/AbortSystemShutdownA, winreg/AbortSystemShutdownW
 ms.topic: function
 req.header: winreg.h

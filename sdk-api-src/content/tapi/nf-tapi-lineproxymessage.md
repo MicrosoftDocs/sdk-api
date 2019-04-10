@@ -7,7 +7,7 @@ old-location: tapi2\lineproxymessage.htm
 tech.root: Tapi
 ms.assetid: 624a13f4-4be7-441b-abc0-e1fad8f01bdf
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_tapi2_lineproxymessage, lineProxyMessage, lineProxyMessage function [TAPI 2.2], tapi/lineProxyMessage, tapi2.lineproxymessage"
 ms.topic: function
 req.header: tapi.h

@@ -7,7 +7,7 @@ old-location: dxmath\xmxdecn4_operator_uint32_t.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMXDECN4.operator uint32_t
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMXDECN4.operator uint32_t, DirectX::PackedVector::XMXDECN4::operator uint32_t, XMXDECN4 structure [DirectX Math Support APIs],operator uint32_t method, XMXDECN4.operator uint32_t, XMXDECN4::operator uint32_t, dxmath.xmxdecn4_operator_uint32_t, operator uint32_t, operator uint32_t method [DirectX Math Support APIs], operator uint32_t method [DirectX Math Support APIs],XMXDECN4 structure
 ms.topic: method
 req.header: directxpackedvector.h

@@ -7,7 +7,7 @@ old-location: appxpkg\iappxblockmapreader.htm
 tech.root: appxpkg
 ms.assetid: 233539FD-E3BE-4783-9F23-B34F6397FBBE
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IAppxBlockMapReader, IAppxBlockMapReader interface [App packaging and management], IAppxBlockMapReader interface [App packaging and management],described, appxpackaging/IAppxBlockMapReader, appxpkg.iappxblockmapreader
 ms.topic: interface
 req.header: appxpackaging.h

@@ -7,7 +7,7 @@ old-location: tablet\iinktablet3.htm
 tech.root: tablet
 ms.assetid: 9b275a35-95d8-40fd-b406-d83eb9aa2adf
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IInkTablet3, IInkTablet3 Interface, IInkTablet3 Interface interface [Tablet PC], IInkTablet3 Interface interface [Tablet PC],described, msinkaut/IInkTablet3 Interface, tablet.iinktablet3
 ms.topic: interface
 req.header: msinkaut.h

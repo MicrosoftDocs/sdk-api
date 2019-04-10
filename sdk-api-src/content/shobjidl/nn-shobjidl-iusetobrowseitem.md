@@ -7,7 +7,7 @@ old-location: shell\IUseToBrowseItem.htm
 tech.root: shell
 ms.assetid: 12dfe612-d5b9-438f-aaa2-e52ebc3d6ebc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IUseToBrowseItem, IUseToBrowseItem interface [Windows Shell], IUseToBrowseItem interface [Windows Shell],described, _shell_IUseToBrowseItem, shell.IUseToBrowseItem, shobjidl/IUseToBrowseItem
 ms.topic: interface
 req.header: shobjidl.h

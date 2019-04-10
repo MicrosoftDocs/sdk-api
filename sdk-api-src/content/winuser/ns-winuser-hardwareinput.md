@@ -7,7 +7,7 @@ old-location: inputdev\hardwareinput.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputstructures\hardwareinput.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPHARDWAREINPUT, *PHARDWAREINPUT, HARDWAREINPUT, HARDWAREINPUT structure [Keyboard and Mouse Input], PHARDWAREINPUT, PHARDWAREINPUT structure pointer [Keyboard and Mouse Input], _win32_HARDWAREINPUT_str, _win32_hardwareinput_str_cpp, inputdev.hardwareinput, winui._win32_hardwareinput_str, winuser/HARDWAREINPUT, winuser/PHARDWAREINPUT"
 ms.topic: struct
 req.header: winuser.h

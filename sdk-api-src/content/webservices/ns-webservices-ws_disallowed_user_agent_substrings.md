@@ -7,7 +7,7 @@ old-location: wsw\ws_disallowed_user_agent_substrings.htm
 tech.root: wsw
 ms.assetid: 3a37275b-11e6-484a-adc2-1e9503d1b309
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_DISALLOWED_USER_AGENT_SUBSTRINGS, WS_DISALLOWED_USER_AGENT_SUBSTRINGS structure [Web Services for Windows], webservices/WS_DISALLOWED_USER_AGENT_SUBSTRINGS, wsw.ws_disallowed_user_agent_substrings
 ms.topic: struct
 req.header: webservices.h

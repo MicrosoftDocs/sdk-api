@@ -7,7 +7,7 @@ old-location: base\getthreadgroupaffinity.htm
 tech.root: ProcThread
 ms.assetid: effc75be-60da-43cc-bfb3-5fb905e1404d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetThreadGroupAffinity, GetThreadGroupAffinity function, base.getthreadgroupaffinity, processtopologyapi/GetThreadGroupAffinity, winbase/GetThreadGroupAffinity
 ms.topic: function
 req.header: processtopologyapi.h

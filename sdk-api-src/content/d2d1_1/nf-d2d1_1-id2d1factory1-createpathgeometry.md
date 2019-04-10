@@ -7,7 +7,7 @@ old-location: direct2d\id2d1factory1_createpathgeometry.htm
 tech.root: Direct2D
 ms.assetid: 182e7dbc-ab49-427f-8801-d94e4ed9a308
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreatePathGeometry, CreatePathGeometry method [Direct2D], CreatePathGeometry method [Direct2D],ID2D1Factory1 interface, ID2D1Factory1 interface [Direct2D],CreatePathGeometry method, ID2D1Factory1.CreatePathGeometry, ID2D1Factory1::CreatePathGeometry, d2d1_1/ID2D1Factory1::CreatePathGeometry, direct2d.id2d1factory1_createpathgeometry
 ms.topic: method
 req.header: d2d1_1.h

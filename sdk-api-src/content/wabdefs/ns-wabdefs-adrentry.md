@@ -7,7 +7,7 @@ old-location: wab\_wab_ADRENTRY.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\adrentry.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPADRENTRY, ADRENTRY, ADRENTRY structure [Windows Address Book], Gender, Gender structure [Windows Address Book], _wab_ADRENTRY, wab._wab_ADRENTRY, wabdefs/ADRENTRY"
 ms.topic: struct
 req.header: wabdefs.h

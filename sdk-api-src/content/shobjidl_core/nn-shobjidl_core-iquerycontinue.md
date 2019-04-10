@@ -7,7 +7,7 @@ old-location: shell\IQueryContinue.htm
 tech.root: shell
 ms.assetid: 94dee6cc-a142-4180-a562-14f4ded16884
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IQueryContinue, IQueryContinue interface [Windows Shell], IQueryContinue interface [Windows Shell],described, inet_IQueryContinue, shell.IQueryContinue, shobjidl_core/IQueryContinue
 ms.topic: interface
 req.header: shobjidl_core.h

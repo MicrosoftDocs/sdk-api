@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvaluestatics_createdouble.htm
 tech.root: WinRT
 ms.assetid: 66BB900A-797A-4589-AB9F-C35371F2671E
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateDouble, CreateDouble method [Windows Runtime], CreateDouble method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateDouble method, IPropertyValueStatics.CreateDouble, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateDouble, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateDouble, winrt.ipropertyvaluefactory_createdouble, winrt.ipropertyvaluestatics_createdouble
 ms.topic: method
 req.header: windows.foundation.h

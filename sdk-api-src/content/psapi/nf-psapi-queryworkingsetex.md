@@ -7,7 +7,7 @@ old-location: psapi\queryworkingsetex.htm
 tech.root: psapi
 ms.assetid: 59ae76c9-e954-4648-9c9f-787136375b02
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: K32QueryWorkingSetEx, QueryWorkingSetEx, QueryWorkingSetEx function [PSAPI], base.queryworkingsetex, psapi.queryworkingsetex, psapi/K32QueryWorkingSetEx, psapi/QueryWorkingSetEx
 ms.topic: function
 req.header: psapi.h

@@ -7,7 +7,7 @@ old-location: wmp\iwmpplaylist_moveitem.htm
 tech.root: WMP
 ms.assetid: f408c7a0-d1d6-4c0d-8ee5-0afd43b19a9d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],moveItem method, IWMPPlaylist.moveItem, IWMPPlaylist::moveItem, IWMPPlaylistmoveItem, moveItem, moveItem method [Windows Media Player], moveItem method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_moveitem, wmp/IWMPPlaylist::moveItem
 ms.topic: method
 req.header: wmp.h

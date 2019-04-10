@@ -7,7 +7,7 @@ old-location: proc_snap\psswalkmarkerfree.htm
 tech.root: proc_snap
 ms.assetid: 74158846-6A5F-4F81-B4D7-46DED1EE017C
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PssWalkMarkerFree, PssWalkMarkerFree function, proc_snap.psswalkmarkerfree, processsnapshot/PssWalkMarkerFree
 ms.topic: function
 req.header: processsnapshot.h

@@ -7,7 +7,7 @@ old-location: security\icspinformations_clear_method.htm
 tech.root: seccertenroll
 ms.assetid: 54afd0aa-24b4-4987-bab3-bccbaef6e08f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ICspInformations interface, ICspInformations interface [Security],Clear method, ICspInformations.Clear, ICspInformations::Clear, certenroll/ICspInformations::Clear, security.icspinformations_clear_method
 ms.topic: method
 req.header: certenroll.h

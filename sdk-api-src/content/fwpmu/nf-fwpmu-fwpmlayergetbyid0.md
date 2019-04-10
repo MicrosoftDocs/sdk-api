@@ -7,7 +7,7 @@ old-location: fwp\fwpmlayergetbyid0_func.htm
 tech.root: fwp
 ms.assetid: c7668d06-8533-4dd1-a4f6-fb38c97219db
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FwpmLayerGetById0, FwpmLayerGetById0 function [Filtering], fwp.fwpmlayergetbyid0_func, fwpmu/FwpmLayerGetById0
 ms.topic: function
 req.header: fwpmu.h

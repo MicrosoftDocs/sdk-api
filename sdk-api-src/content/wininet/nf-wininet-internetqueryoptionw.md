@@ -7,7 +7,7 @@ old-location: wininet\internetqueryoption.htm
 tech.root: wininet
 ms.assetid: b0bafd3d-8f54-429e-b423-dae3d61b0030
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: InternetQueryOption, InternetQueryOption function [WinINet], InternetQueryOptionA, InternetQueryOptionW, _inet_internetqueryoption_function, wininet.internetqueryoption, wininet/InternetQueryOption, wininet/InternetQueryOptionA, wininet/InternetQueryOptionW
 ms.topic: function
 req.header: wininet.h

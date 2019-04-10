@@ -7,7 +7,7 @@ old-location: rpc\rpc_notifications.htm
 tech.root: Rpc
 ms.assetid: d5074917-837c-4f3c-a582-97f488ed4919
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RPC_NOTIFICATIONS, RPC_NOTIFICATIONS enumeration [RPC], RpcNotificationCallCancel, RpcNotificationCallNone, RpcNotificationClientDisconnect, rpc.rpc_notifications, rpcasync/RPC_NOTIFICATIONS, rpcasync/RpcNotificationCallCancel, rpcasync/RpcNotificationCallNone, rpcasync/RpcNotificationClientDisconnect
 ms.topic: enum
 req.header: rpcasync.h

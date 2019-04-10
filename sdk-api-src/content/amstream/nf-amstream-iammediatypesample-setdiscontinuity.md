@@ -7,7 +7,7 @@ old-location: dshow\iammediatypesample_setdiscontinuity.htm
 tech.root: DirectShow
 ms.assetid: 9dcac2ce-c9a0-40be-aa86-b4acbd4d06a7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IAMMediaTypeSample interface [DirectShow],SetDiscontinuity method, IAMMediaTypeSample.SetDiscontinuity, IAMMediaTypeSample::SetDiscontinuity, IAMMediaTypeSampleSetDiscontinuity, SetDiscontinuity, SetDiscontinuity method [DirectShow], SetDiscontinuity method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::SetDiscontinuity, dshow.iammediatypesample_setdiscontinuity
 ms.topic: method
 req.header: amstream.h

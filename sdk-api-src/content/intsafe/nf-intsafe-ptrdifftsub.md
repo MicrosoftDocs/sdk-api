@@ -7,7 +7,7 @@ old-location: shell\PtrdiffTSub.htm
 tech.root: shell
 ms.assetid: 633ba8f5-ce8b-41a0-8af3-c06f69c9b676
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PtrdiffTSub, PtrdiffTSub function [Windows Shell], intsafe/PtrdiffTSub, shell.PtrdiffTSub
 ms.topic: function
 req.header: intsafe.h

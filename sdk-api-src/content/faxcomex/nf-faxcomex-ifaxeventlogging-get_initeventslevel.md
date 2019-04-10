@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxeventlogging_cpp_mfax_faxeventlogging_initeventslevel
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_2dd8.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFaxEventLogging interface [Fax Service],InitEventsLevel property, IFaxEventLogging.InitEventsLevel, IFaxEventLogging.get_InitEventsLevel, IFaxEventLogging.put_InitEventsLevel, IFaxEventLogging::InitEventsLevel, IFaxEventLogging::get_InitEventsLevel, IFaxEventLogging::put_InitEventsLevel, InitEventsLevel property [Fax Service], InitEventsLevel property [Fax Service],IFaxEventLogging interface, _mfax_faxeventlogging.initeventslevel, fax._mfax_faxeventlogging_cpp_mfax_faxeventlogging_initeventslevel_cpp, fax._mfax_faxeventlogging_initeventslevel, faxcomex/IFaxEventLogging::InitEventsLevel, faxcomex/IFaxEventLogging::get_InitEventsLevel, faxcomex/IFaxEventLogging::put_InitEventsLevel, get_InitEventsLevel
 ms.topic: method
 req.header: faxcomex.h

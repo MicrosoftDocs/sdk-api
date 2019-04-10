@@ -7,7 +7,7 @@ old-location: rpc\rpcnsbindingexportpnp.htm
 tech.root: Rpc
 ms.assetid: 01440165-ab04-447a-9a39-9e91743aba65
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RpcNsBindingExportPnP, RpcNsBindingExportPnP function [RPC], RpcNsBindingExportPnPA, RpcNsBindingExportPnPW, _rpc_rpcnsbindingexportpnp, rpc.rpcnsbindingexportpnp, rpcnsi/RpcNsBindingExportPnP, rpcnsi/RpcNsBindingExportPnPA, rpcnsi/RpcNsBindingExportPnPW
 ms.topic: function
 req.header: rpcnsi.h

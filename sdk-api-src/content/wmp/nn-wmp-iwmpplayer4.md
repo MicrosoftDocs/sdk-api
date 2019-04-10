@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayer4.htm
 tech.root: WMP
 ms.assetid: afe5dbd1-96e1-4abe-b843-ec6130fa02d0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMPPlayer4, IWMPPlayer4 interface [Windows Media Player], IWMPPlayer4 interface [Windows Media Player],described, IWMPPlayer4Interface, wmp.iwmpplayer4, wmp/IWMPPlayer4
 ms.topic: interface
 req.header: wmp.h

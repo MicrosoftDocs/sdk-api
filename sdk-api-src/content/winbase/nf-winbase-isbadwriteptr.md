@@ -7,7 +7,7 @@ old-location: base\isbadwriteptr.htm
 tech.root: Memory
 ms.assetid: 2b353a8e-45cf-4108-9522-bcbde9c71ec4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IsBadWritePtr, IsBadWritePtr function, _win32_isbadwriteptr, base.isbadwriteptr, winbase/IsBadWritePtr
 ms.topic: function
 req.header: winbase.h

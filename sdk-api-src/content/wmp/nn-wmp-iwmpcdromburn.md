@@ -7,7 +7,7 @@ old-location: wmp\iwmpcdromburn.htm
 tech.root: WMP
 ms.assetid: 45116a33-62f9-4c7d-b246-25905cbaf118
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMPCdromBurn, IWMPCdromBurn interface [Windows Media Player], IWMPCdromBurn interface [Windows Media Player],described, IWMPCdromBurnInterface, wmp.iwmpcdromburn, wmp/IWMPCdromBurn
 ms.topic: interface
 req.header: wmp.h

@@ -7,7 +7,7 @@ old-location: multimedia\midiconnect.htm
 tech.root: Multimedia
 ms.assetid: 24ee806a-f8a2-470e-8737-e4e5216f2705
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_win32_midiConnect, midiConnect, midiConnect function [Windows Multimedia], mmeapi/midiConnect, multimedia.midiconnect"
 ms.topic: function
 req.header: mmeapi.h

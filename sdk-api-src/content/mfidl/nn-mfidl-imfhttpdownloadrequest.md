@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest.htm
 tech.root: medfound
 ms.assetid: A8A37C2F-A662-4FDA-95F6-43D96A8471A8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMFHttpDownloadRequest, IMFHttpDownloadRequest interface [Media Foundation], IMFHttpDownloadRequest interface [Media Foundation],described, mf.imfhttpdownloadrequest, mfidl/IMFHttpDownloadRequest
 ms.topic: interface
 req.header: mfidl.h

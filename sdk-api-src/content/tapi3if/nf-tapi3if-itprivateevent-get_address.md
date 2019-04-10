@@ -7,7 +7,7 @@ old-location: tapi3\itprivateevent_get_address.htm
 tech.root: Tapi
 ms.assetid: fa06ef5a-2aae-49e0-9fbb-473a5e2a0db3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITPrivateEvent interface [TAPI 2.2],get_Address method, ITPrivateEvent.get_Address, ITPrivateEvent::get_Address, _tapi3_itprivateevent_get_address, get_Address, get_Address method [TAPI 2.2], get_Address method [TAPI 2.2],ITPrivateEvent interface, tapi3.itprivateevent_get_address, tapi3if/ITPrivateEvent::get_Address
 ms.topic: method
 req.header: tapi3if.h

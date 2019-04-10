@@ -7,7 +7,7 @@ old-location: base\ivssenumobject_next.htm
 tech.root: VSS
 ms.assetid: 9bfaba94-802f-47f5-9843-acc05b32f1b2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVssEnumObject interface [VSS],Next method, IVssEnumObject.Next, IVssEnumObject::Next, Next, Next method [VSS], Next method [VSS],IVssEnumObject interface, _win32_ivssenumobject_next, base.ivssenumobject_next, vss/IVssEnumObject::Next
 ms.topic: method
 req.header: vss.h

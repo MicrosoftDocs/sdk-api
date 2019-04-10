@@ -7,7 +7,7 @@ old-location: fs\file_standard_info.htm
 tech.root: FileIO
 ms.assetid: da3187de-7de2-4307-a083-ae5fff6d8096
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PFILE_STANDARD_INFO, FILE_STANDARD_INFO, FILE_STANDARD_INFO structure [Files], PFILE_STANDARD_INFO, PFILE_STANDARD_INFO structure pointer [Files], fileextd/FILE_STANDARD_INFO, fileextd/PFILE_STANDARD_INFO, fs.file_standard_info, winbase/FILE_STANDARD_INFO, winbase/PFILE_STANDARD_INFO"
 ms.topic: struct
 req.header: winbase.h

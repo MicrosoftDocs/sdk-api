@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_download.htm
 tech.root: WMP
 ms.assetid: 0fa3ed40-e155-4e42-b031-d6cb8f8b4ac4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Download, Download method [Windows Media Player], Download method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],Download method, IWMPContentPartner.Download, IWMPContentPartner::Download, IWMPContentPartnerDownload, contentpartner/IWMPContentPartner::Download, wmp.iwmpcontentpartner_download
 ms.topic: method
 req.header: contentpartner.h

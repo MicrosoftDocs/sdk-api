@@ -7,7 +7,7 @@ old-location: dxmath\xmfloat3pk_operator_eq_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3PK.operator = (const uint32_t)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: XMFLOAT3PK structure [DirectX Math Support APIs],operator = method, XMFLOAT3PK.operator =(const uint32_t), XMFLOAT3PK.operator-assign(uint32_t), XMFLOAT3PK.operator=, XMFLOAT3PK::operator-assign(uint32_t), XMFLOAT3PK::operator=, dxmath.xmfloat3pk_operator_eq_2, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMFLOAT3PK structure, operator=
 ms.topic: method
 req.header: directxpackedvector.h

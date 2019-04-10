@@ -7,7 +7,7 @@ old-location: direct2d\typetraits_t_.htm
 tech.root: Direct2D
 ms.assetid: 18003d9f-4202-4bea-9580-bbf8fcdbca8f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TypeTraits, TypeTraits structure [Direct2D], TypeTraits<Type>, d2d1helper/TypeTraits, direct2d.typetraits_t_
 ms.topic: struct
 req.header: d2d1helper.h
@@ -54,25 +54,15 @@ Contains implementations of <b>Point</b>, <b>Size</b>, and <b>Rect</b> that stor
 ## -struct-fields
 
 
-
-
 ### -field field
 
- 
+Contains the typedef for <b>Point</b>, <b>Size</b>, or <b>Rect</b> with the type specified in the template type.
 
 
 ### -field .Type
 
- 
+The template type.
 
 
 
-
-#### - Point
-
-
-#### - Rect
-
-
-#### - Size
 

@@ -7,7 +7,7 @@ old-location: mstv\dsmcc_filter_options.htm
 tech.root: mstv
 ms.assetid: a8be6d69-1b41-49f0-8588-624b8de98678
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DSMCC_FILTER_OPTIONS, DSMCC_FILTER_OPTIONS structure [Microsoft TV Technologies], mpeg2structs/DSMCC_FILTER_OPTIONS, mstv.dsmcc_filter_options
 ms.topic: struct
 req.header: mpeg2structs.h

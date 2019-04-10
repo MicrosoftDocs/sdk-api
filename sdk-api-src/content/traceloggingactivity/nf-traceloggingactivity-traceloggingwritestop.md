@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingwritestop.htm
 tech.root: tracelogging
 ms.assetid: 638F08E3-5970-40B3-8025-E3D81ECA1D2A
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TraceLoggingWriteStop, TraceLoggingWriteStop macro, tracelogging.traceloggingwritestop, traceloggingactivity/TraceLoggingWriteStop
 ms.topic: macro
 req.header: traceloggingactivity.h

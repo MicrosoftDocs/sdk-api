@@ -7,7 +7,7 @@ old-location: rras\rascustomentrydlg.htm
 tech.root: RRAS
 ms.assetid: 4778069b-87d0-4379-95f7-718fe0d7a56c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RasCustomEntryDlg, RasCustomEntryDlg callback function [RAS], RasCustomEntryDlgFn, RasCustomEntryDlgFn callback, _ras_rascustomentrydlg, rasdlg/RasCustomEntryDlg, rras.rascustomentrydlg
 ms.topic: callback
 req.header: rasdlg.h

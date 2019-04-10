@@ -7,7 +7,7 @@ old-location: rras\rtm_ipv4_set_addr_and_len.htm
 tech.root: RRAS
 ms.assetid: c6f60346-51ff-4e1e-9edb-b326184f79cf
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RTM_IPV4_SET_ADDR_AND_LEN, RTM_IPV4_SET_ADDR_AND_LEN macro [RAS], _rtmv2ref_rtm_ipv4_set_addr_and_len, rras.rtm_ipv4_set_addr_and_len, rtmv2/RTM_IPV4_SET_ADDR_AND_LEN
 ms.topic: macro
 req.header: rtmv2.h

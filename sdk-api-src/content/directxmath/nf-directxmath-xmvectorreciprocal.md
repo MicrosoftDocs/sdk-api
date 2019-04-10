@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorreciprocal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorReciprocal(XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorReciprocal, XMVectorReciprocal, XMVectorReciprocal method [DirectX Math Support APIs], dxmath.xmvectorreciprocal
 ms.topic: function
 req.header: directxmath.h

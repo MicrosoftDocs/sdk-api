@@ -7,7 +7,7 @@ old-location: mscs\cluster_shared_volume_state.htm
 tech.root: MsCS
 ms.assetid: B27C110C-939F-42D4-960E-702CA1B141F9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PCLUSTER_SHARED_VOLUME_STATE, CLUSTER_SHARED_VOLUME_STATE, CLUSTER_SHARED_VOLUME_STATE enumeration [Failover Cluster], SharedVolumeStateActive, SharedVolumeStatePaused, SharedVolumeStateUnavailable, clusapi/CLUSTER_SHARED_VOLUME_STATE, clusapi/SharedVolumeStateActive, clusapi/SharedVolumeStatePaused, clusapi/SharedVolumeStateUnavailable, mscs.cluster_shared_volume_state"
 ms.topic: enum
 req.header: clusapi.h

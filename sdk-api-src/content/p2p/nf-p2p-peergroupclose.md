@@ -7,7 +7,7 @@ old-location: p2p\peergroupclose.htm
 tech.root: P2PSdk
 ms.assetid: 4438e6c1-8c25-4656-bac5-dda43421ee43
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PeerGroupClose, PeerGroupClose function [Peer Networking], p2p.peergroupclose, p2p/PeerGroupClose
 ms.topic: function
 req.header: p2p.h

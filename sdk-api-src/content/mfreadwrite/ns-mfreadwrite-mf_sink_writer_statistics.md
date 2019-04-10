@@ -7,7 +7,7 @@ old-location: mf\mf_sink_writer_statistics.htm
 tech.root: medfound
 ms.assetid: ff083ae1-9a53-4215-9738-d1776f8d7f9b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MF_SINK_WRITER_STATISTICS, MF_SINK_WRITER_STATISTICS structure [Media Foundation], mf.mf_sink_writer_statistics, mfreadwrite/MF_SINK_WRITER_STATISTICS
 ms.topic: struct
 req.header: mfreadwrite.h

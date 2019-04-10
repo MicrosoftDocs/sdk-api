@@ -7,7 +7,7 @@ old-location: vhd\mirror_virtual_disk_parameters.htm
 tech.root: VStor
 ms.assetid: bcde890e-24d5-41ac-8e5a-ba0d99e395e1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PMIRROR_VIRTUAL_DISK_PARAMETERS, MIRROR_VIRTUAL_DISK_PARAMETERS, MIRROR_VIRTUAL_DISK_PARAMETERS structure [VHD], PMIRROR_VIRTUAL_DISK_PARAMETERS, PMIRROR_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _MIRROR_VIRTUAL_DISK_PARAMETERS, vdssys/MIRROR_VIRTUAL_DISK_PARAMETERS, vdssys/PMIRROR_VIRTUAL_DISK_PARAMETERS, vhd.mirror_virtual_disk_parameters, virtdisk/MIRROR_VIRTUAL_DISK_PARAMETERS, virtdisk/PMIRROR_VIRTUAL_DISK_PARAMETERS"
 ms.topic: struct
 req.header: virtdisk.h

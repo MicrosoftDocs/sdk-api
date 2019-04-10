@@ -7,7 +7,7 @@ old-location: mmc\iresultownerdata.htm
 tech.root: mmc
 ms.assetid: 184f3783-9000-45aa-867b-580800b560b3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IResultOwnerData, IResultOwnerData interface [MMC], IResultOwnerData interface [MMC],described, _slate_iresultownerdata, mmc.iresultownerdata, mmc/IResultOwnerData
 ms.topic: interface
 req.header: mmc.h

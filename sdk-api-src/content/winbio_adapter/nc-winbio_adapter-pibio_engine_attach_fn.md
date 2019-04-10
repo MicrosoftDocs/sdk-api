@@ -7,7 +7,7 @@ old-location: secbiomet\engineadapterattach.htm
 tech.root: SecBioMet
 ms.assetid: e797952b-c7dd-41ad-9536-97d7ce1a7a5d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EngineAdapterAttach, EngineAdapterAttach callback function [Windows Biometric Framework API], PIBIO_ENGINE_ATTACH_FN, PIBIO_ENGINE_ATTACH_FN callback, secbiomet.engineadapterattach, winbio_adapter/EngineAdapterAttach
 ms.topic: callback
 req.header: winbio_adapter.h

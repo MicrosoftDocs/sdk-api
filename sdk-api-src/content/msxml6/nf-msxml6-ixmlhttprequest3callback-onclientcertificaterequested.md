@@ -7,7 +7,7 @@ old-location: ixhr2\ixmlhttprequest3callback_onclientcertificaterequested.htm
 tech.root: ixhr2
 ms.assetid: 9c64fbb5-b755-4f1b-90f3-3cc414b3f5a4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest3Callback interface [XMLHttpRequest2],OnClientCertificateRequested method, IXMLHTTPRequest3Callback.OnClientCertificateRequested, IXMLHTTPRequest3Callback::OnClientCertificateRequested, OnClientCertificateRequested, OnClientCertificateRequested method [XMLHttpRequest2], OnClientCertificateRequested method [XMLHttpRequest2],IXMLHTTPRequest3Callback interface, ixhr2.ixmlhttprequest3callback_onclientcertificaterequested, msxml6/IXMLHTTPRequest3Callback::OnClientCertificateRequested
 ms.topic: method
 req.header: msxml6.h

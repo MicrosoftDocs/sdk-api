@@ -7,7 +7,7 @@ old-location: wer\werfreestring.htm
 tech.root: wer
 ms.assetid: 748AEFD4-3310-4BC1-A3DA-CFACBA31F2FC
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WerFreeString, WerFreeString function [Windows Error Reporting], wer.werfreestring, werapi/WerFreeString
 ms.topic: function
 req.header: werapi.h

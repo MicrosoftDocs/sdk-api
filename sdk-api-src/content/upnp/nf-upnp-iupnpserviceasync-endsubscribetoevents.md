@@ -7,7 +7,7 @@ old-location: upnp\iupnpserviceasync_endsubscribetoevents.htm
 tech.root: upnp
 ms.assetid: A0C0D01C-3A05-4498-9235-CBBF7D5D558F
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EndSubscribeToEvents, EndSubscribeToEvents method [UPnP APIs], EndSubscribeToEvents method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],EndSubscribeToEvents method, IUPnPServiceAsync.EndSubscribeToEvents, IUPnPServiceAsync::EndSubscribeToEvents, upnp.iupnpserviceasync_endsubscribetoevents, upnp/IUPnPServiceAsync::EndSubscribeToEvents
 ms.topic: method
 req.header: upnp.h

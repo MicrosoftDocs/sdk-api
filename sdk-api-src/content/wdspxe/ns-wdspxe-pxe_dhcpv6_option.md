@@ -7,7 +7,7 @@ old-location: wds\pxe_dhcpv6_option.htm
 tech.root: wds
 ms.assetid: 9B0A1A5B-1CF7-46B4-9C94-42355555DD60
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PPXE_DHCPV6_OPTION, PPXE_DHCPV6_OPTION, PPXE_DHCPV6_OPTION structure pointer [Windows Deployment Services], PXE_DHCPV6_OPTION, PXE_DHCPV6_OPTION structure [Windows Deployment Services], wds.pxe_dhcpv6_option, wdspxe/PPXE_DHCPV6_OPTION, wdspxe/PXE_DHCPV6_OPTION"
 ms.topic: struct
 req.header: wdspxe.h

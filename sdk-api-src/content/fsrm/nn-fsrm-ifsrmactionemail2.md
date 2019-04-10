@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmactionemail2.htm
 tech.root: fsrm
 ms.assetid: 278ef98d-fb1d-42a4-a740-07c5e713a230
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFsrmActionEmail2, IFsrmActionEmail2 interface [File Server Resource Manager], IFsrmActionEmail2 interface [File Server Resource Manager],described, fs.ifsrmactionemail2, fsrm.ifsrmactionemail2, fsrm/IFsrmActionEmail2
 ms.topic: interface
 req.header: fsrm.h

@@ -7,7 +7,7 @@ old-location: multimedia\captureparms.htm
 tech.root: Multimedia
 ms.assetid: 6bf7e374-5991-4a7b-984a-628d3e77b2d7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPCAPTUREPARMS, *PCAPTUREPARMS, CAPTUREPARMS, CAPTUREPARMS structure [Windows Multimedia], _win32_CAPTUREPARMS_str, multimedia.captureparms, vfw/CAPTUREPARMS"
 ms.topic: struct
 req.header: vfw.h

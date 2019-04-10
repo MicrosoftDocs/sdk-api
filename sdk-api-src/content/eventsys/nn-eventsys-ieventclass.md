@@ -7,7 +7,7 @@ old-location: cos\ieventclass.htm
 tech.root: cossdk
 ms.assetid: e8c1fcd1-59fb-49d6-94b9-52b7c8551651
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEventClass, IEventClass interface [COM+], IEventClass interface [COM+],described, _cos_IEventClass, cos.ieventclass, eventsys/IEventClass
 ms.topic: interface
 req.header: eventsys.h

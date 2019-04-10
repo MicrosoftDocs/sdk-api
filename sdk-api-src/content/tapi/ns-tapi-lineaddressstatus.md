@@ -7,7 +7,7 @@ old-location: tapi2\lineaddressstatus_str.htm
 tech.root: Tapi
 ms.assetid: 795aa97d-76a9-4041-b9f6-345644561043
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPLINEADDRESSSTATUS, LINEADDRESSSTATUS, LINEADDRESSSTATUS structure [TAPI 2.2], LPLINEADDRESSSTATUS, LPLINEADDRESSSTATUS structure pointer [TAPI 2.2], _tapi2_lineaddressstatus_str, tapi/LINEADDRESSSTATUS, tapi/LPLINEADDRESSSTATUS, tapi2.lineaddressstatus_str"
 ms.topic: struct
 req.header: tapi.h

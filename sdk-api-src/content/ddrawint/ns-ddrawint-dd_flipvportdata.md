@@ -7,7 +7,7 @@ old-location: display\dd_flipvportdata.htm
 tech.root: display
 ms.assetid: 1bc6dc12-1213-47d7-9e6f-2396a41cc6d0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PDD_FLIPVPORTDATA, DD_FLIPVPORTDATA, DD_FLIPVPORTDATA structure [Display Devices], ddrawint/DD_FLIPVPORTDATA, ddstrcts_9af598a7-a7fc-40f2-a1dd-355964f60da9.xml, display.dd_flipvportdata"
 ms.topic: struct
 req.header: ddrawint.h

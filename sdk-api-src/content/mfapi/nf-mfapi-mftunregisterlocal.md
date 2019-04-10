@@ -7,7 +7,7 @@ old-location: mf\mftunregisterlocal.htm
 tech.root: medfound
 ms.assetid: e77edce7-0abb-41a3-a65e-fd159173e135
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MFTUnregisterLocal, MFTUnregisterLocal function [Media Foundation], mf.mftunregisterlocal, mfapi/MFTUnregisterLocal
 ms.topic: function
 req.header: mfapi.h

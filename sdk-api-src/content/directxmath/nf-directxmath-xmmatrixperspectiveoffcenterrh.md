@@ -7,7 +7,7 @@ old-location: dxmath\xmmatrixperspectiveoffcenterrh.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixPerspectiveOffCenterRH(float,float,float,float,float,float)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixPerspectiveOffCenterRH, XMMatrixPerspectiveOffCenterRH, XMMatrixPerspectiveOffCenterRH method [DirectX Math Support APIs], dxmath.xmmatrixperspectiveoffcenterrh
 ms.topic: function
 req.header: directxmath.h

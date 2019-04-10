@@ -7,7 +7,7 @@ old-location: winsock\nspv2clientsessionrundown.htm
 tech.root: WinSock
 ms.assetid: 7379b502-129a-4dac-b7eb-e6fae8fb23f8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: LPNSPV2CLIENTSESSIONRUNDOWN, NSPv2ClientSessionRundown, NSPv2ClientSessionRundown function [Winsock], winsock.nspv2clientsessionrundown, ws2spi/NSPv2ClientSessionRundown
 ms.topic: callback
 req.header: ws2spi.h

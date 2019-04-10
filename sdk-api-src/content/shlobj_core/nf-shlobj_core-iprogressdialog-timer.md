@@ -7,7 +7,7 @@ old-location: shell\IProgressDialog_Timer.htm
 tech.root: shell
 ms.assetid: ab048787-e555-4d5d-994a-1fc6f273312b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IProgressDialog interface [Windows Shell],Timer method, IProgressDialog.Timer, IProgressDialog::Timer, PDTIMER_PAUSE, PDTIMER_RESET, PDTIMER_RESUME, Timer, Timer method [Windows Shell], Timer method [Windows Shell],IProgressDialog interface, _win32_IProgressDialog_Timer, shell.IProgressDialog_Timer, shlobj_core/IProgressDialog::Timer
 ms.topic: method
 req.header: shlobj_core.h

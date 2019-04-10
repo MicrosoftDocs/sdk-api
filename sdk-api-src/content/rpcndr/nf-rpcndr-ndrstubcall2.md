@@ -7,7 +7,7 @@ old-location: rpc\ndrstubcall2.htm
 tech.root: Rpc
 ms.assetid: 4249a73b-8e97-4e15-816e-a26a057d6a80
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NdrStubCall2, NdrStubCall2 function [RPC], rpc.ndrstubcall2, rpcndr/NdrStubCall2
 ms.topic: function
 req.header: rpcndr.h

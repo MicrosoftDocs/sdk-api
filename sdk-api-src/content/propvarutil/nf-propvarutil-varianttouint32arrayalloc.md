@@ -7,7 +7,7 @@ old-location: properties\VariantToUInt32ArrayAlloc.htm
 tech.root: properties
 ms.assetid: 4d6cbfc8-fe1c-4bd0-8d29-32bce01d31f8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VariantToUInt32ArrayAlloc, VariantToUInt32ArrayAlloc function [Windows Properties], _shell_VariantToUInt32ArrayAlloc, properties.VariantToUInt32ArrayAlloc, propvarutil/VariantToUInt32ArrayAlloc, shell.VariantToUInt32ArrayAlloc
 ms.topic: function
 req.header: propvarutil.h

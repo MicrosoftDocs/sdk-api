@@ -7,7 +7,7 @@ old-location: controls\ImageList_GetImageCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_getimagecount.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ImageList_GetImageCount, ImageList_GetImageCount function [Windows Controls], _win32_ImageList_GetImageCount, _win32_ImageList_GetImageCount_cpp, commctrl/ImageList_GetImageCount, controls.ImageList_GetImageCount, controls._win32_ImageList_GetImageCount
 ms.topic: function
 req.header: commctrl.h

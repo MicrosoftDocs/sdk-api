@@ -7,7 +7,7 @@ old-location: security\iidentitystore_reset.htm
 tech.root: SecAuthN
 ms.assetid: 3a01fde0-0ef6-401a-8af4-ee3310da568a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IIdentityStore interface [Security],Reset method, IIdentityStore.Reset, IIdentityStore::Reset, Reset, Reset method [Security], Reset method [Security],IIdentityStore interface, identitystore/IIdentityStore::Reset, security.iidentitystore_reset
 ms.topic: method
 req.header: identitystore.h

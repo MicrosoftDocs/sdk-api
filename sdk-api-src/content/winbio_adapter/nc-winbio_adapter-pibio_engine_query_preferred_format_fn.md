@@ -7,7 +7,7 @@ old-location: secbiomet\engineadapterquerypreferredformat.htm
 tech.root: SecBioMet
 ms.assetid: df76e7d7-9a71-4c98-b038-8925d8cf0980
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EngineAdapterQueryPreferredFormat, EngineAdapterQueryPreferredFormat callback function [Windows Biometric Framework API], PIBIO_ENGINE_QUERY_PREFERRED_FORMAT_FN, PIBIO_ENGINE_QUERY_PREFERRED_FORMAT_FN callback, secbiomet.engineadapterquerypreferredformat, winbio_adapter/EngineAdapterQueryPreferredFormat
 ms.topic: callback
 req.header: winbio_adapter.h

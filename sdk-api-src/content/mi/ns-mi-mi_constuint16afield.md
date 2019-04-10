@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_constuint16afield.htm
 tech.root: wmi_v2
 ms.assetid: 0ef3dd39-5611-4f63-bcd6-ac46cecbd5a5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_ConstUint16AField, MI_ConstUint16AField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_ConstUint16AField, wmi._mi_constuint16afield, wmi_v2.mi_constuint16afield
 ms.topic: struct
 req.header: mi.h

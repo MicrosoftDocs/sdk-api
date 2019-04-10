@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvalue_getint64array.htm
 tech.root: WinRT
 ms.assetid: 8bc05817-e9d4-427a-883d-495faf5d0ab0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetInt64Array, GetInt64Array method [Windows Runtime], GetInt64Array method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetInt64Array method, IPropertyValue.GetInt64Array, IPropertyValue.IPropertyValue, IPropertyValue::GetInt64Array, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetInt64Array, winrt.ipropertyvalue_getint64array
 ms.topic: method
 req.header: windows.foundation.h

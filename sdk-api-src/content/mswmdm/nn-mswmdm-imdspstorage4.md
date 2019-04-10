@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorage4.htm
 tech.root: WMDM
 ms.assetid: c1236acc-1f11-4501-9374-2486f7d61db3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMDSPStorage4, IMDSPStorage4 interface [windows Media Device Manager], IMDSPStorage4 interface [windows Media Device Manager],described, IMDSPStorage4Interface, mswmdm/IMDSPStorage4, wmdm.imdspstorage4
 ms.topic: interface
 req.header: mswmdm.h

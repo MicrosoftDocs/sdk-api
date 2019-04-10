@@ -7,7 +7,7 @@ old-location: xps\xps_size.htm
 tech.root: printdocs
 ms.assetid: 2f6eb553-892b-455b-97a5-280f257b5702
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: XPS_SIZE, XPS_SIZE structure [XPS Documents and Packaging], xps.xps_size, xpsobjectmodel/XPS_SIZE
 ms.topic: struct
 req.header: xpsobjectmodel.h

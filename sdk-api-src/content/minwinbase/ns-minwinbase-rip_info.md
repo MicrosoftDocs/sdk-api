@@ -7,7 +7,7 @@ old-location: base\rip_info_str.htm
 tech.root: Debug
 ms.assetid: 2aef4de7-bf3d-4add-9801-e26081f0f76b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPRIP_INFO, LPRIP_INFO, LPRIP_INFO structure pointer, RIP_INFO, RIP_INFO structure, SLE_ERROR, SLE_MINORERROR, SLE_WARNING, _RIP_INFO, _win32_rip_info_str, base.rip_info_str, winbase/LPRIP_INFO, winbase/RIP_INFO"
 ms.topic: struct
 req.header: minwinbase.h

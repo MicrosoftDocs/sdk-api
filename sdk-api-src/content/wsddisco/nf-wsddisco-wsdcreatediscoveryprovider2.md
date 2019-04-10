@@ -7,7 +7,7 @@ old-location: ncd\wsdcreatediscoveryprovider2.htm
 tech.root: WsdApi
 ms.assetid: dc757897-032c-4ea3-8f4e-cf00d4ec385b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WSDCreateDiscoveryProvider2, WSDCreateDiscoveryProvider2 function, ncd.wsdcreatediscoveryprovider2, wsddisco/WSDCreateDiscoveryProvider2
 ms.topic: function
 req.header: wsddisco.h

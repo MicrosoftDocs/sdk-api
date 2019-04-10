@@ -7,7 +7,7 @@ old-location: rras\mprconfiginterfaceenum.htm
 tech.root: RRAS
 ms.assetid: fce40bcc-df75-49cd-af02-5fea3a65aaac
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MprConfigInterfaceEnum, MprConfigInterfaceEnum function [RAS], _mpr_mprconfiginterfaceenum, mprapi/MprConfigInterfaceEnum, rras.mprconfiginterfaceenum
 ms.topic: function
 req.header: mprapi.h

@@ -7,7 +7,7 @@ old-location: com\ipipelong_pull.htm
 tech.root: com
 ms.assetid: 33da8bd7-3350-4f6e-84f8-3046da226d2f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IPipeLong interface [COM],Pull method, IPipeLong.Pull, IPipeLong::Pull, Pull, Pull method [COM], Pull method [COM],IPipeLong interface, _com_ipipelong_pull, com.ipipelong_pull, objidlbase/IPipeLong::Pull
 ms.topic: method
 req.header: objidlbase.h

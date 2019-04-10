@@ -7,7 +7,7 @@ old-location: mib\mib_mfe_stats_table.htm
 tech.root: MIB
 ms.assetid: d6660e11-7490-4dee-a1d6-980f8a78ac1b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PMIB_MFE_STATS_TABLE, MIB_MFE_STATS_TABLE, MIB_MFE_STATS_TABLE structure [MIB], PMIB_MFE_STATS_TABLE, PMIB_MFE_STATS_TABLE structure pointer [MIB], _mpr_mib_mfe_stats_table, ipmib/MIB_MFE_STATS_TABLE, ipmib/PMIB_MFE_STATS_TABLE, iprtrmib/MIB_MFE_STATS_TABLE, iprtrmib/PMIB_MFE_STATS_TABLE, mib.mib_mfe_stats_table, rras.mib_mfe_stats_table"
 ms.topic: struct
 req.header: ipmib.h

@@ -7,7 +7,7 @@ old-location: bltooth\bluetoothgattgetdescriptors.htm
 tech.root: bltooth
 ms.assetid: C4D51362-5D4E-45CC-8E29-10B201B5673C
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BluetoothGATTGetDescriptors, BluetoothGATTGetDescriptors function [Bluetooth Devices], bltooth.bluetoothgattgetdescriptors, bluetoothleapis/BluetoothGATTGetDescriptors
 ms.topic: function
 req.header: bluetoothleapis.h

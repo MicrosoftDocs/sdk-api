@@ -7,7 +7,7 @@ old-location: bits\ibitsextensionsetup_getcleanuptask.htm
 tech.root: Bits
 ms.assetid: ffa89d5b-7ba1-433b-a93d-032012906258
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetCleanupTask, GetCleanupTask method [BITS], GetCleanupTask method [BITS],IBITSExtensionSetup interface, IBITSExtensionSetup interface [BITS],GetCleanupTask method, IBITSExtensionSetup.GetCleanupTask, IBITSExtensionSetup::GetCleanupTask, _drz_ibitsextensionsetup_getcleanuptask, bits.ibitsextensionsetup_getcleanuptask, bitscfg/IBITSExtensionSetup::GetCleanupTask
 ms.topic: method
 req.header: bitscfg.h

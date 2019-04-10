@@ -7,7 +7,7 @@ old-location: eaphost\eappeercredentialsxml2blob.htm
 tech.root: eaphost
 ms.assetid: 45a13be7-9a01-467b-97db-ca896d945ee7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EapPeerCredentialsXml2Blob, EapPeerCredentialsXml2Blob function [EAPHost], eaphost.eappeercredentialsxml2blob, eapmethodpeerapis/EapPeerCredentialsXml2Blob
 ms.topic: function
 req.header: eapmethodpeerapis.h

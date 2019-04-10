@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceservice_capabilities.htm
 tech.root: wpd_sdk
 ms.assetid: 62ef0c63-2908-458f-8e9f-eb6150441380
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Capabilities, Capabilities method [Windows Portable Devices SDK], Capabilities method [Windows Portable Devices SDK],IPortableDeviceService interface, IPortableDeviceService interface [Windows Portable Devices SDK],Capabilities method, IPortableDeviceService.Capabilities, IPortableDeviceService::Capabilities, portabledeviceapi/IPortableDeviceService::Capabilities, wpdsdk.iportabledeviceservice_capabilities
 ms.topic: method
 req.header: portabledeviceapi.h

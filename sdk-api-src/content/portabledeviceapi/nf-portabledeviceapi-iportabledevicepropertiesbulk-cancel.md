@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicepropertiesbulk_cancel.htm
 tech.root: wpd_sdk
 ms.assetid: 18a3458d-df93-4bdf-b5f2-f0197c35a1dd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [Windows Portable Devices SDK], Cancel method [Windows Portable Devices SDK],IPortableDevicePropertiesBulk interface, IPortableDevicePropertiesBulk interface [Windows Portable Devices SDK],Cancel method, IPortableDevicePropertiesBulk.Cancel, IPortableDevicePropertiesBulk::Cancel, IPortableDevicePropertiesBulkCancel, portabledeviceapi/IPortableDevicePropertiesBulk::Cancel, wpdsdk.iportabledevicepropertiesbulk_cancel
 ms.topic: method
 req.header: portabledeviceapi.h

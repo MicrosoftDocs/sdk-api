@@ -7,7 +7,7 @@ old-location: mstv\ilanguagecomponenttype_get_langid.htm
 tech.root: mstv
 ms.assetid: f70dcc70-701a-4465-ad40-1ddc5e697f46
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ILanguageComponentType interface [Microsoft TV Technologies],get_LangID method, ILanguageComponentType.get_LangID, ILanguageComponentType::get_LangID, ILanguageComponentTypeget_LangID, get_LangID, get_LangID method [Microsoft TV Technologies], get_LangID method [Microsoft TV Technologies],ILanguageComponentType interface, mstv.ilanguagecomponenttype_get_langid, tuner/ILanguageComponentType::get_LangID
 ms.topic: method
 req.header: tuner.h

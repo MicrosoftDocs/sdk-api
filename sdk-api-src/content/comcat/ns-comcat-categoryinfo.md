@@ -7,7 +7,7 @@ old-location: com\categoryinfo.htm
 tech.root: com
 ms.assetid: a5f0cb04-595d-4388-8943-79b9da76022b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPCATEGORYINFO, CATEGORYINFO, CATEGORYINFO structure [COM], _com_categoryinfo_structure, com.categoryinfo, comcat/CATEGORYINFO"
 ms.topic: struct
 req.header: comcat.h

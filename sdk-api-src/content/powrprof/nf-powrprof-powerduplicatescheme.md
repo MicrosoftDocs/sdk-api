@@ -7,7 +7,7 @@ old-location: base\powerduplicatescheme.htm
 tech.root: power
 ms.assetid: e58dee69-309c-4b52-bf28-f54b300801b9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PowerDuplicateScheme, PowerDuplicateScheme function, base.powerduplicatescheme, powrprof/PowerDuplicateScheme
 ms.topic: function
 req.header: powrprof.h

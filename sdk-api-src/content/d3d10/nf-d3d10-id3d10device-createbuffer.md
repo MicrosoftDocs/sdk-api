@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_createbuffer.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createbuffer.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateBuffer, CreateBuffer method [Direct3D 10], CreateBuffer method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateBuffer method, ID3D10Device.CreateBuffer, ID3D10Device::CreateBuffer, d3d10/ID3D10Device::CreateBuffer, direct3d10.id3d10device_createbuffer, f67833a5-95f8-0430-5015-e074533c6dd1
 ms.topic: method
 req.header: d3d10.h

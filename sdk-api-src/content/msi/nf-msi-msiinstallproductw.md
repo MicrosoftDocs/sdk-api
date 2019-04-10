@@ -7,7 +7,7 @@ old-location: setup\msiinstallproduct.htm
 tech.root: Msi
 ms.assetid: ec8d6710-ecfe-432c-ba1d-2e3532a25988
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MsiInstallProduct, MsiInstallProduct function, MsiInstallProductA, MsiInstallProductW, _msi_msiinstallproduct, msi/MsiInstallProduct, msi/MsiInstallProductA, msi/MsiInstallProductW, setup.msiinstallproduct
 ms.topic: function
 req.header: msi.h

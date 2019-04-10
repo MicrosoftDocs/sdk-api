@@ -7,7 +7,7 @@ old-location: rras\mprinfodelete.htm
 tech.root: RRAS
 ms.assetid: c81b92c2-a977-40e0-b971-e4e70e1a1371
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MprInfoDelete, MprInfoDelete function [RAS], _mpr_mprinfodelete, mprapi/MprInfoDelete, rras.mprinfodelete
 ms.topic: function
 req.header: mprapi.h

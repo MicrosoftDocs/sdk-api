@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_setmediaitem.htm
 tech.root: medfound
 ms.assetid: c792a024-c4f8-4e0b-9720-259d1dc28ee8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetMediaItem method, IMFPMediaPlayer.SetMediaItem, IMFPMediaPlayer::SetMediaItem, SetMediaItem, SetMediaItem method [Media Foundation], SetMediaItem method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setmediaitem, mfplay/IMFPMediaPlayer::SetMediaItem
 ms.topic: method
 req.header: mfplay.h

@@ -7,7 +7,7 @@ old-location: wsw\ws_repeating_header_option.htm
 tech.root: wsw
 ms.assetid: 7bbe5aba-e7b6-483d-8782-714a38ef4a99
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_REPEATING_HEADER, WS_REPEATING_HEADER_OPTION, WS_REPEATING_HEADER_OPTION enumeration [Web Services for Windows], WS_SINGLETON_HEADER, webservices/WS_REPEATING_HEADER, webservices/WS_REPEATING_HEADER_OPTION, webservices/WS_SINGLETON_HEADER, wsw.ws_repeating_header_option
 ms.topic: enum
 req.header: webservices.h

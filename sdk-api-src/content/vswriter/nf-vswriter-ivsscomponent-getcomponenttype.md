@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_getcomponenttype.htm
 tech.root: VSS
 ms.assetid: 89675df6-dcfd-4167-aa6f-5c88e619ef1c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetComponentType, GetComponentType method [VSS], GetComponentType method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetComponentType method, IVssComponent.GetComponentType, IVssComponent::GetComponentType, _win32_ivsscomponent_getcomponenttype, base.ivsscomponent_getcomponenttype, vswriter/IVssComponent::GetComponentType
 ms.topic: method
 req.header: vswriter.h

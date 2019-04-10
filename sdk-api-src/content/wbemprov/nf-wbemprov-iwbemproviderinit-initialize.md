@@ -7,7 +7,7 @@ old-location: wmi\iwbemproviderinit_initialize.htm
 tech.root: WmiSdk
 ms.assetid: 437d803d-b916-4209-bbf0-64b1ec3b7068
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWbemProviderInit interface [Windows Management Instrumentation],Initialize method, IWbemProviderInit.Initialize, IWbemProviderInit::Initialize, Initialize, Initialize method [Windows Management Instrumentation], Initialize method [Windows Management Instrumentation],IWbemProviderInit interface, _hmm_iwbemproviderinit_initialize, wbemprov/IWbemProviderInit::Initialize, wmi.iwbemproviderinit_initialize
 ms.topic: method
 req.header: wbemprov.h

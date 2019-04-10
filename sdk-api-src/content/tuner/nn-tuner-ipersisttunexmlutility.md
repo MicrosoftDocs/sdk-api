@@ -7,7 +7,7 @@ old-location: mstv\ipersisttunexmlutility.htm
 tech.root: mstv
 ms.assetid: aa03015f-094f-499f-99fb-2e15ead74f15
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IPersistTuneXmlUtility, IPersistTuneXmlUtility interface [Microsoft TV Technologies], IPersistTuneXmlUtility interface [Microsoft TV Technologies],described, mstv.ipersisttunexmlutility, tuner/IPersistTuneXmlUtility
 ms.topic: interface
 req.header: tuner.h

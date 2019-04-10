@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayer_get_uimode.htm
 tech.root: WMP
 ms.assetid: 8e05342f-812a-4dca-a491-b237f9a9f1bd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMPPlayer interface [Windows Media Player],get_uiMode method, IWMPPlayer.get_uiMode, IWMPPlayer::get_uiMode, IWMPPlayerget_uiMode, get_uiMode, get_uiMode method [Windows Media Player], get_uiMode method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_get_uimode, wmp/IWMPPlayer::get_uiMode
 ms.topic: method
 req.header: wmp.h

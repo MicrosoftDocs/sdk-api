@@ -7,7 +7,7 @@ old-location: tapi3\itdetecttone.htm
 tech.root: Tapi
 ms.assetid: c03db3e2-3dc9-443f-8acf-66c06940e0b9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITDetectTone, ITDetectTone interface [TAPI 2.2], ITDetectTone interface [TAPI 2.2],described, _tapi3_itdetecttone, tapi3.itdetecttone, tapi3if/ITDetectTone
 ms.topic: interface
 req.header: tapi3if.h

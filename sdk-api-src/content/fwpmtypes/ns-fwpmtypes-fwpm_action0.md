@@ -7,7 +7,7 @@ old-location: fwp\fwpm_action0_struct.htm
 tech.root: fwp
 ms.assetid: 070e1324-d41d-4001-bf26-97465bf87f98
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FWPM_ACTION0, FWPM_ACTION0 structure [Filtering], FWP_ACTION_BLOCK, FWP_ACTION_CALLOUT_INSPECTION, FWP_ACTION_CALLOUT_TERMINATING, FWP_ACTION_CALLOUT_UNKNOWN, FWP_ACTION_PERMIT, fwp.fwpm_action0_struct, fwpmtypes/FWPM_ACTION0
 ms.topic: struct
 req.header: fwpmtypes.h

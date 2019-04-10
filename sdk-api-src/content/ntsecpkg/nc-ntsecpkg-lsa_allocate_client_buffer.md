@@ -7,7 +7,7 @@ old-location: security\allocateclientbuffer.htm
 tech.root: SecAuthN
 ms.assetid: 2a7dfc11-a8ab-4677-ad5c-b2f4b5998efe
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AllocateClientBuffer, AllocateClientBuffer callback function [Security], LSA_ALLOCATE_CLIENT_BUFFER, LSA_ALLOCATE_CLIENT_BUFFER callback, _lsa_allocateclientbuffer, ntsecpkg/AllocateClientBuffer, security.allocateclientbuffer
 ms.topic: callback
 req.header: ntsecpkg.h

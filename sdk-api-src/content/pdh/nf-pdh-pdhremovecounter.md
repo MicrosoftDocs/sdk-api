@@ -7,7 +7,7 @@ old-location: perf\pdhremovecounter.htm
 tech.root: perfctrs
 ms.assetid: adf9c7bd-47d6-489a-88fc-954fdf127ce8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PdhRemoveCounter, PdhRemoveCounter function [Perf], _win32_pdhremovecounter, base.pdhremovecounter, pdh/PdhRemoveCounter, perf.pdhremovecounter
 ms.topic: function
 req.header: pdh.h

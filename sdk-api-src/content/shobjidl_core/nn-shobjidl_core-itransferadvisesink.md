@@ -7,7 +7,7 @@ old-location: shell\ITransferAdviseSink.htm
 tech.root: shell
 ms.assetid: 70866a03-2b22-4518-a9e6-2f06edaa4b5d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITransferAdviseSink, ITransferAdviseSink interface [Windows Shell], ITransferAdviseSink interface [Windows Shell],described, _shell_ITransferAdviseSink, shell.ITransferAdviseSink, shobjidl_core/ITransferAdviseSink
 ms.topic: interface
 req.header: shobjidl_core.h

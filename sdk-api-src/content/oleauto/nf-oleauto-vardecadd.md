@@ -7,7 +7,7 @@ old-location: automat\vardecadd.htm
 tech.root: automat
 ms.assetid: 67d7083f-2e1c-4d3f-9ba0-333bd5794681
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VarDecAdd, VarDecAdd function [Automation], _oa96_VarDecAdd, automat.vardecadd, oleauto/VarDecAdd
 ms.topic: function
 req.header: oleauto.h

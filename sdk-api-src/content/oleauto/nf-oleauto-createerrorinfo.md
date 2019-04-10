@@ -7,7 +7,7 @@ old-location: automat\createerrorinfo.htm
 tech.root: automat
 ms.assetid: 6a9dd862-754a-48e3-8be5-d1fbd1d38f2b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateErrorInfo, CreateErrorInfo function [Automation], _oa96_CreateErrorInfo, automat.createerrorinfo, oleauto/CreateErrorInfo
 ms.topic: function
 req.header: oleauto.h

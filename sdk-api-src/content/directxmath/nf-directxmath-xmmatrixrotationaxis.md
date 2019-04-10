@@ -7,7 +7,7 @@ old-location: dxmath\xmmatrixrotationaxis.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixRotationAxis(XMVECTOR,float)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixRotationAxis, XMMatrixRotationAxis, XMMatrixRotationAxis method [DirectX Math Support APIs], dxmath.xmmatrixrotationaxis
 ms.topic: function
 req.header: directxmath.h

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation6_AddEventHandlerGroup.htm
 tech.root: WinAuto
 ms.assetid: 8F131A7C-BC03-4967-9ED8-624086DEA112
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AddEventHandlerGroup, AddEventHandlerGroup method [Windows Accessibility], AddEventHandlerGroup method [Windows Accessibility],IUIAutomation6 interface, IUIAutomation6 interface [Windows Accessibility],AddEventHandlerGroup method, IUIAutomation6.AddEventHandlerGroup, IUIAutomation6::AddEventHandlerGroup, uiautomationclient/IUIAutomation6::AddEventHandlerGroup, winauto.uiauto_IUIAutomation6_AddEventHandlerGroup
 ms.topic: method
 req.header: uiautomationclient.h

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput2.htm
 tech.root: direct3ddxgi
 ms.assetid: 23585A1F-3F18-4247-91DB-712C0A8D5398
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDXGIOutput2, IDXGIOutput2 interface [DXGI], IDXGIOutput2 interface [DXGI],described, direct3ddxgi.idxgioutput2, dxgi1_3/IDXGIOutput2
 ms.topic: interface
 req.header: dxgi1_3.h

@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_duplicatesurface.htm
 tech.root: directdraw
 ms.assetid: 515219e9-95e9-41fd-9797-d143cd542ef6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DuplicateSurface, DuplicateSurface method [DirectDraw], DuplicateSurface method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],DuplicateSurface method, IDirectDraw7.DuplicateSurface, IDirectDraw7::DuplicateSurface, ddraw/IDirectDraw7::DuplicateSurface, directdraw.idirectdraw7_duplicatesurface
 ms.topic: method
 req.header: ddraw.h

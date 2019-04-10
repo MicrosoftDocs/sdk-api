@@ -7,7 +7,7 @@ old-location: wer\werunregistercustommetadata.htm
 tech.root: wer
 ms.assetid: 29DB2CE5-2A96-450B-96C8-082B786613F9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WerUnRegisterCustomMetadata, WerUnRegisterCustomMetadata function [Windows Error Reporting], WerUnregisterCustomMetadata, wer.werunregistercustommetadata, werapi/WerUnRegisterCustomMetadata
 ms.topic: function
 req.header: werapi.h

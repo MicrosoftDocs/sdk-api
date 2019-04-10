@@ -7,7 +7,7 @@ old-location: base\wow64suspendthread.htm
 tech.root: ProcThread
 ms.assetid: d976675a-5400-41ac-a11d-c39a1b2dd50d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Wow64SuspendThread, Wow64SuspendThread function, base.wow64suspendthread, winbase/Wow64SuspendThread
 ms.topic: function
 req.header: winbase.h

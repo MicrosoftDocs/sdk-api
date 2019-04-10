@@ -7,7 +7,7 @@ old-location: wsw\ws_float_description.htm
 tech.root: wsw
 ms.assetid: 54af331f-92bd-4970-945d-13f3a2e62c4b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_FLOAT_DESCRIPTION, WS_FLOAT_DESCRIPTION structure [Web Services for Windows], webservices/WS_FLOAT_DESCRIPTION, wsw.ws_float_description
 ms.topic: struct
 req.header: webservices.h

@@ -7,7 +7,7 @@ old-location: winsync\isyncchangebatchbase_endorderedgroup.htm
 tech.root: winsync
 ms.assetid: d53ef88e-0d1f-4328-988c-c759391ca28c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EndOrderedGroup, EndOrderedGroup method [Windows Sync], EndOrderedGroup method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],EndOrderedGroup method, ISyncChangeBatchBase.EndOrderedGroup, ISyncChangeBatchBase::EndOrderedGroup, winsync.isyncchangebatchbase_endorderedgroup, winsync/ISyncChangeBatchBase::EndOrderedGroup
 ms.topic: method
 req.header: winsync.h

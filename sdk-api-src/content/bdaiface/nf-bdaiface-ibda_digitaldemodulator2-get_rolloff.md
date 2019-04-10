@@ -7,7 +7,7 @@ old-location: mstv\ibda_digitaldemodulator2_get_rolloff.htm
 tech.root: mstv
 ms.assetid: 4b1cd08a-50fd-48e9-9e97-8460e6c990c1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],get_RollOff method, IBDA_DigitalDemodulator2.get_RollOff, IBDA_DigitalDemodulator2::get_RollOff, bdaiface/IBDA_DigitalDemodulator2::get_RollOff, get_RollOff, get_RollOff method [Microsoft TV Technologies], get_RollOff method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface, mstv.ibda_digitaldemodulator2_get_rolloff
 ms.topic: method
 req.header: bdaiface.h

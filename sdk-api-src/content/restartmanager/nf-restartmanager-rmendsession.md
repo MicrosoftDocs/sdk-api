@@ -7,7 +7,7 @@ old-location: rstmgr\rmendsession.htm
 tech.root: rstmgr
 ms.assetid: 2681cb69-a66f-4aec-a164-98d2d28f9908
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RmEndSession, RmEndSession function [Restart Mgr], restartmanager/RmEndSession, rstmgr.rmendsession
 ms.topic: function
 req.header: restartmanager.h

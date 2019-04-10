@@ -7,7 +7,7 @@ old-location: shell\IShellLink.htm
 tech.root: shell
 ms.assetid: 67982d28-27ce-4482-b588-10fec8143750
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IShellLink, IShellLink interface [Windows Shell], IShellLink interface [Windows Shell],described, IShellLinkA, IShellLinkW, _win32_IShellLink, _win32_IShellLink_cpp, shell.IShellLink, shobjidl_core/IShellLink
 ms.topic: interface
 req.header: shobjidl_core.h

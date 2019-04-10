@@ -7,7 +7,7 @@ old-location: gdi\cfp_reallocproc.htm
 tech.root: gdi
 ms.assetid: 06c45ea3-1776-4f9c-a931-461d0b697535
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CFP_REALLOCPROC, CFP_REALLOCPROC callback, CFP_REALLOCPROC callback function [Windows GDI], _win32_CFP_REALLOCPROC, fontsub/CFP_REALLOCPROC, gdi.cfp_reallocproc
 ms.topic: callback
 req.header: fontsub.h

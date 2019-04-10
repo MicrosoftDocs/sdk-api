@@ -7,7 +7,7 @@ old-location: mstv\iisdb_bit_getrecorddescriptorbyindex.htm
 tech.root: mstv
 ms.assetid: f3833ab6-39f8-499e-bd3f-f0f524a8b1d4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IISDB_BIT.GetRecordDescriptorByIndex, IISDB_BIT::GetRecordDescriptorByIndex, dvbsiparser/IISDB_BIT::GetRecordDescriptorByIndex, mstv.iisdb_bit_getrecorddescriptorbyindex
 ms.topic: method
 req.header: dvbsiparser.h

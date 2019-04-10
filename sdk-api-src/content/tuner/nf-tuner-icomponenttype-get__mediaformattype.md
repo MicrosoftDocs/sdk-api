@@ -7,7 +7,7 @@ old-location: mstv\icomponenttype_get__mediaformattype.htm
 tech.root: mstv
 ms.assetid: 21dccb42-8430-4fa0-a549-98dd3d1a4d4c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],get__MediaFormatType method, IComponentType.get__MediaFormatType, IComponentType::get__MediaFormatType, IComponentTypeget__MediaFormatType, get__MediaFormatType, get__MediaFormatType method [Microsoft TV Technologies], get__MediaFormatType method [Microsoft TV Technologies],IComponentType interface, mstv.icomponenttype_get__mediaformattype, tuner/IComponentType::get__MediaFormatType
 ms.topic: method
 req.header: tuner.h

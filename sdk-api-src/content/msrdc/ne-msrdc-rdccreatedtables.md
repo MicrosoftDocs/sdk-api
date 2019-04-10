@@ -7,7 +7,7 @@ old-location: rdc\rdccreatedtables.htm
 tech.root: rdc
 ms.assetid: f46dd0f0-22b0-41fb-a7c2-29d1b4514f7e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RDCTABLE_Existing, RDCTABLE_InvalidOrUnknown, RDCTABLE_New, RdcCreatedTables, RdcCreatedTables enumeration [Remote Differential Compression], fs.rdccreatedtables, msrdc/RDCTABLE_Existing, msrdc/RDCTABLE_InvalidOrUnknown, msrdc/RDCTABLE_New, msrdc/RdcCreatedTables, rdc.rdccreatedtables
 ms.topic: enum
 req.header: msrdc.h

@@ -7,7 +7,7 @@ old-location: shell\RemoveWindowSubclass.htm
 tech.root: shell
 ms.assetid: 09f27240-f3af-4791-afcb-a82bda79712a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RemoveWindowSubclass, RemoveWindowSubclass function [Windows Shell], commctrl/RemoveWindowSubclass, inet_RemoveWindowSubclass, shell.RemoveWindowSubclass
 ms.topic: function
 req.header: commctrl.h

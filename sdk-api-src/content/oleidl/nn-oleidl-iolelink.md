@@ -7,7 +7,7 @@ old-location: com\iolelink.htm
 tech.root: com
 ms.assetid: 4a34a90d-df1b-4bbf-8365-9d741c18ff74
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IOleLink, IOleLink interface [COM], IOleLink interface [COM],described, _ole_iolelink, com.iolelink, oleidl/IOleLink
 ms.topic: interface
 req.header: oleidl.h

@@ -7,7 +7,7 @@ old-location: gpmc\igpmrsop_generatereport.htm
 tech.root: gpmc
 ms.assetid: 86766a08-4f3a-4758-8abc-83db3408f0fd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GenerateReport, GenerateReport method [GPMC], GenerateReport method [GPMC],IGPMRSOP interface, IGPMRSOP interface [GPMC],GenerateReport method, IGPMRSOP.GenerateReport, IGPMRSOP::GenerateReport, gpmc.igpmrsop_generatereport, gpmgmt/IGPMRSOP::GenerateReport
 ms.topic: method
 req.header: gpmgmt.h

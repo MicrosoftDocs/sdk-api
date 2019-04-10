@@ -7,7 +7,7 @@ old-location: gamemode\getexpandedresourceexclusivecpucount.htm
 tech.root: gamemode
 ms.assetid: C87BE7FE-9CC7-4B6B-AC25-606A967D70C6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetExpandedResourceExclusiveCpuCount, GetExpandedResourceExclusiveCpuCount function, expandedresources/GetExpandedResourceExclusiveCpuCount, gamemode.getexpandedresourceexclusivecpucount
 ms.topic: function
 req.header: expandedresources.h

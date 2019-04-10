@@ -7,7 +7,7 @@ old-location: mmc\mmc_column_data.htm
 tech.root: mmc
 ms.assetid: 93825514-1732-4a07-a323-d4f0cdfe955e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MMC_COLUMN_DATA, MMC_COLUMN_DATA structure [MMC], _slate_mmc_column_data, mmc.mmc_column_data, mmc/MMC_COLUMN_DATA
 ms.topic: struct
 req.header: mmc.h

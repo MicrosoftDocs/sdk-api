@@ -7,7 +7,7 @@ old-location: rpc\rpcerrorresetenumeration.htm
 tech.root: Rpc
 ms.assetid: fb41b923-7fd3-4058-9f5f-df4018d9b872
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RpcErrorResetEnumeration, RpcErrorResetEnumeration function [RPC], _rpc_rpcerrorresetenumeration, rpc.rpcerrorresetenumeration, rpcasync/RpcErrorResetEnumeration
 ms.topic: function
 req.header: rpcasync.h

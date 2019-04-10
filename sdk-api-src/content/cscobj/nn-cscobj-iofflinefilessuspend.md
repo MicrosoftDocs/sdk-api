@@ -7,7 +7,7 @@ old-location: of\iofflinefilessuspend.htm
 tech.root: offlinefiles
 ms.assetid: 697018c4-7cce-480a-b078-993cdac32bf5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IOfflineFilesSuspend, IOfflineFilesSuspend interface [Offline Files], IOfflineFilesSuspend interface [Offline Files],described, cscobj/IOfflineFilesSuspend, of.iofflinefilessuspend
 ms.topic: interface
 req.header: cscobj.h

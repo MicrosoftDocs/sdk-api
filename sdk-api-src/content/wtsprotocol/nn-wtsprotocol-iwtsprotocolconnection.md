@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocolconnection.htm
 tech.root: TermServ
 ms.assetid: 584a6874-0df4-480e-a10a-4b603643870e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWTSProtocolConnection, IWTSProtocolConnection interface [Remote Desktop Services], IWTSProtocolConnection interface [Remote Desktop Services],described, termserv.iwtsprotocolconnection, wtsprotocol/IWTSProtocolConnection
 ms.topic: interface
 req.header: wtsprotocol.h

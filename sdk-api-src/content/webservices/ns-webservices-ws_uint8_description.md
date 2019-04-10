@@ -7,7 +7,7 @@ old-location: wsw\ws_uint8_description.htm
 tech.root: wsw
 ms.assetid: 0e878a19-8f64-4fa2-a6a7-9a12c2ec8efc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_UINT8_DESCRIPTION, WS_UINT8_DESCRIPTION structure [Web Services for Windows], webservices/WS_UINT8_DESCRIPTION, wsw.ws_uint8_description
 ms.topic: struct
 req.header: webservices.h

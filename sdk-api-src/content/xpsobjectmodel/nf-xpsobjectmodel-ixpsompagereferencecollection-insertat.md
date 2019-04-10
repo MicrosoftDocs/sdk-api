@@ -7,7 +7,7 @@ old-location: xps\ixpsompagereferencecollection_insertat.htm
 tech.root: printdocs
 ms.assetid: 829d0b81-90e2-4051-a9a7-7f71602f8c13
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IXpsOMPageReferenceCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMPageReferenceCollection.InsertAt, IXpsOMPageReferenceCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMPageReferenceCollection interface, xps.ixpsompagereferencecollection_insertat, xpsobjectmodel/IXpsOMPageReferenceCollection::InsertAt
 ms.topic: method
 req.header: xpsobjectmodel.h

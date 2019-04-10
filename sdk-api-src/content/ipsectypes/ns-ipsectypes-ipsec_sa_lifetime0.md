@@ -7,7 +7,7 @@ old-location: fwp\ipsec_sa_lifetime0_struct.htm
 tech.root: fwp
 ms.assetid: 9ade5a9a-5c48-4a94-bb35-77f9866e8e6f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IPSEC_SA_LIFETIME0, IPSEC_SA_LIFETIME0 structure [Filtering], fwp.ipsec_sa_lifetime0_struct, ipsectypes/IPSEC_SA_LIFETIME0
 ms.topic: struct
 req.header: ipsectypes.h

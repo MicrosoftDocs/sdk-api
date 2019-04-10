@@ -7,7 +7,7 @@ old-location: ad\dsquerysitesbycost.htm
 tech.root: ad
 ms.assetid: 7a4cbd1c-8445-4882-8559-d44b6e5693e7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DsQuerySitesByCost, DsQuerySitesByCost function [Active Directory], DsQuerySitesByCostA, DsQuerySitesByCostW, ad.dsquerysitesbycost, ntdsapi/DsQuerySitesByCost, ntdsapi/DsQuerySitesByCostA, ntdsapi/DsQuerySitesByCostW
 ms.topic: function
 req.header: ntdsapi.h

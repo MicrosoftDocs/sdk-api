@@ -7,7 +7,7 @@ old-location: mstv\iisdbeventgroupdescriptor_getrecordevent.htm
 tech.root: mstv
 ms.assetid: 899c8c7f-9e85-4b0d-b7ea-24fb0b5daa88
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetRecordEvent, GetRecordEvent method [Microsoft TV Technologies], GetRecordEvent method [Microsoft TV Technologies],IIsdbEventGroupDescriptor interface, IIsdbEventGroupDescriptor interface [Microsoft TV Technologies],GetRecordEvent method, IIsdbEventGroupDescriptor.GetRecordEvent, IIsdbEventGroupDescriptor::GetRecordEvent, dvbsiparser/IIsdbEventGroupDescriptor::GetRecordEvent, mstv.iisdbeventgroupdescriptor_getrecordevent
 ms.topic: method
 req.header: dvbsiparser.h

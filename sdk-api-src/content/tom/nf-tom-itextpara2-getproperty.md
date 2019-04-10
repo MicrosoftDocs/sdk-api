@@ -7,7 +7,7 @@ old-location: controls\itextpara2_getproperty.htm
 tech.root: Controls
 ms.assetid: 628ec2d7-2553-4a76-a5e6-c3a5bef3f8d6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Windows Controls], GetProperty method [Windows Controls],ITextPara2 interface, ITextPara2 interface [Windows Controls],GetProperty method, ITextPara2.GetProperty, ITextPara2::GetProperty, controls.itextpara2_getproperty, tom/ITextPara2::GetProperty
 ms.topic: method
 req.header: tom.h

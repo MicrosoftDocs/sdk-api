@@ -7,7 +7,7 @@ old-location: wsw\ws_http_header_auth_security_binding_policy_description.htm
 tech.root: wsw
 ms.assetid: a8e879ef-f154-43f4-9191-db62baa504f7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_HTTP_HEADER_AUTH_SECURITY_BINDING_POLICY_DESCRIPTION, WS_HTTP_HEADER_AUTH_SECURITY_BINDING_POLICY_DESCRIPTION structure [Web Services for Windows], webservices/WS_HTTP_HEADER_AUTH_SECURITY_BINDING_POLICY_DESCRIPTION, wsw.ws_http_header_auth_security_binding_policy_description
 ms.topic: struct
 req.header: webservices.h

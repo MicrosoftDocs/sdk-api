@@ -7,7 +7,7 @@ old-location: shell\IShellFolderView_QuerySupport.htm
 tech.root: shell
 ms.assetid: 0e998e31-7842-4d17-a9e6-35663ff1474a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IShellFolderView interface [Windows Shell],QuerySupport method, IShellFolderView.QuerySupport, IShellFolderView::QuerySupport, QuerySupport, QuerySupport method [Windows Shell], QuerySupport method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_QuerySupport, shell.IShellFolderView_QuerySupport, shlobj_core/IShellFolderView::QuerySupport
 ms.topic: method
 req.header: shlobj_core.h

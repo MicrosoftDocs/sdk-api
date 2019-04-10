@@ -7,7 +7,7 @@ old-location: upnp\iupnpserviceasync_begininvokeaction.htm
 tech.root: upnp
 ms.assetid: 40900CE1-03EE-451A-84DE-5C496EB2D7E5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BeginInvokeAction, BeginInvokeAction method [UPnP APIs], BeginInvokeAction method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],BeginInvokeAction method, IUPnPServiceAsync.BeginInvokeAction, IUPnPServiceAsync::BeginInvokeAction, upnp.iupnpserviceasync_begininvokeaction, upnp/IUPnPServiceAsync::BeginInvokeAction
 ms.topic: method
 req.header: upnp.h

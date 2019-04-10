@@ -7,7 +7,7 @@ old-location: automat\vari8fromui8.htm
 tech.root: automat
 ms.assetid: d2ba284c-5bca-4d41-a440-c8e091096434
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VarI8FromUI8, VarI8FromUI8 function [Automation], _oa96_VarI8FromUI8, automat.vari8fromui8, oleauto/VarI8FromUI8
 ms.topic: function
 req.header: oleauto.h

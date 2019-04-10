@@ -7,7 +7,7 @@ old-location: wds\wdscligetimagesize.htm
 tech.root: wds
 ms.assetid: 35d04426-dfb4-48db-bb81-734d2d2ecdcb
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WdsCliGetImageSize, WdsCliGetImageSize function [Windows Deployment Services], wds.wdscligetimagesize, wdsclientapi/WdsCliGetImageSize
 ms.topic: function
 req.header: wdsclientapi.h

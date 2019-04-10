@@ -7,7 +7,7 @@ old-location: shell\IIdentityName.htm
 tech.root: shell
 ms.assetid: 9e75141d-b54a-4fe8-9209-40aa7f484d24
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IIdentityName, IIdentityName interface [Windows Shell], IIdentityName interface [Windows Shell],described, _shell_IIdentityName, shell.IIdentityName, shobjidl_core/IIdentityName
 ms.topic: interface
 req.header: shobjidl_core.h

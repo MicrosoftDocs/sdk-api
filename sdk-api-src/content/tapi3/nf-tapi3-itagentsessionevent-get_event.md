@@ -7,7 +7,7 @@ old-location: tapi3\itagentsessionevent_get_event.htm
 tech.root: Tapi
 ms.assetid: 34779590-c2f6-4bd7-932b-5ac6365bcb20
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITAgentSessionEvent interface [TAPI 2.2],get_Event method, ITAgentSessionEvent.get_Event, ITAgentSessionEvent::get_Event, _tapi3_itagentsessionevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITAgentSessionEvent interface, tapi3.itagentsessionevent_get_event, tapi3cc/ITAgentSessionEvent::get_Event
 ms.topic: method
 req.header: tapi3.h

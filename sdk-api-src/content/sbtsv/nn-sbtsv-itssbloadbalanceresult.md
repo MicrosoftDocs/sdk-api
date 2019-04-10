@@ -7,7 +7,7 @@ old-location: termserv\itssbloadbalanceresult.htm
 tech.root: TermServ
 ms.assetid: f19f006c-e74a-4f44-8be8-f71852d4c305
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITsSbLoadBalanceResult, ITsSbLoadBalanceResult interface [Remote Desktop Services], ITsSbLoadBalanceResult interface [Remote Desktop Services],described, sbtsv/ITsSbLoadBalanceResult, termserv.itssbloadbalanceresult
 ms.topic: interface
 req.header: sbtsv.h

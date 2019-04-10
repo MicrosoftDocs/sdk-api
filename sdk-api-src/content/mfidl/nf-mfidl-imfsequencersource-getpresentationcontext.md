@@ -7,7 +7,7 @@ old-location: mf\imfsequencersource_getpresentationcontext.htm
 tech.root: medfound
 ms.assetid: c444ccad-68b8-40eb-9e87-0b4d61ac725d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetPresentationContext, GetPresentationContext method [Media Foundation], GetPresentationContext method [Media Foundation],IMFSequencerSource interface, IMFSequencerSource interface [Media Foundation],GetPresentationContext method, IMFSequencerSource.GetPresentationContext, IMFSequencerSource::GetPresentationContext, c444ccad-68b8-40eb-9e87-0b4d61ac725d, mf.imfsequencersource_getpresentationcontext, mfidl/IMFSequencerSource::GetPresentationContext
 ms.topic: method
 req.header: mfidl.h

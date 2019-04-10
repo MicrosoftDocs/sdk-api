@@ -7,7 +7,7 @@ old-location: winrt\serverinformation.htm
 tech.root: WinRT
 ms.assetid: 568246B8-48F7-4A83-B7DE-24F36B2C3F49
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PServerInformation, PServerInformation, PServerInformation structure pointer [Windows Runtime], ServerInformation, ServerInformation structure [Windows Runtime], combaseapi/PServerInformation, combaseapi/ServerInformation, winrt.serverinformation"
 ms.topic: struct
 req.header: combaseapi.h

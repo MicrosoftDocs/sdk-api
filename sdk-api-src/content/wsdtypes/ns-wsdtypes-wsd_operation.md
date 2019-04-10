@@ -7,7 +7,7 @@ old-location: ncd\wsd_operation_struct.htm
 tech.root: WsdApi
 ms.assetid: fcd4895d-5357-4b73-90b9-e506e3d7f16e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WSD_OPERATION, WSD_OPERATION structure, ncd.wsd_operation_struct, wsdtypes/WSD_OPERATION
 ms.topic: struct
 req.header: wsdtypes.h

@@ -7,7 +7,7 @@ old-location: dhcp\dhcpsetserverbindinginfo.htm
 tech.root: DHCP
 ms.assetid: 6291e266-e9d5-4899-8b34-53695f49a1b8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DHCP_ENDPOINT_FLAG_CANT_MODIFY, DhcpSetServerBindingInfo, DhcpSetServerBindingInfo function [DHCP], dhcp.dhcpsetserverbindinginfo, dhcpsapi/DhcpSetServerBindingInfo
 ms.topic: function
 req.header: dhcpsapi.h

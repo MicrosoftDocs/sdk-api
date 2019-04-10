@@ -7,7 +7,7 @@ old-location: base\unhandledexceptionfilter.htm
 tech.root: Debug
 ms.assetid: 9221e99b-6900-4b5d-923c-352bb27a5f8b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: UnhandledExceptionFilter, UnhandledExceptionFilter function, _win32_unhandledexceptionfilter, base.unhandledexceptionfilter, errhandlingapi/UnhandledExceptionFilter
 ms.topic: function
 req.header: errhandlingapi.h

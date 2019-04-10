@@ -7,7 +7,7 @@ old-location: termserv\itspubplugin_getresource.htm
 tech.root: TermServ
 ms.assetid: eceadfef-6980-452a-b983-3813f6e7ade8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetResource, GetResource method [Remote Desktop Services], GetResource method [Remote Desktop Services],ItsPubPlugin interface, ItsPubPlugin interface [Remote Desktop Services],GetResource method, ItsPubPlugin.GetResource, ItsPubPlugin::GetResource, termserv.itspubplugin_getresource, tspubplugincom/ItsPubPlugin::GetResource
 ms.topic: method
 req.header: tspubplugincom.h

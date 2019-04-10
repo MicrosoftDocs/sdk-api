@@ -7,7 +7,7 @@ old-location: dhcp\quarantinestatus.htm
 tech.root: DHCP
 ms.assetid: 29C165D1-9870-4398-97F9-DA1586797FF0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DEFAULTQUARSETTING, DROPPACKET, EXEMPT, NOQUARANTINE, NOQUARINFO, PROBATION, QuarantineStatus, QuarantineStatus enumeration [DHCP], RESTRICTEDACCESS, dhcp.quarantinestatus, dhcpsapi/DEFAULTQUARSETTING, dhcpsapi/DROPPACKET, dhcpsapi/EXEMPT, dhcpsapi/NOQUARANTINE, dhcpsapi/NOQUARINFO, dhcpsapi/PROBATION, dhcpsapi/QuarantineStatus, dhcpsapi/RESTRICTEDACCESS
 ms.topic: enum
 req.header: dhcpsapi.h

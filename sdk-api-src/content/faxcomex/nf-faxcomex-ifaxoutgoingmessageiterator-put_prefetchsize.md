@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingmessageiterator_cpp_mfax_faxoutgoingmessageit
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_12w5.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingMessageIterator interface [Fax Service],PrefetchSize property, IFaxOutgoingMessageIterator.PrefetchSize, IFaxOutgoingMessageIterator.get_PrefetchSize, IFaxOutgoingMessageIterator.put_PrefetchSize, IFaxOutgoingMessageIterator::PrefetchSize, IFaxOutgoingMessageIterator::get_PrefetchSize, IFaxOutgoingMessageIterator::put_PrefetchSize, PrefetchSize property [Fax Service], PrefetchSize property [Fax Service],IFaxOutgoingMessageIterator interface, _mfax_faxoutgoingmessageiterator.prefetchsize, fax._mfax_faxoutgoingmessageiterator_cpp_mfax_faxoutgoingmessageiterator_prefetchsize_cpp, fax._mfax_faxoutgoingmessageiterator_prefetchsize, faxcomex/IFaxOutgoingMessageIterator::PrefetchSize, faxcomex/IFaxOutgoingMessageIterator::get_PrefetchSize, faxcomex/IFaxOutgoingMessageIterator::put_PrefetchSize, lDEFAULT_PREFETCH_SIZE, put_PrefetchSize
 ms.topic: method
 req.header: faxcomex.h

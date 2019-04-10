@@ -7,7 +7,7 @@ old-location: winsync\ifeedclockvectorelement_getflags.htm
 tech.root: winsync
 ms.assetid: 9c618ca9-de6b-4e3e-a0cc-cac3886199d5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [Windows Sync], GetFlags method [Windows Sync],IFeedClockVectorElement interface, IFeedClockVectorElement interface [Windows Sync],GetFlags method, IFeedClockVectorElement.GetFlags, IFeedClockVectorElement::GetFlags, winsync.ifeedclockvectorelement_getflags, winsync/IFeedClockVectorElement::GetFlags
 ms.topic: method
 req.header: winsync.h

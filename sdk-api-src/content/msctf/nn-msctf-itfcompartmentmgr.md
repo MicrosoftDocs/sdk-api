@@ -7,7 +7,7 @@ old-location: tsf\itfcompartmentmgr.htm
 tech.root: TSF
 ms.assetid: 7cdc5c82-4aac-4ec9-b791-93cea33ba8d2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITfCompartmentMgr, ITfCompartmentMgr interface [Text Services Framework], ITfCompartmentMgr interface [Text Services Framework],described, _tsf_itfcompartmentmgr_ref, msctf/ITfCompartmentMgr, tsf.itfcompartmentmgr
 ms.topic: interface
 req.header: msctf.h

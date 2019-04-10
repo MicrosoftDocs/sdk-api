@@ -7,7 +7,7 @@ old-location: shell\IACList_Expand.htm
 tech.root: shell
 ms.assetid: 0d4ff090-dac7-4918-bea9-312be1d960e6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Expand, Expand method [Windows Shell], Expand method [Windows Shell],IACList interface, IACList interface [Windows Shell],Expand method, IACList.Expand, IACList::Expand, _win32_IACList_Expand, shell.IACList_Expand, shlobj_core/IACList::Expand
 ms.topic: method
 req.header: shlobj_core.h

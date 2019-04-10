@@ -7,7 +7,7 @@ old-location: netmgmt\netgroupadduser.htm
 tech.root: NetMgmt
 ms.assetid: a2eefde8-29e3-4fa1-87db-c7f6d24b699d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NetGroupAddUser, NetGroupAddUser function [Network Management], _win32_netgroupadduser, lmaccess/NetGroupAddUser, netmgmt.netgroupadduser
 ms.topic: function
 req.header: lmaccess.h

@@ -7,7 +7,7 @@ old-location: rras\mpr_interface_1.htm
 tech.root: RRAS
 ms.assetid: 90a3da46-7dd1-428b-ab72-d5defa710225
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PMPR_INTERFACE_1, MPR_INTERFACE_1, MPR_INTERFACE_1 structure [RAS], PMPR_INTERFACE_1, PMPR_INTERFACE_1 structure pointer [RAS], _mpr_mpr_interface_1, mprapi/MPR_INTERFACE_1, mprapi/PMPR_INTERFACE_1, rras.mpr_interface_1"
 ms.topic: struct
 req.header: mprapi.h

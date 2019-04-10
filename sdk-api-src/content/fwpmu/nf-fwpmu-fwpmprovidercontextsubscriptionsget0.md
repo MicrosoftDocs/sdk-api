@@ -7,7 +7,7 @@ old-location: fwp\fwpmprovidercontextsubscriptionsget0_func.htm
 tech.root: fwp
 ms.assetid: 68c8c360-3b12-4a7c-8a68-5128139a862a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FwpmProviderContextSubscriptionsGet0, FwpmProviderContextSubscriptionsGet0 function [Filtering], fwp.fwpmprovidercontextsubscriptionsget0_func, fwpmu/FwpmProviderContextSubscriptionsGet0
 ms.topic: function
 req.header: fwpmu.h

@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3d_shader_data.htm
 tech.root: direct3dhlsl
 ms.assetid: 34cde0c9-e8ee-428d-86f5-87c91b95f5d8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: D3D_SHADER_DATA, D3D_SHADER_DATA structure [HLSL], _D3D_SHADER_DATA, d3dcompiler/D3D_SHADER_DATA, direct3dhlsl.d3d_shader_data
 ms.topic: struct
 req.header: d3dcompiler.h

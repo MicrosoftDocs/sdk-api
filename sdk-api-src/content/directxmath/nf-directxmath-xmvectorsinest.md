@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorsinest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorSinEst(XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSinEst, XMVectorSinEst, XMVectorSinEst method [DirectX Math Support APIs], dxmath.xmvectorsinest
 ms.topic: function
 req.header: directxmath.h

@@ -7,7 +7,7 @@ old-location: gpmc\igpmgpocollection.htm
 tech.root: gpmc
 ms.assetid: 847aea86-48e9-428e-ae4d-e6a7e1e13428
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GPMGPOCollection, IGPMGPOCollection, IGPMGPOCollection interface [GPMC], IGPMGPOCollection interface [GPMC],described, _win32_igpmgpocollection, gpmc.igpmgpocollection, gpmgmt/IGPMGPOCollection
 ms.topic: interface
 req.header: gpmgmt.h

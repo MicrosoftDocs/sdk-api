@@ -7,7 +7,7 @@ old-location: security\icertrequest3_getrefreshpolicy.htm
 tech.root: SecCrypto
 ms.assetid: 0683b9ad-c3d5-418a-8f05-ae06ad74ef1d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CCertRequest object [Security],GetRefreshPolicy method, GetRefreshPolicy, GetRefreshPolicy method [Security], GetRefreshPolicy method [Security],CCertRequest object, GetRefreshPolicy method [Security],ICertRequest3 class, ICertRequest3 class [Security],GetRefreshPolicy method, ICertRequest3.GetRefreshPolicy, ICertRequest3::GetRefreshPolicy, certcli/ICertRequest3::GetRefreshPolicy, security.icertrequest3_getrefreshpolicy
 ms.topic: method
 req.header: certcli.h

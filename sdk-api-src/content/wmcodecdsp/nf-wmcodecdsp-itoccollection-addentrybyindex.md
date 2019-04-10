@@ -7,7 +7,7 @@ old-location: mf\itoccollection_addentrybyindex.htm
 tech.root: medfound
 ms.assetid: 61f3103b-9b81-4729-a410-ab5ea63e072c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AddEntryByIndex, AddEntryByIndex method [Media Foundation], AddEntryByIndex method [Media Foundation],ITocCollection interface, ITocCollection interface [Media Foundation],AddEntryByIndex method, ITocCollection.AddEntryByIndex, ITocCollection::AddEntryByIndex, codecapi.itoccollection_addentrybyindex, mf.itoccollection_addentrybyindex, wmcodecdsp/ITocCollection::AddEntryByIndex
 ms.topic: method
 req.header: wmcodecdsp.h

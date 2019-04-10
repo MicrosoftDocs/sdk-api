@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents2_itemreconnectend.htm
 tech.root: offlinefiles
 ms.assetid: 929d6556-69cb-4863-a665-236603fcd88b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents2 interface [Offline Files],ItemReconnectEnd method, IOfflineFilesEvents2.ItemReconnectEnd, IOfflineFilesEvents2::ItemReconnectEnd, ItemReconnectEnd, ItemReconnectEnd method [Offline Files], ItemReconnectEnd method [Offline Files],IOfflineFilesEvents2 interface, cscobj/IOfflineFilesEvents2::ItemReconnectEnd, of.iofflinefilesevents2_itemreconnectend
 ms.topic: method
 req.header: cscobj.h

@@ -7,7 +7,7 @@ old-location: p2p\peer_graph_event_registration.htm
 tech.root: P2PSdk
 ms.assetid: 6725eba9-af61-4088-96e0-d0bf943902ea
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PPEER_GRAPH_EVENT_REGISTRATION, PEER_GRAPH_EVENT_REGISTRATION, PEER_GRAPH_EVENT_REGISTRATION structure [Peer Networking], PPEER_GRAPH_EVENT_REGISTRATION, PPEER_GRAPH_EVENT_REGISTRATION structure pointer [Peer Networking], p2p.peer_graph_event_registration, p2p/PPEER_GRAPH_EVENT_REGISTRATION, p2p/peer_graph_event_registration_tag"
 ms.topic: struct
 req.header: p2p.h

@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxservernotify2_onincomingjobremoved.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onincomingjobremoved.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnIncomingJobRemoved method, IFaxServerNotify2.OnIncomingJobRemoved, IFaxServerNotify2::OnIncomingJobRemoved, OnIncomingJobRemoved, OnIncomingJobRemoved method [Fax Service], OnIncomingJobRemoved method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnIncomingJobRemoved, _IFaxServerNotify2::OnIncomingJobRemoved, _mfax_ifaxservernotify2_onincomingjobremoved, fax._mfax_ifaxservernotify2_onincomingjobremoved, faxcomex/IFaxServerNotify2::OnIncomingJobRemoved
 ms.topic: method
 req.header: faxcomex.h

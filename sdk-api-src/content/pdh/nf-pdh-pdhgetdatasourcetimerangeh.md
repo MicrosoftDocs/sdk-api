@@ -7,7 +7,7 @@ old-location: perf\pdhgetdatasourcetimerangeh.htm
 tech.root: perfctrs
 ms.assetid: 55cfef46-999d-43fa-9b09-9d8916fbf755
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PdhGetDataSourceTimeRangeH, PdhGetDataSourceTimeRangeH function [Perf], _win32_pdhgetdatasourcetimerangeh, base.pdhgetdatasourcetimerangeh, pdh/PdhGetDataSourceTimeRangeH, perf.pdhgetdatasourcetimerangeh
 ms.topic: function
 req.header: pdh.h

@@ -7,7 +7,7 @@ old-location: multimedia\capsetcallbackonyield.htm
 tech.root: Multimedia
 ms.assetid: efddbcbc-f1e3-451c-928e-984eea187de2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_win32_capSetCallbackOnYield, capSetCallbackOnYield, capSetCallbackOnYield macro [Windows Multimedia], multimedia.capsetcallbackonyield, vfw/capSetCallbackOnYield"
 ms.topic: macro
 req.header: vfw.h

@@ -7,7 +7,7 @@ old-location: security\spacceptcredentials.htm
 tech.root: SecAuthN
 ms.assetid: bb382937-e5d6-452b-b166-505d0c80412c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SpAcceptCredentials, SpAcceptCredentials callback function [Security], SpAcceptCredentialsFn, SpAcceptCredentialsFn callback, _ssp_spacceptcredentials, ntsecpkg/SpAcceptCredentials, security.spacceptcredentials
 ms.topic: callback
 req.header: ntsecpkg.h

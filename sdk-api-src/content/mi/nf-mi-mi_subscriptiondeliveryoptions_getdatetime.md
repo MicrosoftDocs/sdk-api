@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_subscriptiondeliveryoptions_getdatetime.htm
 tech.root: wmi_v2
 ms.assetid: 502738a3-1f4a-460c-bd1c-5f1ea411d899
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetDateTime, MI_SubscriptionDeliveryOptions_GetDateTime function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetDateTime, wmi_v2.mi_subscriptiondeliveryoptions_getdatetime
 ms.topic: function
 req.header: mi.h

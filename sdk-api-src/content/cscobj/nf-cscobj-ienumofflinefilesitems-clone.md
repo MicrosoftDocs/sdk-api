@@ -7,7 +7,7 @@ old-location: of\ienumofflinefilesitems_clone.htm
 tech.root: offlinefiles
 ms.assetid: cef0adaf-d342-4eab-b455-2b51b7d70066
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Offline Files], Clone method [Offline Files],IEnumOfflineFilesItems interface, IEnumOfflineFilesItems interface [Offline Files],Clone method, IEnumOfflineFilesItems.Clone, IEnumOfflineFilesItems::Clone, cscobj/IEnumOfflineFilesItems::Clone, of.ienumofflinefilesitems_clone
 ms.topic: method
 req.header: cscobj.h

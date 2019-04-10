@@ -7,7 +7,7 @@ old-location: mbn\imbnregistration_getregistrationnetworkerror.htm
 tech.root: mbn
 ms.assetid: b0e6df7a-7b47-4587-92c2-f01fd96e768f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetRegistrationNetworkError, GetRegistrationNetworkError method [Microsoft Broadband Networks], GetRegistrationNetworkError method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetRegistrationNetworkError method, IMbnRegistration.GetRegistrationNetworkError, IMbnRegistration::GetRegistrationNetworkError, mbn.imbnregistration_getregistrationnetworkerror, mbnapi/IMbnRegistration::GetRegistrationNetworkError
 ms.topic: method
 req.header: mbnapi.h

@@ -7,7 +7,7 @@ old-location: fwp\fwpm_net_event_subscription0.htm
 tech.root: fwp
 ms.assetid: a1aa8369-fd70-46f6-983d-0afdf8b8ff77
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FWPM_NET_EVENT_SUBSCRIPTION0, FWPM_NET_EVENT_SUBSCRIPTION0 structure [Filtering], fwp.fwpm_net_event_subscription0, fwpmtypes/FWPM_NET_EVENT_SUBSCRIPTION0
 ms.topic: struct
 req.header: fwpmtypes.h

@@ -7,7 +7,7 @@ old-location: controls\PFNDACOMPARECONST.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndacompareconst.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PFNDACOMPARECONST, PFNDACOMPARECONST callback, PFNDACOMPARECONST callback function [Windows Controls], PFNDPACOMPARECONST, PFNDSACOMPARECONST, _shell_PFNDACOMPARECONST, _shell_PFNDACOMPARECONST_cpp, controls.PFNDACOMPARECONST, controls._shell_PFNDACOMPARECONST, dpa_dsa/PFNDACOMPARECONST
 ms.topic: callback
 req.header: dpa_dsa.h

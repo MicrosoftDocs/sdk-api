@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectrendercontextimpl_getoutputbounds.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontextimpl\getoutputbounds.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetOutputBounds, GetOutputBounds method [WPF Bitmap Effects], GetOutputBounds method [WPF Bitmap Effects],IMILBitmapEffectRenderContextImpl interface, IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects],GetOutputBounds method, IMILBitmapEffectRenderContextImpl.GetOutputBounds, IMILBitmapEffectRenderContextImpl::GetOutputBounds, _wibe_imilbitmapeffectrendercontextimpl_getoutputbounds, mileffects/IMILBitmapEffectRenderContextImpl::GetOutputBounds, wibe._wibe_imilbitmapeffectrendercontextimpl_getoutputbounds
 ms.topic: method
 req.header: mileffects.h

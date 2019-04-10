@@ -7,7 +7,7 @@ old-location: etw\ieventcallback.htm
 tech.root: ETW
 ms.assetid: 70139402-86e6-43b4-9016-42854ef998fd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEventCallback, IEventCallback interface [ETW], IEventCallback interface [ETW],described, ITraceEventCallback, etw.ieventcallback, relogger/ITraceEventCallback
 ms.topic: interface
 req.header: relogger.h

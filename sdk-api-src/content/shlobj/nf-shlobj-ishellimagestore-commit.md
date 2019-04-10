@@ -7,7 +7,7 @@ old-location: shell\IShellImageStore_Commit.htm
 tech.root: shell
 ms.assetid: 99ae5347-b140-4698-9fc5-bd60870d9149
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [Windows Shell], Commit method [Windows Shell],IShellImageStore interface, IShellImageStore interface [Windows Shell],Commit method, IShellImageStore.Commit, IShellImageStore::Commit, _win32_IShellImageStore_Commit, shell.IShellImageStore_Commit, shlobj/IShellImageStore::Commit
 ms.topic: method
 req.header: shlobj.h

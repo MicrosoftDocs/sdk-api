@@ -7,7 +7,7 @@ old-location: wmformat\iwmauthorizer.htm
 tech.root: wmformat
 ms.assetid: eece7e36-7c3e-4bc4-9b5a-8142a062dbce
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMAuthorizer, IWMAuthorizer interface [windows Media Format], IWMAuthorizer interface [windows Media Format],described, wmformat.iwmauthorizer, wmsecure/IWMAuthorizer
 ms.topic: interface
 req.header: wmsecure.h

@@ -7,7 +7,7 @@ old-location: fs\idiskquotauserbatch_removeall.htm
 tech.root: FileIO
 ms.assetid: f3c791a9-4976-4e04-903f-a1afffd01f7c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDiskQuotaUserBatch interface [Files],RemoveAll method, IDiskQuotaUserBatch.RemoveAll, IDiskQuotaUserBatch::RemoveAll, RemoveAll, RemoveAll method [Files], RemoveAll method [Files],IDiskQuotaUserBatch interface, _win32_idiskquotauserbatch_removeall, base.idiskquotauserbatch_removeall, dskquota/IDiskQuotaUserBatch::RemoveAll, fs.idiskquotauserbatch_removeall
 ms.topic: method
 req.header: dskquota.h

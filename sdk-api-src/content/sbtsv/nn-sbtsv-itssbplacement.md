@@ -7,7 +7,7 @@ old-location: termserv\itssbplacement.htm
 tech.root: TermServ
 ms.assetid: d90501dd-ca15-463c-b204-b1f56103ebe7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITsSbPlacement, ITsSbPlacement interface [Remote Desktop Services], ITsSbPlacement interface [Remote Desktop Services],described, sbtsv/ITsSbPlacement, termserv.itssbplacement
 ms.topic: interface
 req.header: sbtsv.h

@@ -7,7 +7,7 @@ old-location: dshow\ivmrvideostreamcontrol_setstreamactivestate.htm
 tech.root: DirectShow
 ms.assetid: 060a95a4-b984-40c6-afe8-136df96c353e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVMRVideoStreamControl interface [DirectShow],SetStreamActiveState method, IVMRVideoStreamControl.SetStreamActiveState, IVMRVideoStreamControl::SetStreamActiveState, IVMRVideoStreamControlSetStreamActiveState, SetStreamActiveState, SetStreamActiveState method [DirectShow], SetStreamActiveState method [DirectShow],IVMRVideoStreamControl interface, dshow.ivmrvideostreamcontrol_setstreamactivestate, strmif/IVMRVideoStreamControl::SetStreamActiveState
 ms.topic: method
 req.header: strmif.h

@@ -7,7 +7,7 @@ old-location: base\queueuserapc.htm
 tech.root: Sync
 ms.assetid: 5b141372-7c95-4eb2-987b-64fdf7d0783d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: QueueUserAPC, QueueUserAPC function, _win32_queueuserapc, base.queueuserapc, processthreadsapi/QueueUserAPC, winbase/QueueUserAPC
 ms.topic: function
 req.header: processthreadsapi.h

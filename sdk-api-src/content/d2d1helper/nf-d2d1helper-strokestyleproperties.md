@@ -7,7 +7,7 @@ old-location: direct2d\strokestyleproperties.htm
 tech.root: Direct2D
 ms.assetid: 7b7c2313-b105-45b2-9348-752ca44db716
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: StrokeStyleProperties, StrokeStyleProperties function [Direct2D], d2d1helper/StrokeStyleProperties, direct2d.strokestyleproperties
 ms.topic: function
 req.header: d2d1helper.h

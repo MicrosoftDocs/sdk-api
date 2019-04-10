@@ -7,7 +7,7 @@ old-location: winprog\fhservicereloadconfiguration.htm
 tech.root: DevNotes
 ms.assetid: DEFD729F-ED84-4C6A-8014-E986C2EB2767
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FhServiceReloadConfiguration, FhServiceReloadConfiguration function [Windows API], fhsvcctl/FhServiceReloadConfiguration, winprog.fhservicereloadconfiguration
 ms.topic: function
 req.header: fhsvcctl.h

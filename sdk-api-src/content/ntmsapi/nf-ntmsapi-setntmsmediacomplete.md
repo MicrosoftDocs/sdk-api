@@ -7,7 +7,7 @@ old-location: fs\setntmsmediacomplete.htm
 tech.root: Rsm
 ms.assetid: 1513b487-93b6-4615-aa7b-e135f81b6ad0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SetNtmsMediaComplete, SetNtmsMediaComplete function [Files], _zaw_setntmsmediacomplete, base.setntmsmediacomplete, fs.setntmsmediacomplete, ntmsapi/SetNtmsMediaComplete
 ms.topic: function
 req.header: ntmsapi.h

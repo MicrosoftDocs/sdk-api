@@ -7,7 +7,7 @@ old-location: wab\_wab_IWABObject_VCardRetrieve.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\vcardretrieve.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWABObject interface [Windows Address Book],VCardRetrieve method, IWABObject.VCardRetrieve, IWABObject::VCardRetrieve, VCardRetrieve, VCardRetrieve method [Windows Address Book], VCardRetrieve method [Windows Address Book],IWABObject interface, WAB_VCARD_FILE, WAB_VCARD_STREAM, _wab_IWABObject_VCardRetrieve, wab._wab_IWABObject_VCardRetrieve, wabapi/IWABObject::VCardRetrieve
 ms.topic: method
 req.header: wabapi.h

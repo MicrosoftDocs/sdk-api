@@ -7,7 +7,7 @@ old-location: tsf\itfinputscope_getXML.htm
 tech.root: TSF
 ms.assetid: 7e7a2780-6080-4f9a-b036-bc8f6258bcb5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetXML, GetXML method [Text Services Framework], GetXML method [Text Services Framework],ITfInputScope interface, ITfInputScope interface [Text Services Framework],GetXML method, ITfInputScope.GetXML, ITfInputScope::GetXML, inputscope/ITfInputScope::GetXML, tsf.itfinputscope_getXML, tsf.itfinputscope_xml
 ms.topic: method
 req.header: inputscope.h

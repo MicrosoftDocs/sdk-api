@@ -7,7 +7,7 @@ old-location: mmc\iconsole_updateallviews.htm
 tech.root: mmc
 ms.assetid: 72A0FFF3-4084-4AD0-94E4-A7EB03F40BF2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IConsole interface [MMC],UpdateAllViews method, IConsole.UpdateAllViews, IConsole::UpdateAllViews, UpdateAllViews, UpdateAllViews method [MMC], UpdateAllViews method [MMC],IConsole interface, mmc.iconsole_updateallviews, mmc/IConsole::UpdateAllViews
 ms.topic: method
 req.header: mmc.h

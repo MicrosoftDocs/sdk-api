@@ -7,7 +7,7 @@ old-location: winrm\wsman_selector_set.htm
 tech.root: winrm
 ms.assetid: 8157c0e6-b992-46a9-9976-e57dd06e7f8b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WSMAN_SELECTOR_SET, WSMAN_SELECTOR_SET structure [Windows Remote Management], winrm.wsman_selector_set, wsman/WSMAN_SELECTOR_SET
 ms.topic: struct
 req.header: wsman.h

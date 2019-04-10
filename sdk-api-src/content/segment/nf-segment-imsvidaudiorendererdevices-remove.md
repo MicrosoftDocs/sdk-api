@@ -7,7 +7,7 @@ old-location: mstv\imsvidaudiorendererdevices_remove.htm
 tech.root: mstv
 ms.assetid: 5a9cf752-e3f8-40bf-89e8-e223654e4080
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMSVidAudioRendererDevices interface [Microsoft TV Technologies],Remove method, IMSVidAudioRendererDevices.Remove, IMSVidAudioRendererDevices::Remove, IMSVidAudioRendererDevicesRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IMSVidAudioRendererDevices interface, mstv.imsvidaudiorendererdevices_remove, segment/IMSVidAudioRendererDevices::Remove
 ms.topic: method
 req.header: segment.h

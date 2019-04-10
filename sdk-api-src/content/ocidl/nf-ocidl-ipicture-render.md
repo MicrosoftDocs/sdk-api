@@ -7,7 +7,7 @@ old-location: com\ipicture_render.htm
 tech.root: com
 ms.assetid: 45164225-2e0f-4415-a99c-dc0257d606d3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IPicture interface [COM],Render method, IPicture.Render, IPicture::Render, Render, Render method [COM], Render method [COM],IPicture interface, _ctrl_ipicture_render, com.ipicture_render, ocidl/IPicture::Render
 ms.topic: method
 req.header: ocidl.h

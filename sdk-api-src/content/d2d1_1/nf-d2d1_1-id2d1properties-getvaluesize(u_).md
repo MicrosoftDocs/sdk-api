@@ -7,7 +7,7 @@ old-location: direct2d\id2d1properties_getvaluesize2.htm
 tech.root: Direct2D
 ms.assetid: 98B32688-550B-4724-8715-F50C8BCD78D2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetValueSize, GetValueSize method [Direct2D], GetValueSize method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetValueSize method, ID2D1Properties.GetValueSize, ID2D1Properties.GetValueSize(U,), ID2D1Properties::GetValueSize, ID2D1Properties::GetValueSize(U), ID2D1Properties::GetValueSize(U,), d2d1_1/ID2D1Properties::GetValueSize, direct2d.id2d1properties_getvaluesize2
 ms.topic: method
 req.header: d2d1_1.h

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflectiontype_getdesc.htm
 tech.root: direct3d12
 ms.assetid: E5C28FFE-5BA4-436F-9CDB-215B5B9918F9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,GetDesc method, ID3D12ShaderReflectionType.GetDesc, ID3D12ShaderReflectionType::GetDesc, d3d12shader/ID3D12ShaderReflectionType::GetDesc, direct3d12.id3d12shaderreflectiontype_getdesc
 ms.topic: method
 req.header: d3d12shader.h

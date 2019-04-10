@@ -7,7 +7,7 @@ old-location: fwp\fwpm_filter_subscription0_struct.htm
 tech.root: fwp
 ms.assetid: 723d2e27-420d-4eea-9ae1-d624807bf4ec
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FWPM_FILTER_SUBSCRIPTION0, FWPM_FILTER_SUBSCRIPTION0 structure [Filtering], FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_ADD, FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_DELETE, fwp.fwpm_filter_subscription0_struct, fwpmtypes/FWPM_FILTER_SUBSCRIPTION0
 ms.topic: struct
 req.header: fwpmtypes.h

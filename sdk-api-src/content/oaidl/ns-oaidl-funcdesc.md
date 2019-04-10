@@ -7,7 +7,7 @@ old-location: automat\funcdesc.htm
 tech.root: automat
 ms.assetid: 9998e0cb-5aa3-4cd8-86eb-34760eb1164e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPFUNCDESC, FUNCDESC, FUNCDESC structure [Automation], LPFUNCDESC, LPFUNCDESC structure pointer [Automation], _oa96_FUNCDESC, automat.funcdesc, oaidl/FUNCDESC, oaidl/LPFUNCDESC"
 ms.topic: struct
 req.header: oaidl.h

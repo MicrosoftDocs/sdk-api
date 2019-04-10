@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_get_hue.htm
 tech.root: DirectShow
 ms.assetid: dfdd44b5-fd39-40da-95b8-9008aef10f9a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_Hue method, IVideoProcAmp.get_Hue, IVideoProcAmp::get_Hue, IVideoProcAmpget_Hue, dshow.ivideoprocamp_get_hue, get_Hue, get_Hue method [DirectShow], get_Hue method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_Hue
 ms.topic: method
 req.header: vidcap.h

@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvalue_getsize.htm
 tech.root: WinRT
 ms.assetid: c864cf0e-8e7e-44b0-93dc-3d2d9f2326a7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [Windows Runtime], GetSize method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetSize method, IPropertyValue.GetSize, IPropertyValue.IPropertyValue, IPropertyValue::GetSize, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetSize, winrt.ipropertyvalue_getsize
 ms.topic: method
 req.header: windows.foundation.h

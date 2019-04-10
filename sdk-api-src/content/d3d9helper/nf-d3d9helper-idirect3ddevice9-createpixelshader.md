@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__createpixelshader.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__createpixelshader.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreatePixelShader, CreatePixelShader method [Direct3D 9], CreatePixelShader method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreatePixelShader method, IDirect3DDevice9.CreatePixelShader, IDirect3DDevice9::CreatePixelShader, d3d9helper/IDirect3DDevice9::CreatePixelShader, dbb7453e-679d-3725-52e6-92748cf274cc, direct3d9.idirect3ddevice9__createpixelshader
 ms.topic: method
 req.header: d3d9helper.h

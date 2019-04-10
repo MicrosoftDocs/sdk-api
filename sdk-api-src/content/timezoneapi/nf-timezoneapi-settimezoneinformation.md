@@ -7,7 +7,7 @@ old-location: base\settimezoneinformation.htm
 tech.root: SysInfo
 ms.assetid: afb13501-3a87-433a-a05e-139103060109
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SetTimeZoneInformation, SetTimeZoneInformation function, _win32_settimezoneinformation, base.settimezoneinformation, timezoneapi/SetTimeZoneInformation
 ms.topic: function
 req.header: timezoneapi.h

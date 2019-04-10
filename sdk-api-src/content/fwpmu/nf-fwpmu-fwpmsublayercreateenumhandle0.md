@@ -7,7 +7,7 @@ old-location: fwp\fwpmsublayercreateenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: a8acff10-8395-4ef8-8976-7a99cd498a7d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FwpmSubLayerCreateEnumHandle0, FwpmSubLayerCreateEnumHandle0 function [Filtering], fwp.fwpmsublayercreateenumhandle0_func, fwpmu/FwpmSubLayerCreateEnumHandle0
 ms.topic: function
 req.header: fwpmu.h

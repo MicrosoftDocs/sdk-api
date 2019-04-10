@@ -7,7 +7,7 @@ old-location: com\iolecontrol.htm
 tech.root: com
 ms.assetid: ef85dce6-b680-4a72-9277-4cfdab27cbbc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IOleControl, IOleControl interface [COM], IOleControl interface [COM],described, _ctrl_iolecontrol, com.iolecontrol, ocidl/IOleControl
 ms.topic: interface
 req.header: ocidl.h

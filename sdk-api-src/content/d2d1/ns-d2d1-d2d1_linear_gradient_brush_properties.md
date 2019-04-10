@@ -7,7 +7,7 @@ old-location: direct2d\D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES.htm
 tech.root: Direct2D
 ms.assetid: 753278f0-d8a1-4dc5-b976-a00f8aab357e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES, D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES structure [Direct2D], d2d1/D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES, direct2d.D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES
 ms.topic: struct
 req.header: d2d1.h

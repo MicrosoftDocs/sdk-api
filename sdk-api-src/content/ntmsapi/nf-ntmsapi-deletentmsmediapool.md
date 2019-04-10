@@ -7,7 +7,7 @@ old-location: fs\deletentmsmediapool.htm
 tech.root: Rsm
 ms.assetid: 79885083-beb6-4c66-8271-23082994a258
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DeleteNtmsMediaPool, DeleteNtmsMediaPool function [Files], _zaw_deletentmsmediapool, base.deletentmsmediapool, fs.deletentmsmediapool, ntmsapi/DeleteNtmsMediaPool
 ms.topic: function
 req.header: ntmsapi.h

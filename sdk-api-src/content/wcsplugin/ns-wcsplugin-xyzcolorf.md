@@ -7,7 +7,7 @@ old-location: wcs\xyzcolorf.htm
 tech.root: WCS
 ms.assetid: 841c0d86-c27a-4a64-b956-02abc435e108
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: XYZColorF, XYZColorF structure [Windows Color System], wcs.xyzcolorf, wcsplugin/XYZColorF
 ms.topic: struct
 req.header: wcsplugin.h

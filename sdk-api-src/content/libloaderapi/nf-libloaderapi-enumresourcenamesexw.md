@@ -7,7 +7,7 @@ old-location: menurc\enumresourcenamesex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcenamesex.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EnumResourceNamesEx, EnumResourceNamesEx function [Menus and Other Resources], EnumResourceNamesExA, EnumResourceNamesExW, RESOURCE_ENUM_LN, RESOURCE_ENUM_MUI, RESOURCE_ENUM_VALIDATE, _win32_EnumResourceNamesEx, _win32_enumresourcenamesex_cpp, libloaderapi/EnumResourceNamesEx, libloaderapi/EnumResourceNamesExA, libloaderapi/EnumResourceNamesExW, menurc.enumresourcenamesex, winui._win32_enumresourcenamesex
 ms.topic: function
 req.header: libloaderapi.h

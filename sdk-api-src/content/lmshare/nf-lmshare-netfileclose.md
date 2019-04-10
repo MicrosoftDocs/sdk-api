@@ -7,7 +7,7 @@ old-location: fs\netfileclose.htm
 tech.root: NetShare
 ms.assetid: 36a5f464-fec3-4b4f-91c3-447ff5ff70af
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NetFileClose, NetFileClose function [Files], _win32_netfileclose, fs.netfileclose, lmshare/NetFileClose, netmgmt.netfileclose
 ms.topic: function
 req.header: lmshare.h

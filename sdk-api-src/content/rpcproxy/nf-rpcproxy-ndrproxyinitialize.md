@@ -7,7 +7,7 @@ old-location: rpc\ndrproxyinitialize.htm
 tech.root: Rpc
 ms.assetid: 54037337-9166-4023-8470-65ad247ceee5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NdrProxyInitialize, NdrProxyInitialize function [RPC], rpc.ndrproxyinitialize, rpcproxy/NdrProxyInitialize
 ms.topic: function
 req.header: rpcproxy.h

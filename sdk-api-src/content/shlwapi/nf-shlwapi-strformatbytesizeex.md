@@ -7,7 +7,7 @@ old-location: shell\StrFormatByteSizeEx.htm
 tech.root: shell
 ms.assetid: 9ecc6427-e7bb-43ec-ab78-665ef52f8b10
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: StrFormatByteSizeEx, StrFormatByteSizeEx function [Windows Shell], _win32_StrFormatByteSizeEx, shell.StrFormatByteSizeEx, shlwapi/StrFormatByteSizeEx
 ms.topic: function
 req.header: shlwapi.h

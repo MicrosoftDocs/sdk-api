@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist4_beginrenderpass.htm
 tech.root: direct3d12
 ms.assetid: 6A7CF754-F2E6-48D4-8A4D-CE64B31267F7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BeginRenderPass, BeginRenderPass method, BeginRenderPass method,ID3D12GraphicsCommandList4 interface, ID3D12GraphicsCommandList4 interface,BeginRenderPass method, ID3D12GraphicsCommandList4.BeginRenderPass, ID3D12GraphicsCommandList4::BeginRenderPass, d3d12/ID3D12GraphicsCommandList4::BeginRenderPass, direct3d12.id3d12graphicscommandlist4_beginrenderpass
 ms.topic: method
 req.header: d3d12.h

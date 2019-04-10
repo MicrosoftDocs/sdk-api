@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyfile6_updatedownloadposition.htm
 tech.root: Bits
 ms.assetid: 243F9D5A-32D8-4D39-A9B2-E452CF745844
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyFile6 interface [BITS],UpdateDownloadPosition method, IBackgroundCopyFile6.UpdateDownloadPosition, IBackgroundCopyFile6::UpdateDownloadPosition, UpdateDownloadPosition, UpdateDownloadPosition method [BITS], UpdateDownloadPosition method [BITS],IBackgroundCopyFile6 interface, bits.ibackgroundcopyfile6_updatedownloadposition, bits10_1/IBackgroundCopyFile6::UpdateDownloadPosition
 ms.topic: method
 req.header: bits10_1.h

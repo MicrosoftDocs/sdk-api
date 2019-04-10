@@ -7,7 +7,7 @@ old-location: stg\stggetifilllockbytesonilockbytes.htm
 tech.root: Stg
 ms.assetid: 87159472-3b80-4c0f-b2d4-7635dfcf2121
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: StgGetIFillLockBytesOnILockBytes, StgGetIFillLockBytesOnILockBytes function [Structured Storage], _stg_stggetifilllockbytesonilockbytes, objbase/StgGetIFillLockBytesOnILockBytes, stg.stggetifilllockbytesonilockbytes
 ms.topic: function
 req.header: objbase.h

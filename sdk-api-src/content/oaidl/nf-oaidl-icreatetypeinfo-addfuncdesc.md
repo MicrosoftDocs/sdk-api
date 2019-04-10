@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo_addfuncdesc.htm
 tech.root: automat
 ms.assetid: f6816778-86f6-4e59-8eb2-444fd7bd6354
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AddFuncDesc, AddFuncDesc method [Automation], AddFuncDesc method [Automation],ICreateTypeInfo interface, ICreateTypeInfo interface [Automation],AddFuncDesc method, ICreateTypeInfo.AddFuncDesc, ICreateTypeInfo::AddFuncDesc, _oa96_ICreateTypeInfo_AddFuncDesc, automat.icreatetypeinfo_addfuncdesc, oaidl/ICreateTypeInfo::AddFuncDesc
 ms.topic: method
 req.header: oaidl.h

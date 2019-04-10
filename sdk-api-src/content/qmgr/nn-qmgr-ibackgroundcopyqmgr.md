@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyqmgr.htm
 tech.root: Bits
 ms.assetid: 040662c3-0d96-416a-b5e6-a16a6d3034fc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyQMgr, IBackgroundCopyQMgr interface [BITS], IBackgroundCopyQMgr interface [BITS],described, bits.ibackgroundcopyqmgr, qmgr/IBackgroundCopyQMgr
 ms.topic: interface
 req.header: qmgr.h

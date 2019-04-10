@@ -7,7 +7,7 @@ old-location: http\winhttpsendrequest.htm
 tech.root: WinHttp
 ms.assetid: 991bf531-2e6b-4581-8069-f75789915522
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WinHttpSendRequest, WinHttpSendRequest function [WinHTTP], http.winhttpsendrequest, winhttp.winhttpsendrequest_function, winhttp/WinHttpSendRequest
 ms.topic: function
 req.header: winhttp.h

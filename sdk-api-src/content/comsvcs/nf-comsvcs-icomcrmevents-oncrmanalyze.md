@@ -7,7 +7,7 @@ old-location: cos\icomcrmevents_oncrmanalyze.htm
 tech.root: cossdk
 ms.assetid: 08bdc192-f1f8-4d0d-a432-cf6316d8033a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMAnalyze method, IComCRMEvents.OnCRMAnalyze, IComCRMEvents::OnCRMAnalyze, OnCRMAnalyze, OnCRMAnalyze method [COM+], OnCRMAnalyze method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMAnalyze, comsvcs/IComCRMEvents::OnCRMAnalyze, cos.icomcrmevents_oncrmanalyze
 ms.topic: method
 req.header: comsvcs.h

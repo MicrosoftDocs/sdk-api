@@ -7,7 +7,7 @@ old-location: wmi\iwbemeventproviderquerysink_cancelquery.htm
 tech.root: WmiSdk
 ms.assetid: fdb56ea9-bd1a-436e-aaa7-3ae11e10f38e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CancelQuery, CancelQuery method [Windows Management Instrumentation], CancelQuery method [Windows Management Instrumentation],IWbemEventProviderQuerySink interface, IWbemEventProviderQuerySink interface [Windows Management Instrumentation],CancelQuery method, IWbemEventProviderQuerySink.CancelQuery, IWbemEventProviderQuerySink::CancelQuery, _hmm_iwbemeventproviderquerysink_cancelquery, wbemprov/IWbemEventProviderQuerySink::CancelQuery, wmi.iwbemeventproviderquerysink_cancelquery
 ms.topic: method
 req.header: wbemprov.h

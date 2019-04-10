@@ -7,7 +7,7 @@ old-location: base\loadlibrary.htm
 tech.root: Dlls
 ms.assetid: d936b4dd-058c-48e1-834b-b47ef6d8ef65
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: LoadLibrary, LoadLibrary function, LoadLibraryA, LoadLibraryW, _win32_loadlibrary, base.loadlibrary, libloaderapi/LoadLibrary, libloaderapi/LoadLibraryA, libloaderapi/LoadLibraryW, winbase/LoadLibrary, winbase/LoadLibraryA, winbase/LoadLibraryW
 ms.topic: function
 req.header: libloaderapi.h

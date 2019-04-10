@@ -7,7 +7,7 @@ old-location: security\cryptxmldllcreatekey.htm
 tech.root: SecCrypto
 ms.assetid: a2c4b4b5-ccfc-4fb9-ad03-942906cf73d7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CryptXmlDllCreateKey, CryptXmlDllCreateKey callback, CryptXmlDllCreateKey callback function [Security], cryptxml/CryptXmlDllCreateKey, security.cryptxmldllcreatekey
 ms.topic: callback
 req.header: cryptxml.h

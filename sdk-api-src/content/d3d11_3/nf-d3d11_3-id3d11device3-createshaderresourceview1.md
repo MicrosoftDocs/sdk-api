@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device3_createshaderresourceview1.htm
 tech.root: direct3d11
 ms.assetid: 50E072F2-EC3E-4BED-A230-5447ECD1E7D6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateShaderResourceView1, CreateShaderResourceView1 method [Direct3D 11], CreateShaderResourceView1 method [Direct3D 11],ID3D11Device3 interface, ID3D11Device3 interface [Direct3D 11],CreateShaderResourceView1 method, ID3D11Device3.CreateShaderResourceView1, ID3D11Device3::CreateShaderResourceView1, d3d11_3/ID3D11Device3::CreateShaderResourceView1, direct3d11.id3d11device3_createshaderresourceview1
 ms.topic: method
 req.header: d3d11_3.h

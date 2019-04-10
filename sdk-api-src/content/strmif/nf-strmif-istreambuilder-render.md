@@ -7,7 +7,7 @@ old-location: dshow\istreambuilder_render.htm
 tech.root: DirectShow
 ms.assetid: 7bba9d1a-03a8-4572-a08c-2e12071df73b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IStreamBuilder interface [DirectShow],Render method, IStreamBuilder.Render, IStreamBuilder::Render, IStreamBuilderRender, Render, Render method [DirectShow], Render method [DirectShow],IStreamBuilder interface, dshow.istreambuilder_render, strmif/IStreamBuilder::Render
 ms.topic: method
 req.header: strmif.h

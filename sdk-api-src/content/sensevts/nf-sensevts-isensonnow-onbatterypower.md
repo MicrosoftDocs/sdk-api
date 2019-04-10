@@ -7,7 +7,7 @@ old-location: sens\isensonnow_onbatterypower.htm
 tech.root: Sens
 ms.assetid: e8b4ce25-0d1b-401a-b16e-8eef7f292edf
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ISensOnNow interface [SENS],OnBatteryPower method, ISensOnNow.OnBatteryPower, ISensOnNow::OnBatteryPower, OnBatteryPower, OnBatteryPower method [SENS], OnBatteryPower method [SENS],ISensOnNow interface, _zaw_isensonnow_onbatterypower, sens.isensonnow_onbatterypower, sensevts/ISensOnNow::OnBatteryPower, syncmgr.isensonnow_onbatterypower
 ms.topic: method
 req.header: sensevts.h

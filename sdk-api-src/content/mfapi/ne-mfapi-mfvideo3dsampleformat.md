@@ -7,7 +7,7 @@ old-location: mf\mfvideo3dsampleformat.htm
 tech.root: medfound
 ms.assetid: 4EC788EC-85C9-41B2-A105-3B6EA040F2B7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MFSampleExtension_3DVideo_MultiView, MFSampleExtension_3DVideo_Packed, MFVideo3DSampleFormat, MFVideo3DSampleFormat enumeration [Media Foundation], mf.mfvideo3dsampleformat, mfapi/MFSampleExtension_3DVideo_MultiView, mfapi/MFSampleExtension_3DVideo_Packed, mfapi/MFVideo3DSampleFormat
 ms.topic: enum
 req.header: mfapi.h

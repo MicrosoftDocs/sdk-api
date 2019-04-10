@@ -7,7 +7,7 @@ old-location: base\thermal_event.htm
 tech.root: power
 ms.assetid: 80B6A494-AED6-4EF0-8B69-4AA5DA6BCBB3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PTHERMAL_EVENT, PTHERMAL_EVENT, PTHERMAL_EVENT structure pointer, THERMAL_EVENT, THERMAL_EVENT structure, base.thermal_event, powrprof/PTHERMAL_EVENT, powrprof/THERMAL_EVENT"
 ms.topic: struct
 req.header: powrprof.h

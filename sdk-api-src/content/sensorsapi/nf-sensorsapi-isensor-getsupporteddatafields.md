@@ -7,7 +7,7 @@ old-location: winsensors_com_ref\isensor_getsupporteddatafields.htm
 tech.root: SensorsAPI
 ms.assetid: b808e472-8428-4176-a3a1-2ab6e454ef44
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetSupportedDataFields, GetSupportedDataFields method, GetSupportedDataFields method,ISensor interface, ISensor interface,GetSupportedDataFields method, ISensor.GetSupportedDataFields, ISensor::GetSupportedDataFields, sensorsapi/ISensor::GetSupportedDataFields, winsensors_com_ref.isensor_getsupporteddatafields
 ms.topic: method
 req.header: sensorsapi.h

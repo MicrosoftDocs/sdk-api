@@ -7,7 +7,7 @@ old-location: base\getimageunusedheaderbytes.htm
 tech.root: Debug
 ms.assetid: 4ad9c833-693b-4c19-b397-f97f166efadc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetImageUnusedHeaderBytes, GetImageUnusedHeaderBytes function, _win32_getimageunusedheaderbytes, base.getimageunusedheaderbytes, imagehlp/GetImageUnusedHeaderBytes
 ms.topic: function
 req.header: imagehlp.h

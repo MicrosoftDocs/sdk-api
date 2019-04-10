@@ -7,7 +7,7 @@ old-location: tspi\tspi_phoneclose.htm
 tech.root: Tapi
 ms.assetid: 1db4c460-8afa-4420-9c51-ba276693656e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TSPI_phoneClose, TSPI_phoneClose function [TAPI 2.2], _tspi_tspi_phoneclose, tspi.tspi_phoneclose, tspi/TSPI_phoneClose
 ms.topic: function
 req.header: tspi.h

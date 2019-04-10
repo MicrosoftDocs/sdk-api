@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents3.htm
 tech.root: WMP
 ms.assetid: 654b7d78-97d4-4770-9729-dd1fed0431d9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMPEvents3, IWMPEvents3 interface [Windows Media Player], IWMPEvents3 interface [Windows Media Player],described, IWMPEvents3Interface, wmp.iwmpevents3, wmp/IWMPEvents3
 ms.topic: interface
 req.header: wmp.h

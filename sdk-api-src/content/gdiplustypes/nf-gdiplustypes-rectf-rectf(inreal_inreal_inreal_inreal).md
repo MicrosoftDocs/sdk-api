@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_RectF_x_y_width_height_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfconstructors\rectf_87x_y_width_height.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RectF, RectF class [GDI+],RectF constructor, RectF constructor [GDI+], RectF constructor [GDI+],RectF class, RectF.RectF, RectF.RectF(IN REAL,IN REAL,IN REAL,IN REAL), RectF.RectF(REAL,REAL,REAL,REAL), RectF::RectF, RectF::RectF(IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_RectF_RectF_x_y_width_height_, gdiplus._gdiplus_CLASS_RectF_RectF_x_y_width_height_
 ms.topic: method
 req.header: gdiplustypes.h

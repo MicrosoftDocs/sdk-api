@@ -7,7 +7,7 @@ old-location: security\clientcallback.htm
 tech.root: SecAuthN
 ms.assetid: d818a7b5-15c8-4d25-a8de-050926f34a9d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ClientCallback, ClientCallback callback function [Security], LSA_CLIENT_CALLBACK, LSA_CLIENT_CALLBACK callback, _ssp_clientcallback, ntsecpkg/ClientCallback, security.clientcallback
 ms.topic: callback
 req.header: ntsecpkg.h

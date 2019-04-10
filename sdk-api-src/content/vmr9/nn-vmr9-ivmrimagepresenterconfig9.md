@@ -7,7 +7,7 @@ old-location: dshow\ivmrimagepresenterconfig9.htm
 tech.root: DirectShow
 ms.assetid: fc3c9b4d-0213-47d5-96e4-db582c80ca4e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVMRImagePresenterConfig9, IVMRImagePresenterConfig9 interface [DirectShow], IVMRImagePresenterConfig9 interface [DirectShow],described, IVMRImagePresenterConfig9Interface, dshow.ivmrimagepresenterconfig9, vmr9/IVMRImagePresenterConfig9
 ms.topic: interface
 req.header: vmr9.h

@@ -7,7 +7,7 @@ old-location: dfs\netdfsmove.htm
 tech.root: Dfs
 ms.assetid: d9d225ac-26b9-4074-93b6-6294538a3504
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DFS_MOVE_FLAG_REPLACE_IF_EXISTS, NetDfsMove, NetDfsMove function [Distributed File System], dfs.netdfsmove, fs.netdfsmove, lmdfs/NetDfsMove, netmgmt.netdfsmove
 ms.topic: function
 req.header: lmdfs.h

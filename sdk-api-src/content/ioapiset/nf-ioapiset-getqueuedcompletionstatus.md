@@ -7,7 +7,7 @@ old-location: fs\getqueuedcompletionstatus.htm
 tech.root: FileIO
 ms.assetid: 8121a38b-0fe1-43b8-aed6-4b85af1feba9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetQueuedCompletionStatus, GetQueuedCompletionStatus function [Files], _win32_getqueuedcompletionstatus, base.getqueuedcompletionstatus, fs.getqueuedcompletionstatus, ioapiset/GetQueuedCompletionStatus
 ms.topic: function
 req.header: ioapiset.h

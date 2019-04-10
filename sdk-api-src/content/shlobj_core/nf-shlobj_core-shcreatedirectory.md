@@ -7,7 +7,7 @@ old-location: shell\SHCreateDirectory.htm
 tech.root: shell
 ms.assetid: 4927429c-f457-4dda-aa0d-236eb236795c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SHCreateDirectory, SHCreateDirectory function [Windows Shell], _win32_SHCreateDirectory, shell.SHCreateDirectory, shlobj_core/SHCreateDirectory
 ms.topic: function
 req.header: shlobj_core.h

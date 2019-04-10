@@ -7,7 +7,7 @@ old-location: shell\IDeskBand.htm
 tech.root: shell
 ms.assetid: eb9f7f2a-a6be-4527-8a32-325dad4c8000
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDeskBand, IDeskBand interface [Windows Shell], IDeskBand interface [Windows Shell],described, _win32_IDeskBand, shell.IDeskBand, shobjidl_core/IDeskBand
 ms.topic: interface
 req.header: shobjidl_core.h

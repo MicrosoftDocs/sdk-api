@@ -7,7 +7,7 @@ old-location: netmgmt\netservercomputernamedel.htm
 tech.root: NetMgmt
 ms.assetid: 501232ad-2821-4bbd-9f16-0f49984f6101
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NetServerComputerNameDel, NetServerComputerNameDel function [Network Management], _win32_netservercomputernamedel, lmserver/NetServerComputerNameDel, netmgmt.netservercomputernamedel
 ms.topic: function
 req.header: lmserver.h

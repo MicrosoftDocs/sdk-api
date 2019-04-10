@@ -7,7 +7,7 @@ old-location: base\ivdsdiskonline.htm
 tech.root: VDS
 ms.assetid: f30ceaa0-ff4b-49fb-b140-b6725810cd06
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVdsDiskOnline, IVdsDiskOnline interface, IVdsDiskOnline interface,described, base.ivdsdiskonline, vds/IVdsDiskOnline
 ms.topic: interface
 req.header: vds.h

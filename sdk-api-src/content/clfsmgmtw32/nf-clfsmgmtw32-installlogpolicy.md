@@ -7,7 +7,7 @@ old-location: fs\installlogpolicy.htm
 tech.root: Clfs
 ms.assetid: c397e506-b7a9-4189-bf1b-6df81db8e187
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: InstallLogPolicy, InstallLogPolicy function [Files], clfsmgmtw32/InstallLogPolicy, fs.installlogpolicy
 ms.topic: function
 req.header: clfsmgmtw32.h

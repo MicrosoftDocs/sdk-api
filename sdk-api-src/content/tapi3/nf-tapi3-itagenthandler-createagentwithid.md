@@ -7,7 +7,7 @@ old-location: tapi3\itagenthandler_createagentwithid.htm
 tech.root: Tapi
 ms.assetid: 95c70e48-b990-47c7-a8b8-5fa3a84ec5ba
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateAgentWithID, CreateAgentWithID method [TAPI 2.2], CreateAgentWithID method [TAPI 2.2],ITAgentHandler interface, ITAgentHandler interface [TAPI 2.2],CreateAgentWithID method, ITAgentHandler.CreateAgentWithID, ITAgentHandler::CreateAgentWithID, _tapi3_itagenthandler_createagentwithid, tapi3.itagenthandler_createagentwithid, tapi3cc/ITAgentHandler::CreateAgentWithID
 ms.topic: method
 req.header: tapi3.h

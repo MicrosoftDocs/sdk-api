@@ -7,7 +7,7 @@ old-location: fwp\fwpm_provider_context_subscription0_struct.htm
 tech.root: fwp
 ms.assetid: 44c01600-7cb6-45f4-a2e1-746f200ee772
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0, FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0 structure [Filtering], FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_ADD, FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_DELETE, fwp.fwpm_provider_context_subscription0_struct, fwpmtypes/FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0
 ms.topic: struct
 req.header: fwpmtypes.h

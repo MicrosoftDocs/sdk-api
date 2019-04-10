@@ -7,7 +7,7 @@ old-location: intl\is_high_surrogate.htm
 tech.root: Intl
 ms.assetid: d491dfd9-e0f4-47cf-96ef-83dc22a1af81
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IS_HIGH_SURROGATE, IS_HIGH_SURROGATE macro [Internationalization for Windows Applications], _win32_IS_HIGH_SURROGATE, intl.is_high_surrogate, winnls/IS_HIGH_SURROGATE
 ms.topic: macro
 req.header: winnls.h

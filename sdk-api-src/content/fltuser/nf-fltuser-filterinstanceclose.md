@@ -7,7 +7,7 @@ old-location: ifsk\filterinstanceclose.htm
 tech.root: ifsk
 ms.assetid: a0605b02-a5eb-4e7f-9659-0f0f538ea153
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FilterInstanceClose, FilterInstanceClose function [Installable File System Drivers], FltWin32ApiRef_aed3c694-a4bb-4804-9171-4d89cabd666d.xml, fltuser/FilterInstanceClose, ifsk.filterinstanceclose
 ms.topic: function
 req.header: fltuser.h

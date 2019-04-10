@@ -7,7 +7,7 @@ old-location: policy\rsopaccesscheckbytype.htm
 tech.root: Policy
 ms.assetid: d63734a0-1a88-4669-828e-de467606fc14
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RSoPAccessCheckByType, RSoPAccessCheckByType function [Group Policy], RsopAccessCheckByType, _win32_rsopaccesscheckbytype, policy.rsopaccesscheckbytype, userenv/RSoPAccessCheckByType
 ms.topic: function
 req.header: userenv.h

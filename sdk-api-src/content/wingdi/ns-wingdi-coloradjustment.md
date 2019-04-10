@@ -7,7 +7,7 @@ old-location: gdi\coloradjustment.htm
 tech.root: gdi
 ms.assetid: 9a080f60-0bce-46b6-b8a8-f534ff83a0a8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPCOLORADJUSTMENT, *PCOLORADJUSTMENT, COLORADJUSTMENT, COLORADJUSTMENT structure [Windows GDI], PCOLORADJUSTMENT, PCOLORADJUSTMENT structure pointer [Windows GDI], _win32_COLORADJUSTMENT_str, gdi.coloradjustment, wingdi/COLORADJUSTMENT, wingdi/PCOLORADJUSTMENT"
 ms.topic: struct
 req.header: wingdi.h

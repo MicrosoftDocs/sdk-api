@@ -7,7 +7,7 @@ old-location: display\drvescape.htm
 tech.root: display
 ms.assetid: 7b59dc85-27f4-4529-847e-6027dae8a45a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DrvEscape, DrvEscape function [Display Devices], ddifncs_14e6aa7f-fe76-48bb-9161-bdcc1a67309f.xml, display.drvescape, winddi/DrvEscape
 ms.topic: function
 req.header: winddi.h

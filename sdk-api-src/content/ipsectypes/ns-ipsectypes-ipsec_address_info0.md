@@ -7,7 +7,7 @@ old-location: fwp\ipsec_address_info0.htm
 tech.root: fwp
 ms.assetid: ad6a271f-6513-44ac-aa9a-14811b32a06b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IPSEC_ADDRESS_INFO0, IPSEC_ADDRESS_INFO0 structure [Filtering], fwp.ipsec_address_info0, ipsectypes/IPSEC_ADDRESS_INFO0
 ms.topic: struct
 req.header: ipsectypes.h

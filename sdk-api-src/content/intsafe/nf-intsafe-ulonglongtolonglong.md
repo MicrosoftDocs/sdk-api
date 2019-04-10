@@ -7,7 +7,7 @@ old-location: shell\ULongLongToIntPtr.htm
 tech.root: shell
 ms.assetid: 48836bf6-b498-4e3c-b6eb-e62f13f27521
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ULongLongToIntPtr, ULongLongToIntPtr function [Windows Shell], ULongLongToLongLong, ULongLongToPtrdiffT, _shell_ULongLongToIntPtr, intsafe/ULongLongToIntPtr, shell.ULongLongToIntPtr
 ms.topic: function
 req.header: intsafe.h

@@ -7,7 +7,7 @@ old-location: fwp\ikeextsaenum0.htm
 tech.root: fwp
 ms.assetid: a38e266d-2155-4dd4-b12e-5f1a40ca776e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IkeextSaEnum0, IkeextSaEnum0 function [Filtering], fwp.ikeextsaenum0, fwpmu/IkeextSaEnum0
 ms.topic: function
 req.header: fwpmu.h

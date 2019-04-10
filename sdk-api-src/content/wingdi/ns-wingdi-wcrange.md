@@ -7,7 +7,7 @@ old-location: gdi\wcrange.htm
 tech.root: gdi
 ms.assetid: 20959057-6062-4c1e-a23d-535584ba6ea3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPWCRANGE, *PWCRANGE, PWCRANGE, PWCRANGE structure pointer [Windows GDI], WCRANGE, WCRANGE structure [Windows GDI], _win32_WCRANGE_str, gdi.wcrange, wingdi/PWCRANGE, wingdi/WCRANGE"
 ms.topic: struct
 req.header: wingdi.h

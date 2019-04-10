@@ -7,7 +7,7 @@ old-location: dshow\ivideoencoder.htm
 tech.root: DirectShow
 ms.assetid: 9264f7a2-b2d4-4449-913b-f1e5ecb40cac
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVideoEncoder, IVideoEncoder interface [DirectShow], IVideoEncoder interface [DirectShow],described, dshow.ivideoencoder, strmif/IVideoEncoder
 ms.topic: interface
 req.header: strmif.h

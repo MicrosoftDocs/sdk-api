@@ -7,7 +7,7 @@ old-location: taskschd\iidletrigger.htm
 tech.root: taskschd
 ms.assetid: aca5305f-68fc-4211-9f71-3f572340e94d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IIdleTrigger, IIdleTrigger interface [Task Scheduler], IIdleTrigger interface [Task Scheduler],described, idle trigger [Task Scheduler],interface, taskschd.iidletrigger, taskschd/IIdleTrigger
 ms.topic: interface
 req.header: taskschd.h

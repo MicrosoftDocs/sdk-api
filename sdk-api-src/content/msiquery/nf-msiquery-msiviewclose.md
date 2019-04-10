@@ -7,7 +7,7 @@ old-location: setup\msiviewclose.htm
 tech.root: Msi
 ms.assetid: bd38be52-d76c-4f1b-bc29-12f93aac2aa9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MsiViewClose, MsiViewClose function, _msi_msiviewclose, msiquery/MsiViewClose, setup.msiviewclose
 ms.topic: function
 req.header: msiquery.h

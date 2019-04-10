@@ -7,7 +7,7 @@ old-location: com\cosuspendclassobjects.htm
 tech.root: com
 ms.assetid: a9e526f8-b7c1-47ec-a6ab-91690d93119e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CoSuspendClassObjects, CoSuspendClassObjects function [COM], _com_CoSuspendClassObjects, com.cosuspendclassobjects, combaseapi/CoSuspendClassObjects
 ms.topic: function
 req.header: combaseapi.h

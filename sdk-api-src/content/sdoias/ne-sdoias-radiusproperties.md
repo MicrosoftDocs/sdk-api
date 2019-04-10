@@ -7,7 +7,7 @@ old-location: nps\SDO_radiusproperties.htm
 tech.root: Nps
 ms.assetid: adf73b6d-963d-4a06-b958-8301e4fdf292
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PROPERTY_RADIUS_ACCOUNTING_PORT, PROPERTY_RADIUS_AUTHENTICATION_PORT, PROPERTY_RADIUS_CLIENTS_COLLECTION, PROPERTY_RADIUS_VENDORS_COLLECTION, RADIUSPROPERTIES, RADIUSPROPERTIES enumeration [Network Policy Server], _sdo_radiusproperties, nps.SDO_radiusproperties, sdo.radiusproperties, sdoias/PROPERTY_RADIUS_ACCOUNTING_PORT, sdoias/PROPERTY_RADIUS_AUTHENTICATION_PORT, sdoias/PROPERTY_RADIUS_CLIENTS_COLLECTION, sdoias/PROPERTY_RADIUS_VENDORS_COLLECTION, sdoias/RADIUSPROPERTIES
 ms.topic: enum
 req.header: sdoias.h

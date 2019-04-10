@@ -7,7 +7,7 @@ old-location: automat\varcat.htm
 tech.root: automat
 ms.assetid: 2e94516e-de36-407a-a1fe-6a6e66641c17
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VarCat, VarCat function [Automation], _oa96_VarCat, automat.varcat, oleauto/VarCat
 ms.topic: function
 req.header: oleauto.h

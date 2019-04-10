@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_huerotation_prop.htm
 tech.root: Direct2D
 ms.assetid: 4283B5E4-9B90-41E0-91A5-1122B2F91C25
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: D2D1_HUEROTATION_PROP, D2D1_HUEROTATION_PROP enumeration [Direct2D], D2D1_HUEROTATION_PROP_ANGLE, d2d1effects/D2D1_HUEROTATION_PROP, d2d1effects/D2D1_HUEROTATION_PROP_ANGLE, direct2d.d2d1_huerotation_prop
 ms.topic: enum
 req.header: d2d1effects.h

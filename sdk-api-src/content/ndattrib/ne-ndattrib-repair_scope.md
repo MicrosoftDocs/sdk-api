@@ -7,7 +7,7 @@ old-location: ndf\repair_scope.htm
 tech.root: NDF
 ms.assetid: f9be87ae-82a1-4613-abeb-15ccba1bf360
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PREPAIR_SCOPE, REPAIR_SCOPE, REPAIR_SCOPE enumeration [NDF], RS_APPLICATION, RS_PROCESS, RS_SYSTEM, RS_USER, ndattrib/REPAIR_SCOPE, ndattrib/RS_APPLICATION, ndattrib/RS_PROCESS, ndattrib/RS_SYSTEM, ndattrib/RS_USER, ndf.repair_scope"
 ms.topic: enum
 req.header: ndattrib.h

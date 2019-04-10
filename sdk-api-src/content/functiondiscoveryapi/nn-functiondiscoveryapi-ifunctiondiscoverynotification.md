@@ -7,7 +7,7 @@ old-location: ncd\ifunctiondiscoverynotification.htm
 tech.root: FunDisc
 ms.assetid: 1819fe08-b151-482d-8e2c-1d599fd15609
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryNotification, IFunctionDiscoveryNotification interface, IFunctionDiscoveryNotification interface,described, functiondiscoveryapi/IFunctionDiscoveryNotification, ncd.ifunctiondiscoverynotification
 ms.topic: interface
 req.header: functiondiscoveryapi.h

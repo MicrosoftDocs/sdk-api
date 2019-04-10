@@ -7,7 +7,7 @@ old-location: base\powerdetermineplatformrole.htm
 tech.root: power
 ms.assetid: a0311454-3908-49a6-95c0-c118dca259ac
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PowerDeterminePlatformRole, PowerDeterminePlatformRole function, base.powerdetermineplatformrole, powrprof/PowerDeterminePlatformRole
 ms.topic: function
 req.header: powrprof.h

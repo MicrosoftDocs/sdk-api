@@ -7,7 +7,7 @@ old-location: wmformat\iwmstreamconfig_setstreamname.htm
 tech.root: wmformat
 ms.assetid: 90ab1591-eee7-4504-8d7f-475d90fa3b40
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMStreamConfig interface [windows Media Format],SetStreamName method, IWMStreamConfig.SetStreamName, IWMStreamConfig::SetStreamName, IWMStreamConfigSetStreamName, SetStreamName, SetStreamName method [windows Media Format], SetStreamName method [windows Media Format],IWMStreamConfig interface, wmformat.iwmstreamconfig_setstreamname, wmsdkidl/IWMStreamConfig::SetStreamName
 ms.topic: method
 req.header: wmsdkidl.h

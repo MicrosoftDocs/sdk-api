@@ -7,7 +7,7 @@ old-location: ifsk\filtervolumefindclose.htm
 tech.root: ifsk
 ms.assetid: 18b707a0-2d34-46a9-a77c-b356aba44d72
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FilterVolumeFindClose, FilterVolumeFindClose function [Installable File System Drivers], FltWin32ApiRef_bdc13aec-06f6-4e73-abcb-ca452040e600.xml, fltuser/FilterVolumeFindClose, ifsk.filtervolumefindclose
 ms.topic: function
 req.header: fltuser.h

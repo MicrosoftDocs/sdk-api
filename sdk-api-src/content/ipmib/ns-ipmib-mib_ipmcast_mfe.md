@@ -7,7 +7,7 @@ old-location: mib\mib_ipmcast_mfe.htm
 tech.root: MIB
 ms.assetid: 731e2c88-5c4f-4165-a9f2-287b4c10c76b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PMIB_IPMCAST_MFE, MIB_IPMCAST_MFE, MIB_IPMCAST_MFE structure [MIB], PMIB_IPMCAST_MFE, PMIB_IPMCAST_MFE structure pointer [MIB], _mpr_mib_ipmcast_mfe, ipmib/MIB_IPMCAST_MFE, ipmib/PMIB_IPMCAST_MFE, iprtrmib/MIB_IPMCAST_MFE, iprtrmib/PMIB_IPMCAST_MFE, mib.mib_ipmcast_mfe, rras.mib_ipmcast_mfe"
 ms.topic: struct
 req.header: ipmib.h

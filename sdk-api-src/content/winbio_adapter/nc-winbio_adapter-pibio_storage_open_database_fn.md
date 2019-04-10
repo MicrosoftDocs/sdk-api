@@ -7,7 +7,7 @@ old-location: secbiomet\storageadapteropendatabase.htm
 tech.root: SecBioMet
 ms.assetid: 4f3dfa67-5020-461a-b3d1-33c948129bdf
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PIBIO_STORAGE_OPEN_DATABASE_FN, PIBIO_STORAGE_OPEN_DATABASE_FN callback, StorageAdapterOpenDatabase, StorageAdapterOpenDatabase callback function [Windows Biometric Framework API], secbiomet.storageadapteropendatabase, winbio_adapter/StorageAdapterOpenDatabase
 ms.topic: callback
 req.header: winbio_adapter.h

@@ -7,7 +7,7 @@ old-location: mib\mib_udp6row_owner_module.htm
 tech.root: MIB
 ms.assetid: dcc80b3c-d4d5-44f4-9c7f-df6be2e21889
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PMIB_UDP6ROW_OWNER_MODULE, MIB_UDP6ROW_OWNER_MODULE, MIB_UDP6ROW_OWNER_MODULE structure [MIB], PMIB_UDP6ROW_OWNER_MODULE, PMIB_UDP6ROW_OWNER_MODULE structure pointer [MIB], iprtrmib/MIB_UDP6ROW_OWNER_MODULE, iprtrmib/PMIB_UDP6ROW_OWNER_MODULE, mib.mib_udp6row_owner_module, udpmib/MIB_UDP6ROW_OWNER_MODULE, udpmib/PMIB_UDP6ROW_OWNER_MODULE"
 ms.topic: struct
 req.header: udpmib.h

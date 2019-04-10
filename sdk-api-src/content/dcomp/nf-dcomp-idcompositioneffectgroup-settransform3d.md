@@ -7,7 +7,7 @@ old-location: directcomp\idcompositioneffectgroup_settransform3d.htm
 tech.root: directcomp
 ms.assetid: 40935581-D45C-496B-90B9-152963F0B55A
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDCompositionEffectGroup interface [DirectComposition],SetTransform3D method, IDCompositionEffectGroup.SetTransform3D, IDCompositionEffectGroup::SetTransform3D, SetTransform3D, SetTransform3D method [DirectComposition], SetTransform3D method [DirectComposition],IDCompositionEffectGroup interface, dcomp/IDCompositionEffectGroup::SetTransform3D, directcomp.idcompositioneffectgroup_settransform3d
 ms.topic: method
 req.header: dcomp.h

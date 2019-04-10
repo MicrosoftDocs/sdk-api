@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlewriter3.htm
 tech.root: appxpkg
 ms.assetid: 2596E2DA-D9B6-4BBE-AC05-5CE253CE6DDC
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IAppxBundleWriter3, IAppxBundleWriter3 interface [App packaging and management], IAppxBundleWriter3 interface [App packaging and management],described, appxpackaging/IAppxBundleWriter3, appxpkg.iappxbundlewriter3
 ms.topic: interface
 req.header: appxpackaging.h

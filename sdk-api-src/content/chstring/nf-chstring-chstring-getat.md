@@ -7,7 +7,7 @@ old-location: wmi\chstring_getat.htm
 tech.root: WmiSdk
 ms.assetid: ed038b41-211c-4483-99cd-0bc43b241761
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],GetAt method, CHString.GetAt, CHString::GetAt, GetAt, GetAt method [Windows Management Instrumentation], GetAt method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getat, chstring/CHString::GetAt, wmi.chstring_getat
 ms.topic: method
 req.header: chstring.h

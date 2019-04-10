@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicprogresscallback_notify.htm
 tech.root: wic
 ms.assetid: afbbfa87-716c-4957-9f90-d48d02d642e0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWICProgressCallback interface [Windows Imaging Component],Notify method, IWICProgressCallback.Notify, IWICProgressCallback::Notify, Notify, Notify method [Windows Imaging Component], Notify method [Windows Imaging Component],IWICProgressCallback interface, _wic_codec_iwicprogresscallback_notify, wic._wic_codec_iwicprogresscallback_notify, wincodec/IWICProgressCallback::Notify
 ms.topic: method
 req.header: wincodec.h

@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv6renewprefix.htm
 tech.root: DHCP
 ms.assetid: e4eec40c-0e95-47f7-b102-daa63e5a8da0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Dhcpv6RenewPrefix, Dhcpv6RenewPrefix function [DHCP], dhcp.dhcpv6renewprefix, dhcpv6csdk/Dhcpv6RenewPrefix
 ms.topic: function
 req.header: dhcpv6csdk.h

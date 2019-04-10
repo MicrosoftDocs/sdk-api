@@ -7,7 +7,7 @@ old-location: dshow\dvd_error.htm
 tech.root: DirectShow
 ms.assetid: 7059c77f-2b64-40bb-8962-d9bd90da5e90
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DVD_ERROR, DVD_ERROR , DVD_ERROR enumeration [DirectShow], DVD_ERROREnumeration, DVD_ERROR_CopyProtectFail, DVD_ERROR_CopyProtectOutputFail, DVD_ERROR_CopyProtectOutputNotSupported, DVD_ERROR_IncompatibleDiscAndDecoderRegions, DVD_ERROR_IncompatibleSystemAndDecoderRegions, DVD_ERROR_InvalidDVD1_0Disc, DVD_ERROR_InvalidDiscRegion, DVD_ERROR_LowParentalLevel, DVD_ERROR_MacrovisionFail, DVD_ERROR_Unexpected, dshow.dvd_error, dvdevcod/DVD_ERROR, dvdevcod/DVD_ERROR_CopyProtectFail, dvdevcod/DVD_ERROR_CopyProtectOutputFail, dvdevcod/DVD_ERROR_CopyProtectOutputNotSupported, dvdevcod/DVD_ERROR_IncompatibleDiscAndDecoderRegions, dvdevcod/DVD_ERROR_IncompatibleSystemAndDecoderRegions, dvdevcod/DVD_ERROR_InvalidDVD1_0Disc, dvdevcod/DVD_ERROR_InvalidDiscRegion, dvdevcod/DVD_ERROR_LowParentalLevel, dvdevcod/DVD_ERROR_MacrovisionFail, dvdevcod/DVD_ERROR_Unexpected
 ms.topic: enum
 req.header: dvdevcod.h

@@ -7,7 +7,7 @@ old-location: ncd\iproviderpropertyconstraintcollection_item.htm
 tech.root: FunDisc
 ms.assetid: 3e5643f6-02a5-48b0-a105-5b82c439b5cc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IProviderPropertyConstraintCollection interface,Item method, IProviderPropertyConstraintCollection.Item, IProviderPropertyConstraintCollection::Item, Item, Item method, Item method,IProviderPropertyConstraintCollection interface, functiondiscoveryprovider/IProviderPropertyConstraintCollection::Item, ncd.iproviderpropertyconstraintcollection_item
 ms.topic: method
 req.header: functiondiscoveryprovider.h

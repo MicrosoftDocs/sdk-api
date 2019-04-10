@@ -7,7 +7,7 @@ old-location: mstv\imsvidinputdevices_remove.htm
 tech.root: mstv
 ms.assetid: c8990564-70d3-4962-9ff2-24664dbc1161
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMSVidInputDevices interface [Microsoft TV Technologies],Remove method, IMSVidInputDevices.Remove, IMSVidInputDevices::Remove, IMSVidInputDevicesRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IMSVidInputDevices interface, mstv.imsvidinputdevices_remove, segment/IMSVidInputDevices::Remove
 ms.topic: method
 req.header: segment.h

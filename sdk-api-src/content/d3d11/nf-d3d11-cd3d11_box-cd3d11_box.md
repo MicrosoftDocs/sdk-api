@@ -7,7 +7,7 @@ old-location: direct3d11\cd3d11_box_cd3d11_box.htm
 tech.root: direct3d11
 ms.assetid: 3830A242-CC73-42DF-9324-07AADCC82785
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CD3D11_BOX, CD3D11_BOX constructor [Direct3D 11], CD3D11_BOX constructor [Direct3D 11],CD3D11_BOX interface, CD3D11_BOX interface [Direct3D 11],CD3D11_BOX constructor, CD3D11_BOX.CD3D11_BOX, CD3D11_BOX::CD3D11_BOX, CD3D11_BOX::CD3D11_BOX(), d3d11/CD3D11_BOX::CD3D11_BOX, direct3d11.cd3d11_box_cd3d11_box
 ms.topic: method
 req.header: d3d11.h

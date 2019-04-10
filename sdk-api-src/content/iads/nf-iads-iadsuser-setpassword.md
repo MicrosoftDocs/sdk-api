@@ -7,7 +7,7 @@ old-location: adsi\iadsuser_setpassword.htm
 tech.root: adsi
 ms.assetid: cad38632-9f0a-4707-9086-b1248d6f31a6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IADsUser interface [ADSI],SetPassword method, IADsUser.SetPassword, IADsUser::SetPassword, SetPassword, SetPassword method [ADSI], SetPassword method [ADSI],IADsUser interface, _ds_iadsuser_setpassword, adsi.iadsuser__setpassword, adsi.iadsuser_setpassword, iads/IADsUser::SetPassword
 ms.topic: method
 req.header: iads.h

@@ -7,7 +7,7 @@ old-location: security\auditlogon.htm
 tech.root: SecAuthN
 ms.assetid: 1b0316ae-0c09-4a7e-8443-e59b4db9e825
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AuditLogon, AuditLogon callback function [Security], LSA_AUDIT_LOGON, LSA_AUDIT_LOGON callback, _ssp_auditlogon, ntsecpkg/AuditLogon, security.auditlogon
 ms.topic: callback
 req.header: ntsecpkg.h

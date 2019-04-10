@@ -7,7 +7,7 @@ old-location: direct3d11\cd3d11_render_target_view_desc.htm
 tech.root: direct3d11
 ms.assetid: 28D033EF-3EAC-41F0-A633-D69E4B10343D
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CD3D11_RENDER_TARGET_VIEW_DESC, CD3D11_RENDER_TARGET_VIEW_DESC structure [Direct3D 11], d3d11/CD3D11_RENDER_TARGET_VIEW_DESC, direct3d11.cd3d11_render_target_view_desc
 ms.topic: struct
 req.header: d3d11.h

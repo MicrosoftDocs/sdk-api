@@ -7,7 +7,7 @@ old-location: direct3d11\d3dx11createfft3dreal.htm
 tech.root: direct3d11
 ms.assetid: c9194109-3755-4e63-969d-c01a96198d2b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 965f86f8-f5c0-6a29-55ee-93b995644cf2, D3DX11CreateFFT3DReal, D3DX11CreateFFT3DReal function [Direct3D 11], d3dcsx/D3DX11CreateFFT3DReal, direct3d11.d3dx11createfft3dreal
 ms.topic: function
 req.header: d3dcsx.h

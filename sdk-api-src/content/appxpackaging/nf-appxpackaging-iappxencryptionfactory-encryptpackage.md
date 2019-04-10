@@ -7,7 +7,7 @@ old-location: appxpkg\iappxencryptionfactory_encryptpackage.htm
 tech.root: appxpkg
 ms.assetid: 2C77A9F9-340C-4846-8EDA-26FAB7E53D60
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EncryptPackage, EncryptPackage method [App packaging and management], EncryptPackage method [App packaging and management],IAppxEncryptionFactory interface, IAppxEncryptionFactory interface [App packaging and management],EncryptPackage method, IAppxEncryptionFactory.EncryptPackage, IAppxEncryptionFactory::EncryptPackage, appxpackaging/IAppxEncryptionFactory::EncryptPackage, appxpkg.iappxencryptionfactory_encryptpackage
 ms.topic: method
 req.header: appxpackaging.h

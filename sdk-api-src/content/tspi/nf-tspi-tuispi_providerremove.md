@@ -7,7 +7,7 @@ old-location: tspi\tuispi_providerremove.htm
 tech.root: Tapi
 ms.assetid: 217d1f40-7f3f-49a0-b29e-e2da85ba47f1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TUISPI_providerRemove, TUISPI_providerRemove function [TAPI 2.2], _tspi_tuispi_providerremove, tspi.tuispi_providerremove, tspi/TUISPI_providerRemove
 ms.topic: function
 req.header: tspi.h

@@ -7,7 +7,7 @@ old-location: directdraw\directdrawenumerate.htm
 tech.root: directdraw
 ms.assetid: 1f994adb-79ff-4cc1-8769-0faeed893503
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DirectDrawEnumerate, DirectDrawEnumerate function [DirectDraw], DirectDrawEnumerateW, ddraw/DirectDrawEnumerate, ddraw/DirectDrawEnumerateW, directdraw.directdrawenumerate
 ms.topic: function
 req.header: ddraw.h

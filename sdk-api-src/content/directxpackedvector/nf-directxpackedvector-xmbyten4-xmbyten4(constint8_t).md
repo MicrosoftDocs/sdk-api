@@ -7,7 +7,7 @@ old-location: dxmath\xmbyten4_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMBYTEN4.#ctor
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: XMBYTEN4, XMBYTEN4 constructor [DirectX Math Support APIs], XMBYTEN4 constructor [DirectX Math Support APIs],XMBYTEN4 structure, XMBYTEN4 structure [DirectX Math Support APIs],XMBYTEN4 constructor, XMBYTEN4.XMBYTEN4, XMBYTEN4.XMBYTEN4(), XMBYTEN4.XMBYTEN4(const int8_t), XMBYTEN4::XMBYTEN4, XMBYTEN4::XMBYTEN4(const int8_t), dxmath.xmbyten4_ctor_1
 ms.topic: method
 req.header: directxpackedvector.h

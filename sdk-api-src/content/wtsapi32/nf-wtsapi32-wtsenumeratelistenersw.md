@@ -7,7 +7,7 @@ old-location: termserv\wtsenumeratelisteners.htm
 tech.root: TermServ
 ms.assetid: dcdf4b4e-de01-4c23-97f6-0d45ba8608f5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WTSEnumerateListeners, WTSEnumerateListeners function [Remote Desktop Services], WTSEnumerateListenersA, WTSEnumerateListenersW, termserv.wtsenumeratelisteners, wtsapi32/WTSEnumerateListeners, wtsapi32/WTSEnumerateListenersA, wtsapi32/WTSEnumerateListenersW
 ms.topic: function
 req.header: wtsapi32.h

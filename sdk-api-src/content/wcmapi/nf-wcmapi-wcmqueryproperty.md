@@ -7,7 +7,7 @@ old-location: wcm\wcmqueryproperty.htm
 tech.root: wcm
 ms.assetid: 07c0993e-2892-4908-be3f-d24210ccc300
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WcmQueryProperty, WcmQueryProperty function [Windows Connection Manager], wcm.wcmqueryproperty, wcmapi/WcmQueryProperty
 ms.topic: function
 req.header: wcmapi.h

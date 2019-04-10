@@ -7,7 +7,7 @@ old-location: com\ioleinplacesitewindowless_setcapture.htm
 tech.root: com
 ms.assetid: 48de7ab3-eb1e-49e1-8d31-ca1ef1f9055d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSiteWindowless interface [COM],SetCapture method, IOleInPlaceSiteWindowless.SetCapture, IOleInPlaceSiteWindowless::SetCapture, SetCapture, SetCapture method [COM], SetCapture method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_setcapture, com.ioleinplacesitewindowless_setcapture, ocidl/IOleInPlaceSiteWindowless::SetCapture
 ms.topic: method
 req.header: ocidl.h

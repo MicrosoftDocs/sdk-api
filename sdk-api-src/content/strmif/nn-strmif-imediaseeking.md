@@ -7,7 +7,7 @@ old-location: dshow\imediaseeking.htm
 tech.root: DirectShow
 ms.assetid: 32adad53-d1ac-495f-9347-7bdd4ae4b78d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMediaSeeking, IMediaSeeking interface [DirectShow], IMediaSeeking interface [DirectShow],described, IMediaSeekingInterface, dshow.imediaseeking, strmif/IMediaSeeking
 ms.topic: interface
 req.header: strmif.h

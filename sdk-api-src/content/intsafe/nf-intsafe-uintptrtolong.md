@@ -7,7 +7,7 @@ old-location: shell\SizeTToLong.htm
 tech.root: shell
 ms.assetid: 1904fefa-eb31-4fda-ad0b-8ad6d2b62210
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SizeTToLong, SizeTToLong function [Windows Shell], UIntPtrToLong, _shell_SizeTToLong, intsafe/SizeTToLong, shell.SizeTToLong
 ms.topic: function
 req.header: intsafe.h

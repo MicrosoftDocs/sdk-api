@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_decoder_sub_sample_mapping_block.htm
 tech.root: medfound
 ms.assetid: 82EC2598-60FB-4800-A001-0CCC2D0D529E
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK, D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK structure [Media Foundation], d3d11_1/D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK, mf.d3d11_video_decoder_sub_sample_mapping_block
 ms.topic: struct
 req.header: d3d11_1.h

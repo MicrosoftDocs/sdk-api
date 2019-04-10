@@ -7,7 +7,7 @@ old-location: taskschd\irunningtaskcollection_count.htm
 tech.root: taskschd
 ms.assetid: 0365b804-6450-494d-8a5b-8fc805766611
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler],IRunningTaskCollection interface, IRunningTaskCollection interface [Task Scheduler],Count property, IRunningTaskCollection.Count, IRunningTaskCollection.get_Count, IRunningTaskCollection::Count, IRunningTaskCollection::get_Count, get_Count, taskschd.irunningtaskcollection_count, taskschd/IRunningTaskCollection::Count, taskschd/IRunningTaskCollection::get_Count
 ms.topic: method
 req.header: taskschd.h

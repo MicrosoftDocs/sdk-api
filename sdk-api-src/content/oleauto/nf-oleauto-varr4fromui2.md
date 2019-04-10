@@ -7,7 +7,7 @@ old-location: automat\varr4fromui2.htm
 tech.root: automat
 ms.assetid: 8703ba8a-be55-493a-80f3-7f935462842b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VarR4FromUI2, VarR4FromUI2 function [Automation], _oa96_VarR4FromUI2, automat.varr4fromui2, oleauto/VarR4FromUI2
 ms.topic: function
 req.header: oleauto.h

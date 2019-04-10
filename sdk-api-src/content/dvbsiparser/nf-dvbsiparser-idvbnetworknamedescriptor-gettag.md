@@ -7,7 +7,7 @@ old-location: mstv\idvbnetworknamedescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 9bc0ffea-ef18-488e-adeb-a5fd19b343a6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbNetworkNameDescriptor interface, IDvbNetworkNameDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbNetworkNameDescriptor.GetTag, IDvbNetworkNameDescriptor::GetTag, dvbsiparser/IDvbNetworkNameDescriptor::GetTag, mstv.idvbnetworknamedescriptor_gettag
 ms.topic: method
 req.header: dvbsiparser.h

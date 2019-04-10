@@ -7,7 +7,7 @@ old-location: base\symaddsourcestream.htm
 tech.root: Debug
 ms.assetid: 1f85a5d3-70dc-430f-9a54-7cc08484ca93
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SymAddSourceStream, SymAddSourceStream function, SymAddSourceStreamW, base.symaddsourcestream, dbghelp/SymAddSourceStream, dbghelp/SymAddSourceStreamW
 ms.topic: function
 req.header: dbghelp.h

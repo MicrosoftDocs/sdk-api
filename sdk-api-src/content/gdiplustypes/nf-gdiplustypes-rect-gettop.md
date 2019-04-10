@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Rect_GetTop_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\gettop.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetTop, GetTop method [GDI+], GetTop method [GDI+],Rect class, Rect class [GDI+],GetTop method, Rect.GetTop, Rect::GetTop, _gdiplus_CLASS_Rect_GetTop_, gdiplus._gdiplus_CLASS_Rect_GetTop_
 ms.topic: method
 req.header: gdiplustypes.h

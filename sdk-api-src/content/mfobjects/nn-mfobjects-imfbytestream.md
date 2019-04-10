@@ -7,7 +7,7 @@ old-location: mf\imfbytestream.htm
 tech.root: medfound
 ms.assetid: 690035b7-2855-4714-938f-f8250ec70d24
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 690035b7-2855-4714-938f-f8250ec70d24, IMFByteStream, IMFByteStream interface [Media Foundation], IMFByteStream interface [Media Foundation],described, mf.imfbytestream, mfobjects/IMFByteStream
 ms.topic: interface
 req.header: mfobjects.h

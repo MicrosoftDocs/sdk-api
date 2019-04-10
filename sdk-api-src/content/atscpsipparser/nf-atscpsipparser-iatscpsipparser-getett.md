@@ -7,7 +7,7 @@ old-location: mstv\iatscpsipparser_getett.htm
 tech.root: mstv
 ms.assetid: 6838620a-3dee-468e-bfc8-00757c06263e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetETT, GetETT method [Microsoft TV Technologies], GetETT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetETT method, IAtscPsipParser.GetETT, IAtscPsipParser::GetETT, IAtscPsipParserGetETT, atscpsipparser/IAtscPsipParser::GetETT, mstv.iatscpsipparser_getett
 ms.topic: method
 req.header: atscpsipparser.h

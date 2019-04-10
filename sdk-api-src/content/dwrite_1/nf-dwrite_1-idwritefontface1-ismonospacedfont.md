@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontface1_ismonospacedfont.htm
 tech.root: DirectWrite
 ms.assetid: 5A83F330-FADA-4307-BCCE-DDCCF5D1D429
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDWriteFontFace1 interface [Direct Write],IsMonospacedFont method, IDWriteFontFace1.IsMonospacedFont, IDWriteFontFace1::IsMonospacedFont, IsMonospacedFont, IsMonospacedFont method [Direct Write], IsMonospacedFont method [Direct Write],IDWriteFontFace1 interface, directwrite.idwritefontface1_ismonospacedfont, dwrite_1/IDWriteFontFace1::IsMonospacedFont
 ms.topic: method
 req.header: dwrite_1.h

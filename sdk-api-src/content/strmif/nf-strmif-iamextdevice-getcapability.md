@@ -7,7 +7,7 @@ old-location: dshow\iamextdevice_getcapability.htm
 tech.root: DirectShow
 ms.assetid: 4efed2b8-a62c-4a82-bc2d-c6d3a202263c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetCapability, GetCapability method [DirectShow], GetCapability method [DirectShow],IAMExtDevice interface, IAMExtDevice interface [DirectShow],GetCapability method, IAMExtDevice.GetCapability, IAMExtDevice::GetCapability, IAMExtDeviceGetCapability, dshow.iamextdevice_getcapability, strmif/IAMExtDevice::GetCapability
 ms.topic: method
 req.header: strmif.h

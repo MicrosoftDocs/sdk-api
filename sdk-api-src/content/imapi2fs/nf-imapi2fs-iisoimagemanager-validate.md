@@ -7,7 +7,7 @@ old-location: imapi\iisoimagemanager_validate.htm
 tech.root: imapi
 ms.assetid: 0fd9f0fc-8a77-4b94-9111-c8ce223329b6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IIsoImageManager interface [IMAPI],Validate method, IIsoImageManager.Validate, IIsoImageManager::Validate, Validate, Validate method [IMAPI], Validate method [IMAPI],IIsoImageManager interface, imapi.iisoimagemanager_validate, imapi2fs/IIsoImageManager::Validate
 ms.topic: method
 req.header: imapi2fs.h

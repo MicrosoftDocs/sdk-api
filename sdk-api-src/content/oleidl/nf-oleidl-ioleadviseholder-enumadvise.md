@@ -7,7 +7,7 @@ old-location: com\ioleadviseholder_enumadvise.htm
 tech.root: com
 ms.assetid: 80a9ccd8-f89a-40c4-8b99-38536409cf26
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EnumAdvise, EnumAdvise method [COM], EnumAdvise method [COM],IOleAdviseHolder interface, IOleAdviseHolder interface [COM],EnumAdvise method, IOleAdviseHolder.EnumAdvise, IOleAdviseHolder::EnumAdvise, _ole_ioleadviseholder_enumadvise, com.ioleadviseholder_enumadvise, oleidl/IOleAdviseHolder::EnumAdvise
 ms.topic: method
 req.header: oleidl.h

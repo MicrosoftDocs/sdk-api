@@ -7,7 +7,7 @@ old-location: bltooth\bluetoothgattgetdescriptorvalue.htm
 tech.root: bltooth
 ms.assetid: 06820384-7098-415A-A350-3A755162FAA3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BluetoothGATTGetDescriptorValue, BluetoothGATTGetDescriptorValue function [Bluetooth Devices], bltooth.bluetoothgattgetdescriptorvalue, bluetoothleapis/BluetoothGATTGetDescriptorValue
 ms.topic: function
 req.header: bluetoothleapis.h

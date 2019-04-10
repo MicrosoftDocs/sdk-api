@@ -7,7 +7,7 @@ old-location: mstv\imsviddevice.htm
 tech.root: mstv
 ms.assetid: 5ec85d18-2fed-4fd0-ab94-72d1d4f3f7ef
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMSVidDevice, IMSVidDevice interface [Microsoft TV Technologies], IMSVidDevice interface [Microsoft TV Technologies],described, IMSVidDeviceInterface, mstv.imsviddevice, segment/IMSVidDevice
 ms.topic: interface
 req.header: segment.h

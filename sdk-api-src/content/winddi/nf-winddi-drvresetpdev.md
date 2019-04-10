@@ -7,7 +7,7 @@ old-location: display\drvresetpdev.htm
 tech.root: display
 ms.assetid: 8e530874-7774-4f8f-852c-001b2ce4a707
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DrvResetPDEV, DrvResetPDEV function [Display Devices], ddifncs_839f09e0-67dc-4c1f-a17b-dd0fd5316258.xml, display.drvresetpdev, winddi/DrvResetPDEV
 ms.topic: function
 req.header: winddi.h

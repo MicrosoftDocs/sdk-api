@@ -7,7 +7,7 @@ old-location: gdi\getbrushorgex.htm
 tech.root: gdi
 ms.assetid: 0b938237-cb06-4776-86f8-14478abcee00
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetBrushOrgEx, GetBrushOrgEx function [Windows GDI], _win32_GetBrushOrgEx, gdi.getbrushorgex, wingdi/GetBrushOrgEx
 ms.topic: function
 req.header: wingdi.h

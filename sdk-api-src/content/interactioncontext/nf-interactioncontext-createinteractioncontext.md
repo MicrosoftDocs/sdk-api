@@ -7,7 +7,7 @@ old-location: input_intcontext\createinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: 90b81d1c-c1c0-442b-a534-f6e39e707230
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateInteractionContext, CreateInteractionContext function, input_intcontext.createinteractioncontext, interactioncontext.createinteractioncontext, interactioncontext/CreateInteractionContext
 ms.topic: function
 req.header: interactioncontext.h

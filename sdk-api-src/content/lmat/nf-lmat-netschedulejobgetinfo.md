@@ -7,7 +7,7 @@ old-location: netmgmt\netschedulejobgetinfo.htm
 tech.root: NetMgmt
 ms.assetid: 44589715-edab-4737-9e49-6f491fd44c28
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NetScheduleJobGetInfo, NetScheduleJobGetInfo function [Network Management], _win32_netschedulejobgetinfo, lmat/NetScheduleJobGetInfo, netmgmt.netschedulejobgetinfo
 ms.topic: function
 req.header: lmat.h

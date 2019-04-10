@@ -7,7 +7,7 @@ old-location: perf\perf_instance_definition_str.htm
 tech.root: perfctrs
 ms.assetid: 5ea617d3-857d-4e0a-ad10-4d63044fc927
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PPERF_INSTANCE_DEFINITION, PERF_INSTANCE_DEFINITION, PERF_INSTANCE_DEFINITION structure [Perf], _win32_perf_instance_definition_str, base.perf_instance_definition_str, perf.perf_instance_definition_str, winperf/PERF_INSTANCE_DEFINITION"
 ms.topic: struct
 req.header: winperf.h

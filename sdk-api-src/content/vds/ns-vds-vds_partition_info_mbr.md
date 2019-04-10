@@ -7,7 +7,7 @@ old-location: base\vds_partition_info_mbr.htm
 tech.root: VDS
 ms.assetid: d14a852f-8a78-4631-a288-476701321ac2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VDS_PARTITION_INFO_MBR, VDS_PARTITION_INFO_MBR structure [VDS], base.vds_partition_info_mbr, vds/_VDS_PARTITION_INFO_MBR
 ms.topic: struct
 req.header: vds.h

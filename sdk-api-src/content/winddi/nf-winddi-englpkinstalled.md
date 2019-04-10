@@ -7,7 +7,7 @@ old-location: display\englpkinstalled.htm
 tech.root: display
 ms.assetid: be604527-0c9b-4065-9362-08b71e5a86be
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EngLpkInstalled, EngLpkInstalled function [Display Devices], display.englpkinstalled, gdifncs_75e34695-7344-475a-95c3-eeec27db1d34.xml, winddi/EngLpkInstalled
 ms.topic: function
 req.header: winddi.h

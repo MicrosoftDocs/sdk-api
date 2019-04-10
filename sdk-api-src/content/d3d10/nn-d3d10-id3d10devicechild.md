@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10devicechild.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10devicechild.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ID3D10DeviceChild, ID3D10DeviceChild interface [Direct3D 10], ID3D10DeviceChild interface [Direct3D 10],described, d3d10/ID3D10DeviceChild, direct3d10.id3d10devicechild, e38df520-7753-67fb-6fb9-7bd65b783c01
 ms.topic: interface
 req.header: d3d10.h

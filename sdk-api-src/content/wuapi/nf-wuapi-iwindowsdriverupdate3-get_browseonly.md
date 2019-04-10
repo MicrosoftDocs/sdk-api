@@ -7,7 +7,7 @@ old-location: wua\iwindowsdriverupdate3_browseonly.htm
 tech.root: Wua_Sdk
 ms.assetid: ca66bb76-af82-4bcd-b8e1-8ca3662c19bd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BrowseOnly property [Windows Update Agent], BrowseOnly property [Windows Update Agent],IWindowsDriverUpdate3 interface, IWindowsDriverUpdate3 interface [Windows Update Agent],BrowseOnly property, IWindowsDriverUpdate3.BrowseOnly, IWindowsDriverUpdate3.get_BrowseOnly, IWindowsDriverUpdate3::BrowseOnly, IWindowsDriverUpdate3::get_BrowseOnly, get_BrowseOnly, wua.iwindowsdriverupdate3_browseonly, wuapi/IWindowsDriverUpdate3::BrowseOnly, wuapi/IWindowsDriverUpdate3::get_BrowseOnly
 ms.topic: method
 req.header: wuapi.h

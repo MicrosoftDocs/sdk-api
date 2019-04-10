@@ -7,7 +7,7 @@ old-location: winprog\getmediaextensioncommunicationfactory.htm
 tech.root: DevNotes
 ms.assetid: 79186891-FD54-4498-AF2A-D79D30F859A2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetMediaExtensionCommunicationFactory, GetMediaExtensionCommunicationFactory function [Windows API], comppkgsup/GetMediaExtensionCommunicationFactory, winprog.getmediaextensioncommunicationfactory
 ms.topic: function
 req.header: comppkgsup.h

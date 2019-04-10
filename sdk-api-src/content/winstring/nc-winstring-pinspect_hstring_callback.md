@@ -7,7 +7,7 @@ old-location: winrt\pinspect_hstring_callback.htm
 tech.root: WinRT
 ms.assetid: B3DAB59B-15A5-42A0-8545-94F585D8FF09
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PINSPECT_HSTRING_CALLBACK, PINSPECT_HSTRING_CALLBACK function, PINSPECT_HSTRING_CALLBACK function pointer [Windows Runtime], winrt.pinspect_hstring_callback, winstring/PINSPECT_HSTRING_CALLBACK
 ms.topic: callback
 req.header: winstring.h

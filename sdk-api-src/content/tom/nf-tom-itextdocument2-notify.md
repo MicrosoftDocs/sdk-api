@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_notify.htm
 tech.root: Controls
 ms.assetid: 5c7962a5-5f8d-4db1-bb94-a77738cf75bb
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],Notify method, ITextDocument2.Notify, ITextDocument2::Notify, Notify, Notify method [Windows Controls], Notify method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_notify, tom/ITextDocument2::Notify
 ms.topic: method
 req.header: tom.h

@@ -7,7 +7,7 @@ old-location: dhcp\date_time.htm
 tech.root: DHCP
 ms.assetid: 2aca69b1-b7e5-4fda-b706-ed659d86cbd5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPDATE_TIME, *PDATE_TIME, DATE_TIME, DATE_TIME structure [DHCP], LPDATE_TIME, LPDATE_TIME structure pointer [DHCP], dhcp.date_time, dhcpsapi/LPDATE_TIME, dhcpsapi/_DATE_TIME"
 ms.topic: struct
 req.header: dhcpsapi.h

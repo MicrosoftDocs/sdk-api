@@ -7,7 +7,7 @@ old-location: http\http_version_info.htm
 tech.root: WinHttp
 ms.assetid: 2d794a99-7bd2-43ad-b826-f160bf78ccac
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPHTTP_VERSION_INFO, HTTP_VERSION_INFO, HTTP_VERSION_INFO structure [HTTP], http.http_version_info, winhttp/HTTP_VERSION_INFO, winhttp_http_version_info_structure"
 ms.topic: struct
 req.header: winhttp.h

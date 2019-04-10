@@ -7,7 +7,7 @@ old-location: mf\imfmediasession_close.htm
 tech.root: medfound
 ms.assetid: 6ed118ae-7538-4ef6-81fc-b762f709838f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 6ed118ae-7538-4ef6-81fc-b762f709838f, Close, Close method [Media Foundation], Close method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],Close method, IMFMediaSession.Close, IMFMediaSession::Close, mf.imfmediasession_close, mfidl/IMFMediaSession::Close
 ms.topic: method
 req.header: mfidl.h

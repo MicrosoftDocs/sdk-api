@@ -7,7 +7,7 @@ old-location: termserv\itsgauthorizeresourcesink.htm
 tech.root: TermServ
 ms.assetid: 4656064a-41d9-428c-8260-24eea0ee83cc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITSGAuthorizeResourceSink, ITSGAuthorizeResourceSink interface [Remote Desktop Services], ITSGAuthorizeResourceSink interface [Remote Desktop Services],described, termserv.itsgauthorizeresourcesink, tsgpolicyengine/ITSGAuthorizeResourceSink
 ms.topic: interface
 req.header: tsgpolicyengine.h

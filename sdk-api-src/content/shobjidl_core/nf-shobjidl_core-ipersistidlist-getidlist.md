@@ -7,7 +7,7 @@ old-location: shell\IPersistIDList_GetIDList.htm
 tech.root: shell
 ms.assetid: 2c05c2f5-5f72-436e-9b71-83749d3217b0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetIDList, GetIDList method [Windows Shell], GetIDList method [Windows Shell],IPersistIDList interface, IPersistIDList interface [Windows Shell],GetIDList method, IPersistIDList.GetIDList, IPersistIDList::GetIDList, inet_IPersistIDList_GetIDList, shell.IPersistIDList_GetIDList, shobjidl_core/IPersistIDList::GetIDList
 ms.topic: method
 req.header: shobjidl_core.h

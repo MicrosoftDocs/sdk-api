@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddBeziers_PointF_points_INT_c
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddbeziersmethods\addbeziers_6pointfpoints_intcount.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AddBeziers, AddBeziers method [GDI+], AddBeziers method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddBeziers method, GraphicsPath.AddBeziers, GraphicsPath.AddBeziers(IN const Point,IN INT), GraphicsPath.AddBeziers(const PointF*,INT), GraphicsPath::AddBeziers, GraphicsPath::AddBeziers(IN const Point,IN INT), _gdiplus_CLASS_GraphicsPath_AddBeziers_PointF_points_INT_count_, gdiplus._gdiplus_CLASS_GraphicsPath_AddBeziers_PointF_points_INT_count_
 ms.topic: method
 req.header: gdipluspath.h

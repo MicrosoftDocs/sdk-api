@@ -7,7 +7,7 @@ old-location: netshell\inithelperdll.htm
 tech.root: netshell
 ms.assetid: 9af7e818-bb08-4d35-bab4-43cb94845f25
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: InitHelperDll, NS_DLL_INIT_FN, NS_DLL_INIT_FN callback, NS_DLL_INIT_FN callback function [NetShell], _netsh_inithelperdll, netsh/NS_DLL_INIT_FN, netshell.inithelperdll
 ms.topic: callback
 req.header: netsh.h

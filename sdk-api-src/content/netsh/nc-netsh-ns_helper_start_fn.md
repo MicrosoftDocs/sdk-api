@@ -7,7 +7,7 @@ old-location: netshell\ns_helper_start_fn.htm
 tech.root: netshell
 ms.assetid: 0060feb9-3072-4a1c-9d25-4c304f60d42d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NS_HELPER_START_FN, NS_HELPER_START_FN callback, NS_HELPER_START_FN callback function [NetShell], _netsh_ns_helper_start_fn, netsh/NS_HELPER_START_FN, netshell.ns_helper_start_fn
 ms.topic: callback
 req.header: netsh.h

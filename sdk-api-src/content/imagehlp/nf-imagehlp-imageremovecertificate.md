@@ -7,7 +7,7 @@ old-location: base\imageremovecertificate.htm
 tech.root: Debug
 ms.assetid: e06da4c5-6641-47f8-9dd9-4a1593e11f7b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ImageRemoveCertificate, ImageRemoveCertificate function, _win32_imageremovecertificate, base.imageremovecertificate, imagehlp/ImageRemoveCertificate
 ms.topic: function
 req.header: imagehlp.h

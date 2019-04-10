@@ -7,7 +7,7 @@ old-location: fax\_mfax_IFaxConfiguration_HighQuotaWaterMark.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\highquotawatermark.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: HighQuotaWaterMark property [Fax Service], HighQuotaWaterMark property [Fax Service],IFaxConfiguration interface, IFaxConfiguration interface [Fax Service],HighQuotaWaterMark property, IFaxConfiguration.HighQuotaWaterMark, IFaxConfiguration.put_HighQuotaWaterMark, IFaxConfiguration::HighQuotaWaterMark, IFaxConfiguration::get_HighQuotaWaterMark, IFaxConfiguration::put_HighQuotaWaterMark, _mfax_IFaxConfiguration_HighQuotaWaterMark, fax._mfax_IFaxConfiguration_HighQuotaWaterMark, faxcomex/IFaxConfiguration::HighQuotaWaterMark, faxcomex/IFaxConfiguration::get_HighQuotaWaterMark, faxcomex/IFaxConfiguration::put_HighQuotaWaterMark, put_HighQuotaWaterMark
 ms.topic: method
 req.header: faxcomex.h

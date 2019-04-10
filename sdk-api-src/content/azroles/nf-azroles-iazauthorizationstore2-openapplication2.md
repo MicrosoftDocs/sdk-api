@@ -7,7 +7,7 @@ old-location: security\iazauthorizationstore2_openapplication2.htm
 tech.root: SecAuthZ
 ms.assetid: 8705ea59-2419-4af5-9cc2-591221e09073
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IAzAuthorizationStore2 interface [Security],OpenApplication2 method, IAzAuthorizationStore2.OpenApplication2, IAzAuthorizationStore2::OpenApplication2, OpenApplication2, OpenApplication2 method [Security], OpenApplication2 method [Security],IAzAuthorizationStore2 interface, azroles/IAzAuthorizationStore2::OpenApplication2, security.iazauthorizationstore2_openapplication2
 ms.topic: method
 req.header: azroles.h

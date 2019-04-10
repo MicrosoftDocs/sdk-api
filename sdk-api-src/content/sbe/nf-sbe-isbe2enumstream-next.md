@@ -7,7 +7,7 @@ old-location: mstv\isbe2enumstream_next.htm
 tech.root: mstv
 ms.assetid: c6445927-d7a7-4f45-a7ff-14484161b731
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ISBE2EnumStream interface [Microsoft TV Technologies],Next method, ISBE2EnumStream.Next, ISBE2EnumStream::Next, Next, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies],ISBE2EnumStream interface, mstv.isbe2enumstream_next, sbe/ISBE2EnumStream::Next
 ms.topic: method
 req.header: sbe.h

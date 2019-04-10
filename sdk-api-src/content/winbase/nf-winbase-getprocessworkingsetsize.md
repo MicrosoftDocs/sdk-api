@@ -7,7 +7,7 @@ old-location: base\getprocessworkingsetsize.htm
 tech.root: ProcThread
 ms.assetid: 9ac2e9ae-31f4-40aa-8d23-6926fa6dec22
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetProcessWorkingSetSize, GetProcessWorkingSetSize function, _win32_getprocessworkingsetsize, base.getprocessworkingsetsize, winbase/GetProcessWorkingSetSize
 ms.topic: function
 req.header: winbase.h

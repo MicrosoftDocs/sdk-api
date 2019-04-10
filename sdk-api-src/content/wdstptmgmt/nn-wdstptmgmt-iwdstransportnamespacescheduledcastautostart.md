@@ -7,7 +7,7 @@ old-location: wds\iwdstransportnamespacescheduledcastautostart.htm
 tech.root: wds
 ms.assetid: f11122a2-6ea9-4a73-ac93-0af7961f52b6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespaceScheduledCastAutoStart, IWdsTransportNamespaceScheduledCastAutoStart interface [Windows Deployment Services], IWdsTransportNamespaceScheduledCastAutoStart interface [Windows Deployment Services],described, wds.iwdstransportnamespacescheduledcastautostart, wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart
 ms.topic: interface
 req.header: wdstptmgmt.h

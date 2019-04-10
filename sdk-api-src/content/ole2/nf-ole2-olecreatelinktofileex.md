@@ -7,7 +7,7 @@ old-location: com\olecreatelinktofileex.htm
 tech.root: com
 ms.assetid: 9a333bac-8ee3-4941-8e4b-78a2befceff8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: OleCreateLinkToFileEx, OleCreateLinkToFileEx function [COM], _ole_OleCreateLinkToFileEx, com.olecreatelinktofileex, ole2/OleCreateLinkToFileEx
 ms.topic: function
 req.header: ole2.h

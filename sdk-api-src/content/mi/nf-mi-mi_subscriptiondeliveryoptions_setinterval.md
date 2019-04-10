@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_subscriptiondeliveryoptions_setinterval.htm
 tech.root: wmi_v2
 ms.assetid: 00b6dcbb-be09-464e-af7e-45dac4d70286
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_SetInterval, MI_SubscriptionDeliveryOptions_SetInterval function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_SetInterval, wmi_v2.mi_subscriptiondeliveryoptions_setinterval
 ms.topic: function
 req.header: mi.h

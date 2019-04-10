@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFontFileLoader.htm
 tech.root: DirectWrite
 ms.assetid: 855e281e-3855-4c11-af87-68f8e0dadbf8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDWriteFontFileLoader, IDWriteFontFileLoader interface [Direct Write], IDWriteFontFileLoader interface [Direct Write],described, directwrite.IDWriteFontFileLoader, dwrite/IDWriteFontFileLoader
 ms.topic: interface
 req.header: dwrite.h

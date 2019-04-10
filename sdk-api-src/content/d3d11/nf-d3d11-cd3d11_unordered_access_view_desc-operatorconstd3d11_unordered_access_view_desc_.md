@@ -7,7 +7,7 @@ old-location: direct3d11\cd3d11_unordered_access_view_desc_d3d11_unordered_acces
 tech.root: direct3d11
 ms.assetid: F1F4936D-11BE-4DE4-9BC7-64BB43665A11
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CD3D11_UNORDERED_ACCESS_VIEW_DESC interface [Direct3D 11],operator const D3D11_UNORDERED_ACCESS_VIEW_DESC& method, CD3D11_UNORDERED_ACCESS_VIEW_DESC.operator const D3D11_UNORDERED_ACCESS_VIEW_DESC&, CD3D11_UNORDERED_ACCESS_VIEW_DESC::operator const D3D11_UNORDERED_ACCESS_VIEW_DESC&, CD3D11_UNORDERED_ACCESS_VIEW_DESC::operator const D3D11_UNORDERED_ACCESS_VIEW_DESC&(), d3d11/CD3D11_UNORDERED_ACCESS_VIEW_DESC::operator const D3D11_UNORDERED_ACCESS_VIEW_DESC&, direct3d11.cd3d11_unordered_access_view_desc_d3d11_unordered_access_view_desc__, operator const D3D11_UNORDERED_ACCESS_VIEW_DESC&, operator const D3D11_UNORDERED_ACCESS_VIEW_DESC& method [Direct3D 11], operator const D3D11_UNORDERED_ACCESS_VIEW_DESC& method [Direct3D 11],CD3D11_UNORDERED_ACCESS_VIEW_DESC interface
 ms.topic: method
 req.header: d3d11.h

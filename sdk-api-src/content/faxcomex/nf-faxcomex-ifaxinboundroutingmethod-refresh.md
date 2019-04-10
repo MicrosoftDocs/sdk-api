@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_42aw.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFaxInboundRoutingMethod interface [Fax Service],Refresh method, IFaxInboundRoutingMethod.Refresh, IFaxInboundRoutingMethod::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxInboundRoutingMethod interface, _mfax_faxinboundroutingmethod.refresh, fax._mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod_refresh_cpp, fax._mfax_faxinboundroutingmethod_refresh, faxcomex/IFaxInboundRoutingMethod::Refresh
 ms.topic: method
 req.header: faxcomex.h

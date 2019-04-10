@@ -7,7 +7,7 @@ old-location: automat\vari2frombool.htm
 tech.root: automat
 ms.assetid: 34d95e98-ea21-411b-bd68-ad7be135778f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VarI2FromBool, VarI2FromBool function [Automation], _oa96_VarI2FromBool, automat.vari2frombool, oleauto/VarI2FromBool
 ms.topic: function
 req.header: oleauto.h

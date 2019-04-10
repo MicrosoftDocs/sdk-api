@@ -7,7 +7,7 @@ old-location: controls\DPA_GetPtr.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_getptr.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DPA_GetPtr, DPA_GetPtr function [Windows Controls], _win32_DPA_GetPtr, _win32_DPA_GetPtr_cpp, controls.DPA_GetPtr, controls._win32_DPA_GetPtr, dpa_dsa/DPA_GetPtr
 ms.topic: function
 req.header: dpa_dsa.h

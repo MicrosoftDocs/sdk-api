@@ -7,7 +7,7 @@ old-location: winsock\inet_pton.htm
 tech.root: WinSock
 ms.assetid: d0705997-0dc7-443b-a43f-611301cc9169
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, InetPton, InetPton function [Winsock], InetPtonA, InetPtonA or inet_pton, InetPtonW, inet_pton, winsock.inet_pton, ws2tcpip/InetPton, ws2tcpip/InetPtonA or inet_pton, ws2tcpip/InetPtonW
 ms.topic: function
 req.header: ws2tcpip.h

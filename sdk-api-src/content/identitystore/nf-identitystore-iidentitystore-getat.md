@@ -7,7 +7,7 @@ old-location: security\iidentitystore_getat.htm
 tech.root: SecAuthN
 ms.assetid: c62212bf-852b-43fb-9abf-b85f4d15b305
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [Security], GetAt method [Security],IIdentityStore interface, IIdentityStore interface [Security],GetAt method, IIdentityStore.GetAt, IIdentityStore::GetAt, identitystore/IIdentityStore::GetAt, security.iidentitystore_getat
 ms.topic: method
 req.header: identitystore.h

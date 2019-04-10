@@ -7,7 +7,7 @@ old-location: w_ui_comp\icompositiondrawingsurfaceinterop_resize.htm
 tech.root: w_ui_comp
 ms.assetid: DFD0812F-3AD2-4E33-BD23-9D392BFAB467
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ICompositionDrawingSurfaceInterop interface,Resize method, ICompositionDrawingSurfaceInterop.Resize, ICompositionDrawingSurfaceInterop.composition, ICompositionDrawingSurfaceInterop::Resize, ICompositionDrawingSurfaceInterop::composition, Resize, Resize method, Resize method,ICompositionDrawingSurfaceInterop interface, w_ui_comp.icompositiondrawingsurfaceinterop_resize, windows/ICompositionDrawingSurfaceInterop::Resize
 ms.topic: method
 req.header: windows.ui.composition.interop.h

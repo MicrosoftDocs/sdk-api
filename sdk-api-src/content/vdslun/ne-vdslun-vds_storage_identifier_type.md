@@ -7,7 +7,7 @@ old-location: base\vds_storage_identifier_type.htm
 tech.root: VDS
 ms.assetid: 396ca6c1-fae3-4584-97c9-2c4dfbc170d5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VDSStorageIdTypeEUI64, VDSStorageIdTypeFCPHName, VDSStorageIdTypePortRelative, VDSStorageIdTypeSCSINameString, VDSStorageIdTypeVendorId, VDSStorageIdTypeVendorSpecific, VDS_STORAGE_IDENTIFIER_TYPE, VDS_STORAGE_IDENTIFIER_TYPE enumeration [VDS], base.vds_storage_identifier_type, vdslun/VDSStorageIdTypeEUI64, vdslun/VDSStorageIdTypeFCPHName, vdslun/VDSStorageIdTypePortRelative, vdslun/VDSStorageIdTypeSCSINameString, vdslun/VDSStorageIdTypeVendorId, vdslun/VDSStorageIdTypeVendorSpecific, vdslun/VDS_STORAGE_IDENTIFIER_TYPE
 ms.topic: enum
 req.header: vdslun.h

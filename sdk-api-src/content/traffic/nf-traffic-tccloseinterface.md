@@ -7,7 +7,7 @@ old-location: qos\tccloseinterface.htm
 tech.root: QOS
 ms.assetid: c7c78f98-0890-4889-994e-bbac08ba9c44
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TcCloseInterface, TcCloseInterface function [QOS], _gqos_tccloseinterface, qos.tccloseinterface, traffic/TcCloseInterface
 ms.topic: function
 req.header: traffic.h

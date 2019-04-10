@@ -7,7 +7,7 @@ old-location: input_pointerdevice\pointer_feedback_mode.htm
 tech.root: Input_PointerDevice
 ms.assetid: 73D024E9-F83B-408F-BC96-6851AB4603AE
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: POINTER_FEEDBACK_DEFAULT, POINTER_FEEDBACK_INDIRECT, POINTER_FEEDBACK_MODE, POINTER_FEEDBACK_MODE enumeration, POINTER_FEEDBACK_NONE, input_pointerdevice.pointer_feedback_mode, winuser/POINTER_FEEDBACK_DEFAULT, winuser/POINTER_FEEDBACK_INDIRECT, winuser/POINTER_FEEDBACK_MODE, winuser/POINTER_FEEDBACK_NONE
 ms.topic: enum
 req.header: winuser.h

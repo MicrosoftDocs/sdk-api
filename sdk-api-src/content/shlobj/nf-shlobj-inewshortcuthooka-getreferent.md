@@ -7,7 +7,7 @@ old-location: shell\INewShortcutHook_GetReferent.htm
 tech.root: shell
 ms.assetid: 856f15bb-f9a8-4114-9a18-5abc21bef534
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetReferent, GetReferent method [Windows Shell], GetReferent method [Windows Shell],INewShortcutHook interface, INewShortcutHook interface [Windows Shell],GetReferent method, INewShortcutHook::GetReferent, INewShortcutHookA, INewShortcutHookA.GetReferent, INewShortcutHookA::GetReferent, INewShortcutHookW, INewShortcutHookW::GetReferent, _win32_INewShortcutHook_GetReferent, shell.INewShortcutHook_GetReferent, shlobj/INewShortcutHook::GetReferent
 ms.topic: method
 req.header: shlobj.h

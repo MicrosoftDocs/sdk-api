@@ -7,7 +7,7 @@ old-location: shell\IntPtrAdd.htm
 tech.root: shell
 ms.assetid: eceb36c4-287c-48e6-ad7d-0abf3d0a3893
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IntPtrAdd, IntPtrAdd function [Windows Shell], intsafe/IntPtrAdd, shell.IntPtrAdd
 ms.topic: function
 req.header: intsafe.h

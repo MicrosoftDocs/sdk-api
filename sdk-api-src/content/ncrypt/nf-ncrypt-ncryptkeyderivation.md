@@ -7,7 +7,7 @@ old-location: security\ncryptkeyderivation.htm
 tech.root: SecCNG
 ms.assetid: 5D2D61B1-022E-412F-A19E-11057930A615
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BCRYPT_CAPI_AES_FLAG, NCRYPT_SILENT_FLAG, NCryptKeyDerivation, NCryptKeyDerivation function [Security], ncrypt/NCryptKeyDerivation, security.ncryptkeyderivation
 ms.topic: function
 req.header: ncrypt.h

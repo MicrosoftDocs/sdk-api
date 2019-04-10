@@ -7,7 +7,7 @@ old-location: pla\ischedulecollection_clear.htm
 tech.root: PLA
 ms.assetid: e9a3afb8-0049-425b-a231-bbb5b56eced7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [PLA], Clear method [PLA],IScheduleCollection interface, IScheduleCollection interface [PLA],Clear method, IScheduleCollection.Clear, IScheduleCollection::Clear, base.ischedulecollection_clear, pla.ischedulecollection_clear, pla/IScheduleCollection::Clear
 ms.topic: method
 req.header: pla.h

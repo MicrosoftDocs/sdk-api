@@ -7,7 +7,7 @@ old-location: wds\pxe_dhcp_message.htm
 tech.root: wds
 ms.assetid: 466906f1-9439-4c9f-91f1-28530969181c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PPXE_DHCP_MESSAGE, PPXE_DHCP_MESSAGE, PPXE_DHCP_MESSAGE structure pointer [Windows Deployment Services], PXE_DHCP_MESSAGE, PXE_DHCP_MESSAGE structure [Windows Deployment Services], wds.pxe_dhcp_message, wdspxe/PPXE_DHCP_MESSAGE, wdspxe/PXE_DHCP_MESSAGE"
 ms.topic: struct
 req.header: wdspxe.h

@@ -7,7 +7,7 @@ old-location: security\icenroll.htm
 tech.root: SecCrypto
 ms.assetid: d5b746e0-91bd-45bd-9a67-ddc8868cee56
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ICEnroll, ICEnroll interface [Security], ICEnroll interface [Security],described, _xen_icenroll, security.icenroll, xenroll/ICEnroll
 ms.topic: interface
 req.header: xenroll.h

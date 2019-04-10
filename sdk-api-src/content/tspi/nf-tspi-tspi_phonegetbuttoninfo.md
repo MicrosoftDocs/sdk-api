@@ -7,7 +7,7 @@ old-location: tspi\tspi_phonegetbuttoninfo.htm
 tech.root: Tapi
 ms.assetid: b4db8075-1e45-4662-805c-6e3004517374
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TSPI_phoneGetButtonInfo, TSPI_phoneGetButtonInfo function [TAPI 2.2], _tspi_tspi_phonegetbuttoninfo, tspi.tspi_phonegetbuttoninfo, tspi/TSPI_phoneGetButtonInfo
 ms.topic: function
 req.header: tspi.h

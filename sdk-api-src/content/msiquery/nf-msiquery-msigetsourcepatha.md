@@ -7,7 +7,7 @@ old-location: setup\msigetsourcepath.htm
 tech.root: Msi
 ms.assetid: 3cb8c3fa-6f0a-4829-befd-450e58c86962
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MsiGetSourcePath, MsiGetSourcePath function, MsiGetSourcePathA, MsiGetSourcePathW, _msi_msigetsourcepath, msiquery/MsiGetSourcePath, msiquery/MsiGetSourcePathA, msiquery/MsiGetSourcePathW, setup.msigetsourcepath
 ms.topic: function
 req.header: msiquery.h

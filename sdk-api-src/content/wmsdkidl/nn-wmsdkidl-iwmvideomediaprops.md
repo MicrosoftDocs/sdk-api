@@ -7,7 +7,7 @@ old-location: wmformat\iwmvideomediaprops.htm
 tech.root: wmformat
 ms.assetid: 4d6ba1d8-b046-450b-a3f9-4810faba5b77
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWMVideoMediaProps, IWMVideoMediaProps interface [windows Media Format], IWMVideoMediaProps interface [windows Media Format],described, IWMVideoMediaPropsInterface, wmformat.iwmvideomediaprops, wmsdkidl/IWMVideoMediaProps
 ms.topic: interface
 req.header: wmsdkidl.h

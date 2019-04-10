@@ -7,7 +7,7 @@ old-location: rpc\rpc_if_callback_fn.htm
 tech.root: Rpc
 ms.assetid: 6c2239db-4a01-4ba1-b8ea-1c4b3467e326
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RPC_IF_CALLBACK_FN, RPC_IF_CALLBACK_FN callback, RPC_IF_CALLBACK_FN callback function [RPC], _rpc_rpc_if_callback_fn, rpc.rpc_if_callback_fn, rpcdce/RPC_IF_CALLBACK_FN
 ms.topic: callback
 req.header: rpcdce.h

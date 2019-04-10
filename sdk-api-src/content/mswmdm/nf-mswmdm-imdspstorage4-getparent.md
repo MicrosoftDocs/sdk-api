@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorage4_getparent.htm
 tech.root: WMDM
 ms.assetid: 7b8264ef-9288-4196-9b92-a54a25aad795
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetParent, GetParent method [windows Media Device Manager], GetParent method [windows Media Device Manager],IMDSPStorage4 interface, IMDSPStorage4 interface [windows Media Device Manager],GetParent method, IMDSPStorage4.GetParent, IMDSPStorage4::GetParent, IMDSPStorage4GetParent, mswmdm/IMDSPStorage4::GetParent, wmdm.imdspstorage4_getparent
 ms.topic: method
 req.header: mswmdm.h

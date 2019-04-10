@@ -7,7 +7,7 @@ old-location: xblidp\ixblidpauthmanager_gettokenandsignaturewithtokenresult.htm
 tech.root: xblidp
 ms.assetid: 22ACC545-8EDE-4009-9EE9-1AE541985E6A
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetTokenAndSignatureWithTokenResult, GetTokenAndSignatureWithTokenResult method, GetTokenAndSignatureWithTokenResult method,IXblIdpAuthManager interface, IXblIdpAuthManager interface,GetTokenAndSignatureWithTokenResult method, IXblIdpAuthManager.GetTokenAndSignatureWithTokenResult, IXblIdpAuthManager::GetTokenAndSignatureWithTokenResult, xblidp.ixblidpauthmanager_gettokenandsignaturewithtokenresult, xblidpauthmanager/IXblIdpAuthManager::GetTokenAndSignatureWithTokenResult
 ms.topic: method
 req.header: xblidpauthmanager.h

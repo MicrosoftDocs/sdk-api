@@ -7,7 +7,7 @@ old-location: eap\raseapinvokeconfigui.htm
 tech.root: EAP
 ms.assetid: cdd9b081-e654-445e-9383-3665258f5cfa
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RAS_EAP_FLAG_8021X_AUTH, RAS_EAP_FLAG_GUEST_ACCESS, RAS_EAP_FLAG_ROUTER, RasEapInvokeConfigUI, RasEapInvokeConfigUI callback, RasEapInvokeConfigUI callback function [EAP], _eap_raseapinvokeconfigui, eap.raseapinvokeconfigui, raseapif/RasEapInvokeConfigUI
 ms.topic: function
 req.header: raseapif.h

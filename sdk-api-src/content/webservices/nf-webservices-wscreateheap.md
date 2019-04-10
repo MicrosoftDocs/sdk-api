@@ -7,7 +7,7 @@ old-location: wsw\wscreateheap.htm
 tech.root: wsw
 ms.assetid: 459b7146-3b32-4df8-87e1-4ac7ad33ed0e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WsCreateHeap, WsCreateHeap function [Web Services for Windows], webservices/WsCreateHeap, wsw.wscreateheap
 ms.topic: function
 req.header: webservices.h

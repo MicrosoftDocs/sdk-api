@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanager_createanimationvariable.htm
 tech.root: UIAnimation
 ms.assetid: e4c38e78-1b9e-4918-ba15-6a4c5c390c07
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateAnimationVariable, CreateAnimationVariable method [Windows Animation], CreateAnimationVariable method [Windows Animation],IUIAnimationManager interface, IUIAnimationManager interface [Windows Animation],CreateAnimationVariable method, IUIAnimationManager.CreateAnimationVariable, IUIAnimationManager::CreateAnimationVariable, uianimation.iuianimationmanager_createanimationvariable, uianimation/IUIAnimationManager::CreateAnimationVariable
 ms.topic: method
 req.header: uianimation.h

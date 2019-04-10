@@ -7,7 +7,7 @@ old-location: base\ivssexpresswriter_register.htm
 tech.root: VSS
 ms.assetid: 75cdc416-5fb6-4c9e-b7ab-f79b091786b2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVssExpressWriter interface,Register method, IVssExpressWriter.Register, IVssExpressWriter::Register, Register, Register method, Register method,IVssExpressWriter interface, base.ivssexpresswriter_register, vswriter/IVssExpressWriter::Register
 ms.topic: method
 req.header: vswriter.h

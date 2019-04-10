@@ -7,7 +7,7 @@ old-location: dshow\ipinconnection.htm
 tech.root: DirectShow
 ms.assetid: 0843a01c-6f6a-4765-abca-dd562175fcee
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IPinConnection, IPinConnection interface [DirectShow], IPinConnection interface [DirectShow],described, IPinConnectionInterface, dshow.ipinconnection, strmif/IPinConnection
 ms.topic: interface
 req.header: strmif.h

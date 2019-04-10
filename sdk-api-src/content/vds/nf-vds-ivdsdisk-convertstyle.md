@@ -7,7 +7,7 @@ old-location: base\ivdsdisk_convertstyle.htm
 tech.root: VDS
 ms.assetid: 38c129cd-8e60-4e4a-b22b-26c69c68fe89
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ConvertStyle, ConvertStyle method [VDS], ConvertStyle method [VDS],IVdsDisk interface, IVdsDisk interface [VDS],ConvertStyle method, IVdsDisk.ConvertStyle, IVdsDisk::ConvertStyle, base.ivdsdisk_convertstyle, vds/IVdsDisk::ConvertStyle
 ms.topic: method
 req.header: vds.h

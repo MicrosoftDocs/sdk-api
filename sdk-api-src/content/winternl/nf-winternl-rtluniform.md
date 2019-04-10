@@ -7,7 +7,7 @@ old-location: winprog\rtluniform.htm
 tech.root: DevNotes
 ms.assetid: 78bb05fa-3ebc-4e61-ae4f-58544da51200
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RtlUniform, RtlUniform function [Windows API], winprog.rtluniform, winternl/RtlUniform
 ms.topic: function
 req.header: winternl.h

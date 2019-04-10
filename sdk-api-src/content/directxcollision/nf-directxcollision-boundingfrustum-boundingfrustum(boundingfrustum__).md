@@ -7,7 +7,7 @@ old-location: dxmath\boundingfrustum_ctor_3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.#ctor
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BoundingFrustum, BoundingFrustum constructor [DirectX Math Support APIs], BoundingFrustum constructor [DirectX Math Support APIs],BoundingFrustum interface, BoundingFrustum interface [DirectX Math Support APIs],BoundingFrustum constructor, BoundingFrustum.BoundingFrustum, BoundingFrustum.BoundingFrustum(), BoundingFrustum.BoundingFrustum(BoundingFrustum &&), BoundingFrustum::BoundingFrustum, BoundingFrustum::BoundingFrustum(BoundingFrustum &&), dxmath.boundingfrustum_ctor_3
 ms.topic: method
 req.header: directxcollision.h

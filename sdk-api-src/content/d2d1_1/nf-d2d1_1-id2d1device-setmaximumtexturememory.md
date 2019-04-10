@@ -7,7 +7,7 @@ old-location: direct2d\id2d1device_setmaximumtexturememory.htm
 tech.root: Direct2D
 ms.assetid: 8B714995-8837-4605-8CA3-7D7941D2C10D
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ID2D1Device interface [Direct2D],SetMaximumTextureMemory method, ID2D1Device.SetMaximumTextureMemory, ID2D1Device::SetMaximumTextureMemory, SetMaximumTextureMemory, SetMaximumTextureMemory method [Direct2D], SetMaximumTextureMemory method [Direct2D],ID2D1Device interface, d2d1_1/ID2D1Device::SetMaximumTextureMemory, direct2d.id2d1device_setmaximumtexturememory
 ms.topic: method
 req.header: d2d1_1.h

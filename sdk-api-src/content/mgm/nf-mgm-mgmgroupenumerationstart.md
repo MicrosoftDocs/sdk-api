@@ -7,7 +7,7 @@ old-location: rras\mgmgroupenumerationstart.htm
 tech.root: RRAS
 ms.assetid: 926f4055-becb-4c99-afd2-2d2822626f24
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ALL_SOURCES, ANY_SOURCE, MgmGroupEnumerationStart, MgmGroupEnumerationStart function [RAS], _mpr_mgmgroupenumerationstart, mgm/MgmGroupEnumerationStart, rras.mgmgroupenumerationstart
 ms.topic: function
 req.header: mgm.h

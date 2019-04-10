@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceservicecapabilities_getcommandoptions.htm
 tech.root: wpd_sdk
 ms.assetid: 5baa4c94-771a-430f-a963-800e4cd3a6b3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetCommandOptions, GetCommandOptions method [Windows Portable Devices SDK], GetCommandOptions method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetCommandOptions method, IPortableDeviceServiceCapabilities.GetCommandOptions, IPortableDeviceServiceCapabilities::GetCommandOptions, portabledeviceapi/IPortableDeviceServiceCapabilities::GetCommandOptions, wpdsdk.iportabledeviceservicecapabilities_getcommandoptions
 ms.topic: method
 req.header: portabledeviceapi.h

@@ -7,7 +7,7 @@ old-location: mf\mffolddown_matrix.htm
 tech.root: medfound
 ms.assetid: 59bf275d-583e-47aa-96ff-ce032c618081
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 59bf275d-583e-47aa-96ff-ce032c618081, MFFOLDDOWN_MATRIX, MFFOLDDOWN_MATRIX structure [Media Foundation], mf.mffolddown_matrix, mfapi/MFFOLDDOWN_MATRIX
 ms.topic: struct
 req.header: mfapi.h

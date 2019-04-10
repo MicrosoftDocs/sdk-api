@@ -7,7 +7,7 @@ old-location: dns\dns_header.htm
 tech.root: DNS
 ms.assetid: e5bf19a1-4c71-482d-a075-1e149f94505b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PDNS_HEADER, *PDNS_HEADER structure [DNS], DNS_HEADER, DNS_HEADER structure [DNS], dns.dns_header, windns/*PDNS_HEADER, windns/DNS_HEADER"
 ms.topic: struct
 req.header: windns.h

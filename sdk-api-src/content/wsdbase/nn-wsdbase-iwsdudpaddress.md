@@ -7,7 +7,7 @@ old-location: ncd\iwsdudpaddress.htm
 tech.root: WsdApi
 ms.assetid: b666002f-2cd6-4e96-b055-34d801c1982e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWSDUdpAddress, IWSDUdpAddress interface, IWSDUdpAddress interface,described, ncd.iwsdudpaddress, wsdbase/IWSDUdpAddress
 ms.topic: interface
 req.header: wsdbase.h

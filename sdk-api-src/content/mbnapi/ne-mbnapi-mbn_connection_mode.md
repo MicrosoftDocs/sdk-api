@@ -7,7 +7,7 @@ old-location: mbn\mbn_connection_mode.htm
 tech.root: mbn
 ms.assetid: c7aed29b-7938-4266-ae4c-b8ba84eb8a63
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MBN_CONNECTION_MODE, MBN_CONNECTION_MODE enumeration [Microsoft Broadband Networks], MBN_CONNECTION_MODE_PROFILE, MBN_CONNECTION_MODE_TMP_PROFILE, mbn.mbn_connection_mode, mbnapi/MBN_CONNECTION_MODE, mbnapi/MBN_CONNECTION_MODE_PROFILE, mbnapi/MBN_CONNECTION_MODE_TMP_PROFILE
 ms.topic: enum
 req.header: mbnapi.h

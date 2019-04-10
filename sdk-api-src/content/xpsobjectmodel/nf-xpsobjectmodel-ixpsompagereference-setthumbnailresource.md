@@ -7,7 +7,7 @@ old-location: xps\ixpsompagereference_setthumbnailresource.htm
 tech.root: printdocs
 ms.assetid: b44c041d-dccd-4b64-b85b-454b203b865b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IXpsOMPageReference interface [XPS Documents and Packaging],SetThumbnailResource method, IXpsOMPageReference.SetThumbnailResource, IXpsOMPageReference::SetThumbnailResource, SetThumbnailResource, SetThumbnailResource method [XPS Documents and Packaging], SetThumbnailResource method [XPS Documents and Packaging],IXpsOMPageReference interface, xps.ixpsompagereference_setthumbnailresource, xpsobjectmodel/IXpsOMPageReference::SetThumbnailResource
 ms.topic: method
 req.header: xpsobjectmodel.h

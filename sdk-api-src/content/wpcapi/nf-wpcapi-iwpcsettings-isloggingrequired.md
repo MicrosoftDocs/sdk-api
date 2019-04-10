@@ -7,7 +7,7 @@ old-location: parcon\iwpcsettings_isloggingrequired.htm
 tech.root: parcon
 ms.assetid: bfe04843-af23-4146-bc45-f91d6ad36c1a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWPCSettings interface,IsLoggingRequired method, IWPCSettings.IsLoggingRequired, IWPCSettings::IsLoggingRequired, IsLoggingRequired, IsLoggingRequired method, IsLoggingRequired method,IWPCSettings interface, parcon.iwpcsettings_isloggingrequired, wpcapi/IWPCSettings::IsLoggingRequired
 ms.topic: method
 req.header: wpcapi.h

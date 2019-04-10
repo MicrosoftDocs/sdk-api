@@ -7,7 +7,7 @@ old-location: termserv\wts_user_data.htm
 tech.root: TermServ
 ms.assetid: be2f7338-44a8-433f-b45d-620b9b7e93c7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PWTS_USER_DATA, PWTS_USER_DATA, PWTS_USER_DATA structure pointer [Remote Desktop Services], WTS_USER_DATA, WTS_USER_DATA structure [Remote Desktop Services], termserv.wts_user_data, wtsdefs/PWTS_USER_DATA, wtsdefs/WTS_USER_DATA"
 ms.topic: struct
 req.header: wtsdefs.h

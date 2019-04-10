@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_mapped_rect.htm
 tech.root: Direct2D
 ms.assetid: 1cd81f1a-c39b-4975-a801-aa9444dde172
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: D2D1_MAPPED_RECT, D2D1_MAPPED_RECT structure [Direct2D], PD2D1_MAPPED_RECT, PD2D1_MAPPED_RECT structure pointer [Direct2D], d2d1_1/D2D1_MAPPED_RECT, d2d1_1/PD2D1_MAPPED_RECT, direct2d.d2d1_mapped_rect
 ms.topic: struct
 req.header: d2d1_1.h

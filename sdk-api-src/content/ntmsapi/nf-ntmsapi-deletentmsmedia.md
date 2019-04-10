@@ -7,7 +7,7 @@ old-location: fs\deletentmsmedia.htm
 tech.root: Rsm
 ms.assetid: d8e6b441-be8b-4f10-b241-d95221cebed8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DeleteNtmsMedia, DeleteNtmsMedia function [Files], _zaw_deletentmsmedia, base.deletentmsmedia, fs.deletentmsmedia, ntmsapi/DeleteNtmsMedia
 ms.topic: function
 req.header: ntmsapi.h

@@ -7,7 +7,7 @@ old-location: mstv\iisdbdatacontentdescriptor_getentrycomponent.htm
 tech.root: mstv
 ms.assetid: 9f8f9e55-cc03-4f07-918e-19199485c8d4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetEntryComponent, GetEntryComponent method [Microsoft TV Technologies], GetEntryComponent method [Microsoft TV Technologies],IIsdbDataContentDescriptor interface, IIsdbDataContentDescriptor interface [Microsoft TV Technologies],GetEntryComponent method, IIsdbDataContentDescriptor.GetEntryComponent, IIsdbDataContentDescriptor::GetEntryComponent, dvbsiparser/IIsdbDataContentDescriptor::GetEntryComponent, mstv.iisdbdatacontentdescriptor_getentrycomponent
 ms.topic: method
 req.header: dvbsiparser.h

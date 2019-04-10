@@ -7,7 +7,7 @@ old-location: mbn\imbnmulticarrierevents_onscannetworkcomplete.htm
 tech.root: mbn
 ms.assetid: EF1A39DB-351F-4105-BE56-C59477A67EC6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: E_MBN_ALREADY_ACTIVE, E_MBN_DEVICE_BUSY, E_MBN_RADIO_POWER_OFF, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnMultiCarrierEvents interface [Microsoft Broadband Networks],OnScanNetworkComplete method, IMbnMultiCarrierEvents.OnScanNetworkComplete, IMbnMultiCarrierEvents::OnScanNetworkComplete, OnScanNetworkComplete, OnScanNetworkComplete method [Microsoft Broadband Networks], OnScanNetworkComplete method [Microsoft Broadband Networks],IMbnMultiCarrierEvents interface, S_OK, mbn.imbnmulticarrierevents_onscannetworkcomplete, mbnapi/IMbnMultiCarrierEvents::OnScanNetworkComplete
 ms.topic: method
 req.header: mbnapi.h

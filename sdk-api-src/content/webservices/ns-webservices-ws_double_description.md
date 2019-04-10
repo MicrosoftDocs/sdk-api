@@ -7,7 +7,7 @@ old-location: wsw\ws_double_description.htm
 tech.root: wsw
 ms.assetid: cc845d24-4bbd-4491-9d4e-7a39c6c251da
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_DOUBLE_DESCRIPTION, WS_DOUBLE_DESCRIPTION structure [Web Services for Windows], webservices/WS_DOUBLE_DESCRIPTION, wsw.ws_double_description
 ms.topic: struct
 req.header: webservices.h

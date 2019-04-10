@@ -7,7 +7,7 @@ old-location: tapi3\ittapi2.htm
 tech.root: Tapi
 ms.assetid: 8c67f31e-783e-4371-9f17-063f8ecfc069
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITTAPI2, ITTAPI2 interface [TAPI 2.2], ITTAPI2 interface [TAPI 2.2],described, _tapi3_ittapi2, tapi3.ittapi2, tapi3if/ITTAPI2
 ms.topic: interface
 req.header: tapi3if.h

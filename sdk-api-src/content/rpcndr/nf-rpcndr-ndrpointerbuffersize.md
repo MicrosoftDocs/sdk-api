@@ -7,7 +7,7 @@ old-location: rpc\ndrpointerbuffersize.htm
 tech.root: Rpc
 ms.assetid: fbab3c13-d696-430c-b3f5-7cb187678c33
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NdrPointerBufferSize, NdrPointerBufferSize function [RPC], rpc.ndrpointerbuffersize, rpcndr/NdrPointerBufferSize
 ms.topic: function
 req.header: rpcndr.h

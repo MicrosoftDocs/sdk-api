@@ -7,7 +7,7 @@ old-location: wic\iwicplanarformatconverter_canconvert.htm
 tech.root: wic
 ms.assetid: 24E68425-3758-4E8E-B3F4-46EE8488E3E1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CanConvert, CanConvert method [Windows Imaging Component], CanConvert method [Windows Imaging Component],IWICPlanarFormatConverter interface, IWICPlanarFormatConverter interface [Windows Imaging Component],CanConvert method, IWICPlanarFormatConverter.CanConvert, IWICPlanarFormatConverter::CanConvert, wic.iwicplanarformatconverter_canconvert, wincodec/IWICPlanarFormatConverter::CanConvert
 ms.topic: method
 req.header: wincodec.h

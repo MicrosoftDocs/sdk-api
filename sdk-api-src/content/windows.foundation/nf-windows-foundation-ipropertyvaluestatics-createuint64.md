@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvaluestatics_createuint64.htm
 tech.root: WinRT
 ms.assetid: 49158177-D74E-4310-984D-A1C511840EF9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateUInt64, CreateUInt64 method [Windows Runtime], CreateUInt64 method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateUInt64 method, IPropertyValueStatics.CreateUInt64, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateUInt64, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateUInt64, winrt.ipropertyvaluefactory_createuint64, winrt.ipropertyvaluestatics_createuint64
 ms.topic: method
 req.header: windows.foundation.h

@@ -7,7 +7,7 @@ old-location: winrm\wsman_username_password_creds.htm
 tech.root: winrm
 ms.assetid: 5cb2b52f-85a7-4760-9f0d-b515fad86d33
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WSMAN_USERNAME_PASSWORD_CREDS, WSMAN_USERNAME_PASSWORD_CREDS structure [Windows Remote Management], winrm.wsman_username_password_creds, wsman/WSMAN_USERNAME_PASSWORD_CREDS
 ms.topic: struct
 req.header: wsman.h

@@ -7,7 +7,7 @@ old-location: intl\currencyfmt.htm
 tech.root: Intl
 ms.assetid: 026ac9e0-1f5b-4a42-9c7b-07a127422994
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPCURRENCYFMTA, CURRENCYFMT, CURRENCYFMT structure [Internationalization for Windows Applications], CURRENCYFMTA, LPCURRENCYFMT, LPCURRENCYFMT structure pointer [Internationalization for Windows Applications], _win32_CURRENCYFMT_str, intl.currencyfmt, winnls/CURRENCYFMT, winnls/LPCURRENCYFMT"
 ms.topic: struct
 req.header: winnls.h

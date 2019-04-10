@@ -7,7 +7,7 @@ old-location: base\getnumanodeprocessormaskex.htm
 tech.root: ProcThread
 ms.assetid: 4baf7193-aab3-4bd0-bc0a-60fd9277fc72
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetNumaNodeProcessorMaskEx, GetNumaNodeProcessorMaskEx function, base.getnumanodeprocessormaskex, systemtopologyapi/GetNumaNodeProcessorMaskEx, winbase/GetNumaNodeProcessorMaskEx
 ms.topic: function
 req.header: systemtopologyapi.h

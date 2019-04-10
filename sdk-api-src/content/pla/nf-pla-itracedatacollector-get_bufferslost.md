@@ -7,7 +7,7 @@ old-location: pla\itracedatacollector_bufferslost.htm
 tech.root: PLA
 ms.assetid: 84c001f7-da5c-4d79-aba1-76c11e11bdae
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: BuffersLost property [PLA], BuffersLost property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],BuffersLost property, ITraceDataCollector.BuffersLost, ITraceDataCollector.get_BuffersLost, ITraceDataCollector::BuffersLost, ITraceDataCollector::get_BuffersLost, base.itracedatacollector_bufferslost, get_BuffersLost, pla.itracedatacollector_bufferslost, pla/ITraceDataCollector::BuffersLost, pla/ITraceDataCollector::get_BuffersLost
 ms.topic: method
 req.header: pla.h

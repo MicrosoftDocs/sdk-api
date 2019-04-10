@@ -7,7 +7,7 @@ old-location: toolhelp\heap32next.htm
 tech.root: ToolHelp
 ms.assetid: cc3becd0-edba-47cf-ac2d-26a5d98390e7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Heap32Next, Heap32Next function [ToolHelp], _win32_heap32next, base.heap32next, tlhelp32/Heap32Next, toolhelp.heap32next
 ms.topic: function
 req.header: tlhelp32.h

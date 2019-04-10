@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteGdiInterop.htm
 tech.root: DirectWrite
 ms.assetid: 79472021-ee12-45dd-a943-3908c9e06cde
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDWriteGdiInterop, IDWriteGdiInterop interface [Direct Write], IDWriteGdiInterop interface [Direct Write],described, directwrite.IDWriteGdiInterop, dwrite/IDWriteGdiInterop
 ms.topic: interface
 req.header: dwrite.h

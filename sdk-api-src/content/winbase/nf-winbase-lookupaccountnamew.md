@@ -7,7 +7,7 @@ old-location: security\lookupaccountname.htm
 tech.root: SecAuthZ
 ms.assetid: 72855539-469a-4289-99cc-eae2ed89901f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: LookupAccountName, LookupAccountName function [Security], LookupAccountNameA, LookupAccountNameW, _win32_lookupaccountname, security.lookupaccountname, winbase/LookupAccountName, winbase/LookupAccountNameA, winbase/LookupAccountNameW
 ms.topic: function
 req.header: winbase.h

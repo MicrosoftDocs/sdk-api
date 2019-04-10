@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicpalette.htm
 tech.root: wic
 ms.assetid: cb0e4f92-4aff-48c7-af62-5f7154539289
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IWICPalette, IWICPalette interface [Windows Imaging Component], IWICPalette interface [Windows Imaging Component],described, _wic_codec_iwicpalette, wic._wic_codec_iwicpalette, wincodec/IWICPalette
 ms.topic: interface
 req.header: wincodec.h

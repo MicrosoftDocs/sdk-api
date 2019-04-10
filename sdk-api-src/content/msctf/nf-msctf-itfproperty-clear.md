@@ -7,7 +7,7 @@ old-location: tsf\itfproperty_clear.htm
 tech.root: TSF
 ms.assetid: bbfbbe0d-bea7-4c46-8b9c-6b607a761f48
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Text Services Framework], Clear method [Text Services Framework],ITfProperty interface, ITfProperty interface [Text Services Framework],Clear method, ITfProperty.Clear, ITfProperty::Clear, _tsf_itfproperty_clear_ref, msctf/ITfProperty::Clear, tsf.itfproperty_clear
 ms.topic: method
 req.header: msctf.h

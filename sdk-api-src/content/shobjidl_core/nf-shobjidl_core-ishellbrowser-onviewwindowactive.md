@@ -7,7 +7,7 @@ old-location: shell\IShellBrowser_OnViewWindowActive.htm
 tech.root: shell
 ms.assetid: bd320262-f383-453b-9028-4e93f0b3761a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IShellBrowser interface [Windows Shell],OnViewWindowActive method, IShellBrowser.OnViewWindowActive, IShellBrowser::OnViewWindowActive, OnViewWindowActive, OnViewWindowActive method [Windows Shell], OnViewWindowActive method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_OnViewWindowActive, shell.IShellBrowser_OnViewWindowActive, shobjidl_core/IShellBrowser::OnViewWindowActive
 ms.topic: method
 req.header: shobjidl_core.h

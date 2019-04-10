@@ -7,7 +7,7 @@ old-location: inputmsg\getpointerpeninfohistory.htm
 tech.root: InputMsg
 ms.assetid: 90082327-b242-4f5d-8cd7-fd8ef9340395
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetPointerPenInfoHistory, GetPointerPenInfoHistory function [Input Messages and Notifications], inputmsg.getpointerpeninfohistory, winuser/GetPointerPenInfoHistory
 ms.topic: function
 req.header: winuser.h

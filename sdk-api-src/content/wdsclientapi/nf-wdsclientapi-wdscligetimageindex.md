@@ -7,7 +7,7 @@ old-location: wds\wdscligetimageindex.htm
 tech.root: wds
 ms.assetid: e90750f0-5b45-40d5-ae6f-23b885cbe714
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WdsCliGetImageIndex, WdsCliGetImageIndex function [Windows Deployment Services], wds.wdscligetimageindex, wdsclientapi/WdsCliGetImageIndex
 ms.topic: function
 req.header: wdsclientapi.h

@@ -7,7 +7,7 @@ old-location: base\vds_partition_notification.htm
 tech.root: VDS
 ms.assetid: f731d45d-e406-4a03-a604-c6ac001c341f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VDS_NF_PARTITION_ARRIVE, VDS_NF_PARTITION_DEPART, VDS_NF_PARTITION_MODIFY, VDS_PARTITION_NOTIFICATION, VDS_PARTITION_NOTIFICATION structure [VDS], base.vds_partition_notification, vds/_VDS_PARTITION_NOTIFICATION, vdshwprv/_VDS_PARTITION_NOTIFICATION
 ms.topic: struct
 req.header: vds.h

@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__beginscene.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__beginscene.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 0d9bef66-554d-4515-e088-ddeeef8f07b9, BeginScene, BeginScene method [Direct3D 9], BeginScene method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],BeginScene method, IDirect3DDevice9.BeginScene, IDirect3DDevice9::BeginScene, d3d9helper/IDirect3DDevice9::BeginScene, direct3d9.idirect3ddevice9__beginscene
 ms.topic: method
 req.header: d3d9helper.h

@@ -7,7 +7,7 @@ old-location: mf\mf_leaky_bucket_pair.htm
 tech.root: medfound
 ms.assetid: aa95a8f0-2f4c-4d7e-81c3-8a14a6ffa54e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MF_LEAKY_BUCKET_PAIR, MF_LEAKY_BUCKET_PAIR structure [Media Foundation], aa95a8f0-2f4c-4d7e-81c3-8a14a6ffa54e, mf.mf_leaky_bucket_pair, mfidl/MF_LEAKY_BUCKET_PAIR
 ms.topic: struct
 req.header: mfidl.h

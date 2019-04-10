@@ -7,7 +7,7 @@ old-location: setup\setupquerydrivesindiskspacelist.htm
 tech.root: SetupApi
 ms.assetid: be298b54-f5dc-46a3-a54c-f7ca5cb3a2fb
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SetupQueryDrivesInDiskSpaceList, SetupQueryDrivesInDiskSpaceList function [Setup API], SetupQueryDrivesInDiskSpaceListA, SetupQueryDrivesInDiskSpaceListW, _setupapi_setupquerydrivesindiskspacelist, setup.setupquerydrivesindiskspacelist, setupapi/SetupQueryDrivesInDiskSpaceList, setupapi/SetupQueryDrivesInDiskSpaceListA, setupapi/SetupQueryDrivesInDiskSpaceListW
 ms.topic: function
 req.header: setupapi.h

@@ -7,7 +7,7 @@ old-location: winrt\handle_options.htm
 tech.root: WinRT
 ms.assetid: 3FB2731B-53D1-4216-9149-7D8BDE8D3F12
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: HANDLE_OPTIONS, HANDLE_OPTIONS enumeration [Windows Runtime], HO_DELETE_ON_CLOSE, HO_NONE, HO_NO_BUFFERING, HO_OPEN_REQUIRING_OPLOCK, HO_OVERLAPPED, HO_RANDOM_ACCESS, HO_SEQUENTIAL_SCAN, HO_WRITE_THROUGH, windowsstoragecom/HANDLE_OPTIONS, windowsstoragecom/HO_DELETE_ON_CLOSE, windowsstoragecom/HO_NONE, windowsstoragecom/HO_NO_BUFFERING, windowsstoragecom/HO_OPEN_REQUIRING_OPLOCK, windowsstoragecom/HO_OVERLAPPED, windowsstoragecom/HO_RANDOM_ACCESS, windowsstoragecom/HO_SEQUENTIAL_SCAN, windowsstoragecom/HO_WRITE_THROUGH, winrt.handle_options
 ms.topic: enum
 req.header: windowsstoragecom.h

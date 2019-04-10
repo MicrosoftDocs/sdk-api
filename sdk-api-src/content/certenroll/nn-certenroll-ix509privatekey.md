@@ -7,7 +7,7 @@ old-location: security\ix509privatekey.htm
 tech.root: seccertenroll
 ms.assetid: 72612ea4-ed45-46ac-9dad-614a9a754d83
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey, IX509PrivateKey interface [Security], IX509PrivateKey interface [Security],described, certenroll/IX509PrivateKey, security.ix509privatekey
 ms.topic: interface
 req.header: certenroll.h

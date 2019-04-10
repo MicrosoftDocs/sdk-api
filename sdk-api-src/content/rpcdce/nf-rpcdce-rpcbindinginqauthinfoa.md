@@ -7,7 +7,7 @@ old-location: rpc\rpcbindinginqauthinfo.htm
 tech.root: Rpc
 ms.assetid: becb2c58-bfc7-47a7-ad2f-947ecf7bba2b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RpcBindingInqAuthInfo, RpcBindingInqAuthInfo function [RPC], RpcBindingInqAuthInfoA, RpcBindingInqAuthInfoW, _rpc_rpcbindinginqauthinfo, rpc.rpcbindinginqauthinfo, rpcdce/RpcBindingInqAuthInfo, rpcdce/RpcBindingInqAuthInfoA, rpcdce/RpcBindingInqAuthInfoW
 ms.topic: function
 req.header: rpcdce.h

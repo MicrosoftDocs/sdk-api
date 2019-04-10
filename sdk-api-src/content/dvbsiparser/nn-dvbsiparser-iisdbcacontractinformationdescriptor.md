@@ -7,7 +7,7 @@ old-location: mstv\iisdbcacontractinformationdescriptor.htm
 tech.root: mstv
 ms.assetid: d877a625-d683-4472-98de-f24c165c753a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IIsdbCAContractInformationDescriptor, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies], IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbCAContractInformationDescriptor, mstv.iisdbcacontractinformationdescriptor
 ms.topic: interface
 req.header: dvbsiparser.h

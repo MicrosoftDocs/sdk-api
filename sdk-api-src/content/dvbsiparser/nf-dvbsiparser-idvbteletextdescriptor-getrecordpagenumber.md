@@ -7,7 +7,7 @@ old-location: mstv\idvbteletextdescriptor_getrecordpagenumber.htm
 tech.root: mstv
 ms.assetid: 323af443-8ef3-443e-9d6c-7af17419655a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetRecordPageNumber, GetRecordPageNumber method [Microsoft TV Technologies], GetRecordPageNumber method [Microsoft TV Technologies],IDvbTeletextDescriptor interface, IDvbTeletextDescriptor interface [Microsoft TV Technologies],GetRecordPageNumber method, IDvbTeletextDescriptor.GetRecordPageNumber, IDvbTeletextDescriptor::GetRecordPageNumber, dvbsiparser/IDvbTeletextDescriptor::GetRecordPageNumber, mstv.idvbteletextdescriptor_getrecordpagenumber
 ms.topic: method
 req.header: dvbsiparser.h

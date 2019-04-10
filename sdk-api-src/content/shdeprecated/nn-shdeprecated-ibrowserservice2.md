@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2.htm
 tech.root: shell
 ms.assetid: 5c100b60-ef2e-4044-9f06-c1d01bcd88d2
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], IBrowserService2 interface [Windows Shell],described, shdeprecated/IBrowserService2, shell.IBrowserService2, zone_IBrowserService2
 ms.topic: interface
 req.header: shdeprecated.h

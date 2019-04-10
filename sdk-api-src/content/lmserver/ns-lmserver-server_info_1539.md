@@ -7,7 +7,7 @@ old-location: netmgmt\server_info_1539_str.htm
 tech.root: NetMgmt
 ms.assetid: 938c6db6-16ab-4c8c-8fe3-e12f8e0421b4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPSERVER_INFO_1539, *PSERVER_INFO_1539, LPSERVER_INFO_1539, LPSERVER_INFO_1539 structure pointer [Network Management], PSERVER_INFO_1539, PSERVER_INFO_1539 structure pointer [Network Management], SERVER_INFO_1539, SERVER_INFO_1539 structure [Network Management], _win32_server_info_1539_str, lmserver/LPSERVER_INFO_1539, lmserver/PSERVER_INFO_1539, lmserver/SERVER_INFO_1539, netmgmt.server_info_1539_str"
 ms.topic: struct
 req.header: lmserver.h

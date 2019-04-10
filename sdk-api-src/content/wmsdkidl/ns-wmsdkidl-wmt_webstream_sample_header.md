@@ -7,7 +7,7 @@ old-location: wmformat\wmt_webstream_sample_header.htm
 tech.root: wmformat
 ms.assetid: 5492af92-4829-4bf1-8512-3d57fbe70ce5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WMT_WEBSTREAM_SAMPLE_HEADER, WMT_WEBSTREAM_SAMPLE_HEADER structure [windows Media Format], wmformat.wmt_webstream_sample_header, wmsdkidl/WMT_WEBSTREAM_SAMPLE_HEADER
 ms.topic: struct
 req.header: wmsdkidl.h

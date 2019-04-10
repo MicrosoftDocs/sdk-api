@@ -7,7 +7,7 @@ old-location: rras\rtmderegisterfromchangenotification.htm
 tech.root: RRAS
 ms.assetid: 489668ce-9226-470d-8306-5ad0546275e7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RtmDeregisterFromChangeNotification, RtmDeregisterFromChangeNotification function [RAS], _rtmv2ref_rtmderegisterfromchangenotification, rras.rtmderegisterfromchangenotification, rtmv2/RtmDeregisterFromChangeNotification
 ms.topic: function
 req.header: rtmv2.h

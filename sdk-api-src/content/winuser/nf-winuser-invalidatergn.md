@@ -7,7 +7,7 @@ old-location: gdi\invalidatergn.htm
 tech.root: gdi
 ms.assetid: b5b44efe-8045-4e54-89f9-1766689a053d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: InvalidateRgn, InvalidateRgn function [Windows GDI], _win32_InvalidateRgn, gdi.invalidatergn, winuser/InvalidateRgn
 ms.topic: function
 req.header: winuser.h

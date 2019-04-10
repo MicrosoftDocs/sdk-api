@@ -7,7 +7,7 @@ old-location: wes\evtgetextendedstatus.htm
 tech.root: wes
 ms.assetid: 49451981-b3de-4515-ae88-835f17a0a8f9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EvtGetExtendedStatus, EvtGetExtendedStatus function [EventLog], wes.evtgetextendedstatus, winevt/EvtGetExtendedStatus
 ms.topic: function
 req.header: winevt.h

@@ -7,7 +7,7 @@ old-location: iphlp\tcp_estats_send_buff_rw_v0.htm
 tech.root: IpHlp
 ms.assetid: 1bc88d95-24d2-4ca3-9f4a-298d5c08f4de
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PTCP_ESTATS_SEND_BUFF_RW_v0, PTCP_ESTATS_SEND_BUFF_RW_v0, PTCP_ESTATS_SEND_BUFF_RW_v0 structure pointer [IP Helper], TCP_ESTATS_SEND_BUFF_RW_v0, TCP_ESTATS_SEND_BUFF_RW_v0 structure [IP Helper], iphlp.tcp_estats_send_buff_rw_v0, tcpestats/PTCP_ESTATS_SEND_BUFF_RW_v0, tcpestats/TCP_ESTATS_SEND_BUFF_RW_v0"
 ms.topic: struct
 req.header: tcpestats.h

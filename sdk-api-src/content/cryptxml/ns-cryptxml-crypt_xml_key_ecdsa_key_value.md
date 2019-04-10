@@ -7,7 +7,7 @@ old-location: security\crypt_xml_key_ecdsa_key_value.htm
 tech.root: SecCrypto
 ms.assetid: db7e8ee0-25b4-4e2e-83da-f970906c9da9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_KEY_ECDSA_KEY_VALUE, CRYPT_XML_KEY_ECDSA_KEY_VALUE structure [Security], cryptxml/CRYPT_XML_KEY_ECDSA_KEY_VALUE, security.crypt_xml_key_ecdsa_key_value
 ms.topic: struct
 req.header: cryptxml.h

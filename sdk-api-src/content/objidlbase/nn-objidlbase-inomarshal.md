@@ -7,7 +7,7 @@ old-location: com\inomarshal.htm
 tech.root: com
 ms.assetid: 6C82B08D-C8AF-4FB6-988C-CD7F9BABEE92
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: INoMarshal, INoMarshal interface [COM], INoMarshal interface [COM],described, com.inomarshal, objidl/INoMarshal
 ms.topic: interface
 req.header: objidlbase.h

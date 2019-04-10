@@ -7,7 +7,7 @@ old-location: direct2d\rectl.htm
 tech.root: Direct2D
 ms.assetid: CE2B4034-24BC-49AE-88C6-C60BDCEA38B5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RectL, RectL function [Direct2D], dciddi/RectL, direct2d.rectl
 ms.topic: function
 req.header: d2d1_1helper.h

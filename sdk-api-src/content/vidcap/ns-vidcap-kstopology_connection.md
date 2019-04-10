@@ -7,7 +7,7 @@ old-location: dshow\kstopology_connection.htm
 tech.root: DirectShow
 ms.assetid: 8fca47b7-4c52-46db-809c-77a0e3414276
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PKSTOPOLOGY_CONNECTION, KSTOPOLOGY_CONNECTION, KSTOPOLOGY_CONNECTION structure [DirectShow], KSTOPOLOGY_CONNECTIONStructure, PKSTOPOLOGY_CONNECTION, PKSTOPOLOGY_CONNECTION structure pointer [DirectShow], dshow.kstopology_connection, vidcap/KSTOPOLOGY_CONNECTION, vidcap/PKSTOPOLOGY_CONNECTION"
 ms.topic: struct
 req.header: vidcap.h

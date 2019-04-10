@@ -7,7 +7,7 @@ old-location: base\rtldeletefunctiontable.htm
 tech.root: Debug
 ms.assetid: 42bc3d83-8053-40e9-b153-f68733d0cb2b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RtlDeleteFunctionTable, RtlDeleteFunctionTable function, base.rtldeletefunctiontable, winnt/RtlDeleteFunctionTable
 ms.topic: function
 req.header: winnt.h

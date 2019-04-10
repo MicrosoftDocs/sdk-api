@@ -7,7 +7,7 @@ old-location: shell\IEnumSyncMgrConflict.htm
 tech.root: shell
 ms.assetid: 627f39be-5c9d-49a1-af73-210cdbb7940a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IEnumSyncMgrConflict, IEnumSyncMgrConflict interface [Windows Shell], IEnumSyncMgrConflict interface [Windows Shell],described, _shell_IEnumSyncMgrConflict, shell.IEnumSyncMgrConflict, syncmgr/IEnumSyncMgrConflict
 ms.topic: interface
 req.header: syncmgr.h

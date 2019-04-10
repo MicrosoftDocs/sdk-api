@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_setlastmodifiedby.htm
 tech.root: printdocs
 ms.assetid: 4c19e7c8-d790-42b8-a0c4-bfd95c7de2c5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetLastModifiedBy method, IXpsOMCoreProperties.SetLastModifiedBy, IXpsOMCoreProperties::SetLastModifiedBy, SetLastModifiedBy, SetLastModifiedBy method [XPS Documents and Packaging], SetLastModifiedBy method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setlastmodifiedby, xpsobjectmodel/IXpsOMCoreProperties::SetLastModifiedBy
 ms.topic: method
 req.header: xpsobjectmodel.h

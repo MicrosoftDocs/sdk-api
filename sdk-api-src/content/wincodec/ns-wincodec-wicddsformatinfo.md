@@ -7,7 +7,7 @@ old-location: wic\wicddsformatinfo.htm
 tech.root: wic
 ms.assetid: C5F1DA49-EC11-4068-9DC6-D721894371F9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PWICDdsFormatInfo, PWICDdsFormatInfo structure pointer [Windows Imaging Component], WICDdsFormatInfo, WICDdsFormatInfo structure [Windows Imaging Component], wic.wicddsformatinfo, wincodec/PWICDdsFormatInfo, wincodec/WICDdsFormatInfo
 ms.topic: struct
 req.header: wincodec.h

@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestdevicecapabilitiesenumerator_gethascurrent.ht
 tech.root: appxpkg
 ms.assetid: 52E0C961-F947-4F66-B3A0-21AB0F64C4B4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetHasCurrent, GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management],IAppxManifestDeviceCapabilitiesEnumerator interface, IAppxManifestDeviceCapabilitiesEnumerator interface [App packaging and management],GetHasCurrent method, IAppxManifestDeviceCapabilitiesEnumerator.GetHasCurrent, IAppxManifestDeviceCapabilitiesEnumerator::GetHasCurrent, appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator::GetHasCurrent, appxpkg.iappxmanifestdevicecapabilitiesenumerator_gethascurrent
 ms.topic: method
 req.header: appxpackaging.h

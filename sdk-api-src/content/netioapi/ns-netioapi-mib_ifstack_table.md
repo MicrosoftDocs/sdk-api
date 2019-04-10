@@ -7,7 +7,7 @@ old-location: mib\mib_ifstack_table.htm
 tech.root: MIB
 ms.assetid: b2f6eea7-c3d4-493d-bf55-bc95b97601bd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PMIB_IFSTACK_TABLE, MIB_IFSTACK_TABLE, MIB_IFSTACK_TABLE structure [MIB], PMIB_IFSTACK_TABLE, PMIB_IFSTACK_TABLE structure pointer [MIB], _MIB_IFSTACK_TABLE, mib.mib_ifstack_table, netioapi/MIB_IFSTACK_TABLE, netioapi/PMIB_IFSTACK_TABLE"
 ms.topic: struct
 req.header: netioapi.h

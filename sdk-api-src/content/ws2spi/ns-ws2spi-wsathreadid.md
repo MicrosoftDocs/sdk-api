@@ -7,7 +7,7 @@ old-location: winsock\wsathreadid_2.htm
 tech.root: WinSock
 ms.assetid: eeea1139-1d14-4f53-bd64-833539b53bed
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPWSATHREADID, LPWSATHREADID, LPWSATHREADID structure pointer [Winsock], WSATHREADID, WSATHREADID structure [Winsock], _win32_wsathreadid_2, winsock.wsathreadid_2, ws2spi/LPWSATHREADID, ws2spi/WSATHREADID"
 ms.topic: struct
 req.header: ws2spi.h

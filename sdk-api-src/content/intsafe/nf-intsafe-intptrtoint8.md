@@ -7,7 +7,7 @@ old-location: shell\IntPtrToInt8.htm
 tech.root: shell
 ms.assetid: b453eb77-fcf4-4f0b-8662-88e91f73c7b7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IntPtrToInt8, IntPtrToInt8 function [Windows Shell], intsafe/IntPtrToInt8, shell.IntPtrToInt8
 ms.topic: function
 req.header: intsafe.h

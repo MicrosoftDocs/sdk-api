@@ -7,7 +7,7 @@ old-location: ldap\ldap_modify_s.htm
 tech.root: ldap
 ms.assetid: 26002d58-a4ac-4fd6-aa63-39210f8fc883
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_modify_s, ldap.ldap__modify__s, ldap.ldap_modify_s, ldap_modify_s, ldap_modify_s function [LDAP], ldap_modify_sA, ldap_modify_sW, winldap/ldap_modify_s, winldap/ldap_modify_sA, winldap/ldap_modify_sW"
 ms.topic: function
 req.header: winldap.h

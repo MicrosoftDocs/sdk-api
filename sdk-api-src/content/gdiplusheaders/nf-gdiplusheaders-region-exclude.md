@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_Exclude_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionexcludemethods.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Exclude, Exclude methods [GDI+], Region.Exclude, Region::Exclude, _gdiplus_CLASS_Region_Exclude_Methods, gdiplus._gdiplus_CLASS_Region_Exclude_Methods, gdiplusheaders/Exclude
 ms.topic: method
 req.header: gdiplusheaders.h

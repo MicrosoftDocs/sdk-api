@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput1_duplicateoutput.htm
 tech.root: direct3ddxgi
 ms.assetid: 32B13906-0920-4891-B1E7-BCB291E78E73
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DuplicateOutput, DuplicateOutput method [DXGI], DuplicateOutput method [DXGI],IDXGIOutput1 interface, IDXGIOutput1 interface [DXGI],DuplicateOutput method, IDXGIOutput1.DuplicateOutput, IDXGIOutput1::DuplicateOutput, direct3ddxgi.idxgioutput1_duplicateoutput, dxgi1_2/IDXGIOutput1::DuplicateOutput
 ms.topic: method
 req.header: dxgi1_2.h

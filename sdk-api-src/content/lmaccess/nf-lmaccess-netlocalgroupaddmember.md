@@ -7,7 +7,7 @@ old-location: netmgmt\netlocalgroupaddmember.htm
 tech.root: NetMgmt
 ms.assetid: df249dfd-2509-4e67-af4d-b152b95d0eae
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NetLocalGroupAddMember, NetLocalGroupAddMember function [Network Management], _win32_netlocalgroupaddmember, lmaccess/NetLocalGroupAddMember, netmgmt.netlocalgroupaddmember
 ms.topic: function
 req.header: lmaccess.h

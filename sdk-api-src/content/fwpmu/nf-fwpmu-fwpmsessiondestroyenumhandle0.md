@@ -7,7 +7,7 @@ old-location: fwp\fwpmsessiondestroyenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: 468793d1-451d-4116-b635-f45edff10211
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FwpmSessionDestroyEnumHandle0, FwpmSessionDestroyEnumHandle0 function [Filtering], fwp.fwpmsessiondestroyenumhandle0_func, fwpmu/FwpmSessionDestroyEnumHandle0
 ms.topic: function
 req.header: fwpmu.h

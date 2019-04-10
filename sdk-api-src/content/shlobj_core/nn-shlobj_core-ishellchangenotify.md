@@ -7,7 +7,7 @@ old-location: shell\IShellChangeNotify.htm
 tech.root: shell
 ms.assetid: fc8d0bdd-0ca5-40e3-bdad-68ca1c64b08e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IShellChangeNotify, IShellChangeNotify interface [Windows Shell], IShellChangeNotify interface [Windows Shell],described, _win32_IShellChangeNotify, shell.IShellChangeNotify, shlobj_core/IShellChangeNotify
 ms.topic: interface
 req.header: shlobj_core.h

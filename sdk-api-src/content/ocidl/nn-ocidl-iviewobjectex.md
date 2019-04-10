@@ -7,7 +7,7 @@ old-location: com\iviewobjectex.htm
 tech.root: com
 ms.assetid: 4e677ec6-9c9e-4ee7-bb7f-1df6e590319b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IViewObjectEx, IViewObjectEx interface [COM], IViewObjectEx interface [COM],described, _ole_iviewobjectex, com.iviewobjectex, ocidl/IViewObjectEx
 ms.topic: interface
 req.header: ocidl.h

@@ -7,7 +7,7 @@ old-location: wec\ec_subscription_type.htm
 tech.root: WEC
 ms.assetid: b9906fd8-10d4-4bdd-97b9-fb1ae9d4c588
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EC_SUBSCRIPTION_TYPE, EC_SUBSCRIPTION_TYPE enumeration, EcSubscriptionTypeCollectorInitiated, EcSubscriptionTypeSourceInitiated, evcoll/EC_SUBSCRIPTION_TYPE, evcoll/EcSubscriptionTypeCollectorInitiated, evcoll/EcSubscriptionTypeSourceInitiated, wec.ec_subscription_type, wes.ec_subscription_type
 ms.topic: enum
 req.header: evcoll.h

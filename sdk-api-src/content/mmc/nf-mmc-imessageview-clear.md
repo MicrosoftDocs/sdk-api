@@ -7,7 +7,7 @@ old-location: mmc\imessageview_clear.htm
 tech.root: mmc
 ms.assetid: 495b92bf-1629-49f5-917c-290151c9176e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [MMC], Clear method [MMC],IMessageView interface, IMessageView interface [MMC],Clear method, IMessageView.Clear, IMessageView::Clear, _slate_imessageview_clear, mmc.imessageview_clear, mmc/IMessageView::Clear
 ms.topic: method
 req.header: mmc.h

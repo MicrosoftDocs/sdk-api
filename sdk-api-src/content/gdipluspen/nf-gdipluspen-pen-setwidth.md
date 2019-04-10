@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_SetWidth_width_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setwidth_58width.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Pen class [GDI+],SetWidth method, Pen.SetWidth, Pen::SetWidth, SetWidth, SetWidth method [GDI+], SetWidth method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetWidth_width_, gdiplus._gdiplus_CLASS_Pen_SetWidth_width_
 ms.topic: method
 req.header: gdipluspen.h

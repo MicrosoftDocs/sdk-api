@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphs_getunicodestring.htm
 tech.root: printdocs
 ms.assetid: 0b1573b5-c9c7-4c7b-8511-c5c2fc42ed3e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetUnicodeString, GetUnicodeString method [XPS Documents and Packaging], GetUnicodeString method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetUnicodeString method, IXpsOMGlyphs.GetUnicodeString, IXpsOMGlyphs::GetUnicodeString, xps.ixpsomglyphs_getunicodestring, xpsobjectmodel/IXpsOMGlyphs::GetUnicodeString
 ms.topic: method
 req.header: xpsobjectmodel.h

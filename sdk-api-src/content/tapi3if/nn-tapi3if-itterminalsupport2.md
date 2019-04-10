@@ -7,7 +7,7 @@ old-location: tapi3\itterminalsupport2.htm
 tech.root: Tapi
 ms.assetid: 58611991-746c-4626-a1b1-535a2134ee27
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITTerminalSupport2, ITTerminalSupport2 interface [TAPI 2.2], ITTerminalSupport2 interface [TAPI 2.2],described, _tapi3_itterminalsupport2, tapi3.itterminalsupport2, tapi3if/ITTerminalSupport2
 ms.topic: interface
 req.header: tapi3if.h

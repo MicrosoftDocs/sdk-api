@@ -7,7 +7,7 @@ old-location: netmgmt\localgroup_users_info_0_str.htm
 tech.root: NetMgmt
 ms.assetid: e9358f19-ec8f-4454-896c-c9fadb848378
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPLOCALGROUP_USERS_INFO_0, *PLOCALGROUP_USERS_INFO_0, LOCALGROUP_USERS_INFO_0, LOCALGROUP_USERS_INFO_0 structure [Network Management], LPLOCALGROUP_USERS_INFO_0, LPLOCALGROUP_USERS_INFO_0 structure pointer [Network Management], PLOCALGROUP_USERS_INFO_0, PLOCALGROUP_USERS_INFO_0 structure pointer [Network Management], _win32_localgroup_users_info_0_str, lmaccess/LOCALGROUP_USERS_INFO_0, lmaccess/LPLOCALGROUP_USERS_INFO_0, lmaccess/PLOCALGROUP_USERS_INFO_0, netmgmt.localgroup_users_info_0_str"
 ms.topic: struct
 req.header: lmaccess.h

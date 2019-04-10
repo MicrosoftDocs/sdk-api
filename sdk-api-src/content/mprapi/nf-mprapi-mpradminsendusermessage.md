@@ -7,7 +7,7 @@ old-location: rras\mpradminsendusermessage.htm
 tech.root: RRAS
 ms.assetid: 3c0d8b6c-25c1-47c3-baef-d82e6d2fa52f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MprAdminSendUserMessage, MprAdminSendUserMessage function [RAS], _mpr_mpradminsendusermessage, mprapi/MprAdminSendUserMessage, rras.mpradminsendusermessage
 ms.topic: function
 req.header: mprapi.h

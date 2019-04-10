@@ -7,7 +7,7 @@ old-location: base\filetimetodosdatetime.htm
 tech.root: SysInfo
 ms.assetid: 7295da08-02f0-4390-862f-cf4267b69230
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FileTimeToDosDateTime, FileTimeToDosDateTime function, _win32_filetimetodosdatetime, base.filetimetodosdatetime, winbase/FileTimeToDosDateTime
 ms.topic: function
 req.header: winbase.h

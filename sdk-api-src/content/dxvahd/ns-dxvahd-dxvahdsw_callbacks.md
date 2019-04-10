@@ -7,7 +7,7 @@ old-location: mf\dxvahdsw_callbacks.htm
 tech.root: medfound
 ms.assetid: 74c329cc-af54-4cf8-8cb6-eed9e96db4c5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DXVAHDSW_CALLBACKS, DXVAHDSW_CALLBACKS structure [Media Foundation], dxvahd/DXVAHDSW_CALLBACKS, mf.dxvahdsw_callbacks
 ms.topic: struct
 req.header: dxvahd.h

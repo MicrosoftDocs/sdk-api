@@ -7,7 +7,7 @@ old-location: security\mapbuffer.htm
 tech.root: SecAuthN
 ms.assetid: 3189da1b-5f2f-4569-8f60-6f3b287460f1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: LSA_MAP_BUFFER, LSA_MAP_BUFFER callback, MapBuffer, MapBuffer callback function [Security], _ssp_mapbuffer, ntsecpkg/MapBuffer, security.mapbuffer
 ms.topic: callback
 req.header: ntsecpkg.h

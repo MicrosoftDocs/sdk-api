@@ -7,7 +7,7 @@ old-location: wnet\wnetopenenum.htm
 tech.root: WNet
 ms.assetid: d99a549a-bf27-497f-a3be-bbe2c668bf90
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 0, RESOURCETYPE_ANY, RESOURCETYPE_DISK, RESOURCETYPE_PRINT, RESOURCEUSAGE_ALL, RESOURCEUSAGE_ATTACHED, RESOURCEUSAGE_CONNECTABLE, RESOURCEUSAGE_CONTAINER, RESOURCE_CONNECTED, RESOURCE_CONTEXT, RESOURCE_GLOBALNET, RESOURCE_REMEMBERED, WNetOpenEnum, WNetOpenEnum function [Windows Networking (WNet)], WNetOpenEnumA, WNetOpenEnumW, _win32_wnetopenenum, winnetwk/WNetOpenEnum, winnetwk/WNetOpenEnumA, winnetwk/WNetOpenEnumW, wnet.wnetopenenum
 ms.topic: function
 req.header: winnetwk.h

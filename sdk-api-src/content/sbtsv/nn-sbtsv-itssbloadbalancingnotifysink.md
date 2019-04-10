@@ -7,7 +7,7 @@ old-location: termserv\itssbloadbalancingnotifysink.htm
 tech.root: TermServ
 ms.assetid: cc6d2616-27e1-4731-91bf-fe96bcea2cab
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITsSbLoadBalancingNotifySink, ITsSbLoadBalancingNotifySink interface [Remote Desktop Services], ITsSbLoadBalancingNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbLoadBalancingNotifySink, termserv.itssbloadbalancingnotifysink
 ms.topic: interface
 req.header: sbtsv.h

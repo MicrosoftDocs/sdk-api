@@ -7,7 +7,7 @@ old-location: imapi\dfilesystemimageimportevents_updateimport.htm
 tech.root: imapi
 ms.assetid: 83617039-686d-4c03-9f43-02ecde2ca53e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DFileSystemImageImportEvents interface [IMAPI],UpdateImport method, DFileSystemImageImportEvents.UpdateImport, DFileSystemImageImportEvents::UpdateImport, UpdateImport, UpdateImport method [IMAPI], UpdateImport method [IMAPI],DFileSystemImageImportEvents interface, imapi.dfilesystemimageimportevents_updateimport, imapi2fs/DFileSystemImageImportEvents::UpdateImport
 ms.topic: method
 req.header: imapi2fs.h

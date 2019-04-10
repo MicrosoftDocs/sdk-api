@@ -7,7 +7,7 @@ old-location: base\symgetlinefrominlinecontext.htm
 tech.root: Debug
 ms.assetid: 0c362bd9-7496-436b-9e01-2054dc3dfc57
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SymGetLineFromInlineContext, SymGetLineFromInlineContext function, SymGetLineFromInlineContextW, base.symgetlinefrominlinecontext, dbghelp/SymGetLineFromInlineContext, dbghelp/SymGetLineFromInlineContextW
 ms.topic: function
 req.header: dbghelp.h

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1imagesource.htm
 tech.root: Direct2D
 ms.assetid: a9ee20db-98cf-bc5f-96d8-232073810cc5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ID2D1ImageSource, ID2D1ImageSource interface [Direct2D], ID2D1ImageSource interface [Direct2D],described, d2d1_3/ID2D1ImageSource, direct2d.id2d1imagesource
 ms.topic: interface
 req.header: d2d1_3.h

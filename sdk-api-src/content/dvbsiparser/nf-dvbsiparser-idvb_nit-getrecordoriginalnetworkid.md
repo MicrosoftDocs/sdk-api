@@ -7,7 +7,7 @@ old-location: mstv\idvb_nit_getrecordoriginalnetworkid.htm
 tech.root: mstv
 ms.assetid: 3179be9a-de2d-4cb3-ace2-ad5af66d35c8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetRecordOriginalNetworkId, GetRecordOriginalNetworkId method [Microsoft TV Technologies], GetRecordOriginalNetworkId method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],GetRecordOriginalNetworkId method, IDVB_NIT.GetRecordOriginalNetworkId, IDVB_NIT::GetRecordOriginalNetworkId, IDVB_NITGetRecordOriginalNetworkId, dvbsiparser/IDVB_NIT::GetRecordOriginalNetworkId, mstv.idvb_nit_getrecordoriginalnetworkid
 ms.topic: method
 req.header: dvbsiparser.h

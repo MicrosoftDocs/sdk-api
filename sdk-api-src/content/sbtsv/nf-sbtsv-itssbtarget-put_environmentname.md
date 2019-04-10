@@ -7,7 +7,7 @@ old-location: termserv\itssbtarget_environmentname.htm
 tech.root: TermServ
 ms.assetid: 84a1b903-a836-4d8e-bde7-609f7f875d8f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EnvironmentName property [Remote Desktop Services], EnvironmentName property [Remote Desktop Services],ITsSbTarget interface, EnvironmentName property [Remote Desktop Services],ITsSbTargetEx interface, ITsSbTarget interface [Remote Desktop Services],EnvironmentName property, ITsSbTarget.EnvironmentName, ITsSbTarget.put_EnvironmentName, ITsSbTarget::EnvironmentName, ITsSbTarget::get_EnvironmentName, ITsSbTarget::put_EnvironmentName, ITsSbTargetEx interface [Remote Desktop Services],EnvironmentName property, ITsSbTargetEx.EnvironmentName, ITsSbTargetEx::get_EnvironmentName, ITsSbTargetEx::put_EnvironmentName, put_EnvironmentName, sbtsv/ITsSbTarget::EnvironmentName, sbtsv/ITsSbTarget::get_EnvironmentName, sbtsv/ITsSbTarget::put_EnvironmentName, sbtsv/ITsSbTargetEx::EnvironmentName, sbtsv/ITsSbTargetEx::get_EnvironmentName, sbtsv/ITsSbTargetEx::put_EnvironmentName, termserv.itssbtarget_environmentname
 ms.topic: method
 req.header: sbtsv.h

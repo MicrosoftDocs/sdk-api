@@ -7,7 +7,7 @@ old-location: termserv\wts_protocol_status.htm
 tech.root: TermServ
 ms.assetid: 20e66033-fc79-49c9-af0e-abaf6e4ba501
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PWTS_PROTOCOL_STATUS, PWRDS_PROTOCOL_STATUS, PWRDS_PROTOCOL_STATUS structure pointer [Remote Desktop Services], PWTS_PROTOCOL_STATUS, PWTS_PROTOCOL_STATUS structure pointer [Remote Desktop Services], WRDS_PROTOCOL_STATUS, WRDS_PROTOCOL_STATUS structure [Remote Desktop Services], WTS_PROTOCOL_STATUS, WTS_PROTOCOL_STATUS structure [Remote Desktop Services], termserv.wts_protocol_status, wtsdefs/PWRDS_PROTOCOL_STATUS, wtsdefs/PWTS_PROTOCOL_STATUS, wtsdefs/WRDS_PROTOCOL_STATUS, wtsdefs/WTS_PROTOCOL_STATUS"
 ms.topic: struct
 req.header: wtsdefs.h

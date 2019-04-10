@@ -7,7 +7,7 @@ old-location: automat\sysallocstringlen.htm
 tech.root: automat
 ms.assetid: f98bff39-bc5f-4a81-85d7-d5228e20fbc8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SysAllocStringLen, SysAllocStringLen function [Automation], _oa96_SysAllocStringLen, automat.sysallocstringlen, oleauto/SysAllocStringLen
 ms.topic: function
 req.header: oleauto.h

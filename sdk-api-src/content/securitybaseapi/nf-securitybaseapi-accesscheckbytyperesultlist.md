@@ -7,7 +7,7 @@ old-location: security\accesscheckbytyperesultlist.htm
 tech.root: SecAuthZ
 ms.assetid: ce713421-d4ff-48ed-b751-5e5c5397d820
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AccessCheckByTypeResultList, AccessCheckByTypeResultList function [Security], _win32_accesscheckbytyperesultlist, security.accesscheckbytyperesultlist, securitybaseapi/AccessCheckByTypeResultList
 ms.topic: function
 req.header: securitybaseapi.h

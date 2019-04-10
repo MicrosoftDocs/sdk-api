@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_FillPie_Brush_brush_REAL_x_REAL_y_
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillpiemethods\fillpie_76brushbrush_realx_realy_realwidth_realh.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FillPie, FillPie method [GDI+], FillPie method [GDI+],Graphics class, Graphics class [GDI+],FillPie method, Graphics.FillPie, Graphics.FillPie(IN const Brush,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL), Graphics.FillPie(const Brush*,REAL,REAL,REAL,REAL,REAL,REAL), Graphics::FillPie, Graphics::FillPie(IN const Brush,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_Graphics_FillPie_Brush_brush_REAL_x_REAL_y_REAL_width_REAL_height_REAL_startAngle_REA, gdiplus._gdiplus_CLASS_Graphics_FillPie_Brush_brush_REAL_x_REAL_y_REAL_width_REAL_height_REAL_startAngle_REA
 ms.topic: method
 req.header: gdiplusgraphics.h

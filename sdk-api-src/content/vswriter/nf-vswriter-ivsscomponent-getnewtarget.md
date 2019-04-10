@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_getnewtarget.htm
 tech.root: VSS
 ms.assetid: 21f22fae-2230-418b-8942-754c863a9213
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetNewTarget, GetNewTarget method [VSS], GetNewTarget method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetNewTarget method, IVssComponent.GetNewTarget, IVssComponent::GetNewTarget, _win32_ivsscomponent_getnewtarget, base.ivsscomponent_getnewtarget, vswriter/IVssComponent::GetNewTarget
 ms.topic: method
 req.header: vswriter.h

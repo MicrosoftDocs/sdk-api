@@ -7,7 +7,7 @@ old-location: security\spmarshallsupplementalcreds.htm
 tech.root: SecAuthN
 ms.assetid: 64792843-5129-4a71-b88b-b4caf495a567
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SpMarshallSupplementalCreds, SpMarshallSupplementalCreds callback function [Security], SpMarshallSupplementalCredsFn, SpMarshallSupplementalCredsFn callback, _ssp_spmarshallsupplementalcreds, ntsecpkg/SpMarshallSupplementalCreds, security.spmarshallsupplementalcreds
 ms.topic: callback
 req.header: ntsecpkg.h

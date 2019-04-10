@@ -7,7 +7,7 @@ old-location: cloudapi\cfconnectsyncroot.htm
 tech.root: cfApi
 ms.assetid: 287DA978-9797-48DF-9C90-BA53BB82475C
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CfConnectSyncRoot, CfConnectSyncRoot function, cfapi/CfConnectSyncRoot, cloudApi.cfconnectsyncroot
 ms.topic: function
 req.header: cfapi.h

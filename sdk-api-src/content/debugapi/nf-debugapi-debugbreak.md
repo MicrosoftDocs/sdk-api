@@ -7,7 +7,7 @@ old-location: base\debugbreak.htm
 tech.root: Debug
 ms.assetid: 1ca9d2d1-eed4-4982-8964-64b44e8be256
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DebugBreak, DebugBreak function, _win32_debugbreak, base.debugbreak, debugapi/DebugBreak
 ms.topic: function
 req.header: debugapi.h

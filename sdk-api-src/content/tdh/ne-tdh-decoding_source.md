@@ -7,7 +7,7 @@ old-location: etw\decoding_source_enum.htm
 tech.root: ETW
 ms.assetid: d6cd09da-9a67-4df2-9d82-370c559d3bfc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DECODING_SOURCE, DECODING_SOURCE enumeration [ETW], DecodingSourceTlg, DecodingSourceWPP, DecodingSourceWbem, DecodingSourceXMLFile, etw.decoding_source_enum, tdh.decoding_source_enum, tdh/DECODING_SOURCE, tdh/DecodingSourceTlg, tdh/DecodingSourceWPP, tdh/DecodingSourceWbem, tdh/DecodingSourceXMLFile
 ms.topic: enum
 req.header: tdh.h

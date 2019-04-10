@@ -7,7 +7,7 @@ old-location: dxmath\xmcolornegative.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorNegative(XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMColorNegative, XMColorNegative, XMColorNegative method [DirectX Math Support APIs], dxmath.xmcolornegative
 ms.topic: function
 req.header: directxmath.h

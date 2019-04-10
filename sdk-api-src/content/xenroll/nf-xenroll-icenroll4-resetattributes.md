@@ -7,7 +7,7 @@ old-location: security\icenroll4_resetattributes.htm
 tech.root: SecCrypto
 ms.assetid: 606cc93a-cc18-43fb-94e7-dc35dc7f2533
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],resetAttributes method, ICEnroll4 interface [Security],resetAttributes method, ICEnroll4.resetAttributes, ICEnroll4::resetAttributes, _xen_icenroll4_resetattributes, resetAttributes, resetAttributes method [Security], resetAttributes method [Security],CEnroll object, resetAttributes method [Security],ICEnroll4 interface, security.icenroll4_resetattributes, xenroll/ICEnroll4::resetAttributes
 ms.topic: method
 req.header: xenroll.h

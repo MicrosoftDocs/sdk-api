@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaHostProviderFromHwndFunction.htm
 tech.root: WinAuto
 ms.assetid: 8cc8a8d8-a4e0-477e-bf3b-2fd5df2b9db1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: UiaHostProviderFromHwnd, UiaHostProviderFromHwnd function [Windows Accessibility], uiauto.uiauto_UiaHostProviderFromHwndFunction, uiauto_UiaHostProviderFromHwndFunction, uiautomationcoreapi/UiaHostProviderFromHwnd, winauto.uiauto_UiaHostProviderFromHwndFunction
 ms.topic: function
 req.header: uiautomationcoreapi.h

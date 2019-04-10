@@ -7,7 +7,7 @@ old-location: imapi\istreamconcatenate.htm
 tech.root: imapi
 ms.assetid: 48b786ef-a1b6-4dcf-9329-c659f15185e1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IStreamConcatenate, IStreamConcatenate interface [IMAPI], IStreamConcatenate interface [IMAPI],described, imapi.istreamconcatenate, imapi2/IStreamConcatenate
 ms.topic: interface
 req.header: imapi2.h

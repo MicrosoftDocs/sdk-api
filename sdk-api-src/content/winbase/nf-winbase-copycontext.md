@@ -7,7 +7,7 @@ old-location: base\copycontext.htm
 tech.root: Debug
 ms.assetid: 805CD02A-53BC-487C-83F8-FE804368C770
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CopyContext, CopyContext function, base.copycontext, winbase/CopyContext
 ms.topic: function
 req.header: winbase.h

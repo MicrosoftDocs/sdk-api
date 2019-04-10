@@ -7,7 +7,7 @@ old-location: security\iazapplication_deleterole.htm
 tech.root: SecAuthZ
 ms.assetid: c97c271a-f08c-481e-9787-61518d8cbb73
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],DeleteRole method, DeleteRole, DeleteRole method [Security], DeleteRole method [Security],AzApplication object, DeleteRole method [Security],IAzApplication interface, IAzApplication interface [Security],DeleteRole method, IAzApplication.DeleteRole, IAzApplication::DeleteRole, azroles/IAzApplication::DeleteRole, security.iazapplication_deleterole
 ms.topic: method
 req.header: azroles.h

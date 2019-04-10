@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_blend.htm
 tech.root: Direct2D
 ms.assetid: 9bc91efd-f695-4bc6-a63e-a3862cca91dd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: D2D1_BLEND, D2D1_BLEND enumeration [Direct2D], D2D1_BLEND_BLEND_FACTOR, D2D1_BLEND_DEST_ALPHA, D2D1_BLEND_DEST_COLOR, D2D1_BLEND_INV_BLEND_FACTOR, D2D1_BLEND_INV_DEST_ALPHA, D2D1_BLEND_INV_DEST_COLOR, D2D1_BLEND_INV_SRC_ALPHA, D2D1_BLEND_INV_SRC_COLOR, D2D1_BLEND_ONE, D2D1_BLEND_SRC_ALPHA, D2D1_BLEND_SRC_ALPHA_SAT, D2D1_BLEND_SRC_COLOR, D2D1_BLEND_ZERO, d2d1effectauthor/D2D1_BLEND, d2d1effectauthor/D2D1_BLEND_BLEND_FACTOR, d2d1effectauthor/D2D1_BLEND_DEST_ALPHA, d2d1effectauthor/D2D1_BLEND_DEST_COLOR, d2d1effectauthor/D2D1_BLEND_INV_BLEND_FACTOR, d2d1effectauthor/D2D1_BLEND_INV_DEST_ALPHA, d2d1effectauthor/D2D1_BLEND_INV_DEST_COLOR, d2d1effectauthor/D2D1_BLEND_INV_SRC_ALPHA, d2d1effectauthor/D2D1_BLEND_INV_SRC_COLOR, d2d1effectauthor/D2D1_BLEND_ONE, d2d1effectauthor/D2D1_BLEND_SRC_ALPHA, d2d1effectauthor/D2D1_BLEND_SRC_ALPHA_SAT, d2d1effectauthor/D2D1_BLEND_SRC_COLOR, d2d1effectauthor/D2D1_BLEND_ZERO, direct2d.d2d1_blend
 ms.topic: enum
 req.header: d2d1effectauthor.h

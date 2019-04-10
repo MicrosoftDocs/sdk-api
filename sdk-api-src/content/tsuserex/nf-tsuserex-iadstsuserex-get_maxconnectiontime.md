@@ -7,7 +7,7 @@ old-location: termserv\iadstsuserex_maxconnectiontime.htm
 tech.root: TermServ
 ms.assetid: c1ba5610-b144-4dbe-9a66-605636a81e9c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IADsTSUserEx interface [Remote Desktop Services],MaxConnectionTime property, IADsTSUserEx.MaxConnectionTime, IADsTSUserEx.get_MaxConnectionTime, IADsTSUserEx::MaxConnectionTime, IADsTSUserEx::get_MaxConnectionTime, IADsTSUserEx::put_MaxConnectionTime, MaxConnectionTime property [Remote Desktop Services], MaxConnectionTime property [Remote Desktop Services],IADsTSUserEx interface, get_MaxConnectionTime, termserv.iadstsuserex_maxconnectiontime, tsuserex/IADsTSUserEx::MaxConnectionTime, tsuserex/IADsTSUserEx::get_MaxConnectionTime, tsuserex/IADsTSUserEx::put_MaxConnectionTime
 ms.topic: method
 req.header: tsuserex.h

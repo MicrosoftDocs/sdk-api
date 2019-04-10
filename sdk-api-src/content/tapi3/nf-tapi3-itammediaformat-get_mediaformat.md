@@ -7,7 +7,7 @@ old-location: tapi3\itammediaformat_get_mediaformat.htm
 tech.root: Tapi
 ms.assetid: 384cd41e-b59a-4ac4-9687-cf0f0738dfe0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITAMMediaFormat interface [TAPI 2.2],get_MediaFormat method, ITAMMediaFormat.get_MediaFormat, ITAMMediaFormat::get_MediaFormat, _tapi3_itammediaformat_get_mediaformat, get_MediaFormat, get_MediaFormat method [TAPI 2.2], get_MediaFormat method [TAPI 2.2],ITAMMediaFormat interface, tapi3.itammediaformat_get_mediaformat, tapi3ds/ITAMMediaFormat::get_MediaFormat
 ms.topic: method
 req.header: tapi3.h

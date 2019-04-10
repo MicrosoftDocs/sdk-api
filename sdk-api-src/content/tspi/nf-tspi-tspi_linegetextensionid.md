@@ -7,7 +7,7 @@ old-location: tspi\tspi_linegetextensionid.htm
 tech.root: Tapi
 ms.assetid: aaea0a6a-bf22-491f-b1bf-d2195fba6af5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TSPI_lineGetExtensionID, TSPI_lineGetExtensionID function [TAPI 2.2], _tspi_tspi_linegetextensionid, tspi.tspi_linegetextensionid, tspi/TSPI_lineGetExtensionID
 ms.topic: function
 req.header: tspi.h

@@ -7,7 +7,7 @@ old-location: mstv\ibda_aux.htm
 tech.root: mstv
 ms.assetid: 8397a04f-5d40-4fa3-ac02-79c764abd174
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IBDA_AUX, IBDA_AUX interface [Microsoft TV Technologies], IBDA_AUX interface [Microsoft TV Technologies],described, bdaiface/IBDA_AUX, mstv.ibda_aux
 ms.topic: interface
 req.header: bdaiface.h

@@ -7,7 +7,7 @@ old-location: base\wow64_ldt_entry_str.htm
 tech.root: Debug
 ms.assetid: a571cd2f-0873-4ad5-bcb8-c0da2d47a820
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PWOW64_LDT_ENTRY, PWOW64_LDT_ENTRY, PWOW64_LDT_ENTRY structure pointer, WOW64_LDT_ENTRY, WOW64_LDT_ENTRY structure, _WOW64_LDT_ENTRY, base.wow64_ldt_entry_str, winnt/LDT_ENTRY, winnt/PWOW64_LDT_ENTRY"
 ms.topic: struct
 req.header: winnt.h

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicprogressnotification.htm
 tech.root: wic
 ms.assetid: 6d7ef6f1-2024-4de5-9c2e-8edc6359f79b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WICProgressNotification, WICProgressNotification enumeration [Windows Imaging Component], WICProgressNotificationAll, WICProgressNotificationBegin, WICProgressNotificationEnd, WICProgressNotificationFrequent, _wic_codec_wicprogressnotification, wic._wic_codec_wicprogressnotification, wincodec/WICProgressNotification, wincodec/WICProgressNotificationAll, wincodec/WICProgressNotificationBegin, wincodec/WICProgressNotificationEnd, wincodec/WICProgressNotificationFrequent
 ms.topic: enum
 req.header: wincodec.h

@@ -7,7 +7,7 @@ old-location: mf\mft_registration_info.htm
 tech.root: medfound
 ms.assetid: 7d610edf-89e3-4ff3-9ad8-b92ee50df522
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MFT_REGISTRATION_INFO, MFT_REGISTRATION_INFO structure [Media Foundation], mf.mft_registration_info, mfidl/MFT_REGISTRATION_INFO
 ms.topic: struct
 req.header: mfidl.h

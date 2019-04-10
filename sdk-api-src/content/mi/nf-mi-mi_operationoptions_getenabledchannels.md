@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationoptions_getenabledchannels.htm
 tech.root: wmi_v2
 ms.assetid: 5604288f-cc51-40b2-b9a8-5d972e05b172
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_GetEnabledChannels, MI_OperationOptions_GetEnabledChannels function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetEnabledChannels, wmi_v2.mi_operationoptions_getenabledchannels
 ms.topic: function
 req.header: mi.h

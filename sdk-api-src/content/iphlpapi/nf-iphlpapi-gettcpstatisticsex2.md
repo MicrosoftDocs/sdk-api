@@ -7,7 +7,7 @@ old-location: iphlp\gettcpstatisticsex2.htm
 tech.root: IpHlp
 ms.assetid: E7D988E3-4CE9-4BD3-96C7-4C16D2D6FA9C
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, GetTcpStatisticsEx2, GetTcpStatisticsEx2 function [IP Helper], iphlp.gettcpstatisticsex2, iphlpapi/GetTcpStatisticsEx2
 ms.topic: function
 req.header: iphlpapi.h

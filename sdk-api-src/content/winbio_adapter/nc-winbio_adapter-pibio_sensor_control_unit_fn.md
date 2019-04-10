@@ -7,7 +7,7 @@ old-location: secbiomet\sensoradaptercontrolunit.htm
 tech.root: SecBioMet
 ms.assetid: cc37b9a0-bea8-4413-a2fe-30a92db74604
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PIBIO_SENSOR_CONTROL_UNIT_FN, PIBIO_SENSOR_CONTROL_UNIT_FN callback, SensorAdapterControlUnit, SensorAdapterControlUnit callback function [Windows Biometric Framework API], secbiomet.sensoradaptercontrolunit, winbio_adapter/SensorAdapterControlUnit
 ms.topic: callback
 req.header: winbio_adapter.h

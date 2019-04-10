@@ -7,7 +7,7 @@ old-location: mf\imftranscodesinkinfoprovider.htm
 tech.root: medfound
 ms.assetid: c5eb0c30-559a-44dd-80d4-4b11933dc7ce
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMFTranscodeSinkInfoProvider, IMFTranscodeSinkInfoProvider interface [Media Foundation], IMFTranscodeSinkInfoProvider interface [Media Foundation],described, mf.imftranscodesinkinfoprovider, mfidl/IMFTranscodeSinkInfoProvider
 ms.topic: interface
 req.header: mfidl.h

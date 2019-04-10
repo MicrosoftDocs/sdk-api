@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_StringFormat_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformat.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: StringFormat, StringFormat class [GDI+], StringFormat class [GDI+],described, _gdiplus_CLASS_StringFormat_Class, gdiplus._gdiplus_CLASS_StringFormat_Class, gdiplusstringformat/StringFormat
 ms.topic: class
 req.header: gdiplusstringformat.h

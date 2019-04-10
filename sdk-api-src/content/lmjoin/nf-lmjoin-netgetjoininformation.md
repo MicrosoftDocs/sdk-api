@@ -7,7 +7,7 @@ old-location: netmgmt\netgetjoininformation.htm
 tech.root: NetMgmt
 ms.assetid: c7cc1cf2-4530-4039-806b-fbee572f564d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NetGetJoinInformation, NetGetJoinInformation function [Network Management], NetSetupDomainName, NetSetupUnjoined, NetSetupUnknownStatus, NetSetupWorkgroupName, _win32_netgetjoininformation, lmjoin/NetGetJoinInformation, netmgmt.netgetjoininformation
 ms.topic: function
 req.header: lmjoin.h

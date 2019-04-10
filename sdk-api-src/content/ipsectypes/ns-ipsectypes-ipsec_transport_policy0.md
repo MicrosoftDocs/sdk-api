@@ -7,7 +7,7 @@ old-location: fwp\ipsec_transport_policy0_struct.htm
 tech.root: fwp
 ms.assetid: c17ebe74-41e3-467c-875a-db43978a5234
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IPSEC_POLICY_FLAG_DONT_NEGOTIATE_BYTE_LIFETIME, IPSEC_POLICY_FLAG_DONT_NEGOTIATE_SECOND_LIFETIME, IPSEC_POLICY_FLAG_NAT_ENCAP_ALLOW_GENERAL_NAT_TRAVERSAL, IPSEC_POLICY_FLAG_NAT_ENCAP_ALLOW_PEER_BEHIND_NAT, IPSEC_POLICY_FLAG_ND_BOUNDARY, IPSEC_POLICY_FLAG_ND_SECURE, IPSEC_TRANSPORT_POLICY0, IPSEC_TRANSPORT_POLICY0 structure [Filtering], fwp.ipsec_transport_policy0_struct, ipsectypes/IPSEC_TRANSPORT_POLICY0
 ms.topic: struct
 req.header: ipsectypes.h

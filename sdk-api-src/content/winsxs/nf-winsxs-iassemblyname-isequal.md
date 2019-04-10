@@ -7,7 +7,7 @@ old-location: setup\iassemblyname_isequal.htm
 tech.root: SbsCs
 ms.assetid: 798102ce-b696-4940-941d-c3fd3054c584
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IAssemblyName interface [Side-by-side Assemblies],IsEqual method, IAssemblyName.IsEqual, IAssemblyName::IsEqual, IsEqual, IsEqual method [Side-by-side Assemblies], IsEqual method [Side-by-side Assemblies],IAssemblyName interface, setup.iassemblyname_isequal, winsxs/IAssemblyName::IsEqual
 ms.topic: method
 req.header: winsxs.h

@@ -7,7 +7,7 @@ old-location: base\service_description_str.htm
 tech.root: Services
 ms.assetid: 1b4e18d5-6086-4d1b-b39c-1d919bfdc0b9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPSERVICE_DESCRIPTIONW, LPSERVICE_DESCRIPTION, LPSERVICE_DESCRIPTION structure pointer, SERVICE_DESCRIPTION, SERVICE_DESCRIPTION structure, SERVICE_DESCRIPTIONA, SERVICE_DESCRIPTIONW, _win32_service_description_str, base.service_description_str, winsvc/LPSERVICE_DESCRIPTION, winsvc/SERVICE_DESCRIPTION, winsvc/SERVICE_DESCRIPTIONA, winsvc/SERVICE_DESCRIPTIONW"
 ms.topic: struct
 req.header: winsvc.h

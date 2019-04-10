@@ -7,7 +7,7 @@ old-location: p2p\peercollabenumendpoints.htm
 tech.root: P2PSdk
 ms.assetid: c29d089c-1f1e-4d50-9a3a-18c844b4ad1c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PeerCollabEnumEndpoints, PeerCollabEnumEndpoints function [Peer Networking], p2p.peercollabenumendpoints, p2p/PeerCollabEnumEndpoints
 ms.topic: function
 req.header: p2p.h

@@ -7,7 +7,7 @@ old-location: base\irtwqasyncresult_getstatenoaddref.htm
 tech.root: ProcThread
 ms.assetid: DF41E4E7-015C-469A-A94F-16F06445B804
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetStateNoAddRef, GetStateNoAddRef method, GetStateNoAddRef method,IRtwqAsyncResult interface, IRtwqAsyncResult interface,GetStateNoAddRef method, IRtwqAsyncResult.GetStateNoAddRef, IRtwqAsyncResult::GetStateNoAddRef, base.irtwqasyncresult_getstatenoaddref, rtworkq/IRtwqAsyncResult::GetStateNoAddRef
 ms.topic: method
 req.header: rtworkq.h

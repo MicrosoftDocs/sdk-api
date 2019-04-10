@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgelement_appendchild.htm
 tech.root: Direct2D
 ms.assetid: BE9F0820-D66E-4B20-8790-3D5B3652754B
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AppendChild, AppendChild method [Direct2D], AppendChild method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],AppendChild method, ID2D1SvgElement.AppendChild, ID2D1SvgElement::AppendChild, d2d1svg/ID2D1SvgElement::AppendChild, direct2d.id2d1svgelement_appendchild
 ms.topic: method
 req.header: d2d1svg.h

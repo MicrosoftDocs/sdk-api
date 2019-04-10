@@ -7,7 +7,7 @@ old-location: intl\ispellchecker_id.htm
 tech.root: Intl
 ms.assetid: ba3a520b-feea-4ea4-b285-f44a1e1fc518
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],Id property, ISpellChecker.Id, ISpellChecker.get_Id, ISpellChecker::Id, ISpellChecker::get_Id, Id property [Internationalization for Windows Applications], Id property [Internationalization for Windows Applications],ISpellChecker interface, get_Id, intl.ispellchecker_id, spellcheck/ISpellChecker::Id, spellcheck/ISpellChecker::get_Id
 ms.topic: method
 req.header: spellcheck.h

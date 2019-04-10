@@ -7,7 +7,7 @@ old-location: wua\iupdateservice_offerswindowsupdates.htm
 tech.root: Wua_Sdk
 ms.assetid: 926230ea-e8cf-4ecb-980a-88852d033c70
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],OffersWindowsUpdates property, IUpdateService.OffersWindowsUpdates, IUpdateService.get_OffersWindowsUpdates, IUpdateService::OffersWindowsUpdates, IUpdateService::get_OffersWindowsUpdates, OffersWindowsUpdates property [Windows Update Agent], OffersWindowsUpdates property [Windows Update Agent],IUpdateService interface, get_OffersWindowsUpdates, wua.iupdateservice_offerswindowsupdates, wuapi/IUpdateService::OffersWindowsUpdates, wuapi/IUpdateService::get_OffersWindowsUpdates
 ms.topic: method
 req.header: wuapi.h

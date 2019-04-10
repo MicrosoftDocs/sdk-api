@@ -7,7 +7,7 @@ old-location: tsf\itfmsaacontrol_systemdisablemsaa.htm
 tech.root: TSF
 ms.assetid: 344cabbb-286e-415d-980f-349fb637a78d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITfMSAAControl interface [Text Services Framework],SystemDisableMSAA method, ITfMSAAControl.SystemDisableMSAA, ITfMSAAControl::SystemDisableMSAA, SystemDisableMSAA, SystemDisableMSAA method [Text Services Framework], SystemDisableMSAA method [Text Services Framework],ITfMSAAControl interface, msaatext/ITfMSAAControl::SystemDisableMSAA, tsf.itfmsaacontrol_systemdisablemsaa
 ms.topic: method
 req.header: msaatext.h

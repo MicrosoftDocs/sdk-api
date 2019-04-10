@@ -7,7 +7,7 @@ old-location: cos\iobjectcontrol_deactivate.htm
 tech.root: cossdk
 ms.assetid: e076e7ce-867a-47ab-bd7e-9754b7d81e43
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Deactivate, Deactivate method [COM+], Deactivate method [COM+],IObjectControl interface, IObjectControl interface [COM+],Deactivate method, IObjectControl.Deactivate, IObjectControl::Deactivate, _cos_IObjectControl_Deactivate, comsvcs/IObjectControl::Deactivate, cos.iobjectcontrol_deactivate
 ms.topic: method
 req.header: comsvcs.h

@@ -7,7 +7,7 @@ old-location: xps\ixpsomgeometryfigurecollection_insertat.htm
 tech.root: printdocs
 ms.assetid: 1d550f36-ef0a-4a01-9c40-83e022634f73
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMGeometryFigureCollection.InsertAt, IXpsOMGeometryFigureCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMGeometryFigureCollection interface, xps.ixpsomgeometryfigurecollection_insertat, xpsobjectmodel/IXpsOMGeometryFigureCollection::InsertAt
 ms.topic: method
 req.header: xpsobjectmodel.h

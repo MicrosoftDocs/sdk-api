@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_shaping_glyph_properties.htm
 tech.root: DirectWrite
 ms.assetid: debaa84f-8883-4117-9be0-962857b55020
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DWRITE_SHAPING_GLYPH_PROPERTIES, DWRITE_SHAPING_GLYPH_PROPERTIES structure [Direct Write], directwrite.dwrite_shaping_glyph_properties, dwrite/DWRITE_SHAPING_GLYPH_PROPERTIES
 ms.topic: struct
 req.header: dwrite.h

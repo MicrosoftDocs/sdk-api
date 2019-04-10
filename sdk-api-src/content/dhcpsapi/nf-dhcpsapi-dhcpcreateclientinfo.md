@@ -7,7 +7,7 @@ old-location: dhcp\dhcpcreateclientinfo.htm
 tech.root: DHCP
 ms.assetid: 121718db-a7d8-42b7-b1a1-5c2dbe7d3d6b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DhcpCreateClientInfo, DhcpCreateClientInfo function [DHCP], dhcp.dhcpcreateclientinfo, dhcpsapi/DhcpCreateClientInfo
 ms.topic: function
 req.header: dhcpsapi.h

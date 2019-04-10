@@ -7,7 +7,7 @@ old-location: fwp\fwpmlayerdestroyenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: 351112c2-7ede-4aa7-8ef3-673efeb1c7bb
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FwpmLayerDestroyEnumHandle0, FwpmLayerDestroyEnumHandle0 function [Filtering], fwp.fwpmlayerdestroyenumhandle0_func, fwpmu/FwpmLayerDestroyEnumHandle0
 ms.topic: function
 req.header: fwpmu.h

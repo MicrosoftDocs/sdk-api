@@ -7,7 +7,7 @@ old-location: dfs\netdfsremovestdroot.htm
 tech.root: Dfs
 ms.assetid: 850427cc-56da-45cc-8833-e242acc53589
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NetDfsRemoveStdRoot, NetDfsRemoveStdRoot function [Distributed File System], _win32_netdfsremovestdroot, dfs.netdfsremovestdroot, fs.netdfsremovestdroot, lmdfs/NetDfsRemoveStdRoot, netmgmt.netdfsremovestdroot
 ms.topic: function
 req.header: lmdfs.h

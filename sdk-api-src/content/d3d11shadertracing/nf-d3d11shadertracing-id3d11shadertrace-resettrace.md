@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shadertrace_resettrace.htm
 tech.root: direct3d11
 ms.assetid: 91612AEF-A83B-4B2A-960B-D7AA7F41ED41
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ID3D11ShaderTrace interface [Direct3D 11],ResetTrace method, ID3D11ShaderTrace.ResetTrace, ID3D11ShaderTrace::ResetTrace, ResetTrace, ResetTrace method [Direct3D 11], ResetTrace method [Direct3D 11],ID3D11ShaderTrace interface, d3d11shadertracing/ID3D11ShaderTrace::ResetTrace, direct3d11.id3d11shadertrace_resettrace
 ms.topic: method
 req.header: d3d11shadertracing.h

@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiovolumelevel.htm
 tech.root: CoreAudio
 ms.assetid: 5e7d7111-e4b0-43b3-af35-9878d1a19e5f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IAudioVolumeLevel, IAudioVolumeLevel interface [Core Audio], IAudioVolumeLevel interface [Core Audio],described, coreaudio.iaudiovolumelevel, devicetopology/IAudioVolumeLevel
 ms.topic: interface
 req.header: devicetopology.h

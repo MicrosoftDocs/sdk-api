@@ -7,7 +7,7 @@ old-location: ad\adspropcreatenotifyobj.htm
 tech.root: ad
 ms.assetid: bfca3801-0d24-4177-8173-b6bf4b854fae
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ADsPropCreateNotifyObj, ADsPropCreateNotifyObj function [Active Directory], ad.adspropcreatenotifyobj, adsprop/ADsPropCreateNotifyObj
 ms.topic: function
 req.header: adsprop.h

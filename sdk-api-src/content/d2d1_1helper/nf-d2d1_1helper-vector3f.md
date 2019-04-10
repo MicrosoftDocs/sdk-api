@@ -7,7 +7,7 @@ old-location: direct2d\vector3f.htm
 tech.root: Direct2D
 ms.assetid: C2842DD9-A70E-4B7C-AFF5-3B95631800A3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Vector3F, Vector3F function [Direct2D], d2d1_1helper/Vector3F, direct2d.vector3f
 ms.topic: function
 req.header: d2d1_1helper.h

@@ -7,7 +7,7 @@ old-location: wua\iwindowsdriverupdate_drivermodel.htm
 tech.root: Wua_Sdk
 ms.assetid: d7139893-6090-441d-962b-e94ac2205f9e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DriverModel property [Windows Update Agent], DriverModel property [Windows Update Agent],IWindowsDriverUpdate interface, IWindowsDriverUpdate interface [Windows Update Agent],DriverModel property, IWindowsDriverUpdate.DriverModel, IWindowsDriverUpdate.get_DriverModel, IWindowsDriverUpdate::DriverModel, IWindowsDriverUpdate::get_DriverModel, get_DriverModel, wua.iwindowsdriverupdate_drivermodel, wuapi/IWindowsDriverUpdate::DriverModel, wuapi/IWindowsDriverUpdate::get_DriverModel
 ms.topic: method
 req.header: wuapi.h

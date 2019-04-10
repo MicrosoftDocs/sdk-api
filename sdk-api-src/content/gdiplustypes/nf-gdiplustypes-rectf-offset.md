@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_Offset_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfoffsetmethods.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Offset, Offset methods [GDI+], RectF.Offset, RectF::Offset, _gdiplus_CLASS_RectF_Offset_Methods, gdiplus._gdiplus_CLASS_RectF_Offset_Methods, gdiplustypes/Offset
 ms.topic: method
 req.header: gdiplustypes.h

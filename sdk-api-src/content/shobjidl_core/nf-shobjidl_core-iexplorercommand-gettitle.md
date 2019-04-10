@@ -7,7 +7,7 @@ old-location: shell\IExplorerCommand_GetTitle.htm
 tech.root: shell
 ms.assetid: d03ca4c5-80a5-4b7d-a47b-a67c72b7883c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetTitle, GetTitle method [Windows Shell], GetTitle method [Windows Shell],IExplorerCommand interface, IExplorerCommand interface [Windows Shell],GetTitle method, IExplorerCommand.GetTitle, IExplorerCommand::GetTitle, _shell_IExplorerCommand_GetTitle, shell.IExplorerCommand_GetTitle, shobjidl_core/IExplorerCommand::GetTitle
 ms.topic: method
 req.header: shobjidl_core.h

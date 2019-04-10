@@ -7,7 +7,7 @@ old-location: shell\StrSpn.htm
 tech.root: shell
 ms.assetid: 1a57da7f-76e7-49f2-aa31-50c224376e95
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: StrSpn, StrSpn function [Windows Shell], StrSpnA, StrSpnW, _win32_StrSpn, shell.StrSpn, shlwapi/StrSpn, shlwapi/StrSpnA, shlwapi/StrSpnW
 ms.topic: function
 req.header: shlwapi.h

@@ -7,7 +7,7 @@ old-location: mstv\imsvidinputdeviceevent.htm
 tech.root: mstv
 ms.assetid: 9f35953a-3fea-4187-ad14-28f2c8dc2716
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMSVidInputDeviceEvent, IMSVidInputDeviceEvent interface [Microsoft TV Technologies], IMSVidInputDeviceEvent interface [Microsoft TV Technologies],described, IMSVidInputDeviceEventInterface, mstv.imsvidinputdeviceevent, segment/IMSVidInputDeviceEvent
 ms.topic: interface
 req.header: segment.h

@@ -7,7 +7,7 @@ old-location: gpmc\igpmpermission.htm
 tech.root: gpmc
 ms.assetid: 7ac19065-571e-45f5-934f-35ddbf225262
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GPMPermission, IGPMPermission, IGPMPermission interface [GPMC], IGPMPermission interface [GPMC],described, _win32_igpmpermission, gpmc.igpmpermission, gpmgmt/IGPMPermission
 ms.topic: interface
 req.header: gpmgmt.h

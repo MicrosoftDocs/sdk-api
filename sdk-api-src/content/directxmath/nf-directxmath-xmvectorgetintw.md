@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorgetintw.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorGetIntW(XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorGetIntW, XMVectorGetIntW, XMVectorGetIntW method [DirectX Math Support APIs], dxmath.xmvectorgetintw
 ms.topic: function
 req.header: directxmath.h

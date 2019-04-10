@@ -7,7 +7,7 @@ old-location: dxmath\xmfloat3a.htm
 tech.root: dxmath
 ms.assetid: F:Microsoft.directx_sdk.reference.XMFLOAT3A
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: XMFLOAT3A, XMFLOAT3A structure [DirectX Math Support APIs], directxmath/XMFLOAT3A, dxmath.xmfloat3a
 ms.topic: struct
 req.header: directxmath.h

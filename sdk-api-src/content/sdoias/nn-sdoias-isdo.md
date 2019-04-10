@@ -7,7 +7,7 @@ old-location: nps\SDO_isdo.htm
 tech.root: Nps
 ms.assetid: f8f49bf2-d8cc-40ad-ac52-05d74bcd931c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ISdo, ISdo interface [Network Policy Server], ISdo interface [Network Policy Server],described, _sdo_isdo, nps.SDO_isdo, sdo.isdo, sdoias/ISdo
 ms.topic: interface
 req.header: sdoias.h

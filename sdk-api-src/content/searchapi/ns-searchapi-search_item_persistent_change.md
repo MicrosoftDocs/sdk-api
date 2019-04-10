@@ -7,7 +7,7 @@ old-location: search\_search_SEARCH_ITEM_PERSISTENT_CHANGE.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\search_item_persistent_change.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SEARCH_ITEM_PERSISTENT_CHANGE, SEARCH_ITEM_PERSISTENT_CHANGE structure [search], _search_SEARCH_ITEM_PERSISTENT_CHANGE, search._search_SEARCH_ITEM_PERSISTENT_CHANGE, searchapi/SEARCH_ITEM_PERSISTENT_CHANGE
 ms.topic: struct
 req.header: searchapi.h

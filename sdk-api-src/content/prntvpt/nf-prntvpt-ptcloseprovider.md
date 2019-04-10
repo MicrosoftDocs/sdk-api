@@ -7,7 +7,7 @@ old-location: gdi\ptcloseprovider.htm
 tech.root: printdocs
 ms.assetid: 28e85b53-fd0c-4210-ae2b-794efaf65bd4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PTCloseProvider, PTCloseProvider function [Windows GDI], _win32_PTCloseProvider, gdi.ptcloseprovider, prntvpt/PTCloseProvider
 ms.topic: function
 req.header: prntvpt.h

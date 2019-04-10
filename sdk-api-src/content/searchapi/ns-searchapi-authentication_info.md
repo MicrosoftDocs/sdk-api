@@ -7,7 +7,7 @@ old-location: search\_search_AUTHENTICATION_INFO.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\authentication_info.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AUTHENTICATION_INFO, AUTHENTICATION_INFO structure [search], _search_AUTHENTICATION_INFO, search._search_AUTHENTICATION_INFO, searchapi/AUTHENTICATION_INFO
 ms.topic: struct
 req.header: searchapi.h

@@ -7,7 +7,7 @@ old-location: security\getnamedsecurityinfo.htm
 tech.root: SecAuthZ
 ms.assetid: 11f2119b-5314-4fa1-8016-9c01f79d037d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetNamedSecurityInfo, GetNamedSecurityInfo function [Security], GetNamedSecurityInfoA, GetNamedSecurityInfoW, _win32_getnamedsecurityinfo, aclapi/GetNamedSecurityInfo, aclapi/GetNamedSecurityInfoA, aclapi/GetNamedSecurityInfoW, security.getnamedsecurityinfo
 ms.topic: function
 req.header: aclapi.h

@@ -7,7 +7,7 @@ old-location: dshow\am_mpegstreamtype.htm
 tech.root: DirectShow
 ms.assetid: 8622ffcb-be64-4a8f-8bc7-834b559b0f95
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AM_MPEGSTREAMTYPE, AM_MPEGSTREAMTYPE structure [DirectShow], dshow.am_mpegstreamtype, mpegtype/AM_MPEGSTREAMTYPE
 ms.topic: struct
 req.header: mpegtype.h

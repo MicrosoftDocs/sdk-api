@@ -7,7 +7,7 @@ old-location: indexsrv\dbbyguid.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_32xw.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DBBYGUID, DBBYGUID structure [Indexing Service], _idxs_DBBYGUID, cmdtree/DBBYGUID, indexsrv.dbbyguid, tagDBBYGUID
 ms.topic: struct
 req.header: cmdtree.h

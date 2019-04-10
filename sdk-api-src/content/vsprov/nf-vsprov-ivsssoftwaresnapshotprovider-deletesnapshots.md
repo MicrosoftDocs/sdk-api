@@ -7,7 +7,7 @@ old-location: base\ivsssoftwaresnapshotprovider_deletesnapshots.htm
 tech.root: VSS
 ms.assetid: aca6cdc1-186d-41e8-ac1b-0c6d7d9cbddd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DeleteSnapshots, DeleteSnapshots method, DeleteSnapshots method,IVssSoftwareSnapshotProvider interface, IVssSoftwareSnapshotProvider interface,DeleteSnapshots method, IVssSoftwareSnapshotProvider.DeleteSnapshots, IVssSoftwareSnapshotProvider::DeleteSnapshots, base.ivsssoftwaresnapshotprovider_deletesnapshots, vsprov/IVssSoftwareSnapshotProvider::DeleteSnapshots
 ms.topic: method
 req.header: vsprov.h

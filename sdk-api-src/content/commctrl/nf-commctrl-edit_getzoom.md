@@ -7,7 +7,7 @@ old-location: controls\edit_getzoom.htm
 tech.root: Controls
 ms.assetid: 74125732-4797-4DA0-A465-650B286A724C
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Edit_GetZoom, Edit_GetZoom macro [Windows Controls], commctrl/Edit_GetZoom, controls.edit_getzoom
 ms.topic: macro
 req.header: commctrl.h

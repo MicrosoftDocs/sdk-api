@@ -7,7 +7,7 @@ old-location: shell\getappcontainerregistrylocation.htm
 tech.root: shell
 ms.assetid: DAD7EC07-D57D-40F5-AA99-AD7579910294
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetAppContainerRegistryLocation, GetAppContainerRegistryLocation function [Windows Shell], shell.getappcontainerregistrylocation, userenv/GetAppContainerRegistryLocation
 ms.topic: function
 req.header: userenv.h

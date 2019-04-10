@@ -7,7 +7,7 @@ old-location: qos\intservflowspec.htm
 tech.root: QOS
 ms.assetid: c16115ba-03fa-4363-bf16-5341da54f792
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IntServFlowSpec, IntServFlowSpec structure [QOS], lpmapi/IntServFlowSpec, qos.intservflowspec
 ms.topic: struct
 req.header: lpmapi.h

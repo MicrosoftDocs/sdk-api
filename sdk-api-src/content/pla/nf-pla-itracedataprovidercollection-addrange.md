@@ -7,7 +7,7 @@ old-location: pla\itracedataprovidercollection_addrange.htm
 tech.root: PLA
 ms.assetid: 235c390a-c31c-4b31-bece-3ea7ac345391
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AddRange, AddRange method [PLA], AddRange method [PLA],ITraceDataProviderCollection interface, ITraceDataProviderCollection interface [PLA],AddRange method, ITraceDataProviderCollection.AddRange, ITraceDataProviderCollection::AddRange, base.itracedataprovidercollection_addrange, pla.itracedataprovidercollection_addrange, pla/ITraceDataProviderCollection::AddRange
 ms.topic: method
 req.header: pla.h

@@ -7,7 +7,7 @@ old-location: base\registerpowersettingnotification.htm
 tech.root: power
 ms.assetid: e072222e-da66-4b36-a38f-f4b618eaa391
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DEVICE_NOTIFY_SERVICE_HANDLE, DEVICE_NOTIFY_WINDOW_HANDLE, RegisterPowerSettingNotification, RegisterPowerSettingNotification function, base.registerpowersettingnotification, winuser/RegisterPowerSettingNotification
 ms.topic: function
 req.header: winuser.h

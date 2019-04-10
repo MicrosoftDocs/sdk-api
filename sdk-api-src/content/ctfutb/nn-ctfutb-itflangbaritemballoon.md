@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritemballoon.htm
 tech.root: TSF
 ms.assetid: 619a6f21-fbac-455c-a702-0302ce13112b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemBalloon, ITfLangBarItemBalloon interface [Text Services Framework], ITfLangBarItemBalloon interface [Text Services Framework],described, _tsf_itflangbaritemballoon_ref, ctfutb/ITfLangBarItemBalloon, tsf.itflangbaritemballoon
 ms.topic: interface
 req.header: ctfutb.h

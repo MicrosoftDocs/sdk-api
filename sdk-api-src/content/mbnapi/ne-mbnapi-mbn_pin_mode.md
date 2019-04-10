@@ -7,7 +7,7 @@ old-location: mbn\mbn_pin_mode.htm
 tech.root: mbn
 ms.assetid: ae5324f2-7a19-4887-b5df-20d51c64e063
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MBN_PIN_MODE, MBN_PIN_MODE enumeration [Microsoft Broadband Networks], MBN_PIN_MODE_DISABLED, MBN_PIN_MODE_ENABLED, mbn.mbn_pin_mode, mbnapi/MBN_PIN_MODE, mbnapi/MBN_PIN_MODE_DISABLED, mbnapi/MBN_PIN_MODE_ENABLED
 ms.topic: enum
 req.header: mbnapi.h

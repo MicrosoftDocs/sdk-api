@@ -7,7 +7,7 @@ old-location: w_ui_comp\icompositiondrawingsurfaceinterop_suspenddraw.htm
 tech.root: w_ui_comp
 ms.assetid: F8FEA76A-C271-44D6-9314-88E4AE535953
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ICompositionDrawingSurfaceInterop interface,SuspendDraw method, ICompositionDrawingSurfaceInterop.SuspendDraw, ICompositionDrawingSurfaceInterop.composition, ICompositionDrawingSurfaceInterop::SuspendDraw, ICompositionDrawingSurfaceInterop::composition, SuspendDraw, SuspendDraw method, SuspendDraw method,ICompositionDrawingSurfaceInterop interface, w_ui_comp.icompositiondrawingsurfaceinterop_suspenddraw, windows/ICompositionDrawingSurfaceInterop::SuspendDraw
 ms.topic: method
 req.header: windows.ui.composition.interop.h

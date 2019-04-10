@@ -7,7 +7,7 @@ old-location: mf\mfputworkitem2.htm
 tech.root: medfound
 ms.assetid: C49818B3-83FF-40CE-B68A-F60F3277F7B8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MFPutWorkItem2, MFPutWorkItem2 function [Media Foundation], mf.mfputworkitem2, mfapi/MFPutWorkItem2
 ms.topic: function
 req.header: mfapi.h

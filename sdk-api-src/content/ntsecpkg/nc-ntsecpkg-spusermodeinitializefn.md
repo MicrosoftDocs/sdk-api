@@ -7,7 +7,7 @@ old-location: security\spusermodeinitialize.htm
 tech.root: SecAuthN
 ms.assetid: e260db29-995b-4f32-b389-4ef62b3b29bc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SpUserModeInitialize, SpUserModeInitialize callback function [Security], SpUserModeInitializeFn, SpUserModeInitializeFn callback, _ssp_spusermodeinitialize, ntsecpkg/SpUserModeInitialize, security.spusermodeinitialize
 ms.topic: callback
 req.header: ntsecpkg.h

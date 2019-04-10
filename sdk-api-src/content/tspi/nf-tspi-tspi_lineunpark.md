@@ -7,7 +7,7 @@ old-location: tspi\tspi_lineunpark.htm
 tech.root: Tapi
 ms.assetid: 941a9715-533e-489c-87b0-27a04be1d80e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TSPI_lineUnpark, TSPI_lineUnpark function [TAPI 2.2], _tspi_tspi_lineunpark, tspi.tspi_lineunpark, tspi/TSPI_lineUnpark
 ms.topic: function
 req.header: tspi.h

@@ -7,7 +7,7 @@ old-location: w_ui_comp\icompositorinterop_creategraphicsdevice.htm
 tech.root: w_ui_comp
 ms.assetid: 1B4B3CF2-D2E7-4E11-B203-CB16057450B9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: CreateGraphicsDevice, CreateGraphicsDevice method, CreateGraphicsDevice method,ICompositorInterop interface, ICompositorInterop interface,CreateGraphicsDevice method, ICompositorInterop.CreateGraphicsDevice, ICompositorInterop.composition, ICompositorInterop::CreateGraphicsDevice, ICompositorInterop::composition, w_ui_comp.icompositorinterop_creategraphicsdevice, windows/ICompositorInterop::CreateGraphicsDevice
 ms.topic: method
 req.header: windows.ui.composition.interop.h

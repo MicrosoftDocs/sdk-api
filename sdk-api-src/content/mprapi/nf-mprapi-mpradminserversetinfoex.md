@@ -7,7 +7,7 @@ old-location: rras\mpradminserversetinfoex.htm
 tech.root: RRAS
 ms.assetid: 6109d6e0-21ce-4837-9e94-83318c9af3d8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MprAdminServerSetInfoEx, MprAdminServerSetInfoEx function [RAS], mprapi/MprAdminServerSetInfoEx, rras.mpradminserversetinfoex
 ms.topic: function
 req.header: mprapi.h

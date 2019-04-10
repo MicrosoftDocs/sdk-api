@@ -7,7 +7,7 @@ old-location: wds\wdstransport_ip_address_source_type.htm
 tech.root: wds
 ms.assetid: bc16cf5e-2cfe-480b-b67c-546b47ef2518
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PWDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE, WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE, WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE enumeration [Windows Deployment Services], WdsTptIpAddressSourceDhcp, WdsTptIpAddressSourceRange, WdsTptIpAddressSourceUnknown, wds.wdstransport_ip_address_source_type, wdstptmgmt/WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE, wdstptmgmt/WdsTptIpAddressSourceDhcp, wdstptmgmt/WdsTptIpAddressSourceRange, wdstptmgmt/WdsTptIpAddressSourceUnknown"
 ms.topic: enum
 req.header: wdstptmgmt.h

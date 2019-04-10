@@ -7,7 +7,7 @@ old-location: fax\_mfax_IFaxConfiguration_ArchiveLocation.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\archivelocation.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ArchiveLocation property [Fax Service], ArchiveLocation property [Fax Service],IFaxConfiguration interface, IFaxConfiguration interface [Fax Service],ArchiveLocation property, IFaxConfiguration.ArchiveLocation, IFaxConfiguration.get_ArchiveLocation, IFaxConfiguration::ArchiveLocation, IFaxConfiguration::get_ArchiveLocation, IFaxConfiguration::put_ArchiveLocation, _mfax_IFaxConfiguration_ArchiveLocation, fax._mfax_IFaxConfiguration_ArchiveLocation, faxcomex/IFaxConfiguration::ArchiveLocation, faxcomex/IFaxConfiguration::get_ArchiveLocation, faxcomex/IFaxConfiguration::put_ArchiveLocation, get_ArchiveLocation
 ms.topic: method
 req.header: faxcomex.h

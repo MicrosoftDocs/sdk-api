@@ -7,7 +7,7 @@ old-location: base\setthreadgroupaffinity.htm
 tech.root: ProcThread
 ms.assetid: 9f24f1bf-a63d-4318-af2a-eb3553f2b0f9
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SetThreadGroupAffinity, SetThreadGroupAffinity function, base.setthreadgroupaffinity, processtopologyapi/SetThreadGroupAffinity, winbase/SetThreadGroupAffinity
 ms.topic: function
 req.header: processtopologyapi.h

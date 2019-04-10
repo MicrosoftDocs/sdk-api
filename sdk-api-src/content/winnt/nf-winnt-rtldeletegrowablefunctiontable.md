@@ -7,7 +7,7 @@ old-location: base\rtldeletegrowablefunctiontable.htm
 tech.root: Debug
 ms.assetid: 2ae4eef2-5cdc-4ebf-9285-ef6a1a4e9197
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RtlDeleteGrowableFunctionTable, RtlDeleteGrowableFunctionTable function, base.rtldeletegrowablefunctiontable, winnt/RtlDeleteGrowableFunctionTable
 ms.topic: function
 req.header: winnt.h

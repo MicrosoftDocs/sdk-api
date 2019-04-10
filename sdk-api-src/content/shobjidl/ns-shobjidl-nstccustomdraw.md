@@ -7,7 +7,7 @@ old-location: shell\NSTCCUSTOMDRAW.htm
 tech.root: shell
 ms.assetid: 95747075-4882-4c29-8653-941ac04db54b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: NSTCCUSTOMDRAW, NSTCCUSTOMDRAW structure [Windows Shell], _shell_NSTCCUSTOMDRAW, shell.NSTCCUSTOMDRAW, shobjidl/NSTCCUSTOMDRAW
 ms.topic: struct
 req.header: shobjidl.h

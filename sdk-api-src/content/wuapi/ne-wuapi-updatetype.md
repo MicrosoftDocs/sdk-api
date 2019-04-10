@@ -7,7 +7,7 @@ old-location: wua\updatetype.htm
 tech.root: Wua_Sdk
 ms.assetid: 2845075f-f27a-44f5-8dc3-bdf67ce15c79
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: UpdateType, UpdateType enumeration [Windows Update Agent], utDriver, utSoftware, wua.updatetype, wuapi/UpdateType, wuapi/utDriver, wuapi/utSoftware
 ms.topic: enum
 req.header: wuapi.h

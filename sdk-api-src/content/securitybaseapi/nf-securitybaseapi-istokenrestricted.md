@@ -7,7 +7,7 @@ old-location: security\istokenrestricted.htm
 tech.root: SecAuthZ
 ms.assetid: eaa63bb9-3084-4246-b2ab-f913bb7348fb
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IsTokenRestricted, IsTokenRestricted function [Security], _win32_istokenrestricted, security.istokenrestricted, securitybaseapi/IsTokenRestricted
 ms.topic: function
 req.header: securitybaseapi.h

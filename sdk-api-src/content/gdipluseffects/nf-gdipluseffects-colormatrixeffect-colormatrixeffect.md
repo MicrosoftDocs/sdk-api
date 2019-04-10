@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ColorMatrixEffect_ColorMatrixEffect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colormatrixeffectclass\colormatrixeffectconstructors\colormatrixeffect.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ColorMatrixEffect, ColorMatrixEffect class [GDI+],ColorMatrixEffect constructor, ColorMatrixEffect constructor [GDI+], ColorMatrixEffect constructor [GDI+],ColorMatrixEffect class, ColorMatrixEffect.ColorMatrixEffect, ColorMatrixEffect::ColorMatrixEffect, _gdiplus_CLASS_ColorMatrixEffect_ColorMatrixEffect_, gdiplus._gdiplus_CLASS_ColorMatrixEffect_ColorMatrixEffect_
 ms.topic: method
 req.header: gdipluseffects.h

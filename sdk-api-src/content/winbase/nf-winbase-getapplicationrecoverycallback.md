@@ -7,7 +7,7 @@ old-location: recovery\getapplicationrecoverycallback.htm
 tech.root: Recovery
 ms.assetid: 974147de-1249-4062-a492-4db9646043c6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetApplicationRecoveryCallback, GetApplicationRecoveryCallback function [Recovery], base.getapplicationrecoverycallback, recovery.getapplicationrecoverycallback, winbase/GetApplicationRecoveryCallback
 ms.topic: function
 req.header: winbase.h

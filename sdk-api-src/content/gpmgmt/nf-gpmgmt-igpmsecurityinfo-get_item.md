@@ -7,7 +7,7 @@ old-location: gpmc\igpmsecurityinfo_get_item.htm
 tech.root: gpmc
 ms.assetid: 5f95ebd1-6be6-4990-8123-5cf5419b1a26
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GPMSecurityInfo class [GPMC],Item property, IGPMSecurityInfo interface [GPMC],Item property, IGPMSecurityInfo.Item, IGPMSecurityInfo.get_Item, IGPMSecurityInfo::Item, IGPMSecurityInfo::get_Item, Item property [GPMC], Item property [GPMC],GPMSecurityInfo class, Item property [GPMC],IGPMSecurityInfo interface, _win32_igpmsecurityinfo_get_item, get_Item, gpmc.igpmsecurityinfo_get_item, gpmgmt/IGPMSecurityInfo::Item, gpmgmt/IGPMSecurityInfo::get_Item
 ms.topic: method
 req.header: gpmgmt.h

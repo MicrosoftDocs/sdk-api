@@ -7,7 +7,7 @@ old-location: ldap\ldap_get_next_page_s.htm
 tech.root: ldap
 ms.assetid: 44b1b298-9796-4627-945e-4051c20f3c92
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_get_next_page_s, ldap.ldap__get__next__page__s, ldap.ldap_get_next_page_s, ldap_get_next_page_s, ldap_get_next_page_s function [LDAP], winldap/ldap_get_next_page_s"
 ms.topic: function
 req.header: winldap.h

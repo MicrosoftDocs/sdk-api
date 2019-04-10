@@ -7,7 +7,7 @@ old-location: mf\dxva2_videodesc.htm
 tech.root: medfound
 ms.assetid: 0e500a08-a3b5-475c-8bbc-e4b30cce247d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: 0e500a08-a3b5-475c-8bbc-e4b30cce247d, DXVA2_VideoDesc, DXVA2_VideoDesc structure [Media Foundation], dxva2api/DXVA2_VideoDesc, mf.dxva2_videodesc
 ms.topic: struct
 req.header: dxva2api.h

@@ -7,7 +7,7 @@ old-location: security\slgetwindowsinformationdword.htm
 tech.root: SecSLApi
 ms.assetid: 27f59d01-93d5-4bf8-aab2-77243431cc0c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SLGetWindowsInformationDWORD, SLGetWindowsInformationDWORD function [Security], security.slgetwindowsinformationdword, slpublic/SLGetWindowsInformationDWORD
 ms.topic: function
 req.header: slpublic.h

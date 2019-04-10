@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxjobstatus_cpp_mfax_faxjobstatus_routinginformation_cp
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9vvy.htm
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFaxJobStatus interface [Fax Service],RoutingInformation property, IFaxJobStatus.RoutingInformation, IFaxJobStatus.get_RoutingInformation, IFaxJobStatus::RoutingInformation, IFaxJobStatus::get_RoutingInformation, RoutingInformation property [Fax Service], RoutingInformation property [Fax Service],IFaxJobStatus interface, _mfax_faxjobstatus.routinginformation, fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_routinginformation_cpp, fax._mfax_faxjobstatus_routinginformation, faxcomex/IFaxJobStatus::RoutingInformation, faxcomex/IFaxJobStatus::get_RoutingInformation, get_RoutingInformation
 ms.topic: method
 req.header: faxcomex.h

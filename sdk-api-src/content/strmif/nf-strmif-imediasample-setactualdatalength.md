@@ -7,7 +7,7 @@ old-location: dshow\imediasample_setactualdatalength.htm
 tech.root: DirectShow
 ms.assetid: db8a768e-7550-4165-8f87-308ec7f2e07f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMediaSample interface [DirectShow],SetActualDataLength method, IMediaSample.SetActualDataLength, IMediaSample::SetActualDataLength, IMediaSampleSetActualDataLength, SetActualDataLength, SetActualDataLength method [DirectShow], SetActualDataLength method [DirectShow],IMediaSample interface, dshow.imediasample_setactualdatalength, strmif/IMediaSample::SetActualDataLength
 ms.topic: method
 req.header: strmif.h

@@ -7,7 +7,7 @@ old-location: pla\streammode.htm
 tech.root: PLA
 ms.assetid: 38d9e78f-4ac1-4d65-80e7-9b32c5e79604
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: StreamMode, StreamMode enumeration [PLA], base.streammode, pla.streammode, pla/StreamMode, pla/plaBoth, pla/plaBuffering, pla/plaFile, pla/plaRealTime, plaBoth, plaBuffering, plaFile, plaRealTime
 ms.topic: enum
 req.header: pla.h

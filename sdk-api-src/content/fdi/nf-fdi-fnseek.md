@@ -7,7 +7,7 @@ old-location: winprog\fnseek.htm
 tech.root: DevNotes
 ms.assetid: e49b5086-6b89-40ce-b6fa-905d21593dec
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FNSEEK, FNSEEK macro [Windows API], fdi/FNSEEK, winprog.fnseek
 ms.topic: macro
 req.header: fdi.h

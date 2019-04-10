@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceservicecapabilities_getinheritedservices.htm
 tech.root: wpd_sdk
 ms.assetid: f5640d6a-6c2f-4bd3-adff-628017f5b867
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetInheritedServices, GetInheritedServices method [Windows Portable Devices SDK], GetInheritedServices method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetInheritedServices method, IPortableDeviceServiceCapabilities.GetInheritedServices, IPortableDeviceServiceCapabilities::GetInheritedServices, portabledeviceapi/IPortableDeviceServiceCapabilities::GetInheritedServices, wpdsdk.iportabledeviceservicecapabilities_getinheritedservices
 ms.topic: method
 req.header: portabledeviceapi.h

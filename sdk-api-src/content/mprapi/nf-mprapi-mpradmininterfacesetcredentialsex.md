@@ -7,7 +7,7 @@ old-location: rras\mpradmininterfacesetcredentialsex.htm
 tech.root: RRAS
 ms.assetid: d0807c03-3994-4624-97ea-94b55e7cd1e4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceSetCredentialsEx, MprAdminInterfaceSetCredentialsEx function [RAS], _mpr_mpradmininterfacesetcredentialsex, mprapi/MprAdminInterfaceSetCredentialsEx, rras.mpradmininterfacesetcredentialsex
 ms.topic: function
 req.header: mprapi.h

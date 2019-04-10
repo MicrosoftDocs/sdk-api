@@ -7,7 +7,7 @@ old-location: fwp\ipsecsadestroyenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: acd02e35-0bcb-4882-9b85-b29a558d34b7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IPsecSaDestroyEnumHandle0, IPsecSaDestroyEnumHandle0 function [Filtering], fwp.ipsecsadestroyenumhandle0_func, fwpmu/IPsecSaDestroyEnumHandle0
 ms.topic: function
 req.header: fwpmu.h

@@ -7,7 +7,7 @@ old-location: shell\IDropTargetHelper_DragOver.htm
 tech.root: shell
 ms.assetid: 92550642-ca77-4a32-ba97-93419b4e5ac7
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DragOver, DragOver method [Windows Shell], DragOver method [Windows Shell],IDropTargetHelper interface, IDropTargetHelper interface [Windows Shell],DragOver method, IDropTargetHelper.DragOver, IDropTargetHelper::DragOver, _win32_IDropTargetHelper_DragOver, shell.IDropTargetHelper_DragOver, shobjidl_core/IDropTargetHelper::DragOver
 ms.topic: method
 req.header: shobjidl_core.h

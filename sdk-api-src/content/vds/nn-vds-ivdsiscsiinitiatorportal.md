@@ -7,7 +7,7 @@ old-location: base\ivdsiscsiinitiatorportal.htm
 tech.root: VDS
 ms.assetid: ae64cc73-4f36-4846-a1c0-f329de6299ee
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IVdsIscsiInitiatorPortal, IVdsIscsiInitiatorPortal interface [VDS], IVdsIscsiInitiatorPortal interface [VDS],described, base.ivdsiscsiinitiatorportal, vds/IVdsIscsiInitiatorPortal
 ms.topic: interface
 req.header: vds.h

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1transform_mapoutputrecttoinputrects.htm
 tech.root: Direct2D
 ms.assetid: EE098F67-B5A7-41C1-886A-2C7779B5E05C
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ID2D1Transform interface [Direct2D],MapOutputRectToInputRects method, ID2D1Transform.MapOutputRectToInputRects, ID2D1Transform::MapOutputRectToInputRects, MapOutputRectToInputRects, MapOutputRectToInputRects method [Direct2D], MapOutputRectToInputRects method [Direct2D],ID2D1Transform interface, d2d1effectauthor/ID2D1Transform::MapOutputRectToInputRects, direct2d.id2d1transform_mapoutputrecttoinputrects
 ms.topic: method
 req.header: d2d1effectauthor.h

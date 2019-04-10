@@ -7,7 +7,7 @@ old-location: dxmath\xmfloat3x3_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3X3.#ctor(float,float,float,float,float,float,float,float,float)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: XMFLOAT3X3, XMFLOAT3X3 constructor [DirectX Math Support APIs], XMFLOAT3X3 constructor [DirectX Math Support APIs],XMFLOAT3X3 structure, XMFLOAT3X3 structure [DirectX Math Support APIs],XMFLOAT3X3 constructor, XMFLOAT3X3.XMFLOAT3X3, XMFLOAT3X3.XMFLOAT3X3(float,float,float,float,float,float,float,float,float), XMFLOAT3X3::XMFLOAT3X3, XMFLOAT3X3::XMFLOAT3X3(float,float,float,float,float,float,float,float,float), dxmath.xmfloat3x3_ctor_2
 ms.topic: method
 req.header: directxmath.h

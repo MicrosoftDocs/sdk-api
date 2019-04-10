@@ -7,7 +7,7 @@ old-location: vhd\expand_virtual_disk_flag.htm
 tech.root: VStor
 ms.assetid: e117f103-5136-4dbb-87a0-9fb41d43a924
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EXPAND_VIRTUAL_DISK_FLAG, EXPAND_VIRTUAL_DISK_FLAG enumeration [VHD], EXPAND_VIRTUAL_DISK_FLAG_NONE, vdssys/EXPAND_VIRTUAL_DISK_FLAG, vdssys/EXPAND_VIRTUAL_DISK_FLAG_NONE, vhd.expand_virtual_disk_flag, virtdisk/EXPAND_VIRTUAL_DISK_FLAG, virtdisk/EXPAND_VIRTUAL_DISK_FLAG_NONE
 ms.topic: enum
 req.header: virtdisk.h

@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorgetintbyindex.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorGetIntByIndex(XMVECTOR,size_t)
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorGetIntByIndex, XMVectorGetIntByIndex, XMVectorGetIntByIndex method [DirectX Math Support APIs], dxmath.xmvectorgetintbyindex
 ms.topic: function
 req.header: directxmath.h

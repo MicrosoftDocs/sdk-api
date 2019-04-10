@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1Bitmap_GetDpi.htm
 tech.root: Direct2D
 ms.assetid: 50659165-86e9-4143-af88-a68e422a74e0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetDpi, GetDpi method [Direct2D], GetDpi method [Direct2D],ID2D1Bitmap interface, ID2D1Bitmap interface [Direct2D],GetDpi method, ID2D1Bitmap.GetDpi, ID2D1Bitmap::GetDpi, d2d1/ID2D1Bitmap::GetDpi, direct2d.ID2D1Bitmap_GetDpi
 ms.topic: method
 req.header: d2d1.h

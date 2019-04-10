@@ -7,7 +7,7 @@ old-location: base\ivdsprovider_getproperties.htm
 tech.root: VDS
 ms.assetid: a4cb18c5-2cda-4d0a-9be0-4a548ec2f6eb
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsProvider interface, IVdsProvider interface [VDS],GetProperties method, IVdsProvider.GetProperties, IVdsProvider::GetProperties, base.ivdsprovider_getproperties, vds/IVdsProvider::GetProperties, vdshwprv/IVdsProvider::GetProperties
 ms.topic: method
 req.header: vds.h

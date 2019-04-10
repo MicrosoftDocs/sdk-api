@@ -7,7 +7,7 @@ old-location: wds\wdstransport_protocol_flags.htm
 tech.root: wds
 ms.assetid: 4de9168b-a0c1-4f92-b573-5072bfc22c0d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PWDSTRANSPORT_PROTOCOL_FLAGS, WDSTRANSPORT_PROTOCOL_FLAGS, WDSTRANSPORT_PROTOCOL_FLAGS enumeration [Windows Deployment Services], WdsTptProtocolMulticast, WdsTptProtocolUnicast, wds.wdstransport_protocol_flags, wdstptmgmt/WDSTRANSPORT_PROTOCOL_FLAGS, wdstptmgmt/WdsTptProtocolMulticast, wdstptmgmt/WdsTptProtocolUnicast"
 ms.topic: enum
 req.header: wdstptmgmt.h

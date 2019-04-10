@@ -7,7 +7,7 @@ old-location: security\iaztask_deletetask.htm
 tech.root: SecAuthZ
 ms.assetid: 1e1288ff-d67b-4180-bfd0-63b81df8f99b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AzTask object [Security],DeleteTask method, DeleteTask, DeleteTask method [Security], DeleteTask method [Security],AzTask object, DeleteTask method [Security],IAzTask interface, IAzTask interface [Security],DeleteTask method, IAzTask.DeleteTask, IAzTask::DeleteTask, azroles/IAzTask::DeleteTask, security.iaztask_deletetask
 ms.topic: method
 req.header: azroles.h

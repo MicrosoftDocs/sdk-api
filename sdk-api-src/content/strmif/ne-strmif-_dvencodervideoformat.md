@@ -7,7 +7,7 @@ old-location: dshow\dvencodervideoformat.htm
 tech.root: DirectShow
 ms.assetid: 14f32314-96f4-4880-a141-89cf6e66ed6c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DVENCODERVIDEOFORMAT, DVENCODERVIDEOFORMATEnumeration, DVENCODERVIDEOFORMAT_NTSC, DVENCODERVIDEOFORMAT_PAL, _DVENCODERVIDEOFORMAT, _DVENCODERVIDEOFORMAT enumeration [DirectShow], dshow.dvencodervideoformat, strmif/DVENCODERVIDEOFORMAT_NTSC, strmif/DVENCODERVIDEOFORMAT_PAL, strmif/_DVENCODERVIDEOFORMAT
 ms.topic: enum
 req.header: strmif.h

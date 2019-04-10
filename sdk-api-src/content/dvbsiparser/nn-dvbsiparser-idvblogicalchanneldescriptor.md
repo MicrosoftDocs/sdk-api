@@ -7,7 +7,7 @@ old-location: mstv\idvblogicalchanneldescriptor.htm
 tech.root: mstv
 ms.assetid: 6e0a99e9-088f-420c-bb60-2d324aa28227
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDvbLogicalChannelDescriptor, IDvbLogicalChannelDescriptor interface [DirectShow], IDvbLogicalChannelDescriptor interface [DirectShow],described, IDvbLogicalChannelDescriptorInterface, dvbsiparser/IDvbLogicalChannelDescriptor, mstv.idvblogicalchanneldescriptor
 ms.topic: interface
 req.header: dvbsiparser.h

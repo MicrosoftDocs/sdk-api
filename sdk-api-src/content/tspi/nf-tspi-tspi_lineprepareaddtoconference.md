@@ -7,7 +7,7 @@ old-location: tspi\tspi_lineprepareaddtoconference.htm
 tech.root: Tapi
 ms.assetid: 84642d7d-7673-45f1-91fb-aede75e51029
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: TSPI_linePrepareAddToConference, TSPI_linePrepareAddToConference function [TAPI 2.2], _tspi_tspi_lineprepareaddtoconference, tspi.tspi_lineprepareaddtoconference, tspi/TSPI_linePrepareAddToConference
 ms.topic: function
 req.header: tspi.h

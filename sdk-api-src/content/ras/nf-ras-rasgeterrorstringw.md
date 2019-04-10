@@ -7,7 +7,7 @@ old-location: rras\rasgeterrorstring.htm
 tech.root: RRAS
 ms.assetid: 4d308dd8-e623-467b-836e-faace19460f1
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RasGetErrorString, RasGetErrorString function [RAS], RasGetErrorStringA, RasGetErrorStringW, _ras_rasgeterrorstring, ras/RasGetErrorString, ras/RasGetErrorStringA, ras/RasGetErrorStringW, rras.rasgeterrorstring
 ms.topic: function
 req.header: ras.h

@@ -7,7 +7,7 @@ old-location: wua\iupdateexception_context.htm
 tech.root: Wua_Sdk
 ms.assetid: 05924bb7-cc59-4df6-a2dd-4e6032a0eb8b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Context property [Windows Update Agent], Context property [Windows Update Agent],IUpdateException interface, IUpdateException interface [Windows Update Agent],Context property, IUpdateException.Context, IUpdateException.get_Context, IUpdateException::Context, IUpdateException::get_Context, get_Context, wua.iupdateexception_context, wuapi/IUpdateException::Context, wuapi/IUpdateException::get_Context
 ms.topic: method
 req.header: wuapi.h

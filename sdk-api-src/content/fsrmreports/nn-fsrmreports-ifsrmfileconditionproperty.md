@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfileconditionproperty.htm
 tech.root: fsrm
 ms.assetid: 460819db-0ac2-4008-8dfb-f0edc69bb478
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFsrmFileConditionProperty, IFsrmFileConditionProperty interface [File Server Resource Manager], IFsrmFileConditionProperty interface [File Server Resource Manager],described, fs.ifsrmfileconditionproperty, fsrm.ifsrmfileconditionproperty, fsrmreports/IFsrmFileConditionProperty
 ms.topic: interface
 req.header: fsrmreports.h

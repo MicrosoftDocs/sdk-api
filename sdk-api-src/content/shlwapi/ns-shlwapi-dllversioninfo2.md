@@ -7,7 +7,7 @@ old-location: shell\DLLVERSIONINFO2_0rjh.htm
 tech.root: shell
 ms.assetid: 1648924d-0727-4cee-80d3-f97550f235cd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DLLVERSIONINFO2, DLLVERSIONINFO2 structure [Windows Shell], _win32_DLLVERSIONINFO2_0rjh, shell.DLLVERSIONINFO2_0rjh, shlwapi/DLLVERSIONINFO2
 ms.topic: struct
 req.header: shlwapi.h

@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus2.htm
 tech.root: tablet
 ms.assetid: d4b55c1d-f8cc-4aed-86a3-b5935d127c2d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IRealTimeStylus2, IRealTimeStylus2 interface [Tablet PC], IRealTimeStylus2 interface [Tablet PC],described, d4b55c1d-f8cc-4aed-86a3-b5935d127c2d, rtscom/IRealTimeStylus2, tablet.irealtimestylus2
 ms.topic: interface
 req.header: rtscom.h

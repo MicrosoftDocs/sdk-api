@@ -7,7 +7,7 @@ old-location: cos\componenthangmonitorinfo.htm
 tech.root: cossdk
 ms.assetid: 062b7bcf-e9b2-4024-ba9c-700cc7d69963
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ComponentHangMonitorInfo, ComponentHangMonitorInfo structure [COM+], comsvcs/ComponentHangMonitorInfo, cos.componenthangmonitorinfo
 ms.topic: struct
 req.header: comsvcs.h

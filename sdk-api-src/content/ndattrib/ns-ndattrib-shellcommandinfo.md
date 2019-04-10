@@ -7,7 +7,7 @@ old-location: ndf\shellcommandinfo.htm
 tech.root: NDF
 ms.assetid: 54e23cfc-52bf-482a-a3e8-49fd6aa505e3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PShellCommandInfo, ShellCommandInfo, ShellCommandInfo structure [NDF], ShellCommandInfo,*PShellCommandInfo, ShellCommandInfo,*PShellCommandInfo structure [NDF], ndattrib/ShellCommandInfo, ndf.shellcommandinfo"
 ms.topic: struct
 req.header: ndattrib.h

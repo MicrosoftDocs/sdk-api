@@ -7,7 +7,7 @@ old-location: intl\ispellcheckerchangedeventhandler_invoke.htm
 tech.root: Intl
 ms.assetid: 585f147f-b644-4b6a-81d6-8ffeeb39d76a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ISpellCheckerChangedEventHandler interface [Internationalization for Windows Applications],Invoke method, ISpellCheckerChangedEventHandler.Invoke, ISpellCheckerChangedEventHandler::Invoke, Invoke, Invoke method [Internationalization for Windows Applications], Invoke method [Internationalization for Windows Applications],ISpellCheckerChangedEventHandler interface, intl.ispellcheckerchangedeventhandler_invoke, spellcheck/ISpellCheckerChangedEventHandler::Invoke
 ms.topic: method
 req.header: spellcheck.h

@@ -7,7 +7,7 @@ old-location: dxmath\xmushort4_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUSHORT4.#ctor
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: XMUSHORT4, XMUSHORT4 constructor [DirectX Math Support APIs], XMUSHORT4 constructor [DirectX Math Support APIs],XMUSHORT4 structure, XMUSHORT4 structure [DirectX Math Support APIs],XMUSHORT4 constructor, XMUSHORT4.XMUSHORT4, XMUSHORT4.XMUSHORT4(), XMUSHORT4.XMUSHORT4(uint64_t), XMUSHORT4::XMUSHORT4, XMUSHORT4::XMUSHORT4(uint64_t), dxmath.xmushort4_ctor_1
 ms.topic: method
 req.header: directxpackedvector.h

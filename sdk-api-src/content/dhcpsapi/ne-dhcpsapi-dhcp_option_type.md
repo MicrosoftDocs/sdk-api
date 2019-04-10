@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_option_type.htm
 tech.root: DHCP
 ms.assetid: 2577c0b6-aa84-4176-87b7-ffd304823d76
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_OPTION_TYPE, DHCP_OPTION_TYPE, DHCP_OPTION_TYPE enumeration [DHCP], DhcpArrayTypeOption, DhcpUnaryElementTypeOption, LPDHCP_OPTION_TYPE, LPDHCP_OPTION_TYPE enumeration pointer [DHCP], dhcp.dhcp_option_type, dhcpsapi/DHCP_OPTION_TYPE, dhcpsapi/DhcpArrayTypeOption, dhcpsapi/DhcpUnaryElementTypeOption, dhcpsapi/LPDHCP_OPTION_TYPE"
 ms.topic: enum
 req.header: dhcpsapi.h

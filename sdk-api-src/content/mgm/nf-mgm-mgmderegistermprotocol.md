@@ -7,7 +7,7 @@ old-location: rras\mgmderegistermprotocol.htm
 tech.root: RRAS
 ms.assetid: e9b2613e-4e52-4993-81dd-0be50a072db6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MgmDeRegisterMProtocol, MgmDeRegisterMProtocol function [RAS], _mpr_mgmderegistermprotocol, mgm/MgmDeRegisterMProtocol, rras.mgmderegistermprotocol
 ms.topic: function
 req.header: mgm.h

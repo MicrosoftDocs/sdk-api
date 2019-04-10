@@ -7,7 +7,7 @@ old-location: ncd\wsd_eventing_filter.htm
 tech.root: WsdApi
 ms.assetid: e702aca8-9784-4e51-988b-f4311573c700
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WSD_EVENTING_FILTER, WSD_EVENTING_FILTER structure, http://schemas.xmlsoap.org/ws/2006/02/devprof/Action, ncd.wsd_eventing_filter, wsdtypes/WSD_EVENTING_FILTER
 ms.topic: struct
 req.header: wsdtypes.h

@@ -7,7 +7,7 @@ old-location: rras\rtmgetmostspecificdestination.htm
 tech.root: RRAS
 ms.assetid: 682a41bb-c623-4c01-856a-5f1923c6cab8
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: RtmGetMostSpecificDestination, RtmGetMostSpecificDestination function [RAS], _rtmv2ref_rtmgetmostspecificdestination, rras.rtmgetmostspecificdestination, rtmv2/RtmGetMostSpecificDestination
 ms.topic: function
 req.header: rtmv2.h

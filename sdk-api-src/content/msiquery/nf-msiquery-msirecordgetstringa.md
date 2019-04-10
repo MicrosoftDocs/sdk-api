@@ -7,7 +7,7 @@ old-location: setup\msirecordgetstring.htm
 tech.root: Msi
 ms.assetid: 4d1b049c-9511-4858-8cc1-3cd2424c55ca
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MsiRecordGetString, MsiRecordGetString function, MsiRecordGetStringA, MsiRecordGetStringW, _msi_msirecordgetstring, msiquery/MsiRecordGetString, msiquery/MsiRecordGetStringA, msiquery/MsiRecordGetStringW, setup.msirecordgetstring
 ms.topic: function
 req.header: msiquery.h

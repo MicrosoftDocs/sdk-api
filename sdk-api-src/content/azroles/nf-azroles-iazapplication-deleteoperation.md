@@ -7,7 +7,7 @@ old-location: security\iazapplication_deleteoperation.htm
 tech.root: SecAuthZ
 ms.assetid: 2541e01d-20a4-424f-b8e0-5d6dedfbd7fe
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],DeleteOperation method, DeleteOperation, DeleteOperation method [Security], DeleteOperation method [Security],AzApplication object, DeleteOperation method [Security],IAzApplication interface, IAzApplication interface [Security],DeleteOperation method, IAzApplication.DeleteOperation, IAzApplication::DeleteOperation, azroles/IAzApplication::DeleteOperation, security.iazapplication_deleteoperation
 ms.topic: method
 req.header: azroles.h

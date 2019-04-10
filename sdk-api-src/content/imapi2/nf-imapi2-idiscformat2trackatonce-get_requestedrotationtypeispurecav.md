@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2trackatonce_get_requestedrotationtypeispurecav.h
 tech.root: imapi
 ms.assetid: 3702f4c1-4043-4a69-bd6b-4346c560651a
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_RequestedRotationTypeIsPureCAV method, IDiscFormat2TrackAtOnce.get_RequestedRotationTypeIsPureCAV, IDiscFormat2TrackAtOnce::get_RequestedRotationTypeIsPureCAV, get_RequestedRotationTypeIsPureCAV, get_RequestedRotationTypeIsPureCAV method [IMAPI], get_RequestedRotationTypeIsPureCAV method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_requestedrotationtypeispurecav, imapi2/IDiscFormat2TrackAtOnce::get_RequestedRotationTypeIsPureCAV
 ms.topic: method
 req.header: imapi2.h

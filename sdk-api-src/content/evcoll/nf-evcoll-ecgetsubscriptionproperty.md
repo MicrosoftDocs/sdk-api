@@ -7,7 +7,7 @@ old-location: wec\ecgetsubscriptionproperty.htm
 tech.root: WEC
 ms.assetid: 984d986d-1c59-4d0c-88f3-40c66ffe43dd
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EcGetSubscriptionProperty, EcGetSubscriptionProperty function, evcoll/EcGetSubscriptionProperty, wec.ecgetsubscriptionproperty, wes.ecgetsubscriptionproperty
 ms.topic: function
 req.header: evcoll.h

@@ -7,7 +7,7 @@ old-location: fs\findvolumemountpointclose.htm
 tech.root: FileIO
 ms.assetid: f0f09a9d-e463-4457-9078-3d324fa8d4d6
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FindVolumeMountPointClose, FindVolumeMountPointClose function [Files], _win32_findvolumemountpointclose, base.findvolumemountpointclose, fs.findvolumemountpointclose, winbase/FindVolumeMountPointClose
 ms.topic: function
 req.header: winbase.h

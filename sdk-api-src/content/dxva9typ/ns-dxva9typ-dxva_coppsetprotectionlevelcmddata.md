@@ -7,7 +7,7 @@ old-location: dshow\dxva_coppsetprotectionlevelcmddata.htm
 tech.root: DirectShow
 ms.assetid: 19810f8f-2d23-4b01-864d-86ac82d40fe0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DXVA_COPPSetProtectionLevelCmdData, DXVA_COPPSetProtectionLevelCmdData structure [DirectShow], DXVA_COPPSetProtectionLevelCmdDataStructure, _DXVA_COPPSetProtectionLevelCmdData, dshow.dxva_coppsetprotectionlevelcmddata, dxva9typ/DXVA_COPPSetProtectionLevelCmdData
 ms.topic: struct
 req.header: dxva9typ.h

@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingeveryconnection_clone.htm
 tech.root: ics
 ms.assetid: 7adeec50-23a7-4a20-94a8-adc7767368ed
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [ICS/ICF], Clone method [ICS/ICF],IEnumNetSharingEveryConnection interface, IEnumNetSharingEveryConnection interface [ICS/ICF],Clone method, IEnumNetSharingEveryConnection.Clone, IEnumNetSharingEveryConnection::Clone, _ics_ienumnetsharingeveryconnection_clone, ics.ienumnetsharingeveryconnection_clone, netcon/IEnumNetSharingEveryConnection::Clone
 ms.topic: method
 req.header: netcon.h

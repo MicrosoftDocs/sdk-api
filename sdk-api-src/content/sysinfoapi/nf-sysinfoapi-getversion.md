@@ -7,7 +7,7 @@ old-location: base\getversion.htm
 tech.root: SysInfo
 ms.assetid: 25cb87c6-e4a5-447e-8153-f12638859d00
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetVersion, GetVersion function, _win32_getversion, base.getversion, sysinfoapi/GetVersion
 ms.topic: function
 req.header: sysinfoapi.h

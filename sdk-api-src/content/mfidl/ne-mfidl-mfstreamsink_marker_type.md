@@ -7,7 +7,7 @@ old-location: mf\mfstreamsink_marker_type.htm
 tech.root: medfound
 ms.assetid: d1c5f8ee-a451-44af-bf43-7623cea2be37
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MFSTREAMSINK_MARKER_DEFAULT, MFSTREAMSINK_MARKER_ENDOFSEGMENT, MFSTREAMSINK_MARKER_EVENT, MFSTREAMSINK_MARKER_TICK, MFSTREAMSINK_MARKER_TYPE, MFSTREAMSINK_MARKER_TYPE enumeration [Media Foundation], d1c5f8ee-a451-44af-bf43-7623cea2be37, enumeration [Media Foundation], mf.mfstreamsink_marker_type, mfidl/MFSTREAMSINK_MARKER_DEFAULT, mfidl/MFSTREAMSINK_MARKER_ENDOFSEGMENT, mfidl/MFSTREAMSINK_MARKER_EVENT, mfidl/MFSTREAMSINK_MARKER_TICK, mfidl/MFSTREAMSINK_MARKER_TYPE
 ms.topic: enum
 req.header: mfidl.h

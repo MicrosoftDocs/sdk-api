@@ -7,7 +7,7 @@ old-location: coreaudio\ichannelaudiovolume_getallvolumes.htm
 tech.root: CoreAudio
 ms.assetid: 82783189-c47a-4569-a771-c4a503505d90
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetAllVolumes, GetAllVolumes method [Core Audio], GetAllVolumes method [Core Audio],IChannelAudioVolume interface, IChannelAudioVolume interface [Core Audio],GetAllVolumes method, IChannelAudioVolume.GetAllVolumes, IChannelAudioVolume::GetAllVolumes, IChannelAudioVolumeGetAllVolumes, audioclient/IChannelAudioVolume::GetAllVolumes, coreaudio.ichannelaudiovolume_getallvolumes
 ms.topic: method
 req.header: audioclient.h

@@ -7,7 +7,7 @@ old-location: mscs\clusprop_binary.htm
 tech.root: MsCS
 ms.assetid: 61169871-4998-4e9f-97dc-77344bbfa962
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: "*PCLUSPROP_BINARY, CLUSPROP_BINARY, CLUSPROP_BINARY structure [Failover Cluster], PCLUSPROP_BINARY, PCLUSPROP_BINARY structure pointer [Failover Cluster], _wolf_clusprop_binary, clusapi/CLUSPROP_BINARY, clusapi/PCLUSPROP_BINARY, mscs.clusprop_binary"
 ms.topic: struct
 req.header: clusapi.h

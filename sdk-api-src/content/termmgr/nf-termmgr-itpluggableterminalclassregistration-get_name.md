@@ -7,7 +7,7 @@ old-location: tapi3\itpluggableterminalclassregistration_get_name.htm
 tech.root: Tapi
 ms.assetid: 0bbc0862-41d7-40cc-9b9d-57a2238122ee
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],get_Name method, ITPluggableTerminalClassRegistration.get_Name, ITPluggableTerminalClassRegistration::get_Name, _tapi3_itpluggableterminalclassregistration_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_get_name, termmgr/ITPluggableTerminalClassRegistration::get_Name
 ms.topic: method
 req.header: termmgr.h

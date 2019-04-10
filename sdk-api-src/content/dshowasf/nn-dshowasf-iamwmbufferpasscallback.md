@@ -7,7 +7,7 @@ old-location: wmformat\iamwmbufferpasscallback.htm
 tech.root: wmformat
 ms.assetid: 5bf0ae2e-504b-471b-bfc9-aa48f534e03f
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IAMWMBufferPassCallback, IAMWMBufferPassCallback interface [windows Media Format], IAMWMBufferPassCallback interface [windows Media Format],described, IAMWMBufferPassCallbackInterface, dshowasf/IAMWMBufferPassCallback, wmformat.iamwmbufferpasscallback
 ms.topic: interface
 req.header: dshowasf.h

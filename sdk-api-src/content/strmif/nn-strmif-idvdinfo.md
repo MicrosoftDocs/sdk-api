@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo.htm
 tech.root: DirectShow
 ms.assetid: 6b0c5dfe-aa1b-4ad0-9272-f1351e494b11
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDvdInfo, IDvdInfo interface [DirectShow], IDvdInfo interface [DirectShow],described, IDvdInfoInterface, dshow.idvdinfo, strmif/IDvdInfo
 ms.topic: interface
 req.header: strmif.h

@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfileconditionproperty_valuetype.htm
 tech.root: fsrm
 ms.assetid: 86086089-936a-428f-bc2b-514c873db1a3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IFsrmFileConditionProperty interface [File Server Resource Manager],ValueType property, IFsrmFileConditionProperty.ValueType, IFsrmFileConditionProperty.get_ValueType, IFsrmFileConditionProperty::ValueType, IFsrmFileConditionProperty::get_ValueType, IFsrmFileConditionProperty::put_ValueType, ValueType property [File Server Resource Manager], ValueType property [File Server Resource Manager],IFsrmFileConditionProperty interface, fs.ifsrmfileconditionproperty_valuetype, fsrm.ifsrmfileconditionproperty_valuetype, fsrmreports/IFsrmFileConditionProperty::ValueType, fsrmreports/IFsrmFileConditionProperty::get_ValueType, fsrmreports/IFsrmFileConditionProperty::put_ValueType, get_ValueType
 ms.topic: method
 req.header: fsrmreports.h

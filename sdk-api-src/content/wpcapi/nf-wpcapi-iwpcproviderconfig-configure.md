@@ -7,7 +7,7 @@ old-location: parcon\iwpcproviderconfig_configure.htm
 tech.root: parcon
 ms.assetid: a2853259-4fc5-47e7-a77e-0ea4024ee00c
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Configure, Configure method, Configure method,IWPCProviderConfig interface, IWPCProviderConfig interface,Configure method, IWPCProviderConfig.Configure, IWPCProviderConfig::Configure, parcon.iwpcproviderconfig_configure, wpcapi/IWPCProviderConfig::Configure
 ms.topic: method
 req.header: wpcapi.h

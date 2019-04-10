@@ -7,7 +7,7 @@ old-location: com\ipropertypage_deactivate.htm
 tech.root: com
 ms.assetid: 545f7c3d-3c6f-42c2-b472-3da3bc184200
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: Deactivate, Deactivate method [COM], Deactivate method [COM],IPropertyPage interface, IPropertyPage interface [COM],Deactivate method, IPropertyPage.Deactivate, IPropertyPage::Deactivate, _ctrl_ipropertypage_deactivate, com.ipropertypage_deactivate, ocidl/IPropertyPage::Deactivate
 ms.topic: method
 req.header: ocidl.h

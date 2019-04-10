@@ -7,7 +7,7 @@ old-location: wmi\provider_deleteinstance.htm
 tech.root: WmiSdk
 ms.assetid: 469d2481-95ea-4d17-b0ef-095ced9c8319
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DeleteInstance, DeleteInstance method [Windows Management Instrumentation], DeleteInstance method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],DeleteInstance method, Provider.DeleteInstance, Provider::DeleteInstance, _hmm_provider_deleteinstance, provider/Provider::DeleteInstance, wmi.provider_deleteinstance
 ms.topic: method
 req.header: provider.h

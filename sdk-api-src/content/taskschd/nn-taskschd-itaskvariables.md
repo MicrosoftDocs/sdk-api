@@ -7,7 +7,7 @@ old-location: taskschd\itaskvariables.htm
 tech.root: taskschd
 ms.assetid: 4f7a9dd3-0bf4-4c23-acdb-a5e0389120cc
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITaskVariables, ITaskVariables interface [Task Scheduler], ITaskVariables interface [Task Scheduler],described, taskschd.itaskvariables, taskschd/ITaskVariables
 ms.topic: interface
 req.header: taskschd.h

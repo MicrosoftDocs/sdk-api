@@ -7,7 +7,7 @@ old-location: wsw\ws_addressing_version.htm
 tech.root: wsw
 ms.assetid: 87f60067-109c-456c-b060-33ab840872e0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: WS_ADDRESSING_VERSION, WS_ADDRESSING_VERSION enumeration [Web Services for Windows], WS_ADDRESSING_VERSION_0_9, WS_ADDRESSING_VERSION_1_0, WS_ADDRESSING_VERSION_TRANSPORT, webservices/WS_ADDRESSING_VERSION, webservices/WS_ADDRESSING_VERSION_0_9, webservices/WS_ADDRESSING_VERSION_1_0, webservices/WS_ADDRESSING_VERSION_TRANSPORT, wsw.ws_addressing_version
 ms.topic: enum
 req.header: webservices.h

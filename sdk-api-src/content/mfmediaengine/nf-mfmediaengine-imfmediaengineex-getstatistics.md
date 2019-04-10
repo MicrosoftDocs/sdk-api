@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_getstatistics.htm
 tech.root: medfound
 ms.assetid: 3C2FDE86-2EBD-4A5C-BD02-90613DBFDE65
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetStatistics, GetStatistics method [Media Foundation], GetStatistics method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetStatistics method, IMFMediaEngineEx.GetStatistics, IMFMediaEngineEx::GetStatistics, mf.imfmediaengineex_getstatistics, mfmediaengine/IMFMediaEngineEx::GetStatistics
 ms.topic: method
 req.header: mfmediaengine.h

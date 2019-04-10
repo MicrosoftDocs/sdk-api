@@ -7,7 +7,7 @@ old-location: p2p\drtcreatederivedkey.htm
 tech.root: P2PSdk
 ms.assetid: 069358e0-4b61-44ed-b235-37f1d038feff
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: DrtCreateDerivedKey, DrtCreateDerivedKey function [Peer Networking], drt/DrtCreateDerivedKey, p2p.drtcreatederivedkey
 ms.topic: function
 req.header: drt.h

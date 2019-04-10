@@ -7,7 +7,7 @@ old-location: mf\opm_actual_output_format.htm
 tech.root: medfound
 ms.assetid: 0b20cdcd-3d03-4da3-b81c-b5025dcb04c3
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: OPM_ACTUAL_OUTPUT_FORMAT, OPM_ACTUAL_OUTPUT_FORMAT structure [Media Foundation], mf.opm_actual_output_format, opmapi/OPM_ACTUAL_OUTPUT_FORMAT
 ms.topic: struct
 req.header: opmapi.h

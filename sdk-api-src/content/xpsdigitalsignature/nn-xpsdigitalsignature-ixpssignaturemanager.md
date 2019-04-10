@@ -7,7 +7,7 @@ old-location: xps\ixpssignaturemanager.htm
 tech.root: printdocs
 ms.assetid: 31283ebe-91f4-42be-9a9b-6fcd641dc356
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IXpsSignatureManager, IXpsSignatureManager interface [XPS Documents and Packaging], IXpsSignatureManager interface [XPS Documents and Packaging],described, xps.ixpssignaturemanager, xpsdigitalsignature/IXpsSignatureManager
 ms.topic: interface
 req.header: xpsdigitalsignature.h

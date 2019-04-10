@@ -7,7 +7,7 @@ old-location: secbiomet\engineadapteracceptsampledata.htm
 tech.root: SecBioMet
 ms.assetid: fa6c5aa4-a9f4-421e-bc43-ced7fade4144
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: EngineAdapterAcceptSampleData, EngineAdapterAcceptSampleData callback function [Windows Biometric Framework API], PIBIO_ENGINE_ACCEPT_SAMPLE_DATA_FN, PIBIO_ENGINE_ACCEPT_SAMPLE_DATA_FN callback, secbiomet.engineadapteracceptsampledata, winbio_adapter/EngineAdapterAcceptSampleData
 ms.topic: callback
 req.header: winbio_adapter.h

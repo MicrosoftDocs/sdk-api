@@ -7,7 +7,7 @@ old-location: controls\itextstrings_insertnullstr.htm
 tech.root: Controls
 ms.assetid: dc269f41-f65c-4335-ac5c-5c57187f20aa
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITextStrings interface [Windows Controls],InsertNullStr method, ITextStrings.InsertNullStr, ITextStrings::InsertNullStr, InsertNullStr, InsertNullStr method [Windows Controls], InsertNullStr method [Windows Controls],ITextStrings interface, controls.itextstrings_insertnullstr, tom/ITextStrings::InsertNullStr
 ms.topic: method
 req.header: tom.h

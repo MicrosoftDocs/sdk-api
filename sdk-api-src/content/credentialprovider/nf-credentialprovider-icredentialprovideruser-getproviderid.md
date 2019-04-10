@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderUser_GetProviderID.htm
 tech.root: shell
 ms.assetid: 7BD6C532-0266-4579-96FA-91D0AF7E6C4C
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: GetProviderID, GetProviderID method [Windows Shell], GetProviderID method [Windows Shell],ICredentialProviderUser interface, ICredentialProviderUser interface [Windows Shell],GetProviderID method, ICredentialProviderUser.GetProviderID, ICredentialProviderUser::GetProviderID, credentialprovider/ICredentialProviderUser::GetProviderID, shell.ICredentialProviderUser_GetProviderID
 ms.topic: method
 req.header: credentialprovider.h

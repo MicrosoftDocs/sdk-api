@@ -7,7 +7,7 @@ old-location: setup\msienumpatchesex.htm
 tech.root: Msi
 ms.assetid: 32edcc56-190a-465f-b341-56dc60ab0589
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MSIPATCHSTATE_ALL, MSIPATCHSTATE_APPLIED, MSIPATCHSTATE_OBSOLETED, MSIPATCHSTATE_REGISTERED, MSIPATCHSTATE_SUPERSEDED, MsiEnumPatchesEx, MsiEnumPatchesEx function, MsiEnumPatchesExA, MsiEnumPatchesExW, NULL, User SID, msi/MsiEnumPatchesEx, msi/MsiEnumPatchesExA, msi/MsiEnumPatchesExW, s-1-1-0, setup.msienumpatchesex
 ms.topic: function
 req.header: msi.h

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext1.htm
 tech.root: Direct2D
 ms.assetid: E08FDAE4-05D3-472C-9AD9-228BAF989F1D
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ID2D1DeviceContext1, ID2D1DeviceContext1 interface [Direct2D], ID2D1DeviceContext1 interface [Direct2D],described, d2d1_2/ID2D1DeviceContext1, direct2d.id2d1devicecontext1
 ms.topic: interface
 req.header: d2d1_2.h

@@ -7,7 +7,7 @@ old-location: p2p\peergraphsenddata.htm
 tech.root: P2PSdk
 ms.assetid: 8ccb6f37-cb1b-41fd-a852-5a84cb5506f5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PeerGraphSendData, PeerGraphSendData function [Peer Networking], p2p.peergraphsenddata, p2p/PeerGraphSendData
 ms.topic: function
 req.header: p2p.h

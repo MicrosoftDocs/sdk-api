@@ -7,7 +7,7 @@ old-location: shell\PathIsSameRoot.htm
 tech.root: shell
 ms.assetid: 3409a8f1-e22c-4c13-961e-211a2d10fe10
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: PathIsSameRoot, PathIsSameRoot function [Windows Shell], PathIsSameRootA, PathIsSameRootW, _win32_PathIsSameRoot, shell.PathIsSameRoot, shlwapi/PathIsSameRoot, shlwapi/PathIsSameRootA, shlwapi/PathIsSameRootW
 ms.topic: function
 req.header: shlwapi.h

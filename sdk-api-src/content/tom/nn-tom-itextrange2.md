@@ -7,7 +7,7 @@ old-location: controls\itextrange2.htm
 tech.root: Controls
 ms.assetid: 905f0967-8b99-45ed-a1cc-19d49e919a65
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: ITextRange2, ITextRange2 interface [Windows Controls], ITextRange2 interface [Windows Controls],described, controls.itextrange2, tom/ITextRange2
 ms.topic: interface
 req.header: tom.h

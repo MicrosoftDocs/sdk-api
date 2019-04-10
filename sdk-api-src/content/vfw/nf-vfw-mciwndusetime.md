@@ -7,7 +7,7 @@ old-location: multimedia\mciwndusetime.htm
 tech.root: Multimedia
 ms.assetid: 604031d8-4cb6-49a8-a2c8-7b4966f9cdf4
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MCIWndUseTime, MCIWndUseTime macro [Windows Multimedia], _win32_MCIWndUseTime, multimedia.mciwndusetime, vfw/MCIWndUseTime
 ms.topic: macro
 req.header: vfw.h

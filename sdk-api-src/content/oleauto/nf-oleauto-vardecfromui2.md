@@ -7,7 +7,7 @@ old-location: automat\vardecfromui2.htm
 tech.root: automat
 ms.assetid: 45e1e94c-365c-4844-a9d4-5e9754d49647
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: VarDecFromUI2, VarDecFromUI2 function [Automation], _oa96_VarDecFromUI2, automat.vardecfromui2, oleauto/VarDecFromUI2
 ms.topic: function
 req.header: oleauto.h

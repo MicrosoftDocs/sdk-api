@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionskewtransform_setangley_float.htm
 tech.root: directcomp
 ms.assetid: 5B356D5E-2F69-4620-880C-14F51786A8A5
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IDCompositionSkewTransform interface [DirectComposition],SetAngleY method, IDCompositionSkewTransform.SetAngleY, IDCompositionSkewTransform::SetAngleY, IDCompositionSkewTransform::SetAngleY(float), SetAngleY, SetAngleY method [DirectComposition], SetAngleY method [DirectComposition],IDCompositionSkewTransform interface, dcomp/IDCompositionSkewTransform::SetAngleY, directcomp.idcompositionskewtransform_setangley_float
 ms.topic: method
 req.header: dcomp.h

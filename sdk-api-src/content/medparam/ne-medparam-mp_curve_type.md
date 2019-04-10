@@ -7,7 +7,7 @@ old-location: dshow\mp_curve_type.htm
 tech.root: DirectShow
 ms.assetid: 0665796e-5589-4e6c-b101-e19eddec7e0d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MP_CURVE_INVSQUARE, MP_CURVE_JUMP, MP_CURVE_LINEAR, MP_CURVE_SINE, MP_CURVE_SQUARE, MP_CURVE_TYPE, MP_CURVE_TYPE , MP_CURVE_TYPE enumeration [DirectShow], MP_CURVE_TYPEEnumeration, dshow.mp_curve_type, medparam/MP_CURVE_INVSQUARE, medparam/MP_CURVE_JUMP, medparam/MP_CURVE_LINEAR, medparam/MP_CURVE_SINE, medparam/MP_CURVE_SQUARE, medparam/MP_CURVE_TYPE
 ms.topic: enum
 req.header: medparam.h

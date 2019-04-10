@@ -7,7 +7,7 @@ old-location: winprog\unregisterserverforpmp.htm
 tech.root: DevNotes
 ms.assetid: FF89301E-FE17-4B14-872E-271BDB85A784
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: UnregisterServerForPMP, UnregisterServerForPMP function [Windows API], comppkgsup/UnregisterServerForPMP, winprog.unregisterserverforpmp
 ms.topic: function
 req.header: comppkgsup.h

@@ -7,7 +7,7 @@ old-location: setup\msiusefeatureex.htm
 tech.root: Msi
 ms.assetid: fa05124c-e1ed-4059-9af3-2a914785799d
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: INSTALLMODE_NODETECTION, MsiUseFeatureEx, MsiUseFeatureEx function, MsiUseFeatureExA, MsiUseFeatureExW, _msi_msiusefeatureex, msi/MsiUseFeatureEx, msi/MsiUseFeatureExA, msi/MsiUseFeatureExW, setup.msiusefeatureex
 ms.topic: function
 req.header: msi.h

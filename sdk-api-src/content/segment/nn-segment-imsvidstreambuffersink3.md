@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersink3.htm
 tech.root: mstv
 ms.assetid: 5768936b-9c0a-4177-82da-cc6ebe62ea67
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink3, IMSVidStreamBufferSink3 interface [Microsoft TV Technologies], IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],described, IMSVidStreamBufferSink3Interface, mstv.imsvidstreambuffersink3, segment/IMSVidStreamBufferSink3
 ms.topic: interface
 req.header: segment.h

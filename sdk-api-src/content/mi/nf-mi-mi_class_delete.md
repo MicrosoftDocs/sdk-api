@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_class_delete.htm
 tech.root: wmi_v2
 ms.assetid: a2794f8f-a69a-49f3-8d7e-512c80ea782b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: MI_Class_Delete, MI_Class_Delete function [Windows Management Infrastructure (MI)], mi/MI_Class_Delete, wmi_v2.mi_class_delete
 ms.topic: function
 req.header: mi.h

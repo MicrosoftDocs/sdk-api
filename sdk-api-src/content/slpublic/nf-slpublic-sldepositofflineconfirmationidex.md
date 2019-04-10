@@ -7,7 +7,7 @@ old-location: security\sldepositofflineconfirmationidex.htm
 tech.root: SecSLApi
 ms.assetid: 22817dc4-5d06-41bd-980d-b4402f74b82b
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: SLDepositOfflineConfirmationIdEx, SLDepositOfflineConfirmationIdEx function [Security], security.sldepositofflineconfirmationidex, slpublic/SLDepositOfflineConfirmationIdEx
 ms.topic: function
 req.header: slpublic.h

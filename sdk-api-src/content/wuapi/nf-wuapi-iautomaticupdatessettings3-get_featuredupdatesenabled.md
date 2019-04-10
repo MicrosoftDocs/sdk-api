@@ -7,7 +7,7 @@ old-location: wua\iautomaticupdatessettings3_featuredupdatesenabled.htm
 tech.root: Wua_Sdk
 ms.assetid: 43f17feb-1a3b-4399-a26f-1a2d99442169
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 12/05/2018
 ms.keywords: FeaturedUpdatesEnabled property [Windows Update Agent], FeaturedUpdatesEnabled property [Windows Update Agent],IAutomaticUpdatesSettings3 interface, IAutomaticUpdatesSettings3 interface [Windows Update Agent],FeaturedUpdatesEnabled property, IAutomaticUpdatesSettings3.FeaturedUpdatesEnabled, IAutomaticUpdatesSettings3.get_FeaturedUpdatesEnabled, IAutomaticUpdatesSettings3::FeaturedUpdatesEnabled, IAutomaticUpdatesSettings3::get_FeaturedUpdatesEnabled, IAutomaticUpdatesSettings3::put_FeaturedUpdatesEnabled, get_FeaturedUpdatesEnabled, wua.iautomaticupdatessettings3_featuredupdatesenabled, wuapi/IAutomaticUpdatesSettings3::FeaturedUpdatesEnabled, wuapi/IAutomaticUpdatesSettings3::get_FeaturedUpdatesEnabled, wuapi/IAutomaticUpdatesSettings3::put_FeaturedUpdatesEnabled
 ms.topic: method
 req.header: wuapi.h
