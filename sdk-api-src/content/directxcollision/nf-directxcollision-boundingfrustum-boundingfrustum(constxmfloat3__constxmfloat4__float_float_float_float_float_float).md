@@ -1,14 +1,14 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.BoundingFrustum(const XMFLOAT3 &,const XMFLOAT4 &,float,float,float,float,float,float)
-title: BoundingFrustum::BoundingFrustum(const XMFLOAT3 &,const XMFLOAT4 &,float,float,float,float,float,float) (directxcollision.h)
+title: BoundingFrustum::BoundingFrustum(const XMFLOAT3 &,const XMFLOAT4 &,float,float,float,float,float,float)
 author: windows-sdk-content
 description: Creates an instance of BoundingFrustum.
-old-location: dxmath\boundingfrustum_ctor_3.htm
+old-location: dxmath\boundingfrustum_ctor_2.htm
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.#ctor
+ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.#ctor(XMFLOAT3,XMFLOAT4,float,float,float,float,float,float)
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: BoundingFrustum, BoundingFrustum constructor [DirectX Math Support APIs], BoundingFrustum constructor [DirectX Math Support APIs],BoundingFrustum interface, BoundingFrustum interface [DirectX Math Support APIs],BoundingFrustum constructor, BoundingFrustum.BoundingFrustum, BoundingFrustum.BoundingFrustum(), BoundingFrustum.BoundingFrustum(const XMFLOAT3 &,const XMFLOAT4 &,float,float,float,float,float,float), BoundingFrustum::BoundingFrustum, BoundingFrustum::BoundingFrustum(const XMFLOAT3 &,const XMFLOAT4 &,float,float,float,float,float,float), dxmath.boundingfrustum_ctor_3
+ms.keywords: BoundingFrustum, BoundingFrustum constructor [DirectX Math Support APIs], BoundingFrustum constructor [DirectX Math Support APIs],BoundingFrustum interface, BoundingFrustum interface [DirectX Math Support APIs],BoundingFrustum constructor, BoundingFrustum.BoundingFrustum, BoundingFrustum.BoundingFrustum(const XMFLOAT3 &,const XMFLOAT4 &,float,float,float,float,float,float), BoundingFrustum.BoundingFrustum(const XMFLOAT3&,const XMFLOAT4&,float,float,float,float,float,float), BoundingFrustum::BoundingFrustum, BoundingFrustum::BoundingFrustum(const XMFLOAT3 &,const XMFLOAT4 &,float,float,float,float,float,float), dxmath.boundingfrustum_ctor_2
 ms.topic: method
 req.header: directxcollision.h
 req.include-header: 
@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Creates an instance of <a href="https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx">BoundingFrustum</a>.
+Creates an instance of <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a>.
 
 
 ## -parameters
@@ -56,46 +56,44 @@ Creates an instance of <a href="https://msdn.microsoft.com/en-us/library/Hh85585
 
 
 
-### -param _Origin
+### -param _Origin [in, ref]
 
-TBD
-
-
-### -param _Orientation
-
-TBD
+The origin of the frustum.
 
 
-### -param _RightSlope
+### -param _Orientation [in, ref]
 
-TBD
-
-
-### -param _LeftSlope
-
-TBD
+The orientation of the frustum.
 
 
-### -param _TopSlope
+### -param _RightSlope [in]
 
-TBD
-
-
-### -param _BottomSlope
-
-TBD
+The slope of the right side of the frustum.
 
 
-### -param _Near
+### -param _LeftSlope [in]
 
-TBD
-
-
-### -param _Far
-
-TBD
+The slope of the left side of the frustum.
 
 
+### -param _TopSlope [in]
+
+The slope of the top of the frustum.
+
+
+### -param _BottomSlope [in]
+
+The slope of the bottom of the frustum.
+
+
+### -param _Near [in]
+
+The distance of the near plane from the origin of the frustum.
+
+
+### -param _Far [in]
+
+The distanc of the far plane from the origin of the frustum.
 
 
 ## -remarks
@@ -113,11 +111,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx">BoundingFrustum</a>
+<a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437811(v=VS.85).aspx">Constructors</a>
+<a href="https://msdn.microsoft.com/3b278210-3d55-4a2b-879d-942e3bc9800c">Constructors</a>
 
 
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxcollision.ContainedBy
-title: ContainedBy function (directxcollision.h)
+title: ContainedBy function
 author: windows-sdk-content
 description: Tests whether a triangle is contained within six planes (typically a frustum).
 old-location: dxmath\containedby.htm
@@ -105,7 +105,7 @@ A vector defining a plane.
 
 
 
-A <a href="https://msdn.microsoft.com/en-us/library/Hh449605(v=VS.85).aspx">ContainmentType</a> value indicating whether the triangle is contained within the planes.
+A <a href="https://msdn.microsoft.com/edc456b5-2d68-4d4e-953b-6081ad7f663c">ContainmentType</a> value indicating whether the triangle is contained within the planes.
 
 
 

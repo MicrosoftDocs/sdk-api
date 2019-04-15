@@ -1,6 +1,6 @@
 ---
 UID: NS:directxcollision.BoundingSphere
-title: BoundingSphere (directxcollision.h)
+title: BoundingSphere
 author: windows-sdk-content
 description: A bounding sphere object.
 old-location: dxmath\boundingsphere.htm

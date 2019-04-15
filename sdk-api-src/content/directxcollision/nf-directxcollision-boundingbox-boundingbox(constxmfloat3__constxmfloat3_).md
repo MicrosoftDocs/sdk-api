@@ -1,14 +1,14 @@
 ---
 UID: NF:directxcollision.BoundingBox.BoundingBox(const XMFLOAT3 &,const XMFLOAT3 &)
-title: BoundingBox::BoundingBox(const XMFLOAT3 &,const XMFLOAT3 &) (directxcollision.h)
+title: BoundingBox::BoundingBox(const XMFLOAT3 &,const XMFLOAT3 &)
 author: windows-sdk-content
 description: Creates an instance of the BoundingBox class.
-old-location: dxmath\boundingbox_ctor_3.htm
+old-location: dxmath\boundingbox_ctor_2.htm
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.#ctor
+ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.#ctor(XMFLOAT3,XMFLOAT3)
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: BoundingBox, BoundingBox constructor [DirectX Math Support APIs], BoundingBox constructor [DirectX Math Support APIs],BoundingBox interface, BoundingBox interface [DirectX Math Support APIs],BoundingBox constructor, BoundingBox.BoundingBox, BoundingBox.BoundingBox(), BoundingBox.BoundingBox(const XMFLOAT3 &,const XMFLOAT3 &), BoundingBox::BoundingBox, BoundingBox::BoundingBox(const XMFLOAT3 &,const XMFLOAT3 &), dxmath.boundingbox_ctor_3
+ms.keywords: BoundingBox, BoundingBox constructor [DirectX Math Support APIs], BoundingBox constructor [DirectX Math Support APIs],BoundingBox interface, BoundingBox interface [DirectX Math Support APIs],BoundingBox constructor, BoundingBox.BoundingBox, BoundingBox.BoundingBox(const XMFLOAT3 &,const XMFLOAT3 &), BoundingBox.BoundingBox(const XMFLOAT3&,const XMFLOAT3&), BoundingBox::BoundingBox, BoundingBox::BoundingBox(const XMFLOAT3 &,const XMFLOAT3 &), dxmath.boundingbox_ctor_2
 ms.topic: method
 req.header: directxcollision.h
 req.include-header: 
@@ -56,16 +56,14 @@ Creates an instance of the <code>BoundingBox</code> class.
 
 
 
-### -param center
+### -param center [in, ref]
 
-TBD
-
-
-### -param extents
-
-TBD
+The coordinate of the center of the box.
 
 
+### -param extents [in, ref]
+
+The extents of the box.
 
 
 ## -remarks
@@ -83,11 +81,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449580(v=VS.85).aspx">BoundingBox</a>
+<a href="https://msdn.microsoft.com/8dac1c63-2eb6-4ad2-8495-593c4927391f">BoundingBox</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437811(v=VS.85).aspx">Constructors</a>
+<a href="https://msdn.microsoft.com/bf065fb6-0af5-4311-b0bf-ab10b497b655">Constructors</a>
 
 
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxcollision.BoundingSphere.CreateFromPoints
-title: BoundingSphere::CreateFromPoints (directxcollision.h)
+title: BoundingSphere::CreateFromPoints
 author: windows-sdk-content
 description: Creates a new BoundingSphere from a list of points.
 old-location: dxmath\boundingsphere_createfrompoints.htm
@@ -100,11 +100,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449592(v=VS.85).aspx">BoundingSphere</a>
+<a href="https://msdn.microsoft.com/6ecc76e1-0c80-494c-81be-0ebe78eba07c">BoundingSphere</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a>
+<a href="https://msdn.microsoft.com/28E771F0-B18F-459D-99C5-ABC43869A15A">Methods</a>
 
 
 

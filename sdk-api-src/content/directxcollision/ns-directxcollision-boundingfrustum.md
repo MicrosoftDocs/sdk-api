@@ -1,6 +1,6 @@
 ---
 UID: NS:directxcollision.BoundingFrustum
-title: BoundingFrustum (directxcollision.h)
+title: BoundingFrustum
 author: windows-sdk-content
 description: A bounding frustum object.
 old-location: dxmath\boundingfrustum.htm

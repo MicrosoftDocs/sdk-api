@@ -1,6 +1,6 @@
 ---
 UID: NE:directxcollision.ContainmentType
-title: ContainmentType (directxcollision.h)
+title: ContainmentType
 author: windows-sdk-content
 description: Indicates whether an object contains another object.
 old-location: dxmath\containmenttype.htm

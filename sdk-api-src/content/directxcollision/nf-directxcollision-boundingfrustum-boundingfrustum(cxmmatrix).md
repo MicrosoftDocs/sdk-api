@@ -1,14 +1,14 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.BoundingFrustum(CXMMATRIX)
-title: BoundingFrustum::BoundingFrustum(CXMMATRIX) (directxcollision.h)
+title: BoundingFrustum::BoundingFrustum(CXMMATRIX)
 author: windows-sdk-content
-description: Creates an instance of BoundingFrustum.
-old-location: dxmath\boundingfrustum_ctor_3.htm
+description: Creates an instance of BoundingFrustum from a left-handed projection matrix.
+old-location: dxmath\boundingfrustum_ctor_4.htm
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.#ctor
+ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.#ctor(XMMATRIX)
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: BoundingFrustum, BoundingFrustum constructor [DirectX Math Support APIs], BoundingFrustum constructor [DirectX Math Support APIs],BoundingFrustum interface, BoundingFrustum interface [DirectX Math Support APIs],BoundingFrustum constructor, BoundingFrustum.BoundingFrustum, BoundingFrustum.BoundingFrustum(), BoundingFrustum.BoundingFrustum(CXMMATRIX), BoundingFrustum::BoundingFrustum, BoundingFrustum::BoundingFrustum(CXMMATRIX), dxmath.boundingfrustum_ctor_3
+ms.keywords: BoundingFrustum, BoundingFrustum constructor [DirectX Math Support APIs], BoundingFrustum constructor [DirectX Math Support APIs],BoundingFrustum interface, BoundingFrustum interface [DirectX Math Support APIs],BoundingFrustum constructor, BoundingFrustum.BoundingFrustum, BoundingFrustum.BoundingFrustum(CXMMATRIX), BoundingFrustum.BoundingFrustum(XMMATRIX), BoundingFrustum::BoundingFrustum, BoundingFrustum::BoundingFrustum(CXMMATRIX), dxmath.boundingfrustum_ctor_4
 ms.topic: method
 req.header: directxcollision.h
 req.include-header: 
@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Creates an instance of <a href="https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx">BoundingFrustum</a>.
+Creates an instance of <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a> from a left-handed projection matrix.For more info, see <a href="https://msdn.microsoft.com/1ba87281-0415-45b7-bdf8-36d5be704649">BoundingFrustum::CreateFromMatrix</a>. 
 
 
 ## -parameters
@@ -56,11 +56,9 @@ Creates an instance of <a href="https://msdn.microsoft.com/en-us/library/Hh85585
 
 
 
-### -param Projection
+### -param Projection [in]
 
-TBD
-
-
+The left-handed projection matrix to create the frustum from.
 
 
 ## -remarks
@@ -78,11 +76,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx">BoundingFrustum</a>
+<a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437811(v=VS.85).aspx">Constructors</a>
+<a href="https://msdn.microsoft.com/3b278210-3d55-4a2b-879d-942e3bc9800c">Constructors</a>
 
 
 
