@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_Lifespan, *PSecPkgContext_Lifespan
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SecPkgContext_Lifespan structure

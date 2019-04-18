@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: OLEUIPASTEENTRYW, *POLEUIPASTEENTRYW, *LPOLEUIPASTEENTRYW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OLEUIPASTEENTRYW structure

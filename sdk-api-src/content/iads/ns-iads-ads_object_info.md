@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ADS_OBJECT_INFO, *PADS_OBJECT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ADS_OBJECT_INFO structure

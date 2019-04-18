@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TOKEN_LINKED_TOKEN, *PTOKEN_LINKED_TOKEN
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TOKEN_LINKED_TOKEN structure

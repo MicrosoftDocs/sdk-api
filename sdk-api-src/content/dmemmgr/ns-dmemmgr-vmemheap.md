@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VMEMHEAP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VMEMHEAP structure

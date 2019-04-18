@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: CHOOSEFONTA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CHOOSEFONTA structure

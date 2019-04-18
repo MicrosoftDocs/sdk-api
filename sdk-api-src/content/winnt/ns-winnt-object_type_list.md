@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OBJECT_TYPE_LIST, *POBJECT_TYPE_LIST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OBJECT_TYPE_LIST structure

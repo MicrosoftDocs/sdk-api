@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_XML_TRANSFORM_INFO, *PCRYPT_XML_TRANSFORM_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_XML_TRANSFORM_INFO structure

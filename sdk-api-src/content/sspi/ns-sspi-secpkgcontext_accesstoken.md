@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_AccessToken, *PSecPkgContext_AccessToken
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SecPkgContext_AccessToken structure

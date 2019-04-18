@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_BUS_TYPE, *PSTORAGE_BUS_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STORAGE_BUS_TYPE enumeration

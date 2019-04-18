@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: ENUM_SERVICE_STATUS_PROCESSA, *LPENUM_SERVICE_STATUS_PROCESSA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ENUM_SERVICE_STATUS_PROCESSA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WINHTTP_CREDS_EX, *PWINHTTP_CREDS_EX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WINHTTP_CREDS_EX structure

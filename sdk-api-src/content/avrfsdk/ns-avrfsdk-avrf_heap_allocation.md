@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AVRF_HEAP_ALLOCATION, *PAVRF_HEAP_ALLOCATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AVRF_HEAP_ALLOCATION structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RTM_PREF_INFO, *PRTM_PREF_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RTM_PREF_INFO structure

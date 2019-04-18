@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SOCKADDR_IN6_PAIR, *PSOCKADDR_IN6_PAIR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SOCKADDR_IN6_PAIR structure

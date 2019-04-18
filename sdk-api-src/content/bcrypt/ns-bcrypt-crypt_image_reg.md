@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_IMAGE_REG, *PCRYPT_IMAGE_REG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_IMAGE_REG structure

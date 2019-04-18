@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: MSIPATCHSEQUENCEINFOA, *PMSIPATCHSEQUENCEINFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MSIPATCHSEQUENCEINFOA structure

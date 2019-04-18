@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSAPROTOCOL_INFOW, *LPWSAPROTOCOL_INFOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSAPROTOCOL_INFOW structure

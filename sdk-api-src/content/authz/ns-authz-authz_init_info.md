@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AUTHZ_INIT_INFO, *PAUTHZ_INIT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AUTHZ_INIT_INFO structure

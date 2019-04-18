@@ -39,6 +39,7 @@ product: Windows
 targetos: Windows
 req.typenames: ATTRIBUTEID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ATTRIBUTEID enumeration

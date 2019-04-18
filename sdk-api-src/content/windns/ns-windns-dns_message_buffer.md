@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DNS_MESSAGE_BUFFER, *PDNS_MESSAGE_BUFFER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DNS_MESSAGE_BUFFER structure

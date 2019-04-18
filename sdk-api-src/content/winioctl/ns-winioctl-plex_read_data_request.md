@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PLEX_READ_DATA_REQUEST, *PPLEX_READ_DATA_REQUEST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PLEX_READ_DATA_REQUEST structure

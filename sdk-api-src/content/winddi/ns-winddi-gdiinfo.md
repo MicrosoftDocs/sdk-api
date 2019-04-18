@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GDIINFO, *PGDIINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GDIINFO structure

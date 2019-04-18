@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DDFLIPOVERLAYINFO, *PDDFLIPOVERLAYINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DDFLIPOVERLAYINFO structure

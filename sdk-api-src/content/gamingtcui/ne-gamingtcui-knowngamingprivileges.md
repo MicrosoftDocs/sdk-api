@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KnownGamingPrivileges
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KnownGamingPrivileges enumeration

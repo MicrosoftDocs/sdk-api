@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ADS_DEREFENUM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ADS_DEREFENUM enumeration

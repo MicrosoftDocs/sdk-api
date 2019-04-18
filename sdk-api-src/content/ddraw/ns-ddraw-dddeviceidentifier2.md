@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DDDEVICEIDENTIFIER2, *LPDDDEVICEIDENTIFIER2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DDDEVICEIDENTIFIER2 structure

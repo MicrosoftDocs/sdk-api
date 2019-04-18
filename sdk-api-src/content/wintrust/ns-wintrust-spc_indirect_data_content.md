@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SPC_INDIRECT_DATA_CONTENT, *PSPC_INDIRECT_DATA_CONTENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SPC_INDIRECT_DATA_CONTENT structure

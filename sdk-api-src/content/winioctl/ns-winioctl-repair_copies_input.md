@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: REPAIR_COPIES_INPUT, *PREPAIR_COPIES_INPUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # REPAIR_COPIES_INPUT structure

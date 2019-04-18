@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: BROWSEINFOA, *PBROWSEINFOA, *LPBROWSEINFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BROWSEINFOA structure

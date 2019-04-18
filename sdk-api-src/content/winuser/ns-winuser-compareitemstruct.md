@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: COMPAREITEMSTRUCT, *PCOMPAREITEMSTRUCT, *LPCOMPAREITEMSTRUCT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # COMPAREITEMSTRUCT structure

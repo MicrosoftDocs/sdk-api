@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KERB_PROTOCOL_MESSAGE_TYPE, *PKERB_PROTOCOL_MESSAGE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KERB_PROTOCOL_MESSAGE_TYPE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: USB_BANDWIDTH_INFO, *PUSB_BANDWIDTH_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # USB_BANDWIDTH_INFO structure

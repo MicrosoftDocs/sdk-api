@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EapCode
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EapCode enumeration

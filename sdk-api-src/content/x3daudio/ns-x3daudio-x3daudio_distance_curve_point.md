@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: X3DAUDIO_DISTANCE_CURVE_POINT, *LPX3DAUDIO_DISTANCE_CURVE_POINT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # X3DAUDIO_DISTANCE_CURVE_POINT structure

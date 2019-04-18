@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: OPEN_PRINTER_PROPS_INFOA, *POPEN_PRINTER_PROPS_INFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OPEN_PRINTER_PROPS_INFOA structure

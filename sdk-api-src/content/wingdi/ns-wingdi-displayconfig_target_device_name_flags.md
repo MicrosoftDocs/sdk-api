@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS structure

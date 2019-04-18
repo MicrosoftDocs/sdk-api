@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: smiOID, *smiLPOID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # smiOID structure

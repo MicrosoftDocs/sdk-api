@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: NONCLIENTMETRICSA, *PNONCLIENTMETRICSA, *LPNONCLIENTMETRICSA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NONCLIENTMETRICSA structure

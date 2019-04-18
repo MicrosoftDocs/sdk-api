@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LATTICE_METRICS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LATTICE_METRICS structure

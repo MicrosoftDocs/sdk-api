@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO, *PBCRYPT_AUTHENTICATED_CIPHER_MODE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_IN_CABINET_INFO_W, *PFILE_IN_CABINET_INFO_W
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILE_IN_CABINET_INFO_W structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYSTEM_EVENT_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYSTEM_EVENT_DATA structure

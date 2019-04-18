@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: USN_TRACK_MODIFIED_RANGES, *PUSN_TRACK_MODIFIED_RANGES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # USN_TRACK_MODIFIED_RANGES structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_IssuerListInfoEx, *PSecPkgContext_IssuerListInfoEx
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SecPkgContext_IssuerListInfoEx structure

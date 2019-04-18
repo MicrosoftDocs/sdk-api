@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AMVAUncompDataInfo structure

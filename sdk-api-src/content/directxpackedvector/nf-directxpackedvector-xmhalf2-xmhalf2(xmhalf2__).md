@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XMHALF2::XMHALF2(XMHALF2 &&)

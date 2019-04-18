@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CONNECTDATA, *PCONNECTDATA, *LPCONNECTDATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CONNECTDATA structure

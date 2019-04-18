@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: QUERY_SERVICE_LOCK_STATUSA, *LPQUERY_SERVICE_LOCK_STATUSA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # QUERY_SERVICE_LOCK_STATUSA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FWP_AF
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FWP_AF enumeration

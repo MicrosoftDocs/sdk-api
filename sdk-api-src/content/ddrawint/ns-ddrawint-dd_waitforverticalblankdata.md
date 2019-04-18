@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_WAITFORVERTICALBLANKDATA, DD_WAITFORVERTICALBLANKDATA"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_WAITFORVERTICALBLANKDATA structure

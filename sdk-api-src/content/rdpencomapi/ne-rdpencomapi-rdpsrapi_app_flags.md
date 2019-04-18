@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RDPSRAPI_APP_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RDPSRAPI_APP_FLAGS enumeration

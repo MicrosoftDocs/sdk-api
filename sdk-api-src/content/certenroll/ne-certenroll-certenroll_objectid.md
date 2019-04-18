@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERTENROLL_OBJECTID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERTENROLL_OBJECTID enumeration

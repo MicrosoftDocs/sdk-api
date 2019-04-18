@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_SupportedSignatures, *PSecPkgContext_SupportedSignatures
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SecPkgContext_SupportedSignatures structure

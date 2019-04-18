@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LVITEMINDEX, *PLVITEMINDEX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LVITEMINDEX structure

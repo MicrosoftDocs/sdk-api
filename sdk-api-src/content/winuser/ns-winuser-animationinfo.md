@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ANIMATIONINFO, *LPANIMATIONINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ANIMATIONINFO structure

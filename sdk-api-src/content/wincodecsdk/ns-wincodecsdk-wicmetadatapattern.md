@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WICMetadataPattern
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WICMetadataPattern structure

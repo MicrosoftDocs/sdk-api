@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ResourceType
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ResourceType enumeration

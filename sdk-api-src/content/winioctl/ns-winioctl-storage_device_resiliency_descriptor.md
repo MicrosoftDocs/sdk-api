@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_RESILIENCY_DESCRIPTOR, *PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STORAGE_DEVICE_RESILIENCY_DESCRIPTOR structure

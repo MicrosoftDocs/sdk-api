@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EAP_CONFIG_INPUT_FIELD_DATA, *PEAP_CONFIG_INPUT_FIELD_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EAP_CONFIG_INPUT_FIELD_DATA structure

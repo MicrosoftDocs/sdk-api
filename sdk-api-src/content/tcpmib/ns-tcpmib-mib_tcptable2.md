@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_TCPTABLE2, *PMIB_TCPTABLE2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_TCPTABLE2 structure

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: CHARFORMAT2A
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CHARFORMAT2A structure

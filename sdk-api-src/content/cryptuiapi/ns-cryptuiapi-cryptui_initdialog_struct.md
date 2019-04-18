@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPTUI_INITDIALOG_STRUCT, *PCRYPTUI_INITDIALOG_STRUCT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPTUI_INITDIALOG_STRUCT structure

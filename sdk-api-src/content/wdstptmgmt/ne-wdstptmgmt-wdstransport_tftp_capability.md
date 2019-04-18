@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WDSTRANSPORT_TFTP_CAPABILITY enumeration

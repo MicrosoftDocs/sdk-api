@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSTER_VALIDATE_CSV_FILENAME, *PCLUSTER_VALIDATE_CSV_FILENAME
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSTER_VALIDATE_CSV_FILENAME structure

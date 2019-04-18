@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IP_INTERFACE_INFO, *PIP_INTERFACE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IP_INTERFACE_INFO structure

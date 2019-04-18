@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OLECMDID_WINDOWSTATE_FLAG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OLECMDID_WINDOWSTATE_FLAG enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NS_DLL_STOP_FN callback function

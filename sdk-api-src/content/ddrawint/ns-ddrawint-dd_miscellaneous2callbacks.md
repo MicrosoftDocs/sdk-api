@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DD_MISCELLANEOUS2CALLBACKS, *PDD_MISCELLANEOUS2CALLBACKS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_MISCELLANEOUS2CALLBACKS structure

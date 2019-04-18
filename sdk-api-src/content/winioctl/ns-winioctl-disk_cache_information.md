@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DISK_CACHE_INFORMATION, *PDISK_CACHE_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DISK_CACHE_INFORMATION structure

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_KeyingMaterialInfo, *PSecPkgContext_KeyingMaterialInfo
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SecPkgContext_KeyingMaterialInfo structure

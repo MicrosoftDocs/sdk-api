@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EnTvRat_System
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EnTvRat_System enumeration

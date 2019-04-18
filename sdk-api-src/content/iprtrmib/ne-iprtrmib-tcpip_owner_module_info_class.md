@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TCPIP_OWNER_MODULE_INFO_CLASS, *PTCPIP_OWNER_MODULE_INFO_CLASS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TCPIP_OWNER_MODULE_INFO_CLASS enumeration

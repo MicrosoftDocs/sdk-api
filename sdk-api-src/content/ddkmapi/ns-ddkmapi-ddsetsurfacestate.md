@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DDSETSURFACESTATE, *LPDDSETSURFACESTATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DDSETSURFACESTATE structure

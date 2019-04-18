@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RAS_SECURITY_INFO, *PRAS_SECURITY_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RAS_SECURITY_INFO structure

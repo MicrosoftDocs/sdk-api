@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LONG_SECTION, *PLONG_SECTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LONG_SECTION structure

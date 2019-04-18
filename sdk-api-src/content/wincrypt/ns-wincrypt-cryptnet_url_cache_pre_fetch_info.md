@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPTNET_URL_CACHE_PRE_FETCH_INFO, *PCRYPTNET_URL_CACHE_PRE_FETCH_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPTNET_URL_CACHE_PRE_FETCH_INFO structure

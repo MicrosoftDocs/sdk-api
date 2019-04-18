@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PPP_LCP_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PPP_LCP_INFO structure

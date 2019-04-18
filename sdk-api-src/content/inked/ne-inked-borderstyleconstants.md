@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BorderStyleConstants
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BorderStyleConstants enumeration

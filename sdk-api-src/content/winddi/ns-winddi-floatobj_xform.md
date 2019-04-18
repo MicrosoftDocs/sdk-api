@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FLOATOBJ_XFORM, *PFLOATOBJ_XFORM, *LPFLOATOBJ_XFORM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FLOATOBJ_XFORM structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DEBUG_EVENT, *LPDEBUG_EVENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DEBUG_EVENT structure

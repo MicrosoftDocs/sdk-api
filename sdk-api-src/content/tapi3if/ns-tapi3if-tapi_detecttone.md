@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TAPI_DETECTTONE, *LPTAPI_DETECTTONE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TAPI_DETECTTONE structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFP_MF_EVENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFP_MF_EVENT structure

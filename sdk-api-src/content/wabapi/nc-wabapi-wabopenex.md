@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 5.5
+ms.custom: 19H1
 ---
 
 # WABOpenEx callback function

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFP_PAUSE_EVENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFP_PAUSE_EVENT structure

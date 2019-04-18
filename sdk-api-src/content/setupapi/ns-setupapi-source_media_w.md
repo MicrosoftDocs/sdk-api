@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SOURCE_MEDIA_W, *PSOURCE_MEDIA_W
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SOURCE_MEDIA_W structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RM_FILTER_TRIGGER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RM_FILTER_TRIGGER enumeration

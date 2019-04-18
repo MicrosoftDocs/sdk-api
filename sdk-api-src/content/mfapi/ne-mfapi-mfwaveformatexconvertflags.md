@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFWaveFormatExConvertFlags
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFWaveFormatExConvertFlags enumeration

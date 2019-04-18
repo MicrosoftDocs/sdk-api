@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECPKG_PRIMARY_CRED, *PSECPKG_PRIMARY_CRED
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECPKG_PRIMARY_CRED structure

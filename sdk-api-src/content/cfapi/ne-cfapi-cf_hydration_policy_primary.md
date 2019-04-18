@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CF_HYDRATION_POLICY_PRIMARY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CF_HYDRATION_POLICY_PRIMARY enumeration

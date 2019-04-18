@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_FLIPVPORTDATA, DD_FLIPVPORTDATA"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_FLIPVPORTDATA structure

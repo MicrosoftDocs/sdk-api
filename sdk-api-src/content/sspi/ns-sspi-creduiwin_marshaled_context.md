@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CREDUIWIN_MARSHALED_CONTEXT, *PCREDUIWIN_MARSHALED_CONTEXT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CREDUIWIN_MARSHALED_CONTEXT structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INTERACTION_CONTEXT_OUTPUT_CALLBACK callback function

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FWPM_CONNECTION_EVENT_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FWPM_CONNECTION_EVENT_TYPE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYNCMGR_CANCEL_REQUEST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYNCMGR_CANCEL_REQUEST enumeration

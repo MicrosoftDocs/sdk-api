@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HHNTRACK
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HHNTRACK structure

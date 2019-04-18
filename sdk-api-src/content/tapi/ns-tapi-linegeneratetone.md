@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LINEGENERATETONE, *LPLINEGENERATETONE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LINEGENERATETONE structure

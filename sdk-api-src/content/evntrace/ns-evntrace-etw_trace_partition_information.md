@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ETW_TRACE_PARTITION_INFORMATION, *PETW_TRACE_PARTITION_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ETW_TRACE_PARTITION_INFORMATION structure

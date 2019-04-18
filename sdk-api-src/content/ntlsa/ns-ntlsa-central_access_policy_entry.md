@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CENTRAL_ACCESS_POLICY_ENTRY, *PCENTRAL_ACCESS_POLICY_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CENTRAL_ACCESS_POLICY_ENTRY structure

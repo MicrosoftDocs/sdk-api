@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSPROP_PIFLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSPROP_PIFLAGS enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HEAP_OPTIMIZE_RESOURCES_INFORMATION, *PHEAP_OPTIMIZE_RESOURCES_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HEAP_OPTIMIZE_RESOURCES_INFORMATION structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_TIMESPAN_DESCRIPTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_TIMESPAN_DESCRIPTION structure

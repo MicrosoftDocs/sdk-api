@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_IF_TABLE_LEVEL, *PMIB_IF_TABLE_LEVEL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_IF_TABLE_LEVEL enumeration

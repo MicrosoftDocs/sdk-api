@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NET_VALIDATE_OUTPUT_ARG, *PNET_VALIDATE_OUTPUT_ARG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NET_VALIDATE_OUTPUT_ARG structure

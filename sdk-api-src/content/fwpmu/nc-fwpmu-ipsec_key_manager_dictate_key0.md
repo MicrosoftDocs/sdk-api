@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IPSEC_KEY_MANAGER_DICTATE_KEY0 callback function

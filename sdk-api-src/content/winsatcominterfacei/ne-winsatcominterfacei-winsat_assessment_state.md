@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WINSAT_ASSESSMENT_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WINSAT_ASSESSMENT_STATE enumeration

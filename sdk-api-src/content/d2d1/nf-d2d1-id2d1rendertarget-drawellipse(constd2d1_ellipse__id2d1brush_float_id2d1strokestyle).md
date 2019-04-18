@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ID2D1RenderTarget::DrawEllipse(const D2D1_ELLIPSE &,ID2D1Brush,FLOAT,ID2D1StrokeStyle)

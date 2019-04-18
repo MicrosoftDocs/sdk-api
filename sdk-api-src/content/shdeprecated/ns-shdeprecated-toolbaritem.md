@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: TOOLBARITEM, *LPTOOLBARITEM
 req.redist: 
 req.product: Internet Explorer 5.0
+ms.custom: 19H1
 ---
 
 # TOOLBARITEM structure

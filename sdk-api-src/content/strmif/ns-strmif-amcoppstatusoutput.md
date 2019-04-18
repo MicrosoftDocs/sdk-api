@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AMCOPPStatusOutput, *LPAMCOPPStatusOutput
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AMCOPPStatusOutput structure

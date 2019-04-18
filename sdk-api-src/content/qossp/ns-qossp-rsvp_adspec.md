@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RSVP_ADSPEC, *LPRSVP_ADSPEC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RSVP_ADSPEC structure

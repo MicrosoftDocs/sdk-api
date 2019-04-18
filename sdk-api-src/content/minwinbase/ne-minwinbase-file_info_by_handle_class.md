@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_INFO_BY_HANDLE_CLASS, *PFILE_INFO_BY_HANDLE_CLASS
 req.redist: Windows SDK on     Windows Server 2003 and Windows XP.
+ms.custom: 19H1
 ---
 
 # FILE_INFO_BY_HANDLE_CLASS enumeration

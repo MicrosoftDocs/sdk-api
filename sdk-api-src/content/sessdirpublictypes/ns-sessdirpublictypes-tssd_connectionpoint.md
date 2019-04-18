@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TSSD_ConnectionPoint structure

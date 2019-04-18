@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PERF_STRING_BUFFER_HEADER, *PPERF_STRING_BUFFER_HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PERF_STRING_BUFFER_HEADER structure

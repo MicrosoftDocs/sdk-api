@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SID_IDENTIFIER_AUTHORITY, *PSID_IDENTIFIER_AUTHORITY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SID_IDENTIFIER_AUTHORITY structure

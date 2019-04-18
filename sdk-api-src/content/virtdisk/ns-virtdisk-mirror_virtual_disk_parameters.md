@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIRROR_VIRTUAL_DISK_PARAMETERS, *PMIRROR_VIRTUAL_DISK_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIRROR_VIRTUAL_DISK_PARAMETERS structure

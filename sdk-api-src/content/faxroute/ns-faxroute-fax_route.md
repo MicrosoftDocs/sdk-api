@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FAX_ROUTE, *PFAX_ROUTE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FAX_ROUTE structure

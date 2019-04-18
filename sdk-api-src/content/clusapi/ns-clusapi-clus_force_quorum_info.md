@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUS_FORCE_QUORUM_INFO, *PCLUS_FORCE_QUORUM_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUS_FORCE_QUORUM_INFO structure

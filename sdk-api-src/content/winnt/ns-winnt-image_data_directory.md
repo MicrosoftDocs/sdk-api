@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMAGE_DATA_DIRECTORY, *PIMAGE_DATA_DIRECTORY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IMAGE_DATA_DIRECTORY structure

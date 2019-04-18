@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SCSI_LUN_LIST, *PSCSI_LUN_LIST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SCSI_LUN_LIST structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RGBTRIPLE, *PRGBTRIPLE, *NPRGBTRIPLE, *LPRGBTRIPLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RGBTRIPLE structure

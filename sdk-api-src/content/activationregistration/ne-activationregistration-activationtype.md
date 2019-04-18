@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ActivationType
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ActivationType enumeration

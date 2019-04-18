@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DISK_EXTENT, *PDISK_EXTENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DISK_EXTENT structure

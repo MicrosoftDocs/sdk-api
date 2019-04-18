@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FIND_BY_SID_DATA, *PFIND_BY_SID_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FIND_BY_SID_DATA structure

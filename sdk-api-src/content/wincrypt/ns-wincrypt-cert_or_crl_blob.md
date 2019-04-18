@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_OR_CRL_BLOB, *PCERT_OR_CRL_BLOB
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_OR_CRL_BLOB structure

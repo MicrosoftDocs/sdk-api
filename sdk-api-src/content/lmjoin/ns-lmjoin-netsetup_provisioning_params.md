@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NETSETUP_PROVISIONING_PARAMS, *PNETSETUP_PROVISIONING_PARAMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NETSETUP_PROVISIONING_PARAMS structure

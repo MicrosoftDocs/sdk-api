@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WLAN_COUNTRY_OR_REGION_STRING_LIST, *PWLAN_COUNTRY_OR_REGION_STRING_LIST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WLAN_COUNTRY_OR_REGION_STRING_LIST structure

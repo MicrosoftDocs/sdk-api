@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: INTERFACEINFO, *LPINTERFACEINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INTERFACEINFO structure

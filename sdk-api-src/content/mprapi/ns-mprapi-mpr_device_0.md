@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MPR_DEVICE_0, *PMPR_DEVICE_0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MPR_DEVICE_0 structure

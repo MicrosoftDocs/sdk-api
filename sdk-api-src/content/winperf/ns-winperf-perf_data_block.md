@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PERF_DATA_BLOCK, *PPERF_DATA_BLOCK
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PERF_DATA_BLOCK structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DEVMODEW, *PDEVMODEW, *NPDEVMODEW, *LPDEVMODEW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DEVMODEW structure

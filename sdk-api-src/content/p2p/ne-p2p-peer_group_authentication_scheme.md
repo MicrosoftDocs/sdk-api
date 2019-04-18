@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEER_GROUP_AUTHENTICATION_SCHEME
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEER_GROUP_AUTHENTICATION_SCHEME enumeration

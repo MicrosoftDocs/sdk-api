@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DATABLOCK_HEADER, *LPDATABLOCK_HEADER, *LPDBLIST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DATABLOCK_HEADER structure

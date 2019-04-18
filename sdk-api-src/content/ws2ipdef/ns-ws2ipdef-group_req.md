@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GROUP_REQ, *PGROUP_REQ
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GROUP_REQ structure

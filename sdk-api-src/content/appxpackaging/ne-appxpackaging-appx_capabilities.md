@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: APPX_CAPABILITIES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # APPX_CAPABILITIES enumeration

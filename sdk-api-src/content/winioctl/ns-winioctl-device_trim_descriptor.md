@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DEVICE_TRIM_DESCRIPTOR, *PDEVICE_TRIM_DESCRIPTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DEVICE_TRIM_DESCRIPTOR structure

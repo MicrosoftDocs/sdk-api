@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GESTURECONFIG, *PGESTURECONFIG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GESTURECONFIG structure

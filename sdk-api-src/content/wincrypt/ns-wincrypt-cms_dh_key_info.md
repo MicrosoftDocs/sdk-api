@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CMS_DH_KEY_INFO, *PCMS_DH_KEY_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CMS_DH_KEY_INFO structure

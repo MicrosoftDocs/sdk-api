@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MEM_EXTENDED_PARAMETER_TYPE, *PMEM_EXTENDED_PARAMETER_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MEM_EXTENDED_PARAMETER_TYPE enumeration

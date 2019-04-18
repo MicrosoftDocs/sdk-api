@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SHARE_INFO_1004, *PSHARE_INFO_1004, *LPSHARE_INFO_1004
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SHARE_INFO_1004 structure

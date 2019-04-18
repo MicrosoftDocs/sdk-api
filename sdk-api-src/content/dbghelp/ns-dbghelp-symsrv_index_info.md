@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYMSRV_INDEX_INFO, *PSYMSRV_INDEX_INFO
 req.redist: DbgHelp.dll 6.6 or later
+ms.custom: 19H1
 ---
 
 # SYMSRV_INDEX_INFO structure

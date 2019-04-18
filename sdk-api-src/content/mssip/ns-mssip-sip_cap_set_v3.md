@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SIP_CAP_SET_V3, *PSIP_CAP_SET_V3
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SIP_CAP_SET_V3 structure

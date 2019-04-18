@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ADS_USER_FLAG_ENUM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ADS_USER_FLAG_ENUM enumeration

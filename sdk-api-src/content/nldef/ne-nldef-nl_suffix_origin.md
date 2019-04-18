@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: NL_SUFFIX_ORIGIN
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NL_SUFFIX_ORIGIN enumeration

@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SR_REPLICATED_DISK_TYPE enumeration

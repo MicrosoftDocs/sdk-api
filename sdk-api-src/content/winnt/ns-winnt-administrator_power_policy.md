@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ADMINISTRATOR_POWER_POLICY, *PADMINISTRATOR_POWER_POLICY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ADMINISTRATOR_POWER_POLICY structure

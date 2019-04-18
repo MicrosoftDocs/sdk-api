@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: INTERNET_CONNECTED_INFO, *LPINTERNET_CONNECTED_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INTERNET_CONNECTED_INFO structure

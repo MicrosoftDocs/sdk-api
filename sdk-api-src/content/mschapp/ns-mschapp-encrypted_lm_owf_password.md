@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ENCRYPTED_LM_OWF_PASSWORD, *PENCRYPTED_LM_OWF_PASSWORD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ENCRYPTED_LM_OWF_PASSWORD structure

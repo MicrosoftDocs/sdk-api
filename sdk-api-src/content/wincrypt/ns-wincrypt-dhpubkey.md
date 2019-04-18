@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHPUBKEY, DSSPUBKEY, KEAPUBKEY, TEKPUBKEY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHPUBKEY structure

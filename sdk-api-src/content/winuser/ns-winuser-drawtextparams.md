@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DRAWTEXTPARAMS, *LPDRAWTEXTPARAMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DRAWTEXTPARAMS structure

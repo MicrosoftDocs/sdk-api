@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ADS_GROUP_TYPE_ENUM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ADS_GROUP_TYPE_ENUM enumeration

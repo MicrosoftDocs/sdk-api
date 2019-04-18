@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NOTIFYICONIDENTIFIER, *PNOTIFYICONIDENTIFIER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NOTIFYICONIDENTIFIER structure

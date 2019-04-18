@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: ENUMLOGFONTA, *LPENUMLOGFONTA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ENUMLOGFONTA structure

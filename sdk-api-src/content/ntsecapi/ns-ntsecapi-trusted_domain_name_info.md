@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TRUSTED_DOMAIN_NAME_INFO, *PTRUSTED_DOMAIN_NAME_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TRUSTED_DOMAIN_NAME_INFO structure

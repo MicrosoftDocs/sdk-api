@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CWMO_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CWMO_FLAGS enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: QOS_SERVICE_LEVEL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # QOS_SERVICE_LEVEL enumeration

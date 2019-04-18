@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: INTERFACE_HARDWARE_CROSSTIMESTAMP, *PINTERFACE_HARDWARE_CROSSTIMESTAMP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INTERFACE_HARDWARE_CROSSTIMESTAMP structure

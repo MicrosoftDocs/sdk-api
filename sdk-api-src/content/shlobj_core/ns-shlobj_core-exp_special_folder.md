@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EXP_SPECIAL_FOLDER, *LPEXP_SPECIAL_FOLDER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EXP_SPECIAL_FOLDER structure

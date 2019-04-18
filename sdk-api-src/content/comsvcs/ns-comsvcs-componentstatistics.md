@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ComponentStatistics
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ComponentStatistics structure

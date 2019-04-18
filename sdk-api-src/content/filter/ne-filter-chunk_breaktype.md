@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CHUNK_BREAKTYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CHUNK_BREAKTYPE enumeration

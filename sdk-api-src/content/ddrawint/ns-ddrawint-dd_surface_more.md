@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_SURFACE_MORE, DD_SURFACE_MORE"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_SURFACE_MORE structure

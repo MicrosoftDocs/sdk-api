@@ -39,6 +39,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PCLUSTER_SETUP_PROGRESS_CALLBACK callback function

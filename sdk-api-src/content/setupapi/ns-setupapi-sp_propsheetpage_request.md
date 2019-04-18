@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SP_PROPSHEETPAGE_REQUEST, *PSP_PROPSHEETPAGE_REQUEST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SP_PROPSHEETPAGE_REQUEST structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NET_ADDRESS_INFO, *PNET_ADDRESS_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NET_ADDRESS_INFO structure

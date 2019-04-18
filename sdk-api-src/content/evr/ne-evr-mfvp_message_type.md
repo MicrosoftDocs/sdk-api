@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFVP_MESSAGE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFVP_MESSAGE_TYPE enumeration

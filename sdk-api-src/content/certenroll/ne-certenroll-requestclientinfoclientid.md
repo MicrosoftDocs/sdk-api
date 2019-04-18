@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RequestClientInfoClientId
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RequestClientInfoClientId enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SHGLOBALCOUNTER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SHGLOBALCOUNTER enumeration

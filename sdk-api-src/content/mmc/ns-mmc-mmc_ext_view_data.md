@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MMC_EXT_VIEW_DATA, *PMMC_EXT_VIEW_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MMC_EXT_VIEW_DATA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CF_HYDRATE_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CF_HYDRATE_FLAGS enumeration

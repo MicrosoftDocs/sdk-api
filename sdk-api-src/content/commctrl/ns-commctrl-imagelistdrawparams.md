@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMAGELISTDRAWPARAMS, *LPIMAGELISTDRAWPARAMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IMAGELISTDRAWPARAMS structure

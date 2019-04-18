@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CHANGER_PRODUCT_DATA, *PCHANGER_PRODUCT_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CHANGER_PRODUCT_DATA structure

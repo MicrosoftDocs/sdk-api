@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IKEV2_TUNNEL_CONFIG_PARAMS1, *PIKEV2_TUNNEL_CONFIG_PARAMS1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IKEV2_TUNNEL_CONFIG_PARAMS1 structure

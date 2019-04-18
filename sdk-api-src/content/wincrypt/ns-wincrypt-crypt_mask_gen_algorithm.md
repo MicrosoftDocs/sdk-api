@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_MASK_GEN_ALGORITHM, *PCRYPT_MASK_GEN_ALGORITHM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_MASK_GEN_ALGORITHM structure

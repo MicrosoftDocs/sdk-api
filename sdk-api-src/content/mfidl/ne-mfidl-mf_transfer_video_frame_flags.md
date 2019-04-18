@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MF_TRANSFER_VIDEO_FRAME_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MF_TRANSFER_VIDEO_FRAME_FLAGS enumeration

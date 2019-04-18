@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: USN_RECORD_EXTENT, *PUSN_RECORD_EXTENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # USN_RECORD_EXTENT structure

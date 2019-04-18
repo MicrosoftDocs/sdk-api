@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MPR_SERVER_2, *PMPR_SERVER_2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MPR_SERVER_2 structure

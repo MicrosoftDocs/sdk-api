@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LSA_SECPKG_FUNCTION_TABLE, *PLSA_SECPKG_FUNCTION_TABLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LSA_SECPKG_FUNCTION_TABLE structure

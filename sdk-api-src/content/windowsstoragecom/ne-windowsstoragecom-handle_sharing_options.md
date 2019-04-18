@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HANDLE_SHARING_OPTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HANDLE_SHARING_OPTIONS enumeration

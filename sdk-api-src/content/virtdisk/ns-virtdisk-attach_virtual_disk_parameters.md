@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: ATTACH_VIRTUAL_DISK_PARAMETERS, *PATTACH_VIRTUAL_DISK_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ATTACH_VIRTUAL_DISK_PARAMETERS structure

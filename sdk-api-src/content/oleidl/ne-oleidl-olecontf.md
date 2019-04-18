@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OLECONTF
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OLECONTF enumeration

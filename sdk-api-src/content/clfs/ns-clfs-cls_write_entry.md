@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLS_WRITE_ENTRY, *PCLS_WRITE_ENTRY, PPCLS_WRITE_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLS_WRITE_ENTRY structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CHANGER_MOVE_MEDIUM, *PCHANGER_MOVE_MEDIUM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CHANGER_MOVE_MEDIUM structure

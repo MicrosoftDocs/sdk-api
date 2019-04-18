@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PERSIST_FOLDER_TARGET_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PERSIST_FOLDER_TARGET_INFO structure

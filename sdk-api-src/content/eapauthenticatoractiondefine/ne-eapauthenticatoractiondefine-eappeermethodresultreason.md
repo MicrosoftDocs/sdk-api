@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EapPeerMethodResultReason, EapPeerMethodResultReasonOle
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EapPeerMethodResultReason enumeration

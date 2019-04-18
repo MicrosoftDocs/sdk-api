@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TERMINAL_DIRECTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TERMINAL_DIRECTION enumeration

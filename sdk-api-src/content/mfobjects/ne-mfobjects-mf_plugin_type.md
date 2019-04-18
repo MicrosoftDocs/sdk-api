@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MF_Plugin_Type
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MF_Plugin_Type enumeration

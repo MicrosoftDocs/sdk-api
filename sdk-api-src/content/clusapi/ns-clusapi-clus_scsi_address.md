@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUS_SCSI_ADDRESS, *PCLUS_SCSI_ADDRESS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUS_SCSI_ADDRESS structure

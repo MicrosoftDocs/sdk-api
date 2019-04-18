@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NSP_ROUTINE, *LPNSP_ROUTINE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NSP_ROUTINE structure

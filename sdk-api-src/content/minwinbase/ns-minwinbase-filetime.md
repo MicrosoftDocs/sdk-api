@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILETIME, *PFILETIME, *LPFILETIME
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILETIME structure

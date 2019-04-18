@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WLAN_RAW_DATA_LIST, *PWLAN_RAW_DATA_LIST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WLAN_RAW_DATA_LIST structure

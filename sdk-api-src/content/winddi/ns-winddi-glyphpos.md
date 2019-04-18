@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GLYPHPOS, *PGLYPHPOS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GLYPHPOS structure

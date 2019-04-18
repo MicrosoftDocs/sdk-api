@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: X3DAUDIO_LISTENER, *LPX3DAUDIO_LISTENER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # X3DAUDIO_LISTENER structure

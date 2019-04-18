@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SERVICE_TRIGGER_SPECIFIC_DATA_ITEM, *PSERVICE_TRIGGER_SPECIFIC_DATA_ITEM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SERVICE_TRIGGER_SPECIFIC_DATA_ITEM structure

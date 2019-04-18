@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MARK_HANDLE_INFO32, *PMARK_HANDLE_INFO32
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MARK_HANDLE_INFO32 structure

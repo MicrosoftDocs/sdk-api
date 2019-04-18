@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
+ms.custom: 19H1
 ---
 
 # IEnumWorkItems interface

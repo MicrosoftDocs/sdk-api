@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WINTRUST_BLOB_INFO, *PWINTRUST_BLOB_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WINTRUST_BLOB_INFO structure

@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROCESS_INFORMATION, *PPROCESS_INFORMATION, *LPPROCESS_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROCESS_INFORMATION structure

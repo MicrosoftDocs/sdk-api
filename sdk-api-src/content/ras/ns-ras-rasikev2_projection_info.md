@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RASIKEV2_PROJECTION_INFO, *PRASIKEV2_PROJECTION_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RASIKEV2_PROJECTION_INFO structure

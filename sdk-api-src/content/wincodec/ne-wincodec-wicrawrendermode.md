@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WICRawRenderMode
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WICRawRenderMode enumeration

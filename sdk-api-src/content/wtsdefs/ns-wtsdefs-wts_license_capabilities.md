@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTS_LICENSE_CAPABILITIES, *PWTS_LICENSE_CAPABILITIES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTS_LICENSE_CAPABILITIES structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DVD_AUDIO_FORMAT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DVD_AUDIO_FORMAT enumeration

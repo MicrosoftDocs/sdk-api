@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "_ColumnSortOrder, COLUMNSORTORDER"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # _ColumnSortOrder enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PlaySpeed
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PlaySpeed structure

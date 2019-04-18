@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: APPX_ENCRYPTED_PACKAGE_OPTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # APPX_ENCRYPTED_PACKAGE_OPTIONS enumeration

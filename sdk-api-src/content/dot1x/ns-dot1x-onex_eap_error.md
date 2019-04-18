@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ONEX_EAP_ERROR, *PONEX_EAP_ERROR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ONEX_EAP_ERROR structure

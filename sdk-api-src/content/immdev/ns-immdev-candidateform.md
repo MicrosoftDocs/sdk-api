@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CANDIDATEFORM, *PCANDIDATEFORM, *NPCANDIDATEFORM, *LPCANDIDATEFORM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CANDIDATEFORM structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MAT2, *LPMAT2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MAT2 structure

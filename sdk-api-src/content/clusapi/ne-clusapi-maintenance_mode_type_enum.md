@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MAINTENANCE_MODE_TYPE_ENUM, *PMAINTENANCE_MODE_TYPE_ENUM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MAINTENANCE_MODE_TYPE_ENUM enumeration

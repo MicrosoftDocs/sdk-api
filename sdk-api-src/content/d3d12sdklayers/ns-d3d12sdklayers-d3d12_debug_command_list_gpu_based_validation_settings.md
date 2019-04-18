@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D3D12_DEBUG_COMMAND_LIST_GPU_BASED_VALIDATION_SETTINGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3D12_DEBUG_COMMAND_LIST_GPU_BASED_VALIDATION_SETTINGS structure

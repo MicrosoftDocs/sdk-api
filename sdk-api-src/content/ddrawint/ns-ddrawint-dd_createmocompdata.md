@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_CREATEMOCOMPDATA, DD_CREATEMOCOMPDATA"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_CREATEMOCOMPDATA structure

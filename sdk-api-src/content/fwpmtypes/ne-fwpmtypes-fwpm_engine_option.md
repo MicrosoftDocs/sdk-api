@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FWPM_ENGINE_OPTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FWPM_ENGINE_OPTION enumeration

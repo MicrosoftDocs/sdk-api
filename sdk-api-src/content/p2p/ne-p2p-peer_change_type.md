@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEER_CHANGE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEER_CHANGE_TYPE enumeration

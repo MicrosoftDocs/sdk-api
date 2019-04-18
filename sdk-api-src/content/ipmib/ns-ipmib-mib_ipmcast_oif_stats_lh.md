@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_IPMCAST_OIF_STATS_LH, *PMIB_IPMCAST_OIF_STATS_LH
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_IPMCAST_OIF_STATS_LH structure

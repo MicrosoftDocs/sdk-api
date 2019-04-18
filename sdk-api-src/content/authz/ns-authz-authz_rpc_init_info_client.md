@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AUTHZ_RPC_INIT_INFO_CLIENT, *PAUTHZ_RPC_INIT_INFO_CLIENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AUTHZ_RPC_INIT_INFO_CLIENT structure

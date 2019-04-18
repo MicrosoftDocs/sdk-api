@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMREXCLUDECLIPRECT, *PEMREXCLUDECLIPRECT, EMRINTERSECTCLIPRECT, *PEMRINTERSECTCLIPRECT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMREXCLUDECLIPRECT structure

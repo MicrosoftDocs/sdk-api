@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: QOS_TCP_TRAFFIC, *LPQOS_TCP_TRAFFIC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # QOS_TCP_TRAFFIC structure

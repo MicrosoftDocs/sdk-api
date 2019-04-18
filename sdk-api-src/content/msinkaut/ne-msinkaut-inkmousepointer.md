@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: InkMousePointer
 req.redist: 
+ms.custom: 19H1
 ---
 
 # InkMousePointer enumeration

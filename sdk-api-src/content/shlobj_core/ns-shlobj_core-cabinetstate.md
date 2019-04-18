@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CABINETSTATE, *LPCABINETSTATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CABINETSTATE structure

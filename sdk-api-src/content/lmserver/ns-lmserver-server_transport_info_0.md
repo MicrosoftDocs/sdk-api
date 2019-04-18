@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SERVER_TRANSPORT_INFO_0, *PSERVER_TRANSPORT_INFO_0, *LPSERVER_TRANSPORT_INFO_0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SERVER_TRANSPORT_INFO_0 structure

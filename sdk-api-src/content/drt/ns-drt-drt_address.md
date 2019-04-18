@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DRT_ADDRESS, *PDRT_ADDRESS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DRT_ADDRESS structure

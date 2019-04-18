@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: VIRTUAL_STORAGE_TYPE, *PVIRTUAL_STORAGE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VIRTUAL_STORAGE_TYPE structure

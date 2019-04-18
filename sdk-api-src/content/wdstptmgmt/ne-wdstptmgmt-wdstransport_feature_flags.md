@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WDSTRANSPORT_FEATURE_FLAGS, *PWDSTRANSPORT_FEATURE_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WDSTRANSPORT_FEATURE_FLAGS enumeration

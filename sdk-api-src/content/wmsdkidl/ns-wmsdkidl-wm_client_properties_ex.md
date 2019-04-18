@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WM_CLIENT_PROPERTIES_EX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WM_CLIENT_PROPERTIES_EX structure

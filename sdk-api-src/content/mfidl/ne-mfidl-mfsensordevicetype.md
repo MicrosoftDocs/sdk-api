@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFSensorDeviceType
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFSensorDeviceType enumeration

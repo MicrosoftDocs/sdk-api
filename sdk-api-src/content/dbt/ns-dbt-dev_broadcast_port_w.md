@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DEV_BROADCAST_PORT_W, *PDEV_BROADCAST_PORT_W
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DEV_BROADCAST_PORT_W structure

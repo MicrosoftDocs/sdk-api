@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMI_CHANNEL_MEASUREMENT_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMI_CHANNEL_MEASUREMENT_DATA structure

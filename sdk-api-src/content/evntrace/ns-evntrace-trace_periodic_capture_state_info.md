@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TRACE_PERIODIC_CAPTURE_STATE_INFO, *PTRACE_PERIODIC_CAPTURE_STATE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TRACE_PERIODIC_CAPTURE_STATE_INFO structure

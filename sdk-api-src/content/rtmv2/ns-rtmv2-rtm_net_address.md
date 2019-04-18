@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RTM_NET_ADDRESS, *PRTM_NET_ADDRESS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RTM_NET_ADDRESS structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IKEEXT_POLICY0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IKEEXT_POLICY0 structure

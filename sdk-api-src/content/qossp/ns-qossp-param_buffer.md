@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PARAM_BUFFER, *LPPARAM_BUFFER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PARAM_BUFFER structure

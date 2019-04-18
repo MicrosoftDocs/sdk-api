@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IPSEC_KEYMODULE_STATE0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IPSEC_KEYMODULE_STATE0 structure

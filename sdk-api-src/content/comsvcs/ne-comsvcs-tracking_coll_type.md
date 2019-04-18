@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TRACKING_COLL_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TRACKING_COLL_TYPE enumeration

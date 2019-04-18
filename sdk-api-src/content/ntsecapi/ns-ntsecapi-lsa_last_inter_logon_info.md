@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LSA_LAST_INTER_LOGON_INFO, *PLSA_LAST_INTER_LOGON_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LSA_LAST_INTER_LOGON_INFO structure

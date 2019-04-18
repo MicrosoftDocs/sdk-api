@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MPRAPI_ADMIN_DLL_CALLBACKS, *PMPRAPI_ADMIN_DLL_CALLBACKS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MPRAPI_ADMIN_DLL_CALLBACKS structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DISK_DETECTION_INFO, *PDISK_DETECTION_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DISK_DETECTION_INFO structure

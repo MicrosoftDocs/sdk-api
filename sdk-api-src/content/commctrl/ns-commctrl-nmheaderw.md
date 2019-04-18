@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMHEADERW, *LPNMHEADERW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMHEADERW structure

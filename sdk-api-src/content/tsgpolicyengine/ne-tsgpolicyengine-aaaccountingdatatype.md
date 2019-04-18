@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: AAAccountingDataType
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AAAccountingDataType enumeration

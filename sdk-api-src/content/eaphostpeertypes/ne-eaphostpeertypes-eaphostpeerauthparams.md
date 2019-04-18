@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EapHostPeerAuthParams
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EapHostPeerAuthParams enumeration

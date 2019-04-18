@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PCLOSE_SERVICE_ENUMERATION_HANDLE callback function

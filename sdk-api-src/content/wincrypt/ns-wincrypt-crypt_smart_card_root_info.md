@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_SMART_CARD_ROOT_INFO, *PCRYPT_SMART_CARD_ROOT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_SMART_CARD_ROOT_INFO structure

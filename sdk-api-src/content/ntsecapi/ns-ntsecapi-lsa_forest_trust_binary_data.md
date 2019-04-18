@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LSA_FOREST_TRUST_BINARY_DATA, *PLSA_FOREST_TRUST_BINARY_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LSA_FOREST_TRUST_BINARY_DATA structure

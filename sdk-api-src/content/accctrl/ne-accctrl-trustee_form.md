@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TRUSTEE_FORM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TRUSTEE_FORM enumeration

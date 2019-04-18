@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_ADDATTACHEDSURFACEDATA, DD_ADDATTACHEDSURFACEDATA"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_ADDATTACHEDSURFACEDATA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMVIEWCHANGE, *LPNMVIEWCHANGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMVIEWCHANGE structure

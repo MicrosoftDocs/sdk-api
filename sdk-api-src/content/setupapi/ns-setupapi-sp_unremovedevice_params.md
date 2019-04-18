@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SP_UNREMOVEDEVICE_PARAMS, *PSP_UNREMOVEDEVICE_PARAMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SP_UNREMOVEDEVICE_PARAMS structure

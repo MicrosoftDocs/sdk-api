@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IP_ADAPTER_DNS_SUFFIX, *PIP_ADAPTER_DNS_SUFFIX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IP_ADAPTER_DNS_SUFFIX structure

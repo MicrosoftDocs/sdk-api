@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_VIEWPROPERTIES_STRUCT_A, *PCERT_VIEWPROPERTIES_STRUCT_A
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_VIEWPROPERTIES_STRUCT_A structure

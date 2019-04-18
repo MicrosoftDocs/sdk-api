@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: UI_VIEWVERB
 req.redist: 
+ms.custom: 19H1
 ---
 
 # UI_VIEWVERB enumeration

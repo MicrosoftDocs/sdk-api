@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SIP_ADD_NEWPROVIDER, *PSIP_ADD_NEWPROVIDER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SIP_ADD_NEWPROVIDER structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IKE_AUTHENTICATION_PRESHARED_KEY, *PIKE_AUTHENTICATION_PRESHARED_KEY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IKE_AUTHENTICATION_PRESHARED_KEY structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FH_BACKUP_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FH_BACKUP_STATUS enumeration

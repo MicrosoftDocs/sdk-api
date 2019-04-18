@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EAP_ATTRIBUTE_TYPE, EapAttributeType
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EAP_ATTRIBUTE_TYPE enumeration

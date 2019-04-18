@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: DS_REPSYNCALL_ERRINFOW, *PDS_REPSYNCALL_ERRINFOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DS_REPSYNCALL_ERRINFOW structure

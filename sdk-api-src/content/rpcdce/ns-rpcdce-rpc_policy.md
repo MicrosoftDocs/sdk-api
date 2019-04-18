@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RPC_POLICY, *PRPC_POLICY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RPC_POLICY structure

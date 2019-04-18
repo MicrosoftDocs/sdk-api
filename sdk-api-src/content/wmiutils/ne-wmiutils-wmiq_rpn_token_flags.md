@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WMIQ_RPN_TOKEN_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WMIQ_RPN_TOKEN_FLAGS enumeration

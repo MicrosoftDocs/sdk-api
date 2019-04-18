@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_CLIENT_INFO_V5, *LPDHCP_CLIENT_INFO_V5
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_CLIENT_INFO_V5 structure

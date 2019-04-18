@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RAS_AUTH_ATTRIBUTE, *PRAS_AUTH_ATTRIBUTE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RAS_AUTH_ATTRIBUTE structure

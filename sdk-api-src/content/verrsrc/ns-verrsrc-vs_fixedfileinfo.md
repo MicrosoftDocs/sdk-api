@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VS_FIXEDFILEINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VS_FIXEDFILEINFO structure

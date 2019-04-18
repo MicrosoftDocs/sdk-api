@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ShellCommandInfo, *PShellCommandInfo
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ShellCommandInfo structure

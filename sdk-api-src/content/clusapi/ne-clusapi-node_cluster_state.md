@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: NODE_CLUSTER_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NODE_CLUSTER_STATE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: READYSTATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # READYSTATE enumeration

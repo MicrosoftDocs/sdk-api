@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NLM_CONNECTION_PROPERTY_CHANGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NLM_CONNECTION_PROPERTY_CHANGE enumeration

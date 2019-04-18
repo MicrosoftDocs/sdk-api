@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LOCATION_DESIRED_ACCURACY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LOCATION_DESIRED_ACCURACY enumeration

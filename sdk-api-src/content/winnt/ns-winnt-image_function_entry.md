@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMAGE_FUNCTION_ENTRY, *PIMAGE_FUNCTION_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IMAGE_FUNCTION_ENTRY structure

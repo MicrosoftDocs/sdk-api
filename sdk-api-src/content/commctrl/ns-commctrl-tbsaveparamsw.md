@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: TBSAVEPARAMSW, *LPTBSAVEPARAMW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TBSAVEPARAMSW structure

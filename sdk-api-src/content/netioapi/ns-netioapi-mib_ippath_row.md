@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_IPPATH_ROW, *PMIB_IPPATH_ROW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_IPPATH_ROW structure

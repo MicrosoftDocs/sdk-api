@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CM_Delete_Device_Interface_Key_ExA function

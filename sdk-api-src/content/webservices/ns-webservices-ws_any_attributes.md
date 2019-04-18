@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_ANY_ATTRIBUTES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_ANY_ATTRIBUTES structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PAYLOAD_FILTER_PREDICATE, *PPAYLOAD_FILTER_PREDICATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PAYLOAD_FILTER_PREDICATE structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SAFER_IDENTIFICATION_HEADER, *PSAFER_IDENTIFICATION_HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SAFER_IDENTIFICATION_HEADER structure

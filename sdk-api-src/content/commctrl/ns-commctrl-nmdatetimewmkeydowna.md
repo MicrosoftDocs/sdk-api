@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMDATETIMEWMKEYDOWNA, *LPNMDATETIMEWMKEYDOWNA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMDATETIMEWMKEYDOWNA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SP_DRVINSTALL_PARAMS, *PSP_DRVINSTALL_PARAMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SP_DRVINSTALL_PARAMS structure

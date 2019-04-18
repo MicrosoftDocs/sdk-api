@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: USE_INFO_2, *PUSE_INFO_2, *LPUSE_INFO_2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # USE_INFO_2 structure

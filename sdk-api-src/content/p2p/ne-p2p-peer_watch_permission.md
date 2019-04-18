@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEER_WATCH_PERMISSION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEER_WATCH_PERMISSION enumeration

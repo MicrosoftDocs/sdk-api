@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DIEFFECTATTRIBUTES, *LPDIEFFECTATTRIBUTES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DIEFFECTATTRIBUTES structure

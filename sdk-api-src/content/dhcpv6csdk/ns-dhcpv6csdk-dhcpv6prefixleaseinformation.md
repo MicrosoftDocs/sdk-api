@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCPV6PrefixLeaseInformation, *PDHCPV6PrefixLeaseInformation, *LPDHCPV6PrefixLeaseInformation
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCPV6PrefixLeaseInformation structure

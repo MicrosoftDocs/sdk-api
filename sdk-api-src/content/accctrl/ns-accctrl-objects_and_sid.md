@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OBJECTS_AND_SID, *POBJECTS_AND_SID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OBJECTS_AND_SID structure

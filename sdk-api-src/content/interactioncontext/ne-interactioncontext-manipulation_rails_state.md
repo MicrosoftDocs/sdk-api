@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MANIPULATION_RAILS_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MANIPULATION_RAILS_STATE enumeration

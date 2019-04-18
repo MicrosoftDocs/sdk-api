@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_GETMOCOMPFORMATSDATA, DD_GETMOCOMPFORMATSDATA"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_GETMOCOMPFORMATSDATA structure

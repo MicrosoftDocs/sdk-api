@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: XLATEOBJ
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XLATEOBJ structure

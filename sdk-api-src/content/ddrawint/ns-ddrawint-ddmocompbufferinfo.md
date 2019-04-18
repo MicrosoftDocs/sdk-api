@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DDMOCOMPBUFFERINFO, *LPDDMOCOMPBUFFERINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DDMOCOMPBUFFERINFO structure

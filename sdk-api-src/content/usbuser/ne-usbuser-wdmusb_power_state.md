@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WDMUSB_POWER_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WDMUSB_POWER_STATE enumeration

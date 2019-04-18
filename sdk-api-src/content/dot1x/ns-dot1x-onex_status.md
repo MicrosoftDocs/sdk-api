@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ONEX_STATUS, *PONEX_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ONEX_STATUS structure

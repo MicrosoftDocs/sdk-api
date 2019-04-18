@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DMO_PARTIAL_MEDIATYPE structure

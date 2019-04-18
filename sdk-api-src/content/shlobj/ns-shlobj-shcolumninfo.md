@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SHCOLUMNINFO, *LPSHCOLUMNINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SHCOLUMNINFO structure

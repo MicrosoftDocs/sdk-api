@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS enumeration

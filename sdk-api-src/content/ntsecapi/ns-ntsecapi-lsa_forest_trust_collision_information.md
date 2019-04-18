@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LSA_FOREST_TRUST_COLLISION_INFORMATION, *PLSA_FOREST_TRUST_COLLISION_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LSA_FOREST_TRUST_COLLISION_INFORMATION structure

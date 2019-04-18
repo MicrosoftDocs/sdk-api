@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RID_DEVICE_INFO_MOUSE, *PRID_DEVICE_INFO_MOUSE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RID_DEVICE_INFO_MOUSE structure

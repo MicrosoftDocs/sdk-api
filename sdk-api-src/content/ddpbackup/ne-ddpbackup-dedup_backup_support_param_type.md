@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DEDUP_BACKUP_SUPPORT_PARAM_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DEDUP_BACKUP_SUPPORT_PARAM_TYPE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RPC_IF_ID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RPC_IF_ID structure

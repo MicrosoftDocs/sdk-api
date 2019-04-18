@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
+ms.custom: 19H1
 ---
 
 # Graphics::FillPolygon(IN const Brush,IN const PointF,IN INT,IN FillMode)

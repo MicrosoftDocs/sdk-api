@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ACL_INFORMATION_CLASS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ACL_INFORMATION_CLASS enumeration

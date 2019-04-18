@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYSTEM_CPU_SET_INFORMATION, *PSYSTEM_CPU_SET_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYSTEM_CPU_SET_INFORMATION structure

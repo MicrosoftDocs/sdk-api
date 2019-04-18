@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PBRANGE, *PPBRANGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PBRANGE structure

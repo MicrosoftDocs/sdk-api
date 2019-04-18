@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TASKPAGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TASKPAGE enumeration

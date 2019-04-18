@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TOC_DESCRIPTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TOC_DESCRIPTOR structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_SUBNET_INFO, *LPDHCP_SUBNET_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_SUBNET_INFO structure

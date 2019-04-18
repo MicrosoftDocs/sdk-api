@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSB_OB_STATUS_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSB_OB_STATUS_INFO structure

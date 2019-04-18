@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WMI_OBJ_TEXT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WMI_OBJ_TEXT enumeration

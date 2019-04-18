@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NCRYPT_SUPPORTED_LENGTHS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NCRYPT_SUPPORTED_LENGTHS structure

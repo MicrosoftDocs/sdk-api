@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CTL_ENTRY, *PCTL_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CTL_ENTRY structure

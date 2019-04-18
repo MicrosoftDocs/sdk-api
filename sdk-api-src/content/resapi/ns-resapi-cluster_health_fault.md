@@ -39,6 +39,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSTER_HEALTH_FAULT, *PCLUSTER_HEALTH_FAULT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSTER_HEALTH_FAULT structure

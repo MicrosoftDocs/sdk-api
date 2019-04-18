@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: InkMode
 req.redist: 
+ms.custom: 19H1
 ---
 
 # InkMode enumeration

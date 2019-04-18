@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMAGE_NT_HEADERS32, *PIMAGE_NT_HEADERS32
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IMAGE_NT_HEADERS32 structure

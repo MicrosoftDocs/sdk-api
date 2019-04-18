@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SP_DEVINFO_DATA, *PSP_DEVINFO_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SP_DEVINFO_DATA structure

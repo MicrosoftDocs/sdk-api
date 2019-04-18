@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OFFLINEFILES_CACHING_MODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OFFLINEFILES_CACHING_MODE enumeration

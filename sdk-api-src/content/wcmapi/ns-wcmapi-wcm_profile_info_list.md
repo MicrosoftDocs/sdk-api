@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WCM_PROFILE_INFO_LIST, *PWCM_PROFILE_INFO_LIST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WCM_PROFILE_INFO_LIST structure

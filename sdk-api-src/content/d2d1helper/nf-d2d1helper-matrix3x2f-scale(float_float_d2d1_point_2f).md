@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # Matrix3x2F::Scale(FLOAT,FLOAT,D2D1_POINT_2F)

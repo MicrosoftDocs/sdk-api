@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KERB_RETRIEVE_TKT_REQUEST, *PKERB_RETRIEVE_TKT_REQUEST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KERB_RETRIEVE_TKT_REQUEST structure

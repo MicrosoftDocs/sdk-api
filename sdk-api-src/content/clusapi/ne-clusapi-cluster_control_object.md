@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSTER_CONTROL_OBJECT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSTER_CONTROL_OBJECT enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HANDLE_OPTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HANDLE_OPTIONS enumeration

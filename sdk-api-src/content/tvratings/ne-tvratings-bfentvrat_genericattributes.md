@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BfEnTvRat_GenericAttributes
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BfEnTvRat_GenericAttributes enumeration

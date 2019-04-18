@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_SUB_SYSTEM_STATUS, *PVDS_SUB_SYSTEM_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_SUB_SYSTEM_STATUS enumeration

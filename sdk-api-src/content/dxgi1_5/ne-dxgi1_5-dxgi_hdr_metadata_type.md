@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXGI_HDR_METADATA_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXGI_HDR_METADATA_TYPE enumeration

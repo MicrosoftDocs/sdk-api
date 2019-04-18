@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EXCEPTION_RECORD64, *PEXCEPTION_RECORD64
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EXCEPTION_RECORD64 structure

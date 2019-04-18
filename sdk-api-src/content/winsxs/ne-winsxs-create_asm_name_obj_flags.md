@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CREATE_ASM_NAME_OBJ_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CREATE_ASM_NAME_OBJ_FLAGS enumeration

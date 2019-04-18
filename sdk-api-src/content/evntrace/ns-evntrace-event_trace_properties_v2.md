@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EVENT_TRACE_PROPERTIES_V2, *PEVENT_TRACE_PROPERTIES_V2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EVENT_TRACE_PROPERTIES_V2 structure

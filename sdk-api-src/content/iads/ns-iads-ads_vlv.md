@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ADS_VLV, *PADS_VLV
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ADS_VLV structure

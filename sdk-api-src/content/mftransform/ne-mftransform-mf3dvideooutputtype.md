@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MF3DVideoOutputType
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MF3DVideoOutputType enumeration

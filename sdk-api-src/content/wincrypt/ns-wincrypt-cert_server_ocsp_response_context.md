@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_SERVER_OCSP_RESPONSE_CONTEXT, *PCERT_SERVER_OCSP_RESPONSE_CONTEXT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_SERVER_OCSP_RESPONSE_CONTEXT structure

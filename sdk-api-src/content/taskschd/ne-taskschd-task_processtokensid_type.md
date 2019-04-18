@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TASK_PROCESSTOKENSID_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TASK_PROCESSTOKENSID_TYPE enumeration

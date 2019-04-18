@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RADIUS_EXTENSION_CONTROL_BLOCK, *PRADIUS_EXTENSION_CONTROL_BLOCK
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RADIUS_EXTENSION_CONTROL_BLOCK structure

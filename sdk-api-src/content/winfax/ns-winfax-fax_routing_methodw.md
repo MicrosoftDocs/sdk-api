@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: FAX_ROUTING_METHODW, *PFAX_ROUTING_METHODW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FAX_ROUTING_METHODW structure

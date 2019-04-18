@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DTTOPTS, *PDTTOPTS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DTTOPTS structure

@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
+ms.custom: 19H1
 ---
 
 # GraphicsPath::AddString(IN const WCHAR,IN INT,IN const FontFamily,IN INT,IN REAL,IN const Point &,IN const StringFormat)

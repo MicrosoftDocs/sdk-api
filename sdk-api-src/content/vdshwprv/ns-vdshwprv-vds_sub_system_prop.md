@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_SUB_SYSTEM_PROP, *PVDS_SUB_SYSTEM_PROP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_SUB_SYSTEM_PROP structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_GETVPORTCONNECTDATA, DD_GETVPORTCONNECTDATA"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_GETVPORTCONNECTDATA structure

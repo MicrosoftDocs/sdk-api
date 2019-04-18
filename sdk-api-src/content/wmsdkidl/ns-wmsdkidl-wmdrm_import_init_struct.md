@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WMDRM_IMPORT_INIT_STRUCT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WMDRM_IMPORT_INIT_STRUCT structure

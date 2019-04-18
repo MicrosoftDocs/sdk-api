@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEER_GROUP_PROPERTIES, *PPEER_GROUP_PROPERTIES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEER_GROUP_PROPERTIES structure

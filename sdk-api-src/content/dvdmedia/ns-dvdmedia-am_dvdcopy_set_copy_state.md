@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AM_DVDCOPY_SET_COPY_STATE, *PAM_DVDCOPY_SET_COPY_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AM_DVDCOPY_SET_COPY_STATE structure

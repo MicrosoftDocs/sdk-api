@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DFS_SUPPORTED_NAMESPACE_VERSION_INFO, *PDFS_SUPPORTED_NAMESPACE_VERSION_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DFS_SUPPORTED_NAMESPACE_VERSION_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_VDISK_PROPERTIES, *PVDS_VDISK_PROPERTIES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_VDISK_PROPERTIES structure

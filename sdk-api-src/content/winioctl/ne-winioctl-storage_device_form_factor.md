@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_FORM_FACTOR, *PSTORAGE_DEVICE_FORM_FACTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STORAGE_DEVICE_FORM_FACTOR enumeration

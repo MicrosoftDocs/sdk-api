@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OPM_ACTUAL_OUTPUT_FORMAT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OPM_ACTUAL_OUTPUT_FORMAT structure

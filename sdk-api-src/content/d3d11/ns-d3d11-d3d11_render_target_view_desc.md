@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D3D11_RENDER_TARGET_VIEW_DESC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3D11_RENDER_TARGET_VIEW_DESC structure

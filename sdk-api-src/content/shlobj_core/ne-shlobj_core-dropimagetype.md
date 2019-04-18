@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DROPIMAGETYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DROPIMAGETYPE enumeration

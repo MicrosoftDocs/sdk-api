@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS structure

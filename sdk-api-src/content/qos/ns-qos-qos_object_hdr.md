@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: QOS_OBJECT_HDR, *LPQOS_OBJECT_HDR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # QOS_OBJECT_HDR structure

@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: IP_MREQ, *PIP_MREQ
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IP_MREQ structure

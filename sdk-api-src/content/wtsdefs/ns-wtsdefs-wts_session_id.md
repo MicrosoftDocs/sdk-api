@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTS_SESSION_ID, *PWTS_SESSION_ID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTS_SESSION_ID structure

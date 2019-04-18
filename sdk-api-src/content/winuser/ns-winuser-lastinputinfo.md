@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LASTINPUTINFO, *PLASTINPUTINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LASTINPUTINFO structure

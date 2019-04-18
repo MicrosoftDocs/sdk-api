@@ -32,6 +32,7 @@ api_name:
  - IDigitalLocator
 product: Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # IDigitalLocator interface

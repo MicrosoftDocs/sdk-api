@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PSFEATURE_OUTPUT, *PPSFEATURE_OUTPUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PSFEATURE_OUTPUT structure

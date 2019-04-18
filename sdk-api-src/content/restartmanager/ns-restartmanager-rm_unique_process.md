@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RM_UNIQUE_PROCESS, *PRM_UNIQUE_PROCESS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RM_UNIQUE_PROCESS structure

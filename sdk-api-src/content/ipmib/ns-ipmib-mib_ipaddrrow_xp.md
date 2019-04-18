@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_IPADDRROW_XP, *PMIB_IPADDRROW_XP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_IPADDRROW_XP structure

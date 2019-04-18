@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EFFPERM_RESULT_LIST, *PEFFPERM_RESULT_LIST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EFFPERM_RESULT_LIST structure

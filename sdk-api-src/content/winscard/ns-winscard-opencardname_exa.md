@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: OPENCARDNAME_EXA, *POPENCARDNAME_EXA, *LPOPENCARDNAME_EXA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OPENCARDNAME_EXA structure

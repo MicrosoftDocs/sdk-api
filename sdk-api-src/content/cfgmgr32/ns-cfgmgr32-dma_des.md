@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DMA_DES, *PDMA_DES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DMA_DES structure

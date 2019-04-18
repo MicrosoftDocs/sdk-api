@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AM_COLCON, *PAM_COLCON
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AM_COLCON structure

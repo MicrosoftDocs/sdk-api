@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILESETINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILESETINFO structure

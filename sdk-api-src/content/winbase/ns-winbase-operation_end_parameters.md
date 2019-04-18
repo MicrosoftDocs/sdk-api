@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OPERATION_END_PARAMETERS, *POPERATION_END_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OPERATION_END_PARAMETERS structure

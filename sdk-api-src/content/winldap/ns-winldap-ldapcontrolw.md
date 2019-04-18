@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: LDAPControlW, *PLDAPControlW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LDAPControlW structure

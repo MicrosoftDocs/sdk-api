@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CONFIRM_CONFLICT_RESULT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CONFIRM_CONFLICT_RESULT_INFO structure

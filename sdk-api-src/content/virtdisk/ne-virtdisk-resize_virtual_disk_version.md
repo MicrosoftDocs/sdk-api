@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RESIZE_VIRTUAL_DISK_VERSION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RESIZE_VIRTUAL_DISK_VERSION enumeration

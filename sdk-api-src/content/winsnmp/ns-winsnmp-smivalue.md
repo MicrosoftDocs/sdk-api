@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: smiVALUE, *smiLPVALUE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # smiVALUE structure

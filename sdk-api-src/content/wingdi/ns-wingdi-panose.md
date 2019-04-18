@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PANOSE, *LPPANOSE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PANOSE structure

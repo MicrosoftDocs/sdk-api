@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_IPMCAST_IF_ENTRY, *PMIB_IPMCAST_IF_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_IPMCAST_IF_ENTRY structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMAGE_FILE_HEADER, *PIMAGE_FILE_HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IMAGE_FILE_HEADER structure

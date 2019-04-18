@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMAPI_FORMAT2_DATA_WRITE_ACTION, *PIMAPI_FORMAT2_DATA_WRITE_ACTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IMAPI_FORMAT2_DATA_WRITE_ACTION enumeration

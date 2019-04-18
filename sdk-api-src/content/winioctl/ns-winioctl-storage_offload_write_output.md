@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_OFFLOAD_WRITE_OUTPUT, *PSTORAGE_OFFLOAD_WRITE_OUTPUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STORAGE_OFFLOAD_WRITE_OUTPUT structure

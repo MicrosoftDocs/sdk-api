@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TVHITTESTINFO, *LPTVHITTESTINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TVHITTESTINFO structure

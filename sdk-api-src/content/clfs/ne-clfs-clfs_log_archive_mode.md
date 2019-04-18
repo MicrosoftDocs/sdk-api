@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLFS_LOG_ARCHIVE_MODE, *PCLFS_LOG_ARCHIVE_MODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLFS_LOG_ARCHIVE_MODE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DCOMPOSITION_FRAME_STATISTICS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DCOMPOSITION_FRAME_STATISTICS structure

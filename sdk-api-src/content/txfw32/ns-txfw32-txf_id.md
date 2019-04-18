@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TXF_ID, *PTXF_ID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TXF_ID structure

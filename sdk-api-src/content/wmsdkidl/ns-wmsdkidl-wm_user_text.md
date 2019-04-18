@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WM_USER_TEXT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WM_USER_TEXT structure

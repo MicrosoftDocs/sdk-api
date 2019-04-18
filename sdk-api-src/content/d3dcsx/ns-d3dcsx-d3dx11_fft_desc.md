@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D3DX11_FFT_DESC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3DX11_FFT_DESC structure

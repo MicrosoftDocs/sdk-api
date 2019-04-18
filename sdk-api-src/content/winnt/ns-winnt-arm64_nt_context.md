@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ARM64_NT_CONTEXT, *PARM64_NT_CONTEXT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ARM64_NT_CONTEXT structure

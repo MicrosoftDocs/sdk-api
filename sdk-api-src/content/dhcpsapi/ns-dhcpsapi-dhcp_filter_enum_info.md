@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_FILTER_ENUM_INFO, *LPDHCP_FILTER_ENUM_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_FILTER_ENUM_INFO structure

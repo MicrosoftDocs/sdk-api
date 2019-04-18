@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KEYBOARD_INPUT_DATA, *PKEYBOARD_INPUT_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KEYBOARD_INPUT_DATA structure

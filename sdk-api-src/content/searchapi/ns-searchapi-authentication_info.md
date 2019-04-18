@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AUTHENTICATION_INFO
 req.redist: Windows Desktop Search (WDS) 3.0
+ms.custom: 19H1
 ---
 
 # AUTHENTICATION_INFO structure

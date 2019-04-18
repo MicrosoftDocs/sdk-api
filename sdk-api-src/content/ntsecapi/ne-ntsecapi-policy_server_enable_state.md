@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: POLICY_SERVER_ENABLE_STATE, *PPOLICY_SERVER_ENABLE_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # POLICY_SERVER_ENABLE_STATE enumeration

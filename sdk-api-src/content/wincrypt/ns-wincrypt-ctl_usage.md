@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CTL_USAGE, *PCTL_USAGE, CERT_ENHKEY_USAGE, *PCERT_ENHKEY_USAGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CTL_USAGE structure

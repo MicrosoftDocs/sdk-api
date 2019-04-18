@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SI_OBJECT_INFO, *PSI_OBJECT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SI_OBJECT_INFO structure

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: DOMAIN_CONTROLLER_INFOW, *PDOMAIN_CONTROLLER_INFOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DOMAIN_CONTROLLER_INFOW structure

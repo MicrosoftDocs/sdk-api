@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMDATETIMECHANGE, *LPNMDATETIMECHANGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMDATETIMECHANGE structure

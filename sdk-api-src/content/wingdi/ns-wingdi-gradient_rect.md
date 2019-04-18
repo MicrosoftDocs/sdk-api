@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GRADIENT_RECT, *PGRADIENT_RECT, *LPGRADIENT_RECT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GRADIENT_RECT structure

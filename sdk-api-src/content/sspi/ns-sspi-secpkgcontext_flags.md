@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_Flags, *PSecPkgContext_Flags
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SecPkgContext_Flags structure

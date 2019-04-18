@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WINML_RUNTIME_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WINML_RUNTIME_TYPE enumeration

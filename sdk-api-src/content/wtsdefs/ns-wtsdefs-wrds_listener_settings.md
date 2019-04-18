@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WRDS_LISTENER_SETTINGS, *PWRDS_LISTENER_SETTINGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WRDS_LISTENER_SETTINGS structure

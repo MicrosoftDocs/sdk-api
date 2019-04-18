@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IP_UNIDIRECTIONAL_ADAPTER_ADDRESS, *PIP_UNIDIRECTIONAL_ADAPTER_ADDRESS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IP_UNIDIRECTIONAL_ADAPTER_ADDRESS structure

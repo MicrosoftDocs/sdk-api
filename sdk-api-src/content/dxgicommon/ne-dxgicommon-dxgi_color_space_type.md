@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXGI_COLOR_SPACE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXGI_COLOR_SPACE_TYPE enumeration

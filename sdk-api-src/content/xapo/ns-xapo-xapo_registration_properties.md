@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: XAPO_REGISTRATION_PROPERTIES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XAPO_REGISTRATION_PROPERTIES structure

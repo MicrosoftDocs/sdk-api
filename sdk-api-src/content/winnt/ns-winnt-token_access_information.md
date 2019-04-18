@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TOKEN_ACCESS_INFORMATION, *PTOKEN_ACCESS_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TOKEN_ACCESS_INFORMATION structure

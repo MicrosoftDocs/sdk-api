@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTS_SESSION_INFO_1W, *PWTS_SESSION_INFO_1W
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTS_SESSION_INFO_1W structure

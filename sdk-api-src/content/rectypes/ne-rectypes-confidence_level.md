@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CONFIDENCE_LEVEL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CONFIDENCE_LEVEL enumeration

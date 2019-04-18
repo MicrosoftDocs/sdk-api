@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: WinRM on Windows Server 2012.
+ms.custom: 19H1
 ---
 
 # WSManConnectShell function

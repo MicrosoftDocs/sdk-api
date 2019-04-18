@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SP_DEVICE_INTERFACE_DATA, *PSP_DEVICE_INTERFACE_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SP_DEVICE_INTERFACE_DATA structure

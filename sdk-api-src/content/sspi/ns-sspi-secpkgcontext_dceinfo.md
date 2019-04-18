@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_DceInfo, *PSecPkgContext_DceInfo
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SecPkgContext_DceInfo structure

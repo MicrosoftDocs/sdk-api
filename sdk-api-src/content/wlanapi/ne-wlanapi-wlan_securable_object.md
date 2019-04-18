@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WLAN_SECURABLE_OBJECT, *PWLAN_SECURABLE_OBJECT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WLAN_SECURABLE_OBJECT enumeration

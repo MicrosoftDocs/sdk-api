@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_STRONG_SIGN_SERIALIZED_INFO, *PCERT_STRONG_SIGN_SERIALIZED_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_STRONG_SIGN_SERIALIZED_INFO structure

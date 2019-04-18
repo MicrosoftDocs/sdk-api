@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WCM_POLICY_VALUE, *PWCM_POLICY_VALUE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WCM_POLICY_VALUE structure

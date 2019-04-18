@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROCESS_DPI_AWARENESS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROCESS_DPI_AWARENESS enumeration

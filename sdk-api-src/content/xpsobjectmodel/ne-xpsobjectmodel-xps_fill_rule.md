@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: XPS_FILL_RULE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XPS_FILL_RULE enumeration

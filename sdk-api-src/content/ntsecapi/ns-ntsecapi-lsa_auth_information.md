@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LSA_AUTH_INFORMATION, *PLSA_AUTH_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LSA_AUTH_INFORMATION structure

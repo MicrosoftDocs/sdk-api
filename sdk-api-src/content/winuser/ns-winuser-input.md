@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: INPUT, *PINPUT, *LPINPUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INPUT structure

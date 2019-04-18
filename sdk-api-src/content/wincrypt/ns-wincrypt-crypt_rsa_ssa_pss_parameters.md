@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_RSA_SSA_PSS_PARAMETERS, *PCRYPT_RSA_SSA_PSS_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_RSA_SSA_PSS_PARAMETERS structure

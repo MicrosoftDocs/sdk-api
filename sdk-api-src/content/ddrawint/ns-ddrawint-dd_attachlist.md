@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_ATTACHLIST, DD_ATTACHLIST"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_ATTACHLIST structure

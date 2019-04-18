@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WINML_IMAGE_VARIABLE_DESC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WINML_IMAGE_VARIABLE_DESC structure

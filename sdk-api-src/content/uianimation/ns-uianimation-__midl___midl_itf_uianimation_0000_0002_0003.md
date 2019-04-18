@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*UI_ANIMATION_KEYFRAME"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # __MIDL___MIDL_itf_UIAnimation_0000_0002_0003 structure

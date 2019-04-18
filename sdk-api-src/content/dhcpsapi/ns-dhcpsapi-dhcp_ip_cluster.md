@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_IP_CLUSTER, *LPDHCP_IP_CLUSTER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_IP_CLUSTER structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TAPE_GET_POSITION, *PTAPE_GET_POSITION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TAPE_GET_POSITION structure

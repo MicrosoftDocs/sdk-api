@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CF_SYNC_PROVIDER_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CF_SYNC_PROVIDER_STATUS enumeration

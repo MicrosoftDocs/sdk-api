@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIBICMPSTATS, *PMIBICMPSTATS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIBICMPSTATS structure

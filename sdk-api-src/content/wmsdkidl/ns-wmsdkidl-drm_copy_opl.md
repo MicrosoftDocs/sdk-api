@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DRM_COPY_OPL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DRM_COPY_OPL structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IOCTL_DISK_SET_PARTITION_INFO_EX IOCTL

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: READ_USN_JOURNAL_DATA_V1, *PREAD_USN_JOURNAL_DATA_V1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # READ_USN_JOURNAL_DATA_V1 structure

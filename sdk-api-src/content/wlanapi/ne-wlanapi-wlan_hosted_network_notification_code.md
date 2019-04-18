@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WLAN_HOSTED_NETWORK_NOTIFICATION_CODE, *PWLAN_HOSTED_NETWORK_NOTIFICATION_CODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WLAN_HOSTED_NETWORK_NOTIFICATION_CODE enumeration

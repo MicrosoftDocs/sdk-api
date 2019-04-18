@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_ATTRIB, *PDHCP_ATTRIB, *LPDHCP_ATTRIB
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_ATTRIB structure

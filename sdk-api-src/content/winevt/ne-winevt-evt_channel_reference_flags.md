@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EVT_CHANNEL_REFERENCE_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EVT_CHANNEL_REFERENCE_FLAGS enumeration

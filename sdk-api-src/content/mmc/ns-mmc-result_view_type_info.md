@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RESULT_VIEW_TYPE_INFO, *PRESULT_VIEW_TYPE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RESULT_VIEW_TYPE_INFO structure

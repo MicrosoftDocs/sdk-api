@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: VMRDeinterlacePrefs
 req.redist: 
 req.product: Windows XP with SP1
+ms.custom: 19H1
 ---
 
 # VMRDeinterlacePrefs enumeration

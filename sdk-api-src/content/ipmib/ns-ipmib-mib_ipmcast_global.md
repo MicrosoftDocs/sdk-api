@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_IPMCAST_GLOBAL, *PMIB_IPMCAST_GLOBAL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_IPMCAST_GLOBAL structure

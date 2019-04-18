@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LSA_ENUMERATION_INFORMATION, *PLSA_ENUMERATION_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LSA_ENUMERATION_INFORMATION structure

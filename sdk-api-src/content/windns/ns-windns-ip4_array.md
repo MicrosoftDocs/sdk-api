@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IP4_ARRAY, *PIP4_ARRAY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IP4_ARRAY structure

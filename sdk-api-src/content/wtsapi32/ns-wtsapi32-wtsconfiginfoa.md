@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTSCONFIGINFOA, *PWTSCONFIGINFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTSCONFIGINFOA structure

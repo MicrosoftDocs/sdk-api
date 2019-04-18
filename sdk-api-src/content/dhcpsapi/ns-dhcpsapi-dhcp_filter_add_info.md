@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_FILTER_ADD_INFO, *LPDHCP_FILTER_ADD_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_FILTER_ADD_INFO structure

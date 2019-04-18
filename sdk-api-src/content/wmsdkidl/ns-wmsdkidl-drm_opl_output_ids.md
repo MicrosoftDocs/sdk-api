@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DRM_OPL_OUTPUT_IDS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DRM_OPL_OUTPUT_IDS structure

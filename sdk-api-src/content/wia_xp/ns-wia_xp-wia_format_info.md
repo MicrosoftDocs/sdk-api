@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WIA_FORMAT_INFO, *PWIA_FORMAT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WIA_FORMAT_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MSP_CALL_EVENT_CAUSE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MSP_CALL_EVENT_CAUSE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DSROLE_SERVER_STATE, *PDSROLE_SERVER_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DSROLE_SERVER_STATE enumeration

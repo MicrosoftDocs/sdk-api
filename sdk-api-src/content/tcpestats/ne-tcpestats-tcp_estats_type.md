@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TCP_ESTATS_TYPE, *PTCP_ESTATS_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TCP_ESTATS_TYPE enumeration

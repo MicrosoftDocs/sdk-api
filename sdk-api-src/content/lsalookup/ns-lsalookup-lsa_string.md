@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LSA_STRING, *PLSA_STRING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LSA_STRING structure

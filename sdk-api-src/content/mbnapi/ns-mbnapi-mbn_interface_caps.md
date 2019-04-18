@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MBN_INTERFACE_CAPS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MBN_INTERFACE_CAPS structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEER_PNRP_REGISTRATION_INFO, *PPEER_PNRP_REGISTRATION_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEER_PNRP_REGISTRATION_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SC_ACTION, *LPSC_ACTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SC_ACTION structure

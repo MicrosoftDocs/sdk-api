@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: LVFINDINFOW, *LPFINDINFOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LVFINDINFOW structure

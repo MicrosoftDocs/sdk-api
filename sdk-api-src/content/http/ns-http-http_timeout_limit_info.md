@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_TIMEOUT_LIMIT_INFO, *PHTTP_TIMEOUT_LIMIT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_TIMEOUT_LIMIT_INFO structure

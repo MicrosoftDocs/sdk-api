@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CF_HARDLINK_POLICY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CF_HARDLINK_POLICY enumeration

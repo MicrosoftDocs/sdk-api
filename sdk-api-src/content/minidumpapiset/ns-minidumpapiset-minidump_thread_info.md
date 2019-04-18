@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_THREAD_INFO, *PMINIDUMP_THREAD_INFO
 req.redist: DbgHelp.dll 6.3 or later
+ms.custom: 19H1
 ---
 
 # MINIDUMP_THREAD_INFO structure

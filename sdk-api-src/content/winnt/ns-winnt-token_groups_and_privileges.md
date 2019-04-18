@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TOKEN_GROUPS_AND_PRIVILEGES, *PTOKEN_GROUPS_AND_PRIVILEGES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TOKEN_GROUPS_AND_PRIVILEGES structure

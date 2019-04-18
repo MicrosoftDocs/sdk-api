@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RTWQ_WORKQUEUE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RTWQ_WORKQUEUE_TYPE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_INT16_DESCRIPTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_INT16_DESCRIPTION structure

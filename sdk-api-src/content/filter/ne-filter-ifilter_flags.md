@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IFILTER_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IFILTER_FLAGS enumeration

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: DSBITEMW, *PDSBITEMW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DSBITEMW structure

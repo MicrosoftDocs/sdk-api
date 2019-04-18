@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMREXTCREATEFONTINDIRECTW, *PEMREXTCREATEFONTINDIRECTW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMREXTCREATEFONTINDIRECTW structure

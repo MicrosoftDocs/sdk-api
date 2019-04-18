@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUS_CHKDSK_INFO, *PCLUS_CHKDSK_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUS_CHKDSK_INFO structure

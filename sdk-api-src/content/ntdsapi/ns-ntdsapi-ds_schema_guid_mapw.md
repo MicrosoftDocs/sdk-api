@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: DS_SCHEMA_GUID_MAPW, *PDS_SCHEMA_GUID_MAPW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DS_SCHEMA_GUID_MAPW structure

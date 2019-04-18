@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLFS_MGMT_POLICY, *PCLFS_MGMT_POLICY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLFS_MGMT_POLICY structure

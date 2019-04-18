@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: GOPHER_FIND_DATAW, *LPGOPHER_FIND_DATAW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GOPHER_FIND_DATAW structure

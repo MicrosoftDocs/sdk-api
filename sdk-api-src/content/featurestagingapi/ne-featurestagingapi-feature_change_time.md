@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FEATURE_CHANGE_TIME
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FEATURE_CHANGE_TIME enumeration

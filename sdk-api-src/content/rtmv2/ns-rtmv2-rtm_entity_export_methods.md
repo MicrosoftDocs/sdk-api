@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RTM_ENTITY_EXPORT_METHODS, *PRTM_ENTITY_EXPORT_METHODS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RTM_ENTITY_EXPORT_METHODS structure

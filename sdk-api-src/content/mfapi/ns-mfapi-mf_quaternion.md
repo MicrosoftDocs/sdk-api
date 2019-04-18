@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MF_QUATERNION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MF_QUATERNION structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RAWINPUTDEVICE, *PRAWINPUTDEVICE, *LPRAWINPUTDEVICE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RAWINPUTDEVICE structure

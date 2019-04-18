@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_FILTER_RECORD, *LPDHCP_FILTER_RECORD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_FILTER_RECORD structure

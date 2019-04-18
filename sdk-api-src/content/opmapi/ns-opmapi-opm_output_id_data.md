@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OPM_OUTPUT_ID_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OPM_OUTPUT_ID_DATA structure

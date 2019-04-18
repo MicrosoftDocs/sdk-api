@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DNS_NULL_DATA, *PDNS_NULL_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DNS_NULL_DATA structure

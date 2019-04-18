@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TRANSLATEURL_IN_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TRANSLATEURL_IN_FLAGS enumeration

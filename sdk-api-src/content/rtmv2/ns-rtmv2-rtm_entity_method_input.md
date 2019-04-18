@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RTM_ENTITY_METHOD_INPUT, *PRTM_ENTITY_METHOD_INPUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RTM_ENTITY_METHOD_INPUT structure

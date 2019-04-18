@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_SERVER_SPECIFIC_STRINGS, *LPDHCP_SERVER_SPECIFIC_STRINGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_SERVER_SPECIFIC_STRINGS structure

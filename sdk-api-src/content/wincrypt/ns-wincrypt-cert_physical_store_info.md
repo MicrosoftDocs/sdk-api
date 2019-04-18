@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_PHYSICAL_STORE_INFO, *PCERT_PHYSICAL_STORE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_PHYSICAL_STORE_INFO structure

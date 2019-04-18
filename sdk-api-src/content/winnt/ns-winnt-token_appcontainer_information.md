@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TOKEN_APPCONTAINER_INFORMATION, *PTOKEN_APPCONTAINER_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TOKEN_APPCONTAINER_INFORMATION structure

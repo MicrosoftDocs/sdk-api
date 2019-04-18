@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IDPE_ATTR, *LPIDPE_ATTR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IDPE_ATTR structure

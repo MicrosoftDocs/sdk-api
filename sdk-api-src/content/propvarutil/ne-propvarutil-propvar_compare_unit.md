@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROPVAR_COMPARE_UNIT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROPVAR_COMPARE_UNIT enumeration

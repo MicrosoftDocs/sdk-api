@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GRADIENT_TRIANGLE, *PGRADIENT_TRIANGLE, *LPGRADIENT_TRIANGLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GRADIENT_TRIANGLE structure

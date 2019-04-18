@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WINBIO_PIPELINE, *PWINBIO_PIPELINE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WINBIO_PIPELINE structure

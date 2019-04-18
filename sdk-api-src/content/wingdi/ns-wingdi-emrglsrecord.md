@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMRGLSRECORD, *PEMRGLSRECORD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMRGLSRECORD structure

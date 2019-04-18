@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DSOP_INIT_INFO, *PDSOP_INIT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DSOP_INIT_INFO structure

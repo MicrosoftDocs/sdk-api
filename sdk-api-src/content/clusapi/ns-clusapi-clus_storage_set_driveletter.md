@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUS_STORAGE_SET_DRIVELETTER, *PCLUS_STORAGE_SET_DRIVELETTER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUS_STORAGE_SET_DRIVELETTER structure

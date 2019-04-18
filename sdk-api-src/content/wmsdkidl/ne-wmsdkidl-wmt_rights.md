@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WMT_RIGHTS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WMT_RIGHTS enumeration

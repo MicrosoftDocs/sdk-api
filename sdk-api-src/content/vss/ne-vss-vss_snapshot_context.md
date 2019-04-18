@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VSS_SNAPSHOT_CONTEXT, *PVSS_SNAPSHOT_CONTEXT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VSS_SNAPSHOT_CONTEXT enumeration

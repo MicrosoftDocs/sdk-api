@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSPROP_SECURITY_DESCRIPTOR, *PCLUSPROP_SECURITY_DESCRIPTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSPROP_SECURITY_DESCRIPTOR structure

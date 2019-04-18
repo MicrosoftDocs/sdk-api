@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: XPS_SEGMENT_STROKE_PATTERN
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XPS_SEGMENT_STROKE_PATTERN enumeration

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMTVGETINFOTIPW, *LPNMTVGETINFOTIPW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMTVGETINFOTIPW structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECPKG_EVENT_PACKAGE_CHANGE, *PSECPKG_EVENT_PACKAGE_CHANGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECPKG_EVENT_PACKAGE_CHANGE structure

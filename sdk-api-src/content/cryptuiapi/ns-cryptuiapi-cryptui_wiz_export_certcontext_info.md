@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO, *PCRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EXTENDED_NAME_FORMAT enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search (WS) 4.0
+ms.custom: 19H1
 ---
 
 # ISearchCatalogManager2 interface

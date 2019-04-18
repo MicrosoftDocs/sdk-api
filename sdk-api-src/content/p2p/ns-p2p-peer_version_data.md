@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEER_VERSION_DATA, *PPEER_VERSION_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEER_VERSION_DATA structure

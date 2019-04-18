@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_QOS_SETTING_INFO, *PHTTP_QOS_SETTING_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_QOS_SETTING_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TRIGGER_TYPE_UNION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TRIGGER_TYPE_UNION structure

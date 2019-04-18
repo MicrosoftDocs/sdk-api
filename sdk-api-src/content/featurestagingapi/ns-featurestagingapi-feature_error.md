@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FEATURE_ERROR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FEATURE_ERROR structure

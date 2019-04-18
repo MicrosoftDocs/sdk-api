@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROCESSOR_GROUP_INFO, *PPROCESSOR_GROUP_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROCESSOR_GROUP_INFO structure

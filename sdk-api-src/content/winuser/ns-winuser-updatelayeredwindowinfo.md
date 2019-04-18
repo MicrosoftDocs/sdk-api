@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: UPDATELAYEREDWINDOWINFO, *PUPDATELAYEREDWINDOWINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # UPDATELAYEREDWINDOWINFO structure

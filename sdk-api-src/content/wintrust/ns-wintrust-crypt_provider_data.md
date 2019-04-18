@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_PROVIDER_DATA, *PCRYPT_PROVIDER_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_PROVIDER_DATA structure

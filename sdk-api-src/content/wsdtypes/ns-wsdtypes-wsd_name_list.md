@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSD_NAME_LIST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSD_NAME_LIST structure

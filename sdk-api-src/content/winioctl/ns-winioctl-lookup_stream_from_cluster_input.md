@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LOOKUP_STREAM_FROM_CLUSTER_INPUT, *PLOOKUP_STREAM_FROM_CLUSTER_INPUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LOOKUP_STREAM_FROM_CLUSTER_INPUT structure

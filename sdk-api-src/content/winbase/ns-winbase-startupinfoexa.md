@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: STARTUPINFOEXA, *LPSTARTUPINFOEXA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STARTUPINFOEXA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WKSTA_TRANSPORT_INFO_0, *PWKSTA_TRANSPORT_INFO_0, *LPWKSTA_TRANSPORT_INFO_0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WKSTA_TRANSPORT_INFO_0 structure

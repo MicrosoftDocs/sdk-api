@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: QueryUpdateAction
 req.redist: 
+ms.custom: 19H1
 ---
 
 # QueryUpdateAction enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMRSETCOLORADJUSTMENT, *PEMRSETCOLORADJUSTMENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMRSETCOLORADJUSTMENT structure

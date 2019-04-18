@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IFEntry
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IFEntry structure

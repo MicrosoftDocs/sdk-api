@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_ID, *PCERT_ID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_ID structure

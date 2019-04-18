@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_AUTHORITY_INFO_ACCESS, *PCERT_AUTHORITY_INFO_ACCESS, CERT_SUBJECT_INFO_ACCESS, *PCERT_SUBJECT_INFO_ACCESS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_AUTHORITY_INFO_ACCESS structure

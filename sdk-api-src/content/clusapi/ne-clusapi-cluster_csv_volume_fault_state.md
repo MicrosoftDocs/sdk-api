@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSTER_CSV_VOLUME_FAULT_STATE, *PCLUSTER_CSV_VOLUME_FAULT_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSTER_CSV_VOLUME_FAULT_STATE enumeration

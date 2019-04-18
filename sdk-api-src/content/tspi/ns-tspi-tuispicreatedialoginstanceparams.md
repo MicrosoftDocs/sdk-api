@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TUISPICREATEDIALOGINSTANCEPARAMS, *LPTUISPICREATEDIALOGINSTANCEPARAMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TUISPICREATEDIALOGINSTANCEPARAMS structure

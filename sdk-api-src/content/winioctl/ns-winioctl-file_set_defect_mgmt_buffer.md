@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_SET_DEFECT_MGMT_BUFFER, *PFILE_SET_DEFECT_MGMT_BUFFER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILE_SET_DEFECT_MGMT_BUFFER structure

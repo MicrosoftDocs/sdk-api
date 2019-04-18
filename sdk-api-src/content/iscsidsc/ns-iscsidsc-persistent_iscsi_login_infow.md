@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: PERSISTENT_ISCSI_LOGIN_INFOW, *PPERSISTENT_ISCSI_LOGIN_INFOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PERSISTENT_ISCSI_LOGIN_INFOW structure

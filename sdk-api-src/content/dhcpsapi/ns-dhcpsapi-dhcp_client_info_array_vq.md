@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_CLIENT_INFO_ARRAY_VQ, *LPDHCP_CLIENT_INFO_ARRAY_VQ
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_CLIENT_INFO_ARRAY_VQ structure

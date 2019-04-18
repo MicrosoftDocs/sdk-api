@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IP_ADAPTER_ORDER_MAP, *PIP_ADAPTER_ORDER_MAP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IP_ADAPTER_ORDER_MAP structure

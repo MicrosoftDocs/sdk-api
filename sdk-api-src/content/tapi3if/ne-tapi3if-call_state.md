@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CALL_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CALL_STATE enumeration

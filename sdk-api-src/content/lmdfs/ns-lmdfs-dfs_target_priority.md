@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DFS_TARGET_PRIORITY, *PDFS_TARGET_PRIORITY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DFS_TARGET_PRIORITY structure

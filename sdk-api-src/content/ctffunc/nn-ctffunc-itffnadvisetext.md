@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
+ms.custom: 19H1
 ---
 
 # ITfFnAdviseText interface

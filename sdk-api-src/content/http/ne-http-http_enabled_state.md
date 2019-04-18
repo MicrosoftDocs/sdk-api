@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_ENABLED_STATE, *PHTTP_ENABLED_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_ENABLED_STATE enumeration

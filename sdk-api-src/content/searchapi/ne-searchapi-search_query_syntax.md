@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SEARCH_QUERY_SYNTAX
 req.redist: Windows Desktop Search (WDS) 3.0
+ms.custom: 19H1
 ---
 
 # SEARCH_QUERY_SYNTAX enumeration

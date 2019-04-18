@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYNCMGR_CONFLICT_ID_INFO, *PSYNCMGR_CONFLICT_ID_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYNCMGR_CONFLICT_ID_INFO structure

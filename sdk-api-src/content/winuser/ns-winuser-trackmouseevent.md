@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TRACKMOUSEEVENT, *LPTRACKMOUSEEVENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TRACKMOUSEEVENT structure

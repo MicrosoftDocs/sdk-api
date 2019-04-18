@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFSINK_WMDRMACTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFSINK_WMDRMACTION enumeration

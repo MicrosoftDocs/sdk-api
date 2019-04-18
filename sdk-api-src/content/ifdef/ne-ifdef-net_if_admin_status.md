@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NET_IF_ADMIN_STATUS, *PNET_IF_ADMIN_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NET_IF_ADMIN_STATUS enumeration

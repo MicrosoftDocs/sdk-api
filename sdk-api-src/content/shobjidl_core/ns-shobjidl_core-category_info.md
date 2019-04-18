@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CATEGORY_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CATEGORY_INFO structure

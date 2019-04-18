@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FH_PROTECTED_ITEM_CATEGORY, *PFH_PROTECTED_ITEM_CATEGORY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FH_PROTECTED_ITEM_CATEGORY enumeration

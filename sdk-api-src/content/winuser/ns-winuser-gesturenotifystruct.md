@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GESTURENOTIFYSTRUCT, *PGESTURENOTIFYSTRUCT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GESTURENOTIFYSTRUCT structure

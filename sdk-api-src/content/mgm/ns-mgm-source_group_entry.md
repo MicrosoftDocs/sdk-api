@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SOURCE_GROUP_ENTRY, *PSOURCE_GROUP_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SOURCE_GROUP_ENTRY structure

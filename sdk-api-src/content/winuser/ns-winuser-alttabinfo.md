@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ALTTABINFO, *PALTTABINFO, *LPALTTABINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ALTTABINFO structure

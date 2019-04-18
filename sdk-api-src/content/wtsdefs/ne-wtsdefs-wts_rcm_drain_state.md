@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTS_RCM_DRAIN_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTS_RCM_DRAIN_STATE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_IPV6_ADDRESS, *LPDHCP_IPV6_ADDRESS, *PDHCP_IPV6_ADDRESS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_IPV6_ADDRESS structure

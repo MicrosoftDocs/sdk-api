@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EVENT_INSTANCE_INFO, *PEVENT_INSTANCE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EVENT_INSTANCE_INFO structure

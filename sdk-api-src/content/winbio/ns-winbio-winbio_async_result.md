@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WINBIO_ASYNC_RESULT, *PWINBIO_ASYNC_RESULT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WINBIO_ASYNC_RESULT structure

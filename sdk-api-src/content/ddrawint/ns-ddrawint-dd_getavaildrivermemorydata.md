@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_GETAVAILDRIVERMEMORYDATA, DD_GETAVAILDRIVERMEMORYDATA"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_GETAVAILDRIVERMEMORYDATA structure

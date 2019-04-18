@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FsrmRuleFlags
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FsrmRuleFlags enumeration

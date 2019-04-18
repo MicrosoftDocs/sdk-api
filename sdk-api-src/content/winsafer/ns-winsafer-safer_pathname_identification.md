@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SAFER_PATHNAME_IDENTIFICATION, *PSAFER_PATHNAME_IDENTIFICATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SAFER_PATHNAME_IDENTIFICATION structure

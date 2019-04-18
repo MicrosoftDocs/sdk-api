@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WDS_TRANSPORTPROVIDER_INIT_PARAMS, *PWDS_TRANSPORTPROVIDER_INIT_PARAMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WDS_TRANSPORTPROVIDER_INIT_PARAMS structure

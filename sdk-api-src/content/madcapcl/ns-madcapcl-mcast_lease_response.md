@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MCAST_LEASE_RESPONSE, *PMCAST_LEASE_RESPONSE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MCAST_LEASE_RESPONSE structure

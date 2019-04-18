@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AM_WST_LEVEL, *PAM_WST_LEVEL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AM_WST_LEVEL enumeration

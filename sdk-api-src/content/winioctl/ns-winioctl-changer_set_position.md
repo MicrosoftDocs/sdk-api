@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CHANGER_SET_POSITION, *PCHANGER_SET_POSITION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CHANGER_SET_POSITION structure

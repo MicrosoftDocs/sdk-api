@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: MPR_SERVER_EX1, *PMPR_SERVER_EX1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MPR_SERVER_EX1 structure

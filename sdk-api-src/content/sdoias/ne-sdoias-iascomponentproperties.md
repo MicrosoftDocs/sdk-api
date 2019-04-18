@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IASCOMPONENTPROPERTIES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IASCOMPONENTPROPERTIES enumeration

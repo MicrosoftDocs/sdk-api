@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: LDAPAPIFeatureInfoA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LDAPAPIFeatureInfoA structure

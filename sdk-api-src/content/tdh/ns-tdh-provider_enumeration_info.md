@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROVIDER_ENUMERATION_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROVIDER_ENUMERATION_INFO structure

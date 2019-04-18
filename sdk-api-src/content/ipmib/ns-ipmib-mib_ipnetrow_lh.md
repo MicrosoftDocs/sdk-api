@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_IPNETROW_LH, *PMIB_IPNETROW_LH
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_IPNETROW_LH structure

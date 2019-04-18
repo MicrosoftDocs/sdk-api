@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FAX_DEV_STATUS, *PFAX_DEV_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FAX_DEV_STATUS structure

@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Outlook Express 6.0
+ms.custom: 19H1
 ---
 
 # _SPBEGINF enumeration

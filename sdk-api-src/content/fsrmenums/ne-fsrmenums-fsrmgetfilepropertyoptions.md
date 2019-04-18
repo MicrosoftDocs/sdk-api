@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FsrmGetFilePropertyOptions
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FsrmGetFilePropertyOptions enumeration

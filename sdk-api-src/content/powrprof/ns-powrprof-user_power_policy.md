@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: USER_POWER_POLICY, *PUSER_POWER_POLICY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # USER_POWER_POLICY structure

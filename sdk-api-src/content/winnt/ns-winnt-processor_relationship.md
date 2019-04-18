@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROCESSOR_RELATIONSHIP, *PPROCESSOR_RELATIONSHIP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROCESSOR_RELATIONSHIP structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CM_ENUM_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CM_ENUM_FLAGS enumeration

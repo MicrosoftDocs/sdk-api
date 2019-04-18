@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PWINBIO_SENSOR_INTERFACE, WINBIO_SENSOR_INTERFACE"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WINBIO_SENSOR_INTERFACE structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SNDDEV_ERR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SNDDEV_ERR enumeration

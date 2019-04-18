@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SelAlignmentConstants
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SelAlignmentConstants enumeration

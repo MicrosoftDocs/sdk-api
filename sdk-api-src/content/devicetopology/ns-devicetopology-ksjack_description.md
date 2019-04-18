@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KSJACK_DESCRIPTION, *PKSJACK_DESCRIPTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KSJACK_DESCRIPTION structure

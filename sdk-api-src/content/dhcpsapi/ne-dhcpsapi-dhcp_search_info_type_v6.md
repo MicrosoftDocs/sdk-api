@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_SEARCH_INFO_TYPE_V6, *LPDHCP_SEARCH_INFO_TYPE_V6
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_SEARCH_INFO_TYPE_V6 enumeration

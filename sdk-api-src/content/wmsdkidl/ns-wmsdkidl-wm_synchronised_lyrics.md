@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WM_SYNCHRONISED_LYRICS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WM_SYNCHRONISED_LYRICS structure

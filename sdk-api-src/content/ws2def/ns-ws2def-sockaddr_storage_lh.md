@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SOCKADDR_STORAGE_LH, *PSOCKADDR_STORAGE_LH, *LPSOCKADDR_STORAGE_LH
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SOCKADDR_STORAGE_LH structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EVENTMSG, *PEVENTMSGMSG, *NPEVENTMSGMSG, *LPEVENTMSGMSG, *PEVENTMSG, *NPEVENTMSG, *LPEVENTMSG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EVENTMSG structure

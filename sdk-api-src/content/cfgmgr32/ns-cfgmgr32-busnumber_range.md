@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BUSNUMBER_RANGE, *PBUSNUMBER_RANGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BUSNUMBER_RANGE structure

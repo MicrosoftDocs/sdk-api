@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: RPC_INTERFACE_TEMPLATEW, *PRPC_INTERFACE_TEMPLATEW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RPC_INTERFACE_TEMPLATEW structure

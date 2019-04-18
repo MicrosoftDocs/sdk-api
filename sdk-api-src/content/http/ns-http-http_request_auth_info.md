@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_REQUEST_AUTH_INFO, *PHTTP_REQUEST_AUTH_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_REQUEST_AUTH_INFO structure

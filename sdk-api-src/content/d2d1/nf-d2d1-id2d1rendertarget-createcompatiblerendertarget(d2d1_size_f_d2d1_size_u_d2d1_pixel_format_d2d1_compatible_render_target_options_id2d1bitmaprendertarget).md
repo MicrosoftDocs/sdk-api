@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ID2D1RenderTarget::CreateCompatibleRenderTarget(D2D1_SIZE_F,D2D1_SIZE_U,D2D1_PIXEL_FORMAT,D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS,ID2D1BitmapRenderTarget)

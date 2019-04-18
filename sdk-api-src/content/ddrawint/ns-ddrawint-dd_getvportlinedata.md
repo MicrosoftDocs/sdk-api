@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_GETVPORTLINEDATA, DD_GETVPORTLINEDATA"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_GETVPORTLINEDATA structure

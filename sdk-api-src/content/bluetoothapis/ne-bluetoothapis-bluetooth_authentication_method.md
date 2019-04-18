@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BLUETOOTH_AUTHENTICATION_METHOD, *PBLUETOOTH_AUTHENTICATION_METHOD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BLUETOOTH_AUTHENTICATION_METHOD enumeration

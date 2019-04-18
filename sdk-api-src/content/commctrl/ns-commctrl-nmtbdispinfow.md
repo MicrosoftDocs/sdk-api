@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMTBDISPINFOW, *LPNMTBDISPINFOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMTBDISPINFOW structure

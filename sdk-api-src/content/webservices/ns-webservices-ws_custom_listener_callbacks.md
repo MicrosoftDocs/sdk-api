@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_CUSTOM_LISTENER_CALLBACKS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_CUSTOM_LISTENER_CALLBACKS structure

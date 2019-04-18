@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSAVERSION structure

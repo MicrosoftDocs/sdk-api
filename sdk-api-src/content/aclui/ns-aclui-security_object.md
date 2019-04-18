@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECURITY_OBJECT, *PSECURITY_OBJECT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECURITY_OBJECT structure

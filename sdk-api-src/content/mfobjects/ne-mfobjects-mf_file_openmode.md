@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MF_FILE_OPENMODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MF_FILE_OPENMODE enumeration

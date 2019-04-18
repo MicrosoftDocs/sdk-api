@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DSOBJECT, *LPDSOBJECT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DSOBJECT structure

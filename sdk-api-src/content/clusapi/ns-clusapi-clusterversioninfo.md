@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSTERVERSIONINFO, *LPCLUSTERVERSIONINFO, *PCLUSTERVERSIONINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSTERVERSIONINFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PS_COMPONENT_STATS, *PPS_COMPONENT_STATS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PS_COMPONENT_STATS structure

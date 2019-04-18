@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMREOF, *PEMREOF
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMREOF structure

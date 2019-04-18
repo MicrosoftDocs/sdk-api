@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CREDUI_INFOA, *PCREDUI_INFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CREDUI_INFOA structure

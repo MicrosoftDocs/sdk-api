@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: INPUT_INJECTION_VALUE, *PINPUT_INJECTION_VALUE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INPUT_INJECTION_VALUE structure

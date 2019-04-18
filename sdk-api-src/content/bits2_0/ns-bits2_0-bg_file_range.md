@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BG_FILE_RANGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BG_FILE_RANGE structure

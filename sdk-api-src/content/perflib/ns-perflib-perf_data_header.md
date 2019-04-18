@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PERF_DATA_HEADER, *PPERF_DATA_HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PERF_DATA_HEADER structure

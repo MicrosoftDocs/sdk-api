@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMRSELECTOBJECT, *PEMRSELECTOBJECT, EMRDELETEOBJECT, *PEMRDELETEOBJECT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMRSELECTOBJECT structure

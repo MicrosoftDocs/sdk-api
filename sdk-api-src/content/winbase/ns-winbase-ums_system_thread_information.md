@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: UMS_SYSTEM_THREAD_INFORMATION, *PUMS_SYSTEM_THREAD_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # UMS_SYSTEM_THREAD_INFORMATION structure

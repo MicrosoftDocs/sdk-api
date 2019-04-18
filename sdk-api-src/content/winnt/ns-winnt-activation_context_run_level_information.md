@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION, *PACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION structure

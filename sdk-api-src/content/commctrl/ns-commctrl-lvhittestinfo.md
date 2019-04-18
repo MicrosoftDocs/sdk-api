@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LVHITTESTINFO, *LPLVHITTESTINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LVHITTESTINFO structure

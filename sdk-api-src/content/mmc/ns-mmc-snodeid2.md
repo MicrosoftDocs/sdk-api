@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SNodeID2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SNodeID2 structure

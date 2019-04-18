@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_MINIPORT_DESCRIPTOR, *PSTORAGE_MINIPORT_DESCRIPTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STORAGE_MINIPORT_DESCRIPTOR structure

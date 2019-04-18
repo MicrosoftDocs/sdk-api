@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PWINBIO_ENGINE_INTERFACE, WINBIO_ENGINE_INTERFACE"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WINBIO_ENGINE_INTERFACE structure

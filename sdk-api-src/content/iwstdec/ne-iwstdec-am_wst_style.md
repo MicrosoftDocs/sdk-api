@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AM_WST_STYLE, *PAM_WST_STYLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AM_WST_STYLE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SDP_ELEMENT_DATA, *PSDP_ELEMENT_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SDP_ELEMENT_DATA structure

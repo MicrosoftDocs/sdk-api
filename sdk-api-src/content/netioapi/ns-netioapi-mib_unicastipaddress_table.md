@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_UNICASTIPADDRESS_TABLE, *PMIB_UNICASTIPADDRESS_TABLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_UNICASTIPADDRESS_TABLE structure

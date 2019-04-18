@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LSA_FOREST_TRUST_DOMAIN_INFO, *PLSA_FOREST_TRUST_DOMAIN_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LSA_FOREST_TRUST_DOMAIN_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TIMEOUT_INFO
 req.redist: Windows Desktop Search (WDS) 3.0
+ms.custom: 19H1
 ---
 
 # TIMEOUT_INFO structure

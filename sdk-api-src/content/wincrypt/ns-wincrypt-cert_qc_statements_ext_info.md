@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_QC_STATEMENTS_EXT_INFO, *PCERT_QC_STATEMENTS_EXT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_QC_STATEMENTS_EXT_INFO structure

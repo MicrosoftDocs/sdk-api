@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IDWriteFontSetBuilder::AddFontFaceReference(IDWriteFontFaceReference,DWRITE_FONT_PROPERTY const,UINT32)

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMTREEVIEWA, *LPNMTREEVIEWA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMTREEVIEWA structure

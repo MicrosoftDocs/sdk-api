@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NL_ROUTER_DISCOVERY_BEHAVIOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NL_ROUTER_DISCOVERY_BEHAVIOR enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: InstallationImpact
 req.redist: 
+ms.custom: 19H1
 ---
 
 # InstallationImpact enumeration

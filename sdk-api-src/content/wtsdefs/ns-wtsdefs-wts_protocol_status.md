@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTS_PROTOCOL_STATUS, *PWTS_PROTOCOL_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTS_PROTOCOL_STATUS structure

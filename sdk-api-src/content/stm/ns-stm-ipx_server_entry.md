@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IPX_SERVER_ENTRY, *PIPX_SERVER_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IPX_SERVER_ENTRY structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ONEX_AUTH_RESTART_REASON, PONEX_AUTH_RESTART_REASON
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ONEX_AUTH_RESTART_REASON enumeration

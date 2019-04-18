@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MT_ARBITRARY_HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MT_ARBITRARY_HEADER structure

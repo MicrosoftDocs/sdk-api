@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: READ_FILE_USN_DATA, *PREAD_FILE_USN_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # READ_FILE_USN_DATA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KEYBOARD_TYPEMATIC_PARAMETERS, *PKEYBOARD_TYPEMATIC_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KEYBOARD_TYPEMATIC_PARAMETERS structure

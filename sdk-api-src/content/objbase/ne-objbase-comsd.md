@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: COMSD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # COMSD enumeration

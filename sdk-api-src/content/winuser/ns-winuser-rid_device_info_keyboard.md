@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RID_DEVICE_INFO_KEYBOARD, *PRID_DEVICE_INFO_KEYBOARD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RID_DEVICE_INFO_KEYBOARD structure

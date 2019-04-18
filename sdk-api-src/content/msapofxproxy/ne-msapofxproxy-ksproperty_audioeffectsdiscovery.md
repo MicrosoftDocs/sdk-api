@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KSPROPERTY_AUDIOEFFECTSDISCOVERY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KSPROPERTY_AUDIOEFFECTSDISCOVERY enumeration

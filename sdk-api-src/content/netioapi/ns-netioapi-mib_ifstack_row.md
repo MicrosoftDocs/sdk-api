@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_IFSTACK_ROW, *PMIB_IFSTACK_ROW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_IFSTACK_ROW structure

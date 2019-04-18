@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EAP_CONFIG_INPUT_FIELD_TYPE, *PEAP_CONFIG_INPUT_FIELD_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EAP_CONFIG_INPUT_FIELD_TYPE enumeration

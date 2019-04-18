@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: Pkcs10AllowedSignatureTypes
 req.redist: 
+ms.custom: 19H1
 ---
 
 # Pkcs10AllowedSignatureTypes enumeration

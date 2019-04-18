@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PSC_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PSC_STATE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GENERIC_MAPPING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GENERIC_MAPPING structure

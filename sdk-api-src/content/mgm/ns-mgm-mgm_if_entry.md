@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MGM_IF_ENTRY, *PMGM_IF_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MGM_IF_ENTRY structure

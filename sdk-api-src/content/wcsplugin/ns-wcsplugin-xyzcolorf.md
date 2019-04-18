@@ -39,6 +39,7 @@ product: Windows
 targetos: Windows
 req.typenames: XYZColorF
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XYZColorF structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: UI_ANIMATION_ROUNDING_MODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # UI_ANIMATION_ROUNDING_MODE enumeration

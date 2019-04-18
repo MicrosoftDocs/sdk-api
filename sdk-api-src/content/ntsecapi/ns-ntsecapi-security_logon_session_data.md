@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECURITY_LOGON_SESSION_DATA, *PSECURITY_LOGON_SESSION_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECURITY_LOGON_SESSION_DATA structure

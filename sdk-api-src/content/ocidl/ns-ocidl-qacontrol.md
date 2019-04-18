@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: QACONTROL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # QACONTROL structure

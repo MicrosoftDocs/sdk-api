@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTSSBX_MACHINE_DRAIN
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTSSBX_MACHINE_DRAIN enumeration

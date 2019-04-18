@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DOT11_ADHOC_CIPHER_ALGORITHM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DOT11_ADHOC_CIPHER_ALGORITHM enumeration

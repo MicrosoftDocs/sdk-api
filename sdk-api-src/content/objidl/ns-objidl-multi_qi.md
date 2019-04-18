@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MULTI_QI
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MULTI_QI structure

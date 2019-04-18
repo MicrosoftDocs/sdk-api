@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RGNDATA, *PRGNDATA, *NPRGNDATA, *LPRGNDATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RGNDATA structure

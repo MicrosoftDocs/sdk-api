@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_ECC_SIGNATURE, *PCERT_ECC_SIGNATURE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_ECC_SIGNATURE structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AUTHZ_SECURITY_ATTRIBUTE_OPERATION, *PAUTHZ_SECURITY_ATTRIBUTE_OPERATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AUTHZ_SECURITY_ATTRIBUTE_OPERATION enumeration

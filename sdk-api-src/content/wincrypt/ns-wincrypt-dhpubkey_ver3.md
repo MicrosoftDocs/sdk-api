@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHPUBKEY_VER3, DSSPUBKEY_VER3
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHPUBKEY_VER3 structure

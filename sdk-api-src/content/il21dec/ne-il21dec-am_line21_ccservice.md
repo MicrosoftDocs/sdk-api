@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AM_LINE21_CCSERVICE, *PAM_LINE21_CCSERVICE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AM_LINE21_CCSERVICE enumeration

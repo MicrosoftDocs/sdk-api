@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NET_INTERFACE_CONTEXT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NET_INTERFACE_CONTEXT structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ACCESSTIMEOUT, *LPACCESSTIMEOUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ACCESSTIMEOUT structure

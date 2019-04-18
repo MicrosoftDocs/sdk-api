@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_SUBNET_INFO_VQ, *LPDHCP_SUBNET_INFO_VQ
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_SUBNET_INFO_VQ structure

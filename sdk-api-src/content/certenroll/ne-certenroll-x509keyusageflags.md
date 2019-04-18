@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: X509KeyUsageFlags
 req.redist: 
+ms.custom: 19H1
 ---
 
 # X509KeyUsageFlags enumeration

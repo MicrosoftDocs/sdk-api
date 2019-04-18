@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: X509Certificate, *PX509Certificate
 req.redist: 
+ms.custom: 19H1
 ---
 
 # X509Certificate structure

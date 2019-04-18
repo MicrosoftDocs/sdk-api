@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DSQUERYCLASSLIST, *LPDSQUERYCLASSLIST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DSQUERYCLASSLIST structure

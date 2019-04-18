@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TOKEN_AUDIT_POLICY, *PTOKEN_AUDIT_POLICY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TOKEN_AUDIT_POLICY structure

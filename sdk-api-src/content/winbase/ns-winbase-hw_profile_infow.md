@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: HW_PROFILE_INFOW, *LPHW_PROFILE_INFOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HW_PROFILE_INFOW structure

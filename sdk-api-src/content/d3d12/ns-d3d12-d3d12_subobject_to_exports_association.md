@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION structure

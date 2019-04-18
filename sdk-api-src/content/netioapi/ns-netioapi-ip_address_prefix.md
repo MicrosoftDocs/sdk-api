@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IP_ADDRESS_PREFIX, *PIP_ADDRESS_PREFIX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IP_ADDRESS_PREFIX structure

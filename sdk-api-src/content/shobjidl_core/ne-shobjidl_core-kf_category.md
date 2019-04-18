@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KF_CATEGORY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KF_CATEGORY enumeration

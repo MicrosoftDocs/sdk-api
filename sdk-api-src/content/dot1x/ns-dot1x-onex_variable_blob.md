@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ONEX_VARIABLE_BLOB, *PONEX_VARIABLE_BLOB
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ONEX_VARIABLE_BLOB structure

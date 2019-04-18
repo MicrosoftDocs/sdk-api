@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_NegoStatus, *PSecPkgContext_NegoStatus
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SecPkgContext_NegoStatus structure

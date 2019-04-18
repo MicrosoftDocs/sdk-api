@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SMINFO, *PSMINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SMINFO structure

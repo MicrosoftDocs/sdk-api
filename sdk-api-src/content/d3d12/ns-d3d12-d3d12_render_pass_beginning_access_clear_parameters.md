@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D3D12_RENDER_PASS_BEGINNING_ACCESS_CLEAR_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3D12_RENDER_PASS_BEGINNING_ACCESS_CLEAR_PARAMETERS structure

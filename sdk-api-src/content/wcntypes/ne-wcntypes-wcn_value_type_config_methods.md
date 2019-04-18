@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WCN_VALUE_TYPE_CONFIG_METHODS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WCN_VALUE_TYPE_CONFIG_METHODS enumeration

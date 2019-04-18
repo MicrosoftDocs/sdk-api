@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_SERVER_CONFIG_INFO_V6, *LPDHCP_SERVER_CONFIG_INFO_V6
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_SERVER_CONFIG_INFO_V6 structure

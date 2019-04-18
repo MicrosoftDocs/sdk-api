@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_SYSTEM_RECOGNITION_INFORMATION, *PFILE_SYSTEM_RECOGNITION_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILE_SYSTEM_RECOGNITION_INFORMATION structure

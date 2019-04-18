@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SOCKADDR, *PSOCKADDR, *LPSOCKADDR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SOCKADDR structure

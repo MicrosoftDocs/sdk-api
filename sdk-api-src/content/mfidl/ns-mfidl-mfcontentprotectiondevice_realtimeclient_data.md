@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA structure

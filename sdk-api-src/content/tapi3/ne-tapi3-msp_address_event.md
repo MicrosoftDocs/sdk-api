@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MSP_ADDRESS_EVENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MSP_ADDRESS_EVENT enumeration

@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
+ms.custom: 19H1
 ---
 
 # Font::Font(IN const WCHAR,IN REAL,IN INT,IN Unit,IN const FontCollection)

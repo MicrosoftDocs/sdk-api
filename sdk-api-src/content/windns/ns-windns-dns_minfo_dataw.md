@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DNS_MINFO_DATAW, *PDNS_MINFO_DATAW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DNS_MINFO_DATAW structure

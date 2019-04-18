@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMAPI_CD_TRACK_DIGITAL_COPY_SETTING, *PIMAPI_CD_TRACK_DIGITAL_COPY_SETTING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IMAPI_CD_TRACK_DIGITAL_COPY_SETTING enumeration

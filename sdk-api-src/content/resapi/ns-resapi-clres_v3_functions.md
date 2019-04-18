@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLRES_V3_FUNCTIONS, *PCLRES_V3_FUNCTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLRES_V3_FUNCTIONS structure

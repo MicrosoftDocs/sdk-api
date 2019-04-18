@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MSV1_0_PROFILE_BUFFER_TYPE, *PMSV1_0_PROFILE_BUFFER_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MSV1_0_PROFILE_BUFFER_TYPE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LOADED_IMAGE, *PLOADED_IMAGE
 req.redist: DbgHelp.dll 5.1 or later
+ms.custom: 19H1
 ---
 
 # LOADED_IMAGE structure

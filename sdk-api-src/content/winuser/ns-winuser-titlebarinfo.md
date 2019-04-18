@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TITLEBARINFO, *PTITLEBARINFO, *LPTITLEBARINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TITLEBARINFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EVENT_TRACE_HEADER, *PEVENT_TRACE_HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EVENT_TRACE_HEADER structure

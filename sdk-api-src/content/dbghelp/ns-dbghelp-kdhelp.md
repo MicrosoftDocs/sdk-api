@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: KDHELP, *PKDHELP
 req.redist: DbgHelp.dll 5.1 or later
+ms.custom: 19H1
 ---
 
 # KDHELP structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMAPI_MEDIA_WRITE_PROTECT_STATE, *PIMAPI_MEDIA_WRITE_PROTECT_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IMAPI_MEDIA_WRITE_PROTECT_STATE enumeration

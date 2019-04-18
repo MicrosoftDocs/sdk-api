@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECURITY_MESSAGE, *PSECURITY_MESSAGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECURITY_MESSAGE structure

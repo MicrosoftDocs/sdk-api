@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_ENDMOCOMPFRAMEDATA, DD_ENDMOCOMPFRAMEDATA"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_ENDMOCOMPFRAMEDATA structure

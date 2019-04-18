@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MPEG_CURRENT_NEXT_BIT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MPEG_CURRENT_NEXT_BIT enumeration

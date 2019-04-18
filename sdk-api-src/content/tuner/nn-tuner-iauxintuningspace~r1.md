@@ -32,6 +32,7 @@ api_name:
  - IAuxInTuningSpace
 product: Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # IAuxInTuningSpace interface

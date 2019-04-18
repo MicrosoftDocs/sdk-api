@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RDPSRAPI_MOUSE_BUTTON_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RDPSRAPI_MOUSE_BUTTON_TYPE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CMSG_RC4_AUX_INFO, *PCMSG_RC4_AUX_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CMSG_RC4_AUX_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IKEEXT_CERT_ROOT_CONFIG0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IKEEXT_CERT_ROOT_CONFIG0 structure

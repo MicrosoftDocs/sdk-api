@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: COPP_ACP_Protection_Level
 req.redist: 
+ms.custom: 19H1
 ---
 
 # COPP_ACP_Protection_Level enumeration

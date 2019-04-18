@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D3D10_MAPPED_TEXTURE3D
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3D10_MAPPED_TEXTURE3D structure

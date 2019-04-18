@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XMUINT3::XMUINT3(uint32_t,uint32_t,uint32_t)

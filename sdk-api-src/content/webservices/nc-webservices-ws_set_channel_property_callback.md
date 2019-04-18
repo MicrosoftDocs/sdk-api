@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_SET_CHANNEL_PROPERTY_CALLBACK callback function

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WNV_PROVIDER_ADDRESS_CHANGE_PARAM, *PWNV_PROVIDER_ADDRESS_CHANGE_PARAM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WNV_PROVIDER_ADDRESS_CHANGE_PARAM structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WINHTTP_CONNECTION_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WINHTTP_CONNECTION_INFO structure

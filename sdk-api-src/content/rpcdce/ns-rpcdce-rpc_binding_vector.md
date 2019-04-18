@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RPC_BINDING_VECTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RPC_BINDING_VECTOR structure

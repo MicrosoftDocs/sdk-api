@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ADDRESS_CAPABILITY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ADDRESS_CAPABILITY enumeration

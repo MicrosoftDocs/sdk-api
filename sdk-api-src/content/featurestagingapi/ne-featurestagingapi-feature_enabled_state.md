@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FEATURE_ENABLED_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FEATURE_ENABLED_STATE enumeration

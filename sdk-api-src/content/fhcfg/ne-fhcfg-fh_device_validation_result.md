@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FH_DEVICE_VALIDATION_RESULT, *PFH_DEVICE_VALIDATION_RESULT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FH_DEVICE_VALIDATION_RESULT enumeration

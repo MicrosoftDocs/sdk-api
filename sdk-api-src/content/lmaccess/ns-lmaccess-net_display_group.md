@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NET_DISPLAY_GROUP, *PNET_DISPLAY_GROUP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NET_DISPLAY_GROUP structure

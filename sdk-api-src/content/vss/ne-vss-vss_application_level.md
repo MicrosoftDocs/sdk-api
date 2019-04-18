@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VSS_APPLICATION_LEVEL, *PVSS_APPLICATION_LEVEL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VSS_APPLICATION_LEVEL enumeration

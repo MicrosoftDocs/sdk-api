@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_VERSION_INFO, *LPHTTP_VERSION_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_VERSION_INFO structure

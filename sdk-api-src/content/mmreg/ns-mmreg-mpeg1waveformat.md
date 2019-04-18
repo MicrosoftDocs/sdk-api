@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MPEG1WAVEFORMAT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MPEG1WAVEFORMAT structure

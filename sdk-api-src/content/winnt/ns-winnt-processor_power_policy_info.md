@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROCESSOR_POWER_POLICY_INFO, *PPROCESSOR_POWER_POLICY_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROCESSOR_POWER_POLICY_INFO structure

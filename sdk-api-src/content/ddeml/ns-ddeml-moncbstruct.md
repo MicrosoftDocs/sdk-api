@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MONCBSTRUCT, *PMONCBSTRUCT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MONCBSTRUCT structure

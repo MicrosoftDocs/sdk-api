@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSAPOLLFD, *PWSAPOLLFD, *LPWSAPOLLFD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSAPOLLFD structure

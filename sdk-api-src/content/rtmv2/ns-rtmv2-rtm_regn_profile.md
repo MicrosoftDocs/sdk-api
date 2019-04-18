@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RTM_REGN_PROFILE, *PRTM_REGN_PROFILE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RTM_REGN_PROFILE structure

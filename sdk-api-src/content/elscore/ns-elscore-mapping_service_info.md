@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MAPPING_SERVICE_INFO, *PMAPPING_SERVICE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MAPPING_SERVICE_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MF_TRANSCODE_ADJUST_PROFILE_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MF_TRANSCODE_ADJUST_PROFILE_FLAGS enumeration

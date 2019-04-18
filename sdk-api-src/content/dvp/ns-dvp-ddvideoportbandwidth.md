@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*LPDDVIDEOPORTBANDWIDTH, DDVIDEOPORTBANDWIDTH"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DDVIDEOPORTBANDWIDTH structure

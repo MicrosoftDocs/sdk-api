@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: XPS_COLOR_INTERPOLATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XPS_COLOR_INTERPOLATION enumeration

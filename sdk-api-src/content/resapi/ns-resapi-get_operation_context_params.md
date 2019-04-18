@@ -39,6 +39,7 @@ product: Windows
 targetos: Windows
 req.typenames: GET_OPERATION_CONTEXT_PARAMS, *PGET_OPERATION_CONTEXT_PARAMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GET_OPERATION_CONTEXT_PARAMS structure

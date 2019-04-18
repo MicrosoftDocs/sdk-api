@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LINEAGENTSTATUS, *LPLINEAGENTSTATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LINEAGENTSTATUS structure

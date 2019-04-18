@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CREDENTIAL_ATTRIBUTEA, *PCREDENTIAL_ATTRIBUTEA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CREDENTIAL_ATTRIBUTEA structure

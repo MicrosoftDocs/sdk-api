@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSPROP_REQUIRED_DEPENDENCY, *PCLUSPROP_REQUIRED_DEPENDENCY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSPROP_REQUIRED_DEPENDENCY structure

@@ -32,6 +32,7 @@ api_name:
  - IMPEG2TuneRequestSupport
 product: Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # IMPEG2TuneRequestSupport interface

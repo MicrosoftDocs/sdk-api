@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_REQUEST_V1, *PHTTP_REQUEST_V1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_REQUEST_V1 structure

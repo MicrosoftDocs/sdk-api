@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OPC_RELATIONSHIP_SELECTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OPC_RELATIONSHIP_SELECTOR enumeration

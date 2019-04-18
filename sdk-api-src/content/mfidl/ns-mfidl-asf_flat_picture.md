@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ASF_FLAT_PICTURE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ASF_FLAT_PICTURE structure

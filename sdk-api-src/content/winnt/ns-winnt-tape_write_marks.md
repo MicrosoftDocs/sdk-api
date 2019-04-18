@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TAPE_WRITE_MARKS structure

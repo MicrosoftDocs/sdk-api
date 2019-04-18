@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LINEATTRS, *PLINEATTRS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LINEATTRS structure

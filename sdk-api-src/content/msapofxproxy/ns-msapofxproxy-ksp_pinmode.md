@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KSP_PINMODE, *PKSP_PINMODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KSP_PINMODE structure

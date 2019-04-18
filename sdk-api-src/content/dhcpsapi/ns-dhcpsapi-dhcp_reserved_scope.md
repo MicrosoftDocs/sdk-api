@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_RESERVED_SCOPE, *LPDHCP_RESERVED_SCOPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_RESERVED_SCOPE structure

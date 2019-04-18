@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BCRYPT_KEY_LENGTHS_STRUCT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BCRYPT_KEY_LENGTHS_STRUCT structure

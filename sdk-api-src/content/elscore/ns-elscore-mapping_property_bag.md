@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MAPPING_PROPERTY_BAG, *PMAPPING_PROPERTY_BAG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MAPPING_PROPERTY_BAG structure

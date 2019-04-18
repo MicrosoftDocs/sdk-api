@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: CREATESTRUCTW, *LPCREATESTRUCTW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CREATESTRUCTW structure

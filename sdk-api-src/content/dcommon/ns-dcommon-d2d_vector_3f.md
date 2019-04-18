@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: D2D_VECTOR_3F
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D2D_VECTOR_3F structure

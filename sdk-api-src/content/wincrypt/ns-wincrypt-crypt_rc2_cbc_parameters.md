@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_RC2_CBC_PARAMETERS, *PCRYPT_RC2_CBC_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_RC2_CBC_PARAMETERS structure

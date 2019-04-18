@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RAS_AUTH_ATTRIBUTE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RAS_AUTH_ATTRIBUTE_TYPE enumeration

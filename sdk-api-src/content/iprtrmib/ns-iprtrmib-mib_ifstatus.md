@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_IFSTATUS, *PMIB_IFSTATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_IFSTATUS structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMCUSTOMTEXT, *LPNMCUSTOMTEXT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMCUSTOMTEXT structure

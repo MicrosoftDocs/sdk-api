@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DX_IRQDATA, *PDX_IRQDATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DX_IRQDATA structure

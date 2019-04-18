@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMRGLSBOUNDEDRECORD, *PEMRGLSBOUNDEDRECORD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMRGLSBOUNDEDRECORD structure

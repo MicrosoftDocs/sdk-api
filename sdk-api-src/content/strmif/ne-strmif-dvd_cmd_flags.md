@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DVD_CMD_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DVD_CMD_FLAGS enumeration

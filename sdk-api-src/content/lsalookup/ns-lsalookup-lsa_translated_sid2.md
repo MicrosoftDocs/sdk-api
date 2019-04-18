@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LSA_TRANSLATED_SID2, *PLSA_TRANSLATED_SID2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LSA_TRANSLATED_SID2 structure

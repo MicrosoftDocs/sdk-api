@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DSDISPLAYSPECOPTIONS, *PDSDISPLAYSPECOPTIONS, *LPDSDISPLAYSPECOPTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DSDISPLAYSPECOPTIONS structure

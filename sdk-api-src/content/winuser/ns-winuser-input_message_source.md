@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: INPUT_MESSAGE_SOURCE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INPUT_MESSAGE_SOURCE structure

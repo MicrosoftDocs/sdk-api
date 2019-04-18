@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ATTRIBUTE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ATTRIBUTE_TYPE enumeration

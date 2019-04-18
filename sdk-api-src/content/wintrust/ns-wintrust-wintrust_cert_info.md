@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WINTRUST_CERT_INFO, *PWINTRUST_CERT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WINTRUST_CERT_INFO structure

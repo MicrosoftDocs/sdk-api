@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BIDIOPTIONS
 req.redist: Rich Edit 3.0
+ms.custom: 19H1
 ---
 
 # BIDIOPTIONS structure

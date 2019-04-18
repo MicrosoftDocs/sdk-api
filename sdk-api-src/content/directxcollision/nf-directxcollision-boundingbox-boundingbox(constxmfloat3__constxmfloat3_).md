@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BoundingBox::BoundingBox(const XMFLOAT3 &,const XMFLOAT3 &)

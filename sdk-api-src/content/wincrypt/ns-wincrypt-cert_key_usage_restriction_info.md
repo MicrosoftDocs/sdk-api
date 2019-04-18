@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_KEY_USAGE_RESTRICTION_INFO, *PCERT_KEY_USAGE_RESTRICTION_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_KEY_USAGE_RESTRICTION_INFO structure

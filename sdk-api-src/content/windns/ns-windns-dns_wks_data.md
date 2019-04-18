@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DNS_WKS_DATA, *PDNS_WKS_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DNS_WKS_DATA structure

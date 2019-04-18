@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: SOCKET_ADDRESS, *PSOCKET_ADDRESS, *LPSOCKET_ADDRESS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SOCKET_ADDRESS structure

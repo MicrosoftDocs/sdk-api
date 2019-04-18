@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PIBIO_ENGINE_EXPORT_ENGINE_DATA_FN callback function

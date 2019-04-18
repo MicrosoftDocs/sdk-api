@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BINDPTR, *LPBINDPTR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BINDPTR structure

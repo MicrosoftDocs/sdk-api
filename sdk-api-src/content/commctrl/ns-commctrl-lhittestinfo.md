@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LHITTESTINFO, *PLHITTESTINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LHITTESTINFO structure

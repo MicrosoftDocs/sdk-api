@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_PATH_POLICY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_PATH_POLICY structure

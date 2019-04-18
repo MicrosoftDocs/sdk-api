@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XMSHORTN4::XMSHORTN4(const XMSHORTN4 &)

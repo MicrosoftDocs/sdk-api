@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_SECURITY_KEY_ENTROPY_MODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_SECURITY_KEY_ENTROPY_MODE enumeration

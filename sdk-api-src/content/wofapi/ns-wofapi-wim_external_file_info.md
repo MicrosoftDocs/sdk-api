@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WIM_EXTERNAL_FILE_INFO, *PWIM_EXTERNAL_FILE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WIM_EXTERNAL_FILE_INFO structure

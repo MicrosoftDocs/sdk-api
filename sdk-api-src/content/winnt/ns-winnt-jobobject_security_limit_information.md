@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: JOBOBJECT_SECURITY_LIMIT_INFORMATION, *PJOBOBJECT_SECURITY_LIMIT_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # JOBOBJECT_SECURITY_LIMIT_INFORMATION structure

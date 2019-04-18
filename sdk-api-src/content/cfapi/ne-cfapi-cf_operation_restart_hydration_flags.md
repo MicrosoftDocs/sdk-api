@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CF_OPERATION_RESTART_HYDRATION_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CF_OPERATION_RESTART_HYDRATION_FLAGS enumeration

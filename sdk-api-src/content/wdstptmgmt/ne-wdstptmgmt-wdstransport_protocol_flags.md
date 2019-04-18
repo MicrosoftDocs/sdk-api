@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WDSTRANSPORT_PROTOCOL_FLAGS, *PWDSTRANSPORT_PROTOCOL_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WDSTRANSPORT_PROTOCOL_FLAGS enumeration

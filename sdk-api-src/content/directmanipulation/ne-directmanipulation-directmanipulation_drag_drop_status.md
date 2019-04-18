@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DIRECTMANIPULATION_DRAG_DROP_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DIRECTMANIPULATION_DRAG_DROP_STATUS enumeration

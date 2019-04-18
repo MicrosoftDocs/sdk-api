@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MF_MSE_READY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MF_MSE_READY enumeration

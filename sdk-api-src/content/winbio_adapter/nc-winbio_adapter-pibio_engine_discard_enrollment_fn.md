@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PIBIO_ENGINE_DISCARD_ENROLLMENT_FN callback function

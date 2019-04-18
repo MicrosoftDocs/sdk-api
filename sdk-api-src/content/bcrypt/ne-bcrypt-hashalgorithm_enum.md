@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HASHALGORITHM_ENUM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HASHALGORITHM_ENUM enumeration

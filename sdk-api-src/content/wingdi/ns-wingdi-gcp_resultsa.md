@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: GCP_RESULTSA, *LPGCP_RESULTSA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GCP_RESULTSA structure

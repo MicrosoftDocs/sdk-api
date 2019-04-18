@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KERB_ADD_CREDENTIALS_REQUEST, *PKERB_ADD_CREDENTIALS_REQUEST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KERB_ADD_CREDENTIALS_REQUEST structure

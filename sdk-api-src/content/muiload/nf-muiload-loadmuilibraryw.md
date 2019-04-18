@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Muiload.lib, included in the Windows SDK for Windows 7 which can be run on Windows 2000 Professional, Windows 2000 Server, Windows XP, Windows Server 2003, Windows Vista, Windows Server 2008, and Windows 7.
+ms.custom: 19H1
 ---
 
 # LoadMUILibraryW function

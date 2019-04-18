@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SFVM_HELPTOPIC_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SFVM_HELPTOPIC_DATA structure

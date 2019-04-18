@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MPEG_STREAM_BUFFER, *PMPEG_STREAM_BUFFER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MPEG_STREAM_BUFFER structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WIA_DEV_CAP, *PWIA_DEV_CAP, WIA_EVENT_HANDLER, *PWIA_EVENT_HANDLER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WIA_DEV_CAP structure

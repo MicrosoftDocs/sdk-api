@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WbemCimtypeEnum
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WbemCimtypeEnum enumeration

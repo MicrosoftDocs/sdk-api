@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WINBIO_ASYNC_NOTIFICATION_METHOD, *PWINBIO_ASYNC_NOTIFICATION_METHOD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WINBIO_ASYNC_NOTIFICATION_METHOD enumeration

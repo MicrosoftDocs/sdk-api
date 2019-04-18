@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PPP_ATCP_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PPP_ATCP_INFO structure

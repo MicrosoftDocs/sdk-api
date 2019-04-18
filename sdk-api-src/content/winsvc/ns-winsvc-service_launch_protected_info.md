@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SERVICE_LAUNCH_PROTECTED_INFO, *PSERVICE_LAUNCH_PROTECTED_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SERVICE_LAUNCH_PROTECTED_INFO structure

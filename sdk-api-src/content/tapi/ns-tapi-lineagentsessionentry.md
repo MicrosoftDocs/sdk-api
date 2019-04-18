@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LINEAGENTSESSIONENTRY, *LPLINEAGENTSESSIONENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LINEAGENTSESSIONENTRY structure

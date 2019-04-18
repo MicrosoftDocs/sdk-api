@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROCESS_MEMORY_COUNTERS_EX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROCESS_MEMORY_COUNTERS_EX structure

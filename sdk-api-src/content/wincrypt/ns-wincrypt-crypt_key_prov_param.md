@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_KEY_PROV_PARAM, *PCRYPT_KEY_PROV_PARAM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_KEY_PROV_PARAM structure

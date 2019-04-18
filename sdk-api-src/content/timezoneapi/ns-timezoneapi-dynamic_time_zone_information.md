@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DYNAMIC_TIME_ZONE_INFORMATION, *PDYNAMIC_TIME_ZONE_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DYNAMIC_TIME_ZONE_INFORMATION structure

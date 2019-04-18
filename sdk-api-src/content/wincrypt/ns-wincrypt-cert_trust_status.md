@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_TRUST_STATUS, *PCERT_TRUST_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_TRUST_STATUS structure

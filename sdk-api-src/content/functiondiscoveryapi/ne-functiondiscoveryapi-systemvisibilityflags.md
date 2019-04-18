@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SystemVisibilityFlags
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SystemVisibilityFlags enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DIRECTMANIPULATION_SNAPPOINT_COORDINATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DIRECTMANIPULATION_SNAPPOINT_COORDINATE enumeration

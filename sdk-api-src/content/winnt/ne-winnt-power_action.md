@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # POWER_ACTION enumeration

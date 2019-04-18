@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_EapKeyBlock, *PSecPkgContext_EapKeyBlock
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SecPkgContext_EapKeyBlock structure

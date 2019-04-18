@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_IPFORWARD_ROW2, *PMIB_IPFORWARD_ROW2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_IPFORWARD_ROW2 structure

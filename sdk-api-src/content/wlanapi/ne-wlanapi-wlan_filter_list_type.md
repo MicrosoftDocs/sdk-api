@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WLAN_FILTER_LIST_TYPE, *PWLAN_FILTER_LIST_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WLAN_FILTER_LIST_TYPE enumeration

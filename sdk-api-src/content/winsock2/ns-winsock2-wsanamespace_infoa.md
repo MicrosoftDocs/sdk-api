@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSANAMESPACE_INFOA, *PWSANAMESPACE_INFOA, *LPWSANAMESPACE_INFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSANAMESPACE_INFOA structure

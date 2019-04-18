@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_SERVICE_ACCEPT_CHANNEL_CALLBACK callback function

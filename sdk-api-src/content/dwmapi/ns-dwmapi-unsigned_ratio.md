@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: UNSIGNED_RATIO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # UNSIGNED_RATIO structure

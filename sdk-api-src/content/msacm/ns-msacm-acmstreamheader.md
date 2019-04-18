@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ACMSTREAMHEADER, *PACMSTREAMHEADER, *LPACMSTREAMHEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ACMSTREAMHEADER structure

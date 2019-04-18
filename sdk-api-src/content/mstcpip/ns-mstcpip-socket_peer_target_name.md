@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SOCKET_PEER_TARGET_NAME
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SOCKET_PEER_TARGET_NAME structure

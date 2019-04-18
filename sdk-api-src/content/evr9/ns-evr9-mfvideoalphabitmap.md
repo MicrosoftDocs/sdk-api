@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFVideoAlphaBitmap
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFVideoAlphaBitmap structure

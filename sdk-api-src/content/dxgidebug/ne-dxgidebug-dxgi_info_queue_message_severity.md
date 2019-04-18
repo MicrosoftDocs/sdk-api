@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXGI_INFO_QUEUE_MESSAGE_SEVERITY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXGI_INFO_QUEUE_MESSAGE_SEVERITY enumeration

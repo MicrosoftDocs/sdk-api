@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BIND_OPTS, *LPBIND_OPTS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BIND_OPTS structure

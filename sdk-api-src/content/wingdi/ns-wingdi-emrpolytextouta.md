@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMRPOLYTEXTOUTA, *PEMRPOLYTEXTOUTA, EMRPOLYTEXTOUTW, *PEMRPOLYTEXTOUTW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMRPOLYTEXTOUTA structure

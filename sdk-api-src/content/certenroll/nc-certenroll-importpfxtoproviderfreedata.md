@@ -1,5 +1,5 @@
 ---
-UID: NC:certenroll.FNIMPORTPFXTOPROVIDERFREEDATA
+UID: NC:certenroll.ImportPFXToProviderFreeData
 title: ImportPFXToProviderFreeData (certenroll.h)
 author: windows-sdk-content
 description: Frees PFX certificate context(s).
@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ImportPFXToProviderFreeData callback function

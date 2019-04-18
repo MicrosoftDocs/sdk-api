@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RSVP_SCOPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RSVP_SCOPE structure

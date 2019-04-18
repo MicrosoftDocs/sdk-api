@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_PROVUI_FUNCS, *PCRYPT_PROVUI_FUNCS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_PROVUI_FUNCS structure

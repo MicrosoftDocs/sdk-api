@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IPV6_ADAPTER_BINDING_INFO, *PIPV6_ADAPTER_BINDING_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IPV6_ADAPTER_BINDING_INFO structure

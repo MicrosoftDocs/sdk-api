@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D3D12_FORMAT_SUPPORT2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3D12_FORMAT_SUPPORT2 enumeration

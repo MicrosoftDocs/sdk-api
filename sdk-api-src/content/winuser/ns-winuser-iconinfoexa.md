@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: ICONINFOEXA, *PICONINFOEXA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ICONINFOEXA structure

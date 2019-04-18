@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: TVITEMA, *LPTVITEMA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TVITEMA structure

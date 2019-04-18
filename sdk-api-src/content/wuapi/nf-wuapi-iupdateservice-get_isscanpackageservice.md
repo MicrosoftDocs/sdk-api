@@ -42,6 +42,7 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+ms.custom: 19H1
 ---
 
 # IUpdateService::get_IsScanPackageService

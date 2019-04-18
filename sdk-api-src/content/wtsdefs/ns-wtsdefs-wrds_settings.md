@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WRDS_SETTINGS, *PWRDS_SETTINGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WRDS_SETTINGS structure

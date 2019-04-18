@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_HBAPORT_PROP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_HBAPORT_PROP structure

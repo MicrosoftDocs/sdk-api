@@ -39,6 +39,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLCTL_CODES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLCTL_CODES enumeration

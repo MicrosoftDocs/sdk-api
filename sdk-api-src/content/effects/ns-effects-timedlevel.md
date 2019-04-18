@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TimedLevel
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TimedLevel structure

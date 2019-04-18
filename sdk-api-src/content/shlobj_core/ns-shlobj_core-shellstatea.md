@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SHELLSTATEA, *LPSHELLSTATEA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SHELLSTATEA structure

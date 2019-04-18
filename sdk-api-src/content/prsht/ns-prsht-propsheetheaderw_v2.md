@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROPSHEETHEADERW_V2, *LPPROPSHEETHEADERW_V2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROPSHEETHEADERW_V2 structure

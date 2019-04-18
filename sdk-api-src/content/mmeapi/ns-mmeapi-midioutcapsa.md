@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIDIOUTCAPSA, *PMIDIOUTCAPSA, *NPMIDIOUTCAPSA, *LPMIDIOUTCAPSA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIDIOUTCAPSA structure

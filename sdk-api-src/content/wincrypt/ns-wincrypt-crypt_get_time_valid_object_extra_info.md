@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO, *PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO structure

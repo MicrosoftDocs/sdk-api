@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RSVP_RESERVE_INFO, *LPRSVP_RESERVE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RSVP_RESERVE_INFO structure

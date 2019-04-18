@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WALLPAPEROPT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WALLPAPEROPT structure

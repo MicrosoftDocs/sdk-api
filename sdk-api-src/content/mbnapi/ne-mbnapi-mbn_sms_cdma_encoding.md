@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MBN_SMS_CDMA_ENCODING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MBN_SMS_CDMA_ENCODING enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TPM_DEVICE_INFO, *PTPM_DEVICE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TPM_DEVICE_INFO structure

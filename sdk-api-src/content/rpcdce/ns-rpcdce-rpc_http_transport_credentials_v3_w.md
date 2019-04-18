@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: RPC_HTTP_TRANSPORT_CREDENTIALS_V3_W, *PRPC_HTTP_TRANSPORT_CREDENTIALS_V3_W
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RPC_HTTP_TRANSPORT_CREDENTIALS_V3_W structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: XAUDIO2_EFFECT_CHAIN
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XAUDIO2_EFFECT_CHAIN structure

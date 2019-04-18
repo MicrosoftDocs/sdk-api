@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HARDWAREINPUT, *PHARDWAREINPUT, *LPHARDWAREINPUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HARDWAREINPUT structure

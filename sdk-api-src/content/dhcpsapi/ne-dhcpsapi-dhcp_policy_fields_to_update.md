@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_POLICY_FIELDS_TO_UPDATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_POLICY_FIELDS_TO_UPDATE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BITMAP, *PBITMAP, *NPBITMAP, *LPBITMAP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BITMAP structure

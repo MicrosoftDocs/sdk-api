@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SL_AD_ACTIVATION_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SL_AD_ACTIVATION_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DFS_INFO_1, *PDFS_INFO_1, *LPDFS_INFO_1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DFS_INFO_1 structure

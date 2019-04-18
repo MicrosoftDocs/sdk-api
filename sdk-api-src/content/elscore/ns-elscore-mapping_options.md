@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MAPPING_OPTIONS, *PMAPPING_OPTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MAPPING_OPTIONS structure

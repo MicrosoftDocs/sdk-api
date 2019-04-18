@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DFS_GET_PKT_ENTRY_STATE_ARG, *PDFS_GET_PKT_ENTRY_STATE_ARG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DFS_GET_PKT_ENTRY_STATE_ARG structure

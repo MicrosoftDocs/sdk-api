@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCPCAPI_CLASSID, *PDHCPCAPI_CLASSID, *LPDHCPCAPI_CLASSID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCPCAPI_CLASSID structure

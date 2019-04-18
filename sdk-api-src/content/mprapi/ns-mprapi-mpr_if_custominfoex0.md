@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MPR_IF_CUSTOMINFOEX0, *PMPR_IF_CUSTOMINFOEX0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MPR_IF_CUSTOMINFOEX0 structure

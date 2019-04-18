@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NETISO_ERROR_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NETISO_ERROR_TYPE enumeration

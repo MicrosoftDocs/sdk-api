@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NL_ROUTE_PROTOCOL, *PNL_ROUTE_PROTOCOL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NL_ROUTE_PROTOCOL enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VSS_SOURCE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VSS_SOURCE_TYPE enumeration

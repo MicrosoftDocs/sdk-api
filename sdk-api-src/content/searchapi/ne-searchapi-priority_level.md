@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PRIORITY_LEVEL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PRIORITY_LEVEL enumeration

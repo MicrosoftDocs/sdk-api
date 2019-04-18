@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LSA_UNICODE_STRING, *PLSA_UNICODE_STRING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LSA_UNICODE_STRING structure

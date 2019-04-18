@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LINEMEDIACONTROLMEDIA, *LPLINEMEDIACONTROLMEDIA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LINEMEDIACONTROLMEDIA structure

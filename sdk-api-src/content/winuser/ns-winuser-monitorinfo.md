@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MONITORINFO, *LPMONITORINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MONITORINFO structure

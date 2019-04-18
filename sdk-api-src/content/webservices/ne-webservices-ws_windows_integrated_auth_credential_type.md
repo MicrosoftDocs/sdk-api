@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE enumeration

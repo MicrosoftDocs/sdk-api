@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ADS_TIMESTAMP, *PADS_TIMESTAMP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ADS_TIMESTAMP structure

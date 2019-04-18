@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: VMRMONITORINFO
 req.redist: 
 req.product: Windows XP
+ms.custom: 19H1
 ---
 
 # VMRMONITORINFO structure

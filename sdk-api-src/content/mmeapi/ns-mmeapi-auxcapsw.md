@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AUXCAPSW, *PAUXCAPSW, *NPAUXCAPSW, *LPAUXCAPSW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AUXCAPSW structure

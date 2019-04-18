@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: XAUDIO2FX_REVERB_I3DL2_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XAUDIO2FX_REVERB_I3DL2_PARAMETERS structure

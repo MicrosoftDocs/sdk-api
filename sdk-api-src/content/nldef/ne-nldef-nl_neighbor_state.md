@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NL_NEIGHBOR_STATE, *PNL_NEIGHBOR_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NL_NEIGHBOR_STATE enumeration

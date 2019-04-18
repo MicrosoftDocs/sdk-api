@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_STORAGE_INFO, *PFILE_STORAGE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILE_STORAGE_INFO structure

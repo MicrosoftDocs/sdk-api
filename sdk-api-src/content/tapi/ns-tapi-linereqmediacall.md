@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LINEREQMEDIACALL, *LPLINEREQMEDIACALL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LINEREQMEDIACALL structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PREVENT_MEDIA_REMOVAL, *PPREVENT_MEDIA_REMOVAL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PREVENT_MEDIA_REMOVAL structure

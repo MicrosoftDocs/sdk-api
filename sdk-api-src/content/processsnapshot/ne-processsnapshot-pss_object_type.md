@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PSS_OBJECT_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PSS_OBJECT_TYPE enumeration

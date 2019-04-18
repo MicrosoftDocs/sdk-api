@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RTL_USER_PROCESS_PARAMETERS, *PRTL_USER_PROCESS_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RTL_USER_PROCESS_PARAMETERS structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GROUP_USERS_INFO_1, *PGROUP_USERS_INFO_1, *LPGROUP_USERS_INFO_1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GROUP_USERS_INFO_1 structure

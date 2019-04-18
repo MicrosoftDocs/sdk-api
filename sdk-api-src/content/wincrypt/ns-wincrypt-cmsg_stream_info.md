@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CMSG_STREAM_INFO, *PCMSG_STREAM_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CMSG_STREAM_INFO structure

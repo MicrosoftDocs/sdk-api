@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FD_GLYPHSET, *PFD_GLYPHSET
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FD_GLYPHSET structure

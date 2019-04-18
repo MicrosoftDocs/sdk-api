@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSD_SECURITY_CERT_VALIDATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSD_SECURITY_CERT_VALIDATION structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # USERNAME_TARGET_CREDENTIAL_INFO structure

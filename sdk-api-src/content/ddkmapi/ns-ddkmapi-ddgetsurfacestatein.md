@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DDGETSURFACESTATEIN, *LPDDGETSURFACESTATEIN
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DDGETSURFACESTATEIN structure

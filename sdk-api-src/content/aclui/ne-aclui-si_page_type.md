@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SI_PAGE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SI_PAGE_TYPE enumeration

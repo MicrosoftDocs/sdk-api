@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IPX_IF_INFO, *PIPX_IF_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IPX_IF_INFO structure

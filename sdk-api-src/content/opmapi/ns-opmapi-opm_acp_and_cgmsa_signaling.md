@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OPM_ACP_AND_CGMSA_SIGNALING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OPM_ACP_AND_CGMSA_SIGNALING structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: APO_CONNECTION_PROPERTY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # APO_CONNECTION_PROPERTY structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CMD_ENTRY, *PCMD_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CMD_ENTRY structure

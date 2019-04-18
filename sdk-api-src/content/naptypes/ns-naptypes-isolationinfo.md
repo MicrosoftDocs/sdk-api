@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IsolationInfo
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IsolationInfo structure

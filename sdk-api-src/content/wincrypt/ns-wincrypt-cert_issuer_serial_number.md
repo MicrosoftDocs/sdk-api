@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_ISSUER_SERIAL_NUMBER, *PCERT_ISSUER_SERIAL_NUMBER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_ISSUER_SERIAL_NUMBER structure

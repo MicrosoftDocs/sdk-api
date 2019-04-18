@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_ATTRIBUTE, *PCRYPT_ATTRIBUTE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_ATTRIBUTE structure

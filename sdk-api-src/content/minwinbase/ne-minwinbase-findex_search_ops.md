@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FINDEX_SEARCH_OPS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FINDEX_SEARCH_OPS enumeration

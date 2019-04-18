@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_CHAIN_ELEMENT, *PCERT_CHAIN_ELEMENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_CHAIN_ELEMENT structure

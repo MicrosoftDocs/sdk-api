@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: POLICY_ELEMENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # POLICY_ELEMENT structure

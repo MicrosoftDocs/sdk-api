@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AT_INFO, *PAT_INFO, *LPAT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AT_INFO structure

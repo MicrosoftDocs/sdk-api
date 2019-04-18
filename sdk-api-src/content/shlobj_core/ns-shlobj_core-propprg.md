@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROPPRG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROPPRG structure

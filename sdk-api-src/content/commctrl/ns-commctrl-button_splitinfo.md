@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BUTTON_SPLITINFO, *PBUTTON_SPLITINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BUTTON_SPLITINFO structure

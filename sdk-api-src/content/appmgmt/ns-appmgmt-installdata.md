@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: INSTALLDATA, *PINSTALLDATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INSTALLDATA structure

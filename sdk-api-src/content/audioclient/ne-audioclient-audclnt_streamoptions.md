@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AUDCLNT_STREAMOPTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AUDCLNT_STREAMOPTIONS enumeration

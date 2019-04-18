@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTS_PROTOCOL_COUNTERS, *PWTS_PROTOCOL_COUNTERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTS_PROTOCOL_COUNTERS structure

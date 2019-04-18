@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR structure

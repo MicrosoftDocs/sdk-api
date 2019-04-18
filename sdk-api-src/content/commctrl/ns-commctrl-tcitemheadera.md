@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: TCITEMHEADERA, *LPTCITEMHEADERA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TCITEMHEADERA structure

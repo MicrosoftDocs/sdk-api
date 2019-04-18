@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSCTL_NETINTERFACE_CODES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSCTL_NETINTERFACE_CODES enumeration

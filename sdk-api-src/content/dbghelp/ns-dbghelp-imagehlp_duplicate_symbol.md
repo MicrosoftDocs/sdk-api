@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMAGEHLP_DUPLICATE_SYMBOL, *PIMAGEHLP_DUPLICATE_SYMBOL
 req.redist: DbgHelp.dll 5.1 or later
+ms.custom: 19H1
 ---
 
 # IMAGEHLP_DUPLICATE_SYMBOL structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: USBUSER_POWER_INFO_REQUEST, *PUSBUSER_POWER_INFO_REQUEST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # USBUSER_POWER_INFO_REQUEST structure

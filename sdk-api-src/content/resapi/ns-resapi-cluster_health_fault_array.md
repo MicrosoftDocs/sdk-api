@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSTER_HEALTH_FAULT_ARRAY, *PCLUSTER_HEALTH_FAULT_ARRAY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSTER_HEALTH_FAULT_ARRAY structure

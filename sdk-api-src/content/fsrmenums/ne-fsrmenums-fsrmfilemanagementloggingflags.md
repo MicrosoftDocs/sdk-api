@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FsrmFileManagementLoggingFlags
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FsrmFileManagementLoggingFlags enumeration

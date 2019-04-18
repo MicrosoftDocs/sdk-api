@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TOKEN_GROUPS, *PTOKEN_GROUPS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TOKEN_GROUPS structure

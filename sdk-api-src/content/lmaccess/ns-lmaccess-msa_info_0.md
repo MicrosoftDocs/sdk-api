@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MSA_INFO_0, *PMSA_INFO_0, *LPMSA_INFO_0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MSA_INFO_0 structure

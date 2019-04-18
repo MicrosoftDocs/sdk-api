@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DRAWPATRECT, *PDRAWPATRECT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DRAWPATRECT structure

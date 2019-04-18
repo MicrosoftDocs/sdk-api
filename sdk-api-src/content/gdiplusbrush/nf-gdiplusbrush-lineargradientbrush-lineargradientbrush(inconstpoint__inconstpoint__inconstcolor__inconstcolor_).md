@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LinearGradientBrush::LinearGradientBrush(IN const Point &,IN const Point &,IN const Color &,IN const Color &)

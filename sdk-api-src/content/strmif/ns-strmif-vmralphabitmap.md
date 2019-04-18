@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VMRALPHABITMAP, *PVMRALPHABITMAP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VMRALPHABITMAP structure

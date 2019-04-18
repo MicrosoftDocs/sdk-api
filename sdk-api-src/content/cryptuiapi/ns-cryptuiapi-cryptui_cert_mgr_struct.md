@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPTUI_CERT_MGR_STRUCT, *PCRYPTUI_CERT_MGR_STRUCT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPTUI_CERT_MGR_STRUCT structure

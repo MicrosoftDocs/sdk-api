@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: NL_PREFIX_ORIGIN
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NL_PREFIX_ORIGIN enumeration

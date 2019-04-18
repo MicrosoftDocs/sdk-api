@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DDEML_MSG_HOOK_DATA, *PDDEML_MSG_HOOK_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DDEML_MSG_HOOK_DATA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IPXWAN_IF_INFO, *PIPXWAN_IF_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IPXWAN_IF_INFO structure

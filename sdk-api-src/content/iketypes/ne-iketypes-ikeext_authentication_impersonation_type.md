@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE enumeration

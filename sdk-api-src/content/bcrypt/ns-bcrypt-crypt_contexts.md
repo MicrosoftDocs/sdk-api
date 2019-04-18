@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_CONTEXTS, *PCRYPT_CONTEXTS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_CONTEXTS structure

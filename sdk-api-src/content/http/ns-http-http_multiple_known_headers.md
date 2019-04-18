@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_MULTIPLE_KNOWN_HEADERS, *PHTTP_MULTIPLE_KNOWN_HEADERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_MULTIPLE_KNOWN_HEADERS structure

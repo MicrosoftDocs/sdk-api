@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RESDLL_CONTEXT_OPERATION_TYPE, *PRESDLL_CONTEXT_OPERATION_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RESDLL_CONTEXT_OPERATION_TYPE enumeration

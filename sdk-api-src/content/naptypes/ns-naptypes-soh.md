@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SoH, SoHRequest, SoHResponse
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SoH structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SID_INFO, *PSID_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SID_INFO structure

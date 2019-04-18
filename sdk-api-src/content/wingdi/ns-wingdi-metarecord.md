@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: METARECORD, *PMETARECORD, *LPMETARECORD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # METARECORD structure

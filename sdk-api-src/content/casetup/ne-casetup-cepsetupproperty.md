@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CEPSetupProperty
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CEPSetupProperty enumeration

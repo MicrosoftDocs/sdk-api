@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SOCKET_PROCESSOR_AFFINITY, *PSOCKET_PROCESSOR_AFFINITY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SOCKET_PROCESSOR_AFFINITY structure

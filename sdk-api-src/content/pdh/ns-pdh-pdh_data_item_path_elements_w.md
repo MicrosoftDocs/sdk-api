@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: PDH_DATA_ITEM_PATH_ELEMENTS_W, *PPDH_DATA_ITEM_PATH_ELEMENTS_W
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PDH_DATA_ITEM_PATH_ELEMENTS_W structure

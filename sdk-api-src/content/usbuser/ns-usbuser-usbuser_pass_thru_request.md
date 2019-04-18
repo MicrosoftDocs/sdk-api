@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: USBUSER_PASS_THRU_REQUEST, *PUSBUSER_PASS_THRU_REQUEST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # USBUSER_PASS_THRU_REQUEST structure

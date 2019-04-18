@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DRT_BOOTSTRAP_PROVIDER, *PDRT_BOOTSTRAP_PROVIDER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DRT_BOOTSTRAP_PROVIDER structure

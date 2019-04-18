@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SoHAttribute
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SoHAttribute structure

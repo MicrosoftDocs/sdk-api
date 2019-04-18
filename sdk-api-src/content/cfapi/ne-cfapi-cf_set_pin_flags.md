@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CF_SET_PIN_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CF_SET_PIN_FLAGS enumeration

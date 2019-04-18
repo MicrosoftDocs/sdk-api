@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DRT_SEARCH_INFO, *PDRT_SEARCH_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DRT_SEARCH_INFO structure

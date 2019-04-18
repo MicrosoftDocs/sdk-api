@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TYPE1_FONT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TYPE1_FONT structure

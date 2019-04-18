@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MPRAPI_OBJECT_HEADER, *PMPRAPI_OBJECT_HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MPRAPI_OBJECT_HEADER structure

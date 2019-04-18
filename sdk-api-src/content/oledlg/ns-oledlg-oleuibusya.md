@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: OLEUIBUSYA, *POLEUIBUSYA, *LPOLEUIBUSYA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OLEUIBUSYA structure

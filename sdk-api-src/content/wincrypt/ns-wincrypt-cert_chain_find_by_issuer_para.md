@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_CHAIN_FIND_ISSUER_PARA, *PCERT_CHAIN_FIND_ISSUER_PARA, CERT_CHAIN_FIND_BY_ISSUER_PARA, *PCERT_CHAIN_FIND_BY_ISSUER_PARA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_CHAIN_FIND_BY_ISSUER_PARA structure

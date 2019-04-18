@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GLYPHSET, *PGLYPHSET, *LPGLYPHSET
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GLYPHSET structure

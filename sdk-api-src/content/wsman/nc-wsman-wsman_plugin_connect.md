@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 and Windows Vista
+ms.custom: 19H1
 ---
 
 # WSMAN_PLUGIN_CONNECT callback function

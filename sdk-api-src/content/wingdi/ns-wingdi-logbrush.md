@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LOGBRUSH, *PLOGBRUSH, *NPLOGBRUSH, *LPLOGBRUSH
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LOGBRUSH structure

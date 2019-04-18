@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RESIZE_VIRTUAL_DISK_PARAMETERS, *PRESIZE_VIRTUAL_DISK_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RESIZE_VIRTUAL_DISK_PARAMETERS structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEB, *PPEB
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEB structure

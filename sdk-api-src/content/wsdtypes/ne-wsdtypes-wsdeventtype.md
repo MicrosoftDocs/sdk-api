@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSDEventType
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSDEventType enumeration

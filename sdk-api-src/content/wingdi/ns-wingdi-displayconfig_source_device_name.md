@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DISPLAYCONFIG_SOURCE_DEVICE_NAME
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DISPLAYCONFIG_SOURCE_DEVICE_NAME structure

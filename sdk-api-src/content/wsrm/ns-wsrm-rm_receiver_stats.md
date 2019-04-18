@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RM_RECEIVER_STATS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RM_RECEIVER_STATS structure

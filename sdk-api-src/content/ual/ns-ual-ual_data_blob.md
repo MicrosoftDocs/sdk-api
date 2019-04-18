@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: UAL_DATA_BLOB, *PUAL_DATA_BLOB
 req.redist: 
+ms.custom: 19H1
 ---
 
 # UAL_DATA_BLOB structure

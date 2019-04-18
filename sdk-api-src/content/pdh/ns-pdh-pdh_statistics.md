@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PDH_STATISTICS, *PPDH_STATISTICS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PDH_STATISTICS structure

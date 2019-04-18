@@ -39,6 +39,7 @@ product: Windows
 targetos: Windows
 req.typenames: WBEM_CONNECT_OPTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WBEM_CONNECT_OPTIONS enumeration

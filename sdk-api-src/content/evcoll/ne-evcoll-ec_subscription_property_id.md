@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EC_SUBSCRIPTION_PROPERTY_ID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EC_SUBSCRIPTION_PROPERTY_ID enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SCESVC_ANALYSIS_LINE, *PSCESVC_ANALYSIS_LINE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SCESVC_ANALYSIS_LINE structure

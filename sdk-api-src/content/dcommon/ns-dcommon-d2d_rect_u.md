@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D2D_RECT_U
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D2D_RECT_U structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WCM_DATAPLAN_STATUS, *PWCM_DATAPLAN_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WCM_DATAPLAN_STATUS structure

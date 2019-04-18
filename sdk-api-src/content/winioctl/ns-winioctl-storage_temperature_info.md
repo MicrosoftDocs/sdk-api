@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_TEMPERATURE_INFO, *PSTORAGE_TEMPERATURE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STORAGE_TEMPERATURE_INFO structure

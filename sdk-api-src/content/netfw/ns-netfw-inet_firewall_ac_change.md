@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: INET_FIREWALL_AC_CHANGE, *PINET_FIREWALL_AC_CHANGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INET_FIREWALL_AC_CHANGE structure

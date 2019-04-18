@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PERF_OBJECT_TYPE structure

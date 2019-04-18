@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: COMPVARS, *PCOMPVARS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # COMPVARS structure

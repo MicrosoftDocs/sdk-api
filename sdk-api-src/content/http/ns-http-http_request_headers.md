@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_REQUEST_HEADERS, *PHTTP_REQUEST_HEADERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_REQUEST_HEADERS structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AM_COPY_MACROVISION_LEVEL, *PAM_COPY_MACROVISION_LEVEL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AM_COPY_MACROVISION_LEVEL enumeration

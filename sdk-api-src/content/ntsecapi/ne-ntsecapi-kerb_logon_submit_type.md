@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KERB_LOGON_SUBMIT_TYPE, *PKERB_LOGON_SUBMIT_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KERB_LOGON_SUBMIT_TYPE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECPKG_SESSIONINFO_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECPKG_SESSIONINFO_TYPE enumeration

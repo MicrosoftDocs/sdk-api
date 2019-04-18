@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: QOS_DS_CLASS, *LPQOS_DS_CLASS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # QOS_DS_CLASS structure

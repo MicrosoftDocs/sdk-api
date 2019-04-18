@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROCESS_MEMORY_EXHAUSTION_TYPE enumeration

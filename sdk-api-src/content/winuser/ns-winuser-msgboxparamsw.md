@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: MSGBOXPARAMSW, *PMSGBOXPARAMSW, *LPMSGBOXPARAMSW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MSGBOXPARAMSW structure

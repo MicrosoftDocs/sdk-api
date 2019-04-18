@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_NegotiationInfoA, *PSecPkgContext_NegotiationInfoA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SecPkgContext_NegotiationInfoA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_TIMESTAMP_REQUEST, *PCRYPT_TIMESTAMP_REQUEST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_TIMESTAMP_REQUEST structure

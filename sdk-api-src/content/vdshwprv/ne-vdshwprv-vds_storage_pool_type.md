@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_STORAGE_POOL_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_STORAGE_POOL_TYPE enumeration

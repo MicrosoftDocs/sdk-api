@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TRACE_GUID_REGISTRATION, *PTRACE_GUID_REGISTRATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TRACE_GUID_REGISTRATION structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLRES_FUNCTION_TABLE, *PCLRES_FUNCTION_TABLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLRES_FUNCTION_TABLE structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CONDITIONPROPERTIES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CONDITIONPROPERTIES enumeration

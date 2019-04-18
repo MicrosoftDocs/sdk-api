@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TTPOLYGONHEADER, *LPTTPOLYGONHEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TTPOLYGONHEADER structure

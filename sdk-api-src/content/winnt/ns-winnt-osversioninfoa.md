@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: OSVERSIONINFOA, *POSVERSIONINFOA, *LPOSVERSIONINFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OSVERSIONINFOA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KSJACK_SINK_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KSJACK_SINK_INFORMATION structure

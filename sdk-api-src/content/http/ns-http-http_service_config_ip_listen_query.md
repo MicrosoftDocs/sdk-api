@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY, *PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY structure

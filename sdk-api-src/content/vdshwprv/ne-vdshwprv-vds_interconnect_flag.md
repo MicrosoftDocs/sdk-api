@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_INTERCONNECT_FLAG, *PVDS_INTERCONNECT_FLAG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_INTERCONNECT_FLAG enumeration

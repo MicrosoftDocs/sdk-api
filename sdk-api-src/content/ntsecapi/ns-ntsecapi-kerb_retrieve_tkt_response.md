@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KERB_RETRIEVE_TKT_RESPONSE, *PKERB_RETRIEVE_TKT_RESPONSE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KERB_RETRIEVE_TKT_RESPONSE structure

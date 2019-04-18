@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIDIOUTCAPS, *PMIDIOUTCAPS, *NPMIDIOUTCAPS, *LPMIDIOUTCAPS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIDIOUTCAPS structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ADSPROPINITPARAMS, *PADSPROPINITPARAMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ADSPROPINITPARAMS structure

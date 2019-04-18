@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: ICMP6_TYPE, *PICMP6_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ICMP6_TYPE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DFS_NAMESPACE_VERSION_ORIGIN, *PDFS_NAMESPACE_VERSION_ORIGIN
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DFS_NAMESPACE_VERSION_ORIGIN enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEER_COLLAB_EVENT_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEER_COLLAB_EVENT_TYPE enumeration

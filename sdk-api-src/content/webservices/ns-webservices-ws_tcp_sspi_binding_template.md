@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_TCP_SSPI_BINDING_TEMPLATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_TCP_SSPI_BINDING_TEMPLATE structure

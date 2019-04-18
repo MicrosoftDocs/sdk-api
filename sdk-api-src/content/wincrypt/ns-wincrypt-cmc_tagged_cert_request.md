@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CMC_TAGGED_CERT_REQUEST, *PCMC_TAGGED_CERT_REQUEST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CMC_TAGGED_CERT_REQUEST structure

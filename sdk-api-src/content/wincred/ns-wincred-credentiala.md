@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: CREDENTIALA, *PCREDENTIALA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CREDENTIALA structure

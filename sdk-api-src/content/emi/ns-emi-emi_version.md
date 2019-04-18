@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMI_VERSION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMI_VERSION structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CAPTUREPARMS, *PCAPTUREPARMS, *LPCAPTUREPARMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CAPTUREPARMS structure

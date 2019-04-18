@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BCRYPT_KEY_DATA_BLOB_HEADER, *PBCRYPT_KEY_DATA_BLOB_HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BCRYPT_KEY_DATA_BLOB_HEADER structure

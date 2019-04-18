@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEERDIST_STATUS_INFO, *PPEERDIST_STATUS_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEERDIST_STATUS_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXVAHD_FRAME_FORMAT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXVAHD_FRAME_FORMAT enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: COMPLUS_APPTYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # COMPLUS_APPTYPE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TASK_TRIGGER_TYPE2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TASK_TRIGGER_TYPE2 enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMRCOLORCORRECTPALETTE, *PEMRCOLORCORRECTPALETTE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMRCOLORCORRECTPALETTE structure

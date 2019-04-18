@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_TRUST_LIST_INFO, *PCERT_TRUST_LIST_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_TRUST_LIST_INFO structure

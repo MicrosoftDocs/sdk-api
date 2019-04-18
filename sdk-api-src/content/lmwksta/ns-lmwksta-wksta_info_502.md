@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WKSTA_INFO_502, *PWKSTA_INFO_502, *LPWKSTA_INFO_502
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WKSTA_INFO_502 structure

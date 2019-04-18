@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AMVAUncompBufferInfo, *LPAMVAUncompBufferInfo
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AMVAUncompBufferInfo structure

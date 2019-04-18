@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DNS_OPT_DATA, *PDNS_OPT_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DNS_OPT_DATA structure

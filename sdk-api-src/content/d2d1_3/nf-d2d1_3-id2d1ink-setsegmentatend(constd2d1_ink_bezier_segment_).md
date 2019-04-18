@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ID2D1Ink::SetSegmentAtEnd(const D2D1_INK_BEZIER_SEGMENT &)

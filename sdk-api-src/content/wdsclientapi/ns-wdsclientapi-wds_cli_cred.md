@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WDS_CLI_CRED, *PWDS_CLI_CRED, *LPWDS_CLI_CRED
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WDS_CLI_CRED structure

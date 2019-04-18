@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MPR50_ROUTING_CHARACTERISTICS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MPR50_ROUTING_CHARACTERISTICS structure

@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_TCPSTATS_LH, *PMIB_TCPSTATS_LH
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_TCPSTATS_LH structure

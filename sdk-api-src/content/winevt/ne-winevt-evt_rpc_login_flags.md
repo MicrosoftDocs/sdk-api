@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EVT_RPC_LOGIN_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EVT_RPC_LOGIN_FLAGS enumeration

@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: GROUP_FAILURE_INFO_BUFFER, *PGROUP_FAILURE_INFO_BUFFER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GROUP_FAILURE_INFO_BUFFER structure

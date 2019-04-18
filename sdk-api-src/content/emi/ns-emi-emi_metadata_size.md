@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMI_METADATA_SIZE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMI_METADATA_SIZE structure

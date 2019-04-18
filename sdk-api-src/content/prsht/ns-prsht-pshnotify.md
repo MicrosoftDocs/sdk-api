@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PSHNOTIFY, *LPPSHNOTIFY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PSHNOTIFY structure

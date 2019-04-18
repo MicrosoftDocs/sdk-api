@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROCESSENTRY32W
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROCESSENTRY32W structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SLOWAPPINFO, *PSLOWAPPINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SLOWAPPINFO structure

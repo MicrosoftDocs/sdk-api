@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: USER_MODALS_INFO_1004, *PUSER_MODALS_INFO_1004, *LPUSER_MODALS_INFO_1004
 req.redist: 
+ms.custom: 19H1
 ---
 
 # USER_MODALS_INFO_1004 structure

@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_BEST_IF, *PMIB_BEST_IF
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_BEST_IF structure

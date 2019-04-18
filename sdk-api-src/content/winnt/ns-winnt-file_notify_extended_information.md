@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_NOTIFY_EXTENDED_INFORMATION, *PFILE_NOTIFY_EXTENDED_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILE_NOTIFY_EXTENDED_INFORMATION structure

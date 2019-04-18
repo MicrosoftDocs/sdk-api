@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FsrmReportFilter
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FsrmReportFilter enumeration

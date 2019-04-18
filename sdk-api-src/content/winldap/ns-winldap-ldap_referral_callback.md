@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LDAP_REFERRAL_CALLBACK, *PLDAP_REFERRAL_CALLBACK
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LDAP_REFERRAL_CALLBACK structure

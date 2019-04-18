@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BLUETOOTH_OOB_DATA_INFO, *PBLUETOOTH_OOB_DATA_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BLUETOOTH_OOB_DATA_INFO structure

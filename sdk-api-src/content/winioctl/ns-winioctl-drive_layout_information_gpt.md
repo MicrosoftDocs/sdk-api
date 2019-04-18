@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DRIVE_LAYOUT_INFORMATION_GPT, *PDRIVE_LAYOUT_INFORMATION_GPT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DRIVE_LAYOUT_INFORMATION_GPT structure

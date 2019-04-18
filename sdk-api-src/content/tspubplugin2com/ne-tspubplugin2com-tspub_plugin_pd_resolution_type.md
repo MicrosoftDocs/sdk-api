@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TSPUB_PLUGIN_PD_RESOLUTION_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TSPUB_PLUGIN_PD_RESOLUTION_TYPE enumeration

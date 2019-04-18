@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: NEWTEXTMETRICEXW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NEWTEXTMETRICEXW structure

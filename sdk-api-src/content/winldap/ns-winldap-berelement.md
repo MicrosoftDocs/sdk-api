@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BerElement
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BerElement structure

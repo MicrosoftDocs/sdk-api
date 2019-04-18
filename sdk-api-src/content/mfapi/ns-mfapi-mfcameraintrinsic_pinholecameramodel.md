@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFCameraIntrinsic_PinholeCameraModel
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFCameraIntrinsic_PinholeCameraModel structure

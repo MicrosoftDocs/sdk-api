@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMRSCALEVIEWPORTEXTEX, *PEMRSCALEVIEWPORTEXTEX, EMRSCALEWINDOWEXTEX, *PEMRSCALEWINDOWEXTEX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMRSCALEVIEWPORTEXTEX structure

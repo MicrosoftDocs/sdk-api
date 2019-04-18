@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WPCFLAG_ISBLOCKED
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WPCFLAG_ISBLOCKED enumeration

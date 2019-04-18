@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WCM_CONNECTION_COST_SOURCE, *PWCM_CONNECTION_COST_SOURCE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WCM_CONNECTION_COST_SOURCE enumeration

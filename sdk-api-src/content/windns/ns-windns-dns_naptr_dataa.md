@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DNS_NAPTR_DATAA, *PDNS_NAPTR_DATAA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DNS_NAPTR_DATAA structure

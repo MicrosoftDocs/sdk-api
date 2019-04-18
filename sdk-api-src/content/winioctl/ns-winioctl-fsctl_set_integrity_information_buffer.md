@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FSCTL_SET_INTEGRITY_INFORMATION_BUFFER, *PFSCTL_SET_INTEGRITY_INFORMATION_BUFFER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FSCTL_SET_INTEGRITY_INFORMATION_BUFFER structure

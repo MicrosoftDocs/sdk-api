@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RESULTDATAITEM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RESULTDATAITEM structure

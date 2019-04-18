@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WAVEFORMATEXTENSIBLE, *PWAVEFORMATEXTENSIBLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WAVEFORMATEXTENSIBLE structure

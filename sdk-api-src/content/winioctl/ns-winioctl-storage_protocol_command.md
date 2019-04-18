@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_PROTOCOL_COMMAND, *PSTORAGE_PROTOCOL_COMMAND
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STORAGE_PROTOCOL_COMMAND structure

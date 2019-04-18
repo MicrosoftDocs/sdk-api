@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PHYSICAL_MONITOR, *LPPHYSICAL_MONITOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PHYSICAL_MONITOR structure

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTSINFOEXW, *PWTSINFOEXW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTSINFOEXW structure

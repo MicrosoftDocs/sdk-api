@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: SERVICE_INFOW, *PSERVICE_INFOW, *LPSERVICE_INFOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SERVICE_INFOW structure

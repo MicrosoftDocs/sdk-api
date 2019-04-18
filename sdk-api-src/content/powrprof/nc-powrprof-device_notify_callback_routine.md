@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DEVICE_NOTIFY_CALLBACK_ROUTINE callback function

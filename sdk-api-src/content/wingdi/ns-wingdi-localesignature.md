@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LOCALESIGNATURE, *PLOCALESIGNATURE, *LPLOCALESIGNATURE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LOCALESIGNATURE structure

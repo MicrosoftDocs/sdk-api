@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: POLICY_LSA_SERVER_ROLE, *PPOLICY_LSA_SERVER_ROLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # POLICY_LSA_SERVER_ROLE enumeration

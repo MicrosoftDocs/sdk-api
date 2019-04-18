@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: POINTER_DEVICE_CURSOR_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # POINTER_DEVICE_CURSOR_INFO structure

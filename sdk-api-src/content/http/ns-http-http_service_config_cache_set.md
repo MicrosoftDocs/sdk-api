@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_SERVICE_CONFIG_CACHE_SET, *PHTTP_SERVICE_CONFIG_CACHE_SET
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_SERVICE_CONFIG_CACHE_SET structure

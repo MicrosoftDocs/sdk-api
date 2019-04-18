@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: DS_DOMAIN_CONTROLLER_INFO_3W, *PDS_DOMAIN_CONTROLLER_INFO_3W
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DS_DOMAIN_CONTROLLER_INFO_3W structure

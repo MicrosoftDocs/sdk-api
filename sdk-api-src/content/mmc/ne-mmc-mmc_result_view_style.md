@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MMC_RESULT_VIEW_STYLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MMC_RESULT_VIEW_STYLE enumeration

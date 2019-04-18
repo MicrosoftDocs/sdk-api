@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VMR_ASPECT_RATIO_MODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VMR_ASPECT_RATIO_MODE enumeration

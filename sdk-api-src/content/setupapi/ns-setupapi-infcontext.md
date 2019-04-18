@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: INFCONTEXT, *PINFCONTEXT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INFCONTEXT structure

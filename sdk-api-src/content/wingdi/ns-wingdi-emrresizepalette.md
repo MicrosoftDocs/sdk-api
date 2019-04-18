@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMRRESIZEPALETTE, *PEMRRESIZEPALETTE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMRRESIZEPALETTE structure

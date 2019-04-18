@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
+ms.custom: 19H1
 ---
 
 # LresultFromObject function

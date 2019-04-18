@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: REQUESTBODY_Subscribe
 req.redist: 
+ms.custom: 19H1
 ---
 
 # REQUESTBODY_Subscribe structure

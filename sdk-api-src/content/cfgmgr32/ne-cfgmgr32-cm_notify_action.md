@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CM_NOTIFY_ACTION enumeration

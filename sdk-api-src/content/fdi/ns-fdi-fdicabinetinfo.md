@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FDICABINETINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FDICABINETINFO structure

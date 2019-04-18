@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AZ_PROP_CONSTANTS
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+ms.custom: 19H1
 ---
 
 # AZ_PROP_CONSTANTS enumeration

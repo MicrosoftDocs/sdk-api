@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AM_DVDCOPY_DISCKEY, *PAM_DVDCOPY_DISCKEY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AM_DVDCOPY_DISCKEY structure

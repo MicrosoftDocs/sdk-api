@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BCRYPT_ALGORITHM_IDENTIFIER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BCRYPT_ALGORITHM_IDENTIFIER structure

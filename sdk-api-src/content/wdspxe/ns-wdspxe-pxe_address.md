@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PXE_ADDRESS, *PPXE_ADDRESS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PXE_ADDRESS structure

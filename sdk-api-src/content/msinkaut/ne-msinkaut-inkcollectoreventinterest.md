@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: InkCollectorEventInterest
 req.redist: 
+ms.custom: 19H1
 ---
 
 # InkCollectorEventInterest enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BLUETOOTH_PASSKEY_INFO, *PBLUETOOTH_PASSKEY_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BLUETOOTH_PASSKEY_INFO structure

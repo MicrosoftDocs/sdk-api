@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DDADDVPCAPTUREBUFF, *LPDDADDVPCAPTUREBUFF
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DDADDVPCAPTUREBUFF structure

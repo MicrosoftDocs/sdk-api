@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BATTERY_NOTIFY, *PBATTERY_NOTIFY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BATTERY_NOTIFY structure

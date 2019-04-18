@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_OPTION_DATA_ELEMENT, *LPDHCP_OPTION_DATA_ELEMENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_OPTION_DATA_ELEMENT structure

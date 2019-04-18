@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MediaLabelInfo, *pMediaLabelInfo
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MediaLabelInfo structure

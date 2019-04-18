@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MC_DISPLAY_TECHNOLOGY_TYPE, *LPMC_DISPLAY_TECHNOLOGY_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MC_DISPLAY_TECHNOLOGY_TYPE enumeration

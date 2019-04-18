@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: TTTOOLINFOA, *PTOOLINFOA, *LPTTTOOLINFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TTTOOLINFOA structure

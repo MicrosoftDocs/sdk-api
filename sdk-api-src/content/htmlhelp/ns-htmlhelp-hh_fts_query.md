@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HH_FTS_QUERY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HH_FTS_QUERY structure

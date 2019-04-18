@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: ISCSI_DEVICE_ON_SESSIONW, *PISCSI_DEVICE_ON_SESSIONW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ISCSI_DEVICE_ON_SESSIONW structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYNCMGR_ITEM_POLICIES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYNCMGR_ITEM_POLICIES enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PWINBIO_STORAGE_INTERFACE, WINBIO_STORAGE_INTERFACE"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WINBIO_STORAGE_INTERFACE structure

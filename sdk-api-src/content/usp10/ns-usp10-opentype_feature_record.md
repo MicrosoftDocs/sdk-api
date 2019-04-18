@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OPENTYPE_FEATURE_RECORD
 req.redist: Usp10.dll version 1.600 or greater onWindows XP
+ms.custom: 19H1
 ---
 
 # OPENTYPE_FEATURE_RECORD structure

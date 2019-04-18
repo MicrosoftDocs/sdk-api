@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MOUSEHOOKSTRUCTEX, *LPMOUSEHOOKSTRUCTEX, *PMOUSEHOOKSTRUCTEX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MOUSEHOOKSTRUCTEX structure

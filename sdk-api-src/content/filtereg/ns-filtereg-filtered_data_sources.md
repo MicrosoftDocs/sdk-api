@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILTERED_DATA_SOURCES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILTERED_DATA_SOURCES structure

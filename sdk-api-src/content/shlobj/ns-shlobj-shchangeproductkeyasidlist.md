@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SHChangeProductKeyAsIDList, *LPSHChangeProductKeyAsIDList
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SHChangeProductKeyAsIDList structure

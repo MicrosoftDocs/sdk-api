@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYSTEM_MANDATORY_LABEL_ACE, *PSYSTEM_MANDATORY_LABEL_ACE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYSTEM_MANDATORY_LABEL_ACE structure

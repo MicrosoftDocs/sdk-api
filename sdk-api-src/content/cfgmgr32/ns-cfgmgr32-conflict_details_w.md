@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CONFLICT_DETAILS_W structure

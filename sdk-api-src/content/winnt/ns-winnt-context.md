@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CONTEXT, *PCONTEXT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CONTEXT structure

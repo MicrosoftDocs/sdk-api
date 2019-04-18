@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTS_SMALL_RECT, *PWTS_SMALL_RECT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTS_SMALL_RECT structure

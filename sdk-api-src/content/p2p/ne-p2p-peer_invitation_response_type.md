@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEER_INVITATION_RESPONSE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEER_INVITATION_RESPONSE_TYPE enumeration

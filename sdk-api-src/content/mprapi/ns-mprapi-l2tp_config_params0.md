@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: L2TP_CONFIG_PARAMS0, *PL2TP_CONFIG_PARAMS0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # L2TP_CONFIG_PARAMS0 structure

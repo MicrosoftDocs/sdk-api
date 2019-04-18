@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GLOBAL_MACHINE_POWER_POLICY, *PGLOBAL_MACHINE_POWER_POLICY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GLOBAL_MACHINE_POWER_POLICY structure

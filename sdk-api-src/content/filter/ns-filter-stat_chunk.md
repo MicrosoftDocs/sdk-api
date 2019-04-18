@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STAT_CHUNK
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STAT_CHUNK structure

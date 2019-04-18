@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OPM_HDCP_KEY_SELECTION_VECTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OPM_HDCP_KEY_SELECTION_VECTOR structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: QOS_DESTADDR, *LPQOS_DESTADDR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # QOS_DESTADDR structure

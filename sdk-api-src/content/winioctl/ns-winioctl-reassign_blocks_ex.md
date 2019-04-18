@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: REASSIGN_BLOCKS_EX, *PREASSIGN_BLOCKS_EX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # REASSIGN_BLOCKS_EX structure

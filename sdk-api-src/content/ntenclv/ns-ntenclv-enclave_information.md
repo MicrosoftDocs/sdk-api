@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ENCLAVE_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ENCLAVE_INFORMATION structure

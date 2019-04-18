@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_VDISK_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_VDISK_STATE enumeration

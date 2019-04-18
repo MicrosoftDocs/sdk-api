@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MBN_PIN_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MBN_PIN_STATE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_SERVICE_CONFIG_SSL_CCS_QUERY, *PHTTP_SERVICE_CONFIG_SSL_CCS_QUERY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_SERVICE_CONFIG_SSL_CCS_QUERY structure

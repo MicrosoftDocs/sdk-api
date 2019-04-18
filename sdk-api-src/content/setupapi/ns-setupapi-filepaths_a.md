@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILEPATHS_A, *PFILEPATHS_A
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILEPATHS_A structure

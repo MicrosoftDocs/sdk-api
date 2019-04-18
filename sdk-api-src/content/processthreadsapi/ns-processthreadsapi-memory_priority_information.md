@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MEMORY_PRIORITY_INFORMATION, *PMEMORY_PRIORITY_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MEMORY_PRIORITY_INFORMATION structure

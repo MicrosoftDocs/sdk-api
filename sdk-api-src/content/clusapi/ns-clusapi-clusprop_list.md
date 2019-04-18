@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSPROP_LIST, *PCLUSPROP_LIST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSPROP_LIST structure

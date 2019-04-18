@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFVideoTransferMatrix
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFVideoTransferMatrix enumeration

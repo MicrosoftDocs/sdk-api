@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OPC_READ_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OPC_READ_FLAGS enumeration

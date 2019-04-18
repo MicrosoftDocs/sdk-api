@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CREDENTIAL_ATTRIBUTEW, *PCREDENTIAL_ATTRIBUTEW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CREDENTIAL_ATTRIBUTEW structure

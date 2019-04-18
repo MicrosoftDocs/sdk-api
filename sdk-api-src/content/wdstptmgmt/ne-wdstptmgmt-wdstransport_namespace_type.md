@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WDSTRANSPORT_NAMESPACE_TYPE, *PWDSTRANSPORT_NAMESPACE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WDSTRANSPORT_NAMESPACE_TYPE enumeration

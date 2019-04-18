@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROGRESS_DIALOG_IMAGE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROGRESS_DIALOG_IMAGE_TYPE enumeration

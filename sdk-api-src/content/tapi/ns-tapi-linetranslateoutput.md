@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LINETRANSLATEOUTPUT, *LPLINETRANSLATEOUTPUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LINETRANSLATEOUTPUT structure

@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSCTL_RESOURCE_TYPE_CODES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSCTL_RESOURCE_TYPE_CODES enumeration

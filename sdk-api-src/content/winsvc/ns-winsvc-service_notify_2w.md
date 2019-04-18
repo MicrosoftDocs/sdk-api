@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: SERVICE_NOTIFY_2W, *PSERVICE_NOTIFY_2W
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SERVICE_NOTIFY_2W structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VSS_RESTORE_TYPE, *PVSS_RESTORE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VSS_RESTORE_TYPE enumeration

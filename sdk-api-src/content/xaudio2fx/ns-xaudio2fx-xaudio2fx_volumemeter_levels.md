@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: XAUDIO2FX_VOLUMEMETER_LEVELS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XAUDIO2FX_VOLUMEMETER_LEVELS structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RIO_NOTIFICATION_COMPLETION_TYPE, *PRIO_NOTIFICATION_COMPLETION_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RIO_NOTIFICATION_COMPLETION_TYPE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYNCMGR_PRESENTER_CHOICE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYNCMGR_PRESENTER_CHOICE enumeration

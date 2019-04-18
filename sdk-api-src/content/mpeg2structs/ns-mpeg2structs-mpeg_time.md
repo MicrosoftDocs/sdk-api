@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MPEG_TIME
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MPEG_TIME structure

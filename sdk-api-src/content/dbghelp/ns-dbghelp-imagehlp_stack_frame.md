@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMAGEHLP_STACK_FRAME, *PIMAGEHLP_STACK_FRAME
 req.redist: DbgHelp.dll 5.1 or later
+ms.custom: 19H1
 ---
 
 # IMAGEHLP_STACK_FRAME structure

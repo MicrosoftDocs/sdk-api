@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AUDIT_EVENT_TYPE, *PAUDIT_EVENT_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AUDIT_EVENT_TYPE enumeration

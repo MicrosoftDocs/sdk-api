@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ISCSI_AUTH_TYPES, *PISCSI_AUTH_TYPES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ISCSI_AUTH_TYPES enumeration

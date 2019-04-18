@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_FAILOVER_SERVER, *LPDHCP_FAILOVER_SERVER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_FAILOVER_SERVER enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSPPROC_TABLE, *LPWSPPROC_TABLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSPPROC_TABLE structure

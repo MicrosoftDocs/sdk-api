@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SHFILEOPSTRUCTW, *LPSHFILEOPSTRUCTW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SHFILEOPSTRUCTW structure

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 10.0.15063 or later
+ms.custom: 19H1
 ---
 
 # SymGetSourceFileChecksumW function

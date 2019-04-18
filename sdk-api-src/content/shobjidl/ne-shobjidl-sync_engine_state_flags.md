@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYNC_ENGINE_STATE_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYNC_ENGINE_STATE_FLAGS enumeration

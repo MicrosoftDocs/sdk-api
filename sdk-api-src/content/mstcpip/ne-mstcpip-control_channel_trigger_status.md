@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CONTROL_CHANNEL_TRIGGER_STATUS, *PCONTROL_CHANNEL_TRIGGER_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CONTROL_CHANNEL_TRIGGER_STATUS enumeration

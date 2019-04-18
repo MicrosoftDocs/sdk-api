@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WCN_VENDOR_EXTENSION_SPEC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WCN_VENDOR_EXTENSION_SPEC structure

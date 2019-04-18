@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MOUSEMOVEPOINT, *PMOUSEMOVEPOINT, *LPMOUSEMOVEPOINT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MOUSEMOVEPOINT structure

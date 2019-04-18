@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MEM_ADDRESS_REQUIREMENTS, *PMEM_ADDRESS_REQUIREMENTS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MEM_ADDRESS_REQUIREMENTS structure

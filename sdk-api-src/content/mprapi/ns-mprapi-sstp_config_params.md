@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SSTP_CONFIG_PARAMS structure

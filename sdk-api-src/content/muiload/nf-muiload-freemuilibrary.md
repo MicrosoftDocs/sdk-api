@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Muiload.lib, included in theWindows SDKforWindows VistaonWindows 2000 Professional,Windows Me/98/95.  Not supported onWindows NT 4.0
+ms.custom: 19H1
 ---
 
 # FreeMUILibrary function

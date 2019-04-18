@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: REPAIR_SCOPE, *PREPAIR_SCOPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # REPAIR_SCOPE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MSV1_0_SUBAUTH_RESPONSE, *PMSV1_0_SUBAUTH_RESPONSE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MSV1_0_SUBAUTH_RESPONSE structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY, *PTXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY structure

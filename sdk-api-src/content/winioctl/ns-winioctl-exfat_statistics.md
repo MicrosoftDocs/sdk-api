@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EXFAT_STATISTICS, *PEXFAT_STATISTICS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EXFAT_STATISTICS structure

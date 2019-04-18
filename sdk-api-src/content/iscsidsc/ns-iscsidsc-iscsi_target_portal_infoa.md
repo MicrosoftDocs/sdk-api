@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: ISCSI_TARGET_PORTAL_INFOA, *PISCSI_TARGET_PORTAL_INFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ISCSI_TARGET_PORTAL_INFOA structure

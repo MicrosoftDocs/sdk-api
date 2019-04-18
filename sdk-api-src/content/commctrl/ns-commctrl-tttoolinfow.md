@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: TTTOOLINFOW, *PTOOLINFOW, *LPTTTOOLINFOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TTTOOLINFOW structure

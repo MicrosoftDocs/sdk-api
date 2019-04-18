@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NCRYPT_ALLOC_PARA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NCRYPT_ALLOC_PARA structure

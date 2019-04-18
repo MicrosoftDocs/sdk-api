@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TASK_RUNLEVEL_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TASK_RUNLEVEL_TYPE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_X942_OTHER_INFO, *PCRYPT_X942_OTHER_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_X942_OTHER_INFO structure

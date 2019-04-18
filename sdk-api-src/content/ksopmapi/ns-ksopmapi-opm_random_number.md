@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OPM_RANDOM_NUMBER, *POPM_RANDOM_NUMBER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OPM_RANDOM_NUMBER structure

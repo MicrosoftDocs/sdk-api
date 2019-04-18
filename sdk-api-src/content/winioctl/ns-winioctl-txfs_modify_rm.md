@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TXFS_MODIFY_RM, *PTXFS_MODIFY_RM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TXFS_MODIFY_RM structure

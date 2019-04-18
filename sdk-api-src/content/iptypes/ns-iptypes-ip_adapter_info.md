@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IP_ADAPTER_INFO, *PIP_ADAPTER_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IP_ADAPTER_INFO structure

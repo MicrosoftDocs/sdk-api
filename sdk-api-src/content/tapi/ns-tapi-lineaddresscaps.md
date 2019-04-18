@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LINEADDRESSCAPS, *LPLINEADDRESSCAPS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LINEADDRESSCAPS structure

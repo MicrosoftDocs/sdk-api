@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TRANSPORT_SETTING_ID, *PTRANSPORT_SETTING_ID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TRANSPORT_SETTING_ID structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DEVICE_SELECTION_DEVICE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DEVICE_SELECTION_DEVICE_TYPE enumeration

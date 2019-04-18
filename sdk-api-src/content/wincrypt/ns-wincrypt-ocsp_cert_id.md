@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OCSP_CERT_ID, *POCSP_CERT_ID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OCSP_CERT_ID structure

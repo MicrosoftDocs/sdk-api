@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_ENCRYPTED_PRIVATE_KEY_INFO, *PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_ENCRYPTED_PRIVATE_KEY_INFO structure

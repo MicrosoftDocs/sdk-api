@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FWP_BYTE_BLOB
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FWP_BYTE_BLOB structure

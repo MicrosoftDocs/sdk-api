@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: QualityMessageType
 req.redist: 
+ms.custom: 19H1
 ---
 
 # QualityMessageType enumeration

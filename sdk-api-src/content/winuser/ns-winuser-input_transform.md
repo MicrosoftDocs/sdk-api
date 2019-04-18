@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: INPUT_TRANSFORM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INPUT_TRANSFORM structure

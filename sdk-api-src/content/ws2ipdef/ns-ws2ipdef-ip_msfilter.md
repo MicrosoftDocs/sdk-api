@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: IP_MSFILTER, *PIP_MSFILTER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IP_MSFILTER structure

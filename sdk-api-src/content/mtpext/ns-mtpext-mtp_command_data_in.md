@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MTP_COMMAND_DATA_IN, *PMTP_COMMAND_DATA_IN
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MTP_COMMAND_DATA_IN structure

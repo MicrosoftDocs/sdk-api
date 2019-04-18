@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MF_QUALITY_DROP_MODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MF_QUALITY_DROP_MODE enumeration

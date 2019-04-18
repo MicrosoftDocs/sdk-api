@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_TRUST_REG_ENTRY, *PCRYPT_TRUST_REG_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_TRUST_REG_ENTRY structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DNS_RECORD_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DNS_RECORD_FLAGS structure

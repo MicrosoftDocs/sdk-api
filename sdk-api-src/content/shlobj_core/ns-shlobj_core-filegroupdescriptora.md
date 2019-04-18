@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILEGROUPDESCRIPTORA, *LPFILEGROUPDESCRIPTORA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILEGROUPDESCRIPTORA structure

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROTOCOL_INFOW, *PPROTOCOL_INFOW, *LPPROTOCOL_INFOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROTOCOL_INFOW structure

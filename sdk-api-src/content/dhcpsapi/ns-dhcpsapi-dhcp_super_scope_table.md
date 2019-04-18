@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_SUPER_SCOPE_TABLE, *LPDHCP_SUPER_SCOPE_TABLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_SUPER_SCOPE_TABLE structure

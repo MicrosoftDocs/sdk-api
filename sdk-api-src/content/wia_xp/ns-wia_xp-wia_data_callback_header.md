@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WIA_DATA_CALLBACK_HEADER, *PWIA_DATA_CALLBACK_HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WIA_DATA_CALLBACK_HEADER structure

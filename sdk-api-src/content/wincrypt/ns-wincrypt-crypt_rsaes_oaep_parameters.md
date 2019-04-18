@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_RSAES_OAEP_PARAMETERS, *PCRYPT_RSAES_OAEP_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_RSAES_OAEP_PARAMETERS structure

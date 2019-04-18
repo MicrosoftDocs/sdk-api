@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CASE_REQUIREMENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CASE_REQUIREMENT enumeration

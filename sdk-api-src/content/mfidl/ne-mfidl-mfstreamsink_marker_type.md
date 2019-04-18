@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFSTREAMSINK_MARKER_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFSTREAMSINK_MARKER_TYPE enumeration

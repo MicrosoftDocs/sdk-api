@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Auxiliary API library version 2.0
+ms.custom: 19H1
 ---
 
 # AuxUlibIsDLLSynchronizationHeld function

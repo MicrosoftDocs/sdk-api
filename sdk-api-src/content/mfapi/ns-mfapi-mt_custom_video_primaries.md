@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MT_CUSTOM_VIDEO_PRIMARIES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MT_CUSTOM_VIDEO_PRIMARIES structure

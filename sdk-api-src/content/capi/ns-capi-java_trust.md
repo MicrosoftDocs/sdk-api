@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: JAVA_TRUST, *PJAVA_TRUST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # JAVA_TRUST structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CSADDR_INFO, *PCSADDR_INFO, *LPCSADDR_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CSADDR_INFO structure

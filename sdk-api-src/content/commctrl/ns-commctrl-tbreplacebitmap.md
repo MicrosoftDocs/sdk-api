@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TBREPLACEBITMAP, *LPTBREPLACEBITMAP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TBREPLACEBITMAP structure

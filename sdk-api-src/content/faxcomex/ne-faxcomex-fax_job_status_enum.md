@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FAX_JOB_STATUS_ENUM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FAX_JOB_STATUS_ENUM enumeration

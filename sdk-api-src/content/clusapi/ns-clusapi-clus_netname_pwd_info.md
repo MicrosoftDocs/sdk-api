@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUS_NETNAME_PWD_INFO, *PCLUS_NETNAME_PWD_INFO, CLUS_RLUA_PWD_INFO, *PCLUS_RLUA_PWD_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUS_NETNAME_PWD_INFO structure

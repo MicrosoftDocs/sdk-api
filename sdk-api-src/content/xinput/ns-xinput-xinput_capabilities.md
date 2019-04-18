@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: XINPUT_CAPABILITIES, *PXINPUT_CAPABILITIES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XINPUT_CAPABILITIES structure

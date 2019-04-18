@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSTER_CREATE_GROUP_INFO, *PCLUSTER_CREATE_GROUP_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSTER_CREATE_GROUP_INFO structure

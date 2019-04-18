@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXVA2_AES_CTR_IV
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXVA2_AES_CTR_IV structure

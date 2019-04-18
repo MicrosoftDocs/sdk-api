@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AMVABUFFERINFO, *LPAMVABUFFERINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AMVABUFFERINFO structure

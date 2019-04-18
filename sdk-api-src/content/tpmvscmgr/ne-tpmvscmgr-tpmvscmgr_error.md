@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TPMVSCMGR_ERROR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TPMVSCMGR_ERROR enumeration

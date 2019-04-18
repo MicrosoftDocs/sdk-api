@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA, *PAUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA structure

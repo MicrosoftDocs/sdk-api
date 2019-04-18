@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SERVICE_SID_INFO, *LPSERVICE_SID_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SERVICE_SID_INFO structure

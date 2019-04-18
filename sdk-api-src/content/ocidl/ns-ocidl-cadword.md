@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CADWORD, *LPCADWORD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CADWORD structure

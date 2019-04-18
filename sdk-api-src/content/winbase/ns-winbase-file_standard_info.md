@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_STANDARD_INFO, *PFILE_STANDARD_INFO
 req.redist: Windows SDK on     Windows Server 2003 and Windows XP.
+ms.custom: 19H1
 ---
 
 # FILE_STANDARD_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RPC_EXTENDED_ERROR_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RPC_EXTENDED_ERROR_INFO structure

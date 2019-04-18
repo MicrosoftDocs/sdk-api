@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BUSNUMBER_DES, *PBUSNUMBER_DES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BUSNUMBER_DES structure

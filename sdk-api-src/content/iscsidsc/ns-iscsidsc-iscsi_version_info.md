@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ISCSI_VERSION_INFO, *PISCSI_VERSION_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ISCSI_VERSION_INFO structure

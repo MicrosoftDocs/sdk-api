@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SERVICE_FAILURE_ACTIONS_FLAG, *LPSERVICE_FAILURE_ACTIONS_FLAG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SERVICE_FAILURE_ACTIONS_FLAG structure

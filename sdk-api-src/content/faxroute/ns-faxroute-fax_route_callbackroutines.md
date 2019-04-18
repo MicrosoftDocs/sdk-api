@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FAX_ROUTE_CALLBACKROUTINES, *PFAX_ROUTE_CALLBACKROUTINES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FAX_ROUTE_CALLBACKROUTINES structure

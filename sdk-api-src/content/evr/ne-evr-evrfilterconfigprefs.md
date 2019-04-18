@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EVRFilterConfigPrefs
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EVRFilterConfigPrefs enumeration

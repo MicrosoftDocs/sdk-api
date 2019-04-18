@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WMPServices_StreamState
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WMPServices_StreamState enumeration

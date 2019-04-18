@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DNS_KEY_DATA, *PDNS_KEY_DATA, DNS_DNSKEY_DATA, *PDNS_DNSKEY_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DNS_KEY_DATA structure

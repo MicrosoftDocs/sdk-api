@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TRACE_VERSION_INFO, *PTRACE_VERSION_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TRACE_VERSION_INFO structure

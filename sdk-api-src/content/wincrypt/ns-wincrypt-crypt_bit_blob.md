@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_BIT_BLOB, *PCRYPT_BIT_BLOB
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_BIT_BLOB structure

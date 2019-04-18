@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SHREGDEL_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SHREGDEL_FLAGS enumeration

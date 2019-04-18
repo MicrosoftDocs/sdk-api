@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFCLOCK_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFCLOCK_STATE enumeration

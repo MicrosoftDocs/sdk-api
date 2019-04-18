@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: StylusQueue
 req.redist: 
+ms.custom: 19H1
 ---
 
 # StylusQueue enumeration

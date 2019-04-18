@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: INET_FIREWALL_AC_CAPABILITIES, *PINET_FIREWALL_AC_CAPABILITIES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INET_FIREWALL_AC_CAPABILITIES structure

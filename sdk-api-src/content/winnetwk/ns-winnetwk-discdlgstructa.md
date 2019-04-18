@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: DISCDLGSTRUCTA, *LPDISCDLGSTRUCTA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DISCDLGSTRUCTA structure

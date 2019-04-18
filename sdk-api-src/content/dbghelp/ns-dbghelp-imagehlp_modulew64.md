@@ -43,6 +43,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMAGEHLP_MODULEW64, *PIMAGEHLP_MODULEW64
 req.redist: DbgHelp.dll 5.1 or later
+ms.custom: 19H1
 ---
 
 # IMAGEHLP_MODULEW64 structure

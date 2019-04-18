@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMPGSCROLL, *LPNMPGSCROLL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMPGSCROLL structure

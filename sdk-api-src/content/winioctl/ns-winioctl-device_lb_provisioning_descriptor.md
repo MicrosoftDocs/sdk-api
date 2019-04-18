@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DEVICE_LB_PROVISIONING_DESCRIPTOR, *PDEVICE_LB_PROVISIONING_DESCRIPTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DEVICE_LB_PROVISIONING_DESCRIPTOR structure

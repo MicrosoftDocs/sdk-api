@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_LastClientTokenStatus, *PSecPkgContext_LastClientTokenStatus
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SecPkgContext_LastClientTokenStatus structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, *PCRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO structure

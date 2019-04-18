@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CSV_QUERY_FILE_REVISION, *PCSV_QUERY_FILE_REVISION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CSV_QUERY_FILE_REVISION structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AM_DVDCOPY_BUSKEY, *PAM_DVDCOPY_BUSKEY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AM_DVDCOPY_BUSKEY structure

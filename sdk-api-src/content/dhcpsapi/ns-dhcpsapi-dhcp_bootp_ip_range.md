@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_BOOTP_IP_RANGE, *LPDHCP_BOOT_IP_RANGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_BOOTP_IP_RANGE structure

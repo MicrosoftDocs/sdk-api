@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: X500NameFlags
 req.redist: 
+ms.custom: 19H1
 ---
 
 # X500NameFlags enumeration

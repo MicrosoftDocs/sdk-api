@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: OPEN_VIRTUAL_DISK_PARAMETERS, *POPEN_VIRTUAL_DISK_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OPEN_VIRTUAL_DISK_PARAMETERS structure

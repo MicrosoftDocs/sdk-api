@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_GETMOCOMPCOMPBUFFDATA, DD_GETMOCOMPCOMPBUFFDATA"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_GETMOCOMPCOMPBUFFDATA structure

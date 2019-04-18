@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DataCollectorSetStatus
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DataCollectorSetStatus enumeration

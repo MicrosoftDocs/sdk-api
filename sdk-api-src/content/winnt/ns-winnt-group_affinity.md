@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GROUP_AFFINITY, *PGROUP_AFFINITY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GROUP_AFFINITY structure

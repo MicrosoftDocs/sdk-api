@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSDXML_NAME
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSDXML_NAME structure

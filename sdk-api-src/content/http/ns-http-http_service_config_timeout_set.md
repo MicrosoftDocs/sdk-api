@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_SERVICE_CONFIG_TIMEOUT_SET, *PHTTP_SERVICE_CONFIG_TIMEOUT_SET
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_SERVICE_CONFIG_TIMEOUT_SET structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RO_INIT_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RO_INIT_TYPE enumeration

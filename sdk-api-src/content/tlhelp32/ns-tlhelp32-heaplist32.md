@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HEAPLIST32
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HEAPLIST32 structure

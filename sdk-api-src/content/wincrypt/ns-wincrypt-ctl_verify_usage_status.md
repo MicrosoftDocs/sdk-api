@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CTL_VERIFY_USAGE_STATUS, *PCTL_VERIFY_USAGE_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CTL_VERIFY_USAGE_STATUS structure

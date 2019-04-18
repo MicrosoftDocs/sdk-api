@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: PRINTDLGA, *LPPRINTDLGA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PRINTDLGA structure

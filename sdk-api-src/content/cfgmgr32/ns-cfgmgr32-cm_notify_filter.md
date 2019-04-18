@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CM_NOTIFY_FILTER, *PCM_NOTIFY_FILTER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CM_NOTIFY_FILTER structure

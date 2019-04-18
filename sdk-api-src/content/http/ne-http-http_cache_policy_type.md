@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_CACHE_POLICY_TYPE, *PHTTP_CACHE_POLICY_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_CACHE_POLICY_TYPE enumeration

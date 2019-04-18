@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Rights Management Services client 1.0 or later
+ms.custom: 19H1
 ---
 
 # DRMGetEnvironmentInfo function

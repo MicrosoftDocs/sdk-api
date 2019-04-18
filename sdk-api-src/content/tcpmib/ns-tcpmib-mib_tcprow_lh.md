@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_TCPROW_LH, *PMIB_TCPROW_LH
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_TCPROW_LH structure

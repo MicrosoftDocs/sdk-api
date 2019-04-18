@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TOKEN_ORIGIN, *PTOKEN_ORIGIN
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TOKEN_ORIGIN structure

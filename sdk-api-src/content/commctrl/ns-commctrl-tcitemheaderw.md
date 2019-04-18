@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: TCITEMHEADERW, *LPTCITEMHEADERW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TCITEMHEADERW structure

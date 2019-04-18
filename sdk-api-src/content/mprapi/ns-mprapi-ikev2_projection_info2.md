@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IKEV2_PROJECTION_INFO2, *PIKEV2_PROJECTION_INFO2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IKEV2_PROJECTION_INFO2 structure

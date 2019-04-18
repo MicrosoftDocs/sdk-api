@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RM_PROCESS_INFO, *PRM_PROCESS_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RM_PROCESS_INFO structure

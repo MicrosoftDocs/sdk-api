@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SP_DETECTDEVICE_PARAMS, *PSP_DETECTDEVICE_PARAMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SP_DETECTDEVICE_PARAMS structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MC_TIMING_REPORT, *LPMC_TIMING_REPORT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MC_TIMING_REPORT structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DVASPECTINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DVASPECTINFO structure

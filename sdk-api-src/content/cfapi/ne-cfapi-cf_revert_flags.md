@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CF_REVERT_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CF_REVERT_FLAGS enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DS_NAME_ERROR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DS_NAME_ERROR enumeration

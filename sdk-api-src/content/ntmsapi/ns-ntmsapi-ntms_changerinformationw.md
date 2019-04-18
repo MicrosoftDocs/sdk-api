@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: NTMS_CHANGERINFORMATIONW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NTMS_CHANGERINFORMATIONW structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: POLICY_AUDIT_EVENTS_INFO, *PPOLICY_AUDIT_EVENTS_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # POLICY_AUDIT_EVENTS_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LOCALMANAGEDAPPLICATION, *PLOCALMANAGEDAPPLICATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LOCALMANAGEDAPPLICATION structure

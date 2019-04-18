@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EapUsernamePasswordCredential
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EapUsernamePasswordCredential structure

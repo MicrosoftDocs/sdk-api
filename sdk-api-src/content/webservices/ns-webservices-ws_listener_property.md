@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_LISTENER_PROPERTY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_LISTENER_PROPERTY structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ADS_SORTKEY, *PADS_SORTKEY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ADS_SORTKEY structure

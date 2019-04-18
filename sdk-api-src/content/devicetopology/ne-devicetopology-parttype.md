@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PartType
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PartType enumeration

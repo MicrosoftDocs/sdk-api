@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VALID_UOP_FLAG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VALID_UOP_FLAG enumeration

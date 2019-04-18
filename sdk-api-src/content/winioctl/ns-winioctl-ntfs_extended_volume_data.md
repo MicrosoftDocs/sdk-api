@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NTFS_EXTENDED_VOLUME_DATA, *PNTFS_EXTENDED_VOLUME_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NTFS_EXTENDED_VOLUME_DATA structure

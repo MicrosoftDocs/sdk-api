@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LINEREQMAKECALL, *LPLINEREQMAKECALL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LINEREQMAKECALL structure

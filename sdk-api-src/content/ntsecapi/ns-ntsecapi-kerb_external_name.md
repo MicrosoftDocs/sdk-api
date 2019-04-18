@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KERB_EXTERNAL_NAME, *PKERB_EXTERNAL_NAME
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KERB_EXTERNAL_NAME structure

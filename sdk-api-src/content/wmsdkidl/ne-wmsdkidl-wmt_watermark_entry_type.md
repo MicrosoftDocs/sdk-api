@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WMT_WATERMARK_ENTRY_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WMT_WATERMARK_ENTRY_TYPE enumeration

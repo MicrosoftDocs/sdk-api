@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RepairInfoEx, *PRepairInfoEx
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RepairInfoEx structure

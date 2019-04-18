@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ROUTER_IKEv2_IF_CUSTOM_CONFIG0, *PROUTER_IKEv2_IF_CUSTOM_CONFIG0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ROUTER_IKEv2_IF_CUSTOM_CONFIG0 structure

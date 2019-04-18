@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: INTERNET_AUTH_NOTIFY_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INTERNET_AUTH_NOTIFY_DATA structure

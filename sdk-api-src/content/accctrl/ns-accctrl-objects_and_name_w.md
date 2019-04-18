@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: OBJECTS_AND_NAME_W, *POBJECTS_AND_NAME_W
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OBJECTS_AND_NAME_W structure

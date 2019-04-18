@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIDIHDR, *PMIDIHDR, *NPMIDIHDR, *LPMIDIHDR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIDIHDR structure

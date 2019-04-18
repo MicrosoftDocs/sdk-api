@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_AUTH_STATUS, *PHTTP_AUTH_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_AUTH_STATUS enumeration

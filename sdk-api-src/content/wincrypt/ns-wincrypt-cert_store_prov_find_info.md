@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_STORE_PROV_FIND_INFO, *PCERT_STORE_PROV_FIND_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_STORE_PROV_FIND_INFO structure

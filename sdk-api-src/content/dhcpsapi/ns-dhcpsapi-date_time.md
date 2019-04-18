@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DATE_TIME, *PDATE_TIME, *LPDATE_TIME
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DATE_TIME structure

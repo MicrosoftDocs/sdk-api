@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECPKG_EVENT_NOTIFY, *PSECPKG_EVENT_NOTIFY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECPKG_EVENT_NOTIFY structure

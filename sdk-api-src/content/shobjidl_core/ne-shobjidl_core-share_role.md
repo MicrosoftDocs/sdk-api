@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SHARE_ROLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SHARE_ROLE enumeration

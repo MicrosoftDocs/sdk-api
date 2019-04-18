@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EXP_DARWIN_LINK, *LPEXP_DARWIN_LINK
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EXP_DARWIN_LINK structure

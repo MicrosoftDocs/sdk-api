@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTSCONFIGINFOW, *PWTSCONFIGINFOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTSCONFIGINFOW structure

@@ -33,6 +33,7 @@ api_location:
  - bcrypt.h
 api_name:
  - BCryptRegisterConfigChangeNotify
+ms.custom: 19H1
 ---
 
 # BCryptRegisterConfigChangeNotify function

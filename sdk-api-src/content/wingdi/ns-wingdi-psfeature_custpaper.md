@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PSFEATURE_CUSTPAPER, *PPSFEATURE_CUSTPAPER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PSFEATURE_CUSTPAPER structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: XINPUT_GAMEPAD, *PXINPUT_GAMEPAD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XINPUT_GAMEPAD structure

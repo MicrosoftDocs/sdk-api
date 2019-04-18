@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_INFO_3, *PFILE_INFO_3, *LPFILE_INFO_3
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILE_INFO_3 structure

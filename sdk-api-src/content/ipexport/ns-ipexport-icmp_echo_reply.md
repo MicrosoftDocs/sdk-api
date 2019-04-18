@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ICMP_ECHO_REPLY, *PICMP_ECHO_REPLY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ICMP_ECHO_REPLY structure

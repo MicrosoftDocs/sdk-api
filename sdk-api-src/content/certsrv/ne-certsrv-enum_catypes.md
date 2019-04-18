@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ENUM_CATYPES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ENUM_CATYPES enumeration

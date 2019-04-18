@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_IF_TABLE2, *PMIB_IF_TABLE2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_IF_TABLE2 structure

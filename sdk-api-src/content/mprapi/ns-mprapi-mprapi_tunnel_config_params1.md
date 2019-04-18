@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: MPRAPI_TUNNEL_CONFIG_PARAMS1, *PMPRAPI_TUNNEL_CONFIG_PARAMS1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MPRAPI_TUNNEL_CONFIG_PARAMS1 structure

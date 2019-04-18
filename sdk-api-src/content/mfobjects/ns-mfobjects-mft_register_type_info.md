@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFT_REGISTER_TYPE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFT_REGISTER_TYPE_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D3D12_FILTER_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3D12_FILTER_TYPE enumeration

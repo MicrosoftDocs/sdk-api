@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TRANSACTION_NOTIFICATION, *PTRANSACTION_NOTIFICATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TRANSACTION_NOTIFICATION structure

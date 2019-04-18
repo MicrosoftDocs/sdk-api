@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SCHANNEL_CERT_HASH, *PSCHANNEL_CERT_HASH
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SCHANNEL_CERT_HASH structure

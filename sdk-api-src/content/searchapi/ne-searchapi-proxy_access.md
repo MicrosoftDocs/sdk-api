@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROXY_ACCESS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROXY_ACCESS enumeration

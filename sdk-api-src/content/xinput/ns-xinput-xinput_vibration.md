@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: XINPUT_VIBRATION, *PXINPUT_VIBRATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XINPUT_VIBRATION structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OFFLINEFILES_SYNC_CONFLICT_RESOLVE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OFFLINEFILES_SYNC_CONFLICT_RESOLVE enumeration

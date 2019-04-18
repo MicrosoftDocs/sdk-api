@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CALLINFO_STRING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CALLINFO_STRING enumeration

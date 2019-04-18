@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DDGETIRQINFO, *PDDGETIRQINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DDGETIRQINFO structure

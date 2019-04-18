@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AsnAny
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AsnAny structure

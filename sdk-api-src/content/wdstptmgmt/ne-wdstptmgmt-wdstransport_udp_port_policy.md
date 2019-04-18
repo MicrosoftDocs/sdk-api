@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WDSTRANSPORT_UDP_PORT_POLICY, *PWDSTRANSPORT_UDP_PORT_POLICY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WDSTRANSPORT_UDP_PORT_POLICY enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WINBIO_STORAGE_RECORD, *PWINBIO_STORAGE_RECORD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WINBIO_STORAGE_RECORD structure

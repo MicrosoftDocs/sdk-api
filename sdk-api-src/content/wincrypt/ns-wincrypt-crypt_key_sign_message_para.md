@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_KEY_SIGN_MESSAGE_PARA, *PCRYPT_KEY_SIGN_MESSAGE_PARA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_KEY_SIGN_MESSAGE_PARA structure

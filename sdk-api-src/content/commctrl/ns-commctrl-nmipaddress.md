@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMIPADDRESS, *LPNMIPADDRESS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMIPADDRESS structure

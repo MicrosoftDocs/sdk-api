@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RDPSRAPI_KBD_CODE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RDPSRAPI_KBD_CODE_TYPE enumeration
