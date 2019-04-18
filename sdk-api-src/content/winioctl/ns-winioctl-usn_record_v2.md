@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: USN_RECORD_V2, *PUSN_RECORD_V2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # USN_RECORD_V2 structure

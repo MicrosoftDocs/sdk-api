@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION enumeration

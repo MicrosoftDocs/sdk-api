@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WBEM_BACKUP_RESTORE_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WBEM_BACKUP_RESTORE_FLAGS enumeration

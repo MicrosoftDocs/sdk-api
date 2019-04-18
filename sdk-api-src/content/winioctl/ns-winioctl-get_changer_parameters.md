@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GET_CHANGER_PARAMETERS, *PGET_CHANGER_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GET_CHANGER_PARAMETERS structure

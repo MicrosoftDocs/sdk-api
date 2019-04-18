@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DWM_BLURBEHIND, *PDWM_BLURBEHIND
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DWM_BLURBEHIND structure

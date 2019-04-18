@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MENUITEMTEMPLATE, *PMENUITEMTEMPLATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MENUITEMTEMPLATE structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BATTERY_REPORTING_SCALE structure

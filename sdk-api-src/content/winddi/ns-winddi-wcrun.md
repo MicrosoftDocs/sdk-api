@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WCRUN, *PWCRUN
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WCRUN structure

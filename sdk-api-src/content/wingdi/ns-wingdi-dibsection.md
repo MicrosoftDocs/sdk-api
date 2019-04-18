@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DIBSECTION, *LPDIBSECTION, *PDIBSECTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DIBSECTION structure

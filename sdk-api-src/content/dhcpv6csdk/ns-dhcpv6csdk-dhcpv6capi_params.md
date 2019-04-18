@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCPV6CAPI_PARAMS, *PDHCPV6CAPI_PARAMS, *LPDHCPV6CAPI_PARAMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCPV6CAPI_PARAMS structure

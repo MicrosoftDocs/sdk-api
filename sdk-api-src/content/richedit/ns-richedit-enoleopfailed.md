@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ENOLEOPFAILED
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ENOLEOPFAILED structure

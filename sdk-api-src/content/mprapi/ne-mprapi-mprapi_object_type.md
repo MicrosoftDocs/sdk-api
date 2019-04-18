@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MPRAPI_OBJECT_TYPE, *PMPRAPI_OBJECT_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MPRAPI_OBJECT_TYPE enumeration

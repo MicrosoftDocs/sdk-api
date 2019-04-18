@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DVD_HMSF_TIMECODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DVD_HMSF_TIMECODE structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: InkPictureSizeMode
 req.redist: 
+ms.custom: 19H1
 ---
 
 # InkPictureSizeMode enumeration

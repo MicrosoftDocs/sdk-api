@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ProxyFileInfo
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ProxyFileInfo structure

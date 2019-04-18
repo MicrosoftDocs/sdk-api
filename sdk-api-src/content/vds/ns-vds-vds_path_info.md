@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_PATH_INFO
 req.redist: VDS 1.1
+ms.custom: 19H1
 ---
 
 # VDS_PATH_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MapiFileDescW, *lpMapiFileDescW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MapiFileDescW structure

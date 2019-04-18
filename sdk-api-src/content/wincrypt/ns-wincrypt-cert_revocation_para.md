@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_REVOCATION_PARA, *PCERT_REVOCATION_PARA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_REVOCATION_PARA structure

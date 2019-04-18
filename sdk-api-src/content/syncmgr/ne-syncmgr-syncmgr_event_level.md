@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYNCMGR_EVENT_LEVEL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYNCMGR_EVENT_LEVEL enumeration

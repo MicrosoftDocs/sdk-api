@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LINEMEDIACONTROLDIGIT, *LPLINEMEDIACONTROLDIGIT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LINEMEDIACONTROLDIGIT structure

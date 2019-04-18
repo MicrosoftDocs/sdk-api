@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TC_GEN_FILTER, *PTC_GEN_FILTER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TC_GEN_FILTER structure

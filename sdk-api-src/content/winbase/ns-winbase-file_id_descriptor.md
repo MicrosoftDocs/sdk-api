@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_ID_DESCRIPTOR, *LPFILE_ID_DESCRIPTOR
 req.redist: Windows SDK on     Windows Server 2003 and Windows XP.
+ms.custom: 19H1
 ---
 
 # FILE_ID_DESCRIPTOR structure

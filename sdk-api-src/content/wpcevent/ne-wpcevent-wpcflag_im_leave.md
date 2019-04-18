@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WPCFLAG_IM_LEAVE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WPCFLAG_IM_LEAVE enumeration

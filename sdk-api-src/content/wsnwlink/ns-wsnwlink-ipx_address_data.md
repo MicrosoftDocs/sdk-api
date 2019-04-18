@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IPX_ADDRESS_DATA, *PIPX_ADDRESS_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IPX_ADDRESS_DATA structure

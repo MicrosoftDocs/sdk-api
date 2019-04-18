@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DDCAPS_DX3
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DDCAPS_DX3 structure

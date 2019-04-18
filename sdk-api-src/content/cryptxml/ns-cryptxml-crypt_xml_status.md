@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_XML_STATUS, *PCRYPT_XML_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_XML_STATUS structure

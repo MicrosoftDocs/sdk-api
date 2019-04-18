@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_ISSUED_TOKEN_MESSAGE_SECURITY_BINDING_CONSTRAINT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_ISSUED_TOKEN_MESSAGE_SECURITY_BINDING_CONSTRAINT structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # _MFP_MEDIAITEM_CHARACTERISTICS enumeration

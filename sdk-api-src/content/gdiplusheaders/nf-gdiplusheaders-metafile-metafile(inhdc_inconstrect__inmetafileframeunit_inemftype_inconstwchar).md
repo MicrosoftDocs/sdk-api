@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
+ms.custom: 19H1
 ---
 
 # Metafile::Metafile(IN HDC,IN const Rect &,IN MetafileFrameUnit,IN EmfType,IN const WCHAR)

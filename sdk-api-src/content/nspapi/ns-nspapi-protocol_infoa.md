@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROTOCOL_INFOA, *PPROTOCOL_INFOA, *LPPROTOCOL_INFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROTOCOL_INFOA structure

@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: DRM_LICENSE_ACQ_DATA
 req.redist: 
 req.product: Rights Management Services client 1.0 or later
+ms.custom: 19H1
 ---
 
 # DRM_LICENSE_ACQ_DATA structure

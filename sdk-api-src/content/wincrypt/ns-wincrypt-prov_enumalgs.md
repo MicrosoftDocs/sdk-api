@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROV_ENUMALGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROV_ENUMALGS structure

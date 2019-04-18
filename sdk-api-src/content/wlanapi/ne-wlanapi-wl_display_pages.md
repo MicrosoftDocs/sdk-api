@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WL_DISPLAY_PAGES, *PWL_DISPLAY_PAGES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WL_DISPLAY_PAGES enumeration

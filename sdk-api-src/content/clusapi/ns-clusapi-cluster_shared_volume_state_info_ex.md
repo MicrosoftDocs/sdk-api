@@ -39,6 +39,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSTER_SHARED_VOLUME_STATE_INFO_EX, *PCLUSTER_SHARED_VOLUME_STATE_INFO_EX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSTER_SHARED_VOLUME_STATE_INFO_EX structure

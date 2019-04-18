@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_LUN_PLEX_PROP, *PVDS_LUN_PLEX_PROP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_LUN_PLEX_PROP structure

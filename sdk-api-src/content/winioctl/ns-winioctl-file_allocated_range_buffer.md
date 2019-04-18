@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_ALLOCATED_RANGE_BUFFER, *PFILE_ALLOCATED_RANGE_BUFFER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILE_ALLOCATED_RANGE_BUFFER structure

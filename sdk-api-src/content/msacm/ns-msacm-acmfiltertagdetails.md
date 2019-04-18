@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ACMFILTERTAGDETAILS, *PACMFILTERTAGDETAILS, *LPACMFILTERTAGDETAILS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ACMFILTERTAGDETAILS structure

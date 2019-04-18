@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: OPENFILENAME_NT4A, *LPOPENFILENAME_NT4A
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OPENFILENAME_NT4A structure

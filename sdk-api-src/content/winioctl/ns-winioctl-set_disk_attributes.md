@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SET_DISK_ATTRIBUTES, *PSET_DISK_ATTRIBUTES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SET_DISK_ATTRIBUTES structure

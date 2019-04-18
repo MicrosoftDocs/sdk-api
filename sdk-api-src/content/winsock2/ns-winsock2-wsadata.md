@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSADATA, *LPWSADATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSADATA structure

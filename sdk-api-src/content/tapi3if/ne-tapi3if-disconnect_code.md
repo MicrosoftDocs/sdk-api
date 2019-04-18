@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DISCONNECT_CODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DISCONNECT_CODE enumeration

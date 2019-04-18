@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MSIFILEHASHINFO, *PMSIFILEHASHINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MSIFILEHASHINFO structure

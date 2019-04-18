@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EAP_UI_DATA_FORMAT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EAP_UI_DATA_FORMAT structure

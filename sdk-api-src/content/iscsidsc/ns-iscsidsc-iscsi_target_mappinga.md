@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: ISCSI_TARGET_MAPPINGA, *PISCSI_TARGET_MAPPINGA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ISCSI_TARGET_MAPPINGA structure

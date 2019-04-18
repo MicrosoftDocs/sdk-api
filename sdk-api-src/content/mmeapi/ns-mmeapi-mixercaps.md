@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIXERCAPS, *PMIXERCAPS, *LPMIXERCAPS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIXERCAPS structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VOLUME_GET_GPT_ATTRIBUTES_INFORMATION structure

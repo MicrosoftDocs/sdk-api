@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GROUP_FILTER, *PGROUP_FILTER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GROUP_FILTER structure

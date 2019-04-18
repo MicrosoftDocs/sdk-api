@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RAS_QUARANTINE_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RAS_QUARANTINE_STATE enumeration

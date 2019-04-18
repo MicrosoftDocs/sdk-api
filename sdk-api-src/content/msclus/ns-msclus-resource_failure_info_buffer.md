@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: RESOURCE_FAILURE_INFO_BUFFER, *PRESOURCE_FAILURE_INFO_BUFFER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RESOURCE_FAILURE_INFO_BUFFER structure

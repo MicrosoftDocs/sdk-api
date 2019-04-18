@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS, *PDEVICE_NOTIFY_SUBSCRIBE_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS structure

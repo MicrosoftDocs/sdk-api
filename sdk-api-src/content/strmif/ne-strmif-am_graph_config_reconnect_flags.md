@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AM_GRAPH_CONFIG_RECONNECT_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AM_GRAPH_CONFIG_RECONNECT_FLAGS enumeration

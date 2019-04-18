@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DOT11_NETWORK_LIST, *PDOT11_NETWORK_LIST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DOT11_NETWORK_LIST structure

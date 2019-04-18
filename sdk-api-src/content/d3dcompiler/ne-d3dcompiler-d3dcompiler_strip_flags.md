@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D3DCOMPILER_STRIP_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3DCOMPILER_STRIP_FLAGS enumeration

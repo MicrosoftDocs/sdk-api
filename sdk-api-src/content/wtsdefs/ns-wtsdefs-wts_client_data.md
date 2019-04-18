@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTS_CLIENT_DATA, *PWTS_CLIENT_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTS_CLIENT_DATA structure

@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSTER_ENUM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSTER_ENUM enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DFMICS, *PDFMICS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DFMICS structure

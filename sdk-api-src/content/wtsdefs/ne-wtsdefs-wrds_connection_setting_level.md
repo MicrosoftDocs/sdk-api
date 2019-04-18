@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WRDS_CONNECTION_SETTING_LEVEL, *PWRDS_CONNECTION_SETTING_LEVEL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WRDS_CONNECTION_SETTING_LEVEL enumeration

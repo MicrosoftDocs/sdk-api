@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSMAN_RESPONSE_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSMAN_RESPONSE_DATA structure

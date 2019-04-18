@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AVRF_BACKTRACE_INFORMATION, *PAVRF_BACKTRACE_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AVRF_BACKTRACE_INFORMATION structure

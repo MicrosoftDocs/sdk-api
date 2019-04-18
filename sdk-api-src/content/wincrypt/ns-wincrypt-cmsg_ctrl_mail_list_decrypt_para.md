@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CMSG_CTRL_MAIL_LIST_DECRYPT_PARA, *PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CMSG_CTRL_MAIL_LIST_DECRYPT_PARA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CTRL_LEVEL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CTRL_LEVEL enumeration

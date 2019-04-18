@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NapNotifyType
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NapNotifyType enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEER_SIGNIN_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEER_SIGNIN_FLAGS enumeration

@@ -39,6 +39,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS callback function

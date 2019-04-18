@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: GET_VIRTUAL_DISK_INFO_VERSION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GET_VIRTUAL_DISK_INFO_VERSION enumeration

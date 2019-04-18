@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECURITY_LOGON_TYPE, *PSECURITY_LOGON_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECURITY_LOGON_TYPE enumeration

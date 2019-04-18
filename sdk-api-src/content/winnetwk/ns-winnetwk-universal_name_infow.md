@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: UNIVERSAL_NAME_INFOW, *LPUNIVERSAL_NAME_INFOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # UNIVERSAL_NAME_INFOW structure

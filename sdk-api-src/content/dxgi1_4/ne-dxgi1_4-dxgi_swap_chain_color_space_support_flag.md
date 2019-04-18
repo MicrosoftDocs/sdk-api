@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG enumeration

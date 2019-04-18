@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NEWCPLINFOA, *LPNEWCPLINFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NEWCPLINFOA structure

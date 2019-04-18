@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: ENUM_SERVICE_STATUS_PROCESSW, *LPENUM_SERVICE_STATUS_PROCESSW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ENUM_SERVICE_STATUS_PROCESSW structure

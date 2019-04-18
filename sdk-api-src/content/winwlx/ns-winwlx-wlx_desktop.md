@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WLX_DESKTOP, *PWLX_DESKTOP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WLX_DESKTOP structure

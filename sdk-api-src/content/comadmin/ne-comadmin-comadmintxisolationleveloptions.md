@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: COMAdminTxIsolationLevelOptions
 req.redist: 
+ms.custom: 19H1
 ---
 
 # COMAdminTxIsolationLevelOptions enumeration

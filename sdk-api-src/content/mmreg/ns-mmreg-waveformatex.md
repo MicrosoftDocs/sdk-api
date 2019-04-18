@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WAVEFORMATEX, *PWAVEFORMATEX, *NPWAVEFORMATEX, *LPWAVEFORMATEX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WAVEFORMATEX structure

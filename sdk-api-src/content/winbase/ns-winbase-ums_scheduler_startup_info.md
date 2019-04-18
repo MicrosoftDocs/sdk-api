@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: UMS_SCHEDULER_STARTUP_INFO, *PUMS_SCHEDULER_STARTUP_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # UMS_SCHEDULER_STARTUP_INFO structure

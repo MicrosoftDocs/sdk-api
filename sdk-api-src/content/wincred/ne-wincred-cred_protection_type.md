@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRED_PROTECTION_TYPE, *PCRED_PROTECTION_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRED_PROTECTION_TYPE enumeration

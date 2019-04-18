@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFMEDIASOURCE_CHARACTERISTICS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFMEDIASOURCE_CHARACTERISTICS enumeration

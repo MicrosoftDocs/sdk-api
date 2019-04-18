@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: DSBROWSEINFOW, *PDSBROWSEINFOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DSBROWSEINFOW structure

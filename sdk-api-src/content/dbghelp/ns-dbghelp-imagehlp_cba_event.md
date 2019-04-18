@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMAGEHLP_CBA_EVENT, *PIMAGEHLP_CBA_EVENT
 req.redist: DbgHelp.dll 6.1 or later
+ms.custom: 19H1
 ---
 
 # IMAGEHLP_CBA_EVENT structure

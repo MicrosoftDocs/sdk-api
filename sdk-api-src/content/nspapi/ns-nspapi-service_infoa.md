@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: SERVICE_INFOA, *PSERVICE_INFOA, *LPSERVICE_INFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SERVICE_INFOA structure

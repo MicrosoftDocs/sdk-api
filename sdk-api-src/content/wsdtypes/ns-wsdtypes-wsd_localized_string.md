@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSD_LOCALIZED_STRING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSD_LOCALIZED_STRING structure

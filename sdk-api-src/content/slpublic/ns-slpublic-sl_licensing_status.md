@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SL_LICENSING_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SL_LICENSING_STATUS structure

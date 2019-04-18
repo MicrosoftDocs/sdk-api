@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PDH_FMT_COUNTERVALUE, *PPDH_FMT_COUNTERVALUE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PDH_FMT_COUNTERVALUE structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CABINET_INFO_A, *PCABINET_INFO_A
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CABINET_INFO_A structure

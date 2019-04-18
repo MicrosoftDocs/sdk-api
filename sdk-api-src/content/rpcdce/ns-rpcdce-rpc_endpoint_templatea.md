@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: RPC_ENDPOINT_TEMPLATEA, *PRPC_ENDPOINT_TEMPLATEA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RPC_ENDPOINT_TEMPLATEA structure

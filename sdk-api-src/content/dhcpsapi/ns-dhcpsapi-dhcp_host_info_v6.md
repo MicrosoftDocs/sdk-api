@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_HOST_INFO_V6, *LPDHCP_HOST_INFO_V6
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_HOST_INFO_V6 structure

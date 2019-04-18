@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FSM_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FSM_STATE enumeration

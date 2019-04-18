@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IDENTITY_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IDENTITY_TYPE enumeration

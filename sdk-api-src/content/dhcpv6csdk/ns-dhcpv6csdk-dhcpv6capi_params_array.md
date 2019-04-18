@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCPV6CAPI_PARAMS_ARRAY, *PDHCPV6CAPI_PARAMS_ARRAY, *LPDHCPV6CAPI_PARAMS_ARRAY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCPV6CAPI_PARAMS_ARRAY structure

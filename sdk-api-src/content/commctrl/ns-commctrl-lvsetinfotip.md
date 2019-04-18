@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LVSETINFOTIP, *PLVSETINFOTIP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LVSETINFOTIP structure

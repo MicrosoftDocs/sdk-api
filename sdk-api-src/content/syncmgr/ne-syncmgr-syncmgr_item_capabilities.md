@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYNCMGR_ITEM_CAPABILITIES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYNCMGR_ITEM_CAPABILITIES enumeration

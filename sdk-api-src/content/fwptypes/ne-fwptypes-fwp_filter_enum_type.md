@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FWP_FILTER_ENUM_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FWP_FILTER_ENUM_TYPE enumeration

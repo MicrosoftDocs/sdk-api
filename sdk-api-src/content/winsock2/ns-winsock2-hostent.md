@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HOSTENT, *PHOSTENT, *LPHOSTENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HOSTENT structure

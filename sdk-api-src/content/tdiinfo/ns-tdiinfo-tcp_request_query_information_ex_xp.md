@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TCP_REQUEST_QUERY_INFORMATION_EX_XP, *PTCP_REQUEST_QUERY_INFORMATION_EX_XP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TCP_REQUEST_QUERY_INFORMATION_EX_XP structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TI_FINDCHILDREN_PARAMS
 req.redist: DbgHelp.dll 5.1 or later
+ms.custom: 19H1
 ---
 
 # TI_FINDCHILDREN_PARAMS structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PRIVILEGE_SET, *PPRIVILEGE_SET
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PRIVILEGE_SET structure

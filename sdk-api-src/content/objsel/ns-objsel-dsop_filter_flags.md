@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DSOP_FILTER_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DSOP_FILTER_FLAGS structure

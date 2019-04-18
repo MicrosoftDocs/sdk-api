@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CF_CALLBACK_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CF_CALLBACK_INFO structure

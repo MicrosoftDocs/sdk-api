@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMAPI_FEATURE_PAGE_TYPE, *PIMAPI_FEATURE_PAGE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IMAPI_FEATURE_PAGE_TYPE enumeration

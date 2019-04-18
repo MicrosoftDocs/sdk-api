@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: PAGESETUPDLGW, *LPPAGESETUPDLGW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PAGESETUPDLGW structure

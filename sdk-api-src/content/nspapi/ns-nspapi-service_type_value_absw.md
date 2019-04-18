@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: SERVICE_TYPE_VALUE_ABSW, *PSERVICE_TYPE_VALUE_ABSW, *LPSERVICE_TYPE_VALUE_ABSW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SERVICE_TYPE_VALUE_ABSW structure

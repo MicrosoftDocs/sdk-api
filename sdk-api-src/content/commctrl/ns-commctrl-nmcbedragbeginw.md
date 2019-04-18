@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMCBEDRAGBEGINW, *LPNMCBEDRAGBEGINW, *PNMCBEDRAGBEGINW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMCBEDRAGBEGINW structure

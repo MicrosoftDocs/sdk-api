@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FXREVERB_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FXREVERB_PARAMETERS structure

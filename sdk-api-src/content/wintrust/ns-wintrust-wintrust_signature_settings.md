@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WINTRUST_SIGNATURE_SETTINGS, *PWINTRUST_SIGNATURE_SETTINGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WINTRUST_SIGNATURE_SETTINGS structure

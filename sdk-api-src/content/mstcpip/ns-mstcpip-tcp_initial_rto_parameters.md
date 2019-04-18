@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TCP_INITIAL_RTO_PARAMETERS, *PTCP_INITIAL_RTO_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TCP_INITIAL_RTO_PARAMETERS structure

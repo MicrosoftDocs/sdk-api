@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SESSION_HEADER, *PSESSION_HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SESSION_HEADER structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MONITORINFOEXA, *LPMONITORINFOEXA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MONITORINFOEXA structure

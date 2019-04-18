@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PERF_INSTANCE_DEFINITION, *PPERF_INSTANCE_DEFINITION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PERF_INSTANCE_DEFINITION structure

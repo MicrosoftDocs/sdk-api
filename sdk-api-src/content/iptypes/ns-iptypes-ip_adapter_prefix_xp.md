@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IP_ADAPTER_PREFIX_XP, *PIP_ADAPTER_PREFIX_XP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IP_ADAPTER_PREFIX_XP structure

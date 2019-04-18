@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: JOBOBJECT_BASIC_PROCESS_ID_LIST, *PJOBOBJECT_BASIC_PROCESS_ID_LIST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # JOBOBJECT_BASIC_PROCESS_ID_LIST structure

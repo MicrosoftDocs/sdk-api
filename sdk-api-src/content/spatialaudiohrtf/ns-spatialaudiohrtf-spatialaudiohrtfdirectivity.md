@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SpatialAudioHrtfDirectivity
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SpatialAudioHrtfDirectivity structure

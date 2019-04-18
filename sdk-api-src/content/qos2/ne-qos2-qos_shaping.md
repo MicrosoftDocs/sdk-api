@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: QOS_SHAPING, *PQOS_SHAPING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # QOS_SHAPING enumeration

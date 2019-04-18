@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PARTITION_INFORMATION_MBR, *PPARTITION_INFORMATION_MBR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PARTITION_INFORMATION_MBR structure

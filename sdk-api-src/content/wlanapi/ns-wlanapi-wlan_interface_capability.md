@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WLAN_INTERFACE_CAPABILITY, *PWLAN_INTERFACE_CAPABILITY
 req.redist: Wireless LAN API for Windows XP with SP2
+ms.custom: 19H1
 ---
 
 # WLAN_INTERFACE_CAPABILITY structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_FLIPDATA, DD_FLIPDATA"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_FLIPDATA structure

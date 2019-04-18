@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CF_CONNECT_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CF_CONNECT_FLAGS enumeration

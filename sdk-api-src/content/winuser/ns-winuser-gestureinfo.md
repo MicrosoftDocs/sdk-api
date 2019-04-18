@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GESTUREINFO, *PGESTUREINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GESTUREINFO structure

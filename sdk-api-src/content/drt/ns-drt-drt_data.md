@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DRT_DATA, *PDRT_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DRT_DATA structure

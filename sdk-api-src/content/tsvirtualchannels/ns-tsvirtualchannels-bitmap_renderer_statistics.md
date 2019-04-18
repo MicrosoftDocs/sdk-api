@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BITMAP_RENDERER_STATISTICS structure

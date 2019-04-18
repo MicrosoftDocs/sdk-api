@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ID_PARAMETER_PAIR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ID_PARAMETER_PAIR structure

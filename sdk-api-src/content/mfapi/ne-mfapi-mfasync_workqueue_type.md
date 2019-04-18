@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFASYNC_WORKQUEUE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFASYNC_WORKQUEUE_TYPE enumeration

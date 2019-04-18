@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SCH_CRED_PUBLIC_CERTCHAIN, *PSCH_CRED_PUBLIC_CERTCHAIN
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SCH_CRED_PUBLIC_CERTCHAIN structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MF2DBuffer_LockFlags
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MF2DBuffer_LockFlags enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ETW_BUFFER_CONTEXT, *PETW_BUFFER_CONTEXT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ETW_BUFFER_CONTEXT structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DVD_PB_STOPPED
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DVD_PB_STOPPED enumeration

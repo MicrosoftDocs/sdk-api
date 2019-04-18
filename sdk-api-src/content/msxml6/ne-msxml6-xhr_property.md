@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: XHR_PROPERTY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XHR_PROPERTY enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DEVICE_POWER_DESCRIPTOR, *PDEVICE_POWER_DESCRIPTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DEVICE_POWER_DESCRIPTOR structure

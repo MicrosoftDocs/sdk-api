@@ -43,6 +43,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GetStagedPackagePathByFullName function
@@ -55,8 +56,6 @@ Gets the path of the specified staged package.
 
 
 ## -parameters
-
-
 
 
 ### -param packageFullName [in]
@@ -119,7 +118,7 @@ The buffer specified by <i>path</i> is not large enough to hold the data. The re
 This function succeeds if the package is staged, regardless of the user context or if the package is registered for the current user.
 
 
-#### Examples
+## Examples
 
 
 ```cpp
@@ -176,6 +175,7 @@ int __cdecl wmain(__in int argc, __in_ecount(argc) WCHAR * argv[])
 
 ```
 
+## -see-also
 
 
-
+[GetStagedPackagePathByFullName2](nf-appmodel-getstagedpackagepathbyfullname2.md)

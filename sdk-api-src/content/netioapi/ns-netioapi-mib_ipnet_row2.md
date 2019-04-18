@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_IPNET_ROW2, *PMIB_IPNET_ROW2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_IPNET_ROW2 structure

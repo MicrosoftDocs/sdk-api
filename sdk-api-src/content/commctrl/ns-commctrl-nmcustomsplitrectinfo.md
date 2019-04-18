@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMCUSTOMSPLITRECTINFO, *LPNMCUSTOMSPLITRECTINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMCUSTOMSPLITRECTINFO structure

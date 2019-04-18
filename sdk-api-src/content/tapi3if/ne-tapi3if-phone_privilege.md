@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PHONE_PRIVILEGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PHONE_PRIVILEGE enumeration

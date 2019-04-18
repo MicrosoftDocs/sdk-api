@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_ZERO_DATA_INFORMATION, *PFILE_ZERO_DATA_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILE_ZERO_DATA_INFORMATION structure

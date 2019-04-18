@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RSVP_MSG_OBJS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RSVP_MSG_OBJS structure

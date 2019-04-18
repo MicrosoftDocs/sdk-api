@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: DS_NAME_RESULT_ITEMW, *PDS_NAME_RESULT_ITEMW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DS_NAME_RESULT_ITEMW structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ID2D1Geometry::Outline(const D2D1_MATRIX_3X2_F &,ID2D1SimplifiedGeometrySink)

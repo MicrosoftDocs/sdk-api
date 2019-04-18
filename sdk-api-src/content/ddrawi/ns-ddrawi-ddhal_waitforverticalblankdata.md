@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*LPDDHAL_WAITFORVERTICALBLANKDATA, DDHAL_WAITFORVERTICALBLANKDATA"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DDHAL_WAITFORVERTICALBLANKDATA structure

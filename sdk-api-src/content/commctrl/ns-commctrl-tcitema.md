@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: TCITEMA, *LPTCITEMA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TCITEMA structure

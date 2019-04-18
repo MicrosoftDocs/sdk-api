@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: APPX_COMPRESSION_OPTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # APPX_COMPRESSION_OPTION enumeration

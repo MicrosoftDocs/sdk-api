@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GPMReportingOptions
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GPMReportingOptions enumeration

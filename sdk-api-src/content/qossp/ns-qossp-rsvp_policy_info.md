@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RSVP_POLICY_INFO, *LPRSVP_POLICY_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RSVP_POLICY_INFO structure

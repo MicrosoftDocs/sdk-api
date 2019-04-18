@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: ACTCTXW, *PACTCTXW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ACTCTXW structure

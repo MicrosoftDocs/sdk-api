@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: COMPRESS_INFORMATION_CLASS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # COMPRESS_INFORMATION_CLASS enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RsvpObjHdr
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RsvpObjHdr structure

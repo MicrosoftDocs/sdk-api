@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 6.0
+ms.custom: 19H1
 ---
 
 # IBrowserService3::_PositionViewWindow

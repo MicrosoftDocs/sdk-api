@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_503_RESPONSE_VERBOSITY, *PHTTP_503_RESPONSE_VERBOSITY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_503_RESPONSE_VERBOSITY enumeration

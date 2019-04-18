@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: D2D1_INPUT_ELEMENT_DESC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D2D1_INPUT_ELEMENT_DESC structure

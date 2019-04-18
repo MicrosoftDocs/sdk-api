@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFCONTENTPROTECTIONDEVICE_INPUT_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFCONTENTPROTECTIONDEVICE_INPUT_DATA structure

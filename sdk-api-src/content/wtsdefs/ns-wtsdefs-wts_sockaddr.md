@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTS_SOCKADDR, *PWTS_SOCKADDR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTS_SOCKADDR structure

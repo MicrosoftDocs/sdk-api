@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIXERCONTROLDETAILS_BOOLEAN, *PMIXERCONTROLDETAILS_BOOLEAN, *LPMIXERCONTROLDETAILS_BOOLEAN
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIXERCONTROLDETAILS_BOOLEAN structure

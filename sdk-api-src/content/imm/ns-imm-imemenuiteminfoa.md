@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMEMENUITEMINFOA, *PIMEMENUITEMINFOA, *NPIMEMENUITEMINFOA, *LPIMEMENUITEMINFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IMEMENUITEMINFOA structure

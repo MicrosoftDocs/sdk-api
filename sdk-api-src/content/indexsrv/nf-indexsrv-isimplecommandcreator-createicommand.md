@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows NT 4.0 Option Pack
+ms.custom: 19H1
 ---
 
 # ISimpleCommandCreator::CreateICommand

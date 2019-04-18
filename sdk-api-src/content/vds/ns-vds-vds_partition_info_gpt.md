@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_PARTITION_INFO_GPT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_PARTITION_INFO_GPT structure

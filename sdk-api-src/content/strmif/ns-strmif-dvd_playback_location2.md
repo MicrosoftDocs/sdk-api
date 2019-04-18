@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DVD_PLAYBACK_LOCATION2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DVD_PLAYBACK_LOCATION2 structure

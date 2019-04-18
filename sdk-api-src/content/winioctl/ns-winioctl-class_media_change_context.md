@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLASS_MEDIA_CHANGE_CONTEXT, *PCLASS_MEDIA_CHANGE_CONTEXT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLASS_MEDIA_CHANGE_CONTEXT structure

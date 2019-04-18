@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: INTERNET_PER_CONN_OPTION_LISTA, *LPINTERNET_PER_CONN_OPTION_LISTA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INTERNET_PER_CONN_OPTION_LISTA structure

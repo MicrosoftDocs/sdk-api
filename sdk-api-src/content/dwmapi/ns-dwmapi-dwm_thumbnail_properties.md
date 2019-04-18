@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DWM_THUMBNAIL_PROPERTIES, *PDWM_THUMBNAIL_PROPERTIES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DWM_THUMBNAIL_PROPERTIES structure

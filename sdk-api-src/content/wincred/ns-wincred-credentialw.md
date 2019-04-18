@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: CREDENTIALW, *PCREDENTIALW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CREDENTIALW structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PSAPI_WS_WATCH_INFORMATION_EX, *PPSAPI_WS_WATCH_INFORMATION_EX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PSAPI_WS_WATCH_INFORMATION_EX structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_CONTEXT, *PCERT_CONTEXT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_CONTEXT structure

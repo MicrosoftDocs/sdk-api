@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_OBJECTID_BUFFER, *PFILE_OBJECTID_BUFFER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILE_OBJECTID_BUFFER structure

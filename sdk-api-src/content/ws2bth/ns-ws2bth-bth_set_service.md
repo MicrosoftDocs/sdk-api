@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BTH_SET_SERVICE, *PBTH_SET_SERVICE, BTHNS_SETBLOB, *PBTHNS_SETBLOB
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BTH_SET_SERVICE structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_TEMPLATE_EXT, *PCERT_TEMPLATE_EXT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_TEMPLATE_EXT structure

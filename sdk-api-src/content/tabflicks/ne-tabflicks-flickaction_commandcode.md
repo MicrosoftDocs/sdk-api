@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FLICKACTION_COMMANDCODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FLICKACTION_COMMANDCODE enumeration

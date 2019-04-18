@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_FORMAT_OPTION_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_FORMAT_OPTION_FLAGS enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AUTO_PROXY_SCRIPT_BUFFER, *LPAUTO_PROXY_SCRIPT_BUFFER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AUTO_PROXY_SCRIPT_BUFFER structure

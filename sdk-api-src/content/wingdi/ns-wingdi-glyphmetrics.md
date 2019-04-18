@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GLYPHMETRICS, *LPGLYPHMETRICS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GLYPHMETRICS structure

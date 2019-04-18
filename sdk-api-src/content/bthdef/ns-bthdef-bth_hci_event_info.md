@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BTH_HCI_EVENT_INFO, *PBTH_HCI_EVENT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BTH_HCI_EVENT_INFO structure

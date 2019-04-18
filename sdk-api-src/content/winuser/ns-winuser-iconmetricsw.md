@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: ICONMETRICSW, *PICONMETRICSW, *LPICONMETRICSW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ICONMETRICSW structure

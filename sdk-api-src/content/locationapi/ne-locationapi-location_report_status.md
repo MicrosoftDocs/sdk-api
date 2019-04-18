@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LOCATION_REPORT_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LOCATION_REPORT_STATUS enumeration

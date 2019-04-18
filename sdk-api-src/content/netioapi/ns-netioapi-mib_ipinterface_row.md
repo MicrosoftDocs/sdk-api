@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_IPINTERFACE_ROW, *PMIB_IPINTERFACE_ROW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_IPINTERFACE_ROW structure

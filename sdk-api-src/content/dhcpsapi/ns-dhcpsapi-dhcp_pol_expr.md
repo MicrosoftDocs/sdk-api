@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_POL_EXPR, *PDHCP_POL_EXPR, *LPDHCP_POL_EXPR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_POL_EXPR structure

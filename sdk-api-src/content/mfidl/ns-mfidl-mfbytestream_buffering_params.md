@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFBYTESTREAM_BUFFERING_PARAMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFBYTESTREAM_BUFFERING_PARAMS structure

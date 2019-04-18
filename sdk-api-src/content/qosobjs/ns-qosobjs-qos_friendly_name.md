@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: QOS_FRIENDLY_NAME, *LPQOS_FRIENDLY_NAME
 req.redist: 
+ms.custom: 19H1
 ---
 
 # QOS_FRIENDLY_NAME structure

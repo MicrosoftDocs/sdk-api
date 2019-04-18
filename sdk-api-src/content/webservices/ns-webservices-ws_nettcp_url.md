@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_NETTCP_URL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_NETTCP_URL structure

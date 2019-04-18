@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TAPE_PREPARE, *PTAPE_PREPARE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TAPE_PREPARE structure

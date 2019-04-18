@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_FLOWRATE_INFO, *PHTTP_FLOWRATE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_FLOWRATE_INFO structure

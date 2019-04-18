@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D3D10_SHADER_DEBUG_OUTPUTVAR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3D10_SHADER_DEBUG_OUTPUTVAR structure

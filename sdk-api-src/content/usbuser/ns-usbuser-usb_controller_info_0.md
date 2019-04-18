@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: USB_CONTROLLER_INFO_0, *PUSB_CONTROLLER_INFO_0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # USB_CONTROLLER_INFO_0 structure

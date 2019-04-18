@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TOKEN_CONTROL, *PTOKEN_CONTROL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TOKEN_CONTROL structure

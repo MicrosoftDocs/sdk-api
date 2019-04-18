@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D3DVSHADERCAPS2_0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3DVSHADERCAPS2_0 structure

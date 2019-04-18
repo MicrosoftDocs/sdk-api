@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SID_NAME_USE, *PSID_NAME_USE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SID_NAME_USE enumeration

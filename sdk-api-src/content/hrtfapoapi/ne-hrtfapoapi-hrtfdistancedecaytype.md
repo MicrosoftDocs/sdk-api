@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HrtfDistanceDecayType
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HrtfDistanceDecayType enumeration

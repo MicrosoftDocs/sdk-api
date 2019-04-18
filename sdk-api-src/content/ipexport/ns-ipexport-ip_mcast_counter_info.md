@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IP_MCAST_COUNTER_INFO, *PIP_MCAST_COUNTER_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IP_MCAST_COUNTER_INFO structure

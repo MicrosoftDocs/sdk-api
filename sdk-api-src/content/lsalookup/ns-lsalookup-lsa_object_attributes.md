@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LSA_OBJECT_ATTRIBUTES, *PLSA_OBJECT_ATTRIBUTES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LSA_OBJECT_ATTRIBUTES structure

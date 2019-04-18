@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OCSP_BASIC_RESPONSE_ENTRY, *POCSP_BASIC_RESPONSE_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OCSP_BASIC_RESPONSE_ENTRY structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CatalogStatus
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CatalogStatus enumeration

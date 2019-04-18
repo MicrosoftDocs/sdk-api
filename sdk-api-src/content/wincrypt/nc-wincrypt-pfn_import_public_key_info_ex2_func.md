@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC callback function

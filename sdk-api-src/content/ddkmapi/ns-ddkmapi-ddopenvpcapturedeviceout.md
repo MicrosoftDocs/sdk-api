@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DDOPENVPCAPTUREDEVICEOUT, *LPDDOPENVPCAPTUREDEVICEOUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DDOPENVPCAPTUREDEVICEOUT structure

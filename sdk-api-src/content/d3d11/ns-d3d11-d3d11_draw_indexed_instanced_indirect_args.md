@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D3D11_DRAW_INDEXED_INSTANCED_INDIRECT_ARGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3D11_DRAW_INDEXED_INSTANCED_INDIRECT_ARGS structure

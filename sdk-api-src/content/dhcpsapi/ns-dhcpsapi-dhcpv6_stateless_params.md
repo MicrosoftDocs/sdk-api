@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCPV6_STATELESS_PARAMS, *PDHCPV6_STATELESS_PARAMS, *LPDHCPV6_STATELESS_PARAMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCPV6_STATELESS_PARAMS structure

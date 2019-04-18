@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WEB_SOCKET_PROPERTY_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WEB_SOCKET_PROPERTY_TYPE enumeration

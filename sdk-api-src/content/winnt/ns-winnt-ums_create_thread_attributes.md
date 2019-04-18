@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: UMS_CREATE_THREAD_ATTRIBUTES, *PUMS_CREATE_THREAD_ATTRIBUTES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # UMS_CREATE_THREAD_ATTRIBUTES structure

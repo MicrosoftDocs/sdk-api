@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_UNLOADED_MODULE, *PMINIDUMP_UNLOADED_MODULE
 req.redist: DbgHelp.dll 6.0 or later
+ms.custom: 19H1
 ---
 
 # MINIDUMP_UNLOADED_MODULE structure

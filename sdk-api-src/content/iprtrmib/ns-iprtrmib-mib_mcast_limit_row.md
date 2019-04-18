@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_MCAST_LIMIT_ROW, *PMIB_MCAST_LIMIT_ROW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_MCAST_LIMIT_ROW structure

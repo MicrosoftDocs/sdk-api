@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_HINTS2, *PVDS_HINTS2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_HINTS2 structure

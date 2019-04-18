@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROCESS_HEAP_ENTRY, *LPPROCESS_HEAP_ENTRY, *PPROCESS_HEAP_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROCESS_HEAP_ENTRY structure

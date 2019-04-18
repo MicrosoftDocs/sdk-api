@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: USER_INFO_1005, *PUSER_INFO_1005, *LPUSER_INFO_1005
 req.redist: 
+ms.custom: 19H1
 ---
 
 # USER_INFO_1005 structure

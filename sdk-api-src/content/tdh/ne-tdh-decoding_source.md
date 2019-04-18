@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DECODING_SOURCE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DECODING_SOURCE enumeration

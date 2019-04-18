@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEER_EVENT_NODE_CHANGE_DATA, *PPEER_EVENT_NODE_CHANGE_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEER_EVENT_NODE_CHANGE_DATA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WAVEINCAPSW, *PWAVEINCAPSW, *NPWAVEINCAPSW, *LPWAVEINCAPSW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WAVEINCAPSW structure

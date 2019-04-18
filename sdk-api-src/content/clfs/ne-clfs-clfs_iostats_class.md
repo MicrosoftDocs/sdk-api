@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLFS_IOSTATS_CLASS, *PCLFS_IOSTATS_CLASS, PPCLFS_IOSTATS_CLASS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLFS_IOSTATS_CLASS enumeration

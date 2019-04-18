@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AD_GENERAL_PARAMS, *LPAD_GENERAL_PARAMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AD_GENERAL_PARAMS structure

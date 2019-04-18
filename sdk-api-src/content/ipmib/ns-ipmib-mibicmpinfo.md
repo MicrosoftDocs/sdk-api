@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIBICMPINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIBICMPINFO structure

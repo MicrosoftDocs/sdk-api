@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WMT_VIDEOIMAGE_SAMPLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WMT_VIDEOIMAGE_SAMPLE structure

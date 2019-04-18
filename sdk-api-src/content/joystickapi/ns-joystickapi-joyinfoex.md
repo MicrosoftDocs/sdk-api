@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: JOYINFOEX, *PJOYINFOEX, *NPJOYINFOEX, *LPJOYINFOEX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # JOYINFOEX structure

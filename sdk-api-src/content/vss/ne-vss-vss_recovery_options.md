@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VSS_RECOVERY_OPTIONS, *PVSS_RECOVERY_OPTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VSS_RECOVERY_OPTIONS enumeration

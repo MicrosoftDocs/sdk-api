@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_PASSWORD_CREDENTIALSA, *PCRYPT_PASSWORD_CREDENTIALSA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_PASSWORD_CREDENTIALSA structure

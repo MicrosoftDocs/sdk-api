@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: tag_WBEM_GET_KEY_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # tag_WBEM_GET_KEY_FLAGS enumeration

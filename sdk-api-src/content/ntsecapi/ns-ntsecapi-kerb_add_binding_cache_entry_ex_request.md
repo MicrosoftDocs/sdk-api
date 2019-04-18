@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST, *PKERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST structure

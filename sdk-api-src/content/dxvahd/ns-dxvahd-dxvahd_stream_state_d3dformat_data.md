@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXVAHD_STREAM_STATE_D3DFORMAT_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXVAHD_STREAM_STATE_D3DFORMAT_DATA structure

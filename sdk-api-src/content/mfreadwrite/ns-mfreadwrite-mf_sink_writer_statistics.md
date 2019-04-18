@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MF_SINK_WRITER_STATISTICS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MF_SINK_WRITER_STATISTICS structure

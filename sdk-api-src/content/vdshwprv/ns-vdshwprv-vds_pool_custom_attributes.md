@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_POOL_CUSTOM_ATTRIBUTES, *PVDS_POOL_CUSTOM_ATTRIBUTES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_POOL_CUSTOM_ATTRIBUTES structure

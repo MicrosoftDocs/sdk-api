@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MF_LEAKY_BUCKET_PAIR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MF_LEAKY_BUCKET_PAIR structure

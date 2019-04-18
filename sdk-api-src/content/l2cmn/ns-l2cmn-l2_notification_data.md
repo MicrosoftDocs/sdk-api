@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: L2_NOTIFICATION_DATA, *PL2_NOTIFICATION_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # L2_NOTIFICATION_DATA structure

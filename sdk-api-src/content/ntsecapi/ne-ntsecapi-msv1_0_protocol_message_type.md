@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MSV1_0_PROTOCOL_MESSAGE_TYPE, *PMSV1_0_PROTOCOL_MESSAGE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MSV1_0_PROTOCOL_MESSAGE_TYPE enumeration

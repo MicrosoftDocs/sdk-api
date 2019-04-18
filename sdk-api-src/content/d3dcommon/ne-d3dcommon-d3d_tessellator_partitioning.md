@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: D3D_TESSELLATOR_PARTITIONING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3D_TESSELLATOR_PARTITIONING enumeration

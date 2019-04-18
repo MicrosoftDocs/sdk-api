@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RIO_EXTENSION_FUNCTION_TABLE, *PRIO_EXTENSION_FUNCTION_TABLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RIO_EXTENSION_FUNCTION_TABLE structure

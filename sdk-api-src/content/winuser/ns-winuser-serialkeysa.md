@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SERIALKEYSA, *LPSERIALKEYSA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SERIALKEYSA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HEAPENTRY32
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HEAPENTRY32 structure

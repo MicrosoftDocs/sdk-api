@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OLD_LARGE_INTEGER, *POLD_LARGE_INTEGER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OLD_LARGE_INTEGER structure

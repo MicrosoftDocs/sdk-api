@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: TCPIP_OWNER_MODULE_BASIC_INFO, *PTCPIP_OWNER_MODULE_BASIC_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TCPIP_OWNER_MODULE_BASIC_INFO structure

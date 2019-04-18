@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DISK_PERFORMANCE, *PDISK_PERFORMANCE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DISK_PERFORMANCE structure

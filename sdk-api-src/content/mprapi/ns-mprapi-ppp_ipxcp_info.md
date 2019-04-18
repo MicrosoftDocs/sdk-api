@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PPP_IPXCP_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PPP_IPXCP_INFO structure

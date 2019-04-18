@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_PROVUI_DATA, *PCRYPT_PROVUI_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_PROVUI_DATA structure

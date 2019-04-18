@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: UNDOCK_REASON
 req.redist: 
+ms.custom: 19H1
 ---
 
 # UNDOCK_REASON enumeration

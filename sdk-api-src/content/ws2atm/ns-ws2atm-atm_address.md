@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ATM_ADDRESS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ATM_ADDRESS structure

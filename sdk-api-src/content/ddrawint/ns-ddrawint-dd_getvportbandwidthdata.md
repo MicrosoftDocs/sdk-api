@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_GETVPORTBANDWIDTHDATA, DD_GETVPORTBANDWIDTHDATA"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_GETVPORTBANDWIDTHDATA structure

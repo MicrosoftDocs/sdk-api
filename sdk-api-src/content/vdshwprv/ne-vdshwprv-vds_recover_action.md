@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_RECOVER_ACTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_RECOVER_ACTION enumeration

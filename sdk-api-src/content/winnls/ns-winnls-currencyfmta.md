@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CURRENCYFMTA, *LPCURRENCYFMTA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CURRENCYFMTA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ERROR_ADVISE_MESSAGE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ERROR_ADVISE_MESSAGE_TYPE enumeration

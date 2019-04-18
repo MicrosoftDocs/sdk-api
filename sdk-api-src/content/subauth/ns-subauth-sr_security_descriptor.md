@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SR_SECURITY_DESCRIPTOR, *PSR_SECURITY_DESCRIPTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SR_SECURITY_DESCRIPTOR structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ARRAYDESC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ARRAYDESC structure

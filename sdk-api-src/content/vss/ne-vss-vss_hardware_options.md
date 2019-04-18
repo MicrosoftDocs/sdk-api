@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VSS_HARDWARE_OPTIONS, *PVSS_HARDWARE_OPTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VSS_HARDWARE_OPTIONS enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WICComponentSigning
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WICComponentSigning enumeration

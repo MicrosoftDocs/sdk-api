@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WCM_BILLING_CYCLE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WCM_BILLING_CYCLE_INFO structure

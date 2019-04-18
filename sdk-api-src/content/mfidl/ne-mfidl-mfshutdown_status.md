@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFSHUTDOWN_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFSHUTDOWN_STATUS enumeration

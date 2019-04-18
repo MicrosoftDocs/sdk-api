@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMAGE_ENCLAVE_IMPORT, *PIMAGE_ENCLAVE_IMPORT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IMAGE_ENCLAVE_IMPORT structure

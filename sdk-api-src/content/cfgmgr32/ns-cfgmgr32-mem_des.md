@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MEM_DES, *PMEM_DES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MEM_DES structure

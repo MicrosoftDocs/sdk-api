@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SCOPE_MIB_INFO, *LPSCOPE_MIB_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SCOPE_MIB_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CONTROLINFO, *LPCONTROLINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CONTROLINFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECPKG_SHORT_VECTOR, *PSECPKG_SHORT_VECTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECPKG_SHORT_VECTOR structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MULTIPLE_TRUSTEE_OPERATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MULTIPLE_TRUSTEE_OPERATION enumeration

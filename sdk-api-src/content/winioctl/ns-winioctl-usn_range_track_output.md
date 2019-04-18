@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: USN_RANGE_TRACK_OUTPUT, *PUSN_RANGE_TRACK_OUTPUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # USN_RANGE_TRACK_OUTPUT structure

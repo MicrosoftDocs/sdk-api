@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OVERLAPPED, *LPOVERLAPPED
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OVERLAPPED structure

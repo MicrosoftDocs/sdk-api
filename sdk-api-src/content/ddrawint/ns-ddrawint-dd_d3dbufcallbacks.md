@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DD_D3DBUFCALLBACKS, *PDD_D3DBUFCALLBACKS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_D3DBUFCALLBACKS structure

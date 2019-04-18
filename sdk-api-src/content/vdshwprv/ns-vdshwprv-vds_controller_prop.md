@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_CONTROLLER_PROP, *PVDS_CONTROLLER_PROP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_CONTROLLER_PROP structure

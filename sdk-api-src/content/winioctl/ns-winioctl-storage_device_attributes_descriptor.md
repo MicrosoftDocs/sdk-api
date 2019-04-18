@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, *PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure

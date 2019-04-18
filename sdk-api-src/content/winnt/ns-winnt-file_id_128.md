@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_ID_128, *PFILE_ID_128
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILE_ID_128 structure

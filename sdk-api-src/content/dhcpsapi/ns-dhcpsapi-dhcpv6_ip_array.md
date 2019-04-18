@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCPV6_IP_ARRAY, *LPDHCPV6_IP_ARRAY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCPV6_IP_ARRAY structure

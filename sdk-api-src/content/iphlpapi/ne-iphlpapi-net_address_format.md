@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NET_ADDRESS_FORMAT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NET_ADDRESS_FORMAT enumeration

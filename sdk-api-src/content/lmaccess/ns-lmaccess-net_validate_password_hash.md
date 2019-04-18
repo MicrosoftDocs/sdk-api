@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NET_VALIDATE_PASSWORD_HASH, *PNET_VALIDATE_PASSWORD_HASH
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NET_VALIDATE_PASSWORD_HASH structure

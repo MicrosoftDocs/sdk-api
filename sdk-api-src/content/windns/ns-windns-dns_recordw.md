@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DNS_RECORDW, *PDNS_RECORDW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DNS_RECORDW structure

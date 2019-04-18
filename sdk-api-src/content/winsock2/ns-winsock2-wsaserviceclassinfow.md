@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSASERVICECLASSINFOW, *PWSASERVICECLASSINFOW, *LPWSASERVICECLASSINFOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSASERVICECLASSINFOW structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_DATA_CHUNK, *PHTTP_DATA_CHUNK
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_DATA_CHUNK structure

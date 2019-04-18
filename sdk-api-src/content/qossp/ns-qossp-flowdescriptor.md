@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FLOWDESCRIPTOR, *LPFLOWDESCRIPTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FLOWDESCRIPTOR structure

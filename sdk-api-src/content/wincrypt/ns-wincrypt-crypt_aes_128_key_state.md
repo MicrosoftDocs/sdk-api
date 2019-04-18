@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_AES_128_KEY_STATE, *PCRYPT_AES_128_KEY_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_AES_128_KEY_STATE structure

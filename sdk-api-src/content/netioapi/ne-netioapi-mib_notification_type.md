@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_NOTIFICATION_TYPE, *PMIB_NOTIFICATION_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_NOTIFICATION_TYPE enumeration

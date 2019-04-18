@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_SECONDARY_FLAGS
 req.redist: DbgHelp.dll 6.6 or later
+ms.custom: 19H1
 ---
 
 # MINIDUMP_SECONDARY_FLAGS enumeration

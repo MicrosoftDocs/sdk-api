@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LINEAGENTSESSIONINFO, *LPLINEAGENTSESSIONINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LINEAGENTSESSIONINFO structure

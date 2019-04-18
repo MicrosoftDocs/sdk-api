@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KBDLLHOOKSTRUCT, *LPKBDLLHOOKSTRUCT, *PKBDLLHOOKSTRUCT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KBDLLHOOKSTRUCT structure

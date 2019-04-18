@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIDIINCAPS, *PMIDIINCAPS, *NPMIDIINCAPS, *LPMIDIINCAPS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIDIINCAPS structure

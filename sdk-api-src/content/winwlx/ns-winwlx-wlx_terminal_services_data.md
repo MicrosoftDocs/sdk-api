@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WLX_TERMINAL_SERVICES_DATA, *PWLX_TERMINAL_SERVICES_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WLX_TERMINAL_SERVICES_DATA structure

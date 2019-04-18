@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: WAB_PARAM, *LPWAB_PARAM
 req.redist: 
 req.product: Internet Explorer 4.0
+ms.custom: 19H1
 ---
 
 # WAB_PARAM structure

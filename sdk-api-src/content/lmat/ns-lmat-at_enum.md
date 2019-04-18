@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AT_ENUM, *PAT_ENUM, *LPAT_ENUM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AT_ENUM structure

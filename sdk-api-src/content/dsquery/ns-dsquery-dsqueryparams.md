@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DSQUERYPARAMS, *LPDSQUERYPARAMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DSQUERYPARAMS structure

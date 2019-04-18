@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MONTHLYDATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MONTHLYDATE structure

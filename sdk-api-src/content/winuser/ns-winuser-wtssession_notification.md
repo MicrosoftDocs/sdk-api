@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTSSESSION_NOTIFICATION, *PWTSSESSION_NOTIFICATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTSSESSION_NOTIFICATION structure

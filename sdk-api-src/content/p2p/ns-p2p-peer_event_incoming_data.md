@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEER_EVENT_INCOMING_DATA, *PPEER_EVENT_INCOMING_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEER_EVENT_INCOMING_DATA structure

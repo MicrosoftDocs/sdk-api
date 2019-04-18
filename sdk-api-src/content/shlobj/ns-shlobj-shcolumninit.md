@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SHCOLUMNINIT, *LPSHCOLUMNINIT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SHCOLUMNINIT structure

@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION enumeration

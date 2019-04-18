@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IPSEC_TRAFFIC_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IPSEC_TRAFFIC_TYPE enumeration

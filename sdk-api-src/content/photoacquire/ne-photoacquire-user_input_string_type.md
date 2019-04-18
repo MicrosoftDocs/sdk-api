@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: USER_INPUT_STRING_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # USER_INPUT_STRING_TYPE enumeration

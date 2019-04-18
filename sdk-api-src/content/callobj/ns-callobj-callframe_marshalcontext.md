@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CALLFRAME_MARSHALCONTEXT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CALLFRAME_MARSHALCONTEXT structure

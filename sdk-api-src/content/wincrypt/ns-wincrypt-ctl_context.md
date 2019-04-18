@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CTL_CONTEXT, *PCTL_CONTEXT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CTL_CONTEXT structure

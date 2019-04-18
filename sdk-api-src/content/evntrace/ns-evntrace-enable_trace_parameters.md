@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ENABLE_TRACE_PARAMETERS, *PENABLE_TRACE_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ENABLE_TRACE_PARAMETERS structure

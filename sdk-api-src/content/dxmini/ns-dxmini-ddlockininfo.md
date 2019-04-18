@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DDLOCKININFO, *PDDLOCKININFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DDLOCKININFO structure

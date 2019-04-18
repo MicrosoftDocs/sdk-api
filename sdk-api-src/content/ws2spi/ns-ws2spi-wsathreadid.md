@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSATHREADID, *LPWSATHREADID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSATHREADID structure

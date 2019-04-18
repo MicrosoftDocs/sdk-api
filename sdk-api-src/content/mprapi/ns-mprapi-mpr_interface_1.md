@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MPR_INTERFACE_1, *PMPR_INTERFACE_1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MPR_INTERFACE_1 structure

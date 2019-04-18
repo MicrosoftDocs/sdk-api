@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WINTRUST_DATA, *PWINTRUST_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WINTRUST_DATA structure

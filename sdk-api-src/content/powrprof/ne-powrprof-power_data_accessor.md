@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: POWER_DATA_ACCESSOR, *PPOWER_DATA_ACCESSOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # POWER_DATA_ACCESSOR enumeration

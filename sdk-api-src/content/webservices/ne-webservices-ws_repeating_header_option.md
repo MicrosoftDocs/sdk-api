@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_REPEATING_HEADER_OPTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_REPEATING_HEADER_OPTION enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BITMAPFILEHEADER, *LPBITMAPFILEHEADER, *PBITMAPFILEHEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BITMAPFILEHEADER structure

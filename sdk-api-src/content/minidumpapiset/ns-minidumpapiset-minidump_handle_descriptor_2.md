@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_HANDLE_DESCRIPTOR_2, *PMINIDUMP_HANDLE_DESCRIPTOR_2
 req.redist: DbgHelp.dll 6.5 or later
+ms.custom: 19H1
 ---
 
 # MINIDUMP_HANDLE_DESCRIPTOR_2 structure

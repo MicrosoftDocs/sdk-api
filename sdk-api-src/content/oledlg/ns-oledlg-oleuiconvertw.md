@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: OLEUICONVERTW, *POLEUICONVERTW, *LPOLEUICONVERTW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OLEUICONVERTW structure

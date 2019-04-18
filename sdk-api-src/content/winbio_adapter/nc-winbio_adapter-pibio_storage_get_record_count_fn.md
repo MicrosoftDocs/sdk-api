@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PIBIO_STORAGE_GET_RECORD_COUNT_FN callback function

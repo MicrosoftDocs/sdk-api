@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: ISCSI_TARGET_PORTALW, *PISCSI_TARGET_PORTALW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ISCSI_TARGET_PORTALW structure

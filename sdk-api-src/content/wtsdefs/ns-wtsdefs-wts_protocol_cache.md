@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTS_PROTOCOL_CACHE, *PWTS_PROTOCOL_CACHE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTS_PROTOCOL_CACHE structure

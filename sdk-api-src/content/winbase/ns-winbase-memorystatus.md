@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MEMORYSTATUS, *LPMEMORYSTATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MEMORYSTATUS structure

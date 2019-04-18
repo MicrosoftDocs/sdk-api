@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CYPHER_BLOCK
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CYPHER_BLOCK structure

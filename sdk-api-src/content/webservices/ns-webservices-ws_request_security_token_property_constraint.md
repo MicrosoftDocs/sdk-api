@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_REQUEST_SECURITY_TOKEN_PROPERTY_CONSTRAINT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_REQUEST_SECURITY_TOKEN_PROPERTY_CONSTRAINT structure

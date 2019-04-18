@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*LPDDVIDEOPORTDESC, DDVIDEOPORTDESC"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DDVIDEOPORTDESC structure

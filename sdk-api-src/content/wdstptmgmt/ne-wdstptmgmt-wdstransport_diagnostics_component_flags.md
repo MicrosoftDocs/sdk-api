@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WDSTRANSPORT_DIAGNOSTICS_COMPONENT_FLAGS, *PWDSTRANSPORT_DIAGNOSTICS_COMPONENT_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WDSTRANSPORT_DIAGNOSTICS_COMPONENT_FLAGS enumeration

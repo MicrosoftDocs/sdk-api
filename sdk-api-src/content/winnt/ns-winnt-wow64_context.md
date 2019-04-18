@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WOW64_CONTEXT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WOW64_CONTEXT structure

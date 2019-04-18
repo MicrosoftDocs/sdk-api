@@ -43,6 +43,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GetPackagePathByFullName function
@@ -111,3 +112,7 @@ The buffer specified by <i>path</i> is not large enough to hold the data. The re
 
 
 
+## -see-also
+
+
+[GetPackagePathByFullName2](nf-appmodel-getpackagepathbyfullname2.md)

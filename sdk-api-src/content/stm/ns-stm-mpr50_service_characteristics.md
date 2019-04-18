@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: MPR50_SERVICE_CHARACTERISTICS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MPR50_SERVICE_CHARACTERISTICS structure

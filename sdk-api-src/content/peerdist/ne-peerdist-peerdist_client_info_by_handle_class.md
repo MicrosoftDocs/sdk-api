@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, *PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LINE_SEGMENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LINE_SEGMENT structure

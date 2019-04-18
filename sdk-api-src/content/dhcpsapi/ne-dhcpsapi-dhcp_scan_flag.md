@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_SCAN_FLAG, *LPDHCP_SCAN_FLAG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_SCAN_FLAG enumeration

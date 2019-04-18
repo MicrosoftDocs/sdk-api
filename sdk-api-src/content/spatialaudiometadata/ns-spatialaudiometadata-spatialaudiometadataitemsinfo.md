@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SpatialAudioMetadataItemsInfo
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SpatialAudioMetadataItemsInfo structure

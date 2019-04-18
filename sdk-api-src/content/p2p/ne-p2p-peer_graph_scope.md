@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEER_GRAPH_SCOPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEER_GRAPH_SCOPE enumeration

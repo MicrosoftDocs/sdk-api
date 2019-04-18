@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PS_ADAPTER_STATS, *PPS_ADAPTER_STATS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PS_ADAPTER_STATS structure

@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_ISCSI_AUTH_TYPE
 req.redist: VDS 1.1
+ms.custom: 19H1
 ---
 
 # VDS_ISCSI_AUTH_TYPE enumeration

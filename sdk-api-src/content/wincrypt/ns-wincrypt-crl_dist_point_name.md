@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRL_DIST_POINT_NAME, *PCRL_DIST_POINT_NAME
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRL_DIST_POINT_NAME structure

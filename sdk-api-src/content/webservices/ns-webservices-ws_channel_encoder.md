@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_CHANNEL_ENCODER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_CHANNEL_ENCODER structure

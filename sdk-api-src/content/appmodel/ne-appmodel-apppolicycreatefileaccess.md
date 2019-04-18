@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AppPolicyCreateFileAccess
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AppPolicyCreateFileAccess enumeration

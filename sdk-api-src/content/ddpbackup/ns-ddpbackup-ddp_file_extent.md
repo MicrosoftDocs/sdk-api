@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DDP_FILE_EXTENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DDP_FILE_EXTENT structure

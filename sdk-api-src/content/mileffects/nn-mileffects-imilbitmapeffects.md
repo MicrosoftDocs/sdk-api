@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0
+ms.custom: 19H1
 ---
 
 # IMILBitmapEffects interface

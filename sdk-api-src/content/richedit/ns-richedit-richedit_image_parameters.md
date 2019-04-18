@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RICHEDIT_IMAGE_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RICHEDIT_IMAGE_PARAMETERS structure

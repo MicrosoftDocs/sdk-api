@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CHANGER_SET_ACCESS, *PCHANGER_SET_ACCESS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CHANGER_SET_ACCESS structure

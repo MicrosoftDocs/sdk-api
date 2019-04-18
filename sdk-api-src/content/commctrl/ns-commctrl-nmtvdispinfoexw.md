@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMTVDISPINFOEXW, *LPNMTVDISPINFOEXW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMTVDISPINFOEXW structure

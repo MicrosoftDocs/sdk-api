@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SMMCObjectTypes
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SMMCObjectTypes structure

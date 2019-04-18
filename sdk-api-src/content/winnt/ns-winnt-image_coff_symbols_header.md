@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMAGE_COFF_SYMBOLS_HEADER, *PIMAGE_COFF_SYMBOLS_HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IMAGE_COFF_SYMBOLS_HEADER structure

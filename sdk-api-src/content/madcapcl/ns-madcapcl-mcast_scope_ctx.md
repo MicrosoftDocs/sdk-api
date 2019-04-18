@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MCAST_SCOPE_CTX, *PMCAST_SCOPE_CTX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MCAST_SCOPE_CTX structure

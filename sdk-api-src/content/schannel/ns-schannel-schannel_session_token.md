@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SCHANNEL_SESSION_TOKEN
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SCHANNEL_SESSION_TOKEN structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_SECURITY_KEY_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_SECURITY_KEY_TYPE enumeration

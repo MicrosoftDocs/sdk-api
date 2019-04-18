@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_CLIPPER_GLOBAL, DD_CLIPPER_GLOBAL"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_CLIPPER_GLOBAL structure

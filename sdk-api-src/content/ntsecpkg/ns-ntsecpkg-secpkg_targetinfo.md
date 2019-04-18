@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECPKG_TARGETINFO, *PSECPKG_TARGETINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECPKG_TARGETINFO structure

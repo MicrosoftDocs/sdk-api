@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WLAN_RADIO_STATE, *PWLAN_RADIO_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WLAN_RADIO_STATE structure

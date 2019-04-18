@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ASSOCIATE_NAMERES_CONTEXT_INPUT, *PASSOCIATE_NAMERES_CONTEXT_INPUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ASSOCIATE_NAMERES_CONTEXT_INPUT structure

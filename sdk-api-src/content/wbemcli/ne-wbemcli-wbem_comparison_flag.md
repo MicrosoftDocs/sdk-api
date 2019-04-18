@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WBEM_COMPARISON_FLAG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WBEM_COMPARISON_FLAG enumeration

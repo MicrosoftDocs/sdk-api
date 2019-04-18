@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_MEMORY_INFO_LIST, *PMINIDUMP_MEMORY_INFO_LIST
 req.redist: DbgHelp.dll 6.3 or later
+ms.custom: 19H1
 ---
 
 # MINIDUMP_MEMORY_INFO_LIST structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KERB_QUERY_TKT_CACHE_RESPONSE, *PKERB_QUERY_TKT_CACHE_RESPONSE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KERB_QUERY_TKT_CACHE_RESPONSE structure

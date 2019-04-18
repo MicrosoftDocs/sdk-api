@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMR, *PEMR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMR structure

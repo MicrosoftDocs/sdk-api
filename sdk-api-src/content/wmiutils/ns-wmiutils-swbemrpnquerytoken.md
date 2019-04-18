@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SWbemRpnQueryToken
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SWbemRpnQueryToken structure

@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: QUERY_CHANGES_VIRTUAL_DISK_RANGE, *PQUERY_CHANGES_VIRTUAL_DISK_RANGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # QUERY_CHANGES_VIRTUAL_DISK_RANGE structure

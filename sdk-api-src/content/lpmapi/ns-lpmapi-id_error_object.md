@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ID_ERROR_OBJECT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ID_ERROR_OBJECT structure

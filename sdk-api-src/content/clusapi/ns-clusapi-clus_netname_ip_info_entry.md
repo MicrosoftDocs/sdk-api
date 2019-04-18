@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUS_NETNAME_IP_INFO_ENTRY, *PCLUS_NETNAME_IP_INFO_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUS_NETNAME_IP_INFO_ENTRY structure

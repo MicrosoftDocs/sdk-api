@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_USAGE_MATCH, *PCERT_USAGE_MATCH
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_USAGE_MATCH structure

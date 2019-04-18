@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DSCLASSCREATIONINFO, *LPDSCLASSCREATIONINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DSCLASSCREATIONINFO structure

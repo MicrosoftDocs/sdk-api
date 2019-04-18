@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FD_GLYPHATTR, *PFD_GLYPHATTR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FD_GLYPHATTR structure

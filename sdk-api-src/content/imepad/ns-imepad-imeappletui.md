@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMEAPPLETUI, *LPIMEAPPLETUI
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IMEAPPLETUI structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ISCSI_DIGEST_TYPES, *PISCSI_DIGEST_TYPES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ISCSI_DIGEST_TYPES enumeration

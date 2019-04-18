@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_XML_DATA_BLOB, *PCRYPT_XML_DATA_BLOB
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_XML_DATA_BLOB structure

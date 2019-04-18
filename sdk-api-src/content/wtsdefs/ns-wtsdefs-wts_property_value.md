@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTS_PROPERTY_VALUE structure

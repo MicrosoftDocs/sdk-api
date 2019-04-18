@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VMR9Mode
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VMR9Mode enumeration

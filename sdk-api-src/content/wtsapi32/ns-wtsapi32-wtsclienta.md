@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTSCLIENTA, *PWTSCLIENTA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTSCLIENTA structure

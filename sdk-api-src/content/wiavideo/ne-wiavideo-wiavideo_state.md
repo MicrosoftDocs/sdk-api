@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WIAVIDEO_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WIAVIDEO_STATE enumeration

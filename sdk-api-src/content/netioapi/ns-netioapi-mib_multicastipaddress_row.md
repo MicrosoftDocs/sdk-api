@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_MULTICASTIPADDRESS_ROW, *PMIB_MULTICASTIPADDRESS_ROW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_MULTICASTIPADDRESS_ROW structure

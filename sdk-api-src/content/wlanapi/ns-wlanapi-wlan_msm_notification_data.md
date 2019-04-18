@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WLAN_MSM_NOTIFICATION_DATA, *PWLAN_MSM_NOTIFICATION_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WLAN_MSM_NOTIFICATION_DATA structure

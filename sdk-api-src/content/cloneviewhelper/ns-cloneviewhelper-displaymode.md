@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DisplayMode
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DisplayMode structure

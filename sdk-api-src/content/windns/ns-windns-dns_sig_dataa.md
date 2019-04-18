@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DNS_SIG_DATAA, *PDNS_SIG_DATAA, DNS_RRSIG_DATAA, *PDNS_RRSIG_DATAA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DNS_SIG_DATAA structure

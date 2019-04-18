@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PERF_MULTI_INSTANCES, *PPERF_MULTI_INSTANCES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PERF_MULTI_INSTANCES structure

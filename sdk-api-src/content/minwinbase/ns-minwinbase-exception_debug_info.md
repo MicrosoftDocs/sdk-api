@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EXCEPTION_DEBUG_INFO, *LPEXCEPTION_DEBUG_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EXCEPTION_DEBUG_INFO structure

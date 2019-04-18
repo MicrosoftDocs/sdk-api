@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SENDER_TSPEC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SENDER_TSPEC structure

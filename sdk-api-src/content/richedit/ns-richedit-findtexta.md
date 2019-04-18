@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: FINDTEXTA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FINDTEXTA structure

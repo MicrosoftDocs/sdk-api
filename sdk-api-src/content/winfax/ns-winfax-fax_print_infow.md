@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: FAX_PRINT_INFOW, *PFAX_PRINT_INFOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FAX_PRINT_INFOW structure

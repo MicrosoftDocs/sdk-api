@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RESOURCE_MONITOR_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RESOURCE_MONITOR_STATE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CorrectionMode
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CorrectionMode enumeration

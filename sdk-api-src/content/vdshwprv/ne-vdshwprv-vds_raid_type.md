@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_RAID_TYPE, *PVDS_RAID_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_RAID_TYPE enumeration

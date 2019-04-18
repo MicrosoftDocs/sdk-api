@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CMC_STATUS_INFO, *PCMC_STATUS_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CMC_STATUS_INFO structure

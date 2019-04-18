@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMRRESTOREDC, *PEMRRESTOREDC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMRRESTOREDC structure

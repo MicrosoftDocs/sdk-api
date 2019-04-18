@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AUTHNEXTSTEP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AUTHNEXTSTEP enumeration

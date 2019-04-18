@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EVENT_DATA_DESCRIPTOR, *PEVENT_DATA_DESCRIPTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EVENT_DATA_DESCRIPTOR structure

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTSUSERCONFIGA, *PWTSUSERCONFIGA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTSUSERCONFIGA structure

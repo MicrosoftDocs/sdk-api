@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WINBIO_ADAPTER_INTERFACE_VERSION, *PWINBIO_ADAPTER_INTERFACE_VERSION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WINBIO_ADAPTER_INTERFACE_VERSION structure

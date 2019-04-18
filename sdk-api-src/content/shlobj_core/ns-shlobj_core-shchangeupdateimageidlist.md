@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SHChangeUpdateImageIDList, *LPSHChangeUpdateImageIDList
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SHChangeUpdateImageIDList structure

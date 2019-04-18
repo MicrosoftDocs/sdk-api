@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEER_APP_LAUNCH_INFO, *PPEER_APP_LAUNCH_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEER_APP_LAUNCH_INFO structure

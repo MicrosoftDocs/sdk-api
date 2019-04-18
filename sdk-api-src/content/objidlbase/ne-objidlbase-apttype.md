@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: APTTYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # APTTYPE enumeration

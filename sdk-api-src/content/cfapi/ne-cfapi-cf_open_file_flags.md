@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CF_OPEN_FILE_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CF_OPEN_FILE_FLAGS enumeration

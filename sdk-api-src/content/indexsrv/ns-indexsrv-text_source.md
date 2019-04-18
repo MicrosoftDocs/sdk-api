@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TEXT_SOURCE
 req.redist: the Windows NT 4.0 Option Pack
+ms.custom: 19H1
 ---
 
 # TEXT_SOURCE structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AMExtendedSeekingCapabilities
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AMExtendedSeekingCapabilities enumeration

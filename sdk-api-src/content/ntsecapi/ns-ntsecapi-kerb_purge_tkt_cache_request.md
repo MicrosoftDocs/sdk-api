@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KERB_PURGE_TKT_CACHE_REQUEST, *PKERB_PURGE_TKT_CACHE_REQUEST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KERB_PURGE_TKT_CACHE_REQUEST structure

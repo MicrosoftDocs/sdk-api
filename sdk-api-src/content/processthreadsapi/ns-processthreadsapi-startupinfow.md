@@ -43,6 +43,7 @@ product: Windows
 targetos: Windows
 req.typenames: STARTUPINFOW, *LPSTARTUPINFOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STARTUPINFOW structure

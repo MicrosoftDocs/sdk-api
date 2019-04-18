@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SERVICE_STATUS, *LPSERVICE_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SERVICE_STATUS structure

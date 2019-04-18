@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TXF_LOG_RECORD_BASE, *PTXF_LOG_RECORD_BASE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TXF_LOG_RECORD_BASE structure

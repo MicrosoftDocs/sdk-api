@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: JOYINFO, *PJOYINFO, *NPJOYINFO, *LPJOYINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # JOYINFO structure

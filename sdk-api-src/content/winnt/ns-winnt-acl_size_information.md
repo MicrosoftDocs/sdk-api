@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ACL_SIZE_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ACL_SIZE_INFORMATION structure

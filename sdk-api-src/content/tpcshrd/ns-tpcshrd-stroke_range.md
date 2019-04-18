@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STROKE_RANGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STROKE_RANGE structure

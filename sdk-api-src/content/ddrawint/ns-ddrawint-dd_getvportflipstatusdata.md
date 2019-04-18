@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_GETVPORTFLIPSTATUSDATA, DD_GETVPORTFLIPSTATUSDATA"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_GETVPORTFLIPSTATUSDATA structure

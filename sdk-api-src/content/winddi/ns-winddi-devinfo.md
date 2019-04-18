@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DEVINFO, *PDEVINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DEVINFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTSSBX_ADDRESS_FAMILY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTSSBX_ADDRESS_FAMILY enumeration

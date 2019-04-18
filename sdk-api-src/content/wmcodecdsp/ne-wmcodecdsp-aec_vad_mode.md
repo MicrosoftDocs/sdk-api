@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AEC_VAD_MODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AEC_VAD_MODE enumeration

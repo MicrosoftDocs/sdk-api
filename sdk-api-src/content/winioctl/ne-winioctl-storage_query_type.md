@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_QUERY_TYPE, *PSTORAGE_QUERY_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STORAGE_QUERY_TYPE enumeration

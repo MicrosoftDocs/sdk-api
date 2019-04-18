@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D2D_MATRIX_4X3_F
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D2D_MATRIX_4X3_F structure

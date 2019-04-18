@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IntServMainHdr
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IntServMainHdr structure

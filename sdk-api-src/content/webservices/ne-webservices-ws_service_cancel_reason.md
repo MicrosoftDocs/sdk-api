@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_SERVICE_CANCEL_REASON
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_SERVICE_CANCEL_REASON enumeration

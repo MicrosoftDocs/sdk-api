@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CHANGE_PARTITION_TYPE_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CHANGE_PARTITION_TYPE_PARAMETERS structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PERF_COUNTER_DATA, *PPERF_COUNTER_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PERF_COUNTER_DATA structure

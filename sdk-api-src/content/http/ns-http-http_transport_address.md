@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_TRANSPORT_ADDRESS, *PHTTP_TRANSPORT_ADDRESS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_TRANSPORT_ADDRESS structure

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: AXESLISTA, *PAXESLISTA, *LPAXESLISTA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AXESLISTA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HHN_NOTIFY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HHN_NOTIFY structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LINELOCATIONENTRY, *LPLINELOCATIONENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LINELOCATIONENTRY structure

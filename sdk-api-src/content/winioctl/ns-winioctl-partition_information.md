@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PARTITION_INFORMATION, *PPARTITION_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PARTITION_INFORMATION structure

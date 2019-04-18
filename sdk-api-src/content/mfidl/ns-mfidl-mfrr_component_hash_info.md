@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFRR_COMPONENT_HASH_INFO, *PMFRR_COMPONENT_HASH_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFRR_COMPONENT_HASH_INFO structure

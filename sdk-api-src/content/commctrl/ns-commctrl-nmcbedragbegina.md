@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMCBEDRAGBEGINA, *LPNMCBEDRAGBEGINA, *PNMCBEDRAGBEGINA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMCBEDRAGBEGINA structure

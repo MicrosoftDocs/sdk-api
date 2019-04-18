@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_ALGORITHM_IDENTIFIER, *PCRYPT_ALGORITHM_IDENTIFIER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_ALGORITHM_IDENTIFIER structure

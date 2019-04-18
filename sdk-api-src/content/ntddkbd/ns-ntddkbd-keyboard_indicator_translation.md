@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KEYBOARD_INDICATOR_TRANSLATION, *PKEYBOARD_INDICATOR_TRANSLATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KEYBOARD_INDICATOR_TRANSLATION structure

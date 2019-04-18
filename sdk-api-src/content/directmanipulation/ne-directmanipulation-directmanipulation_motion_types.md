@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DIRECTMANIPULATION_MOTION_TYPES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DIRECTMANIPULATION_MOTION_TYPES enumeration

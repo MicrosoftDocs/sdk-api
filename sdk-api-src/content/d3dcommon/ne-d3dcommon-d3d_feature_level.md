@@ -40,97 +40,51 @@ product: Windows
 targetos: Windows
 req.typenames: D3D_FEATURE_LEVEL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3D_FEATURE_LEVEL enumeration
 
-
 ## -description
-
-
 Describes the set of features targeted by a Direct3D device.
-
 
 ## -enum-fields
 
+### -field D3D_FEATURE_LEVEL_1_0_CORE (0x1000)
+Allows Microsoft Compute Driver Model (MCDM) devices to be used, or more feature-rich devices (such as traditional GPUs) that support a superset of the functionality. MCDM is the overall driver model for compute-only; it's a scaled-down peer of the larger scoped Windows Device Driver Model (WDDM).
 
+### -field D3D_FEATURE_LEVEL_9_1 (0x9100)
+Targets features supported by [feature level](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 9.1, including shader model 2.
 
+### -field D3D_FEATURE_LEVEL_9_2 (0x9200)
+Targets features supported by [feature level](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 9.2, including shader model 2.
 
-### -field D3D_FEATURE_LEVEL_9_1
+### -field D3D_FEATURE_LEVEL_9_3 (0x9300)
+Targets features supported by [feature level](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 9.3, including shader model 2.0b.
 
-Targets features supported by <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 9.1 including shader model 2.
-          
+### -field D3D_FEATURE_LEVEL_10_0 (0xa000)
+Targets features supported by Direct3D 10.0, including shader model 4.
 
+### -field D3D_FEATURE_LEVEL_10_1 (0xa100)
+Targets features supported by Direct3D 10.1, including shader model 4.
 
-### -field D3D_FEATURE_LEVEL_9_2
+### -field D3D_FEATURE_LEVEL_11_0 (0xb000)
+Targets features supported by Direct3D 11.0, including shader model 5.
 
-Targets features supported by <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 9.2 including shader model 2.
-          
+### -field D3D_FEATURE_LEVEL_11_1 (0xb100)
+Targets features supported by Direct3D 11.1, including shader model 5 and logical blend operations. This feature level requires a display driver that is at least implemented to WDDM for Windows 8 (WDDM 1.2).
 
+### -field D3D_FEATURE_LEVEL_12_0 (0xc000)
+Targets features supported by Direct3D 12.0, including shader model 5.
 
-### -field D3D_FEATURE_LEVEL_9_3
-
-Targets features supported by <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 9.3 including shader model 2.0b.
-          
-
-
-### -field D3D_FEATURE_LEVEL_10_0
-
-Targets features supported by Direct3D 10.0 including shader model 4.
-          
-
-
-### -field D3D_FEATURE_LEVEL_10_1
-
-Targets features supported by Direct3D 10.1 including shader model 4.
-          
-
-
-### -field D3D_FEATURE_LEVEL_11_0
-
-Targets features supported by Direct3D 11.0 including shader model 5.
-          
-
-
-### -field D3D_FEATURE_LEVEL_11_1
-
-Targets features supported by Direct3D 11.1 including shader model 5 and logical blend operations. This feature level requires a display driver that is at least implemented to WDDM for Windows 8 (WDDM 1.2).
-          
-
-
-### -field D3D_FEATURE_LEVEL_12_0
-
-Targets features supported by Direct3D 12.0 including shader model 5.
-          
-
-
-### -field D3D_FEATURE_LEVEL_12_1
-
-Targets features supported by Direct3D 12.1 including shader model 5.
-          
-
+### -field D3D_FEATURE_LEVEL_12_1 (0xc100)
+Targets features supported by Direct3D 12.1, including shader model 5.
 
 ## -remarks
+For an overview of the capabilities of each feature level, see [Direct3D feature levels](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro).
 
-
-
-For an overview of
-          the capabilities of each feature level, see <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">Overview For Each Feature Level</a>.
-        
-
-For information about limitations creating non-hardware-type devices on certain feature levels, see <a href="https://msdn.microsoft.com/7e022e5d-daa3-48fa-b9fe-4b569220e55e">Limitations Creating WARP and Reference Devices</a>.
-        
-
-
-
+For information about limitations creating non-hardware-type devices on certain feature levels, see [Limitations creating WARP and reference devices](/windows/desktop/direct3d11/overviews-direct3d-11-devices-limitations).
 
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/002154d5-74a6-48fb-b55f-8687e4505fc7">Common Version Enumerations</a>
- 
-
- 
-
+* [Common version enumerations](/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-enumerations)

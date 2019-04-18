@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BTH_RADIO_IN_RANGE, *PBTH_RADIO_IN_RANGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BTH_RADIO_IN_RANGE structure

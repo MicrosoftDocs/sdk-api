@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WCM_USAGE_DATA, *PWCM_USAGE_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WCM_USAGE_DATA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MESSAGE_RESOURCE_BLOCK, *PMESSAGE_RESOURCE_BLOCK
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MESSAGE_RESOURCE_BLOCK structure

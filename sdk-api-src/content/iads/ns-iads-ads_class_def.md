@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ADS_CLASS_DEF, *PADS_CLASS_DEF
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ADS_CLASS_DEF structure

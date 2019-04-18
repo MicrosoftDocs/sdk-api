@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECPKG_SUPPLIED_CREDENTIAL, *PSECPKG_SUPPLIED_CREDENTIAL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECPKG_SUPPLIED_CREDENTIAL structure

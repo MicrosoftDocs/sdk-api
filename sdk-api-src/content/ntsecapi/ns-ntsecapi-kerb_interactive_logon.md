@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KERB_INTERACTIVE_LOGON, *PKERB_INTERACTIVE_LOGON
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KERB_INTERACTIVE_LOGON structure

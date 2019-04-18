@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BITS_JOB_PROPERTY_VALUE
 req.redist: 
+ms.custom: 19H1
 ---
 
 ## -description

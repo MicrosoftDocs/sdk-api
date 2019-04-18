@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT, *PCLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT structure

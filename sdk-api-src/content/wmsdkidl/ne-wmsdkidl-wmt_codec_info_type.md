@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WMT_CODEC_INFO_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WMT_CODEC_INFO_TYPE enumeration

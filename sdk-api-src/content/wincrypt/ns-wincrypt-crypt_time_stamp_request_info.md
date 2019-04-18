@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_TIME_STAMP_REQUEST_INFO, *PCRYPT_TIME_STAMP_REQUEST_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_TIME_STAMP_REQUEST_INFO structure

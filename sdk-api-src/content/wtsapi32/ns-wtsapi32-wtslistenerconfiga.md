@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTSLISTENERCONFIGA, *PWTSLISTENERCONFIGA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTSLISTENERCONFIGA structure

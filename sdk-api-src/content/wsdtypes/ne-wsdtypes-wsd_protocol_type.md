@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSD_PROTOCOL_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSD_PROTOCOL_TYPE enumeration

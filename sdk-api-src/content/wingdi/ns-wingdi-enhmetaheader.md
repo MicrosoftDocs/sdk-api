@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ENHMETAHEADER, *PENHMETAHEADER, *LPENHMETAHEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ENHMETAHEADER structure

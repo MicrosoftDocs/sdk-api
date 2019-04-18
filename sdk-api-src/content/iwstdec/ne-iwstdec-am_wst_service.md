@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AM_WST_SERVICE, *PAM_WST_SERVICE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AM_WST_SERVICE enumeration

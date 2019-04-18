@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTA_OPTIONS, *PWTA_OPTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTA_OPTIONS structure

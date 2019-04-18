@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BLUETOOTH_RADIO_INFO, *PBLUETOOTH_RADIO_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BLUETOOTH_RADIO_INFO structure

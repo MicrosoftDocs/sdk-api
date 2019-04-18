@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RPC_ASYNC_STATE, *PRPC_ASYNC_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RPC_ASYNC_STATE structure

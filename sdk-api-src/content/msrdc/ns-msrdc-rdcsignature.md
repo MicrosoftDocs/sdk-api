@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RdcSignature
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RdcSignature structure

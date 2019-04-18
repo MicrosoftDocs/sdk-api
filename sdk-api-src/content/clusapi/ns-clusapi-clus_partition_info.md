@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUS_PARTITION_INFO, *PCLUS_PARTITION_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUS_PARTITION_INFO structure

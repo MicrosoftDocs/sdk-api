@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSD_SOAP_FAULT_SUBCODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSD_SOAP_FAULT_SUBCODE structure

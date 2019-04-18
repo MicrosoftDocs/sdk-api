@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ICDECOMPRESSEX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ICDECOMPRESSEX structure

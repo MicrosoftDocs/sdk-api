@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYNCMGR_RESOLUTION_ABILITIES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYNCMGR_RESOLUTION_ABILITIES enumeration

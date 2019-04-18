@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LUID_AND_ATTRIBUTES, *PLUID_AND_ATTRIBUTES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LUID_AND_ATTRIBUTES structure

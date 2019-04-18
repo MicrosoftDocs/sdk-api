@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ROOT_INFO_LUID, *PROOT_INFO_LUID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ROOT_INFO_LUID structure

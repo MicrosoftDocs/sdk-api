@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FWPS_ALE_ENDPOINT_PROPERTIES0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FWPS_ALE_ENDPOINT_PROPERTIES0 structure

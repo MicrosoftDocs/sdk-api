@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RDV_TASK_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RDV_TASK_STATUS enumeration

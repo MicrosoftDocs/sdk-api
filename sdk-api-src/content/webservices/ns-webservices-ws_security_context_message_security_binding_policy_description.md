@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION structure

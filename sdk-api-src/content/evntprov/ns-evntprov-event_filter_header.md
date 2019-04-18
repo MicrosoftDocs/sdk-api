@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EVENT_FILTER_HEADER, *PEVENT_FILTER_HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EVENT_FILTER_HEADER structure

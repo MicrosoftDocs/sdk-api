@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TRACE_GUID_PROPERTIES, *PTRACE_GUID_PROPERTIES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TRACE_GUID_PROPERTIES structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMRCREATEPALETTE, *PEMRCREATEPALETTE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMRCREATEPALETTE structure

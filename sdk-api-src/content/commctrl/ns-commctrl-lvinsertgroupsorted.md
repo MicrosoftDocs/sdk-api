@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LVINSERTGROUPSORTED, *PLVINSERTGROUPSORTED
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LVINSERTGROUPSORTED structure

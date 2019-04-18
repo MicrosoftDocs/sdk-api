@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: POINTL, *PPOINTL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # POINTL structure

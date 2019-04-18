@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MANAGEDAPPLICATION, *PMANAGEDAPPLICATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MANAGEDAPPLICATION structure

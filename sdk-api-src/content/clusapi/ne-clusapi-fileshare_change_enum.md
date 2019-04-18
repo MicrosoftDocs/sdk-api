@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILESHARE_CHANGE_ENUM, *PFILESHARE_CHANGE_ENUM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILESHARE_CHANGE_ENUM enumeration

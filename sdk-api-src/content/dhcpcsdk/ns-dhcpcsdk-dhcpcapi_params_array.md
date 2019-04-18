@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCPCAPI_PARAMS_ARRAY, *PDHCPCAPI_PARAMS_ARRAY, *LPDHCPCAPI_PARAMS_ARRAY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCPCAPI_PARAMS_ARRAY structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ISCSI_UNIQUE_SESSION_ID, *PISCSI_UNIQUE_SESSION_ID, ISCSI_UNIQUE_CONNECTION_ID, *PISCSI_UNIQUE_CONNECTION_ID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ISCSI_UNIQUE_SESSION_ID structure

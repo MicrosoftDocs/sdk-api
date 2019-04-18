@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TOKEN_OWNER, *PTOKEN_OWNER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TOKEN_OWNER structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PWM_POLARITY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PWM_POLARITY enumeration

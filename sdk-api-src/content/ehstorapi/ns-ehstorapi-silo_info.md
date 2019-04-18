@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SILO_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SILO_INFO structure

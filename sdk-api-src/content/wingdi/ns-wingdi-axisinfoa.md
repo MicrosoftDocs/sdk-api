@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: AXISINFOA, *PAXISINFOA, *LPAXISINFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AXISINFOA structure

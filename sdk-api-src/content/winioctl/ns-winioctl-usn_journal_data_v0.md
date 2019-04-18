@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: USN_JOURNAL_DATA_V0, *PUSN_JOURNAL_DATA_V0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # USN_JOURNAL_DATA_V0 structure

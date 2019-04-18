@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ENCRYPTED_CREDENTIALW, *PENCRYPTED_CREDENTIALW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ENCRYPTED_CREDENTIALW structure

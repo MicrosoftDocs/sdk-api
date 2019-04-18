@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMRBITBLT, *PEMRBITBLT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMRBITBLT structure

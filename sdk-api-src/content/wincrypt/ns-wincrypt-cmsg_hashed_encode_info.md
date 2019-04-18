@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CMSG_HASHED_ENCODE_INFO, *PCMSG_HASHED_ENCODE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CMSG_HASHED_ENCODE_INFO structure

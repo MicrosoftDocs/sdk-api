@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AM_PROPERTY_SPPAL, *PAM_PROPERTY_SPPAL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AM_PROPERTY_SPPAL structure

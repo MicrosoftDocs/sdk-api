@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_SETPALETTEDATA, DD_SETPALETTEDATA"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_SETPALETTEDATA structure

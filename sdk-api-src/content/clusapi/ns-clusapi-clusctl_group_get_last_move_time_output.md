@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT, *PCLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT structure

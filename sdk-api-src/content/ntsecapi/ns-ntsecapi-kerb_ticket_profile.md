@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KERB_TICKET_PROFILE, *PKERB_TICKET_PROFILE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KERB_TICKET_PROFILE structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMRSETWORLDTRANSFORM, *PEMRSETWORLDTRANSFORM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMRSETWORLDTRANSFORM structure

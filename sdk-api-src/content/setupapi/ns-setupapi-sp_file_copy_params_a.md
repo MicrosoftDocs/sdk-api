@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SP_FILE_COPY_PARAMS_A, *PSP_FILE_COPY_PARAMS_A
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SP_FILE_COPY_PARAMS_A structure

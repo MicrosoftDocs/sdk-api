@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AMVP_SELECT_FORMAT_BY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AMVP_SELECT_FORMAT_BY enumeration

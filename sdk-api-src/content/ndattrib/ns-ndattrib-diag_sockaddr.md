@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DIAG_SOCKADDR, *PDIAG_SOCK_ADDR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DIAG_SOCKADDR structure

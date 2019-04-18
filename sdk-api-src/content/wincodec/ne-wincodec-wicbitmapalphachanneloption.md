@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WICBitmapAlphaChannelOption
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WICBitmapAlphaChannelOption enumeration

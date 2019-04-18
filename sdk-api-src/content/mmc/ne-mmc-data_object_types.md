@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DATA_OBJECT_TYPES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DATA_OBJECT_TYPES enumeration

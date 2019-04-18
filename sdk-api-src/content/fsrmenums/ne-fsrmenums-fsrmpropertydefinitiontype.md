@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FsrmPropertyDefinitionType
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FsrmPropertyDefinitionType enumeration

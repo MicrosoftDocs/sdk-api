@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ACCESS_ALLOWED_OBJECT_ACE, *PACCESS_ALLOWED_OBJECT_ACE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ACCESS_ALLOWED_OBJECT_ACE structure

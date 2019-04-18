@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GPOBROWSEINFO, *LPGPOBROWSEINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GPOBROWSEINFO structure

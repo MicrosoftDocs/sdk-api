@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RECO_LATTICE_COLUMN
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RECO_LATTICE_COLUMN structure

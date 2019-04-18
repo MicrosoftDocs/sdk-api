@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: COMMCONFIG, *LPCOMMCONFIG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # COMMCONFIG structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXGI_MEMORY_SEGMENT_GROUP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXGI_MEMORY_SEGMENT_GROUP enumeration

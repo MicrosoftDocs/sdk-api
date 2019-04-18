@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: DRM_USAGEPOLICY_TYPE
 req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
+ms.custom: 19H1
 ---
 
 # DRM_USAGEPOLICY_TYPE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WINSAT_BITMAP_SIZE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WINSAT_BITMAP_SIZE enumeration

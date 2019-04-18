@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+ms.custom: 19H1
 ---
 
 # PropVariantToInt64 function

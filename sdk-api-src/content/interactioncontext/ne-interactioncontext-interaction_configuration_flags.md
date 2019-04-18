@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: INTERACTION_CONFIGURATION_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INTERACTION_CONFIGURATION_FLAGS enumeration

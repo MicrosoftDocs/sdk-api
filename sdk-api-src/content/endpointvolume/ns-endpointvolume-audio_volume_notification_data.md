@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AUDIO_VOLUME_NOTIFICATION_DATA, *PAUDIO_VOLUME_NOTIFICATION_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AUDIO_VOLUME_NOTIFICATION_DATA structure

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: DOMAIN_CONTROLLER_INFOA, *PDOMAIN_CONTROLLER_INFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DOMAIN_CONTROLLER_INFOA structure

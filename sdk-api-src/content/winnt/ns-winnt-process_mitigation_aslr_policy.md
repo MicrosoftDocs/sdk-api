@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROCESS_MITIGATION_ASLR_POLICY, *PPROCESS_MITIGATION_ASLR_POLICY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROCESS_MITIGATION_ASLR_POLICY structure

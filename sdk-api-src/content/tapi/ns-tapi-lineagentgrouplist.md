@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LINEAGENTGROUPLIST, *LPLINEAGENTGROUPLIST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LINEAGENTGROUPLIST structure

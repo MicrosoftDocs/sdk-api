@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CS_DES, *PCS_DES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CS_DES structure

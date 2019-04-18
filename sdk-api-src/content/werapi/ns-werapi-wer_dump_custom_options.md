@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WER_DUMP_CUSTOM_OPTIONS, *PWER_DUMP_CUSTOM_OPTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WER_DUMP_CUSTOM_OPTIONS structure

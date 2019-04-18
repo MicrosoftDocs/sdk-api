@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_HEAP_PROPERTIES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_HEAP_PROPERTIES structure

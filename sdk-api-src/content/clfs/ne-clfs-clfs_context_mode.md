@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLFS_CONTEXT_MODE, *PCLFS_CONTEXT_MODE, PPCLFS_CONTEXT_MODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLFS_CONTEXT_MODE enumeration

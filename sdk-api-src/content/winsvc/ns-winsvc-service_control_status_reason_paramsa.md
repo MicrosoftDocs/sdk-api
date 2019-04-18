@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: SERVICE_CONTROL_STATUS_REASON_PARAMSA, *PSERVICE_CONTROL_STATUS_REASON_PARAMSA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SERVICE_CONTROL_STATUS_REASON_PARAMSA structure

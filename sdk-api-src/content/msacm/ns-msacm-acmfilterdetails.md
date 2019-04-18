@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ACMFILTERDETAILS, *PACMFILTERDETAILS, *LPACMFILTERDETAILS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ACMFILTERDETAILS structure

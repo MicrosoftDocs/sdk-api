@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NETSOURCE_URLCREDPOLICY_SETTINGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NETSOURCE_URLCREDPOLICY_SETTINGS enumeration

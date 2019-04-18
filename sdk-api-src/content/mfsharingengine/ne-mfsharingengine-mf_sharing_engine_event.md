@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MF_SHARING_ENGINE_EVENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MF_SHARING_ENGINE_EVENT enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: REGFILTERPINS2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # REGFILTERPINS2 structure

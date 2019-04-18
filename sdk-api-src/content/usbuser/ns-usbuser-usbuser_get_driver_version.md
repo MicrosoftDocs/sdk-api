@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: USBUSER_GET_DRIVER_VERSION, *PUSBUSER_GET_DRIVER_VERSION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # USBUSER_GET_DRIVER_VERSION structure

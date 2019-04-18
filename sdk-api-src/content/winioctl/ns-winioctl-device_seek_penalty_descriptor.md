@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DEVICE_SEEK_PENALTY_DESCRIPTOR, *PDEVICE_SEEK_PENALTY_DESCRIPTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DEVICE_SEEK_PENALTY_DESCRIPTOR structure

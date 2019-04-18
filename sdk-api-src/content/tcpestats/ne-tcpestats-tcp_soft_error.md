@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TCP_SOFT_ERROR, *PTCP_SOFT_ERROR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TCP_SOFT_ERROR enumeration

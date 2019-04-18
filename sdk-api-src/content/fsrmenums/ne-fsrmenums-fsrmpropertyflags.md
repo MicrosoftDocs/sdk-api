@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FsrmPropertyFlags
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FsrmPropertyFlags enumeration

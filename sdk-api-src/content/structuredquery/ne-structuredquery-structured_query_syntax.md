@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STRUCTURED_QUERY_SYNTAX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STRUCTURED_QUERY_SYNTAX enumeration

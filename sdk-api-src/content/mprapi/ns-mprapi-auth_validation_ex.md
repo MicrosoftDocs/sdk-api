@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AUTH_VALIDATION_EX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AUTH_VALIDATION_EX structure

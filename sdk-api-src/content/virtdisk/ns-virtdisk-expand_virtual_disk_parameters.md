@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: EXPAND_VIRTUAL_DISK_PARAMETERS, *PEXPAND_VIRTUAL_DISK_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EXPAND_VIRTUAL_DISK_PARAMETERS structure

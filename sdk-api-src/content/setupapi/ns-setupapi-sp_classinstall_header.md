@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SP_CLASSINSTALL_HEADER, *PSP_CLASSINSTALL_HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SP_CLASSINSTALL_HEADER structure

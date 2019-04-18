@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYNCMGRINVOKEFLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYNCMGRINVOKEFLAGS enumeration

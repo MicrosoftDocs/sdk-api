@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SHARINGCONNECTIONTYPE enumeration

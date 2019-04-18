@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TRACE_PROVIDER_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TRACE_PROVIDER_INFO structure

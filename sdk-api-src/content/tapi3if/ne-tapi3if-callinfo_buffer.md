@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CALLINFO_BUFFER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CALLINFO_BUFFER enumeration

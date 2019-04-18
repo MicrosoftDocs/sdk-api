@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SnapshotEncodingType
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SnapshotEncodingType enumeration

@@ -43,6 +43,7 @@ product: Windows
 targetos: Windows
 req.typenames: WIN32_FIND_DATAA, *PWIN32_FIND_DATAA, *LPWIN32_FIND_DATAA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WIN32_FIND_DATAA structure

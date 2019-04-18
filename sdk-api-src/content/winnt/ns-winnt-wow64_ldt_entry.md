@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WOW64_LDT_ENTRY, *PWOW64_LDT_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WOW64_LDT_ENTRY structure

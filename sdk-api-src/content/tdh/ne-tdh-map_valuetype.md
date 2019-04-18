@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MAP_VALUETYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MAP_VALUETYPE enumeration

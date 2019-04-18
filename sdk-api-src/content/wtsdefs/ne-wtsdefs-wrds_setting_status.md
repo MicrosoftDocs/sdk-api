@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WRDS_SETTING_STATUS, *PWRDS_SETTING_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WRDS_SETTING_STATUS enumeration

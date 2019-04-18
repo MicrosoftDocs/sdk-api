@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE enumeration

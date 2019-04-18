@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CACHE_DESCRIPTOR, *PCACHE_DESCRIPTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CACHE_DESCRIPTOR structure

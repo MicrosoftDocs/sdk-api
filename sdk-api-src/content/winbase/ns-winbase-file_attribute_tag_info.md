@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_ATTRIBUTE_TAG_INFO, *PFILE_ATTRIBUTE_TAG_INFO
 req.redist: Windows SDK on Windows Server 2003 and Windows XP.
+ms.custom: 19H1
 ---
 
 # FILE_ATTRIBUTE_TAG_INFO structure

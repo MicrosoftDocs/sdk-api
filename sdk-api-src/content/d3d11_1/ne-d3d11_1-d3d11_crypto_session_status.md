@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D3D11_CRYPTO_SESSION_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3D11_CRYPTO_SESSION_STATUS enumeration

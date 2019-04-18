@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: ADDRINFOEX2A, *PADDRINFOEX2A, *LPADDRINFOEX2A
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ADDRINFOEX2A structure

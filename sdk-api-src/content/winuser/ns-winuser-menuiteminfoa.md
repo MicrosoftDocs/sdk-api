@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: MENUITEMINFOA, *LPMENUITEMINFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MENUITEMINFOA structure

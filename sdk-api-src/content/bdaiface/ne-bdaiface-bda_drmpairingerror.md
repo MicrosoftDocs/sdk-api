@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BDA_DrmPairingError
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BDA_DrmPairingError enumeration

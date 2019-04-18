@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CREATE_THREAD_DEBUG_INFO, *LPCREATE_THREAD_DEBUG_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CREATE_THREAD_DEBUG_INFO structure

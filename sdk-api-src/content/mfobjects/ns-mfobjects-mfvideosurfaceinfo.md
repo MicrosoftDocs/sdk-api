@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFVideoSurfaceInfo
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFVideoSurfaceInfo structure

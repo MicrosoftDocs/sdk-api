@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TXFS_GET_METADATA_INFO_OUT, *PTXFS_GET_METADATA_INFO_OUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TXFS_GET_METADATA_INFO_OUT structure

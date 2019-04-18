@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRL_FIND_ISSUED_FOR_PARA, *PCRL_FIND_ISSUED_FOR_PARA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRL_FIND_ISSUED_FOR_PARA structure

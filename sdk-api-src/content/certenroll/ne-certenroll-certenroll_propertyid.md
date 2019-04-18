@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERTENROLL_PROPERTYID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERTENROLL_PROPERTYID enumeration

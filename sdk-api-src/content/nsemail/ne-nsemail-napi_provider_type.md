@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NAPI_PROVIDER_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NAPI_PROVIDER_TYPE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FT_STATE_EVENT_CAUSE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FT_STATE_EVENT_CAUSE enumeration

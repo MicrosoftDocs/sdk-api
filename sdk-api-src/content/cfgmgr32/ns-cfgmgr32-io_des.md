@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IO_DES, *PIO_DES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IO_DES structure

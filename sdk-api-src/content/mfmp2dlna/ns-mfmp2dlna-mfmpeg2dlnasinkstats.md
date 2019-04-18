@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFMPEG2DLNASINKSTATS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFMPEG2DLNASINKSTATS structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_ATTRIBUTES_ARRAY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILE_ATTRIBUTES_ARRAY structure

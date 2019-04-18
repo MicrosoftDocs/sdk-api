@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: InkOverlayEraserMode
 req.redist: 
+ms.custom: 19H1
 ---
 
 # InkOverlayEraserMode enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ACTCTX_REQUESTED_RUN_LEVEL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ACTCTX_REQUESTED_RUN_LEVEL enumeration

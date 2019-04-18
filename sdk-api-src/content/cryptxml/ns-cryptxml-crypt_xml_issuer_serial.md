@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_XML_ISSUER_SERIAL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_XML_ISSUER_SERIAL structure

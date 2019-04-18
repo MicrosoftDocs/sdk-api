@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WMT_PAYLOAD_FRAGMENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WMT_PAYLOAD_FRAGMENT structure

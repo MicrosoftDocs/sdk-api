@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SEC_CHANNEL_BINDINGS, *PSEC_CHANNEL_BINDINGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SEC_CHANNEL_BINDINGS structure

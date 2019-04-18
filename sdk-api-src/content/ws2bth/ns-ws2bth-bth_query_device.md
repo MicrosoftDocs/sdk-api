@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BTH_QUERY_DEVICE, *PBTH_QUERY_DEVICE, BTHNS_INQUIRYBLOB, *PBTHNS_INQUIRYBLOB
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BTH_QUERY_DEVICE structure

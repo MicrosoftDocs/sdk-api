@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PSAPI_WORKING_SET_BLOCK, *PPSAPI_WORKING_SET_BLOCK
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PSAPI_WORKING_SET_BLOCK structure

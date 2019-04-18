@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CS_RESOURCE, *PCS_RESOURCE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CS_RESOURCE structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TC_IFC_DESCRIPTOR, *PTC_IFC_DESCRIPTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TC_IFC_DESCRIPTOR structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEER_PEOPLE_NEAR_ME, *PPEER_PEOPLE_NEAR_ME
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEER_PEOPLE_NEAR_ME structure

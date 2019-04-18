@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_OPAQUE_INFO, *PMIB_OPAQUE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_OPAQUE_INFO structure

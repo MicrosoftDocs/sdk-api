@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: USBUSER_CONTROLLER_UNICODE_NAME, *PUSBUSER_CONTROLLER_UNICODE_NAME
 req.redist: 
+ms.custom: 19H1
 ---
 
 # USBUSER_CONTROLLER_UNICODE_NAME structure

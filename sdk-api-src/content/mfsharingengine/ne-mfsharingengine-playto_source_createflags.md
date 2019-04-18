@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PLAYTO_SOURCE_CREATEFLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PLAYTO_SOURCE_CREATEFLAGS enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE, *PWDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE enumeration

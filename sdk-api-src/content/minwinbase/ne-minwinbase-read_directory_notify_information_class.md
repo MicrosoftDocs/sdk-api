@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: READ_DIRECTORY_NOTIFY_INFORMATION_CLASS, *PREAD_DIRECTORY_NOTIFY_INFORMATION_CLASS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # READ_DIRECTORY_NOTIFY_INFORMATION_CLASS enumeration

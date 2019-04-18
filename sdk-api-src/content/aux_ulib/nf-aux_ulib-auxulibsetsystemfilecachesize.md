@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Auxiliary API library version 1.0 or later
+ms.custom: 19H1
 ---
 
 # AuxUlibSetSystemFileCacheSize function

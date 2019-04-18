@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WOF_FILE_COMPRESSION_INFO_V1 structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BTH_LE_UUID, *PBTH_LE_UUID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BTH_LE_UUID structure

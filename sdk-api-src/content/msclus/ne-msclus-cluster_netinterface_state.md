@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSTER_NETINTERFACE_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSTER_NETINTERFACE_STATE enumeration

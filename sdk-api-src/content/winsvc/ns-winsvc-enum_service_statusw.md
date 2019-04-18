@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: ENUM_SERVICE_STATUSW, *LPENUM_SERVICE_STATUSW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ENUM_SERVICE_STATUSW structure

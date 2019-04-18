@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DFS_STORAGE_INFO_1, *PDFS_STORAGE_INFO_1, *LPDFS_STORAGE_INFO_1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DFS_STORAGE_INFO_1 structure

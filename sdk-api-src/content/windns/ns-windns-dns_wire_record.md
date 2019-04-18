@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DNS_WIRE_RECORD, *PDNS_WIRE_RECORD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DNS_WIRE_RECORD structure

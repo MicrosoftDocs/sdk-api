@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DSROLE_PRIMARY_DOMAIN_INFO_BASIC, *PDSROLE_PRIMARY_DOMAIN_INFO_BASIC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DSROLE_PRIMARY_DOMAIN_INFO_BASIC structure

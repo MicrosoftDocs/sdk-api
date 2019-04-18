@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_IO_CALLBACK, *PMINIDUMP_IO_CALLBACK
 req.redist: DbgHelp.dll 6.5 or later
+ms.custom: 19H1
 ---
 
 # MINIDUMP_IO_CALLBACK structure

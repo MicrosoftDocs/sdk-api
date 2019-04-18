@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "_DocumentMode, DOCUMENTMODE, *PDOCUMENTMODE"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # _DocumentMode enumeration

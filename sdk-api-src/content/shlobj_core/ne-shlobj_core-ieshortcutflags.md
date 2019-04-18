@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IESHORTCUTFLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IESHORTCUTFLAGS enumeration

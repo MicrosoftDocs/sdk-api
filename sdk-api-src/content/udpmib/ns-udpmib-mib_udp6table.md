@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_UDP6TABLE, *PMIB_UDP6TABLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_UDP6TABLE structure

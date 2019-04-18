@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CWPRETSTRUCT, *PCWPRETSTRUCT, *NPCWPRETSTRUCT, *LPCWPRETSTRUCT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CWPRETSTRUCT structure

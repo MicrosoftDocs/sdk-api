@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VSS_PROTECTION_LEVEL, *PVSS_PROTECTION_LEVEL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VSS_PROTECTION_LEVEL enumeration

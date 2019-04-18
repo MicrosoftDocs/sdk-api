@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RADIUS_CODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RADIUS_CODE enumeration

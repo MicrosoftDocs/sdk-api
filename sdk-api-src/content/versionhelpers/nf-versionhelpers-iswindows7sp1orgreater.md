@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IsWindows7SP1OrGreater function

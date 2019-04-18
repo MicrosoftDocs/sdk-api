@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: FAX_TIME, *PFAX_TIME
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FAX_TIME structure

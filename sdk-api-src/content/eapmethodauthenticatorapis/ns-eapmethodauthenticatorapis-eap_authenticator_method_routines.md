@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EAP_AUTHENTICATOR_METHOD_ROUTINES, *PEAP_AUTHENTICATOR_METHOD_ROUTINES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EAP_AUTHENTICATOR_METHOD_ROUTINES structure

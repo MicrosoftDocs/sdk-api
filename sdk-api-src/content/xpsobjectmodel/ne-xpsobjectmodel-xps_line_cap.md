@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: XPS_LINE_CAP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XPS_LINE_CAP enumeration

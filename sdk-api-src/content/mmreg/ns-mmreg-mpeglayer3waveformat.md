@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MPEGLAYER3WAVEFORMAT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MPEGLAYER3WAVEFORMAT structure

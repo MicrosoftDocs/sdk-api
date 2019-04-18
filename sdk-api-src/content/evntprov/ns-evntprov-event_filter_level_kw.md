@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EVENT_FILTER_LEVEL_KW, *PEVENT_FILTER_LEVEL_KW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EVENT_FILTER_LEVEL_KW structure

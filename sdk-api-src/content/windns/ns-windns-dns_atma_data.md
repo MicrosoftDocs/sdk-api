@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DNS_ATMA_DATA, *PDNS_ATMA_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DNS_ATMA_DATA structure

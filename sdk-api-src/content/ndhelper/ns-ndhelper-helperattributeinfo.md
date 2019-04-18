@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HelperAttributeInfo, *PHelperAttributeInfo
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HelperAttributeInfo structure

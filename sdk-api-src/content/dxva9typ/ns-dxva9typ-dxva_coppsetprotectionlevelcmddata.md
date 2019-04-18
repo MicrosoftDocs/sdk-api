@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXVA_COPPSetProtectionLevelCmdData
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXVA_COPPSetProtectionLevelCmdData structure

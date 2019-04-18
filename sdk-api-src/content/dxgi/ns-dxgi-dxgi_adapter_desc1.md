@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXGI_ADAPTER_DESC1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXGI_ADAPTER_DESC1 structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MSLLHOOKSTRUCT, *LPMSLLHOOKSTRUCT, *PMSLLHOOKSTRUCT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MSLLHOOKSTRUCT structure

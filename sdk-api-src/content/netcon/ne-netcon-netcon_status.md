@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NETCON_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NETCON_STATUS enumeration

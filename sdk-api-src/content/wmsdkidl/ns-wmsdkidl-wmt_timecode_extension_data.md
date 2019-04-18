@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WMT_TIMECODE_EXTENSION_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WMT_TIMECODE_EXTENSION_DATA structure

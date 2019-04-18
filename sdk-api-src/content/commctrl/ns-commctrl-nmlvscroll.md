@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMLVSCROLL, *LPNMLVSCROLL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMLVSCROLL structure

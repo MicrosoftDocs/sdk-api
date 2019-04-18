@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OLEVERBATTRIB
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OLEVERBATTRIB enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFNETSOURCE_STATISTICS_IDS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFNETSOURCE_STATISTICS_IDS enumeration

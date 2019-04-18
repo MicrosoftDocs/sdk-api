@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILEDESCRIPTORW, *LPFILEDESCRIPTORW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILEDESCRIPTORW structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SHELL_ITEM_RESOURCE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SHELL_ITEM_RESOURCE structure

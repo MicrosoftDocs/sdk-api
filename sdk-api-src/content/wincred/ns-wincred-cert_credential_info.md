@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_CREDENTIAL_INFO, *PCERT_CREDENTIAL_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_CREDENTIAL_INFO structure

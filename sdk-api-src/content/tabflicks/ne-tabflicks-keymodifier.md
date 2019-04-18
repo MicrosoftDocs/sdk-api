@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KEYMODIFIER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KEYMODIFIER enumeration

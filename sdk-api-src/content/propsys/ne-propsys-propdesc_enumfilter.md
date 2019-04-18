@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROPDESC_ENUMFILTER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROPDESC_ENUMFILTER enumeration

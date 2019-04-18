@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSTER_NOTIFICATIONS_VERSION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSTER_NOTIFICATIONS_VERSION enumeration

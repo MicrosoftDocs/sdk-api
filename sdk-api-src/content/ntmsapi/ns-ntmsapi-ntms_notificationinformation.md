@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NTMS_NOTIFICATIONINFORMATION, *LPNTMS_NOTIFICATIONINFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NTMS_NOTIFICATIONINFORMATION structure

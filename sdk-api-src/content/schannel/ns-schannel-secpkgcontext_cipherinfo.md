@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_CipherInfo, *PSecPkgContext_CipherInfo
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SecPkgContext_CipherInfo structure

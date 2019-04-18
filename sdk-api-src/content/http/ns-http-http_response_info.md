@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_RESPONSE_INFO, *PHTTP_RESPONSE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_RESPONSE_INFO structure

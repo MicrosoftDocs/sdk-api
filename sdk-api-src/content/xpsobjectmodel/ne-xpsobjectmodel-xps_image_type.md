@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: XPS_IMAGE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XPS_IMAGE_TYPE enumeration

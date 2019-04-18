@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_SEQUENCE_OF_ANY, *PCRYPT_SEQUENCE_OF_ANY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_SEQUENCE_OF_ANY structure

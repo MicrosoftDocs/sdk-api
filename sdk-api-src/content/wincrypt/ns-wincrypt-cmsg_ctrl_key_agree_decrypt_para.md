@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CMSG_CTRL_KEY_AGREE_DECRYPT_PARA, *PCMSG_CTRL_KEY_AGREE_DECRYPT_PARA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CMSG_CTRL_KEY_AGREE_DECRYPT_PARA structure

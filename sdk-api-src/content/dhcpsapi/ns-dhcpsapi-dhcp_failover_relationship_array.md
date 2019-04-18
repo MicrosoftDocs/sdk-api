@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_FAILOVER_RELATIONSHIP_ARRAY, *LPDHCP_FAILOVER_RELATIONSHIP_ARRAY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_FAILOVER_RELATIONSHIP_ARRAY structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXGI_SWAP_CHAIN_DESC1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXGI_SWAP_CHAIN_DESC1 structure

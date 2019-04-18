@@ -49,6 +49,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GetCurrentPackageInfo function
@@ -136,6 +137,8 @@ The buffer is not large enough to hold the data. The required size is specified 
 
 ## -see-also
 
+
+[GetCurrentPackageInfo2](nf-appmodel-getcurrentpackageinfo2.md)
 
 
 

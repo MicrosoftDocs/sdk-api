@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WAVEFORMAT, *PWAVEFORMAT, *NPWAVEFORMAT, *LPWAVEFORMAT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WAVEFORMAT structure

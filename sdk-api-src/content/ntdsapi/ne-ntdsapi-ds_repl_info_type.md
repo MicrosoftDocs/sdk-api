@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DS_REPL_INFO_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DS_REPL_INFO_TYPE enumeration

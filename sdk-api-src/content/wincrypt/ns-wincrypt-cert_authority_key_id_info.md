@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_AUTHORITY_KEY_ID_INFO, *PCERT_AUTHORITY_KEY_ID_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_AUTHORITY_KEY_ID_INFO structure

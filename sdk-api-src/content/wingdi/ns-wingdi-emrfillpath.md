@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMRFILLPATH, *PEMRFILLPATH, EMRSTROKEANDFILLPATH, *PEMRSTROKEANDFILLPATH, EMRSTROKEPATH, *PEMRSTROKEPATH
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMRFILLPATH structure

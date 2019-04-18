@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XMUBYTE4::XMUBYTE4(uint8_t,uint8_t,uint8_t,uint8_t)

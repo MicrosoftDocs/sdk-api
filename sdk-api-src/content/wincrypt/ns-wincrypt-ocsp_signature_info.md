@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OCSP_SIGNATURE_INFO, *POCSP_SIGNATURE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OCSP_SIGNATURE_INFO structure

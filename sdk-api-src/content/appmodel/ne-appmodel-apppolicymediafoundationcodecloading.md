@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AppPolicyMediaFoundationCodecLoading
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AppPolicyMediaFoundationCodecLoading enumeration

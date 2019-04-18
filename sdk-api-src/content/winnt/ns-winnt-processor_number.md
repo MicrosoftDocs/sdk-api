@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROCESSOR_NUMBER, *PPROCESSOR_NUMBER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROCESSOR_NUMBER structure

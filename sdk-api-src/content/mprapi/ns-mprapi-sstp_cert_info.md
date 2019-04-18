@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SSTP_CERT_INFO, *PSSTP_CERT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SSTP_CERT_INFO structure

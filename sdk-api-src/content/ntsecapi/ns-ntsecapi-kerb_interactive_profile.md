@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KERB_INTERACTIVE_PROFILE, *PKERB_INTERACTIVE_PROFILE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KERB_INTERACTIVE_PROFILE structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSTER_VALIDATE_DIRECTORY, *PCLUSTER_VALIDATE_DIRECTORY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSTER_VALIDATE_DIRECTORY structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WBEM_FLAVOR_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WBEM_FLAVOR_TYPE enumeration

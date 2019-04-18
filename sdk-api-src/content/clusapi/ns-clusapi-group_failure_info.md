@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: GROUP_FAILURE_INFO, *PGROUP_FAILURE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GROUP_FAILURE_INFO structure

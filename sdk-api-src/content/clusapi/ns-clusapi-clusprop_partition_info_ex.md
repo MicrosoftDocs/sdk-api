@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSPROP_PARTITION_INFO_EX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSPROP_PARTITION_INFO_EX structure

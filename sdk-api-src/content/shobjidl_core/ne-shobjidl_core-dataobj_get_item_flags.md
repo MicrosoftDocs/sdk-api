@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DATAOBJ_GET_ITEM_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DATAOBJ_GET_ITEM_FLAGS enumeration

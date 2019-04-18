@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WIN32_MEMORY_RANGE_ENTRY, *PWIN32_MEMORY_RANGE_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WIN32_MEMORY_RANGE_ENTRY structure

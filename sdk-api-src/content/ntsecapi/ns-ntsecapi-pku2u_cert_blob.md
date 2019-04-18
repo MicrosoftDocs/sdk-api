@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PKU2U_CERT_BLOB, *PPKU2U_CERT_BLOB
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PKU2U_CERT_BLOB structure

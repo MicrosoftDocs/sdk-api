@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DRVENABLEDATA, *PDRVENABLEDATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DRVENABLEDATA structure

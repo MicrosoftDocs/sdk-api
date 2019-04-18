@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_BIOMETRIC_DATA, *PCERT_BIOMETRIC_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_BIOMETRIC_DATA structure

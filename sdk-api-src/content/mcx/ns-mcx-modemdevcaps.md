@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MODEMDEVCAPS, *PMODEMDEVCAPS, *LPMODEMDEVCAPS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MODEMDEVCAPS structure

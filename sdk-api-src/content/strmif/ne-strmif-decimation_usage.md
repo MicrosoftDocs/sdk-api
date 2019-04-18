@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DECIMATION_USAGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DECIMATION_USAGE enumeration

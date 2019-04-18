@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PSS_VA_SPACE_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PSS_VA_SPACE_INFORMATION structure

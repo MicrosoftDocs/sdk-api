@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OPENASINFO, *POPENASINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OPENASINFO structure

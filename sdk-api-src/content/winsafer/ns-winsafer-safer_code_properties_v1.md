@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SAFER_CODE_PROPERTIES_V1, *PSAFER_CODE_PROPERTIES_V1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SAFER_CODE_PROPERTIES_V1 structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DISK_GEOMETRY, *PDISK_GEOMETRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DISK_GEOMETRY structure

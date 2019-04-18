@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OPM_CONNECTED_HDCP_DEVICE_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OPM_CONNECTED_HDCP_DEVICE_INFORMATION structure

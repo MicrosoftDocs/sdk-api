@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST, *PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST structure

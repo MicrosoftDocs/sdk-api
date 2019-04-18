@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_OR_CRL_BUNDLE, *PCERT_OR_CRL_BUNDLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_OR_CRL_BUNDLE structure

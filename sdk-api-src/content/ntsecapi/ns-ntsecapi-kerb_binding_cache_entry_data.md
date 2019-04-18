@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KERB_BINDING_CACHE_ENTRY_DATA, *PKERB_BINDING_CACHE_ENTRY_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KERB_BINDING_CACHE_ENTRY_DATA structure

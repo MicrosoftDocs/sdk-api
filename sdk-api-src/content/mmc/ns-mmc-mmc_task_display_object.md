@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MMC_TASK_DISPLAY_OBJECT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MMC_TASK_DISPLAY_OBJECT structure

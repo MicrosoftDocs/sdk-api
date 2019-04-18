@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NET_VALIDATE_PERSISTED_FIELDS, *PNET_VALIDATE_PERSISTED_FIELDS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NET_VALIDATE_PERSISTED_FIELDS structure

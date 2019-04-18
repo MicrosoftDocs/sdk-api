@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFP_MEDIAPLAYER_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFP_MEDIAPLAYER_STATE enumeration

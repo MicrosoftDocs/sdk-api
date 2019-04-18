@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUS_CSV_MAINTENANCE_MODE_INFO, *PCLUS_CSV_MAINTENANCE_MODE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUS_CSV_MAINTENANCE_MODE_INFO structure

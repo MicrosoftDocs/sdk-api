@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DCB, *LPDCB
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DCB structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AudioFXExtensionParams
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AudioFXExtensionParams structure

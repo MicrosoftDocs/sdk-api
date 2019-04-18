@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROPDESC_COLUMNINDEX_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROPDESC_COLUMNINDEX_TYPE enumeration

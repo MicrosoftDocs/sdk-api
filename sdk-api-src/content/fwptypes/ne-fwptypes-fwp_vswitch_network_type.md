@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FWP_VSWITCH_NETWORK_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FWP_VSWITCH_NETWORK_TYPE enumeration

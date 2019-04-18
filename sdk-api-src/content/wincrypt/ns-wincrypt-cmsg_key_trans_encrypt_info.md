@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CMSG_KEY_TRANS_ENCRYPT_INFO, *PCMSG_KEY_TRANS_ENCRYPT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CMSG_KEY_TRANS_ENCRYPT_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PDOPSTATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PDOPSTATUS enumeration

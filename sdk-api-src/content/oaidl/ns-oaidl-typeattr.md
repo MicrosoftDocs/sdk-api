@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TYPEATTR, *LPTYPEATTR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TYPEATTR structure

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: EXPLICIT_ACCESS_A, *PEXPLICIT_ACCESS_A, EXPLICIT_ACCESSA, *PEXPLICIT_ACCESSA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EXPLICIT_ACCESS_A structure

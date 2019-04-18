@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_PACK_PROP, *PVDS_PACK_PROP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_PACK_PROP structure

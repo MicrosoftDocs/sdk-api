@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: APO_REG_PROPERTIES, *PAPO_REG_PROPERTIES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # APO_REG_PROPERTIES structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: UPDATE_COMPLETE_MESSAGE, *PUPDATE_COMPLETE_MESSAGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # UPDATE_COMPLETE_MESSAGE structure

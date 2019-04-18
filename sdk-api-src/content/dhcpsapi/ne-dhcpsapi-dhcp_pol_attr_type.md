@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_POL_ATTR_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_POL_ATTR_TYPE enumeration

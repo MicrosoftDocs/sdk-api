@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: QOS_FLOW_FUNDAMENTALS, *PQOS_FLOW_FUNDAMENTALS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # QOS_FLOW_FUNDAMENTALS structure

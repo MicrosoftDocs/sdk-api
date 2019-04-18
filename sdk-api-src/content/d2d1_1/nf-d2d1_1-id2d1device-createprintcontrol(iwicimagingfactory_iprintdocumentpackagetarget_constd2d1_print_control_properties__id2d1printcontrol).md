@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ID2D1Device::CreatePrintControl(IWICImagingFactory,IPrintDocumentPackageTarget,const D2D1_PRINT_CONTROL_PROPERTIES &,ID2D1PrintControl)

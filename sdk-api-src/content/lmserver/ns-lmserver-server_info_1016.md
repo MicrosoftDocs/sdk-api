@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SERVER_INFO_1016, *PSERVER_INFO_1016, *LPSERVER_INFO_1016
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SERVER_INFO_1016 structure

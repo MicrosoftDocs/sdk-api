@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IKEEXT_CREDENTIAL_PAIR1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IKEEXT_CREDENTIAL_PAIR1 structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RECT, *PRECT, *NPRECT, *LPRECT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RECT structure

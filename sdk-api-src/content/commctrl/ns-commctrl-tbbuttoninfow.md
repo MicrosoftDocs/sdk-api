@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: TBBUTTONINFOW, *LPTBBUTTONINFOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TBBUTTONINFOW structure

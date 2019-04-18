@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTS_SERVER_INFOA, *PWTS_SERVER_INFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTS_SERVER_INFOA structure

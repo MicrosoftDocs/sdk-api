@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
+ms.custom: 19H1
 ---
 
 # Graphics::DrawString(const WCHAR,INT,const Font,const PointF &,const StringFormat,const Brush)

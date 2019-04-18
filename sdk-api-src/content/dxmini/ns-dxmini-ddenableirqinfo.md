@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DDENABLEIRQINFO, *PDDENABLEIRQINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DDENABLEIRQINFO structure

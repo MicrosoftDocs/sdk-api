@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WORDREP_BREAK_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WORDREP_BREAK_TYPE enumeration

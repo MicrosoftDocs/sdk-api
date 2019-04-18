@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIXERCAPSA, *PMIXERCAPSA, *LPMIXERCAPSA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIXERCAPSA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS enumeration

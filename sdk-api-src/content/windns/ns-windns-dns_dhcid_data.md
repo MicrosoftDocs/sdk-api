@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DNS_DHCID_DATA, *PDNS_DHCID_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DNS_DHCID_DATA structure

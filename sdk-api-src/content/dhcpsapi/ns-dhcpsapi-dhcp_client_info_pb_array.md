@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_CLIENT_INFO_PB_ARRAY, *LPDHCP_CLIENT_INFO_PB_ARRAY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_CLIENT_INFO_PB_ARRAY structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROPERTY_METRICS, *PPROPERTY_METRICS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROPERTY_METRICS structure

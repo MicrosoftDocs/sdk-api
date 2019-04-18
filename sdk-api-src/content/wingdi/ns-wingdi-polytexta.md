@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: POLYTEXTA, *PPOLYTEXTA, *NPPOLYTEXTA, *LPPOLYTEXTA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # POLYTEXTA structure

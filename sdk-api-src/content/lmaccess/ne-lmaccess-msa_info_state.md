@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MSA_INFO_STATE, *PMSA_INFO_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MSA_INFO_STATE enumeration

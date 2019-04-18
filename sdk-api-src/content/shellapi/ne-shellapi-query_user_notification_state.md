@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: QUERY_USER_NOTIFICATION_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # QUERY_USER_NOTIFICATION_STATE enumeration

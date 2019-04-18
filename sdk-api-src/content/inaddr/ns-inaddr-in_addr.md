@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: IN_ADDR, *PIN_ADDR, *LPIN_ADDR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IN_ADDR structure

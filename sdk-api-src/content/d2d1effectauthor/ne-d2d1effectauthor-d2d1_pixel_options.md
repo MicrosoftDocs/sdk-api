@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: D2D1_PIXEL_OPTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D2D1_PIXEL_OPTIONS enumeration

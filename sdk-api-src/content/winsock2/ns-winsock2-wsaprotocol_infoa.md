@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSAPROTOCOL_INFOA, *LPWSAPROTOCOL_INFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSAPROTOCOL_INFOA structure

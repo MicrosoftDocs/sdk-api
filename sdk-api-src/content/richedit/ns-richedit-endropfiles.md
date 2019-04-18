@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ENDROPFILES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ENDROPFILES structure

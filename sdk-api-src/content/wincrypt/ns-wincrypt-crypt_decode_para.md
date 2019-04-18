@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_DECODE_PARA, *PCRYPT_DECODE_PARA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_DECODE_PARA structure

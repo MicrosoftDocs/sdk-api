@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LVINSERTMARK, *LPLVINSERTMARK
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LVINSERTMARK structure

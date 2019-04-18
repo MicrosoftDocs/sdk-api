@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA, *PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CF_SET_IN_SYNC_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CF_SET_IN_SYNC_FLAGS enumeration

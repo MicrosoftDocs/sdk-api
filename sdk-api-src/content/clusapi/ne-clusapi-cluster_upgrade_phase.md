@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSTER_UPGRADE_PHASE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSTER_UPGRADE_PHASE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECPKG_CALL_INFO, *PSECPKG_CALL_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECPKG_CALL_INFO structure

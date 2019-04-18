@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FD_DEVICEMETRICS, *PFD_DEVICEMETRICS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FD_DEVICEMETRICS structure

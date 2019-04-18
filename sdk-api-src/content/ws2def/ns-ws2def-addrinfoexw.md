@@ -43,6 +43,7 @@ product: Windows
 targetos: Windows
 req.typenames: ADDRINFOEXW, *PADDRINFOEXW, *LPADDRINFOEXW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ADDRINFOEXW structure

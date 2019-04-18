@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFVideoCompressedInfo
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFVideoCompressedInfo structure

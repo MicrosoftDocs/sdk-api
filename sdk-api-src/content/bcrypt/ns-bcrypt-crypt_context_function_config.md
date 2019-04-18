@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_CONTEXT_FUNCTION_CONFIG, *PCRYPT_CONTEXT_FUNCTION_CONFIG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_CONTEXT_FUNCTION_CONFIG structure

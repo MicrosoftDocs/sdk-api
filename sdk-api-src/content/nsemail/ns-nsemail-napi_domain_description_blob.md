@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NAPI_DOMAIN_DESCRIPTION_BLOB
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NAPI_DOMAIN_DESCRIPTION_BLOB structure

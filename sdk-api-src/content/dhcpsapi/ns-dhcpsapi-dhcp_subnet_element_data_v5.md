@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_SUBNET_ELEMENT_DATA_V5, *LPDHCP_SUBNET_ELEMENT_DATA_V5
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_SUBNET_ELEMENT_DATA_V5 structure

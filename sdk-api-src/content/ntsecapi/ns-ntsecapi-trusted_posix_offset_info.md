@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TRUSTED_POSIX_OFFSET_INFO, *PTRUSTED_POSIX_OFFSET_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TRUSTED_POSIX_OFFSET_INFO structure

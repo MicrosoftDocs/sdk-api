@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS, *PHTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WIN32_STREAM_ID, *LPWIN32_STREAM_ID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WIN32_STREAM_ID structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NOTIFYCANCEL, *LPNOTIFYCANCEL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NOTIFYCANCEL structure

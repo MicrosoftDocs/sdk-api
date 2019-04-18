@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RIORESULT, *PRIORESULT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RIORESULT structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMLINK, *PNMLINK
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMLINK structure

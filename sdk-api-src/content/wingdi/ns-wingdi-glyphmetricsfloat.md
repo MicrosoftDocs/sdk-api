@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GLYPHMETRICSFLOAT, *PGLYPHMETRICSFLOAT, *LPGLYPHMETRICSFLOAT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GLYPHMETRICSFLOAT structure

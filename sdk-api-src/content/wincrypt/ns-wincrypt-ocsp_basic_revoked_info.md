@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OCSP_BASIC_REVOKED_INFO, *POCSP_BASIC_REVOKED_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OCSP_BASIC_REVOKED_INFO structure

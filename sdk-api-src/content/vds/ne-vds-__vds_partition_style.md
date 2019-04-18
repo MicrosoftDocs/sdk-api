@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "__VDS_PARTITION_STYLE"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # __VDS_PARTITION_STYLE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NETLOGON_LOGON_IDENTITY_INFO, *PNETLOGON_LOGON_IDENTITY_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NETLOGON_LOGON_IDENTITY_INFO structure

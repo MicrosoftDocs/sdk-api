@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DEVICE_MEDIA_INFO, *PDEVICE_MEDIA_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DEVICE_MEDIA_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMRCREATEPEN, *PEMRCREATEPEN
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMRCREATEPEN structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_FORCE_FLAG, *LPDHCP_FORCE_FLAG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_FORCE_FLAG enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FWPS_DISCARD_METADATA0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FWPS_DISCARD_METADATA0 structure

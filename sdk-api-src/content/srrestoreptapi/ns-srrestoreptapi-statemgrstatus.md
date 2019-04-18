@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STATEMGRSTATUS, *PSTATEMGRSTATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STATEMGRSTATUS structure

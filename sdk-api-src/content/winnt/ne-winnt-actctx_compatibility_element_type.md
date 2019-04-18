@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ACTCTX_COMPATIBILITY_ELEMENT_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ACTCTX_COMPATIBILITY_ELEMENT_TYPE enumeration

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: ISCSI_TARGET_MAPPINGW, *PISCSI_TARGET_MAPPINGW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ISCSI_TARGET_MAPPINGW structure

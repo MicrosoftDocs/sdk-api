@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FsrmPipelineModuleType
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FsrmPipelineModuleType enumeration

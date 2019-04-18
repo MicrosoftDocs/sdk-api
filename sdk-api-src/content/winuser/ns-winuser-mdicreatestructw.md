@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: MDICREATESTRUCTW, *LPMDICREATESTRUCTW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MDICREATESTRUCTW structure

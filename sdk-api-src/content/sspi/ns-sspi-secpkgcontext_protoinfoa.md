@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_ProtoInfoA, *PSecPkgContext_ProtoInfoA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SecPkgContext_ProtoInfoA structure

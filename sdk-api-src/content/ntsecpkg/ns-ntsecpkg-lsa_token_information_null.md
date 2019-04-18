@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LSA_TOKEN_INFORMATION_NULL, *PLSA_TOKEN_INFORMATION_NULL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LSA_TOKEN_INFORMATION_NULL structure

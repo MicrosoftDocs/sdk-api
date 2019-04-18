@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FsrmPropertyBagFlags
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FsrmPropertyBagFlags enumeration

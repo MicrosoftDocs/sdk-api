@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_MORESURFACECAPS, DD_MORESURFACECAPS"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_MORESURFACECAPS structure

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMCBEENDEDITW, *LPNMCBEENDEDITW, *PNMCBEENDEDITW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMCBEENDEDITW structure

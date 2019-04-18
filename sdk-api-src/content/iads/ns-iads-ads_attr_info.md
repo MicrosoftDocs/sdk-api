@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ADS_ATTR_INFO, *PADS_ATTR_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ADS_ATTR_INFO structure

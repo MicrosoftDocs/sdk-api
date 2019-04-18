@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WCM_TIME_INTERVAL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WCM_TIME_INTERVAL structure

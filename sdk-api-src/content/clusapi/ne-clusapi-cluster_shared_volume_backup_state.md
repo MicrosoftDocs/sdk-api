@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSTER_SHARED_VOLUME_BACKUP_STATE, *PCLUSTER_SHARED_VOLUME_BACKUP_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSTER_SHARED_VOLUME_BACKUP_STATE enumeration

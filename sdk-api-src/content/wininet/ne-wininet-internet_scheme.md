@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: INTERNET_SCHEME, *LPINTERNET_SCHEME
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INTERNET_SCHEME enumeration

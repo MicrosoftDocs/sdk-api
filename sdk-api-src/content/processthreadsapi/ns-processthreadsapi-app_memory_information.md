@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: APP_MEMORY_INFORMATION, *PAPP_MEMORY_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # APP_MEMORY_INFORMATION structure

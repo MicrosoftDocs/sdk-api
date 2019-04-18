@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_IPMCAST_MFE_STATS, *PMIB_IPMCAST_MFE_STATS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_IPMCAST_MFE_STATS structure

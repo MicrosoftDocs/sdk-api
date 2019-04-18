@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TRANSMIT_FILE_BUFFERS, *PTRANSMIT_FILE_BUFFERS, *LPTRANSMIT_FILE_BUFFERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TRANSMIT_FILE_BUFFERS structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EFS_HASH_BLOB, *PEFS_HASH_BLOB
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EFS_HASH_BLOB structure

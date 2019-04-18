@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DMO_OUTPUT_DATA_BUFFER, *PDMO_OUTPUT_DATA_BUFFER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DMO_OUTPUT_DATA_BUFFER structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WICPixelFormatNumericRepresentation
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WICPixelFormatNumericRepresentation enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTS_POLICY_DATA, *PWTS_POLICY_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTS_POLICY_DATA structure

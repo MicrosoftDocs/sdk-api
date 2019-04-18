@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: QOS_EVENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # QOS_EVENT enumeration

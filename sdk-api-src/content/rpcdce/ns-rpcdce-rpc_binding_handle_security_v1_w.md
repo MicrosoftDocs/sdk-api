@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: RPC_BINDING_HANDLE_SECURITY_V1_W, *PRPC_BINDING_HANDLE_SECURITY_V1_W
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RPC_BINDING_HANDLE_SECURITY_V1_W structure

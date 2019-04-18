@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: UNICODE_STRING, *PUNICODE_STRING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # UNICODE_STRING structure

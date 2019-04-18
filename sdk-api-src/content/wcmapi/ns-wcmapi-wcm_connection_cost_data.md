@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WCM_CONNECTION_COST_DATA, *PWCM_CONNECTION_COST_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WCM_CONNECTION_COST_DATA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEER_NODE_INFO, *PPEER_NODE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEER_NODE_INFO structure

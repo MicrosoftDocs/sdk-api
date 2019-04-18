@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: SecPkgInfoA, *PSecPkgInfoA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SecPkgInfoA structure

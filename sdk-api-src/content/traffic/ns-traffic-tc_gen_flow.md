@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TC_GEN_FLOW, *PTC_GEN_FLOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TC_GEN_FLOW structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SAMPLE_PROTECTION_VERSION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SAMPLE_PROTECTION_VERSION enumeration

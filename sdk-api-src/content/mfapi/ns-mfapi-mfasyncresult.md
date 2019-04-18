@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFASYNCRESULT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFASYNCRESULT structure

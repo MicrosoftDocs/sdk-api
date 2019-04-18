@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IPSEC_TUNNEL_ENDPOINTS0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IPSEC_TUNNEL_ENDPOINTS0 structure

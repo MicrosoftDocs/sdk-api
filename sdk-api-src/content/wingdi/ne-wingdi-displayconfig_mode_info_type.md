@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DISPLAYCONFIG_MODE_INFO_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DISPLAYCONFIG_MODE_INFO_TYPE enumeration

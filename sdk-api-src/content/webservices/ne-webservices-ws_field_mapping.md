@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_FIELD_MAPPING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_FIELD_MAPPING enumeration

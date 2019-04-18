@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OLEMENUGROUPWIDTHS, *LPOLEMENUGROUPWIDTHS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OLEMENUGROUPWIDTHS structure

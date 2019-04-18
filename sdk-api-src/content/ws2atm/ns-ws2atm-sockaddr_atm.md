@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: sockaddr_atm, SOCKADDR_ATM, *PSOCKADDR_ATM, *LPSOCKADDR_ATM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # sockaddr_atm structure

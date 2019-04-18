@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SFVM_PROPPAGE_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SFVM_PROPPAGE_DATA structure

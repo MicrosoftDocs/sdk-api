@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MF_OPM_ACP_PROTECTION_LEVEL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MF_OPM_ACP_PROTECTION_LEVEL enumeration

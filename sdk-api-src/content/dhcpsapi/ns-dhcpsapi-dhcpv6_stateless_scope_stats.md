@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCPV6_STATELESS_SCOPE_STATS, *PDHCPV6_STATELESS_SCOPE_STATS, *LPDHCPV6_STATELESS_SCOPE_STATS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCPV6_STATELESS_SCOPE_STATS structure

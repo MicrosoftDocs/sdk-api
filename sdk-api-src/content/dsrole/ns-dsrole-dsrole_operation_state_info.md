@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DSROLE_OPERATION_STATE_INFO, *PDSROLE_OPERATION_STATE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DSROLE_OPERATION_STATE_INFO structure

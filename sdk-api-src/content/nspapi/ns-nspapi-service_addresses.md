@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SERVICE_ADDRESSES, *PSERVICE_ADDRESSES, *LPSERVICE_ADDRESSES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SERVICE_ADDRESSES structure

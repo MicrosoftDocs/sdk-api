@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: UpdateServiceOption
 req.redist: 
+ms.custom: 19H1
 ---
 
 # UpdateServiceOption enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFP_PLAY_EVENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFP_PLAY_EVENT structure

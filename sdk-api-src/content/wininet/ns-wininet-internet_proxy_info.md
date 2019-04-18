@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: INTERNET_PROXY_INFO, *LPINTERNET_PROXY_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INTERNET_PROXY_INFO structure

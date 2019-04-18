@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SET_PARTITION_INFORMATION, *PSET_PARTITION_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SET_PARTITION_INFORMATION structure

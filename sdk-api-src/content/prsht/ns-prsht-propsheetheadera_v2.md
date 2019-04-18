@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROPSHEETHEADERA_V2, *LPPROPSHEETHEADERA_V2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROPSHEETHEADERA_V2 structure

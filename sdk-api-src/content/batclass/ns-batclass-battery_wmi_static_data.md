@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BATTERY_WMI_STATIC_DATA, *PBATTERY_WMI_STATIC_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BATTERY_WMI_STATIC_DATA structure

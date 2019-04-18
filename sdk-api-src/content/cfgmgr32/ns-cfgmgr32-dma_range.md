@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DMA_RANGE, *PDMA_RANGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DMA_RANGE structure

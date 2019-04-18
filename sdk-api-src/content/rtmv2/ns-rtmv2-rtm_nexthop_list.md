@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RTM_NEXTHOP_LIST, *PRTM_NEXTHOP_LIST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RTM_NEXTHOP_LIST structure

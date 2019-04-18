@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUS_DISK_NUMBER_INFO, *PCLUS_DISK_NUMBER_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUS_DISK_NUMBER_INFO structure

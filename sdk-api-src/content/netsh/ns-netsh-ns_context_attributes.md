@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NS_CONTEXT_ATTRIBUTES, *PNS_CONTEXT_ATTRIBUTES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NS_CONTEXT_ATTRIBUTES structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: USAGE_PROPERTIES, *PUSAGE_PROPERTIES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # USAGE_PROPERTIES structure

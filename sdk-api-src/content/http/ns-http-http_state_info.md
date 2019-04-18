@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_STATE_INFO, *PHTTP_STATE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_STATE_INFO structure

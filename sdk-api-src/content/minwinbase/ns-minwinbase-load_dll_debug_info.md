@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LOAD_DLL_DEBUG_INFO, *LPLOAD_DLL_DEBUG_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LOAD_DLL_DEBUG_INFO structure

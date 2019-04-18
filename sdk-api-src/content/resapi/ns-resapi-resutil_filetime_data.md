@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RESUTIL_FILETIME_DATA, *PRESUTIL_FILETIME_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RESUTIL_FILETIME_DATA structure

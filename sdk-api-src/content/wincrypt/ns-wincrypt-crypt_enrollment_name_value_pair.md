@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_ENROLLMENT_NAME_VALUE_PAIR, *PCRYPT_ENROLLMENT_NAME_VALUE_PAIR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_ENROLLMENT_NAME_VALUE_PAIR structure

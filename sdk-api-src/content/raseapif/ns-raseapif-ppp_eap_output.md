@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PPP_EAP_OUTPUT, *PPPP_EAP_OUTPUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PPP_EAP_OUTPUT structure

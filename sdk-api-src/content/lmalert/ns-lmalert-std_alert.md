@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STD_ALERT, *PSTD_ALERT, *LPSTD_ALERT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STD_ALERT structure

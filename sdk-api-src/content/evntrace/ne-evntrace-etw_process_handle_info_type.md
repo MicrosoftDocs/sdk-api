@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ETW_PROCESS_HANDLE_INFO_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ETW_PROCESS_HANDLE_INFO_TYPE enumeration

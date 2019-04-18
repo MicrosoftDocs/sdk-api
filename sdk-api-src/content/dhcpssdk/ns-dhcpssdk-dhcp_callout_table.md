@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_CALLOUT_TABLE, *LPDHCP_CALLOUT_TABLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_CALLOUT_TABLE structure

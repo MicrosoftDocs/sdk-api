@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUS_CHARACTERISTICS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUS_CHARACTERISTICS enumeration

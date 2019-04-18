@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTPAPI_VERSION, *PHTTPAPI_VERSION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTPAPI_VERSION structure

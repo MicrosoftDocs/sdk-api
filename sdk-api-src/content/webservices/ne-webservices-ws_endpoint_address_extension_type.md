@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_ENDPOINT_ADDRESS_EXTENSION_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_ENDPOINT_ADDRESS_EXTENSION_TYPE enumeration

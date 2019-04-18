@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: CBT_CREATEWNDW, *LPCBT_CREATEWNDW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CBT_CREATEWNDW structure

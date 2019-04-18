@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMRCREATEBRUSHINDIRECT, *PEMRCREATEBRUSHINDIRECT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMRCREATEBRUSHINDIRECT structure

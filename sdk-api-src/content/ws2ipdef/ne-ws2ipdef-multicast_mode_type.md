@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MULTICAST_MODE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MULTICAST_MODE_TYPE enumeration

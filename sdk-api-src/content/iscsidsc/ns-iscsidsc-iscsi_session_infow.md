@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: ISCSI_SESSION_INFOW, *PISCSI_SESSION_INFOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ISCSI_SESSION_INFOW structure

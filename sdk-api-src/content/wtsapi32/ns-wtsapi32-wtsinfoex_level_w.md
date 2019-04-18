@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTSINFOEX_LEVEL_W, *PWTSINFOEX_LEVEL_W
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTSINFOEX_LEVEL_W structure

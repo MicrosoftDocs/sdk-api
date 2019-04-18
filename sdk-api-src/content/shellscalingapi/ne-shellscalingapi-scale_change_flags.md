@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SCALE_CHANGE_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SCALE_CHANGE_FLAGS enumeration

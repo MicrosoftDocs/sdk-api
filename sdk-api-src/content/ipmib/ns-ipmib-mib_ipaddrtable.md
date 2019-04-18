@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_IPADDRTABLE, *PMIB_IPADDRTABLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_IPADDRTABLE structure

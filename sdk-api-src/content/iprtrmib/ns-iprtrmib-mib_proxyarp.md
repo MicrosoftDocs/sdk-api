@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_PROXYARP, *PMIB_PROXYARP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_PROXYARP structure

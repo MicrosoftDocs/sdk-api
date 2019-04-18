@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Rights Management Services client v1.0 SP2 or later
+ms.custom: 19H1
 ---
 
 # DRMActivate function

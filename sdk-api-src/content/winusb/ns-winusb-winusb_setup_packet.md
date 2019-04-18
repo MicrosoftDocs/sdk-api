@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WINUSB_SETUP_PACKET, *PWINUSB_SETUP_PACKET
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WINUSB_SETUP_PACKET structure

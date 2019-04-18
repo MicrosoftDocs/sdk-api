@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IKE_AUTHENTICATION_INFORMATION, *PIKE_AUTHENTICATION_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IKE_AUTHENTICATION_INFORMATION structure

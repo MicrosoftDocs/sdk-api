@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYNC_FULL_ENUMERATION_ACTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYNC_FULL_ENUMERATION_ACTION enumeration

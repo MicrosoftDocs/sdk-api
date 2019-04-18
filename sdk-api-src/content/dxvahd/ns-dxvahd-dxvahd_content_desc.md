@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXVAHD_CONTENT_DESC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXVAHD_CONTENT_DESC structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WAVEHDR, *PWAVEHDR, *NPWAVEHDR, *LPWAVEHDR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WAVEHDR structure

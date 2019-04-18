@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ADS_DN_WITH_BINARY, *PADS_DN_WITH_BINARY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ADS_DN_WITH_BINARY structure

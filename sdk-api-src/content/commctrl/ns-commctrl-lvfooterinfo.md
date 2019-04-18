@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LVFOOTERINFO, *LPLVFOOTERINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LVFOOTERINFO structure

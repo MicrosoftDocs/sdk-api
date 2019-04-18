@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DUPLICATE_EXTENTS_DATA, *PDUPLICATE_EXTENTS_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DUPLICATE_EXTENTS_DATA structure

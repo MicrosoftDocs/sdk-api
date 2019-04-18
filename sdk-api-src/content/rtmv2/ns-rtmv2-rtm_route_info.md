@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RTM_ROUTE_INFO, *PRTM_ROUTE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RTM_ROUTE_INFO structure

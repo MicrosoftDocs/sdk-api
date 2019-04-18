@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMRELLIPSE, *PEMRELLIPSE, EMRRECTANGLE, *PEMRRECTANGLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMRELLIPSE structure

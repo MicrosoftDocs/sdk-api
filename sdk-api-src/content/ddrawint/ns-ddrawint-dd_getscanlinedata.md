@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_GETSCANLINEDATA, DD_GETSCANLINEDATA"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_GETSCANLINEDATA structure

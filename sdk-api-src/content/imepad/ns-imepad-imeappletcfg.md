@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMEAPPLETCFG, *LPIMEAPPLETCFG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IMEAPPLETCFG structure

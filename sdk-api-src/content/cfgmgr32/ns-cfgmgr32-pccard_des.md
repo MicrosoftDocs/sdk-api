@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PCCARD_DES, *PPCCARD_DES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PCCARD_DES structure

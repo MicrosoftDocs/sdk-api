@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMAGE_DEBUG_INFORMATION, *PIMAGE_DEBUG_INFORMATION
 req.redist: DbgHelp.dll 5.1 or later
+ms.custom: 19H1
 ---
 
 # IMAGE_DEBUG_INFORMATION structure

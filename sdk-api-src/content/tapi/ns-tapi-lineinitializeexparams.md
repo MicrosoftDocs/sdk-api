@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LINEINITIALIZEEXPARAMS, *LPLINEINITIALIZEEXPARAMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LINEINITIALIZEEXPARAMS structure

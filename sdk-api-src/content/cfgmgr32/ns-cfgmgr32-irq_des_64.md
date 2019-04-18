@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IRQ_DES_64, *PIRQ_DES_64
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IRQ_DES_64 structure

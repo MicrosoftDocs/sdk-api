@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: smiVENDORINFO, *smiLPVENDORINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # smiVENDORINFO structure

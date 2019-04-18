@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXGI_RECLAIM_RESOURCE_RESULTS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXGI_RECLAIM_RESOURCE_RESULTS enumeration

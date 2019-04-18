@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_SubjectAttributes, *PSecPkgContext_SubjectAttributes
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SecPkgContext_SubjectAttributes structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_HW_FIRMWARE_ACTIVATE, *PSTORAGE_HW_FIRMWARE_ACTIVATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STORAGE_HW_FIRMWARE_ACTIVATE structure

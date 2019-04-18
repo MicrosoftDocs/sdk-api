@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CONTEXTMENUITEM2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CONTEXTMENUITEM2 structure

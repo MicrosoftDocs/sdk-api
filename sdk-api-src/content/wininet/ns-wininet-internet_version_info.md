@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: INTERNET_VERSION_INFO, *LPINTERNET_VERSION_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INTERNET_VERSION_INFO structure

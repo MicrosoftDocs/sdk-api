@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY, *PCRYPT_CONTENT_INFO_SEQUENCE_OF_ANY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY structure

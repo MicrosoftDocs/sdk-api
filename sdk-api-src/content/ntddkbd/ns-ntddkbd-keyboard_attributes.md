@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KEYBOARD_ATTRIBUTES, *PKEYBOARD_ATTRIBUTES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KEYBOARD_ATTRIBUTES structure

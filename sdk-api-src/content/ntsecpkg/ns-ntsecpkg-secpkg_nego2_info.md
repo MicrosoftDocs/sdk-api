@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECPKG_NEGO2_INFO, *PSECPKG_NEGO2_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECPKG_NEGO2_INFO structure

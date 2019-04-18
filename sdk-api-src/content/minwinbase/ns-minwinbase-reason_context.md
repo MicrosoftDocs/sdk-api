@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: REASON_CONTEXT, *PREASON_CONTEXT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # REASON_CONTEXT structure

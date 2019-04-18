@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_HWPROVIDER_TYPE
 req.redist: VDS 1.1
+ms.custom: 19H1
 ---
 
 # VDS_HWPROVIDER_TYPE enumeration

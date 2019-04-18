@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MPEG2_FILTER2, *PMPEG2_FILTER2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MPEG2_FILTER2 structure

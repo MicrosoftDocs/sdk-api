@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: REPARSE_GUID_DATA_BUFFER, *PREPARSE_GUID_DATA_BUFFER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # REPARSE_GUID_DATA_BUFFER structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_LOG_FIELDS_DATA, *PHTTP_LOG_FIELDS_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_LOG_FIELDS_DATA structure

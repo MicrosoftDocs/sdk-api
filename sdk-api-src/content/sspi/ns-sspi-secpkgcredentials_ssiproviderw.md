@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: SecPkgCredentials_SSIProviderW, *PSecPkgCredentials_SSIProviderW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SecPkgCredentials_SSIProviderW structure

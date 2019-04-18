@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SOCKADDR_BTH, *PSOCKADDR_BTH
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SOCKADDR_BTH structure

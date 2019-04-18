@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OFFLINEFILES_PATHFILTER_MATCH
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OFFLINEFILES_PATHFILTER_MATCH enumeration

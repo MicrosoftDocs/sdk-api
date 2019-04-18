@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CHANNEL_PDU_HEADER structure

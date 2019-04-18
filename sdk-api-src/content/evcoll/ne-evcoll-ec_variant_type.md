@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EC_VARIANT_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EC_VARIANT_TYPE enumeration

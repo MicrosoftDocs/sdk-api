@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMLVFINDITEMW, *LPNMLVFINDITEMW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMLVFINDITEMW structure

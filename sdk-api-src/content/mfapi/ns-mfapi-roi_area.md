@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ROI_AREA, *PROI_AREA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ROI_AREA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RDC_ErrorCode
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RDC_ErrorCode enumeration

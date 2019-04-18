@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: REBARBANDINFOA, *LPREBARBANDINFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # REBARBANDINFOA structure

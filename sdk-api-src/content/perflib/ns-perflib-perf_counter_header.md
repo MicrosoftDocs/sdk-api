@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PERF_COUNTER_HEADER, *PPERF_COUNTER_HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PERF_COUNTER_HEADER structure

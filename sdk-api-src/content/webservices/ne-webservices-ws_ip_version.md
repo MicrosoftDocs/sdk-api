@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_IP_VERSION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_IP_VERSION enumeration

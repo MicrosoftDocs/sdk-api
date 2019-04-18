@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WIN32_FIND_STREAM_DATA, *PWIN32_FIND_STREAM_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WIN32_FIND_STREAM_DATA structure

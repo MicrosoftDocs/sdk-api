@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DWORD_DWORD, *LPDWORD_DWORD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DWORD_DWORD structure

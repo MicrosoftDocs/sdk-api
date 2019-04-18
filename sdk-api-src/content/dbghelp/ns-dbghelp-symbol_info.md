@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYMBOL_INFO, *PSYMBOL_INFO
 req.redist: DbgHelp.dll 5.1 or later
+ms.custom: 19H1
 ---
 
 # SYMBOL_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_SPN_ENDPOINT_IDENTITY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_SPN_ENDPOINT_IDENTITY structure

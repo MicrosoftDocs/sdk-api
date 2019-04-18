@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D3D_SHADER_CBUFFER_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3D_SHADER_CBUFFER_FLAGS enumeration

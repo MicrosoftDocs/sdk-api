@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LINEAGENTENTRY, *LPLINEAGENTENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LINEAGENTENTRY structure

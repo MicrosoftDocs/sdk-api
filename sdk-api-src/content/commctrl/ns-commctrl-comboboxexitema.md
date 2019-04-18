@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: COMBOBOXEXITEMA, *PCOMBOBOXEXITEMA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # COMBOBOXEXITEMA structure

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: ACTRL_ACCESS_ENTRY_LISTA, *PACTRL_ACCESS_ENTRY_LISTA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ACTRL_ACCESS_ENTRY_LISTA structure

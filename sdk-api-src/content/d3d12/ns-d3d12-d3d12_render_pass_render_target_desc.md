@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D3D12_RENDER_PASS_RENDER_TARGET_DESC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3D12_RENDER_PASS_RENDER_TARGET_DESC structure

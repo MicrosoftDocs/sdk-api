@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_PALETTE_GLOBAL, DD_PALETTE_GLOBAL"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_PALETTE_GLOBAL structure

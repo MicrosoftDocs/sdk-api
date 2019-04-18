@@ -1,0 +1,134 @@
+---
+UID: NF:appmodel.GetCurrentPackagePath2
+title: GetCurrentPackagePath2
+description: Gets the package path for the calling process.
+tech.root: appxpkg
+ms.date: 01/31/19
+ms.keywords: GetCurrentPackagePath2
+ms.topic: function
+req.assembly: 
+req.construct-type: function
+req.ddi-compliance: 
+req.dll: 
+req.header: appmodel.h
+req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
+req.max-support: 
+req.namespace: 
+req.redist: 
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.target-type: Windows
+req.type-library: 
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.umdf-ver: 
+req.unicode-ansi: 
+topic_type:
+ - apiref
+api_type:
+ - 
+api_location:
+ - appmodel.h
+api_name:
+ - GetCurrentPackagePath2
+product: Windows
+targetos: Windows
+ms.custom: 19H1
+---
+
+# GetCurrentPackagePath2 function
+
+## -description
+
+Gets the package path for the calling process, with the option to specify the type of folder path to retrieve for the package.
+
+## -parameters
+
+### -param packagePathType
+
+Type: [**PackagePathType**](ne-appmodel-packagepathtype.md)
+
+Indicates the type of folder path to retrieve for the package (the original install folder or the mutable folder).
+
+### -param pathLength
+
+Type: <b>UINT32*</b>
+
+On input, the size of the <i>path</i> buffer, in characters. On output, the size of the package path returned, in characters, including the null terminator.
+
+### -param path
+
+Type: <b>PWSTR</b>
+
+The package path.
+
+## -returns
+
+Type: <b>LONG</b>
+
+If the function succeeds it returns <b>ERROR_SUCCESS</b>. Otherwise, the function returns an error code. The possible error codes include the following.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>APPMODEL_ERROR_NO_PACKAGE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The process has no package identity.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INSUFFICIENT_BUFFER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The buffer is not large enough to hold the data. The required size is specified  by <i>pathLength</i>.
+
+</td>
+</tr>
+</table>
+
+## -remarks
+
+The *packagePathType* parameter is useful for applications that use the [windows.mutablePackageDirectories extension](https://docs.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-package-extension) in their package manifest. This extension specifies a folder under the %ProgramFiles%\ModifiableWindowsApps path where the contents of the application's install folder are projected so that users can modify the installation files. This feature is currently available only for certain types of desktop PC games that are published by Microsoft and our partners, and it enables these types of games to support mods.
+
+## -see-also
+
+[GetCurrentPackagePath](nf-appmodel-getcurrentpackagepath.md)
+
+
+
+<a href="https://msdn.microsoft.com/39DBFBDD-A1CC-45C3-A5DD-5ED9697F9AFE">GetCurrentPackageFamilyName</a>
+
+
+
+<a href="https://msdn.microsoft.com/D5B00C53-1FBF-4245-92D1-FA39713A9EE7">GetCurrentPackageFullName</a>
+
+
+
+<a href="https://msdn.microsoft.com/4CFC707A-2A5A-41FE-BB5F-6FECACC99271">GetCurrentPackageId</a>
+
+
+
+<a href="https://msdn.microsoft.com/A1887D61-0FAD-4BE8-850F-F104CC074798">GetCurrentPackageInfo</a>
+
+
+
+[GetCurrentPackageInfo2](nf-appmodel-getcurrentpackageinfo2.md)
+
+
+
+<a href="https://msdn.microsoft.com/BDA0DD87-A36D-486B-BF89-EA5CC105C742">GetPackagePath</a>

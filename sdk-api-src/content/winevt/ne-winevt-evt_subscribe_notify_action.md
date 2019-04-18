@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EVT_SUBSCRIBE_NOTIFY_ACTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EVT_SUBSCRIBE_NOTIFY_ACTION enumeration

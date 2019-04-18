@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTS_USER_DATA, *PWTS_USER_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTS_USER_DATA structure

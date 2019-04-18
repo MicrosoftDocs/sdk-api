@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CREATE_DISK_MBR, *PCREATE_DISK_MBR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CREATE_DISK_MBR structure

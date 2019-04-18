@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RASPROJECTION_INFO_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RASPROJECTION_INFO_TYPE enumeration

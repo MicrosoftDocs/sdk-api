@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: URL_SCHEME
 req.redist: 
+ms.custom: 19H1
 ---
 
 # URL_SCHEME enumeration

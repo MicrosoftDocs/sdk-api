@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYNCMGRLOGLEVEL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYNCMGRLOGLEVEL enumeration

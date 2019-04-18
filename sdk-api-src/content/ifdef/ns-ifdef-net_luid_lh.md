@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NET_LUID_LH, *PNET_LUID_LH
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NET_LUID_LH structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DAV_CALLBACK_CRED, *PDAV_CALLBACK_CRED
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DAV_CALLBACK_CRED structure

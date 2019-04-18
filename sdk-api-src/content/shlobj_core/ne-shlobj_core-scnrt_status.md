@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SCNRT_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SCNRT_STATUS enumeration

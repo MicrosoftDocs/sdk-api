@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DRAWDIBTIME, *LPDRAWDIBTIME
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DRAWDIBTIME structure

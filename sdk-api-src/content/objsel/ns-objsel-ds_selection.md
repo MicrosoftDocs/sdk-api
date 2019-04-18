@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DS_SELECTION, *PDS_SELECTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DS_SELECTION structure

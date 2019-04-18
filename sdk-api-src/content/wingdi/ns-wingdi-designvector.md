@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DESIGNVECTOR, *PDESIGNVECTOR, *LPDESIGNVECTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DESIGNVECTOR structure

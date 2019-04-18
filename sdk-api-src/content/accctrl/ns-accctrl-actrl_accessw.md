@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: ACTRL_ACCESSW, *PACTRL_ACCESSW, ACTRL_AUDITW, *PACTRL_AUDITW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ACTRL_ACCESSW structure

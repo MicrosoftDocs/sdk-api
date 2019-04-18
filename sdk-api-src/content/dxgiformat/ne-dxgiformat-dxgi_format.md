@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXGI_FORMAT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXGI_FORMAT enumeration

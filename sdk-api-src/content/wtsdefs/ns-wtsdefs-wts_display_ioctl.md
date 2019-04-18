@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTS_DISPLAY_IOCTL, *PWTS_DISPLAY_IOCTL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTS_DISPLAY_IOCTL structure

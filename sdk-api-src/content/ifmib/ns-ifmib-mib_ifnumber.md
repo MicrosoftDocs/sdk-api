@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_IFNUMBER, *PMIB_IFNUMBER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_IFNUMBER structure

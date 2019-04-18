@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WLAN_CONNECTION_ATTRIBUTES, *PWLAN_CONNECTION_ATTRIBUTES
 req.redist: Wireless LAN API for Windows XP with SP2
+ms.custom: 19H1
 ---
 
 # WLAN_CONNECTION_ATTRIBUTES structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OPC_COMPRESSION_OPTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OPC_COMPRESSION_OPTIONS enumeration

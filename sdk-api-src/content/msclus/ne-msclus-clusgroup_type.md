@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSGROUP_TYPE, *PCLUSGROUP_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSGROUP_TYPE enumeration

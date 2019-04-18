@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CACHE_RELATIONSHIP, *PCACHE_RELATIONSHIP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CACHE_RELATIONSHIP structure

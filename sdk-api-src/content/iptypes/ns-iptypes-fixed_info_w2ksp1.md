@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FIXED_INFO_W2KSP1, *PFIXED_INFO_W2KSP1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FIXED_INFO_W2KSP1 structure

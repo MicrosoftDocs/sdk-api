@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MESSAGE_RESOURCE_ENTRY, *PMESSAGE_RESOURCE_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MESSAGE_RESOURCE_ENTRY structure

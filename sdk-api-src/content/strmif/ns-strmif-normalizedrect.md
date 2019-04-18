@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NORMALIZEDRECT, *PNORMALIZEDRECT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NORMALIZEDRECT structure

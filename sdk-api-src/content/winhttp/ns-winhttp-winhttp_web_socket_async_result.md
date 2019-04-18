@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WINHTTP_WEB_SOCKET_ASYNC_RESULT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WINHTTP_WEB_SOCKET_ASYNC_RESULT structure

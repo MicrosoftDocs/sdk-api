@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIXERCONTROLA, *PMIXERCONTROLA, *LPMIXERCONTROLA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIXERCONTROLA structure

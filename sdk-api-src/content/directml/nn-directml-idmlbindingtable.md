@@ -1,0 +1,164 @@
+---
+UID: NN:directml.IDMLBindingTable
+title: IDMLBindingTable
+author: windows-sdk-content
+description: Wraps a range of an application-managed descriptor heap, and is used by DirectML to create bindings for resources. To create this object, call IDMLDevice::CreateBindingTable.
+old-location: direct3d12\idmlbindingtable.htm
+tech.root: direct3d12
+ms.assetid: ED3D6CCD-BBF5-4CA6-BA59-F8B3FEE40DA1
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: IDMLBindingTable, IDMLBindingTable interface, IDMLBindingTable interface,described, direct3d12.idmlbindingtable, directml/IDMLBindingTable
+ms.topic: interface
+req.header: directml.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectML.h
+api_name:
+ - IDMLBindingTable
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+ms.custom: 19H1
+---
+
+# IDMLBindingTable interface
+
+
+## -description
+
+
+
+
+
+
+Wraps a range of an application-managed descriptor heap, and is used by DirectML to create bindings for resources.
+    To create this object, call [IDMLDevice::CreateBindingTable](/windows/desktop/api/directml/nf-directml-idmldevice-createbindingtable).
+
+The binding table is created over a range of CPU and GPU descriptor handles. When an IDMLBindingTable::Bind* method is called,
+    DirectML writes one or more descriptors into the range of CPU descriptors. When you use the binding table during
+    a call to [IDMLCommandRecorder::RecordDispatch](/windows/desktop/api/directml/nf-directml-idmlcommandrecorder-recorddispatch), DirectML binds the corresponding GPU descriptors to the pipeline.
+
+The CPU and GPU descriptor handles aren't required to point to the same entries in a descriptor heap, however it
+    is then your application's responsibility to ensure that the entire descriptor range referred to by the CPU
+    descriptor handle is copied into the range referred to by the GPU descriptor handle prior to execution using this
+    binding table.
+
+It is your application's responsibility to perform correct synchronization between the CPU and GPU work that uses
+    this binding table. For example, you must take care not to overwrite the bindings created by the binding
+    table (for example, by calling Bind* again on the binding table, or by overwriting the descriptor heap manually) until
+    all work using the binding table has completed execution on the GPU. In addition, since the binding table doesn't
+    maintain a reference on the descriptor heap it writes into, you must not release the backing
+    shader-visible descriptor heap until all work using that binding table has completed execution on the GPU.
+
+
+        The binding table is associated with exactly one dispatchable object (an operator initializer, or a compiled operator), and represents the bindings for that
+        particular object. You can reuse a binding table by calling [IDMLBindingTable::Reset](/windows/desktop/api/directml/nf-directml-idmlbindingtable-reset), however. Note that since the
+    binding table doesn't own the descriptor heap itself, it is safe to call <b>Reset</b> and reuse the binding table for a
+    different dispatchable object even before any outstanding executions have completed on the GPU.
+
+The binding table doesn't keep strong references on any resources bound using it—your application must
+    ensure that resources are not deleted while still in use by the GPU.
+
+This object is not thread safe—your application must not call methods on the binding table simultaneously from
+    different threads without synchronization.
+
+
+## -inheritance
+
+The **IDMLBindingTable** interface inherits from [IDMLDeviceChild](/windows/desktop/api/directml/nn-directml-idmldevicechild). <b>IDMLBindingTable</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
+## -members
+
+The <b>IDMLBindingTable</b> interface has these methods.
+<table class="members" id="memberListMethods">
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="/windows/desktop/api/directml/nf-directml-idmlbindingtable-bindinputs">BindInputs</a>
+</td>
+<td align="left" width="63%">
+Binds a set of resources as input tensors.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="/windows/desktop/api/directml/nf-directml-idmlbindingtable-bindoutputs">BindOutputs</a>
+</td>
+<td align="left" width="63%">
+Binds a set of resources as output tensors.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="/windows/desktop/api/directml/nf-directml-idmlbindingtable-bindpersistentresource">BindPersistentResource</a>
+</td>
+<td align="left" width="63%">
+Binds a buffer as a persistent resource. You can determine the required size of this buffer range by calling [IDMLDispatchable::GetBindingProperties](/windows/desktop/api/directml/nf-directml-idmldispatchable-getbindingproperties).
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="/windows/desktop/api/directml/nf-directml-idmlbindingtable-bindtemporaryresource">BindTemporaryResource</a>
+</td>
+<td align="left" width="63%">
+Binds a buffer to use as temporary scratch memory. You can determine the required size of this buffer range by calling <a href="/windows/desktop/api/directml/nf-directml-idmldispatchable-getbindingproperties">IDMLDispatchable::GetBindingProperties</a>.
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/85A816F8-CD3A-43B0-B63C-C58BC47438B1">Reset</a>
+</td>
+<td align="left" width="63%">
+Resets the binding table to wrap a new range of descriptors, potentially for a different operator or
+        initializer. This allows dynamic reuse of the binding table.
+
+</td>
+</tr>
+</table> 
+
+
+## -see-also
+
+
+
+
+<a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
+
+
+
+[IDMLDeviceChild](/windows/desktop/api/directml/nn-directml-idmldevicechild)
+ 
+
+ 
+

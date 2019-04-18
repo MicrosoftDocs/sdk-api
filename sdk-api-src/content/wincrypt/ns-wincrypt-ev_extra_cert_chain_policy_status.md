@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EV_EXTRA_CERT_CHAIN_POLICY_STATUS, *PEV_EXTRA_CERT_CHAIN_POLICY_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EV_EXTRA_CERT_CHAIN_POLICY_STATUS structure

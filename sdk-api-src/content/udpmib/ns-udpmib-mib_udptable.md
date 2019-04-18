@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_UDPTABLE, *PMIB_UDPTABLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_UDPTABLE structure

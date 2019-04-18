@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IP_ADAPTER_ANYCAST_ADDRESS_XP, *PIP_ADAPTER_ANYCAST_ADDRESS_XP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IP_ADAPTER_ANYCAST_ADDRESS_XP structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYSTEM_BATTERY_STATE, *PSYSTEM_BATTERY_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYSTEM_BATTERY_STATE structure

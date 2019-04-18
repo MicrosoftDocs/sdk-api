@@ -43,6 +43,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.8 or later
+ms.custom: 19H1
 ---
 
 # SymEnumTypesByName function

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: APOInitSystemEffects2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # APOInitSystemEffects2 structure

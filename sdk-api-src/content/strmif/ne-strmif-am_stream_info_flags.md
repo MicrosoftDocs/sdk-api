@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AM_STREAM_INFO_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AM_STREAM_INFO_FLAGS enumeration

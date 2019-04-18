@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ACCEL, *LPACCEL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ACCEL structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NAMED_ENTITY_CERTAINTY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NAMED_ENTITY_CERTAINTY enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TEXTRANGE_PROPERTIES
 req.redist: Usp10.dll version 1.600 or greater onWindows XP
+ms.custom: 19H1
 ---
 
 # TEXTRANGE_PROPERTIES structure

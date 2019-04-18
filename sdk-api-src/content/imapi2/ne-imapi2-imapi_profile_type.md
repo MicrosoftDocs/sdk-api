@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMAPI_PROFILE_TYPE, *PIMAPI_PROFILE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IMAPI_PROFILE_TYPE enumeration

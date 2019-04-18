@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OLEVERB, *LPOLEVERB
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OLEVERB structure

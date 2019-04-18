@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WIN32_FILE_ATTRIBUTE_DATA, *LPWIN32_FILE_ATTRIBUTE_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WIN32_FILE_ATTRIBUTE_DATA structure

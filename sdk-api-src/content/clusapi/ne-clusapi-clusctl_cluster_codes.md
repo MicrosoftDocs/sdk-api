@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSCTL_CLUSTER_CODES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSCTL_CLUSTER_CODES enumeration

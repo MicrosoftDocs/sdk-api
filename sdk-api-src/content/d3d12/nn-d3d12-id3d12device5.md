@@ -35,12 +35,12 @@ api_type:
 api_location:
  - D3d12.dll
 api_name:
- - ID3D122Device5
+ - ID3D12Device5
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: RS5
+ms.custom: RS5, 19H1
 ---
 
 # ID3D12Device5 interface
@@ -54,14 +54,14 @@ Represents a virtual adapter. This interface extends <b>ID3D12Device4</b>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D122Device5</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D12Device5</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12Device5</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D12Device5</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
 
-The <b>ID3D122Device5</b> interface has these methods.
+The <b>ID3D12Device5</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
 <th align="left" width="37%">Method</th>

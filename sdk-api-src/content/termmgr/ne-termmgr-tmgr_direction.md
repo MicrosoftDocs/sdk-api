@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TMGR_DIRECTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TMGR_DIRECTION enumeration

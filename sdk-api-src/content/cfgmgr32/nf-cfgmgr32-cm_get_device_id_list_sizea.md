@@ -44,6 +44,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CM_Get_Device_ID_List_SizeA function

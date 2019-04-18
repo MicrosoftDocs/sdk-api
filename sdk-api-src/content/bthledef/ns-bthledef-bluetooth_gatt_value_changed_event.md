@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BLUETOOTH_GATT_VALUE_CHANGED_EVENT, *PBLUETOOTH_GATT_VALUE_CHANGED_EVENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BLUETOOTH_GATT_VALUE_CHANGED_EVENT structure

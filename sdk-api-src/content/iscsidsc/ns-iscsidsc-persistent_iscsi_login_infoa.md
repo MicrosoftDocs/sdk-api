@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: PERSISTENT_ISCSI_LOGIN_INFOA, *PPERSISTENT_ISCSI_LOGIN_INFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PERSISTENT_ISCSI_LOGIN_INFOA structure

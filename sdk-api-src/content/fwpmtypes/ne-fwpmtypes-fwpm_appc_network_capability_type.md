@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FWPM_APPC_NETWORK_CAPABILITY_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FWPM_APPC_NETWORK_CAPABILITY_TYPE enumeration

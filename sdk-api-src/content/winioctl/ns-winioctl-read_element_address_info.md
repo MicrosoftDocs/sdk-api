@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: READ_ELEMENT_ADDRESS_INFO, *PREAD_ELEMENT_ADDRESS_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # READ_ELEMENT_ADDRESS_INFO structure

@@ -39,6 +39,7 @@ product: Windows
 targetos: Windows
 req.typenames: JChColorF
 req.redist: 
+ms.custom: 19H1
 ---
 
 # JChColorF structure

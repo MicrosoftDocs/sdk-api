@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Intel Itanium edition of Windows Server 2003 or     Windows XP
+ms.custom: 19H1
 ---
 
 # RtlUnwind2 function

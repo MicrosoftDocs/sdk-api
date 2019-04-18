@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TOKENBINDING_RESULT_LIST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TOKENBINDING_RESULT_LIST structure

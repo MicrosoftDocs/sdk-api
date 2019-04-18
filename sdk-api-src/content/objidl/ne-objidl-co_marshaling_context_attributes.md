@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CO_MARSHALING_CONTEXT_ATTRIBUTES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CO_MARSHALING_CONTEXT_ATTRIBUTES enumeration

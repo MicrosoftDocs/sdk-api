@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WLX_NOTIFICATION_INFO, *PWLX_NOTIFICATION_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WLX_NOTIFICATION_INFO structure

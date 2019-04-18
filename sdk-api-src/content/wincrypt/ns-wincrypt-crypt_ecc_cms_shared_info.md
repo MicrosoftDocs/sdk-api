@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_ECC_CMS_SHARED_INFO, *PCRYPT_ECC_CMS_SHARED_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_ECC_CMS_SHARED_INFO structure

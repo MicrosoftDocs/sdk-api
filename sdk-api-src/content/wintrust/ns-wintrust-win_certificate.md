@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WIN_CERTIFICATE, *LPWIN_CERTIFICATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WIN_CERTIFICATE structure

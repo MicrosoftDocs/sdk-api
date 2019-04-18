@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WLAN_STATISTICS, *PWLAN_STATISTICS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WLAN_STATISTICS structure

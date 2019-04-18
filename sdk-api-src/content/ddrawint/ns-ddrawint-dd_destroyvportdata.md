@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_DESTROYVPORTDATA, DD_DESTROYVPORTDATA"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_DESTROYVPORTDATA structure

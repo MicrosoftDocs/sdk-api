@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WIA_PROPID_TO_NAME, *PWIA_PROPID_TO_NAME
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WIA_PROPID_TO_NAME structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSANETWORKEVENTS, *LPWSANETWORKEVENTS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSANETWORKEVENTS structure

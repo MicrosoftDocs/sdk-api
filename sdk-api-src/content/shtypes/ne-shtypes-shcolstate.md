@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SHCOLSTATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SHCOLSTATE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RM_SENDER_STATS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RM_SENDER_STATS structure

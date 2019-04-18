@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WNV_IP_ADDRESS, *PWNV_IP_ADDRESS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WNV_IP_ADDRESS structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RIO_BUF, *PRIO_BUF
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RIO_BUF structure

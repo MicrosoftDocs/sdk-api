@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RGBQUAD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RGBQUAD structure

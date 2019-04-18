@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: POINTER_TYPE_INFO, *PPOINTER_TYPE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # POINTER_TYPE_INFO structure

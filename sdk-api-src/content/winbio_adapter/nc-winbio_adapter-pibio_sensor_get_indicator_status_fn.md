@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PIBIO_SENSOR_GET_INDICATOR_STATUS_FN callback function

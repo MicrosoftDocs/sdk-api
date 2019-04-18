@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXGI_DEBUG_RLO_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXGI_DEBUG_RLO_FLAGS enumeration

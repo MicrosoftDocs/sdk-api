@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.1
+ms.custom: 19H1
 ---
 
 # ColorCurve::ColorCurve

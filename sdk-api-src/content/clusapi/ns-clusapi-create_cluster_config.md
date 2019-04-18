@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CREATE_CLUSTER_CONFIG, *PCREATE_CLUSTER_CONFIG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CREATE_CLUSTER_CONFIG structure

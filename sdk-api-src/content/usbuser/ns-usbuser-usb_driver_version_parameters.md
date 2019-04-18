@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: USB_DRIVER_VERSION_PARAMETERS, *PUSB_DRIVER_VERSION_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # USB_DRIVER_VERSION_PARAMETERS structure

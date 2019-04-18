@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NET_PHYSICAL_LOCATION_LH, *PNET_PHYSICAL_LOCATION_LH
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NET_PHYSICAL_LOCATION_LH structure

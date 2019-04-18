@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OPC_SIGNATURE_TIME_FORMAT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OPC_SIGNATURE_TIME_FORMAT enumeration

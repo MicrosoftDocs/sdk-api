@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_FILTER_LIST_TYPE, *LPDHCP_FILTER_LIST_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_FILTER_LIST_TYPE enumeration

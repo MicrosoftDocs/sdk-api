@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_PAIR, *PCERT_PAIR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_PAIR structure

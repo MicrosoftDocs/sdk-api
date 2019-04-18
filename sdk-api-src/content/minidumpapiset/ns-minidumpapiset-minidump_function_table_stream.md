@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_FUNCTION_TABLE_STREAM, *PMINIDUMP_FUNCTION_TABLE_STREAM
 req.redist: DbgHelp.dll 5.1 or later
+ms.custom: 19H1
 ---
 
 # MINIDUMP_FUNCTION_TABLE_STREAM structure

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: DS_DOMAIN_CONTROLLER_INFO_2A, *PDS_DOMAIN_CONTROLLER_INFO_2A
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DS_DOMAIN_CONTROLLER_INFO_2A structure

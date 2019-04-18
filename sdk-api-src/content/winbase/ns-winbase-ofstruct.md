@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OFSTRUCT, *LPOFSTRUCT, *POFSTRUCT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OFSTRUCT structure

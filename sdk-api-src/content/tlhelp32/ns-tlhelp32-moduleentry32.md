@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: MODULEENTRY32
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MODULEENTRY32 structure

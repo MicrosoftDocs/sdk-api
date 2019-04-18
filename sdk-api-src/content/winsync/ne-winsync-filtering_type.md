@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILTERING_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILTERING_TYPE enumeration

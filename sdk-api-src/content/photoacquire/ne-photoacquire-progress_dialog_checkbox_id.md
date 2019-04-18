@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROGRESS_DIALOG_CHECKBOX_ID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROGRESS_DIALOG_CHECKBOX_ID enumeration

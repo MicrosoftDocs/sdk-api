@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: XHR_CRED_PROMPT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XHR_CRED_PROMPT enumeration

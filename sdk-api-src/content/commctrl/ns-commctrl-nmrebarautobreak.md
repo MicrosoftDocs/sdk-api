@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMREBARAUTOBREAK, *LPNMREBARAUTOBREAK
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMREBARAUTOBREAK structure

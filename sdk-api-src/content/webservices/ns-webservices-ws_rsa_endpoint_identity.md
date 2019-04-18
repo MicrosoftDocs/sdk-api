@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_RSA_ENDPOINT_IDENTITY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_RSA_ENDPOINT_IDENTITY structure

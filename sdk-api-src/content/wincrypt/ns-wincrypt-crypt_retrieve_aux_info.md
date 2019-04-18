@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_RETRIEVE_AUX_INFO, *PCRYPT_RETRIEVE_AUX_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_RETRIEVE_AUX_INFO structure

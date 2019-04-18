@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TRUSTED_INFORMATION_CLASS enumeration

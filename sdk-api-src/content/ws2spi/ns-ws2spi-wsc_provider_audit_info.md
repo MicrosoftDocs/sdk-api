@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSC_PROVIDER_AUDIT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSC_PROVIDER_AUDIT_INFO structure

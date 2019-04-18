@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DRM_PLAY_OPL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DRM_PLAY_OPL structure

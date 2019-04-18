@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_CUSTOM_CHANNEL_CALLBACKS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_CUSTOM_CHANNEL_CALLBACKS structure

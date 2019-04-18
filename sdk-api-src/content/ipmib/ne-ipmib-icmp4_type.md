@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: ICMP4_TYPE, *PICMP4_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ICMP4_TYPE enumeration

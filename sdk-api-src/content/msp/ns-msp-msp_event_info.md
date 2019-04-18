@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MSP_EVENT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MSP_EVENT_INFO structure

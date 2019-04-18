@@ -39,6 +39,7 @@ product: Windows
 targetos: Windows
 req.typenames: RESOURCE_STATUS_EX, *PRESOURCE_STATUS_EX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RESOURCE_STATUS_EX structure

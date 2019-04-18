@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DETAILSINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DETAILSINFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SP_ORIGINAL_FILE_INFO_W, *PSP_ORIGINAL_FILE_INFO_W
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SP_ORIGINAL_FILE_INFO_W structure

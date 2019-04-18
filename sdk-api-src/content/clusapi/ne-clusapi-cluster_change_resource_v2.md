@@ -39,6 +39,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSTER_CHANGE_RESOURCE_V2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSTER_CHANGE_RESOURCE_V2 enumeration

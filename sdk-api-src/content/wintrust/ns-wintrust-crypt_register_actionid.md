@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_REGISTER_ACTIONID, *PCRYPT_REGISTER_ACTIONID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_REGISTER_ACTIONID structure

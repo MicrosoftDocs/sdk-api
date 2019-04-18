@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OCTET_STRING, *POCTET_STRING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OCTET_STRING structure

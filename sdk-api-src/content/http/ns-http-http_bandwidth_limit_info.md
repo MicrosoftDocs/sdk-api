@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_BANDWIDTH_LIMIT_INFO, *PHTTP_BANDWIDTH_LIMIT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_BANDWIDTH_LIMIT_INFO structure

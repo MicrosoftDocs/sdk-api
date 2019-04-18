@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BG_JOB_PROGRESS
 req.redist: 
+ms.custom: 19H1
 ---
 
 ## -description

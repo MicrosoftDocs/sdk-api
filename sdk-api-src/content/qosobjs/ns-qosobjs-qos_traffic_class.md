@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: QOS_TRAFFIC_CLASS, *LPQOS_TRAFFIC_CLASS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # QOS_TRAFFIC_CLASS structure

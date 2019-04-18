@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D3D12_MULTISAMPLE_QUALITY_LEVEL_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3D12_MULTISAMPLE_QUALITY_LEVEL_FLAGS enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXVAHD_RATIONAL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXVAHD_RATIONAL structure

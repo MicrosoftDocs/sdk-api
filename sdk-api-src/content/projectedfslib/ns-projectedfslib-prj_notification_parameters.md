@@ -40,7 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PRJ_NOTIFICATION_PARAMETERS
 req.redist: 
-ms.custom: RS5
+ms.custom: RS5, 19H1
 ---
 
 # PRJ_NOTIFICATION_PARAMETERS structure

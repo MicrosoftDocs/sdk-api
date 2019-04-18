@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: OLEUIOBJECTPROPSW, *POLEUIOBJECTPROPSW, *LPOLEUIOBJECTPROPSW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OLEUIOBJECTPROPSW structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DSREG_JOIN_INFO, *PDSREG_JOIN_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DSREG_JOIN_INFO structure

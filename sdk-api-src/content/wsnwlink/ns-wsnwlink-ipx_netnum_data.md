@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IPX_NETNUM_DATA, *PIPX_NETNUM_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IPX_NETNUM_DATA structure

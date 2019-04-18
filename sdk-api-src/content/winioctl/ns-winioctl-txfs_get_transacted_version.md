@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TXFS_GET_TRANSACTED_VERSION, *PTXFS_GET_TRANSACTED_VERSION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TXFS_GET_TRANSACTED_VERSION structure

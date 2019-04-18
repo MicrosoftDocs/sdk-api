@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_PKCS8_EXPORT_PARAMS, *PCRYPT_PKCS8_EXPORT_PARAMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_PKCS8_EXPORT_PARAMS structure

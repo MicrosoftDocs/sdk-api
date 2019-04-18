@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EVENT_INSTANCE_HEADER, *PEVENT_INSTANCE_HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EVENT_INSTANCE_HEADER structure

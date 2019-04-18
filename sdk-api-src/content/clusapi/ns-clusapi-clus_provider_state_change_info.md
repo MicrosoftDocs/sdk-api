@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUS_PROVIDER_STATE_CHANGE_INFO, *PCLUS_PROVIDER_STATE_CHANGE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUS_PROVIDER_STATE_CHANGE_INFO structure

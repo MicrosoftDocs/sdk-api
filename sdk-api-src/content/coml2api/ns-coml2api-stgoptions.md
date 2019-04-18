@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STGOPTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STGOPTIONS structure

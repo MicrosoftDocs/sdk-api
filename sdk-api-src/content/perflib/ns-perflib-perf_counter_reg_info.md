@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PERF_COUNTER_REG_INFO, *PPERF_COUNTER_REG_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PERF_COUNTER_REG_INFO structure

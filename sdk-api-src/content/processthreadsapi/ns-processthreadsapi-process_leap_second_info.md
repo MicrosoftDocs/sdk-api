@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROCESS_LEAP_SECOND_INFO, *PPROCESS_LEAP_SECOND_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROCESS_LEAP_SECOND_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFP_ACQUIRE_USER_CREDENTIAL_EVENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFP_ACQUIRE_USER_CREDENTIAL_EVENT structure

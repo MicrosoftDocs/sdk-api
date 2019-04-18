@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: INET_PORT_RESERVATION_TOKEN, *PINET_PORT_RESERVATION_TOKEN
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INET_PORT_RESERVATION_TOKEN structure

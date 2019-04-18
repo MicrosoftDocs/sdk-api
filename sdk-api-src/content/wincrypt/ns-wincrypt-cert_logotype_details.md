@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_LOGOTYPE_DETAILS, *PCERT_LOGOTYPE_DETAILS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_LOGOTYPE_DETAILS structure

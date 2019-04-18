@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SERVICE_DELAYED_AUTO_START_INFO, *LPSERVICE_DELAYED_AUTO_START_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SERVICE_DELAYED_AUTO_START_INFO structure

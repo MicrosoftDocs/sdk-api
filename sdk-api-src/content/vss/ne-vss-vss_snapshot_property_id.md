@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VSS_SNAPSHOT_PROPERTY_ID, *PVSS_SNAPSHOT_PROPERTY_ID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VSS_SNAPSHOT_PROPERTY_ID enumeration

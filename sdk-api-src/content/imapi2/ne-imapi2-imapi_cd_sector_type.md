@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMAPI_CD_SECTOR_TYPE, *PIMAPI_CD_SECTOR_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IMAPI_CD_SECTOR_TYPE enumeration

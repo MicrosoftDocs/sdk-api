@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TASK_TRIGGER, *PTASK_TRIGGER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TASK_TRIGGER structure

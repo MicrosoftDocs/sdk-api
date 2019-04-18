@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_DATA_CHUNK_TYPE, *PHTTP_DATA_CHUNK_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_DATA_CHUNK_TYPE enumeration

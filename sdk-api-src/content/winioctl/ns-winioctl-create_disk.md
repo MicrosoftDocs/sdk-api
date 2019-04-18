@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CREATE_DISK, *PCREATE_DISK
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CREATE_DISK structure

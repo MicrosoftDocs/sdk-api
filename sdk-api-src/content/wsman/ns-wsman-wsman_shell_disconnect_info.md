@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSMAN_SHELL_DISCONNECT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSMAN_SHELL_DISCONNECT_INFO structure

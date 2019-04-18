@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IWindowsDriverUpdate4::get_WindowsDriverUpdateEntries

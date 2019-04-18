@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFT_INPUT_STREAM_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFT_INPUT_STREAM_INFO structure

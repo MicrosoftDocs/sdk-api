@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_CUSTOM_HTTP_PROXY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_CUSTOM_HTTP_PROXY structure

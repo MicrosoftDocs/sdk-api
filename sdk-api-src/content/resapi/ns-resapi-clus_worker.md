@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUS_WORKER, *PCLUS_WORKER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUS_WORKER structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CREATE_PROCESS_DEBUG_INFO, *LPCREATE_PROCESS_DEBUG_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CREATE_PROCESS_DEBUG_INFO structure

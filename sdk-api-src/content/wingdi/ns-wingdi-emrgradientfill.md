@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMRGRADIENTFILL, *PEMRGRADIENTFILL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMRGRADIENTFILL structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DBSORTINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DBSORTINFO structure

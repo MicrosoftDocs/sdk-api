@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ROUTER_CONNECTION_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ROUTER_CONNECTION_STATE enumeration

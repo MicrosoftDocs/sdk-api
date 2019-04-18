@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CMSG_CMS_SIGNER_INFO, *PCMSG_CMS_SIGNER_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CMSG_CMS_SIGNER_INFO structure

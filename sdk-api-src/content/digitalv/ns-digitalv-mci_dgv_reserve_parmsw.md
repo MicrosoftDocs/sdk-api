@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MCI_DGV_RESERVE_PARMSW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MCI_DGV_RESERVE_PARMSW structure

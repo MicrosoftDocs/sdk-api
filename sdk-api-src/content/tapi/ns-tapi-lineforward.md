@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LINEFORWARD, *LPLINEFORWARD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LINEFORWARD structure

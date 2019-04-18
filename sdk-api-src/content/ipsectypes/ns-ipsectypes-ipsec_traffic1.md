@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IPSEC_TRAFFIC1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IPSEC_TRAFFIC1 structure

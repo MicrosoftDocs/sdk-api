@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_ICMP, *PMIB_ICMP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_ICMP structure

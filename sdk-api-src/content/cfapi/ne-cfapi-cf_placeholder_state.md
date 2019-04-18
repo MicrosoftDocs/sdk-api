@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CF_PLACEHOLDER_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CF_PLACEHOLDER_STATE enumeration

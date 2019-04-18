@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: JOYCAPSW, *PJOYCAPSW, *NPJOYCAPSW, *LPJOYCAPSW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # JOYCAPSW structure

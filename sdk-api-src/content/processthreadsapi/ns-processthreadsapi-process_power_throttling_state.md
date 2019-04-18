@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROCESS_POWER_THROTTLING_STATE, *PPROCESS_POWER_THROTTLING_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROCESS_POWER_THROTTLING_STATE structure

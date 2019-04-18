@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: DS_DOMAIN_TRUSTSA, *PDS_DOMAIN_TRUSTSA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DS_DOMAIN_TRUSTSA structure

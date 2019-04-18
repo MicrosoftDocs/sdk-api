@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: POWER_ACTION_POLICY, *PPOWER_ACTION_POLICY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # POWER_ACTION_POLICY structure

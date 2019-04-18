@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BITS_JOB_TRANSFER_POLICY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BITS_JOB_TRANSFER_POLICY enumeration

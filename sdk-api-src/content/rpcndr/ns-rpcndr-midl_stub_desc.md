@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIDL_STUB_DESC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIDL_STUB_DESC structure

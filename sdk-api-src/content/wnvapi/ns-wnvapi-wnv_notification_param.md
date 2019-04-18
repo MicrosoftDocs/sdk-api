@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WNV_NOTIFICATION_PARAM, *PWNV_NOTIFICATION_PARAM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WNV_NOTIFICATION_PARAM structure

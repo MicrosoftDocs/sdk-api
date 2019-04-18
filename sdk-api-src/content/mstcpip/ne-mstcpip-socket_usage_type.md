@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SOCKET_USAGE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SOCKET_USAGE_TYPE enumeration

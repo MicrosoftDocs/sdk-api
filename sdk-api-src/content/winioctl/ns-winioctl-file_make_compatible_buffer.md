@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_MAKE_COMPATIBLE_BUFFER, *PFILE_MAKE_COMPATIBLE_BUFFER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILE_MAKE_COMPATIBLE_BUFFER structure

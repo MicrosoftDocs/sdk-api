@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SIP_DISPATCH_INFO, *LPSIP_DISPATCH_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SIP_DISPATCH_INFO structure

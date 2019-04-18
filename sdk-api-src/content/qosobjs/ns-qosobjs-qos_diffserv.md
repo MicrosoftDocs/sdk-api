@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: QOS_DIFFSERV, *LPQOS_DIFFSERV
 req.redist: 
+ms.custom: 19H1
 ---
 
 # QOS_DIFFSERV structure

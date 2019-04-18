@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: COMPATIBILITY_CONTEXT_ELEMENT, *PCOMPATIBILITY_CONTEXT_ELEMENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # COMPATIBILITY_CONTEXT_ELEMENT structure

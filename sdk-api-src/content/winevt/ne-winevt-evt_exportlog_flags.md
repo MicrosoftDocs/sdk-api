@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EVT_EXPORTLOG_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EVT_EXPORTLOG_FLAGS enumeration

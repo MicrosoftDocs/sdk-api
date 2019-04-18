@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BCRYPT_RSAKEY_BLOB
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BCRYPT_RSAKEY_BLOB structure

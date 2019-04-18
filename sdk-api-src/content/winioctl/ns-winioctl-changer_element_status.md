@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CHANGER_ELEMENT_STATUS, *PCHANGER_ELEMENT_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CHANGER_ELEMENT_STATUS structure

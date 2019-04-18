@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROCESS_MEMORY_EXHAUSTION_INFO, *PPROCESS_MEMORY_EXHAUSTION_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROCESS_MEMORY_EXHAUSTION_INFO structure

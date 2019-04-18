@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OFFLINEFILES_SETTING_VALUE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OFFLINEFILES_SETTING_VALUE_TYPE enumeration

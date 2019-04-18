@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCPV6Prefix, *PDHCPV6Prefix, *LPDHCPV6Prefix
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCPV6Prefix structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ITEMSPACING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ITEMSPACING structure

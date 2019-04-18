@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WMIQ_ANALYSIS_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WMIQ_ANALYSIS_TYPE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BATTERY_WMI_STATUS_CHANGE, *PBATTERY_WMI_STATUS_CHANGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BATTERY_WMI_STATUS_CHANGE structure

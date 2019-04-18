@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FWPM_NET_EVENT_IKEEXT_EM_FAILURE0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FWPM_NET_EVENT_IKEEXT_EM_FAILURE0 structure

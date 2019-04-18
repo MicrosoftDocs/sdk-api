@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXVA2_AYUVSample8
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXVA2_AYUVSample8 structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PERFORMANCE_DATA, *PPERFORMANCE_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PERFORMANCE_DATA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_INVERTEDIFSTACK_ROW, *PMIB_INVERTEDIFSTACK_ROW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_INVERTEDIFSTACK_ROW structure

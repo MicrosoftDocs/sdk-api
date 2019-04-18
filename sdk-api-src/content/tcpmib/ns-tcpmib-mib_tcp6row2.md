@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_TCP6ROW2, *PMIB_TCP6ROW2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_TCP6ROW2 structure

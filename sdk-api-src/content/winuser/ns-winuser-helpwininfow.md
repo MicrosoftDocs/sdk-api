@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HELPWININFOW, *PHELPWININFOW, *LPHELPWININFOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HELPWININFOW structure

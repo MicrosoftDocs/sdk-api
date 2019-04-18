@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: INERTIA_PARAMETER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INERTIA_PARAMETER enumeration

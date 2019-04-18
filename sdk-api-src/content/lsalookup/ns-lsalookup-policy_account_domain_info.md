@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: POLICY_ACCOUNT_DOMAIN_INFO, *PPOLICY_ACCOUNT_DOMAIN_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # POLICY_ACCOUNT_DOMAIN_INFO structure

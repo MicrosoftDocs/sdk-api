@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BLUETOOTH_ADDRESS_STRUCT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BLUETOOTH_ADDRESS_STRUCT structure

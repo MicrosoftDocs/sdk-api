@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TXFS_LIST_TRANSACTIONS, *PTXFS_LIST_TRANSACTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TXFS_LIST_TRANSACTIONS structure

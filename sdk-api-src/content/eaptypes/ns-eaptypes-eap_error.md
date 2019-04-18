@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EAP_ERROR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EAP_ERROR structure

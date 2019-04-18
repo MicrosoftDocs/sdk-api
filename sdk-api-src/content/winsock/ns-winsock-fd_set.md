@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: fd_set, FD_SET, *PFD_SET, *LPFD_SET
 req.redist: 
+ms.custom: 19H1
 ---
 
 # fd_set structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SysmonDataType
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SysmonDataType enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYNC_SESSION_STATISTICS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYNC_SESSION_STATISTICS structure

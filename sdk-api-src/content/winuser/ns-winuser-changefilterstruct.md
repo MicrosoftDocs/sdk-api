@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CHANGEFILTERSTRUCT, *PCHANGEFILTERSTRUCT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CHANGEFILTERSTRUCT structure

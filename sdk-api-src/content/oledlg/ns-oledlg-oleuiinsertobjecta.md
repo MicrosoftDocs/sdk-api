@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: OLEUIINSERTOBJECTA, *POLEUIINSERTOBJECTA, *LPOLEUIINSERTOBJECTA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OLEUIINSERTOBJECTA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: POINTER_FEEDBACK_MODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # POINTER_FEEDBACK_MODE enumeration

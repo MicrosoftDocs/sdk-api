@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DS_SITE_COST_INFO, *PDS_SITE_COST_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DS_SITE_COST_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYNC_PROVIDER_ROLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYNC_PROVIDER_ROLE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DVD_TITLE_APPMODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DVD_TITLE_APPMODE enumeration

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMLVDISPINFOA, *LPNMLVDISPINFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMLVDISPINFOA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROCESS_PROTECTION_LEVEL_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROCESS_PROTECTION_LEVEL_INFORMATION structure

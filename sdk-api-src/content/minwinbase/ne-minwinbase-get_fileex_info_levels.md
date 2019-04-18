@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GET_FILEEX_INFO_LEVELS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GET_FILEEX_INFO_LEVELS enumeration

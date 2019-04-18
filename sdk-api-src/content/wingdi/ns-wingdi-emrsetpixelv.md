@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMRSETPIXELV, *PEMRSETPIXELV
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMRSETPIXELV structure

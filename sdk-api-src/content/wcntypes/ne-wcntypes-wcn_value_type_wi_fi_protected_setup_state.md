@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE enumeration

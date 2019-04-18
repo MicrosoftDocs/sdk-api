@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RIP_INFO, *LPRIP_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RIP_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MilMatrix3x2D
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MilMatrix3x2D structure

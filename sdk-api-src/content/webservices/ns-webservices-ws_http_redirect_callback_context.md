@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_HTTP_REDIRECT_CALLBACK_CONTEXT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_HTTP_REDIRECT_CALLBACK_CONTEXT structure

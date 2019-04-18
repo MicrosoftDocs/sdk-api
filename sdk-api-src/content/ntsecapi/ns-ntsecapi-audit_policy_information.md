@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AUDIT_POLICY_INFORMATION, *PAUDIT_POLICY_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AUDIT_POLICY_INFORMATION structure

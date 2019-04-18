@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ServerInformation, *PServerInformation
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ServerInformation structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LINEMESSAGE, *LPLINEMESSAGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LINEMESSAGE structure

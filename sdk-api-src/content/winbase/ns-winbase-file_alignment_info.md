@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_ALIGNMENT_INFO, *PFILE_ALIGNMENT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILE_ALIGNMENT_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILTER_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILTER_INFO structure

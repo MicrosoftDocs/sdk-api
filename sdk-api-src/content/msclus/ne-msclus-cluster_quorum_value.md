@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSTER_QUORUM_VALUE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSTER_QUORUM_VALUE enumeration

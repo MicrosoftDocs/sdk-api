@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO, *PCRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO structure

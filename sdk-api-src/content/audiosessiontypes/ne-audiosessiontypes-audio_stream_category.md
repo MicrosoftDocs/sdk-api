@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AUDIO_STREAM_CATEGORY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AUDIO_STREAM_CATEGORY enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MF_TIMED_TEXT_WRITING_MODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MF_TIMED_TEXT_WRITING_MODE enumeration

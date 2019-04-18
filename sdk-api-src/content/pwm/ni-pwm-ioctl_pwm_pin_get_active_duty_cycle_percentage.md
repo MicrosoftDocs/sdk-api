@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE IOCTL

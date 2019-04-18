@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FONTSIGNATURE, *PFONTSIGNATURE, *LPFONTSIGNATURE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FONTSIGNATURE structure

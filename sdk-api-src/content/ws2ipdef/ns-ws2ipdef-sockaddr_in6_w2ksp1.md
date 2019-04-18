@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SOCKADDR_IN6_W2KSP1, *PSOCKADDR_IN6_W2KSP1, *LPSOCKADDR_IN6_W2KSP1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SOCKADDR_IN6_W2KSP1 structure

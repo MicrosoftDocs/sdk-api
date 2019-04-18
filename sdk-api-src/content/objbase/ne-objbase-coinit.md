@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: COINIT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # COINIT enumeration

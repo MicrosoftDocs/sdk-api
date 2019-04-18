@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_NamesW, *PSecPkgContext_NamesW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SecPkgContext_NamesW structure

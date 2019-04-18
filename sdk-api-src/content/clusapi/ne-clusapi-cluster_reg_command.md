@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSTER_REG_COMMAND
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSTER_REG_COMMAND enumeration

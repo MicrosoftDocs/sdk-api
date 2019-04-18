@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSANAMESPACE_INFOEXW, *PWSANAMESPACE_INFOEXW, *LPWSANAMESPACE_INFOEXW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSANAMESPACE_INFOEXW structure

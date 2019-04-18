@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FAX_ACCESS_RIGHTS_ENUM_2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FAX_ACCESS_RIGHTS_ENUM_2 enumeration

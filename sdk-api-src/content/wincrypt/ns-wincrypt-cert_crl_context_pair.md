@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_CRL_CONTEXT_PAIR, *PCERT_CRL_CONTEXT_PAIR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_CRL_CONTEXT_PAIR structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, *PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS structure

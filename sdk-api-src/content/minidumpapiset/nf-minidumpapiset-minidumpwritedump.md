@@ -43,6 +43,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll and Dbgcore.dll
+ms.custom: 19H1
 ---
 
 # MiniDumpWriteDump function

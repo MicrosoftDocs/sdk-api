@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_GENERAL_SUBTREE, *PCERT_GENERAL_SUBTREE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_GENERAL_SUBTREE structure

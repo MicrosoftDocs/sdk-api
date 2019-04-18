@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: XINPUT_STATE, *PXINPUT_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XINPUT_STATE structure

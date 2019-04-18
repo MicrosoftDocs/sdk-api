@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: XFORM, *PXFORM, *LPXFORM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XFORM structure

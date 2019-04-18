@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IP_OPTION_INFORMATION, *PIP_OPTION_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IP_OPTION_INFORMATION structure

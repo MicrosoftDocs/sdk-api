@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VSS_DIFF_VOLUME_PROP, *PVSS_DIFF_VOLUME_PROP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VSS_DIFF_VOLUME_PROP structure

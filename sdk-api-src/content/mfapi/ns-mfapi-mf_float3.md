@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MF_FLOAT3
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MF_FLOAT3 structure

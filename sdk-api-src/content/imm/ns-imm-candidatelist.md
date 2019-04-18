@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CANDIDATELIST, *PCANDIDATELIST, *NPCANDIDATELIST, *LPCANDIDATELIST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CANDIDATELIST structure

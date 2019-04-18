@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FUSION_INSTALL_REFERENCE, *LPFUSION_INSTALL_REFERENCE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FUSION_INSTALL_REFERENCE structure

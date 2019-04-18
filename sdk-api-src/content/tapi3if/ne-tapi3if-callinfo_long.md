@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CALLINFO_LONG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CALLINFO_LONG enumeration

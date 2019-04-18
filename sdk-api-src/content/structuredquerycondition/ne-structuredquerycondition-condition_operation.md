@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CONDITION_OPERATION
 req.redist: Windows Desktop Search (WDS) 3.0
+ms.custom: 19H1
 ---
 
 # CONDITION_OPERATION enumeration

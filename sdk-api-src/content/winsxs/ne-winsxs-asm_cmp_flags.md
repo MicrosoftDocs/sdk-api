@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ASM_CMP_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ASM_CMP_FLAGS enumeration

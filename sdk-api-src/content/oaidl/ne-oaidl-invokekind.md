@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: INVOKEKIND
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INVOKEKIND enumeration

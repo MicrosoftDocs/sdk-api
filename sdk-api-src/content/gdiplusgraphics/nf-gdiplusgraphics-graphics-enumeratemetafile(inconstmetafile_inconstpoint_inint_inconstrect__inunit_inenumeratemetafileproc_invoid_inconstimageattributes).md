@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
+ms.custom: 19H1
 ---
 
 # Graphics::EnumerateMetafile(IN const Metafile,IN const Point,IN INT,IN const Rect &,IN Unit,IN EnumerateMetafileProc,IN VOID,IN const ImageAttributes)

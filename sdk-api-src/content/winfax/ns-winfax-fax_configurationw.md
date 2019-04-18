@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: FAX_CONFIGURATIONW, *PFAX_CONFIGURATIONW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FAX_CONFIGURATIONW structure

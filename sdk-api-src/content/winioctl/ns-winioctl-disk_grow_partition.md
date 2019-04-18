@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DISK_GROW_PARTITION, *PDISK_GROW_PARTITION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DISK_GROW_PARTITION structure

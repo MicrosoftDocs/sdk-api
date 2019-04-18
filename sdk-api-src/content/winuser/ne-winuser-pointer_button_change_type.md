@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: POINTER_BUTTON_CHANGE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # POINTER_BUTTON_CHANGE_TYPE enumeration

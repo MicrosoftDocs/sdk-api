@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_DISK_PROP2, *PVDS_DISK_PROP2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_DISK_PROP2 structure

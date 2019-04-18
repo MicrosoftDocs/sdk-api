@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OLEMISC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OLEMISC enumeration

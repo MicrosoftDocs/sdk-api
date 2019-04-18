@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FWPM_NET_EVENT_IPSEC_DOSP_DROP0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FWPM_NET_EVENT_IPSEC_DOSP_DROP0 structure

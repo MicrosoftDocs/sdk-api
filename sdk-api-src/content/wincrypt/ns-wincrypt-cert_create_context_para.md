@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_CREATE_CONTEXT_PARA, *PCERT_CREATE_CONTEXT_PARA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_CREATE_CONTEXT_PARA structure

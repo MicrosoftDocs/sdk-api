@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WIC8BIMResolutionInfoProperties
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WIC8BIMResolutionInfoProperties enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WINHTTP_PROXY_INFO, *LPWINHTTP_PROXY_INFO
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
+ms.custom: 19H1
 ---
 
 # WINHTTP_PROXY_INFO structure

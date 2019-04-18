@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_STORAGE_IDENTIFIER_CODE_SET
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_STORAGE_IDENTIFIER_CODE_SET enumeration

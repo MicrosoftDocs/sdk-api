@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_SETCOLORKEYDATA, DD_SETCOLORKEYDATA"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_SETCOLORKEYDATA structure

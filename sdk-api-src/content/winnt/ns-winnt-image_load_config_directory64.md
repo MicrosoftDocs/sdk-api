@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMAGE_LOAD_CONFIG_DIRECTORY64, *PIMAGE_LOAD_CONFIG_DIRECTORY64
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IMAGE_LOAD_CONFIG_DIRECTORY64 structure

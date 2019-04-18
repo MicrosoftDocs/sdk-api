@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: UiInfo, *PUiInfo
 req.redist: 
+ms.custom: 19H1
 ---
 
 # UiInfo structure

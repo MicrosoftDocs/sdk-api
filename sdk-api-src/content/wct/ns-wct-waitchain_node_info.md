@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WAITCHAIN_NODE_INFO structure

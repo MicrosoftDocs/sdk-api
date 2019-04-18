@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FWPM_NET_EVENT2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FWPM_NET_EVENT2 structure

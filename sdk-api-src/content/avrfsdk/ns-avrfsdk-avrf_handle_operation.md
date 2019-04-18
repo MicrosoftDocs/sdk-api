@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AVRF_HANDLE_OPERATION, *PAVRF_HANDLE_OPERATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AVRF_HANDLE_OPERATION structure

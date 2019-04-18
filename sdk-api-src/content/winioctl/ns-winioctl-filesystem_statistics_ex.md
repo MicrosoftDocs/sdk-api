@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILESYSTEM_STATISTICS_EX, *PFILESYSTEM_STATISTICS_EX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILESYSTEM_STATISTICS_EX structure

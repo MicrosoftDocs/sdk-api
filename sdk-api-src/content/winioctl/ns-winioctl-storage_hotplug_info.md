@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_HOTPLUG_INFO, *PSTORAGE_HOTPLUG_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STORAGE_HOTPLUG_INFO structure

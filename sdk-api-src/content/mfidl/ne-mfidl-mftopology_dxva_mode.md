@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFTOPOLOGY_DXVA_MODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFTOPOLOGY_DXVA_MODE enumeration

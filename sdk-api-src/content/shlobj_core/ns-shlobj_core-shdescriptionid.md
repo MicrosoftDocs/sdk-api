@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SHDESCRIPTIONID, *LPSHDESCRIPTIONID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SHDESCRIPTIONID structure

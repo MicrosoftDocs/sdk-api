@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMTVDISPINFOEXA, *LPNMTVDISPINFOEXA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMTVDISPINFOEXA structure

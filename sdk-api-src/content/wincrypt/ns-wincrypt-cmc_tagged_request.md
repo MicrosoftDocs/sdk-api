@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CMC_TAGGED_REQUEST, *PCMC_TAGGED_REQUEST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CMC_TAGGED_REQUEST structure

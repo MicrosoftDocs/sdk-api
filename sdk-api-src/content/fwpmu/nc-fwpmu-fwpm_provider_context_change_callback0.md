@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0 callback function

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECPKG_CRED_CLASS, *PSECPKG_CRED_CLASS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECPKG_CRED_CLASS enumeration

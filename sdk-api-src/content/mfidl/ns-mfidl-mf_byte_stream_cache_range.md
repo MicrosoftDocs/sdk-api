@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MF_BYTE_STREAM_CACHE_RANGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MF_BYTE_STREAM_CACHE_RANGE structure

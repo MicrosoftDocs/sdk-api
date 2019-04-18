@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MICUIELEMENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MICUIELEMENT enumeration

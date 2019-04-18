@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SOCKET_SECURITY_PROTOCOL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SOCKET_SECURITY_PROTOCOL enumeration

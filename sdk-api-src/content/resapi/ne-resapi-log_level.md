@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LOG_LEVEL, *PLOG_LEVEL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LOG_LEVEL enumeration

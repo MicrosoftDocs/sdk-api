@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EVT_CHANNEL_ISOLATION_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EVT_CHANNEL_ISOLATION_TYPE enumeration

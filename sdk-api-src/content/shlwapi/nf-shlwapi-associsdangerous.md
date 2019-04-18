@@ -42,6 +42,7 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 6.01
+ms.custom: 19H1
 ---
 
 # AssocIsDangerous function

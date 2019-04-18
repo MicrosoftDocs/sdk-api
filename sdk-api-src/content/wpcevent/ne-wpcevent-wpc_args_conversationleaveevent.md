@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WPC_ARGS_CONVERSATIONLEAVEEVENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WPC_ARGS_CONVERSATIONLEAVEEVENT enumeration

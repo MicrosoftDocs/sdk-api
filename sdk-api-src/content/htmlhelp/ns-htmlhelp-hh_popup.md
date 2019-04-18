@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HH_POPUP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HH_POPUP structure

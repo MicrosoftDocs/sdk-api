@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MSA_INFO_LEVEL, *PMSA_INFO_LEVEL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MSA_INFO_LEVEL enumeration

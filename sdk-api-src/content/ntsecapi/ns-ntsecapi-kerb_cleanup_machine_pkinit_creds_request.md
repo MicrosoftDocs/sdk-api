@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST, *PKERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WAVEINCAPS, *PWAVEINCAPS, *NPWAVEINCAPS, *LPWAVEINCAPS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WAVEINCAPS structure

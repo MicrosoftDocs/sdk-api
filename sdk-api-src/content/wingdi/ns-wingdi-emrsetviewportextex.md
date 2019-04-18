@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMRSETVIEWPORTEXTEX, *PEMRSETVIEWPORTEXTEX, EMRSETWINDOWEXTEX, *PEMRSETWINDOWEXTEX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMRSETVIEWPORTEXTEX structure

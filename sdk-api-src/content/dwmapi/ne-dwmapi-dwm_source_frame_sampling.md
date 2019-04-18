@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DWM_SOURCE_FRAME_SAMPLING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DWM_SOURCE_FRAME_SAMPLING enumeration

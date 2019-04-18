@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IF_OPER_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IF_OPER_STATUS enumeration

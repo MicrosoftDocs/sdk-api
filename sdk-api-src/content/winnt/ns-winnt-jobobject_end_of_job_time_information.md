@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: JOBOBJECT_END_OF_JOB_TIME_INFORMATION, *PJOBOBJECT_END_OF_JOB_TIME_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # JOBOBJECT_END_OF_JOB_TIME_INFORMATION structure

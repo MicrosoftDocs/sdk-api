@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DISPLAYCONFIG_TOPOLOGY_ID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DISPLAYCONFIG_TOPOLOGY_ID enumeration

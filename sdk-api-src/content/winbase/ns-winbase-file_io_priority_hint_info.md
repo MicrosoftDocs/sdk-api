@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_IO_PRIORITY_HINT_INFO, *PFILE_IO_PRIORITY_HINT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILE_IO_PRIORITY_HINT_INFO structure

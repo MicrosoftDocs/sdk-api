@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXGI_ALPHA_MODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXGI_ALPHA_MODE enumeration

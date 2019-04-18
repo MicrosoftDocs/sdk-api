@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH callback function

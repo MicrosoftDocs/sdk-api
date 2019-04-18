@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: DRM_DISTRIBUTION_POINT_INFO
 req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
+ms.custom: 19H1
 ---
 
 # DRM_DISTRIBUTION_POINT_INFO enumeration

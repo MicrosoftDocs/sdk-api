@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_SERVICE_BINDING_W, *PHTTP_SERVICE_BINDING_W
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_SERVICE_BINDING_W structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DPASTREAMINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DPASTREAMINFO structure

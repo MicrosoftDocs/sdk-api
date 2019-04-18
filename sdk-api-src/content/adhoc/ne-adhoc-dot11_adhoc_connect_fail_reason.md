@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DOT11_ADHOC_CONNECT_FAIL_REASON
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DOT11_ADHOC_CONNECT_FAIL_REASON enumeration

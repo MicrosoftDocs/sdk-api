@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WcmSettingType
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WcmSettingType enumeration

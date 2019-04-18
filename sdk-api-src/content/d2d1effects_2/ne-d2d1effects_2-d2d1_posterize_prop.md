@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D2D1_POSTERIZE_PROP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D2D1_POSTERIZE_PROP enumeration

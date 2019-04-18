@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FAX_SEND, *PFAX_SEND
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FAX_SEND structure

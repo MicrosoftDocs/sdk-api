@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMECHARPOSITION, *PIMECHARPOSITION, *NPIMECHARPOSITION, *LPIMECHARPOSITION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IMECHARPOSITION structure

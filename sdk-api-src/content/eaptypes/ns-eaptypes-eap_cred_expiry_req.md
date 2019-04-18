@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EAP_CRED_EXPIRY_REQ, EAP_CRED_EXPIRY_RESP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EAP_CRED_EXPIRY_REQ structure

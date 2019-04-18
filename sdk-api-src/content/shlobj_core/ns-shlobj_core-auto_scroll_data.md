@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AUTO_SCROLL_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AUTO_SCROLL_DATA structure

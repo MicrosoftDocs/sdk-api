@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID, *PEVENT_EXTENDED_ITEM_RELATED_ACTIVITYID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID structure

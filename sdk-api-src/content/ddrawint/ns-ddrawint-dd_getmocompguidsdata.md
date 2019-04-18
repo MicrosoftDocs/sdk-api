@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_GETMOCOMPGUIDSDATA, DD_GETMOCOMPGUIDSDATA"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_GETMOCOMPGUIDSDATA structure

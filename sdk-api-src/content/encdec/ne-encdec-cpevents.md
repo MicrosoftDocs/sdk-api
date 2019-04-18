@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CPEvents
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CPEvents enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_SMIME_CAPABILITIES, *PCRYPT_SMIME_CAPABILITIES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_SMIME_CAPABILITIES structure

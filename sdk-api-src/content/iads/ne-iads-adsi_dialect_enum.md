@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ADSI_DIALECT_ENUM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ADSI_DIALECT_ENUM enumeration

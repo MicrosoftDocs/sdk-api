@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D2D1_INK_NIB_SHAPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D2D1_INK_NIB_SHAPE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXVAHD_DEVICE_USAGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXVAHD_DEVICE_USAGE enumeration

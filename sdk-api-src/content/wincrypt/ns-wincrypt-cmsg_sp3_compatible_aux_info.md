@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CMSG_SP3_COMPATIBLE_AUX_INFO, *PCMSG_SP3_COMPATIBLE_AUX_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CMSG_SP3_COMPATIBLE_AUX_INFO structure

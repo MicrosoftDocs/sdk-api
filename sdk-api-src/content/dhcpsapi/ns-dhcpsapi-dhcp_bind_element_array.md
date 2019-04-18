@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_BIND_ELEMENT_ARRAY, *LPDHCP_BIND_ELEMENT_ARRAY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_BIND_ELEMENT_ARRAY structure

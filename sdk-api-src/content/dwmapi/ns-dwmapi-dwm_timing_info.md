@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DWM_TIMING_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DWM_TIMING_INFO structure

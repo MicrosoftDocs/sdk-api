@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NSPV2_ROUTINE, *PNSPV2_ROUTINE, *LPNSPV2_ROUTINE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NSPV2_ROUTINE structure

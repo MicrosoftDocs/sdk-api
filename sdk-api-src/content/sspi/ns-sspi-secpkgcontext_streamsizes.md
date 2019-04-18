@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_StreamSizes, *PSecPkgContext_StreamSizes
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SecPkgContext_StreamSizes structure

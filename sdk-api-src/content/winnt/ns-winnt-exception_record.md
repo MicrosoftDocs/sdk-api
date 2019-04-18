@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EXCEPTION_RECORD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EXCEPTION_RECORD structure

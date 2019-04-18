@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WBEM_TEXT_FLAG_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WBEM_TEXT_FLAG_TYPE enumeration

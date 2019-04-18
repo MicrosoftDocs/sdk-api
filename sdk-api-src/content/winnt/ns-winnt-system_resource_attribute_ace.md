@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYSTEM_RESOURCE_ATTRIBUTE_ACE, *PSYSTEM_RESOURCE_ATTRIBUTE_ACE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYSTEM_RESOURCE_ATTRIBUTE_ACE structure

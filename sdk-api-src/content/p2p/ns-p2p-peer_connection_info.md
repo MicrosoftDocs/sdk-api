@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEER_CONNECTION_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEER_CONNECTION_INFO structure

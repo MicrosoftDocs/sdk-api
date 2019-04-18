@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_IPMCAST_BOUNDARY, *PMIB_IPMCAST_BOUNDARY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_IPMCAST_BOUNDARY structure

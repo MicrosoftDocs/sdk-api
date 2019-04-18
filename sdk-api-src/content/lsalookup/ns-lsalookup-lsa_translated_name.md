@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LSA_TRANSLATED_NAME, *PLSA_TRANSLATED_NAME
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LSA_TRANSLATED_NAME structure

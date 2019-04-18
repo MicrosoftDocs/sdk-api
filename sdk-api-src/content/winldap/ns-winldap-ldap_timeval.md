@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LDAP_TIMEVAL, *PLDAP_TIMEVAL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LDAP_TIMEVAL structure

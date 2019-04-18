@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LIBRARYMANAGEDIALOGOPTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LIBRARYMANAGEDIALOGOPTIONS enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MF_TIMED_TEXT_ERROR_CODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MF_TIMED_TEXT_ERROR_CODE enumeration

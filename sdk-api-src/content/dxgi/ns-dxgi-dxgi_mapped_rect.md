@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXGI_MAPPED_RECT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXGI_MAPPED_RECT structure

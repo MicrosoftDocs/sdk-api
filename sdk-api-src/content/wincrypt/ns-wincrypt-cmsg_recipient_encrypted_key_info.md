@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CMSG_RECIPIENT_ENCRYPTED_KEY_INFO, *PCMSG_RECIPIENT_ENCRYPTED_KEY_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CMSG_RECIPIENT_ENCRYPTED_KEY_INFO structure

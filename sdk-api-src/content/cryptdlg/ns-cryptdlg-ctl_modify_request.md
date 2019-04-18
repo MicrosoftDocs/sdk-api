@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CTL_MODIFY_REQUEST, *PCTL_MODIFY_REQUEST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CTL_MODIFY_REQUEST structure

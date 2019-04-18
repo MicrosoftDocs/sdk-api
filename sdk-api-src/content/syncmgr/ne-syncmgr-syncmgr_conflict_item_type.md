@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYNCMGR_CONFLICT_ITEM_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYNCMGR_CONFLICT_ITEM_TYPE enumeration

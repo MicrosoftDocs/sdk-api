@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MPEG_PACKET_LIST, *PMPEG_PACKET_LIST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MPEG_PACKET_LIST structure

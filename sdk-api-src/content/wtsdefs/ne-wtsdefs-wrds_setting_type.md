@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WRDS_SETTING_TYPE, *PWRDS_SETTING_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WRDS_SETTING_TYPE enumeration

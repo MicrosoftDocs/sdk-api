@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WINHTTP_PROXY_RESULT_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WINHTTP_PROXY_RESULT_ENTRY structure

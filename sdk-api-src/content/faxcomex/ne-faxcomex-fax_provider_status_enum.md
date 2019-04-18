@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FAX_PROVIDER_STATUS_ENUM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FAX_PROVIDER_STATUS_ENUM enumeration

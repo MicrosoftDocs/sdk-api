@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IKEEXT_PROPOSAL0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IKEEXT_PROPOSAL0 structure

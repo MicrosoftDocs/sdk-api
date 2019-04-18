@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AM_DVDCOPY_CHLGKEY, *PAM_DVDCOPY_CHLGKEY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AM_DVDCOPY_CHLGKEY structure

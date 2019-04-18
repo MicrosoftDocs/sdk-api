@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMPGHOTITEM, *LPNMPGHOTITEM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMPGHOTITEM structure

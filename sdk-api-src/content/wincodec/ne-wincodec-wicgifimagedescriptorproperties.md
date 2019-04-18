@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WICGifImageDescriptorProperties
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WICGifImageDescriptorProperties enumeration

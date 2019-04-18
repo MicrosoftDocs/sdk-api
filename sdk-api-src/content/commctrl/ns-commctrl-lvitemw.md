@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: LVITEMW, *LPLVITEMW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LVITEMW structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2 structure

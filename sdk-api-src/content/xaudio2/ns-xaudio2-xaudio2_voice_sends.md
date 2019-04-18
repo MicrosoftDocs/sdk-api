@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: XAUDIO2_VOICE_SENDS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XAUDIO2_VOICE_SENDS structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D3D11_FEATURE_DATA_FORMAT_SUPPORT2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3D11_FEATURE_DATA_FORMAT_SUPPORT2 structure

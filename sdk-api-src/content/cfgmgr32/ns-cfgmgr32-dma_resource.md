@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DMA_RESOURCE, *PDMA_RESOURCE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DMA_RESOURCE structure

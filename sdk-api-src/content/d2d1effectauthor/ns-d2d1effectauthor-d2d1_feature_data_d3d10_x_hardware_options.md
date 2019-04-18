@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: D2D1_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D2D1_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS structure

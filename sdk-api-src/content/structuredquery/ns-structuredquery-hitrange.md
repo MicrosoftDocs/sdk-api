@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HITRANGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HITRANGE structure

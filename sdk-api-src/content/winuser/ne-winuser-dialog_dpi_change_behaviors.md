@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DIALOG_DPI_CHANGE_BEHAVIORS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DIALOG_DPI_CHANGE_BEHAVIORS enumeration

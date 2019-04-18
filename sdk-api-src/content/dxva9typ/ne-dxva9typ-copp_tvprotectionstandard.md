@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: COPP_TVProtectionStandard
 req.redist: 
+ms.custom: 19H1
 ---
 
 # COPP_TVProtectionStandard enumeration

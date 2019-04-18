@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PPP_INFO_3
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PPP_INFO_3 structure

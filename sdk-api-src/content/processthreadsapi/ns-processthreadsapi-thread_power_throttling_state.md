@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: THREAD_POWER_THROTTLING_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # THREAD_POWER_THROTTLING_STATE structure

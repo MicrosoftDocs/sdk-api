@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AE_POSITION_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AE_POSITION_FLAGS enumeration

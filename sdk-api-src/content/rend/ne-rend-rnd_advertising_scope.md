@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RND_ADVERTISING_SCOPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RND_ADVERTISING_SCOPE enumeration

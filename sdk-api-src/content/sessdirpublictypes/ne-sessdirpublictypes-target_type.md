@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TARGET_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TARGET_TYPE enumeration

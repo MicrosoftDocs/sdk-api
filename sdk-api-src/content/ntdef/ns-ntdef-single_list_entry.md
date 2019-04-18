@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SINGLE_LIST_ENTRY, *PSINGLE_LIST_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SINGLE_LIST_ENTRY structure

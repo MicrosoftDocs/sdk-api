@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECURITY_IMPERSONATION_LEVEL, *PSECURITY_IMPERSONATION_LEVEL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECURITY_IMPERSONATION_LEVEL enumeration

@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
+ms.custom: 19H1
 ---
 
 # Graphics::MeasureString(IN const WCHAR,IN INT,IN const Font,IN const SizeF &,IN const StringFormat,OUT SizeF,OUT INT,OUT INT)

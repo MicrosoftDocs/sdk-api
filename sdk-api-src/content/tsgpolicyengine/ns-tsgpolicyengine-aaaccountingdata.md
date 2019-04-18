@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AAAccountingData
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AAAccountingData structure

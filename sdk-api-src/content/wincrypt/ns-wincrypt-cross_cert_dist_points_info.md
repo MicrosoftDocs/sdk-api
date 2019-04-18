@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CROSS_CERT_DIST_POINTS_INFO, *PCROSS_CERT_DIST_POINTS_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CROSS_CERT_DIST_POINTS_INFO structure

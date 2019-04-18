@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SEC_WINNT_AUTH_PACKED_CREDENTIALS, *PSEC_WINNT_AUTH_PACKED_CREDENTIALS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SEC_WINNT_AUTH_PACKED_CREDENTIALS structure

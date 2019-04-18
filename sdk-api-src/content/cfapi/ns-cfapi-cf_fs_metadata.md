@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CF_FS_METADATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CF_FS_METADATA structure

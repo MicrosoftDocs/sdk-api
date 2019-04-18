@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MBN_SMS_FLAG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MBN_SMS_FLAG enumeration

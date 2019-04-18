@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: VIRTUAL_DISK_PROGRESS, *PVIRTUAL_DISK_PROGRESS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VIRTUAL_DISK_PROGRESS structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_OID_INFO, *PCRYPT_OID_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_OID_INFO structure

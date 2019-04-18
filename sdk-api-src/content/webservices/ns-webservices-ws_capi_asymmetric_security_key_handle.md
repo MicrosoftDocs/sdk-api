@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE structure

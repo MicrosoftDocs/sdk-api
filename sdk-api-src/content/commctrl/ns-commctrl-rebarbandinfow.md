@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: REBARBANDINFOW, *LPREBARBANDINFOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # REBARBANDINFOW structure

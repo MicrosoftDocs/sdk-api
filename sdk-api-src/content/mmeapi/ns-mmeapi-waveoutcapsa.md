@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WAVEOUTCAPSA, *PWAVEOUTCAPSA, *NPWAVEOUTCAPSA, *LPWAVEOUTCAPSA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WAVEOUTCAPSA structure

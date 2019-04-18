@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VSS_SNAPSHOT_COMPATIBILITY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VSS_SNAPSHOT_COMPATIBILITY enumeration

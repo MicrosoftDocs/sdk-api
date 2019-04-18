@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: API_VERSION, *LPAPI_VERSION
 req.redist: DbgHelp.dll 5.1 or later
+ms.custom: 19H1
 ---
 
 # API_VERSION structure

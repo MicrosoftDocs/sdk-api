@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MPR_FILTER_0, *PMPR_FILTER_0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MPR_FILTER_0 structure

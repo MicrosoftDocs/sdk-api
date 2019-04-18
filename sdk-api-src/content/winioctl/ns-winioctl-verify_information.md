@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VERIFY_INFORMATION structure

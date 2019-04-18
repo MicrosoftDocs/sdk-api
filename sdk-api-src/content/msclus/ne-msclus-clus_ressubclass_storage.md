@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUS_RESSUBCLASS_STORAGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUS_RESSUBCLASS_STORAGE enumeration

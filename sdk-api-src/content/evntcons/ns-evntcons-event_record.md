@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EVENT_RECORD, *PEVENT_RECORD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EVENT_RECORD structure

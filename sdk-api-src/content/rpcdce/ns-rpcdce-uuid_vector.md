@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: UUID_VECTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # UUID_VECTOR structure

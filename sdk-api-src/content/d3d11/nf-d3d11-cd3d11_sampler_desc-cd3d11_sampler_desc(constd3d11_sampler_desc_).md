@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CD3D11_SAMPLER_DESC::CD3D11_SAMPLER_DESC(const D3D11_SAMPLER_DESC &)

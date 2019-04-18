@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SHNAMEMAPPINGW, *LPSHNAMEMAPPINGW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SHNAMEMAPPINGW structure

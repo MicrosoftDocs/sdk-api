@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.2 or later
+ms.custom: 19H1
 ---
 
 # PSYM_ENUMSOURCEFILES_CALLBACK callback function

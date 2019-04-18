@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MEDIA_TYPE, *PMEDIA_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MEDIA_TYPE enumeration

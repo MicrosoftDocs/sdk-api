@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CREATE_CLUSTER_NAME_ACCOUNT, *PCREATE_CLUSTER_NAME_ACCOUNT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CREATE_CLUSTER_NAME_ACCOUNT structure

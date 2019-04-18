@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TOKENBINDING_EXTENSION_FORMAT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TOKENBINDING_EXTENSION_FORMAT enumeration

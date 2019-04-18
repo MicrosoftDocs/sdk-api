@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FAX_ROUTING_RULE_CODE_ENUM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FAX_ROUTING_RULE_CODE_ENUM enumeration

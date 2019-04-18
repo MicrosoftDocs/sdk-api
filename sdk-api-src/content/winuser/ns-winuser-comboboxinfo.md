@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: COMBOBOXINFO, *PCOMBOBOXINFO, *LPCOMBOBOXINFO
 req.redist: Service Pack 6
+ms.custom: 19H1
 ---
 
 # COMBOBOXINFO structure

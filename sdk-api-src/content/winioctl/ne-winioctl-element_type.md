@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ELEMENT_TYPE enumeration

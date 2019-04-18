@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: CBT_CREATEWNDA, *LPCBT_CREATEWNDA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CBT_CREATEWNDA structure

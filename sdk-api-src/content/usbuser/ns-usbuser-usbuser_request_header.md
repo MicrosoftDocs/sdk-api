@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: USBUSER_REQUEST_HEADER, *PUSBUSER_REQUEST_HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # USBUSER_REQUEST_HEADER structure

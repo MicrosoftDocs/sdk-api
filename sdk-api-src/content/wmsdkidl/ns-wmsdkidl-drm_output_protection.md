@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DRM_OUTPUT_PROTECTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DRM_OUTPUT_PROTECTION structure

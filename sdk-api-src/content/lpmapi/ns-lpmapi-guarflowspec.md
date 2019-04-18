@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GuarFlowSpec
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GuarFlowSpec structure

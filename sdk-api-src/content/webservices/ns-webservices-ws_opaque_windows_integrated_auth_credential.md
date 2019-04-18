@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL structure

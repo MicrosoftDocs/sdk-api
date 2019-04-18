@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_FULL_DIR_INFO, *PFILE_FULL_DIR_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILE_FULL_DIR_INFO structure

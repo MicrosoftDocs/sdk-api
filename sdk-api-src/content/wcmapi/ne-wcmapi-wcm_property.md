@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WCM_PROPERTY, *PWCM_PROPERTY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WCM_PROPERTY enumeration

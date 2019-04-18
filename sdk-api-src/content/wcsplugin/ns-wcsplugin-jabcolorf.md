@@ -39,6 +39,7 @@ product: Windows
 targetos: Windows
 req.typenames: JabColorF
 req.redist: 
+ms.custom: 19H1
 ---
 
 # JabColorF structure

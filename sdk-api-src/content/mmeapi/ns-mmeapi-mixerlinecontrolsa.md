@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIXERLINECONTROLSA, *PMIXERLINECONTROLSA, *LPMIXERLINECONTROLSA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIXERLINECONTROLSA structure

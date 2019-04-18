@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXGI_COMPUTE_PREEMPTION_GRANULARITY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXGI_COMPUTE_PREEMPTION_GRANULARITY enumeration

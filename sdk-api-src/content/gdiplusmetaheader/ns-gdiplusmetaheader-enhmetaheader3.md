@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: ENHMETAHEADER3
 req.redist: 
 req.product: GDI+ 1.0
+ms.custom: 19H1
 ---
 
 # ENHMETAHEADER3 structure

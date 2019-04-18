@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WM_WRITER_STATISTICS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WM_WRITER_STATISTICS structure

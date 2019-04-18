@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMAGE_DEBUG_DIRECTORY, *PIMAGE_DEBUG_DIRECTORY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IMAGE_DEBUG_DIRECTORY structure

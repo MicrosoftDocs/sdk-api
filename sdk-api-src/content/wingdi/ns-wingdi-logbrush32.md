@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LOGBRUSH32, *PLOGBRUSH32, *NPLOGBRUSH32, *LPLOGBRUSH32
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LOGBRUSH32 structure

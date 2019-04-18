@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TIME_OF_DAY_INFO, *PTIME_OF_DAY_INFO, *LPTIME_OF_DAY_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TIME_OF_DAY_INFO structure

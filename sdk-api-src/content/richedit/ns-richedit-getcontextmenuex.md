@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GETCONTEXTMENUEX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GETCONTEXTMENUEX structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ID2D1Factory::CreateHwndRenderTarget(const D2D1_RENDER_TARGET_PROPERTIES &,const D2D1_HWND_RENDER_TARGET_PROPERTIES &,ID2D1HwndRenderTarget)

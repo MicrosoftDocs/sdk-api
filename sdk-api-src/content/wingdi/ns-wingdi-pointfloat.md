@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: POINTFLOAT, *PPOINTFLOAT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # POINTFLOAT structure

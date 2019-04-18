@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TOKEN_DEVICE_CLAIMS, *PTOKEN_DEVICE_CLAIMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TOKEN_DEVICE_CLAIMS structure

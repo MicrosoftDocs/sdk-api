@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: USB_CLOSE_RAW_DEVICE_PARAMETERS, *PUSB_CLOSE_RAW_DEVICE_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # USB_CLOSE_RAW_DEVICE_PARAMETERS structure

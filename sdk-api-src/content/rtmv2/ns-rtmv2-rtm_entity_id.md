@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RTM_ENTITY_ID, *PRTM_ENTITY_ID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RTM_ENTITY_ID structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_PUBLIC_KEY_INFO, *PCERT_PUBLIC_KEY_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_PUBLIC_KEY_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ShellFolderViewOptions
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ShellFolderViewOptions enumeration

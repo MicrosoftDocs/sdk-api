@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: NTMS_DRIVEINFORMATIONW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NTMS_DRIVEINFORMATIONW structure

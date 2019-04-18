@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SOCKADDR_IRDA, *PSOCKADDR_IRDA, *LPSOCKADDR_IRDA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SOCKADDR_IRDA structure

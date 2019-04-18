@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DELETEITEMSTRUCT, *PDELETEITEMSTRUCT, *LPDELETEITEMSTRUCT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DELETEITEMSTRUCT structure

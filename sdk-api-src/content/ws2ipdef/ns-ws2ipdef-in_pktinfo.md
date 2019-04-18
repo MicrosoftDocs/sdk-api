@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: IN_PKTINFO, *PIN_PKTINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IN_PKTINFO structure

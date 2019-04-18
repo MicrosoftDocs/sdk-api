@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RADIUS_ATTRIBUTE, *PRADIUS_ATTRIBUTE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RADIUS_ATTRIBUTE structure

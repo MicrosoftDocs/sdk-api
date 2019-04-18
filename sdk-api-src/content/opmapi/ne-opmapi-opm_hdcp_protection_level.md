@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OPM_HDCP_PROTECTION_LEVEL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OPM_HDCP_PROTECTION_LEVEL enumeration

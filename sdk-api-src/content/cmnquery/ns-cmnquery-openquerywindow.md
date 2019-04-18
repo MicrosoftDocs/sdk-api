@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OPENQUERYWINDOW, *LPOPENQUERYWINDOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OPENQUERYWINDOW structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RDPENCOMAPI_ATTENDEE_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RDPENCOMAPI_ATTENDEE_FLAGS enumeration

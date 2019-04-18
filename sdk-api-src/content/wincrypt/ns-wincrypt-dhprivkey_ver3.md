@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHPRIVKEY_VER3, DSSPRIVKEY_VER3
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHPRIVKEY_VER3 structure

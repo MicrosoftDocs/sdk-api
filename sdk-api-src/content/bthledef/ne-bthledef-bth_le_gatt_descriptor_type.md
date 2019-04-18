@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BTH_LE_GATT_DESCRIPTOR_TYPE, *PBTH_LE_GATT_DESCRIPTOR_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BTH_LE_GATT_DESCRIPTOR_TYPE enumeration

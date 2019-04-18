@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: INTERNET_BUFFERSA, *LPINTERNET_BUFFERSA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INTERNET_BUFFERSA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LSA_TOKEN_INFORMATION_TYPE, *PLSA_TOKEN_INFORMATION_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LSA_TOKEN_INFORMATION_TYPE enumeration

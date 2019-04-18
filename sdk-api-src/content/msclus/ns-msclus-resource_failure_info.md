@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: RESOURCE_FAILURE_INFO, *PRESOURCE_FAILURE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RESOURCE_FAILURE_INFO structure

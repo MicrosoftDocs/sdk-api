@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LINEDIALPARAMS, *LPLINEDIALPARAMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LINEDIALPARAMS structure

@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_ASYNC_OUTPUT_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_ASYNC_OUTPUT_TYPE enumeration

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: FAX_EVENTW, *PFAX_EVENTW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FAX_EVENTW structure

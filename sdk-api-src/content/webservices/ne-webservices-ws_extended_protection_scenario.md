@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_EXTENDED_PROTECTION_SCENARIO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_EXTENDED_PROTECTION_SCENARIO enumeration

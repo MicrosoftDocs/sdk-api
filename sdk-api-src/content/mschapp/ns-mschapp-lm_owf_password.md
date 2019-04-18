@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LM_OWF_PASSWORD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LM_OWF_PASSWORD structure

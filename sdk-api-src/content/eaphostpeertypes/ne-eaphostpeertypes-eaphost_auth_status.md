@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EAPHOST_AUTH_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EAPHOST_AUTH_STATUS enumeration

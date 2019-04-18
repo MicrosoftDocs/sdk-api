@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MCAST_CLIENT_UID, *LPMCAST_CLIENT_UID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MCAST_CLIENT_UID structure

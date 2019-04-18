@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA, *PCMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA structure

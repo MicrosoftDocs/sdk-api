@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SERVICE_PRESHUTDOWN_INFO, *LPSERVICE_PRESHUTDOWN_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SERVICE_PRESHUTDOWN_INFO structure

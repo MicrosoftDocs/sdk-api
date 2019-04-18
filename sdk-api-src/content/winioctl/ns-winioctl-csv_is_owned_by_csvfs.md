@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CSV_IS_OWNED_BY_CSVFS, *PCSV_IS_OWNED_BY_CSVFS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CSV_IS_OWNED_BY_CSVFS structure

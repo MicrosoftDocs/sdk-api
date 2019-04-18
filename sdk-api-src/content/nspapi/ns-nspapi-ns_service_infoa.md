@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: NS_SERVICE_INFOA, *PNS_SERVICE_INFOA, *LPNS_SERVICE_INFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NS_SERVICE_INFOA structure

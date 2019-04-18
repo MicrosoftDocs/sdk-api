@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VARDESC, *LPVARDESC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VARDESC structure

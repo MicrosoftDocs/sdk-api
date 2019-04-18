@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DSROLE_UPGRADE_STATUS_INFO structure

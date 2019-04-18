@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PSS_PERFORMANCE_COUNTERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PSS_PERFORMANCE_COUNTERS structure

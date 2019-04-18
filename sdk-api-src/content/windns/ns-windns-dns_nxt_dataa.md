@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DNS_NXT_DATAA, *PDNS_NXT_DATAA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DNS_NXT_DATAA structure

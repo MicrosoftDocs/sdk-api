@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FFFP_MODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FFFP_MODE enumeration

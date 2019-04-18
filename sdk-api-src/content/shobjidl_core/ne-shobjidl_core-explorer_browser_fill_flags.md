@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EXPLORER_BROWSER_FILL_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EXPLORER_BROWSER_FILL_FLAGS enumeration

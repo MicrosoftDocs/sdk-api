@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE structure

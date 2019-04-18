@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ATTACHMENT_PROMPT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ATTACHMENT_PROMPT enumeration

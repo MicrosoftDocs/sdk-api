@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OPM_ENCRYPTED_INITIALIZATION_PARAMETERS structure

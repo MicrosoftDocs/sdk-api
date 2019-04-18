@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EXCEPINFO, *LPEXCEPINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EXCEPINFO structure

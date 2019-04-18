@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WER_RUNTIME_EXCEPTION_INFORMATION, *PWER_RUNTIME_EXCEPTION_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WER_RUNTIME_EXCEPTION_INFORMATION structure

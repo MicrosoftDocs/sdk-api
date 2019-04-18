@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: Session_IPv4
 req.redist: 
+ms.custom: 19H1
 ---
 
 # Session_IPv4 structure

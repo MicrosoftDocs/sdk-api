@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DDSETFIELDNUM, *LPDDSETFIELDNUM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DDSETFIELDNUM structure

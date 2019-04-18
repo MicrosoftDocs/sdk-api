@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSC_PROVIDER_INFO_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSC_PROVIDER_INFO_TYPE enumeration

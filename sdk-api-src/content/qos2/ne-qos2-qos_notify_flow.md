@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: QOS_NOTIFY_FLOW, *PQOS_NOTIFY_FLOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # QOS_NOTIFY_FLOW enumeration

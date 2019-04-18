@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WbemAuthenticationLevelEnum
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WbemAuthenticationLevelEnum enumeration

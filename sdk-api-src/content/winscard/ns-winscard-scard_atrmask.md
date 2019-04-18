@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SCARD_ATRMASK, *PSCARD_ATRMASK, *LPSCARD_ATRMASK
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SCARD_ATRMASK structure

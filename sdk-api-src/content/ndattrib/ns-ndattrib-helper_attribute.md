@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HELPER_ATTRIBUTE, *PHELPER_ATTRIBUTE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HELPER_ATTRIBUTE structure

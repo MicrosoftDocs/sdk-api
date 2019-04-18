@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SAFER_POLICY_INFO_CLASS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SAFER_POLICY_INFO_CLASS enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WbemChangeFlagEnum
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WbemChangeFlagEnum enumeration

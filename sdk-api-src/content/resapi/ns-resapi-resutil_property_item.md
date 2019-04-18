@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RESUTIL_PROPERTY_ITEM, *PRESUTIL_PROPERTY_ITEM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RESUTIL_PROPERTY_ITEM structure

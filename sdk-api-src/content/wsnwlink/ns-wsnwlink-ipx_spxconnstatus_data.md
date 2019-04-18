@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IPX_SPXCONNSTATUS_DATA, *PIPX_SPXCONNSTATUS_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IPX_SPXCONNSTATUS_DATA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TBBUTTON, *PTBBUTTON, *LPTBBUTTON
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TBBUTTON structure

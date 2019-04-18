@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PUBAPPINFO, *PPUBAPPINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PUBAPPINFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SecBufferDesc, *PSecBufferDesc
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SecBufferDesc structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LSA_CONVERT_AUTH_DATA_TO_TOKEN callback function

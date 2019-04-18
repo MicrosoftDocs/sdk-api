@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PDH_TIME_INFO, *PPDH_TIME_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PDH_TIME_INFO structure

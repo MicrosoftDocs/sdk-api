@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXVA_COPPSetSignalingCmdData
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXVA_COPPSetSignalingCmdData structure

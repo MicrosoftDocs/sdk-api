@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: FAX_DEVICE_STATUSA, *PFAX_DEVICE_STATUSA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FAX_DEVICE_STATUSA structure

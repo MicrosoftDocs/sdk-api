@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RPC_CLIENT_INTERFACE, *PRPC_CLIENT_INTERFACE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RPC_CLIENT_INTERFACE structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LITEM, *PLITEM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LITEM structure

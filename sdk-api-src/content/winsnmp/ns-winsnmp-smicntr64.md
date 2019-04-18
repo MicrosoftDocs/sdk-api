@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: smiCNTR64, *smiLPCNTR64
 req.redist: 
+ms.custom: 19H1
 ---
 
 # smiCNTR64 structure

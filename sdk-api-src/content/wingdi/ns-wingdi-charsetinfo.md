@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CHARSETINFO, *PCHARSETINFO, *NPCHARSETINFO, *LPCHARSETINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CHARSETINFO structure

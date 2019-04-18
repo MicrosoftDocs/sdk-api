@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TRUSTED_DOMAIN_AUTH_INFORMATION, *PTRUSTED_DOMAIN_AUTH_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TRUSTED_DOMAIN_AUTH_INFORMATION structure

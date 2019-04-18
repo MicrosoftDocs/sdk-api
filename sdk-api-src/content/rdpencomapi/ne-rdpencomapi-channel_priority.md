@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CHANNEL_PRIORITY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CHANNEL_PRIORITY enumeration

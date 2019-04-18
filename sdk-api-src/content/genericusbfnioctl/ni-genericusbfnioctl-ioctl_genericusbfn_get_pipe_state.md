@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IOCTL_GENERICUSBFN_GET_PIPE_STATE IOCTL

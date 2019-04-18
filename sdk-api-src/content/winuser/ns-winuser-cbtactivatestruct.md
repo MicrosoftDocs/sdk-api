@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CBTACTIVATESTRUCT, *LPCBTACTIVATESTRUCT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CBTACTIVATESTRUCT structure

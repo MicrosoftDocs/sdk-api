@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LVTILEVIEWINFO, *PLVTILEVIEWINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LVTILEVIEWINFO structure

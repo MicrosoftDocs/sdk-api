@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PKU2U_LOGON_SUBMIT_TYPE, *PPKU2U_LOGON_SUBMIT_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PKU2U_LOGON_SUBMIT_TYPE enumeration

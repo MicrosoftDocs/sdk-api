@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYSTEM_POWER_LEVEL, *PSYSTEM_POWER_LEVEL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYSTEM_POWER_LEVEL structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SP_REGISTER_CONTROL_STATUSA, *PSP_REGISTER_CONTROL_STATUSA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SP_REGISTER_CONTROL_STATUSA structure

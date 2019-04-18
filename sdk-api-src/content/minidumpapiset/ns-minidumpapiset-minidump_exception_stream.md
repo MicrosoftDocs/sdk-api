@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_EXCEPTION_STREAM, *PMINIDUMP_EXCEPTION_STREAM
 req.redist: DbgHelp.dll 5.1 or later
+ms.custom: 19H1
 ---
 
 # MINIDUMP_EXCEPTION_STREAM structure

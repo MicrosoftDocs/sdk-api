@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DRT_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DRT_STATUS enumeration

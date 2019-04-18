@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WMT_STREAM_SELECTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WMT_STREAM_SELECTION enumeration

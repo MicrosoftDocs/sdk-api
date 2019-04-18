@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FAILURE_TYPE, *PFAILURE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FAILURE_TYPE enumeration

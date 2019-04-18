@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ADS_NT_SECURITY_DESCRIPTOR, *PADS_NT_SECURITY_DESCRIPTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ADS_NT_SECURITY_DESCRIPTOR structure

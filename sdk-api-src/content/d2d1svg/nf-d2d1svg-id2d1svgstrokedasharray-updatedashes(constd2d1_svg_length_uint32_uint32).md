@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ID2D1SvgStrokeDashArray::UpdateDashes(const D2D1_SVG_LENGTH,UINT32,UINT32)

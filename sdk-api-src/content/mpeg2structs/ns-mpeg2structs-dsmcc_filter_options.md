@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DSMCC_FILTER_OPTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DSMCC_FILTER_OPTIONS structure

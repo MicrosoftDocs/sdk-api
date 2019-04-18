@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TOKENBINDING_IDENTIFIER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TOKENBINDING_IDENTIFIER structure

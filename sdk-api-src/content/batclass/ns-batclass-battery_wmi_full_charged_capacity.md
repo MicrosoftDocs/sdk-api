@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BATTERY_WMI_FULL_CHARGED_CAPACITY, *PBATTERY_WMI_FULL_CHARGED_CAPACITY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BATTERY_WMI_FULL_CHARGED_CAPACITY structure

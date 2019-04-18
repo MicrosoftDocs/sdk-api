@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_OPTION_ARRAY, *LPDHCP_OPTION_ARRAY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_OPTION_ARRAY structure

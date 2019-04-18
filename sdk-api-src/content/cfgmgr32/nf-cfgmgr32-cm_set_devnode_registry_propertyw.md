@@ -45,6 +45,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CM_Set_DevNode_Registry_PropertyW function

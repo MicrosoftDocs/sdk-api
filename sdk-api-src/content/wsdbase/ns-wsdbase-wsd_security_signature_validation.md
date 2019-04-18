@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSD_SECURITY_SIGNATURE_VALIDATION structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: GPMC on Windows Vista
+ms.custom: 19H1
 ---
 
 # IGPMSearchCriteria::Add

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EXIT_PROCESS_DEBUG_INFO, *LPEXIT_PROCESS_DEBUG_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EXIT_PROCESS_DEBUG_INFO structure

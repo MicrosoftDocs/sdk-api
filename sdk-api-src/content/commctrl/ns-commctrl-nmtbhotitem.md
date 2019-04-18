@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMTBHOTITEM, *LPNMTBHOTITEM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMTBHOTITEM structure

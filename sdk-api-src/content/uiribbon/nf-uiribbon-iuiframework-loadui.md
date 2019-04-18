@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Windows UI
+ms.custom: 19H1
 ---
 
 # IUIFramework::LoadUI

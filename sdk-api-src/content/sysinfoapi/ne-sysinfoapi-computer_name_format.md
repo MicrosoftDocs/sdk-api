@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: COMPUTER_NAME_FORMAT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # COMPUTER_NAME_FORMAT enumeration

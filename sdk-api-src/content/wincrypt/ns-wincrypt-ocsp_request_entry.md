@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OCSP_REQUEST_ENTRY, *POCSP_REQUEST_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OCSP_REQUEST_ENTRY structure

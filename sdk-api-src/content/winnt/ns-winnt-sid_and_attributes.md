@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SID_AND_ATTRIBUTES, *PSID_AND_ATTRIBUTES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SID_AND_ATTRIBUTES structure

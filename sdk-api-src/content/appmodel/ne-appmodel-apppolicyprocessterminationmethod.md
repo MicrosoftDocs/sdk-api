@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AppPolicyProcessTerminationMethod
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AppPolicyProcessTerminationMethod enumeration

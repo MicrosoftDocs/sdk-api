@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: QUERY_PARSER_MANAGER_OPTION
 req.redist: Windows Desktop Search (WDS) 3.0
+ms.custom: 19H1
 ---
 
 # QUERY_PARSER_MANAGER_OPTION enumeration

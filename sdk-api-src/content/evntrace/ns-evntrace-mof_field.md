@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MOF_FIELD, *PMOF_FIELD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MOF_FIELD structure

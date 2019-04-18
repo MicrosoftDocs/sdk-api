@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HEAP_INFORMATION_CLASS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HEAP_INFORMATION_CLASS enumeration

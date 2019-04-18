@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DVD_DISC_SIDE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DVD_DISC_SIDE enumeration

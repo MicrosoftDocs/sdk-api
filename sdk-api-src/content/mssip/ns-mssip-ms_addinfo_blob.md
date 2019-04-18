@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MS_ADDINFO_BLOB, *PMS_ADDINFO_BLOB
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MS_ADDINFO_BLOB structure

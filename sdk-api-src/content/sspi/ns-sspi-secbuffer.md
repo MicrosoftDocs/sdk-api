@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SecBuffer, *PSecBuffer
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SecBuffer structure

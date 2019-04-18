@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NOTIFYICONDATAA, *PNOTIFYICONDATAA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NOTIFYICONDATAA structure

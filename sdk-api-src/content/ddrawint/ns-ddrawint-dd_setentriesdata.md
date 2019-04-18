@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_SETENTRIESDATA, DD_SETENTRIESDATA"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_SETENTRIESDATA structure

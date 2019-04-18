@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: PDH_COUNTER_INFO_W, *PPDH_COUNTER_INFO_W
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PDH_COUNTER_INFO_W structure

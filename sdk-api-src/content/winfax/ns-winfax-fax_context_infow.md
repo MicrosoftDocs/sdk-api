@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: FAX_CONTEXT_INFOW, *PFAX_CONTEXT_INFOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FAX_CONTEXT_INFOW structure

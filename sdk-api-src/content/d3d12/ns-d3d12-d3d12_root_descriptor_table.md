@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D3D12_ROOT_DESCRIPTOR_TABLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3D12_ROOT_DESCRIPTOR_TABLE structure

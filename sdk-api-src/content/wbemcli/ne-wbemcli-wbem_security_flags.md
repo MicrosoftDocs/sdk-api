@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WBEM_SECURITY_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WBEM_SECURITY_FLAGS enumeration

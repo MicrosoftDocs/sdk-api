@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MF_CAPTURE_ENGINE_STREAM_CATEGORY enumeration

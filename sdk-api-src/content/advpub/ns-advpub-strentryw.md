@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STRENTRYW, *LPSTRENTRYW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STRENTRYW structure

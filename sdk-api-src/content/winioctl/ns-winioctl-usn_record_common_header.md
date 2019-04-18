@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: USN_RECORD_COMMON_HEADER, *PUSN_RECORD_COMMON_HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # USN_RECORD_COMMON_HEADER structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BLUETOOTH_LOCAL_SERVICE_INFO_STRUCT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BLUETOOTH_LOCAL_SERVICE_INFO_STRUCT structure

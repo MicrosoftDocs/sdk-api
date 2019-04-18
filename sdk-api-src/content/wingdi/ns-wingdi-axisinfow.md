@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: AXISINFOW, *PAXISINFOW, *LPAXISINFOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AXISINFOW structure

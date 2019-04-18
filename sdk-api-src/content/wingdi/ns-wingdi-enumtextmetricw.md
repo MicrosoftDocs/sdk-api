@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: ENUMTEXTMETRICW, *PENUMTEXTMETRICW, *LPENUMTEXTMETRICW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ENUMTEXTMETRICW structure

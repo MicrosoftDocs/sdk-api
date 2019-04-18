@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WbemImpersonationLevelEnum
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WbemImpersonationLevelEnum enumeration

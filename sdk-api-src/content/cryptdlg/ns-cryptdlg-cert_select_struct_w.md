@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_SELECT_STRUCT_W, *PCERT_SELECT_STRUCT_W
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_SELECT_STRUCT_W structure

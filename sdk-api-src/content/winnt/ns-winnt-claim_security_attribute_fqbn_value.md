@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE, *PCLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE structure

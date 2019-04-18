@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GOPHER_ATTRIBUTE_TYPE, *LPGOPHER_ATTRIBUTE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GOPHER_ATTRIBUTE_TYPE structure

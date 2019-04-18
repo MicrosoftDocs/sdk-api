@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IKEEXT_IPV6_CGA_AUTHENTICATION0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IKEEXT_IPV6_CGA_AUTHENTICATION0 structure

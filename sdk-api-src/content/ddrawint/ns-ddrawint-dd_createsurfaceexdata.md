@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_CREATESURFACEEXDATA, DD_CREATESURFACEEXDATA"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_CREATESURFACEEXDATA structure

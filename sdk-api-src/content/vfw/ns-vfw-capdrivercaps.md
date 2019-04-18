@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CAPDRIVERCAPS, *PCAPDRIVERCAPS, *LPCAPDRIVERCAPS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CAPDRIVERCAPS structure

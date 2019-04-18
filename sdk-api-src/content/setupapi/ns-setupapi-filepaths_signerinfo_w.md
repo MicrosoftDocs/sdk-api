@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILEPATHS_SIGNERINFO_W, *PFILEPATHS_SIGNERINFO_W
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILEPATHS_SIGNERINFO_W structure
