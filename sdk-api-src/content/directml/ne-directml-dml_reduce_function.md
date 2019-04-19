@@ -108,7 +108,7 @@ Indicates a reduction function that computes the min of the input tensor's eleme
 
 ### -field DML_REDUCE_FUNCTION_MULTIPLY
 
-Indicates a reduction function that computes the product of the input tensor's elements along the specified axes, x = (x1 * x2 * ... * xn) / n.
+Indicates a reduction function that computes the product of the input tensor's elements along the specified axes, x = (x1 * x2 * ... * xn).
 
 
 ### -field DML_REDUCE_FUNCTION_SUM
