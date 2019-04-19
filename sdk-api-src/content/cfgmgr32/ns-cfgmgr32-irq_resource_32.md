@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IRQ_RESOURCE_32, *PIRQ_RESOURCE_32
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IRQ_RESOURCE_32 structure

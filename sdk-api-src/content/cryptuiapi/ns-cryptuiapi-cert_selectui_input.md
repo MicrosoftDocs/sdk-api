@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_SELECTUI_INPUT, *PCERT_SELECTUI_INPUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_SELECTUI_INPUT structure

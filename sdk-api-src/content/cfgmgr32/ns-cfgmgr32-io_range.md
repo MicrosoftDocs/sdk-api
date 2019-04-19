@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IO_RANGE, *PIO_RANGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IO_RANGE structure

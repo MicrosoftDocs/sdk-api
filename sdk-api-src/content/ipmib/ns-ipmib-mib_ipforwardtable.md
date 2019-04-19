@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_IPFORWARDTABLE, *PMIB_IPFORWARDTABLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_IPFORWARDTABLE structure

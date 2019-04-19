@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IPSEC_TOKEN_PRINCIPAL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IPSEC_TOKEN_PRINCIPAL enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SP_DRVINFO_DETAIL_DATA_W, *PSP_DRVINFO_DETAIL_DATA_W
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SP_DRVINFO_DETAIL_DATA_W structure

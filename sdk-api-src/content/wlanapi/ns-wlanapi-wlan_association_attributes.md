@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WLAN_ASSOCIATION_ATTRIBUTES, *PWLAN_ASSOCIATION_ATTRIBUTES
 req.redist: Wireless LAN API for Windows XP with SP2
+ms.custom: 19H1
 ---
 
 # WLAN_ASSOCIATION_ATTRIBUTES structure

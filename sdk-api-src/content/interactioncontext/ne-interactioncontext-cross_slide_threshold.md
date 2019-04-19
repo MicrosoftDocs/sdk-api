@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CROSS_SLIDE_THRESHOLD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CROSS_SLIDE_THRESHOLD enumeration

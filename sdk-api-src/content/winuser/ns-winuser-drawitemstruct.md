@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DRAWITEMSTRUCT, *PDRAWITEMSTRUCT, *LPDRAWITEMSTRUCT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DRAWITEMSTRUCT structure

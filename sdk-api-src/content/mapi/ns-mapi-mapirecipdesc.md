@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MapiRecipDesc, *lpMapiRecipDesc
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MapiRecipDesc structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IFIMETRICS, *PIFIMETRICS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IFIMETRICS structure

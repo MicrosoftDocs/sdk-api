@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VSS_VOLUME_SNAPSHOT_ATTRIBUTES, *PVSS_VOLUME_SNAPSHOT_ATTRIBUTES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VSS_VOLUME_SNAPSHOT_ATTRIBUTES enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LINEAGENTGROUPENTRY, *LPLINEAGENTGROUPENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LINEAGENTGROUPENTRY structure

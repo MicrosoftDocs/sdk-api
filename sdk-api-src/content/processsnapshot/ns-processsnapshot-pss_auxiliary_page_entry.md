@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PSS_AUXILIARY_PAGE_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PSS_AUXILIARY_PAGE_ENTRY structure

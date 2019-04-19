@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MSV1_0_LM20_LOGON, *PMSV1_0_LM20_LOGON
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MSV1_0_LM20_LOGON structure

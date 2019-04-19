@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GROUP_SOURCE_REQ, *PGROUP_SOURCE_REQ
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GROUP_SOURCE_REQ structure

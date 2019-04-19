@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VMRVideoDesc
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VMRVideoDesc structure

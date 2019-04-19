@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_VOLUME_PROP, *PVDS_VOLUME_PROP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_VOLUME_PROP structure

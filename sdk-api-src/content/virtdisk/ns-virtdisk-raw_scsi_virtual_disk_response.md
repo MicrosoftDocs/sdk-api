@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: RAW_SCSI_VIRTUAL_DISK_RESPONSE, *PRAW_SCSI_VIRTUAL_DISK_RESPONSE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RAW_SCSI_VIRTUAL_DISK_RESPONSE structure

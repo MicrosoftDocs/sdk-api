@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMESTRUCT, *PIMESTRUCT, *NPIMESTRUCT, *LPIMESTRUCT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IMESTRUCT structure

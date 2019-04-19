@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D3D12_TILE_COPY_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3D12_TILE_COPY_FLAGS enumeration

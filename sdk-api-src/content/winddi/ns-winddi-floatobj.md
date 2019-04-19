@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FLOATOBJ, *PFLOATOBJ
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FLOATOBJ structure

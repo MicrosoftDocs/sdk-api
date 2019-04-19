@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_TCPSTATS2, *PMIB_TCPSTATS2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_TCPSTATS2 structure

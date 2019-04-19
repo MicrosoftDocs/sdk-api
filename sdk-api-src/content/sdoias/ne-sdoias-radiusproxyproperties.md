@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RADIUSPROXYPROPERTIES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RADIUSPROXYPROPERTIES enumeration

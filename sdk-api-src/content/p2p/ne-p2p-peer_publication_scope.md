@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEER_PUBLICATION_SCOPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEER_PUBLICATION_SCOPE enumeration

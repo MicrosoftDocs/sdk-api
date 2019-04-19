@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PERF_COUNTER_BLOCK, *PPERF_COUNTER_BLOCK
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PERF_COUNTER_BLOCK structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MBN_PROVIDER_CONSTANTS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MBN_PROVIDER_CONSTANTS enumeration

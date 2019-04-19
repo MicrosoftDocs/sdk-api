@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_MFE_STATS_TABLE_EX_XP, *PMIB_MFE_STATS_TABLE_EX_XP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_MFE_STATS_TABLE_EX_XP structure

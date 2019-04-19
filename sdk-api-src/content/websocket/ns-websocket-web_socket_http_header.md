@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WEB_SOCKET_HTTP_HEADER, *PWEB_SOCKET_HTTP_HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WEB_SOCKET_HTTP_HEADER structure

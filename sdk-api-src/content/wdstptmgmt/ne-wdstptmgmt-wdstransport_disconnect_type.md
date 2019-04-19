@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WDSTRANSPORT_DISCONNECT_TYPE, *PWDSTRANSPORT_DISCONNECT_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WDSTRANSPORT_DISCONNECT_TYPE enumeration

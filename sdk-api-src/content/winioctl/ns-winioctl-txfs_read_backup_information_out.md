@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TXFS_READ_BACKUP_INFORMATION_OUT, *PTXFS_READ_BACKUP_INFORMATION_OUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TXFS_READ_BACKUP_INFORMATION_OUT structure

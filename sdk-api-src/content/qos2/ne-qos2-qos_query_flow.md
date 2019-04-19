@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: QOS_QUERY_FLOW, *PQOS_QUERY_FLOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # QOS_QUERY_FLOW enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MetadataTimeStamps
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MetadataTimeStamps structure

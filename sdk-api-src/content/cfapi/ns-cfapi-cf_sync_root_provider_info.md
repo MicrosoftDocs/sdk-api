@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CF_SYNC_ROOT_PROVIDER_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CF_SYNC_ROOT_PROVIDER_INFO structure

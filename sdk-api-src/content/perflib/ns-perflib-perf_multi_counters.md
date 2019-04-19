@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PERF_MULTI_COUNTERS, *PPERF_MULTI_COUNTERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PERF_MULTI_COUNTERS structure

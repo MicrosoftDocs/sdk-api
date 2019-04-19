@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: COLORADJUSTMENT, *PCOLORADJUSTMENT, *LPCOLORADJUSTMENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # COLORADJUSTMENT structure

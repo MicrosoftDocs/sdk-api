@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MEMORY_BASIC_INFORMATION, *PMEMORY_BASIC_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MEMORY_BASIC_INFORMATION structure

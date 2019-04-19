@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_COMPONENT_HEALTH_STATUS, *PSTORAGE_COMPONENT_HEALTH_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STORAGE_COMPONENT_HEALTH_STATUS enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_GETBLTSTATUSDATA, DD_GETBLTSTATUSDATA"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_GETBLTSTATUSDATA structure

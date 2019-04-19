@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SpatialAudioObjectRenderStreamActivationParams
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SpatialAudioObjectRenderStreamActivationParams structure

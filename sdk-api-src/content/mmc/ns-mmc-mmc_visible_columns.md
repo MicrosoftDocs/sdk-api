@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MMC_VISIBLE_COLUMNS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MMC_VISIBLE_COLUMNS structure

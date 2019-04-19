@@ -28,17 +28,19 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
+ - APIRef
  - kbSyntax
 api_type:
  - <TBD>
 api_location:
- -
+ - d3d12.h
 api_name:
  - D3D12_RENDER_PASS_ENDING_ACCESS_TYPE
 product: Windows
 targetos: Windows
 req.typenames: D3D12_RENDER_PASS_ENDING_ACCESS_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3D12_RENDER_PASS_ENDING_ACCESS_TYPE enumeration

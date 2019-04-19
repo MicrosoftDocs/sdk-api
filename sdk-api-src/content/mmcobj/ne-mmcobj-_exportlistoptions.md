@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "_ExportListOptions, EXPORTLISTOPTIONS"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # _ExportListOptions enumeration

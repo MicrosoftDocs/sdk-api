@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: FAX_COVERPAGE_INFOW, *PFAX_COVERPAGE_INFOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FAX_COVERPAGE_INFOW structure

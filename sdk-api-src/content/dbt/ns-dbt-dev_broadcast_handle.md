@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DEV_BROADCAST_HANDLE, *PDEV_BROADCAST_HANDLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DEV_BROADCAST_HANDLE structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ID2D1DeviceContext::DrawImage(ID2D1Effect,D2D1_POINT_2F,const D2D1_RECT_F &,D2D1_INTERPOLATION_MODE,D2D1_COMPOSITE_MODE)

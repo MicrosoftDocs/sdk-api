@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_SYSTEM_STORE_RELOCATE_PARA, *PCERT_SYSTEM_STORE_RELOCATE_PARA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_SYSTEM_STORE_RELOCATE_PARA structure

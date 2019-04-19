@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SW_DEVICE_CREATE_INFO, *PSW_DEVICE_CREATE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SW_DEVICE_CREATE_INFO structure

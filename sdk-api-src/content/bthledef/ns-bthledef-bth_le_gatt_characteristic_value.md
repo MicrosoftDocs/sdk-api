@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BTH_LE_GATT_CHARACTERISTIC_VALUE, *PBTH_LE_GATT_CHARACTERISTIC_VALUE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BTH_LE_GATT_CHARACTERISTIC_VALUE structure

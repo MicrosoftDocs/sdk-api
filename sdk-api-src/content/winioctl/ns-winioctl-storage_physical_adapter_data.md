@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_PHYSICAL_ADAPTER_DATA, *PSTORAGE_PHYSICAL_ADAPTER_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STORAGE_PHYSICAL_ADAPTER_DATA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_POLICIES_INFO, *PCERT_POLICIES_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_POLICIES_INFO structure

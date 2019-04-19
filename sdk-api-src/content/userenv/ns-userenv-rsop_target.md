@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RSOP_TARGET, *PRSOP_TARGET
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RSOP_TARGET structure

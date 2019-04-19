@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_REVOCATION_STATUS, *PCERT_REVOCATION_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_REVOCATION_STATUS structure

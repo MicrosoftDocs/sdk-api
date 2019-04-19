@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMREBARCHEVRON, *LPNMREBARCHEVRON
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMREBARCHEVRON structure

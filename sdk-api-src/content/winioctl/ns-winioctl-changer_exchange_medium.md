@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CHANGER_EXCHANGE_MEDIUM, *PCHANGER_EXCHANGE_MEDIUM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CHANGER_EXCHANGE_MEDIUM structure

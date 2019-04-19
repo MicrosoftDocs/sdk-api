@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FWPS_CLASSIFY_OUT0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FWPS_CLASSIFY_OUT0 structure

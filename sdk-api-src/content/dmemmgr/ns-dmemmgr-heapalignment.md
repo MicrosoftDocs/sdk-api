@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HEAPALIGNMENT, *LPHEAPALIGNMENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HEAPALIGNMENT structure

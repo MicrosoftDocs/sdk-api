@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PERF_COUNTERSET_INFO, *PPERF_COUNTERSET_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PERF_COUNTERSET_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ASSEMBLY_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ASSEMBLY_INFO structure

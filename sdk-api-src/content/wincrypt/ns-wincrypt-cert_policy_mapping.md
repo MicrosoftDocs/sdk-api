@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_POLICY_MAPPING, *PCERT_POLICY_MAPPING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_POLICY_MAPPING structure

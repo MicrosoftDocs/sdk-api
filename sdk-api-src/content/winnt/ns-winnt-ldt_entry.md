@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LDT_ENTRY, *PLDT_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LDT_ENTRY structure

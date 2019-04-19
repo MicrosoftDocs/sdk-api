@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PS_CONFORMER_STATS, *PPS_CONFORMER_STATS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PS_CONFORMER_STATS structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CUSTDATAITEM, *LPCUSTDATAITEM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CUSTDATAITEM structure

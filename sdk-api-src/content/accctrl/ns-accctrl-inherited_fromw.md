@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: INHERITED_FROMW, *PINHERITED_FROMW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INHERITED_FROMW structure

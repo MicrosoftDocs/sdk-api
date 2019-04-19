@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CMC_DATA_INFO, *PCMC_DATA_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CMC_DATA_INFO structure

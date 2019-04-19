@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PTP_CLEANUP_GROUP_CANCEL_CALLBACK callback function

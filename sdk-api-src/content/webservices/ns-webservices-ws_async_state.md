@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_ASYNC_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_ASYNC_STATE structure

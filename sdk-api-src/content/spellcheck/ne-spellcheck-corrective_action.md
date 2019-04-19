@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CORRECTIVE_ACTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CORRECTIVE_ACTION enumeration

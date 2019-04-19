@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: REAL_TIME_NOTIFICATION_SETTING_INPUT, *PREAL_TIME_NOTIFICATION_SETTING_INPUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # REAL_TIME_NOTIFICATION_SETTING_INPUT structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MODLOAD_CVMISC, *PMODLOAD_CVMISC
 req.redist: DbgHelp.dll 6.8 or later
+ms.custom: 19H1
 ---
 
 # MODLOAD_CVMISC structure

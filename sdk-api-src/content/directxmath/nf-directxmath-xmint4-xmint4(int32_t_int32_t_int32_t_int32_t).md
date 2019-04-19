@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XMINT4::XMINT4(int32_t,int32_t,int32_t,int32_t)

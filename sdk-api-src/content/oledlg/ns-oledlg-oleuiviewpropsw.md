@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: OLEUIVIEWPROPSW, *POLEUIVIEWPROPSW, *LPOLEUIVIEWPROPSW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OLEUIVIEWPROPSW structure

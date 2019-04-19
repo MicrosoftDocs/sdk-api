@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MC_GAIN_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MC_GAIN_TYPE enumeration

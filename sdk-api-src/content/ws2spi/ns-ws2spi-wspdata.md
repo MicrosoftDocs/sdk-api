@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSPDATA, *LPWSPDATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSPDATA structure

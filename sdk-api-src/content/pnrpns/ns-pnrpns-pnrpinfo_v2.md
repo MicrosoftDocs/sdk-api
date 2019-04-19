@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PNRPINFO_V2 structure

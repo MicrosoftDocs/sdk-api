@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_REVOCATION_CRL_INFO, *PCERT_REVOCATION_CRL_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_REVOCATION_CRL_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AUDIODESCRIPTION, *LPAUDIODESCRIPTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AUDIODESCRIPTION structure

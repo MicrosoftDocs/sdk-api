@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DISPLAYCONFIG_SET_TARGET_PERSISTENCE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DISPLAYCONFIG_SET_TARGET_PERSISTENCE structure

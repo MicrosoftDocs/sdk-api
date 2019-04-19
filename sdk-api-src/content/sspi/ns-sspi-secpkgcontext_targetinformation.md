@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_TargetInformation, *PSecPkgContext_TargetInformation
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SecPkgContext_TargetInformation structure

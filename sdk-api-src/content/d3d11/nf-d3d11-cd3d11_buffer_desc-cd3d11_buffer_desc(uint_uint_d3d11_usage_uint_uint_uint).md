@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CD3D11_BUFFER_DESC::CD3D11_BUFFER_DESC(UINT,UINT,D3D11_USAGE,UINT,UINT,UINT)

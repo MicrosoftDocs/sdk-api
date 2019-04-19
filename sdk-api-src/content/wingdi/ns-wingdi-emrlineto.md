@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMRLINETO, *PEMRLINETO, EMRMOVETOEX, *PEMRMOVETOEX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMRLINETO structure

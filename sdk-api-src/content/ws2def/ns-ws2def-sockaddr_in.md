@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SOCKADDR_IN, *PSOCKADDR_IN
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SOCKADDR_IN structure

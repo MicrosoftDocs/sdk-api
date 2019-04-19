@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ERROR_SPEC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ERROR_SPEC structure

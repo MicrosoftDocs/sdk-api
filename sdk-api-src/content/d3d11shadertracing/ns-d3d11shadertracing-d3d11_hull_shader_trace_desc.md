@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D3D11_HULL_SHADER_TRACE_DESC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3D11_HULL_SHADER_TRACE_DESC structure

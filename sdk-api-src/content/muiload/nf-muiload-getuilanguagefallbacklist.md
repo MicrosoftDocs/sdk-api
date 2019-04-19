@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Muiload.lib, included in the Windows SDK for Windows 7 on Windows 2000 Professional, Windows Me/98/95
+ms.custom: 19H1
 ---
 
 # GetUILanguageFallbackList function

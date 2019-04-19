@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DNS_TSIG_DATAW, *PDNS_TSIG_DATAW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DNS_TSIG_DATAW structure

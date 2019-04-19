@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: URL_COMPONENTSA, *LPURL_COMPONENTSA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # URL_COMPONENTSA structure

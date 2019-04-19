@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VSS_DIFF_AREA_PROP, *PVSS_DIFF_AREA_PROP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VSS_DIFF_AREA_PROP structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TSSD_AddrV46Type
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TSSD_AddrV46Type enumeration

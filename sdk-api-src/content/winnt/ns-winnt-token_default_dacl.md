@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TOKEN_DEFAULT_DACL, *PTOKEN_DEFAULT_DACL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TOKEN_DEFAULT_DACL structure

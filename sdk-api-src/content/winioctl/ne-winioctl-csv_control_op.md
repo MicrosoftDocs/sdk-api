@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CSV_CONTROL_OP, *PCSV_CONTROL_OP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CSV_CONTROL_OP enumeration

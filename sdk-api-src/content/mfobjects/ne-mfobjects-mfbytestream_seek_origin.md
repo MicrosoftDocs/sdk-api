@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFBYTESTREAM_SEEK_ORIGIN
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFBYTESTREAM_SEEK_ORIGIN enumeration

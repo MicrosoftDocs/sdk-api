@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTSINFOEXA, *PWTSINFOEXA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTSINFOEXA structure

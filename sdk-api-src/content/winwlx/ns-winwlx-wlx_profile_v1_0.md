@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WLX_PROFILE_V1_0, *PWLX_PROFILE_V1_0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WLX_PROFILE_V1_0 structure

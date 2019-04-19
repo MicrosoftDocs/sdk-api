@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_BYTE_RANGE, *PHTTP_BYTE_RANGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_BYTE_RANGE structure

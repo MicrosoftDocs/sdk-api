@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: DISPLAY_DEVICEW, *PDISPLAY_DEVICEW, *LPDISPLAY_DEVICEW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DISPLAY_DEVICEW structure

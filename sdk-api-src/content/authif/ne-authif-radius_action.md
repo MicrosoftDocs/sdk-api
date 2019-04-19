@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RADIUS_ACTION, *PRADIUS_ACTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RADIUS_ACTION enumeration

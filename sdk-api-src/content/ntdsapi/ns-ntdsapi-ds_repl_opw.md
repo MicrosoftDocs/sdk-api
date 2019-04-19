@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DS_REPL_OPW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DS_REPL_OPW structure

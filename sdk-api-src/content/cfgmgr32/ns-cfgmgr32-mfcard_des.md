@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFCARD_DES, *PMFCARD_DES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFCARD_DES structure

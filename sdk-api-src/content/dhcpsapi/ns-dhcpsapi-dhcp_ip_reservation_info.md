@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_IP_RESERVATION_INFO, *LPDHCP_IP_RESERVATION_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_IP_RESERVATION_INFO structure

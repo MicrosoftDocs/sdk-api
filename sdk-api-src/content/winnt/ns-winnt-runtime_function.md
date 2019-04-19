@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RUNTIME_FUNCTION, *PRUNTIME_FUNCTION, _IMAGE_RUNTIME_FUNCTION_ENTRY, *_PIMAGE_RUNTIME_FUNCTION_ENTRY
 req.redist: DbgHelp.dll 5.1 or later
+ms.custom: 19H1
 ---
 
 # RUNTIME_FUNCTION structure

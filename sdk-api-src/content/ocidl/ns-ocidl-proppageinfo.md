@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROPPAGEINFO, *LPPROPPAGEINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROPPAGEINFO structure

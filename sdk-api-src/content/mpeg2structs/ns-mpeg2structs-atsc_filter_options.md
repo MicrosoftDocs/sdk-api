@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ATSC_FILTER_OPTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ATSC_FILTER_OPTIONS structure

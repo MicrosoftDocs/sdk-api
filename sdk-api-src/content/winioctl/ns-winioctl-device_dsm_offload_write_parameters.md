@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, *PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure

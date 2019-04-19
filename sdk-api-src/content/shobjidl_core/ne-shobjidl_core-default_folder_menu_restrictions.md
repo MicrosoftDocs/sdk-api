@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DEFAULT_FOLDER_MENU_RESTRICTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DEFAULT_FOLDER_MENU_RESTRICTIONS enumeration

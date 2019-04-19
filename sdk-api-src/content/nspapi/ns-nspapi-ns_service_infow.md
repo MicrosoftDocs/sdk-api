@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: NS_SERVICE_INFOW, *PNS_SERVICE_INFOW, *LPNS_SERVICE_INFOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NS_SERVICE_INFOW structure

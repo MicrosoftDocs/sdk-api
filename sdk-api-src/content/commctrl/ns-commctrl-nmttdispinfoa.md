@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMTTDISPINFOA, *LPNMTTDISPINFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMTTDISPINFOA structure

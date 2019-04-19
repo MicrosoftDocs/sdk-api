@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RASPPP_PROJECTION_INFO, *PRASPPP_PROJECTION_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RASPPP_PROJECTION_INFO structure

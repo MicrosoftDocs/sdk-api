@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMAPI_MEDIA_PHYSICAL_TYPE, *PIMAPI_MEDIA_PHYSICAL_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IMAPI_MEDIA_PHYSICAL_TYPE enumeration

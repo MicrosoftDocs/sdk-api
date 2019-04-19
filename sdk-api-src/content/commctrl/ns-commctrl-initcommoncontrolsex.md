@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: INITCOMMONCONTROLSEX, *LPINITCOMMONCONTROLSEX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INITCOMMONCONTROLSEX structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BTH_DEVICE_INFO, *PBTH_DEVICE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BTH_DEVICE_INFO structure

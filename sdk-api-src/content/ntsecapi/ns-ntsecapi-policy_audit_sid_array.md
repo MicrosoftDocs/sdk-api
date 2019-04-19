@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: POLICY_AUDIT_SID_ARRAY, *PPOLICY_AUDIT_SID_ARRAY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # POLICY_AUDIT_SID_ARRAY structure

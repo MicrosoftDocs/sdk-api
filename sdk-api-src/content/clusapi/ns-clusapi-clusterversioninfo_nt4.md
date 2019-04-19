@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSTERVERSIONINFO_NT4, *PCLUSTERVERSIONINFO_NT4
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSTERVERSIONINFO_NT4 structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WNV_POLICY_MISMATCH_PARAM, *PWNV_POLICY_MISMATCH_PARAM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WNV_POLICY_MISMATCH_PARAM structure

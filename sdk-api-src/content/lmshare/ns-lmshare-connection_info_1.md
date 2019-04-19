@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CONNECTION_INFO_1, *PCONNECTION_INFO_1, *LPCONNECTION_INFO_1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CONNECTION_INFO_1 structure

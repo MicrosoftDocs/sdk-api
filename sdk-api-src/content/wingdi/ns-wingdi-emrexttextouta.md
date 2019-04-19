@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMREXTTEXTOUTA, *PEMREXTTEXTOUTA, EMREXTTEXTOUTW, *PEMREXTTEXTOUTW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMREXTTEXTOUTA structure

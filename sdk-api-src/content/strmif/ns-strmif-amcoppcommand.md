@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AMCOPPCommand, *LPAMCOPPCommand
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AMCOPPCommand structure

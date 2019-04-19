@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BCRYPT_ECCKEY_BLOB, *PBCRYPT_ECCKEY_BLOB
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BCRYPT_ECCKEY_BLOB structure

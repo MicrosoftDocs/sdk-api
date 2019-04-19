@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PNRP_CLOUD_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PNRP_CLOUD_FLAGS enumeration

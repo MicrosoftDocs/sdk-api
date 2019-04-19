@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BUTTON_IMAGELIST, *PBUTTON_IMAGELIST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BUTTON_IMAGELIST structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ADS_TYPEDNAME, *PADS_TYPEDNAME
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ADS_TYPEDNAME structure

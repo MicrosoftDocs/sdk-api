@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BLUETOOTH_AUTHENTICATION_REQUIREMENTS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BLUETOOTH_AUTHENTICATION_REQUIREMENTS enumeration

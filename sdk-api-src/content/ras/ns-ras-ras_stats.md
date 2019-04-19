@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RAS_STATS, *PRAS_STATS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RAS_STATS structure

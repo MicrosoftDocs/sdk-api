@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_XML_WRITER_ENCODING_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_XML_WRITER_ENCODING_TYPE enumeration

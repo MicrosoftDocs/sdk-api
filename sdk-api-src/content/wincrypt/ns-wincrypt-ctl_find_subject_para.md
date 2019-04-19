@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CTL_FIND_SUBJECT_PARA, *PCTL_FIND_SUBJECT_PARA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CTL_FIND_SUBJECT_PARA structure

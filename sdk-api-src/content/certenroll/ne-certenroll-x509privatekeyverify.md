@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: X509PrivateKeyVerify
 req.redist: 
+ms.custom: 19H1
 ---
 
 # X509PrivateKeyVerify enumeration

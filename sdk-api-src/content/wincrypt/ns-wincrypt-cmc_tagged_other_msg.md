@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CMC_TAGGED_OTHER_MSG, *PCMC_TAGGED_OTHER_MSG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CMC_TAGGED_OTHER_MSG structure

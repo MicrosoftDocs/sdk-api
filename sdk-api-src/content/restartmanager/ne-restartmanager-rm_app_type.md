@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RM_APP_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RM_APP_TYPE enumeration

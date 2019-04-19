@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SERVICE_TRIGGER, *PSERVICE_TRIGGER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SERVICE_TRIGGER structure

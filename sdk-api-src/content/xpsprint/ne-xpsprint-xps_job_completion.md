@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: XPS_JOB_COMPLETION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XPS_JOB_COMPLETION enumeration

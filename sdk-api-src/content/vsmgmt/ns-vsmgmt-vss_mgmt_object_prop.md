@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VSS_MGMT_OBJECT_PROP, *PVSS_MGMT_OBJECT_PROP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VSS_MGMT_OBJECT_PROP structure

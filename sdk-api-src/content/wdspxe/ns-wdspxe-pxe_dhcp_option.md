@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PXE_DHCP_OPTION, *PPXE_DHCP_OPTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PXE_DHCP_OPTION structure

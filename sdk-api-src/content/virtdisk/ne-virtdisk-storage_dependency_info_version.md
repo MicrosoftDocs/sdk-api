@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_DEPENDENCY_INFO_VERSION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STORAGE_DEPENDENCY_INFO_VERSION enumeration

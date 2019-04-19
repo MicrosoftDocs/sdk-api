@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: UNLOAD_DLL_DEBUG_INFO, *LPUNLOAD_DLL_DEBUG_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # UNLOAD_DLL_DEBUG_INFO structure

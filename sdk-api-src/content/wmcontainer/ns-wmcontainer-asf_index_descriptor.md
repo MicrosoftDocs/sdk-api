@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ASF_INDEX_DESCRIPTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ASF_INDEX_DESCRIPTOR structure

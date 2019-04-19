@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: COMPACT_VIRTUAL_DISK_FLAG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # COMPACT_VIRTUAL_DISK_FLAG enumeration

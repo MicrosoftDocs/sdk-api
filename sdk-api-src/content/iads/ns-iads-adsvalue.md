@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ADSVALUE, *PADSVALUE, *LPADSVALUE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ADSVALUE structure

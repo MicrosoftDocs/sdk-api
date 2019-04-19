@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_QUERY_ON_DISK_VOL_INFO_BUFFER, *PFILE_QUERY_ON_DISK_VOL_INFO_BUFFER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILE_QUERY_ON_DISK_VOL_INFO_BUFFER structure

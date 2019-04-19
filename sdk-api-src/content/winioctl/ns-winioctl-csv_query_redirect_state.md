@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CSV_QUERY_REDIRECT_STATE, *PCSV_QUERY_REDIRECT_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CSV_QUERY_REDIRECT_STATE structure

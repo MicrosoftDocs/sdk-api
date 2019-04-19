@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFASF_MULTIPLEXERFLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFASF_MULTIPLEXERFLAGS enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DSREG_JOIN_TYPE, *PDSREG_JOIN_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DSREG_JOIN_TYPE enumeration

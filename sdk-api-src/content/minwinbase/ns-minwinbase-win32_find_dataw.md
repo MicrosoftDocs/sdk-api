@@ -43,6 +43,7 @@ product: Windows
 targetos: Windows
 req.typenames: WIN32_FIND_DATAW, *PWIN32_FIND_DATAW, *LPWIN32_FIND_DATAW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WIN32_FIND_DATAW structure

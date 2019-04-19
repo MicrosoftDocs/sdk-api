@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CALLHUB_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CALLHUB_STATE enumeration

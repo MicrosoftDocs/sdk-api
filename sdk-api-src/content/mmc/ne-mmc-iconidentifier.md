@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IconIdentifier
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IconIdentifier enumeration

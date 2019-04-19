@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_LUN_TYPE, *PVDS_LUN_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_LUN_TYPE enumeration

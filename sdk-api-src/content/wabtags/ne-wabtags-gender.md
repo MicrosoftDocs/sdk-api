@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Windows Address Book 5.0
+ms.custom: 19H1
 ---
 
 # Gender enumeration

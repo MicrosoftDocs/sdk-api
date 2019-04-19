@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFTOPOLOGY_HARDWARE_MODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFTOPOLOGY_HARDWARE_MODE enumeration

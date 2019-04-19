@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MAGTRANSFORM, *PMAGTRANSFORM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MAGTRANSFORM structure

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: HD_TEXTFILTERA, *LPHD_TEXTFILTERA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HD_TEXTFILTERA structure

@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSTER_MEMBERSHIP_INFO, *PCLUSTER_MEMBERSHIP_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSTER_MEMBERSHIP_INFO structure

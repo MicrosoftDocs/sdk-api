@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY enumeration

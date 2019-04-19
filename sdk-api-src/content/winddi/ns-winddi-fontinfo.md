@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FONTINFO, *PFONTINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FONTINFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PSINJECTDATA, *PPSINJECTDATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PSINJECTDATA structure

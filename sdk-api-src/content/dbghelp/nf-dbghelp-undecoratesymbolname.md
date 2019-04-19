@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
+ms.custom: 19H1
 ---
 
 # UnDecorateSymbolName function

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: HDITEMA, *LPHDITEMA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HDITEMA structure

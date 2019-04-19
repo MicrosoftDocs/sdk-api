@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: APO_BUFFER_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # APO_BUFFER_FLAGS enumeration

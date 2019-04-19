@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CMD_GROUP_ENTRY, *PCMD_GROUP_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CMD_GROUP_ENTRY structure

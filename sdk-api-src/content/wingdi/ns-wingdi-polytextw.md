@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: POLYTEXTW, *PPOLYTEXTW, *NPPOLYTEXTW, *LPPOLYTEXTW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # POLYTEXTW structure

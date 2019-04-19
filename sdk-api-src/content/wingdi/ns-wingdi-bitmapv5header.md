@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BITMAPV5HEADER, *LPBITMAPV5HEADER, *PBITMAPV5HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BITMAPV5HEADER structure

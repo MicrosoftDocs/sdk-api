@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: USER_ALL_INFORMATION, *PUSER_ALL_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # USER_ALL_INFORMATION structure

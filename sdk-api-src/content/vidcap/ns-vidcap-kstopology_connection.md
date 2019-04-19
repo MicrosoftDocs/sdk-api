@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KSTOPOLOGY_CONNECTION, *PKSTOPOLOGY_CONNECTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KSTOPOLOGY_CONNECTION structure

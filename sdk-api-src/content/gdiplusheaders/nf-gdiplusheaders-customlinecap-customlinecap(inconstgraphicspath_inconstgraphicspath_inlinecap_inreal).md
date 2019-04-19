@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
+ms.custom: 19H1
 ---
 
 # CustomLineCap::CustomLineCap(IN const GraphicsPath,IN const GraphicsPath,IN LineCap,IN REAL)

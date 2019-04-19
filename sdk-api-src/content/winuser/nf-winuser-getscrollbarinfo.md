@@ -46,6 +46,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Service Pack 6
+ms.custom: 19H1
 ---
 
 # GetScrollBarInfo function

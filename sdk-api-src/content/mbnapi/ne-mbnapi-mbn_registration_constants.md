@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MBN_REGISTRATION_CONSTANTS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MBN_REGISTRATION_CONSTANTS enumeration

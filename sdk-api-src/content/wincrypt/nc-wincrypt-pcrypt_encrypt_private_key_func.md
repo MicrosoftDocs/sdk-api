@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC callback function

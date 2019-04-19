@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GET_DISK_ATTRIBUTES, *PGET_DISK_ATTRIBUTES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GET_DISK_ATTRIBUTES structure

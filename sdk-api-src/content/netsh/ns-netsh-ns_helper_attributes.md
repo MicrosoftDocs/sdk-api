@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NS_HELPER_ATTRIBUTES, *PNS_HELPER_ATTRIBUTES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NS_HELPER_ATTRIBUTES structure

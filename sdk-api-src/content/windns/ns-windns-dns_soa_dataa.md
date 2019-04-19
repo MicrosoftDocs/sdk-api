@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DNS_SOA_DATAA, *PDNS_SOA_DATAA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DNS_SOA_DATAA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DNS_NXT_DATAW, *PDNS_NXT_DATAW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DNS_NXT_DATAW structure

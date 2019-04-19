@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IPSEC_FAILURE_POINT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IPSEC_FAILURE_POINT enumeration

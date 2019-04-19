@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT, *PCSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT structure

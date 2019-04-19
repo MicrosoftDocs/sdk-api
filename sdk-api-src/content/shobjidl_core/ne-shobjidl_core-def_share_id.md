@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DEF_SHARE_ID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DEF_SHARE_ID enumeration

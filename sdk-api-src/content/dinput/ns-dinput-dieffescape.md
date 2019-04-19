@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DIEFFESCAPE structure

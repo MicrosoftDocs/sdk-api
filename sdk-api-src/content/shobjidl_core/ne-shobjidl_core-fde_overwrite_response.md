@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FDE_OVERWRITE_RESPONSE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FDE_OVERWRITE_RESPONSE enumeration

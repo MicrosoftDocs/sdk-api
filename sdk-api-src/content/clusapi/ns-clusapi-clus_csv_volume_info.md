@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUS_CSV_VOLUME_INFO, *PCLUS_CSV_VOLUME_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUS_CSV_VOLUME_INFO structure

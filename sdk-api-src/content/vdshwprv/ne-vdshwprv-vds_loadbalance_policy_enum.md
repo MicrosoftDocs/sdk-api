@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_LOADBALANCE_POLICY_ENUM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_LOADBALANCE_POLICY_ENUM enumeration

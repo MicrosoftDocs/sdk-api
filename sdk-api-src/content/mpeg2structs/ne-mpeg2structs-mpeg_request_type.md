@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MPEG_REQUEST_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MPEG_REQUEST_TYPE enumeration

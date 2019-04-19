@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OPM_DPCP_PROTECTION_LEVEL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OPM_DPCP_PROTECTION_LEVEL enumeration

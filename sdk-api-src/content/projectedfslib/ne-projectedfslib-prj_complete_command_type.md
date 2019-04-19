@@ -40,7 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PRJ_COMPLETE_COMMAND_TYPE
 req.redist: 
-ms.custom: RS5
+ms.custom: RS5, 19H1
 ---
 
 # PRJ_COMPLETE_COMMAND_TYPE enumeration

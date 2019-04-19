@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_KeyInfoA, *PSecPkgContext_KeyInfoA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SecPkgContext_KeyInfoA structure

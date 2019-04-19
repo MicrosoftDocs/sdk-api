@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DDGETCURRENTAUTOFLIPININFO, *PDDGETCURRENTAUTOFLIPININFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DDGETCURRENTAUTOFLIPININFO structure

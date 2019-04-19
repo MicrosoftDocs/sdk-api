@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: SERVICE_FAILURE_ACTIONSW, *LPSERVICE_FAILURE_ACTIONSW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SERVICE_FAILURE_ACTIONSW structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMLVEMPTYMARKUP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMLVEMPTYMARKUP structure

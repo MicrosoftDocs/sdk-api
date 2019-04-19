@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SP_SELECTDEVICE_PARAMS_W, *PSP_SELECTDEVICE_PARAMS_W
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SP_SELECTDEVICE_PARAMS_W structure

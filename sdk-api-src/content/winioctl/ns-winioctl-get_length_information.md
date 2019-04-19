@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GET_LENGTH_INFORMATION, *PGET_LENGTH_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GET_LENGTH_INFORMATION structure

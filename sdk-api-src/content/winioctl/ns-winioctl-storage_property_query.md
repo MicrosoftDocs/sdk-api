@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_PROPERTY_QUERY, *PSTORAGE_PROPERTY_QUERY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STORAGE_PROPERTY_QUERY structure

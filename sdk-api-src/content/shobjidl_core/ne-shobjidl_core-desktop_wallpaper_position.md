@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DESKTOP_WALLPAPER_POSITION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DESKTOP_WALLPAPER_POSITION enumeration

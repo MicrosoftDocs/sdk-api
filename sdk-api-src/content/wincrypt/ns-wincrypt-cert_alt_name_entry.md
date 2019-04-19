@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_ALT_NAME_ENTRY, *PCERT_ALT_NAME_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_ALT_NAME_ENTRY structure

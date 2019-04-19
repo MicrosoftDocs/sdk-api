@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ALT_BREAKS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ALT_BREAKS enumeration

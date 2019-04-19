@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TXFS_QUERY_RM_INFORMATION, *PTXFS_QUERY_RM_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TXFS_QUERY_RM_INFORMATION structure

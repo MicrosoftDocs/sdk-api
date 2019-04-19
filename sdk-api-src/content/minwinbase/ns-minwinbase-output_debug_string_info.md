@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OUTPUT_DEBUG_STRING_INFO, *LPOUTPUT_DEBUG_STRING_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OUTPUT_DEBUG_STRING_INFO structure

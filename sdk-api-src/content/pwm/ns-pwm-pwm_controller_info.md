@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PWM_CONTROLLER_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PWM_CONTROLLER_INFO structure

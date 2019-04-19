@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PKU2U_CERTIFICATE_S4U_LOGON, *PPKU2U_CERTIFICATE_S4U_LOGON
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PKU2U_CERTIFICATE_S4U_LOGON structure

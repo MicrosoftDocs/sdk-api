@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA structure

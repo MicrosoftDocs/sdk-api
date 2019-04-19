@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_HEADER_ID, *PHTTP_HEADER_ID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_HEADER_ID enumeration

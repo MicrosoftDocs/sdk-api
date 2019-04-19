@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NTFS_VOLUME_DATA_BUFFER, *PNTFS_VOLUME_DATA_BUFFER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NTFS_VOLUME_DATA_BUFFER structure

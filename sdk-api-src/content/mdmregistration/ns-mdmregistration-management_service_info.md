@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MANAGEMENT_SERVICE_INFO, *PMANAGEMENT_SERVICE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MANAGEMENT_SERVICE_INFO structure

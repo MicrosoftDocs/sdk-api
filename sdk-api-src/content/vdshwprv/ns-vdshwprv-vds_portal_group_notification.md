@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_PORTAL_GROUP_NOTIFICATION
 req.redist: VDS 1.1
+ms.custom: 19H1
 ---
 
 # VDS_PORTAL_GROUP_NOTIFICATION structure

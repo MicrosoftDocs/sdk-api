@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NLM_SIMULATED_PROFILE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NLM_SIMULATED_PROFILE_INFO structure

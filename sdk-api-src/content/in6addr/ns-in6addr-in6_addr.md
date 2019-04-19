@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IN6_ADDR, *PIN6_ADDR, *LPIN6_ADDR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IN6_ADDR structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_STORAGE_TIER_MEDIA_TYPE, *PFILE_STORAGE_TIER_MEDIA_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILE_STORAGE_TIER_MEDIA_TYPE enumeration

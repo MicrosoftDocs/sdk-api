@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VIDEOHDR structure

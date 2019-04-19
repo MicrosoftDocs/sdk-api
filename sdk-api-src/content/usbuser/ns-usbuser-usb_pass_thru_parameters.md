@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: USB_PASS_THRU_PARAMETERS, *PUSB_PASS_THRU_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # USB_PASS_THRU_PARAMETERS structure

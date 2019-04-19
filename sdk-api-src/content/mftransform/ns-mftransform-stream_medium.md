@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STREAM_MEDIUM, *PSTREAM_MEDIUM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STREAM_MEDIUM structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_CHAIN_ENGINE_CONFIG, *PCERT_CHAIN_ENGINE_CONFIG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_CHAIN_ENGINE_CONFIG structure

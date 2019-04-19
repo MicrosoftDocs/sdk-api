@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AMSI_RESULT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AMSI_RESULT enumeration

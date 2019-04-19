@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TRANSPORTCLIENT_SESSION_INFO, *PTRANSPORTCLIENT_SESSION_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TRANSPORTCLIENT_SESSION_INFO structure

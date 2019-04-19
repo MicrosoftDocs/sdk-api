@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MPEG_RQST_PACKET, *PMPEG_RQST_PACKET
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MPEG_RQST_PACKET structure

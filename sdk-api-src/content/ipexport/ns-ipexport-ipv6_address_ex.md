@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IPV6_ADDRESS_EX, *PIPV6_ADDRESS_EX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IPV6_ADDRESS_EX structure

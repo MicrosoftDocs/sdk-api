@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RAWINPUTDEVICELIST, *PRAWINPUTDEVICELIST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RAWINPUTDEVICELIST structure

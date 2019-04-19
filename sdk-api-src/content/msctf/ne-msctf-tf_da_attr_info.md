@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TF_DA_ATTR_INFO
 req.redist: TSF 1.0 on Windows 2000 Professional
+ms.custom: 19H1
 ---
 
 # TF_DA_ATTR_INFO enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SHELL_UI_COMPONENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SHELL_UI_COMPONENT enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WLX_MPR_NOTIFY_INFO, *PWLX_MPR_NOTIFY_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WLX_MPR_NOTIFY_INFO structure

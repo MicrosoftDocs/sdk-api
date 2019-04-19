@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TRACE_LOGFILE_HEADER, *PTRACE_LOGFILE_HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TRACE_LOGFILE_HEADER structure

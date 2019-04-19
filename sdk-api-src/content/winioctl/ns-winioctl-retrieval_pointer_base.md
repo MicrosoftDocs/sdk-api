@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RETRIEVAL_POINTER_BASE, *PRETRIEVAL_POINTER_BASE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RETRIEVAL_POINTER_BASE structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WNV_OBJECT_TYPE, *PWNV_OBJECT_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WNV_OBJECT_TYPE enumeration

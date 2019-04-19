@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PLACEHOLDER_STATES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PLACEHOLDER_STATES enumeration

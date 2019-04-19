@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KERNINGPAIR, *LPKERNINGPAIR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KERNINGPAIR structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DOMAIN_TREE, DOMAINTREE, *PDOMAIN_TREE, *LPDOMAINTREE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DOMAIN_TREE structure

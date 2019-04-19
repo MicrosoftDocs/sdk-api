@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMTBCUSTOMDRAW, *LPNMTBCUSTOMDRAW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMTBCUSTOMDRAW structure

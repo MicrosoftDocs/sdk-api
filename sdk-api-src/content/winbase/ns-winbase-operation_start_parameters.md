@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OPERATION_START_PARAMETERS, *POPERATION_START_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OPERATION_START_PARAMETERS structure

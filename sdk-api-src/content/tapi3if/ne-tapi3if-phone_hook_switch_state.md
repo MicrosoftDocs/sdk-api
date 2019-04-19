@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PHONE_HOOK_SWITCH_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PHONE_HOOK_SWITCH_STATE enumeration

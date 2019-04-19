@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FAX_COVERPAGE_TYPE_ENUM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FAX_COVERPAGE_TYPE_ENUM enumeration

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: OSVERSIONINFOEXW, *POSVERSIONINFOEXW, *LPOSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OSVERSIONINFOEXW structure

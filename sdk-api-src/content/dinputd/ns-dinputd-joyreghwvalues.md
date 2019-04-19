@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: JOYREGHWVALUES, *LPJOYREGHWVALUES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # JOYREGHWVALUES structure

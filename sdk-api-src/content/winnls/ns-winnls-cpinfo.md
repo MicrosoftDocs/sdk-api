@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CPINFO, *LPCPINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CPINFO structure

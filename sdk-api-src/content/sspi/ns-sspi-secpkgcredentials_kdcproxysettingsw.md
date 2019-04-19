@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: SecPkgCredentials_KdcProxySettingsW, *PSecPkgCredentials_KdcProxySettingsW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SecPkgCredentials_KdcProxySettingsW structure

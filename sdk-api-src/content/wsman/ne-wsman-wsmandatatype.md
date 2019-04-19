@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSManDataType
 req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2
+ms.custom: 19H1
 ---
 
 # WSManDataType enumeration

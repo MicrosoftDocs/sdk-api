@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_SAN_POLICY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_SAN_POLICY enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FolderActionSteps
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FolderActionSteps enumeration

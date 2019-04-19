@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NLM_USAGE_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NLM_USAGE_DATA structure

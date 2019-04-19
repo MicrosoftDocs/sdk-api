@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DIRECTX_AUDIO_ACTIVATION_PARAMS, *PDIRECTX_AUDIO_ACTIVATION_PARAMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DIRECTX_AUDIO_ACTIVATION_PARAMS structure

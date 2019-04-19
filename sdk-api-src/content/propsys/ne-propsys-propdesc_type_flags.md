@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROPDESC_TYPE_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROPDESC_TYPE_FLAGS enumeration

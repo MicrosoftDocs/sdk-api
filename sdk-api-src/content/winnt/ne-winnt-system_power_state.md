@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYSTEM_POWER_STATE, *PSYSTEM_POWER_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYSTEM_POWER_STATE enumeration

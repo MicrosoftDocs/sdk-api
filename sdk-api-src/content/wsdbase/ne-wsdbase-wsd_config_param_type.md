@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSD_CONFIG_PARAM_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSD_CONFIG_PARAM_TYPE enumeration

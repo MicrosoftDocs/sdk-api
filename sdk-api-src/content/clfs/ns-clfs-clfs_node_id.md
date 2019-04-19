@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLFS_NODE_ID, *PCLFS_NODE_ID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLFS_NODE_ID structure

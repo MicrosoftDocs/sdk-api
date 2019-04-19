@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SOUNDSENTRYW, *LPSOUNDSENTRYW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SOUNDSENTRYW structure

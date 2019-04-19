@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LSA_TRUST_INFORMATION, *PLSA_TRUST_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LSA_TRUST_INFORMATION structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DPI_HOSTING_BEHAVIOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DPI_HOSTING_BEHAVIOR enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMRARC, *PEMRARC, EMRARCTO, *PEMRARCTO, EMRCHORD, *PEMRCHORD, EMRPIE, *PEMRPIE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMRARC structure

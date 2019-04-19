@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXGI_FRAME_PRESENTATION_MODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXGI_FRAME_PRESENTATION_MODE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OFFLINEFILES_OP_RESPONSE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OFFLINEFILES_OP_RESPONSE enumeration

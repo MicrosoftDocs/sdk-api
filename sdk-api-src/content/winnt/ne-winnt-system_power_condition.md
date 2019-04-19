@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYSTEM_POWER_CONDITION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYSTEM_POWER_CONDITION enumeration

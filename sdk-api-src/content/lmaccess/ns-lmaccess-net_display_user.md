@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NET_DISPLAY_USER, *PNET_DISPLAY_USER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NET_DISPLAY_USER structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DDOPENVIDEOPORTOUT, *LPDDOPENVIDEOPORTOUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DDOPENVIDEOPORTOUT structure

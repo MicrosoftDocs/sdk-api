@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: NOTIFY_FILTER_AND_TYPE, *PNOTIFY_FILTER_AND_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NOTIFY_FILTER_AND_TYPE structure

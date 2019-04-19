@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MOUSEINPUT, *PMOUSEINPUT, *LPMOUSEINPUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MOUSEINPUT structure

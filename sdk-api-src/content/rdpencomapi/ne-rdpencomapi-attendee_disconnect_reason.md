@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ATTENDEE_DISCONNECT_REASON
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ATTENDEE_DISCONNECT_REASON enumeration

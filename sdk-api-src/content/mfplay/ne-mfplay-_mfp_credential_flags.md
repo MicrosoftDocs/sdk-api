@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "_MFP_CREDENTIAL_FLAGS"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # _MFP_CREDENTIAL_FLAGS enumeration

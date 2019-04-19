@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_LEVEL_TRIM_OUTPUT, *PFILE_LEVEL_TRIM_OUTPUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILE_LEVEL_TRIM_OUTPUT structure

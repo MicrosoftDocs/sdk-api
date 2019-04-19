@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_SERVER_PROPERTY, *PHTTP_SERVER_PROPERTY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_SERVER_PROPERTY enumeration

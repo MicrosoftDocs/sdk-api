@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FH_LOCAL_POLICY_TYPE, *PFH_LOCAL_POLICY_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FH_LOCAL_POLICY_TYPE enumeration

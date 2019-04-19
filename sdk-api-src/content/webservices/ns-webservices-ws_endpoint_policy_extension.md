@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_ENDPOINT_POLICY_EXTENSION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_ENDPOINT_POLICY_EXTENSION structure

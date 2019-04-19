@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, *PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IKEEXT_PRESHARED_KEY_AUTHENTICATION1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IKEEXT_PRESHARED_KEY_AUTHENTICATION1 structure

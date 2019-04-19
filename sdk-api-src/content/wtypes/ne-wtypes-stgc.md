@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STGC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STGC enumeration

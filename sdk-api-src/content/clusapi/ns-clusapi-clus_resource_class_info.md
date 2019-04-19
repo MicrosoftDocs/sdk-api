@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUS_RESOURCE_CLASS_INFO, *PCLUS_RESOURCE_CLASS_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUS_RESOURCE_CLASS_INFO structure

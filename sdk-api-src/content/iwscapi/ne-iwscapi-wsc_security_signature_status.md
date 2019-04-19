@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSC_SECURITY_SIGNATURE_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSC_SECURITY_SIGNATURE_STATUS enumeration

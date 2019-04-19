@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLS_IO_STATISTICS_HEADER, *PCLS_IO_STATISTICS_HEADER, PPCLS_IO_STATISTICS_HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLS_IO_STATISTICS_HEADER structure

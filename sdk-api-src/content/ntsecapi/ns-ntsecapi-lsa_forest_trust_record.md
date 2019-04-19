@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LSA_FOREST_TRUST_RECORD, *PLSA_FOREST_TRUST_RECORD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LSA_FOREST_TRUST_RECORD structure

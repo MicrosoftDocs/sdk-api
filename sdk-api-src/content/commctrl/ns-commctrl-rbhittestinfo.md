@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RBHITTESTINFO, *LPRBHITTESTINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RBHITTESTINFO structure

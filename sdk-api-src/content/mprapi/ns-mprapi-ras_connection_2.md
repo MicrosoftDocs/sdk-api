@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RAS_CONNECTION_2, *PRAS_CONNECTION_2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RAS_CONNECTION_2 structure

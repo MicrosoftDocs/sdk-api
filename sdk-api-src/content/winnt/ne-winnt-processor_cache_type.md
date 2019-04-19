@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROCESSOR_CACHE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROCESSOR_CACHE_TYPE enumeration

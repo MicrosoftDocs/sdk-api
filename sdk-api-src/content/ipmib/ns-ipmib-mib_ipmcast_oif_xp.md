@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_IPMCAST_OIF_XP, *PMIB_IPMCAST_OIF_XP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_IPMCAST_OIF_XP structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ACTCTX_SECTION_KEYED_DATA, *PACTCTX_SECTION_KEYED_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ACTCTX_SECTION_KEYED_DATA structure

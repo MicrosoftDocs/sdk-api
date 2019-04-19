@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RAS_PORT_0, *PRAS_PORT_0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RAS_PORT_0 structure

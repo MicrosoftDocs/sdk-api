@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SimilarityMappedViewInfo
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SimilarityMappedViewInfo structure

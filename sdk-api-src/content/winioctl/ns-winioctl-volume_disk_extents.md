@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VOLUME_DISK_EXTENTS, *PVOLUME_DISK_EXTENTS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VOLUME_DISK_EXTENTS structure

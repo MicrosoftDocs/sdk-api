@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFT_ENUM_DATA_V0, *PMFT_ENUM_DATA_V0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFT_ENUM_DATA_V0 structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMRPLGBLT, *PEMRPLGBLT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMRPLGBLT structure

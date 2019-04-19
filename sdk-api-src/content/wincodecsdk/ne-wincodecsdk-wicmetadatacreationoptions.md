@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WICMetadataCreationOptions
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WICMetadataCreationOptions enumeration

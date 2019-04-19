@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: ACTRL_PROPERTY_ENTRYA, *PACTRL_PROPERTY_ENTRYA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ACTRL_PROPERTY_ENTRYA structure

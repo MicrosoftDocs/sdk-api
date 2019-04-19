@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRL_ENTRY, *PCRL_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRL_ENTRY structure

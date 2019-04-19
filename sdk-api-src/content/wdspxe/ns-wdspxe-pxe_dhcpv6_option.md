@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PXE_DHCPV6_OPTION, *PPXE_DHCPV6_OPTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PXE_DHCPV6_OPTION structure

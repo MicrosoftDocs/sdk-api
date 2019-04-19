@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MPE_ELEMENT, *PMPE_ELEMENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MPE_ELEMENT structure

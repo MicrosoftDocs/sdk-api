@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TABLECELLPARMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TABLECELLPARMS structure

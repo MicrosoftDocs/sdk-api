@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "__x_ABI_CWindows_CFoundation_CActivationType"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # __x_ABI_CWindows_CFoundation_CActivationType enumeration

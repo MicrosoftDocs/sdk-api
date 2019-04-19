@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TRUSTED_PASSWORD_INFO, *PTRUSTED_PASSWORD_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TRUSTED_PASSWORD_INFO structure

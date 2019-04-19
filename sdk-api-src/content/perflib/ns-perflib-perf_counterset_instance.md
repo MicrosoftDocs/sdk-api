@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PERF_COUNTERSET_INSTANCE, *PPERF_COUNTERSET_INSTANCE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PERF_COUNTERSET_INSTANCE structure

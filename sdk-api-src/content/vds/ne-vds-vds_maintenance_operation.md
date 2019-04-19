@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_MAINTENANCE_OPERATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_MAINTENANCE_OPERATION enumeration

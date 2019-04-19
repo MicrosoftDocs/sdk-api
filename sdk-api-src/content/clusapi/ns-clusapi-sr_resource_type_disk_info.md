@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: SR_RESOURCE_TYPE_DISK_INFO, *PSR_RESOURCE_TYPE_DISK_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SR_RESOURCE_TYPE_DISK_INFO structure

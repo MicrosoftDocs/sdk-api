@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NAPI_PROVIDER_INSTALLATION_BLOB
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NAPI_PROVIDER_INSTALLATION_BLOB structure

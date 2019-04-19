@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RpcLocalAddressFormat
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RpcLocalAddressFormat enumeration

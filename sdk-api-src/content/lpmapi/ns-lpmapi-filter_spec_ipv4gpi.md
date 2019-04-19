@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: Filter_Spec_IPv4GPI
 req.redist: 
+ms.custom: 19H1
 ---
 
 # Filter_Spec_IPv4GPI structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MSG_INFO_0, *PMSG_INFO_0, *LPMSG_INFO_0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MSG_INFO_0 structure

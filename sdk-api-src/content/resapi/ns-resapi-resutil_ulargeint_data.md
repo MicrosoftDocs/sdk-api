@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RESUTIL_ULARGEINT_DATA, *PRESUTIL_ULARGEINT_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RESUTIL_ULARGEINT_DATA structure

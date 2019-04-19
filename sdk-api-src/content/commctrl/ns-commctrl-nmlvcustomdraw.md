@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMLVCUSTOMDRAW, *LPNMLVCUSTOMDRAW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMLVCUSTOMDRAW structure

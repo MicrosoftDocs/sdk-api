@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SHELLSTATEW, *LPSHELLSTATEW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SHELLSTATEW structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DSA_NEWOBJ_DISPINFO, *LPDSA_NEWOBJ_DISPINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DSA_NEWOBJ_DISPINFO structure

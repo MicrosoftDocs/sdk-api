@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RPC_DISPATCH_TABLE, *PRPC_DISPATCH_TABLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RPC_DISPATCH_TABLE structure

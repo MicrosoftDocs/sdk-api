@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FIND_NAME_BUFFER, *PFIND_NAME_BUFFER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FIND_NAME_BUFFER structure

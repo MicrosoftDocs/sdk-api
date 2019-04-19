@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_READ_OPTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_READ_OPTION enumeration

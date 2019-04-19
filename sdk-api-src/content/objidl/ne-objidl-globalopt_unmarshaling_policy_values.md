@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GLOBALOPT_UNMARSHALING_POLICY_VALUES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GLOBALOPT_UNMARSHALING_POLICY_VALUES enumeration

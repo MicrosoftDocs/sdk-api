@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ACMDRIVERDETAILS, *PACMDRIVERDETAILS, *LPACMDRIVERDETAILS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ACMDRIVERDETAILS structure

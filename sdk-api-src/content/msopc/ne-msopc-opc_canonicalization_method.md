@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OPC_CANONICALIZATION_METHOD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OPC_CANONICALIZATION_METHOD enumeration

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: ENUMLOGFONTEXDVA, *PENUMLOGFONTEXDVA, *LPENUMLOGFONTEXDVA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ENUMLOGFONTEXDVA structure

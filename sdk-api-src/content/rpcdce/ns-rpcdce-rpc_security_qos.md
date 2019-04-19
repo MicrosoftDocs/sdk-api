@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RPC_SECURITY_QOS, *PRPC_SECURITY_QOS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RPC_SECURITY_QOS structure

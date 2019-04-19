@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IDWriteFactory4::ComputeGlyphOrigins(DWRITE_GLYPH_RUN const,DWRITE_MEASURING_MODE,D2D1_POINT_2F,DWRITE_MATRIX const,D2D1_POINT_2F)

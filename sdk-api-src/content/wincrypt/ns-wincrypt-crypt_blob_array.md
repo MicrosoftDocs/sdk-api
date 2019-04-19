@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_BLOB_ARRAY, *PCRYPT_BLOB_ARRAY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_BLOB_ARRAY structure

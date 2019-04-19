@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXGI_QUERY_VIDEO_MEMORY_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXGI_QUERY_VIDEO_MEMORY_INFO structure

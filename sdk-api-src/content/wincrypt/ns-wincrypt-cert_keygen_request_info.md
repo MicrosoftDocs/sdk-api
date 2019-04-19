@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_KEYGEN_REQUEST_INFO, *PCERT_KEYGEN_REQUEST_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_KEYGEN_REQUEST_INFO structure

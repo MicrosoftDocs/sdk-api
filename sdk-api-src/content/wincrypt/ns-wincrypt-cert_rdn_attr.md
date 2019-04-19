@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_RDN_ATTR, *PCERT_RDN_ATTR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_RDN_ATTR structure

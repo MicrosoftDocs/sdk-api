@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FSCTL_QUERY_STORAGE_CLASSES_OUTPUT, *PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FSCTL_QUERY_STORAGE_CLASSES_OUTPUT structure

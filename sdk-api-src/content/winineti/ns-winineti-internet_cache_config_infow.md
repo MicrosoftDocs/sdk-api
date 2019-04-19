@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: INTERNET_CACHE_CONFIG_INFOW, *LPINTERNET_CACHE_CONFIG_INFOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INTERNET_CACHE_CONFIG_INFOW structure

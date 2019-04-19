@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AUTHZ_SID_OPERATION, *PAUTHZ_SID_OPERATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AUTHZ_SID_OPERATION enumeration

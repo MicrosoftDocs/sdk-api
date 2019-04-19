@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: SecPkgCredentials_NamesA, *PSecPkgCredentials_NamesA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SecPkgCredentials_NamesA structure

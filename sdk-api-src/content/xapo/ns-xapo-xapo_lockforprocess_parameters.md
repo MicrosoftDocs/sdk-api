@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: XAPO_LOCKFORPROCESS_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XAPO_LOCKFORPROCESS_PARAMETERS structure

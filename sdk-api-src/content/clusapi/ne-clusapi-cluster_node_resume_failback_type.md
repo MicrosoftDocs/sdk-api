@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSTER_NODE_RESUME_FAILBACK_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSTER_NODE_RESUME_FAILBACK_TYPE enumeration

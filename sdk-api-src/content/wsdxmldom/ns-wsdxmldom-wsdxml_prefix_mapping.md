@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSDXML_PREFIX_MAPPING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSDXML_PREFIX_MAPPING structure

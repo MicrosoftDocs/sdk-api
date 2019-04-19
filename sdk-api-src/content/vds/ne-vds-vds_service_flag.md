@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_SERVICE_FLAG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_SERVICE_FLAG enumeration

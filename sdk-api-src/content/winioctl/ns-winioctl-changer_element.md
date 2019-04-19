@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CHANGER_ELEMENT, *PCHANGER_ELEMENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CHANGER_ELEMENT structure

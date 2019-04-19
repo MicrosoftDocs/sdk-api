@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTS_CLIENT_DISPLAY, *PWTS_CLIENT_DISPLAY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTS_CLIENT_DISPLAY structure

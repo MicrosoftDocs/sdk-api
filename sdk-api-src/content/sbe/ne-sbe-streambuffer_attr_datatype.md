@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STREAMBUFFER_ATTR_DATATYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STREAMBUFFER_ATTR_DATATYPE enumeration

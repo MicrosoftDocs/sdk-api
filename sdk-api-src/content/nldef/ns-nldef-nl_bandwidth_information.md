@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NL_BANDWIDTH_INFORMATION, *PNL_BANDWIDTH_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NL_BANDWIDTH_INFORMATION structure

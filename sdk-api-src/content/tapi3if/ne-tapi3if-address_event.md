@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ADDRESS_EVENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ADDRESS_EVENT enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DRM_VAL16
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DRM_VAL16 structure

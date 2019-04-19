@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RPC_CALL_LOCAL_ADDRESS_V1 structure

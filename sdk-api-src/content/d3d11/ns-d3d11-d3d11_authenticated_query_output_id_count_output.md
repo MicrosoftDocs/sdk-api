@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT_OUTPUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT_OUTPUT structure

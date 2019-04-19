@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IPX_PATTERN, *PIPX_PATTERN
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IPX_PATTERN structure

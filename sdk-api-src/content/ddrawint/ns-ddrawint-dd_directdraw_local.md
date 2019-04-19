@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_DIRECTDRAW_LOCAL, DD_DIRECTDRAW_LOCAL"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_DIRECTDRAW_LOCAL structure

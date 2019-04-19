@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_HBAPORT_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_HBAPORT_TYPE enumeration

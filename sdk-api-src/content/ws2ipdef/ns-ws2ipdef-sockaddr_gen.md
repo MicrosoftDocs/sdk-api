@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: sockaddr_gen
 req.redist: 
+ms.custom: 19H1
 ---
 
 # sockaddr_gen structure

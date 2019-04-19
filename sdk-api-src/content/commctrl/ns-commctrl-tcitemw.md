@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: TCITEMW, *LPTCITEMW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TCITEMW structure

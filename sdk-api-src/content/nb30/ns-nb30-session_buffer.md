@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SESSION_BUFFER, *PSESSION_BUFFER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SESSION_BUFFER structure

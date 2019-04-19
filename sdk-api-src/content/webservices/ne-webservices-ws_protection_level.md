@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_PROTECTION_LEVEL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_PROTECTION_LEVEL enumeration

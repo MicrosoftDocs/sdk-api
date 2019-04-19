@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MANDATORY_LEVEL, *PMANDATORY_LEVEL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MANDATORY_LEVEL enumeration

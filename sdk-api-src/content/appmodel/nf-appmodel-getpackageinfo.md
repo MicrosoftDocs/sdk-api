@@ -48,6 +48,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GetPackageInfo function
@@ -132,6 +133,7 @@ The buffer is not large enough to hold the data. The required size is specified 
 ## -see-also
 
 
+[GetPackageInfo2](nf-appmodel-getpackageinfo2.md)
 
 
 <a href="https://msdn.microsoft.com/BA84FB47-F241-4120-9441-7E1149F68738">ClosePackageInfo</a>

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FPO_DATA, *PFPO_DATA
 req.redist: DbgHelp.dll 5.1 or later
+ms.custom: 19H1
 ---
 
 # FPO_DATA structure

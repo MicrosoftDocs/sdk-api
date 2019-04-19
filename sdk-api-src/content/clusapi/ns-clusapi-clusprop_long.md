@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSPROP_LONG, *PCLUSPROP_LONG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSPROP_LONG structure

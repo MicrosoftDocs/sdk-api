@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TCP_RESERVE_PORT_RANGE, *PTCP_RESERVE_PORT_RANGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TCP_RESERVE_PORT_RANGE structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMAGEINFO, *LPIMAGEINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IMAGEINFO structure

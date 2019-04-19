@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PATHDATA, *PPATHDATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PATHDATA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_XML_X509DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_XML_X509DATA structure

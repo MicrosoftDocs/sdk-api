@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DRM_VIDEO_OUTPUT_PROTECTION_IDS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DRM_VIDEO_OUTPUT_PROTECTION_IDS structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: QOS_PACKET_PRIORITY, *PQOS_PACKET_PRIORITY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # QOS_PACKET_PRIORITY structure

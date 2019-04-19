@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: POLICY_MODIFICATION_INFO, *PPOLICY_MODIFICATION_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # POLICY_MODIFICATION_INFO structure

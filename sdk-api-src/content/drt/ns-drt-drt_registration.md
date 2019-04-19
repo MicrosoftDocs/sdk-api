@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DRT_REGISTRATION, *PDRT_REGISTRATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DRT_REGISTRATION structure

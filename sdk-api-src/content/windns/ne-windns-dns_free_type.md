@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DNS_FREE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DNS_FREE_TYPE enumeration

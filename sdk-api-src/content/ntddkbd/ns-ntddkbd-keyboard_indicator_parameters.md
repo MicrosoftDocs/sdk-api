@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KEYBOARD_INDICATOR_PARAMETERS, *PKEYBOARD_INDICATOR_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KEYBOARD_INDICATOR_PARAMETERS structure

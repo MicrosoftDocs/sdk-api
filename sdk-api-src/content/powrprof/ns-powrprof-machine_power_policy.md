@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MACHINE_POWER_POLICY, *PMACHINE_POWER_POLICY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MACHINE_POWER_POLICY structure

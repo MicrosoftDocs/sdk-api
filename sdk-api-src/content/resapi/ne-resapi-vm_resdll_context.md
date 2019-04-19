@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VM_RESDLL_CONTEXT, *PVM_RESDLL_CONTEXT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VM_RESDLL_CONTEXT enumeration

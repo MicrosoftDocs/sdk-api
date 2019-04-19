@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: SR_DISK_REPLICATION_ELIGIBLE, *PSR_DISK_REPLICATION_ELIGIBLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SR_DISK_REPLICATION_ELIGIBLE enumeration

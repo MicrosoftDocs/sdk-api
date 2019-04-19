@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AE_CURRENT_POSITION structure

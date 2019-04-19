@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SP_PROPCHANGE_PARAMS, *PSP_PROPCHANGE_PARAMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SP_PROPCHANGE_PARAMS structure

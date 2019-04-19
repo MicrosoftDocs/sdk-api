@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: INET_FIREWALL_APP_CONTAINER, *PINET_FIREWALL_APP_CONTAINER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INET_FIREWALL_APP_CONTAINER structure

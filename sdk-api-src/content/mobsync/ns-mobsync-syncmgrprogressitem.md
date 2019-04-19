@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYNCMGRPROGRESSITEM, *LPSYNCMGRPROGRESSITEM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYNCMGRPROGRESSITEM structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PICTDESC, *LPPICTDESC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PICTDESC structure

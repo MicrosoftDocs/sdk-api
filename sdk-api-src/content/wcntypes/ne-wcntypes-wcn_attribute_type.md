@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WCN_ATTRIBUTE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WCN_ATTRIBUTE_TYPE enumeration

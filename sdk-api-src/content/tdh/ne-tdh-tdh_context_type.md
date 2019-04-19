@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TDH_CONTEXT_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TDH_CONTEXT_TYPE enumeration

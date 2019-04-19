@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SBE2_STREAM_DESC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SBE2_STREAM_DESC structure

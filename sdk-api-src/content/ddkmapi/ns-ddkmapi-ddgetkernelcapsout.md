@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DDGETKERNELCAPSOUT, *LPDDGETKERNELCAPSOUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DDGETKERNELCAPSOUT structure

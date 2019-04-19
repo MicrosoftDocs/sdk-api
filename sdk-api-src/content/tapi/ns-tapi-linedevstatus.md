@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LINEDEVSTATUS, *LPLINEDEVSTATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LINEDEVSTATUS structure

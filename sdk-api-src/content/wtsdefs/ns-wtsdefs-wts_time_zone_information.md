@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTS_TIME_ZONE_INFORMATION, *PWTS_TIME_ZONE_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTS_TIME_ZONE_INFORMATION structure

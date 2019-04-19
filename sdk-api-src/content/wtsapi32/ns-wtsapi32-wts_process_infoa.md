@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTS_PROCESS_INFOA, *PWTS_PROCESS_INFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTS_PROCESS_INFOA structure

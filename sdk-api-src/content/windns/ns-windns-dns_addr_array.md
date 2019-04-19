@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DNS_ADDR_ARRAY, *PDNS_ADDR_ARRAY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DNS_ADDR_ARRAY structure

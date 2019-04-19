@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: STACKFRAME64, *LPSTACKFRAME64
 req.redist: DbgHelp.dll 5.1 or later
+ms.custom: 19H1
 ---
 
 # STACKFRAME64 structure

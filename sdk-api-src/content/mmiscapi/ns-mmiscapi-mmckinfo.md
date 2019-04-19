@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MMCKINFO, *PMMCKINFO, *NPMMCKINFO, *LPMMCKINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MMCKINFO structure

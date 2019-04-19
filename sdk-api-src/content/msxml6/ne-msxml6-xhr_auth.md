@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: XHR_AUTH
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XHR_AUTH enumeration

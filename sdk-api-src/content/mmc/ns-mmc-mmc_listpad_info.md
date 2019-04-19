@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MMC_LISTPAD_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MMC_LISTPAD_INFO structure

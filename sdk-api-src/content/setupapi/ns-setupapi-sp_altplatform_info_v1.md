@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SP_ALTPLATFORM_INFO_V1, *PSP_ALTPLATFORM_INFO_V1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SP_ALTPLATFORM_INFO_V1 structure

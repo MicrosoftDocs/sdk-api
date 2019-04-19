@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUS_NETNAME_VS_TOKEN_INFO, CLUS_VS_TOKEN_INFO, *PCLUS_NETNAME_VS_TOKEN_INFO, *PCLUS_VS_TOKEN_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUS_NETNAME_VS_TOKEN_INFO structure

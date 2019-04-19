@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KERB_CERTIFICATE_INFO, *PKERB_CERTIFICATE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KERB_CERTIFICATE_INFO structure

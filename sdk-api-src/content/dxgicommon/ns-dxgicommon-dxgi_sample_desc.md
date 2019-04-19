@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXGI_SAMPLE_DESC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXGI_SAMPLE_DESC structure

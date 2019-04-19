@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EVENT_INFO_CLASS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EVENT_INFO_CLASS enumeration

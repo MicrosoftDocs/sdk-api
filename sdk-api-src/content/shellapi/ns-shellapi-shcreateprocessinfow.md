@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SHCREATEPROCESSINFOW, *PSHCREATEPROCESSINFOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SHCREATEPROCESSINFOW structure

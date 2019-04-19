@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WKSTA_USER_INFO_1, *PWKSTA_USER_INFO_1, *LPWKSTA_USER_INFO_1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WKSTA_USER_INFO_1 structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA, *PCMSG_CTRL_VERIFY_SIGNATURE_EX_PARA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA structure

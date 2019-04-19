@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OLEINPLACEFRAMEINFO, *LPOLEINPLACEFRAMEINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OLEINPLACEFRAMEINFO structure

@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: TCP_CONNECTION_OFFLOAD_STATE, *PTCP_CONNECTION_OFFLOAD_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TCP_CONNECTION_OFFLOAD_STATE enumeration

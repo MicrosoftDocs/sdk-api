@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECPKG_ATTR_LCT_STATUS, *PSECPKG_ATTR_LCT_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECPKG_ATTR_LCT_STATUS enumeration

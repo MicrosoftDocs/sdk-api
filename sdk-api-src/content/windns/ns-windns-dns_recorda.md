@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DNS_RECORDA, *PDNS_RECORDA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DNS_RECORDA structure

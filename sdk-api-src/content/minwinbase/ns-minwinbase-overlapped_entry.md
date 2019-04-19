@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: OVERLAPPED_ENTRY, *LPOVERLAPPED_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OVERLAPPED_ENTRY structure

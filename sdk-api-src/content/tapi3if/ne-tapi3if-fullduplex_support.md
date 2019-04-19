@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FULLDUPLEX_SUPPORT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FULLDUPLEX_SUPPORT enumeration

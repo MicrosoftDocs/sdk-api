@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IP_PATTERN, *PIP_PATTERN
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IP_PATTERN structure

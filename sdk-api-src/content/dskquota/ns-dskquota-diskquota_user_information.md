@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DISKQUOTA_USER_INFORMATION, *PDISKQUOTA_USER_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DISKQUOTA_USER_INFORMATION structure

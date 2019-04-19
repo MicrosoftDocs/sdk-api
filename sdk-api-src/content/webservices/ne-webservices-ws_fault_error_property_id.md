@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_FAULT_ERROR_PROPERTY_ID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_FAULT_ERROR_PROPERTY_ID enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ROWSETEVENT_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ROWSETEVENT_TYPE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DIOBJECTATTRIBUTES, *LPDIOBJECTATTRIBUTES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DIOBJECTATTRIBUTES structure

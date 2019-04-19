@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RPC_ERROR_ENUM_HANDLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RPC_ERROR_ENUM_HANDLE structure

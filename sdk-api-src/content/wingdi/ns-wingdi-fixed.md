@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FIXED
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FIXED structure

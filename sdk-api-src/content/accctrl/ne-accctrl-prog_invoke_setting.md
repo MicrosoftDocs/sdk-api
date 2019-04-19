@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROG_INVOKE_SETTING, *PPROG_INVOKE_SETTING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROG_INVOKE_SETTING enumeration

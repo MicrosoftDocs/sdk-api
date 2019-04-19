@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VSS_PROVIDER_TYPE, *PVSS_PROVIDER_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VSS_PROVIDER_TYPE enumeration

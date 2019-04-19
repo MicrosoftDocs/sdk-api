@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CF_POPULATION_POLICY_PRIMARY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CF_POPULATION_POLICY_PRIMARY enumeration

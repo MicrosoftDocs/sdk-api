@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HIGHCONTRASTA, *LPHIGHCONTRASTA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HIGHCONTRASTA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_ACCESS_DESCRIPTION, *PCERT_ACCESS_DESCRIPTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_ACCESS_DESCRIPTION structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DNS_PTR_DATAW, *PDNS_PTR_DATAW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DNS_PTR_DATAW structure

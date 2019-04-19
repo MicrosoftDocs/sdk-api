@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PKA_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PKA_FLAGS enumeration

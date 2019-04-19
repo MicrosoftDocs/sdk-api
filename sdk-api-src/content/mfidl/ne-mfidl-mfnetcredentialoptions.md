@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFNetCredentialOptions
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFNetCredentialOptions enumeration

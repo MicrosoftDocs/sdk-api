@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFTOPONODE_ATTRIBUTE_UPDATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFTOPONODE_ATTRIBUTE_UPDATE structure

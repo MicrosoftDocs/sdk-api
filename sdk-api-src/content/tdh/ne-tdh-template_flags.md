@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TEMPLATE_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TEMPLATE_FLAGS enumeration

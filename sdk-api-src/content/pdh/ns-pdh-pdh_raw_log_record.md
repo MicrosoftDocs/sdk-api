@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PDH_RAW_LOG_RECORD, *PPDH_RAW_LOG_RECORD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PDH_RAW_LOG_RECORD structure

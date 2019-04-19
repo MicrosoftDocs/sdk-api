@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EVENTLOG_FULL_INFORMATION, *LPEVENTLOG_FULL_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EVENTLOG_FULL_INFORMATION structure

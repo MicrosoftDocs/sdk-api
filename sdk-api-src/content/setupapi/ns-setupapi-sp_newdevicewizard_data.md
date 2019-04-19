@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SP_NEWDEVICEWIZARD_DATA, *PSP_NEWDEVICEWIZARD_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SP_NEWDEVICEWIZARD_DATA structure

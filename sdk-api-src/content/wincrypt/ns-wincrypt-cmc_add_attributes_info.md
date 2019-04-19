@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CMC_ADD_ATTRIBUTES_INFO, *PCMC_ADD_ATTRIBUTES_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CMC_ADD_ATTRIBUTES_INFO structure

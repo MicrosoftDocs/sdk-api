@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MEM_RESOURCE, *PMEM_RESOURCE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MEM_RESOURCE structure

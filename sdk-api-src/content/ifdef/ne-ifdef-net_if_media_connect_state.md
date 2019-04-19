@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NET_IF_MEDIA_CONNECT_STATE, *PNET_IF_MEDIA_CONNECT_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NET_IF_MEDIA_CONNECT_STATE enumeration

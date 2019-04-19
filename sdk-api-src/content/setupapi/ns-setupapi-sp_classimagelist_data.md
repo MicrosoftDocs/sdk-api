@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SP_CLASSIMAGELIST_DATA, *PSP_CLASSIMAGELIST_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SP_CLASSIMAGELIST_DATA structure

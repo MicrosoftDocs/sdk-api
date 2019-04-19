@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DEDUP_CONTAINER_EXTENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DEDUP_CONTAINER_EXTENT structure

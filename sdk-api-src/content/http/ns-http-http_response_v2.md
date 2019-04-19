@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_RESPONSE_V2, *PHTTP_RESPONSE_V2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_RESPONSE_V2 structure

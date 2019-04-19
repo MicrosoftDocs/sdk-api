@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLS_LSN, *PCLS_LSN, PPCLS_LSN
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLS_LSN structure

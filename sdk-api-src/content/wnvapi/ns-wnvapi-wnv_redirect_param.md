@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WNV_REDIRECT_PARAM, *PWNV_REDIRECT_PARAM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WNV_REDIRECT_PARAM structure

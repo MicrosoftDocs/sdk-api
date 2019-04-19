@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NLSVERSIONINFOEX, *LPNLSVERSIONINFOEX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NLSVERSIONINFOEX structure

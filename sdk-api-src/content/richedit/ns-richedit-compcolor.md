@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: COMPCOLOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # COMPCOLOR structure

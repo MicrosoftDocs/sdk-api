@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIXERCAPSW, *PMIXERCAPSW, *LPMIXERCAPSW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIXERCAPSW structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECTION, *PSECTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECTION structure

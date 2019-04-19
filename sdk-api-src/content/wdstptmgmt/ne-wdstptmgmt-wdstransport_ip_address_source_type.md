@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE, *PWDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE enumeration

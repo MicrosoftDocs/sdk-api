@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_UNKNOWN_HEADER, *PHTTP_UNKNOWN_HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_UNKNOWN_HEADER structure

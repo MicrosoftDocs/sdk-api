@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS enumeration

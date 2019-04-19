@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GUITHREADINFO, *PGUITHREADINFO, *LPGUITHREADINFO
 req.redist: Service Pack 3
+ms.custom: 19H1
 ---
 
 # GUITHREADINFO structure

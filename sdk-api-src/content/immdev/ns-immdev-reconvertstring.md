@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RECONVERTSTRING, *PRECONVERTSTRING, *NPRECONVERTSTRING, *LPRECONVERTSTRING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RECONVERTSTRING structure

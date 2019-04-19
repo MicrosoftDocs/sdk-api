@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: APPX_KEY_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # APPX_KEY_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_STRONG_SIGN_PARA, *PCERT_STRONG_SIGN_PARA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_STRONG_SIGN_PARA structure

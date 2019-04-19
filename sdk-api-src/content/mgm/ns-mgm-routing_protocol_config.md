@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ROUTING_PROTOCOL_CONFIG, *PROUTING_PROTOCOL_CONFIG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ROUTING_PROTOCOL_CONFIG structure

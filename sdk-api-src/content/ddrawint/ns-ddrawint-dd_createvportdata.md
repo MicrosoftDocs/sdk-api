@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_CREATEVPORTDATA, DD_CREATEVPORTDATA"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_CREATEVPORTDATA structure

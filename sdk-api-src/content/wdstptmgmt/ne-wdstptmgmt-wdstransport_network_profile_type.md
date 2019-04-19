@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WDSTRANSPORT_NETWORK_PROFILE_TYPE, *PWDSTRANSPORT_NETWORK_PROFILE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WDSTRANSPORT_NETWORK_PROFILE_TYPE enumeration

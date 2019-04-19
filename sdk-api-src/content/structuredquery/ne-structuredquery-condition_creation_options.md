@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CONDITION_CREATION_OPTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CONDITION_CREATION_OPTIONS enumeration

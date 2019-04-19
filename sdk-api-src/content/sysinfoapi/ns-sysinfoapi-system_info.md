@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYSTEM_INFO, *LPSYSTEM_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYSTEM_INFO structure

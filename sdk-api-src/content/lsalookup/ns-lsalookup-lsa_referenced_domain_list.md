@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LSA_REFERENCED_DOMAIN_LIST, *PLSA_REFERENCED_DOMAIN_LIST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LSA_REFERENCED_DOMAIN_LIST structure

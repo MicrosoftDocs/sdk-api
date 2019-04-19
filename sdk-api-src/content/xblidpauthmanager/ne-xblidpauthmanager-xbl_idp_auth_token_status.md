@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XBL_IDP_AUTH_TOKEN_STATUS enumeration

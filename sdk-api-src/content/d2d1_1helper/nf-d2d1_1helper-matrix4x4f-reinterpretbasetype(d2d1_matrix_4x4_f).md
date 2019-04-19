@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # Matrix4x4F::ReinterpretBaseType(D2D1_MATRIX_4X4_F)

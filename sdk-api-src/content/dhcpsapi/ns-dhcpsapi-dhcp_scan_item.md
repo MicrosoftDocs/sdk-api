@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_SCAN_ITEM, *LPDHCP_SCAN_ITEM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_SCAN_ITEM structure

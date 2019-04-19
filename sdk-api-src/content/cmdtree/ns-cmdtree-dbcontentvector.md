@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DBCONTENTVECTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DBCONTENTVECTOR structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECPKG_NAME_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECPKG_NAME_TYPE enumeration

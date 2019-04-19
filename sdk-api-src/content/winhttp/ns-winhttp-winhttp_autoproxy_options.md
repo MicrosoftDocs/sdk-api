@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WINHTTP_AUTOPROXY_OPTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WINHTTP_AUTOPROXY_OPTIONS structure

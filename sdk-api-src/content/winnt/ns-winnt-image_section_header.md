@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMAGE_SECTION_HEADER, *PIMAGE_SECTION_HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IMAGE_SECTION_HEADER structure

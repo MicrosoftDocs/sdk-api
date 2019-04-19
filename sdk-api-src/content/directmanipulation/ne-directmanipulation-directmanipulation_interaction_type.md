@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DIRECTMANIPULATION_INTERACTION_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DIRECTMANIPULATION_INTERACTION_TYPE enumeration

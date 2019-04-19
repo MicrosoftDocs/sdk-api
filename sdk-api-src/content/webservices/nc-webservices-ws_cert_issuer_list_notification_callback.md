@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK callback function

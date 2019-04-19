@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: USEROBJECTFLAGS, *PUSEROBJECTFLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # USEROBJECTFLAGS structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WMP_WMDM_METADATA_ROUND_TRIP_DEVICE2PC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WMP_WMDM_METADATA_ROUND_TRIP_DEVICE2PC structure

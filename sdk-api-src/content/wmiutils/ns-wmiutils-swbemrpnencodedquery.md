@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SWbemRpnEncodedQuery
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SWbemRpnEncodedQuery structure

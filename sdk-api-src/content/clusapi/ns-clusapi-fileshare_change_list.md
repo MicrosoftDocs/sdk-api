@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILESHARE_CHANGE_LIST, *PFILESHARE_CHANGE_LIST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILESHARE_CHANGE_LIST structure

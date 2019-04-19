@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: COLORMAP, *LPCOLORMAP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # COLORMAP structure

@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: DELETE_SNAPSHOT_VHDSET_VERSION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DELETE_SNAPSHOT_VHDSET_VERSION enumeration

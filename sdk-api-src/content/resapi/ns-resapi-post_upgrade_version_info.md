@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: POST_UPGRADE_VERSION_INFO, *PPOST_UPGRADE_VERSION_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # POST_UPGRADE_VERSION_INFO structure

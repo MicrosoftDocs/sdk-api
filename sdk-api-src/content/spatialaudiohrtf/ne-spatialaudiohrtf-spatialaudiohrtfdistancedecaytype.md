@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SpatialAudioHrtfDistanceDecayType
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SpatialAudioHrtfDistanceDecayType enumeration

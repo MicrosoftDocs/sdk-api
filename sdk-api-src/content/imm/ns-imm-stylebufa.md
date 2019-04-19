@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: STYLEBUFA, *PSTYLEBUFA, *NPSTYLEBUFA, *LPSTYLEBUFA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STYLEBUFA structure

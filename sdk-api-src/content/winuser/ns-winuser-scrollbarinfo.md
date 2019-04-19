@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SCROLLBARINFO, *PSCROLLBARINFO, *LPSCROLLBARINFO
 req.redist: Service Pack 6
+ms.custom: 19H1
 ---
 
 # SCROLLBARINFO structure

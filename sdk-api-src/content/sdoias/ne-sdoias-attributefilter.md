@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ATTRIBUTEFILTER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ATTRIBUTEFILTER enumeration

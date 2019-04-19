@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_SETOVERLAYPOSITIONDATA, DD_SETOVERLAYPOSITIONDATA"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_SETOVERLAYPOSITIONDATA structure

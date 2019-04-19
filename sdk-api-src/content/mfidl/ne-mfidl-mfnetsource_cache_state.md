@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFNETSOURCE_CACHE_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFNETSOURCE_CACHE_STATE enumeration

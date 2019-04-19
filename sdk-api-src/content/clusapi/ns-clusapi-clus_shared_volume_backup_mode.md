@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUS_SHARED_VOLUME_BACKUP_MODE, *PCLUS_SHARED_VOLUME_BACKUP_MODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUS_SHARED_VOLUME_BACKUP_MODE structure

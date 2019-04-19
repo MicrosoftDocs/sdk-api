@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_XML_CRYPTOGRAPHIC_INTERFACE, *PCRYPT_XML_CRYPTO_PROVIDER, *PCRYPT_XML_CRYPTOGRAPHIC_INTERFACE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_XML_CRYPTOGRAPHIC_INTERFACE structure

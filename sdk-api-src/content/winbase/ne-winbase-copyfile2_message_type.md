@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: COPYFILE2_MESSAGE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # COPYFILE2_MESSAGE_TYPE enumeration

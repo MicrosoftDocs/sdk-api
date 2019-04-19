@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: GROUP_POLICY_OBJECTW, *PGROUP_POLICY_OBJECTW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GROUP_POLICY_OBJECTW structure

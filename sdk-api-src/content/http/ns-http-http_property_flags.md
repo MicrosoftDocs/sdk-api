@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_PROPERTY_FLAGS, *PHTTP_PROPERTY_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_PROPERTY_FLAGS structure

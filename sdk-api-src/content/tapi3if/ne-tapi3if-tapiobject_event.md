@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TAPIOBJECT_EVENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TAPIOBJECT_EVENT enumeration

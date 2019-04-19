@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_QUERY_PROVIDER_FLAG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_QUERY_PROVIDER_FLAG enumeration

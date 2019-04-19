@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SOLE_AUTHENTICATION_SERVICE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SOLE_AUTHENTICATION_SERVICE structure

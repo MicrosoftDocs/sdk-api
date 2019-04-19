@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NL_INTERFACE_OFFLOAD_ROD, *PNL_INTERFACE_OFFLOAD_ROD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NL_INTERFACE_OFFLOAD_ROD structure

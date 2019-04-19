@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: SRCCODEINFOW, *PSRCCODEINFOW
 req.redist: DbgHelp.dll 6.1 or later
+ms.custom: 19H1
 ---
 
 # SRCCODEINFOW structure

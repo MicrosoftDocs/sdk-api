@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLS_ARCHIVE_DESCRIPTOR, *PCLS_ARCHIVE_DESCRIPTOR, PPCLS_ARCHIVE_DESCRIPTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLS_ARCHIVE_DESCRIPTOR structure

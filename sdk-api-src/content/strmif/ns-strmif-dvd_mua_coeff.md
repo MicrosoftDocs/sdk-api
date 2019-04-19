@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DVD_MUA_Coeff
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DVD_MUA_Coeff structure

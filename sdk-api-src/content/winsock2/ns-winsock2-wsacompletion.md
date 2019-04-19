@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSACOMPLETION, *PWSACOMPLETION, *LPWSACOMPLETION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSACOMPLETION structure

@@ -44,6 +44,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMAGE_OPTIONAL_HEADER32, *PIMAGE_OPTIONAL_HEADER32
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IMAGE_OPTIONAL_HEADER32 structure

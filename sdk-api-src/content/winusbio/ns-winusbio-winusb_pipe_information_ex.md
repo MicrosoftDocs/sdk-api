@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WINUSB_PIPE_INFORMATION_EX, *PWINUSB_PIPE_INFORMATION_EX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WINUSB_PIPE_INFORMATION_EX structure

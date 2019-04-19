@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TARGETPROTOCOLTYPE, *PTARGETPROTOCOLTYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TARGETPROTOCOLTYPE enumeration

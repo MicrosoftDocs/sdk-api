@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EXIT_THREAD_DEBUG_INFO, *LPEXIT_THREAD_DEBUG_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EXIT_THREAD_DEBUG_INFO structure

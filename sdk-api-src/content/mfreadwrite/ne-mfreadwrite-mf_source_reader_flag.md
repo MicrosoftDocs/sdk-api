@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MF_SOURCE_READER_FLAG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MF_SOURCE_READER_FLAG enumeration

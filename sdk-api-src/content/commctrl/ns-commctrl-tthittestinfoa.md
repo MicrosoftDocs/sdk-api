@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: TTHITTESTINFOA, *LPTTHITTESTINFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TTHITTESTINFOA structure

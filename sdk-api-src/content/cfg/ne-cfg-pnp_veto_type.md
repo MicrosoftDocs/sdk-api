@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PNP_VETO_TYPE, *PPNP_VETO_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PNP_VETO_TYPE enumeration

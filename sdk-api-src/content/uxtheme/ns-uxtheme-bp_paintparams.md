@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BP_PAINTPARAMS, *PBP_PAINTPARAMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BP_PAINTPARAMS structure

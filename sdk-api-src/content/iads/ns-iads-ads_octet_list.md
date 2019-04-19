@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ADS_OCTET_LIST, *PADS_OCTET_LIST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ADS_OCTET_LIST structure

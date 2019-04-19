@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WICPngSrgbProperties
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WICPngSrgbProperties enumeration

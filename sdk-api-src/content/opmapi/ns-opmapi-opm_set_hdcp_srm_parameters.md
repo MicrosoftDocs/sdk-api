@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OPM_SET_HDCP_SRM_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OPM_SET_HDCP_SRM_PARAMETERS structure

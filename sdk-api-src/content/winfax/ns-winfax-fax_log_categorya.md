@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: FAX_LOG_CATEGORYA, *PFAX_LOG_CATEGORYA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FAX_LOG_CATEGORYA structure

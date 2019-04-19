@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FIRMWARE_TYPE, *PFIRMWARE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FIRMWARE_TYPE enumeration

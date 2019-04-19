@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMLVKEYDOWN, *LPNMLVKEYDOWN
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMLVKEYDOWN structure

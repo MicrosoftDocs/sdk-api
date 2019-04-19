@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ACT_AUTHORIZATION_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ACT_AUTHORIZATION_STATE structure

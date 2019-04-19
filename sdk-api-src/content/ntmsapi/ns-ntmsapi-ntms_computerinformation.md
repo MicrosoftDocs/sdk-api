@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NTMS_COMPUTERINFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NTMS_COMPUTERINFORMATION structure

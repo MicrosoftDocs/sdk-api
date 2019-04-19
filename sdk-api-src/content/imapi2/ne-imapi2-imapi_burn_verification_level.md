@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMAPI_BURN_VERIFICATION_LEVEL, *PIMAPI_BURN_VERIFICATION_LEVEL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IMAPI_BURN_VERIFICATION_LEVEL enumeration

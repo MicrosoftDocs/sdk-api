@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DMO_MEDIA_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DMO_MEDIA_TYPE structure

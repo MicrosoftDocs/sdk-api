@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_ALL_OPTIONS, *LPDHCP_ALL_OPTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_ALL_OPTIONS structure

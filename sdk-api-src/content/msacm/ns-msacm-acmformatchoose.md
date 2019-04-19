@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ACMFORMATCHOOSE, *PACMFORMATCHOOSE, *LPACMFORMATCHOOSE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ACMFORMATCHOOSE structure

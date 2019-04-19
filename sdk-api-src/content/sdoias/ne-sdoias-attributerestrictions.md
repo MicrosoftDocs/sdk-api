@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ATTRIBUTERESTRICTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ATTRIBUTERESTRICTIONS enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET, *PAUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+ms.custom: 19H1
 ---
 
 # AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET structure

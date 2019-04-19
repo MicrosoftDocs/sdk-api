@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MF_TOPOLOGY_RESOLUTION_STATUS_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MF_TOPOLOGY_RESOLUTION_STATUS_FLAGS enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LSA_DISPATCH_TABLE, *PLSA_DISPATCH_TABLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LSA_DISPATCH_TABLE structure

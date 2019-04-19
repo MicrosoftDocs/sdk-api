@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DSMCC_ELEMENT, *PDSMCC_ELEMENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DSMCC_ELEMENT structure

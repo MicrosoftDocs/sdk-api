@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "_ListViewMode, LISTVIEWMODE, *PLISTVIEWMODE"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # _ListViewMode enumeration

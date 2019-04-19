@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: EXTLOGFONTA, *PEXTLOGFONTA, *NPEXTLOGFONTA, *LPEXTLOGFONTA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EXTLOGFONTA structure

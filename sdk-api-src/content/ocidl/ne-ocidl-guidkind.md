@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GUIDKIND
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GUIDKIND enumeration

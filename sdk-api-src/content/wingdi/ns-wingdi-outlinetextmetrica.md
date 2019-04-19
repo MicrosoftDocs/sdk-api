@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: OUTLINETEXTMETRICA, *POUTLINETEXTMETRICA, *NPOUTLINETEXTMETRICA, *LPOUTLINETEXTMETRICA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OUTLINETEXTMETRICA structure

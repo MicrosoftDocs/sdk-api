@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ID2D1DeviceContext::PushLayer(const D2D1_LAYER_PARAMETERS1 &,ID2D1Layer)

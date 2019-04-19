@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STRUCTURED_QUERY_MULTIOPTION
 req.redist: Windows Desktop Search (WDS) 3.0
+ms.custom: 19H1
 ---
 
 # STRUCTURED_QUERY_MULTIOPTION enumeration

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: ACTRL_ACCESSA, *PACTRL_ACCESSA, ACTRL_AUDITA, *PACTRL_AUDITA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ACTRL_ACCESSA structure

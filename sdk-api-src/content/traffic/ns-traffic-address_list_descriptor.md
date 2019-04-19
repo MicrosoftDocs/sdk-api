@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ADDRESS_LIST_DESCRIPTOR, *PADDRESS_LIST_DESCRIPTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ADDRESS_LIST_DESCRIPTOR structure

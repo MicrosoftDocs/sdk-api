@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_END_OF_FILE_INFO, *PFILE_END_OF_FILE_INFO
 req.redist: Windows SDK on Windows Server 2003 and Windows XP.
+ms.custom: 19H1
 ---
 
 # FILE_END_OF_FILE_INFO structure

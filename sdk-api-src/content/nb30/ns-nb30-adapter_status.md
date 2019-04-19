@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ADAPTER_STATUS, *PADAPTER_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ADAPTER_STATUS structure

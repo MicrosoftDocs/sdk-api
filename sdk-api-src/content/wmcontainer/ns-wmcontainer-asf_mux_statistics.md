@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ASF_MUX_STATISTICS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ASF_MUX_STATISTICS structure

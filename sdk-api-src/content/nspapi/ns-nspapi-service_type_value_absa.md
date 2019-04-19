@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: SERVICE_TYPE_VALUE_ABSA, *PSERVICE_TYPE_VALUE_ABSA, *LPSERVICE_TYPE_VALUE_ABSA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SERVICE_TYPE_VALUE_ABSA structure

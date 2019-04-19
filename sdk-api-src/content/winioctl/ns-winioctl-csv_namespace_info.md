@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CSV_NAMESPACE_INFO, *PCSV_NAMESPACE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CSV_NAMESPACE_INFO structure

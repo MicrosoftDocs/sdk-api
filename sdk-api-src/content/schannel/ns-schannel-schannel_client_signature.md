@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SCHANNEL_CLIENT_SIGNATURE, *PSCHANNEL_CLIENT_SIGNATURE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SCHANNEL_CLIENT_SIGNATURE structure

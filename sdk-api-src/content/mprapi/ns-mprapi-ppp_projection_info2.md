@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PPP_PROJECTION_INFO2, *PPPP_PROJECTION_INFO2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PPP_PROJECTION_INFO2 structure

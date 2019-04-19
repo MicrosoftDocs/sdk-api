@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_ID_INFO, *PFILE_ID_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILE_ID_INFO structure

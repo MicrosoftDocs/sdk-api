@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CD3D11_VIEWPORT::CD3D11_VIEWPORT(ID3D11Buffer,ID3D11RenderTargetView,FLOAT,FLOAT,FLOAT)

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYSTEM_AUDIT_OBJECT_ACE, *PSYSTEM_AUDIT_OBJECT_ACE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYSTEM_AUDIT_OBJECT_ACE structure

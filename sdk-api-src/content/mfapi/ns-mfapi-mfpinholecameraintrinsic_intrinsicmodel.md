@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFPinholeCameraIntrinsic_IntrinsicModel
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFPinholeCameraIntrinsic_IntrinsicModel structure

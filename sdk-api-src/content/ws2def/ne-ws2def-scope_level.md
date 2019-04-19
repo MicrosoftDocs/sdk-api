@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: SCOPE_LEVEL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SCOPE_LEVEL enumeration

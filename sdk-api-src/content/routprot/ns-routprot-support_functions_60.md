@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SUPPORT_FUNCTIONS_60
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SUPPORT_FUNCTIONS_60 structure

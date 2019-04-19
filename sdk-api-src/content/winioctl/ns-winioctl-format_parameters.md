@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FORMAT_PARAMETERS, *PFORMAT_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FORMAT_PARAMETERS structure

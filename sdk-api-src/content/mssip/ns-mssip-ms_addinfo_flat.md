@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MS_ADDINFO_FLAT, *PMS_ADDINFO_FLAT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MS_ADDINFO_FLAT structure

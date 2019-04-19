@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BfEnTvRat_Attributes_CAF_TV
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BfEnTvRat_Attributes_CAF_TV enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NET_FW_ACTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NET_FW_ACTION enumeration

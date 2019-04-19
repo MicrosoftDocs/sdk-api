@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEER_SECURITY_INTERFACE, *PPEER_SECURITY_INTERFACE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEER_SECURITY_INTERFACE structure

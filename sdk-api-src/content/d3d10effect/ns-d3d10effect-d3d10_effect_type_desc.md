@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D3D10_EFFECT_TYPE_DESC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3D10_EFFECT_TYPE_DESC structure

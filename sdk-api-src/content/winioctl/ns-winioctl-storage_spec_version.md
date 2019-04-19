@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_SPEC_VERSION, *PSTORAGE_SPEC_VERSION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STORAGE_SPEC_VERSION structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROCESS_MITIGATION_POLICY, *PPROCESS_MITIGATION_POLICY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROCESS_MITIGATION_POLICY enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ADS_PREFERENCES_ENUM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ADS_PREFERENCES_ENUM enumeration

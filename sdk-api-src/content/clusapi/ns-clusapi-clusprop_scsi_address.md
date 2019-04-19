@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSPROP_SCSI_ADDRESS, *PCLUSPROP_SCSI_ADDRESS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSPROP_SCSI_ADDRESS structure

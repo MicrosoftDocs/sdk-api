@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLIENT_DISPLAY, *PCLIENT_DISPLAY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLIENT_DISPLAY structure

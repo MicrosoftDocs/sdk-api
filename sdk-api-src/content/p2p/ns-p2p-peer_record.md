@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEER_RECORD, *PPEER_RECORD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEER_RECORD structure

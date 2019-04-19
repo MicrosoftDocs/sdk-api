@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CSC_PartitionConfig
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CSC_PartitionConfig enumeration

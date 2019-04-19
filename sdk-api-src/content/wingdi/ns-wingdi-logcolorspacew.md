@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LOGCOLORSPACEW, *LPLOGCOLORSPACEW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LOGCOLORSPACEW structure

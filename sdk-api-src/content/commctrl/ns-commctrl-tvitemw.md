@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: TVITEMW, *LPTVITEMW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TVITEMW structure

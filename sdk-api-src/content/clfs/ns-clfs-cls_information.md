@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLS_INFORMATION, *PCLS_INFORMATION, *PPCLS_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLS_INFORMATION structure

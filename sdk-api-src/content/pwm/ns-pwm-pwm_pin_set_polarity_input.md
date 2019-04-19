@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PWM_PIN_SET_POLARITY_INPUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PWM_PIN_SET_POLARITY_INPUT structure

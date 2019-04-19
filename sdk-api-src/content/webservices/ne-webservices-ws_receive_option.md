@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_RECEIVE_OPTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_RECEIVE_OPTION enumeration

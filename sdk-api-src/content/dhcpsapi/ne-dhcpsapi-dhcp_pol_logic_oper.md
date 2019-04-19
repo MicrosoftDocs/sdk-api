@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_POL_LOGIC_OPER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_POL_LOGIC_OPER enumeration

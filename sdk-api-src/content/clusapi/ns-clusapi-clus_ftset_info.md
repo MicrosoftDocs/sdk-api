@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUS_FTSET_INFO, *PCLUS_FTSET_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUS_FTSET_INFO structure

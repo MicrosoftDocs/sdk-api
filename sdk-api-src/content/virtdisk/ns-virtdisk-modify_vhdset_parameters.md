@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: MODIFY_VHDSET_PARAMETERS, *PMODIFY_VHDSET_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MODIFY_VHDSET_PARAMETERS structure

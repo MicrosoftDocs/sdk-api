@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NET_IF_CONNECTION_TYPE, *PNET_IF_CONNECTION_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NET_IF_CONNECTION_TYPE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EndpointFormFactor
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EndpointFormFactor enumeration

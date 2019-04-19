@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LOCALGROUP_INFO_1, *PLOCALGROUP_INFO_1, *LPLOCALGROUP_INFO_1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LOCALGROUP_INFO_1 structure

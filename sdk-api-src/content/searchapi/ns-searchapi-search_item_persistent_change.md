@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SEARCH_ITEM_PERSISTENT_CHANGE
 req.redist: Windows Desktop Search (WDS) 3.0
+ms.custom: 19H1
 ---
 
 # SEARCH_ITEM_PERSISTENT_CHANGE structure

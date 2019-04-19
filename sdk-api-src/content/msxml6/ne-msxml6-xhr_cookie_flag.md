@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: XHR_COOKIE_FLAG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XHR_COOKIE_FLAG enumeration

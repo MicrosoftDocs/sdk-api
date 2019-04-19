@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: TEXTMETRICA, *PTEXTMETRICA, *NPTEXTMETRICA, *LPTEXTMETRICA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TEXTMETRICA structure

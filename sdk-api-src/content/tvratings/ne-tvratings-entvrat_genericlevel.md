@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EnTvRat_GenericLevel
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EnTvRat_GenericLevel enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: XINPUT_BATTERY_INFORMATION, *PXINPUT_BATTERY_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XINPUT_BATTERY_INFORMATION structure

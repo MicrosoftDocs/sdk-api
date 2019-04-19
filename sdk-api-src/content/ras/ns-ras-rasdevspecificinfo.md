@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RASDEVSPECIFICINFO, *PRASDEVSPECIFICINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RASDEVSPECIFICINFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DISK_EX_INT13_INFO, *PDISK_EX_INT13_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DISK_EX_INT13_INFO structure

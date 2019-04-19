@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: VMRFrequency
 req.redist: 
 req.product: Windows XP with SP1 and later
+ms.custom: 19H1
 ---
 
 # VMRFrequency structure

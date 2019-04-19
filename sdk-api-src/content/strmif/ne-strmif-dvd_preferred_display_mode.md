@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DVD_PREFERRED_DISPLAY_MODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DVD_PREFERRED_DISPLAY_MODE enumeration

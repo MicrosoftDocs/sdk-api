@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: APPLICATION_VIEW_SIZE_PREFERENCE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # APPLICATION_VIEW_SIZE_PREFERENCE enumeration

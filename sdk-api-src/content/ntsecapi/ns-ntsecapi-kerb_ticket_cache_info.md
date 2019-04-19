@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KERB_TICKET_CACHE_INFO, *PKERB_TICKET_CACHE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KERB_TICKET_CACHE_INFO structure

@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSTER_RESOURCE_STATE_CHANGE_REASON
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSTER_RESOURCE_STATE_CHANGE_REASON enumeration

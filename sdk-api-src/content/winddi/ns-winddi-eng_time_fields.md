@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ENG_TIME_FIELDS, *PENG_TIME_FIELDS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ENG_TIME_FIELDS structure

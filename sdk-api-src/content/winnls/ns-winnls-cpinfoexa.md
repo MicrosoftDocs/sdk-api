@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CPINFOEXA, *LPCPINFOEXA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CPINFOEXA structure

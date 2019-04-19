@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYNCMGR_PRESENTER_NEXT_STEP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYNCMGR_PRESENTER_NEXT_STEP enumeration

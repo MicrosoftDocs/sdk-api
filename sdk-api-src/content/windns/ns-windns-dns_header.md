@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DNS_HEADER, *PDNS_HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DNS_HEADER structure

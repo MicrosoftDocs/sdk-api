@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_PRIVATE_KEY_VALIDITY, *PCERT_PRIVATE_KEY_VALIDITY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_PRIVATE_KEY_VALIDITY structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AR_STATE, *PAR_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AR_STATE enumeration

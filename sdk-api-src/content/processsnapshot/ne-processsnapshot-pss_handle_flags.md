@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PSS_HANDLE_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PSS_HANDLE_FLAGS enumeration

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: OLEUICONVERTA, *POLEUICONVERTA, *LPOLEUICONVERTA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OLEUICONVERTA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EAP_INTERACTIVE_UI_DATA_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EAP_INTERACTIVE_UI_DATA_TYPE enumeration

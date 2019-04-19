@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RSVP_FILTERSPEC_V4_GPI, *LPRSVP_FILTERSPEC_V4_GPI
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RSVP_FILTERSPEC_V4_GPI structure

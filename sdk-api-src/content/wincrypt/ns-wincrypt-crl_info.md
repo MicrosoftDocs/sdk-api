@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRL_INFO, *PCRL_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRL_INFO structure

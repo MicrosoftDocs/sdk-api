@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: BNSTATE
 req.redist: 
 req.product: Internet Explorer 4.0
+ms.custom: 19H1
 ---
 
 # BNSTATE enumeration

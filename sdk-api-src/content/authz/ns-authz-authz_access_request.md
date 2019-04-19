@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AUTHZ_ACCESS_REQUEST, *PAUTHZ_ACCESS_REQUEST
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+ms.custom: 19H1
 ---
 
 # AUTHZ_ACCESS_REQUEST structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DISPLAYCONFIG_SCANLINE_ORDERING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DISPLAYCONFIG_SCANLINE_ORDERING enumeration

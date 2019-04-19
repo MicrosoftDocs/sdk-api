@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BLUETOOTH_PIN_INFO, *PBLUETOOTH_PIN_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BLUETOOTH_PIN_INFO structure

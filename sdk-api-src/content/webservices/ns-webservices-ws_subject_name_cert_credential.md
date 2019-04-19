@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_SUBJECT_NAME_CERT_CREDENTIAL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_SUBJECT_NAME_CERT_CREDENTIAL structure

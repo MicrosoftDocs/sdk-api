@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D3DCONTENTPROTECTIONCAPS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3DCONTENTPROTECTIONCAPS structure

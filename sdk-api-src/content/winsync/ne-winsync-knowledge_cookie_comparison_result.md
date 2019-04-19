@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KNOWLEDGE_COOKIE_COMPARISON_RESULT enumeration

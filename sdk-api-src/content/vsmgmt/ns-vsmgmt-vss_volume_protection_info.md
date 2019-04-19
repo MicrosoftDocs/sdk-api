@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VSS_VOLUME_PROTECTION_INFO, *PVSS_VOLUME_PROTECTION_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VSS_VOLUME_PROTECTION_INFO structure

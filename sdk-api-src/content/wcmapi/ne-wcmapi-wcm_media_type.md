@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WCM_MEDIA_TYPE, *PWCM_MEDIA_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WCM_MEDIA_TYPE enumeration

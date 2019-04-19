@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NT_CONSOLE_PROPS, *LPNT_CONSOLE_PROPS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NT_CONSOLE_PROPS structure

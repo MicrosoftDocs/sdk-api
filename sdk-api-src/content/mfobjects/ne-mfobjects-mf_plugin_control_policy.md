@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MF_PLUGIN_CONTROL_POLICY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MF_PLUGIN_CONTROL_POLICY enumeration

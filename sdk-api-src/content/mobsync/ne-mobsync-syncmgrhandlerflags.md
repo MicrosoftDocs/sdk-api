@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYNCMGRHANDLERFLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYNCMGRHANDLERFLAGS enumeration

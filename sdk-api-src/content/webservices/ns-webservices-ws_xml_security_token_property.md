@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_XML_SECURITY_TOKEN_PROPERTY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_XML_SECURITY_TOKEN_PROPERTY structure

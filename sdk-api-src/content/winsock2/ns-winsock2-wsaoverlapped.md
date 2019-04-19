@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSAOVERLAPPED, *LPWSAOVERLAPPED
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSAOVERLAPPED structure

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: REMOTE_NAME_INFOA, *LPREMOTE_NAME_INFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # REMOTE_NAME_INFOA structure

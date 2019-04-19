@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: WNDCLASSA, *PWNDCLASSA, *NPWNDCLASSA, *LPWNDCLASSA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WNDCLASSA structure

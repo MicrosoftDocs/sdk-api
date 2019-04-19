@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: REPAIR_RISK
 req.redist: 
+ms.custom: 19H1
 ---
 
 # REPAIR_RISK enumeration

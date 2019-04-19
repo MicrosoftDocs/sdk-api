@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMMOUSE, *LPNMMOUSE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMMOUSE structure

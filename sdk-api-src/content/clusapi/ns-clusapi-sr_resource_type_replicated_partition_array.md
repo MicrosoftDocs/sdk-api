@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY, *PSR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY structure

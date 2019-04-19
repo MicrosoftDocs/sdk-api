@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IP_ADDRESS_STRING, *PIP_ADDRESS_STRING, IP_MASK_STRING, *PIP_MASK_STRING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IP_ADDRESS_STRING structure

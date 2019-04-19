@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: LDAPAPIInfoA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LDAPAPIInfoA structure

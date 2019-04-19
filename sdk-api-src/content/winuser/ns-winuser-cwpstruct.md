@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CWPSTRUCT, *PCWPSTRUCT, *NPCWPSTRUCT, *LPCWPSTRUCT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CWPSTRUCT structure

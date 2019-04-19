@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: SET_VIRTUAL_DISK_INFO, *PSET_VIRTUAL_DISK_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SET_VIRTUAL_DISK_INFO structure

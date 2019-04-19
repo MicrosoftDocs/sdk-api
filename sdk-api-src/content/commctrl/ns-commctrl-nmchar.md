@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMCHAR, *LPNMCHAR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMCHAR structure

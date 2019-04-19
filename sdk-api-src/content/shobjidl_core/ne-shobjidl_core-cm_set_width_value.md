@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CM_SET_WIDTH_VALUE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CM_SET_WIDTH_VALUE enumeration

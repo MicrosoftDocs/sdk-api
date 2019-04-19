@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CMSG_CNG_CONTENT_DECRYPT_INFO, *PCMSG_CNG_CONTENT_DECRYPT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CMSG_CNG_CONTENT_DECRYPT_INFO structure

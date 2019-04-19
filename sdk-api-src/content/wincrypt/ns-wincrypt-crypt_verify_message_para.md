@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_VERIFY_MESSAGE_PARA, *PCRYPT_VERIFY_MESSAGE_PARA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_VERIFY_MESSAGE_PARA structure

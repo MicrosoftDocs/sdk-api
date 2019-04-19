@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DAV_CALLBACK_AUTH_UNP, *PDAV_CALLBACK_AUTH_UNP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DAV_CALLBACK_AUTH_UNP structure

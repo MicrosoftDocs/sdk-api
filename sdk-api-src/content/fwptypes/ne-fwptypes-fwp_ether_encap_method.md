@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FWP_ETHER_ENCAP_METHOD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FWP_ETHER_ENCAP_METHOD enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RENDEZVOUS_SESSION_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RENDEZVOUS_SESSION_FLAGS enumeration

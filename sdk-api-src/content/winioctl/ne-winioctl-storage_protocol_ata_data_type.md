@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_PROTOCOL_ATA_DATA_TYPE, *PSTORAGE_PROTOCOL_ATA_DATA_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STORAGE_PROTOCOL_ATA_DATA_TYPE enumeration

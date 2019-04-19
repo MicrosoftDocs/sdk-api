@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WELL_KNOWN_SID_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WELL_KNOWN_SID_TYPE enumeration

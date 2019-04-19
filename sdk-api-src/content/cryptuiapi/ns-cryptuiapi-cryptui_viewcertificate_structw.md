@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPTUI_VIEWCERTIFICATE_STRUCTW, *PCRYPTUI_VIEWCERTIFICATE_STRUCTW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPTUI_VIEWCERTIFICATE_STRUCTW structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TASK_ACTION_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TASK_ACTION_TYPE enumeration

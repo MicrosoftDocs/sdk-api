@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_NAME_CONSTRAINTS_INFO, *PCERT_NAME_CONSTRAINTS_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_NAME_CONSTRAINTS_INFO structure

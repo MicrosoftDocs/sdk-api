@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AMVP_MODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AMVP_MODE enumeration

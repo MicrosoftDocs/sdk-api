@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EVENT_EXTENDED_ITEM_STACK_TRACE32, *PEVENT_EXTENDED_ITEM_STACK_TRACE32
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EVENT_EXTENDED_ITEM_STACK_TRACE32 structure

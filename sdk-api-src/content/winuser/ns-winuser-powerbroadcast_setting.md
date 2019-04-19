@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: POWERBROADCAST_SETTING, *PPOWERBROADCAST_SETTING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # POWERBROADCAST_SETTING structure

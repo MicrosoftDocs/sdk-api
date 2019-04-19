@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_KEY_PROV_INFO, *PCRYPT_KEY_PROV_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_KEY_PROV_INFO structure

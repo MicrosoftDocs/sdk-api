@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STAT_SERVER_0, *PSTAT_SERVER_0, *LPSTAT_SERVER_0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STAT_SERVER_0 structure

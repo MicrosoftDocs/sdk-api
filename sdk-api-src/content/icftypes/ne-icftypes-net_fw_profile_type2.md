@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NET_FW_PROFILE_TYPE2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NET_FW_PROFILE_TYPE2 enumeration

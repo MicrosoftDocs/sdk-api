@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMRCREATEMONOBRUSH, *PEMRCREATEMONOBRUSH
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMRCREATEMONOBRUSH structure

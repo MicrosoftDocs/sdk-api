@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PHONECAPS_STRING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PHONECAPS_STRING enumeration

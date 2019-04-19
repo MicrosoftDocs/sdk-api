@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ENHMETARECORD, *PENHMETARECORD, *LPENHMETARECORD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ENHMETARECORD structure

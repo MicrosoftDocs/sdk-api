@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AGENTHANDLER_EVENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AGENTHANDLER_EVENT enumeration

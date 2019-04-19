@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PACKET_DESCRIPTION, *PPACKET_DESCRIPTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PACKET_DESCRIPTION structure

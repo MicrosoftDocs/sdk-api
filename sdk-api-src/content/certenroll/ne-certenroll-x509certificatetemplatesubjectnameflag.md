@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: X509CertificateTemplateSubjectNameFlag
 req.redist: 
+ms.custom: 19H1
 ---
 
 # X509CertificateTemplateSubjectNameFlag enumeration

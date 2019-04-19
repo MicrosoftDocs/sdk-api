@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: INET_FIREWALL_AC_BINARIES, *PINET_FIREWALL_AC_BINARIES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INET_FIREWALL_AC_BINARIES structure

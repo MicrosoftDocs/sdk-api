@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: FAX_PORT_INFOA, *PFAX_PORT_INFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FAX_PORT_INFOA structure

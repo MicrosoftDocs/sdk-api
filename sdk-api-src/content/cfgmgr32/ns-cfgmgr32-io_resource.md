@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IO_RESOURCE, *PIO_RESOURCE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IO_RESOURCE structure

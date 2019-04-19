@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXVA_COPPStatusDisplayData
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXVA_COPPStatusDisplayData structure

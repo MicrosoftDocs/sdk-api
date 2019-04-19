@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D3D12_META_COMMAND_PARAMETER_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3D12_META_COMMAND_PARAMETER_FLAGS enumeration

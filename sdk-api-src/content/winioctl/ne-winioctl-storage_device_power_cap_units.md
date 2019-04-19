@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_POWER_CAP_UNITS, *PSTORAGE_DEVICE_POWER_CAP_UNITS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STORAGE_DEVICE_POWER_CAP_UNITS enumeration

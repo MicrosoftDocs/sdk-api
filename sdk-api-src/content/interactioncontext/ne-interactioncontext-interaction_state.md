@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: INTERACTION_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INTERACTION_STATE enumeration

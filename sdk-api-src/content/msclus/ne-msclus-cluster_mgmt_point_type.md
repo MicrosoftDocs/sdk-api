@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSTER_MGMT_POINT_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSTER_MGMT_POINT_TYPE enumeration

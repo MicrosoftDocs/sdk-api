@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FsrmEventType
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FsrmEventType enumeration

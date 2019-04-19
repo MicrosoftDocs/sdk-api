@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RECORD_READING_POLICY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RECORD_READING_POLICY enumeration

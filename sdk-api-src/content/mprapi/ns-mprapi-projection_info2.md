@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROJECTION_INFO2, *PPROJECTION_INFO2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROJECTION_INFO2 structure

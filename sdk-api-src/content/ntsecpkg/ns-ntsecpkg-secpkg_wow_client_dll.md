@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECPKG_WOW_CLIENT_DLL, *PSECPKG_WOW_CLIENT_DLL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECPKG_WOW_CLIENT_DLL structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MPR_CREDENTIALSEX_1, *PMPR_CREDENTIALSEX_1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MPR_CREDENTIALSEX_1 structure

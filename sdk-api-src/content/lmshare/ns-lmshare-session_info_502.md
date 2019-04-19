@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SESSION_INFO_502, *PSESSION_INFO_502, *LPSESSION_INFO_502
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SESSION_INFO_502 structure

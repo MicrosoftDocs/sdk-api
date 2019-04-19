@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_POL_COND_ARRAY, *PDHCP_POL_COND_ARRAY, *LPDHCP_POL_COND_ARRAY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_POL_COND_ARRAY structure

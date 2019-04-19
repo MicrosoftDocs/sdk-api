@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WDSTRANSPORT_SERVICE_NOTIFICATION, *PWDSTRANSPORT_SERVICE_NOTIFICATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WDSTRANSPORT_SERVICE_NOTIFICATION enumeration

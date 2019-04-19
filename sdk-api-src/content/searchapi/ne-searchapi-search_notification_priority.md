@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SEARCH_NOTIFICATION_PRIORITY
 req.redist: Windows Desktop Search (WDS) 3.0
+ms.custom: 19H1
 ---
 
 # SEARCH_NOTIFICATION_PRIORITY enumeration

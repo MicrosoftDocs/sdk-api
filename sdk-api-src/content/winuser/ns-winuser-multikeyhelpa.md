@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MULTIKEYHELPA, *PMULTIKEYHELPA, *LPMULTIKEYHELPA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MULTIKEYHELPA structure

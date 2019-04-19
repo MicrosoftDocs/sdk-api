@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: OLEUIGNRLPROPSW, *POLEUIGNRLPROPSW, *LPOLEUIGNRLPROPSW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OLEUIGNRLPROPSW structure

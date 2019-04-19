@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NEW_LOG_FILE_FREQUENCY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NEW_LOG_FILE_FREQUENCY enumeration

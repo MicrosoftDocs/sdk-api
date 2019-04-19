@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTS_PROCESS_INFOW, *PWTS_PROCESS_INFOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTS_PROCESS_INFOW structure

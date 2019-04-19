@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_POL_COND, *PDHCP_POL_COND, *LPDHCP_POL_COND
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_POL_COND structure

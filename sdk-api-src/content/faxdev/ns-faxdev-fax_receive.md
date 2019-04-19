@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FAX_RECEIVE, *PFAX_RECEIVE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FAX_RECEIVE structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TXFS_SAVEPOINT_INFORMATION, *PTXFS_SAVEPOINT_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TXFS_SAVEPOINT_INFORMATION structure

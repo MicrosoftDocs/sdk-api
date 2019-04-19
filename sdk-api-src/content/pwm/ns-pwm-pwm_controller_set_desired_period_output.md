@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DL_ADDRESS_TYPE, *PDL_ADDRESS_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DL_ADDRESS_TYPE enumeration

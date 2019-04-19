@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSION_REASON
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSION_REASON enumeration

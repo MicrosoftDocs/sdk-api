@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: InkPersistenceFormat
 req.redist: 
+ms.custom: 19H1
 ---
 
 # InkPersistenceFormat enumeration

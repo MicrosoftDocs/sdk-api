@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 10.0.16232.1000 or later
+ms.custom: 19H1
 ---
 
 # SymGetExtendedOption function

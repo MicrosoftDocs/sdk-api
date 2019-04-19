@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRED_MARSHAL_TYPE, *PCRED_MARSHAL_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRED_MARSHAL_TYPE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFP_RATE_SET_EVENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFP_RATE_SET_EVENT structure

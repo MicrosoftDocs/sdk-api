@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPTPROTECT_PROMPTSTRUCT, *PCRYPTPROTECT_PROMPTSTRUCT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPTPROTECT_PROMPTSTRUCT structure

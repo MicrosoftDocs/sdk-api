@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WINTRUST_CATALOG_INFO, *PWINTRUST_CATALOG_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WINTRUST_CATALOG_INFO structure

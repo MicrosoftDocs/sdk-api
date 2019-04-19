@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DOMAIN_DESC, DOMAINDESC, *PDOMAIN_DESC, *LPDOMAINDESC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DOMAINDESC structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: APPX_BUNDLE_FOOTPRINT_FILE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # APPX_BUNDLE_FOOTPRINT_FILE_TYPE enumeration

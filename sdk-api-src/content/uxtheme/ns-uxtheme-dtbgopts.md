@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DTBGOPTS, *PDTBGOPTS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DTBGOPTS structure

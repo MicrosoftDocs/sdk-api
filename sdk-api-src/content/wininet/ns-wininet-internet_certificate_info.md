@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: INTERNET_CERTIFICATE_INFO, *LPINTERNET_CERTIFICATE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INTERNET_CERTIFICATE_INFO structure

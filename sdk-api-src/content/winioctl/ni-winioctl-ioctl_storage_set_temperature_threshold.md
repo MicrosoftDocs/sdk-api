@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD IOCTL

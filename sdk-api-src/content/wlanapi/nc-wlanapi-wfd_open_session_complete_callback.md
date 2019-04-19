@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WFD_OPEN_SESSION_COMPLETE_CALLBACK callback function

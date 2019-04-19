@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_GETVPORTOUTPUTFORMATDATA, DD_GETVPORTOUTPUTFORMATDATA"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_GETVPORTOUTPUTFORMATDATA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IRQ_RANGE, *PIRQ_RANGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IRQ_RANGE structure

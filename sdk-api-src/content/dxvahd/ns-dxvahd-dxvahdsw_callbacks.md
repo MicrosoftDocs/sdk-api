@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXVAHDSW_CALLBACKS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXVAHDSW_CALLBACKS structure

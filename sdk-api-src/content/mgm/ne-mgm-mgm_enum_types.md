@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MGM_ENUM_TYPES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MGM_ENUM_TYPES enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SCH_CRED_SECRET_PRIVKEY, *PSCH_CRED_SECRET_PRIVKEY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SCH_CRED_SECRET_PRIVKEY structure

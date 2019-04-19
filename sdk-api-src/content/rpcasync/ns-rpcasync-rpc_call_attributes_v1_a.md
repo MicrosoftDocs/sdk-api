@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: RPC_CALL_ATTRIBUTES_V1_A
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RPC_CALL_ATTRIBUTES_V1_A structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CREDSPP_SUBMIT_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CREDSPP_SUBMIT_TYPE enumeration

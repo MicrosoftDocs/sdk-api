@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROVIDER_FIELD_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROVIDER_FIELD_INFO structure

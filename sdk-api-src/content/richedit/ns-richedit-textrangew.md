@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: TEXTRANGEW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TEXTRANGEW structure

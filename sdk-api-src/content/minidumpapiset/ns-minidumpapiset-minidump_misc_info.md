@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_MISC_INFO, *PMINIDUMP_MISC_INFO
 req.redist: DbgHelp.dll 6.0 or later
+ms.custom: 19H1
 ---
 
 # MINIDUMP_MISC_INFO structure

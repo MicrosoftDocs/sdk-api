@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMLVFINDITEMA, *LPNMLVFINDITEMA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMLVFINDITEMA structure

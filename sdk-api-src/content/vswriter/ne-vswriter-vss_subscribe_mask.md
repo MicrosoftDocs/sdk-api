@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VSS_SUBSCRIBE_MASK
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VSS_SUBSCRIBE_MASK enumeration

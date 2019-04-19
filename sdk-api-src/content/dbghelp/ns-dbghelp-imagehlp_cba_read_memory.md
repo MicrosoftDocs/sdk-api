@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMAGEHLP_CBA_READ_MEMORY, *PIMAGEHLP_CBA_READ_MEMORY
 req.redist: DbgHelp.dll 5.1 or later
+ms.custom: 19H1
 ---
 
 # IMAGEHLP_CBA_READ_MEMORY structure

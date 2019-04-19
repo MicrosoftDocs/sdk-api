@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: DETACH_VIRTUAL_DISK_FLAG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DETACH_VIRTUAL_DISK_FLAG enumeration

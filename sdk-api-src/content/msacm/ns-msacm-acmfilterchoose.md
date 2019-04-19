@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ACMFILTERCHOOSE, *PACMFILTERCHOOSE, *LPACMFILTERCHOOSE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ACMFILTERCHOOSE structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_PSOURCE_ALGORITHM, *PCRYPT_PSOURCE_ALGORITHM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_PSOURCE_ALGORITHM structure

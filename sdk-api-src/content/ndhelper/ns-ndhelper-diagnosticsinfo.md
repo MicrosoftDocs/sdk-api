@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DiagnosticsInfo, *PDiagnosticsInfo
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DiagnosticsInfo structure

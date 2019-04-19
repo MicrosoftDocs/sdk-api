@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSPROP_DWORD, *PCLUSPROP_DWORD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSPROP_DWORD structure

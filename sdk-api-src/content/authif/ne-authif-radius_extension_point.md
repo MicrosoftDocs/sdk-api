@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RADIUS_EXTENSION_POINT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RADIUS_EXTENSION_POINT enumeration

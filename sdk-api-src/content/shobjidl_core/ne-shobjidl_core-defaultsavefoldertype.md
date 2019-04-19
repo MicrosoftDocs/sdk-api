@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DEFAULTSAVEFOLDERTYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DEFAULTSAVEFOLDERTYPE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_CLASS_INFO, *LPDHCP_CLASS_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_CLASS_INFO structure

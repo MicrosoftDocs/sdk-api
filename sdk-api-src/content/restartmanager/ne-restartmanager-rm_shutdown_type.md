@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RM_SHUTDOWN_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RM_SHUTDOWN_TYPE enumeration

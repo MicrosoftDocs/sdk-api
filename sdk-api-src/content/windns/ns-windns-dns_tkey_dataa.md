@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DNS_TKEY_DATAA, *PDNS_TKEY_DATAA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DNS_TKEY_DATAA structure

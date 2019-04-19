@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DSPROPERTYPAGEINFO, *LPDSPROPERTYPAGEINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DSPROPERTYPAGEINFO structure

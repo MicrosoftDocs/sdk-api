@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SEC_WINNT_AUTH_IDENTITY_EX2, *PSEC_WINNT_AUTH_IDENTITY_EX2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SEC_WINNT_AUTH_IDENTITY_EX2 structure

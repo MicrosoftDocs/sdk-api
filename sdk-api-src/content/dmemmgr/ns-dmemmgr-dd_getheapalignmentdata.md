@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DD_GETHEAPALIGNMENTDATA, *PDD_GETHEAPALIGNMENTDATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_GETHEAPALIGNMENTDATA structure

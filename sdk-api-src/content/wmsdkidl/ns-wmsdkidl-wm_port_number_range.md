@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WM_PORT_NUMBER_RANGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WM_PORT_NUMBER_RANGE structure

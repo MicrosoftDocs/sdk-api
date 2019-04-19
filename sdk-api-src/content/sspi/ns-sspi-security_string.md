@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECURITY_STRING, *PSECURITY_STRING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECURITY_STRING structure

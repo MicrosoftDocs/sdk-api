@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: X3DAUDIO_DSP_SETTINGS, *LPX3DAUDIO_DSP_SETTINGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # X3DAUDIO_DSP_SETTINGS structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DLGITEMTEMPLATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DLGITEMTEMPLATE structure

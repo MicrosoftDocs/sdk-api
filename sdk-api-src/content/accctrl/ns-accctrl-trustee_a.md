@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: TRUSTEE_A, *PTRUSTEE_A, TRUSTEEA, *PTRUSTEEA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TRUSTEE_A structure

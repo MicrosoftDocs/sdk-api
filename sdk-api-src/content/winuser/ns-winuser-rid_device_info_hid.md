@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RID_DEVICE_INFO_HID, *PRID_DEVICE_INFO_HID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RID_DEVICE_INFO_HID structure

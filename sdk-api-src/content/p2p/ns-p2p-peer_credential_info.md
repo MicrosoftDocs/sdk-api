@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEER_CREDENTIAL_INFO, *PPEER_CREDENTIAL_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEER_CREDENTIAL_INFO structure

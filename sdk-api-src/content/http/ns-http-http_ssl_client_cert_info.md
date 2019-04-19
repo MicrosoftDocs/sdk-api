@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_SSL_CLIENT_CERT_INFO, *PHTTP_SSL_CLIENT_CERT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_SSL_CLIENT_CERT_INFO structure

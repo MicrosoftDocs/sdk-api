@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HARDWARE_COUNTER_DATA, *PHARDWARE_COUNTER_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HARDWARE_COUNTER_DATA structure

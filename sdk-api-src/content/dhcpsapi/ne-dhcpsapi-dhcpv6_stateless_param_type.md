@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCPV6_STATELESS_PARAM_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCPV6_STATELESS_PARAM_TYPE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILTERKEYS, *LPFILTERKEYS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILTERKEYS structure

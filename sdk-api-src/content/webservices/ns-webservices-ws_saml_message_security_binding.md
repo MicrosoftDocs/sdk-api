@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_SAML_MESSAGE_SECURITY_BINDING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_SAML_MESSAGE_SECURITY_BINDING structure

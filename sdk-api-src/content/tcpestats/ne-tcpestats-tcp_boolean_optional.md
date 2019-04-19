@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TCP_BOOLEAN_OPTIONAL, *PTCP_BOOLEAN_OPTIONAL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TCP_BOOLEAN_OPTIONAL enumeration

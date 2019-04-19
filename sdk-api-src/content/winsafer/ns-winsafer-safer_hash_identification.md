@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SAFER_HASH_IDENTIFICATION, *PSAFER_HASH_IDENTIFICATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SAFER_HASH_IDENTIFICATION structure

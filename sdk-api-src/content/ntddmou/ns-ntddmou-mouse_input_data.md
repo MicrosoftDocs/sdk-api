@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MOUSE_INPUT_DATA, *PMOUSE_INPUT_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MOUSE_INPUT_DATA structure

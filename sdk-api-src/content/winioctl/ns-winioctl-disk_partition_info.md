@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DISK_PARTITION_INFO, *PDISK_PARTITION_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DISK_PARTITION_INFO structure

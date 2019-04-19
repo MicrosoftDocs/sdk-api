@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ACDGROUP_EVENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ACDGROUP_EVENT enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MapiMessageW, *lpMapiMessageW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MapiMessageW structure

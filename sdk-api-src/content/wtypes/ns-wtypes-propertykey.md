@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROPERTYKEY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROPERTYKEY structure

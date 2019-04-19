@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_IPMCAST_SCOPE, *PMIB_IPMCAST_SCOPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_IPMCAST_SCOPE structure

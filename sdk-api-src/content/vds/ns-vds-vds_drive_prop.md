@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_DRIVE_PROP, *PVDS_DRIVE_PROP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_DRIVE_PROP structure

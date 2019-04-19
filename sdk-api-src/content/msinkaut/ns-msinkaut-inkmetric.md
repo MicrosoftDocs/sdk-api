@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: INKMETRIC, *PINKMETRIC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INKMETRIC structure

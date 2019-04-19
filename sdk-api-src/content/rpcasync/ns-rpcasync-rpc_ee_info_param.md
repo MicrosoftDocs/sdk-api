@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RPC_EE_INFO_PARAM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RPC_EE_INFO_PARAM structure

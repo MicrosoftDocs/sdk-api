@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TOKEN_USER, *PTOKEN_USER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TOKEN_USER structure

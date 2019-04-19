@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PXE_PROVIDER, *PPXE_PROVIDER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PXE_PROVIDER structure

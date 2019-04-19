@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CI_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CI_STATE structure

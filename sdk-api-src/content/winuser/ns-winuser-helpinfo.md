@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HELPINFO, *LPHELPINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HELPINFO structure

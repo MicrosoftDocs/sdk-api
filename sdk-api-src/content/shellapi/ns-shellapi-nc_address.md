@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NC_ADDRESS, *PNC_ADDRESS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NC_ADDRESS structure

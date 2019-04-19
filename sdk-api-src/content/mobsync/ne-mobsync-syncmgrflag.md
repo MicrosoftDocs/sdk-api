@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYNCMGRFLAG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYNCMGRFLAG enumeration

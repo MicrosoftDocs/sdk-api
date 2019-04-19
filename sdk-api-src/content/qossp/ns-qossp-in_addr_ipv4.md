@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IN_ADDR_IPV4, *LPIN_ADDR_IPV4
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IN_ADDR_IPV4 structure

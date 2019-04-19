@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EVENT_FILTER_EVENT_ID, *PEVENT_FILTER_EVENT_ID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EVENT_FILTER_EVENT_ID structure

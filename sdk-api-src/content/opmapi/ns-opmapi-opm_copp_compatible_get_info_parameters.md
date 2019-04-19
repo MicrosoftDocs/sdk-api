@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS structure

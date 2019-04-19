@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PRINT_OTHER_INFO, *PPRINT_OTHER_INFO, *LPPRINT_OTHER_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PRINT_OTHER_INFO structure

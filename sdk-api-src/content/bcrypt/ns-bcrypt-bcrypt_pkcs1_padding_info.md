@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BCRYPT_PKCS1_PADDING_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BCRYPT_PKCS1_PADDING_INFO structure

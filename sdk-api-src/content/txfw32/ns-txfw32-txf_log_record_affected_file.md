@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TXF_LOG_RECORD_AFFECTED_FILE, *PTXF_LOG_RECORD_AFFECTED_FILE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TXF_LOG_RECORD_AFFECTED_FILE structure

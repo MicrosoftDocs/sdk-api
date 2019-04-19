@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TOKEN_INFORMATION_CLASS, *PTOKEN_INFORMATION_CLASS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TOKEN_INFORMATION_CLASS enumeration

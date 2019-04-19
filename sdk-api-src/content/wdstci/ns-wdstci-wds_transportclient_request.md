@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WDS_TRANSPORTCLIENT_REQUEST, *PWDS_TRANSPORTCLIENT_REQUEST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WDS_TRANSPORTCLIENT_REQUEST structure

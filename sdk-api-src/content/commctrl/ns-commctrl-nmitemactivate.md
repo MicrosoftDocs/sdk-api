@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMITEMACTIVATE, *LPNMITEMACTIVATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMITEMACTIVATE structure

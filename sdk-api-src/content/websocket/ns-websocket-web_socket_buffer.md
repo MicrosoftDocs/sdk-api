@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WEB_SOCKET_BUFFER, *PWEB_SOCKET_BUFFER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WEB_SOCKET_BUFFER structure

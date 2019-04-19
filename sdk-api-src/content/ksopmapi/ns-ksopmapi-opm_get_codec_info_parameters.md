@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OPM_GET_CODEC_INFO_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OPM_GET_CODEC_INFO_PARAMETERS structure

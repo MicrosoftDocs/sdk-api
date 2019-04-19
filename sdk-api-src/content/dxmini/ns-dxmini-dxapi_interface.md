@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXAPI_INTERFACE, *PDXAPI_INTERFACE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXAPI_INTERFACE structure

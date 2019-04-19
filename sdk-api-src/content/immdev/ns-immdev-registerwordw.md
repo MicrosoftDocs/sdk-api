@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: REGISTERWORDW, *PREGISTERWORDW, *NPREGISTERWORDW, *LPREGISTERWORDW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # REGISTERWORDW structure

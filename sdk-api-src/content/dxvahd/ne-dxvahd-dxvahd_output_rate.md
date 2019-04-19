@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXVAHD_OUTPUT_RATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXVAHD_OUTPUT_RATE enumeration

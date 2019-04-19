@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYNC_VERSION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYNC_VERSION structure

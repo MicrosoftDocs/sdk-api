@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_LOGGING_TYPE, *PHTTP_LOGGING_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_LOGGING_TYPE enumeration

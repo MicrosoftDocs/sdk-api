@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMREBAR, *LPNMREBAR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMREBAR structure

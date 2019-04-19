@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: NL_DAD_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NL_DAD_STATE enumeration

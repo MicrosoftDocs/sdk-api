@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MMC_FILTER_CHANGE_CODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MMC_FILTER_CHANGE_CODE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SP_DEVINSTALL_PARAMS_A, *PSP_DEVINSTALL_PARAMS_A
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SP_DEVINSTALL_PARAMS_A structure

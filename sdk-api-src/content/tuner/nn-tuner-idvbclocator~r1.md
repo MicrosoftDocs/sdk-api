@@ -32,6 +32,7 @@ api_name:
  - IDVBCLocator
 product: Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # IDVBCLocator interface

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_LDAP_STORE_OPENED_PARA, *PCERT_LDAP_STORE_OPENED_PARA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_LDAP_STORE_OPENED_PARA structure

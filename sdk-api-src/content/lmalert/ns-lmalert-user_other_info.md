@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: USER_OTHER_INFO, *PUSER_OTHER_INFO, *LPUSER_OTHER_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # USER_OTHER_INFO structure

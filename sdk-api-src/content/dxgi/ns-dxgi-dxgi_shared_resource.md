@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXGI_SHARED_RESOURCE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXGI_SHARED_RESOURCE structure

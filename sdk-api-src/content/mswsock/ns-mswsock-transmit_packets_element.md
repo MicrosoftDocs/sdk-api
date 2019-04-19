@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TRANSMIT_PACKETS_ELEMENT, *PTRANSMIT_PACKETS_ELEMENT, *LPTRANSMIT_PACKETS_ELEMENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TRANSMIT_PACKETS_ELEMENT structure

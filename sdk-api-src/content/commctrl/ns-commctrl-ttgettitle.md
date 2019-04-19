@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TTGETTITLE, *PTTGETTITLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TTGETTITLE structure

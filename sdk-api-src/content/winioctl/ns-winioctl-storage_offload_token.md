@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_OFFLOAD_TOKEN, *PSTORAGE_OFFLOAD_TOKEN
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STORAGE_OFFLOAD_TOKEN structure

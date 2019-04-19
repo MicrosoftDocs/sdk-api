@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DNS_NSEC_DATAA, *PDNS_NSEC_DATAA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DNS_NSEC_DATAA structure

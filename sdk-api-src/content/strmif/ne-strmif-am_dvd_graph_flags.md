@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AM_DVD_GRAPH_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AM_DVD_GRAPH_FLAGS enumeration

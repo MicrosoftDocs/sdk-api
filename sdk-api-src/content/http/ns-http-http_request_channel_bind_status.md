@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_REQUEST_CHANNEL_BIND_STATUS, *PHTTP_REQUEST_CHANNEL_BIND_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_REQUEST_CHANNEL_BIND_STATUS structure

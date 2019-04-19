@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TBADDBITMAP, *LPTBADDBITMAP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TBADDBITMAP structure

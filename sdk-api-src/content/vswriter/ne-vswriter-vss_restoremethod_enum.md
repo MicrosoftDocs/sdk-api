@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VSS_RESTOREMETHOD_ENUM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VSS_RESTOREMETHOD_ENUM enumeration

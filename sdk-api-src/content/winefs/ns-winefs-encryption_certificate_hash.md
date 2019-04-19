@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ENCRYPTION_CERTIFICATE_HASH, *PENCRYPTION_CERTIFICATE_HASH
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ENCRYPTION_CERTIFICATE_HASH structure

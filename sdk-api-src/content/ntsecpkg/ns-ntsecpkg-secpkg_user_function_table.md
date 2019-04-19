@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECPKG_USER_FUNCTION_TABLE, *PSECPKG_USER_FUNCTION_TABLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECPKG_USER_FUNCTION_TABLE structure

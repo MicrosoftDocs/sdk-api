@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: POINTFX, *LPPOINTFX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # POINTFX structure

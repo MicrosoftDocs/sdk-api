@@ -44,6 +44,7 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+ms.custom: 19H1
 ---
 
 # RtlInstallFunctionTableCallback function

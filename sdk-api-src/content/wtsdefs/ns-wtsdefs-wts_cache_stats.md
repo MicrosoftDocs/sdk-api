@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTS_CACHE_STATS, *PWTS_CACHE_STATS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTS_CACHE_STATS structure

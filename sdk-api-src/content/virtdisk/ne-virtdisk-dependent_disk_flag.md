@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: DEPENDENT_DISK_FLAG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DEPENDENT_DISK_FLAG enumeration

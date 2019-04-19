@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMTVKEYDOWN, *LPNMTVKEYDOWN
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMTVKEYDOWN structure

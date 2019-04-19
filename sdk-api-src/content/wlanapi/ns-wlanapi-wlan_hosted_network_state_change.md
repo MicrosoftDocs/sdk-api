@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WLAN_HOSTED_NETWORK_STATE_CHANGE, *PWLAN_HOSTED_NETWORK_STATE_CHANGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WLAN_HOSTED_NETWORK_STATE_CHANGE structure

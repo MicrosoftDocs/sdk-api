@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BCRYPT_OID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BCRYPT_OID structure

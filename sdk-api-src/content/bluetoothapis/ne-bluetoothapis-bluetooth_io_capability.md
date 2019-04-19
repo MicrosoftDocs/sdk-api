@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BLUETOOTH_IO_CAPABILITY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BLUETOOTH_IO_CAPABILITY enumeration

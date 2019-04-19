@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEER_ADDRESS, *PPEER_ADDRESS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEER_ADDRESS structure

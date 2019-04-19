@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: FAX_JOB_PARAMW, *PFAX_JOB_PARAMW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FAX_JOB_PARAMW structure

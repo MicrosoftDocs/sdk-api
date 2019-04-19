@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TXFS_WRITE_BACKUP_INFORMATION, *PTXFS_WRITE_BACKUP_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TXFS_WRITE_BACKUP_INFORMATION structure

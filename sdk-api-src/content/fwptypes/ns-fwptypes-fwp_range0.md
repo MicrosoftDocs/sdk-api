@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FWP_RANGE0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FWP_RANGE0 structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CONTROL_SERVICE, *LPCONTROL_SERVICE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CONTROL_SERVICE structure

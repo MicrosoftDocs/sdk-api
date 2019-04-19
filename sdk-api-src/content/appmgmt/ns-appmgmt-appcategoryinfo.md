@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: APPCATEGORYINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # APPCATEGORYINFO structure

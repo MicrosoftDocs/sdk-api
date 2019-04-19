@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ICCOMPRESSFRAMES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ICCOMPRESSFRAMES structure

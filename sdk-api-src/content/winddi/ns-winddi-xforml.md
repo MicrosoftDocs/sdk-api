@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: XFORML, *PXFORML
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XFORML structure

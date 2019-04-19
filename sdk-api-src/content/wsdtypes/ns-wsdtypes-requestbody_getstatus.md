@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: REQUESTBODY_GetStatus
 req.redist: 
+ms.custom: 19H1
 ---
 
 # REQUESTBODY_GetStatus structure

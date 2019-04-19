@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TCP_ESTATS_SYN_OPTS_ROS_v0, *PTCP_ESTATS_SYN_OPTS_ROS_v0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TCP_ESTATS_SYN_OPTS_ROS_v0 structure

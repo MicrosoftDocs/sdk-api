@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SBE_PIN_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SBE_PIN_DATA structure

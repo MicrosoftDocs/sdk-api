@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WIA_EXTENDED_TRANSFER_INFO, *PWIA_EXTENDED_TRANSFER_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WIA_EXTENDED_TRANSFER_INFO structure

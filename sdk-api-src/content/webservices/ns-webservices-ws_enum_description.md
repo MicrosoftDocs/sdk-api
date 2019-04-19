@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_ENUM_DESCRIPTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_ENUM_DESCRIPTION structure

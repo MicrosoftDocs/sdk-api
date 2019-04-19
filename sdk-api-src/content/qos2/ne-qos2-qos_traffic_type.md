@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: QOS_TRAFFIC_TYPE, *PQOS_TRAFFIC_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # QOS_TRAFFIC_TYPE enumeration

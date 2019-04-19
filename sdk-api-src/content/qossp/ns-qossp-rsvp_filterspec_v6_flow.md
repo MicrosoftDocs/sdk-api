@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RSVP_FILTERSPEC_V6_FLOW, *LPRSVP_FILTERSPEC_V6_FLOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RSVP_FILTERSPEC_V6_FLOW structure

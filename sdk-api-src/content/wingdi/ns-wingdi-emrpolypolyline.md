@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMRPOLYPOLYLINE, *PEMRPOLYPOLYLINE, EMRPOLYPOLYGON, *PEMRPOLYPOLYGON
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMRPOLYPOLYLINE structure

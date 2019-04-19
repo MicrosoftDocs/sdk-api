@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BATTERY_TAG_CHANGE, *PBATTERY_TAG_CHANGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BATTERY_TAG_CHANGE structure

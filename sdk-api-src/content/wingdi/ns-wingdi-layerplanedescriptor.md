@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LAYERPLANEDESCRIPTOR, *PLAYERPLANEDESCRIPTOR, *LPLAYERPLANEDESCRIPTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LAYERPLANEDESCRIPTOR structure

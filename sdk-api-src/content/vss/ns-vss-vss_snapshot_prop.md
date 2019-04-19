@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VSS_SNAPSHOT_PROP, *PVSS_SNAPSHOT_PROP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VSS_SNAPSHOT_PROP structure

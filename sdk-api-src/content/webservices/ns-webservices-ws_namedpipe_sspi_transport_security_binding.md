@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING structure

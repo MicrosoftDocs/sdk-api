@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MONITOR_DPI_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MONITOR_DPI_TYPE enumeration

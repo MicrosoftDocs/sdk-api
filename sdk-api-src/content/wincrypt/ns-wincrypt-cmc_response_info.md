@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CMC_RESPONSE_INFO, *PCMC_RESPONSE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CMC_RESPONSE_INFO structure

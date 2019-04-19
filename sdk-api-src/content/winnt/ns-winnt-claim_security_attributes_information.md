@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLAIM_SECURITY_ATTRIBUTES_INFORMATION, *PCLAIM_SECURITY_ATTRIBUTES_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLAIM_SECURITY_ATTRIBUTES_INFORMATION structure

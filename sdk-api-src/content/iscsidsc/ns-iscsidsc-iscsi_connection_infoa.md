@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: ISCSI_CONNECTION_INFOA, *PISCSI_CONNECTION_INFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ISCSI_CONNECTION_INFOA structure

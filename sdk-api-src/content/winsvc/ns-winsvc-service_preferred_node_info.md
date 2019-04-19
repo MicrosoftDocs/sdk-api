@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SERVICE_PREFERRED_NODE_INFO, *LPSERVICE_PREFERRED_NODE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SERVICE_PREFERRED_NODE_INFO structure

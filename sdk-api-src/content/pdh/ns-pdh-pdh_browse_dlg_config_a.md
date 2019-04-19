@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: PDH_BROWSE_DLG_CONFIG_A, *PPDH_BROWSE_DLG_CONFIG_A
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PDH_BROWSE_DLG_CONFIG_A structure

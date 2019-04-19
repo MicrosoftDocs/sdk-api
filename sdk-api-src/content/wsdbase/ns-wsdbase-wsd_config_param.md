@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSD_CONFIG_PARAM, *PWSD_CONFIG_PARAM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSD_CONFIG_PARAM structure

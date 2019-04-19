@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EXP_PROPERTYSTORAGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EXP_PROPERTYSTORAGE structure

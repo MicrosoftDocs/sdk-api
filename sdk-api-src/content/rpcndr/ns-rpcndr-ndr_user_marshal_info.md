@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NDR_USER_MARSHAL_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NDR_USER_MARSHAL_INFO structure

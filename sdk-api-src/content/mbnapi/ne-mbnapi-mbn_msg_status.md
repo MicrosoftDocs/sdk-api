@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MBN_MSG_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MBN_MSG_STATUS enumeration

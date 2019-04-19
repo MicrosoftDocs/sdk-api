@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEER_CONTACT, *PPEER_CONTACT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEER_CONTACT structure

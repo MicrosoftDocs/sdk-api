@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSANSCLASSINFOW, *PWSANSCLASSINFOW, *LPWSANSCLASSINFOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSANSCLASSINFOW structure

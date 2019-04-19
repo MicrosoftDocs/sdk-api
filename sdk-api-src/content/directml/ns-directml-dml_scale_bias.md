@@ -1,0 +1,76 @@
+---
+UID: NS:directml.DML_SCALE_BIAS
+title: DML_SCALE_BIAS
+author: windows-sdk-content
+description: Contains the values of scale and bias terms supplied to a DirectML operator. Scale and bias have the effect of applying the function g(x) = x * Scale + Bias.
+old-location: direct3d12\dml_scale_bias.htm
+tech.root: direct3d12
+ms.assetid: 56E5BD59-DD7C-40FF-8B85-BD405FDE8E29
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: DML_SCALE_BIAS, DML_SCALE_BIAS structure, direct3d12.dml_scale_bias, directml/DML_SCALE_BIAS
+ms.topic: struct
+req.header: directml.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DirectML.h
+api_name:
+ - DML_SCALE_BIAS
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+ms.custom: 19H1
+---
+
+# DML_SCALE_BIAS structure
+
+
+## -description
+
+
+
+
+
+
+Contains the values of scale and bias terms supplied to a DirectML operator. Scale and bias have the effect of applying the function g(x) = x * <i>Scale</i> + <i>Bias</i>.
+
+
+## -struct-fields
+
+
+
+
+### -field Scale
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
+
+The scale term in g(x) = x * <i>Scale</i> + <i>Bias</i>.
+
+
+### -field Bias
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
+
+The bias term in g(x) = x * <i>Scale</i> + <i>Bias</i>.
+

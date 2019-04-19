@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: SSortOrder, *LPSSortOrder
 req.redist: 
 req.product: Internet Explorer 4.0
+ms.custom: 19H1
 ---
 
 # SSortOrder structure

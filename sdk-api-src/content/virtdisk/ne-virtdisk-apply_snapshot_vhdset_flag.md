@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: APPLY_SNAPSHOT_VHDSET_FLAG, *PAPPLY_SNAPSHOT_VHDSET_FLAG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # APPLY_SNAPSHOT_VHDSET_FLAG enumeration

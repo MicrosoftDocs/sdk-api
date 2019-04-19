@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TOKEN_USER_CLAIMS, *PTOKEN_USER_CLAIMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TOKEN_USER_CLAIMS structure

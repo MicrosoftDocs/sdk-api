@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AM_DVDCOPY_TITLEKEY, *PAM_DVDCOPY_TITLEKEY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AM_DVDCOPY_TITLEKEY structure

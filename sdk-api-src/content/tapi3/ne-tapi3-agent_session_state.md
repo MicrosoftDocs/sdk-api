@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AGENT_SESSION_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AGENT_SESSION_STATE enumeration

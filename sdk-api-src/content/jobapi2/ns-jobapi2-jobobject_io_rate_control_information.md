@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: JOBOBJECT_IO_RATE_CONTROL_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # JOBOBJECT_IO_RATE_CONTROL_INFORMATION structure

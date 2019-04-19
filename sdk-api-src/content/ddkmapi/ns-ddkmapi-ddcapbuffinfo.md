@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DDCAPBUFFINFO, *LPDDCAPBUFFINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DDCAPBUFFINFO structure

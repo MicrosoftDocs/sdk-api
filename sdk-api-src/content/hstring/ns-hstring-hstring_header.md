@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HSTRING_HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HSTRING_HEADER structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SIP_SUBJECTINFO, *LPSIP_SUBJECTINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SIP_SUBJECTINFO structure

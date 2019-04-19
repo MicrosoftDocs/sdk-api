@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ISCSI_LOGIN_OPTIONS, *PISCSI_LOGIN_OPTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ISCSI_LOGIN_OPTIONS structure

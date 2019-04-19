@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WLAN_RATE_SET, *PWLAN_RATE_SET
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WLAN_RATE_SET structure

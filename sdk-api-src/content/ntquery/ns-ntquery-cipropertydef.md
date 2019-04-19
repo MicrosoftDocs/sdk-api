@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CIPROPERTYDEF
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CIPROPERTYDEF structure

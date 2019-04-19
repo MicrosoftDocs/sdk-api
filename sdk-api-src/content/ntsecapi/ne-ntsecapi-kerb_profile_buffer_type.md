@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KERB_PROFILE_BUFFER_TYPE, *PKERB_PROFILE_BUFFER_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KERB_PROFILE_BUFFER_TYPE enumeration

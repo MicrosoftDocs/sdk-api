@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CF_DEHYDRATE_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CF_DEHYDRATE_FLAGS enumeration

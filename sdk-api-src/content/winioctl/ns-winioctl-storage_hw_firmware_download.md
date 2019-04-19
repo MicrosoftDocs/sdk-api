@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_HW_FIRMWARE_DOWNLOAD, *PSTORAGE_HW_FIRMWARE_DOWNLOAD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STORAGE_HW_FIRMWARE_DOWNLOAD structure

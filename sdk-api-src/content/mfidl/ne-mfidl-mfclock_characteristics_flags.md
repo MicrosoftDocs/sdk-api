@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFCLOCK_CHARACTERISTICS_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFCLOCK_CHARACTERISTICS_FLAGS enumeration

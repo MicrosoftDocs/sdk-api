@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PIXELFORMATDESCRIPTOR, *PPIXELFORMATDESCRIPTOR, *LPPIXELFORMATDESCRIPTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PIXELFORMATDESCRIPTOR structure

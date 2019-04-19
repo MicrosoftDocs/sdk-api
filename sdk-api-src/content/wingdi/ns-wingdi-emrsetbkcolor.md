@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMRSETBKCOLOR, *PEMRSETBKCOLOR, EMRSETTEXTCOLOR, *PEMRSETTEXTCOLOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMRSETBKCOLOR structure

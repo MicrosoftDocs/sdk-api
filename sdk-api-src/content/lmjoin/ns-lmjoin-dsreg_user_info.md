@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DSREG_USER_INFO, *PDSREG_USER_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DSREG_USER_INFO structure

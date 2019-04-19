@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LVGROUP, *PLVGROUP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LVGROUP structure

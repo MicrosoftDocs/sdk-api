@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXVAHD_ITELECINE_CAPS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXVAHD_ITELECINE_CAPS enumeration

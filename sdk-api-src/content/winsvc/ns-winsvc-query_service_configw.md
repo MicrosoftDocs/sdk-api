@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: QUERY_SERVICE_CONFIGW, *LPQUERY_SERVICE_CONFIGW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # QUERY_SERVICE_CONFIGW structure

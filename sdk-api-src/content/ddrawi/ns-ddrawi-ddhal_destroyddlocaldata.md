@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DDHAL_DESTROYDDLOCALDATA structure

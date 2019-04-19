@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: COMPRESS_ALLOCATION_ROUTINES, *PCOMPRESS_ALLOCATION_ROUTINES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # COMPRESS_ALLOCATION_ROUTINES structure

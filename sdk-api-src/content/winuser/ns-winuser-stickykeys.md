@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STICKYKEYS, *LPSTICKYKEYS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STICKYKEYS structure

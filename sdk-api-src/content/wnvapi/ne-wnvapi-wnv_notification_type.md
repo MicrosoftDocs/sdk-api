@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WNV_NOTIFICATION_TYPE, *PWNV_NOTIFICATION_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WNV_NOTIFICATION_TYPE enumeration

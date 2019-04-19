@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFVideo3DSampleFormat
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFVideo3DSampleFormat enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RAS_USER_0, *PRAS_USER_0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RAS_USER_0 structure

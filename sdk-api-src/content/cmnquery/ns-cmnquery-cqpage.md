@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CQPAGE, *LPCQPAGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CQPAGE structure

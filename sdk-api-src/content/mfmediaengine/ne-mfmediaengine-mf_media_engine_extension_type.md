@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MF_MEDIA_ENGINE_EXTENSION_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MF_MEDIA_ENGINE_EXTENSION_TYPE enumeration

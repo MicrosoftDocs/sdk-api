@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GRAPHICS_EFFECT_PROPERTY_MAPPING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GRAPHICS_EFFECT_PROPERTY_MAPPING enumeration

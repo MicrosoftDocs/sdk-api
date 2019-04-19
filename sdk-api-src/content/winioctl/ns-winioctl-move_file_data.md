@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MOVE_FILE_DATA, *PMOVE_FILE_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MOVE_FILE_DATA structure

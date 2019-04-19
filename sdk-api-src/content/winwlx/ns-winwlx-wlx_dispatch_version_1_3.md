@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WLX_DISPATCH_VERSION_1_3, *PWLX_DISPATCH_VERSION_1_3
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WLX_DISPATCH_VERSION_1_3 structure

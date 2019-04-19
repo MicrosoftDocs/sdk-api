@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MOUSE_ATTRIBUTES, *PMOUSE_ATTRIBUTES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MOUSE_ATTRIBUTES structure

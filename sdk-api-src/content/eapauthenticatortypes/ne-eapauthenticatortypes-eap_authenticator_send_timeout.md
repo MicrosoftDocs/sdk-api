@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EAP_AUTHENTICATOR_SEND_TIMEOUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EAP_AUTHENTICATOR_SEND_TIMEOUT enumeration

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: NETRESOURCEW, *LPNETRESOURCEW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NETRESOURCEW structure

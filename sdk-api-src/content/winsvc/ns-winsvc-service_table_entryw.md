@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: SERVICE_TABLE_ENTRYW, *LPSERVICE_TABLE_ENTRYW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SERVICE_TABLE_ENTRYW structure

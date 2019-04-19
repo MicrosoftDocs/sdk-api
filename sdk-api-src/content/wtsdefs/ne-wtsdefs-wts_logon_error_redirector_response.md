@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTS_LOGON_ERROR_REDIRECTOR_RESPONSE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTS_LOGON_ERROR_REDIRECTOR_RESPONSE enumeration

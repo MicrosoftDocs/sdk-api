@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NUMA_NODE_RELATIONSHIP, *PNUMA_NODE_RELATIONSHIP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NUMA_NODE_RELATIONSHIP structure

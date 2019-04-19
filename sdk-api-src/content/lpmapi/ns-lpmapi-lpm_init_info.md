@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LPM_INIT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LPM_INIT_INFO structure

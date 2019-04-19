@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEER_PRESENCE_INFO, *PPEER_PRESENCE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEER_PRESENCE_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECPKG_GSS_INFO, *PSECPKG_GSS_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECPKG_GSS_INFO structure

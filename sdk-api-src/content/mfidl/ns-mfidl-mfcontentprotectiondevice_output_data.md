@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA structure

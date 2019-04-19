@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMTBRESTORE, *LPNMTBRESTORE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMTBRESTORE structure

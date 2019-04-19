@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EVT_LOGIN_CLASS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EVT_LOGIN_CLASS enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SCRIPT_PROPERTIES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SCRIPT_PROPERTIES structure

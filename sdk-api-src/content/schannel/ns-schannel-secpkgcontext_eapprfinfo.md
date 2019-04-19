@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_EapPrfInfo, *PSecPkgContext_EapPrfInfo
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SecPkgContext_EapPrfInfo structure

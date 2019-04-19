@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AFPROTOCOLS, *PAFPROTOCOLS, *LPAFPROTOCOLS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AFPROTOCOLS structure

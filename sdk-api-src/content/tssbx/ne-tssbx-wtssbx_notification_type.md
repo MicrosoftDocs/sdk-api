@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTSSBX_NOTIFICATION_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTSSBX_NOTIFICATION_TYPE enumeration

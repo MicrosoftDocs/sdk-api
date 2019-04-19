@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_DEPENDENCY_INFO_TYPE_1, *PSTORAGE_DEPENDENCY_INFO_TYPE_1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STORAGE_DEPENDENCY_INFO_TYPE_1 structure

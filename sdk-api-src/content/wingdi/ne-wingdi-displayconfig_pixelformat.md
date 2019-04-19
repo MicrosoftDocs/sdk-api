@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DISPLAYCONFIG_PIXELFORMAT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DISPLAYCONFIG_PIXELFORMAT enumeration

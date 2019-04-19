@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: AAAuthSchemes
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AAAuthSchemes enumeration

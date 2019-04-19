@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: THERMAL_EVENT, *PTHERMAL_EVENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # THERMAL_EVENT structure

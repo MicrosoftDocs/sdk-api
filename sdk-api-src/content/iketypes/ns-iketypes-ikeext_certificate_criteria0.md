@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IKEEXT_CERTIFICATE_CRITERIA0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IKEEXT_CERTIFICATE_CRITERIA0 structure

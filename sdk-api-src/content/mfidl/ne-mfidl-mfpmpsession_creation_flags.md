@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFPMPSESSION_CREATION_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFPMPSESSION_CREATION_FLAGS enumeration

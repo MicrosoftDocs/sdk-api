@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: INTERFACE_INFO, *LPINTERFACE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INTERFACE_INFO structure

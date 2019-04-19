@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECPKG_EXTRA_OIDS, *PSECPKG_EXTRA_OIDS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECPKG_EXTRA_OIDS structure

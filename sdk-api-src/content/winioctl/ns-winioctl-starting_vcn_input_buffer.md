@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STARTING_VCN_INPUT_BUFFER, *PSTARTING_VCN_INPUT_BUFFER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STARTING_VCN_INPUT_BUFFER structure

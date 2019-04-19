@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EnrollmentTemplateProperty
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EnrollmentTemplateProperty enumeration

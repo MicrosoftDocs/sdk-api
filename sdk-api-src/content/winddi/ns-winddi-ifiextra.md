@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IFIEXTRA, *PIFIEXTRA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IFIEXTRA structure

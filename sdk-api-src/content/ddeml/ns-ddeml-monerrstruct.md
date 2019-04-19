@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MONERRSTRUCT, *PMONERRSTRUCT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MONERRSTRUCT structure

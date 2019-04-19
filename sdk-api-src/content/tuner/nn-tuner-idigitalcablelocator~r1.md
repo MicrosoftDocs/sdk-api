@@ -32,6 +32,7 @@ api_name:
  - IDigitalCableLocator
 product: Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # IDigitalCableLocator interface

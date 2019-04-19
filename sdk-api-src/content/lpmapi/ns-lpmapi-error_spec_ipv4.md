@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: Error_Spec_IPv4
 req.redist: 
+ms.custom: 19H1
 ---
 
 # Error_Spec_IPv4 structure

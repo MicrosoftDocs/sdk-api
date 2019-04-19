@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IPNG_ADDRESS, *PIPNG_ADDRESS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IPNG_ADDRESS structure

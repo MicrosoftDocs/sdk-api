@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GET_MEDIA_TYPES, *PGET_MEDIA_TYPES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GET_MEDIA_TYPES structure

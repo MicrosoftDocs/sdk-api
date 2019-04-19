@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MAGCOLOREFFECT, *PMAGCOLOREFFECT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MAGCOLOREFFECT structure

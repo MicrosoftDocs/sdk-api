@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IP_LOCAL_BINDING, *PIP_LOCAL_BINDING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IP_LOCAL_BINDING structure

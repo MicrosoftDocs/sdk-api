@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ONEX_RESULT_UPDATE_DATA, *PONEX_RESULT_UPDATE_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ONEX_RESULT_UPDATE_DATA structure

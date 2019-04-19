@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: APPX_PACKAGE_ARCHITECTURE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # APPX_PACKAGE_ARCHITECTURE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TDIObjectID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TDIObjectID structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KEYBOARD_UNIT_ID_PARAMETER, *PKEYBOARD_UNIT_ID_PARAMETER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KEYBOARD_UNIT_ID_PARAMETER structure

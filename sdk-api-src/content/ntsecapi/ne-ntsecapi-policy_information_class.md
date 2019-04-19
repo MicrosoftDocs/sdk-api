@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: POLICY_INFORMATION_CLASS, *PPOLICY_INFORMATION_CLASS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # POLICY_INFORMATION_CLASS enumeration

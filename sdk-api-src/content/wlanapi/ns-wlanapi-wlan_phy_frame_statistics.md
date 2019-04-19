@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WLAN_PHY_FRAME_STATISTICS, *PWLAN_PHY_FRAME_STATISTICS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WLAN_PHY_FRAME_STATISTICS structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXVAHD_BLT_STATE_ALPHA_FILL_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXVAHD_BLT_STATE_ALPHA_FILL_DATA structure

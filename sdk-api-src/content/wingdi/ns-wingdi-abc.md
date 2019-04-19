@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ABC, *PABC, *NPABC, *LPABC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ABC structure

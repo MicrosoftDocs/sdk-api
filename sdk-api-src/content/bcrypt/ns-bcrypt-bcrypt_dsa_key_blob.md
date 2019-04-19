@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BCRYPT_DSA_KEY_BLOB, *PBCRYPT_DSA_KEY_BLOB
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BCRYPT_DSA_KEY_BLOB structure

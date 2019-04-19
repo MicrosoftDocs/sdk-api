@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRL_ISSUING_DIST_POINT, *PCRL_ISSUING_DIST_POINT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRL_ISSUING_DIST_POINT structure

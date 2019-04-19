@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SdpQueryUuid
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SdpQueryUuid structure

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMCOMBOBOXEXA, *PNMCOMBOBOXEXA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMCOMBOBOXEXA structure

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMCBEENDEDITA, *LPNMCBEENDEDITA, *PNMCBEENDEDITA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMCBEENDEDITA structure

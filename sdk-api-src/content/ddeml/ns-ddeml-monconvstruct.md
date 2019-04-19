@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MONCONVSTRUCT, *PMONCONVSTRUCT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MONCONVSTRUCT structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MANIPULATION_PROCESSOR_MANIPULATIONS enumeration

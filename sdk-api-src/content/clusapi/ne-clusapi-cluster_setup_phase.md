@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSTER_SETUP_PHASE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSTER_SETUP_PHASE enumeration

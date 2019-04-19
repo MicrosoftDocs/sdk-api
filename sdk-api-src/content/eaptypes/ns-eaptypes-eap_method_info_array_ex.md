@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EAP_METHOD_INFO_ARRAY_EX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EAP_METHOD_INFO_ARRAY_EX structure

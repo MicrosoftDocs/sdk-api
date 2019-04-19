@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: Ipv6Address
 req.redist: 
+ms.custom: 19H1
 ---
 
 # Ipv6Address structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_COOKED_URL, *PHTTP_COOKED_URL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_COOKED_URL structure

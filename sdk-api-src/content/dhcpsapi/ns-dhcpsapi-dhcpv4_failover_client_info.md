@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCPV4_FAILOVER_CLIENT_INFO, *LPDHCPV4_FAILOVER_CLIENT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCPV4_FAILOVER_CLIENT_INFO structure

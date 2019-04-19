@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: CONNECTDLGSTRUCTW, *LPCONNECTDLGSTRUCTW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CONNECTDLGSTRUCTW structure

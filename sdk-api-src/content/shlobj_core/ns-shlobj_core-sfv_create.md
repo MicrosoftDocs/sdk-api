@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SFV_CREATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SFV_CREATE structure

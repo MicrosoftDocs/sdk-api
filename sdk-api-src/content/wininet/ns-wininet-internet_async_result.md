@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: INTERNET_ASYNC_RESULT, *LPINTERNET_ASYNC_RESULT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INTERNET_ASYNC_RESULT structure

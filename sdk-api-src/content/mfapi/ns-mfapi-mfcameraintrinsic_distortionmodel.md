@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFCameraIntrinsic_DistortionModel
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFCameraIntrinsic_DistortionModel structure

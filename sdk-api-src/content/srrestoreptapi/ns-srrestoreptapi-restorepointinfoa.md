@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: RESTOREPOINTINFOA, *PRESTOREPOINTINFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RESTOREPOINTINFOA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SHRINK_VOLUME_INFORMATION, *PSHRINK_VOLUME_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SHRINK_VOLUME_INFORMATION structure

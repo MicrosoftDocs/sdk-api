@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TS_SB_SORT_BY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TS_SB_SORT_BY enumeration

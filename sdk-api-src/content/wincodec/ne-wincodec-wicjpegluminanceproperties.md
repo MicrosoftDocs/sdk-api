@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WICJpegLuminanceProperties
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WICJpegLuminanceProperties enumeration

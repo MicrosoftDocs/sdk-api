@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DEVICE_WRITE_AGGREGATION_DESCRIPTOR, *PDEVICE_WRITE_AGGREGATION_DESCRIPTOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DEVICE_WRITE_AGGREGATION_DESCRIPTOR structure

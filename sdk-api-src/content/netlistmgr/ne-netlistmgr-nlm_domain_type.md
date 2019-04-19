@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NLM_DOMAIN_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NLM_DOMAIN_TYPE enumeration

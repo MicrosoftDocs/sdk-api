@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RAS_PROJECTION_INFO, *PRAS_PROJECTION_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RAS_PROJECTION_INFO structure

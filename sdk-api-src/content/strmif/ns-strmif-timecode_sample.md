@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TIMECODE_SAMPLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TIMECODE_SAMPLE structure

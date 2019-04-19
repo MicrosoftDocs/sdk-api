@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IPSEC_CIPHER_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IPSEC_CIPHER_TYPE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NetworkSoH, NetworkSoHRequest, NetworkSoHResponse
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NetworkSoH structure

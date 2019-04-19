@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FVSHOWINFO, *LPFVSHOWINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FVSHOWINFO structure

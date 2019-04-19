@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_IPSTATS_LH, *PMIB_IPSTATS_LH
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_IPSTATS_LH structure

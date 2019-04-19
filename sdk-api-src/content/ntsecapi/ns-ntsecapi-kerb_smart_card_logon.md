@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KERB_SMART_CARD_LOGON, *PKERB_SMART_CARD_LOGON
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KERB_SMART_CARD_LOGON structure

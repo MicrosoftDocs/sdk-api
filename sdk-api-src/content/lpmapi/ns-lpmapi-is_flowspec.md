@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IS_FLOWSPEC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IS_FLOWSPEC structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_POLICY_PROPERTY_ID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_POLICY_PROPERTY_ID enumeration

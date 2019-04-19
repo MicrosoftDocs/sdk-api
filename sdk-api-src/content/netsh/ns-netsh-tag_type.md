@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TAG_TYPE, *PTAG_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TAG_TYPE structure

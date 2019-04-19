@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_AuthorityA, *PSecPkgContext_AuthorityA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SecPkgContext_AuthorityA structure

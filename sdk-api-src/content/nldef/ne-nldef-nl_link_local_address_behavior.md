@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NL_LINK_LOCAL_ADDRESS_BEHAVIOR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NL_LINK_LOCAL_ADDRESS_BEHAVIOR enumeration

@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: UDP_TABLE_CLASS, *PUDP_TABLE_CLASS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # UDP_TABLE_CLASS enumeration

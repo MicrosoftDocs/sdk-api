@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE, *PIMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE enumeration

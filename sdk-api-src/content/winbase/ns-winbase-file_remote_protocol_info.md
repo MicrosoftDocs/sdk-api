@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_REMOTE_PROTOCOL_INFO, *PFILE_REMOTE_PROTOCOL_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILE_REMOTE_PROTOCOL_INFO structure

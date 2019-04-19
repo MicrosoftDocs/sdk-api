@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IP_PER_ADAPTER_INFO_W2KSP1, *PIP_PER_ADAPTER_INFO_W2KSP1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IP_PER_ADAPTER_INFO_W2KSP1 structure

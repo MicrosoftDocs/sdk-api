@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PERF_COUNTER_DEFINITION, *PPERF_COUNTER_DEFINITION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PERF_COUNTER_DEFINITION structure

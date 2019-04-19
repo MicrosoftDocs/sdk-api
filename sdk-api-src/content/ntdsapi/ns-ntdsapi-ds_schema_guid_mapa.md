@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: DS_SCHEMA_GUID_MAPA, *PDS_SCHEMA_GUID_MAPA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DS_SCHEMA_GUID_MAPA structure

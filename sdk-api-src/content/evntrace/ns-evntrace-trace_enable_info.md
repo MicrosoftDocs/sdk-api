@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TRACE_ENABLE_INFO, *PTRACE_ENABLE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TRACE_ENABLE_INFO structure

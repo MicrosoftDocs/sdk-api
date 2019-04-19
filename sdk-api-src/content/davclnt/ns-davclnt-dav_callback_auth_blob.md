@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DAV_CALLBACK_AUTH_BLOB, *PDAV_CALLBACK_AUTH_BLOB
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DAV_CALLBACK_AUTH_BLOB structure

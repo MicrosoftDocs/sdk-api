@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: SCARD_READERSTATEW, *PSCARD_READERSTATEW, *LPSCARD_READERSTATEW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SCARD_READERSTATEW structure

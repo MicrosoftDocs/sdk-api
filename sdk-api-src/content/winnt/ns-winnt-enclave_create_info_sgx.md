@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ENCLAVE_CREATE_INFO_SGX, *PENCLAVE_CREATE_INFO_SGX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ENCLAVE_CREATE_INFO_SGX structure

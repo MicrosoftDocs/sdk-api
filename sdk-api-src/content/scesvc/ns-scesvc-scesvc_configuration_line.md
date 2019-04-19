@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SCESVC_CONFIGURATION_LINE, *PSCESVC_CONFIGURATION_LINE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SCESVC_CONFIGURATION_LINE structure

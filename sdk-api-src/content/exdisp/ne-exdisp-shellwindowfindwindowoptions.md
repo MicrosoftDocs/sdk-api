@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: ShellWindowFindWindowOptions
 req.redist: 
 req.product: Internet Explorer 5
+ms.custom: 19H1
 ---
 
 # ShellWindowFindWindowOptions enumeration

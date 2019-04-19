@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IP6_ADDRESS, *PIP6_ADDRESS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IP6_ADDRESS structure

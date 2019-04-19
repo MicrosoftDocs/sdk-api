@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSAQUERYSET2A, *PWSAQUERYSET2A, *LPWSAQUERYSET2A
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSAQUERYSET2A structure

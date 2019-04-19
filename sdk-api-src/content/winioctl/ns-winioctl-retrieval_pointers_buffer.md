@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RETRIEVAL_POINTERS_BUFFER, *PRETRIEVAL_POINTERS_BUFFER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RETRIEVAL_POINTERS_BUFFER structure

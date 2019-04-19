@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TAPE_GET_MEDIA_PARAMETERS, *PTAPE_GET_MEDIA_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TAPE_GET_MEDIA_PARAMETERS structure

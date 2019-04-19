@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RootCauseInfo, *PRootCauseInfo
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RootCauseInfo structure

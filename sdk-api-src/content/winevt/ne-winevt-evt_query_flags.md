@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EVT_QUERY_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EVT_QUERY_FLAGS enumeration

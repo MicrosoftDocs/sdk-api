@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK callback function

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: XPS_GLYPH_MAPPING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XPS_GLYPH_MAPPING structure

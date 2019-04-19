@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SLIST_ENTRY, *PSLIST_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SLIST_ENTRY structure

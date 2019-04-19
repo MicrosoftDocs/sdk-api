@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ASM_DISPLAY_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ASM_DISPLAY_FLAGS enumeration

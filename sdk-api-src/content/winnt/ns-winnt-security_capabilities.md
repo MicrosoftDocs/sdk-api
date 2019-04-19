@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECURITY_CAPABILITIES, *PSECURITY_CAPABILITIES, *LPSECURITY_CAPABILITIES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECURITY_CAPABILITIES structure

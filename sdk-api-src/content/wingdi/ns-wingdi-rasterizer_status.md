@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RASTERIZER_STATUS, *LPRASTERIZER_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RASTERIZER_STATUS structure

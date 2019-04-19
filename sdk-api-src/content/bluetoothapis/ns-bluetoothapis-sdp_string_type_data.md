@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SDP_STRING_TYPE_DATA, *PSDP_STRING_TYPE_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SDP_STRING_TYPE_DATA structure

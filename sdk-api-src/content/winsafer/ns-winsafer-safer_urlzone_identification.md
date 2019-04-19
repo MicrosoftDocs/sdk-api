@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SAFER_URLZONE_IDENTIFICATION, *PSAFER_URLZONE_IDENTIFICATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SAFER_URLZONE_IDENTIFICATION structure

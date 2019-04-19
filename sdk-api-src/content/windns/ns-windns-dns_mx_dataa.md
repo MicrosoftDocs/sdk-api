@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DNS_MX_DATAA, *PDNS_MX_DATAA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DNS_MX_DATAA structure

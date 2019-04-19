@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEERDIST_PUBLICATION_OPTIONS, *PPEERDIST_PUBLICATION_OPTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEERDIST_PUBLICATION_OPTIONS structure

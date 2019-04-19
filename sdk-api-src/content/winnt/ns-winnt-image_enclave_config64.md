@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: IMAGE_ENCLAVE_CONFIG64, *PIMAGE_ENCLAVE_CONFIG64
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IMAGE_ENCLAVE_CONFIG64 structure

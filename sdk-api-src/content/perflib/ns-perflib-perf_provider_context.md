@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PERF_PROVIDER_CONTEXT, *PPERF_PROVIDER_CONTEXT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PERF_PROVIDER_CONTEXT structure

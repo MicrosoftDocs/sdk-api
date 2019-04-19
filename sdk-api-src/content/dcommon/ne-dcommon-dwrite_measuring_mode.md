@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DWRITE_MEASURING_MODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DWRITE_MEASURING_MODE enumeration

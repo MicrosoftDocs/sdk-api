@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PALETTEENTRY, *PPALETTEENTRY, *LPPALETTEENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PALETTEENTRY structure

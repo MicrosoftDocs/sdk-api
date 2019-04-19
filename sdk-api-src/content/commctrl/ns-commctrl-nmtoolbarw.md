@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMTOOLBARW, *LPNMTOOLBARW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMTOOLBARW structure

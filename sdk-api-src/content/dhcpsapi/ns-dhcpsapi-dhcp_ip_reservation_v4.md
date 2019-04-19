@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_IP_RESERVATION_V4, *LPDHCP_IP_RESERVATION_V4
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_IP_RESERVATION_V4 structure

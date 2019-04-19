@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TOKEN_STATISTICS, *PTOKEN_STATISTICS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TOKEN_STATISTICS structure

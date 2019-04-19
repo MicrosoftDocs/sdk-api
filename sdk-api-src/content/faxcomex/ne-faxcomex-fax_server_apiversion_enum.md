@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FAX_SERVER_APIVERSION_ENUM
 req.redist: the value used)
+ms.custom: 19H1
 ---
 
 # FAX_SERVER_APIVERSION_ENUM enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DLLVERSIONINFO2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DLLVERSIONINFO2 structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MF_VIDEO_PROCESSOR_ALGORITHM_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MF_VIDEO_PROCESSOR_ALGORITHM_TYPE enumeration

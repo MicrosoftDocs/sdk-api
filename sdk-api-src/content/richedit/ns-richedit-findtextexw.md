@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: FINDTEXTEXW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FINDTEXTEXW structure

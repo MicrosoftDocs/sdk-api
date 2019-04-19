@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: SecurityFunctionTableA, *PSecurityFunctionTableA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SecurityFunctionTableA structure

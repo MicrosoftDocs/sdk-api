@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KNOWNFOLDER_DEFINITION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KNOWNFOLDER_DEFINITION structure

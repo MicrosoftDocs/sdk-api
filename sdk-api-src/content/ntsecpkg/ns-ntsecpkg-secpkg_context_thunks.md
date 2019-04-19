@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECPKG_CONTEXT_THUNKS, *PSECPKG_CONTEXT_THUNKS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECPKG_CONTEXT_THUNKS structure

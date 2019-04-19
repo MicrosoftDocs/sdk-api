@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AM_DvdKaraokeData
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AM_DvdKaraokeData structure

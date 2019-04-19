@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTS_SESSION_INFOA, *PWTS_SESSION_INFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTS_SESSION_INFOA structure

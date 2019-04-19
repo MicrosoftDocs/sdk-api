@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: QACONTAINER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # QACONTAINER structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BLOB, *LPBLOB
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BLOB structure

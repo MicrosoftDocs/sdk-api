@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CSC_TrackerConfig
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CSC_TrackerConfig enumeration

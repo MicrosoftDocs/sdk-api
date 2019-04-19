@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STRENTRYA, *LPSTRENTRYA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STRENTRYA structure

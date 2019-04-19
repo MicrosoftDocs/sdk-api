@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFINPUTTRUSTAUTHORITY_ACCESS_ACTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFINPUTTRUSTAUTHORITY_ACCESS_ACTION structure

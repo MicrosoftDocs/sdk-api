@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUS_DNN_SODAFS_CLONE_STATUS, *PCLUS_DNN_SODAFS_CLONE_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUS_DNN_SODAFS_CLONE_STATUS structure

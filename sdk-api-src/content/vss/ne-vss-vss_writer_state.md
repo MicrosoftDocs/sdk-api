@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VSS_WRITER_STATE, *PVSS_WRITER_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VSS_WRITER_STATE enumeration

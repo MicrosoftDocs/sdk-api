@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FWPM_LAYER_ENUM_TEMPLATE0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FWPM_LAYER_ENUM_TEMPLATE0 structure

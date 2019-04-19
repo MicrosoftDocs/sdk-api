@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LDAP_BERVAL, *PLDAP_BERVAL, BERVAL, *PBERVAL, BerValue
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LDAP_BERVAL structure

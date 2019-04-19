@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSC_SECURITY_PROVIDER_HEALTH, *PWSC_SECURITY_PROVIDER_HEALTH
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSC_SECURITY_PROVIDER_HEALTH enumeration

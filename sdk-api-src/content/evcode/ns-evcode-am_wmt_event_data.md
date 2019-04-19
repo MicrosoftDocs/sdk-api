@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AM_WMT_EVENT_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AM_WMT_EVENT_DATA structure

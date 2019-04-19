@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MOUSE_WHEEL_PARAMETER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MOUSE_WHEEL_PARAMETER enumeration

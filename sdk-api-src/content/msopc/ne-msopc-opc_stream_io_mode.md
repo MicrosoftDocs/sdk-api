@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OPC_STREAM_IO_MODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OPC_STREAM_IO_MODE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: JOBOBJECT_ASSOCIATE_COMPLETION_PORT, *PJOBOBJECT_ASSOCIATE_COMPLETION_PORT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # JOBOBJECT_ASSOCIATE_COMPLETION_PORT structure

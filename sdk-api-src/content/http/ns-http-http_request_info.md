@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_REQUEST_INFO, *PHTTP_REQUEST_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_REQUEST_INFO structure

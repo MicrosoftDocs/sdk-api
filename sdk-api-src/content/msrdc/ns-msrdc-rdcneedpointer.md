@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RdcNeedPointer
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RdcNeedPointer structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSD_APP_SEQUENCE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSD_APP_SEQUENCE structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MAPPING_DATA_RANGE, *PMAPPING_DATA_RANGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MAPPING_DATA_RANGE structure

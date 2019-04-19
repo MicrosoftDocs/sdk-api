@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SCHANNEL_CRED, *PSCHANNEL_CRED
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SCHANNEL_CRED structure

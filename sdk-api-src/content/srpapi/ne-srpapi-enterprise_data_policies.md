@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ENTERPRISE_DATA_POLICIES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ENTERPRISE_DATA_POLICIES enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_URL_INFO, *PCRYPT_URL_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_URL_INFO structure

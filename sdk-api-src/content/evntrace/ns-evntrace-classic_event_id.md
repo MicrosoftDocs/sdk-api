@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLASSIC_EVENT_ID, *PCLASSIC_EVENT_ID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLASSIC_EVENT_ID structure

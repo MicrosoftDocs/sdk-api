@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FAX_DEVICE_RECEIVE_MODE_ENUM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FAX_DEVICE_RECEIVE_MODE_ENUM enumeration

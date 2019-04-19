@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OFFLINEFILES_ITEM_TIME
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OFFLINEFILES_ITEM_TIME enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MONITOR_STATE, *PMONITOR_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MONITOR_STATE structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEERDIST_CLIENT_BASIC_INFO, *PPEERDIST_CLIENT_BASIC_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEERDIST_CLIENT_BASIC_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXGI_OUTDUPL_FRAME_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXGI_OUTDUPL_FRAME_INFO structure

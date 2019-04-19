@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: TCP_TABLE_CLASS, *PTCP_TABLE_CLASS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TCP_TABLE_CLASS enumeration

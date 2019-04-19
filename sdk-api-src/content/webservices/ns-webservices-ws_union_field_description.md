@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_UNION_FIELD_DESCRIPTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_UNION_FIELD_DESCRIPTION structure

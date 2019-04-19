@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: INTERNET_CACHE_GROUP_INFOW, *LPINTERNET_CACHE_GROUP_INFOW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INTERNET_CACHE_GROUP_INFOW structure

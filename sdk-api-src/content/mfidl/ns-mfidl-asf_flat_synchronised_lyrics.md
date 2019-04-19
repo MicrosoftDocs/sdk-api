@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ASF_FLAT_SYNCHRONISED_LYRICS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ASF_FLAT_SYNCHRONISED_LYRICS structure

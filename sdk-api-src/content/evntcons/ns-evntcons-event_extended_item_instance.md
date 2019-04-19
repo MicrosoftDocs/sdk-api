@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EVENT_EXTENDED_ITEM_INSTANCE, *PEVENT_EXTENDED_ITEM_INSTANCE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EVENT_EXTENDED_ITEM_INSTANCE structure

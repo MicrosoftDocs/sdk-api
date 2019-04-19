@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECPKG_SERIALIZED_OID, *PSECPKG_SERIALIZED_OID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECPKG_SERIALIZED_OID structure

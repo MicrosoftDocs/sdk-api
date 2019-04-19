@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ADS_HOLD, *PADS_HOLD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ADS_HOLD structure

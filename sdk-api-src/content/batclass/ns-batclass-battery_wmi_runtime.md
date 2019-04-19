@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BATTERY_WMI_RUNTIME, *PBATTERY_WMI_RUNTIME
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BATTERY_WMI_RUNTIME structure

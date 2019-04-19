@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: HD_TEXTFILTERW, *LPHD_TEXTFILTERW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HD_TEXTFILTERW structure

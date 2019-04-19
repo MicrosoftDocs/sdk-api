@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BCRYPT_DH_PARAMETER_HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BCRYPT_DH_PARAMETER_HEADER structure

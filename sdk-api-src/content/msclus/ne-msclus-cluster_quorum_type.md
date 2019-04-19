@@ -39,6 +39,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSTER_QUORUM_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSTER_QUORUM_TYPE enumeration

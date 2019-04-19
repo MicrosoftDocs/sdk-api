@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ACE_HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ACE_HEADER structure

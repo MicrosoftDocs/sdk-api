@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IPSEC_AUTH_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IPSEC_AUTH_TYPE enumeration

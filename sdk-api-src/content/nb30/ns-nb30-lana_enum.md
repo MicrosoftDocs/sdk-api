@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LANA_ENUM, *PLANA_ENUM
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LANA_ENUM structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NDIS_INTERFACE_INFORMATION, *PNDIS_INTERFACE_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NDIS_INTERFACE_INFORMATION structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DIFFDEVICEATTRIBUTES, *LPDIFFDEVICEATTRIBUTES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DIFFDEVICEATTRIBUTES structure

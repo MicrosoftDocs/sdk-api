@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MENUBARINFO, *PMENUBARINFO, *LPMENUBARINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MENUBARINFO structure

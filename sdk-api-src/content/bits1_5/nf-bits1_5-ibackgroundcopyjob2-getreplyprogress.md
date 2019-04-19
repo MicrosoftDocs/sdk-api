@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: BITS 1.5 on  Windows XP
+ms.custom: 19H1
 ---
 
 # IBackgroundCopyJob2::GetReplyProgress

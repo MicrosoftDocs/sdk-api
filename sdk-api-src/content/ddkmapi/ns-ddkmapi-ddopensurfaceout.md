@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DDOPENSURFACEOUT, *LPDDOPENSURFACEOUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DDOPENSURFACEOUT structure

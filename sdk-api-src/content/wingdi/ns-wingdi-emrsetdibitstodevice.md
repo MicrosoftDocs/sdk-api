@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMRSETDIBITSTODEVICE, *PEMRSETDIBITSTODEVICE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMRSETDIBITSTODEVICE structure

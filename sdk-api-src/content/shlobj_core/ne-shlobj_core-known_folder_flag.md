@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KNOWN_FOLDER_FLAG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KNOWN_FOLDER_FLAG enumeration

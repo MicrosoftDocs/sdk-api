@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: FAX_GLOBAL_ROUTING_INFOA, *PFAX_GLOBAL_ROUTING_INFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FAX_GLOBAL_ROUTING_INFOA structure

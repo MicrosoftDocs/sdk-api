@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TBS_CONTEXT_PARAMS2, *PTBS_CONTEXT_PARAMS2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TBS_CONTEXT_PARAMS2 structure

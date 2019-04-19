@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LINEMEDIACONTROLCALLSTATE, *LPLINEMEDIACONTROLCALLSTATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LINEMEDIACONTROLCALLSTATE structure

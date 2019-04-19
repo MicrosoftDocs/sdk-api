@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CTL_USAGE_MATCH, *PCTL_USAGE_MATCH
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CTL_USAGE_MATCH structure

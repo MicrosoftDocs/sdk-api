@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYNCMGR_EVENT_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYNCMGR_EVENT_FLAGS enumeration

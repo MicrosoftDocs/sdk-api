@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ONEX_AUTH_IDENTITY, PONEX_AUTH_IDENTITY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ONEX_AUTH_IDENTITY enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WWAEXT_SMS_CONSTANTS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WWAEXT_SMS_CONSTANTS enumeration

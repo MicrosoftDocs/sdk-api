@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AASHELLMENUFILENAME, *LPAASHELLMENUFILENAME
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AASHELLMENUFILENAME structure

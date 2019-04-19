@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: OPENCARD_SEARCH_CRITERIAW, *POPENCARD_SEARCH_CRITERIAW, *LPOPENCARD_SEARCH_CRITERIAW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OPENCARD_SEARCH_CRITERIAW structure

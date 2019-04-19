@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: COPYFILE2_EXTENDED_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # COPYFILE2_EXTENDED_PARAMETERS structure

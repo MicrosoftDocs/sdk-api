@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: Scope_list_ipv4
 req.redist: 
+ms.custom: 19H1
 ---
 
 # Scope_list_ipv4 structure

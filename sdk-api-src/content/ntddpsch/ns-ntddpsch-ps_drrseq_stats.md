@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PS_DRRSEQ_STATS, *PPS_DRRSEQ_STATS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PS_DRRSEQ_STATS structure

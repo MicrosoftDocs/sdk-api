@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIXERCONTROLDETAILS_SIGNED, *PMIXERCONTROLDETAILS_SIGNED, *LPMIXERCONTROLDETAILS_SIGNED
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIXERCONTROLDETAILS_SIGNED structure

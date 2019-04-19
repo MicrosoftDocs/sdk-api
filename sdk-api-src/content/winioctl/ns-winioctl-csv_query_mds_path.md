@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CSV_QUERY_MDS_PATH, *PCSV_QUERY_MDS_PATH
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CSV_QUERY_MDS_PATH structure

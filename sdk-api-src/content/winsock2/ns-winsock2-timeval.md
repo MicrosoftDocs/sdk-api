@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TIMEVAL, *PTIMEVAL, *LPTIMEVAL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TIMEVAL structure

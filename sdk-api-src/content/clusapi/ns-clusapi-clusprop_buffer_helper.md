@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSPROP_BUFFER_HELPER, *PCLUSPROP_BUFFER_HELPER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSPROP_BUFFER_HELPER structure

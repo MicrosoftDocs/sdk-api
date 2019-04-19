@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUSTER_CHANGE_NETINTERFACE_V2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUSTER_CHANGE_NETINTERFACE_V2 enumeration

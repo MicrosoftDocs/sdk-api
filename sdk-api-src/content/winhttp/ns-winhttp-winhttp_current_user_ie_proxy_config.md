@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WINHTTP_CURRENT_USER_IE_PROXY_CONFIG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WINHTTP_CURRENT_USER_IE_PROXY_CONFIG structure

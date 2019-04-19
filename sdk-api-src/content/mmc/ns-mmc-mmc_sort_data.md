@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MMC_SORT_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MMC_SORT_DATA structure

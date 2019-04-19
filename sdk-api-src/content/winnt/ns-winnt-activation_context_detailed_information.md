@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ACTIVATION_CONTEXT_DETAILED_INFORMATION, *PACTIVATION_CONTEXT_DETAILED_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ACTIVATION_CONTEXT_DETAILED_INFORMATION structure

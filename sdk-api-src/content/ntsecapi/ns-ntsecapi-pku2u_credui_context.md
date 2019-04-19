@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PKU2U_CREDUI_CONTEXT, *PPKU2U_CREDUI_CONTEXT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PKU2U_CREDUI_CONTEXT structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DIDRIVERVERSIONS, *LPDIDRIVERVERSIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DIDRIVERVERSIONS structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: COMPARTMENT_ID, *PCOMPARTMENT_ID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # COMPARTMENT_ID enumeration

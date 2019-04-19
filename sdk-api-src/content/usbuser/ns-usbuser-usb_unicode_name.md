@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
 req.redist: 
+ms.custom: 19H1
 ---
 
 # USB_UNICODE_NAME structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PARAFORMAT2
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PARAFORMAT2 structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: JOBOBJECT_EXTENDED_LIMIT_INFORMATION, *PJOBOBJECT_EXTENDED_LIMIT_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # JOBOBJECT_EXTENDED_LIMIT_INFORMATION structure

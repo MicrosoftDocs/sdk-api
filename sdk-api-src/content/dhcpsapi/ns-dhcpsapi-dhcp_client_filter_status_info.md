@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_CLIENT_FILTER_STATUS_INFO, *LPDHCP_CLIENT_FILTER_STATUS_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_CLIENT_FILTER_STATUS_INFO structure

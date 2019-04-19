@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECPKG_DLL_FUNCTIONS, *PSECPKG_DLL_FUNCTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECPKG_DLL_FUNCTIONS structure

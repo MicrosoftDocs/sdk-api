@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HMAC_INFO, *PHMAC_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HMAC_INFO structure

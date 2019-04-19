@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SAMPR_ENCRYPTED_USER_PASSWORD, *PSAMPR_ENCRYPTED_USER_PASSWORD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SAMPR_ENCRYPTED_USER_PASSWORD structure

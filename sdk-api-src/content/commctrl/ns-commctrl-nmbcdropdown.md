@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMBCDROPDOWN, *LPNMBCDROPDOWN
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMBCDROPDOWN structure

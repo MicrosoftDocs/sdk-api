@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.4 or later
+ms.custom: 19H1
 ---
 
 # SymEnumSourceLines function

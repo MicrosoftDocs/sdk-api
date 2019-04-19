@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DOMAIN_PASSWORD_INFORMATION, *PDOMAIN_PASSWORD_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DOMAIN_PASSWORD_INFORMATION structure

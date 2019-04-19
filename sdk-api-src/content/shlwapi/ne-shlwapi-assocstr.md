@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ASSOCSTR
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ASSOCSTR enumeration

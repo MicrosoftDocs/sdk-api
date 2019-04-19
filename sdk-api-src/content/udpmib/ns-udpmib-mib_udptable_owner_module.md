@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_UDPTABLE_OWNER_MODULE, *PMIB_UDPTABLE_OWNER_MODULE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_UDPTABLE_OWNER_MODULE structure

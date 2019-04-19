@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: LDAPModW, *PLDAPModW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LDAPModW structure

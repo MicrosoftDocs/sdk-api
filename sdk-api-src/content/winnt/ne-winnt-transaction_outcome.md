@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TRANSACTION_OUTCOME
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TRANSACTION_OUTCOME enumeration

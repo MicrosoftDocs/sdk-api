@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BOOT_AREA_INFO, *PBOOT_AREA_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BOOT_AREA_INFO structure

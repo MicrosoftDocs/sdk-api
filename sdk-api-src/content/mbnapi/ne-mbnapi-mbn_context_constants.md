@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MBN_CONTEXT_CONSTANTS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MBN_CONTEXT_CONSTANTS enumeration

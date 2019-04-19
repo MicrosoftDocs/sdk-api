@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FLICK_POINT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FLICK_POINT structure

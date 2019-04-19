@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYSTEMTIME, *PSYSTEMTIME, *LPSYSTEMTIME
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYSTEMTIME structure

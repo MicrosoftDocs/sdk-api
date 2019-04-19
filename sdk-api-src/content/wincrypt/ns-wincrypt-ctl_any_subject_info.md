@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CTL_ANY_SUBJECT_INFO, *PCTL_ANY_SUBJECT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CTL_ANY_SUBJECT_INFO structure

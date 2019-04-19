@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_ADDR_PATTERN, *LPDHCP_ADDR_PATTERN
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_ADDR_PATTERN structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TOUCHPREDICTIONPARAMETERS, *PTOUCHPREDICTIONPARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TOUCHPREDICTIONPARAMETERS structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECPKG_CLIENT_INFO, *PSECPKG_CLIENT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECPKG_CLIENT_INFO structure

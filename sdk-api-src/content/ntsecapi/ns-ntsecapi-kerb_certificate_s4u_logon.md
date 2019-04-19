@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KERB_CERTIFICATE_S4U_LOGON, *PKERB_CERTIFICATE_S4U_LOGON
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KERB_CERTIFICATE_S4U_LOGON structure

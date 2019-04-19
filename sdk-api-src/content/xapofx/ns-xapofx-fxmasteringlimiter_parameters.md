@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FXMASTERINGLIMITER_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FXMASTERINGLIMITER_PARAMETERS structure

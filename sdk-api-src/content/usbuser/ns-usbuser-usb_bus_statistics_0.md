@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: USB_BUS_STATISTICS_0, *PUSB_BUS_STATISTICS_0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # USB_BUS_STATISTICS_0 structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: METHODDATA, *LPMETHODDATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # METHODDATA structure

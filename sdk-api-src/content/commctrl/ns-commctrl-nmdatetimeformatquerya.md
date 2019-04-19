@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMDATETIMEFORMATQUERYA, *LPNMDATETIMEFORMATQUERYA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMDATETIMEFORMATQUERYA structure

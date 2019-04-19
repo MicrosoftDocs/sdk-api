@@ -43,6 +43,7 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: ADAM
+ms.custom: 19H1
 ---
 
 # DsBindByInstanceA function

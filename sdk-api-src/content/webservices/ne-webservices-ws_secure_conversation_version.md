@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_SECURE_CONVERSATION_VERSION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_SECURE_CONVERSATION_VERSION enumeration

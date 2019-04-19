@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MTP_COMMAND_DATA_OUT, *PMTP_COMMAND_DATA_OUT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MTP_COMMAND_DATA_OUT structure

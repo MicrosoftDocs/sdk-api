@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VfwCompressDialogs
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VfwCompressDialogs enumeration

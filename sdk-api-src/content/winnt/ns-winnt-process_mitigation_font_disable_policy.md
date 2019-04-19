@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROCESS_MITIGATION_FONT_DISABLE_POLICY, *PPROCESS_MITIGATION_FONT_DISABLE_POLICY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROCESS_MITIGATION_FONT_DISABLE_POLICY structure

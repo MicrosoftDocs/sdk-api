@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OFFLINEFILES_SYNC_OPERATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OFFLINEFILES_SYNC_OPERATION enumeration

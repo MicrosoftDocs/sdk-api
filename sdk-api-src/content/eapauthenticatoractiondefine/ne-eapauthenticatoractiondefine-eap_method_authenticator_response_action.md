@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION enumeration

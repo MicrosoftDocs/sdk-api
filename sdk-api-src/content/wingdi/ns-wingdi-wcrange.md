@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WCRANGE, *PWCRANGE, *LPWCRANGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WCRANGE structure

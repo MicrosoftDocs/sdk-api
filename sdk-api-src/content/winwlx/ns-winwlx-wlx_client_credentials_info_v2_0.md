@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WLX_CLIENT_CREDENTIALS_INFO_V2_0, *PWLX_CLIENT_CREDENTIALS_INFO_V2_0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WLX_CLIENT_CREDENTIALS_INFO_V2_0 structure

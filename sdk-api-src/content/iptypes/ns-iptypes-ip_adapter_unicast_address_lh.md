@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IP_ADAPTER_UNICAST_ADDRESS_LH, *PIP_ADAPTER_UNICAST_ADDRESS_LH
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IP_ADAPTER_UNICAST_ADDRESS_LH structure

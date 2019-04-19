@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMLVGETINFOTIPA, *LPNMLVGETINFOTIPA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMLVGETINFOTIPA structure

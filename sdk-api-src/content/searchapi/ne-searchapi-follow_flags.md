@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FOLLOW_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FOLLOW_FLAGS enumeration

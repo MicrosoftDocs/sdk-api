@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: IPV6_MREQ, *PIPV6_MREQ
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IPV6_MREQ structure

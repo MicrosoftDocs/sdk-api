@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: WNDCLASSEXW, *PWNDCLASSEXW, *NPWNDCLASSEXW, *LPWNDCLASSEXW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WNDCLASSEXW structure

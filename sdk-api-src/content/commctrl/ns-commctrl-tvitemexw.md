@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: TVITEMEXW, *LPTVITEMEXW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TVITEMEXW structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECPKG_MUTUAL_AUTH_LEVEL, *PSECPKG_MUTUAL_AUTH_LEVEL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECPKG_MUTUAL_AUTH_LEVEL structure

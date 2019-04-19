@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WORDLIST_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WORDLIST_TYPE enumeration

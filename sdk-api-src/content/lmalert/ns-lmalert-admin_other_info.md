@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ADMIN_OTHER_INFO, *PADMIN_OTHER_INFO, *LPADMIN_OTHER_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ADMIN_OTHER_INFO structure

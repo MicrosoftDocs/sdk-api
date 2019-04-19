@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WINTRUST_SGNR_INFO, *PWINTRUST_SGNR_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WINTRUST_SGNR_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MONITOR_APP_VISIBILITY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MONITOR_APP_VISIBILITY enumeration

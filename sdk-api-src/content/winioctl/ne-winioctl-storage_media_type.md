@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_MEDIA_TYPE, *PSTORAGE_MEDIA_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STORAGE_MEDIA_TYPE enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CREATE_USN_JOURNAL_DATA, *PCREATE_USN_JOURNAL_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CREATE_USN_JOURNAL_DATA structure

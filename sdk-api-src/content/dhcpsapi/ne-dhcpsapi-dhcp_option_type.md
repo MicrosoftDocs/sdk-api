@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_OPTION_TYPE, *LPDHCP_OPTION_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_OPTION_TYPE enumeration

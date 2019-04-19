@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BLUETOOTH_DEVICE_SEARCH_PARAMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BLUETOOTH_DEVICE_SEARCH_PARAMS structure

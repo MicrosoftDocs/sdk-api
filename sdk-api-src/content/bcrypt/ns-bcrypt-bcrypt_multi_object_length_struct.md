@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BCRYPT_MULTI_OBJECT_LENGTH_STRUCT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BCRYPT_MULTI_OBJECT_LENGTH_STRUCT structure

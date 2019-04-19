@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FDE_SHAREVIOLATION_RESPONSE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FDE_SHAREVIOLATION_RESPONSE enumeration

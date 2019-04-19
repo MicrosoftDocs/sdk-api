@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ICMPV6_ECHO_REPLY_LH, *PICMPV6_ECHO_REPLY_LH
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ICMPV6_ECHO_REPLY_LH structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SEC_WINNT_CREDUI_CONTEXT, *PSEC_WINNT_CREDUI_CONTEXT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SEC_WINNT_CREDUI_CONTEXT structure

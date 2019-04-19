@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DEVNAMES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DEVNAMES structure

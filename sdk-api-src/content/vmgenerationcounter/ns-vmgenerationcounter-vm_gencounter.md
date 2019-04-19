@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VM_GENCOUNTER, *PVM_GENCOUNTER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VM_GENCOUNTER structure

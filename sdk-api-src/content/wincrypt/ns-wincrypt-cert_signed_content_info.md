@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_SIGNED_CONTENT_INFO, *PCERT_SIGNED_CONTENT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_SIGNED_CONTENT_INFO structure

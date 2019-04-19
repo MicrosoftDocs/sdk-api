@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CMC_PEND_INFO, *PCMC_PEND_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CMC_PEND_INFO structure

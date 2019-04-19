@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: RPC_INTERFACE_TEMPLATEA, *PRPC_INTERFACE_TEMPLATEA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RPC_INTERFACE_TEMPLATEA structure

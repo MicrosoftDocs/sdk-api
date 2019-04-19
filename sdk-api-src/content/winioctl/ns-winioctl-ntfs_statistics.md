@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NTFS_STATISTICS, *PNTFS_STATISTICS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NTFS_STATISTICS structure

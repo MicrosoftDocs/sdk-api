@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TBINSERTMARK, *LPTBINSERTMARK
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TBINSERTMARK structure

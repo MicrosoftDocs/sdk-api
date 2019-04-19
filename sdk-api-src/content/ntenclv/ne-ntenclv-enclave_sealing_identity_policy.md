@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ENCLAVE_SEALING_IDENTITY_POLICY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ENCLAVE_SEALING_IDENTITY_POLICY enumeration

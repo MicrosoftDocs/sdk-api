@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: WNDCLASSEXA, *PWNDCLASSEXA, *NPWNDCLASSEXA, *LPWNDCLASSEXA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WNDCLASSEXA structure

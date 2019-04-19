@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: INTERFACE_TIMESTAMP_CAPABILITIES, *PINTERFACE_TIMESTAMP_CAPABILITIES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INTERFACE_TIMESTAMP_CAPABILITIES structure

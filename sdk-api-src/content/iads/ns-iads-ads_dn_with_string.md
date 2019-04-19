@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ADS_DN_WITH_STRING, *PADS_DN_WITH_STRING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ADS_DN_WITH_STRING structure

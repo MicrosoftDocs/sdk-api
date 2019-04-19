@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LINEQUEUEINFO, *LPLINEQUEUEINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LINEQUEUEINFO structure

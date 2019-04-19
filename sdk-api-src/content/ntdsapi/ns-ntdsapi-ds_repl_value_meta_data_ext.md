@@ -39,6 +39,7 @@ product: Windows
 targetos: Windows
 req.typenames: DS_REPL_VALUE_META_DATA_EXT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DS_REPL_VALUE_META_DATA_EXT structure

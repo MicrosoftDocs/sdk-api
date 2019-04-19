@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SCHEDULE, *PSCHEDULE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SCHEDULE structure

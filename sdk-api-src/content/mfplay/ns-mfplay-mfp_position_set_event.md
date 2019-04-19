@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFP_POSITION_SET_EVENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFP_POSITION_SET_EVENT structure

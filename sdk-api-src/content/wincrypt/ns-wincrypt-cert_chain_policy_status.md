@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_CHAIN_POLICY_STATUS, *PCERT_CHAIN_POLICY_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_CHAIN_POLICY_STATUS structure

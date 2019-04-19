@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_AUTHENTICATION_HARDENING_LEVELS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_AUTHENTICATION_HARDENING_LEVELS enumeration

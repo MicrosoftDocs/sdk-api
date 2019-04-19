@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMRCREATECOLORSPACE, *PEMRCREATECOLORSPACE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMRCREATECOLORSPACE structure

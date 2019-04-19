@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYNC_REGISTRATION_EVENT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYNC_REGISTRATION_EVENT enumeration

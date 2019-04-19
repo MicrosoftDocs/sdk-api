@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ACCESS_MODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ACCESS_MODE enumeration

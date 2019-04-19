@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: BITS 2.5 on  Windows Server 2003,  Windows XP
+ms.custom: 19H1
 ---
 
 # IBackgroundCopyJob4 interface

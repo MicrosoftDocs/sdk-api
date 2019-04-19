@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TAPE_ERASE, *PTAPE_ERASE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TAPE_ERASE structure

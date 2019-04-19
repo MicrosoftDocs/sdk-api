@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_PROVIDER_REGDEFUSAGE, *PCRYPT_PROVIDER_REGDEFUSAGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_PROVIDER_REGDEFUSAGE structure

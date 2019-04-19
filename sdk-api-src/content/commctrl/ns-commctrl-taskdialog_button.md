@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TASKDIALOG_BUTTON
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TASKDIALOG_BUTTON structure

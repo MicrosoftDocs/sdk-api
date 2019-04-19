@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FWPM_SYSTEM_PORTS_BY_TYPE0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FWPM_SYSTEM_PORTS_BY_TYPE0 structure

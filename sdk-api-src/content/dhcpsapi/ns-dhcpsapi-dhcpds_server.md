@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCPDS_SERVER, *LPDHCPDS_SERVER, *PDHCPDS_SERVER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCPDS_SERVER structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WRITE_CACHE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WRITE_CACHE_TYPE enumeration

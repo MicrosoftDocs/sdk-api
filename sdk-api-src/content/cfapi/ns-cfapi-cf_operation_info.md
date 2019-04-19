@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CF_OPERATION_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CF_OPERATION_INFO structure

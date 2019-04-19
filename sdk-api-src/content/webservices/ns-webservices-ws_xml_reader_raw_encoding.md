@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_XML_READER_RAW_ENCODING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_XML_READER_RAW_ENCODING structure

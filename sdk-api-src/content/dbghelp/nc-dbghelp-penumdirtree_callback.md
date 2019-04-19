@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.0 or later
+ms.custom: 19H1
 ---
 
 # PENUMDIRTREE_CALLBACK callback function

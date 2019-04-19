@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WLAN_BSS_LIST, *PWLAN_BSS_LIST
 req.redist: Wireless LAN API for Windows XP with SP2
+ms.custom: 19H1
 ---
 
 # WLAN_BSS_LIST structure

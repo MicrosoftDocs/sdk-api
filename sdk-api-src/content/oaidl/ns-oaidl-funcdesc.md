@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FUNCDESC, *LPFUNCDESC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FUNCDESC structure

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: EVENT_TRACE_LOGFILEW, *PEVENT_TRACE_LOGFILEW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EVENT_TRACE_LOGFILEW structure

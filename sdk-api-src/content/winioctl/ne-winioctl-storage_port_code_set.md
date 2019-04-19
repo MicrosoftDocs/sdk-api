@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_PORT_CODE_SET, *PSTORAGE_PORT_CODE_SET
 req.redist: 
+ms.custom: 19H1
 ---
 
 # STORAGE_PORT_CODE_SET enumeration

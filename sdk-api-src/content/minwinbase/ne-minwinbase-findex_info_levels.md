@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FINDEX_INFO_LEVELS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FINDEX_INFO_LEVELS enumeration

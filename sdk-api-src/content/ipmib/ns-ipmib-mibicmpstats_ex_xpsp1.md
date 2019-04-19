@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIBICMPSTATS_EX_XPSP1, *PMIBICMPSTATS_EX_XPSP1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIBICMPSTATS_EX_XPSP1 structure

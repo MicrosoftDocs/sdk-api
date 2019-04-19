@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_VOLUME_PLEX_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_VOLUME_PLEX_STATUS enumeration

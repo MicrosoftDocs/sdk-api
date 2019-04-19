@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MP_CURVE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MP_CURVE_TYPE enumeration

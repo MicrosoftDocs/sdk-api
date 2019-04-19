@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EventRegistrationToken
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EventRegistrationToken structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RESV_STYLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RESV_STYLE structure

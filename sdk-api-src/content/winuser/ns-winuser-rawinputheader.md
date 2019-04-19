@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RAWINPUTHEADER, *PRAWINPUTHEADER, *LPRAWINPUTHEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RAWINPUTHEADER structure

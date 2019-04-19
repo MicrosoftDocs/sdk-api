@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: LOGFONTW, *PLOGFONTW, *NPLOGFONTW, *LPLOGFONTW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LOGFONTW structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEER_ENDPOINT, *PPEER_ENDPOINT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEER_ENDPOINT structure

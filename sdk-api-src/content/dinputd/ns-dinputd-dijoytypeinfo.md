@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DIJOYTYPEINFO, *LPDIJOYTYPEINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DIJOYTYPEINFO structure

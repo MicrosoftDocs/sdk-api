@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEERDIST_CONTENT_TAG, *PPEERDIST_CONTENT_TAG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEERDIST_CONTENT_TAG structure

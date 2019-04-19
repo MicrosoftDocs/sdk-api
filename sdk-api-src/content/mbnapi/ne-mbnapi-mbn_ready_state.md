@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MBN_READY_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MBN_READY_STATE enumeration

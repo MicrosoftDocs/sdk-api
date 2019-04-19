@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BCRYPT_INTERFACE_VERSION, *PBCRYPT_INTERFACE_VERSION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BCRYPT_INTERFACE_VERSION structure

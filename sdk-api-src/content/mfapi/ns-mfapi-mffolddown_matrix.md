@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFFOLDDOWN_MATRIX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFFOLDDOWN_MATRIX structure

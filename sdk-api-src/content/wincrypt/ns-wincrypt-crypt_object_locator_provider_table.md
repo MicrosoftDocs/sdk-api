@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, *PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE structure

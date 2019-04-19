@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSD_SYNCHRONOUS_RESPONSE_CONTEXT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSD_SYNCHRONOUS_RESPONSE_CONTEXT structure

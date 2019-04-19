@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEERDIST_RETRIEVAL_OPTIONS, *PPEERDIST_RETRIEVAL_OPTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEERDIST_RETRIEVAL_OPTIONS structure

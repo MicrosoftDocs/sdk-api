@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_IFROW, *PMIB_IFROW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_IFROW structure

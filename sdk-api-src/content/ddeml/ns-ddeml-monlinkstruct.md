@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MONLINKSTRUCT, *PMONLINKSTRUCT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MONLINKSTRUCT structure

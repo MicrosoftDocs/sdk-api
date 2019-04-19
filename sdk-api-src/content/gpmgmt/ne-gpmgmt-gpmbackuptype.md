@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GPMBackupType
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GPMBackupType enumeration

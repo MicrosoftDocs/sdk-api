@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WCN_SESSION_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WCN_SESSION_STATUS enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IKEEXT_INTEGRITY_ALGORITHM0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IKEEXT_INTEGRITY_ALGORITHM0 structure

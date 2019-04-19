@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RPC_NOTIFICATION_TYPES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RPC_NOTIFICATION_TYPES enumeration

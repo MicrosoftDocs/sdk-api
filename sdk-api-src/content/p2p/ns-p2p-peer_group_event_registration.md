@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEER_GROUP_EVENT_REGISTRATION, *PPEER_GROUP_EVENT_REGISTRATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEER_GROUP_EVENT_REGISTRATION structure

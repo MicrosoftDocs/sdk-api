@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSD_RESOLVE_MATCH
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSD_RESOLVE_MATCH structure

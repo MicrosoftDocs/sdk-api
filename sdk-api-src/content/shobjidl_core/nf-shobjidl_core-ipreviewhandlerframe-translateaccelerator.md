@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search 4 or later
+ms.custom: 19H1
 ---
 
 # IPreviewHandlerFrame::TranslateAccelerator

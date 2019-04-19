@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BATTERY_WMI_CYCLE_COUNT, *PBATTERY_WMI_CYCLE_COUNT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BATTERY_WMI_CYCLE_COUNT structure

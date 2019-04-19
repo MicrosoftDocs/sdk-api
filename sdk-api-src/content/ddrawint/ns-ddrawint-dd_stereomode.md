@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_STEREOMODE, DD_STEREOMODE"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_STEREOMODE structure

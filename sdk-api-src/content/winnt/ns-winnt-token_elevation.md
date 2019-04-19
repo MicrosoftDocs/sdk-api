@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TOKEN_ELEVATION, *PTOKEN_ELEVATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TOKEN_ELEVATION structure

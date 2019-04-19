@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ORIENTATION_PREFERENCE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ORIENTATION_PREFERENCE enumeration

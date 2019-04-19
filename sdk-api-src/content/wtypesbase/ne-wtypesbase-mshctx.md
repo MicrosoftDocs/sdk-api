@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MSHCTX
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MSHCTX enumeration

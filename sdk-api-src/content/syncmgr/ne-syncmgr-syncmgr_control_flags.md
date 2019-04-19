@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYNCMGR_CONTROL_FLAGS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYNCMGR_CONTROL_FLAGS enumeration

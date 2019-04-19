@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSD_OPERATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSD_OPERATION structure

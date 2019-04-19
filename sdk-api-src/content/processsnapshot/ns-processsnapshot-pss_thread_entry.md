@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PSS_THREAD_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PSS_THREAD_ENTRY structure

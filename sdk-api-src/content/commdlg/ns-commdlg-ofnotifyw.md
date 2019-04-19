@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: OFNOTIFYW, *LPOFNOTIFYW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OFNOTIFYW structure

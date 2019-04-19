@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TOUCH_HIT_TESTING_PROXIMITY_EVALUATION, *PTOUCH_HIT_TESTING_PROXIMITY_EVALUATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TOUCH_HIT_TESTING_PROXIMITY_EVALUATION structure

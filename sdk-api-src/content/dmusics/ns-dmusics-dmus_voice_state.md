@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DMUS_VOICE_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DMUS_VOICE_STATE structure

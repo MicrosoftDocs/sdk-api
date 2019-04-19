@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MMC_RESTORE_VIEW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MMC_RESTORE_VIEW structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WMMPEG2VIDEOINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WMMPEG2VIDEOINFO structure

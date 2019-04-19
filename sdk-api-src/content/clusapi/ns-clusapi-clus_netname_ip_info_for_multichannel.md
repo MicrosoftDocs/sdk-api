@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL, *PCLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL structure

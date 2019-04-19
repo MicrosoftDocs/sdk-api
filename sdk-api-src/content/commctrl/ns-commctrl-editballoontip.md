@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EDITBALLOONTIP, *PEDITBALLOONTIP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EDITBALLOONTIP structure

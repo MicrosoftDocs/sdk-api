@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GROUP_RELATIONSHIP, *PGROUP_RELATIONSHIP
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GROUP_RELATIONSHIP structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D3D11_SO_DECLARATION_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3D11_SO_DECLARATION_ENTRY structure

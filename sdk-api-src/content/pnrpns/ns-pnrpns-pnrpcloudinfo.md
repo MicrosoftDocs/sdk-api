@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PNRPCLOUDINFO, *PPNRPCLOUDINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PNRPCLOUDINFO structure

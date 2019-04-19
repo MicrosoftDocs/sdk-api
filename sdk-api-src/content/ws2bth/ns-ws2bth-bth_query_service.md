@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BTH_QUERY_SERVICE, *PBTH_QUERY_SERVICE, BTHNS_RESTRICTIONBLOB, *PBTHNS_RESTRICTIONBLOB
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BTH_QUERY_SERVICE structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VideoControlFlags
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VideoControlFlags enumeration

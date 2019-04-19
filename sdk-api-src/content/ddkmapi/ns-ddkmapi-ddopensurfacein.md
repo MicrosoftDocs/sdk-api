@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DDOPENSURFACEIN, *LPDDOPENSURFACEIN
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DDOPENSURFACEIN structure

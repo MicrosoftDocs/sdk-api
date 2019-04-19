@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WMT_FILESINK_DATA_UNIT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WMT_FILESINK_DATA_UNIT structure

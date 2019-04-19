@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_MAPMEMORYDATA, DD_MAPMEMORYDATA"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_MAPMEMORYDATA structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MAPPING_ENUM_OPTIONS, *PMAPPING_ENUM_OPTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MAPPING_ENUM_OPTIONS structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEB_LDR_DATA, *PPEB_LDR_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEB_LDR_DATA structure

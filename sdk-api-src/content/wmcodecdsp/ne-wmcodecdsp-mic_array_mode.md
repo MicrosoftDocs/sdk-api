@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIC_ARRAY_MODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIC_ARRAY_MODE enumeration

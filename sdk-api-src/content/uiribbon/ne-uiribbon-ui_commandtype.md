@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: UI_COMMANDTYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # UI_COMMANDTYPE enumeration

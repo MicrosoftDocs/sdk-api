@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: "*LPSRestriction, SRestriction"
 req.redist: 
 req.product: Internet Explorer 4.0
+ms.custom: 19H1
 ---
 
 # SRestriction structure

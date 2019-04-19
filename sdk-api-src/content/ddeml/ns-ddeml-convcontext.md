@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CONVCONTEXT, *PCONVCONTEXT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CONVCONTEXT structure

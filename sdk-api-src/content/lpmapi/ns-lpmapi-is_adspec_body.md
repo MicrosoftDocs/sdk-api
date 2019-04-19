@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IS_ADSPEC_BODY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IS_ADSPEC_BODY structure

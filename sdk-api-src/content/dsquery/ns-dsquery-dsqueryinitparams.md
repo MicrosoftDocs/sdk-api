@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DSQUERYINITPARAMS, *LPDSQUERYINITPARAMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DSQUERYINITPARAMS structure

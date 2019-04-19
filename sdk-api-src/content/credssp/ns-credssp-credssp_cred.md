@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CREDSSP_CRED, *PCREDSSP_CRED
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CREDSSP_CRED structure

@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: TIMECAPS, *PTIMECAPS, *NPTIMECAPS, *LPTIMECAPS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TIMECAPS structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LIFE_TIME, *PLIFE_TIME
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LIFE_TIME structure

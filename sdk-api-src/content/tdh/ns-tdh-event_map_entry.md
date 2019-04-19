@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EVENT_MAP_ENTRY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EVENT_MAP_ENTRY structure

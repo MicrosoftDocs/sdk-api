@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ADS_SEARCHPREF_INFO, *PADS_SEARCHPREF_INFO, *LPADS_SEARCHPREF_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ADS_SEARCHPREF_INFO structure

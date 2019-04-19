@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MF_MEDIA_ENGINE_S3D_PACKING_MODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MF_MEDIA_ENGINE_S3D_PACKING_MODE enumeration

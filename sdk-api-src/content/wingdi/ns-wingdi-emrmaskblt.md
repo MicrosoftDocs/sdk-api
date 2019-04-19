@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EMRMASKBLT, *PEMRMASKBLT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EMRMASKBLT structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXGI_PRESENT_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DXGI_PRESENT_PARAMETERS structure

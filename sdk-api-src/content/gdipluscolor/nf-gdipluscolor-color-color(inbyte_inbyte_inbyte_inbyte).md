@@ -41,6 +41,7 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
+ms.custom: 19H1
 ---
 
 # Color::Color(IN BYTE,IN BYTE,IN BYTE,IN BYTE)

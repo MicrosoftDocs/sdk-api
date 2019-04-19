@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DELETE_USN_JOURNAL_DATA, *PDELETE_USN_JOURNAL_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DELETE_USN_JOURNAL_DATA structure

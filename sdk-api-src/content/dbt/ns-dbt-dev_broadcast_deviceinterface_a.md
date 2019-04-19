@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DEV_BROADCAST_DEVICEINTERFACE_A, *PDEV_BROADCAST_DEVICEINTERFACE_A
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DEV_BROADCAST_DEVICEINTERFACE_A structure

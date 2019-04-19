@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_MFE_STATS_TABLE, *PMIB_MFE_STATS_TABLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_MFE_STATS_TABLE structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MPEG_HEADER_BITS, *PMPEG_HEADER_BITS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MPEG_HEADER_BITS structure

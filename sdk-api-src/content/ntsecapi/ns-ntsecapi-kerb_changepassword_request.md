@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: KERB_CHANGEPASSWORD_REQUEST, *PKERB_CHANGEPASSWORD_REQUEST
 req.redist: 
+ms.custom: 19H1
 ---
 
 # KERB_CHANGEPASSWORD_REQUEST structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FAT_STATISTICS, *PFAT_STATISTICS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FAT_STATISTICS structure

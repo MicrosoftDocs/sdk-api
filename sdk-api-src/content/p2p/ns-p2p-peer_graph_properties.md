@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEER_GRAPH_PROPERTIES, *PPEER_GRAPH_PROPERTIES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEER_GRAPH_PROPERTIES structure

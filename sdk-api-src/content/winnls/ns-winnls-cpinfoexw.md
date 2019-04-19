@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CPINFOEXW, *LPCPINFOEXW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CPINFOEXW structure

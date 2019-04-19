@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_BINDING_INFO, *PHTTP_BINDING_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_BINDING_INFO structure

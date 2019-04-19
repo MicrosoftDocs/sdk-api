@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: INET_PORT_RANGE, *PINET_PORT_RANGE, INET_PORT_RESERVATION, *PINET_PORT_RESERVATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # INET_PORT_RANGE structure

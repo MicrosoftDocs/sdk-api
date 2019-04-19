@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: XPS_SPREAD_METHOD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # XPS_SPREAD_METHOD enumeration

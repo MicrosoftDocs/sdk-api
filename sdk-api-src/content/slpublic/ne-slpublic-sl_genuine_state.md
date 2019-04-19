@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SL_GENUINE_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SL_GENUINE_STATE enumeration

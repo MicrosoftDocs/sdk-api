@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FWPM_SUBLAYER0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FWPM_SUBLAYER0 structure

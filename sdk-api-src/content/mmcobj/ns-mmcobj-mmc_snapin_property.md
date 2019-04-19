@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MMC_SNAPIN_PROPERTY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MMC_SNAPIN_PROPERTY structure

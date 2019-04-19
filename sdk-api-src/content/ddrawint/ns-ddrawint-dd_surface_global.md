@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_SURFACE_GLOBAL, DD_SURFACE_GLOBAL"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_SURFACE_GLOBAL structure

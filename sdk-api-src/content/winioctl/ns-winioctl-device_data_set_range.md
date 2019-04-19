@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DEVICE_DATA_SET_RANGE, *PDEVICE_DATA_SET_RANGE, DEVICE_DSM_RANGE, *PDEVICE_DSM_RANGE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DEVICE_DATA_SET_RANGE structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IPSEC_SA_ENUM_TEMPLATE0
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IPSEC_SA_ENUM_TEMPLATE0 structure

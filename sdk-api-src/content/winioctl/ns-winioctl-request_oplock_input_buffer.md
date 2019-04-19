@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: REQUEST_OPLOCK_INPUT_BUFFER, *PREQUEST_OPLOCK_INPUT_BUFFER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # REQUEST_OPLOCK_INPUT_BUFFER structure

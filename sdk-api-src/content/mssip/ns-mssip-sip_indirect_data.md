@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SIP_INDIRECT_DATA, *PSIP_INDIRECT_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SIP_INDIRECT_DATA structure

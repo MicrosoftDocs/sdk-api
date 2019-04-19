@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: VBS_ENCLAVE_REPORT_PKG_HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VBS_ENCLAVE_REPORT_PKG_HEADER structure

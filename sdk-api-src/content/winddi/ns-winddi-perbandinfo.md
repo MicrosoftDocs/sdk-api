@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PERBANDINFO, *PPERBANDINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PERBANDINFO structure

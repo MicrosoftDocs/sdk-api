@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CREDENTIAL_TARGET_INFORMATIONW, *PCREDENTIAL_TARGET_INFORMATIONW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CREDENTIAL_TARGET_INFORMATIONW structure

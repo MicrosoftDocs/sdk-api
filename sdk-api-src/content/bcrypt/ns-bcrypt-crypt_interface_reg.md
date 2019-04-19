@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CRYPT_INTERFACE_REG, *PCRYPT_INTERFACE_REG
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CRYPT_INTERFACE_REG structure

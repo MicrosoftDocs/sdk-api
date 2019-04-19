@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ANALOGVIDEOINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ANALOGVIDEOINFO structure

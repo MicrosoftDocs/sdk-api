@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ARP_SEND_REPLY, *PARP_SEND_REPLY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ARP_SEND_REPLY structure

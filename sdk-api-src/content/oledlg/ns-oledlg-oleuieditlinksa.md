@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: OLEUIEDITLINKSA, *POLEUIEDITLINKSA, *LPOLEUIEDITLINKSA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OLEUIEDITLINKSA structure

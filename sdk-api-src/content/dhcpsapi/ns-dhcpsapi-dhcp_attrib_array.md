@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCP_ATTRIB_ARRAY, *PDHCP_ATTRIB_ARRAY, *LPDHCP_ATTRIB_ARRAY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCP_ATTRIB_ARRAY structure

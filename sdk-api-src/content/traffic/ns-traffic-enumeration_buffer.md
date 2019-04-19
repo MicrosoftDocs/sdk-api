@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ENUMERATION_BUFFER, *PENUMERATION_BUFFER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ENUMERATION_BUFFER structure

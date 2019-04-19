@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: LINECALLPARAMS, *LPLINECALLPARAMS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # LINECALLPARAMS structure

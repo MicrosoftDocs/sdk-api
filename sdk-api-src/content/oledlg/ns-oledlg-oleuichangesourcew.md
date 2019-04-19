@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: OLEUICHANGESOURCEW, *POLEUICHANGESOURCEW, *LPOLEUICHANGESOURCEW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OLEUICHANGESOURCEW structure

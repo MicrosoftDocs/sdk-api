@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PACKAGE_VERSION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PACKAGE_VERSION structure

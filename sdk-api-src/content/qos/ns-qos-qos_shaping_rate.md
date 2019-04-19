@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: QOS_SHAPING_RATE, *LPQOS_SHAPING_RATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # QOS_SHAPING_RATE structure

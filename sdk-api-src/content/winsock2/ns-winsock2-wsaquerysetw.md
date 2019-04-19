@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: WSAQUERYSETW, *PWSAQUERYSETW, *LPWSAQUERYSETW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WSAQUERYSETW structure

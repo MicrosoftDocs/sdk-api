@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PEER_EVENT_ENDPOINT_CHANGED_DATA, *PPEER_EVENT_ENDPOINT_CHANGED_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PEER_EVENT_ENDPOINT_CHANGED_DATA structure

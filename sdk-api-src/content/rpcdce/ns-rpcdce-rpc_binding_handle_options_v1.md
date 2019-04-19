@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: RPC_BINDING_HANDLE_OPTIONS_V1, *PRPC_BINDING_HANDLE_OPTIONS_V1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # RPC_BINDING_HANDLE_OPTIONS_V1 structure

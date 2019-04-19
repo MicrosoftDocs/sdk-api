@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: QOS_FLOWRATE_OUTGOING, *PQOS_FLOWRATE_OUTGOING
 req.redist: 
+ms.custom: 19H1
 ---
 
 # QOS_FLOWRATE_OUTGOING structure

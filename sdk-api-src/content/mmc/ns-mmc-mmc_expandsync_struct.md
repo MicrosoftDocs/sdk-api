@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MMC_EXPANDSYNC_STRUCT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MMC_EXPANDSYNC_STRUCT structure

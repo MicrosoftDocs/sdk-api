@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_METADATA_EXCHANGE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_METADATA_EXCHANGE_TYPE enumeration

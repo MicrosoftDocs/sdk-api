@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NAME_BUFFER, *PNAME_BUFFER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NAME_BUFFER structure

@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: SERVICE_REQUIRED_PRIVILEGES_INFOA, *LPSERVICE_REQUIRED_PRIVILEGES_INFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SERVICE_REQUIRED_PRIVILEGES_INFOA structure

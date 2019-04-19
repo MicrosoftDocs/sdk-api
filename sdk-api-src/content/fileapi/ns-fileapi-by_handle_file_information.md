@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: BY_HANDLE_FILE_INFORMATION, *PBY_HANDLE_FILE_INFORMATION, *LPBY_HANDLE_FILE_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BY_HANDLE_FILE_INFORMATION structure

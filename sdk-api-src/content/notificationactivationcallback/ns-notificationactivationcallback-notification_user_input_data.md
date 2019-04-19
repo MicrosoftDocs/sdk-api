@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NOTIFICATION_USER_INPUT_DATA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NOTIFICATION_USER_INPUT_DATA structure

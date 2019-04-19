@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PARTITION_INFORMATION_GPT, *PPARTITION_INFORMATION_GPT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PARTITION_INFORMATION_GPT structure

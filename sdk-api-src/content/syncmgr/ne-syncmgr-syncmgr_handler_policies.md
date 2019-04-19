@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SYNCMGR_HANDLER_POLICIES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SYNCMGR_HANDLER_POLICIES enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: D3D11_VIDEO_DECODER_BUFFER_DESC
 req.redist: 
+ms.custom: 19H1
 ---
 
 # D3D11_VIDEO_DECODER_BUFFER_DESC structure

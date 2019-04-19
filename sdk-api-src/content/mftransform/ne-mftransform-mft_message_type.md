@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFT_MESSAGE_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFT_MESSAGE_TYPE enumeration

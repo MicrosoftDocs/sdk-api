@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: InkExtractFlags
 req.redist: 
+ms.custom: 19H1
 ---
 
 # InkExtractFlags enumeration

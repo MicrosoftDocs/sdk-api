@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_STORAGE_TIER_REGION, *PFILE_STORAGE_TIER_REGION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FILE_STORAGE_TIER_REGION structure

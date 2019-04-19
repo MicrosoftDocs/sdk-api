@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: ONEX_REASON_CODE, PONEX_REASON_CODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # ONEX_REASON_CODE enumeration

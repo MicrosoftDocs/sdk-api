@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SERVICE_TIMECHANGE_INFO, *PSERVICE_TIMECHANGE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SERVICE_TIMECHANGE_INFO structure

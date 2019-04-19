@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OFFLINEFILES_CONNECT_STATE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OFFLINEFILES_CONNECT_STATE enumeration

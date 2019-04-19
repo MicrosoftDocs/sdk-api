@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FWP_V6_ADDR_AND_MASK
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FWP_V6_ADDR_AND_MASK structure

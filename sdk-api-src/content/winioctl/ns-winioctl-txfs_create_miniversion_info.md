@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TXFS_CREATE_MINIVERSION_INFO, *PTXFS_CREATE_MINIVERSION_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TXFS_CREATE_MINIVERSION_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CREDENTIAL_PROVIDER_USAGE_SCENARIO enumeration

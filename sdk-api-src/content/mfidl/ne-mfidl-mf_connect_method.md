@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MF_CONNECT_METHOD
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MF_CONNECT_METHOD enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EapCertificateCredential
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EapCertificateCredential structure

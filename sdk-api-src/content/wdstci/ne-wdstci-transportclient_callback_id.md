@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TRANSPORTCLIENT_CALLBACK_ID, *PTRANSPORTCLIENT_CALLBACK_ID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TRANSPORTCLIENT_CALLBACK_ID enumeration

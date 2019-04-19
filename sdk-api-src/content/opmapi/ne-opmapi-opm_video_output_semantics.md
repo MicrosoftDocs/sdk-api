@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: OPM_VIDEO_OUTPUT_SEMANTICS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # OPM_VIDEO_OUTPUT_SEMANTICS enumeration

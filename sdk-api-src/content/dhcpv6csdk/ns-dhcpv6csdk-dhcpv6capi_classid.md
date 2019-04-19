@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DHCPV6CAPI_CLASSID, *PDHCPV6CAPI_CLASSID, *LPDHCPV6CAPI_CLASSID
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DHCPV6CAPI_CLASSID structure

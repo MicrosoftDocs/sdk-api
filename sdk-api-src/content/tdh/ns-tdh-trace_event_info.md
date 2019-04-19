@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TRACE_EVENT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TRACE_EVENT_INFO structure

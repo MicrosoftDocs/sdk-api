@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: IF_COUNTED_STRING_LH, *PIF_COUNTED_STRING_LH
 req.redist: 
+ms.custom: 19H1
 ---
 
 # IF_COUNTED_STRING_LH structure

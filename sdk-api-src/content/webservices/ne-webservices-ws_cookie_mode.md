@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WS_COOKIE_MODE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WS_COOKIE_MODE enumeration

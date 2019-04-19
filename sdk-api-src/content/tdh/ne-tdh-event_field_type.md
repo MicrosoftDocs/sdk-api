@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: EVENT_FIELD_TYPE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # EVENT_FIELD_TYPE enumeration

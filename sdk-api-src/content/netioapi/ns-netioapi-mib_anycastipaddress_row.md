@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MIB_ANYCASTIPADDRESS_ROW, *PMIB_ANYCASTIPADDRESS_ROW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MIB_ANYCASTIPADDRESS_ROW structure

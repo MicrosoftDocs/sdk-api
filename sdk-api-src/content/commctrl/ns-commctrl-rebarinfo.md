@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: REBARINFO, *LPREBARINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # REBARINFO structure

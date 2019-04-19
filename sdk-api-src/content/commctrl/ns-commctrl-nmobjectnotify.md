@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: NMOBJECTNOTIFY, *LPNMOBJECTNOTIFY
 req.redist: 
+ms.custom: 19H1
 ---
 
 # NMOBJECTNOTIFY structure

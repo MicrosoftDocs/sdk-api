@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_MOUNT_POINT_NOTIFICATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_MOUNT_POINT_NOTIFICATION structure

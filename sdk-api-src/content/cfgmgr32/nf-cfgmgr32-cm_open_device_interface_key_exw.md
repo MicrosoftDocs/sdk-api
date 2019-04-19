@@ -44,6 +44,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CM_Open_Device_Interface_Key_ExW function

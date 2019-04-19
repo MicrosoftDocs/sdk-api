@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MINMAXINFO, *PMINMAXINFO, *LPMINMAXINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MINMAXINFO structure

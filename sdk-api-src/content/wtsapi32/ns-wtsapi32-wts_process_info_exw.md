@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: WTS_PROCESS_INFO_EXW, *PWTS_PROCESS_INFO_EXW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WTS_PROCESS_INFO_EXW structure

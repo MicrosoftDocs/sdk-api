@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DNS_QUERY_RESULT, *PDNS_QUERY_RESULT
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DNS_QUERY_RESULT structure

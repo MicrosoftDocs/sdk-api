@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DDTRANSFEROUTINFO, *PDDTRANSFEROUTINFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DDTRANSFEROUTINFO structure

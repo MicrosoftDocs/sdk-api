@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SECURITY_PACKAGE_OPTIONS, *PSECURITY_PACKAGE_OPTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SECURITY_PACKAGE_OPTIONS structure

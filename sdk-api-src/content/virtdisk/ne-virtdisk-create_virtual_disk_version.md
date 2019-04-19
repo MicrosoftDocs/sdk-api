@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: CREATE_VIRTUAL_DISK_VERSION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CREATE_VIRTUAL_DISK_VERSION enumeration

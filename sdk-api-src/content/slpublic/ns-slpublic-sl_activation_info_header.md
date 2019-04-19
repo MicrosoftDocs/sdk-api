@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SL_ACTIVATION_INFO_HEADER
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SL_ACTIVATION_INFO_HEADER structure

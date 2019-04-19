@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: COPP_ConnectorType
 req.redist: 
+ms.custom: 19H1
 ---
 
 # COPP_ConnectorType enumeration

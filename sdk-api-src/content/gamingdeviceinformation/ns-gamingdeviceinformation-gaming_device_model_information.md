@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: GAMING_DEVICE_MODEL_INFORMATION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # GAMING_DEVICE_MODEL_INFORMATION structure

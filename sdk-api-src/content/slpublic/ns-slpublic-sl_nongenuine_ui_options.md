@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: SL_NONGENUINE_UI_OPTIONS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # SL_NONGENUINE_UI_OPTIONS structure

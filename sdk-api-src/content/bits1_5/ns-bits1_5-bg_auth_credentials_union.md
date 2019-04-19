@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BG_AUTH_CREDENTIALS_UNION
 req.redist: BITS 1.5 on  Windows XP
+ms.custom: 19H1
 ---
 
 # BG_AUTH_CREDENTIALS_UNION structure

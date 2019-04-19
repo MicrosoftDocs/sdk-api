@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BLUETOOTH_NUMERIC_COMPARISON_INFO, *PBLUETOOTH_NUMERIC_COMPARISON_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BLUETOOTH_NUMERIC_COMPARISON_INFO structure

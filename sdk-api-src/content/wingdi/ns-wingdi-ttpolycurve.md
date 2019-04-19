@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TTPOLYCURVE, *LPTTPOLYCURVE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TTPOLYCURVE structure

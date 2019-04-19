@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: PROPSHEETPAGEA_V4, *LPPROPSHEETPAGEA_V4
 req.redist: 
+ms.custom: 19H1
 ---
 
 # PROPSHEETPAGEA_V4 structure

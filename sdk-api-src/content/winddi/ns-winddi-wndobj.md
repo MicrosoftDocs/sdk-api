@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: WNDOBJ, *PWNDOBJ
 req.redist: 
+ms.custom: 19H1
 ---
 
 # WNDOBJ structure

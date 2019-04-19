@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DSMCC_SECTION, *PDSMCC_SECTION
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DSMCC_SECTION structure

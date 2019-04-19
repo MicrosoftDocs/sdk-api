@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AUTHZ_SECURITY_ATTRIBUTE_V1, *PAUTHZ_SECURITY_ATTRIBUTE_V1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AUTHZ_SECURITY_ATTRIBUTE_V1 structure

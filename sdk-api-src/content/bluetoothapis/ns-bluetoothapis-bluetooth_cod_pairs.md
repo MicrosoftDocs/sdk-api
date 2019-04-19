@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: BLUETOOTH_COD_PAIRS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # BLUETOOTH_COD_PAIRS structure

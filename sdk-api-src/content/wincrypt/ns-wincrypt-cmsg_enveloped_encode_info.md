@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CMSG_ENVELOPED_ENCODE_INFO, *PCMSG_ENVELOPED_ENCODE_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CMSG_ENVELOPED_ENCODE_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: CERT_X942_DH_PARAMETERS, *PCERT_X942_DH_PARAMETERS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # CERT_X942_DH_PARAMETERS structure

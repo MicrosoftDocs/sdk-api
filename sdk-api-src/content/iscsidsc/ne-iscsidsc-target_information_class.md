@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: TARGET_INFORMATION_CLASS, *PTARGET_INFORMATION_CLASS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # TARGET_INFORMATION_CLASS enumeration

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: "*PDD_VIDEOPORT_LOCAL, DD_VIDEOPORT_LOCAL"
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DD_VIDEOPORT_LOCAL structure

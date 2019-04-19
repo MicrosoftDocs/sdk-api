@@ -41,6 +41,7 @@ product: Windows
 targetos: Windows
 req.typenames: VDS_PORT_STATUS, *PVDS_PORT_STATUS
 req.redist: 
+ms.custom: 19H1
 ---
 
 # VDS_PORT_STATUS enumeration

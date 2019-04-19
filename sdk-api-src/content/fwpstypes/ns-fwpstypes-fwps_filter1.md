@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: FWPS_FILTER1
 req.redist: 
+ms.custom: 19H1
 ---
 
 # FWPS_FILTER1 structure

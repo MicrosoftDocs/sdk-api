@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: HDITEMW, *LPHDITEMW
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HDITEMW structure

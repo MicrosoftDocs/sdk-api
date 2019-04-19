@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: MFCARD_RESOURCE, *PMFCARD_RESOURCE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # MFCARD_RESOURCE structure

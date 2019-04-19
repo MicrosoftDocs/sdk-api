@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AM_SAMPLE2_PROPERTIES
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AM_SAMPLE2_PROPERTIES structure

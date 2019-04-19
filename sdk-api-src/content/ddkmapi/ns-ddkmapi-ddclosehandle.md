@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DDCLOSEHANDLE, *LPDDCLOSEHANDLE
 req.redist: 
+ms.custom: 19H1
 ---
 
 # DDCLOSEHANDLE structure

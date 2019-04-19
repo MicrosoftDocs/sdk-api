@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: HTTP_LISTEN_ENDPOINT_INFO, *PHTTP_LISTEN_ENDPOINT_INFO
 req.redist: 
+ms.custom: 19H1
 ---
 
 # HTTP_LISTEN_ENDPOINT_INFO structure

@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: AVISTREAMINFOA, *LPAVISTREAMINFOA
 req.redist: 
+ms.custom: 19H1
 ---
 
 # AVISTREAMINFOA structure
