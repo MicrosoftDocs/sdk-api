@@ -1,6 +1,6 @@
 ---
 UID: NF:directxcollision.BoundingBox.BoundingBox
-title: BoundingBox::BoundingBox (directxcollision.h)
+title: BoundingBox::BoundingBox
 author: windows-sdk-content
 description: Creates an instance of the BoundingBox class.
 old-location: dxmath\boundingbox_ctor_3.htm
@@ -74,11 +74,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449580(v=VS.85).aspx">BoundingBox</a>
+<a href="https://msdn.microsoft.com/8dac1c63-2eb6-4ad2-8495-593c4927391f">BoundingBox</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437811(v=VS.85).aspx">Constructors</a>
+<a href="https://msdn.microsoft.com/bf065fb6-0af5-4311-b0bf-ab10b497b655">Constructors</a>
 
 
 

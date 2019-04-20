@@ -1,6 +1,6 @@
 ---
 UID: NS:directxcollision.BoundingBox
-title: BoundingBox (directxcollision.h)
+title: BoundingBox
 author: windows-sdk-content
 description: A bounding axis-aligned object.
 old-location: dxmath\boundingbox.htm

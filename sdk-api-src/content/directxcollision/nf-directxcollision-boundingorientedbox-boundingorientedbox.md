@@ -1,6 +1,6 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.BoundingOrientedBox
-title: BoundingOrientedBox::BoundingOrientedBox (directxcollision.h)
+title: BoundingOrientedBox::BoundingOrientedBox
 author: windows-sdk-content
 description: Creates an instance of BoundingOrientedBox.
 old-location: dxmath\boundingorientedbox_ctor_2.htm
@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an instance of <a href="https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx">BoundingOrientedBox</a>.
+Creates an instance of <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
 
 
 ## -parameters
@@ -74,11 +74,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx">BoundingOrientedBox</a>
+<a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437811(v=VS.85).aspx">Constructors</a>
+<a href="https://msdn.microsoft.com/a3c6d25e-27f2-4f44-a53a-a8a0afe7f2b8">Constructors</a>
 
 
 

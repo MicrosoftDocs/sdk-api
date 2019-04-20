@@ -1,6 +1,6 @@
 ---
 UID: NF:directxcollision.BoundingSphere.ContainedBy
-title: BoundingSphere::ContainedBy (directxcollision.h)
+title: BoundingSphere::ContainedBy
 author: windows-sdk-content
 description: Tests whether the BoundingSphere is contained by the specified frustum.
 old-location: dxmath\boundingsphere_containedby.htm
@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Tests whether the <a href="https://msdn.microsoft.com/en-us/library/Hh449592(v=VS.85).aspx">BoundingSphere</a> is contained by the specified frustum.
+Tests whether the <a href="https://msdn.microsoft.com/6ecc76e1-0c80-494c-81be-0ebe78eba07c">BoundingSphere</a> is contained by the specified frustum.
 
 
 ## -parameters
@@ -91,7 +91,7 @@ A plane describing the frustum.
 
 
 
-A <a href="https://msdn.microsoft.com/en-us/library/Hh449605(v=VS.85).aspx">ContainmentType</a> value indicating whether the frustum contains the <a href="https://msdn.microsoft.com/en-us/library/Hh449592(v=VS.85).aspx">BoundingSphere</a>.
+A <a href="https://msdn.microsoft.com/edc456b5-2d68-4d4e-953b-6081ad7f663c">ContainmentType</a> value indicating whether the frustum contains the <a href="https://msdn.microsoft.com/6ecc76e1-0c80-494c-81be-0ebe78eba07c">BoundingSphere</a>.
 
 
 
@@ -111,11 +111,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449592(v=VS.85).aspx">BoundingSphere</a>
+<a href="https://msdn.microsoft.com/6ecc76e1-0c80-494c-81be-0ebe78eba07c">BoundingSphere</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a>
+<a href="https://msdn.microsoft.com/28E771F0-B18F-459D-99C5-ABC43869A15A">Methods</a>
 
 
 
