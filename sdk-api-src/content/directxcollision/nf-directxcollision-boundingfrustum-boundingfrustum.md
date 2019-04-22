@@ -1,6 +1,6 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.BoundingFrustum
-title: BoundingFrustum::BoundingFrustum (directxcollision.h)
+title: BoundingFrustum::BoundingFrustum
 author: windows-sdk-content
 description: Creates an instance of BoundingFrustum.
 old-location: dxmath\boundingfrustum_ctor_3.htm
@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an instance of <a href="https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx">BoundingFrustum</a>.
+Creates an instance of <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a>.
 
 
 ## -parameters
@@ -74,11 +74,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx">BoundingFrustum</a>
+<a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437811(v=VS.85).aspx">Constructors</a>
+<a href="https://msdn.microsoft.com/3b278210-3d55-4a2b-879d-942e3bc9800c">Constructors</a>
 
 
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.BoundingOrientedBox(const BoundingOrientedBox &)
-title: BoundingOrientedBox::BoundingOrientedBox(const BoundingOrientedBox &) (directxcollision.h)
+title: BoundingOrientedBox::BoundingOrientedBox(const BoundingOrientedBox &)
 author: windows-sdk-content
 description: Creates an instance of BoundingOrientedBox.
-old-location: dxmath\boundingorientedbox_ctor_2.htm
+old-location: dxmath\boundingorientedbox_ctor_3.htm
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.#ctor
+ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.#ctor(BoundingOrientedBox)
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: BoundingOrientedBox, BoundingOrientedBox constructor [DirectX Math Support APIs], BoundingOrientedBox constructor [DirectX Math Support APIs],BoundingOrientedBox interface, BoundingOrientedBox interface [DirectX Math Support APIs],BoundingOrientedBox constructor, BoundingOrientedBox.BoundingOrientedBox, BoundingOrientedBox.BoundingOrientedBox(), BoundingOrientedBox.BoundingOrientedBox(const BoundingOrientedBox &), BoundingOrientedBox::BoundingOrientedBox, BoundingOrientedBox::BoundingOrientedBox(const BoundingOrientedBox &), dxmath.boundingorientedbox_ctor_2
+ms.keywords: BoundingOrientedBox, BoundingOrientedBox constructor [DirectX Math Support APIs], BoundingOrientedBox constructor [DirectX Math Support APIs],BoundingOrientedBox interface, BoundingOrientedBox interface [DirectX Math Support APIs],BoundingOrientedBox constructor, BoundingOrientedBox.BoundingOrientedBox, BoundingOrientedBox.BoundingOrientedBox(const BoundingOrientedBox &), BoundingOrientedBox.BoundingOrientedBox(const BoundingOrientedBox&), BoundingOrientedBox::BoundingOrientedBox, BoundingOrientedBox::BoundingOrientedBox(const BoundingOrientedBox &), dxmath.boundingorientedbox_ctor_3
 ms.topic: method
 req.header: directxcollision.h
 req.include-header: 
@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an instance of <a href="https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx">BoundingOrientedBox</a>.
+Creates an instance of <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
 
 
 ## -parameters
@@ -62,6 +62,11 @@ Creates an instance of <a href="https://msdn.microsoft.com/en-us/library/Hh85586
 TBD
 
 
+
+
+#### - box [in, ref]
+
+A <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> object to copy.
 
 
 ## -remarks
@@ -79,11 +84,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx">BoundingOrientedBox</a>
+<a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437811(v=VS.85).aspx">Constructors</a>
+<a href="https://msdn.microsoft.com/a3c6d25e-27f2-4f44-a53a-a8a0afe7f2b8">Constructors</a>
 
 
 
