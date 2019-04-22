@@ -59,7 +59,7 @@ Creates an instance of <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B0
 
 ### -param arg1
 
-TBD
+A **BoundingFrustum** to use to initialize the new **BoundingFrustum**.
 
 
 

@@ -74,7 +74,7 @@ TBD
 
 ### -field BoundingSphere
 
-TBD 
+Creates an instance of the **BoundingSphere** class.
 
 
 ### -field Transform
