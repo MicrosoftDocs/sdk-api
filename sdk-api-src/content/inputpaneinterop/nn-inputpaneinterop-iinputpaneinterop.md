@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enables access to the members of the <a href="https://msdn.microsoft.com/d0a72cb8-a0b2-4c32-9719-79a9f6b7b96c">InputPane</a> class in a desktop app.  
+Enables access to the members of the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a> class in a desktop app.  
 
 
 ## -inheritance
@@ -72,7 +72,7 @@ The <b>IInputPaneInterop</b> interface has these methods.
 <a href="https://msdn.microsoft.com/98A591F8-B85C-4400-9BA6-1B8F422C067B">GetForWindow</a>
 </td>
 <td align="left" width="63%">
-Gets an instance of an <a href="https://msdn.microsoft.com/d0a72cb8-a0b2-4c32-9719-79a9f6b7b96c">InputPane</a> object for the specified window.
+Gets an instance of an <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a> object for the specified window.
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ Gets the trust level of the current Windows Runtime object.
 
 
 
-You can obtain an instance of the <b>IInputPaneInterop</b> interface by calling the <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">IUnknown::QueryInterface</a> method on the activation factory instance for the <a href="https://msdn.microsoft.com/d0a72cb8-a0b2-4c32-9719-79a9f6b7b96c">InputPane</a> class.
+You can obtain an instance of the <b>IInputPaneInterop</b> interface by calling the <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">IUnknown::QueryInterface</a> method on the activation factory instance for the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a> class.
 
  
 
@@ -130,7 +130,7 @@ interface IInputPaneInterop : IInspectable
         [out, retval, iid_is(riid)] void** inputPane);
 }
 </code></pre>
-For store apps, use the <a href="https://msdn.microsoft.com/7eda6937-7ee7-430a-b9f8-656fa7404873">InputPane.GetForCurrentView</a> method to get an <a href="https://msdn.microsoft.com/d0a72cb8-a0b2-4c32-9719-79a9f6b7b96c">InputPane</a> object.
+For store apps, use the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.viewmanagement.inputpane.getforcurrentview">InputPane.GetForCurrentView</a> method to get an <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a> object.
 
 
 
@@ -145,7 +145,7 @@ For store apps, use the <a href="https://msdn.microsoft.com/7eda6937-7ee7-430a-b
 
 
 
-<a href="https://msdn.microsoft.com/d0a72cb8-a0b2-4c32-9719-79a9f6b7b96c">InputPane</a>
+<a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a>
 
 
 

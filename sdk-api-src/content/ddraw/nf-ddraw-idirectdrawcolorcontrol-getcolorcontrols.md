@@ -61,7 +61,7 @@ Retrieves the current color-control settings that are associated with an overlay
 
 #### - lpColorControl [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/69408101-9f19-4b89-bfcf-2af185c62807">DDCOLORCONTROL</a> structure that receives the current control settings.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/77c19de1-a046-4752-b9af-a9865861a493">DDCOLORCONTROL</a> structure that receives the current control settings.
 
 
 ## -returns
@@ -86,7 +86,7 @@ If it fails, the method can return one of the following error values:
 
 
 
-The <b>dwFlags</b> member of the <a href="https://msdn.microsoft.com/69408101-9f19-4b89-bfcf-2af185c62807">DDCOLORCONTROL</a> structure indicates which of the color-control options are supported.
+The <b>dwFlags</b> member of the <a href="https://msdn.microsoft.com/en-us/77c19de1-a046-4752-b9af-a9865861a493">DDCOLORCONTROL</a> structure indicates which of the color-control options are supported.
 
 
 You must use <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> to access the  <b>GetColorControls</b> method.

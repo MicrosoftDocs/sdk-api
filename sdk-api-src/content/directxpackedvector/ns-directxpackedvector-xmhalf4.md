@@ -124,7 +124,7 @@ The definition of the <code>HALF</code> type used under DirectXMath is consisten
 
 
 <code>XMHALF4</code> can be loaded into instances of <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1"> XMVECTOR</a> by
-	    using <a href="https://msdn.microsoft.com/a17c391c-1c40-4c3e-b915-7b2690a17eb5">XMLoadHalf4</a>.
+	    using <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadhalf4">XMLoadHalf4</a>.
 	
 
 Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMHALF4</code> with <a href="https://msdn.microsoft.com/en-us/library/Ee420355(v=VS.85).aspx">XMStoreHalf4</a>.

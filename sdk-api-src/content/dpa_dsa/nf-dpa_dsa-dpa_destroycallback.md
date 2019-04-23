@@ -68,9 +68,9 @@ A handle to a DPA.
 
 ### -param pfnCB
 
-Type: <b><a href="https://msdn.microsoft.com/7ee522bc-9a2c-417d-93d7-5f306fba511f">PFNDPAENUMCALLBACK</a></b>
+Type: <b><a href="https://docs.microsoft.com/en-us/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndaenumcallback">PFNDPAENUMCALLBACK</a></b>
 
-A callback function pointer. See <a href="https://msdn.microsoft.com/7ee522bc-9a2c-417d-93d7-5f306fba511f">PFNDPAENUMCALLBACK</a> for the callback function prototype.
+A callback function pointer. See <a href="https://docs.microsoft.com/en-us/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndaenumcallback">PFNDPAENUMCALLBACK</a> for the callback function prototype.
 
 
 ### -param pData

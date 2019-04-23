@@ -75,7 +75,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-You can use the <b>ShowPlayToUIForWindow</b> method to show the Play To UI for the specified window. The <b>ShowPlayToUIForWindow</b> method is equivalent to the <a href="https://msdn.microsoft.com/c1bb02b9-c719-4efe-bafe-d36b1703f0dc">ShowPlayToUI</a> method, except that you supply a reference to a window from a multi-window Windows Store app.
+You can use the <b>ShowPlayToUIForWindow</b> method to show the Play To UI for the specified window. The <b>ShowPlayToUIForWindow</b> method is equivalent to the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.media.playto.playtomanager.showplaytoui">ShowPlayToUI</a> method, except that you supply a reference to a window from a multi-window Windows Store app.
 
 
 
@@ -89,11 +89,11 @@ You can use the <b>ShowPlayToUIForWindow</b> method to show the Play To UI for t
 
 
 
-<a href="https://msdn.microsoft.com/e5de08a6-cc89-4422-bfe7-f170b8ec4412">PlayToManager</a>
+<a href="https://docs.microsoft.com/en-us/uwp/api/windows.media.playto.playtomanager">PlayToManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/c1bb02b9-c719-4efe-bafe-d36b1703f0dc">ShowPlayToUI</a>
+<a href="https://docs.microsoft.com/en-us/uwp/api/windows.media.playto.playtomanager.showplaytoui">ShowPlayToUI</a>
  
 
  

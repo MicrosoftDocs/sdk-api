@@ -62,7 +62,7 @@ Describes an <a href="https://msdn.microsoft.com/2af4929b-9e44-4229-916e-d7d8eae
 
 
 <code>XMFLOAT4A</code> can be loaded into instances of <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> by using
-   <a href="https://msdn.microsoft.com/865dcc01-8b54-4d4e-831c-0bed7b358292">XMLoadFloat4A</a>.
+   <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmloadfloat4a">XMLoadFloat4A</a>.
 
 Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMFLOAT4A</code> with <a href="https://msdn.microsoft.com/ab46029d-d393-4278-afcb-ed82769d9d70">XMStoreFloat4A</a>.
 

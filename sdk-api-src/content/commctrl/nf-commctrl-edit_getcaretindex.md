@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Gets the character index of the caret location for a given edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/EA1644A4-FE68-4227-A021-B48FF3137994">EM_GETCARETINDEX</a> message explicitly.
+Gets the character index of the caret location for a given edit control. You can use this macro or send the <a href="https://docs.microsoft.com/en-us/windows/desktop/controls/em-getcaretindex">EM_GETCARETINDEX</a> message explicitly.
 
 
 ## -parameters

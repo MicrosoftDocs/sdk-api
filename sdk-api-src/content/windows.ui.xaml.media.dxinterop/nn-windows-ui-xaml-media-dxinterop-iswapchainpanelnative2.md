@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Provides interoperation between XAML and a DirectX swap chain. 
-   Unlike <a href="https://msdn.microsoft.com/2f47fd2c-a0ff-4981-a404-0934aed39f84">SwapChainBackgroundPanel</a>, 
+   Unlike <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.swapchainbackgroundpanel">SwapChainBackgroundPanel</a>, 
    a <b>SwapChainPanel</b> can appear at any level in the XAML display tree, 
    and more than 1 can be present in any given tree.
 
@@ -75,7 +75,7 @@ The <b>ISwapChainPanelNative2</b> interface has these methods.
 <a href="https://msdn.microsoft.com/eda636d8-a07d-aea5-f81e-0489acc006ef">SetSwapChainHandle</a>
 </td>
 <td align="left" width="63%">
-Sets the DirectX swap chain for <a href="https://msdn.microsoft.com/e99a6d0f-d556-4aaa-853a-366853614560">SwapChainPanel</a> using a handle to the swap chain.
+Sets the DirectX swap chain for <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.swapchainpanel">SwapChainPanel</a> using a handle to the swap chain.
 
 </td>
 </tr>
@@ -86,9 +86,9 @@ Sets the DirectX swap chain for <a href="https://msdn.microsoft.com/e99a6d0f-d55
 
 
 
-This interface provides the native implementation of the <a href="https://msdn.microsoft.com/e99a6d0f-d556-4aaa-853a-366853614560">Windows::UI::XAML::Control::SwapChainPanel</a> Windows
+This interface provides the native implementation of the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.swapchainpanel">Windows::UI::XAML::Control::SwapChainPanel</a> Windows
     Runtime type. To obtain a pointer to <a href="https://msdn.microsoft.com/77F5EB53-0DF9-4BA7-810C-9B7B073E76A7">ISwapChainPanelNative</a>, 
-    you must cast a <a href="https://msdn.microsoft.com/2f47fd2c-a0ff-4981-a404-0934aed39f84">SwapChainPanel</a> instance 
+    you must cast a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.swapchainbackgroundpanel">SwapChainPanel</a> instance 
     to <a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a> or <b>IUnknown</b>, and call <b>QueryInterface</b>.
 
 
@@ -114,7 +114,7 @@ panelInspectable->QueryInterface(__uuidof(ISwapChainPanelNative2), (void **)&m_s
 
 
 
-<a href="https://msdn.microsoft.com/e99a6d0f-d556-4aaa-853a-366853614560">SwapChainPanel</a>
+<a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.swapchainpanel">SwapChainPanel</a>
  
 
  

@@ -80,7 +80,7 @@ Returns the rotation matrix.
 
 
 
-If <i>Axis</i> is a normalized vector, it is faster to use the  <a href="https://msdn.microsoft.com/a3621c23-d085-4cc5-8733-6135ed1f1979">XMMatrixRotationNormal</a> function to build this type of matrix.
+If <i>Axis</i> is a normalized vector, it is faster to use the  <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmmatrixrotationnormal">XMMatrixRotationNormal</a> function to build this type of matrix.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.

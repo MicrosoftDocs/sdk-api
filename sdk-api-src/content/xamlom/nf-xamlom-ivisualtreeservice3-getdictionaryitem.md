@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an item from a <a href="https://msdn.microsoft.com/cb82a1f5-ebcf-4ffd-842b-78313e5eff9c">ResourceDictionary</a>.
+Gets an item from a <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.resourcedictionary">ResourceDictionary</a>.
 
 
 ## -parameters

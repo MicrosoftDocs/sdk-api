@@ -76,7 +76,7 @@ A pointer to a <b>ID3D12ProtectedResourceSession</b>.
 
 
 
-<a href="https://msdn.microsoft.com/934CB757-495A-45DA-A942-1852D8E94934">ID3D12GraphicsCommandList3</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist3">ID3D12GraphicsCommandList3</a>
  
 
  

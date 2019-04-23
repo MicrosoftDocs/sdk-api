@@ -54,7 +54,7 @@ Encapsulates a list of graphics commands for rendering, extending the interface 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12GraphicsCommandList4</b> interface inherits from <a href="https://msdn.microsoft.com/934CB757-495A-45DA-A942-1852D8E94934">ID3D12GraphicsCommandList3</a>. <b>ID3D12GraphicsCommandList4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12GraphicsCommandList4</b> interface inherits from <a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist3">ID3D12GraphicsCommandList3</a>. <b>ID3D12GraphicsCommandList4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID3D12GraphicsCommandList4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6A7CF754-F2E6-48D4-8A4D-CE64B31267F7">BeginRenderPass</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-beginrenderpass">BeginRenderPass</a>
 </td>
 <td align="left" width="63%">
 Marks the beginning of a render pass by binding a set of output resources for the duration of the render pass. These bindings are to one or more render target views (RTVs), and/or to a depth stencil view (DSV).
@@ -114,7 +114,7 @@ Emits post-build properties for a set of acceleration structures.  This enables 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6CFF2A67-F2F0-41F8-8BEC-D52003DE2767">EndRenderPass</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-endrenderpass">EndRenderPass</a>
 </td>
 <td align="left" width="63%">
 Marks the ending of a render pass.
@@ -123,7 +123,7 @@ Marks the ending of a render pass.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/208D3152-C0CA-40C4-A990-8815C69E73FB">ExecuteMetaCommand</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/controls/em-enablesearchweb">ExecuteMetaCommand</a>
 </td>
 <td align="left" width="63%">
 Records the execution (or invocation) of the specified meta command into a graphics command list.
@@ -132,7 +132,7 @@ Records the execution (or invocation) of the specified meta command into a graph
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/EC50FE25-27C7-4A5D-B4D1-57D402730AF0">InitializeMetaCommand</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-initializemetacommand">InitializeMetaCommand</a>
 </td>
 <td align="left" width="63%">
 Initializes the specified meta command.
@@ -156,7 +156,7 @@ Sets a state object on the command list.
 
 
 
-<a href="https://msdn.microsoft.com/934CB757-495A-45DA-A942-1852D8E94934">ID3D12GraphicsCommandList3</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist3">ID3D12GraphicsCommandList3</a>
  
 
  

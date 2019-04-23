@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the file access mode that was used when the <a href="https://msdn.microsoft.com/128318b6-ddfb-44d0-9fcb-80410ad284bf">StorageFile.OpenAsync</a> method was called to open the random-access byte stream.
+Retrieves the file access mode that was used when the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a> method was called to open the random-access byte stream.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves the file access mode that was used when the <a href="https://msdn.micr
 
 ### -param fileAccessMode [out]
 
-The file access mode that was used when the <a href="https://msdn.microsoft.com/128318b6-ddfb-44d0-9fcb-80410ad284bf">StorageFile.OpenAsync</a> method was called to open the random-access byte stream. Cast this value as a <a href="https://msdn.microsoft.com/2905de68-84f9-4cc1-9389-8ec611b1eece">Windows::Storage::FileAccessMode</a> enumeration value.
+The file access mode that was used when the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a> method was called to open the random-access byte stream. Cast this value as a <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Storage.FileAccessMode">Windows::Storage::FileAccessMode</a> enumeration value.
 
 
 ## -returns
@@ -80,11 +80,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/128318b6-ddfb-44d0-9fcb-80410ad284bf">StorageFile.OpenAsync</a>
+<a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a>
 
 
 
-<a href="https://msdn.microsoft.com/2905de68-84f9-4cc1-9389-8ec611b1eece">Windows::Storage::FileAccessMode</a>
+<a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Storage.FileAccessMode">Windows::Storage::FileAccessMode</a>
  
 
  

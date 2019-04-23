@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enables performing bulk operations across all <a href="https://msdn.microsoft.com/fb58f405-895f-4590-8bff-7b1a9573791f">SurfaceImageSource</a> objects created in the same process.
+Enables performing bulk operations across all <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> objects created in the same process.
 
 
 ## -inheritance
@@ -72,7 +72,7 @@ The <b>ISurfaceImageSourceManagerNative</b> interface has these methods.
 <a href="https://msdn.microsoft.com/2921FF9E-25C5-4DF6-B23F-7B60F0577983">FlushAllSurfacesWithDevice</a>
 </td>
 <td align="left" width="63%">
-Flushes all current GPU work for all <a href="https://msdn.microsoft.com/fb58f405-895f-4590-8bff-7b1a9573791f">SurfaceImageSource</a> or <a href="https://msdn.microsoft.com/7a28cfdd-44d4-4aa7-b57e-a5fbdf66bee3">VirtualSurfaceImageSource</a>  objects associated with the given device.
+Flushes all current GPU work for all <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> or <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a>  objects associated with the given device.
 
 </td>
 </tr>
@@ -88,7 +88,7 @@ Flushes all current GPU work for all <a href="https://msdn.microsoft.com/fb58f40
 
 
 
-<a href="https://msdn.microsoft.com/fb58f405-895f-4590-8bff-7b1a9573791f">SurfaceImageSource</a>
+<a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a>
  
 
  

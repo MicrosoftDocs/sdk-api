@@ -84,19 +84,19 @@ End of line character is LF.
 
 
 
-<a href="https://msdn.microsoft.com/BBFDC90E-A07A-4733-B817-BE9195C39110">EM_GETENDOFLINE</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/controls/em-getendofline">EM_GETENDOFLINE</a>
 
 
 
-<a href="https://msdn.microsoft.com/122E7BEE-EAF1-4106-8C3F-4A9A52DB8151">EM_SETENDOFLINE</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/controls/em-setendofline">EM_SETENDOFLINE</a>
 
 
 
-<a href="https://msdn.microsoft.com/27B0CB7B-08BE-48FD-BF65-4F2B9C481A9C">Edit_GetEndOfLine</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/commctrl/nf-commctrl-edit_getendofline">Edit_GetEndOfLine</a>
 
 
 
-<a href="https://msdn.microsoft.com/D143B914-5F68-4957-9D1F-C55977E27C8B">Edit_SetEndOfLine</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/commctrl/nf-commctrl-edit_setendofline">Edit_SetEndOfLine</a>
  
 
  

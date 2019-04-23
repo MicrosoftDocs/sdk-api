@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Gets the number of file (or logical) lines (text wrap delimiters are ignored). You can use this macro or send the <a href="https://msdn.microsoft.com/5E17F23B-A6D3-4501-890B-9C4DE35AC3FA">EM_GETFILELINECOUNT</a> message explicitly.
+Gets the number of file (or logical) lines (text wrap delimiters are ignored). You can use this macro or send the <a href="https://docs.microsoft.com/en-us/windows/desktop/controls/em-getfilelinecount">EM_GETFILELINECOUNT</a> message explicitly.
 
 
 ## -parameters

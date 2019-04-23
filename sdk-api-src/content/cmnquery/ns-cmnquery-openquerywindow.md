@@ -119,7 +119,7 @@ Causes the query dialog box to display the <b>OK</b> and
 #### OQWF_PARAMISPROPERTYBAG
 
 Indicates that the <b>ppbFormParameters</b> member contains an 
-        <a href="https://msdn.microsoft.com/c93a4cbc-33bb-4de1-ba1c-dcb9b87e92a7">IPropertyBag</a> interface.
+        <a href="https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a> interface.
 
 
 
@@ -272,7 +272,7 @@ Reserved. Pointer to a structure or interface that provides parameter initializa
 
 ### -field ppbFormParameters
 
-Pointer to an <a href="https://msdn.microsoft.com/c93a4cbc-33bb-4de1-ba1c-dcb9b87e92a7">IPropertyBag</a> interface that 
+Pointer to an <a href="https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a> interface that 
        provides parameter initialization data for the form. The contents of this property bag are defined by the form 
        class specified by the <b>clsidDefaultForm</b> member. The following system-supplied forms 
        support this member.

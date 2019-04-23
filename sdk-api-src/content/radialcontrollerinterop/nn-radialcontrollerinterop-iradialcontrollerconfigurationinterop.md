@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enables interoperability with a Universal Windows Platform (UWP) <a href="https://msdn.microsoft.com/f988ea33-43bf-4b0e-86bc-8ee56f41ed90">RadialControllerConfiguration</a> object and provides access to <b>RadialControllerConfiguration</b> members for customizing a <a href="https://msdn.microsoft.com/5cd9534d-bdd7-49fa-81c7-a5ddca4e851a">RadialController</a> menu.
+Enables interoperability with a Universal Windows Platform (UWP) <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.input.radialcontrollerconfiguration">RadialControllerConfiguration</a> object and provides access to <b>RadialControllerConfiguration</b> members for customizing a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.input.radialcontroller">RadialController</a> menu.
 
 
 ## -inheritance
@@ -72,7 +72,7 @@ The <b>IRadialControllerConfigurationInterop</b> interface has these methods.
 <a href="https://msdn.microsoft.com/f2182f3a-82a8-40be-b331-673a181f4070">GetForWindow</a>
 </td>
 <td align="left" width="63%">
-Retrieves a <a href="https://msdn.microsoft.com/f988ea33-43bf-4b0e-86bc-8ee56f41ed90">RadialControllerConfiguration</a> object bound to the active application.
+Retrieves a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.input.radialcontrollerconfiguration">RadialControllerConfiguration</a> object bound to the active application.
 
 </td>
 </tr>

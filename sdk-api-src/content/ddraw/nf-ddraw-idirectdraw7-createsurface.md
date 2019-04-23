@@ -60,7 +60,7 @@ Creates a DirectDrawSurface object for this DirectDraw object.
 
 ### -param arg1 [in]
 
-Address of a <a href="https://msdn.microsoft.com/507c557f-eb3a-429c-a738-8d715e5d71d3">DDSURFACEDESC2</a> structure that describes the requested surface. Set any unused members of the <b>DDSURFACEDESC2</b> structure to 0 before calling this method. A <a href="https://msdn.microsoft.com/a2fd448c-0ae1-43cd-8561-77d537b741e7">DDSCAPS2</a> structure is a member of <b>DDSURFACEDESC2</b>.
+Address of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550340">DDSURFACEDESC2</a> structure that describes the requested surface. Set any unused members of the <b>DDSURFACEDESC2</b> structure to 0 before calling this method. A <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff550292(v=vs.85).aspx">DDSCAPS2</a> structure is a member of <b>DDSURFACEDESC2</b>.
 
 
 ### -param arg2 [out]

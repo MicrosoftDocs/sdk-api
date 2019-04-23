@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Gets the text of the specified file (or logical) line (text wrap delimiters are ignored). You can use this macro or send the <a href="https://msdn.microsoft.com/1BCAE1AB-F8BB-496D-9862-DA0A8A39E6F9">EM_GETFILELINE</a> message explicitly.
+Gets the text of the specified file (or logical) line (text wrap delimiters are ignored). You can use this macro or send the <a href="https://docs.microsoft.com/en-us/windows/desktop/controls/em-getfileline">EM_GETFILELINE</a> message explicitly.
 
 
 ## -parameters

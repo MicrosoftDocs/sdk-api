@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 Retrieves the privacy settings for a given 
-<a href="https://msdn.microsoft.com/63ca4584-c714-4409-ab45-0500bdad6bd1">URLZONE</a> and <a href="https://msdn.microsoft.com/7d0846d4-fd81-4af9-b7e6-05c4c1438770">PrivacyType</a>.
+<a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.ole.interop.urlzone">URLZONE</a> and <a href="https://msdn.microsoft.com/7d0846d4-fd81-4af9-b7e6-05c4c1438770">PrivacyType</a>.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Retrieves the privacy settings for a given
 
 ### -param dwZone [in]
 
-A value of type <i>DWORD</i> that specifies the <a href="https://msdn.microsoft.com/63ca4584-c714-4409-ab45-0500bdad6bd1">URLZONE</a> for which privacy settings are being retrieved.
+A value of type <i>DWORD</i> that specifies the <a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.ole.interop.urlzone">URLZONE</a> for which privacy settings are being retrieved.
 
 
 ### -param dwType [in]

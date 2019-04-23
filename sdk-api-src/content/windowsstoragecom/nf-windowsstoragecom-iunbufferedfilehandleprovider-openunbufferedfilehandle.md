@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets a handle from a random-access byte stream that the <a href="https://msdn.microsoft.com/128318b6-ddfb-44d0-9fcb-80410ad284bf">StorageFile.OpenAsync</a> method created and registers a callback method that you want to run when the opportunistic lock for the handle is broken. 
+Gets a handle from a random-access byte stream that the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a> method created and registers a callback method that you want to run when the opportunistic lock for the handle is broken. 
 
 
 ## -parameters

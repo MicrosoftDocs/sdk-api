@@ -107,7 +107,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/3f4b604a-5d56-453b-98d8-30a931afb789">XMMatrixPerspectiveRH</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmmatrixperspectiverh">XMMatrixPerspectiveRH</a>
  
 
  

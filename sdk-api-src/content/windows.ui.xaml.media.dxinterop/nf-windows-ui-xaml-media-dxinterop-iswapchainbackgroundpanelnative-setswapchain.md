@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the DirectX swap chain for <a href="https://msdn.microsoft.com/2f47fd2c-a0ff-4981-a404-0934aed39f84">SwapChainBackgroundPanel</a>.
+Sets the DirectX swap chain for <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.swapchainbackgroundpanel">SwapChainBackgroundPanel</a>.
 
 
 ## -parameters

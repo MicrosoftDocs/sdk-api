@@ -69,10 +69,10 @@ The <b>ID3D12GraphicsCommandList3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5D176919-34DC-4FD5-A577-78B03D5AB76B">SetProtectedResourceSession</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist3-setprotectedresourcesession">SetProtectedResourceSession</a>
 </td>
 <td align="left" width="63%">
-Specifies whether or not protected resources can be accessed by subsequent commands in the command list. By default, no protected resources are enabled. After calling <a href="https://msdn.microsoft.com/5D176919-34DC-4FD5-A577-78B03D5AB76B">SetProtectedResourceSession</a> with a valid session, protected resources of the same type can refer to that session. After calling <b>SetProtectedResourceSession</b> with <b>NULL</b>, no protected resources can be accessed.
+Specifies whether or not protected resources can be accessed by subsequent commands in the command list. By default, no protected resources are enabled. After calling <a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist3-setprotectedresourcesession">SetProtectedResourceSession</a> with a valid session, protected resources of the same type can refer to that session. After calling <b>SetProtectedResourceSession</b> with <b>NULL</b>, no protected resources can be accessed.
 
 </td>
 </tr>

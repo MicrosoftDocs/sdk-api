@@ -80,9 +80,9 @@ The index in the DPA at which to begin searching for <i>pFind</i>.
 
 ### -param pfnCompare
 
-Type: <b><a href="https://msdn.microsoft.com/b2b03db5-e595-4778-b51a-0087d663b026">PFNDPACOMPARE</a></b>
+Type: <b><a href="https://docs.microsoft.com/en-us/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndacompare">PFNDPACOMPARE</a></b>
 
-A pointer to the comparison function. See <a href="https://msdn.microsoft.com/b2b03db5-e595-4778-b51a-0087d663b026">PFNDPACOMPARE</a> or <a href="https://msdn.microsoft.com/49e2b929-155d-447b-8935-7fe2a128874e">PFNDPACOMPARECONST</a> for the comparison function prototype.
+A pointer to the comparison function. See <a href="https://docs.microsoft.com/en-us/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndacompare">PFNDPACOMPARE</a> or <a href="https://docs.microsoft.com/en-us/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndacompareconst">PFNDPACOMPARECONST</a> for the comparison function prototype.
 
 
 ### -param lParam

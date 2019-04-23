@@ -110,7 +110,7 @@ Set this flag to create a waitable object you can use to ensure rendering does n
 
 ### -field DXGI_SWAP_CHAIN_FLAG_FOREGROUND_LAYER
 
-Set this flag to create a swap chain in the foreground layer for multi-plane rendering. This flag can only be used with <a href="https://msdn.microsoft.com/60b1c8c6-c136-4c4c-8e46-69a792d58ed0">CoreWindow</a> swap chains, which are created with <a href="https://msdn.microsoft.com/B3AC3AEB-3449-4444-9FD3-866A3795C41F">CreateSwapChainForCoreWindow</a>. Apps should not create foreground swap chains if <a href="https://msdn.microsoft.com/BC9CD287-CD89-4D0C-ADE3-EAA60D5FEAAD">IDXGIOutput2::SupportsOverlays</a> indicates that hardware support for overlays is not available.
+Set this flag to create a swap chain in the foreground layer for multi-plane rendering. This flag can only be used with <a href="https://msdn.microsoft.com/sk-sk/windows/desktop/windows.ui.core.corewindow">CoreWindow</a> swap chains, which are created with <a href="https://msdn.microsoft.com/B3AC3AEB-3449-4444-9FD3-866A3795C41F">CreateSwapChainForCoreWindow</a>. Apps should not create foreground swap chains if <a href="https://msdn.microsoft.com/BC9CD287-CD89-4D0C-ADE3-EAA60D5FEAAD">IDXGIOutput2::SupportsOverlays</a> indicates that hardware support for overlays is not available.
 
 Note that <a href="https://msdn.microsoft.com/en-us/library/Bb174577(v=VS.85).aspx">IDXGISwapChain::ResizeBuffers</a> cannot be used to add or remove this flag.
 

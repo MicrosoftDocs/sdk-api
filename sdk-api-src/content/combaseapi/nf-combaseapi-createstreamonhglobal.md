@@ -60,7 +60,7 @@ The
 The returned stream object supports both reading and writing, is not transacted, and does not support region locking. The object calls the <a href="https://msdn.microsoft.com/2439b16a-f27d-4e95-bc9e-6f1e563933c9">GlobalReAlloc</a> function to grow the memory block as required.
 
 
-<div class="alert"><b>Tip</b>  Consider using the <a href="https://msdn.microsoft.com/f3ae8241-f3a6-4007-a10f-ff05960c5de8">SHCreateMemStream</a> function, which produces better performance, or for Windows Store apps, consider using <a href="https://msdn.microsoft.com/5e11da69-8b7e-45da-8ab6-0a5ecd3808dc">InMemoryRandomAccessStream</a>.</div>
+<div class="alert"><b>Tip</b>  Consider using the <a href="https://msdn.microsoft.com/f3ae8241-f3a6-4007-a10f-ff05960c5de8">SHCreateMemStream</a> function, which produces better performance, or for Windows Store apps, consider using <a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.streams.inmemoryrandomaccessstream">InMemoryRandomAccessStream</a>.</div>
 <div> </div>
 
 
@@ -163,7 +163,7 @@ Prior to Windows 7 and Windows Server 2008 R2, this implementation did not ze
 
 
 
-<a href="https://msdn.microsoft.com/80b4d7c9-f4a9-40ec-8dc4-9759d56646f2">InMemoryRandomAccessStream</a>
+<a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.streams.inmemoryrandomaccessstream">InMemoryRandomAccessStream</a>
  
 
  

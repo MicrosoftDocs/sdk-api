@@ -62,7 +62,7 @@ The <code>SetParam</code> method sets the value of the specified filter configur
 
 ### -param dwParam [in]
 
-Specifies the parameter to set,as a member of the <a href="https://msdn.microsoft.com/aa274c86-f75d-40ee-8c46-918ccffdfd03">_AM_ASFWRITERCONFIG_PARAM</a> enumeration.
+Specifies the parameter to set,as a member of the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd758054(v=vs.85).aspx">_AM_ASFWRITERCONFIG_PARAM</a> enumeration.
 
 
 ### -param dwParam1 [in]

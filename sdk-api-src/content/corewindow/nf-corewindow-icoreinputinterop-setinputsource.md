@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the input source for an app's <a href="https://msdn.microsoft.com/917cbf9f-bd19-4e05-bcd1-cf6a86f16e65">CoreIndependentInputSource</a> or <a href="https://msdn.microsoft.com/3075a07b-c432-482e-a44b-494014ff13fc">CoreComponentInputSource</a>.
+Sets the input source for an app's <a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.toolkit.win32.ui.controls.interop.winrt.coreindependentinputsource">CoreIndependentInputSource</a> or <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.core.corecomponentinputsource">CoreComponentInputSource</a>.
 
 
 ## -parameters
@@ -76,11 +76,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/3075a07b-c432-482e-a44b-494014ff13fc">CoreComponentInputSource</a>
+<a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.core.corecomponentinputsource">CoreComponentInputSource</a>
 
 
 
-<a href="https://msdn.microsoft.com/917cbf9f-bd19-4e05-bcd1-cf6a86f16e65">CoreIndependentInputSource</a>
+<a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.toolkit.win32.ui.controls.interop.winrt.coreindependentinputsource">CoreIndependentInputSource</a>
 
 
 

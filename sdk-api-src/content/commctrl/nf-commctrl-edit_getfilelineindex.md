@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Gets the index of the file (or logical) line of text based on the specified visible line. You can use this macro or send the <a href="https://msdn.microsoft.com/C56BF487-B718-41A5-A813-1DF62B08498D">EM_FILELINEINDEX</a> message explicitly.
+Gets the index of the file (or logical) line of text based on the specified visible line. You can use this macro or send the <a href="https://docs.microsoft.com/en-us/windows/desktop/controls/em-filelineindex">EM_FILELINEINDEX</a> message explicitly.
 
 
 ## -parameters

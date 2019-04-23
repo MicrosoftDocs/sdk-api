@@ -106,7 +106,7 @@ TBD
 
 
 <code>XMFLOAT4</code> can be loaded into instances of <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> by using
-	    <a href="https://msdn.microsoft.com/b23728ee-aa6d-4bed-b5fb-d4c3cb603504">XMLoadFloat4</a>.
+	    <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmloadfloat4">XMLoadFloat4</a>.
 	
 
 Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMFLOAT4</code> with <a href="https://msdn.microsoft.com/en-us/library/Ee420343(v=VS.85).aspx">XMStoreFloat4</a>.

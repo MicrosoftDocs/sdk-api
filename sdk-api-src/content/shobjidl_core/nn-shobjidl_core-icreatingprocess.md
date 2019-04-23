@@ -83,7 +83,7 @@ Allows you to modify the parameters of  the process being created.
 
 
 
- The caller should install an object into the site chain which implements <a href="https://msdn.microsoft.com/42026089-3e71-4483-ab35-1a6f305547fe">IServiceProvider::QueryService</a> and responds to the <b>SID_ExecuteCreatingProcess</b> service ID with an object that implements the <b>ICreatingProcess</b> interface.
+ The caller should install an object into the site chain which implements <a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.shell.package.microsoft-visualstudio-ole-interop-iserviceprovider-queryservice">IServiceProvider::QueryService</a> and responds to the <b>SID_ExecuteCreatingProcess</b> service ID with an object that implements the <b>ICreatingProcess</b> interface.
 
 After performing the desired operations, the object should forward the <a href="https://msdn.microsoft.com/5A13ABDB-8453-41BE-AF0C-B5A07486CBE6">ICreatingProcess::OnCreating</a> call up the site chain to allow other members of the site chain to participate.
 

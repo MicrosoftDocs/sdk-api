@@ -98,7 +98,7 @@ TBD
 
 
 
-The components are normalized when this structure is loaded into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> using <a href="https://msdn.microsoft.com/70a53296-31be-48df-9f96-22d3041008f4">XMLoadShort2</a>. Each component will be divided by 32767.0f.
+The components are normalized when this structure is loaded into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> using <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadshort2">XMLoadShort2</a>. Each component will be divided by 32767.0f.
 	
 
 <b>Namespace:</b> Use DirectX::PackedVector

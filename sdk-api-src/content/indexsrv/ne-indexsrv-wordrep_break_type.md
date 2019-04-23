@@ -61,7 +61,7 @@ Describes the type of break that separates the current word from the previous wo
 
 ### -field WORDREP_BREAK_EOW
 
-A word break is placed between this word and the previous word that was placed in the <b>WordSink</b>. This break is the default used by the <a href="https://msdn.microsoft.com/3de6e9a7-2213-4401-84a2-7fa73c9d5547">PutWord</a> method.
+A word break is placed between this word and the previous word that was placed in the <b>WordSink</b>. This break is the default used by the <a href="https://docs.microsoft.com/en-us/windows/desktop/search/iwordsink-putword">PutWord</a> method.
 
 
 ### -field WORDREP_BREAK_EOS
@@ -84,11 +84,11 @@ A chapter break is placed between this word and the previous word.
 
 
 
-<a href="https://msdn.microsoft.com/6e0d0ec1-1ab9-4cbf-bb28-e38aaa42f41e">IWordSink::PutAltWord</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/search/iwordsink-putaltword">IWordSink::PutAltWord</a>
 
 
 
-<a href="https://msdn.microsoft.com/3de6e9a7-2213-4401-84a2-7fa73c9d5547">IWordSink::PutWord</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/search/iwordsink-putword">IWordSink::PutWord</a>
  
 
  

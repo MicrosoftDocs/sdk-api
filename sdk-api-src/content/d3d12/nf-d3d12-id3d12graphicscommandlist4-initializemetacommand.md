@@ -61,7 +61,7 @@ You must initialize a meta command at least once prior (on the GPU's timeline) t
 
 ### -param pMetaCommand [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/976A7F78-1801-47DD-9350-21F530B4D145">ID3D12MetaCommand</a> representing the meta command to initialize.
+A pointer to an <a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/nn-d3d12-id3d12metacommand">ID3D12MetaCommand</a> representing the meta command to initialize.
 
 
 ### -param pInitializationParametersData [in, optional]

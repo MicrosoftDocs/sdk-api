@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Gets the end of line character used for the content of the edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/BBFDC90E-A07A-4733-B817-BE9195C39110">EM_GETENDOFLINE</a> message explicitly. 
+Gets the end of line character used for the content of the edit control. You can use this macro or send the <a href="https://docs.microsoft.com/en-us/windows/desktop/controls/em-getendofline">EM_GETENDOFLINE</a> message explicitly. 
 
 
 ## -parameters

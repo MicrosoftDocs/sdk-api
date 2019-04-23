@@ -86,7 +86,7 @@ If the magnitude of one of this constructor's floating point arguments cannot be
 	
 
 The following pseudocode demonstrates the operation of this constructor using the XNA
-	    Math <a href="https://msdn.microsoft.com/463abe18-b8c4-44be-9740-b7e0459d3ebd">XMConvertFloatToHalf</a> function:
+	    Math <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmconvertfloattohalf">XMConvertFloatToHalf</a> function:
 	
 
 

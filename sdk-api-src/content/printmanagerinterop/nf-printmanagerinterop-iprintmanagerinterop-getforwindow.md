@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/81ad3b9b-36f2-46c0-8315-1d2bdfcebe75">PrintManager</a> instance for the specified window.
+Gets the <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Graphics.Printing.PrintManager">PrintManager</a> instance for the specified window.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets the <a href="https://msdn.microsoft.com/81ad3b9b-36f2-46c0-8315-1d2bdfcebe7
 
 ### -param appWindow [in]
 
-The window to get the <a href="https://msdn.microsoft.com/81ad3b9b-36f2-46c0-8315-1d2bdfcebe75">PrintManager</a> instance for.
+The window to get the <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Graphics.Printing.PrintManager">PrintManager</a> instance for.
 
 
 ### -param riid [in]
@@ -69,7 +69,7 @@ The reference ID of the specified window.
 
 ### -param printManager [out, retval]
 
-The <a href="https://msdn.microsoft.com/81ad3b9b-36f2-46c0-8315-1d2bdfcebe75">PrintManager</a> instance for the specified window.
+The <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Graphics.Printing.PrintManager">PrintManager</a> instance for the specified window.
 
 
 ## -returns
@@ -85,7 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-You can use the <b>GetForWindow</b> method to get the <a href="https://msdn.microsoft.com/81ad3b9b-36f2-46c0-8315-1d2bdfcebe75">PrintManager</a> for the specified window. The <b>GetForWindow</b> method is equivalent to the <a href="https://msdn.microsoft.com/0c973c56-8b35-4044-b9e1-36b7e05f02ed">GetForCurrentView</a> method, except that you supply a reference to a window from a multi-window Windows Store app.
+You can use the <b>GetForWindow</b> method to get the <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Graphics.Printing.PrintManager">PrintManager</a> for the specified window. The <b>GetForWindow</b> method is equivalent to the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.graphics.printing.printmanager.getforcurrentview">GetForCurrentView</a> method, except that you supply a reference to a window from a multi-window Windows Store app.
 
 
 
@@ -95,7 +95,7 @@ You can use the <b>GetForWindow</b> method to get the <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/0c973c56-8b35-4044-b9e1-36b7e05f02ed">GetForCurrentView</a>
+<a href="https://docs.microsoft.com/en-us/uwp/api/windows.graphics.printing.printmanager.getforcurrentview">GetForCurrentView</a>
 
 
 
@@ -103,7 +103,7 @@ You can use the <b>GetForWindow</b> method to get the <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/81ad3b9b-36f2-46c0-8315-1d2bdfcebe75">PrintManager</a>
+<a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Graphics.Printing.PrintManager">PrintManager</a>
  
 
  
