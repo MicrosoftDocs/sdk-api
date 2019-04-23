@@ -120,7 +120,7 @@ Those <code>XMCOLOR</code> constructors using floating point arguments require n
 	    appropriate members of <code>XMCOLOR</code>.
 
 <code>XMCOLOR</code> can be used to load instances of <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1"> XMVECTOR</a> from
-	    normalized values, by using <a href="https://msdn.microsoft.com/beca676b-ca6b-42c5-8913-439c13224c8d">XMLoadColor</a>, which divides color channel
+	    normalized values, by using <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadcolor">XMLoadColor</a>, which divides color channel
 	    data by 255.0f, rounds the result, and then assigns the components to an <code>XMVECTOR</code>instance.
 
 <code>XMVECTOR</code> instances containing normalized values can be stored into <code>XMCOLOR</code>using <a href="https://msdn.microsoft.com/en-us/library/Ee420226(v=VS.85).aspx">XMStoreColor</a>, which multiplies color channel data by 255.0f,

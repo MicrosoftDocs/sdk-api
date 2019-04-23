@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>REAL_TIME_NOTIFICATION_SETTING_INPUT</b> structure provides input settings to apply for the <b>REAL_TIME_NOTIFICATION_CAPABILITY</b> transport setting for a TCP socket that is used with <a href="https://msdn.microsoft.com/35cdf588-0f26-4c88-a898-e1d2ba8203ac">ControlChannelTrigger</a> to receive background network notifications in a Windows Store app.
+The <b>REAL_TIME_NOTIFICATION_SETTING_INPUT</b> structure provides input settings to apply for the <b>REAL_TIME_NOTIFICATION_CAPABILITY</b> transport setting for a TCP socket that is used with <a href="https://docs.microsoft.com/en-us/uwp/api/windows.networking.sockets.controlchanneltrigger">ControlChannelTrigger</a> to receive background network notifications in a Windows Store app.
 
 
 ## -struct-fields
@@ -74,7 +74,7 @@ The realtime notification broker event GUID for this transport ID.
 The <b>REAL_TIME_NOTIFICATION_SETTING_INPUT</b>  structure is supported on Windows 8,   and Windows Server 2012, and later versions of the operating system.
 
  If the <a href="https://msdn.microsoft.com/8ECBF92A-0AF9-4419-A4E8-0EDEF63FCE16">TRANSPORT_SETTING_ID</a> in the <i>lpvInBuffer</i> parameter passed to the <a href="https://msdn.microsoft.com/FA0657EE-B65E-4EFA-AF1E-CA0EA7B27715">SIO_APPLY_TRANSPORT_SETTING</a> 
-        IOCTL  has the <b>Guid</b> member set to <b>REAL_TIME_NOTIFICATION_CAPABILITY</b>, then this is a request to query the real time notification settings for the TCP socket used with <a href="https://msdn.microsoft.com/35cdf588-0f26-4c88-a898-e1d2ba8203ac">ControlChannelTrigger</a> to receive background network notifications in a Windows Store app. The <i>lpvInBuffer</i> parameter should point to a <b>REAL_TIME_NOTIFICATION_SETTING_INPUT</b> structure used as input to the <b>SIO_APPLY_TRANSPORT_SETTING</b> 
+        IOCTL  has the <b>Guid</b> member set to <b>REAL_TIME_NOTIFICATION_CAPABILITY</b>, then this is a request to query the real time notification settings for the TCP socket used with <a href="https://docs.microsoft.com/en-us/uwp/api/windows.networking.sockets.controlchanneltrigger">ControlChannelTrigger</a> to receive background network notifications in a Windows Store app. The <i>lpvInBuffer</i> parameter should point to a <b>REAL_TIME_NOTIFICATION_SETTING_INPUT</b> structure used as input to the <b>SIO_APPLY_TRANSPORT_SETTING</b> 
         IOCTL to apply the transport setting. 
 
 
@@ -85,7 +85,7 @@ The <b>REAL_TIME_NOTIFICATION_SETTING_INPUT</b>  structure is supported on Windo
 
 
 
-<a href="https://msdn.microsoft.com/35cdf588-0f26-4c88-a898-e1d2ba8203ac">ControlChannelTrigger</a>
+<a href="https://docs.microsoft.com/en-us/uwp/api/windows.networking.sockets.controlchanneltrigger">ControlChannelTrigger</a>
 
 
 

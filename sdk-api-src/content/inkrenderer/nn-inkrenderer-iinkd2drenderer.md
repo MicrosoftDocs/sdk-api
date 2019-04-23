@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-An <b>IInkD2DRenderer</b> object enables the rendering of ink strokes onto the designated  Direct2D device context of a Universal Windows app, instead of the default <a href="https://msdn.microsoft.com/28087708-d2f8-4684-a61a-abfba05b0592">InkCanvas</a> control.
+An <b>IInkD2DRenderer</b> object enables the rendering of ink strokes onto the designated  Direct2D device context of a Universal Windows app, instead of the default <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.inkcanvas">InkCanvas</a> control.
 
 
 

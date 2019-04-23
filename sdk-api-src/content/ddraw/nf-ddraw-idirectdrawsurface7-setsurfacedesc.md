@@ -59,7 +59,7 @@ Sets the characteristics of an existing surface.
 
 ### -param arg1 [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/507c557f-eb3a-429c-a738-8d715e5d71d3">DDSURFACEDESC2</a> structure that contains the new surface characteristics.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550340">DDSURFACEDESC2</a> structure that contains the new surface characteristics.
 
 
 ### -param arg2 [in]

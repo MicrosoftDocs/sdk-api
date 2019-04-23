@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enables access to <a href="https://msdn.microsoft.com/81ad3b9b-36f2-46c0-8315-1d2bdfcebe75">PrintManager</a> methods in a Windows Store app that manages multiple windows.
+Enables access to <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Graphics.Printing.PrintManager">PrintManager</a> methods in a Windows Store app that manages multiple windows.
 
 
 ## -inheritance
@@ -72,7 +72,7 @@ The <b>IPrintManagerInterop</b> interface has these methods.
 <a href="https://msdn.microsoft.com/8cbf37b6-6756-4399-aa6b-01eb63c8c6db">GetForWindow</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/81ad3b9b-36f2-46c0-8315-1d2bdfcebe75">PrintManager</a> instance for the specified window.
+Gets the <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Graphics.Printing.PrintManager">PrintManager</a> instance for the specified window.
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ Displays the UI for printing content for the specified window.
 
 
 
-<a href="https://msdn.microsoft.com/81ad3b9b-36f2-46c0-8315-1d2bdfcebe75">PrintManager</a>
+<a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Graphics.Printing.PrintManager">PrintManager</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-This operator assigns the vector component data packed in an instance of <code>uint32_t</code>to the current instance of <a href="https://msdn.microsoft.com/1268ED43-2957-464A-A38E-F7AFFC4EEEE9">XMDECN4</a>.
+This operator assigns the vector component data packed in an instance of <code>uint32_t</code>to the current instance of <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdecn4">XMDECN4</a>.
 
 
 <div class="alert"><b>Note</b>  This operator is only available under C++.
@@ -89,25 +89,25 @@ The format of <b>Packed</b> is:
 <ul>
 <li>
 The first 120 bits (bits 0-9) of <b>Packed</b> assigned, as an integer, to
-		    the <b>x</b> member of the current instance of <a href="https://msdn.microsoft.com/B799AA06-C51B-440A-93AD-3D3334449E27">XMCOLOR</a>.
+		    the <b>x</b> member of the current instance of <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>.
 		
 
 </li>
 <li>
 The second 10 bits (bits 10-19) of <b>Packed</b> assigned, as an integer, to
-		    the <b>y</b> member of the current instance of <a href="https://msdn.microsoft.com/1268ED43-2957-464A-A38E-F7AFFC4EEEE9">XMDECN4</a>.
+		    the <b>y</b> member of the current instance of <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdecn4">XMDECN4</a>.
 		
 
 </li>
 <li>
 The third 10 bits (bits 20-29) of <b>Packed</b> assigned, as an integer, to
-		    the <b>z</b> member of the current instance of <a href="https://msdn.microsoft.com/1268ED43-2957-464A-A38E-F7AFFC4EEEE9">XMDECN4</a>.
+		    the <b>z</b> member of the current instance of <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdecn4">XMDECN4</a>.
 		
 
 </li>
 <li>
 The last 2 bits (bits 30-31) of <b>Packed</b> assigned, as an integer, to
-		    the <b>w</b> member of the current instance of <a href="https://msdn.microsoft.com/1268ED43-2957-464A-A38E-F7AFFC4EEEE9">XMDECN4</a>.
+		    the <b>w</b> member of the current instance of <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdecn4">XMDECN4</a>.
 		
 
 </li>
@@ -124,7 +124,7 @@ The last 2 bits (bits 30-31) of <b>Packed</b> assigned, as an integer, to
 
 
 
-<a href="https://msdn.microsoft.com/1268ED43-2957-464A-A38E-F7AFFC4EEEE9">XMDECN4</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdecn4">XMDECN4</a>
 
 
 

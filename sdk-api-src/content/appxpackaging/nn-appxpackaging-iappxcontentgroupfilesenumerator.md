@@ -78,7 +78,7 @@ Gets the file from the content group at the current position of the enumerator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/BCF7C214-74EF-4821-B293-D2D933560200">GetHasCurrent</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxcontentgroupfilesenumerator-gethascurrent">GetHasCurrent</a>
 </td>
 <td align="left" width="63%">
 Determines whether there is a file at the current position of the enumerator.

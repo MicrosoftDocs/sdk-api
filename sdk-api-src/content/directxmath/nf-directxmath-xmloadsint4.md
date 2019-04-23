@@ -75,7 +75,7 @@ Returns an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531a
 
 
 
-For 16-byte aligned memory, it may be faster to use <a href="https://msdn.microsoft.com/eb545b5a-9132-4c8f-838b-dc528489a6ed">XMLoadInt4A</a> with a casting operator.
+For 16-byte aligned memory, it may be faster to use <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmloadint4a">XMLoadInt4A</a> with a casting operator.
 
 The following pseudocode shows the operation of this function.
 

@@ -161,7 +161,7 @@ Starting with Windows 10, version 1809 (10.0; Build 17763), indicates a query fo
 
 ### -field D3D12_FEATURE_D3D12_OPTIONS6
 
-Starting with Windows 10, version 1903 (10.0; Build 18362), indicates a query for the level of support for variable-rate shading, or VRS). For more info, see [Variable-rate shading (VRS)](/windows/desktop/direct3d12/vrs).
+Starting with Windows 10, version 1903 (10.0; Build 18362), indicates a query for the level of support for variable-rate shading (VRS), and indicates whether or not background processing is supported. For more info, see <a href="/windows/desktop/direct3d12/vrs">Variable-rate shading (VRS)</a>, and the [Direct3D 12 background processing spec](https://microsoft.github.io/DirectX-Specs/d3d/BackgroundProcessing.html).
 
 ## -remarks
 

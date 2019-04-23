@@ -61,7 +61,7 @@ Sets the rendering surface to be used by the viewer.
 
 ### -param pRenderingSurface [in]
 
-The address of the <a href="https://msdn.microsoft.com/fb58f405-895f-4590-8bff-7b1a9573791f">SurfaceImageSource</a> object to use for the rendering surface.
+The address of the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> object to use for the rendering surface.
 
 
 ### -param surfaceWidth [in]

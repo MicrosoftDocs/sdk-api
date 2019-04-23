@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Clears the connection profile values previously applied to the internet connection profile by <a href="https://msdn.microsoft.com/168501A6-F8B2-4635-97BB-538994074D2C">SetSimulatedProfileInfo</a>. The next internet connection query, via <a href="https://msdn.microsoft.com/30d85516-1150-45a1-8941-a299019897d6">GetInternetConnectionProfile</a>, will use system information.
+Clears the connection profile values previously applied to the internet connection profile by <a href="https://msdn.microsoft.com/168501A6-F8B2-4635-97BB-538994074D2C">SetSimulatedProfileInfo</a>. The next internet connection query, via <a href="https://docs.microsoft.com/en-us/uwp/api/windows.networking.connectivity.networkinformation.getinternetconnectionprofile">GetInternetConnectionProfile</a>, will use system information.
 
 
 ## -parameters

@@ -82,7 +82,7 @@ Retrieves the background color of the swap chain.
 <a href="https://msdn.microsoft.com/ABD529CF-41D8-4F21-8F47-D0D053AF2322">GetCoreWindow</a>
 </td>
 <td align="left" width="63%">
-Retrieves the underlying <a href="https://msdn.microsoft.com/60b1c8c6-c136-4c4c-8e46-69a792d58ed0">CoreWindow</a> object for this swap-chain object.
+Retrieves the underlying <a href="https://msdn.microsoft.com/sk-sk/windows/desktop/windows.ui.core.corewindow">CoreWindow</a> object for this swap-chain object.
 
 </td>
 </tr>

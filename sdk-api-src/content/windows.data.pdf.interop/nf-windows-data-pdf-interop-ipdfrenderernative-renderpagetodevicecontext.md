@@ -59,7 +59,7 @@ Outputs a single page of a Portable Document Format (PDF) file as a bitmap image
 
 ### -param pdfPage [in]
 
-The <b>IPdfPage</b> interface as an instance of the <a href="https://msdn.microsoft.com/85bf8d83-8c70-472f-8762-709fddaf3222">PdfPage</a> class,  type-casted to the <b>IUnknown</b> interface, representing the page to be output.
+The <b>IPdfPage</b> interface as an instance of the <a href="https://docs.microsoft.com/en-us/dotnet/api/pdfkit.pdfpage">PdfPage</a> class,  type-casted to the <b>IUnknown</b> interface, representing the page to be output.
 
 
 ### -param pD2DDeviceContext [in]

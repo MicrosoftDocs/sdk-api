@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an <a href="https://msdn.microsoft.com/0729e4ae-7f19-44f7-bcb7-86670c59e273">IMemoryBuffer</a> as an array of bytes. 
+Gets an <a href="https://docs.microsoft.com/en-us/uwp/api/windows.foundation.imemorybuffer">IMemoryBuffer</a> as an array of bytes. 
 
 
 ## -parameters
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-When <a href="https://msdn.microsoft.com/08669c27-cf70-4ade-af1f-a9d840193bd1">MemoryBuffer::Close</a> is called, the code using this buffer should set the <i>value</i> pointer to null.
+When <a href="https://docs.microsoft.com/en-us/uwp/api/windows.foundation.memorybuffer.close">MemoryBuffer::Close</a> is called, the code using this buffer should set the <i>value</i> pointer to null.
 
 
 

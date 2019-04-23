@@ -115,7 +115,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/2f82e49a-d551-4b64-8325-31c84805165c">XMVectorLerp</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmvectorlerp">XMVectorLerp</a>
  
 
  

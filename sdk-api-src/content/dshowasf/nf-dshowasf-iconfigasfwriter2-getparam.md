@@ -62,7 +62,7 @@ The <code>GetParam</code> method retrieves the current value of the specified fi
 
 ### -param dwParam [in]
 
-Specifies the parameter to retrieve, as a member of the <a href="https://msdn.microsoft.com/aa274c86-f75d-40ee-8c46-918ccffdfd03">_AM_ASFWRITERCONFIG_PARAM</a> enumeration.
+Specifies the parameter to retrieve, as a member of the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd758054(v=vs.85).aspx">_AM_ASFWRITERCONFIG_PARAM</a> enumeration.
 
 
 ### -param pdwParam1 [out]

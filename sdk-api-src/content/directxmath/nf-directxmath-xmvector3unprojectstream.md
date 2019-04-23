@@ -169,7 +169,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/90c913dc-8753-4e09-a14a-025ff81f4452">XMVector3Unproject</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmvector3unproject">XMVector3Unproject</a>
  
 
  

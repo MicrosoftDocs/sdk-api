@@ -169,7 +169,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/902810ac-11a4-4c95-9289-19b3f5335399">XMVector3Project</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmvector3project">XMVector3Project</a>
  
 
  

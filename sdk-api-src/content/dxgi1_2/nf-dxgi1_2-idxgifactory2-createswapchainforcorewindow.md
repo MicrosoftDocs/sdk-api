@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a swap chain that is associated with the <a href="https://msdn.microsoft.com/60b1c8c6-c136-4c4c-8e46-69a792d58ed0">CoreWindow</a> object for the output window for the swap chain.
+Creates a swap chain that is associated with the <a href="https://msdn.microsoft.com/sk-sk/windows/desktop/windows.ui.core.corewindow">CoreWindow</a> object for the output window for the swap chain.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ For Direct3D 11, and earlier versions of Direct3D, this is a pointer to the Dire
 
 ### -param pWindow [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/60b1c8c6-c136-4c4c-8e46-69a792d58ed0">CoreWindow</a> object that is associated with the swap chain that <b>CreateSwapChainForCoreWindow</b> creates.
+A pointer to the <a href="https://msdn.microsoft.com/sk-sk/windows/desktop/windows.ui.core.corewindow">CoreWindow</a> object that is associated with the swap chain that <b>CreateSwapChainForCoreWindow</b> creates.
 
 
 ### -param pDesc [in]
@@ -112,7 +112,7 @@ If you specify the width, height, or both (<b>Width</b> and <b>Height</b> member
 
 You can subsequently call the <a href="https://msdn.microsoft.com/86BB75A7-C289-4EBA-A9EE-ED4F5C590BA2">IDXGISwapChain1::GetDesc1</a> method to retrieve the assigned width or height value.
 
-Because you can associate only one flip presentation model swap chain (per layer) at a time with a <a href="https://msdn.microsoft.com/60b1c8c6-c136-4c4c-8e46-69a792d58ed0">CoreWindow</a>, the Microsoft Direct3D 11 policy of deferring the destruction of objects can cause problems if you attempt to destroy a flip presentation model swap chain and replace it with another swap chain. For more info about this situation, see <a href="https://msdn.microsoft.com/e204c585-4996-4274-a654-b9912e957fe6">Deferred Destruction Issues with Flip Presentation Swap Chains</a>.
+Because you can associate only one flip presentation model swap chain (per layer) at a time with a <a href="https://msdn.microsoft.com/sk-sk/windows/desktop/windows.ui.core.corewindow">CoreWindow</a>, the Microsoft Direct3D 11 policy of deferring the destruction of objects can cause problems if you attempt to destroy a flip presentation model swap chain and replace it with another swap chain. For more info about this situation, see <a href="https://msdn.microsoft.com/e204c585-4996-4274-a654-b9912e957fe6">Deferred Destruction Issues with Flip Presentation Swap Chains</a>.
 
 For info about how to choose a format for the swap chain's back buffer, see <a href="https://msdn.microsoft.com/1DD8E2D3-430F-4EE4-9C41-78736C904920">Converting data for the color space</a>.
 
@@ -178,7 +178,7 @@ if (SUCCEEDED(hr) && m_foregroundSwapChain)
 
 
 
-<a href="https://msdn.microsoft.com/60b1c8c6-c136-4c4c-8e46-69a792d58ed0">CoreWindow</a>
+<a href="https://msdn.microsoft.com/sk-sk/windows/desktop/windows.ui.core.corewindow">CoreWindow</a>
 
 
 

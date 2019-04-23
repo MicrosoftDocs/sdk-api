@@ -70,7 +70,7 @@ Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa965374(v=VS.85)
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231443(v=VS.85).aspx">IProtocolHandlerSite</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb231443(v=VS.85).aspx">IProtocolHandlerSite</a> interface that enables protocol handlers to access <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFiltear</a>within the filter host. 
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb231443(v=VS.85).aspx">IProtocolHandlerSite</a> interface that enables protocol handlers to access <a href="https://docs.microsoft.com/en-us/windows-hardware/test/hlk/api/ifilter-interface">IFiltear</a>within the filter host. 
                 
 
 

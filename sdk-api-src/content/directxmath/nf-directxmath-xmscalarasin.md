@@ -92,15 +92,15 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/0f2b4189-ec94-4ecf-81c9-b80cbff96ce9">XMScalarASinEst</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmscalarasinest">XMScalarASinEst</a>
 
 
 
-<a href="https://msdn.microsoft.com/c530cd10-4bf9-48a5-95fd-bf8ada350b63">XMScalarSin</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmscalarsin">XMScalarSin</a>
 
 
 
-<a href="https://msdn.microsoft.com/6cec9526-7b2e-4a5a-ace9-a12e1b9f751c">XMScalarSinEst</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmscalarsinest">XMScalarSinEst</a>
  
 
  

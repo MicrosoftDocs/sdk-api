@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes the format of the <a href="https://msdn.microsoft.com/d180fee0-1a69-4250-a0c4-d6e3754f063a">ID3D10Blob Interface</a> returned by <a href="https://msdn.microsoft.com/en-us/library/Bb205098(v=VS.85).aspx">D3D10GetShaderDebugInfo</a>.
+Describes the format of the <a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob">ID3D10Blob Interface</a> returned by <a href="https://msdn.microsoft.com/en-us/library/Bb205098(v=VS.85).aspx">D3D10GetShaderDebugInfo</a>.
 
 
 ## -struct-fields

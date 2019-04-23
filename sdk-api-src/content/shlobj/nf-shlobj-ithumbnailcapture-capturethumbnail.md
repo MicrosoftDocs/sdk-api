@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a thumbnail representation of an <a href="https://msdn.microsoft.com/d713c045-ab50-465d-96b6-a20c40093f97">IHTMLDocument2</a> document.
+Retrieves a thumbnail representation of an <a href="https://docs.microsoft.com/en-us/dotnet/api/mshtml.ihtmldocument2?view=powershellsdk-1.1.0">IHTMLDocument2</a> document.
         
             
 <div class="alert"><b>Note</b>  This method is deprecated as of Windows 7. The feature it supported is no longer present in Windows.</div><div> </div>
@@ -70,7 +70,7 @@ A pointer to a <a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1
 
 Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/d713c045-ab50-465d-96b6-a20c40093f97">IHTMLDocument2</a> interface's <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface.
+A pointer to an <a href="https://docs.microsoft.com/en-us/dotnet/api/mshtml.ihtmldocument2?view=powershellsdk-1.1.0">IHTMLDocument2</a> interface's <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface.
 
 
 ### -param phbmThumbnail [out]
@@ -96,7 +96,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/d713c045-ab50-465d-96b6-a20c40093f97">IHTMLDocument2</a>
+<a href="https://docs.microsoft.com/en-us/dotnet/api/mshtml.ihtmldocument2?view=powershellsdk-1.1.0">IHTMLDocument2</a>
 
 
 

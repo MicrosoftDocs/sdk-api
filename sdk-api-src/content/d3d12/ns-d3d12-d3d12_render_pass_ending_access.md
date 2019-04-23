@@ -59,12 +59,12 @@ Describes the access to resource(s) that is requested by an application at the t
 
 ### -field Type
 
-A <a href="https://msdn.microsoft.com/61B6003B-DDA5-4FF5-B1F5-994642937D29">D3D12_RENDER_PASS_ENDING_ACCESS_TYPE</a>. The type of access being requested.
+A <a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/ne-d3d12-d3d12_render_pass_ending_access_type">D3D12_RENDER_PASS_ENDING_ACCESS_TYPE</a>. The type of access being requested.
 
 
 ### -field Resolve
 
-A <a href="https://msdn.microsoft.com/AF081936-CF83-4FFF-BA81-83CEE6F85BFF">D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS</a>. Appropriate when  <b>Type</b> is <a href="https://msdn.microsoft.com/61B6003B-DDA5-4FF5-B1F5-994642937D29">D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_RESOLVE</a>. Description of the resource to resolve to.
+A <a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/ns-d3d12-d3d12_render_pass_ending_access_resolve_parameters">D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS</a>. Appropriate when  <b>Type</b> is <a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/ne-d3d12-d3d12_render_pass_ending_access_type">D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_RESOLVE</a>. Description of the resource to resolve to.
 
 
 ## -see-also

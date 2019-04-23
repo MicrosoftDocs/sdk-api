@@ -123,7 +123,7 @@ Those <code>XMBYTEN4</code> constructors using floating point arguments require 
 	
 
 <code>XMBYTEN4</code> can be used to load instances of <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> from
-	    normalized values, by using <a href="https://msdn.microsoft.com/62eed30a-7181-410a-9d5f-9b22a6cb15a2">XMLoadByteN4</a>, which divides each
+	    normalized values, by using <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadbyten4">XMLoadByteN4</a>, which divides each
 	    component 127.0f, rounds the result, and then assigns the components to an
 	    <code>XMVECTOR</code> instance.
 	

@@ -101,9 +101,9 @@ If the input is a texture, the return type. See <a href="https://msdn.microsoft.
 
 ### -field Dimension
 
-Type: <b><a href="https://msdn.microsoft.com/2c2a6a68-179a-478b-bd86-c023a387601d">D3D10_SRV_DIMENSION</a></b>
+Type: <b><a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d10/ns-d3d10-d3d10_buffer_srv">D3D10_SRV_DIMENSION</a></b>
 
-Identifies the amount of data in the resource. See <a href="https://msdn.microsoft.com/2c2a6a68-179a-478b-bd86-c023a387601d">D3D10_SRV_DIMENSION</a>.
+Identifies the amount of data in the resource. See <a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d10/ns-d3d10-d3d10_buffer_srv">D3D10_SRV_DIMENSION</a>.
 
 
 ### -field NumSamples

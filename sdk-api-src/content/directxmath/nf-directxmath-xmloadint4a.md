@@ -52,7 +52,7 @@ ms.custom: 19H1
 Loads 16-byte aligned data into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>, without type checking.
 <div class="alert"><b>Note</b>  This function is provided for backward compatibility with the Xbox Math library. It is recommended that
   <b>XMLoadInt4A</b> be used when loading integer data and
-  <a href="https://msdn.microsoft.com/865dcc01-8b54-4d4e-831c-0bed7b358292">XMLoadFloat4A</a> be used when loading floating point data.</div><div> </div>
+  <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmloadfloat4a">XMLoadFloat4A</a> be used when loading floating point data.</div><div> </div>
 
 ## -parameters
 

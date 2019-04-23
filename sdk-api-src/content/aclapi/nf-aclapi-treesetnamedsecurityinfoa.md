@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>TreeSetNamedSecurityInfo</b> function sets specified security information in the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a> of a specified tree of objects. This function allows a specified  <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">discretionary access control list</a> (DACL) or any elements in the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">system access control list</a> (SACL) to be propagated throughout an entire tree. This function supports a callback function to track the progress of the tree operation.
+This version of this function is not supported. The wide character version of this function, [TreeSetNamedSecurityInfoW](https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-treesetnamedsecurityinfow), is supported.
 
 
 ## -parameters

@@ -86,7 +86,7 @@ A pointer to the <b>IDirectDrawSurface</b> interface for the attached surface.
 
 #### - lpDDSurfaceDesc [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/a88f37bc-b5c0-4bc1-b6ee-30923362c1ca">DDSURFACEDESC</a> structure that describes the attached surface.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550339">DDSURFACEDESC</a> structure that describes the attached surface.
 
 
 ## -returns

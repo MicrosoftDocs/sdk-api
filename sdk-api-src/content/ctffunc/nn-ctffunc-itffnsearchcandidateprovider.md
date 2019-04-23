@@ -118,7 +118,7 @@ Call <a href="https://msdn.microsoft.com/b320790a-4b54-4475-97e6-e59f083cfc09">G
 
 
 
-<a href="https://msdn.microsoft.com/7cb7c94c-1526-48e1-9ab0-068e03a462c7">SearchPaneQueryLinguisticDetails</a>
+<a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.search.searchpanequerylinguisticdetails">SearchPaneQueryLinguisticDetails</a>
  
 
  

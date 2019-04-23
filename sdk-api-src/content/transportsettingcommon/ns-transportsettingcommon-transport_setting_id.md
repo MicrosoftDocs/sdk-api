@@ -81,7 +81,7 @@ The only transport setting currently defines is for the <b>REAL_TIME_NOTIFICATIO
 
 
 
-<a href="https://msdn.microsoft.com/35cdf588-0f26-4c88-a898-e1d2ba8203ac">ControlChannelTrigger</a>
+<a href="https://docs.microsoft.com/en-us/uwp/api/windows.networking.sockets.controlchanneltrigger">ControlChannelTrigger</a>
 
 
 

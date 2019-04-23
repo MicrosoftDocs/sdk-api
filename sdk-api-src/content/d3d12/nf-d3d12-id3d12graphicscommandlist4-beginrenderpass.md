@@ -91,7 +91,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/6CFF2A67-F2F0-41F8-8BEC-D52003DE2767">EndRenderPass</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-endrenderpass">EndRenderPass</a>
 
 
 

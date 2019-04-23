@@ -109,7 +109,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/2388cde5-c5d2-457b-a2c0-5f58d901913d">XMMatrixOrthographicLH</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmmatrixorthographiclh">XMMatrixOrthographicLH</a>
  
 
  

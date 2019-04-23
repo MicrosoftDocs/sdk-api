@@ -53,7 +53,7 @@ Assigns the vector component data from one instance of <code>XMUDEC4</code> to t
 	instance of <code>XMUDEC4</code>.
     
 
-This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/CD99837B-7031-4609-B19F-785DD26773D0">XMUDEC4 
+This operator assigns the vector component data from one instance of <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudec4">XMUDEC4 
 	</a> to the current instance of <code>XMUDEC4</code>.
 <div class="alert"><b>Note</b>  This operator is only available under C++.
     </div><div> </div>

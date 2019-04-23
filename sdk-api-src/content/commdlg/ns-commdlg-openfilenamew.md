@@ -535,7 +535,7 @@ Type: <b>LPOFNHOOKPROC</b>
 
 A pointer to a hook procedure. This member is ignored unless the <b>Flags</b> member includes the <b>OFN_ENABLEHOOK</b> flag.
 
-If the <b>OFN_EXPLORER</b> flag is not set in the <b>Flags</b> member, <b>lpfnHook</b> is a pointer to an <a href="https://msdn.microsoft.com/ee551824-51f9-422d-9741-96248e3fc8cc">OFNHookProcOldStyle</a> hook procedure that receives messages intended for the dialog box. The hook procedure returns <b>FALSE</b> to pass a message to the default dialog box procedure or <b>TRUE</b> to discard the message.
+If the <b>OFN_EXPLORER</b> flag is not set in the <b>Flags</b> member, <b>lpfnHook</b> is a pointer to an <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms646932(v=vs.85).aspx">OFNHookProcOldStyle</a> hook procedure that receives messages intended for the dialog box. The hook procedure returns <b>FALSE</b> to pass a message to the default dialog box procedure or <b>TRUE</b> to discard the message.
 
 If <b>OFN_EXPLORER</b> is set, <b>lpfnHook</b> is a pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms646931(v=VS.85).aspx">OFNHookProc</a> hook procedure. The hook procedure receives notification messages sent from the dialog box. The hook procedure also receives messages for any additional controls that you defined by specifying a child dialog template. The hook procedure does not receive messages intended for the standard controls of the default dialog box.
 

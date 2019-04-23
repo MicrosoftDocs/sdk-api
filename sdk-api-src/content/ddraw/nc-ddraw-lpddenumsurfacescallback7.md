@@ -84,7 +84,7 @@ A pointer to the <a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f7
 
 #### - lpDDSurfaceDesc [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/507c557f-eb3a-429c-a738-8d715e5d71d3">DDSURFACEDESC2</a> structure that describes the attached surface.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550340">DDSURFACEDESC2</a> structure that describes the attached surface.
 
 
 ## -returns

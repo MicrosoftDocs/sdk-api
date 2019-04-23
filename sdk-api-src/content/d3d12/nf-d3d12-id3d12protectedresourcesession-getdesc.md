@@ -73,7 +73,7 @@ A <b>D3D12_PROTECTED_RESOURCE_SESSION_DESC</b> that describes the protected reso
 
 
 
-<a href="https://msdn.microsoft.com/9D4833DB-DF9E-46A8-9EF7-667A95F3EFDD">ID3D12ProtectedResourceSession</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/nn-d3d12-id3d12protectedresourcesession">ID3D12ProtectedResourceSession</a>
  
 
  

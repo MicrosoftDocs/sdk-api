@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Gets the index of the file (or logical) line of text that includes the specified character index  (text wrap delimiters are ignored). You can use this macro or send the <a href="https://msdn.microsoft.com/11A44A51-2E8F-4F34-BEA1-3EC2DB5830DD">EM_FILELINEFROMCHAR</a> message explicitly.
+Gets the index of the file (or logical) line of text that includes the specified character index  (text wrap delimiters are ignored). You can use this macro or send the <a href="https://docs.microsoft.com/en-us/windows/desktop/controls/em-filelinefromchar">EM_FILELINEFROMCHAR</a> message explicitly.
 
 
 ## -parameters

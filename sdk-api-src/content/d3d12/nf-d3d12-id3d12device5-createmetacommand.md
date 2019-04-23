@@ -89,14 +89,14 @@ A <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SIZE
 
 Type: <b>REFIID</b>
 
-A reference to the globally unique identifier (GUID) of the interface that you wish to be returned in <i>ppMetaCommand</i>. This is expected to be the GUID of <a href="https://msdn.microsoft.com/976A7F78-1801-47DD-9350-21F530B4D145">ID3D12MetaCommand</a>.
+A reference to the globally unique identifier (GUID) of the interface that you wish to be returned in <i>ppMetaCommand</i>. This is expected to be the GUID of <a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/nn-d3d12-id3d12metacommand">ID3D12MetaCommand</a>.
 
 
 ### -param ppMetaCommand [out]
 
 Type: <b>void**</b>
 
-A pointer to a memory block that receives a pointer to the meta command. This is the address of a pointer to an <a href="https://msdn.microsoft.com/976A7F78-1801-47DD-9350-21F530B4D145">ID3D12MetaCommand</a>, representing  the meta command created.
+A pointer to a memory block that receives a pointer to the meta command. This is the address of a pointer to an <a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/nn-d3d12-id3d12metacommand">ID3D12MetaCommand</a>, representing  the meta command created.
 
 
 ## -returns

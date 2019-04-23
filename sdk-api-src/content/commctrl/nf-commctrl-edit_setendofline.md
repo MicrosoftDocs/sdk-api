@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Sets the end of line character used for the content of the edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/122E7BEE-EAF1-4106-8C3F-4A9A52DB8151">EM_SETENDOFLINE</a> message explicitly. 
+Sets the end of line character used for the content of the edit control. You can use this macro or send the <a href="https://docs.microsoft.com/en-us/windows/desktop/controls/em-setendofline">EM_SETENDOFLINE</a> message explicitly. 
 
 
 ## -parameters

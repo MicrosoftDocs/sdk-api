@@ -102,7 +102,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/ff564017-6ce4-48b4-ac54-31b858b37e5f">XMScalarSinCosEst</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmscalarsincosest">XMScalarSinCosEst</a>
  
 
  

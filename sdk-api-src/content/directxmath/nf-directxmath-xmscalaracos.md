@@ -96,11 +96,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/7ad12f5a-0ab1-4d59-bdb3-ffe045abc2aa">XMScalarCos</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmscalarcos">XMScalarCos</a>
 
 
 
-<a href="https://msdn.microsoft.com/34995818-d89a-43c8-aa60-dae076ee2cd9">XMScalarCosEst</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmscalarcosest">XMScalarCosEst</a>
  
 
  

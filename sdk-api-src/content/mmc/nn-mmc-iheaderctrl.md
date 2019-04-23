@@ -76,7 +76,7 @@ The <b>IHeaderCtrl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2984b191-7a42-4778-b7a6-540d006253be">DeleteColumn</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/mmc/nf-mmc-iheaderctrl-deletecolumn">DeleteColumn</a>
 </td>
 <td align="left" width="63%">
 Removes a column.
@@ -85,7 +85,7 @@ Removes a column.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5f72c971-510a-4221-b14b-7a6b93b832bf">GetColumnText</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/mmc/nf-mmc-iheaderctrl-getcolumntext">GetColumnText</a>
 </td>
 <td align="left" width="63%">
 Retrieves the text from a specified column.
@@ -94,7 +94,7 @@ Retrieves the text from a specified column.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7db96a20-c864-4d05-b160-1c255ba2a40d">GetColumnWidth</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/mmc/nf-mmc-iheaderctrl-getcolumnwidth">GetColumnWidth</a>
 </td>
 <td align="left" width="63%">
 Retrieves the width of a specified column.
@@ -112,7 +112,7 @@ Adds a column to a default result view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/882ed195-3984-4eac-bb35-0d523574cd8d">SetColumnText</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/mmc/nf-mmc-iheaderctrl-setcolumntext">SetColumnText</a>
 </td>
 <td align="left" width="63%">
 Sets the text in a specified column.
@@ -121,7 +121,7 @@ Sets the text in a specified column.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d1e26540-54c0-49e5-bc72-048c1ae0efc4">SetColumnWidth</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/mmc/nf-mmc-iheaderctrl-setcolumnwidth">SetColumnWidth</a>
 </td>
 <td align="left" width="63%">
 Sets the width of a specified column.
