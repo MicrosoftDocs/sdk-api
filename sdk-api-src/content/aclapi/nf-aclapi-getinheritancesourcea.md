@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetInheritanceSource</b> function returns information about the source of inherited <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entries</a> (ACEs) in an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control list</a> (ACL).
+This version of this function is not supported. The wide character version of this function, [GetInheritanceSourceW](https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getinheritancesourcew), is supported.
 
 
 ## -parameters
