@@ -70,6 +70,37 @@ Index value that represents the location of a <a href="https://msdn.microsoft.co
 
 Specifies settings for  a time zone and dynamic daylight saving time.
 
+## -returns
+This function returns DWORD. Possible return values include:
+
+| Value                   | Description                                       | 
+|-------------------------|---------------------------------------------------|
+| ERROR_SUCCESS           | The operation succeeded.                          |
+| ERROR_NO_MORE_ITEMS     | No more data is available for the given index.    |
+| ERROR_INVALID_PARAMETER | A parameter is invalid.                           |
+| Any other value         | The operation failed.                             |     
+
+
+## -remarks
+
+The following example demonstrates looping through the potential timezones until **ERROR_NO_MORE_ITEMS** is returned, indicating that there are no more time zone entries in the registry.
+
+```cpp
+std::vector<std::wstring> possibleTimezones;
+DYNAMIC_TIME_ZONE_INFORMATION dynamicTimezone = {};
+DWORD dwResult = 0;
+DWORD i = 0;
+
+do
+{
+    dwResult = EnumDynamicTimeZoneInformation(i++, &dynamicTimezone);
+    if (dwResult == ERROR_SUCCESS)
+    {
+        possibleTimezones.push_back(dynamicTimezone);
+    }
+}
+while (dwResult != ERROR_NO_MORE_ITEMS);
+```              
 
 ## -see-also
 
