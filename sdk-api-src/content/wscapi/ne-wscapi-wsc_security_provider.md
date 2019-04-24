@@ -101,11 +101,12 @@ None of the items that WSC monitors.
 
 All of the items that the WSC monitors.
 
+## -remarks
+
+> [!NOTE]
+> [WSC_SECURITY_PROVIDER::WSC_SECURITY_PROVIDER_ANTISPYWARE](/windows/desktop/api/wscapi/ne-wscapi-wsc_security_provider) should be used only in operating systems prior to Windows 10, version 1607. As of Windows 10, version 1607, WSC continues to track the status for antivirus, but not for anti-spyware.
 
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/1193eba3-a01b-4ee3-a83d-25dcdbc15de0">WscGetSecurityProviderHealth</a>
  
