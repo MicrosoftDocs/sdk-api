@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR
-title: STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR (winioctl.h)
+title: STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR
 author: windows-sdk-content
 description: The STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure is one of the query result structures returned from an IOCTL_STORAGE_QUERY_PROPERTY request.
 old-location: fs\storage_physical_topology_descriptor.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, *PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR
 req.redist: 
-ms.custom: 19H1
 ---
 
 # STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure

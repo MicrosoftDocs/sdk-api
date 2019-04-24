@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._FILE_OBJECTID_BUFFER
-title: FILE_OBJECTID_BUFFER (winioctl.h)
+title: FILE_OBJECTID_BUFFER
 author: windows-sdk-content
 description: Contains an object identifier and user-defined metadata associated with the object identifier.
 old-location: fs\file_objectid_buffer_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_OBJECTID_BUFFER, *PFILE_OBJECTID_BUFFER
 req.redist: 
-ms.custom: 19H1
 ---
 
 # FILE_OBJECTID_BUFFER structure

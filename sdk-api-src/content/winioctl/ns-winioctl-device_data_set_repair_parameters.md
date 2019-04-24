@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DEVICE_DATA_SET_REPAIR_PARAMETERS
-title: DEVICE_DATA_SET_REPAIR_PARAMETERS (winioctl.h)
+title: DEVICE_DATA_SET_REPAIR_PARAMETERS
 author: windows-sdk-content
 description: Specifies parameters for the repair operation.
 old-location: base\device_data_set_repair_parameters.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: DEVICE_DATA_SET_REPAIR_PARAMETERS, *PDEVICE_DATA_SET_REPAIR_PARAMETERS, DEVICE_DSM_REPAIR_PARAMETERS, *PDEVICE_DSM_REPAIR_PARAMETERS
 req.redist: 
-ms.custom: 19H1
 ---
 
 # DEVICE_DATA_SET_REPAIR_PARAMETERS structure
@@ -52,7 +51,7 @@ ms.custom: 19H1
 Specifies parameters for the repair operation. A repair operation is 
     initiated by specifying <b>DeviceDsmAction_Repair</b> in the 
     <b>Action</b> member of the 
-    <a href="https://msdn.microsoft.com/en-us/library/Ee907416(v=VS.85).aspx">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+    <a href="https://msdn.microsoft.com/328902b7-97e3-40dc-9771-f5e64ccf3364">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> 
     structure passed in a 
     <a href="https://msdn.microsoft.com/48e797ec-dad2-4a9e-9ccd-aaa65ece8da4">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
     control code.
@@ -83,7 +82,7 @@ The copy numbers of all the copies that will be repaired.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee907416(v=VS.85).aspx">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/328902b7-97e3-40dc-9771-f5e64ccf3364">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 
 

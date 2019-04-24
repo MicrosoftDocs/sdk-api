@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._CHANGER_ELEMENT
-title: CHANGER_ELEMENT (winioctl.h)
+title: CHANGER_ELEMENT
 author: windows-sdk-content
 description: Represents a changer element.
 old-location: base\changer_element_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: CHANGER_ELEMENT, *PCHANGER_ELEMENT
 req.redist: 
-ms.custom: 19H1
 ---
 
 # CHANGER_ELEMENT structure

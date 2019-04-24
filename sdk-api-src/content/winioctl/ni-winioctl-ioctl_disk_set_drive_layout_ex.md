@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_SET_DRIVE_LAYOUT_EX
-title: IOCTL_DISK_SET_DRIVE_LAYOUT_EX (winioctl.h)
+title: IOCTL_DISK_SET_DRIVE_LAYOUT_EX
 author: windows-sdk-content
 description: Partitions a disk according to the specified drive layout and partition information data.
 old-location: fs\ioctl_disk_set_drive_layout_ex.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
 ---
 
 # IOCTL_DISK_SET_DRIVE_LAYOUT_EX IOCTL
@@ -53,19 +52,23 @@ Partitions a disk according to the specified drive layout and partition informat
 
 To perform this operation, call the 
 <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
-
-```cpp
-BOOL DeviceIoControl(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,               // handle to device
   IOCTL_DISK_SET_DRIVE_LAYOUT_EX, // dwIoControlCode(LPVOID) lpInBuffer,            // input buffer
   (DWORD) nInBufferSize,          // size of the input buffer
   NULL,                           // lpOutBuffer0,                              // nOutBufferSize 
   (LPDWORD) lpBytesReturned,      // number of bytes returned
   (LPOVERLAPPED) lpOverlapped     // OVERLAPPED structure
-);
-```
-
-
+);</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -ioctlparameters
 
@@ -145,7 +148,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 When specifying a <b>GUID</b> partition table (GPT) as the <a href="https://msdn.microsoft.com/254e4ea1-d0c8-4033-b8af-e5dbfb7c7da8">PARTITION_STYLE</a> of the <a href="https://msdn.microsoft.com/ec4a1ef9-ff2e-41b3-951b-241c545f256b">CREATE_DISK</a> structure, an application should wait for the MSR partition arrival before sending the <b>IOCTL_DISK_SET_DRIVE_LAYOUT_EX</b> control code. For more information about device notification, see <a href="https://msdn.microsoft.com/82094d95-9af3-4222-9c5e-ce2df9bab5e3">RegisterDeviceNotification</a>.
 
-When creating and manipulating an Extended Boot Record (EBR), the first entry of the EBR should point to the logical drive that immediately follows the EBR and the next EBR should lie after the end of the current logical drive and before the start of the next logical drive. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=145245">Disk Concepts and Troubleshooting</a>.
+When creating and manipulating an Extended Boot Record (EBR), the first entry of the EBR should point to the logical drive that immediately follows the EBR and the next EBR should lie after the end of the current logical drive and before the start of the next logical drive.
 
 If the partition is on a disk formatted as type master boot record (MBR), partition size totals are limited. For more information, see the Remarks section of <a href="https://msdn.microsoft.com/8cace6a5-666a-4d35-a557-6bf0564dbe58">IOCTL_DISK_SET_DRIVE_LAYOUT</a>.
 

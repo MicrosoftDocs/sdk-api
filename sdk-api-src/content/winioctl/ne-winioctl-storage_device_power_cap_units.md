@@ -1,6 +1,6 @@
 ---
 UID: NE:winioctl._STORAGE_DEVICE_POWER_CAP_UNITS
-title: STORAGE_DEVICE_POWER_CAP_UNITS (winioctl.h)
+title: STORAGE_DEVICE_POWER_CAP_UNITS
 author: windows-sdk-content
 description: The units of the maximum power threshold.
 old-location: fs\storage_device_power_cap_units.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_POWER_CAP_UNITS, *PSTORAGE_DEVICE_POWER_CAP_UNITS
 req.redist: 
-ms.custom: 19H1
 ---
 
 # STORAGE_DEVICE_POWER_CAP_UNITS enumeration

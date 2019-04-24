@@ -1,6 +1,6 @@
 ---
 UID: NE:winioctl._STORAGE_PROTOCOL_TYPE
-title: STORAGE_PROTOCOL_TYPE (winioctl.h)
+title: STORAGE_PROTOCOL_TYPE
 author: windows-sdk-content
 description: Specifies the protocol of a storage device.
 old-location: fs\storage_protocol_type.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_PROTOCOL_TYPE, *PSTORAGE_PROTOCOL_TYPE
 req.redist: 
-ms.custom: 19H1
 ---
 
 # STORAGE_PROTOCOL_TYPE enumeration

@@ -1,6 +1,6 @@
 ---
 UID: NE:winioctl._STORAGE_MEDIA_TYPE
-title: STORAGE_MEDIA_TYPE (winioctl.h)
+title: STORAGE_MEDIA_TYPE
 author: windows-sdk-content
 description: Specifies various types of storage media.
 old-location: base\storage_media_type.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_MEDIA_TYPE, *PSTORAGE_MEDIA_TYPE
 req.redist: 
-ms.custom: 19H1
 ---
 
 # STORAGE_MEDIA_TYPE enumeration
@@ -394,7 +393,7 @@ STK 9840.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540712(v=VS.85).aspx">NTMS_MEDIATYPEINFORMATION</a>
+<a href="base.ntms_mediatypeinformation">NTMS_MEDIATYPEINFORMATION</a>
  
 
  

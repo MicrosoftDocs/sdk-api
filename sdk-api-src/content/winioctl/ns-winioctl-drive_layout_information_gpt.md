@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DRIVE_LAYOUT_INFORMATION_GPT
-title: DRIVE_LAYOUT_INFORMATION_GPT (winioctl.h)
+title: DRIVE_LAYOUT_INFORMATION_GPT
 author: windows-sdk-content
 description: Contains information about a drive's GUID partition table (GPT) partitions.
 old-location: fs\drive_layout_information_gpt_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: DRIVE_LAYOUT_INFORMATION_GPT, *PDRIVE_LAYOUT_INFORMATION_GPT
 req.redist: 
-ms.custom: 19H1
 ---
 
 # DRIVE_LAYOUT_INFORMATION_GPT structure

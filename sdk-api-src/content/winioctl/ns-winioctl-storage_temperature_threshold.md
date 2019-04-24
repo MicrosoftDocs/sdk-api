@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_TEMPERATURE_THRESHOLD
-title: STORAGE_TEMPERATURE_THRESHOLD (winioctl.h)
+title: STORAGE_TEMPERATURE_THRESHOLD
 author: windows-sdk-content
 description: This structure is used to set the over or under temperature threshold of a storage device (via IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD).
 old-location: fs\storage_temperature_threshold.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_TEMPERATURE_THRESHOLD, *PSTORAGE_TEMPERATURE_THRESHOLD
 req.redist: 
-ms.custom: 19H1
 ---
 
 # STORAGE_TEMPERATURE_THRESHOLD structure

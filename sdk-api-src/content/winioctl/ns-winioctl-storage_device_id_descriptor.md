@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_DEVICE_ID_DESCRIPTOR
-title: STORAGE_DEVICE_ID_DESCRIPTOR (winioctl.h)
+title: STORAGE_DEVICE_ID_DESCRIPTOR
 author: windows-sdk-content
 description: Used with the IOCTL_STORAGE_QUERY_PROPERTY control code request to retrieve the device ID descriptor data for a device.
 old-location: fs\storage_device_id_descriptor.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_ID_DESCRIPTOR, *PSTORAGE_DEVICE_ID_DESCRIPTOR
 req.redist: 
-ms.custom: 19H1
 ---
 
 # STORAGE_DEVICE_ID_DESCRIPTOR structure

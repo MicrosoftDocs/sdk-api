@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._REPAIR_COPIES_OUTPUT
-title: REPAIR_COPIES_OUTPUT (winioctl.h)
+title: REPAIR_COPIES_OUTPUT
 author: windows-sdk-content
 description: Contains output of a repair copies operation returned from the FSCTL_REPAIR_COPIES control code.
 old-location: fs\repair_copies_output.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: REPAIR_COPIES_OUTPUT, *PREPAIR_COPIES_OUTPUT
 req.redist: 
-ms.custom: 19H1
 ---
 
 # REPAIR_COPIES_OUTPUT structure

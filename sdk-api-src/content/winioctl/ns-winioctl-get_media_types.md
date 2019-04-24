@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._GET_MEDIA_TYPES
-title: GET_MEDIA_TYPES (winioctl.h)
+title: GET_MEDIA_TYPES
 author: windows-sdk-content
 description: Contains information about the media types supported by a device.
 old-location: base\get_media_types_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: GET_MEDIA_TYPES, *PGET_MEDIA_TYPES
 req.redist: 
-ms.custom: 19H1
 ---
 
 # GET_MEDIA_TYPES structure

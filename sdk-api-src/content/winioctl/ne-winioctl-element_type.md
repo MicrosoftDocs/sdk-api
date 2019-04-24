@@ -1,6 +1,6 @@
 ---
 UID: NE:winioctl._ELEMENT_TYPE
-title: ELEMENT_TYPE (winioctl.h)
+title: ELEMENT_TYPE
 author: windows-sdk-content
 description: Specifies the element type of a changer device.
 old-location: base\element_type_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
 req.redist: 
-ms.custom: 19H1
 ---
 
 # ELEMENT_TYPE enumeration

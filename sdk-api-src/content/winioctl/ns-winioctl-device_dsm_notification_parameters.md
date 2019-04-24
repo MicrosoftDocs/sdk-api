@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DEVICE_DSM_NOTIFICATION_PARAMETERS
-title: DEVICE_DSM_NOTIFICATION_PARAMETERS (winioctl.h)
+title: DEVICE_DSM_NOTIFICATION_PARAMETERS
 author: windows-sdk-content
 description: Contains parameters for the DeviceDsmAction_Notification action for the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
 old-location: base\device_dsm_notification_parameters.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: DEVICE_DSM_NOTIFICATION_PARAMETERS, *PDEVICE_DSM_NOTIFICATION_PARAMETERS
 req.redist: 
-ms.custom: 19H1
 ---
 
 # DEVICE_DSM_NOTIFICATION_PARAMETERS structure
@@ -83,7 +82,7 @@ Flags specific to the notify operation
 <td width="60%">
 The ranges specified in the 
         <a href="https://msdn.microsoft.com/5eea412e-ea16-4f47-ac69-46b543069eae">DEVICE_DATA_SET_RANGE</a> structures following the 
-        <a href="https://msdn.microsoft.com/en-us/library/Ee907416(v=VS.85).aspx">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+        <a href="https://msdn.microsoft.com/328902b7-97e3-40dc-9771-f5e64ccf3364">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> 
         structure are currently being used by the file types that are specified in the 
         <b>FileTypeIDs</b> member.
 
@@ -162,7 +161,7 @@ Specifies a notification operation for a system crash dump file.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee907416(v=VS.85).aspx">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/328902b7-97e3-40dc-9771-f5e64ccf3364">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 
 

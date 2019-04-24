@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._VOLUME_GET_GPT_ATTRIBUTES_INFORMATION
-title: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION (winioctl.h)
+title: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION
 author: windows-sdk-content
 description: Contains volume attributes retrieved with the IOCTL_VOLUME_GET_GPT_ATTRIBUTES control code.
 old-location: fs\volume_get_gpt_attributes_information.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
 req.redist: 
-ms.custom: 19H1
 ---
 
 # VOLUME_GET_GPT_ATTRIBUTES_INFORMATION structure

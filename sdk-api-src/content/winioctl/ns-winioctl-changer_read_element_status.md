@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._CHANGER_READ_ELEMENT_STATUS
-title: CHANGER_READ_ELEMENT_STATUS (winioctl.h)
+title: CHANGER_READ_ELEMENT_STATUS
 author: windows-sdk-content
 description: Contains information that the IOCTL_CHANGER_GET_ELEMENT_STATUS control code needs to determine the elements whose status is to be retrieved.
 old-location: base\changer_read_element_status_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: CHANGER_READ_ELEMENT_STATUS, *PCHANGER_READ_ELEMENT_STATUS
 req.redist: 
-ms.custom: 19H1
 ---
 
 # CHANGER_READ_ELEMENT_STATUS structure

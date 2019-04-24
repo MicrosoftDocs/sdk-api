@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS
-title: DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS (winioctl.h)
+title: DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS
 author: windows-sdk-content
 description: Specifies parameters for the offload write operation.
 old-location: base\device_dsm_offload_write_parameters.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, *PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS
 req.redist: 
-ms.custom: 19H1
 ---
 
 # DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure
@@ -52,7 +51,7 @@ ms.custom: 19H1
 Specifies parameters for the offload write operation. An offload write operation is 
     initiated by specifying <b>DeviceDsmAction_OffloadWrite</b> in the 
     <b>Action</b> member of the 
-    <a href="https://msdn.microsoft.com/en-us/library/Ee907416(v=VS.85).aspx">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+    <a href="https://msdn.microsoft.com/328902b7-97e3-40dc-9771-f5e64ccf3364">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> 
     structure passed in a 
     <a href="https://msdn.microsoft.com/48e797ec-dad2-4a9e-9ccd-aaa65ece8da4">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
     control code.
@@ -90,7 +89,7 @@ The starting offset to copy from the range bound to the token
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee907416(v=VS.85).aspx">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/328902b7-97e3-40dc-9771-f5e64ccf3364">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 
 

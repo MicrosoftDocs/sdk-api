@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DISK_INT13_INFO
-title: DISK_INT13_INFO (winioctl.h)
+title: DISK_INT13_INFO
 author: windows-sdk-content
 description: Contains standard Int13 drive geometry parameters.
 old-location: fs\disk_int13_info_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: DISK_INT13_INFO, *PDISK_INT13_INFO
 req.redist: 
-ms.custom: 19H1
 ---
 
 # DISK_INT13_INFO structure

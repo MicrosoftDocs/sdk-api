@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._BOOT_AREA_INFO
-title: BOOT_AREA_INFO (winioctl.h)
+title: BOOT_AREA_INFO
 author: windows-sdk-content
 description: Contains the output for the FSCTL_GET_BOOT_AREA_INFO control code.
 old-location: fs\boot_area_info.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: BOOT_AREA_INFO, *PBOOT_AREA_INFO
 req.redist: 
-ms.custom: 19H1
 ---
 
 # BOOT_AREA_INFO structure

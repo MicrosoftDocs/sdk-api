@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl.__unnamed_struct_21
-title: USN_RANGE_TRACK_OUTPUT (winioctl.h)
+title: USN_RANGE_TRACK_OUTPUT
 author: windows-sdk-content
 description: Contains returned update sequence number (USN) from FSCTL_USN_TRACK_MODIFIED_RANGES control code.
 old-location: fs\usn_range_track_output.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: USN_RANGE_TRACK_OUTPUT, *PUSN_RANGE_TRACK_OUTPUT
 req.redist: 
-ms.custom: 19H1
 ---
 
 # USN_RANGE_TRACK_OUTPUT structure

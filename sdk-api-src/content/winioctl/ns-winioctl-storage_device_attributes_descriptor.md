@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
-title: STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR (winioctl.h)
+title: STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
 author: windows-sdk-content
 description: Reserved for future use.
 old-location: fs\storage_device_attributes_descriptor.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, *PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
 req.redist: 
-ms.custom: 19H1
 ---
 
 # STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure

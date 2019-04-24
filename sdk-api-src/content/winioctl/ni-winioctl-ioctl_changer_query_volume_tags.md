@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_CHANGER_QUERY_VOLUME_TAGS
-title: IOCTL_CHANGER_QUERY_VOLUME_TAGS (winioctl.h)
+title: IOCTL_CHANGER_QUERY_VOLUME_TAGS
 author: windows-sdk-content
 description: Retrieves the volume tag information for the specified elements.
 old-location: base\ioctl_changer_query_volume_tags.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
 ---
 
 # IOCTL_CHANGER_QUERY_VOLUME_TAGS IOCTL
@@ -53,9 +52,13 @@ Retrieves the volume tag information for the specified elements.
 
 To perform this operation, call the 
 <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
-
-```cpp
-BOOL DeviceIoControl(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,                // handle to device
   IOCTL_CHANGER_QUERY_VOLUME_TAGS, // dwIoControlCode(LPVOID) lpInBuffer,             // input buffer
   (DWORD) nInBufferSize,           // size of input buffer
@@ -63,10 +66,10 @@ BOOL DeviceIoControl(
   (DWORD) nOutBufferSize,          // size of output buffer
   (LPDWORD) lpBytesReturned,       // number of bytes returned
   (LPOVERLAPPED) lpOverlapped      // OVERLAPPED structure
-);
-```
-
-
+);</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -ioctlparameters
 
@@ -145,7 +148,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363175(v=VS.85).aspx">CHANGER_SEND_VOLUME_TAG_INFORMATION</a>
+<a href="https://msdn.microsoft.com/96148983-48be-466d-be7f-c1dbf6910c20">CHANGER_SEND_VOLUME_TAG_INFORMATION</a>
 
 
 

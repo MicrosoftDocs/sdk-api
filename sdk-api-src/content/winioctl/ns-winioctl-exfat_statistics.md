@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._EXFAT_STATISTICS
-title: EXFAT_STATISTICS (winioctl.h)
+title: EXFAT_STATISTICS
 author: windows-sdk-content
 description: Contains statistical information from the exFAT file system.
 old-location: fs\exfat_statistics.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: EXFAT_STATISTICS, *PEXFAT_STATISTICS
 req.redist: 
-ms.custom: 19H1
 ---
 
 # EXFAT_STATISTICS structure

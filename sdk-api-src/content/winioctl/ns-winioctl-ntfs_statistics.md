@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._NTFS_STATISTICS
-title: NTFS_STATISTICS (winioctl.h)
+title: NTFS_STATISTICS
 author: windows-sdk-content
 description: Contains statistical information from the NTFS file system.
 old-location: fs\ntfs_statistics_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: NTFS_STATISTICS, *PNTFS_STATISTICS
 req.redist: 
-ms.custom: 19H1
 ---
 
 # NTFS_STATISTICS structure
@@ -435,7 +434,7 @@ For additional statistics that are only available with Windows 10, use <a href=
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644905(v=VS.85).aspx">QueryPerformanceFrequency</a>
+<a href="https://msdn.microsoft.com/f69367a4-0516-4033-81e3-90d4c5270a1e">QueryPerformanceFrequency</a>
  
 
  

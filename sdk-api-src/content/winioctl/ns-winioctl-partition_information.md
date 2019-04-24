@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._PARTITION_INFORMATION
-title: PARTITION_INFORMATION (winioctl.h)
+title: PARTITION_INFORMATION
 author: windows-sdk-content
 description: Contains information about a disk partition.
 old-location: fs\partition_information_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: PARTITION_INFORMATION, *PPARTITION_INFORMATION
 req.redist: 
-ms.custom: 19H1
 ---
 
 # PARTITION_INFORMATION structure

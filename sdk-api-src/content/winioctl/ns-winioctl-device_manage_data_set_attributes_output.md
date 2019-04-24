@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
-title: DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT (winioctl.h)
+title: DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
 author: windows-sdk-content
 description: Output structure for the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
 old-location: base\device_manage_data_set_attributes_output.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, DEVICE_DSM_OUTPUT, *PDEVICE_DSM_OUTPUT
 req.redist: 
-ms.custom: 19H1
 ---
 
 # DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure
@@ -135,7 +134,7 @@ An offload write action is performed. The output described by the
 </td>
 <td width="60%">
 An allocation bitmap is returned for the first data set range passed in. The output is in a 
-         <a href="https://msdn.microsoft.com/en-us/library/Hh404245(v=VS.85).aspx">DEVICE_DATA_SET_LB_PROVISIONING_STATE</a> 
+         <a href="https://msdn.microsoft.com/757ffd97-2a00-4508-817c-0bfb2f2e3a84">DEVICE_DATA_SET_LB_PROVISIONING_STATE</a> 
          structure. The <b>DeviceDsmActionFlag_NonDestructive</b> (0x80000000) is a bit flag to 
          indicate to the driver stack that this operation is non-destructive.
 

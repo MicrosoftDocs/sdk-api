@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_PROTOCOL_COMMAND
-title: IOCTL_STORAGE_PROTOCOL_COMMAND (winioctl.h)
+title: IOCTL_STORAGE_PROTOCOL_COMMAND
 author: windows-sdk-content
 description: Windows applications can use this control code to return properties of a storage device or adapter. The request indicates the kind of information to retrieve, such as inquiry data for a device or capabilities and limitations of an adapter.
 old-location: fs\ioctl_storage_protocol_command.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
 ---
 
 # IOCTL_STORAGE_PROTOCOL_COMMAND IOCTL
@@ -59,9 +58,13 @@ Usually, the caller is a storage class driver, but the caller can be an applicat
 
 To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
    function with the following parameters.
-
-```cpp
-BOOL 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL 
    WINAPI 
    DeviceIoControl( (HANDLE)       hDevice,         // handle to device
                     (DWORD)        IOCTL_STORAGE_QUERY_PROPERTY, // dwIoControlCode(LPDWORD)      lpInBuffer,      // input buffer
@@ -69,10 +72,10 @@ BOOL
                     (LPDWORD)      lpOutBuffer,     // output buffer
                     (DWORD)        nOutBufferSize,  // size of output buffer
                     (LPDWORD)      lpBytesReturned, // number of bytes returned
-                    (LPOVERLAPPED) lpOverlapped );  // OVERLAPPED structure
-```
-
-
+                    (LPOVERLAPPED) lpOverlapped );  // OVERLAPPED structure</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -ioctlparameters
 

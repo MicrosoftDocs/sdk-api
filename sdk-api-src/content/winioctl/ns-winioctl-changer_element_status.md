@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._CHANGER_ELEMENT_STATUS
-title: CHANGER_ELEMENT_STATUS (winioctl.h)
+title: CHANGER_ELEMENT_STATUS
 author: windows-sdk-content
 description: Represents the status of the specified element.
 old-location: base\changer_element_status_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: CHANGER_ELEMENT_STATUS, *PCHANGER_ELEMENT_STATUS
 req.redist: 
-ms.custom: 19H1
 ---
 
 # CHANGER_ELEMENT_STATUS structure

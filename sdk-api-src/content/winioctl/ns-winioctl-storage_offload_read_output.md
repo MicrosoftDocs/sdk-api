@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_OFFLOAD_READ_OUTPUT
-title: STORAGE_OFFLOAD_READ_OUTPUT (winioctl.h)
+title: STORAGE_OFFLOAD_READ_OUTPUT
 author: windows-sdk-content
 description: Output structure for the DeviceDsmAction_OffloadRead action of the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
 old-location: base\storage_offload_read_output.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_OFFLOAD_READ_OUTPUT, *PSTORAGE_OFFLOAD_READ_OUTPUT
 req.redist: 
-ms.custom: 19H1
 ---
 
 # STORAGE_OFFLOAD_READ_OUTPUT structure
@@ -114,11 +113,11 @@ A <a href="https://msdn.microsoft.com/e33550d6-8d98-4fbb-8e61-d309f0e8e867">STOR
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404251(v=VS.85).aspx">DEVICE_DSM_OFFLOAD_READ_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/20dd3e5b-90f4-45fc-8cc8-bf9e6d08a026">DEVICE_DSM_OFFLOAD_READ_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404255(v=VS.85).aspx">DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT</a>
+<a href="https://msdn.microsoft.com/a3f03509-8be9-4cb4-b942-f5ab358bd70e">DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT</a>
 
 
 

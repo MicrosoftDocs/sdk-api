@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._TXFS_MODIFY_RM
-title: TXFS_MODIFY_RM (winioctl.h)
+title: TXFS_MODIFY_RM
 author: windows-sdk-content
 description: Contains the information required when modifying log parameters and logging mode for a secondary resource manager.
 old-location: fs\txfs_modify_rm.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: TXFS_MODIFY_RM, *PTXFS_MODIFY_RM
 req.redist: 
-ms.custom: 19H1
 ---
 
 # TXFS_MODIFY_RM structure
@@ -276,8 +275,8 @@ This flag is only valid for default RMs, not secondary RMs. If this flag is set,
 </td>
 <td width="60%">
 Indicates that the RM is to prefer transaction 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa365003(v=VS.85).aspx">consistency</a> over system 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa365003(v=VS.85).aspx">availability</a>. This flag is mutually exclusive with 
+        <a href="glossary.htm">consistency</a> over system 
+        <a href="glossary.htm">availability</a>. This flag is mutually exclusive with 
         <b>TXFS_RM_FLAG_PREFER_AVAILABILITY</b> and is not supported by the default RM on the 
         system volume.
 
@@ -291,8 +290,8 @@ Indicates that the RM is to prefer transaction
 </td>
 <td width="60%">
 Indicates that the RM is to prefer system 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa365003(v=VS.85).aspx">availability</a> over transaction 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa365003(v=VS.85).aspx">consistency</a>. This flag is mutually exclusive with 
+        <a href="glossary.htm">availability</a> over transaction 
+        <a href="glossary.htm">consistency</a>. This flag is mutually exclusive with 
         <b>TXFS_RM_FLAG_PREFER_CONSISTENCY</b> and is forced by the default RM on the system 
         volume.
 

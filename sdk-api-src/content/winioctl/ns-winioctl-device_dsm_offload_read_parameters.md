@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DEVICE_DSM_OFFLOAD_READ_PARAMETERS
-title: DEVICE_DSM_OFFLOAD_READ_PARAMETERS (winioctl.h)
+title: DEVICE_DSM_OFFLOAD_READ_PARAMETERS
 author: windows-sdk-content
 description: Contains parameters for the DeviceDsmAction_OffloadRead action for the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
 old-location: base\device_dsm_offload_read_parameters.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: DEVICE_DSM_OFFLOAD_READ_PARAMETERS, *PDEVICE_DSM_OFFLOAD_READ_PARAMETERS
 req.redist: 
-ms.custom: 19H1
 ---
 
 # DEVICE_DSM_OFFLOAD_READ_PARAMETERS structure
@@ -79,7 +78,7 @@ Set to 0.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee907416(v=VS.85).aspx">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/328902b7-97e3-40dc-9771-f5e64ccf3364">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 
 

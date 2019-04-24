@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._FAT_STATISTICS
-title: FAT_STATISTICS (winioctl.h)
+title: FAT_STATISTICS
 author: windows-sdk-content
 description: Contains statistical information from the FAT file system.
 old-location: fs\fat_statistics_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: FAT_STATISTICS, *PFAT_STATISTICS
 req.redist: 
-ms.custom: 19H1
 ---
 
 # FAT_STATISTICS structure

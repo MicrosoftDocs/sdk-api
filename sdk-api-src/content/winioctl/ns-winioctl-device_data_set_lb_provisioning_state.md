@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DEVICE_DATA_SET_LB_PROVISIONING_STATE
-title: DEVICE_DATA_SET_LB_PROVISIONING_STATE (winioctl.h)
+title: DEVICE_DATA_SET_LB_PROVISIONING_STATE
 author: windows-sdk-content
 description: Output structure for the DeviceDsmAction_Allocation action of the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
 old-location: base\device_data_set_lb_provisioning_state.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: DEVICE_DATA_SET_LB_PROVISIONING_STATE, *PDEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DSM_ALLOCATION_OUTPUT, *PDEVICE_DSM_ALLOCATION_OUTPUT
 req.redist: 
-ms.custom: 19H1
 ---
 
 # DEVICE_DATA_SET_LB_PROVISIONING_STATE structure
@@ -77,7 +76,7 @@ The size of a slab, in bytes.
 ### -field SlabOffsetDeltaInBytes
 
 If the range specified is not aligned to the <b>OptimalUnmapGranularity</b> as returned 
-      in <a href="https://msdn.microsoft.com/en-us/library/Hh449432(v=VS.85).aspx">DEVICE_LB_PROVISIONING_DESCRIPTOR</a> 
+      in <a href="https://msdn.microsoft.com/dbc46b33-9e9d-4ccf-9bc9-1df70738fa73">DEVICE_LB_PROVISIONING_DESCRIPTOR</a> 
       structure then the data represented in the <b>SlabAllocationBitMap</b> is offset from the 
       specified range by this amount.
 
@@ -102,12 +101,12 @@ The allocation bitmap containing one bit for each slab. If a bit is set then the
 
 
 Provisioning state information is returned when the <b>Action</b> member of the 
-     <a href="https://msdn.microsoft.com/en-us/library/Ee907416(v=VS.85).aspx">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+     <a href="https://msdn.microsoft.com/328902b7-97e3-40dc-9771-f5e64ccf3364">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> 
      structure is set to <b>DeviceDsmAction_Allocation</b>. The caller should include only one data 
      set range in the system buffer at <b>DataSetRangesOffset</b>.
 
 On return, the system buffer contains a 
-     <a href="https://msdn.microsoft.com/en-us/library/Hh404255(v=VS.85).aspx">DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT</a> 
+     <a href="https://msdn.microsoft.com/a3f03509-8be9-4cb4-b942-f5ab358bd70e">DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT</a> 
      structure followed by the 
      <b>DEVICE_DATA_SET_LB_PROVISIONING_STATE</b> 
      structure. The 
@@ -126,7 +125,7 @@ Space for <b>SlabAllocationBitMap</b> should be allocated based on the number of
      <code>(number_of_slabs / 32) + ((number_of_slabs MOD 32) &gt; 0 ? 1 : 0)</code>.
 
 Slab size is determined by the <b>OptimalUnmapGranularity</b> member of 
-     the <a href="https://msdn.microsoft.com/en-us/library/Hh449432(v=VS.85).aspx">DEVICE_LB_PROVISIONING_DESCRIPTOR</a> 
+     the <a href="https://msdn.microsoft.com/dbc46b33-9e9d-4ccf-9bc9-1df70738fa73">DEVICE_LB_PROVISIONING_DESCRIPTOR</a> 
      structure returned from an 
      <a href="https://msdn.microsoft.com/6755dcd4-e4a0-423f-9dcc-b9719c8e5c88">IOCTL_STORAGE_QUERY_PROPERTY</a> 
      control code. The length of the data set range provided should be a multiple of 
@@ -157,7 +156,7 @@ If the requested slab size is too large (for example if it is larger than the ma
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449432(v=VS.85).aspx">DEVICE_LB_PROVISIONING_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/dbc46b33-9e9d-4ccf-9bc9-1df70738fa73">DEVICE_LB_PROVISIONING_DESCRIPTOR</a>
 
 
 

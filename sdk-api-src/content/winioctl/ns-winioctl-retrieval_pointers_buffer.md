@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl.RETRIEVAL_POINTERS_BUFFER
-title: RETRIEVAL_POINTERS_BUFFER (winioctl.h)
+title: RETRIEVAL_POINTERS_BUFFER
 author: windows-sdk-content
 description: Contains the output for the FSCTL_GET_RETRIEVAL_POINTERS control code.
 old-location: fs\retrieval_pointers_buffer_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: RETRIEVAL_POINTERS_BUFFER, *PRETRIEVAL_POINTERS_BUFFER
 req.redist: 
-ms.custom: 19H1
 ---
 
 # RETRIEVAL_POINTERS_BUFFER structure

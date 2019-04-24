@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._PLEX_READ_DATA_REQUEST
-title: PLEX_READ_DATA_REQUEST (winioctl.h)
+title: PLEX_READ_DATA_REQUEST
 author: windows-sdk-content
 description: Indicates the range of the read operation to perform and the plex from which to read.
 old-location: fs\plex_read_data_request_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: PLEX_READ_DATA_REQUEST, *PPLEX_READ_DATA_REQUEST
 req.redist: 
-ms.custom: 19H1
 ---
 
 # PLEX_READ_DATA_REQUEST structure

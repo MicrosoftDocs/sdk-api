@@ -1,0 +1,250 @@
+---
+UID: NI:winioctl.FSCTL_EXTEND_VOLUME
+title: FSCTL_EXTEND_VOLUME
+author: windows-sdk-content
+description: Increases the size of a mounted volume.
+old-location: fs\fsctl_extend_volume.htm
+tech.root: FileIO
+ms.assetid: b941c5c8-39b4-4a5d-93e9-acbde7177d44
+ms.author: windowssdkdev
+ms.date: 12/05/2018
+ms.keywords: FSCTL_EXTEND_VOLUME, FSCTL_EXTEND_VOLUME control, FSCTL_EXTEND_VOLUME control code [Files], base.fsctl_extend_volume, fs.fsctl_extend_volume, winioctl/FSCTL_EXTEND_VOLUME
+ms.topic: ioctl
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_EXTEND_VOLUME
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# FSCTL_EXTEND_VOLUME IOCTL
+
+
+## -description
+
+
+Increases the size of a mounted volume.
+
+To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
+    function with the following parameters.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL DeviceIoControl(
+  (HANDLE) hDevice,           // handle to device
+  FSCTL_EXTEND_VOLUME,        // dwIoControlCode
+  (LPVOID) lpInBuffer,        // input buffer
+  (DWORD) nInBufferSize,      // size of input buffer
+  NULL,                       // lpOutBuffer
+  0,                          // nOutBufferSize
+  (LPDWORD) lpBytesReturned,  // number of bytes returned
+  (LPOVERLAPPED) lpOverlapped // OVERLAPPED structure
+);</pre>
+</td>
+</tr>
+</table></span></div>
+
+## -ioctlparameters
+
+
+
+
+### -input-buffer
+
+
+
+<text></text>
+
+
+
+
+### -input-buffer-length
+
+
+
+<text></text>
+
+
+
+
+### -output-buffer
+
+
+
+<text></text>
+
+
+
+
+### -output-buffer-length
+
+
+
+<text></text>
+
+
+
+
+### -in-out-buffer
+
+
+
+<text></text>
+
+
+
+
+### -inout-buffer-length
+
+
+
+<text></text>
+
+
+
+
+### -status-block
+
+
+
+Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
+
+Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
+
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+
+
+
+
+## -remarks
+
+
+
+This control code is supported on NTFS, RAW, and ReFS file systems.
+
+This control code cannot be used to reduce the size of a volume. The new volume size must be at least one 
+    cluster larger than the previous volume size. The underlying partition must have enough sectors to contain the 
+    extended volume. If not, <a href="https://msdn.microsoft.com/bbcb0bee-a507-4abb-83df-328f3aa6caaa">IOCTL_DISK_GROW_PARTITION</a> can be used if the underlying device has enough space available.
+
+You can extend a live volume, and the volume can be open for sharing during the extend operation.
+
+You do not need to lock a volume that you are extending, nor do you need to shut down other applications or 
+    services during the extend operation.
+
+In Windows 8 and Windows Server 2012, this code is supported by the following technologies.
+
+<table>
+<tr>
+<th>Technology</th>
+<th>Supported</th>
+</tr>
+<tr>
+<td>
+Server Message Block (SMB) 3.0 protocol
+
+</td>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<td>
+SMB 3.0 Transparent Failover (TFO)
+
+</td>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<td>
+SMB 3.0 with Scale-out File Shares (SO)
+
+</td>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<td>
+Cluster Shared Volume File System (CsvFS)
+
+</td>
+<td>
+Yes
+
+</td>
+</tr>
+<tr>
+<td>
+Resilient File System (ReFS)
+
+</td>
+<td>
+Yes
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/cf545417-f933-4054-bed4-e6adbf822f9c">FSCTL_SHRINK_VOLUME</a>
+
+
+
+<a href="https://msdn.microsoft.com/bbcb0bee-a507-4abb-83df-328f3aa6caaa">IOCTL_DISK_GROW_PARTITION</a>
+
+
+
+<a href="https://msdn.microsoft.com/87f39e1c-3ebf-4c6f-a842-699ec3c45e76">Volume Management Control Codes</a>
+ 
+
+ 
+

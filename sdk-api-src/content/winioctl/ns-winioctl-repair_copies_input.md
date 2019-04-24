@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._REPAIR_COPIES_INPUT
-title: REPAIR_COPIES_INPUT (winioctl.h)
+title: REPAIR_COPIES_INPUT
 author: windows-sdk-content
 description: Input structure for the FSCTL_REPAIR_COPIES control code.
 old-location: fs\repair_copies_input.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: REPAIR_COPIES_INPUT, *PREPAIR_COPIES_INPUT
 req.redist: 
-ms.custom: 19H1
 ---
 
 # REPAIR_COPIES_INPUT structure

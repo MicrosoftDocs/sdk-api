@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_PROTOCOL_DATA_DESCRIPTOR
-title: STORAGE_PROTOCOL_DATA_DESCRIPTOR (winioctl.h)
+title: STORAGE_PROTOCOL_DATA_DESCRIPTOR
 author: windows-sdk-content
 description: This structure is used in conjunction with IOCTL_STORAGE_QUERY_PROPERTY to return protocol-specific data from a storage device or adapter.
 old-location: fs\storage_protocol_data_descriptor.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_PROTOCOL_DATA_DESCRIPTOR, *PSTORAGE_PROTOCOL_DATA_DESCRIPTOR
 req.redist: 
-ms.custom: 19H1
 ---
 
 # STORAGE_PROTOCOL_DATA_DESCRIPTOR structure

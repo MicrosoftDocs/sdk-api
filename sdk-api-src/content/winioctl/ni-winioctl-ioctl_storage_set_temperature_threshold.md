@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD
-title: IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD (winioctl.h)
+title: IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD
 author: windows-sdk-content
 description: Windows applications can use this control code to set the temperature threshold of a device (when it's supported by the device).
 old-location: fs\ioctl_storage_set_temperature_threshold.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
 ---
 
 # IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD IOCTL
@@ -53,9 +52,13 @@ Windows applications can use this control code to set the temperature threshold 
 
 To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
    function with the following parameters.
-
-```cpp
-BOOL 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL 
    WINAPI 
    DeviceIoControl( (HANDLE)       hDevice,         // handle to device
                     (DWORD)        IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD, // dwIoControlCode(LPDWORD)      lpInBuffer,      // input buffer
@@ -63,10 +66,10 @@ BOOL
                     (LPDWORD)      lpOutBuffer,     // output buffer
                     (DWORD)        nOutBufferSize,  // size of output buffer
                     (LPDWORD)      lpBytesReturned, // number of bytes returned
-                    (LPOVERLAPPED) lpOverlapped );  // OVERLAPPED structure
-```
-
-
+                    (LPOVERLAPPED) lpOverlapped );  // OVERLAPPED structure</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -ioctlparameters
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DEVICE_LB_PROVISIONING_DESCRIPTOR
-title: DEVICE_LB_PROVISIONING_DESCRIPTOR (winioctl.h)
+title: DEVICE_LB_PROVISIONING_DESCRIPTOR
 author: windows-sdk-content
 description: Contains the thin provisioning capabilities for a storage device.
 old-location: fs\device_lb_provisioning_descriptor.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: DEVICE_LB_PROVISIONING_DESCRIPTOR, *PDEVICE_LB_PROVISIONING_DESCRIPTOR
 req.redist: 
-ms.custom: 19H1
 ---
 
 # DEVICE_LB_PROVISIONING_DESCRIPTOR structure

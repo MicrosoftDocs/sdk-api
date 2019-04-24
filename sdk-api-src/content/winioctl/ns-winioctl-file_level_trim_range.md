@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._FILE_LEVEL_TRIM_RANGE
-title: FILE_LEVEL_TRIM_RANGE (winioctl.h)
+title: FILE_LEVEL_TRIM_RANGE
 author: windows-sdk-content
 description: Specifies a range of a file that is to be trimmed.
 old-location: fs\file_level_trim_range.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_LEVEL_TRIM_RANGE, *PFILE_LEVEL_TRIM_RANGE
 req.redist: 
-ms.custom: 19H1
 ---
 
 # FILE_LEVEL_TRIM_RANGE structure
