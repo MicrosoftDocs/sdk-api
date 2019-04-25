@@ -45,18 +45,11 @@ ms.custom: 19H1
 
 # HIGHCONTRASTA structure
 
-
 ## -description
 
-
 Contains information about the high contrast accessibility feature.This feature sets the appearance scheme of the user interface for maximum visibility for a visually-impaired user, and advises applications to comply with this appearance scheme.
-      
-
 
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
@@ -64,42 +57,16 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Specifies the size, in bytes, of this structure.
 
-
 ### -field dwFlags
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-
 Specifies a combination of the following values:
-
-
 
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="HCF_AVAILABLE"></a><a id="hcf_available"></a><dl>
-<dt><b>HCF_AVAILABLE</b></dt>
-<dt>0x00000002</dt>
-</dl>
-</td>
-<td width="60%">
-The high contrast feature is available.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="HCF_CONFIRMHOTKEY"></a><a id="hcf_confirmhotkey"></a><dl>
-<dt><b>HCF_CONFIRMHOTKEY</b></dt>
-<dt>0x00000008</dt>
-</dl>
-</td>
-<td width="60%">
-A confirmation dialog appears when the high contrast feature is activated by using the hot key.
-
-</td>
 </tr>
 <tr>
 <td width="40%"><a id="HCF_HIGHCONTRASTON"></a><a id="hcf_highcontraston"></a><dl>
@@ -109,6 +76,17 @@ A confirmation dialog appears when the high contrast feature is activated by usi
 </td>
 <td width="60%">
 The high contrast feature is on.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="HCF_AVAILABLE"></a><a id="hcf_available"></a><dl>
+<dt><b>HCF_AVAILABLE</b></dt>
+<dt>0x00000002</dt>
+</dl>
+</td>
+<td width="60%">
+The high contrast feature is available.
 
 </td>
 </tr>
@@ -124,13 +102,13 @@ The user can turn the high contrast feature on and off by simultaneously pressin
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="HCF_HOTKEYAVAILABLE"></a><a id="hcf_hotkeyavailable"></a><dl>
-<dt><b>HCF_HOTKEYAVAILABLE</b></dt>
-<dt>0x00000040</dt>
+<td width="40%"><a id="HCF_CONFIRMHOTKEY"></a><a id="hcf_confirmhotkey"></a><dl>
+<dt><b>HCF_CONFIRMHOTKEY</b></dt>
+<dt>0x00000008</dt>
 </dl>
 </td>
 <td width="60%">
-The hot key associated with the high contrast feature can be enabled. An application can retrieve this value, but cannot set it.
+A confirmation dialog appears when the high contrast feature is activated by using the hot key.
 
 </td>
 </tr>
@@ -156,9 +134,32 @@ A visual indicator is displayed when the high contrast feature is on. This value
 
 </td>
 </tr>
-</table>
- 
+<tr>
+<td width="40%"><a id="HCF_HOTKEYAVAILABLE"></a><a id="hcf_hotkeyavailable"></a><dl>
+<dt><b>HCF_HOTKEYAVAILABLE</b></dt>
+<dt>0x00000040</dt>
+</dl>
+</td>
+<td width="60%">
+The hot key associated with the high contrast feature can be enabled. An application can retrieve this value, but cannot set it.
 
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="HCF_OPTION_NOTHEMECHANGE"></a><a id="hcf_option_nothemechange"></a><dl>
+<dt><b>No flag name supported</b></dt>
+<dt>0x00001000</dt>
+</dl>
+</td>
+<td width="60%">
+<p>Passing HIGHCONTRASTSTRUCTURE in calls to SystemParametersInfo can cause theme change effects even if the theme isn't being changed. For example, the WM_THEMECHANGED message is sent to Windows even if the only change is to HCF_HOTKEYSOUND.</p>
+<p>To prevent this, include the flag value in the call to SystemParametersInfo.</p>
+
+> [!NOTE]
+> This flag should not be used when toggling the high contrast mode (HCF_HIGHCONTRASTON).
+</td>
+</tr>
+</table>
 
 ### -field lpszDefaultScheme
 
@@ -166,27 +167,11 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Points to a string that contains the name of the color scheme that will be set to the default scheme.
 
-
 ## -remarks
-
-
 
 An application uses this structure when calling the <a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a> function with the <b>SPI_GETHIGHCONTRAST</b> or <b>SPI_SETHIGHCONTRAST</b> value. When using <b>SPI_GETHIGHCONTRAST</b>, an application must specify the <b>cbSize</b> member of the <b>HIGHCONTRAST</b> structure; the <b>SystemParametersInfo</b> function fills the remaining members. An application must specify all structure members when using the <b>SPI_SETHIGHCONTRAST</b> value.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/0ff480ae-18e3-413d-b208-a67fbae28c25">Accessibility Structures</a>
-
-
-
+<a href="https://msdn.microsoft.com/0ff480ae-18e3-413d-b208-a67fbae28c25">Accessibility Structures</a>, 
 <a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a>
- 
-
- 
-
