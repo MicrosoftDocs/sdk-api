@@ -74,11 +74,12 @@ A pointer to a variable that takes the value of one of the members of the <a hre
 Returns <b>S_OK</b> if the function succeeds, otherwise returns an error code. If the WSC service is not running, the return value is always <b>S_FALSE</b> and the <i>pHealth</i> out parameter is always set to <b>WSC_SECURITY_PROVIDER_HEALTH_POOR</b>.
 
 
+## -remarks
 
+> [!NOTE]
+> [WSC_SECURITY_PROVIDER::WSC_SECURITY_PROVIDER_ANTISPYWARE](/windows/desktop/api/wscapi/ne-wscapi-wsc_security_provider) should be used only in operating systems prior to Windows 10, version 1607. As of Windows 10, version 1607, WSC continues to track the status for antivirus, but not for anti-spyware.
 
 ## -see-also
-
-
 
 
 <a href="https://msdn.microsoft.com/a5f34088-13b9-4269-a3ca-777e0bb9b655">WSC_SECURITY_PROVIDER_HEALTH</a>
