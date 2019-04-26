@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DEVICE_POWER_DESCRIPTOR
-title: DEVICE_POWER_DESCRIPTOR (winioctl.h)
+title: DEVICE_POWER_DESCRIPTOR
 author: windows-sdk-content
 description: The DEVICE_POWER_DESCRIPTOR structure describes the power capabilities of a storage device.
 old-location: fs\device_power_descriptor.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: DEVICE_POWER_DESCRIPTOR, *PDEVICE_POWER_DESCRIPTOR
 req.redist: 
-ms.custom: 19H1
 ---
 
 # DEVICE_POWER_DESCRIPTOR structure

@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl.__unnamed_struct_31
-title: DELETE_USN_JOURNAL_DATA (winioctl.h)
+title: DELETE_USN_JOURNAL_DATA
 author: windows-sdk-content
 description: Contains information on the deletion of an update sequence number (USN) change journal using the FSCTL_DELETE_USN_JOURNAL control code.
 old-location: fs\delete_usn_journal_data_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: DELETE_USN_JOURNAL_DATA, *PDELETE_USN_JOURNAL_DATA
 req.redist: 
-ms.custom: 19H1
 ---
 
 # DELETE_USN_JOURNAL_DATA structure

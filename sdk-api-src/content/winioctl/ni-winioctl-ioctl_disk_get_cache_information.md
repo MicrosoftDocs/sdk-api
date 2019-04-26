@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_GET_CACHE_INFORMATION
-title: IOCTL_DISK_GET_CACHE_INFORMATION (winioctl.h)
+title: IOCTL_DISK_GET_CACHE_INFORMATION
 author: windows-sdk-content
 description: Retrieves the disk cache configuration data.
 old-location: fs\ioctl_disk_get_cache_information.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
 ---
 
 # IOCTL_DISK_GET_CACHE_INFORMATION IOCTL
@@ -53,18 +52,22 @@ Retrieves the disk cache configuration data.
 
 To perform this operation, call the 
 <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
-
-```cpp
-BOOL DeviceIoControl(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,                 // handle to device
   IOCTL_DISK_GET_CACHE_INFORMATION, // dwIoControlCodeNULL,                             // lpInBuffer0,                                // nInBufferSize(LPVOID) lpOutBuffer,             // output buffer
   (DWORD) nOutBufferSize,           // size of output buffer
   (LPDWORD) lpBytesReturned,        // number of bytes returned
   (LPOVERLAPPED) lpOverlapped       // OVERLAPPED structure
-);
-```
-
-
+);</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -ioctlparameters
 

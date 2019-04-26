@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_VOLUME_GET_GPT_ATTRIBUTES
-title: IOCTL_VOLUME_GET_GPT_ATTRIBUTES (winioctl.h)
+title: IOCTL_VOLUME_GET_GPT_ATTRIBUTES
 author: windows-sdk-content
 description: Retrieves the attributes for a volume.
 old-location: fs\ioctl_volume_get_gpt_attributes.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
 ---
 
 # IOCTL_VOLUME_GET_GPT_ATTRIBUTES IOCTL
@@ -54,18 +53,22 @@ Retrieves the attributes for a volume.
 To perform this operation, call the 
    <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
    function with the following parameters.
-
-```cpp
-BOOL DeviceIoControl(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,           // handle to the volume device
   IOCTL_VOLUME_GET_GPT_ATTRIBUTES, // dwIoControlCodeNULL,                       // lpInBuffer0,                          // nInBufferSize(LPVOID) lpOutBuffer,       // output buffer
   (DWORD) nOutBufferSize,     // size of output buffer
   (LPDWORD) lpBytesReturned,  // number of bytes returned
   (LPOVERLAPPED) lpOverlapped // OVERLAPPED structure
-);
-```
-
-
+);</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -ioctlparameters
 
@@ -205,7 +208,7 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd627180(v=VS.85).aspx">VOLUME_GET_GPT_ATTRIBUTES_INFORMATION</a>
+<a href="https://msdn.microsoft.com/d67590a9-9182-406f-8d15-8d40172cf5e5">VOLUME_GET_GPT_ATTRIBUTES_INFORMATION</a>
 
 
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:winioctl._STORAGE_DEVICE_FORM_FACTOR
-title: STORAGE_DEVICE_FORM_FACTOR (winioctl.h)
+title: STORAGE_DEVICE_FORM_FACTOR
 author: windows-sdk-content
 description: Specifies the form factor of a device.
 old-location: fs\storage_device_form_factor.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_FORM_FACTOR, *PSTORAGE_DEVICE_FORM_FACTOR
 req.redist: 
-ms.custom: 19H1
 ---
 
 # STORAGE_DEVICE_FORM_FACTOR enumeration

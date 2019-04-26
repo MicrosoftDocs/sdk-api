@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_HOTPLUG_INFO
-title: STORAGE_HOTPLUG_INFO (winioctl.h)
+title: STORAGE_HOTPLUG_INFO
 author: windows-sdk-content
 description: Provides information about the hotplug information of a device.
 old-location: base\storage_hotplug_info_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_HOTPLUG_INFO, *PSTORAGE_HOTPLUG_INFO
 req.redist: 
-ms.custom: 19H1
 ---
 
 # STORAGE_HOTPLUG_INFO structure

@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._FSCTL_SET_INTEGRITY_INFORMATION_BUFFER
-title: FSCTL_SET_INTEGRITY_INFORMATION_BUFFER (winioctl.h)
+title: FSCTL_SET_INTEGRITY_INFORMATION_BUFFER
 author: windows-sdk-content
 description: Input buffer passed with the FSCTL_SET_INTEGRITY_INFORMATION control code.
 old-location: fs\fsctl_set_integrity_information_buffer.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: FSCTL_SET_INTEGRITY_INFORMATION_BUFFER, *PFSCTL_SET_INTEGRITY_INFORMATION_BUFFER
 req.redist: 
-ms.custom: 19H1
 ---
 
 # FSCTL_SET_INTEGRITY_INFORMATION_BUFFER structure
@@ -164,7 +163,7 @@ If <b>FSCTL_INTEGRITY_FLAG_CHECKSUM_ENFORCEMENT_OFF</b> is specified and the fil
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh965607(v=VS.85).aspx">FSCTL_GET_INTEGRITY_INFORMATION_BUFFER</a>
+<a href="https://msdn.microsoft.com/ab87f987-b734-4ad0-af16-1ba967db48d7">FSCTL_GET_INTEGRITY_INFORMATION_BUFFER</a>
 
 
 

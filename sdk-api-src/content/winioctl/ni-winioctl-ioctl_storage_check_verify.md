@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_CHECK_VERIFY
-title: IOCTL_STORAGE_CHECK_VERIFY (winioctl.h)
+title: IOCTL_STORAGE_CHECK_VERIFY
 author: windows-sdk-content
 description: Determines whether media are accessible for a device.
 old-location: base\ioctl_storage_check_verify.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
 ---
 
 # IOCTL_STORAGE_CHECK_VERIFY IOCTL
@@ -53,16 +52,20 @@ Determines whether media are accessible for a device.
 
 To perform this operation, call the 
 <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
-
-```cpp
-BOOL DeviceIoControl(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,            // handle to device
   IOCTL_STORAGE_CHECK_VERIFY,  // dwIoControlCodeNULL,                        // lpInBuffer0,                           // nInBufferSizeNULL,                        // lpOutBuffer0,                           // nOutBufferSize(LPDWORD) lpBytesReturned,   // number of bytes returned
   (LPOVERLAPPED) lpOverlapped  // OVERLAPPED structure
-);
-```
-
-
+);</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -ioctlparameters
 

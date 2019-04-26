@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._PREVENT_MEDIA_REMOVAL
-title: PREVENT_MEDIA_REMOVAL (winioctl.h)
+title: PREVENT_MEDIA_REMOVAL
 author: windows-sdk-content
 description: Provides removable media locking data. It is used by the IOCTL_STORAGE_MEDIA_REMOVAL control code.
 old-location: base\prevent_media_removal_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: PREVENT_MEDIA_REMOVAL, *PPREVENT_MEDIA_REMOVAL
 req.redist: 
-ms.custom: 19H1
 ---
 
 # PREVENT_MEDIA_REMOVAL structure

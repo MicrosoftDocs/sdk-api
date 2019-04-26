@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._FSCTL_QUERY_REGION_INFO_OUTPUT
-title: FSCTL_QUERY_REGION_INFO_OUTPUT (winioctl.h)
+title: FSCTL_QUERY_REGION_INFO_OUTPUT
 author: windows-sdk-content
 description: Contains information for one or more regions.
 old-location: fs\fsctl_query_region_info_output.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: FSCTL_QUERY_REGION_INFO_OUTPUT, *PFSCTL_QUERY_REGION_INFO_OUTPUT
 req.redist: 
-ms.custom: 19H1
 ---
 
 # FSCTL_QUERY_REGION_INFO_OUTPUT structure

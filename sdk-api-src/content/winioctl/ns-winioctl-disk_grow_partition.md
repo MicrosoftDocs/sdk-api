@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DISK_GROW_PARTITION
-title: DISK_GROW_PARTITION (winioctl.h)
+title: DISK_GROW_PARTITION
 author: windows-sdk-content
 description: Contains information used to increase the size of a partition.
 old-location: fs\disk_grow_partition_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: DISK_GROW_PARTITION, *PDISK_GROW_PARTITION
 req.redist: 
-ms.custom: 19H1
 ---
 
 # DISK_GROW_PARTITION structure

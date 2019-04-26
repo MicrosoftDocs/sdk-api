@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_TEMPERATURE_INFO
-title: STORAGE_TEMPERATURE_INFO (winioctl.h)
+title: STORAGE_TEMPERATURE_INFO
 author: windows-sdk-content
 description: Describes device temperature data. Returned as part of STORAGE_TEMPERATURE_DATA_DESCRIPTOR when querying for temperature data with an IOCTL_STORAGE_QUERY_PROPERTY request.
 old-location: fs\storage_temperature_info.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_TEMPERATURE_INFO, *PSTORAGE_TEMPERATURE_INFO
 req.redist: 
-ms.custom: 19H1
 ---
 
 # STORAGE_TEMPERATURE_INFO structure
@@ -49,7 +48,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes  device temperature data. Returned as part of <a href="https://msdn.microsoft.com/en-us/library/Mt718128(v=VS.85).aspx">STORAGE_TEMPERATURE_DATA_DESCRIPTOR</a> when querying for temperature data with an <a href="https://msdn.microsoft.com/6755dcd4-e4a0-423f-9dcc-b9719c8e5c88">IOCTL_STORAGE_QUERY_PROPERTY</a> request. 
+Describes  device temperature data. Returned as part of <a href="https://msdn.microsoft.com/E155B31F-6543-42E3-BCAB-B1B0100D23E4">STORAGE_TEMPERATURE_DATA_DESCRIPTOR</a> when querying for temperature data with an <a href="https://msdn.microsoft.com/6755dcd4-e4a0-423f-9dcc-b9719c8e5c88">IOCTL_STORAGE_QUERY_PROPERTY</a> request. 
 
 
 ## -struct-fields

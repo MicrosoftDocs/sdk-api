@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DISK_EX_INT13_INFO
-title: DISK_EX_INT13_INFO (winioctl.h)
+title: DISK_EX_INT13_INFO
 author: windows-sdk-content
 description: Contains extended Int13 drive parameters.
 old-location: fs\disk_ex_int13_info_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: DISK_EX_INT13_INFO, *PDISK_EX_INT13_INFO
 req.redist: 
-ms.custom: 19H1
 ---
 
 # DISK_EX_INT13_INFO structure

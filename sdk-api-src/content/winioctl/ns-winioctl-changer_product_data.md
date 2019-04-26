@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._CHANGER_PRODUCT_DATA
-title: CHANGER_PRODUCT_DATA (winioctl.h)
+title: CHANGER_PRODUCT_DATA
 author: windows-sdk-content
 description: Represents product data for a changer device. It is used by the IOCTL_CHANGER_GET_PRODUCT_DATA control code.
 old-location: base\changer_product_data_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: CHANGER_PRODUCT_DATA, *PCHANGER_PRODUCT_DATA
 req.redist: 
-ms.custom: 19H1
 ---
 
 # CHANGER_PRODUCT_DATA structure

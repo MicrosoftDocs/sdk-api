@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._CREATE_DISK_MBR
-title: CREATE_DISK_MBR (winioctl.h)
+title: CREATE_DISK_MBR
 author: windows-sdk-content
 description: Contains information that the IOCTL_DISK_CREATE_DISK control code uses to initialize master boot record (MBR) disks.
 old-location: fs\create_disk_mbr_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: CREATE_DISK_MBR, *PCREATE_DISK_MBR
 req.redist: 
-ms.custom: 19H1
 ---
 
 # CREATE_DISK_MBR structure

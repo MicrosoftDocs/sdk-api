@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_DESCRIPTOR_HEADER
-title: STORAGE_DESCRIPTOR_HEADER (winioctl.h)
+title: STORAGE_DESCRIPTOR_HEADER
 author: windows-sdk-content
 description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY control code to retrieve the properties of a storage device or adapter.
 old-location: fs\storage_descriptor_header.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_DESCRIPTOR_HEADER, *PSTORAGE_DESCRIPTOR_HEADER
 req.redist: 
-ms.custom: 19H1
 ---
 
 # STORAGE_DESCRIPTOR_HEADER structure
@@ -103,7 +102,7 @@ The data retrieved by
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff800831(v=VS.85).aspx">STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/99f33d12-5da0-4ed9-a20f-5e808a610545">STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR</a>
 
 
 

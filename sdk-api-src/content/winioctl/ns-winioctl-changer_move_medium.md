@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._CHANGER_MOVE_MEDIUM
-title: CHANGER_MOVE_MEDIUM (winioctl.h)
+title: CHANGER_MOVE_MEDIUM
 author: windows-sdk-content
 description: Contains information that the IOCTL_CHANGER_MOVE_MEDIUM control code uses to move a piece of media to a destination.
 old-location: base\changer_move_medium_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: CHANGER_MOVE_MEDIUM, *PCHANGER_MOVE_MEDIUM
 req.redist: 
-ms.custom: 19H1
 ---
 
 # CHANGER_MOVE_MEDIUM structure

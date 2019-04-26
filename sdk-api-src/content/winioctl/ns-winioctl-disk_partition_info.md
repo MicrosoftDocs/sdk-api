@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DISK_PARTITION_INFO
-title: DISK_PARTITION_INFO (winioctl.h)
+title: DISK_PARTITION_INFO
 author: windows-sdk-content
 description: Contains the disk partition information.
 old-location: fs\disk_partition_info_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: DISK_PARTITION_INFO, *PDISK_PARTITION_INFO
 req.redist: 
-ms.custom: 19H1
 ---
 
 # DISK_PARTITION_INFO structure

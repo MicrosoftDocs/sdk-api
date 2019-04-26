@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._LOOKUP_STREAM_FROM_CLUSTER_OUTPUT
-title: LOOKUP_STREAM_FROM_CLUSTER_OUTPUT (winioctl.h)
+title: LOOKUP_STREAM_FROM_CLUSTER_OUTPUT
 author: windows-sdk-content
 description: Received as output from the FSCTL_LOOKUP_STREAM_FROM_CLUSTER control code.
 old-location: fs\lookup_stream_from_cluster_output.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: LOOKUP_STREAM_FROM_CLUSTER_OUTPUT, *PLOOKUP_STREAM_FROM_CLUSTER_OUTPUT
 req.redist: 
-ms.custom: 19H1
 ---
 
 # LOOKUP_STREAM_FROM_CLUSTER_OUTPUT structure

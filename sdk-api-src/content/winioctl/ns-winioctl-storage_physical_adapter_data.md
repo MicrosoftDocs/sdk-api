@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_PHYSICAL_ADAPTER_DATA
-title: STORAGE_PHYSICAL_ADAPTER_DATA (winioctl.h)
+title: STORAGE_PHYSICAL_ADAPTER_DATA
 author: windows-sdk-content
 description: Describes a physical storage adapter.
 old-location: fs\storage_physical_adapter_data.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_PHYSICAL_ADAPTER_DATA, *PSTORAGE_PHYSICAL_ADAPTER_DATA
 req.redist: 
-ms.custom: 19H1
 ---
 
 # STORAGE_PHYSICAL_ADAPTER_DATA structure

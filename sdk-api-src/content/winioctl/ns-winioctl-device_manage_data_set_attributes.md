@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DEVICE_MANAGE_DATA_SET_ATTRIBUTES
-title: DEVICE_MANAGE_DATA_SET_ATTRIBUTES (winioctl.h)
+title: DEVICE_MANAGE_DATA_SET_ATTRIBUTES
 author: windows-sdk-content
 description: Input structure for the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
 old-location: base\device_manage_data_set_attributes.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: DEVICE_MANAGE_DATA_SET_ATTRIBUTES, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_DSM_INPUT, *PDEVICE_DSM_INPUT
 req.redist: 
-ms.custom: 19H1
 ---
 
 # DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure
@@ -94,7 +93,7 @@ A trim action is performed. This value is not supported for user-mode applicatio
 </td>
 <td width="60%">
 A notification action is performed. The additional parameters are in a 
-        <a href="https://msdn.microsoft.com/en-us/library/Hh404249(v=VS.85).aspx">DEVICE_DSM_NOTIFICATION_PARAMETERS</a> 
+        <a href="https://msdn.microsoft.com/42f76bab-0260-4b43-a8cf-02faedb7e672">DEVICE_DSM_NOTIFICATION_PARAMETERS</a> 
         structure. The <b>DeviceDsmActionFlag_NonDestructive</b> (0x80000000) is a bit flag to 
         indicate to the driver stack that this operation is non-destructive.
 
@@ -108,7 +107,7 @@ A notification action is performed. The additional parameters are in a
 </td>
 <td width="60%">
 An offload read action is performed. The additional parameters are in a 
-         <a href="https://msdn.microsoft.com/en-us/library/Hh404251(v=VS.85).aspx">DEVICE_DSM_OFFLOAD_READ_PARAMETERS</a> 
+         <a href="https://msdn.microsoft.com/20dd3e5b-90f4-45fc-8cc8-bf9e6d08a026">DEVICE_DSM_OFFLOAD_READ_PARAMETERS</a> 
          structure. The <b>DeviceDsmActionFlag_NonDestructive</b> 
          (0x80000000) is a bit flag to indicate to the driver stack that this operation is non-destructive.
 
@@ -124,7 +123,7 @@ An offload read action is performed. The additional parameters are in a
 </td>
 <td width="60%">
 An offload write action is performed. The additional parameters are in a 
-         <a href="https://msdn.microsoft.com/en-us/library/Hh404253(v=VS.85).aspx">DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS</a> 
+         <a href="https://msdn.microsoft.com/d0107cae-50c9-46d2-97cd-324030692903">DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS</a> 
          structure.
 
 <b>Windows 7 and Windows Server 2008 R2:  </b>This value is not supported before Windows 8 and Windows Server 2012.
@@ -154,7 +153,7 @@ An allocation bitmap is retrieved for the first data set range specified. The
 </td>
 <td width="60%">
 A repair action is performed. The additional parameters are in a 
-         <a href="https://msdn.microsoft.com/en-us/library/Hh404247(v=VS.85).aspx">DEVICE_DATA_SET_REPAIR_PARAMETERS</a> 
+         <a href="https://msdn.microsoft.com/95bc892c-9bb7-464c-8084-7cc6e643fa28">DEVICE_DATA_SET_REPAIR_PARAMETERS</a> 
          structure. The <b>DeviceDsmActionFlag_NonDestructive</b> 
          (0x80000000) is a bit flag to indicate to the driver stack that this operation is non-destructive.
 

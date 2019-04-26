@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._FILE_SET_DEFECT_MGMT_BUFFER
-title: FILE_SET_DEFECT_MGMT_BUFFER (winioctl.h)
+title: FILE_SET_DEFECT_MGMT_BUFFER
 author: windows-sdk-content
 description: Specifies the defect management state to be set.
 old-location: fs\file_set_defect_mgmt_buffer.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_SET_DEFECT_MGMT_BUFFER, *PFILE_SET_DEFECT_MGMT_BUFFER
 req.redist: 
-ms.custom: 19H1
 ---
 
 # FILE_SET_DEFECT_MGMT_BUFFER structure

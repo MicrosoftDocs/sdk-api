@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DISK_EXTENT
-title: DISK_EXTENT (winioctl.h)
+title: DISK_EXTENT
 author: windows-sdk-content
 description: Represents a disk extent.
 old-location: fs\disk_extent_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: DISK_EXTENT, *PDISK_EXTENT
 req.redist: 
-ms.custom: 19H1
 ---
 
 # DISK_EXTENT structure

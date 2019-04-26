@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._FILE_LEVEL_TRIM_OUTPUT
-title: FILE_LEVEL_TRIM_OUTPUT (winioctl.h)
+title: FILE_LEVEL_TRIM_OUTPUT
 author: windows-sdk-content
 description: Used as output to the FSCTL_FILE_LEVEL_TRIM control code.
 old-location: fs\file_level_trim_output.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_LEVEL_TRIM_OUTPUT, *PFILE_LEVEL_TRIM_OUTPUT
 req.redist: 
-ms.custom: 19H1
 ---
 
 # FILE_LEVEL_TRIM_OUTPUT structure

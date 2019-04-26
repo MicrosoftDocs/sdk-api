@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl.__unnamed_struct_20
-title: USN_TRACK_MODIFIED_RANGES (winioctl.h)
+title: USN_TRACK_MODIFIED_RANGES
 author: windows-sdk-content
 description: Contains information on range tracking parameters for an update sequence number (USN) change journal using the FSCTL_USN_TRACK_MODIFIED_RANGES control code.
 old-location: fs\usn_track_modified_ranges.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: USN_TRACK_MODIFIED_RANGES, *PUSN_TRACK_MODIFIED_RANGES
 req.redist: 
-ms.custom: 19H1
 ---
 
 # USN_TRACK_MODIFIED_RANGES structure

@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl.__unnamed_struct_12
-title: FIND_BY_SID_DATA (winioctl.h)
+title: FIND_BY_SID_DATA
 author: windows-sdk-content
 description: Contains data for the FSCTL_FIND_FILES_BY_SID control code.
 old-location: fs\find_by_sid_data.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: FIND_BY_SID_DATA, *PFIND_BY_SID_DATA
 req.redist: 
-ms.custom: 19H1
 ---
 
 # FIND_BY_SID_DATA structure

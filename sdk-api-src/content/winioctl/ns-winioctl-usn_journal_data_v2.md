@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl.__unnamed_struct_30
-title: USN_JOURNAL_DATA_V2 (winioctl.h)
+title: USN_JOURNAL_DATA_V2
 author: windows-sdk-content
 description: Represents an update sequence number (USN) change journal, its records, and its capacity. This structure is the output buffer for the FSCTL_QUERY_USN_JOURNAL control code.
 old-location: fs\usn_journal_data_v2.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: USN_JOURNAL_DATA_V2, *PUSN_JOURNAL_DATA_V2
 req.redist: 
-ms.custom: 19H1
 ---
 
 # USN_JOURNAL_DATA_V2 structure

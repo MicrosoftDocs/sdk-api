@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._CREATE_DISK_GPT
-title: CREATE_DISK_GPT (winioctl.h)
+title: CREATE_DISK_GPT
 author: windows-sdk-content
 description: Contains information used by the IOCTL_DISK_CREATE_DISK control code to initialize GUID partition table (GPT) disks.
 old-location: fs\create_disk_gpt_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: CREATE_DISK_GPT, *PCREATE_DISK_GPT
 req.redist: 
-ms.custom: 19H1
 ---
 
 # CREATE_DISK_GPT structure
@@ -77,8 +76,7 @@ The
 <b>CREATE_DISK_GPT</b> structure is defined as part of the 
 <a href="https://msdn.microsoft.com/ec4a1ef9-ff2e-41b3-951b-241c545f256b">CREATE_DISK</a> structure.
 
-If a maximum partition count of less than 128 is specified, it will be reset to 128. This is in compliance with the EFI specification. For more information on the Extensible Firmware Interface (EFI), see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84097">Firmware and Boot Environment</a>.
+If a maximum partition count of less than 128 is specified, it will be reset to 128. This is in compliance with the EFI specification.
 
 
 

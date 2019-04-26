@@ -1,6 +1,6 @@
 ---
 UID: NE:winioctl._STORAGE_PROTOCOL_NVME_DATA_TYPE
-title: STORAGE_PROTOCOL_NVME_DATA_TYPE (winioctl.h)
+title: STORAGE_PROTOCOL_NVME_DATA_TYPE
 author: windows-sdk-content
 description: Describes the type of NVMe protocol-specific data that's to be queried during an IOCTL_STORAGE_QUERY_PROPERTY request.
 old-location: fs\storage_protocol_nvme_data_type.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_PROTOCOL_NVME_DATA_TYPE, *PSTORAGE_PROTOCOL_NVME_DATA_TYPE
 req.redist: 
-ms.custom: 19H1
 ---
 
 # STORAGE_PROTOCOL_NVME_DATA_TYPE enumeration

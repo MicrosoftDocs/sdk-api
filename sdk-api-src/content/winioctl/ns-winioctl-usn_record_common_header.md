@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl.__unnamed_struct_24
-title: USN_RECORD_COMMON_HEADER (winioctl.h)
+title: USN_RECORD_COMMON_HEADER
 author: windows-sdk-content
 description: Contains the information for an update sequence number (USN) common header which is common through USN_RECORD_V2, USN_RECORD_V3 and USN_RECORD_V4.
 old-location: fs\usn_record_common_header.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: USN_RECORD_COMMON_HEADER, *PUSN_RECORD_COMMON_HEADER
 req.redist: 
-ms.custom: 19H1
 ---
 
 # USN_RECORD_COMMON_HEADER structure

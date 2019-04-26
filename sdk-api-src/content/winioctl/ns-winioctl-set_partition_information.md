@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._SET_PARTITION_INFORMATION
-title: SET_PARTITION_INFORMATION (winioctl.h)
+title: SET_PARTITION_INFORMATION
 author: windows-sdk-content
 description: Contains information used to set a disk partition's type.
 old-location: fs\set_partition_information_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: SET_PARTITION_INFORMATION, *PSET_PARTITION_INFORMATION
 req.redist: 
-ms.custom: 19H1
 ---
 
 # SET_PARTITION_INFORMATION structure

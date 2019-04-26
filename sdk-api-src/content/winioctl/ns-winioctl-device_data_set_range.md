@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DEVICE_DATA_SET_RANGE
-title: DEVICE_DATA_SET_RANGE (winioctl.h)
+title: DEVICE_DATA_SET_RANGE
 author: windows-sdk-content
 description: Provides data set range information for use with the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
 old-location: base\device_data_set_range.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: DEVICE_DATA_SET_RANGE, *PDEVICE_DATA_SET_RANGE, DEVICE_DSM_RANGE, *PDEVICE_DSM_RANGE
 req.redist: 
-ms.custom: 19H1
 ---
 
 # DEVICE_DATA_SET_RANGE structure
@@ -75,7 +74,7 @@ Length of the data set range, in bytes. Must be a multiple of disk logical secto
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee907416(v=VS.85).aspx">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/328902b7-97e3-40dc-9771-f5e64ccf3364">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 
 

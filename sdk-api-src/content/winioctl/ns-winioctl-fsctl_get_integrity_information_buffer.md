@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._FSCTL_GET_INTEGRITY_INFORMATION_BUFFER
-title: FSCTL_GET_INTEGRITY_INFORMATION_BUFFER (winioctl.h)
+title: FSCTL_GET_INTEGRITY_INFORMATION_BUFFER
 author: windows-sdk-content
 description: Contains the integrity information for a file or directory.
 old-location: fs\fsctl_get_integrity_information_buffer.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: FSCTL_GET_INTEGRITY_INFORMATION_BUFFER, *PFSCTL_GET_INTEGRITY_INFORMATION_BUFFER
 req.redist: 
-ms.custom: 19H1
 ---
 
 # FSCTL_GET_INTEGRITY_INFORMATION_BUFFER structure
@@ -152,7 +151,7 @@ Size in bytes of a cluster for this volume. This value must be a power of 2, mus
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh965610(v=VS.85).aspx">FSCTL_SET_INTEGRITY_INFORMATION_BUFFER</a>
+<a href="https://msdn.microsoft.com/e5f6c4c5-86cb-4e95-bc24-05d2bea37bc8">FSCTL_SET_INTEGRITY_INFORMATION_BUFFER</a>
 
 
 
