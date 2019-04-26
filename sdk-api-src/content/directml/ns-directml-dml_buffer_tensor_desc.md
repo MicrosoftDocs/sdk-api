@@ -45,22 +45,11 @@ ms.custom: 19H1
 
 # DML_BUFFER_TENSOR_DESC structure
 
-
 ## -description
 
-
-
-
-
-
-Describes a tensor that will be stored in a Direct3D 12 buffer resource. The corresponding tensor type is [DML_TENSOR_TYPE_BUFFER](/windows/desktop/api/directml/ne-directml-dml_tensor_type), and the corresponding binding type is
-    [DML_BINDING_TYPE_BUFFER](/windows/desktop/api/directml/ne-directml-dml_binding_type).
-
+Describes a tensor that will be stored in a Direct3D 12 buffer resource. The corresponding tensor type is [DML_TENSOR_TYPE_BUFFER](/windows/desktop/api/directml/ne-directml-dml_tensor_type), and the corresponding binding type is [DML_BINDING_TYPE_BUFFER](/windows/desktop/api/directml/ne-directml-dml_binding_type).
 
 ## -struct-fields
-
-
-
 
 ### -field DataType
 
@@ -68,90 +57,58 @@ Type: [**DML_TENSOR_DATA_TYPE**](/windows/desktop/api/directml/ne-directml-dml_t
 
 The type of the values in the tensor.
 
-
 ### -field Flags
 
 Type: [**DML_TENSOR_FLAGS**](/windows/desktop/api/directml/ne-directml-dml_tensor_flags)
 
 Specifies additional options for the tensor.
 
-
 ### -field DimensionCount
 
 Type: [**UINT**](/windows/desktop/winprog/windows-data-types)
 
-The number of dimensions of the tensor. This field determines the size of the <i>Sizes</i> and <i>Strides</i> arrays (if provided).
-
+The number of dimensions of the tensor. This member determines the size of the <i>Sizes</i> and <i>Strides</i> arrays (if provided). In DirectML, all buffer tensors must have a *DimensionCount* of either 4 or 5. Not all operators support a *DimensionCount* of 5.
 
 ### -field Sizes
 
 Type: <b>const [UINT](/windows/desktop/winprog/windows-data-types)*</b>
 
-The size, in elements, of each dimension in the tensor. Specifying a size of zero in any dimension is
-      invalid, and will result in an error.
-
+The size, in elements, of each dimension in the tensor. Specifying a size of zero in any dimension is invalid, and will result in an error. The *Sizes* member is always specified in the order {N, C, H, W} if *DimensionCount* is 4, and {N, C, D, H, W} if *DimensionCount* is 5.
 
 ### -field Strides
 
 Type: <b>const [UINT](/windows/desktop/winprog/windows-data-types)*</b>
 
-Optional. Determines the number of elements (not bytes) to linearly traverse in order to reach the next element
-      in that dimension. For example, a stride of 5 in dimension 1 means that the distance between elements (n) and
-      (n+1) in that dimension is 5 elements when traversing the buffer linearly.
+Optional. Determines the number of elements (not bytes) to linearly traverse in order to reach the next element in that dimension. For example, a stride of 5 in dimension 1 means that the distance between elements (n) and (n+1) in that dimension is 5 elements when traversing the buffer linearly. The *Strides* member is always specified in the order {N, C, H, W} if *DimensionCount* is 4, and {N, C, D, H, W} if *DimensionCount* is 5.
 
-<i>Strides</i> can be used to express broadcasting (by specifying a stride of 0) as well as padding (for example, by using a
-      stride larger than the physical size of a row, to pad the end of a row).
+<i>Strides</i> can be used to express broadcasting (by specifying a stride of 0) as well as padding (for example, by using a stride larger than the physical size of a row, to pad the end of a row).
 
-If <i>Strides</i> is not specified, each dimension in the tensor is considered to be contiguously packed, with no
-      additional padding.
-
+If <i>Strides</i> is not specified, each dimension in the tensor is considered to be contiguously packed, with no additional padding.
 
 ### -field TotalTensorSizeInBytes
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT64</a></b>
 
-Defines a minimum size in bytes for the buffer that will contain this tensor. <i>TotalTensorSizeInBytes</i> must
-      be at least as large as the minimum implied size given the sizes, strides, and data type of the tensor. You can calculate the minimum implied size by calling the [DMLCalcBufferTensorSize](/windows/desktop/direct3d12/dml-helper-functions#dmlcalcbuffertensorsize) utility free function.
+Defines a minimum size in bytes for the buffer that will contain this tensor. <i>TotalTensorSizeInBytes</i> must be at least as large as the minimum implied size given the sizes, strides, and data type of the tensor. You can calculate the minimum implied size by calling the [DMLCalcBufferTensorSize](/windows/desktop/direct3d12/dml-helper-functions#dmlcalcbuffertensorsize) utility free function.
 
-Providing a <i>TotalTensorSizeInBytes</i> that is larger than the minimum implied size may enable additional
-      optimizations by allowing DirectML to elide bounds checking in some cases if the <i>TotalTensorSizeInBytes</i> defines
-      sufficient padding beyond the end of the tensor data.
+Providing a <i>TotalTensorSizeInBytes</i> that is larger than the minimum implied size may enable additional optimizations by allowing DirectML to elide bounds checking in some cases if the <i>TotalTensorSizeInBytes</i> defines sufficient padding beyond the end of the tensor data.
 
-When binding this tensor, the size of the buffer range must be at least as large as the <i>TotalTensorSizeInBytes</i>.
-      For output tensors, this has the additional effect of permitting DirectML to write to any memory within the
-      <i>TotalTensorSizeInBytes</i>. That is, your application mustn't assume that DirectML will preserve any padding bytes
-      inside output tensors that are inside the <i>TotalTensorSizeInBytes</i>.
+When binding this tensor, the size of the buffer range must be at least as large as the <i>TotalTensorSizeInBytes</i>. For output tensors, this has the additional effect of permitting DirectML to write to any memory within the <i>TotalTensorSizeInBytes</i>. That is, your application mustn't assume that DirectML will preserve any padding bytes inside output tensors that are inside the <i>TotalTensorSizeInBytes</i>.
 
 The total size of a buffer tensor may not exceed (2^32 - 1) elements—for example, 16GB for a <b>FLOAT32</b> tensor.
-
-
 
 ### -field GuaranteedBaseOffsetAlignment
 
 Type: [**UINT**](/windows/desktop/winprog/windows-data-types)
 
-Optional. Defines a minimum guaranteed alignment in bytes for the base offset of the buffer range that will
-      contain this tensor, or 0 to provide no minimum guaranteed alignment. If specified, this value must be a power
-      of two that is at least as large as the element size.
+Optional. Defines a minimum guaranteed alignment in bytes for the base offset of the buffer range that will contain this tensor, or 0 to provide no minimum guaranteed alignment. If specified, this value must be a power of two that is at least as large as the element size.
 
-When binding this tensor, the offset in bytes of the buffer range from the start of the buffer must be a multiple
-      of the <i>GuaranteedBaseOffsetAlignment</i>, if provided.
+When binding this tensor, the offset in bytes of the buffer range from the start of the buffer must be a multiple of the <i>GuaranteedBaseOffsetAlignment</i>, if provided.
 
-Buffer tensors always have a minimum alignment of 16 bytes. However, providing a larger value for the
-      <i>GuaranteedBaseOffsetAlignment</i> may allow DirectML to achieve better performance, because a larger alignment enables
-      the use of vectorized load/store instructions.
+Buffer tensors always have a minimum alignment of 16 bytes. However, providing a larger value for the <i>GuaranteedBaseOffsetAlignment</i> may allow DirectML to achieve better performance, because a larger alignment enables the use of vectorized load/store instructions.
 
-Although this field is optional, for best performance we recommend that you align tensors to boundaries of 32
-      bytes or more, where possible.
-
+Although this member is optional, for best performance we recommend that you align tensors to boundaries of 32 bytes or more, where possible.
 
 ## -see-also
 
-
-
-
-<a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
- 
-
- 
-
+[Binding in DirectML](/windows/desktop/direct3d12/dml-binding)
