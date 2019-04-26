@@ -15,7 +15,8 @@
     "d3dx11async.h",
     "d3dx11tex.h",
     "d3dx11.h",
-    "d3dx11effect.h"
+    "d3dx11effect.h",
+    "windows.graphics.directx.direct3d11.interop.h"
   ],
   "displayName": "Direct3D 11 Graphics"
 }
