@@ -102,7 +102,7 @@ When the user clicks the task, MMC activates the link specified by <b>szActionUR
 
 #### MMC_ACTION_SCRIPT
 
-When the user clicks the task, MMC executes the script contained in <b>szScript</b> using the <a href="https://msdn.microsoft.com/7b3bc771-23c5-405b-9e3e-4ed1cdcb7d58">window.execScript</a> method on the taskpad DHTML page. If you specify this value, the <b>zScript</b> member is required.
+When the user clicks the task, MMC executes the script contained in <b>szScript</b> using the <a href="https://docs.microsoft.com/en-us/previous-versions/hh869591(v=vs.85)">window.execScript</a> method on the taskpad DHTML page. If you specify this value, the <b>zScript</b> member is required.
 
 
 ### -field nCommandID
@@ -125,7 +125,7 @@ Used only if eActionType<b></b> is <b>MMC_ACTION_LINK</b>.
 
 Used only if <b>eActionType</b> is <b>MMC_ACTION_SCRIPT</b>.
 
-[out] A pointer to a null-terminated string that contains the script to run using the <a href="https://msdn.microsoft.com/7b3bc771-23c5-405b-9e3e-4ed1cdcb7d58">window.execScript</a> method on the taskpad DHTML page. To specify the script language, begin the string with the script language:
+[out] A pointer to a null-terminated string that contains the script to run using the <a href="https://docs.microsoft.com/en-us/previous-versions/hh869591(v=vs.85)">window.execScript</a> method on the taskpad DHTML page. To specify the script language, begin the string with the script language:
 
 <ul>
 <li>"VBSCRIPT:"</li>

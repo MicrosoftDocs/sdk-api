@@ -90,7 +90,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/0cc0463f-294d-4c59-8553-1b43fc3a7ee8">XMVectorReplicate</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmvectorreplicate">XMVectorReplicate</a>
 
 
 

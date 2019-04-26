@@ -92,7 +92,7 @@ Set objFaxServer = CreateObject("FaxServer")
 ```
 
 
-In Microsoft Visual C++, the <a href="https://msdn.microsoft.com/e8192f70-b0aa-4055-b67b-ff95991b66f2">IFaxServerNotify</a> interface on the <b>FaxServer</b> object receives notifications of the events.
+In Microsoft Visual C++, the <a href="https://docs.microsoft.com/en-us/windows/desktop/api/faxcomex/nn-faxcomex-ifaxservernotify2">IFaxServerNotify</a> interface on the <b>FaxServer</b> object receives notifications of the events.
 
 
 By default, the <a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a> object does not receive notifications for any server events. If you want the <b>FaxServer</b> object to receive notifications, you must call <b>IFaxServer::ListenToServerEvents</b> and pass to it the event types for which you want to receive notifications. To stop receiving the notification, call this method with <i>EventTypes</i> equal to <a href="https://msdn.microsoft.com/en-us/library/ms689206(v=VS.85).aspx">fsetNONE</a>.

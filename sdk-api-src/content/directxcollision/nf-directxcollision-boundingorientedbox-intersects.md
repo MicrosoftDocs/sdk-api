@@ -2,106 +2,64 @@
 UID: NF:directxcollision.BoundingOrientedBox.Intersects
 title: BoundingOrientedBox::Intersects
 author: windows-sdk-content
-description: Tests the BoundingOrientedBox for intersection with a plane.
-old-location: dxmath\boundingorientedbox_intersects_7.htm
-tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.Intersects(XMVECTOR)
-ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: BoundingOrientedBox interface [DirectX Math Support APIs],Intersects method, BoundingOrientedBox.Intersects, BoundingOrientedBox.Intersects(XMVECTOR), BoundingOrientedBox::Intersects, Intersects, Intersects method [DirectX Math Support APIs], Intersects method [DirectX Math Support APIs],BoundingOrientedBox interface, dxmath.boundingorientedbox_intersects_7
-ms.topic: method
-req.header: directxcollision.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+description: Tests the BoundingOrientedBox for intersection with a BoundingSphere.
+ms.date: 04/22/19
+ms.keywords: BoundingOrientedBox::Intersects
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: 
+req.header: directxcollision.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
 req.max-support: 
 req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
-topic_type:
- - APIRef
- - kbSyntax
-api_type:
- - COM
-api_location:
- - DirectXCollision.h
-api_name:
- - BoundingOrientedBox.Intersects
-product: Windows
-targetos: Windows
-req.typenames: 
 req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
+req.type-library: 
+req.umdf-ver: 
+req.unicode-ansi: 
+topic_type:
+ - apiref
+api_type:
+ - 
+api_location:
+ - directxcollision.h
+api_name:
+ - BoundingOrientedBox::Intersects
 ---
 
-# BoundingOrientedBox::Intersects
-
+# BoundingOrientedBox.Intersects(const BoundingSphere&) method
 
 ## -description
 
-
-Tests the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> for intersection with a plane.
-
+Tests the **BoundingOrientedBox** for intersection with a **BoundingSphere**.
 
 ## -parameters
 
-
-
-
 ### -param sh
 
-TBD
-
-
-
-
-#### - Plane [in]
-
-A vector describing the plane
-
+The **BoundingSphere** to test for intersection.
 
 ## -returns
 
-
-
-A <a href="https://msdn.microsoft.com/66191FCC-F0A0-4435-86A9-0662A5E36D83">PlaneIntersectionType</a> value indicating the intersection status.
-
-
-
+A boolean value indicating whether the **BoundingOrientedBox** intersects the **BoundingSphere**.
 
 ## -remarks
 
+### Platform Requirements
 
-
-<h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
-Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
-
-
-
+Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8.
+Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>
-
-
-
-<a href="https://msdn.microsoft.com/e9c23c95-631e-47df-b33e-b359fc75bac5">Intersects</a>
-
-
-
-<b>Reference</b>
- 
-
- 
-
+[BoundingOrientedBox](ns-directxcollision-boundingorientedbox.md)

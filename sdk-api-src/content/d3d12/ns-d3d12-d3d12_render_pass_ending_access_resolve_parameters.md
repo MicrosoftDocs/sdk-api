@@ -74,7 +74,7 @@ A <b>UINT</b>. The number of subresources.
 
 ### -field pSubresourceParameters
 
-A pointer to a constant array of <a href="https://msdn.microsoft.com/1A063782-2EE9-4D79-BF5D-0C160048E95E">D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_SUBRESOURCE_PARAMETERS</a>. These subresources can be a subset of the render target's array slices, but you can't target subresources that aren't part of the render target view (RTV) or the depth/stencil view (DSV).
+A pointer to a constant array of <a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/ns-d3d12-d3d12_render_pass_ending_access_resolve_subresource_parameters">D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_SUBRESOURCE_PARAMETERS</a>. These subresources can be a subset of the render target's array slices, but you can't target subresources that aren't part of the render target view (RTV) or the depth/stencil view (DSV).
 
 
 ### -field Format

@@ -118,7 +118,7 @@ For the <a href="https://msdn.microsoft.com/en-us/library/ms646866(v=VS.85).aspx
 
 
 
-If you do not specify the <b>OFN_EXPLORER</b> flag when you create an <b>Open</b> or <b>Save As</b> dialog box, and you want a hook procedure, you must use an old-style <a href="https://msdn.microsoft.com/ee551824-51f9-422d-9741-96248e3fc8cc">OFNHookProcOldStyle</a> hook procedure. In this case, the dialog box will have the old-style user interface.
+If you do not specify the <b>OFN_EXPLORER</b> flag when you create an <b>Open</b> or <b>Save As</b> dialog box, and you want a hook procedure, you must use an old-style <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms646932(v=vs.85).aspx">OFNHookProcOldStyle</a> hook procedure. In this case, the dialog box will have the old-style user interface.
 
 When you use the <a href="https://msdn.microsoft.com/en-us/library/ms646927(v=VS.85).aspx">GetOpenFileName</a> or <a href="https://msdn.microsoft.com/en-us/library/ms646928(v=VS.85).aspx">GetSaveFileName</a> functions to create an Explorer-style <b>Open</b> or <b>Save As</b> dialog box, you can provide an <i>OFNHookProc</i> hook procedure. To enable the hook procedure, use the <a href="https://msdn.microsoft.com/en-us/library/ms646839(v=VS.85).aspx">OPENFILENAME</a> structure that you passed to the dialog creation function. Specify the pointer to the hook procedure in the  <b>lpfnHook</b> member and specify the <b>OFN_ENABLEHOOK</b> flag in the  <b>Flags</b> member.
 
@@ -154,7 +154,7 @@ Do not call the <a href="https://msdn.microsoft.com/en-us/library/ms645472(v=VS.
 
 
 
-<a href="https://msdn.microsoft.com/ee551824-51f9-422d-9741-96248e3fc8cc">OFNHookProcOldStyle</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms646932(v=vs.85).aspx">OFNHookProcOldStyle</a>
 
 
 

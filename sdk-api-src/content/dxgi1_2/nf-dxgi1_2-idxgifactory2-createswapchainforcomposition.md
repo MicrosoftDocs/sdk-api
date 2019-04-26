@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a swap chain that you can use to send Direct3D content into the <a href="https://msdn.microsoft.com/40e2d02b-77e8-425f-ac5e-3dcddef08173">DirectComposition</a> API or the <a href="https://msdn.microsoft.com/e41c3007-8e8d-4c37-b098-dc5bcca39302">Windows.UI.Xaml</a> framework to compose in a window.
+Creates a swap chain that you can use to send Direct3D content into the <a href="https://msdn.microsoft.com/40e2d02b-77e8-425f-ac5e-3dcddef08173">DirectComposition</a> API or the <a href="https://docs.microsoft.com/en-us/dotnet/api/windows.ui.xaml">Windows.UI.Xaml</a> framework to compose in a window.
 
 
 ## -parameters
@@ -117,7 +117,7 @@ For info about how to choose a format for the swap chain's back buffer, see <a h
 
 #### Examples
 
-The following code example shows how to use <b>CreateSwapChainForComposition</b> in the <a href="https://msdn.microsoft.com/40e2d02b-77e8-425f-ac5e-3dcddef08173">DirectComposition</a> API or the <a href="https://msdn.microsoft.com/e41c3007-8e8d-4c37-b098-dc5bcca39302">Windows.UI.Xaml</a> framework:
+The following code example shows how to use <b>CreateSwapChainForComposition</b> in the <a href="https://msdn.microsoft.com/40e2d02b-77e8-425f-ac5e-3dcddef08173">DirectComposition</a> API or the <a href="https://docs.microsoft.com/en-us/dotnet/api/windows.ui.xaml">Windows.UI.Xaml</a> framework:
 
 
 ```

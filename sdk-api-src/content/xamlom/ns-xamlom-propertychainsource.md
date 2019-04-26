@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents the source object (a <a href="https://msdn.microsoft.com/745e7a38-841e-4bcc-893b-51577d8811c2">Style</a>) of a target type.
+Represents the source object (a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.style">Style</a>) of a target type.
 
 
 ## -struct-fields

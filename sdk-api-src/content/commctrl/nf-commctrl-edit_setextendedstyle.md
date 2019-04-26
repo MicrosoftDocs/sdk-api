@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Sets extended styles for edit controls using the style mask. You can use this macro or send the <a href="https://msdn.microsoft.com/BA782136-E505-4097-8DF9-C586B1EF7FB3">EM_SETEXTENDEDSTYLE</a> message explicitly.
+Sets extended styles for edit controls using the style mask. You can use this macro or send the <a href="https://docs.microsoft.com/en-us/windows/desktop/controls/em-setextendedstyle">EM_SETEXTENDEDSTYLE</a> message explicitly.
 
 
 ## -parameters

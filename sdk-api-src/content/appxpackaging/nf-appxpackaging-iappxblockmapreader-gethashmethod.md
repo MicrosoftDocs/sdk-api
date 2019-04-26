@@ -59,7 +59,7 @@ Retrieves the URI for the hash algorithm used to create block hashes in the bloc
 
 ### -param hashMethod [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/a9e3688b-d64c-4396-9943-775971d2e739">IUri</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775038(v=vs.85)">IUri</a>**</b>
 
 The hash algorithm used in this block map.
 

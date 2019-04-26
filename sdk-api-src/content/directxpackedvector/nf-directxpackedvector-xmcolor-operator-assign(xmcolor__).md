@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/B799AA06-C51B-440A-93AD-3D3334449E27">XMCOLOR</a> to the current
+This operator assigns the vector component data from one instance of <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a> to the current
   instance of <b>XMCOLOR</b>.
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div><div> </div>
 
@@ -67,7 +67,7 @@ TBD
 
 #### - Color [ref]
 
-Instance of <a href="https://msdn.microsoft.com/B799AA06-C51B-440A-93AD-3D3334449E27">XMCOLOR</a> used to update the current <b>XMCOLOR</b>structure.
+Instance of <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a> used to update the current <b>XMCOLOR</b>structure.
 	    
 
 
@@ -75,7 +75,7 @@ Instance of <a href="https://msdn.microsoft.com/B799AA06-C51B-440A-93AD-3D333444
 
 
 
- The current instance of <a href="https://msdn.microsoft.com/B799AA06-C51B-440A-93AD-3D3334449E27">XMCOLOR</a>whose vector component data has been updated to match those of the <b>XMCOLOR</b>instance specified by the <i>Color</i> argument.
+ The current instance of <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>whose vector component data has been updated to match those of the <b>XMCOLOR</b>instance specified by the <i>Color</i> argument.
 	    
 
 
@@ -90,7 +90,7 @@ Instance of <a href="https://msdn.microsoft.com/B799AA06-C51B-440A-93AD-3D333444
 
 
 
-<a href="https://msdn.microsoft.com/B799AA06-C51B-440A-93AD-3D3334449E27">XMCOLOR</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>
 
 
 

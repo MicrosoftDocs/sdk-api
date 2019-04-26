@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a 3x2 matrix. Used with <a href="https://msdn.microsoft.com/90302283-BB0A-44A9-8CD2-591571EF74ED">GetMatrixTransform</a> and <a href="https://msdn.microsoft.com/AAED8A59-3190-49A0-93AA-F5CAF9088877">SetMatrixTransform</a> to indicate the scaling and translation transform for <a href="https://msdn.microsoft.com/e99a6d0f-d556-4aaa-853a-366853614560">SwapChainPanel</a> swap chains.
+Represents a 3x2 matrix. Used with <a href="https://msdn.microsoft.com/90302283-BB0A-44A9-8CD2-591571EF74ED">GetMatrixTransform</a> and <a href="https://msdn.microsoft.com/AAED8A59-3190-49A0-93AA-F5CAF9088877">SetMatrixTransform</a> to indicate the scaling and translation transform for <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.swapchainpanel0">SwapChainPanel</a> swap chains.
 
 
 ## -struct-fields

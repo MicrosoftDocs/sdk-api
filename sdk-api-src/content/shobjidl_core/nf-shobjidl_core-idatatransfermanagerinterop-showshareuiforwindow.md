@@ -75,7 +75,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method is equivalent to the <a href="https://msdn.microsoft.com/70dc3f13-7374-41f3-9857-cdd99900c9f5">DataTransferManager.ShowShareUI</a> method, except that you specify a window from a multi-window Windows Store app.
+This method is equivalent to the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.datatransfer.datatransfermanager.showshareui">DataTransferManager.ShowShareUI</a> method, except that you specify a window from a multi-window Windows Store app.
 
 
 
@@ -85,11 +85,11 @@ This method is equivalent to the <a href="https://msdn.microsoft.com/70dc3f13-73
 
 
 
-<a href="https://msdn.microsoft.com/21a12246-a49e-4f1e-b539-c35164b488d7">DataTransferManager</a>
+<a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.datatransfer.datatransfermanager">DataTransferManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/70dc3f13-7374-41f3-9857-cdd99900c9f5">DataTransferManager.ShowShareUI</a>
+<a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.datatransfer.datatransfermanager.showshareui">DataTransferManager.ShowShareUI</a>
 
 
 

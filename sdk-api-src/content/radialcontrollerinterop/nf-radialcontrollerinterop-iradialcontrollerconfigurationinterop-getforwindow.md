@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a <a href="https://msdn.microsoft.com/f988ea33-43bf-4b0e-86bc-8ee56f41ed90">RadialControllerConfiguration</a> object bound to the active application.
+Retrieves a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.input.radialcontrollerconfiguration">RadialControllerConfiguration</a> object bound to the active application.
 
 
 ## -parameters
@@ -64,12 +64,12 @@ Handle to the window of the active application.
 
 ### -param riid [in]
 
-The GUID of the <a href="https://msdn.microsoft.com/f988ea33-43bf-4b0e-86bc-8ee56f41ed90">RadialControllerConfiguration</a> object.
+The GUID of the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.input.radialcontrollerconfiguration">RadialControllerConfiguration</a> object.
 
 
 ### -param ppv [out]
 
-Address of a pointer to a <a href="https://msdn.microsoft.com/f988ea33-43bf-4b0e-86bc-8ee56f41ed90">RadialControllerConfiguration</a> object.
+Address of a pointer to a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.input.radialcontrollerconfiguration">RadialControllerConfiguration</a> object.
 
 
 ## -returns

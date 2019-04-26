@@ -118,7 +118,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/ae9de21b-c5c7-48da-8f97-1fa3ec19b83b">XMMatrixOrthographicOffCenterLH</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmmatrixorthographicoffcenterlh">XMMatrixOrthographicOffCenterLH</a>
  
 
  

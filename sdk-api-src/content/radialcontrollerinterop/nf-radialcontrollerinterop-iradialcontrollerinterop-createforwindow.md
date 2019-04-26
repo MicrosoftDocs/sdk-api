@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Instantiates a <a href="https://msdn.microsoft.com/5cd9534d-bdd7-49fa-81c7-a5ddca4e851a">RadialController</a> object and binds it to the active application.
+Instantiates a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.input.radialcontroller">RadialController</a> object and binds it to the active application.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ The REFIID, or GUID, of the interface to the resource can be obtained by using t
 
 ### -param ppv [out]
 
-Address of a pointer to a <a href="https://msdn.microsoft.com/5cd9534d-bdd7-49fa-81c7-a5ddca4e851a">RadialController</a> object.
+Address of a pointer to a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.input.radialcontroller">RadialController</a> object.
 
 
 ## -returns

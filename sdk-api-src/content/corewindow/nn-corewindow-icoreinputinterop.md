@@ -73,7 +73,7 @@ The <b>ICoreInputInterop</b> interface has these methods.
 <a href="https://msdn.microsoft.com/693180F5-2C19-47CD-9514-F0CEA1849A4A">SetInputSource</a>
 </td>
 <td align="left" width="63%">
-Sets the input source for an app's <a href="https://msdn.microsoft.com/917cbf9f-bd19-4e05-bcd1-cf6a86f16e65">CoreIndependentInputSource</a> or <a href="https://msdn.microsoft.com/3075a07b-c432-482e-a44b-494014ff13fc">CoreComponentInputSource</a>.
+Sets the input source for an app's <a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.toolkit.win32.ui.controls.interop.winrt.coreindependentinputsource">CoreIndependentInputSource</a> or <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.core.corecomponentinputsource">CoreComponentInputSource</a>.
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ Sets whether or not the message to the <a href="https://msdn.microsoft.com/60b1c
 
 
 
-The <a href="https://msdn.microsoft.com/917cbf9f-bd19-4e05-bcd1-cf6a86f16e65">CoreIndependentInputSource</a> or <a href="https://msdn.microsoft.com/3075a07b-c432-482e-a44b-494014ff13fc">CoreComponentInputSource</a> object defines the basic keyboard and pointer input events  for a Windows Store app.
+The <a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.toolkit.win32.ui.controls.interop.winrt.coreindependentinputsource">CoreIndependentInputSource</a> or <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.core.corecomponentinputsource">CoreComponentInputSource</a> object defines the basic keyboard and pointer input events  for a Windows Store app.
 
 
 
@@ -118,11 +118,11 @@ The <a href="https://msdn.microsoft.com/917cbf9f-bd19-4e05-bcd1-cf6a86f16e65">Co
 
 
 
-<a href="https://msdn.microsoft.com/3075a07b-c432-482e-a44b-494014ff13fc">CoreComponentInputSource</a>
+<a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.core.corecomponentinputsource">CoreComponentInputSource</a>
 
 
 
-<a href="https://msdn.microsoft.com/917cbf9f-bd19-4e05-bcd1-cf6a86f16e65">CoreIndependentInputSource</a>
+<a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.toolkit.win32.ui.controls.interop.winrt.coreindependentinputsource">CoreIndependentInputSource</a>
 
 
 

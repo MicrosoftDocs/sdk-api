@@ -68,7 +68,7 @@ A handle to an existing DSA.
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775711(v=VS.85).aspx">PFNDAENUMCALLBACK</a>*</b>
 
-A callback function pointer. See <a href="https://msdn.microsoft.com/2309ab9f-bf2e-413a-bf4f-b2782cd5af9e">PFNDSAENUMCALLBACK</a> for the callback function prototype.
+A callback function pointer. See <a href="https://docs.microsoft.com/en-us/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndaenumcallback">PFNDSAENUMCALLBACK</a> for the callback function prototype.
 
 
 ### -param pData [in]

@@ -104,7 +104,7 @@ We recommend that you use the <a href="https://msdn.microsoft.com/268B59FA-44EB-
 
 
 
-<a href="https://msdn.microsoft.com/dec8e90e-2cbb-497c-ad7f-c77c713af83c">RandomAccessStream</a>
+<a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.streams.randomaccessstream">RandomAccessStream</a>
  
 
  

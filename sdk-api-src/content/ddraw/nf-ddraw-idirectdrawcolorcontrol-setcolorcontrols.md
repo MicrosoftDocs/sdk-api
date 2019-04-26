@@ -61,7 +61,7 @@ Sets the color-control options for an overlay or a primary surface.
 
 #### - lpColorControl [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/69408101-9f19-4b89-bfcf-2af185c62807">DDCOLORCONTROL</a> structure that contains the new control settings to apply.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/77c19de1-a046-4752-b9af-a9865861a493">DDCOLORCONTROL</a> structure that contains the new control settings to apply.
 
 
 ## -returns

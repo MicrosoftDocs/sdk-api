@@ -61,7 +61,7 @@ Retrieves the capabilities of this surface. These capabilities are not necessari
 
 #### - lpDDSCaps [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/a2fd448c-0ae1-43cd-8561-77d537b741e7">DDSCAPS2</a> structure that receives the hardware capabilities of this surface.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff550292(v=vs.85).aspx">DDSCAPS2</a> structure that receives the hardware capabilities of this surface.
 
 
 ## -returns
@@ -85,7 +85,7 @@ If it fails, the method can return one of the following error values:
 
 
 
-The <b>IDirectDrawSurface7::GetCaps</b> method differs from its counterpart in the <b>IDirectDrawSurface3</b> interface in that it accepts a pointer to a <a href="https://msdn.microsoft.com/a2fd448c-0ae1-43cd-8561-77d537b741e7">DDSCAPS2</a> structure, rather than the legacy <a href="https://msdn.microsoft.com/d7c4025c-dbb6-4182-b730-c69abd97f2bb">DDSCAPS</a> structure.
+The <b>IDirectDrawSurface7::GetCaps</b> method differs from its counterpart in the <b>IDirectDrawSurface3</b> interface in that it accepts a pointer to a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff550292(v=vs.85).aspx">DDSCAPS2</a> structure, rather than the legacy <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff550286(v=vs.85).aspx">DDSCAPS</a> structure.
 
 
 

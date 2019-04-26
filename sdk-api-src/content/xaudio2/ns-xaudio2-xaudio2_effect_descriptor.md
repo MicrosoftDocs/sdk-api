@@ -76,7 +76,7 @@ Number of output channels the effect should produce.
 
 
 
-XAPO instances are passed to XAudio2 as <b>IUnknown</b> interfaces and XAudio2 uses <a href="https://msdn.microsoft.com/730A07AF-FCD9-4BF3-BFD1-28DA8D91876F">IXAPO::QueryInterface</a> to acquire an <a href="https://msdn.microsoft.com/en-us/library/Ee415893(v=VS.85).aspx">IXAPO</a> interface and to detect whether the XAPO implements the <a href="https://msdn.microsoft.com/en-us/library/Ee415896(v=VS.85).aspx">IXAPOParameters</a> interface.
+XAPO instances are passed to XAudio2 as <b>IUnknown</b> interfaces and XAudio2 uses <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ee418457(v=vs.85).aspx">IXAPO::QueryInterface</a> to acquire an <a href="https://msdn.microsoft.com/en-us/library/Ee415893(v=VS.85).aspx">IXAPO</a> interface and to detect whether the XAPO implements the <a href="https://msdn.microsoft.com/en-us/library/Ee415896(v=VS.85).aspx">IXAPOParameters</a> interface.
 
 
 

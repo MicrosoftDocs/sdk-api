@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Records the execution (or invocation) of the specified meta command into a graphics command list.
 
-Call <a href="https://msdn.microsoft.com/EC50FE25-27C7-4A5D-B4D1-57D402730AF0">ID3D12GraphicsCommandList4::InitializeMetaCommand</a> before executing a meta command. During invocation, you can specify overrides for values of any of the runtime parameters. You can execute multiple meta commands on the same graphics command list. And you can execute the same meta command multiple times on the same command list.
+Call <a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-initializemetacommand">ID3D12GraphicsCommandList4::InitializeMetaCommand</a> before executing a meta command. During invocation, you can specify overrides for values of any of the runtime parameters. You can execute multiple meta commands on the same graphics command list. And you can execute the same meta command multiple times on the same command list.
 
 With a PIX capture taken with the use of meta commands, you can play that back on the same hardware configuration. But, by design, it's not portable to other GPUs.
 

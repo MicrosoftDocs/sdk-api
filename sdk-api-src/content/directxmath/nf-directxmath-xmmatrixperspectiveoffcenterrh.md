@@ -117,7 +117,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/28b086f8-adb3-4c76-8967-adbf100f5b68">XMMatrixPerspectiveOffCenterLH</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmmatrixperspectiveoffcenterlh">XMMatrixPerspectiveOffCenterLH</a>
  
 
  

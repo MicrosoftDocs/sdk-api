@@ -64,7 +64,7 @@ A pointer to a <b>RECT</b> structure that identifies the region of the surface t
 
 ### -param arg2 [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/507c557f-eb3a-429c-a738-8d715e5d71d3">DDSURFACEDESC2</a> structure that describes relevant details about the surface and that receives information about the surface.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550340">DDSURFACEDESC2</a> structure that describes relevant details about the surface and that receives information about the surface.
 
 
 ### -param arg3 [in]

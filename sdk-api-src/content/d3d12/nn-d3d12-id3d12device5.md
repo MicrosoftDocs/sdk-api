@@ -69,16 +69,16 @@ The <b>ID3D12Device5</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt847458(v=VS.85).aspx">CheckDriverMatchingIdentifier</a>
+<a href="https://msdn.microsoft.com/library/Mt847458(v=VS.85).aspx">CheckDriverMatchingIdentifier</a>
 </td>
 <td align="left" width="63%">
-Reports the compatibility of serialized data, such as a serialized raytracing acceleration structure resulting from a call to <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-copyraytracingaccelerationstructure">CopyRaytracingAccelerationStructure</a> with mode  <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_raytracing_acceleration_structure_copy_mode">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_SERIALIZE</a>, with the current device/driver.
+Reports the compatibility of serialized data, such as a serialized raytracing acceleration structure resulting from a call to <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-copyraytracingaccelerationstructure">CopyRaytracingAccelerationStructure</a> with mode  <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_raytracing_acceleration_structure_copy_mode">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_SERIALIZE</a>, with the current device/driver.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/70AB644F-7406-4271-89C9-8D38FE3B4D7A">CreateMetaCommand</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device5-createmetacommand">CreateMetaCommand</a>
 </td>
 <td align="left" width="63%">
 Creates an instance of the specified meta command.
@@ -87,16 +87,16 @@ Creates an instance of the specified meta command.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt815644(v=VS.85).aspx">CreateStateObject</a>
+<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device5-createstateobject">CreateStateObject</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/en-us/library/Mt815591(v=VS.85).aspx">ID3D12StateObject</a>.
+Creates an <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12stateobject">ID3D12StateObject</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/EA4DD3FE-E11A-4F1C-A765-4B1FCA71FB4B">EnumerateMetaCommandParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device5-enumeratemetacommandparameters">EnumerateMetaCommandParameters</a>
 </td>
 <td align="left" width="63%">
 Queries reflection metadata about the parameters of the specified meta command.
@@ -105,7 +105,7 @@ Queries reflection metadata about the parameters of the specified meta command.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/71A16704-487F-49AA-B229-61CCD15B3037">EnumerateMetaCommands</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device5-enumeratemetacommands">EnumerateMetaCommands</a>
 </td>
 <td align="left" width="63%">
 Queries reflection metadata about available meta commands.
@@ -114,7 +114,7 @@ Queries reflection metadata about available meta commands.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt847459(v=VS.85).aspx">GetRaytracingAccelerationStructurePrebuildInfo</a>
+<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device5-getraytracingaccelerationstructureprebuildinfo">GetRaytracingAccelerationStructurePrebuildInfo</a>
 </td>
 <td align="left" width="63%">
 Query the driver for resource requirements to build an acceleration structure. 

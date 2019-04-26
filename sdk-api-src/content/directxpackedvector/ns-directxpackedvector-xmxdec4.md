@@ -116,7 +116,7 @@ TBD
 
 
 <code>XMXDEC4</code> can be loaded into instances of <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> by using
-	    <a href="https://msdn.microsoft.com/e137bbc4-2f51-4758-9e52-a17ea2444da0">XMLoadXDec4</a>.
+	    <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadxdec4">XMLoadXDec4</a>.
 	
 
 Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMXDEC4</code> with <a href="https://msdn.microsoft.com/en-us/library/Ee420398(v=VS.85).aspx">XMStoreXDec4</a>.

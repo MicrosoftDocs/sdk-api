@@ -59,7 +59,7 @@ Creates an instance of <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84
 
 ### -param arg1
 
-TBD
+A **BoundingOrientedBox** object to copy.
 
 
 

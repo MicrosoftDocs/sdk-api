@@ -57,7 +57,7 @@ Can be used to define custom properties as appropriate.
 
 
 
-<a href="https://msdn.microsoft.com/c93a4cbc-33bb-4de1-ba1c-dcb9b87e92a7">IPropertyBag</a>
+<a href="https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a>
 
 
 

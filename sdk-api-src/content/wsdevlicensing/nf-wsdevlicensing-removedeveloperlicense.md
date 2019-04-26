@@ -66,7 +66,7 @@ The handler to the parent window.
 
 
 
-Returns an <a href="https://msdn.microsoft.com/8613f5d5-3b3b-470c-9ad8-c1941ef429cd">HResult structure</a> with any error codes that occurred.
+Returns an <a href="https://docs.microsoft.com/en-us/uwp/api/windows.foundation.hresult">HResult structure</a> with any error codes that occurred.
 
 
 

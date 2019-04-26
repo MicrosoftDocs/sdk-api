@@ -125,7 +125,7 @@ The SDK version. You must set this parameter to <b>D3D11_SDK_VERSION</b>.
 
 Type: <b>REFIID</b>
 
-The globally unique identifier (GUID) for the emulated interface. This value specifies the behavior of the device when the context state object is active. Valid values are  obtained by using the <b>__uuidof</b> operator on the <a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb694546(v=VS.85).aspx">ID3D10Device1</a>, <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>, and <a href="https://msdn.microsoft.com/DB4DAD13-3CD7-4362-950B-6403328CB071">ID3D11Device1</a> interfaces. See Remarks.
+The globally unique identifier (GUID) for the emulated interface. This value specifies the behavior of the device when the context state object is active. Valid values are  obtained by using the <b>__uuidof</b> operator on the <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb694546(v=VS.85).aspx">ID3D10Device1</a>, <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>, and <a href="https://msdn.microsoft.com/DB4DAD13-3CD7-4362-950B-6403328CB071">ID3D11Device1</a> interfaces. See Remarks.
           
 
 
@@ -215,7 +215,7 @@ The following table shows the methods that are active and inactive for each emul
 
 </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>
+<a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device</a>
 </td>
 </tr>
 <tr>
@@ -225,13 +225,13 @@ The following table shows the methods that are active and inactive for each emul
                 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>
+<a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device</a>
 
 
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>
+<a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device</a>
 
 
 
@@ -271,7 +271,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <th>Methods of <a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a> when <code>__uuidof(ID3D10Device1)</code> or <code>__uuidof(ID3D10Device)</code> is active
               </th>
-<th>Methods of <a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device</a> when <code>__uuidof(ID3D11Device)</code> is active
+<th>Methods of <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device</a> when <code>__uuidof(ID3D11Device)</code> is active
               </th>
 </tr>
 <tr>
@@ -1523,7 +1523,7 @@ The following table shows the immediate context methods that the runtime does no
 <tr>
 <th>Methods of <a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a> when <code>__uuidof(ID3D10Device1)</code> or <code>__uuidof(ID3D10Device)</code> is active
               </th>
-<th>Methods of <a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device</a> when <code>__uuidof(ID3D11Device)</code> is active
+<th>Methods of <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device</a> when <code>__uuidof(ID3D11Device)</code> is active
               </th>
 </tr>
 <tr>
@@ -1603,9 +1603,9 @@ The following table shows the immediate context methods that the runtime does no
 
 
 
-The following table shows the <a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device</a> interface methods that the runtime does not disable because they are not immediate context methods.<table>
+The following table shows the <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device</a> interface methods that the runtime does not disable because they are not immediate context methods.<table>
 <tr>
-<th>Methods of <a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>
+<th>Methods of <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device</a>
 </th>
 </tr>
 <tr>

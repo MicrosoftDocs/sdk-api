@@ -90,7 +90,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/27060dce-7854-48d1-8e91-f39a379e44cb">XMConvertToRadians</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmconverttoradians">XMConvertToRadians</a>
  
 
  

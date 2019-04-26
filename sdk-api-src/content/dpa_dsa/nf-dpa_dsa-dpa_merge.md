@@ -146,16 +146,16 @@ The final size of the array can range between 0 and the smaller of <i>hdpaDest</
 
 ### -param pfnCompare [in]
 
-Type: <b><a href="https://msdn.microsoft.com/b2b03db5-e595-4778-b51a-0087d663b026">PFNDPACOMPARE</a></b>
+Type: <b><a href="https://docs.microsoft.com/en-us/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndacompare">PFNDPACOMPARE</a></b>
 
-The <a href="https://msdn.microsoft.com/b2b03db5-e595-4778-b51a-0087d663b026">PFNDPACOMPARE</a> callback function that compares two elements, one from each DPA, to determine whether they are the same item. If so, the callback function pointed to by <i>pfnCompare</i> is called.
+The <a href="https://docs.microsoft.com/en-us/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndacompare">PFNDPACOMPARE</a> callback function that compares two elements, one from each DPA, to determine whether they are the same item. If so, the callback function pointed to by <i>pfnCompare</i> is called.
 
 
 ### -param pfnMerge [in]
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775721(v=VS.85).aspx">PFNDPAMERGE</a></b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/Bb775721(v=VS.85).aspx">PFNDPAMERGE</a> callback function that merges the contents when an element is found in both DPAs and is found to be the same item by <a href="https://msdn.microsoft.com/b2b03db5-e595-4778-b51a-0087d663b026">PFNDPACOMPARE</a>.
+The <a href="https://msdn.microsoft.com/en-us/library/Bb775721(v=VS.85).aspx">PFNDPAMERGE</a> callback function that merges the contents when an element is found in both DPAs and is found to be the same item by <a href="https://docs.microsoft.com/en-us/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndacompare">PFNDPACOMPARE</a>.
 
 
 ### -param lParam [in]

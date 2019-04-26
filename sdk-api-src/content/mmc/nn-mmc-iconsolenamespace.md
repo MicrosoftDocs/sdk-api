@@ -82,7 +82,7 @@ Enables the snap-in to delete a single item from the scope pane.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2a6f5712-27ae-456b-9889-03c18910a317">GetChildItem</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/mmc/nn-mmc-iconsolenamespace">GetChildItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to get the handle to the first child item.
@@ -118,7 +118,7 @@ Enables the snap-in to get the handle to the parent item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/64d7b53a-f5a7-4735-a54e-a62bff579ba9">InsertItem</a>
+<a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.clradmin.iconsolenamespace2.insertitem">InsertItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to insert a single item into the scope pane.

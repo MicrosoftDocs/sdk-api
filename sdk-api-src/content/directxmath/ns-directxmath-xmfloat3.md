@@ -94,7 +94,7 @@ TBD
 
 
 <code>XMFLOAT3</code> can be loaded into instances of <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1"> XMVECTOR</a> by using
-   <a href="https://msdn.microsoft.com/4564cbae-f99b-46dc-91ba-93b8018d17bb">XMLoadFloat3</a>.
+   <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmloadfloat3">XMLoadFloat3</a>.
 
 Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMFLOAT3</code> with
    <a href="https://msdn.microsoft.com/en-us/library/Ee420329(v=VS.85).aspx">XMStoreFloat3</a>.

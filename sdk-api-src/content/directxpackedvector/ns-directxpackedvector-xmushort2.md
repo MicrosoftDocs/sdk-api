@@ -101,7 +101,7 @@ TBD
 
 
 <code>XMUSHORT2</code> can be loaded into instances of <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> by using
-	    <a href="https://msdn.microsoft.com/0404d49b-9bb8-43e7-8874-10612d5e54bf">XMLoadUShort2</a>.
+	    <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadushort2">XMLoadUShort2</a>.
 	
 
 Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMUSHORT2</code> with <a href="https://msdn.microsoft.com/en-us/library/Ee420387(v=VS.85).aspx">XMStoreUShort2</a>.

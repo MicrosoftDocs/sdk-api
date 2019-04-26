@@ -72,7 +72,7 @@ The <b>IVisualTreeService3</b> interface has these methods.
 <a href="https://msdn.microsoft.com/86590A71-8BFC-4214-9F7C-1DF5B8391552">AddDictionaryItem</a>
 </td>
 <td align="left" width="63%">
-	Adds an item to a <a href="https://msdn.microsoft.com/cb82a1f5-ebcf-4ffd-842b-78313e5eff9c">ResourceDictionary</a>, and re-resolves all elements in the tree that reference a resource with the specified key.
+	Adds an item to a <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.resourcedictionary">ResourceDictionary</a>, and re-resolves all elements in the tree that reference a resource with the specified key.
 
 </td>
 </tr>
@@ -81,7 +81,7 @@ The <b>IVisualTreeService3</b> interface has these methods.
 <a href="https://msdn.microsoft.com/E836FE12-A49A-427C-8013-F1AFBD2C08A2">GetDictionaryItem</a>
 </td>
 <td align="left" width="63%">
-Gets an item from a <a href="https://msdn.microsoft.com/cb82a1f5-ebcf-4ffd-842b-78313e5eff9c">ResourceDictionary</a>.
+Gets an item from a <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.resourcedictionary">ResourceDictionary</a>.
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Gets an item from a <a href="https://msdn.microsoft.com/cb82a1f5-ebcf-4ffd-842b-
 <a href="https://msdn.microsoft.com/6239D855-7408-47ED-9090-E7726E7E403E">RemoveDictionaryItem</a>
 </td>
 <td align="left" width="63%">
-	Removes an item from a <a href="https://msdn.microsoft.com/cb82a1f5-ebcf-4ffd-842b-78313e5eff9c">ResourceDictionary</a>, and re-resolves all elements in the tree that reference a resource with the specified key.
+	Removes an item from a <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.resourcedictionary">ResourceDictionary</a>, and re-resolves all elements in the tree that reference a resource with the specified key.
 
 </td>
 </tr>

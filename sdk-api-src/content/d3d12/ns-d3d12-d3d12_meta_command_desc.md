@@ -73,14 +73,14 @@ The meta command name.
 
 ### -field InitializationDirtyState
 
-Type: <b><a href="https://msdn.microsoft.com/261585A3-CDF1-4559-9E14-9EE710F1D8D9">D3D12_GRAPHICS_STATES</a></b>
+Type: <b><a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/ne-d3d12-d3d12_graphics_states">D3D12_GRAPHICS_STATES</a></b>
 
 Declares the command list states that are modified by the call to initialize the meta command. If all state bits are set, then that's equivalent to calling <a href="https://msdn.microsoft.com/F7C230CE-0E28-466A-8A54-601ECEC6CDC9">ID3D12GraphicsCommandList::ClearState</a>.
 
 
 ### -field ExecutionDirtyState
 
-Type: <b><a href="https://msdn.microsoft.com/261585A3-CDF1-4559-9E14-9EE710F1D8D9">D3D12_GRAPHICS_STATES</a></b>
+Type: <b><a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/ne-d3d12-d3d12_graphics_states">D3D12_GRAPHICS_STATES</a></b>
 
 Declares the command list states that are modified by the call to execute the meta command. If all state bits are set, then that's equivalent to calling <a href="https://msdn.microsoft.com/F7C230CE-0E28-466A-8A54-601ECEC6CDC9">ID3D12GraphicsCommandList::ClearState</a>.
 

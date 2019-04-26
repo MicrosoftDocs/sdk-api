@@ -159,9 +159,11 @@ Indicates a query for whether or not the adapter supports creating heaps from ex
 Starting with Windows 10, version 1809 (10.0; Build 17763), indicates a query for the level of support for render passes, ray tracing, and shader-resource view tier 3 tiled resources. The corresponding data structure for this value is <a href="https://msdn.microsoft.com/en-us/library/Mt830391(v=VS.85).aspx">D3D12_FEATURE_DATA_D3D12_OPTIONS5</a>.
 
 
+### -field D3D12_FEATURE_D3D12_OPTIONS6
+
+Starting with Windows 10, version 1903 (10.0; Build 18362), indicates a query for the level of support for variable-rate shading (VRS), and indicates whether or not background processing is supported. For more info, see <a href="/windows/desktop/direct3d12/vrs">Variable-rate shading (VRS)</a>, and the [Direct3D 12 background processing spec](https://microsoft.github.io/DirectX-Specs/d3d/BackgroundProcessing.html).
+
 ## -remarks
-
-
 
 Use a constant from  this enumeration in a call to <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">ID3D12Device::CheckFeatureSupport</a> to query a driver about support for various Direct3D 12 features.
         Each value in this enumeration has a corresponding data structure that you must pass (by pointer reference) in the <i>pFeatureSupportData</i> parameter

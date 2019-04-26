@@ -72,9 +72,9 @@ A handle to a DSA to walk and destroy.
 
 ### -param pfnCB [in]
 
-Type: <b><a href="https://msdn.microsoft.com/2309ab9f-bf2e-413a-bf4f-b2782cd5af9e">PFNDSAENUMCALLBACK</a></b>
+Type: <b><a href="https://docs.microsoft.com/en-us/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndaenumcallback">PFNDSAENUMCALLBACK</a></b>
 
-A callback function pointer. For the callback function prototype, see <a href="https://msdn.microsoft.com/2309ab9f-bf2e-413a-bf4f-b2782cd5af9e">PFNDSAENUMCALLBACK</a>.
+A callback function pointer. For the callback function prototype, see <a href="https://docs.microsoft.com/en-us/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndaenumcallback">PFNDSAENUMCALLBACK</a>.
 
 
 ### -param pData [in]

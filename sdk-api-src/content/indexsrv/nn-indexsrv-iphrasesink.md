@@ -72,7 +72,7 @@ The <b>IPhraseSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/86bff25f-190c-48f9-abd8-29dceb3e9912">PutPhrase</a>
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/indexsrv/nf-indexsrv-iphrasesink-putphrase">PutPhrase</a>
 </td>
 <td align="left" width="63%">
 Puts a query-time phrase in the PhraseSink object.

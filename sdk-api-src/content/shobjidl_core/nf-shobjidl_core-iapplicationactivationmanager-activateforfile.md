@@ -64,7 +64,7 @@ The application user model ID of the Windows Store app.
 
 ### -param itemArray [in]
 
-A pointer to an array of Shell items, each representing a file. This value is converted to a <a href="https://msdn.microsoft.com/313dd554-73a7-42e7-9321-9b00927ca33d">VectorView</a> of <a href="https://msdn.microsoft.com/552d3c28-b93a-487f-9698-886a52fa7c97">StorageItem</a> objects that is passed to the app through <a href="https://msdn.microsoft.com/511fcaf9-b3de-4f62-a26f-92a5b0575fd7">FileActivatedEventArgs</a>.
+A pointer to an array of Shell items, each representing a file. This value is converted to a <a href="https://docs.microsoft.com/en-us/cpp/cppcx/platform-collections-vectorview-class?view=vs-2019">VectorView</a> of <a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.istorageitem">StorageItem</a> objects that is passed to the app through <a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.activation.fileactivatedeventargs">FileActivatedEventArgs</a>.
 
 
 ### -param verb [in]

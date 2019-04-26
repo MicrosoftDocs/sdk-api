@@ -59,7 +59,7 @@ Copies the content from a Windows runtime property value to a <a href="https://m
 
 ### -param punkPropertyValue [in, optional]
 
-A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface from which this function can access the contents of a Windows runtime property value by retrieving and using the <a href="https://msdn.microsoft.com/29a8e6e5-764b-4de9-84ea-97abdee6b02f">Windows::Foundation::IPropertyValue</a> interface.
+A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface from which this function can access the contents of a Windows runtime property value by retrieving and using the <a href="https://docs.microsoft.com/en-us/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">Windows::Foundation::IPropertyValue</a> interface.
 
 
 ### -param ppropvar [out]

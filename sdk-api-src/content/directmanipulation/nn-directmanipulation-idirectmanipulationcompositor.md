@@ -50,7 +50,8 @@ ms.custom: 19H1
 
 
 
-Represents a compositor object that associates manipulated content with a drawing surface, such as <a href="https://msdn.microsoft.com/642812b4-79da-4f16-834d-a00ea00cbfa3">canvas</a> (Windows app using JavaScript) or <a href="https://msdn.microsoft.com/cb84ddea-b812-4b4d-9c9c-12a8b1132afb">Canvas</a> (Windows Store app using C++, C#, or Visual Basic).
+Represents a compositor object that associates manipulated content with a drawing surface, such as <a href="https://msdn.microsoft.com/642812b4-79da-4f16-834d-a00ea00cbfa3">canvas</a> (Windows app using JavaScript) or <a href="https://docs.microsoft.com/en-us/previous-versions/windows/silverlight/dotnet-windows-silverlight/ms609101(v=vs.95)
+">Canvas</a> (Windows Store app using C++, C#, or Visual Basic).
 
 
 

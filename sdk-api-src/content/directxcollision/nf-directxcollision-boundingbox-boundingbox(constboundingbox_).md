@@ -59,8 +59,7 @@ Creates an instance of the <code>BoundingBox</code> class.
 
 ### -param arg1
 
-TBD
-
+A **BoundingBox** object to copy.
 
 
 

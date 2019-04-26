@@ -61,8 +61,8 @@ Creates or opens a file or I/O device. The most commonly used I/O devices are as
 
 When called from a Windows Store app, <b>CreateFile2</b> 
     is simplified. You can open only files or directories inside the 
-    <a href="https://msdn.microsoft.com/4c8f3655-e2c4-4b97-b211-26e665d90a63">ApplicationData.LocalFolder</a> or 
-    <a href="https://msdn.microsoft.com/a1e5ac4f-d877-4127-afa9-f1c1e3871087">Package.InstalledLocation</a> 
+    <a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.applicationdata.localfolder">ApplicationData.LocalFolder</a> or 
+    <a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.package.installedlocation">Package.InstalledLocation</a> 
     directories. You can't open named pipes or mailslots or create encrypted files 
     (<b>FILE_ATTRIBUTE_ENCRYPTED</b>).
 <div class="alert"><b>Note</b>  We refer here to the app's local folder and the package's installed location, not additional packages in the package graph, like resource packages. <b>CreateFile2</b> doesn't support opening files in additional packages in the package graph. For example, suppose an app has a dependency on <a href="https://msdn.microsoft.com/library/BR212652(v=Win.10).aspx">WinJS</a>. The app can call <b>CreateFile2</b> to open a file in its package but not in the <b>WinJS</b> package.</div><div> </div>To perform this operation as a transacted operation, which results in a handle that can be used for transacted 

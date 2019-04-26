@@ -85,7 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-You can use the <b>ShowPrintUIForWindowAsync</b> method to show the print UI for the specified window. The <b>ShowPrintUIForWindowAsync</b> method is equivalent to the <a href="https://msdn.microsoft.com/74a7b687-909d-42f2-bb58-83b5be474d9c">ShowPrintUIAsync</a> method, except that you supply a reference to a window from a multi-window Windows Store app.
+You can use the <b>ShowPrintUIForWindowAsync</b> method to show the print UI for the specified window. The <b>ShowPrintUIForWindowAsync</b> method is equivalent to the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.graphics.printing.printmanager.showprintuiasync">ShowPrintUIAsync</a> method, except that you supply a reference to a window from a multi-window Windows Store app.
 
 
 
@@ -99,11 +99,11 @@ You can use the <b>ShowPrintUIForWindowAsync</b> method to show the print UI for
 
 
 
-<a href="https://msdn.microsoft.com/81ad3b9b-36f2-46c0-8315-1d2bdfcebe75">PrintManager</a>
+<a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Graphics.Printing.PrintManager">PrintManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/74a7b687-909d-42f2-bb58-83b5be474d9c">ShowPrintUIAsync</a>
+<a href="https://docs.microsoft.com/en-us/uwp/api/windows.graphics.printing.printmanager.showprintuiasync">ShowPrintUIAsync</a>
  
 
  

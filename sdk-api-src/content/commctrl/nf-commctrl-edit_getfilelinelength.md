@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Gets the length of the file (or logical) line of text from the specified character index  (text wrap delimiters are ignored). You can use this macro or send the <a href="https://msdn.microsoft.com/B8F4039B-5969-4384-ABFF-D06FB451A278">EM_FILELINELENGTH</a> message explicitly.
+Gets the length of the file (or logical) line of text from the specified character index  (text wrap delimiters are ignored). You can use this macro or send the <a href="https://docs.microsoft.com/en-us/windows/desktop/controls/em-filelinelength">EM_FILELINELENGTH</a> message explicitly.
 
 
 ## -parameters

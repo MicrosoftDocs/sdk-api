@@ -187,6 +187,9 @@ DEPTH_READ is a state which can be combined with other states. It should be used
 
 ### -field D3D12_RESOURCE_STATE_RAYTRACING_ACCELERATION_STRUCTURE
 
+### D3D12_RESOURCE_STATE_SHADING_RATE_SOURCE
+
+Starting with Windows 10, version 1903 (10.0; Build 18362), indicates that the resource is a screen-space shading-rate image for variable-rate shading (VRS). For more info, see [Variable-rate shading (VRS)](/windows/desktop/direct3d12/vrs).
 
 ### -field D3D12_RESOURCE_STATE_GENERIC_READ
 

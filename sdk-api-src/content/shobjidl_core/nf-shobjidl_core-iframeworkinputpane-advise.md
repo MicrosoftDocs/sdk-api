@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Registers the app's input pane handler object to receive notifications on behalf of a window when an event triggers the input pane. This method differs from <a href="https://msdn.microsoft.com/6C4F52DC-0ED0-4A2D-9C5F-F29063E1AAEE">AdviseWithHWND</a> in that it references its window through an object that implements <a href="https://msdn.microsoft.com/34222b7d-b501-4d5e-8e6e-f1cb8fbdbfc9">ICoreWindow</a>.
+Registers the app's input pane handler object to receive notifications on behalf of a window when an event triggers the input pane. This method differs from <a href="https://msdn.microsoft.com/6C4F52DC-0ED0-4A2D-9C5F-F29063E1AAEE">AdviseWithHWND</a> in that it references its window through an object that implements <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.core.icorewindow">ICoreWindow</a>.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Registers the app's input pane handler object to receive notifications on behalf
 
 Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
 
-A pointer to the window (an object that implements <a href="https://msdn.microsoft.com/34222b7d-b501-4d5e-8e6e-f1cb8fbdbfc9">ICoreWindow</a>) for which the handler should listen for input pane events.
+A pointer to the window (an object that implements <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.core.icorewindow">ICoreWindow</a>) for which the handler should listen for input pane events.
 
 
 ### -param pHandler [in]

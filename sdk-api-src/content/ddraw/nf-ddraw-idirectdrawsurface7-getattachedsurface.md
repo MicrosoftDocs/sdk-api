@@ -59,7 +59,7 @@ Obtains the attached surface that has the specified capabilities, and increments
 
 ### -param arg1 [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/a2fd448c-0ae1-43cd-8561-77d537b741e7">DDSCAPS2</a> structure that indicates the hardware capabilities of the attached surface.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff550292(v=vs.85).aspx">DDSCAPS2</a> structure that indicates the hardware capabilities of the attached surface.
 
 
 ### -param arg2 [out]

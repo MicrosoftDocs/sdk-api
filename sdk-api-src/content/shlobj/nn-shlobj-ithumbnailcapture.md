@@ -74,7 +74,7 @@ The <b>IThumbnailCapture</b> interface has these methods.
 <a href="https://msdn.microsoft.com/3f492199-f40c-416f-b20f-84bd5c3b3709">CaptureThumbnail</a>
 </td>
 <td align="left" width="63%">
-Retrieves a thumbnail representation of an <a href="https://msdn.microsoft.com/d713c045-ab50-465d-96b6-a20c40093f97">IHTMLDocument2</a> document.
+Retrieves a thumbnail representation of an <a href="https://docs.microsoft.com/en-us/dotnet/api/mshtml.ihtmldocument2?view=powershellsdk-1.1.0">IHTMLDocument2</a> document.
         
             
 
