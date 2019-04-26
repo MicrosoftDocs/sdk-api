@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DISK_PERFORMANCE
-title: DISK_PERFORMANCE (winioctl.h)
+title: DISK_PERFORMANCE
 author: windows-sdk-content
 description: Provides disk performance information.
 old-location: fs\disk_performance_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: DISK_PERFORMANCE, *PDISK_PERFORMANCE
 req.redist: 
-ms.custom: 19H1
 ---
 
 # DISK_PERFORMANCE structure

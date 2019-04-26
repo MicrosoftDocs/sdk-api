@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._TXFS_CREATE_MINIVERSION_INFO
-title: TXFS_CREATE_MINIVERSION_INFO (winioctl.h)
+title: TXFS_CREATE_MINIVERSION_INFO
 author: windows-sdk-content
 description: Contains the version information about the miniversion created by FSCTL_TXFS_CREATE_MINIVERSION.
 old-location: fs\txfs_create_miniversion_info.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: TXFS_CREATE_MINIVERSION_INFO, *PTXFS_CREATE_MINIVERSION_INFO
 req.redist: 
-ms.custom: 19H1
 ---
 
 # TXFS_CREATE_MINIVERSION_INFO structure

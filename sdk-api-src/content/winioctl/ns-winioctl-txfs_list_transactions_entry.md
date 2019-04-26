@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._TXFS_LIST_TRANSACTIONS_ENTRY
-title: TXFS_LIST_TRANSACTIONS_ENTRY (winioctl.h)
+title: TXFS_LIST_TRANSACTIONS_ENTRY
 author: windows-sdk-content
 description: Contains information about a transaction.
 old-location: fs\txfs_list_transactions_entry.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: TXFS_LIST_TRANSACTIONS_ENTRY, *PTXFS_LIST_TRANSACTIONS_ENTRY
 req.redist: 
-ms.custom: 19H1
 ---
 
 # TXFS_LIST_TRANSACTIONS_ENTRY structure

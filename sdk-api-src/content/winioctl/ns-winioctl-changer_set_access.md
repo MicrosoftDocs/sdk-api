@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._CHANGER_SET_ACCESS
-title: CHANGER_SET_ACCESS (winioctl.h)
+title: CHANGER_SET_ACCESS
 author: windows-sdk-content
 description: Contains information that the IOCTL_CHANGER_SET_ACCESS control code needs to set the state of the device's insert/eject port, door, or keypad.
 old-location: base\changer_set_access_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: CHANGER_SET_ACCESS, *PCHANGER_SET_ACCESS
 req.redist: 
-ms.custom: 19H1
 ---
 
 # CHANGER_SET_ACCESS structure

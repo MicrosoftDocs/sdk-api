@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DEVICE_WRITE_AGGREGATION_DESCRIPTOR
-title: DEVICE_WRITE_AGGREGATION_DESCRIPTOR (winioctl.h)
+title: DEVICE_WRITE_AGGREGATION_DESCRIPTOR
 author: windows-sdk-content
 description: Reserved for system use.
 old-location: fs\device_write_aggregation_descriptor.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: DEVICE_WRITE_AGGREGATION_DESCRIPTOR, *PDEVICE_WRITE_AGGREGATION_DESCRIPTOR
 req.redist: 
-ms.custom: 19H1
 ---
 
 # DEVICE_WRITE_AGGREGATION_DESCRIPTOR structure

@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._TXFS_WRITE_BACKUP_INFORMATION
-title: TXFS_WRITE_BACKUP_INFORMATION (winioctl.h)
+title: TXFS_WRITE_BACKUP_INFORMATION
 author: windows-sdk-content
 description: Contains a Transactional NTFS (TxF) specific structure. This information should only be used when calling TXFS_WRITE_BACKUP_INFORMATION.
 old-location: fs\txfs_write_backup_information.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: TXFS_WRITE_BACKUP_INFORMATION, *PTXFS_WRITE_BACKUP_INFORMATION
 req.redist: 
-ms.custom: 19H1
 ---
 
 # TXFS_WRITE_BACKUP_INFORMATION structure

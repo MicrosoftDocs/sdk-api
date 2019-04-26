@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DISK_GEOMETRY_EX
-title: DISK_GEOMETRY_EX (winioctl.h)
+title: DISK_GEOMETRY_EX
 author: windows-sdk-content
 description: Describes the extended geometry of disk devices and media.
 old-location: fs\disk_geometry_ex_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: DISK_GEOMETRY_EX, *PDISK_GEOMETRY_EX
 req.redist: 
-ms.custom: 19H1
 ---
 
 # DISK_GEOMETRY_EX structure
@@ -84,27 +83,35 @@ Any additional data. For more information, see Remarks.
     <b>DISK_GEOMETRY_EX</b> structure, use the following 
     macro to access the <b>DISK_DETECTION_INFO</b> structure.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 PDISK_DETECTION_INFO DiskGeometryGetDetect(
   PDISK_GEOMETRY_EX Geometry
-);
-```
-
-
+);</pre>
+</td>
+</tr>
+</table></span></div>
 Similarly, use the following macro to access the 
     <a href="https://msdn.microsoft.com/34a086fc-72ea-46ed-adb3-c084abcb3c74">DISK_PARTITION_INFO</a> structure.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 PDISK_PARTITION_INFO DiskGeometryGetPartition(
   PDISK_GEOMETRY_EX Geometry
-);
-```
-
-
+);</pre>
+</td>
+</tr>
+</table></span></div>
 The information returned does not include the number of partitions nor the partition information contained in the 
     <a href="https://msdn.microsoft.com/2c8fa83a-0694-4e17-a9e4-87f839a0d458">PARTITION_INFORMATION</a> structure. To obtain 
     this information, use the 

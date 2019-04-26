@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._TXFS_SAVEPOINT_INFORMATION
-title: TXFS_SAVEPOINT_INFORMATION (winioctl.h)
+title: TXFS_SAVEPOINT_INFORMATION
 author: windows-sdk-content
 description: The FSCTL_TXFS_SAVEPOINT_INFORMATION structure specifies the action to perform, and on which transaction.
 old-location: fs\txfs_savepoint_information.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: TXFS_SAVEPOINT_INFORMATION, *PTXFS_SAVEPOINT_INFORMATION
 req.redist: 
-ms.custom: 19H1
 ---
 
 # TXFS_SAVEPOINT_INFORMATION structure

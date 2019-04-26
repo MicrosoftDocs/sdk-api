@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_PROTOCOL_SPECIFIC_DATA
-title: STORAGE_PROTOCOL_SPECIFIC_DATA (winioctl.h)
+title: STORAGE_PROTOCOL_SPECIFIC_DATA
 author: windows-sdk-content
 description: Describes protocol-specific device data, provided in the input and output buffer of an IOCTL_STORAGE_QUERY_PROPERTY request.
 old-location: fs\storage_protocol_specific_data.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_PROTOCOL_SPECIFIC_DATA, *PSTORAGE_PROTOCOL_SPECIFIC_DATA
 req.redist: 
-ms.custom: 19H1
 ---
 
 # STORAGE_PROTOCOL_SPECIFIC_DATA structure
@@ -93,6 +92,11 @@ The returned data.
 
 
 ### -field ProtocolDataRequestSubValue2
+
+ 
+
+
+### -field ProtocolDataRequestSubValue3
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_PROTOCOL_COMMAND
-title: STORAGE_PROTOCOL_COMMAND (winioctl.h)
+title: STORAGE_PROTOCOL_COMMAND
 author: windows-sdk-content
 description: This structure is used as an input buffer when using the pass-through mechanism to issue a vendor-specific command to a storage device (via IOCTL_STORAGE_PROTOCOL_COMMAND).
 old-location: fs\storage_protocol_command.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_PROTOCOL_COMMAND, *PSTORAGE_PROTOCOL_COMMAND
 req.redist: 
-ms.custom: 19H1
 ---
 
 # STORAGE_PROTOCOL_COMMAND structure

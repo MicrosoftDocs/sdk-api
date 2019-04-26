@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._FILESYSTEM_STATISTICS
-title: FILESYSTEM_STATISTICS (winioctl.h)
+title: FILESYSTEM_STATISTICS
 author: windows-sdk-content
 description: Contains statistical information from the file system.
 old-location: fs\filesystem_statistics.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: FILESYSTEM_STATISTICS, *PFILESYSTEM_STATISTICS
 req.redist: 
-ms.custom: 19H1
 ---
 
 # FILESYSTEM_STATISTICS structure

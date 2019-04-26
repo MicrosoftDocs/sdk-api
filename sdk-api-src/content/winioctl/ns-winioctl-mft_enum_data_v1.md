@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl.__unnamed_struct_15
-title: MFT_ENUM_DATA_V1 (winioctl.h)
+title: MFT_ENUM_DATA_V1
 author: windows-sdk-content
 description: Contains information defining the boundaries for and starting place of an enumeration of update sequence number (USN) change journal records for ReFS volumes.
 old-location: fs\mft_enum_data_v1.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: MFT_ENUM_DATA_V1, *PMFT_ENUM_DATA_V1
 req.redist: 
-ms.custom: 19H1
 ---
 
 # MFT_ENUM_DATA_V1 structure

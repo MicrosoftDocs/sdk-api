@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT
-title: CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT (winioctl.h)
+title: CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT
 author: windows-sdk-content
 description: Contains troubleshooting information about why a volume is in redirected mode.
 old-location: fs\csv_query_veto_file_direct_io_output.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT, *PCSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT
 req.redist: 
-ms.custom: 19H1
 ---
 
 # CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT structure

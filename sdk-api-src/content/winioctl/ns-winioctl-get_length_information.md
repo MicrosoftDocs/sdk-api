@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._GET_LENGTH_INFORMATION
-title: GET_LENGTH_INFORMATION (winioctl.h)
+title: GET_LENGTH_INFORMATION
 author: windows-sdk-content
 description: Contains disk, volume, or partition length information used by the IOCTL_DISK_GET_LENGTH_INFO control code.
 old-location: fs\get_length_information_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: GET_LENGTH_INFORMATION, *PGET_LENGTH_INFORMATION
 req.redist: 
-ms.custom: 19H1
 ---
 
 # GET_LENGTH_INFORMATION structure

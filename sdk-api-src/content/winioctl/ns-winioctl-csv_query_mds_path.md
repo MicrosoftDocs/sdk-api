@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._CSV_QUERY_MDS_PATH
-title: CSV_QUERY_MDS_PATH (winioctl.h)
+title: CSV_QUERY_MDS_PATH
 author: windows-sdk-content
 description: Contains the path that is used by CSV to communicate to the MDS.
 old-location: fs\csv_query_mds_path.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: CSV_QUERY_MDS_PATH, *PCSV_QUERY_MDS_PATH
 req.redist: 
-ms.custom: 19H1
 ---
 
 # CSV_QUERY_MDS_PATH structure

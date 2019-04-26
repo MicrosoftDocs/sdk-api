@@ -1,6 +1,6 @@
 ---
 UID: NE:winioctl._FILE_STORAGE_TIER_MEDIA_TYPE
-title: FILE_STORAGE_TIER_MEDIA_TYPE (winioctl.h)
+title: FILE_STORAGE_TIER_MEDIA_TYPE
 author: windows-sdk-content
 description: Specifies the storage media type.
 old-location: fs\file_storage_tier_media_type.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_STORAGE_TIER_MEDIA_TYPE, *PFILE_STORAGE_TIER_MEDIA_TYPE
 req.redist: 
-ms.custom: 19H1
 ---
 
 # FILE_STORAGE_TIER_MEDIA_TYPE enumeration

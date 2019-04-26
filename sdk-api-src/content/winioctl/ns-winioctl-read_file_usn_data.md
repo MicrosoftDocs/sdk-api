@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl.__unnamed_struct_17
-title: READ_FILE_USN_DATA (winioctl.h)
+title: READ_FILE_USN_DATA
 author: windows-sdk-content
 description: Specifies the versions of the update sequence number (USN) change journal supported by the application.
 old-location: fs\read_file_usn_data.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: READ_FILE_USN_DATA, *PREAD_FILE_USN_DATA
 req.redist: 
-ms.custom: 19H1
 ---
 
 # READ_FILE_USN_DATA structure

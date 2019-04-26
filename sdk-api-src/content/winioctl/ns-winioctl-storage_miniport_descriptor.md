@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_MINIPORT_DESCRIPTOR
-title: STORAGE_MINIPORT_DESCRIPTOR (winioctl.h)
+title: STORAGE_MINIPORT_DESCRIPTOR
 author: windows-sdk-content
 description: Reserved for system use.
 old-location: fs\storage_miniport_descriptor.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_MINIPORT_DESCRIPTOR, *PSTORAGE_MINIPORT_DESCRIPTOR
 req.redist: 
-ms.custom: 19H1
 ---
 
 # STORAGE_MINIPORT_DESCRIPTOR structure

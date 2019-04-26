@@ -1,6 +1,6 @@
 ---
 UID: NE:winioctl._STORAGE_PORT_CODE_SET
-title: STORAGE_PORT_CODE_SET (winioctl.h)
+title: STORAGE_PORT_CODE_SET
 author: windows-sdk-content
 description: Reserved for system use.
 old-location: fs\storage_port_code_set.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_PORT_CODE_SET, *PSTORAGE_PORT_CODE_SET
 req.redist: 
-ms.custom: 19H1
 ---
 
 # STORAGE_PORT_CODE_SET enumeration

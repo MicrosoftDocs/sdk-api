@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_SPEC_VERSION
-title: STORAGE_SPEC_VERSION (winioctl.h)
+title: STORAGE_SPEC_VERSION
 author: windows-sdk-content
 description: Storage specification version.
 old-location: fs\storage_spec_version.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_SPEC_VERSION, *PSTORAGE_SPEC_VERSION
 req.redist: 
-ms.custom: 19H1
 ---
 
 # STORAGE_SPEC_VERSION structure

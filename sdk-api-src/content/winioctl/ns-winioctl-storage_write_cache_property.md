@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_WRITE_CACHE_PROPERTY
-title: STORAGE_WRITE_CACHE_PROPERTY (winioctl.h)
+title: STORAGE_WRITE_CACHE_PROPERTY
 author: windows-sdk-content
 description: Used with the IOCTL_STORAGE_QUERY_PROPERTY control code to retrieve information about a device's write cache property.
 old-location: fs\storage_write_cache_property.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_WRITE_CACHE_PROPERTY, *PSTORAGE_WRITE_CACHE_PROPERTY
 req.redist: 
-ms.custom: 19H1
 ---
 
 # STORAGE_WRITE_CACHE_PROPERTY structure

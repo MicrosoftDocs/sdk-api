@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._PARTITION_INFORMATION_GPT
-title: PARTITION_INFORMATION_GPT (winioctl.h)
+title: PARTITION_INFORMATION_GPT
 author: windows-sdk-content
 description: Contains GUID partition table (GPT) partition information.
 old-location: fs\partition_information_gpt_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: PARTITION_INFORMATION_GPT, *PPARTITION_INFORMATION_GPT
 req.redist: 
-ms.custom: 19H1
 ---
 
 # PARTITION_INFORMATION_GPT structure
@@ -310,8 +309,7 @@ The GPT partition format is required for disks that are used to boot computers t
     Extended Firmware Interface (EFI) firmware. GPT data disks can reside on x86, x64, and Itanium-based 
     architectures.
 
-For more information about EFI, see 
-    <a href="Http://go.microsoft.com/fwlink/p/?linkid=84097">Firmware and Boot Environment</a>. Starting with 
+Starting with 
     Windows Server 2003 with SP1, GPT is supported on all Windows platforms, not only platforms that use 
     EFI.
 

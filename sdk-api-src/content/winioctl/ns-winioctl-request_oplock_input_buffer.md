@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._REQUEST_OPLOCK_INPUT_BUFFER
-title: REQUEST_OPLOCK_INPUT_BUFFER (winioctl.h)
+title: REQUEST_OPLOCK_INPUT_BUFFER
 author: windows-sdk-content
 description: Contains the information to request an opportunistic lock (oplock) or to acknowledge an oplock break with the FSCTL_REQUEST_OPLOCK control code.
 old-location: fs\request_oplock_input_buffer.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: REQUEST_OPLOCK_INPUT_BUFFER, *PREQUEST_OPLOCK_INPUT_BUFFER
 req.redist: 
-ms.custom: 19H1
 ---
 
 # REQUEST_OPLOCK_INPUT_BUFFER structure

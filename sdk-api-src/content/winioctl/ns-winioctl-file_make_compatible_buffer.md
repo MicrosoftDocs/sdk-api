@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._FILE_MAKE_COMPATIBLE_BUFFER
-title: FILE_MAKE_COMPATIBLE_BUFFER (winioctl.h)
+title: FILE_MAKE_COMPATIBLE_BUFFER
 author: windows-sdk-content
 description: Specifies the disc to close the current session for. This control code is used for UDF file systems. This structure is used for input when calling FSCTL_MAKE_MEDIA_COMPATIBLE.
 old-location: fs\file_make_compatible_buffer.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: FILE_MAKE_COMPATIBLE_BUFFER, *PFILE_MAKE_COMPATIBLE_BUFFER
 req.redist: 
-ms.custom: 19H1
 ---
 
 # FILE_MAKE_COMPATIBLE_BUFFER structure

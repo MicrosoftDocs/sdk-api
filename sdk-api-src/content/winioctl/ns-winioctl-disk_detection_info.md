@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DISK_DETECTION_INFO
-title: DISK_DETECTION_INFO (winioctl.h)
+title: DISK_DETECTION_INFO
 author: windows-sdk-content
 description: Contains detected drive parameters.
 old-location: fs\disk_detection_info_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: DISK_DETECTION_INFO, *PDISK_DETECTION_INFO
 req.redist: 
-ms.custom: 19H1
 ---
 
 # DISK_DETECTION_INFO structure

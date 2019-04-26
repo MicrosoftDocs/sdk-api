@@ -1,6 +1,6 @@
 ---
 UID: NE:winioctl._STORAGE_QUERY_TYPE
-title: STORAGE_QUERY_TYPE (winioctl.h)
+title: STORAGE_QUERY_TYPE
 author: windows-sdk-content
 description: Used by the STORAGE_PROPERTY_QUERY structure passed to the IOCTL_STORAGE_QUERY_PROPERTY control code to indicate what information is returned about a property of a storage device or adapter.
 old-location: fs\storage_query_type.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_QUERY_TYPE, *PSTORAGE_QUERY_TYPE
 req.redist: 
-ms.custom: 19H1
 ---
 
 # STORAGE_QUERY_TYPE enumeration

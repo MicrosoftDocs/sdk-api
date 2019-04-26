@@ -1,6 +1,6 @@
 ---
 UID: NE:winioctl._STORAGE_PROPERTY_ID
-title: STORAGE_PROPERTY_ID (winioctl.h)
+title: STORAGE_PROPERTY_ID
 author: windows-sdk-content
 description: Enumerates the possible values of the PropertyId member of the STORAGE_PROPERTY_QUERY structure passed as input to the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the properties of a storage device or adapter.
 old-location: fs\storage_property_id.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_PROPERTY_ID, *PSTORAGE_PROPERTY_ID
 req.redist: 
-ms.custom: 19H1
 ---
 
 # STORAGE_PROPERTY_ID enumeration
@@ -96,7 +95,7 @@ Reserved for system use.
 
 ### -field StorageAccessAlignmentProperty
 
-Indicates that the caller is querying for the access alignment descriptor, <a href="https://msdn.microsoft.com/en-us/library/Ff800831(v=VS.85).aspx">STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR</a>.
+Indicates that the caller is querying for the access alignment descriptor, <a href="https://msdn.microsoft.com/99f33d12-5da0-4ed9-a20f-5e808a610545">STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR</a>.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported before Windows Vista and Windows Server 2008.
 
@@ -127,7 +126,7 @@ Reserved for system use.
 
 ### -field StorageDeviceLBProvisioningProperty
 
-Indicates that the caller is querying for the logical block provisioning property. Data is returned using the <a href="https://msdn.microsoft.com/en-us/library/Hh449432(v=VS.85).aspx">DEVICE_LB_PROVISIONING_DESCRIPTOR</a> structure.
+Indicates that the caller is querying for the logical block provisioning property. Data is returned using the <a href="https://msdn.microsoft.com/dbc46b33-9e9d-4ccf-9bc9-1df70738fa73">DEVICE_LB_PROVISIONING_DESCRIPTOR</a> structure.
 
 <b>Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported before Windows 8 and Windows Server 2012.
 
@@ -153,7 +152,7 @@ Reserved for system use.
 
 ### -field StorageDeviceMediumProductType
 
-Indicates that the caller is querying for the medium product type. Data is returned using the <a href="https://msdn.microsoft.com/en-us/library/Mt718122(v=VS.85).aspx">STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR</a> structure.
+Indicates that the caller is querying for the medium product type. Data is returned using the <a href="https://msdn.microsoft.com/4845F541-D822-4DD0-8F52-9923B067A4F8">STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR</a> structure.
 
 
 ### -field StorageAdapterRpmbProperty
@@ -164,7 +163,7 @@ Indicates that the caller is querying for the medium product type. Data is retur
 
 ### -field StorageDeviceIoCapabilityProperty
 
-Indicates that the caller is querying for the device I/O capability property. Data is returned using the <a href="https://msdn.microsoft.com/en-us/library/Mt718114(v=VS.85).aspx">DEVICE_IO_CAPABILITY_DESCRIPTOR</a> structure.
+Indicates that the caller is querying for the device I/O capability property. Data is returned using the <a href="https://msdn.microsoft.com/E9AAE295-091C-4DF4-9EBD-0B8AD6C48F9C">DEVICE_IO_CAPABILITY_DESCRIPTOR</a> structure.
 
 
 ### -field StorageAdapterProtocolSpecificProperty
@@ -179,22 +178,22 @@ Indicates that the caller is querying for protocol-specific data from the device
 
 ### -field StorageAdapterTemperatureProperty
 
-Indicates that the caller is querying temperature data from the adapter. Data is returned using the <a href="https://msdn.microsoft.com/en-us/library/Mt718128(v=VS.85).aspx">STORAGE_TEMPERATURE_DATA_DESCRIPTOR</a> structure.
+Indicates that the caller is querying temperature data from the adapter. Data is returned using the <a href="https://msdn.microsoft.com/E155B31F-6543-42E3-BCAB-B1B0100D23E4">STORAGE_TEMPERATURE_DATA_DESCRIPTOR</a> structure.
 
 
 ### -field StorageDeviceTemperatureProperty
 
-Indicates that the caller is querying for temperature data from the device.  Data is returned using the <a href="https://msdn.microsoft.com/en-us/library/Mt718128(v=VS.85).aspx">STORAGE_TEMPERATURE_DATA_DESCRIPTOR</a> structure.
+Indicates that the caller is querying for temperature data from the device.  Data is returned using the <a href="https://msdn.microsoft.com/E155B31F-6543-42E3-BCAB-B1B0100D23E4">STORAGE_TEMPERATURE_DATA_DESCRIPTOR</a> structure.
 
 
 ### -field StorageAdapterPhysicalTopologyProperty
 
-Indicates that the caller is querying for topology information from the adapter. Data is returned using the <a href="https://msdn.microsoft.com/en-us/library/Dn933274(v=VS.85).aspx">STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR</a> structure.
+Indicates that the caller is querying for topology information from the adapter. Data is returned using the <a href="https://msdn.microsoft.com/CD596355-228D-4054-B77F-83F323AB3D0B">STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR</a> structure.
 
 
 ### -field StorageDevicePhysicalTopologyProperty
 
-Indicates that the caller is querying for topology information from the device. Data is returned using the <a href="https://msdn.microsoft.com/en-us/library/Dn933274(v=VS.85).aspx">STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR</a> structure.
+Indicates that the caller is querying for topology information from the device. Data is returned using the <a href="https://msdn.microsoft.com/CD596355-228D-4054-B77F-83F323AB3D0B">STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR</a> structure.
 
 
 ### -field StorageDeviceAttributesProperty
@@ -218,6 +217,9 @@ Reserved for future use.
 
 
 ### -field StorageDeviceUnsafeShutdownCount
+
+
+### -field StorageDeviceEnduranceProperty
 
 
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl.__unnamed_struct_4
-title: STARTING_LCN_INPUT_BUFFER (winioctl.h)
+title: STARTING_LCN_INPUT_BUFFER
 author: windows-sdk-content
 description: Contains the starting LCN to the FSCTL_GET_VOLUME_BITMAP control code.
 old-location: fs\starting_lcn_input_buffer_str.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: STARTING_LCN_INPUT_BUFFER, *PSTARTING_LCN_INPUT_BUFFER
 req.redist: 
-ms.custom: 19H1
 ---
 
 # STARTING_LCN_INPUT_BUFFER structure

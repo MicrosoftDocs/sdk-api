@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl.__unnamed_struct_26
-title: USN_RECORD_V4 (winioctl.h)
+title: USN_RECORD_V4
 author: windows-sdk-content
 description: Contains the information for an update sequence number (USN) change journal version 4.0 record. The version 2.0 and 3.0 records are defined by the USN_RECORD_V2 (also called USN_RECORD) and USN_RECORD_V3 structures respectively.
 old-location: fs\usn_record_v4.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: USN_RECORD_V4, *PUSN_RECORD_V4
 req.redist: 
-ms.custom: 19H1
 ---
 
 # USN_RECORD_V4 structure

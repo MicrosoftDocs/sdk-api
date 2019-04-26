@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
-title: STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR (winioctl.h)
+title: STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
 author: windows-sdk-content
 description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to describe the product type of a storage device.
 old-location: fs\storage_medium_product_type_descriptor.htm
@@ -40,7 +40,6 @@ product: Windows
 targetos: Windows
 req.typenames: STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, *PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
 req.redist: 
-ms.custom: 19H1
 ---
 
 # STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure
