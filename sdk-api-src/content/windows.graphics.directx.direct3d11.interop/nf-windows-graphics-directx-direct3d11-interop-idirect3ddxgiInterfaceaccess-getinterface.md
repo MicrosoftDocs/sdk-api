@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.graphics.directx.direct3d11.interop.GetInterface
-title: ID3D12GraphicsCommandList::GetInterface function (windows.graphics.directx.direct3d11.interop.h)
+title: IDirect3DDxgiInterfaceAccess::GetInterface function (windows.graphics.directx.direct3d11.interop.h)
 author: windows-sdk-content
 description: Retrieves the DXGI interface that is wrapped by the IDirect3DDxgiInterfaceAccess object.
 tech.root: direct3d11
