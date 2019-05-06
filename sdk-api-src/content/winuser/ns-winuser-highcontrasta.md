@@ -151,32 +151,6 @@ The hot key associated with the high contrast feature can be enabled. An applica
 > [!NOTE]
 > This flag should not be used when toggling the high contrast mode (HCF_HIGHCONTRASTON).
 </td>
-</tr>
-<tr>
-<td width="40%"><a id="HCF_HOTKEYAVAILABLE"></a><a id="hcf_hotkeyavailable"></a><dl>
-<dt><b>HCF_HOTKEYAVAILABLE</b></dt>
-<dt>0x00000040</dt>
-</dl>
-</td>
-<td width="60%">
-The hot key associated with the high contrast feature can be enabled. An application can retrieve this value, but cannot set it.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="HCF_OPTION_NOTHEMECHANGE"></a><a id="hcf_option_nothemechange"></a><dl>
-<dt><b>HCF_OPTION_NOTHEMECHANGE</b></dt>
-<dt>0x00001000</dt>
-</dl>
-</td>
-<td width="60%">
-<p>Passing HIGHCONTRASTSTRUCTURE in calls to SystemParametersInfoA can cause theme change effects even if the theme isn't being changed. For example, the WM_THEMECHANGED message is sent to Windows even if the only change is to HCF_HOTKEYSOUND.</p>
-<p>To prevent this, include the HCF_OPTION_NOTHEMECHANGE flag in the call to SystemParametersInfo.</p>
-
-> [!NOTE]
-> The HCF_OPTION_NOTHEMECHANGE flag should not be used when toggling the high contrast mode (HCF_HIGHCONTRASTON).
-</td>
-</tr>
 </table>
 
 ### -field lpszDefaultScheme
