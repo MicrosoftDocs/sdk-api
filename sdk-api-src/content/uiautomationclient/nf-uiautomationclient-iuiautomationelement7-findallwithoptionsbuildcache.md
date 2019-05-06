@@ -57,47 +57,41 @@ Finds all matching elements in the specified order, but also caches their proper
 
 
 
-### -param arg1 [in]
+### -param scope [in]
 
-A pointer to a condition that represents the criteria to match.
+Type: <b>[TreeScope](ne-uiautomationclient-treescope.md)</b>
 
+The scope of the request.
 
-### -param condition
+When an element is retrieved, caching can be performed for only the element itself (the default behavior), or for the element and its children or descendants. This property describes the scope of the request.
 
-TBD
+### -param condition [in]
 
+Type: <b>[IUIAutomationCondition](nn-uiautomationclient-iuiautomationcondition.md)</b>
+
+The primary interface for conditions used in filtering when searching for elements in the UI Automation tree.
 
 ### -param cacheRequest [in]
 
+Type: <b>[IUIAutomationCacheRequest](nn-uiautomationclient-iuiautomationcacherequest.md)</b>
+
 A pointer to a cache request that specifies the control patterns and properties to include in the cache.
 
+### -param traversalOptions [in]
 
-### -param arg4 [in, optional]
+Type: <b>[TreeTraversalOptions](ne-uiautomationclient-treetraversaloptions.md)</b>
+
+The tree navigation order.
+
+### -param root [in]
+
+Type: <b>[IUIAutomationElement](nn-uiautomationclient-iuiautomationelement.md)</b>
 
 A pointer to the element with which to begin the search.
 
-
-### -param root
-
-TBD
-
-
-### -param found
-
-TBD
-
-
-
-
-#### - foundElementsArray [out]
+### -param found [out, retval]
 
 Receives a pointer to an array of matching elements. Returns an empty array if no matching element is found. 
-
-
-#### - traversalOptions
-
-Enumeration value specifying the tree navigation order.
-
 
 ## -returns
 

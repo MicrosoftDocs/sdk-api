@@ -54,31 +54,19 @@ Gets an instance of an <a href="https://msdn.microsoft.com/en-us/library/Bb76148
 
 ## -parameters
 
+### -param riid [in]
 
+Type: <b>REFIID</b>
 
+A reference to the IID of the interface to retrieve through ppv, typically IID_IShellItem.
 
-### -param riid
+### -param ppv [out]
 
-TBD
+Type: <b>void**</b>
 
-
-### -param ppv
-
-TBD
-
-
-
-
-#### - ppenumList [out]
-
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb761483(v=VS.85).aspx">IPropertyEnumTypeList</a>**</b>
-
-When this method returns, contains the address of an <a href="https://msdn.microsoft.com/en-us/library/Bb761483(v=VS.85).aspx">IPropertyEnumTypeList</a> interface pointer.
-
+When this method returns successfully, contains the interface pointer requested in riid. This is typically [IPropertyEnumTypeList](nn-propsys-ipropertyenumtypelist.md).
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 

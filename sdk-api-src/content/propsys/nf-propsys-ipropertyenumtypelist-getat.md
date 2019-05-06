@@ -63,25 +63,17 @@ Type: <b>UINT</b>
 
 The index of the object in the list.
 
+### -param riid [in]
 
-### -param riid
+Type: <b>REFIID</b>
 
-TBD
+A reference to the IID of the interface to retrieve through ppv, typically IID_IShellItem.
 
+### -param ppv [out]
 
-### -param ppv
+Type: <b>void**</b>
 
-TBD
-
-
-
-
-#### - ppenumtype [out]
-
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb761495(v=VS.85).aspx">IPropertyEnumType</a>**</b>
-
-When this method returns, contains the address of an <a href="https://msdn.microsoft.com/en-us/library/Bb761495(v=VS.85).aspx">IPropertyEnumType</a> interface pointer.
-
+When this method returns successfully, contains the interface pointer requested in riid. This is typically [IPropertyEnumType](nn-propsys-ipropertyenumtype.md).
 
 ## -returns
 
