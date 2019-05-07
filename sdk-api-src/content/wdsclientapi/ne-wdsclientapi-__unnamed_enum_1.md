@@ -1,6 +1,6 @@
 ---
 UID: NE:wdsclientapi.__unnamed_enum_1
-title: "__unnamed_enum_1" (wdsclientapi.h)
+title: __unnamed_enum_1 (wdsclientapi.h)
 author: windows-sdk-content
 description: This enumeration is used by the WdsCliLog function.
 old-location: wds\wds_log_type_client.htm

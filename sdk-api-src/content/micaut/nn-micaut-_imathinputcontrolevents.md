@@ -1,6 +1,6 @@
 ---
 UID: NN:micaut._IMathInputControlEvents
-title: "_IMathInputControlEvents" (micaut.h)
+title: _IMathInputControlEvents (micaut.h)
 author: windows-sdk-content
 description: Exposes the math input control event handlers.
 old-location: tablet\_imathinputcontrolevents.htm

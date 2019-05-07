@@ -1,6 +1,6 @@
 ---
 UID: NN:rdpencomapi._IRDPSessionEvents
-title: "_IRDPSessionEvents" (rdpencomapi.h)
+title: _IRDPSessionEvents (rdpencomapi.h)
 author: windows-sdk-content
 description: Implement this interface to receive notifications when events occur.
 old-location: rdp\_irdpsessionevents.htm

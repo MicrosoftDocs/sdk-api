@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core._TRANSFER_SOURCE_FLAGS
-title: "_TRANSFER_SOURCE_FLAGS" (shobjidl_core.h)
+title: _TRANSFER_SOURCE_FLAGS (shobjidl_core.h)
 author: windows-sdk-content
 description: Used by methods of the ITransferSource and ITransferDestination interfaces to control their file operations.
 old-location: shell\TSF_constants.htm

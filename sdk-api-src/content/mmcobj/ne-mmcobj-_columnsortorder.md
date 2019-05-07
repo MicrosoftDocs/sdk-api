@@ -1,6 +1,6 @@
 ---
 UID: NE:mmcobj.ColumnSortOrder
-title: "_ColumnSortOrder" (mmcobj.h)
+title: _ColumnSortOrder (mmcobj.h)
 author: windows-sdk-content
 description: Used by IResultsViewer::SortOrderProperty to indicate or set how a query is to be sorted.
 old-location: lwef\search_2x_columnsortorder.htm

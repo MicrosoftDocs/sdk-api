@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core._KF_REDIRECT_FLAGS
-title: "_KF_REDIRECT_FLAGS" (shobjidl_core.h)
+title: _KF_REDIRECT_FLAGS (shobjidl_core.h)
 author: windows-sdk-content
 description: Flags used by IKnownFolderManager::Redirect to specify details of a known folder redirection such as permissions and ownership for the redirected folder.
 old-location: shell\KF_REDIRECT_FLAGS.htm

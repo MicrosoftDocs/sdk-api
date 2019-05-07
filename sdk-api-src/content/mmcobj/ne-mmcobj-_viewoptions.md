@@ -1,6 +1,6 @@
 ---
 UID: NE:mmcobj.ViewOptions
-title: "_ViewOptions" (mmcobj.h)
+title: _ViewOptions (mmcobj.h)
 author: windows-sdk-content
 description: The ViewOptions enumeration is used by the Views.Add method and specifies the visibility of the view, scope tree, and toolbars, as well as the persistence state of the view.
 old-location: mmc\viewoptions.htm

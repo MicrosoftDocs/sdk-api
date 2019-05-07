@@ -1,6 +1,6 @@
 ---
 UID: NN:manipulations._IManipulationEvents
-title: "_IManipulationEvents" (manipulations.h)
+title: _IManipulationEvents (manipulations.h)
 author: windows-sdk-content
 description: Handles manipulation and inertia events.
 old-location: wintouch\_imanipulationevents.htm

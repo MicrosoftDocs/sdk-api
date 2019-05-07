@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex._IFaxAccountNotify.OnIncomingMessageRemoved
-title: "_IFaxAccountNotify::OnIncomingMessageRemoved" (faxcomex.h)
+title: _IFaxAccountNotify::OnIncomingMessageRemoved (faxcomex.h)
 author: windows-sdk-content
 description: Called by the fax service when an incoming message is removed from the inbound fax archive.
 old-location: fax\_mfax_ifaxaccountnotify_onincomingmessageremoved.htm

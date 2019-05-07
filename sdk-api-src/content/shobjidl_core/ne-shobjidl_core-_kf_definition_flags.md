@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core._KF_DEFINITION_FLAGS
-title: "_KF_DEFINITION_FLAGS" (shobjidl_core.h)
+title: _KF_DEFINITION_FLAGS (shobjidl_core.h)
 author: windows-sdk-content
 description: Flags that specify certain known folder behaviors. Used with the KNOWNFOLDER_DEFINITION structure.
 old-location: shell\KF_DEFINITION_FLAGS.htm

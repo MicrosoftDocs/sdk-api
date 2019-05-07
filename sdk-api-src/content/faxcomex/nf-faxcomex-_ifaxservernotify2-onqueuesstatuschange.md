@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnQueuesStatusChange
-title: "_IFaxServerNotify2::OnQueuesStatusChange" (faxcomex.h)
+title: _IFaxServerNotify2::OnQueuesStatusChange (faxcomex.h)
 author: windows-sdk-content
 description: The fax service calls the IFaxServerNotify2::OnQueuesStatusChange method when there is a change in the fax job queue status.
 old-location: fax\_mfax_ifaxservernotify2_onqueuesstatuschange.htm

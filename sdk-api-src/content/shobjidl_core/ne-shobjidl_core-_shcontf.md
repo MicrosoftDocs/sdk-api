@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core._SHCONTF
-title: "_SHCONTF" (shobjidl_core.h)
+title: _SHCONTF (shobjidl_core.h)
 author: windows-sdk-content
 description: Determines the types of items included in an enumeration. These values are used with the IShellFolder::EnumObjects method.
 old-location: shell\SHCONTF.htm

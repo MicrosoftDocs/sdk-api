@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt._interlockedbittestandset64
-title: "_interlockedbittestandset64 function" (winnt.h)
+title: _interlockedbittestandset64 function (winnt.h)
 author: windows-sdk-content
 description: Tests the specified bit of the specified LONG64 value and sets it to 1. The operation is atomic.
 old-location: base\interlockedbittestandset64.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt._InlineInterlockedAdd64
-title: "_InlineInterlockedAdd64 function" (winnt.h)
+title: _InlineInterlockedAdd64 function (winnt.h)
 author: windows-sdk-content
 description: Performs an atomic addition operation on the specified LONGLONG values.
 old-location: base\interlockedadd64.htm

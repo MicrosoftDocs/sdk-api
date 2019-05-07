@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core._NSTCSTYLE
-title: "_NSTCSTYLE" (shobjidl_core.h)
+title: _NSTCSTYLE (shobjidl_core.h)
 author: windows-sdk-content
 description: Describes the characteristics of a given namespace tree control.
 old-location: shell\NSTCSTYLE.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase._lread
-title: "_lread function" (winbase.h)
+title: _lread function (winbase.h)
 author: windows-sdk-content
 description: The _lread function reads data from the specified file. This function is provided for compatibility with 16-bit versions of Windows. Win32-based applications should use the ReadFile function.
 old-location: winprog\_lread.htm

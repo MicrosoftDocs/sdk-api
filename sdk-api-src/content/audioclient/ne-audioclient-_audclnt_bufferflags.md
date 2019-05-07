@@ -1,6 +1,6 @@
 ---
 UID: NE:audioclient._AUDCLNT_BUFFERFLAGS
-title: "_AUDCLNT_BUFFERFLAGS" (audioclient.h)
+title: _AUDCLNT_BUFFERFLAGS (audioclient.h)
 author: windows-sdk-content
 description: The _AUDCLNT_BUFFERFLAGS enumeration defines flags that indicate the status of an audio endpoint buffer.
 old-location: coreaudio\_audclnt_bufferflags.htm

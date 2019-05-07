@@ -8,8 +8,7 @@ tech.root: Rpc
 ms.assetid: a0f47424-7286-493b-815f-96e27e645824
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: CStdStubBuffer_IsIIDSupported, CStdStubBuffer_IsIIDSupported
-, CStdStubBuffer_IsIIDSupported function [RPC], rpc.cstdstubbuffer_isiidsupported, rpcproxy/CStdStubBuffer_IsIIDSupported
+ms.keywords: CStdStubBuffer_IsIIDSupported, CStdStubBuffer_IsIIDSupported, CStdStubBuffer_IsIIDSupported function [RPC], rpc.cstdstubbuffer_isiidsupported, rpcproxy/CStdStubBuffer_IsIIDSupported
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 

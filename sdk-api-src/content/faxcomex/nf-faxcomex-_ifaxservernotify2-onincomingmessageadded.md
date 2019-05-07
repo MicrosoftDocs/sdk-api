@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnIncomingMessageAdded
-title: "_IFaxServerNotify2::OnIncomingMessageAdded" (faxcomex.h)
+title: _IFaxServerNotify2::OnIncomingMessageAdded (faxcomex.h)
 author: windows-sdk-content
 description: The fax service calls the IFaxServerNotify2::OnIncomingMessageAdded method when an incoming message is added to the inbound fax archive.
 old-location: fax\_mfax_ifaxservernotify2_onincomingmessageadded.htm

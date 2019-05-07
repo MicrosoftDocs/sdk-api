@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core._EXPCMDSTATE
-title: "_EXPCMDSTATE" (shobjidl_core.h)
+title: _EXPCMDSTATE (shobjidl_core.h)
 author: windows-sdk-content
 description: EXPCMDSTATE values represent the command state of a Shell item.
 old-location: shell\EXPCMDSTATE.htm

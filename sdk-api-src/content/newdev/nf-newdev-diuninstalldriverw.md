@@ -2,7 +2,7 @@
 UID: NF:newdev.DiUninstallDriverW
 title: DiUninstallDriverW function (newdev.h)
 author: windows-sdk-content
-description:The DiUninstallDriver function removes a driver from any devices it is installed on by installing those devices with another matching driver, if available, or the null driver (link to whatever the DiInstallDevice page tries to link to for null driver after Ted resolves the email I just sent) if no other matching driver is available.  Then the specified driver is removed from the driver store.
+description: The DiUninstallDriver function removes a driver from any devices it is installed on by installing those devices with another matching driver, if available, or the null driver (link to whatever the DiInstallDevice page tries to link to for null driver after Ted resolves the email I just sent) if no other matching driver is available.  Then the specified driver is removed from the driver store.
 old-location: devinst\diinstalldriver.htm
 tech.root: devinst
 ms.assetid: 7015d05f-235e-42d1-b4e1-9919bbebf185

@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core._PROPERTYUI_FLAGS
-title: "_PROPERTYUI_FLAGS" (shobjidl_core.h)
+title: _PROPERTYUI_FLAGS (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies property features.
 old-location: properties\PROPERTYUI_FLAGS.htm

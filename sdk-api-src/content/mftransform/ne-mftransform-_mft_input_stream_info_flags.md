@@ -1,6 +1,6 @@
 ---
 UID: NE:mftransform._MFT_INPUT_STREAM_INFO_FLAGS
-title: "_MFT_INPUT_STREAM_INFO_FLAGS" (mftransform.h)
+title: _MFT_INPUT_STREAM_INFO_FLAGS (mftransform.h)
 author: windows-sdk-content
 description: Describes an input stream on a Media Foundation transform (MFT).
 old-location: mf\_mft_input_stream_info_flags.htm

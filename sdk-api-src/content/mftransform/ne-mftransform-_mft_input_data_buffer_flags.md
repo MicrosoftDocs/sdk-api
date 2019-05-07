@@ -1,6 +1,6 @@
 ---
 UID: NE:mftransform._MFT_INPUT_DATA_BUFFER_FLAGS
-title: "_MFT_INPUT_DATA_BUFFER_FLAGS" (mftransform.h)
+title: _MFT_INPUT_DATA_BUFFER_FLAGS (mftransform.h)
 author: windows-sdk-content
 description: Defines flags for the IMFTransform::ProcessInput method. Currently no flags are defined.
 old-location: mf\_mft_input_data_buffer_flags.htm

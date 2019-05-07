@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex._IFaxAccountNotify.OnIncomingJobRemoved
-title: "_IFaxAccountNotify::OnIncomingJobRemoved" (faxcomex.h)
+title: _IFaxAccountNotify::OnIncomingJobRemoved (faxcomex.h)
 author: windows-sdk-content
 description: Called by the fax service when an incoming fax job is removed from the job queue of a particular fax account.
 old-location: fax\_mfax_ifaxaccountnotify_onincomingjobremoved.htm

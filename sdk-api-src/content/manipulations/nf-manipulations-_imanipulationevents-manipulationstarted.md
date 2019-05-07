@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations._IManipulationEvents.ManipulationStarted
-title: "_IManipulationEvents::ManipulationStarted" (manipulations.h)
+title: _IManipulationEvents::ManipulationStarted (manipulations.h)
 author: windows-sdk-content
 description: Handles the event for when manipulation or inertia begins.
 old-location: wintouch\_imanipulationevents_manipulationstarted.htm

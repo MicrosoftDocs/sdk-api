@@ -1,6 +1,6 @@
 ---
 UID: NE:mftransform._MFT_OUTPUT_STATUS_FLAGS
-title: "_MFT_OUTPUT_STATUS_FLAGS" (mftransform.h)
+title: _MFT_OUTPUT_STATUS_FLAGS (mftransform.h)
 author: windows-sdk-content
 description: Indicates whether a Media Foundation transform (MFT) can produce output data.
 old-location: mf\_mft_output_status_flags.htm

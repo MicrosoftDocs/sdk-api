@@ -1,6 +1,6 @@
 ---
 UID: NE:mfplay._MFP_CREDENTIAL_FLAGS
-title: "_MFP_CREDENTIAL_FLAGS" (mfplay.h)
+title: _MFP_CREDENTIAL_FLAGS (mfplay.h)
 author: windows-sdk-content
 description: Contains flags for the MFP_ACQUIRE_USER_CREDENTIAL_EVENT structure.
 old-location: mf\_mfp_credential_flags.htm

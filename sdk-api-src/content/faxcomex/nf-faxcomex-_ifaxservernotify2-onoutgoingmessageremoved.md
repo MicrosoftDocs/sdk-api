@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnOutgoingMessageRemoved
-title: "_IFaxServerNotify2::OnOutgoingMessageRemoved" (faxcomex.h)
+title: _IFaxServerNotify2::OnOutgoingMessageRemoved (faxcomex.h)
 author: windows-sdk-content
 description: The fax service calls the IFaxServerNotify2::OnOutgoingMessageRemoved method when an outgoing message is removed from the fax outbound archive.
 old-location: fax\_mfax_ifaxservernotify2_onoutgoingmessageremoved.htm

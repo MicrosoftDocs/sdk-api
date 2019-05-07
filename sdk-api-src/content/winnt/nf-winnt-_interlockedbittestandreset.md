@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt._interlockedbittestandreset
-title: "_interlockedbittestandreset function" (winnt.h)
+title: _interlockedbittestandreset function (winnt.h)
 author: windows-sdk-content
 description: Tests the specified bit of the specified LONG value and sets it to 0. The operation is atomic.
 old-location: base\interlockedbittestandreset.htm
