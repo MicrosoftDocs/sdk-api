@@ -45,24 +45,9 @@ ms.custom: 19H1
 
 # IDMLPageable interface
 
-
 ## -description
 
-
-
-
-
-
-Implemented by objects that can be evicted from GPU memory, and hence that can be supplied to [IDMLDevice::Evict](/windows/desktop/api/directml/nf-directml-idmldevice-evict) and [IDMLDevice::MakeResident](/windows/desktop/api/directml/nf-directml-idmldevice-makeresident).
-
+Implemented by objects that can be evicted from GPU memory, and hence that can be supplied to [IDMLDevice::Evict](/windows/desktop/api/directml/nf-directml-idmldevice-evict) and [IDMLDevice::MakeResident](/windows/desktop/api/directml/nf-directml-idmldevice-makeresident). The **IDMLOperator** interface inherits from [IDMLDeviceChild](/windows/desktop/api/directml/nn-directml-idmldevicechild).
 
 ## -see-also
-
-
-
-
 [IDMLDeviceChild](/windows/desktop/api/directml/nn-directml-idmldevicechild)
- 
-
- 
-

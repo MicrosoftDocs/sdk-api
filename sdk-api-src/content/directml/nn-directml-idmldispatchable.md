@@ -45,57 +45,11 @@ ms.custom: 19H1
 
 # IDMLDispatchable interface
 
-
 ## -description
 
-
-
-
-
-
-Implemented by objects that can be recorded into a command list for dispatch on the GPU, using
-    [IDMLCommandRecorder::RecordDispatch](/windows/desktop/api/directml/nf-directml-idmlcommandrecorder-recorddispatch).
+Implemented by objects that can be recorded into a command list for dispatch on the GPU, using [IDMLCommandRecorder::RecordDispatch](/windows/desktop/api/directml/nf-directml-idmlcommandrecorder-recorddispatch).The **IDMLDispatchable** interface inherits from [IDMLPageable](/windows/desktop/api/directml/nn-directml-idmlpageable).
 
 This interface is implemented by [IDMLCompiledOperator](/windows/desktop/api/directml/nn-directml-idmlcompiledoperator) and [IDMLOperatorInitializer](/windows/desktop/api/directml/nn-directml-idmloperatorinitializer).
 
-
-## -inheritance
-
-The <b>IDMLDispatchable</b> interface inherits from [IDMLPageable](/windows/desktop/api/directml/nn-directml-idmlpageable). <b>IDMLDispatchable</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDMLDispatchable</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/directml/nf-directml-idmldispatchable-getbindingproperties">GetBindingProperties</a>
-</td>
-<td align="left" width="63%">
-
-       Retrieves the binding properties for a dispatchable object (an operator initializer, or a compiled operator). The binding properties
-       value contains the required size of the binding table in descriptors, as well as the required size in bytes of the
-       temporary and persistent resources required to execute this object.
-
-</td>
-</tr>
-</table> 
-
-
 ## -see-also
-
-
-
-
 [IDMLPageable](/windows/desktop/api/directml/nn-directml-idmlpageable)
- 
-
- 
-

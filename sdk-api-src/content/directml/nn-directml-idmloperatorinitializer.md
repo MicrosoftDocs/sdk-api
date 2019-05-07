@@ -45,29 +45,11 @@ ms.custom: 19H1
 
 # IDMLOperatorInitializer interface
 
-
 ## -description
 
+Represents a specialized object whose purpose is to initialize compiled operators. To create an instance of this object, call [IDMLDevice::CreateOperatorInitializer](/windows/desktop/api/directml/nf-directml-idmldevice-createoperatorinitializer). The **IDMLOperatorInitializer** interface inherits from [IDMLDispatchable](/windows/desktop/api/directml/nn-directml-idmldispatchable).
 
-
-
-
-
-Represents a specialized object whose purpose is to initialize compiled operators. To create an instance
-    of this object, call [IDMLDevice::CreateOperatorInitializer](/windows/desktop/api/directml/nf-directml-idmldevice-createoperatorinitializer).
-
-An operator initializer is associated with one or more compiled operators, which are the targets for initialization.
-    You can record operator initialization onto a command list using [IDMLCommandRecorder::RecordDispatch](/windows/desktop/api/directml/nf-directml-idmlcommandrecorder-recorddispatch).
-    When the initialization completes execution on the GPU, all of the target operators enter the
-    initialized state. You must initialize all operators exactly once before they can be executed.
-
-
-## -inheritance
-
-The <b>IDMLOperatorInitializer</b> interface inherits from [IDMLDispatchable](/windows/desktop/api/directml/nn-directml-idmldispatchable). <b>IDMLOperatorInitializer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+An operator initializer is associated with one or more compiled operators, which are the targets for initialization. You can record operator initialization onto a command list using [IDMLCommandRecorder::RecordDispatch](/windows/desktop/api/directml/nf-directml-idmlcommandrecorder-recorddispatch). When the initialization completes execution on the GPU, all of the target operators enter the initialized state. You must initialize all operators exactly once before they can be executed.
 
 ## -members
 
@@ -91,8 +73,6 @@ Resets the initializer to handle initialization of a new set of operators.
 
 ## -remarks
 
-
-
 Operator initializers are reusable: once an instance has been used to initialize a set of operators, you can reset it with a different set of compiled operators as targets.
 
 When executing an initializer, the expected bindings are as follows:
@@ -105,7 +85,4 @@ When executing an initializer, the expected bindings are as follows:
 The operator initializer itself doesn't need to be initialized—GPU initialization only applies to compiled operators.
 
 ## -see-also
-
-<a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
-
-[IDMLDispatchable](/windows/desktop/api/directml/nn-directml-idmldispatchable)
+[Binding in DirectML](/windows/desktop/direct3d12/dml-binding), [IDMLDispatchable](/windows/desktop/api/directml/nn-directml-idmldispatchable)

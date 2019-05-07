@@ -45,15 +45,9 @@ ms.custom: 19H1
 
 # IDMLCommandRecorder interface
 
-
 ## -description
 
-
-
-
-
-
-Records dispatches of DirectML work into a Direct3D 12 command list.
+Records dispatches of DirectML work into a Direct3D 12 command list. The **IDMLCommandRecorder** interface inherits from [IDMLDeviceChild](/windows/desktop/api/directml/nn-directml-idmldevicechild).
 
 The command recorder is a stateless object whose purpose is to record commands into a Direct3D 12 command list. DirectML
     doesn't create command lists, command allocators, nor command queues; nor does it directly submit any work for
@@ -63,43 +57,5 @@ The command recorder is a stateless object whose purpose is to record commands i
 
 This object is thread-safe.
 
-
-## -inheritance
-
-The <b>IDMLCommandRecorder</b> interface inherits from [IDMLDeviceChild](/windows/desktop/api/directml/nn-directml-idmldevicechild). <b>IDMLCommandRecorder</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDMLCommandRecorder</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/directml/nf-directml-idmlcommandrecorder-recorddispatch">RecordDispatch</a>
-</td>
-<td align="left" width="63%">
-
-       Records execution of a dispatchable object (an operator initializer, or a compiled operator) onto a command
-       list.
-
-</td>
-</tr>
-</table> 
-
-
 ## -see-also
-
-
-
-
 [IDMLDeviceChild](/windows/desktop/api/directml/nn-directml-idmldevicechild)
- 
-
- 
-
