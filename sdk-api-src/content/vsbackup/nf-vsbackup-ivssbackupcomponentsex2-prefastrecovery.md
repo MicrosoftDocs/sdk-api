@@ -61,17 +61,17 @@ This method is reserved for future use.
 
 ### -param SnapshotSetID
 
-TBD
+This parameter is reserved for future use.
 
 
 ### -param dwPreFastRecoveryFlags
 
-TBD
+This parameter is reserved for future use.
 
 
 ### -param ppAsync
 
-TBD
+This parameter is reserved for future use.
 
 
 

@@ -62,17 +62,17 @@ This method is reserved for future use.
 
 ### -param wszVolumeName
 
-TBD
+This parameter is reserved for future use.
 
 
 ### -param snapshotId
 
-TBD
+This parameter is reserved for future use.
 
 
 ### -param providerId
 
-TBD
+This parameter is reserved for future use.
 
 
 

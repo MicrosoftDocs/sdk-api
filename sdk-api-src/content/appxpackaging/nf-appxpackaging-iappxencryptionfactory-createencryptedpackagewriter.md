@@ -79,7 +79,7 @@ Key info containing the base encryption key and key ID for encrypting the packag
 
 ### -param exemptedFiles
 
-TBD
+The list of files to be exempted from encryption.
 
 
 ### -param packageWriter [out, retval]

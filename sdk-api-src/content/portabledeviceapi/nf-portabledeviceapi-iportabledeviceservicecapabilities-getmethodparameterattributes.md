@@ -59,7 +59,7 @@ The <b>GetMethodParameterAttributes</b> method retrieves the attributes used to 
 
 ### -param Method
 
-TBD
+The method that contains the parameter whose attributes are retrieved.
 
 
 ### -param ppAttributes [out]

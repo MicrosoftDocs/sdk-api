@@ -61,12 +61,12 @@ This function is reserved for system use.
 
 ### -param pWriter
 
-TBD
+This parameter is reserved for system use.
 
 
 ### -param pWriterImpl
 
-TBD
+This parameter is reserved for system use.
 
 
 

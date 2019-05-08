@@ -79,7 +79,7 @@ Key information containing the base encryption key and key ID. The base key is u
 
 ### -param exemptedFiles
 
-TBD
+The list of files to be exempted from encryption.
 
 
 

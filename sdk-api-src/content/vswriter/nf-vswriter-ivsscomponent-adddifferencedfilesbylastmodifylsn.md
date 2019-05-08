@@ -62,22 +62,22 @@ This method is reserved for system use.
 
 ### -param wszPath
 
-TBD
+This parameter is reserved for system use.
 
 
 ### -param wszFilespec
 
-TBD
+This parameter is reserved for system use.
 
 
 ### -param bRecursive
 
-TBD
+This parameter is reserved for system use.
 
 
 ### -param bstrLsnString
 
-TBD
+This parameter is reserved for system use.
 
 
 

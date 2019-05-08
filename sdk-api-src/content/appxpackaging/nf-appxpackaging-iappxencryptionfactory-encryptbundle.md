@@ -79,7 +79,7 @@ Key info containing the base encryption key and key ID for encrypting the bundle
 
 ### -param exemptedFiles
 
-TBD
+The list of files to be exempted from encryption.
 
 
 
