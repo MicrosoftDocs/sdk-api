@@ -104,7 +104,7 @@ The job does not specify custom headers.
 </dl>
 </td>
 <td width="60%">
-The user does not have permission to retrieve the custom headers.
+Either you don't have permission to retrieve the custom headers, or [IBackgroundCopyJobHttpOptions3::MakeCustomHeadersWriteOnly](/windows/desktop/api/bits10_3/nf-bits10_3-ibackgroundcopyjobhttpoptions3-makecustomheaderswriteonly) has been called on the job.
 
 </td>
 </tr>
@@ -120,10 +120,6 @@ The <i>pRequestHeaders</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
