@@ -1,0 +1,62 @@
+---
+UID: NF:shlobj.IFileViewerW.PrintTo
+title: IFileViewerW::PrintTo
+author: windows-sdk-content
+description: Prints a file.
+tech.root: shell
+ms.assetid: 4a8fd0ed-4a9a-47c7-a0ab-87cf82f507cb
+ms.author: windowssdkdev
+ms.date: 01/30/19
+ms.keywords: IFileViewerW::PrintTo
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.assembly: 
+req.construct-type: function
+req.ddi-compliance: 
+req.dll: 
+req.header: shlobj.h
+req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
+req.max-support: 
+req.namespace: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
+req.type-library: 
+req.umdf-ver: 
+req.unicode-ansi: 
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - shlobj.h
+api_name:
+ - IFileViewerW::PrintTo
+---
+
+## -description
+
+Prints a file. The Shell specifies the name of the file to print by calling the file viewer's [IPersistFile::Load](https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-load) method.
+
+## -parameters
+
+### -param pszDriver
+
+A pointer to a buffer that contains the name of the printer device driver that should print the file. If this parameter is **NULL**, the file viewer determines which device driver to use.
+
+### -param fSuppressUI
+
+A user interface suppression flag. If this parameter is **TRUE**, the file viewer should not display any user interface, including error messages, during the print operation. If this parameter is **FALSE**, the file viewer can show dialog boxes, as needed.
+
+## -returns
+
+## -remarks
+
+## -see-also
+
