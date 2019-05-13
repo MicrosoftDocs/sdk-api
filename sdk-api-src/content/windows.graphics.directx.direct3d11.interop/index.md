@@ -16,6 +16,6 @@ tech.root: direct3d11
 
 Interop functions for use with [IDirect3DDevice](/uwp/api/windows.graphics.directx.direct3d11.idirect3ddevice) and [IDirect3DSurface](/uwp/api/windows.graphics.directx.direct3d11.idirect3dsurface).
 
-This header is used by Direct3D 11 Graphics. For more information, see:
+This header is used by Windows Runtime C++ reference. For more information, see:
 
-- [Direct3D 11 Graphics](../_direct3d11)
+- [Windows Runtime C++ reference](../_winrt)
