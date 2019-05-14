@@ -1,44 +1,44 @@
 ---
 UID: NF:windows.graphics.directx.direct3d11.interop.GetInterface
-title: IDirect3DDxgiInterfaceAccess::GetInterface function (windows.graphics.directx.direct3d11.interop.h)
+title: IDirect3DDxgiInterfaceAccess::GetInterface method
 author: windows-sdk-content
 description: Retrieves the DXGI interface that is wrapped by the IDirect3DDxgiInterfaceAccess object.
-tech.root: direct3d11
-ms.assetid: 7b4d1dcc-407e-4c88-939f-dca0f4ffe027
+tech.root: WinRT
+ms.assetid: 
 ms.author: windowssdkdev
-ms.date: 04/25/2019
-ms.keywords: 7b4d1dcc-407e-4c88-939f-dca0f4ffe027, GetInterface, GetInterface function [Direct3D 11], windows.graphics.directx.direct3d11.interop/GetInterface, direct3d11.getinterface
+ms.date: 05/13/2019
+ms.keywords: GetInterface, GetInterface function [Direct3D 11], windows.graphics.directx.direct3d11.interop/GetInterface, direct3d11.getinterface
 ms.topic: function
-req.header: windows.graphics.directx.direct3d11.interop.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: D3D11.dll
+req.header: windows.graphics.directx.direct3d11.interop.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: D3D11.lib
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: Windows
 req.type-library: 
-req.lib: D3D11.lib
-req.dll: D3D11.dll
-req.irql: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - DllExport
+ - COM
 api_location:
  - D3D11.dll
 api_name:
  - GetInterface
 product: Windows
 targetos: Windows
-req.typenames: 
-req.redist: 
 ---
 
 # GetInterface function

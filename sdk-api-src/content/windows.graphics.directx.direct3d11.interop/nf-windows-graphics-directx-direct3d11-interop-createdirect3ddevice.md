@@ -1,15 +1,14 @@
 ---
 UID: NF:windows.graphics.directx.direct3d11.interop.CreateDirect3DDevice
-title: interop::CreateDirect3DDevice
-ms.date: 05/10/2019
-ms.keywords: interop::CreateDirect3DDevice
-ms.topic: function
+title: CreateDirect3DDevice
 author: windows-sdk-content
 description: Creates an instance of [IDirect3DDevice](/uwp/api/windows.graphics.directx.direct3d11.idirect3ddevice) from an [IDXGIDevice](/windows/desktop/api/dxgi/nn-dxgi-idxgidevice).
-tech.root: direct3d11
+tech.root: WinRT
+ms.assetid: 0eaed3be-e3d8-b431-68cc-e4e1baf5c6fe
 ms.author: windowssdkdev
-targetos: Windows
-product: Windows
+ms.date: 05/13/2019
+ms.keywords: interop::CreateDirect3DDevice
+ms.topic: function
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -30,13 +29,16 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+ - APIRef
+ - kbSyntax
 api_type:
  - DllExport
 api_location:
  - D3D11.dll
 api_name:
  - interop::CreateDirect3DDevice
+product: Windows
+targetos: Windows
 ---
 
 ## -description

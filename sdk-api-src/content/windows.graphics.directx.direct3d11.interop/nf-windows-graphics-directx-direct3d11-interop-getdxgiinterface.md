@@ -1,15 +1,14 @@
 ---
 UID: NF:windows.graphics.directx.direct3d11.interop.GetDXGIInterface
-title: interop::GetDXGIInterface
-ms.date: 05/10/2019
-ms.keywords: interop::GetDXGIInterface
-ms.topic: function
+title: GetDXGIInterface
 author: windows-sdk-content
 description: Retrieves a DXGI interface from an [IDirect3DDevice](/uwp/api/windows.graphics.directx.direct3d11.idirect3ddevice) instance.
-tech.root: direct3d11
+tech.root: WinRT
+ms.assetid: 0D0D158F-5D1E-4386-8131-C6492993F87B
 ms.author: windowssdkdev
-targetos: Windows
-product: Windows
+ms.date: 05/13/2019
+ms.keywords: interop::GetDXGIInterface
+ms.topic: function
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -30,13 +29,16 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+ - APIRef
+ - kbSyntax
 api_type:
  - DllExport
 api_location:
  - D3D11.dll
 api_name:
  - interop::GetDXGIInterface
+product: Windows
+targetos: Windows
 ---
 
 ## -description
