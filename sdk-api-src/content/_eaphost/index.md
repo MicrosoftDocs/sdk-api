@@ -28,5 +28,5 @@ To develop Extensible Authentication Protocol Host, you need these headers:
  * [eaptypes.h](../eaptypes/index.md)
 
 For programming guidance for this technology, see:
-* [Extensible Authentication Protocol Host](/windows/desktop/eaphost)
+* [Extensible Authentication Protocol Host](/windows/desktop/eaphost/portal)
 
