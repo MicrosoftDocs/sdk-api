@@ -366,5 +366,5 @@ Diffie-Hellman key exchange.
 
 ### -field dwExchStrength
 
-Strength of the key exchange, in bits. Typically, this member contains one of the following values: 512, 768, 1024, or 2048.
+Key length, in bits. For RSA key exchange, this member will typically contain one of the following values: 512, 768, 1024, or 2048.  For Diffie-Hellman key exchange, this member will typically contain one of the following values: 224, 256, 384 or 512.
 
