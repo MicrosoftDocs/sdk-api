@@ -7,7 +7,7 @@ old-location: dxmath\xmfloat3pk_operator_eq_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3PK.operator = (const XMFLOAT3PK)
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: XMFLOAT3PK structure [DirectX Math Support APIs],operator = method, XMFLOAT3PK.operator =(const XMFLOAT3PK&), XMFLOAT3PK.operator-assign(XMFLOAT3PK &&), XMFLOAT3PK.operator=, XMFLOAT3PK::operator-assign(XMFLOAT3PK &&), XMFLOAT3PK::operator=, dxmath.xmfloat3pk_operator_eq_1, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMFLOAT3PK structure, operator=
 ms.topic: method
 req.header: directxpackedvector.h
@@ -45,61 +45,26 @@ ms.custom: 19H1
 
 # XMFLOAT3PK::operator-assign(XMFLOAT3PK &&)
 
-
 ## -description
 
-
-Assigns the vector component data from one instance of <code>XMFLOAT3PK</code> to the current
-	instance of <code>XMFLOAT3PK</code>.
-    
+Assigns the vector component data from one instance of <code>XMFLOAT3PK</code> to the current instance of <code>XMFLOAT3PK</code>.
 
 This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/40b3df37-d1c1-43fe-afcb-cbac4d9b6564">XMFLOAT3PK</a> to the current instance of <code>XMFLOAT3PK</code>.
-<div class="alert"><b>Note</b>  This operator is only available under C++.</div><div> </div>
+
+<div class="alert"><b>Note</b>  This operator is only available under C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param arg1
 
-TBD
-
-
-
-
-#### - float3pk [ref]
-
 Instance of <code>XMFLOAT3PK</code> used to update the current <code>XMFLOAT3PK</code> structure.
-      
-
 
 ## -returns
 
-
-
-The current instance of <code>XMFLOAT3PK</code> whose vector component data has been updated
-	    to match those of the <code>XMFLOAT3PK</code> instance specified by the <b>float3pk</b>argument.
-	
-
-
-
+The current instance of <code>XMFLOAT3PK</code> whose vector component data has been updated to match those of the <code>XMFLOAT3PK</code> instance specified by the <b>float3pk</b>argument.
 
 ## -see-also
 
-
-
-
-<b>Reference</b>
-
-
-
 <a href="https://msdn.microsoft.com/40b3df37-d1c1-43fe-afcb-cbac4d9b6564">XMFLOAT3PK</a>
 
-
-
 <a href="https://msdn.microsoft.com/82c6ee72-0706-49f9-bc19-9725496440d0">operator = </a>
- 
-
- 
-

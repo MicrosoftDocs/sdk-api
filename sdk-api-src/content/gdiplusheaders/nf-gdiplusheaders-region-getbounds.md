@@ -1,82 +1,116 @@
 ---
 UID: NF:gdiplusheaders.Region.GetBounds
-title: Region::GetBounds (gdiplusheaders.h)
-author: windows-sdk-content
-description: This topic lists the GetBounds methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
-old-location: gdiplus\_gdiplus_CLASS_Region_GetBounds_Methods.htm
-tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regiongetboundsmethods.htm
+title: Region::GetBounds
+description: The Region::GetBounds method gets a rectangle that encloses this region.
+ms.assetid: fdbecca4-be04-4162-a930-19e94c69c7e2
 ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: GetBounds, GetBounds methods [GDI+], Region.GetBounds, Region::GetBounds, _gdiplus_CLASS_Region_GetBounds_Methods, gdiplus._gdiplus_CLASS_Region_GetBounds_Methods, gdiplusheaders/GetBounds
-ms.topic: method
-req.header: gdiplusheaders.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+ms.date: 05/20/2019
+ms.keywords: Region::GetBounds
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: 
+req.header: gdiplusheaders.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
- - HeaderDef
+ - COM
 api_location:
  - gdiplusheaders.h
 api_name:
- - Region.GetBounds
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
+ - Region::GetBounds
 ---
 
-# Region::GetBounds
-
+# Region::GetBounds(Rect*,Graphics*)
 
 ## -description
 
-
-<span>This topic lists the 
-			GetBounds methods of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a> class. For a complete list of methods for the <b>Region</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms534761(v=VS.85).aspx">Region Methods</a>.
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534816(v=VS.85).aspx">GetBounds(Rect*,Graphics*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534816(v=VS.85).aspx">Region::GetBounds</a> method gets a rectangle that encloses this region.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534818(v=VS.85).aspx">GetBounds(RectF*,Graphics*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534818(v=VS.85).aspx">Region::GetBounds</a> method gets a rectangle that encloses this region. 
-
-</td>
-</tr>
-</table>
+The **Region::GetBounds** method gets a rectangle that encloses this region.
 
 ## -parameters
 
+### -param rect
+
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a> object that receives the enclosing rectangle.
+
+### -param g
+
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object that contains the world and page transformations required to calculate the device coordinates of this region and the rectangle.
+
+## -returns
+
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+## -remarks
+
+The current world and page transformations of the graphics object are used to calculate the region and the rectangle as they are drawn on the display device.
+The rectangle returned by **Region::GetBounds** is not always the smallest possible rectangle.
+
+#### Examples
+
+The following example creates a region from a path, gets the region's enclosing rectangle, and then displays both.
+
+```cpp
+VOID Example_GetBoundsRect(HDC hdc)
+{
+   Graphics graphics(hdc);
+
+   Point points[] = {
+      Point(110, 20),
+      Point(120, 30),
+      Point(100, 60),
+      Point(120, 70),
+      Point(150, 60),
+      Point(140, 10)};
+
+   GraphicsPath path;
+    SolidBrush solidBrush(Color(255, 255, 0, 0));
+    Pen pen(Color(255, 0, 0, 0));
+    Rect rect;
+
+   path.AddClosedCurve(points, 6);
+
+    // Create a region from a path.
+    Region pathRegion(&path);
+
+    // Get the region's enclosing rectangle.
+    pathRegion.GetBounds(&rect, &graphics);
+
+    // Show the region and the enclosing rectangle.
+    graphics.FillRegion(&solidBrush, &pathRegion);
+    graphics.DrawRectangle(&pen, rect);
+}
+```
+
+## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a>
+
+ 

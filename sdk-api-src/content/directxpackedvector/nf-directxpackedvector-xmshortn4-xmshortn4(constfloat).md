@@ -2,12 +2,12 @@
 UID: NF:directxpackedvector.XMSHORTN4.XMSHORTN4(const float)
 title: XMSHORTN4::XMSHORTN4(const float) (directxpackedvector.h)
 author: windows-sdk-content
-description: Default constructor for XMSHORTN4.
-old-location: dxmath\xmshortn4_ctor_1.htm
+description: Initializes a new instance of XMSHORTN4 from a four element float array argument.
+old-location: 
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMSHORTN4.#ctor
+ms.assetid: 8698f78c-9166-4a7d-9f0e-aeda1ed6b2b1
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: XMSHORTN4, XMSHORTN4 constructor [DirectX Math Support APIs], XMSHORTN4 constructor [DirectX Math Support APIs],XMSHORTN4 structure, XMSHORTN4 structure [DirectX Math Support APIs],XMSHORTN4 constructor, XMSHORTN4.XMSHORTN4, XMSHORTN4.XMSHORTN4(), XMSHORTN4.XMSHORTN4(const float), XMSHORTN4::XMSHORTN4, XMSHORTN4::XMSHORTN4(const float), dxmath.xmshortn4_ctor_1
 ms.topic: method
 req.header: directxpackedvector.h
@@ -45,54 +45,51 @@ ms.custom: 19H1
 
 # XMSHORTN4::XMSHORTN4(const float)
 
-
 ## -description
 
+Initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420216(v=VS.85).aspx">XMSHORTN4</a> from a four element <code>float</code> array argument.
 
-Default constructor for <code>XMSHORTN4</code>.
-    
+This constructor initializes a new instance of **XMSHORTN4** from a from a four element <code>float</code> array argument.
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee420216(v=VS.85).aspx">XMSHORTN4</a>.
-<div class="alert"><b>Note</b>  This constructor is only available under C++.
-    </div><div> </div>
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param pArray
 
-TBD
-
-
-
+Four element floating point array containing the values used to initialize the four components of a new instance of **XMSHORTN4**.
 
 ## -remarks
 
+Array elements are mapped to the vector components of a new instance of **XMSHORTN4** as follows:
 
+| Vector Component | Array Element | Range |  |
+|------------------|---------------|-------|--|
+| x | pArray[0] | -1.0, 1.0 | During instantiation, pArray[0] is clamped between -1 and 1, multiplied by 32767.0f and assigned to x. |
+| y | pArray[1] | -1.0, 1.0 | During instantiation, pArray[1] is clamped between -1 and 1, multiplied by 32767.0f, and then assigned to y. |
+| z | pArray[2] | -1.0, 1.0 | During instantiation, pArray[2] is clamped between -1 and 1, multiplied by 32767.0f, and then assigned to z. |
+| w | pArray[3] | -1.0, 1.0 | During instantiation, pArray[3] is clamped between -1 and 1, multiplied by 32767.0f, and then assigned to w. |
 
-<code>XMSHORTN4()</code> constructs a new instance of the <code>XMSHORTN4</code> structure without
-	defining the value of any of its members.
+The following pseudocode demonstrates the operation of this constructor:
 
-
-
+```cpp
+XMSHORTN4 instance;
+_x1=min( max( pArray[0], -1.0 ), 1.0 );
+_y1=min( max( pArray[1], -1.0 ), 1.0 );
+_z1=min( max( pArray[2], -1.0 ), 1.0 );
+_w1=min( max( pArray[3], -1.0 ), 1.0 );
+_x1 = round( _x1 * 32767.0f);
+_y1 = round( _y1 * 32767.0f);
+_z1 = round( _z1 * 32767.0f);
+_w1 = round( _w1 * 32767.0f);
+instance._x = _x1;
+instance._y = _y1;
+instance._z = _z1;
+instance._w = _w1;
+```
 
 ## -see-also
 
-
-
-
-<b>Reference</b>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee420216(v=VS.85).aspx">XMSHORTN4</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee415434(v=VS.85).aspx">XMSHORTN4 Constructors</a>
- 
-
- 
-

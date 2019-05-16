@@ -2,12 +2,12 @@
 UID: NF:directxmath.XMMATRIX.XMMATRIX(const float)
 title: XMMATRIX::XMMATRIX(const float) (directxmath.h)
 author: windows-sdk-content
-description: Default constructor for XMMATRIX.
-old-location: dxmath\xmmatrix_ctor_1.htm
+description: Initializes a new instance of the XMMATRIX structure from a sixteen element float array.
+old-location: 
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMMATRIX.#ctor
+ms.assetid: 1c778c4c-03eb-4632-b7d4-c1e3caa61368
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/13/2019
 ms.keywords: XMMATRIX, XMMATRIX constructor [DirectX Math Support APIs], XMMATRIX constructor [DirectX Math Support APIs],XMMATRIX structure, XMMATRIX structure [DirectX Math Support APIs],XMMATRIX constructor, XMMATRIX.XMMATRIX, XMMATRIX.XMMATRIX(), XMMATRIX.XMMATRIX(const float), XMMATRIX::XMMATRIX, XMMATRIX::XMMATRIX(const float), dxmath.xmmatrix_ctor_1
 ms.topic: method
 req.header: directxmath.h
@@ -45,53 +45,48 @@ ms.custom: 19H1
 
 # XMMATRIX::XMMATRIX(const float)
 
-
 ## -description
 
+Initializes a new instance of the <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a> structure from a sixteen element <code>float</code> array.
 
-Default constructor for <code>XMMATRIX</code>.
+Initializes a new instance of the **XMMATRIX** structure from a sixteen element <code>float</code> array.
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a>.
 <div class="alert"><b>Note</b>  This constructor is only available when developing with C++.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param pArray
 
-TBD
-
-
-
+Address of a 16 element <wdcml:mark type="appdef" xmlns:wdcml="http://microsoft.com/wdcml">float</wdcml:mark> array, specifying the value of each member of a new instance of **XMMATRIX**.
 
 ## -remarks
 
+The matrix elements are stored in *pArray* in *row-major* order.
 
+The following pseudocode demonstrates the operation of this constructor:
 
-<code>XMMATRIX()</code> constructs a new instance of the <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a> structure without
-    defining the value of any of its members.
-
-
-
-
+```cpp
+XMMATRIX mat;
+mat._11=pArray[0];
+mat._12=pArray[1];
+mat._13=pArray[2];
+mat._14=pArray[3];
+mat._21=pArray[4];
+mat._22=pArray[5];
+mat._23=pArray[6];
+mat._24=pArray[7];
+mat._31=pArray[8];
+mat._32=pArray[9];
+mat._33=pArray[10];
+mat._34=pArray[11];
+mat._41=pArray[12];
+mat._42=pArray[13];
+mat._43=pArray[14];
+mat._44=pArray[15];
+```
 
 ## -see-also
 
-
-
-
-<b>Reference</b>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee415353(v=VS.85).aspx">XMMATRIX Constructors</a>
- 
-
- 
-

@@ -2,12 +2,12 @@
 UID: NF:directxpackedvector.XMHALF4.XMHALF4(const float)
 title: XMHALF4::XMHALF4(const float) (directxpackedvector.h)
 author: windows-sdk-content
-description: Default constructor for XMHALF4.
-old-location: dxmath\xmhalf4_ctor_1.htm
+description: Initializes a new instance of XMHALF4 from a four element float array argument.
+old-location: 
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMHALF4.#ctor
+ms.assetid: 0dd6531a-bcc4-4670-8282-e0b26394b07d
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: XMHALF4, XMHALF4 constructor [DirectX Math Support APIs], XMHALF4 constructor [DirectX Math Support APIs],XMHALF4 structure, XMHALF4 structure [DirectX Math Support APIs],XMHALF4 constructor, XMHALF4.XMHALF4, XMHALF4.XMHALF4(), XMHALF4.XMHALF4(const float), XMHALF4::XMHALF4, XMHALF4::XMHALF4(const float), dxmath.xmhalf4_ctor_1
 ms.topic: method
 req.header: directxpackedvector.h
@@ -45,54 +45,38 @@ ms.custom: 19H1
 
 # XMHALF4::XMHALF4(const float)
 
-
 ## -description
 
+Initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee419664(v=VS.85).aspx">XMHALF4</a> from a four element <code>float</code> array argument.
 
-Default constructor for <code>XMHALF4</code>.
-    
+This constructor initializes a new instance of **XMHALF4** from a four element <code>float</code> array argument.
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419664(v=VS.85).aspx">XMHALF4</a>.
-<div class="alert"><b>Note</b>  This constructor is only available under C++.
-    </div><div> </div>
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param pArray
 
-TBD
-
-
+Four element <code>float</code> array containing the values used to initialize the four components of a new instance of **XMHALF4**.
 
 
 ## -remarks
 
+If the magnitude of one of the members of *pArray* cannot be represented by the **HALF** type, the corresponding member of the new instance of **XMHALF4** will be infinity for a 16-bit integer (+0x7FFF).
 
+The following pseudocode demonstrates the operation of this constructor using the XNA Math *XMConvertFloatToHalf* function:
 
-<code>XMHALF4()</code> constructs a new instance of the <code>XMHALF4</code> structure without
-	defining the value of any of its members.
+```cpp
+XMHALF4 instance;
 
-
-
+instance.x = XMConvertFloatToHalf(pArray[0]);
+instance.y = XMConvertFloatToHalf(pArray[1]);
+instance.z = XMConvertFloatToHalf(pArray[2]);
+instance.w = XMConvertFloatToHalf(pArray[3]);
+```
 
 ## -see-also
 
-
-
-
-<b>Reference</b>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee419664(v=VS.85).aspx">XMHALF4</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee415321(v=VS.85).aspx">XMHALF4 Constructors</a>
- 
-
- 
-

@@ -2,12 +2,12 @@
 UID: NF:directxmath.XMUINT4.XMUINT4(const uint32_t)
 title: XMUINT4::XMUINT4(const uint32_t) (directxmath.h)
 author: windows-sdk-content
-description: Default constructor for XMUINT4.
-old-location: dxmath\xmuint4_ctor_1.htm
+description: Initializes a new instance of XMUINT4 from a four element uint32_t array argument.
+old-location: 
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMUINT4.#ctor
+ms.assetid: 015b6b50-e749-452e-b05e-a5d18c29fea2
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/13/2019
 ms.keywords: XMUINT4, XMUINT4 constructor [DirectX Math Support APIs], XMUINT4 constructor [DirectX Math Support APIs],XMUINT4 structure, XMUINT4 structure [DirectX Math Support APIs],XMUINT4 constructor, XMUINT4.XMUINT4, XMUINT4.XMUINT4(), XMUINT4.XMUINT4(const uint32_t), XMUINT4::XMUINT4, XMUINT4::XMUINT4(const uint32_t), dxmath.xmuint4_ctor_1
 ms.topic: method
 req.header: directxmath.h
@@ -45,53 +45,34 @@ ms.custom: 19H1
 
 # XMUINT4::XMUINT4(const uint32_t)
 
-
 ## -description
 
+Initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Hh404755(v=VS.85).aspx">XMUINT4</a> from a four element <code>uint32_t</code> array argument.
 
-Default constructor for <code>XMUINT4</code>.
-    
+This constructor initializes a new instance of **XMUINT4** from a four element <code>uint32_t</code> array argument.
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Hh404755(v=VS.85).aspx">XMUINT4</a>.
-<div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param pArray
 
-TBD
-
-
-
+Four element **uint32_t** array containing the values used to initialize the four components of a new instance of **XMUINT4**.
 
 ## -remarks
 
+The following pseudocode demonstrates the operation of this constructor:
 
-
-<code>XMUINT4()</code> constructs a new instance of the <code>XMUINT4</code> structure without
-	defining the value of any of its members.
-
-
-
+```cpp
+XMUINT4 instance;
+instance.x = pArray[0];
+instance.y = pArray[1];
+instance.z = pArray[2];
+instance.w = pArray[3];
+```
 
 ## -see-also
 
-
-
-
-<b>Reference</b>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Hh404755(v=VS.85).aspx">XMUINT4</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Hh449568(v=VS.85).aspx">XMUINT4 Constructors</a>
- 
-
- 
-

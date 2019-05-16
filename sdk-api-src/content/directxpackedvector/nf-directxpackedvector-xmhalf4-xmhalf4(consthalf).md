@@ -2,12 +2,12 @@
 UID: NF:directxpackedvector.XMHALF4.XMHALF4(const HALF)
 title: XMHALF4::XMHALF4(const HALF) (directxpackedvector.h)
 author: windows-sdk-content
-description: Default constructor for XMHALF4.
-old-location: dxmath\xmhalf4_ctor_1.htm
+description: Initializes a new instance of XMHALF4 from a four element HALF array argument.
+old-location: 
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMHALF4.#ctor
+ms.assetid: 9ee7c969-064a-4b66-8114-ab97a920b4fc
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: XMHALF4, XMHALF4 constructor [DirectX Math Support APIs], XMHALF4 constructor [DirectX Math Support APIs],XMHALF4 structure, XMHALF4 structure [DirectX Math Support APIs],XMHALF4 constructor, XMHALF4.XMHALF4, XMHALF4.XMHALF4(), XMHALF4.XMHALF4(const HALF), XMHALF4::XMHALF4, XMHALF4::XMHALF4(const HALF), dxmath.xmhalf4_ctor_1
 ms.topic: method
 req.header: directxpackedvector.h
@@ -45,54 +45,34 @@ ms.custom: 19H1
 
 # XMHALF4::XMHALF4(const HALF)
 
-
 ## -description
 
+Initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee419664(v=VS.85).aspx">XMHALF4</a> from a four element <code>HALF</code> array argument.
 
-Default constructor for <code>XMHALF4</code>.
-    
+This constructor initializes a new instance of **XMHALF4** from a from a four element <code>XMHALF4</code> array argument.
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419664(v=VS.85).aspx">XMHALF4</a>.
-<div class="alert"><b>Note</b>  This constructor is only available under C++.
-    </div><div> </div>
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param pArray
 
-TBD
-
-
-
+Four element **HALF** array containing the values used to initialize the four components of a new instance of **XMHALF4**.
 
 ## -remarks
 
+The following pseudocode demonstrates the operation of this constructor:
 
-
-<code>XMHALF4()</code> constructs a new instance of the <code>XMHALF4</code> structure without
-	defining the value of any of its members.
-
-
-
+```cpp
+XMHALF4 instance;
+instance.x = pArray[0];
+instance.y = pArray[1];
+instance.z = pArray[2];
+instance.w = pArray[3];
+```
 
 ## -see-also
 
-
-
-
-<b>Reference</b>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee419664(v=VS.85).aspx">XMHALF4</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee415321(v=VS.85).aspx">XMHALF4 Constructors</a>
- 
-
- 
-

@@ -1,103 +1,109 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddArc
-title: GraphicsPath::AddArc (gdipluspath.h)
-author: windows-sdk-content
-description: This topic lists the AddArc methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
-old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddArc_Methods.htm
-tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddarcmethods.htm
+title: GraphicsPath::AddArc
+description: The GraphicsPath::AddArc method adds an elliptical arc to the current figure of this path.
+ms.assetid: 2616a8ff-8193-413b-ab7f-56c0dd82c17b
 ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: AddArc, AddArc methods [GDI+], GraphicsPath.AddArc, GraphicsPath::AddArc, _gdiplus_CLASS_GraphicsPath_AddArc_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddArc_Methods, gdipluspath/AddArc
-ms.topic: method
-req.header: gdipluspath.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+ms.date: 05/13/2019
+ms.keywords: GraphicsPath::AddArc
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: 
+req.header: gdipluspath.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
- - HeaderDef
+ - COM
 api_location:
  - gdipluspath.h
 api_name:
- - GraphicsPath.AddArc
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
+ - GraphicsPath::AddArc
 ---
 
-# GraphicsPath::AddArc
-
+#  GraphicsPath::AddArc
 
 ## -description
 
-
-<span>This topic lists the 
-AddArc methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete list of methods for the 
-<b>GraphicsPath</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>. 
-
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535625(v=VS.85).aspx">AddArc(Rect&,REAL,REAL)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535625(v=VS.85).aspx">GraphicsPath::AddArc</a> method adds an elliptical arc to the current figure of this path. 
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535626(v=VS.85).aspx">AddArc(RectF&,REAL,REAL)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535626(v=VS.85).aspx">GraphicsPath::AddArc</a> method adds an elliptical arc to the current figure of this path.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535627(v=VS.85).aspx">AddArc(INT,INT,INT,INT,REAL,REAL)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535627(v=VS.85).aspx">GraphicsPath::AddArc</a> method adds an elliptical arc to the current figure of this path.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535628(v=VS.85).aspx">AddArc(REAL,REAL,REAL,REAL,REAL,REAL)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535628(v=VS.85).aspx">GraphicsPath::AddArc</a> method adds an elliptical arc to the current figure of this path.
-
-</td>
-</tr>
-</table>
+The **GraphicsPath::AddArc** method adds an elliptical arc to the current figure of this path.
 
 ## -parameters
 
+### -param rect
+
+Reference to a rectangle that bounds the ellipse that contains the arc.
+
+### -param startAngle
+
+Real number that specifies the clockwise angle, in degrees, between the horizontal axis of the ellipse and the starting point of the arc.
+
+### -param sweepAngle
+
+Real number that specifies the clockwise angle, in degrees, between the starting point (startAngle) and the ending point of the arc.
+
+## -returns
+
+**Type:** <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a>
+
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+## -remarks
+
+#### Examples
+
+The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object *path*, adds an arc to *path*, closes the arc, and then draws *path*.
+
+```cpp
+VOID AddArcExample(HDC hdc)
+{
+   Graphics graphics(hdc);
+   RectF rect(20.0f, 20.0f, 50.0f, 100.0f);
+
+   GraphicsPath path;
+   path.AddArc(rect, 0.0f, 180.0f);
+   path.CloseFigure();
+
+   // Draw the path.
+   Pen pen(Color(255, 255, 0, 0));
+   graphics.DrawPath(&pen, &path);
+}
+```
+
+## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535537(v=VS.85).aspx">AddArc Methods</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533825(v=VS.85).aspx">Clipping with a Region</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535733(v=VS.85).aspx">DrawArc Methods</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms536362(v=VS.85).aspx">Ellipses and Arcs</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms536370(v=VS.85).aspx">Paths</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>

@@ -7,7 +7,7 @@ old-location: dxmath\xmint2_operator_eq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMINT2.operator = (const XMINT2)
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/13/2019
 ms.keywords: Use DirectX..XMINT2.operator =, Use DirectX::::XMINT2::operator =, XMINT2 structure [DirectX Math Support APIs],operator = method, XMINT2.operator =, XMINT2.operator-assign, XMINT2.operator=, XMINT2::operator-assign, XMINT2::operator=, dxmath.xmint2_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMINT2 structure, operator=
 ms.topic: method
 req.header: directxmath.h
@@ -44,62 +44,26 @@ req.redist:
 
 # XMINT2::operator-assign
 
-
 ## -description
 
+Assigns the vector component data from one instance of <code>XMINT2</code> to the current instance of <code>XMINT2</code>.
 
-Assigns the vector component data from one instance of <code>XMINT2</code> to the current instance of
-  <code>XMINT2</code>.
+This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/41e10329-9f6f-446f-9640-6c1d65e20cb5">XMINT2</a> to the current instance of <code>XMINT2</code>.
 
-This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/41e10329-9f6f-446f-9640-6c1d65e20cb5">XMINT2</a> to the current
-  instance of <code>XMINT2</code>.
-<div class="alert"><b>Note</b>  This operator is only available under C++.</div><div> </div>
+<div class="alert"><b>Note</b>  This operator is only available under C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param arg1
 
-TBD
-
-
-
-
-#### - Int2 [ref]
-
 Instance of <code>XMINT2</code> used to update the current <code>XMINT2</code>structure.
-	    
-
 
 ## -returns
 
-
-
-The current instance of <code>XMINT2</code> whose vector component data has been
-		updated to match those of the <code>XMINT2</code> instance specified by the
-		<b>Int2</b> argument.
-	    
-
-
-
+The current instance of <code>XMINT2</code> whose vector component data has been updated to match those of the <code>XMINT2</code> instance specified by the <b>Int2</b> argument.
 
 ## -see-also
 
-
-
-
-<b>Reference</b>
-
-
-
 <a href="https://msdn.microsoft.com/41e10329-9f6f-446f-9640-6c1d65e20cb5">XMINT2</a>
 
-
-
 <a href="https://msdn.microsoft.com/98822959-f4ef-4f73-8011-f9eba201dcc0">XMINT2 Operators</a>
- 
-
- 
-

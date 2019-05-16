@@ -2,12 +2,12 @@
 UID: NF:directxpackedvector.XMBYTEN4.XMBYTEN4(const int8_t)
 title: XMBYTEN4::XMBYTEN4(const int8_t) (directxpackedvector.h)
 author: windows-sdk-content
-description: Default constructor for XMBYTEN4.
-old-location: dxmath\xmbyten4_ctor_1.htm
+description: Initializes a new instance of XMBYTEN4 from a four element int8_t array argument.
+old-location: 
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMBYTEN4.#ctor
+ms.assetid: d1ca7edc-3f93-4100-bc64-de560d052ad5
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: XMBYTEN4, XMBYTEN4 constructor [DirectX Math Support APIs], XMBYTEN4 constructor [DirectX Math Support APIs],XMBYTEN4 structure, XMBYTEN4 structure [DirectX Math Support APIs],XMBYTEN4 constructor, XMBYTEN4.XMBYTEN4, XMBYTEN4.XMBYTEN4(), XMBYTEN4.XMBYTEN4(const int8_t), XMBYTEN4::XMBYTEN4, XMBYTEN4::XMBYTEN4(const int8_t), dxmath.xmbyten4_ctor_1
 ms.topic: method
 req.header: directxpackedvector.h
@@ -45,55 +45,35 @@ ms.custom: 19H1
 
 # XMBYTEN4::XMBYTEN4(const int8_t)
 
-
 ## -description
 
+Initializes a new instance of <a href="https://msdn.microsoft.com/62d61a35-8674-4855-b09c-f351363cd50b">XMBYTEN4</a> from a four element <code>int8_t</code> array argument.
 
-Default constructor for <code>XMBYTEN4</code>
+This constructor initializes a new instance of **XMBYTEN4** from a four element <code>int8_t</code>array argument.
 
-Default constructor for <a href="https://msdn.microsoft.com/62d61a35-8674-4855-b09c-f351363cd50b">XMBYTEN4
-    </a>
-
-<div class="alert"><b>Note</b>  This constructor is only available under C++.
-    </div><div> </div>
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param pArray
 
-TBD
-
-
-
+Four element <code>int8_t</code> array containing the values used to initialize the four components of a new instance of **XMBYTEN4**.
 
 ## -remarks
 
+Input values are not normalized. The following pseudocode demonstrates the operation of this constructor:
 
-
-<code>XMBYTEN4()</code> constructs a new instance of the <code>XMBYTEN4</code> structure without
-	defining the value of any of its members.
-
-
-
+```cpp
+XMBYTEN4 instance;
+instance.x = pArray[0];
+instance.y = pArray[1];
+instance.z = pArray[2];
+instance.w = pArray[3];
+```
 
 ## -see-also
 
-
-
-
-<b>Reference</b>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee419284(v=VS.85).aspx">XMBYTEN4</a>
-
-
 
 <a href="https://msdn.microsoft.com/en-us/library/Ee415261(v=VS.85).aspx">XMBYTEN4 Constructors</a>
  
-
- 
-

@@ -7,7 +7,7 @@ old-location: dxmath\xmhalf4_operator_eq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMHALF4.operator = (const XMHALF4)
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: DirectX::PackedVector.XMHALF4.operator =, DirectX::PackedVector::XMHALF4::operator =, XMHALF4 structure [DirectX Math Support APIs],operator = method, XMHALF4.operator =, XMHALF4.operator-assign, XMHALF4.operator=, XMHALF4::operator-assign, XMHALF4::operator=, dxmath.xmhalf4_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMHALF4 structure, operator=
 ms.topic: method
 req.header: directxpackedvector.h
@@ -45,63 +45,26 @@ ms.custom: 19H1
 
 # XMHALF4::operator-assign
 
-
 ## -description
 
-
-Assigns the vector component data from one instance of <code>XMHALF4</code> to the current
-	instance of <code>XMHALF4</code>.
-    
+Assigns the vector component data from one instance of <code>XMHALF4</code> to the current instance of <code>XMHALF4</code>.
 
 This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/194CC053-8341-4E26-B8B2-5F137B201D80">XMHALF4</a> to the current instance of <code>XMHALF4</code>.
-<div class="alert"><b>Note</b>  This operator is only available under C++.
-    </div><div> </div>
+
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param arg1
 
-TBD
-
-
-
-
-#### - Half4 [ref]
-
 Instance of <code>XMHALF4</code> used to update the current <code>XMHALF4</code>structure.
-	    
-
 
 ## -returns
 
-
-
-The current instance of <code>XMHALF4</code> whose vector component data has been
-		updated to match those of the <code>XMHALF4</code> instance specified by the
-		<b>Half4</b> argument.
-	    
-
-
-
+The current instance of <code>XMHALF4</code> whose vector component data has been updated to match those of the <code>XMHALF4</code> instance specified by the <b>Half4</b> argument.
 
 ## -see-also
 
-
-
-
-<b>Reference</b>
-
-
-
 <a href="https://msdn.microsoft.com/194CC053-8341-4E26-B8B2-5F137B201D80">XMHALF4</a>
 
-
-
 <a href="https://msdn.microsoft.com/b69b554d-afdc-48ea-a8a6-45e4000993ac">XMHALF4 Operators</a>
- 
-
- 
-

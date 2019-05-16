@@ -1,112 +1,127 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.MeasureString
-title: Graphics::MeasureString (gdiplusgraphics.h)
-author: windows-sdk-content
-description: This topic lists the MeasureString methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
-old-location: gdiplus\_gdiplus_CLASS_Graphics_MeasureString_Methods.htm
-tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsmeasurestringmethods.htm
+title: Graphics::MeasureString
+description: The Graphics::MeasureString method measures the extent of the string in the specified font, format, and layout rectangle.
+ms.assetid: 95fe1f97-1978-4356-8707-f539adad3853
 ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: Graphics.MeasureString, Graphics::MeasureString, MeasureString, MeasureString methods [GDI+], _gdiplus_CLASS_Graphics_MeasureString_Methods, gdiplus._gdiplus_CLASS_Graphics_MeasureString_Methods, gdiplusgraphics/MeasureString
-ms.topic: method
-req.header: gdiplusgraphics.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+ms.date: 05/13/2019
+ms.keywords: Graphics::MeasureString
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: 
+req.header: gdiplusgraphics.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
- - HeaderDef
+ - COM
 api_location:
  - gdiplusgraphics.h
 api_name:
- - Graphics.MeasureString
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
+ - Graphics::MeasureString
 ---
 
-# Graphics::MeasureString
-
+# MeasureString(WCHAR*,INT,Font*,RectF&,StringFormat*,RectF*,INT*,INT*)
 
 ## -description
 
-
-<span>This topic lists the 
-MeasureString methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> class. For a complete list of methods for the 
-<b>Graphics</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>. 
-
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535829(v=VS.85).aspx">MeasureString(WCHAR*,INT,Font*,RectF&,RectF*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535829(v=VS.85).aspx">Graphics::MeasureString</a> method measures the extent of the string in the specified font and layout rectangle.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535833(v=VS.85).aspx">MeasureString(WCHAR*,INT,Font*,PointF&,RectF*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535833(v=VS.85).aspx">Graphics::MeasureString</a> method measures the extent of the string in the specified font and layout rectangle.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535830(v=VS.85).aspx">MeasureString(WCHAR*,INT,Font*,PointF&,StringFormat*,RectF*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535830(v=VS.85).aspx">Graphics::MeasureString</a> method measures the extent of the string in the specified font, format, and layout rectangle.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535831(v=VS.85).aspx">MeasureString(WCHAR*,INT,Font*,RectF&,StringFormat*,RectF*,INT*,INT*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535831(v=VS.85).aspx">Graphics::MeasureString</a> method measures the extent of the string in the specified font, format, and layout rectangle.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535832(v=VS.85).aspx">MeasureString(WCHAR*,INT,Font*,SizeF&,StringFormat*,SizeF*,INT*,INT*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535832(v=VS.85).aspx">Graphics::MeasureString</a> method measures the extent of the string in the specified font, format, and layout rectangle.
-
-</td>
-</tr>
-</table>
+The **Graphics::MeasureString** method measures the extent of the string in the specified font, format, and layout rectangle.
 
 ## -parameters
 
+### -param string
+
+Pointer to a wide-character string to be measured.
+
+**Important** For bidirectional languages, such as Arabic, the string length must not exceed 2046 characters.
+
+### -param length
+
+Integer that specifies the number of characters in the *string* array.
+The *length* parameter can be set to -1 if the string is null terminated.
+
+### -param font
+
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a> object that specifies the family name, size, and style of the font to be applied to the string.
+
+### -param layoutRect
+
+Reference to the rectangle that bounds the string.
+
+### -param stringFormat
+
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object that specifies the layout information, such as alignment, trimming, tab stops, and so forth.
+
+### -param boundingBox
+
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a> object that receives the rectangle that bounds the string. 
+
+### -param codepointsFitted
+
+Optional. Pointer to an **INT** that receives the number of characters that actually fit into the layout rectangle.
+The default value is a **NULL** pointer.
+
+### -param linesFilled
+
+Optional.
+Pointer to an **INT** that receives the number of lines that fit into the layout rectangle.
+The default value is a **NULL** pointer.
+
+## -returns
+
+If the method succeeds, it returns <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Ok</a>, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the **Status** enumeration.
+
+## -remarks
+
+#### Examples
+
+The following example measures the size of a string and then draws a rectangle that represents that size.
+
+```cpp
+VOID Example_MeasureString2(HDC hdc)
+{
+   Graphics graphics(hdc);
+   // Set up the string.
+   WCHAR string[] = L"Measure Text";
+   Font font(L"Arial", 16);
+   RectF layoutRect(0.0f, 0.0f, 100.0f, 50.0f);
+   StringFormat format;
+   format.SetAlignment(StringAlignmentFar);
+   RectF boundRect;
+   // Measure the string.
+   graphics.MeasureString(string, 12, &font, layoutRect, &format, &boundRect);
+   // Draw a rectangle that represents the size of the string.
+   graphics.DrawRectangle(&Pen(Color(255, 0, 0, 0)), boundRect);
+}
+```
+
+## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535759(v=VS.85).aspx">DrawString Methods</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a>

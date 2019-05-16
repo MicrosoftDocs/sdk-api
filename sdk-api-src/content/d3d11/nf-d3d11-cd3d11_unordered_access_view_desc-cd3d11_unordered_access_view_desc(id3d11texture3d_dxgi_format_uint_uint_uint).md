@@ -2,12 +2,12 @@
 UID: NF:d3d11.CD3D11_UNORDERED_ACCESS_VIEW_DESC.CD3D11_UNORDERED_ACCESS_VIEW_DESC(ID3D11Texture3D,DXGI_FORMAT,UINT,UINT,UINT)
 title: CD3D11_UNORDERED_ACCESS_VIEW_DESC::CD3D11_UNORDERED_ACCESS_VIEW_DESC(ID3D11Texture3D,DXGI_FORMAT,UINT,UINT,UINT) (d3d11.h)
 author: windows-sdk-content
-description: Instantiates a new instance of a CD3D11_UNORDERED_ACCESS_VIEW_DESC structure that is initialized with a D3D11_UNORDERED_ACCESS_VIEW_DESC structure.
-old-location: direct3d11\cd3d11_unordered_access_view_desc_cd3d11_unordered_access_view_desc_d3d11_unordered_access_view_desc_.htm
+description: Instantiates a new instance of a CD3D11_UNORDERED_ACCESS_VIEW_DESC structure that is initialized with 3D texture values.
+old-location: 
 tech.root: direct3d11
-ms.assetid: CFED2A2B-0FB7-4CE5-96B8-120DB1D0A90A
+ms.assetid: DF14C025-1639-473F-A905-EF89C40CADB3
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: CD3D11_UNORDERED_ACCESS_VIEW_DESC, CD3D11_UNORDERED_ACCESS_VIEW_DESC interface [Direct3D 11],CD3D11_UNORDERED_ACCESS_VIEW_DESC method, CD3D11_UNORDERED_ACCESS_VIEW_DESC method [Direct3D 11], CD3D11_UNORDERED_ACCESS_VIEW_DESC method [Direct3D 11],CD3D11_UNORDERED_ACCESS_VIEW_DESC interface, CD3D11_UNORDERED_ACCESS_VIEW_DESC.CD3D11_UNORDERED_ACCESS_VIEW_DESC, CD3D11_UNORDERED_ACCESS_VIEW_DESC.CD3D11_UNORDERED_ACCESS_VIEW_DESC(ID3D11Texture3D,DXGI_FORMAT,UINT,UINT,UINT), CD3D11_UNORDERED_ACCESS_VIEW_DESC::CD3D11_UNORDERED_ACCESS_VIEW_DESC, CD3D11_UNORDERED_ACCESS_VIEW_DESC::CD3D11_UNORDERED_ACCESS_VIEW_DESC(ID3D11Texture3D,DXGI_FORMAT,UINT,UINT,UINT), CD3D11_UNORDERED_ACCESS_VIEW_DESC::CD3D11_UNORDERED_ACCESS_VIEW_DESC(const D3D11_UNORDERED_ACCESS_VIEW_DESC&), d3d11/CD3D11_UNORDERED_ACCESS_VIEW_DESC::CD3D11_UNORDERED_ACCESS_VIEW_DESC, direct3d11.cd3d11_unordered_access_view_desc_cd3d11_unordered_access_view_desc_d3d11_unordered_access_view_desc_
 ms.topic: method
 req.header: d3d11.h
@@ -46,68 +46,37 @@ ms.custom: 19H1
 
 # CD3D11_UNORDERED_ACCESS_VIEW_DESC::CD3D11_UNORDERED_ACCESS_VIEW_DESC(ID3D11Texture3D,DXGI_FORMAT,UINT,UINT,UINT)
 
-
 ## -description
 
-
-Instantiates a new instance of a  <a href="https://msdn.microsoft.com/8062BFAB-4A68-4ED4-B82F-0D1FF9E81733">CD3D11_UNORDERED_ACCESS_VIEW_DESC</a> structure that is initialized with a <a href="https://msdn.microsoft.com/884b5498-7f10-4a44-a947-bc7d93fa0cbf">D3D11_UNORDERED_ACCESS_VIEW_DESC</a> structure.
-
+Instantiates a new instance of a <a href="https://msdn.microsoft.com/8062BFAB-4A68-4ED4-B82F-0D1FF9E81733">CD3D11_UNORDERED_ACCESS_VIEW_DESC</a> structure that is initialized with 3D texture values.
 
 ## -parameters
 
-
-
-
 ### -param pTex3D
 
-TBD
-
+A pointer to a **ID3D11Texture3D** interface for a 3D texture.
 
 ### -param format
 
-TBD
-
+A **DXGI_FORMAT**-typed value that specifies the viewing format.
 
 ### -param mipSlice
 
-TBD
-
+The index of the mipmap level to use mip slice.
 
 ### -param firstWSlice
 
-TBD
-
+First depth level to use.
 
 ### -param wSize
 
-TBD
-
-
-
-
-#### - o [ref]
-
-Type: <b>const <a href="https://msdn.microsoft.com/884b5498-7f10-4a44-a947-bc7d93fa0cbf">D3D11_UNORDERED_ACCESS_VIEW_DESC</a></b>
-
-Address of the <a href="https://msdn.microsoft.com/884b5498-7f10-4a44-a947-bc7d93fa0cbf">D3D11_UNORDERED_ACCESS_VIEW_DESC</a> structure that initializes the <a href="https://msdn.microsoft.com/8062BFAB-4A68-4ED4-B82F-0D1FF9E81733">CD3D11_UNORDERED_ACCESS_VIEW_DESC</a> structure.
-
+Number of depth levels to use in the render-target view, starting from *firstWSlice*.
+A value of -1 indicates all of the slices along the w axis, starting from *firstWSlice*.
 
 ## -returns
 
-
-
 This method does not return a value.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/8062BFAB-4A68-4ED4-B82F-0D1FF9E81733">CD3D11_UNORDERED_ACCESS_VIEW_DESC</a>
- 
-
- 
-

@@ -1,83 +1,101 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.ApplyEffect
-title: Bitmap::ApplyEffect (gdiplusheaders.h)
-author: windows-sdk-content
-description: This topic lists the ApplyEffect methods of the Bitmap class. For a complete list of methods for the Bitmap class, see Bitmap Methods.
-old-location: gdiplus\_gdiplus_CLASS_Bitmap_ApplyEffect_Methods.htm
-tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapapplyeffectmethods.htm
+title: Bitmap::ApplyEffect
+description: The Bitmap::ApplyEffect method alters this Bitmap object by applying a specified effect.
+ms.assetid: fff2c151-92df-477e-aafd-6aaca27df414
 ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: ApplyEffect, ApplyEffect methods [GDI+], Bitmap.ApplyEffect, Bitmap::ApplyEffect, _gdiplus_CLASS_Bitmap_ApplyEffect_Methods, gdiplus._gdiplus_CLASS_Bitmap_ApplyEffect_Methods, gdiplusheaders/ApplyEffect
-ms.topic: method
-req.header: gdiplusheaders.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+ms.date: 05/20/2019
+ms.keywords: Bitmap::ApplyEffect
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: 
+req.header: gdiplusheaders.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
- - HeaderDef
+ - COM
 api_location:
  - gdiplusheaders.h
 api_name:
- - Bitmap.ApplyEffect
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
+ - Bitmap::ApplyEffect
 ---
 
-# Bitmap::ApplyEffect
-
+# ApplyEffect(Effect*,RECT*)
 
 ## -description
 
-
-<span>This topic lists the 
-			ApplyEffect methods of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> class. For a complete list of methods for the 
-			<b>Bitmap</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms536286(v=VS.85).aspx">Bitmap Methods</a>.
- 
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536321(v=VS.85).aspx">ApplyEffect(Effect*,RECT*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536321(v=VS.85).aspx">Bitmap::ApplyEffect</a> method alters this <a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> object by applying a specified effect.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536320(v=VS.85).aspx">ApplyEffect(Bitmap**,INT,Effect*,RECT*,RECT*,Bitmap**)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536320(v=VS.85).aspx">Bitmap::ApplyEffect</a> method  creates a new <a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> object by applying a specified effect to an existing <b>Bitmap</b> object.
-
-</td>
-</tr>
-</table>
+The **Bitmap::ApplyEffect** method alters this <a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> object by applying a specified effect.
 
 ## -parameters
 
+### -param effect
+
+Pointer to an instance of a descendant of the <a href="https://msdn.microsoft.com/en-us/library/ms534433(v=VS.85).aspx">Effect</a> class.
+The descendant (for example, a <a href="https://msdn.microsoft.com/en-us/library/ms534422(v=VS.85).aspx">Blur</a> object) specifies the effect that is applied.
+
+### -param ROI
+
+Pointer to a **RECT** structure that specifies the portion of the input bitmap to which the effect is applied.
+Pass **NULL** to specify that the effect applies to the entire input bitmap.
+
+## -returns
+
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+## -remarks
+
+#### Examples
+
+The following example draws an image twice: once with no change, and once after the brightness has been increased for part of the image.
+
+```cpp
+VOID Example_BrightnessContrastApplyEffect1(HDC hdc)
+{
+   Graphics graphics(hdc);
+   Bitmap myBitmap(L"Picture.bmp");
+   UINT srcWidth = myBitmap.GetWidth();
+   UINT srcHeight = myBitmap.GetHeight();
+
+   BrightnessContrastParams briConParams;
+   briConParams.brightnessLevel = 50;
+   briConParams.contrastLevel = 0;
+   BrightnessContrast briCon;
+   briCon.SetParameters(&briConParams);
+   RECT rectOfInterest = {20, 15, 80, 50};
+
+   // Draw the original image.
+   graphics.DrawImage(&myBitmap, 20, 20, srcWidth, srcHeight);
+
+   // Increase the brightness in a portion of the image.
+   myBitmap.ApplyEffect(&briCon, &rectOfInterest);
+
+   // Draw the image again.
+   graphics.DrawImage(&myBitmap, 200, 20, srcWidth, srcHeight);
+}
+```
+
+## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a>

@@ -2,12 +2,12 @@
 UID: NF:directxpackedvector.XMBYTE2.XMBYTE2(uint16_t)
 title: XMBYTE2::XMBYTE2(uint16_t) (directxpackedvector.h)
 author: windows-sdk-content
-description: Default constructor for XMBYTE2.
-old-location: dxmath\xmbyte2_ctor_1.htm
+description: A constructor for XMBYTE2.
+old-location: 
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMBYTE2.#ctor
+ms.assetid: 
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: XMBYTE2, XMBYTE2 constructor [DirectX Math Support APIs], XMBYTE2 constructor [DirectX Math Support APIs],XMBYTE2 structure, XMBYTE2 structure [DirectX Math Support APIs],XMBYTE2 constructor, XMBYTE2.XMBYTE2, XMBYTE2.XMBYTE2(), XMBYTE2.XMBYTE2(uint16_t), XMBYTE2::XMBYTE2, XMBYTE2::XMBYTE2(uint16_t), dxmath.xmbyte2_ctor_1
 ms.topic: method
 req.header: directxpackedvector.h
@@ -45,53 +45,24 @@ ms.custom: 19H1
 
 # XMBYTE2::XMBYTE2(uint16_t)
 
-
 ## -description
 
+A constructor for <a href="https://msdn.microsoft.com/en-us/library/Hh437840(v=VS.85).aspx">XMBYTE2</a>.
 
-Default constructor for <code>XMBYTE2</code>.
+A constructor for <code>XMBYTE2</code>.
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Hh437840(v=VS.85).aspx">XMBYTE2</a>.
-<div class="alert"><b>Note</b>  This constructor is only available with C++.</div><div> </div>
+<div class="alert"><b>Note</b>  This constructor is only available with C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param Packed
 
-TBD
-
-
-
+A value.
 
 ## -remarks
 
-
-
-<code>XMBYTE2()</code> constructs a new instance of the <code>XMBYTE2</code> structure without
-    defining the value of any of its members.
-   
-
-
-
-
 ## -see-also
-
-
-
-
-<b>Reference</b>
-
-
 
 <a href="https://msdn.microsoft.com/en-us/library/Hh437840(v=VS.85).aspx">XMBYTE2</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Hh449492(v=VS.85).aspx">XMBYTE2 Constructors</a>
- 
-
- 
-

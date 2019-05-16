@@ -2,12 +2,12 @@
 UID: NF:d3d11.CD3D11_DEPTH_STENCIL_DESC.CD3D11_DEPTH_STENCIL_DESC(BOOL,D3D11_DEPTH_WRITE_MASK,D3D11_COMPARISON_FUNC,BOOL,UINT8,UINT8,D3D11_STENCIL_OP,D3D11_STENCIL_OP,D3D11_STENCIL_OP,D3D11_COMPA
 title: CD3D11_DEPTH_STENCIL_DESC::CD3D11_DEPTH_STENCIL_DESC(BOOL,D3D11_DEPTH_WRITE_MASK,D3D11_COMPARISON_FUNC,BOOL,UINT8,UINT8,D3D11_STENCIL_OP,D3D11_STENCIL_OP,D3D11_STENCIL_OP,D3D11_COMPA (d3d11.h)
 author: windows-sdk-content
-description: Instantiates a new instance of an uninitialized CD3D11_DEPTH_STENCIL_DESC structure.
-old-location: direct3d11\cd3d11_depth_stencil_desc_cd3d11_depth_stencil_desc.htm
+description: Instantiates a new instance of a CD3D11_DEPTH_STENCIL_DESC structure that is initialized with D3D11_DEPTH_STENCIL_DESC values.
+old-location:
 tech.root: direct3d11
 ms.assetid: 9AB17F96-B5BB-4A6B-94E2-F68ADC27B3C2
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: CD3D11_DEPTH_STENCIL_DESC, CD3D11_DEPTH_STENCIL_DESC constructor [Direct3D 11], CD3D11_DEPTH_STENCIL_DESC constructor [Direct3D 11],CD3D11_DEPTH_STENCIL_DESC interface, CD3D11_DEPTH_STENCIL_DESC interface [Direct3D 11],CD3D11_DEPTH_STENCIL_DESC constructor, CD3D11_DEPTH_STENCIL_DESC.CD3D11_DEPTH_STENCIL_DESC, CD3D11_DEPTH_STENCIL_DESC.CD3D11_DEPTH_STENCIL_DESC(BOOL,D3D11_DEPTH_WRITE_MASK,D3D11_COMPARISON_FUNC,BOOL,UINT8,UINT8,D3D11_STENCIL_OP,D3D11_STENCIL_OP,D3D11_STENCIL_OP,D3D11_COMPA, CD3D11_DEPTH_STENCIL_DESC::CD3D11_DEPTH_STENCIL_DESC, CD3D11_DEPTH_STENCIL_DESC::CD3D11_DEPTH_STENCIL_DESC(), CD3D11_DEPTH_STENCIL_DESC::CD3D11_DEPTH_STENCIL_DESC(BOOL,D3D11_DEPTH_WRITE_MASK,D3D11_COMPARISON_FUNC,BOOL,UINT8,UINT8,D3D11_STENCIL_OP,D3D11_STENCIL_OP,D3D11_STENCIL_OP,D3D11_COMPA, d3d11/CD3D11_DEPTH_STENCIL_DESC::CD3D11_DEPTH_STENCIL_DESC, direct3d11.cd3d11_depth_stencil_desc_cd3d11_depth_stencil_desc
 ms.topic: method
 req.header: d3d11.h
@@ -46,99 +46,90 @@ ms.custom: 19H1
 
 # CD3D11_DEPTH_STENCIL_DESC::CD3D11_DEPTH_STENCIL_DESC(BOOL,D3D11_DEPTH_WRITE_MASK,D3D11_COMPARISON_FUNC,BOOL,UINT8,UINT8,D3D11_STENCIL_OP,D3D11_STENCIL_OP,D3D11_STENCIL_OP,D3D11_COMPA
 
-
 ## -description
 
-
-Instantiates a new instance of an uninitialized <a href="https://msdn.microsoft.com/511AF313-C692-423B-AD5A-A0A36018572B">CD3D11_DEPTH_STENCIL_DESC</a> structure.
-
-
-
+Instantiates a new instance of a <a href="https://msdn.microsoft.com/511AF313-C692-423B-AD5A-A0A36018572B">CD3D11_DEPTH_STENCIL_DESC</a> structure that is initialized with <a href="https://msdn.microsoft.com/5e136ca8-8655-4c75-9bc0-bcf3a7af930a">D3D11_DEPTH_STENCIL_DESC</a> values.
 
 ## -parameters
 
-
-
-
 ### -param depthEnable
 
-TBD
-
+A Boolean value that specifies whether to enable depth testing (**TRUE** for enabled, **FALSE** for disabled).
 
 ### -param depthWriteMask
 
-TBD
-
+A **D3D11_DEPTH_WRITE_MASK**-typed value that identifies a portion of the depth-stencil buffer that can be modified by depth data.
 
 ### -param depthFunc
 
-TBD
-
+A **D3D11_COMPARISON_FUNC**-typed value that identifies a function that compares depth data against existing depth data.
 
 ### -param stencilEnable
 
-TBD
-
+A Boolean value that specifies whether to enable stencil testing (**TRUE** for enabled, **FALSE** for disabled).
 
 ### -param stencilReadMask
 
-TBD
-
+An 8-bit mask that identifies a portion of the depth-stencil buffer for reading stencil data.
 
 ### -param stencilWriteMask
 
-TBD
-
+An 8-bit mask that identifies a portion of the depth-stencil buffer for writing stencil data.
 
 ### -param frontStencilFailOp
 
-TBD
-
+A **D3D11_STENCIL_OP**-typed value that identifies the stencil operation to perform when stencil testing fails for pixels whose surface normal is facing towards the camera.
 
 ### -param frontStencilDepthFailOp
 
-TBD
-
+A **D3D11_STENCIL_OP**-typed value that identifies the stencil operation to perform when stencil testing passes and depth testing fails for pixels whose surface normal is facing towards the camera.
 
 ### -param frontStencilPassOp
 
-TBD
-
+A **D3D11_STENCIL_OP**-typed value that identifies the stencil operation to perform when stencil testing and depth testing both pass for pixels whose surface normal is facing towards the camera.
 
 ### -param frontStencilFunc
 
-TBD
-
+A **D3D11_COMPARISON_FUNC**-typed value that identifies a function that compares stencil data against existing stencil data for pixels whose surface normal is facing towards the camera.
 
 ### -param backStencilFailOp
 
-TBD
-
+A **D3D11_STENCIL_OP**-typed value that identifies the stencil operation to perform when stencil testing fails for pixels whose surface normal is facing away from the camera.
 
 ### -param backStencilDepthFailOp
 
-TBD
-
+A **D3D11_STENCIL_OP**-typed value that identifies the stencil operation to perform when stencil testing passes and depth testing fails for pixels whose surface normal is facing away from the camera.
 
 ### -param backStencilPassOp
 
-TBD
-
+A **D3D11_STENCIL_OP**-typed value that identifies the stencil operation to perform when stencil testing and depth testing both pass for pixels whose surface normal is facing away from the camera.
 
 ### -param backStencilFunc
 
-TBD
+A **D3D11_COMPARISON_FUNC**-typed value that identifies a function that compares stencil data against existing stencil data for pixels whose surface normal is facing away from the camera.
 
+## -remarks
 
+Here is how **CD3D11_DEPTH_STENCIL_DESC** assigns the provided values to the members of **D3D11_DEPTH_STENCIL_DESC**:
 
+```
+        DepthEnable = depthEnable;
+        DepthWriteMask = depthWriteMask;
+        DepthFunc = depthFunc;
+        StencilEnable = stencilEnable;
+        StencilReadMask = stencilReadMask;
+        StencilWriteMask = stencilWriteMask;
+        FrontFace.StencilFailOp = frontStencilFailOp;
+        FrontFace.StencilDepthFailOp = frontStencilDepthFailOp;
+        FrontFace.StencilPassOp = frontStencilPassOp;
+        FrontFace.StencilFunc = frontStencilFunc;
+        BackFace.StencilFailOp = backStencilFailOp;
+        BackFace.StencilDepthFailOp = backStencilDepthFailOp;
+        BackFace.StencilPassOp = backStencilPassOp;
+        BackFace.StencilFunc = backStencilFunc;
+
+```
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/511AF313-C692-423B-AD5A-A0A36018572B">CD3D11_DEPTH_STENCIL_DESC</a>
- 
-
- 
-

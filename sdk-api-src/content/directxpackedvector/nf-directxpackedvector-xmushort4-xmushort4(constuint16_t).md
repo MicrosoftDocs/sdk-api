@@ -2,12 +2,12 @@
 UID: NF:directxpackedvector.XMUSHORT4.XMUSHORT4(const uint16_t)
 title: XMUSHORT4::XMUSHORT4(const uint16_t) (directxpackedvector.h)
 author: windows-sdk-content
-description: Default constructor for XMUSHORT4.
-old-location: dxmath\xmushort4_ctor_1.htm
+description: Initializes a new instance of XMUSHORT4 from a four element uint16_t array argument.
+old-location: 
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMUSHORT4.#ctor
+ms.assetid: c0ab2217-bca4-40b6-b875-a5b5c02f30d0
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: XMUSHORT4, XMUSHORT4 constructor [DirectX Math Support APIs], XMUSHORT4 constructor [DirectX Math Support APIs],XMUSHORT4 structure, XMUSHORT4 structure [DirectX Math Support APIs],XMUSHORT4 constructor, XMUSHORT4.XMUSHORT4, XMUSHORT4.XMUSHORT4(), XMUSHORT4.XMUSHORT4(const uint16_t), XMUSHORT4::XMUSHORT4, XMUSHORT4::XMUSHORT4(const uint16_t), dxmath.xmushort4_ctor_1
 ms.topic: method
 req.header: directxpackedvector.h
@@ -45,54 +45,34 @@ ms.custom: 19H1
 
 # XMUSHORT4::XMUSHORT4(const uint16_t)
 
-
 ## -description
 
+Initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420702(v=VS.85).aspx">XMUSHORT4</a> from a four element <code>uint16_t</code> array argument.
 
-Default constructor for <code>XMUSHORT4</code>.
-    
+This constructor initializes a new instance of **XMUSHORT4** from a four element <code>uint16_t</code> array argument.  
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee420702(v=VS.85).aspx">XMUSHORT4</a>.
-<div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param pArray
 
-TBD
-
-
-
+Four element **uint16_t** array containing the values used to initialize the four components of a new instance of **XMUSHORT4**.
 
 ## -remarks
 
+The following pseudocode demonstrates the operation of this constructor:
 
-
-<code>XMUSHORT4()</code> constructs a new instance of the <code>XMUSHORT4</code> structure without
-	defining the value of any of its members.
-   
-
-
-
+```cpp
+XMUSHORT4 instance;
+instance.x = pArray[0];
+instance.y = pArray[1];
+instance.z = pArray[2];
+instance.w = pArray[3];
+```
 
 ## -see-also
 
-
-
-
-<b>Reference</b>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee420702(v=VS.85).aspx">XMUSHORT4</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee415500(v=VS.85).aspx">XMUSHORT4 Constructors</a>
- 
-
- 
-

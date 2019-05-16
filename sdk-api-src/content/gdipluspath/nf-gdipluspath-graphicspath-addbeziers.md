@@ -1,85 +1,118 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddBeziers
-title: GraphicsPath::AddBeziers (gdipluspath.h)
-author: windows-sdk-content
-description: This topic lists the AddBeziers methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
-old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddBeziers_Methods.htm
-tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddbeziersmethods.htm
+title: GraphicsPath::AddBeziers
+description: The GraphicsPath::AddBeziers method adds a sequence of connected Bezier splines to the current figure of this path.
+ms.assetid: 62a632ff-1282-46e4-a130-809e4bb51c97
 ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: AddBeziers, AddBeziers methods [GDI+], GraphicsPath.AddBeziers, GraphicsPath::AddBeziers, _gdiplus_CLASS_GraphicsPath_AddBeziers_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddBeziers_Methods, gdipluspath/AddBeziers
-ms.topic: method
-req.header: gdipluspath.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+ms.date: 05/13/2019
+ms.keywords: GraphicsPath::AddBeziers
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: 
+req.header: gdipluspath.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
- - HeaderDef
+ - COM
 api_location:
  - gdipluspath.h
 api_name:
- - GraphicsPath.AddBeziers
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
+ - GraphicsPath::AddBeziers
 ---
 
 # GraphicsPath::AddBeziers
 
-
 ## -description
 
-
-<span>This topic lists the 
-AddBeziers methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete list of methods for the 
-<b>GraphicsPath</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>. 
-
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535619(v=VS.85).aspx">AddBeziers(Point*,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535619(v=VS.85).aspx">GraphicsPath::AddBeziers</a> method adds a sequence of connected Bézier splines to the current figure of this path.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535620(v=VS.85).aspx">AddBeziers(PointF*,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535620(v=VS.85).aspx">GraphicsPath::AddBeziers</a> method adds a sequence of connected Bézier splines to the current figure of this path.
-
-</td>
-</tr>
-</table>
+The **GraphicsPath::AddBeziers** method adds a sequence of connected Bézier splines to the current figure of this path.
 
 ## -parameters
 
+### -param points
+
+Pointer to an array of starting points, ending points, and control points for the connected splines.
+The first spline is constructed from the first point through the fourth point in the array and uses the second and third points as control points.
+Each subsequent spline in the sequence needs exactly three more points: the ending point of the previous spline is used as the starting point, the next two points in the sequence are control points, and the third point is the ending point.
+
+### -param count
+
+Integer that specifies the number of elements in the points array.
+
+## -returns
+
+**Type:** <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a>
+
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+## -remarks
+
+#### Examples
+
+The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object path, adds a sequence of two connected Bézier splines to path, closes the current figure (the only figure in this case), and then draws path.
+
+```cpp
+VOID Example_AddBeziers(HDC hdc)
+{
+   Graphics graphics(hdc);
+   GraphicsPath  path;
+
+   Point pts[] = {Point(50,50),
+                  Point(60,20),
+                  Point(70,100),
+                  Point(80,50),
+                  Point(120,40),
+                  Point(150,80),
+                  Point(170,30)};
+
+   path.AddBeziers(pts, 7);
+   path.CloseFigure();
+
+   // Draw the path.
+   Pen pen(Color(255, 255, 0, 0));
+   graphics.DrawPath(&pen, &path);
+}
+```
+
+## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535538(v=VS.85).aspx">AddBezier Methods</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535539(v=VS.85).aspx">AddBeziers Methods</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535541(v=VS.85).aspx">AddCurve Methods</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms536354(v=VS.85).aspx">Bézier Splines</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533825(v=VS.85).aspx">Clipping with a Region</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533926(v=VS.85).aspx">Drawing Bézier Splines</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms536370(v=VS.85).aspx">Paths</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a>

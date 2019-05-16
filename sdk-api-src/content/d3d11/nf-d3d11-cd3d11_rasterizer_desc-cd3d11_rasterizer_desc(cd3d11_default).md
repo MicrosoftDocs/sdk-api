@@ -46,33 +46,19 @@ ms.custom: 19H1
 
 # CD3D11_RASTERIZER_DESC::CD3D11_RASTERIZER_DESC(CD3D11_DEFAULT)
 
-
 ## -description
-
 
 Instantiates a new instance of a <a href="https://msdn.microsoft.com/3A64A02B-9DF6-46D1-8695-9B92F25CE620">CD3D11_RASTERIZER_DESC</a> structure that is initialized with default rasterizer-state values.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1
 
-TBD
-
-
-
-
-
+Address of the **D3D11_RASTERIZER_DESC** structure that initializes the **CD3D11_RASTERIZER_DESC** structure.
 
 ## -remarks
 
-
-
 Here are the default rasterizer-state values for the members of <a href="https://msdn.microsoft.com/53252fef-f557-46d1-b6a7-ccc8a059752a">D3D11_RASTERIZER_DESC</a>:
-
 
 ```
 FillMode = D3D11_FILL_SOLID;
@@ -88,17 +74,6 @@ FillMode = D3D11_FILL_SOLID;
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/3A64A02B-9DF6-46D1-8695-9B92F25CE620">CD3D11_RASTERIZER_DESC</a>
- 
-
- 
-

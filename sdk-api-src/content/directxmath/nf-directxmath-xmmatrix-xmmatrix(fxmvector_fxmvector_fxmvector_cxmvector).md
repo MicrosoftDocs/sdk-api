@@ -2,12 +2,12 @@
 UID: NF:directxmath.XMMATRIX.XMMATRIX(FXMVECTOR,FXMVECTOR,FXMVECTOR,CXMVECTOR)
 title: XMMATRIX::XMMATRIX(FXMVECTOR,FXMVECTOR,FXMVECTOR,CXMVECTOR) (directxmath.h)
 author: windows-sdk-content
-description: Default constructor for XMMATRIX.
-old-location: dxmath\xmmatrix_ctor_1.htm
+description: Initializes a new instance of the XMMATRIX structure from four instances of XMVECTOR.
+old-location: 
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMMATRIX.#ctor
+ms.assetid: 8b405a17-be16-4001-b076-95acca0ce467
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/13/2019
 ms.keywords: XMMATRIX, XMMATRIX constructor [DirectX Math Support APIs], XMMATRIX constructor [DirectX Math Support APIs],XMMATRIX structure, XMMATRIX structure [DirectX Math Support APIs],XMMATRIX constructor, XMMATRIX.XMMATRIX, XMMATRIX.XMMATRIX(), XMMATRIX.XMMATRIX(FXMVECTOR,FXMVECTOR,FXMVECTOR,CXMVECTOR), XMMATRIX::XMMATRIX, XMMATRIX::XMMATRIX(FXMVECTOR,FXMVECTOR,FXMVECTOR,CXMVECTOR), dxmath.xmmatrix_ctor_1
 ms.topic: method
 req.header: directxmath.h
@@ -45,68 +45,60 @@ ms.custom: 19H1
 
 # XMMATRIX::XMMATRIX(FXMVECTOR,FXMVECTOR,FXMVECTOR,CXMVECTOR)
 
-
 ## -description
 
+Initializes a new instance of the <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a> structure from four instances of <code>XMVECTOR</code>.
 
-Default constructor for <code>XMMATRIX</code>.
+Initializes a new instance of the **XMMATRIX** structure from four instances of **XMVECTOR Data Type**.
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a>.
-<div class="alert"><b>Note</b>  This constructor is only available when developing with C++.</div><div> </div>
+<div class="alert"><b>Note</b>  This constructor is only available when developing with C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param R0
 
-TBD
-
+Instance of **XMMATRIX** used to initialize the first row of a new instance of **XMMATRIX**.
 
 ### -param R1
 
-TBD
-
+Instance of **XMMATRIX** used to initialize the second row of a new instance of **XMMATRIX**.
 
 ### -param R2
 
-TBD
-
+Instance of **XMMATRIX** used to initialize the third row of a new instance of **XMMATRIX**.
 
 ### -param R3
 
-TBD
-
-
-
+Instance of **XMMATRIX** used to initialize the fourth row of a new instance of **XMMATRIX**.
 
 ## -remarks
 
+The following two pseudocode examples demonstrate the operation of this constructor:
 
+```cpp
+XMMATRIX mat;
+XMVECTOR rows[4];
+//...Initialize instances of XMVECTOR
+for (int i=0;i&lt;4;i++){
+    for (int j=0;j&lt;4;j++){
+        mat.m[i][j]=rows[i].v[j];
+    }
+}
+```
 
-<code>XMMATRIX()</code> constructs a new instance of the <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a> structure without
-    defining the value of any of its members.
+Or
 
-
-
-
+```cpp
+XMMATRIX mat;
+XMVECTOR rows[4];
+//...Initialize instances of XMVECTOR
+for (int i=0;i&lt;4;i++){
+    mat.r[i]=rows[i];
+}
+```
 
 ## -see-also
 
-
-
-
-<b>Reference</b>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee415353(v=VS.85).aspx">XMMATRIX Constructors</a>
- 
-
- 
-

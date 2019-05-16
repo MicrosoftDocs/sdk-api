@@ -2,12 +2,12 @@
 UID: NF:directxpackedvector.XMFLOAT3PK.XMFLOAT3PK(const XMFLOAT3PK &)
 title: XMFLOAT3PK::XMFLOAT3PK(const XMFLOAT3PK &) (directxpackedvector.h)
 author: windows-sdk-content
-description: Default constructor for XMFLOAT3PK.
-old-location: dxmath\xmfloat3pk_ctor_1.htm
+description: A constructor for XMFLOAT3PK.
+old-location: 
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3PK.#ctor
+ms.assetid: 
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: XMFLOAT3PK, XMFLOAT3PK constructor [DirectX Math Support APIs], XMFLOAT3PK constructor [DirectX Math Support APIs],XMFLOAT3PK structure, XMFLOAT3PK structure [DirectX Math Support APIs],XMFLOAT3PK constructor, XMFLOAT3PK.XMFLOAT3PK, XMFLOAT3PK.XMFLOAT3PK(), XMFLOAT3PK.XMFLOAT3PK(const XMFLOAT3PK &), XMFLOAT3PK::XMFLOAT3PK, XMFLOAT3PK::XMFLOAT3PK(const XMFLOAT3PK &), dxmath.xmfloat3pk_ctor_1
 ms.topic: method
 req.header: directxpackedvector.h
@@ -45,53 +45,24 @@ ms.custom: 19H1
 
 # XMFLOAT3PK::XMFLOAT3PK(const XMFLOAT3PK &)
 
-
 ## -description
 
+A constructor for <code>XMFLOAT3PK</code>.
 
-Default constructor for <code>XMFLOAT3PK</code>.
+A constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419478(v=VS.85).aspx">XMFLOAT3PK</a>.
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419478(v=VS.85).aspx">XMFLOAT3PK</a>.
-<div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param arg1
 
-TBD
-
-
-
+A value.
 
 ## -remarks
 
-
-
-<code>XMFLOAT3PK()</code> constructs a new instance of the <code>XMFLOAT3PK</code> structure without
-    defining the value of any of its members.
-   
-
-
-
-
 ## -see-also
-
-
-
-
-<b>Reference</b>
-
-
 
 <a href="https://msdn.microsoft.com/en-us/library/Ee419478(v=VS.85).aspx">XMFLOAT3PK</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee415282(v=VS.85).aspx">XMFLOAT3PK Constructors</a>
- 
-
- 
-

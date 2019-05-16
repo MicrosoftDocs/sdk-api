@@ -2,12 +2,12 @@
 UID: NF:directxpackedvector.XMUSHORT2.XMUSHORT2(const XMUSHORT2 &)
 title: XMUSHORT2::XMUSHORT2(const XMUSHORT2 &) (directxpackedvector.h)
 author: windows-sdk-content
-description: Default constructor for XMUSHORT2.
-old-location: dxmath\xmushort2_ctor_1.htm
+description: A constructor for XMUSHORT2.
+old-location: 
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMUSHORT2.#ctor
+ms.assetid: 
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: XMUSHORT2, XMUSHORT2 constructor [DirectX Math Support APIs], XMUSHORT2 constructor [DirectX Math Support APIs],XMUSHORT2 structure, XMUSHORT2 structure [DirectX Math Support APIs],XMUSHORT2 constructor, XMUSHORT2.XMUSHORT2, XMUSHORT2.XMUSHORT2(), XMUSHORT2.XMUSHORT2(const XMUSHORT2 &), XMUSHORT2::XMUSHORT2, XMUSHORT2::XMUSHORT2(const XMUSHORT2 &), dxmath.xmushort2_ctor_1
 ms.topic: method
 req.header: directxpackedvector.h
@@ -45,53 +45,24 @@ ms.custom: 19H1
 
 # XMUSHORT2::XMUSHORT2(const XMUSHORT2 &)
 
-
 ## -description
 
+A constructor for <code>XMUSHORT2</code>.
 
-Default constructor for <code>XMUSHORT2</code>.
+A constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee420625(v=VS.85).aspx">XMUSHORT2</a>.
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee420625(v=VS.85).aspx">XMUSHORT2</a>.
-<div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param arg1
 
-TBD
-
-
-
+A value.
 
 ## -remarks
 
-
-
-<code>XMUSHORT2()</code> constructs a new instance of the <code>XMUSHORT2</code> structure without
-	  defining the value of any of its members.
-  
-
-
-
-
 ## -see-also
-
-
-
-
-<b>Reference</b>
-
-
 
 <a href="https://msdn.microsoft.com/en-us/library/Ee420625(v=VS.85).aspx">XMUSHORT2</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee415494(v=VS.85).aspx">XMUSHORT2 Constructors</a>
- 
-
- 
-

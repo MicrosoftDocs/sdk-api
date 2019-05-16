@@ -1,85 +1,149 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.GetPathPoints
-title: GraphicsPath::GetPathPoints (gdipluspath.h)
-author: windows-sdk-content
-description: This topic lists the GetPathPoints methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
-old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GetPathPoints_Methods.htm
-tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathgetpathpointsmethods.htm
+title: GraphicsPath::GetPathPoints
+description: The GraphicsPath::GetPathPoints method gets this path's array of points.
+ms.assetid: b8477156-4557-4aa7-900e-61eb9108ec38
 ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: GetPathPoints, GetPathPoints methods [GDI+], GraphicsPath.GetPathPoints, GraphicsPath::GetPathPoints, _gdiplus_CLASS_GraphicsPath_GetPathPoints_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_GetPathPoints_Methods, gdipluspath/GetPathPoints
-ms.topic: method
-req.header: gdipluspath.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+ms.date: 05/13/2019
+ms.keywords: GraphicsPath::GetPathPoints
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: 
+req.header: gdipluspath.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
- - HeaderDef
+ - COM
 api_location:
  - gdipluspath.h
 api_name:
- - GraphicsPath.GetPathPoints
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
+ - GraphicsPath::GetPathPoints
 ---
 
 # GraphicsPath::GetPathPoints
 
-
 ## -description
 
-
-<span>This topic lists the 
-GetPathPoints methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete list of methods for the 
-<b>GraphicsPath</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>. 
-
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535581(v=VS.85).aspx">GetPathPoints(Point*,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535581(v=VS.85).aspx">GraphicsPath::GetPathPoints</a> method gets this path's array of points. The array contains the endpoints and control points of the lines and Bézier splines that are used to draw the path.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535582(v=VS.85).aspx">GetPathPoints(PointF*,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535582(v=VS.85).aspx">GraphicsPath::GetPathPoints</a> method gets this path's array of points. The array contains the endpoints and control points of the lines and Bézier splines that are used to draw the path.
-
-</td>
-</tr>
-</table>
+The **GraphicsPath::GetPathPoints** method gets this path's array of points.
+The array contains the endpoints and control points of the lines and Bézier splines that are used to draw the path.
 
 ## -parameters
 
+### -param points
+
+Pointer to an array of **PointF** objects that receives the data points.
+You must allocate memory for this array.
+You can call the **GraphicsPath::GetPointCount** method to determine the required size of the array.
+The size, in bytes, should be the return value of **GraphicsPath::GetPointCount** multiplied by `sizeof(PointF)`.
+
+### -param count
+
+Integer that specifies the number of elements in the points array.
+Set this parameter equal to the return value of the **GraphicsPath::GetPointCount** method.
+
+## -returns
+
+**Type:** <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a>
+
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+## -remarks
+A <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object has an array of points and an array of types.
+Each element in the array of types is a byte that specifies the point type and a set of flags for the corresponding element in the array of points.
+Possible point types and flags are listed in the PathPointType enumeration.
+
+#### Examples
+
+The following example creates and draws a path that has a line, a rectangle, an ellipse, and a curve.
+The code calls the path's **GraphicsPath::GetPointCount** method to determine the number of data points that are stored in the path.
+The code allocates a buffer large enough to receive the array of data points and passes the address of that buffer to the **GraphicsPath::GetPathPoints** method.
+Finally, the code draws each of the path's data points.
+
+```cpp
+VOID GetPathPointsExample(HDC hdc)
+{
+   Graphics graphics(hdc);
+
+   // Create a path that has a line, a rectangle, an ellipse, and a curve.
+   GraphicsPath path;
+
+   PointF[] = {
+      PointF(200, 200),
+      PointF(250, 240),
+      PointF(200, 300),
+      PointF(300, 310),
+      PointF(250, 350)};
+
+   path.AddLine(20, 100, 150, 200);
+   path.AddRectangle(Rect(40, 30, 80, 60));
+   path.AddEllipse(Rect(200, 30, 200, 100));
+   path.AddCurve(points, 5);
+
+   // Draw the path.
+   Pen pen(Color(255, 0, 0, 255));
+   graphics.DrawPath(&pen, &path);
+
+   // Get the path points.
+   INT count = path.GetPointCount();
+   PointF* dataPoints = new PointF[count];  
+   path.GetPathPoints(dataPoints, count);
+
+   // Draw the path's data points.
+   SolidBrush brush(Color(255, 255, 0, 0));
+   for(INT j = 0; j < count; ++j)
+   {
+      graphics.FillEllipse(
+         &brush, 
+         dataPoints[j].X - 3.0f, 
+         dataPoints[j].Y - 3.0f,
+         6.0f,
+         6.0f);
+   }
+   delete [] dataPoints; 
+}
+Color(255, 255, 0,  0)
+```
+
+## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535534(v=VS.85).aspx">GraphicsPath::GetPathData</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535535(v=VS.85).aspx">GraphicsPath::GetPathTypes</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535536(v=VS.85).aspx">GraphicsPath::GetPointCount</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534481(v=VS.85).aspx">PathData</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534162(v=VS.85).aspx">PathPointType</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533825(v=VS.85).aspx">Clipping with a Region</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms536370(v=VS.85).aspx">Paths</a>

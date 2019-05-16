@@ -2,12 +2,12 @@
 UID: NF:directxpackedvector.XMCOLOR.XMCOLOR(const XMCOLOR &)
 title: XMCOLOR::XMCOLOR(const XMCOLOR &) (directxpackedvector.h)
 author: windows-sdk-content
-description: Default constructor for XMCOLOR.
-old-location: dxmath\xmcolor_ctor_1.htm
+description: A constructor for XMCOLOR.
+old-location: 
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMCOLOR.#ctor
+ms.assetid: 
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: XMCOLOR, XMCOLOR constructor [DirectX Math Support APIs], XMCOLOR constructor [DirectX Math Support APIs],XMCOLOR structure, XMCOLOR structure [DirectX Math Support APIs],XMCOLOR constructor, XMCOLOR.XMCOLOR, XMCOLOR.XMCOLOR(), XMCOLOR.XMCOLOR(const XMCOLOR &), XMCOLOR::XMCOLOR, XMCOLOR::XMCOLOR(const XMCOLOR &), dxmath.xmcolor_ctor_1
 ms.topic: method
 req.header: directxpackedvector.h
@@ -45,53 +45,24 @@ ms.custom: 19H1
 
 # XMCOLOR::XMCOLOR(const XMCOLOR &)
 
-
 ## -description
 
+A constructor for <code>XMCOLOR</code>
 
-Default constructor for <code>XMCOLOR</code>
+A constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419292(v=VS.85).aspx">XMCOLOR</a>
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419292(v=VS.85).aspx">XMCOLOR</a>
-
-<div class="alert"><b>Note</b>  This is only available for C++ based development.</div><div> </div>
+<div class="alert"><b>Note</b>  This is only available for C++ based development.</div>
 
 ## -parameters
 
-
-
-
 ### -param arg1
 
-TBD
-
-
-
+A value.
 
 ## -remarks
 
-
-
-<code>XMCOLOR()</code> constructs a new instance of the <code>XMCOLOR</code> structure without
-	defining the value of any of its members.
-
-
-
-
 ## -see-also
-
-
-
-
-<b>Reference</b>
-
-
 
 <a href="https://msdn.microsoft.com/en-us/library/Ee419292(v=VS.85).aspx">XMCOLOR</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee415264(v=VS.85).aspx">XMCOLOR Constructors</a>
- 
-
- 
-

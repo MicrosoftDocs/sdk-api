@@ -5,9 +5,9 @@ author: windows-sdk-content
 description: This operator assigns the vector component data from one instance of XMCOLOR to the current instance of XMCOLOR.
 old-location: dxmath\xmcolor_operator_eq_1.htm
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMCOLOR.operator = (const XMCOLOR)
+ms.assetid: 3ad704a1-8244-4c35-9dc6-0b4058c71caa
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: XMCOLOR structure [DirectX Math Support APIs],operator = method, XMCOLOR.operator =(const XMCOLOR&), XMCOLOR.operator-assign(XMCOLOR &&), XMCOLOR.operator=, XMCOLOR::operator-assign(XMCOLOR &&), XMCOLOR::operator=, dxmath.xmcolor_operator_eq_1, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMCOLOR structure, operator=
 ms.topic: method
 req.header: directxpackedvector.h
@@ -45,57 +45,24 @@ ms.custom: 19H1
 
 # XMCOLOR::operator-assign(XMCOLOR &&)
 
-
 ## -description
 
+This operator assigns the vector component data from one instance of <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a> to the current instance of <b>XMCOLOR</b>.
 
-This operator assigns the vector component data from one instance of <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a> to the current
-  instance of <b>XMCOLOR</b>.
-<div class="alert"><b>Note</b>  This operator is only available under C++.</div><div> </div>
+<div class="alert"><b>Note</b>  This operator is only available under C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param arg1
 
-TBD
-
-
-
-
-#### - Color [ref]
-
-Instance of <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a> used to update the current <b>XMCOLOR</b>structure.
-	    
-
+Instance of <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a> used to update the current <b>XMCOLOR</b> structure.
 
 ## -returns
 
-
-
  The current instance of <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>whose vector component data has been updated to match those of the <b>XMCOLOR</b>instance specified by the <i>Color</i> argument.
-	    
-
-
-
 
 ## -see-also
 
-
-
-
-<b>Reference</b>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>
 
-
-
 <a href="https://msdn.microsoft.com/7dbba878-2f03-451f-b02b-75e531b6315b">operator = </a>
- 
-
- 
-

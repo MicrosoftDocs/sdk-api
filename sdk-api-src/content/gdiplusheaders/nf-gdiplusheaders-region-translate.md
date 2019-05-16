@@ -1,82 +1,110 @@
 ---
 UID: NF:gdiplusheaders.Region.Translate
-title: Region::Translate (gdiplusheaders.h)
-author: windows-sdk-content
-description: This topic lists the Translate methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
-old-location: gdiplus\_gdiplus_CLASS_Region_Translate_Methods.htm
-tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regiontranslatemethods.htm
-ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: Region.Translate, Region::Translate, Translate, Translate methods [GDI+], _gdiplus_CLASS_Region_Translate_Methods, gdiplus._gdiplus_CLASS_Region_Translate_Methods, gdiplusheaders/Translate
-ms.topic: method
-req.header: gdiplusheaders.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+title: Region::Translate
+description: The Region::Translate method offsets this region by specified amounts in the horizontal and vertical directions.
+ms.assetid: 0dc16555-1df7-44b8-85fb-ff0963f3c68e
+ms.author: windowssdkdev 
+ms.date: 05/20/2019
+ms.keywords: Region::Translate
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: 
+req.header: gdiplusheaders.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
- - HeaderDef
+ - COM
 api_location:
  - gdiplusheaders.h
 api_name:
- - Region.Translate
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
+ - Region::Translate
 ---
 
-# Region::Translate
-
+# Region::Translate(INT,INT)
 
 ## -description
 
-
-<span>This topic lists the 
-			Translate methods of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a> class. For a complete list of methods for the <b>Region</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms534761(v=VS.85).aspx">Region Methods</a>.
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534794(v=VS.85).aspx">Translate(INT,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534794(v=VS.85).aspx">Region::Translate</a> method offsets this region by specified amounts in the horizontal and vertical directions.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534793(v=VS.85).aspx">Translate(REAL,REAL)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534793(v=VS.85).aspx">Region::Translate</a> method offsets this region by specified amounts in the horizontal and vertical directions.
-
-</td>
-</tr>
-</table>
+The **Region::Translate** method offsets this region by specified amounts in the horizontal and vertical directions.
 
 ## -parameters
 
+### -param dx
+
+Integer that specifies the amount to shift the region in the x direction.
+
+### -param dy
+
+Integer that specifies the amount to shift the region in the y direction.
+
+## -returns
+
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+## -remarks
+
+#### Examples
+
+The following example creates a region from a path and fills it.
+The code then translates the region and fills the translated region to show how the region has shifted.
+
+```cpp
+VOID Example_Translate(HDC hdc)
+{
+   Graphics graphics(hdc);
+
+   Point points[] = {
+      Point(110, 20),
+      Point(120, 30),
+      Point(100, 60),
+      Point(120, 70),
+      Point(150, 60),
+      Point(140, 10)};
+
+   GraphicsPath path;
+   SolidBrush solidBrush(Color(255, 255, 0, 0));
+
+   path.AddClosedCurve(points, 6);
+
+   // Create a region from a path.
+   Region pathRegion(&path);
+   graphics.FillRegion(&solidBrush, &pathRegion);
+
+   // Translate the region.
+   INT dx = 100;
+   INT dy = 60;
+   pathRegion.Translate(dx, dy);
+   graphics.FillRegion(&solidBrush, &pathRegion);
+}
+```
+
+## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534784(v=VS.85).aspx">Region::Transform</a>

@@ -3,11 +3,11 @@ UID: NF:directxpackedvector.XMHALF4.XMHALF4(const XMHALF4 &)
 title: XMHALF4::XMHALF4(const XMHALF4 &) (directxpackedvector.h)
 author: windows-sdk-content
 description: Default constructor for XMHALF4.
-old-location: dxmath\xmhalf4_ctor_1.htm
+old-location: 
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMHALF4.#ctor
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: XMHALF4, XMHALF4 constructor [DirectX Math Support APIs], XMHALF4 constructor [DirectX Math Support APIs],XMHALF4 structure, XMHALF4 structure [DirectX Math Support APIs],XMHALF4 constructor, XMHALF4.XMHALF4, XMHALF4.XMHALF4(), XMHALF4.XMHALF4(const XMHALF4 &), XMHALF4::XMHALF4, XMHALF4::XMHALF4(const XMHALF4 &), dxmath.xmhalf4_ctor_1
 ms.topic: method
 req.header: directxpackedvector.h
@@ -45,54 +45,24 @@ ms.custom: 19H1
 
 # XMHALF4::XMHALF4(const XMHALF4 &)
 
-
 ## -description
 
+A constructor for <code>XMHALF4</code>.
 
-Default constructor for <code>XMHALF4</code>.
-    
+A constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419664(v=VS.85).aspx">XMHALF4</a>.
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419664(v=VS.85).aspx">XMHALF4</a>.
-<div class="alert"><b>Note</b>  This constructor is only available under C++.
-    </div><div> </div>
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param arg1
 
-TBD
-
-
-
+A value.
 
 ## -remarks
 
-
-
-<code>XMHALF4()</code> constructs a new instance of the <code>XMHALF4</code> structure without
-	defining the value of any of its members.
-
-
-
-
 ## -see-also
-
-
-
-
-<b>Reference</b>
-
-
 
 <a href="https://msdn.microsoft.com/en-us/library/Ee419664(v=VS.85).aspx">XMHALF4</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee415321(v=VS.85).aspx">XMHALF4 Constructors</a>
- 
-
- 
-

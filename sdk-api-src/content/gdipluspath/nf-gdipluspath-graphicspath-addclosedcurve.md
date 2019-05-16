@@ -1,103 +1,117 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddClosedCurve
-title: GraphicsPath::AddClosedCurve (gdipluspath.h)
-author: windows-sdk-content
-description: This topic lists the AddClosedCurve methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
-old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddClosedCurve_Methods.htm
-tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddclosedcurvemethods.htm
+title: GraphicsPath::AddClosedCurve
+description: The GraphicsPath::AddClosedCurve method adds a closed cardinal spline to this path.
+ms.assetid: cd2aaebd-da69-4664-ae8b-c559bb510913
 ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: AddClosedCurve, AddClosedCurve methods [GDI+], GraphicsPath.AddClosedCurve, GraphicsPath::AddClosedCurve, _gdiplus_CLASS_GraphicsPath_AddClosedCurve_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddClosedCurve_Methods, gdipluspath/AddClosedCurve
-ms.topic: method
-req.header: gdipluspath.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+ms.date: 05/13/2019
+ms.keywords: GraphicsPath::AddClosedCurve
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: 
+req.header: gdipluspath.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
- - HeaderDef
+ - COM
 api_location:
  - gdipluspath.h
 api_name:
- - GraphicsPath.AddClosedCurve
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
+ - GraphicsPath::AddClosedCurve
 ---
 
 # GraphicsPath::AddClosedCurve
 
-
 ## -description
 
-
-<span>This topic lists the 
-AddClosedCurve methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete list of methods for the 
-<b>GraphicsPath</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>. 
-
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535615(v=VS.85).aspx">AddClosedCurve(Point*,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535615(v=VS.85).aspx">GraphicsPath::AddClosedCurve</a> method adds a closed cardinal spline to this path.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535618(v=VS.85).aspx">AddClosedCurve(PointF*,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535618(v=VS.85).aspx">GraphicsPath::AddClosedCurve</a> method adds a closed cardinal spline to this path.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535616(v=VS.85).aspx">AddClosedCurve(Point*,INT,REAL)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535616(v=VS.85).aspx">GraphicsPath::AddClosedCurve</a> method adds a closed cardinal spline to this path.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535617(v=VS.85).aspx">AddClosedCurve(PointF*,INT,REAL)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535617(v=VS.85).aspx">GraphicsPath::AddClosedCurve</a> method adds a closed cardinal spline to this path.
-
-</td>
-</tr>
-</table>
+The **GraphicsPath::AddClosedCurve** method adds a closed cardinal spline to this path.
 
 ## -parameters
 
+### -param points
+
+Pointer to an array of points that define the cardinal spline.
+The cardinal spline is a curve that passes through each point in the array.
+
+### -param count
+
+Integer that specifies the number of elements in the points array.
+
+## -returns
+
+**Type:** <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a>
+
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+## -remarks
+
+You should keep a copy of the points array if those points will be needed later.
+The **GraphicsPath** object does not store the points passed to the **GraphicsPath::AddClosedCurve** method; instead, it converts the cardinal spline to a sequence of Bézier splines and stores the points that define those Bézier splines.
+You cannot retrieve the original array of points from the **GraphicsPath** object.
+
+#### Examples
+
+The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object path, adds a closed cardinal spline to path, and then draws path.
+
+```cpp
+VOID Example_AddClosedCurve(HDC hdc)
+{
+   Graphics graphics(hdc);
+
+   PointF pts[] = {PointF(50.0f,50.0f),
+                   PointF(60.0f,20.0f),
+                   PointF(70.0f,100.0f),
+                   PointF(80.0f,50.0f)};
+
+   GraphicsPath path;
+   path.AddClosedCurve(pts, 4);
+
+   // Draw the path.
+   Pen pen(Color(255, 255, 0, 0));
+   graphics.DrawPath(&pen, &path);
+}
+```
+
+## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535538(v=VS.85).aspx">AddBezier Methods</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535539(v=VS.85).aspx">AddBeziers Methods</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535541(v=VS.85).aspx">AddCurve Methods</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms536354(v=VS.85).aspx">Bézier Splines</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533825(v=VS.85).aspx">Clipping with a Region</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533926(v=VS.85).aspx">Drawing Bézier Splines</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms536370(v=VS.85).aspx">Paths</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a>

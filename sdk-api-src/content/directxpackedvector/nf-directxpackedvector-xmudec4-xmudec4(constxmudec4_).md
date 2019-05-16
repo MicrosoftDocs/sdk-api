@@ -2,12 +2,12 @@
 UID: NF:directxpackedvector.XMUDEC4.XMUDEC4(const XMUDEC4 &)
 title: XMUDEC4::XMUDEC4(const XMUDEC4 &) (directxpackedvector.h)
 author: windows-sdk-content
-description: Default constructor for XMUDEC4.
-old-location: dxmath\xmudec4_ctor_1.htm
+description: A constructor for XMUDEC4.
+old-location: 
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMUDEC4.#ctor
+ms.assetid: 
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: XMUDEC4, XMUDEC4 constructor [DirectX Math Support APIs], XMUDEC4 constructor [DirectX Math Support APIs],XMUDEC4 structure, XMUDEC4 structure [DirectX Math Support APIs],XMUDEC4 constructor, XMUDEC4.XMUDEC4, XMUDEC4.XMUDEC4(), XMUDEC4.XMUDEC4(const XMUDEC4 &), XMUDEC4::XMUDEC4, XMUDEC4::XMUDEC4(const XMUDEC4 &), dxmath.xmudec4_ctor_1
 ms.topic: method
 req.header: directxpackedvector.h
@@ -45,54 +45,24 @@ ms.custom: 19H1
 
 # XMUDEC4::XMUDEC4(const XMUDEC4 &)
 
-
 ## -description
 
+A constructor for <code>XMUDEC4</code>.
 
-Default constructor for <code>XMUDEC4</code>.
-    
+A constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee420508(v=VS.85).aspx">XMUDEC4</a>.
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee420508(v=VS.85).aspx">XMUDEC4</a> .
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param arg1
 
-TBD
-
-
-
+A value.
 
 ## -remarks
 
-
-
-<code>XMUDEC4()</code> constructs a new instance of the <code>XMUDEC4</code> structure without
-	defining the value of any of its members.
-   
-
-
-
-
 ## -see-also
-
-
-
-
-<b>Reference</b>
-
-
 
 <a href="https://msdn.microsoft.com/en-us/library/Ee420508(v=VS.85).aspx">XMUDEC4</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee415450(v=VS.85).aspx">XMUDEC4 Constructors</a>
- 
-
- 
-
