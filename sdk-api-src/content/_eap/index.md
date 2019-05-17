@@ -21,5 +21,5 @@ To develop Extensible Authentication Protocol, you need these headers:
  * [rrascfg.h](../rrascfg/index.md)
 
 For programming guidance for this technology, see:
-* [Extensible Authentication Protocol](/windows/desktop/eap/eap-start-page)
+* [Extensible Authentication Protocol](/windows/desktop/eap)
 
