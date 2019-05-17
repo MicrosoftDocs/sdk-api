@@ -1,5 +1,5 @@
 ---
-UID: NN:windows.graphics.directx.direct3d11.interop.IDirect3DDxgiInterfaceAccess
+UID: NS:windows.graphics.directx.direct3d11.interop.IDirect3DDxgiInterfaceAccess
 title: IDirect3DDxgiInterfaceAccess interface
 author: windows-sdk-content
 description: IDirect3DDxgiInterfaceAccess is a COM interface, which must be implemented by anything that implements IDirect3DDevice or IDirect3DSurface.
