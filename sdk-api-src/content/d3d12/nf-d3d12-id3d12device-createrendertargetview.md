@@ -82,7 +82,7 @@ A null <i>pDesc</i> is used to initialize a default descriptor, if possible. Thi
 
 Type: <b><a href="https://msdn.microsoft.com/92451E4C-5E70-4015-8760-3F75066A44FD">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
 
-Describes the CPU descriptor handle that represents the start of the heap that holds the render-target view.
+Describes the CPU descriptor handle that represents the destination where the newly-created render target view will reside.
           
 
 
