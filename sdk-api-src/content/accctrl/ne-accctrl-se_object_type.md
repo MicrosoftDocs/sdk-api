@@ -125,9 +125,7 @@ Indicates a window station or desktop object on the local computer. You cannot u
 
 Indicates a directory service object or a property set or property of a directory service object. 
 
-
-
-								The name string for a directory service object must be  in <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.500</a> form, for example:
+The name string for a directory service object must be  in <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.500</a> form, for example:
 
 CN=<i>SomeObject</i>,OU=<i>ou2</i>,OU=<i>ou1</i>,DC=<i>DomainName</i>,DC=<i>CompanyName</i>,DC=com,O=internet
 
