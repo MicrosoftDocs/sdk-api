@@ -155,9 +155,6 @@ Specifying <b>NULL</b> as the parameter value for <b>OleSetClipboard</b> empties
 
 If you need to leave the data on the clipboard after your application is closed, you should call <a href="https://msdn.microsoft.com/18291a91-be7d-42ec-a44a-d1bbfb017c6e">OleFlushClipboard</a> rather than calling <b>OleSetClipboard</b> with a <b>NULL</b> parameter value.
 
-If you need to leave the data on the clipboard after your application is closed, you should call <a href="https://msdn.microsoft.com/18291a91-be7d-42ec-a44a-d1bbfb017c6e">OleFlushClipboard</a> rather than calling <b>OleSetClipboard</b> with a <b>NULL</b> parameter value.
-
-
 
 
 ## -see-also
