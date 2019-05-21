@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_CROSS_NODE
 title: D3D12_FEATURE_DATA_CROSS_NODE
-ms.date: 01/31/19
+description: Indicates the level of support for the sharing of resources between different adapters&mdash;for example, multiple GPUs.
+ms.date: 05/20/2019
 ms.keywords: D3D12_FEATURE_DATA_CROSS_NODE
 ms.topic: language-reference
 targetos: Windows

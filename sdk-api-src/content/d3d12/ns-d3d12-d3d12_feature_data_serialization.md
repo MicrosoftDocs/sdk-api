@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_SERIALIZATION
 title: D3D12_FEATURE_DATA_SERIALIZATION
-ms.date: 01/31/19
+description: Indicates the level of support for heap serialization.
+ms.date: 05/20/2019
 ms.keywords: D3D12_FEATURE_DATA_SERIALIZATION
 ms.topic: language-reference
 targetos: Windows

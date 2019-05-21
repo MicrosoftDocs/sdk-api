@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_PROTECTED_RESOURCE_SESSION_SUPPORT
 title: D3D12_FEATURE_DATA_PROTECTED_RESOURCE_SESSION_SUPPORT
-ms.date: 01/31/19
+description: Indicates the level of support for protected resource sessions.
+ms.date: 05/20/2019
 ms.keywords: D3D12_FEATURE_DATA_PROTECTED_RESOURCE_SESSION_SUPPORT
 ms.topic: language-reference
 targetos: Windows
