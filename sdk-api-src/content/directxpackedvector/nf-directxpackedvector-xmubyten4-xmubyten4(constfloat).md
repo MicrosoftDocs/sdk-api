@@ -2,12 +2,12 @@
 UID: NF:directxpackedvector.XMUBYTEN4.XMUBYTEN4(const float)
 title: XMUBYTEN4::XMUBYTEN4(const float) (directxpackedvector.h)
 author: windows-sdk-content
-description: Default constructor for XMUBYTEN4.
-old-location: dxmath\xmubyten4_ctor_1.htm
+description: Initializes a new instance of XMUBYTEN4 from a four element float array argument.
+old-location: 
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMUBYTEN4.#ctor
+ms.assetid: 0b4ee605-ef9d-458b-af9a-83f27c9f4cb5
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: XMUBYTEN4, XMUBYTEN4 constructor [DirectX Math Support APIs], XMUBYTEN4 constructor [DirectX Math Support APIs],XMUBYTEN4 structure, XMUBYTEN4 structure [DirectX Math Support APIs],XMUBYTEN4 constructor, XMUBYTEN4.XMUBYTEN4, XMUBYTEN4.XMUBYTEN4(), XMUBYTEN4.XMUBYTEN4(const float), XMUBYTEN4::XMUBYTEN4, XMUBYTEN4::XMUBYTEN4(const float), dxmath.xmubyten4_ctor_1
 ms.topic: method
 req.header: directxpackedvector.h
@@ -45,54 +45,49 @@ ms.custom: 19H1
 
 # XMUBYTEN4::XMUBYTEN4(const float)
 
-
 ## -description
 
+Initializes a new instance of <a href="https://msdn.microsoft.com/552002c1-0000-44a6-9f43-9c958a8d1aa3">XMUBYTEN4</a> from a four element <code>float</code> array argument.
 
-Default constructor for <code>XMUBYTEN4</code>
+This constructor initializes a new instance of **XMUBYTEN4** from a from a four element <code>float</code> array argument.
 
-Default constructor for <a href="https://msdn.microsoft.com/552002c1-0000-44a6-9f43-9c958a8d1aa3">XMUBYTEN4
-    </a>
-
-<div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param pArray
 
-TBD
-
-
-
+Four element **float** array containing the values used to initialize the four components of a new instance of **XMUBYTEN4**.
 
 ## -remarks
 
+| Vector Component | Array Element | Range |  |
+|------------------|---------------|-------|--|
+| x | pArray[0] | 0.0, 1.0 | During instantiation, pArray[0] is clamped between 0 and 1, multiplied by 255.0f and assigned to x. |
+| y | pArray[1] | 0.0, 1.0 | During instantiation, pArray[1] is clamped between 0 and 1, multiplied by 255.0f, and then assigned to y. |
+| z | pArray[2] | 0.0, 1.0 | During instantiation, pArray[2] is clamped between 0 and 1, multiplied by 255.0f, and then assigned to z. |
+| w | pArray[3] | 0.0, 1.0 | During instantiation, pArray[3] is clamped between 0 and 1, multiplied by 255.0f, and then assigned to w. |
 
+The following pseudocode demonstrates the operation of this constructor:
 
-<code>XMUBYTEN4()</code> constructs a new instance of the <code>XMUBYTEN4</code> structure without
-	defining the value of any of its members.
-
-
-
+```cpp
+XMUBYTEN4 instance;
+_x1=min( max( pArray[0], 0.0 ), 1.0 );
+_y1=min( max( pArray[1], 0.0 ), 1.0 );
+_z1=min( max( pArray[2], 0.0 ), 1.0 );
+_w1=min( max( pArray[3], 0.0 ), 1.0 );
+_x1 = round( _x1 *  255.0f);
+_y1 = round( _y1 *  255.0f);
+_z1 = round( _z1 *  255.0f);
+_w1 = round( _w1 *  255.0f);
+instance.x = (uint8_t)_x1;
+instance.y = (uint8_t)_y1;
+instance.z = (uint8_t)_z1;
+instance.w = (uint8_t)_w1;
+```
 
 ## -see-also
 
-
-
-
-<b>Reference</b>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee420492(v=VS.85).aspx">XMUBYTEN4</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee415447(v=VS.85).aspx">XMUBYTEN4 Constructors</a>
- 
-
- 
-

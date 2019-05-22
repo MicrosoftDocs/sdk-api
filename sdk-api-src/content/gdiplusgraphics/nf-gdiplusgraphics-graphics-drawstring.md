@@ -1,94 +1,131 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawString
-title: Graphics::DrawString (gdiplusgraphics.h)
-author: windows-sdk-content
-description: This topic lists the DrawString methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
-old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawString_Methods.htm
-tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawstringmethods.htm
+title: Graphics::DrawString
+description: The Graphics::DrawString method draws a string based on a font, a layout rectangle, and a format.
+ms.assetid: ef1d9dc7-132f-4e0b-aba8-bc5a0c5d5d84
 ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: DrawString, DrawString methods [GDI+], Graphics.DrawString, Graphics::DrawString, _gdiplus_CLASS_Graphics_DrawString_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawString_Methods, gdiplusgraphics/DrawString
-ms.topic: method
-req.header: gdiplusgraphics.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+ms.date: 05/13/2019
+ms.keywords: Graphics::DrawString
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: 
+req.header: gdiplusgraphics.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
- - HeaderDef
+ - COM
 api_location:
  - gdiplusgraphics.h
 api_name:
- - Graphics.DrawString
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
+ - Graphics::DrawString
 ---
 
-# Graphics::DrawString
-
+# DrawString(WCHAR*,INT,Font*,RectF&,StringFormat*,Brush*)
 
 ## -description
 
-
-<span>This topic lists the 
-DrawString methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> class. For a complete list of methods for the 
-<b>Graphics</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>. 
-
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535993(v=VS.85).aspx">DrawString(WCHAR*,INT,Font*,PointF&,Brush*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535993(v=VS.85).aspx">Graphics::DrawString</a> method draws a string based on a font and an origin for the string.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535991(v=VS.85).aspx">DrawString(WCHAR*,INT,Font*,RectF&,StringFormat*,Brush*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535991(v=VS.85).aspx">Graphics::DrawString</a> method draws a string based on a font, a layout rectangle, and a format. 
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535994(v=VS.85).aspx">DrawString(WCHAR*,INT,Font*,PointF&,StringFormat*,Brush*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535994(v=VS.85).aspx">Graphics::DrawString</a> method draws a string based on a font, a string origin, and a format.
-
-</td>
-</tr>
-</table>
+The **Graphics::DrawString** method draws a string based on a font, a layout rectangle, and a format.
 
 ## -parameters
 
+### -param string
+
+Pointer to a wide-character string to be drawn.
+
+### -param length
+
+Integer that specifies the number of characters in the *string* array.
+The *length* parameter can be set to -1 if the string is null terminated.
+
+### -param font
+
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a> object that specifies the font attributes (the family name, the size, and the style of the font) to use.
+
+### -param layoutRect
+
+Reference to a rectangle that bounds the string.
+
+### -param stringFormat
+
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object that specifies text layout information and display manipulations to be applied to the string.
+
+### -param brush
+
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534424(v=VS.85).aspx">Brush</a> object that is used to fill the string.
+
+## -returns
+
+If the method succeeds, it returns <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Ok</a>, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the **Status** enumeration.
+
+## -remarks
+
+Note that GDI+ does not support PostScript fonts or OpenType fonts which do not have TrueType outlines.
+
+When you use the GDI+ API, you must not allow your application to download arbitrary fonts from untrusted sources.
+The operating system requires elevated privileges to assure that all installed fonts are trusted.
+
+#### Examples
+
+The following example uses the specified formatting to draw a string in a layout rectangle.
+
+```cpp
+VOID Example_DrawString(HDC hdc)
+{
+   Graphics graphics(hdc);
+
+   // Create a string.
+   WCHAR string[] = L"Sample Text";
+   
+   // Initialize arguments.
+   Font myFont(L"Arial", 16);
+   RectF layoutRect(0.0f, 0.0f, 200.0f, 50.0f);
+   StringFormat format;
+   format.SetAlignment(StringAlignmentCenter);
+   SolidBrush blackBrush(Color(255, 0, 0, 0));
+
+   // Draw string.
+   graphics.DrawString(
+   string,
+   11,
+   &myFont,
+   layoutRect,
+   &format,
+   &blackBrush);
+
+   // Draw layoutRect.
+   graphics.DrawRectangle(&Pen(Color::Black, 3), layoutRect);
+}
+```
+
+
+## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a>

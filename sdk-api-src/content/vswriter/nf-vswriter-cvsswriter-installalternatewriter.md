@@ -62,12 +62,12 @@ This method is reserved for future use.
 
 ### -param writerId
 
-TBD
+This parameter is reserved for future use.
 
 
 ### -param persistentWriterClassId
 
-TBD
+This parameter is reserved for future use.
 
 
 

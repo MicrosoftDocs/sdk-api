@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt._interlockedbittestandreset64
-title: "_interlockedbittestandreset64 function" (winnt.h)
+title: _interlockedbittestandreset64 function (winnt.h)
 author: windows-sdk-content
 description: Tests the specified bit of the specified LONG64 value and sets it to 0. The operation is atomic.
 old-location: base\interlockedbittestandreset64.htm

@@ -1,83 +1,120 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.GetCenterPoint
-title: PathGradientBrush::GetCenterPoint (gdipluspath.h)
-author: windows-sdk-content
-description: This topic lists the GetCenterPoint methods of the PathGradientBrushclass. For a complete list of methods for the PathGradientBrushclass, see PathGradientBrush Methods.
-old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetCenterPoint_Methods.htm
-tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\pathgradientbrushgetcenterpointmethods.htm
+title: PathGradientBrush::GetCenterPoint
+description: The PathGradientBrush::GetCenterPoint method gets the center point of this path gradient brush.
+ms.assetid: 80e265c4-6f87-4a3f-b198-b2857a0aa182
 ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: GetCenterPoint, GetCenterPoint methods [GDI+], PathGradientBrush.GetCenterPoint, PathGradientBrush::GetCenterPoint, _gdiplus_CLASS_PathGradientBrush_GetCenterPoint_Methods, gdiplus._gdiplus_CLASS_PathGradientBrush_GetCenterPoint_Methods, gdipluspath/GetCenterPoint
-ms.topic: method
-req.header: gdipluspath.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+ms.date: 05/13/2019
+ms.keywords: PathGradientBrush::GetCenterPoint
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: 
+req.header: gdipluspath.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
- - HeaderDef
+ - COM
 api_location:
  - gdipluspath.h
 api_name:
- - PathGradientBrush.GetCenterPoint
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
+ - PathGradientBrush::GetCenterPoint
 ---
 
 # PathGradientBrush::GetCenterPoint
 
-
 ## -description
 
-
-<span>This topic lists the 
-			GetCenterPoint methods of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>class. For a complete list of methods for the 
-			<b>PathGradientBrush</b>class, see <a href="https://msdn.microsoft.com/en-us/library/ms535061(v=VS.85).aspx">PathGradientBrush Methods</a>.
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535098(v=VS.85).aspx">GetCenterPoint(Point*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535098(v=VS.85).aspx">PathGradientBrush::GetCenterPoint</a> method gets the center point of this path gradient brush.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535099(v=VS.85).aspx">GetCenterPoint(PointF*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535099(v=VS.85).aspx">PathGradientBrush::GetCenterPoint</a> method gets the center point of this path gradient brush.
-
-</td>
-</tr>
-</table>
+The **PathGradientBrush::GetCenterPoint** method gets the center point of this path gradient brush.
 
 ## -parameters
 
+### -param point
+
+Pointer to a PointF object that receives the center point.
+
+## -returns
+
+**Type:** <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a>
+
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+## -remarks
+
+By default, the center point of a <a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a> object is at the centroid of the brush's boundary path, but you can set the center point to any location, inside or outside the path, by calling the **SetCenterPoint** method of the **PathGradientBrush** object.
+
+#### Examples
+
+The following example demonstrates several methods of the **PathGradientBrush** class including **PathGradientBrush::GetCenterPoint** and **PathGradientBrush::SetCenterColor**.
+The code creates a **PathGradientBrush** object and then sets the brush's center color and boundary color.
+The code calls the **PathGradientBrush::GetCenterPoint** method to determine the center point of the path gradient and then draws a line from the origin to that center point.
+
+```cpp
+VOID Example_GetCenterPoint(HDC hdc)
+{
+   Graphics graphics(hdc);
+
+   // Create a path that consists of a single ellipse.
+   GraphicsPath path;
+   path.AddEllipse(0, 0, 200, 100);
+
+   // Use the path to construct a brush.
+   PathGradientBrush pthGrBrush(&path);
+
+   // Set the color at the center of the path to blue.
+   pthGrBrush.SetCenterColor(Color(255, 0, 0, 255));
+
+   // Set the color along the entire boundary of the path to aqua.
+   Color colors[] = {Color(255, 0, 255, 255)};
+   INT count = 1;
+   pthGrBrush.SetSurroundColors(colors, &count);
+
+   // Fill the ellipse with the path gradient brush.
+   graphics.FillEllipse(&pthGrBrush, 0, 0, 200, 100);
+
+   // Obtain information about the path gradient brush.
+   PointF centerPoint;
+   pthGrBrush.GetCenterPoint(&centerPoint);
+
+   // Draw a line from the origin to the center of the ellipse.
+   Pen pen(Color(255, 0, 255, 0));
+   graphics.DrawLine(&pen, PointF(0, 0), centerPoint);  
+}
+```
+
+## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533856(v=VS.85).aspx">Filling a Shape with a Color Gradient</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535064(v=VS.85).aspx">PathGradientBrush::GetCenterColor</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535085(v=VS.85).aspx">PathGradientBrush::SetCenterColor</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535078(v=VS.85).aspx">PathGradientBrush::SetCenterPoint Methods</a>

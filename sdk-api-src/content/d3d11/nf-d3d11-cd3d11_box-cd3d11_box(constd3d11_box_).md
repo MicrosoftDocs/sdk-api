@@ -2,12 +2,12 @@
 UID: NF:d3d11.CD3D11_BOX.CD3D11_BOX(const D3D11_BOX &)
 title: CD3D11_BOX::CD3D11_BOX(const D3D11_BOX &) (d3d11.h)
 author: windows-sdk-content
-description: Instantiates a new instance of an uninitialized CD3D11_BOX structure.
-old-location: direct3d11\cd3d11_box_cd3d11_box.htm
+description: Instantiates a new instance of a **CD3D11_BOX** structure that is initialized with a **CD3D11_BOX** structure.
+old-location: 
 tech.root: direct3d11
 ms.assetid: 3830A242-CC73-42DF-9324-07AADCC82785
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: CD3D11_BOX, CD3D11_BOX constructor [Direct3D 11], CD3D11_BOX constructor [Direct3D 11],CD3D11_BOX interface, CD3D11_BOX interface [Direct3D 11],CD3D11_BOX constructor, CD3D11_BOX.CD3D11_BOX, CD3D11_BOX.CD3D11_BOX(const D3D11_BOX &), CD3D11_BOX::CD3D11_BOX, CD3D11_BOX::CD3D11_BOX(), CD3D11_BOX::CD3D11_BOX(const D3D11_BOX &), d3d11/CD3D11_BOX::CD3D11_BOX, direct3d11.cd3d11_box_cd3d11_box
 ms.topic: method
 req.header: d3d11.h
@@ -46,34 +46,16 @@ ms.custom: 19H1
 
 # CD3D11_BOX::CD3D11_BOX(const D3D11_BOX &)
 
-
 ## -description
 
-
-Instantiates a new instance of an uninitialized <a href="https://msdn.microsoft.com/5ACD1DB9-FB35-48F4-8533-3B7464CF5F3D">CD3D11_BOX</a> structure.
-
-
-
+Instantiates a new instance of a <a href="https://msdn.microsoft.com/5ACD1DB9-FB35-48F4-8533-3B7464CF5F3D">CD3D11_BOX</a> structure that is initialized with a **CD3D11_BOX** structure.
 
 ## -parameters
 
-
-
-
 ### -param o
 
-TBD
-
-
-
+Instantiates a new instance of a CD3D11_BOX structure that is initialized with a **D3D11_BOX** structure.
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/5ACD1DB9-FB35-48F4-8533-3B7464CF5F3D">CD3D11_BOX</a>
- 
-
- 
-

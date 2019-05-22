@@ -117,9 +117,9 @@ IPv6 is used.
 
 ### -param TableClass [in]
 
-The type of the TCP table structure to retrieve.  This parameter can be one of the values from the <a href="https://msdn.microsoft.com/abfaf7e5-7739-4f23-bfb4-09206111599f">TCP_TABLE_CLASS</a> enumeration. 
+The type of the TCP table structure to retrieve. This parameter can be one of the values from the <a href="https://msdn.microsoft.com/abfaf7e5-7739-4f23-bfb4-09206111599f">TCP_TABLE_CLASS</a> enumeration. 
 
-On the Windows SDK released for Windows Vista and later, the organization of header files has changed and the <a href="https://msdn.microsoft.com/abfaf7e5-7739-4f23-bfb4-09206111599f">TCP_TABLE_CLASS</a> enumeration  is defined in the <i>Iprtrmib.h</i> header file, not in the <i>Iphlpapi.h</i> header file. 
+On the Windows SDK released for Windows Vista and later, the organization of header files has changed and the <a href="https://msdn.microsoft.com/abfaf7e5-7739-4f23-bfb4-09206111599f">TCP_TABLE_CLASS</a> enumeration is defined in the <i>Iprtrmib.h</i> header file, not in the <i>Iphlpapi.h</i> header file. 
 
 The <a href="https://msdn.microsoft.com/abfaf7e5-7739-4f23-bfb4-09206111599f">TCP_TABLE_CLASS</a> enumeration value is combined with the value of the <i>ulAf</i> parameter to determine the extended TCP information to retrieve. 
 
@@ -164,7 +164,7 @@ This error is also returned if the <i>pTcpTable</i> parameter is <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-An invalid parameter was passed to the function. This error is returned if the <i>TableClass</i> parameter contains a value that is not defined in the  <a href="https://msdn.microsoft.com/abfaf7e5-7739-4f23-bfb4-09206111599f">TCP_TABLE_CLASS</a> enumeration.
+An invalid parameter was passed to the function. This error is returned if the <i>TableClass</i> parameter contains a value that is not defined in the <a href="https://msdn.microsoft.com/abfaf7e5-7739-4f23-bfb4-09206111599f">TCP_TABLE_CLASS</a> enumeration.
 
 </td>
 </tr>
@@ -296,9 +296,9 @@ When the <i>ulAf</i> parameter is set to <b>AF_INET</b>, the following table ind
 
 
 
-The <b>GetExtendedTcpTable</b> function called with the <i>ulAf</i> parameter set to <b>AF_INET6</b> and the <i>TableClass</i> set to <b>TCP_TABLE_BASIC_LISTENER</b>, <b>TCP_TABLE_BASIC_CONNECTIONS</b>, or <b>TCP_TABLE_BASIC_ALL</b>  is not supported and returns <b>ERROR_NOT_SUPPORTED</b>. 
+The <b>GetExtendedTcpTable</b> function called with the <i>ulAf</i> parameter set to <b>AF_INET6</b> and the <i>TableClass</i> set to <b>TCP_TABLE_BASIC_LISTENER</b>, <b>TCP_TABLE_BASIC_CONNECTIONS</b>, or <b>TCP_TABLE_BASIC_ALL</b> is not supported and returns <b>ERROR_NOT_SUPPORTED</b>. 
 
-On the Windows SDK released for Windows Vistaand later, the organization of header files has changed. The various <a href="https://msdn.microsoft.com/a8ed8ac2-a72f-4099-ac99-a8b0b77b7b84">MIB_TCPTABLE</a>  structures are defined in the <i>Tcpmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Tcpmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Tcpmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
+On the Windows SDK released for Windows Vista and later, the organization of header files has changed. The various <a href="https://msdn.microsoft.com/a8ed8ac2-a72f-4099-ac99-a8b0b77b7b84">MIB_TCPTABLE</a> structures are defined in the <i>Tcpmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Tcpmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The <i>Tcpmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
 
 
 

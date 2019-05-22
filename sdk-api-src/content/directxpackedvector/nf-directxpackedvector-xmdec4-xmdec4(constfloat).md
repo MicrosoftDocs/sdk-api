@@ -2,12 +2,12 @@
 UID: NF:directxpackedvector.XMDEC4.XMDEC4(const float)
 title: XMDEC4::XMDEC4(const float) (directxpackedvector.h)
 author: windows-sdk-content
-description: Default constructor for XMDEC4.
-old-location: dxmath\xmdec4_ctor_1.htm
+description: Initializes a new instance of XMDEC4 from a four element float array argument.
+old-location: 
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMDEC4.#ctor
+ms.assetid: 89558567-1467-4133-a768-e65d967814c8
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: XMDEC4, XMDEC4 constructor [DirectX Math Support APIs], XMDEC4 constructor [DirectX Math Support APIs],XMDEC4 structure, XMDEC4 structure [DirectX Math Support APIs],XMDEC4 constructor, XMDEC4.XMDEC4, XMDEC4.XMDEC4(), XMDEC4.XMDEC4(const float), XMDEC4::XMDEC4, XMDEC4::XMDEC4(const float), dxmath.xmdec4_ctor_1
 ms.topic: method
 req.header: directxpackedvector.h
@@ -45,54 +45,52 @@ ms.custom: 19H1
 
 # XMDEC4::XMDEC4(const float)
 
-
 ## -description
 
+Initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee419431(v=VS.85).aspx">XMDEC4</a> from a four element <code>float</code> array argument.
 
-Default constructor for <code>XMDEC4</code>.
-    
+This constructor initializes a new instance of **XMDEC4** from a from a four element float array argument.
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419431(v=VS.85).aspx">XMDEC4</a> .
-<div class="alert"><b>Note</b>  This constructor is only available under C++.
-    </div><div> </div>
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param pArray
 
-TBD
-
-
-
+Four element floating point array containing the values used to initialize the four components of a new instance of **XMDEC4**.
 
 ## -remarks
 
+As **XMDEC4** represents a four component integer vector, the fractional part of an element of *pArray* will be truncated.
 
+Array elements are mapped to the vector components of a new instance of XMDEC4 as follows:
+	
+| Vector Component | Array Element | Range |
+|------------------|---------------|-------|
+| x | pArray[0] | -511, 511 |
+| y | pArray[1] | -511, 511 |
+| z | pArray[2] | -511, 511 |
+| w | pArray[3] | -1, 1 |
 
-<code>XMDEC4()</code> constructs a new instance of the <code>XMDEC4</code> structure without
-	defining the value of any of its members.
+Elements of *pArray* will be clamped to the permitted range prior to assignment to the appropriate member of **XMDEC4**.
 
+The following pseudocode demonstrates the operation of this constructor, which takes advantage of the union of the four components of the **XMDEC4** vector with an instance of <code>uint32_t</code> in the definition of the    structure:
 
+```cpp
+XMDEC4 instance;
+_x1=min( max( pArray[0], -511.0 ), 511.0 );
+_y1=min( max( pArray[1], -511.0 ), 511.0 );
+_z1=min( max( pArray[2], -511.0 ), 511.0 );
+_w1=min( max( pArray[3], -1.0 ), 1.0 );
 
+instance.v =  ( (int32_t)_w1 << 30) |
+              (((int32_t)_z1 & 0x3FF) << 20) |
+              (((int32_t)_y1 & 0x3FF) << 10) |
+              (((int32_t)_x1 & 0x3FF));
+```
 
 ## -see-also
 
-
-
-
-<b>Reference</b>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee419431(v=VS.85).aspx">XMDEC4</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee415267(v=VS.85).aspx">XMDEC4 Constructors</a>
- 
-
- 
-

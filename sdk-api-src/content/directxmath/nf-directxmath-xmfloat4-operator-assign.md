@@ -7,7 +7,7 @@ old-location: dxmath\xmfloat4_operator_eq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT4.operator = (const XMFLOAT4)
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/13/2019
 ms.keywords: Use DirectX..XMFLOAT4.operator =, Use DirectX::::XMFLOAT4::operator =, XMFLOAT4 structure [DirectX Math Support APIs],operator = method, XMFLOAT4.operator =, XMFLOAT4.operator-assign, XMFLOAT4.operator=, XMFLOAT4::operator-assign, XMFLOAT4::operator=, dxmath.xmfloat4_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMFLOAT4 structure, operator=
 ms.topic: method
 req.header: directxmath.h
@@ -44,62 +44,26 @@ req.redist:
 
 # XMFLOAT4::operator-assign
 
-
 ## -description
 
+Assigns the vector component data from one instance of <code>XMFLOAT4</code> to the current instance of <code>XMFLOAT4</code>.
 
-Assigns the vector component data from one instance of <code>XMFLOAT4</code> to the current instance of
-  <code>XMFLOAT4</code>.
+This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/2af4929b-9e44-4229-916e-d7d8eae07306">XMFLOAT4</a> to the current instance of <code>XMFLOAT4</code>.
 
-This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/2af4929b-9e44-4229-916e-d7d8eae07306">XMFLOAT4</a> to the current
-  instance of <code>XMFLOAT4</code>.
-<div class="alert"><b>Note</b>  This operator is only available under C++.</div><div> </div>
+<div class="alert"><b>Note</b>  This operator is only available under C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param arg1
 
-TBD
-
-
-
-
-#### - Float4 [ref]
-
 Instance of <code>XMFLOAT4</code> used to update the current <code>XMFLOAT4</code>structure.
-      
-
 
 ## -returns
 
-
-
-The current instance of <code>XMFLOAT4</code> whose vector component data has been
-      updated to match those of the <code>XMFLOAT4</code> instance specified by the
-      <b>Float4</b> argument.
-      
-
-
-
+The current instance of <code>XMFLOAT4</code> whose vector component data has been updated to match those of the <code>XMFLOAT4</code> instance specified by the <b>Float4</b> argument.
 
 ## -see-also
 
-
-
-
-<b>Reference</b>
-
-
-
 <a href="https://msdn.microsoft.com/2af4929b-9e44-4229-916e-d7d8eae07306">XMFLOAT4</a>
 
-
-
 <a href="https://msdn.microsoft.com/edbc8450-b5a2-476a-bbe8-b66676552607">XMFLOAT4 Operators</a>
- 
-
- 
-

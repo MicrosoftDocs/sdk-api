@@ -1,6 +1,6 @@
 ---
 UID: NC:rtmv2._ENTITY_METHOD
-title: "_ENTITY_METHOD" (rtmv2.h)
+title: _ENTITY_METHOD (rtmv2.h)
 author: windows-sdk-content
 description: The RTM_ENTITY_EXPORT_METHOD callback is the prototype for any method exported by a client.
 old-location: rras\rtm_entity_export_method.htm

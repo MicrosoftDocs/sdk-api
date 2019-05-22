@@ -2,12 +2,12 @@
 UID: NF:directxpackedvector.XMU565.XMU565(const XMU565 &)
 title: XMU565::XMU565(const XMU565 &) (directxpackedvector.h)
 author: windows-sdk-content
-description: Default constructor for XMU565.
-old-location: dxmath\xmu565_ctor_1.htm
+description: A constructor for XMU565.
+old-location: 
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMU565.#ctor
+ms.assetid: 
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: XMU565, XMU565 constructor [DirectX Math Support APIs], XMU565 constructor [DirectX Math Support APIs],XMU565 structure, XMU565 structure [DirectX Math Support APIs],XMU565 constructor, XMU565.XMU565, XMU565.XMU565(), XMU565.XMU565(const XMU565 &), XMU565::XMU565, XMU565::XMU565(const XMU565 &), dxmath.xmu565_ctor_1
 ms.topic: method
 req.header: directxpackedvector.h
@@ -45,54 +45,24 @@ ms.custom: 19H1
 
 # XMU565::XMU565(const XMU565 &)
 
-
 ## -description
 
+A constructor for <code>XMU565</code>.
 
-Default constructor for <code>XMU565</code>
+A constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx">XMU565</a>.
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx">XMU565</a>
-
-<div class="alert"><b>Note</b>  This is only available for C++ based development.
-    </div><div> </div>
+<div class="alert"><b>Note</b>  This is only available for C++ based development.</div>
 
 ## -parameters
 
-
-
-
 ### -param arg1
 
-TBD
-
-
-
+A value.
 
 ## -remarks
 
-
-
-<code>XMU565()</code> constructs a new instance of the <code>XMU565</code> structure without
-	defining the value of any of its members.
-
-
-
-
 ## -see-also
-
-
-
-
-<b>Reference</b>
-
-
 
 <a href="https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx">XMU565</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee415440(v=VS.85).aspx">XMU565 Constructors</a>
- 
-
- 
-

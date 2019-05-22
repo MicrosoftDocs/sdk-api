@@ -1,6 +1,6 @@
 ---
 UID: NE:vds.tag_VDS_PARTITION_STYLE
-title: "__VDS_PARTITION_STYLE" (vds.h)
+title: __VDS_PARTITION_STYLE (vds.h)
 author: windows-sdk-content
 description: This enumeration is not for explicit use.
 old-location: base\tag_vds_partition_style.htm

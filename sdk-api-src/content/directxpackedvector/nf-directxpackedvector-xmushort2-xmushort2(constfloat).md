@@ -2,12 +2,12 @@
 UID: NF:directxpackedvector.XMUSHORT2.XMUSHORT2(const float)
 title: XMUSHORT2::XMUSHORT2(const float) (directxpackedvector.h)
 author: windows-sdk-content
-description: Default constructor for XMUSHORT2.
-old-location: dxmath\xmushort2_ctor_1.htm
+description: Initializes a new instance of XMUSHORT2 from a two element float array argument.
+old-location: 
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMUSHORT2.#ctor
+ms.assetid: 226e51fe-eddc-430a-ba9d-faf7496c5c86
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: XMUSHORT2, XMUSHORT2 constructor [DirectX Math Support APIs], XMUSHORT2 constructor [DirectX Math Support APIs],XMUSHORT2 structure, XMUSHORT2 structure [DirectX Math Support APIs],XMUSHORT2 constructor, XMUSHORT2.XMUSHORT2, XMUSHORT2.XMUSHORT2(), XMUSHORT2.XMUSHORT2(const float), XMUSHORT2::XMUSHORT2, XMUSHORT2::XMUSHORT2(const float), dxmath.xmushort2_ctor_1
 ms.topic: method
 req.header: directxpackedvector.h
@@ -45,53 +45,35 @@ ms.custom: 19H1
 
 # XMUSHORT2::XMUSHORT2(const float)
 
-
 ## -description
 
+Initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420625(v=VS.85).aspx">XMUSHORT2</a> from a two element <code>float</code> array argument.
 
-Default constructor for <code>XMUSHORT2</code>.
+This constructor initializes a new instance of **XMUSHORT2** from a from a two element <code>float</code> array argument.
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee420625(v=VS.85).aspx">XMUSHORT2</a>.
-<div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param pArray
 
-TBD
-
-
-
+Two element **float** array containing the values used to initialize the two components of a new instance of XMUSHORT2.
 
 ## -remarks
 
+The magnitude of each member of the *pArray* argument to the constructor will be clamped to the range supported by an 16-bit unsigned integer [0.0, 65535.0].
 
+The following pseudocode demonstrates the operation of this constructor:
 
-<code>XMUSHORT2()</code> constructs a new instance of the <code>XMUSHORT2</code> structure without
-	  defining the value of any of its members.
-  
+```cpp
+XMUSHORT2 instance;
 
-
-
+instance.x = (uint16_t)min( max( pArray[0] 0.0 ), 65535.0 );
+instance.y = (uint16_t)min( max( pArray[1] 0.y0 ), 65535.0 );
+```
 
 ## -see-also
 
-
-
-
-<b>Reference</b>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee420625(v=VS.85).aspx">XMUSHORT2</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee415494(v=VS.85).aspx">XMUSHORT2 Constructors</a>
- 
-
- 
-

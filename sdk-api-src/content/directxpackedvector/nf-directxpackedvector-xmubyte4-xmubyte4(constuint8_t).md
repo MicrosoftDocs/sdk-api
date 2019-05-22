@@ -2,12 +2,12 @@
 UID: NF:directxpackedvector.XMUBYTE4.XMUBYTE4(const uint8_t)
 title: XMUBYTE4::XMUBYTE4(const uint8_t) (directxpackedvector.h)
 author: windows-sdk-content
-description: Default constructor for XMUBYTE4.
-old-location: dxmath\xmubyte4_ctor_1.htm
+description: Initializes a new instance of XMUBYTE4 from a four element float array argument.
+old-location: 
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMUBYTE4.#ctor
+ms.assetid: 5d279759-fda8-48f5-ab04-77c378c33889
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: XMUBYTE4, XMUBYTE4 constructor [DirectX Math Support APIs], XMUBYTE4 constructor [DirectX Math Support APIs],XMUBYTE4 structure, XMUBYTE4 structure [DirectX Math Support APIs],XMUBYTE4 constructor, XMUBYTE4.XMUBYTE4, XMUBYTE4.XMUBYTE4(), XMUBYTE4.XMUBYTE4(const uint8_t), XMUBYTE4::XMUBYTE4, XMUBYTE4::XMUBYTE4(const uint8_t), dxmath.xmubyte4_ctor_1
 ms.topic: method
 req.header: directxpackedvector.h
@@ -45,53 +45,37 @@ ms.custom: 19H1
 
 # XMUBYTE4::XMUBYTE4(const uint8_t)
 
-
 ## -description
 
+Initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420424(v=VS.85).aspx">XMUBYTE4</a> from a four element <code>float</code> array argument.
 
-Default constructor for <code>XMUBYTE4</code>.
+This constructor initializes a new instance of **XMUBYTE4** from a four element <code>float</code> array argument.
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee420424(v=VS.85).aspx">XMUBYTE4</a>.
-<div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param pArray
 
-TBD
-
-
-
+Four element **float** array containing the values used to initialize the four components of a new instance of **XMUBYTE4**.
 
 ## -remarks
 
+The magnitude of each member of the *pArray* argument to the constructor will be clamped to the range supported by an 8-bit signed integer [0.0, 255.0].
 
+The following pseudocode demonstrates the operation of this constructor:
 
-<code>XMUBYTE4()</code> constructs a new instance of the <code>XMUBYTE4</code> structure without
-    defining the value of any of its members.
-   
+```cpp
+XMUBYTE4 instance;
 
-
-
+instance.x = (uint8_t)min( max( pArray[0] 0.0 ), 255.0 );
+instance.y = (uint8_t)min( max( pArray[1] 0.0 ), 255.0 );
+instance.z = (uint8_t)min( max( pArray[2] 0.0 ), 255.0 );
+instance.w = (uint8_t)min( max( pArray[3] 0.0 ), 255.0 );
+```
 
 ## -see-also
 
-
-
-
-<b>Reference</b>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee420424(v=VS.85).aspx">XMUBYTE4</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee415443(v=VS.85).aspx">XMUBYTE4 Constructors</a>
- 
-
- 
-

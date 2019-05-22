@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnSecurityConfigChange
-title: "_IFaxServerNotify2::OnSecurityConfigChange" (faxcomex.h)
+title: _IFaxServerNotify2::OnSecurityConfigChange (faxcomex.h)
 author: windows-sdk-content
 description: The fax service calls the IFaxServerNotify2::OnSecurityConfigChange method when there is a configuration change related to security.
 old-location: fax\_mfax_ifaxservernotify2_onsecurityconfigchange.htm

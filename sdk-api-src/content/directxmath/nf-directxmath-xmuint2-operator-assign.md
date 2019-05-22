@@ -7,7 +7,7 @@ old-location: dxmath\xmuint2_operator_eq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUINT2.operator = (const XMUINT2)
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/13/2019
 ms.keywords: Use DirectX..XMUINT2.operator =, Use DirectX::::XMUINT2::operator =, XMUINT2 structure [DirectX Math Support APIs],operator = method, XMUINT2.operator =, XMUINT2.operator-assign, XMUINT2.operator=, XMUINT2::operator-assign, XMUINT2::operator=, dxmath.xmuint2_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMUINT2 structure, operator=
 ms.topic: method
 req.header: directxmath.h
@@ -44,62 +44,26 @@ req.redist:
 
 # XMUINT2::operator-assign
 
-
 ## -description
 
+Assigns the vector component data from one instance of <code>XMUINT2</code> to the current instance of <code>XMUINT2</code>.
 
-Assigns the vector component data from one instance of <code>XMUINT2</code> to the current instance of
-  <code>XMUINT2</code>.
+This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/33240440-20A8-4320-AF2F-40BA287CB107">XMUINT2</a> to the current instance of <code>XMUINT2</code>.
 
-This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/33240440-20A8-4320-AF2F-40BA287CB107">XMUINT2</a> to the current
-  instance of <code>XMUINT2</code>.
-<div class="alert"><b>Note</b>  This operator is only available under C++.</div><div> </div>
+<div class="alert"><b>Note</b>  This operator is only available under C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param arg1
 
-TBD
-
-
-
-
-#### - UInt2 [ref]
-
 Instance of <code>XMUINT2</code> used to update the current <code>XMUINT2</code>structure.
-	    
-
 
 ## -returns
 
-
-
-The current instance of <code>XMUINT2</code> whose vector component data has been
-		updated to match those of the <code>XMUINT2</code> instance specified by the
-		<b>UInt2</b> argument.
-	    
-
-
-
+The current instance of <code>XMUINT2</code> whose vector component data has been updated to match those of the <code>XMUINT2</code> instance specified by the <b>UInt2</b> argument.
 
 ## -see-also
 
-
-
-
-<b>Reference</b>
-
-
-
 <a href="https://msdn.microsoft.com/33240440-20A8-4320-AF2F-40BA287CB107">XMUINT2</a>
 
-
-
 <a href="https://msdn.microsoft.com/2d3596f0-9c01-4b81-b1b1-95c43f0749e1">XMUINT2 Operators</a>
- 
-
- 
-

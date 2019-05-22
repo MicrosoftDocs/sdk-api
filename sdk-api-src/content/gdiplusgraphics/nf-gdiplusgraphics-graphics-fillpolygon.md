@@ -1,103 +1,101 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillPolygon
-title: Graphics::FillPolygon (gdiplusgraphics.h)
-author: windows-sdk-content
-description: This topic lists the FillPolygon methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
-old-location: gdiplus\_gdiplus_CLASS_Graphics_FillPolygon_Methods.htm
-tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillpolygonmethods.htm
+title: Graphics::FillPolygon
+description: The Graphics::FillPolygon method uses a brush to fill the interior of a polygon.
+ms.assetid: d5922fd8-b17d-4a1f-9e1b-3531f0b7d2d0
 ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: FillPolygon, FillPolygon methods [GDI+], Graphics.FillPolygon, Graphics::FillPolygon, _gdiplus_CLASS_Graphics_FillPolygon_Methods, gdiplus._gdiplus_CLASS_Graphics_FillPolygon_Methods, gdiplusgraphics/FillPolygon
-ms.topic: method
-req.header: gdiplusgraphics.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+ms.date: 05/13/2019
+ms.keywords: Graphics::FillPolygon
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: 
+req.header: gdiplusgraphics.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
- - HeaderDef
+ - COM
 api_location:
  - gdiplusgraphics.h
 api_name:
- - Graphics.FillPolygon
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
+ - Graphics::FillPolygon
 ---
 
-# Graphics::FillPolygon
-
+# FillPolygon(Brush*,PointF*,INT)
 
 ## -description
 
-
-<span>This topic lists the 
-FillPolygon methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> class. For a complete list of methods for the 
-<b>Graphics</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>. 
-
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535958(v=VS.85).aspx">FillPolygon(Brush*,Point*,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535958(v=VS.85).aspx">Graphics::FillPolygon</a> method uses a brush to fill the interior of a polygon. 
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535959(v=VS.85).aspx">FillPolygon(Brush*,PointF*,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535959(v=VS.85).aspx">Graphics::FillPolygon</a> method uses a brush to fill the interior of a polygon. 
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535960(v=VS.85).aspx">FillPolygon(Brush*,Point*,INT,FillMode)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535960(v=VS.85).aspx">Graphics::FillPolygon</a> method uses a brush to fill the interior of a polygon. 
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535961(v=VS.85).aspx">FillPolygon(Brush*,PointF*,INT,FillMode)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535961(v=VS.85).aspx">Graphics::FillPolygon</a> method uses a brush to fill the interior of a polygon. 
-
-</td>
-</tr>
-</table>
+The **Graphics::FillPolygon** method uses a brush to fill the interior of a polygon.
 
 ## -parameters
 
+### -param brush
+
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534424(v=VS.85).aspx">Brush</a> object that is used to paint the interior of the polygon.
+
+### -param points
+
+Pointer to an array of points that make up the vertices of the polygon.
+The first two points in the array specify the first side of the polygon.
+Each additional point specifies a new side, the vertices of which include the point and the previous point.
+If the last point and the first point do not coincide, they specify the last side of the polygon.
+
+### -param count
+
+Integer that specifies the number of points in the *points* array.
+
+## -returns
+
+If the method succeeds, it returns <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Ok</a>, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the **Status** enumeration.
+
+## -remarks
+
+#### Examples
+
+The following example defines a polygon and then fills it.
+
+```cpp
+VOID Example_FillPolygon3(HDC hdc)
+{
+   Graphics graphics(hdc);
+
+   // Create a SolidBrush object.
+   SolidBrush blackBrush(Color(255, 0, 0, 0));
+
+   // Create an array of PointF objects that define the polygon.
+   PointF point1(100.0f, 100.0f);
+   PointF point2(200.0f, 130.0f);
+   PointF point3(150.0f, 200.0f);
+   PointF point4(50.0f, 200.0f);
+   PointF point5(0.0f, 130.0f);
+   PointF points[5] = {point1, point2, point3, point4, point5};
+
+   // Fill the polygon.
+   graphics.FillPolygon(&blackBrush, points, 5);
+}
+```
+
+## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a>

@@ -2,12 +2,12 @@
 UID: NF:d3d11.CD3D11_SAMPLER_DESC.CD3D11_SAMPLER_DESC
 title: CD3D11_SAMPLER_DESC::CD3D11_SAMPLER_DESC (d3d11.h)
 author: windows-sdk-content
-description: Instantiates a new instance of a CD3D11_SAMPLER_DESC structure that is initialized with a D3D11_SAMPLER_DESC structure.
-old-location: direct3d11\cd3d11_sampler_desc_cd3d11_sampler_desc_d3d11_sampler_desc_.htm
+description: Instantiates a new instance of an uninitialized CD3D11_SAMPLER_DESC structure.
+old-location: 
 tech.root: direct3d11
-ms.assetid: 35B73D21-04DA-411A-ADDA-ABE1F9DBE842
+ms.assetid: 45411378-4356-4D07-A706-A56E19A73D43
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: CD3D11_SAMPLER_DESC, CD3D11_SAMPLER_DESC interface [Direct3D 11],CD3D11_SAMPLER_DESC method, CD3D11_SAMPLER_DESC method [Direct3D 11], CD3D11_SAMPLER_DESC method [Direct3D 11],CD3D11_SAMPLER_DESC interface, CD3D11_SAMPLER_DESC.CD3D11_SAMPLER_DESC, CD3D11_SAMPLER_DESC::CD3D11_SAMPLER_DESC, CD3D11_SAMPLER_DESC::CD3D11_SAMPLER_DESC(const D3D11_SAMPLER_DESC&), d3d11/CD3D11_SAMPLER_DESC::CD3D11_SAMPLER_DESC, direct3d11.cd3d11_sampler_desc_cd3d11_sampler_desc_d3d11_sampler_desc_
 ms.topic: method
 req.header: d3d11.h
@@ -49,40 +49,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-Instantiates a new instance of a  <a href="https://msdn.microsoft.com/1FE748DB-7DC6-4C6E-94D5-DF88477B3DEC">CD3D11_SAMPLER_DESC</a> structure that is initialized with a <a href="https://msdn.microsoft.com/97dd6cac-6657-4a1e-b631-4e5d36994b16">D3D11_SAMPLER_DESC</a> structure.
-
+Instantiates a new instance of an uninitialized <a href="https://msdn.microsoft.com/1FE748DB-7DC6-4C6E-94D5-DF88477B3DEC">CD3D11_SAMPLER_DESC</a> structure.
 
 ## -parameters
 
-
-
-
-
-
-#### - o [ref]
-
-Type: <b>const <a href="https://msdn.microsoft.com/97dd6cac-6657-4a1e-b631-4e5d36994b16">D3D11_SAMPLER_DESC</a></b>
-
-Address of the <a href="https://msdn.microsoft.com/97dd6cac-6657-4a1e-b631-4e5d36994b16">D3D11_SAMPLER_DESC</a> structure that initializes the <a href="https://msdn.microsoft.com/1FE748DB-7DC6-4C6E-94D5-DF88477B3DEC">CD3D11_SAMPLER_DESC</a> structure.
-
-
 ## -returns
-
-
 
 This method does not return a value.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/1FE748DB-7DC6-4C6E-94D5-DF88477B3DEC">CD3D11_SAMPLER_DESC</a>
- 
-
- 
-

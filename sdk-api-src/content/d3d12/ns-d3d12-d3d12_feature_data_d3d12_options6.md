@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_D3D12_OPTIONS6
 title: D3D12_FEATURE_DATA_D3D12_OPTIONS6
-ms.date: 01/31/19
+description: Indicates the level of support that the adapter provides for variable-rate shading (VRS), and indicates whether or not background processing is supported.
+ms.date: 05/20/2019
 ms.keywords: D3D12_FEATURE_DATA_D3D12_OPTIONS6
 ms.topic: language-reference
 targetos: Windows

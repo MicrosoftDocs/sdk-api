@@ -193,8 +193,7 @@ Starting with Windows 10, version 1903 (10.0; Build 18362), indicates that the r
 
 ### -field D3D12_RESOURCE_STATE_GENERIC_READ
 
-This is the required starting state for upload heaps. Applications should generally avoid this state when possible, and instead transition resources to only the actually-used states.
-
+D3D12_RESOURCE_STATE_GENERIC_READ is a logically OR'd combination of other read-state bits. This is the required starting state for an upload heap. Your application should generally avoid transitioning to D3D12_RESOURCE_STATE_GENERIC_READ when possible, since that can result in premature cache flushes, or resource layout changes (for example, compress/decompress), causing unnecessary pipeline stalls. You should instead transition resources only to the actually-used states.
 
 ### -field D3D12_RESOURCE_STATE_PRESENT
 

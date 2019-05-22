@@ -45,16 +45,9 @@ ms.custom: 19H1
 
 # IDMLCompiledOperator interface
 
-
 ## -description
 
-
-
-
-
-
-Represents a compiled, efficient form of an operator suitable for execution on the GPU. To create this object,
-    call <a href="/windows/desktop/api/directml/nf-directml-idmldevice-compileoperator">IDMLDevice::CompileOperator</a>.
+Represents a compiled, efficient form of an operator suitable for execution on the GPU. To create this object, call [IDMLDevice::CompileOperator](/windows/desktop/api/directml/nf-directml-idmldevice-compileoperator). The **IDMLCompiledOperator** interface inherits from [IDMLDispatchable](/windows/desktop/api/directml/nn-directml-idmldispatchable).
 
 Unlike [IDMLOperator](/windows/desktop/api/directml/nn-directml-idmloperator), compiled operators are "baked", and can be executed directly by the GPU. After an operator is
     compiled, you must initialize it exactly once before it can be executed. It's an error to initialize an
@@ -82,47 +75,5 @@ Because compiling an operator may be an expensive operation, you can cache an op
 
 All methods on this interface are thread-safe.
 
-
-## -inheritance
-
-The <b>IDMLCompiledOperator</b> interface inherits from [IDMLDispatchable](/windows/desktop/api/directml/nn-directml-idmldispatchable). <b>IDMLCompiledOperator</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDMLCompiledOperator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-**StoreCompiledOperator**
-</td>
-<td align="left" width="63%">
-Stores the pipeline state objects owned by this compiled operator into the supplied Direct3D 12 pipeline library
-        object. You can later load the compiled operator from the pipeline library object using
-        **IDMLDevice::LoadCompiledOperator**.
-
-</td>
-</tr>
-</table> 
-
-
 ## -see-also
-
-
-
-
-<a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
-
-
-
-[IDMLDispatchable](/windows/desktop/api/directml/nn-directml-idmldispatchable)
- 
-
- 
-
+[Binding in DirectML](/windows/desktop/direct3d12/dml-binding), [IDMLDispatchable](/windows/desktop/api/directml/nn-directml-idmldispatchable)

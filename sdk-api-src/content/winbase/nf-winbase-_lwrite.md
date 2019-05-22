@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase._lwrite
-title: "_lwrite function" (winbase.h)
+title: _lwrite function (winbase.h)
 author: windows-sdk-content
 description: Writes data to the specified file.
 old-location: winprog\_lwrite.htm

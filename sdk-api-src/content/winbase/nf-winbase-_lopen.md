@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase._lopen
-title: "_lopen function" (winbase.h)
+title: _lopen function (winbase.h)
 author: windows-sdk-content
 description: The _lopen function opens an existing file and sets the file pointer to the beginning of the file. This function is provided for compatibility with 16-bit versions of Windows. Win32-based applications should use the CreateFile function.
 old-location: winprog\_lopen.htm

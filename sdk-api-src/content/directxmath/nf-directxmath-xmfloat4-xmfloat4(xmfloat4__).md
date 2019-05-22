@@ -2,12 +2,12 @@
 UID: NF:directxmath.XMFLOAT4.XMFLOAT4(XMFLOAT4 &&)
 title: XMFLOAT4::XMFLOAT4(XMFLOAT4 &&) (directxmath.h)
 author: windows-sdk-content
-description: Default constructor for XMFLOAT4.
-old-location: dxmath\xmfloat4_ctor_1.htm
+description: A constructor for XMFLOAT4.
+old-location: 
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT4.#ctor
+ms.assetid: 
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/13/2019
 ms.keywords: XMFLOAT4, XMFLOAT4 constructor [DirectX Math Support APIs], XMFLOAT4 constructor [DirectX Math Support APIs],XMFLOAT4 structure, XMFLOAT4 structure [DirectX Math Support APIs],XMFLOAT4 constructor, XMFLOAT4.XMFLOAT4, XMFLOAT4.XMFLOAT4(), XMFLOAT4.XMFLOAT4(XMFLOAT4 &&), XMFLOAT4::XMFLOAT4, XMFLOAT4::XMFLOAT4(XMFLOAT4 &&), dxmath.xmfloat4_ctor_1
 ms.topic: method
 req.header: directxmath.h
@@ -45,53 +45,24 @@ ms.custom: 19H1
 
 # XMFLOAT4::XMFLOAT4(XMFLOAT4 &&)
 
-
 ## -description
 
+A constructor for <code>XMFLOAT4</code>.
 
-Default constructor for <code>XMFLOAT4</code>.
-    
+A constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419608(v=VS.85).aspx">XMFLOAT4</a>.
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419608(v=VS.85).aspx">XMFLOAT4</a>.
-<div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param arg1
 
-TBD
-
-
-
+A value.
 
 ## -remarks
 
-
-
-<code>XMFLOAT4()</code> constructs a new instance of the <code>XMFLOAT4</code> structure without
-	defining the value of any of its members.
-
-
-
-
 ## -see-also
-
-
-
-
-<b>Reference</b>
-
-
 
 <a href="https://msdn.microsoft.com/en-us/library/Ee419608(v=VS.85).aspx">XMFLOAT4</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee415309(v=VS.85).aspx">XMFLOAT4 Constructors</a>
- 
-
- 
-

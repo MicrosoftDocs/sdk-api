@@ -1,6 +1,6 @@
 ---
 UID: NE:mmcobj.ListViewMode
-title: "_ListViewMode" (mmcobj.h)
+title: _ListViewMode (mmcobj.h)
 author: windows-sdk-content
 description: The ListViewMode enumeration is used by the View.ListViewMode property to define the list view.
 old-location: mmc\listviewmode.htm

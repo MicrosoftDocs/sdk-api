@@ -62,12 +62,12 @@ This method is reserved for system use.
 
 ### -param iFile
 
-TBD
+This parameter is reserved for system use.
 
 
 ### -param ppFiledesc
 
-TBD
+This parameter is reserved for system use.
 
 
 

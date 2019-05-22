@@ -2,12 +2,12 @@
 UID: NF:directxpackedvector.XMBYTEN2.XMBYTEN2(const float)
 title: XMBYTEN2::XMBYTEN2(const float) (directxpackedvector.h)
 author: windows-sdk-content
-description: Default constructor for XMBYTEN2.
-old-location: dxmath\xmbyten2_ctor_1.htm
+description: Initializes a new instance of XMBYTEN2 from a two-element float array argument.
+old-location: 
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMBYTEN2.#ctor
+ms.assetid: 5d6b2f0e-fa41-46ff-9418-c11246bdb266
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: XMBYTEN2, XMBYTEN2 constructor [DirectX Math Support APIs], XMBYTEN2 constructor [DirectX Math Support APIs],XMBYTEN2 structure, XMBYTEN2 structure [DirectX Math Support APIs],XMBYTEN2 constructor, XMBYTEN2.XMBYTEN2, XMBYTEN2.XMBYTEN2(), XMBYTEN2.XMBYTEN2(const float), XMBYTEN2::XMBYTEN2, XMBYTEN2::XMBYTEN2(const float), dxmath.xmbyten2_ctor_1
 ms.topic: method
 req.header: directxpackedvector.h
@@ -45,52 +45,41 @@ ms.custom: 19H1
 
 # XMBYTEN2::XMBYTEN2(const float)
 
-
 ## -description
 
+Initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Hh437850(v=VS.85).aspx">XMBYTEN2</a> from a two-element <code>float</code> array argument.
 
-Default constructor for <code>XMBYTEN2</code>
+This constructor initializes a new instance of **XMBYTEN2** from a two-element <code>float</code> array argument.
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Hh437850(v=VS.85).aspx">XMBYTEN2</a>.
-<div class="alert"><b>Note</b>  This constructor is only available with C++.</div><div> </div>
+<div class="alert"><b>Note</b>  This constructor is only available with C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param pArray
 
-TBD
-
-
-
+Two-element <code>float</code> array containing the values used to initialize the two components of a new instance of **XMBYTEN2**.
 
 ## -remarks
 
+| Vector Component | Array Element | Range | |
+|-----------------|----------------|-------|-|
+| x | pArray[0] | -1.0, 1.0 | During instantiation, pArray[0] is clamped between -1 and 1, multiplied by 127.0f and assigned to x. |
+| y | pArray[1] | -1.0, 1.0 | During instantiation, pArray[1] is clamped between -1 and 1, multiplied by 127.0f, and then assigned to y. |
 
+The following pseudocode demonstrates the operation of this constructor:
 
-<code>XMBYTEN2()</code> constructs a new instance of the <code>XMBYTEN2</code> structure without
-	defining the value of any of its members.
-
-
-
+```cpp
+XMBYTEN2 instance;
+_x1=min( max( pArray[0], -1.0 ), 1.0 );
+_y1=min( max( pArray[1], -1.0 ), 1.0 );
+_x1 = round( _x1 *  127.0f);
+_y1 = round( _y1 *  127.0f);
+instance.x = (int8_t)_x1;
+instance.y = (int8_t)_y1;
+```
 
 ## -see-also
 
-
-
-
-<b>Reference</b>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Hh437850(v=VS.85).aspx">XMBYTEN2</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Hh449498(v=VS.85).aspx">XMBYTEN2 Constructors</a>
- 
-
- 
-

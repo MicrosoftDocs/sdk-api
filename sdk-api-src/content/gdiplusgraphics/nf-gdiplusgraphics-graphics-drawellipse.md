@@ -1,103 +1,95 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawEllipse
-title: Graphics::DrawEllipse (gdiplusgraphics.h)
-author: windows-sdk-content
-description: This topic lists the DrawEllipse methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
-old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawEllipse_Methods.htm
-tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawellipsemethods.htm
+title: Graphics::DrawEllipse
+description: The Graphics::DrawEllipse method draws an ellipse.
+ms.assetid: c520987b-a425-4959-b293-5988de01a553
 ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: DrawEllipse, DrawEllipse methods [GDI+], Graphics.DrawEllipse, Graphics::DrawEllipse, _gdiplus_CLASS_Graphics_DrawEllipse_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawEllipse_Methods, gdiplusgraphics/DrawEllipse
-ms.topic: method
-req.header: gdiplusgraphics.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+ms.date: 05/13/2019
+ms.keywords: Graphics::DrawEllipse
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: 
+req.header: gdiplusgraphics.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
- - HeaderDef
+ - COM
 api_location:
  - gdiplusgraphics.h
 api_name:
- - Graphics.DrawEllipse
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
+ - Graphics::DrawEllipse
 ---
 
-# Graphics::DrawEllipse
-
+# DrawEllipse(Pen*,RectF&)
 
 ## -description
 
-
-<span>This topic lists the 
-DrawEllipse methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> class. For a complete list of methods for the 
-<b>Graphics</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>. 
-
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536062(v=VS.85).aspx">DrawEllipse(Pen*,Rect&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536062(v=VS.85).aspx">Graphics::DrawEllipse</a> method draws an ellipse.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536065(v=VS.85).aspx">DrawEllipse(Pen*,RectF&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536065(v=VS.85).aspx">Graphics::DrawEllipse</a> method draws an ellipse.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536067(v=VS.85).aspx">DrawEllipse(Pen*,INT,INT,INT,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536067(v=VS.85).aspx">Graphics::DrawEllipse</a> method draws an ellipse.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536064(v=VS.85).aspx">DrawEllipse(Pen*,REAL,REAL,REAL,REAL)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536064(v=VS.85).aspx">Graphics::DrawEllipse</a> method draws an ellipse.
-
-</td>
-</tr>
-</table>
+The **Graphics::DrawEllipse** method draws an ellipse.
 
 ## -parameters
 
+### -param pen
+
+Pointer to a pen that is used to draw the ellipse.
+
+### -param rect
+
+Reference to a rectangle that bounds the ellipse.
+
+## -returns
+
+If the method succeeds, it returns <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Ok</a>, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the **Status** enumeration.
+
+## -remarks
+
+#### Examples
+
+The following example draws an ellipse.
+
+```cpp
+VOID Example_DrawEllipse2(HDC hdc)
+{
+   Graphics graphics(hdc);
+
+   // Create a Pen object.
+   Pen bluePen(Color(255, 0, 0, 255));
+
+   // Create a Rect object that bounds the ellipse.
+   RectF ellipseRect(0.0f, 0.0f, 200.0f, 100.0f);
+
+   // Draw the ellipse.
+   graphics.DrawEllipse(&bluePen, ellipseRect);
+}
+```
+
+## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535767(v=VS.85).aspx">FillEllipse Methods</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms536362(v=VS.85).aspx">Ellipses and Arcs</a>

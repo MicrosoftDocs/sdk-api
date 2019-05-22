@@ -45,24 +45,9 @@ ms.custom: 19H1
 
 # IDMLOperator interface
 
-
 ## -description
 
-
-
-
-
-
-Represents a DirectML operator.
-
+Represents a DirectML operator. The **IDMLOperator** interface inherits from [IDMLDeviceChild](/windows/desktop/api/directml/nn-directml-idmldevicechild).
 
 ## -see-also
-
-
-
-
 [IDMLDeviceChild](/windows/desktop/api/directml/nn-directml-idmldevicechild)
- 
-
- 
-

@@ -2,12 +2,12 @@
 UID: NF:directxpackedvector.XMBYTE4.XMBYTE4(const int8_t)
 title: XMBYTE4::XMBYTE4(const int8_t) (directxpackedvector.h)
 author: windows-sdk-content
-description: Default constructor for XMBYTE4.
-old-location: dxmath\xmbyte4_ctor_1.htm
+description: Initializes a new instance of XMBYTE4 from a four element int8_t array argument.
+old-location: 
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMBYTE4.#ctor
+ms.assetid: 5525efe0-7377-40ae-a52d-5a54dbdfa0cd
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: XMBYTE4, XMBYTE4 constructor [DirectX Math Support APIs], XMBYTE4 constructor [DirectX Math Support APIs],XMBYTE4 structure, XMBYTE4 structure [DirectX Math Support APIs],XMBYTE4 constructor, XMBYTE4.XMBYTE4, XMBYTE4.XMBYTE4(), XMBYTE4.XMBYTE4(const int8_t), XMBYTE4::XMBYTE4, XMBYTE4::XMBYTE4(const int8_t), dxmath.xmbyte4_ctor_1
 ms.topic: method
 req.header: directxpackedvector.h
@@ -45,53 +45,34 @@ ms.custom: 19H1
 
 # XMBYTE4::XMBYTE4(const int8_t)
 
-
 ## -description
 
+Initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee419276(v=VS.85).aspx">XMBYTE4</a> from a four element <code>int8_t</code> array argument.
 
-Default constructor for <code>XMBYTE4</code>.
+This constructor initializes a new instance of **XMBYTE4** from a from a four element <code>int8_t</code> array argument.
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419276(v=VS.85).aspx">XMBYTE4</a>.
-<div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param pArray
 
-TBD
-
-
-
+Four element <code>int8_t</code> array containing the values used to initialize the four components of a new instance of **XMBYTE4**.
 
 ## -remarks
 
+The following pseudocode demonstrates the operation of this constructor:
 
-
-<code>XMBYTE4()</code> constructs a new instance of the <code>XMBYTE4</code> structure without
-    defining the value of any of its members.
-   
-
-
-
+```cpp
+XMBYTE4 instance;
+instance.x = pArray[0];
+instance.y = pArray[1];
+instance.z = pArray[2];
+instance.w = pArray[3];
+```
 
 ## -see-also
 
-
-
-
-<b>Reference</b>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee419276(v=VS.85).aspx">XMBYTE4</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee415258(v=VS.85).aspx">XMBYTE4 Constructors</a>
- 
-
- 
-

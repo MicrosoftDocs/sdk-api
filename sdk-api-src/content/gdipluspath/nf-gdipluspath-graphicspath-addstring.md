@@ -1,103 +1,139 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddString
-title: GraphicsPath::AddString (gdipluspath.h)
-author: windows-sdk-content
-description: This topic lists the AddString methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
-old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddString_Methods.htm
-tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddstringmethods.htm
+title: GraphicsPath::AddString
+description: The GraphicsPath::AddString method adds the outline of a string to this path.
+ms.assetid: 1bed1611-addc-464c-a7c9-64810e922a5e
 ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: AddString, AddString methods [GDI+], GraphicsPath.AddString, GraphicsPath::AddString, _gdiplus_CLASS_GraphicsPath_AddString_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddString_Methods, gdipluspath/AddString
-ms.topic: method
-req.header: gdipluspath.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+ms.date: 05/13/2019
+ms.keywords: GraphicsPath::AddString
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: 
+req.header: gdipluspath.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
- - HeaderDef
+ - COM
 api_location:
  - gdipluspath.h
 api_name:
- - GraphicsPath.AddString
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
+ - GraphicsPath::AddString
 ---
 
 # GraphicsPath::AddString
 
-
 ## -description
 
-
-<span>This topic lists the 
-AddString methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete list of methods for the 
-<b>GraphicsPath</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>. 
-
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535585(v=VS.85).aspx">AddString(WCHAR*,INT,FontFamily*,INT,REAL,Rect&,StringFormat*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535585(v=VS.85).aspx">GraphicsPath::AddString</a> method adds the outline of a string to this path.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535587(v=VS.85).aspx">AddString(WCHAR*,INT,FontFamily*,INT,REAL,Point&,StringFormat*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535587(v=VS.85).aspx">GraphicsPath::AddString</a> method adds the outlines of a string to this path.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535588(v=VS.85).aspx">AddString(WCHAR*,INT,FontFamily*,INT,REAL,RectF&,StringFormat*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535588(v=VS.85).aspx">GraphicsPath::AddString</a> method adds the outline of a string to this path.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535586(v=VS.85).aspx">AddString(WCHAR*,INT,FontFamily*,INT,REAL,PointF&,StringFormat*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535586(v=VS.85).aspx">GraphicsPath::AddString</a> method adds the outline of a string to this path.
-
-</td>
-</tr>
-</table>
+The **GraphicsPath::AddString** method adds the outline of a string to this path.
 
 ## -parameters
 
+### -param string
+
+Pointer to a wide-character string.
+
+### -param length
+
+Integer that specifies the number of characters to display.
+If the string parameter points to a **NULL**-terminated string, this parameter can be set to –1.
+
+### -param family
+
+Pointer to a **FontFamily** object that specifies the font family for the string.
+
+### -param style
+
+Integer that specifies the style of the typeface.
+This value must be an element of the **FontStyle** enumeration or the result of a bitwise **OR** applied to two or more of these elements.
+For example, `FontStyleBold | FontStyleUnderline | FontStyleStrikeout` sets the style as a combination of the three styles.
+
+### -param emSize
+
+Real number that specifies the **em** size, in world units, of the string characters.
+
+### -param origin
+
+Reference to a **PointF** object that specifies, in world units, the location of the string.
+
+### -param format
+
+Pointer to a **StringFormat** object that specifies layout information (alignment, trimming, tab stops, and the like) for the string.
+
+## -returns
+
+**Type:** <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a>
+
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+## -remarks
+
+Note that GDI+ does not support PostScript fonts or OpenType fonts which do not have **TrueType** outlines.
+
+#### Examples
+
+The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object path, adds a NULL-terminated string to path, and then draws path.
+
+```cpp
+VOID Example_AddString(HDC hdc)
+{
+   Graphics graphics(hdc);
+   FontFamily fontFamily(L"Times New Roman");
+   GraphicsPath path;
+
+   path.AddString(
+      L"Hello World",
+      -1,                 // NULL-terminated string
+      &fontFamily,
+      FontStyleRegular,
+      48, 
+      PointF(50.0f, 50.0f),
+      NULL);
+
+   Pen pen(Color(255, 255, 0, 0));
+   graphics.DrawPath(&pen, &path);
+}
+```
+
+## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535549(v=VS.85).aspx">AddString Methods</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533825(v=VS.85).aspx">Clipping with a Region</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534124(v=VS.85).aspx">FontStyle</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>

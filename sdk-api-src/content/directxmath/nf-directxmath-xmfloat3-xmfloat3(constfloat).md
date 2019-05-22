@@ -2,12 +2,12 @@
 UID: NF:directxmath.XMFLOAT3.XMFLOAT3(const float)
 title: XMFLOAT3::XMFLOAT3(const float) (directxmath.h)
 author: windows-sdk-content
-description: Default constructor for XMFLOAT3.
+description: A constructor for XMFLOAT3.
 old-location: dxmath\xmfloat3_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3.#ctor
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/13/2019
 ms.keywords: XMFLOAT3, XMFLOAT3 constructor [DirectX Math Support APIs], XMFLOAT3 constructor [DirectX Math Support APIs],XMFLOAT3 structure, XMFLOAT3 structure [DirectX Math Support APIs],XMFLOAT3 constructor, XMFLOAT3.XMFLOAT3, XMFLOAT3.XMFLOAT3(), XMFLOAT3.XMFLOAT3(const float), XMFLOAT3::XMFLOAT3, XMFLOAT3::XMFLOAT3(const float), dxmath.xmfloat3_ctor_1
 ms.topic: method
 req.header: directxmath.h
@@ -45,53 +45,24 @@ ms.custom: 19H1
 
 # XMFLOAT3::XMFLOAT3(const float)
 
-
 ## -description
 
+A constructor for <code>XMFLOAT3</code>.
 
-Default constructor for <code>XMFLOAT3</code>.
+A constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419475(v=VS.85).aspx">XMFLOAT3</a>.
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419475(v=VS.85).aspx">XMFLOAT3</a>.
-<div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param pArray
 
-TBD
-
-
-
+A value.
 
 ## -remarks
 
-
-
-<code>XMFLOAT3()</code> constructs a new instance of the <code>XMFLOAT3</code> structure without
-    defining the value of any of its members.
-   
-
-
-
-
 ## -see-also
-
-
-
-
-<b>Reference</b>
-
-
 
 <a href="https://msdn.microsoft.com/en-us/library/Ee419475(v=VS.85).aspx">XMFLOAT3</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee415292(v=VS.85).aspx">XMFLOAT3 Constructors</a>
- 
-
- 
-

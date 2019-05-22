@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core._SICHINTF
-title: "_SICHINTF" (shobjidl_core.h)
+title: _SICHINTF (shobjidl_core.h)
 author: windows-sdk-content
 description: Used to determine how to compare two Shell items. IShellItem::Compare uses this enumerated type.
 old-location: shell\SICHINT.htm

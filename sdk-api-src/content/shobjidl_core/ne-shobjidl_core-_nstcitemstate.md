@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core._NSTCITEMSTATE
-title: "_NSTCITEMSTATE" (shobjidl_core.h)
+title: _NSTCITEMSTATE (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies the state of a tree item. These values are used by methods of the INameSpaceTreeControl interface.
 old-location: shell\NSTCITEMSTATE.htm

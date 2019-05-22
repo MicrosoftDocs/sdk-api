@@ -45,10 +45,9 @@ ms.custom: 19H1
 
 # IDMLBindingTable interface
 
-
 ## -description
 
-Wraps a range of an application-managed descriptor heap, and is used by DirectML to create bindings for resources. To create this object, call [IDMLDevice::CreateBindingTable](/windows/desktop/api/directml/nf-directml-idmldevice-createbindingtable).
+Wraps a range of an application-managed descriptor heap, and is used by DirectML to create bindings for resources. To create this object, call [IDMLDevice::CreateBindingTable](/windows/desktop/api/directml/nf-directml-idmldevice-createbindingtable). The **IDMLBindingTable** interface inherits from [IDMLDeviceChild](/windows/desktop/api/directml/nn-directml-idmldevicechild).
 
 The binding table is created over a range of CPU and GPU descriptor handles. When an IDMLBindingTable::Bind* method is called, DirectML writes one or more descriptors into the range of CPU descriptors. When you use the binding table during a call to [IDMLCommandRecorder::RecordDispatch](/windows/desktop/api/directml/nf-directml-idmlcommandrecorder-recorddispatch), DirectML binds the corresponding GPU descriptors to the pipeline.
 
@@ -62,70 +61,5 @@ The binding table doesn't keep strong references on any resources bound using it
 
 This object is not thread safe—your application must not call methods on the binding table simultaneously from different threads without synchronization.
 
-## -inheritance
-
-The **IDMLBindingTable** interface inherits from [IDMLDeviceChild](/windows/desktop/api/directml/nn-directml-idmldevicechild). <b>IDMLBindingTable</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDMLBindingTable</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/directml/nf-directml-idmlbindingtable-bindinputs">BindInputs</a>
-</td>
-<td align="left" width="63%">
-Binds a set of resources as input tensors.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/directml/nf-directml-idmlbindingtable-bindoutputs">BindOutputs</a>
-</td>
-<td align="left" width="63%">
-Binds a set of resources as output tensors.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/directml/nf-directml-idmlbindingtable-bindpersistentresource">BindPersistentResource</a>
-</td>
-<td align="left" width="63%">
-Binds a buffer as a persistent resource. You can determine the required size of this buffer range by calling [IDMLDispatchable::GetBindingProperties](/windows/desktop/api/directml/nf-directml-idmldispatchable-getbindingproperties).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/directml/nf-directml-idmlbindingtable-bindtemporaryresource">BindTemporaryResource</a>
-</td>
-<td align="left" width="63%">
-Binds a buffer to use as temporary scratch memory. You can determine the required size of this buffer range by calling <a href="/windows/desktop/api/directml/nf-directml-idmldispatchable-getbindingproperties">IDMLDispatchable::GetBindingProperties</a>.
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/85A816F8-CD3A-43B0-B63C-C58BC47438B1">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the binding table to wrap a new range of descriptors, potentially for a different operator or
-        initializer. This allows dynamic reuse of the binding table.
-
-</td>
-</tr>
-</table> 
-
 ## -see-also
-
-<a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
-
-[IDMLDeviceChild](/windows/desktop/api/directml/nn-directml-idmldevicechild)
+[Binding in DirectML](/windows/desktop/direct3d12/dml-binding), [IDMLDeviceChild](/windows/desktop/api/directml/nn-directml-idmldevicechild)

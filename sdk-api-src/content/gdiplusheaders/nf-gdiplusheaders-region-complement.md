@@ -1,100 +1,105 @@
 ---
 UID: NF:gdiplusheaders.Region.Complement
-title: Region::Complement (gdiplusheaders.h)
-author: windows-sdk-content
-description: This topic lists the Complement methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
-old-location: gdiplus\_gdiplus_CLASS_Region_Complement_Methods.htm
-tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regioncomplementmethods.htm
+title: Region::Complement
+description: The Region::Complement method updates a region that does not intersect this region.
+ms.assetid: a83d400f-0a3d-4486-a9a7-831455908ff8
 ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: Complement, Complement methods [GDI+], Region.Complement, Region::Complement, _gdiplus_CLASS_Region_Complement_Methods, gdiplus._gdiplus_CLASS_Region_Complement_Methods, gdiplusheaders/Complement
-ms.topic: method
-req.header: gdiplusheaders.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+ms.date: 05/20/2019
+ms.keywords: Region::Complement
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: 
+req.header: gdiplusheaders.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
- - HeaderDef
+ - COM
 api_location:
  - gdiplusheaders.h
 api_name:
- - Region.Complement
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
+ - Region::Complement
 ---
 
-# Region::Complement
-
+# Region::Complement(Rect&amp;)
 
 ## -description
 
-
-<span>This topic lists the 
-			Complement methods of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a> class. For a complete list of methods for the <b>Region</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms534761(v=VS.85).aspx">Region Methods</a>.
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534918(v=VS.85).aspx">Complement(Rect&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534918(v=VS.85).aspx">Region::Complement</a> method updates this region to the portion of the specified rectangle's interior that does not intersect this region.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534919(v=VS.85).aspx">Complement(RectF&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534919(v=VS.85).aspx">Region::Complement</a> method updates this region to the portion of the specified rectangle's interior that does not intersect this region.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534917(v=VS.85).aspx">Complement(Region*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534917(v=VS.85).aspx">Region::Complement</a> method updates this region to the portion of another region that does not intersect this region.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534829(v=VS.85).aspx">Complement(GraphicsPath*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534829(v=VS.85).aspx">Region::Complement</a> method updates this region to the portion of the specified path's interior that does not intersect this region.
-
-</td>
-</tr>
-</table>
+The **Region::Complement** method updates this region to the portion of the specified rectangle's interior that does not intersect this region.
 
 ## -parameters
 
+### -param rect
+
+Reference to a rectangle to use to update this <a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a> object.
+
+## -returns
+
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+## -remarks
+
+#### Examples
+
+The following example creates a region from a path and then uses a rectangle to update the region.
+
+```cpp
+VOID Example_ComplementRect(HDC hdc)
+{
+   Graphics graphics(hdc);
+
+   SolidBrush solidBrush(Color(255, 255, 0, 0));
+
+   Point points[] = {
+      Point(110, 20),
+      Point(120, 30),
+      Point(100, 60),
+      Point(120, 70),
+      Point(150, 60),
+      Point(140, 10)};
+
+   Rect rect(65, 15, 70, 45);
+
+   GraphicsPath path;
+
+   path.AddClosedCurve(points, 6);
+
+   // Create a region from a path.
+   Region region(&path); 
+
+   // Update the region so that it consists of all points inside the 
+   // rectangle but outside the path region.
+   region.Complement(rect);
+
+   graphics.FillRegion(&solidBrush, &region);
+}
+```
+
+## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a>

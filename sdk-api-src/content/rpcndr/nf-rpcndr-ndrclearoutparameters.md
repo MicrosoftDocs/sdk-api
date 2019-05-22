@@ -8,8 +8,7 @@ tech.root: Rpc
 ms.assetid: f0ae23d5-3ec0-4e41-8c2c-5b6eb9bbb1b8
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: NdrClearOutParameters, NdrClearOutParameters
-, NdrClearOutParameters function [RPC], rpc.ndrclearoutparameters, rpcndr/NdrClearOutParameters
+ms.keywords: NdrClearOutParameters, NdrClearOutParameters, NdrClearOutParameters function [RPC], rpc.ndrclearoutparameters, rpcndr/NdrClearOutParameters
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

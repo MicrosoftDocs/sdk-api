@@ -1,229 +1,95 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawImage
-title: Graphics::DrawImage (gdiplusgraphics.h)
-author: windows-sdk-content
-description: This topic lists the DrawImage methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
-old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawImage_Methods.htm
-tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawimagemethods.htm
+title: Graphics::DrawImage
+description: The Graphics::DrawImage method draws an image.
+ms.assetid: 933bdaec-75a8-4437-b42a-0799c2925d66
 ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: DrawImage, DrawImage methods [GDI+], Graphics.DrawImage, Graphics::DrawImage, _gdiplus_CLASS_Graphics_DrawImage_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawImage_Methods, gdiplusgraphics/DrawImage
-ms.topic: method
-req.header: gdiplusgraphics.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+ms.date: 05/13/2019
+ms.keywords: Graphics::DrawImage
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: 
+req.header: gdiplusgraphics.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
- - HeaderDef
+ - COM
 api_location:
  - gdiplusgraphics.h
 api_name:
- - Graphics.DrawImage
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
+ - Graphics::DrawImage
 ---
 
-# Graphics::DrawImage
-
+# DrawImage(Image*,PointF&)
 
 ## -description
 
-
-<span>This topic lists the 
-DrawImage methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> class. For a complete list of methods for the 
-<b>Graphics</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>.
-
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536051(v=VS.85).aspx">DrawImage(Image*,Rect&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536051(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536032(v=VS.85).aspx">DrawImage(Image*,Point&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536032(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536041(v=VS.85).aspx">DrawImage(Image*,RectF&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536041(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536030(v=VS.85).aspx">DrawImage(Image*,INT,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536030(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image at a specified location.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536035(v=VS.85).aspx">DrawImage(Image*,PointF&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536035(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536034(v=VS.85).aspx">DrawImage(Image*,REAL,REAL)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536034(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image at a specified location.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536028(v=VS.85).aspx">DrawImage(Image*,Point*,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536028(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536037(v=VS.85).aspx">DrawImage(Image*,PointF*,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536037(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536042(v=VS.85).aspx">DrawImage(Image*,INT,INT,INT,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536042(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536049(v=VS.85).aspx">DrawImage(Image*,REAL,REAL,REAL,REAL)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536049(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536053(v=VS.85).aspx">DrawImage(Image*,INT,INT,INT,INT,INT,INT,Unit)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536053(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536039(v=VS.85).aspx">DrawImage(Image*,REAL,REAL,REAL,REAL,REAL,REAL,Unit)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536039(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536057(v=VS.85).aspx">DrawImage(Image*,RectF&,RectF&,Unit,ImageAttributes*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536057(v=VS.85).aspx">Graphics::DrawImage</a> method draws a specified portion of an image at a specified location.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536058(v=VS.85).aspx">DrawImage(Image*,RectF*,Matrix*,Effect*,ImageAttributes*,Unit*)</a>
-</td>
-<td align="left" width="63%">
-The  method draws a portion of an image after applying a specified effect.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536045(v=VS.85).aspx">DrawImage(Image*,Rect&,INT,INT,INT,INT,Unit,ImageAttributes*,DrawImageAbort,VOID*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536045(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536047(v=VS.85).aspx">DrawImage(Image*,Point*,INT,INT,INT,INT,INT,Unit,ImageAttributes*,DrawImageAbort,VOID*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536047(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536056(v=VS.85).aspx">DrawImage(Image*,RectF&,REAL,REAL,REAL,REAL,Unit,ImageAttributes*,DrawImageAbort,VOID*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536056(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536044(v=VS.85).aspx">DrawImage(Image*,PointF*,INT,REAL,REAL,REAL,REAL,Unit,ImageAttributes*,DrawImageAbort,VOID*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536044(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image.
-
-</td>
-</tr>
-</table>
+The **Graphics::DrawImage** method draws an image.
 
 ## -parameters
 
+### -param image
+
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object that specifies the source image.
+
+### -param point
+
+Reference to a <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> object that specifies the coordinates of the upper-left corner of the destination position at which to draw the image.
+
+## -returns
+
+If the method succeeds, it returns <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Ok</a>, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the **Status** enumeration.
+
+## -remarks
+
+#### Examples
+
+The following example draws an image.
+The image is drawn with the upper-left corner at the coordinate specified by the *point* parameter.
+
+```cpp
+VOID Example_DrawImage8(HDC hdc)
+
+{
+
+   Graphics graphics(hdc);
+
+   // Create an Image object.
+   Image image(L"climber.jpg");
+
+   // Draw the image.
+   graphics.DrawImage(&image, PointF(0.0f, 0.0f));
+}
+```
+
+## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/ms536388(v=VS.85).aspx">Drawing, Positioning, and Cloning Images</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533830(v=VS.85).aspx">Loading and Displaying Bitmaps</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a>

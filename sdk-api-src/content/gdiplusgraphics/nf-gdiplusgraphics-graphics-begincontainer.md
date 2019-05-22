@@ -3,11 +3,11 @@ UID: NF:gdiplusgraphics.Graphics.BeginContainer
 title: Graphics::BeginContainer (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::BeginContainer method begins a new graphics container.
-old-location: gdiplus\_gdiplus_CLASS_Graphics_BeginContainer_.htm
+old-location: 
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsbegincontainermethods\begincontainer.htm
+ms.assetid: b8b956a7-98dd-41b9-bd1e-2391985613c1
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/13/2019
 ms.keywords: BeginContainer, BeginContainer method [GDI+], BeginContainer method [GDI+],Graphics class, Graphics class [GDI+],BeginContainer method, Graphics.BeginContainer, Graphics.BeginContainer(), Graphics::BeginContainer, _gdiplus_CLASS_Graphics_BeginContainer_, gdiplus._gdiplus_CLASS_Graphics_BeginContainer_
 ms.topic: method
 req.header: gdiplusgraphics.h
@@ -46,141 +46,103 @@ ms.custom: 19H1
 
 # Graphics::BeginContainer
 
-
 ## -description
 
-
-The <b>Graphics::BeginContainer</b> method begins a new graphics container. 
-
+The <b>Graphics::BeginContainer</b> method begins a new graphics container.
 
 ## -parameters
 
-
-
-
 ### -param dstrect
 
-TBD
-
+Reference to a rectangle that, together with *srcrect*, specifies a transformation for the container.
 
 ### -param srcrect
 
-TBD
-
+Reference to a rectangle that, together with *dstrect*, specifies a transformation for the container.
 
 ### -param unit
 
-TBD
-
-
-
+Unit of measure for the container.
 
 ## -returns
 
-
-
-Type: <strong>Type: <b>GraphicsContainer</b>
-</strong>
+Type: Type: <b>GraphicsContainer</b>
 
 This method returns a value that identifies the container.
 
-
-
-
 ## -remarks
 
+Use this method to create nested graphics containers. 
+Graphics containers are used to retain graphics state, such as transformations, clipping regions, and various rendering properties.
 
+The **Graphics::BeginContainer** method returns a value of type **GraphicsContainer**.
+When you have finished using a container, pass that value to the **Graphics::EndContainer** method.
+The **GraphicsContainer** data type is defined in Gdiplusenums.h.
 
-Use this method to create nested graphics containers. Graphics containers are used to retain graphics state, such as transformations, clipping regions, and various rendering properties.
+The *dstrect* and *srcrect* parameters specify a transformation.
+It is the transformation that, when applied to *srcrect*, results in *dstrect*.
 
-The <b>Graphics::BeginContainer</b> method returns a value of type 
-				<a href="https://msdn.microsoft.com/en-us/library/ms536334(v=VS.85).aspx">GraphicsContainer</a>. When you have finished using a container, pass that value to the <a href="https://msdn.microsoft.com/en-us/library/ms535686(v=VS.85).aspx">Graphics::EndContainer</a> method. The 
-				GraphicsContainer data type is defined in Gdiplusenums.h.
+When you call the **Graphics::BeginContainer** method of a **Graphics** object, an information block that holds the state of the **Graphics** object is put on a stack.
+The **Graphics::BeginContainer** method returns a value that identifies that information block.
+When you pass the identifying value to the **Graphics::EndContainer** method, the information block is removed from the stack and is used to restore the **Graphics** object to the state it was in at the time of the **Graphics::BeginContainer** call.
 
-When you call the <b>Graphics::BeginContainer</b> method of a 
-				<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object, an information block that holds the state of the 
-				<b>Graphics</b> object is put on a stack. The <b>Graphics::BeginContainer</b> method returns a value that identifies that information block. When you pass the identifying value to the <a href="https://msdn.microsoft.com/en-us/library/ms535686(v=VS.85).aspx">Graphics::EndContainer</a> method, the information block is removed from the stack and is used to restore the 
-				<b>Graphics</b> object to the state it was in at the time of the <b>Graphics::BeginContainer</b> call.
+Containers can be nested; that is, you can call the **Graphics::BeginContainer** method several times before you call the **Graphics::EndContainer** method.
+Each time you call the **Graphics::BeginContainer** method, an information block is put on the stack, and you receive an identifier for the information block. 
+When you pass one of those identifiers to the Graphics::EndContainer method, the **Graphics** object is returned to the state it was in at the time of the **BeginContainer** call that returned that particular identifier.
+The information block placed on the stack by that **Graphics::BeginContainer** call is removed from the stack, and all information blocks placed on that stack after that **Graphics::BeginContainer** call are also removed.
 
-Containers can be nested; that is, you can call the <b>Graphics::BeginContainer</b> method several times before you call the <a href="https://msdn.microsoft.com/en-us/library/ms535686(v=VS.85).aspx">Graphics::EndContainer</a> method. Each time you call the <b>Graphics::BeginContainer</b> method, an information block is put on the stack, and you receive an identifier for the information block. When you pass one of those identifiers to the <b>Graphics::EndContainer</b> method, the 
-				<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object is returned to the state it was in at the time of the <b>Graphics::BeginContainer</b> call that returned that particular identifier. The information block placed on the stack by that <b>Graphics::BeginContainer</b> call is removed from the stack, and all information blocks placed on that stack after that <b>Graphics::BeginContainer</b> call are also removed.
+Calls to the **Graphics::Save** method place information blocks on the same stack as calls to the **Graphics::BeginContainer** method.
+Just as an **Graphics::EndContainer** call is paired with a **Graphics::BeginContainer** call, a **Graphics::Restore** call is paired with a **Graphics::Save** call.
 
-Calls to the <a href="https://msdn.microsoft.com/en-us/library/ms535806(v=VS.85).aspx">Graphics::Save</a> method place information blocks on the same stack as calls to the <b>Graphics::BeginContainer</b> method. Just as an <a href="https://msdn.microsoft.com/en-us/library/ms535686(v=VS.85).aspx">Graphics::EndContainer</a> call is paired with a <b>Graphics::BeginContainer</b> call, a <a href="https://msdn.microsoft.com/en-us/library/ms535804(v=VS.85).aspx">Graphics::Restore</a> call is paired with a <b>Graphics::Save</b> call.
+<div class="alert"><b>Caution</b> </div>
 
-<div class="alert"><b>Caution</b>  When you call <a href="https://msdn.microsoft.com/en-us/library/ms535686(v=VS.85).aspx">Graphics::EndContainer</a>, all information blocks placed on the stack (by <a href="https://msdn.microsoft.com/en-us/library/ms535806(v=VS.85).aspx">Graphics::Save</a> or by <b>Graphics::BeginContainer</b>) after the corresponding call to <b>Graphics::BeginContainer</b> are removed from the stack. Likewise, when you call <a href="https://msdn.microsoft.com/en-us/library/ms535804(v=VS.85).aspx">Graphics::Restore</a>, all information blocks placed on the stack (by <b>Graphics::Save</b> or by <b>Graphics::BeginContainer</b>) after the corresponding call to <b>Graphics::Save</b> are removed from the stack.</div>
-<div> </div>
+When you call **Graphics::EndContainer**, all information blocks placed on the stack (by **Graphics::Save** or by **Graphics::BeginContainer**) after the corresponding call to **Graphics::BeginContainer** are removed from the stack.
+Likewise, when you call **Graphics::Restore**, all information blocks placed on the stack (by **Graphics::Save** or by **Graphics::BeginContainer**) after the corresponding call to **Graphics::Save** are removed from the stack.
+
 For more information about graphics containers, see <a href="https://msdn.microsoft.com/en-us/library/ms533848(v=VS.85).aspx">Nested Graphics Containers</a>.
-
 
 #### Examples
 
-The following example sets a clipping region for a 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object and begins a graphics container. It then sets an additional clipping region for the container and draws rectangles that demonstrate the effective clipping region inside the container.
-
+The following example calls the **BeginContainer** method to create a graphics container.
+The code specifies a transformation for the container by passing two rectangles to the **BeginContainer** method.
+The code calls **Graphics::FillEllipse** twice: once inside the container and once outside the container (after the call to **Graphics::EndContainer**).
 
 ```cpp
-VOID Example_BeginContainer(HDC hdc)
+VOID Example_BeginContainer3(HDC hdc)
 {
    Graphics graphics(hdc);
 
-   // Set the clipping region for the Graphics object.
-   graphics.SetClip(Rect(10, 10, 150, 150));
+   // Define a translation and scale transform for the container.
+   RectF srcRect(0, 0, 200, 100);
+   RectF destRect(100, 100, 200, 200);
 
-   // Begin a graphics container.
-   GraphicsContainer container = graphics.BeginContainer();
+   // Create a graphics container with a (100, 100) translation
+   // and (1, 2) scale.
+   GraphicsContainer container;
+   container = graphics.BeginContainer(destRect, srcRect, UnitPixel);
 
-   // Set an additional clipping region for the container.
-   graphics.SetClip(Rect(100, 50, 100, 75));
-
-   // Fill a red rectangle in the container.
+   // Fill a rectangle in the container.
    SolidBrush redBrush(Color(255, 255, 0, 0));
-   graphics.FillRectangle(&redBrush, 0, 0, 400, 400);
+   graphics.FillEllipse(&amp;redBrush, 0, 0, 100, 60);
 
-   // End the container, and fill the same rectangle with blue. 
+   // End the container.
    graphics.EndContainer(container);
-   SolidBrush blueBrush(Color(128, 0, 0, 255));
-   graphics.FillRectangle(&blueBrush, 0, 0, 400, 400);
 
-   // Set the clipping region to infinite, and draw the outlines 
-   // of the two previous clipping regions.
-   graphics.ResetClip();
-   Pen blackPen(Color(255, 0, 0, 0), 2.0f);
-   graphics.DrawRectangle(&blackPen, 10, 10, 150, 150);
-   graphics.DrawRectangle(&blackPen, 100, 50, 100, 75);
-}
+   // Fill a rectangle outside the container.
+   SolidBrush blueBrush(Color(255, 0, 0, 255));
+   graphics.FillEllipse(&amp;blueBrush, 0, 0, 100, 60);
 ```
-
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
-
-
 
 <a href="https://msdn.microsoft.com/en-us/library/ms536334(v=VS.85).aspx">Graphics Containers</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/ms535686(v=VS.85).aspx">Graphics::EndContainer</a>
-
-
 
 <a href="https://msdn.microsoft.com/en-us/library/ms535804(v=VS.85).aspx">Graphics::Restore</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/ms535806(v=VS.85).aspx">Graphics::Save</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/ms533813(v=VS.85).aspx">Using Graphics Containers</a>
- 
-
- 
-

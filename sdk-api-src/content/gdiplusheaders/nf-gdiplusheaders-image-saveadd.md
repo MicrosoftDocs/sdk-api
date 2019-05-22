@@ -1,87 +1,137 @@
 ---
 UID: NF:gdiplusheaders.Image.SaveAdd
-title: Image::SaveAdd (gdiplusheaders.h)
-author: windows-sdk-content
-description: This topic lists the SaveAdd methods of the Image class. For a complete list of methods for the Image class, see Image Methods.
-old-location: gdiplus\_gdiplus_CLASS_Image_SaveAdd_Methods.htm
-tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\imagesaveaddmethods.htm
+title: Image::SaveAdd
+description: The Image::SaveAdd method adds a frame to a file or stream specified in a previous call to the Save method.
+ms.assetid: 03ebcd9f-83c9-4970-bc89-cfed876de44b
 ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: Image.SaveAdd, Image::SaveAdd, SaveAdd, SaveAdd methods [GDI+], _gdiplus_CLASS_Image_SaveAdd_Methods, gdiplus._gdiplus_CLASS_Image_SaveAdd_Methods, gdiplusheaders/SaveAdd
-ms.topic: method
-req.header: gdiplusheaders.h
-req.include-header: Gdiplus.h
-req.target-type: Windows
-req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
-req.target-min-winversvr: Windows 2000 Server [desktop apps only]
-req.kmdf-ver: 
-req.umdf-ver: 
+ms.date: 05/20/2019
+ms.keywords: Image::SaveAdd
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: 
+req.header: gdiplusheaders.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
 req.max-support: 
 req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: Gdiplus.lib
-req.dll: 
-req.irql: 
-topic_type:
- - APIRef
- - kbSyntax
-api_type:
- - LibDef
-api_location:
- - Gdiplus.lib
- - Gdiplus.dll
-api_name:
- - Image.SaveAdd
-product: Windows
-targetos: Windows
-req.typenames: 
 req.redist: 
-req.product: GDI+ 1.0
-ms.custom: 19H1
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
+req.type-library: 
+req.umdf-ver: 
+req.unicode-ansi: 
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - gdiplusheaders.h
+api_name:
+ - Image::SaveAdd
 ---
 
-# Image::SaveAdd
-
+# Image::SaveAdd(EncoderParameters*)
 
 ## -description
 
-
-<span>This topic lists the 
-			SaveAdd methods of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> class. For a complete list of methods for the 
-			<b>Image</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms535366(v=VS.85).aspx">Image Methods</a>.
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535408(v=VS.85).aspx">SaveAdd(EncoderParameters*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535408(v=VS.85).aspx">Image::SaveAdd</a> method adds a frame to a file or stream specified in a previous call to the 
-			<b>Save</b> method. Use this method to save selected frames from a multiple-frame image to another multiple-frame image.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535409(v=VS.85).aspx">SaveAdd(Image*,EncoderParameters*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535409(v=VS.85).aspx">Image::SaveAdd</a> method adds a frame to a file or stream specified in a previous call to the 
-			<b>Save</b> method.
-
-</td>
-</tr>
-</table>
+The **Image::SaveAdd** method adds a frame to a file or stream specified in a previous call to the **Save** method.
+Use this method to save selected frames from a multiple-frame image to another multiple-frame image.
 
 ## -parameters
 
+### -param encoderParams
+
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms534435(v=VS.85).aspx">EncoderParameters</a> object that holds parameters required by the image encoder used by the save-add operation.
+
+## -returns
+
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+## -remarks
+
+#### Examples
+
+The following example creates an <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object based on a TIFF file that has four frames.
+The code calls the *Image::SelectActiveFrame* method to navigate to the second frame in the page dimension of that Image object.
+(The page dimension is the only dimension in this case.)
+Then the code calls the **Save** method to save the second frame to a new file named `TwoFrames.tif`.
+The code calls the **Image::SelectActiveFrame** method again to navigate to the fourth frame of the Image object.
+Then the code calls the **Image::SaveAdd** method to add the fourth frame to `TwoFrames.tif`.
+The code calls the **Image::SaveAdd** method a second time to close `TwoFrames.tif`, and then draws the two frames that were saved in that file.
+
+```cpp
+VOID Example_SaveAdd(HDC hdc)
+{
+   Graphics graphics(hdc);
+   EncoderParameters encoderParameters;
+   ULONG parameterValue;
+   GUID dimension = FrameDimensionPage;
+
+   // An EncoderParameters object has an array of
+   // EncoderParameter objects. In this case, there is only
+   // one EncoderParameter object in the array.
+   encoderParameters.Count = 1;
+
+   // Initialize the one EncoderParameter object.
+   encoderParameters.Parameter[0].Guid = EncoderSaveFlag;
+   encoderParameters.Parameter[0].Type = EncoderParameterValueTypeLong;
+   encoderParameters.Parameter[0].NumberOfValues = 1;
+   encoderParameters.Parameter[0].Value = &parameterValue;
+
+   // Get the CLSID of the TIFF encoder.
+   CLSID encoderClsid;
+   GetEncoderClsid(L"image/tiff", &encoderClsid);
+
+   // Create an image object based on a TIFF file that has four frames.
+   Image fourFrames(L"FourFrames.tif");
+
+   // Save the second page (frame).
+   parameterValue = EncoderValueMultiFrame;
+   fourFrames.SelectActiveFrame(&dimension, 1);
+   fourFrames.Save(L"TwoFrames.tif", &encoderClsid, &encoderParameters);
+
+   // Save the fourth page (frame).
+   parameterValue = EncoderValueFrameDimensionPage;
+   fourFrames.SelectActiveFrame(&dimension, 3);
+   fourFrames.SaveAdd(&encoderParameters);
+
+   // Close the multiframe file.
+   parameterValue = EncoderValueFlush;
+   fourFrames.SaveAdd(&encoderParameters);
+
+   // Draw the two frames of TwoFrames.tif.
+   Image twoFrames(L"TwoFrames.tif");
+   twoFrames.SelectActiveFrame(&dimension, 0);
+   graphics.DrawImage(&twoFrames, 10, 10);
+   twoFrames.SelectActiveFrame(&dimension, 1);
+   graphics.DrawImage(&twoFrames, 150, 10);
+}
+```
+
+## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534434(v=VS.85).aspx">EncoderParameter</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534435(v=VS.85).aspx">EncoderParameters</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534080(v=VS.85).aspx">GetImageEncoders</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535399(v=VS.85).aspx">Image::Save Methods</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535398(v=VS.85).aspx">Image::SaveAdd Methods</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533814(v=VS.85).aspx">Using Image Encoders and Decoders</a>

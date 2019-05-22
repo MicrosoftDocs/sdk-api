@@ -2,12 +2,12 @@
 UID: NF:directxpackedvector.XMFLOAT3SE.XMFLOAT3SE(const float)
 title: XMFLOAT3SE::XMFLOAT3SE(const float) (directxpackedvector.h)
 author: windows-sdk-content
-description: Default constructor for XMFLOAT3SE.
-old-location: dxmath\xmfloat3se_ctor_1.htm
+description: Initializes a new instance of XMFLOAT3SE from a three element float array argument.
+old-location: 
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3SE.#ctor
+ms.assetid: d5e56b5a-c54f-4957-885c-4c4f0b7af71b
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: XMFLOAT3SE, XMFLOAT3SE constructor [DirectX Math Support APIs], XMFLOAT3SE constructor [DirectX Math Support APIs],XMFLOAT3SE structure, XMFLOAT3SE structure [DirectX Math Support APIs],XMFLOAT3SE constructor, XMFLOAT3SE.XMFLOAT3SE, XMFLOAT3SE.XMFLOAT3SE(), XMFLOAT3SE.XMFLOAT3SE(const float), XMFLOAT3SE::XMFLOAT3SE, XMFLOAT3SE::XMFLOAT3SE(const float), dxmath.xmfloat3se_ctor_1
 ms.topic: method
 req.header: directxpackedvector.h
@@ -45,53 +45,32 @@ ms.custom: 19H1
 
 # XMFLOAT3SE::XMFLOAT3SE(const float)
 
-
 ## -description
 
+Initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx">XMFLOAT3SE</a> from a three element <code>float</code> array argument.
 
-Default constructor for <code>XMFLOAT3SE</code>.
+This constructor initializes a new instance of **XMFLOAT3SE** from a from a three element float array argument.
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx">XMFLOAT3SE</a>.
-<div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param pArray
 
-TBD
-
-
-
+Three element floating point array containing the values used to initialize the three components of a new instance of **XMFLOAT3SE**.
 
 ## -remarks
 
+Values contained in *pArray[0]*, *pArray[1]* and *pArray[2]* are stored, respectively, in the x-component, the y-component, and the z-component of the new instance of **XMFLOAT3SE**.
 
+The values obtained from the members of *pArray* are transformed from the standard 32 bit floating point format (sign bit, 8 bit exponent, 23 bit mantissa), and stored as an 14 bit floating point format (5 bit exponent, 9 bit mantissa).
 
-<code>XMFLOAT3SE()</code> constructs a new instance of the <code>XMFLOAT3SE</code> structure without
-    defining the value of any of its members.
-   
+As no target formats do not support a sign bit, all member of *pArray* must be greater than zero.
 
-
-
+Because of the change in floating point format during the instantiation of an instance of **XMFLOAT3SE** by this constructor, some loss of precision can be expected.
 
 ## -see-also
 
-
-
-
-<b>Reference</b>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx">XMFLOAT3SE</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee415285(v=VS.85).aspx">XMFLOAT3SE Constructors</a>
- 
-
- 
-

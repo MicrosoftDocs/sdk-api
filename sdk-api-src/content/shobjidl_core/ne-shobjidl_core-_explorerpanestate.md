@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core._EXPLORERPANESTATE
-title: "_EXPLORERPANESTATE" (shobjidl_core.h)
+title: _EXPLORERPANESTATE (shobjidl_core.h)
 author: windows-sdk-content
 description: Indicate flags used by IExplorerPaneVisibility::GetPaneState to get the current state of the given Windows Explorer pane.
 old-location: shell\EXPLORERPANESTATE.htm

@@ -1,85 +1,136 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.GetBounds
-title: GraphicsPath::GetBounds (gdipluspath.h)
-author: windows-sdk-content
-description: This topic lists the GetBounds methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
-old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GetBounds_Methods.htm
-tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathgetboundsmethods.htm
+title: GraphicsPath::GetBounds
+description: The GraphicsPath::GetBounds method gets a bounding rectangle for this path.
+ms.assetid: a6a44cf0-78a9-4a1c-95f8-06d2ac32339b
 ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: GetBounds, GetBounds methods [GDI+], GraphicsPath.GetBounds, GraphicsPath::GetBounds, _gdiplus_CLASS_GraphicsPath_GetBounds_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_GetBounds_Methods, gdipluspath/GetBounds
-ms.topic: method
-req.header: gdipluspath.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+ms.date: 05/13/2019
+ms.keywords: GraphicsPath::GetBounds
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: 
+req.header: gdipluspath.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
- - HeaderDef
+ - COM
 api_location:
  - gdipluspath.h
 api_name:
- - GraphicsPath.GetBounds
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
+ - GraphicsPath::GetBounds
 ---
 
 # GraphicsPath::GetBounds
 
-
 ## -description
 
-
-<span>This topic lists the 
-GetBounds methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete list of methods for the 
-<b>GraphicsPath</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>. 
-
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535583(v=VS.85).aspx">GetBounds(Rect*,Matrix*,Pen*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535583(v=VS.85).aspx">GraphicsPath::GetBounds</a> method gets a bounding rectangle for this path.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535584(v=VS.85).aspx">GetBounds(RectF*,Matrix*,Pen*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535584(v=VS.85).aspx">GraphicsPath::GetBounds</a> method gets a bounding rectangle for this path.
-
-</td>
-</tr>
-</table>
+The **GraphicsPath::GetBounds** method gets a bounding rectangle for this path.
 
 ## -parameters
 
+### -param bounds
+
+Pointer to a **RectF** object that receives the bounding rectangle.
+
+### -param matrix
+
+Optional.
+Pointer to a **Matrix** object that specifies a transformation to be applied to this path before the bounding rectangle is calculated.
+This path is not permanently transformed; the transformation is used only during the process of calculating the bounding rectangle.
+The default value is **NULL**.
+
+### -param pen
+
+Optional.
+Pointer to a **Pen** object that influences the size of the bounding rectangle.
+The bounding rectangle received in bounds will be large enough to enclose this path when the path is drawn with the pen specified by this parameter.
+This ensures that the path is enclosed by the bounding rectangle even if the path is drawn with a wide pen.
+The default value is **NULL**.
+
+## -returns
+
+**Type:** <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a>
+
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+## -remarks
+
+The rectangle returned by this method might be larger than necessary to enclose the path as drawn by the specified pen.
+The rectangle is calculated to allow for the pen's miter limit at sharp corners and to allow for the pen's end caps.
+
+#### Examples
+
+The following example creates a path that has one curve and one ellipse.
+The code draws the path with a thick yellow pen and a thin black pen.
+The **GraphicsPath::GetBounds** method receives the address of the thick yellow pen and calculates a bounding rectangle for the path.
+Then the code draws the bounding rectangle.
+
+```cpp
+
+VOID GetBoundsExample(HDC hdc)
+{
+   Graphics graphics(hdc);
+   Pen blackPen(Color(255, 0, 0, 0), 1);
+   Pen yellowPen(Color(255, 255, 255, 0), 10);
+   Pen redPen(Color(255, 255, 0, 0), 1);
+
+   Point pts[] = {Point(120,120), 
+                  Point(200,130), 
+                  Point(150,200), 
+                  Point(130,180)};
+
+   // Create a path that has one curve and one ellipse.
+   GraphicsPath path;
+   path.AddClosedCurve(pts, 4);
+   path.AddEllipse(120, 220, 100, 40);
+
+   // Draw the path with a thick yellow pen and a thin black pen.
+   graphics.DrawPath(&yellowPen, &path);
+   graphics.DrawPath(&blackPen, &path);
+
+   // Get the path's bounding rectangle.
+   RectF rect;
+   path.GetBounds(&rect, NULL, &yellowPen);
+   graphics.DrawRectangle(&redPen, rect);  
+}
+
+Color(255, 0, 0, 0)Color(255, 255, 0,  0)
+```
+
+## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533825(v=VS.85).aspx">Clipping with a Region</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms536370(v=VS.85).aspx">Paths</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>

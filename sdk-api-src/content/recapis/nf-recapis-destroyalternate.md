@@ -54,19 +54,11 @@ This function is obsolete and need not be implemented by custom application reco
 
 ## -parameters
 
-
-
-
 ### -param hrcalt
 
-TBD
-
-
-
+N/A
 
 ## -returns
-
-
 
 This function can return one of these values.
 

@@ -2,12 +2,12 @@
 UID: NF:d3d11.CD3D11_UNORDERED_ACCESS_VIEW_DESC.CD3D11_UNORDERED_ACCESS_VIEW_DESC(ID3D11Buffer,DXGI_FORMAT,UINT,UINT,UINT)
 title: CD3D11_UNORDERED_ACCESS_VIEW_DESC::CD3D11_UNORDERED_ACCESS_VIEW_DESC(ID3D11Buffer,DXGI_FORMAT,UINT,UINT,UINT) (d3d11.h)
 author: windows-sdk-content
-description: Instantiates a new instance of a CD3D11_UNORDERED_ACCESS_VIEW_DESC structure that is initialized with a D3D11_UNORDERED_ACCESS_VIEW_DESC structure.
-old-location: direct3d11\cd3d11_unordered_access_view_desc_cd3d11_unordered_access_view_desc_d3d11_unordered_access_view_desc_.htm
+description: Instantiates a new instance of a CD3D11_UNORDERED_ACCESS_VIEW_DESC structure that is initialized with D3D11_BUFFER_UAV values.
+old-location: 
 tech.root: direct3d11
-ms.assetid: CFED2A2B-0FB7-4CE5-96B8-120DB1D0A90A
+ms.assetid: 06060197-CB8E-4910-8BF0-C0B44082E38F
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: CD3D11_UNORDERED_ACCESS_VIEW_DESC, CD3D11_UNORDERED_ACCESS_VIEW_DESC interface [Direct3D 11],CD3D11_UNORDERED_ACCESS_VIEW_DESC method, CD3D11_UNORDERED_ACCESS_VIEW_DESC method [Direct3D 11], CD3D11_UNORDERED_ACCESS_VIEW_DESC method [Direct3D 11],CD3D11_UNORDERED_ACCESS_VIEW_DESC interface, CD3D11_UNORDERED_ACCESS_VIEW_DESC.CD3D11_UNORDERED_ACCESS_VIEW_DESC, CD3D11_UNORDERED_ACCESS_VIEW_DESC.CD3D11_UNORDERED_ACCESS_VIEW_DESC(ID3D11Buffer,DXGI_FORMAT,UINT,UINT,UINT), CD3D11_UNORDERED_ACCESS_VIEW_DESC::CD3D11_UNORDERED_ACCESS_VIEW_DESC, CD3D11_UNORDERED_ACCESS_VIEW_DESC::CD3D11_UNORDERED_ACCESS_VIEW_DESC(ID3D11Buffer,DXGI_FORMAT,UINT,UINT,UINT), CD3D11_UNORDERED_ACCESS_VIEW_DESC::CD3D11_UNORDERED_ACCESS_VIEW_DESC(const D3D11_UNORDERED_ACCESS_VIEW_DESC&), d3d11/CD3D11_UNORDERED_ACCESS_VIEW_DESC::CD3D11_UNORDERED_ACCESS_VIEW_DESC, direct3d11.cd3d11_unordered_access_view_desc_cd3d11_unordered_access_view_desc_d3d11_unordered_access_view_desc_
 ms.topic: method
 req.header: d3d11.h
@@ -46,68 +46,36 @@ ms.custom: 19H1
 
 # CD3D11_UNORDERED_ACCESS_VIEW_DESC::CD3D11_UNORDERED_ACCESS_VIEW_DESC(ID3D11Buffer,DXGI_FORMAT,UINT,UINT,UINT)
 
-
 ## -description
 
-
-Instantiates a new instance of a  <a href="https://msdn.microsoft.com/8062BFAB-4A68-4ED4-B82F-0D1FF9E81733">CD3D11_UNORDERED_ACCESS_VIEW_DESC</a> structure that is initialized with a <a href="https://msdn.microsoft.com/884b5498-7f10-4a44-a947-bc7d93fa0cbf">D3D11_UNORDERED_ACCESS_VIEW_DESC</a> structure.
-
+Instantiates a new instance of a <a href="https://msdn.microsoft.com/8062BFAB-4A68-4ED4-B82F-0D1FF9E81733">CD3D11_UNORDERED_ACCESS_VIEW_DESC</a> structure that is initialized with **D3D11_BUFFER_UAV** values.
 
 ## -parameters
 
-
-
-
 ### -param arg1
 
-TBD
-
+A pointer to a **ID3D11Buffer** interface for a buffer.
 
 ### -param format
 
-TBD
-
+A **DXGI_FORMAT**-typed value that specifies the viewing format.
 
 ### -param firstElement
 
-TBD
-
+Number of bytes between the beginning of the buffer and the first element to access.
 
 ### -param numElements
 
-TBD
-
+Total number of elements in the view.
 
 ### -param flags
 
-TBD
-
-
-
-
-#### - o [ref]
-
-Type: <b>const <a href="https://msdn.microsoft.com/884b5498-7f10-4a44-a947-bc7d93fa0cbf">D3D11_UNORDERED_ACCESS_VIEW_DESC</a></b>
-
-Address of the <a href="https://msdn.microsoft.com/884b5498-7f10-4a44-a947-bc7d93fa0cbf">D3D11_UNORDERED_ACCESS_VIEW_DESC</a> structure that initializes the <a href="https://msdn.microsoft.com/8062BFAB-4A68-4ED4-B82F-0D1FF9E81733">CD3D11_UNORDERED_ACCESS_VIEW_DESC</a> structure.
-
+A **D3D11_BUFFER_UAV_FLAG**-typed value that identifies view options for a buffer.
 
 ## -returns
 
-
-
 This method does not return a value.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/8062BFAB-4A68-4ED4-B82F-0D1FF9E81733">CD3D11_UNORDERED_ACCESS_VIEW_DESC</a>
- 
-
- 
-

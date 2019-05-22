@@ -2,12 +2,12 @@
 UID: NF:directxpackedvector.XMSHORTN2.XMSHORTN2(const float)
 title: XMSHORTN2::XMSHORTN2(const float) (directxpackedvector.h)
 author: windows-sdk-content
-description: Default constructor for XMSHORTN2.
-old-location: dxmath\xmshortn2_ctor_1.htm
+description: Initializes a new instance of XMSHORTN2 from a two element float array argument.
+old-location: 
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMSHORTN2.#ctor
+ms.assetid: ff110a88-4c5e-4f1a-b04e-c8aa8e00d2b8
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: XMSHORTN2, XMSHORTN2 constructor [DirectX Math Support APIs], XMSHORTN2 constructor [DirectX Math Support APIs],XMSHORTN2 structure, XMSHORTN2 structure [DirectX Math Support APIs],XMSHORTN2 constructor, XMSHORTN2.XMSHORTN2, XMSHORTN2.XMSHORTN2(), XMSHORTN2.XMSHORTN2(const float), XMSHORTN2::XMSHORTN2, XMSHORTN2::XMSHORTN2(const float), dxmath.xmshortn2_ctor_1
 ms.topic: method
 req.header: directxpackedvector.h
@@ -45,54 +45,43 @@ ms.custom: 19H1
 
 # XMSHORTN2::XMSHORTN2(const float)
 
-
 ## -description
 
+Initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420209(v=VS.85).aspx">XMSHORTN2</a> from a two element <code>float</code> array argument.
 
-Default constructor for <code>XMSHORTN2</code>.
-    
+This constructor initializes a new instance of **XMSHORTN2** from a two element <code>float</code> array argument.
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee420209(v=VS.85).aspx">XMSHORTN2</a>.
-<div class="alert"><b>Note</b>  This constructor is only available under C++.
-    </div><div> </div>
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param pArray
 
-TBD
-
-
-
+Two element floating point array containing the values used to initialize the two components of a new instance of **XMSHORTN2**.
 
 ## -remarks
 
+Array elements are mapped to the vector components of a new instance of **XMSHORTN2** as follows:
 
+| Vector Component | Array Element | Range |  |
+|------------------|---------------|-------|--|
+| x | pArray[0] | -1.0, 1.0 | During instantiation, pArray[0] is clamped between -1 and 1, multiplied by 32767.0f and assigned to x. |
+| y | pArray[1] | -1.0, 1.0 | During instantiation, pArray[1] is clamped between -1 and 1, multiplied by 32767.0f, and then assigned to y. |
 
-<code>XMSHORTN2()</code> constructs a new instance of the <code>XMSHORTN2</code> structure without
-	defining the value of any of its members.
+The following pseudocode demonstrates the operation of this constructor:
 
-
-
+```cpp
+XMSHORTN2 instance;
+_x1=min( max( pArray[0], -1.0 ), 1.0 );
+_y1=min( max( pArray[1], -1.0 ), 1.0 );
+_x1 = round( _x1 * 32767.0f);
+_y1 = round( _y1 * 32767.0f);
+instance._x = _x1;
+instance._y = _y1;
+```
 
 ## -see-also
 
-
-
-
-<b>Reference</b>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee420209(v=VS.85).aspx">XMSHORTN2</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee415431(v=VS.85).aspx">XMSHORTN2 Constructors</a>
- 
-
- 
-

@@ -45,51 +45,9 @@ ms.custom: 19H1
 
 # IDMLDeviceChild interface
 
-
 ## -description
 
-
-
-
-
-
-An interface implemented by all objects created from the DirectML device.
-
-
-## -inheritance
-
-The <b>IDMLDeviceChild</b> interface inherits from [IDMLObject](/windows/desktop/api/directml/nn-directml-idmlobject). <b>IDMLDeviceChild</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDMLDeviceChild</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/directml/nf-directml-idmldevicechild-getdevice">GetDevice</a>
-</td>
-<td align="left" width="63%">
-Retrieves the DirectML device that was used to create this object.
-
-</td>
-</tr>
-</table> 
-
+An interface implemented by all objects created from the DirectML device.The **IDMLDeviceChild** interface inherits from [IDMLObject](/windows/desktop/api/directml/nn-directml-idmlobject).
 
 ## -see-also
-
-
-
-
 [IDMLObject](/windows/desktop/api/directml/nn-directml-idmlobject)
- 
-
- 
-

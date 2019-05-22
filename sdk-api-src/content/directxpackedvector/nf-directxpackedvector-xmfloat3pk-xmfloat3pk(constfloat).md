@@ -2,12 +2,12 @@
 UID: NF:directxpackedvector.XMFLOAT3PK.XMFLOAT3PK(const float)
 title: XMFLOAT3PK::XMFLOAT3PK(const float) (directxpackedvector.h)
 author: windows-sdk-content
-description: Default constructor for XMFLOAT3PK.
-old-location: dxmath\xmfloat3pk_ctor_1.htm
+description: Initializes a new instance of XMFLOAT3PK from a three element float array argument.
+old-location: 
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3PK.#ctor
+ms.assetid: ea6c8c8f-371d-40b8-8377-ccc4f75b0cf4
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: XMFLOAT3PK, XMFLOAT3PK constructor [DirectX Math Support APIs], XMFLOAT3PK constructor [DirectX Math Support APIs],XMFLOAT3PK structure, XMFLOAT3PK structure [DirectX Math Support APIs],XMFLOAT3PK constructor, XMFLOAT3PK.XMFLOAT3PK, XMFLOAT3PK.XMFLOAT3PK(), XMFLOAT3PK.XMFLOAT3PK(const float), XMFLOAT3PK::XMFLOAT3PK, XMFLOAT3PK::XMFLOAT3PK(const float), dxmath.xmfloat3pk_ctor_1
 ms.topic: method
 req.header: directxpackedvector.h
@@ -45,53 +45,35 @@ ms.custom: 19H1
 
 # XMFLOAT3PK::XMFLOAT3PK(const float)
 
-
 ## -description
 
+Initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee419478(v=VS.85).aspx">XMFLOAT3PK</a> from a three element <code>float</code> array argument.
 
-Default constructor for <code>XMFLOAT3PK</code>.
+This constructor initializes a new instance of **XMFLOAT3PK** from a three element <code>float</code>  array argument.
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419478(v=VS.85).aspx">XMFLOAT3PK</a>.
-<div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param pArray
 
-TBD
-
-
-
+Three element floating point array containing the values used to initialize the three components of a new instance of **XMFLOAT3PK**.
 
 ## -remarks
 
+Values contained in *pArray[0]* and *pArray[1]* are stored, respectively, in the x-component and the y-component of the new instance of **XMFLOAT3PK**.
 
+The values obtained from *pArray[0]* and *pArray[1]* are transformed from the standard 32 bit floating point format (sign bit, 8 bit exponent, 23 bit mantissa), and stored as an 11 bit floating point format (5 bit exponent, 6 bit mantissa).
 
-<code>XMFLOAT3PK()</code> constructs a new instance of the <code>XMFLOAT3PK</code> structure without
-    defining the value of any of its members.
-   
+Value contained in *pArray[2]* is stored, in the Z-component the new instance of **XMFLOAT3PK**.
+The value obtained from *pArray[2]* is transformed from the standard 32-bit floating point format (sign bit, 8 bit exponent, 23 bit mantissa), and stored as a 10 bit floating point format (5 bit exponent, 5 bit mantissa).
 
+As no target formats do not support a sign bit, all member of *pArray* must be greater than zero.
 
-
+Because of the change in floating point format during the instantiation of an instance of **XMFLOAT3PK** by this constructor, some loss of precision can be expected.
 
 ## -see-also
 
-
-
-
-<b>Reference</b>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee419478(v=VS.85).aspx">XMFLOAT3PK</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee415282(v=VS.85).aspx">XMFLOAT3PK Constructors</a>
- 
-
- 
-

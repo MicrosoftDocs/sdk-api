@@ -1,6 +1,6 @@
 ---
 UID: NE:mftransform._MFT_OUTPUT_STREAM_INFO_FLAGS
-title: "_MFT_OUTPUT_STREAM_INFO_FLAGS" (mftransform.h)
+title: _MFT_OUTPUT_STREAM_INFO_FLAGS (mftransform.h)
 author: windows-sdk-content
 description: Describes an output stream on a Media Foundation transform (MFT).
 old-location: mf\_mft_output_stream_info_flags.htm

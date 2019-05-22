@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core._SPBEGINF
-title: "_SPBEGINF" (shobjidl_core.h)
+title: _SPBEGINF (shobjidl_core.h)
 author: windows-sdk-content
 description: Used by IActionProgress::Begin, these constants specify certain UI operations that are to be enabled or disabled.
 old-location: shell\SPBEGINF_Constants.htm

@@ -1,85 +1,94 @@
 ---
 UID: NF:chstring.CHString.Format(UINT,...)
-title: CHString::Format(UINT, (chstring.h)
-author: windows-sdk-content
-description: The Format method formats and stores a series of characters and values in a CHString string.
-old-location: wmi\chstring_format.htm
-tech.root: WmiSdk
-ms.assetid: 95d24b0e-3580-4a5d-8dad-50d44ef1ca39
+title: CHString::Format
+description: 
+ms.assetid: 5fadf422-fa36-4c68-b150-c79a71346768
 ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: CHString.Format, CHString.Format(UINT,, CHString::Format, CHString::Format methods [Windows Management Instrumentation], CHString::Format(UINT,, Format, chstring/CHString::Format, wmi.chstring_format
-ms.topic: method
-req.header: chstring.h
-req.include-header: FwCommon.h
-req.target-type: Windows
-req.target-min-winverclnt: Windows Vista
-req.target-min-winversvr: Windows Server 2008
-req.kmdf-ver: 
-req.umdf-ver: 
+ms.date: 05/13/2019
+ms.keywords: CHString::Format
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: 
+req.header: chstring.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
 req.type-library: 
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
- - DllExport
+ - COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+ - chstring.h
 api_name:
  - CHString::Format
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
 ---
 
-# CHString::Format(UINT,
-
+# CHString::Format
 
 ## -description
 
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries.
+The <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new development.]
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> class 
-    is part of the WMI Provider Framework which is now considered in final state, and no further development, 
-    enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
-    development.]
-<span>The <b>Format</b> method formats and stores a series of characters and values in a <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> string.
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5fadf422-fa36-4c68-b150-c79a71346768">Format(UINT)</a>
-</td>
-<td align="left" width="63%">
-Formats this CHString according to the resource identifier specified by the <b>UINT</b>.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2187385b-8e30-4620-be1a-8c95c4d870b1">Format(LPCWSTR)</a>
-</td>
-<td align="left" width="63%">
-Formats this CHString according to the format specified by the <b>LPCWSTR</b>.
-
-</td>
-</tr>
-</table>
+The **Format** method formats and stores a series of characters and values in a **CHString** string.
 
 ## -parameters
 
+### -param nFormatID
+
+String resource identifier that contains the format control string.
+
+### -param arg1
+
+Argument list.
+
+## -returns
+
+CHeap_Exception
+
+## -remarks
+
+Each optional argument (if any) is converted and output according to the corresponding format specification in *lpszFormat*, or from the string resource identified by nFormatID.
+
+**Note** To reduce exposure to security attacks, always use a format string for **Format**.
+For example, **Format(input)** is exploitable, and **Format("%s", input)** is not.
+Never use a user-supplied string for the format string.
+If your format string is stored for a purpose such as localization, ensure that the string is protected from unauthorized write access.
+If your function writes to a string rather than standard output, you may need to avoid using a trailing "%s" in the format string.</div>
+
+If the string object is offered as a parameter to **Format**, the call fails.
+For example, the following code causes unpredictable results.
+
+#### Examples
+
+```cpp
+CHString str = L"Some Data";
+
+// Attention: str is also used in the parameter list.
+str.Format(L"%s%d", str, 123);
+```
+
+**Note**  When you pass a character string as an optional argument, you must cast it explicitly as **LPCWSTR**.
+The format argument has the same form and function as the *format* argument for the **printf** function.
+A **NULL** character is appended to the end of the written characters.</div>
+
+## -see-also
+
+<a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a>
+
+<a href="https://msdn.microsoft.com/07fa7cae-8af6-491b-a561-8947afde47ab">CHString::GetBuffer</a>

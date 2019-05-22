@@ -1,103 +1,103 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddEllipse
-title: GraphicsPath::AddEllipse (gdipluspath.h)
-author: windows-sdk-content
-description: This topic lists the AddEllipse methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
-old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddEllipse_Methods.htm
-tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddellipsemethods.htm
+title: GraphicsPath::AddEllipse
+description: The GraphicsPath::AddEllipse method adds an ellipse to this path.
+ms.assetid: 9acdbd19-0354-4728-a96c-611b93cbffe5
 ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: AddEllipse, AddEllipse methods [GDI+], GraphicsPath.AddEllipse, GraphicsPath::AddEllipse, _gdiplus_CLASS_GraphicsPath_AddEllipse_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddEllipse_Methods, gdipluspath/AddEllipse
-ms.topic: method
-req.header: gdipluspath.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+ms.date: 05/13/2019
+ms.keywords: GraphicsPath::AddEllipse
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: 
+req.header: gdipluspath.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
- - HeaderDef
+ - COM
 api_location:
  - gdipluspath.h
 api_name:
- - GraphicsPath.AddEllipse
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
+ - GraphicsPath::AddEllipse
 ---
 
 # GraphicsPath::AddEllipse
 
-
 ## -description
 
-
-<span>This topic lists the 
-AddEllipse methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete list of methods for the 
-<b>GraphicsPath</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>. 
-
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535605(v=VS.85).aspx">AddEllipse(Rect&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535605(v=VS.85).aspx">GraphicsPath::AddEllipse</a> method adds an ellipse to this path.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535606(v=VS.85).aspx">AddEllipse(RectF&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535606(v=VS.85).aspx">GraphicsPath::AddEllipse</a> method adds an ellipse to this path.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535607(v=VS.85).aspx">AddEllipse(INT,INT,INT,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535607(v=VS.85).aspx">GraphicsPath::AddEllipse</a> method adds an ellipse to this path.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535608(v=VS.85).aspx">AddEllipse(REAL,REAL,REAL,REAL)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535608(v=VS.85).aspx">GraphicsPath::AddEllipse</a> method adds an ellipse to this path.
-
-</td>
-</tr>
-</table>
+The **GraphicsPath::AddEllipse** method adds an ellipse to this path.
 
 ## -parameters
 
+### -param rect
+
+Reference to a rectangle that bounds the ellipse.
+
+## -returns
+
+**Type:** <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a>
+
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+## -remarks
+
+A <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object stores an ellipse as a sequence of four connected Bézier splines.
+The **GraphicsPath** object does not store the upper-left corner, width, and height of the ellipse's bounding rectangle.
+
+#### Examples
+
+The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object path, adds an ellipse to path, and then draws path.
+
+```cpp
+VOID Example_AddEllipse(HDC hdc)
+{
+   Graphics graphics(hdc); 
+   RectF rect(20.0f, 20.0f, 200.0f, 100.0f);
+
+   GraphicsPath path;
+   path.AddEllipse(rect);
+
+   // Draw the path.
+   Pen pen(Color(255, 255, 0, 0));
+   graphics.DrawPath(&pen, &path);
+}
+```
+
+## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535537(v=VS.85).aspx">AddArc Methods</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535542(v=VS.85).aspx">AddEllipse Methods</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533825(v=VS.85).aspx">Clipping with a Region</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms536362(v=VS.85).aspx">Ellipses and Arcs</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms536370(v=VS.85).aspx">Paths</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>

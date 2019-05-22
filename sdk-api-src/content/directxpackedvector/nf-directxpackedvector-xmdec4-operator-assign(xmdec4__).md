@@ -7,7 +7,7 @@ old-location: dxmath\xmdec4_operator_eq_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMDEC4.operator = (const XMDEC4)
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: XMDEC4 structure [DirectX Math Support APIs],operator = method, XMDEC4.operator =(const XMDEC4&), XMDEC4.operator-assign(XMDEC4 &&), XMDEC4.operator=, XMDEC4::operator-assign(XMDEC4 &&), XMDEC4::operator=, dxmath.xmdec4_operator_eq_1, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMDEC4 structure, operator=
 ms.topic: method
 req.header: directxpackedvector.h
@@ -45,63 +45,26 @@ ms.custom: 19H1
 
 # XMDEC4::operator-assign(XMDEC4 &&)
 
-
 ## -description
 
+Assigns the vector component data from one instance of <code>XMDEC4</code> to the current instance of <code>XMDEC4</code>.
 
-Assigns the vector component data from one instance of <code>XMDEC4</code> to the current
-	instance of <code>XMDEC4</code>.
-    
+This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/a52fa5e4-ee45-4256-a06a-6984d63b5578">XMDEC4</a> to the current instance of <code>XMDEC4</code>.
 
-This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/a52fa5e4-ee45-4256-a06a-6984d63b5578">XMDEC4
-	</a> to the current instance of <code>XMDEC4</code>.
-<div class="alert"><b>Note</b>  This operator is only available under C++.
-    </div><div> </div>
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param arg1
 
-TBD
-
-
-
-
-#### - Dec4 [ref]
-
 Instance of <code>XMDEC4</code> used to update the current <code>XMDEC4</code> structure.
-	    
-
 
 ## -returns
 
-
-
-The current instance of <code>XMDEC4</code> whose vector component data has been updated
-		to match those of the <code>XMDEC4</code> instance specified by the <b>Dec4</b>argument.
-	    
-
-
-
+The current instance of <code>XMDEC4</code> whose vector component data has been updated to match those of the <code>XMDEC4</code> instance specified by the <b>Dec4</b>argument.
 
 ## -see-also
 
-
-
-
-<b>Reference</b>
-
-
-
 <a href="https://msdn.microsoft.com/a52fa5e4-ee45-4256-a06a-6984d63b5578">XMDEC4</a>
 
-
-
 <a href="https://msdn.microsoft.com/46a34196-d32a-4ddf-9245-c568b9461f7d">operator = </a>
- 
-
- 
-

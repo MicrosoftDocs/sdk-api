@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations._IManipulationEvents.ManipulationDelta
-title: "_IManipulationEvents::ManipulationDelta" (manipulations.h)
+title: _IManipulationEvents::ManipulationDelta (manipulations.h)
 author: windows-sdk-content
 description: Handles events that happen when a manipulated object changes.
 old-location: wintouch\_imanipulationevents_manipulationdelta.htm

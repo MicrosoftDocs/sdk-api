@@ -71,12 +71,11 @@ Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762525(v=VS.85).asp
 One or more of the <a href="https://msdn.microsoft.com/en-us/library/Bb762525(v=VS.85).aspx">PROPDESC_FORMAT_FLAGS</a> flags, which are either bitwise or multiple values, that indicate the property string format.
 
 
-### -param ppszDisplay
+### -param ppszDisplay [out]
 
-TBD
+Type: <b>LPWSTR*</b>
 
-
-
+The address of a pointer to a null-terminated Unicode string that contains the display text.
 
 #### - cchText [out]
 

@@ -195,7 +195,7 @@ DWORD __cdecl wmain(){
 
 <b>Windows Me/98/95:  </b><b>RasEnumConnections</b>  enumerates a connection as <b>Active</b> as soon as it starts dialing.
 
-      The most reliable way to enumerate and check for an active connection is to call <b>RasEnumConnections</b> or <a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a> to get a connection handle, then call <a href="https://msdn.microsoft.com/3b2a2f8d-b1ff-44d2-ba49-60877ca6c104">RasGetConnectStatus</a> to determine the actual connection state.
+The most reliable way to enumerate and check for an active connection is to call <b>RasEnumConnections</b> or <a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a> to get a connection handle, then call <a href="https://msdn.microsoft.com/3b2a2f8d-b1ff-44d2-ba49-60877ca6c104">RasGetConnectStatus</a> to determine the actual connection state.
 
 
 

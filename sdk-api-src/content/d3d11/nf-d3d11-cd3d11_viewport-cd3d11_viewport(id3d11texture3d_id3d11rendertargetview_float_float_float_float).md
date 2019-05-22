@@ -2,12 +2,12 @@
 UID: NF:d3d11.CD3D11_VIEWPORT.CD3D11_VIEWPORT(ID3D11Texture3D,ID3D11RenderTargetView,FLOAT,FLOAT,FLOAT,FLOAT)
 title: CD3D11_VIEWPORT::CD3D11_VIEWPORT(ID3D11Texture3D,ID3D11RenderTargetView,FLOAT,FLOAT,FLOAT,FLOAT) (d3d11.h)
 author: windows-sdk-content
-description: Instantiates a new instance of a CD3D11_VIEWPORT structure that is initialized with a D3D11_VIEWPORT structure.
-old-location: direct3d11\cd3d11_viewport_cd3d11_viewport_d3d11_viewport_.htm
+description: Instantiates a new instance of a CD3D11_VIEWPORT structure that is initialized with 3D texture values.
+old-location: 
 tech.root: direct3d11
-ms.assetid: C60D49ED-D9C4-4FA4-A52C-7737173C9141
+ms.assetid: A64BB75D-F887-4263-9EA7-49821702F576
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: CD3D11_VIEWPORT, CD3D11_VIEWPORT interface [Direct3D 11],CD3D11_VIEWPORT method, CD3D11_VIEWPORT method [Direct3D 11], CD3D11_VIEWPORT method [Direct3D 11],CD3D11_VIEWPORT interface, CD3D11_VIEWPORT.CD3D11_VIEWPORT, CD3D11_VIEWPORT.CD3D11_VIEWPORT(ID3D11Texture3D,ID3D11RenderTargetView,FLOAT,FLOAT,FLOAT,FLOAT), CD3D11_VIEWPORT::CD3D11_VIEWPORT, CD3D11_VIEWPORT::CD3D11_VIEWPORT(ID3D11Texture3D,ID3D11RenderTargetView,FLOAT,FLOAT,FLOAT,FLOAT), CD3D11_VIEWPORT::CD3D11_VIEWPORT(const D3D11_VIEWPORT&), d3d11/CD3D11_VIEWPORT::CD3D11_VIEWPORT, direct3d11.cd3d11_viewport_cd3d11_viewport_d3d11_viewport_
 ms.topic: method
 req.header: d3d11.h
@@ -46,73 +46,44 @@ ms.custom: 19H1
 
 # CD3D11_VIEWPORT::CD3D11_VIEWPORT(ID3D11Texture3D,ID3D11RenderTargetView,FLOAT,FLOAT,FLOAT,FLOAT)
 
-
 ## -description
 
-
-Instantiates a new instance of a <a href="https://msdn.microsoft.com/F4C7E5E7-1986-4210-83BC-80277A47CB97">CD3D11_VIEWPORT</a> structure that is initialized with a <a href="https://msdn.microsoft.com/7ef29e40-4b42-4794-83b6-44581c0d529f">D3D11_VIEWPORT</a> structure.
-
+Instantiates a new instance of a <a href="https://msdn.microsoft.com/F4C7E5E7-1986-4210-83BC-80277A47CB97">CD3D11_VIEWPORT</a> structure that is initialized with 3D texture values.
 
 ## -parameters
 
-
-
-
 ### -param pTex3D
 
-TBD
-
+A pointer to a **ID3D11Texture3D** interface for a 3D texture.
 
 ### -param pRTView
 
-TBD
-
+A pointer to a **ID3D11RenderTargetView** interface for the render-target view.
 
 ### -param topLeftX
 
-TBD
-
+X position of the left hand side of the viewport.
+Ranges between **D3D11_VIEWPORT_BOUNDS_MIN** and **D3D11_VIEWPORT_BOUNDS_MAX**.
 
 ### -param topLeftY
 
-TBD
-
+Y position of the top of the viewport.
+Ranges between **D3D11_VIEWPORT_BOUNDS_MIN** and **D3D11_VIEWPORT_BOUNDS_MAX**.
 
 ### -param minDepth
 
-TBD
-
+Minimum depth of the viewport.
+Ranges between 0 and 1.
 
 ### -param maxDepth
 
-TBD
-
-
-
-
-#### - o [ref]
-
-Type: <b>const <a href="https://msdn.microsoft.com/7ef29e40-4b42-4794-83b6-44581c0d529f">D3D11_VIEWPORT</a></b>
-
-Address of the <a href="https://msdn.microsoft.com/7ef29e40-4b42-4794-83b6-44581c0d529f">D3D11_VIEWPORT</a> structure that initializes the <a href="https://msdn.microsoft.com/F4C7E5E7-1986-4210-83BC-80277A47CB97">CD3D11_VIEWPORT</a> structure.
-
+Maximum depth of the viewport.
+Ranges between 0 and 1.
 
 ## -returns
 
-
-
 This method does not return a value.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/F4C7E5E7-1986-4210-83BC-80277A47CB97">CD3D11_VIEWPORT</a>
- 
-
- 
-

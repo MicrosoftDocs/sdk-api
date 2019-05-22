@@ -45,35 +45,20 @@ ms.custom: 19H1
 
 # SetInputScopeXML function
 
-
 ## -description
-
 
 Do not use.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd
 
-TBD
-
+N/A
 
 ### -param pszXML
 
-TBD
-
-
-
+N/A
 
 ## -returns
 
-
-
 This function does not return a value.
-
-
-

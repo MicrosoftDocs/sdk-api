@@ -1,83 +1,141 @@
 ---
 UID: NF:gdiplusheaders.Image.Save
-title: Image::Save (gdiplusheaders.h)
-author: windows-sdk-content
-description: This topic lists the Save methods of the Image class. For a complete list of methods for the Image class, see Image Methods.
-old-location: gdiplus\_gdiplus_CLASS_Image_Save_Methods.htm
-tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\imagesavemethods.htm
+title: Image::Save
+description: The Image::Save method saves this image to a file.
+ms.assetid: e2c57259-fe82-40dc-86a3-3f4110e6c0ee
 ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: Image.Save, Image::Save, Save, Save methods [GDI+], _gdiplus_CLASS_Image_Save_Methods, gdiplus._gdiplus_CLASS_Image_Save_Methods, gdiplusheaders/Save
-ms.topic: method
-req.header: gdiplusheaders.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+ms.date: 05/20/2019
+ms.keywords: Image::Save
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: 
+req.header: gdiplusheaders.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
- - HeaderDef
+ - COM
 api_location:
  - gdiplusheaders.h
 api_name:
- - Image.Save
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
+ - Image::Save
 ---
 
-# Image::Save
-
+# Image::Save(WCHAR*,CLSID*,EncoderParameters*)
 
 ## -description
 
-
-<span>This topic lists the 
-			Save methods of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> class. For a complete list of methods for the 
-			<b>Image</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms535366(v=VS.85).aspx">Image Methods</a>.
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535407(v=VS.85).aspx">Save(WCHAR*,CLSID*,EncoderParameters*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535407(v=VS.85).aspx">Image::Save</a> method saves this image to a file.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535406(v=VS.85).aspx">Save(IStream*,CLSID*,EncoderParameters*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535406(v=VS.85).aspx">Image::Save</a> method saves this image to a stream.
-
-</td>
-</tr>
-</table>
+The **Image::Save** method saves this image to a file.
 
 ## -parameters
 
+### -param filename
+
+Pointer to a null-terminated string that specifies the path name for the saved image.
+
+### -param clsidEncoder
+
+Pointer to a CLSID that specifies the encoder to use to save the image.
+
+### -param encoderParams
+
+Optional.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms534435(v=VS.85).aspx">EncoderParameters</a> object that holds parameters used by the encoder.
+The default value is **NULL**.
+
+## -returns
+
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+## -remarks
+
+GDI+ does not allow you to save an image to the same file that you used to construct the image.
+The following code creates an <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object by passing the file name `MyImage.jpg` to an **Image** constructor.
+That same file name is passed to the **Image::Save** method of the Image object, so the **Image::Save** method fails.
+
+```cpp
+Image image(L"myImage.jpg");
+
+// Do other operations.
+
+// Save the image to the same file name. (This operation will fail.)
+image.Save(L"myImage.jpg", ...);
+```
+
+#### Examples
+
+The following example creates an **Image** object from a PNG file and then creates a Graphics object based on that **Image** object.
+The code draws the image, alters the image, and draws the image again.
+Finally, the code saves the altered image to a file.
+
+The code relies on a helper function, *GetEncoderClsid*, to get the class identifier for the PNG encoder.
+The *GetEncoderClsid* function is shown in *Retrieving the Class Identifier for an Encoder*.
+
+The technique of constructing a <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object based on an image works only for certain image formats.
+For example, you cannot construct a **Graphics** object based on an image that has a color depth of 4 bits per pixel.
+For more information about which formats are supported by the **Graphics** constructor, see <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>.
+
+```cpp
+VOID Example_SaveFile(HDC hdc)
+{
+   Graphics graphics(hdc);
+
+   // Create an Image object based on a PNG file.
+   Image  image(L"Mosaic.png");
+
+   // Draw the image.
+   graphics.DrawImage(&image, 10, 10);
+
+   // Construct a Graphics object based on the image.
+   Graphics imageGraphics(&image);
+
+   // Alter the image.
+   SolidBrush brush(Color(255, 0, 0, 255));
+   imageGraphics.FillEllipse(&brush, 20, 30, 80, 50);
+
+   // Draw the altered image.
+   graphics.DrawImage(&image, 200, 10);
+
+   // Save the altered image.
+   CLSID pngClsid;
+   GetEncoderClsid(L"image/png", &pngClsid);
+   image.Save(L"Mosaic2.png", &pngClsid, NULL);
+}
+```
+
+## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534434(v=VS.85).aspx">EncoderParameter</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534435(v=VS.85).aspx">EncoderParameters</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534080(v=VS.85).aspx">GetImageEncoders</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535399(v=VS.85).aspx">Image::Save Methods</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535398(v=VS.85).aspx">Image::SaveAdd Methods</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533814(v=VS.85).aspx">Using Image Encoders and Decoders</a>

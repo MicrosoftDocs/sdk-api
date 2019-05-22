@@ -1,104 +1,139 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.IsOutlineVisible
-title: GraphicsPath::IsOutlineVisible (gdipluspath.h)
-author: windows-sdk-content
-description: This topic lists the IsOutlineVisible methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
-old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_IsOutlineVisible_Methods.htm
-tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathisoutlinevisiblemethods.htm
+title: GraphicsPath::IsOutlineVisible
+description: The GraphicsPath::IsOutlineVisible method determines whether a specified point touches the outline of a path.
+ms.assetid: f80b0cd2-0c6c-4fa9-9567-5383750689e8
 ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: GraphicsPath.IsOutlineVisible, GraphicsPath::IsOutlineVisible, IsOutlineVisible, IsOutlineVisible methods [GDI+], _gdiplus_CLASS_GraphicsPath_IsOutlineVisible_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_IsOutlineVisible_Methods, gdipluspath/IsOutlineVisible
-ms.topic: method
-req.header: gdipluspath.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+ms.date: 05/13/2019
+ms.keywords: GraphicsPath::IsOutlineVisible
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: 
+req.header: gdipluspath.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
- - HeaderDef
+ - COM
 api_location:
  - gdipluspath.h
 api_name:
- - GraphicsPath.IsOutlineVisible
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
+ - GraphicsPath::IsOutlineVisible
 ---
 
 # GraphicsPath::IsOutlineVisible
 
-
 ## -description
 
-
-<span>This topic lists the 
-IsOutlineVisible methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete list of methods for the 
-<b>GraphicsPath</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>. 
-
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535577(v=VS.85).aspx">IsOutlineVisible(Point&,Pen*,Graphics*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535577(v=VS.85).aspx">GraphicsPath::IsOutlineVisible</a> method determines whether a specified point touches the outline of this path when the path is drawn by a specified <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>object and a specified pen.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535579(v=VS.85).aspx">IsOutlineVisible(INT,INT,Pen*,Graphics*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535579(v=VS.85).aspx">GraphicsPath::IsOutlineVisible</a> method determines whether a specified point touches the outline of this path when the path is drawn by a specified <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object and a specified pen.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535580(v=VS.85).aspx">IsOutlineVisible(PointF&,Pen*,Graphics*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535580(v=VS.85).aspx">GraphicsPath::IsOutlineVisible</a>
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>object and a specified pen.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535578(v=VS.85).aspx">IsOutlineVisible(REAL,REAL,Pen*,Graphics*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535578(v=VS.85).aspx">GraphicsPath::IsOutlineVisible</a> method determines whether a specified point touches the outline of this path when the path is drawn by a specified <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object and a specified pen.
-
-</td>
-</tr>
-</table>
+The **GraphicsPath::IsOutlineVisible** method determines whether a specified point touches the outline of this path when the path is drawn by a specified <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object and a specified pen.
 
 ## -parameters
 
+### -param point
+
+Reference to the point to be tested.
+
+### -param pen
+
+Pointer to a **Pen** object.
+This method determines whether the test point touches the path outline that would be drawn by this pen.
+More points will touch an outline drawn by a wide pen than will touch an outline drawn by a narrow pen.
+
+### -param g
+
+Optional.
+Pointer to a **Graphics** object that specifies a world-to-device transformation.
+If the value of this parameter is **NULL**, the test is done in world coordinates; otherwise, the test is done in device coordinates.
+The default value is **NULL**.
+
+## -returns
+
+If the test point touches the outline of this path, this method returns **TRUE**; otherwise, it returns **FALSE**.
+
+## -remarks
+
+#### Examples
+
+The following example creates an elliptical path and draws that path with a wide yellow pen.
+Then the code tests each point in an array to see whether the point touches the outline (as it would be drawn by the wide yellow pen) of the path.
+Points that touch the outline are painted green, and points that don't touch the outline are painted red.
+
+```cpp
+VOID Example_IsOutlineVisibleExample(HDC hdc)
+{
+   Graphics graphics(hdc);
+
+   INT j;
+   Pen yellowPen(Color(255, 255, 255, 0), 20);
+   SolidBrush brush(Color(255, 255, 0,  0));
+
+   // Create and draw a path.
+   GraphicsPath path;
+   path.AddEllipse(50, 50, 200, 100);
+   graphics.DrawPath(&yellowPen, &path);
+
+   // Create an array of three points, and determine whether each
+   // point in the array touches the outline of the path.
+   // If a point touches the outline, paint it green.
+   // If a point does not touch the outline, paint it red.
+   PointF[] = {
+      PointF(230, 138),
+      PointF(100, 120),
+      PointF(150, 170)};
+
+   for(j = 0; j <= 2; ++j)
+   {
+      if(path.IsOutlineVisible(points[j], &yellowPen, NULL))
+         brush.SetColor(Color(255, 0, 255,  0));
+      else
+         brush.SetColor(Color(255, 255, 0,  0));
+
+      graphics.FillEllipse(&brush, points[j].X - 3.0f, points[j].Y - 3.0f, 6.0f, 6.0f);
+   }
+}
+
+Color(255, 255, 0,  0)Color(255, 255, 0,  0)
+```
+
+## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533825(v=VS.85).aspx">Clipping with a Region</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535562(v=VS.85).aspx">IsOutlineVisible Methods</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535563(v=VS.85).aspx">IsVisible Methods</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms536370(v=VS.85).aspx">Paths</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533854(v=VS.85).aspx">Setting Pen Width and Alignment</a>

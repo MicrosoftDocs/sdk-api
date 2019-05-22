@@ -7,7 +7,7 @@ old-location: dxmath\xmushortn4_operator_eq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUSHORTN4.operator = (const XMUSHORTN4)
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: DirectX::PackedVector.XMUSHORTN4.operator =, DirectX::PackedVector::XMUSHORTN4::operator =, XMUSHORTN4 structure [DirectX Math Support APIs],operator = method, XMUSHORTN4.operator =, XMUSHORTN4.operator-assign, XMUSHORTN4.operator=, XMUSHORTN4::operator-assign, XMUSHORTN4::operator=, dxmath.xmushortn4_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMUSHORTN4 structure, operator=
 ms.topic: method
 req.header: directxpackedvector.h
@@ -45,62 +45,26 @@ ms.custom: 19H1
 
 # XMUSHORTN4::operator-assign
 
-
 ## -description
 
-
-Assigns the vector component data from one instance of <code>XMUSHORTN4</code> to the current
-	instance of <code>XMUSHORTN4</code>.
-    
+Assigns the vector component data from one instance of <code>XMUSHORTN4</code> to the current instance of <code>XMUSHORTN4</code>.
 
 This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/bd514dcf-2b94-411e-b47c-aad3b972754a">XMUSHORTN4</a> to the current instance of <code>XMUSHORTN4</code>.
-<div class="alert"><b>Note</b>  This operator is only available for C++ based development.
-    </div><div> </div>
+
+<div class="alert"><b>Note</b>  This operator is only available for C++ based development.</div>
 
 ## -parameters
 
-
-
-
 ### -param arg1
 
-TBD
-
-
-
-
-#### - UShortN4 [ref]
-
 Instance of <code>XMUSHORTN4</code> used to update the current <code>XMUSHORTN4</code>structure.
-	    
-
 
 ## -returns
 
-
-
-The current instance of <code>XMUSHORTN4</code> whose vector component data has been
-		updated to match those of the <code>XMUSHORTN4</code> instance specified by the <b>UShortN4</b> argument.
-	    
-
-
-
+The current instance of <code>XMUSHORTN4</code> whose vector component data has been updated to match those of the <code>XMUSHORTN4</code> instance specified by the <b>UShortN4</b> argument.
 
 ## -see-also
 
-
-
-
-<b>Reference</b>
-
-
-
 <a href="https://msdn.microsoft.com/bd514dcf-2b94-411e-b47c-aad3b972754a">XMUSHORTN4</a>
 
-
-
 <a href="https://msdn.microsoft.com/ed6ebfb8-d988-4fdf-917d-08e29214c117">XMUSHORTN4 Operators</a>
- 
-
- 
-

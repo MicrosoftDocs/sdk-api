@@ -2,12 +2,12 @@
 UID: NF:directxpackedvector.XMUSHORT4.XMUSHORT4(const float)
 title: XMUSHORT4::XMUSHORT4(const float) (directxpackedvector.h)
 author: windows-sdk-content
-description: Default constructor for XMUSHORT4.
-old-location: dxmath\xmushort4_ctor_1.htm
+description: Initializes a new instance of XMUSHORT4 from a four element float array argument.
+old-location: 
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMUSHORT4.#ctor
+ms.assetid: dc92c135-7775-4ce8-b3b8-396dfe2cf81f
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: XMUSHORT4, XMUSHORT4 constructor [DirectX Math Support APIs], XMUSHORT4 constructor [DirectX Math Support APIs],XMUSHORT4 structure, XMUSHORT4 structure [DirectX Math Support APIs],XMUSHORT4 constructor, XMUSHORT4.XMUSHORT4, XMUSHORT4.XMUSHORT4(), XMUSHORT4.XMUSHORT4(const float), XMUSHORT4::XMUSHORT4, XMUSHORT4::XMUSHORT4(const float), dxmath.xmushort4_ctor_1
 ms.topic: method
 req.header: directxpackedvector.h
@@ -45,54 +45,37 @@ ms.custom: 19H1
 
 # XMUSHORT4::XMUSHORT4(const float)
 
-
 ## -description
 
+Initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420702(v=VS.85).aspx">XMUSHORT4</a> from a four element <code>float</code> array argument.
 
-Default constructor for <code>XMUSHORT4</code>.
-    
+This constructor initializes a new instance of **XMUSHORT4** from a four element <code>float</code> array argument.
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee420702(v=VS.85).aspx">XMUSHORT4</a>.
-<div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param pArray
 
-TBD
-
-
-
+Four element **float** array containing the values used to initialize the four components of a new instance of **XMUSHORT4**.
 
 ## -remarks
 
+The magnitude of each member of the *pArray* argument to the constructor will be clamped to the range supported by an 16-bit signed integer [0, 65535.0].
 
+The following pseudocode demonstrates the operation of this constructor:
 
-<code>XMUSHORT4()</code> constructs a new instance of the <code>XMUSHORT4</code> structure without
-	defining the value of any of its members.
-   
+```cpp
+XMUSHORT4 instance;
 
-
-
+instance.x = (uint16_t)min( max( pArray[0] 0.0 ), 65535.0 );
+instance.y = (uint16_t)min( max( pArray[1] 0.0 ), 65535.0 );
+instance.z = (uint16_t)min( max( pArray[2] 0.0 ), 65535.0 );
+instance.w = (uint16_t)min( max( pArray[3] 0.0 ), 65535.0 );
+```
 
 ## -see-also
 
-
-
-
-<b>Reference</b>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee420702(v=VS.85).aspx">XMUSHORT4</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee415500(v=VS.85).aspx">XMUSHORT4 Constructors</a>
- 
-
- 
-

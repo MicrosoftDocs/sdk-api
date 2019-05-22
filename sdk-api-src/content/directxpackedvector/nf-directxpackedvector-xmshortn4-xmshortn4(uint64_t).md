@@ -2,12 +2,12 @@
 UID: NF:directxpackedvector.XMSHORTN4.XMSHORTN4(uint64_t)
 title: XMSHORTN4::XMSHORTN4(uint64_t) (directxpackedvector.h)
 author: windows-sdk-content
-description: Default constructor for XMSHORTN4.
-old-location: dxmath\xmshortn4_ctor_1.htm
+description: A constructor for XMSHORTN4.
+old-location: 
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMSHORTN4.#ctor
+ms.assetid: 
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: XMSHORTN4, XMSHORTN4 constructor [DirectX Math Support APIs], XMSHORTN4 constructor [DirectX Math Support APIs],XMSHORTN4 structure, XMSHORTN4 structure [DirectX Math Support APIs],XMSHORTN4 constructor, XMSHORTN4.XMSHORTN4, XMSHORTN4.XMSHORTN4(), XMSHORTN4.XMSHORTN4(uint64_t), XMSHORTN4::XMSHORTN4, XMSHORTN4::XMSHORTN4(uint64_t), dxmath.xmshortn4_ctor_1
 ms.topic: method
 req.header: directxpackedvector.h
@@ -45,54 +45,24 @@ ms.custom: 19H1
 
 # XMSHORTN4::XMSHORTN4(uint64_t)
 
-
 ## -description
 
+A constructor for <code>XMSHORTN4</code>.
 
-Default constructor for <code>XMSHORTN4</code>.
-    
+A constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee420216(v=VS.85).aspx">XMSHORTN4</a>.
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee420216(v=VS.85).aspx">XMSHORTN4</a>.
-<div class="alert"><b>Note</b>  This constructor is only available under C++.
-    </div><div> </div>
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
 ## -parameters
 
-
-
-
 ### -param Packed
 
-TBD
-
-
-
+A value.
 
 ## -remarks
 
-
-
-<code>XMSHORTN4()</code> constructs a new instance of the <code>XMSHORTN4</code> structure without
-	defining the value of any of its members.
-
-
-
-
 ## -see-also
-
-
-
-
-<b>Reference</b>
-
-
 
 <a href="https://msdn.microsoft.com/en-us/library/Ee420216(v=VS.85).aspx">XMSHORTN4</a>
 
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Ee415434(v=VS.85).aspx">XMSHORTN4 Constructors</a>
- 
-
- 
-

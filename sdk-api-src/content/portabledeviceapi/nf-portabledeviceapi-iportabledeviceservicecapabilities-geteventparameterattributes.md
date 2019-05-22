@@ -59,7 +59,7 @@ The <b>GetEventParameterAttributes</b> method retrieves the attributes of an eve
 
 ### -param Event
 
-TBD
+The event that contains the parameter whose attributes are retrieved.
 
 
 ### -param ppAttributes [out]

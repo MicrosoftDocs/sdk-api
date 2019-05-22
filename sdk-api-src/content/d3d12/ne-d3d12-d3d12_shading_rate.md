@@ -1,7 +1,8 @@
 ---
 UID: NE:d3d12.D3D12_SHADING_RATE
 title: D3D12_SHADING_RATE
-ms.date: 01/31/19
+description: Defines constants that specify the shading rate (for variable-rate shading, or VRS).
+ms.date: 05/20/2019
 ms.keywords: D3D12_SHADING_RATE
 ms.topic: language-reference
 targetos: Windows

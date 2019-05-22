@@ -1,80 +1,49 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.FontFamily
-title: FontFamily::FontFamily (gdiplusheaders.h)
-author: windows-sdk-content
-description: This topic lists the constructors of the FontFamily class. For a complete class listing, see FontFamilyClass.
-old-location: gdiplus\_gdiplus_CLASS_FontFamily_Constructors.htm
-tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilyconstructors.htm
+title: FontFamily::FontFamily
+description: Creates an empty FontFamily::FontFamily object.
+ms.assetid: 2d9e8f9e-9477-4b2b-b4b3-72781ede2c07
 ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: FontFamily, FontFamily constructors [GDI+], FontFamily.FontFamily, FontFamily::FontFamily, _gdiplus_CLASS_FontFamily_Constructors, gdiplus._gdiplus_CLASS_FontFamily_Constructors, gdiplusheaders/FontFamily
-ms.topic: method
-req.header: gdiplusheaders.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+ms.date: 05/20/2019
+ms.keywords: FontFamily::FontFamily
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: 
+req.header: gdiplusheaders.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
- - HeaderDef
+ - COM
 api_location:
  - gdiplusheaders.h
 api_name:
- - FontFamily.FontFamily
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
+ - FontFamily::FontFamily
 ---
 
 # FontFamily::FontFamily
 
-
 ## -description
 
+Creates an empty **FontFamily::FontFamily** object.
 
-<span>This topic lists the constructors of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a> class. For a complete class listing, see <b>FontFamilyClass</b>. 
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Constructor</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536182(v=VS.85).aspx">FontFamily()</a>
-</td>
-<td align="left" width="63%">
-Creates an empty <a href="https://msdn.microsoft.com/en-us/library/ms536182(v=VS.85).aspx">FontFamily::FontFamily</a> object.
+## -remarks
 
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536183(v=VS.85).aspx">FontFamily(WCHAR*,FontCollection*)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536183(v=VS.85).aspx">FontFamily::FontFamily</a> object based on a specified font family.
-
-</td>
-</tr>
-</table>
-
-## -parameters
-
+## -see-also

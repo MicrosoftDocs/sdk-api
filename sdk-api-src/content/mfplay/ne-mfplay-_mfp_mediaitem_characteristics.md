@@ -1,6 +1,6 @@
 ---
 UID: NE:mfplay._MFP_MEDIAITEM_CHARACTERISTICS
-title: "_MFP_MEDIAITEM_CHARACTERISTICS" (mfplay.h)
+title: _MFP_MEDIAITEM_CHARACTERISTICS (mfplay.h)
 author: windows-sdk-content
 description: Contains flags that describe a media item.
 old-location: mf\_mfp_mediaitem_characteristics.htm

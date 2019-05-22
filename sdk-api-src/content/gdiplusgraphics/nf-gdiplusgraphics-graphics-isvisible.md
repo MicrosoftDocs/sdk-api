@@ -1,142 +1,93 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.IsVisible
-title: Graphics::IsVisible (gdiplusgraphics.h)
-author: windows-sdk-content
-description: This topic lists the IsVisible methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
-old-location: gdiplus\_gdiplus_CLASS_Graphics_IsVisible_Methods.htm
-tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsisvisiblemethods.htm
+title: Graphics::IsVisible
+description: The Graphics::IsVisible method determines whether the specified point is inside the visible clipping region of this Graphics object.
+ms.assetid: 81cadd52-1976-4328-85ca-e89aa5b649b5
 ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: Graphics.IsVisible, Graphics::IsVisible, IsVisible, IsVisible methods [GDI+], _gdiplus_CLASS_Graphics_IsVisible_Methods, gdiplus._gdiplus_CLASS_Graphics_IsVisible_Methods, gdiplusgraphics/IsVisible
-ms.topic: method
-req.header: gdiplusgraphics.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+ms.date: 05/13/2019
+ms.keywords: Graphics::IsVisible
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: 
+req.header: gdiplusgraphics.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
- - HeaderDef
+ - COM
 api_location:
  - gdiplusgraphics.h
 api_name:
- - Graphics.IsVisible
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
+ - Graphics::IsVisible
 ---
 
-# Graphics::IsVisible
-
+# IsVisible(INT,INT)
 
 ## -description
 
-
-<span>This topic lists the 
-IsVisible methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> class. For a complete list of methods for the 
-<b>Graphics</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>. 
-
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535936(v=VS.85).aspx">IsVisible(Rect&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535936(v=VS.85).aspx">Graphics::IsVisible</a> method determines whether the specified rectangle intersects the visible clipping region of this <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object. The visible clipping region is the intersection of the clipping region of this <b>Graphics</b> object and the clipping region of the window.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535834(v=VS.85).aspx">IsVisible(Point&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535834(v=VS.85).aspx">Graphics::IsVisible</a> method determines whether the specified point is inside the visible clipping region of this <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object. The visible clipping region is the intersection of the clipping region of this <b>Graphics</b> object and the clipping region of the window.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535938(v=VS.85).aspx">IsVisible(RectF&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535938(v=VS.85).aspx">Graphics::IsVisible</a> method determines whether the specified rectangle intersects the visible clipping region of this <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object. The visible clipping region is the intersection of the clipping region of this <b>Graphics</b> object and the clipping region of the window.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535940(v=VS.85).aspx">IsVisible(INT,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535940(v=VS.85).aspx">Graphics::IsVisible</a>
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a><b>Graphics</b> object and the clipping region of the window.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535941(v=VS.85).aspx">IsVisible(PointF&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535941(v=VS.85).aspx">Graphics::IsVisible</a>
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a><b>Graphics</b> object and the clipping region of the window.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535937(v=VS.85).aspx">IsVisible(REAL,REAL)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535937(v=VS.85).aspx">Graphics::IsVisible</a> method determines whether the specified point is inside the visible clipping region of this <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object. The visible clipping region is the intersection of the clipping region of this <b>Graphics</b> object and the clipping region of the window.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535939(v=VS.85).aspx">IsVisible(INT,INT,INT,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535939(v=VS.85).aspx">Graphics::IsVisible</a> method determines whether the specified rectangle intersects the visible clipping region of this <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object. The visible clipping region is the intersection of the clipping region of this <b>Graphics</b> object and the clipping region of the window.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535942(v=VS.85).aspx">IsVisible(REAL,REAL,REAL,REAL)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535942(v=VS.85).aspx">Graphics::IsVisible</a>
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a><b>Graphics</b> object and the clipping region of the window.
-
-</td>
-</tr>
-</table>
+The **Graphics::IsVisible** method determines whether the specified point is inside the visible clipping region of this <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
+The visible clipping region is the intersection of the clipping region of this **Graphics** object and the clipping region of the window.
 
 ## -parameters
 
+### -param x
+
+Integer that specifies the x-coordinate of the point to test.
+
+### -param y
+
+Integer that specifies the y-coordinate of the point to test.
+
+## -returns
+
+If the method succeeds, it returns <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Ok</a>, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the **Status** enumeration.
+
+## -remarks
+
+#### Examples
+
+The following example tests whether the specified point is visible on the display device.
+If it is, it fills an ellipse that represents that point.
+
+```cpp
+VOID Example_IsVisible5(HDC hdc)
+
+{
+   Graphics graphics(hdc);
+
+   // Set up the coordinates of the point.
+   int x = 100;
+   int y = 100;
+
+   // If the point (x, y) is visible, fill an ellipse that represents it.
+   if (graphics.IsVisible(x, y))
+   {
+   graphics.FillEllipse(&SolidBrush(Color(255, 0, 0, 0)), x, y, 5, 5);
+   }
+}
+```
+
+## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535794(v=VS.85).aspx">Graphics::IsVisibleClipEmpty</a>

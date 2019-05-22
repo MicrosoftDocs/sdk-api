@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex._IFaxAccountNotify.OnServerShutDown
-title: "_IFaxAccountNotify::OnServerShutDown" (faxcomex.h)
+title: _IFaxAccountNotify::OnServerShutDown (faxcomex.h)
 author: windows-sdk-content
 description: Called by the fax service when it shuts down.
 old-location: fax\_mfax_ifaxaccountnotify_onservershutdown.htm

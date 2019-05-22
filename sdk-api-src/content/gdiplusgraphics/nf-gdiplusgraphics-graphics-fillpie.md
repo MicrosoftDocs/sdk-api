@@ -1,103 +1,105 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillPie
-title: Graphics::FillPie (gdiplusgraphics.h)
-author: windows-sdk-content
-description: This topic lists the FillPie methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
-old-location: gdiplus\_gdiplus_CLASS_Graphics_FillPie_Methods.htm
-tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillpiemethods.htm
+title: Graphics::FillPie
+description: The Graphics::FillPie method uses a brush to fill the interior of a pie.
+ms.assetid: b849f776-ca4b-47dc-8442-5f8cc7864677
 ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: FillPie, FillPie methods [GDI+], Graphics.FillPie, Graphics::FillPie, _gdiplus_CLASS_Graphics_FillPie_Methods, gdiplus._gdiplus_CLASS_Graphics_FillPie_Methods, gdiplusgraphics/FillPie
-ms.topic: method
-req.header: gdiplusgraphics.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+ms.date: 05/13/2019
+ms.keywords: Graphics::FillPie
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: 
+req.header: gdiplusgraphics.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
- - HeaderDef
+ - COM
 api_location:
  - gdiplusgraphics.h
 api_name:
- - Graphics.FillPie
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
+ - Graphics::FillPie
 ---
 
-# Graphics::FillPie
-
+# FillPie(Brush*,RectF&,REAL,REAL)
 
 ## -description
 
-
-<span>This topic lists the 
-FillPie methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> class. For a complete list of methods for the 
-<b>Graphics</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>. 
-
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535962(v=VS.85).aspx">FillPie(Brush*,Rect&,REAL,REAL)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535962(v=VS.85).aspx">Graphics::FillPie</a> method uses a brush to fill the interior of a pie. 
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535965(v=VS.85).aspx">FillPie(Brush*,RectF&,REAL,REAL)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535965(v=VS.85).aspx">Graphics::FillPie</a> method uses a brush to fill the interior of a pie. 
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535963(v=VS.85).aspx">FillPie(Brush*,INT,INT,INT,INT,REAL,REAL)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535963(v=VS.85).aspx">Graphics::FillPie</a> method uses a brush to fill the interior of a pie. 
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535964(v=VS.85).aspx">FillPie(Brush*,REAL,REAL,REAL,REAL,REAL,REAL)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535964(v=VS.85).aspx">Graphics::FillPie</a> method uses a brush to fill the interior of a pie. 
-
-</td>
-</tr>
-</table>
+The **Graphics::FillPie** method uses a brush to fill the interior of a pie.
 
 ## -parameters
 
+### -param brush
+
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534424(v=VS.85).aspx">Brush</a> object that is used to paint the interior of the pie.
+
+### -param rect
+
+Reference to a rectangle that bounds the ellipse.
+A curved portion of the ellipse is the arc of the pie.
+
+### -param startAngle
+
+Real number that specifies the angle, in degrees, between the x-axis and the starting point of the pie's arc.
+
+### -param sweepAngle
+
+## -returns
+
+If the method succeeds, it returns <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Ok</a>, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the **Status** enumeration.
+
+## -remarks
+
+A pie is a portion of the interior of an ellipse (it is bounded by an elliptical curve and two radial lines).
+The *startAngle* and *sweepAngle* specify the portion of the ellipse to be used.
+
+#### Examples
+
+The following example defines a pie and then fills it.
+
+```cpp
+VOID Example_FillPie2(HDC hdc)
+{
+   Graphics graphics(hdc);
+
+   // Create a SolidBrush object.
+   SolidBrush blackBrush(Color(255, 0, 0, 0));
+
+   // Define the pie shape.
+   RectF ellipseRect(0.5f, 0.8f, 200.9f, 100.6f);
+   REAL startAngle = 0.0;
+   REAL sweepAngle = 45.8;
+
+   // Fill the pie.
+   graphics.FillPie(&blackBrush, ellipseRect, startAngle, sweepAngle);
+}
+```
+
+## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a>

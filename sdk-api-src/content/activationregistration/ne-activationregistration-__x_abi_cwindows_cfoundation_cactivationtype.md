@@ -1,6 +1,6 @@
 ---
 UID: NE:activationregistration.__x_ABI_CWindows_CFoundation_CActivationType
-title: "__x_ABI_CWindows_CFoundation_CActivationType" (activationregistration.h)
+title: __x_ABI_CWindows_CFoundation_CActivationType (activationregistration.h)
 author: windows-sdk-content
 description: Specifies the kind of activation for an activatable class.
 old-location: winrt\activationtype.htm

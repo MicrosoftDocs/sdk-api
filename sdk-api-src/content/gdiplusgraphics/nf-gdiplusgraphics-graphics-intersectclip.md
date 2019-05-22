@@ -1,97 +1,108 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.IntersectClip
-title: Graphics::IntersectClip (gdiplusgraphics.h)
-author: windows-sdk-content
-description: This topic lists the InterscetClip methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
-old-location: gdiplus\_gdiplus_CLASS_Graphics_IntersectClip_Methods.htm
-tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsintersectclipmethods.htm
+title: Graphics::IntersectClip
+description: The Graphics::IntersectClip method updates the clipping region of this Graphics object.
+ms.assetid: 9aa49ff6-adce-4495-9af2-719ad029f751
 ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: Graphics.IntersectClip, Graphics::IntersectClip, IntersectClip, IntersectClip methods [GDI+], _gdiplus_CLASS_Graphics_IntersectClip_Methods, gdiplus._gdiplus_CLASS_Graphics_IntersectClip_Methods, gdiplusgraphics/IntersectClip
-ms.topic: method
-req.header: gdiplusgraphics.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+ms.date: 05/13/2019
+ms.keywords: Graphics::IntersectClip
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: 
+req.header: gdiplusgraphics.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
- - HeaderDef
+ - COM
 api_location:
  - gdiplusgraphics.h
 api_name:
- - Graphics.IntersectClip
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
+ - Graphics::IntersectClip
 ---
 
-# Graphics::IntersectClip
-
+# IntersectClip(RectF&)
 
 ## -description
 
-
-<span>This topic lists the 
-InterscetClip methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> class. For a complete list of methods for the 
-<b>Graphics</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>. 
-
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535943(v=VS.85).aspx">IntersectClip(Rect&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535943(v=VS.85).aspx">Graphics::IntersectClip</a>
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a><b>Graphics</b> object.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535945(v=VS.85).aspx">IntersectClip(RectF&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535945(v=VS.85).aspx">Graphics::IntersectClip</a>
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a><b>Graphics</b> object.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535944(v=VS.85).aspx">IntersectClip(Region*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535944(v=VS.85).aspx">Graphics::IntersectClip</a>
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a><b>Graphics</b> object.
-
-</td>
-</tr>
-</table>
+The **Graphics::IntersectClip** method updates the clipping region of this <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object to the portion of the specified rectangle that intersects with the current clipping region of this **Graphics** object.
 
 ## -parameters
 
+### -param rect
+
+Reference to a rectangle that is used to update the clipping region.
+
+## -returns
+
+If the method succeeds, it returns <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Ok</a>, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the **Status** enumeration.
+
+## -remarks
+
+#### Examples
+
+The following example sets a clipping region and updates the clipping region.
+It then draws rectangles to demonstrate the effective clipping region.
+
+```cpp
+VOID Example_IntersectClip2(HDC hdc)
+{
+   Graphics graphics(hdc);
+
+   // Set the clipping region.
+   RectF clipRect(0.5f, 0.5f, 200.5f, 200.5f);
+   graphics.SetClip(clipRect);
+
+   // Update the clipping region to the portion of the rectangle that
+   // intersects with the current clipping region.
+   RectF intersectRect(100.5f, 100.5f, 200.5f, 200.5f);
+   graphics.IntersectClip(intersectRect);
+
+   // Fill a rectangle to demonstrate the effective clipping region.
+   graphics.FillRectangle(&SolidBrush(Color(255, 0, 0, 255)), 0, 0, 500, 500);
+
+   // Reset the clipping region to infinite.
+   graphics.ResetClip();
+
+   // Draw clipRect and intersectRect.
+   graphics.DrawRectangle(&Pen(Color(255, 0, 0, 0)), clipRect);
+   graphics.DrawRectangle(&Pen(Color(255, 255, 0, 0)), intersectRect);
+}
+```
+
+## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/ms536360(v=VS.85).aspx">Clipping</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533825(v=VS.85).aspx">Clipping with a Region</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535780(v=VS.85).aspx">GetClipBounds Methods</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535698(v=VS.85).aspx">Graphics::GetClip</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535789(v=VS.85).aspx">SetClip Methods</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a>

@@ -2,12 +2,12 @@
 UID: NF:d3d11.CD3D11_UNORDERED_ACCESS_VIEW_DESC.CD3D11_UNORDERED_ACCESS_VIEW_DESC
 title: CD3D11_UNORDERED_ACCESS_VIEW_DESC::CD3D11_UNORDERED_ACCESS_VIEW_DESC (d3d11.h)
 author: windows-sdk-content
-description: Instantiates a new instance of a CD3D11_UNORDERED_ACCESS_VIEW_DESC structure that is initialized with a D3D11_UNORDERED_ACCESS_VIEW_DESC structure.
-old-location: direct3d11\cd3d11_unordered_access_view_desc_cd3d11_unordered_access_view_desc_d3d11_unordered_access_view_desc_.htm
+description: Instantiates a new instance of an uninitialized CD3D11_UNORDERED_ACCESS_VIEW_DESC structure.
+old-location: 
 tech.root: direct3d11
-ms.assetid: CFED2A2B-0FB7-4CE5-96B8-120DB1D0A90A
+ms.assetid: FA5D966A-5586-4B14-AB95-0D5F9E1DDB33
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: CD3D11_UNORDERED_ACCESS_VIEW_DESC, CD3D11_UNORDERED_ACCESS_VIEW_DESC interface [Direct3D 11],CD3D11_UNORDERED_ACCESS_VIEW_DESC method, CD3D11_UNORDERED_ACCESS_VIEW_DESC method [Direct3D 11], CD3D11_UNORDERED_ACCESS_VIEW_DESC method [Direct3D 11],CD3D11_UNORDERED_ACCESS_VIEW_DESC interface, CD3D11_UNORDERED_ACCESS_VIEW_DESC.CD3D11_UNORDERED_ACCESS_VIEW_DESC, CD3D11_UNORDERED_ACCESS_VIEW_DESC::CD3D11_UNORDERED_ACCESS_VIEW_DESC, CD3D11_UNORDERED_ACCESS_VIEW_DESC::CD3D11_UNORDERED_ACCESS_VIEW_DESC(const D3D11_UNORDERED_ACCESS_VIEW_DESC&), d3d11/CD3D11_UNORDERED_ACCESS_VIEW_DESC::CD3D11_UNORDERED_ACCESS_VIEW_DESC, direct3d11.cd3d11_unordered_access_view_desc_cd3d11_unordered_access_view_desc_d3d11_unordered_access_view_desc_
 ms.topic: method
 req.header: d3d11.h
@@ -46,43 +46,16 @@ ms.custom: 19H1
 
 # CD3D11_UNORDERED_ACCESS_VIEW_DESC::CD3D11_UNORDERED_ACCESS_VIEW_DESC
 
-
 ## -description
 
-
-Instantiates a new instance of a  <a href="https://msdn.microsoft.com/8062BFAB-4A68-4ED4-B82F-0D1FF9E81733">CD3D11_UNORDERED_ACCESS_VIEW_DESC</a> structure that is initialized with a <a href="https://msdn.microsoft.com/884b5498-7f10-4a44-a947-bc7d93fa0cbf">D3D11_UNORDERED_ACCESS_VIEW_DESC</a> structure.
-
+Instantiates a new instance of an uninitialized <a href="https://msdn.microsoft.com/8062BFAB-4A68-4ED4-B82F-0D1FF9E81733">CD3D11_UNORDERED_ACCESS_VIEW_DESC</a> structure.
 
 ## -parameters
 
-
-
-
-
-
-#### - o [ref]
-
-Type: <b>const <a href="https://msdn.microsoft.com/884b5498-7f10-4a44-a947-bc7d93fa0cbf">D3D11_UNORDERED_ACCESS_VIEW_DESC</a></b>
-
-Address of the <a href="https://msdn.microsoft.com/884b5498-7f10-4a44-a947-bc7d93fa0cbf">D3D11_UNORDERED_ACCESS_VIEW_DESC</a> structure that initializes the <a href="https://msdn.microsoft.com/8062BFAB-4A68-4ED4-B82F-0D1FF9E81733">CD3D11_UNORDERED_ACCESS_VIEW_DESC</a> structure.
-
-
 ## -returns
-
-
 
 This method does not return a value.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/8062BFAB-4A68-4ED4-B82F-0D1FF9E81733">CD3D11_UNORDERED_ACCESS_VIEW_DESC</a>
- 
-
- 
-

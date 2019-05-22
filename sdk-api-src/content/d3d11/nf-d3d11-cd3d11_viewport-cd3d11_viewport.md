@@ -2,12 +2,12 @@
 UID: NF:d3d11.CD3D11_VIEWPORT.CD3D11_VIEWPORT
 title: CD3D11_VIEWPORT::CD3D11_VIEWPORT (d3d11.h)
 author: windows-sdk-content
-description: Instantiates a new instance of a CD3D11_VIEWPORT structure that is initialized with a D3D11_VIEWPORT structure.
-old-location: direct3d11\cd3d11_viewport_cd3d11_viewport_d3d11_viewport_.htm
+description: Instantiates a new instance of an uninitialized CD3D11_VIEWPORT structure.
+old-location: 
 tech.root: direct3d11
-ms.assetid: C60D49ED-D9C4-4FA4-A52C-7737173C9141
+ms.assetid: 96491F35-1EF0-4F9F-8E4D-6C3141094EAA
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: CD3D11_VIEWPORT, CD3D11_VIEWPORT interface [Direct3D 11],CD3D11_VIEWPORT method, CD3D11_VIEWPORT method [Direct3D 11], CD3D11_VIEWPORT method [Direct3D 11],CD3D11_VIEWPORT interface, CD3D11_VIEWPORT.CD3D11_VIEWPORT, CD3D11_VIEWPORT::CD3D11_VIEWPORT, CD3D11_VIEWPORT::CD3D11_VIEWPORT(const D3D11_VIEWPORT&), d3d11/CD3D11_VIEWPORT::CD3D11_VIEWPORT, direct3d11.cd3d11_viewport_cd3d11_viewport_d3d11_viewport_
 ms.topic: method
 req.header: d3d11.h
@@ -46,43 +46,16 @@ ms.custom: 19H1
 
 # CD3D11_VIEWPORT::CD3D11_VIEWPORT
 
-
 ## -description
 
-
-Instantiates a new instance of a <a href="https://msdn.microsoft.com/F4C7E5E7-1986-4210-83BC-80277A47CB97">CD3D11_VIEWPORT</a> structure that is initialized with a <a href="https://msdn.microsoft.com/7ef29e40-4b42-4794-83b6-44581c0d529f">D3D11_VIEWPORT</a> structure.
-
+Instantiates a new instance of an uninitialized <a href="https://msdn.microsoft.com/F4C7E5E7-1986-4210-83BC-80277A47CB97">CD3D11_VIEWPORT</a> structure.
 
 ## -parameters
 
-
-
-
-
-
-#### - o [ref]
-
-Type: <b>const <a href="https://msdn.microsoft.com/7ef29e40-4b42-4794-83b6-44581c0d529f">D3D11_VIEWPORT</a></b>
-
-Address of the <a href="https://msdn.microsoft.com/7ef29e40-4b42-4794-83b6-44581c0d529f">D3D11_VIEWPORT</a> structure that initializes the <a href="https://msdn.microsoft.com/F4C7E5E7-1986-4210-83BC-80277A47CB97">CD3D11_VIEWPORT</a> structure.
-
-
 ## -returns
-
-
 
 This method does not return a value.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/F4C7E5E7-1986-4210-83BC-80277A47CB97">CD3D11_VIEWPORT</a>
- 
-
- 
-

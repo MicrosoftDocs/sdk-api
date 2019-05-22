@@ -1,85 +1,112 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddLines
-title: GraphicsPath::AddLines (gdipluspath.h)
-author: windows-sdk-content
-description: This topic lists the AddLines methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
-old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddLines_Methods.htm
-tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddlinesmethods.htm
+title: GraphicsPath::AddLines
+description: The GraphicsPath::AddLines method adds a sequence of connected lines to the current figure of this path.
+ms.assetid: 8b530334-98d8-4f73-88d5-e585c4b8e8ea
 ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: AddLines, AddLines methods [GDI+], GraphicsPath.AddLines, GraphicsPath::AddLines, _gdiplus_CLASS_GraphicsPath_AddLines_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddLines_Methods, gdipluspath/AddLines
-ms.topic: method
-req.header: gdipluspath.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+ms.date: 05/13/2019
+ms.keywords: GraphicsPath::AddLines
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: 
+req.header: gdipluspath.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
- - HeaderDef
+ - COM
 api_location:
  - gdipluspath.h
 api_name:
- - GraphicsPath.AddLines
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
+ - GraphicsPath::AddLines
 ---
-
 # GraphicsPath::AddLines
-
 
 ## -description
 
-
-<span>This topic lists the 
-AddLines methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete list of methods for the 
-<b>GraphicsPath</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>. 
-
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535599(v=VS.85).aspx">AddLines(Point*,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535599(v=VS.85).aspx">GraphicsPath::AddLines</a> method adds a sequence of connected lines to the current figure of this path.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535600(v=VS.85).aspx">AddLines(PointF*,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535600(v=VS.85).aspx">GraphicsPath::AddLines</a> method adds a sequence of connected lines to the current figure of this path.
-
-</td>
-</tr>
-</table>
+The **GraphicsPath::AddLines** method adds a sequence of connected lines to the current figure of this path.
 
 ## -parameters
 
+### -param points
+
+Pointer to an array of points that specify the starting and ending points of the lines.
+The first point in the array is the starting point of the first line, and the last point in the array is the ending point of the last line.
+Each of the other points serves as ending point for one line and starting point for the next line.
+
+### -param count
+
+Integer that specifies the number of elements in the points array.
+
+## -returns
+
+**Type:** <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a>
+
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+
+## -remarks
+
+#### Examples
+
+The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object path, adds a sequence of four connected lines to path, and then draws path.
+
+```cpp
+VOID Example_AddLines(HDC hdc)
+{
+   Graphics graphics(hdc);
+
+   PointF pts[] = {PointF(20.0f, 20.0f),
+                   PointF(30.0f, 30.0f),
+                   PointF(40.0f, 25.0f),
+                   PointF(50.0f, 30.0f),
+                   PointF(60.0f, 20.0f)};
+
+   GraphicsPath path;
+   path.AddLines(pts, 5);
+
+   // Draw the path.
+   Pen pen(Color(255, 255, 0, 0));
+   graphics.DrawPath(&pen, &path);
+}
+```
+
+## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535543(v=VS.85).aspx">AddLine Methods</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms535544(v=VS.85).aspx">AddLines Methods</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533825(v=VS.85).aspx">Clipping with a Region</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms536370(v=VS.85).aspx">Paths</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/ms533855(v=VS.85).aspx">Using a Pen to Draw Lines and Rectangles</a>

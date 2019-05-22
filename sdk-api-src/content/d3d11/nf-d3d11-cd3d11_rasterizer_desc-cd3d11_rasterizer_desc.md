@@ -2,12 +2,12 @@
 UID: NF:d3d11.CD3D11_RASTERIZER_DESC.CD3D11_RASTERIZER_DESC
 title: CD3D11_RASTERIZER_DESC::CD3D11_RASTERIZER_DESC (d3d11.h)
 author: windows-sdk-content
-description: Instantiates a new instance of a CD3D11_RASTERIZER_DESC structure that is initialized with default rasterizer-state values.
-old-location: direct3d11\cd3d11_rasterizer_desc_cd3d11_rasterizer_desc_cd3d11_default_.htm
+description: Instantiates a new instance of an uninitialized CD3D11_RASTERIZER_DESC structure.
+old-location: 
 tech.root: direct3d11
-ms.assetid: 6D2B2D68-C3ED-460F-B253-583A1DEF5DAA
+ms.assetid: E970A6F1-51F8-4908-9D21-F4EC805884BF
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/06/2019
 ms.keywords: CD3D11_RASTERIZER_DESC, CD3D11_RASTERIZER_DESC constructor [Direct3D 11], CD3D11_RASTERIZER_DESC constructor [Direct3D 11],CD3D11_RASTERIZER_DESC interface, CD3D11_RASTERIZER_DESC interface [Direct3D 11],CD3D11_RASTERIZER_DESC constructor, CD3D11_RASTERIZER_DESC.CD3D11_RASTERIZER_DESC, CD3D11_RASTERIZER_DESC::CD3D11_RASTERIZER_DESC, CD3D11_RASTERIZER_DESC::CD3D11_RASTERIZER_DESC(CD3D11_DEFAULT), d3d11/CD3D11_RASTERIZER_DESC::CD3D11_RASTERIZER_DESC, direct3d11.cd3d11_rasterizer_desc_cd3d11_rasterizer_desc_cd3d11_default_
 ms.topic: method
 req.header: d3d11.h
@@ -49,51 +49,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-Instantiates a new instance of a <a href="https://msdn.microsoft.com/3A64A02B-9DF6-46D1-8695-9B92F25CE620">CD3D11_RASTERIZER_DESC</a> structure that is initialized with default rasterizer-state values.
-
+Instantiates a new instance of an uninitialized <a href="https://msdn.microsoft.com/3A64A02B-9DF6-46D1-8695-9B92F25CE620">CD3D11_RASTERIZER_DESC</a> structure.
 
 ## -parameters
 
-
-
-
-
-
-
-
 ## -remarks
-
-
-
-Here are the default rasterizer-state values for the members of <a href="https://msdn.microsoft.com/53252fef-f557-46d1-b6a7-ccc8a059752a">D3D11_RASTERIZER_DESC</a>:
-
-
-```
-FillMode = D3D11_FILL_SOLID;
-        CullMode = D3D11_CULL_BACK;
-        FrontCounterClockwise = FALSE;
-        DepthBias = D3D11_DEFAULT_DEPTH_BIAS;
-        DepthBiasClamp = D3D11_DEFAULT_DEPTH_BIAS_CLAMP;
-        SlopeScaledDepthBias = D3D11_DEFAULT_SLOPE_SCALED_DEPTH_BIAS;
-        DepthClipEnable = TRUE;
-        ScissorEnable = FALSE;
-        MultisampleEnable = FALSE;
-        AntialiasedLineEnable = FALSE;
-
-```
-
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/3A64A02B-9DF6-46D1-8695-9B92F25CE620">CD3D11_RASTERIZER_DESC</a>
- 
-
- 
-
