@@ -45,19 +45,7 @@ targetos: Windows
 
 ## -description
 
-IDirect3DDxgiInterfaceAccess is a COM interface, which must be implemented by anything that implements [IDirect3DDevice](/uwp/api/windows.graphics.directx.direct3d11.idirect3ddevice) or [IDirect3DSurface](/uwp/api/windows.graphics.directx.direct3d11.idirect3dsurface).
-
-## Inheritance
-
-The **ID3D12GraphicsCommandList5** interface inherits from the [IUnknown interface](/windows/desktop/api/unknwn/nn-unknwn-iunknown).
-
-## -members
-
-The **ID3D12GraphicsCommandList5** interface has these methods.
-
-|Method|Description|
-|-|-|
-|[GetInterface](nf-windows-graphics-directx-direct3d11-interop-idirect3ddxgiInterfaceaccess-getinterface.md)|Retrieves the DXGI interface that is wrapped by the IDirect3DDxgiInterfaceAccess object.|
+IDirect3DDxgiInterfaceAccess is a COM interface, which must be implemented by anything that implements [IDirect3DDevice](/uwp/api/windows.graphics.directx.direct3d11.idirect3ddevice) or [IDirect3DSurface](/uwp/api/windows.graphics.directx.direct3d11.idirect3dsurface). **ID3D12GraphicsCommandList5** inherits from the [IUnknown interface](/windows/desktop/api/unknwn/nn-unknwn-iunknown).
 
 ## -see-also
 
