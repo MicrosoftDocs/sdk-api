@@ -29,6 +29,7 @@
     "shcore.h",
     "shobjidl_core.h",
     "weakreference.h",
+    "webauthenticationcoremanagerinterop.h",
     "windows.applicationmodel.core.h",
     "windows.applicationmodel.h",
     "windows.data.pdf.interop.h",
