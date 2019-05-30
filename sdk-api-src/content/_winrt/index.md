@@ -38,6 +38,7 @@ To develop Windows Runtime C++ reference, you need these headers:
  * [roregistrationapi.h](../roregistrationapi/index.md)
  * [shcore.h](../shcore/index.md)
  * [weakreference.h](../weakreference/index.md)
+ * [webauthenticationcoremanagerinterop.h](../webauthenticationcoremanagerinterop/index.md)
  * [windows.data.pdf.interop.h](../windows.data.pdf.interop/index.md)
  * [windows.foundation.h](../windows.foundation/index.md)
  * [windows.graphics.effects.interop.h](../windows.graphics.effects.interop/index.md)
