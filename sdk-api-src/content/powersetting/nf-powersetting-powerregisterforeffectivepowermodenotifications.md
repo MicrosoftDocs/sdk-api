@@ -61,7 +61,9 @@ Registers a callback to receive effective power mode change notifications.
 
 Supplies the maximum effective power mode version the caller understands. If the effective power mode comes from a later version, it is reduced to a compatible version that is then passed to the callback. 
 
-As of Windows 10, version 1809 the only understood version is EFFECTIVE_POWER_MODE_V1.
+The following values can be passed in: 
+- EFFECTIVE_POWER_MODE_V1 is available starting with Windows 10, version 1809 and tracks the performance power slider and battery saver states. 
+- EFFECTIVE_POWER_MODE_V2 is available starting with Windows 10, version 1903 and tracks the performance power slider, battery saver, game mode and windows mixed reality power states.
 
 
 ### -param Callback
