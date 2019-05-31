@@ -69,7 +69,7 @@ A pointer to an <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08b
 
 Type: <b>LPRECT</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that contains the dimensions of the available border space for the browser.
+A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the dimensions of the available border space for the browser.
 
 
 ### -param bUseHmonitor [in]

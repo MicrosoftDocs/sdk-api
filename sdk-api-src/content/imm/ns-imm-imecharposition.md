@@ -82,7 +82,7 @@ Height of a line that contains the requested character, in pixels.
 
 ### -field rcDocument
 
-A <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure containing the editable area for text, in screen coordinates, for the application.
+A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure containing the editable area for text, in screen coordinates, for the application.
 
 
 ## -remarks

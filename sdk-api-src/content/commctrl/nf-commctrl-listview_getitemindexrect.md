@@ -127,7 +127,7 @@ Returns the bounding rectangle of the subitem text.
 
 Type: <b>LPRECT</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure to receive the coordinates. The caller is responsible for allocating this structure. <i>prc</i> must not be <b>NULL</b>.
+A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure to receive the coordinates. The caller is responsible for allocating this structure. <i>prc</i> must not be <b>NULL</b>.
 
 
 ## -remarks

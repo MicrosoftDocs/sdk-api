@@ -59,7 +59,7 @@ Contains information that an application can use while processing the <a href="h
 
 ### -field rgrc
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>[3]</b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>[3]</b>
 
 An array of rectangles. The meaning of the array of rectangles changes during the processing of the <a href="https://msdn.microsoft.com/en-us/library/ms632634(v=VS.85).aspx">WM_NCCALCSIZE</a> message.
 
@@ -92,7 +92,7 @@ A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms632612(v=VS.8
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
 
 
 

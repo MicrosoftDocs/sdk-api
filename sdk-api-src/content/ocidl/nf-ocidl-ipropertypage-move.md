@@ -59,7 +59,7 @@ Positions and resizes the property page dialog box within the frame.
 
 ### -param pRect [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure containing the positioning information for the property page dialog box.
+A pointer to the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure containing the positioning information for the property page dialog box.
 
 
 ## -returns

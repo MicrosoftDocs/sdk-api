@@ -60,7 +60,7 @@ Contains information used to set the size and position of a header control. <b>H
 
 ### -field prc
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>*</b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
 Structure that contains the coordinates of a rectangle that the header control will occupy. 
 

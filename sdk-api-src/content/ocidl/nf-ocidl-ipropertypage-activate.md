@@ -66,7 +66,7 @@ The window handle of the parent of the dialog box that is being created.
 
 ### -param pRect [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure containing the positioning information for the dialog box. This method must create its dialog box with the placement and dimensions described by this structure.
+A pointer to the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure containing the positioning information for the dialog box. This method must create its dialog box with the placement and dimensions described by this structure.
 
 
 ### -param bModal [in]

@@ -79,8 +79,7 @@ Use with <a href="https://msdn.microsoft.com/en-us/library/Aa969524(v=VS.85).asp
 
 ### -field DWMWA_CAPTION_BUTTON_BOUNDS
 
-Use with <a href="https://msdn.microsoft.com/en-us/library/Aa969515(v=VS.85).aspx">DwmGetWindowAttribute</a>. Retrieves the bounds of the caption button area in the window-relative space. The retrieved value is of type <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>.
-
+Use with <a href="https://msdn.microsoft.com/en-us/library/Aa969515(v=VS.85).aspx">DwmGetWindowAttribute</a>. Retrieves the bounds of the caption button area in the window-relative space. The retrieved value is of type <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>.
 
 ### -field DWMWA_NONCLIENT_RTL_LAYOUT
 
@@ -99,7 +98,7 @@ Use with <a href="https://msdn.microsoft.com/en-us/library/Aa969524(v=VS.85).asp
 
 ### -field DWMWA_EXTENDED_FRAME_BOUNDS
 
-Use with <a href="https://msdn.microsoft.com/en-us/library/Aa969515(v=VS.85).aspx">DwmGetWindowAttribute</a>. Retrieves the extended frame bounds rectangle in screen space. The retrieved value is of type <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>.
+Use with <a href="https://msdn.microsoft.com/en-us/library/Aa969515(v=VS.85).aspx">DwmGetWindowAttribute</a>. Retrieves the extended frame bounds rectangle in screen space. The retrieved value is of type <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>.
 
 
 ### -field DWMWA_HAS_ICONIC_BITMAP
@@ -136,7 +135,7 @@ Use with <a href="https://msdn.microsoft.com/en-us/library/Aa969524(v=VS.85).asp
 
 Use with <a href="https://msdn.microsoft.com/en-us/library/Aa969515(v=VS.85).aspx">DwmGetWindowAttribute</a>. If the window is cloaked, provides one of the following values explaining why:
 
-                            <table class="clsStd">
+<table class="clsStd">
 <tr>
 <th>Name</th>
 <th>Value</th>

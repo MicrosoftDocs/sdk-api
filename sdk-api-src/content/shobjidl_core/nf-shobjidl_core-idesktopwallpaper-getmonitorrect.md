@@ -64,7 +64,7 @@ The ID of the monitor to query. You can get this value through <a href="https://
 
 ### -param displayRect [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that, when this method returns successfully, receives the display rectangle of the monitor specified by <i>monitorID</i>, in screen coordinates.
+A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that, when this method returns successfully, receives the display rectangle of the monitor specified by <i>monitorID</i>, in screen coordinates.
 
 
 ## -returns

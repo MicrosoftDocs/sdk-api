@@ -62,12 +62,12 @@ The <b>VIDEOINFOHEADER</b> structure describes the bitmap and color information 
 
 ### -field rcSource
 
-A <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that specifies the source video window. This structure can be a clipping rectangle, to select a portion of the source video stream.
+A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies the source video window. This structure can be a clipping rectangle, to select a portion of the source video stream.
 
 
 ### -field rcTarget
 
-A <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that specifies the destination video window.
+A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies the destination video window.
 
 
 ### -field dwBitRate

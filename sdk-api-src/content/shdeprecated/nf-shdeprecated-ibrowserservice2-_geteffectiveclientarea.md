@@ -62,7 +62,7 @@ Deprecated. Used with <a href="https://msdn.microsoft.com/62ede825-a4f3-47bc-a9d
 
 Type: <b>LPRECT</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure indicating the dimensions of the available client area.
+A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure indicating the dimensions of the available client area.
 
 
 ### -param hmon [in]

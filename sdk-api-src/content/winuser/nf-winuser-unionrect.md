@@ -62,17 +62,17 @@ The <b>UnionRect</b> function creates the union of two rectangles. The union is 
 
 ### -param lprcDst [out]
 
-A pointer to the <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that will receive a rectangle containing the rectangles pointed to by the <i>lprcSrc1</i> and <i>lprcSrc2</i> parameters.
+A pointer to the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that will receive a rectangle containing the rectangles pointed to by the <i>lprcSrc1</i> and <i>lprcSrc2</i> parameters.
 
 
 ### -param lprcSrc1 [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that contains the first source rectangle.
+A pointer to the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the first source rectangle.
 
 
 ### -param lprcSrc2 [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that contains the second source rectangle.
+A pointer to the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the second source rectangle.
 
 
 ## -returns
@@ -114,7 +114,7 @@ Because applications can use rectangles for different purposes, the rectangle fu
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
 
 
 

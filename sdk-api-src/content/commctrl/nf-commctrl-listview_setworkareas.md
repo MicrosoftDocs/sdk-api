@@ -68,7 +68,7 @@ A handle to a list-view control.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
 
-The number of <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structures in the array at 
+The number of <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structures in the array at 
 					<i>lprc</i>. The maximum number of working areas allowed is defined by the <b>LV_MAX_WORKAREAS</b> value.
 
 
@@ -76,7 +76,7 @@ The number of <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16
 
 Type: <b>LPRECT</b>
 
-A pointer to an array of <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structures that contain the new working areas of the list-view control. Values in these structures are in client coordinates. If this parameter is <b>NULL</b>, the working area will be set to the client area of the control. <i>nWorkAreas</i> specifies the number of structures in this array. 
+A pointer to an array of <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structures that contain the new working areas of the list-view control. Values in these structures are in client coordinates. If this parameter is <b>NULL</b>, the working area will be set to the client area of the control. <i>nWorkAreas</i> specifies the number of structures in this array. 
 
 
 ## -see-also

@@ -84,7 +84,7 @@ Handle of the document window containing the object. This and <i>lprcPosRect</i>
 
 ### -param lprcPosRect [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure containing the coordinates, in pixels, that define an object's bounding rectangle in <i>hwndParent</i>. This and <i>hwndParent</i> together enable opening multimedia objects for playback but not for editing.
+Pointer to the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure containing the coordinates, in pixels, that define an object's bounding rectangle in <i>hwndParent</i>. This and <i>hwndParent</i> together enable opening multimedia objects for playback but not for editing.
 
 
 ## -returns

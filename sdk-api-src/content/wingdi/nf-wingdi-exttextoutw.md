@@ -177,7 +177,7 @@ The ETO_GLYPH_INDEX and ETO_RTLREADING values cannot be used together. Because E
 
 ### -param lprect [in]
 
-A pointer to an optional <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that specifies the dimensions, in logical coordinates, of a rectangle that is used for clipping, opaquing, or both.
+A pointer to an optional <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies the dimensions, in logical coordinates, of a rectangle that is used for clipping, opaquing, or both.
 
 
 ### -param lpString [in]
@@ -348,7 +348,7 @@ For an example, see "Setting Fonts for Menu-Item Text Strings" in <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
 
 
 

@@ -108,7 +108,7 @@ Gets the state of the checkbox associated with a given Shell item.
 <a href="https://msdn.microsoft.com/57e7707c-0fe2-4cde-87d8-2d58e7c06bba">GetItemRect</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that describes the size and position of a given item.
+Gets the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that describes the size and position of a given item.
 
 </td>
 </tr>

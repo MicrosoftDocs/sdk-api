@@ -66,16 +66,16 @@ The size, in bytes, of the structure. The calling application must set this to s
 
 ### -field rcItem
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
-A <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that specifies the coordinates of the edit box. 
+A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies the coordinates of the edit box. 
 
 
 ### -field rcButton
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
-A <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that specifies the coordinates of the button that contains the drop-down arrow. 
+A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies the coordinates of the button that contains the drop-down arrow. 
 
 
 ### -field stateButton

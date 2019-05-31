@@ -62,7 +62,7 @@ The <b>InflateRect</b> function increases or decreases the width and height of t
 
 ### -param lprc [in, out]
 
-A pointer to the <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that increases or decreases in size.
+A pointer to the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that increases or decreases in size.
 
 
 ### -param dx [in]
@@ -108,7 +108,7 @@ Because applications can use rectangles for different purposes, the rectangle fu
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
 
 
 

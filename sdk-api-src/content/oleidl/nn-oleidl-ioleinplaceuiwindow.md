@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Implemented by container applications and used by object applications to negotiate border space on the document or frame window. The container provides a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure in which the object can place toolbars and other similar controls, determines if tools can in fact be installed around the object's window frame, allocates space for the border, and establishes a communication channel between the object and each frame and document window.
+Implemented by container applications and used by object applications to negotiate border space on the document or frame window. The container provides a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure in which the object can place toolbars and other similar controls, determines if tools can in fact be installed around the object's window frame, allocates space for the border, and establishes a communication channel between the object and each frame and document window.
 
 
 ## -inheritance

@@ -117,9 +117,9 @@ The <b>rect</b> member contains valid data.
 
 ### -field rect
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
-The <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that specifies the size and position of the file viewer's window. This member is valid only if the <b>dwFlags</b> member includes the <b>FVSIF_RECT</b> value.
+The <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies the size and position of the file viewer's window. This member is valid only if the <b>dwFlags</b> member includes the <b>FVSIF_RECT</b> value.
 
 
 ### -field punkRel

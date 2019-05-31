@@ -62,7 +62,7 @@ The <b>MonitorFromRect</b> function retrieves a handle to the display monitor th
 
 ### -param lprc [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that specifies the rectangle of interest in virtual-screen coordinates.
+A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies the rectangle of interest in virtual-screen coordinates.
 
 
 ### -param dwFlags [in]

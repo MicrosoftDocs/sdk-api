@@ -68,14 +68,14 @@ The handle of the image.
 
 Type: <b>LPRECT</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>, measured in pixels, that specifies the bounds of the rendered image. The portion of the image specified by <i>prcSrc</i> is scaled to fill the rectangle specified by <i>prcDest</i>.
+A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>, measured in pixels, that specifies the bounds of the rendered image. The portion of the image specified by <i>prcSrc</i> is scaled to fill the rectangle specified by <i>prcDest</i>.
 
 
 ### -param prcSrc [in]
 
 Type: <b>LPRECT</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> that specifies the portion of the image to be drawn.
+A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> that specifies the portion of the image to be drawn.
 
 
 ## -returns

@@ -73,7 +73,7 @@ The bounding (client) rectangle.
 
 ### -param lprcUpdate
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">LPRECT</a></b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">LPRECT</a></b>
 
 The rectangle to update inside <i>lprcBounds</i> rectangle, in the logical coordinate system of drawing device context. If this parameter is NULL, the entire client rectangle should be drawn. 
 

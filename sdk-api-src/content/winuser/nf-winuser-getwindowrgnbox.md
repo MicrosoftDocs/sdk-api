@@ -67,7 +67,7 @@ Handle to the window.
 
 ### -param lprc [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that receives the rectangle dimensions, in device units relative to the upper-left corner of the window.
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that receives the rectangle dimensions, in device units relative to the upper-left corner of the window.
 
 
 ## -returns
@@ -135,7 +135,7 @@ To set the window region of a window, call the <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
 
 
 

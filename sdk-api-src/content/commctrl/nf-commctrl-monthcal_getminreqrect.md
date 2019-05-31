@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the minimum size required to display a full month in a month calendar control. Size information is presented in the form of a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760978(v=VS.85).aspx">MCM_GETMINREQRECT</a> message explicitly. 
+Retrieves the minimum size required to display a full month in a month calendar control. Size information is presented in the form of a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760978(v=VS.85).aspx">MCM_GETMINREQRECT</a> message explicitly. 
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Handle to a month calendar control.
 
 Type: <b>LPRECT</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that will receive bounding rectangle information. This parameter must be a valid address and cannot be <b>NULL</b>. 
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that will receive bounding rectangle information. This parameter must be a valid address and cannot be <b>NULL</b>. 
 
 
 ## -remarks

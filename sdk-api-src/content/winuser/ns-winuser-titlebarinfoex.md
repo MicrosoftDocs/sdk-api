@@ -68,7 +68,7 @@ The size of the structure, in bytes. Set this member to <code>sizeof(TITLEBARINF
 
 ### -field rcTitleBar
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 The bounding rectangle of the title bar. The rectangle is expressed in screen coordinates and includes all titlebar elements except the window menu.
 
@@ -179,7 +179,7 @@ The element is in the pressed state.
 
 ### -field rgrect
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>[CCHILDREN_TITLEBAR+1]</b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>[CCHILDREN_TITLEBAR+1]</b>
 
 An array that receives a structure for each element of the title bar. The structures are expressed in screen coordinates. The following are the title bar elements represented by the array.
 

@@ -98,7 +98,7 @@ The given point was in the calendar's background.
 </dl>
 </td>
 <td width="60%">
-The given point is outside of any calendar but within the calendar controls <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>.
+The given point is outside of any calendar but within the calendar controls <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>.
 
 </td>
 </tr>
@@ -247,7 +247,7 @@ Receives date and time information specific to the location that was hit-tested.
 
 ### -field rc
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 Hit-tested location.
 

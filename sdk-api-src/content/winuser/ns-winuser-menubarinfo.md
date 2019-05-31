@@ -66,7 +66,7 @@ The size of the structure, in bytes. The caller must set this to <code>sizeof(ME
 
 ### -field rcBar
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 The coordinates of the menu bar, popup menu, or menu item. 
 
@@ -116,7 +116,7 @@ If the menu item has the focus, this member is <b>TRUE</b>. Otherwise, the membe
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
 
 
 

@@ -61,7 +61,7 @@ Notifies the docking window object that the frame's border space has changed. In
 
 Type: <b>LPCRECT</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that contains the frame's available border space.
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the frame's available border space.
 
 
 ### -param punkToolbarSite

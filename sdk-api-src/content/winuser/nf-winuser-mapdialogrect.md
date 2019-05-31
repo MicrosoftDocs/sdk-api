@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Converts the specified dialog box units to screen units (pixels). The function replaces the coordinates in the specified <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure with the converted coordinates, which allows the structure to be used to create a dialog box or position a control within a dialog box. 
+Converts the specified dialog box units to screen units (pixels). The function replaces the coordinates in the specified <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure with the converted coordinates, which allows the structure to be used to create a dialog box or position a control within a dialog box. 
 
 
 ## -parameters
@@ -69,7 +69,7 @@ A handle to a dialog box. This function accepts only handles returned by one of 
 
 Type: <b>LPRECT</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that contains the dialog box coordinates to be converted. 
+A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the dialog box coordinates to be converted. 
 
 
 ## -returns
@@ -89,7 +89,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The <b>MapDialogRect</b> function assumes that the initial coordinates in the <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure represent dialog box units. To convert these coordinates from dialog box units to pixels, the function retrieves the current horizontal and vertical base units for the dialog box, then applies the following formulas:
+The <b>MapDialogRect</b> function assumes that the initial coordinates in the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure represent dialog box units. To convert these coordinates from dialog box units to pixels, the function retrieves the current horizontal and vertical base units for the dialog box, then applies the following formulas:
 				
 				
 
@@ -124,7 +124,7 @@ If the dialog box template has the <a href="https://msdn.microsoft.com/en-us/lib
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
 
 
 

@@ -67,7 +67,7 @@ A <a href="https://msdn.microsoft.com/15990903-8a48-4c47-b527-269d775255a5">RGND
 
 ### -field Buffer
 
-Specifies an arbitrary-size buffer that contains the <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structures that make up the region.
+Specifies an arbitrary-size buffer that contains the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structures that make up the region.
 
 
 ## -see-also
@@ -75,7 +75,7 @@ Specifies an arbitrary-size buffer that contains the <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
 
 
 

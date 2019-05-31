@@ -81,7 +81,7 @@ A pointer to optional callback-function data.
 
 ### -param lpRect [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that specifies the coordinates, in logical units, of the picture's upper-left and lower-right corners.
+A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies the coordinates, in logical units, of the picture's upper-left and lower-right corners.
 
 
 ## -returns
@@ -133,7 +133,7 @@ You can use the <b>EnumEnhMetaFile</b> function to embed one enhanced-metafile w
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
  
 
  

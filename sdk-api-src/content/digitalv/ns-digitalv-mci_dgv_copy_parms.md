@@ -90,7 +90,7 @@ Ending position for copy.
 
 ### -field rc
 
-Rectangle describing area to be copied.   Be aware that <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structures are handled differently in MCI than in other parts of Windows; in MCI, <b>rc.right</b> contains the width of the rectangle and <b>rc.bottom</b> contains its height.
+Rectangle describing area to be copied.   Be aware that <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structures are handled differently in MCI than in other parts of Windows; in MCI, <b>rc.right</b> contains the width of the rectangle and <b>rc.bottom</b> contains its height.
 
 
 ### -field dwAudioStream
@@ -131,7 +131,7 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
 
 
 

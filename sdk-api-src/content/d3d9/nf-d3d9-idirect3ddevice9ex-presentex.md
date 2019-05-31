@@ -60,16 +60,16 @@ Swap the swapchain's next buffer with the front buffer.
 
 ### -param pSourceRect [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure indicating region on the source surface to copy in window client coordinates. Only applies when the swapchain was created with the <a href="https://msdn.microsoft.com/en-us/library/Bb172612(v=VS.85).aspx">D3DSWAPEFFECT_COPY</a> flag. If <b>NULL</b>, the entire source surface is presented. If the rectangle exceeds the source surface, it is clipped to the source surface.
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure indicating region on the source surface to copy in window client coordinates. Only applies when the swapchain was created with the <a href="https://msdn.microsoft.com/en-us/library/Bb172612(v=VS.85).aspx">D3DSWAPEFFECT_COPY</a> flag. If <b>NULL</b>, the entire source surface is presented. If the rectangle exceeds the source surface, it is clipped to the source surface.
 
 
 ### -param pDestRect [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
-Pointer to <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure indicating the target region on the destination surface in window client coordinates. Only applies when the swapchain was created with the <a href="https://msdn.microsoft.com/en-us/library/Bb172612(v=VS.85).aspx">D3DSWAPEFFECT_COPY</a> flag. If <b>NULL</b>, the entire client area is filled. If the rectangle exceeds the destination client area, it is clipped to the destination client area.
+Pointer to <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure indicating the target region on the destination surface in window client coordinates. Only applies when the swapchain was created with the <a href="https://msdn.microsoft.com/en-us/library/Bb172612(v=VS.85).aspx">D3DSWAPEFFECT_COPY</a> flag. If <b>NULL</b>, the entire client area is filled. If the rectangle exceeds the destination client area, it is clipped to the destination client area.
 
 
 ### -param hDestWindowOverride [in]

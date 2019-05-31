@@ -66,14 +66,14 @@ TRUE  if input translation is enabled, or FALSE if not.
 
 ### -param pRectSource [out]
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">LPRECT</a></b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">LPRECT</a></b>
 
 The source rectangle, in unmagnified screen coordinates,  that defines the area of the screen that is magnified. 
 
 
 ### -param pRectDest [out]
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">LPRECT</a></b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">LPRECT</a></b>
 
 The destination rectangle, in screen coordinates, that defines the area of the screen where the magnified screen content is displayed. Pen and touch input in this rectangle is mapped to the source rectangle.
 

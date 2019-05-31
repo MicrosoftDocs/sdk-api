@@ -60,13 +60,13 @@ The <b>VIDEOINFOHEADER2</b> structure describes the bitmap and color information
 
 ### -field rcSource
 
-A <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that specifies what part of the source stream should be used to fill the destination buffer. Renderers can use this field to ask the decoders to stretch or clip. For more information, see <a href="https://msdn.microsoft.com/fdddbffb-c44f-4364-9e2e-b721ba39c74f">Source and Target Rectangles in Video Renderers</a>.
+A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies what part of the source stream should be used to fill the destination buffer. Renderers can use this field to ask the decoders to stretch or clip. For more information, see <a href="https://msdn.microsoft.com/fdddbffb-c44f-4364-9e2e-b721ba39c74f">Source and Target Rectangles in Video Renderers</a>.
           
 
 
 ### -field rcTarget
 
-A <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that specifies that specifies what part of the destination buffer should be used
+A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies that specifies what part of the destination buffer should be used
           
 
 

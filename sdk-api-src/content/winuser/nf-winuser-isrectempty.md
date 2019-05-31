@@ -62,7 +62,7 @@ The <b>IsRectEmpty</b> function determines whether the specified rectangle is em
 
 ### -param lprc [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that contains the logical coordinates of the rectangle.
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the logical coordinates of the rectangle.
 
 
 ## -returns
@@ -104,7 +104,7 @@ For an example, see <a href="https://msdn.microsoft.com/e8861240-9345-43e6-820d-
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
 
 
 

@@ -76,7 +76,7 @@ A pointer to the <a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a4
 
 Type: <b>LPRECT</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that specifies the current dimensions of the browser view.
+A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies the current dimensions of the browser view.
 
 
 ### -param phwnd [out]

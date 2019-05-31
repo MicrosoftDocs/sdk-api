@@ -65,7 +65,7 @@ A handle to the device context of the window in which to draw the control.
 
 ### -param arg2 [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that contains the logical coordinates of the bounding rectangle for frame control.
+ A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the logical coordinates of the bounding rectangle for frame control.
 
 
 ### -param arg3 [in]
@@ -530,7 +530,7 @@ This API does not participate in DPI virtualization. The input given is always i
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT
       </a>
  
 

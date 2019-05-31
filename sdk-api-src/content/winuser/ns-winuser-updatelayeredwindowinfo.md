@@ -180,7 +180,7 @@ If <b>hdcSrc</b> is <b>NULL</b>, <b>dwFlags</b> should be zero.
 
 ### -field prcDirty
 
-Type: <b>const <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
 The area to be updated. This parameter can be <b>NULL</b>. If it is non-NULL, only the area in this rectangle is updated from the source DC.
 
