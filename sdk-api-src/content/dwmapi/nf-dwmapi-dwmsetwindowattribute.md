@@ -2,12 +2,12 @@
 UID: NF:dwmapi.DwmSetWindowAttribute
 title: DwmSetWindowAttribute function (dwmapi.h)
 author: windows-sdk-content
-description: Sets the value of non-client rendering attributes for a window.
+description: Sets the value of Desktop Window Manager (DWM) non-client rendering attributes for a window.
 old-location: dwm\dwmsetwindowattribute.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmsetwindowattribute.htm
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/30/2019
 ms.keywords: DwmSetWindowAttribute, DwmSetWindowAttribute function [Desktop Window Manager], _udwm_dwmsetwindowattribute, _udwm_dwmsetwindowattribute_cpp, dwm.dwmsetwindowattribute, dwmapi/DwmSetWindowAttribute, winui._udwm_dwmsetwindowattribute
 ms.topic: function
 req.header: dwmapi.h
@@ -47,91 +47,41 @@ ms.custom: 19H1
 
 # DwmSetWindowAttribute function
 
-
 ## -description
 
-
-Sets the value of non-client rendering attributes for a window.
-
+Sets the value of Desktop Window Manager (DWM) non-client rendering attributes for a window. For programming guidance, and code examples, see [Controlling non-client region rendering](/windows/desktop/dwm/composition-ovw#controlling-non-client-region-rendering).
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-The handle to the window that will receive the attributes.
-
+The handle to the window for which the attribute value is to be set.
 
 ### -param dwAttribute
 
-A single <a href="https://msdn.microsoft.com/en-us/library/Aa969530(v=VS.85).aspx">DWMWINDOWATTRIBUTE</a> flag to apply to the window. This parameter specifies the attribute and the <i>pvAttribute</i> parameter points to the value of that attribute.
-
+A flag describing which value to set, specified as a value of the [DWMWINDOWATTRIBUTE](/windows/desktop/api/dwmapi/ne-dwmapi-dwmwindowattribute) enumeration. This parameter specifies which attribute to set, and the *pvAttribute* parameter points to an object containing the attribute value.
 
 ### -param pvAttribute [in]
 
-A pointer to the value of the attribute specified in the <i>dwAttribute</i> parameter. Different <a href="https://msdn.microsoft.com/en-us/library/Aa969530(v=VS.85).aspx">DWMWINDOWATTRIBUTE</a> flags require different value types.
-
+A pointer to an object containing the attribute value to set. The type of the value set depends on the value of the *dwAttribute* parameter. The [**DWMWINDOWATTRIBUTE**](/windows/desktop/api/Dwmapi/ne-dwmapi-dwmwindowattribute) enumeration topic indicates, in the row for each flag, what type of value you should pass a pointer to in the *pvAttribute* parameter.
 
 ### -param cbAttribute
 
-The size, in bytes, of the value type pointed to by the <i>pvAttribute</i> parameter.
-
+The size, in bytes, of the attribute value being set via the *pvAttribute* parameter. The type of the value set, and therefore its size in bytes, depends on the value of the *dwAttribute* parameter.
 
 ## -returns
 
+Type: **[HRESULT](/windows/desktop/com/structure-of-com-error-codes)**
 
+If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) [error code](/windows/desktop/com/com-error-codes-10).
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If Desktop Composition has been disabled (Windows 7 and earlier), then this function returns **DWM_E_COMPOSITIONDISABLED**.
 
 ## -remarks
 
-
-
-Calling this function with the <i>dwAttribute</i> set to <b>DWMWA_NCRENDERING_ENABLED</b> does not set the attribute. <b>DWMWA_NCRENDERING_ENABLED</b> is a "get" attribute and the resulting call is equivalent to a <a href="https://msdn.microsoft.com/en-us/library/Aa969515(v=VS.85).aspx">DwmGetWindowAttribute</a> call. To enable or disable non-client rendering, the <b>DWMWA_NCRENDERING_POLICY</b> attribute must set to the desired value.
-
-If Desktop Composition has been disabled, this function returns <b>DWM_E_COMPOSITIONDISABLED</b>.
-
-
-#### Examples
-
-The following example disables nonclient-area rendering, causing any previous calls to <a href="https://msdn.microsoft.com/en-us/library/Aa969508(v=VS.85).aspx">DwmEnableBlurBehindWindow</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa969512(v=VS.85).aspx">DwmExtendFrameIntoClientArea</a> to be disabled.
-
-
-```cpp
-
-HRESULT DisableNCRendering(HWND hwnd)
-{
-   HRESULT hr = S_OK;
-   DWMNCRENDERINGPOLICY ncrp = DWMNCRP_DISABLED;
-
-   // Disable non-client area rendering on the window.
-   hr = DwmSetWindowAttribute(hwnd, DWMWA_NCRENDERING_POLICY, &ncrp, sizeof(ncrp));
-
-   if (SUCCEEDED(hr))
-   {
-      // Do work here. 
-   }
- 
-   return hr;
-}
-```
-
-
-
-
+It's not valid to call this function with the *dwAttribute* parameter set to **DWMWA_NCRENDERING_ENABLED**. To enable or disable non-client rendering, you should use the **DWMWA_NCRENDERING_POLICY** attribute, and set the desired value. For more info, and a code example, see [Controlling non-client region rendering](/windows/desktop/dwm/composition-ovw#controlling-non-client-region-rendering).
 
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/Aa969538(v=VS.85).aspx">Enable and Control DWM Composition</a>
- 
-
- 
-
+* [DwmGetWindowAttribute function](/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetwindowattribute)
+* [Enable and control DWM composition](/windows/desktop/dwm/composition-ovw)
