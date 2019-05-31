@@ -66,9 +66,9 @@ Specifies the size, in bytes, of the structure. Before calling the <a href="http
 
 ### -field rcScrollBar
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
-Coordinates of the scroll bar as specified in a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure.
+Coordinates of the scroll bar as specified in a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure.
 
 
 ### -field dxyLineButton
@@ -206,7 +206,7 @@ The component is disabled.
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
 
 
 

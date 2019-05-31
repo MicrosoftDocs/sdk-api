@@ -67,9 +67,9 @@ Set to <code>sizeof(DATETIMEPICKERINFO)</code>. This member must be set before s
 
 ### -field rcCheck
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
-A <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure describing location of checkbox. If a checkbox is displayed and checked, an edit control should be available to update the selected date-time value.
+A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure describing location of checkbox. If a checkbox is displayed and checked, an edit control should be available to update the selected date-time value.
 
 
 ### -field stateCheck
@@ -81,9 +81,9 @@ The state of <b>rcCheck</b>—one of the <a href="https://msdn.microsoft.com/125
 
 ### -field rcButton
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
-A <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure describing the location of a drop-down grid or up/down control.
+A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure describing the location of a drop-down grid or up/down control.
 
 
 ### -field stateButton

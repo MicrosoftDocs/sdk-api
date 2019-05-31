@@ -68,12 +68,12 @@ You can can correct red eyes in a bitmap by following these steps.
 
 Type: <b>UINT</b>
 
-Integer that specifies the number of <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structures in the <b>areas</b> array.
+Integer that specifies the number of <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structures in the <b>areas</b> array.
 
 
 ### -field areas
 
 Type: <b>RECT*</b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structures, each of which specifies an area of the bitmap to which red eye correction should be applied.
+Pointer to an array of <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structures, each of which specifies an area of the bitmap to which red eye correction should be applied.
 

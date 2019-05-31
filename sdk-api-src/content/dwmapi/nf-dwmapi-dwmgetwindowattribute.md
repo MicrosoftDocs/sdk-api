@@ -2,12 +2,12 @@
 UID: NF:dwmapi.DwmGetWindowAttribute
 title: DwmGetWindowAttribute function (dwmapi.h)
 author: windows-sdk-content
-description: Retrieves the current value of a specified attribute applied to a window.
+description: Retrieves the current value of a specified Desktop Window Manager (DWM) attribute applied to a window.
 old-location: dwm\dwmgetwindowattribute.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmgetwindowattribute.htm
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/30/2019
 ms.keywords: DwmGetWindowAttribute, DwmGetWindowAttribute function [Desktop Window Manager], _udwm_dwmgetwindowattribute, _udwm_dwmgetwindowattribute_cpp, dwm.dwmgetwindowattribute, dwmapi/DwmGetWindowAttribute, winui._udwm_dwmgetwindowattribute
 ms.topic: function
 req.header: dwmapi.h
@@ -45,58 +45,35 @@ ms.custom: 19H1
 
 # DwmGetWindowAttribute function
 
-
 ## -description
 
-
-Retrieves the current value of a specified attribute applied to a window.
-
+Retrieves the current value of a specified Desktop Window Manager (DWM) attribute applied to a window. For programming guidance, and code examples, see [Controlling non-client region rendering](/windows/desktop/dwm/composition-ovw#controlling-non-client-region-rendering).
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-The handle to the window from which the attribute data is retrieved.
-
+The handle to the window from which the attribute value is to be retrieved.
 
 ### -param dwAttribute
 
-The attribute to retrieve, specified as a <a href="https://msdn.microsoft.com/en-us/library/Aa969530(v=VS.85).aspx">DWMWINDOWATTRIBUTE</a> value.
-
+A flag describing which value to retrieve, specified as a value of the [DWMWINDOWATTRIBUTE](/windows/desktop/api/dwmapi/ne-dwmapi-dwmwindowattribute) enumeration. This parameter specifies which attribute to retrieve, and the *pvAttribute* parameter points to an object into which the attribute value is retrieved.
 
 ### -param pvAttribute [out]
 
-A pointer to a value that, when this function returns successfully, receives the current value of the attribute. The type of the retrieved value depends on the value of the <i>dwAttribute</i> parameter.
-
+A pointer to a value which, when this function returns successfully, receives the current value of the attribute. The type of the retrieved value depends on the value of the *dwAttribute* parameter. The [**DWMWINDOWATTRIBUTE**](/windows/desktop/api/Dwmapi/ne-dwmapi-dwmwindowattribute) enumeration topic indicates, in the row for each flag, what type of value you should pass a pointer to in the *pvAttribute* parameter.
 
 ### -param cbAttribute
 
-The size of the <a href="https://msdn.microsoft.com/en-us/library/Aa969530(v=VS.85).aspx">DWMWINDOWATTRIBUTE</a> value being retrieved. The size is dependent on the type of the <i>pvAttribute</i> parameter.
-
+The size, in bytes, of the attribute value being received via the *pvAttribute* parameter. The type of the retrieved value, and therefore its size in bytes, depends on the value of the *dwAttribute* parameter.
 
 ## -returns
 
+Type: **[HRESULT](/windows/desktop/com/structure-of-com-error-codes)**
 
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) [error code](/windows/desktop/com/com-error-codes-10).
 
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/Aa969524(v=VS.85).aspx">DwmSetWindowAttribute</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/Aa969538(v=VS.85).aspx">Enable and Control DWM Composition</a>
- 
-
- 
-
+* [DwmSetWindowAttribute function](/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute)
+* [Enable and control DWM composition](/windows/desktop/dwm/composition-ovw)

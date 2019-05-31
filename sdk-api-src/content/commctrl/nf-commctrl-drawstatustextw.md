@@ -70,7 +70,7 @@ Handle to the display context for the window.
 
 Type: <b>LPCRECT</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that contains the position, in client coordinates, of the rectangle in which the text is drawn. The function draws the borders just inside the edges of the specified rectangle. 
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the position, in client coordinates, of the rectangle in which the text is drawn. The function draws the borders just inside the edges of the specified rectangle. 
 
 
 ### -param pszText

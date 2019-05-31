@@ -127,5 +127,5 @@ Returns the bounding rectangle of the entire item, including the icon and label.
 
 Type: <b>LPRECT</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that receives the subitem bounding rectangle information. 
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that receives the subitem bounding rectangle information. 
 

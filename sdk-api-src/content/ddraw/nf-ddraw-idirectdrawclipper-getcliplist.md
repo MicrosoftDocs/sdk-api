@@ -60,7 +60,7 @@ Retrieves a copy of the clip list that is associated with a DirectDrawClipper ob
 
 ### -param arg1 [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that <b>GetClipList</b> uses to clip the clip list. Set this parameter to NULL to retrieve the entire clip list.
+A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that <b>GetClipList</b> uses to clip the clip list. Set this parameter to NULL to retrieve the entire clip list.
 
 
 ### -param arg2 [out]

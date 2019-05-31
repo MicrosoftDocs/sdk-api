@@ -342,7 +342,7 @@ A handle to a device context; this device context must be used when performing d
 
 ### -field rcItem
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 A rectangle that defines the boundaries of the control to be drawn. This rectangle is in the device context specified by the <b>hDC</b> member. The system automatically clips anything that the owner window draws in the device context for combo boxes, list boxes, and buttons, but does not clip menu items. When drawing menu items, the owner window must not draw outside the boundaries of the rectangle defined by the <b>rcItem</b> member. 
 

@@ -78,7 +78,7 @@ A handle to the window.
 
 Type: <b>LPRECT</b>
 
-A pointer to a  <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that receives the screen coordinates of the upper-left and lower-right corners of the window. 
+A pointer to a  <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that receives the screen coordinates of the upper-left and lower-right corners of the window. 
 
 
 ## -returns
@@ -99,7 +99,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-In conformance with conventions for the <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure, the bottom-right coordinates of the returned rectangle are exclusive. In other words, the pixel at (<b>right</b>, <b>bottom</b>) lies immediately outside the rectangle.
+In conformance with conventions for the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure, the bottom-right coordinates of the returned rectangle are exclusive. In other words, the pixel at (<b>right</b>, <b>bottom</b>) lies immediately outside the rectangle.
 
 
 #### Examples

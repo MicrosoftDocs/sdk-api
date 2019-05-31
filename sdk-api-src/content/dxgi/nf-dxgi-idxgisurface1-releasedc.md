@@ -60,7 +60,7 @@ Releases the GDI device context (DC) that is associated with the current surface
 
 ### -param pDirtyRect [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>*</b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
 A pointer to a <b>RECT</b> structure that identifies the dirty region of the surface.  
           A dirty region is any part of the surface that you used for GDI rendering and that you want to preserve. 

@@ -66,9 +66,9 @@ Pointer to a <a href="https://msdn.microsoft.com/2fe4ffba-6fe5-4d34-9cb1-f266e45
 
 ### -param iconLocation [out]
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>*</b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that, when this function returns successfully, receives the coordinates of the icon.
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that, when this function returns successfully, receives the coordinates of the icon.
 
 
 ## -returns

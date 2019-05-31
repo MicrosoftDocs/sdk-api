@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the value of a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> property.
+Retrieves the value of a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> property.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Handle to a window's specified theme data. Use <a href="https://msdn.microsoft.c
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the part containing the <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> property. See <a href="https://msdn.microsoft.com/en-us/library/Bb773210(v=VS.85).aspx">Parts and States</a>.
+Value of type <b>int</b> that specifies the part containing the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> property. See <a href="https://msdn.microsoft.com/en-us/library/Bb773210(v=VS.85).aspx">Parts and States</a>.
 
 
 ### -param iStateId [in]
@@ -89,7 +89,7 @@ Value of type <b>int</b> that specifies the property to retrieve. For a list of 
 
 Type: <b>LPRECT</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that receives a  rectangle.
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that receives a  rectangle.
 
 
 ## -returns

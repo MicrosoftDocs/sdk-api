@@ -75,5 +75,5 @@ The zero-based index of the header control item for which to retrieve the boundi
 
 Type: <b>LPRECT</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that receives the bounding rectangle information. 
+A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that receives the bounding rectangle information. 
 

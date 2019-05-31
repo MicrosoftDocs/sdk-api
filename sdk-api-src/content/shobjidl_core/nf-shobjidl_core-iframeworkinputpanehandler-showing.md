@@ -59,9 +59,9 @@ Called before the input pane is shown, to allow the app window to make any neces
 
 ### -param prcInputPaneScreenLocation [in]
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>*</b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that supplies the screen coordinates that the input pane will occupy.
+A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that supplies the screen coordinates that the input pane will occupy.
 
 
 ### -param fEnsureFocusedElementInView [in]

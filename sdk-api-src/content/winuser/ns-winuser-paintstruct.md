@@ -72,7 +72,7 @@ Indicates whether the background must be erased. This value is nonzero if the ap
 
 ### -field rcPaint
 
-A <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that specifies the upper left and lower right corners of the rectangle in which the painting is requested, in device units relative to the upper-left corner of the client area.
+A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies the upper left and lower right corners of the rectangle in which the painting is requested, in device units relative to the upper-left corner of the client area.
 
 
 ### -field fRestore
@@ -107,7 +107,7 @@ Reserved; used internally by the system.
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
 
 
 

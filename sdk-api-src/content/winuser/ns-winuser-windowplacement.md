@@ -283,7 +283,7 @@ The coordinates of the window's upper-left corner when the window is maximized.
 
 ### -field rcNormalPosition
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 The window's coordinates when the window is in the restored position. 
 
@@ -325,7 +325,7 @@ The coordinates used in a <b>WINDOWPLACEMENT</b> structure should be used only b
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
 
 
 

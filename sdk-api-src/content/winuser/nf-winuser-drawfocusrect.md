@@ -67,7 +67,7 @@ A handle to the device context.
 
 ### -param lprc [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that specifies the logical coordinates of the rectangle.
+A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies the logical coordinates of the rectangle.
 
 
 ## -returns
@@ -119,7 +119,7 @@ For an example, see "Creating an Owner-Drawn List Box" in <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
  
 
  

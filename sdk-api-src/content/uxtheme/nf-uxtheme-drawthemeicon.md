@@ -89,7 +89,7 @@ Value of type <b>int</b> that specifies the state of the part. See <a href="http
 
 Type: <b>LPCRECT</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that contains, in logical coordinates, the rectangle in which the image is drawn.
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains, in logical coordinates, the rectangle in which the image is drawn.
 
 
 ### -param himl [in]

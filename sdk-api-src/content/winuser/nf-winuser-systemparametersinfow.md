@@ -747,7 +747,7 @@ Retrieves the type of font smoothing. The <i>pvParam</i> parameter must point to
 </dl>
 </td>
 <td width="60%">
-Retrieves the size of the work area on the primary display monitor. The work area is the portion of the screen not obscured by the system taskbar or by application desktop toolbars. The <i>pvParam</i> parameter must point to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that receives the coordinates of the work area, expressed in physical pixel size. Any DPI virtualization mode of the caller has no effect on this output.
+Retrieves the size of the work area on the primary display monitor. The work area is the portion of the screen not obscured by the system taskbar or by application desktop toolbars. The <i>pvParam</i> parameter must point to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that receives the coordinates of the work area, expressed in physical pixel size. Any DPI virtualization mode of the caller has no effect on this output.
 
 To get the work area of a monitor other than the primary display monitor, call the <a href="https://msdn.microsoft.com/025a89c2-4bbd-4c8b-8367-3735fb5b872a">GetMonitorInfo</a> function.
 
@@ -895,7 +895,7 @@ Sets the font smoothing type. The <i>pvParam</i> parameter is either <b>FE_FONTS
 </dl>
 </td>
 <td width="60%">
-Sets the size of the work area. The work area is the portion of the screen not obscured by the system taskbar or by application desktop toolbars. The <i>pvParam</i> parameter is a pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that specifies the new work area rectangle, expressed in virtual screen coordinates. In a system with multiple display monitors, the function sets the work area of the monitor that contains the specified rectangle.
+Sets the size of the work area. The work area is the portion of the screen not obscured by the system taskbar or by application desktop toolbars. The <i>pvParam</i> parameter is a pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies the new work area rectangle, expressed in virtual screen coordinates. In a system with multiple display monitors, the function sets the work area of the monitor that contains the specified rectangle.
 
 </td>
 </tr>
@@ -3070,7 +3070,7 @@ void main()
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
 
 
 

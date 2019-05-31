@@ -85,7 +85,7 @@ This method has no return value.
 
 
 This function may be called while inactive; however, the host implementation is free to invalidate an area greater than the requested 
-				<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>.
+				<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>.
 
 
 

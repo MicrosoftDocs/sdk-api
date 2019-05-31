@@ -479,7 +479,7 @@ Removes a structure-changed event handler.
 <a href="https://msdn.microsoft.com/1fa9fad1-55b9-4cb5-a5c2-687074fa5d56">SafeArrayToRectNativeArray</a>
 </td>
 <td align="left" width="63%">
-Converts a <a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a> containing rectangle coordinates to an array of type <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>. 
+Converts a <a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a> containing rectangle coordinates to an array of type <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>. 
 
 </td>
 </tr>
@@ -488,7 +488,7 @@ Converts a <a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY<
 <a href="https://msdn.microsoft.com/ef8bb8eb-c6f1-4797-b64f-f4f9d41db2bb">VariantToRect</a>
 </td>
 <td align="left" width="63%">
-Converts a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> containing rectangle coordinates to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>.
+Converts a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> containing rectangle coordinates to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>.
 
 </td>
 </tr>

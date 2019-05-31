@@ -71,7 +71,7 @@ A handle to the enhanced metafile.
 
 ### -param lprect [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that contains the coordinates of the bounding rectangle used to display the picture. The coordinates are specified in logical units.
+A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the coordinates of the bounding rectangle used to display the picture. The coordinates are specified in logical units.
 
 
 ## -returns
@@ -135,7 +135,7 @@ For an example, see <a href="https://msdn.microsoft.com/e4e5ef5c-d5ea-4931-bbec-
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
  
 
  

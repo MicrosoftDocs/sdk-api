@@ -59,7 +59,7 @@ Discards pixels that fall outside of the specified trim rectangles.
 
 ### -param rectangles [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
 An array of rectangles to keep.
 

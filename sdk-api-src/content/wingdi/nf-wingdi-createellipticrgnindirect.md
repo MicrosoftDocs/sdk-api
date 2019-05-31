@@ -61,7 +61,7 @@ The <b>CreateEllipticRgnIndirect</b> function creates an elliptical region.
 
 ### -param lprect [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that contains the coordinates of the upper-left and lower-right corners of the bounding rectangle of the ellipse in logical units.
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the coordinates of the upper-left and lower-right corners of the bounding rectangle of the ellipse in logical units.
 
 
 ## -returns
@@ -99,7 +99,7 @@ A bounding rectangle defines the size, shape, and orientation of the region: The
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
 
 
 

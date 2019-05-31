@@ -78,7 +78,7 @@ A handle to the window to which points are converted. If this parameter is <b>NU
 
 ### -param lpPoints [in, out]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structures that contain the set of points to be converted. The points are in device units. This parameter can also point to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure, in which case the <i>cPoints</i> parameter should be set to 2.
+A pointer to an array of <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structures that contain the set of points to be converted. The points are in device units. This parameter can also point to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure, in which case the <i>cPoints</i> parameter should be set to 2.
 
 
 ### -param cPoints [in]
@@ -101,7 +101,7 @@ If the function fails, the return value is zero. Call <a href="https://msdn.micr
 
 
 
-If <i>hWndFrom</i> or <i>hWndTo</i> (or both) are mirrored windows (that is, have <b>WS_EX_LAYOUTRTL</b> extended style) and precisely two points are passed in <i>lpPoints</i>, <b>MapWindowPoints</b> will interpret those two points as a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> and possibly automatically swap the left and right fields of that rectangle to ensure that left is not greater than right. If any number of points other than 2 is passed in <i>lpPoints</i>, then <b>MapWindowPoints</b> will correctly map the coordinates of each of those points separately, so if you pass in a pointer to an array of more than one rectangle in <i>lpPoints</i>, the new rectangles may get their left field greater than right. Thus, to guarantee the correct transformation of rectangle coordinates, you must call <b>MapWindowPoints</b> with one <b>RECT</b> pointer at a time, as shown in the following example:
+If <i>hWndFrom</i> or <i>hWndTo</i> (or both) are mirrored windows (that is, have <b>WS_EX_LAYOUTRTL</b> extended style) and precisely two points are passed in <i>lpPoints</i>, <b>MapWindowPoints</b> will interpret those two points as a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> and possibly automatically swap the left and right fields of that rectangle to ensure that left is not greater than right. If any number of points other than 2 is passed in <i>lpPoints</i>, then <b>MapWindowPoints</b> will correctly map the coordinates of each of those points separately, so if you pass in a pointer to an array of more than one rectangle in <i>lpPoints</i>, the new rectangles may get their left field greater than right. Thus, to guarantee the correct transformation of rectangle coordinates, you must call <b>MapWindowPoints</b> with one <b>RECT</b> pointer at a time, as shown in the following example:
 
 
 ```cpp
@@ -116,7 +116,7 @@ If <i>hWndFrom</i> or <i>hWndTo</i> (or both) are mirrored windows (that is, hav
 ```
 
 
-Also, if you need to map precisely two independent points and don't want the <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> logic applied to them by <b>MapWindowPoints</b>, to guarantee the correct result you must call <b>MapWindowPoints</b> with one <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> pointer at a time, as shown in the following example:
+Also, if you need to map precisely two independent points and don't want the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> logic applied to them by <b>MapWindowPoints</b>, to guarantee the correct result you must call <b>MapWindowPoints</b> with one <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> pointer at a time, as shown in the following example:
 
 
 ```cpp
@@ -153,7 +153,7 @@ Also, if you need to map precisely two independent points and don't want the <a 
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
 
 
 

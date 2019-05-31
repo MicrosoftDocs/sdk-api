@@ -68,7 +68,7 @@ A handle to the device context.
 
 ### -param lprc [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that contains the logical coordinates of the rectangle to be inverted.
+A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the logical coordinates of the rectangle to be inverted.
 
 
 ## -returns
@@ -109,7 +109,7 @@ On monochrome screens, <b>InvertRect</b> makes white pixels black and black pixe
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT
       </a>
  
 

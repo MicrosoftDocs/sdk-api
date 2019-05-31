@@ -110,7 +110,7 @@ Use current background color to fill the rectangle.
 
 ### -param prc [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that defines the rectangle to use. If <i>uOptions</i> is set to ETO_OPAQUE and <b>NULL</b> is provided for <i>prc</i>, the function succeeds and returns S_OK. However, if the application sets <i>uOptions</i> to ETO_CLIPPING and provides <b>NULL</b> for <i>prc</i>, the function returns E_INVALIDARG. The application can set this parameter to <b>NULL</b> to indicate that no option is needed.
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that defines the rectangle to use. If <i>uOptions</i> is set to ETO_OPAQUE and <b>NULL</b> is provided for <i>prc</i>, the function succeeds and returns S_OK. However, if the application sets <i>uOptions</i> to ETO_CLIPPING and provides <b>NULL</b> for <i>prc</i>, the function returns E_INVALIDARG. The application can set this parameter to <b>NULL</b> to indicate that no option is needed.
 
 
 ### -param iMinSel [in]

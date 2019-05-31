@@ -207,9 +207,9 @@ A handle to the control's device context. Use this HDC to perform any GDI functi
 
 ### -field rc
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
-The <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that describes the bounding rectangle of the area being drawn. This member is initialized only by the CDDS_ITEMPREPAINT notification. <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.80.</a> This member is also initialized by the CDDS_PREPAINT notification. 
+The <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that describes the bounding rectangle of the area being drawn. This member is initialized only by the CDDS_ITEMPREPAINT notification. <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.80.</a> This member is also initialized by the CDDS_PREPAINT notification. 
 
 
 ### -field dwItemSpec

@@ -59,7 +59,7 @@ Alerts the object that it needs to resize its border space.
 
 ### -param prcBorder [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure containing the new outer rectangle within which the object can request border space for its tools.
+A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure containing the new outer rectangle within which the object can request border space for its tools.
 
 
 ### -param pUIWindow [in]

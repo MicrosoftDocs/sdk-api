@@ -62,17 +62,17 @@ The <b>SubtractRect</b> function determines the coordinates of a rectangle forme
 
 ### -param lprcDst [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that receives the coordinates of the rectangle determined by subtracting the rectangle pointed to by <i>lprcSrc2</i> from the rectangle pointed to by <i>lprcSrc1</i>.
+A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that receives the coordinates of the rectangle determined by subtracting the rectangle pointed to by <i>lprcSrc2</i> from the rectangle pointed to by <i>lprcSrc1</i>.
 
 
 ### -param lprcSrc1 [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure from which the function subtracts the rectangle pointed to by <i>lprcSrc2</i>.
+A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure from which the function subtracts the rectangle pointed to by <i>lprcSrc2</i>.
 
 
 ### -param lprcSrc2 [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that the function subtracts from the rectangle pointed to by <i>lprcSrc1</i>.
+A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that the function subtracts from the rectangle pointed to by <i>lprcSrc1</i>.
 
 
 ## -returns
@@ -106,7 +106,7 @@ Because applications can use rectangles for different purposes, the rectangle fu
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
 
 
 

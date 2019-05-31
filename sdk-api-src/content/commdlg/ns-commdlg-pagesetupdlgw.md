@@ -325,14 +325,14 @@ The dimensions of the paper selected by the user. The <b>PSD_INTHOUSANDTHSOFINCH
 
 ### -field rtMinMargin
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 The minimum allowable widths for the left, top, right, and bottom margins. The system ignores this member if the <b>PSD_MINMARGINS</b> flag is not set. These values must be less than or equal to the values specified in the <b>rtMargin</b> member. The <b>PSD_INTHOUSANDTHSOFINCHES</b> or <b>PSD_INHUNDREDTHSOFMILLIMETERS</b> flag indicates the units of measurement. 
 
 
 ### -field rtMargin
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 The widths of the left, top, right, and bottom margins. If you set the <b>PSD_MARGINS</b> flag, <b>rtMargin</b> specifies the initial margin values. When <a href="https://msdn.microsoft.com/en-us/library/ms646937(v=VS.85).aspx">PageSetupDlg</a> returns, <b>rtMargin</b> contains the margin widths selected by the user. The <b>PSD_INHUNDREDTHSOFMILLIMETERS</b> or <b>PSD_INTHOUSANDTHSOFINCHES</b> flag indicates the units of measurement. 
 

@@ -59,7 +59,7 @@ Retrieves the outer rectange for toolbars and controls while the object is activ
 
 ### -param lprectBorder [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure where the outer rectangle is to be returned. The structure's coordinates are relative to the window being represented by the interface.
+A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure where the outer rectangle is to be returned. The structure's coordinates are relative to the window being represented by the interface.
 
 
 ## -returns

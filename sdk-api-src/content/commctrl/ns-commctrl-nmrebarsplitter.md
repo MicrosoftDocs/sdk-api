@@ -66,7 +66,7 @@ An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMH
 
 ### -field rcSizing
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
-An <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that indicates the size the rebar will be after the drag operation completes.
+An <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that indicates the size the rebar will be after the drag operation completes.
 

@@ -86,17 +86,17 @@ Specifies the amount, in device units, of vertical scrolling. This parameter mus
 
 ### -param prcScroll [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that specifies the portion of the client area to be scrolled. If this parameter is <b>NULL</b>, the entire client area is scrolled. 
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies the portion of the client area to be scrolled. If this parameter is <b>NULL</b>, the entire client area is scrolled. 
 
 
 ### -param prcClip [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
 Pointer to a 
-					<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that contains the coordinates of the clipping rectangle. Only device bits within the clipping rectangle are affected. Bits scrolled from the outside of the rectangle to the inside are painted; bits scrolled from the inside of the rectangle to the outside are not painted. This parameter may be <b>NULL</b>. 
+					<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the coordinates of the clipping rectangle. Only device bits within the clipping rectangle are affected. Bits scrolled from the outside of the rectangle to the inside are painted; bits scrolled from the inside of the rectangle to the outside are not painted. This parameter may be <b>NULL</b>. 
 
 
 ### -param hrgnUpdate [in]
@@ -110,7 +110,7 @@ Handle to the region that is modified to hold the region invalidated by scrollin
 
 Type: <b>LPRECT</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that receives the boundaries of the rectangle invalidated by scrolling. This parameter may be <b>NULL</b>. 
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that receives the boundaries of the rectangle invalidated by scrolling. This parameter may be <b>NULL</b>. 
 
 
 ### -param flags [in]
@@ -242,7 +242,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/Bb787531(v
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
 
 
 

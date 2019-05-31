@@ -132,10 +132,10 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 ### -field rcText
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that, on entry, contains the rectangle of the item's text. The 
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that, on entry, contains the rectangle of the item's text. The 
 					<b>right</b> and 
 					<b>bottom</b> members of this structure can be modified to change the width and height, respectively, of the text rectangle of the item. 
 

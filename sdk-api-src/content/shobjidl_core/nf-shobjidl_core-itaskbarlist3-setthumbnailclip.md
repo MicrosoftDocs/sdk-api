@@ -66,9 +66,9 @@ The handle to a window represented in the taskbar.
 
 ### -param prcClip [in]
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>*</b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that specifies a selection within the window's client area, relative to the upper-left corner of that client area. To clear a clip that is already in place and return to the default display of the thumbnail, set this parameter to <b>NULL</b>.
+A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies a selection within the window's client area, relative to the upper-left corner of that client area. To clear a clip that is already in place and return to the default display of the thumbnail, set this parameter to <b>NULL</b>.
 
 
 ## -returns

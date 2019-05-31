@@ -84,7 +84,7 @@ A <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POIN
 
 ### -field UIAutomationType_Rect
 
-A <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure containing the coordinates of the upper-left and lower-right corners of a rectangle. This type is not supported for a custom UI Automation property.
+A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure containing the coordinates of the upper-left and lower-right corners of a rectangle. This type is not supported for a custom UI Automation property.
 
 
 ### -field UIAutomationType_Element
@@ -129,7 +129,7 @@ An array of <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b4
 
 ### -field UIAutomationType_RectArray
 
-An array of <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structures, each containing the coordinates of the upper-left and lower-right corners of a rectangle. This type is not supported for a custom UI Automation property.
+An array of <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structures, each containing the coordinates of the upper-left and lower-right corners of a rectangle. This type is not supported for a custom UI Automation property.
 
 
 ### -field UIAutomationType_ElementArray
@@ -164,7 +164,7 @@ The address of a variable that receives a <a href="https://msdn.microsoft.com/ec
 
 ### -field UIAutomationType_OutRect
 
-The address of a variable that receives a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure.
+The address of a variable that receives a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure.
 
 
 ### -field UIAutomationType_OutElement
@@ -199,7 +199,7 @@ The address of a variable that receives an array of <a href="https://msdn.micros
 
 ### -field UIAutomationType_OutRectArray
 
-The address of a variable that receives an array of <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structures.
+The address of a variable that receives an array of <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structures.
 
 
 ### -field UIAutomationType_OutElementArray

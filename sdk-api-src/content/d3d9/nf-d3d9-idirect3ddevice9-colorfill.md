@@ -67,7 +67,7 @@ Pointer to the surface to be filled.
 
 ### -param pRect [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
 Pointer to the source rectangle. Using <b>NULL</b> means that the entire surface will be filled.
 

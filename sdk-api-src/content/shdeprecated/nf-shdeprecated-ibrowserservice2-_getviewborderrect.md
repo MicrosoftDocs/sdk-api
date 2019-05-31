@@ -60,9 +60,9 @@ Deprecated. Used with <a href="https://msdn.microsoft.com/c0c53cd4-4b85-42d5-98c
 
 ### -param prc [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>*</b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure stating the dimensions of the browser view's border.
+A pointer to the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure stating the dimensions of the browser view's border.
 
 
 ## -returns

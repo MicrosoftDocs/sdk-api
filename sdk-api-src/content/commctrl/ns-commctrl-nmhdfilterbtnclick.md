@@ -73,9 +73,9 @@ The zero-based index of the control to which this structure refers.
 
 ### -field rc
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
-A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that contains the client rectangle for the filter button. 
+A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the client rectangle for the filter button. 
 
 
 ## -see-also

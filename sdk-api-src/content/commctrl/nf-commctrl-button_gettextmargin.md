@@ -68,7 +68,7 @@ A handle to the button control.
 
 Type: <b>RECT*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that specifies the margins to use for drawing text in a button control. 
+A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies the margins to use for drawing text in a button control. 
 
 
 ## -remarks

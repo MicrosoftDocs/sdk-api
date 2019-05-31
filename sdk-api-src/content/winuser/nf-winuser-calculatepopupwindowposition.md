@@ -261,7 +261,7 @@ Restricts the pop-up window
 
 ### -param excludeRect [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>*</b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
 A pointer to a structure that specifies the exclude rectangle. 
 				It can be <b>NULL</b>.
@@ -269,7 +269,7 @@ A pointer to a structure that specifies the exclude rectangle.
 
 ### -param popupWindowPosition [out]
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>*</b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
 A pointer to a structure that specifies the pop-up window position.
 				

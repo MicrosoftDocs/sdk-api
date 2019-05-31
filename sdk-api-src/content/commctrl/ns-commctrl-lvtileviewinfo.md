@@ -198,10 +198,10 @@ Maximum number of text lines in each item label, not counting the title.
 
 ### -field rcLabelMargin
 
-Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
+Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> that contains coordinates of the label margin.
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> that contains coordinates of the label margin.
 
 
 ## -remarks

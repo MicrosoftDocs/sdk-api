@@ -68,7 +68,7 @@ Handle to the region.
 
 ### -param lprect [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure containing the coordinates of the rectangle in logical units. The lower and right edges of the rectangle are not included.
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure containing the coordinates of the rectangle in logical units. The lower and right edges of the rectangle are not included.
 
 
 ## -returns
@@ -91,7 +91,7 @@ If no part of the specified rectangle lies within the boundaries of the region, 
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
 
 
 

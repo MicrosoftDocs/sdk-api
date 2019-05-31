@@ -67,7 +67,7 @@ Handle to the window whose update region is to be retrieved.
 
 ### -param lpRect [out]
 
-Pointer to the <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that receives the coordinates, in device units, of the enclosing rectangle.
+Pointer to the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that receives the coordinates, in device units, of the enclosing rectangle.
 
 An application can set this parameter to <b>NULL</b> to determine whether an update region exists for the window. If this parameter is <b>NULL</b>, <b>GetUpdateRect</b> returns nonzero if an update region exists, and zero if one does not. This provides a simple and efficient means of determining whether a <b>WM_PAINT</b> message resulted from an invalid area.
 
@@ -125,7 +125,7 @@ The update rectangle retrieved by the <a href="https://msdn.microsoft.com/513341
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
 
 
 

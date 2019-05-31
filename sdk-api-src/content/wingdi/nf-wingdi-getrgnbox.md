@@ -68,7 +68,7 @@ A handle to the region.
 
 ### -param lprc [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that receives the bounding rectangle in logical units.
+A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that receives the bounding rectangle in logical units.
 
 
 ## -returns
@@ -107,7 +107,7 @@ If the <i>hrgn</i> parameter does not identify a valid region, the return value 
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
 
 
 

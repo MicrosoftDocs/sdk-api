@@ -69,7 +69,7 @@ A handle to a device context. The function draws the window caption into this de
 
 ### -param lprect [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that specifies the bounding rectangle for the window caption in logical coordinates.
+A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies the bounding rectangle for the window caption in logical coordinates.
 
 
 ### -param flags [in]
@@ -183,7 +183,7 @@ If the function fails, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
  
 
  
