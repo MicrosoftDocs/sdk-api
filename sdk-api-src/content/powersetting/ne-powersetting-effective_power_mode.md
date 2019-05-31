@@ -1,6 +1,6 @@
 ---
-UID: NE:powersetting.EFFECTIVE_POWER_MODE
-title: EFFECTIVE_POWER_MODE (powersetting.h)
+UID: NE:powersetting.EFFECTIVE_POWER_MODE_V2
+title: EFFECTIVE_POWER_MODE_V2 (powersetting.h)
 author: windows-sdk-content
 description: Indicates the effective power mode the system is running.
 old-location: base\effective_power_mode.htm
@@ -13,7 +13,7 @@ ms.topic: enum
 req.header: powersetting.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10, version 1809 [desktop apps only]
+req.target-min-winverclnt: Windows 10, version 1903 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -35,15 +35,15 @@ api_type:
 api_location:
  - Powersetting.h
 api_name:
- - EFFECTIVE_POWER_MODE
+ - EFFECTIVE_POWER_MODE_V2
 product: Windows
 targetos: Windows
-req.typenames: EFFECTIVE_POWER_MODE
+req.typenames: EFFECTIVE_POWER_MODE_V2
 req.redist: 
-ms.custom: RS5, 19H1
+ms.custom: 19H1
 ---
 
-# EFFECTIVE_POWER_MODE enumeration
+# EFFECTIVE_POWER_MODE_V2 enumeration
 
 
 ## -description
@@ -86,7 +86,10 @@ The system is in the high performance effective power mode.
 The system is in the maximum performance effective power mode.
 
 
-### -field EffectivePowerModeInvalid
+### -field EffectivePowerModeGameMode
 
-The system is in an invalid effective power mode due to an internal error.
+The system is in game mode power mode. 
 
+### -field EffectivePowerModeMixedReality
+
+The system is in the windows mixed reality power mode. 
