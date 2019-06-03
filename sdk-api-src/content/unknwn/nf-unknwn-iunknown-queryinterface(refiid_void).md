@@ -7,7 +7,7 @@ old-location: com\iunknown_queryinterface.htm
 tech.root: com
 ms.assetid: 54d5ff80-18db-43f2-b636-f93ac053146d
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 05/31/2019
 ms.keywords: IUnknown interface [COM],QueryInterface method, IUnknown.QueryInterface, IUnknown.QueryInterface(REFIID,void), IUnknown::QueryInterface, IUnknown::QueryInterface(REFIID,void), QueryInterface, QueryInterface method [COM], QueryInterface method [COM],IUnknown interface, _com_iunknown_queryinterface, com.iunknown_queryinterface, unknwn/IUnknown::QueryInterface
 ms.topic: method
 req.header: unknwn.h
@@ -45,90 +45,43 @@ ms.custom: 19H1
 
 # IUnknown::QueryInterface(REFIID,void)
 
-
 ## -description
 
-
-Retrieves pointers to the supported interfaces on an object.
-
-This method calls <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">IUnknown::AddRef</a> on the pointer it returns.
-
+Queries a COM object for a pointer to one of its interface; identifying the interface by a reference to its interface identifier (IID). If the COM object implements the interface, then it returns a pointer to that interface after calling [IUnknown::AddRef](/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref) on it.
 
 ## -parameters
 
-
-
-
 ### -param riid
 
-TBD
+Type: **REFIID**
 
+A reference to the interface identifier (IID) of the interface being queried for.
 
 ### -param ppvObject
 
-TBD
+Type: **[void](/windows/desktop/winprog/windows-data-types)\*\***
 
-
-
-
-#### - arg2 [out]
-
-The address of a pointer variable that receives the interface pointer requested in the <i>riid</i> parameter. Upon successful return, *<i>ppvObject</i> contains the requested interface pointer to the object. If the object does not support the interface, *<i>ppvObject</i> is set to <b>NULL</b>.
-
-
-#### - pp [in]
-
-The identifier of the interface being requested.
-
+The address of a pointer to an interface with the IID specified in the *riid* parameter. Because you pass the address of an interface pointer, the method can overwrite that address with the pointer to the inteface being queried for. Upon successful return, *\*ppvObject* (the dereferenced address) contains a pointer to the requested interface. If the object doesn't support the interface, the method sets *\*ppvObject* (the dereferenced address) to `nullptr`.
 
 ## -returns
 
-
-
-This method returns S_OK if the interface is supported, and E_NOINTERFACE otherwise. If <i>ppvObject</i> is <b>NULL</b>, this method returns E_POINTER.
-
-
-
+This method returns **S_OK** if the interface is supported, and **E_NOINTERFACE** otherwise. If *ppvObject* (the address) is `nullptr`, then this method returns **E_POINTER**.
 
 ## -remarks
 
+For any given COM object (also known as a COM component), a specific query for the [IUnknown interface](/windows/desktop/api/unknwn/nn-unknwn-iunknown) on any of the object's interfaces must always return the same pointer value. This enables a client to determine whether two pointers point to the same component by calling **QueryInterface** with **IID_IUnknown** and comparing the results. It is specifically not the case that queries for interfaces other than **IUnknown** (even the same interface through the same pointer) must return the same pointer value.
 
+There are four requirements for implementations of **QueryInterface** (In these cases, "must succeed" means "must succeed barring catastrophic failure.").
 
-For any one object, a specific query for the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface on any of the object's interfaces must always return the same pointer value. This enables a client to determine whether two pointers point to the same component by calling <b>QueryInterface</b> with IID_IUnknown and comparing the results. It is specifically not the case that queries for interfaces other than IUnknown (even the same interface through the same pointer) must return the same pointer value.
+- The set of interfaces accessible on an object through **QueryInterface** must be static, not dynamic. This means that if a call to **QueryInterface** for a pointer to a specified interface succeeds the first time, then it must succeed again. If the call fails the first time, then it must fail on all subsequent calls.
+- It must be reflexive&mdash;if a client holds a pointer to an interface on an object, and the client queries for that interface, then the call must succeed.
+- It must be symmetric&mdash;if a client holding a pointer to one interface queries successfully for another, then a query through the obtained pointer for the first interface must succeed.
+- It must be transitive&mdash;if a client holding a pointer to one interface queries successfully for a second, and through that pointer queries successfully for a third interface, then a query for the first interface through the pointer for the third interface must succeed.
 
-There are four requirements for implementations of <b>QueryInterface</b> (In these cases, "must succeed" means "must succeed barring catastrophic failure."):
+### Notes to implementers
 
-<ul>
-<li>
-The set of interfaces accessible on an object through <b>QueryInterface</b> must be static, not dynamic. This means that if a call to <b>QueryInterface</b> for a pointer to a specified interface succeeds the first time, it must succeed again, and if it fails the first time, it must fail on all subsequent queries.
-
-</li>
-<li>
-It must be reflexive â€” if a client holds a pointer to an interface on an object, and queries for that interface, the call must succeed.
-
-</li>
-<li>
-It must be symmetric â€” if a client holding a pointer to one interface queries successfully for another, a query through the obtained pointer for the first interface must succeed.
-
-</li>
-<li>
-It must be transitive â€” if a client holding a pointer to one interface queries successfully for a second, and through that pointer queries successfully for a third interface, a query for the first interface through the pointer for the third interface must succeed.
-
-</li>
-</ul>
-<h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-Implementations of <b>QueryInterface</b> must never check ACLs. The main reason for this rule is that COM requires that an object supporting a particular interface always return success when queried for that interface. Another reason is that checking ACLs on <b>QueryInterface</b> does not provide any real security because any client who has access to a particular interface can hand it directly to another client without any calls back to the server. Also, because COM caches interface pointers, it does not call <b>QueryInterface</b> on the server every time a client does a query.
-
-
-
+Implementations of **QueryInterface** must never check ACLs. The main reason for this rule is that COM requires that an object supporting a particular interface always return success when queried for that interface. Another reason is that checking ACLs on **QueryInterface** does not provide any real security because any client who has access to a particular interface can hand it directly to another client without any calls back to the server. Also, because COM caches interface pointers, it does not call **QueryInterface** on the server every time a client does a query.
 
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
- 
-
- 
-
+* [IUnknown interface](/windows/desktop/api/unknwn/nn-unknwn-iunknown)
