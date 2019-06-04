@@ -69,7 +69,7 @@ Use with <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute">D
 
 ### -field DWMWA_CAPTION_BUTTON_BOUNDS
 
-Use with <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetwindowattribute">DwmGetWindowAttribute</a>. Retrieves the bounds of the caption button area in the window-relative space. The retrieved value is of type <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>.
+Use with <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetwindowattribute">DwmGetWindowAttribute</a>. Retrieves the bounds of the caption button area in the window-relative space. The retrieved value is of type <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>. If the window is minimized or otherwise not visible to the user, then the value of the **RECT** retrieved is undefined. You should check whether the retrieved **RECT** contains a boundary that you can work with, and if it doesn't then you can conclude that the window is minimized or otherwise not visible.
 
 ### -field DWMWA_NONCLIENT_RTL_LAYOUT
 
