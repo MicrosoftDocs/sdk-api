@@ -1,6 +1,6 @@
 ---
 UID: NF:unknwn.IClassFactory.CreateInstance
-title: IClassFactory::CreateInstance (unknwn.h)
+title: IClassFactory::CreateInstance
 author: windows-sdk-content
 description: Creates an uninitialized object.
 old-location: com\iclassfactory_createinstance.htm
@@ -43,38 +43,25 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# IClassFactory::CreateInstance
-
-
 ## -description
-
 
 Creates an uninitialized object.
 
-
 ## -parameters
-
-
-
 
 ### -param pUnkOuter [in]
 
 If the object is being created as part of an aggregate, specify a pointer to the controlling <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface of the aggregate. Otherwise, this parameter must be <b>NULL</b>. 
 
-
 ### -param riid [in]
 
 A reference to the identifier of the interface to be used to communicate with the newly created object. If <i>pUnkOuter</i> is <b>NULL</b>, this parameter is generally the IID of the initializing interface; if <i>pUnkOuter</i> is non-<b>NULL</b>, <i>riid</i> must be IID_IUnknown.
-
 
 ### -param ppvObject [out]
 
 The address of pointer variable that receives the interface pointer requested in <i>riid</i>. Upon successful return, *<i>ppvObject</i> contains the requested interface pointer. If the object does not support the interface specified in <i>riid</i>, the implementation must set *<i>ppvObject</i> to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, and E_UNEXPECTED, as well as the following values.
 
@@ -117,14 +104,8 @@ The object that <i>ppvObject</i> points to does not support the interface identi
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A COM server's implementation of <b>CreateInstance</b> must return a reference to an object contained in an apartment that belongs to the server's DCOM resolver. It must not return a reference to an object that is contained in a remote apartment.
 
@@ -140,32 +121,14 @@ In general, if an application supports only one class of objects, and the class 
 
 To avoid returning an error, applications that support multiple classes with single-use class objects can revoke the registered class object of the first class by calling <a href="https://msdn.microsoft.com/90b9b9ca-b5b2-48f5-8c2a-b478b6daa7ec">CoRevokeClassObject</a> when a request for instantiating a second is received. For example, suppose there are two classes, A and B. When <b>CreateInstance</b> is called for class A, revoke the class object for B. When B is created, revoke the class object for A. This solution complicates shutdown because one of the class objects might have already been revoked (and cannot be revoked twice).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a>
 
-
-
 <a href="https://msdn.microsoft.com/65e758ce-50a4-49e8-b3b2-0cd148d2781a">CoGetClassObject</a>
-
-
 
 <a href="https://msdn.microsoft.com/d27bfa6c-194a-41f1-8fcf-76c4dff14a8a">CoRegisterClassObject</a>
 
-
-
 <a href="https://msdn.microsoft.com/90b9b9ca-b5b2-48f5-8c2a-b478b6daa7ec">CoRevokeClassObject</a>
 
-
-
 <a href="https://msdn.microsoft.com/f624f833-2b69-43bc-92cd-c4ecbe6051c5">IClassFactory</a>
- 
-
- 
-

@@ -1,6 +1,6 @@
 ---
 UID: NF:unknwn.IUnknown.AddRef
-title: IUnknown::AddRef (unknwn.h)
+title: IUnknown::AddRef
 author: windows-sdk-content
 description: Increments the reference count for an interface pointer to a COM object. You should call this method whenever you make a copy of an interface pointer.
 old-location: com\iunknown_addref.htm

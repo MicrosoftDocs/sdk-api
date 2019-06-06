@@ -1,6 +1,6 @@
 ---
 UID: NF:unknwn.IUnknown.QueryInterface(REFIID,void)
-title: IUnknown::QueryInterface(REFIID,void) (unknwn.h)
+title: IUnknown::QueryInterface(REFIID,void)
 author: windows-sdk-content
 description: Retrieves pointers to the supported interfaces on an object.
 old-location: com\iunknown_queryinterface.htm
@@ -42,8 +42,6 @@ req.typenames:
 req.redist: 
 ms.custom: 19H1
 ---
-
-# IUnknown::QueryInterface(REFIID,void)
 
 ## -description
 

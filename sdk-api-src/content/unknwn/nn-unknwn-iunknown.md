@@ -1,6 +1,6 @@
 ---
 UID: NN:unknwn.IUnknown
-title: IUnknown interface (unknwn.h)
+title: IUnknown
 author: windows-sdk-content
 description: Enables clients to get pointers to other interfaces on a given object through the QueryInterface method, and manage the existence of the object through the AddRef and Release methods.
 old-location: com\iunknown.htm
@@ -42,8 +42,6 @@ req.typenames:
 req.redist: 
 ms.custom: 19H1
 ---
-
-# IUnknown interface (unknwn.h)
 
 ## -description
 
