@@ -1,6 +1,6 @@
 ---
 UID: NN:unknwn.IClassFactory
-title: IClassFactory (unknwn.h)
+title: IClassFactory
 author: windows-sdk-content
 description: Enables a class of objects to be created.
 old-location: com\iclassfactory.htm
@@ -43,14 +43,9 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# IClassFactory interface
-
-
 ## -description
 
-
 Enables a class of objects to be created.
-
 
 ## -inheritance
 
@@ -87,22 +82,10 @@ Locks an object application open in memory.
 </tr>
 </table> 
 
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a>
 
-
-
 <a href="https://msdn.microsoft.com/65e758ce-50a4-49e8-b3b2-0cd148d2781a">CoGetClassObject</a>
 
-
-
 <a href="https://msdn.microsoft.com/00b7edd2-8e2e-4e0a-91a6-d966f6c8d456">OleCreate</a>
- 
-
- 
-
