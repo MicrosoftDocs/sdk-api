@@ -47,6 +47,20 @@ ms.custom: 19H1
 
 A helper function template that infers an interface identifier, and calls [QueryInterface(REFIID,void)](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(refiid_void)).
 
+## -syntax
+
+```cpp
+template<class Q>
+HRESULT
+STDMETHODCALLTYPE
+QueryInterface(_COM_Outptr_ Q** pp)
+{
+    return QueryInterface(__uuidof(Q), (void **)pp);
+}
+```
+
+The `class Q` template parameter is the type of a COM interface.
+
 ## -parameters
 
 ### -param pp [out]
@@ -58,20 +72,6 @@ The address of a pointer to an interface. For details, see the *ppvObject* param
 ## -returns
 
 The function passes the return value back from [QueryInterface(REFIID,void)](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(refiid_void)).
-
-## -remarks
-
-The function template has this syntax. The `class Q` template parameter is the type of a COM interface.
-
-```cpp
-template<class Q>
-HRESULT
-STDMETHODCALLTYPE
-QueryInterface(_COM_Outptr_ Q** pp)
-{
-    return QueryInterface(__uuidof(Q), (void **)pp);
-}
-```
 
 ## -see-also
 
