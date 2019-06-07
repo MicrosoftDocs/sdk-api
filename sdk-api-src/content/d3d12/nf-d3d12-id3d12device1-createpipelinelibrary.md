@@ -45,87 +45,64 @@ ms.custom: 19H1
 
 # ID3D12Device1::CreatePipelineLibrary
 
-
 ## -description
 
-
-Creates a cached pipeline library. By grouping PSOs that are expected to share data together into a library before serializing, there’s less overhead due to metadata, as well as opportunity to avoid redundant or duplicated data from being written to disk.
-
+Creates a cached pipeline library. For pipeline state objects (PSOs) that are expected to share data together, grouping them into a library before serializing them means that there's less overhead due to metadata, as well as the opportunity to avoid redundant or duplicated data from being written to disk.
 
 ## -parameters
 
-
-
-
 ### -param pLibraryBlob [in]
 
-Type: <b>const void*</b>
+Type: **const void\***
 
- If the input library blob is empty, the initial contents of the library is empty. If the input library blob is not empty, it is validated for integrity, parsed, and the pointer is stored. The pointer provided as input to this method must remain valid for the lifetime of the object returned. For efficiency reasons, the data is not copied. 
-	  
-
+If the input library blob is empty, then the initial content of the library is empty. If the input library blob is not empty, then it is validated for integrity, parsed, and the pointer is stored. The pointer provided as input to this method must remain valid for the lifetime of the object returned. For efficiency reasons, the data is not copied. 
 
 ### -param BlobLength
 
-Type: <b>SIZE_T</b>
+Type: **[SIZE_T](/windows/desktop/winprog/windows-data-types)**
 
-Specifies the length of <i>pLibraryBlob</i> in bytes.
-
+Specifies the length of *pLibraryBlob* in bytes.
 
 ### -param riid
 
-Type: <b>REFIID</b>
+Type: **REFIID**
 
-Specifies a unique REFIID for the <a href="https://msdn.microsoft.com/7A1D750D-51F1-48F6-9D74-6439A147F1EC">ID3D12PipelineLibrary</a> object. 
-	  Typically set this and the following parameter with the macro <code>IID_PPV_ARGS(&amp;Library)</code>, where <i>Library</i> is the name of the object.
-
+Specifies a unique REFIID for the [ID3D12PipelineLibrary](/windows/desktop/api/d3d12/nn-d3d12-id3d12pipelinelibrary) object. Typically set this and the following parameter with the macro `IID_PPV_ARGS(&amp;Library)`, where **Library** is the name of the object.
 
 ### -param ppPipelineLibrary [out]
 
-Type: <b>void**</b>
+Type: **void\*\***
 
 Returns a pointer to the created library.
 
-
 ## -returns
+Type: **[HRESULT](/windows/desktop/com/structure-of-com-error-codes)**
 
+If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) [error code](/windows/desktop/com/com-error-codes-10), including E_INVALIDARG if the blob is corrupted or unrecognized, D3D12_ERROR_DRIVER_VERSION_MISMATCH if the provided data came from an old driver or runtime, and D3D12_ERROR_ADAPTER_NOT_FOUND if the data came from different hardware.
 
-
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
-
-This method returns an HRESULT success or error code, including E_INVALIDARG if the blob is corrupted or unrecognized, D3D12_ERROR_DRIVER_VERSION_MISMATCH if the provided data came from an old driver or runtime, and D3D12_ERROR_ADAPTER_NOT_FOUND if the data came from different hardware.
-
-If you pass nullptr for <i>ppPipelineLibrary</i> then the runtime will still perform the validation of the blob but avoid creating the actual library and returns S_FALSE if the library would have been created.
+If you pass `nullptr` for *pPipelineLibrary* then the runtime still performs the validation of the blob but avoid creating the actual library and returns S_FALSE if the library would have been created.
 
 Also, the feature requires an updated driver, and attempting to use it on old drivers will return DXGI_ERROR_UNSUPPORTED.
 
-
-
-
 ## -remarks
-
-
 
 A pipeline library enables the following operations.
 
-<ul>
-<li>Adding Pipeline State Objects (PSOs) to an existing library object (refer to <a href="https://msdn.microsoft.com/A7847966-4B31-47EA-A5CB-B6576CD2501F">StorePipeline</a>). 
+- Adding pipeline state objects (PSOs) to an existing library object (refer to <a href="https://msdn.microsoft.com/A7847966-4B31-47EA-A5CB-B6576CD2501F">StorePipeline</a>).
+- Serializing a PSO library into a contiguous block of memory for disk storage (refer to <a href="https://msdn.microsoft.com/FD81B464-1E93-47CF-9D95-8F8F64C39CD6">Serialize</a>).
+- De-serializing a PSO library from persistent storage (this is handled by <b>CreatePipelineLibrary</b>).
+- Retrieving individual PSOs from the library (refer to <a href="https://msdn.microsoft.com/8295D6E3-8353-46AD-A741-170244495F8B">LoadComputePipeline</a> and <a href="https://msdn.microsoft.com/1DDD1348-2039-4BF4-9ED8-7AA087D0B654">LoadGraphicsPipeline</a>).
 
-      </li>
-<li>Serializing a PSO library into a contiguous block of memory for disk storage (refer to <a href="https://msdn.microsoft.com/FD81B464-1E93-47CF-9D95-8F8F64C39CD6">Serialize</a>).</li>
-<li>De-serializing a PSO library from persistent storage (this is handled by <b>CreatePipelineLibrary</b>).</li>
-<li>Retrieving individual PSOs from the library (refer to <a href="https://msdn.microsoft.com/8295D6E3-8353-46AD-A741-170244495F8B">LoadComputePipeline</a> and <a href="https://msdn.microsoft.com/1DDD1348-2039-4BF4-9ED8-7AA087D0B654">LoadGraphicsPipeline</a>).</li>
-</ul>
 At no point in the lifecycle of a pipeline library is there duplication between PSOs with identical sub-components. 
-      A recommended solution for managing the lifetime of the provided pointer while only having to ref-count the returned interface is to leverage <a href="https://msdn.microsoft.com/B03B9420-7E85-4C1A-858C-37B20E4D9B52">ID3D12Object::SetPrivateDataInterface</a>, and use an object which implements <b>IUnknown</b>, and frees the memory when the ref-count reaches 0. 
 
+A recommended solution for managing the lifetime of the provided pointer while only having to ref-count the returned interface is to leverage <a href="https://msdn.microsoft.com/B03B9420-7E85-4C1A-858C-37B20E4D9B52">ID3D12Object::SetPrivateDataInterface</a>, and use an object which implements <b>IUnknown</b>, and frees the memory when the ref-count reaches 0. 
 
 #### Examples
 
-Create a PSO library and add PSOs to it. 
-    Note the macro IID_PPV_ARGS expands to become two parameters.
+Create a PSO library and add PSOs to it. Note the macro IID_PPV_ARGS expands to become two parameters.
 
-<pre class="syntax" xml:space="preserve"><code>ID3D12Device* Device; 
+```cpp
+ID3D12Device* Device; 
     VERIFY_SUCCEEDED(D3D12CreateDevice(nullptr, IID_PPV_ARGS(&amp;Device))); 
     ID3D12PipelineState* PSO1, PSO2; 
 
@@ -141,11 +118,11 @@ Create a PSO library and add PSOs to it.
 
     // Save pData to disk 
     ...
-    </code></pre>
-Create a PSO library using data loaded off of disk and retrieve PSOs out of it. 
-    This time the call to <b>CreatePipelineLibrary</b> de-serializes the library.
+```
 
-<pre class="syntax" xml:space="preserve"><code>
+Create a PSO library using data loaded off of disk and retrieve PSOs out of it. This time the call to <b>CreatePipelineLibrary</b> de-serializes the library.
+
+```cpp
     ID3D12Device* Device; 
     VERIFY_SUCCEEDED(D3D12CreateDevice(nullptr, IID_PPV_ARGS(&amp;Device))); 
     ID3D12PipelineState* PSO1, PSO2; 
@@ -157,21 +134,9 @@ Create a PSO library using data loaded off of disk and retrieve PSOs out of it.
     ID3D12PipelineLibrary* Library; 
     VERIFY_SUCCEEDED(Device-&gt;CreatePipelineLibrary(LibraryData, LibraryDataSize, IID_PPV_ARGS(&amp;Library))); 
     VERIFY_SUCCEEDED(Library-&gt;LoadGraphicsPipeline(L“PSO1”, IID_PPV_ARGS(&amp;PSO1))); 
-    VERIFY_SUCCEEDED(Library-&gt;LoadComputePipeline(L“PSO2”, IID_PPV_ARGS(&amp;PSO2))); </code></pre>
-
-
+    VERIFY_SUCCEEDED(Library-&gt;LoadComputePipeline(L“PSO2”, IID_PPV_ARGS(&amp;PSO2)));
+```
 
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/7650C695-3F46-405A-9976-A4A50FFAD567">ID3D12Device1</a>
-
-
-
-<a href="https://github.com/Microsoft/DirectX-Graphics-Samples/tree/master/Samples/Desktop/D3D12PipelineStateCache">Pipleline State Cache sample</a>
- 
-
- 
-
+<a href="https://msdn.microsoft.com/7650C695-3F46-405A-9976-A4A50FFAD567">ID3D12Device1</a>, <a href="https://github.com/Microsoft/DirectX-Graphics-Samples/tree/master/Samples/Desktop/D3D12PipelineStateCache">Pipleline State Cache sample</a>
