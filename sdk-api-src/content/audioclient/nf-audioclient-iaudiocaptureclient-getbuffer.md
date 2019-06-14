@@ -78,7 +78,7 @@ AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY
 
 AUDCLNT_BUFFERFLAGS_TIMESTAMP_ERROR
 
-<div class="alert"><b>Note</b>   The AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY flag is not supported in Windows Vista.<p class="note">In Windows 7, this flag can be used for glitch detection. To start the capture stream, the client application must call <a href="https://msdn.microsoft.com/706f9833-7f06-4bdc-96d5-6872f6effcb9">IAudioClient::Start</a> followed by calls to <b>GetBuffer</b> in a loop to read data packets until all of the available packets in the endpoint buffer have been read. The behavior of the AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY flag is undefined on the application's first call to <b>GetBuffer</b> after <b>Start</b>. On subsequent calls, <b>GetBuffer</b> sets this flag to indicate a glitch in the  buffer pointed by <i>ppData</i>.
+<div class="alert"><b>Note</b>   The AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY flag is not supported in Windows Vista.<p class="note">In Windows 7 and later OS releases, this flag can be used for glitch detection. To start the capture stream, the client application must call <a href="https://msdn.microsoft.com/706f9833-7f06-4bdc-96d5-6872f6effcb9">IAudioClient::Start</a> followed by calls to <b>GetBuffer</b> in a loop to read data packets until all of the available packets in the endpoint buffer have been read. <b>GetBuffer</b> sets the AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY flag to indicate a glitch in the  buffer pointed by <i>ppData</i>.
 
 </div>
 <div> </div>
@@ -133,7 +133,7 @@ The call succeeded and <i>*pNumFramesToRead</i> is 0, indicating that no capture
 </dl>
 </td>
 <td width="60%">
-<b>Windows 7</b>: <a href="https://msdn.microsoft.com/4298f584-39ce-4138-994a-0e551370429f">GetBuffer</a> failed to retrieve a data buffer and *<i>ppData</i> points to <b>NULL</b>. For more information, see Remarks.
+<b>Windows 7 and later</b>: <a href="https://msdn.microsoft.com/4298f584-39ce-4138-994a-0e551370429f">GetBuffer</a> failed to retrieve a data buffer and *<i>ppData</i> points to <b>NULL</b>. For more information, see Remarks.
 
 </td>
 </tr>
@@ -230,7 +230,7 @@ If no new packet is currently available, the method sets <i>*pNumFramesToRead</i
 
 Clients should avoid excessive delays between the <b>GetBuffer</b> call that acquires a packet and the <b>ReleaseBuffer</b> call that releases the packet. The implementation of the audio engine assumes that the <b>GetBuffer</b> call and the corresponding <b>ReleaseBuffer</b> call occur within the same buffer-processing period. Clients that delay releasing a packet for more than one period risk losing sample data.
 
-In Windows 7, <b>GetBuffer</b> can return the <b>AUDCLNT_E_BUFFER_ERROR</b> error code for an audio client that uses the endpoint buffer in the exclusive mode. This error indicates that the data buffer was not retrieved because a data packet wasn't available (*<i>ppData</i> received <b>NULL</b>).   
+In Windows 7 and later, <b>GetBuffer</b> can return the <b>AUDCLNT_E_BUFFER_ERROR</b> error code for an audio client that uses the endpoint buffer in the exclusive mode. This error indicates that the data buffer was not retrieved because a data packet wasn't available (*<i>ppData</i> received <b>NULL</b>).   
 
 If <b>GetBuffer</b> returns <b>AUDCLNT_E_BUFFER_ERROR</b>, the thread consuming the audio samples must wait for the next processing pass. The client might benefit from keeping a count of the failed <b>GetBuffer</b> calls. If <b>GetBuffer</b> returns this error repeatedly, the client can start a new processing loop after shutting down the current client by calling <a href="https://msdn.microsoft.com/d5824aa9-0b91-4bee-9c0c-26e12a6b96b5">IAudioClient::Stop</a>, <a href="https://msdn.microsoft.com/c1a4f673-ecbf-4855-b8bb-c0f0807dedd4">IAudioClient::Reset</a>, and releasing the audio client.
 
